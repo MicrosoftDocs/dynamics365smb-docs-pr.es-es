@@ -1,0 +1,46 @@
+---
+title: "Configuración de direcciones alternativas de contactos | Documentos de Microsoft"
+description: "Describe cómo configurar direcciones alternativas de contactos en Financials"
+services: project-madeira
+documentationcenter: 
+author: jswymer
+ms.service: dynamics365-financials
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: relationship, prospect
+ms.date: 03/28/2017
+ms.author: jswymer
+ms.translationtype: Human Translation
+ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
+ms.openlocfilehash: 0ce913952b98058759215160ce4a42ce25f8fe55
+ms.contentlocale: es-es
+ms.lasthandoff: 05/04/2017
+
+
+---
+# <a name="how-to-set-up-alternative-addresses-for-contacts"></a>Procedimiento: Configuración de direcciones alternativas de contactos
+Puede asignar una dirección alternativa a la que pueda enviar correo e información en ocasiones a sus contactos, por ejemplo, a su casa de verano. También puede asignar uno o varios rangos de fechas para cada dirección alternativa especificada para sus contactos para especificar cuándo es válida una dirección.
+
+## <a name="to-assign-an-alternate-address"></a>Para asignar direcciones alternativas
+1. Abra el contacto.
+2. Elija la acción **Dirección alternativa** y, a continuación, elija **Ficha**. Se abre la ventana **Lista dir. alt. contacto**.
+3. Escriba una nueva dirección alternativa y rellene los campos de ventana **Dirección de contacto alternativa**.
+
+Repita estos pasos para asignar todas las direcciones alternativas que desee. Para cada dirección alternativa puede especificar uno o varios rangos de fechas.
+
+También puede asignar direcciones alternativas, con el mismo procedimiento, en la ventana de lista de contactos.
+
+## <a name="to-assign-an-alternate-address-date-range"></a>Para asignar un intervalo de fechas de direcciones alternativas
+1. Abra el contacto.
+2. Elija la acción **Dirección alternativa** y, a continuación, elija **Rango de fechas**. Se abre la ventana **Rangos fecha dir. alt. cont.**
+3. Elija la acción **Nuevo**.
+4. En el campo **Cód. dirección alt. contacto**, seleccione una dirección alternativa para este contacto y, a continuación, rellene los campos **Fecha de inicio** y **Fecha de finalización**.
+
+Repita estos pasos para asignar todos los rangos fechas que desee.
+
+## <a name="see-also"></a>Consulte también
+[Crear empresas de contacto](marketing-create-contact-companies.md)  
+[Trabajar con Financials](ui-work-product.md)
+
