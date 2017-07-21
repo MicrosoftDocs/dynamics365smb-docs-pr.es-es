@@ -1,6 +1,6 @@
 ---
-title: Configurar compras | Documentos de Microsoft
-description: Configurar compras
+title: Resumen de tareas para configurar las compras | Documentos de Microsoft
+description: Describe las tareas para definir las directivas de aprovisionamiento de su empresa y configurar sus procesos de compra.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: procurement, supply, vendor order
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: dbefd446d58395ce6aeb85bbb0e29be343acba0b
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: bc4578131489baa66d31e8c25b4815b87f992fdf
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -33,11 +33,10 @@ La configuración de compra relacionada con las finanzas, como las formas de pag
 | --- | --- |
 | Cree una ficha de proveedor para cada proveedor del que compre. |[Registro de proveedores nuevos](purchasing-how-register-new-vendors.md) |
 | Introduzca los diferentes descuentos y precios especiales que los proveedores garantizan en función del producto, la cantidad o la fecha. |[Registrar acuerdos de precios de compra, descuentos y pagos](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
-|Obtenga información sobre cómo [!INCLUDE[d365fin](includes/d365fin_md.md)] optimiza automáticamente el beneficio en las operaciones comerciales al registrar acuerdos de precios o descuentos especiales.|[Avanzado: Cálculo del mejor precio](advanced-best-price-calculation.md) |
 | De prioridad a los proveedores. |[Asignación de prioridad a proveedores](purchasing-how-prioritize-vendors.md) |
 | Configure los compradores. |[Configuración de compradores](purchasing-how-setup-purchasers.md) |
 
 ## <a name="see-also"></a>Consulte también
 [Compras](purchasing-manage-purchasing.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

@@ -1,6 +1,6 @@
 ---
-title: Programar un informe para que se ejecute | Documentos de Microsoft
-description: "Obtenga información sobre cómo puede programar un informe para ejecutarlo en una fecha posterior."
+title: "Programar un informe para ejecutarlo en una fecha y hora específicos | Documentos de Microsoft"
+description: "Obtenga información sobre cómo introducir un informe en una cola de proyectos y programarlo para que se procesa en una fecha y hora específicas."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,10 +13,10 @@ ms.search.keywords: task, process, job queue
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 50d0d76857b71cc2b2c706cf2a585fde5e7449e8
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 0b97a5e48c4b339375ca9ad8cbe8388c5d47bb44
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -27,5 +27,5 @@ Puede programar un informe cuando abra un informe. Puede elegir la acción **Pro
 
 ## <a name="see-also"></a>Consulte también
 [Especificar selección de impresora para informes](ui-specify-printer-selection-reports.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

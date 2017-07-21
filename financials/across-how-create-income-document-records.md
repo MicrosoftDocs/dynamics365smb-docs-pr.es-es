@@ -1,6 +1,6 @@
 ---
-title: Crear varios registros de documento entrantes | Documentos de Microsoft
-description: 'Procedimiento: Crear registros de documento entrantes'
+title: Crear registros de documento entrantes | Documentos de Microsoft
+description: "Puede crear registros de los documentos entrantes, como facturas electrónicas, y administrar las tareas de OCR, comercio electrónico e intercambio de documentos."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 05/12/2016
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 38ea48e8a948df0fc3894e91d8393d2d14b2fd5a
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 36e1acc3125e325a9fca8fdd9ce797ac50c065c1
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -30,13 +30,14 @@ Para poder usar la función Documentos entrantes, debe realizar la configuració
 ## <a name="to-approve-or-reject-an-incoming-document"></a>Para aprobar o rechazar un documento entrante
 Si desea que los usuarios creen facturas o líneas de diario general a partir de los registros de documento entrante a menos que se aprueben, puede configurar aprobadores que deben aprobar los registros antes de que se puedan procesar.
 
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Documentos entrantes** y elija el vínculo relacionado.
-2. Seleccione la línea con el documento que desea aprobar o rechazar y, a continuación, ** elija las acciones **Aprobar** o **Rechazar**.
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Documentos entrantes** y, a continuación, seleccione el vínculo relacionado.
+2. Seleccione la línea con el documento que desea aprobar o rechazar y, a continuación, elija las acciones **Aprobar** o **Rechazar**.
 
 Si aprueba el registro de documento entrante, se marca la casilla **Lanzado** de la línea de documento entrante. El usuario responsable de crear, por ejemplo, facturas de compra puede procesar el registro.
 
 ## <a name="to-create-an-incoming-document-record-by-taking-a-photo"></a>Para crear un registro de documento entrante tomando una foto
-**Nota**: El procedimiento siguiente solo se aplica a los clientes de teléfonos y tabletas de [!INCLUDE[d365fin](includes/d365fin_md.md)].
+> [!NOTE]  
+>   El procedimiento siguiente solo se aplica a los clientes de teléfonos y tabletas de [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 1. En la barra de aplicaciones, seleccione el mosaico **Crear documento entrante desde la cámara** y, a continuación, vaya al paso 4.
 2. O bien, en la barra de aplicaciones, seleccione el botón de opciones, elija **Documentos entrantes** y, a continuación, elija **Todo**.
@@ -46,7 +47,8 @@ Si aprueba el registro de documento entrante, se marca la casilla **Lanzado** de
 Se crea un nuevo registro de documento entrante con la imagen adjunta.
 
 ## <a name="to-attach-an-image-to-an-incoming-document-record-by-taking-a-photo"></a>Para adjuntar una imagen en un registro de documento entrante
-**Nota**: El procedimiento siguiente solo se aplica a los clientes de teléfonos y tabletas de [!INCLUDE[d365fin](includes/d365fin_md.md)].
+> [!NOTE]  
+>   El procedimiento siguiente solo se aplica a los clientes de teléfonos y tabletas de [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 1. En la barra de aplicaciones, elija el botón opciones, seleccione **Documentos entrantes** y, a continuación, elija **Todo**.
 2. Abra la ficha de un registro entrante de documento entrante existente.
@@ -56,7 +58,7 @@ Se crea un nuevo registro de documento entrante con la imagen adjunta.
 La imagen se adjunta al registro de documento entrante.
 
 ## <a name="to-create-an-incoming-document-record-manually"></a>Para crear un registro de documento entrante manualmente
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Documentos entrantes** y elija el vínculo relacionado.
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Documentos entrantes** y, a continuación, seleccione el vínculo relacionado.
 2. Elija la acción **Crear desde archivo**.  
 3. En la ventana **Insertar archivo**, seleccione un archivo y, a continuación, elija **Abrir**.
 
@@ -70,5 +72,5 @@ La imagen se adjunta al registro de documento entrante.
 [Procesar documentos entrantes](across-process-income-documents.md)  
 [Documentos entrantes](across-income-documents.md)  
 [Compras](purchasing-manage-purchasing.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

@@ -1,6 +1,6 @@
 ---
-title: Registrar nuevos clientes | Documentos de Microsoft
-description: Registro de clientes nuevos
+title: Crear una ficha de cliente para registrar clientes nuevos | Documentos de Microsoft
+description: "Describe cómo crear una ficha de cliente para registrar información acerca de cada cliente nuevo o existente a los que venda productos."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: client
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 6789e6a4129789e950c7f71ff86e62263ae9c087
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: ca4f1880e7a95eaf945d48ca2cdd7b3d5f80a621
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -25,7 +25,8 @@ Los clientes son el origen de los ingresos. Debe registrar cada cliente a quien 
 
 Antes de que pueda registrar nuevos clientes, debe configurar varios códigos de ventas que pueda seleccionar al rellenar fichas de cliente. Para obtener más información, consulte [Configurar ventas](sales-setup-sales.md).
 
-**Nota**: Si existen plantillas de cliente para distintos tipos de cliente, una ventana aparece automáticamente cuando se crea una nueva ficha de cliente en la que puede seleccionar una plantilla de cliente correspondiente. Si solo existe una plantilla de cliente, las nuevas fichas de cliente utilizan siempre esa plantilla.
+> [!NOTE]  
+>   Si existen plantillas de cliente para distintos tipos de cliente, una ventana aparece automáticamente cuando se crea una nueva ficha de cliente en la que puede seleccionar una plantilla de cliente correspondiente. Si solo existe una plantilla de cliente, las nuevas fichas de cliente utilizan siempre esa plantilla.
 
 ## <a name="to-create-a-new-customer-card"></a>Para crear una nueva ficha cliente.
 1. En la página Inicio, seleccione la acción **Clientes** para abrir la lista de clientes existentes.  
@@ -56,5 +57,5 @@ La plantilla de cliente se agrega a la lista de plantillas de cliente, de modo q
 ## <a name="see-also"></a>Consulte también
 [Ventas](sales-manage-sales.md)    
 [Configuración de ventas](sales-setup-sales.md)    
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

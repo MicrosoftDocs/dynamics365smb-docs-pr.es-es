@@ -1,6 +1,6 @@
 ---
-title: Activos fijos | Documentos de Microsoft
-description: "Describe cómo se gestionan los activos fijos."
+title: Administrar activos fijos | Documentos de Microsoft
+description: "Obtenga información sobre la funcionalidad de activos fijos en Financials y obtenga un resumen de cómo trabajar con activos fijos."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: d57603202d9e2e5304c899eaf764dde8cfa6369d
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: c2a563d09d09e9772ab00fcffc48db9cbc5ee797
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -31,9 +31,11 @@ Puede registrar los costes de mantenimiento y la fecha del siguiente servicio de
 
 Cada activo puede tener una o varias pólizas de seguro. Por tanto, podrá comprobar con facilidad que los importes de las pólizas de seguro están en consonancia con el valor de los activos relacionados con la póliza. También permite controlar las primas anuales.
 
-**Nota**: Puede registrar transacciones de activos en las ventanas **A/F Diario general** o **Diario activos fijos**, dependiendo de si las transacciones son para la información financiera o la gestión interna. La ayuda para los activos fijos solo describe cómo utilizar ventana **A/F Diario general**. Para obtener más información, consulte [Procedimiento: Configurar amortización de activos fijos](fa-how-setup-depreciation.md).
+> [!NOTE]  
+>   Puede registrar transacciones de activos en las ventanas **A/F Diario general** o **Diario activos fijos**, dependiendo de si las transacciones son para la información financiera o la gestión interna. La ayuda para los activos fijos solo describe cómo utilizar ventana **A/F Diario general**. Para obtener más información, consulte [Procedimiento: Configurar amortización de activos fijos](fa-how-setup-depreciation.md).
 
-**Nota**: Esta funcionalidad que requiere que la experiencia esté definida en **Conjunto de aplicaciones**. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
+> [!NOTE]  
+>   Esta funcionalidad requiere que la experiencia esté definida en **Conjunto de aplicaciones**. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
 
 Para poder empezar a administrar los activos fijos, debe configurar valores predeterminados, la contabilidad de activos fijos, grupos contables, claves de asignación, diarios y tipos de registro. Para obtener más información, vea [Configurar activos fijos](fa-setup.md).
 
@@ -55,6 +57,6 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)  
 [Finanzas](finance.md)  
 [[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

@@ -1,6 +1,6 @@
 ---
-title: "Configurar la información general de activos fijos | Documentos de Microsoft"
-description: "Describe cómo configurar el sistema para administrar los activos fijos."
+title: Configurar activos fijos de contabilidad | Documentos de Microsoft
+description: "Antes de trabajar con activos fijos, debe configurar las cuentas contables predeterminadas, los grupos contables, las claves de asignación, las plantillas y secciones de diario, y los códigos de clase."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/31/2016
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: bf5edf81ea0a95a3915588687d4222259970909c
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 4a41abe08412b357207cbbc08e8dc5041b12d942
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -25,27 +25,28 @@ Para poder gestionar activos fijos, debe configurar las cuentas predeterminadas,
 ## <a name="to-set-up-general-default-values-for-fixed-assets"></a>Para configurar los valores predeterminados generales de los activos fijos
 Defina el comportamiento general o la funcionalidad de los activos y configure las series numéricas del documento en la ventana **Configuración de activos fijos**.
 
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Configuración de activos fijos** y elija el vínculo relacionado.  
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Configuración de activos fijos** y, a continuación, seleccione el vínculo relacionado.  
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-up-fixed-asset-posting-groups"></a>Para configurar los grupos contables de activos fijos
 Puede utilizar grupos de registro para definir los grupos contables de activos fijos. Los movimientos de estos grupos contables se registran en las mismas cuentas contables.
 
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **A/F Grupos contables** y elija el vínculo relacionado.  
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **A/F Grupos contables** y, a continuación, seleccione el vínculo relacionado.  
 2. Seleccione la acción **Nuevo**.
 3. En la ventana **A/F Ficha grupo contable**, rellene los campos según sea necesario.
 
-    **Nota**: Para asegurarse de que las cuentas de contrapartida de los diferentes registros de activos se insertan automáticamente en las líneas del diario al elegir la acción **Introducir saldo AF**, vaya al siguiente paso que se basa en el registro de apreciación.
+    > [!NOTE]  
+>   ara asegurarse de que las cuentas de contrapartida de los diferentes registros de activos se insertan automáticamente en las líneas del diario al elegir la acción **Introducir saldo AF**, vaya al siguiente paso que se basa en el registro de apreciación.
 4. En la ficha desplegable **Saldo**, en el campo **Cta. contrap. apreciación**, seleccione la cuenta contable en la que desea registrar las contrapartidas para la apreciación.
 
 Para obtener más información sobre cómo usar la acción **Introducir saldo AF** en las líneas del diario general de activos, vea, por ejemplo, [Procedimiento: Revalorizar activos fijos](fa-how-revalue.md).
 
 ## <a name="to-set-up-fixed-asset-allocation-keys"></a>Para configurar claves de distribución de activos fijos
-Las transacciones pueden distribuirse en varios departamentos y proyectos, según las claves de distribución definidas por el usuario. Por ejemplo, puede configurar una clave de distribución para distribuir los costes de amortización de automóviles con el 35% para el departamento de administración y el 65% para el de ventas. Para obtener más información, vea [Procedimiento: Utilizar claves de asignación en diarios generales](ui-how-use-allocation-keys-general-journals.md).
+Las transacciones pueden distribuirse en varios departamentos y proyectos, según las claves de distribución definidas por el usuario. Por ejemplo, puede configurar una clave de distribución para distribuir los costes de amortización de automóviles con el 35% para el departamento de administración y el 65% para el de ventas. Para obtener más información, consulte [Asignar costes e ingresos](year-allocate-costs-income.md).
 
 Las claves de asignación se aplican a las clases de activos, no a los activos individuales.
 
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **A/F Grupos contables** y elija el vínculo relacionado.  
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **A/F Grupos contables** y, a continuación, seleccione el vínculo relacionado.  
 2. En la ventana **A/F Grupos contables**, elija la acción **Distribuciones** y, a continuación, elija un tipo de registro.
 3. En la ventana **A/F Distribuciones**, rellene los campos según sea necesario.
 4. Repita los pasos 2 y 3 en todos los tipos de registro para los que desea definir claves de distribución.
@@ -55,45 +56,45 @@ Un libro es un diseño predeterminado de un diario. El libro contiene informaci�
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] crea automáticamente una plantilla de diario de activos la primera vez que abre la ventana **Diario de activos**, pero puede configurar plantillas de diario adicionales.  
 
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **A/F Libros diarios** y elija el vínculo relacionado.  
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **A/F Libros diarios** y, a continuación, seleccione el vínculo relacionado.  
 2. Rellene los campos según sea necesario.
 
 ## <a name="to-set-up-fixed-asset-journal-batches"></a>Para configurar las secciones del diario de activos
 Puede configurar múltiples secciones de diario, que son diarios individuales para cada libro de diario. Por ejemplo, los empleados pueden tener su propia sección de diario que utiliza las iniciales del empleado como nombre de la sección. Para obtener más información, consulte [Trabajar con diarios generales](ui-work-general-journals.md).  
 
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **A/F Libros diarios** y elija el vínculo relacionado.  
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **A/F Libros diarios** y, a continuación, seleccione el vínculo relacionado.  
 2. Seleccione la plantilla de diario correspondiente y, a continuación, elija la acción **Secciones**.
 3. En la ventana **A/F Secciones diario**, rellene los campos según sea necesario.
 
 ## <a name="to-set-up-fixed-asset-reclassification-journal-templates"></a>Para configurar las plantillas del diario de reclasificación de activos
 Use los diarios de reclasificación dedicados cuando deba transferir, dividir o combinar activos fijos. [!INCLUDE[d365fin](includes/d365fin_md.md)] crea automáticamente una plantilla del diario de reclasificación de activos la primera vez que se abre la ventana **A/F Diario reclasif.**, pero puede configurar plantillas de diarios de reclasificación adicionales. Para obtener más información, consulte [Trabajar con diarios generales](ui-work-general-journals.md).  
 
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **A/F Libros diarios reclasif.** y elija el vínculo relacionado.  
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **A/F Libros diarios reclasif.** y, a continuación, seleccione el vínculo relacionado.  
 2. Rellene los campos según sea necesario.
 
 ## <a name="to-set-up-fixed-asset-reclassification-journal-batches"></a>Para configurar las secciones del diario de reclasificación de activos
 Puede configurar múltiples secciones de diario, que son diarios individuales para cada libro de diario reclasificación. Por ejemplo, los empleados pueden tener su propia sección de diario reclasificación que utiliza las iniciales del empleado como nombre de la sección de diario reclasificación. Para obtener más información, consulte [Trabajar con diarios generales](ui-work-general-journals.md).
 
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **A/F Libros diarios reclasif.** y elija el vínculo relacionado.  
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **A/F Libros diarios reclasif.** y, a continuación, seleccione el vínculo relacionado.  
 2. Seleccione la plantilla de diario correspondiente y, a continuación, elija la acción **Secciones**.
 3. En la ventana **A/F Secciones diario reclasif.**, rellene los campos según sea necesario.
 
 ## <a name="to-set-up-fixed-asset-class-codes"></a>Para configurar códigos de clase de activos
 Los códigos de clase de activos fijos se pueden usar para agrupar los activos fijos, por ejemplo, en activos tangibles y activos intangibles.
 
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Clases A/F** y elija el vínculo relacionado.
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Clases A/F** y, a continuación, seleccione el vínculo relacionado.
 2. Especifique los códigos y nombres que desea crear.
 
 ## <a name="to-set-up-fixed-asset-subclass-codes"></a>Para configurar códigos de subclase de activos
 Puede utilizar los códigos de subclase de activos fijos para agrupar sus activos en las categorías, por ejemplo, edificios, vehículos, mobiliario o maquinaria.  
 
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Subclases A/F** y elija el vínculo relacionado.
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Subclases A/F** y, a continuación, seleccione el vínculo relacionado.
 2. Especifique los códigos y nombres que desea crear.
 
 ## <a name="to-set-up-fixed-asset-location-codes"></a>Para configurar códigos de ubicación de activos
 Puede usar el códigos de almacén A/F para registrar la ubicación del activo, por ejemplo, departamento de ventas, recepción, administración, producción o almacén. Esta información es útil a efectos de seguros e inventario.
 
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Ubicaciones A/F** y elija el vínculo relacionado.
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Ubicaciones A/F** y, a continuación, seleccione el vínculo relacionado.
 2. Especifique los códigos y nombres que desea crear para las ubicaciones de activos.
 
 ## <a name="to-register-opening-entries"></a>Para registrar movimientos pendientes
@@ -122,5 +123,5 @@ Si los activos fijos no se integran en la contabilidad, omita los pasos del 4 al
 [Activos fijos](fa-manage.md)  
 [Finanzas](finance.md)  
 [[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

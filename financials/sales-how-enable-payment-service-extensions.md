@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online payment
-ms.date: 04/24/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 769fd885e5c6070f8a4f6c9082900ea7f5f6ab8d
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 49e75c5f43b495bfc053c58b27e06feace62971c
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -28,7 +28,7 @@ Al habilitar un servicio de pago en [!INCLUDE[d365fin](includes/d365fin_md.md)],
 Las extensiones Estándar de pagos de PayPal y Estándar de pagos de WorldPay están instalados en [!INCLUDE[d365fin](includes/d365fin_md.md)] y están preparados para que los active.  
 
 ## <a name="to-enable-a-payment-service-in-included365finincludesd365finmdmd"></a>Para activar un servicio de pago en [!INCLUDE[d365fin](includes/d365fin_md.md)]
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Servicios de pago** y elija el vínculo relacionado.  
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Servicios de pago** y, a continuación, seleccione el vínculo relacionado.  
 2. En la ventana **Servicios de pago**, seleccione la acción **Nuevo**.  
 3. Seleccione el servicio de pago y luego cierre la ventana.  
 4. En la ventana **Servicios de pago**, seleccione la acción **Configuración**.  
@@ -40,11 +40,12 @@ Las extensiones Estándar de pagos de PayPal y Estándar de pagos de WorldPay es
 2. Abra la factura de venta que desee pagar mediante el servicio de pago.  
 3. En el campo **Servicio de pago**, elija el servicio de pago.  
   
-    **Nota**: El campo **Servicio de pago** solo está disponible si ha activado el servicio de pago.  
+    > [!NOTE]  
+>   El campo **Servicio de pago** solo está disponible si ha activado el servicio de pago.  
 
 ## <a name="see-also"></a>Consulte también  
 [Configuración de ventas](sales-setup-sales.md)  
 [Ventas](sales-manage-sales.md)  
-[Personalización de [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizando extensiones](ui-extensions.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)  
+[Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones](ui-extensions.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

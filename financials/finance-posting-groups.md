@@ -1,6 +1,6 @@
 ---
-title: Configuraciones de grupos contables | Documentos de Microsoft
-description: Proporciona un resumen de los grupos contables
+title: "Configuración de grupos contables | Documentos de Microsoft"
+description: Resumen de los grupos contables que puede utilizar para ahorrar tiempo y evitar errores al registrar transacciones.
 services: project-madeira
 documentationcenter: 
 author: bholtorf
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: posting setup, initialize
-ms.date: 03/24/2017
+ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 79018546484ff3bb8965089a3554d69bec219304
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: add78070e838dcf8b0eb24dcc8b642d621a400b9
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="posting-group-setups"></a>Configuraciones de grupos contables
+# <a name="setting-up-posting-groups"></a>Configurar los grupos contables
 Los grupos contables asignan entidades como clientes, proveedores, productos, recursos y documentos de venta y compra a cuentas contables. Ahorran tiempo y ayudan a evitar errores al registrar las transacciones. Los valores de transacción se envían a las cuentas especificadas en el grupo contable de dicha entidad. El único requisito es que tenga un plan de cuentas. Para obtener más información, vea [Configuración del plan de cuentas](finance-setup-chart-accounts.md).  
 
 Los grupos contables tienen tres divisiones:  
@@ -79,5 +79,5 @@ Cuantos más grupos contables de producto y de negocio tenga, más líneas habr�
 ## <a name="see-also"></a>Consulte también .
 [Libro mayor y plan de cuentas](finance-general-ledger.md)  
 [Configurar las finanzas](finance-setup-finance.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

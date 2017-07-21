@@ -1,6 +1,6 @@
 ---
-title: "Preparación de extractos de cierre| Documentos de Microsoft"
-description: "Proporciona un resumen de los informes que pueden ser útiles al cerrar el ejercicio."
+title: Resumen de informes para preparar los extractos de cierre | Documentos de Microsoft
+description: "Proporciona un resumen de los informes que puede utilizar para recopilar la información necesaria para preparar los extractos de cierre de su empresa cuando cierre el ejercicio."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI
-ms.date: 03/21/2017
+ms.date: 06/02/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 2979ac7aa3013b3c7ee70a557db0cc581d546624
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 9070d8d1454b43ccfc25276ac679c099b9e809ab
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -35,9 +35,10 @@ La tabla siguiente describe diversos informes que pueden ayudar en este proceso,
 | Imprimir un esquema de cuentas para analizar cifras en cuentas de contabilidad o comparar los movimientos de contabilidad reales con los presupuestados. |Esquema cuentas |
 | Comprobar si los movimientos de clientes y proveedores cuadran con los movimientos correspondientes de la contabilidad. |Reconc. ctas. client./ prov. |
 
-Para ver un informe, en la esquina superior derecha, elija el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba el nombre como aparece en la tabla y, a continuación, elija el vínculo relacionado.
+Para ver un informe, en la esquina superior derecha, elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba el nombre como aparece en la tabla y, a continuación, elija el vínculo relacionado.
 
 ## <a name="see-also"></a>Consulte también
 [Cerrar años y periodos](year-close-years-periods.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Inteligencia empresarial](bi.md)
 

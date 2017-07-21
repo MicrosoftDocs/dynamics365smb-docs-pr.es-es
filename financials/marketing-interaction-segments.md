@@ -1,6 +1,6 @@
 ---
-title: Interacciones y segmentos | Documentos de Microsoft
-description: "Describe cómo usar segmentos en contactos en Financials"
+title: Realizar un seguimiento de los segmentos y las interacciones relacionadas | Documentos de Microsoft
+description: "Obtenga información sobre cómo crear segmentos para definir grupos de contactos y especificar interacciones para los segmentos."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 39e7f95cb98364a9a4fce44165ae7f9f3e5b7383
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 899bdda7448810b029216c66402b739004193a61
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="interactions-and-segments"></a>interacciones y segmentos
+# <a name="managing-interactions-for-segments"></a>Administrar interacciones para segmentos
 La ventana **Segmento** es un tipo de hoja de cálculo con la que puede:
 
 * Crear segmentos.

@@ -1,6 +1,6 @@
 ---
 title: Bienvenido | Documentos de Microsoft
-description: "Prepárese para hacer negocios."
+description: "Describe las guías de configuración asistida, los vídeos, los temas de ayuda y las páginas y las ventanas que se usan para empezar a realizar operaciones empresariales en Dynamics 365 for Financials."
 documentationcenter: 
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
@@ -12,10 +12,10 @@ ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 03/21/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: fe2a7eb24acf0830a8ebaadafa695e7a34023198
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 9e13c2a994ecf4805f585df9c55199f041e80950
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 ---
 # <a name="getting-ready-for-doing-business"></a>Preparación para hacer negocios
@@ -23,9 +23,10 @@ Enhorabuena, acaba de iniciar su primera empresa en [!INCLUDE[d365fin](includes/
 
 Para ayudarle a empezar a hacer negocios, puede visitar la ventana **Asistencia de negocio** donde puede iniciar guías de configuración asistida, vídeos o temas de ayuda para determinadas tareas de configuración. A la ventana se accede desde el gráfico en el área de trabajo **Administrador de negocio** eligiendo el menú desplegable **Asistencia de negocio** y, a continuación, eligiendo la acción **Mostrar configuración y recursos de ayuda**. Al actualizar la página, el gráfico se reemplaza por los recursos de configuración y ayuda.
 
-En la página principal, en la parte inferior del panel de navegación, encontrará el menú **Configuración y extensiones**. Expanda el botón **Inicio** para ver el panel de navegación. Aquí tiene acceso a una lista de configuraciones asistidas que pueden ayudarle a empezar. Una vez haya migrado los datos, como los proveedores, clientes o productos de su sistema financiero existente, está listo para empezar. Pero en función de sus necesidades, considere si la otra configuración asistida puede ayudarle. Si un área no está cubierta por una configuración asistida, elija la acción **Configuración manual** para obtener acceso a las ventanas de configuración donde puede rellenar los campos de configuración de todas las áreas manualmente. Para obtener más información, vea también [Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
+En la página principal, en la parte inferior del panel de navegación, encontrará el menú **Configuración y extensiones**. Expanda el botón **Inicio** para ver el panel de navegación. Aquí tiene acceso a una lista de configuraciones asistidas que pueden ayudarle a empezar. Una vez haya migrado los datos, como los proveedores, clientes o productos de su sistema financiero existente, está listo para empezar. Pero en función de sus necesidades, considere si la otra configuración asistida puede ayudarle. Si un área no está cubierta por una configuración asistida, elija la acción **Configuración manual** para obtener acceso a las ventanas de configuración donde puede rellenar los campos de configuración de todas las áreas manualmente. Para obtener más información, consulte también [Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 
-**Nota:** La lista de guías de configuración, las extensiones y los servicios que están disponibles varían según la experiencia del usuario que elija para la empresa. La experiencia **Básica** ofrece menos acceso que la experiencia **Conjunto de aplicaciones**. La primera vez que inicie sesión, use la experiencia Básica. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
+> [!NOTE]  
+>   La lista de guías de configuración, las extensiones y los servicios que están disponibles varían según la experiencia del usuario que elija para la empresa. La experiencia **Básica** ofrece menos acceso que la experiencia **Conjunto de aplicaciones**. La primera vez que inicie sesión, use la experiencia Básica. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
 
 En la ventana **Configuración asistida**, encontrará lo siguiente con la experiencia **Básico**:
 
@@ -59,6 +60,6 @@ Según sus datos migrados, ahora puede empezar a crear nuevos documentos de comp
 
 ## <a name="see-also"></a>Consulte también
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Administrar usuarios y permisos](ui-how-users-permissions.md)
 

@@ -15,7 +15,7 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
 ms.openlocfilehash: a4a110fec7f656fd2132daaf6ddda492e9a4ab67
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -26,6 +26,6 @@ Si habilita la extensión y envía una factura de venta o un pedido de venta por
 La activación de extensiones de servicio de pago es gratuita en [!INCLUDE[d365fin](includes/d365fin_md.md)], pero deberá ponerse en contacto con el servicio de pago para obtener una cuenta. Para obtener más información, consulte [Permitir pagos de cliente a través de servicios de pago](sales-how-enable-payment-service-extensions.md).
 
 ## <a name="see-also"></a>Consulte también
-[Personalización de [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizando extensiones](ui-extensions.md)  
+[Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones](ui-extensions.md)  
 [Configuración de ventas](sales-setup-sales.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

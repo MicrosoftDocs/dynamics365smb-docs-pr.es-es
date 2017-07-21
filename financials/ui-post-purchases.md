@@ -1,6 +1,6 @@
 ---
-title: Registro de compras | Documentos de Microsoft
-description: "Obtenga información sobre cómo registrar compras."
+title: "Descripción de cómo registrar documentos de compra | Documentos de Microsoft"
+description: "Obtenga información sobre las diversas funciones de registro para registrar documentos de compra."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.date: 05/12/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: ac79d81aba2fb86a2c4a95356e8a621e5f5813ea
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 06c22658518d504c80a5a379d579cf7f7e8a0757
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -38,7 +38,8 @@ Por cada línea de pedido de compra, se creará un movimiento de producto en la 
 
 Antes de comenzar a registrar, podrá imprimir un informe que contenga toda la información del pedido de compra y que indique cualquier error que pueda existir allí. Para imprimir este informe, elija **Registro** y, a continuación, **Informe de prueba**.
 
-**Importante**: Cuando registre un pedido, podrá crear tanto un albarán de compra como una factura. Esto se puede hacer simultánea o independientemente. También puede crear una recepción y una factura parciales completando los campos **Cantidad a recibir** o **Cantidad a facturar** en las líneas individuales del pedido de compra antes de registrar. Tenga en cuenta que no puede crear una factura de algo no se ha recibido. Es decir, antes de poder facturar debe haber registrado un albarán de compra o haber elegido recibir y facturar al mismo tiempo.
+> [!IMPORTANT]  
+>   Cuando registre un pedido, podrá crear tanto un albarán de compra como una factura. Esto se puede hacer simultánea o independientemente. También puede crear una recepción y una factura parciales completando los campos **Cantidad a recibir** o **Cantidad a facturar** en las líneas individuales del pedido de compra antes de registrar. Tenga en cuenta que no puede crear una factura de algo no se ha recibido. Es decir, antes de poder facturar debe haber registrado un albarán de compra o haber elegido recibir y facturar al mismo tiempo.
 
 Puede registrar o registrar e imprimir. Si elije registrar e imprimir, un informe se imprime cuando se registre el pedido. También puede elegir la función **Registrar por lotes**, que permite registrar varios pedidos a la vez.
 
@@ -47,6 +48,6 @@ Una vez finalizado el registro, las líneas de compra registradas se quitan del 
 ## <a name="see-also"></a>Consulte también
 [Compras](purchasing-manage-purchasing.md)  
 [Registrar documentos y diarios](ui-post-documents-journals.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 

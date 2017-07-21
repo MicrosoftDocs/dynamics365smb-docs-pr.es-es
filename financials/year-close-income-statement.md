@@ -1,6 +1,6 @@
 ---
-title: "Cerrar asiento de regularización | Documentos de Microsoft"
-description: "Explica cómo cerrar un asiento de regularización."
+title: "Cerrar cuentas de regularización | Documentos de Microsoft"
+description: "En el cierre del ejercicio, debe ejecutar el proceso Asiento regularización para cerrar los periodos contables que componen el ejercicio fiscal."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,22 +10,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 03/29/2017
+ms.date: 06/02/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: dde7b93c6a3dcf78173494f1c6fa09a38207e676
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 6ddd7b504f6faa856e92c336f889ad08db0b3d8b
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="close-income-statement"></a>Asiento regularización
+# <a name="how-to-close-income-statement-accounts"></a>Cerrar cuentas de regularización
 Cuando finaliza un ejercicio, debe cerrar los periodos que lo forman. Para ello, puede ejecutar el proceso **Cerrar asiento de regularización**. Esta tarea transfiere el resultado anual a una cuenta en la hoja de balance y cierra las cuentas del balance de ingresos. Se realiza creando líneas en un diario, que después puede registrar.
 
 ## <a name="to-run-the-close-income-statement-batch-job"></a>Para ejecutar el proceso Cerrar asiento de regularización
 1. Cierre el ejercicio fiscal. Antes de ejecutar el proceso se debe cerrar el ejercicio fiscal. Para obtener más información, vea [Procedimiento: Cerrar periodos contables](year-close-account-periods.md).
-2. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Asiento regularización** y elija el vínculo relacionado.
+2. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Cerrar asiento de regularización** y, a continuación, seleccione el vínculo relacionado.
 3. Elija el botón **Aceptar** para iniciar el trabajo por lotes.
 
 ## <a name="about-the-close-income-statement-batch-job"></a>Acerca del proceso Cerrar asiento de regularización
@@ -41,5 +41,5 @@ El proceso **Cerrar asiento de regularización** se puede usar varias veces. Pue
 [Cierre de libros](year-close-books.md)  
 [Registrar movimiento de cierre del ejercicio](year-how-post-year-end-close-entry.md)  
 [Abrir un nuevo ejercicio](finance-how-open-new-fiscal-year.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

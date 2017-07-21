@@ -1,6 +1,6 @@
 ---
-title: "Especificar selección de impresora para informes | Documentos de Microsoft"
-description: Especificar impresoras para informes.
+title: "Configuración informes para imprimir en impresoras específicas | Documentos de Microsoft"
+description: "Obtenga información sobre cómo especificar una impresora para un informe y usar la ventana Selección impresoras."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,10 +13,10 @@ ms.search.keywords: online printing
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: e0b13ff745cddf6173b7a6dacda05e915eff41ff
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 106ad2acf2703e8182033a43a39c693a8b060d8f
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -47,7 +47,7 @@ The following table describes the combination of values to specify when you set 
 -->
 
 ## <a name="see-also"></a>Consulte también
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Ejecución de trabajos por lotes](ui-how-run-batch-jobs.md)  
-[Enviar documentos por correo electrónico](ui-how-send-documents-email.md)  
+[Enviar documentos por correo electrónico.](ui-how-send-documents-email.md)  
 

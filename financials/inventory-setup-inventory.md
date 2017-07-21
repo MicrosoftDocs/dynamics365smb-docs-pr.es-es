@@ -1,6 +1,6 @@
 ---
 title: Configurar inventario | Documentos de Microsoft
-description: "Describe cómo configurar los procesos de inventario, como almacenes y rutas de transferencia."
+description: "Describe cómo configurar los procesos de stock e inventario, incluidas las rutas de transferencia y ubicaciones, como los almacenes."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: SorenGP
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: c4f2abbe400e0fa7150a912e1cb267b5fbf52d8e
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 8fd3ff9518613c9d01f8e9503a568a0bdf079819
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -39,6 +39,6 @@ Cuando haya configurado su inventario, puede gestionar varios procesos de invent
 [Administrar compras](purchasing-manage-purchasing.md)  
 [Administrar ventas](sales-manage-sales.md)    
 [Cadena de suministro](madeira-supply-chain.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)
 

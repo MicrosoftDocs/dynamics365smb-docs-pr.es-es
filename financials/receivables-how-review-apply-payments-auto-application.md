@@ -1,6 +1,6 @@
 ---
-title: "Revisar o liquidar pagos manualmente después de una liquidación automática | Documentos de Microsoft"
-description: "Procedimiento: Revisar o liquidar pagos manualmente después de una liquidación automática"
+title: "Comprobar automáticamente los pagos liquidados y liquidar de nuevo los pagos manualmente | Documentos de Microsoft"
+description: "Una vez que los pagos se liquiden automáticamente, puede revisar todos los movimientos de un pago y volver a liquidar manualmente los que se han aplicado incorrectamente."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,30 +13,34 @@ ms.search.keywords: payment process, reconcile payment, expenses, cash receipts
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 1d5515a3814d2fbd4dfb7accc16d9f8ffda44317
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 2998cd0841452813cb86ee3859804de93cb9bde9
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-review-or-apply-payments-manually-after-automatic-application"></a>Procedimiento: Revisar o liquidar pagos manualmente después de una liquidación automática
 Para cada línea de diario que representa un pago en la ventana **Diario de conciliación de pagos** podrá abrir la ventana **Liquidación de pago** para ver todos los candidatos con movimientos pendientes de pago y podrá ver información detallada para cada movimiento sobre la correspondencia de datos en la que se basa la liquidación de un pago. Aquí puede liquidar manualmente pagos o volver a liquidar pagos que se aplicaron automáticamente en un movimiento incorrecto. Para obtener más información acerca de la liquidación automática, vea [Procedimiento: Conciliar pagos usando la liquidación automática](receivables-how-reconcile-payments-auto-application.md).
 
-**Importante**: Cuando la cuenta bancaria para la que se están conciliando pagos está configurada para la divisa local, la ventana **Liquidación de pago** mostrará todos los movimientos pendientes en la divisa local, incluidos los movimientos pendientes para documentos facturados originalmente en divisas extranjeras. Los pagos liquidados en movimientos con divisas convertidas se pueden por tanto registrar con importes distintos al del documento original, ya que puede que el banco y [!INCLUDE[d365fin](includes/d365fin_md.md)] usen tipos de cambio potencialmente distintos.
+> [!IMPORTANT]  
+>   Cuando la cuenta bancaria para la que se están conciliando pagos está configurada para la divisa local, la ventana **Liquidación de pago** mostrará todos los movimientos pendientes en la divisa local, incluidos los movimientos pendientes para documentos facturados originalmente en divisas extranjeras. Los pagos liquidados en movimientos con divisas convertidas se pueden por tanto registrar con importes distintos al del documento original, ya que puede que el banco y [!INCLUDE[d365fin](includes/d365fin_md.md)] usen tipos de cambio potencialmente distintos.
 
 Por tanto, es recomendable buscar los códigos de divisas extranjeras en el campo **Código de divisa** de la ventana **Liquidación de pago** para comprobar si las liquidaciones se basan en divisas convertidas. Para revisar el importe del documento original en la divisa extranjera y ver el tipo de cambio usado, seleccione el campo **Liq. por n.º mov.** y, a continuación, en el menú contextual seleccione el botón análisis para abrir la ventana de **Movs. cliente** o **Movs. proveedor**.
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] no gestiona automáticamente los ajustes de ganancia y pérdida necesarios debido a conversiones de divisa.
 
-**Nota**: No puede liquidar movimientos con signo diferente al signo en el pago. Por ejemplo, para cerrar un abono negativo y su factura positiva, primero deberá liquidar el abono para la factura y, a continuación, liquidar el pago para la factura con el importe pendiente reducido.
+> [!NOTE]  
+>   No puede liquidar movimientos con signo diferente al signo en el pago. Por ejemplo, para cerrar un abono negativo y su factura positiva, primero deberá liquidar el abono para la factura y, a continuación, liquidar el pago para la factura con el importe pendiente reducido.
 
-**Advertencia**: Si usa descuentos de pago, y si la fecha de pago es anterior a la fecha de vencimiento del pago, el campo **Importe pendiente incl. descuento** en la ventana **Liquidación de pagos** se usará en la correspondencia. En caso contrario, se usará el valor del campo **Importe pendiente**. Si el pago se realizó con un importe de descuento después de la fecha de vencimiento del pago, o se pagó el importe completo pero se concedió un descuento, entonces el importe no coincidirá.
+> [!WARNING]  
+>   Si usa descuentos de pago, y si la fecha de pago es anterior a la fecha de vencimiento del pago, el campo **Importe pendiente incl. descuento** en la ventana **Liquidación de pagos** se usará en la correspondencia. En caso contrario, se usará el valor del campo **Importe pendiente**. Si el pago se realizó con un importe de descuento después de la fecha de vencimiento del pago, o se pagó el importe completo pero se concedió un descuento, entonces el importe no coincidirá.
 
-**Nota**: Puede liquidar solo un pago en una cuenta. Si desea dividir la liquidación en varios movimientos pendientes, por ejemplo para liquidar un pago de suma total, los movimientos pendientes deben serlo para la misma cuenta. Para obtener más información, consulte los pasos 7 y 8 del procedimiento de este tema.
+> [!NOTE]  
+>   Puede liquidar solo un pago en una cuenta. Si desea dividir la liquidación en varios movimientos pendientes, por ejemplo para liquidar un pago de suma total, los movimientos pendientes deben serlo para la misma cuenta. Para obtener más información, consulte los pasos 7 y 8 del procedimiento de este tema.
 
 ## <a name="to-review-or-apply-payments-after-automatic-application"></a>Para revisar o aplicar pagos después de una liquidación automática
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Diarios de conciliación de pagos** y elija el vínculo relacionado.
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diarios de conciliación de pagos** y, a continuación, seleccione el vínculo relacionado.
 2. Abra el diario de conciliación de pagos de un banco para el que desee conciliar los pagos. Para obtener más información, vea [Procedimiento: Conciliar pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md).
 3. En la ventana **Diario de conciliación de pagos**, seleccione un pago que desee revisar o liquidar manualmente a uno o varios movimientos pendientes y, a continuación, seleccione la acción **Liquidación manual**.
 4. Seleccione la casilla **Liquidado** en la línea correspondiente al movimiento pendiente al que desee liquidar el pago.
@@ -51,5 +55,5 @@ Se cierra la ventana **Liquidación de pagos** y, en la ventana de **Diario de c
 ## <a name="see-also"></a>Consulte también
 [Administrar cobros](receivables-manage-receivables.md)  
 [Ventas](sales-manage-sales.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

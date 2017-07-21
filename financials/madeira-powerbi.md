@@ -1,6 +1,6 @@
 ---
-title: Uso de las paquetes de contenido de Dynamics 365 for Financials para Power BI | Documentos de Microsoft
-description: "Obtener información de los datos de Financials resulta muy sencillo con Power BI y los paquetes de contenido de Financials."
+title: Paquetes de contenido de Dynamics 365 for Financials y Power BI | Documentos de Microsoft
+description: "Obtener información, inteligencia empresarial y KPI de los datos de Financials resulta muy sencillo con Power BI y los paquetes de contenido de Financials."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 70e3e166f344d373750c969bd5816a8e67589e53
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 537effab2f406d619c5000efad12754db678e8b8
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -30,7 +30,8 @@ Los paquetes de contenido están configurados previamente para trabajar con los 
 * Ancle esta visualización personalizada al panel para continuar con el seguimiento.  
   El panel y los informes subyacentes se actualizan diariamente. Puede comprobar la programación de actualización y modificar la frecuencia en el conjunto de datos.  
 
-**Nota**: También puede crear sus propios informes y paneles en Power BI basándose en sus datos de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, vea [Usar Dynamics 365 for Financials como origen de datos de Power BI](across-how-use-financials-data-source-powerbi.md).  
+> [!NOTE]  
+>   También puede crear sus propios informes y paneles en Power BI basándose en sus datos de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, consulte [Conectar los datos empresariales con Power BI](across-how-use-financials-data-source-powerbi.md).  
 
 ## <a name="accessing-included365finincludesd365finmdmd-in-power-bi"></a>Acceder a [!INCLUDE[d365fin](includes/d365fin_md.md)] en Power BI
 Para visualizar los datos de [!INCLUDE[d365fin](includes/d365fin_md.md)] en Power BI, deberá tener lo siguiente:  
@@ -74,7 +75,8 @@ En el panel de [!INCLUDE[d365fin](includes/d365fin_md.md)] se muestran los infor
 * SalesOrdersBySalesPerson  
 * TopCustomerOverview  
 
-**Nota**: Si cambia el nombre de cualquiera de estos servicios web, los datos no aparecerán en Power BI.  
+> [!NOTE]  
+>   Si cambia el nombre de cualquiera de estos servicios web, los datos no aparecerán en Power BI.  
 Si desea agregar el uso de otros datos en Power BI, deberá buscar las tablas en [!INCLUDE[d365fin](includes/d365fin_md.md)], mostrarlas como servicios web y, a continuación, agregarlas al paquete de contenido. Esto es un ejemplo avanzado y es recomendable que empiece por los datos que ya están disponibles en Power BI.  
 
 ## <a name="troubleshooting"></a>Solución de problemas
@@ -98,7 +100,8 @@ Si se produce un "error de inicio de sesión" al iniciar sesión en el panel con
     Verifique la cuenta de usuario en [!INCLUDE[d365fin](includes/d365fin_md.md)] y asegúrese de haber usado la clave de acceso al servicio web correcta como contraseña y, a continuación, inténtelo de nuevo.  
 * La instancia de [!INCLUDE[d365fin](includes/d365fin_md.md)] a la que está intentando conectarse no dispone de un certificado de SSL válido. En este caso, verá un mensaje de error más detallado ("incapaz de establecer una relación de SSL de confianza").
 
-    **Nota**: No se admiten los certificados autofirmados.  
+    > [!NOTE]  
+>   No se admiten los certificados autofirmados.  
 
 **"¡Vaya!"**  
 Si se muestra un diálogo de error del tipo "¡Vaya!" después de pasar el diálogo de autenticación, la causa suele ser un problema de conexión con los datos del paquete de contenido.

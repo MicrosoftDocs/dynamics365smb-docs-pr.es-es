@@ -1,6 +1,6 @@
 ---
-title: "Impuesto sobre bienes y servicios e impuesto de ventas en Canadá | Documentos de Microsoft"
-description: "Obtenga información acerca del impuesto sobre bienes y servicios y el impuesto de ventas."
+title: "Impuesto de ventas en Canadá | Documentos de Microsoft"
+description: "Obtenga información sobre el impuesto de ventas local y el impuesto sobre bienes y servicios en Canadá."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales tax, local
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: e1866f5047a826f3d527267d901eb30279d5b4e4
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 571b11f4f18ffd194bdfe1d1d412bca87df4b868
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="sales-tax-and-goods-and-services-tax-in-canada"></a>Impuesto sobre bienes y servicios e impuesto de ventas en Canadá
+# <a name="reporting-sales-tax-and-goodsservices-tax-in-canada"></a>Informes del impuesto sobre bienes y servicios e impuesto de ventas en Canadá
 En Canadá, cuando un proveedor no tiene una empresa física en la provincia en la que se realizan las compras, el proveedor solo aplicará el impuesto sobre bienes y servicios (GST) y el impuesto armonizado de ventas (HST). Sin embargo, si la provincia tiene un impuesto de ventas provincial (PST), el comprador debe calcular el PST y pagarlo directamente a la provincia. Cuando se selecciona un código de área del impuesto provincial, [!INCLUDE[d365fin](includes/d365fin_md.md)] lo usa para calcular el PST y registrarlo para que haya una deuda tributaria tanto en los registros del libro mayor como en los de los movimientos de impuestos. Por lo tanto, el código de área de impuestos que se seleccione solo debe estar presente cuando se incluya el PST, no el GST.  
 
 Para obtener más información acerca del impuesto de ventas, consulte [Impuesto de ventas y grupos de impuestos en EE. UU. y Canadá](us-finance-sales-tax.md).  
@@ -32,5 +32,5 @@ La información de impuestos en documentos de compra se usa para generar una tra
 [Finanzas](finance.md)  
 [Configurar las finanzas](finance-setup-finance.md)  
 [Impuesto de ventas y grupos de impuestos en EE. UU. y Canadá](us-finance-sales-tax.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

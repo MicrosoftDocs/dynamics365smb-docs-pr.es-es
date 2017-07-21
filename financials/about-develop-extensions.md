@@ -1,6 +1,6 @@
 ---
-title: "Información sobre cómo puede ampliar Dynamics 365 for Financials | Documentos de Microsoft"
-description: Crear, mostrar y promocionar las extensiones de Dynamics 365 for Financials
+title: Personalizar Dynamics 365 for Financials | Documentos de Microsoft
+description: Cree, muestre y promocione sus aplicaciones y extensiones de Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 03/22/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 110216a4466733b5e5b9f31eb5b73e428c74da91
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: cc355c7b4cd51412ec0b5c95398c2d7b50a13f94
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="extend-included365finlongincludesd365finlongmdmd"></a>Ampliar [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# <a name="extending-included365finlongincludesd365finlongmdmd"></a>Ampliación de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Hay muchas ventajas en el uso de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] como plataforma para creadores de aplicaciones:
 
 * Enriquezca [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], una solución en línea probada de Microsoft, con su experiencia  
@@ -68,13 +68,13 @@ Estas [preguntas más frecuentes](https://go.microsoft.com/fwlink/?linkid=841520
 
 ## <a name="further-resources"></a>Más recursos
 Puede encontrar más recursos para el desarrollo de aplicaciones en nuestra [página de temas de DLP](https://mbspartner.microsoft.com/BFI/Topic/76) página de temas de DLP. A continuación se ofrecen algunos seleccionados:
--    [Registro de usuarios y facturación posterior ](http://download.microsoft.com/download/3/2/0/320D0286-8810-4A8F-B7DD-523ED87D441B/FAQ on apps for Dynamics 365 for Financials.pdf)
+-   [Registro de usuarios y facturación posterior ](http://download.microsoft.com/download/3/2/0/320D0286-8810-4A8F-B7DD-523ED87D441B/FAQ on apps for Dynamics 365 for Financials.pdf)
 
 
 
 ## <a name="see-also"></a>Consulte también
 [[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Personalización de [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizando extensiones](ui-extensions.md)  
+[Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones](ui-extensions.md)  
 [https://appsource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365-for-financials&page=1)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

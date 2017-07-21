@@ -1,6 +1,6 @@
 ---
 title: Administrar cuentas bancarias | Documentos de Microsoft
-description: Administrar cuentas bancarias
+description: Debe reconciliar regularmente los movimientos de banco en Financials con las transacciones bancarias relacionadas en sus cuentas bancarias.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reconcile
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 29dc32cd4bc1f745a576c6265bd7264e8108276a
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: dcefa921d7e8b901d906085e6bce01d6e0aa6ac4
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -39,6 +39,6 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 [Configurar banca](bank-setup-banking.md)  
 [Administrar cobros](receivables-manage-receivables.md)  
 [Administrar pagos](payables-manage-payables.md)    
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)  
 

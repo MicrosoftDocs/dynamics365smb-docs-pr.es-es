@@ -1,6 +1,6 @@
 ---
-title: Dar prioridad a proveedores| Documentos de Microsoft
-description: "Asignación de prioridad a proveedores"
+title: Asignar un nivel de prioridad a un proveedor | Documentos de Microsoft
+description: "Puede asignar números a los proveedores para darles prioridad y facilitar las sugerencias de pago en Financials."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: supplier, payment priority
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: ae80ae9ecc15838b59999ded775c7fa0063c8a54
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 2c91b28daf27ddd2b698ffe4338bbf92fd1f9adf
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -26,7 +26,7 @@ ms.lasthandoff: 05/04/2017
 Primero, debe dar prioridad a los proveedores asignándoles números.
 
 ## <a name="to-prioritize-vendors"></a>Para dar prioridad a proveedores
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Proveedores** y elija el vínculo relacionado.
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Proveedores** y, a continuación, seleccione el vínculo relacionado.
 2. Seleccione el proveedor correspondiente y, a continuación, elija **Editar**.
 3. En el campo **Prioridad**, escriba un número.
 
@@ -37,5 +37,5 @@ Si no desea dar prioridad a un proveedor, deje el campo **Prioridad** en blanco.
 ## <a name="see-also"></a>Consulte también
 [Configurar compras](purchasing-setup-purchasing.md)  
 [Administrar pagos](payables-manage-payables.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

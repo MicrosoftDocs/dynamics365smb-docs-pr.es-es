@@ -1,6 +1,6 @@
 ---
-title: Usar los informes de Power BI en las vistas de lista en Dynamics 365 for Financials | Documentos de Microsoft
-description: "Puede agregar los informes de Power BI que proporcionen información adicional sobre los datos en las listas de Financials."
+title: Mostrar informes de Power BI personalizados | Documentos de Microsoft
+description: "Puede usar los informes de Power BI para obtener información adicional sobre los datos en las listas de Financials."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,20 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 02/02/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 3c58c71a9ebc3df4e55202f50e856a715d64854f
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 53c588f65232656d2362873347c6c7dc0d412449
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="using-power-bi-reports-in-your-list-views-in-dynamics-365-for-financials"></a>Usar los informes de Power BI en las vistas de lista en Dynamics 365 for Financials
+# <a name="viewing-list-data-in-power-bi-reports-in-dynamics-365-for-financials"></a>Ver datos de listas en informes de Power BI en Dynamics 365 for Financials
 [!INCLUDE[d365fin](includes/d365fin_md.md)] incluye un elemento de control de cuadro informativo de varias páginas de lista de claves que proporciona información de los datos de la lista. A medida que se desplaza por las filas de la lista, el informe se actualiza y se filtra para la entrada seleccionada. Puede crear informes personalizados para mostrar en este control, pero hay reglas a seguir al crear informes para garantizar que proporcionan el comportamiento deseado.  
 
-**Nota**: Debe disponer de una cuenta válida con [!INCLUDE[d365fin](includes/d365fin_md.md)] y con Power BI. Además, deberá descargar [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/). Para obtener más información, vea [Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] como origen de datos de Power BI](across-how-use-financials-data-source-powerbi.md).  
+> [!NOTE]  
+>   Debe disponer de una cuenta válida con [!INCLUDE[d365fin](includes/d365fin_md.md)] y con Power BI. Además, deberá descargar [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/). Para obtener más información, consulte [Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] como origen de datos de Power BI](across-how-use-financials-data-source-powerbi.md).  
 
 ## <a name="report-data-set"></a>Conjunto de datos del informe
 Al crear el informe en Power BI Desktop, especifique el origen de datos o un servicio web que contenga los datos relacionados con la lista a la que desea asociar el informe. Por ejemplo, si desea crear un informe para la lista Ventas, asegúrese de que el conjunto de datos contenga información relacionada con ventas.  
@@ -49,7 +50,8 @@ Del mismo modo, si desea que el fondo del informe se mezcle con el color de fond
 ## <a name="reports-with-multiple-pages"></a>Informes con varias páginas
 Con Power BI, puede crear un solo informe con varias páginas. Los elementos visuales que desee ver en las páginas de listas de [!INCLUDE[d365fin](includes/d365fin_md.md)] deben estar en la primera página del informe en Power BI.  
 
-**Nota:** El cuadro informativo de Power Bi solo puede mostrar la primera página del informe; si desea ver otras páginas, debe expandir el informe y usar las pestañas de la parte inferior del informe para desplazarse a otras páginas.  
+> [!NOTE]  
+>  El cuadro informativo de Power Bi solo puede mostrar la primera página del informe; si desea ver otras páginas, debe expandir el informe y usar las pestañas de la parte inferior del informe para desplazarse a otras páginas.  
 
 ## <a name="saving-your-report"></a>Guardar el informe
 

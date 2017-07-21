@@ -1,6 +1,6 @@
 ---
 title: Exportar archivos de Positive Pay | Documentos de Microsoft
-description: "Describe cómo asegurarse de que su banco solo compensa cheques e importes validados mediante la exportación un archivo de Positive Pay que contenga la información de proveedor y pago."
+description: "Puede asegurarse de que su banco solo compensa cheques e importes validados mediante la exportación un archivo de Positive Pay que contenga la información de proveedor y pago."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: check, clearing
-ms.date: 03/24/2017
+ms.date: 06/16/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: ee93f8eb889ae1d635bca22ff133e1523fd1b825
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: dfae1975a78c9380b5b6d4086569d63fe3793832
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -26,13 +26,13 @@ Para asegurarse de que su banco solo compense los cheques e importes validados, 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] se ha preconfigurado para admitir archivos de Positive Pay para Bank of America y City Bank.
 
 ## <a name="to-set-up-a-bank-account-for-positive-pay"></a>Para configurar una cuenta bancaria para Positive Pay
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Cuentas bancarias** y elija el vínculo relacionado.
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Cuentas bancarias** y, a continuación, seleccione el vínculo relacionado.
 2. Abra la ficha del banco para el que desea usar Positive Pay.
 3. En el campo **Código de exportación de Positive Pay**, introduzca POSPAYBANK.
 4. Cierre la ventana.
 
 ## <a name="to-export-a-positive-pay-file"></a>Para exportar un archivo de Positive Pay
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Cuentas bancarias** y elija el vínculo relacionado.
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Cuentas bancarias** y, a continuación, seleccione el vínculo relacionado.
 2. Seleccione el banco del que desea exportar un archivo de Positive Pay.
 3. Elija la acción **Exportación de Positive Pay**.
 
@@ -45,7 +45,7 @@ Para asegurarse de que su banco solo compense los cheques e importes validados, 
 
 Para ver registros de Positive Pay exportados
 
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Cuentas bancarias** y elija el vínculo relacionado.
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Cuentas bancarias** y, a continuación, seleccione el vínculo relacionado.
 2. Seleccione el banco del que desea ver los registros de exportación de Positive Pay.
 3. Elija la acción **Movimientos de Positive Pay**.
 
@@ -55,7 +55,7 @@ Para ver registros de Positive Pay exportados
 
 Para reexportar archivos de Positive Pay
 
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Cuentas bancarias** y elija el vínculo relacionado.
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Cuentas bancarias** y, a continuación, seleccione el vínculo relacionado.
 2. Seleccione el banco del que desea reexportar los archivos de Positive Pay.
 3. Elija la acción **Movimientos de Positive Pay**.
 4. Seleccione la línea del archivo de exportación de Positive Pay que desea reexportar.
@@ -65,5 +65,5 @@ Para reexportar archivos de Positive Pay
 [Finanzas](finance.md)  
 [Configurar las finanzas](finance-setup-finance.md)  
 [Trabajar con diarios generales](ui-work-general-journals.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

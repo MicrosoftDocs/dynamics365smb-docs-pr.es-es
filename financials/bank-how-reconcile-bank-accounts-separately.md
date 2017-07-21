@@ -1,6 +1,6 @@
 ---
 title: Conciliar cuentas bancarias | Documentos de Microsoft
-description: 'Procedimiento: Conciliar cuentas bancarias'
+description: "Describe cómo el valor de inventario se concilia con el libro mayor."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,20 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 916f655f9dba80f7c227519372633913b11641ea
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 12620b1afa4630441889777bce30cb81317a848b
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-reconcile-bank-accounts-separately"></a>Procedimiento: Conciliar cuentas bancarias
 Para conciliar las cuentas bancarias en [!INCLUDE[d365fin](includes/d365fin_md.md)] con los extractos recibidos del banco, primero deberá rellenar las líneas de la ventana **Conciliación banco**.
 
-**Nota**: También puede conciliar las cuentas bancarias en la ventana **Diario de conciliación de pagos**. Todas las cuenta abiertas relacionada con los movimientos de los clientes o los proveedores se cerrarán cuando seleccione la acción **Registrar pagos y conciliar banco**. Eso significa que la cuenta bancaria se concilia automáticamente por los pagos que registró mediante el diario. Para obtener más información, vea [Procedimiento: Conciliar pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md).
+> [!NOTE]  
+>   También puede conciliar las cuentas bancarias en la ventana **Diario de conciliación de pagos**. Todas las cuenta abiertas relacionada con los movimientos de los clientes o los proveedores se cerrarán cuando seleccione la acción **Registrar pagos y conciliar banco**. Eso significa que la cuenta bancaria se concilia automáticamente por los pagos que registró mediante el diario. Para obtener más información, vea [Procedimiento: Conciliar pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md).
 
 Para habilitar tanto la importación de extractos bancarios como la fuente de banco, primero debe configurar y habilitar el servicio de fuente de banco de Envestnet Yodlee y, a continuación, vincular sus cuentas bancarias a las cuentas bancarias en línea relacionadas. Para obtener más información, vea [Procedimiento: Configuración del servicio de fuente de banco de Envestnet Yodlee](bank-how-setup-bank-statement-service.md)
 
@@ -38,10 +39,11 @@ Puede rellenar el panel **Líneas de extracto bancario** en la ventana **Concili
 
 Cuando el valor en el campo **Saldo total** en el panel **Líneas de extracto bancario** es igual al valor del campo **Saldo a conciliar** en el panel **Movs. bancos**, puede seleccionar la acción **Registrar** para conciliar los movimientos de la cuenta bancaria liquidados. Los movimientos no liquidados de la cuenta permanecerán en la ventana, lo que indica que los pagos procesados para el banco no están reflejados en el último extracto bancario o que algunos pagos se han recibido en cheques.
 
-**Nota**: Si las líneas del extracto bancario están relacionadas con los movimientos del cheque, no puede usar las funciones de coincidencia. En lugar de eso, debe elegir la acción **Liquidar movs.** y, a continuación, seleccionar el movimiento de cheque correspondiente con el que desea relacionar la línea del extracto de cuenta.
+> [!NOTE]  
+>   Si las líneas del extracto bancario están relacionadas con los movimientos del cheque, no puede utilizar las funciones de correspondencia. En lugar de eso, debe elegir la acción **Liquidar movs.** y, a continuación, seleccionar el movimiento de cheque correspondiente con el que desea relacionar la línea del extracto de cuenta.
 
 ## <a name="to-fill-bank-reconciliation-lines-by-importing-a-bank-statement"></a>Para rellenar las líneas de conciliación de bancos importando un extracto bancario
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Conciliación banco** y elija el vínculo relacionado.
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Conciliación banco** y, a continuación, seleccione el vínculo relacionado.
 2. Seleccione la acción **Nuevo**.
 3. En el campo **N.º banco** seleccione la cuenta bancaria pertinente. Los movimientos de cuentas bancarias que existan en la cuenta aparecen en el panel **Movs. bancos**.
 4. En el campo **Fecha extracto**, escriba la fecha del extracto del banco.
@@ -92,5 +94,5 @@ En ocasiones, un extracto bancario contiene importes por los intereses y recargo
 ## <a name="see-also"></a>Consulte también
 [Administrar cuentas bancarias](bank-manage-bank-accounts.md)  
 [Configurar banca](bank-setup-banking.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

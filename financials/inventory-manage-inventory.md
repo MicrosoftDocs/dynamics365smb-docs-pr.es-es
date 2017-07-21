@@ -1,6 +1,6 @@
 ---
-title: Inventario | Documentos de Microsoft
-description: "Describe el modo de administrar los productos físicos."
+title: Administrar el inventario | Documentos de Microsoft
+description: "Describe cómo administrar los productos físicos que comercializa, por ejemplo, manipulación de las existencias en el almacén."
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: b53cae82cfa532fb0620cc9e1f305216c2321785
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 920df314dc8b671d4e2d99d8449ee02a74cb9078
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 ---
 
@@ -28,7 +28,10 @@ Para aumentar la información general de los productos y ayudarle a encontrarlos
 
 Debe asegurarse de que los costes de los productos se dirigen a la transacción de venta de salida relacionada, especialmente en aquellas situaciones en las que vende bienes antes de facturar compra de dichos productos. A esto se le conoce como ajuste de coste, que puede realizar manualmente o configurar automáticamente cuando se registra una transacción de producto.
 
-Los cambios en el valor de inventario de las operaciones comerciales se concilian automáticamente con los libros financieros cuando se registran transacciones de producto.
+## <a name="inventory-reconciliation"></a>Conciliación de inventario
+Cuando registra transacciones del inventario, como los envíos de ventas, los albaranes de compra o los ajustes de inventario, los costes de producto cambiados se registran en movimientos de valor de productos. Para reflejar este cambio de valor de inventario en sus libros de finanzas, los costes de inventario se registran automáticamente en las cuentas de inventario relacionadas del libro mayor. Para cada una de las transacciones de inventario que registre, los valores apropiados se contabilizan en la cuenta de inventario, en la cuenta de ajuste y en la cuenta de CV en el módulo de contabilidad.
+
+Aunque se hayan registrado los costes de inventario automáticamente en el libro mayor, seguirá siendo necesario asegurarse de que los costes de los bienes se dirigen a las transacciones de venta de salida relacionadas, especialmente en situaciones donde la venta de bienes se factura antes de la compra de estos bienes. Esto se denomina ajuste de costes. Los costes de los productos se ajustan automáticamente cada vez que registra transacciones de producto, pero también puede ajustar los costes de producto manualmente. Para obtener más información, consulte Procedimiento: Modificar precios de productos.
 
 |Para |Vea |
 |---|----|
@@ -37,18 +40,17 @@ Los cambios en el valor de inventario de las operaciones comerciales se concilia
 |Mantener una visión general de los productos y ayudarle a buscarlos y clasificarlos al organizarlos en categorías.|[Clasificar productos](inventory-how-categorize-items.md)|
 |Asignar atributos de producto de distintos tipos de valor a sus productos le ayudará a ordenarlos y encontrarlos.|[Trabajar con atributos de producto](inventory-how-work-item-attributes.md)|
 |Crear fichas especiales para los productos que desea ofrecer a los clientes, pero que no desea mantener en el inventario.|[Trabajar con productos sin stock](inventory-how-work-nonstock-items.md)|
-|Aumento o disminución de la cantidad de inventario de un producto, como después de un recuento físico o como simple forma de registrar albaranes de compra.|[Ajuste de inventario](inventory-how-adjust-inventory.md)|
-|Ver la disponibilidad de productos por almacén, por periodo, por evento de venta o de compra, o por su uso en las L.M. de ensamblado.|[Obtener un resumen de disponibilidad](inventory-how-availability-overview.md)|
+|Realizar recuento físico, hacer ajustes negativos o positivos y cambiar la información, como la ubicación o el número de lote, en los movimientos de productos.|[Recuento, ajuste y reclasificación de inventario](inventory-how-count-adjust-reclassify.md)|
+|Ver la disponibilidad de productos por almacén, por periodo, por evento de venta o de compra, o por su uso en las L.M. de ensamblado.|[Consultar la disponibilidad de los productos](inventory-how-availability-overview.md)|
 |Transferir productos de inventario entre almacenes con pedidos de transferencia, para administrar las actividades de almacén o con el diario de reclasificación de productos.|[Transferir el inventario entre almacenes](inventory-how-transfer-between-locations.md)|
 |Apreciar o amortizar el valor de uno o más productos del inventario registrando el valor calculado actual.|[Revaluación de inventario](inventory-how-revalue-inventory.md)|
 |Ajuste los costes de productos, automática o manualmente, para desviar los cambios de coste de los movimientos de entrada a sus movimientos de salida relacionados.|[Ajustar precios de productos](inventory-how-adjust-item-costs.md)|
-|Obtenga información acerca de cómo los cambios en el valor de inventario de las operaciones comerciales se concilian con los libros financieros.|[Avanzado: Conciliación de inventario](advanced-inventory-reconciliation.md)|
 
 ## <a name="see-also"></a>Consulte también  
 [Compras](purchasing-manage-purchasing.md)  
 [Ventas](sales-manage-sales.md)    
 [Cadena de suministro](madeira-supply-chain.md)  
-[Trabajar con [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)](ui-work-product.md)  
+[Trabajar con [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

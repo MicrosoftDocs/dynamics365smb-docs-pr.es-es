@@ -1,6 +1,6 @@
 ---
-title: Registrar nuevos productos | Documentos de Microsoft
-description: "Cree fichas para nuevos productos físicos, que venda del inventario en piezas, por ejemplo, o de servicios, que venda como horas."
+title: Crear fichas de producto para bienes o servicios | Documentos de Microsoft
+description: "Puede crear fichas de producto para servicios que venda como horas y para productos físicos, como productos de ensamblaje, productos terminados, componentes o materias primas, que venda del inventario."
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 582e006291e51e19d80304d24ae055ce6ac8d698
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 719e11f2c8fee3d7e5dd3736754700b68f57379c
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -28,7 +28,8 @@ La ficha de producto puede ser de tipo **Inventario** o **Servicio** para especi
 
 Un producto se puede estructurar como un producto principal con productos secundarios subyacentes en una lista de materiales (L.M.). En [!INCLUDE[d365fin](includes/d365fin_md.md)], una lista de materiales se denomina L.M. de ensamblado. Las L.M. de ensamblado se usan para estructurar los productos principales que vende como kits que constan de los componentes del principal o que ensamble para pedido o para stock. Para obtener más información sobre cómo trabajar con el formulario, consulte [Trabajar con listas de materiales](inventory-how-work-BOMs.md).
 
-**Nota**: Si existen plantillas para distintos tipos de producto, aparece una ventana automáticamente cuando se crea una nueva ficha de producto en la que puede seleccionar una plantilla de producto apropiada. Si solo existe una plantilla de producto, las nuevas fichas de producto utilizan siempre esa plantilla.
+> [!NOTE]  
+>   Si existen plantillas para distintos tipos de producto, aparece una ventana automáticamente cuando se crea una nueva ficha de producto en la que puede seleccionar una plantilla de producto apropiada. Si solo existe una plantilla de producto, las nuevas fichas de producto utilizan siempre esa plantilla.
 
 ## <a name="to-create-a-new-item-card"></a>Para crear una nueva ficha de producto.
 1. En la página Inicio, elija la acción **Productos** para abrir la lista de productos existentes.  
@@ -55,9 +56,9 @@ Si desea usar esta ficha de producto como plantilla cuando cree nuevas fichas de
 La plantilla de producto se agrega a la lista de plantillas de producto, de modo que puede usarla para crear nuevas fichas de producto.
 
 ## <a name="see-also"></a>Consulte también
-  [Grupos contables inventario](inventory-manage-inventory.md)  
+  [Inventario](inventory-manage-inventory.md)  
   [Compras](purchasing-manage-purchasing.md)  
   [Ventas](sales-manage-sales.md)  
-  [Trabajar con [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)](ui-work-product.md)
+  [Trabajar con [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

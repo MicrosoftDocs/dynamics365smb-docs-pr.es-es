@@ -1,6 +1,6 @@
 ---
-title: Cadena de suministro| Documentos de Microsoft
-description: "Obtenga información sobre los procesos y conceptos de la cadena de suministro"
+title: "Características de la cadena de suministro que admite Financials | Documentos de Microsoft"
+description: "Obtenga un resumen del producto e información sobre los conceptos y los procesos clave de la cadena de suministro que forman parte de solución de ERP."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: product overview, ERP
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 4ed8437f5d1b7628f256bb435de8ba13bd64a8f9
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 3bae84075dc505aa9318590b1fac06e4844ffafe
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="supply-chain"></a>Cadena de suministro
+# <a name="overview-of-supply-chain-functionality"></a>Resumen de las funciones de la cadena de suministro
 [!INCLUDE[d365fin](includes/d365fin_md.md)] admite procesos comunes de la cadena de suministro, aunque se limita a las necesidades las empresas mayoristas y de distribución sin control de almacén gestionado.
 
 Además de los documentos de factura de venta, puede gestionar el cumplimiento del pedido con pedidos de venta, lo que le permite enviar parte de una cantidad de pedido, por ejemplo, porque la cantidad total no está disponible inmediatamente. Puede hacer que los productos se envíen directamente desde el proveedor al cliente vinculando el pedido de venta al pedido de compra relacionado.
@@ -44,6 +44,6 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 [Administrar cobros](receivables-manage-receivables.md)     
 [Configurar compras](purchasing-setup-purchasing.md)  
 [Administrar pagos](payables-manage-payables.md)    
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)
 

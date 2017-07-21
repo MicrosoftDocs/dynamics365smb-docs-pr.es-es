@@ -1,6 +1,6 @@
 ---
-title: "Supervisión del progreso y el rendimiento del proyecto | Documentos de Microsoft"
-description: "Describe cómo presupuestar los proyectos."
+title: "Definir un método WIP y supervisar el progreso del proyecto | Documentos de Microsoft"
+descrition: Describes how you can create a work in process (WIP) method and calculate WIP to estimate the financial value of jobs while they are ongoing.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, KPI, work in process, work in progress
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: fb38a02bbf2dd99ce003d23c4a5f88f0e3cd593a
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 9b374c80a649a1e05c98fcbcea1ca447ec0b8d27
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -40,33 +40,34 @@ Puede crear un método de proyecto WIP que refleje las necesidades de su organiz
 
 **Nota**. Tras haber usado el nuevo método para crear los movimientos del WIP, no puede eliminar el método ni modificarlo.  
 
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Métodos WIP de proyecto** y elija el vínculo relacionado.  
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Métodos WIP de proyecto** y, a continuación, seleccione el vínculo relacionado.  
 2. Elija la acción **Nuevo** y, a continuación, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Cierre la ventana.   
-4. Para convertir este nuevo método en el predeterminado, en la esquina superior derecha, elija el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Configuración de proyectos** y elija el vínculo relacionado.  
+4. Para convertir este nuevo método en el predeterminado, en la esquina superior derecha, seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Configuración de proyectos** y, a continuación, seleccione el vínculo relacionado.  
 5. En el campo **Método WIP predet.**, seleccione el método de la lista.
 
 ## <a name="to-define-a-wip-method-for-a-job"></a>Para definir un método de WIP para un proyecto
 Al crear un proyecto nuevo, debe especificar el método WIP que se aplica. En algunos casos, el método de WIP de proyecto que puede utilizar se ha configurado como valor predeterminado.
 
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Proyectos** y elija el vínculo relacionado.
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Proyectos** y, a continuación, seleccione el vínculo relacionado.
 2. Seleccione la acción **Nuevo**. Para obtener más información, vea [Creación de proyectos](projects-how-create-jobs.md).  
 3. En la ventana **Ficha de proyecto**, en el campo **Método WIP**, seleccione un método WIP de la lista. Si se ha definido un método predeterminado, puede seleccionar otra opción si es necesario.  
 
 ## <a name="to-calculate-wip"></a>Para calcular WIP
 Puede determinar el importe WIP que se debe registrar en cuentas de balance para informes del final de periodo. Para hacerlo, debe usar el proceso **Calcular WIP proyecto**.  
 
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Calcular WIP proyecto** y elija el vínculo relacionado.  
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Calcular WIP proyecto** y, a continuación, seleccione el vínculo relacionado.  
 2. Elija la acción **Calcular WIP**.
 3. En la ventana **Calcular WIP proyecto**, rellene los campos según sea necesario.
 4. Elija el botón **Aceptar**.  
 
-**Nota**: El proceso solo calcula el WIP. No se registra en contabilidad. Para hacerlo, debe ejecutar el proceso **Registrar WIP en C/G** una vez que haya calculado el WIP. Para obtener más información, consulte el procedimiento siguiente.
+> [!NOTE]  
+>   El proceso solo calcula el WIP. No se registra en contabilidad. Para hacerlo, debe ejecutar el proceso **Registrar WIP en C/G** una vez que haya calculado el WIP. Para obtener más información, consulte el procedimiento siguiente.
 
 ## <a name="to-post-wip"></a>Para registrar WIP
 Cuando ha calculado WIP, puede registrarlo en las cuentas de balance de los informes de fin de periodo. Para ello, debe usar el proceso **Registrar WIP en C/G proyecto**.
 
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Registrar WIP en C/G proyecto** y elija el vínculo relacionado.  
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Registrar WIP en C/G proyecto** y, a continuación, seleccione el vínculo relacionado.  
 2. En la ventana **Registrar WIP en C/G proyecto**, rellene los campos según sea necesario.  
 3. Elija el botón **Aceptar**.
 
@@ -75,9 +76,10 @@ Puede ver el consumo del proyecto hasta que se termine en un paso. Para ello, ut
 
 Esto le permite supervisar y comparar los cálculos originales con los resultados reales, y realizar modificaciones o movimientos nuevos según sea necesario. Por ejemplo, puede haber estimado que un proyecto exigía 10 horas y, hasta el momento, ha llevado 15 horas. Puede agregar las cinco horas adicionales a la línea del diario existente o crear una línea de diario nueva que presente estas cinco horas como horas extra, que es otro tipo de trabajo. Se calcula el coste y el precio apropiado, y se puede registrar en el diario.  
 
-**Nota**: Los movimientos de producto crean movimientos contables y reducen la cantidad de inventario.  El proceso **Reg. var. inventario en cont.** transfiere el coste del inventario a la contabilidad. Los movimientos de recursos crean movimientos correspondientes.  
+> [!NOTE]  
+>   Los movimientos de producto crean movimientos contables y reducen la cantidad de inventario. El proceso **Regis. variación existencias** transfiere el coste del inventario a la contabilidad. Los movimientos de recursos crean movimientos correspondientes.  
 
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Diarios de proyectos** y elija el vínculo relacionado.  
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diarios de proyectos** y, a continuación, seleccione el vínculo relacionado.  
 2. Seleccione un diario de trabajo relevante y, a continuación, seleccione la acción **Cálc. uso restante**.  
 3. En la ventana **Cálc. uso restante proyecto** especifique el número del documento y la fecha de registro que se va a insertar en el diario y, a continuación, elija **Aceptar**.  
 4. Puede ser necesario actualizar el diario con algunos cambios.  
@@ -86,7 +88,7 @@ Esto le permite supervisar y comparar los cálculos originales con los resultado
 ## <a name="to-view-job-ledger-entries"></a>Para ver los movimientos del proyecto
 Los movimientos relativos a proyectos se guardan en los registros de movimientos de proyectos y se numeran de forma secuencial, empezando por 1. Desde el registro de movimientos de proyecto, se puede obtener un resumen de todos los movimientos de proyecto.    
 
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Registros movs. proyectos** y elija el vínculo relacionado.
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Registro movs. proyectos** y, a continuación, seleccione el vínculo relacionado.
 2. Seleccione un registro correspondiente y, a continuación, elija la acción **Movs. proyectos**.
 
 En la ventana **Movimientos de proyecto** puede revisar los movimientos que está asociado con algún proyecto.  
@@ -96,5 +98,5 @@ En la ventana **Movimientos de proyecto** puede revisar los movimientos que est�
 [Finanzas](finance.md)  
 [Compras](purchasing-manage-purchasing.md)         
 [Ventas](sales-manage-sales.md)      
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

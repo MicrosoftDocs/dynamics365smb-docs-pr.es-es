@@ -1,6 +1,6 @@
 ---
-title: Registrar nuevos proveedores | Documentos de Microsoft
-description: "Obtenga información sobre cómo agregar proveedores a Financials."
+title: Crear una ficha de proveedor para registrar un proveedor nuevo | Documentos de Microsoft
+description: "Obtenga información sobre cómo crear una ficha de proveedor para registrar un nuevo proveedor."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: supplier
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 3420a91200b64ea0672d5757a0104c6806fc607f
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 78710d796ed73d7b4c2505f6cbb8c7d5f41d7320
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -27,7 +27,8 @@ Antes de que pueda registrar nuevos proveedores, debe configurar varios códigos
 
 Las fichas de proveedor contienen la información necesaria para comprar productos del proveedor. Para obtener más información, vea [Registrar compras](purchasing-how-record-purchases.md) y [Registrar nuevos productos](inventory-how-register-new-items.md).
 
-**Nota**: Si existen plantillas de proveedor para distintos tipos de proveedor, una ventana aparece cuando se crea una nueva ficha de proveedor en la que puede seleccionar una plantilla adecuada. Si solo existe una plantilla de proveedor, las nuevas fichas de proveedor utilizan siempre esa plantilla.
+> [!NOTE]  
+>   Si existen plantillas de proveedor para distintos tipos de proveedor, una ventana aparece cuando se crea una nueva ficha de proveedor en la que puede seleccionar una plantilla adecuada. Si solo existe una plantilla de proveedor, las nuevas fichas de proveedor utilizan siempre esa plantilla.
 
 ## <a name="to-create-a-new-vendor-card"></a>Para crear una nueva ficha de proveedor
 1. En la página Inicio, seleccione **Proveedores** para abrir la lista de fichas de proveedores existentes.  
@@ -40,7 +41,7 @@ Las fichas de proveedor contienen la información necesaria para comprar product
 
 El proveedor estará registrado y la ficha de proveedor está lista para usarse en los documentos de compra.
 
-Si desea usar esta ficha de proveedor como plantilla cuando cree nuevas fichas de proveedor, puede guardarla Para obtener más información, vea la siguiente sección:
+Si desea usar esta ficha de proveedor como plantilla cuando cree nuevas fichas de proveedor, puede guardarla. Para obtener más información, vea la siguiente sección:
 
 ## <a name="to-save-the-vendor-card-as-a-template"></a>Para guardar la ficha de proveedor como una plantilla
 1. En la ventana **Ficha de proveedor**, seleccione la acción **Guardar como plantilla**. La ventana **Plantilla proveedor** se abre mostrando la ficha de proveedor como plantilla.
@@ -53,5 +54,5 @@ Si desea usar esta ficha de proveedor como plantilla cuando cree nuevas fichas d
 ## <a name="see-also"></a>Consulte también
 [Compras](purchasing-manage-purchasing.md)  
 [Registro de compras](purchasing-how-record-purchases.md)   
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

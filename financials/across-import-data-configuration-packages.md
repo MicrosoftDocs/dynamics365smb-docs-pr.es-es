@@ -1,5 +1,5 @@
 ---
-title: Usar Excel para incorporar datos heredados en Financials | Documentos de Microsoft
+title: Usar Excel para importar datos en Financials | Documentos de Microsoft
 description: "Utilice el paquete de configuración predeterminado para agregar datos de cliente en Excel e importar los datos en Dynamics 365 for Financials."
 author: edupont04
 ms.service: dynamics365-financials
@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: migration, Excel
-ms.date: 04/27/2017
+ms.date: 07/05/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 0151b1c3d8bddd4692c494d1c0e5d1c036da424e
+ms.sourcegitcommit: 2a38dc36cb9ff609c5582acd489841b20013d4bc
+ms.openlocfilehash: 8cf36afea60b089afac8f1c27d126cd19b88ce94
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -22,6 +22,9 @@ ms.lasthandoff: 05/04/2017
 Puede importar datos maestros y algunos datos transaccionales de otros sistemas de financieros mediante el paquete de configuración predeterminado en [!INCLUDE[d365fin](includes/d365fin_md.md)]. En la ventana **Paquetes de configuración** puede trabajar con el paquete para importar y validar los datos antes de aplicar el paquete.  
 
 Si está familiarizado con los servicios de RapidStart para Microsoft Dynamics, también estará familiarizado con los paquetes de configuración. El paquete de configuración predeterminado admite la mayoría de tipos de datos habituales que desea importar de un sistema heredado. En Excel, puede agregar los datos del sistema heredado y configurarlos según la lógica empresarial de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+
+> [!TIP]  
+>   Opcionalmente, utilice asistentes de migración para importar datos de QuickBooks GP o Dynamics GP. Para obtener más información, consulte [Migración de datos de QuickBooks](ui-extensions-quickbooks-data-migration.md) o [Migración de datos de Dynamics GP](ui-extensions-dynamicsgp-data-migration.md).  
 
 ## <a name="working-with-data-in-excel"></a>Trabajar con datos en Excel
 Al exportar el paquete de configuración predeterminado a Excel, el libro generado contiene una hoja de trabajo para cada tabla del paquete. Para simplificar sus tareas, puede aprovechar las herramientas de manipulación de XML que se integran en Excel. También puede utilizar las funciones integradas de Excel para ayudar con el formato de datos y para colocar los datos en la celda correcta. Por ejemplo, agregue una hoja de cálculo en blanco y copie los datos heredados en ella. A continuación, cree una fórmula de Excel para asignar datos en la hoja de cálculo de transformación entre los campos en la hoja de cálculo exportada y los datos heredados del cliente. Después de asignar todos los datos, copie el intervalo de datos en la hoja de cálculo de la tabla.  
@@ -64,5 +67,8 @@ Después de que los datos del cliente se hayan introducido en Excel, importe los
 
 ## <a name="see-also"></a>Consulte también
 [Importar datos de empresa de otros sistemas financieros](upload-data.md)  
+[Migración de datos de QuickBooks](ui-extensions-quickbooks-data-migration.md)  
+[Migración de datos de Dynamics GP](ui-extensions-dynamicsgp-data-migration.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

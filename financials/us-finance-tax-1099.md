@@ -1,6 +1,6 @@
 ---
 title: "Informe 1099 de transacciones en EE. UU. | Documentos de Microsoft"
-description: "En sus documentos de compra, puede especificar que el documento está sujeto al impuesto 1099, y especificar el código 1099 para el proveedor."
+description: "El IRS requiere el formulario de impuestos 1099 para los pagos a proveedores y que especifique que un documento de compra está sujeto a 1099 y que especifique el código 1099 para el proveedor."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,14 +13,15 @@ ms.search.keywords: local
 ms.date: 03/29/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: a0a31c28b6c96dc80593ac3862b97b36c3ec81c7
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: c20c52927aa979e56aeef7975fbcee1564ca4dd7
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="reporting-1099-transactions-in-the-us"></a>Informe 1099 de transacciones en EE. UU.
+# <a name="reporting-transactions-as-1099-liable-in-the-us"></a>Comunicar transacciones como sujetas al 1099 en EE. UU.
+
 El servicio de la Agencia Tributaria de EE. UU. (IRS) requiere una o varias versiones de formulario del impuesto 1099 para los pagos a proveedores. Las copias de estos formularios se deben enviar a los proveedores anualmente el último día de enero o antes de ese día. En sus documentos de compra, puede especificar que el documento está sujeto al impuesto 1099, y especificar el código 1099 para el proveedor.  
 
 ## <a name="1099-codes"></a>Códigos 1099
@@ -55,5 +56,5 @@ Puede resultar útil ejecutar el informe **Información de proveedor 1099** para
 ## <a name="see-also"></a>Consulte también
 [Registro de proveedores nuevos](purchasing-how-register-new-vendors.md)  
 [Registrar compras](purchasing-how-record-purchases.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

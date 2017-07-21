@@ -1,6 +1,6 @@
 ---
-title: "Configurar la información de inventario general Documentos de Microsoft"
-description: "Describe cómo definir la configuración general de inventario, por ejemplo, las series numéricas y cómo utilizar los almacenes."
+title: "Definir la configuración de inventario general | Documentos de Microsoft"
+description: "Describe cómo definir la configuración de inventario general, como los números de serie y las ubicaciones, para poder, por ejemplo, administrar el almacén y las existencias."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: SorenGP
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: f4075d3ec4eea1241eeca204a9e800c0dba9f5c6
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 328b522107b58029687dd9e3263ff53b10ede9a9
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -24,14 +24,14 @@ ms.lasthandoff: 05/04/2017
 Especifique la configuración del inventario en la ventana **Configuración de inventario**.
 
 ## <a name="to-set-up-general-inventory-information"></a>Para configurar la información de inventario general
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Configuración de inventario** y elija el vínculo relacionado.
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Configuración de inventario** y, a continuación, seleccione el vínculo relacionado.
 2. En la ventana **Configuración de inventario**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="see-also"></a>Consulte también
 [Configuración de inventario](inventory-setup-inventory.md)  
 [Gestionar inventario](inventory-manage-inventory.md)  
 [Cadena de suministro](madeira-supply-chain.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)
 

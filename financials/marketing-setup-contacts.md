@@ -1,6 +1,6 @@
 ---
-title: "Preparar la configuración de contactos | Documentos de Microsoft"
-description: "Describe la preparación para configurar contactos en Financials"
+title: "Configurar información para contactos | Documentos de Microsoft"
+description: "Describe las tareas para especificar información y códigos, por ejemplo, sobre grupos de industria y relaciones de negocio, antes de configurar los contactos."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 399fc41da9ff8168eea8aabd593ffd6123d8d501
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 3de30e72853689df84d3807def1334db88776680
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="preparing-for-setting-up-contacts"></a>Preparar la configuración de contactos
+# <a name="preparing-to-set-up-contacts"></a>Preparar la configuración de los contactos
 Al crear contactos, puede especificar información como, por ejemplo, la industria a la que pertenecen las empresas de contacto y sus relaciones de negocio con los contactos.
 
 Antes de crear los contactos y los detalles de registro de sus relaciones de negocio, debe configurar los códigos que utilizará para asignar esta información a las empresas y personas de contacto. Se pueden configurar códigos para grupos de correo, grupos de industria, relaciones de negocio, orígenes Web, niveles de organización y responsabilidades del cargo.
@@ -41,5 +41,5 @@ En la tabla siguiente se indican una serie de tareas, con vínculos a los temas 
 ## <a name="see-also"></a>Consulte también
 [Gestionar contactos](marketing-contacts.md)  
 [Administrar oportunidades de venta](marketing-manage-sales-opportunities.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

@@ -1,6 +1,6 @@
 ---
-title: "Conciliar pagos usando la liquidación automática | Documentos de Microsoft"
-description: "Conciliar pagos con liquidación automática"
+title: "Usar la liquidación automática para conciliar pagos | Documentos de Microsoft"
+description: "Describe cómo usar la función de liquidación automática para liquidar pagos o recibos de efectivo en sus movimientos pendientes relacionados y conciliar pagos."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: payment process, direct payment posting, reconcile payment, 
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 423b141969c131688542cc10bb5361085f247a68
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: b4ff3d64f23a5dfb9800abeedb7374764b060f4d
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -37,10 +37,11 @@ En las líneas de diario donde un pago se ha liquidado automáticamente a un mov
 
 Para cada línea de diario en la ventana **Diario de conciliación de pagos** podrá abrir la ventana **Liquidación de pago** para ver todos los candidatos con movimientos pendientes de pago y podrá ver información detallada para cada movimiento sobre la correspondencia de datos en la que se basa la liquidación de un pago. Aquí puede liquidar manualmente pagos o volver a liquidar pagos que se aplicaron automáticamente en un movimiento incorrecto. Para obtener más información, vea [Procedimiento: Revisar o liquidar pagos después de una liquidación automática](receivables-how-review-apply-payments-auto-application.md).
 
-**Nota**: Puede iniciar la importación de las transacciones bancarias al mismo tiempo que abre la ventana **Conciliación de pagos** para un diario de conciliación de pagos existente en la ventana **Diarios de conciliación de pago**. El procedimiento siguiente describe cómo importar transacciones bancarias a la ventana **Diario de conciliación de pagos** una vez creado un nuevo diario.
+> [!NOTE]  
+>   Puede iniciar la importación de las transacciones bancarias al mismo tiempo que abre la ventana **Conciliación de pagos** para un diario de conciliación de pagos existente en la ventana **Diarios de conciliación de pago**. El procedimiento siguiente describe cómo importar transacciones bancarias a la ventana **Diario de conciliación de pagos** una vez creado un nuevo diario.
 
 ## <a name="to-reconcile-payments-using-automatic-application"></a>Para conciliar los pagos con liquidación automática
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Diarios de conciliación de pagos** y elija el vínculo relacionado.
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diarios de conciliación de pagos** y, a continuación, seleccione el vínculo relacionado.
 2. Para trabajar en un nuevo diario de conciliación de pago, seleccione la acción **Nuevo diario**.
 3. En la ventana **Lista cuentas bancarias pago**, seleccione la cuenta bancaria que desee conciliar los pagos y, a continuación, haga clic en **Aceptar**.
    La ventana **Diario de conciliación de pagos** abre una ventana preparada para la cuenta bancaria seleccionada.
@@ -63,10 +64,11 @@ Cuando se registra el diario de conciliación de pago, los abonos de movimientos
 
 Puede comparar el valor del campo **Saldo en cuenta bancaria después del registro** con el valor del campo **Saldo final extracto** para hacer un seguimiento cuando la cuenta bancaria se concilie según los pagos registrados.
 
-**Nota**: Si no desea conciliar la cuenta bancaria de la ventana **Diario de conciliación de pagos**, debe usar la ventana **Conciliación banco**. Para obtener más información, vea [Conciliar cuentas bancarias por separado](bank-how-reconcile-bank-accounts-separately.md).
+> [!NOTE]  
+>   Si no desea conciliar la cuenta bancaria de la ventana **Diario de conciliación de pagos**, debe usar la ventana **Conciliación banco**. Para obtener más información, vea [Conciliar cuentas bancarias por separado](bank-how-reconcile-bank-accounts-separately.md).
 
 ## <a name="see-also"></a>Consulte también
 [Administrar cobros](receivables-manage-receivables.md)  
 [Ventas](sales-manage-sales.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

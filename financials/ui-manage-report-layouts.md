@@ -1,6 +1,6 @@
 ---
-title: "Administrar diseños de informe | Documentos de Microsoft"
-description: "Obtenga información acerca de los diseños de informe."
+title: "Trabajar con diseños personalizados e integrados para informes y documentos | Documentos de Microsoft"
+description: "Use los diseños de informe para personalizar documentos, por ejemplo, para personalizar la fuente, el logotipo o la configuración de página de los archivos PDF que envía a clientes."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,17 +13,18 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: e221f5264190a90e04132ed4326afe2cf8364164
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 9c4c3b743d705913eaacbfd4b0e2df854f777c1c
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="managing-report-and-document-layouts"></a>Administrar diseños de informes y documentos
 Un diseño de informe controla el contenido y el formato del informe, incluidos los campos de datos de un conjunto de datos de informe que aparecen en el informe y la forma en que se organizan, el estilo del texto, las imágenes, etc. Desde [!INCLUDE[d365fin](includes/d365fin_md.md)] puede cambiar el diseño que se usa en un informe, crear un nuevo diseño o modificar diseños existentes.
 
-**Nota**: En [!INCLUDE[d365fin](includes/d365fin_md.md)], el término “informe” también afecta a documentos externos, como facturas de venta y las confirmaciones de pedido que envía a los clientes como archivos PDF.
+> [!NOTE]  
+>   En [!INCLUDE[d365fin](includes/d365fin_md.md)], el término “informe” también afecta a documentos externos, como facturas de venta y las confirmaciones de pedido que envía a los clientes como archivos PDF.
 
 En concreto, un diseño de informe configura lo siguiente:
 
@@ -57,7 +58,7 @@ El proceso para configurar diseños de informe de Word y de RDLC en informes es 
 Para obtener información acerca de cómo cambiar el diseño que desea usar, consulte [Procedimiento: Cambiar el diseño que se usa actualmente en un informe](ui-how-change-layout-currently-used-report.md)
 
 ## <a name="see-also"></a>Consulte también
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Crear un diseño de informe o documento personalizado](ui-how-create-custom-report-layout.md)  
-[Enviar documentos por correo electrónico](ui-how-send-documents-email.md)
+[Enviar documentos por correo electrónico.](ui-how-send-documents-email.md)
 

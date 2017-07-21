@@ -1,6 +1,6 @@
 ---
-title: "Liquidar pagos automáticamente y conciliar cuentas bancarias| Documentos de Microsoft"
-description: "Liquidar pagos automáticamente y conciliar cuentas bancarias"
+title: Tareas para conciliar cuentas bancarias y liquidar pagos de los movimientos relacionados | Documentos de Microsoft
+description: "Describe las tareas para conciliar las cuentas de banco, cobros y pagos, registrar recibos de efectivo o gastos, y liquidar los pagos automáticamente."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: payment process, direct payment posting, reconcile payment, 
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 0c56da9bc395ed16a5be223e65c9e9594e643993
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: f828fce295b15db9e50034a51e1531b29b064c85
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -41,5 +41,5 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 ## <a name="see-also"></a>Consulte también
 [Administrar cobros](receivables-manage-receivables.md)  
 [Ventas](sales-manage-sales.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

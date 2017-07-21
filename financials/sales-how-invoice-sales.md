@@ -1,6 +1,6 @@
 ---
-title: Facturar ventas | Documentos de Microsoft
-description: "Describe cómo utilizar las facturas de venta."
+title: Crear una factura o un pedido de venta | Documentos de Microsoft
+description: "Describe cómo crear un recibo, o una factura o un pedido de venta, para registrar el acuerdo con un cliente para vender productos con condiciones específicas."
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -8,21 +8,22 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: bill, sale
+ms.search.keywords: bill, sale, invoice, order
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: e9fbf7b6599c4136a4077f199feb8f2f00d3a959
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: fb4b1ad14dfedaeca38293e0e0b4496300090c17
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-invoice-sales"></a>Facturación de ventas
 Puede crear una factura o un pedido de ventas para registrar el contrato con un cliente para vender determinados productos según términos de entrega y pago determinados.  
 
-**Nota:** Hay un par de escenarios en los que debe usar un pedido de venta en lugar de una factura de venta:  
+> [!NOTE]  
+>   Hay un par de escenarios en los que debe usar un pedido de venta en lugar de una factura de venta:  
 
 * Si necesita enviar solo parte de una cantidad del pedido, por ejemplo, porque no esté disponible toda la cantidad.  
 * Si vende productos que el proveedor entrega directamente al cliente, lo que se denomina envío directo. Para obtener más información, vea [Procedimiento: Realizar envíos directos](sales-how-drop-shipment.md).  
@@ -66,7 +67,8 @@ Si ha configurado líneas de venta periódicas para el cliente, como por ejemplo
 
 11. En el campo **Cantidad**, especifique cuántas unidades de producto, cargo o transacción registrará la línea para el cliente.  
 
-    **Nota:** Si el producto es de tipo **Producto - Servicio** o **Recurso**, la cantidad es una unidad de tiempo, por ejemplo horas, según se indica en el campo **Cód. unidad medida** en la línea.  
+    > [!NOTE]  
+>   Si el producto es de tipo **Producto - Servicio** o **Recurso**, la cantidad es una unidad de tiempo, por ejemplo horas, según se indica en el campo **Cód. unidad medida** en la línea.  
 
     El valor del campo **Importe línea** se calculará como *Precio venta* x *Cantidad*.  
 
@@ -89,7 +91,8 @@ El producto relacionado y los movimientos de cliente se han creado ahora en su s
 ## <a name="see-also"></a>Consulte también
 [Ventas](sales-manage-sales.md)  
 [Configuración de ventas](sales-setup-sales.md)  
-[Grupos contables inventario](inventory-manage-inventory.md)  
-[Enviar documentos por correo electrónico](ui-how-send-documents-email.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Inventario](inventory-manage-inventory.md)  
+[Enviar documentos por correo electrónico.](ui-how-send-documents-email.md)  
+[Facturación masiva desde Microsoft Bookings en Dynamics 365 for Financials](finance-bookings.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

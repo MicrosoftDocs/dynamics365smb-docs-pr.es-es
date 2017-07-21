@@ -13,10 +13,10 @@ ms.search.keywords: cash, VAT, unrealized, cash-based
 ms.date: 04/20/2017
 ms.author: bholtorf
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: f87da12abcd2fd513a1579dd9362159687baaab8
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: c22e17c931fcb262abe2d2059af89ec6f930ecb5
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -28,7 +28,7 @@ Si utiliza métodos de contabilidad basada en efectivo, puede configurar [!INCLU
 Puede elegir que los importes de IVA se calculen y registren en una cuenta temporal al registrar una factura y que, a continuación, se registren en la cuenta correcta y se incluyan en las declaraciones de IVA cuando se registre el pago real de la factura. Antes de poder hacerlo, deberá configurar los grupos de registro de IVA.
 
 Para utilizar cuentas para IVA no realizado, realice los pasos siguientes:
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe") y especifique **Configuración contabilidad**. 
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe") e introduzca **Configuración contabilidad**. 
 2. En la página **Configuración de contabilidad**, en la ficha desplegable **General**, elija **Mostrar más** y, a continuación, elija la casilla de verificación **IVA no realizado**.
 3. Cierre la página.
 4. Seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe") y especifique **Config. grupos registro IVA**. 
@@ -46,10 +46,12 @@ Para utilizar cuentas para IVA no realizado, realice los pasos siguientes:
 
 6. En el campo **Cta. IVA reper. no realizado**, elija la cuenta de IVA repercutido no realizado.
 
-    **Nota**: El importe de IVA se registrará en esta cuenta y permanecerá hasta que se registre el pago del cliente. A continuación, el importe se transfiere a la cuenta para el IVA repercutido.
+    > [!NOTE]  
+>   El importe de IVA se registrará en esta cuenta y permanecerá hasta que se registre el pago del cliente. A continuación, el importe se transfiere a la cuenta para el IVA repercutido.
 7. En el campo **Cta. IVA sopor. no realizado**, introduzca una cuenta de IVA soportado no realizado.
 
-    **Nota**: El importe de IVA se registrará en esta cuenta y permanecerá hasta que se registre el pago del cliente. A continuación, el importe se transfiere a la cuenta para el IVA repercutido.
+    > [!NOTE]  
+>   El importe de IVA se registrará en esta cuenta y permanecerá hasta que se registre el pago del cliente. A continuación, el importe se transfiere a la cuenta para el IVA repercutido.
 
 ## <a name="see-also"></a>Consulte también
 [Configuración del impuesto sobre el valor añadido](finance-setup-vat.md)

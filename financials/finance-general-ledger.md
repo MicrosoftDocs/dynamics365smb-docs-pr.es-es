@@ -1,6 +1,6 @@
 ---
-title: Contabilidad y plan de cuentas | Documentos de Microsoft
-description: "Describe la contabilidad, el plan de cuentas y las categorías de la cuenta."
+title: "Obtener información sobre contabilidad y plan de cuentas | Documentos de Microsoft"
+description: "Describe la contabilidad, el plan de cuentas y las categorías de cuentas."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 02/14/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 04b94fa9f737765edbb1c93c506b444179b86fcf
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 06becfd7e54803fea925e8364719576bef0a8bab
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="the-general-ledger-and-the-chart-of-accounts"></a>Libro mayor y plan de cuentas
+# <a name="understanding-the-general-ledger-and-the-coa"></a>Descripción de contabilidad y plan de cuentas
 La contabilidad almacena sus datos financieros y el plan de cuentas muestra las cuentas donde se registran todos los movimientos contables. [!INCLUDE[d365fin](includes/d365fin_md.md)] incluye un gráfico estándar de cuentas que está preparado para respaldar su negocio.
 
 ## <a name="general-ledger-setup-and-general-posting-setup"></a>Configuración de contabilidad y grupos contables
@@ -64,5 +64,5 @@ La próxima vez que genere los esquemas de cuentas, su extracto de saldo mostrar
 ## <a name="see-also"></a>Consulte también
 [Finanzas](finance.md)  
 [Configurar o cambiar el plan de cuentas](finance-setup-chart-accounts.md)  
-[Esquemas de cuentas](finance-account-schedule.md)  
+[Inteligencia empresarial](bi.md)  
 

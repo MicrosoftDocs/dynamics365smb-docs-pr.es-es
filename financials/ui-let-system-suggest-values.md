@@ -1,6 +1,6 @@
 ---
-title: Permitir que Dynamics 365 for Financials proponga valores | Documentos de Microsoft
-description: "Describe cómo tener los campos del sistema seleccionados y rellenados previamente con los valores que, de no ser así, se calcularían y rellenarían manualmente."
+title: Configurar los valores de campo sugeridos | Documentos de Microsoft
+description: "Para evitar cálculos manuales y completar rápidamente y de forma precisa las tareas, puede configurar la entrada de datos automática de forma que Financials rellene los campos seleccionados."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 03/15/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 785ad537f81b8388aa14654f375599a13b66e3c5
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 99a76141f13efde3c7edb86037d6daaa0dbbb9d4
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -28,7 +28,7 @@ La funcionalidad que introduce los valores del campo por usted, normalmente, se 
 Cuando, por ejemplo, está introduciendo en el diario general las líneas para los gastos múltiples que deben registrarse en la misma cuenta bancaria y, a continuación, introduce una nueva línea en el diario para un gasto, puede tener el campo **Importe** en la línea de la cuenta bancaria automáticamente actualizado en el importe que balanza los gastos. Para obtener más información sobre trabajar con diarios generales, vea [Trabajar con diarios generales](ui-work-general-journals.md).
 
 ### <a name="to-have-the-amount-field-on-balancing-general-journal-lines-filled-automatically"></a>Para tener el campo **Importe** en la contrapartida de las líneas del diario general rellenado automáticamente
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Diarios generales** y elija el vínculo relacionado.
+1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), especifique **Diarios generales** y elija el vínculo relacionado.
 2. En la línea que aparece el proceso de su diario general preferido, seleccione la casilla **Sugerir importe de compensación**.
 3. Abra el diario general y registre las transacciones usando la funcionalidad descrita para la inserción automática del valor de un campo.       
 
@@ -40,12 +40,12 @@ La ventana **Registro de pago** muestra los pagos entrantes pendientes como lín
 Sus principales acciones en la ventana son rellenar la casilla de **Pago realizado** y el campo **Fecha recepción**. Puede configurar [!INCLUDE[d365fin](includes/d365fin_md.md)] para que introduzca la fecha del trabajo automáticamente en el campo **Fecha recepción** cuando selecciona la casilla de verificación **Pago realizado**.
 
 ### <a name="to-have-the-date-received-field-in-the-payment-registration-window-filled-automatically"></a>Para tener el campo **Fecha recepción** rellenado automáticamente en la ventana **Registro de pago**
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Configuración de registro de pago** y elija el vínculo relacionado.
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Configuración de registro de pago** y, a continuación, seleccione el vínculo relacionado.
 2. Seleccione la casilla **Rellenar automáticamente fecha recepción**.
 3. Abra la ventana **Registro de pago** y procese los pagos de cliente entrantes usando la funcionalidad descrita para introducir un valor de un campo automáticamente.
 
 ## <a name="see-also"></a>Consulte también
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Finanzas](Finance.md)
 
 

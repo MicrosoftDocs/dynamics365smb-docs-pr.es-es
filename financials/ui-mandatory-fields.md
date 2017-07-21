@@ -1,6 +1,6 @@
 ---
-title: Campos obligatorios | Documentos de Microsoft
-description: "Obtenga información sobre los campos obligatorios."
+title: Campos obligatorios para completar procesos | Documentos de Microsoft
+description: "Obtenga información sobre los campos marcados con un asterisco rojo, que indica que son obligatorios y que deben rellenarse para completar procesos."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.date: 05/12/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 999a5ba260121c378f80a86703df194d27a5f25c
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: b93a0a7deeab263e457b9bd1da1e7d1264cf2e71
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -30,6 +30,6 @@ En la ventana **Ficha cliente**, el asterisco de color rojo aparece en el campo 
 En la ventana **Ficha producto**, el asterisco de color rojo aparece en el campo **Descripción** para indicar que no podrá especificar el producto en una línea de documento, como un pedido de venta, a menos que se rellene este campo.
 
 ## <a name="see-also"></a>Consulte también
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 

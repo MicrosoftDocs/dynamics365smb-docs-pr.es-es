@@ -1,6 +1,6 @@
 ---
-title: Configurar revisiones| Documentos de Microsoft
-description: "Describe cómo preparar el sistema para utilizar los recursos en proyectos."
+title: Configurar costes de recurso, precios y capacidad | Documentos de Microsoft
+description: "Para utilizar recursos y facilitar la administración de proyectos, especifique costes y precios para recursos individuales o grupos de recursos, y configure la capacidad de recursos."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 16cbc303d6846bd532fe8651fd5207528cd464c4
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 0c8fee4bb34a6b16d552840462fdc4f4461498df
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -30,21 +30,21 @@ Debe especificar el importe predeterminado por hora cuando se crea el recurso. P
 ## <a name="to-set-up-a-resource"></a>Para configurar un recurso
 Cree una ficha por cada recurso que desee utilizar en los proyectos.
 
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Recursos** y elija el vínculo relacionado.
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Recursos** y, a continuación, seleccione el vínculo relacionado.
 2. Seleccione la acción **Nuevo**.
 3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-set-up-a-resource-group"></a>Para configurar una familia de recursos
 En una familia de recursos se pueden combinar varios recursos. En ellas se agrupan todas las capacidades y presupuestos cada uno de los recursos. Las capacidades de las familias de recursos pueden introducirse también independientemente de los valores acumulados o bien sumándolas a estos.
 
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Grupos de recursos** y elija el vínculo relacionado.
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Familias de recursos** y, a continuación, seleccione el vínculo relacionado.
 2. Seleccione la acción **Nuevo**.
 3. Rellene los campos según sea necesario.
 
 ## <a name="to-set-capacity-for-a-resource"></a>Para configurar la capacidad de un recurso
 Para calcular cuánto tiempo puede dedicar un recurso a los trabajos, su capacidad debe definirse primero como tiempo disponible por periodo en el calendario de trabajo. Utilice esta configuración para rellenar las líneas de planificación del proyecto que contienen el recurso. Para obtener más información, vea [Creación de proyectos](projects-how-create-jobs.md).
 
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Recursos** y elija el vínculo relacionado.
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Recursos** y, a continuación, seleccione el vínculo relacionado.
 2. Abra la ficha de recurso correspondiente y, a continuación, elija la acción **Capacidad recurso**.
 3. En la ventana **Capacidad del recurso**, en el campo **Ver**, especifique la duración del periodo, por ejemplo **Día**, que se muestra en columnas en la ficha desplegable **Matriz capacidad recurso**.
 4. Para cada recurso de una línea, especifique por cada periodo de las columnas el número de horas que el recurso está disponible.
@@ -56,7 +56,7 @@ Para calcular cuánto tiempo puede dedicar un recurso a los trabajos, su capacid
 ## <a name="to-set-up-alternate-resource-costs"></a>Para configurar costes de recursos alternativos
 Además del coste especificado en la tarjeta de recurso, puede configurar costes alternativos para cada recurso. Por ejemplo, si paga a un empleado un sueldo por horas distinto para el trabajo en horas extraordinarias, puede configurar un precio de coste de recurso para el sueldo por horas extraordinarias. El coste alternativo que configuró para el recurso anulará el precio de coste de la ficha de recurso cuando utilice el recurso en el diario de recursos.
 
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Recursos** y elija el vínculo relacionado.  
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Recursos** y, a continuación, seleccione el vínculo relacionado.  
 2. Seleccione el recurso para el que desee configurar varios costes alternativos y, a continuación, elija la acción **Costes**.  
 3. En la ventana **Precio de coste del recurso**, rellene los campos en una línea según sea necesario.  
 4. Repita el paso 3 para cada precio de coste de recurso alternativo que desee configurar.
@@ -66,7 +66,7 @@ Además del coste especificado en la tarjeta de recurso, puede configurar costes
 ## <a name="to-set-up-alternate-resource-prices"></a>Para configurar precios de recursos alternativos
 Además del precio especificado en la tarjeta de recurso, puede configurar precios alternativos para cada recurso. Estos precios alternativos pueden ser condicionales. Pueden depender de si el recurso se consume con un proyecto o tipo de trabajo determinado.
 
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Recursos** y elija el vínculo relacionado.
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Recursos** y, a continuación, seleccione el vínculo relacionado.
 2. Seleccione el recurso para el que desee configurar varios precios alternativos y, a continuación, elija la acción **Precios**.
 3. En la ventana **Precio de venta del recurso**, rellene los campos en una línea según sea necesario.
 4. Repita el paso 3 para cada precio de venta de recurso alternativo que desee configurar.
@@ -77,5 +77,5 @@ Además del precio especificado en la tarjeta de recurso, puede configurar preci
 [Finanzas](finance.md)  
 [Compras](purchasing-manage-purchasing.md)         
 [Ventas](sales-manage-sales.md)      
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

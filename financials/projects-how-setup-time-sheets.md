@@ -1,6 +1,6 @@
 ---
-title: Configurar hojas de horas | Documentos de Microsoft
-description: "Describe cómo preparar el sistema para utilizar las hojas de horas para administrar proyectos."
+title: "Configurar hojas de horas y su aprobación | Documentos de Microsoft"
+description: "Puede configurar hojas de horas para realizar un seguimiento del tiempo empleado en proyectos y el uso recursos, lo que le ayudará en la administración de proyectos, personal y capacidad"
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: aa93e7fe867893c52e3b3973a58ea8a43291c1b1
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 3e85168709eb8e96b2ee2aea516189c2cf88d426
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -31,7 +31,7 @@ Después de haber configurado cómo usará su organización las hojas de horas, 
 Cuando haya configurado las hojas de horas, puede crear hojas de horas para recursos, asignarlas a líneas de planificación de proyecto y registrar líneas de hoja de horas. Para obtener más información, vea [Uso de hojas de horas](projects-how-use-time-sheets.md).
 
 ## <a name="to-set-up-general-information-for-time-sheets"></a>Para configurar la información general de las hojas de horas
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Configuración de recursos** y elija el vínculo relacionado.  
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Configuración de recursos** y, a continuación, seleccione el vínculo relacionado.  
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Para el campo **Hojas horas por aprob. proyecto**, seleccione una de las opciones siguientes.
 
@@ -42,19 +42,21 @@ Cuando haya configurado las hojas de horas, puede crear hojas de horas para recu
 | **Solo máquina** |Si la hoja de horas de la máquina está vinculada a un proyecto, el usuario del campo **Cód. responsable** de la ficha de proyecto aprueba la hoja de horas. Si la hoja de horas de la máquina está vinculada a un recurso, el usuario del campo **Id. usuario aprob. hoja horas** de la ficha de recurso aprueba la hoja de horas. |
 
 ## <a name="to-assign-a-time-sheet-administrator"></a>Para asignar un administrador de la hoja de horas
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Configuración usuarios** y elija el vínculo relacionado.  
-2. Agregue un nuevo usuario, si la lista de usuarios no incluye a la persona que desea que sea el administrador de la hoja de horas. Para obtener más información, vea la sección "Creación de usuarios" en [Preparación para el negocio](ui-get-ready-business.md).  
+1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Configuración usuarios** y, a continuación, seleccione el vínculo relacionado.  
+2. Agregue un nuevo usuario, si la lista de usuarios no incluye a la persona que desea que sea el administrador de la hoja de horas. Para obtener más información, vea [Administrar usuarios y permisos](ui-how-users-permissions.md).
 3. Seleccione el usuario que sea un administrador de hoja de horas y seleccione la casilla **Admin. hoja horas** .  
 
-**Sugerencia**: Se recomienda que designe a un solo usuario como administrador de hoja de horas para una empresa. En el siguiente procedimiento, configure un propietario y un aprobado de hoja de horas, donde el aprobador se asigne para cada recurso.  
+> [!TIP]  
+>   Se recomienda que designe a un solo usuario como administrador de hoja de horas para una empresa. En el siguiente procedimiento, configure un propietario y un aprobado de hoja de horas, donde el aprobador se asigne para cada recurso.  
 
 ## <a name="to-assign-a-time-sheets-owner-and-approver"></a>Para asignar un propietario y un aprobador de la hoja de horas
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Recursos** y elija el vínculo relacionado.
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Recursos** y, a continuación, seleccione el vínculo relacionado.
 2. Seleccione el recurso para el que desea definir la capacidad para usar hojas de horas y, a continuación, seleccione la casilla **Usar hoja horas**.  
 3. En el campo **Id. usuario prop. hoja horas**, escriba el identificador del propietario de la hoja de horas. El propietario puede especificar el uso de tiempo en una hoja de horas y enviarla para su aprobación. Normalmente, cuando el recurso es una persona, esa persona también es el propietario.  
 4. En el campo **Id. usuario aprob. hoja horas**, escriba el identificador del aprobador de la hoja de horas. El aprobador puede aprobar, rechazar o volver a abrir una hoja de horas.  
 
-**Nota**: No se puede cambiar el identificador de aprobador de la hoja de horas si hay hojas de horas que aún no se han procesado y tienen el estado **Enviado** o **Pendiente**.
+> [!NOTE]  
+>   No se puede cambiar el identificador de aprobador de la hoja de horas si hay hojas de horas que aún no se han procesado y tienen el estado **Enviado** o **Pendiente**.
 
 ## <a name="see-also"></a>Consulte también
 [Configurar la administración de proyectos](projects-setup-projects.md)  
@@ -62,5 +64,5 @@ Cuando haya configurado las hojas de horas, puede crear hojas de horas para recu
 [Finanzas](finance.md)  
 [Compras](purchasing-manage-purchasing.md)         
 [Ventas](sales-manage-sales.md)      
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

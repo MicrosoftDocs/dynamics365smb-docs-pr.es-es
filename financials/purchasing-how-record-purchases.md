@@ -1,6 +1,6 @@
 ---
-title: Registrar compras| Documentos de Microsoft
-description: "Describe cómo comprar productos del tipo inventario o servicio creando y registrando facturas o pedidos de compra."
+title: Crear una factura de compra y registrar compras | Documentos de Microsoft
+description: "Describe cómo comprar productos de inventario y servicio creando y registrando facturas o pedidos de compra."
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -12,27 +12,30 @@ ms.search.keywords: procurement
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: a56cfc08495a8d57eaa9a8f355549bf3575cd29c
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 60906dde627216903b5ef82e34ce4bc918f3c988
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-record-purchases"></a>Registro de compras
 Cree una factura o un pedido de compra para registrar el coste de las compras y para realizar el seguimiento de los pagos. Si necesita controlar un inventario, las facturas y los pedidos de compra también se utilizan para actualizar dinámicamente los niveles de inventario para que pueda minimizar sus costes de inventario y proporcionar un mejor servicio al cliente. Los costes de compra, incluidos los gastos del servicio y los valores de inventario resultantes del registro de las facturas o los pedidos de compra, contribuyen a las cifras de ganancias y otros KPI financieros en su página Inicio.
 
-**Nota**: Debe usar pedidos de compra si el proceso de compra requiere que registre recibos parciales de una cantidad del pedido, por ejemplo, porque el proveedor no disponía de la cantidad total. Si vende productos que se entregan directamente desde el proveedor al cliente, como envío directo, deberá usar también pedidos de compras. Para obtener más información, vea [Procedimiento: Realizar envíos directos](sales-how-drop-shipment.md). En todos los demás aspectos, los pedidos de compra funcionan de la misma forma que las facturas de compra. El procedimiento siguiente se basa en una factura de compra. Los pasos son parecidos para un pedido de compra.
+> [!NOTE]  
+>   Debe usar pedidos de compra si el proceso de compra requiere que registre recibos parciales de una cantidad del pedido, por ejemplo, porque el proveedor no disponía de la cantidad total. Si vende productos que se entregan directamente desde el proveedor al cliente, como envío directo, deberá usar también pedidos de compras. Para obtener más información, vea [Procedimiento: Realizar envíos directos](sales-how-drop-shipment.md). En todos los demás aspectos, los pedidos de compra funcionan de la misma forma que las facturas de compra. El procedimiento siguiente se basa en una factura de compra. Los pasos son parecidos para un pedido de compra.
 
 Cuando se reciben los productos de inventario, o cuando se completa el servicio comprado, se registra la factura o el pedido de compra para actualizar el inventario y los registros financieros, y para activar el pago al proveedor según los términos de pago. Para obtener más información, consulte [Realizar pagos](payables-make-payments.md).
 
-**Precaución**: No registre una factura de compra hasta que reciba los productos y conozca el coste final de la compra, incluidos los gastos adicionales. De lo contrario, las cifras de valor de inventario y de ganancias pueden estar sesgadas.
+> [!CAUTION]  
+>   No registre una factura de compra hasta que reciba los productos y conozca el coste final de la compra, incluidos gastos adicionales. De lo contrario, las cifras de valor de inventario y de ganancias pueden estar sesgadas.
 
 Puede corregir o cancelar fácilmente una factura de compra registrada antes de pagar al proveedor. Esto es útil si se desea corregir un error de escritura o si desea cambiar la compra de forma anticipada en el proceso de pedido. Para obtener más información, vea [Procedimiento: Corregir o cancelar las facturas de compra sin abonar](purchasing-how-correct-cancel-unpaid-purchase-invoices.md) Si ya ha pagado productos en la factura de compra registrada, deberá crear un abono de compra para revertir la compra. Para obtener más información, vea [Procedimiento: Procesar devoluciones de compra o cancelaciones](purchasing-how-process-purchase-returns-cancellations.md).
 
 Los productos pueden ser del tipo **Inventario** o **Servicio**. Para obtener más información, vea [Registrar nuevos productos](inventory-how-register-new-items.md). El proceso de la factura de compra es el mismo para ambos tipos de producto.
 
-**Nota**: La funcionalidad de pedido de compra requiere que la experiencia esté definida en **Conjunto de aplicaciones**. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
+> [!NOTE]  
+>   La funcionalidad de pedido de compra requiere que la experiencia esté definida en **Conjunto de aplicaciones**. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
 
 Puede rellenar los campos del proveedor en la factura de compra de dos maneras dependiendo de si el proveedor ya está registrado.
 
@@ -53,18 +56,21 @@ Puede rellenar los campos del proveedor en la factura de compra de dos maneras d
 
     Ya puede empezar a rellenar las líneas de la factura de compra con los productos de inventario o los servicios que ha comprado del proveedor.
 
-    **Nota**: Si ha configurado líneas de compra periódicas para el proveedor, como un pedido de reabastecimiento mensual, puede insertarlas en la factura eligiendo el botón **Obtener líneas de compra periódicas**.
+    > [!NOTE]  
+>   Si ha configurado líneas de compra periódicas para el proveedor, como un pedido de reabastecimiento mensual, puede insertarlas en la factura eligiendo el botón **Obtener líneas de compra periódicas**.
 10. En la ficha desplegable **Líneas**, en el campo **N.º producto**,  introduzca el número de un producto de inventario o servicio.
 11. En el campo **Cantidad**, introduzca el número de productos que se van a comprar.
 
-    **Nota**: Para los producto de tipo **Servicio** la cantidad es una unidad de tiempo, por ejemplo horas, según se indica en el campo **Cód. unidad medida** en la línea.
+    > [!NOTE]  
+>   Para los producto de tipo **Servicio** la cantidad es una unidad de tiempo, por ejemplo horas, según se indica en el campo **Cód. unidad medida** en la línea.
 
     El campo **Importe línea** se actualiza para mostrar el valor del campo **Coste unit. directo** multiplicado por el valor del campo **Cantidad**.
 
     El precio y el importe de las líneas se muestran con o sin IVA dependiendo de qué seleccione en el campo **Precios incluyendo IVA** en la ficha del proveedor.
 12. En el campo **Importe descuento factura**, especifique un importe que se debe descontar del valor que aparece en el campo **Total IVA incl.** en la parte inferior de la factura.
 
-    **Nota**: Si ha configurado descuentos en factura para el proveedor, el valor porcentual especificado se inserta automáticamente en el campo **% descuento en factura de proveedor** si se cumplen los criterios, y el importe relacionado se inserta en el campo **Importe descuento factura**.
+    > [!NOTE]  
+>   Si ha configurado descuentos en factura para el proveedor, el valor porcentual especificado se inserta automáticamente en el campo **% descuento en factura de proveedor** si se cumplen los criterios, y el importe relacionado se inserta en el campo **Importe descuento factura**.
 13. Cuando reciba los productos o servicios comprados, seleccione **Registrar**.
 
 La compra ahora se refleja en el inventario y en los registros financieros, y se activa el pago al proveedor. La factura de compra se elimina de la lista de facturas de compra y se reemplaza con un nuevo documento de la lista de facturas de compra registradas.
@@ -72,8 +78,8 @@ La compra ahora se refleja en el inventario y en los registros financieros, y se
 ## <a name="see-also"></a>Consulte también
 [Compras](purchasing-manage-purchasing.md)  
 [Configurar compras](purchasing-setup-purchasing.md)  
-[Compra de productos para una venta](purchasing-how-purchase-products-sale.md)  
+[Comprar productos para una venta](purchasing-how-purchase-products-sale.md)  
 [Registro de proveedores nuevos](purchasing-how-register-new-vendors.md)  
 [Preparar envíos directos](sales-how-drop-shipment.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

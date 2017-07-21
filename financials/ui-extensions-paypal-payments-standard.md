@@ -1,6 +1,6 @@
 ---
-title: "Estándar de pagos de PayPal| Documentos de Microsoft"
-description: "Proporciona información sobre la extensión Estándar de pagos de PayPal"
+title: "Usar la extensión estándar de pagos de PayPal | Documentos de Microsoft"
+description: "Describe cómo utilizar la extensión para permitir a clientes realizar pagos con PayPal."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms. search.keywords: app, add-in, manifest, customize
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: fdd5df534c0ffd1ae325e0959fe01b1d0f00974a
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: fcbba8ecb2d63ab780a54aa4784a30b7fa5020fa
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -38,7 +38,7 @@ El servicio Estándar de pagos de PayPal proporciona las ventajas siguientes:
 Para obtener más información, consulte [Procedimiento: Permitir pagos de cliente a través de PayPal](sales-how-enable-payment-service-extensions.md).
 
 ## <a name="see-also"></a>Consulte también
-[Personalización de [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizando extensiones](ui-extensions.md)  
+[Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones](ui-extensions.md)  
 [Configuración de ventas](sales-setup-sales.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

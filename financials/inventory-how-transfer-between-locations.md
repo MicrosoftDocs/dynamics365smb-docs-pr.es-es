@@ -1,6 +1,6 @@
 ---
-title: Transferir el inventario entre almacenes | Documentos de Microsoft
-description: "Describe cómo transferir el inventario de un lugar o almacén a otro con el diario de reclasificación o con pedidos de transferencia."
+title: Transferir productos entre almacenes | Documentos de Microsoft
+description: "Describe cómo mover el inventario de un lugar o almacén a otro con el diario de reclasificación o con pedidos de transferencia."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: move, warehouse
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: SorenGP
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 43a60a6eb646de13ca9bf1458061f0bbefbeab12
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: d54b75240cb0a2dddcfabc488a18e0bf9635f82c
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -27,17 +27,20 @@ Con los pedidos de transferencia, se envía la transferencia de salida desde un 
 
 Cono el diario de reclasificación, simplemente se rellenan los campos **Código de almacén** y **Nuevo código de almacén**. Al registrar el diario, los movimientos de productos se ajustan en los almacenes en cuestión. Con este método, las actividades de almacén no se administran.
 
-**Nota**: Si tiene productos registrados en el inventario sin un código de almacén, por ejemplo cuando solo tenía un almacén, no podrá transferir estos productos con pedidos de transferencia. En su lugar, deberá utilizar el diario de reclasificación para reclasificar los productos desde un código de almacén en blanco a un código de almacén real.  Para obtener más información, vea el paso 3 en la sección "Para transferir productos con el diario de reclasificación".
+> [!NOTE]  
+>   Si tiene productos registrados en el inventario sin un código de almacén, por ejemplo cuando solo tenía un almacén, no podrá transferir estos productos con pedidos de transferencia. En su lugar, deberá utilizar el diario de reclasificación para reclasificar los productos desde un código de almacén en blanco a un código de almacén real.  Para obtener más información, vea el paso 3 en la sección "Para transferir productos con el diario de reclasificación".
 
 Para transferir productos, se deben configurar las ubicaciones y las rutas de transferencia. Para obtener más información, vea [Procedimiento: Configurar almacenes](inventory-how-setup-locations.md).
 
-**Nota**: Esta funcionalidad que requiere que la experiencia esté definida en **Conjunto de aplicaciones**. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
+> [!NOTE]  
+>   Esta funcionalidad requiere que la experiencia esté definida en **Conjunto de aplicaciones**. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
 
 ## <a name="to-transfer-items-with-a-transfer-order"></a>Para transferir productos con un pedido de transferencia
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Pedidos de transferencia** y elija el vínculo relacionado.
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Pedidos de transferencia** y, a continuación, seleccione el vínculo relacionado.
 2. En la ventana **Pedido de transferencia**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-    **Nota**: Si ha rellenado los campos **Cód. en tránsito**, **Cód. transportista** y **Servicio transportista** en la ventana **Ruta transf. espec.** cuando configuró la ruta de transferencia, los campos correspondientes del pedido de transferencia se rellenan automáticamente.
+    > [!NOTE]  
+>   Si ha rellenado los campos **Cód. en tránsito**, **Cód. transportista** y **Servicio transportista** en la ventana **Ruta transf. espec** cuando configuró la ruta de transferencia, los campos correspondientes del pedido de transferencia se rellenan automáticamente.
 
     Cuando se especifica un valor en el campo **Servicio transportista**, se calcula la fecha de recepción en el almacén de destino de la transferencia, sumando el tiempo de envío del transportista a la fecha de envío.
 
@@ -50,11 +53,12 @@ Para transferir productos, se deben configurar las ubicaciones y las rutas de tr
 4. Seleccione la acción **Registrar**, seleccione la opción **Recepción** y seleccione el botón **Aceptar**.
 
 ## <a name="to-transfer-items-with-the-item-reclassification-journal"></a>Para transferir productos con el diario de reclasificación de productos
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Diarios reclasif. producto** y elija el vínculo relacionado.
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diarios reclas. producto** y, a continuación, seleccione el vínculo relacionado.
 2. En la ventana **Diarios reclasif. producto**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. En el campo **Cód. almacén**, escriba la ubicación donde se almacenan los productos actualmente.
 
-    **Nota**: Para transferir productos que no tienen código de almacén, deje en blanco el campo **Cód. almacén**.
+    > [!NOTE]  
+>   Para transferir productos que no tienen código de almacén, deje en blanco el campo **Cód. almacén**.
 4. En el campo **Cód. almacén destino**, especifique la ubicación a la que desee transferir los productos.
 5. Seleccione la acción **Registrar**.
 
@@ -62,7 +66,7 @@ Para transferir productos, se deben configurar las ubicaciones y las rutas de tr
 [Gestionar inventario](inventory-manage-inventory.md)  
 [Configuración de almacenes](inventory-how-setup-locations.md)  
 [Cadena de suministro](madeira-supply-chain.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)
 

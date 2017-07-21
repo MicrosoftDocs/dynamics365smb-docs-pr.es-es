@@ -1,6 +1,6 @@
 ---
-title: Registrar cambios en Dynamics 365 for Financials | Documentos de Microsoft
-description: Registrar los cambios realizados por los usuarios.
+title: Realizar el seguimiento de la actividad de usuario en un registro de cambios | Documentos de Microsoft
+Description: Puede activar el registro de usuario para tener un historial de los cambios realizados en los datos de las tablas de las que se hace el seguimiento.
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user log, user activity, tracking
-ms.date: 03/04/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 470931febc303ace8fa1e8015453c20b587762b0
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: c27c63ae26f2f97dd15d31978b967f6a08dd55b7
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -36,5 +36,5 @@ Después de haber configurado el registro de cambios, haberlo activado y alguien
 [Ordenación](ui-sorting.md)  
 [Buscar página o informe](ui-search.md)  
 [Administrar usuarios y permisos](ui-how-users-permissions.md)    
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

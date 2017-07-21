@@ -1,6 +1,6 @@
 ---
 title: Configurar grupos de industria para empresas de contacto | Documentos de Microsoft
-description: "Describe cómo usar grupos de industria con contactos en Financials"
+description: "Describe cómo definir un grupo de industria y asignarlo a una empresa de contacto, por ejemplo, en la industria minorista o la industria del automóvil."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,27 +10,28 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 34b81ec1e92eea67af13c7a2dfe03bdb97c8c59c
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 7fef570e7e56e348a25ae660fa9248b529d0bfde
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="setting-up-industry-groups-for-contact-companies"></a>Configurar grupos de industria para empresas de contacto
+# <a name="how-to-set-up-industry-groups-for-contact-companies"></a>Configurar grupos de industria para empresas de contacto
 Puede usar grupos industria para indicar el tipo de industria al que pertenecen sus contactos, por ejemplo, la industria de fabricación o la industria del automóvil.
 
 El uso de grupos industria en contactos es un proceso que consta de dos pasos. Primero, debe definir el código del grupo de industria. Solo debe realzar este paso una vez para cada grupo de industria. Una vez tenga código de grupo de industria, puede comenzar a asignar el código a empresas de contacto.
 
-**Nota:** Si pretende sincronizar sus contactos con proveedores, clientes o bancos en otras partes de la aplicación, puede ser interesante configurar una relación de negocio para ellos.
+> [!NOTE]  
+>   Si desea sincronizar sus contactos con proveedores, clientes o bancos en otras partes de la aplicación, se recomienda configurar una relación de negocio para ellos.
 
 ## <a name="to-define-an-industry-group-code"></a>Para definir un código de grupo de industria
 El código de grupo de industria define el tipo o la categoría del grupo, como ADVERT para publicidad o PRESS para televisión y radio. Puede tener varios códigos de grupo de industria. Para definir los grupos de industria, pude usar la ventana **Grupos industria**.
 
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Grupos industria** y elija el vínculo relacionado.
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Grupos industria** y, a continuación, seleccione el vínculo relacionado.
 2. Seleccione la acción **Nuevo** e introduzca un código y una descripción. El código admite un máximo de 11 caracteres y puede ser cualquier combinación de números y letras.
 
 ## <a name="AssignIndustryGroupContact"></a> Para asignar grupos de industria a un contacto
@@ -48,5 +49,5 @@ Después de asignar grupos de industria a sus contactos, puede utilizar esa info
 
 ## <a name="see-also"></a>Consulte también
 [Crear empresas de contacto](marketing-create-contact-companies.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

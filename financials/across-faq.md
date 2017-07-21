@@ -1,6 +1,6 @@
 ---
-title: "Preguntas más frecuentes| Documentos de Microsoft"
-description: "Preguntas más frecuentes sobre iniciar sesión y usar Dynamics 365 for Financials."
+title: "Preguntas más frecuentes sobre el uso de Financials | Documentos de Microsoft"
+description: "Responde a preguntas habituales sobre cómo registrarse en Financials y lo que se debe haber para empezar."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
-ms.date: 03/22/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 58ba70311a035afd08bc5b4d0193fc34b132a39f
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: f4c4180c1ea70d8ef17136d56cc0f21e50f4f302
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -32,7 +32,7 @@ Si intenta iniciar sesión con una dirección de correo personal, recibirá un m
 No. Pero si desea experimentar con [!INCLUDE[d365fin](includes/d365fin_md.md)] completamente integrado en Office 365, puede registrarse gratuitamente para un mes de prueba de Office 365 [aquí](https://products.office.com/try).  
 
 ## <a name="what-is-the-integration-with-office-365-about"></a>¿De qué trata la integración con Office 365?
-[!INCLUDE[d365fin](includes/d365fin_md.md)] está completamente integrado en Office 365, por esta razón puede navegar libremente entre las aplicaciones de Office 365 y [!INCLUDE[d365fin](includes/d365fin_md.md)] usando el lanzador de aplicaciones. En [!INCLUDE[d365fin](includes/d365fin_md.md)], por ejemplo, puede abrir datos en Excel, imprimir los informes usando Word y trabajar en sus datos de [!INCLUDE[d365fin](includes/d365fin_md.md)] en Outlook. Para obtener más información, vea [Usar [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] como su bandeja de entrada de empresa en Outlook](madeira-outlook.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] está completamente integrado en Office 365, por esta razón puede navegar libremente entre las aplicaciones de Office 365 y [!INCLUDE[d365fin](includes/d365fin_md.md)] usando el lanzador de aplicaciones. En [!INCLUDE[d365fin](includes/d365fin_md.md)], por ejemplo, puede abrir datos en Excel, imprimir los informes usando Word y trabajar en sus datos de [!INCLUDE[d365fin](includes/d365fin_md.md)] en Outlook. Para obtener más información, consulte [Usar [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] como su bandeja de entrada de empresa en Outlook](madeira-outlook.md).  
 
 ## <a name="can-i-cancel-my-subscription"></a>¿Puedo cancelar mi suscripción?
 Sí, pero dependiendo de cómo inició sesión en [!INCLUDE[d365fin](includes/d365fin_md.md)] se pueden eliminar o conservar sus datos. Para obtener más información, consulte [Cancelar [!INCLUDE[d365fin](includes/d365fin_md.md)]](madeira-cancel.md).  
@@ -48,8 +48,8 @@ Esto es un poco complicado, pero parece que el administrador no ha cambiado el �
 
 ## <a name="see-also"></a>Consulte también
 [[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] como bandeja de entrada de empresa en Outlook](madeira-outlook.md)  
+[Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] como su bandeja de entrada de empresa en Outlook](madeira-outlook.md)  
 [Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] sin Outlook](madeira-no-outlook.md)  
 [Cambiar el área de trabajo](change-role.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

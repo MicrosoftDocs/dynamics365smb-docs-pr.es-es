@@ -1,6 +1,6 @@
 ---
-title: Configurar relaciones de negocio para contactos | Documentos de Microsoft
-description: Describe las relaciones de negocio de contactos en Financials
+title: "Definir los códigos de relaciones de negocio en contactos | Documentos de Microsoft"
+description: Utilice las relaciones de negocio en Financials como ayuda con el marketing y para indicar las relaciones de ese tipo con los clientes potenciales y los clientes, por ejemplo, un banco o un proveedor de servicios.
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, prospect, contact, client, customer
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: f6719ac45f298d6c952427c871eaf818cb7480c3
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 7d0f189ac233ea4da72136858a343dfaa7e88883
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -25,12 +25,13 @@ Puede usar relaciones de negocio se usan para indicar las relaciones de ese tipo
 
 El uso relaciones de negocio en contactos es un proceso que consta de dos pasos. Primero, debe definir el código de relación de negocio. Solo debe realizar este paso una vez para cada relación de negocio. Una vez tenga un código de relación de negocio, puede comenzar a asignar el código a empresas de contacto.
 
-**Nota**: Si pretende sincronizar sus contactos con proveedores, clientes o bancos en otras partes de la aplicación, puede ser interesante configurar una relación de negocio para ellos.
+> [!NOTE]  
+>   Si desea sincronizar sus contactos con proveedores, clientes o bancos en otras partes de la aplicación, se recomienda configurar una relación de negocio para ellos.
 
 ## <a name="to-define-a-business-relation-code"></a>Para definir un código de relación de negocio
 El código de relación de negocio define una categoría o un tipo de relación de negocio, como BANCO o ABO. Puede tener varios códigos de relación de negocio. Para definir relaciones de negocio, use la ventana **Relaciones de negocio**.
 
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Relaciones negocio** y elija el vínculo relacionado.
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Relaciones negocio** y, a continuación, seleccione el vínculo relacionado.
 2. Seleccione la acción **Nuevo** e introduzca un código y una descripción. El código admite un máximo de 11 caracteres y puede ser cualquier combinación de números y letras.
 
 ## <a name="AssignBusRelContact"></a> Para asignar relaciones de negocio a un contacto
@@ -50,5 +51,5 @@ Después de asignar relaciones de negocio a sus contactos, puede utilizar esa in
 
 ## <a name="see-also"></a>Consulte también
 [Crear empresas de contacto](marketing-create-contact-companies.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Configurar el plan de cuentas | Documentos de Microsoft
-description: "Describe cómo puede modificar el plan de cuentas."
+description: Puede cambiar las cuentas predeterminadas en el plan de cuentas (COA) y puede agregar nuevas cuentas.
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: COA, cha of acc
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 48202a9e9a763dcb22bed9975aa9c4a39d2dc4ae
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: ceb01999525139cabc7c31e2304f738dcc9267f8
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -27,7 +27,8 @@ Sin embargo, puede cambiar las cuentas predeterminadas y puede agregar nuevas cu
 ## <a name="adding-or-changing-accounts"></a>Agregar o cambiar cuentas
 Desde el plan de cuentas, puede abrir cada cuenta de contabilidad y agregar o cambiar la configuración.
 
-**Nota**: Puede eliminar una cuenta contable. Sin embargo, antes de eliminarla, deben cumplirse las condiciones siguientes:  
+> [!NOTE]  
+>   Puede eliminar una cuenta contable. Sin embargo, antes de eliminarla, deben cumplirse las condiciones siguientes:  
 
 * El saldo de la cuenta debe ser cero.  
 * El campo **Permite borrar ctas. anteriores a** se debe configurar en la ventana **Configuración de contabilidad** y la cuenta no debe tener movimientos contables en o después de esa fecha.  
@@ -38,9 +39,9 @@ Desde el plan de cuentas, puede abrir cada cuenta de contabilidad y agregar o ca
 ## <a name="see-also"></a>Consulte también
 [Libro mayor y plan de cuentas](finance-general-ledger.md)  
 [Administrar cuentas bancarias](bank-manage-bank-accounts.md)  
-[Dimensiones](finance-dimensions.md)  
+[Trabajar con dimensiones](finance-dimensions.md)  
 [Importar desde otros sistemas financieros](upload-data.md)  
 [Trabajar con los códigos GIFI en Canadá](ca-finance-work-gifi-codes.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

@@ -1,6 +1,6 @@
 ---
-title: Fuentes de banco de Envestnet Yodlee| Documentos de Microsoft
-description: "Proporciona información sobre la extensión de las fuentes de banco de Envestnet Yodlee"
+title: "Conciliación de pagos con la extensión de las fuentes de banco de Envestnet Yodlee | Documentos de Microsoft"
+description: "Describe la extensión de las fuentes de banco de Envestnet Yodlee, que se vincula a las cuentas bancarias para que pueda conciliar pagos rápidamente."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,14 +13,14 @@ ms. search.keywords: app, add-in, manifest, customize, stream, bank account link
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 7c900b87a5b0fd703ff0bdbaa5e2ac41f2939c3d
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 060eec95e12800d048c41c142478c2a18e27b3fb
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="the-envestnet-yodlee-bank-feeds-extension-to-dynamics-365-for-financials"></a>Extensión de las fuentes de banco de Envestnet Yodlee de Dynamics 365 for Financials
+# <a name="the-envestnet-yodlee-bank-feeds-extension"></a>Extensión de las fuentes de banco de Envestnet Yodlee
 Para conciliar pagos realizados en sus cuentas bancarias rápidamente, el servicio de fuentes de banco de Envestnet Yodlee permite vincular su cuenta bancaria del sistema a su cuenta bancaria en línea. Esto significa que el último extracto bancario se introduce manual o automáticamente en el diario de conciliación de pagos, lo que garantiza que siempre procesará sus últimos pagos con el mínimo de errores.
 
 El servicio de fuentes de banco de Envestnet Yodlee proporciona las ventajas siguientes:
@@ -35,7 +35,7 @@ El servicio de fuentes de banco de Envestnet Yodlee proporciona las ventajas sig
 Para obtener más información, vea [Procedimiento: Configuración del servicio de fuente de banco de Envestnet Yodlee](bank-how-setup-bank-statement-service.md)
 
 ## <a name="see-also"></a>Consulte también
-[Personalización de [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizando extensiones](ui-extensions.md)    
+[Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones ](ui-extensions.md)    
 [Liquidar pagos automáticamente y conciliar cuentas bancarias](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

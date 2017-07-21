@@ -1,6 +1,6 @@
 ---
-title: "Previsión de ventas e inventario | Documentos de Microsoft"
-description: "Proporciona información sobre la extensión Previsión de inventario y ventas."
+title: "Usar la extensión de previsión de ventas e inventario para administrar el inventario | Documentos de Microsoft"
+description: "Esta extensión le ayuda a predecir ventas, obtener un resumen claro de la falta de stock prevista e incluso le ayuda a crear solicitudes de reposición para proveedores."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,10 +13,10 @@ ms. search.keywords: app, add-in, manifest, customize, budget
 ms.date: 03/29/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: ebaea8b98264e981f9ad2e0abda592e2e4a72427
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: a0cac0236611c90d3d1fdf1bae9deaaeb235b540
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -33,6 +33,6 @@ También puede utilizar la extensión para sugerir cuándo desea almacenar el in
 
 ## <a name="see-also"></a>Consulte también
 [Ventas](sales-manage-sales.md)  
-[Grupos contables inventario](inventory-manage-inventory.md)  
-[Personalización de [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizando extensiones](ui-extensions.md)  
+[Inventario](inventory-manage-inventory.md)  
+[Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones](ui-extensions.md)  
 

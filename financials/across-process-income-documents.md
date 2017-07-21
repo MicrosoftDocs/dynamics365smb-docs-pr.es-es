@@ -1,6 +1,6 @@
 ---
 title: Procesar documentos entrantes| Documentos de Microsoft
-description: Procesar documentos entrantes
+description: Para registrar un documento externo, como un archivo PDF, en Dynamics 365 for Financials, primero cree o complete un registro de documento entrante.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 05/12/2016
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 93a3ba01e479ba8256f4a3628aae2b7838d8e5ad
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: b4d344c52bf6f10d00f2157fbdb45903402f6c55
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -29,12 +29,12 @@ A partir de archivos PDF o de imagen que reciba desde sus socios comerciales pod
 | --- | --- |
 | Cree registros de documentos entrantes manual o automáticamente tomando una foto de un recibo en papel, por ejemplo. |[Crear registros de documento entrantes](across-how-create-income-document-records.md) |
 | Use un servicio OCR para convertir archivos PDF y de imágenes en documentos electrónicos que se pueden convertir en facturas de compra en [!INCLUDE[d365fin](includes/d365fin_md.md)], por ejemplo. Prepare el servicio OCR para evitar errores la próxima vez que procese datos similares. |[Utilizar el servicio OCR para convertir archivos PDF y de imagen en documentos electrónicos](across-how-use-ocr-pdf-images-files.md) |
-| Cree o conecte registros de documento entrantes a cualquier documento de compra o venta no registrado y a cualquier movimiento de cliente, proveedor o contabilidad desde el documento o el movimiento. |[Asociar y desasociar registros de documentos entrantes desde documentos y movimientos](across-how-connect-disconnect-income-document-records.md) |
+| Cree o conecte registros de documento entrantes a cualquier documento de compra o venta no registrado y a cualquier movimiento de cliente, proveedor o contabilidad desde el documento o el movimiento. |[Crear registros de documentos entrantes directamente desde documentos y movimientos](across-how-connect-disconnect-income-document-records.md) |
 | Desde las ventanas **Plan de cuentas** y **Movs. contabilidad**, podrá usar una función de búsqueda para buscar los movimientos de contabilidad para aquellos documentos registrados que no tienen registros de documento entrantes y, a continuación, vincularlos de forma centralizada a registros existentes o crear registros nuevos con archivos de documentos adjuntos. |[Buscar documentos registrados sin registros de documentos entrantes](across-how-find-posted-documents-without-income-document-records.md) |
 | Obtenga un mejor resumen configurando los registros de documento entrante que se procesarán para eliminarlos de la vista por defecto. |[Gestionar varios registros de documento entrantes](across-how-manage-many-income-document-records.md) |
 
 ## <a name="see-also"></a>Consulte también
 [Documentos entrantes](across-income-documents.md)  
 [Compras](purchasing-manage-purchasing.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

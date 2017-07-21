@@ -1,6 +1,6 @@
 ---
 title: "Configuración del análisis de flujo de efectivo | Documentos de Microsoft"
-description: "Describe cómo configurar los gráficos Ciclo de efectivo, Ingresos y gastos, Flujo de efectivo y Previsión de flujo de efectivo para analizar el movimiento de flujo de entrada y salida pasado y futuro de su empresa."
+description: "Configure los planes en el área de trabajo Cuentas como ayuda para analizar el flujo de dinero de su empresa, incluyendo gastos e ingresos, liquidez y recibos de efectivo menos los pagos en efectivo."
 services: project-madeira
 documentationcenter: 
 author: bholtorf
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: e07f32dcc3a50e07c5dea48600f7e3dbcd6088a9
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: ffc0a1c8a513556de2a40fc37db7af9be779225c
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -61,7 +61,8 @@ El gráfico **Previsión de flujo de efectivo** utiliza cuentas de flujo de efec
 
 Las previsiones de flujo de efectivo pueden usar Cortana Intelligence para incluir documentos cuya fecha de vencimiento sea en el futuro. El resultado es una predicción más completa. La conexión a Cortana Intelligence ya está configurada automáticamente. Solo necesita activarla. Al iniciar sesión en [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], se muestra una notificación en una barra azul y proporciona un vínculo a la configuración de flujo de caja predeterminada. La notificación solo se muestra una vez. Si la cierra pero decide activar Cortana Intelligence, puede utilizar la guía de configuración asistida o un proceso manual.  
 
-**Nota:** También puede usar su propio servicio web de predicción. Para obtener más información, vea [Crear y usar su propio servicio web predictivo para las previsiones de flujo de efectivo](#AnchorText).  
+> [!NOTE]  
+>   También puede usar su propio servicio web de predicción. Para obtener más información, vea [Crear y usar su propio servicio web predictivo para las previsiones de flujo de efectivo](#AnchorText).  
 
 Para usar la guía de configuración asistida:  
 
@@ -75,7 +76,8 @@ Para usar un proceso manual:
 2. Expanda la ficha desplegable **Cortana Intelligence** y, a continuación, elija la casilla **Cortana Intelligence habilitado**.  
 3. En la página principal, elija **Previsión de flujo de efectivo** encima del gráfico y, a continuación, en **Recalcular previsión**.  
 
-**Sugerencia:** considere la duración de los periodos que el servicio usará en los cálculos. Cuantos más datos proporcione, más precisas serán las predicciones. Asimismo, controle las variaciones grandes en los periodos. También afectarán a las predicciones. Si Cortana Intelligence no encuentra suficientes datos, o los datos varían mucho, el servicio no creará ninguna predicción.  
+> [!TIP]  
+>   Considere la duración de los periodos que el servicio usará en los cálculos. Cuantos más datos proporcione, más precisas serán las predicciones. Asimismo, controle las variaciones grandes en los periodos. También afectarán a las predicciones. Si Cortana Intelligence no encuentra suficientes datos, o los datos varían mucho, el servicio no creará ninguna predicción.  
 
 ## <a name="AnchorText"> </a>Crear y usar su propio servicio web predictivo para las previsiones de flujo de efectivo
 También puede crear su propio servicio web predictivo basado en un modelo público denominado **Modelo de previsión para Microsoft Dynamics 365 for Financials**. Este modelo predictivo está disponible en línea en la galería de Cortana Intelligence. Para usar el modelo, siga estos pasos:  
@@ -85,11 +87,11 @@ También puede crear su propio servicio web predictivo basado en un modelo públ
 3. Use su cuenta de Microsoft para iniciar sesión en un espacio de trabajo y, a continuación, copie el modelo.  
 4. Ejecute el modelo y como publíquelo como un servicio web.  
 5. Anote la URL de API y la clave de API. Usará estas credenciales para una configuración de flujo de caja.  
-6. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Configuración de flujo de efectivo** y elija el vínculo relacionado.  
+6. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), especifique **Configuración de flujo de efectivo** y elija el vínculo relacionado.  
 7. Expanda la ficha desplegable **Cortana Intelligence** y, a continuación, rellene los campos.  
 
 ## <a name="see-also"></a>Consulte también
 [Analizar el flujo de efectivo de la empresa](finance-analyze-cash-flow.md)  
 [Configurar las finanzas](finance-setup-finance.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

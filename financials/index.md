@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 04/27/2017
-ms.author: jswymer
+ms.date: 06/02/2017
+ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 0e3d1a290a541cdf9289bd607b70abc21f9c8120
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 1a7fbf443c6fb3f9276e3f6a5d3ea196b7fb2cb7
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -33,16 +33,17 @@ Para algunos consejos rápidos y que debe conocer, vea:
 * [Configurar filtros](ui-enter-criteria-filters.md)  
 * [Ordenar datos de listas](ui-sorting.md)  
 
-Para obtener más información, vea [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md).  
+Para obtener más información, consulte [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md).  
 
 Cuando esté preparado para hacer algo más intenso y desee examinar algunos de los procesos empresariales que admite [!INCLUDE[d365fin](includes/d365fin_md.md)], vea [Funciones empresariales](madeira-business-functionality.md). Para obtener un resumen de las funciones actuales y futuras, eche un vistazo a nuestra guía básica en [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68).  
 
 ## <a name="the-home-pages"></a>Páginas principales
 Las páginas principales utilizan un diseño basado en roles para ofrecerle acceso rápido a las herramientas de procesos e inteligencia empresariales que necesita para realizar su trabajo. Por ejemplo, un contable puede supervisar pagos y aprobaciones, y ver gráficos de rendimiento financiero. Vea las distintas páginas principales eligiendo el icono **Configuración** ![Configuración](media/ui-experience/settings_icon_small.png "Icono Configuración del área de trabajo") en la esquina superior derecha, eligiendo **Mi configuración** y, a continuación, el área de trabajo para explorar. Inicie sesión de nuevo para aplicar el cambio. Para obtener más información, vea [Cambiar el área de trabajo](change-role.md).  
 
-Cada la página principal proporciona un botón **Configuración y extensiones**. Aquí tiene acceso a una lista de configuración asistencia que puede ayudarle a empezar mediante la configuración de las áreas seleccionadas rápidamente. Si un área no está cubierta por una configuración asistida, elija la acción **Configuración manual** para obtener acceso a las ventanas de configuración donde puede rellenar los campos de configuración de todas las áreas manualmente. Para obtener más información, vea también [Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
+Cada la página principal proporciona un botón **Configuración y extensiones**. Aquí tiene acceso a una lista de configuración asistencia que puede ayudarle a empezar mediante la configuración de las áreas seleccionadas rápidamente. Si un área no está cubierta por una configuración asistida, elija la acción **Configuración manual** para obtener acceso a las ventanas de configuración donde puede rellenar los campos de configuración de todas las áreas manualmente. Para obtener más información, consulte también [Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
-**Nota:** La lista de guías de configuración, las extensiones y los servicios que están disponibles varían según la experiencia del usuario que elija para la empresa. La experiencia **Básica** ofrece menos acceso que la experiencia **Conjunto de aplicaciones**. La primera vez que inicie sesión, use la experiencia Básica. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).  
+> [!NOTE]  
+>   La lista de guías de configuración, las extensiones y los servicios que están disponibles varían según la experiencia del usuario que elija para la empresa. La experiencia **Básica** ofrece menos acceso que la experiencia **Conjunto de aplicaciones**. La primera vez que inicie sesión, use la experiencia Básica. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).  
 
 En la ventana **Configuración asistida**, encontrará lo siguiente con la experiencia **Conjunto de aplicaciones**:
 
@@ -71,11 +72,11 @@ Para crear una empresa para probar cosas, vaya al menú **Mi configuración** en
 Cada vez que inicie sesión durante el periodo de prueba, una notificación en una barra azul de la parte superior muestra el tiempo restante. Si decide suscribirse, utilice el vínculo de la notificación para ponerse en contacto con Microsoft. También puede ir a [Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=828707).
 
 ## <a name="see-also"></a>Consulte también
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Finanzas](finance.md)  
-[Personalización de [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizando extensiones](ui-extensions.md)  
-[Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] como bandeja de entrada de empresa en Outlook](madeira-outlook.md)  
+[Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones](ui-extensions.md)  
+[Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] como mi bandeja de entrada de empresa en Outlook](madeira-outlook.md)  
 [Obtener [!INCLUDE[d365fin](includes/d365fin_md.md)] en el dispositivo móvil](install-mobile-app.md)  
 [Documentación de Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)  
 [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  

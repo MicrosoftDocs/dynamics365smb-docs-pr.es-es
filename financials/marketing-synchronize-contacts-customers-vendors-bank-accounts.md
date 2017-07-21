@@ -1,6 +1,6 @@
 ---
-title: "Sincronización de contactos con clientes, proveedores y bancos | Documentos de Microsoft"
-description: "Describe cómo sincronizar contactos con clientes, proveedores y cuentas bancarias en Financials"
+title: Sincronizar contactos con clientes y proveedores | Documentos de Microsoft
+description: "Puede acoplar o sincronizar la información de contacto de los contactos que también son clientes, proveedores o cuentas bancarias, de modo que actualice únicamente la información en un solo lugar."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, CRM, integration, couple
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: b28cd00659b077403e3174ac69c32ad5d9a8bf83
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: dbb29d9d53618eec69817455d4304da2a6bfe466
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -42,9 +42,10 @@ Al sincronizar el contacto con el cliente, el proveedor o la cuenta bancaria:
 * Si elimina un contacto relacionado con un cliente, proveedor o banco, solo se borra del sistema el contacto. El cliente, el proveedor o la cuenta bancaria permanece.
 * Si elimina un cliente, proveedor o banco relacionado con un contacto, el contacto permanecerá.
 
-**Nota**: Algunos detalles, como los datos de facturación y registro, no aparecen en la ficha de contacto. Por tanto, puede que desee agregarlos manualmente en la ficha de cliente, de proveedor o de banco al crear contactos como clientes, proveedores o bancos.
+> [!NOTE]  
+>   Algunos detalles, como los datos de facturación y registro, no aparecen en la ficha de contacto. Por tanto, puede que desee agregarlos manualmente en la ficha de cliente, de proveedor o de banco al crear contactos como clientes, proveedores o bancos.
 
 ## <a name="see-also"></a>Consulte también
 [Gestionar contactos](marketing-contacts.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

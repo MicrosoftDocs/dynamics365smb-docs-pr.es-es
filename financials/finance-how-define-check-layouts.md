@@ -1,6 +1,6 @@
 ---
-title: "Definir diseños de cheque| Documentos de Microsoft"
-description: "Obtenga información sobre los diseños de cheque disponibles en Financials."
+title: "Especificar el diseño de un cheque | Documentos de Microsoft"
+description: "Puede diseñar e imprimir los cheques en diferentes formatos para cumplir los estándares."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, customize
-ms.date: 03/24/2017
+ms.date: 06/15/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 6081b6d09fa75b868138817442d6df4d9a8d0d7f
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: a2db2860846cd9b8010222faf580f0c9889e39a4
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -26,7 +26,7 @@ Puede diseñar los cheques conforme a los estándares definidos por las autorida
 Los cheques se han diseñado para imprimir formatos de imágenes de cheque de Estados Unidos y Canadá en un formato cheque-matriz-cheque o en un formato matriz-matriz-cheque.
 
 ## <a name="to-define-check-layouts"></a>Para definir diseños de cheque
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Selección informes banco** y elija el vínculo relacionado.
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Selección informes banco** y, a continuación, seleccione el vínculo relacionado.
 2. En la ventana **Bancos - Selección informes**, en el campo **Uso**, seleccione **Cheque**.
 3. Seleccione uno de los identificadores de informes siguientes:
 
@@ -42,6 +42,6 @@ Cuando haya configurado los diseños de cheques, puede imprimir cheques desde la
 [Administrar pagos](payables-manage-payables.md)  
 [Administrar cuentas bancarias](bank-manage-bank-accounts.md)   
 [Completar procesos de fin de periodo](year-how-complete-period-end-processes.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)
 

@@ -1,6 +1,6 @@
 ---
-title: "Cierre de años y periodos | Documentos de Microsoft"
-description: "Explica cómo cerrar un ejercicio fiscal y periodos."
+title: Resumen de las tareas para cerrar un ejercicio y periodos contables | Documentos de Microsoft
+description: Describe las tareas para cerrar un ejercicio o periodo contable, por ejemplo, asegurarse de que se ha registrado los documentos y los diarios, y comprobar los saldos bancarios.
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 03/29/2017
+ms.date: 06/07/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 211bebe03d270a0efabe87d131ae45f1617feaa7
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 0f753e84a9318cdd3a58ed192437206659b6a2ad
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -31,11 +31,12 @@ La tabla siguiente proporciona un resumen de las tareas que realiza, por lo gene
 | Obtenga un resumen de las actividades que, normalmente, se realizan al final de un periodo, como registrar todos los documentos y diarios o ejecutar esquemas de cuentas. |[Cerrar períodos](year-how-complete-period-end-processes.md) |
 | Actualizar los tipos de cambio de divisas y ajustar los tipos de cambio de movimientos de clientes, proveedores y bancos registrados. |[Actualizar los tipos de cambio de divisa](finance-how-update-currencies.md) |
 | Asignar costes e ingresos entre cuentas y dimensiones. |[Asignación de costes e ingresos](year-allocate-costs-income.md) |
+| Preparar los importes del impuesto de valor añadido que ha recopilado por las ventas al servicio web de las autoridades fiscales. |[Crear informes de IVA para las autoridades fiscales](finance-how-report-vat.md)|
 | Imprimir informes para verificar los saldos de contabilidad, clientes, proveedores y bancos antes de cerrar un periodo. |[Preparación de informes previos al cierre](year-prepare-preclose-reports.md) |
 | Cerrar periodos contables y ejercicios fiscales, transferir saldos de cuentas de regularización a cuentas de balance y registrar el movimiento de cierre de final de año. |[Cierre de libros](year-close-books.md) |
 | Imprimir informes que le ayuden a crear resultados financieros. |[Preparación de extractos de cierre](year-prepare-close-statement.md) |
 
 ## <a name="see-also"></a>Consulte también
 [Abrir un nuevo ejercicio](finance-how-open-new-fiscal-year.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

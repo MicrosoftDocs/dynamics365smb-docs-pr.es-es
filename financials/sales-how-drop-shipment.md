@@ -1,5 +1,5 @@
 ---
-title: "Realizar envíos directos | Documentos de Microsoft"
+title: "Crear un pedido de venta asociado a un pedido de compra para un envío directo | Documentos de Microsoft"
 description: "Describe cómo crear un pedido de venta vinculado a un pedido de compra para habilitar el envío directo del proveedor al cliente."
 services: project-madeira
 documentationcenter: 
@@ -13,10 +13,10 @@ ms.search.keywords: direct shipment
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 75d5c4f8417b4b1aaa2dd84cf3ba4b528f0a9f9b
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 977debf7386ad1113ef54147b20fd24c7c285a78
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -31,7 +31,8 @@ Para preparar un envío directo cree un pedido de venta como si fuese normal, pe
 1. Cree un pedido de ventas para un artículo. Para obtener más información, vea [Procedimiento: Vender productos](sales-how-sell-products.md).
 2. En la línea del pedido de venta del envío directo, seleccione la casilla **Envío directo**. Use la función **Elegir columnas** si el campo no está visible. Para obtener más información, vea [Personalización del usuario](ui-user-personalization.md).
 
-**Nota**: Esta funcionalidad que requiere que la experiencia esté definida en **Conjunto de aplicaciones**. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
+> [!NOTE]  
+>   Esta funcionalidad requiere que la experiencia esté definida en **Conjunto de aplicaciones**. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
 
 ## <a name="to-create-the-purchase-order-for-drop-shipment"></a>Para crear pedidos de compra para envíos directos
 Para preparar un envío directo de un producto que se va a vender, cree un pedido de compra como si fuese normal, pero indique en el pedido que el producto debe enviarse directamente al cliente no a usted.
@@ -52,7 +53,7 @@ Ahora puede asignar instrucciones al proveedor para que envíe los productos al 
 ## <a name="to-post-a-drop-shipment"></a>Para registrar un envío directo
 Después de que el proveedor envíe los productos, puede establecer los pedidos de venta como enviados. También puede registrar el pedido de compra, pero solo con la opción **Recibir** hasta que se haya facturado el pedido de ventas.
 
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Pedidos de venta** y elija el vínculo relacionado.
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Pedidos de venta** y, a continuación, seleccione el vínculo relacionado.
 2. Abra el pedido de venta que ha creado en la sección "Para crear un pedido de venta de envío directo".
 3. En el campo **Cantidad a enviar**, especifiqué qué cantidad del pedido debe enviarse, todo o solo una parte.
 4. Seleccione la acción **Registrar** o **Registrar y enviar**.
@@ -62,6 +63,6 @@ Después de que el proveedor envíe los productos, puede establecer los pedidos 
 [Vender productos](sales-how-sell-products.md)  
 [Registro de compras](purchasing-how-record-purchases.md)  
 [Ventas](sales-manage-sales.md)  
-[Grupos contables inventario](inventory-manage-inventory.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Inventario](inventory-manage-inventory.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

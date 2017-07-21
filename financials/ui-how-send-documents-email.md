@@ -1,6 +1,6 @@
 ---
-title: "Enviar documentos por correo electrónico | Documentos de Microsoft"
-description: "Procedimiento: Enviar documentos por correo electrónico."
+title: "Configurar contenido y datos adjuntos específicos de documento para mensajes de correo electrónico | Documentos de Microsoft"
+description: "Puede definir el contenido que se insertará en el cuerpo de un mensaje de correo electrónico, por ejemplo, un vínculo de PayPal. También es posible adjuntar documentos a los mensajes de correo electrónico."
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -12,10 +12,10 @@ ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
 ms.date: 03/30/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: f6d234e40cf01be46d601c92c680e90c71424be0
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 445982644c7491df2090b56b0a7ce3e7277c4a57
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -33,7 +33,7 @@ Si el campo **Correo electrónico** en la ventana **Enviar documento a** se esta
 El procedimiento siguiente describe cómo configurar el informe **Ventas - Factura** para usarlo como contenido específico en el cuerpo del correo cuando envíe las facturas de venta registradas.
 
 ## <a name="to-set-up-a-document-specific-email-body-for-sales-invoices"></a>Para configurar un documento específico en el cuerpo de un correo electrónico para las facturas de venta
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Selección informes ventas** y elija el vínculo relacionado.
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Selección informes ventas** y, a continuación, seleccione el vínculo relacionado.
 2. En la ventana **Informe selección - ventas**, en el campo **Uso**, seleccione **Facturar**.
 3. En una línea nueva, en el campo **Id. informe**, seleccione, por ejemplo, informe estándar 1306.
 4. Seleccione la casilla **Usar para el cuerpo del correo electrónico**.
@@ -49,7 +49,7 @@ Ahora bien, cuando selecciona, por ejemplo, la acción **Enviar** en la ventana 
 El procedimiento siguiente describe cómo enviar una factura de ventas registrada como un mensaje de correo electrónico con un documento adjunto en formato PDF y con un contenido específico en el cuerpo del correo.
 
 ## <a name="to-send-documents-by-email"></a>Para enviar documentos por correo electrónico
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Histórico facturas venta** y elija el vínculo relacionado.
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Facturas de ventas registradas** y, a continuación, elija el vínculo relacionado.
 2. Seleccione la factura de ventas registrada relevante y, a continuación, elija la acción **Enviar**. Se abre la ventana **Enviar documento a**.
 3. en el campo **Correo electrónico** seleccione **Sí (Mensaje para configuración)**. Para obtener más información, vea [Procedimiento: Configurar los perfiles de envío de documentos](sales-how-setup-document-send-profiles.md).
 4. Elija el botón **Aceptar**. Se abre la ventana **Enviar correo electrónico**.
@@ -61,11 +61,12 @@ El procedimiento siguiente describe cómo enviar una factura de ventas registrad
     Si se configura el contenido específico de un documento en el cuerpo del correo electrónico en la ventana **Informe selección - Ventas**, el campo **Cuerpo** se rellena automáticamente. Para obtener más información, vea "Para configurar un contenido específico de un documento en el cuerpo del correo electrónico para las facturas de venta" en este tema.
 9. Haga clic en el botón **Aceptar** para enviar el correo electrónico.
 
-**Nota**: Si no desea especificar la configuración del correo electrónico cada vez que envíe un documento, puede seleccionar la opción **Sí (Usar configuración predeterminada)** en el campo **Correo electrónico** en la ventana **Enviar documento a**. En ese caso, la ventana **Enviar correo electrónico** no se abrirá. Consulte el paso 4. Para obtener más información, vea [Procedimiento: Configurar los perfiles de envío de documentos](sales-how-setup-document-send-profiles.md).
+> [!NOTE]  
+>   Si no desea especificar la configuración del correo electrónico cada vez que envíe un documento, puede seleccionar la opción **Sí (Usar configuración predeterminada)** en el campo **Correo electrónico** en la ventana **Enviar documento a**. En ese caso, la ventana **Enviar correo electrónico** no se abrirá. Consulte el paso 4. Para obtener más información, vea [Procedimiento: Configurar los perfiles de envío de documentos](sales-how-setup-document-send-profiles.md).
 
 ## <a name="see-also"></a>Consulte también
 [Administrar diseños de informes y documentos](ui-manage-report-layouts.md)  
 [Configurar el correo electrónico](madeira-how-setup-email.md)  
 [Facturación de ventas](sales-how-invoice-sales.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

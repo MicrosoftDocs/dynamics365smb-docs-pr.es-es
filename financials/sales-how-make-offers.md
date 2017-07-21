@@ -1,6 +1,6 @@
 ---
-title: Realizar ofertas | Documentos de Microsoft
-description: "Realización de ofertas"
+title: Crear una propuesta o una oferta de venta | Documentos de Microsoft
+description: "Describe cómo crear una oferta de venta o un documento de solicitud de propuesta (RFQ) para registrar la oferta a un cliente para vender productos con determinadas condiciones."
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -12,10 +12,10 @@ ms.search.keywords: rfq
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: e04af16b9fcd08217e2a3efc60288805a4db26f2
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 86aad5cbe448b8de396338c609979150cc4adfa6
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -51,7 +51,8 @@ Si ha configurado líneas de venta periódicas para el cliente, como por ejemplo
 
 11. En el campo **Cantidad**, especifique cuántas unidades de producto, cargo o transacción registrará la línea para el cliente.
 
-    **Nota:** Si el producto es de tipo **Producto - Servicio** o **Recurso**, la cantidad es una unidad de tiempo, por ejemplo horas, según se indica en el campo **Cód. unidad medida** en la línea.  
+    > [!NOTE]  
+>   Si el producto es de tipo **Producto - Servicio** o **Recurso**, la cantidad es una unidad de tiempo, por ejemplo horas, según se indica en el campo **Cód. unidad medida** en la línea.  
 
     El valor del campo **Importe línea** se calculará como *Precio venta* x *Cantidad*.  
 
@@ -74,6 +75,6 @@ La oferta de venta se quita de la base de datos. Una factura de venta o un pedid
 ## <a name="see-also"></a>Consulte también
 [Ventas](sales-manage-sales.md)  
 [Configuración de ventas](sales-setup-sales.md)  
-[Enviar documentos por correo electrónico](ui-how-send-documents-email.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Enviar documentos por correo electrónico.](ui-how-send-documents-email.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

@@ -1,6 +1,6 @@
 ---
-title: Configurar Financials | Documentos de Microsoft
-description: Configurar Financials
+title: Resumen de tareas para configurar Dynamics 365 for Financials | Documentos de Microsoft
+description: "Describe las tareas para preparar, inicializar y configurar Dynamics 365 for Financials según sus necesidades."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 04/27/2017
+ms.date: 06/07/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 5be24b9017b105adc6c857655c8de63d67b6aa29
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: e6efc11442a693da00c289866b726345ef97fb39
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -40,12 +40,13 @@ Alguna funcionalidad, general o de procesos empresariales específicos, se puede
 | Configurar el modo de asegurar, mantener y amortizar activos fijos, y el modo de registrar los costes de los activos fijos en los libros de su empresa. |[Configurar activos fijos](fa-setup.md) |
 | Configure códigos de identificación únicos para registros, como fichas, documentos y líneas de diario, para realizar su seguimiento en el sistema. |[Crear serie numérica](ui-create-number-series.md) |
 | Configure la ventana **Configuración correo SMTP** para registrar y recibir correos electrónicos de documentos en [!INCLUDE[d365fin](includes/d365fin_md.md)]. |[Configurar el correo electrónico](madeira-how-setup-email.md) |
+| Configure códigos de identificación únicos. |[Crear numeración](ui-create-number-series.md) |
 
 ## <a name="see-also"></a>Consulte también
 [Finanzas](finance.md)  
 [Ventas](sales-manage-sales.md)  
 [Compras](purchasing-manage-purchasing.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [[!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

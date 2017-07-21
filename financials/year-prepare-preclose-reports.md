@@ -1,6 +1,6 @@
 ---
-title: "Preparación de informes previos al cierre| Documentos de Microsoft"
-description: "Proporciona un resumen de los informes que pueden ser útiles al cerrar el ejercicio."
+title: "Resumen de los informes previos al cierre para la precisión de las cuentas | Documentos de Microsoft"
+description: "Proporciona un resume de los informes que puede usar para verificar la exactitud de las cuentas antes de cerrar los libros al final de un año o periodo."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -9,17 +9,17 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.date: 06/02/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 3673b32320f2fc2b092afff7d0e8ba2c48edb0f9
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: ead7f45583b8edbdc00b6d41ae335d4b8adb14cf
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="preparing-pre-closing-reports"></a>Preparación de informes previos al cierre
+# <a name="using-pre-closing-reports"></a>Usar los informes previos al cierre
 Existen numerosos informes estándar que puede usar para verificar la exactitud de las cuentas antes de cerrar los libros al final de un año o periodo. Por ejemplo, puede usar el informe **Cliente - Balance sumas y saldos** para verificar si el saldo para un grupo contable de cliente es igual al saldo en la cuenta de contabilidad correspondiente en una determinada fecha.
 
 La tabla siguiente describe diversos informes que pueden ayudar en este proceso.
@@ -36,10 +36,10 @@ La tabla siguiente describe diversos informes que pueden ayudar en este proceso.
 | Imprimir un informe de balance de comprobación con saldos y cambios netos para cuentas de contabilidad. |Balance sumas y saldos |
 | Imprimir un balance de comprobación para una empresa consolidada. |Balance comprobación consol. |
 
-Para ver un informe, en la esquina superior derecha, elija el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba el nombre como aparece en la tabla y, a continuación, elija el vínculo relacionado.
+Para ver un informe, en la esquina superior derecha, elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba el nombre como aparece en la tabla y, a continuación, elija el vínculo relacionado.
 
 ## <a name="see-also"></a>Consulte también
 [Cerrar años y periodos](year-close-years-periods.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 

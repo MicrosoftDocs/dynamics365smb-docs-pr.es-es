@@ -1,6 +1,6 @@
 ---
-title: Configurar vendedores| Documentos de Microsoft
-description: 'Procedimiento: Configurar vendedores'
+title: Configurar un vendedor | Documentos de Microsoft
+description: Puede configurar un identificador para cada uno de sus vendedores, de modo que pueda hacer un seguimiento del rendimiento de una persona o asignar un vendedor a un contacto.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: sales rep
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 6eb41f7b2498368714b49c7ba3a9468b6afc46be
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 36633b3a3882fa8c580fa8a0dc5ca4f309d2dbb6
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -26,11 +26,13 @@ Muchas empresas quieren realizar un seguimiento del rendimiento personal de sus 
 Cuando debe configurar un vendedor en la ventana **Vendedor**, puede seleccionarlo en el campo **Cód. vendedor** de todos los registros correspondientes, como cuenta de contabilidad, clientes, proveedor, contactos y fichas de campañas. Cuando registra o configura facturas, abonos, líneas de diario, intereses, etc., el código de vendedor se transfiere a los movimientos resultantes.
 
 ## <a name="to-set-up-a-salesperson-code"></a>Para configurar un código de vendedor
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Vendedores** y elija el vínculo relacionado.
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Vendedores** y, a continuación, seleccione el vínculo relacionado.
 2. En la ventana **Vendedor**, elija la acción **Nuevo**.
+
+Puede utilizar vendedores en diferentes tareas de gestión de relaciones y de marketing. Por ejemplo, puede asignar tareas a un vendedor, de modo que las tareas se incorporan en las oportunidades de ventas que tiene asignadas el vendedor. Para obtener más información, vea [Procedimiento: Configurar ciclos y etapas de ciclos de venta de oportunidades](marketing-how-setup-opportunity-sales-cycles-stages.md). 
 
 ## <a name="see-also"></a>Consulte también
 [Configuración de ventas](sales-setup-sales.md)  
 [Ventas](sales-manage-sales.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

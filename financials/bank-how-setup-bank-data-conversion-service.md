@@ -1,6 +1,6 @@
 ---
-title: "Configurar el servicio de conversión de datos bancarios| Documentos de Microsoft"
-description: "Procedimiento: Configuración del servicio de conversión de datos bancarios"
+title: "Configurar la conversión de datos bancarios | Documentos de Microsoft"
+description: Puede configurar cuentas bancarias para realizar un seguimiento de las transacciones e importar o exportar fuentes de bancos, como Yodlee.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 84834fab38217fb161ed16e3215a34978a4c6137
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 6c7dd8051467b044b7fd569367c5af802d30e5c3
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -31,13 +31,15 @@ Como alternativa a la importación de extractos bancarios con el servicio de con
 
 Para importar o exportar archivos bancarios, deberá configurar su propia cuenta bancaria y las de sus proveedores. Para obtener más información, vea [Procedimiento: Configurar cuentas bancarias](bank-how-setup-bank-accounts.md).
 
-**Nota**: El servicio de conversión de datos bancarios puede imponer un límite de número de líneas que se pueden exportar en un archivo. Recibirá un mensaje de error si se supera el límite. Es aconsejable que los archivos de extracto de cuenta no excedan las 1000 líneas, ya que el tiempo de procesado en el servicio de conversión de datos bancarios puede aumentar significativamente.
+> [!NOTE]  
+>   El servicio de conversión de datos bancarios puede imponer un límite de número de líneas que se pueden exportar en un archivo. Recibirá un mensaje de error si se supera el límite. Es aconsejable que los archivos de extracto de cuenta no excedan las 1000 líneas, ya que el tiempo de procesado en el servicio de conversión de datos bancarios puede aumentar significativamente.
 
 ## <a name="to-sign-your-company-up-for-the-bank-data-conversion-service"></a>Para registrar su empresa en el servicio de conversión de datos de banco
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Configuración de servicio de conv. de datos del banco** y elija el vínculo relacionado.  
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Configuración de servicio de conv. de datos del banco** y, a continuación, seleccione el vínculo relacionado.  
 2. La ventana **Configuración de servicio de conv. de datos del banco** se abre con tres campos rellenados previamente con las URL correspondientes del proveedor del servicio de conversión de datos de banco en .
 
-    **Nota**: Examine el archivo CRONUS International Ltd. se rellenan previamente los campos Nombre de usuario y Contraseña con información de conexión de demostración, los cuales se reemplazarán con la información real de su empresa al registrarse con el servicio de conversión de datos bancarios.
+    > [!NOTE]  
+>   En el archivo CRONUS International Ltd. se rellenan previamente los campos Nombre de usuario y Contraseña con información de conexión de demostración, los cuales se reemplazarán con la información real de su empresa al registrarse con el servicio de conversión de datos bancarios.
 3. En el campo **URL de registro**, seleccione el botón del explorador para abrir la página de inicio de sesión del proveedor de servicios.  
 4. En la página de registro del proveedor de servicios del banco, escriba el nombre de usuario y la contraseña correspondientes a la suscripción de su empresa al servicio y, a continuación, complete el proceso de registro tal como indica el proveedor de servicios.
 
@@ -52,18 +54,19 @@ Se recomienda usar esta función para proteger la información de inicio de sesi
 2. En la ventana **Administración del cifrado de datos**, habilite el cifrado de los datos.
 
 ## <a name="to-view-or-update-the-list-of-currently-supported-bank-data-formats"></a>Para ver o actualizar la lista de formatos de datos de banco actualmente compatibles
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Configuración de servicio de conv. de datos del banco** y elija el vínculo relacionado.
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Configuración de servicio de conv. de datos del banco** y, a continuación, seleccione el vínculo relacionado.
 2. En la pestaña **Configuración de servicio de conv. de datos del banco**, seleccione la acción **Nombre banco - Lista conversión de datos** para abrir la lista de nombres de banco que representan los datos de banco que admite el servicio de conversiones.
 3. En la página **Nombre banco - Lista conversión de datos**, seleccione la acción **Actualizar lista de nombres de banco**.
 
 Ahora se actualizará la lista de formatos de datos bancarios compatibles con el servicio de conversión de datos bancarios. Esta es la lista de nombres de bancos filtrada por país o región y que se puede seleccionar en el campo **Nombre del banco - Conversión de datos** en la ventana **Ficha de cuenta bancaria**.
 
-**Nota**: La actualización de los formatos de datos bancarios se produce también cuando se selecciona o especifica un valor en el campo **Nombre del banco - Datos de conversión** en la cuenta bancaria.
+> [!NOTE]  
+>   La actualización de los formatos de datos bancarios se produce también cuando se selecciona o especifica un valor en el campo **Nombre del banco - Datos de conversión** en la cuenta bancaria.
 
 Se ha registrado en el servicio de conversión de datos de banco. Refleje la información de registro en cada banco que usará el servicio.
 
 ## <a name="see-also"></a>Consulte también
 [Configurar banca](bank-setup-banking.md)  
 [Administrar cuentas bancarias](bank-manage-bank-accounts.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

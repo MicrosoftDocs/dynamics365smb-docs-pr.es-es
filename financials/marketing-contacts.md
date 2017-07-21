@@ -1,6 +1,6 @@
 ---
-title: Crear y administrar contactos | Documentos de Microsoft
-description: "Describe cómo crear y gestionar contactos en Financials"
+title: Crear y administrar contactos de empresa | Documentos de Microsoft
+description: "Puede configurar todas las entidades externas con las que mantenga una relación de negocio (por ejemplo clientes potenciales, clientes, proveedores y consultores) como contactos."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 4042cf76b6be433ad0a9934d0d1651d1df7ee433
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: c50bd4ae740c688761e7f5871b036633949add79
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -31,7 +31,7 @@ La tabla siguiente describe una secuencia de tareas, con vínculos a los temas q
 
 | Para | Vea |
 | --- | --- |
-| Configure la gestión de contactos antes de agregar contactos. |[Prepárese para configurar contactos](marketing-setup-contacts.md) |
+| Configure la gestión de contactos antes de agregar contactos. |[Preparar la configuración de los contactos](marketing-setup-contacts.md) |
 | Crear una ficha de contacto para cada nueva empresa con la que se interactúa, como un cliente o proveedor. |[Crear empresas de contacto](marketing-create-contact-companies.md) |
 | Crear una ficha de contacto por cada persona de contacto que trabaje en las empresas con las que se relaciona. |[Crear personas de contacto](marketing-create-contact-persons.md) |
 

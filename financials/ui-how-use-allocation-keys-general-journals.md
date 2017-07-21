@@ -13,10 +13,10 @@ ms.search.keywords: cost accounting
 ms.date: 03/29/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 47209e29f8baea497a3a9267d37f270a92950dcb
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: bbacf9b5634d51478dd4d54ac4b587ea9bfaaf99
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -24,7 +24,7 @@ ms.lasthandoff: 05/04/2017
 Puede asignar un movimiento en un diario general a varias cuentas diferentes al registrar el diario. La distribución puede realizarse por cantidad, porcentaje o importe.
 
 ## <a name="to-set-up-allocation-keys"></a>Para configurar claves de asignación
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Diario general periódico** y elija el vínculo relacionado.
+1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), especifique **Diario general periódico** y elija el vínculo relacionado.
 2. Seleccione el campo **Nombre de sección** para abrir la ventana **Secciones diario general**.
 3. Puede modificar las asignaciones en una sección existente de la lista o crear une nueva sección con asignaciones.
    * Para crear un lote nuevo, seleccione la acción **Nuevo** y vaya al paso siguiente.
@@ -39,13 +39,13 @@ Puede asignar un movimiento en un diario general a varias cuentas diferentes al 
 11. Registre el diario.
 
 ## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>Para modificar una clave de asignación que ya haya sido configurada
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Diario general periódico** y elija el vínculo relacionado.
+1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), especifique **Diario general periódico** y elija el vínculo relacionado.
 2. En la ventana **Recurring General Journal** (Diarios generales periódicos), seleccione el diario con la distribución.
 3. Seleccione la línea con la asignación y, a continuación, seleccione la acción **Asignaciones**.
-4. Cambie los campos relevantes y elija el botón **Aceptar**.
+4. Cambie los campos relevantes y, a continuación, elija el botón **Aceptar**.
 
 ## <a name="see-also"></a>Consulte también
 [Trabajar con diarios generales](ui-work-general-journals.md)  
 [Registrar documentos y diarios](ui-post-documents-journals.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

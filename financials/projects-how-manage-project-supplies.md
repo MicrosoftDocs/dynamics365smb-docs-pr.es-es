@@ -1,6 +1,6 @@
 ---
-title: "Administración de suministros de proyecto | Documentos de Microsoft"
-description: "Describe cómo suministrar material y servicios a los proyectos."
+title: Comprar productos o servicios para un proyecto y administrar suministros | Documentos de Microsoft
+description: "Describe cómo administrar el suministro y la compra de materiales y de servicios para los proyectos."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, material, purchase
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: f52fa9545b50038c1d28daa164add07915ef2656
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 46cae53022ba5d65a370694c9818f52a7bf45525
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -28,7 +28,7 @@ Si el proceso de compra no requiere que la transacción física de registre por 
 ## <a name="to-purchase-items-or-services-for-a-job"></a>Para comprar productos o servicios para un proyecto
 El siguiente procedimiento muestra cómo utilizar una factura de compra para comprar productos de un proyecto. Los mismos pasos se aplican al utilizar un pedido de compra.  
 
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Facturas de compra** y elija el vínculo relacionado.  
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Facturas compra** y, a continuación, seleccione el vínculo relacionado.  
 2. Elija la acción **Nuevo** y, a continuación, rellene los campos según sea necesario. Para obtener más información, consulte [Procedimiento: Registrar compras](purchasing-how-record-purchases.md).
 3. En los campos **N.º de proyecto** y **N.º tarea de proyecto**, seleccione la información del proyecto para el que desea comprar productos o servicios. Use la función **Elegir columnas** si el campo no está visible. Para obtener más información, vea [Personalización del usuario](ui-user-personalization.md).
 
@@ -36,7 +36,7 @@ El siguiente procedimiento muestra cómo utilizar una factura de compra para com
 4. Seleccione la acción **Registrar**.
 
 ## <a name="to-view-the-value-of-purchases-for-a-job"></a>Para ver el valor de compras de un proyecto
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Proyectos** y elija el vínculo relacionado.
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Proyectos** y, a continuación, seleccione el vínculo relacionado.
 2. Abra una ficha de un proyecto relevante.
 
     En la ficha desplegable **Tareas**, el campo **Pedidos pendientes** muestra el importe total de los pedidos en divisa local, los productos y servicios de inventario en los documentos de compras de la línea de tarea de proyecto.  
@@ -47,7 +47,7 @@ El siguiente procedimiento muestra cómo utilizar una factura de compra para com
 ## <a name="to-post-a-job-related-expense"></a>Para registrar un gasto relacionado con el proyecto
 Si tiene costes de proyecto extraordinarios o únicos, puede utilizar la ventana **Diario general proyecto** para enviarlos directamente a la cuenta de proyecto relevante.
 
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Diarios generales proyecto** y elija el vínculo relacionado.  
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diarios generales proyecto** y, a continuación, seleccione el vínculo relacionado.  
 2. Cree una línea nueva y especifique los datos del gasto, incluyendo la información en los campos **N.º proyecto** y **N.º tarea de proyecto**.  
 3. Cuando el diario esté completo, seleccione la acción **Registrar**.
 
@@ -56,5 +56,5 @@ Si tiene costes de proyecto extraordinarios o únicos, puede utilizar la ventana
 [Finanzas](finance.md)  
 [Compras](purchasing-manage-purchasing.md)         
 [Ventas](sales-manage-sales.md)      
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

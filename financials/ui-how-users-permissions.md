@@ -1,6 +1,6 @@
 ---
-title: Administrar usuarios y permisos | Documentos de Microsoft
-description: "Administre conjuntos de permisos de los usuarios después de haber creado los usuarios en Office 365."
+title: Asignar permisos de usuario y crear o modifican conjuntos de permisos | Documentos de Microsoft
+description: "Describe cómo agregar usuarios de Office 365 a Financials y asignarles permisos, derechos de acceso y opciones de seguridad."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 03/29/2017
+ms.date: 06/27/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: d1a973b864a654e2047c5a89271519da04f55c08
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 564ef68a1571611efee32db1cf3759cda6a04c80
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -27,16 +27,17 @@ Una vez se hayan creado los usuarios en Office 365, se pueden importar en la ven
 
 Después podrá asignar conjuntos de permisos a los usuarios para definir a qué objetos de base de datos y, por lo tanto, a qué elementos de la interfaz de usuario, tienen acceso y en qué empresas.
 
-**Importante**: Si la base de datos tiene varias empresas, al menos un usuario debe ser miembro del grupo de usuarios SUPER en todas las empresas.
-
 Un conjunto de permisos es una colección de permisos para objetos específicos de la base de datos. A todos los usuarios se les debe asignar uno o varios conjuntos de permisos antes de que pueden acceder a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Un número de conjuntos de permisos predefinidos se proporcionan de forma predeterminada. Puede utilizar estos conjuntos de permisos como están definidos, modificar los conjuntos de permisos predeterminados o crear sus propios conjuntos de permisos adicionales.
 
 Puede agregar usuarios a grupos de usuarios. Esto facilita asignar los mismos conjuntos de permisos a varios usuarios.
 
-**Nota**: Esta funcionalidad requiere que la experiencia esté definida en Conjunto de aplicaciones. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
+Los administradores pueden usar la ventana **Configuración usuarios** para definir periodos de tiempo durante los que los usuarios especificados pueden registrar, así como especificar si el sistema registra la cantidad de tiempo que los usuarios tienen iniciada la sesión.
+
+> [!NOTE]  
+>   Esta funcionalidad requiere que la experiencia esté definida en Conjunto de aplicaciones. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
 
 ## <a name="to-assign-permissions-to-a-user"></a>Para asignar permisos a un usuario
-1. En la esquina superior derecha, seleccione el icono Buscar página o informe, escriba **Productos** y, a continuación, seleccione el vínculo relacionado.
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Usuarios** y, a continuación, seleccione el vínculo relacionado.
 2. Seleccione el usuario al que desea asignar el permiso.
 Los conjuntos de permisos ya asignados al usuario se muestran en el cuadro informativo **Conjuntos de permisos**.
 3. Seleccione la acción **Editar** para abrir la ventana **Ficha de usuario**.
@@ -45,7 +46,7 @@ Los conjuntos de permisos ya asignados al usuario se muestran en el cuadro infor
 ## <a name="to-group-users-in-user-groups"></a>Para agrupar usuarios en grupos de usuarios
 Puede configurar grupos de usuarios para administrar conjuntos de permisos para grupos de usuarios en su empresa. Puede usar una función para copiar todos los conjuntos de permisos de un grupo de usuarios existente al nuevo grupo de usuarios. No copian los miembros del grupo de usuarios.
 
-1. En la esquina superior derecha, seleccione el icono Buscar página o informe, escriba **Grupos de usuarios** y, a continuación, seleccione el vínculo relacionado.
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Grupos de usuarios** y, a continuación, seleccione el vínculo relacionado.
 2. Alternativamente, en la ventana **Usuarios**, seleccione la acción **Grupos de usuarios**.
 3. En la ventana **Grupos de usuarios**, seleccione un grupo de usuarios existente que desee copiar y después seleccione la acción **Copiar el grupo de usuarios**.
 4. En el campo **Nuevo código de grupo de usuarios**, especifique el nombre del nuevo grupo de usuarios y después seleccione el botón **Aceptar**.
@@ -60,7 +61,7 @@ Puede configurar grupos de usuarios para administrar conjuntos de permisos para 
 Si los conjuntos de permisos predeterminados que se proporcionan con [!INCLUDE[d365fin](includes/d365fin_md.md)] no son suficientes o no son adecuados para su organización, puede crear nuevos conjuntos de permisos. Y si los permisos de objeto individuales que definen un conjunto de permisos no son adecuados, puede modificar un conjunto de permisos. Puede crear un conjunto de permisos manualmente, o bien usar una función de registro que registre las acciones al explorar un escenario y después genere el conjunto de permisos solicitado.
 
 ### <a name="to-create-or-modify-permission-sets-manually"></a>Para crear o modificar conjuntos de permisos manualmente
-1. En la esquina superior derecha, seleccione el icono Buscar página o informe, escriba **Productos** y, a continuación, seleccione el vínculo relacionado.
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Usuarios** y, a continuación, seleccione el vínculo relacionado.
 2. En la ventana **Usuarios**, seleccione la acción **Conjuntos de permisos**.
 3. En la ventana **Conjuntos de permisos**, elija la acción **Nuevo**.
 4. En una línea nueva, rellene los campos según sea necesario.
@@ -82,7 +83,7 @@ Si los conjuntos de permisos predeterminados que se proporcionan con [!INCLUDE[d
 9. Repita los pasos 7 y 8 para agregar permisos de objetos adicionales al conjunto de permisos.
 
 ### <a name="to-create-or-modify-permission-sets-by-recording-your-actions"></a>Para crear o modificar conjuntos de permisos registrando las acciones
-1. En la esquina superior derecha, seleccione el icono Buscar página o informe, escriba **Productos** y, a continuación, seleccione el vínculo relacionado.
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Usuarios** y, a continuación, seleccione el vínculo relacionado.
 2. En la ventana **Usuarios**, seleccione la acción **Conjuntos de permisos**.
 3. En la ventana **Conjuntos de permisos**, elija la acción **Nuevo**.
 4. En una línea nueva, rellene los campos según sea necesario.
@@ -101,8 +102,16 @@ Por ejemplo, un usuario puede tener permiso para ejecutar la unidad de código 8
 
 Sin embargo, el usuario no necesita tener acceso total a la tabla **Línea de venta** para ejecutar la unidad de código. Si el usuario tiene permiso indirecto a la tabla **Línea de venta**, la unidad de código **Venta-Registrar** se ejecuta correctamente. Cuando un usuario tiene permiso indirecto, solo puede modificar la tabla **Línea de venta** al ejecutar la unidad de código **Venta-Registrar** u otro objeto que tenga permiso para modificar la tabla **Línea de venta**. El usuario sólo puede modificar la tabla **Línea de venta** en las áreas compatibles de la aplicación. El usuario no puede ejecutar la característica de forma inadvertida o malintencionada mediante otros métodos.
 
+## <a name="to-set-up-user-time-constraints"></a>Para configurar restricciones de tiempo de usuarios
+Los administradores pueden definir periodos de tiempo durante los que los usuarios especificados pueden registrar, así como especificar si el sistema registra la cantidad de tiempo que los usuarios tienen iniciada la sesión. Los administradores también pueden asignar centros de responsabilidad a los usuarios.
+
+1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Configuración usuarios** y, a continuación, seleccione el vínculo relacionado.
+2. En la ventana **Configuración usuarios** que se abre, seleccione la acción **Nuevo**.
+3. En el campo **Id. usuario**, escriba el identificador de un usuario o elija el campo para ver todos los usuarios de Windows actuales en el sistema.
+4. Rellene los campos según sea necesario.
+
 ## <a name="see-also"></a>Consulte también
 [Preparación para hacer negocios](ui-get-ready-business.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

@@ -1,6 +1,6 @@
 ---
-title: 'Procedimiento: Crear oportunidades de ventas | Documentos de Microsoft'
-description: "Describe cómo crear oportunidades de ventas en contactos en Financials"
+title: Crear oportunidades de ventas | Documentos de Microsoft
+description: "Describe cómo crear oportunidades a partir de un vendedor o un contacto en Financials."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 387f79fcdbc0aef9a8b920e9df008b60445bd622
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 3137ed6aeaa235e2f2b4db7fdfb7dd7b8570c886
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -28,7 +28,7 @@ Puede crear oportunidades desde la ventana **Lista oportunidades**. Pero, normal
 Antes de crear oportunidad, debe configurar los ciclos ventas oportunidad. Para obtener más información, vea [Procedimiento: Configurar etapas y ciclos de venta de oportunidades](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="to-create-an-opportunity-from-a-salesperson"></a>Para crear una oportunidad a partir de un vendedor
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Vendedores** y elija el vínculo relacionado.
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Vendedores** y, a continuación, seleccione el vínculo relacionado.
 2. Seleccione el vendedor de la lista para el que desea crear una oportunidad.
 3. Elija la acción **Oportunidades** y, a continuación, elija **Lista**.
 4. Elija **Nuevo** y, a continuación, rellene los campos según sea pertinente. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -36,7 +36,7 @@ Antes de crear oportunidad, debe configurar los ciclos ventas oportunidad. Para 
 
 
 ## <a name="to-create-an-opportunity-from-a-contact"></a>Para crear una oportunidad a partir de un contacto
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Contactos** y elija el vínculo relacionado.
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Contactos** y, a continuación, seleccione el vínculo relacionado.
 2. Seleccione el contacto de la lista para el que desea crear una oportunidad.
 3. Realice una de las siguientes acciones:
    * Elija la acción **Crear oportunidad**.

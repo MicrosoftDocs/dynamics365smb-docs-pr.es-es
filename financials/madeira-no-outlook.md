@@ -1,6 +1,6 @@
 ---
 title: Usar Dynamics 365 for Financials sin Outlook | Documentos de Microsoft
-description: Usar Dynamics 365 for Financials sin Outlook
+description: "Puede utilizar Dynamics 365 for Financials como su bandeja de entrada de empresa en Outlook porque está integrado con Office 365, sin embargo, también puede trabajar sin Outlook en un navegador o en su dispositivo móvil."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -9,17 +9,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 03/28/2017
+ms.date: 0602/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 43ef56ed29c25ccd3cea53b9332cbf73f04c8e1f
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 29b204502281b728889098ae8d88f928e4f46e20
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-
 # <a name="using-dynamics-365-for-financials-without-outlook"></a>Usar Dynamics 365 for Financials sin Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] tiene una integración profunda con Office 365 y puede usar [!INCLUDE[d365fin](includes/d365fin_md.md)] como su bandeja de entrada de empresa en Outlook. Pero si no tiene Outlook, puede trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)] en el navegador o en su dispositivo móvil.  
 

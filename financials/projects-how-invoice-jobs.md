@@ -1,5 +1,5 @@
 ---
-title: Facturar proyectos | Documentos de Microsoft
+title: Crear una factura de venta para facturar un proyecto | Documentos de Microsoft
 description: "Describe cómo facturar a clientes por los costes del proyecto a medida que progresa un proyecto."
 services: project-madeira
 documentationcenter: 
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project invoice
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 28fae2b706873420761f7ce6330df25b280aea44
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 2fdc8f99fa81a0eecd55438bba33b1a93335a416
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -25,14 +25,15 @@ Durante el proyecto, pueden acumularse los costes del proyecto por el uso de rec
 
 Puede facturar el proyecto completo desde la ventana **Líneas tareas proyecto** o facturar solo las líneas de la factura seleccionada desde la ventana **Líneas de planificación**. La facturación se puede realizar una vez finalizado el proyecto o a ciertos intervalos durante el progreso del proyecto, basándose en un programa de facturación.
 
-**Nota**: Si selecciona **Facturable** en el campo **Tipo línea proyecto** en los documentos de compra de las compras relacionadas con el proyecto, se crearán las líneas de planificación de proyecto que estén listas para facturarse al cliente. Para obtener más información, vea [Administrar suministros de proyecto](projects-how-manage-project-supplies.md).
+> [!NOTE]  
+>   Si selecciona **Facturable** en el campo **Tipo línea proyecto** en los documentos de compra de las compras relacionadas con el proyecto, se crearán las líneas de planificación de proyecto que estén listas para facturarse al cliente. Para obtener más información, vea [Administrar suministros de proyecto](projects-how-manage-project-supplies.md).
 
 ## <a name="to-create-and-post-a-job-sales-invoice"></a>Para crear y registrar una factura de venta del proyecto
 Puede crear la factura de un proyecto o de una o varias tareas del proyecto para un cliente cuando se haya terminado el trabajo que se va a facturar o cuando se llegue a la fecha de facturación en función de un programa de facturación.
 
 En la ventana **Proyectos** puede facturar a un cliente seleccionando el proyecto y eligiendo la acción **Crear factura venta proyecto**. El siguiente procedimiento muestra cómo utilizar un proceso para facturar varios proyectos.  
 
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Crear factura venta proyecto** y elija el vínculo relacionado.  
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Crear factura venta proyecto** y, a continuación, elija el vínculo relacionado.  
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Seleccione filtros si desea limitar los proyectos que el proceso va a procesar.
 4. Elija el botón **Aceptar** para crear las facturas.  
@@ -40,7 +41,7 @@ En la ventana **Proyectos** puede facturar a un cliente seleccionando el proyect
 ## <a name="to-create-multiple-job-sales-invoices-from-job-planning-lines"></a>Para crear varias facturas de venta de proyecto desde líneas de planificación de proyecto
 Puede crear una factura a partir de las líneas de planificación de proyecto e indicar en ese momento la cantidad del producto, recurso o cuenta que desea facturar.
 
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Proyectos** y elija el vínculo relacionado.
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Proyectos** y, a continuación, seleccione el vínculo relacionado.
 2. Abra un proyecto relevante.
 3. Seleccione una tarea de proyecto cuyos campo **Tipo tarea proyecto** contenga **Registrar** y seleccione la acción **Líneas planificación proyecto**.  
 4. En una línea de planificación de proyecto, en el campo **Cdad. para transferir a factura**, introduzca la cantidad del producto, recurso y el tipo de la cuenta de contabilidad que desee facturar.  
@@ -54,12 +55,13 @@ Puede crear una factura a partir de las líneas de planificación de proyecto e 
     Se abre la ventana **Factura venta** que muestra la cantidad que ha transferido a la factura.  
 9. Realice cualquier cambio adicional y, a continuación, elija la acción **Registrar**.
 
-**Nota**: El procedimiento anterior es similar para crear, revisar y registrar un abono de venta relacionado con el proyecto.
+> [!NOTE]  
+>   El procedimiento anterior es similar para crear, revisar y registrar un abono de venta relacionado con el proyecto.
 
 ## <a name="to-calculate-and-post-job-completion-entries"></a>Para calcular y registrar los movimientos de finalización de proyecto
 Cuando haya terminado todas las actividades de un proyecto, incluidos los registros de consumo y la facturación, tiene que actualizarlo para que su **Estado** sea **Completado**. Después, debe revertir cualquier WIP que haya registrado en contabilidad.
 
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Proyectos** y elija el vínculo relacionado.  
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Proyectos** y, a continuación, seleccione el vínculo relacionado.  
 2. Seleccione un proyecto pendiente y, a continuación, elija la acción **Editar**.
 3. En el campo **Estado**, seleccione **Completado**.
 4. Siga los pasos de la ayuda para calcular y registrar WIP. También puede seguir los pasos 5 y 6 para hacerlo manualmente.  
@@ -77,5 +79,5 @@ Cuando haya terminado todas las actividades de un proyecto, incluidos los regist
 [Finanzas](finance.md)  
 [Compras](purchasing-manage-purchasing.md)         
 [Ventas](sales-manage-sales.md)      
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

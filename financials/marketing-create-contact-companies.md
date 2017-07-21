@@ -1,6 +1,6 @@
 ---
 title: Crear empresas de contacto | Documentos de Microsoft
-description: "Describe cómo crear empresas de contacto en Financials"
+ddescription: Outlines the tasks to create contact companies, including assigning relevant data about prospects and defining the business relationships you have with companies.
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 9f1bd42ec4da43a16e9ba3f2519385bf914c8307
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: bbde977ff87049625295fab798445539b23f23dc
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="create-contact-companies"></a>Crear empresas de contacto
+# <a name="creating-contact-companies"></a>Crear empresas de contacto
 Su empresa asiste con frecuencia a reuniones con empresas de las que en muchas ocasiones surgen futuras relaciones de negocio. Cuando se crea un nuevo contacto, se debe registrar esta información de modo que pueda establecerse una comunicación continua.
 
 Al asignar la mayor información posible sobre una empresa específica se garantiza una comunicación eficaz. Por ejemplo, si asigna el grupo de industria correspondiente, se asegura que las empresas se incluyan en todas las comunicaciones relevantes.

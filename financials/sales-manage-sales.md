@@ -1,5 +1,5 @@
 ---
-title: Ventas | Documentos de Microsoft
+title: Resumen de tareas para administrar las ventas | Documentos de Microsoft
 description: "Describe cómo gestionar las actividades de ventas."
 services: project-madeira
 documentationcenter: 
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell
-ms.date: 04/27/2017
+ms.date: 06/30/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: d8b73dcf1ee000bd13aec200c82275eb3c0f9d1d
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: ebdcfc8c2be94398c1ebd7d5268a94b568e3b23b
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -46,6 +46,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 | Crea una oferta de venta donde ofrece los productos según términos negociables antes de convertir la oferta en una factura de venta. |[Realización de ofertas](sales-how-make-offers.md) |
 | Crea una factura de venta para registrar el contrato con un cliente para vender productos según términos de entrega y pago determinados. |[Facturación de ventas](sales-how-invoice-sales.md) |
 | Procesar un pedido de ventas que requiera un envío parcial o directo. |[Vender productos](sales-how-sell-products.md) |
+|Configurar líneas de ventas o compras estándar que puede insertar rápidamente en documentos, por ejemplo, para las órdenes de reposición periódicas.|[Crear líneas de ventas y de compras periódicas](sales-how-work-standard-lines.md)|  
 | Vincular un pedido de ventas a una orden de compra para vender un producto de envío directo que se entregará directamente desde el proveedor al cliente. |[Realizar envíos directos](sales-how-drop-shipment.md) |
 | Realice una acción en una factura de venta registrada sin abonar para crear automáticamente un abono y para cancelar la factura de venta o regenerarla para poder hacer correcciones. |[Corrección o cancelación de facturas de venta sin abonar](sales-how-correct-cancel-sales-invoice.md) |
 | Crea un abono de venta para revertir una factura de venta registrada específica para reflejar qué productos devuelve el cliente y qué importe de pago se reembolsará. |[Procesamiento de devoluciones de ventas o cancelaciones](sales-how-process-sales-returns-cancellations.md) |
@@ -57,7 +58,8 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 [Administrar pagos](payables-manage-payables.MD)  
 [Administración de proyectos](projects-manage-projects.md)    
 [Cadena de suministro](madeira-supply-chain.md)      
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

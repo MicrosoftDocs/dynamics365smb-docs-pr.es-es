@@ -1,6 +1,6 @@
 ---
-title: Cierre de libros| Documentos de Microsoft
-description: Explica los procesos implicados en cerrar los libros de un ejercicio o periodo fiscal.
+title: Resumen de las tareas para cerrar los libros | Documentos de Microsoft
+description: "Obtenga información sobre el proceso de cerrar los libros de un ejercicio o periodo, y qué sucede después de cerrar al final de un ejercicio."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,14 +13,14 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 03/29/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: a8d379c971d9b21b0eac552f8c7f68926090f037
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 870f1c6a7f93195e0308a646402d642f6cadd219
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="closing-books"></a>Cierre de libros
+# <a name="closing-the-books"></a>Cerrar los libros
 Una vez que se haya asegurado de que todas sus cuentas estén actualizadas, y que asigne costes e ingresos, puede cerrar los libros para un ejercicio o periodo.
 
 El cierre del año no es obligatorio pero, si lo hace, le resultará más fácil trabajar en el sistema, porque podrá utilizar las opciones de filtrado disponibles. Tampoco tendrá que temer la pérdida de datos de las transacciones al realizar el cierre, porque todos los datos se conservan, incluso después de cerrar el año.
@@ -56,5 +56,5 @@ Puede realizar registros en un ejercicio anterior, después de se hayan cerrado 
 
 ## <a name="see-also"></a>Consulte también
 [Abrir un nuevo ejercicio](finance-how-open-new-fiscal-year.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

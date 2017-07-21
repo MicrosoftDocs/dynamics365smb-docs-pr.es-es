@@ -1,6 +1,6 @@
 ---
-title: "Ordenación | Documentos de Microsoft"
-description: "Obtenga información sobre cómo funciona la ordenación."
+title: "Organizar los datos mediante la función de clasificación | Documentos de Microsoft"
+description: "Puede usar la función de clasificación para obtener un resumen de sus datos. Por ejemplo, puede ordenar los clientes por código de divisa para obtener una muestra seleccionada de clientes."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 02/07/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 284d03333af17e8c9bcf94cc20e40f87ee063e24
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 4f63d34f4dffc0a6e8c6aa7f8e3fe72710d9bce5
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -24,10 +24,11 @@ Esta función permite obtener fácil y rápidamente un panorama de los datos. Si
 
 Seleccione un cabecera de columna y use la flecha pequeña para ordenar de forma ascendente o descendente.  
 
-**Nota**: El ordenamiento no se admite en imágenes, campos BLOB, FlowFilters ni campos que no pertenecen a una tabla.
+> [!NOTE]  
+>   La ordenación no se admite en imágenes, campos BLOB, FlowFilters ni campos que no pertenezcan a una tabla.
 
 ## <a name="see-also"></a>Consulte también
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Introducir criterios en los filtros](ui-enter-criteria-filters.md)
 
 

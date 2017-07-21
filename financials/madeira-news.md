@@ -1,6 +1,6 @@
 ---
 title: Novedades de Dynamics 365 for Financials| Documentos de Microsoft
-description: Novedades de Dynamics 365 for Financials
+description: "Describe las últimas noticias y novedades de Dynamics 365 for Financials."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: news
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 26fe803ea4d4b503b8123f4a06e3017c1d5f077f
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 2a54dfe38195a27c4c1cb155e48760d19fb36f03
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
+
 
 ---
-
 # <a name="whats-new-in-dynamics-365-for-financials"></a>Novedades de Dynamics 365 for Financials
 [!INCLUDE[d365fin](includes/d365fin_md.md)] Si todavía no lo ha hecho, regístrese para una prueba, déjenos guiarle por los conceptos básicos de lo que puede hacer con [!INCLUDE[d365fin](includes/d365fin_md.md)] y, a continuación, pruebe estas funciones durante un momento. Cuando esté listo, puede abrir una empresa vacía y empezar a configurarla.  
 
@@ -54,7 +54,7 @@ Esta actualización de [!INCLUDE[d365fin](includes/d365fin_md.md)] ha agregado n
 ### <a name="more-flexibility-in-your-sales-processes"></a>Más flexibilidad en los procesos de venta
 Esta actualización agrega más flexibilidad en lo que vende:
 - Ahora puede configurar productos sin stock, productos que desea ofrecer a los clientes, pero que no desea mantener en el inventario. Para obtener más información, consulte [Trabajar con productos sin stock](inventory-how-work-nonstock-items.md).
-- Ahora puede marcar un producto para el envío directo en un pedido de venta e inmediatamente crear un pedido de compra del producto. De esta manera, puede vender un producto a un cliente, comprarlo al proveedor y enviarlo directamente desde el proveedor al cliente. Para obtener más información, consulte [Compra de productos para una venta](purchasing-how-purchase-products-sale.md).
+- Ahora puede marcar un producto para el envío directo en un pedido de venta e inmediatamente crear un pedido de compra del producto. De esta manera, puede vender un producto a un cliente, comprarlo al proveedor y enviarlo directamente desde el proveedor al cliente. Para obtener más información, consulte [Comprar productos para una venta](purchasing-how-purchase-products-sale.md).
 
 ### <a name="categorize-items-in-your-inventory"></a>Clasificar los productos del inventario
 Con esta actualización, puede crear una jerarquía de categorías de productos y asignarles atributos de producto a cada categoría de productos. Para obtener más información, consulte [Clasificar productos](inventory-how-categorize-items.md).
@@ -88,17 +88,17 @@ Esta actualización de [!INCLUDE[d365fin](includes/d365fin_md.md)] ha agregado n
 Esta actualización agrega acciones al panel del proveedor en el complemento de Outlook de modo que pueda trabajar directamente con los archivos adjunto del correo electrónico asociado. Utilice las acciones para enviar los archivos adjuntos de correo electrónico directamente a la lista **Documentos entrantes**, enviar los documentos al servicio de OCR y enviar una solicitud de aprobación del documento de entrada. Para obtener más información, vea [Administrar documentos entrantes](across-income-documents.md).
 
 ### <a name="create-invoices-in-your-outlook-calendar"></a>Crear facturas en el calendario de Outlook
-El complemento de Outlook ahora amplía el calendario de Outlook. Desde una cita de calendario, puede abrir el complemente de [!INCLUDE[d365fin](includes/d365fin_md.md)] y obtener una visión general del cliente asociado a la cita. A continuación, puede crear y registrar una factura de los servicios proporcionados en la reunión, y todo ello directamente en el calendario de Outlook. Para obtener más información, vea [Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] como su bandeja de entrada de empresa en Outlook](madeira-outlook.md).  
+El complemento de Outlook ahora amplía el calendario de Outlook. Desde una cita de calendario, puede abrir el complemente de [!INCLUDE[d365fin](includes/d365fin_md.md)] y obtener una visión general del cliente asociado a la cita. A continuación, puede crear y registrar una factura de los servicios proporcionados en la reunión, y todo ello directamente en el calendario de Outlook. Para obtener más información, consulte [Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] como su bandeja de entrada de empresa en Outlook](madeira-outlook.md).  
 
 ### <a name="appsource-marketplace-for-extensions"></a>Mercado AppSource de extensiones
-Las extensiones de [!INCLUDE[d365fin](includes/d365fin_md.md)] están disponibles en el mercado AppSource en [AppSource.microsoft.com](https://appsource.microsoft.com/). Podrá buscar y encontrar extensiones en el mercado. Podrá ver la información, incluido material de marketing, capturas de pantalla, vídeos y vínculos a detalles adicionales. Para obtener más información, vea [Personalización de [!INCLUDE[d365fin](includes/d365fin_md.md)] usando extensiones](ui-extensions.md).  
+Las extensiones de [!INCLUDE[d365fin](includes/d365fin_md.md)] están disponibles en el mercado AppSource en [AppSource.microsoft.com](https://appsource.microsoft.com/). Podrá buscar y encontrar extensiones en el mercado. Podrá ver la información, incluido material de marketing, capturas de pantalla, vídeos y vínculos a detalles adicionales. Para obtener más información, consulte [Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] mediante extensiones](ui-extensions.md).  
 
 ### <a name="shipping-agents-and-item-attributes"></a>Atributos de transportistas y producto
 Puede agregar atributos a sus productos de inventario que faciliten mucho la búsqueda del producto adecuado que desea el cliente. Para obtener más información sobre cómo trabajar con el formulario, consulte [Procedimiento: Trabajar con atributos de producto](inventory-how-work-item-attributes.md).  
 
 ### <a name="new-extensions-made-available"></a>Disponibilidad de nuevas extensiones
 Con esta actualización, puede elegir entre más extensiones en la ventana **Administración de extensiones**.
-Para obtener más información, vea [Extensiones de [!INCLUDE[d365fin](includes/d365fin_md.md)] de otros proveedores](ui-extensions-other.md).  
+Para obtener más información, consulte [[!INCLUDE[d365fin](includes/d365fin_md.md)] Extensiones de otros proveedores](ui-extensions-other.md).  
 
 ### <a name="manage-your-customer-relationships-using-microsoft-dynamics-crm-from-inside-included365finincludesd365finmdmd"></a>Administrar sus relaciones con el cliente mediante Microsoft Dynamics CRM desde [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Hemos agregado una nueva guía de configuración asistida a la página programa del administrador de negocio que le guiará por el proceso de configuración para conectarse a Dynamics CRM. Una vez terminada, tendrá un acoplamiento perfecto de los registros de Dynamics CRM con los registros de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, vea [Administrar sus relaciones con el cliente mediante Microsoft Dynamics CRM desde [!INCLUDE[d365fin](includes/d365fin_md.md)] ](marketing-integrate-dynamicscrm.md).
@@ -107,7 +107,7 @@ Hemos agregado una nueva guía de configuración asistida a la página programa 
 Esta actualización de [!INCLUDE[d365fin](includes/d365fin_md.md)] ha agregado nuevas funciones como [se anunció en el blog](https://community.dynamics.com/business/b/financials/archive/2016/06/01/new-and-updated-capabilities-in-the-first-update-of-project-quot-madeira-quot).  
 
 ### <a name="new-extensions-made-available"></a>Disponibilidad de nuevas extensiones
-Consulte la ventana **Administración de extensiones**: la actualización agrega extensiones nuevas, incluido Sana Commerce para [!INCLUDE[d365fin](includes/d365fin_md.md)] que proporciona funciones de comercio B2B y ChargeLogic Payments que proporciona funciones de procesamiento de pago y de tarjeta de crédito. Las extensiones no se instalan automáticamente, pero la ventana **Administración de extensiones** le ayudará a instalar las extensiones que desea usar. Para obtener más información, vea [Extensiones de [!INCLUDE[d365fin](includes/d365fin_md.md)] de otros proveedores](ui-extensions-other.md).  
+Consulte la ventana **Administración de extensiones**: la actualización agrega extensiones nuevas, incluido Sana Commerce para [!INCLUDE[d365fin](includes/d365fin_md.md)] que proporciona funciones de comercio B2B y ChargeLogic Payments que proporciona funciones de procesamiento de pago y de tarjeta de crédito. Las extensiones no se instalan automáticamente, pero la ventana **Administración de extensiones** le ayudará a instalar las extensiones que desea usar. Para obtener más información, consulte [[!INCLUDE[d365fin](includes/d365fin_md.md)] Extensiones de otros proveedores](ui-extensions-other.md).  
 
 ### <a name="filter-on-unprocessed-incoming-documents"></a>Filtrar los documentos entrantes sin procesar
 También hemos modificado parte de la funcionalidad básica en la actualización de este mes: Ll lista de documentos entrantes ahora está filtrada para mostrar solamente aquellas entradas que no se han utilizado para crear documentos registrados. Para obtener más información, vea [Administrar documentos entrantes](across-income-documents.md).  
@@ -120,7 +120,7 @@ En abril de 2016, lanzamos la vista preliminar de [!INCLUDE[d365fin](includes/d3
 
 Escenarios clave que puede probar por sí solo:  
 
-- [Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] como bandeja de entrada de empresa en Outlook](madeira-no-outlook.md)  
+- [Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] como su bandeja de entrada de empresa en Outlook](madeira-no-outlook.md)  
 - [Obtener [!INCLUDE[d365fin](includes/d365fin_md.md)] en el dispositivo móvil](install-mobile-app.md)  
 - [Habilitar los datos de negocio para Power BI](madeira-powerbi.md)  
 - [Cambiar el Área de trabajo](change-role.md)  
@@ -129,6 +129,6 @@ Escenarios clave que puede probar por sí solo:
 
 ## <a name="see-also"></a>Consulte también
 [[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Guía básica de Dynamics 365](https://roadmap.dynamics.com/)  
 

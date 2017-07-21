@@ -1,6 +1,6 @@
 ---
-title: Administrar cobros | Documentos de Microsoft
-description: Administrar cobros
+title: Resumen de tareas para administrar los cobros | Documentos de Microsoft
+description: Describe tareas para administrar los cobros y liquidar los pagos en los movimientos de cliente o proveedor.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer payment, debtor, balance due, AR
-ms.date: 03/29/2017
+ms.date: 06/01/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 62d59546331a5faa5ecb7aea0f9bb8dedea719f9
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 79b64e3cacdf582d4c1737b46dc197929b8a1450
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -41,10 +41,10 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 | Liquide pagos para abrir movimientos de cliente basados en una introducción manual de datos en una lista de documentos de ventas sin pagar. |[Conciliar pagos manualmente de una lista de documentos de venta sin abonar](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md) |
 | Registre reembolsos o recibos de efectivo de clientes en el diario de cobros y aplíquelos a movimientos de cliente, ya sea desde el diario o desde movimientos registrados. |[Conciliar pagos de cliente manualmente](receivables-how-apply-sales-transactions-manually.md) |
 | Recordar a los clientes los importes vencidos, calcular intereses y administrar los cobros. |[Cobrar saldos pendientes](receivables-collect-outstanding-balances.md) |
-
+|Asegúrese de que conoce el coste de los productos enviados mediante la asignación de costes de producto, tales como fletes, manipulación física, seguros y transporte en los que incurra después de la venta.|[Utilizar los cargos de producto a cuenta para los costes comerciales adicionales](payables-how-assign-item-charges.md)|
 ## <a name="see-also"></a>Consulte también
 [Ventas](sales-manage-sales.md)  
 [Administrar pagos](payables-manage-payables.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)
 

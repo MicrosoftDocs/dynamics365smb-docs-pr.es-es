@@ -1,6 +1,6 @@
 ---
-title: Compras | Documentos de Microsoft
-description: "Describe cómo gestionar las actividades de compras."
+title: Resumen de tareas para administrar las compras | Documentos de Microsoft
+description: Describe las tareas para administrar sus procesos de compra o aprovisionamiento, incluido el modo en que funcionan las facturas de compra y los pedidos de compra.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: procurement, supply, vendor order
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 4ba8ea773fa4024cfcaccd00b80bdbbfe81be8b7
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 653cd9b5e9651f2039ab18f3e7a26b299238d817
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -36,7 +36,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 | Para | Vea |
 | --- | --- |
 | Cree una factura de compra para registrar el contrato con un proveedor para comprar productos según términos de entrega y pago determinados. |[Registro de compras](purchasing-how-record-purchases.md) |
-| Crear una factura de compra para todas las líneas en una factura de venta o las seleccionadas. |[Compra de productos para una venta](purchasing-how-purchase-products-sale.md) |
+| Crear una factura de compra para todas las líneas en una factura de venta o las seleccionadas. |[Comprar productos para una venta](purchasing-how-purchase-products-sale.md) |
 | Realice una acción en una factura de compra registrada sin abonar para crear automáticamente un abono y para cancelar la factura de compra o regenerarla para poder hacer correcciones. |[Corrección o cancelación de facturas de venta sin abonar](purchasing-how-correct-cancel-unpaid-purchase-invoices.md) |
 | Cree un abono de compra para revertir una factura de compra registrada específica para reflejar qué productos se están devolviendo al proveedor y qué importe de pago se cobrará. |[Procesamiento de devoluciones de compra o cancelaciones](purchasing-how-register-new-vendors.md) |
 | Cree una ficha de proveedor para cada proveedor del que compre. |[Registro de proveedores nuevos](purchasing-how-register-new-vendors.md) |
@@ -46,7 +46,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 [Administrar pagos](payables-manage-payables.md)  
 [Administrar proyectos](projects-manage-projects.md)    
 [Cadena de suministro](madeira-supply-chain.md)      
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

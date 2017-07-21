@@ -1,6 +1,6 @@
 ---
-title: Administrar pagos | Documentos de Microsoft
-description: "Administración de pagos"
+title: Resumen de tareas para administrar las cuentas por pagar | Documentos de Microsoft
+description: "Describe las tareas para administrar los pagos, por ejemplo, los pagos a acreedores o la liquidación de pagos salientes en movimientos para cerrar facturas o abonos."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 92b16c52589a07661d9ff080e9ef8a0f6be633f7
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 9684a91268927a4f1f4d249fef019c8f6ac00325
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -34,10 +34,12 @@ En la tabla siguiente se muestra una secuencia de tareas de cuentas por pagar, c
 | Genere pagos de proveedor pendientes con prioridad según los descuentos por pronto pago y las penalizaciones por retraso. De forma opcional, exporte los pagos a un archivo bancario al registrarlos. |[Realizar pagos](payables-make-payments.md) |
 | Liquide pagos de proveedores automáticamente con facturas de compra sin abonar importando un archivo de extracto bancario. |[Liquidar pagos automáticamente y conciliar cuentas bancarias](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
 | Liquide pagos de proveedor con facturas de compra sin abonar manualmente. |[Conciliar pagos de proveedor manualmente](payables-how-apply-purchase-transactions-manually.md) |
+|Asegúrese de la valoración de inventario correcta mediante la asignación de costes de producto, tales como fletes, manipulación física, seguros y transporte en los que incurra al comprar.|[Utilizar los cargos de producto a cuenta para los costes comerciales adicionales](payables-how-assign-item-charges.md)|
 
 ## <a name="see-also"></a>Consulte también
 [Compras](purchasing-manage-purchasing.md)  
 [Administrar cobros](receivables-manage-receivables.md)  
+[Utilizar los cargos de producto a cuenta para los costes comerciales adicionales](payables-how-assign-item-charges.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

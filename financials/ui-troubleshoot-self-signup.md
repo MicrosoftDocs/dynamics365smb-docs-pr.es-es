@@ -1,6 +1,6 @@
 ---
-title: "Solución de problemas en el registro de autoservicio | Documentos de Microsoft"
-description: "Solución de problemas de Azure AD al registrarse."
+title: Maneras de solucionar problemas con el registro al autoservicio | Documentos de Microsoft
+description: "Obtenga información sobre los motivos más habituales por los que es posible que no pueda realizar el registro a Dynamics 365 for Financials y formas de solucionarlos."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 9bd980c6c6172d736915119806c0ba154b22bc8a
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 1bc036d4e57403d903c292a07a8985dfe939b20d
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -40,6 +40,6 @@ En muchas ocasiones, el registro para [!INCLUDE[d365fin](includes/d365fin_md.md)
 
 ## <a name="see-also"></a>Consulte también
 [[!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 

@@ -1,6 +1,6 @@
 ---
-title: Corregir o cancelar facturas de venta sin abonar| Documentos de Microsoft
-description: "Corrección o cancelación de facturas de venta sin abonar"
+title: Corregir o cancelar una factura de venta registrada | Documentos de Microsoft
+description: "Describe cómo, corregir deshacer o cancela una factura de venta registrada y aplicar un abono de venta."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,17 +13,18 @@ ms.search.keywords: undo, credit memo, return
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 9289aeb9b44ec300646fbe6e6fdbf77e72cd7b08
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 3cfa755b60a7ea24cc992e32a8f10d967e383f0f
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-correct-or-cancel-unpaid-sales-invoices"></a>Corrección o cancelación de facturas de venta sin abonar
 Puede corregir o cancelar una factura de venta registrada. Esto es útil si se comete un error o si el cliente solicita un cambio.
 
-**Nota**: Una vez que una factura de venta registrada se haya pagado parcial o totalmente, no puede corregirla o cancelarla de la factura de venta registrada en sí. En su lugar, debe crear manualmente un abono de venta para anular la venta y reembolsar al cliente. Para obtener más información, vea [Procedimiento: Procesar devoluciones de ventas o cancelaciones](sales-how-process-sales-returns-cancellations.md).
+> [!NOTE]  
+>   Una vez que una factura de venta registrada se haya pagado parcial o totalmente, no puede corregirla o cancelarla de la factura de venta registrada en sí. En su lugar, debe crear manualmente un abono de venta para anular la venta y reembolsar al cliente. Para obtener más información, vea [Procedimiento: Procesar devoluciones de ventas o cancelaciones](sales-how-process-sales-returns-cancellations.md).
 
 En la ventana **Histórico facturas venta**, puede elegir las acciones **Corregir** o **Cancelar** para realizar las acciones que se describen en la tabla siguiente.
 
@@ -35,10 +36,11 @@ En la ventana **Histórico facturas venta**, puede elegir las acciones **Corregi
 Al corregir o cancelar una factura de ventas registrada, el abono de venta de corrección se aplica a todos los movimientos contables y del inventario que se crearon cuando se registró la factura de venta inicial. De esta forma se invierte la factura de venta registrada en los registros financieros deja el abono de venta registrado de corrección para el seguimiento de auditoria.
 
 ## <a name="to-correct-a-posted-sales-invoice"></a>Corregir una factura de venta registrada
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Histórico facturas venta** y elija el vínculo relacionado.  
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Facturas de ventas registradas** y, a continuación, elija el vínculo relacionado.  
 2. Seleccione la factura de venta registrada que desea corregir.
 
-    **Nota**: Si se selecciona la casilla **Cancelado**, no puede corregir la factura de ventas registrada porque ya se ha corregido o cancelado.
+    > [!NOTE]  
+>   Si se selecciona la casilla **Cancelado**, no puede corregir la factura de venta registrada porque ya se ha corregido o cancelado.
 3. En la ventana **Factura de ventas registrada**, elija la acción **Corregir**.  
 4. Una nueva factura de venta con la misma información se crea donde puede realizar la corrección. El campo **Cancelado** en la factura de ventas registrada inicial se cambia a **Sí**.
 
@@ -46,10 +48,11 @@ Al corregir o cancelar una factura de ventas registrada, el abono de venta de co
 5. Elija la acción **Mostrar abono correctivo** para ver el histórico de abonos de ventas que anula la factura de ventas registrada inicial.
 
 ## <a name="to-cancel-a-posted-sales-invoice"></a>Cancelar una factura de venta registrada
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Histórico facturas venta** y elija el vínculo relacionado.  
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Facturas de ventas registradas** y, a continuación, elija el vínculo relacionado.  
 2. Seleccione la factura de venta registrada que desea cancelar.
 
-    **Nota**: Si se selecciona la casilla **Cancelado**, no puede cancelar la factura de ventas registrada porque ya se ha corregido o cancelado.
+    > [!NOTE]  
+>   Si se selecciona la casilla **Cancelado**, no puede cancelar la factura de venta registrada porque ya se ha cancelado o corregido.
 3. En la ventana **Factura de ventas registrada**, elija la acción **Cancelar**.
 
     Un abono de venta se crea y se registra automáticamente para anular la factura de venta registrada inicial. El campo **Cancelado** en la factura de ventas registrada inicial se cambia a **Sí**.
@@ -58,6 +61,6 @@ Al corregir o cancelar una factura de ventas registrada, el abono de venta de co
 ## <a name="see-also"></a>Consulte también
 [Ventas](sales-manage-sales.md)  
 [Configuración de ventas](sales-setup-sales.md)  
-[Enviar documentos por correo electrónico](ui-how-send-documents-email.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Enviar documentos por correo electrónico.](ui-how-send-documents-email.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

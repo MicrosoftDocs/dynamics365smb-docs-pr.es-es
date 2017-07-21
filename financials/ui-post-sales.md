@@ -1,6 +1,6 @@
 ---
-title: Registro de ventas | Documentos de Microsoft
-description: "Obtenga información sobre cómo registrar ventas."
+title: "Descripción de cómo registrar documentos de venta | Documentos de Microsoft"
+description: "Obtenga información sobre las diversas funciones de registro para registrar documentos de venta."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 4127efd5e9508fe8706baffdd699571b8d081c34
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 106102d07761673461bc28bbf6452ed05f926112
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -38,13 +38,14 @@ Para cada pedido de venta, se crea un movimiento de venta en la tabla **Mov. con
 
 Por cada línea de pedido de venta, se creará un movimiento de producto en la tabla **Mov. producto** (si las líneas de venta contienen números de producto) o un movimiento de contabilidad en la tabla **Mov. contabilidad** (si las líneas de venta contienen una cuenta de contabilidad). Además, los pedidos de venta siempre se registran en las tablas **Histórico cab. albarán venta** y **Histórico cab. factura venta**.
 
-**Importante**: Cuando registre un pedido, puede crear un albarán de venta y una factura. Esto se puede realizar al mismo tiempo o de manera independiente. También puede crear un envío y una factura parciales completando los campos **Cantidad a enviar** y **Cantidad a facturar** en las líneas individuales del pedido de venta antes de registrar. Tenga en cuenta que no se puede crear una factura de algo que no se ha enviado. Es decir, para poder facturar, debe haber registrado un envío, o bien debe elegir enviar y facturar al mismo tiempo.
+> [!IMPORTANT]  
+>   Cuando registre un pedido, puede crear un albarán de venta y una factura. Esto se puede realizar al mismo tiempo o de manera independiente. También puede crear un envío y una factura parciales completando los campos **Cantidad a enviar** y **Cantidad a facturar** en las líneas individuales del pedido de venta antes de registrar. Tenga en cuenta que no se puede crear una factura de algo que no se ha enviado. Es decir, para poder facturar, debe haber registrado un envío, o bien debe elegir enviar y facturar al mismo tiempo.
 
 Una vez completado el registro, las líneas de venta registradas se quitan del pedido. Al terminar el registro aparece un mensaje de aviso. Después de esto, podrá ver los movimientos registrados en las diferentes ventanas que los contienen, como **Movs. cliente**, **Movs. contabilidad**, **Movs. producto**, **Histórico albaranes ventas** y **Histórico facturas venta**.
 
 ## <a name="see-also"></a>Consulte también
 [Ventas](sales-manage-sales.md)  
-[Enviar documentos por correo electrónico](ui-how-send-documents-email.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Enviar documentos por correo electrónico.](ui-how-send-documents-email.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 
