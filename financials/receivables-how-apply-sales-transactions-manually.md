@@ -18,7 +18,6 @@ ms.openlocfilehash: 568bd66c201764cae45ea12a900ea12eabbf0546
 ms.contentlocale: es-es
 ms.lasthandoff: 07/07/2017
 
-
 ---
 # <a name="how-to-reconcile-customer-payments-manually"></a>Procedimiento: Conciliar pagos de cliente manualmente
 Cuando recibe un cobro de un cliente o efectúa un reembolso, debe decidir si va a liquidar el pago o reembolsarlo para cerrar uno o varios movimientos pendientes del debe o el haber. Puede especificar el importe que desea liquidar. Por ejemplo, puede liquidar pagos parciales en movimientos de cliente. El cierre de movimientos de cliente garantiza que la información, como las estadísticas de cliente, los extractos de cuenta y los intereses, sean correctos.
