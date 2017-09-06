@@ -18,7 +18,6 @@ ms.openlocfilehash: de0c429e8a5e03124c5a20977a9723570879952a
 ms.contentlocale: es-es
 ms.lasthandoff: 07/07/2017
 
-
 ---
 # <a name="how-to-change-which-layout-is-currently-used-on-a-report"></a>Cambiar el diseño que se usa actualmente en un informe
 Un informe se puede configurar con varios diseños de informe, entre los que puede cambiar según sea necesario.
@@ -34,8 +33,9 @@ Según los diseños disponibles para un informe, puede optar por usar un diseño
    * Usa el diseño de informe de Word integrado en el informe.
    * Custom, usa un diseño personalizado en el informe.  
      Puede ver qué diseños personalizados estarán disponibles para el informe en el cuadro informativo Parte de diseños de informe. Si no hay diseños personalizados para el informe, deberá crear uno primero. Si elige esta opción, vaya al procedimiento siguiente para especificar el diseño personalizado que desea usar.
-     > [!NOTE]  
->   Si elige **RDLC (integrado)** o **Word (integrado)** y recibe un mensaje de error en el que se indica que el informe no tiene un diseño del tipo especificado, debe elegir otra opción de diseño o crear un diseño de informe personalizado del tipo que desea usar.
+
+    > [!NOTE]  
+    >   Si elige **RDLC (integrado)** o **Word (integrado)** y recibe un mensaje de error en el que se indica que el informe no tiene un diseño del tipo especificado, debe elegir otra opción de diseño o crear un diseño de informe personalizado del tipo que desea usar.
 
 Si ha seleccionado un diseño de informe de RDLC o de Word, no se requiere ninguna otra acción y el diseño se utilizará la próxima vez que se ejecute el informe.
 
