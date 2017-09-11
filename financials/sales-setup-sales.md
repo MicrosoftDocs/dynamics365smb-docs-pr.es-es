@@ -16,29 +16,28 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 75ed584feda066a6c412f861bd624646c4c31085
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="setting-up-sales"></a>Configuración de ventas
-Para poder administrar procesos de venta, debe configurar las reglas y valores que definen las políticas de venta de la empresa.
+# <a name="setting-up-sales"></a><span data-ttu-id="6eb56-103">Configuración de ventas</span><span class="sxs-lookup"><span data-stu-id="6eb56-103">Setting Up Sales</span></span>
+<span data-ttu-id="6eb56-104">Para poder administrar procesos de venta, debe configurar las reglas y valores que definen las políticas de venta de la empresa.</span><span class="sxs-lookup"><span data-stu-id="6eb56-104">Before you can manage sales processes, you must configure the rules and values that define the company's sales policies.</span></span>
 
-Debe definir la configuración general, como los documentos de venta que se requieren y el modo de registrar sus valores. Esta configuración general se efectúa normalmente una vez durante la implementación inicial.
+<span data-ttu-id="6eb56-105">Debe definir la configuración general, como los documentos de venta que se requieren y el modo de registrar sus valores.</span><span class="sxs-lookup"><span data-stu-id="6eb56-105">You must define the general setup, such as which sales documents are required and how their values are posted.</span></span> <span data-ttu-id="6eb56-106">Esta configuración general se efectúa normalmente una vez durante la implementación inicial.</span><span class="sxs-lookup"><span data-stu-id="6eb56-106">This general setup is typically performed once during the initial implementation.</span></span>
 
-Una serie de tareas independientes relacionadas con el registro de nuevos clientes es registrar acuerdos de precios especiales o descuentos que tenga con cada cliente.
+<span data-ttu-id="6eb56-107">Una serie de tareas independientes relacionadas con el registro de nuevos clientes es registrar acuerdos de precios especiales o descuentos que tenga con cada cliente.</span><span class="sxs-lookup"><span data-stu-id="6eb56-107">A separate series of tasks related to registering new customers is to record any special price or discount agreements that you have with each customer.</span></span>
 
-La configuración de ventas relacionada con las finanzas, como las formas de pago o las divisas, se describe en la sección Configuración de finanzas. Para obtener más información, consulte [Configurar finanzas](finance-setup-finance.md).
+<span data-ttu-id="6eb56-108">La configuración de ventas relacionada con las finanzas, como las formas de pago o las divisas, se describe en la sección Configuración de finanzas.</span><span class="sxs-lookup"><span data-stu-id="6eb56-108">Finance-related sales setup, such as payment methods and currencies, are covered in the Finance Setup section.</span></span> <span data-ttu-id="6eb56-109">Para obtener más información, consulte [Configurar finanzas](finance-setup-finance.md).</span><span class="sxs-lookup"><span data-stu-id="6eb56-109">For more information, see [Setting Up Finance](finance-setup-finance.md).</span></span>
 
-| Para | Vea |
+| <span data-ttu-id="6eb56-110">Para</span><span class="sxs-lookup"><span data-stu-id="6eb56-110">To</span></span> | <span data-ttu-id="6eb56-111">Vea</span><span class="sxs-lookup"><span data-stu-id="6eb56-111">See</span></span> |
 | --- | --- |
-| Cree una ficha de cliente para cada cliente al que vende. |[Registro de clientes nuevos](sales-how-register-new-customers.md) |
-| Permita a los clientes que paguen mediante PayPal eligiendo su logotipo en los documentos de ventas. |[Permitir el pago de clientes mediante PayPal](sales-how-enable-payment-service-extensions.md) |
-| Especifique los distintos descuentos y precios especiales que ofrece a los clientes en función del producto, cantidades o fecha. |[Registrar acuerdos de precios de venta, descuentos y pagos](sales-how-record-sales-price-discount-payment-agreements.md) |
-| Configure los vendedores para que pueda asignarles contactos de cliente o medir el rendimiento del vendedor como base para calcular la comisión o prima por ventas. |[Configurar vendedores](sales-how-setup-salespeople.md) |
-| Especifique para clientes individuales o para todos los clientes cómo se envían los documentos de ventas por defecto cuando elige la acción **Registrar y enviar**. |[Configurar los perfiles de envío de documentos](sales-how-setup-document-send-profiles.md) |
-| Configure su correo electrónico para que contenga un resumen de información en el documento de ventas que se está enviando. |[Procedimiento: Enviar documentos por correo electrónico](ui-how-send-documents-email.md). |
+| <span data-ttu-id="6eb56-112">Cree una ficha de cliente para cada cliente al que vende.</span><span class="sxs-lookup"><span data-stu-id="6eb56-112">Create a customer card for each customer that you sell to.</span></span> |[<span data-ttu-id="6eb56-113">Registro de clientes nuevos</span><span class="sxs-lookup"><span data-stu-id="6eb56-113">How to: Register New Customers</span></span>](sales-how-register-new-customers.md) |
+| <span data-ttu-id="6eb56-114">Permita a los clientes que paguen mediante PayPal eligiendo su logotipo en los documentos de ventas.</span><span class="sxs-lookup"><span data-stu-id="6eb56-114">Enable customers to pay through PayPal by choosing the PayPal logo on sales documents.</span></span> |[<span data-ttu-id="6eb56-115">Permitir el pago de clientes mediante PayPal</span><span class="sxs-lookup"><span data-stu-id="6eb56-115">How to: Enable Customer Payment Through PayPal</span></span>](sales-how-enable-payment-service-extensions.md) |
+| <span data-ttu-id="6eb56-116">Especifique los distintos descuentos y precios especiales que ofrece a los clientes en función del producto, cantidades o fecha.</span><span class="sxs-lookup"><span data-stu-id="6eb56-116">Enter the different discounts and special prices that you grant to customers depending on item, quantities, and/or date.</span></span> |[<span data-ttu-id="6eb56-117">Registrar acuerdos de precios de venta, descuentos y pagos</span><span class="sxs-lookup"><span data-stu-id="6eb56-117">How to: Record Sales Price, Discount, and Payment Agreements</span></span>](sales-how-record-sales-price-discount-payment-agreements.md) |
+| <span data-ttu-id="6eb56-118">Configure los vendedores para que pueda asignarles contactos de cliente o medir el rendimiento del vendedor como base para calcular la comisión o prima por ventas.</span><span class="sxs-lookup"><span data-stu-id="6eb56-118">Set up salespeople so that you can assign them to customer contacts or measure salespeople's performance as a basis for calculating the sales commission or bonus.</span></span> |[<span data-ttu-id="6eb56-119">Configurar vendedores</span><span class="sxs-lookup"><span data-stu-id="6eb56-119">How to: Set Up Salespeople</span></span>](sales-how-setup-salespeople.md) |
+| <span data-ttu-id="6eb56-120">Especifique para clientes individuales o para todos los clientes cómo se envían los documentos de ventas por defecto cuando elige la acción **Registrar y enviar**.</span><span class="sxs-lookup"><span data-stu-id="6eb56-120">Specify for individual customers or for all customers how sales documents are sent by default when you choose the **Post and Send** action.</span></span> |[<span data-ttu-id="6eb56-121">Configurar los perfiles de envío de documentos</span><span class="sxs-lookup"><span data-stu-id="6eb56-121">How to: Set Up Document Sending Profiles</span></span>](sales-how-setup-document-send-profiles.md) |
+| <span data-ttu-id="6eb56-122">Configure su correo electrónico para que contenga un resumen de información en el documento de ventas que se está enviando.</span><span class="sxs-lookup"><span data-stu-id="6eb56-122">Set your email up to contain a summary of information in the sales document that is being sent.</span></span> |<span data-ttu-id="6eb56-123">[Procedimiento: Enviar documentos por correo electrónico](ui-how-send-documents-email.md).</span><span class="sxs-lookup"><span data-stu-id="6eb56-123">[How to: Send Documents by Email](ui-how-send-documents-email.md).</span></span> |
 
-## <a name="see-also"></a>Consulte también
-[Ventas](sales-manage-sales.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="6eb56-124">Consulte también</span><span class="sxs-lookup"><span data-stu-id="6eb56-124">See Also</span></span>
+[<span data-ttu-id="6eb56-125">Ventas</span><span class="sxs-lookup"><span data-stu-id="6eb56-125">Sales</span></span>](sales-manage-sales.md)  
+<span data-ttu-id="6eb56-126">[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="6eb56-126">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 

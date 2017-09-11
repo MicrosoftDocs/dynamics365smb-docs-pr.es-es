@@ -16,32 +16,31 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: ceb01999525139cabc7c31e2304f738dcc9267f8
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="setting-up-or-changing-the-chart-of-accounts"></a>Configurar o cambiar el plan de cuentas
-El plan de cuentas muestra las cuentas de contabilidad que almacenan sus datos financieros. [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] incluye un gráfico estándar de cuentas que está preparado para respaldar su negocio.
-Sin embargo, puede cambiar las cuentas predeterminadas y puede agregar nuevas cuentas.  
+# <a name="setting-up-or-changing-the-chart-of-accounts"></a><span data-ttu-id="487f0-103">Configurar o cambiar el plan de cuentas</span><span class="sxs-lookup"><span data-stu-id="487f0-103">Setting Up or Changing the Chart of Accounts</span></span>
+<span data-ttu-id="487f0-104">El plan de cuentas muestra las cuentas de contabilidad que almacenan sus datos financieros.</span><span class="sxs-lookup"><span data-stu-id="487f0-104">The chart of accounts shows the ledger accounts that store your financial data.</span></span> [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]<span data-ttu-id="487f0-105"> incluye un gráfico estándar de cuentas que está preparado para respaldar su negocio.</span><span class="sxs-lookup"><span data-stu-id="487f0-105"> includes a standard chart of accounts that is ready to support your business.</span></span>
+<span data-ttu-id="487f0-106">Sin embargo, puede cambiar las cuentas predeterminadas y puede agregar nuevas cuentas.</span><span class="sxs-lookup"><span data-stu-id="487f0-106">However, you can change the default accounts, and you can add new accounts.</span></span>  
 
-## <a name="adding-or-changing-accounts"></a>Agregar o cambiar cuentas
-Desde el plan de cuentas, puede abrir cada cuenta de contabilidad y agregar o cambiar la configuración.
+## <a name="adding-or-changing-accounts"></a><span data-ttu-id="487f0-107">Agregar o cambiar cuentas</span><span class="sxs-lookup"><span data-stu-id="487f0-107">Adding or Changing Accounts</span></span>
+<span data-ttu-id="487f0-108">Desde el plan de cuentas, puede abrir cada cuenta de contabilidad y agregar o cambiar la configuración.</span><span class="sxs-lookup"><span data-stu-id="487f0-108">From the chart of accounts, you can open each G/L account and add or change settings.</span></span>
 
 > [!NOTE]  
->   Puede eliminar una cuenta contable. Sin embargo, antes de eliminarla, deben cumplirse las condiciones siguientes:  
+>   <span data-ttu-id="487f0-109">Puede eliminar una cuenta contable.</span><span class="sxs-lookup"><span data-stu-id="487f0-109">You can delete a general ledger account.</span></span> <span data-ttu-id="487f0-110">Sin embargo, antes de eliminarla, deben cumplirse las condiciones siguientes:</span><span class="sxs-lookup"><span data-stu-id="487f0-110">However, before you delete it, the following must be true:</span></span>  
 
-* El saldo de la cuenta debe ser cero.  
-* El campo **Permite borrar ctas. anteriores a** se debe configurar en la ventana **Configuración de contabilidad** y la cuenta no debe tener movimientos contables en o después de esa fecha.  
-* Si se selecciona el campo **Chequear uso ctas. cont.** en la ventana **Configuración de contabilidad**, la cuenta no se debe usar en grupos contables ni en la configuración de grupos contables.  
+* <span data-ttu-id="487f0-111">El saldo de la cuenta debe ser cero.</span><span class="sxs-lookup"><span data-stu-id="487f0-111">The balance on the account must be zero.</span></span>  
+* <span data-ttu-id="487f0-112">El campo **Permite borrar ctas. anteriores a** se debe configurar en la ventana **Configuración de contabilidad** y la cuenta no debe tener movimientos contables en o después de esa fecha.</span><span class="sxs-lookup"><span data-stu-id="487f0-112">The **Allow G/L Acc. Deletion Before** field must be set in the **General Ledger Setup** window, and the account must not have ledger entries on or after that date.</span></span>  
+* <span data-ttu-id="487f0-113">Si se selecciona el campo **Chequear uso ctas. cont.** en la ventana **Configuración de contabilidad**, la cuenta no se debe usar en grupos contables ni en la configuración de grupos contables.</span><span class="sxs-lookup"><span data-stu-id="487f0-113">If the **Check G/L Account Usage** field in the **General Ledger Setup** window is selected, then the account must not be used in any posting groups or posting setup.</span></span>  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] impedirá que elimine una cuenta de contabilidad que guarde los datos que se necesitan en el plan de cuentas.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="487f0-114"> impedirá que elimine una cuenta de contabilidad que guarde los datos que se necesitan en el plan de cuentas.</span><span class="sxs-lookup"><span data-stu-id="487f0-114"> will prevent you from deleting a general ledger account that stores data that is needed in the chart of accounts.</span></span>  
 
-## <a name="see-also"></a>Consulte también
-[Libro mayor y plan de cuentas](finance-general-ledger.md)  
-[Administrar cuentas bancarias](bank-manage-bank-accounts.md)  
-[Trabajar con dimensiones](finance-dimensions.md)  
-[Importar desde otros sistemas financieros](upload-data.md)  
-[Trabajar con los códigos GIFI en Canadá](ca-finance-work-gifi-codes.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+## <a name="see-also"></a><span data-ttu-id="487f0-115">Consulte también</span><span class="sxs-lookup"><span data-stu-id="487f0-115">See Also</span></span>
+[<span data-ttu-id="487f0-116">Libro mayor y plan de cuentas</span><span class="sxs-lookup"><span data-stu-id="487f0-116">The General Ledger and the Chart of Accounts</span></span>](finance-general-ledger.md)  
+[<span data-ttu-id="487f0-117">Administrar cuentas bancarias</span><span class="sxs-lookup"><span data-stu-id="487f0-117">Managing Bank Accounts</span></span>](bank-manage-bank-accounts.md)  
+[<span data-ttu-id="487f0-118">Trabajar con dimensiones</span><span class="sxs-lookup"><span data-stu-id="487f0-118">Working with Dimensions</span></span>](finance-dimensions.md)  
+[<span data-ttu-id="487f0-119">Importar desde otros sistemas financieros</span><span class="sxs-lookup"><span data-stu-id="487f0-119">Importing from Other Finance Systems</span></span>](upload-data.md)  
+[<span data-ttu-id="487f0-120">Trabajar con los códigos GIFI en Canadá</span><span class="sxs-lookup"><span data-stu-id="487f0-120">How to: Work With GIFI Codes in Canada</span></span>](ca-finance-work-gifi-codes.md)  
+<span data-ttu-id="487f0-121">[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="487f0-121">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

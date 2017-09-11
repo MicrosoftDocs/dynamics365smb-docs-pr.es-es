@@ -16,147 +16,147 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 9d67198e172b82c20c9d998854a819e39ae523ff
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/11/2017
 
 
 ---
-# <a name="how-to-use-time-sheets-for-jobs"></a>Uso de hojas de horas para proyectos
-El proceso **Crear hojas de horas** se usa para configurar hojas de horas de un número determinado de periodos o semanas. Debe disponer de permisos para poder crear las hojas de horas.
+# <a name="how-to-use-time-sheets-for-jobs"></a><span data-ttu-id="6681f-103">Uso de hojas de horas para proyectos</span><span class="sxs-lookup"><span data-stu-id="6681f-103">How to: Use Time Sheets for Jobs</span></span>
+<span data-ttu-id="6681f-104">El proceso **Crear hojas de horas** se usa para configurar hojas de horas de un número determinado de periodos o semanas.</span><span class="sxs-lookup"><span data-stu-id="6681f-104">You use the **Create Time Sheets** batch job to set up time sheets for a specified number of time periods or weeks.</span></span> <span data-ttu-id="6681f-105">Debe disponer de permisos para poder crear las hojas de horas.</span><span class="sxs-lookup"><span data-stu-id="6681f-105">You must have permissions to be able to create time sheets.</span></span>
 
-Puede copiar y usar sus líneas de planificación de proyecto en una hoja de horas. De esa forma, solo debe especificar la información en un lugar para que la información de la línea siempre sea correcta.
+<span data-ttu-id="6681f-106">Puede copiar y usar sus líneas de planificación de proyecto en una hoja de horas.</span><span class="sxs-lookup"><span data-stu-id="6681f-106">You can copy and use your job planning lines in a time sheet.</span></span> <span data-ttu-id="6681f-107">De esa forma, solo debe especificar la información en un lugar para que la información de la línea siempre sea correcta.</span><span class="sxs-lookup"><span data-stu-id="6681f-107">In that way, you must only enter the information in one place and the line information is always correct.</span></span>
 
-Una vez aprobados los movimientos de la hoja de horas de un proyecto, puede registrarlos en el diario de proyectos o de recursos correspondiente.
+<span data-ttu-id="6681f-108">Una vez aprobados los movimientos de la hoja de horas de un proyecto, puede registrarlos en el diario de proyectos o de recursos correspondiente.</span><span class="sxs-lookup"><span data-stu-id="6681f-108">After you have approved time sheet entries for a job, you can post them to the relevant job journal or resource journal.</span></span>
 
-Para poder utilizar las hojas de horas, debe configurar la información general y especificar un administrador y uno o varios aprobadores de hojas de horas. Para obtener más información, vea [Configuración de hojas de horas](projects-how-setup-time-sheets.md).
-
-> [!NOTE]  
->   Esta funcionalidad requiere que la experiencia esté definida en **Conjunto de aplicaciones**. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
-
-## <a name="to-create-a-time-sheet"></a>Para crear una hoja de horas
-Puede usar el proceso **Crear hojas de horas** para configurar hojas de horas de un número determinado de periodos o semanas. Después, el propietario de la hoja de horas puede abrirla y registrar el tiempo dedicado en una tarea.
-
-1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Hojas de horas** y, a continuación, seleccione el vínculo relacionado.
-2. En la ventana **Lista de hojas de horas**, seleccione la acción **Crear hojas de horas**.
-3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+<span data-ttu-id="6681f-109">Para poder utilizar las hojas de horas, debe configurar la información general y especificar un administrador y uno o varios aprobadores de hojas de horas.</span><span class="sxs-lookup"><span data-stu-id="6681f-109">Before you can use time sheets, you must set up general information and specify an administrator and one or more approvers of time sheets.</span></span> <span data-ttu-id="6681f-110">Para obtener más información, vea [Configuración de hojas de horas](projects-how-setup-time-sheets.md).</span><span class="sxs-lookup"><span data-stu-id="6681f-110">For more information, see [How to: Set Up Time Sheets](projects-how-setup-time-sheets.md).</span></span>
 
 > [!NOTE]  
->   Los campos **Usar hoja horas** e **Id. usuario prop. hoja horas** deben completarse en la ficha del recurso de la hoja de horas.
+>   <span data-ttu-id="6681f-111">Esta funcionalidad requiere que la experiencia esté definida en **Conjunto de aplicaciones**.</span><span class="sxs-lookup"><span data-stu-id="6681f-111">This functionality requires that your experience is set to **Suite**.</span></span> <span data-ttu-id="6681f-112">Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).</span><span class="sxs-lookup"><span data-stu-id="6681f-112">For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).</span></span>
 
-1. Elija el botón **Aceptar**.  
+## <a name="to-create-a-time-sheet"></a><span data-ttu-id="6681f-113">Para crear una hoja de horas</span><span class="sxs-lookup"><span data-stu-id="6681f-113">To create a time sheet</span></span>
+<span data-ttu-id="6681f-114">Puede usar el proceso **Crear hojas de horas** para configurar hojas de horas de un número determinado de periodos o semanas.</span><span class="sxs-lookup"><span data-stu-id="6681f-114">You can use the **Create Time Sheets** batch job to set up time sheets for a specified number of time periods or weeks.</span></span> <span data-ttu-id="6681f-115">Después, el propietario de la hoja de horas puede abrirla y registrar el tiempo dedicado en una tarea.</span><span class="sxs-lookup"><span data-stu-id="6681f-115">Then, the time sheet owner can open it and record time that has been spent on a task.</span></span>
 
-Puede ver las hojas de horas creadas en la ventana **Lista de hojas de horas**.
+1. <span data-ttu-id="6681f-116">Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Hojas de horas** y, a continuación, seleccione el vínculo relacionado.</span><span class="sxs-lookup"><span data-stu-id="6681f-116">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Time Sheets**, and then choose the related link.</span></span>
+2. <span data-ttu-id="6681f-117">En la ventana **Lista de hojas de horas**, seleccione la acción **Crear hojas de horas**.</span><span class="sxs-lookup"><span data-stu-id="6681f-117">In the **Time Sheet List** window, choose the **Create Time Sheets** action.</span></span>
+3. <span data-ttu-id="6681f-118">Rellene los campos según sea necesario.</span><span class="sxs-lookup"><span data-stu-id="6681f-118">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-copy-job-planning-lines-to-a-time-sheet"></a>Para copiar líneas de planificación del proyecto en una hoja de horas
-El procedimiento siguiente describe cómo agregar rápidamente líneas de planificación del proyecto a una hoja de horas.
+> [!NOTE]  
+>   <span data-ttu-id="6681f-119">Los campos **Usar hoja horas** e **Id. usuario prop. hoja horas** deben completarse en la ficha del recurso de la hoja de horas.</span><span class="sxs-lookup"><span data-stu-id="6681f-119">The **Use Time Sheet** and **Time Sheet Owner User ID** fields must be filled in on the card for the resource of the time sheet.</span></span>
 
-1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Hojas de horas** y, a continuación, seleccione el vínculo relacionado.  
-2. En la ventana **Lista de hojas de horas**, seleccione una hoja de horas del periodo de tiempo correspondiente y, a continuación, elija la acción **Editar hoja de horas**.  
-3. Elija la acción **Crear líneas de planificación de proyecto**. Cualquier línea de planificación de proyecto del periodo de tiempo de la hoja de horas se copia en la hoja de horas de la persona o equipo en el campo **N.º recurso** en la hoja de horas.
+1. <span data-ttu-id="6681f-120">Elija el botón **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="6681f-120">Choose the **OK** button.</span></span>  
 
-## <a name="to-define-work-types-and-add-one-to-a-time-sheet"></a>Para definir los tipos de trabajo y agregar uno a una hoja de horas
-Puede definir el tipo de trabajo de todas las líneas de la hoja de horas para los proyectos. De esta forma, puede agregar información que necesite para facturar al cliente distintos tipos de trabajo.
+<span data-ttu-id="6681f-121">Puede ver las hojas de horas creadas en la ventana **Lista de hojas de horas**.</span><span class="sxs-lookup"><span data-stu-id="6681f-121">You can view the time sheets that you have created in the **Time Sheet list** window.</span></span>
 
-1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Hojas de horas** y, a continuación, seleccione el vínculo relacionado.   
-2. Abra la hoja de horas relevante.
-3. Elija el campo **Descripción**.  
-4. En la ventana **Detalle proyecto línea hoja de horas**, elija el campo **Cód. tipo trabajo** y seleccione un tipo de trabajo en la lista, como **Millas**.  
-5. Si hay ningún tipos de trabajo, elija la acción **Nuevo**.
-6. En la ventana **Tipos de trabajo**, rellene los campos según sea necesario.
-7. Repita el paso 4 para asignar el nuevo tipo de trabajo a la hoja de horas.
+## <a name="to-copy-job-planning-lines-to-a-time-sheet"></a><span data-ttu-id="6681f-122">Para copiar líneas de planificación del proyecto en una hoja de horas</span><span class="sxs-lookup"><span data-stu-id="6681f-122">To copy job planning lines to a time sheet</span></span>
+<span data-ttu-id="6681f-123">El procedimiento siguiente describe cómo agregar rápidamente líneas de planificación del proyecto a una hoja de horas.</span><span class="sxs-lookup"><span data-stu-id="6681f-123">The following procedure describes how to quickly add job planning lines to a time sheet.</span></span>
 
-## <a name="to-reuse-time-sheet-lines-in-other-time-sheets"></a>Para volver a utilizar las líneas de la hoja de horas en otras hojas de horas
-Si la información de la hoja de horas no cambia con el tiempo, puede ahorrar tiempo copiando las líneas del periodo anterior. A continuación, solo especifique el uso del tiempo para el nuevo periodo.
+1. <span data-ttu-id="6681f-124">Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Hojas de horas** y, a continuación, seleccione el vínculo relacionado.</span><span class="sxs-lookup"><span data-stu-id="6681f-124">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Time Sheets**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="6681f-125">En la ventana **Lista de hojas de horas**, seleccione una hoja de horas del periodo de tiempo correspondiente y, a continuación, elija la acción **Editar hoja de horas**.</span><span class="sxs-lookup"><span data-stu-id="6681f-125">In the **Time Sheet List** window, select a time sheet for the relevant time period, and then choose the **Edit Time Sheet** action.</span></span>  
+3. <span data-ttu-id="6681f-126">Elija la acción **Crear líneas de planificación de proyecto**.</span><span class="sxs-lookup"><span data-stu-id="6681f-126">Choose the **Create lines from job planning** action.</span></span> <span data-ttu-id="6681f-127">Cualquier línea de planificación de proyecto del periodo de tiempo de la hoja de horas se copia en la hoja de horas de la persona o equipo en el campo **N.º recurso**</span><span class="sxs-lookup"><span data-stu-id="6681f-127">Any job planning lines in the time sheet time period are copied to the time sheet for the person or machine in the **Resource No.**</span></span> <span data-ttu-id="6681f-128">en la hoja de horas.</span><span class="sxs-lookup"><span data-stu-id="6681f-128">field on the time sheet.</span></span>
 
-1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Hojas de horas** y, a continuación, seleccione el vínculo relacionado.  
-2. Abra la hoja de horas de un periodo posterior al periodo de una hoja de horas existente con las líneas.  
-3. Elija la acción **Copiar líneas desde hoja de horas anterior**.
+## <a name="to-define-work-types-and-add-one-to-a-time-sheet"></a><span data-ttu-id="6681f-129">Para definir los tipos de trabajo y agregar uno a una hoja de horas</span><span class="sxs-lookup"><span data-stu-id="6681f-129">To define work types and add one to a time sheet</span></span>
+<span data-ttu-id="6681f-130">Puede definir el tipo de trabajo de todas las líneas de la hoja de horas para los proyectos.</span><span class="sxs-lookup"><span data-stu-id="6681f-130">You can define the work type for all time sheet lines for jobs.</span></span> <span data-ttu-id="6681f-131">De esta forma, puede agregar información que necesite para facturar al cliente distintos tipos de trabajo.</span><span class="sxs-lookup"><span data-stu-id="6681f-131">In this way, you can add information that you need to bill the customer for different types of work.</span></span>
 
-Las líneas se copiarán, incluidos los detalles como el tipo y la descripción. Por ejemplo, si la línea está relacionada con un proyecto, **Nº proyecto** es el campo que se copia. Todas las líneas copiadas tienen el estado **Abierto**. Ahora puede modificar las líneas según sea necesario.
+1. <span data-ttu-id="6681f-132">Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Hojas de horas** y, a continuación, seleccione el vínculo relacionado.</span><span class="sxs-lookup"><span data-stu-id="6681f-132">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Time Sheets**, and then choose the related link.</span></span>   
+2. <span data-ttu-id="6681f-133">Abra la hoja de horas relevante.</span><span class="sxs-lookup"><span data-stu-id="6681f-133">Open the relevant time sheet.</span></span>
+3. <span data-ttu-id="6681f-134">Elija el campo **Descripción**.</span><span class="sxs-lookup"><span data-stu-id="6681f-134">Choose the **Description** field.</span></span>  
+4. <span data-ttu-id="6681f-135">En la ventana **Detalle proyecto línea hoja de horas**, elija el campo **Cód. tipo trabajo** y seleccione un tipo de trabajo en la lista, como **Millas**.</span><span class="sxs-lookup"><span data-stu-id="6681f-135">In the **Time Sheet Line Job Detail** window, choose the **Work Type Code** field, and select a work type from the list, such as **Miles**.</span></span>  
+5. <span data-ttu-id="6681f-136">Si hay ningún tipos de trabajo, elija la acción **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="6681f-136">If no work types exist, chose the **New** action.</span></span>
+6. <span data-ttu-id="6681f-137">En la ventana **Tipos de trabajo**, rellene los campos según sea necesario.</span><span class="sxs-lookup"><span data-stu-id="6681f-137">In the **Work Types** window, fill in the fields as necessary.</span></span>
+7. <span data-ttu-id="6681f-138">Repita el paso 4 para asignar el nuevo tipo de trabajo a la hoja de horas.</span><span class="sxs-lookup"><span data-stu-id="6681f-138">Repeat step 4 to assign the new work type to the time sheet.</span></span>
 
-## <a name="to-fill-in-a-time-sheet-lines-and-submit-for-approval"></a>Para rellenar una línea de hoja de horas y enviarla para su aprobación
-El registro de la hoja de horas se hace en horas, la unidad de medida base estándar para los recursos. De forma predeterminada, una hoja de horas muestra los días de trabajo comunes de lunes a viernes.
+## <a name="to-reuse-time-sheet-lines-in-other-time-sheets"></a><span data-ttu-id="6681f-139">Para volver a utilizar las líneas de la hoja de horas en otras hojas de horas</span><span class="sxs-lookup"><span data-stu-id="6681f-139">To reuse time sheet lines in other time sheets</span></span>
+<span data-ttu-id="6681f-140">Si la información de la hoja de horas no cambia con el tiempo, puede ahorrar tiempo copiando las líneas del periodo anterior.</span><span class="sxs-lookup"><span data-stu-id="6681f-140">If your time sheet information remains the same from time period to time period, you can save time by copying the lines from the previous time period.</span></span> <span data-ttu-id="6681f-141">A continuación, solo especifique el uso del tiempo para el nuevo periodo.</span><span class="sxs-lookup"><span data-stu-id="6681f-141">Then, you just enter your time usage for the new period.</span></span>
 
-1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Hojas de horas** y, a continuación, seleccione el vínculo relacionado.  
-2. Seleccione una hoja de horas del periodo de tiempo correspondiente y, a continuación, elija la acción **Editar hoja de horas**.  
-3. Rellene los campos de una línea, que sean necesario. Introduzca el número de horas que ha usado el recurso cada día de la semana.
+1. <span data-ttu-id="6681f-142">Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Hojas de horas** y, a continuación, seleccione el vínculo relacionado.</span><span class="sxs-lookup"><span data-stu-id="6681f-142">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Time Sheets**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="6681f-143">Abra la hoja de horas de un periodo posterior al periodo de una hoja de horas existente con las líneas.</span><span class="sxs-lookup"><span data-stu-id="6681f-143">Open the time sheet for a period later than the period for an existing time sheet with lines.</span></span>  
+3. <span data-ttu-id="6681f-144">Elija la acción **Copiar líneas desde hoja de horas anterior**.</span><span class="sxs-lookup"><span data-stu-id="6681f-144">Choose the **Copy Lines from Previous Time Sheet** action.</span></span>
+
+<span data-ttu-id="6681f-145">Las líneas se copiarán, incluidos los detalles como el tipo y la descripción.</span><span class="sxs-lookup"><span data-stu-id="6681f-145">The lines are copied, including details such as type and description.</span></span> <span data-ttu-id="6681f-146">Por ejemplo, si la línea está relacionada con un proyecto, **Nº proyecto**</span><span class="sxs-lookup"><span data-stu-id="6681f-146">For example, if the line is related to a job, the **Job No.**</span></span> <span data-ttu-id="6681f-147">es el campo que se copia.</span><span class="sxs-lookup"><span data-stu-id="6681f-147">is copied.</span></span> <span data-ttu-id="6681f-148">Todas las líneas copiadas tienen el estado **Abierto**.</span><span class="sxs-lookup"><span data-stu-id="6681f-148">All copied lines have the status **Open**.</span></span> <span data-ttu-id="6681f-149">Ahora puede modificar las líneas según sea necesario.</span><span class="sxs-lookup"><span data-stu-id="6681f-149">You can now modify the lines as needed.</span></span>
+
+## <a name="to-fill-in-a-time-sheet-lines-and-submit-for-approval"></a><span data-ttu-id="6681f-150">Para rellenar una línea de hoja de horas y enviarla para su aprobación</span><span class="sxs-lookup"><span data-stu-id="6681f-150">To fill in a time sheet lines and submit for approval</span></span>
+<span data-ttu-id="6681f-151">El registro de la hoja de horas se hace en horas, la unidad de medida base estándar para los recursos.</span><span class="sxs-lookup"><span data-stu-id="6681f-151">Time sheet registration is tracked in hours, the standard base unit of measure for resources.</span></span> <span data-ttu-id="6681f-152">De forma predeterminada, una hoja de horas muestra los días de trabajo comunes de lunes a viernes.</span><span class="sxs-lookup"><span data-stu-id="6681f-152">By default, a time sheet shows the common work days of Monday through Friday.</span></span>
+
+1. <span data-ttu-id="6681f-153">Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Hojas de horas** y, a continuación, seleccione el vínculo relacionado.</span><span class="sxs-lookup"><span data-stu-id="6681f-153">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Time Sheets**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="6681f-154">Seleccione una hoja de horas del periodo de tiempo correspondiente y, a continuación, elija la acción **Editar hoja de horas**.</span><span class="sxs-lookup"><span data-stu-id="6681f-154">Select a time sheet for the relevant time period, and then choose the **Edit Time Sheet** action.</span></span>  
+3. <span data-ttu-id="6681f-155">Rellene los campos de una línea, que sean necesario.</span><span class="sxs-lookup"><span data-stu-id="6681f-155">Fill in the fields on a line as necessary.</span></span> <span data-ttu-id="6681f-156">Introduzca el número de horas que ha usado el recurso cada día de la semana.</span><span class="sxs-lookup"><span data-stu-id="6681f-156">Enter the number of hours used by the resource on each day of the week.</span></span>
 
     > [!TIP]  
->   Puede revisar la suma de horas de la hoja de horas que ha introducido en el cuadro informativo **Resumen real/presupuestado**.  
-4. Repita el paso 3 para otros tipos de trabajo que realice el recurso.
-5. Elija la acción **Enviar** y, a continuación, elija la acción **Todas las líneas abiertas** para enviar todas las líneas o la acción **Solo líneas seleccionadas** para enviar únicamente las líneas que están seleccionadas en la ventana **Hoja de horas**.  
+>   <span data-ttu-id="6681f-157">Puede revisar la suma de horas de la hoja de horas que ha introducido en el cuadro informativo **Resumen real/presupuestado**.</span><span class="sxs-lookup"><span data-stu-id="6681f-157">You can review the sum of time sheet hours that you have entered in the **Actual/Budgeted Summary** FactBox.</span></span>  
+4. <span data-ttu-id="6681f-158">Repita el paso 3 para otros tipos de trabajo que realice el recurso.</span><span class="sxs-lookup"><span data-stu-id="6681f-158">Repeat step 3 for other work types that the resource performs.</span></span>
+5. <span data-ttu-id="6681f-159">Elija la acción **Enviar** y, a continuación, elija la acción **Todas las líneas abiertas** para enviar todas las líneas o la acción **Solo líneas seleccionadas** para enviar únicamente las líneas que están seleccionadas en la ventana **Hoja de horas**.</span><span class="sxs-lookup"><span data-stu-id="6681f-159">Choose the **Submit** action, and then choose the **All open lines** action to submit all lines or the **Selected lines only** action to submit only the lines that are selected in the **Time Sheet** window.</span></span>  
 
     > [!NOTE]  
->   Solo puede enviar las líneas de hoja de horas para las que haya especificado tiempo.  
-6. Para modificar la información de una línea que se ha definido como **Enviado**, seleccione la línea y, a continuación, elija la acción **Volver a abrir**.
+>   <span data-ttu-id="6681f-160">Solo puede enviar las líneas de hoja de horas para las que haya especificado tiempo.</span><span class="sxs-lookup"><span data-stu-id="6681f-160">You can only submit time sheet lines for which you have entered time.</span></span>  
+6. <span data-ttu-id="6681f-161">Para modificar la información de una línea que se ha definido como **Enviado**, seleccione la línea y, a continuación, elija la acción **Volver a abrir**.</span><span class="sxs-lookup"><span data-stu-id="6681f-161">To modify information on a line that has been set to **Submitted**, select the line, and then choose the **Reopen** action.</span></span>
 
     > [!NOTE]  
->   Un administrador puede rechazar una línea de hoja de horas que se ha enviado para su aprobación. Si una línea tiene el estado de **Impagado**, puede realizar los cambios en la línea y seleccionar **Enviar** de nuevo.  
-7. Elija el botón **Aceptar**.
+>   <span data-ttu-id="6681f-162">Un administrador puede rechazar una línea de hoja de horas que se ha enviado para su aprobación.</span><span class="sxs-lookup"><span data-stu-id="6681f-162">A manager may reject a time sheet line that is submitted for approval.</span></span> <span data-ttu-id="6681f-163">Si una línea tiene el estado de **Impagado**, puede realizar los cambios en la línea y seleccionar **Enviar** de nuevo.</span><span class="sxs-lookup"><span data-stu-id="6681f-163">If a line has a status of **Rejected**, you can make changes to the line, and then choose **Submit** again.</span></span>  
+7. <span data-ttu-id="6681f-164">Elija el botón **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="6681f-164">Choose the **OK** button.</span></span>
 
-## <a name="to-approve-or-reject-a-time-sheet"></a>Para aprobar o rechazar una hoja de horas
-Una hoja de horas debe haberse enviado para su aprobación para que se pueda usar. Puede aprobar y rechazar las líneas individuales en una hoja de horas o enviarlas de nuevo al emisor para una acción adicional. Una hoja de horas se puede aprobar de dos maneras:
+## <a name="to-approve-or-reject-a-time-sheet"></a><span data-ttu-id="6681f-165">Para aprobar o rechazar una hoja de horas</span><span class="sxs-lookup"><span data-stu-id="6681f-165">To approve or reject a time sheet</span></span>
+<span data-ttu-id="6681f-166">Una hoja de horas debe haberse enviado para su aprobación para que se pueda usar.</span><span class="sxs-lookup"><span data-stu-id="6681f-166">A time sheet must be submitted for approval before it can be used.</span></span> <span data-ttu-id="6681f-167">Puede aprobar y rechazar las líneas individuales en una hoja de horas o enviarlas de nuevo al emisor para una acción adicional.</span><span class="sxs-lookup"><span data-stu-id="6681f-167">You can approve and reject individual lines on a time sheet or send them back to the submitter for additional action.</span></span> <span data-ttu-id="6681f-168">Una hoja de horas se puede aprobar de dos maneras:</span><span class="sxs-lookup"><span data-stu-id="6681f-168">A time sheet can be approved in two ways:</span></span>
 
-* Un administrador de la hoja de horas puede aprobar en cualquier momento la hoja.
-* La persona que se especifica en el campo **Id. usuario aprob. hoja horas** en una ficha de recurso puede aprobar las hojas de horas de ese recurso. Para obtener más información, vea [Configuración de hojas de horas](projects-how-setup-time-sheets.md).
+* <span data-ttu-id="6681f-169">Un administrador de la hoja de horas puede aprobar en cualquier momento la hoja.</span><span class="sxs-lookup"><span data-stu-id="6681f-169">A time sheet administrator can approve any time sheet.</span></span>
+* <span data-ttu-id="6681f-170">La persona que se especifica en el campo **Id. usuario aprob. hoja horas** en una ficha de recurso puede aprobar las hojas de horas de ese recurso.</span><span class="sxs-lookup"><span data-stu-id="6681f-170">The person who is specified in the **Time Sheet Approver User ID** field on a resource card can approve that resource's time sheets.</span></span> <span data-ttu-id="6681f-171">Para obtener más información, vea [Configuración de hojas de horas](projects-how-setup-time-sheets.md).</span><span class="sxs-lookup"><span data-stu-id="6681f-171">For more information, see [How to: Set Up Time Sheets](projects-how-setup-time-sheets.md).</span></span>
 
-1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Hojas de horas del administrador** y, a continuación, seleccione el vínculo relacionado.
-2. Seleccione una hoja de horas de la lista.  
-3. En la ventana **Hoja de horas**, elija la acción **Aprobar** y, a continuación, **Todas las líneas enviadas** para aprobar todas las líneas o la acción **Solo líneas seleccionadas** para aprobar únicamente las líneas que están seleccionadas en la ventana **Hoja de horas**.
-4. Elija el botón **Aceptar**.  
-5. También puede elegir la acción **Rechazar** y seguir los pasos del 4 al 5.  
+1. <span data-ttu-id="6681f-172">Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Hojas de horas del administrador** y, a continuación, seleccione el vínculo relacionado.</span><span class="sxs-lookup"><span data-stu-id="6681f-172">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Manager Time Sheets**, and then choose the related link.</span></span>
+2. <span data-ttu-id="6681f-173">Seleccione una hoja de horas de la lista.</span><span class="sxs-lookup"><span data-stu-id="6681f-173">Select a time sheet from the list.</span></span>  
+3. <span data-ttu-id="6681f-174">En la ventana **Hoja de horas**, elija la acción **Aprobar** y, a continuación, **Todas las líneas enviadas** para aprobar todas las líneas o la acción **Solo líneas seleccionadas** para aprobar únicamente las líneas que están seleccionadas en la ventana **Hoja de horas**.</span><span class="sxs-lookup"><span data-stu-id="6681f-174">In the **Time Sheet** window, choose the **Approve** action, and then choose the **All submitted lines** action to approve all lines or the **Selected lines only** action to approve only the lines that are selected in the **Time Sheet** window.</span></span>
+4. <span data-ttu-id="6681f-175">Elija el botón **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="6681f-175">Choose the **OK** button.</span></span>  
+5. <span data-ttu-id="6681f-176">También puede elegir la acción **Rechazar** y seguir los pasos del 4 al 5.</span><span class="sxs-lookup"><span data-stu-id="6681f-176">Alternatively, choose the **Reject** action and follow steps 4 through 5.</span></span>  
 
 > [!TIP]  
->   Utilice los cuadros informativos **Estado de hoja de horas** y **Resumen real/presupuestado** para obtener un resumen de la información de la hoja de horas.
+>   <span data-ttu-id="6681f-177">Utilice los cuadros informativos **Estado de hoja de horas** y **Resumen real/presupuestado** para obtener un resumen de la información de la hoja de horas.</span><span class="sxs-lookup"><span data-stu-id="6681f-177">Use the **Time Sheet Status** and **Actual/Budgeted Summary** FactBoxes to get an overview of time sheet information.</span></span>
 
-Una vez aprobada o rechazada una hoja de horas, no se podrá modificar hasta que no se vuelva a abrir. En el procedimiento siguiente se explica cómo volver a abrir una hoja de horas aprobada o rechazada.
+<span data-ttu-id="6681f-178">Una vez aprobada o rechazada una hoja de horas, no se podrá modificar hasta que no se vuelva a abrir.</span><span class="sxs-lookup"><span data-stu-id="6681f-178">After you have approved or rejected a time sheet, it cannot be modified unless it is first reopened.</span></span> <span data-ttu-id="6681f-179">En el procedimiento siguiente se explica cómo volver a abrir una hoja de horas aprobada o rechazada.</span><span class="sxs-lookup"><span data-stu-id="6681f-179">The following procedure explains how to reopen an approved or rejected time sheet.</span></span>
 
-## <a name="to-reopen-a-time-sheet"></a>Para reabrir una hoja de horas
-1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Hojas de horas del administrador** u **Hojas de horas** y, a continuación, seleccione el vínculo relacionado.
-2. Abra una hoja de horas de la lista.  
-
-    > [!NOTE]  
->   Puede volver a abrir sólo las líneas con el estado **Aprobado**. No puede volver a abrir solo las líneas con el estado **Impagado**. No puede volver a abrir una hoja de horas si ya se ha registrado.  
-3. En la ventana **Hoja de horas**, elija la acción **Volver** y, a continuación, **Todas las líneas enviadas** para volver a abrir todas las líneas o la acción **Solo líneas seleccionadas** para volver a abrir únicamente las líneas que están seleccionadas en la ventana **Hoja de horas**.
-4. Elija el botón **Aceptar**. El estado de las líneas de la hoja de horas cambia a **Enviado**.  
-
-## <a name="to-post-time-sheet-lines-in-a-resource-journal"></a>Para registrar las líneas de hoja de horas en un diario de recursos
-Una vez aprobados los movimientos de la hoja de horas de un recurso, puede registrarlas en el diario de recursos correspondiente.
-
-1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), especifique **Diario recurso** y elija el vínculo relacionado.  
-2. Elija la acción **Sugerir líneas de hojas de horas**.  
-3. Rellene los campos según sea necesario.  
-4. Elija el botón **Aceptar**. Los movimientos de uso se crean en el diario de recursos, donde puede modificar la información según sea necesario.  
-5. Seleccione la acción **Registrar**.  
-6. Para comprobar el registro, elija la acción **Movimientos**. Se abre la ventana **Movs. recursos**, en la que muestra el resultado del registro del diario de recursos.
-
-## <a name="to-post-time-sheet-lines-in-a-job-journal"></a>Para registrar las líneas de hoja de horas en un diario de proyectos
-Una vez aprobados los movimientos de la hoja de horas de un proyecto, puede registrarlas en el diario de proyecto correspondiente.
-
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diario proyecto** y, a continuación, seleccione el vínculo relacionado.  
-2. Elija la acción **Sugerir líneas de hojas de horas**.  
-3. Rellene los campos según sea necesario.  
-4. Elija el botón **Aceptar**. Los movimientos de uso se crean en el diario de proyectos, donde puede modificar la información según sea necesario.  
+## <a name="to-reopen-a-time-sheet"></a><span data-ttu-id="6681f-180">Para reabrir una hoja de horas</span><span class="sxs-lookup"><span data-stu-id="6681f-180">To reopen a time sheet</span></span>
+1. <span data-ttu-id="6681f-181">Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Hojas de horas del administrador** u **Hojas de horas** y, a continuación, seleccione el vínculo relacionado.</span><span class="sxs-lookup"><span data-stu-id="6681f-181">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Manager Time Sheets** or **Time Sheets**, and then choose the related link.</span></span>
+2. <span data-ttu-id="6681f-182">Abra una hoja de horas de la lista.</span><span class="sxs-lookup"><span data-stu-id="6681f-182">Open a time sheet from the list.</span></span>  
 
     > [!NOTE]  
->   La información acerca del tipo de trabajo y si el trabajo es facturable debe copiarse de la línea de la hoja de horas. Si es necesario, puede reducir la cantidad de horas cuenta y hacer un registro parcial. Si se reduce la cantidad, la próxima vez que elija la acción **Sugerir líneas de hojas de horas**, la línea creada contendrá la cantidad pendiente de horas.  
-5. Seleccione la acción **Registrar**.  
-6. Para comprobar el registro, elija la acción **Movimientos**. Se abre la ventana **Movs. proyectos**, en la que muestra el resultado del registro del diario de recursos.
+>   <span data-ttu-id="6681f-183">Puede volver a abrir sólo las líneas con el estado **Aprobado**.</span><span class="sxs-lookup"><span data-stu-id="6681f-183">You can only reopen lines that have the status **Approved**.</span></span> <span data-ttu-id="6681f-184">No puede volver a abrir solo las líneas con el estado **Impagado**.</span><span class="sxs-lookup"><span data-stu-id="6681f-184">You cannot reopen lines that have the status **Rejected**.</span></span> <span data-ttu-id="6681f-185">No puede volver a abrir una hoja de horas si ya se ha registrado.</span><span class="sxs-lookup"><span data-stu-id="6681f-185">You cannot reopen a time sheet if it has been posted.</span></span>  
+3. <span data-ttu-id="6681f-186">En la ventana **Hoja de horas**, elija la acción **Volver** y, a continuación, **Todas las líneas enviadas** para volver a abrir todas las líneas o la acción **Solo líneas seleccionadas** para volver a abrir únicamente las líneas que están seleccionadas en la ventana **Hoja de horas**.</span><span class="sxs-lookup"><span data-stu-id="6681f-186">In the **Time Sheet** window, choose the **Reopen** action, and then choose the **All submitted lines** action to reopen all lines or the **Selected lines only** action to reopen only the lines that are selected in the **Time Sheet** window.</span></span>
+4. <span data-ttu-id="6681f-187">Elija el botón **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="6681f-187">Choose the **OK** button.</span></span> <span data-ttu-id="6681f-188">El estado de las líneas de la hoja de horas cambia a **Enviado**.</span><span class="sxs-lookup"><span data-stu-id="6681f-188">The status of the time sheets line or lines is changes to **Submitted**.</span></span>  
 
-## <a name="to-archive-time-sheets"></a>Para archivar las hojas de horas
-Después de registrar las hojas de horas, puede archivarlas para referencia futura. Para que una hoja de horas se pueda archivar, se deben registrar todas las líneas de hoja de horas.
+## <a name="to-post-time-sheet-lines-in-a-resource-journal"></a><span data-ttu-id="6681f-189">Para registrar las líneas de hoja de horas en un diario de recursos</span><span class="sxs-lookup"><span data-stu-id="6681f-189">To post time sheet lines in a resource journal</span></span>
+<span data-ttu-id="6681f-190">Una vez aprobados los movimientos de la hoja de horas de un recurso, puede registrarlas en el diario de recursos correspondiente.</span><span class="sxs-lookup"><span data-stu-id="6681f-190">After you have approved time sheet entries for a resource, you can post them to the relevant resource journal.</span></span>
+
+1. <span data-ttu-id="6681f-191">Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), especifique **Diario recurso** y elija el vínculo relacionado.</span><span class="sxs-lookup"><span data-stu-id="6681f-191">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Resource Journal**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="6681f-192">Elija la acción **Sugerir líneas de hojas de horas**.</span><span class="sxs-lookup"><span data-stu-id="6681f-192">Choose the **Suggest Lines from Time Sheets** action.</span></span>  
+3. <span data-ttu-id="6681f-193">Rellene los campos según sea necesario.</span><span class="sxs-lookup"><span data-stu-id="6681f-193">Fill in the fields as necessary.</span></span>  
+4. <span data-ttu-id="6681f-194">Elija el botón **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="6681f-194">Choose the **OK** button.</span></span> <span data-ttu-id="6681f-195">Los movimientos de uso se crean en el diario de recursos, donde puede modificar la información según sea necesario.</span><span class="sxs-lookup"><span data-stu-id="6681f-195">Entries for usage are created in the resource journal, where you can modify the information as needed.</span></span>  
+5. <span data-ttu-id="6681f-196">Seleccione la acción **Registrar**.</span><span class="sxs-lookup"><span data-stu-id="6681f-196">Choose the **Post** action.</span></span>  
+6. <span data-ttu-id="6681f-197">Para comprobar el registro, elija la acción **Movimientos**.</span><span class="sxs-lookup"><span data-stu-id="6681f-197">To verify the posting, choose the **Ledger Entries** action.</span></span> <span data-ttu-id="6681f-198">Se abre la ventana **Movs. recursos**, en la que muestra el resultado del registro del diario de recursos.</span><span class="sxs-lookup"><span data-stu-id="6681f-198">The **Resource Ledger Entries** window opens showing the result of posting the resource journal.</span></span>
+
+## <a name="to-post-time-sheet-lines-in-a-job-journal"></a><span data-ttu-id="6681f-199">Para registrar las líneas de hoja de horas en un diario de proyectos</span><span class="sxs-lookup"><span data-stu-id="6681f-199">To post time sheet lines in a job journal</span></span>
+<span data-ttu-id="6681f-200">Una vez aprobados los movimientos de la hoja de horas de un proyecto, puede registrarlas en el diario de proyecto correspondiente.</span><span class="sxs-lookup"><span data-stu-id="6681f-200">After you have approved time sheet entries for a job, you can post them to the relevant job journal.</span></span>
+
+1. <span data-ttu-id="6681f-201">Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diario proyecto** y, a continuación, seleccione el vínculo relacionado.</span><span class="sxs-lookup"><span data-stu-id="6681f-201">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Journal**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="6681f-202">Elija la acción **Sugerir líneas de hojas de horas**.</span><span class="sxs-lookup"><span data-stu-id="6681f-202">Choose the **Suggest Lines from Time Sheets** action.</span></span>  
+3. <span data-ttu-id="6681f-203">Rellene los campos según sea necesario.</span><span class="sxs-lookup"><span data-stu-id="6681f-203">Fill in the fields as necessary.</span></span>  
+4. <span data-ttu-id="6681f-204">Elija el botón **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="6681f-204">Choose the **OK** button.</span></span> <span data-ttu-id="6681f-205">Los movimientos de uso se crean en el diario de proyectos, donde puede modificar la información según sea necesario.</span><span class="sxs-lookup"><span data-stu-id="6681f-205">Entries for usage are created in the job journal, where you can modify the information as needed.</span></span>  
+
+    > [!NOTE]  
+>   <span data-ttu-id="6681f-206">La información acerca del tipo de trabajo y si el trabajo es facturable debe copiarse de la línea de la hoja de horas.</span><span class="sxs-lookup"><span data-stu-id="6681f-206">Information about work type and whether the work is chargeable is copied from the time sheet line.</span></span> <span data-ttu-id="6681f-207">Si es necesario, puede reducir la cantidad de horas cuenta y hacer un registro parcial.</span><span class="sxs-lookup"><span data-stu-id="6681f-207">If needed, you can reduce the quantity of hours and do a partial posting.</span></span> <span data-ttu-id="6681f-208">Si se reduce la cantidad, la próxima vez que elija la acción **Sugerir líneas de hojas de horas**, la línea creada contendrá la cantidad pendiente de horas.</span><span class="sxs-lookup"><span data-stu-id="6681f-208">If you reduce the quantity, then the next time that you choose the **Suggest Lines From Time Sheets** action, the line that is created will contain the remaining quantity of hours.</span></span>  
+5. <span data-ttu-id="6681f-209">Seleccione la acción **Registrar**.</span><span class="sxs-lookup"><span data-stu-id="6681f-209">Choose the **Post** action.</span></span>  
+6. <span data-ttu-id="6681f-210">Para comprobar el registro, elija la acción **Movimientos**.</span><span class="sxs-lookup"><span data-stu-id="6681f-210">To verify the posting, choose the **Ledger Entries** action.</span></span> <span data-ttu-id="6681f-211">Se abre la ventana **Movs. proyectos**, en la que muestra el resultado del registro del diario de recursos.</span><span class="sxs-lookup"><span data-stu-id="6681f-211">The **Job Ledger Entries** window opens showing the result of posting the resource journal.</span></span>
+
+## <a name="to-archive-time-sheets"></a><span data-ttu-id="6681f-212">Para archivar las hojas de horas</span><span class="sxs-lookup"><span data-stu-id="6681f-212">To archive time sheets</span></span>
+<span data-ttu-id="6681f-213">Después de registrar las hojas de horas, puede archivarlas para referencia futura.</span><span class="sxs-lookup"><span data-stu-id="6681f-213">After you have posted time sheets, you can archive them for future reference.</span></span> <span data-ttu-id="6681f-214">Para que una hoja de horas se pueda archivar, se deben registrar todas las líneas de hoja de horas.</span><span class="sxs-lookup"><span data-stu-id="6681f-214">All time sheets lines must be posted before a time sheet can be archived.</span></span>
 
 > [!NOTE]  
->   Cuando se archiva una hoja de horas, se elimina de las listas de las ventanas **Hojas de horas** y **Hojas de horas del administrador**.
+>   <span data-ttu-id="6681f-215">Cuando se archiva una hoja de horas, se elimina de las listas de las ventanas **Hojas de horas** y **Hojas de horas del administrador**.</span><span class="sxs-lookup"><span data-stu-id="6681f-215">When you archive a time sheet, it is removed from the lists in both the **Time Sheets** window and the **Manager Time Sheets** window.</span></span>
 
-1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Mover hojas de horas a archivo** y, a continuación, seleccione el vínculo relacionado.  
-2. Rellene los campos según sea necesario y, a continuación, haga clic en el botón **Aceptar**.  
-3. Para revisar las hojas de horas archivadas, en la esquina superior derecha, seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Archivos de hoja de horas** o **Archivos de hoja de horas del administrador** y, a continuación, seleccione el vínculo relacionado.
+1. <span data-ttu-id="6681f-216">Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Mover hojas de horas a archivo** y, a continuación, seleccione el vínculo relacionado.</span><span class="sxs-lookup"><span data-stu-id="6681f-216">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Move Time Sheets to Archive**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="6681f-217">Rellene los campos según sea necesario y, a continuación, haga clic en el botón **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="6681f-217">Fill in the fields as necessary, and then choose the **OK** button.</span></span>  
+3. <span data-ttu-id="6681f-218">Para revisar las hojas de horas archivadas, en la esquina superior derecha, seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Archivos de hoja de horas** o **Archivos de hoja de horas del administrador** y, a continuación, seleccione el vínculo relacionado.</span><span class="sxs-lookup"><span data-stu-id="6681f-218">To review archived time sheets, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Time Sheet Archives** or **Manager Time Sheet Archives**, and then choose the related link.</span></span>
 
-## <a name="see-also"></a>Consulte también
-[Administración de proyectos](projects-manage-projects.md)  
-[Configurar la administración de proyectos](projects-setup-projects.md)    
-[Finanzas](finance.md)  
-[Compras](purchasing-manage-purchasing.md)         
-[Ventas](sales-manage-sales.md)     
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+## <a name="see-also"></a><span data-ttu-id="6681f-219">Consulte también</span><span class="sxs-lookup"><span data-stu-id="6681f-219">See Also</span></span>
+[<span data-ttu-id="6681f-220">Administración de proyectos</span><span class="sxs-lookup"><span data-stu-id="6681f-220">Project Management</span></span>](projects-manage-projects.md)  
+<span data-ttu-id="6681f-221">[Configurar la administración de proyectos](projects-setup-projects.md)  </span><span class="sxs-lookup"><span data-stu-id="6681f-221">[Setting Up Project Management](projects-setup-projects.md)  </span></span>  
+[<span data-ttu-id="6681f-222">Finanzas</span><span class="sxs-lookup"><span data-stu-id="6681f-222">Finance</span></span>](finance.md)  
+<span data-ttu-id="6681f-223">[Compras](purchasing-manage-purchasing.md)       </span><span class="sxs-lookup"><span data-stu-id="6681f-223">[Purchasing](purchasing-manage-purchasing.md)       </span></span>  
+<span data-ttu-id="6681f-224">[Ventas](sales-manage-sales.md)   </span><span class="sxs-lookup"><span data-stu-id="6681f-224">[Sales](sales-manage-sales.md)   </span></span>  
+<span data-ttu-id="6681f-225">[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="6681f-225">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
 

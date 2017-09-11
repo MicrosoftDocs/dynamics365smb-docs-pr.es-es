@@ -15,47 +15,47 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 1620e69ce8018256780dcba108c31312c02166cb
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/11/2017
 
 
 ---
-# <a name="how-to-allocate-costs-and-income"></a>Asignar costes e ingresos.
-Puede asignar un movimiento en un diario general a varias cuentas diferentes al registrar el diario. La asignación se puede realizar según tres métodos distintos:
+# <a name="how-to-allocate-costs-and-income"></a><span data-ttu-id="d99b4-103">Asignar costes e ingresos.</span><span class="sxs-lookup"><span data-stu-id="d99b4-103">How to: Allocate Costs and Income</span></span>
+<span data-ttu-id="d99b4-104">Puede asignar un movimiento en un diario general a varias cuentas diferentes al registrar el diario.</span><span class="sxs-lookup"><span data-stu-id="d99b4-104">You can allocate an entry in a general journal to several different accounts when you post the journal.</span></span> <span data-ttu-id="d99b4-105">La asignación se puede realizar según tres métodos distintos:</span><span class="sxs-lookup"><span data-stu-id="d99b4-105">The allocation can be made by three different methods:</span></span>
 
-* Cantidad
-* Porcentaje (%)
-* Importe
+* <span data-ttu-id="d99b4-106">Cantidad</span><span class="sxs-lookup"><span data-stu-id="d99b4-106">Quantity</span></span>
+* <span data-ttu-id="d99b4-107">Porcentaje (%)</span><span class="sxs-lookup"><span data-stu-id="d99b4-107">Percentage (%)</span></span>
+* <span data-ttu-id="d99b4-108">Importe</span><span class="sxs-lookup"><span data-stu-id="d99b4-108">Amount</span></span>
 
-Las funciones de asignación se pueden usar con diarios generales periódicos y en diarios de activos fijos.
+<span data-ttu-id="d99b4-109">Las funciones de asignación se pueden usar con diarios generales periódicos y en diarios de activos fijos.</span><span class="sxs-lookup"><span data-stu-id="d99b4-109">The allocation features can be used with recurring general journals and in fixed assets journals.</span></span>
 <!--You can also distribute the cost or revenue of a line to an intercompany partner when you post a sales or purchase document. When you post the document, a line will be posted in your general journal, and a corresponding line will be created in the intercompany outbox.-->
 
-Los procedimientos siguientes describen cómo preparar la asignación de costes en un diario general periódico mediante la definición de las claves de asignación. Cuando se definen las claves de asignación, el diario se rellena y se registra como cualquier otro diario general periódico. Para obtener más información, consulte [Trabajar con diarios generales](ui-work-general-journals.md).
+<span data-ttu-id="d99b4-110">Los procedimientos siguientes describen cómo preparar la asignación de costes en un diario general periódico mediante la definición de las claves de asignación.</span><span class="sxs-lookup"><span data-stu-id="d99b4-110">The following procedures describe how to prepare to allocate costs in a recurring general journal by defining allocation keys.</span></span> <span data-ttu-id="d99b4-111">Cuando se definen las claves de asignación, el diario se rellena y se registra como cualquier otro diario general periódico.</span><span class="sxs-lookup"><span data-stu-id="d99b4-111">When allocation keys are defined, you complete and post the journal like any other recurring general journal.</span></span> <span data-ttu-id="d99b4-112">Para obtener más información, consulte [Trabajar con diarios generales](ui-work-general-journals.md).</span><span class="sxs-lookup"><span data-stu-id="d99b4-112">For more information, see [Working with General Journals](ui-work-general-journals.md).</span></span>
 
-## <a name="to-set-up-allocation-keys"></a>Para configurar claves de asignación
-Puede asignar un movimiento en un diario general periódico a varias cuentas diferentes al registrar el diario. La distribución puede realizarse por cantidad, porcentaje o importe.
-1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), especifique **Diario general periódico** y elija el vínculo relacionado.
-2. Seleccione el campo **Nombre de sección** para abrir la ventana **Secciones diario general**.
-3. Puede modificar las asignaciones en una sección existente de la lista o crear une nueva sección con asignaciones.
-   * Para crear un lote nuevo, seleccione la acción **Nuevo** y vaya al paso siguiente.
-   * Para cambiar las asignaciones de un diario existente, seleccione el diario y vaya al paso 7.    
-4. En el campo **Nombre**, escriba un nombre para la sección, por ejemplo LIMPIEZA. En el campo **Descripción**, escriba una descripción, por ejemplo, Limpieza de diario de gastos.
-5. Cuando haya terminado, cierre la ventana. Aparecerá un nuevo diario periódico vacío.
-6. Complete los campos de la línea.
-7. Seleccione la acción **Asignaciones**.
-8. Agregue una línea para cada asignación. Debe rellenar el campo **% Distribución**, **Cantidad a distribuir** o **Importe**. también debe rellenar el campo **N.º de cuenta** y, si distribuye la transacción entre dimensiones globales, los campos de dimensión global.
-9. Si escribe un porcentaje en una línea, el importe del campo **Importe** se calculará automáticamente. Estos importes tienen el signo contrario al importe total del campo **Importe** en el diario periódico.
-10. Después de introducir las líneas de asignaciones, seleccione **Aceptar** para volver a la ventana **Diario general periódico**. El campo **Importe asignado (USD)** se rellena y coincide con el campo **Importe**.
-11. Registre el diario.
+## <a name="to-set-up-allocation-keys"></a><span data-ttu-id="d99b4-113">Para configurar claves de asignación</span><span class="sxs-lookup"><span data-stu-id="d99b4-113">To set up allocation keys</span></span>
+<span data-ttu-id="d99b4-114">Puede asignar un movimiento en un diario general periódico a varias cuentas diferentes al registrar el diario.</span><span class="sxs-lookup"><span data-stu-id="d99b4-114">You can allocate an entry in a recurring general journal to several different accounts when you post the journal.</span></span> <span data-ttu-id="d99b4-115">La distribución puede realizarse por cantidad, porcentaje o importe.</span><span class="sxs-lookup"><span data-stu-id="d99b4-115">The allocation can be made by quantity, percentage, or amount.</span></span>
+1. <span data-ttu-id="d99b4-116">Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), especifique **Diario general periódico** y elija el vínculo relacionado.</span><span class="sxs-lookup"><span data-stu-id="d99b4-116">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Recurring General Journal**, and then choose the related link.</span></span>
+2. <span data-ttu-id="d99b4-117">Seleccione el campo **Nombre de sección** para abrir la ventana **Secciones diario general**.</span><span class="sxs-lookup"><span data-stu-id="d99b4-117">Choose the **Batch Name** field to open the **General Journal Batches** window.</span></span>
+3. <span data-ttu-id="d99b4-118">Puede modificar las asignaciones en una sección existente de la lista o crear une nueva sección con asignaciones.</span><span class="sxs-lookup"><span data-stu-id="d99b4-118">You can either modify allocations on an existing batch in the list or create a new batch with allocations.</span></span>
+   * <span data-ttu-id="d99b4-119">Para crear un lote nuevo, seleccione la acción **Nuevo** y vaya al paso siguiente.</span><span class="sxs-lookup"><span data-stu-id="d99b4-119">To create a new batch, choose the **New** action, and go to the next step.</span></span>
+   * <span data-ttu-id="d99b4-120">Para cambiar las asignaciones de un diario existente, seleccione el diario y vaya al paso 7.</span><span class="sxs-lookup"><span data-stu-id="d99b4-120">To change the allocations of an existing journal, select the journal and go to step 7.</span></span>    
+4. <span data-ttu-id="d99b4-121">En el campo **Nombre**, escriba un nombre para la sección, por ejemplo LIMPIEZA.</span><span class="sxs-lookup"><span data-stu-id="d99b4-121">In the **Name** field, enter a name for the batch, such as CLEANING.</span></span> <span data-ttu-id="d99b4-122">En el campo **Descripción**, escriba una descripción, por ejemplo, Limpieza de diario de gastos.</span><span class="sxs-lookup"><span data-stu-id="d99b4-122">In the **Description** field, enter a description, such as Cleaning Expenses Journal.</span></span>
+5. <span data-ttu-id="d99b4-123">Cuando haya terminado, cierre la ventana.</span><span class="sxs-lookup"><span data-stu-id="d99b4-123">When you are done, close the window.</span></span> <span data-ttu-id="d99b4-124">Aparecerá un nuevo diario periódico vacío.</span><span class="sxs-lookup"><span data-stu-id="d99b4-124">A new, empty recurring journal opens.</span></span>
+6. <span data-ttu-id="d99b4-125">Complete los campos de la línea.</span><span class="sxs-lookup"><span data-stu-id="d99b4-125">Fill in the fields on the line.</span></span>
+7. <span data-ttu-id="d99b4-126">Seleccione la acción **Asignaciones**.</span><span class="sxs-lookup"><span data-stu-id="d99b4-126">Choose the **Allocations** action.</span></span>
+8. <span data-ttu-id="d99b4-127">Agregue una línea para cada asignación.</span><span class="sxs-lookup"><span data-stu-id="d99b4-127">Add a line for each allocation.</span></span> <span data-ttu-id="d99b4-128">Debe rellenar el campo **% Distribución**, **Cantidad a distribuir** o **Importe**.</span><span class="sxs-lookup"><span data-stu-id="d99b4-128">You must fill in either the **Allocation %**, **Allocation Quantity**, or **Amount** field.</span></span> <span data-ttu-id="d99b4-129">también debe rellenar el campo **N.º de cuenta**</span><span class="sxs-lookup"><span data-stu-id="d99b4-129">You must also fill in the **Account No.**</span></span> <span data-ttu-id="d99b4-130">y, si distribuye la transacción entre dimensiones globales, los campos de dimensión global.</span><span class="sxs-lookup"><span data-stu-id="d99b4-130">field and, if you are allocating the transaction among global dimensions, the global dimension fields.</span></span>
+9. <span data-ttu-id="d99b4-131">Si escribe un porcentaje en una línea, el importe del campo **Importe** se calculará automáticamente.</span><span class="sxs-lookup"><span data-stu-id="d99b4-131">If you enter a percentage on a line, the amount in the **Amount** field is calculated automatically.</span></span> <span data-ttu-id="d99b4-132">Estos importes tienen el signo contrario al importe total del campo **Importe** en el diario periódico.</span><span class="sxs-lookup"><span data-stu-id="d99b4-132">These amounts have the opposite sign from the total amount in the **Amount** field in the recurring journal.</span></span>
+10. <span data-ttu-id="d99b4-133">Después de introducir las líneas de asignaciones, seleccione **Aceptar** para volver a la ventana **Diario general periódico**.</span><span class="sxs-lookup"><span data-stu-id="d99b4-133">After entering the allocations lines, choose **OK** to return to the **Recurring General Journal** window.</span></span> <span data-ttu-id="d99b4-134">El campo **Importe asignado (USD)** se rellena y coincide con el campo **Importe**.</span><span class="sxs-lookup"><span data-stu-id="d99b4-134">The **Allocated Amt. (USD)** field is filled in and matches the **Amount** field.</span></span>
+11. <span data-ttu-id="d99b4-135">Registre el diario.</span><span class="sxs-lookup"><span data-stu-id="d99b4-135">Post the journal.</span></span>
 
-## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>Para modificar una clave de asignación que ya haya sido configurada
-1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), especifique **Diario general periódico** y elija el vínculo relacionado.
-2. En la ventana **Recurring General Journal** (Diarios generales periódicos), seleccione el diario con la distribución.
-3. Seleccione la línea con la asignación y, a continuación, seleccione la acción **Asignaciones**.
-4. Cambie los campos relevantes y, a continuación, elija el botón **Aceptar**.
+## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a><span data-ttu-id="d99b4-136">Para modificar una clave de asignación que ya haya sido configurada</span><span class="sxs-lookup"><span data-stu-id="d99b4-136">To change an allocation key that has already been set up</span></span>
+1. <span data-ttu-id="d99b4-137">Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), especifique **Diario general periódico** y elija el vínculo relacionado.</span><span class="sxs-lookup"><span data-stu-id="d99b4-137">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Recurring General Journal**, and then choose the related link.</span></span>
+2. <span data-ttu-id="d99b4-138">En la ventana **Recurring General Journal** (Diarios generales periódicos), seleccione el diario con la distribución.</span><span class="sxs-lookup"><span data-stu-id="d99b4-138">In the **Recurring General Journal** window, select the journal with the allocation.</span></span>
+3. <span data-ttu-id="d99b4-139">Seleccione la línea con la asignación y, a continuación, seleccione la acción **Asignaciones**.</span><span class="sxs-lookup"><span data-stu-id="d99b4-139">Choose the line with the allocation, and then choose **Allocations** action.</span></span>
+4. <span data-ttu-id="d99b4-140">Cambie los campos relevantes y, a continuación, elija el botón **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="d99b4-140">Change the relevant fields, and then choose the **OK** button.</span></span>
 
-## <a name="see-also"></a>Consulte también
-[Cerrar años y periodos](year-close-years-periods.md)  
-[Trabajar con diarios generales](ui-work-general-journals.md)    
-[Registrar documentos y diarios](ui-post-documents-journals.md)    
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="d99b4-141">Consulte también</span><span class="sxs-lookup"><span data-stu-id="d99b4-141">See Also</span></span>
+[<span data-ttu-id="d99b4-142">Cerrar años y periodos</span><span class="sxs-lookup"><span data-stu-id="d99b4-142">Closing Years and Periods</span></span>](year-close-years-periods.md)  
+<span data-ttu-id="d99b4-143">[Trabajar con diarios generales](ui-work-general-journals.md)  </span><span class="sxs-lookup"><span data-stu-id="d99b4-143">[Working with General Journals](ui-work-general-journals.md)  </span></span>  
+<span data-ttu-id="d99b4-144">[Registrar documentos y diarios](ui-post-documents-journals.md)  </span><span class="sxs-lookup"><span data-stu-id="d99b4-144">[Posting Documents and Journals](ui-post-documents-journals.md)  </span></span>  
+<span data-ttu-id="d99b4-145">[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="d99b4-145">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 

@@ -16,23 +16,22 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 36633b3a3882fa8c580fa8a0dc5ca4f309d2dbb6
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="how-to-set-up-salespeople"></a>Procedimiento: Configurar vendedores
-Muchas empresas quieren realizar un seguimiento del rendimiento personal de sus empleados como base para calcular la comisión o prima por ventas. Vea, por ejemplo, el informe de Comisiones del vendedor. Ciertas empresas puede preferir asignar un vendedor a cada uno de sus contactos.
+# <a name="how-to-set-up-salespeople"></a><span data-ttu-id="91a5f-103">Procedimiento: Configurar vendedores</span><span class="sxs-lookup"><span data-stu-id="91a5f-103">How to: Set Up Salespeople</span></span>
+<span data-ttu-id="91a5f-104">Muchas empresas quieren realizar un seguimiento del rendimiento personal de sus empleados como base para calcular la comisión o prima por ventas.</span><span class="sxs-lookup"><span data-stu-id="91a5f-104">Many companies want to follow an individual employee's performance as a basis for calculating the sales commission or bonus.</span></span> <span data-ttu-id="91a5f-105">Vea, por ejemplo, el informe de Comisiones del vendedor.</span><span class="sxs-lookup"><span data-stu-id="91a5f-105">See, for example, the Salesperson Commissions report.</span></span> <span data-ttu-id="91a5f-106">Ciertas empresas puede preferir asignar un vendedor a cada uno de sus contactos.</span><span class="sxs-lookup"><span data-stu-id="91a5f-106">A company may also want to assign a salesperson to each of their contacts.</span></span>
 
-Cuando debe configurar un vendedor en la ventana **Vendedor**, puede seleccionarlo en el campo **Cód. vendedor** de todos los registros correspondientes, como cuenta de contabilidad, clientes, proveedor, contactos y fichas de campañas. Cuando registra o configura facturas, abonos, líneas de diario, intereses, etc., el código de vendedor se transfiere a los movimientos resultantes.
+<span data-ttu-id="91a5f-107">Cuando debe configurar un vendedor en la ventana **Vendedor**, puede seleccionarlo en el campo **Cód. vendedor** de todos los registros correspondientes, como cuenta de contabilidad, clientes, proveedor, contactos y fichas de campañas.</span><span class="sxs-lookup"><span data-stu-id="91a5f-107">When yo have set up a salesperson in the **Salespeople** window, you can select it in the **Salesperson Code** field on all relevant records, such as G/L account, customer, vendor, contacts, and campaign cards.</span></span> <span data-ttu-id="91a5f-108">Cuando registra o configura facturas, abonos, líneas de diario, intereses, etc., el código de vendedor se transfiere a los movimientos resultantes.</span><span class="sxs-lookup"><span data-stu-id="91a5f-108">Then, when you post or set up invoices, credit memos, journal lines, finance charge activities, and so on, the salesperson code is carried to the resulting ledger entries.</span></span>
 
-## <a name="to-set-up-a-salesperson-code"></a>Para configurar un código de vendedor
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Vendedores** y, a continuación, seleccione el vínculo relacionado.
-2. En la ventana **Vendedor**, elija la acción **Nuevo**.
+## <a name="to-set-up-a-salesperson-code"></a><span data-ttu-id="91a5f-109">Para configurar un código de vendedor</span><span class="sxs-lookup"><span data-stu-id="91a5f-109">To set up a salesperson code</span></span>
+1. <span data-ttu-id="91a5f-110">Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Vendedores** y, a continuación, seleccione el vínculo relacionado.</span><span class="sxs-lookup"><span data-stu-id="91a5f-110">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Salespeople**, and then choose the related link.</span></span>
+2. <span data-ttu-id="91a5f-111">En la ventana **Vendedor**, elija la acción **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="91a5f-111">In the **Salespeople** window, choose the **New** action.</span></span>
 
-Puede utilizar vendedores en diferentes tareas de gestión de relaciones y de marketing. Por ejemplo, puede asignar tareas a un vendedor, de modo que las tareas se incorporan en las oportunidades de ventas que tiene asignadas el vendedor. Para obtener más información, vea [Procedimiento: Configurar ciclos y etapas de ciclos de venta de oportunidades](marketing-how-setup-opportunity-sales-cycles-stages.md). 
+<span data-ttu-id="91a5f-112">Puede utilizar vendedores en diferentes tareas de gestión de relaciones y de marketing.</span><span class="sxs-lookup"><span data-stu-id="91a5f-112">You can use salespeople in various relationship management anmd marketing work.</span></span> <span data-ttu-id="91a5f-113">Por ejemplo, puede asignar tareas a un vendedor, de modo que las tareas se incorporan en las oportunidades de ventas que tiene asignadas el vendedor.</span><span class="sxs-lookup"><span data-stu-id="91a5f-113">For example, you can assign tasks to salepeople, so that the tasks are incorporated in sales opportunities that the salesperson are assigned to.</span></span> <span data-ttu-id="91a5f-114">Para obtener más información, vea [Procedimiento: Configurar ciclos y etapas de ciclos de venta de oportunidades](marketing-how-setup-opportunity-sales-cycles-stages.md).</span><span class="sxs-lookup"><span data-stu-id="91a5f-114">For more information, see [How to: Set Up Opportunity Sales Cycles and Cycle Stages](marketing-how-setup-opportunity-sales-cycles-stages.md).</span></span> 
 
-## <a name="see-also"></a>Consulte también
-[Configuración de ventas](sales-setup-sales.md)  
-[Ventas](sales-manage-sales.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="91a5f-115">Consulte también</span><span class="sxs-lookup"><span data-stu-id="91a5f-115">See Also</span></span>
+[<span data-ttu-id="91a5f-116">Configuración de ventas</span><span class="sxs-lookup"><span data-stu-id="91a5f-116">Setting Up Sales</span></span>](sales-setup-sales.md)  
+[<span data-ttu-id="91a5f-117">Ventas</span><span class="sxs-lookup"><span data-stu-id="91a5f-117">Sales</span></span>](sales-manage-sales.md)  
+<span data-ttu-id="91a5f-118">[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="91a5f-118">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 

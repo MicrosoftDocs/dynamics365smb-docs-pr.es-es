@@ -16,108 +16,108 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 421d45e7f35ffdc46801fea85221ba453d52c516
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/11/2017
 
 
 ---
-# <a name="how-to-insure-fixed-assets"></a>Procedimiento: Asegurar activos fijos
-Una póliza de seguro para un activo fijo se representa con una ficha de seguro. Puede asignar uno o varios activos fijos a una póliza de seguro.
+# <a name="how-to-insure-fixed-assets"></a><span data-ttu-id="3ae5a-103">Procedimiento: Asegurar activos fijos</span><span class="sxs-lookup"><span data-stu-id="3ae5a-103">How to: Insure Fixed Assets</span></span>
+<span data-ttu-id="3ae5a-104">Una póliza de seguro para un activo fijo se representa con una ficha de seguro.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-104">An insurance policy for a fixed asset is represented by an insurance card.</span></span> <span data-ttu-id="3ae5a-105">Puede asignar uno o varios activos fijos a una póliza de seguro.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-105">You can assign one fixed asset to one insurance policy or multiple fixed assets to one insurance policy.</span></span>
 
-Asigne un activo fijo a una póliza de seguros con el registro de los movimientos de cobertura del seguro desde la ventana **Diario seguros**.
+<span data-ttu-id="3ae5a-106">Asigne un activo fijo a una póliza de seguros con el registro de los movimientos de cobertura del seguro desde la ventana **Diario seguros**.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-106">You assign a fixed asset to an insurance policy by posting to the insurance coverage ledger from the **Insurance Journal** window.</span></span>
 
-Además, puede asignar un activo fijo a una póliza de seguro y crear movimientos de cobertura cuando registra el coste. Puede realizar esta acción si registra un coste desde el diario de activos fijos con el campo **N. º seguro** rellenado correctamente. La casilla de verificación **Registro auto. seguro** de la ventana **Configuración activos fijos** debe estar seleccionada. Para obtener más información, consulte la sección "Para registrar una adquisición de un activo fijo manualmente con el diario general de activos fijos" en [Procedimiento: Adquirir activos fijos](fa-how-acquire.md).
+<span data-ttu-id="3ae5a-107">Además, puede asignar un activo fijo a una póliza de seguro y crear movimientos de cobertura cuando registra el coste.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-107">In addition, you can assign a fixed asset to an insurance policy and create coverage ledger entries when you post its acquisition cost.</span></span> <span data-ttu-id="3ae5a-108">Puede realizar esta acción si registra un coste desde el diario de activos fijos con el campo **N. º seguro**</span><span class="sxs-lookup"><span data-stu-id="3ae5a-108">You do this by posting an acquisition cost from the fixed asset journal with the **Insurance No.**</span></span> <span data-ttu-id="3ae5a-109">rellenado correctamente.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-109">field filled in.</span></span> <span data-ttu-id="3ae5a-110">La casilla de verificación **Registro auto. seguro** de la ventana **Configuración activos fijos** debe estar seleccionada.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-110">The **Automatic Insurance Posting** check box in the **Fixed Asset Setup** window must be selected.</span></span> <span data-ttu-id="3ae5a-111">Para obtener más información, consulte la sección "Para registrar una adquisición de un activo fijo manualmente con el diario general de activos fijos" en [Procedimiento: Adquirir activos fijos](fa-how-acquire.md).</span><span class="sxs-lookup"><span data-stu-id="3ae5a-111">For more information, see the "To post a fixed asset acquisition manually with the fixed asset G/L journal" section in [How to: Acquire Fixed Assets](fa-how-acquire.md).</span></span>
 
-Si la casilla de verificación **Registro auto. seguro** de la ventana **Configuración activos fijos** no está seleccionada, las adquisiciones registradas del diario de activos fijos crearán líneas en la ventana del **Diario de seguros** y deberá registrarlas manualmente.
+<span data-ttu-id="3ae5a-112">Si la casilla de verificación **Registro auto. seguro** de la ventana **Configuración activos fijos** no está seleccionada, las adquisiciones registradas del diario de activos fijos crearán líneas en la ventana del **Diario de seguros** y deberá registrarlas manualmente.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-112">If the **Automatic Insurance Posting** check box in the **Fixed Asset Setup** window is not selected, then posting acquisitions from the fixed asset journal will create lines in the **Insurance Journal** window, which you must then post manually.</span></span>
 
 > [!WARNING]  
->   Si no selecciona la casilla de verificación **Registro auto. seguro** de la ventana **Configuración activos fijos**, el diario de seguros deberá basarse en una plantilla de diario sin una serie numérica. Esto se debe a que los números de documentos insertados de la línea de diario de activo fijo permanecerán en conflicto con las series numéricas del diario de seguros. Para obtener más información acerca de las plantillas de diarios y secciones, consulte [Procedimiento: Configurar la información general de los activos fijos](fa-how-setup-general.md).
+>   <span data-ttu-id="3ae5a-113">Si no selecciona la casilla de verificación **Registro auto. seguro** de la ventana **Configuración activos fijos**, el diario de seguros deberá basarse en una plantilla de diario sin una serie numérica.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-113">If you do not select the **Automatic Insurance Posting** check box in the **Fixed Asset Setup** window, then your insurance journal should be based on a journal template without a number series.</span></span> <span data-ttu-id="3ae5a-114">Esto se debe a que los números de documentos insertados de la línea de diario de activo fijo permanecerán en conflicto con las series numéricas del diario de seguros.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-114">This is because the inserted document numbers from the fixed asset journal line will otherwise conflict with the number series of the insurance journal.</span></span> <span data-ttu-id="3ae5a-115">Para obtener más información acerca de las plantillas de diarios y secciones, consulte [Procedimiento: Configurar la información general de los activos fijos](fa-how-setup-general.md).</span><span class="sxs-lookup"><span data-stu-id="3ae5a-115">For more information about journal templates and batches, see [How to: Set Up General Fixed Assets Information](fa-how-setup-general.md).</span></span>
 
-Después de asignar un activo fijo a una póliza de seguros, se seleccionará la casilla de verificación **Asegurado** en la ficha del activo. Cuando vende el activo fijo, la casilla se deselecciona automáticamente.
+<span data-ttu-id="3ae5a-116">Después de asignar un activo fijo a una póliza de seguros, se seleccionará la casilla de verificación **Asegurado** en la ficha del activo.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-116">After you have assigned a fixed asset to an insurance policy, the **Insured** check box is selected on the fixed asset card.</span></span> <span data-ttu-id="3ae5a-117">Cuando vende el activo fijo, la casilla se deselecciona automáticamente.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-117">When you sell the fixed asset, the check box is automatically deselected.</span></span>
 
-## <a name="to-create-or-modify-an-insurance-card"></a>Para crear o modificar una ficha de seguros
-Una póliza de seguro para un activo fijo debe representarse con una ficha de seguro.
+## <a name="to-create-or-modify-an-insurance-card"></a><span data-ttu-id="3ae5a-118">Para crear o modificar una ficha de seguros</span><span class="sxs-lookup"><span data-stu-id="3ae5a-118">To create or modify an insurance card</span></span>
+<span data-ttu-id="3ae5a-119">Una póliza de seguro para un activo fijo debe representarse con una ficha de seguro.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-119">An insurance policy for a fixed asset must be represented by an insurance card.</span></span>
 
-Cuando reciba información de cambios en el importe de cobertura, debe especificar la nueva información en la ventana **Ficha seguros** para poder asegurarse un análisis correcto de la póliza de seguros.  
+<span data-ttu-id="3ae5a-120">Cuando reciba información de cambios en el importe de cobertura, debe especificar la nueva información en la ventana **Ficha seguros** para poder asegurarse un análisis correcto de la póliza de seguros.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-120">When you receive information about changes in the coverage amount, you must enter the new information in the **Insurance Card** window to ensure that you analyze insurance policy coverage correctly.</span></span>  
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Seguro** y, a continuación, seleccione el vínculo relacionado.
-2. Seleccione la acción **Nuevo** para crear una ficha de póliza seguro nueva. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. De forma alternativa, seleccione la póliza de seguro que desea cambiar y, a continuación, elija la acción **Editar**.
+1. <span data-ttu-id="3ae5a-121">Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Seguro** y, a continuación, seleccione el vínculo relacionado.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-121">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Insurance**, and then choose the related link.</span></span>
+2. <span data-ttu-id="3ae5a-122">Seleccione la acción **Nuevo** para crear una ficha de póliza seguro nueva.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-122">Choose the **New** action to create a new card for an insurance policy.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. <span data-ttu-id="3ae5a-123">De forma alternativa, seleccione la póliza de seguro que desea cambiar y, a continuación, elija la acción **Editar**.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-123">Alternatively, select the insurance policy that you want to change, and then choose the **Edit** action.</span></span>
 
-## <a name="to-assign-a-fixed-asset-to-an-insurance-policy-by-posting-from-the-insurance-journal"></a>Asigne un activo fijo a una póliza de seguros realizando el registro desde un diario de seguro.
-Asigne un activo fijo a una póliza de seguros realizando el registro desde un movimiento de cobertura seguro.  
+## <a name="to-assign-a-fixed-asset-to-an-insurance-policy-by-posting-from-the-insurance-journal"></a><span data-ttu-id="3ae5a-124">Asigne un activo fijo a una póliza de seguros realizando el registro desde un diario de seguro.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-124">To assign a fixed asset to an insurance policy by posting from the insurance journal</span></span>
+<span data-ttu-id="3ae5a-125">Asigne un activo fijo a una póliza de seguros realizando el registro desde un movimiento de cobertura seguro.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-125">You assign a fixed asset to an insurance policy by posting to the insurance coverage ledger.</span></span>  
 
-El procedimiento siguiente explica cómo crear una línea en un diario de seguros manualmente. Si la casilla de verificación **Registro auto. seguro** está seleccionada en la ventana **Configuración A/F**, las líneas del diario de seguros se crearán automáticamente al registrar los costes. En ese caso, todo lo que tiene que hacer es registrar el diario.  
+<span data-ttu-id="3ae5a-126">El procedimiento siguiente explica cómo crear una línea en un diario de seguros manualmente.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-126">The following procedure explains how to create an insurance journal line manually.</span></span> <span data-ttu-id="3ae5a-127">Si la casilla de verificación **Registro auto. seguro** está seleccionada en la ventana **Configuración A/F**, las líneas del diario de seguros se crearán automáticamente al registrar los costes.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-127">If the **Automatic Insurance Posting** check box is selected in the **FA Setup** window, then insurance journal lines are automatically created when you post acquisition costs.</span></span> <span data-ttu-id="3ae5a-128">En ese caso, todo lo que tiene que hacer es registrar el diario.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-128">In that case, all you have to do is to post the journal.</span></span>  
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diarios de seguros** y, a continuación, seleccione el vínculo relacionado.  
-2. Abra el diario correspondiente y rellene las líneas de diario según sea necesario.  
-3. Para asignar varios activos fijos a una póliza seguros, cree las líneas del diario con el mismo valor en el campo **N.º seguro** pero con valores diferentes en el **A/F n.º**. .  
-4. Seleccione la acción **Registrar**.  
-
-    > [!NOTE]  
->   Los movimientos de un diario seguros solo se registran en los movimientos de seguros.  
-
-## <a name="to-update-the-insurance-value-of-a-fixed-asset"></a>Para actualizar el valor del seguro de un activo fijo
-Puede utilizar el proceso **Ajustar valores seguros** para actualizar el valor de los activos cubiertos.  
-
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Ajustar valores seguros** y, a continuación, seleccione el vínculo relacionado.
-2. Rellene los campos según sea necesario.
+1. <span data-ttu-id="3ae5a-129">Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diarios de seguros** y, a continuación, seleccione el vínculo relacionado.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-129">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Insurance Journals**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="3ae5a-130">Abra el diario correspondiente y rellene las líneas de diario según sea necesario.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-130">Open the relevant journal, and fill in the journal lines as necessary.</span></span>  
+3. <span data-ttu-id="3ae5a-131">Para asignar varios activos fijos a una póliza seguros, cree las líneas del diario con el mismo valor en el campo **N.º seguro**</span><span class="sxs-lookup"><span data-stu-id="3ae5a-131">To assign multiple fixed assets to one insurance policy, create journal lines with the same value in the **Insurance No.**</span></span> <span data-ttu-id="3ae5a-132">pero con valores diferentes en el **A/F n.º**.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-132">field and different values in the **FA No.**</span></span> <span data-ttu-id="3ae5a-133">.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-133">field.</span></span>  
+4. <span data-ttu-id="3ae5a-134">Seleccione la acción **Registrar**.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-134">Choose the **Post** action.</span></span>  
 
     > [!NOTE]  
->   En el campo **Valor ajuste**, introduzca una disminución del 5 %, por ejemplo 95, mientras que introduce un aumento del 2 %, como 102.  
-3. Elija el botón **Aceptar**.  
+>   <span data-ttu-id="3ae5a-135">Los movimientos de un diario seguros solo se registran en los movimientos de seguros.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-135">The entries from an insurance journal are only posted to the insurance coverage ledger.</span></span>  
 
-   El proceso calcula el importe nuevo como porcentaje del valor total asegurado, como se indica en la ventana **Estadísticas seguro** y, a continuación, crea una línea en el diario de seguros.  
-4. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diarios de seguros** y, a continuación, seleccione el vínculo relacionado.  
-5. Abra el diario de seguros pertinente, revise los valores creados y, a continuación, regístrelos en los movimientos de seguros.  
+## <a name="to-update-the-insurance-value-of-a-fixed-asset"></a><span data-ttu-id="3ae5a-136">Para actualizar el valor del seguro de un activo fijo</span><span class="sxs-lookup"><span data-stu-id="3ae5a-136">To update the insurance value of a fixed asset</span></span>
+<span data-ttu-id="3ae5a-137">Puede utilizar el proceso **Ajustar valores seguros** para actualizar el valor de los activos cubiertos.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-137">You can use the **Index Insurance** batch job to update the value of the fixed assets that are covered.</span></span>  
 
-## <a name="to-monitor-insurance-coverage"></a>Para controlar la cobertura de seguros
-[!INCLUDE[d365fin](includes/d365fin_md.md)] proporciona informes dedicados y ventanas de estadísticas para usarlos en el análisis de las pólizas de seguro y saber si sus activos fijos tienen un exceso o una falta de seguro.  
+1. <span data-ttu-id="3ae5a-138">Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Ajustar valores seguros** y, a continuación, seleccione el vínculo relacionado.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-138">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Index Insurance**, and then choose the related link.</span></span>
+2. <span data-ttu-id="3ae5a-139">Rellene los campos según sea necesario.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-139">Fill in the fields as necessary.</span></span>
 
-### <a name="overview-of-insurance-policies"></a>Resumen de pólizas de seguro
-Para obtener una visión general de las pólizas de seguros, obtenga una vista previa del informe **Seguro - Lista** o imprímalo. El informe muestra todas las pólizas y los campos más importantes de las fichas de seguro.  
+    > [!NOTE]  
+>   <span data-ttu-id="3ae5a-140">En el campo **Valor ajuste**, introduzca una disminución del 5 %, por ejemplo 95, mientras que introduce un aumento del 2 %, como 102.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-140">In the **Index Figure** field, you enter a decrease of 5%, for example, as 95, whereas you enter an increase of 2% as 102.</span></span>  
+3. <span data-ttu-id="3ae5a-141">Elija el botón **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-141">Choose the **OK** button.</span></span>  
 
-### <a name="insurance-coverage"></a>Cobertura seguro
-Para ver qué pólizas cubren cada activo y por cuánto, puede previsualizar o imprimir el informe **Seguro - Total asegurado**.  
+   <span data-ttu-id="3ae5a-142">El proceso calcula el importe nuevo como porcentaje del valor total asegurado, como se indica en la ventana **Estadísticas seguro** y, a continuación, crea una línea en el diario de seguros.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-142">The batch job calculates the new amount as a percentage of the total value insured, as stated in the **Insurance Statistics** window, and then creates a line in the insurance journal.</span></span>  
+4. <span data-ttu-id="3ae5a-143">Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diarios de seguros** y, a continuación, seleccione el vínculo relacionado.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-143">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Insurance Journals**, and then choose the related link.</span></span>  
+5. <span data-ttu-id="3ae5a-144">Abra el diario de seguros pertinente, revise los valores creados y, a continuación, regístrelos en los movimientos de seguros.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-144">Open the relevant insurance journal, review the created values, and then post them to the insurance coverage ledger.</span></span>  
 
-### <a name="overunder-coverage"></a>Sobre/infraseguro
-Puede comprobar si los activos tienen un exceso o una falta de seguro de la siguiente forma:  
+## <a name="to-monitor-insurance-coverage"></a><span data-ttu-id="3ae5a-145">Para controlar la cobertura de seguros</span><span class="sxs-lookup"><span data-stu-id="3ae5a-145">To monitor insurance coverage</span></span>
+[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="3ae5a-146"> proporciona informes dedicados y ventanas de estadísticas para usarlos en el análisis de las pólizas de seguro y saber si sus activos fijos tienen un exceso o una falta de seguro.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-146"> provides dedicated reports and statistics windows for use in analyzing insurance policies and whether your fixed assets are over- or under-insured.</span></span>  
 
-* En la ventana **Estadísticas seguro**. Con un importe positivo en el campo **Sobre/Infra asegurado** que significa que el activo está sobreasegurado. Un importe negativo indica que está infrasegurado.  
-* En la ventana **Estadísticas activo**. Elija el campo **Valor total asegurado** para ver la ventana **Movs. seguro**.  
-* El informe **Sobre/Infra asegurado**.  
-* El informe **Análisis seguros**.  
+### <a name="overview-of-insurance-policies"></a><span data-ttu-id="3ae5a-147">Resumen de pólizas de seguro</span><span class="sxs-lookup"><span data-stu-id="3ae5a-147">Overview of Insurance Policies</span></span>
+<span data-ttu-id="3ae5a-148">Para obtener una visión general de las pólizas de seguros, obtenga una vista previa del informe **Seguro - Lista** o imprímalo.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-148">To get an overview of your insurance policies, preview or print the **Insurance - List** report.</span></span> <span data-ttu-id="3ae5a-149">El informe muestra todas las pólizas y los campos más importantes de las fichas de seguro.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-149">The report shows all the policies and the most important fields from the insurance cards.</span></span>  
 
-### <a name="uninsured-fixed-assets"></a>Activos fijos sin seguro
-Para comprobar si ha olvidado asignar un activo fijo a una póliza seguros, puede imprimir o previsualizar el informe **A/Fs asegurados – no asegurados**. Este informe muestra los activos fijos para los que no ha habido ningún importe registrado en los movimientos de cobertura del seguro.  
+### <a name="insurance-coverage"></a><span data-ttu-id="3ae5a-150">Cobertura seguro</span><span class="sxs-lookup"><span data-stu-id="3ae5a-150">Insurance Coverage</span></span>
+<span data-ttu-id="3ae5a-151">Para ver qué pólizas cubren cada activo y por cuánto, puede previsualizar o imprimir el informe **Seguro - Total asegurado**.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-151">To see which insurance policies cover each asset and by which amount, you can preview or print the **Insurance - Tot. Value Insured** report.</span></span>  
 
-## <a name="to-view-insurance-coverage-ledger-entries"></a>Para ver los movimientos cobertura de seguro
-Puede ver los movimientos realizados en los movimientos de seguros.  
+### <a name="overunder-coverage"></a><span data-ttu-id="3ae5a-152">Sobre/infraseguro</span><span class="sxs-lookup"><span data-stu-id="3ae5a-152">Over/Under Coverage</span></span>
+<span data-ttu-id="3ae5a-153">Puede comprobar si los activos tienen un exceso o una falta de seguro de la siguiente forma:</span><span class="sxs-lookup"><span data-stu-id="3ae5a-153">You can check if fixed assets are over- or under-insured in the following ways:</span></span>  
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Seguro** y, a continuación, seleccione el vínculo relacionado.  
-2. Seleccione la póliza relevante y, a continuación, seleccione la acción **Movimientos seguro**.  
+* <span data-ttu-id="3ae5a-154">En la ventana **Estadísticas seguro**.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-154">The **Insurance Statistics** window.</span></span> <span data-ttu-id="3ae5a-155">Con un importe positivo en el campo **Sobre/Infra asegurado** que significa que el activo está sobreasegurado.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-155">A positive amount in the **Over/Under Insured** field means that the fixed asset is over-insured.</span></span> <span data-ttu-id="3ae5a-156">Un importe negativo indica que está infrasegurado.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-156">A negative amount means that it is underinsured.</span></span>  
+* <span data-ttu-id="3ae5a-157">En la ventana **Estadísticas activo**.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-157">The **Fixed Asset Statistics** window.</span></span> <span data-ttu-id="3ae5a-158">Elija el campo **Valor total asegurado** para ver la ventana **Movs. seguro**.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-158">Choose the **Total Value Insured** field to view the **Ins. Coverage Ledger Entries** window.</span></span>  
+* <span data-ttu-id="3ae5a-159">El informe **Sobre/Infra asegurado**.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-159">The **Over/Under Coverage** report.</span></span>  
+* <span data-ttu-id="3ae5a-160">El informe **Análisis seguros**.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-160">The **Insurance Analysis** report.</span></span>  
 
-## <a name="to-view-the-total-insurance-value-of-fixed-assets"></a>Para ver el total del valor del seguro de los activos
-Una ventana de matriz dedicada muestra los valores de seguros registrados para cada póliza de seguro de cada activo fijo como resultado de los importes relacionados con los seguros que ha registrado.  
+### <a name="uninsured-fixed-assets"></a><span data-ttu-id="3ae5a-161">Activos fijos sin seguro</span><span class="sxs-lookup"><span data-stu-id="3ae5a-161">Uninsured Fixed Assets</span></span>
+<span data-ttu-id="3ae5a-162">Para comprobar si ha olvidado asignar un activo fijo a una póliza seguros, puede imprimir o previsualizar el informe **A/Fs asegurados – no asegurados**.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-162">To check if you have forgotten to assign a fixed asset to an insurance policy, you can print or preview the **Insurance - Uninsured FAs** report.</span></span> <span data-ttu-id="3ae5a-163">Este informe muestra los activos fijos para los que no ha habido ningún importe registrado en los movimientos de cobertura del seguro.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-163">This report displays fixed assets for which amounts have not been posted to the insurance coverage ledger.</span></span>  
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Seguro** y, a continuación, seleccione el vínculo relacionado.  
-2. Seleccione la póliza relevante y, a continuación, seleccione la acción **Valor asegurado total por A/F**.  
-3. Rellene los campos según sea necesario.  
-4. Elija la acción **Mostrar matriz**.  
-5. Para ver los movimientos de seguros subyacentes, elija un valor en la matriz.  
+## <a name="to-view-insurance-coverage-ledger-entries"></a><span data-ttu-id="3ae5a-164">Para ver los movimientos cobertura de seguro</span><span class="sxs-lookup"><span data-stu-id="3ae5a-164">To view insurance coverage ledger entries</span></span>
+<span data-ttu-id="3ae5a-165">Puede ver los movimientos realizados en los movimientos de seguros.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-165">You can view the entries that you have made in the insurance coverage ledger.</span></span>  
 
-## <a name="to-correct-insurance-coverage-entries"></a>Para corregir movimientos de seguros
-Si se adjuntó un activo fijo a la póliza de seguros incorrecta, puede corregir este movimiento con la creación de dos movimientos de reclasificación del diario de seguro.  
+1. <span data-ttu-id="3ae5a-166">Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Seguro** y, a continuación, seleccione el vínculo relacionado.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-166">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Insurance**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="3ae5a-167">Seleccione la póliza relevante y, a continuación, seleccione la acción **Movimientos seguro**.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-167">Select the relevant insurance policy, and then choose the **Coverage Ledger Entries** action.</span></span>  
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diarios de seguros** y, a continuación, seleccione el vínculo relacionado.  
-2. Cree una línea de diario del activo fijo y la póliza de seguro correcta en la que el valor del campo **Importe** es positivo.  
-3. Cree otra línea de diario del activo fijo y la póliza de seguro incorrecta en la que el valor del campo **Importe** es negativo.  
-4. Seleccione la acción **Registrar**.  
+## <a name="to-view-the-total-insurance-value-of-fixed-assets"></a><span data-ttu-id="3ae5a-168">Para ver el total del valor del seguro de los activos</span><span class="sxs-lookup"><span data-stu-id="3ae5a-168">To view the total insurance value of fixed assets</span></span>
+<span data-ttu-id="3ae5a-169">Una ventana de matriz dedicada muestra los valores de seguros registrados para cada póliza de seguro de cada activo fijo como resultado de los importes relacionados con los seguros que ha registrado.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-169">A dedicated matrix window shows the insurance values that are registered for each insurance policy for each fixed asset as a result of insurance-related amounts that you have posted.</span></span>  
 
-El activo se desvinculará de la póliza de seguros incorrecta, en la segunda línea, y se adjuntará a la correcta en la primera línea.  
+1. <span data-ttu-id="3ae5a-170">Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Seguro** y, a continuación, seleccione el vínculo relacionado.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-170">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Insurance**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="3ae5a-171">Seleccione la póliza relevante y, a continuación, seleccione la acción **Valor asegurado total por A/F**.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-171">Select the relevant insurance policy, and then choose the **Total Value Insures per FA** action.</span></span>  
+3. <span data-ttu-id="3ae5a-172">Rellene los campos según sea necesario.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-172">Fill in the fields as necessary.</span></span>  
+4. <span data-ttu-id="3ae5a-173">Elija la acción **Mostrar matriz**.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-173">Choose the **Show Matrix** action.</span></span>  
+5. <span data-ttu-id="3ae5a-174">Para ver los movimientos de seguros subyacentes, elija un valor en la matriz.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-174">To see the underlying insurance coverage ledger entries, choose a value in the matrix.</span></span>  
 
-## <a name="see-also"></a>Consulte también
-[Activos fijos](fa-manage.md)  
-[Configurar activos fijos](fa-setup.md)  
-[Finanzas](finance.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+## <a name="to-correct-insurance-coverage-entries"></a><span data-ttu-id="3ae5a-175">Para corregir movimientos de seguros</span><span class="sxs-lookup"><span data-stu-id="3ae5a-175">To correct insurance coverage entries</span></span>
+<span data-ttu-id="3ae5a-176">Si se adjuntó un activo fijo a la póliza de seguros incorrecta, puede corregir este movimiento con la creación de dos movimientos de reclasificación del diario de seguro.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-176">If a fixed asset has been attached to the wrong insurance policy, you can correct it by creating two reclassification entries from the insurance journal.</span></span>  
+
+1. <span data-ttu-id="3ae5a-177">Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diarios de seguros** y, a continuación, seleccione el vínculo relacionado.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-177">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Insurance Journals**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="3ae5a-178">Cree una línea de diario del activo fijo y la póliza de seguro correcta en la que el valor del campo **Importe** es positivo.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-178">Create one journal line for the fixed asset and the correct insurance policy where the value in the **Amount** field is positive.</span></span>  
+3. <span data-ttu-id="3ae5a-179">Cree otra línea de diario del activo fijo y la póliza de seguro incorrecta en la que el valor del campo **Importe** es negativo.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-179">Create another journal line for the fixed asset and the incorrect insurance policy where the value in the **Amount** field is negative.</span></span>  
+4. <span data-ttu-id="3ae5a-180">Seleccione la acción **Registrar**.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-180">Choose the **Post** action.</span></span>  
+
+<span data-ttu-id="3ae5a-181">El activo se desvinculará de la póliza de seguros incorrecta, en la segunda línea, y se adjuntará a la correcta en la primera línea.</span><span class="sxs-lookup"><span data-stu-id="3ae5a-181">The fixed asset will be detached from the incorrect insurance policy, on the second line, and attached to the correct insurance policy, on the first line.</span></span>  
+
+## <a name="see-also"></a><span data-ttu-id="3ae5a-182">Consulte también</span><span class="sxs-lookup"><span data-stu-id="3ae5a-182">See Also</span></span>
+[<span data-ttu-id="3ae5a-183">Activos fijos</span><span class="sxs-lookup"><span data-stu-id="3ae5a-183">Fixed Assets</span></span>](fa-manage.md)  
+[<span data-ttu-id="3ae5a-184">Configurar activos fijos</span><span class="sxs-lookup"><span data-stu-id="3ae5a-184">Setting Up Fixed Assets</span></span>](fa-setup.md)  
+[<span data-ttu-id="3ae5a-185">Finanzas</span><span class="sxs-lookup"><span data-stu-id="3ae5a-185">Finance</span></span>](finance.md)  
+<span data-ttu-id="3ae5a-186">[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="3ae5a-186">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
 

@@ -16,23 +16,22 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 8226961d467dee7b03c22632c6dab008ceecad44
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="recording-interactions-with-contacts-automatically"></a>Registrar interacciones con contactos automáticamente
-Puede configurar la aplicación para que registre automáticamente interacciones de ventas, compras y documentos de servicio, hojas de portada, correos electrónicos, llamadas telefónicas, como:
+# <a name="recording-interactions-with-contacts-automatically"></a><span data-ttu-id="53812-103">Registrar interacciones con contactos automáticamente</span><span class="sxs-lookup"><span data-stu-id="53812-103">Recording Interactions with Contacts Automatically</span></span>
+<span data-ttu-id="53812-104">Puede configurar la aplicación para que registre automáticamente interacciones de ventas, compras y documentos de servicio, hojas de portada, correos electrónicos, llamadas telefónicas, como:</span><span class="sxs-lookup"><span data-stu-id="53812-104">You can set up the application to automatically record interactions for sales, purchase and service documents, cover sheets, e-mails, phone calls, such as:</span></span>
 
-* Imprimir ofertas, pedidos, facturas, abonos y hojas de portada de compra y de ventas.
-* Crear pedidos de servicio.
-* Registrar pedidos de servicio de ventas.
-* Enviar correos electrónicos a sus contactos.
-* Llamar a sus contactos, si tiene un teléfono compatible TAPI y la instalación correcta.
+* <span data-ttu-id="53812-105">Imprimir ofertas, pedidos, facturas, abonos y hojas de portada de compra y de ventas.</span><span class="sxs-lookup"><span data-stu-id="53812-105">Print sales or purchase quotes, orders, invoices, credit memos, cover sheets.</span></span>
+* <span data-ttu-id="53812-106">Crear pedidos de servicio.</span><span class="sxs-lookup"><span data-stu-id="53812-106">Create sales service orders.</span></span>
+* <span data-ttu-id="53812-107">Registrar pedidos de servicio de ventas.</span><span class="sxs-lookup"><span data-stu-id="53812-107">Post sales service orders.</span></span>
+* <span data-ttu-id="53812-108">Enviar correos electrónicos a sus contactos.</span><span class="sxs-lookup"><span data-stu-id="53812-108">Send e-mails to your contacts.</span></span>
+* <span data-ttu-id="53812-109">Llamar a sus contactos, si tiene un teléfono compatible TAPI y la instalación correcta.</span><span class="sxs-lookup"><span data-stu-id="53812-109">Call your contacts, if you have a TAPI-compliant telephone and the correct installation.</span></span>
 
-Para configurar los registros automáticos de estas interacciones, puede especificar plantillas de interacciones para estos documentos y acciones mediante la ventana **Configuración de plantilla de interacción**.  
-Para abrir la ventana **Configuración de plantilla de interacción**, elija el icono ![Buscar página o informe](media/ui-search/search_small.png "Search for Page or Report icon"), introduzca **Configuración de plantilla de interacción** y, a continuación, elija el vínculo relacionado.
+<span data-ttu-id="53812-110">Para configurar los registros automáticos de estas interacciones, puede especificar plantillas de interacciones para estos documentos y acciones mediante la ventana **Configuración de plantilla de interacción**.</span><span class="sxs-lookup"><span data-stu-id="53812-110">To set up the automatic recording of these interactions, you specify interaction templates for these documents and actions by using the **Interaction Template Setup** window.</span></span>  
+<span data-ttu-id="53812-111">Para abrir la ventana **Configuración de plantilla de interacción**, elija el icono ![Buscar página o informe](media/ui-search/search_small.png "Search for Page or Report icon"), introduzca **Configuración de plantilla de interacción** y, a continuación, elija el vínculo relacionado.</span><span class="sxs-lookup"><span data-stu-id="53812-111">To open the **Interaction Template Setup** window, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Interaction Template Setup**, and then choose the related link.</span></span>
 
-## <a name="see-also"></a>Consulte también
-[Registrar interacciones con contactos](marketing-interactions.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+## <a name="see-also"></a><span data-ttu-id="53812-112">Consulte también</span><span class="sxs-lookup"><span data-stu-id="53812-112">See Also</span></span>
+[<span data-ttu-id="53812-113">Registrar interacciones con contactos</span><span class="sxs-lookup"><span data-stu-id="53812-113">Recording Interactions With Contacts</span></span>](marketing-interactions.md)  
+<span data-ttu-id="53812-114">[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="53812-114">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
 
