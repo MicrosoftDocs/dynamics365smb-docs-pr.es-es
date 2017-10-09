@@ -10,12 +10,11 @@ ms.workload: na
 ms.search.keywords: invoicing, bookings
 ms.date: 06/14/2017
 ms.author: edupont
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 1f1a1645ba27a3b42d67c11f7472c283ca44dbd1
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="bulk-invoicing-for-microsoft-bookings-in-included365finincludesd365finmdmd"></a>Facturación masiva para Microsoft Bookings en [!INCLUDE[d365fin](includes/d365fin_md.md)]

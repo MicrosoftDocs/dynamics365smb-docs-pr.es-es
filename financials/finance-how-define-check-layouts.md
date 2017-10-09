@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: print check, customize
 ms.date: 06/15/2017
 ms.author: edupont
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: a2db2860846cd9b8010222faf580f0c9889e39a4
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-define-check-layouts"></a>Procedimiento: Definir diseños de cheque
@@ -27,7 +26,7 @@ Los cheques se han diseñado para imprimir formatos de imágenes de cheque de Es
 
 ## <a name="to-define-check-layouts"></a>Para definir diseños de cheque
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Selección informes banco** y, a continuación, seleccione el vínculo relacionado.
-2. En la ventana **Bancos - Selección informes**, en el campo **Uso**, seleccione **Cheque**.
+2. En la ventana **Informe selección - Bancos**, en el campo **Uso**, seleccione **Cheque**.
 3. Seleccione uno de los identificadores de informes siguientes:
 
 | Id. informe | Nombre informe | Descripción |

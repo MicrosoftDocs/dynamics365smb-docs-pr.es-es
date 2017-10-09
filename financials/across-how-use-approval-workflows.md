@@ -9,25 +9,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 04/25/2017
+ms.date: 08/24/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ffeffe725025dc03d2053333f75249679103b6a4
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b15bd0928e797918c7431e595b1bdf500a8d6792
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-use-approval-workflows"></a>Procedimiento: Usar flujos de trabajo de aprobación
 Cuando un registro, como un documento de compra o una ficha de cliente, necesita ser aprobado por alguien de su organización, enviará una solicitud de aprobación como parte de un flujo de trabajo. En función de la configuración del flujo de trabajo, el aprobador adecuado recibirá notificación sobre que el registro requiere su aprobación.
 
-Los flujos de trabajo de aprobación se crean en la ventana **Flujo de trabajo**.
+Los flujos de trabajo de aprobación se crean en la ventana **Flujo de trabajo**. Para obtener más información, consulte [Configurar flujos de trabajo](across-set-up-workflows.md).
+
+Además de los flujos de trabajo de aprobación descritos en este tema, puede realizar otras tareas de flujo de trabajo. Para obtener más información, [Uso de flujos de trabajo](across-use-workflows.md).
 
 Los flujos de trabajo de aprobación más importantes para los documentos de compras y ventas, los diarios de pago y las fichas de clientes y productos están listos para iniciar como configuración asistida. Para obtener más información, vea [[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)](index.md).
 
 > [!NOTE]  
->   Esta funcionalidad requiere que la experiencia esté definida en **Conjunto de aplicaciones**. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
+>   Esta funcionalidad requiere que la experiencia esté definida en **Suite**. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
 
 ## <a name="to-request-approval-of-a-record"></a>Para solicitar la aprobación de un registro
 La siguiente tarea se realizado por un usuario de aprobación.
@@ -47,17 +48,6 @@ Puede que un cliente desee cambiar un pedido después de que éste haya sido env
 - En la ventana que muestra el registro, seleccione la acción **Cancelar solicitud de aprobación**.
 
 Una vez cancelada la solicitud de aprobación, el estado del movimiento de aprobación relacionado cambia a **Cancelado**. El estado del registro también se actualiza de **Aprobación pendiente** a **Abierto**. El proceso de aprobación puede entonces comenzar de nuevo.
-
-## <a name="to-make-minor-changes-to-approved-records"></a>Para realizar cambios menores en los registros aprobados
-Si desea realizar un cambio menor en un registro después de que se haya aprobado, puede volver a abrir el registro, realizar el cambio y, a continuación, lanzarlo. En el caso de cambios menores, se puede hacer con los botones **Volver a abrir** y **Lanzar**.
-
-1. Abra la ventana que muestra el registro, por ejemplo una factura de compra, y seleccione la acción **Volver a abrir**.
-
-    El campo **Estado documento** cambia a **Abierto**.
-2. Realice los cambios necesarios en el registro, por ejemplo, la dirección del proveedor.
-3. Seleccione la acción **Liberar**.
-
-Cuando vuelva a abrir el registro de origen, el estado del movimiento de aprobación relacionado sigue siendo Aprobado en la ventana **Movimientos aprobación**.
 
 ## <a name="to-approve-or-reject-requests-for-approval"></a>Para aprobar o rechazar solicitudes de aprobación
 La siguiente tarea se realizado por un usuario de aprobación con derechos de aprobación.
@@ -95,7 +85,7 @@ La función **Enviar notificaciones de aprobación vencidas** buscará todas las
 2. En la ventana **Solicitudes de aprobación vencidas**, seleccione la acción **Seleccionar solicitudes de aprobación vencidas**.
 
 ## <a name="see-also"></a>Consulte también
-[Ventas](sales-manage-sales.md)    
+[Ccial](sales-manage-sales.md)    
 [Documentos entrantes](across-income-documents.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

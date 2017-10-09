@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: c50bd4ae740c688761e7f5871b036633949add79
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 3ece25dc08df403e8dc3743d30a54c4172665c50
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="creating-and-managing-contacts"></a>Creación y administración de contactos
@@ -27,7 +26,7 @@ Debe registrar como contactos todas las entidades externas con las que mantenga 
 
 Puede registrar información de una empresa o de una persona de dicha empresa. También puede crear una persona de contacto independiente que no trabaja para una empresa específica, sino de forma independiente como trabajador freelance.
 
-La tabla siguiente describe una secuencia de tareas, con vínculos a los temas que las describen. Dichas tareas se enumeran en el orden en el que generalmente se llevan a cabo.
+En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen. 
 
 | Para | Vea |
 | --- | --- |

@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.date: 03/29/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: b4ff3d64f23a5dfb9800abeedb7374764b060f4d
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-reconcile-payments-using-automatic-application"></a>Conciliar pagos con liquidación automática
@@ -33,7 +32,7 @@ La funcionalidad similar existe para conciliar el exceso de importes en las lín
 
 La función **Liquidar automáticamente** se usa automáticamente cuando se importa una fuente o un archivo bancario con transacciones de pago, o cuando se activa para liquidar pagos en sus movimientos pendientes relacionados basándose en una correspondencia de datos en una línea de diario con datos en uno o varios movimientos pendientes.
 
-En las líneas de diario donde un pago se ha liquidado automáticamente a un movimiento pendiente o varios, el campo **Confianza de la correspondencia** tiene un valor entre Baja y Alta para indicar la calidad de la correspondencia de datos en la que se basa la liquidación de pago sugerida. Además, los campos **Tipo cta.** y **N.º cuenta** se rellenan con información sobre el cliente o el proveedor para el que se liquidó el pago. Si ha configurado una asignación de texto a cuenta, la liquidación automática puede dar como resultado un valor de confianza de correspondencia **Alta: asignación de texto a cuenta**.
+En las líneas de diario donde un pago se ha liquidado automáticamente a un movimiento pendiente o varios, el campo **Confianza de la correspondencia** tiene un valor entre Baja y Alta para indicar la calidad de la correspondencia de datos en la que se basa la liquidación de pago sugerida. Además, los campos **Tipo de cuenta** y **N.º de cuenta** se rellenan con información sobre el cliente o el proveedor en el que se ha liquidado el pago. Si ha configurado una asignación de texto a cuenta, la liquidación automática puede dar como resultado un valor de confianza de correspondencia **Alta: asignación de texto a cuenta**.
 
 Para cada línea de diario en la ventana **Diario de conciliación de pagos** podrá abrir la ventana **Liquidación de pago** para ver todos los candidatos con movimientos pendientes de pago y podrá ver información detallada para cada movimiento sobre la correspondencia de datos en la que se basa la liquidación de un pago. Aquí puede liquidar manualmente pagos o volver a liquidar pagos que se aplicaron automáticamente en un movimiento incorrecto. Para obtener más información, vea [Procedimiento: Revisar o liquidar pagos después de una liquidación automática](receivables-how-review-apply-payments-auto-application.md).
 
@@ -52,7 +51,7 @@ Para cada línea de diario en la ventana **Diario de conciliación de pagos** po
 
     La ventana **Diario de conciliación de pagos** se rellena con líneas para pagos que representan transacciones bancarias en el extracto bancario importado.
 
-    En las líneas de los pagos que se han liquidado automáticamente en sus movimientos pendientes relacionados, el campo **Confianza de la correspondencia** tiene un valor entre **Bajo** y **Alto** para indicar la calidad de la correspondencia de datos en la que se basa la liquidación de pago sugerida. Además, los campos **Tipo cta.** y **N.º cuenta** se rellenan con información sobre el cliente o el proveedor para el que se liquidó el pago.
+    En las líneas de los pagos que se han liquidado automáticamente en sus movimientos pendientes relacionados, el campo **Confianza de la correspondencia** tiene un valor entre **Bajo** y **Alto** para indicar la calidad de la correspondencia de datos en la que se basa la liquidación de pago sugerida. Además, los campos **Tipo de cuenta** y **N.º de cuenta** se rellenan con información sobre el cliente o el proveedor en el que se ha liquidado el pago.
 7. Seleccione una línea de diario y, a continuación, seleccione la acción **Liquidar manualmente** para revisar, volver a liquidar o liquidar el pago manualmente en la ventana **Liquidación de pago**. Para obtener más información, vea [Procedimiento: Revisar o liquidar pagos después de una liquidación automática](receivables-how-review-apply-payments-auto-application.md).
 
     Cuando termine la liquidación manual, el campo **Confianza de la correspondencia** en la línea de diario que ha procesado manualmente contendrá la palabra **Aceptado**.

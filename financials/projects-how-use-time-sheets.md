@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
 ms.date: 06/06/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 9d67198e172b82c20c9d998854a819e39ae523ff
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-use-time-sheets-for-jobs"></a>Uso de hojas de horas para proyectos
@@ -30,7 +29,7 @@ Una vez aprobados los movimientos de la hoja de horas de un proyecto, puede regi
 Para poder utilizar las hojas de horas, debe configurar la información general y especificar un administrador y uno o varios aprobadores de hojas de horas. Para obtener más información, vea [Configuración de hojas de horas](projects-how-setup-time-sheets.md).
 
 > [!NOTE]  
->   Esta funcionalidad requiere que la experiencia esté definida en **Conjunto de aplicaciones**. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
+>   Esta funcionalidad requiere que la experiencia esté definida en **Suite**. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
 
 ## <a name="to-create-a-time-sheet"></a>Para crear una hoja de horas
 Puede usar el proceso **Crear hojas de horas** para configurar hojas de horas de un número determinado de periodos o semanas. Después, el propietario de la hoja de horas puede abrirla y registrar el tiempo dedicado en una tarea.
@@ -71,7 +70,7 @@ Si la información de la hoja de horas no cambia con el tiempo, puede ahorrar ti
 2. Abra la hoja de horas de un periodo posterior al periodo de una hoja de horas existente con las líneas.  
 3. Elija la acción **Copiar líneas desde hoja de horas anterior**.
 
-Las líneas se copiarán, incluidos los detalles como el tipo y la descripción. Por ejemplo, si la línea está relacionada con un proyecto, **Nº proyecto** es el campo que se copia. Todas las líneas copiadas tienen el estado **Abierto**. Ahora puede modificar las líneas según sea necesario.
+Las líneas se copiarán, incluidos los detalles como el tipo y la descripción. Por ejemplo, si la línea está relacionada con un trabajo, se copiará **Nº proyecto**. Todas las líneas copiadas tienen el estado **Abierto**. Ahora puede modificar las líneas según sea necesario.
 
 ## <a name="to-fill-in-a-time-sheet-lines-and-submit-for-approval"></a>Para rellenar una línea de hoja de horas y enviarla para su aprobación
 El registro de la hoja de horas se hace en horas, la unidad de medida base estándar para los recursos. De forma predeterminada, una hoja de horas muestra los días de trabajo comunes de lunes a viernes.

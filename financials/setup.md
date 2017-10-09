@@ -1,8 +1,6 @@
 ---
 title: Resumen de tareas para configurar Dynamics 365 for Financials | Documentos de Microsoft
 description: "Describe las tareas para preparar, inicializar y configurar Dynamics 365 for Financials según sus necesidades."
-services: project-madeira
-documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,14 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 06/07/2017
+ms.date: 09/01/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: e6efc11442a693da00c289866b726345ef97fb39
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: cbf0f6521db686f4e1a820070969bd0193227015
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="setting-up-dynamics-365-for-financials"></a>Configurar Dynamics 365 for Financials
@@ -38,15 +35,28 @@ Alguna funcionalidad, general o de procesos empresariales específicos, se puede
 | Configure las reglas y los valores que definen las directivas de inventario de la empresa, configure almacenes si guarda el inventario en varios almacenes y clasifique los productos para mejorar la búsqueda y la clasificación. |[Configurar inventario](inventory-setup-inventory.md) |
 | Configure recursos, hojas de horas y proyectos para administrar proyectos. |[Configurar la administración de proyectos](projects-setup-projects.md) |
 | Configurar el modo de asegurar, mantener y amortizar activos fijos, y el modo de registrar los costes de los activos fijos en los libros de su empresa. |[Configurar activos fijos](fa-setup.md) |
+|Definir las reglas y los valores generales para los procesos de almacén y la manipulación específica de cada ubicación.|[Configuración de la gestión del almacén](warehouse-setup-warehouse.md)|
+|Preparar las L.M. y las rutas de producción para definir cómo se producen los productos finales y preparar centros de máquina o de trabajo para realizar las operaciones necesarias.|[Configuración de fabricación](production-configure-production-processes.md)|
 | Configure códigos de identificación únicos para registros, como fichas, documentos y líneas de diario, para realizar su seguimiento en el sistema. |[Crear serie numérica](ui-create-number-series.md) |
 | Configure la ventana **Configuración correo SMTP** para registrar y recibir correos electrónicos de documentos en [!INCLUDE[d365fin](includes/d365fin_md.md)]. |[Configurar el correo electrónico](madeira-how-setup-email.md) |
-| Configure códigos de identificación únicos. |[Crear numeración](ui-create-number-series.md) |
+| Configure códigos de identificación únicos. |[Procedimiento: crear números de serie](ui-create-number-series.md) |
+
+Algunas regiones requieren que sea el administrador en su suscripción [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, consulte [Configuración y administración en Dynamics 365 for Financials](admin-setup-and-administration.md).  
 
 ## <a name="see-also"></a>Consulte también
 [Finanzas](finance.md)  
-[Ventas](sales-manage-sales.md)  
-[Compras](purchasing-manage-purchasing.md)  
+[Ventas](sales-manage-sales.md)
+[Compra](purchasing-manage-purchasing.md)  
+[Grupos contables inventario](inventory-manage-inventory.md)    
+[Gestión de proyectos](projects-manage-projects.md)
+[Activo fijos](fa-manage.md)    
+[Gestión de ensamblaje](assembly-assemble-items.md)  
+[Fabricación](production-manage-manufacturing.md)  
+[Gestión almacén](warehouse-manage-warehouse.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[[!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  
+[Configuración y Administración en Dynamics 365 for Financials](admin-setup-and-administration.md)  
+[Crear nuevas en empresas en [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

@@ -11,12 +11,11 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
 ms.date: 06/02/2017
 ms.author: edupont
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: aedd27545da932155d453bf6aa476a4e9f898fc6
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-email-manually-or-using-the-assisted-setup"></a>Configurar el correo electrónico manualmente o con la configuración asistida
@@ -30,7 +29,7 @@ Puede configurar el correo electrónico manualmente o puede obtener ayuda median
 ## <a name="to-set-up-email"></a>Para configurar el correo electrónico
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe") e introduzca **Configuración correo electrónico SMTP** y, a continuación, elija el vínculo relacionado.
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Opcionalmente, elija la acción **Aplicar la configuración del servidor de Office 365** para insertar información que ya esté definida para su de suscripción de Office 365.
+3. Opcionalmente, elija la acción **Aplicar la configuración del servidor de Office 365** para insertar información que ya esté definida para su suscripción de Office 365.
 4. Una vez rellenados correctamente todos los campos, elija la acción **Configuración de correo elect. de prueba**.
 5. Cuando la prueba se realice correctamente, cierre la ventana.
 

@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
 ms.date: 06/02/2017
 ms.author: bholtorf
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ebf31708fcd95b6d4746f1a3616b0eb104055514
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b11c6ea21b507024e6024b180205e02a60fe9465
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="analyzing-cash-flow-in-your-company"></a>Analizar el flujo de efectivo de la empresa
@@ -30,7 +29,6 @@ Como dicen, el efectivo es el rey. Los gráficos del Área de trabajo Contable p
 | ¿Parece que los números están descuadrados para un periodo?</br> ¿Debo investigarlo? |Ingresos y gastos |
 | ¿Cuándo podría suceder un exceso o un déficit de efectivo?</br> ¿Debo pagar la deuda o pedir prestado para cubrir costes próximos? |Previsiones de flujo de efectivo |
 
-## <a name="dig-into-the-numbers"></a>Analizar los números
 En el área de trabajo Contable, en **Rendimiento finanzas**, los gráficos **Ciclo de efectivo**, **Flujo de efectivo** e **Ingresos y gastos** proporcionan formas de analizar el flujo de efectivo:  
 
 * Consulte las cifras de un periodo mediante el control deslizante de la escala de tiempo.  
@@ -46,7 +44,7 @@ Si desea examinar la previsión, además de los movimientos de previsión, tambi
 * Resta los pagos y suma los cobros.  
 * Omite los pedidos de venta y de compra duplicados.  
 
-### <a name="to-view-a-cash-flow-worksheet"></a>Para ver la hoja de flujo de efectivo
+## <a name="to-view-a-cash-flow-worksheet"></a>Para ver la hoja de flujo de efectivo
 1. Busque **Previsiones de flujo de efectivo** y, a continuación, elija el vínculo relacionado.  
 2. Seleccione una previsión de flujo de efectivo y, a continuación, seleccione la acción **Hoja flujos efectivo**.  
 3. En la página **Hoja flujos efectivo**, elija la acción **Proponer líneas de hoja de trabajo**.  

@@ -1,6 +1,6 @@
 ---
 title: Obtener un resumen de disponibilidad| Documentos de Microsoft
-description: "Puede obtener información sobre la disponibilidad de los productos o existencias en distintos almacenes, por eventos de venta o de compra, por un periodo de tiempo o por la posición del producto en una L.M. de ensamblado."
+description: "Puede obtener información sobre la disponibilidad de los productos o existencias en distintos almacenes, por eventos de venta o de compra, por un periodo de tiempo o por la posición del producto en una L.M. de ensamblado o producción."
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -9,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.date: 06/02/2017
+ms.date: 08/15/2017
 ms.author: SorenGP
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 83af1b6b3a234f67ccc26ee9bba7f5e3e6ff6d77
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 17af257627549023212c8c19f708c836c1c4bb7f
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-view-the-availability-of-items"></a>Consultar la disponibilidad de los productos
@@ -78,10 +77,10 @@ Puede ver la disponibilidad de todos sus productos en todas sus ubicaciones en l
     La ventana **Productos por almacén** muestra la cantidad de todos sus productos que hay disponible en cada ubicación.
 3. Elija el valor en el campo **Cantidad física disponible** para ver los movimientos de productos que constituyen el valor.
 
-## <a name="to-view-the-availability-of-an-item-by-its-use-in-assembly-boms"></a>Para consultar la disponibilidad de un producto por su uso en las L.M. de ensamblado
-Si un producto existe en las L.M. de ensamblado, como producto principal o como componente, puede ver cuántas unidades se requieren en la ventana **Disponibilidad prod. por nivel L.M.** La ventana muestra cuántas unidades de un producto principal se pueden producir según la disponibilidad de productos secundarios en las líneas subyacentes. Cualquier producto cuya L.M. de ensamblado se muestre en la ventana como una línea contraíble. Puede expandir esta línea para ver los componentes subyacentes y subconjuntos de nivel inferior con sus propias L.M.
+## <a name="to-view-the-availability-of-an-item-by-its-use-in-assembly-or-production-boms"></a>Para consultar la disponibilidad de un producto por su uso en las L.M. de ensamblado o producción
+Si un producto existe en las L.M. de ensamblado o producción, como producto principal o como componente, puede ver cuántas unidades se requieren en la ventana **Disponibilidad producto por nivel L.M.**. La ventana muestra cuántas unidades de un producto principal se pueden producir según la disponibilidad de productos secundarios en las líneas subyacentes. Cualquier producto cuya L.M. de ensamblado o producción se muestre en la ventana como una línea contraíble. Puede expandir esta línea para ver los componentes subyacentes y subconjuntos de nivel inferior con sus propias L.M.
 
-Puede utilizar la ventana para averiguar si puede completar una pedido de venta para un producto en una fecha especificada consultando su disponibilidad actual en y las cantidades que sus componentes pueden suministrar. También puede utilizar la ventana para especificar los cuellos de botella en las L.M. de ensamblado relacionadas.
+Puede utilizar la ventana para averiguar si puede completar una pedido de venta para un producto en una fecha especificada consultando su disponibilidad actual en y las cantidades que sus componentes pueden suministrar. También puede utilizar la ventana para especificar los cuellos de botella en las L.M. relacionadas.
 
 En cada línea de la ventana para los productos principales y los productos secundarios, los siguientes campos de clave especifican las cifras de disponibilidad. Puede usar estas cifras para comprometer cuántas unidades de un producto principal puede suministrar si inicia el proceso de ensamblado relacionado.
 
@@ -90,6 +89,7 @@ En cada línea de la ventana para los productos principales y los productos secu
 |**Puede hacer elemento primario**|Muestra cuántas unidades de cualquier producto semiterminado del producto superior puede producir. El campo especifica cuántas unidades principales inmediatas puede ensamblar. El valor se basa en la disponibilidad del producto de la línea.|
 |**Puede hacer prod. ppal.**|Muestra cuántas unidades del producto superior puede producir. El campo especifica cuántas unidades del producto de la L.M. de la línea superior puede ensamblar. El valor se basa en la disponibilidad del producto de la línea.|
 
+### <a name="item-availability-by-bom-level-window"></a>Ventana Disponibilidad prod. por nivel L.M.
 La ventana **Disponibilidad prod. por nivel L.M.** muestra información acerca del producto de la línea de ficha o documento para el que se ha abierto la ventana. El producto siempre se muestra en la línea superior. Puede ver la información de otros productos o de todos los productos cambiando el valor del campo **Filtro producto**.
 
 > [!NOTE]  
@@ -97,13 +97,28 @@ La ventana **Disponibilidad prod. por nivel L.M.** muestra información acerca d
 
 El campo **Cuello de botella** especifica qué producto de una estructura de L.M. le impide producir una cantidad mayor que la cantidad que se muestra en el campo **Puede hacer prod. ppal.** Por ejemplo, el artículo de embotellamiento puede ser un componente comprado con una fecha de recepción esperada que es demasiado atrasada para realizar las unidades de artículos adicionales del artículo superior por la fecha del campo **Fecha en que se necesita**.
 
+## <a name="assembly-availability-window"></a>Ventana Disponibilidad de ensamblado
+La ventana **Disponibilidad de ensamblado** muestra la información de disponibilidad detallada para el elemento del ensamblado. Abre:
+
+- Automáticamente de una línea del pedido de venta en los escenarios de ensamblar para pedido cuando se introduce una cantidad que causa un problema de disponibilidad de componente.
+- Automáticamente de una cabecera del pedido de ensamblado cuando se introduce un valor en el campo Cantidad que causa un problema de disponibilidad de componente.
+- Manualmente cuando se abre desde un pedido de ensamblado. En la pestaña Acciones, en el grupo Funciones, haga clic en Mostrar disponibilidad.
+
+La ficha desplegable **Detalles** muestra información detallada de la disponibilidad del elemento de ensamblado, incluida cuánta de la cantidad del pedido de ensamblado se puede ensamblar para la fecha de vencimiento basándose en la disponibilidad de los componentes necesarios. Esto se mostrará en el campo Capaz de ensamblar en la ficha desplegable Detalles.
+
+El valor del campo de **Capaz de ensamblar** se muestra en una fuente de color rojo si la cantidad es menor que la que hay en el campo **Cantidad pendiente**, lo que indica que no hay suficientes componentes disponibles para ensamblar la cantidad total.
+
+La ficha desplegable **Líneas** muestra información detallada de la disponibilidad de los componentes del ensamblado.
+
+Si uno o más componentes del ensamblado no están disponibles, se reflejará en el campo **Capaz de ensamblar** en la línea en cuestión como cantidad inferior que la del campo **Cantidad pendiente** en la ficha desplegable **Detalles**.
+
 ## <a name="see-also"></a>Consulte también
 [Gestionar inventario](inventory-manage-inventory.md)  
+[Gestión de ensamblaje](assembly-assemble-items.md)  
 [Trabajar con listas de materiales](inventory-how-work-BOMs.md)    
 [Configuración de almacenes](inventory-how-setup-locations.md)  
-[Transferir el inventario entre almacenes](inventory-how-transfer-between-locations.md)  
+[Procedimiento: transferir el inventario entre almacenes](inventory-how-transfer-between-locations.md)  
 [Vender productos](sales-how-sell-products.md)      
-[Cadena de suministro](madeira-supply-chain.md)  
 [Trabajar con Financials](ui-work-product.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)
 

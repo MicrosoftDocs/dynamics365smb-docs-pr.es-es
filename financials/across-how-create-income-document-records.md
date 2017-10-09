@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 36e1acc3125e325a9fca8fdd9ce797ac50c065c1
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: c6e4b4dd5535848bba257fc422436c43b827d95a
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-create-incoming-document-records"></a>Procedimiento: Crear registros de documento entrantes
@@ -44,7 +43,7 @@ Si aprueba el registro de documento entrante, se marca la casilla **Lanzado** de
 3. En la ventana **Documentos entrantes**, elija el botón de puntos suspensivos y seleccione **Crear desde la cámara**. La cámara de la tableta o del teléfono se activará.
 4. Tome una foto de un documento, como un albarán de compra, que desee procesar como documento entrante y, a continuación, seleccione el botón **Aceptar**.
 
-Se crea un nuevo registro de documento entrante con la imagen adjunta.
+    Se crea un nuevo registro de documento entrante con la imagen adjunta.
 
 ## <a name="to-attach-an-image-to-an-incoming-document-record-by-taking-a-photo"></a>Para adjuntar una imagen en un registro de documento entrante
 > [!NOTE]  
@@ -55,14 +54,12 @@ Se crea un nuevo registro de documento entrante con la imagen adjunta.
 3. En la ventana **Documento entrante**, elija el botón de puntos suspensivos y seleccione **Adjuntar imagen desde la cámara**. La cámara de la tableta o del teléfono se activará.
 4. Tome una foto de un documento, como un albarán de compra, que desee procesar como documento entrante y, a continuación, seleccione el botón **Aceptar**.
 
-La imagen se adjunta al registro de documento entrante.
+    La imagen se adjunta al registro de documento entrante.
 
 ## <a name="to-create-an-incoming-document-record-manually"></a>Para crear un registro de documento entrante manualmente
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Documentos entrantes** y, a continuación, seleccione el vínculo relacionado.
 2. Elija la acción **Crear desde archivo**.  
-3. En la ventana **Insertar archivo**, seleccione un archivo y, a continuación, elija **Abrir**.
-
-    El campo se adjunta automáticamente.
+3. En la ventana **Insertar archivo**, seleccione un archivo y, a continuación, elija **Abrir**. El campo se adjunta automáticamente.
 4. De forma alternativa, elija la acción **Nuevo**.
 5. Para adjuntar un archivo, elija la acción **Adjuntar archivo**.
 6. En la ventana **Insertar archivo**, seleccione el archivo que representa el documento entrante en cuestión y, a continuación, elija el botón **Abrir**.

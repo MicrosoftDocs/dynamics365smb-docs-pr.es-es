@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
 ms.date: 03/29/2017
 ms.author: solsen
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ed0a6848f07999246566ad740e02abfc561ae130
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b486061fbb497019a56eda803df0b320565ea7bf
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="changing-basic-settings"></a>Cambiar la configuración básica
@@ -49,8 +48,11 @@ La fecha predeterminada de trabajo será normalmente la fecha actual. Es posible
 > [!IMPORTANT]  
 >   La fecha de trabajo se cambia solo hasta que cierre la empresa o hasta que la fecha cambie. Si abre una empresa diferente o la misma al día siguiente y debe utilizar una fecha de trabajo diferente, tendrá que volver a definirla.
 
-## <a name="confirmation-dialogs"></a>Cuadros de diálogo de confirmación
-Use las opciones de esta sección si desea especificar comprobaciones adicionales para los documentos de registro. Estas opciones se comprueban como estándar, pero puede desmarcar las casillas para evitar advertencias o mensajes específicos.
+## <a name="region"></a>Región
+El valor **Región** determina cómo se muestran o se forman las fechas, los tiempos, los números, y divisas.   
+
+## <a name="change-when-i-receive-notifications"></a>Cambiar cuándo recibo notificaciones
+Seleccione este vínculo para ver o cambiar las notificaciones que recibe sobre determinados eventos o cambios de estado, cuando va a facturar a un cliente que tiene un saldo vencido o cuando el inventario disponible es inferior a la cantidad que va a vender, por ejemplo. Para obtener más información, consulte [Notificaciones inteligentes](ui-smart-notifications.md).
 
 ## <a name="see-also"></a>Consulte también
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

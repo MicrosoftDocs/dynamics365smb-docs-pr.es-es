@@ -12,18 +12,17 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.date: 06/07/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 0f753e84a9318cdd3a58ed192437206659b6a2ad
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b41328283c732d3d9cb3ff66ef89c13d0bd3b7bf
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="closing-years-and-periods"></a>Cerrar años y periodos
 Al final de un año fiscal, existen distintas tareas administrativas que debe realizar, como asegurarse de que se han publicado todos los documentos y diarios, asegurarse de que se han actualizado los datos de las divisas, cerrar los libros, etc. Las tareas reales dependerán de su empresa.
 
-La tabla siguiente proporciona un resumen de las tareas que realiza, por lo general, para cerrar un ejercicio o periodo. Dichas tareas se enumeran en el orden en el que generalmente se llevan a cabo.
+La tabla siguiente proporciona un resumen de las tareas que realiza, por lo general, para cerrar un ejercicio o periodo. 
 
 | Para | Vea |
 | --- | --- |

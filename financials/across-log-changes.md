@@ -11,12 +11,11 @@ ms.workload: na
 ms.search.keywords: user log, user activity, tracking
 ms.date: 06/02/2017
 ms.author: edupont
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: c27c63ae26f2f97dd15d31978b967f6a08dd55b7
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="logging-changes-in-dynamics-365-for-financials"></a>Registrar cambios en Dynamics 365 for Financials

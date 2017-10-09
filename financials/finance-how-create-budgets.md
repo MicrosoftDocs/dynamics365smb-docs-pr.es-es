@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: postpone
 ms.date: 06/16/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 7dfd3cc7efe00b48a39982bb220ccc21b7409da4
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: cda69d70ece090a149a13e5e1f4ed02fa70c49f7
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-create--budgets"></a>Crear presupuestos
@@ -25,10 +24,14 @@ Puede tener varios presupuestos para idénticos periodos de tiempo si crea presu
 
  Al crear un presupuesto, puede definir cuatro dimensiones para cada presupuesto. Estas dimensiones específicas de presupuesto se denominan dimensiones de presupuesto. Seleccione las dimensiones de presupuesto para cada uno de los presupuestos a partir de las dimensiones que ya ha configurado. Es posible utilizar las dimensiones de presupuesto para filtrar en un presupuesto y para agregar información de dimensiones a movimientos de presupuesto. Para obtener más información, consulte [Trabajar con dimensiones](finance-dimensions.md).
 
- Los presupuestos desempeñan una función importante en la inteligencia empresarial, como los extractos financieros en función de los esquemas de cuentas que incluyen movimientos de presupuesto o al analizar los importes presupuestados frente a los reales en el plan de cuentas. Para obtener más información, consulte [Inteligencia empresarial](bi.md).   
+ Los presupuestos desempeñan una función importante en la inteligencia empresarial, como los extractos financieros en función de los esquemas de cuentas que incluyen movimientos de presupuesto o al analizar los importes presupuestados frente a los reales en el plan de cuentas. Para obtener más información, consulte [Inteligencia empresarial](bi.md).
+
+ Los presupuestos desempeñan una función importante en la inteligencia empresarial, como los extractos financieros en función de los esquemas de cuentas que incluyen movimientos de presupuesto o al analizar los importes presupuestados frente a los reales en el plan de cuentas. Para obtener más información, consulte [Inteligencia empresarial](bi.md).
+
+En contabilidad de costes, trabaja con los presupuestos de costes de forma similar. Para obtener más información, consulte [Crear presupuestos de costes](finance-create-cost-budgets.md).    
 
  > [!NOTE]  
->   Esta funcionalidad requiere que la experiencia esté definida en **Conjunto de aplicaciones**. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).  
+>   Esta funcionalidad requiere que la experiencia esté definida en **Suite**. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).  
 
 ### <a name="to-create-a-new-budget"></a>Para crear un nuevo presupuesto  
 

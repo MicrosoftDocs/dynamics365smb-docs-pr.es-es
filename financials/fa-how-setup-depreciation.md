@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: fbdfc4431056c4851208aa063daf8761b4e70bf1
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-fixed-asset-depreciation"></a>Procedimiento: Configurar la amortización de los activos fijos
@@ -54,7 +53,7 @@ Si desea asignar un libro de amortización a varios activos fijos, puede utiliza
 2. Seleccione el activo al que desea asignarle un libro de amortización y, a continuación, elija la acción **Editar**.
 3. En la ventana **Ficha libro amortización**, elija la acción **A/F Crear libros amortización**.
 4. En la ventana **A/F Crear libros amortización**, rellene el campo **Libro amortización**.
-5. Elija el campo **A/F Copiar desde n. º** y, a continuación, seleccione el número de activo que desea utilizar como base para la creación de los nuevos libros de amortización de activos.
+5. Elija el campo **A/F Copiar desde nº** y, a continuación, seleccione el número de activo que desee utilizar como base para crear nuevos libros de amortización de activos fijos.
 
     Si rellena este campo, los campos de amortización de los nuevos libros de amortización de activos fijos contendrán la misma información que los campos correspondientes del libro desde el que va a copiarlos. Deje este campo en blanco si desea crear libros de amortización de activos fijos con los campos de amortización vacíos.  
 6. En la ficha desplegable **Activo**, puede establecer un filtro para seleccionar los activos para los que desee crear los libros de amortización de activos.

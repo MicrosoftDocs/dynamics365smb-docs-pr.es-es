@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 06/02/2017
 ms.author: edupont
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 53c588f65232656d2362873347c6c7dc0d412449
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="viewing-list-data-in-power-bi-reports-in-dynamics-365-for-financials"></a>Ver datos de listas en informes de Power BI en Dynamics 365 for Financials
@@ -64,7 +63,7 @@ En esta sección se proporciona una solución para los problemas más habituales
 
 **El usuario no ve un informe en la página Seleccionar informe que desea seleccionar** Si no puede seleccionar un informe, una solución posible es comprobar el nombre del informe para asegurarse de que contiene el nombre de la página de listas. También puede borrar el filtro para obtener una lista completa de los informes de Power BI disponibles.  
 
-**El informe se carga pero está en blanco, no se ha filtrado o se ha filtrado incorrectamente** Compruebe que el filtro de informe contenga la clave primaria correcta. En la mayoría de los casos, es el campo **Nº**, pero en la tabla **Mov. contabilidad**, por ejemplo, debe usar el campo **Nº mov.** .
+**El informe se carga pero está en blanco, no se ha filtrado o se ha filtrado incorrectamente** Compruebe que el filtro de informe contenga la clave primaria correcta. En la mayoría de los casos, es el campo **Nº**, pero en la tabla **Mov. contabilidad**, por ejemplo, debe usar el campo **Nº mov.**
 
 **El informe se carga, pero no muestra la página prevista** Compruebe que la página que desea mostrar es la primera página del informe.  
 

@@ -10,18 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
-ms.date: 06/06/2017
+ms.date: 06/28/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: bb79c8df5b353239802f63fc3c268c83b6eb7859
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: bab124ecc4d98886e41fbee3af00d4913435c993
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-export-payments-to-a-bank-file"></a>Exportación de pagos a un archivo de banco
-Cuando esté listo para hacer los pagos a los proveedores mediante la ventana **Diario de pagos**, puede exportar un archivo con la información de pago en las líneas del diario. Después, puede cargar el archivo al banco electrónico para procesar las transferencias de dinero relacionadas.
+Cuando esté listo para hacer los pagos a los proveedores, o reembolsos a sus empleados, en la ventana **Diario de pagos**, puede exportar un archivo con la información de pago en las líneas del diario. Después, puede cargar el archivo al banco electrónico para procesar las transferencias de dinero relacionadas.
 
 En la versión genérica de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], ya está configurado y conectado un proveedor global de servicios de conversión de datos bancarios a cualquier formato de archivo que el banco requiera. En las versiones para Norteamérica, el mismo servicio se puede utilizar para enviar archivos de pagos como transferencia electrónica de fondos (EFT), al menos con un proceso ligeramente distinto. Vea el paso 6 de la sección "Para exportar pagos a un archivo bancario".    
 
@@ -35,10 +34,8 @@ Use la ventana **Registros de transferencia de crédito** para ver los archivos 
 2. Rellene las líneas de diario de pago, por ejemplo, mediante la función **Proponer pagos a proveedores**. Para obtener más información, vea [Procedimiento: Proponer pagos a proveedores](payables-how-suggest-vendor-payments.md).
 3. Rellene los campos de las líneas del diario de pagos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-    > [!NOTE]  
->   Si utiliza EFT, debe seleccionar **Pago electrónico** o **Pago electrónico-IAT** en el campo **Tipo pago por banco**.
-
-    Distintos servicios de exportación de archivos y sus formatos requieren valores de configuración diferentes en las ventanas **Ficha banco** y **Ficha banco proveedor**. Estará informado sobre valores de configuración incorrectos o que faltan al intentar exportar el archivo.
+> [!NOTE]  
+>   Si utiliza EFT, debe seleccionar **Pago electrónico** o **Pago electrónico-IAT** en el campo **Tipo pago por banco**. Distintos servicios de exportación de archivos y sus formatos requieren valores de configuración diferentes en las ventanas **Ficha banco** y **Ficha banco proveedor**. Estará informado sobre valores de configuración incorrectos o que faltan al intentar exportar el archivo.
 
 4. Cuando haya completado todas las líneas del diario de pagos, elija la acción **Exportar**.
 5. En la ventana **Exportar pagos electrónicos**, rellene los campos según sea necesario.
@@ -46,7 +43,7 @@ Use la ventana **Registros de transferencia de crédito** para ver los archivos 
     Los mensajes de error aparecerán en el cuadro informativo **Errores del archivo de pagos**, donde también puede elegir un mensaje de error para ver información detallada. Debe resolver todos los errores para que se pueda exportar el archivo de pagos.
 
     > [!TIP]  
->   Cuando usa la función del servicio de conversión de datos bancarios, un mensaje de error común indica que el número de la cuenta bancaria no tiene la longitud que el banco requiere. Para evitar o resolver error, debe eliminar el valor **IBAN** en la ventana **Tarjeta de cuenta bancaria** y, a continuación, en el campo **N.º cuenta bancaria** introduzca un número de cuenta en el formato que el banco requiere.
+>   Cuando usa la función del servicio de conversión de datos bancarios, un mensaje de error común indica que el número de la cuenta bancaria no tiene la longitud que el banco requiere. Para evitar o resolver el error, debe eliminar el valor del campo en la ventana **IBAN** de la ventana **Ficha banco** y, a continuación, en el campo **N.º cuenta bancaria** un número de cuenta bancaria en el formato que requiera su banco.
 
 6. En la ventana **Guardar como**, especifique la ubicación a la que se exporta el archivo y, a continuación, seleccione **Guardar**.
 
@@ -94,3 +91,4 @@ Puede volver a exportar los archivos de pago desde la ventana **Registros de tra
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

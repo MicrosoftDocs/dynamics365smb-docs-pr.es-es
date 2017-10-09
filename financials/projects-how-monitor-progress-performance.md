@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, KPI, work in process, work in progress
-ms.date: 06/06/2017
+ms.date: 07/04/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 9b374c80a649a1e05c98fcbcea1ca447ec0b8d27
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 076b509ab5e9cf0f87f0910de11e49cda17f330a
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-monitor-job-progress-and-performance"></a>Supervisión del progreso y el rendimiento del proyecto
@@ -38,7 +37,8 @@ Si desea ver el resultado usando un método diferente, puede cambiar el método 
 ## <a name="to-create-a-job-wip-method"></a>Para crear un método de proyecto WIP
 Puede crear un método de proyecto WIP que refleje las necesidades de su organización. Una vez lo haya creado, puede establecerlo como el método de cálculo de proyecto WIP predeterminado que se utilizará en su organización.  
 
-**Nota**. Tras haber usado el nuevo método para crear los movimientos del WIP, no puede eliminar el método ni modificarlo.  
+> [!NOTE]
+> Tras haber usado el nuevo método para crear los movimientos del WIP, no puede eliminar el método ni modificarlo.  
 
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Métodos WIP de proyecto** y, a continuación, seleccione el vínculo relacionado.  
 2. Elija la acción **Nuevo** y, a continuación, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -94,9 +94,10 @@ Los movimientos relativos a proyectos se guardan en los registros de movimientos
 En la ventana **Movimientos de proyecto** puede revisar los movimientos que está asociado con algún proyecto.  
 
 ## <a name="see-also"></a>Consulte también
-[Administrar proyectos](projects-manage-projects.md)  
+[Administración de programas](projects-manage-projects.md)
+[Gestión de costes de inventario](finance-manage-inventory-costs.md)   
 [Finanzas](finance.md)  
 [Compras](purchasing-manage-purchasing.md)         
-[Ventas](sales-manage-sales.md)      
+[Ccial](sales-manage-sales.md)      
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

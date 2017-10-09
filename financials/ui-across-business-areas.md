@@ -10,33 +10,33 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 03/29/2017
+ms.date: 08/21/2017
 ms.author: solsen
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 50205c6831d3ed7e419711484de4ac5da886fe5b
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 8b33fab6b4aeb3f1f6110d999a69956a76f8defd
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="general-business-functionality"></a>Funciones empresariales generales
-[!INCLUDE[d365fin](includes/d365fin_md.md)] proporciona funciones dedicadas para las áreas habituales comerciales, como finanzas y ventas. Puede usar una variedad de funciones empresariales generales para las tareas específicas del área de negocio, como **Serie numérica** y **Extensiones**, que están disponibles en todas estas áreas.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] proporciona funciones dedicadas para las áreas habituales comerciales, como finanzas y ventas. Y para apoyar sus tareas específicas del área de negocios, puede utilizar una variedad de funciones generales como definir texto ampliado para las líneas del documento y organizar tareas comerciales conectadas en flujos de trabajo.
 
 En la tabla siguiente se indican las áreas de negocio generales, con vínculos a los temas que los describen.
 
 | Para | Vea |
 | --- | --- |
-| Asignar códigos de identificación exclusivos a registros, como cuentas de contabilidad, cuentas de proveedores y clientes, facturas y documentos. Un sistema de numeración bien diseñado también permite facilitar la gestión y el análisis de la empresa y puede reducir el número de errores que se producen en la introducción de datos. |[Crear serie numérica](ui-create-number-series.md) |
-| Establecer códigos de texto estándar para poder ampliarlo mediante la incorporación de líneas adicionales y establecer las condiciones de uso de estas últimas. |[Definir textos adicionales](ui-how-define-ext-text.md) |
-| Cambie [!INCLUDE[d365fin](includes/d365fin_md.md)] instalando extensiones que agregan funciones, cambian el comportamiento o proporcionan acceso a nuevos servicios en línea. |[Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones](ui-extensions.md) |
-| Obtenga información sobre cómo trabajar con diarios generales, que se usan para registrar en cuentas contables y otras cuentas, como bancarias, de clientes, de proveedores y de activos fijos. |[Gestionar diarios generales](ui-work-general-journals.md) |
-| Comunique el contenido de sus documentos empresariales rápidamente a sus socios comerciales, como la información de pago sobre documentos de ventas a clientes. |[Enviar documentos por correo electrónico](ui-how-send-documents-email.md) |
-| Asignar un movimiento en un diario general a varias cuentas al registrar el diario. |[Asignar costes e ingresos.](year-allocate-costs-income.md) |
-| Programar un informe para ejecutarlo en una fecha y hora específicos. |[Programar un informe para que se ejecute](ui-schedule-report.md) |
+| Establecer códigos de texto estándar para poder ampliarlo mediante la incorporación de líneas adicionales y establecer las condiciones de uso de estas últimas. |[Procedimiento: Definir textos adicionales](ui-how-define-ext-text.md) |
+| Obtenga información sobre cómo trabajar con diarios generales, que se usan para registrar en cuentas contables y otras cuentas, como bancarias, de clientes, de proveedores y de activos fijos. |[Trabajar con diarios generales](ui-work-general-journals.md) |
+| Comunique el contenido de sus documentos empresariales rápidamente a sus socios comerciales, como la información de pago sobre documentos de ventas a clientes. |[Enviar documentos por correo electrónico.](ui-how-send-documents-email.md) |
+| Programar un informe para ejecutarlo en una fecha y hora específicos. |[Programar un informe para que se ejecute](ui-work-report.md#ScheduleReport) |
 | Gestionar diferentes tipos de plantillas de informes. |[Gestión de diseños de informe](ui-manage-report-layouts.md) |
-| Solicitar y conceder la aprobación para crear o cambiar ciertos documentos y fichas. |[Usar flujos de trabajo de aprobación](across-how-use-approval-workflows.md) |
-| Registrar documentos externos en [!INCLUDE[d365fin](includes/d365fin_md.md)], incluidos los anexos de archivo y, a continuación, crear manualmente documentos relacionados o convertir automáticamente los archivos a documentos electrónicos. |[Gestionar documentos entrantes](across-income-documents.md) |
+| Seguimiento de las actividades de los usuarios.|[Registrar cambios en Financials](across-log-changes.md)|
+|Asignar permisos a los usuarios, modificar conjuntos de permisos y agrupar usuarios por permisos.|[Administrar usuarios y permisos](ui-how-users-permissions.md)|
+| Cambie [!INCLUDE[d365fin](includes/d365fin_md.md)] instalando extensiones que agregan funciones, cambian el comportamiento o proporcionan acceso a nuevos servicios en línea. |[Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones](ui-extensions.md) |
+|Configurar y utilizar los flujos de trabajo que vinculan tareas que realizan los distintos usuarios o el sistema, como registro automático. Solicitar y conceder aprobaciones para crear o registrar documentos son pasos habituales de un flujo de trabajo.|[Flujo de trabajo](across-workflow.md)|
+|Registrar documentos externos en Financials, incluidos los anexos de archivo y, a continuación, crear manualmente documentos relacionados o convertir automáticamente los archivos a documentos electrónicos.|[Documentos entrantes](across-income-documents.md)|
+| Configure definiciones de intercambio de datos para que pueda enviar y recibir documentos electrónicos. |[Intercambio de datos como documentos electrónicos ](across-data-exchange.md) |
 
 ## <a name="see-also"></a>Consulte también
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

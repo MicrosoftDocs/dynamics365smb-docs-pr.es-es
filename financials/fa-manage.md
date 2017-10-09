@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: c2a563d09d09e9772ab00fcffc48db9cbc5ee797
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="fixed-assets"></a>Activos fijos
@@ -35,7 +34,7 @@ Cada activo puede tener una o varias pólizas de seguro. Por tanto, podrá compr
 >   Puede registrar transacciones de activos en las ventanas **A/F Diario general** o **Diario activos fijos**, dependiendo de si las transacciones son para la información financiera o la gestión interna. La ayuda para los activos fijos solo describe cómo utilizar ventana **A/F Diario general**. Para obtener más información, consulte [Procedimiento: Configurar amortización de activos fijos](fa-how-setup-depreciation.md).
 
 > [!NOTE]  
->   Esta funcionalidad requiere que la experiencia esté definida en **Conjunto de aplicaciones**. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
+>   Esta funcionalidad requiere que la experiencia esté definida en **Suite**. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
 
 Para poder empezar a administrar los activos fijos, debe configurar valores predeterminados, la contabilidad de activos fijos, grupos contables, claves de asignación, diarios y tipos de registro. Para obtener más información, vea [Configurar activos fijos](fa-setup.md).
 

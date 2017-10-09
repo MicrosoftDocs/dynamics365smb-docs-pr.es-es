@@ -3,7 +3,7 @@ title: "Cambiar el aspecto de un informe seleccionando otro diseño | Documentos
 description: "Puede utilizar diseños distintos para un informe y cambiar de un diseño a otro para cambiar el aspecto de un informe."
 services: project-madeira
 documentationcenter: 
-author: SusanneWindfeldPedersen
+author: jswymer
 ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 03/29/2017
-ms.author: solsen
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: de0c429e8a5e03124c5a20977a9723570879952a
+ms.author: jswymer
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 677b7319baff476671c4c8ade4afed843f936c36
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-change-which-layout-is-currently-used-on-a-report"></a>Cambiar el diseño que se usa actualmente en un informe
@@ -25,7 +25,7 @@ Un informe se puede configurar con varios diseños de informe, entre los que pue
 Según los diseños disponibles para un informe, puede optar por usar un diseño de informe de RDLC integrado, un diseño de informe de Word integrado o un diseño personalizado. Para obtener más información acerca de los diseños de informe de RDLC y de Word, diseños personalizados e integrados y otros temas, consulte [Gestionar diseños de informe](ui-manage-report-layouts.md).
 
 ## <a name="to-change-the-layout-that-is-used-on-a-report"></a>Para cambiar el diseño que se usa en un informe
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "Search for Page or Report icon"), escriba **Selección de diseño de informes** y, a continuación, seleccione el vínculo relacionado.  
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Selección de diseño de informes** y, a continuación, seleccione el vínculo relacionado.  
    La ventana **Selección de diseño de informes** muestra todos los informes disponibles en la empresa especificada en el campo Empresa en la parte superior de la ventana. El campo Diseño seleccionado especifica el diseño que actualmente se está usando en el informe.
 2. Establezca el campo **Empresa** en la parte superior de la ventana en la empresa que incluye el informe.
 3. Para cambiar el diseño que se usa en un informe, en la fila del informe en la lista, establezca el campo **Diseño seleccionado** en una de las opciones siguientes:

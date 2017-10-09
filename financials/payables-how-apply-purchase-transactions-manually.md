@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment application, payment processing, match payments
-ms.date: 06/06/2017
+ms.date: 06/15/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6f0f3e1c14e21fff736b54b4c5f7423e1e909e72
+ms.translationtype: HT
+ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
+ms.openlocfilehash: 7c13f127f1ca9f9d95878d79afe21488df7868a6
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-reconcile-vendor-payments-manually"></a>Conciliar pagos de proveedor manualmente
@@ -35,7 +34,7 @@ Puede liquidar los movimientos de proveedor de tres formas distintas:
 > [!NOTE]  
 >   Si el campo **Método liquidación** de la ficha del proveedor contiene **Liq. por antigüedad**, los pagos se liquidarán manualmente en el movimiento más antiguo si no especifica manualmente qué movimiento quiere liquidar. Si el método de liquidación para un cliente es **Manual**, entonces deberá liquidar los movimientos manualmente.
 
-Puede liquidar pagos a proveedores manualmente a los documentos de compra relacionados cuando registre pagos en la ventana de **Diario de pagos**. Para obtener más información acerca del rellenar el diario de pagos, vea [Procedimiento: Efectuar pagos](payables-make-payments.md).
+Puede liquidar pagos a proveedores manualmente a los documentos de compra relacionados cuando registre pagos en la ventana de **Diario de pagos**. Para obtener más información acerca de cómo rellenar el diario de pagos, consulte [Efectuar pagos](payables-make-payments.md).
 
 También puede liquidar los pagos a proveedores y los pagos a clientes, después los pagos aparecen como transacciones negativas en su banco. En la ventana **Diario de conciliación de pagos**, puede usar las funciones para importar extractos bancarios, para la liquidación automática y para la conciliación de cuentas bancarias. Para obtener más información, vea [Conciliar pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md).
 
@@ -43,7 +42,7 @@ También puede liquidar los pagos a proveedores y los pagos a clientes, después
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diario de pagos** y, a continuación, seleccione el vínculo relacionado.
 2. En la ventana **Diario de pagos**, en la primera línea del diario, escriba la información correspondiente sobre el movimiento de pago.
 3. Para liquidar un solo movimiento de proveedor:
-   1. En el campo **Liq. por n.º documento** elija el campo para abrir la ventana **Movs. pendientes proveedor**.
+   1. En el campo **Liq. por n.º documento**, elija el campo para abrir la ventana **Movs. pendientes proveedor**.
    2. En la ventana **Movs. pendientes proveedor**, seleccione el movimiento al que quiere liquidar el pago.
    3. En la línea del campo **Importe pendiente de liquidar**, introduzca el importe para liquidar el movimiento.
 4. O para liquidar múltiples movimientos de proveedor:
@@ -61,7 +60,7 @@ También puede liquidar los pagos a proveedores y los pagos a clientes, después
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Abono compra** y, a continuación, seleccione el vínculo relacionado.
 2. Abra el abono que desea liquidar.
 3. Escriba la información relevante en la cabecera.
-4. Para liquidar un solo movimiento de proveedor, en la ficha desplegable **Aplicación**, en el campo **Liq. por nº documento** seleccione el movimiento para liquidar el abono y, a continuación, en el campo **Importe a liquidar**, escriba el importe a liquidar en el movimiento.
+4. Para liquidar un solo movimiento de proveedor, en la ficha desplegable **Liquidación**, campo **Liq. por n.º documento**, seleccione el movimiento para liquidar el abono y, a continuación, en el campo **Importe a liquidar**, introduzca el importe para liquidar el movimiento.
 5. O para liquidar múltiples movimientos de proveedor:
 
    1. Seleccione la acción **Liquidar movs.**.
@@ -71,7 +70,7 @@ También puede liquidar los pagos a proveedores y los pagos a clientes, después
 
        Si no especifica ninguna cantidad, se utiliza automáticamente el importe máximo. Al final de la ventana **Movs. pendientes proveedor**, podrá ver el importe específico incluido en el campo **Importe liquidado** y también si la liquidación está cuadrada.
 6. Elija el botón **Aceptar**.  
-   La ventana **Abono compra** muestra el movimiento que ha introducido en **Liq. por tipo documento** y **Liq. por n.º documento**. . La ventana también muestra el importe del abono para registrar, ajustado con los descuentos por pronto pago.
+   La ventana **Abono compra** muestra el movimiento que ha introducido en los campos **Liq. por tipo documento** y **Liq. por n.º documento**. La ventana también muestra el importe del abono para registrar, ajustado con los descuentos por pronto pago.
 7. Seleccione el botón **Registrar** para crear el abono de compra.
 
 ## <a name="to-apply-posted-vendor-ledger-entries"></a>Para liquidar movimientos de proveedor registrados

@@ -10,12 +10,11 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 06/06/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 53fb2ae7bbbaf3215ca2549e207512f7c06838b4
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 3f98a08415a896c37868bf0ed5efd9314d5ab07a
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="using-included365finincludesd365finmdmd-as-a-power-bi-data-source"></a>Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] como origen de datos de Power BI
@@ -43,6 +42,7 @@ Puede hacer que los datos de [!INCLUDE[d365fin](includes/d365fin_md.md)] estén 
 5. Elija el botón **Conexión** para continuar. El asistente Power BI muestra una lista de los orígenes de datos de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Este origen de datos todos los servicios web que haya publicado desde [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
    Si lo desea, puede crear una nueva dirección URL de servicio Web en [!INCLUDE[d365fin](includes/d365fin_md.md)] mediante la acción **Crear conjunto de datos** en la página **Servicios web**, utilizando la guía de configuración asistida **Configurar informes** o eligiendo la acción **Editar en Excel** en cualquier lista.
+
 6. Especifique los datos que desea agregar al modelo de datos y después seleccione el botón **Cargar**.
 7. Repita los pasos anteriores agregar datos de [!INCLUDE[d365fin](includes/d365fin_md.md)] adicionales a su modelo de datos de Power BI.
 
@@ -52,6 +52,7 @@ Puede hacer que los datos de [!INCLUDE[d365fin](includes/d365fin_md.md)] estén 
 Una vez que los datos se hayan cargado, aparecerán en el panel de navegación derecho en la página. Ya se ha conectado correctamente con los datos de Dynamics 365 y está preparado para comenzar a crear su informe de Power BI. Para obtener más información, consulte la [documentación de Power BI](https://powerbi.microsoft.com/documentation/powerbi-landing-page/).
 
 ## <a name="see-also"></a>Consulte también
+[Inteligencia empresarial](bi.md)  
 [[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Importar datos de empresa de otros sistemas financieros](upload-data.md)  
 [Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  

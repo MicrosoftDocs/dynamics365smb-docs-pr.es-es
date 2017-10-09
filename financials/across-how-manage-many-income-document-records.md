@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 06/02/2016
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: d840981dcceb54c74ac70ed0ddd05b3d3fa9bfc8
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 4256c563edc79ebfbe1bbe9337cf1e8a7e9d9991
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-manage-many-incoming-document-records"></a>Procedimiento: Gestionar varios registros de documento entrantes
@@ -35,7 +34,7 @@ La casilla de verificación **Procesado** se selecciona automáticamente en los 
 1. En la ventana **Documentos entrantes**, seleccione una o más líneas para los registros de documento entrantes que quiera eliminar de la vista por defecto.
 2. Seleccione la acción **Establecer en Procesado**.
 
-Los registros de documento entrantes se eliminan de la vista por defecto y la casilla **Procesado** se selecciona en las líneas.
+    Los registros de documento entrantes se eliminan de la vista por defecto y la casilla **Procesado** se selecciona en las líneas.
 
 > [!NOTE]  
 >   También puede realizar esta acción para el registro individual en la ventana **Ficha de documento** entrante.

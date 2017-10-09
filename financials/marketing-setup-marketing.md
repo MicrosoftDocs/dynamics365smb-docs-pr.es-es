@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 1bac6c541a07f5da6c42fa076627e174249f708b
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 941c9dcc1638fd82f945b0ac268854b5f34d4294
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="setting-up-relationship-management"></a>Configurar la gestión de relaciones
@@ -54,13 +53,10 @@ Para obtener más información, consulte [Procedimiento: Sincronizar contactos c
 ## <a name="assigning-a-number-series-to-contacts-and-opportunities"></a>Asignar una serie numérica a contactos y oportunidades
 Puede configurar números de serie para contactos y oportunidades. Si ha configurado una serie numérica para contactos, cuando cree un contacto, pulse Entrar en el campo N.º de la ficha de contacto y el programa introduce automáticamente el siguiente número de contacto disponible.
 
-Para obtener más información acerca de las series numéricas, consulte [Crear series numéricas](ui-create-number-series.md).
+Para obtener más información acerca de las series numéricas, consulte [Cómo crear series numéricas](ui-create-number-series.md).
 
 ## <a name="searching-for-duplicate-contacts-when-contacts-are-created"></a>Buscar contactos duplicados al crear contactos
 Puede elegir que el sistema busque duplicados de forma automática cada vez que cree una empresa de contacto o buscarlos de forma manual después de crearlos. También puede hacer que el sistema actualice las cadenas de búsqueda de forma automática cada vez que se crea un contacto o se modifica su información. Puede elegir el porcentaje de acierto búsqueda, es decir, el porcentaje de cadenas idénticas que dos contactos deben tener para considerarlos duplicados.
-
-## <a name="setting-up-email-logging"></a>Configurar el registro de correo electrónico
-Puede intercambiar correos electrónicos con sus contactos, clientes, proveedores, etc. Puede enviar y recibir sus mensajes de correo electrónico desde la aplicación o desde Outlook. Antes de que pueda intercambiar mensajes de esta forma y hacer que el sistema los almacene y los ponga en cola, tiene que configurar algunos parámetros, como el intervalo de tiempo en que el sistema comprobará si hay correos electrónicos esperando a procesarse, el nombre de perfil de la conexión con el correo, etc.
 
 ## <a name="see-also"></a>Consulte también
 [Gestionar contactos](marketing-contacts.md)  

@@ -11,12 +11,11 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
 ms.date: 0602/2017
 ms.author: edupont
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 29b204502281b728889098ae8d88f928e4f46e20
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="using-dynamics-365-for-financials-without-outlook"></a>Usar Dynamics 365 for Financials sin Outlook

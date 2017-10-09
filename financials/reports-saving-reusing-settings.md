@@ -1,8 +1,6 @@
 ---
 title: "Aplicar y modificar la configuración guardada en los informes | Documentos de Microsoft"
 description: Describe las opciones y los filtros predefinidos para personalizar un informe y para generar los datos correctos.
-services: project-madeira
-documentationcenter: 
 author: jswymer
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,17 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customization, personalization
-ms.date: 06/02/2017
+ms.date: 09/08/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 9e5f7417579a5ba0629032cf9fa664e0060b9cbf
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 2783c3a80beed5de6b7f7a63ff6811648ef48df3
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
-# <a name="saved-settings-on-reports"></a>Configuración guardada en los informes
+# <a name="managing-saved-settings-on-reports"></a>Administrar configuración guardada en los informes
 Según el informe que se ejecute, es posible que se le presente una página que permite definir determinadas opciones y filtros para cambiar los datos que se incluyen en el informe generado. Esta página se conoce como la página de solicitud de informe. Un informe puede incluir una o varias *opciones de configuración guardadas* que puede aplicar al informe de la página de solicitud. La *configuración guardada* son básicamente opciones y filtros predeterminados. El uso de la configuración guardada es una forma rápida y confiable de generar de forma coherente informes que contienen los datos correctos.
 
 Puede ver la configuración guardada que están a su disposición para un informe en la sección **Configuración guardada** de la página de solicitud de informe.  
@@ -40,11 +37,12 @@ La configuración guardada se administra en la página 1506 **Configuración del
 
 En la página **Configuración del informe**, puede crear nuevos valores de cero o hacer una copia y modificar la configuración existente. Para modificar las opciones y los filtros de una configuración, elija la acción **Editar**.
 
-**Notas:**
+> [!NOTE]
+> La característica de configuración guardada en informes es relevante únicamente cuando la propiedad SaveValues de la página de solicitud se define en Sí. La propiedad SaveValues se define en el entorno de desarrollo.  
 
-* La característica de configuración guardada en informes es relevante únicamente cuando la propiedad SaveValues de la página de solicitud se define en Sí. La propiedad SaveValues se define en el entorno de desarrollo.
-* Si crea un elemento de configuración guardada para todos los usuarios y tiene el mismo nombre que la configuración guardada existente de un usuario determinado, ese usuario no podrá utilizar la configuración guardada que se asigne a todos.  En el campo Configuración guardada de la página de solicitud de informe, el usuario verá dos opciones de configuración guardada con el mismo nombre. Sin embargo, independientemente de la opción que elija, se usará la configuración guardada específica del usuario.
+> [!Important]
+> Si crea un elemento de configuración guardada para todos los usuarios y tiene el mismo nombre que la configuración guardada existente de un usuario determinado, ese usuario no podrá utilizar la configuración guardada que se asigne a todos.  En el campo Configuración guardada de la página de solicitud de informe, el usuario verá dos opciones de configuración guardada con el mismo nombre. Sin embargo, independientemente de la opción que elija, se usará la configuración guardada específica del usuario.
 
 ## <a name="see-also"></a>Consulte también
-[Programar un informe para que se ejecute](ui-schedule-report.md)  
+[Trabajar con informes](ui-work-report.md)  
 

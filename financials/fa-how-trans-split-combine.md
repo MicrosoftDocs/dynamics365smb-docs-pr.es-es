@@ -11,12 +11,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 4e29a08e9b0fd9c20dac12bb32dd1be604ff2dcf
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-transfer-split-or-combine-fixed-assets"></a>Procedimiento: Transferir, dividir o combinar activos fijos.
@@ -28,7 +27,7 @@ Puede que necesite transferir un activo dijo a un departamento diferente cuando,
 1. Configure un activo nuevo. Especifique el nuevo departamento en el campo **Cód. departamento**.
 2. Asigne un libro de amortización de activo al nuevo activo fijo. Para obtener más información, vea [Procedimiento: Activos fijos adquiridos](fa-how-acquire.md).
 3. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **A/F Diarios reclasif.** y, a continuación, seleccione el vínculo relacionado.
-4. Cree un diario de reclasificación donde el campo **A/F N. º** contenga el activo original, y el campo **A/F N. º** los nuevos activos fijos que se moverán.  
+4. Cree un diario de reclasificación donde el campo **A/F N. º** contenga el activo original, y el campo **A/F N. º nuevo** los nuevos activos fijos que se moverán.  
 5. Seleccione la acción **Reclasificación**.
 
     Se han creado dos líneas en el diario de activos con la plantilla y sección que ha especificado en la ventana **Config. diario activos** para el libro de amortización especificado. Para obtener más información, consulte [Procedimiento: Configurar amortización de activos fijos](fa-how-setup-depreciation.md).
@@ -57,7 +56,7 @@ Puede dividir un activo en varios, por ejemplo, cuando necesita distribuir un ac
 Puede combinar varios activos en uno, por ejemplo, cuando mueve los activos fijos distribuidos a un solo departamento. Si ha registrado costes y amortización en los activos que se moverán, estos valores se combinarán con el activo fijo simple.
 
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **A/F Diarios reclasif.** y, a continuación, seleccione el vínculo relacionado.
-2. Cree un diario de reclasificación donde el campo **A/F N. º** contenga el activo que se moverá o combinará, y el campo **A/F N. º** el activo con el que se combinará.
+2. Cree un diario de reclasificación donde el campo **A/F N. º** contenga el activo que se moverá o combinará, y el campo **A/F N. º nuevo** el activo con el que se combinará..
 3. Deje el campo **% Coste reclasif.** vacío para mover o combinar el coste completo.    
 4. Seleccione las casillas de verificación **Coste reclasif.** y **Amortización reclasif**.
 5. En la pestaña **Acciones**, elija **Reclasificar**.

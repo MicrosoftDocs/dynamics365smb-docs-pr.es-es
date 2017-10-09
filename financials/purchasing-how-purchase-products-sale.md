@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: supply planning, sales demand, replenish
 ms.date: 05/16/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 2d7eb238395a0b1060668996fbbc3e13d9dd8a94
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-purchase-items-for-a-sale"></a>Comprar productos para una venta
@@ -31,7 +30,7 @@ A partir de pedidos y facturas de venta, puede utilizar funciones para crear rá
 Para crear un pedido de compra para cada cantidad de producto no disponible en el pedido de venta, utilice la función **Crear pedidos de compra**. 
 
 > [!NOTE]  
->   Esta funcionalidad requiere que la experiencia esté definida en **Conjunto de aplicaciones**. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
+>   Esta funcionalidad requiere que la experiencia esté definida en **Suite**. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
 
 1. En la página Inicio, elija el mosaico **Pedidos de venta en curso**.
 2. Abra un pedido de venta para el que desea comprar productos.

@@ -1,8 +1,6 @@
 ---
 title: Configurar precios y descuentos de venta especiales para clientes | Documentos de Microsoft
 description: "Describe cómo definir los acuerdos de precios y descuentos alternativos que desea aplicar a los documentos de venta al vender a distintos clientes."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,14 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 07/03/2017
+ms.date: 09/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 85d15de13739e944ff8817b402b37ae1c7e1b144
-ms.openlocfilehash: 41558d6eec29a277db3cf8f156ae476faf315238
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 3bb16f6f192e3a3ca29911cf6215fe1f00bfcb68
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-record-special-sales-prices-and-discounts"></a>Registrar precios y descuentos de venta especiales
@@ -69,7 +66,7 @@ Una vez que haya determinado los clientes que pueden obtener descuentos en factu
 
 El descuento en factura ahora está configurado y asignado al cliente en cuestión. Al seleccionar el código del cliente en el campo **Cód. dto. factura** en otras fichas de cliente, se asigna el mismo descuento en factura a estos clientes.
 
-## <a name="sales-invoice-discounts-and-service-charges"></a>Descuentos y cargos por servicios de la factura de venta
+## <a name="to-work-with-sales-invoice-discounts-and-service-charges"></a>Trabajar con descuentos y cargos por servicios de la factura de venta
 Al utilizar descuentos en factura, el importe de la factura determina el descuento aplicado.  
 
 En la ventana **Dtos. factura clientes**, también puede añadir un cargo por servicio a las facturas que superen un determinado importe.  
@@ -79,9 +76,9 @@ Para poder aplicar descuentos en factura a las ventas, primero debe especificar 
 - a qué clientes se le concederá este tipo de descuento.  
 - qué porcentajes de descuento se va a aplicar.  
 
-Si desea que el sistema calcule descuentos en factura automáticamente, configure dicha función en la ventana Configuración ventas y cobros.  
+Si factura descuentos para que se calculen automáticamente, puede especificarlo en la ventana **Configuración ventas y cobros**.  
 
-Decida si va a conceder o no descuentos en factura a cada cliente que cumpla el requisito (es decir, que el importe de su factura supere una determinada cantidad). Defina los términos de los descuentos en factura en DL para los clientes nacionales y en otras divisas para los clientes de otros países.  
+Decida si va a conceder o no descuentos en factura a cada cliente que cumpla el requisito (es decir, que el importe de su factura supere una determinada cantidad). Defina los términos de los descuentos en factura en divisa local para los clientes nacionales y en otras divisas para los clientes de otros países.  
 
 Se relacionan los porcentajes de descuento a los importes de factura específicos en las ventanas **Dtos. factura cliente**. Puede introducir un número ilimitado de porcentajes en cada ventana. Cada cliente puede tener su propia ventana o se pueden vincular varios clientes a la misma ventana.  
 
@@ -108,12 +105,25 @@ El mejor precio es el precio más bajo permisible con el mayor descuento de lín
 2. [!INCLUDE[d365fin](includes/d365fin_md.md)] comprueba si se aplican acuerdos de precios o de descuentos a la información de la línea de documento o de diario y, a continuación, inserta el precio unitario y porcentaje de descuento de línea, utilizando el siguiente criterio:
 
     - ¿Hay un requisito de cantidad mínima en el acuerdo de precios o descuentos que se debe cumplir?
-    - ¿Hay un requisito de divisa en el acuerdo de precios o descuentos que se debe cumplir? Si es así, se insertan el precio más bajo y el descuento de línea más alto para esa divisa, incluso si la DL proporciona un precio mejor. Si no existen acuerdos de precios o descuentos para el código de divisa especificado, [!INCLUDE[d365fin](includes/d365fin_md.md)] inserta el menor precio y el mayor descuento de línea en la DL.
+    - ¿Hay un requisito de divisa en el acuerdo de precios o descuentos que se debe cumplir? Si es así, se insertan el precio más bajo y el descuento de línea más alto para esa divisa, incluso si la divisa local proporciona un precio mejor. Si no existen acuerdos de precios o descuentos para el código de divisa especificado, [!INCLUDE[d365fin](includes/d365fin_md.md)] inserte el menor precio y el mayor descuento de línea en la su divisa local.
 
 Si no se puede calcular ningún precio especial para el producto de la línea, se inserta el último coste directo o el precio unitario de la ficha de producto.
 
+## <a name="to-copy-sales-prices"></a>Para copiar precios de venta  
+Si desea copiar precios de venta, por ejemplo, los precios de venta de un cliente determinado a un grupo de precio de cliente, debe ejecutar el proceso **Sugerir precio venta en hoja**. Trabajo por lotes . Este proceso se encuentra en la ventana **Hoja precios venta**.    
+
+1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Hoja de precios de venta** y, a continuación, seleccione el vínculo relacionado.  
+2.  Elija **Sugerir precio venta en hoja**. .  
+3.  En la ficha desplegable **Precios venta**, rellene los campos **Tipo venta** y **Código ventas** con los precios de venta originales que desea copiar.  
+4.  En la parte superior de la ventana de solicitud, rellene el **Tipo venta** y **Código ventas** con el tipo y el nombre al que desea copiar los precios de venta.  
+5.  Si desea que el trabajo por lotes cree precios nuevos, seleccione el campo **Crear precios nuevos**.  
+6.  Elija el botón **Aceptar** para rellenar las líneas de la ventana **Hoja precios venta** con los nuevos precios propuestos, indicando que son válidos para el **Tipo venta** seleccionado.  
+
+> [!NOTE]  
+>  El proceso sólo crea propuestas; no implementa los cambios propuestos. Si está satisfecho con las propuestas y desea implantarlas, es decir, insertarlas en la tabla **Precios de venta**, puede utilizar el trabajo por lotes **Realizar cambio precio**, que se encuentra en la pestaña **Acciones**, en el grupo **Funciones**, en la ventana **Hoja precios venta**.
+
 ## <a name="see-also"></a>Consulte también
 [Configuración de ventas](sales-setup-sales.md)  
-[Ventas](sales-manage-sales.md)  
+[Ccial](sales-manage-sales.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

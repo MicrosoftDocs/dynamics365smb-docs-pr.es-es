@@ -1,8 +1,6 @@
 ---
 title: Liquidar movimientos de cliente en pagos de cliente conciliados manualmente | Documentos de Microsoft
 description: "Describe cómo liquidar los recibos de efectivo o los reembolsos a uno o varios movimientos de clientes pendientes y conciliar pagos del cliente."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipt
-ms.date: 03/29/2017
+ms.date: 09/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 568bd66c201764cae45ea12a900ea12eabbf0546
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: ccef6a35b1632bd94f64c5e9ad56ecd3bacbfd06
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-reconcile-customer-payments-manually"></a>Procedimiento: Conciliar pagos de cliente manualmente
@@ -45,13 +43,13 @@ También puede liquidar pagos de cliente y de proveedor en la ventana **Diario d
 4. Rellene el campo **Fecha registro**.  
 5. En el campo **Tipo documento**, seleccione **Pago**.
 
-    El campo **N.º de documento** se rellena con la serie numérica asignada al proceso.  
-6. Use el campo **N.º de documento externo** para almacenar un identificador como el número de comprobación del cliente.
+    El campo **Nº documento** se rellena con los números de serie asignados a la sección.  
+6. Utilice el campo **Nº documento externo** para almacenar un identificador como el número de comprobación del cliente.
 7. En el campo **Tipo mov.**, seleccione **Cliente**.
-8. En el campo **N.º cuenta** seleccione la cuenta de contabilidad pertinente.
+8. En el campo **Cód. cuenta banco**, seleccione la cuenta de contabilidad que desee.
 9. Si desea registrar la aplicación al mismo tiempo que el diario, elija una de estas acciones.
 10. En el campo **Tipo contrapartida**, seleccione **Cuenta** para los pagos en efectivo y **Banco** para otros pagos.
-11. En el campo **N.º de cuenta de saldo** seleccione la cuenta de efectivo para los pagos en efectivo, o la cuenta bancaria correspondiente para otros pagos.
+11. En el campo **Cta. contrapartida**, seleccione la cuenta de efectivo para los pagos en efectivo, o la cuenta del banco correspondiente para otros pagos.
 12. Registre el diario.
 
 ## <a name="to-apply-a-payment-to-a-single-customer-ledger-entry"></a>Para liquidar un pago a un solo movimiento de cliente
@@ -61,12 +59,12 @@ También puede liquidar pagos de cliente y de proveedor en la ventana **Diario d
 4. En el campo **Tipo documento**, introduzca **Pago**.
 5. En el campo **Tipo mov.**, introduzca **Cliente**.
 6. En el campo **Tipo contrapartida**, introduzca **Banco**.
-7. En el campo **Liq. por n.º documento** seleccione el campo para abrir la ventana **Movs. pendientes cliente**.
+7. En el campo **Liq. por n.º documento**, elija el campo para abrir la ventana **Aplicar movs. cliente**.
 8. En la ventana **Movs. pendientes cliente**, seleccione el movimiento al que quiere liquidar el pago.
 9. En el campo **Importe a liquidar**, introduzca el importe con el que desea liquidar el movimiento. Si no especifica ninguna cantidad, se usa el importe máximo.
 
     Al final de la ventana **Movs. pendientes cliente**, podrá ver el importe específico incluido en el campo **Importe liquidado** y también si la liquidación está cuadrada.  
-10. Elija el botón **Aceptar**. La ventana **Diario de recibos de efectivo** ahora muestra el movimiento que ha introducido en **Liq. por tipo documento** y **Liq. por n.º documento**. .
+10. Elija el botón **Aceptar**. La ventana **Diario de recibos de efectivo** ahora muestra el movimiento que ha introducido en los campos **Liq. por tipo documento** y **Liq. por n.º documento**.
 11. Registro el diario de cobros.
 
 ## <a name="to-apply-a-payment-to-multiple-customer-ledger-entries"></a>Para liquidar un pago a varios movimientos de cliente
@@ -77,8 +75,8 @@ También puede liquidar pagos de cliente y de proveedor en la ventana **Diario d
 5. En el campo **Tipo mov.**, introduzca **Cliente**.
 6. En el campo **Tipo contrapartida**, introduzca **Banco**.
 7. En el campo **Importe**, introduzca el pago completo como un importe negativo.
-8. Para liquidar los pagos de varios movimientos de cliente cuando registre, seleccione la acción **Liquidar movs.**
-9. Seleccione las líneas que incluyen los movimientos a los que desea aplicar el movimiento de liquidación y, a continuación, seleccione la acción **Marcar id. de liquidación**.
+8. Para liquidar los pagos de varios movimientos de cliente cuando registre, seleccione la acción **Liquidar movs.**  
+9. Seleccione las líneas que incluyen los movimientos a los que desea aplicar el movimiento de liquidación y, a continuación, seleccione la acción **Marcar id. de liquidación**.  
 10. En cada línea del campo **Importe a liquidar**, introduzca el importe con el que desea liquidar cada movimiento. Si no especifica ninguna cantidad, se usa el importe máximo.
 
     Al final de la ventana **Movs. pendientes cliente**, podrá ver el importe específico incluido en el campo **Importe liquidado** y también si la liquidación está cuadrada.  
@@ -88,11 +86,11 @@ También puede liquidar pagos de cliente y de proveedor en la ventana **Diario d
 ## <a name="to-apply-a-credit-memo-to-a-single-customer-ledger-entry"></a>Para liquidar un abono a un único movimiento de cliente
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Abonos de venta** y, a continuación, seleccione el vínculo relacionado.
 2. Abra el abono de venta correspondiente.
-3. Para liquidar el abono en un solo movimiento de cliente cuando registre, en el campo **Liq. por n.º documento**, seleccione el movimiento que desea liquidar con el pago.
+3. Para liquidar el abono a un solo movimiento de cliente al registrar, en la ficha desplegable **Liq. por n.º documento**, seleccione el movimiento que desea liquidar con el pago.
 4. En la línea del campo **Importe a liquidar**, introduzca el importe con el que desea liquidar el movimiento.  
 
     Si no especifica ninguna cantidad, el programa utilizará automáticamente el importe máximo. Al final de la ventana **Movs. pendientes cliente**, podrá ver el importe específico incluido en el campo **Importe liquidado** y también si la liquidación está cuadrada.    
-5. Elija el botón **Aceptar**. La ventana **Abono de venta** ahora muestra el movimiento que ha introducido en **Liq. por tipo documento** y **Liq. por n.º documento**. . Asimismo, muestra el importe del abono que se va a registrar, ajustado con los posibles descuentos por pronto pago.
+5. Elija el botón **Aceptar**. La ventana **Abono de venta** ahora muestra el movimiento que ha introducido en los campos **Liq. por tipo documento** y **Liq. por n.º documento**. Asimismo, muestra el importe del abono que se va a registrar, ajustado con los posibles descuentos por pronto pago.
 6. Registre el abono.
 
 ## <a name="to-apply-a-credit-memo-to-multiple-customer-ledger-entries"></a>Para liquidar un abono a varios movimientos de cliente

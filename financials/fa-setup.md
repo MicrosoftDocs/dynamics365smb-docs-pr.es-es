@@ -1,7 +1,6 @@
 ---
 title: Configurar activos fijos | Documentos de Microsoft
 description: "Obtenga información sobre la secuencia de tareas que debe realizar para configurar activos fijos, como maquinaria o edificios."
-services: project-madeira
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -10,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 06/02/2017
+ms.date: 08/15/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 98cf0364b9983e2bf62fe6a3ce4aa882af3ece14
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 9dea8be0f5b0200f97082dc25dbaa2483ad6c735
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="setting-up-fixed-assets"></a>Configurar activos fijos
@@ -32,6 +30,9 @@ La siguiente tabla tiene vínculos a más información. Una vez configurados est
 >   Puede registrar transacciones de activos en las ventanas **A/F Diario general** o **Diario activos fijos**, dependiendo de si las transacciones son para la información financiera o la gestión interna. La ayuda para los activos fijos solo describe cómo utilizar ventana **A/F Diario general**.  
 
 Cuando habilita una actividad de activo fijo en la sección **Integración contabilidad** de la ventana **Ficha libro amortización**, la ventana **A/F Diario general** se usa para registrar las transacciones de la actividad.
+
+> [!NOTE]  
+>  Esta funcionalidad requiere que la experiencia esté definida en **Suite**. Para obtener más información, consulte [Personalizar la experiencia de Financials](ui-experiences.md).  
 
 En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.  
 

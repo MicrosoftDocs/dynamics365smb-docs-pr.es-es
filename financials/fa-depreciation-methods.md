@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 6a32ddc5fd8202507b66a30fabd2cbd6b5ab91eb
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="depreciation-methods"></a>Métodos de depreciación
@@ -58,7 +57,7 @@ El valor neto puede reducirse con apreciaciones, depreciaciones o importes espec
 ### <a name="fixed-yearly-percentage"></a>Porcentaje fijo anual
 Si introdujo un porcentaje fijo anual, el programa utiliza la fórmula siguiente para calcular el importe de amortización:  
 
-Importe amortización = (% Lineal x Base amortizable x N. º días amortización / (100 x 360)  
+Importe amortización = (% Lineal x Base amortizable x Nº días amortización) / (100 x 360)  
 
 ### <a name="fixed-yearly-amount"></a>Importe fijo anual
 Si especificó un importe fijo anual, el programa utiliza esta fórmula para calcular el importe de amortización:  
@@ -224,7 +223,7 @@ Con un método definido por el usuario, se utiliza la ventana **Tablas amortizac
 
 La fórmula para calcular los importes de amortización es:  
 
-Importe amortización = (% Amortización x N. º días amortización x Base amortizable / (100 x 360)  
+Importe amortización = (% Amortización x Nº días amortización x Base amortizable) / (100 x 360)  
 
 ### <a name="depreciation-based-on-number-of-units"></a>Amortización según el número de unidades
 Este método definido por el usuario también se puede utilizar para amortizar según el número de unidades, por ejemplo, en el caso de máquinas de producción con una capacidad de vida establecida. En la ventana **Tablas amortización**, puede introducir el número de unidades que pueden producirse en cada periodo (mes, trimestre, año o periodo contable).  
@@ -350,7 +349,7 @@ Cuando introduzca un movimiento en B1 del diario general de activos fijos y acti
 >   No puede duplicar en el mismo diario y proceso de diario desde el que está duplicando. Si registra movimientos en el diario general de activos fijos, podrá duplicarlos en el diario de activos o en el diario general de activos fijos mediante otro proceso.  
 
 > [!NOTE]  
->   No puede utilizar la misma serie de numeración en los diarios generales de activos fijos y en los diarios de activos fijos. Al registrar movimientos en los diarios generales de activos fijos, debe dejar en blanco el campo **N. º documento**. campo vacío. Si introduce un número en el campo, el número se duplica en el diario de activos fijos. También tendrá que modificar manualmente el número de documento para poder registrar el diario.  
+>   No puede utilizar la misma serie de numeración en los diarios generales de activos fijos y en los diarios de activos fijos. Al registrar movimientos en los diarios generales de activos fijos, debe dejar en blanco el campo **Nº documento**. Si introduce un número en el campo, el número se duplica en el diario de activos fijos. También tendrá que modificar manualmente el número de documento para poder registrar el diario.  
 
 ## <a name="see-also"></a>Consulte también
 [Activos fijos](fa-manage.md)  

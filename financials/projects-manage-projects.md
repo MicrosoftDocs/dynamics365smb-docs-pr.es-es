@@ -1,6 +1,6 @@
 ---
-title: "Administración de proyectos | Documentos de Microsoft"
-description: "Describe cómo usar recursos, hojas de horas y proyectos para administrar proyectos."
+title: Tareas de trabajo usando recursos y hojas de horas | Documentos de Microsoft
+description: "Describe cómo usar recursos, hojas de horas y trabajos para administrar proyectos."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 608817222d087a04293a25913064e7b47f1c78f0
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: e823f58ac796b22a488ab6fd54ed6dc00e262c87
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="project-management"></a>Administración de proyectos
@@ -25,7 +24,8 @@ En [!INCLUDE[d365fin](includes/d365fin_md.md)], puede realizar tareas habituales
 
 Antes de poder usar [!INCLUDE[d365fin](includes/d365fin_md.md)] para administrar proyectos, debe configurar los recursos, las hojas de horas y los proyectos. Para obtener más información, consulte [Configuración de la administración de proyectos](projects-setup-projects.md).  
 
-**Nota**: Esta funcionalidad que requiere que la experiencia esté definida en **Conjunto de aplicaciones**. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
+> [!NOTE]  
+>   Esta funcionalidad requiere que la experiencia esté definida en **Suite**. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
 
 En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.
 
@@ -43,9 +43,9 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 
 ## <a name="see-also"></a>Consulte también
 [Configurar la administración de proyectos](projects-setup-projects.md)  
-[Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)      
+[Personalizar la [!INCLUDE[d365fin](includes/d365fin_md.md)] experiencia](ui-experiences.md)      
 [Compras](purchasing-manage-purchasing.md)         
-[Ventas](sales-manage-sales.md)    
+[Ccial](sales-manage-sales.md)    
 [Finanzas](finance.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

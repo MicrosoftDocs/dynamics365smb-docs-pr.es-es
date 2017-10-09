@@ -1,6 +1,6 @@
 ---
-title: "Requisitos mínimos para usar Dynamics 365 for Financials | Documentos de Microsoft"
-description: Requisitos del sistema para usar Dynamics 365 for Financials
+title: "Requisitos mínimos para usar Financials | Documentos de Microsoft"
+description: "Conocer los requisitos mínimos del sistema y de versión para usar Microsoft Dynamics 365 for Financials."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: fad8d80a94971c5ad73d76175e0a31ba5dc4f29a
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: e1f5b9c3a8ef7337d3b958e733e034c79a9bc2bc
 ms.contentlocale: es-es
-ms.lasthandoff: 05/04/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="minimum-requirements-for-using-dynamics-365-for-financials"></a>Requisitos mínimos para usar Dynamics 365 for Financials
@@ -31,14 +30,14 @@ Antes de que acceda a [!INCLUDE[d365fin](includes/d365fin_md.md)], le recomendam
 
 ## <a name="mobile-devices"></a>Dispositivos móviles
 **Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] para Windows se puede instalar en dispositivos con un mínimo de 1 GB de RAM y Windows 10 Phone, Home, Pro, Enterprise o Education (ediciones de 32 y 64 bits).  
-**iOS:** [!INCLUDE[d365fin](includes/d365fin_md.md)] para iPad y iPhone requiere iOS 9.0 o posterior.  
-**Android:** [!INCLUDE[d365fin](includes/d365fin_md.md)] para teléfonos y tabletas Android se puede instalar en dispositivos con al menos 1 GB de memoria RAM y Android 5.0 o posterior.  
+**iOS**: [!INCLUDE[d365fin](includes/d365fin_md.md)] para iPad y iPhone requiere iOS 9.0 o posterior.  
+**Android**: [!INCLUDE[d365fin](includes/d365fin_md.md)] para teléfonos Android y tabletas Android se puede instalar en dispositivos con al menos 1 GB de memoria RAM y Android 5.0 o posterior.  
 **Tamaño de los dispositivos:** [!INCLUDE[d365fin](includes/d365fin_md.md)] es compatible con smartphones con un tamaño de pantalla mínimo de 4 pulg. y tabletas con un tamaño de pantalla mínimo de 7 pulg.  
 
 ## <a name="outlook"></a>Outlook
-**Aplicaciones de Outlook:** Para usar [!INCLUDE[d365fin](includes/d365fin_md.md)] como bandeja de entrada de empresa en Outlook, requerirá Outlook 2013 o posterior, Outlook Web App, OWA for iPhone, OWA for iPad u OWA for Android.  
+**Aplicaciones de Outlook**: Para usar [!INCLUDE[d365fin](includes/d365fin_md.md)] como bandeja de entrada de empresa en Outlook, requerirá Outlook 2013 o posterior, Outlook Web App, OWA for iPhone, OWA for iPad u OWA for Android.  
 **Exploradores:** Al usar [!INCLUDE[d365fin](includes/d365fin_md.md)] como bandeja de entrada de empresa en Outlook Web App (OWA), el complemento requiere que su equipo ejecute uno de los exploradores compatibles que se han enumerado en este artículo.  
-**Plataformas:** Al usar el complemento de Outlook de [!INCLUDE[d365fin](includes/d365fin_md.md)] en OWA por iPhone, OWA for iPad y OWA por Android, el complemento requiere que su dispositivo móvil ejecute uno de los dispositivos móviles compatibles especificados para [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+**Plataformas**: Al usar el complemento de Outlook de [!INCLUDE[d365fin](includes/d365fin_md.md)] en OWA por iPhone, OWA for iPad y OWA por Android, el complemento requiere que su dispositivo móvil ejecute uno de los dispositivos móviles compatibles especificados para [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="see-also"></a>Consulte también
 [[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  

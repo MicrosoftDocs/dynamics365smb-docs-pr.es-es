@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: analysis, history, track
 ms.date: 06/02/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 06becfd7e54803fea925e8364719576bef0a8bab
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 63d414f4c81a9e20b4bb81b632edd9c91fb34a87
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="understanding-the-general-ledger-and-the-coa"></a>Descripción de contabilidad y plan de cuentas
@@ -40,7 +39,8 @@ El plan de cuentas muestra todas las cuentas de contabilidad. Desde el plan de c
 * Ver informes que muestran movimientos de contabilidad y saldos.  
 * Cerrar el asiento de regularización.  
 * Abrir la ficha de cuenta para agregar o cambiar la configuración.  
-* Ver una lista de grupos contables que registran en dicha cuenta.  
+* Ver una lista de grupos contables que registran en dicha cuenta.
+* Para ver los saldos del Debe y el Haber de una sola cuenta  
 
 Puede agregar, cambiar o eliminar cuentas de contabilidad. Sin embargo, para evitar discrepancias, no puede eliminar una cuenta de contabilidad si sus datos se utilizan en el plan de cuentas.  
 

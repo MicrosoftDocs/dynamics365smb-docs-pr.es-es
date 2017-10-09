@@ -12,11 +12,11 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 06/16/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ec1f03555db4e370bf19da41bcb33e9b1d286f82
+ms.translationtype: HT
+ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
+ms.openlocfilehash: b96ff2d1f4339b137a6f7d2c2c1266185e2dc69c
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/22/2017
 
 ---
 #  <a name="how-to-create-analysis-reports"></a>Crear informes de análisis
@@ -43,7 +43,7 @@ A continuación, puede configurar las siguientes columnas:
 - Porcentaje de ventas del mes anterior  
 
 > [!NOTE]  
->   Esta funcionalidad requiere que la experiencia esté definida en **Conjunto de aplicaciones**. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
+>   Esta funcionalidad requiere que la experiencia esté definida en **Suite**. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
 
 ## <a name="setting-up-line-and-column-layouts"></a>Configuración de plantillas de líneas y columnas  
  En la ventana **Informe de análisis**, puede ver distintas plantillas de líneas y columnas según la configuración definida. Las líneas o las plantillas de línea, se configuran en la ventana **Plantilla de línea de análisis**. En esta ventana puede definir el nombre del informe y los objetos que desea mostrar en las líneas del informe. Las columnas se configuran en la ventana **Plantillas columnas análisis**. En esta ventana puede definir el nombre de la plantilla de columna y los parámetros de análisis que desea mostrar en el informe como columnas. En la ventana **Plantillas columnas análisis**, cada línea representa una columna del informe. Observe que las líneas de análisis y las columnas de análisis son independientes las unas de las otras.  

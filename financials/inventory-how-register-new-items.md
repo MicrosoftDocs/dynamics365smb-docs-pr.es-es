@@ -9,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 06/02/2017
+ms.date: 08/31/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 719e11f2c8fee3d7e5dd3736754700b68f57379c
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: e926baa3d5348f9c275d3063b67be57b72f616ee
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-register-new-items"></a>Registro de productos nuevos
@@ -26,10 +25,12 @@ Las fichas de producto contienen la información necesaria para comprar, almacen
 
 La ficha de producto puede ser de tipo **Inventario** o **Servicio** para especificar si el producto es una unidad física o una unidad de tiempo de mano de obra. Aparte de algunos campos relacionados con los aspectos físicos de un producto, todos los campos de un producto funcionan de la misma forma para los productos de inventario y los servicios. Para obtener más información acerca de la venta de un producto, vea [Procedimiento: Vender productos](sales-how-sell-products.md) o [Procedimiento: Facturar ventas](sales-how-invoice-sales.md)
 
-Un producto se puede estructurar como un producto principal con productos secundarios subyacentes en una lista de materiales (L.M.). En [!INCLUDE[d365fin](includes/d365fin_md.md)], una lista de materiales se denomina L.M. de ensamblado. Las L.M. de ensamblado se usan para estructurar los productos principales que vende como kits que constan de los componentes del principal o que ensamble para pedido o para stock. Para obtener más información sobre cómo trabajar con el formulario, consulte [Trabajar con listas de materiales](inventory-how-work-BOMs.md).
+Un producto se puede estructurar como un producto principal con productos secundarios subyacentes en una lista de materiales (L.M.). En [!INCLUDE[d365fin](includes/d365fin_md.md)], una lista de materiales puede ser una L.M. de ensamblado o una L.M. de producción, en función de su uso. Para obtener más información, consulte [Procedimiento: Trabajar con listas de materiales](inventory-how-work-BOMs.md).
 
 > [!NOTE]  
 >   Si existen plantillas para distintos tipos de producto, aparece una ventana automáticamente cuando se crea una nueva ficha de producto en la que puede seleccionar una plantilla de producto apropiada. Si solo existe una plantilla de producto, las nuevas fichas de producto utilizan siempre esa plantilla.
+
+Si le compra el mismo producto a varios proveedores, puede conectarlos a la ficha de producto. Los proveedores aparecerán después en la ventana **Tarifas de compra productos** , para poder fácilmente seleccionar un proveedor alternativo.
 
 ## <a name="to-create-a-new-item-card"></a>Para crear una nueva ficha de producto.
 1. En la página Inicio, elija la acción **Productos** para abrir la lista de productos existentes.  
@@ -39,6 +40,11 @@ Un producto se puede estructurar como un producto principal con productos secund
 3. En la ventana **Seleccionar una plantilla para un producto nuevo**, seleccione la plantilla que quiere usar para la nueva ficha de producto.
 4. Elija el botón **Aceptar**. Se abre una nueva ficha de producto con algunos de los campos rellenados con la información de la plantilla.
 5. Empiece a rellenar o cambiar campos en la ficha de producto según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+> [!NOTE]
+> En el campo **Valoración de existencias**, determinará la forma en que se calcula el coste unitario, presumiendo el flujo de productos físicos por la empresa. Hay cinco métodos de valoración de existencias, según del tipo de producto. Para obtener más información, consulte [Detalles de diseño: Métodos de coste](design-details-costing-methods.md).
+>
+> Si selecciona **Promedio**, el coste unitario de un producto se calcula como el coste unitario medio en cada momento después de una compra. El inventario se valora con el supuesto de que todos los inventarios se venden simultáneamente. Con este ajuste, puede elegir el campo **Coste unitario** para ver en la ventana **Inf. general cálculo cte. medio** el historial de las transacciones con las que se calcula el coste medio.
 
 En la ficha desplegable **Precio y registro**, puede observar los precios especiales o los descuentos que concede al cliente por el producto si se cumplen determinados criterios, como, por ejemplo, el cliente, la cantidad de pedido mínima o la fecha final. Cada fila representa un precio especial o un descuento de línea. Cada columna representa un criterio aplicable para autorizar el precio especial que se introduzca en el campo **Precio de venta**, o el descuento de línea que se introduzca en el campo **% Descuento línea**. Para más información, vea [Registrar acuerdos de pago, descuentos y precios de venta](sales-how-record-sales-price-discount-payment-agreements.md).
 
@@ -55,10 +61,23 @@ Si desea usar esta ficha de producto como plantilla cuando cree nuevas fichas de
 
 La plantilla de producto se agrega a la lista de plantillas de producto, de modo que puede usarla para crear nuevas fichas de producto.
 
+## <a name="to-set-up-multiple-vendors-for-an-item"></a>Para configurar varios proveedores para un producto  
+Si compra el mismo producto a varios proveedores, deberá introducir información acerca de cada proveedor del producto, como precios, plazo de entrega (días), descuentos, etc.  
+
+1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Productos** y, a continuación, seleccione el vínculo relacionado.  
+2.  Seleccione el elemento correspondiente y, a continuación, elija la acción **Editar**.  
+3.  Seleccione la acción **Proveedores**.  
+4.  Elija el campo **Nº proveedor** y, a continuación, seleccione el proveedor que desea configurar para el producto.  
+5.  Si lo desea, puede rellenar el resto de los campos.  
+6.  Repita los pasos 2 a 5 para cada proveedor al que desee comprar el producto.
+
+Los proveedores aparecerán después en la ventana **Tarifas de compra productos** , que se abre desde la tarjeta del producto, para poder fácilmente seleccionar un proveedor alternativo.
+
 ## <a name="see-also"></a>Consulte también
-  [Inventario](inventory-manage-inventory.md)  
+  [Grupos contables inventario](inventory-manage-inventory.md)  
   [Compras](purchasing-manage-purchasing.md)  
-  [Ventas](sales-manage-sales.md)  
+  [Ccial](sales-manage-sales.md)  
   [Trabajar con [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

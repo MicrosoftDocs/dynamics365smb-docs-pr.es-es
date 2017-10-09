@@ -11,12 +11,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/07/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 1620e69ce8018256780dcba108c31312c02166cb
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-allocate-costs-and-income"></a>Asignar costes e ingresos.
@@ -42,14 +41,14 @@ Puede asignar un movimiento en un diario general periódico a varias cuentas dif
 5. Cuando haya terminado, cierre la ventana. Aparecerá un nuevo diario periódico vacío.
 6. Complete los campos de la línea.
 7. Seleccione la acción **Asignaciones**.
-8. Agregue una línea para cada asignación. Debe rellenar el campo **% Distribución**, **Cantidad a distribuir** o **Importe**. también debe rellenar el campo **N.º de cuenta** y, si distribuye la transacción entre dimensiones globales, los campos de dimensión global.
+8. Agregue una línea para cada asignación. Debe rellenar el campo **% Distribución**, **Cantidad a distribuir** o **Importe**. También debe rellenar el campo **Nº cuenta** y, si distribuye la transacción entre dimensiones globales, los campos de dimensión global.
 9. Si escribe un porcentaje en una línea, el importe del campo **Importe** se calculará automáticamente. Estos importes tienen el signo contrario al importe total del campo **Importe** en el diario periódico.
 10. Después de introducir las líneas de asignaciones, seleccione **Aceptar** para volver a la ventana **Diario general periódico**. El campo **Importe asignado (USD)** se rellena y coincide con el campo **Importe**.
 11. Registre el diario.
 
 ## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>Para modificar una clave de asignación que ya haya sido configurada
 1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), especifique **Diario general periódico** y elija el vínculo relacionado.
-2. En la ventana **Recurring General Journal** (Diarios generales periódicos), seleccione el diario con la distribución.
+2. En la ventana **Diario general periódico** (Diarios generales periódicos), seleccione el diario con la distribución.
 3. Seleccione la línea con la asignación y, a continuación, seleccione la acción **Asignaciones**.
 4. Cambie los campos relevantes y, a continuación, elija el botón **Aceptar**.
 

@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 3de30e72853689df84d3807def1334db88776680
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 8b1ad8ba4d64fff96e9c9fa1866217b19869e98c
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="preparing-to-set-up-contacts"></a>Preparar la configuración de los contactos
@@ -27,7 +26,7 @@ Antes de crear los contactos y los detalles de registro de sus relaciones de neg
 
 Una vez configurada esta información, resultará mucho más fácil organizar la información de contactos y se podrá llevar a cabo la búsqueda de contactos para cada grupo específico de forma más eficaz. Cada grupo de su empresa podrá buscar esta información, logrando así una comunicación más satisfactoria con los contactos.
 
-En la tabla siguiente se indican una serie de tareas, con vínculos a los temas que las describen. Estas tareas se enumeran en el orden en que normalmente se llevan a cabo.
+En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen. 
 
 | Para | Vea |
 | --- | --- |

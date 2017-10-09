@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: purchase fixed asset
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 903c1a858fe66482cb4404e8b792abade6106489
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-acquire-fixed-assets"></a>Procedimiento: Adquirir activos fijos
@@ -53,7 +52,7 @@ Tanto el activo principal como todos sus componentes deben configurarse como fic
 
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Activos fijos** y, a continuación, seleccione el vínculo relacionado.
 2. Seleccione el activo principal y, a continuación, elija la acción **Componentes activo ppal**.
-3. En la ventana **Componentes activo ppal.**, elija el campo **A/F n. º** y, a continuación, seleccione el activo que desea agregar como componente del activo principal.
+3. En la ventana **Componentes activo ppal.**, seleccione el campo **A/F Nº** y, a continuación, seleccione el activo que desea agregar como componente del activo principal.
 4. Cierre la ventana.
 5. Repita los pasos 3 y 4 para cada componente que desee agregar.
 6. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Configuración de activos fijos** y, a continuación, seleccione el vínculo relacionado.
@@ -71,7 +70,7 @@ El procedimiento siguiente describe cómo adquirir un activo manualmente creando
 4. Seleccione la acción **Registrar**.  
 
 > [!TIP]  
->   Si rellena el campo **N.º seguro** del diario general de activos en el momento de registrar un coste, [!INCLUDE[d365fin](includes/d365fin_md.md)] también registrará el coste del activo en los movimientos de seguros. Para obtener más información, vea [Procedimiento: Asegurar activos fijos](fa-how-insure.md).
+>   Si rellena el campo **Nº seguro** del diario general de activos fijos en el momento de registrar un coste, [!INCLUDE[d365fin](includes/d365fin_md.md)] también registrará el coste del activo en los movimientos de seguros. Para obtener más información, vea [Procedimiento: Asegurar activos fijos](fa-how-insure.md).
 
 ## <a name="to-cancel-an-acquisition-cost-posting-for-one-fixed-asset"></a>Para anular un coste del registro de un activo
 Si se equivoca al registrar un coste, puede eliminar el movimiento mediante el proceso **Cancelar movs. A/F** y registrar seguidamente el movimiento de adquisición correcto. Los movimientos incorrectos se transfieren a la ventana **A/F Movs. anulados**.

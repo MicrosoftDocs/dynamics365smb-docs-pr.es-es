@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 03/29/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 977debf7386ad1113ef54147b20fd24c7c285a78
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 990867cb428f860b1001177738d1a027f72485bc
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-make-drop-shipments"></a>Procedimiento: Realizar envíos directos
@@ -32,7 +31,7 @@ Para preparar un envío directo cree un pedido de venta como si fuese normal, pe
 2. En la línea del pedido de venta del envío directo, seleccione la casilla **Envío directo**. Use la función **Elegir columnas** si el campo no está visible. Para obtener más información, vea [Personalización del usuario](ui-user-personalization.md).
 
 > [!NOTE]  
->   Esta funcionalidad requiere que la experiencia esté definida en **Conjunto de aplicaciones**. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
+>   Esta funcionalidad requiere que la experiencia esté definida en **Suite**. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
 
 ## <a name="to-create-the-purchase-order-for-drop-shipment"></a>Para crear pedidos de compra para envíos directos
 Para preparar un envío directo de un producto que se va a vender, cree un pedido de compra como si fuese normal, pero indique en el pedido que el producto debe enviarse directamente al cliente no a usted.
@@ -60,9 +59,10 @@ Después de que el proveedor envíe los productos, puede establecer los pedidos 
 5. Elija la opción **Enviar** para facturar más adelante o la opción **Enviar y facturar** para facturar ahora.
 
 ## <a name="see-also"></a>Consulte también
+[Procedimiento: crear pedidos especiales](sales-how-to-create-special-orders.md)|  
 [Vender productos](sales-how-sell-products.md)  
-[Registro de compras](purchasing-how-record-purchases.md)  
-[Ventas](sales-manage-sales.md)  
-[Inventario](inventory-manage-inventory.md)  
+[Procedimiento: Registro de compras](purchasing-how-record-purchases.md)  
+[Ccial](sales-manage-sales.md)  
+[Grupos contables inventario](inventory-manage-inventory.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

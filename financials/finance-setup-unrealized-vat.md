@@ -10,21 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cash, VAT, unrealized, cash-based
-ms.date: 04/20/2017
+ms.date: 09/08/2017
 ms.author: bholtorf
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: c22e17c931fcb262abe2d2059af89ec6f930ecb5
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 79851c90a2a2fd8ac2e744173a04b7eda50b98e8
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 
-# <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Configurar el IVA no realizado para la contabilidad basada en efectivo
+# <a name="how-to-set-up-unrealized-vat-for-cash-based-accounting"></a>Cómo configurar el IVA no realizado para la contabilidad basada en efectivo
 Si utiliza métodos de contabilidad basada en efectivo, puede configurar [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] para gestionar el IVA no realizado.
 
-## <a name="use-general-ledger-accounts-for-unrealized-vat"></a>Usar las cuentas de contabilidad para el IVA no realizado
+## <a name="to-use-general-ledger-accounts-for-unrealized-vat"></a>Usar las cuentas de contabilidad para el IVA no realizado
 Puede elegir que los importes de IVA se calculen y registren en una cuenta temporal al registrar una factura y que, a continuación, se registren en la cuenta correcta y se incluyan en las declaraciones de IVA cuando se registre el pago real de la factura. Antes de poder hacerlo, deberá configurar los grupos de registro de IVA.
 
 Para utilizar cuentas para IVA no realizado, realice los pasos siguientes:

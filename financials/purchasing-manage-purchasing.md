@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.date: 03/29/2017
+ms.date: 08/10/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 653cd9b5e9651f2039ab18f3e7a26b299238d817
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: f9a932a521cd14e52e2a73e69544d2950235ea35
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="purchasing"></a>Compra
@@ -31,22 +30,25 @@ Los productos pueden ser productos de inventario y servicios. Para obtener más 
 
 Para todos los procesos de compra, puede introducir un flujo de trabajo de aprobación, por ejemplo, para requerir que el administrador de contabilidad apruebe las compras grandes. Para obtener más información, vea [Uso de flujos de trabajo de aprobación](across-how-use-approval-workflows.md).
 
-En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen. Dichas tareas se enumeran en el orden en el que generalmente se llevan a cabo.
+En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.
 
 | Para | Vea |
 | --- | --- |
-| Cree una factura de compra para registrar el contrato con un proveedor para comprar productos según términos de entrega y pago determinados. |[Registro de compras](purchasing-how-record-purchases.md) |
+| Cree una factura de compra para registrar el contrato con un proveedor para comprar productos según términos de entrega y pago determinados. |[Procedimiento: Registro de compras](purchasing-how-record-purchases.md) |
+|Cree una oferta de compra para reflejar una solicitud de oferta del proveedor, que puede convertir posteriormente en un pedido de compra.|[Procedimiento: Peticiones de oferta](purchasing-how-request-quotes.md)|
 | Crear una factura de compra para todas las líneas en una factura de venta o las seleccionadas. |[Comprar productos para una venta](purchasing-how-purchase-products-sale.md) |
 | Realice una acción en una factura de compra registrada sin abonar para crear automáticamente un abono y para cancelar la factura de compra o regenerarla para poder hacer correcciones. |[Corrección o cancelación de facturas de venta sin abonar](purchasing-how-correct-cancel-unpaid-purchase-invoices.md) |
 | Cree un abono de compra para revertir una factura de compra registrada específica para reflejar qué productos se están devolviendo al proveedor y qué importe de pago se cobrará. |[Procesamiento de devoluciones de compra o cancelaciones](purchasing-how-register-new-vendors.md) |
-| Cree una ficha de proveedor para cada proveedor del que compre. |[Registro de proveedores nuevos](purchasing-how-register-new-vendors.md) |
+|Prepárese a facturar varios albaranes del mismo proveedor una vez combinándolos en una factura.|[Procedimiento: agrupar albaranes en una factura única](purchasing-how-to-combine-receipts.md)|
+| Aprenda cómo [!INCLUDE[d365fin](includes/d365fin_md.md)] calcula cuando se debe solicitar un producto para recibirlo en una fecha determinada.|[Cálculo de la fecha de compras](purchasing-date-calculation-for-purchases.md)|
 
 ## <a name="see-also"></a>Consulte también
 [Configurar compras](purchasing-setup-purchasing.md)  
+[Registro de proveedores nuevos](purchasing-how-register-new-vendors.md)  
 [Administrar pagos](payables-manage-payables.md)  
 [Administrar proyectos](projects-manage-projects.md)    
-[Cadena de suministro](madeira-supply-chain.md)      
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

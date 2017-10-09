@@ -1,8 +1,6 @@
 ---
 title: Dynamics 365 for Financials | Documentos de Microsoft
-description: "Dynamics 365 for Financials es una solución de administración empresarial para pequeñas y medianas empresas que automatiza y optimiza los procesos empresariales y le ayuda a administrar su empresa. Registrarse es muy fácil y puede migrar los datos de la empresa existentes desde su sistema de herencia."
-services: project-madeira
-documentationcenter: 
+description: "Obtenga más información sobre las capacidades y los escenarios de trabajo en Dynamics 365 for Financials, una solución de administración empresarial para pequeñas y medianas empresas."
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
 ms.topic: get-started-article
@@ -10,14 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 06/02/2017
+ms.date: 08/23/2017
 ms.author: solsen
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 1a7fbf443c6fb3f9276e3f6a5d3ea196b7fb2cb7
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: d44f71f9f52c60a789cfb84f3f7a96daa0f9cab1
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="welcome-to-included365finlongincludesd365finlongmdmd"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -30,8 +27,8 @@ En [!INCLUDE[d365fin](includes/d365fin_md.md)], le serán familiares algunos asp
 Para algunos consejos rápidos y que debe conocer, vea:  
 
 * [Buscar cosas](ui-search.md)  
-* [Configurar filtros](ui-enter-criteria-filters.md)  
-* [Ordenar datos de listas](ui-sorting.md)  
+* [Buscar, filtrar y ordenar listas](ui-enter-criteria-filters.md)  
+* [Introducción de fechas](ui-enter-data.md)  
 
 Para obtener más información, consulte [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md).  
 
@@ -43,9 +40,9 @@ Las páginas principales utilizan un diseño basado en roles para ofrecerle acce
 Cada la página principal proporciona un botón **Configuración y extensiones**. Aquí tiene acceso a una lista de configuración asistencia que puede ayudarle a empezar mediante la configuración de las áreas seleccionadas rápidamente. Si un área no está cubierta por una configuración asistida, elija la acción **Configuración manual** para obtener acceso a las ventanas de configuración donde puede rellenar los campos de configuración de todas las áreas manualmente. Para obtener más información, consulte también [Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
 > [!NOTE]  
->   La lista de guías de configuración, las extensiones y los servicios que están disponibles varían según la experiencia del usuario que elija para la empresa. La experiencia **Básica** ofrece menos acceso que la experiencia **Conjunto de aplicaciones**. La primera vez que inicie sesión, use la experiencia Básica. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).  
+>   La lista de guías de configuración, las extensiones y los servicios que están disponibles varían según la experiencia del usuario que elija para la empresa. La experiencia **Básica** ofrece menos acceso que la experiencia **Suite**. La primera vez que inicie sesión, use la experiencia Básica. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).  
 
-En la ventana **Configuración asistida**, encontrará lo siguiente con la experiencia **Conjunto de aplicaciones**:
+En la ventana **Configuración asistida**, encontrará lo siguiente con la experiencia **Suite**:
 
 | Configuración asistida | Descripción |
 | --- | --- |
@@ -60,16 +57,19 @@ En la ventana **Configuración asistida**, encontrará lo siguiente con la exper
 | Configurar informes |Configura conjuntos de datos que puede usar para generar informes eficaces utilizando Excel o Power BI, por ejemplo. |
 | Configurar un flujo de trabajo de aprobación de producto |Configura la capacidad de enviar una notificación a un aprobador cuando un usuario cambia o crea un producto. |
 | Configurar un flujo de trabajo de aprobación de pago |Configura la capacidad de enviar una notificación a un aprobador cuando un usuario envíe líneas de diario de pagos para su aprobación. |
-| Configurar conexión de Dynamics CRM |Le permite conectar con Dynamics CRM, que le posibilita la sincronización de datos como los contactos y la información de los pedidos. |
+| Configurar conector de Dynamics 365 |Le permite conectar con Dynamics 365 for Sales, que le posibilita la sincronización de datos como los contactos y la información de los pedidos. |
 | Configurar impuestos de ventas |Le ayudará a empezar con grupos de impuestos por defecto y asignará códigos de impuestos de área que podrá asignar a clientes y proveedores para poder calcular automáticamente los impuestos de venta en los documentos de venta o compra. |
 
 ## <a name="trying-things-out-in-your-own-company"></a>Probar cosas en su empresa
-¿Está pensando en suscribirse? Puede cambiar fácilmente de la empresa de demostración y crear y trabajar en una empresa que desee. Es una forma excelente de cambiar a una suscripción. Se proporcionan configuraciones para finanzas, solo necesita crear o importar productos, clientes y proveedores. Después, podrá registrar facturas y usar las herramientas de inteligencia empresarial para analizar la empresa. Puede usar su empresa gratis durante un periodo de prueba de 30 días. Si se suscribe a [!INCLUDE[d365fin](includes/d365fin_md.md)] durante a ese tiempo, ya estará preparado para empezar. Puede seguir con el trabajo que realizó durante la prueba.  
+¿Está pensando en suscribirse? Puede cambiar fácilmente de la empresa de demostración y crear y trabajar en una empresa que desee. Es una forma excelente de cambiar a una suscripción. Se proporcionan configuraciones para finanzas, solo necesita crear o importar clientes, proveedores y los productos o servicios que vende. Después, podrá registrar facturas y usar las herramientas de inteligencia empresarial para analizar la empresa. Puede usar su empresa gratis durante un periodo de prueba de 30 días. Si se suscribe a [!INCLUDE[d365fin](includes/d365fin_md.md)] durante a ese tiempo, ya estará preparado para empezar. Puede seguir con el trabajo que realizó durante la prueba.  
 
 Para crear una empresa para probar cosas, vaya al menú **Mi configuración** en la esquina superior derecha y cambie a **Mi empresa**. Cierre la sesión de [!INCLUDE[d365fin](includes/d365fin_md.md)] y vuelva a iniciarla para aplicar el cambio. Una guía de configuración asistida le ayudará a proporcionar información básica acerca de la empresa. Una vez haya terminado, explore la página principal y busque la acción **Configuración asistida**.  
 
 ## <a name="ready-to-subscribe"></a>¿Preparado para suscribirse?
-Cada vez que inicie sesión durante el periodo de prueba, una notificación en una barra azul de la parte superior muestra el tiempo restante. Si decide suscribirse, utilice el vínculo de la notificación para ponerse en contacto con Microsoft. También puede ir a [Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=828707).
+Cada vez que inicie sesión durante el periodo de prueba, una notificación en una barra azul de la parte superior muestra el tiempo restante. Si decide suscribirse, utilice el vínculo de la notificación para ponerse en contacto con Microsoft. También puede ponerse en contacto con el equipo de ventas de [!INCLUDE[d365fin](includes/d365fin_md.md)] en [Microsoft Dynamics 365 for Financials](https://go.microsoft.com/fwlink/?linkid=828707).  
+
+## <a name="other-dynamics-365-apps"></a>Más aplicaciones de Dynamics 365
+Navegue para obtener información sobre otras aplicaciones de Dynamics 365 en el vínculo [Dynamics 365](https://docs.microsoft.com/dynamics365) del anuncio de color azul que aparece en la parte superior de esta página. También puede obtener más información en el [sitio web de Microsoft Dynamics 365](https://www.microsoft.com/en-us/dynamics365/).
 
 ## <a name="see-also"></a>Consulte también
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
@@ -80,7 +80,7 @@ Cada vez que inicie sesión durante el periodo de prueba, una notificación en u
 [Obtener [!INCLUDE[d365fin](includes/d365fin_md.md)] en el dispositivo móvil](install-mobile-app.md)  
 [Documentación de Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)  
 [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
-[Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=828707)  
+[Microsoft Dynamics 365 for Financials](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
 

@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 03/29/2017
 ms.author: solsen
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 9c4c3b743d705913eaacbfd4b0e2df854f777c1c
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 445172287ae09032ff53e02d0e64dc967456a7bb
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="managing-report-and-document-layouts"></a>Administrar diseños de informes y documentos
@@ -40,8 +39,10 @@ Se pueden usar dos tipos de diseños de informe: Word y RDLC.
 ## <a name="word-report-layout-overview"></a>Descripción del diseño de informes de Word
 Un diseño de informe de Word está basado en un documento de Word (tipo de archivo .docx). Los diseños de informes de Word permiten diseñar diseños de informes con Microsoft Word 2013 o versiones posteriores. Un diseño de informes de Word determina el contenido del informe, controlando la forma en que se organizan estos elementos del contenido y su aspecto. Un documento de diseño de informe de Word normalmente usa tablas para organizar el contenido, donde las celdas pueden incluir campos de datos, texto o imágenes.
 
+ ![Ejemplo de un documento de diseño de informe de Word de NAV](media/nav_wordreportlayout_edit_in_word_example.png "NAV_WordReportLayout_Edit_In_Word_Example")  
+
 ## <a name="rdlc-layout-overview"></a>Descripción del diseño de RDLC
-Los diseños de RDLC se basan en los diseños de definición de informe de cliente (tipos de archivo .rdlc o .rdl). Estos diseños se crean y modifican con el generador de informes de SQL Server. El concepto del diseño de RDLC es similar al de Word, donde el diseño define el formato general del informe y determina qué campos del conjunto de datos incluir. La elaboración de diseños de RDLC es más avanzada que la de diseños de Word.
+Los diseños de RDLC se basan en los diseños de definición de informe de cliente (tipos de archivo .rdlc o .rdl). Estos diseños se crean y modifican con el generador de informes de SQL Server. El concepto del diseño de RDLC es similar al de Word, donde el diseño define el formato general del informe y determina qué campos del conjunto de datos incluir. La elaboración de diseños de RDLC es más avanzada que la de diseños de Word. Para obtener más información, consulte [diseños de informe RDLC](https://msdn.microsoft.com/en-us/dynamics-nav/designing-rdlc-report-layouts).
 
 ## <a name="built-in-and-custom-report-layouts"></a>Diseños de informe personalizados e integrados
 [!INCLUDE[d365fin](includes/d365fin_md.md)] incluye varios diseños integrados. Los diseños integrados son diseños predefinidos diseñados para informes específicos. Los informes de [!INCLUDE[d365fin](includes/d365fin_md.md)] tendrán un diseño integrado, como un diseño de informes de RDLC, un diseño de informes de Word o, en algunos casos, ambos. No puede modificar un diseño de informe integrado desde [!INCLUDE[d365fin](includes/d365fin_md.md)], pero sí se pueden usar como punto de inicio para crear sus propios diseños de informe personalizados.
@@ -55,10 +56,13 @@ Los conceptos de diseño generales son muy parecidos en Word y RDLC. Sin embargo
 
 El proceso para configurar diseños de informe de Word y de RDLC en informes es el mismo. La diferencia principal es la forma en la que se modifican los diseños. Los diseños de informe Word suelen ser más fáciles de crear y modificar que los diseños de informe de RDLC, ya que se puede utilizar Word para ello. Los diseños de informe de RDLC se modifican mediante el generador de informes de SQL Server, que está dirigido a usuarios más avanzados.
 
-Para obtener información acerca de cómo cambiar el diseño que desea usar, consulte [Procedimiento: Cambiar el diseño que se usa actualmente en un informe](ui-how-change-layout-currently-used-report.md)
+Para obtener información acerca de cómo cambiar el diseño que desea usar, consulte [Procedimiento: Cambiar el diseño que se usa actualmente en un informe](ui-how-change-layout-currently-used-report.md).
 
 ## <a name="see-also"></a>Consulte también
+[Actualizar diseños de informes o documentos](ui-update-report-layouts.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Crear un diseño de informe o documento personalizado](ui-how-create-custom-report-layout.md)  
-[Enviar documentos por correo electrónico.](ui-how-send-documents-email.md)
+[Cómo crear y modificar un diseño de informe o documento personalizado](ui-how-create-custom-report-layout.md)  
+[Cómo importar y exportar un diseño de informe o documento personalizado](ui-how-import-and-export-report-layout.md)  
+[Enviar documentos por correo electrónico.](ui-how-send-documents-email.md)  
+[Trabajar con informes](ui-work-report.md)  
 

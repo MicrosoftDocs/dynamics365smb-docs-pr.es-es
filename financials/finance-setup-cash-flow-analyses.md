@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
 ms.date: 06/02/2017
 ms.author: bholtorf
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: ffc0a1c8a513556de2a40fc37db7af9be779225c
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Configuración del análisis de flujo de efectivo
@@ -83,7 +82,7 @@ Para usar un proceso manual:
 También puede crear su propio servicio web predictivo basado en un modelo público denominado **Modelo de previsión para Microsoft Dynamics 365 for Financials**. Este modelo predictivo está disponible en línea en la galería de Cortana Intelligence. Para usar el modelo, siga estos pasos:  
 
 1. Abra un explorador y vaya a la [Galería de Cortana Intelligence](https://go.microsoft.com/fwlink/?linkid=828352).  
-2. Busque **Modelo de previsión para Microsoft Dynamics 365 para Finanzas** y, a continuación, abra el modelo en Azure Machine Learning Studio.  
+2. Busque **Modelo de previsión para Microsoft Dynamics 365 for Financials** y, a continuación, abra el modelo en Azure Machine Learning Studio.  
 3. Use su cuenta de Microsoft para iniciar sesión en un espacio de trabajo y, a continuación, copie el modelo.  
 4. Ejecute el modelo y como publíquelo como un servicio web.  
 5. Anote la URL de API y la clave de API. Usará estas credenciales para una configuración de flujo de caja.  

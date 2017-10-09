@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: payment process, reconcile payment, expenses, cash receipts
 ms.date: 03/29/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 2998cd0841452813cb86ee3859804de93cb9bde9
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-review-or-apply-payments-manually-after-automatic-application"></a>Procedimiento: Revisar o liquidar pagos manualmente después de una liquidación automática
@@ -26,7 +25,7 @@ Para cada línea de diario que representa un pago en la ventana **Diario de conc
 > [!IMPORTANT]  
 >   Cuando la cuenta bancaria para la que se están conciliando pagos está configurada para la divisa local, la ventana **Liquidación de pago** mostrará todos los movimientos pendientes en la divisa local, incluidos los movimientos pendientes para documentos facturados originalmente en divisas extranjeras. Los pagos liquidados en movimientos con divisas convertidas se pueden por tanto registrar con importes distintos al del documento original, ya que puede que el banco y [!INCLUDE[d365fin](includes/d365fin_md.md)] usen tipos de cambio potencialmente distintos.
 
-Por tanto, es recomendable buscar los códigos de divisas extranjeras en el campo **Código de divisa** de la ventana **Liquidación de pago** para comprobar si las liquidaciones se basan en divisas convertidas. Para revisar el importe del documento original en la divisa extranjera y ver el tipo de cambio usado, seleccione el campo **Liq. por n.º mov.** y, a continuación, en el menú contextual seleccione el botón análisis para abrir la ventana de **Movs. cliente** o **Movs. proveedor**.
+Por tanto, es recomendable buscar los códigos de divisas extranjeras en el campo **Código de divisa** de la ventana **Liquidación de pago** para comprobar si las liquidaciones se basan en divisas convertidas. Para revisar el importe del documento original en la divisa extranjera y ver el tipo de cambio utilizado, elija el campo **Liq. por nº mov.** y, a continuación, en el menú contextual, seleccione el botón desplegable para abrir la ventana **Movimientos de clientes** o la ventana **Movimientos de proveedores**.
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] no gestiona automáticamente los ajustes de ganancia y pérdida necesarios debido a conversiones de divisa.
 

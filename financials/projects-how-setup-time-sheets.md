@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
 ms.date: 06/06/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 3e85168709eb8e96b2ee2aea516189c2cf88d426
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-time-sheets"></a>Configuración de hojas de horas
@@ -44,7 +43,7 @@ Cuando haya configurado las hojas de horas, puede crear hojas de horas para recu
 ## <a name="to-assign-a-time-sheet-administrator"></a>Para asignar un administrador de la hoja de horas
 1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Configuración usuarios** y, a continuación, seleccione el vínculo relacionado.  
 2. Agregue un nuevo usuario, si la lista de usuarios no incluye a la persona que desea que sea el administrador de la hoja de horas. Para obtener más información, vea [Administrar usuarios y permisos](ui-how-users-permissions.md).
-3. Seleccione el usuario que sea un administrador de hoja de horas y seleccione la casilla **Admin. hoja horas** .  
+3. Seleccione el usuario que sea un administrador de hoja de horas y seleccione la casilla **Admin. hoja horas**.  
 
 > [!TIP]  
 >   Se recomienda que designe a un solo usuario como administrador de hoja de horas para una empresa. En el siguiente procedimiento, configure un propietario y un aprobado de hoja de horas, donde el aprobador se asigne para cada recurso.  

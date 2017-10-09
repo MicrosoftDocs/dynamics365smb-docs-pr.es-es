@@ -11,16 +11,16 @@ ms.workload: na
 ms.search.keywords: phone, tablet
 ms.date: 06/02/2017
 ms.author: solsen
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 028c1fcc6f184b0307e1fdfdc7b6a34fee86565d
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/22/2017
 
 ---
 
 # <a name="getting-dynamics-365-for-financials-on-your-mobile-device"></a>Obtener Dynamics 365 for Financials en el dispositivo móvil
-Acceda a los datos de [!INCLUDE[d365fin](includes/d365fin_md.md)] desde su dispositivo móvil. Puede navegar a través de sus datos empresariales, usar funciones como enviarlos a Excel u Office 365, ver gráficos y KPI actualizados, enviar por correo electrónico facturas y ofertas de ventas y tomar y adjuntar fotos con su cámara. Siga los pasos siguientes para descargar la aplicación y empezar.
+Acceda a los datos de [!INCLUDE[d365fin](includes/d365fin_md.md)] desde su dispositivo móvil. Puede navegar a través de sus datos empresariales, usar funciones como enviar a Excel u Office 365, ver gráficos y KPI actualizados, enviar por correo electrónico facturas y ofertas de ventas y hacer y adjuntar fotos con su cámara. Siga los pasos siguientes para descargar la aplicación y empezar.
 
 ## <a name="to-get-the-app-on-my-mobile-device"></a>Para obtener la aplicación en mi dispositivo móvil
 1. Instale la aplicación [!INCLUDE[d365fin](includes/d365fin_md.md)] en su dispositivo móvil descargándola desde la Tienda Windows, el App Store o Google Play.  

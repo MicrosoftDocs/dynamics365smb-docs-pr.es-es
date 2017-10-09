@@ -1,8 +1,6 @@
 ---
 title: "Usar la característica Transferir diferencia a cuenta para conciliar pagos | Documentos de Microsoft"
 description: "Describe cómo procesar los pagos que no se pueden aplicar a un documento, por ejemplo, cuando un tipo de cambio provoca que los importes sean distintos."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,14 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipts
-ms.date: 03/29/2017
+ms.date: 09/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 37d2d8af5086a9f633cb90abb380578b4ca73136
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 741c46f51c9ffd6e3b7f9d429accfd394684c9ed
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-reconcile-payments-that-cannot-be-applied-automatically"></a>Procedimiento: Conciliar pagos que no se pueden liquidar automáticamente
@@ -28,9 +25,9 @@ Los pagos que no se pueden liquidar pueden aparecer en líneas de diario de conc
 * El valor del campo **Diferencia** es igual al valor del campo **Importe de transacción**, que indica que no se puede liquidar ninguna parte del pago con el cliente, proveedor o movimiento de cuenta bancaria abierto relacionado.
 * El valor del campo **Diferencia** es inferior al valor del campo **Importe de transacción**, que indica que no se puede liquidar ninguna parte del pago con el cliente, proveedor o movimiento de cuenta bancaria abierto relacionado. La parte del pago restante no se puede liquidar y se debe conciliar manualmente o registrándola directamente en una cuenta.
 
-Para conciliar esos pagos, puede seleccionar el botón Transferir diferencia a cuenta y especificar en qué cuenta se registrará el importe del campo Diferencia al registrar el diario de conciliación de pagos.
+Para conciliar esos pagos, puede seleccionar el botón **Transferir diferencia a cuenta** y especificar en qué cuenta se registrará el importe del campo **Diferencia** al registrar el diario de conciliación de pagos.
 
-> [!NOTE]  
+> [!TIP]  
 >   Existen funciones similares para configurar la conciliación automática de pagos periódicos que no se pueden liquidar con el cliente, proveedor o movimiento de cuenta bancaria abierto relacionado. Para más información, consulte [Procedimiento: Asignación de texto en pagos periódicos a cuentas para conciliación automática](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
 
 ## <a name="to-reconcile-payments-that-cannot-be-applied"></a>Para conciliar pagos que no se pueden liquidar
@@ -38,7 +35,7 @@ Para conciliar esos pagos, puede seleccionar el botón Transferir diferencia a c
 2. Abra un diario de conciliación de pagos. Para obtener más información, vea [Procedimiento: Conciliar pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md).
 3. Seleccione **Transferir diferencia a cuenta**. Se abre la ventana **Transferir diferencia a cuenta**.
 4. En el campo **Tipo de cuenta**, especifique el tipo de cuenta en el que se registrará el importe del pago.
-5. En el campo **N.º cuenta** especifique la cuenta en la que se registrará el importe del pago.
+5. En el campo **Nº de cuenta**, especifique la cuenta en la que se registrará el importe del pago.
 6. En el campo **Descripción**, especifique el texto que describe este registro de pago directo. Por omisión, se inserta el texto del campo **Texto de la transacción** en la línea de diario de conciliación de pagos.
 7. Elija el botón **Aceptar**.
 

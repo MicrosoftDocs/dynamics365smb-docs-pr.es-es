@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: project management, material, purchase
 ms.date: 06/06/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 46cae53022ba5d65a370694c9818f52a7bf45525
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-manage-job-supplies"></a>Administración de suministros de proyecto
@@ -30,7 +29,7 @@ El siguiente procedimiento muestra cómo utilizar una factura de compra para com
 
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Facturas compra** y, a continuación, seleccione el vínculo relacionado.  
 2. Elija la acción **Nuevo** y, a continuación, rellene los campos según sea necesario. Para obtener más información, consulte [Procedimiento: Registrar compras](purchasing-how-record-purchases.md).
-3. En los campos **N.º de proyecto** y **N.º tarea de proyecto**, seleccione la información del proyecto para el que desea comprar productos o servicios. Use la función **Elegir columnas** si el campo no está visible. Para obtener más información, vea [Personalización del usuario](ui-user-personalization.md).
+3. En los campos **Nº proyecto** y **N.º tarea de trabajo**, seleccione la información del proyecto para el que desea comprar productos o servicios. Use la función **Elegir columnas** si el campo no está visible. Para obtener más información, vea [Personalización del usuario](ui-user-personalization.md).
 
     El valor que seleccione en el campo **Tipo línea proyecto** define si una línea de planificación se crea cuando registra el uso del producto. Si el campo contiene **Facturable**, se crean las líneas de planificación de proyecto preparadas para facturarlas al cliente. Para obtener más información, vea [Facturación de proyectos](projects-how-invoice-jobs.md).
 4. Seleccione la acción **Registrar**.
@@ -48,7 +47,7 @@ El siguiente procedimiento muestra cómo utilizar una factura de compra para com
 Si tiene costes de proyecto extraordinarios o únicos, puede utilizar la ventana **Diario general proyecto** para enviarlos directamente a la cuenta de proyecto relevante.
 
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diarios generales proyecto** y, a continuación, seleccione el vínculo relacionado.  
-2. Cree una línea nueva y especifique los datos del gasto, incluyendo la información en los campos **N.º proyecto** y **N.º tarea de proyecto**.  
+2. Cree una línea nueva y especifique los datos del gasto, incluidos los campos **Nº proyecto** y **Nº tarea proyecto**.  
 3. Cuando el diario esté completo, seleccione la acción **Registrar**.
 
 ## <a name="see-also"></a>Consulte también

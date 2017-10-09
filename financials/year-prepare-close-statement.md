@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI
 ms.date: 06/02/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 9070d8d1454b43ccfc25276ac679c099b9e809ab
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="preparing-closing-statements"></a>Preparación de extractos de cierre
@@ -33,7 +32,7 @@ La tabla siguiente describe diversos informes que pueden ayudar en este proceso,
 | Comparar el balance de sumas y saldos con un presupuesto. |Balance sumas y saldos/Ppto. |
 | Imprimir un informe de balance de sumas y saldos con saldos y cambios netos para cuentas de contabilidad calculado para una serie de periodos. |Bal. comprobación/periodo |
 | Imprimir un esquema de cuentas para analizar cifras en cuentas de contabilidad o comparar los movimientos de contabilidad reales con los presupuestados. |Esquema cuentas |
-| Comprobar si los movimientos de clientes y proveedores cuadran con los movimientos correspondientes de la contabilidad. |Reconc. ctas. client./ prov. |
+| Comprobar si los movimientos de clientes y proveedores cuadran con los movimientos correspondientes de la contabilidad. |Reconc. ctas. client./prov. |
 
 Para ver un informe, en la esquina superior derecha, elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba el nombre como aparece en la tabla y, a continuación, elija el vínculo relacionado.
 

@@ -9,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipts, customer payment
-ms.date: 06/16/2017
+ms.date: 09/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 8ea27f21b2e4acc25b4acc6b5ba15580ca5a1997
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 94055c34b67f05faa8955fdff28f854e77d9664f
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-reconcile-customer-payments-manually-from-a-list-of-unpaid-sales-documents"></a>Procedimiento: Conciliar pagos manualmente de una lista de documentos de venta sin abonar
@@ -74,7 +73,7 @@ Los movimientos de pago se registran en la cuenta contable, la cuenta de banco y
 
 Los movimientos de pago se registran en la cuenta contable, la cuenta de banco y las cuentas de cliente. Cada pago se aplica al documento de venta registrado relacionado.  
 
-Si un pago en el banco no se representa mediante la línea en la ventana **Registro de pago**, puede ser porque el documento relacionado aún no se ha registrado. En ese caso, puede usar una función de búsqueda para buscar rápidamente el documento y registrarlo para procesar el pago. Para obtener más información, consulte la sección Búsqueda de documentos a abonar durante el control manual de los pagos de cliente.  
+Si un pago en el banco no se representa mediante la línea en la ventana **Registro de pago**, puede ser porque el documento relacionado aún no se ha registrado. En ese caso, puede usar una función de búsqueda para buscar rápidamente el documento y registrarlo para procesar el pago. Para obtener más información, vea la sección “Buscar un documento determinado de ventas que no esté totalmente facturado”.  
 
 Si un pago en el banco no se representa mediante ningún documento en [!INCLUDE[d365fin](includes/d365fin_md.md)], puede abrir un diario general previamente rellenado en la ventana **Registro de pago** para registrar el pago directamente en la cuenta de saldo sin liquidar el pago a un documento. Alternativamente, puede que desee registrar el pago en el diario hasta que el origen del pago se haya resuelto. Para obtener más información, consulte la sección "Registrar pagos sin documento relacionado".  
 
@@ -138,7 +137,7 @@ El documento relacionado quedará abierto.
 El documento relacionado está cerrado y al cliente se acredita el importe de pago en exceso.  
 
 ## <a name="to-find-a-specific-sales-document-that-is-not-fully-invoiced"></a>Buscar un documento de ventas específico que no está facturado totalmente
-La ventana **Registro de pago** le ayuda en las tareas necesarias para calcular el saldo de las cuentas internas con cifras reales de efectivo para garantizar la colección efectiva de los clientes y el pago debido a los proveedores. Muestra los pagos entrantes pendientes como líneas que representen los documentos de venta donde se debe un importe para el pago.  
+La ventana **Registro de pago** le facilita las tareas necesarias para calcular el saldo de las cuentas internas con cifras reales de efectivo para garantizar la colección efectiva de los clientes y el pago debido a los proveedores. Muestra los pagos entrantes pendientes como líneas que representen los documentos de venta donde se debe un importe para el pago.  
 
 Normalmente, cuando un pago se ha realizado, registrado en el banco, etc., el documento de venta o compra relacionado se representa como una línea en la ventana **Registro de pago** porque el documento en cuestión está esperando el registro del pago con el importe pendiente. Sin embargo, a veces un pago que se ha realizado no se representa mediante una línea en la ventana **Registro de pago**, normalmente porque en el documento en cuestión no se registrado la factura totalmente.
 
@@ -151,7 +150,7 @@ En el procedimiento siguiente se explica cómo buscar un documento determinado m
 
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Registro de pago** y, a continuación, seleccione el vínculo relacionado.
 2. Con el puntero en cualquier línea, seleccione la acción **Buscar documentos**.
-3. En la ventana **Búsqueda de documentos**, especifique un valor de búsqueda en el campo **Número de documento**. .  
+3. En la ventana **Búsqueda de documentos**, especifique un valor de búsqueda en el campo **Número de documento**.  
 
     > [!NOTE]  
 >   El valor que especifique en este campo se encierra entre los caracteres comodín ocultos. Esto significa que la función busca todos los números de documento que contengan el valor especificado.    

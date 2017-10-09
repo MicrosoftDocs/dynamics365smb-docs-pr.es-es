@@ -1,6 +1,6 @@
 ---
 title: "Configurar las campañas de marketing en Financials | Documentos de Microsoft"
-description: "Describe cómo puede configurar y realizar campañas de marketing en Dynamics 365 for Financials"
+description: "Describe cómo puede configurar y llevar a cabo campañas de marketing en Dynamics 365 for Financials para ayudarle a identificar, atraer y conservar a los clientes."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect
-ms.date: 05/20/2017
-ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 92c5fb75f4f3d3180ba67b89481beed2e58c3dbe
-ms.openlocfilehash: 68359d2dd2c2e07463babda91d86d47998f0912a
+ms.date: 06/06/2017
+ms.author: edupont
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 996aca0dd46c350b5345d05e7fe320763b3caef4
 ms.contentlocale: es-es
-ms.lasthandoff: 05/31/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="managing-marketing-campaigns"></a>Administrar campañas de marketing
@@ -39,7 +38,9 @@ Cuando haya configurado su campaña, decidido qué segmentos desea que cubra la 
 
  Cuando haya configurado los precios de venta y los descuentos de líneas y los segmentos en la ficha de campaña, debe activarlos para que los precios y descuentos de campaña se reflejen en las líneas.
 
-**Nota**: Para activar los precios de venta y descuentos de línea, debe especificar si todo el segmento o solo algunos contactos son los objetivos de la campaña. Si los precios de venta y descuentos de línea cubren a todos los contactos del segmento, seleccione el campo **Objetivo campaña** de la ficha desplegable **Campaña** de la ficha **Segmento**.
+> [!NOTE]  
+>   Para activar los precios de venta y descuentos de línea, debe especificar si todo el segmento o solo algunos contactos son los objetivos de la campaña. Si los precios de venta y descuentos de línea cubren a todos los contactos del segmento, seleccione el campo **Objetivo campaña** de la ficha desplegable **Campaña** de la ficha **Segmento**.
+
 Si los precios de venta y descuentos de línea no se ofrecen a todos los contactos del segmento, puede desactivar el campo **Objetivo campaña** para los contactos relevantes. Si no ve este campo, puede agregarlo a la vista. Para obtener más información, vea [Personalización del usuario](ui-user-personalization.md).
 
 ## <a name="conducting-campaigns"></a>Realizar campañas

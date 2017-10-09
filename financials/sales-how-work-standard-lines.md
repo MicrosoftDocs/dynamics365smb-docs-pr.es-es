@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: trade, sell, replenishment
 ms.date: 07/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 85d15de13739e944ff8817b402b37ae1c7e1b144
 ms.openlocfilehash: 980a0646317c2b5c02c0eadcde9ba984c11580c4
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-create-recurring-sales-and-purchase-lines"></a>Crear líneas de ventas y de compras periódicas
@@ -39,12 +38,12 @@ El siguiente procedimiento muestra cómo trabajar con líneas de ventas estánda
 5. Elija el botón **Acep.** para insertar las líneas de ventas estándar en la factura, donde puede reutilizar la información tal como está o editarla.
 
 ## <a name="to-create-multiple-sales-invoices-based-on-standard-sales-lines"></a>Para crear varias facturas de venta basadas en líneas de ventas estándar
-Puede utilizar el proceso **Crear facturas de venta periódicas** para crear facturas de venta según las líneas de venta estándar asignadas a los clientes y con fechas de registro dentro de las fechas de inicio y fin de validez que especifique en el código de ventas estándar.
+Puede utilizar el trabajo por lotes **Crear facturas de venta periódicas** para crear facturas de venta según las líneas de venta estándar asignadas a los clientes y con fechas de registro dentro de las fechas de inicio y fin de validez que especifique en el código de ventas estándar.
 
-En la ventana **Líneas de ventas periódicas**, también puede especificar una forma de pago por adeudo directo y una orden de domiciliación de adeudo directo. Las facturas de ventas que se crean con el proceso **Crear facturas de venta periódicas** incluirán la información necesaria para cobrar los pagos por adeudo directo SEPA para las facturas de venta. Para obtener más información, consulte Cobrar pagos mediante adeudo directo SEPA.
+En la ventana **Líneas de ventas periódicas**, también puede especificar una forma de pago por adeudo directo y una orden de domiciliación de adeudo directo. Las facturas de venta que se crean con el trabajo por lotes **Crear facturas de venta periódicas** incluirá la información necesaria para cobrar los pagos por adeudo directo SEPA para las facturas de venta. Para obtener más información, consulte Cobrar pagos mediante adeudo directo SEPA.
 
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Crear facturas de venta periódicas** y, a continuación, seleccione el vínculo relacionado.
-2. En la ventana **Crear facturas de venta periódicas** rellene los campos según sea necesario.
+2. En la ventana **Crear facturas de venta periódicas**, rellene los campos necesarios.
 3. En el campo **Código**, introduzca el código de las líneas de ventas asignadas a un cliente para el que desee crear las facturas de ventas.
 4. Elija el botón **Aceptar**.
 

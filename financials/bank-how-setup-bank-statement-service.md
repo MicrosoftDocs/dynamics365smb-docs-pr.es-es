@@ -10,20 +10,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
-ms.date: 06/02/2017
+ms.date: 09/14/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ef5c6f4b9106b1b289cc5ed060fc28426fde0ae2
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 7691b7a0aab87309d02833517a91eb9938ee3a32
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-the-envestnet-yodlee-bank-feeds-service"></a>Procedimiento: Configuración del servicio de fuentes de banco de Envestnet Yodlee
 Puede importar extractos electrónicos de su banco para rellenar rápidamente la ventana **Diario de conciliación de pagos** para que pueda liquidar pagos y conciliar la cuenta bancaria. Para obtener más información, vea [Liquidar pagos automáticamente y conciliar cuentas bancarias](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 El servicio de fuentes de banco de Envestnet Yodlee está instalado como una extensión de [!INCLUDE[d365fin](includes/d365fin_md.md)] y está listo para ser activado. Para obtener más información, consulte [Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] mediante extensiones](ui-extensions.md).
+
+> [!NOTE]
+> El servicio de fuentes de banco de Envestnet Yodlee sólo se admite en EE.UU., Canadá, y Reino Unido.
 
 Después de habilitar el servicio de fuentes de banco, debe vincular una cuenta bancaria a la cuenta bancaria de la que proviene la fuente. Vincula las cuentas a cuentas en línea en los siguientes ejemplos:
 

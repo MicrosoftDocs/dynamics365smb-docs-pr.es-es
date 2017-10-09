@@ -11,12 +11,11 @@ ms.workload: na
 ms.search.keywords: numbers, numbering
 ms.date: 06/02/2017
 ms.author: solsen
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 7cc119c5879400adf63e468259a2c3a275b71cca
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-create-number-series"></a>Crear serie numérica
@@ -27,7 +26,7 @@ Para cada empresa configurada, se necesitan asignar códigos de identificación 
 
 Para crear un sistema numérico, establezca uno o varios códigos para cada tipo de datos maestros o documento. Por ejemplo, puede establecer un código para la numeración de clientes, otro para la numeración de facturas de venta y aún otro para la numeración de documentos en los diarios generales. Tras establecer un código, debe establecer al menos una línea de serie numérica. Ésta contiene información tal como el primer y último número de la serie y la fecha de inicio. Puede establecer más de una línea de serie numérica por código, con una fecha de inicio diferente para cada una. La serie se usará de manera consecutiva, a partir de la serie de cada fecha de inicio correspondiente.
 
-Las series numéricas normalmente se configuran para insertar automáticamente el siguiente número consecutivo en las nuevas fichas o documentos que cree. No obstante, también puede configurar una serie numérica que le permita introducir manualmente el nuevo número. Esta información se especifica con **Numeración manual** .
+Las series numéricas normalmente se configuran para insertar automáticamente el siguiente número consecutivo en las nuevas fichas o documentos que cree. No obstante, también puede configurar una serie numérica que le permita introducir manualmente el nuevo número. Esta información se especifica con las casillas **Numeración manual**.
 
 Si desea usar más de un código de serie numérica para un tipo de datos maestros, por ejemplo, usar una serie numérica diferente para categorías de productos, puede establecer relaciones de series numéricas.
 
@@ -36,7 +35,7 @@ Si desea usar más de un código de serie numérica para un tipo de datos maestr
 2. Seleccione la acción **Nuevo**.
 3. En la línea nueva, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-**SUGERENCIA**: Para permitir la entrada manual de un número en las nuevas fichas o documentos, desmarque la casilla **Numeración predet.** y seleccione **Numeración manual** .
+**SUGERENCIA**: para habilitar movimiento manual de un número en las nuevas fichas o documentos, cancele la selección de **Numeración predet.** y seleccione la casilla **Numeración manual**.
 
 Ahora, al crear una nueva ficha o documento que se haya configurado para utilizar la serie numérica en cuestión, podrá rellenar manualmente el campo **Nº** con cualquier valor.  
 

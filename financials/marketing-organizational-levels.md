@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, client, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 927c27998bfaeb8d7247158cde1d1eb958a6911f
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: d101076c8a51b1c7a79606d207f79a826c89bf29
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-organizational-levels-for-contact-persons"></a>Configurar niveles de organización en personas de contacto
@@ -25,13 +24,13 @@ Puede usar niveles de organización en sus contactos para especificar su posici�
 
 El uso de niveles de organización en contactos es un proceso que consta de dos pasos. Primero, debe definir el código de nivel de organización. Solo debe realizar este paso una vez para cada nivel de organización. Una vez tenga código de nivel de organización, puede comenzar a asignar el código a personas de contacto.
 
-## <a name="to-define-an-organizational-level-code"></a>para definir un código de nivel de organización
+## <a name="to-define-an-organizational-level-code"></a>Para definir un código de nivel de organización
 El código de nivel de organización define el tipo o la categoría de nivel de organización, por ejemplo DIRGEN o DIRFIN. Puede tener varios códigos de nivel de organización. Para definir el nivel de organización, use la ventana **Niveles de organización**.
 
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Niveles de organización** y, a continuación, seleccione el vínculo relacionado.
 2. Seleccione la acción **Nuevo** e introduzca un código y una descripción. El código admite un máximo de 11 caracteres y puede ser cualquier combinación de números y letras.
 
-## <a name="to-assign-organizational-levels-to-a-contact-person"></a>para asignar niveles de organización a una persona de contacto
+## <a name="to-assign-organizational-levels-to-a-contact-person"></a>Para asignar niveles de organización a una persona de contacto
 Solo puede asignar niveles de organización a personas de contacto, no a empresas de contacto. Sólo puede asignar un nivel organización a cada contacto.
 
 1. Abra el contacto.

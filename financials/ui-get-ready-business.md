@@ -11,11 +11,11 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 03/21/2017
 ms.author: solsen
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 9e13c2a994ecf4805f585df9c55199f041e80950
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 129cc1326b9a35a41f0c12db51af25de6dc4fa3b
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="getting-ready-for-doing-business"></a>Preparación para hacer negocios
@@ -26,7 +26,7 @@ Para ayudarle a empezar a hacer negocios, puede visitar la ventana **Asistencia 
 En la página principal, en la parte inferior del panel de navegación, encontrará el menú **Configuración y extensiones**. Expanda el botón **Inicio** para ver el panel de navegación. Aquí tiene acceso a una lista de configuraciones asistidas que pueden ayudarle a empezar. Una vez haya migrado los datos, como los proveedores, clientes o productos de su sistema financiero existente, está listo para empezar. Pero en función de sus necesidades, considere si la otra configuración asistida puede ayudarle. Si un área no está cubierta por una configuración asistida, elija la acción **Configuración manual** para obtener acceso a las ventanas de configuración donde puede rellenar los campos de configuración de todas las áreas manualmente. Para obtener más información, consulte también [Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 
 > [!NOTE]  
->   La lista de guías de configuración, las extensiones y los servicios que están disponibles varían según la experiencia del usuario que elija para la empresa. La experiencia **Básica** ofrece menos acceso que la experiencia **Conjunto de aplicaciones**. La primera vez que inicie sesión, use la experiencia Básica. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
+>   La lista de guías de configuración, las extensiones y los servicios que están disponibles varían según la experiencia del usuario que elija para la empresa. La experiencia **Básica** ofrece menos acceso que la experiencia **Suite**. La primera vez que inicie sesión, use la experiencia Básica. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
 
 En la ventana **Configuración asistida**, encontrará lo siguiente con la experiencia **Básico**:
 
@@ -39,7 +39,7 @@ En la ventana **Configuración asistida**, encontrará lo siguiente con la exper
 | Configurar complementos de Office |Le posibilita usar y ejecutar [!INCLUDE[d365fin](includes/d365fin_md.md)] desde Outlook. |
 | Config. flujo trabajo aprob. |Le permite notificar automáticamente al aprobador cuando un usuario intente crear o cambiar determinados valores en documentos, líneas de diario o tarjetas, como por ejemplo un importe por encima del límite especificado. |
 | Config. registro correo elect. |Le permite iniciar sesión en la correspondencia por correo electrónico en [!INCLUDE[d365fin](includes/d365fin_md.md)] para realizar el seguimiento de las interacciones. |
-| Configurar conexión de Dynamics CRM |Le permite conectar con Dynamics CRM que le posibilita la sincronización de datos como los contactos y la información de los pedidos. |
+| Configurar conector de Dynamics 365 |Le permite conectar con Dynamics 365 for Sales que le posibilita la sincronización de datos como los contactos y la información de los pedidos. |
 
 Cuando ha ejecutado un asistente de configuración, se marca como **Completado**. Para ejecutar el asistente de configuración, seleccione los tres puntos también denominados menú contextual y, a continuación, seleccione **Iniciar configuración**.
 

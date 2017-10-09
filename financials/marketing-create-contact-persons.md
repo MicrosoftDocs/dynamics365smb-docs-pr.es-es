@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 7ce0a022520b161fd0159fceb1cc1ecd3d14f4ec
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 1e7d9f6e05f12ff826959dee420917f36258b573
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="creating-contact-persons"></a>Crear personas de contacto
@@ -29,7 +28,7 @@ Asimismo, es posible que deba traducir algunas publicaciones de los productos y,
 
 Al registrar la mayor información posible sobre las personas de contacto, se asegurará de que todos los grupos de su empresa puedan encontrar la información relevante.
 
-En la tabla siguiente se indican una serie de tareas, con vínculos a los temas que las describen. Dichas tareas se enumeran en el orden en el que generalmente se llevan a cabo.
+En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen. 
 
 | Para | Vea |
 | --- | --- |
@@ -41,6 +40,6 @@ En la tabla siguiente se indican una serie de tareas, con vínculos a los temas 
 
 ## <a name="see-also"></a>Consulte también
 [Crear empresas de contacto](marketing-create-contact-companies.md)  
-[Creación y administración de contactos](marketing-create-contact-persons.md)  
+[Creación y administración de contactos]()  
 [Trabajar con Financials](ui-work-product.md)
 

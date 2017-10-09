@@ -11,12 +11,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 4a41abe08412b357207cbbc08e8dc5041b12d942
+ms.translationtype: HT
+ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
+ms.openlocfilehash: 2a84fbed87b4d6223e98db0c0bc1f5c5c7d1ba78
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-general-fixed-assets-information"></a>Procedimiento: Configurar información general de activos fijos
@@ -106,7 +105,7 @@ Si es la primera vez que utiliza los activos fijos en [!INCLUDE[d365fin](include
 2. Cree una ficha de activo para cada activo existente.  
 3. Configuración de libros depreciación de activos fijos.  
 4. Active la integración en contabilidad siguiendo estos pasos.
-5. En el cuadro **Buscar**, escriba **Libros amortización** y, a continuación, elija el vínculo relacionado.  
+5. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Libros amortización** y, a continuación, seleccione el vínculo relacionado.  
 6. Seleccione la ficha de libro de amortización correspondiente. En la pestaña **Inicio**, grupo **Administrar**, elija **Editar** para abrir la ventana **Ficha libro amortización**.
 7. Asegúrese de que todos los campos estén vacíos borrando todas las marcas en la ficha desplegable **Integración**. Si dispone de más de un libro de amortización, active la integración contable de cada uno.  
 8. En el diario de activos fijos, introduzca las siguientes líneas por activo:

@@ -9,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 07/05/2017
+ms.date: 07/07/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 85d15de13739e944ff8817b402b37ae1c7e1b144
-ms.openlocfilehash: 6bf7d2024ff9f0254e1d885580126fb16c0c6fce
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 2aefbfade71ed78c89c59597f76c6e6707110d16
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="customizing-dynamics-365-for-financials-using-extensions"></a>Personalizar Dynamics 365 for Financials con extensiones
@@ -32,7 +31,7 @@ Puede administrar las extensiones en la ventana **Administración de extensiones
 >   Si cree que debería tener acceso a una extensión pero no encuentra la funcionalidad, consulte la ventana **Administración de extensiones**; si la extensión no aparece, puede instalarla tal como se describe en la sección siguiente.  
 
 ## <a name="installing-an-extension"></a>Instalar una extensión
-Puede obtener nuevas extensiones disponibles en el mercado en [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1). Aquí puede ver todas las extensiones disponibles para [!INCLUDE[d365fin](includes/d365fin_md.md)] y puede obtener aplicaciones, extensiones y packs de contenido para otros productos de Microsoft. Configure los filtros relevantes, revise la información para cada extensión y consiga una para [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Puede obtener extensiones nuevas en mercado en [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1). Aquí, puede ver todos los extensiones disponibles para [!INCLUDE[d365fin](includes/d365fin_md.md)], y puede obtener aplicaciones, extensiones, y paquetes de contenido para otros productos de Microsoft. Configure los filtros relevantes, revise la información para cada extensión y consiga una para [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 > [!NOTE]  
 >   Inicie sesión en [AppSource.microsoft.com](https://appsource.microsoft.com/) con la cuenta de correo electrónico que usa para [!INCLUDE[d365fin](includes/d365fin_md.md)]. Use la misma cuenta de correo para otros servicios y productos para disfrutar de una experiencia agilizada.  
 
@@ -51,7 +50,8 @@ Microsoft proporciona las extensiones siguientes:
 
 * [Migración de datos de Dynamics GP](ui-extensions-dynamicsgp-data-migration.md)  
 * [Fuentes de bancos de Envestnet Yodlee](ui-extensions-yodlee-bank-feeds.md)  
-* [Estándar de pagos de PayPal](ui-extensions-paypal-payments-standard.md)  
+* [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)
+* [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)  
 * [Migración de datos de QuickBooks](ui-extensions-quickbooks-data-migration.md)  
 * [Previsión de ventas e inventario](ui-extensions-sales-forecast.md)  
 * [Nóminas de Ceridian](ui-extensions-ceridian-payroll.md)  
@@ -69,7 +69,7 @@ Microsoft proporciona las extensiones siguientes:
 [Configuración del servicio de fuentes de banco de Envestnet Yodlee](bank-how-setup-bank-statement-service.md)  
 [Permitir el pago de clientes mediante PayPal](sales-how-enable-payment-service-extensions.md)  
 [Migrar datos de empresa de otros sistemas financieros](upload-data.md)  
-[Configurar la extensión Códigos postales de Reino Unido de GetAddress.io](uk-setup-postal-code-service.md)  
+[Configurar la extensión Códigos postales de Reino Unido de GetAddress.io](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] Extensiones de otros proveedores](ui-extensions-other.md)  
 [[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 

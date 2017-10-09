@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 2ca2e771e4f7ec141cd152e1f643efad2db1b7dc
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: cfb32511dd5ba564572050a3d52058fcc2c2f9d3
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="managing-segments"></a>Administrar segmentos
@@ -28,7 +27,7 @@ La creación de un segmento consta de dos tareas principales:
 * Introducir información general sobre el segmento. Para poder seleccionar los contactos del segmento, debe crear el segmento.
 * Seleccionar los contactos que se van a incluir en el segmento.
 
-En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen. Estas tareas se enumeran en el orden en que normalmente se llevan a cabo.
+En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen. 
 
 | Para | Vea |
 | --- | --- |

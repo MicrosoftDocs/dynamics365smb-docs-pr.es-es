@@ -1,5 +1,5 @@
 ---
-title: Crear una propuesta o una oferta de venta | Documentos de Microsoft
+title: Crear una oferta de venta a un cliente | Documentos de Microsoft
 description: "Describe cómo crear una oferta de venta o un documento de solicitud de propuesta (RFQ) para registrar la oferta a un cliente para vender productos con determinadas condiciones."
 documentationcenter: 
 author: SorenGP
@@ -9,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.date: 03/29/2017
+ms.date: 08/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 86aad5cbe448b8de396338c609979150cc4adfa6
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 6d1c4a937a8030c2f6dbef578a5d5f168faafc31
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-make-offers"></a>Realización de ofertas
@@ -70,7 +69,7 @@ Si ha configurado líneas de venta periódicas para el cliente, como por ejemplo
 16. En la ventana **Enviar correo electrónico**, rellene los campos restantes y revise la oferta de venta incluida. Para obtener más información, vea [Procedimiento: Enviar documentos por correo electrónico](ui-how-send-documents-email.md).
 17. Si el cliente acepta la oferta, seleccione la acción **Generar factura** o **Realizar pedido**.
 
-La oferta de venta se quita de la base de datos. Una factura de venta o un pedido de venta se crea a partir de la información en la oferta de venta en la que puede procesar la venta. En el campo **N.º oferta**, de la factura de venta o del pedido de venta puede ver el número de la oferta de venta a partir de la que se creó. Para obtener más información, consulte [Procedimiento: Facturar ventas](sales-how-invoice-sales.md) o [Procedimiento: Vender productos](sales-how-sell-products.md).
+La oferta de venta se quita de la base de datos. Una factura de venta o un pedido de venta se crea a partir de la información en la oferta de venta en la que puede procesar la venta. En el campo **Nº oferta** de la factura de venta o pedido de venta, se muestra el número de la oferta de venta a partir de la que se creó. Para obtener más información, consulte [Procedimiento: Facturar ventas](sales-how-invoice-sales.md) o [Procedimiento: Vender productos](sales-how-sell-products.md).
 
 ## <a name="see-also"></a>Consulte también
 [Ventas](sales-manage-sales.md)  

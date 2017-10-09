@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: news
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 2a54dfe38195a27c4c1cb155e48760d19fb36f03
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 00fd623b6323b10a811d64c47b4a24d9a47b9f88
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="whats-new-in-dynamics-365-for-financials"></a>Novedades de Dynamics 365 for Financials
@@ -31,7 +30,7 @@ En esta página, puede ver qué áreas estaban disponibles mientras estábamos e
 Según lo anunciado en el blog, ahora somos un servicio que usa en la empresa. Pero esta actualización también agrega nuevas funciones y una nueva extensión.
 
 ### <a name="project-management"></a>Administración de proyectos
-Si cambia a la experiencia Suite, puede administrar proyectos y trabajar con recursos, hojas de horas y proyectos. Cuando inicie sesión por primera vez como jefe de proyectos, una guía de configuración asistida le guiará por la configuración de la administración de los proyectos. Puede trabajar con las cuentas de ejemplo, trabajos, recursos, etc., en la empresa de demostración para familiarizarse con la funcionalidad. Para obtener más información, vea [Administrar proyectos](projects-manage-projects.md).
+Si cambia a la experiencia Suite, puede administrar proyectos y trabajar con recursos, hojas de horas y proyectos. Cuando inicie sesión por primera vez como jefe de proyectos, una guía de configuración asistida le guiará por la configuración de la administración de los proyectos. Puede trabajar con las cuentas de ejemplo, trabajos, recursos, etc., en la empresa de demostración para familiarizarse con la funcionalidad. Para obtener más información, vea [Administración de proyectos](projects-manage-projects.md).
 
 ### <a name="fixed-assets"></a>Activos fijos
 Si cambia a la experiencia Suite, puede administrar activos fijos, incluida la amortización y el seguro. Se proporciona una configuración estándar, pero puede modificarla en cualquier momento si lo desea. Puede registrar las compras de activos de los diarios CG de activos fijos dedicados donde también puede disponer de activos fijos. Los movimientos de contabilidad adecuados se crean automáticamente. Para obtener más información, vea [Activos fijos](fa-manage.md).
@@ -91,7 +90,7 @@ Esta actualización agrega acciones al panel del proveedor en el complemento de 
 El complemento de Outlook ahora amplía el calendario de Outlook. Desde una cita de calendario, puede abrir el complemente de [!INCLUDE[d365fin](includes/d365fin_md.md)] y obtener una visión general del cliente asociado a la cita. A continuación, puede crear y registrar una factura de los servicios proporcionados en la reunión, y todo ello directamente en el calendario de Outlook. Para obtener más información, consulte [Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] como su bandeja de entrada de empresa en Outlook](madeira-outlook.md).  
 
 ### <a name="appsource-marketplace-for-extensions"></a>Mercado AppSource de extensiones
-Las extensiones de [!INCLUDE[d365fin](includes/d365fin_md.md)] están disponibles en el mercado AppSource en [AppSource.microsoft.com](https://appsource.microsoft.com/). Podrá buscar y encontrar extensiones en el mercado. Podrá ver la información, incluido material de marketing, capturas de pantalla, vídeos y vínculos a detalles adicionales. Para obtener más información, consulte [Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] mediante extensiones](ui-extensions.md).  
+La extensiones [!INCLUDE[d365fin](includes/d365fin_md.md)] están disponibles en el mercado AppSource en [AppSource.microsoft.com](https://appsource.microsoft.com/). Podrá buscar y encontrar extensiones en el mercado. Podrá ver la información, incluido material de marketing, capturas de pantalla, vídeos y vínculos a detalles adicionales. Para obtener más información, consulte [Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] mediante extensiones](ui-extensions.md).  
 
 ### <a name="shipping-agents-and-item-attributes"></a>Atributos de transportistas y producto
 Puede agregar atributos a sus productos de inventario que faciliten mucho la búsqueda del producto adecuado que desea el cliente. Para obtener más información sobre cómo trabajar con el formulario, consulte [Procedimiento: Trabajar con atributos de producto](inventory-how-work-item-attributes.md).  
@@ -100,8 +99,8 @@ Puede agregar atributos a sus productos de inventario que faciliten mucho la bú
 Con esta actualización, puede elegir entre más extensiones en la ventana **Administración de extensiones**.
 Para obtener más información, consulte [[!INCLUDE[d365fin](includes/d365fin_md.md)] Extensiones de otros proveedores](ui-extensions-other.md).  
 
-### <a name="manage-your-customer-relationships-using-microsoft-dynamics-crm-from-inside-included365finincludesd365finmdmd"></a>Administrar sus relaciones con el cliente mediante Microsoft Dynamics CRM desde [!INCLUDE[d365fin](includes/d365fin_md.md)]
-Hemos agregado una nueva guía de configuración asistida a la página programa del administrador de negocio que le guiará por el proceso de configuración para conectarse a Dynamics CRM. Una vez terminada, tendrá un acoplamiento perfecto de los registros de Dynamics CRM con los registros de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, vea [Administrar sus relaciones con el cliente mediante Microsoft Dynamics CRM desde [!INCLUDE[d365fin](includes/d365fin_md.md)] ](marketing-integrate-dynamicscrm.md).
+### <a name="manage-your-customer-relationships-using-microsoft-dynamics-365-for-sales-from-inside-included365finincludesd365finmdmd"></a>Administrar las relaciones con el cliente mediante Microsoft Dynamics 365 for Sales desde [!INCLUDE[d365fin](includes/d365fin_md.md)]
+Hemos agregado una nueva guía de configuración asistida a la página programa del administrador de negocio que le guiará por el proceso de configuración para conectarse a Dynamics 365 for Sales. Una vez terminada, tendrá un acoplamiento perfecto de los registros de Dynamics 365 for Sales con los registros de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, vea [Administrar sus relaciones con el cliente mediante Microsoft Dynamics 365 for Sales desde [!INCLUDE[d365fin](includes/d365fin_md.md)] ](marketing-integrate-dynamicscrm.md).
 
 ## <a name="may-2016-update"></a>Actualización de mayo de 2016
 Esta actualización de [!INCLUDE[d365fin](includes/d365fin_md.md)] ha agregado nuevas funciones como [se anunció en el blog](https://community.dynamics.com/business/b/financials/archive/2016/06/01/new-and-updated-capabilities-in-the-first-update-of-project-quot-madeira-quot).  

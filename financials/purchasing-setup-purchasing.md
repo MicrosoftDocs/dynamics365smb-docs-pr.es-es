@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
 ms.date: 03/29/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: bc4578131489baa66d31e8c25b4815b87f992fdf
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 4c6285b1e394e5953fd76953ed2ab45e9b40ec3d
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="setting-up-purchasing"></a>Configurar compras
@@ -31,10 +30,10 @@ La configuración de compra relacionada con las finanzas, como las formas de pag
 
 | Para | Vea |
 | --- | --- |
-| Cree una ficha de proveedor para cada proveedor del que compre. |[Registro de proveedores nuevos](purchasing-how-register-new-vendors.md) |
-| Introduzca los diferentes descuentos y precios especiales que los proveedores garantizan en función del producto, la cantidad o la fecha. |[Registrar acuerdos de precios de compra, descuentos y pagos](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
-| De prioridad a los proveedores. |[Asignación de prioridad a proveedores](purchasing-how-prioritize-vendors.md) |
-| Configure los compradores. |[Configuración de compradores](purchasing-how-setup-purchasers.md) |
+| Cree una ficha de proveedor para cada proveedor al que compre.|[Registro de proveedores nuevos](purchasing-how-register-new-vendors.md) |
+| Introduzca los diferentes descuentos y precios especiales que los proveedores le ofrecen en función del producto, la cantidad y/o la fecha. |[Registrar acuerdos de precios de compra, descuentos y pagos](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
+| De prioridad a los proveedores |[Asignación de prioridad a proveedores](purchasing-how-prioritize-vendors.md) |
+| Configure los compradores |[Configuración de compradores](purchasing-how-setup-purchasers.md) |
 
 ## <a name="see-also"></a>Consulte también
 [Compras](purchasing-manage-purchasing.md)  

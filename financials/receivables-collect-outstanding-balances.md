@@ -1,8 +1,6 @@
 ---
 title: Recordatorios y clientes con pagos vencidos | Documentos de Microsoft
 description: "Describe cómo enviar un recordatorio a un cliente sobre un pago atrasado y los intereses o comisiones generados por el retraso."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,14 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 06/28/2017
+ms.date: 09/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: f64ad8c9170af52d7650324029a259b267f166b4
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: c0e028d84d868c7aca597ee007a038ccf3fa61a2
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-collect-outstanding-balances"></a>Procedimiento: Cobrar saldos pendientes
@@ -99,7 +96,7 @@ Si crea más recordatorios de aquellos para los que tenga niveles definidos, se 
 |%11|El nombre de la empresa|  
 |%12|Contenido del campo **Recargo adicional por línea** en la cabecera del recordatorio|  
 
-Por ejemplo, si escribe **Tiene una deuda de %7 %9 vencida desde el %2.**, el recordatorio resultante contendrá el siguiente texto: **Tiene una deuda de 1.200,50 DL vencida desde el 02\-02\-2014.**
+Por ejemplo, si escribe **Tiene una deuda de %9 %7 vencida desde el %2.**, el recordatorio resultante contendrá el siguiente texto: **Tiene una deuda de USD DL vencida desde el 02-02-2014**.
 
 Una vez configurados los términos de recordatorio, con niveles y texto adicionales, escriba uno de los códigos en cada una de las fichas de cliente. Para obtener más información, vea [Procedimiento: Registrar nuevos clientes](sales-how-register-new-customers.md).
 
@@ -163,11 +160,13 @@ Debe definir un código para cada cálculo de interés. Después puede introduci
 
 Puede calcular los intereses utilizando el cálculo por días crédito o bien el cálculo por saldo vencido.
 
-Según el principio de cálculo por saldo vencido, el interés es tan sólo una parte porcentual de éste.
-**Método del Saldo vencido** - intereses = Saldo vencido x (Tipo interés / 100)
+Según el principio de cálculo por saldo vencido, el interés es tan sólo una parte porcentual de éste.  
 
-Con el principio de cálculo por días crédito, se tiene en cuenta cuántos días han transcurrido desde que venció el pago.
-Método del **Saldo medio día** - intereses = Saldo vencido x (Días vencidos/Periodo de interés) x (Tipo interés/100)
+    Balance Due method - Finance Charge = Overdue Amount x (Interest Rate / 100)
+
+Con el método de cálculo de saldo por días, se tiene en cuenta cuántos días han transcurrido desde que venció el pago:  
+
+    Average Daily Balance method - Finance Charge = Overdue Amount x (Days Overdue / Interest Period) x (Interest Rate/100)
 
 Además, cada código de la tabla Términos interés está vinculado a la subtabla Texto interés. Por cada grupo de términos de interés, puede definir un texto inicial y/o final que se incluirán en el documento de interés.
 
@@ -204,10 +203,8 @@ Los documentos de interés son parecidos a las facturas. Puede rellenar la cabec
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Documentos interés** y, a continuación, seleccione el vínculo relacionado.  
 2. Elija la acción **Nuevo** y, a continuación, rellene los campos según sea necesario.  
 3. Elija la acción **Proponer líneas doc. interés**.
-4. En **Proponer líneas doc. interés  
-6.  Si desea crear documentos de interés sólo para determinados movimientos, defina un filtro en la ficha desplegable **Mov. cliente**.  
-
-7.  Elija el botón **Aceptar** para iniciar el trabajo por lotes.  
+4. En la ventana **Sugerir documentos financieros de interés**, establezca un filtro en la ficha desplegable **Movimientos contables de cliente** Si desea crear documentos financieros de interés sólo para determinados movimientos.  
+5.  Elija el botón **Aceptar** para iniciar el trabajo por lotes.  
 
 ## <a name="to-update-finance-charge-memo-texts"></a>Para actualizar los textos en documentos de interés  
 En algunos casos, quizás le interese modificar el texto de comienzo y fin configurado para los recordatorios de interés. Si no hace esto en el momento de crear los documentos de interés aún sin emitir, puede actualizar los documentos con el texto modificado.

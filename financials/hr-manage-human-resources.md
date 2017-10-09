@@ -10,21 +10,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
-ms.date: 06/27/2017
+ms.date: 08/09/2017
 ms.author: SorenGP
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: b5bb86fe4f76d5ebd12aba9279b1c1b6ef9e9d9b
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 87a55a215f4db857d390033fb6954c06b210be8c
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
-# <a name="human-resources"></a>Recursos humanos
+# <a name="manage-human-resources"></a>Administrar recursos humanos
 En [!INCLUDE[d365fin](includes/d365fin_md.md)], puede llevar un registro detallado de los empleados. Se puede registrar y actualizar información de los empleados, como contratos de empleo, información confidencial, cualificaciones y contactos del empleado.
 
+También puede registrar ausencias de empleados, lo que permite analizar las ausencias registradas, según las necesidades.
+
 > [!NOTE]  
->   Esta funcionalidad requiere que la experiencia esté definida en **Conjunto de aplicaciones**. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
+> Esta funcionalidad requiere que la experiencia esté definida en **Suite**. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
 
 Para empezar a utilizar la funcionalidad Recursos humanos, se deben configurar empleados y otra información básica. También se pueden asociar varios códigos a un empleado, lo que permite filtrar información de empleados específicos.
 
@@ -32,7 +33,8 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 
 | Para | Vea |
 | --- | --- |
-| Registre a los empleados nuevos o modifique los registros de los empleados existentes y adjunte la información relacionada, como contratos y productos. |[Registrar empleados](hr-how-register-employees.md) |
+| Registre a los empleados nuevos o modifique los registros de los empleados existentes y adjunte la información relacionada, como contratos y productos. |[Procedimiento: Registrar empleados](hr-how-register-employees.md) |
+| Registre la ausencia de los empleados y consulte las estadísticas de ausencia mediante distintos filtros. |[Procedimiento: Administrar las ausencias de los empleados](hr-how-manage-absence.md) |
 
 ## <a name="see-also"></a>Consulte también
 [Finanzas](finance.md)  

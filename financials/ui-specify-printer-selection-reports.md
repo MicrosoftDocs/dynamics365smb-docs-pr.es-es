@@ -12,18 +12,17 @@ ms.workload: na
 ms.search.keywords: online printing
 ms.date: 03/29/2017
 ms.author: solsen
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 106ad2acf2703e8182033a43a39c693a8b060d8f
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 42fb4adbcc01c443722fe90bb59edafceb34ff06
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="specify-printer-selection-for-reports"></a>Especificar selección de impresora para informes
 Esta página está vacía porque no puede configurar impresoras específicas para informes específicos. Estamos trabajando para resolver este problema.
 
-Mientras tanto, si desea imprimir un informe tiene que descargarlo como documento PDF eligiendo primero el botón **Enviar**. A continuación, seleccione el tipo de archivo como se descargará el informe; debe elegir **Documento PDF**. Ahora puede abrir el documento de PDF inmediatamente e imprimirlo, o guardarlo e imprimirlo más adelante.
+Mientras tanto, si desea imprimir un informe, tiene que descargarlo como documento PDF primero, eligiendo el botón **Enviar**. A continuación, seleccione el tipo de archivo como se descargará el informe; debe elegir **Documento PDF**. Ahora puede abrir el documento de PDF inmediatamente e imprimirlo, o guardarlo e imprimirlo más adelante.
 
 <!--
 

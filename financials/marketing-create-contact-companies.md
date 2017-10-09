@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: bbde977ff87049625295fab798445539b23f23dc
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 2deb992855857a83955c3c119eb7903fe45088d2
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="creating-contact-companies"></a>Crear empresas de contacto
@@ -27,7 +26,7 @@ Al asignar la mayor información posible sobre una empresa específica se garant
 
 También puede definir la relación de negocio que mantiene con un contacto. Por ejemplo, un contacto podría ser un cliente potencial, un banco o un contratista.
 
-En la tabla siguiente se indican una serie de tareas, con vínculos a los temas que las describen. Dichas tareas se enumeran en el orden en el que generalmente se llevan a cabo.
+En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen. 
 
 | Para | Vea |
 | --- | --- |

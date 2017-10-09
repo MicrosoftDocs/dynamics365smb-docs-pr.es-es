@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: multiple currencies, payment, reconcile
 ms.date: 06/02/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 035f4c0e98e3b7ba308319c2017568de832e26c5
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 6379aea58ab7943b117e5b19b22f71193290c2cb
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-enable-application-of-ledger-entries-in-different-currencies"></a>Procedimiento: Permitir la liquidación de movimientos de cliente en distintas divisas
@@ -28,7 +27,7 @@ De igual modo, si vende a un cliente en una divisa y cobra en otra, puede liquid
 El procedimiento siguiente describe cómo configurarlo para movimientos de proveedor en la ventana **Configuración de compras y pagos**. La configuración es similar para los movimientos de cliente en la ventana **Configuración de ventas y cobros**.
 
 > [!NOTE]  
->   Esta funcionalidad requiere que la experiencia esté definida en **Conjunto de aplicaciones**. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
+>   Esta funcionalidad requiere que la experiencia esté definida en **Suite**. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
 
 ## <a name="to-enable-application-of-vendor-ledger-entries-in-different-currencies"></a>Para permitir la liquidación de movimientos de proveedor en divisas distintas
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Configuración de compras y pagos** y, a continuación, seleccione el vínculo relacionado.
@@ -39,6 +38,17 @@ El procedimiento siguiente describe cómo configurarlo para movimientos de prove
 | Ninguno |No se permite la liquidación entre divisas. |
 | UME |Se permite la liquidación entre divisas de la UME. |
 | Todo |Se permite la liquidación entre todas las divisas. |
+
+## <a name="to-set-up-gl-accounts-for-currency-application-rounding-differences"></a>Para configurar cuentas para liquidar diferencias de redondeo en divisa  
+Si liquida movimientos en varias divisas distintas, debe configurar las cuentas en las que se registrarán las diferencias de redondeo.  
+  
+> [!NOTE]  
+>  Primero debe configurar las cuentas contables antes de completar la tarea. Para obtener más información, consulte [Descripción del libro mayor y plan de cuentas](finance-general-ledger.md). 
+  
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Grupos contables clientes** y, a continuación, seleccione el vínculo relacionado.  
+2. En los campos **Cta. neg. red. liquids. divisa** y **Cta. pos. red. liquids. divisa**, especifique el número de cuentas contables para registrar las diferencias de redondeo.  
+3. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Grupos de registro del proveedor** y, a continuación, seleccione el vínculo relacionado.  
+4. En los campos **Cta. neg. red. liquids. divisa** y **Cta. pos. red. liquids. divisa**, especifique el número de cuentas contables para registrar las diferencias de redondeo.  
 
 ## <a name="see-also"></a>Consulte también
 [Administrar pagos](payables-manage-payables.md)  

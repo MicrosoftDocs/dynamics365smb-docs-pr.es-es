@@ -12,23 +12,22 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
 ms.date: 06/02/2017
 ms.author: edupont
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 1944d7633c5f19a42ae8bbe022b8ef026e9515cd
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="using-dynamics-365-for-financials-as-your-business-inbox-in-outlook"></a>Usar Dynamics 365 for Financials como su bandeja de entrada de empresa en Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] introduce la posibilidad de gestionar las interacciones comerciales con sus clientes y proveedores directamente en Microsoft Outlook. Con los complementos de Outlook de [!INCLUDE[d365fin](includes/d365fin_md.md)], puede ver los datos financieros relativos a los clientes y los proveedores, así como crear y enviar documentos financieros, como por ejemplo presupuestos y facturas.  
 
 ## <a name="get-the-add-in"></a>Obtener el complemento
-En [!INCLUDE[d365fin](includes/d365fin_md.md)] uno de los pasos en la guía de configuración de Introducción en la ventana **Dirija su empresa desde Office 365**. En dicha ventana, cuando hace clic en el botón **Registrarse en Outlook**, debe especificar su nombre de usuario y contraseña de Office 365. Los complementos [!INCLUDE[d365fin](includes/d365fin_md.md)] se agregan automáticamente a su Outlook.  
+En [!INCLUDE[d365fin](includes/d365fin_md.md)], uno de los pasos en la guía de configuración de Introducción es la ventana **Dirija su empresa desde Office 365**. En dicha ventana, cuando selecciona el botón **Registrarse en Outlook**, debe especificar su nombre de usuario y contraseña de Office 365. Los complementos [!INCLUDE[d365fin](includes/d365fin_md.md)] se agregan automáticamente a su Outlook.  
 
 A continuación, cuando abre Outlook, verá los correos electrónicos del administrador de Financials. Se agrega el nuevo complemento a la cinta de opciones de Outlook y en el acceso red para Outlook, puede verlo en la cinta de complemento inmediatamente superior al cuerpo del correo electrónico. El complemento se actualizará periódicamente y recibirá la notificación de que tiene lista una nueva versión en Outlook.  
 
-Algunas empresas que usan Office 365 restringen los permisos de los usuarios para implementar los complementos. Debe asegurarse de que tiene una suscripción a Office 365 que incluye correo electrónico y permite implementar los complementos. Si desea probar el complemento de todos modos, puede [probar Office 365 gratis](https://products.office.com/try).  
+Algunas empresas que usan Office 365 restringen los permisos de los usuarios para implementar complementos. Debe asegurarse de que tiene una suscripción a Office 365 que incluye correo electrónico y permite implementar complementos. Si desea probar el complemento de todos modos, puede [probar Office 365 gratis](https://products.office.com/try).  
 
 ## <a name="using-the-contact-insights-add-in"></a>Usar el complemento Información del contacto
 Supongamos que recibe un correo electrónico de un cliente que desea obtener una oferta de algunos productos. Puede abrir el complemento Financials directamente en Outlook, que reconoce al remitente como cliente y abre la ficha de cliente para su empresa. Desde este panel puede ver la información general del cliente, así como analizar en más detalle documentos específicos. También puede rebuscar en el historial de ventas del cliente. Si es un cliente nuevo, puede crearlo como nuevo en [!INCLUDE[d365fin](includes/d365fin_md.md)] sin salir de Outlook.  
@@ -57,11 +56,11 @@ En primer lugar, debe comprobar que tiene acceso a los complementos en su cuenta
 
 De igual forma, en el cliente de escritorio de Outlook puede comprobar que [!INCLUDE[d365fin](includes/d365fin_md.md)] se muestran en la ventana **Administrar complementos**.  
 
-En ambos casos, si [!INCLUDE[d365fin](includes/d365fin_md.md)] sigue sin estar disponible, tiene que obtener los archivos del manifiesto del complemento. Para obtener más información, póngase en contacto con el administrador de Office 365.
+En ambos casos, si [!INCLUDE[d365fin](includes/d365fin_md.md)] sigue sin estar disponible, tiene que obtener los archivos del manifiesto del complemento. Para obtener más información, póngase en contacto con su administrador de Office 365.
 
 ## <a name="see-also"></a>Consulte también
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
 [Finanzas](finance.md)  
-[Ventas](sales-manage-sales.md)  
+[Ccial](sales-manage-sales.md)  
 [Compras](purchasing-manage-purchasing.md)  
 

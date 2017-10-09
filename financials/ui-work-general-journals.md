@@ -11,23 +11,24 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 07/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 85d15de13739e944ff8817b402b37ae1c7e1b144
-ms.openlocfilehash: fb1c3a7f209113f75d8cddc58985eb6a3f21e8ed
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b573bb55c29de329e5d9a804b49a91687dc369ff
 ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="working-with-general-journals"></a>Trabajar con diarios generales
 La mayoría de las transacciones financieras se registran en la contabilidad a través de documentos empresariales dedicados, como facturas de compra y pedidos de ventas. Para las actividades empresariales que no está representadas por un documento en [!INCLUDE[d365fin](includes/d365fin_md.md)], como los gastos o recibos de efectivo más pequeños, puede crear las transacciones relacionadas registrando líneas de diario en la ventana **Diario general**. Para obtener más información, consulte [Registrar transacciones directamente en la contabilidad](finance-how-post-transactions-directly.md).
 
-Puede usar diarios generales para registrar transacciones financieras directamente en cuentas generales y otras cuentas, como cuentas bancarias, de cliente y de proveedor. Registrar con un diario general siempre crea movimientos en cuentas contables. Esto es así incluso si, por ejemplo, una línea del diario se registra en una cuenta de cliente, pues un movimiento se registra en una cuenta de cobros de contabilidad a través de un grupo de registro.
+Por ejemplo, puede registrar el cargo de los empleados de propio dinero de gastos relacionados con el mercado, para su reembolso posterior. Para obtener más información, vea [Procedimiento: registro y reembolso de los costes de los empleados](finance-how-record-reimburse-employee-expenses.md).
 
-La información que introduzca en un diario es temporal y se puede modificar mientras se encuentre en el diario. Al registrar el diario, la información se transfiere a movimientos en cuentas individuales, donde no se puede modificar. Sin embargo, puede desliquidar los movimientos registrados y puede registrar movimientos de inversión o correctores. Para obtener más información, consulte [Revertir un registro de diario](finance-how-reverse-journal-posting.md).
+Puede usar diarios generales para registrar transacciones financieras directamente en cuentas generales y otras cuentas, como cuentas bancarias, de cliente, proveedor y empleado. Registrar con un diario general siempre crea movimientos en cuentas contables. Esto es así incluso si, por ejemplo, una línea del diario se registra en una cuenta de cliente, pues un movimiento se registra en una cuenta de cobros de contabilidad a través de un grupo de registro.
+
+La información que introduzca en un diario es temporal y se puede modificar mientras se encuentre en el diario. Al registrar el diario, la información se transfiere a movimientos en cuentas individuales, donde no se puede modificar. Sin embargo, puede desliquidar los movimientos registrados y puede registrar movimientos de inversión o correctores. Para obtener más información, consulte [Procedimiento: revertir registros](finance-how-reverse-journal-posting.md).
 
 ## <a name="using-journal-templates-and-batches"></a>Usar plantillas y secciones de diario
-Existen varias plantillas de diario general. Cada plantilla de diario se representa mediante una ventana específica con funciones particulares y los campos que se requieren para admitir estas funciones, como la ventana **Diario de conciliación de pagos** para procesar pagos bancarios y la ventana **Diario de pagos** para pagar a sus proveedores. Para obtener más información, consulte [Realizar pagos](payables-make-payments.md) y [Conciliar pagos de cliente manualmente](receivables-how-apply-sales-transactions-manually.md).
+Existen varias plantillas de diario general. Cada plantilla de diario se representa mediante una ventana específica con funciones particulares y los campos que se requieren para admitir estas funciones, como la ventana **Diario de conciliación de pagos** para procesar pagos bancarios y la ventana **Diario de pagos** para pagar a sus proveedores o reembolsar a sus empleados. Para obtener más información, consulte [Realizar pagos](payables-make-payments.md) y [Conciliar pagos de cliente manualmente](receivables-how-apply-sales-transactions-manually.md).
 
 Para cada plantilla de diario, puede configurar su propio diario personal como una sección de diario. Por ejemplo, puede definir su propia sección de diario del diario de pagos que tiene su diseño y configuración personal. La sugerencia siguiente es un ejemplo de cómo personalizar un diario.
 
@@ -35,7 +36,7 @@ Para cada plantilla de diario, puede configurar su propio diario personal como u
 > Si marca la casilla **Proponer importe de compensación** en la línea de su sección en la ventana **Secciones diario general**, a continuación, el campo **Importe**, por ejemplo, las líneas de diario general del mismo número de documento se rellena automáticamente con el valor necesario para incluir el saldo del documento. Para obtener más información, consulte [Permitir que [!INCLUDE[d365fin](includes/d365fin_md.md)] proponga valores](ui-let-system-suggest-values.md).
 
 ## <a name="understanding-main-accounts-and-balancing-accounts"></a>Descripción de las cuentas principales y las cuentas de contrapartida
-Si ha configurado cuentas de contrapartida predeterminadas para las secciones del diario, la cuenta de contrapartida se rellenará automáticamente cuando rellene el campo **N.º cuenta**. . Si no, rellene los campos **N.º de cuenta** y **N.º cuenta contrapartida** manualmente. Un importe positivo en el campo **Importe** se adeuda en la cuenta principal y se carga en la cuenta de contrapartida. Un importe negativo se carga en la cuenta principal y se adeuda en la cuenta de contrapartida.
+Si ha configurado cuentas de contrapartida predeterminadas para las secciones del diario en la página **Diarios generales**, la cuenta de contrapartida se rellenará automáticamente cuando rellene el campo **Nº cuenta**. En caso contrario, deberá rellenar manualmente tanto el campo **Nº cuenta** como el campo **Cta. contrapartida**. Un importe positivo en el campo **Importe** se adeuda en la cuenta principal y se carga en la cuenta de contrapartida. Un importe negativo se carga en la cuenta principal y se adeuda en la cuenta de contrapartida.
 
 > [!NOTE]  
 >   El IVA se calcula de manera independiente para la cuenta principal y la cuenta de contrapartida, para que puedan utilizar diferentes tipos porcentuales de IVA.
@@ -95,20 +96,19 @@ Si el campo **Nº series** de la sección de diario está rellenado, la función
 
 Esta función también funciona en las vistas filtradas.
 
-Cualquier nueva numeración de los números de documento respetará las aplicaciones relacionadas, como una solicitud de pago se ha realizado desde el documento en la línea del diario a una cuenta de proveedor. En consecuencia, los campos **Liq. por id.** y **Liq. por nº documento** de los movimientos de contabilidad asignados se pueden actualizar.
+Cualquier nueva numeración de los números de documento respetará las aplicaciones relacionadas, como una solicitud de pago se ha realizado desde el documento en la línea del diario a una cuenta de proveedor. Por consiguiente, los campos **Liq. por id.** y **Liq. por nº documento** para los movimientos de contabilidad asignados pueden ser actualizados.
 
 El procedimiento siguiente se basa en la ventana **Diario general**, pero se aplica a todos los demás diarios que se basan en el diario general, como la ventana **Diario de pagos**.
 
 1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), especifique **Diarios generales** y elija el vínculo relacionado.
 2. Cuando esté listo para registrar el diario, elija la acción **Renumerar los números de documento**.
 
-Los valores en el campo **N.º de documento** se cambian, cuando sea necesario, para que el número de documento en las líneas de diario individuales o agrupadas estén en orden secuencial. Después de que se vuelven a numerar documentos, podrá registrar el diario.
-
+Cuando sea necesario, los valores del campo **Nº documento** se cambian para que el número de documento en las líneas de diario individuales o agrupadas estén en orden secuencial. Después de que se vuelven a numerar documentos, podrá registrar el diario.
 
 ## <a name="see-also"></a>Consulte también
-[Registrar transacciones directamente en la contabilidad](finance-how-post-transactions-directly.md)  
-[Revertir un registro de diario](finance-how-reverse-journal-posting.md)  
-[Asignar costes e ingresos.](year-allocate-costs-income.md)  
+[Procedimiento: registrar transacciones directamente en la contabilidad](finance-how-post-transactions-directly.md)  
+[Procedimiento: Revertir registros](finance-how-reverse-journal-posting.md)  
+[Procedimiento: asignar costes e ingresos.](year-allocate-costs-income.md)  
 [Finanzas](finance.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
