@@ -11,11 +11,11 @@ ms.workload: na
 ms.search.keywords: non-inventoriable
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: b51c163dc8eafc462a1fd489d498d44eaeafd24a
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b9256944295880d6ec9dad916eb9632b9d5f7c20
 ms.contentlocale: es-es
-ms.lasthandoff: 09/11/2017
+ms.lasthandoff: 09/22/2017
 
 ---
 # Procedimiento: Trabajar con productos sin stock
@@ -66,6 +66,7 @@ Si es necesario, podrá rellenar o editar los campos en la nueva ficha de produc
 
 ## Consulte también
 [Registro de productos nuevos](inventory-how-register-new-items.md)  
-[Inventario](inventory-manage-inventory.md)  
+[Cómo crear pedidos especiales](sales-how-to-create-special-orders.md)|  
+[Grupos contables inventario](inventory-manage-inventory.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

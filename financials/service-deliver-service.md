@@ -1,0 +1,49 @@
+---
+title: "Resumen de tareas para la prestación del servicio | Documentos de Microsoft"
+description: Describe las tareas para asegurarse de que se entrega un servicio de calidad y se cumplen los acuerdos con los clientes.
+services: project-madeira
+documentationcenter: 
+author: SorenGP
+ms.service: dynamics365-financials
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: service, service items, respond, response
+ms.date: 08/23/2017
+ms.author: sgroespe
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 9c60f65b65c7037b4ce26212cfe80e7b7f1b1336
+ms.contentlocale: es-es
+ms.lasthandoff: 09/22/2017
+
+---
+# <a name="delivering-service"></a><span data-ttu-id="ac300-103">Prestación del servicio</span><span class="sxs-lookup"><span data-stu-id="ac300-103">Delivering Service</span></span>
+[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="ac300-104"> proporciona funciones que le ayudarán a prestar servicio según los contratos que haya creado y los pedidos de servicio que se haya comprometido a cumplir.</span><span class="sxs-lookup"><span data-stu-id="ac300-104"> provides features to help you deliver service according to the contracts that you have created and the service orders that you have committed to fulfilling.</span></span> <span data-ttu-id="ac300-105">Sus técnicos de servicio o distribuidor encontrarán con facilidad los pedidos de servicio pendientes utilizando el **Panel despacho**.</span><span class="sxs-lookup"><span data-stu-id="ac300-105">Your service technicians or dispatcher will find outstanding service orders easy to locate when they use the **Dispatch Board**.</span></span> <span data-ttu-id="ac300-106">De un vistazo, el **Panel despacho** muestra qué pedidos están en curso y cuáles han finalizado.</span><span class="sxs-lookup"><span data-stu-id="ac300-106">At a glance, the **Dispatch Board** shows which orders are in progress and which orders are complete.</span></span>  
+  
+<span data-ttu-id="ac300-107">Otro modo de revisar pedidos de servicio pendientes es usar la ventana **Tareas de servicio**.</span><span class="sxs-lookup"><span data-stu-id="ac300-107">Another way to review pending service orders is to use the **Service Tasks** window.</span></span> <span data-ttu-id="ac300-108">En esta visión de sus obligaciones de servicio, puede ver en qué parte de su flujo de trabajo de servicios se encuentra un pedido y cambiar el estado para reflejar interacciones con su cliente.</span><span class="sxs-lookup"><span data-stu-id="ac300-108">In this view of your service obligations, you can see where in your service workflow an order is and change that status to reflect interactions with your customer.</span></span>  
+  
+<span data-ttu-id="ac300-109">En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.</span><span class="sxs-lookup"><span data-stu-id="ac300-109">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>   
+
+<span data-ttu-id="ac300-110">Una aplicación de gestión de servicios debe interactuar con la solicitud de servicio de un cliente.</span><span class="sxs-lookup"><span data-stu-id="ac300-110">A service management application must interface with a customer request for service.</span></span> <span data-ttu-id="ac300-111">Dicha solicitud de servicio normalmente se convierte en un pedido de servicio.</span><span class="sxs-lookup"><span data-stu-id="ac300-111">That service request usually is translated into a service order.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="ac300-112"> proporciona herramientas para crear un pedido tanto directamente como en respuesta a una solicitud de cliente o como parte del proceso de contrato, si así está configurada la aplicación.</span><span class="sxs-lookup"><span data-stu-id="ac300-112"> provides tools to create an order both directly in response to a customer request or as part of the contract process, if that is how your application is set up.</span></span>  
+  
+<span data-ttu-id="ac300-113">En caso necesario, puede gestionar un programa de productos prestados para sus clientes.</span><span class="sxs-lookup"><span data-stu-id="ac300-113">If needed, you can manage a loaner program for your customers.</span></span> <span data-ttu-id="ac300-114">También puede determinar su estructura de precios, poner ofertas de precios de servicios en agrupaciones lógicas y crear ajustes de precios.</span><span class="sxs-lookup"><span data-stu-id="ac300-114">You can also determine your pricing structure, put service pricing offerings into logical groupings, and create price adjustments.</span></span>  
+  
+<span data-ttu-id="ac300-115">En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.</span><span class="sxs-lookup"><span data-stu-id="ac300-115">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>   
+  
+|<span data-ttu-id="ac300-116">**Para**</span><span class="sxs-lookup"><span data-stu-id="ac300-116">**To**</span></span>|<span data-ttu-id="ac300-117">**Vea**</span><span class="sxs-lookup"><span data-stu-id="ac300-117">**See**</span></span>|  
+|------------|-------------|  
+|<span data-ttu-id="ac300-118">Crear ofertas que sean borradores de órdenes de servicio y, a continuación, conviértalas en órdenes de servicio.</span><span class="sxs-lookup"><span data-stu-id="ac300-118">Create quotes that are drafts of service orders, and then convert the quotes to service orders.</span></span>|[<span data-ttu-id="ac300-119">Cómo crear ofertas de servicio</span><span class="sxs-lookup"><span data-stu-id="ac300-119">How to: Create Service Quotes</span></span>](service-how-to-create-service-quotes.md)|
+|<span data-ttu-id="ac300-120">Crear los documentos que contienen información acerca de un servicio, como reparaciones y mantenimiento, en productos de servicio.</span><span class="sxs-lookup"><span data-stu-id="ac300-120">Create documents that contain information about a service, such as repairs and maintenance, on service items.</span></span>|[<span data-ttu-id="ac300-121">Cómo crear pedidos de servicio</span><span class="sxs-lookup"><span data-stu-id="ac300-121">How to: Create Service Orders</span></span>](service-how-to-create-service-orders.md)|
+|<span data-ttu-id="ac300-122">Planificar la prestación de servicios con el **Panel despacho**.</span><span class="sxs-lookup"><span data-stu-id="ac300-122">Plan the delivery of service by using the **Dispatch Board**.</span></span> <span data-ttu-id="ac300-123">También puede usar herramientas de gestión de proyectos del departamento de Proyectos para ayudar en la planificación.</span><span class="sxs-lookup"><span data-stu-id="ac300-123">You can also use project management tools in the Jobs department to help in planning.</span></span>|[<span data-ttu-id="ac300-124">Asignar recursos</span><span class="sxs-lookup"><span data-stu-id="ac300-124">How to: Allocate Resources</span></span>](service-how-to-allocate-resources.md)|  
+|<span data-ttu-id="ac300-125">Prestar servicio a clientes realizando tareas de servicio.</span><span class="sxs-lookup"><span data-stu-id="ac300-125">Deliver service to customers by performing service tasks.</span></span>|[<span data-ttu-id="ac300-126">Cómo trabajar en tareas de servicio</span><span class="sxs-lookup"><span data-stu-id="ac300-126">How to: Work on Service Tasks</span></span>](service-how-to-work-on-service-tasks.md)|  
+|<span data-ttu-id="ac300-127">Registrar pedidos de servicios para servicios, de modo que tenga actualizada la contabilidad.</span><span class="sxs-lookup"><span data-stu-id="ac300-127">Post service orders for services, so that your accounting is up-to-date.</span></span>|[<span data-ttu-id="ac300-128">Cómo registrar abonos y órdenes de servicio</span><span class="sxs-lookup"><span data-stu-id="ac300-128">How to: Post Service Orders and Credit Memos</span></span>](service-how-to-post-service-orders.md)|  
+|<span data-ttu-id="ac300-129">Crear y registrar facturas para servicios entregados.</span><span class="sxs-lookup"><span data-stu-id="ac300-129">Create and post invoices for services that you have delivered.</span></span>|[<span data-ttu-id="ac300-130">Cómo crear una factura de servicio o abono de servicio.</span><span class="sxs-lookup"><span data-stu-id="ac300-130">How to: Create Service Invoices or Credit Memos</span></span>](service-how-create-invoices.md)|  
+|<span data-ttu-id="ac300-131">Mantener a los clientes contentos prestándoles un producto mientras trabaja en el suyo.</span><span class="sxs-lookup"><span data-stu-id="ac300-131">Keep customers happy by lending them an item while you work on theirs.</span></span>| [<span data-ttu-id="ac300-132">Prestar y recibir productos de préstamo</span><span class="sxs-lookup"><span data-stu-id="ac300-132">How to: Lend and Receive Loaner Items</span></span>](service-how-to-lend-receive-loaners.md)|
+  
+## <a name="see-also"></a><span data-ttu-id="ac300-133">Consulte también</span><span class="sxs-lookup"><span data-stu-id="ac300-133">See Also</span></span>  
+[<span data-ttu-id="ac300-134">Servicio de planificación</span><span class="sxs-lookup"><span data-stu-id="ac300-134">Planning Service</span></span>](service-plan-service.md)  
+[<span data-ttu-id="ac300-135">Cumplimiento de contratos de servicio</span><span class="sxs-lookup"><span data-stu-id="ac300-135">Fulfilling Service Contracts</span></span>](service-fulfill-service-contracts.md)  
+[<span data-ttu-id="ac300-136">Administrar proyectos</span><span class="sxs-lookup"><span data-stu-id="ac300-136">Managing Projects</span></span>](projects-manage-projects.md)  
+
