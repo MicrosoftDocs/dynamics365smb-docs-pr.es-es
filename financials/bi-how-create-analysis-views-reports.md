@@ -50,13 +50,12 @@ A continuación, puede configurar las siguientes columnas:
 
 Basándose en las líneas y columnas definidas, el programa agregará el resultado del informe en la ventana de matriz **Informe de análisis**, como en este ejemplo:  
 
-|||||  
+| |Ventas del mes actual|Ventas del mes anterior|Porcentaje de ventas del mes anterior|  
 |-|-|-|-|  
-||Ventas del mes actual|Ventas del mes anterior|Porcentaje de ventas del mes anterior|  
-|Equipos||||  
-|Pantallas||||  
-|Piezas sueltas||||  
-|Total||||  
+|Equipos| | | |  
+|Pantallas| | | |  
+|Piezas sueltas| | | |  
+|Total| | | |  
 
  Puede, por ejemplo, configurar un conjunto de líneas y varios conjuntos de plantillas de columna para mostrar los informes mensuales y anuales respectivamente.
 

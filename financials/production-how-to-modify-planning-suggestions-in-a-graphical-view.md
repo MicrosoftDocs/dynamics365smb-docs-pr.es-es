@@ -67,7 +67,6 @@ Para implementar los cambios del plan de suministro, debe seguir los mensajes de
  |Círculo verde con un icono en forma de disco que tiene una cruz de color rojo|Pedido de suministro sugerido con el mensaje de acción *Cancelar*.<br /><br /> -   No puede modificar.<br />- Visible cuando está seleccionado el campo **Incluir sugerencias de planificación** (gráfico verde).|  
  |Círculo verde con un icono en forma de disco que tiene un asterisco|Pedidos de suministros sugeridos con los mensajes de acción *Nuevo*.<br /><br /> -   Se puede modificar.<br />- Visible cuando está seleccionado el campo **Incluir sugerencias de planificación** (gráfico verde).|  
  |Círculo verde con un icono en forma de disco que tiene una o dos flechas|Pedidos de suministros sugeridos con el mensaje de acción *Volver a programar*, *Cambiar cdad.* o *Reprog. y Cambiar cdad.*<br /><br /> -   Se puede modificar.<br />- Visible cuando está seleccionado el campo **Incluir sugerencias de planificación** (gráfico verde).<br /><br /> Las flechas reflejan la dirección de la sugerencia de la planificación. Por ejemplo, una flecha izquierda con una flecha hacia arriba refleja el mensaje de acción *Reprog. y Cambiar cdad.* que consiste en una actualización hacia atrás y un aumento de cantidad.|  
- ||  
 
 Cuando acceda al menú desplegable para la ficha desplegable **Escala de tiempo**, las funciones siguientes aparecen dependiendo de lo que elija  
 
