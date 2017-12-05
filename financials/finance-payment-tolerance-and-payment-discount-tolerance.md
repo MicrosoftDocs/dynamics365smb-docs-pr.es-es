@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/10/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 434e18ed539a189e8f041c914cfdcdf2c1e0532f
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: c6365507992b75d5fa264491bbc85bb1b4a8ed7a
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-work-with-payment-tolerances-and-payment-discount-tolerances"></a>Trabajar con tolerancias de pago y tolerancias de descuento de pago
@@ -31,7 +31,7 @@ Un documento tendrá las tolerancia de pago si se liquida con él mismo o con ot
 
 *fecha de descuento P.P. < fecha de pago del movimiento seleccionado <= fecha de tolerancia de pago*  
 
-Esta regla también aplica para determinar si se muestran las advertencias cuando aplica la tolerancia de pago a varios documentos. La advertencia de tolerancia de descuento de pago se muestra para cada movimiento que cumpla los criterios de fecha. Para obtener más información, consulte la sección "Ejemplo 2: cálculos de tolerancia para varios documentos". 
+Esta regla también aplica para determinar si se muestran las advertencias cuando aplica la tolerancia de pago a varios documentos. La advertencia de tolerancia de descuento de pago se muestra para cada movimiento que cumpla los criterios de fecha. Para obtener más información, consulte la sección "Ejemplo 2: cálculos de tolerancia para varios documentos".
 
 Puede optar por mostrar una advertencia que se base en las distintas situaciones de tolerancia.  
 
@@ -95,7 +95,8 @@ Los ejemplos con la alternativa A o B representan lo siguiente:
 - **A**: en este caso la advertencia tolerancia dto. P.P. se ha desactivado O el usuario tiene activado la advertencia y ha seleccionado permitir el descuento P.P vencido (Registrar el saldo como tolerancia pagos).  
 - **B** en este caso, el usuario tiene activada la advertencia y ha seleccionado no permitir el descuento P.P vencido (Dejar el saldo como importe pendiente).  
 
-|—|Fra.|Dto. P.P.|Máx.<br /><br /> tol. pagos|Fecha dto. P.P.|Fecha tol. dto. Fecha|Fecha pago|Tol.|Tipo tolerancia|Todos los movimientos cerrados|Fecha tol. dto. <br /> Cb/Cl|Tol.<br /><br /> pagos<br /><br /> Cb.|  
+[!div class="mx-tdBreakAll"]  
+|—|Fra.|Dto. P.P.|Máx. tol. pagos|Fecha dto. P.P.|Fecha tol. dto. Fecha|Fecha pago|Tol.|Tipo tolerancia|Todos los movimientos cerrados|Fecha tol. dto. Cb/Cl|tol. pagos Cb.|  
 |-------|----------|----------------|-----------------------|---------------------|--------------------------|------------------|----------|--------------------|------------------------|------------------------------|----------------------------|  
 |1|1,000|nº 20|5|15/01/03|20/01/03|<=15/01/03|985|Tol. pagos|Sí|0|-5|  
 |2|**1,000**|**20**|**5**|**15/01/03**|**20/01/03**|**<=15/01/03**|**980**|**Ninguno**|**Sí**|**0**|**0**|  
@@ -166,7 +167,9 @@ Los ejemplos con la alternativa A, B, C o D representan lo siguiente:
 - **C**: en este caso, el usuario tiene activada la advertencia y ha seleccionado permitir el descuento P.P vencido en la primera factura, pero no en la segunda.  
 - **D**: en este caso, el usuario tiene activada la advertencia y ha seleccionado no permitir el descuento P.P vencido en la primera factura, pero sí en la segunda.  
 
-|—|Fra.|Dto. P.P.|Máx. tol. pagos|Fecha dto. P.P.|Fecha tol. dto. Fecha|Fecha pago|Dto. P.P.|Tipo tolerancia|Todos los movimientos cerrados|Fecha tol. dto. <br /> Cb/Cl|tol. pagos<br /><br /> Cb.|  
+[!div class="mx-tdBreakAll"]  
+
+|—|Fra.|Dto. P.P.|Máx. tol. pagos|Fecha dto. P.P.|Fecha tol. dto. Fecha|Fecha pago|Dto. P.P.|Tipo tolerancia|Todos los movimientos cerrados|Fecha tol. dto. Cb/Cl|tol. pagos Cb.|  
 |-------|----------|---------------|-------------------|---------------------|--------------------------|------------------|---------|--------------------|------------------------|------------------------------|------------------------|  
 |1|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|<=15/01/03|1920|Tol. pagos|Sí|0<br /><br /> 0|-5 <br />-5|  
 |**2**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**15/01/03** <br />**17/01/03**|**20/01/03** <br />**22/01/03**|**<=15/01/03**|**1910**|**Ninguno**|**Sí**|**0**<br /><br /> **0**|0 <br />0|  

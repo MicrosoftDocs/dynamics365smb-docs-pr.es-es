@@ -1,6 +1,6 @@
 ---
 title: "Crear nuevas empresas con una guía de configuración asistida | Documentos de Microsoft"
-description: "Es fácil crear una empresa nueva y en blanco en Dynamics 365 for Financials. Una guía de configuración asistida le ayudará a seguir los pasos, y podrá importar sus datos empresariales existentes."
+description: "Es fácil crear una empresa nueva y en blanco en Dynamics 365 Business edition. Una guía de configuración asistida le ayudará a seguir los pasos, y podrá importar sus datos empresariales existentes."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords: company, setup wizard
 ms.date: 07/14/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
-ms.openlocfilehash: 3ff3c7af87033595d64e583b62b0e0242b22d2f1
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: c4152a77fcd3e5995aaf09c17b0a3a2c227aa2fa
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="creating-new-companies-in-included365finlongincludesd365finlongmdmd"></a>Crear nuevas en empresas en [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -44,10 +44,10 @@ Cuando inicie sesión en una empresa nueva, se ejecutará el asistente **Configu
 
 Por ejemplo, la dirección de su empresa se incluye en facturas y otros documentos, su información bancaria se utiliza en los pagos y el método de cálculo de costes se utiliza para calcular los precios, así como la evaluación del inventario.  
 
-Una vez que tenga los elementos básicos, puede configurar las áreas restantes. A continuación, puede agregar datos empresariales, como clientes y proveedores. Para obtener más información, consulte [Configurar Dynamics 365 for Financials](setup.md).  
+Una vez que tenga los elementos básicos, puede configurar las áreas restantes. A continuación, puede agregar datos empresariales, como clientes y proveedores. Para obtener más información, consulte [Configuración de Dynamics 365 Business edition](setup.md).  
 
 ## <a name="see-also"></a>Consulte también
-[Configurar Dynamics 365 for Financials](setup.md)  
+[Configuración de Dynamics 365 Business edition](setup.md)  
 [Importar datos de empresa de otros sistemas financieros](upload-data.md)  
 [Cambiar la configuración básica](ui-change-basic-settings.md)  
 [[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  

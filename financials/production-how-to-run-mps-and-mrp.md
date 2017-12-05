@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 09/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ffe729c1d0fbbb062394f815281dcf658cbff783
+ms.sourcegitcommit: bd69a3da7a0a5e766a232e8999056ac60109e7b1
+ms.openlocfilehash: 89982479ec539f6bf394d31af8775a0b735588fc
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/02/2017
 
 ---
-# <a name="how-to-run-full-planning-mps-and-mrp"></a>Cómo ejecutar la planificación completa, MPS y MRP
+# <a name="how-to-run-full-planning-mps-or-mrp"></a>Cómo ejecutar la planificación completa, MPS o MRP
 Los términos "ejecutar la hoja de planificación" o "ejecutar MRP" hacen referencia al cálculo del programa de producción principal y a las necesidades de material, en función de la demanda real y prevista. El programa de planificación puede calcular tanto el Programa de planificación principal (MPS) como la Planificación de necesidades de material (MRP) cuando se solicite, o calcular ambas cosas a la vez.  
 
--   *MPS* se refiere al cálculo de un programa de producción principal basado en la demanda real y en la previsión de producción. El cálculo de MPS se utiliza para productos finales que tengan una previsión o una línea de pedido de venta. Estos productos se denominan "productos de MPS" y se identifican dinámicamente al iniciarse el cálculo.  
--   *MRP* se refiere al cálculo de las necesidades de material basado en la demanda real de componentes y en la previsión de producción de componentes. Sólo se calcula para los productos que no son productos de MPS. La finalidad de MRP es ofrecer planes formales con fases temporales, por producto, para suministrar el producto adecuado, en el momento correcto, en el lugar convenido y en la cantidad justa.  
+-   MPS se refiere al cálculo de un programa de producción principal basado en la demanda real y en la previsión de producción. El cálculo de MPS se utiliza para productos finales que tengan una previsión o una línea de pedido de venta. Estos productos se denominan "productos de MPS" y se identifican dinámicamente al iniciarse el cálculo.  
+-   MRP se refiere al cálculo de las necesidades de material basado en la demanda real de componentes y en la previsión de producción de componentes. Sólo se calcula para los productos que no son productos de MPS. La finalidad de MRP es ofrecer planes formales con fases temporales, por producto, para suministrar el producto adecuado, en el momento correcto, en el lugar convenido y en la cantidad justa.  
 
 Los algoritmos de planificación usados tanto para MPS como para MRP son idénticos. Los algoritmos de planificación relativos a saldos netos reutilizan órdenes de reposición existentes y mensajes de acción. El proceso del sistema de planificación examina lo que se necesita o se va a necesitar (la demanda) y lo que hay físicamente o se espera que haya (el suministro). Cuando estas cantidades se comparan, [!INCLUDE[d365fin](includes/d365fin_md.md)] proporciona mensajes de acción. Los mensajes de acción son sugerencias para crear un pedido nuevo, para cambiar un pedido (la cantidad o la fecha) o para cancelar un pedido ya solicitado. El término "pedido" incluye pedidos de compra, pedido de ensamblado, pedidos de producción y pedidos de transferencia.
 
@@ -51,7 +51,7 @@ Con cada método previsto, [!INCLUDE[d365fin](includes/d365fin_md.md)] genera la
 2.  Seleccione la acción **Calcular planificación regenerativa** para abrir la ventana **Calcular plan**.  
 3.  En la ficha desplegable **Opciones**, rellene los campos tal como se describe en la tabla siguiente.  
 
-    |Campo|Description|  
+    |Campo|Descripción|  
     |---------------------------------|---------------------------------------|  
     |**MPS**|Seleccione para iniciar el cálculo de un programa de producción maestro. En la ejecución, se tienen en cuenta los productos con pedidos de venta abiertos o con previsiones de producción.|  
     |**MRP**|Seleccione para iniciar el cálculo de la planificación de requisitos de material. En esta ejecución se tienen en cuenta los productos con necesidades dependientes. Normalmente, MPS y MRP se ejecutan al mismo tiempo. Para ejecutar MPS y MRP al mismo tiempo, el campo de **Cálculo agrupado MPS/MRP** debe estar seleccionado en la ficha desplegable **Planificación** en la ventana de **Configuración fabricación**.|  
@@ -69,7 +69,7 @@ Con cada método previsto, [!INCLUDE[d365fin](includes/d365fin_md.md)] genera la
 1.  En la ventana **Hoja de planificación**, elija la acción **Ejecutar mensajes de acción**.  
 2.  En la ficha desplegable **Opciones**, especifique cómo crear suministros. Rellene los campos tal como se describe en la tabla siguiente.  
 
-    |Campo|Description|  
+    |Campo|Descripción|  
     |---------------------------------|---------------------------------------|  
     |**Orden producción**|Especifique cómo desea crear órdenes de producción. Puede hacerlo directamente desde las propuestas de líneas de planificación. Puede crear órdenes de producción planificadas o planificadas en firme.|  
     |**Pedido de ensamblado**|Especifique cómo desea crear órdenes de ensamblado. Puede hacerlo directamente desde las propuestas de líneas de planificación.|  
@@ -97,7 +97,7 @@ Después de revisar los mensajes de acción y determinar si acepta todos los cam
 
 Como respuesta a los desequilibrios entre aprovisionamiento y demanda, se generan los mensajes de acción siguientes.  
 
-|Mensaje acción|Description|  
+|Mensaje acción|Descripción|  
 |--------------------|---------------------------------------|  
 |**Nuevo**|Si una demanda no se puede satisfacer con lo que sugieren los mensajes de acción en cuanto a **Cambiar cdad.**, **Reprogramar** o **Reprog. y cambiar cdad.** de los pedidos existentes, se genera el mensaje **Nuevo**, que sugiere crear otro pedido. Además, se emite el mensaje **Nuevo** si no hay pedidos de suministro en el ciclo de reaprovisionamiento del producto en cuestión. Este parámetro determina el número de periodos hacia adelante y hacia atrás del perfil de disponibilidad cuando busca un pedido para reprogramarlo.|  
 |**Cambiar cantidad**|Cuando cambia la cantidad de la demanda ligada a un pedido de suministro, se genera un mensaje de acción **Cambiar cdad.**, que indica que se debe cambiar el abastecimiento correspondiente en función del cambio en la demanda. Si se produce una nueva demanda, [!INCLUDE[d365fin](includes/d365fin_md.md)] busca el pedido de suministro sin reservar más próximo en el ciclo de reaprovisionamiento, y emite un mensaje de cambio.|  

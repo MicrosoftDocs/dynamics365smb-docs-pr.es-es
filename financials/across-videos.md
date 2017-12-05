@@ -1,5 +1,5 @@
 ---
-title: "¿Cómo puedo utilizar los vídeos en Dynamics 365 for Financials? | Documentos de Microsoft"
+title: "¿Cómo puedo utilizar los vídeos en Dynamics 365 Business edition? | Documentos de Microsoft"
 description: "Proporciona acceso a los vídeos de introducción que muestran como realizar tareas comunes."
 services: project-madeira
 documentationcenter: 
@@ -13,10 +13,10 @@ ms.search.keywords: video, library, how to
 ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6e5f4e0b32b90a19f4f58a1fd792a686c0cb41d0
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: c3cb769e45d2ef2ade6eb82118cd6f79b5e3cf9d
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="visit-our-video-library"></a>Visite nuestra biblioteca de vídeos
@@ -35,7 +35,9 @@ Puede acceder a los vídeos de varias formas. Si ya está trabajando con [!INCLU
 * Desde el Área de trabajo **Administrador de negocio**, mediante **Asistencia de negocio** y **Mostrar configuración y recursos de ayuda**.  
 
 > [!Tip]  
-> Además de los vídeos, **Asistencia de negocio** incluye recursos como vínculos a los temas y las guías de configuración asistidas que facilitan la configuración de las opciones. Estos recursos sustituyen el gráfico en el área de trabajo. Una vez explore los recursos, vuelva al gráfico en el menú **Ayuda de negocio** mediante **Mostrar gráfico**.  
+> Los vídeos en la biblioteca se muestran en un cuadro que puede parecer pequeño. Para agrandar el marco, elija el icono de flecha de doble extremo en la esquina superior derecha. Después, los videos se mostrarán en el cuadro más grande hasta que vuelva a ser pequeño.  
+
+Además de los vídeos, **Asistencia de negocio** incluye recursos como vínculos a los temas y las guías de configuración asistidas que facilitan la configuración de las opciones. Estos recursos sustituyen el gráfico en el área de trabajo. Una vez explore los recursos, vuelva al gráfico en el menú **Ayuda de negocio** mediante **Mostrar gráfico**.  
   
 Puede ver nuestros "tutoriales", además de muchos otros contenidos, en el canal de YouTube que creamos para Microsoft Dynamics 365. Para visitar ahora el canal haga clic [aquí](https://go.microsoft.com/fwlink/?linkid=851533).
 

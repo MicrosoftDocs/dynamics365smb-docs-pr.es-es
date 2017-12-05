@@ -1,6 +1,6 @@
 ---
 title: Realizar el seguimiento de la actividad de usuario en un registro de cambios | Documentos de Microsoft
-Description: Puede activar el registro de usuario para tener un historial de los cambios realizados en los datos de las tablas de las que se hace el seguimiento.
+Description: You can activate a user log so that you have a history of any changes made to data in tracked tables.
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,13 +12,13 @@ ms.search.keywords: user log, user activity, tracking
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: c27c63ae26f2f97dd15d31978b967f6a08dd55b7
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: b64a17e69e5112ec0ff822bbacc8ec2772a21231
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="logging-changes-in-dynamics-365-for-financials"></a>Registrar cambios en Dynamics 365 for Financials
+# <a name="logging-changes-in-dynamics-365-business-edition"></a>Registrar cambios en Dynamics 365 Business edition 
 Puede habilitar el registro de cambios en [!INCLUDE[d365fin](includes/d365fin_md.md)] para tener un historial de actividades. El registro se basa en los cambios realizados en los datos en las tablas que se siguen. En el registro de cambios, los movimientos se ordenan cronológicamente y se muestran los cambios realizados a los campos de las tablas especificadas. El registro de cambios recopila todos los cambios que se han realizado en la tabla.  
 
 ## <a name="working-with-the-change-log"></a>Trabajar con el registro de cambios

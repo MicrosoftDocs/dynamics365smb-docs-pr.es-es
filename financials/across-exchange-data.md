@@ -11,16 +11,16 @@ ms.search.keywords:
 ms.date: 08/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 81781676adf27a4f1c1d478bb2b4bd8248551468
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: f7ee9914d70474e912414ecd4de9a4cf16fa4e45
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="exchanging-data"></a>Intercambio de datos
 Puede intercambiar datos entre [!INCLUDE[d365fin](includes/d365fin_md.md)] y secuencias o archivos externos en conexión con tareas de negocio comunes, como enviar y recibir documentos electrónicos e importar y exportar archivos bancarios.  
 
-Para poder enviar y recibir documentos electrónicos o importar y exportar archivos bancarios, debe configurar el marco de intercambio de datos para procesar las secuencias o los archivos de datos correspondientes. Además, debe configurar áreas relacionadas. Estos incluyen los datos maestros para los clientes a los que envían las facturas electrónicas y el servicio de la conversión de datos bancarios en los casos en que distribuya conversiones de archivos bancarios a un proveedor de servicios externo. Para obtener más información, consulte [Configuración del intercambio de datos](across-set-up-data-exchange.md).  
+Para poder enviar y recibir documentos electrónicos o importar y exportar archivos bancarios, debe configurar el marco de intercambio de datos para procesar las secuencias o los archivos de datos correspondientes. Además, debe configurar áreas relacionadas. Estos incluyen los datos maestros para los clientes a los que envían las facturas electrónicas y el servicio de la conversión de datos bancarios en los casos en que distribuya conversiones de archivos bancarios a un proveedor de servicios externo. Para obtener más información, consulte [Configurar el intercambio de datos](across-set-up-data-exchange.md).  
 
  En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.  
 
@@ -38,7 +38,7 @@ Para poder enviar y recibir documentos electrónicos o importar y exportar archi
 
 ## <a name="see-also"></a>Consulte también  
 [Configuración del intercambio de datos](across-set-up-data-exchange.md)  
-[Intercambio de datos como documentos electrónicos ](across-data-exchange.md)  
+[Intercambio de datos electrónicamente](across-data-exchange.md)  
 [Facturación de ventas](sales-how-invoice-sales.md)   
 [Procedimiento: Registro de compras](purchasing-how-record-purchases.md)  
 [Documentos entrantes](across-income-documents.md)  

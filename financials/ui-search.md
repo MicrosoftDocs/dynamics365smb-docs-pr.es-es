@@ -1,6 +1,6 @@
 ---
 title: "Buscar páginas o informes con la función Buscar página o informe | Documentos de Microsoft"
-description: "Para buscar páginas e informes en Dynamics 365 for Financials, puede usar la característica Buscar página o informe."
+description: "Para buscar páginas e informes en Dynamics 365 Business edition, puede usar la característica Buscar página o informe."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,10 +13,10 @@ ms.search.keywords: find
 ms.date: 03/29/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: c38f22bec1101a8373b7b5dab246942f49412afc
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 0fd2995e254d053c6ac66ae6ab9153d2dfe9a4a7
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="searching-for-a-page-or-report"></a>Buscar una página o informe

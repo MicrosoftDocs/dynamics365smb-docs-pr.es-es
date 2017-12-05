@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, accountant
-ms.date: 09/05/2017
+ms.date: 09/14/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 84b2331f14b8c7e8d73921189e2df33fa709626e
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: a370002c08d8ef4cc46baa864f32b6ca2ef01b78
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="accountant-portal-for-dynamics-365-for-financials"></a>Portal para contables para Dynamics 365 for Financials
+# <a name="accountant-portal-for-dynamics-365-business-edition"></a>Portal para contables para Dynamics 365 Business edition
 Esta aplicación proporciona un panel de cliente con datos de resumen de cada cliente de un contable. El portal muestra los KPI financieros así como un vínculo directo a la aplicación financiera del cliente.  
 
 El panel incluye un área de trabajo muy especializada que sirve para disponer de un mejor resumen de los clientes.  
@@ -28,15 +28,17 @@ Al instalar la extensión por primera vez, una empresa de ejemplo le ayuda a emp
 ## <a name="installing-the-extension"></a>Instalar la extensión
 Al instalar la extensión en [!INCLUDE[d365fin](includes/d365fin_md.md)], se le preguntará si desea usarla ahora. Si lo hace, deberá cerrar la sesión e iniciarla de nuevo, porque la extensión reemplaza a su área de trabajo actual y añade permisos a su perfil de usuario.  
 
-Para obtener más información, consulte [Experiencias contables en Dynamics 365 for Financials](finance-accounting.md).  
+Para obtener más información, consulte [Experiencias contables en Dynamics 365 Business edition](finance-accounting.md).  
 
 > [!NOTE]  
 >  La versión actual de la extensión requiere que sus clientes usen [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="using-the-extension"></a>Mediante la extensión
-Se utiliza esta extensión al se registra en [Financials para contables en Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants). Si instala la extensión en [!INCLUDE[d365fin](includes/d365fin_md.md)], sustituirá su área de trabajo actual. Si posteriormente desea volver al otro área de trabajo, puede hacerlo en Mis valores. Para obtener más información, vea [Procedimiento: Cambiar el Área de trabajo](change-role.md)  
+Esta extensión se dejará de usar en algunos meses. Le recomendamos que no instale esta extensión, sino que se registre en [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] en [Financials for Accountants en Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants).
+
+Para obtener más información, consulte [Dynamics 365 — Accountant Hub](/dynamics365/accountants/index.md).  
 
 ## <a name="see-also"></a>Consulte también
-[Experiencias contables en Dynamics 365 for Financials](finance-accounting.md)  
+[Experiencias para contables en Dynamics 365 Business edition](finance-accounting.md)  
 [Finanzas](finance.md)  
 

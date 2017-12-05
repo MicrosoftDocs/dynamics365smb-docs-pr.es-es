@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/05/2017
+ms.date: 09/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 61c89c50b549a802df1973538edb83d3baf328e4
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: e27ceb91b25669a31d95256385cb7e5acd9160bd
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="manufacturing"></a>Fabricación
@@ -24,7 +24,9 @@ Cuando se ha planificado un pedido y se han emitido los materiales de acuerdo co
 
 Una parte importante de la ejecución de la producción, desde el punto de vista del sistema, es el registro de la salida de la producción en la base de datos, para notificar el progreso y actualizar el inventario con los productos terminados. El registro de la salida se puede realizar manualmente, rellenando y registrando las líneas del diario después de las operaciones de producción. O bien, se puede efectuar de forma automática, utilizando la baja retroactiva. En ese caso, el consumo de material se registra automáticamente junto con la salida cuando el pedido de producción cambia a terminado.  
 
-Como alternativa al diario de lotes para el registro de salida de varias órdenes de producción, es posible utilizar la ventana **Diario de producción** para registrar el consumo y la salida de una línea de orden de producción.  
+Como alternativa al diario de lotes para el registro de salida de varias órdenes de producción, es posible utilizar la ventana **Diario de producción** para registrar el consumo y la salida de una línea de orden de producción.
+
+Antes de que pueda comenzar a producir elementos, debe realizar varias configuraciones, como centros de trabajo, rutas y listas de materiales de producción. Para obtener más información, vea [Configurar fabricación](production-configure-production-processes.md).
 
 En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.   
 

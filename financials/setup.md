@@ -1,6 +1,6 @@
 ---
-title: Resumen de tareas para configurar Dynamics 365 for Financials | Documentos de Microsoft
-description: "Describe las tareas para preparar, inicializar y configurar Dynamics 365 for Financials según sus necesidades."
+title: Resumen de tareas para configurar Dynamics 365 Business edition | Documentos de Microsoft
+description: "Describe las tareas para preparar, inicializar y configurar Dynamics 365 Business edition según sus necesidades."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,13 +11,13 @@ ms.search.keywords: configure, initialize
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: cbf0f6521db686f4e1a820070969bd0193227015
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 68a4563aab0edc6a0ac5b8cbcc5e053c449f20f8
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="setting-up-dynamics-365-for-financials"></a>Configurar Dynamics 365 for Financials
+# <a name="setting-up-included365finlongincludesd365finlongmdmd"></a>Configurar [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] incluye configuraciones estándar de la mayoría de procesos empresariales, pero puede cambiar la configuración para que se adapte a las necesidades de la empresa.
 
 Por ejemplo, para que su plan de cuentas se rellene previamente con varias cuentas de registro listas para usar. Por supuesto, puede cambiar el plan de cuentas para satisfacer sus necesidades. Para obtener más información, consulte [Finanzas](finance.md).
@@ -41,7 +41,7 @@ Alguna funcionalidad, general o de procesos empresariales específicos, se puede
 | Configure la ventana **Configuración correo SMTP** para registrar y recibir correos electrónicos de documentos en [!INCLUDE[d365fin](includes/d365fin_md.md)]. |[Configurar el correo electrónico](madeira-how-setup-email.md) |
 | Configure códigos de identificación únicos. |[Procedimiento: crear números de serie](ui-create-number-series.md) |
 
-Algunas regiones requieren que sea el administrador en su suscripción [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, consulte [Configuración y administración en Dynamics 365 for Financials](admin-setup-and-administration.md).  
+Algunas regiones requieren que sea el administrador en su suscripción [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, consulte [Configuración y administración en [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](admin-setup-and-administration.md).  
 
 ## <a name="see-also"></a>Consulte también
 [Finanzas](finance.md)  
@@ -52,9 +52,9 @@ Algunas regiones requieren que sea el administrador en su suscripción [!INCLUDE
 [Activo fijos](fa-manage.md)    
 [Gestión de ensamblaje](assembly-assemble-items.md)  
 [Fabricación](production-manage-manufacturing.md)  
-[Gestión almacén](warehouse-manage-warehouse.md)  
+[Gestión de almacenes](warehouse-manage-warehouse.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Configuración y Administración en Dynamics 365 for Financials](admin-setup-and-administration.md)  
+[Configuración y administración de [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-setup-and-administration.md)  
 [Crear nuevas en empresas en [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
 

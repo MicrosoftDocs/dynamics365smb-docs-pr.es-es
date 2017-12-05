@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 4ced0ece340de08598fecff157d59aa708e4e17c
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 70a0773826984bab5c49334a88ea48872a629023
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="design-details-average-cost"></a>Detalles de diseño: Coste medio
@@ -25,7 +25,7 @@ El coste medio de un producto se calcula con una media ponderada periódica, en 
 ## <a name="setting-up-average-cost-calculation"></a>Configurar el cálculo del coste medio  
  En la tabla siguiente se describen los dos campos de la ventana **Configuración de inventario** que se deben rellenar para habilitar el cálculo de coste medio.  
 
-|Campo|Description|  
+|Campo|Descripción|  
 |---------------------------------|---------------------------------------|  
 |**Periodo coste medio**|Especifica en qué periodo se calcula el coste medio. Las siguientes opciones están disponibles:<br /><br /> -   **DÍA**<br />-   **Semana**<br />-   **Mes**<br />-   **Periodo contable**<br /><br /> Todas las salidas de existencias que se registraran dentro de periodo de coste medio recibirán el coste medio calculado para dicho periodo.|  
 |**Tipo cálculo cte. medio**|Especifica cómo se calcula el coste medio. Las siguientes opciones están disponibles:<br /><br /> -   **Producto**<br />-   **Producto, variante y almacén**<br />     Con esta opción, se calcula el coste medio por cada producto, por cada ubicación y por cada variante del producto. Esto supone que el coste medio de este producto dependerá de dónde se encuentre almacenado y de la variante (por ejemplo, el color) del producto que haya seleccionado.|  
@@ -57,8 +57,8 @@ El coste medio de un producto se calcula con una media ponderada periódica, en 
 
 |**Fecha reg.**|**Tipo mov. producto**|**Cantidad**|**Importe coste (real)**|**N.º de movimiento**|  
 |---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01-01-20|Compra|0|20.00|0|  
-|01-01-20|Compra|0|40.00|2|  
+|01-01-20|Compra|1|20.00|1|  
+|01-01-20|Compra|1|40.00|2|  
 |01-01-20|Venta|-1|-20,00|3|  
 |01-02-20|Venta|-1|-40,00|4|  
 |02-02-20|Compra|1|100.00|5|  
@@ -71,8 +71,8 @@ El coste medio de un producto se calcula con una media ponderada periódica, en 
 
 |**Nº producto**|**Cód. variante**|**Cód. almacén**|**Fecha valoración**|**Coste ajustado**|  
 |-------------------------------------|-----------------------------------------|------------------------------------------|-------------------------------------------|---------------------------------------------|  
-|PROD1||AZUL|01-01-20|N.º|  
-|PROD1||AZUL|01-02-20|N.º|  
+|PROD1||AZUL|01-01-20|No|  
+|PROD1||AZUL|01-02-20|No|  
 |PROD1||AZUL|02-02-20|No|  
 |PROD1||AZUL|03-02-20|No|  
 
@@ -80,8 +80,8 @@ El coste medio de un producto se calcula con una media ponderada periódica, en 
 
 |**Fecha reg.**|**Tipo mov. producto**|**Cantidad**|**Importe coste (real)**|**N.º de movimiento**|  
 |---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01-01-20|Compra|0|20.00|0|  
-|01-01-20|Compra|0|40.00|2|  
+|01-01-20|Compra|1|20.00|1|  
+|01-01-20|Compra|1|40.00|2|  
 |01-01-20|Venta|-1|-30,00|3|  
 |01-02-20|Venta|-1|-30,00|4|  
 |02-02-20|Compra|1|100.00|5|  
@@ -96,8 +96,8 @@ El coste medio de un producto se calcula con una media ponderada periódica, en 
 
 |**Fecha reg.**|**Tipo mov. producto**|**Cantidad**|**Importe coste (real)**|**N.º de movimiento**|  
 |---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01-01-20|Compra|0|20.00|0|  
-|01-01-20|Compra|0|40.00|2|  
+|01-01-20|Compra|1|20.00|1|  
+|01-01-20|Compra|1|40.00|2|  
 |01-01-20|Venta|-1|-20,00|3|  
 |01-02-20|Venta|-1|-40,00|4|  
 |02-02-20|Compra|1|100.00|5|  
@@ -110,8 +110,8 @@ El coste medio de un producto se calcula con una media ponderada periódica, en 
 
 |**Nº producto**|**Cód. variante**|**Cód. almacén**|**Fecha valoración**|**Coste ajustado**|  
 |-------------------------------------|-----------------------------------------|------------------------------------------|-------------------------------------------|---------------------------------------------|  
-|PROD1||AZUL|31-01-20|N.º|  
-|PROD1||AZUL|28-02-20|N.º|  
+|PROD1||AZUL|31-01-20|No|  
+|PROD1||AZUL|28-02-20|No|  
 
 > [!NOTE]  
 >  La fecha de valoración se establece como el último día del periodo de coste medio, que, en este caso, es el último día del mes.  
@@ -120,8 +120,8 @@ El coste medio de un producto se calcula con una media ponderada periódica, en 
 
 |**Fecha reg.**|**Tipo mov. producto**|**Cantidad**|**Importe coste (real)**|**N.º de movimiento**|  
 |---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01-01-20|Compra|0|20.00|0|  
-|01-01-20|Compra|0|40.00|2|  
+|01-01-20|Compra|1|20.00|1|  
+|01-01-20|Compra|1|40.00|2|  
 |01-01-20|Venta|-1|-30,00|3|  
 |01-02-20|Venta|-1|-65,00|4|  
 |02-02-20|Compra|1|100.00|5|  
@@ -138,7 +138,7 @@ El coste medio de un producto se calcula con una media ponderada periódica, en 
 
 |Caso|Fecha reg.|Cdad. valorada|Reevaluación|Fecha valoración|  
 |--------------|-------------------------------------|-----------------------------------------|-----------------|-----------------------------------------|  
-|1||Positivo|N.º|Fecha de registro del movimiento de producto|  
+|1||Positivo|No|Fecha de registro del movimiento de producto|  
 |2|Posterior a la última fecha de valoración de los movimientos de valoración aplicados|Negativo|No|Fecha de registro del movimiento de producto|  
 |3|Anterior a la última fecha de valoración de los movimientos de valorización aplicados|Positivo|No|Última fecha de valoración de los movimientos de valoración aplicados|  
 |4||Negativo|Sí|Fecha de registro del movimiento de valoración de revalorización|  
@@ -148,7 +148,7 @@ El coste medio de un producto se calcula con una media ponderada periódica, en 
 
 |Caso|Fecha reg.|Tipo mov. producto|Fecha valoración|Cdad. valorada|Importe coste (real)|Nº mov. producto|N.º de movimiento|  
 |--------------|-------------------------------------|-----------------------------------------------|-----------------------------------------|-----------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|0|01-01-20|Compra|01-01-20|2|20.00|0|0|  
+|1|01-01-20|Compra|01-01-20|2|20.00|1|1|  
 |2|15-01-20|(Cargo de producto)|01-01-20|2|8.00|1|2|  
 |3|01-02-20|Venta|01-02-20|-1|-14,00|2|3|  
 |4|01-03-20|(Revalorización)|01-03-20|1|-.4,00|1|4|  
@@ -187,8 +187,8 @@ El coste medio de un producto se calcula con una media ponderada periódica, en 
 
 |Fecha valoración|Cantidad|Importe coste (real)|N.º de movimiento|  
 |-----------------------------------------|--------------------------------|------------------------------------------------|----------------------------------|  
-|01-01-20|0|10.00|0|  
-|02-01-20|0|20.00|2|  
+|01-01-20|1|10.00|1|  
+|02-01-20|1|20.00|2|  
 |15-02-20|-1|-15,00|3|  
 |16-02-20|-1|-15,00|4|  
 
@@ -198,9 +198,9 @@ El coste medio de un producto se calcula con una media ponderada periódica, en 
 
 |Fecha valoración|Cantidad|Importe coste (real)|N.º de movimiento|  
 |-----------------------------------------|--------------------------------|------------------------------------------------|----------------------------------|  
-|01-01-20|0|10.00|0|  
-|02-01-20|0|20.00|2|  
-|03-01-20|0|21.00|5|  
+|01-01-20|1|10.00|1|  
+|02-01-20|1|20.00|2|  
+|03-01-20|1|21.00|5|  
 |15-02-20|-1|-17,00|3|  
 |16-02-20|-1|-17,00|4|  
 

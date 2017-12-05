@@ -1,6 +1,6 @@
 ---
 title: Configurar el intercambio de datos | Documentos de Microsoft
-description: Configurar el marco de intercambio de datos en Dynamics 365 for Financials.
+description: Configurar el marco de intercambio de datos en Dynamics 365 Business edition.
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,14 +11,14 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5c0fcfd6ef178c5917a4a07ba81a9bef9b4522aa
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 593904835c55d4ce9b137d0af387ea897603795f
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="setting-up-data-exchange"></a>Configuración del intercambio de datos
-Para poder enviar y recibir documentos electrónicos o importar y exportar archivos de banco, debe configurar el marco de intercambio de datos para procesar los archivos correspondientes. Además, debe configurar áreas relacionadas, como los datos maestros de los clientes a los que envía facturas electrónicas o el servicio de conversión de datos bancarios en caso de usar el proveedor de servicios externo para convertir los archivos bancarios. Para obtener más información, vea [Intercambio de datos como documentos electrónicos](across-data-exchange.md).  
+Para poder enviar y recibir documentos electrónicos o importar y exportar archivos de banco, debe configurar el marco de intercambio de datos para procesar los archivos correspondientes. Además, debe configurar áreas relacionadas, como los datos maestros de los clientes a los que envía facturas electrónicas o el servicio de conversión de datos bancarios en caso de usar el proveedor de servicios externo para convertir los archivos bancarios. Para obtener más información, vea [Intercambio de datos electrónicamente](across-data-exchange.md).  
 
  Cuando [!INCLUDE[d365fin](includes/d365fin_md.md)] se ha configurado para intercambiar datos con archivos externos, los usuarios pueden utilizar la configuración en tareas de negocio comunes, como enviar y recibir documentos electrónicos e importar y exportar archivos de banco.  
 
@@ -39,7 +39,7 @@ Para poder enviar y recibir documentos electrónicos o importar y exportar archi
 |Configure el marco de intercambio de datos para que los usuarios puedan recibir un formato de documento de compra nuevo, enviar un formato de documento de venta nuevo, importar un archivo bancario nuevo u otro intercambio de datos.|[Procedimiento: Configurar las definiciones de intercambio de datos](across-how-to-set-up-data-exchange-definitions.md)|  
 
 ## <a name="see-also"></a>Consulte también  
-[Intercambio de datos como documentos electrónicos ](across-data-exchange.md)  
+[Intercambio de datos electrónicamente](across-data-exchange.md)  
 [Intercambio de datos](across-exchange-data.md)   
 [Documentos entrantes](across-income-documents.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)  

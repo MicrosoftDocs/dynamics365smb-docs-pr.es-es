@@ -1,6 +1,6 @@
 ---
 title: "Trabajo con resúmenes financieras en Excel | Documentos de Microsoft"
-description: "Obtenga más información sobre cómo puede abrir los estados financieros en Microsoft Excel desde Dynamics 365 for Financials para un mejor análisis."
+description: "Obtenga más información sobre cómo puede abrir los estados financieros en Microsoft Excel desde Dynamics 365 Business edition para un mejor análisis."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords: accountant, accounting, financial report
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e32ece2d472adaca58ad5d4dc3446b407e431b63
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: e58d412b9fb182a8a8f640593f78decf0e6aecc1
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a>Análisis de estados financieros en Microsoft Excel
@@ -45,5 +45,5 @@ Con el complemento, puede conseguir nuevos datos de [!INCLUDE[d365fin](includes/
 [Finanzas](finance.md)  
 [Configurar las finanzas](finance-setup-finance.md)  
 [Libro mayor y plan de cuentas](finance-general-ledger.md)  
-[Trabajar con Financials](ui-work-product.md)  
+[Trabajar con Dynamics 365](ui-work-product.md)  
 

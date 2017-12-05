@@ -13,13 +13,13 @@ ms. search.keywords: app, add-in, manifest, customize, salary, wage
 ms.date: 03/29/2017
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: b719a7d2b6b5590ae63920b63aaba8c2313a8661
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: c826ab2f82b2fb0d53339690a2da4978d79ab643
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="the-quickbooks-payroll-file-import-extension-to-dynamics-365-for-financials"></a>La extensión de importación del archivo de nóminas de QuickBooks a Dynamics 365 for Financials
+# <a name="the-quickbooks-payroll-file-import-extension-to-dynamics-365-business-edition"></a>La extensión de importación del archivo de nóminas de QuickBooks a Dynamics 365 Business edition 
 Para contabilizar los pagos de salario y transacciones relacionadas, deberá importar y registrar las transacciones financieras de salario creadas para el proveedor de nóminas al libro mayor.
 
 Para hacer esto, primero importe un archivo que recibirá del proveedor de nóminas en la ventana **Diario general**. A continuación asigne las cuentas externas del archivo de nóminas a las cuentas correspondientes. Por último, registre operaciones de nóminas según la asignación de cuentas. Para obtener más información, vea [Procedimiento: Importar transacciones de nómina](finance-how-import-payroll-transactions.md).

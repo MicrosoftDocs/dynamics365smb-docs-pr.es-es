@@ -12,10 +12,10 @@ ms.search.keywords: stock
 ms.date: 08/15/2017
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 17af257627549023212c8c19f708c836c1c4bb7f
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 986f1b00f1a8db237944ec8579d9401ca85dfd8a
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-view-the-availability-of-items"></a>Consultar la disponibilidad de los productos
@@ -26,10 +26,10 @@ Puede consultar la disponibilidad de todos los productos por ubicación y puede 
 > [!NOTE]  
 >   Las vistas de disponibilidad por ubicación requieren que se mantenga el inventario en varias ubicaciones. Para obtener más información, vea [Procedimiento: Configurar almacenes](inventory-how-setup-locations.md).
 
-En [Usar [!INCLUDE[d365fin](includes/d365fin_md.md)], las cifras de disponibilidad se muestran en dos campos diferentes, cada uno con una definición distinta:
+En [!INCLUDE[d365fin](includes/d365fin_md.md)], las cifras de disponibilidad se muestran en dos campos diferentes, cada uno con una definición distinta:
 
 * El campo **Cantidad disponible** muestra la cantidad real hoy de acuerdo con los movimientos de producto registrados.
-* El campo **Saldo disponible estimado** calcula y muestra el stock disponible más las recepciones programadas menos las necesidades brutas. (En [Usar [!INCLUDE[d365fin](includes/d365fin_md.md)], las recepciones programadas incluyen cantidades en los pedidos de compra y pedidos de transferencia de entrada. Las necesidades brutas incluyen cantidades de los pedidos de venta y los pedidos de transferencia de salida).
+* El campo **Saldo disponible estimado** calcula y muestra el stock disponible más las recepciones programadas menos las necesidades brutas. (En [!INCLUDE[d365fin](includes/d365fin_md.md)], las recepciones programadas incluyen cantidades en los pedidos de compra y pedidos de transferencia de entrada. Las necesidades brutas incluyen cantidades de los pedidos de venta y los pedidos de transferencia de salida).
 
 > [!TIP]  
 >   El saldo disponible estimado es muy relevante consultarlo en las ventanas **Existencias producto** y **Disponibilidad prod. por evento** que contienen la dimensión de fecha.  
@@ -119,6 +119,6 @@ Si uno o más componentes del ensamblado no están disponibles, se reflejará en
 [Configuración de almacenes](inventory-how-setup-locations.md)  
 [Procedimiento: transferir el inventario entre almacenes](inventory-how-transfer-between-locations.md)  
 [Vender productos](sales-how-sell-products.md)      
-[Trabajar con Financials](ui-work-product.md)  
+[Trabajar con Dynamics 365](ui-work-product.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)
 

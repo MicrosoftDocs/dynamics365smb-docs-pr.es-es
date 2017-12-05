@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 166d85bbcf7d97cb513ba668e41fc4a179d8fcc3
+ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
+ms.openlocfilehash: 85cd332e4b62ba73f511989983e1eb9f5147c5fb
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/17/2017
 
 ---
 # <a name="how-to-create-routings"></a>Creación de rutas
@@ -28,8 +28,8 @@ En función de la L.M. de producción, las rutas se asignan al producto final de
 
 Para poder configurar una ruta, lo siguiente debe existir:  
 
-- Se deben crear fichas de producto para los productos principales que forman parte de la fabricación. Para obtener más información, vea [Procedimiento: Registrar nuevos productos](inventory-how-register-new-items.md).
-- Se han configurado recursos de producción. Para obtener más información, consulte [Cómo configurar centros de trabajoy centros de máquina](production-how-to-set-up-work-and-machine-centers.md).
+- Se deben crear fichas de producto para los productos principales que forman parte de la fabricación. Para obtener más información, vea [Registrar nuevos productos](inventory-how-register-new-items.md).
+- Se han configurado recursos de producción. Para obtener más información, consulte [Cómo configurar centros de trabajo y centros de máquina](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-routing"></a>Para crear una ruta  
 1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Rutas** y, a continuación, seleccione el vínculo relacionado.  
@@ -53,7 +53,7 @@ Para poder configurar una ruta, lo siguiente debe existir:
 12.  Continúe rellenando las líneas para todas las operaciones necesarias para fabricar el producto en cuestión.  
 13.  Para copiar líneas desde una ruta existente, seleccione la acción **Copiar ruta** para seleccionar las líneas existentes.  
 14. Certifique la ruta.  
-15. Ahora puede asociar la nueva ruta a la ficha del producto en cuestión, rellenando el campo **Nº de ruta**. Para obtener más información, vea [Procedimiento: Registrar nuevos productos](inventory-how-register-new-items.md).  
+15. Ahora puede asociar la nueva ruta a la ficha del producto en cuestión, rellenando el campo **Nº de ruta**. Para obtener más información, vea [Registrar nuevos productos](inventory-how-register-new-items.md).  
 
 > [!NOTE]  
 >  Recuerde también volver a calcular el coste estándar del producto desde la tarjeta **Producto**: Seleccione la acción **Fabricación**, seleccione la acción **Calcular coste estándar** y, a continuación, seleccione la acción **Todos los niveles**.  

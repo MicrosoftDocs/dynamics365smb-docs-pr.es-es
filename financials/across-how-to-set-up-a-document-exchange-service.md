@@ -11,20 +11,20 @@ ms.search.keywords:
 ms.date: 08/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 1191313565e813a92c13fa07b6278e7263eeaf19
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: c014e3ee7ed580fd893470c0e0b89273eaceb429
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="how-to-set-up-a-document-exchange-service"></a>Procedimiento: Configurar un servicio de intercambio de documentos
-Para intercambiar documentos electrónicos con socios comerciales se usa un proveedor de servicios externo. Para obtener más información, vea [Intercambio de datos como documentos electrónicos](across-data-exchange.md).  
+Para intercambiar documentos electrónicos con socios comerciales se usa un proveedor de servicios externo. Para obtener más información, vea [Intercambio de datos electrónicamente](across-data-exchange.md).  
 
 ## <a name="to-set-up-a-document-exchange-service"></a>Para configurar un servicio de intercambio de documentos  
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Configuración servicio intercambio documentos** y, a continuación, seleccione el vínculo relacionado.  
 2. Rellene los campos tal como se describe en la tabla siguiente.  
 
-    |Campo|Description|  
+    |Campo|Descripción|  
     |---------------------------------|---------------------------------------|  
     |**Agente de usuario**|Escriba cualquier texto que pueda usarse para identificar a la empresa en los procesos de intercambio de documentos.|  
     |**Id. suscriptor intercambio documentos**|Introduzca el inquilino en el servicio de intercambio de documentos que representa a la empresa. Esto lo proporciona el proveedor de servicios de intercambio de documentos.|  
@@ -46,5 +46,5 @@ Para intercambiar documentos electrónicos con socios comerciales se usa un prov
 
 ## <a name="see-also"></a>Consulte también  
 [Configuración del intercambio de datos](across-set-up-data-exchange.md)  
-[Intercambio de datos como documentos electrónicos ](across-data-exchange.md)
+[Intercambio de datos electrónicamente](across-data-exchange.md)
 

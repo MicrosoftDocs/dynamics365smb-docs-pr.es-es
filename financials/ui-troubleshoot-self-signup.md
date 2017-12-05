@@ -1,8 +1,6 @@
 ---
 title: Maneras de solucionar problemas con el registro al autoservicio | Documentos de Microsoft
-description: "Obtenga información sobre los motivos más habituales por los que es posible que no pueda realizar el registro a Dynamics 365 for Financials y formas de solucionarlos."
-services: project-madeira
-documentationcenter: 
+description: "Obtenga información sobre los motivos más habituales por los que es posible que no pueda realizar el registro a Dynamics 365 Business edition y formas de solucionarlos."
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
 ms.topic: article
@@ -12,16 +10,16 @@ ms.workload: na
 ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 1bc036d4e57403d903c292a07a8985dfe939b20d
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: c97d406d0213c7b2ade23a2d209adf54bf9dfcae
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="troubleshooting-self-service-sign-up"></a>Solución de problemas en el registro de autoservicio
 Registrarse en [!INCLUDE[d365fin](includes/d365fin_md.md)] es muy fácil y se puede realizar muy rápidamente. Puede crear una cuenta gratuita incluso si es una organización existente. Este recurso aborda los problemas que pueda tener durante el registro.
 
-## <a name="what-email-address-can-i-use-with-financials"></a>¿Qué dirección de correo electrónico puedo usar en Financials?
+## <a name="what-email-address-can-i-use-with-dynamics-365"></a>¿Qué dirección de correo electrónico puedo usar en Dynamics 365?
 Para iniciar sesión, [!INCLUDE[d365fin](includes/d365fin_md.md)] requiere una dirección de correo electrónico del trabajo o la escuela. [!INCLUDE[d365fin](includes/d365fin_md.md)] no admite direcciones de correo electrónico proporcionadas por servicios de correo electrónico del consumidor ni por proveedores de la telecomunicación. Esto incluye outlook.com, hotmail.com, gmail.com y otros.
 
 Si intenta iniciar sesión con una dirección de correo personal, recibirá un mensaje indicando que use una dirección del trabajo o la escuela.
@@ -40,5 +38,4 @@ En muchas ocasiones, el registro para [!INCLUDE[d365fin](includes/d365fin_md.md)
 ## <a name="see-also"></a>Consulte también
 [[!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-
 

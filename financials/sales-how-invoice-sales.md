@@ -9,20 +9,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 03/29/2017
+ms.date: 10/11/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: fb4b1ad14dfedaeca38293e0e0b4496300090c17
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 6de2d9c030313cd2d7990faa7b9217bb751fe138
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-invoice-sales"></a>Facturación de ventas
 Puede crear una factura o un pedido de ventas para registrar el contrato con un cliente para vender determinados productos según términos de entrega y pago determinados.  
 
-> [!NOTE]  
->   Hay un par de escenarios en los que debe usar un pedido de venta en lugar de una factura de venta:  
+Hay un par de escenarios en los que debe usar un pedido de venta en lugar de una factura de venta:  
 
 * Si necesita enviar solo parte de una cantidad del pedido, por ejemplo, porque no esté disponible toda la cantidad.  
 * Si vende productos que el proveedor entrega directamente al cliente, lo que se denomina envío directo. Para obtener más información, vea [Procedimiento: Realizar envíos directos](sales-how-drop-shipment.md).  
@@ -37,7 +36,7 @@ En entornos de negocio donde el cliente debe pagar antes de que los productos se
 
 Puede corregir o cancelar fácilmente una factura de venta registrada antes de que se pague. Por ejemplo, esto es útil si se desea corregir un error de escritura o si el cliente solicita un cambio temprano en el proceso de pedido. Para obtener más información, vea [Procedimiento: Corregir o cancelar las facturas de venta sin abonar](sales-how-correct-cancel-sales-invoice.md) Si la factura de venta registrada se ha pagado, deberá crear un abono de venta para revertir la venta. Para obtener más información, vea [Procedimiento: Procesar devoluciones de ventas o cancelaciones](sales-how-process-sales-returns-cancellations.md).
 
-Los productos pueden ser productos de inventario y servicios, lo que se indica por los tipos **Producto - Inventario** y **Producto - Servicio** en las líneas de venta. El proceso de la factura de venta es el mismo para ambos tipos de producto. Para obtener más información, vea [Registrar nuevos productos](inventory-how-register-new-items.md).
+Los productos pueden ser productos de inventario y servicios, lo que se indica por los tipos **Inventario** y **Servicio** en la ficha de producto. El proceso de la factura de venta es el mismo para ambos tipos de producto. Para obtener más información, vea [Registrar nuevos productos](inventory-how-register-new-items.md).
 
 Puede rellenar los campos de clientes en la factura de venta de dos formas en función de si el cliente ya está registrado. Consulte los pasos 2 y 3 del siguiente procedimiento.
 
@@ -67,7 +66,7 @@ Si ha configurado líneas de venta periódicas para el cliente, como por ejemplo
 11. En el campo **Cantidad**, especifique cuántas unidades de producto, cargo o transacción registrará la línea para el cliente.  
 
     > [!NOTE]  
->   Si el producto es de tipo **Producto - Servicio** o **Recurso**, la cantidad es una unidad de tiempo, por ejemplo horas, según se indica en el campo **Cód. unidad medida** en la línea.  
+>   Si el producto es de tipo **Servicio** o el campo **Tipo** contiene **Recurso**, la cantidad es una unidad de tiempo, por ejemplo horas, según se indica en el campo **Cód. unidad medida** en la línea.  
 
     El valor del campo **Importe línea** se calculará como *Precio venta* x *Cantidad*.  
 
@@ -91,7 +90,7 @@ El producto relacionado y los movimientos de cliente se han creado ahora en su s
 [Ventas](sales-manage-sales.md)  
 [Configuración de ventas](sales-setup-sales.md)  
 [Inventario](inventory-manage-inventory.md)  
-[Enviar documentos por correo electrónico.](ui-how-send-documents-email.md)  
-[Facturación masiva desde Microsoft Bookings en Dynamics 365 for Financials](finance-bookings.md)  
+[Procedimiento: Enviar documentos por correo electrónico.](ui-how-send-documents-email.md)  
+[Facturación masiva desde Microsoft Bookings en Dynamics 365 Business edition](finance-bookings.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

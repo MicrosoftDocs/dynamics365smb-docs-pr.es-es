@@ -1,6 +1,6 @@
 ---
 title: Usar Excel para importar datos en Financials | Documentos de Microsoft
-description: "Utilice el paquete de configuración predeterminado para agregar datos de cliente en Excel e importar los datos en Dynamics 365 for Financials."
+description: "Utilice el paquete de configuración predeterminado para agregar datos de cliente en Excel e importar los datos en Dynamics 365 Business edition."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords: migration, Excel
 ms.date: 07/05/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2a38dc36cb9ff609c5582acd489841b20013d4bc
-ms.openlocfilehash: 8cf36afea60b089afac8f1c27d126cd19b88ce94
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 433d014c41d2508d155891b5ac4e0437c41b3d9e
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="importing-data-from-legacy-accounting-software-using-a-configuration-package"></a>Importar datos del software de contabilidad heredado mediante un paquete de configuración

@@ -1,6 +1,6 @@
 ---
 title: Configurar adeudo directo SEPA | Documentos de Microsoft
-description: Aprenda a configurar el adeudo directo SEPA en Dynamics 365 for Financials.
+description: Aprenda a configurar el adeudo directo SEPA en Dynamics 365 Business edition.
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: a5f7a99a3e6bfd9c0146d87af4e3869cda381a67
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 96c851c58decbeb46afcd79a9c5275d16c8072d4
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-set-up-sepa-direct-debit"></a>Configuración de domiciliaciones de adeudo directo SEPA
@@ -38,7 +38,7 @@ Para poder procesar pagos de clientes electrónicamente exportando instrucciones
 2. Seleccione la acción **Nuevo**.  
 3. Configure una forma de pago. Rellene los campos específicos del adeudo directo tal como se describe en la tabla siguiente.  
 
-    |Campo|[Description|  
+    |Campo|Descripción|  
     |---------------------------------|---------------------------------------|  
     |**Adeudo directo**|Especifique si la forma de pago es para el cobro por adeudo directo SEPA.|  
     |**Código términos pago adeudo directo**|Especifique los términos de pago, tal como NO PAGAR, que se muestran en las facturas de venta que paguen mediante adeudo directo SEPA para indicar al cliente que el pago se cobrará automáticamente. Como alternativa, deje el campo en blanco.|  
@@ -59,7 +59,7 @@ Para poder procesar pagos de clientes electrónicamente exportando instrucciones
 4. En la ventana **Lista bancos cliente**, seleccione el banco de cliente que utilizará domiciliaciones y, a continuación, en la pestaña **Inicio**, en el grupo **Procesara**, elija **Órdenes de domiciliación de adeudo directo**.  
 5. En la ventana **Órdenes de domiciliación de adeudo directo SEPA**, rellene los campos tal como se describe en la tabla siguiente.  
 
-    |[Field|Description]|  
+    |Campo|Descripción|  
     |---------------------------------|---------------------------------------|  
     |**Código banco cliente**|Especifica el banco desde el que se cobran los pagos por domiciliación. Este campo se rellena automáticamente.|  
     |**Válido desde**|Especifique la fecha en que inicia la orden de domiciliación de adeudo directo.|  
@@ -75,8 +75,8 @@ Para poder procesar pagos de clientes electrónicamente exportando instrucciones
  La orden de domiciliación de adeudo directo se inserta automáticamente en el campo **Id. de orden de domiciliación** de adeudo directo cuando se crea una factura de venta para el cliente que ha seleccionado en el paso 2. Para obtener más información, vea [Crear líneas de ventas y de compras periódicas](sales-how-work-standard-lines.md).  
 
 ## <a name="see-also"></a>Consulte también  
-[Cobrar pagos mediante adeudo directo SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
+[Cobro de pagos mediante adeudo directo SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
 [Procedimiento: Configurar las definiciones de intercambio de datos](across-how-to-set-up-data-exchange-definitions.md)
 [Crear líneas de ventas y de compras periódicas](sales-how-work-standard-lines.md)
-[Intercambio de datos como documentos electrónicos](across-data-exchange.md)
+[Intercambio de datos electrónicamente](across-data-exchange.md)
 

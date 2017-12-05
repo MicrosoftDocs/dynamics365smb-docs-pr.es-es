@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9ba5203013af329f1d59432a5e5800fe486658cc
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 957c8889d943ed412af7555271897b52c0759969
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="design-details-internal-warehouse-flows"></a>Detalles de diseño: Flujos de almacén internos
@@ -46,7 +46,7 @@ El flujo de productos entre las ubicaciones en una ubicación de empresa se cent
 
  Existen los siguientes flujos de ensamblado.  
 
-|Flujo de trabajo|Description|  
+|Flujo de trabajo|Descripción|  
 |----------|---------------------------------------|  
 |Ensamblar para stock|Los componentes se necesitan en un pedido de ensamblado donde la salida se guarda en el almacén.<br /><br /> Este flujo de almacén se administra en la ventana **Movimiento inventario**. Una línea de toma especifica de dónde tomar los componentes. Una línea de plaza especifica dónde colocar los componentes.|  
 |Ensamblar para pedido|Los componentes se necesitan en un pedido de ensamblado vinculado a un pedido de venta que se envía cuando se ensambla el producto vendido.|  
@@ -104,7 +104,7 @@ El flujo de productos entre las ubicaciones en una ubicación de empresa se cent
 1.  El supervisor de planta lanza la orden de producción. Los productos con el método de baja **Anticipada** y sin código de conexión de ruta se deducen de la ubicación de aprovisionamiento manual.  
 2.  El supervisor de planta elige el botón **Crear selección de almacén** en la orden de producción. Un documento de selección de almacén se crea para seleccionar productos con métodos de baja **Manual**, **Seleccionar + Atrás** y **Seleccionar + Adelante**. Estos productos se colocan en la ubicación para producción.  
 3.  El administrador de almacén asigna los picking a un empleado de almacén.  
-4.  El trabajador de almacén picking directos los productos de las ubicaciones y de los apartados apropiados estos comandos en la ubicación para producción o en la ubicación especificados en picking de almacén, que puede ser una ubicación del centro de trabajo o del centro de máquina).  
+4.  El trabajador de almacén picking directos los productos de las ubicaciones y de los apartados apropiados estos comandos en la ubicación para producción o en la ubicación especificados en picking de almacén, que puede ser una ubicación del centro de trabajo o del centro de máquina.  
 5.  El empleado de almacén registra el picking. La cantidad se resta de las ubicaciones de picking y se agregan a la ubicación de consumo. Se actualiza el campo **Cdad. preparada pedido** de la lista de componentes para todos los productos preparados.  
 
     > [!NOTE]  

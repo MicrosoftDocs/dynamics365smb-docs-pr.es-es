@@ -13,17 +13,14 @@ ms.search.keywords: account linking, direct payment posting, automatic payment p
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: deb05c6294edeb892606154b38de2aa406abf6a2
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 53c65f7f47c189905e277eff1ea86af241aa1b0b
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Asignación de texto en pagos periódicos a cuentas para conciliación automática
 En la ventana **Asignación de texto a cuenta**, que se abre desde la ventana **Diario de conciliación de pagos**, puede configurar asignaciones entre el texto de los pagos y las cuentas de débito, crédito y saldo específicas para que los pagos se contabilicen en las cuentas específicas cuando contabilices el diario de conciliación de pagos.
-
-> [!NOTE]  
->   El tema también se aplica a cuando utiliza la función **Asignar texto a cuenta** desde un registro de documento entrante para ayudar a convertir documentos electrónicos recibidos desde servicios externos a documentos en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, vea [Procedimiento: Usar el servicio OCR para convertir archivos PDF y de imagen en documentos](across-how-use-ocr-pdf-images-files.md).   
 
 La funcionalidad similar existe para conciliar el exceso de importes en las líneas del diario de conciliación de pagos sobre una base ad hoc. Para obtener más información, vea [Procedimiento: Conciliar pagos que no pueden liquidarse automáticamente](receivables-how-reconcile-payments-cannot-apply-auto.md).
 
@@ -41,13 +38,15 @@ En una línea del diario de conciliación de pagos en la que el pago se establec
 4. En el campo **Asignar texto**, introduzca cualquier texto de los pagos que quiera registrar en unas cuentas específicas sin aplicarlo a un movimiento pendiente. Puede escribir hasta 50 caracteres.
 
     > [!NOTE]  
->   Si no existen otros pagos o documentos entrantes con la asignación de texto en cuestión, la asignación tendrá lugar incluso cuando solo una parte del texto en el pago o el documento entrante exista como texto asignado.
-5. En el campo **N.º de proveedor** especifique el número del vendedor para el que se crearán documentos entrantes que contienen texto de asignación o se registrarán dichos documentos. Para obtener más información, vea [Procedimiento: Usar el servicio OCR para convertir archivos PDF y de imagen en documentos](across-how-use-ocr-pdf-images-files.md).      
-6. En el campo **N.º cta. débito**, introduzca la cuenta a la que se contabilizarán los pagos con texto asignado en caso de haber pagos entrantes. Para los pagos entrantes, el signo de valor en el campo **Importe extracto** es positivo.
-7. En el campo **N.º cta. crédito**, introduzca la cuenta a la que se contabilizarán los pagos con texto asignado en caso de haber pagos salientes. Para los pagos salientes, el signo de valor en el campo **Importe extracto** es negativo.
-8. En el campo **Tipo origen contr.**, especifique si el pago se contabilizará en una cuenta contable o en una cuenta de cliente o proveedor.
-9. En el campo **N.º origen contr.** especifique la cuenta a la que se contabilizará el pago dependiendo de su elección en el campo **Tipo origen contr.**
-10. Repita los pasos del 4 al 8 para todo el texto de los pagos que desea asignar a las cuentas para el registro directo sin liquidación.
+>   Si no existen otros pagos con la asignación de texto en cuestión, la asignación tendrá lugar incluso cuando solo una parte del texto en el pago exista como texto asignado.
+5. En el campo **Nº proveedor**, escriba el proveedor al que se enviarán los pagos.
+6. En el campo **Tipo origen contr.**, especifique si el pago se contabilizará en una cuenta contable o en una cuenta de cliente o proveedor.
+7. En el campo **N.º origen contr.** especifique la cuenta a la que se contabilizará el pago dependiendo de su elección en el campo **Tipo origen contr.**
+
+    > [!NOTE]
+    > No utilice los campos **N.º cta. débito** y **N.º cta. crédito** en relación con la conciliación de pagos. Se utilizan solo para los documentos entrantes. Para obtener más información, vea [Procedimiento: Usar el servicio OCR para convertir archivos PDF y de imagen en documentos](across-how-use-ocr-pdf-images-files.md).
+
+8. Repita los pasos del 3 al 7 para todo el texto de los pagos que desea asignar a las cuentas para el registro directo sin liquidación.
 
 La próxima vez que importe un archivo de un extracto bancario o seleccione la función **Liquidar automáticamente** de la ventana **Diario de conciliación de pagos**, las líneas de diario de los pagos que contienen el texto asignado especificado, incluirán las cuentas asignadas en los campos **Tipo de cuenta** y **N.º cuenta**. El campo **Confianza de la correspondencia** contendrá **Asignación de texto a cuenta: Alta** Esto es así siempre que la función de liquidación automática solo pueda proporcionar una confianza de correspondencia **Baja** o **Media**.
 

@@ -1,8 +1,6 @@
 ---
 title: Configurar ciclos de ventas de oportunidad y etapas de ciclo | Documentos de Microsoft
-description: "Describe cómo definir etapas de venta, desde el contacto inicial hasta el cierre, para crear un ciclo de venta y asignarlo a las oportunidades en Financials."
-services: project-madeira
-documentationcenter: 
+description: "Describe cómo definir etapas de venta, desde el contacto inicial hasta el cierre, para crear un ciclo de venta y asignarlo a las oportunidades en Dynamics 365 Business edition."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 29f9caa8f01fe8e4cfd0f65cc290d82a49fb36bb
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: d164dd313352e80b6ce4e6f4ba8408e1e2c093de
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-set-up-opportunity-sales-cycles-and-cycle-stages"></a>Procedimiento: Configurar ciclos de ventas de oportunidad y etapas de ciclo

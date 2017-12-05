@@ -13,10 +13,10 @@ ms.search.keywords: money flow, expense and income, liquidity, cash receipts min
 ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ffc0a1c8a513556de2a40fc37db7af9be779225c
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 7d78333c5a7151ad60f07433ba32cfea142a2445
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Configuración del análisis de flujo de efectivo
@@ -79,10 +79,10 @@ Para usar un proceso manual:
 >   Considere la duración de los periodos que el servicio usará en los cálculos. Cuantos más datos proporcione, más precisas serán las predicciones. Asimismo, controle las variaciones grandes en los periodos. También afectarán a las predicciones. Si Cortana Intelligence no encuentra suficientes datos, o los datos varían mucho, el servicio no creará ninguna predicción.  
 
 ## <a name="AnchorText"> </a>Crear y usar su propio servicio web predictivo para las previsiones de flujo de efectivo
-También puede crear su propio servicio web predictivo basado en un modelo público denominado **Modelo de previsión para Microsoft Dynamics 365 for Financials**. Este modelo predictivo está disponible en línea en la galería de Cortana Intelligence. Para usar el modelo, siga estos pasos:  
+También puede crear su propio servicio web predictivo basado en un modelo público denominado **Modelo de previsión para Microsoft Dynamics 365 Business edition**. Este modelo predictivo está disponible en línea en la galería de Cortana Intelligence. Para usar el modelo, siga estos pasos:  
 
 1. Abra un explorador y vaya a la [Galería de Cortana Intelligence](https://go.microsoft.com/fwlink/?linkid=828352).  
-2. Busque **Modelo de previsión para Microsoft Dynamics 365 for Financials** y, a continuación, abra el modelo en Azure Machine Learning Studio.  
+2. Busque **Modelo de previsión para Microsoft Dynamics 365 Business edition** y, a continuación, abra el modelo en Azure Machine Learning Studio.  
 3. Use su cuenta de Microsoft para iniciar sesión en un espacio de trabajo y, a continuación, copie el modelo.  
 4. Ejecute el modelo y como publíquelo como un servicio web.  
 5. Anote la URL de API y la clave de API. Usará estas credenciales para una configuración de flujo de caja.  

@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6a1141c352dd93657d32bb83067ce32077901a47
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: c0e678b07c1d5ca73808a2abb5631771dce76fd0
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-create-contact-companies"></a>Procedimiento para crear empresas de contacto
@@ -58,6 +58,6 @@ Si ya configuró un cierto número de clientes, proveedores o bancos, podrá cre
 [Asignar relaciones de negocio a un contacto](marketing-business-relations.md#AssignBusRelContact)  
 [Para asignar grupos de industria a un contacto](marketing-industry-groups.md#AssignIndustryGroupContact)  
 [Asignar grupos de correo a un contacto](marketing-mailing-groups.md#AssignMailGroupContact)  
-[Crear personas de contacto](marketing-create-contact-persons.md)  
-[Trabajar con Financials](ui-work-product.md)
+[Procedimiento para crear personas de contacto](marketing-create-contact-persons.md)  
+[Trabajar con Dynamics 365](ui-work-product.md)
 

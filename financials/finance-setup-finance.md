@@ -13,10 +13,10 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 08/10/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b63e2e65f92edbbe10bcb5e2c340db31b1acda28
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 2d8863ba9037f6470232372dedd4536664fd3404
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="setting-up-finance"></a>Configurar las finanzas
@@ -40,7 +40,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 | Configurar los informes Intrastat y, enviar el informe a una autoridad | [Procedimiento: configuración y creación de informes Intrastat](finance-how-setup-report-intrastat.md)|
 
 ## <a name="see-also"></a>Consulte también
-[Finanzas](finance.md)]  
+[Finanzas](finance.md)  
 [Administrar cuentas bancarias](bank-manage-bank-accounts.md)  
 [Trabajar con dimensiones](finance-dimensions.md)  
 [Importar datos de empresa de otros sistemas financieros](upload-data.md)  

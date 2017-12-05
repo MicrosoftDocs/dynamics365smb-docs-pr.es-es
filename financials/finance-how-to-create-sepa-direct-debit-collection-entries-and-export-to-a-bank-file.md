@@ -11,10 +11,10 @@ ms.search.keywords: direct-debit, collection, payment, sepa
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: dbecf91050dbdf299ca11e8e5650b2a63b4ccc16
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: ff6fc3af28273545781fc96b811f3c164eaa6fd8
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="how-to-create-sepa-direct-debit-collection-entries-and-export-to-a-bank-file"></a>Creación de movimientos de domiciliación de adeudo directo SEPA y exportación a un archivo bancario
@@ -28,7 +28,7 @@ Para indicar al banco que transfiera el importe de pago desde el banco del clien
 2. En la ventana **Cobros por adeudo directo**, en la pestaña **Inicio**, en el grupo **Nuevo**, elija **Crear cobro por adeudo directo**.  
 3. En la ventana **Crear cobro por adeudo directo**, rellene los campos tal como se describe en la tabla siguiente.  
 
-    |Campo|Description|  
+    |Campo|Descripción|  
     |---------------------------------|---------------------------------------|  
     |**Fecha vencimiento inicio**|Especifique la primera fecha de vencimiento de pago más temprana de las facturas de venta para las que desee crear un cobro por domiciliación.|  
     |**Fecha de vencimiento final**|Especifique la fecha de vencimiento de pago más tarde de las facturas de venta para las que desee crear un cobro por domiciliación.|  
@@ -66,5 +66,5 @@ Ahora podrá registrar los recibos de pago para las facturas de venta implicadas
 ## <a name="see-also"></a>Consulte también  
 [Configuración de domiciliaciones de adeudo directo SEPA](finance-how-to-set-up-sepa-direct-debit.md)   
 [Registro de recibos de pagos de domiciliación de adeudo directo SEPA](finance-how-to-post-sepa-direct-debit-payment-receipts.md)   
-[Cobrar pagos mediante adeudo directo SEPA](finance-collect-payments-with-sepa-direct-debit.md)   
+[Cobro de pagos mediante adeudo directo SEPA](finance-collect-payments-with-sepa-direct-debit.md)   
 

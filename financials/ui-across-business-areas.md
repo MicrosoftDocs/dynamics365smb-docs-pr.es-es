@@ -1,6 +1,6 @@
 ---
 title: "Uso de la funcionalidad general en las áreas de negocio | Documentos de Microsoft"
-description: "Obtenga información sobre la funcionalidad y las características que se usan en varias áreas de negocio en Dynamics 365 for Financials."
+description: "Obtenga información sobre la funcionalidad y las características que se usan en varias áreas de negocio en Dynamics 365 Business edition."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,10 +13,10 @@ ms.search.keywords: feature overview, functionality
 ms.date: 08/21/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 8b33fab6b4aeb3f1f6110d999a69956a76f8defd
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 5a5238c3333551cc00fbb6b81c04309e76013f82
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="general-business-functionality"></a>Funciones empresariales generales
@@ -36,7 +36,7 @@ En la tabla siguiente se indican las áreas de negocio generales, con vínculos 
 | Cambie [!INCLUDE[d365fin](includes/d365fin_md.md)] instalando extensiones que agregan funciones, cambian el comportamiento o proporcionan acceso a nuevos servicios en línea. |[Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones](ui-extensions.md) |
 |Configurar y utilizar los flujos de trabajo que vinculan tareas que realizan los distintos usuarios o el sistema, como registro automático. Solicitar y conceder aprobaciones para crear o registrar documentos son pasos habituales de un flujo de trabajo.|[Flujo de trabajo](across-workflow.md)|
 |Registrar documentos externos en Financials, incluidos los anexos de archivo y, a continuación, crear manualmente documentos relacionados o convertir automáticamente los archivos a documentos electrónicos.|[Documentos entrantes](across-income-documents.md)|
-| Configure definiciones de intercambio de datos para que pueda enviar y recibir documentos electrónicos. |[Intercambio de datos como documentos electrónicos ](across-data-exchange.md) |
+| Configure definiciones de intercambio de datos para que pueda enviar y recibir documentos electrónicos. |[Intercambio de datos electrónicamente](across-data-exchange.md) |
 
 ## <a name="see-also"></a>Consulte también
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -1,8 +1,6 @@
 ---
 title: "Usar la extensión de migración de QuickBooks | Documentos de Microsoft"
-description: "Describe cómo utilizar la extensión para migrar clientes, proveedores, elementos y cuentas de QuickBooks Online a Financials."
-services: project-madeira
-documentationcenter: 
+description: "Describe cómo utilizar la extensión para migrar clientes, proveedores, elementos y cuentas de QuickBooks Online a Dynamics 365."
 author: bholtorf
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,14 +11,14 @@ ms. search.keywords: extension, migrate, data, QuickBooks, import
 ms.date: 05/24/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: fe87a108d132ff25f0c93a51df58bb88fb12f421
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: e73db91a37fd5aee249de032d231df2c5e36b4ba
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 
-# <a name="the-quickbooks-online-data-migration-extension-for-dynamics-365-for-financials"></a>Extensión de la migración de datos de QuickBooks Online para Dynamics 365 for Financials
+# <a name="the-quickbooks-online-data-migration-extension-for-dynamics-365-business-edition"></a>Extensión de la migración de datos de QuickBooks Online para Dynamics 365 Business edition
 Esta extensión se incluye en la guía de configuración asistida **Migración de datos** para ayudarle a migrar datos comerciales importantes de QuickBooks Online a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Por ejemplo, esto es útil cuando su negocio está creciendo y ha decidido actualizar su aplicación de administración de negocios con [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## <a name="what-data-can-i-import-from-quickbooks-online"></a>¿Qué datos puedo importar desde QuickBooks Online?
@@ -29,7 +27,7 @@ Desde QuickBooks Online puede importar a [!INCLUDE[d365fin](includes/d365fin_md.
 * Clientes
 * Proveedores
 * Productos
-* Plan de cuentas 
+* Plan de cuentas
 * Comienzo de la transacción de saldo en el libro mayor
 * Cantidad disponible de productos de inventario
 * Documentos pendientes para clientes y proveedores, como facturas, abonos y pagos
@@ -41,7 +39,7 @@ Migramos únicamente los importes totales de los documentos de ventas y compras.
 
 ## <a name="before-you-start"></a>Antes de comenzar
 Una parte importante del proceso de migración es especificar las cuentas a las que se deben migrar las transacciones. Conviene planificar esta asignación antes de migrar los datos. Por ejemplo, las cuentas en la que registre transacciones de:  
-  
+
 * La venta de productos o servicios a los clientes.
 * La compra de productos o servicios a proveedores.  
 * Ajustes en el libro mayor.  

@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5a02126430e698d7624dfbae41390cdfb2ea2e0b
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: af4f55a85b0269832c6afba791f2499aebf0979c
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="how-to-set-up-electronic-document-sending-and-receiving"></a>Procedimiento: Configurar el envío y la recepción de documentos electrónicos
@@ -47,7 +47,7 @@ El tema incluye los siguientes procedimientos:
 1. En el cuadro **Buscar**, escriba **Información de la empresa** y, a continuación, elija el vínculo relacionado.  
 2. En la ficha desplegable **General**, rellene los campos tal como se describe en la tabla siguiente.  
 
-    |Campo|Description|  
+    |Campo|Descripción|  
     |---------------------------------|---------------------------------------|  
     |**GLN**|Identifique a su empresa.<br /><br /> Por ejemplo, al enviar facturas electrónicas en formato PEPPOL, el valor de este campo se utiliza para rellenar el elemento **EndPointID** bajo el nodo **AccountingSupplierParty** en el archivo. El número se basa en el GS1 estándar, que es compatible con ISO 6523.|  
     |**CIF/NIF**|Especifique el CIF/NIF de la empresa.|  
@@ -57,7 +57,7 @@ El tema incluye los siguientes procedimientos:
 1. En el cuadro **Buscar**, escriba **Configuración registro de IVA** y, a continuación, elija el vínculo relacionado.  
 2. Para cada línea de configuración de registro de IVA que utilizará para los documentos electrónicos, rellene el campo tal como se describe en la tabla siguiente.  
 
-    |Campo|Description|  
+    |Campo|Descripción|  
     |---------------------------------|---------------------------------------|  
     |**Categoría de impuesto**|Especifique la categoría de IVA.<br /><br /> Por ejemplo, al enviar facturas electrónicas en formato PEPPOL, el valor de este campo se utiliza para rellenar el elemento **TaxApplied** bajo el nodo **AccountingSupplierParty** en el archivo. El número se basa en el UNCL5305 estándar.|  
 
@@ -65,7 +65,7 @@ El tema incluye los siguientes procedimientos:
 1. En el cuadro **Buscar**, escriba **País/Regiones** y, a continuación, elija el vínculo relacionado.  
 2. Para cada país/región que utilizará para intercambiar documentos electrónicos, rellene el campo tal como se describe en la tabla siguiente.  
 
-    |Campo|Description|  
+    |Campo|Descripción|  
     |---------------------------------|---------------------------------------|  
     |**Esquema de IVA**|Identifica al organismo nacional que emite el CIF\/NIF en el país o la región en relación con el envío de documentos electrónicos.<br /><br /> Por ejemplo, al enviar facturas electrónicas en formato PEPPOL, el valor de este campo se utiliza para rellenar el atributo **SchemeID** para el elemento **EndPointID** bajo el nodo **AccountingSupplierParty** y el nodo **AccountingCustomerParty** en el archivo.<br /><br /> El campo **Esquema de IVA** solo se utiliza si el campo **GLN** en la ventana **Información empresa** no se rellena. **Nota**: El valor del campo **Código** en la ventana **Países\/Regiones** debe cumplir con 3166\-1 ISO: Alpha2.|  
 
@@ -73,7 +73,7 @@ El tema incluye los siguientes procedimientos:
 1. En el cuadro **Buscar**, escriba **Productos** y, a continuación, elija el vínculo relacionado.  
 2. Para cada producto que compre o venda en documentos electrónicos, rellene el campo tal como se describe en la tabla siguiente.  
 
-    |Campo|Description|  
+    |Campo|Descripción|  
     |---------------------------------|---------------------------------------|  
     |**GTIN**|Identifica el producto en conexión con el envío y recepción de documentos electrónicos. Para el formato PEPPOL se utiliza el campo de la siguiente forma:<br /><br /> Si el elemento **StandardItemIdentification\/ID** tiene el atributo **SchemeID** establecido en **GTIN**, el elemento se asigna al campo **GTIN** en la ficha de producto.|  
 
@@ -81,7 +81,7 @@ El tema incluye los siguientes procedimientos:
 1. En el cuadro **Buscar**, escriba **Unidades de medida** y, a continuación, elija el vínculo relacionado.  
 2. Para cada unidad de medida que utilizará para productos en documentos electrónicos, rellene el campo tal como se describe en la tabla siguiente.  
 
-    |Campo|Description|  
+    |Campo|Descripción|  
     |---------------------------------|---------------------------------------|  
     |**Código estándar internacional**|Especifique el código de unidad de medida expresado como el estándar UNECERec20 en relación con el envío de documentos electrónicos.<br /><br /> Por ejemplo, al enviar facturas electrónicas en formato PEPPOL, el valor de este campo se utiliza para rellenar el atributo **unitCode** del elemento **InvoicedQuantity** bajo el nodo **InvoiceLine**. **Nota**: Si el campo **Unidad de medida** de la línea de venta está vacío, el valor estándar UNECERe20 para “Unidad” \(H87\) se inserta de manera predeterminada. Para obtener más información y una lista de códigos de unidad de medida válidos, vea [Recomendación n.º 20 \- Unidades de medida utilizadas en comercio internacional](http://www.unece.org/fileadmin/DAM/cefact/recommendations/rec20/rec20_rev3_Annex2e.pdf).|  
 
@@ -89,7 +89,7 @@ El tema incluye los siguientes procedimientos:
 1. En el cuadro **Buscar**, escriba **Clientes**, y a continuación, elija el vínculo relacionado.  
 2. Para cada cliente al que enviará documentos electrónicos, rellene los campos tal como se describe en la tabla siguiente.  
 
-    |Campo|Description|  
+    |Campo|Descripción|  
     |---------------------------------|---------------------------------------|  
     |**GLN**|Identifique al cliente.<br /><br /> Por ejemplo, al enviar facturas electrónicas en formato PEPPOL, el valor de este campo se utiliza para rellenar el elemento **EndPointID** bajo el nodo **AccountingCustomerParty** en el archivo. El número se basa en el GS1 estándar, que es compatible con ISO 6523.<br /><br /> Si el campo **GLN** está vacío, se usa el valor en el campo **CIF/NIF**.|  
     |**CIF/NIF**|Especifique el número CIF/NIF del cliente. **Sugerencia**: Seleccione el botón Análisis para utilizar el servicio web que comprueba si el número existe en el registro de empresas del país.|  
@@ -114,7 +114,7 @@ El tema incluye los siguientes procedimientos:
 1. En el cuadro **Buscar**, escriba **Proveedores** y, a continuación, elija el vínculo relacionado.  
 2. Para cada proveedor desde el que recibirá documentos electrónicos, rellene los campos tal como se describe en la tabla siguiente.  
 
-    |Campo|Description|  
+    |Campo|Descripción|  
     |---------------------------------|---------------------------------------|  
     |**GLN**|Identifique al proveedor.<br /><br /> Por ejemplo, al recibir facturas electrónicas en formato PEPPOL, el valor de este campo se utiliza para rellenar el elemento **EndPointID** bajo el nodo **AccountingSupplierParty** en el archivo. El número se basa en el GS1 estándar, que es compatible con ISO 6523.<br /><br /> Si el campo **GLN** está vacío, se usa el valor en el campo **CIF/NIF**.|  
     |**CIF/NIF**|Especifique el número CIF/NIF del proveedor. **Sugerencia**: Seleccione el botón Análisis para utilizar el servicio web que comprueba si el número existe en el registro de empresas del país.|  
@@ -132,12 +132,12 @@ El tema incluye los siguientes procedimientos:
 1. En el cuadro **Buscar**, escriba **Compras y pagos** y, a continuación, elija el vínculo relacionado.  
 2. En la ficha desplegable **Intercambio de datos**, rellene el campo tal como se describe en la tabla siguiente.  
 
-    |Campo|Description|  
+    |Campo|Descripción|  
     |---------------------------------|---------------------------------------|  
     |**Cuenta para líneas que no son artículos físicos**|Especifica la cuenta que se inserta automáticamente en las líneas de compra creadas a partir de los documentos electrónicos cuando la línea de documento entrante no contiene un producto identificable. Cualquier línea del documento entrante que no tenga un GTIN o el número de producto del proveedor se convierte en una línea de compra de tipo **Cuenta**, y el campo **Nº** de la línea de compra contendrá la cuenta seleccionada en el campo **Cuenta para líneas que no son artículos físicos**.<br /><br /> Si dejas el campo **Cuenta para líneas que no son artículos físicos** en blanco y el documento entrante contiene líneas sin artículos identificables, no se creará el documento de compra. Entonces, aparecerá un mensaje de error que te indicará que rellenes el campo **Cuenta para líneas que no son artículos físicos** antes de completar la tarea.|  
 
 ## <a name="see-also"></a>Consulte también  
-[Intercambio de datos como documentos electrónicos](across-data-exchange.md)   
+[Intercambio de datos electrónicamente](across-data-exchange.md)   
 [Facturación de ventas](sales-how-invoice-sales.md)   
 [Procedimiento: Registro de compras](purchasing-how-record-purchases.md)
 

@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 278515fc479a72957fb52dad71ce2f98d354ee32
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: af1aef6ec730083c49b17ae8c0c9e39c7f663244
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-publish-a-web-service"></a>Procedimiento: crear y publicar un servicio web
@@ -44,27 +44,13 @@ Una vez publique un servicio Web, está disponible a partes externas. Puede veri
 
 #### <a name="to-verify-the-availability-of-a-web-service"></a>Para verificar la disponibilidad de un servicio web  
 
-1.  En el explorador, escriba la dirección URL correspondiente. La tabla siguiente muestra los tipos de direcciones URL que puede introducir. Para los servicios web SOAP, utilice el formato siguiente para el URI.  
+1.  En el explorador, escriba la dirección URL correspondiente. La tabla siguiente muestra los tipos de direcciones URL que puede introducir.  
 
-    <table>
-    <tr>
-    <th>Tipo de servicio web</th>
-    <th>Sintaxis</th>
-    <th>Ejemplo</th>
-    </tr>
-    <tr>
-    <td>SOAP</td>
-    <td>https://*Servidor*:*PuertoServicioWebSOAP*/*InstanciaDeServidor*/WS/*NombreEmpresa*/documentosVentas/</td>
-    <td>https://mycompany.financials.dynamics.com:7047/MS/WS/MyCompany/Page/salesDocuments?tenant=mycompany.financials.dynamics.com</td>
-    </tr>
-    <tr>
-    <td>OData</td>
-    <td>https://*Servidor*:*PuertoServicioWebOData*/*InstanciaServidor*/OData/Empresa(*'NombreEmpresa*')</td>
-    <td>https://MyCompany.financials.dynamics.com:7048/MS/OData/Company('MyCompany')/salesDocuments?tenant=MyCompany.financials.dynamics.com
-
-         The company name is case-sensitive.</td>
-    </tr>
-    </table>
+    >    [!div class="mx-tdBreakAll"]
+    >    |Tipo de servicio web|Sintaxis|Ejemplo|  
+    >    |----------------|------|-------|
+    >    |SOAP |https://*Servidor*:*PuertoServicioWebSOAP*/*InstanciaDeServidor*/WS/*NombreEmpresa*/documentosVentas/ |https://mycompany.financials.dynamics.com:7047/MS/WS/MyCompany/Page/salesDocuments?tenant=mycompany.financials.dynamics.com |  
+    >    |OData |https://*Servidor*:*PuertoServicioWebOData*/*InstanciaServidor*/OData/Empresa(*'NombreEmpresa*')|[https://MyCompany.financials.dynamics.com:7048/MS/OData/Company('MyCompany')/salesDocuments?tenant=MyCompany.financials.dynamics.com](https://MyCompany.financials.dynamics.com:7048/MS/OData/Company('MyCompany')/salesDocuments?tenant=MyCompany.financials.dynamics.com) <br />    El nombre de la empresa distingue entre mayúsculas y minúsculas.|
 
 2.  Revise la información que se muestra en el explorador. Compruebe que puede ver el nombre del servicio web que ha creado.  
 

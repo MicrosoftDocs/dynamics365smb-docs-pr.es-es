@@ -1,6 +1,6 @@
 ---
 title: Agregar el contable externo a Financials | Documentos de Microsoft
-description: "Obtenga información sobre cómo puede invitar a su contable externo a Dynamics 365 for Financials."
+description: "Obtenga información sobre cómo puede invitar a su contable externo a Dynamics 365 Business edition."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting
-ms.date: 09/05/2017
+ms.date: 11/10/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b7efbb724f322d371e9e1b725612cb4eb0b3ceb2
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 9769d4b1e34da62290cc97de291462ee2d22c747
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="inviting-your-external-accountant-to-your-included365finincludesd365finmdmd"></a>Invitación del contable externo a [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -23,7 +23,7 @@ Si utiliza un contable externo para administrar los libros y los informes financ
 Una vez que el contable ha accedido a su [!INCLUDE[d365fin](includes/d365fin_md.md)], puede utilizar el área de trabajo **Contable** que da acceso fácil a las ventanas más relevantes para el trabajo.  
 
 > [!NOTE]  
->  Esta funcionalidad requiere que la experiencia esté definida en **Suite**. Para obtener más información, consulte [Personalizar la experiencia de Financials](ui-experiences.md).  
+>  Esta funcionalidad requiere que la experiencia esté definida en **Suite**. Para obtener más información, consulte [Personalizar la experiencia de Dynamics 365](ui-experiences.md).  
 
 ## <a name="invite-your-accountant-to-your-included365finincludesd365finmdmd"></a>Invitar al contable a [!INCLUDE[d365fin](includes/d365fin_md.md)]
 En la última versión de [!INCLUDE[d365fin](includes/d365fin_md.md)], hemos facilitado la invitación a su contable externo. Abra simplemente la ventana **Usuarios**, y seleccione la acción **Invitar a contable externo** en la cinta de opciones. Se le crea un correo electrónico, ahora simplemente agregue el correo electrónico de trabajo de su contable y envíe la invitación.  
@@ -31,7 +31,10 @@ En la última versión de [!INCLUDE[d365fin](includes/d365fin_md.md)], hemos fac
 ![Invitar al contable](./media/finance-invite-accountant/invite-accountant.png)
 
 > [!TIP]  
->  Para ello es necesario que haya configurado el correo electrónico SMTP. Puede hacerlo usted mismo o preguntarle a su socio de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Además, debe iniciar sesión en [!INCLUDE[d365fin](includes/d365fin_md.md)] como administrador y no como propietario u otros usuarios.  
+>  Para ello es necesario que haya configurado el correo electrónico SMTP. Puede hacerlo usted mismo o preguntarle a su socio de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Además, debe iniciar sesión en [!INCLUDE[d365fin](includes/d365fin_md.md)] como administrador y no como propietario u otros usuarios. Finalmente, debe haber abandonado la empresa de prueba para tener un administrador de Azure Active Directory.  
+
+> [!IMPORTANT]  
+>  La dirección de correo electrónico del contable debe ser una dirección de trabajo basada en Active Directory. Si el contable utiliza otro tipo de correo electrónico, la invitación no se podrá enviar.  
 
 ### <a name="separate-license"></a>Licencia independiente
 En segundo plano, el contable se agrega a su suscriptor de Active Directory. Su administrador puede verificar que el contable acepta la invitación y se le asigna la licencia correcta. Los pasos para hacerlo dependen del tipo de cuenta que utilizó al registrarse en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Este tema se basa en el uso de una cuenta de Office 365, que usa Microsoft Azure Active Directory.  
@@ -43,6 +46,6 @@ Uno de los tipos de licencia para [!INCLUDE[d365fin](includes/d365fin_md.md)] es
 ## <a name="see-also"></a>Consulte también
 [Finanzas](finance.md)  
 [Configurar el correo electrónico manualmente o con la configuración asistida](madeira-how-setup-email.md)  
-[Experiencias contables en Dynamics 365 for Financials](finance-accounting.md)  
-[Financials for Accountants en Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
+[Experiencias para contables en Dynamics 365 Business edition](finance-accounting.md)  
+[Dynamics 365 para contables en Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
 

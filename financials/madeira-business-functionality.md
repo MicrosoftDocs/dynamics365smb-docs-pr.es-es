@@ -1,6 +1,6 @@
 ---
-title: Funciones empresariales que admite Financials | Documentos de Microsoft
-Description: "Proporciona una visión general de las funciones y los departamentos empresariales que son compatibles con las áreas de aplicación, como finanzas, inventario y administración de proyectos."
+title: Funciones empresariales que admite Microsoft Dynamics 365 Business edition | Documentos de Microsoft
+Description: Provides a feature overview of all the business functions and departments that are supported by application areas, such as Finance, Inventory, and Project Management.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,13 +13,13 @@ ms.search.keywords: feature overview
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5438d1808bff9509d1a938f601139d3faeab2a82
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: f71c19abdc225b92a76a98992a2e3d78769b6dc5
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="overview-of-business-functionality"></a>Resumen de las funciones empresariales
+# <a name="overview-of-business-functionality-in-dynamics-365-for-finance-and-operations-business-edition"></a>Descripción general de las funcionalidades en Dynamics 365 for Finance and Operations, Business edition
 [!INCLUDE[d365fin](includes/d365fin_md.md)] proporciona funciones para procesos empresariales comunes de las pequeñas y medianas empresas, principalmente de los servicios mayoristas y profesionales.
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] incluye configuraciones estándar de muchos procesos empresariales, pero puede cambiar la configuración para que se adapte a las necesidades de su empresa. Desde la página principal, puede acceder a guías de configuración asistida que le ayudarán a configurar varios escenarios y añadir funciones a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Varias áreas de las funciones empresariales se deben configurar manualmente. Para obtener más información, consulte [Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
@@ -43,7 +43,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Garantizar un flujo de efectivo eficaz de los productos que se reciban y envíen.|[Gestión almacén](warehouse-manage-warehouse.md)|
 |Programar llamadas de servicio, establecer pedidos de servicio de instalación y realizar un seguimiento de piezas y suministros de reparación.|[Gestión de servicios](service-service.md)|
 |Configurar y utilizar los flujos de trabajo que vinculan tareas que realizan los distintos usuarios o el sistema, como registro automático. Solicitar y conceder aprobaciones para crear o registrar documentos son pasos habituales de un flujo de trabajo.|[Flujo de trabajo](across-workflow.md)|
-|Permitir a los usuarios intercambiar datos con orígenes externos durante las tareas diarias, como envío/recepción de documentos electrónicos, importación y exportación de archivos bancarios y actualización de tipos de cambio de divisa.|[Intercambio de datos como documentos electrónicos ](across-data-exchange.md)|
+|Permitir a los usuarios intercambiar datos con orígenes externos durante las tareas diarias, como envío/recepción de documentos electrónicos, importación y exportación de archivos bancarios y actualización de tipos de cambio de divisa.|[Intercambio de datos electrónicamente](across-data-exchange.md)|
 |Registrar documentos externos en [!INCLUDE[d365fin](includes/d365fin_md.md)], incluidos los anexos de archivo y, a continuación, crear manualmente documentos relacionados o convertir automáticamente los archivos a documentos electrónicos.|[Documentos entrantes](across-income-documents.md)|
 
 

@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
+ms.date: 09/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d945858b3a26126a2def48d88ff1132f598c0916
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: 9ddb096b1d09962d96baee9aeefdc5239aa4597a
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="assembly-management"></a>Gestión de ensamblaje
 Para apoyar a las empresas que suministran los productos a sus clientes agrupando los componentes en procesos sencillos sin necesidad de la funcionalidad de fabricación, [!INCLUDE[d365fin](includes/d365fin_md.md)] incluye las características para ensamblar artículos que se integran con las existentes, como son planificación, reservas y almacén.  
 
- Un artículo de montaje se define como uno sellable que contenga un L.M. de ensamblado.
+ Un artículo de montaje se define como uno sellable que contenga un L.M. de ensamblado. Para obtener más información, consulte [Procedimiento: Trabajar con listas de materiales](inventory-how-work-BOMs.md).
 
- Los pedidos de ensamblado son pedidos internos, como las órdenes de producción, que se utilizan para gestionar el proceso de ensamblado y para conectar los requisitos de venta con las actividades de almacén correspondientes. Los pedidos de ensamblado difieren de otros tipos de pedido porque implican la salida y el consumo cuando se están registrando. La cabecera del pedido de ensamblado se comporta de modo similar a una línea del pedido de venta, y las líneas del pedido de ensamblado se comportan de forma similar a las líneas del diario de consumo. Para obtener más información, consulte Pedido de ensamblado.  
+ Los pedidos de ensamblado son pedidos internos, como las órdenes de producción, que se utilizan para gestionar el proceso de ensamblado y para conectar los requisitos de venta con las actividades de almacén correspondientes. Los pedidos de ensamblado difieren de otros tipos de pedido porque implican la salida y el consumo cuando se están registrando. La cabecera del pedido de ensamblado se comporta de modo similar a una línea del pedido de venta, y las líneas del pedido de ensamblado se comportan de forma similar a las líneas del diario de consumo.  
 
  Para utilizar una estrategia de inventario puntual y la capacidad de personalizar los productos según las solicitudes del cliente, los pedidos de ensamblado pueden crearse y vincularse automáticamente tan pronto como se cree la línea del pedido de venta. El vínculo entre la demanda de venta y el suministro del ensamblado permite a los procesadores del pedido de venta personalizar el elemento del ensamblado de forma dinámica, comprometer las fechas de entrega según la disponibilidad del componente, así como registrar la salida el envío del producto ensamblado directamente en la interfaz del pedido de venta. Para obtener más información, consulte [Procedimiento: Venta de artículos ensamblados para pedido](assembly-how-to-sell-items-assembled-to-order.md).  
 

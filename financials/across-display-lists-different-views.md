@@ -13,10 +13,10 @@ ms.search.keywords: personalization
 ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: a93843c39c38692fb6a7703b5befedfbc78007a7
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 35a075d5c77dfacb4f817446ebdfd0f137a19a1a
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="displaying-lists-in-different-ways"></a>Mostrar listas en diferentes vistas
@@ -28,6 +28,6 @@ En la lista de productos, la existencia de imágenes que ayudan a obtener un res
 Puede importar una imagen para un determinado producto si accede a la ficha **Producto** y, a la derecha, selecciona **Imagen** y, a continuación, elige **Importar**. Asimismo, puede exportar una imagen a un archivo o eliminar la imagen de este producto.  
 
 ## <a name="see-also"></a>Consulte también
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
 [Registro de productos nuevos](inventory-how-register-new-items.md)  
 

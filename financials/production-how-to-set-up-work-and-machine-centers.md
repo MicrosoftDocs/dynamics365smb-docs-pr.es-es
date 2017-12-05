@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/04/2017
+ms.date: 09/19/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 8a7af6821affcef2c81499e904f2ed9520086323
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 99ca93d4fd67ec424e54961ad5623c9986e5fe7c
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-set-up-work-centers-and-machine-centers"></a>Procedimiento: Configuración de centros de trabajo y centros de máquinas
@@ -50,7 +50,7 @@ A continuación se describe principalmente cómo configurar un centro de trabajo
 10.  Seleccione el campo **Coste unitario específico** si desea definir el coste unitario del centro de trabajo en la línea de ruta donde se va a utilizar. Esto se aplica a las operaciones con unos costes de capacidad radicalmente diferentes de los procesados normalmente en el centro de trabajo.  
 11.  En el campo **Método de baja**, seleccione si el registro de salida de este centro de trabajo se debe calcular y registrar manualmente o automáticamente con alguno de los métodos siguientes.  
 
-    |Opción|Description|  
+    |Opción|Descripción|  
     |----------------------------------|---------------------------------------|  
     |**Manual**|El consumo se registra manualmente en el diario de salida o en el diario de producción.|
     |**Anticipada**|El consumo se calcula y se registra automáticamente al lanzar la orden de producción.|  
@@ -65,7 +65,7 @@ A continuación se describe principalmente cómo configurar un centro de trabajo
     > [!NOTE]  
     > Si decide utilizar Días, recuerde que 1 día = 24 horas, y no 8 (jornada laboral).
 
-13.  En el campo **Capacidad**, puede definir si en el centro de trabajo hay más de una máquina o persona trabajando a la vez. Si la instalación de **Nombre producto** no incluye la funcionalidad del centro de máquina, el valor de este campo debe ser **1**).  
+13.  En el campo **Capacidad**, puede definir si en el centro de trabajo hay más de una máquina o persona trabajando a la vez. Si la instalación de [!INCLUDE[d365fin](includes/d365fin_md.md)] no tiene la funcionalidad del centro de máquina, el valor de este campo debe ser **1**.  
 14.  En el campo **Eficiencia**, especifique el porcentaje de la salida estándar esperada que este centro de trabajo produce realmente. Si especifica **100**, estará indicando que el centro de trabajo tiene una salida real igual que la salida estándar.  
 15. Seleccione la casilla verificación **Calendario consolidado** si también utiliza centros de máquina. Esto asegura que los movimientos de calendario se traspasan desde los calendarios de centro de máquina.  
 16.  En el campo **Cód. calen. planta**, seleccione un calendario de planta. Para obtener más información, consulte [Procedimiento: Crear calendarios de planta](production-how-to-create-work-center-calendars.md).  
@@ -79,6 +79,24 @@ Si se asignan distintos centros de máquina (como 210 Mesa de empaquetado 1, 310
 Si, no obstante, se combinan centros de máquina idénticos (como 210 Mesa de empaquetado 1 y 220 Mesa de empaquetado 2) en un centro de trabajo, resulta interesante la consideración del centro de trabajo como la suma de los centros de máquina asignados. Por tanto, el centro de trabajo se mostrará con capacidad cero. Al activar el campo **Calendario consolidado**, se asigna la capacidad común al centro de trabajo.
 
 Si las capacidades de los centros de trabajo no van a contribuir a la capacidad total, puede conseguir que lo hagan mediante un factor de eficiencia igual a cero.
+
+## <a name="to-set-up-a-capacity-constrained-machine-or-work-center"></a>Para configurar una capacidad efectiva de una máquina o de un centro de trabajo
+Debe configurar los recursos de producción que considera críticos y señalarlos para aceptar una carga finita en lugar de la carga infinita predeterminada que aceptan otros recursos de producción. Un recurso de capacidad restringida puede ser un centro de trabajo o de máquina que ha identificado como cuello de botella y para el que le gustaría establecer una carga limitada y finita.
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] no admite el control detallado de la planta. Planea una utilización factible de los recursos al proporcionar una programación preliminar, pero no crea ni mantiene automáticamente las programaciones detalladas basadas en prioridades o reglas de optimización.
+
+En la ventana **Recursos de capacidad limitada**, puede establecer una configuración que evite la sobrecarga de los recursos específicos y garantizar que no se deje ninguna capacidad sin asignar si pudiera aumentar el plazo de producción de una orden de producción. En el campo **Amortiguador (% capdad. total)**, puede agregar tiempo de amortiguación a recursos para minimizar la división de operaciones. De este modo, el sistema puede programar la carga en el último día posible superando el porcentaje de carga crítica ligeramente si esto puede reducir el número de operaciones divididas.
+
+Al planificar con recursos de capacidad limitada, el sistema se asegura de que no se cargue ningún recurso por encima de su capacidad definida (carga crítica). Esto se realiza mediante la asignación de cada operación a la franja temporal disponible más próxima. Si la franja temporal no es lo suficientemente amplia para completar toda la operación, la operación se dividirá en dos o más partes que se colocarán en las franjas temporales más próximas disponibles.
+
+1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), especifique **Recursos capacidad restringida** y elija el vínculo relacionado.
+2. Seleccione la acción **Nuevo**.
+3. Rellene los campos según sea necesario.
+
+> [!NOTE]
+> Las operaciones de los centros de máquina o de trabajo que se configuran como recursos restringidos se planificarán siempre de serie. Esto significa que si un recurso restringido tiene varias capacidades, tales capacidades solo se pueden planificar en secuencia, no en paralelo, como sería el caso si el centro de trabajo o de máquina no estuviera configurado como recurso restringido. En un recurso limitado, el campo Capacidad en el centro de trabajo o el centro de máquina es mayor que 1.
+
+> En el caso de división de la operación, el tiempo de configuración se asigna solo una vez, pues se presupone que se realiza algún ajuste manual para optimizar la programación.
 
 ## <a name="see-also"></a>Consulte también  
 [Cómo crear calendarios de planta](production-how-to-create-work-center-calendars.md)  

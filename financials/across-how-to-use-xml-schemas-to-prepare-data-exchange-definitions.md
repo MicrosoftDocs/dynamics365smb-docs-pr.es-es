@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c4b53c6a87148990102ba9eca235cf139a48396e
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 5b10eaff0d412ee26ead2137a353054c41d05113
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-use-xml-schemas-to-prepare-data-exchange-definitions"></a>Procedimiento: Uso de esquemas XML para preparar definiciones de intercambio de datos
@@ -46,7 +46,7 @@ Para habilitar la importación y exportación de datos en archivos XML mediante 
 
 4.  Rellene los campos tal como se describe en la tabla siguiente.  
 
-    |Campo|[Description]|  
+    |Campo|Descripción|  
     |---------------------------------|---------------------------------------|  
     |**Código**|Especifique un código para identificar el esquema XML.|  
     |**Descripción**|Especifique una descripción del esquema XML.|  
@@ -66,7 +66,7 @@ Para habilitar la importación y exportación de datos en archivos XML mediante 
 
 2.  Rellene los campos en la cabecera tal como se describe en la tabla siguiente.  
 
-    |Campo|Description|  
+    |Campo|Descripción|  
     |---------------------------------|---------------------------------------|  
     |**Código de esquema XML**|Especifique el archivo de esquema XML que se ha cargado en el paso 5 en la sección “Para cargar un archivo de esquema XML”.|  
     |**N.º XMLport nuevo**|Especifique el número del objeto XMLport que se crea a partir de este esquema de XML cuando elige la acción **Generar XMLport**.|  
@@ -79,7 +79,7 @@ Para habilitar la importación y exportación de datos en archivos XML mediante 
 
 4.  En la pestaña **Inicio**, en el grupo **Ver**, seleccione cualquiera de las acciones siguientes para cambiar los nodos que se muestran.  
 
-    |**Acción**|Description|  
+    |**Acción**|Descripción|  
     |----------------|---------------------------------------|  
     |**Mostrar todos**|Se muestran todos los nodos.|  
     |**Ocultar elementos opcionales**|Solo se muestran los nodos que representan elementos que son obligatorios según el esquema XML. Estos nodos normalmente se indican mediante un **1** en el campo **MinOccurs**.<br /><br /> Elija **Mostrar todos** para revertir la vista.|  
@@ -130,6 +130,6 @@ Para habilitar la importación y exportación de datos en archivos XML mediante 
 ## <a name="see-also"></a>Consulte también  
 [Procedimiento: Configurar las definiciones de intercambio de datos](across-how-to-set-up-data-exchange-definitions.md)   
 [Exportación de pagos a un archivo de banco](payables-how-export-payments-bank-file.md)   
-[Cobrar pagos mediante adeudo directo SEPA](finance-collect-payments-with-sepa-direct-debit.md)   
+[Cobro de pagos mediante adeudo directo SEPA](finance-collect-payments-with-sepa-direct-debit.md)   
 [Acerca del marco de intercambio de datos](across-about-the-data-exchange-framework.md)
 

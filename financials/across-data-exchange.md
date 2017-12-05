@@ -1,5 +1,5 @@
 ---
-title: "Documentos electrónicos en Dynamics 365 for Financials | Documentos de Microsoft"
+title: "Documentos electrónicos en Dynamics 365 Business edition | Documentos de Microsoft"
 description: "Introducción al envío y recepción de documentos electrónicos en [!INCLUDE[d365fin](includes/d365fin_md.md)]."
 author: SorenGP
 ms.service: dynamics365-financials
@@ -8,17 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/18/2017
+ms.date: 09/19/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 0c0ca1b5da823d31bba4961e8724dfb98e842317
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 4397c5b935afccc666fac91c73c04c59958fd8eb
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-## <a name="exchanging-data-as-electronic-documents"></a>Intercambio de datos como documentos electrónicos  
-Como alternativa al envío de correos electrónicos con archivos adjuntos, puede enviar y recibir documentos de forma electrónica. Por documento electrónico se entiende un archivo estándar y compatible que representa un documento empresarial, como una factura de un proveedor que pueda recibirse y convertirse a una factura de compra en [!INCLUDE[d365fin](includes/d365fin_md.md)]. El intercambio de los documentos electrónicos entre dos socios comerciales se realiza a través de un proveedor externo de servicios de intercambio de datos. La versión genérica de [!INCLUDE[d365fin](includes/d365fin_md.md)] admite el envío y la recepción de facturas electrónicas y abonos en formato PEPPOL, admitido por los proveedores de servicios de intercambio de documentos más importantes. Hay preconfigurado un proveedor de servicios de intercambio de documentos principal listo para ser configurado según su empresa. Para proporcionar compatibilidad para otros formatos de documentos electrónicos, debe crear nuevas definiciones de intercambio de datos utilizando el marco de intercambio de datos.  
+
+# <a name="exchanging-data-electronically"></a>Intercambio de datos electrónicamente
+Puede usar Marco de intercambio de datos para intercambiar documentos empresariales, archivos bancarios, tipos de cambio de divisa y cualquier otro archivo de datos con sus socios comerciales.
+
+## <a name="electronic-documents"></a>Documentos electrónicos
+Como alternativa al envío de correos electrónicos con archivos adjuntos, puedes enviar y recibir documentos empresariales de forma electrónica. Por documento electrónico se entiende un archivo estándar y compatible que representa un documento empresarial, como una factura de un proveedor que pueda recibirse y convertirse a una factura de compra en [!INCLUDE[d365fin](includes/d365fin_md.md)]. El intercambio de los documentos electrónicos entre dos socios comerciales se realiza a través de un proveedor externo de servicios de intercambio de datos. La versión genérica de [!INCLUDE[d365fin](includes/d365fin_md.md)] admite el envío y la recepción de facturas electrónicas y abonos en formato PEPPOL, admitido por los proveedores de servicios de intercambio de documentos más importantes. Hay preconfigurado un proveedor de servicios de intercambio de documentos principal listo para ser configurado según su empresa. Para proporcionar compatibilidad para otros formatos de documentos electrónicos, debe crear nuevas definiciones de intercambio de datos utilizando el marco de intercambio de datos.  
 
 Puedes hacer que un servicio de OCR (Reconocimiento óptico de caracteres) externo cree documentos electrónicos desde PDF o desde archivos de imagen que representen documentos entrantes que después puedas convertir a registros de documentos en [!INCLUDE[d365fin](includes/d365fin_md.md)], como en documentos electrónicos PEPPOL. Por ejemplo, cuando recibes una factura de un proveedor en formato PDF, la puedes enviar al servicio de OCR desde la ventana **Documentos entrantes**. Al de unos segundos recibirás el archivo devuelto como una factura electrónica que se puede convertir en una factura de compra para el proveedor. Si envías el archivo al servicio de OCR por correo electrónico, se creará un documento entrante nuevo automáticamente cuando recibas el documento electrónico devuelto.  
 

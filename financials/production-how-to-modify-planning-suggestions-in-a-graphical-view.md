@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6cdd86fb96e89e99ea2378221d2991bd640f887e
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 4bc8694fc1da6caab88c3b462e5b50306d08271b
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-modify-planning-suggestions-in-a-graphical-view"></a>Cómo modificar las sugerencias de planificación en una vista gráfica
@@ -47,7 +47,7 @@ El siguiente procedimiento muestra cómo modificar las sugerencias de suministro
 5.  Mantenga pulsado el botón del mouse mientras arrastra el puntero hacia arriba o hacia abajo para modificar la cantidad. Mantenga pulsado el botón del mouse mientras arrastra el puntero hacia la izquierda y hacia la derecha para modificar la fecha de vencimiento.  
 6.  Además de mover los elementos mediante arrastrar y soltar, puede modificar las sugerencias de planificación utilizando varias funciones del menú desplegable. Acceda al menú desplegable para el círculo verde de un producto de suministro sugerido y seleccione una las funciones siguientes  
 
-    |Función|Description|  
+    |Función|Descripción|  
     |--------------|---------------------------------------|  
     |**Crear nuevo suministro**|Cree un nuevo punto de elemento donde acceda al menú desplegable, que representa un nuevo pedido de suministro sugerido. Se convierte en una nueva línea en la hoja de planificación cuando elige **Guardar cambios**.<br /><br /> **NOTA**: Si los campos **Filtro almacén** o **Filtro variante** de la ficha desplegable **Opciones** está vacía o tiene más de un valor de filtro, el nuevo suministro se crea y guarda posteriormente en la hoja de planificación o demanda con los siguientes códigos:<br /><br /> * Si el campo de filtro está vacío, el nuevo suministro se crea sin un código de almacén o variante.<br /><br /> * Si se define más de un valor de filtro, el nuevo suministro se crea para el primer valor de filtro según el método de ordenación.<br /><br /> Si desea otro código de variante o de almacén, debe modificarlo manualmente en la nueva línea de planificación.|  
     |**Auto-Ajuste suministro**|Optimiza un nuevo suministro que ha creado en el gráfico para asegurarse de que da como resultado un inventario de cero antes del suministro siguiente.|  
@@ -59,7 +59,7 @@ El siguiente procedimiento muestra cómo modificar las sugerencias de suministro
 Para implementar los cambios del plan de suministro, debe seguir los mensajes de acción resultantes de la hoja de planificación o demanda. Para obtener más información, consulte Ejecutar mensajes acción.-Plan..
 
 ## <a name="symbols-and-icons-on-the-timeline-fasttab"></a>Símbolos e iconos en la ficha desplegable Escala de tiempo
- |Símbolo/icono|Description|  
+ |Símbolo/icono|Descripción|  
  |------------------|---------------------------------------|  
  |Cruz negra|Pedidos (aprovisionamiento y demanda).<br /><br /> -   No puede modificar.<br />- Visible cuando está seleccionado el campo **Mostrar inventario proyectado** (gráfico anaranjado).|  
  |Círculo rojo|Pedidos de suministros existentes que no están incluidos en las sugerencias de la planificación.<br /><br /> -   No puede modificar.<br />- Visible cuando está seleccionado el campo **Mostrar inventario proyectado** (gráfico anaranjado).|  
@@ -70,7 +70,7 @@ Para implementar los cambios del plan de suministro, debe seguir los mensajes de
 
 Cuando acceda al menú desplegable para la ficha desplegable **Escala de tiempo**, las funciones siguientes aparecen dependiendo de lo que elija  
 
- |Función|Description|  
+ |Función|Descripción|  
  |--------------|---------------------------------------|  
  |**Crear nuevo suministro**|Crea un nuevo elemento en el punto donde acceda al menú desplegable, que representa un nuevo pedido de suministro sugerido. Se convierte en una nueva línea en la hoja de planificación cuando elige **Guardar cambios** en la pestaña **Procesar**.<br /><br /> Cualquier valor de filtro que esté definido en los campos **Filtro almacén** o **Filtro variante** en la ficha desplegable **Opciones** se aplicará a nuevos pedidos de suministros. **Nota**: Si los campos de filtro están vacíos o tienen más de un valor filtro, nuevos pedidos de suministros se crean utilizando los siguientes códigos: <ul><li>Si el campo de filtro está vacío, el nuevo suministro se crea sin un código de almacén o variante.</li><li>Si se define más de un valor de filtro, el nuevo suministro se crea utilizando el primer valor de filtro según la ordenación.</li></ul> Si desea otro código de variante o de almacén en el nuevo pedido de suministro, debe modificarlo manualmente en la nueva línea de planificación.|  
  |**Auto-Ajuste suministro**|Optimiza un nuevo suministro que ha creado en el gráfico para asegurarse de que crea un inventario de cero antes del suministro siguiente.|  
@@ -82,7 +82,7 @@ Cuando acceda al menú desplegable para la ficha desplegable **Escala de tiempo*
 
 Además de las acciones de teclado se mencionadas antes, también puede utilizar las siguientes acciones de teclado en la ficha desplegable **Escala de tiempo**.  
 
- |Acción de teclado|Description|  
+ |Acción de teclado|Descripción|  
  |---------------------|---------------------------------------|  
  |Ctrl + rueda de mouse de desfase|Cambia la escala del eje X.|  
  |Seleccione un elemento y presione Shift+Flecha|Mueve el elemento en la dirección de la flecha.|  

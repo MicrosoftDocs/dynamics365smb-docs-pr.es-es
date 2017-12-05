@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5beb5f6795bd7f4943a6ed9d8b691c05fc5ecb63
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: 021c48efc6bf6b1fdb7b17bf742cb6f084d3964b
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="how-to-post-sepa-direct-debit-payment-receipts"></a>Registro de recibos de pagos de domiciliación de adeudo directo SEPA
@@ -28,7 +28,7 @@ Puede registrar el recibo de pago directamente desde la ventana **Cobros por ade
 3. Seleccione la acción **Registrar recibos de pago**.  
 4. En la ventana **Registrar cobro por adeudo directo**, rellene los campos tal como se describe en la tabla siguiente.  
 
-    |Campo|Description|  
+    |Campo|Descripción|  
     |---------------------------------|---------------------------------------|  
     |**Nº cobro por adeudo directo**|Especifique el cobro por adeudo directo para el que desea registrar el albarán de pago.|  
     |**Plantilla de libros diario general**|Especifique la plantilla de diario general que se debe usar para registrar el albarán de pago, tal como la plantilla de recibo de cobro.|  
@@ -38,6 +38,6 @@ Puede registrar el recibo de pago directamente desde la ventana **Cobros por ade
 5. Elija el botón **Aceptar**.  
 
 ## <a name="see-also"></a>Consulte también  
- [Cobrar pagos mediante adeudo directo SEPA](finance-collect-payments-with-sepa-direct-debit.md)   
+ [Cobro de pagos mediante adeudo directo SEPA](finance-collect-payments-with-sepa-direct-debit.md)   
  [Ccial](sales-manage-sales.md)
 

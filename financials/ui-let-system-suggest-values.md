@@ -1,8 +1,6 @@
 ---
 title: Configurar los valores de campo sugeridos | Documentos de Microsoft
-description: "Para evitar cálculos manuales y completar rápidamente y de forma precisa las tareas, puede configurar la entrada de datos automática de forma que Financials rellene los campos seleccionados."
-services: project-madeira
-documentationcenter: 
+description: "Para evitar cálculos manuales y completar rápidamente y de forma precisa las tareas, puede configurar la entrada de datos automática de forma que Dynamics 365 rellene los campos seleccionados."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -12,13 +10,13 @@ ms.workload: na
 ms.date: 08/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 3ca73c8298101eb02aac397894f87f7a5f58a5c2
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 26a66f87f85cac1ff6f6ba6eb4cb90527565f236
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="letting-included365finincludesd365finmdmd-suggest-values"></a>Permitir que [!INCLUDE[d365fin](includes/d365fin_md.md)] proponga valores
+# <a name="letting-included365finlongincludesd365finlongmdmd-suggest-values"></a>Permitir que [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] proponga valores
 [!INCLUDE[d365fin](includes/d365fin_md.md)] puede ayudarle a completar las tareas más rápida y correctamente rellenando previamente los campos o las líneas completas con los datos que, de no ser así, debería calcular e introducir usted. Aunque los datos introducidos automáticamente son siempre correctos, puede cambiarlos si lo desea.
 
 La funcionalidad que introduce los valores del campo por usted, normalmente, se ofrece mediante tareas en las que se introducen grandes volúmenes de datos transaccionales y se desea evitar errores y ahorrar tiempo. Este tema contiene una selección de éstas funcionalidades. Se agregarán más secciones en futuras actualizaciones de [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -44,6 +42,6 @@ Sus principales acciones en la ventana son rellenar la casilla de **Pago realiza
 3. Abra la ventana **Registro de pago** y procese los pagos de cliente entrantes usando la funcionalidad descrita para introducir un valor de un campo automáticamente.
 
 ## <a name="see-also"></a>Consulte también
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
 [Finanzas](finance.md)
 

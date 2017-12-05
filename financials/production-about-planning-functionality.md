@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 0910760881decc98ba1bfa6e8753566316386b2c
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: a00f88aaf70464c8911d59b829b08dda900dc474
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="about-planning-functionality"></a>Sobre la funcionalidad de la planificación
@@ -75,7 +75,7 @@ Existen los modificadores de pedido en la ficha del producto o de la UA:
 
 Los campos de configuración de planificación global de la ventana **Configuración de fabricación** son:  
 
--   Código nivel más bajo dinámico  
+-   Cód. niv. más bajo dinámico  
 -   Previsión prod. actual  
 -   Previsiones en almacénes  
 -   Plazo seguridad genérico  

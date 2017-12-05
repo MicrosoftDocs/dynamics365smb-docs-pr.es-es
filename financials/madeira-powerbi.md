@@ -1,6 +1,6 @@
 ---
-title: Paquetes de contenido de Dynamics 365 for Financials y Power BI | Documentos de Microsoft
-description: "Obtener información, inteligencia empresarial y KPI de los datos de Financials resulta muy sencillo con Power BI y los paquetes de contenido de Financials."
+title: Paquetes de contenido de Dynamics 365 Business edition y Power BI | Documentos de Microsoft
+description: "Obtener información, inteligencia empresarial y KPI de los datos de Dynamics 365 resulta muy sencillo con Power BI y los Dynamics 365 content packs."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: get-started-article
@@ -11,10 +11,10 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.date: 09/05/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d165efbb6a157c6f95f8f59e6aa0d9b7100daa91
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: f9a85074f2bc3ed2bff6022b9c248d3568a04e93
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Habilitar los datos de negocio para Power BI
@@ -22,7 +22,7 @@ Obtener información de los datos de [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
 Microsoft ha publicado los paquetes de contenido siguientes:
 
-| App | Description |
+| App | Descripción |
 | --- | --- |
 | Microsoft Dynamics 365 for Financials | Proporciona un panel de control con datos financieros clave a lo largo del tiempo, como ingresos frente a gastos, margen de operación y ciclo de efectivo.|
 | Microsoft Dynamics 365 for Financials - CRM | Proporciona un panel de control con datos clave sobre oportunidades de ventas y contactos.  |
@@ -44,7 +44,7 @@ Los paquetes de contenido están configurados previamente para trabajar con los 
 ## <a name="accessing-included365finincludesd365finmdmd-in-power-bi"></a>Acceder a [!INCLUDE[d365fin](includes/d365fin_md.md)] en Power BI
 Para visualizar los datos de [!INCLUDE[d365fin](includes/d365fin_md.md)] en Power BI, deberá tener lo siguiente:  
 
-* Acceso a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, vea [Financials](http://go.microsoft.com/fwlink/?LinkID=759714).  
+* Acceso a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, consulte [Dynamics 365 Business edition](http://go.microsoft.com/fwlink/?LinkID=759714).  
 * Acceder a Power BI. Para obtener más información, consulte [Power BI](https://powerbi.microsoft.com).
 
 En el sitio de Power BI, podrá encontrar información adicional sobre [cómo conectar a los servicios con paquetes de contenido de Power BI](http://go.microsoft.com/fwlink/?LinkID=760850).  

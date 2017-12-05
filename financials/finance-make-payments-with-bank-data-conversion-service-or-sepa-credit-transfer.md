@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: bbb38f7d4a4b7d1b63cfceef2640172d7b69e364
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: 20ae505bc76b8971c678de9e2664653aa5032d6e
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer"></a>Realizar pagos con Servicio de conversión de datos del banco o Transferencia de crédito SEPA
@@ -41,5 +41,5 @@ En la ventana **Diario de pagos**, puede procesar pagos a sus proveedores export
 [Configuración de transferencias de crédito SEPA](finance-how-to-set-up-sepa-credit-transfer.md)  
 [Gestionar pagos](payables-manage-payables.md)   
 [Trabajar con diarios generales](ui-work-general-journals.md)  
-[Cobrar pagos mediante adeudo directo SEPA](finance-collect-payments-with-sepa-direct-debit.md)   
+[Cobro de pagos mediante adeudo directo SEPA](finance-collect-payments-with-sepa-direct-debit.md)   
 

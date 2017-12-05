@@ -13,10 +13,10 @@ ms.search.keywords: reimbursement
 ms.date: 06/28/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 8674fcc050e11c9ecb1c423fc5048c1ef630e1ac
+ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
+ms.openlocfilehash: 0e10011c598678134cb7badbd9a3be97751b4424
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/17/2017
 
 ---
 # <a name="how-to-record-and-reimburse-employees-expenses"></a>Procedimiento: registro y reembolso de los costes de los empleados
@@ -47,7 +47,7 @@ Reembolse a los empleados mediante pagos a su cuenta bancaria en la ventana **Di
 5. Seleccione la acción **Registrar** para registrar el reembolso.  
 
 ## <a name="to-reconcile-reimbursements-with-employee-ledger-entries"></a>Conciliar reembolsos con movimientos de empleado
-Aplique los pagos de los empleados a las entradas del libro mayor relacionadas, de la misma manera que lo hace para los pagos a proveedores, por ejemplo, en la ventana **Diario de conciliación de pagos**, en función de las entradas del extracto bancario relacionadas. Para obtener más información, vea [Liquidar pagos automáticamente y conciliar cuentas bancarias](receivables-apply-payments-auto-reconcile-bank-accounts.md). Opcionalmente, puede liquidar manualmente en la ventana **Movimientos de los empleados**. Para obtener más información, consulte el tema relacionado [Conciliar pagos de proveedor manualmente](payables-how-apply-purchase-transactions-manually.md).  
+Aplique los pagos de los empleados a las entradas del libro mayor relacionadas, de la misma manera que lo hace para los pagos a proveedores, por ejemplo, en la ventana **Diario de conciliación de pagos**, en función de las entradas del extracto bancario relacionadas. Para obtener más información, vea [Liquidación de pagos automáticamente y conciliación de cuentas bancarias](receivables-apply-payments-auto-reconcile-bank-accounts.md). Opcionalmente, puede liquidar manualmente en la ventana **Movimientos de los empleados**. Para obtener más información, consulte el tema relacionado [Conciliar pagos de proveedor manualmente](payables-how-apply-purchase-transactions-manually.md).  
 
 ## <a name="see-also"></a>Consulte también
 [Registrar transacciones directamente en la contabilidad](finance-how-post-transactions-directly.md)  

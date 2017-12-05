@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/22/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 7e76ef1d5622486c3d8055f6e0ccbe3564a96701
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: face4821059b57c32e06dca46ec5144aba4ca528
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="walkthrough-tracing-serial-lot-numbers"></a>Tutorial: seguimiento de números de serie-lote
@@ -141,11 +141,10 @@ A continuación, deberá crear diversas transacciones de compra, producción y v
 2.  Seleccione el grupo **Nuevo**.  
 3.  Cree una nueva orden de producción lanzada rellenando los campos siguientes.  
 
-    ||||  
     |-|-|-|  
-    |Cód. procedencia mov.|Cantidad|Nº serie|  
-    |1002|2|NS1|  
-    |1002|2|NS2|  
+    |Nº origen|Cantidad|Nº serie|  
+    |1002|2|SN1|  
+    |1002|2|SN2|  
 
 4.  Seleccione la acción **Actualizar orden producción** y, a continuación, seleccione el botón **Aceptar** para rellenar la línea.  
 5.  Para introducir los números de serie, elija la acción **Líns. seguim. prod.**  
@@ -189,7 +188,7 @@ A continuación, deberá crear diversas transacciones de compra, producción y v
 
     |Cliente|Producto|Cdad.|Nº serie|  
     |--------------|----------|----------|----------------|  
-    |Sellafrio S.L.|1002|0|NS1|  
+    |Sellafrio S.L.|1002|1|NS1|  
 
 3.  Para introducir el número de serie, seleccione la acción **Líns. seguim. prod.** y, a continuación, el número en el campo **Nº serie** en la ventana **Líns. seguim. prod.**.  
 4.  Seleccione la acción **Registrar**, elija la opción **Enviar y facturar** y seleccione el botón **Aceptar**.  
@@ -201,7 +200,7 @@ A continuación, deberá crear diversas transacciones de compra, producción y v
 
     |Cliente|Producto|Cdad.|Nº serie|  
     |--------------|----------|----------|----------------|  
-    |GDE Distribución S.A.|1002|0|NS2|  
+    |GDE Distribución S.A.|1002|1|NS2|  
 
 7.  Para introducir el número de serie, seleccione la acción **Líns. seguim. prod.** y, a continuación, el número en el campo **Nº serie** en la ventana **Líns. seguim. prod.**.  
 8.  Seleccione la acción **Registrar**, elija la opción **Enviar y facturar** y seleccione el botón **Aceptar**.  

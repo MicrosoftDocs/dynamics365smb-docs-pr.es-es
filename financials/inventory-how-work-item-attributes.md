@@ -13,10 +13,10 @@ ms.search.keywords: categories, search words, facets
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: f071cca7df5bb1d3eac6f013784c0ca13e36477c
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: dcc29b913c999fe05272dd709a873635efb5eeb4
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-work-with-item-attributes"></a>Procedimiento: Trabajar con atributos de producto
@@ -25,7 +25,7 @@ Cuando los clientes hacen consultas sobre un producto, ya sea por correspondenci
 También puede asignar los atributos de producto a categorías de producto que se aplican después a los productos que las utilizan. Para obtener más información, consulte [Procedimiento: Clasificar productos](inventory-how-categorize-items.md).
 
 > [!Tip]  
-> Si asocia imágenes a productos, la extensión Analizador de imágenes puede detectar los atributos en la imagen y sugerir los atributos que puede decidir si se los asigna. La extensión está lista para usarse. Solo debe habilitarla. Para obtener más información, consulte [Extensión del analizador de imágenes de Microsoft Dynamics 365 for Financials](ui-extensions-image-analyzer.md).
+> Si asocia imágenes a productos, la extensión Analizador de imágenes puede detectar los atributos en la imagen y sugerir los atributos que puede decidir si se los asigna. La extensión está lista para usarse. Solo debe habilitarla. Para obtener más información, consulte [Extensión del analizador de imágenes de Microsoft Dynamics 365 Business edition](ui-extensions-image-analyzer.md).
 
 ## <a name="to-create-item-attributes"></a>Para crear atributos de producto
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Atributos de producto** y, a continuación, seleccione el vínculo relacionado.

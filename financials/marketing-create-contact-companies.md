@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 2deb992855857a83955c3c119eb7903fe45088d2
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 3c80d937a8b849cf7174952e02bbde243ca0ac5c
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="creating-contact-companies"></a>Crear empresas de contacto
@@ -26,7 +26,7 @@ Al asignar la mayor información posible sobre una empresa específica se garant
 
 También puede definir la relación de negocio que mantiene con un contacto. Por ejemplo, un contacto podría ser un cliente potencial, un banco o un contratista.
 
-En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen. 
+En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.
 
 | Para | Vea |
 | --- | --- |
@@ -40,5 +40,5 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 
 ## <a name="see-also"></a>Consulte también
 [Crear personas de contacto](marketing-create-contact-persons.md)   
-[Trabajar con Financials](ui-work-product.md)
+[Trabajar con Dynamics 365](ui-work-product.md)
 

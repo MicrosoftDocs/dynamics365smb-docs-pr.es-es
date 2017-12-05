@@ -1,8 +1,6 @@
 ---
 title: "Configurar la transferencia de crédito de SEPA | Documentos de Microsoft"
-description: "Aprenda a configurar la transferencia de créditos SEPA en Dynamics 365 for Financials."
-services: project-madeira
-documentationcenter: 
+description: "Aprenda a configurar la transferencia de créditos SEPA en Dynamics 365 Business edition."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords: sepa, credit, transfer, payment,
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 88ac086fa0532892af9c770c14134723e0da2eaf
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: afdf20baa9d61d28e18aa08ae175f139fdb31bdd
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-set-up-sepa-credit-transfer"></a>Configuración de transferencias de crédito SEPA
@@ -64,8 +62,8 @@ Para poder procesar el pago electrónicamente exportando los archivos de pago en
     La orden de domiciliación de adeudo directo se inserta automáticamente en el campo **Id. de orden de domiciliación** de adeudo directo cuando se crea una factura de venta para el cliente que ha seleccionado en el paso 2. Para obtener más información, vea [Crear líneas de ventas y de compras periódicas](sales-how-work-standard-lines.md).  
 
 ## <a name="see-also"></a>Consulte también  
-[Cobrar pagos mediante adeudo directo SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
+[Cobro de pagos mediante adeudo directo SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
 [Procedimiento: Configurar las definiciones de intercambio de datos](across-how-to-set-up-data-exchange-definitions.md)  
 [Crear líneas de ventas y de compras periódicas](sales-how-work-standard-lines.md)  
-[Intercambio de datos como documentos electrónicos ](across-data-exchange.md)  
+[Intercambio de datos electrónicamente](across-data-exchange.md)  
 

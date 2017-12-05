@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 3ece25dc08df403e8dc3743d30a54c4172665c50
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: f6c9b936bdd6e8b1495aaa609f3a6eaac4095ab3
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="creating-and-managing-contacts"></a>Creación y administración de contactos
@@ -26,7 +26,7 @@ Debe registrar como contactos todas las entidades externas con las que mantenga 
 
 Puede registrar información de una empresa o de una persona de dicha empresa. También puede crear una persona de contacto independiente que no trabaja para una empresa específica, sino de forma independiente como trabajador freelance.
 
-En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen. 
+En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.
 
 | Para | Vea |
 | --- | --- |
@@ -37,5 +37,5 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 ## <a name="see-also"></a>Consulte también
 [Administrar oportunidades de venta](marketing-manage-sales-opportunities.md)  
 [Configurar la gestión de relaciones](marketing-setup-marketing.md)  
-[Trabajar con Financials](ui-work-product.md)  
+[Trabajar con Dynamics 365](ui-work-product.md)  
 

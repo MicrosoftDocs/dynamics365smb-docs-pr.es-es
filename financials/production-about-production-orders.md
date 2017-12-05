@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 09/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 339515e73f65c0f0f37405d52c670f0597811934
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: 1ca27811bef8e04fa96ccd920ca9b7327ad4d849
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="about-production-orders"></a>Sobre los pedidos de producción
 Las órdenes de producción se usan para gestionar la conversión de los materiales adquiridos en productos manufacturados. Las órdenes de producción dirigen el trabajo por los distintos centros de trabajo o de máquina de la planta.  
 
-Antes de empezar con producción, la mayoría de las empresas realizan una planificación de suministros, normalmente una vez por semana, para calcular cuántos pedidos de producción y de compra ejecutar para cubrir la demanda de ventas esa semana. Los pedidos de compra suministran los componentes que se requieren según la L.M de producción para fabricar los productos finales. 
+Antes de empezar con producción, la mayoría de las empresas realizan una planificación de suministros, normalmente una vez por semana, para calcular cuántos pedidos de producción y de compra ejecutar para cubrir la demanda de ventas esa semana. Los pedidos de compra suministran los componentes que se requieren según la L.M de producción para fabricar los productos finales.
 
 Las órdenes de producción son los componentes esenciales de la funcionalidad de fabricación del sistema. Contienen la información siguiente:  
 
@@ -46,7 +46,6 @@ Las órdenes de producción se crean utilizando información sobre:
 
 - Productos  
 - LM producción
-- L.M. de ensamblado
 - Rutas  
 - Centros de máquina  
 - Centros de trabajo  

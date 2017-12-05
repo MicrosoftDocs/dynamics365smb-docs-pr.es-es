@@ -1,6 +1,6 @@
 ---
 title: Administrar clientes con Dynamics 365 for Sales | Documentos de Microsoft
-description: "Puede usar Dynamics 365 for Sales desde Dynamics 365 for Financials para asignar datos y tener una integración y sincronización fluidas en el proceso de clientes potenciales a efectivo."
+description: "Puede usar Dynamics 365 for Sales desde Dynamics 365 Business edition para asignar datos y tener una integración y sincronización fluidas en el proceso de clientes potenciales a efectivo."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,27 +12,27 @@ ms.search.keywords: integration, synchronize, map
 ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: bc0b9c8141c6c2eac78abc9cd3f5c89af3c89fbb
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: fde1a04c4e6f56fb425f6aef85d21b029a76fe0c
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="managing-your-customer-relationships-using-dynamics-365-for-sales-from-inside-dynamics-365-for-financials"></a>Administrar las relaciones con el cliente mediante Dynamics 365 for Sales desde Dynamics 365 for Financials
+# <a name="managing-customers-and-sales-created-in-dynamics-365-for-sales"></a>Gestión de clientes y ventas creados en Dynamics 365 for Sales
 Si utiliza Dynamics 365 for Sales para la interacción con el cliente, puede usar [!INCLUDE[d365fin](includes/d365fin_md.md)] para su procesamiento de pedidos y finanzas, y tener una integración fluida en el proceso de clientes potenciales a efectivo.
 
 Al configurar su aplicación para integrarse con Dynamics 365 for Sales, tendrá acceso a los datos de ventas desde [!INCLUDE[d365fin](includes/d365fin_md.md)] y a la inversa en algunos casos. Esta integración permite trabajar con los tipos de datos y sincronizar los que son comunes a ambos servicios, como clientes, contactos e información de ventas, y mantener los datos actualizados en ambas ubicaciones.  
 
-Por ejemplo, el vendedor en Dynamics 365 for Sales puede utilizar las listas de precios de [!INCLUDE[d365fin](includes/d365fin_md.md)] cuando se crea un pedido de venta. Cuando agrega el producto a la línea del pedido de venta en Dynamics 365 for Sales, también puede ver el nivel de inventario (disponibilidad) del producto desde [!INCLUDE[d365fin](includes/d365fin_md.md)]. Estos datos se publican como parte de la guía de configuración asistida, **Configuración de conexión de Dynamics 365**.  
+Por ejemplo, el vendedor en Dynamics 365 for Sales puede utilizar las listas de precios de [!INCLUDE[d365fin](includes/d365fin_md.md)] cuando se crea un pedido de venta. Cuando agrega el producto a la línea del pedido de venta en Dynamics 365 for Sales, también puede ver el nivel de inventario (disponibilidad) del producto desde [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 > [!NOTE]  
 >   Esta funcionalidad requiere que la experiencia esté definida en **Suite**. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).  
 
 ## <a name="setting-up-the-connection"></a>Configuración de la conexión
-Desde Inicio, podrá acceder a la guía de configuración asistida **Configuración de conexión de Dynamics 365** que le ayuda a configurar la conexión. Una vez terminada, tendrá un acoplamiento perfecto de los registros de Dynamics 365 for Sales con los registros de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Desde Inicio, podrá acceder a la guía de configuración asistida **Configuración de conexión de Dynamics 365 for Sales** que le ayuda a configurar la conexión. Una vez terminada, tendrá un acoplamiento perfecto de los registros de Dynamics 365 for Sales con los registros de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 > [!NOTE]  
->   A continuación se explica la configuración asistida, pero puede efectuar las mismas tareas manualmente en la ventana **Configuración de conexión Dynamics 365**.
+>   A continuación se explica la configuración asistida, pero puede efectuar las mismas tareas manualmente en la ventana **Configuración de conexión Dynamics 365 for Sales**.
 
 En la guía de configuración asistida, puede elegir los datos que se sincronizarán entre los dos servicios. También puede especificar que desea importar la solución existente de Dynamics 365 for Sales. En ese caso, debe especificar una cuenta de usuario administrador.
 
@@ -77,7 +77,7 @@ Al final de la guía de configuración asistida, puede elegir la acción **Ejecu
 
 Para comprobar el progreso de los proyectos individuales de una sincronización completa, desglose el campo **Estado mov. cola proyecto**, **Estado de proyecto de tabla de integ. de destino** o **Estado de proyecto de tabla de integ. de origen** en la ventana **Revisión de sinc. completa de CRM**.
 
-En la ventana **Configuración de conexión Dynamics 365**, puede obtener los detalles acerca de la sincronización completa en cualquier momento. Desde aquí también puede abrir la ventana **Lista de asignaciones de tablas de integración** para ver información detallada acerca de las tablas de Financials y en la solución Dynamics 365 for Sales que se deben sincronizar.
+En la ventana **Configuración de conexión Dynamics 365**, puede obtener los detalles acerca de la sincronización completa en cualquier momento. Desde aquí también puede abrir la ventana **Lista de asignaciones de tablas de integración** para ver información detallada acerca de las tablas de Dynamics 365 Business edition y en la solución Dynamics 365 for Sales que se deben sincronizar.
 
 ## <a name="see-also"></a>Consulte también
 [Gestión de relaciones](marketing-relationship-management.md)  

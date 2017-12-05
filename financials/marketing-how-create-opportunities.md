@@ -1,6 +1,6 @@
 ---
 title: Crear oportunidades de ventas | Documentos de Microsoft
-description: "Describe cómo crear oportunidades a partir de un vendedor o un contacto en Financials."
+description: "Describe cómo crear oportunidades a partir de un vendedor o un contacto en Dynamics 365 Business edition."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 3137ed6aeaa235e2f2b4db7fdfb7dd7b8570c886
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 2d280e80be237abb5f2b16b2130f446894497171
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-create-sales-opportunities"></a>Procedimiento: Crear oportunidades de ventas
@@ -45,5 +45,5 @@ Antes de crear oportunidad, debe configurar los ciclos ventas oportunidad. Para 
 ## <a name="see-also"></a>Consulte también
 [Ventas](sales-manage-sales.md)  
 [Creación y administración de contactos](marketing-contacts.md)  
-[Trabajar con Financials](ui-work-product.md)
+[Trabajar con Dynamics 365](ui-work-product.md)
 

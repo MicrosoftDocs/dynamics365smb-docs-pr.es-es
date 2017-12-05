@@ -1,6 +1,6 @@
 ---
 title: "Migrar datos de Dynamics GP con la extensión de la migración de datos | Documentos de Microsoft"
-description: "Utilice la extensión de migración de datos de Dynamics GP para migrar clientes, proveedores, productos de inventario y cuentas desde Dynamics GP a Dynamics 365 for Financials."
+description: "Utilice la extensión de migración de datos de Dynamics GP para migrar clientes, proveedores, productos de inventario y cuentas desde Dynamics GP a Dynamics 365 Business edition."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,13 +12,13 @@ ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 03/29/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 31b698aea884da162cc18f16a912ebd57e35aed9
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: b97c074b1283a981522b7a9651fcc7c552f1f930
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="the-dynamics-gp-data-migration-extension-for-dynamics-365-for-financials"></a>Extensión de la migración de datos de Dynamics GP para Dynamics 365 for Financials
+# <a name="the-dynamics-gp-data-migration-extension-for-dynamics-365-business-edition"></a>Extensión de la migración de datos de Dynamics GP para Dynamics 365 Business edition 
 Esta extensión facilita la migración de clientes, proveedores, productos de inventario y cuentas de Dynamics GP a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Si la empresa usa Dynamics GP actualmente, puede exportar los registros maestros correspondientes y después abrir una guía de instalación asistida para agregar los datos a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, vea [Migrar datos empresariales desde otros sistemas financieros](upload-data.md).
 
 ## <a name="exporting-data-from-dynamics-gp"></a>Exportar datos desde Dynamics GP

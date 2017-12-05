@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 09/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: cacedb1252133c5370e13fda36e984a784217e51
+ms.sourcegitcommit: bd69a3da7a0a5e766a232e8999056ac60109e7b1
+ms.openlocfilehash: cdfb96475c46d56f32e5f0133efc7852a10ae446
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/02/2017
 
 ---
 # <a name="design-details-item-tracking-availability"></a>Detalles de diseño: Disponibilidad de seguimiento de productos
@@ -24,7 +24,7 @@ Las ventanas **Líneas seguimiento producto** y **Resumen seguimiento producto**
 
  Al abrir la ventana **Líneas seguimiento producto**, se recuperan los datos de disponibilidad de las tablas **Mov. producto** y **Mov. reserva**, sin filtro de reserva. Cuando elige el campo **Nº serie** o **Nº lote**, se abre la ventana **Resumen seguimiento prod.** y muestra un resumen de la información de seguimiento de producto en la tabla **Mov. reserva**. El resumen contiene la siguiente información sobre cada número de serie o de lote en la línea de seguimiento de producto:  
 
-|Campo|Description|  
+|Campo|Descripción|  
 |---------------------------------|---------------------------------------|  
 |**Cantidad total**|La cantidad total del número de serie o lote actualmente en inventario.|  
 |**Cdad. solicitada total**|La cantidad total del número de serie o lote solicitada actualmente en todos los documentos.|  
@@ -34,7 +34,7 @@ Las ventanas **Líneas seguimiento producto** y **Resumen seguimiento producto**
 > [!NOTE]  
 >  También puede ver la información de la tabla anterior con la función **Seleccionar movs.** en la ventana **Líneas seguimiento producto**.  
 
- Para mantener el rendimiento de la base de datos, los datos de disponibilidad se recuperan solo una vez de la base de datos cuando se abre la ventana **Líneas seguimiento producto** y se usa la función **Actualizar disponibilidad** en la ventana.  
+ Para mantener el rendimiento de la base de datos, los datos de disponibilidad se recuperan solo una vez de la base de datos cuando se abre la ventana **Líneas seguimiento producto** y usa la función **Actualizar disponibilidad** en la ventana.  
 
 ## <a name="calculation-formula"></a>Tipo cálculo  
  Tal como se describe en la tabla anterior, la disponibilidad de un número de serie o de lote determinado se calcula como sigue.  

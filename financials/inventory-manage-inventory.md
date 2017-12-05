@@ -12,10 +12,10 @@ ms.search.keywords: warehouse, stock
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 71ca29fdb6e87bf754e68a4e27d91f8a1a710cc4
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: c3cfae3d52cbb25882c5986ad4aedaef7939a8b6
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 
@@ -26,7 +26,8 @@ Los aumentos y las disminuciones de inventario también se registran cuando regi
 
 Para aumentar la información general de los productos y ayudarle a encontrarlos, puede clasificar los productos y darles atributos para que los pueda ordenar y buscar.
 
-> []!NOTA] El control físico de los productos se denomina actividades de almacén. Para obtener más información, consulte [Gestión de almacén](warehouse-manage-warehouse.md).
+> [!NOTE]
+> El control físico de los productos se denomina actividades de almacén. Para obtener más información, consulte [Gestión de almacén](warehouse-manage-warehouse.md).
 
 ## <a name="inventory-reconciliation"></a>Conciliación de inventario
 Cuando registra transacciones del inventario, como los envíos de ventas, los albaranes de compra o los ajustes de inventario, los costes de producto cambiados se registran en movimientos de valor de productos. Para reflejar este cambio de valor de inventario en sus libros de finanzas, los costes de inventario se registran automáticamente en las cuentas de inventario relacionadas del libro mayor. Para cada una de las transacciones de inventario que registre, los valores apropiados se contabilizan en la cuenta de inventario, en la cuenta de ajuste y en la cuenta de CV en el módulo de contabilidad. Para obtener más información, consulte [Procedimiento: Conciliar costes de inventario en el libro mayor](finance-how-to-post-inventory-costs-to-the-general-ledger.md).

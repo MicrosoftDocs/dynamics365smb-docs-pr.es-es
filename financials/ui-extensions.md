@@ -1,6 +1,6 @@
 ---
-title: Instalar extensiones para personalizar Dynamics 365 for Financials | Documentos de Microsoft
-description: "Obtenga información sobre cómo agregar funcionalidad y personalizar Dynamics 365 for Financials mediante la instalación de extensiones."
+title: Instalar extensiones para personalizar Dynamics 365 Business edition | Documentos de Microsoft
+description: "Obtenga información sobre cómo agregar funcionalidad y personalizar Dynamics 365 Business edition mediante la instalación de extensiones."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,13 +12,13 @@ ms.search.keywords: app, add-in, manifest, customize
 ms.date: 07/07/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 2aefbfade71ed78c89c59597f76c6e6707110d16
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 2f6bbbc213bce74b31bb4e8c64198559db2d105d
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="customizing-dynamics-365-for-financials-using-extensions"></a>Personalizar Dynamics 365 for Financials con extensiones
+# <a name="customizing-dynamics-365-business-edition-using-extensions"></a>Personalizar Dynamics 365, Business edition mediante extensiones
 Puede cambiar [!INCLUDE[d365fin](includes/d365fin_md.md)] instalando extensiones que agregan funciones, cambian el comportamiento o proporcionan acceso a nuevos servicios en línea, por ejemplo.
 Cuando inicia [!INCLUDE[d365fin](includes/d365fin_md.md)] por primera vez, ya están instaladas algunas extensiones. Con el tiempo, tendrá disponibles más extensiones y puede elegir si desea usar la extensión o no.
 
@@ -59,8 +59,10 @@ Microsoft proporciona las extensiones siguientes:
 * [Estándar de pagos de WorldPay](ui-extensions-worldpay-payments-standard.md)
 * [Códigos postales de Reino Unido de GetAddress.io](ui-extensions-getaddressio.md)
 * [Migración de datos de QuickBooks Online](ui-extensions-quickbooks-online-data-migration.md)
-* [Portal para contables](ui-extensions-accountant-portal.md)  
+* [Portal para contadores](ui-extensions-accountant-portal.md)  
 * [Analizador de imágenes](ui-extensions-image-analyzer.md)
+* [Pagos y conciliaciones de pagos (DK)](ui-extensions-payments-reconciliation-formats-dk.md)
+* [Migración de datos C5](ui-extensions-c5-data-migration.md)
 
 > [!NOTE]  
 >  Las nuevas extensiones no están disponibles en AppSource inmediatamente después anunciar una actualización. Puede estar atento a las extensiones en [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).

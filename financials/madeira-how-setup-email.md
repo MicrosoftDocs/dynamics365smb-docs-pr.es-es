@@ -1,6 +1,6 @@
 ---
-title: "Configurar el correo electrónico | Documentos de Microsoft"
-description: "Describe cómo usar el servidor SMTP de la empresa para enviar y recibir mensajes de correo electrónico en Financials, así como el modo de usar la configuración del servidor de correo electrónico creada con la suscripción de Office 365."
+title: "Configurar correo electrónico en Dynamics 365 Business edition | Documentos de Microsoft"
+description: "Describe cómo usar el servidor SMTP de la empresa para enviar y recibir mensajes de correo electrónico en Dynamics 365, así como el modo de usar la configuración del servidor de correo electrónico creada con la suscripción de Office 365."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,10 +12,10 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: aedd27545da932155d453bf6aa476a4e9f898fc6
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 59d97a3bd838c80e66d62ed16c2bcb1c525938c4
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-set-up-email-manually-or-using-the-assisted-setup"></a>Configurar el correo electrónico manualmente o con la configuración asistida

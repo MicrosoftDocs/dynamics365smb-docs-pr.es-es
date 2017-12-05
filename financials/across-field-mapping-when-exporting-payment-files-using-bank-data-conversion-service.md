@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 69ca175c1b73e18dfbad1d0682d877021b5d94d7
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 21f51e08fa5153bca28d1470b724038acfcd85cf
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-bank-data-conversion-service"></a>Asignación de campos al exportar archivos de pago con el servicio de conversión de datos bancarios
@@ -25,7 +25,7 @@ Cuando se exportan archivos de pago con la función de servicio de conversión d
 
 La tabla siguiente indica los campos de [!INCLUDE[d365fin](includes/d365fin_md.md)] desde los que se pueden exportar datos al proveedor de servicios.  
 
-|Campo asignado|Campo en tabla|Escritorio|Description]-->|  
+|Campo asignado|Campo en tabla|Escritorio|Descripción|  
 |------------------|--------------------|-----------|---------------------------------------|  
 |N.º acreedor|N.º acreedor|Cuenta bancaria|El identificador asignado a su empresa por el banco para cobrar a los pagos|  
 |N.º de cuenta bancaria del remitente|N.º cuenta bancaria/IBAN|Cuenta bancaria|El número de la cuenta bancaria de su empresa (IBAN u otro) que se especifica en la ficha de la cuenta bancaria|  
@@ -69,7 +69,7 @@ La tabla siguiente indica los campos de [!INCLUDE[d365fin](includes/d365fin_md.m
 
 ## <a name="see-also"></a>Consulte también  
 [Configuración del intercambio de datos](across-set-up-data-exchange.md)  
-[Intercambio de datos como documentos electrónicos](across-data-exchange.md)
+[Intercambio de datos electrónicamente](across-data-exchange.md)
 [Procedimiento: Configuración del servicio de conversión de datos bancarios](bank-how-setup-bank-data-conversion-service.md)   
 [Realizar pagos con Servicio de conversión de datos del banco o Transferencia de crédito SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   
 

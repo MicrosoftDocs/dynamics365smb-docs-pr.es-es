@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 74822d77b45f0ba1aaf8b255f611a54d051c1f52
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: b7617a0ac027b6d50c9029f386af3fe293e3bc7d
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-sell-items-assembled-to-order"></a>Procedimiento: Venta de artículos ensamblados para pedido
@@ -50,7 +50,7 @@ En este procedimiento, procesa la venta de un producto que se ensamblará según
     También puede personalizar el pedido incrementando la cantidad de un producto estándar del kit. Puede hacerlo incrementando el valor del campo **Cantidad por** en la línea específica de pedido de ensamblado.  
 
     > [!NOTE]  
-    >  La ventana de **Ensamblar para líneas de pedido** contiene solo los campos básicos que se espera que un vendedor utilice para personalizar la lista de componentes, añadir los números de seguimiento de producto o resolver problemas de disponibilidad de componentes. Para ver más información del pedido de ensamblado, como la fecha inicial del pedido de ensamblado, en la pestaña **Inicio**, en el grupo **Proceso**, seleccione **Mostrar los documentos**. De esta manera, se abrirá una vista completa del pedido de ensamblado vinculado a la línea de pedido de venta. No puede modificar el contenido de la mayoría de los campos de la cabecera del pedido de ensamblado y no puede registrar la salida de ensamblado de él porque debe utilizar el registro de envío de la línea de pedido de venta.  
+    >  La ventana de **Ensamblar para líneas de pedido** contiene solo los campos básicos que se espera que un vendedor utilice para personalizar la lista de componentes, añadir los números de seguimiento de producto o resolver problemas de disponibilidad de componentes. Para ver más información del pedido de ensamblado, como la fecha inicial del pedido de ensamblado, elija la acción **Mostrar los documentos**. De esta manera, se abrirá una vista completa del pedido de ensamblado vinculado a la línea de pedido de venta. No puede modificar el contenido de la mayoría de los campos de la cabecera del pedido de ensamblado y no puede registrar la salida de ensamblado de él porque debe utilizar el registro de envío de la línea de pedido de venta.  
     >   
     >  En la cabecera de pedidos de ensamblado vinculados, solo el campo **Fecha inicial** se puede cambiar para permitir a los empleados de ensamblado especificar una fecha que sea anterior a la fecha de vencimiento en la que comenzarán el proceso. Todos los campos de las líneas del pedido de ensamblado vinculado pueden cambiar de forma que los empleados del almacén puedan introducir las cifras de consumo durante el proceso.  
 

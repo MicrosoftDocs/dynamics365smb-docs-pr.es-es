@@ -1,8 +1,6 @@
 ---
-title: "Configurar las campañas de marketing en Financials | Documentos de Microsoft"
-description: "Describe cómo puede configurar y llevar a cabo campañas de marketing en Dynamics 365 for Financials para ayudarle a identificar, atraer y conservar a los clientes."
-services: project-madeira
-documentationcenter: 
+title: "Configurar las campañas de marketing en Dynamics 365 | Documentos de Microsoft"
+description: "Describe cómo puede configurar y llevar a cabo campañas de marketing en Dynamics 365 para ayudarle a identificar, atraer y conservar a los clientes."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords: marketing, campaign, promo, prospect
 ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 996aca0dd46c350b5345d05e7fe320763b3caef4
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 7ca0479ba1872600356ec5b10bf9492fef87a857
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="managing-marketing-campaigns"></a>Administrar campañas de marketing
@@ -52,5 +50,5 @@ Las campañas las realizan vendedores y debe crear actividades para representar 
 [Gestionar contactos](marketing-contacts.md)  
 [Administrar segmentos](marketing-segments.md)  
 [Administrar oportunidades de venta](marketing-manage-sales-opportunities.md)  
-[Trabajar con Financials](ui-work-product.md)  
+[Trabajar con Dynamics 365](ui-work-product.md)  
 

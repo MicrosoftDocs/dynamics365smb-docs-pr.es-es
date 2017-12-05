@@ -1,6 +1,6 @@
 ---
 title: "Uso de la extensión del analizador de imágenes | Documentos de Microsoft"
-description: "Estas extensiones le permiten analizar imágenes de personas de contacto y elementos para encontrar atributos, para que pueda asignarlos rápidamente en Financials."
+description: "Estas extensiones le permiten analizar imágenes de personas de contacto y elementos para encontrar atributos, para que pueda asignarlos rápidamente en Dynamics 365."
 documentationcenter: 
 author: bholtorf
 ms.service: dynamics365-financials
@@ -12,14 +12,14 @@ ms.search.keywords: API, extension, Cognitive Services, image, computer vision, 
 ms.date: 06/19/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: c981c5528c7a622f9d78ed6a77c27e2ceeba44e3
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 4329a54114476885285da1d28cd292a4f9684e99
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 
-# <a name="the-image-analyzer-extension-for-microsoft-dynamics-365-for-financials"></a>Extensión del analizador de imágenes de Microsoft Dynamics 365 for Financials
+# <a name="the-image-analyzer-extension-for-microsoft-dynamics-365-business-edition"></a>Extensión del analizador de imágenes de Microsoft Dynamics 365 Business edition
 La extensión del analizador de imagen utiliza análisis de imagen muy potentes proporcionados por la API de Computer Vision de Microsoft Cognitive Services para detectar los atributos de las imágenes que se importan para los elementos y las personas de contacto, de modo que pueda revisarlos y asignarlos fácilmente. Para los elementos, los atributos podrían ser si el elemento es una tabla o un automóvil, y si es rojo o azul. Para las personas de contacto, los atributos podrían ser el género o edad.
 
 El analizador sugiere atributos basados en etiquetas que encuentra la API de Computer Vision y un nivel de confianza. De forma predeterminada, sugiere atributos solo si está seguro en al menos un 80 % que el atributo es correcto. Si es necesario, puede establecer otro nivel de confianza. Para obtener más información acerca de cómo se determinan las etiquetas y el nivel de confianza, consulte el [API de Computer Vision](https://go.microsoft.com/fwlink/?linkid=851476).  
@@ -48,12 +48,12 @@ La extensión del analizador de imágenes viene incorporada en [!INCLUDE[d365fin
 > Para activar la extensión del analizador de imágenes, debe ser administrador. Asegúrese de que se le ha asignado el conjunto de permisos de usuario **SUPER**.
 
 1. Para activar la extensión del analizador de imágenes, elija una de estas acciones:
-  
+
 * Abrir un elemento o tarjeta de contacto. En la barra de notificación, elija **Analizar imágenes**y, a continuación, siga los pasos de la guía de configuración asistida.  
 * Seleccione el ícono ![Buscar página o informe](media/ui-search/search_small.png "Buscar página o informe"), introduzca **Conexiones servicio** y, a continuación, seleccione **Configuración de análisis de imagen**. Seleccione la casilla **Activar analizador de imágenes**y, a continuación, complete los pasos de la guía de configuración asistida.  
 
 >   [!TIP]  
->   La página **Configuración del análisis de imágenes** también permite cambiar el grado de confianza de las sugerencias de atributos. Por ejemplo, si desea exigir un mayor grado de confianza, puede introducir un porcentaje más alto. 
+>   La página **Configuración del análisis de imágenes** también permite cambiar el grado de confianza de las sugerencias de atributos. Por ejemplo, si desea exigir un mayor grado de confianza, puede introducir un porcentaje más alto.
 
 ## <a name="to-analyze-an-image-of-an-item"></a>Analizar una imagen de un producto
 Los siguientes pasos describen cómo analizar una imagen que se importó antes de activar la extensión del analizador.  
@@ -74,16 +74,16 @@ Los siguientes pasos describen cómo analizar una imagen que se importó antes d
 
 ## <a name="to-use-your-own-account-for-the-computer-vision-api"></a>Usar su propia cuenta para la API de Computer Vision
 También puede utilizar su propia cuenta para la API de Computer Vision, por ejemplo, si desea analizar más imágenes de las que permitimos.  
-  
+
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Configuración analizador de imágenes** y, a continuación, seleccione el vínculo relacionado.  
 2. Ingrese el **API de URI** y la **Clave de API** que recibió para la API de Computer Vision.  
-  
+
 >   [!NOTE]  
 >   Si no está escrito, debe agregar **/analyze** al final de la API de URI. Por ejemplo: ```https://cronus.api.cognitive.microsoft.com/vision/v1.0/analyze```.
 
 ## <a name="to-see-how-many-analyses-you-have-left-in-the-current-period"></a>Ver cuántos análisis ha dejado en el período actual
 Puede ver el número de análisis que ha realizado y cuántos pueden hacerse en el período actual.  
-  
+
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Configuración analizador de imágenes** y, a continuación, seleccione el vínculo relacionado.  
 2. El **Tipo límite**, el **Valor límite** y los **Análisis realizados** proporcionan la información de uso.  
 
@@ -94,6 +94,5 @@ Puede ver el número de análisis que ha realizado y cuántos pueden hacerse en 
 ## <a name="see-also"></a>Consulte también
 [Trabajar con atributos de producto](inventory-how-work-item-attributes.md)  
 [Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones](ui-extensions.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
-
+[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 
