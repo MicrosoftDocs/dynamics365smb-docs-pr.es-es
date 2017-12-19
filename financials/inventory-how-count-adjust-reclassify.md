@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
-ms.date: 08/16/2017
+ms.date: 11/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 031affc5d872fd989515a2561155353446dfde60
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: e9d08040932be4fec5ddefb5db69e453c375d3c6
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-count-adjust-and-reclassify-inventory"></a>Recuento, ajuste y reclasificación de inventario
@@ -26,7 +26,7 @@ Aunque cuente todos los productos del inventario una vez al año, puede que haya
 
 Si es necesario ajustar las cantidades de inventario registradas, por motivos de recuento u otros, puede usar un diario de productos para cambiar las entradas de contabilidad del inventario sin registrar las transacciones de negocio. Como alternativa, puede ajustar un solo artículo en la tarjeta de artículo.
 
-Si necesita cambiar los atributos de las entradas de contabilidad de los productos, así como las cantidades, puede usar el diario de reclasificación de productos. Los atributos susceptibles de reclasificación más habituales son los números de lote/serie, las fechas de caducidad y las dimensiones.
+Si necesita cambiar los atributos de las entradas de contabilidad de los productos, puede usar el diario de reclasificación de productos. Los atributos típicos para reclasificar incluyen dimensiones y códigos de campaña, aunque también realiza el "transferencias del sistema" mediante la reclasificación de códigos de ubicación y de almacén. Se aplican pasos especiales cuando desea reclasificar números de serie o de lote, y sus fechas de caducidad. Para obtener más información, consulte [Trabajar con números de serie y de lote](inventory-how-work-item-tracking.md).
 
 > [!NOTE]
 > En configuraciones avanzadas de almacén, los elementos se registran en las ubicaciones como movimientos de almacén, no como movimientos de productos. Por lo tanto, realice el recuento, el ajuste y la reclasificación en diarios especiales de almacén que soportan ubicaciones. A continuación, utilice funciones especiales para sincronizar las entradas de almacén nuevas o modificadas con sus movimientos de productos relacionados para reflejar los cambios en las cantidades y valores de inventario. Esto se describe en los procedimientos específicos que se muestran a continuación cuando es relevante.
@@ -209,18 +209,24 @@ En los intervalos adecuados definidos por la política de la empresa, debe regis
 6.  Registre las líneas del diario para especificar las diferencias de cantidades en el diario de productos. Las existencias en las ubicaciones de almacén se corresponden ahora exactamente con las existencias en el diario de productos.  
 
 ## <a name="to-reclassify-an-items-lot-number"></a>Reclasificar el número de lote de un producto
+Si necesita cambiar los atributos de las entradas de contabilidad de los productos, puede usar el diario de reclasificación de productos. Los atributos típicos para reclasificar incluyen dimensiones y códigos de campaña, aunque también realiza el "transferencias del sistema" mediante la reclasificación de códigos de ubicación y de almacén.
+
+Se aplican pasos especiales cuando desea reclasificar números de serie o de lote, y sus fechas de caducidad. Para obtener más información, consulte [Trabajar con números de serie y de lote](inventory-how-work-item-tracking.md).
+
+El siguiente ejemplo se basa en un código de almacén. Los pasos son parecidos para otros tipos de atributos de producto.
+
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diarios reclas. producto** y, a continuación, seleccione el vínculo relacionado.
 2. En la ventana **Diarios reclasif. producto**, rellene los campos según sea necesario.
-3. En el campo **Nº lote**, introduzca el número de lote actual de los productos.
-4. En el campo **Nuevo nº lote**, introduzca el nuevo número de lote de los productos.
+3. En el campo **Cód. almacén**, especifique el código de ubicación actual del producto.
+4. En el campo **Cód. almacén destino**, especifique el código de ubicación nuevo del producto.
 5. Seleccione la acción **Registrar**.
 
-Se aplican pasos especiales para reclasificar los números de serie o de lote. Para obtener más información, consulte [Procedimiento: Trabajar con números de serie y de lote](inventory-how-work-item-tracking.md).
+Para obtener información sobre la transferencia de productos con el control total de las cantidades enviadas y recibidas, consulte [Transferir el inventario entre almacenes](inventory-how-transfer-between-locations.md).
 
 ## <a name="see-also"></a>Consulte también
 [Inventario](inventory-manage-inventory.md)
 [Gestión almacenes](warehouse-manage-warehouse.md)    
-[Ccial](sales-manage-sales.md)  
+[Ventas](sales-manage-sales.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

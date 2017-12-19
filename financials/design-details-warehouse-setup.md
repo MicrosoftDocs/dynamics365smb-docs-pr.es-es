@@ -1,8 +1,6 @@
 ---
 title: "Detalles de diseño: Configuración del almacén | Documentos de Microsoft"
-description: "La funcionalidad de almacén en [!INCLUDE[d365fin](includes/d365fin_md.md)] contiene distintos niveles de complejidad, tal como se define mediante los permisos de licencia en los módulos ofrecidos. El nivel de complejidad de una solución de almacén se define en gran medida con la configuración de ubicación en las fichas de ubicación, que, a su vez, se controla mediante licencia, por lo que el acceso a los campos de configuración de ubicación está definido por la licencia."
-services: project-madeira
-documentationcenter: 
+description: "La funcionalidad de almacén en Dynamics 365 contiene distintos niveles de complejidad, tal como se define mediante los permisos de licencia en los módulos ofrecidos. El nivel de complejidad de una solución de almacén se define en gran medida con la configuración de ubicación en las fichas de ubicación, que, a su vez, se controla mediante licencia, por lo que el acceso a los campos de configuración de ubicación está definido por la licencia."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 3c6d60ad75a8bf4f758a5e2fbc0ffa10b8929899
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: cf6a2fbbe92b47c4ac58d16abacaaefbe33309b1
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-warehouse-setup"></a>Detalles de diseño: Configuración de almacén
@@ -39,9 +37,9 @@ Para obtener más información sobre cada módulo, consulte [Hojas de precios de
 
 En la tabla siguiente se muestran los módulos que se requieren para definir los distintos niveles de complejidad de almacenamiento, que documentos de IU admite cada nivel y qué códigos de ubicación reflejan estos niveles en la base de datos de demostración de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-|Nivel de complejidad|Description|Documento de IU|Ubicación de CRONUS|Requisito mínimo del módulo|  
+|Nivel de complejidad|Descripción|Documento de IU|Ubicación de CRONUS|Requisito mínimo del módulo|  
 |----------------------|---------------------------------------|-----------------|---------------------------------|---------------------------------|  
-|0|No hay ninguna actividad de almacén dedicada.<br /><br /> Registro de recepción/envío de pedidos.|Pedido|AZUL|Inventario básico|  
+|1|No hay ninguna actividad de almacén dedicada.<br /><br /> Registro de recepción/envío de pedidos.|Pedido|AZUL|Inventario básico|  
 |2|No hay ninguna actividad de almacén dedicada.<br /><br /> Registro de recepción/envío de pedidos.<br /><br /> Se requiere el código de ubicación.|Pedido, con código de ubicación|PLATA|Inventario básico/Ubicación|  
 |3 <br /><br /> **NOTA**: A pesar de que las configuraciones se denominan **Picking requerido** y **Ubicación requerida**, todavía puede registrar recibos y envíos directamente desde los documentos empresariales de origen en las ubicaciones donde se selecciona estas casillas de verificación.|Actividad de almacén básica, pedido por pedido.<br /><br /> Registro de recepción/envío de documentos de ubicación/picking de inventario. <br /><br /> Se requiere el código de ubicación.|Ubicación inventario/Movimiento de inventario/Picking inventario, con código de ubicación|(PLATA + Requerir ubicación o Requerir ubicación)|Inventario básico/Ubicación/Almacén/Selección|  
 |4|Actividad del almacén avanzada, para varios pedidos.<br /><br /> Registro de recepción o envío consolidado según registros de ubicación o selección de almacén.|Recepción de almacén/Ubicación de almacén/Picking de almacén/Envío de almacén/Hoja de trabajo de picking|VERDE|Inventario básico/Recepción en almacén/Almacén/Selección/Envío de almacén|  
@@ -69,7 +67,7 @@ Solo puede haber una ubicación predeterminada por producto y ubicación.
 ## <a name="bin-type"></a>Tipo ubicación  
 En instalaciones WMS puede restringir las actividades de almacén permitidas para una ubicación asignándoles un tipo de ubicación. Existen los siguientes tipos de ubicación:  
 
-|Tipo ubicación|Description|  
+|Tipo ubicación|Descripción|  
 |------------------|---------------------------------------|  
 |RECEPC|Productos registrados como recibidos, pero no ubicados.|  
 |ENV|Los productos de los que se ha realizado el picking de las líneas de los envíos de almacén, pero que no se han registrado como enviados.|  

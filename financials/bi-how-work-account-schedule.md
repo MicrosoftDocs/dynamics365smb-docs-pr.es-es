@@ -13,10 +13,10 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 08/11/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 192efcf377f6f6d665c775b24aa715aadd50922f
+ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
+ms.openlocfilehash: 42c23ca4a15a7242985902b7e95f9d96facdd2c2
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-work-with-account-schedules"></a>Trabajar con esquemas de cuentas
@@ -24,7 +24,7 @@ Use esquemas de cuentas para obtener información sobre los datos financieros al
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] proporciona algunos esquemas de cuentas de ejemplo que puede utilizar inmediatamente o puede configurar sus propias filas y columnas para especificar las cifras que se compararán. Por ejemplo, puede crear esquemas de cuentas para calcular márgenes de beneficios en dimensiones como departamentos o grupos de clientes. Puede crear tantos resultados financieros personalizados como desee.  
 
-Configurar esquemas de cuentas requiere obtener una comprensión de los datos financieros del plan de cuentas. Por ejemplo, puede ver los movimientos de contabilidad como porcentajes de los movimientos de presupuesto. Para ello es necesario que se creen presupuestos. Para obtener más información, consulte [Crear presupuestos](finance-how-create-budgets.md).
+Configurar esquemas de cuentas requiere obtener una comprensión de los datos financieros del plan de cuentas. Por ejemplo, puede ver los movimientos de contabilidad como porcentajes de los movimientos de presupuesto. Para ello es necesario que se creen presupuestos. Para obtener más información, consulte [Crear presupuestos contables](finance-how-create-budgets.md).
 
 > [!NOTE]  
 >   Esta funcionalidad requiere que la experiencia esté definida en **Suite**. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).

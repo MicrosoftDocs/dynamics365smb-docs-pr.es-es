@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/21/2017
+ms.date: 11/17/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: 14849dbb74f608f78e0ad8a317307ec1bf649cf8
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 8ae02f7a55f822751ae66b5b62013455aac87e48
 ms.contentlocale: es-es
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-receive-and-convert-electronic-documents"></a>Procedimiento: recibir y convertir documentos electrónicos
@@ -58,7 +58,7 @@ La versión genérica de [!INCLUDE[d365fin](includes/d365fin_md.md)] admite la r
      Los errores de validación, normalmente relacionados con datos maestros incorrectos o no presentes en [!INCLUDE[d365fin](includes/d365fin_md.md)], se mostrarán en la ficha desplegable **Mensajes de error**.  
 
 ## <a name="see-also"></a>Consulte también  
-[Gestionar pagos](payables-manage-payables.md)  
+[Administrar pagos](payables-manage-payables.md)  
 [Documentos entrantes](across-income-documents.md)  
 [Procedimiento: Configurar el envío y la recepción de documentos electrónicos](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
 [Intercambio de datos electrónicamente](across-data-exchange.md)   

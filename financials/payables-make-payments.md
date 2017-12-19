@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 06/28/2017
+ms.date: 11/17/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
-ms.openlocfilehash: c8766d42b579397e63676c1d46fb8a03cbe24aae
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 6cd7b9922f047d05a2cc37a9157de47221f67a7f
 ms.contentlocale: es-es
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="making-payments"></a>Creación de pagos
@@ -38,7 +38,8 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 | Emita cheques para realizar pagos a proveedor, ya sean en papel o automáticos. Anule los cheques antes o después del registro. |[Procedimiento: Trabajar con cheques](payables-how-work-checks.md) |
 | Pague al proveedor en efectivo o cheque y registre el pago cuando registre la factura. |[Liquidación de facturas de compra inmediatamente](finance-how-to-settle-purchase-invoices-promptly.md) |
 | Asegúrese de que su banco solo compensa cheques e importes validados enviándoles un archivo que contenga la información de proveedor, cheque y pago. |[Exportar un archivo de Positive Pay](finance-how-positive-pay.md) |
-|Exporte los pagos desde la ventana **Diario de pagos** a un archivo de banco que envíe a su banco para su procesamiento, incluido EFT (transferencia electrónica de fondos) en Norteamérica. |[Exportación de pagos a un archivo de banco](payables-how-export-payments-bank-file.md)|  
+|Exporte los pagos desde la ventana **Diario de pagos** a un archivo de banco que envíe a su banco para su procesamiento, incluido EFT (transferencia electrónica de fondos) en Norteamérica. |[Exportación de pagos a un archivo de banco](payables-how-export-payments-bank-file.md)|
+|Realizar pagos electrónicos en función del estándar de transferencia de crédito SEPA de la UE.|[Realizar pagos con Servicio de conversión de datos del banco o Transferencia de crédito SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)|    
 
 ## <a name="see-also"></a>Consulte también
 [Administrar pagos](payables-manage-payables.md)  

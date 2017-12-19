@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 08/17/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ad7ecfa7725aa6696620dc77ab9a6d7a09863b3c
+ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
+ms.openlocfilehash: bb8b1ecf0f5e8f91598bf96c85ec70f0d385267e
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="smart-notifications"></a>Notificaciones inteligentes
@@ -25,11 +25,11 @@ Si elige ver los detalles de una notificación, puede intentar resolver el probl
 
 Las notificaciones pueden ayudar a los usuarios no experimentados a completar tareas que les resultan difíciles y a los más experimentados, a no reducir la productividad.  
 
-## <a name="turn-on-or-turn-off-notifications-and-control-when-they-are-sent"></a>Active o desactive las notificaciones y controle cuándo se envían
+## <a name="to-turn-notifications-on-or-off-and-control-when-they-are-sent"></a>Para activar o desactivar notificaciones y controlar cuándo se envían
 Al empezar por primera vez con [!INCLUDE[d365fin](includes/d365fin_md.md)] todas las notificaciones están activadas, pero las puede activar o desactivar, por ejemplo, si no le interesa un determinado evento o estado.  
-  
+
 Además, algunas notificaciones le permiten especificar las condiciones en las que se envían. Por ejemplo, si desea recibir una notificación cuando quede poco inventario, pero solo de los productos que compra a un determinado proveedor.  
-  
+
 La activación o la desactivación de las notificaciones, y la especificación de las condiciones, solo se aplican a su caso.  
 
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), especifique **Mis notificaciones** y elija el vínculo relacionado.

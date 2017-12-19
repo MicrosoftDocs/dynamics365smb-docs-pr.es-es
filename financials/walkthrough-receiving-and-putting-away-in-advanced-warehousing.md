@@ -1,8 +1,6 @@
 ---
 title: "Tutorial: recepción y ubicación en la configuración avanzada de almacén | Documentos de Microsoft"
-description: "En [!INCLUDE[d365fin](includes/d365fin_md.md)], los procesos de entrada para la recepción y la ubicación se pueden realizar de cuatro maneras utilizando distintas funciones según el nivel de complejidad del almacén."
-services: project-madeira
-documentationcenter: 
+description: "En Dynamics 365, los procesos de entrada para la recepción y la ubicación se pueden realizar de cuatro maneras utilizando distintas funciones según el nivel de complejidad del almacén."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 1c78223608d7cf2c977adfca87e45f35aeee856a
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 1d5cdff996da2d9886dce0d59d4f38796534972a
 ms.contentlocale: es-es
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Tutorial: recepción y ubicación en la configuración del almacenamiento avanzado

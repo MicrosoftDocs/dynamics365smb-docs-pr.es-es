@@ -12,10 +12,10 @@ ms.search.keywords: rfq
 ms.date: 08/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: fe51ade7a46ab7a8fdf77419a0098ac47fe2e5d1
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: df1793d811dea11c01ff5e7d90a9f52b9e987c13
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-request-quotes"></a>Procedimiento: Peticiones de oferta
@@ -27,11 +27,11 @@ Las ofertas de compra pueden utilizarse como borradores de pedidos de compra, qu
 2. Crear un documento nuevo, de la misma forma que hace un pedido de compra. Para obtener más información, consulte [Procedimiento: Registrar compras](purchasing-how-record-purchases.md).
 
 ## <a name="to-convert-a-purchase-quote-to-a-purchase-order"></a>Para convertir una oferta de compra en un pedido de compra
-Cuando haya aceptado la oferta de proveedores, puede convertirla en una factura o una orden de compra para procesar la compra.
+Cuando haya aceptado la oferta del proveedor, puede convertirla en una factura o una orden de compra para procesar la compra.
 
 1. Abra una oferta de compra que esté lista para convertir, y haga clic en **Convertir en pedido**.
 
-La oferta de compra se quita de la base de datos. Se crea una factura de compra o un pedido de venta a partir de la información en la oferta de compra en la que puede procesar la venta. En el campo **Nº oferta** de la factura de compra se muestra o pedido de compra, el número de la oferta de compra a partir de la que se creó.
+La oferta de compra se quita de la base de datos. Se crea una factura o un pedido de compra a partir de la información en la oferta de compra en la que puede procesar la venta. En el campo **Nº oferta** de la factura de compra se muestra o pedido de compra, el número de la oferta de compra a partir de la que se creó.
 
 ## <a name="see-also"></a>Consulte también
 [Compras](purchasing-manage-purchasing.md)  

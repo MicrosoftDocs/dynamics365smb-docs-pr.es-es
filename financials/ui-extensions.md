@@ -12,10 +12,10 @@ ms.search.keywords: app, add-in, manifest, customize
 ms.date: 07/07/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 2f6bbbc213bce74b31bb4e8c64198559db2d105d
+ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
+ms.openlocfilehash: fb13cfe2d5e5a397d33f66b9fd4db14e46dcc5e1
 ms.contentlocale: es-es
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="customizing-dynamics-365-business-edition-using-extensions"></a>Personalizar Dynamics 365, Business edition mediante extensiones

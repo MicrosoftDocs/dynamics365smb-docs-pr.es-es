@@ -1,8 +1,6 @@
 ---
 title: "Detalles de diseño: Parámetros de la planificación | Documentos de Microsoft"
-description: "En este tema se describen los distintos parámetros de planificación que puede usar en [!INCLUDE[d365fin](includes/d365fin_md.md)]."
-services: project-madeira
-documentationcenter: 
+description: "En este tema se describen los distintos parámetros de planificación que puede usar en Dynamics 365."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords: planning, design
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6d1b9d86d53076c2373f4f08316192eda29592c5
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 5ab63063b5ad2ae453ecb9953ba4547f31536ee8
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-planning-parameters"></a>Detalles de diseño: Parámetros de la planificación
@@ -64,7 +62,7 @@ Independiente de la directiva de reaprovisionamiento, el sistema de planificaci�
 ### <a name="reordering-policies"></a>Directivas de reaprovisionamiento  
 Las siguientes directivas de reaprovisionamiento afectan a la cuenta que se va a reaprovisionar.  
 
-|Directiva reaprov.|Description|  
+|Directiva reaprov.|Descripción|  
 |-----------------------|---------------------------------------|  
 |**Cdad. fija reaprov.**|Como mínimo, la cantidad del pedido debe se igual a la cantidad del nuevo pedido. Puede aumentarse para satisfacer la demanda o el nivel de inventario deseado. Normalmente, esta directiva de reaprovisionamiento se usa con un punto de pedido.|  
 |**Cdad. máxima**|La cantidad de pedido se calculará para cubrir el inventario máximo. Si se utilizan modificadores de cantidad, puede infringirse el inventario máximo. No es recomendable usar el ciclo junto con la cantidad máxima. Normalmente, el ciclo se anulará. Normalmente, esta directiva de reaprovisionamiento se usa con un punto de pedido.|  
@@ -74,7 +72,7 @@ Las siguientes directivas de reaprovisionamiento afectan a la cuenta que se va a
 ##  <a name="optimize-when-and-how-much-to-reorder"></a>Optimizar cuando se produzca el reaprovisionamiento y según la cantidad de reaprovisionamiento  
 Para obtener un plan de suministro racional, el planificador optimizará los parámetros de planificación para limitar las sugerencias de reprogramación, acumular demanda (cantidad dinámica de nuevo pedido) o evitar acciones de planificación insignificantes. Los siguientes campos de periodo de reaprovisionamiento contribuyen a optimizar el momento y la cantidad de reaprovisionamiento.  
 
-|Campo|Description|  
+|Campo|Descripción|  
 |---------------------------------|---------------------------------------|  
 |**Periodo de reprogramación**|Este campo se usa para determinar si el mensaje de acción debe reprogramar un pedido existente o bien cancelarlo y crear otro nuevo. El pedido existente se reprogramará en un periodo de reprogramación antes del suministro actual y hasta el periodo de reprogramación después del suministro actual.|  
 |**Periodo de acumulación de lotes**|Con la directiva de reaprovisionamiento Lote a lote, este campo se usa para acumular varias necesidades de suministro en un pedido de suministro. Desde la fecha del primer aprovisionamiento planificado, el sistema acumula todas las necesidades de aprovisionamiento del periodo de acumulación de lote siguiente en un aprovisionamiento que se coloca en la fecha del primer aprovisionamiento. Demanda que está fuera del periodo de acumulación del lote no cubierta por este aprovisionamiento.|  

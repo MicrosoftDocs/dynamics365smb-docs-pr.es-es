@@ -13,10 +13,10 @@ ms.search.keywords: task, to-do, relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: fd949573e7bfd1b6ce1fc849625a1a3474013f96
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: f0a4000a3f12a23b1d732ab9671e7cb5938eb887
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-set-up-job-responsibilities-for-contact-persons"></a>Configurar responsabilidades cargo para las personas de contacto
@@ -24,13 +24,13 @@ Puede agregar información sobre las responsabilidades cargo de las personas de 
 
 El uso de las responsabilidades cargo en contactos es un proceso que consta de dos pasos. Primero, debe definir el código de la responsabilidad cargo. Solo debe realzar este paso una vez para cada una. Una vez tenga un código de responsabilidad cargo, puede empezar a asignarlo a sus personas de contacto.
 
-## <a name="to-define-a-job-responsibility-code"></a>para definir un código de responsabilidad de cargo
+## <a name="to-define-a-job-responsibility-code"></a>Para definir un código de responsabilidad de cargo
 El código de responsabilidad cargo define el tipo o la categoría del trabajo, por ejemplo MARKETING o COMPRA. Puede tener varios códigos de responsabilidad. Para definir la responsabilidad cargo, use la ventana **Responsabilidades cargo**.
 
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Responsabilidades cargo** y, a continuación, seleccione el vínculo relacionado.
 2. Seleccione la acción **Nuevo** e introduzca un código y una descripción. El código admite un máximo de 11 caracteres y puede ser cualquier combinación de números y letras.
 
-## <a name="to-assign-job-responsibilities-to-a-contact-person"></a>para asignar responsabilidades de cargo a una persona de contacto
+## <a name="to-assign-job-responsibilities-to-a-contact-person"></a>Para asignar responsabilidades de cargo a una persona de contacto
 No puede asignar responsabilidades cargo a contactos que sean empresas.
 
 1. Abra la persona de contacto.

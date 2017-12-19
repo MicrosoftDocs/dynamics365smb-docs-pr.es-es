@@ -1,8 +1,6 @@
 ---
 title: "Detalles de diseño: Búsqueda de combinaciones de dimensiones | Documentos de Microsoft"
-description: "Cuando se cierra una ventana después de editar un grupo de dimensiones, [!INCLUDE[d365fin](includes/d365fin_md.md)] evalúa si existe el grupo de dimensiones editado. Si no existe el grupo, se crea uno nuevo y se devuelve el identificador de la combinación de dimensiones."
-services: project-madeira
-documentationcenter: 
+description: "Cuando se cierra una ventana después de editar un grupo de dimensiones, Dynamics 365 evalúa si existe el grupo de dimensiones editado. Si no existe el grupo, se crea uno nuevo y se devuelve el identificador de la combinación de dimensiones."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9e36a8a1a5eeede5023da32bcb40a06042173fb4
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: 64e5191fd2947a8e19595d8c9f1ece4eeff77ec0
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-searching-for-dimension-combinations"></a>Detalles de diseño: Búsqueda de combinaciones de dimensiones
@@ -75,7 +73,7 @@ EXIT(DimSet.ID);
 ```  
 
 ## <a name="see-also"></a>Consulte también  
- [Función GET (Registro)](https://msdn.microsoft.com/en-us/library/dd301056.aspx)    
+ [Función GET (Registro)](/dynamics-nav/GET-Function--Record-)    
  [Detalles de diseño: Movimientos de grupo de dimensiones](design-details-dimension-set-entries.md)   
  [Información general de los movimientos del grupo dimensiones](design-details-dimension-set-entries-overview.md)   
  [Detalles de diseño: Estructura de tablas](design-details-table-structure.md)   

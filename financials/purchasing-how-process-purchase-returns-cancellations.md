@@ -13,16 +13,16 @@ ms.search.keywords: cancel, undo, correct
 ms.date: 08/03/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: fa964bd7ef61454892a574c04db890b32ab338c1
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 114448607d8b99252573912d2df08f91e1d27c76
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-process-purchase-returns-or-cancellations"></a>Procesamiento de devoluciones de compra o cancelaciones
 Si desea devolver productos al proveedor o cancelar servicios comprados, puede crear y registrar un abono de compra que especifique el cambio solicitado en relación a la factura de compra original. Para incluir la información correcta de la factura de compras, puede crear el abono de compra directamente de la factura de compra contabilizada o puede crear un nuevo abono de compra con información de factura copiada.
 
-Si necesita más control del proceso de devolución de compras, como documentos de almacén para el manejo de artículos o una mejor descripción al recibir elementos de varios documentos de compras con una sola devolución, puede crear órdenes de devolución de compras. Un pedido de devolución de compra emite automáticamente un abono de compra relacionado. Para obtener más información, consulte la sección "Crear un pedido de devolución de compra basado en uno o más documentos de compra registrados".
+Si necesita más control del proceso de devolución de compras, como documentos de almacén para el manejo de artículos o una mejor descripción al devolver productos de varios documentos de compras con una sola devolución de compra, puede crear órdenes de devolución de compras. Un pedido de devolución de compra emite automáticamente un abono de compra relacionado. Para obtener más información, consulte la sección "Crear un pedido de devolución de compra basado en uno o más documentos de compra registrados".
 
 > [!NOTE]  
 >   Si una factura de compra registrada aún no se ha pagado, puede utilizar las funciones **Corregir** o **Cancelar** en la factura de compra registrada para revertir automáticamente las transacciones correspondientes. Estas funciones solo funcionan para las facturas sin pagar y no admiten devoluciones o cancelaciones parciales. Para obtener más información, vea [Procedimiento: Corregir o cancelar las facturas de compra sin abonar](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)
@@ -40,7 +40,7 @@ Para conservar la valoración correcta del inventario, normalmente desea tomar l
 
 Existen dos funciones para asignar la reversión de coste exacta automáticamente.  
 
-|Función|Description|  
+|Función|Descripción|  
 |------------------|---------------------------------------|  
 |Función**Revertir líneas documentos registrados** en la ventana **Pedido dev. compra**|Copia una o varias líneas de documentos registrados para revertirlas en el pedido de devolución de compra. Para obtener más información, consulte la sección "Para crear un pedido de devolución de compras y el abono de compra relacionado, para uno o varias facturas de compras registradas".|  
 |Función**Copiar líneas** en las ventanas **Abono compra** y **Pedido dev. compra**|Copia la cabecera y las líneas de un documento registrado que se revertirá.<br /><br /> Requiere que se active la casilla de verificación **Coste exacto devol. obligatorio** en la ventana **Configuración compras y pagos**.|

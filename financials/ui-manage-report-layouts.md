@@ -13,10 +13,10 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 445172287ae09032ff53e02d0e64dc967456a7bb
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: 34a25ed48ff16971120b272421560bf1416af60f
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="managing-report-and-document-layouts"></a>Administrar diseños de informes y documentos
@@ -42,7 +42,7 @@ Un diseño de informe de Word está basado en un documento de Word (tipo de arch
  ![Ejemplo de un documento de diseño de informe de Word de NAV](media/nav_wordreportlayout_edit_in_word_example.png "NAV_WordReportLayout_Edit_In_Word_Example")  
 
 ## <a name="rdlc-layout-overview"></a>Descripción del diseño de RDLC
-Los diseños de RDLC se basan en los diseños de definición de informe de cliente (tipos de archivo .rdlc o .rdl). Estos diseños se crean y modifican con el generador de informes de SQL Server. El concepto del diseño de RDLC es similar al de Word, donde el diseño define el formato general del informe y determina qué campos del conjunto de datos incluir. La elaboración de diseños de RDLC es más avanzada que la de diseños de Word. Para obtener más información, consulte [diseños de informe RDLC](https://msdn.microsoft.com/en-us/dynamics-nav/designing-rdlc-report-layouts).
+Los diseños de RDLC se basan en los diseños de definición de informe de cliente (tipos de archivo .rdlc o .rdl). Estos diseños se crean y modifican con el generador de informes de SQL Server. El concepto del diseño de RDLC es similar al de Word, donde el diseño define el formato general del informe y determina qué campos del conjunto de datos incluir. La elaboración de diseños de RDLC es más avanzada que la de diseños de Word. Para obtener más información, consulte [diseños de informe RDLC](/dynamics-nav/Designing-RDLC-Report-Layouts).
 
 ## <a name="built-in-and-custom-report-layouts"></a>Diseños de informe personalizados e integrados
 [!INCLUDE[d365fin](includes/d365fin_md.md)] incluye varios diseños integrados. Los diseños integrados son diseños predefinidos diseñados para informes específicos. Los informes de [!INCLUDE[d365fin](includes/d365fin_md.md)] tendrán un diseño integrado, como un diseño de informes de RDLC, un diseño de informes de Word o, en algunos casos, ambos. No puede modificar un diseño de informe integrado desde [!INCLUDE[d365fin](includes/d365fin_md.md)], pero sí se pueden usar como punto de inicio para crear sus propios diseños de informe personalizados.

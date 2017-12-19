@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 2f62bbae71eac1c0d63df5e352601c0885274066
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 148a566473e4964db3cbc6ee266eccb6b6c6aaa7
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-convert-service-contracts-that-include-vat-amounts"></a>Convertir contratos de servicio que incluyen importes de IVA
@@ -23,7 +23,7 @@ Como la herramienta de cambio de tasa de IVA no puede convertir contratos de ser
 > [!NOTE]  
 >  Este tema proporciona a un flujo de trabajo de niveles más altos.  
 
- El procedimiento siguiente describe cómo corregir una factura para un contacto de servicio prepago que se ha creado un año atrás.  
+ El procedimiento siguiente describe cómo corregir una factura para un contrato de servicio prepago que se ha creado un año atrás.  
 
 > [!NOTE]  
 >  Para este ejemplo, debe cambiar la fecha de trabajo a 01.01.2017.  
@@ -47,7 +47,7 @@ El procedimiento siguiente describe cómo crear un abono que incluya sólo la di
 2. Agregue una nueva línea a la configuración de registro de IVA.  
 
 ### <a name="to-create-contract-expiration-dates-in-contract-lines"></a>Para crear las fechas de vencimiento de contrato en las líneas de contrato  
-El procedimiento siguiente describe cómo crear nuevos contratos trabajando con las fechas de vencimiento del contacto en las líneas de contrato de servicio.  
+El procedimiento siguiente describe cómo crear nuevos contratos trabajando con las fechas de vencimiento del contrato en las líneas de contrato de servicio.  
 
 1. En la ventana **Contrato servicio**, establezca la fecha de vencimiento de contrato en **30.06.2017**.  
 2. Elija la acción **Crear abono** para crear automáticamente un abono para el periodo de julio de 2017 a diciembre de 2017.  

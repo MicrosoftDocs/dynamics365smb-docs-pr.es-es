@@ -13,14 +13,18 @@ ms.search.keywords: feature overview, functionality
 ms.date: 08/21/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 5a5238c3333551cc00fbb6b81c04309e76013f82
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: 66a8a2124f1bc4775268b95ba100ada19cbc286d
 ms.contentlocale: es-es
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="general-business-functionality"></a>Funciones empresariales generales
-[!INCLUDE[d365fin](includes/d365fin_md.md)] proporciona funciones dedicadas para las áreas habituales comerciales, como finanzas y ventas. Y para apoyar sus tareas específicas del área de negocios, puede utilizar una variedad de funciones generales como definir texto ampliado para las líneas del documento y organizar tareas comerciales conectadas en flujos de trabajo.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] proporciona funciones dedicadas para las áreas habituales comerciales, como finanzas y ventas. Para obtener más información, consulte [Funciones empresariales](madeira-business-functionality.md).
+
+Para apoyar esas tareas específicas del área de negocios, puede utilizar una variedad de funciones generales como definir texto ampliado para las líneas del documento y organizar tareas comerciales conectadas en flujos de trabajo.
+
+
 
 En la tabla siguiente se indican las áreas de negocio generales, con vínculos a los temas que los describen.
 

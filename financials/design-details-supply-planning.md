@@ -1,8 +1,6 @@
 ---
 title: "Detalles de diseño: Gestión de almacenes | Documentos de Microsoft"
-description: "Este tema proporciona un resumen de los conceptos y los principios que se usan en las características de planificación de suministros en [!INCLUDE[d365fin](includes/d365fin_md.md)]."
-services: project-madeira
-documentationcenter: 
+description: "Este tema proporciona un resumen de los conceptos y los principios que se usan en las características de planificación de suministros en Dynamics 365."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords: design, supply, planning, reordering, replenishment
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b8a44ff374338c79bd2e1aa31ee60e172f06da5e
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: df8824444cb03bed07fd981d751ec83c8872a8ee
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-supply-planning"></a>Detalles de diseño: Planificación de aprovisionamiento

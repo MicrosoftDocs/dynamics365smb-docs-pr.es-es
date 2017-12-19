@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 0f2f91a9813b07b0868043a4a2a3ed0b3f838536
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: 902c98c126ff23659cb103e8eaf351c144b76ea9
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules"></a>Procedimiento: configurar y publicar un servicio web KPI que se basa en esquemas de cuentas
@@ -27,7 +27,7 @@ En la ventana **Configuración de servicio Web KPI de esquema de cuentas**, se c
 1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Configuración del servicio Web KPI de esquema de cuenta** y, a continuación, seleccione el vínculo relacionado.  
 2.  En la ficha desplegable **General**, rellene los campos tal como se describe en la tabla siguiente.  
 
-    |Campo|Description|  
+    |Campo|Descripción|  
     |---------------------------------|---------------------------------------|  
     |**Inicio de valores previstos**|Especifique en qué momento se muestran los valores previstos en el gráfico KPI del esquema de cuentas.<br /><br /> Los valores previstos se recuperan del presupuesto de contabilidad general que seleccione en el campo **Nombre presupuesto contable**. **Nota**: Para obtener KPI que muestren cifras previstas tras una fecha determinada y cifras reales antes de la fecha, puede cambiar el campo **Permitir registro desde** en la ventana **Configuración de contabilidad**. Para obtener más información, consulte Permitir registrar desde.|  
     |**Nombres pptos. contabilidad<**|Especifique el nombre del presupuesto de contabilidad que proporciona los valores previstos en el servicio web KPI de esquema de cuentas.|  
@@ -39,7 +39,7 @@ En la ventana **Configuración de servicio Web KPI de esquema de cuentas**, se c
 
 3.  En la ficha desplegable **Esquemas de cuentas**, rellene los campos tal como se describe en la tabla siguiente.  
 
-    |Campo|Description|  
+    |Campo|Descripción|  
     |---------------------------------|---------------------------------------|  
     |**Nombre esq. cuentas**|Especifique el esquema de cuentas en el que se basa el servicio web KPI.|  
     |**Descripción esq. cuentas**|Especifique la descripción del esquema de cuentas en la que se basa el servicio web KPI.|  
@@ -49,8 +49,8 @@ En la ventana **Configuración de servicio Web KPI de esquema de cuentas**, se c
 6.  Para ver los datos KPI del esquema de cuentas que ha configurado, elija la acción **Servicio Web KPI de esquema de cuentas**.  
 7.  Para publicar el servicio Web KPI de esquema de cuentas, elija la acción **Publicar servicio Web**. El servicio web se agrega a la lista de servicios web publicados en la ventana **Servicios web**.  
 
-    > [!NOTE]  
-    >  También puede publicar el servicio web KPI seleccionando el objeto de la página **Configuración de servicio web KPI de esquema de cuentas** de la ventana **Servicios Web**. Para obtener más información, consulte [Cómo publicar un servicio Web](https://msdn.microsoft.com/en-us/library/dd338978.aspx) en MSDN.  
+> [!NOTE]  
+>  También puede publicar el servicio web KPI seleccionando el objeto de la página **Configuración de servicio web KPI de esquema de cuentas** de la ventana **Servicios Web**. Para obtener más información, consulte [Publicar un servicio web](across-how-publish-web-service.md).  
 
 ## <a name="see-also"></a>Consulte también  
 [Inteligencia empresarial](bi.md)  

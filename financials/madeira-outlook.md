@@ -13,16 +13,16 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 86cb193e6a86caef01f57671af2ecd54a2c4a271
+ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
+ms.openlocfilehash: 473c21085c54c7f97f34404eeb18683cf4479e41
 ms.contentlocale: es-es
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="using-dynamics-365-for-finance-and-operations-business-edition-as-your-business-inbox-in-outlook"></a>Usar Dynamics 365 for Finance and Operations, Business edition como su bandeja de entrada de empresa en Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] introduce la posibilidad de gestionar las interacciones comerciales con sus clientes y proveedores directamente en Microsoft Outlook. Con los complementos de Outlook de [!INCLUDE[d365fin](includes/d365fin_md.md)], puede ver los datos financieros relativos a los clientes y los proveedores, así como crear y enviar documentos financieros, como por ejemplo presupuestos y facturas.  
 
-## <a name="get-the-add-in"></a>Obtener el complemento
+## <a name="getting-the-add-in"></a>Obtener el complemento
 En [!INCLUDE[d365fin](includes/d365fin_md.md)], uno de los pasos en la guía de configuración de Introducción es la ventana **Dirija su empresa desde Office 365**. En dicha ventana, cuando selecciona el botón **Registrarse en Outlook**, debe especificar su nombre de usuario y contraseña de Office 365. Los complementos [!INCLUDE[d365fin](includes/d365fin_md.md)] se agregan automáticamente a su Outlook.  
 
 A continuación, cuando abre Outlook, verá los correos electrónicos del administrador de Dynamics 365. Se agrega el nuevo complemento a la cinta de opciones de Outlook y en el acceso red para Outlook, puede verlo en la cinta de complemento inmediatamente superior al cuerpo del correo electrónico. El complemento se actualizará periódicamente y recibirá la notificación de que tiene lista una nueva versión en Outlook.  
@@ -39,10 +39,10 @@ De igual forma, si recibe un correo electrónico de un proveedor, puede utilizar
 
 En ocasiones desea ver más campos de los que puede ver en el complemento, como cuando desea rellenar líneas en una factura. Para darle un poco más de espacio para trabajar con eso, puede abrir una ventana emergente con el complemento. Sigue formando parte de Outlook pero dispone de más espacio. Cuando introduce datos en el documento en la vista de ventana emergente, los cambios se guardan automáticamente. Cuando haya terminado de introducir datos en el documento puede elegir el botón **Aceptar**. Seleccionando el marco del complemento en Outlook se actualiza automáticamente el documento con los cambios que haya hecho en la vista de ventana emergente.  
 
-## <a name="create-invoices-from-your-meeting-appointments"></a>Crear facturas de las citas de reunión
+## <a name="creating-invoices-from-your-meeting-appointments"></a>Crear facturas de las citas de reunión
 Algunos empresas registran todas las citas facturables en el calendario de Outlook. Con [!INCLUDE[d365fin](includes/d365fin_md.md)], puede crear la factura para el cliente directamente en el producto de calendario: abra la cita y, a continuación, puede abrir el complemento [!INCLUDE[d365fin](includes/d365fin_md.md)], buscar la información existente o crear una factura u otro documento de venta directamente.  
 
-## <a name="quick-document-lookup"></a>Búsquedas rápidas en el documento
+## <a name="doing-quick-document-lookup"></a>Realizar búsquedas rápidas en el documento
 El complemento Vínculos de documento de [!INCLUDE[d365fin](includes/d365fin_md.md)] le da un acceso más rápido a los documentos mencionados en los mensajes de correo electrónico. El complemento está disponible para un mensaje si se reconoce el nombre de un documento en el cuerpo del correo. Abrir el complemento le proporciona un acceso rápido al documento.  
 
 Por ejemplo, si recibe un mensaje de correo electrónico que menciona el texto *S-QUO100*, [!INCLUDE[d365fin](includes/d365fin_md.md)] lo identifica como un presupuesto de venda y de esta manera puede abrir ese documento en Outlook. En Outlook haga clic en el botón inmediatamente superior al cuerpo del correo **Vínculos de documento**. En la aplicación web de Outlook seleccione el texto *S-QUO1001* en el cuerpo del mensaje.  

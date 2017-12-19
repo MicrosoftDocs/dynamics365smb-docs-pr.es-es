@@ -13,10 +13,10 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 06/28/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 203449e8a7f032dbcb7b3d014c3198e0a2e7847a
+ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
+ms.openlocfilehash: f5f0640c84a382a62512116f2f3c7c57c7793243
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="finance"></a>Finanzas
@@ -37,7 +37,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Administrar variaciones de existencias y costes de fabricación, crear informes de costes y conciliar costes con la contabilidad.|[Gestión de costes de inventario](finance-manage-inventory-costs.md)|
 | Obtenga información sobre el libro mayor y el plan de cuentas. |[Descripción de contabilidad y plan de cuentas](finance-general-ledger.md) |
 | Agregue dimensiones para la inteligencia empresarial más completa. |[Trabajar con dimensiones](finance-dimensions.md) |
-| Cree presupuestos para prever diferentes actividades financieras y asigne dimensiones para fines de inteligencia empresarial. |[Crear presupuestos](finance-how-create-budgets.md) |
+| Cree presupuestos contables para prever diferentes actividades financieras y asigne dimensiones para fines de inteligencia empresarial. |[Crear presupuestos contables](finance-how-create-budgets.md) |
 |Registre los ingresos o los gastos directamente en la contabilidad sin registrar documentos empresariales dedicados.|[Registrar transacciones directamente en la contabilidad](finance-how-post-transactions-directly.md)|
 |Registre entradas de reversión para deshacer los registros de valoración en el diario general o los registros de cantidad en documentos de compra y ventas. |[Revertir registros](finance-how-reverse-journal-posting.md)|
 |Asignar un movimiento en un diario general a varias cuentas al registrar el diario. |[Asignar costes e ingresos.](year-allocate-costs-income.md) |

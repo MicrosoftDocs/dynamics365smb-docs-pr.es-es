@@ -1,8 +1,6 @@
 ---
 title: "Información general de los movimientos del grupo dimensiones | Documentos de Microsoft"
-description: "Este tema describe cómo se almacenan y se registran los movimientos de grupo de dimensiones en [!INCLUDE[d365fin](includes/d365fin_md.md)]."
-services: project-madeira
-documentationcenter: 
+description: "Este tema describe cómo se almacenan y se registran los movimientos de grupo de dimensiones en Dynamics 365."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords: dimension
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 53c85ecbb42db92e95921203d24781bcb82f942d
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 78e98bcbc88ffb38d5da3f5089d124d915585d91
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="dimension-set-entries-overview"></a>Información general de los movimientos del grupo dimensiones

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 09d48e230291524e7771d4b4305c4290bd567eb9
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: 7ce4b45d740e50bba8256e72fcf43c70ea85922c
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Tutorial: Configuración y uso de un flujo de trabajo de aprobación de compra
@@ -160,7 +160,7 @@ La versión genérica de [!INCLUDE[d365fin](includes/d365fin_md.md)] incluye var
 
 Las variaciones del flujo de trabajo se definen rellenando los campos de las líneas de flujo de trabajo en listas fijas de valores de evento y respuesta que representan ejemplos de flujo de trabajo que admite el código de aplicación. Para obtener más información, consulte [Procedimiento: Crear flujos de trabajo](across-how-to-create-workflows.md).  
 
-Si una situación de negocio requiere un evento de flujo de trabajo o respuesta no compatibles, un asociado de Microsoft tiene que implementarlos personalizando el código de aplicación. Para obtener más información, consulte [Tutorial: Implementación de nuevos eventos y respuestas de flujo de trabajo](https://msdn.microsoft.com/en-us/library/mt574349.aspx) en MSDN.  
+Si una situación de negocio requiere un evento de flujo de trabajo o respuesta no compatibles, un asociado de Microsoft tiene que implementarlos personalizando el código de aplicación. Para obtener más información, consulte [Tutorial: Implementación de nuevos eventos y respuestas de flujo de trabajo](/dynamics-nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses) en la ayuda para desarrolladores e informáticos.  
 
 ## <a name="see-also"></a>Consulte también  
 [Procedimiento: Configurar usuarios de aprobación](across-how-to-set-up-approval-users.md)   

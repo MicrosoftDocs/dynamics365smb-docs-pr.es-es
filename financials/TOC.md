@@ -24,6 +24,7 @@
 ## [Permitir que Dynamics 365 proponga valores](ui-let-system-suggest-values.md)
 ## [Imprimir un informe](ui-work-report.md#PrintReport)
 ## [Vídeos de tareas comunes](across-videos.md)
+## [Accesibilidad y métodos abreviados de teclado](ui-accessibility.md)
 ## [Idioma y región](about-locale-language.md)  
 ## [Idiomas de los Documentos](about-languages.md)
 
@@ -173,8 +174,8 @@
 ### [Invitar a contable externo a Dynamics 365](finance-invite-external-accountant.md)  
 ## [Descripción de contabilidad y plan de cuentas](finance-general-ledger.md)
 ## [Trabajar con dimensiones](finance-dimensions.md)
-## [Crear presupuestos](finance-how-create-budgets.md)
-## [Registrar transacciones directamente en la contabilidad](finance-how-post-transactions-directly.md)
+## [Crear presupuestos contables](finance-how-create-budgets.md)
+## [Procedimiento: registrar transacciones directamente en la contabilidad](finance-how-post-transactions-directly.md)
 ## [Procedimiento: Revertir registros](finance-how-reverse-journal-posting.md)
 ## [Asignar costes e ingresos.](year-allocate-costs-income.md)
 ## [Procedimiento: utilizar los cargos de producto a cuenta para los costes comerciales adicionales](payables-how-assign-item-charges.md)

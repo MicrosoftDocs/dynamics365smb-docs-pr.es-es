@@ -11,10 +11,10 @@ ms.search.keywords: setup wizard
 ms.date: 09/14/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 0bd6edbefbfa46ec7214f806bf28e7a523930740
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: 0173f682ccb09b2b4c02b9d7d74638f6b08e9a93
 ms.contentlocale: es-es
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="welcome-to-included365finlongincludesd365finlongmdmd"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -32,7 +32,7 @@ Para algunos consejos rápidos y que debe conocer, vea:
 
 Para obtener más información, consulte [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md).  
 
-Cuando esté preparado para hacer algo más intenso y desee examinar algunos de los procesos empresariales que admite [!INCLUDE[d365fin](includes/d365fin_md.md)], vea [Funciones empresariales](madeira-business-functionality.md). Para obtener un resumen de las funciones actuales y futuras, eche un vistazo a nuestra guía básica en [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68).  
+Cuando esté preparado para empezar a trabajar y desee examinar algunos de los procesos empresariales que admite [!INCLUDE[d365fin](includes/d365fin_md.md)], vea [Funciones empresariales](madeira-business-functionality.md). Para obtener un resumen de las funciones actuales y futuras, eche un vistazo a nuestra guía básica en [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68).  
 
 ## <a name="the-home-pages"></a>Páginas principales
 Las páginas principales utilizan un diseño basado en roles para ofrecerle acceso rápido a las herramientas de procesos e inteligencia empresariales que necesita para realizar su trabajo. Por ejemplo, un contable puede supervisar pagos y aprobaciones, y ver gráficos de rendimiento financiero. Vea las distintas páginas principales eligiendo el icono **Configuración** ![Configuración](media/ui-experience/settings_icon_small.png "Icono Configuración del área de trabajo") en la esquina superior derecha, eligiendo **Mi configuración** y, a continuación, el área de trabajo para explorar. Inicie sesión de nuevo para aplicar el cambio. Para obtener más información, vea [Cambiar el área de trabajo](change-role.md).  

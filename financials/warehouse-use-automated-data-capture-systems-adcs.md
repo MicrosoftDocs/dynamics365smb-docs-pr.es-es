@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 56d191c465b611c1764cf3c97e507c4952fe6287
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: ab97e9beb67ac5c8e827f44c2976b51af2696109
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-enable-automated-data-capture-systems-adcs"></a>Habilitar el sistema de captura de datos automatizado (ADCS)
@@ -28,7 +28,7 @@ Basándose en las necesidades de su almacén, se define la cantidad de informaci
 - Información de texto.  
 - Los mensajes para mostrar las confirmaciones o los errores sobre las actividades preformadas y registradas por el usuario del dispositivo portátil.
 
-Para obtener más información, consulte [Configuración de un sistema de captura de datos automatizado](https://msdn.microsoft.com/en-us/library/dd338742.aspx) en MSDN.
+Para obtener más información, consulte [Configuración de un sistema de captura de datos automatizado](/dynamics-nav/Configuring-Automated-Data-Capture-System) en la ayuda para desarrolladores e informáticos.
 
 ## <a name="to-set-up-a-warehouse-to-use-adcs"></a>Para configurar un almacén para utilizar ADCS (sistema de captura de datos automatizado)  
 Para utilizar un ADCS, debe especificar qué ubicaciones de almacén utilizan la tecnología.  
@@ -107,10 +107,10 @@ Cuando haya creado un miniformulario, los pasos siguientes son crear las funcion
 
 En el entorno de desarrollo de [!INCLUDE[d365fin](includes/d365fin_md.md)], modifique el código del campo **Manejar Codeunit** para crear o modificar código para que realice la acción o respuesta requeridas.
 
-Para obtener más información, consulte [Configuración de un sistema de captura de datos automatizado](https://msdn.microsoft.com/en-us/library/dd338742.aspx) en MSDN.
+Para obtener más información, consulte [Configuración de un sistema de captura de datos automatizado](/dynamics-nav/Configuring-Automated-Data-Capture-System) en la ayuda para desarrolladores e informáticos.
 
 ## <a name="see-also"></a>Consulte también  
-[Gestión almacén](warehouse-manage-warehouse.md)  
+[Gestión de almacenes](warehouse-manage-warehouse.md)  
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    

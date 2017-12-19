@@ -1,6 +1,6 @@
 ---
 title: Tareas administrativas de Microsoft Dynamics 365 | Documentos de Microsoft
-description: "Algunas tareas en [!INCLUDE[d365fin](includes/d365fin_md.md)] requieren una administración central y configuración. Consulte cuáles son aprenda y qué hacer."
+description: "Algunas tareas de Dynamics 365 requieren administración y configuración centrales. Consulte cuáles son aprenda y qué hacer."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 09c3460a50088098bfe5c2fb633e76dccbac0794
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: c7e5efe85dddcc7db84b05879f0c71990167c775
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="setup-and-administration-in-dynamics-365-for-financials"></a>Configuración y Administración en Dynamics 365 for Financials
@@ -40,7 +40,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Configure una nueva empresa usando plantillas|[Crear nuevas en empresas en [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)|  
 
 ## <a name="see-also"></a>Consulte también
-[Resumen de las funciones empresariales](madeira-business-functionality.md)  
+[Funciones empresariales](madeira-business-functionality.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  

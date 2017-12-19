@@ -1,6 +1,6 @@
 ---
-title: "Estándar de pagos de WorldPay| Documentos de Microsoft"
-description: "Proporciona información sobre la extensión Estándar de pagos de WorldPay"
+title: "Microsoft Pay estándar | Documentos de Microsoft"
+description: "Proporciona información sobre la extensión de Microsoft Pay"
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 07/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 2bae36ebb58e3cd034290cc45d0b734c2c145fa1
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 6fb27bb277d3ad1b5363da40c26d879663ff616b
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="the-microsoft-pay-extension-to-included365finincludesd365finlongmdmd"></a>La extensión de Microsoft Pay para [!INCLUDE[d365fin](includes/d365fin_long_md.md)]

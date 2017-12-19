@@ -1,8 +1,6 @@
 ---
 title: "Tutorial: picking y envío en la configuración básica de almacén | Documentos de Microsoft"
-description: "En [!INCLUDE[d365fin](includes/d365fin_md.md)], los procesos de salida para el picking y el envío se pueden realizar de cuatro maneras utilizando distintas funciones según el nivel de complejidad del almacén."
-services: project-madeira
-documentationcenter: 
+description: "En Dynamics 365, los procesos de salida para el picking y el envío se pueden realizar de cuatro maneras utilizando distintas funciones según el nivel de complejidad del almacén."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 993d3f092db9f423aba9a67d58f53895df0d5c2f
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 2ef41d6b1d224c016da4663d3059717c11611d92
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Tutorial: picking y envío en la configuración del almacenamiento básico
@@ -69,8 +67,8 @@ Para completar este tutorial, necesitará:
 
         |Tipo mov.|Número de producto|Cód. almacén|Cód. ubicación|Cantidad|  
         |----------------|-----------------|-------------------|--------------|--------------|  
-        |Entradas|LS-81|PLATA|S-01-0001 **Nota:** La ubicación predeterminada del producto en CRONUS|2.0|  
-        |Entradas|LS-81|PLATA|S-01-0002|2.0|  
+        |Entradas|LS-81|PLATA|S-01-0001 **Nota:** La ubicación predeterminada del producto en CRONUS|20|  
+        |Entradas|LS-81|PLATA|S-01-0002|20|  
 
     3.  Elija la acción **Registrar** y, a continuación, seleccione el botón **Si**.  
 

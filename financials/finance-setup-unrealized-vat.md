@@ -13,10 +13,10 @@ ms.search.keywords: cash, VAT, unrealized, cash-based
 ms.date: 09/08/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 79851c90a2a2fd8ac2e744173a04b7eda50b98e8
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 9a51b767006911a26e4e3a7abd55fbbeda05e0bc
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -50,7 +50,7 @@ Para utilizar cuentas para IVA no realizado, realice los pasos siguientes:
 7. En el campo **Cta. IVA sopor. no realizado**, introduzca una cuenta de IVA soportado no realizado.
 
     > [!NOTE]  
->   El importe de IVA se registrará en esta cuenta y permanecerá hasta que se registre el pago del cliente. A continuación, el importe se transfiere a la cuenta para el IVA repercutido.
+>   El importe de IVA se registrará en esta cuenta y permanecerá hasta que se registre el pago del cliente. A continuación, el importe se transfiere a la cuenta para el IVA soportado.
 
 ## <a name="see-also"></a>Consulte también
 [Configuración del impuesto sobre el valor añadido](finance-setup-vat.md)

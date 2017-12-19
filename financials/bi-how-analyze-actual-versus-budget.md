@@ -10,24 +10,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 06/01/2017
+ms.date: 12/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 126c8da9b9ef80e954510fa8e5089906d7dd6f01
+ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
+ms.openlocfilehash: e76d590476b1236bf1d82a7f5e4f502ffdd9d02d
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-analyze-actual-amounts-versus-budgeted-amounts"></a>Analizar los importes reales frente a los importes presupuestados
 Como parte de la recopilación, el análisis y el uso compartido de los datos de la empresa, puede ver importes reales comparados con los importes presupuestados para todas las cuentas y durante varios periodos.
 
-Para analizar los importes presupuestados, primero debe crear presupuestos. Para obtener más información, consulte [Crear presupuestos](finance-how-create-budgets.md).
+Para analizar los importes presupuestados, primero debe crear presupuestos contables. Para obtener más información, consulte [Crear presupuestos contables](finance-how-create-budgets.md).
 
 > [!NOTE]  
 >   Esta funcionalidad requiere que la experiencia esté definida en **Suite**. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
 
-## <a name="to-view-a-budget"></a>Para ver un presupuesto
+## <a name="to-view-a-gl-budget"></a>Para ver un presupuesto contable
 En un presupuesto con dimensiones, puede filtrar los movimientos y, por lo tanto, ver presupuestos concretos.
 
 1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Presupuestos contables** y, a continuación, seleccione el vínculo relacionado.
@@ -68,7 +68,7 @@ En lugar de ver los importes reales y presupuestados de todas las cuentas en un 
 4. Para ver una especificación de un importe que aparece en pantalla, elija el campo.  
 
 ## <a name="see-also"></a>Consulte también
-[Inteligencia empresarial](bi.md)
+[Inteligencia empresarial](bi.md)  
 [Trabajar con esquemas de cuentas](bi-how-work-account-schedule.md)  
 [Finanzas](finance.md)  
 [Configurar las finanzas](finance-setup-finance.md)  

@@ -1,8 +1,6 @@
 ---
 title: "Tutorial: Configuración y facturación de prepagos de ventas | Documentos de Microsoft"
-description: "Los prepagos son pagos que se facturan y registran en un pedido de prepago de ventas o compras antes de la facturación final. Es posible que solicite un depósito antes de fabricar productos del pedido, o que solicite un pago antes de enviar productos al cliente. La funcionalidad de prepagos en [!INCLUDE[d365fin](includes/d365fin_md.md)] se utiliza para facturar y cobrar depósitos de los clientes o remitir depósitos a los proveedores. De este modo, puede asegurar que todos los pagos estén registrados contra una factura."
-services: project-madeira
-documentationcenter: 
+description: "Los prepagos son pagos que se facturan y registran en un pedido de prepago de ventas o compras antes de la facturación final. Es posible que solicite un depósito antes de fabricar productos del pedido, o que solicite un pago antes de enviar productos al cliente. La funcionalidad de prepagos en Dynamics 365 se utiliza para facturar y cobrar depósitos de los clientes o remitir depósitos a los proveedores. De este modo, puede asegurar que todos los pagos estén registrados contra una factura."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 14c4c4a9d4a9ef9149ded77343fa385ae8038f83
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: fbdeb6b9dc8c96b09ded933ec987b8c60098bfcf
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Tutorial: Configuración y facturación de prepagos de ventas

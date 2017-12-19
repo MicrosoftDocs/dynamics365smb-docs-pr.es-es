@@ -1,8 +1,6 @@
 ---
 title: "Detalles de diseño: Diseño del seguimiento de productos | Documentos de Microsoft"
-description: "En este tema se describe el diseño detrás del seguimiento de producto en [!INCLUDE[d365fin](includes/d365fin_md.md)]."
-services: project-madeira
-documentationcenter: 
+description: "En este tema se describe el diseño subyacente al seguimiento de productos de Dynamics 365."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords: design, item, tracking, tracing
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 1d47b646b1908987648ebe13f53693f6782f6cdf
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 20d04536d670e0c830ed3b92df8d570e6408fab4
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-item-tracking-design"></a>Detalles de diseño: Diseño de seguimiento de productos
@@ -38,7 +36,7 @@ El objeto de registro central se ha rediseñado para controlar la subclasificaci
 
 La unidad de código 22, **Diario de productos – Línea de registro**, divide ahora el registro según los números de seguimiento de producto que se especifican en la línea de documento. Cada número de seguimiento de producto único en la línea crea su propio movimiento para el producto. Esto significa que el vínculo desde la línea de documento registrado a los movimientos de producto asociados ahora es una relación de uno a varios. Esta relación se controla mediante las siguientes tablas de relaciones de seguimiento de producto.  
 
-|Campo|Description|  
+|Campo|Descripción|  
 |---------------|---------------------------------------|  
 |**Relación mov. producto** (T6507)|Relaciona las líneas enviadas o recibidas a los movimientos de producto|  
 |**Relación mov. valor** (T6508)|Relaciona las líneas facturadas con los movimientos de valoración|  
