@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
 ms.openlocfilehash: 066a2857532f062c6dcfe6deccc27423c1431b74
 ms.contentlocale: es-es
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="service-management"></a>Gestión de servicios
@@ -46,4 +46,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 [Administrar cobros](receivables-manage-receivables.md)   
 [Proyectos](projects-how-create-jobs.md)   
 [[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 
