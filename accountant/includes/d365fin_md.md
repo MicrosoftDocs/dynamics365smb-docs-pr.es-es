@@ -1,1 +1,1 @@
-<span data-ttu-id="7cb10-101">Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="7cb10-101">Dynamics 365</span></span>
+<span data-ttu-id="64b6b-101">Finance and Operations, Business edition</span><span class="sxs-lookup"><span data-stu-id="64b6b-101">Finance and Operations, Business edition</span></span>

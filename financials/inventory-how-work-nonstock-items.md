@@ -12,61 +12,61 @@ ms.search.keywords: non-inventoriable
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b9256944295880d6ec9dad916eb9632b9d5f7c20
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2969b3168f063e636455dd67457c01ed89a0727d
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# Procedimiento: Trabajar con productos sin stock
-Puede ofrecer varios productos a sus clientes para su comodidad que no desea mantener en el inventario hasta que empiece a venderlos. Cuando desee empezar a mantener esos productos en el inventario, puede convertirlos en fichas de productos normales de dos formas.
+# <a name="work-with-nonstock-items"></a><span data-ttu-id="f80e3-103">Trabajar con productos sin stock</span><span class="sxs-lookup"><span data-stu-id="f80e3-103">Work with Nonstock Items</span></span>
+<span data-ttu-id="f80e3-104">Puede ofrecer varios productos a sus clientes para su comodidad que no desea mantener en el inventario hasta que empiece a venderlos.</span><span class="sxs-lookup"><span data-stu-id="f80e3-104">You can offer certain items to your customers for their convenience, which you do not want to maintain in inventory until you start selling them.</span></span> <span data-ttu-id="f80e3-105">Cuando desee empezar a mantener esos productos en el inventario, puede convertirlos en fichas de productos normales de dos formas.</span><span class="sxs-lookup"><span data-stu-id="f80e3-105">When you want to start maintaining such items in inventory, you can convert them to normal item cards in two ways.</span></span>
 
-* Desde una ficha de producto sin stock, cree una nueva ficha de producto basada en una plantilla.
-* Desde una línea de pedido de ventas del tipo **Producto** con un campo **N.º* vacío, seleccione un producto sin stock. Se crea automáticamente una ficha de producto para el producto sin stock.
-
-> [!NOTE]  
->   No puede seleccionar un producto sin stock de la ventana **Facturas venta**. Puede seleccionarlo desde la ventana **Oferta de ventas**, pero el producto sin stock no se convertirá en uno normal cuando utilice la función **Realizar pedido**.
-
-Un producto sin stock normalmente tiene el número del proveedor que lo suministra. Para activar la conversión de una ficha de producto sin stock a una ficha normal, debe configurar cómo se convertirá la numeración del producto del vendedor a la suya.   
-
-## Para crear productos sin stock
-Las fichas de productos sin stock disponen de mucha menos información que las normales puesto que solo las utiliza en ofertas de ventas y en otras maneras. Por esa razón, se convertirán en fichas de producto normal antes de que pueda registrarles las transacciones de venta.
-
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Productos sin stock** y, a continuación, seleccione el vínculo relacionado.
-2. Seleccione la acción **Nuevo**.
-3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-## Para configurar cómo los números de productos sin stock se convierten en su numeración
-Para activar la conversión de una ficha de producto sin stock en una ficha normal, primero debe configurar cómo se convertirá la numeración del producto del vendedor a su formato de número de producto.
-
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Config. productos sin stock** y, a continuación, seleccione el vínculo relacionado.
-2. Rellene los campos según sea necesario.
-
-## Para convertir un producto sin stock en un producto normal
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Productos sin stock** y, a continuación, seleccione el vínculo relacionado.
-2. Abra la ficha de un producto sin stock que desee convertir a uno normal.
-3. En la ventana **Ficha de producto sin stock**, seleccione la acción **Crear producto**.
-
-Se ha creado una plantilla y una nueva ficha de producto con la información del producto sin stock rellenada previamente. Si es necesario, podrá rellenar o editar los campos en la nueva ficha de producto. Para obtener más información, vea [Registrar nuevos productos](inventory-how-register-new-items.md).
-
-## Para vender un producto sin stock y convertirlo en un producto normal
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Pedidos de venta** y, a continuación, seleccione el vínculo relacionado.
-2. Seleccione la acción **Nuevo**. Rellene los campos de la ficha desplegable **General** para cada pedido. Para obtener más información, vea [Procedimiento: Vender productos](sales-how-sell-products.md).
-3. En una nueva línea de venta, en el campo **Tipo**, seleccione **Producto**, pero deje **N.º** campo vacío.
-4. Elija la acción **Línea** y, a continuación, elija la acción **Seleccionar artículos sin stock**.
-
-    El producto sin stock se ha convertido en un producto normal. Se ha creado una plantilla y una nueva ficha de producto con la información del producto sin stock rellenada previamente.
-5. En la ventana **Productos sin stock**, seleccione el producto sin stock que desee vender y, a continuación, haga clic en **Aceptar**.
-6. Cuando el pedido de venta ya está completo, seleccione la acción **Registrar**.
-
-Si es necesario, podrá rellenar o editar los campos en la nueva ficha de producto. Para obtener más información, vea [Registrar nuevos productos](inventory-how-register-new-items.md).
+* <span data-ttu-id="f80e3-106">Desde una ficha de producto sin stock, cree una nueva ficha de producto basada en una plantilla.</span><span class="sxs-lookup"><span data-stu-id="f80e3-106">From a nonstock item card, create a new item card based on a template.</span></span>
+* <span data-ttu-id="f80e3-107">Desde una línea de pedido de ventas del tipo **Producto** con un campo \**N.º* vacío, seleccione un producto sin stock.</span><span class="sxs-lookup"><span data-stu-id="f80e3-107">From a sales order line of type **Item** with an empty \**No* field, select a nonstock item.</span></span> <span data-ttu-id="f80e3-108">Se crea automáticamente una ficha de producto para el producto sin stock.</span><span class="sxs-lookup"><span data-stu-id="f80e3-108">An item card is automatically created for the nonstock item.</span></span>
 
 > [!NOTE]  
->   Un informe de referencia cruzada de un producto se crea automáticamente por el proveedor del producto entre el número del producto del proveedor y su nuevo número de producto.
+>   <span data-ttu-id="f80e3-109">No puede seleccionar un producto sin stock de la ventana **Facturas venta**.</span><span class="sxs-lookup"><span data-stu-id="f80e3-109">You cannot select a nonstock item from the **Sales Invoice** window.</span></span> <span data-ttu-id="f80e3-110">Puede seleccionarlo desde la ventana **Oferta de ventas**, pero el producto sin stock no se convertirá en uno normal cuando utilice la función **Realizar pedido**.</span><span class="sxs-lookup"><span data-stu-id="f80e3-110">You can select a nonstock item from the **Sales Quote** window, but the nonstock item will not be converted to a normal item when you use the **Make Order** function.</span></span>
 
-## Consulte también
-[Registro de productos nuevos](inventory-how-register-new-items.md)  
-[Cómo crear pedidos especiales](sales-how-to-create-special-orders.md)|  
-[Grupos contables inventario](inventory-manage-inventory.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+<span data-ttu-id="f80e3-111">Un producto sin stock normalmente tiene el número del proveedor que lo suministra.</span><span class="sxs-lookup"><span data-stu-id="f80e3-111">A nonstock item typically has the item number of the vendor who supplies it.</span></span> <span data-ttu-id="f80e3-112">Para activar la conversión de una ficha de producto sin stock a una ficha normal, debe configurar cómo se convertirá la numeración del producto del vendedor a la suya.</span><span class="sxs-lookup"><span data-stu-id="f80e3-112">To enable conversion of a nonstock item card to a normal item card, you must first set up how vendor item numbering is converted to your own item numbering.</span></span>   
+
+## <a name="to-create-a-nonstock-item"></a><span data-ttu-id="f80e3-113">Para crear productos sin stock</span><span class="sxs-lookup"><span data-stu-id="f80e3-113">To create a nonstock item</span></span>
+<span data-ttu-id="f80e3-114">Las fichas de productos sin stock disponen de mucha menos información que las normales puesto que solo las utiliza en ofertas de ventas y en otras maneras.</span><span class="sxs-lookup"><span data-stu-id="f80e3-114">Nonstock item cards have much less information than normal item cards because you only use them to offer on quotes and in other ways.</span></span> <span data-ttu-id="f80e3-115">Por esa razón, se convertirán en fichas de producto normal antes de que pueda registrarles las transacciones de venta.</span><span class="sxs-lookup"><span data-stu-id="f80e3-115">For that reason, they must be converted to normal item cards before you can post sales transactions for them.</span></span>
+
+1. <span data-ttu-id="f80e3-116">Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Productos sin stock** y, a continuación, seleccione el vínculo relacionado.</span><span class="sxs-lookup"><span data-stu-id="f80e3-116">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Nonstock Items**, and then choose the related link.</span></span>
+2. <span data-ttu-id="f80e3-117">Seleccione la acción **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="f80e3-117">Choose the **New** action.</span></span>
+3. <span data-ttu-id="f80e3-118">Rellene los campos según sea necesario.</span><span class="sxs-lookup"><span data-stu-id="f80e3-118">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+## <a name="to-set-up-how-nonstock-item-numbers-are-converted-to-your-own-numbering"></a><span data-ttu-id="f80e3-119">Para configurar cómo los números de productos sin stock se convierten en su numeración</span><span class="sxs-lookup"><span data-stu-id="f80e3-119">To set up how nonstock item numbers are converted to your own numbering</span></span>
+<span data-ttu-id="f80e3-120">Para activar la conversión de una ficha de producto sin stock en una ficha normal, primero debe configurar cómo se convertirá la numeración del producto del vendedor a su formato de número de producto.</span><span class="sxs-lookup"><span data-stu-id="f80e3-120">To enable conversion of a nonstock item card to a normal item card, you must first set up how the vendor's item numbering is converted to your own item number format.</span></span>
+
+1. <span data-ttu-id="f80e3-121">Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Config. productos sin stock** y, a continuación, seleccione el vínculo relacionado.</span><span class="sxs-lookup"><span data-stu-id="f80e3-121">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Nonstock Item Setup**, and then choose the related link.</span></span>
+2. <span data-ttu-id="f80e3-122">Rellene los campos según sea necesario.</span><span class="sxs-lookup"><span data-stu-id="f80e3-122">Fill in the fields as necessary.</span></span>
+
+## <a name="to-convert-a-nonstock-item-to-a-normal-item"></a><span data-ttu-id="f80e3-123">Para convertir un producto sin stock en un producto normal</span><span class="sxs-lookup"><span data-stu-id="f80e3-123">To convert a nonstock item to a normal item</span></span>
+1. <span data-ttu-id="f80e3-124">Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Productos sin stock** y, a continuación, seleccione el vínculo relacionado.</span><span class="sxs-lookup"><span data-stu-id="f80e3-124">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Nonstock Items**, and then choose the related link.</span></span>
+2. <span data-ttu-id="f80e3-125">Abra la ficha de un producto sin stock que desee convertir a uno normal.</span><span class="sxs-lookup"><span data-stu-id="f80e3-125">Open the card for a nonstock item that you want to convert to a normal item.</span></span>
+3. <span data-ttu-id="f80e3-126">En la ventana **Ficha de producto sin stock**, seleccione la acción **Crear producto**.</span><span class="sxs-lookup"><span data-stu-id="f80e3-126">In the **Nonstock Item Card** window, choose the **Create Item** action.</span></span>
+
+<span data-ttu-id="f80e3-127">Se ha creado una plantilla y una nueva ficha de producto con la información del producto sin stock rellenada previamente.</span><span class="sxs-lookup"><span data-stu-id="f80e3-127">A new item card prefilled with information from the nonstock item and a relevant item template is created.</span></span> <span data-ttu-id="f80e3-128">Si es necesario, podrá rellenar o editar los campos en la nueva ficha de producto.</span><span class="sxs-lookup"><span data-stu-id="f80e3-128">You can then fill or edit fields on the new item card as necessary.</span></span> <span data-ttu-id="f80e3-129">Para obtener más información, vea [Registrar nuevos productos](inventory-how-register-new-items.md).</span><span class="sxs-lookup"><span data-stu-id="f80e3-129">For more information, see [Register New Items](inventory-how-register-new-items.md).</span></span>
+
+## <a name="to-sell-a-nonstock-item-and-convert-it-to-a-normal-item"></a><span data-ttu-id="f80e3-130">Para vender un producto sin stock y convertirlo en un producto normal</span><span class="sxs-lookup"><span data-stu-id="f80e3-130">To sell a nonstock item, and convert it to a normal item</span></span>
+1. <span data-ttu-id="f80e3-131">Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Pedidos de venta** y, a continuación, seleccione el vínculo relacionado.</span><span class="sxs-lookup"><span data-stu-id="f80e3-131">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then choose the related link.</span></span>
+2. <span data-ttu-id="f80e3-132">Seleccione la acción **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="f80e3-132">Choose the **New** action.</span></span> <span data-ttu-id="f80e3-133">Rellene los campos de la ficha desplegable **General** para cada pedido.</span><span class="sxs-lookup"><span data-stu-id="f80e3-133">Fill in the fields on the **General** FastTab as for any sales order.</span></span> <span data-ttu-id="f80e3-134">Para obtener más información, vea [Vender productos](sales-how-sell-products.md).</span><span class="sxs-lookup"><span data-stu-id="f80e3-134">For more information, see [Sell Products](sales-how-sell-products.md).</span></span>
+3. <span data-ttu-id="f80e3-135">En una nueva línea de venta, en el campo **Tipo**, seleccione **Producto**, pero deje **N.º**</span><span class="sxs-lookup"><span data-stu-id="f80e3-135">On a new sales line, in the **Type** field, select **Item**, but leave the **No.**</span></span> <span data-ttu-id="f80e3-136">campo vacío.</span><span class="sxs-lookup"><span data-stu-id="f80e3-136">field empty.</span></span>
+4. <span data-ttu-id="f80e3-137">Elija la acción **Línea** y, a continuación, elija la acción **Seleccionar artículos sin stock**.</span><span class="sxs-lookup"><span data-stu-id="f80e3-137">Choose the **Line** action, and then choose the **Select Nonstock Items** action.</span></span>
+
+    <span data-ttu-id="f80e3-138">El producto sin stock se ha convertido en un producto normal.</span><span class="sxs-lookup"><span data-stu-id="f80e3-138">The nonstock item is converted to a normal item.</span></span> <span data-ttu-id="f80e3-139">Se ha creado una plantilla y una nueva ficha de producto con la información del producto sin stock rellenada previamente.</span><span class="sxs-lookup"><span data-stu-id="f80e3-139">A new item card prefilled with information from the nonstock item and a relevant item template is created.</span></span>
+5. <span data-ttu-id="f80e3-140">En la ventana **Productos sin stock**, seleccione el producto sin stock que desee vender y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="f80e3-140">In the **Nonstock Items** window, select the nonstock item that you want to sell, and then choose the **OK** button.</span></span>
+6. <span data-ttu-id="f80e3-141">Cuando el pedido de venta ya está completo, seleccione la acción **Registrar**.</span><span class="sxs-lookup"><span data-stu-id="f80e3-141">When the sales order is complete, choose the **Post** action.</span></span>
+
+<span data-ttu-id="f80e3-142">Si es necesario, podrá rellenar o editar los campos en la nueva ficha de producto.</span><span class="sxs-lookup"><span data-stu-id="f80e3-142">You can then fill or edit fields on the new item card as necessary.</span></span> <span data-ttu-id="f80e3-143">Para obtener más información, vea [Registrar nuevos productos](inventory-how-register-new-items.md).</span><span class="sxs-lookup"><span data-stu-id="f80e3-143">For more information, see [Register New Items](inventory-how-register-new-items.md).</span></span>
+
+> [!NOTE]  
+>   <span data-ttu-id="f80e3-144">Un informe de referencia cruzada de un producto se crea automáticamente por el proveedor del producto entre el número del producto del proveedor y su nuevo número de producto.</span><span class="sxs-lookup"><span data-stu-id="f80e3-144">An Item cross reference record is automatically created for the vendor of the item between the vendor's item number and your new item number.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="f80e3-145">Consulte también</span><span class="sxs-lookup"><span data-stu-id="f80e3-145">See Also</span></span>
+[<span data-ttu-id="f80e3-146">Registro de productos nuevos</span><span class="sxs-lookup"><span data-stu-id="f80e3-146">Register New Items</span></span>](inventory-how-register-new-items.md)  
+<span data-ttu-id="f80e3-147">[Crear pedidos especiales](sales-how-to-create-special-orders.md)|</span><span class="sxs-lookup"><span data-stu-id="f80e3-147">[Create Special Orders](sales-how-to-create-special-orders.md)|</span></span>  
+[<span data-ttu-id="f80e3-148">Grupos contables inventario</span><span class="sxs-lookup"><span data-stu-id="f80e3-148">Inventory</span></span>](inventory-manage-inventory.md)  
+<span data-ttu-id="f80e3-149">[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="f80e3-149">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 
