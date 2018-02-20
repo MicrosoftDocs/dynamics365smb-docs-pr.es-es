@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d5348e7b15eb0337f2a5f829c871dadcf3133b86
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9d4f8d21d0c79adbac238b2d26accc4c08656c77
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-service-quotes"></a>Cómo crear ofertas de servicio
+# <a name="create-service-quotes"></a>Crear ofertas de servicio
 Puede pensar en ofertas de servicio como base para los pedidos de servicio. De hecho, son casi idénticos. Ambos contienen información como quién es el cliente, el tipo de pedido, el producto que requiera servicio, información sobre facturación y sobre el envío, e información acerca del proyecto de servicio real.
  
 Puede utilizar una oferta de servicio como borrador de un pedido de servicio y, más adelante, convertir la oferta en un pedido de servicio.  
@@ -38,7 +38,7 @@ Puede utilizar una oferta de servicio como borrador de un pedido de servicio y, 
 7. Registre los costes previstos en las líneas de servicio.  
   
 ## <a name="see-also"></a>Consulte también  
-[Cómo crear pedidos de servicio](service-how-to-create-service-orders.md)  
-[Cómo trabajar en tareas de servicio](service-how-to-work-on-service-tasks.md)  
+[Crear pedidos de servicio](service-how-to-create-service-orders.md)  
+[Trabajar en tareas de servicio](service-how-to-work-on-service-tasks.md)  
 
  

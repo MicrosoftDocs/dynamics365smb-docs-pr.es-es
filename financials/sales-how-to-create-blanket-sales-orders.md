@@ -11,13 +11,13 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 0b91925a7ec6adb40cdf99d5bcf3398b62c28b3f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 89db93227222d79e535f2d18400330aa30566f2f
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-blanket-sales-orders"></a>Procedimiento: trabajar con pedidos de venta abiertos
+# <a name="work-with-blanket-sales-orders"></a>Trabajar con pedidos de venta abiertos
 Los pedidos abiertos de venta constituyen un marco de trabajo para establecer un acuerdo a largo plazo con un cliente.
 
 Normalmente, un pedido abierto se utiliza cuando un cliente se ha comprometido a comprar grandes cantidades que se van a entregar en varios envíos más pequeños durante un periodo de tiempo determinado. A menudo, los pedidos abiertos sólo incluyen un producto con fechas de entrega predeterminadas. El motivo principal para utilizar un pedido abierto en lugar de un pedido de venta es que las cantidades especificadas en un pedido abierto no afectan a la disponibilidad de los productos y, así, se puede utilizar como hoja de trabajo con fines de supervisión, previsión y planificación.

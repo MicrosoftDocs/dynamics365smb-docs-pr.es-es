@@ -13,13 +13,13 @@ ms.search.keywords: repair, service
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: cdf1183fb5383311dc34d8c2c619a1eddf7e8851
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7ae4abacf22d3610194ea56bbaa997390cb7df0a
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-fixed-asset-maintenance"></a>Procedimiento: Configurar el mantenimiento de los activos fijos
+# <a name="set-up-fixed-asset-maintenance"></a>Configure el mantenimiento de los activos fijos
 Para gestionar el mantenimiento de los activos fijos, primero debe configurar la información de mantenimiento en una cuenta de registro para los costes de mantenimiento y los códigos de mantenimiento para los tipos de trabajo, como por ejemplo Servicio rutinario o Reparación.
 
 ## <a name="to-set-up-general-maintenance-information"></a>Para configurar la información general de mantenimiento
@@ -42,7 +42,7 @@ Para registrar los costes de mantenimiento, primero debe introducir un número d
 2. Rellene el campo **Cta. gastos mantenimiento** de cada grupo contable.
 
 > [!NOTE]  
->   Para indicar que los costes de mantenimiento están distribuidos entre departamentos o proyectos, debe configurar claves de distribución. Para obtener más información, consulte [Procedimiento: Configurar funciones generales a los activos fijos](fa-how-setup-general.md).
+>   Para indicar que los costes de mantenimiento están distribuidos entre departamentos o proyectos, debe configurar claves de distribución. Para obtener más información, consulte [Configurar funciones generales a los activos fijos](fa-how-setup-general.md).
 
 ## <a name="see-also"></a>Consulte también
 [Configurar activos fijos](fa-setup.md)  

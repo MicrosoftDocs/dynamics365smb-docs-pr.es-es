@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c66fc5da322ddb1d217b61da0b563faab27b344e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 25319bae1d601d6beddca35cf8edc032ac11eda6
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Tutorial: elaboración de previsiones del flujo de efectivo con esquemas de cuentas
@@ -34,7 +34,7 @@ En este tutorial se describen las siguientes tareas:
 ### <a name="prerequisites"></a>Requisitos previos  
 Para completar este tutorial, necesitará:  
 
-- [!INCLUDE[d365fin](includes/d365fin_md.md)] Instalada.  
+- [!INCLUDE[d365fin](includes/d365fin_md.md)]  Instalada.  
 - Se registran las líneas de la hoja de trabajo del flujo de efectivo.  
 
 ## <a name="roles"></a>Roles  

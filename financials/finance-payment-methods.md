@@ -1,6 +1,6 @@
 ---
 title: Configurar formas de pago | Documentos de Microsoft
-Description: "Las formas de pago, por ejemplo, cheque, transferencia bancaria, efectivo o PayPal, se usan para definir cómo se pagarán las facturas."
+Description: You use payment methods, for example, check, bank transfer, cash, or PayPal, to define how an invoice will be paid.
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 0c76b481d4a4c49b9cf0db353edaf1e2885fd4d6
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="defining-payment-methods"></a>Definir las formas de pago

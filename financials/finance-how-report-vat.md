@@ -11,10 +11,10 @@ ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.date: 07/17/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: eb261f0b5b2aae94cebd79c6b23b0a21cb9451ae
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3d9a803f16ebe5f88a659d3e9e6dab35efe1eed9
 ms.contentlocale: es-es
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
@@ -52,7 +52,7 @@ Para la devolución de IVA, puede especificar los movimientos para incluir:
 * Envíe solo los movimientos de los períodos especificados o también incluya movimientos de los períodos previos. Esto es útil para actualizar una declaración de IVA que ya haya enviado, por ejemplo, si un proveedor le envía una factura tardía.    
 
 ## <a name="to-connect-to-your-tax-authoritys-web-service"></a>Conectarse al servicio web de su autoridad fiscal
-[!INCLUDE[d365fin](includes/d365fin_md.md)] proporciona las conexiones de servicio a las páginas web de la autoridad fiscal. Por ejemplo, si está en el Reino Unido, puede habilitar la conexión de servicio **GovTalk** para enviar electrónicamente la lista de ventas de EC y los informes de devolución de IVA. Si desea enviar el informe manualmente, por ejemplo, ingresando sus datos en el sitio web de la autoridad tributaria, esto no es necesario.   
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  proporciona las conexiones de servicio a las páginas web de la autoridad fiscal. Por ejemplo, si está en el Reino Unido, puede habilitar la conexión de servicio **GovTalk** para enviar electrónicamente la lista de ventas de EC y los informes de devolución de IVA. Si desea enviar el informe manualmente, por ejemplo, ingresando sus datos en el sitio web de la autoridad tributaria, esto no es necesario.   
 
 Para informar el IVA a una autoridad fiscal electrónicamente, debe conectar [!INCLUDE[d365fin](includes/d365fin_md.md)] al servicio web de la autoridad fiscal. Para ello es necesario que se configure una cuenta con su autoridad fiscal. Cuando tenga una cuenta, puede activar una conexión de servicio que proporcionamos en [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
@@ -77,7 +77,7 @@ Para informar el IVA a una autoridad fiscal electrónicamente, debe conectar [!I
 4. Para validar y preparar el informe para enviar, elija la acción **Enviar** .  
 
     >  [!NOTE]  
->   [!INCLUDE[d365fin](includes/d365fin_md.md)] valida si el informe está correctamente configurado. Si falla la validación, los errores se muestran en la ventana **Errores y advertencias** para que pueda corregirlos. Normalmente, si el mensaje se trata de una configuración que falta en [!INCLUDE[d365fin](includes/d365fin_md.md)], puede hacer clic en el mensaje para abrir la página que contiene la información para corregir.  
+>   [!INCLUDE[d365fin](includes/d365fin_md.md)]  valida si el informe está correctamente configurado. Si falla la validación, los errores se muestran en la ventana **Errores y advertencias** para que pueda corregirlos. Normalmente, si el mensaje se trata de una configuración que falta en [!INCLUDE[d365fin](includes/d365fin_md.md)], puede hacer clic en el mensaje para abrir la página que contiene la información para corregir.  
 5. Para enviar el informe, elija la acción **Enviar** .  
 
 Después de enviar el informe, [!INCLUDE[d365fin](includes/d365fin_md.md)] supervisa el servicio y mantiene un registro de sus comunicaciones. El campo **Estado** indica dónde se encuentra el informe en el proceso. Por ejemplo, cuando las autoridades procesan el informe, el estado del informe cambia a **Tenido éxito**. Si la autoridad tributaria encuentra errores en el informe que envió, el estado del informe aparecerán en **Erróneo**. Puede ver los errores en **Errores y advertencias**, corregirlos y volver a enviar el informe. Para ver una lista de todos sus informes de listas de ventas de CE, vaya a la página **Informes de la lista de ventas de CE**.  
@@ -116,5 +116,5 @@ En la tabla siguiente se describen las unidades de código que debe crear para e
 [Configurar los cálculos y los métodos de registro del impuesto sobre el valor añadido](finance-setup-vat.md)  
 [Trabajar con el IVA por ventas y compras](finance-work-with-vat.md)  
 [Configuración de ventas](sales-setup-sales.md)  
-[Facturación de ventas](sales-setup-sales.md)  
+[Facturar ventas](sales-setup-sales.md)  
 

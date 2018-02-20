@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9555f2810e82711c9cac98cfe002cb99289ce474
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 38a37195932d1f00928c10e86fa19425eb228f5f
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-put-away-production-or-assembly-output"></a>Cómo ubicar la salida de producción o la salida de ensamblado
+# <a name="put-away-production-or-assembly-output"></a>Ubicar la salida de producción o la salida de ensamblado
 La forma de ubicar la salida de su producción depende de cómo esté configurado el almacén. Para obtener más información, consulte [Configuración de la administración de almacén](warehouse-setup-warehouse.md).  
 
 En las configuraciones básicas de almacén, donde el almacén requiere el proceso de ubicación pero no el de recepción, utilice el documento **Ubicación inventario** para organizar y registrar la ubicación de la salida.  
@@ -33,16 +33,16 @@ El primer paso para crear la ubicación de salida es crear la solicitud de almac
 2.  En la orden de producción que está preparada para ubicación, elija la acción **Crear petición entrada alm.**  
 
 > [!NOTE]  
->  También puede crear la solicitud de almacén de entrada seleccionando la casilla de verificación **Crear solicitud de entrada** cuando actualice la orden de producción. Para obtener más información, vea [Procedimiento: Actualizar o replanificar o actualizar las órdenes de producción](production-how-to-replan-refresh-production-orders.md).  
+>  También puede crear la solicitud de almacén de entrada seleccionando la casilla de verificación **Crear solicitud de entrada** cuando actualice la orden de producción. Para obtener más información, vea [Actualizar o replanificar o actualizar las órdenes de producción](production-how-to-replan-refresh-production-orders.md).  
 
 ## <a name="to-put-output-away-with-an-inventory-put-away"></a>Para ubicar la salida con una ubicación de inventario  
 1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Ubicac. inventario** y, a continuación, seleccione el vínculo relacionado.  
-2.  Cree una ubicación de inventario nueva. Para obtener más información, vea [Procedimiento: ubique productos con ubicaciones de almacén](warehouse-how-to-put-items-away-with-inventory-put-aways.md).
+2.  Cree una ubicación de inventario nueva. Para obtener más información, vea [Ubicar productos con ubicaciones de almacén](warehouse-how-to-put-items-away-with-inventory-put-aways.md).
 3.  Para tener acceso a la salida de la orden de producción, elija la acción **Traer doc. origen** y, a continuación, seleccione la orden de producción lanzada.  
 4.  Rellene las líneas de ubicación como crea conveniente.
 5.  Cuando las líneas estén preparadas para registrar, elija la acción **Registrar**. El registro creará los movimientos de almacén necesarios y registrará la salida de los productos.  
 
-También puede crear **Ubicación existencias** directamente de la orden de producción lanzada. Para obtener más información, vea [Procedimiento: ubique productos con ubicaciones de almacén](warehouse-how-to-put-items-away-with-inventory-put-aways.md).  
+También puede crear **Ubicación existencias** directamente de la orden de producción lanzada. Para obtener más información, vea [Ubicar productos con ubicaciones de almacén](warehouse-how-to-put-items-away-with-inventory-put-aways.md).  
 
 Al ubicar y registrar el inventario, se asume que todas las operaciones se registran según la ruta estándar, es decir, la cantidad de salida se registra de acuerdo con la última operación. Puede usar el diario de salida para registrar las desviaciones de la cantidad de salida y los tiempos de preparación y ejecución. Si es necesario realizar un registro parcial después de crear la ubicación de inventario, puede hacerlo con los tiempos de preparación y las cantidades de todas las operaciones, excepto la última. En tal caso, la ubicación de inventario controla la última operación.  
 

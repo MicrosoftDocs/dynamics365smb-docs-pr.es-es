@@ -1,6 +1,6 @@
 ---
 title: Administre usuarios y roles | Documentos de Microsoft
-description: "Obtenga información sobre cómo administrar usuarios y áreas de trabajo de Microsoft Dynamics 365 for Financials."
+description: "Obtener información sobre cómo administrar usuarios y áreas de trabajo en Finance and Operations, Business edition."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,13 +11,13 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e8989767618962a2db861b2df60aa03a2ca2b484
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b06c5ee737db74e5011c7854601a21bc04d8872a
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="users-profiles-and-role-centers-in-dynamics-365-for-financials"></a>Usuarios, perfiles, y áreas de trabajo de Microsoft Dynamics 365 for Financials
+# <a name="users-profiles-and-role-centers-in-finance-and-operations-business-edition"></a>Usuarios, perfiles y áreas de trabajo en Finance and Operations, Business edition
 La personas de su empresa que tienen acceso a [!INCLUDE[d365fin](includes/d365fin_md.md)] tienen asignado un *perfil* que les da acceso a un *Área de trabajo*. Como administrador, puede asignar y modificar los perfiles en [!INCLUDE[d365fin](includes/d365fin_md.md)] y puede agregar y eliminar usuarios como parte de su suscripción [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="adding-users"></a>Añadir usuarios
@@ -41,7 +41,7 @@ El administrador configura la interfaz de usuario para varios usuarios personali
 Los usuarios personalizan la interfaz de usuario de su versión personal mediante la adaptación de la IU en su propio inicio de sesión de usuario. Esta personalización puede ser eliminada por el administrador.  
 
 ## <a name="see-also"></a>Consulte también  
-[Administrar usuarios y permisos](ui-how-users-permissions.md)  
+[Gestionar usuarios y permisos](ui-how-users-permissions.md)  
 <!-- [Customize the User Interface](../customize-the-user-interface.md)   
  [Security Overview](../Security%20Overview.md)-->
 

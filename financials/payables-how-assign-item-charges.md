@@ -13,13 +13,13 @@ ms.search.keywords: transportation, added cost
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: a97f56eeeb61aa94485dc4ec73f19a01e21e055a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5a40482673c8b8110a6036046174a58f5d7be18f
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-use-item-charges-to-account-for-additional-trade-costs"></a>Utilizar los cargos de producto a cuenta para los costes comerciales adicionales
+# <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Usar los cargos de producto a cuenta para los costes comerciales adicionales
 Para asegurarse de la valoración correcta, sus productos de inventario deben cargar costes adicionales, tales como fletes, manipulación física, seguros y transporte en los que incurra al comprar o vender artículos. Para las compras, el coste de descarga de un producto comprado se compone del precio de compra del proveedor sumado a todos los cargos de producto directos adicionales que se pueden asignar a albaranes o envíos devueltos determinados. Para las compras, conocer el coste de envío de los productos vendidos es tan importante para la empresa como conocer el coste de los productos comprados.
 
 Además de registrar el coste añadido en el valor de inventario, puede usar la función de cargos de producto para:
@@ -48,7 +48,7 @@ Los números de cargo de producto sirven para diferenciar los distintos tipos de
 Si conoce el coste de un producto en el momento en que registra la factura de compra, siga este procedimiento.
 
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Facturas compra** y, a continuación, seleccione el vínculo relacionado.
-2. Cree una nueva factura de compra. Para obtener más información, consulte [Procedimiento: Registrar compras](purchasing-how-record-purchases.md).
+2. Crea una nueva factura de compra. Para obtener más información, consulte [Registrar compras](purchasing-how-record-purchases.md).
 3. Asegúrese de que la factura de compra tiene una o más líneas del tipo Producto.
 4. En una línea nueva, en el campo **Tipo**, seleccione **Cargo (prod.)**.
 5. En el campo **Cantidad**, introduzca las unidades del coste de producto que se han facturado.
@@ -78,7 +78,7 @@ El cargo de producto de la factura de compra independiente se asigna al producto
 
 ## <a name="see-also"></a>Consulte también
 [Administrar pagos](payables-manage-payables.md)  
-[Registro de compras](purchasing-how-record-purchases.md)  
-[Facturación de ventas](sales-how-invoice-sales.md)  
+[Registrar compras](purchasing-how-record-purchases.md)  
+[Facturar ventas](sales-how-invoice-sales.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

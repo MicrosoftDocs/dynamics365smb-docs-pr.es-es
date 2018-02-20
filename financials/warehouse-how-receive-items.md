@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/31/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 34960041320f595b504c9f16913db07c1dd3f053
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3e6ab403945df0f3c98ab1d47eefa0633f0172e3
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-receive-items"></a>Cómo recibir productos
+# <a name="receive-items"></a>Recibir productos
 Cuando los artículos llegan a un almacén que no está configurado para el procesamiento de recibo de almacén, simplemente registre el recibo en el documento comercial relacionado, como una orden de compra, una orden de devolución de ventas o una orden de transferencia de entrada.
 
 Cuando los productos llegan al almacén, se recuperan las líneas del documento de origen que ha activado su recepción. Si tiene ubicaciones, puede aceptar que se rellene la ubicación genérica o, si el producto no se ha utiliza nunca antes en el almacén, rellenar la ubicación donde debe ubicarse el producto.  A continuación, debe rellenar las cantidades de los productos que ha recibido y registrar la recepción.  
@@ -27,7 +27,7 @@ Cuando los productos llegan al almacén, se recuperan las líneas del documento 
 ## <a name="to-receive-items-with-a-purchase-order"></a>Para recibir productos con un pedido de compra
 A continuación se describe cómo recibir productos con un pedido de compra. Los pasos son iguales para las órdenes de devolución de venta y las órdenes de transferencia.  
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Pedidos de compra** y, a continuación, seleccione el vínculo relacionado.
-2. Abra un pedido de compra existente o cree uno nuevo. Para obtener más información, consulte [Procedimiento: Registrar compras](purchasing-how-record-purchases.md).
+2. Abra un pedido de compra existente o cree uno nuevo. Para obtener más información, consulte [Registrar compras](purchasing-how-record-purchases.md).
 3. Escriba la cantidad recibida en el campo **Cantidad a recibir**.
 
     El valor del campo **Cdad. recibida** se actualiza según corresponde. Si se trata de un recibo parcial, el valor es menor que el valor del campo **Cantidad**.

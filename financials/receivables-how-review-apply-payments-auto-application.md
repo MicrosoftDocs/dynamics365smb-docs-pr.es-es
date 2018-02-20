@@ -13,14 +13,14 @@ ms.search.keywords: payment process, reconcile payment, expenses, cash receipts
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 2998cd0841452813cb86ee3859804de93cb9bde9
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 745766657fe7e993aaa689f0074c4f4a41e0090c
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-review-or-apply-payments-manually-after-automatic-application"></a>Procedimiento: Revisar o liquidar pagos manualmente después de una liquidación automática
-Para cada línea de diario que representa un pago en la ventana **Diario de conciliación de pagos** podrá abrir la ventana **Liquidación de pago** para ver todos los candidatos con movimientos pendientes de pago y podrá ver información detallada para cada movimiento sobre la correspondencia de datos en la que se basa la liquidación de un pago. Aquí puede liquidar manualmente pagos o volver a liquidar pagos que se aplicaron automáticamente en un movimiento incorrecto. Para obtener más información acerca de la liquidación automática, vea [Procedimiento: Conciliar pagos usando la liquidación automática](receivables-how-reconcile-payments-auto-application.md).
+# <a name="review-or-apply-payments-manually-after-automatic-application"></a>Revisar o liquidar pagos manualmente después de una liquidación automática
+Para cada línea de diario que representa un pago en la ventana **Diario de conciliación de pagos** podrá abrir la ventana **Liquidación de pago** para ver todos los candidatos con movimientos pendientes de pago y podrá ver información detallada para cada movimiento sobre la correspondencia de datos en la que se basa la liquidación de un pago. Aquí puede liquidar manualmente pagos o volver a liquidar pagos que se aplicaron automáticamente en un movimiento incorrecto. Para obtener más información acerca de la liquidación automática, vea [Conciliar pagos usando la liquidación automática](receivables-how-reconcile-payments-auto-application.md).
 
 > [!IMPORTANT]  
 >   Cuando la cuenta bancaria para la que se están conciliando pagos está configurada para la divisa local, la ventana **Liquidación de pago** mostrará todos los movimientos pendientes en la divisa local, incluidos los movimientos pendientes para documentos facturados originalmente en divisas extranjeras. Los pagos liquidados en movimientos con divisas convertidas se pueden por tanto registrar con importes distintos al del documento original, ya que puede que el banco y [!INCLUDE[d365fin](includes/d365fin_md.md)] usen tipos de cambio potencialmente distintos.
@@ -40,7 +40,7 @@ Por tanto, es recomendable buscar los códigos de divisas extranjeras en el camp
 
 ## <a name="to-review-or-apply-payments-after-automatic-application"></a>Para revisar o aplicar pagos después de una liquidación automática
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diarios de conciliación de pagos** y, a continuación, seleccione el vínculo relacionado.
-2. Abra el diario de conciliación de pagos de un banco para el que desee conciliar los pagos. Para obtener más información, vea [Procedimiento: Conciliar pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md).
+2. Abra el diario de conciliación de pagos de un banco para el que desee conciliar los pagos. Para obtener más información, vea [Conciliar pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md).
 3. En la ventana **Diario de conciliación de pagos**, seleccione un pago que desee revisar o liquidar manualmente a uno o varios movimientos pendientes y, a continuación, seleccione la acción **Liquidación manual**.
 4. Seleccione la casilla **Liquidado** en la línea correspondiente al movimiento pendiente al que desee liquidar el pago.
 5. El importe de pago, que también se mostrará en el campo **Importe de la transacción** en la ventana **Liquidación de pagos**, se inserta en el campo **Importe liquidado**, no obstante puede modificar el campo, por ejemplo si desea liquidar el importe a varios movimientos pendientes.

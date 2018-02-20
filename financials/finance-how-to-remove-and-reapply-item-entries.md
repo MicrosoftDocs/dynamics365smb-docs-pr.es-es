@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5ca921ba6c8ced04899b3a8cc2cd2db91e4d69a3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 12bde7fc508bb29e56ad63d76b526a80b5073f03
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-remove-and-reapply-item-ledger-entries"></a>Cómo eliminar y liquidar de nuevo los movimientos contables de producto
+# <a name="remove-and-reapply-item-ledger-entries"></a>Eliminar y liquidar de nuevo los movimientos contables de producto
 En la ventana **Hoja liquidación**, puede ver y modificar manualmente determinados movimientos de liquidación del producto que se crean automáticamente durante las transacciones del inventario.  
 
 Cuando registra una transacción en la que entran o salen productos del inventario, se crea una liquidación de producto entre cada aumento y disminución de inventario. Dichas liquidaciones determinan el flujo de costes desde los bienes que se reciben en el inventario al coste de los bienes que salen del inventario. Debido a la forma en la que se calcula el coste unitario, una liquidación de producto que sea incorrecta podría resultar en un coste medio sesgado y en un coste unitario también sesgado. Para obtener más información, consulte Detalles de diseño: Liquidación de productos.
@@ -30,7 +30,7 @@ Es posible que en los siguientes ejemplos, sea necesario deshacer una liquidaci�
 - Ha realizado una liquidación fija incorrecta.
 - Debe devolver un producto al que ya se ha aplicado una venta.
 
-Si es posible, utilice un documento para volver a liquidar un movimiento de producto. Por ejemplo, si necesita realizar una devolución de compra de un producto al que ya se ha aplicado una venta, puede realizar una repetición de la liquidación creando y registrando el documento de devolución de compra utilizando la liquidación correcta en el campo **Liq. por nº orden producto** situado en la línea de devolución de compra. Puede utilizar la función **Revertir líneas documentos registrados** o la función **Copiar líneas** en el documento de devolución de compra para facilitar este proceso. Cuando registra el documento, el movimiento de producto se vuelve a liquidar automáticamente. Para obtener más información, vea [Procedimiento: Procesar devoluciones de compra o cancelaciones](purchasing-how-process-purchase-returns-cancellations.md).
+Si es posible, utilice un documento para volver a liquidar un movimiento de producto. Por ejemplo, si necesita realizar una devolución de compra de un producto al que ya se ha aplicado una venta, puede realizar una repetición de la liquidación creando y registrando el documento de devolución de compra utilizando la liquidación correcta en el campo **Liq. por nº orden producto** situado en la línea de devolución de compra. Puede utilizar la función **Revertir líneas documentos registrados** o la función **Copiar líneas** en el documento de devolución de compra para facilitar este proceso. Cuando registra el documento, el movimiento de producto se vuelve a liquidar automáticamente. Para obtener más información, vea [Procesar devoluciones de compra o cancelaciones](purchasing-how-process-purchase-returns-cancellations.md).
 
 Si no puede usar un documento para volver a liquidar, por ejemplo cuando tiene que corregir una liquidación fija, utilice la ventana **Hoja liquidación** para realizar la corrección.
 
@@ -75,7 +75,7 @@ Si no puede usar un documento para volver a liquidar, por ejemplo cuando tiene q
 6.  Si en la configuración de existencias, el campo **Ajuste automático coste** en **Configuración inventario** se ha establecido en **Siempre**, se ejecuta automáticamente el trabajo por lotes de ajuste del coste una vez que se haya repetido la liquidación De lo contrario, ejecute el trabajo por lotes **Valorar stock - movs. producto** para asegurarse de que todos los costes estén actualizados.  
 
 ## <a name="see-also"></a>Consulte también  
-[Cómo cerrar los movimientos de producto abiertos que se crean por una liquidación fija en el diario de productos](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
+[Cerrar los movimientos de producto abiertos que se crean por una liquidación fija en el diario de productos](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
  [Procesamiento de devoluciones de compra o cancelaciones](purchasing-how-process-purchase-returns-cancellations.md)  
  [Gestión de costes de inventario](finance-manage-inventory-costs.md)   
  [Detalles de diseño: Liquidación de productos](design-details-item-application.md)  

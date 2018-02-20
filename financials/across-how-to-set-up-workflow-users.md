@@ -12,21 +12,21 @@ ms.search.keywords: reject, delegate, request
 ms.date: 08/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 929cce642a6adccc493c1ce9947ac60662b261d5
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b4ce5a807923cd052e97215118fa21c9da82abf2
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-workflow-users"></a>Procedimiento: Configurar usuarios de flujo de trabajo
+# <a name="set-up-workflow-users"></a>Configurar usuarios de flujo de trabajo
 Para poder crear flujos de trabajo, debe configurar los usuarios que participan en flujos de trabajo. Esto es necesario para especificar, por ejemplo, quién debe recibir una notificación para actuar sobre un paso del flujo de trabajo.  
 
 En la ventana **Grupo de usuarios de flujo de trabajo**, se configuran usuarios en grupos de usuarios de flujo de trabajo y se especifica el número de usuarios en una secuencia del proceso, como una cadena de aprobadores.  
 
-Los usuarios del flujo de trabajo que funcionan como usuarios de aprobación, tanto solicitantes de aprobación como aprobadores, también deben configurarse como usuarios de flujo de trabajo en la ventana **Config. usuario aprobación**. Para obtener más información, vea [Procedimiento: Configurar usuarios de aprobación](across-how-to-set-up-approval-users.md).  
+Los usuarios del flujo de trabajo que funcionan como usuarios de aprobación, tanto solicitantes de aprobación como aprobadores, también deben configurarse como usuarios de flujo de trabajo en la ventana **Config. usuario aprobación**. Para obtener más información, vea [Configurar usuarios de aprobación](across-how-to-set-up-approval-users.md).  
 
 > [!NOTE]  
->  Para definir que una solicitud de aprobación no está aprobada hasta que varios aprobadores en un cadena de aprobación la hayan aprobado, configure aprobadores en jerarquía. Para el tipo de aprobador **Aprobador**, configura los aprobadores en la ventana **Config. usuario aprobación**. Para el tipo de aprobador, **Grupo de usuarios del grupo de trabajo**, configura los aprobadores en la ventana **Grupos de usuarios de flujo de trabajo** y define la jerarquía asignando números incrementales a cada aprobador en el campo **Nº secuencia** . Para obtener más información, consulte [Procedimiento: Configurar usuarios de aprobación](across-how-to-set-up-approval-users.md) y este tema.  
+>  Para definir que una solicitud de aprobación no está aprobada hasta que varios aprobadores en un cadena de aprobación la hayan aprobado, configure aprobadores en jerarquía. Para el tipo de aprobador **Aprobador**, configura los aprobadores en la ventana **Config. usuario aprobación**. Para el tipo de aprobador, **Grupo de usuarios del grupo de trabajo**, configura los aprobadores en la ventana **Grupos de usuarios de flujo de trabajo** y define la jerarquía asignando números incrementales a cada aprobador en el campo **Nº secuencia** . Para obtener más información, consulte [Configurar usuarios de aprobación](across-how-to-set-up-approval-users.md) y este tema.  
 >   
 >  Para definir que una solicitud de aprobación no está aprobada hasta que varios aprobadores iguales la hayan aprobado, sin importar la jerarquía, configure un grupo de usuarios de flujo de trabajo lineal. Para el tipo de aprobador, **Grupo de usuarios del grupo de trabajo**, configura los aprobadores en la ventana **Grupos de usuarios de flujo de trabajo** y asigna el mismo número a cada aprobador en el campo **Nº secuencia** . Para obtener más información, consulte este tema.  
 
@@ -46,7 +46,7 @@ Los usuarios del flujo de trabajo que funcionan como usuarios de aprobación, ta
 7. Repita los pasos del 2 al 6 para añadir más grupos de usuarios de flujo de trabajo.  
 
 ## <a name="see-also"></a>Consulte también  
-[Procedimiento: Configurar usuarios de aprobación](across-how-to-set-up-approval-users.md)   
+[Configurar usuarios de aprobación](across-how-to-set-up-approval-users.md)   
 [Configuración de flujos de trabajo](across-set-up-workflows.md)   
 [Uso de flujos de trabajo](across-use-workflows.md)   
 [Tutorial: Configuración y uso de un flujo de trabajo de aprobación de compra](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   

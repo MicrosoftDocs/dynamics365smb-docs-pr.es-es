@@ -12,18 +12,18 @@ ms.workload: na
 ms.date: 05/12/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 378be05a9b8f280252f0b8a3d461840790316b23
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ab5be6e74e9dd90b07a765692d1ff9192fe42688
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-preview-posting-results"></a>Procedimiento: Vista previa de los resultados del registro
+# <a name="preview-posting-results"></a>Vista previa de los resultados del registro
 En cada documento y diario que se pueda registrar, puede elegir el botón **Vista previa de registro** para revisar los diferentes tipos de entradas que se crearán cuando registre el documento o diario.
 
 ## <a name="to-preview-gl-entries-that-will-result-from-posting-a-purchase-invoice"></a>Para obtener una vista previa de los movimientos contables que resultarán de registrar una factura de compra
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Facturas compra** y, a continuación, seleccione el vínculo relacionado.
-2. Cree una factura de compra. Para obtener más información, consulte [Procedimiento: Registrar compras](purchasing-how-record-purchases.md).
+2. Cree una factura de compra. Para obtener más información, consulte [Registrar compras](purchasing-how-record-purchases.md).
 3. Elija **Vista previa de registro**.
 4. En la ventana **Vista previa de registro**, seleccione **Mov. contabilidad** y, a continuación, elija **Mostrar movimientos relacionados**.  
    La ventana **Vista previa de movs. contabilidad** muestra qué movimientos se crearán al registrar la factura de compra.

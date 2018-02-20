@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 3a257ba6434f8689a78e975811a0c5897b3836f8
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9564da28e9850e30e42ea2824043e25041f5adaa
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-import-and-export-a-report-or-document-layout"></a>Cómo importar y exportar un diseño de informe o documento personalizado
+# <a name="import-and-export-a-report-or-document-layout"></a>Importar y exportar un diseño de informe o documento personalizado
 Puede importar y exportar un diseño de informe personalizado existente como archivo a o desde una ubicación de su equipo y red. Por ejemplo, puede exportar un diseño de informe y, a continuación, enviar el archivo a otra persona para que lo modifique. Esa persona podrá entonces hacer las modificaciones en el diseño y devolverle el archivo para que pueda importarlo de nuevo.  
   
 > [!IMPORTANT]  
@@ -52,6 +52,6 @@ Puede importar y exportar un diseño de informe personalizado existente como arc
  El diseño de informe original personalizado se reemplaza con el diseño de informe importado.  
   
 ## <a name="see-also"></a>Consulte también  
- [Cómo crear y modificar un diseño de informe personalizado](ui-how-create-custom-report-layout.md)   
+ [Crear y modificar un diseño de informe personalizado](ui-how-create-custom-report-layout.md)   
  [Administrar diseños de informes y documentos](ui-manage-report-layouts.md)  
  [Trabajar con informes](ui-work-report.md)    

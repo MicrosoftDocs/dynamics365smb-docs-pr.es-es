@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/14/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: f42941328d49aee4e823007284fd14417866cbae
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: cf54f63e94ab3249f30d2fcdbef2c35e323e4cd8
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-shop-calendars"></a>Configuración de calendarios de planta
+# <a name="set-up-shop-calendars"></a>Configurar calendarios de planta
 Un calendario del centro de trabajo o de máquina especifica los días y las horas laborables, las vacaciones y las ausencias que determinan la capacidad disponible bruta del centro de trabajo, medida en tiempo, de acuerdo con los valores de eficiencia y capacidad definidos.
 
 Como requisito para calcular el calendario de un centro de trabajo o de máquina específico, deben definirse primero uno o varios calendarios generales de planta. Los calendarios de planta definen la semana de trabajo estándar en términos de horas de inicio y fin de cada día laborable y la relación con los turnos de trabajo. Asimismo, los calendarios de planta definen los días festivos fijos durante el año.  
@@ -108,8 +108,8 @@ El calendario calculado del centro de trabajo definirá ahora cuándo y cuánta 
 El tiempo de ausencia registrado se reduce de la capacidad del día seleccionado.  
 
 ## <a name="see-also"></a>Consulte también  
-[Configuración de calendarios base](across-how-to-assign-base-calendars.md)  
-[Procedimiento: Configuración de centros de trabajo y centros de máquinas](production-how-to-set-up-work-and-machine-centers.md)  
+[Configurar calendarios base](across-how-to-assign-base-calendars.md)  
+[Configuración de centros de trabajo y centros de máquinas](production-how-to-set-up-work-and-machine-centers.md)  
 [Configuración de fabricación](production-configure-production-processes.md)  
 [Fabricación](production-manage-manufacturing.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

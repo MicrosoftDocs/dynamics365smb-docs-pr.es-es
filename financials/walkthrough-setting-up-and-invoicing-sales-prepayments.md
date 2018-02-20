@@ -1,6 +1,6 @@
 ---
 title: "Tutorial: Configuración y facturación de prepagos de ventas | Documentos de Microsoft"
-description: "Los prepagos son pagos que se facturan y registran en un pedido de prepago de ventas o compras antes de la facturación final. Es posible que solicite un depósito antes de fabricar productos del pedido, o que solicite un pago antes de enviar productos al cliente. La funcionalidad de prepagos en Dynamics 365 se utiliza para facturar y cobrar depósitos de los clientes o remitir depósitos a los proveedores. De este modo, puede asegurar que todos los pagos estén registrados contra una factura."
+description: "Los prepagos son pagos que se facturan y registran en un pedido de prepago de ventas o compras antes de la facturación final. Es posible que solicite un depósito antes de fabricar productos del pedido, o que solicite un pago antes de enviar productos al cliente. La funcionalidad de prepagos en Finance and Operations, Business edition se utiliza para facturar y cobrar depósitos de los clientes o remitir depósitos a los proveedores. De este modo, puede asegurar que todos los pagos estén registrados contra una factura."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: fbdeb6b9dc8c96b09ded933ec987b8c60098bfcf
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: cd74d543168f1f96f55141aace571d6d701e3de1
 ms.contentlocale: es-es
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Tutorial: Configuración y facturación de prepagos de ventas
@@ -128,7 +128,7 @@ Susana crea la factura de prepago y la envía al cliente.
 
     El campo **% prepago** de la línea con el producto **1100** contiene **40**. Es el porcentaje que especificó en la ventana **Porcentajes prepago ventas** para el producto **1100** y el cliente **20000**.  
 
-    Para obtener más información, vea [Procedimiento: configurar prepagos](finance-set-up-prepayments.md).  
+    Para obtener más información, consulte [Configurar prepagos](finance-set-up-prepayments.md).  
 8. Seleccione la acción **Estadísticas**.  
 9. En la ficha desplegable **Prepago**, el campo de **Importe línea prepago excl. IVA** contiene **1.560**. Si ahora crea una factura prepago para el pedido, ésta será el importe que figura en la factura.  
 

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: d87e01cb987a019c6e71b50dcdeae55dc0375146
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d8622d11cd23e506d1b85b18dbe5facb740c7753
 ms.contentlocale: es-es
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="scenario-example-defining-dynamic-allocations-based-on-items-sold"></a>Ejemplo: definición de asignaciones dinámicas basándose en productos vendidos
@@ -43,11 +43,11 @@ Este tema muestra un ejemplo de cómo definir asignaciones mediante el método d
 14. Elija la acción **Calcular clave de asignación** para calcular el reparto.  
 
     > [!IMPORTANT]  
-    >  [!INCLUDE[d365fin](includes/d365fin_md.md)] utiliza las cifras de ventas de ejercicios anteriores para calcular un reparto de 1596,50 DL con el 100 por ciento para los paquetes de EQUIPO TI. Esto significa que todos los productos vendidos el año anterior se asignarán al EQUIPO TI del objeto de coste.  
+    >  [!INCLUDE[d365fin](includes/d365fin_md.md)]  utiliza las cifras de ventas de ejercicios anteriores para calcular un reparto de 1596,50 DL con el 100 por ciento para los paquetes de EQUIPO TI. Esto significa que todos los productos vendidos el año anterior se asignarán al EQUIPO TI del objeto de coste.  
 
 ## <a name="see-also"></a>Consulte también  
  [Configuración de filtros para las bases de la asignación dinámica](finance-setting-filters-for-dynamic-allocation-bases.md)   
- [Procedimiento: Configurar origen y destinos de asignación](finance-how-to-set-up-allocation-source-and-targets.md)   
+ [Configurar origen de asignación y destinos](finance-how-to-set-up-allocation-source-and-targets.md)   
  [Definición y asignación de costes](finance-define-and-allocate-costs.md)   
  [Terminología en contabilidad de costes](finance-terminology-in-cost-accounting.md)   
  [Acerca de la contabilidad de costes](finance-about-cost-accounting.md)

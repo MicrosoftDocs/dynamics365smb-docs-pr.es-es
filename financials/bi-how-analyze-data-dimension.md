@@ -10,25 +10,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 06/13/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: ad073c6958584c31c1dda8470ccb160a49d61911
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ec3210e019da3369971d3aef6a4e38f4dcf1f530
 ms.contentlocale: es-es
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-#  <a name="how-to-analyze-data-by-dimensions"></a>Analizar datos por dimensiones
+#  <a name="analyze-data-by-dimensions"></a>Analizar datos por dimensiones
 En análisis financiero, una dimensión son datos que puede agregar a un movimiento como una especie de marcador. Estos datos se utilizan para agrupar movimientos de características similares, como clientes, regiones, productos y vendedor, y así poder recuperar con facilidad estos grupos para su análisis. Las dimensiones se pueden utilizar en movimientos de diarios, documentos y presupuestos. El término dimensión describe cómo tiene lugar el análisis. Un análisis de dos dimensiones, por ejemplo, sería ventas por área. Sin embargo, mediante el uso de más de dos dimensiones al crear un movimiento, puede efectuar un análisis más complejo, como ventas por campaña de ventas, grupo de clientes y área. Para obtener más información, consulte [Trabajar con dimensiones](finance-dimensions.md).
 
 Analizar datos por dimensiones le proporciona una mejor perspectiva de su empresa, para así poder evaluar la información, como el desempeño de la empresa, dónde destaca y dónde no, y dónde se deberían asignar más recursos.
 
 > [!TIP]
 > Como una forma rápida de analizar datos transaccionales por dimensiones, puede filtrar por dimensiones los totales del plan de cuentas y movimientos en todas las ventanas **Movimientos**. Busque la acción **Establecer filtro de dimensiones**.
-
-> [!NOTE]  
->   Esta funcionalidad requiere que la experiencia esté definida en **Suite**. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
 
 ## <a name="to-set-up-an-analysis-view"></a>Para configurar una vista de análisis  
 Los análisis por dimensiones muestran una combinación seleccionada de dimensiones. Puede almacenar y recuperar cada análisis que haya configurado. La información de configuración de un análisis se guarda en una ficha **Vista de análisis** para simplificar futuros análisis.  

@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/22/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 7ee0dc8f0f44e9bb62fc87caf85eaf92d438abe6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: fb65a8b978a0f87b27cc48a634c4ec64d230221d
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-service-invoices-or-credit-memos"></a>Cómo crear una factura de servicio o abono de servicio.
+# <a name="create-service-invoices-or-credit-memos"></a>Crear facturas o abonos de servicios
 La facilidad de facturar sus pedidos de servicio es una función esencial de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Puede enviar una factura a sus clientes en cualquier momento o crear facturas periódicamente.  
   
 Para crear una factura directamente, puede usar la ventana **Contrato de servicio**. También puede configurar el sistema de modo que un técnico de servicio de campo pueda crear una factura de servicios que no estén vinculados con un contrato o pedido.  
@@ -99,7 +99,7 @@ Un documento de abono de servicio se utiliza normalmente cuando un cliente devue
 4. En las líneas de abono, escriba información acerca de los productos devueltos o eliminados, o bien especifique la compensación que se va a proporcionar al cliente.  
 
 ## <a name="see-also"></a>Consulte también
-[Cómo registrar facturas de servicio](service-how-to-post-service-orders.md)  
+[Registrar facturas de servicio](service-how-to-post-service-orders.md)  
 [Configurar la gestión de servicios](service-setup-service.md)  
 [Registro de servicio](service-service-posting.md)  
 

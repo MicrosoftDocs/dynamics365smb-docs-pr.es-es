@@ -13,20 +13,20 @@ ms.search.keywords:
 ms.date: 08/14/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e6be50119da5c617ce6dbf603903266f9ced821e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: c9f2464014f2078f2a86f2e7d8a72873fa4015a8
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-combine-shipments-on-a-single-invoice"></a>Procedimiento: Agrupamiento de envíos en una factura única
+# <a name="combine-shipments-on-a-single-invoice"></a>Agrupar envíos en una factura única
 Si desea facturar varios envíos a la vez, utilice la función de agrupación de envíos.  
 
  Para crear una agrupación de envíos, primero debe registrar más de un envío de venta para el mismo cliente en la misma divisa. Dicho de otro modo, debe haber rellenado dos o más pedidos de venta y haberlos registrado como enviados pero no facturados. Para agrupar envíos deberá activar la casilla de verificación **Fact. automática** de la ficha desplegable **Envíos** de la ficha del **Cliente**.  
 
 ## <a name="to-manually-combine-shipments-on-a-single-invoice"></a>Para agrupar envíos de forma manual en una factura única  
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Facturas venta** y, a continuación, seleccione el vínculo relacionado.  
-2. Seleccione la acción **Nuevo**. Para obtener más información, vea [Procedimiento: Facturar ventas](sales-how-invoice-sales.md).
+2. Seleccione la acción **Nuevo**. Para obtener más información, vea [Facturar ventas](sales-how-invoice-sales.md).
 3. En el campo **Venta a-N.º cliente**, introduzca el cliente que recibirá la factura de los productos enviados.  
 4. En la ficha desplegable **Líneas**, elija la acción **Traer líns. recep**.  
 5. Seleccione la línea del envío que desee incluir en la factura:  

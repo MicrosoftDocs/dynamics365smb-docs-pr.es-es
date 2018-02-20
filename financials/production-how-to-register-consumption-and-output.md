@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: a60e63e9741f81aa6efcf8b6a4780b5b464fe440
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 493c6e24a42229bc6e5223319ca66c103ee08f96
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-register-consumption-and-output-for-one-released-production-order-line"></a>Cómo registrar el consumo y la salida de una línea de orden de producción lanzada
+# <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Registrar el consumo y la salida de una línea de orden de producción lanzada
 Esta tarea de ejecución se realiza en la ventana **Diario de producción**. El diario combina las funciones del diario de consumo y de los diarios de salida en un único diario, al que se tiene acceso directamente desde una orden de producción lanzada. La finalidad principal de este diario es registrar manualmente el consumo de componentes, la cantidad de los productos finales fabricados y el tiempo empleado en las operaciones. Su finalidad principal es registrar manualmente el consumo de componentes, la cantidad de productos finales fabricados y el tiempo dedicado a las operaciones. Los valores se registran en los movimientos de contabilidad bajo la orden de producción lanzada. Las cantidades de consumo se registran como movimientos de producto negativos, las cantidades de salida se registran como movimientos positivos y los tiempos invertidos se registran como movimientos de capacidad. Estos valores registrados se pueden consultar también en la parte inferior del diario como cantidades reales.  
 
 > [!NOTE]  
@@ -32,7 +32,7 @@ Esta tarea de ejecución se realiza en la ventana **Diario de producción**. El 
 1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **O.P. lanzadas** y, a continuación, seleccione el vínculo relacionado.  
 2.  Abra una línea de orden de producción lanzada que esté lista para su registro. En la ficha desplegable **Líneas**, seleccione la acción **Línea** y, a continuación, elija la acción **Diario de producción**.  
 
-    La ventana **Diario de producción** se abre y muestra las líneas de diario para la línea de orden de producción según las ventanas **Componente orden producción** y **Ruta orden producción**. Estas líneas proceden de la L.M. de producción y la ruta asignados al producto que se está fabricando. Para obtener más información, consulte [Creación de L.M. de producción](production-how-to-create-routings.md).  
+    La ventana **Diario de producción** se abre y muestra las líneas de diario para la línea de orden de producción según las ventanas **Componente orden producción** y **Ruta orden producción**. Estas líneas proceden de la L.M. de producción y la ruta asignados al producto que se está fabricando. Para obtener más información, consulte [Crear L.M. de producción](production-how-to-create-routings.md).  
 
 3.  En el campo **Fecha registro** situado en la parte superior del diario, especifique una fecha de registro que se aplique a todas las líneas. La fecha de trabajo se especifica de forma predeterminada. Este campo constituye un método rápido de alinear las fechas de registro en todas las líneas, si es necesario.  
 

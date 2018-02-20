@@ -13,18 +13,18 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: db0e3f159a0d6a793ed5881118ecff6d0bf6a529
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1c514178ef65b78ad74256834b962e7018ac3864
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-specify-when-and-how-to-receive-notifications"></a>Procedimiento: Especificar cómo y cuándo recibir notificaciones
+# <a name="specify-when-and-how-to-receive-notifications"></a>Especificar cómo y cuándo recibir notificaciones
 Al configurar usuarios en los flujos de trabajo de aprobación, especifique en las ventanas **Configuración de notificación** y **Programación de notificación** cómo y cuándo cada usuario recibe las notificaciones sobre los pasos de flujo de aprobación. Los usuarios individuales pueden cambiar también su configuración de notificación eligiendo el botón **Cambiar configuración de notificación** en cualquier notificación.  
 
- Para poder configurar preferencias de notificación de un usuario de aprobación debe configurar el usuario como usuario de aprobación. Para obtener más información, consulte [Procedimiento: Configurar usuarios de aprobación](across-how-to-set-up-approval-users.md).  
+ Para poder configurar preferencias de notificación de un usuario de aprobación debe configurar el usuario como usuario de aprobación. Para obtener más información, [Configurar usuarios de aprobación](across-how-to-set-up-approval-users.md).  
 
- Se define el diseño y el contenido y de las notificaciones configurando plantillas de notificación. Para obtener más información, vea [Procedimiento: Administrar las plantillas de notificación](across-how-to-manage-notification-templates.md).  
+ Se define el diseño y el contenido y de las notificaciones configurando plantillas de notificación. Para obtener más información, vea [Administrar las plantillas de notificación](across-how-to-manage-notification-templates.md).  
 
  Muchos pasos del flujo de trabajo de aprobación están relacionados con la notificación a los usuarios de un evento que se ha producido y en el que deben realizar una acción. Por ejemplo, en un paso del flujo de trabajo, el evento puede ser que el usuario 1 solicita la aprobación de un registro nuevo. La respuesta relacionada es que se envíe una notificación al usuario 2, el aprobador. En el siguiente paso del flujo de trabajo, el evento puede ser que el usuario 2 aprueba el registro. La respuesta relacionada es que se envíe una notificación al usuario 3 para iniciar un proceso con el registro aprobado. En el caso de los pasos del flujo de trabajo relacionados con la aprobación, cada notificación está vinculada a un movimiento de aprobación. Para obtener más información, consulte [Flujo de trabajo](across-workflow.md).  
 
@@ -59,8 +59,8 @@ Al configurar usuarios en los flujos de trabajo de aprobación, especifique en l
 2.  En la ventana **Configuración de notificación**, cambie sus preferencias de notificación tal como se describe en el procedimiento anterior.  
 
 ## <a name="see-also"></a>Consulte también  
- [Procedimiento: Configurar usuarios de aprobación](across-how-to-set-up-approval-users.md)   
- [Procedimiento: Administrar las plantillas de notificación](across-how-to-manage-notification-templates.md)   
+ [Configurar usuarios de aprobación](across-how-to-set-up-approval-users.md)   
+ [Administrar las plantillas de notificación](across-how-to-manage-notification-templates.md)   
  [Configurar notificaciones de flujo de trabajo](across-setting-up-workflow-notifications.md)   
  [Configuración de flujos de trabajo](across-set-up-workflows.md)   
  [Uso de flujos de trabajo](across-use-workflows.md)

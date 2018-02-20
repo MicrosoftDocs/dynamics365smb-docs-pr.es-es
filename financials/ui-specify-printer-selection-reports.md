@@ -13,10 +13,10 @@ ms.search.keywords: online printing
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 42fb4adbcc01c443722fe90bb59edafceb34ff06
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9612d1b0859639bf25713dd8bcfbebdaacd3517e
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="specify-printer-selection-for-reports"></a>Especificar selección de impresora para informes
@@ -47,6 +47,6 @@ The following table describes the combination of values to specify when you set 
 
 ## <a name="see-also"></a>Consulte también
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Ejecución de trabajos por lotes](ui-how-run-batch-jobs.md)  
-[Enviar documentos por correo electrónico.](ui-how-send-documents-email.md)  
+[Ejecutar procesos](ui-how-run-batch-jobs.md)  
+[Enviar documentos por correo electrónico](ui-how-send-documents-email.md)  
 

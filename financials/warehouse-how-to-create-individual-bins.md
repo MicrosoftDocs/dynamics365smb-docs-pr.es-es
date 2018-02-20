@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 37a79ad08113b16bf0240d4c92eac6464015db07
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f8cd19f97c530397dd6b499157e13340331aa3ba
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-bins"></a>Procedimiento: crear ubicaciones
+# <a name="create-bins"></a>Crear ubicaciones
 La forma más eficaz de crear las ubicaciones del almacén es generar grupos de ubicaciones similares en la hoja de trabajo de creación de ubicación, pero también puede crear las ubicaciones individualmente desde la ficha de almacén. También puede utilizar una función en la ventana **Hoja trab. creación ubicación** para crear las ubicaciones automáticamente.  
 
 ## <a name="to-create-a-bin-from-the-location-card"></a>Para crear una ubicación desde la ficha de almacén  
@@ -39,7 +39,7 @@ Antes de empezar a crear ubicaciones automáticamente, debe determinar el tipo d
 > [!NOTE]  
 >  En cuanto utilice una ubicación, no podrá eliminarla si no está vacía. Pero si desea utilizar otro sistema de denominación de ubicaciones, puede utilizar el diario de reclasificación para mover los productos a un nuevo sistema de ubicación. No obstante, este proceso es manual y lleva cierto tiempo, por lo que es mejor configurar sus ubicaciones correctamente desde el principio.  
 
-Para trabajar con la ventana **Hoja trab. creación ubicación**, debe estar configurado como empleado de almacén en el almacén donde estén las ubicaciones. Para obtener más información, vea [Cómo configurar los empleados de almacén](warehouse-how-to-set-up-warehouse-employees.md).    
+Para trabajar con la ventana **Hoja trab. creación ubicación**, debe estar configurado como empleado de almacén en el almacén donde estén las ubicaciones. Para obtener más información, vea [Configurar los empleados de almacén](warehouse-how-to-set-up-warehouse-employees.md).    
 
 1.  Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Hoja trab. creación ubicación** y, a continuación, seleccione el vínculo relacionado.  
 2.  Elija la acción **Calcular ubicaciones**.

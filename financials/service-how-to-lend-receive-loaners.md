@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/28/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ab8ac8e4cdfda63ed797415fcd183b410feea6bc
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 06b697ee8335f5c24b61414e9d7aebc5add2c5b0
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-lend-and-receive-loaners"></a>Prestar y recibir productos prestados
+# <a name="lend-and-receive-loaners"></a>Prestar y recibir productos prestados
 Puede prestar productos a los clientes para reemplazar temporalmente productos de servicio recibidos para servicio.  
   
 ## <a name="to-lend-a-loaner-item"></a>Para prestar un producto de préstamo    
@@ -47,5 +47,5 @@ Puede utilizar la ventana **Comentarios generales**para registrar comentarios ac
 5. En el campo **Comentario**, escriba un comentario. Puede introducir un máximo de 80 caracteres. Si necesita escribir más texto, desplácese a la siguiente línea. Puede completar tantas líneas como sea necesario.  
   
 ## <a name="see-also"></a>Consulte también  
-[Cómo configurar un programa de productos prestados](service-how-setup-loaner-program.md)   
+[Configurar un programa de productos prestados](service-how-setup-loaner-program.md)   
 

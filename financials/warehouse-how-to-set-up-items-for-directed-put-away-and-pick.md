@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9b41bb902d8a2298f438233ca24c5a7bcf7f69d9
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5c802ee014df6c992a9e5b1e975f2cdc981e3a5a
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-items-and-locations-for-directed-put-away-and-pick"></a>Cómo configurar productos y ubicaciones para picking y ubicaciones directas
+# <a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a>Configurar productos y almacenes para ubicaciones y picking directos
 Cuando un almacén está configurado para ubicación y picking directos, tiene disponible nueva funcionalidad que le ayuda a ejecutar los procesos de almacén de la forma más eficaz posible. Para utilizar toda esta funcionalidad, tiene que proporcionar información adicional sobre los productos, que, a su vez, ayuda a que se realicen los cálculos necesarios para sugerir las formas más efectivas y eficaces de dirigir las actividades de almacén. Para obtener más información, consulte [Detalles de diseño: Configuración almacén](design-details-warehouse-setup.md).
 
 ## <a name="to-set-up-an-item-for-directed-put-away-and-pick"></a>Para configurar productos para picking y ubicaciones directas  
@@ -44,7 +44,7 @@ No tiene que rellenar ningún otro campo de la ficha de almacén hasta más tard
 > [!NOTE]  
 >  No puede configurar el almacén para utilizar ubicaciones cuando el almacén tiene movimientos de producto pendientes.  
 
-El siguiente paso es definir el tipo de ubicaciones con las que desea trabajar. Para obtener más información, vea [Cómo configurar tipos de ubicación](warehouse-how-to-set-up-bin-types.md). El tipo de ubicación define cómo utilizar una ubicación determinada cuando procese el flujo de productos a través del almacén. Un tipo de ubicación se puede asignar a una zona y a una ubicación.  
+El siguiente paso es definir el tipo de ubicaciones con las que desea trabajar. Para obtener más información, consulte [Configurar tipos de ubicaciones](warehouse-how-to-set-up-bin-types.md). El tipo de ubicación define cómo utilizar una ubicación determinada cuando procese el flujo de productos a través del almacén. Un tipo de ubicación se puede asignar a una zona y a una ubicación.  
 
 También puede definir los códigos de clase de almacén, si el almacén trabaja con productos que necesitan diversas condiciones de almacenamiento. Los códigos de clase de almacén se utilizan cuando se sugiere la colocación del artículo en las ubicaciones. Asigne los códigos de clase de almacén a los grupos de artículos, que luego se asignarán a los artículos y UA, o a las zonas y a las ubicaciones que pueden adaptarse a las condiciones de almacenamiento requeridas por los códigos de clase de almacén.  
 
@@ -60,12 +60,12 @@ Al cambiar un parámetro de zona, todas las ubicaciones creadas a partir de ento
 > [!NOTE]  
 >  Si desea trabajar sin zonas, aún necesita crear un código de zona que no esté definido, excepto por el código.  
 
-El siguiente paso en la configuración del almacén es definir ubicaciones. Para obtener más información, consulte [Procedimiento: configure lugares para utilizar las ubicaciones](warehouse-how-to-set-up-locations-to-use-bins.md).  
+El siguiente paso en la configuración del almacén es definir ubicaciones. Para obtener más información, consulte [Configurar lugares para utilizar las ubicaciones](warehouse-how-to-set-up-locations-to-use-bins.md).  
 
-Además, deberá crear plantillas de ubicación y periodos de cuenta. Para obtener más información, consulte [Cómo configurar plantillas de ubicación](warehouse-how-to-set-up-put-away-templates.md).  
+Además, deberá crear plantillas de ubicación y periodos de cuenta. Para obtener más información, vea [Configurar plantillas de ubicación](warehouse-how-to-set-up-put-away-templates.md).  
 
 ## <a name="see-also"></a>Consulte también  
-[Gestión almacén](warehouse-manage-warehouse.md)  
+[Gestión de almacenes](warehouse-manage-warehouse.md)  
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    

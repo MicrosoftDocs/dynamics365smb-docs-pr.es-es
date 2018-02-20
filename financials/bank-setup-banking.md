@@ -13,10 +13,10 @@ ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
 ms.date: 06/02/2016
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ef549db1af519084b79f85d8815fa89ff707067d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 31fec531df5e601355442c7bf7c6e3e99b8362d8
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-banking"></a>Configurar banca
@@ -26,9 +26,9 @@ Para usar servicios de banca electrónica para importar extractos bancarios y ex
 
 | Para | Vea |
 | --- | --- |
-| Configurar fichas de bancos para cada uno de sus bancos, de modo que pueda realizar un seguimiento de sus transacciones bancarias. |[Configurar cuentas bancarias](bank-how-setup-bank-accounts.md) |
+| Configurar fichas de bancos para cada uno de sus bancos, de modo que pueda realizar un seguimiento de sus transacciones bancarias. |[Configurar bancos](bank-how-setup-bank-accounts.md) |
 | Configure un servicio externo que permita importar extractos bancarios como fuentes de banco para la liquidación de pagos y la conciliación de bancos. |[Configuración del servicio de fuentes de banco de Envestnet Yodlee](bank-how-setup-bank-statement-service.md) |
-| Configure un servicio externo que permita exportar pagos al banco para su procesamiento e importar extractos bancarios como archivos bancarios para la liquidación de pagos y la conciliación de bancos. |[Configuración del servicio de conversión de datos bancarios](bank-how-setup-bank-data-conversion-service.md) |
+| Configure un servicio externo que permita exportar pagos al banco para su procesamiento e importar extractos bancarios como archivos bancarios para la liquidación de pagos y la conciliación de bancos. |[Configurar el servicio de conversión de datos bancarios](bank-how-setup-bank-data-conversion-service.md) |
 
 ## <a name="see-also"></a>Consulte también
 [Administrar cuentas bancarias](bank-manage-bank-accounts.md)  

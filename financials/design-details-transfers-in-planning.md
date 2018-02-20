@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 936c6a429f2b8c60499d7b2b5f1f8fba800a4e8b
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-transfers-in-planning"></a>Detalles de diseño: Transferencias en planificación
@@ -139,7 +139,7 @@ El campo Plazo seguridad genérico de la ventana Configuración fabricación y e
   
 ![](media/nav_app_supply_planning_7_transfers14.png "NAV_APP_supply_planning_7_transfers14")  
   
-En la línea de la orden de producción, Fecha final + Plazo de seguridad + Tiempo manip. alm. entrada =  Fecha vencimiento.  
+En la línea de la orden de producción, la Fecha final + Plazo de seguridad + Tiempo manip. alm. entrada = Fecha vencimiento.  
   
 En la línea del pedido de compra, la Fecha recep. planificada + Plazo de seguridad + Tiempo manip. alm. entrada = Fecha recepción esperada.  
   

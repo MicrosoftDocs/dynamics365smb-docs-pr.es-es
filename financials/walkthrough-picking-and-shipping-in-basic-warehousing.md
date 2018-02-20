@@ -1,6 +1,6 @@
 ---
 title: "Tutorial: picking y envío en la configuración básica de almacén | Documentos de Microsoft"
-description: "En Dynamics 365, los procesos de salida para el picking y el envío se pueden realizar de cuatro maneras utilizando distintas funciones según el nivel de complejidad del almacén."
+description: "En Finance and Operations, Business edition, los procesos de salida para el picking y el envío se pueden realizar de cuatro maneras utilizando distintas funciones según el nivel de complejidad del almacén."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 2ef41d6b1d224c016da4663d3059717c11611d92
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 41a23df0e19bda1262dafbfaf89df7518b2b40b6
 ms.contentlocale: es-es
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Tutorial: picking y envío en la configuración del almacenamiento básico
@@ -119,11 +119,11 @@ En la ventana **Picking inventario**, puede administrar todas las actividades de
     Los 30 altavoces ahora se registran como preparados desde las ubicaciones S-01-0001 y S-01-0002, y un movimiento de producto negativo se crea para reflejar el histórico de albaranes de venta.  
 
 ## <a name="see-also"></a>Consulte también  
- [Cómo realizar picking de productos con picking inventario](warehouse-how-to-pick-items-with-inventory-picks.md)   
- [Procedimiento: realice un picking de los artículos para el envío de almacén](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
- [Procedimiento: configure almacenes básicos con áreas de operaciones](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)   
- [Procedimiento: mueva componentes a un área de operaciones en configuraciones básicas de almacén](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)   
- [Procedimiento: Selección de producción o la Lista montaje](warehouse-how-to-pick-for-production.md)   
+ [Realizar el picking de productos con picking inventario](warehouse-how-to-pick-items-with-inventory-picks.md)   
+ [Realizar un picking de los artículos para el envío de almacén](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
+ [Configurar almacenes básicos con áreas de operaciones](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)   
+ [Mover componentes a un área de operaciones en configuraciones básicas de almacén](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)   
+ [Selección de producción o la Lista montaje](warehouse-how-to-pick-for-production.md)   
  [Mover productos ad hoc en configuraciones básicas de almacén](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)   
  [Detalles de diseño: Flujo de salida del almacén](design-details-outbound-warehouse-flow.md)   
  [Tutoriales de procesos empresariales](walkthrough-business-process-walkthroughs.md)  

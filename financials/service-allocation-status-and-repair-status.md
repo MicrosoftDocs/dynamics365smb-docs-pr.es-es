@@ -13,10 +13,10 @@ ms.search.keywords: resources, allocation, status, repairs
 ms.date: 08/28/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: dcfd5bc10bfd4474b795e9f45c7e219b9936a790
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4020910008e47fdf5a7e4626aa84e0f64cf0905f
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="allocation-status-and-repair-status-of-service-items"></a>Estado de asignación y estado de reparación de productos de servicio
@@ -69,7 +69,7 @@ Cuando se reasigna un producto de servicio de un movimiento de asignación cuyo 
 Se creará una nueva entrada de asignación con el nuevo recurso y con el estado **Activo**.  
   
 ## <a name="see-also"></a>Consulte también  
-[Cómo configurar asignaciones de recursos](service-how-setup-resource-allocation.md)  
+[Configurar asignaciones de recursos](service-how-setup-resource-allocation.md)  
 [Asignar recursos](service-how-to-allocate-resources.md)  
 
 

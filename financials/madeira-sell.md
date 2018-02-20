@@ -1,6 +1,6 @@
 ---
-title: Vender Dynamics 365 Business edition | Microsoft Docs
-description: "Descubra cómo puede expandir sus oportunidades de negocio y convertirse en socio de Microsoft y distribuidor de Dynamics 365 Business edition."
+title: Vender Finance and Operations, Business edition | Documentos de Microsoft
+description: "Descubra cómo puede expandir sus oportunidades de negocio y convertirse en socio de Microsoft y distribuidor de Finance and Operations, Business edition."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,18 +13,18 @@ ms.search.keywords: microsoft partner
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 582d000456c6802131c69fc5c0b391905a9b4ddf
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6766559f314c6fd9031f9599f414dae0eff984f8
 ms.contentlocale: es-es
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="become-a-reseller-of-included365finlongincludesd365finlongmdmd"></a>Ser distribuidor de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Expanda su oportunidad de negocio con [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-Si está especializado en soluciones en la nube, Office 365, SharePoint, soluciones industriales, análisis, ERP, CRM, software de contabilidad y/o software/servicios de optimización de procesos empresariales, Dynamics 365 es una nueva oportunidad.   
+Si está especializado en soluciones en la nube, Office 365, SharePoint, soluciones industriales, análisis, ERP, CRM, software de contabilidad y/o software/servicios de optimización de procesos empresariales, Finance and Operations, Business edition es una nueva oportunidad.   
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] le ayuda a diferenciar y profundizar las relaciones de los clientes asignándole la capacidad de entregar una solución de administración empresarial integral que conecte personas y procesos como nunca se había hecho, integradas en herramientas de Microsoft Office conocidas que las pequeñas y medianas empresas usan en la actualidad.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  le ayuda a diferenciar y profundizar las relaciones de los clientes asignándole la capacidad de entregar una solución de administración empresarial integral que conecte personas y procesos como nunca se había hecho, integradas en herramientas de Microsoft Office conocidas que las pequeñas y medianas empresas usan en la actualidad.  
 
 ## <a name="get-started"></a>Introducción
 Regístrese en la vista previa de [!INCLUDE[d365fin](includes/d365fin_md.md)] en [https://microsoft.com/dynamics365/financials](https://www.microsoft.com/en-us/dynamics365/financials).  

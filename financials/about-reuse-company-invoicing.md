@@ -1,6 +1,6 @@
 ---
-title: Uso de Invoicing y Dynamics 365 | Documentos de Microsoft
-description: "Solución para tener acceso a Microsoft Invoicing cuando se ha registrado en Dynamics 365."
+title: Usar Invoicing, Finance and Operations, Business edition | Documentos de Microsoft
+description: "Solución alternativa para acceder a Microsoft Invoicing cuando se haya registrado en Dynamics 365 for Finance and Operations, Business edition."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,13 +11,13 @@ ms.search.keywords:
 ms.date: 11/22/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: db76c49d8f453b978e95d65afa14234cf9ccdffe
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: abceec5b1bc588e2842d0f512240c30eccbf6f8e
 ms.contentlocale: es-es
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="using-the-same-office-365-account-in-included365finincludesd365finmdmd-and-microsoft-invoicing"></a>Con la misma cuenta de Office 365 en [!INCLUDE[d365fin](includes/d365fin_md.md)] y Microsoft Invoicing
+# <a name="using-the-same-office-365-account-in-included365finincludesd365finlongmdmd-and-microsoft-invoicing"></a>Con la misma cuenta de Office 365 en [!INCLUDE[d365fin](includes/d365fin_long_md.md)] y Microsoft Invoicing
 Cuando se registra en una prueba en [!INCLUDE[d365fin](includes/d365fin_md.md)], puede cambiar a una fase de evaluación de 30 días, puede empezar una suscripción o bien puede dejar de usar [!INCLUDE[d365fin](includes/d365fin_md.md)]. En todos los casos, si inicia sesión en el portal de Office, es posible que vea un mosaico llamado **Centro de Empresa** y que haga clic en él. Forma parte de la suscripción de Office 365, por lo que no todos los usuarios verán ese mosaico en el portal de Office.  
 
 Si tiene acceso al centro de Empresa, aparecerá una sección denominada **Facturación**. Si obtiene acceso a esa sección, verá un mensaje que le indica que no puede tener acceso a Microsoft Invoicing porque la cuenta se utiliza en [!INCLUDE[d365fin](includes/d365fin_md.md)].  

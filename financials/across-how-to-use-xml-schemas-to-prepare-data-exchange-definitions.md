@@ -11,18 +11,18 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 5b10eaff0d412ee26ead2137a353054c41d05113
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 06e0de9409fa26d18f051d84b39d021227a55191
 ms.contentlocale: es-es
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-use-xml-schemas-to-prepare-data-exchange-definitions"></a>Procedimiento: Uso de esquemas XML para preparar definiciones de intercambio de datos
+# <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Uso de esquemas XML para preparar definiciones de intercambio de datos
 Para habilitar la importación y exportación de datos en archivos XML mediante el marco de intercambio de datos en [!INCLUDE[d365fin](includes/d365fin_md.md)], puede usar esquemas XML de los archivos para definir los elementos de datos que desea intercambiar con [!INCLUDE[d365fin](includes/d365fin_md.md)]. Este trabajo se realiza en la ventana **Visor de esquema XML** mediante la carga del archivo de esquema XML, la selección de los elementos de datos pertinentes y la inicialización de una definición de intercambio de datos o un objeto XMLport.  
 
  Cuando haya definido qué elementos de datos se incluirán según el esquema XML, puede usar la acción **Generar XMLport** a fin de crear el objeto XMLport.  
 
- También puede utilizar la acción **Generar definición de intercambio de datos** para inicializar una definición de intercambio de datos en los datos seleccionados, que después podrá completar en el marco de intercambio de datos. Esto crea un registro en la ventana **Definiciones de intercambio de registro**, donde se continúa con la definición de qué elementos del archivo se asignan a qué campos de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, vea [Procedimiento: Configurar las definiciones de intercambio de datos](across-how-to-set-up-data-exchange-definitions.md).  
+ También puede utilizar la acción **Generar definición de intercambio de datos** para inicializar una definición de intercambio de datos en los datos seleccionados, que después podrá completar en el marco de intercambio de datos. Esto crea un registro en la ventana **Definiciones de intercambio de registro**, donde se continúa con la definición de qué elementos del archivo se asignan a qué campos de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, vea [Configurar las definiciones de intercambio de datos](across-how-to-set-up-data-exchange-definitions.md).  
 
  Este tema incluye los siguientes procedimientos:  
 
@@ -108,7 +108,7 @@ Para habilitar la importación y exportación de datos en archivos XML mediante 
 
 4.  En la ventana **Visor de esquema XML**, en la pestaña **Inicio**, en el grupo **Procesar**, seleccione **Generar definición de intercambio de datos**.  
 
- Se crea una definición de intercambio de datos en la ventana **Definiciones de intercambio de registro**, que se puede completar especificando qué elementos del archivo de banco SEPA se corresponden con los campos de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, vea [Procedimiento: Configurar las definiciones de intercambio de datos](across-how-to-set-up-data-exchange-definitions.md).  
+ Se crea una definición de intercambio de datos en la ventana **Definiciones de intercambio de registro**, que se puede completar especificando qué elementos del archivo de banco SEPA se corresponden con los campos de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, vea [Configurar las definiciones de intercambio de datos](across-how-to-set-up-data-exchange-definitions.md).  
 
 > [!NOTE]  
 >  También puede utilizar la función **Obtener estructura de archivo** desde la ventana **Definiciones de intercambio de registro**, la cual utiliza la funcionalidad de la ventana **Visor esquemas XML** para prellenar la ficha desplegable **Definiciones de columna**.  
@@ -128,8 +128,8 @@ Para habilitar la importación y exportación de datos en archivos XML mediante 
 6. Importe el nuevo XMLport en el entorno de desarrollo de [!INCLUDE[d365fin](includes/d365fin_md.md)] y compílelo.
 
 ## <a name="see-also"></a>Consulte también  
-[Procedimiento: Configurar las definiciones de intercambio de datos](across-how-to-set-up-data-exchange-definitions.md)   
-[Exportación de pagos a un archivo de banco](payables-how-export-payments-bank-file.md)   
+[Configurar definiciones de intercambio de datos](across-how-to-set-up-data-exchange-definitions.md)   
+[Exportar pagos a un archivo bancario](payables-how-export-payments-bank-file.md)   
 [Cobro de pagos mediante adeudo directo SEPA](finance-collect-payments-with-sepa-direct-debit.md)   
 [Acerca del marco de intercambio de datos](across-about-the-data-exchange-framework.md)
 

@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/14/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b03209b5681c264f7d788d3d731d32b60f1709b6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 61ecdcd1c87d267e19047be5424e1c07e832316a
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-reserve-items"></a>Cómo reservar productos
+# <a name="reserve-items"></a>Reservar artículos
 Puede reservar productos para pedidos de venta, pedidos de servicio, pedidos de ensamblado y órdenes de producción. Puede reservar productos del inventario o de entrada en líneas de diario abiertas. El trabajo se realiza en la ventana **Reservas**.
 
 Cada línea de la ventana **Reservas**, que se abre para reservar productos, muestra información sobre un tipo de línea (venta, compra, diario) o entrada de inventario. Las líneas describen cuántos productos están disponibles para reservarse desde cada tipo de línea o movimiento.
@@ -81,14 +81,14 @@ En ocasiones, quizá le interese eliminar la reserva de un producto.
 4.  Confirme el mensaje que aparece, eligiendo el botón **Acep.**.  
 
 ## <a name="to-reserve-a-specific-serial-or-lot-number"></a>Para reservar un número de serie o de lote específico  
-De los documentos de salida para los productos marcados para seguimiento, como pedidos de venta o listas de componentes de producción, puede reservar números de serie o de lote específicos. Esto puede resultar útil, por ejemplo, si necesita componentes de producción de un lote específico por coherencia con lotes anteriores de producción, o porque un cliente ha solicitado un número de serie específico. Para obtener más información, consulte [Procedimiento: Trabajar con números de serie y de lote](inventory-how-work-item-tracking.md).
+De los documentos de salida para los productos marcados para seguimiento, como pedidos de venta o listas de componentes de producción, puede reservar números de serie o de lote específicos. Esto puede resultar útil, por ejemplo, si necesita componentes de producción de un lote específico por coherencia con lotes anteriores de producción, o porque un cliente ha solicitado un número de serie específico. Para obtener más información, consulte [Trabajar con números de serie y de lote](inventory-how-work-item-tracking.md).
 
 Esto se denomina reserva específica, porque se reserva de la cantidad de producto X que pertenece al lote X. Si simplemente reserva de las cantidades de producto X, es una reserva normal, no específica. Para obtener más información, consulte [Detalles de diseño: Seguimiento de productos y reservas](design-details-item-tracking-and-reservations.md).
 
 El procedimiento siguiente se basa en un pedido de venta.    
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Pedidos de venta** y, a continuación, seleccione el vínculo relacionado.  
 2. Cree una línea de pedido de venta para un producto marcado para seguimiento.  
-3. Asigne números de serie y de lote a la línea de pedido de venta. Para obtener más información, consulte [Procedimiento: Trabajar con números de serie y de lote](inventory-how-work-item-tracking.md).
+3. Asigne números de serie y de lote a la línea de pedido de venta. Para obtener más información, consulte [Trabajar con números de serie y de lote](inventory-how-work-item-tracking.md).
 4. En la línea del pedido de ventas, seleccione la acción **Reservar**.  
 5. Elija el botón **Sí** para reservar números de serie o lote específicos.  
 6. En la ventana  **Lista seguimiento producto**, seleccione la combinación de números de serie y lote que acaba de asignar.  
@@ -99,6 +99,6 @@ El procedimiento siguiente se basa en un pedido de venta.
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Detalles de diseño: Reserva, seguimiento de pedidos y mensajes de acciones](design-details-reservation-order-tracking-and-action-messaging.md)  
 [Detalles de diseño: Seguimiento de productos y reservas](design-details-item-tracking-and-reservations.md)  
-[Procedimiento: Trabajar con números de lote y de serie](inventory-how-work-item-tracking.md)  
+[Trabajar con números de lote y de serie](inventory-how-work-item-tracking.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

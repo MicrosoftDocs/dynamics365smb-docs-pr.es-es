@@ -13,13 +13,13 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: f5bbadb37a40dbc7b06668d940d2be9569aaa8e8
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 094ba95f46d13c5861087bedbe52fb18da9270e9
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-link-contacts-with-customers-vendors-and-bank-accounts"></a>Procedimiento: Cómo vincular contactos con clientes, proveedores y cuentas bancarias
+# <a name="link-contacts-with-customers-vendors-and-bank-accounts"></a>Vincular contactos con clientes, proveedores y bancos
 Si tiene un contacto y un cliente, proveedor o cuenta bancaria de la misma empresa, puede vincular las dos entidades. Al vincular las dos entidades, se pueden sincronizar los datos que son comunes para que sean los mismos en ambos sitios.
 
 ## <a name="link-a-contact-to-an-existing-customer-vendor-or-bank-account"></a>Vincular un contacto con un cliente, proveedor o cuenta bancaria existente

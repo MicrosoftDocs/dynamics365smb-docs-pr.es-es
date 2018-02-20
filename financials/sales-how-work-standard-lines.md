@@ -13,13 +13,13 @@ ms.search.keywords: trade, sell, replenishment
 ms.date: 07/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: 6f7202da4290ae3f6093baed4185649c30d6a199
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7c5820db4d8aa65ddeddfd5ee27f0a7e89100abf
 ms.contentlocale: es-es
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-recurring-sales-and-purchase-lines"></a>Crear líneas de ventas y de compras periódicas
+# <a name="create-recurring-sales-and-purchase-lines"></a>Crear líneas de ventas y de compras periódicas
 Si suele necesitar crear líneas de ventas y de compras con información similar, puede configurar líneas estándar que puede insertar en documentos de ventas y compras periódicas, por ejemplo, para órdenes de reposición periódicas.  
 
 El siguiente procedimiento muestra cómo trabajar con líneas de ventas estándar. Funciona de forma similar para las líneas de compras estándar.  

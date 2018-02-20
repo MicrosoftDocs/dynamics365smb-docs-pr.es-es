@@ -12,13 +12,13 @@ ms.workload: na
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: e578b2d22cf715407fee0b796b1ea49ef592057d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b7ed3e38b4a697de678e11a8735869b666910081
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-revalue-fixed-assets"></a>Procedimiento: Revalorizar activos fijos
+# <a name="revalue-fixed-assets"></a>Revalorizar activos fijos
 La revalorización de activos fijos está formada por apreciaciones, depreciaciones o ajustes de valor general.
 
 Cuando haya aumentado el valor de un activo, registre una línea de diario con un importe mayor, una apreciación, en el libro de amortización. El nuevo importe se registra como una apreciación en función de la configuración del registro de activos.
@@ -34,7 +34,7 @@ El ajuste de valores se utiliza para ajustar los diversos valores de los activos
 4. Elija la acción **Introducir saldo AF**. Se crea una segunda línea de diario para la cuenta contrapartida que se ha configurado para el registro de apreciaciones.
 
     > [!NOTE]  
->   El paso 4 solo funciona si ha configurado lo siguiente: en la ventana **A/F Ficha grupo contable** del grupo contable del activo fijo, el campo **Cta. apreciación** contiene la cuenta de cargo y el campo **Cta. contrap. apreciación** contiene la cuenta contable en la que desea registrar los movimientos de contrapartida para apreciación. Para obtener más información, vea la sección "Para configurar grupos contables de activos fijos" en [Procedimiento: Configurar información general del activo fijo](fa-how-setup-general.md).  
+>   El paso 4 solo funciona si ha configurado lo siguiente: en la ventana **A/F Ficha grupo contable** del grupo contable del activo fijo, el campo **Cta. apreciación** contiene la cuenta de cargo y el campo **Cta. contrap. apreciación** contiene la cuenta contable en la que desea registrar los movimientos de contrapartida para apreciación. Para obtener más información, vea la sección "Para configurar grupos contables de activos fijos" en [Configurar información general del activo fijo](fa-how-setup-general.md).  
 5. Seleccione la acción **Registrar**.
 
 ## <a name="to-post-a-write-down-from-the-fixed-asset-gl-journal"></a>Para registrar una depreciación desde el diario general de activos fijos
@@ -44,7 +44,7 @@ El ajuste de valores se utiliza para ajustar los diversos valores de los activos
 4. Elija la acción **Introducir saldo AF**. Se crea una segunda línea de diario para la cuenta contrapartida que se ha configurado para el registro de depreciaciones.
 
     > [!NOTE]  
->   El paso 4 solo funciona si ha configurado lo siguiente: en la ventana **A/F Ficha grupo contable** del grupo contable del activo fijo, el campo **Cta. depreciación** contiene la cuenta de abono y el campo **Cta. gastos depreciación** contiene la cuenta contable en la que desea registrar los movimientos de contrapartida para las depreciaciones. Para obtener más información, vea la sección "Para configurar grupos contables de activos fijos" en [Procedimiento: Configurar información general del activo fijo](fa-how-setup-general.md).
+>   El paso 4 solo funciona si ha configurado lo siguiente: en la ventana **A/F Ficha grupo contable** del grupo contable del activo fijo, el campo **Cta. depreciación** contiene la cuenta de abono y el campo **Cta. gastos depreciación** contiene la cuenta contable en la que desea registrar los movimientos de contrapartida para las depreciaciones. Para obtener más información, vea la sección "Para configurar grupos contables de activos fijos" en [Configurar información general del activo fijo](fa-how-setup-general.md).
 5. Seleccione la acción **Registrar**.
 
 ## <a name="to-perform-general-revaluation-of-fixed-assets"></a>Para realizar una revalorización general de activos fijos
@@ -54,7 +54,7 @@ El ajuste de valores se utiliza para ajustar los diversos valores de los activos
 2. Rellene los campos según sea necesario.
 3. Elija el botón **Aceptar**.
 
-    Las líneas de revalorización se crean según su configuración en el paso 2. Las líneas se crean en el diario de activos fijos o en el diario general de activos fijos dependiendo de su configuración de plantilla y sección en la ventana **Configuración del diario A/F**. Para obtener más información, consulte [Procedimiento: Configurar información general del activo fijo](fa-how-setup-general.md).
+    Las líneas de revalorización se crean según su configuración en el paso 2. Las líneas se crean en el diario de activos fijos o en el diario general de activos fijos dependiendo de su configuración de plantilla y sección en la ventana **Configuración del diario A/F**. Para obtener más información, consulte [Configurar información general del activo fijo](fa-how-setup-general.md).
 4. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diarios generales A/F** y, a continuación, seleccione el vínculo relacionado.  
 5. Seleccione el diario con los activos fijos que desea revalorizar y, a continuación, elija la acción **Movimientos**.  
 6. Compruebe los movimientos creados y, a continuación, seleccione la acción **Registrar** para registrarlos en el diario.
@@ -63,7 +63,7 @@ El ajuste de valores se utiliza para ajustar los diversos valores de los activos
 >   Si los números de ajuste son solo para fines de simulación, puede crear un libro de amortización especial que los guarde. Así estos movimientos no afectarán a ninguno de los libros de amortización.
 
    ## <a name="to-post-additional-acquisition-costs"></a>Para registrar costes adicionales
-   Puede registrar costes adicionales de un activo de la misma forma en que registra el coste original: desde una factura de compra o desde un diario de activos fijos. Para obtener más información, vea [Procedimiento: Activos fijos adquiridos](fa-how-acquire.md).  
+   Puede registrar costes adicionales de un activo de la misma forma en que registra el coste original: desde una factura de compra o desde un diario de activos fijos. Para obtener más información, vea [Adquirir activos fijos](fa-how-acquire.md).  
 
 Si ya ha calculado la amortización para el activo, seleccione la casilla de verificación **Coste amortización** para que el coste adicional sea menor que el valor residual amortizado, en proporción al importe con el que se amortizó anteriormente el activo. Esto asegura que el periodo de amortización no cambia.  
 

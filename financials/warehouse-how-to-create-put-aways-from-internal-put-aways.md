@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 2a6829c5a67f1121ecc135e1183af78b0e602f8f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5cafcc32874187ae787279c20256c11cadaff6a1
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-pick-and-put-away-without-a-source-document"></a>Realizar el picking y la ubicación sin un documento de origen
+# <a name="pick-and-put-away-without-a-source-document"></a>Realizar el picking y la ubicación sin un documento de origen
 Una vez ubicados los productos y antes de que se realice el picking de los mismos para cubrir las necesidades de una orden de producción o un envío, los productos se almacenan en el almacén como parte de las existencias disponibles.  
 
 Puede darse el caso de que haya que sacar productos de las ubicaciones de picking de almacén temporalmente para utilizarlos como modelos de demostración en una presentación de ventas. Estos productos pertenecen a la empresa y forman parte de las existencias, pero no están disponibles para picking. Se registran en una ubicación especial que se crea con este fin; técnicamente, los productos están en el almacén, pero físicamente estarían en una sala de demostraciones.  

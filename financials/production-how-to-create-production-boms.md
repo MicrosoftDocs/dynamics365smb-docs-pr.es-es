@@ -13,21 +13,21 @@ ms.search.keywords:
 ms.date: 09/05/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
-ms.openlocfilehash: 3ebbd34c966ab06fa578336d14a060b0dea44dbc
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: a193d1ac19a0474b4a541165ef9f06d21ac7fb7d
 ms.contentlocale: es-es
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-production-boms"></a>Creación de L.M. de producción
+# <a name="create-production-boms"></a>Crear LM de producción
 Una lista de materiales (L.M.) de producción contiene datos maestros que describen los componentes y los subconjuntos utilizados en la fabricación de un producto principal. Una vez creada la orden de producción para el producto principal, la L.M. de producción controlará el cálculo de las necesidades de material tal como se representan en la ventana **Componentes orden producción**.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] también admite L.M. de ensamblado. Utilice los pedidos de ensamblado para crear productos finales de los componentes en un proceso sencillo que se pueda realizar por uno o varios recursos básicos, que no sean máquinas o centros de trabajo, o sin ningún recurso. Por ejemplo, un proceso de ensamblado podría ser el picking de dos botellas de vino y un saco de café y, después, empaquetarlo todo como artículo de regalo. Para obtener más información, consulte la sección de “L.M. de montaje o las L.M. de producción” en [Procedimiento: Trabajar con listas de materiales](inventory-how-work-BOMs.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]   también admite L.M. de ensamblado. Utilice los pedidos de ensamblado para crear productos finales de los componentes en un proceso sencillo que se pueda realizar por uno o varios recursos básicos, que no sean máquinas o centros de trabajo, o sin ningún recurso. Por ejemplo, un proceso de ensamblado podría ser el picking de dos botellas de vino y un saco de café y, después, empaquetarlo todo como artículo de regalo. Para obtener más información, consulte la sección de “L.M. de montaje o las L.M. de producción” en [Trabajar con listas de materiales](inventory-how-work-BOMs.md).  
 
 Para poder configurar una ruta, lo siguiente debe existir:  
 
 - Se deben crear fichas de producto para los productos principales que forman parte de la fabricación. Para obtener más información, vea [Registrar nuevos productos](inventory-how-register-new-items.md).
-- Se han configurado recursos de producción. Para obtener más información, consulte [Cómo configurar centros de trabajoy centros de máquina](production-how-to-set-up-work-and-machine-centers.md).
+- Se han configurado recursos de producción. Para obtener más información, consulte [Configurar centros de trabajo y centros de máquina](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-production-bom"></a>Crear una L.M. de producción.  
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **L.M. de producción** y, a continuación, seleccione el vínculo relacionado.  
@@ -39,12 +39,12 @@ Para poder configurar una ruta, lo siguiente debe existir:
 5. En el campo **Tipo**, seleccione si el producto de esta línea de L.M. es un producto normal o una L.M. de producción. Si es una L.M. de producción, debe ser una L.M. de producción certificada.  
 6.  En el campo **N.º**, busque y seleccione el producto o la L.M. de producción en cuestión, o especifíquelo en el campo.  
 7.  En el campo **Cantidad por**, especifique cuántas unidades componen el producto principal, por ejemplo, cuatro ruedas para un automóvil.  
-8.  En el campo **% Rechazo**, puede especificar el porcentaje fijo de componentes que se rechazan durante la producción. Cuando los componentes estén preparados para su consumo en una orden de producción lanzada, este porcentaje se sumará a la cantidad esperada en el campo **Consumo (cantidad)** de un diario de producción. Para obtener más información, vea [Cómo registrar el consumo y la salida](production-how-to-register-consumption-and-output.md).  
+8.  En el campo **% Rechazo**, puede especificar el porcentaje fijo de componentes que se rechazan durante la producción. Cuando los componentes estén preparados para su consumo en una orden de producción lanzada, este porcentaje se sumará a la cantidad esperada en el campo **Consumo (cantidad)** de un diario de producción. Para obtener más información, vea [Registrar el consumo y la salida](production-how-to-register-consumption-and-output.md).  
 
     > [!NOTE]  
     >  Este porcentaje de rechazo representa los componentes que se rechazan durante la producción, cuando se seleccionan de las existencias, mientras que el porcentaje de rechazo en las líneas de ruta representa la salida rechazada, antes de preparar las existencias.  
 
-9.  En el campo **Código de conexión de ruta**, introduzca un código para conectar el componente con una operación específica. Para obtener más información, consulte la sección de “Establecer conexiones de ruta" en [Procedimiento: Crear rutas](production-how-to-create-routings.md).
+9.  En el campo **Código de conexión de ruta**, introduzca un código para conectar el componente con una operación específica. Para obtener más información, consulte la sección de “Establecer conexiones de ruta" en [Crear rutas](production-how-to-create-routings.md).
 10. Para copiar líneas de una L.M. de producción existente, seleccione la acción **Copiar L.M.** para seleccionar las líneas existentes.  
 11.  Certifique la L.M. de producción.  
 12.  Ahora puede asociar la L.M. de producción nueva a la ficha del producto principal en cuestión. Para obtener más información, vea [Registrar nuevos productos](inventory-how-register-new-items.md).  

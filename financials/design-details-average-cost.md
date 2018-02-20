@@ -1,6 +1,6 @@
 ---
 title: "Detalles de diseño: Coste medio | Documentos de Microsoft"
-description: "El coste medio de un producto se calcula con una media ponderada periódica, en función del periodo de coste medio que esté configurado en Dynamics 365."
+description: "El coste medio de un producto se calcula con una media ponderada periódica, en función del periodo de coste medio que esté configurado en Finance and Operations, Business edition."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 70a0773826984bab5c49334a88ea48872a629023
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9e04bd1dbbae80cd209b28c14764fbf7dc7f0934
 ms.contentlocale: es-es
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="design-details-average-cost"></a>Detalles de diseño: Coste medio

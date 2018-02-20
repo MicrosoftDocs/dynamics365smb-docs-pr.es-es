@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/22/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: face4821059b57c32e06dca46ec5144aba4ca528
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 569501a38bb12468400ca53a5014e7c6491ac012
 ms.contentlocale: es-es
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-tracing-serial-lot-numbers"></a>Tutorial: seguimiento de números de serie-lote
@@ -292,7 +292,7 @@ A continuación, deberá crear diversas transacciones de compra, producción y v
  De este modo finaliza el tutorial sobre cómo usar la ventana **Navegar** para la gestión de defectos en la integración con la ventana **Seguimiento productos**.  
 
 ## <a name="see-also"></a>Consulte también
-[Procedimiento: Trabajar con números de lote y de serie](inventory-how-work-item-tracking.md)  
-[Cómo realizar un seguimiento de productos marcados para seguimiento](inventory-how-to-trace-item-tracked-items.md)  
+[Trabajar con números de lote y de serie](inventory-how-work-item-tracking.md)  
+[Realizar seguimiento de productos seguidos](inventory-how-to-trace-item-tracked-items.md)  
 [Tutoriales de procesos empresariales](walkthrough-business-process-walkthroughs.md)  
 

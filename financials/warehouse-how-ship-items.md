@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 0ca92ce0266c6a57d211f9ddb70dc5499f4f9648
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 223eed1ca4e362b8209373fac71d20ab88b2aaff
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-ship-items"></a>Procedimiento: enviar productos
+# <a name="ship-items"></a>Enviar productos
 Cuando envíe artículos de un almacén que no está configurado para el procesamiento de envío de almacén, simplemente registre el envío en el documento de negocio relacionado, como un pedido de cliente, una orden de servicio, una orden de devolución de compra o una orden de transferencia de salida.
 
 Cuando envía productos de un almacén que está configurado para realizar el proceso de envío de almacén, puede enviar productos solo basándose en los documentos de origen que otras unidades de la empresa han enviado al almacén para realizar una acción.
@@ -30,7 +30,7 @@ Cuando envía productos de un almacén que está configurado para realizar el pr
 ## <a name="to-ship-items-with-a-sales-order"></a>Para enviar productos con un pedido de ventas
 A continuación se describe cómo recibir productos con un pedido de compra. Los pasos son iguales para las órdenes de devolución de compra, las órdenes de servicio y las órdenes de transferencia de salida.  
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Pedidos de venta** y, a continuación, seleccione el vínculo relacionado.
-2. Abra un pedido de venta existente o cree uno nuevo. Para obtener más información, vea [Procedimiento: Vender productos](sales-how-sell-products.md).
+2. Abra un pedido de venta existente o cree uno nuevo. Para obtener más información, vea [Vender productos](sales-how-sell-products.md).
 3. Escriba la cantidad recibida en el campo **Cantidad a enviar**.
 
     El valor del campo **Cdad. enviada** se actualiza según corresponde. Si se trata de un envío parcial, el valor es menor que el valor del campo **Cantidad**.
@@ -91,15 +91,15 @@ Normalmente, un empleado de almacén responsable del picking crea un documento d
     Se actualizarán los campos **Cantidad a enviar** y **Estado documento** de la cabecera del documento de envío. Los productos de los que ha realizado el picking ya no estarán disponibles para picking para otros envíos o para operaciones internas.
 7. Imprima sus documentos de envío, prepare el embalaje y, a continuación, registre el envío.
 
-Para obtener más información acerca de la selección para envíos de almacén, [Procedimiento: realice un picking de los artículos para el envío de almacén](warehouse-how-to-pick-items-for-warehouse-shipment.md).
+Para obtener más información acerca de la selección para envíos de almacén, [Realizar un picking de los artículos para el envío de almacén](warehouse-how-to-pick-items-for-warehouse-shipment.md).
 
-También puede utilizar la hoja de trabajo de picking para crear varias instrucciones de picking en una sola instrucción (para varios envíos) y, por tanto, mejorar la eficacia del picking en el almacén. Para obtener más información, consulte [Procedimiento: planifique picking en hojas de trabajo](warehouse-how-to-plan-picks-in-worksheets.md).
+También puede utilizar la hoja de trabajo de picking para crear varias instrucciones de picking en una sola instrucción (para varios envíos) y, por tanto, mejorar la eficacia del picking en el almacén. Para obtener más información, consulte [Planificar pickings en hojas de trabajo](warehouse-how-to-plan-picks-in-worksheets.md).
 
 > [!NOTE]
 > Si espera que se reciban documentos de origen productos en el almacén y utiliza la funcionalidad de tránsito directo, [!INCLUDE[d365fin](includes/d365fin_md.md)] calcula, en cada línea de la hoja de trabajo de picking o envío, la cantidad de producto que está en la ubicación de tránsito directo. Este campo se actualiza cada vez que abandona y abre el documento de envío o la hoja de trabajo. Para obtener más información, consulte [Productos de tránsito directo](warehouse-how-to-cross-dock-items.md).
 
 ## <a name="see-also"></a>Consulte también  
-[Gestión almacén](warehouse-manage-warehouse.md)  
+[Gestión de almacenes](warehouse-manage-warehouse.md)  
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    

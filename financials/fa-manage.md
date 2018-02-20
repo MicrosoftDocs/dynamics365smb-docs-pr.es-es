@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 06/02/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: c2a563d09d09e9772ab00fcffc48db9cbc5ee797
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 069f621101023a3c57b7add4d4e3ffcbc2664845
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="fixed-assets"></a>Activos fijos
@@ -31,10 +31,7 @@ Puede registrar los costes de mantenimiento y la fecha del siguiente servicio de
 Cada activo puede tener una o varias pólizas de seguro. Por tanto, podrá comprobar con facilidad que los importes de las pólizas de seguro están en consonancia con el valor de los activos relacionados con la póliza. También permite controlar las primas anuales.
 
 > [!NOTE]  
->   Puede registrar transacciones de activos en las ventanas **A/F Diario general** o **Diario activos fijos**, dependiendo de si las transacciones son para la información financiera o la gestión interna. La ayuda para los activos fijos solo describe cómo utilizar ventana **A/F Diario general**. Para obtener más información, consulte [Procedimiento: Configurar amortización de activos fijos](fa-how-setup-depreciation.md).
-
-> [!NOTE]  
->   Esta funcionalidad requiere que la experiencia esté definida en **Suite**. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
+>   Puede registrar transacciones de activos en las ventanas **A/F Diario general** o **Diario activos fijos**, dependiendo de si las transacciones son para la información financiera o la gestión interna. La ayuda para los activos fijos solo describe cómo utilizar ventana **A/F Diario general**. Para obtener más información, consulte [Configurar amortización de activos fijos](fa-how-setup-depreciation.md).
 
 Para poder empezar a administrar los activos fijos, debe configurar valores predeterminados, la contabilidad de activos fijos, grupos contables, claves de asignación, diarios y tipos de registro. Para obtener más información, vea [Configurar activos fijos](fa-setup.md).
 
@@ -42,10 +39,10 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 
 | Para | Vea |
 | --- | --- |
-| Crear activos fijos, asignar métodos de amortización, registrar adquisiciones, valores residuales e imprimir listas de activos fijos. |[Adquirir activos fijos](fa-how-acquire.md) |
+| Crear activos fijos, asignar métodos de amortización, registrar adquisiciones, valores residuales e imprimir listas de activos fijos. |[Activos fijos adquiridos](fa-how-acquire.md) |
 | Registrar visitas de servicio y registrar y monitorizar costes de mantenimiento. |[Mantener activos fijos](fa-how-maintain.md) |
-| Actualizar información de seguros, registrar costes en pólizas de seguros, modificar la cobertura del seguro, ver estadísticas de seguros y listar pólizas de seguros. |[Asegurar activos fijos](fa-how-insure.md) |
-| Reclasificar activos fijos, transferir activos fijos a distintas ubicaciones, dividir o combinar activos. |[Transferir, dividir o combinar activos fijos](fa-how-trans-split-combine.md) |
+| Actualizar información de seguros, registrar costes en pólizas de seguros, modificar la cobertura del seguro, ver estadísticas de seguros y listar pólizas de seguros. |[Aseguramiento de activos fijos](fa-how-insure.md) |
+| Reclasificar activos fijos, transferir activos fijos a distintas ubicaciones, dividir o combinar activos. |[Permite transferir, dividir o combinar activos fijos](fa-how-trans-split-combine.md) |
 | Ajustar valores de activos fijos, registrar apreciación y transacciones de depreciación. |[Revalorizar activos fijos](fa-how-revalue.md) |
 | Registrar y calcular la amortización y analizarla en informes de activos fijos. |[Depreciar o amortizar activos fijos](fa-how-depreciate-amortize.md) |
 | Registrar transacciones de venta/baja, ver movimientos de venta/baja y registrar ventas/bajas parciales. |[Cancelar o retirar activos fijos](fa-how-dispose-retire.md) |
@@ -58,4 +55,6 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 [[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
+

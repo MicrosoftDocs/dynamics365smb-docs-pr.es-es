@@ -11,13 +11,13 @@ ms.search.keywords:
 ms.date: 09/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: ab97e9beb67ac5c8e827f44c2976b51af2696109
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3249ed4b8bc50f7cbc577d5dc01b03029b4c06c3
 ms.contentlocale: es-es
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-enable-automated-data-capture-systems-adcs"></a>Habilitar el sistema de captura de datos automatizado (ADCS)
+# <a name="enable-automated-data-capture-systems-adcs"></a>Habilitar el sistema de captura de datos automatizado (ADCS)
 Puede utilizar su sistema de captura automática de datos (ADCS) para registrar el movimiento de productos en el almacén y para registrar algunas actividades del diario, como los ajustes de cantidad en el diario de productos de almacén y los inventarios físicos.  
 
 Para utilizar un ADCS, deberá asignar un identificador de producto para cada producto almacenado. También debe configurar los miniformularios de instalación, funciones portátiles, intercambios de datos y especificar las opciones de los campos que controlan un ADCS. Especifique si desea utilizar un ADCS en la ficha de almacén de un almacén.
@@ -65,7 +65,7 @@ Puede agregar a cualquier usuario al sistema de captura de datos automatizados (
 
 ### <a name="to-specify-that-a-warehouse-employee-is-an-adcs-user"></a>Para especificar que un empleado del almacén es usuario de un ADCS  
 1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Empleados almacén** y, a continuación, seleccione el vínculo relacionado.  
-2.  Si es necesario, agregue un nuevo empleado de almacén. Para obtener más información, vea [Cómo configurar los empleados de almacén](warehouse-how-to-set-up-warehouse-employees.md).  
+2.  Si es necesario, agregue un nuevo empleado de almacén. Para obtener más información, vea [Configurar los empleados de almacén](warehouse-how-to-set-up-warehouse-employees.md).  
 3.  Seleccione la acción **Editar lista**.  
 4.  Seleccione un empleado de almacén de la lista. En el campo **Usuario ADCS**, seleccione la flecha desplegable y el nombre de un usuario de un ADCS de la lista.  
 

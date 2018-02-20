@@ -1,6 +1,6 @@
 ---
 title: "Buscar páginas o informes con la función Buscar página o informe | Documentos de Microsoft"
-description: "Para buscar páginas e informes en Dynamics 365 Business edition, puede usar la característica Buscar página o informe."
+description: "Para buscar páginas e informes en Finance and Operations, Business edition, puede usar la característica Buscar página o informe."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,10 +13,10 @@ ms.search.keywords: find
 ms.date: 03/29/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 0fd2995e254d053c6ac66ae6ab9153d2dfe9a4a7
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5447914141d3a2a40af2438e854ef7ed3159405b
 ms.contentlocale: es-es
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="searching-for-a-page-or-report"></a>Buscar una página o informe
@@ -27,7 +27,7 @@ Se puede buscar páginas e informes eligiendo el icono **Buscar página o inform
 Cuando empiece a escribir caracteres, aparecerá una lista desplegable con los nombres de página que contengan los caracteres escritos. Esta lista cambia a medida que escriba caracteres adicionales y puede seleccionar la página correcta cuando aparezca. La segunda columna de la lista desplegable muestra las rutas de exploración hacia las páginas encontradas. También existe un vínculo que permite buscar la ayuda de los caracteres que ha escrito.
 
 > [!NOTE]  
->   Las páginas y los informes disponibles dependen de la experiencia de usuario que elija para la empresa. La experiencia **Básica** ofrece menos acceso que la experiencia **Suite**. La primera vez que inicie sesión, use la experiencia Básica. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-experiences.md).
+>   Las páginas y los informes disponibles dependen de la experiencia de usuario que elija para la empresa. La experiencia **Básica** ofrece menos acceso que la experiencia **Suite**. La primera vez que inicie sesión, use la experiencia Básica. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
 
 > [!NOTE]  
 >   La función **Buscar página o informe** no busca a través de los datos, como nombres de clientes, direcciones o transacciones. En su lugar, puede buscar datos en páginas de lista eligiendo el símbolo de lupa en la esquina derecha de la cabecera de la lista. La búsqueda solo se aplica a la lista que está viendo. Para obtener más información, vea [Introducir criterios en los filtros](ui-enter-criteria-filters.md).

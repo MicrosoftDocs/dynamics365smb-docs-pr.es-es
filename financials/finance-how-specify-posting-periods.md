@@ -15,13 +15,13 @@ ms.search.keywords: user setup
 ms.date: 06/02/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6cabfc7f514f44b64331761e90d900deadc6116c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 86114cd184a7a9f10ae28fbb28fb3049e8e8f2d2
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-specify-posting-periods"></a>Procedimiento para especificar periodos de registro
+# <a name="specify-posting-periods"></a>Para especificar periodos de registro
 Utilice los periodos de registro para especificar cuándo los usuarios pueden registrar en el libro mayor.  
 
 ## <a name="to-specify-posting-periods"></a>Para especificar periodos de registro

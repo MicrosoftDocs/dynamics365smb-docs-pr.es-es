@@ -13,18 +13,18 @@ ms.search.keywords: purchase fixed asset
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 903c1a858fe66482cb4404e8b792abade6106489
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: a0c3c67952a7b33771329f8e9ecb45744b64830c
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-acquire-fixed-assets"></a>Procedimiento: Adquirir activos fijos
+# <a name="acquire-fixed-assets"></a>Activos fijos adquiridos
 Deberá configurar una ficha con la información de cada activo. Puede configurar los edificios o los bienes de producción como activos principales con una lista de componentes y puede agruparlos de diferentes maneras como, por ejemplo, por clase, departamento o ubicación. Un libro de amortización debe estar configurado y asignado a cada activo fijo antes de que pueda adquirirlo.
 
 Cuando se ha configurado un activo y se le ha asignado un libro de amortización, debe adquirirlo. Para adquirir un activo, registre el coste en la cuenta de contabilidad, la cuenta bancaria o el proveedor correspondiente registrando una transacción de adquisición desde la ventana **A/F Diario general**. Puede utilizar la ventana **Adquisición activos asistida** para crear y registrar las líneas del diario general requeridas automáticamente.
 
-El valor residual es el valor restante de un activo cuando ya no se puede utilizar. Puede registrar el valor residual en el momento de registrar el coste. Para obtener más información, consulte [Procedimiento: Depreciar o amortizar activos fijos](fa-how-depreciate-amortize.md).
+El valor residual es el valor restante de un activo cuando ya no se puede utilizar. Puede registrar el valor residual en el momento de registrar el coste. Para obtener más información, consulte [Depreciar o amortizar activos fijos](fa-how-depreciate-amortize.md).
 
 El ajuste de valores se utiliza para ajustar los valores a los cambios de niveles generales de precio. El proceso **Ajustar valores activos** puede utilizarse para calcular los costes de adquisición como de sustitución.
 
@@ -34,7 +34,7 @@ El procedimiento siguiente describe cómo crear un activo y después adquirirlo 
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Activos fijos** y, a continuación, seleccione el vínculo relacionado.  
 2. Elija la acción **Nuevo** y, a continuación, rellene los campos de la ficha desplegable **General** como sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. En la ficha desplegable **Ficha libros amortización**, rellene los campos según sea necesario. Este paso asigna un libro de amortización al activo.  
-4. Si necesita asignar más de un libro de amortización al activo, elija la acción **Añadir más libros amortización**. Para obtener más información, vea la sección "Para asignar un libro de amortización a un activo" en [Procedimiento: Configurar la amortización de los activos fijos](fa-how-setup-depreciation.md).
+4. Si necesita asignar más de un libro de amortización al activo, elija la acción **Añadir más libros amortización**. Para obtener más información, vea la sección "Para asignar un libro de amortización a un activo" en [Configurar la amortización de los activos fijos](fa-how-setup-depreciation.md).
 
     Cuando estén rellenados todos los campos requeridos para adquirir un activo, aparecerá la notificación **Está listo para adquirir el activo. Adquirir** en la parte superior de la página.
 5. Seleccione la acción **Adquirir** en la notificación.
@@ -70,7 +70,7 @@ El procedimiento siguiente describe cómo adquirir un activo manualmente creando
 4. Seleccione la acción **Registrar**.  
 
 > [!TIP]  
->   Si rellena el campo **Nº seguro** del diario general de activos fijos en el momento de registrar un coste, [!INCLUDE[d365fin](includes/d365fin_md.md)] también registrará el coste del activo en los movimientos de seguros. Para obtener más información, vea [Procedimiento: Asegurar activos fijos](fa-how-insure.md).
+>   Si rellena el campo **Nº seguro** del diario general de activos fijos en el momento de registrar un coste, [!INCLUDE[d365fin](includes/d365fin_md.md)] también registrará el coste del activo en los movimientos de seguros. Para obtener más información, vea [Asegurar activos fijos](fa-how-insure.md).
 
 ## <a name="to-cancel-an-acquisition-cost-posting-for-one-fixed-asset"></a>Para anular un coste del registro de un activo
 Si se equivoca al registrar un coste, puede eliminar el movimiento mediante el proceso **Cancelar movs. A/F** y registrar seguidamente el movimiento de adquisición correcto. Los movimientos incorrectos se transfieren a la ventana **A/F Movs. anulados**.

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: a42e336dba385cbf24c19702ad64d76b26c15104
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ed9cc92aee8a11a6094456ad24a07ab6c4d47952
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="using-workflows"></a>Uso de flujos de trabajo
@@ -31,11 +31,11 @@ Puede configurar y utilizar flujos de trabajo que vinculen tareas de procesos em
 
 |**Para**|**Consulte**|  
 |------------|-------------|  
-|Establecer un flujo de trabajo para comenzar cuando se produzca el primer evento de punto de entrada.|[Procedimiento: Activar flujos de trabajo](across-how-to-enable-workflows.md)|  
-|Solicitar aprobación de una tarea como aprobador, aceptar, rechazar o delegar aprobaciones, y enviar o ver notificaciones de aprobación.|[Usar flujos de trabajo de aprobación](across-how-use-approval-workflows.md)|  
-|Cree pasos de flujo de trabajo que restrinjan el uso de cierto tipo de registros antes de producirse un determinado evento, por ejemplo que el registro se apruebe.|[Procedimiento: Restringir y permitir el uso de un registro](across-how-to-restrict-and-allow-usage-of-a-record.md)|  
-|Ver los casos del paso del flujo de trabajo con estado de completado.|[Procedimiento: Ver las instancias de paso de flujo de trabajo archivadas](across-how-to-view-archived-workflow-step-instances.md)|  
-|Eliminar un flujo de trabajo que está seguro que no se utilizará más.|[Procedimiento: Eliminar flujos de trabajo](across-how-to-delete-workflows.md)|  
+|Establecer un flujo de trabajo para comenzar cuando se produzca el primer evento de punto de entrada.|[Activar flujos de trabajo](across-how-to-enable-workflows.md)|  
+|Solicitar aprobación de una tarea como aprobador, aceptar, rechazar o delegar aprobaciones, y enviar o ver notificaciones de aprobación.|[Usar flujos de trabajo de aprobación del producto](across-how-use-approval-workflows.md)|  
+|Cree pasos de flujo de trabajo que restrinjan el uso de cierto tipo de registros antes de producirse un determinado evento, por ejemplo que el registro se apruebe.|[Restringir y permitir el uso de un registro](across-how-to-restrict-and-allow-usage-of-a-record.md)|  
+|Ver los casos del paso del flujo de trabajo con estado de completado.|[Ver instancias de paso de flujo de trabajo archivadas](across-how-to-view-archived-workflow-step-instances.md)|  
+|Eliminar un flujo de trabajo que está seguro que no se utilizará más.|[Eliminar flujos de trabajo](across-how-to-delete-workflows.md)|  
 
 ## <a name="see-also"></a>Consulte también  
 [Configuración de flujos de trabajo](across-set-up-workflows.md)   

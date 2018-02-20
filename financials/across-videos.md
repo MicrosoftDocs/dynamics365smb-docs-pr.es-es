@@ -1,5 +1,5 @@
 ---
-title: "¿Cómo puedo utilizar los vídeos en Dynamics 365 Business edition? | Documentos de Microsoft"
+title: "¿Cómo puedo utilizar los vídeos en Finance and Operations, Business edition? | Documentos de Microsoft"
 description: "Proporciona acceso a los vídeos de introducción que muestran como realizar tareas comunes."
 services: project-madeira
 documentationcenter: 
@@ -13,21 +13,21 @@ ms.search.keywords: video, library, how to
 ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: c3cb769e45d2ef2ade6eb82118cd6f79b5e3cf9d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 747a3f83d5e0387a557eebaf9ad5d2ef5dcd0673
 ms.contentlocale: es-es
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="visit-our-video-library"></a>Visite nuestra biblioteca de vídeos
 Para ayudarle a empezar rápidamente, estamos creando una biblioteca de videos "tutoriales" que ilustran cómo completar varios procesos en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Solo para mencionar algunos ejemplos, la biblioteca contiene videos que muestran cómo:  
 
-* Migrar datos de empresa de otras aplicaciones financieras a [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+* Migrar datos de empresa de otras aplicaciones financieras a  [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 * Configurar dimensiones para que pueda rastrear y analizar varios documentos y entidades
 * Conectar [!INCLUDE[d365fin](includes/d365fin_md.md)] con Microsoft Dynamics 365 for Sales
 * Configurar flujos de trabajo de aprobación  
-* Utilizar Power BI con [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-* Configurar el correo electrónico y enviar documentos directamente desde [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+* Utilizar Power BI con  [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+* Configurar el correo electrónico y enviar documentos directamente desde  [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 
 Puede acceder a los vídeos de varias formas. Si ya está trabajando con [!INCLUDE[d365fin](includes/d365fin_md.md)], hay dos formas de obtener la biblioteca:
 
@@ -39,7 +39,7 @@ Puede acceder a los vídeos de varias formas. Si ya está trabajando con [!INCLU
 
 Además de los vídeos, **Asistencia de negocio** incluye recursos como vínculos a los temas y las guías de configuración asistidas que facilitan la configuración de las opciones. Estos recursos sustituyen el gráfico en el área de trabajo. Una vez explore los recursos, vuelva al gráfico en el menú **Ayuda de negocio** mediante **Mostrar gráfico**.  
   
-Puede ver nuestros "tutoriales", además de muchos otros contenidos, en el canal de YouTube que creamos para Microsoft Dynamics 365. Para visitar ahora el canal haga clic [aquí](https://go.microsoft.com/fwlink/?linkid=851533).
+Puede ver nuestros "tutoriales", además de muchos otros contenidos, en el canal de YouTube que creamos para Microsoft Finance and Operations, Business edition. Para visitar ahora el canal haga clic [aquí](https://go.microsoft.com/fwlink/?linkid=851533).
 
 ## <a name="see-also"></a>Consulte también
 [[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)

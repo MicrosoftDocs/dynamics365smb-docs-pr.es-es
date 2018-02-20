@@ -13,10 +13,10 @@ ms.search.keywords: relationship, CRM, integration, couple
 ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: dbb29d9d53618eec69817455d4304da2a6bfe466
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2b85c52378a351dbc1a0809ec540b1f53c8074ef
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="synchronizing-contacts-with-customers-vendors-and-bank-accounts"></a>Sincronizar contactos con clientes, proveedores y cuentas bancarias
@@ -27,7 +27,7 @@ Antes de sincronizar los contactos con los clientes, proveedores o bancos, debe 
 ## <a name="different-ways-to-synchronize-contacts-with-customers-vendors-and-bank-accounts"></a>Formas distintas de sincronizar contactos con clientes, proveedores y cuentas bancarias
 Puede sincronizar sus contactos con clientes, proveedores o bancos mediante tres métodos:
 
-* relacionar los contactos relacionados con clientes existentes, proveedores o bancos de la ficha de contacto. Para obtener más información, consulte [Procedimiento: Vincular contactos con clientes, proveedores y cuentas bancarias](marketing-how-link-contact.md).
+* relacionar los contactos relacionados con clientes existentes, proveedores o bancos de la ficha de contacto. Para obtener más información, consulte [Vincular contactos con clientes, proveedores y cuentas bancarias](marketing-how-link-contact.md).
 * Crear clientes, proveedores o cuentas bancarias a partir del contacto. Para obtener más información, consulte [Crear un cliente, proveedor o cuenta bancaria a partir de un contacto](marketing-how-create-contacts-new-customers-vendors-bank-accounts.md).
 * Crear contactos a partir de clientes, proveedores o bancos: Para obtener más información, consulte [Crear un contacto de empresa a partir de un cliente, proveedor o una cuenta bancaria](marketing-how-create-contact-companies.md).
 

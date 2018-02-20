@@ -1,25 +1,24 @@
 ---
 title: Configurar prepagos | Documentos de Microsoft
 description: "Los prepagos son pagos que se facturan y registran en un pedido de prepago de ventas o compras antes de la facturación final. Puede requerir un depósito antes de fabricar productos bajo pedido o puede requerir el pago antes de enviar productos a un cliente. La funcionalidad de prepagos le permite facturar y cobrar depósitos requeridos de los clientes o remitir depósitos a proveedores. De este modo, puede asegurar que todos los pagos se registran contra una factura."
-services: project-madeira
 documentationcenter: 
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/07/2017
-ms.author: sgroespe
+ms.date: 15/01/2018
+ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 11aef4cb4b1d40568b63662239a26993782201a3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 66c5d81fd7c3517b42930f53b81e06a3583aeb3d
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-prepayments"></a>Definir prepagos
+# <a name="set-up-prepayments"></a>Configurar prepagos
 Si desea que sus clientes realicen el pago antes de enviarles un pedido o su proveedor le requiere que efectúe el pago antes de enviarle un pedido, puede utilizar la funcionalidad Prepago. La funcionalidad le permite facturar y cobrar depósitos requeridos de los clientes o remitir depósitos a proveedores y asegurarse de que todos los pagos parciales se contabilicen con una factura. Para obtener más información, consulte [Crear una factura de prepago](finance-how-to-create-prepayment-invoices.md).
 
 Para poder registrar facturas de prepago, debe configurar las cuentas auxiliares en la contabilidad y configurar series numéricas para documentos de prepago.  
@@ -35,6 +34,8 @@ Dado que el importe de prepago pertenece al comprador hasta que haya recibido lo
 
     - **Cuenta prepago ventas**  
     - **Cuenta prepagos compras**  
+
+Si aún no ha configurado cuentas de contabilidad para prepagos, puede hacerlo en la ventana **Lista de cuentas**.  
 
 ## <a name="to-set-up-number-series-for-prepayment-documents"></a>Configurar números de serie para documentos de prepago  
 
@@ -79,6 +80,7 @@ Dicho de otro modo, el porcentaje de prepago de la ficha del cliente sólo se ap
 ## <a name="see-also"></a>Consulte también  
 [Facturación de prepagos](finance-invoice-prepayments.md)  
 [Tutorial: Configuración y facturación de prepagos de ventas](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
+[Descripción de contabilidad y plan de cuentas](finance-general-ledger.md)  
 [Finanzas](finance.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

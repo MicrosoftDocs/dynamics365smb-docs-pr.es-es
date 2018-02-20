@@ -13,10 +13,10 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 03/29/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 870f1c6a7f93195e0308a646402d642f6cadd219
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3d92f1ca1f36ca74b2da9922d2929ad69c5b31cf
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="closing-the-books"></a>Cerrar los libros
@@ -31,7 +31,7 @@ El proceso de cerrar el libro incluye estas tareas principales:
 
     Un ejercicio se define como uno o varios periodos abiertos tal como se definen en la ventana **Periodos contables**. Un ejercicio normal contiene 12 periodos de un mes cada uno, pero también puede elegir otro método para definir un ejercicio.
 
-    Para obtener más información, vea [Procedimiento: Cerrar periodos contables](year-close-account-periods.md).
+    Para obtener más información, vea [Cerrar periodos contables](year-close-account-periods.md).
 2. Registrar asientos post-cierre.
 
     Cuando cierre un ejercicio, debe introducir diversas transacciones administrativas (como productos prepagados y acumulados). Estas transacciones se denominan movimientos de ajuste. No existen reglas especiales para registrar estos movimientos y contienen (al igual que otros movimientos) una marca de verificación en el campo **Asiento post-cierre** si se registran en una fecha de un ejercicio cerrado. Incluso aunque un ejercicio se haya cerrado, todavía podrá registrar en él movimientos de contabilidad.
@@ -44,7 +44,7 @@ El proceso de cerrar el libro incluye estas tareas principales:
 
     Cuando finaliza el proceso Asiento regularización, puede registrar los movimientos que ha generado el proceso. Si no ha especificado una cuenta de ajustes red. div. adic. en el proceso, escriba una línea con un movimiento de saldo que registre los ingresos netos en la cuenta contable correcta bajo los fondos propios de los propietarios en el balance. Finalmente, registre el diario.
 
-    Para obtener más información, consulte [Procedimiento: Registrar movimiento de cierre del ejercicio](year-how-post-year-end-close-entry.md).
+    Para obtener más información, consulte [Registrar movimiento de cierre del ejercicio](year-how-post-year-end-close-entry.md).
 
 ## <a name="what-happens-when-you-close"></a>Consecuencias del cierre
 Al realizar el cierre al final del año, el programa traslada los ingresos calculados a la cuenta de remanentes. Además, el programa marca el ejercicio como "cerrado," y todos los movimientos siguientes del año cerrado como "movimientos del año anterior."

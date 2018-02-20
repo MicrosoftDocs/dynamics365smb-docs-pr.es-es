@@ -1,6 +1,6 @@
 ---
 title: "Tutorial: recepción y ubicación en la configuración avanzada de almacén | Documentos de Microsoft"
-description: "En Dynamics 365, los procesos de entrada para la recepción y la ubicación se pueden realizar de cuatro maneras utilizando distintas funciones según el nivel de complejidad del almacén."
+description: "En Finance and Operations, Business edition, los procesos de entrada para recepción y ubicación se pueden realizar de cuatro maneras utilizando distintas funciones según el nivel de complejidad del almacén."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 1d5cdff996da2d9886dce0d59d4f38796534972a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 991256bf2737297710d25f5a25854f4803185fc3
 ms.contentlocale: es-es
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Tutorial: recepción y ubicación en la configuración del almacenamiento avanzado
@@ -151,7 +151,7 @@ En la ventana **Ubicar almacén**, puede administrar ubicaciones para un documen
     Los accesorios recibidos se ubican ahora en las ubicaciones predeterminadas de los productos y se colocan 40 bisagras en el departamento de ensamblado. Los productos recibidos están disponibles ahora para picking para demanda interna, como pedidos de ensamblado, o para demanda externa, como albaranes de venta.  
 
 ## <a name="see-also"></a>Consulte también  
- [Procedimiento: ubique productos con ubicaciones de inventario](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)   
+ [Ubicar productos con ubic. exist. almacén](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)   
  [Mover productos en configuraciones avanzadas de almacén](warehouse-how-to-move-items-in-advanced-warehousing.md)   
  [Detalles de diseño: Flujo de entrada en almacén](design-details-inbound-warehouse-flow.md)   
  [Tutorial: recepción y ubicación en la configuración del almacenamiento básico](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)   

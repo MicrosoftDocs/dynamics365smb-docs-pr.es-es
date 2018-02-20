@@ -13,13 +13,13 @@ ms.search.keywords: purchasing agent
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 98b9dfce0b0a9723992fe3de77a1130ca2b05e7a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 66e6233df8204476e5f856e230e5e3d502d309c4
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-purchasers"></a>Configuración de compradores
+# <a name="set-up-purchasers"></a>Configurar compradores
 Si trabajan para la empresa varios compradores, puede configurarlos en una ventana y asignar un código a cada uno. Más adelante, podrá utilizar los códigos para preparar estadísticas y filtrar información en los informes impresos.
 
 ## <a name="to-set-up-purchasers"></a>Para configurar compradores

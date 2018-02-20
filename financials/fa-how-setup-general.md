@@ -1,24 +1,22 @@
 ---
 title: Configurar activos fijos de contabilidad | Documentos de Microsoft
 description: "Antes de trabajar con activos fijos, debe configurar las cuentas contables predeterminadas, los grupos contables, las claves de asignación, las plantillas y secciones de diario, y los códigos de clase."
-services: project-madeira
-documentationcenter: 
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/02/2017
-ms.author: sgroespe
+ms.date: 29/01/2018
+ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
-ms.openlocfilehash: 2a84fbed87b4d6223e98db0c0bc1f5c5c7d1ba78
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 97ff0418c2e3ffe2ace8412bb889fafd5788510b
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-general-fixed-assets-information"></a>Procedimiento: Configurar información general de activos fijos
+# <a name="set-up-general-fixed-assets-information"></a>Configurar información general de activos fijos
 Para poder gestionar activos fijos, debe configurar las cuentas predeterminadas, las claves de asignación, las plantillas y las secciones del diario que se utilizan para registrar y reclasificar los activos fijos, y clasificar los activos fijos en clases como, por ejemplo, Tangible e Intangible.
 
 ## <a name="to-set-up-general-default-values-for-fixed-assets"></a>Para configurar los valores predeterminados generales de los activos fijos
@@ -38,7 +36,7 @@ Puede utilizar grupos de registro para definir los grupos contables de activos f
 >   ara asegurarse de que las cuentas de contrapartida de los diferentes registros de activos se insertan automáticamente en las líneas del diario al elegir la acción **Introducir saldo AF**, vaya al siguiente paso que se basa en el registro de apreciación.
 4. En la ficha desplegable **Saldo**, en el campo **Cta. contrap. apreciación**, seleccione la cuenta contable en la que desea registrar las contrapartidas para la apreciación.
 
-Para obtener más información sobre cómo usar la acción **Introducir saldo AF** en las líneas del diario general de activos, vea, por ejemplo, [Procedimiento: Revalorizar activos fijos](fa-how-revalue.md).
+Para obtener más información sobre cómo usar la acción **Introducir saldo AF** en las líneas del diario general de activos, vea, por ejemplo, [Revalorizar activos fijos](fa-how-revalue.md).
 
 ## <a name="to-set-up-fixed-asset-allocation-keys"></a>Para configurar claves de distribución de activos fijos
 Las transacciones pueden distribuirse en varios departamentos y proyectos, según las claves de distribución definidas por el usuario. Por ejemplo, puede configurar una clave de distribución para distribuir los costes de amortización de automóviles con el 35% para el departamento de administración y el 65% para el de ventas. Para obtener más información, consulte [Asignar costes e ingresos](year-allocate-costs-income.md).
@@ -53,7 +51,7 @@ Las claves de asignación se aplican a las clases de activos, no a los activos i
 ## <a name="to-set-up-fixed-asset-journal-templates"></a>Para configurar las plantillas del diario de activos
 Un libro es un diseño predeterminado de un diario. El libro contiene información de los códigos de seguimiento, informes y números de serie. Para obtener más información, consulte [Trabajar con diarios generales](ui-work-general-journals.md).
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] crea automáticamente una plantilla de diario de activos la primera vez que abre la ventana **Diario de activos**, pero puede configurar plantillas de diario adicionales.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] crea automáticamente una plantilla de diario de activos la primera vez que abre la ventana **Diario de activos fijos**, pero puede configurar plantillas de diario adicionales.  
 
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **A/F Libros diarios** y, a continuación, seleccione el vínculo relacionado.  
 2. Rellene los campos según sea necesario.
@@ -103,19 +101,21 @@ Si es la primera vez que utiliza los activos fijos en [!INCLUDE[d365fin](include
 
 1. Asegúrese de completar los procedimientos de configuración básica de los activos fijos.  
 2. Cree una ficha de activo para cada activo existente.  
-3. Configuración de libros depreciación de activos fijos.  
-4. Active la integración en contabilidad siguiendo estos pasos.
-5. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Libros amortización** y, a continuación, seleccione el vínculo relacionado.  
-6. Seleccione la ficha de libro de amortización correspondiente. En la pestaña **Inicio**, grupo **Administrar**, elija **Editar** para abrir la ventana **Ficha libro amortización**.
-7. Asegúrese de que todos los campos estén vacíos borrando todas las marcas en la ficha desplegable **Integración**. Si dispone de más de un libro de amortización, active la integración contable de cada uno.  
-8. En el diario de activos fijos, introduzca las siguientes líneas por activo:
+3. Cree un libro de amortización de activos fijos para cada propósito de depreciación (como impuestos y estados financieros). Por cada libro de amortización debe definir los términos y las condiciones como, por ejemplo, la integración con la contabilidad.  
+
+    Active la integración en contabilidad siguiendo estos pasos. Primero, asegúrese de que la integración del libro mayor esté deshabilitada para todos los libros de amortización, luego publique los movimientos pendientes y, finalmente, active la integración del libro mayor.  
+4. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Libros amortización** y, a continuación, seleccione el vínculo relacionado.  
+5. Seleccione la ficha de libro de amortización correspondiente. En la pestaña **Inicio**, grupo **Administrar**, elija **Editar** para abrir la ventana **Ficha libro amortización**.
+6. Asegúrese de que todos los campos estén vacíos borrando todas las marcas en la ficha desplegable **Integración**. Si dispone de más de un libro de amortización, desactive la integración contable de cada uno.  
+7. En el diario de activos fijos, introduzca las siguientes líneas por activo:
    * Línea con el coste.
    * Una línea con la amortización acumulada hasta el final del año fiscal anterior.
    * Una línea con la amortización acumulada desde el inicio del año fiscal en curso hasta la fecha en que [!INCLUDE[d365fin](includes/d365fin_md.md)] está establecido para comenzar a calcular la amortización.
 
-Si tiene otros saldos pendientes, también puede especificarlos ahora, como depreciación o apreciación.  
+    Si tiene otros saldos pendientes, también puede especificarlos ahora, como depreciación o apreciación.  
+8. Una vez que haya especificado y registrado las líneas del diario para cada activo, active la integración de la contabilidad general en los libros de amortización.
 
-Si los activos fijos no se integran en la contabilidad, omita los pasos del 4 al 7.
+Si los activos fijos no se integran en la contabilidad, omita los pasos 6 y 8.
 
 ## <a name="see-also"></a>Consulte también
 [Configurar activos fijos](fa-setup.md)  

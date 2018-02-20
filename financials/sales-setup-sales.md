@@ -13,10 +13,10 @@ ms.search.keywords: trade, sell, configure
 ms.date: 10/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: d94177e37fec6abf278dc8edac71b03c569c9581
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6407b49cf9b5e844b4e0920ccf1fc299d96ae34f
 ms.contentlocale: es-es
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-sales"></a>Configuración de ventas
@@ -30,16 +30,16 @@ La configuración de ventas relacionada con las finanzas, como las formas de pag
 
 | Para | Vea |
 | --- | --- |
-| Cree una ficha de cliente para cada cliente al que vende. |[Registro de clientes nuevos](sales-how-register-new-customers.md) |
+| Cree una ficha de cliente para cada cliente al que vende. |[Permite registrar nuevos clientes](sales-how-register-new-customers.md) |
 | Permita a los clientes que paguen mediante PayPal eligiendo su logotipo en los documentos de ventas. |[Permitir el pago de clientes mediante PayPal](sales-how-enable-payment-service-extensions.md) |
-| Especifique los distintos descuentos y precios especiales que ofrece a los clientes en función del producto, cantidades o fecha. |[Registrar acuerdos de precios de venta, descuentos y pagos](sales-how-record-sales-price-discount-payment-agreements.md) |
+| Especifique los distintos descuentos y precios especiales que ofrece a los clientes en función del producto, cantidades o fecha. |[Registrar acuerdos de pago, descuentos y precios de venta](sales-how-record-sales-price-discount-payment-agreements.md) |
 | Configure los vendedores para que pueda asignarles contactos de cliente o medir el rendimiento del vendedor como base para calcular la comisión o prima por ventas. |[Configurar vendedores](sales-how-setup-salespeople.md) |
-| Especifique para clientes individuales o para todos los clientes cómo se envían los documentos de ventas por defecto cuando elige la acción **Registrar y enviar**. |[Configurar los perfiles de envío de documentos](sales-how-setup-document-send-profiles.md) |
+| Especifique para clientes individuales o para todos los clientes cómo se envían los documentos de ventas por defecto cuando elige la acción **Registrar y enviar**. |[Configurar perfiles de envío de documentos](sales-how-setup-document-send-profiles.md) |
 | Configure su correo electrónico para que contenga un resumen de información en el documento de ventas que se está enviando. |[Enviar documentos por correo electrónico](ui-how-send-documents-email.md). |
-|Utilice un servicio Web de la UE para comprobar el número de CIF/NIF de un cliente.|[Procedimiento: verificación de números CIF/NIF](finance-setup-vat.md)|
-|Introducir información acerca de los distintos proveedores de transporte empleados, incluyendo un vínculo a su servicio de seguimiento del envío.|[Cómo configurar transportistas](sales-how-to-set-up-shipping-agents.md)|
+|Utilice un servicio Web de la UE para comprobar el número de CIF/NIF de un cliente.|[Comprobar CIF/NIF](finance-setup-vat.md)|
+|Introducir información acerca de los distintos proveedores de transporte empleados, incluyendo un vínculo a su servicio de seguimiento del envío.|[Configurar transportistas](sales-how-to-set-up-shipping-agents.md)|
 
 ## <a name="see-also"></a>Consulte también
-[Ccial](sales-manage-sales.md)  
+[Ventas](sales-manage-sales.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

@@ -13,13 +13,13 @@ ms.search.keywords: incoming document
 ms.date: 07/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5cf49fa7b1c2d4385cd05f44e10237078e1214a4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: abeb3ee24434ca3549e7ed88ecfae54cc395002d
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-manage-the-intercompany-inbox-and-outbox"></a>Procedimiento: Administrar la bandeja de entrada y la bandeja de salida de empresas vinculadas
+# <a name="manage-the-intercompany-inbox-and-outbox"></a>Administrar la bandeja de entrada y la bandeja de salida de empresas vinculadas
 Todas las transacciones de empresas vinculadas que se reciben electrónicamente aparecen en la bandeja de entrada de empresas vinculadas.  
 
 ## <a name="organizing-the-inbox"></a>Organizar la bandeja de entrada  

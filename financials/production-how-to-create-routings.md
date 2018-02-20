@@ -1,6 +1,6 @@
 ---
 title: Crear Rutas | Documentos de Microsoft
-description: "Una ruta contiene los datos maestros que capturan los requisitos del proceso de un producto fabricado específico. Una vez creada la orden de producción para ese producto, la ruta controlará la programación de operaciones tal como se representan en la ventana **Ruta de orden de producción** bajo la orden de producción."
+description: "Una ruta contiene los datos maestros que capturan los requisitos del proceso de un producto fabricado específico. Una vez creada la orden de producción para ese producto principal, la ruta controlará la programación de operaciones tal como se representan en la ventana **Ruta orden producción** bajo la orden de producción."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
-ms.openlocfilehash: 85cd332e4b62ba73f511989983e1eb9f5147c5fb
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f941625052bea17e524e7150f1a3a957d2916d54
 ms.contentlocale: es-es
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-routings"></a>Creación de rutas
+# <a name="create-routings"></a>Creación de rutas
 Las empresas con procesos de fabricación utilizan las rutas para visualizar y dirigir el funcionamiento de los mismos.
 
 La ruta es también la base para la programación del proceso, la programación de la capacidad, la programación de la asignación de los materiales necesarios y los documentos de fabricación.  
@@ -29,7 +29,7 @@ En función de la L.M. de producción, las rutas se asignan al producto final de
 Para poder configurar una ruta, lo siguiente debe existir:  
 
 - Se deben crear fichas de producto para los productos principales que forman parte de la fabricación. Para obtener más información, vea [Registrar nuevos productos](inventory-how-register-new-items.md).
-- Se han configurado recursos de producción. Para obtener más información, consulte [Cómo configurar centros de trabajo y centros de máquina](production-how-to-set-up-work-and-machine-centers.md).
+- Se han configurado recursos de producción. Para obtener más información, consulte [Configurar centros de trabajo y centros de máquina](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-routing"></a>Para crear una ruta  
 1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Rutas** y, a continuación, seleccione el vínculo relacionado.  
@@ -59,7 +59,7 @@ Para poder configurar una ruta, lo siguiente debe existir:
 >  Recuerde también volver a calcular el coste estándar del producto desde la tarjeta **Producto**: Seleccione la acción **Fabricación**, seleccione la acción **Calcular coste estándar** y, a continuación, seleccione la acción **Todos los niveles**.  
 
 ## <a name="to-create-routing-links"></a>Para crear conexiones de ruta
-Puede crear conexiones de ruta para conectar componentes con operaciones específicas de forma de conservar su relación aunque se modifique la L.M. de producción o la ruta. Estas conexiones permiten también dar de baja puntualmente los componentes, es decir, cuando se inicia la operación conectada específica, no cuando se lanza la orden de producción completa. Para obtener más información, consulte [Procedimiento: Baje componentes según la producción de la operación](production-how-to-flush-components-according-to-operation-output.md).  
+Puede crear conexiones de ruta para conectar componentes con operaciones específicas de forma de conservar su relación aunque se modifique la L.M. de producción o la ruta. Estas conexiones permiten también dar de baja puntualmente los componentes, es decir, cuando se inicia la operación conectada específica, no cuando se lanza la orden de producción completa. Para obtener más información, consulte [Bajar componentes según la producción de la operación](production-how-to-flush-components-according-to-operation-output.md).  
 
 Otra ventaja importante es que las operaciones y los componentes conectados se muestran en una estructura de proceso lógica cuando utiliza la ventana **Diario de producción** para registrar la salida y el consumo.  
 
@@ -80,14 +80,14 @@ Otra ventaja importante es que las operaciones y los componentes conectados se m
 
     Los códigos de vínculo de ruta se asignan ahora a operaciones. Siguiente, debe crear vínculos reales asignando los mismos códigos a los componentes específicos en la L.M. de producción correspondiente.  
 
-6.  Abra la **L.M. de producción** que contiene los componentes que desea vincular a las operaciones anteriores. Para obtener más información, consulte [Creación de L.M. de producción](production-how-to-create-production-boms.md).
+6.  Abra la **L.M. de producción** que contiene los componentes que desea vincular a las operaciones anteriores. Para obtener más información, consulte [Crear L.M. de producción](production-how-to-create-production-boms.md).
 7.  Asegúrese de que el estado de la L.M. está **En desarrollo**.  
 8.  En la línea correspondiente de la L.M. de producción, en el campo de **Cód. conexión ruta**, seleccione el código que se acaba de asignar a la operación correspondiente.  
 9. Agregue códigos de conexión de ruta a otros componentes según las operaciones únicas en las que éstos se utilizan.  
 10. Establezca el estado de la ruta en **Certificada**.  
 
     > [!NOTE]  
-    >  Para activar las conexiones de ruta en una orden de producción existente, debe actualizar la orden de producción. Para obtener más información, consulte [Creación de órdenes de producción](production-how-to-create-production-orders.md).  
+    >  Para activar las conexiones de ruta en una orden de producción existente, debe actualizar la orden de producción. Para obtener más información, consulte [Crear órdenes de producción](production-how-to-create-production-orders.md).  
 
 Los componentes seleccionados se conectarán a las operaciones seleccionadas cuando cree o actualice una orden de producción con la L.M. de producción y ruta en cuestión. Se puede ver en la ventana **Componentes orden producción** bajo la orden de producción y, en esta misma ventana, puede eliminar y agregar los códigos de conexión de ruta definidos cuando lo desee.
 
@@ -119,7 +119,7 @@ El principio de versión le permite administrar varias versiones de rutas. La es
 El periodo de validez de la versión se especifica mediante el campo **Fecha inicial**.  
 
 ## <a name="see-also"></a>Consulte también  
-[Creación de L.M. de producción](production-how-to-create-production-boms.md)  
+[Crear LM de producción](production-how-to-create-production-boms.md)  
 [Configuración de fabricación](production-configure-production-processes.md)  
 [Fabricación](production-manage-manufacturing.md)    
 [Planificación](production-planning.md)   

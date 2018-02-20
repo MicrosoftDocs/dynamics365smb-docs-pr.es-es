@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d87aa7fe44b183a823457be4448c84631cd75db6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 015acdfbbc349477b9e86225f2c971f993215000
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Tutorial: vender, ensamblar y enviar kits
@@ -36,7 +36,7 @@ Los elementos del ensamblado se caracterizan según su sistema de reposición y 
 -   Creación de una L.M. de ensamblado que enumera los componentes del ensamblado y el recurso que forman parte del elemento del ensamblado.  
 
 ### <a name="selling-customized-assembly-items"></a>Vender elementos del ensamblado personalizados  
-[!INCLUDE[d365fin](includes/d365fin_md.md)] proporciona la flexibilidad para introducir una cantidad de inventario y una cantidad de ensamblar para pedido en una línea de pedido de venta. En esta sección se describen las tareas siguientes:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  proporciona la flexibilidad para introducir una cantidad de inventario y una cantidad de ensamblar para pedido en una línea de pedido de venta. En esta sección se describen las tareas siguientes:  
 
 -   Crear una línea de pedido de venta puramente ATO donde la cantidad completa no está disponible y debe ensamblarse antes del envío.  
 -   Personalizar los productos ATO.  
@@ -179,10 +179,10 @@ Cuando el pedido de venta se registra posteriormente como facturado en su totali
 
     |**Escriba**|**Nº**|**Cantidad por**|  
     |-------------------------------|------------------------------|---------------------------------------|  
-    |Artículo|80001|0|  
-    |Artículo|80011|0|  
-    |Artículo|80209|0|  
-    |Recurso|Elena|0|  
+    |Artículo|80001|1|  
+    |Artículo|80011|1|  
+    |Artículo|80209|1|  
+    |Recurso|Elena|1|  
 
 6.  Cree el segundo elementos del ensamblado según la información siguiente.  
 
@@ -202,10 +202,10 @@ Cuando el pedido de venta se registra posteriormente como facturado en su totali
 
     |**Escriba**|**Nº**|**Cantidad por**|  
     |-------------------------------|------------------------------|---------------------------------------|  
-    |Artículo|80005|0|  
-    |Artículo|80014|0|  
-    |Artículo|80210|0|  
-    |Recurso|Elena|0|  
+    |Artículo|80005|1|  
+    |Artículo|80014|1|  
+    |Artículo|80210|1|  
+    |Recurso|Elena|1|  
 
 ### <a name="selling-the-assembly-items"></a>Vender elementos del ensamblado  
 
@@ -237,7 +237,7 @@ Cuando el pedido de venta se registra posteriormente como facturado en su totali
 
     |Tipo|N.º|Cantidad por|  
     |----------|---------|------------------|  
-    |Artículo|80203|0|  
+    |Artículo|80203|1|  
 
 9. Cierre la ventana **Ensamblar para líneas de pedido**.  
 
@@ -432,10 +432,10 @@ Cuando el pedido de venta se registra posteriormente como facturado en su totali
 
 ## <a name="see-also"></a>Consulte también  
  [Descripción de ensamblar para pedido y ensamblar para stock](assembly-assemble-to-order-or-assemble-to-stock.md)   
- [Procedimiento: ensamble productos](assembly-how-to-assemble-items.md)   
- [Procedimiento: realice un picking de los artículos para el envío de almacén](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
- [Procedimiento: Venta de artículos ensamblados para pedido](assembly-how-to-sell-items-assembled-to-order.md)   
- [Procedimiento: ensamble productos](assembly-how-to-assemble-items.md)   
+ [Ensamblar artículos](assembly-how-to-assemble-items.md)   
+ [Realizar un picking de los artículos para el envío de almacén](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
+ [Venta de artículos ensamblados para pedido](assembly-how-to-sell-items-assembled-to-order.md)   
+ [Ensamblar artículos](assembly-how-to-assemble-items.md)   
  [Detalles de diseño: Registro de pedidos de ensamblado](design-details-assembly-order-posting.md)   
  [Detalles de diseño: Flujos de almacén internos](design-details-internal-warehouse-flows.md)   
  [Detalles de diseño: Flujo de salida del almacén](design-details-outbound-warehouse-flow.md)   

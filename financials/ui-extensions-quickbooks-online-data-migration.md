@@ -1,6 +1,6 @@
 ---
 title: "Usar la extensión de migración de QuickBooks | Documentos de Microsoft"
-description: "Describe cómo utilizar la extensión para migrar clientes, proveedores, elementos y cuentas de QuickBooks Online a Dynamics 365."
+description: "Describe cómo utilizar la extensión para migrar clientes, proveedores, productos y cuentas desde QuickBooks Online a Finance and Operations, Business edition."
 author: bholtorf
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,14 +11,14 @@ ms. search.keywords: extension, migrate, data, QuickBooks, import
 ms.date: 05/24/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: e73db91a37fd5aee249de032d231df2c5e36b4ba
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 8ed245276a6bebd369a3ec32791a9939e8db5aa1
 ms.contentlocale: es-es
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="the-quickbooks-online-data-migration-extension-for-dynamics-365-business-edition"></a>Extensión de la migración de datos de QuickBooks Online para Dynamics 365 Business edition
+# <a name="the-quickbooks-online-data-migration-extension-for-finance-and-operations-business-edition"></a>Extensión de migración de datos de QuickBooks Online para Finance and Operations, Business edition
 Esta extensión se incluye en la guía de configuración asistida **Migración de datos** para ayudarle a migrar datos comerciales importantes de QuickBooks Online a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Por ejemplo, esto es útil cuando su negocio está creciendo y ha decidido actualizar su aplicación de administración de negocios con [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## <a name="what-data-can-i-import-from-quickbooks-online"></a>¿Qué datos puedo importar desde QuickBooks Online?
@@ -44,7 +44,7 @@ Una parte importante del proceso de migración es especificar las cuentas a las 
 * La compra de productos o servicios a proveedores.  
 * Ajustes en el libro mayor.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] requiere que las cuentas del libro mayor tengan números de cuenta asignados. Asegúrese de que los números de cuenta están asignados a las cuentas de QuickBooks Online.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  requiere que las cuentas del libro mayor tengan números de cuenta asignados. Asegúrese de que los números de cuenta están asignados a las cuentas de QuickBooks Online.
 
 Si las transacciones en QuickBooks Online tienen impuestos, debe configurar una cuenta de impuestos para sus jurisdicciones fiscales en [!INCLUDE[d365fin](includes/d365fin_md.md)] antes de poder registrar las transacciones.
 

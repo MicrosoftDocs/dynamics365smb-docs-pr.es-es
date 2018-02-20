@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 06/16/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: b2efb52ce874643fffc0af805fc7ff0dac792462
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 378c3d2b0429390c303c723dbfafd07c531b3958
 ms.contentlocale: es-es
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-#  <a name="how-to-create-analysis-reports"></a>Crear informes de análisis
+#  <a name="create-analysis-reports"></a>Crear informes de análisis
 Los directores de ventas necesitan analizar las facturaciones, los ingresos brutos y otros indicadores clave del rendimiento de las ventas con regularidad. Los compradores están más interesados en la dinámica de los volúmenes de compra, las actuaciones de los proveedores y los precios de compra. A su vez, los directores de inventario/logística necesitan información sobre la rotación de inventarios, sobre los análisis de los movimientos de inventario y sobre las estadísticas de valores de inventario.  
 
 Puede utilizar informes de análisis para crear informes personalizados basados en registros del histórico de transacciones, por ejemplo, ajustes de inventario, transferencias, compras y ventas. En un informe personalizado, los datos de origen, derivados de los movimientos del producto (con los movimientos de valor asociados) se pueden combinar, comparar y presentar de la forma que más convenga al usuario. En este sentido, el informe de análisis es muy similar al informe de tabla dinámica de Microsoft Excel.  
@@ -41,9 +41,6 @@ A continuación, puede configurar las siguientes columnas:
 - Ventas del mes actual  
 - Ventas del mes anterior  
 - Porcentaje de ventas del mes anterior  
-
-> [!NOTE]  
->   Esta funcionalidad requiere que la experiencia esté definida en **Suite**. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
 
 ## <a name="setting-up-line-and-column-layouts"></a>Configuración de plantillas de líneas y columnas  
  En la ventana **Informe de análisis**, puede ver distintas plantillas de líneas y columnas según la configuración definida. Las líneas o las plantillas de línea, se configuran en la ventana **Plantilla de línea de análisis**. En esta ventana puede definir el nombre del informe y los objetos que desea mostrar en las líneas del informe. Las columnas se configuran en la ventana **Plantillas columnas análisis**. En esta ventana puede definir el nombre de la plantilla de columna y los parámetros de análisis que desea mostrar en el informe como columnas. En la ventana **Plantillas columnas análisis**, cada línea representa una columna del informe. Observe que las líneas de análisis y las columnas de análisis son independientes las unas de las otras.  

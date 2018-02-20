@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/05/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 78170bd2bf64b110d5346855d5592837abf2b73e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ac9813b06da171f2da0e179f3b7d360f4dcae3f5
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-standard-routing-lines"></a>Cómo configurar de líneas de ruta estándar
+# <a name="set-up-standard-routing-lines"></a>Configurar de líneas de ruta estándar
 La utilización de tareas estándar simplifica la creación y el mantenimiento de las rutas. Le permiten adjuntar rápidamente la información adicional a las operaciones periódicas.
 
 ## <a name="to-set-up-a-standard-task"></a>Para configurar tareas estándar
@@ -36,7 +36,7 @@ La utilización de tareas estándar simplifica la creación y el mantenimiento d
 
 ## <a name="see-also"></a>Consulte también  
 [Creación de rutas](production-how-to-create-routings.md)  
-[Creación de L.M. de producción](production-how-to-create-production-boms.md)     
+[Crear LM de producción](production-how-to-create-production-boms.md)     
 [Configuración de fabricación](production-configure-production-processes.md)   
 [Fabricación](production-manage-manufacturing.md)    
 [Planificación](production-planning.md)   

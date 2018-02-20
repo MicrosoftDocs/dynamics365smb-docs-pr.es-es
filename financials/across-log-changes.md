@@ -12,13 +12,13 @@ ms.search.keywords: user log, user activity, tracking
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
-ms.openlocfilehash: 9f3db97203e09608ea0776f5571d6179778283b6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 8f49e3722f95d4e5a2c8eea83d77175581d93277
 ms.contentlocale: es-es
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="logging-changes-in-dynamics-365-business-edition"></a>Registrar cambios en Dynamics 365, Business edition 
+# <a name="logging-changes-in-finance-and-operations-business-edition"></a>Registro de cambios en Finance and Operations, Business edition 
 Puede habilitar el registro de cambios en [!INCLUDE[d365fin](includes/d365fin_md.md)] para tener un historial de actividades. El registro se basa en los cambios realizados en los datos en las tablas que se siguen. En el registro de cambios, los movimientos se ordenan cronológicamente y se muestran los cambios realizados a los campos de las tablas especificadas. El registro de cambios recopila todos los cambios que se han realizado en la tabla.  
 
 ## <a name="working-with-the-change-log"></a>Trabajar con el registro de cambios
@@ -34,6 +34,6 @@ Después de haber configurado el registro de cambios, haberlo activado y alguien
 [Cambiar la configuración básica](ui-change-basic-settings.md)  
 [Ordenación](ui-sorting.md)  
 [Buscar página o informe](ui-search.md)  
-[Administrar usuarios y permisos](ui-how-users-permissions.md)    
+[Gestionar usuarios y permisos](ui-how-users-permissions.md)    
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

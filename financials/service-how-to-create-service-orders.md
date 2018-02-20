@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: cb514fe04fd70836f640d3db4ea592680ab0fa1a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5460f50c4c556a74b518976d5d5fa90203f16967
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-service-orders"></a>Cómo crear pedidos de servicio
+# <a name="create-service-orders"></a>Crear pedidos de servicio
 Puede utilizar la ventana **Pedido servicio** para crear documentos en los que se introduce información acerca de un servicio, como reparación y mantenimiento, de productos de servicio a solicitud del cliente.  
   
 Cuando cree un pedido de servicio, solo tendrá que rellenar algunos campos. Algunos campos son opcionales y muchos se rellenarán automáticamente cuando rellene los campos correspondientes.  
@@ -79,7 +79,7 @@ Si necesita asegurarse de que un producto está disponible para el pedido de ser
 5. En la página **Reservas**, elija **Reservar desde línea actual**. 
 
 ## <a name="to-insert-lines-based-on-standard-service-codes"></a>Para insertar líneas basadas en el servicio estándar  
-Si ha configurado códigos de servicio estándar y los ha asignado a grupos de productos de servicio, puede insertar las líneas estándar vinculadas a los códigos de servicio estándar en documentos de servicio. Para obtener más información, consulte [Cómo configurar códigos de servicio estándar](service-how-setup-service-coding.md).   
+Si ha configurado códigos de servicio estándar y los ha asignado a grupos de productos de servicio, puede insertar las líneas estándar vinculadas a los códigos de servicio estándar en documentos de servicio. Para obtener más información, consulte [Configurar códigos de servicio estándar](service-how-setup-service-coding.md).   
 
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Pedidos servicio** y, a continuación, seleccione el vínculo relacionado.  
 2. Cree un pedido de servicio nuevo.  
@@ -106,8 +106,8 @@ Sin embargo, los pedidos de servicio no se eliminarán de forma automática si l
 
 ## <a name="see-also"></a>Consulte también  
 [Registro de servicio](service-service-posting.md)  
-[Cómo registrar un pedido de servicio](service-how-to-post-service-orders.md)  
+[Registrar un ped. serv.](service-how-to-post-service-orders.md)  
 [Configurar la gestión de servicios](service-setup-service.md)  
-[Cómo trabajar en tareas de servicio](service-how-to-work-on-service-tasks.md)  
+[Trabajar en tareas de servicio](service-how-to-work-on-service-tasks.md)  
 [Asignar recursos](service-how-to-allocate-resources.md)  
 

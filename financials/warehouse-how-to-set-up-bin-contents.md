@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 1f3a90b9bc9cce2e138e490d3064f6d505a088b9
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ec7a0c7c34e164b6ca6c8e65938a8c5e53e65514
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-bin-contents"></a>Crear el contenido de una ubicación
+# <a name="create-bin-contents"></a>Crear contenido de ubicación
 Después de configurar las ubicaciones, puede configurar el contenido. Es decir, puede configurar los productos que desea almacenar en una ubicación determinada y definir las reglas que rigen la cumplimentación de la ubicación con un producto particular. Puede hacerlo manualmente en la ventana **Contenidos de ubicación** o automáticamente con la ventana **Crear hoja de contenido de ubicación**.
 
 ## <a name="to-create-bin-content-manually"></a>Para crear el contenido de ubicación manualmente  
@@ -56,8 +56,8 @@ Cuando haya creado sus ubicaciones, puede crear el contenido de la ubicación qu
 En esta hoja puede trabajar con varias líneas de contenido de ubicación para varias ubicaciones y así obtener una buena panorámica de los que coloca en varias ubicaciones de una zona, pasillo o estantería.  
 
 ## <a name="see-also"></a>Consulte también
-[Cómo calcular la reposición de ubicación](warehouse-how-to-calculate-bin-replenishment.md)    
-[Gestión almacén](warehouse-manage-warehouse.md)  
+[Calcular reposición ubicación](warehouse-how-to-calculate-bin-replenishment.md)    
+[Gestión de almacenes](warehouse-manage-warehouse.md)  
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    

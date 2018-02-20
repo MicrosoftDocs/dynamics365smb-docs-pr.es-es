@@ -1,6 +1,6 @@
 ---
-title: Personalizar Dynamics 365 Business edition | Microsoft Docs
-description: Cree, muestre y promocione sus aplicaciones y extensiones de Dynamics 365 Business edition.
+title: Personalizar Dynamics 365 for Finance and Operations, Business edition | Documentos de Microsoft
+description: Cree, muestre y promocione sus aplicaciones y extensiones de Finance and Operations, Business edition.
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,17 +13,17 @@ ms.search.keywords: app, add-in, manifest, customize
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: b0034f678b59f988ed23257f9aa579cc3a8a7628
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 8c8f01a97fa215932fff0adc6baff2be13621585
 ms.contentlocale: es-es
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="extending-included365finlongincludesd365finlongmdmd"></a>Ampliación de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Hay muchas ventajas en el uso de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] como plataforma para creadores de aplicaciones:
 
 * Enriquezca [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], una solución en línea probada de Microsoft, con su experiencia  
-* Aproveche la marca Dynamics 365, una marca que conocen millones de usuarios y en la que confían  
+* Aproveche la marca Finance and Operations, Business edition, una marca que conocen millones de usuarios y en la que confían  
 * Llegue a más clientes para sus aplicaciones comerciales con [Microsoft AppSource](https://appsource.microsoft.com/)  
 * Consiga más con una plataforma que proporciona una experiencia moderna y ofrece escala  
 * Combine con aplicaciones empresariales inteligentes, como PowerApps, Flow, Power BI, Cortana Intelligence y muchas más  
@@ -49,7 +49,7 @@ Antes de que la publiquemos, colaboraremos con usted para asegurarnos de su apli
 Para obtener más información acerca del proceso de validación y cómo publicar la aplicación, obtenga el documento [Publish your app.pdf](https://go.microsoft.com/fwlink/?linkid=841517) del centro de descargas.
 
 ## <a name="learn-more-about-extensions-v20"></a>Obtener más información acerca de las extensiones v2.0
-Las nuevas herramientas de desarrollo, que le permiten crear extensiones v2.0, se encuentran actualmente en vista preliminar y se habilitarán pronto en el servicio Dynamics 365 Business edition. Si ya desea familiarizarse con las nuevas herramientas u obtener más información acerca de las extensiones 2.0, eche un vistazo a [aka.ms/GetStartedWithApps](http://aka.ms/GetStartedWithApps).  
+Las nuevas herramientas de desarrollo, que le permiten crear extensiones v2.0, se encuentran actualmente en vista preliminar y se habilitarán pronto en el servicio Finance and Operations, Business edition. Si ya desea familiarizarse con las nuevas herramientas u obtener más información acerca de las extensiones 2.0, eche un vistazo a [aka.ms/GetStartedWithApps](http://aka.ms/GetStartedWithApps).  
 
 ## <a name="need-help"></a>¿Necesita ayuda?
 Si desea orientación, puede ponerse en contacto con un experto de la lista siguiente:
@@ -70,7 +70,7 @@ Estas [preguntas más frecuentes](https://go.microsoft.com/fwlink/?linkid=841520
 
 ## <a name="further-resources"></a>Más recursos
 Puede encontrar más recursos para el desarrollo de aplicaciones en nuestra [página de temas de DLP](https://mbspartner.microsoft.com/BFI/Topic/76) página de temas de DLP. A continuación se ofrecen algunos seleccionados:
--   [Registro de usuarios y facturación posterior ](http://download.microsoft.com/download/3/2/0/320D0286-8810-4A8F-B7DD-523ED87D441B/FAQ on apps for Dynamics 365 Business edition .pdf)
+-   [Registro de usuarios y facturación posterior ](http://download.microsoft.com/download/3/2/0/320D0286-8810-4A8F-B7DD-523ED87D441B/FAQ on apps for Dynamics 365 for Financials.pdf)
 
 
 
@@ -79,4 +79,6 @@ Puede encontrar más recursos para el desarrollo de aplicaciones en nuestra [pá
 [Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones](ui-extensions.md)  
 [https://appsource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365-for-financials&page=1)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
+

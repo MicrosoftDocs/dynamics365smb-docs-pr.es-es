@@ -11,18 +11,18 @@ ms.search.keywords:
 ms.date: 08/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 6588f01c557b1c0586097766aa8a6f84d545bc6e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9f99b1fce3c44fdf2053a74b8fa090c6b69aef1a
 ms.contentlocale: es-es
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="field-mapping-when-importing-sepa-camt-files"></a>Asignación de campos al importar archivos CAMT de SEPA
-[!INCLUDE[d365fin](includes/d365fin_md.md)] admite los estándares de SEPA (zona única de pagos en euros) regional para importar los extractos de cuenta de SEPA (formato CAMT). Para obtener más información, vea [Procedimiento: Configuración del servicio de conversión de datos bancarios](bank-how-setup-bank-data-conversion-service.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  admite los estándares de SEPA (zona única de pagos en euros) regional para importar los extractos de cuenta de SEPA (formato CAMT). Para obtener más información, vea [Configuración del servicio de conversión de datos bancarios](bank-how-setup-bank-data-conversion-service.md).  
 
  El estándar CAMT de SEPA en sí presenta variaciones locales. Por lo tanto, es posible que tenga que modificar la configuración de intercambio de datos genérica (representada por el código de **CAMT de SEPA** en la ventana **Definiciones de intercambio de registro**) para adaptarla a una variación local del estándar. En las tablas siguientes se muestra la asignación de elemento a campo para las tablas 81, 273 y 274 en la implementación CAMT de SEPA en [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
- Para obtener información acerca de cómo crear o ajustar una definición de intercambio de datos, consulte [Procedimiento: Configurar las definiciones de intercambio de datos](across-how-to-set-up-data-exchange-definitions.md).  
+ Para obtener información acerca de cómo crear o ajustar una definición de intercambio de datos, consulte [Configurar las definiciones de intercambio de datos](across-how-to-set-up-data-exchange-definitions.md).  
 
 ## <a name="camt-data-mapping-to-fields-in-the-general-journal-table-81"></a>Asignación de datos de CAMT a los campos de la tabla del diario general (81)  
 
@@ -57,11 +57,11 @@ ms.lasthandoff: 11/10/2017
 |Stmt/Ntry/NtryDtls/TxDtls/RmtInf/Ustrd|No estructurado|Texto|Información suministrada para activar el emparejamiento o la conciliación de un movimiento con los productos que el pago pretende liquidar, como facturas comerciales en un sistema de cuentas de cobro no estructuradas.||6|Descripción|  
 |Stmt/Ntry/AddtlNtryInf|AdditionalEntryInformation|Texto|Información adicional acerca del movimiento.||16|Información de la transacción|  
 
- Los elementos en el nodo **Ntry** que se importan en [!INCLUDE[d365fin](includes/d365fin_md.md)] pero que no están asignados a ningún campo se almacenan en la tabla **Def. columna intercambio registro**. Los usuarios pueden ver estos elementos desde las ventanas **Diario de conciliación de pagos**, **Liquidación de pago** y **Conciliación banco** si eligen la acción **Detalles de línea de extracto bancario**. Para obtener más información, vea [Procedimiento: Conciliar pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md).  
+ Los elementos en el nodo **Ntry** que se importan en [!INCLUDE[d365fin](includes/d365fin_md.md)] pero que no están asignados a ningún campo se almacenan en la tabla **Def. columna intercambio registro**. Los usuarios pueden ver estos elementos desde las ventanas **Diario de conciliación de pagos**, **Liquidación de pago** y **Conciliación banco** si eligen la acción **Detalles de línea de extracto bancario**. Para obtener más información, vea [Conciliar pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md).  
 ## <a name="see-also"></a>Consulte también  
 [Configuración del intercambio de datos](across-set-up-data-exchange.md)  
 [Intercambio de datos electrónicamente](across-data-exchange.md)  
-[Procedimiento: Configuración del servicio de conversión de datos bancarios](bank-how-setup-bank-data-conversion-service.md)   
-[Procedimiento: Uso de esquemas XML para preparar definiciones de intercambio de datos](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
-[Conciliar pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md)  
+[Configurar el servicio de conversión de datos bancarios](bank-how-setup-bank-data-conversion-service.md)   
+[Uso de esquemas XML para preparar definiciones de intercambio de datos](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
+[Conciliar los pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md)  
 

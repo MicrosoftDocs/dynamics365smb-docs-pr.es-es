@@ -13,13 +13,13 @@ ms.search.keywords: inventory, periods
 ms.date: 08/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 8f9c289f4fef06ef0b684dd7176630d29b2fc5d3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 8f3d24dda00e3234dfcf7538c7f4fb7fbc008221
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-inventory-periods"></a>Cómo trabajar con periodos de inventario
+# <a name="work-with-inventory-periods"></a>Trabajar con periodos de inventario
 Los periodos del inventario definen un periodo de tiempo durante el cual es posible registrar cambios en el inventario. Un periodo del inventario se define por la fecha en la que finaliza. Cuando se cierra un periodo del inventario, no es posible registrar ningún cambio en él (ya sea previsto o facturado) antes de dicha fecha de finalización. Tampoco es posible registrar ningún valor nuevo en el inventario antes de dicha fecha. Si tiene movimientos de producto abiertos en ese periodo ya cerrado (lo que significa que existen cantidades positivas que todavía no ha aplicado a transacciones de salida), seguirá pudiendo aplicar cantidades de salida a dichos movimientos, incluso si el periodo está cerrado.  
 
 En el siguiente apartado se explica cómo:  

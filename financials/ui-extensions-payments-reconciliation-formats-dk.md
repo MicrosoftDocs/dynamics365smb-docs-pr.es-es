@@ -13,10 +13,10 @@ ms. search.keywords: extension, bank, formats
 ms.date: 09/15/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 0718012c9278b337409805d95870d22dac4675ad
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: c2daa9854f371660dd9096c54d85812466dfe46e
 ms.contentlocale: es-es
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
@@ -100,8 +100,8 @@ La siguiente tabla muestra las combinaciones de formas de pago FIK y GIRO que [!
 5. Seleccione la acción **Exportar**.  
 
 ## <a name="see-also"></a>Consulte también .
-[Personalizar Dynamics 365 for [!INCLUDE[d365fin](includes/d365fin_md.md)] mediante extensiones](ui-extensions.md)  
-[Creación de movimientos de domiciliación de adeudo directo SEPA y exportación a un archivo bancario](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)  
+[Personalización de Finance and Operations, Business edition para [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones](ui-extensions.md)  
+[Crear movimientos de domiciliación de adeudo directo SEPA y exportación a un archivo bancario](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)  
 [Configuración de domiciliaciones de adeudo directo SEPA](finance-how-to-set-up-sepa-direct-debit.md)  
 [Registro de recibos de pagos de domiciliación de adeudo directo SEPA](finance-how-to-post-sepa-direct-debit-payment-receipts.md)  
 [Cobro de pagos mediante adeudo directo SEPA](finance-collect-payments-with-sepa-direct-debit.md)  

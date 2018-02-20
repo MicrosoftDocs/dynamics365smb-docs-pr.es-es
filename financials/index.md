@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 Business edition | Microsoft Docs
-description: "Obtenga más información sobre las capacidades y los escenarios de trabajo en Dynamics 365 Business edition, una solución de administración empresarial para pequeñas y medianas empresas."
+title: Finance and Operations, Business edition | Documentos de Microsoft
+description: "Obtenga más información sobre las capacidades y los escenarios de trabajo en Finance and Operations, Business edition, una solución de administración empresarial para pequeñas y medianas empresas."
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
 ms.topic: get-started-article
@@ -11,14 +11,14 @@ ms.search.keywords: setup wizard
 ms.date: 09/14/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 0173f682ccb09b2b4c02b9d7d74638f6b08e9a93
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2f17af763663ffc7d10c9730ca433ca1574d6552
 ms.contentlocale: es-es
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="welcome-to-included365finlongincludesd365finlongmdmd"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
-[!INCLUDE[d365fin](includes/d365fin_md.md)] es una solución de administración empresarial para pequeñas y medianas empresas que automatiza y optimiza los procesos empresariales y le ayuda a administrar su empresa. Registrarse es muy fácil y puede migrar los datos de la empresa existentes desde su sistema de herencia.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  es una solución de administración empresarial para pequeñas y medianas empresas que automatiza y optimiza los procesos empresariales y le ayuda a administrar su empresa. Registrarse es muy fácil y puede migrar los datos de la empresa existentes desde su sistema de herencia.
 Cuando se registra en la vista previa de [!INCLUDE[d365fin](includes/d365fin_md.md)], dispone de acceso a una empresa de demostración. La empresa de demostración contiene datos de ejemplo, pero puede crear sus propios documentos de venta, por ejemplo, o configurar una cuenta bancaria.  
 
 ## <a name="get-to-know-included365finincludesd365finmdmd"></a>Familiarícese con [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -53,11 +53,11 @@ En la ventana **Configuración asistida**, encontrará lo siguiente con la exper
 | Configurar un flujo de trabajo de aprobación de cliente |Configura la capacidad de notificar automáticamente al aprobador cuando un usuario intente crear o cambiar una ficha cliente. |
 | Configurar correo electrónico |Le prepara para enviar correos electrónicos directamente de, por ejemplo, pedidos o contactos en [!INCLUDE[d365fin](includes/d365fin_md.md)]. |
 | Config. registro correo elect. |Le permite iniciar sesión en la correspondencia por correo electrónico en [!INCLUDE[d365fin](includes/d365fin_md.md)] para realizar el seguimiento de las interacciones. |
-| Configurar Outlook para [!INCLUDE[d365fin](includes/d365fin_md.md)] |Le posibilita usar y ejecutar [!INCLUDE[d365fin](includes/d365fin_md.md)] desde Outlook. |
+| Configurar Outlook para  [!INCLUDE[d365fin](includes/d365fin_md.md)] |Le posibilita usar y ejecutar [!INCLUDE[d365fin](includes/d365fin_md.md)] desde Outlook. |
 | Configurar informes |Configura conjuntos de datos que puede usar para generar informes eficaces utilizando Excel o Power BI, por ejemplo. |
 | Configurar un flujo de trabajo de aprobación de producto |Configura la capacidad de enviar una notificación a un aprobador cuando un usuario cambia o crea un producto. |
 | Configurar un flujo de trabajo de aprobación de pago |Configura la capacidad de enviar una notificación a un aprobador cuando un usuario envíe líneas de diario de pagos para su aprobación. |
-| Configurar conector de Dynamics 365 |Le permite conectar con Dynamics 365 for Sales, que le posibilita la sincronización de datos como los contactos y la información de los pedidos. |
+| Configurar el conector de Finance and Operations, Business edition |Le permite conectar con Dynamics 365 for Sales, que le posibilita la sincronización de datos como los contactos y la información de los pedidos. |
 | Configurar impuestos de ventas |Le ayudará a empezar con grupos de impuestos por defecto y asignará códigos de impuestos de área que podrá asignar a clientes y proveedores para poder calcular automáticamente los impuestos de venta en los documentos de venta o compra. |
 
 ## <a name="trying-things-out-in-your-own-company"></a>Probar cosas en su empresa
@@ -66,22 +66,21 @@ En la ventana **Configuración asistida**, encontrará lo siguiente con la exper
 Para crear una empresa para probar cosas, vaya al menú **Mi configuración** en la esquina superior derecha y cambie a **Mi empresa**. Cierre la sesión de [!INCLUDE[d365fin](includes/d365fin_md.md)] y vuelva a iniciarla para aplicar el cambio. Una guía de configuración asistida le ayudará a proporcionar información básica acerca de la empresa. Una vez haya terminado, explore la página principal y busque la acción **Configuración asistida**.  
 
 ## <a name="ready-to-subscribe"></a>¿Preparado para suscribirse?
-Cada vez que inicie sesión durante el periodo de prueba, una notificación en una barra azul de la parte superior muestra el tiempo restante. Si decide suscribirse, utilice el vínculo de la notificación para ponerse en contacto con Microsoft. También puede ponerse en contacto con el equipo de ventas de [!INCLUDE[d365fin](includes/d365fin_md.md)] en [Microsoft Dynamics 365 Business edition](https://go.microsoft.com/fwlink/?linkid=828707).  
+Cada vez que inicie sesión durante el periodo de prueba, una notificación en una barra azul de la parte superior muestra el tiempo restante. Si decide suscribirse, utilice el vínculo de la notificación para ponerse en contacto con Microsoft. También puede ponerse en contacto con el equipo de ventas de [!INCLUDE[d365fin](includes/d365fin_md.md)]](https://go.microsoft.com/fwlink/?linkid=828707).  
 
-## <a name="other-dynamics-365-apps"></a>Más aplicaciones de Dynamics 365
-Navegue para obtener información sobre otras aplicaciones de Dynamics 365 en el vínculo [Dynamics 365](https://docs.microsoft.com/dynamics365) del anuncio de color azul que aparece en la parte superior de esta página. También puede obtener más información en el [sitio web de Microsoft Dynamics 365](https://www.microsoft.com/en-us/dynamics365/).  
+## <a name="other-finance-and-operations-business-edition-apps"></a>Otras aplicaciones de Finance and Operations, Business edition
+Navegue hasta el contenido sobre las otras aplicaciones de Finance and Operations, Business edition al elegir el enlace [Finance and Operations, Business edition](https://docs.microsoft.com/dynamics365) en el banner azul en la parte superior de esta página. También puede obtener más información en [el sitio web de Dynamics 365 for Finance and Operations, Business edition](https://www.microsoft.com/en-us/dynamics365/).  
 
 Si es un contable, puede registrarse en [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] y tener un emparejamiento de datos sin problemas con [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, consulte [Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).
 
 ## <a name="see-also"></a>Consulte también
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
-[Finanzas](finance.md)  
 [Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones](ui-extensions.md)  
 [Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] como mi bandeja de entrada de empresa en Outlook](madeira-outlook.md)  
 [Obtener [!INCLUDE[d365fin](includes/d365fin_md.md)] en el dispositivo móvil](install-mobile-app.md)  
-[Documentación de Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)  
-[roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
+[Documentación de Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)  
+[Guía básica de Finance and Operations, Business edition](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
 [Microsoft Dynamics 365 for Finance and Operations, Business edition](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

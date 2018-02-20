@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 8fa067c5a6d96d0d992c1488f31aa2929efc6dcc
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 31f057f862b72cd21ecb2c1fb59674c6485a960d
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-basic-warehouses-with-operations-areas"></a>Procedimiento: configure almacenes básicos con áreas de operaciones
+# <a name="set-up-basic-warehouses-with-operations-areas"></a>Configurar almacenes básicos con áreas de operaciones
 Si las áreas de operaciones internas, como producción o ensamblado, existen en configuraciones de almacén básico donde las ubicaciones utilizan el campo de instalación de **Ubicac. obligatoria** y los campos de configuración **Picking requerido** y **Ubicación requerida**, puede utilizar los documentos de almacén básico siguientes para registrar sus actividades de almacén para las áreas de operaciones internas:  
 
 - Ventana **Movimiento de inventario**.  
@@ -66,9 +66,9 @@ Este organigrama muestra cómo se rellena el campo de **Cód. ubicación** en la
 ![Gráfico de flujo de ubicación](media/binflow.png "BinFlow")    
 
 ## <a name="to-define-a-default-bin-structure-in-the-assembly-area"></a>Para definir una estructura de ubicación predeterminada en el área de ensamblado
-Los componentes para los pedidos de ensamblado no se seleccionar o registrar con picking de inventario. En lugar de eso, use la ventana **Movimiento inventario**. Para obtener más información, consulte [Procedimiento: mueva componentes a un área de operaciones en el almacenamiento básico](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
+Los componentes para los pedidos de ensamblado no se seleccionar o registrar con picking de inventario. En lugar de eso, use la ventana **Movimiento inventario**. Para obtener más información, consulte [Mover componentes a un área de operaciones en el almacenamiento básico](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
 
-Cuando las cantidades de la línea de picking y envío que se ensamblan para el pedido, debe seguir ciertas reglas al crear las líneas de picking de inventario. Para obtener más información, vea la sección “Tratamiento de productos ensamblar para pedido en los picking de inventario” en [Cómo realizar picking de productos con picking inventario](warehouse-how-to-pick-items-with-inventory-picks.md).
+Cuando las cantidades de la línea de picking y envío que se ensamblan para el pedido, debe seguir ciertas reglas al crear las líneas de picking de inventario. Para obtener más información, vea la sección "Tratamiento de productos ensamblar para pedido en los picking de inventario" en [Realizar picking de productos con picking inventario](warehouse-how-to-pick-items-with-inventory-picks.md).
 
 Para obtener más información, consulte [Gestión de ensamblado](assembly-assemble-items.md).
 
@@ -110,7 +110,7 @@ El valor de este campo se inserta automáticamente en el campo Código ubicació
 
 Si **Cód. ubic. ens.contra-pedido** está en blanco, el campo **Cód. ubic. desde ensamblado** se utiliza en su lugar. Si ambos campos de configuración están en blanco, tanto la última ubicación con el contenido se utiliza en el campo **Cod. ubicación** de las líneas de pedido de venta.
 
-El mismo código de ubicación a su vez se copia al campo **Cod. ubicación** de la línea de picking de inventario que controla el envío de la cantidad de ensamblar para pedido. Para obtener más información, vea la sección “Tratamiento de productos ensamblar para pedido en los picking de inventario” en [Cómo realizar picking de productos con picking inventario](warehouse-how-to-pick-items-with-inventory-picks.md).
+El mismo código de ubicación a su vez se copia al campo **Cod. ubicación** de la línea de picking de inventario que controla el envío de la cantidad de ensamblar para pedido. Para obtener más información, vea la sección "Tratamiento de productos ensamblar para pedido en los picking de inventario" en [Realizar picking de productos con picking inventario](warehouse-how-to-pick-items-with-inventory-picks.md).
 
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Almacenes** y, a continuación, seleccione el vínculo relacionado.
 2. Abra el almacén que desea configurar.
@@ -123,7 +123,7 @@ Las cantidades de las ubicaciones dedicadas todavía pueden reservarse. Por cons
 
 Por ejemplo, en un centro de trabajo se establece un código de ubicación en el campo **Cód. ubic. para producción**. Las líneas de componente del pedido de producción con ese código de almacén requieren que se coloquen allí los componentes vaciados hacia adelante. Sin embargo, hasta que los componentes se consumen en esa ubicación, se puede hacer picking de otras demandas de componentes o se los puede consumir de esa ubicación porque aún se los considera contenidos de ubicación disponibles. Para garantizar que el contenido de la ubicación está disponible sólo para la demanda de componente que utiliza esa ubicación para producción, debe seleccionar el campo **Dedicado** de la línea para ese código de ubicación en la ventana **Ubicaciones** a la que se accede desde la ficha de almacén.
 
-La fabricación de una ubicación dedicada proporciona una funcionalidad similar al uso de tipos de ubicaciones, que sólo está disponible en la gestión avanzada de almacén. Para obtener más información, vea [Cómo configurar tipos de ubicación](warehouse-how-to-set-up-bin-types.md).
+La fabricación de una ubicación dedicada proporciona una funcionalidad similar al uso de tipos de ubicaciones, que sólo está disponible en la gestión avanzada de almacén. Para obtener más información, consulte [Configurar tipos de ubicaciones](warehouse-how-to-set-up-bin-types.md).
 
 > [!Caution]
 > Los productos de las ubicaciones dedicadas no se protegen cuando se les ha realizado el picking y se los consume como componentes de producción con la ventana Picking de inventario.

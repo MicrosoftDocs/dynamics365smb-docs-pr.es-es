@@ -13,13 +13,13 @@ ms.search.keywords: print check, customize
 ms.date: 06/15/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: a2db2860846cd9b8010222faf580f0c9889e39a4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: dd745186e4518c2005e34e6b2cbbc8925fd8931e
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-define-check-layouts"></a>Procedimiento: Definir diseños de cheque
+# <a name="define-check-layouts"></a>Definir diseños de cheque
 Puede diseñar los cheques conforme a los estándares definidos por las autoridades locales. Las imágenes de los cheques se pueden imprimir en inglés, francés o español.
 
 Los cheques se han diseñado para imprimir formatos de imágenes de cheque de Estados Unidos y Canadá en un formato cheque-matriz-cheque o en un formato matriz-matriz-cheque.

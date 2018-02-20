@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/29/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ab8ded6ef2b93c2ab038472609093ef7e5ad3d88
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 0d4ad6854c361bf254c6acec44f460afa5e100ba
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-service-contracts-and-service-contract-quotes"></a>Trabajar con contratos de servicio y ofertas de contrato de servicio
+# <a name="work-with-service-contracts-and-service-contract-quotes"></a>Trabajar con contratos de servicio y ofertas de contrato de servicio
 Puede crear un contrato de servicio de forma manual o desde una oferta de contrato de servicio. Puede utilizar una oferta de contrato de servicio como precursora de un contrato de servicio, en ésta su empresa realiza una oferta al cliente para obtener así su aprobación para poder convertirla en un contrato de servicio. Los procedimientos para crear un contrato de servicio o una oferta de contrato de servicio son similares.  
   
 ## <a name="to-create-a-service-contract-or-service-contract-quote"></a>Para crear un contrato u oferta de contrato de servicio  
@@ -40,7 +40,7 @@ Una vez que finalice los pasos siguientes, se crea un contrato de servicio con e
 Para los contratos detallados, el importe facturado se calcula de la siguiente forma:  
   
 * Importe facturado = suma del importe facturado de cada línea de contrato.  
-* Importe facturado para cada línea de contrato = (valor de la oferta ÷ 12) × número de meses del periodo inicial) + (valor de la oferta ÷ número de días del año) × número de días restantes del periodo inicial).  
+* Importe facturado para cada línea de contrato = ((valor de la oferta ÷ 12) × número de meses del periodo inicial) + ((valor de la oferta ÷ número de días del año) × número de días restantes del periodo inicial).  
 * Si la línea de contrato vence antes de que finalice el periodo inicial, la fecha de finalización se convierte en la fecha final del periodo inicial de la línea.  
   
 Para contratos no detallados, el importe facturado se calcula de la siguiente forma:  
@@ -199,7 +199,7 @@ Es posible que tenga que cancelar un contrato de servicio cuando el contrato hay
 Puede archivar contratos de servicio y ofertas de contrato en cualquier momento para registrar una copia del contrato o una oferta de contrato. [!INCLUDE[d365fin](includes/d365fin_md.md)] archiva contratos de servicio automáticamente cuando se convierten ofertas de contrato en contratos de servicio o se cancelan contratos de servicio. Puede archivar un contrato u oferta mediante la acción **Archivar contrato** en las páginas **Contratos de servicio** u **Ofertas contrato servicio**. Si desea ver los contratos de ofertas archivados busque **Contratos archivados**.
 
 ## <a name="see-also"></a>Consulte también  
-[Cómo configurar contratos de servicio](service-how-setup-service-contracts.md)  
+[Configurar contratos de servicio](service-how-setup-service-contracts.md)  
 [Gestión de servicios](service-service.md)  
 [Convertir contratos de servicio que incluyen importes de IVA](service-how-to-convert-service-contracts.md)  
 

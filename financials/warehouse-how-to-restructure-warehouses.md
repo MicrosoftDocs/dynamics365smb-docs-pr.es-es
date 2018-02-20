@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: da5928be8280bad2eac379a5f0e5b19ddc2d12bc
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d2820513ec95c43464979effd85d5113359886ef
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-restructure-warehouses"></a>Procedimiento: reestructure los almacenes
+# <a name="restructure-warehouses"></a>Reestructurar almacenes
 Es posible que desee volver a estructurar el almacén con nuevos códigos y características de ubicación. No realizará este tipo de actividad con mucha frecuencia, pero pueden producirse algunos casos en los que sea necesaria una reclasificación para conseguir o mantener una operatividad más eficaz. Por ejemplo:  
 
 - Es posible que desee cambiar los código de ubicación para admitir el uso de sistemas de captura automática de datos, por ejemplo, con dispositivos portátiles.  
@@ -45,12 +45,12 @@ Ahora habrá vaciado las ubicaciones donde solían estar los artículos. Las ubi
 
 ## <a name="to-restructure-an-advanced-warehouse-that-uses-directed-put-away-and-pick"></a>Para reestructurar un almacén avanzado que utilice ubicación y picking directos  
 
-1.  Cree las nuevas ubicaciones que desea utilizar en el futuro. Para obtener más información, vea [Creación de ubicaciones](warehouse-how-to-create-individual-bins.md).  
+1.  Cree las nuevas ubicaciones que desea utilizar en el futuro. Para obtener más información, consulte [Crear ubicaciones](warehouse-how-to-create-individual-bins.md).  
 2.  Mueva todo el contenido de sus ubicaciones actuales a las nuevas ubicaciones que acaba de crear.  
 
     1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diario reclasificación almacén** y, a continuación, seleccione el vínculo relacionado.  
     2.  En las ubicaciones donde no exista un movimiento de productos real, cree una línea para cada una de ellas en el **Diario reclasificación almacén** con el código de ubicación anterior, **Desde cód. ubicación**, y el nuevo código de ubicación, **Hasta cód. ubicación**.  
-    3.  Si algunos movimientos afectan a movimientos físicos reales que desea que ejecuten los empleados, utilice las **hojas de trabajo de movimiento** para preparar instrucciones de movimiento en vez de utilizar el diario de reclasificación de almacén. Para obtener más información, consulte [Procedimiento: mueva los artículos en las configuraciones avanzadas de almacén](warehouse-how-to-move-items-in-advanced-warehousing.md).  
+    3.  Si algunos movimientos afectan a movimientos físicos reales que desea que ejecuten los empleados, utilice las **hojas de trabajo de movimiento** para preparar instrucciones de movimiento en vez de utilizar el diario de reclasificación de almacén. Para obtener más información, consulte [Mover los artículos en las configuraciones avanzadas de almacén](warehouse-how-to-move-items-in-advanced-warehousing.md).  
 
 3.  Cuando se hayan vaciado las ubicaciones antiguas, reclasifíquelas como ubicaciones de tipo **QC** para asegurarse de que no están incluidos en los flujos del artículo.  
 
@@ -58,7 +58,7 @@ Ahora habrá vaciado las ubicaciones donde solían estar los artículos. Las ubi
     2.  Seleccione la línea con la ubicación y, a continuación, elija la acción **Ubicaciones**.  
     3.  En la ventana **Ubicaciones**, en el campo **Cód. tipo ubicación**, escriba **QC** para cada una de las ubicaciones antiguas que se vaciaron en el paso 3 del procedimiento anterior.  
 
-Ahora ha quitado las ubicaciones del flujo de almacén y las ha reclasificado como ubicaciones de control de calidad. Las ubicaciones de control de calidad no tienen ninguno de los campos de la actividad en la ventana **Tipos ubicación** seleccionada y, por lo tanto, el flujo de productos no los tiene en cuenta. Para obtener más información, vea [Cómo configurar tipos de ubicación](warehouse-how-to-set-up-bin-types.md).  
+Ahora ha quitado las ubicaciones del flujo de almacén y las ha reclasificado como ubicaciones de control de calidad. Las ubicaciones de control de calidad no tienen ninguno de los campos de la actividad en la ventana **Tipos ubicación** seleccionada y, por lo tanto, el flujo de productos no los tiene en cuenta. Para obtener más información, consulte [Configurar tipos de ubicaciones](warehouse-how-to-set-up-bin-types.md).  
 
 ## <a name="to-delete-a-bin"></a>Para eliminar una ubicación  
 

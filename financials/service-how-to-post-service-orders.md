@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 7cafdcb9f6002d0732ee86b643b784d96e8c2aa1
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3b52f7c62cc13d27ff4d96ff5b9087d3560d6fbc
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-post-service-orders-and-credit-memos"></a>Cómo registrar abonos y órdenes de servicio
+# <a name="post-service-orders-and-credit-memos"></a>Registrar abonos y órdenes de servicio
 Una vez que haya creado un pedido de servicio, rellenado toda la información y realizado los cambios necesarios, podrá registrarlo. El pedido debe contener como mínimo una línea de producto de servicio y una línea de servicio para poder registrarlo. Si el pedido contiene más de una línea de servicio, se registrarán todas las líneas de una sola vez.  
 
 Si tiene un gran número de pedidos de servicio, puede ahorrar mucho tiempo si utiliza un proceso de trabajo por lotes para registrarlos a la vez. Puede ejecutar el trabajo por lotes con cualquier pedido de servicio.
@@ -99,7 +99,7 @@ El siguiente procedimiento muestra cómo registrar el envío de artículos de l�
   
 4. Elija **Acciones**, **Registro** y, a continuación, en **Registrar**. En la ventana que aparece, elija **Enviar**.  
   
-[!INCLUDE[d365fin](includes/d365fin_md.md)] crea los movimientos (de garantía, de producto, de servicio o de cuenta), genera el documento de envío de servicio registrado y actualiza los campos pertinentes en las líneas de servicio del pedido de servicio.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  crea los movimientos (de garantía, de producto, de servicio o de cuenta), genera el documento de envío de servicio registrado y actualiza los campos pertinentes en las líneas de servicio del pedido de servicio.  
   
 Si el almacén está configurado para requerir el control de almacén, el envío y el movimiento de los productos de línea de servicio funcionan de la misma forma que para otros documentos de origen. La única diferencia es que los productos de línea de servicio pueden consumirse externa o internamente y por lo tanto requieren dos funciones diferentes de lanzamiento.  
   

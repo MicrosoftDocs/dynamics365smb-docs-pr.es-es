@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: move, warehouse
-ms.date: 06/02/2017
+ms.date: 01/25/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 41804dc183f9fa05ec1599db34c2b4f76a790a72
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6a865d8772dc82295545edb65849d69bf5af819c
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-transfer-inventory-between-locations"></a>Procedimiento: Transferir el inventario entre almacenes
+# <a name="transfer-inventory-between-locations"></a>Transferir el inventario entre almacenes
 Puede transferir inventarios de productos entre almacenes creando pedidos de transferencia. También puede usar el diario de reclasificación de productos.
 
 Con los pedidos de transferencia, se envía la transferencia de salida desde un almacén y se recibe la transferencia de entrada en el otro almacén. Esto permite administrar las actividades de almacén correspondientes y proporciona más certidumbre de que las cantidades del inventario se actualizan correctamente.
@@ -29,10 +29,7 @@ Cono el diario de reclasificación, simplemente se rellenan los campos **Código
 > [!NOTE]  
 >   Si tiene productos registrados en el inventario sin un código de almacén, por ejemplo cuando solo tenía un almacén, no podrá transferir estos productos con pedidos de transferencia. En su lugar, deberá utilizar el diario de reclasificación para reclasificar los productos desde un código de almacén en blanco a un código de almacén real.  Para obtener más información, vea el paso 3 en la sección "Para transferir productos con el diario de reclasificación".
 
-Para transferir productos, se deben configurar las ubicaciones y las rutas de transferencia. Para obtener más información, vea [Procedimiento: Configurar almacenes](inventory-how-setup-locations.md).
-
-> [!NOTE]  
->   Esta funcionalidad requiere que la experiencia esté definida en **Suite**. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
+Para transferir productos, se deben configurar las ubicaciones y las rutas de transferencia. Para obtener más información, consulte [Configurar ubicaciones](inventory-how-setup-locations.md).
 
 ## <a name="to-transfer-items-with-a-transfer-order"></a>Para transferir productos con un pedido de transferencia
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Pedidos de transferencia** y, a continuación, seleccione el vínculo relacionado.
@@ -63,10 +60,9 @@ Para transferir productos, se deben configurar las ubicaciones y las rutas de tr
 
 ## <a name="see-also"></a>Consulte también
 [Gestionar inventario](inventory-manage-inventory.md)  
-[Configuración de almacenes](inventory-how-setup-locations.md)  
-  
+[Configurar ubicaciones](inventory-how-setup-locations.md)  
+
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]

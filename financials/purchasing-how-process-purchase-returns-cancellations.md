@@ -13,19 +13,19 @@ ms.search.keywords: cancel, undo, correct
 ms.date: 08/03/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 114448607d8b99252573912d2df08f91e1d27c76
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9a746de45bc6878d15e879e623c6a65539943be3
 ms.contentlocale: es-es
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-process-purchase-returns-or-cancellations"></a>Procesamiento de devoluciones de compra o cancelaciones
+# <a name="process-purchase-returns-or-cancellations"></a>Procesamiento de devoluciones de compra o cancelaciones
 Si desea devolver productos al proveedor o cancelar servicios comprados, puede crear y registrar un abono de compra que especifique el cambio solicitado en relación a la factura de compra original. Para incluir la información correcta de la factura de compras, puede crear el abono de compra directamente de la factura de compra contabilizada o puede crear un nuevo abono de compra con información de factura copiada.
 
 Si necesita más control del proceso de devolución de compras, como documentos de almacén para el manejo de artículos o una mejor descripción al devolver productos de varios documentos de compras con una sola devolución de compra, puede crear órdenes de devolución de compras. Un pedido de devolución de compra emite automáticamente un abono de compra relacionado. Para obtener más información, consulte la sección "Crear un pedido de devolución de compra basado en uno o más documentos de compra registrados".
 
 > [!NOTE]  
->   Si una factura de compra registrada aún no se ha pagado, puede utilizar las funciones **Corregir** o **Cancelar** en la factura de compra registrada para revertir automáticamente las transacciones correspondientes. Estas funciones solo funcionan para las facturas sin pagar y no admiten devoluciones o cancelaciones parciales. Para obtener más información, vea [Procedimiento: Corregir o cancelar las facturas de compra sin abonar](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)
+>   Si una factura de compra registrada aún no se ha pagado, puede utilizar las funciones **Corregir** o **Cancelar** en la factura de compra registrada para revertir automáticamente las transacciones correspondientes. Estas funciones solo funcionan para las facturas sin pagar y no admiten devoluciones o cancelaciones parciales. Para obtener más información, vea [Corregir o cancelar las facturas de compra sin abonar](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)
 
 Normalmente, se crea un abono de compra o un pedido de devolución de compra como resultado de un abono enviado por un proveedor. El pedido de abono de compra o de devolución de compra funciona como la documentación interna del proceso de abono para fines de estadísticas o control de envíos de los productos relacionados.
 
@@ -134,7 +134,7 @@ Puede estar de acuerdo con el proveedor en que compense un producto comprado, su
 1.  En la ventana **Pedido dev. compra** para un proceso de devolución activo, en una línea vacía, haga un movimiento negativo para el producto de reposición insertando un importe negativo en el campo **Cantidad** .  
 2. Seleccione la acción **Mover líneas negativas**.  
 3. En la ventana **Mover líneas compra negativas**, rellene los campos en una línea según sea necesario.
-4. Elija el botón **Aceptar**. La línea negativa se elimina del pedido de devolución de compra y se crea un nuevo pedido de compra. Para obtener más información, consulte [Procedimiento: Registrar compras](purchasing-how-record-purchases.md).  
+4. Elija el botón **Aceptar**. La línea negativa se elimina del pedido de devolución de compra y se crea un nuevo pedido de compra. Para obtener más información, consulte [Registrar compras](purchasing-how-record-purchases.md).  
 
 ## <a name="to-create-a-purchase-allowance"></a>Para crear una deducción de compra  
 Si los productos que recibe del proveedor no son satisfactorios, como cuando están dañados o son del color o tamaño incorrecto, es posible que el proveedor le ofrezca una deducción de compra.  
@@ -150,7 +150,7 @@ Puede registrar este coste reducido de compra como un cargo de producto en un ab
     Puede que desee crear un número de coste de producto especial para cubrir las deducciones de compra.  
 6.  En el campo **Cantidad**, introduzca **1**.  
 7.  En el campo **Precio compra**, introduzca el importe de la deducción de compra.  
-8.  Asigne la deducción de compra como un cargo de producto a los productos del albarán registrado. Para obtener más información, consulte [Procedimiento: Utilizar los cargos de producto a cuenta para los costes comerciales adicionales](payables-how-assign-item-charges.md). Una vez asignada la deducción, vuelva a la ventana **Abono de compra**.
+8.  Asigne la deducción de compra como un cargo de producto a los productos del albarán registrado. Para obtener más información, consulte [Utilizar los cargos de producto a cuenta para los costes comerciales adicionales](payables-how-assign-item-charges.md). Una vez asignada la deducción, vuelva a la ventana **Abono de compra**.
 
 Cuando registre el pedido de devolución de compra, la deducción de compra se añadirá al importe del movimiento de compra correspondiente. De este modo podrá mantener la precisión de la valoración del inventario.  
 
@@ -183,7 +183,7 @@ Cuando se combinan envíos devueltos en un abono y se registran, se crea un abon
 
 ## <a name="see-also"></a>Consulte también
 [Compras](purchasing-manage-purchasing.md)  
-[Registro de compras](purchasing-how-record-purchases.md)  
-[Corregir o cancelar las facturas de compra sin abonar](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
+[Registrar compras](purchasing-how-record-purchases.md)  
+[Corregir o cancelar facturas de compra sin abonar](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

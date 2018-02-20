@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c9944bc25131a5cb51015483511bd7d4854f4c1a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: cc24989d2cf770cd88bbde23d483e3859ff4a68a
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-trace-item-tracked-items"></a>Cómo realizar un seguimiento de productos marcados para seguimiento
+# <a name="trace-item-tracked-items"></a>Realizar seguimiento de productos seguidos
 Puede ver donde se ha utilizado un producto marcado para seguimiento, incluso cómo y dónde se recibió o se produjo, transfirió, vendió, consumió o devolvió. También puede encontrar todas las instancias actuales de un número de serie o de lote específico en la base de datos. Puede hacerlo con las funciones Seguimiento de producto y Navegar.  
 
  Estas funciones pueden ser especialmente útiles en controles de calidad en los que sea necesario conocer qué clientes recibieron productos con un número de lote en particular, o cuando es necesario conocer de qué lote proviene un componente defectuoso.  
@@ -69,7 +69,7 @@ Puede ver donde se ha utilizado un producto marcado para seguimiento, incluso c�
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Detalles de diseño: seguimiento de productos](design-details-item-tracking.md)
 [Detalles de diseño. Seguimiento y reservas de productos](design-details-item-tracking-and-reservations.md)  
-[Procedimiento: Reservar productos](inventory-how-to-reserve-items.md)  
+[Reservar artículos](inventory-how-to-reserve-items.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 [Tutorial: seguimiento de números de serie/lote](walkthrough-tracing-serial-lot-numbers.md)
 

@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d82961b41266f645f87b79555171891cd2ce828f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1a95163c861cf9691c5f82e4815df6d87a135ed6
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="service-posting"></a>Registro de servicio
@@ -23,7 +23,7 @@ La funcionalidad de registro de servicios le permite procesar los documentos de 
 > [!NOTE]  
 >  A continuación se describe el registro del servicio independientemente del modo en que los artículos se controlan en el almacén.  
 >   
->  En una ubicación en la que no se haya establecido el control de almacén como elemento obligatorio, las acciones de registro se realizan directamente desde la ventana **Líneas servicio**. En ubicaciones que requieran control de almacén, las acciones de registro descritas, salvo Enviar y Consumir, se realizan indirectamente mediante distintas funciones de envío de almacén, dependiendo de la configuración. Para obtener más información, vea [Cómo realizar picking de productos con picking inventario](warehouse-how-to-pick-items-with-inventory-picks.md).  
+>  En una ubicación en la que no se haya establecido el control de almacén como elemento obligatorio, las acciones de registro se realizan directamente desde la ventana **Líneas servicio**. En ubicaciones que requieran control de almacén, las acciones de registro descritas, salvo Enviar y Consumir, se realizan indirectamente mediante distintas funciones de envío de almacén, dependiendo de la configuración. Para obtener más información, vea [Realizar picking de productos con picking inventario](warehouse-how-to-pick-items-with-inventory-picks.md).  
 
 ## <a name="ship"></a>Envío  
 La opción enviar permite registrar el tiempo y los productos que se hayan especificado en las líneas de un pedido de servicio una vez haya finalizado el servicio. Se crea un envío registrado y se llevan a cabo actualizaciones en el módulo Inventario y otros módulos de [!INCLUDE[d365fin](includes/d365fin_md.md)] a fin de reflejar que los productos se han excluido del inventario y se han enviado al cliente. En concreto, se generan movimientos de producto, de valores, de servicio y de garantía.  
@@ -56,6 +56,6 @@ El procedimiento siguiente utiliza una factura de servicio registrada como ejemp
     Se abre la ventana **Estad. pedido servicio**. Dicha ventana muestra información tal como la cantidad, el importe, el IVA, el coste, los beneficios y el crédito máximo del cliente en el documento registrado.
 
 ## <a name="see-also"></a>Consulte también  
-[Cómo registrar pedidos de servicio](service-how-to-post-service-orders.md)   
-[Cómo crear pedidos de servicio](service-how-to-create-service-orders.md)
+[Registrar pedidos de servicio](service-how-to-post-service-orders.md)   
+[Crear pedidos de servicio](service-how-to-create-service-orders.md)
 

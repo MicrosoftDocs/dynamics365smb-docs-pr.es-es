@@ -13,13 +13,13 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 208c49d0f86ae0a3c8ef4db8008fa2995f77e674
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2bb49ed17db6a4b6f7eafef76c9109e2652fa76b
 ms.contentlocale: es-es
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-contact-persons"></a>Procedimiento para crear personas de contacto
+# <a name="create-contact-persons"></a>Crear personas de contacto
 Puede crear una ficha de contacto por cada uno que trabaje en las empresas con las que se relaciona. Puede especificar todos las personas contacto que desee en cada empresa contacto. También puede crear fichas de contacto para las personas que desea registrar como independientes.
 
 > [!TIP]  
@@ -43,5 +43,5 @@ Puede crear una ficha de contacto por cada uno que trabaje en las empresas con l
 [Configurar responsabilidades de cargo en contactos](marketing-job-responsibilities.md)  
 [Configurar niveles de organización en personas de contacto](marketing-organizational-levels.md)  
 [Sincronizar contactos con clientes, proveedores y cuentas bancarias](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
-[Trabajar con Dynamics 365](ui-work-product.md)  
+[Trabajar con Finance and Operations, Business edition](ui-work-product.md)  
 

@@ -13,19 +13,19 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d1b7b29735983e2de0bdaf5d382679d9546a6278
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3e972ae6532c9531845e2739237b6ccb94d14c12
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-delete-workflows"></a>Procedimiento: Eliminar flujos de trabajo
+# <a name="delete-workflows"></a>Eliminar flujos de trabajo
 Si está seguro que un flujo de trabajo ya no se utiliza más, puede eliminarlo. Todas las instancias de paso de flujo de trabajo definidas en el flujo de trabajo deben tener el estado **Completado**.  
 
 > [!CAUTION]  
 >  Cuando elimine un flujo de trabajo, toda la información del flujo de trabajo se perderá.  
 
- En la ventana **Flujo de trabajo** creas un flujo de trabajo haciendo una lista de los pasos utilizados en las líneas. Cada paso consta de un evento del flujo de trabajo, moderado por condiciones de evento, y una respuesta de flujo de trabajo, moderada por las opciones de respuesta. Los pasos del flujo de trabajo se definen rellenando los campos de las líneas de flujo de trabajo en listas fijas de valores de evento y respuesta que representan los escenarios de flujo de trabajo que admite el código de aplicación. Para obtener más información, consulte [Procedimiento: Crear flujos de trabajo](across-how-to-create-workflows.md).  
+ En la ventana **Flujo de trabajo** creas un flujo de trabajo haciendo una lista de los pasos utilizados en las líneas. Cada paso consta de un evento del flujo de trabajo, moderado por condiciones de evento, y una respuesta de flujo de trabajo, moderada por las opciones de respuesta. Los pasos del flujo de trabajo se definen rellenando los campos de las líneas de flujo de trabajo en listas fijas de valores de evento y respuesta que representan los escenarios de flujo de trabajo que admite el código de aplicación. Para obtener más información, consulte [Crear flujos de trabajo](across-how-to-create-workflows.md).  
 
 ## <a name="to-delete-a-workflow"></a>Para eliminar un flujo de trabajo  
 1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Flujos de trabajo** y, a continuación, seleccione el vínculo relacionado.  
@@ -35,9 +35,9 @@ Si está seguro que un flujo de trabajo ya no se utiliza más, puede eliminarlo.
 5.  En la ventana **Copiar flujo de trabajo**, elija la acción **Eliminar**.  
 
 ## <a name="see-also"></a>Consulte también  
- [Procedimiento: Crear flujos de trabajo](across-how-to-create-workflows.md)   
- [Procedimiento: Activar flujos de trabajo](across-how-to-enable-workflows.md)   
- [Procedimiento: Ver las instancias de paso de flujo de trabajo archivadas](across-how-to-view-archived-workflow-step-instances.md)   
+ [Crear flujos de trabajo](across-how-to-create-workflows.md)   
+ [Activar flujos de trabajo](across-how-to-enable-workflows.md)   
+ [Ver instancias de paso de flujo de trabajo archivadas](across-how-to-view-archived-workflow-step-instances.md)   
  [Tutorial: Configuración y uso de un flujo de trabajo de aprobación de compra](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
  [Configuración de flujos de trabajo](across-set-up-workflows.md)   
  [Uso de flujos de trabajo](across-use-workflows.md)   

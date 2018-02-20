@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 143124fd2e458ee756d47d3f8523380cff6826a9
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: a7266eddba4293807a1e7e2a187c5002be771499
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-plan-for-new-demand-order-by-order"></a>Procedimiento: Planear la nueva demanda de pedido por pedido
+# <a name="plan-for-new-demand-order-by-order"></a>Planear la nueva demanda de pedido por pedido
 Esta tarea de planificación se puede realizar en la ventana **Programación de pedidos**, en la que se muestra toda la demanda nueva junto con información sobre disponibilidad y sugerencias de aprovisionamiento. Esta ventana proporciona la información y las herramientas necesarias para planificar de forma eficaz la demanda de las líneas de venta y las líneas de componentes y crear después directamente diferentes tipos de pedidos de suministros.  
 
 Puede entrar en la ventana **Planificación de pedidos** de dos formas distintas según para lo que la utilice: Desde una orden que desea planificar específicamente o en por lotes porque desea planificar todas y cualquier demanda nueva.  
@@ -75,7 +75,7 @@ En la ventana se muestran las líneas de planificación en función del filtro d
     >  Sólo puede seleccionar esta casilla de verificación si el producto tiene el valor **Opcional** o **Siempre** en el campo **Reserva** de la ficha del producto.  
 
 8.  En el campo **Cantidad que se pedirá**, puede especificar la cantidad que figurará en el pedido de suministros que va a crear.   
-    El valor predeterminado es la misma cantidad que en el campo **Cantidad necesaria**. Sin embargo, podría decidir solicitar más o menos de esta cantidad según el conocimiento que disponga de la situación de demanda. Si, por ejemplo, ve en el campo **Planificación de pedidos** que varias líneas de demanda no relacionadas corresponden al mismo producto comprado, y que su fecha de vencimiento es en torno a la misma fecha, podrá consolidarlas especificando la cantidad total necesaria en el campo **Cantidad que se pedirá** de una línea y, a continuación, eliminando el resto de líneas de planificación obsoletas de dicho producto.  
+    El valor predeterminado es la misma cantidad que en el campo **Cantidad necesaria**. Sin embargo, podría decidir solicitar más o menos de esta cantidad según el conocimiento que disponga de la situación de demanda. Si, por ejemplo, ve en el campo **Planificación de pedidos**que varias líneas de demanda no relacionadas corresponden al mismo producto comprado, y que su fecha de vencimiento es en torno a la misma fecha, podrá consolidarlas especificando la cantidad total necesaria en el campo **Cantidad que se pedirá** de una línea y, a continuación, eliminando el resto de líneas de planificación obsoletas de dicho producto.  
 
 9.  En los campos **Fecha vencimiento** y **Fecha pedido**, puede especificar las fechas que deben aplicarse a los pedidos de suministros creados.  
 

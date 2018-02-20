@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 32cbc23b24a8a04a62a246dd50eac8d8a721e2e7
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1e6db49370a1fc2d9a2bb99e55d00ed69908d703
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-on-service-tasks"></a>Cómo trabajar en tareas de servicio
+# <a name="work-on-service-tasks"></a>Trabajar en tareas de servicio
 Una vez que haya creado un pedido u oferta de servicio, registrado líneas de producto de servicio y asignado recursos a los productos de servicio del pedido u oferta, podrá empezar a reparar y mantener los productos de servicio.  
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] dispone de la ventana **Tareas de servicio**, que proporciona una visión general de todos los productos de servicio que requieren atención. Puede considerarlo como su tablero de mandos de servicio, en el que puede ver los pedidos pendientes, buscar y registrar piezas de repuesto y mantener actualizado el inventario.  
@@ -106,7 +106,7 @@ Después de reparar un producto de servicio, puede registrar tanto el código de
 4. Rellene la línea. Seleccione la combinación correcta de códigos de defecto y resolución y, a continuación, selección **Aceptar** para copiarla al producto de servicio. Si no se encuentra una combinación adecuada, puede crear una combinación nueva en la ventana.  
 
 ## <a name="see-also"></a>Consulte también  
-[Còmo configurar informes de defectos](service-how-setup-fault-reporting.md)
+[Configurar informes de defectos](service-how-setup-fault-reporting.md)
 [Estado de asignación y estado de reparación](service-allocation-status-and-repair-status.md)  
 [Registro de servicio](service-service-posting.md)  
 

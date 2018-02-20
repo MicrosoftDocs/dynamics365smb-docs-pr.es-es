@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9fb79b0eaeca7428646c67a77b824cbdca7a652b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7b652ca286f7b93c82fa5941449be96729a1e95f
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-cost-accounting"></a>Configuración de contabilidad de costes
@@ -26,10 +26,10 @@ Antes de empezar a trabajar con la contabilidad de costes, debe realizar tareas 
 
 |Para|Vea|  
 |--------|---------|  
-|Cree el plan de tipos de coste.|[Procedimiento para configurar centros de costes](finance-how-to-set-up-cost-types.md)|  
+|Cree el plan de tipos de coste.|[Configurar tipos de costes](finance-how-to-set-up-cost-types.md)|  
 |Conozca sobre la conexión entre el tipo de coste y la cuenta de contabilidad.|[Definición de la relación entre los tipos de coste y las cuentas de contabilidad](finance-defining-the-relationship-between-cost-types-and-general-ledger-accounts.md)|  
-|Cree el plan de centros de coste.|[Procedimiento para configurar centros de costes](finance-how-to-set-up-cost-centers.md)|  
-|Cree el plan de objetos de coste.|[Procedimiento: configurar objetos de coste](finance-how-to-set-up-cost-objects.md)|  
+|Cree el plan de centros de coste.|[Configurar centros de costes](finance-how-to-set-up-cost-centers.md)|  
+|Cree el plan de objetos de coste.|[Configurar objetos de costes](finance-how-to-set-up-cost-objects.md)|  
 
 ## <a name="see-also"></a>Consulte también  
 [Contabilidad para costes](finance-manage-cost-accounting.md)  

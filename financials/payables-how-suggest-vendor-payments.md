@@ -13,16 +13,16 @@ ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
-ms.openlocfilehash: 2085cc744c2ff3761937920cd893faab5a84dada
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 384bc05b8f775859c9ca6d6ea4241efb63a9e69d
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-suggest-vendor-payments"></a>Propuesta de pagos a proveedores
+# <a name="suggest-vendor-payments"></a>Proponer pagos a proveedores
 En la ventana **Diario de pagos** puede usar el proceso **Proponer pagos a proveedores** para sugerir líneas de pago. Las líneas de elementos como pagos que están a punto de vencer, o de pagos en los que hay disponible un descuento por pronto pago, se sugieren según la configuración.
 
-Para obtener ventaja completa de las líneas sugeridas, primero debe asignar prioridades a los proveedores. Para obtener más información, consulte [Procedimiento: Dar prioridad a proveedores](purchasing-how-prioritize-vendors.md).  
+Para obtener ventaja completa de las líneas sugeridas, primero debe asignar prioridades a los proveedores. Para obtener más información, consulte [Dar prioridad a proveedores](purchasing-how-prioritize-vendors.md).  
 
 No se incluyen los movimientos de proveedor no son del tipo **Esperar**.  
 
@@ -47,7 +47,7 @@ Cuando use el proceso **Proponer pagos a proveedores** para crear las líneas de
 
 Además, si la fecha de registro calculada está en el pasado, la fecha de registro se adelanta a la fecha de trabajo y aparece una advertencia.  
 
-De forma alternativa, puede crear manualmente las líneas de pago con la fecha de vencimiento a fin de calcular la fecha de registro. Después de aplicar los movimientos de proveedor, puede utilizar la acción **Calcular fecha de registro** para actualizar la fecha de registro de la línea del diario con la fecha de vencimiento de la factura de compra relacionada. Para obtener más información, consulte [Procedimiento: Liquidar transacciones de compra manualmente](payables-how-apply-purchase-transactions-manually.md).  
+De forma alternativa, puede crear manualmente las líneas de pago con la fecha de vencimiento a fin de calcular la fecha de registro. Después de aplicar los movimientos de proveedor, puede utilizar la acción **Calcular fecha de registro** para actualizar la fecha de registro de la línea del diario con la fecha de vencimiento de la factura de compra relacionada. Para obtener más información, consulte [Liquidar transacciones de compra manualmente](payables-how-apply-purchase-transactions-manually.md).  
 
 > [!NOTE]  
 >   Si la factura de compra tiene fecha vencida, la fecha de registro se establece en la fecha de trabajo, y la fuente de la línea cambia a color rojo.  

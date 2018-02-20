@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 7ce4b45d740e50bba8256e72fcf43c70ea85922c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 58c243000bea5b70666b2a08cdd5696444e22f0f
 ms.contentlocale: es-es
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Tutorial: Configuración y uso de un flujo de trabajo de aprobación de compra
@@ -158,14 +158,14 @@ Ya ha configurado y probado un flujo de trabajo de aprobación sencillo según l
 
 La versión genérica de [!INCLUDE[d365fin](includes/d365fin_md.md)] incluye varias plantillas de flujo de trabajo para ejemplos compatibles con el código de aplicación. La mayor parte de ellos son de los flujos de trabajo de aprobación. Para obtener más información, consulte Plantilla de flujo de trabajo.  
 
-Las variaciones del flujo de trabajo se definen rellenando los campos de las líneas de flujo de trabajo en listas fijas de valores de evento y respuesta que representan ejemplos de flujo de trabajo que admite el código de aplicación. Para obtener más información, consulte [Procedimiento: Crear flujos de trabajo](across-how-to-create-workflows.md).  
+Las variaciones del flujo de trabajo se definen rellenando los campos de las líneas de flujo de trabajo en listas fijas de valores de evento y respuesta que representan ejemplos de flujo de trabajo que admite el código de aplicación. Para obtener más información, consulte [Crear flujos de trabajo](across-how-to-create-workflows.md).  
 
 Si una situación de negocio requiere un evento de flujo de trabajo o respuesta no compatibles, un asociado de Microsoft tiene que implementarlos personalizando el código de aplicación. Para obtener más información, consulte [Tutorial: Implementación de nuevos eventos y respuestas de flujo de trabajo](/dynamics-nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses) en la ayuda para desarrolladores e informáticos.  
 
 ## <a name="see-also"></a>Consulte también  
-[Procedimiento: Configurar usuarios de aprobación](across-how-to-set-up-approval-users.md)   
+[Configurar usuarios de aprobación](across-how-to-set-up-approval-users.md)   
 [Configurar notificaciones de flujo de trabajo](across-setting-up-workflow-notifications.md)   
-[Procedimiento: Crear flujos de trabajo](across-how-to-create-workflows.md)   
-[Procedimiento: Usar flujos de trabajo de aprobación](across-how-use-approval-workflows.md)   
+[Crear flujos de trabajo](across-how-to-create-workflows.md)   
+[Usar flujos de trabajo de aprobación del producto](across-how-use-approval-workflows.md)   
 [Flujo de trabajo](across-workflow.md)
 

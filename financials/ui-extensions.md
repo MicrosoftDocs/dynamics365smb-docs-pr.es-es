@@ -1,6 +1,6 @@
 ---
-title: Instalar extensiones para personalizar Dynamics 365 Business edition | Documentos de Microsoft
-description: "Obtenga información sobre cómo agregar funcionalidad y personalizar Dynamics 365 Business edition mediante la instalación de extensiones."
+title: Instalar extensiones para personalizar Finance and Operations, Business edition | Documentos de Microsoft
+description: "Obtenga información sobre cómo agregar funcionalidades y personalizar Finance and Operations, Business edition mediante la instalación de extensiones."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,13 +12,13 @@ ms.search.keywords: app, add-in, manifest, customize
 ms.date: 07/07/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
-ms.openlocfilehash: fb13cfe2d5e5a397d33f66b9fd4db14e46dcc5e1
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5deba7ee0f88c47738f3f964b9da912c730a1bd4
 ms.contentlocale: es-es
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="customizing-dynamics-365-business-edition-using-extensions"></a>Personalizar Dynamics 365, Business edition mediante extensiones
+# <a name="customizing-finance-and-operations-business-edition-using-extensions"></a>Personalización de Finance and Operations, Business edition con extensiones
 Puede cambiar [!INCLUDE[d365fin](includes/d365fin_md.md)] instalando extensiones que agregan funciones, cambian el comportamiento o proporcionan acceso a nuevos servicios en línea, por ejemplo.
 Cuando inicia [!INCLUDE[d365fin](includes/d365fin_md.md)] por primera vez, ya están instaladas algunas extensiones. Con el tiempo, tendrá disponibles más extensiones y puede elegir si desea usar la extensión o no.
 
@@ -75,5 +75,6 @@ Microsoft proporciona las extensiones siguientes:
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] Extensiones de otros proveedores](ui-extensions-other.md)  
 [[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

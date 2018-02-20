@@ -1,6 +1,6 @@
 ---
-title: Configurar rangos de fechas en Dynamics 365 Business edition | Documentos de Microsoft
-description: "Obtenga información sobre cómo obtener un informe para mostrar datos de periodos de tiempo específicos mediante rangos de fechas en Dynamics 365 Business edition."
+title: Configurar rangos de fechas en Finance and Operations, Business edition | Documentos de Microsoft
+description: "Obtenga información sobre cómo obtener un informe para mostrar datos de periodos de tiempo específicos mediante rangos de fechas en Finance and Operations, Business edition."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,13 +12,13 @@ ms.search.keywords: dates, reporting, filter
 ms.date: 05/29/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: fee6a5d7ce6603829ed98913b7e370a53239ee3e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: da2fea4e095c8211f30aaa7c570a84a005e7cbc8
 ms.contentlocale: es-es
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="entering-date-ranges-in-dynamics-365-business-edition"></a>Introducir rangos de fechas en Dynamics 365 Business edition 
+# <a name="entering-date-ranges-in-finance-and-operations-business-edition"></a>Introducir rangos de fechas en Finance and Operations, Business edition 
 Puede establecer filtros que contienen una fecha de inicio y de finalización para mostrar sólo los datos que se incluyen dentro de dicho rango de fechas o intervalo de tiempo. Se aplican reglas especiales a la forma de establecer los rangos de fechas. Tomemos la lista **Los 10 mejores clientes** como ejemplo:
 
 ![Configurar un rango de fechas en la página de solicitud de la lista de los 10 mejores clientes](./media/ui-enter-date-ranges/customer-top10-list.png)

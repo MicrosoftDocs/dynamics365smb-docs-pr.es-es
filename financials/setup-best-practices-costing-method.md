@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: d4f533d42cc813d3ebc0ccbb00228a6c8e188c14
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="setup-best-practices-costing-method"></a>Procedimientos recomendados de configuración: valoración de existencias

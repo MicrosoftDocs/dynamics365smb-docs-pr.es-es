@@ -13,16 +13,16 @@ ms.search.keywords: account linking, direct payment posting, automatic payment p
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 53c65f7f47c189905e277eff1ea86af241aa1b0b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: c5f6f041083e291feca4544f42d43d5ebe3b7e9c
 ms.contentlocale: es-es
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Asignación de texto en pagos periódicos a cuentas para conciliación automática
+# <a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Asignar texto en pagos periódicos a cuentas para conciliación automática
 En la ventana **Asignación de texto a cuenta**, que se abre desde la ventana **Diario de conciliación de pagos**, puede configurar asignaciones entre el texto de los pagos y las cuentas de débito, crédito y saldo específicas para que los pagos se contabilicen en las cuentas específicas cuando contabilices el diario de conciliación de pagos.
 
-La funcionalidad similar existe para conciliar el exceso de importes en las líneas del diario de conciliación de pagos sobre una base ad hoc. Para obtener más información, vea [Procedimiento: Conciliar pagos que no pueden liquidarse automáticamente](receivables-how-reconcile-payments-cannot-apply-auto.md).
+La funcionalidad similar existe para conciliar el exceso de importes en las líneas del diario de conciliación de pagos sobre una base ad hoc. Para obtener más información, vea [Conciliar pagos que no pueden liquidarse automáticamente](receivables-how-reconcile-payments-cannot-apply-auto.md).
 
 Los pagos registrados según la asignación de texto a cuenta no se aplican a movimientos pendientes, sino que simplemente se registran en las cuentas especificadas además de crear movimientos de bancos. Por consiguiente, la asignación de texto a cuenta es adecuada para recibos de cobro o gastos periódicos, como las compras frecuentes de combustible para vehículos u honorarios bancarios e intereses que se producen normalmente en el extracto bancario y no necesitan un documento empresarial relacionado. Para más información, consulte la sección “Ejemplo: asignación de texto a cuenta para gasto de combustible” de este tema.
 
@@ -33,7 +33,7 @@ En una línea del diario de conciliación de pagos en la que el pago se establec
 
 ## <a name="to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Para asignar texto en pagos periódicos a cuentas para conciliación automática
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diarios de conciliación de pagos** y, a continuación, seleccione el vínculo relacionado.
-2. Abra un diario de conciliación de pagos. Para obtener más información, vea [Procedimiento: Conciliar pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md).
+2. Abra un diario de conciliación de pagos. Para obtener más información, vea [Conciliar pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md).
 3. Seleccione la acción **Asociar texto a cuenta**. Se abre la ventana **Asignación de texto a cuenta**.
 4. En el campo **Asignar texto**, introduzca cualquier texto de los pagos que quiera registrar en unas cuentas específicas sin aplicarlo a un movimiento pendiente. Puede escribir hasta 50 caracteres.
 
@@ -44,7 +44,7 @@ En una línea del diario de conciliación de pagos en la que el pago se establec
 7. En el campo **N.º origen contr.** especifique la cuenta a la que se contabilizará el pago dependiendo de su elección en el campo **Tipo origen contr.**
 
     > [!NOTE]
-    > No utilice los campos **N.º cta. débito** y **N.º cta. crédito** en relación con la conciliación de pagos. Se utilizan solo para los documentos entrantes. Para obtener más información, vea [Procedimiento: Usar el servicio OCR para convertir archivos PDF y de imagen en documentos](across-how-use-ocr-pdf-images-files.md).
+    > No utilice los campos **N.º cta. débito** y **N.º cta. crédito** en relación con la conciliación de pagos. Se utilizan solo para los documentos entrantes. Para obtener más información, vea [Usar el servicio OCR para convertir archivos PDF y de imagen en documentos electrónicos](across-how-use-ocr-pdf-images-files.md).
 
 8. Repita los pasos del 3 al 7 para todo el texto de los pagos que desea asignar a las cuentas para el registro directo sin liquidación.
 

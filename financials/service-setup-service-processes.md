@@ -13,13 +13,13 @@ ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, 
 ms.date: 08/22/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 708569e88d443f1dc4f1d17d8015da98cf186e6d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 87a18af2c88955d4d0b78eb37fea161e3332c4b3
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-configure-service-processes"></a>Cómo configurar procesos de servicio
+# <a name="configure-service-processes"></a>Configurar procesos de servicio
 A continuación se muestran algunos ejemplos de la configuración que puede aplicar a los procesos de gestión de servicios:  
   
 * Algunos ajustes generales para varios procesos, tales como las advertencias, los cálculos de servicios posteriores para los productos de servicio, la tarifa de inicio para evaluar, el nivel de notificación de defectos a utilizar, etc.  
@@ -33,10 +33,10 @@ A continuación se muestran algunos ejemplos de la configuración que puede apli
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="see-also"></a>Consulte también  
-[Procedimiento: creación de informes de defecto](service-how-setup-fault-reporting.md)  
+[Crear informes de defecto](service-how-setup-fault-reporting.md)  
 [Configurar asignación de recursos](service-how-setup-resource-allocation.md)  
-[Cómo configurar códigos para servicios estándar](service-how-setup-service-coding.md)  
+[Configurar códigos para servicios estándar](service-how-setup-service-coding.md)  
 [Configurar costes adicionales de servicios](service-how-setup-service-costs-pricing.md)  
-[Para configurar la detección de errores](service-how-setup-troubleshooting.md)  
+[Configurar detección errores](service-how-setup-troubleshooting.md)  
 [Gestión de servicios](service-service.md)  
 

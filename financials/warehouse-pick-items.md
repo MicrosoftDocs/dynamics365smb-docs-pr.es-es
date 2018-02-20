@@ -1,6 +1,6 @@
 ---
 title: Elegir productos | Documentos de Microsoft
-description: "La actividad de almacén consistente en realizar el picking de los productos antes de enviarlos o consumirlos se realiza de modo distinto según estén configuradas las funciones de gestión del almacén. La complejidad de la [setup](../configure-warehouse-processes.md) puede oscilar desde la ausencia total de funciones de almacén, pasando por la configuración básica de almacén para la gestión pedido-por-pedido en sólo una o más actividades, hasta configuraciones más avanzadas en las que todas las actividades del almacén se llevan a cabo como parte de un flujo de trabajo dirigido."
+description: "La actividad de almacén consistente en realizar el picking de los productos antes de enviarlos o consumirlos se realiza de modo distinto según estén configuradas las funciones de gestión del almacén. La complejidad de la [configuración](../configure-warehouse-processes.md) puede oscilar desde la ausencia total de funciones de almacén, pasando por configuraciones de almacén básicas para la gestión pedido-por-pedido en sólo una o más actividades, hasta configuraciones más avanzadas en las que todas las actividades del almacén se llevan a cabo como parte de un flujo de trabajo dirigido."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 13db47dcfcc7eb6d30230490baa5ac961fc825a8
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 132408d095edbfa1a60577cdd19022920088670b
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="pick-items"></a>Elegir productos
@@ -35,18 +35,18 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 
 |**Para**|**Vea**|
 |------------|-------------|  
-|Registrar el envío de los productos directamente en el documento de pedido de salida puesto que no existen funciones de almacén. (Funciona igual para los pedidos de venta, pedidos de transferencia de salida y envíos de devoluciones.)|[Procedimiento: enviar productos](warehouse-how-ship-items.md)|  
-|Realizar el picking de los productos pedido a pedido y registrar el envío como parte de la misma actividad, en una configuración básica de almacén.|[Cómo realizar picking de productos con picking inventario](warehouse-how-to-pick-items-with-inventory-picks.md)|
-|Realizar el picking de productos de distintos pedidos en una configuración avanzada de almacén.|[Cómo realizar picking de productos con picking almacén](warehouse-how-to-pick-items-for-warehouse-shipment.md)|  
-|Realizar picking de componentes para la producción o ensamblado en una configuración avanzada o básica de almacén.|[Procedimiento: Selección de producción o la Lista montaje](warehouse-how-to-pick-for-production.md)|  
-|Planificar instrucciones optimizadas de picking para un número de envíos en lugar de que los empleados del almacén actúen directamente en los envíos registrados.|[Cómo planificar los picking en la hoja de trabajo](warehouse-how-to-plan-picks-in-worksheets.md)|  
+|Registrar el envío de los productos directamente en el documento de pedido de salida puesto que no existen funciones de almacén. (Funciona igual para los pedidos de venta, pedidos de transferencia de salida y envíos de devoluciones.)|[Enviar productos](warehouse-how-ship-items.md)|  
+|Realizar el picking de los productos pedido a pedido y registrar el envío como parte de la misma actividad, en una configuración básica de almacén.|[Realizar el picking de productos con picking inventario](warehouse-how-to-pick-items-with-inventory-picks.md)|
+|Realizar el picking de productos de distintos pedidos en una configuración avanzada de almacén.|[Realizar picking de productos con picking almacén](warehouse-how-to-pick-items-for-warehouse-shipment.md)|  
+|Realizar picking de componentes para la producción o ensamblado en una configuración avanzada o básica de almacén.|[Selección de producción o la Lista montaje](warehouse-how-to-pick-for-production.md)|  
+|Planificar instrucciones optimizadas de picking para un número de envíos en lugar de que los empleados del almacén actúen directamente en los envíos registrados.|[Planificar los picking en la hoja de trabajo](warehouse-how-to-plan-picks-in-worksheets.md)|  
 |Realizar el picking de productos técnicamente con un propósito determinado, como puede ser una unidad de producción que solicita componentes adicionales, de forma que los productos no abandonen técnicamente el almacén.|[Realizar el picking y la ubicación sin un documento de origen](warehouse-how-to-create-put-aways-from-internal-put-aways.md)|
 |Comprender cómo realizar automáticamente el picking de los productos de acuerdo con su fecha de caducidad, por ejemplo productos perecederos.|[Realización de picking por el FEFO](warehouse-picking-by-fefo.md)|
-|Dividir una línea de picking en varias líneas, por ejemplo, porque no hay suficientes elementos relacionados en la ubicación designada.|[Procedimiento: divida las líneas de actividad de almacén](warehouse-how-to-split-warehouse-activity-lines.md)|
-|Obtener acceso inmediato al picking que está asignado al usuario en calidad de empleado del almacén.|[Procedimiento: busque las asignaciones de almacén](warehouse-how-to-find-your-warehouse-assignments.md)|  
+|Dividir una línea de picking en varias líneas, por ejemplo, porque no hay suficientes elementos relacionados en la ubicación designada.|[Dividir líneas de actividad de almacén](warehouse-how-to-split-warehouse-activity-lines.md)|
+|Obtener acceso inmediato al picking que está asignado al usuario en calidad de empleado del almacén.|[Buscar las asignaciones de almacén](warehouse-how-to-find-your-warehouse-assignments.md)|  
 
 ## <a name="see-also"></a>Consulte también  
-[Gestión almacén](warehouse-manage-warehouse.md)  
+[Gestión de almacenes](warehouse-manage-warehouse.md)  
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    

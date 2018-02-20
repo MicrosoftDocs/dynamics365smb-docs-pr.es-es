@@ -1,5 +1,5 @@
 ---
-title: Adeudo directo SEPA en Dynamics 365 | Documentos de Microsoft
+title: Adeudo directo SEPA en Finance and Operations, Business edition | Documentos de Microsoft
 description: "Puede cobrar los pagos directamente al banco del cliente según el formato SEPA."
 author: SorenGP
 ms.service: dynamics365-financials
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: 0447e6c9f84457589df5cbc1efaecb2de24e7295
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: cf07a08eebe8bfffc99f7351a96526452728552e
 ms.contentlocale: es-es
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="collecting-payments-with-sepa-direct-debit"></a>Cobro de pagos mediante adeudo directo SEPA
@@ -36,7 +36,7 @@ Con el consentimiento de sus clientes, puede cobrar los pagos directamente al ba
 |**Para**|**Vea**|  
 |------------|-------------|  
 |Prepare los formatos de banco, las formas de pago y los acuerdos de cliente para el adeudo directo SEPA.|[Configuración de domiciliaciones de adeudo directo SEPA](finance-how-to-set-up-sepa-direct-debit.md)|  
-|Indique a su banco para que transfiera los importes de pago de los bancos de los clientes a la cuenta de su empresa según la configuración de adeudo directo SEPA.|[Creación de movimientos de domiciliación de adeudo directo SEPA y exportación a un archivo bancario](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)|  
+|Indique a su banco para que transfiera los importes de pago de los bancos de los clientes a la cuenta de su empresa según la configuración de adeudo directo SEPA.|[Crear movimientos de domiciliación de adeudo directo SEPA y exportación a un archivo bancario](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)|  
 |Configure códigos de ventas estándar de cliente para las facturas de domiciliación y generar facturas de venta con información de domiciliación cuando las facturas que están pendientes de pago.|[Crear líneas de ventas y de compras periódicas](sales-how-work-standard-lines.md)|  
 |Registre los pagos efectuados como adeudos directos SEPA.|[Registro de recibos de pagos de domiciliación de adeudo directo SEPA](finance-how-to-post-sepa-direct-debit-payment-receipts.md)|  
 

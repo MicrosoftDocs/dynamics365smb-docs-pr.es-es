@@ -1,6 +1,6 @@
 ---
 title: Emitir, imprimir, cancelar y anular cheques | Documentos de Microsoft
-description: "Describe cómo emitir cheques con el diario de pagos, imprimir cheques y anular o ver movimientos de cheques en Dynamics 365."
+description: "Describe cómo emitir cheques con el diario de pagos, imprimir cheques y anular o ver movimientos de cheques en Finance and Operations, Business edition."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,13 +13,13 @@ ms.search.keywords: payment journal, print check, vendor payment, creditor, debt
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 85e5cd61571ec6e571a44e39f397bd370112dd5c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b3f8bece0d0d1de9a6fd17b84df73d466ccdf403
 ms.contentlocale: es-es
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-checks"></a>Procedimiento: Trabajar con cheques
+# <a name="work-with-checks"></a>Trabajar con cheques
 Puede emitir cheques electrónicos y manuales en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ambos métodos utilizan el diario de pagos para emitir los cheques a proveedores. También puede anular cheques y ver movimientos de cheques.
 
 El proceso de emisión de cheques propone pagos, crea movimientos e imprime los cheques automáticos.
@@ -27,11 +27,11 @@ El proceso de emisión de cheques propone pagos, crea movimientos e imprime los 
 > [!NOTE]  
 >   Para asegurarse de que su banco solo compensa cheques e importes validados, puede enviarles un archivo que contenga la información de proveedor, cheque y pago. Para obtener más información, vea [Exportar un archivo de Positive Pay](finance-how-positive-pay.md).
 
-Su impresora tiene que haber configurado correctamente los documentos y usted deberá definir qué plantilla de cheques va a usar. Para obtener más información , vea [Procedimiento: Definir plantillas de cheques](finance-how-define-check-layouts.md)
+Su impresora tiene que haber configurado correctamente los documentos y usted deberá definir qué plantilla de cheques va a usar. Para obtener más información , vea [Definir plantillas de cheques](finance-how-define-check-layouts.md)
 
 ## <a name="to-issue-checks"></a>Para emitir cheques
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diarios de pagos** y, a continuación, seleccione el vínculo relacionado.
-2. Rellene el diario con los pagos relevantes, por ejemplo, mediante la función Proponer pagos a proveedores. Para obtener más información, vea [Procedimiento: Proponer pagos a proveedores](payables-how-suggest-vendor-payments.md).
+2. Rellene el diario con los pagos relevantes, por ejemplo, mediante la función Proponer pagos a proveedores. Para obtener más información, vea [Proponer pagos a proveedores](payables-how-suggest-vendor-payments.md).
 3. En el campo **Tipo de pago bancario** en las líneas de diario para el pago que desea realizar mediante cheques, seleccione una de las opciones siguientes:
 
    * **Cheque automático**: Seleccione esta opción si desea imprimir un cheque por el importe de la línea del diario de pagos. Debe imprimir los cheques antes de que pueda registrar las líneas del diario. solo puede seleccionar **Cheque automático** si el valor de **Tipo contrapartida** o el de **Tipo mov.** es **Cuenta banco**.

@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c85fa0d5ede1624a650a85d8340112f9ccbef1c4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d84010d0d707ad96970ff9fc24077cb12ad9f9df
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-find-your-warehouse-assignments"></a>Procedimiento: busque las asignaciones de almacén
-Para buscar las asignaciones de almacén, abra la ventana de la ficha de un artículo seleccionado. Si se han creado las instrucciones del almacén, las líneas de tipo Traer y colocar son visibles y puede empezar a trabajar en una asignación. En algunos almacenes, el administrador puede haber asignado instrucciones específicas a cada empleado. Para obtener más información, vea [Cómo configurar los empleados de almacén](warehouse-how-to-set-up-warehouse-employees.md).
+# <a name="find-your-warehouse-assignments"></a>Buscar las asignaciones de almacén
+Para buscar las asignaciones de almacén, abra la ventana de la ficha de un artículo seleccionado. Si se han creado las instrucciones del almacén, las líneas de tipo Traer y colocar son visibles y puede empezar a trabajar en una asignación. En algunos almacenes, el administrador puede haber asignado instrucciones específicas a cada empleado. Para obtener más información, vea [Configurar los empleados de almacén](warehouse-how-to-set-up-warehouse-employees.md).
 
 ## <a name="to-find-an-instruction-assigned-to-you"></a>Para buscar una instrucción que se le ha asignado  
 1.  Seleccione el ![icono Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Ubicac. almacén**, **Pickings almacén** o **Movimiento almacén** y, a continuación, seleccione el vínculo relacionado.

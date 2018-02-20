@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b6a61a9c5d2b8c7b3d197780c580c8bcf957560e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2df47e6f5bcd7b02282e45757d94bd6fc0f0981d
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Tutorial: administración de programas con proyectos
@@ -186,7 +186,7 @@ Este tutorial se centra en la empresa CRONUS International Ltd., una empresa de 
 
      **Línea 1**  
 
-    -   **Tipo línea**: **previsión y contrato**  
+    -   **Tipo de línea**: **previsión y contrato**  
     -   **Fecha planif.**: **(fecha actual)**  
     -   **Tipo**: **recurso**  
     -   **Nº**: **Tricia**  
@@ -425,7 +425,7 @@ Este tutorial se centra en la empresa CRONUS International Ltd., una empresa de 
 
     |Línea|N.º tarea de trabajo|Description|Tipo de tarea de trabajo|  
     |----------|------------------|---------------------------------------|-------------------|  
-    |0|1000|Pago del Pago inicial|Registro|  
+    |1|1000|Pago del Pago inicial|Registro|  
     |2|2000|Uso|Auxiliar|  
     |3|3000|Pago - Intermedio|Auxiliar|  
     |4|4000|Pago - Finalización|Registro|  
@@ -481,8 +481,8 @@ Este tutorial se centra en la empresa CRONUS International Ltd., una empresa de 
 ## <a name="see-also"></a>Consulte también  
  [Tutoriales de procesos empresariales](walkthrough-business-process-walkthroughs.md)   
  [Configurar la administración de proyectos](projects-setup-projects.md)   
- [Cómo usar recursos](projects-how-use-resources.md)   
- [Cómo supervisar el progreso y el rendimiento](projects-how-monitor-progress-performance.md)   
- [Facturación de proyectos](projects-how-invoice-jobs.md)  
+ [Usar recursos](projects-how-use-resources.md)   
+ [Supervisar el progreso y el rendimiento](projects-how-monitor-progress-performance.md)   
+ [Facturar proyectos](projects-how-invoice-jobs.md)  
  [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

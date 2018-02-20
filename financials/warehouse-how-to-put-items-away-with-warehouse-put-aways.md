@@ -13,18 +13,18 @@ ms.search.keywords:
 ms.date: 08/31/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 28ff0073c75136f31153327a70a8f7c0bb9176aa
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6ccc452db91f7c227e052f60d50f8cc0fdf46fd0
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-put-items-away-with-warehouse-put-aways"></a>Procedimiento: ubique productos con ubicaciones de inventario
+# <a name="put-items-away-with-warehouse-put-aways"></a>Ubicar productos con ubic. exist. almacén
 Si el almacén está configurado para requerir los procesos de ubicación y recepción de almacén, utilice la función de documentos de ubicación de almacén para controlar la ubicación de los productos.  
 
 Al registrar una recepción de almacén, se actualizan los documentos de origen, como la compra, transferencia de entrada o los pedidos de devolución de ventas; se registra la cantidad recibida en el diario de productos y se envían las líneas con los productos recibidos a la función de ubicación del almacén. Si tiene ubicación y picking internos, la ubicación interna también puede crear líneas para ubicación.  
 
-Dependiendo de la configuración de almacén, se ponen a disposición las líneas en la hoja de trabajo de ubicación o se usan para generar instrucciones de ubicación inmediatamente. Para obtener más información, consulte [Procedimiento: planifique ubicaciones en hojas de trabajo](warehouse-how-to-plan-put-aways-in-worksheets.md).  
+Dependiendo de la configuración de almacén, se ponen a disposición las líneas en la hoja de trabajo de ubicación o se usan para generar instrucciones de ubicación inmediatamente. Para obtener más información, consulte [Planificar ubicaciones en hojas de trabajo](warehouse-how-to-plan-put-aways-in-worksheets.md).  
 
 Además de las formas estándar de crear las ubicaciones de almacén que se describen en este tema, puede crear la ubicación de recepción de almacén registrado relacionada. Esta acción es útil si utiliza ubicaciones y picking directos y ha decidido no utilizar la hoja de trabajo de ubicación, ya que puede crear o volver a crear las instrucciones de ubicación desde líneas de albarán recibidas.  
 
@@ -56,7 +56,7 @@ Además de las formas estándar de crear las ubicaciones de almacén que se desc
 
 En las ubicaciones configuradas para utilizar ubicación y picking directos, la siguiente es un requisito previo para el procedimiento anterior:  
 
-- Se configura una plantilla de ubicación. Para obtener más información, consulte [Cómo configurar plantillas de ubicación](warehouse-how-to-set-up-put-away-templates.md).  
+- Se configura una plantilla de ubicación. Para obtener más información, vea [Configurar plantillas de ubicación](warehouse-how-to-set-up-put-away-templates.md).  
 - Define el peso, cubicaje y requisitos especiales de almacenamiento del producto o la unidad de almacenamiento. Para obtener más información, consulte Peso bruto.  
 - La capacidad, el tipo de ubicación y ranking de las ubicaciones. Para obtener más información, consulte Ranking ubicación.  
 

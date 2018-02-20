@@ -13,13 +13,13 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 03/29/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 14c2e5340c64e2b302a0bb04c54911888e995136
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 43cb04b4852e305926550b55af8d10ccbf71bd4e
 ms.contentlocale: es-es
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-and-modify-a-custom-report-or-document-layout"></a>Cómo crear y modificar un diseño de informe o documento personalizado
+# <a name="create-and-modify-a-custom-report-or-document-layout"></a>Crear y modificar un diseño de informe o documento personalizado
 De forma predeterminada, un informe tendrá un diseño de informe integrado, bien de RDLC o de Word, o ambos. No puede modificar diseños integrados. No obstante, puede crear sus propios diseños personalizados que le permitan modificar el aspecto del informe cuando se vea, se imprima o se guarde. Puede crear varios diseños de informe personalizados para el mismo informe y, a continuación, cambiar al diseño utilizado por un informe según sea necesario.
 
 > [!NOTE]  
@@ -89,13 +89,13 @@ Si está creando un diseño de informe de Word desde cero o agregando nuevos cam
 2.  Elimine el texto restante según sea necesario.  
 
 ### <a name="adding-data-fields"></a>Añadir campos de datos
-La adición de campos de datos de un conjunto de datos de informe es una operación más avanzada y necesita conocimientos del conjunto de datos de informe. Para obtener información acerca de la adición campos para datos, etiquetas, datos e imágenes, consulte [Cómo añadir campos a un diseño de informe de Word](ui-how-add-fields-word-report-layout.md).  
+La adición de campos de datos de un conjunto de datos de informe es una operación más avanzada y necesita conocimientos del conjunto de datos de informe. Para obtener información acerca de la adición campos para datos, etiquetas, datos e imágenes, consulte [Añadir campos a un diseño de informe de Word](ui-how-add-fields-word-report-layout.md).  
 
 
 ## <a name="see-also"></a>Consulte también
 [Gestión de diseños de informe](ui-manage-report-layouts.md)  
 [Cambiar el diseño que se usa actualmente en un informe](ui-how-change-layout-currently-used-report.md)  
-[Cómo importar y exportar un diseño de informe o documento personalizado](ui-how-import-and-export-report-layout.md)  
+[Importar y exportar un diseño de informe o documento personalizado](ui-how-import-and-export-report-layout.md)  
 [Trabajar con informes](ui-work-report.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

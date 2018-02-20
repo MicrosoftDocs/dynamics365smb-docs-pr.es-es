@@ -13,13 +13,13 @@ ms.search.keywords: Yodlee, feed, stream, payment process
 ms.date: 09/14/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
-ms.openlocfilehash: 5f4b675db86bc6fef19a587454e1e513fe6fa83d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: fa5c0c39dbbce40b59d639f810522c66da1a09ab
 ms.contentlocale: es-es
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-the-envestnet-yodlee-bank-feeds-service"></a>Procedimiento: Configuración del servicio de fuentes de banco de Envestnet Yodlee
+# <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Configuración del servicio de fuentes de banco de Envestnet Yodlee
 Puede importar extractos electrónicos de su banco para rellenar rápidamente la ventana **Diario de conciliación de pagos** para que pueda liquidar pagos y conciliar la cuenta bancaria. Para obtener más información, vea [Liquidación de pagos automáticamente y conciliación de cuentas bancarias](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 El servicio de fuentes de banco de Envestnet Yodlee está instalado como una extensión de [!INCLUDE[d365fin](includes/d365fin_md.md)] y está listo para ser activado. Para obtener más información, consulte [Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] mediante extensiones](ui-extensions.md).
@@ -63,7 +63,7 @@ El servicio de fuente de banco se activará cuando vincule una cuenta a la cuent
     Después de que se haya completado el proceso, el nombre del banco aparecerá en el panel **Mis cuentas** en la pestaña **Vinculado**. El valor entre corchetes indica la cantidad de cuentas bancarias en línea que están vinculadas.  
 7. Elija el botón **Aceptar**.
 
-    Si solo vincula una cuenta bancaria en línea, se abre la ventana **Ficha banco** y se muestra el nombre de la cuenta bancaria en línea. En este caso, la vinculación de la cuenta bancaria se ha completado. Lo único que tiene que hacer es configurar la cuenta bancaria. Para obtener más información, vea [Procedimiento: Configurar cuentas bancarias](bank-how-setup-bank-accounts.md).
+    Si solo vincula una cuenta bancaria en línea, se abre la ventana **Ficha banco** y se muestra el nombre de la cuenta bancaria en línea. En este caso, la vinculación de la cuenta bancaria se ha completado. Lo único que tiene que hacer es configurar la cuenta bancaria. Para obtener más información, consulte [Configurar cuentas bancarias](bank-how-setup-bank-accounts.md).
 
     Si va a vincular más de una cuenta bancaria en línea, la ventana **Vinculación de banco** abre una ventana y enumera las cuentas bancarias en línea adicionales que todavía no se han vinculado en [!INCLUDE[d365fin](includes/d365fin_md.md)]. En ese caso, siga el paso siguiente.  
 8. En la ventana **Vinculación de banco**, seleccione la línea para una cuenta bancaria en línea y, a continuación, seleccione la acción **Vincular a nuevo banco**.  

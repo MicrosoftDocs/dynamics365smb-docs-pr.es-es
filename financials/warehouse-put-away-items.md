@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/31/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9ecb54ee063daa054c5503702fcc21c4dc111d99
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: db48432b54e0bd2c303816c8b06f0986f2352a59
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="putting-items-away"></a>Configurando los artículos componentes
@@ -32,17 +32,17 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 
 |**Para**|**Vea**|  
 |------------|-------------|  
-|Registre el recibo de productos directamente desde el documento de órdenes de entrada y registre la ubicación, ya que no existe ninguna configuración de almacén.|[Cómo recibir productos](warehouse-how-receive-items.md)|  
-|Ubicar los productos pedido a pedido y registrar la recepción como parte de la misma actividad, en una configuración básica de almacén.|[Ubicación de productos con ubicación de inventario](warehouse-how-to-put-items-away-with-inventory-put-aways.md)|  
-|Ubicar productos de distintos pedidos en una configuración avanzada de almacén.|[Procedimiento: ubique productos con ubicaciones de inventario](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)|  
-|Ubicar productos producidos o ensamblados en una configuración básica o avanzada de inventario.|[Cómo ubicar la salida de producción o la salida de ensamblado](warehouse-how-to-put-away-production-output.md)|
-|Planificar instrucciones optimizadas de ubicación para un número de recepciones de almacén registradas en lugar de tener empleados del almacén actuando directamente en las recepciones.|[Procedimiento: planifique ubicaciones en hojas de trabajo](warehouse-how-to-plan-put-aways-in-worksheets.md)|  
+|Registre el recibo de productos directamente desde el documento de órdenes de entrada y registre la ubicación, ya que no existe ninguna configuración de almacén.|[Recibir productos](warehouse-how-receive-items.md)|  
+|Ubicar los productos pedido a pedido y registrar la recepción como parte de la misma actividad, en una configuración básica de almacén.|[Ubicar productos con ubicación de inventario](warehouse-how-to-put-items-away-with-inventory-put-aways.md)|  
+|Ubicar productos de distintos pedidos en una configuración avanzada de almacén.|[Ubicar productos con ubic. exist. almacén](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)|  
+|Ubicar productos producidos o ensamblados en una configuración básica o avanzada de inventario.|[Ubicar la salida de producción o la salida de ensamblado](warehouse-how-to-put-away-production-output.md)|
+|Planificar instrucciones optimizadas de ubicación para un número de recepciones de almacén registradas en lugar de tener empleados del almacén actuando directamente en las recepciones.|[Planificar ubicaciones en hojas de trabajo](warehouse-how-to-plan-put-aways-in-worksheets.md)|  
 |Recolocar los productos cuyo picking técnico se realizó en una fase interna de picking, por ejemplo para una orden de producción que no consumió la cantidad prevista.|[Realizar el picking y la ubicación sin un documento de origen](warehouse-how-to-create-put-aways-from-internal-put-aways.md)|
-|Dividir una línea de ubicación para color parte de la cantidad a ubicar en ubicaciones disponibles puesto que la ubicación designada se encuentra llena.|[Procedimiento: divida las líneas de actividad de almacén](warehouse-how-to-split-warehouse-activity-lines.md)|
-|Obtener acceso inmediato a las ubicaciones asignadas al usuario en calidad de empleado del almacén.|[Procedimiento: busque las asignaciones de almacén](warehouse-how-to-find-your-warehouse-assignments.md)|    
+|Dividir una línea de ubicación para color parte de la cantidad a ubicar en ubicaciones disponibles puesto que la ubicación designada se encuentra llena.|[Dividir líneas de actividad de almacén](warehouse-how-to-split-warehouse-activity-lines.md)|
+|Obtener acceso inmediato a las ubicaciones asignadas al usuario en calidad de empleado del almacén.|[Buscar las asignaciones de almacén](warehouse-how-to-find-your-warehouse-assignments.md)|    
 
 ## <a name="see-also"></a>Consulte también  
-[Gestión almacén](warehouse-manage-warehouse.md)  
+[Gestión de almacenes](warehouse-manage-warehouse.md)  
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    

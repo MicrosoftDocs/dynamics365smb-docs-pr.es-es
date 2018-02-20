@@ -13,10 +13,10 @@ ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.date: 08/15/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: de6cbcdc8e7ca4aff06461192e2038831ba6b5b3
-ms.openlocfilehash: 973c42642f88024de9d8924b675496015ce60983
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4b4fde6f005c992b63856ec4afadbb689532ac16
 ms.contentlocale: es-es
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="how-to-set-up-and-report-intrastat"></a>Procedimiento: configuración y creación de informes Intrastat
@@ -85,7 +85,7 @@ El proceso recupera todos los movimientos de producto en el periodo estadístico
 > [!IMPORTANT]  
 >  El proceso únicamente obtiene los movimientos que contienen un código de país o región para el cual se ha introducido un código Intrastat en la página **Países y regiones**. Por lo tanto, debe escribir los códigos Intrastat de los códigos de país o región para los que se ejecutará el proceso.  
 
-### <a name="how-to-report-intrastat-on-a-form-or-a-file"></a>Procedimiento: Creación de informes Intrastat en un formulario o un archivo
+### <a name="report-intrastat-on-a-form-or-a-file"></a>Creación de informes Intrastat en un formulario o un archivo
 Para conseguir la información necesaria en el formulario Intrastat de las autoridades estadísticas, debe imprimir el **Intrastat – Formulario**. Para poder hacerlo, debe preparar el diario Intrastat y rellenarlo. Si tiene transacciones de ventas y de compras, debe completar un formulario independiente para cada tipo, por lo que deberá imprimir el informe dos veces.  
 
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diarios Intrastat** y, a continuación, seleccione el vínculo relacionado.  
@@ -95,7 +95,7 @@ Para conseguir la información necesaria en el formulario Intrastat de las autor
 5. En la ficha desplegable **Lín. diario Intrastat**, agregue un filtro **Tipo** y, a continuación, especifique si es una **Recepción** o un **Envío**.  
 6. Haga clic en **Enviar a** para imprimir el informe.  
 
-### <a name="how-to-report-intrastat-in-a-file"></a>Procedimiento: emitir informes de Intrastat en un archivo
+### <a name="report-intrastat-in-a-file"></a>Emitir informes de Intrastat en un archivo
 Puede entregar el informe Intrastat como un archivo. Antes de crear el archivo, puede imprimir un informe test con la misma información que contendrá el archivo.  
 
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diario Intrastat** y, a continuación, seleccione el vínculo relacionado.  
@@ -106,7 +106,7 @@ Puede entregar el informe Intrastat como un archivo. Antes de crear el archivo, 
 6. Elija **Guardar**.  
 7. Busque la ubicación donde desea guardar el archivo y, a continuación, escriba el nombre del archivo y elija **Guardar**.
 
-## <a name="how-to-reorganize-intrastat-journals"></a>Procedimiento para reorganizar diarios Intrastat
+## <a name="reorganize-intrastat-journals"></a>Reorganizar diarios Intrastat
 Dado que debe presentar un informe Intrastat cada mes y crear una nueva sección de diario para cada informe, dispondrá de varias secciones de diario. Las líneas de diario no se eliminan automáticamente. Es posible que desee reorganizar los nombres de las secciones de diario periódicamente. Para ello, debe eliminar las secciones de diario que ya no son necesarias. Las líneas de diario de dichas secciones también se eliminan.  
 
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diarios Intrastat** y, a continuación, seleccione el vínculo relacionado.  
@@ -115,6 +115,4 @@ Dado que debe presentar un informe Intrastat cada mes y crear una nueva sección
 
 ## <a name="see-also"></a>Consulte también
 [Gestión financiera](finance.md)
-
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
 

@@ -12,20 +12,20 @@ ms.workload: na
 ms.date: 07/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b573bb55c29de329e5d9a804b49a91687dc369ff
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2aac957fc253f6c7d2f621ea2e5e039733081a19
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="working-with-general-journals"></a>Trabajar con diarios generales
 La mayoría de las transacciones financieras se registran en la contabilidad a través de documentos empresariales dedicados, como facturas de compra y pedidos de ventas. Para las actividades empresariales que no está representadas por un documento en [!INCLUDE[d365fin](includes/d365fin_md.md)], como los gastos o recibos de efectivo más pequeños, puede crear las transacciones relacionadas registrando líneas de diario en la ventana **Diario general**. Para obtener más información, consulte [Registrar transacciones directamente en la contabilidad](finance-how-post-transactions-directly.md).
 
-Por ejemplo, puede registrar el cargo de los empleados de propio dinero de gastos relacionados con el mercado, para su reembolso posterior. Para obtener más información, vea [Procedimiento: registro y reembolso de los costes de los empleados](finance-how-record-reimburse-employee-expenses.md).
+Por ejemplo, puede registrar el cargo de los empleados de propio dinero de gastos relacionados con el mercado, para su reembolso posterior. Para obtener más información, consulte [Registro y reembolso de los costes de los empleados](finance-how-record-reimburse-employee-expenses.md).
 
 Puede usar diarios generales para registrar transacciones financieras directamente en cuentas generales y otras cuentas, como cuentas bancarias, de cliente, proveedor y empleado. Registrar con un diario general siempre crea movimientos en cuentas contables. Esto es así incluso si, por ejemplo, una línea del diario se registra en una cuenta de cliente, pues un movimiento se registra en una cuenta de cobros de contabilidad a través de un grupo de registro.
 
-La información que introduzca en un diario es temporal y se puede modificar mientras se encuentre en el diario. Al registrar el diario, la información se transfiere a movimientos en cuentas individuales, donde no se puede modificar. Sin embargo, puede desliquidar los movimientos registrados y puede registrar movimientos de inversión o correctores. Para obtener más información, consulte [Procedimiento: revertir registros](finance-how-reverse-journal-posting.md).
+La información que introduzca en un diario es temporal y se puede modificar mientras se encuentre en el diario. Al registrar el diario, la información se transfiere a movimientos en cuentas individuales, donde no se puede modificar. Sin embargo, puede desliquidar los movimientos registrados y puede registrar movimientos de inversión o correctores. Para obtener más información, consulte [Revertir registros](finance-how-reverse-journal-posting.md).
 
 ## <a name="using-journal-templates-and-batches"></a>Usar plantillas y secciones de diario
 Existen varias plantillas de diario general. Cada plantilla de diario se representa mediante una ventana específica con funciones particulares y los campos que se requieren para admitir estas funciones, como la ventana **Diario de conciliación de pagos** para procesar pagos bancarios y la ventana **Diario de pagos** para pagar a sus proveedores o reembolsar a sus empleados. Para obtener más información, consulte [Realizar pagos](payables-make-payments.md) y [Conciliar pagos de cliente manualmente](receivables-how-apply-sales-transactions-manually.md).
@@ -106,9 +106,9 @@ El procedimiento siguiente se basa en la ventana **Diario general**, pero se apl
 Cuando sea necesario, los valores del campo **Nº documento** se cambian para que el número de documento en las líneas de diario individuales o agrupadas estén en orden secuencial. Después de que se vuelven a numerar documentos, podrá registrar el diario.
 
 ## <a name="see-also"></a>Consulte también
-[Procedimiento: registrar transacciones directamente en la contabilidad](finance-how-post-transactions-directly.md)  
-[Procedimiento: Revertir registros](finance-how-reverse-journal-posting.md)  
-[Procedimiento: asignar costes e ingresos.](year-allocate-costs-income.md)  
+[Registrar transacciones directamente en la contabilidad](finance-how-post-transactions-directly.md)  
+[Revertir registros](finance-how-reverse-journal-posting.md)  
+[Asignar costes e ingresos](year-allocate-costs-income.md)  
 [Finanzas](finance.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

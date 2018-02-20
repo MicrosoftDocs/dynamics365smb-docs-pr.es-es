@@ -1,6 +1,6 @@
 ---
 title: Actividades opcionales para periodos de cierre | Documentos de Microsoft
-description: En este tema se describen los procesos y las actividades opcionales para cerrar periodos contables en Dynamics 365.
+description: En este tema se describen los procesos y las actividades opcionales para cerrar periodos contables en Finance and Operations, Business edition.
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,19 +13,19 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ag
 ms.date: 06/19/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 526ae1811768f38b04f961e378454fed79a8426b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 344e294083813d41b415ad07e6e8acdd3fe5047b
 ms.contentlocale: es-es
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="overview-of-tasks-to-close-accounting-periods"></a>Resumen de tareas para cerrar periodos contables
-[!INCLUDE[d365fin](includes/d365fin_md.md)] no le fuerza a cerrar los períodos, pero numerosas actividades de fin de período (fin de mes) que puede realizar. Este tema proporciona una visión general de procesos y actividades opcionales para cerrar períodos.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  no le fuerza a cerrar los períodos, pero numerosas actividades de fin de período (fin de mes) que puede realizar. Este tema proporciona una visión general de procesos y actividades opcionales para cerrar períodos.  
 
 ## <a name="general-ledger"></a>Contabilidad
 * Especifique períodos de registro para todo el sistema y específicos para el usuario.  
 
-    Esto especifica las fechas entre las cuales puede efectuar registros. En función de su empresa, puede permitir el registro al inicio del periodo o hacia el final. Para obtener más información, vea [Procedimiento: Especificar periodos de registro](finance-how-specify-posting-periods.md).  
+    Esto especifica las fechas entre las cuales puede efectuar registros. En función de su empresa, puede permitir el registro al inicio del periodo o hacia el final. Para obtener más información, vea [Especificar periodos de registro](finance-how-specify-posting-periods.md).  
 * Lleve a cabo todos los ajustes de contabilidad necesarios.  
 * Actualice y registre los Diarios periódicos.  
   <!--* Process Consolidations-->

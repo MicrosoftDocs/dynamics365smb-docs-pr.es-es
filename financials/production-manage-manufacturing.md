@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: e27ceb91b25669a31d95256385cb7e5acd9160bd
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 8fa54f5a4c5d2341485c0ebd290c7c683d37df9b
 ms.contentlocale: es-es
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="manufacturing"></a>Fabricación
@@ -33,14 +33,14 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |**Para**|**Vea**|  
 |------------|-------------|  
 |Conocer cómo funcionan las órdenes de producción.|[Sobre los pedidos de producción](production-about-production-orders.md)|
-|Crear órdenes de producción de forma manual.|[Cómo crear órdenes de producción](production-how-to-create-production-orders.md)|
-|Externalice todas o las operaciones seleccionadas en una orden de producción a un subcontratista.|[Procedimiento: Subcontratación de fabricación](production-how-to-subcontract-manufacturing.md)|
-|Registrar y contabilizar la salida de la producción, junto con el consumo de tiempo y material, para una única línea de orden de producción lanzada.|[Cómo registrar el consumo y la salida de una línea de orden de producción lanzada](production-how-to-register-consumption-and-output.md)|  
-|Registre por lotes el número de componentes utilizados por operación en un diario que pueda procesar múltiples órdenes de producción planificadas.|[Cómo registrar consumibles por lotes](production-how-to-post-consumption.md)|
-|Registre el número de productos terminados y el tiempo empleado por operación en un diario que pueda procesar múltiples órdenes de producción lanzadas.|[Procedimiento: Registrar por lotes la salida y los tiempos de ejecución](production-how-to-post-output-quantity.md)|  
-|Contabilizar el número de artículos producido en cada operación terminada que no se cualifican como salida terminada, sino como material rechazado.|[Cómo registrar el material de rechazo:](production-how-to-post-scrap.md)|
-|Ver la carga de planta como resultado de órdenes de producción planificadas y lanzadas.|[Cómo visualizar la carga en centros de trabajo y de máquina](production-how-to-view-the-load-on-work-centers.md)|      
-|Utilizar la ventana **Diario de capacidad** para registrar capacidades consumidas que no están asignadas a una orden de producción, como el trabajo de mantenimiento.|[Registro de capacidades](production-how-to-post-capacities.md)|  
+|Crear órdenes de producción de forma manual.|[Crear ordenes de producción](production-how-to-create-production-orders.md)|
+|Externalice todas o las operaciones seleccionadas en una orden de producción a un subcontratista.|[Subcontratación de fabricación](production-how-to-subcontract-manufacturing.md)|
+|Registrar y contabilizar la salida de la producción, junto con el consumo de tiempo y material, para una única línea de orden de producción lanzada.|[Registrar el consumo y la salida de una línea de orden de producción lanzada](production-how-to-register-consumption-and-output.md)|  
+|Registre por lotes el número de componentes utilizados por operación en un diario que pueda procesar múltiples órdenes de producción planificadas.|[Registre consumibles por lotes](production-how-to-post-consumption.md)|
+|Registre el número de productos terminados y el tiempo empleado por operación en un diario que pueda procesar múltiples órdenes de producción lanzadas.|[Registrar por lotes el resultado y los tiempos de ejecución](production-how-to-post-output-quantity.md)|  
+|Contabilizar el número de artículos producido en cada operación terminada que no se cualifican como salida terminada, sino como material rechazado.|[Registrar material de rechazo](production-how-to-post-scrap.md)|
+|Ver la carga de planta como resultado de órdenes de producción planificadas y lanzadas.|[Visualizar la carga en centros de trabajo y de máquina](production-how-to-view-the-load-on-work-centers.md)|      
+|Utilizar la ventana **Diario de capacidad** para registrar capacidades consumidas que no están asignadas a una orden de producción, como el trabajo de mantenimiento.|[Registrar capacidades](production-how-to-post-capacities.md)|  
 |Calcular y ajustar el coste de artículos de producción terminados y componentes consumidos para la reconciliación financiera.|[Sobre los costes de la orden de producción terminada](finance-about-finished-production-order-costs.md)|  
 
 ## <a name="see-also"></a>Consulte también  
@@ -49,4 +49,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

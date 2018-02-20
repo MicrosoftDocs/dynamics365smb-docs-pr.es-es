@@ -1,6 +1,6 @@
 ---
 title: "Detalles de diseño: Búsqueda de combinaciones de dimensiones | Documentos de Microsoft"
-description: "Cuando se cierra una ventana después de editar un grupo de dimensiones, Dynamics 365 evalúa si existe el grupo de dimensiones editado. Si no existe el grupo, se crea uno nuevo y se devuelve el identificador de la combinación de dimensiones."
+description: "Cuando se cierra una ventana después de editar un grupo de dimensiones, Finance and Operations, Business edition evalúa si existe el grupo de dimensiones editado. Si no existe el grupo, se crea uno nuevo y se devuelve el identificador de la combinación de dimensiones."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 64e5191fd2947a8e19595d8c9f1ece4eeff77ec0
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 821ddebee02d1ea922c0c13a181ae0e29e4eb40e
 ms.contentlocale: es-es
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="design-details-searching-for-dimension-combinations"></a>Detalles de diseño: Búsqueda de combinaciones de dimensiones

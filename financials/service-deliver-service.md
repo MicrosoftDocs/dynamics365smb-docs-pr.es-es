@@ -13,14 +13,14 @@ ms.search.keywords: service, service items, respond, response
 ms.date: 08/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9c60f65b65c7037b4ce26212cfe80e7b7f1b1336
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 34283487641e7b249b556cec834531582c58af7a
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="delivering-service"></a>Prestación del servicio
-[!INCLUDE[d365fin](includes/d365fin_md.md)] proporciona funciones que le ayudarán a prestar servicio según los contratos que haya creado y los pedidos de servicio que se haya comprometido a cumplir. Sus técnicos de servicio o distribuidor encontrarán con facilidad los pedidos de servicio pendientes utilizando el **Panel despacho**. De un vistazo, el **Panel despacho** muestra qué pedidos están en curso y cuáles han finalizado.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  proporciona funciones que le ayudarán a prestar servicio según los contratos que haya creado y los pedidos de servicio que se haya comprometido a cumplir. Sus técnicos de servicio o distribuidor encontrarán con facilidad los pedidos de servicio pendientes utilizando el **Panel despacho**. De un vistazo, el **Panel despacho** muestra qué pedidos están en curso y cuáles han finalizado.  
   
 Otro modo de revisar pedidos de servicio pendientes es usar la ventana **Tareas de servicio**. En esta visión de sus obligaciones de servicio, puede ver en qué parte de su flujo de trabajo de servicios se encuentra un pedido y cambiar el estado para reflejar interacciones con su cliente.  
   
@@ -34,12 +34,12 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
   
 |**Para**|**Vea**|  
 |------------|-------------|  
-|Crear ofertas que sean borradores de órdenes de servicio y, a continuación, conviértalas en órdenes de servicio.|[Cómo crear ofertas de servicio](service-how-to-create-service-quotes.md)|
-|Crear los documentos que contienen información acerca de un servicio, como reparaciones y mantenimiento, en productos de servicio.|[Cómo crear pedidos de servicio](service-how-to-create-service-orders.md)|
+|Crear ofertas que sean borradores de órdenes de servicio y, a continuación, conviértalas en órdenes de servicio.|[Crear ofertas de servicio](service-how-to-create-service-quotes.md)|
+|Crear los documentos que contienen información acerca de un servicio, como reparaciones y mantenimiento, en productos de servicio.|[Crear pedidos de servicio](service-how-to-create-service-orders.md)|
 |Planificar la prestación de servicios con el **Panel despacho**. También puede usar herramientas de gestión de proyectos del departamento de Proyectos para ayudar en la planificación.|[Asignar recursos](service-how-to-allocate-resources.md)|  
-|Prestar servicio a clientes realizando tareas de servicio.|[Cómo trabajar en tareas de servicio](service-how-to-work-on-service-tasks.md)|  
-|Registrar pedidos de servicios para servicios, de modo que tenga actualizada la contabilidad.|[Cómo registrar abonos y órdenes de servicio](service-how-to-post-service-orders.md)|  
-|Crear y registrar facturas para servicios entregados.|[Cómo crear una factura de servicio o abono de servicio.](service-how-create-invoices.md)|  
+|Prestar servicio a clientes realizando tareas de servicio.|[Trabajar en tareas de servicio](service-how-to-work-on-service-tasks.md)|  
+|Registrar pedidos de servicios para servicios, de modo que tenga actualizada la contabilidad.|[Registrar abonos y órdenes de servicio](service-how-to-post-service-orders.md)|  
+|Crear y registrar facturas para servicios entregados.|[Crear facturas o abonos de servicios](service-how-create-invoices.md)|  
 |Mantener a los clientes contentos prestándoles un producto mientras trabaja en el suyo.| [Prestar y recibir productos de préstamo](service-how-to-lend-receive-loaners.md)|
   
 ## <a name="see-also"></a>Consulte también  

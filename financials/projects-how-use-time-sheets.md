@@ -10,26 +10,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
-ms.date: 06/06/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 9d67198e172b82c20c9d998854a819e39ae523ff
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 545b06fac95994229ec0442c7aacb57cc56001ff
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-use-time-sheets-for-jobs"></a>Uso de hojas de horas para proyectos
+# <a name="use-time-sheets-for-jobs"></a>Uso de hojas de horas para proyectos
 El proceso **Crear hojas de horas** se usa para configurar hojas de horas de un número determinado de periodos o semanas. Debe disponer de permisos para poder crear las hojas de horas.
 
 Puede copiar y usar sus líneas de planificación de proyecto en una hoja de horas. De esa forma, solo debe especificar la información en un lugar para que la información de la línea siempre sea correcta.
 
 Una vez aprobados los movimientos de la hoja de horas de un proyecto, puede registrarlos en el diario de proyectos o de recursos correspondiente.
 
-Para poder utilizar las hojas de horas, debe configurar la información general y especificar un administrador y uno o varios aprobadores de hojas de horas. Para obtener más información, vea [Configuración de hojas de horas](projects-how-setup-time-sheets.md).
-
-> [!NOTE]  
->   Esta funcionalidad requiere que la experiencia esté definida en **Suite**. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
+Para poder utilizar las hojas de horas, debe configurar la información general y especificar un administrador y uno o varios aprobadores de hojas de horas. Para obtener más información, consulte [Configurar hojas de horas](projects-how-setup-time-sheets.md).
 
 ## <a name="to-create-a-time-sheet"></a>Para crear una hoja de horas
 Puede usar el proceso **Crear hojas de horas** para configurar hojas de horas de un número determinado de periodos o semanas. Después, el propietario de la hoja de horas puede abrirla y registrar el tiempo dedicado en una tarea.
@@ -96,7 +93,7 @@ El registro de la hoja de horas se hace en horas, la unidad de medida base está
 Una hoja de horas debe haberse enviado para su aprobación para que se pueda usar. Puede aprobar y rechazar las líneas individuales en una hoja de horas o enviarlas de nuevo al emisor para una acción adicional. Una hoja de horas se puede aprobar de dos maneras:
 
 * Un administrador de la hoja de horas puede aprobar en cualquier momento la hoja.
-* La persona que se especifica en el campo **Id. usuario aprob. hoja horas** en una ficha de recurso puede aprobar las hojas de horas de ese recurso. Para obtener más información, vea [Configuración de hojas de horas](projects-how-setup-time-sheets.md).
+* La persona que se especifica en el campo **Id. usuario aprob. hoja horas** en una ficha de recurso puede aprobar las hojas de horas de ese recurso. Para obtener más información, consulte [Configurar hojas de horas](projects-how-setup-time-sheets.md).
 
 1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Hojas de horas del administrador** y, a continuación, seleccione el vínculo relacionado.
 2. Seleccione una hoja de horas de la lista.  

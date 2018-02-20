@@ -1,6 +1,6 @@
 ---
-title: Facturar las reservas en Dynamics 365 | Documentos de Microsoft
-description: "Obtenga información sobre cómo realizar la facturación masiva desde Microsoft Bookings en Dynamics 365 Business edition."
+title: Facturar las reservas en Finance and Operations, Business edition | Documentos de Microsoft
+description: "Obtenga información sobre cómo realizar la facturación masiva desde Microsoft Bookings en Finance and Operations, Business edition."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords: invoicing, bookings
 ms.date: 06/14/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 154a4719cdd0e28280c5b0a5de85479beb0b9262
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d387bbbf59550a6ca11dff534b76683a07808ca4
 ms.contentlocale: es-es
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="bulk-invoicing-for-microsoft-bookings-in-included365finincludesd365finmdmd"></a>Facturación masiva para Microsoft Bookings en [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -28,11 +28,11 @@ Por ejemplo, si desea sincronizar clientes entre Bookings y [!INCLUDE[d365fin](i
 ## <a name="invoice-appointments"></a>Citas de factura
 Cuando sea el momento enviar facturas de las reservas completadas, vaya a la página **Bookings sin facturar**. Dependiendo de la frecuencia con que se sincroniza la información, la lista es larga o corta. Puede crear facturas para todas las reservas de la lista o una reserva cada vez. Puede seleccionar una o varias entradas de la lista y facturar solo esas.  
 
-La compatibilidad para facturar citas desde Bookings es más simple que el flujo de trabajo completo para trabajar con ofertas de ventas, pedidos de ventas y facturas de ventas. Para obtener más información, vea [Procedimiento: Facturar ventas](sales-how-invoice-sales.md). Puede elegir vender sus servicios utilizando [!INCLUDE[d365fin](includes/d365fin_md.md)] o elegir usar Bookings, en función de sus necesidades empresariales.  
+La compatibilidad para facturar citas desde Bookings es más simple que el flujo de trabajo completo para trabajar con ofertas de ventas, pedidos de ventas y facturas de ventas. Para obtener más información, vea [Facturar ventas](sales-how-invoice-sales.md). Puede elegir vender sus servicios utilizando [!INCLUDE[d365fin](includes/d365fin_md.md)] o elegir usar Bookings, en función de sus necesidades empresariales.  
 
 ## <a name="see-also"></a>Consulte también
 [Finanzas](finance.md)  
-[Facturación de ventas](sales-how-invoice-sales.md)  
+[Facturar ventas](sales-how-invoice-sales.md)  
 [Configuración de ventas](sales-setup-sales.md)  
 [Microsoft Bookings](https://products.office.com/en-us/business/scheduling-and-booking-app)  
 

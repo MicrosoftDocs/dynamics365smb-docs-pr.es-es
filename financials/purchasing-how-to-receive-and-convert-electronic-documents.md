@@ -11,20 +11,20 @@ ms.search.keywords:
 ms.date: 11/17/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 8ae02f7a55f822751ae66b5b62013455aac87e48
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1e2f5142eb21d346b17b7d541191df553086b30f
 ms.contentlocale: es-es
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-receive-and-convert-electronic-documents"></a>Procedimiento: recibir y convertir documentos electrónicos
+# <a name="receive-and-convert-electronic-documents"></a>Recibir y convertir documentos electrónicos
 La versión genérica de [!INCLUDE[d365fin](includes/d365fin_md.md)] admite la recepción de facturas electrónicas y abonos en formato PEPPOL, admitido por los proveedores de servicios de intercambio de documentos más importantes. Para recibir una factura de un proveedor como un documento electrónico PEPPOL, debe procesarse el documento en la ventana Documentos entrantes para luego convertirlo en una factura de compra o en una línea de diario general en [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
  Además de recibir documentos electrónicos directamente de los socios comerciales, puede recibir documentos electrónicos de un servicio OCR que haya convertido sus archivos PDF o de imagen en documentos electrónicos.  
 
- Antes de que pueda recibir documentos electrónicos a través del servicio de intercambio de documentos, debe configurar los distintos datos maestros, como la información de empresa, proveedores, artículos y unidades de medida. Se utilizan para identificar a los socios comerciales y los productos al convertir los datos de elementos del archivo de documento entrante en campos de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, vea [Procedimiento: Configurar un servicio de intercambio de documentos](across-how-to-set-up-a-document-exchange-service.md).  
+ Antes de que pueda recibir documentos electrónicos a través del servicio de intercambio de documentos, debe configurar los distintos datos maestros, como la información de empresa, proveedores, artículos y unidades de medida. Se utilizan para identificar a los socios comerciales y los productos al convertir los datos de elementos del archivo de documento entrante en campos de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, vea [Configurar un servicio de intercambio de documentos](across-how-to-set-up-a-document-exchange-service.md).  
 
- Antes de que pueda recibir documentos electrónicos a través del servicio OCR, debe configurar y habilitar la conexión de servicio preconfigurada. Para obtener más información, vea [Procedimiento: Configurar documentos entrantes](across-how-setup-income-documents.md).  
+ Antes de que pueda recibir documentos electrónicos a través del servicio OCR, debe configurar y habilitar la conexión de servicio preconfigurada. Para obtener más información, vea [Configurar documentos entrantes](across-how-setup-income-documents.md).  
 
  El tráfico de documentos electrónicos hacia y desde [!INCLUDE[d365fin](includes/d365fin_md.md)] lo administra la característica Cola proyecto. Antes de que pueda recibir documentos electrónicos, debe iniciarse la cola de proyectos correspondiente.  
 
@@ -45,7 +45,7 @@ La versión genérica de [!INCLUDE[d365fin](includes/d365fin_md.md)] admite la r
 
 2.  Seleccione la línea del registro del documento entrante que representa una factura electrónica entrante nueva y, en la pestaña **Inicio**, en el grupo **Administrar**, elija **Editar**.  
 
-     En la ventana **Ficha de documento entrante**, está adjunto el archivo XML relacionado, y la mayor parte de los campos se prellenan con la información de la factura electrónica. Para obtener más información, vea [Procedimiento: Crear registros de documentos entrantes](across-how-create-income-document-records.md).  
+     En la ventana **Ficha de documento entrante**, está adjunto el archivo XML relacionado, y la mayor parte de los campos se prellenan con la información de la factura electrónica. Para obtener más información, vea [Crear registros de documentos entrantes](across-how-create-income-document-records.md).  
 
 3.  En el campo **Tipo de intercambio de datos**, seleccione **PEPPOL - Factura** o **OCR - Factura** según el origen del documento electrónico.  
 
@@ -60,7 +60,7 @@ La versión genérica de [!INCLUDE[d365fin](includes/d365fin_md.md)] admite la r
 ## <a name="see-also"></a>Consulte también  
 [Administrar pagos](payables-manage-payables.md)  
 [Documentos entrantes](across-income-documents.md)  
-[Procedimiento: Configurar el envío y la recepción de documentos electrónicos](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
+[Configurar el envío y la recepción de documentos electrónicos](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
 [Intercambio de datos electrónicamente](across-data-exchange.md)   
 [Funciones empresariales generales](ui-across-business-areas.md)  
 

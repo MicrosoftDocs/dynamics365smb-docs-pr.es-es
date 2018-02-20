@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 38361c04f4ede35afd20e1fe84128fcdbfe104d0
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5c64734d9bb5cced1dbe9cb9c98385004885fa67
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-move-items-ad-hoc-in-basic-warehouse-configurations"></a>Mover productos ad hoc en configuraciones básicas de almacén
+# <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Mover productos ad hoc en configuraciones básicas de almacén
 Puede que necesite de vez en cuando mover los artículos entre las ubicaciones internas, no recibir o enviar ubicaciones, sin una demanda determinada desde un documento de origen. Puede realizar estos movimientos ad hoc, por ejemplo, para reorganizar el almacén, para llevar los artículos a un área de inspección o para mover más artículos a o desde un área de producción sin una relación de sistema con el documento de origen de la orden de producción.  
 
 En configuraciones de almacén básico, es decir en ubicaciones que utilizan el campo de instalación **Ubicac. obligatoria** y posiblemente los campos de configuración **Picking requerido** y **Ubicación requerida**, puede registrar los movimientos ad hoc sin los documentos de origen de las siguientes formas:  
@@ -59,7 +59,7 @@ En configuraciones de almacén básico, es decir en ubicaciones que utilizan el 
     Ejecute el resto del movimiento ad hoc en la ventana **Movimiento inventario** de la misma forma que lo haría en un movimiento basado en los documentos de origen. Para obtener más información, consulte, por ejemplo, [Mover componentes a un área de operaciones en las configuraciones básicas de almacén](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  
 
 ## <a name="to-move-items-with-the-item-reclassification-journal"></a>Para mover productos con el diario de reclasificación de productos:
-En lugar de utilizar documentos de movimiento de almacén, puede registrar el movimiento de productos reclasificando sus códigos de ubicación. Para obtener más información, consulte [Procedimiento: Recuento, ajuste, y reclasificación de inventario](inventory-how-count-adjust-reclassify.md).   
+En lugar de utilizar documentos de movimiento de almacén, puede registrar el movimiento de productos reclasificando sus códigos de ubicación. Para obtener más información, consulte [Recuento, ajuste, y reclasificación de inventario](inventory-how-count-adjust-reclassify.md).   
 1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diario reclas. producto** y, a continuación, seleccione el vínculo relacionado.  
 2.  En cada línea del diario, defina las ubicaciones de las que y a las que desea mover los artículos rellenando los campos **Cód. ubicación** y **Nueva ubicación**.  
 

@@ -11,15 +11,15 @@ ms.search.keywords: sandbox, demo, develop
 ms.date: 08/18/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d7bcb866d5f69e77e5a175d0b73e8ac03cf09d98
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b3ee160e2c38107aea1342b51d729aa172bbbc3e
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
 
-# <a name="how-to-create-a-sandbox-environment"></a>Crear un entorno aislado
+# <a name="create-a-sandbox-environment"></a>Crear un entorno aislado
 Un entorno aislado (vista preliminar) es una instancia de no producción de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Aislado de la producción, un entorno aislado es el lugar para explorar, aprender, demostrar, desarrollar y probar el servicio de forma segura sin el riesgo de afectar los datos y la configuración de su entorno de producción.
 
 ## <a name="to-create-a-sandbox-environment"></a>Para crear un entorno aislado
@@ -44,7 +44,7 @@ En el entorno aislado, se ha creado un nuevo suscriptor. Este suscriptor se carg
 > [!NOTE]  
 >  Al restablecer el entorno aislado se eliminará completamente y, a continuación, se creará de nuevo con los datos de demostración predeterminados.  
 
-8.  Para cambiar entre los entornos de producción y aislado, puede utilizar el lanzador de aplicaciones de Dynamics 365.
+8.  Para cambiar entre los entornos de producción y aislado, puede utilizar el lanzador de aplicaciones de Finance and Operations, Business edition.
 ![Menú del espacio aislado de Dynamics365](./media/across-sandbox/sandbox-dynamics365-menu.png)
 
 9.  Es posible que un administrador u otro usuario limite o incluso bloquee el acceso de algunos usuarios al entorno aislado. Esto se puede hacer mediante las características de seguridad estándar del producto, como la tarjeta de usuario, los grupos de usuarios y los conjuntos de permisos.

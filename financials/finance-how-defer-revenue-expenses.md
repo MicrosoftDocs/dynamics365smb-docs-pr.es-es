@@ -10,22 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.date: 06/16/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 40db0f3018bcf9575f80aa858bd9febd7bf0846a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7b7b4ce9d2f464d6e2793a21fa5b321846ba9498
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-defer-revenues-and-expenses"></a>Procedimiento: fraccionar ingresos y gastos
+# <a name="defer-revenues-and-expenses"></a>Fraccionar ingresos y gastos
 Para reconocer un ingreso o un gasto en un periodo distinto del periodo en el que se registró la transacción, puede usar la funcionalidad para fraccionar automáticamente ingresos y gastos según una previsión especificada.
 
 Para distribuir los ingresos o los gastos de los periodos contables relacionados, debe configurar una plantilla de fraccionamiento para el recurso, el producto o la cuenta de contabilidad para el que se registrará el ingreso o el gasto. Cuando registre el documento de venta o de compra relacionado, los ingresos o los gastos se fraccionan en los periodos contables relacionados, según la previsión de fraccionamiento que controle la configuración de la plantilla de fraccionamiento y la fecha de registro.
-
-> [!NOTE]  
->   Esta funcionalidad requiere que la experiencia esté definida en **Suite**. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
 
 ## <a name="to-set-up-a-gl-account-for-deferral"></a>Para configurar una cuenta de contabilidad para el fraccionamiento
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Plan de cuentas** y, a continuación, seleccione el vínculo relacionado.
@@ -66,7 +63,7 @@ Ejemplo: la fecha de registro es 06/02/2016. Si introduce "Gastos fraccionados p
 >   Los pasos de este procedimiento son los mismos que al cambiar una previsión de fraccionamiento, para gastos, de una factura de compra.
 
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Facturas venta** y, a continuación, seleccione el vínculo relacionado.
-2. Cree una factura de ventas para un producto que tenga asignada una plantilla de fraccionamiento. Para obtener más información, vea [Procedimiento: Facturar ventas](sales-how-invoice-sales.md).
+2. Cree una factura de ventas para un producto que tenga asignada una plantilla de fraccionamiento. Para obtener más información, vea [Facturar ventas](sales-how-invoice-sales.md).
 
     Observe que tan pronto como se introduce el producto (recurso o cuenta de contabilidad) de la línea de factura, el campo **Código de fraccionamiento** se rellena con el código de la plantilla de fraccionamiento asignada.
 3. Elija la acción **Previsión fraccionamiento**.

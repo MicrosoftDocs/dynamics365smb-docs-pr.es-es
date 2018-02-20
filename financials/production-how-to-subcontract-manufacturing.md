@@ -11,13 +11,13 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6f8094545431468bd12e231364987e70bda429bb
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2796da1b41569c8c950dc844fc31eaf4f0179efa
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-subcontract-manufacturing"></a>Procedimiento: Subcontratación de fabricación
+# <a name="subcontract-manufacturing"></a>Subcontratación de fabricación
 La subcontratación de operaciones seleccionadas al proveedor es común de muchas empresas de fabricación. La subcontratación puede ser esporádica o puede formar parte integrante de todos los procesos de producción.
 
 El programa ofrece varias herramientas para gestionar el trabajo subcontratado:  
@@ -41,12 +41,12 @@ Los centros de trabajo subcontratados se pueden usar para las operaciones de las
 
 Puede configurar una ruta que use un centro de trabajo externo como paso operativo estándar. Si lo prefiere, puede modificar la ruta de una orden de producción concreta para que incluya una operación externa. Ello podría ser necesario en una situación de urgencia, por ejemplo en el caso de que una máquina no funcione correctamente, o durante una temporada de mayor demanda, en que el trabajo que normalmente se realiza en la empresa se tiene que enviar a un subcontratista.  
 
-Para obtener más información, consulte [Creación de conexiones de ruta](production-how-to-create-routings.md).  
+Para obtener más información, consulte [Crear rutas](production-how-to-create-routings.md).  
 
 ## <a name="subcontracting-worksheet"></a>Hoja subcontratación  
 Una vez que ha calculado la hoja de subcontratación, se crea el documento correspondiente, en este caso un pedido de compra.  
 
-# <a name="how-to-calculate-subcontracting-worksheets-and-create-subcontract-purchase-orders"></a>Procedimiento: Calcule las hojas de cálculo de la subcontratación y cree los pedidos de compra de subcontratación
+# <a name="calculate-subcontracting-worksheets-and-create-subcontract-purchase-orders"></a>Calcular las hojas de cálculo de la subcontratación y cree los pedidos de compra de subcontratación
 Las funciones de ventana de **Hoja subcontratación** como **Hoja planificación** calculando el suministro necesario, en este caso los pedidos de compra, que se revisa en la hoja de cálculo y después crea con la función de **Ejecutar mensajes acción**.  
 
 > [!NOTE]  

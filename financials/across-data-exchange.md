@@ -1,6 +1,6 @@
 ---
-title: "Documentos electrónicos en Dynamics 365 Business edition | Documentos de Microsoft"
-description: "Introducción al envío y la recepción de documentos electrónicos en Microsoft Dynamics 365."
+title: "Documentos electrónicos en Finance and Operations, Business edition | Documentos de Microsoft"
+description: "Introducción a enviar y recibir documentos electrónicos en Finance and Operations, Business edition."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/19/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: dca451d2555641dc1c1fc134b19380b3ede2690b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2ebc2e716080bde51646cb136dca904e6fd43c43
 ms.contentlocale: es-es
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
@@ -58,7 +58,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 
 ## <a name="see-also"></a>Consulte también  
 [Acerca del marco de intercambio de datos](across-about-the-data-exchange-framework.md)  
-[Procedimiento: Uso de esquemas XML para preparar definiciones de intercambio de datos](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
+[Uso de esquemas XML para preparar definiciones de intercambio de datos](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Configuración del intercambio de datos](across-set-up-data-exchange.md)  
 [Intercambio de datos](across-exchange-data.md)  
 [Documentos entrantes](across-income-documents.md)  

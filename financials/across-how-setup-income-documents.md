@@ -13,13 +13,13 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 9a07389bf676468ea17516f8b00b8b1a235dc853
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ad534c9d60bbf3805f701eec6295084f6121a6d0
 ms.contentlocale: es-es
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-incoming-documents"></a>Procedimiento: Configurar documentos entrantes
+# <a name="set-up-incoming-documents"></a>Configurar documentos entrantes
 Si crea líneas de diario general desde registros de documentos entrantes, debe especificar en la ventana **Configuración de documentos entrantes** qué proceso y plantilla de diario quiere usar.
 
 Si no desea que los usuarios creen facturas o líneas de diario general de los registros de documento entrante a menos que los documentos se aprueben primero, debe configurar a los aprobadores en la ventana **Aprobadores de documentos entrantes**.
@@ -42,7 +42,7 @@ Al configurar la función Documentos entrantes, puede usar distintas funciones p
 Cuando se hayan configurado los aprobadores en la ventana **Aprobadores de documentos entrantes**, solo estos usuarios pueden aprobar un documento entrante si la casilla **Requerir aprobación para crear** de la ventana **Configuración de documentos entrantes** está marcada.
 
 > [!NOTE]  
->   Esta configuración de aprobación no está relacionada con flujos de trabajo de aprobación. Para obtener más información, consulte [Procedimiento: Usar flujos de trabajo de aprobación](across-how-use-approval-workflows.md).
+>   Esta configuración de aprobación no está relacionada con flujos de trabajo de aprobación. Para obtener más información, vea [Usar flujos de trabajo de aprobación](across-how-use-approval-workflows.md).
 
 ## <a name="to-set-up-an-ocr-service"></a>Para configurar un servicio de OCR
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Configuración del servicio OCR** y, a continuación, seleccione el vínculo relacionado.
@@ -58,5 +58,5 @@ Se recomienda usar esta función para proteger la información de inicio de sesi
 [Procesar documentos entrantes](across-process-income-documents.md)  
 [Documentos entrantes](across-income-documents.md)  
 [Compras](purchasing-manage-purchasing.md)  
-[Trabajar con [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

@@ -12,19 +12,19 @@ ms.search.keywords: rfq
 ms.date: 08/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: df1793d811dea11c01ff5e7d90a9f52b9e987c13
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3fe5eca9c26380248471facbd945838b1bf47a1d
 ms.contentlocale: es-es
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-request-quotes"></a>Procedimiento: Peticiones de oferta
+# <a name="request-quotes"></a>Solicitar presupuestos
 Las ofertas de compra pueden utilizarse como borradores de pedidos de compra, que luego se pueden convertir en facturas de compra o en pedidos.
 
 
 ## <a name="to-create-a-purchase-quote"></a>Para crear una oferta de compra
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Ofertas compra** y, a continuación, seleccione el vínculo relacionado.
-2. Crear un documento nuevo, de la misma forma que hace un pedido de compra. Para obtener más información, consulte [Procedimiento: Registrar compras](purchasing-how-record-purchases.md).
+2. Crear un documento nuevo, de la misma forma que hace un pedido de compra. Para obtener más información, consulte [Registrar compras](purchasing-how-record-purchases.md).
 
 ## <a name="to-convert-a-purchase-quote-to-a-purchase-order"></a>Para convertir una oferta de compra en un pedido de compra
 Cuando haya aceptado la oferta del proveedor, puede convertirla en una factura o una orden de compra para procesar la compra.
@@ -36,6 +36,6 @@ La oferta de compra se quita de la base de datos. Se crea una factura o un pedid
 ## <a name="see-also"></a>Consulte también
 [Compras](purchasing-manage-purchasing.md)  
 [Configurar compras](purchasing-setup-purchasing.md)  
-[Enviar documentos por correo electrónico.](ui-how-send-documents-email.md)  
+[Enviar documentos por correo electrónico](ui-how-send-documents-email.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

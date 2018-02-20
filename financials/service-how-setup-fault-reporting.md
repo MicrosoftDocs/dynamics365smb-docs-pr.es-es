@@ -13,17 +13,17 @@ ms.search.keywords:
 ms.date: 08/22/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 19a377f9c4a41bee6aecc182774f884b1ead36ad
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b5ff96bf6b455a8c1817a6243cfba5864cf5aa8e
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="how-to-set-up-fault-reporting"></a>Procedimiento: creación de informes de defecto
+# <a name="set-up-fault-reporting"></a>Crear informes de defecto
 El informe de defectos le permite configurar estándares para registrar información de defectos de productos de servicio. Por ejemplo, puede especificar de qué problema se trata, los síntomas que detecta, el motivo del problema y cómo resolverlo.  
 
-Los códigos de defecto describen los típicos defectos de producto de servicio o las acciones realizadas sobre productos de servicio. Dependiendo del nivel de información de defecto de la empresa, puede que necesite configurar códigos de área de defecto y códigos de síntoma para poder registrar códigos de defecto. Las áreas de defecto describen las áreas de los defectos de productos de servicio. Los códigos de razón de defecto describen la causa de los defectos de producto de servicio y, si es necesario, si se excluyen los descuentos de garantía y de contrato. Por ejemplo, puede que desee excluir el descuento de garantía y de contrato si el cliente es el responsable del defecto en el producto de servicio. Asigne códigos de razón de defecto a pedidos de servicio. Para obtener más información, consulte [Cómo trabajar con tareas de servicio](service-how-to-work-on-service-tasks.md).  
+Los códigos de defecto describen los típicos defectos de producto de servicio o las acciones realizadas sobre productos de servicio. Dependiendo del nivel de información de defecto de la empresa, puede que necesite configurar códigos de área de defecto y códigos de síntoma para poder registrar códigos de defecto. Las áreas de defecto describen las áreas de los defectos de productos de servicio. Los códigos de razón de defecto describen la causa de los defectos de producto de servicio y, si es necesario, si se excluyen los descuentos de garantía y de contrato. Por ejemplo, puede que desee excluir el descuento de garantía y de contrato si el cliente es el responsable del defecto en el producto de servicio. Asigne códigos de razón de defecto a pedidos de servicio. Para obtener más información, consulte [Trabajar con tareas de servicio](service-how-to-work-on-service-tasks.md).  
 
 ## <a name="to-specify-the-overall-level-of-fault-reporting-to-use"></a>Para especificar el nivel total de información de defecto que se utilizará
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Configuración del servicio** y, a continuación, seleccione el vínculo relacionado. 

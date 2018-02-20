@@ -13,13 +13,13 @@ ms.search.keywords: write down
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 07e80551ca215eb4c2632faa9f534801a1813680
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e9edb717c073a3b94d925ac0cc532824a848daf6
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-depreciate-or-amortize-fixed-assets"></a>Procedimiento: Depreciar o amortizar activos fijos
+# <a name="depreciate-or-amortize-fixed-assets"></a>Depreciar o amortizar activos fijos
 La amortización se utiliza para distribuir el coste de activos, como maquinaria y equipos, a lo largo de su vida amortizable. Debe definir la amortización de cada activo.  
 
  Existen dos formas de registrar la amortización:  
@@ -27,7 +27,7 @@ La amortización se utiliza para distribuir el coste de activos, como maquinaria
 * Automática, ejecutando el proceso **Calcular amortización** .  
 * Manualmente, con el diario de activos.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] puede calcular la amortización diaria, lo que le permitirá calcular la amortización de cualquier periodo. Podrá analizar los resultados actuales de la operación de forma mensual, trimestral o anual. El cálculo utiliza un año de 360 días y un mes de 30 días estándar. Para obtener más información, consulte [Métodos de amortización](fa-depreciation-methods.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  puede calcular la amortización diaria, lo que le permitirá calcular la amortización de cualquier periodo. Podrá analizar los resultados actuales de la operación de forma mensual, trimestral o anual. El cálculo utiliza un año de 360 días y un mes de 30 días estándar. Para obtener más información, consulte [Métodos de amortización](fa-depreciation-methods.md).  
 
 Si varios departamentos usan un activo fijo, la amortización periódica se puede distribuir automáticamente en esos departamentos según una tabla de distribución definida por usuario.  
 
@@ -52,10 +52,10 @@ Una vez al mes, o cuando desee, puede ejecutar el proceso **Calcular amortizaci�
 1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), especifique **A/F Diario general** y elija el vínculo relacionado.  
 2. Cree una línea inicial de diario y rellene los campos según sea necesario.  
 3. En el campo **A/F Tipo registro**, seleccione **Amortización**.  
-4. Elija la acción **Introducir saldo AF**. Se crea una segunda línea de diario para la cuenta contrapartida que se ha configurado para el registro de amortizaciones. Para obtener más información, vea la sección "Para configurar grupos contables de activos fijos" en [Procedimiento: Configurar información general del activo fijo](fa-how-setup-general.md).  
+4. Elija la acción **Introducir saldo AF**. Se crea una segunda línea de diario para la cuenta contrapartida que se ha configurado para el registro de amortizaciones. Para obtener más información, vea la sección "Para configurar grupos contables de activos fijos" en [Configurar información general del activo fijo](fa-how-setup-general.md).  
 5. En la pestaña **Inicio**, elija **Registrar** para registrar el diario.  
 
-Si configuró las claves de distribución de activos para distribuir importes entre varios departamentos o proyectos, los importes se distribuyen durante el registro. Para obtener más información, consulte [Procedimiento: Configurar información general de activos fijos](fa-how-setup-general.md).  
+Si configuró las claves de distribución de activos para distribuir importes entre varios departamentos o proyectos, los importes se distribuyen durante el registro. Para obtener más información, consulte [Configurar información general de activos fijos](fa-how-setup-general.md).  
 
 ## <a name="to-calculate-allocations-in-the-fixed-asset-gl-journal"></a>Para calcular distribuciones en el diario general de activos
 Si se utiliza un activo en varios departamentos, la amortización se puede distribuir automáticamente en esos departamentos según una tabla de distribución definida por usuario.  

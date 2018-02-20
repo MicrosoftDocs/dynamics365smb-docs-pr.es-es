@@ -1,6 +1,6 @@
 ---
 title: Asignar permisos de usuario y crear o modifican conjuntos de permisos | Documentos de Microsoft
-description: "Describe cómo agregar usuarios de Office 365 a Dynamics 365 Business edition y asignarles permisos, derechos de acceso y opciones de seguridad."
+description: "Describe cómo agregar usuarios de Office 365 a Finance and Operations, Business edition y asignarles permisos, derechos de acceso y opciones de seguridad."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 10/16/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: f1b43879d6dafd238b593c6d17d2322943d75a89
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7f02d9718f4697e5d7eb9113d52e8d6572555b52
 ms.contentlocale: es-es
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-manage-users-and-permissions"></a>Administrar usuarios y permisos
+# <a name="manage-users-and-permissions"></a>Gestionar usuarios y permisos
 Para agregar usuarios en [!INCLUDE[d365fin](includes/d365fin_md.md)], el administrador de Office 365 de la empresa primero debe crear los usuarios en el centro de administración de Office 365. Para obtener más información, vea [Agregar usuarios a Office 365 para empresas](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc)
 
 Una vez se hayan creado los usuarios en Office 365, se pueden importar en la ventana **Usuarios** mediante la acción **Obtener usuarios desde Office 365**. A los usuarios se les asignan conjuntos de permisos según el plan asignado al usuario en Office 365.
@@ -29,9 +29,6 @@ Un conjunto de permisos es una colección de permisos para objetos específicos 
 Puede agregar usuarios a grupos de usuarios. Esto facilita asignar los mismos conjuntos de permisos a varios usuarios.
 
 Los administradores pueden usar la ventana **Configuración usuarios** para definir periodos de tiempo durante los que los usuarios especificados pueden registrar, así como especificar si el sistema registra la cantidad de tiempo que los usuarios tienen iniciada la sesión.
-
-> [!NOTE]  
->   Esta funcionalidad requiere que la experiencia esté definida en Suite. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
 
 ## <a name="to-assign-permissions-to-a-user"></a>Para asignar permisos a un usuario
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Usuarios** y, a continuación, seleccione el vínculo relacionado.
@@ -64,7 +61,7 @@ Los administradores pueden definir periodos de tiempo durante los que los usuari
 
 ## <a name="see-also"></a>Consulte también
 [Preparación para hacer negocios](ui-get-ready-business.md)  
-[Configuración y administración de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](admin-setup-and-administration.md)  
+[Configuración y administración de [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-setup-and-administration.md)  
 [[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Trabajar con [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

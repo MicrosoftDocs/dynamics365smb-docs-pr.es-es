@@ -1,6 +1,6 @@
 ---
 title: Crear segmentos | Documentos de Microsoft
-description: "Describe cómo crear un segmento para un grupo de contactos en Dynamics 365 Business edition, por ejemplo, para dirigirse a varios contactos con un correo directo."
+description: "Describe cómo crear un segmento para un grupo de contactos en Finance and Operations, Business edition, por ejemplo, para dirigirse a varios contactos con un correo directo."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,13 +13,13 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: dc915aaf2bb273417d87f6ea8bf1b1f5eb142ff3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4e76980237c79919b0e90ae75115c1571a6cdb85
 ms.contentlocale: es-es
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-segments"></a>Procedimiento para crear segmentos
+# <a name="create-segments"></a>Crear segmentos
 Puede crear segmentos para poder seleccionar un grupo de contactos, por ejemplo, si desea crear una interacción que implique a varios contactos, como en un envío de correo directo.
 
 ## <a name="to-create-a-segment"></a>Para crear segmentos
@@ -30,7 +30,7 @@ Puede crear segmentos para poder seleccionar un grupo de contactos, por ejemplo,
     Por otra parte, si configuró números de serie para los segmentos en la ventana **Configuración de marketing**, puede presionar Entrar para seleccionar el siguiente número de segmento disponible.
 4. Rellene los otros campos de la cabecera.
 
-Ahora puede agregar contactos al segmento. Para obtener más información, vea [Procedimiento: Agregar contactos a segmentos](marketing-add-contact-segment.md).
+Ahora puede agregar contactos al segmento. Para obtener más información, vea [Agregar contactos a segmentos](marketing-add-contact-segment.md).
 
 ## <a name="see-also"></a>Consulte también
 [Administrar segmentos](marketing-segments.md)  

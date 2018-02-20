@@ -1,6 +1,6 @@
 ---
 title: "Configurar centros de trabajo y de máquina | Documentos de Microsoft"
-description: "Una ficha **Centro de trabajo**, organiza los valores fijos y los requisitos del recurso de producción y, por consiguiente, esta ficha rige la salida de la producción realizada en dicho centro de trabajo."
+description: "En la ficha **Centro trabajo**, se organizan los valores fijos y los requisitos del recurso de producción y, por consiguiente, esta ficha rige la salida de la producción realizada en dicho centro."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/19/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 99ca93d4fd67ec424e54961ad5623c9986e5fe7c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 45477104c003d60786961f4329c1543a96be5b0c
 ms.contentlocale: es-es
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-work-centers-and-machine-centers"></a>Procedimiento: Configuración de centros de trabajo y centros de máquinas
+# <a name="set-up-work-centers-and-machine-centers"></a>Configuración de centros de trabajo y centros de máquinas
 El programa distingue entre tres tipos de capacidad. Éstas se organizan de manera jerárquica. Cada nivel contiene los niveles subordinados.  
 
 El nivel superior es el grupo de centro de trabajo. Los centros de trabajo se asignan a los grupos de centros de trabajo. Cada centro de trabajo sólo puede pertenecer a un grupo de centros de trabajo.
@@ -28,7 +28,7 @@ Puede asignar distintos centros de máquina a cada centro de trabajo. Un centro 
 
 La capacidad planificada de un centro de trabajo se compone de la disponibilidad de los centros de máquina correspondientes y la disponibilidad planificada adicional del centro de trabajo. La disponibilidad planificada del grupo de centros de trabajo es, por tanto, la suma de todas las disponibilidades correspondientes de los centros de máquina y de trabajo.  
 
-La disponibilidad se almacena en los movimientos de calendario. Para configurar centros de trabajo o de máquina, primero debe configurar calendarios de planta. Para obtener más información, consulte [Procedimiento: Crear calendarios de planta](production-how-to-create-work-center-calendars.md).  
+La disponibilidad se almacena en los movimientos de calendario. Para configurar centros de trabajo o de máquina, primero debe configurar calendarios de planta. Para obtener más información, consulte [Crear calendarios de planta](production-how-to-create-work-center-calendars.md).  
 
 ## <a name="to-set-up-a-work-center"></a>Para definir centros de trabajo
 A continuación se describe principalmente cómo configurar un centro de trabajo. Los pasos para configurar un calendario de centro de máquina son parecidos excepto por la ficha desplegable **Configurar ruta**.  
@@ -68,7 +68,7 @@ A continuación se describe principalmente cómo configurar un centro de trabajo
 13.  En el campo **Capacidad**, puede definir si en el centro de trabajo hay más de una máquina o persona trabajando a la vez. Si la instalación de [!INCLUDE[d365fin](includes/d365fin_md.md)] no tiene la funcionalidad del centro de máquina, el valor de este campo debe ser **1**.  
 14.  En el campo **Eficiencia**, especifique el porcentaje de la salida estándar esperada que este centro de trabajo produce realmente. Si especifica **100**, estará indicando que el centro de trabajo tiene una salida real igual que la salida estándar.  
 15. Seleccione la casilla verificación **Calendario consolidado** si también utiliza centros de máquina. Esto asegura que los movimientos de calendario se traspasan desde los calendarios de centro de máquina.  
-16.  En el campo **Cód. calen. planta**, seleccione un calendario de planta. Para obtener más información, consulte [Procedimiento: Crear calendarios de planta](production-how-to-create-work-center-calendars.md).  
+16.  En el campo **Cód. calen. planta**, seleccione un calendario de planta. Para obtener más información, consulte [Crear calendarios de planta](production-how-to-create-work-center-calendars.md).  
 17.  En el campo **Tiempo cola**, puede especificar el intervalo de tiempo fijo que debe transcurrir antes de que se inicie el trabajo asignado en este centro de trabajo. Tenga en cuenta que el tiempo de cola se agrega a otros elementos de tiempo no productivos, como el tiempo de espera y el tiempo de movimiento, que haya definido en las líneas de ruta que utilizan este centro de trabajo.  
 
 ## <a name="example---different-machine-centers-assigned-to-a-work-center"></a>Ejemplo: distintos centros de máquina asignados a un centro de trabajo.
@@ -83,7 +83,7 @@ Si las capacidades de los centros de trabajo no van a contribuir a la capacidad 
 ## <a name="to-set-up-a-capacity-constrained-machine-or-work-center"></a>Para configurar una capacidad efectiva de una máquina o de un centro de trabajo
 Debe configurar los recursos de producción que considera críticos y señalarlos para aceptar una carga finita en lugar de la carga infinita predeterminada que aceptan otros recursos de producción. Un recurso de capacidad restringida puede ser un centro de trabajo o de máquina que ha identificado como cuello de botella y para el que le gustaría establecer una carga limitada y finita.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] no admite el control detallado de la planta. Planea una utilización factible de los recursos al proporcionar una programación preliminar, pero no crea ni mantiene automáticamente las programaciones detalladas basadas en prioridades o reglas de optimización.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  no admite el control detallado de la planta. Planea una utilización factible de los recursos al proporcionar una programación preliminar, pero no crea ni mantiene automáticamente las programaciones detalladas basadas en prioridades o reglas de optimización.
 
 En la ventana **Recursos de capacidad limitada**, puede establecer una configuración que evite la sobrecarga de los recursos específicos y garantizar que no se deje ninguna capacidad sin asignar si pudiera aumentar el plazo de producción de una orden de producción. En el campo **Amortiguador (% capdad. total)**, puede agregar tiempo de amortiguación a recursos para minimizar la división de operaciones. De este modo, el sistema puede programar la carga en el último día posible superando el porcentaje de carga crítica ligeramente si esto puede reducir el número de operaciones divididas.
 
@@ -99,7 +99,7 @@ Al planificar con recursos de capacidad limitada, el sistema se asegura de que n
 > En el caso de división de la operación, el tiempo de configuración se asigna solo una vez, pues se presupone que se realiza algún ajuste manual para optimizar la programación.
 
 ## <a name="see-also"></a>Consulte también  
-[Cómo crear calendarios de planta](production-how-to-create-work-center-calendars.md)  
+[Crear calendarios de planta](production-how-to-create-work-center-calendars.md)  
 [Configuración de fabricación](production-configure-production-processes.md)  
 [Fabricación](production-manage-manufacturing.md)    
 [Planificación](production-planning.md)   

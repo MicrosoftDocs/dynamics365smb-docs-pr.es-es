@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 29e4380312724b08a7e250a65288d75d27444df0
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 045cabbaab1b7978402524f408caee87ce8e53e2
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="invoicing-prepayments"></a>Facturación de prepagos
@@ -28,9 +28,9 @@ Los prepagos son pagos que se facturan y registran en un pedido de prepago de ve
 
 |**Para**|**Vea**|  
 |------------|-------------|  
-|Configure grupos de registro de prepago y series numéricas y establezca porcentajes predeterminados de prepago para clientes, proveedores y productos.|[Definir prepagos](finance-set-up-prepayments.md)|
-|Crear un pedido, ajustar los importes de prepago y emitir una factura para los importes de prepago.|[Cómo crear facturas de prepago](finance-how-to-create-prepayment-invoices.md)|  
-|Emitir una factura de prepago adicional, bien para productos adicionales o para un depósito adicional en el pedido original, o emitir un abono de prepago.|[Cómo corregir prepagos](finance-how-to-correct-prepayments.md)|  
+|Configure grupos de registro de prepago y series numéricas y establezca porcentajes predeterminados de prepago para clientes, proveedores y productos.|[Configurar prepagos](finance-set-up-prepayments.md)|
+|Crear un pedido, ajustar los importes de prepago y emitir una factura para los importes de prepago.|[Crear facturas de prepagos](finance-how-to-create-prepayment-invoices.md)|  
+|Emitir una factura de prepago adicional, bien para productos adicionales o para un depósito adicional en el pedido original, o emitir un abono de prepago.|[Corregir prepagos](finance-how-to-correct-prepayments.md)|  
 
 ## <a name="see-also"></a>Consulte también  
 [Tutorial: Configuración y facturación de prepagos de ventas](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

@@ -1,6 +1,6 @@
 ---
 title: "Cómo planificar órdenes de proyecto | Documentos de Microsoft"
-description: "Esta tarea de planificación se inicia desde un pedido de venta y utiliza la ventana **Planificación pedido venta**. Una vez creada la orden de producción de un proyecto, puede seguir planificándola en la ventana **Planificación de pedidos**."
+description: "Esta tarea de planificación se inicia desde un pedido de venta y para realizarla se utiliza la ventana **Planificación pedido venta**. Una vez creada la orden de producción de un proyecto, puede seguir planificándola en la ventana **Planificación de pedidos**."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 49e3ce0ef80dd54f66565f62616b3b8f2a4aaeaa
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 27b2571df137b489a72673251fb5a176bfa771fe
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-plan-project-orders"></a>Procedimiento: Planifique las órdenes de proyecto
-Esta tarea de planificación se inicia desde un pedido de venta y utiliza la ventana **Planificación pedido venta**. Una vez creada la orden de producción de un proyecto, puede seguir planificándola en la ventana **Planificación de pedidos**.  
+# <a name="plan-project-orders"></a>Planificar órdenes de proyecto
+Esta tarea de planificación se inicia desde un pedido de venta y para realizarla se utiliza la ventana **Planificación pedido venta**. Una vez creada la orden de producción de un proyecto, puede seguir planificándola en la ventana **Planificación de pedidos**.  
 
 ## <a name="to-create-a-project-production-order"></a>Para crear una orden de producción de un proyecto  
 
@@ -36,7 +36,7 @@ Esta tarea de planificación se inicia desde un pedido de venta y utiliza la ven
 9. Seleccione la acción **Planificación**.
 10. En la ventana **Planificación de pedidos**, seleccione la acción **Actualizar** para calcular una nueva demanda.  
 
-Se mostrará la línea de cabecera de la orden del proyecto con todas las líneas de demanda no satisfecha expandidas bajo ella. Aunque la orden de producción contiene líneas para varios productos fabricados, la demanda total de todas las líneas de la orden de producción aparece bajo una línea de cabecera de la orden en la ventana **Programación de pedidos** y se muestra el nombre del cliente original. Ahora puede empezar a planificar la demanda, según se indica en [Planificación de una nueva demanda pedido por pedido](production-how-to-plan-for-new-demand.md).  
+Se mostrará la línea de cabecera de la orden del proyecto con todas las líneas de demanda no satisfecha expandidas bajo ella. Aunque la orden de producción contiene líneas para varios productos fabricados, la demanda total de todas las líneas de la orden de producción aparece bajo una línea de cabecera de la orden en la ventana **Programación de pedidos** y se muestra el nombre del cliente original. Ahora puede empezar a planificar la demanda, según se indica en [Planificar nueva demanda pedido por pedido](production-how-to-plan-for-new-demand.md).  
 
 > [!NOTE]  
 >  Las líneas de demanda en el orden de producción del proyecto que disponen de **Prod. Pedido** en el campo de **Sistema reposición** representan las órdenes de producción subyacentes. Después de generar estas órdenes de producción, deberá volver a calcular un plan en la ventana **Programación de pedidos** para identificar la demanda de componentes no satisfecha. En ese caso, estas líneas se muestran como líneas de demanda bajo una línea de cabecera de orden de producción normal, es decir, la relación del proyecto ya no se muestra en la ventana. Sin embargo, si utiliza la función Seguimiento pedido, puede retroceder y avanzar por todos los pedidos de suministro creados bajo el pedido de venta original.  

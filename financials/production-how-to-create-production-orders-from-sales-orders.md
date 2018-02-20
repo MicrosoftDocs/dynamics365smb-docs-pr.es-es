@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: a0261ee242abf0fedcfb22f4a22252636a0074b4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3de644d63c57402b81a3d688fa6e533d717ae089
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-production-orders-from-sales-orders"></a>Creación de órdenes de producción desde pedidos de venta
+# <a name="create-production-orders-from-sales-orders"></a>Crear órdenes de producción desde pedidos de venta
 Puede crear órdenes de producción para artículos producidos directamente desde los pedidos de venta.  
 
 ## <a name="to-create-a-production-order-from-a-sales-order"></a>Para crear una orden de producción desde un pedido de venta  
@@ -31,7 +31,7 @@ Puede crear órdenes de producción para artículos producidos directamente desd
 5.  Seleccione el tipo del estado y orden.  
 6.  Elija el botón de **Sí** para crear la orden de producción.
 
-También puede elegir crear una orden de producción de un proyecto. Para obtener más información, consulte [Procedimiento: Planifique las órdenes de proyecto](production-how-to-plan-project-orders.md).   
+También puede elegir crear una orden de producción de un proyecto. Para obtener más información, consulte [Planificar órdenes de proyecto](production-how-to-plan-project-orders.md).   
 
 ## <a name="see-also"></a>Consulte también  
 [Configuración de fabricación](production-configure-production-processes.md)  

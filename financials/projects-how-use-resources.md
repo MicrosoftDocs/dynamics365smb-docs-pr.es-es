@@ -10,25 +10,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff
-ms.date: 06/06/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
-ms.openlocfilehash: f110f4cc342f5284e3da2641d56dc13f67c3773a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f86fed1b300df98ef120e2f91fdd0785670d04f1
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-use-resources-for-jobs"></a>Uso de recursos para proyectos
-El consumo de los recursos en el diario de proyectos se registra para hacer un seguimiento de costes, precios y tipos de trabajo que están vinculados a proyectos. Para obtener más información, consulte [Registrar el uso de proyectos](projects-how-record-job-usage.md).
+# <a name="use-resources-for-jobs"></a>Uso de recursos para proyectos
+El consumo de los recursos en el diario de proyectos se registra para hacer un seguimiento de costes, precios y tipos de trabajo que están vinculados a proyectos. Para obtener más información, consulte [Registro del uso para proyectos](projects-how-record-job-usage.md).
 
 El consumo de un recurso también se puede registrar en un diario de recursos. Los movimientos registrados en un diario de recursos no afectan a la contabilidad.
 
-> [!NOTE]  
->   Esta funcionalidad requiere que la experiencia esté definida en **Suite**. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
-
 ## <a name="to-assign-resources-to-jobs"></a>Para asignar recursos a proyectos
-Asigne recursos a proyectos creando líneas de planificación para el proyecto. Para obtener más información, vea [Creación de proyectos](projects-how-create-jobs.md).
+Asigne recursos a proyectos creando líneas de planificación para el proyecto. Para obtener más información, vea [Crear proyectos](projects-how-create-jobs.md).
 
 ## <a name="to-record-resource-usage-for-a-job"></a>Para registrar el uso de recursos de un proyecto
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diarios de proyectos** y, a continuación, seleccione el vínculo relacionado.

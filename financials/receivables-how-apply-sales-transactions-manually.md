@@ -11,13 +11,13 @@ ms.search.keywords: payment process, cash receipt
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ccef6a35b1632bd94f64c5e9ad56ecd3bacbfd06
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6e00e9cbc1b1dc8674ccf83876809496a563b0be
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-reconcile-customer-payments-manually"></a>Procedimiento: Conciliar pagos de cliente manualmente
+# <a name="reconcile-customer-payments-manually"></a>Conciliar pagos de cliente manualmente
 Cuando recibe un cobro de un cliente o efectúa un reembolso, debe decidir si va a liquidar el pago o reembolsarlo para cerrar uno o varios movimientos pendientes del debe o el haber. Puede especificar el importe que desea liquidar. Por ejemplo, puede liquidar pagos parciales en movimientos de cliente. El cierre de movimientos de cliente garantiza que la información, como las estadísticas de cliente, los extractos de cuenta y los intereses, sean correctos.
 
 > [!NOTE]  
@@ -34,7 +34,7 @@ Puede liquidar movimientos de cliente de varias formas:
 
 Puede liquidar pagos de cliente manualmente en la ventana **Diario de recibos de efectivo**. Un diario de cobros es un tipo de diario general, por lo que puede usarlo para registrar transacciones en cuentas contables, de banco, de cliente, de proveedor y de activos fijos. Puede liquidar el pago de uno o más movimientos de débito cuando registra el pago o puede liquidarlos desde movimientos registrados posteriormente.
 
-También puede liquidar pagos de cliente y de proveedor en la ventana **Diario de conciliación de pagos** mediante funciones para la importación de extractos bancarios, la liquidación automática y la conciliación de cuentas bancarias. Para obtener más información, vea [Conciliar pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md). De forma alternativa, puede conciliar los pagos de clientes basados en una lista de documentos de ventas sin abonar en la ventana **Registro de pagos**. Para obtener más información, consulte [Procedimiento: Conciliar pagos de cliente desde una lista de documentos de ventas sin abonar](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
+También puede liquidar pagos de cliente y de proveedor en la ventana **Diario de conciliación de pagos** mediante funciones para la importación de extractos bancarios, la liquidación automática y la conciliación de cuentas bancarias. Para obtener más información, vea [Conciliar pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md). De forma alternativa, puede conciliar los pagos de clientes basados en una lista de documentos de ventas sin abonar en la ventana **Registro de pagos**. Para obtener más información, consulte [Conciliar pagos de cliente desde una lista de documentos de ventas sin abonar](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
 
 ## <a name="to-fill-and-post-a-cash-receipt-journal"></a>Para rellenar y registrar un diario de recibos de efectivo
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diario de recibos de efectivo** y, a continuación, seleccione el vínculo relacionado.
@@ -129,7 +129,7 @@ Si vende a un cliente en una divisa y cobra en otra, aún puede liquidar la fact
 
 Si con un movimiento (Movimiento 1) en una divisa liquida otro movimiento (Movimiento 2) en otra divisa, se usa la fecha de registro del Movimiento 1 para buscar el tipo de cambio adecuado para convertir los importes del Movimiento 2. El tipo de cambio relevante se encuentra en la ventana **Tipos cambio divisa**.  
 
-Se debe habilitar la liquidación de movimientos de cliente en divisas diferentes. Para obtener más información vea, [Procedimiento: Permitir la liquidación de movimientos de cliente en distintas divisas](finance-how-enable-application-ledger-entries-different-currencies.md).  
+Se debe habilitar la liquidación de movimientos de cliente en divisas diferentes. Para obtener más información, vea [Permitir la liquidación de movimientos de cliente en distintas divisas](finance-how-enable-application-ledger-entries-different-currencies.md).  
 
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diario de recibos de efectivo** y, a continuación, seleccione el vínculo relacionado.
 2. Abra el diario que desea y rellene la primera línea de diario vacía utilizando un código de divisa.

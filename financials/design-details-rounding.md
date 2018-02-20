@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 39d4bdc430fc74452e7f089c38b28b3214304725
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-rounding"></a>Detalles de diseño: Redondeo
@@ -59,7 +59,7 @@ Los redondeos residuales se pueden producir cuando se valora el coste de una sal
 |01-02-20|-1|-3,33|2|2|  
 |01-03-20|-1|-3,33|3|3|  
 |01-04-20|-1|-3,33|4|4|  
-|01-01-20|0|-0,01|0|5|  
+|01-01-20|0|-0,01|1|5|  
 
 ## <a name="see-also"></a>Consulte también  
  [Detalles de diseño: Coste de inventario](design-details-inventory-costing.md)   

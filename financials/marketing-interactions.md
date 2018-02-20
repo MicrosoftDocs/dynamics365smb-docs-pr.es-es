@@ -13,14 +13,14 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 8dbefb4ef7daf4016c5c577d1e749d2049791c4b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 761502b8c8e4c2b9b1b864e7316ea1130a940bb0
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-interactions-with-contacts"></a>Gestión de las interacciones con los contactos
-En [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], las interacciones son todos los tipos de comunicaciones entre su empresa y sus contactos. Por ejemplo, pueden ser por carta, fax, correo electrónico, teléfono, reuniones, etc.
+En [!INCLUDE[d365fin](includes/d365fin_md.md)], las interacciones son todos los tipos de comunicaciones entre su empresa y sus contactos. Por ejemplo, pueden ser por carta, fax, correo electrónico, teléfono, reuniones, etc.
 
 El área de Gestión de relaciones permite registrar todas las interacciones que tenga con sus contactos para poder hacer un seguimiento de las ventas y los esfuerzos comerciales dirigidos a éstos y mejorar las interacciones de negocio futuras. La configuración de su aplicación para registrar interacciones consta de tres pasos:
 
@@ -35,7 +35,7 @@ Puede configurar una plantilla de interacción en la ventana **Plantillas de int
 ## <a name="creating-interactions"></a>Crear interacciones
 Hay dos maneras de registrar interacciones:
 
-* puede crear de forma manual las interacciones relacionadas con un único contacto o un segmento. Para obtener más información, vea [Procedimiento: Crear interacciones en contactos y segmentos](marketing-how-create-interactions.md)  
+* puede crear de forma manual las interacciones relacionadas con un único contacto o un segmento. Para obtener más información, vea [Crear interacciones en contactos y segmentos](marketing-how-create-interactions.md)  
 * Puede registrar automáticamente interacciones cuando realiza acciones en la aplicación, por ejemplo, cuando imprime una factura o un presupuesto. Para obtener más información, vea [Registro automático de interacciones con contactos](marketing-auto-record-interactions.md)
 
 ## <a name="viewing-and-managing-recorded-interactions"></a>Ver y administrar las interacciones registradas

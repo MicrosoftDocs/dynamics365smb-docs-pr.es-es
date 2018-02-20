@@ -12,13 +12,13 @@ ms.search.keywords: non-inventoriable
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b9256944295880d6ec9dad916eb9632b9d5f7c20
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2969b3168f063e636455dd67457c01ed89a0727d
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# Procedimiento: Trabajar con productos sin stock
+# <a name="work-with-nonstock-items"></a>Trabajar con productos sin stock
 Puede ofrecer varios productos a sus clientes para su comodidad que no desea mantener en el inventario hasta que empiece a venderlos. Cuando desee empezar a mantener esos productos en el inventario, puede convertirlos en fichas de productos normales de dos formas.
 
 * Desde una ficha de producto sin stock, cree una nueva ficha de producto basada en una plantilla.
@@ -29,29 +29,29 @@ Puede ofrecer varios productos a sus clientes para su comodidad que no desea man
 
 Un producto sin stock normalmente tiene el número del proveedor que lo suministra. Para activar la conversión de una ficha de producto sin stock a una ficha normal, debe configurar cómo se convertirá la numeración del producto del vendedor a la suya.   
 
-## Para crear productos sin stock
+## <a name="to-create-a-nonstock-item"></a>Para crear productos sin stock
 Las fichas de productos sin stock disponen de mucha menos información que las normales puesto que solo las utiliza en ofertas de ventas y en otras maneras. Por esa razón, se convertirán en fichas de producto normal antes de que pueda registrarles las transacciones de venta.
 
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Productos sin stock** y, a continuación, seleccione el vínculo relacionado.
 2. Seleccione la acción **Nuevo**.
 3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## Para configurar cómo los números de productos sin stock se convierten en su numeración
+## <a name="to-set-up-how-nonstock-item-numbers-are-converted-to-your-own-numbering"></a>Para configurar cómo los números de productos sin stock se convierten en su numeración
 Para activar la conversión de una ficha de producto sin stock en una ficha normal, primero debe configurar cómo se convertirá la numeración del producto del vendedor a su formato de número de producto.
 
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Config. productos sin stock** y, a continuación, seleccione el vínculo relacionado.
 2. Rellene los campos según sea necesario.
 
-## Para convertir un producto sin stock en un producto normal
+## <a name="to-convert-a-nonstock-item-to-a-normal-item"></a>Para convertir un producto sin stock en un producto normal
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Productos sin stock** y, a continuación, seleccione el vínculo relacionado.
 2. Abra la ficha de un producto sin stock que desee convertir a uno normal.
 3. En la ventana **Ficha de producto sin stock**, seleccione la acción **Crear producto**.
 
 Se ha creado una plantilla y una nueva ficha de producto con la información del producto sin stock rellenada previamente. Si es necesario, podrá rellenar o editar los campos en la nueva ficha de producto. Para obtener más información, vea [Registrar nuevos productos](inventory-how-register-new-items.md).
 
-## Para vender un producto sin stock y convertirlo en un producto normal
+## <a name="to-sell-a-nonstock-item-and-convert-it-to-a-normal-item"></a>Para vender un producto sin stock y convertirlo en un producto normal
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Pedidos de venta** y, a continuación, seleccione el vínculo relacionado.
-2. Seleccione la acción **Nuevo**. Rellene los campos de la ficha desplegable **General** para cada pedido. Para obtener más información, vea [Procedimiento: Vender productos](sales-how-sell-products.md).
+2. Seleccione la acción **Nuevo**. Rellene los campos de la ficha desplegable **General** para cada pedido. Para obtener más información, vea [Vender productos](sales-how-sell-products.md).
 3. En una nueva línea de venta, en el campo **Tipo**, seleccione **Producto**, pero deje **N.º** campo vacío.
 4. Elija la acción **Línea** y, a continuación, elija la acción **Seleccionar artículos sin stock**.
 
@@ -64,9 +64,9 @@ Si es necesario, podrá rellenar o editar los campos en la nueva ficha de produc
 > [!NOTE]  
 >   Un informe de referencia cruzada de un producto se crea automáticamente por el proveedor del producto entre el número del producto del proveedor y su nuevo número de producto.
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 [Registro de productos nuevos](inventory-how-register-new-items.md)  
-[Cómo crear pedidos especiales](sales-how-to-create-special-orders.md)|  
+[Crear pedidos especiales](sales-how-to-create-special-orders.md)|  
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

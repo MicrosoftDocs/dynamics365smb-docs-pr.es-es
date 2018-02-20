@@ -13,16 +13,16 @@ ms.search.keywords:
 ms.date: 08/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e1f2cc5bd276fbd5fe1417df56f57dd8454e18e2
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 8ac1f46c7b7f3035c2cfc711671d659a18871bda
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-assemble-items"></a>Procedimiento: ensamble productos
+# <a name="assemble-items"></a>Ensamblar artículos
 Si el campo **Sistema reposición** en la ficha del artículo contiene **Montaje**, el método predeterminado para suministrar el artículo será ensamblarlo desde los componentes definidos y potencialmente por un recurso definido.  
 
-Los componentes y los recursos que forman esta clase de artículo de ensamblado deben definirse en un L.M. de ensamblado. Para obtener más información, consulte [Procedimiento: Trabajar con listas de materiales](inventory-how-work-BOMs.md).  
+Los componentes y los recursos que forman esta clase de artículo de ensamblado deben definirse en un L.M. de ensamblado. Para obtener más información, consulte [Trabajar con listas de materiales](inventory-how-work-BOMs.md).  
 
 Los artículos de ensamblado se pueden configurar para dos procesos de ensamblado diferentes:  
 
@@ -31,14 +31,14 @@ Los artículos de ensamblado se pueden configurar para dos procesos de ensamblad
 
 Se utiliza normalmente **Ensamblar para stock** para los artículos que se desea ensamblar antes de la venta, como para prepararse para una campaña de equipo, y mantenerlo en stock hasta que se soliciten. Estos artículos suelen ser estándar, como equipos embalados que no ofrecen personalización según las solicitudes de cliente.  
 
-Utilice normalmente **Ensamblar para pedido** para los artículos que no desee almacenar porque espera personalizarlos según lo solicitado por el cliente o porque desee minimizar el coste que conlleva el inventario suministrándolo en el momento oportuno. Para obtener más información, consulte [Procedimiento: Venta de artículos ensamblados para pedido](assembly-how-to-sell-items-assembled-to-order.md).  
+Utilice normalmente **Ensamblar para pedido** para los artículos que no desee almacenar porque espera personalizarlos según lo solicitado por el cliente o porque desee minimizar el coste que conlleva el inventario suministrándolo en el momento oportuno. Para obtener más información, consulte [Venta de artículos ensamblados para pedido](assembly-how-to-sell-items-assembled-to-order.md).  
 
 Para obtener más información acerca de cómo configurar un elemento del ensamblado, consulte [Comprender Ensamblar para pedido y Ensamblar para stock](assembly-assemble-to-order-or-assemble-to-stock.md).  
 
-Estas opciones de configuración son los valores predeterminados para controlar cómo se procesan inicialmente las líneas de ventas y de pedido de ensamblado. Puede iniciar a partir de estos valores predeterminados y suministrar el artículo de ensamblado de la forma más óptima al procesar una venta. Para obtener más información, consulte [Procedimiento: Venta de productos de inventario en los flujos de ensamblar para pedido](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md) y [Procedimiento: Venta de productos de ensamblado para pedido y productos de inventario juntos](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).
+Estas opciones de configuración son los valores predeterminados para controlar cómo se procesan inicialmente las líneas de ventas y de pedido de ensamblado. Puede iniciar a partir de estos valores predeterminados y suministrar el artículo de ensamblado de la forma más óptima al procesar una venta. Para obtener más información, consulte [Venta de productos de inventario en los flujos de ensamblar para pedido](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md) y [Venta de productos de ensamblado para pedido y productos de inventario juntos](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).
 
 > [!NOTE]  
-> Los componentes de ensamblaje se manejan de forma especial en configuraciones básicas de almacén. Para obtener más información, vea la sección “Tratamiento de productos ensamblar para pedido en los picking de inventario” en [Cómo realizar picking de productos con picking inventario](warehouse-how-to-pick-items-with-inventory-picks.md).   
+> Los componentes de ensamblaje se manejan de forma especial en configuraciones básicas de almacén. Para obtener más información, vea la sección "Tratamiento de productos ensamblar para pedido en los picking de inventario" en [Realizar picking de productos con picking inventario](warehouse-how-to-pick-items-with-inventory-picks.md).   
 
 En este procedimiento se crea y procesa un pedido de ensamblado para los artículos que se ensamblan para stock, lo que significa que no tiene un pedido de venta vinculado. Los pasos incluyen la iniciación del pedido de ensamblado, gestionando los problemas potenciales de disponibilidad de componente y registrando parcialmente la salida del artículo de montaje.
 

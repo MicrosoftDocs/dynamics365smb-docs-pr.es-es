@@ -12,20 +12,20 @@ ms.search.keywords: item, finished good, component, raw material, assembly item
 ms.date: 08/31/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e926baa3d5348f9c275d3063b67be57b72f616ee
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 39a701fb0ff705508fdc4ddcec0af661d234e8c8
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-register-new-items"></a>Registro de productos nuevos
+# <a name="register-new-items"></a>Registro de productos nuevos
 Los productos, entre otros elementos, son la base de su empresa, las mercancías o servicios con las que comercializa. Cada producto se debe registrar como una ficha de producto.
 
 Las fichas de producto contienen la información necesaria para comprar, almacenas, vender, entregar y contabilizar productos.
 
-La ficha de producto puede ser de tipo **Inventario** o **Servicio** para especificar si el producto es una unidad física o una unidad de tiempo de mano de obra. Aparte de algunos campos relacionados con los aspectos físicos de un producto, todos los campos de un producto funcionan de la misma forma para los productos de inventario y los servicios. Para obtener más información acerca de la venta de un producto, vea [Procedimiento: Vender productos](sales-how-sell-products.md) o [Procedimiento: Facturar ventas](sales-how-invoice-sales.md)
+La ficha de producto puede ser de tipo **Inventario** o **Servicio** para especificar si el producto es una unidad física o una unidad de tiempo de mano de obra. Aparte de algunos campos relacionados con los aspectos físicos de un producto, todos los campos de un producto funcionan de la misma forma para los productos de inventario y los servicios. Para obtener más información acerca de la venta de un producto, vea [Vender productos](sales-how-sell-products.md) o [Facturar ventas](sales-how-invoice-sales.md)
 
-Un producto se puede estructurar como un producto principal con productos secundarios subyacentes en una lista de materiales (L.M.). En [!INCLUDE[d365fin](includes/d365fin_md.md)], una lista de materiales puede ser una L.M. de ensamblado o una L.M. de producción, en función de su uso. Para obtener más información, consulte [Procedimiento: Trabajar con listas de materiales](inventory-how-work-BOMs.md).
+Un producto se puede estructurar como un producto principal con productos secundarios subyacentes en una lista de materiales (L.M.). En [!INCLUDE[d365fin](includes/d365fin_md.md)], una lista de materiales puede ser una L.M. de ensamblado o una L.M. de producción, en función de su uso. Para obtener más información, consulte [Trabajar con listas de materiales](inventory-how-work-BOMs.md).
 
 > [!NOTE]  
 >   Si existen plantillas para distintos tipos de producto, aparece una ventana automáticamente cuando se crea una nueva ficha de producto en la que puede seleccionar una plantilla de producto apropiada. Si solo existe una plantilla de producto, las nuevas fichas de producto utilizan siempre esa plantilla.
@@ -77,7 +77,5 @@ Los proveedores aparecerán después en la ventana **Tarifas de compra productos
   [Grupos contables inventario](inventory-manage-inventory.md)  
   [Compras](purchasing-manage-purchasing.md)  
   [Ccial](sales-manage-sales.md)  
-  [Trabajar con [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
-
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+  [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 99c3ac10460a62ee23294cfd0d8c25709c37901b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f1ced6c90333c1da9cbd148f199debdc70ed5a46
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-plan-put-aways-in-worksheets"></a>Procedimiento: planifique ubicaciones en hojas de trabajo
+# <a name="plan-put-aways-in-worksheets"></a>Planificar ubicaciones en hojas de trabajo
 Si el almacén requiere los procesos de ubicación y recepción, y desea planificar instrucciones de ubicación para varias recepciones, en vez de hacer que los empleados sigan las instrucciones que crea el sistema para recepciones registradas independientes, puede utilizar la hoja de trabajo de ubicación.  
 
 Para configurar el almacén de manera que las líneas de recepción estén disponibles en la hoja de trabajo de ubicación en cuanto se registran, seleccione el campo **Utiliza hoj. trab. ubicación** en la ficha desplegable **Almacén** de la ficha de almacén. Para obtener más información, consulte [Configuración de la administración de almacén](warehouse-setup-warehouse.md).  

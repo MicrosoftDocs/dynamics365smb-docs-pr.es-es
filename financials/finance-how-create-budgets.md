@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.date: 12/01/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
-ms.openlocfilehash: 34642192e74992953b569cabeb5dbeb4112a0f44
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f6969d05cfde9ba7ce5767a961d4af1c7b3bd983
 ms.contentlocale: es-es
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-gl-budgets"></a>Crear presupuestos contables
+# <a name="create-gl-budgets"></a>Crear presupuestos contables
 Puede tener varios presupuestos para idénticos periodos de tiempo si crea presupuestos con nombres distintos. En primer lugar, debe configurar el nombre del presupuesto e introducir las cifras del presupuesto. El nombre del presupuesto se incluye en todos los movimientos de presupuesto que cree.  
 
  Al crear un presupuesto, puede definir cuatro dimensiones para cada presupuesto. Estas dimensiones específicas de presupuesto se denominan dimensiones de presupuesto. Seleccione las dimensiones de presupuesto para cada uno de los presupuestos a partir de las dimensiones que ya ha configurado. Es posible utilizar las dimensiones de presupuesto para filtrar en un presupuesto y para agregar información de dimensiones a movimientos de presupuesto. Para obtener más información, consulte [Trabajar con dimensiones](finance-dimensions.md).
@@ -29,9 +29,6 @@ Puede tener varios presupuestos para idénticos periodos de tiempo si crea presu
  Los presupuestos desempeñan una función importante en la inteligencia empresarial, como los extractos financieros en función de los esquemas de cuentas que incluyen movimientos de presupuesto o al analizar los importes presupuestados frente a los reales en el plan de cuentas. Para obtener más información, consulte [Inteligencia empresarial](bi.md).
 
 En contabilidad de costes, trabaja con los presupuestos de costes de forma similar. Para obtener más información, consulte [Crear presupuestos de costes](finance-create-cost-budgets.md).    
-
- > [!NOTE]  
->   Esta funcionalidad requiere que la experiencia esté definida en **Suite**. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).  
 
 ## <a name="to-create-a-new-gl-budget"></a>Para crear un nuevo presupuesto contable  
 1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Presupuestos contables** y, a continuación, seleccione el vínculo relacionado.  

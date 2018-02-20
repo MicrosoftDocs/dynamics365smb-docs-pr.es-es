@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/09/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 2745d8b06967549b32c8014a24ab9958c72c1c9d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7f607e36c9201304d9777cebf4a4418914252768
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="handling-inventory-and-manufacturing-costs"></a>Administración de existencias y costes de fabricación
@@ -28,14 +28,14 @@ Aunque la mayoría de las funciones de contabilidad de costes se llevan a cabo m
 
 |**Para**|**Vea**|  
 |------------|-------------|  
-|Actualizar periódica o automáticamente el coste unitario de uno o varios productos para trasladar los posibles cambios de coste desde los movimientos de entrada, como los de compras o salida de producción, a los movimientos de salida relacionados, como consumo o transferencias.|[Procedimiento: Ajustar precios de productos](inventory-how-adjust-item-costs.md)|  
+|Actualizar periódica o automáticamente el coste unitario de uno o varios productos para trasladar los posibles cambios de coste desde los movimientos de entrada, como los de compras o salida de producción, a los movimientos de salida relacionados, como consumo o transferencias.|[Modificar costes de productos](inventory-how-adjust-item-costs.md)|  
 |Conocer las dinámicas del coste medio para tomar decisiones sobre precios o realizar un seguimiento de las fluctuaciones de los costes originadas por errores en la introducción de datos.|[Registro de productos nuevos](inventory-how-register-new-items.md)|  
 |Crear un coste estándar del producto de fabricación introduciendo los tres elementos de coste: coste de material, coste de capacidad y coste de subcontratista.|[Acerca del cálculo de coste estándar](finance-about-calculating-standard-cost.md)|  
 |Calcular el coste unitario de un producto de LM basándose en los costes unitarios de sus componentes subyacentes.|[Trabajar con listas de materiales](inventory-how-work-BOMs.md)|  
 |Completar el ciclo de vida de la valoración de un producto fabricado ajustando los costes y conciliando los movimientos con la contabilidad.|[Sobre los costes de la orden de producción terminada](finance-about-finished-production-order-costs.md)|  
-|Cambiar el valor de un producto en existencias o el valor de un movimiento de producto, como una transacción de compra.|[Revaluación de inventario](inventory-how-revalue-inventory.md)|
-|Deshacer manualmente una liquidación de producto o liquidar de nuevo movimientos de productos creados por el programa.|[Cómo eliminar y liquidar de nuevo los movimientos contables de producto](finance-how-to-remove-and-reapply-item-entries.md)|  
-|Utilice el campo **Liquidar por mov.** en el diario de productos para crear manualmente una liquidación fija entre una transacción de entrada y la transacción de salida original.|[Cómo cerrar los movimientos de producto abiertos que se crean por una liquidación fija en el diario de productos](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)|  
+|Cambiar el valor de un producto en existencias o el valor de un movimiento de producto, como una transacción de compra.|[Revaluar inventario](inventory-how-revalue-inventory.md)|
+|Deshacer manualmente una liquidación de producto o liquidar de nuevo movimientos de productos creados por el programa.|[Eliminar y liquidar de nuevo los movimientos contables de producto](finance-how-to-remove-and-reapply-item-entries.md)|  
+|Utilice el campo **Liquidar por mov.** en el diario de productos para crear manualmente una liquidación fija entre una transacción de entrada y la transacción de salida original.|[Cerrar los movimientos de producto abiertos que se crean por una liquidación fija en el diario de productos](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)|  
 
 ## <a name="see-also"></a>Consulte también  
 [Gestión de costes de inventario](finance-manage-inventory-costs.md)

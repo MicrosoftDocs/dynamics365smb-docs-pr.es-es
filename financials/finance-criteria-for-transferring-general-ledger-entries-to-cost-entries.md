@@ -1,6 +1,6 @@
 ---
 title: Criterios para la transferencia de movimientos de contabilidad a movimientos de coste | Documentos de Microsoft
-description: "Es importante entender los criterios para la transferencia de movimientos de contabilidad a movimientos de coste. Durante la transferencia, el proceso de **Transferir movs. contabilidad** a costes utiliza el siguiente criterio para determinar si y cómo se transfieren los movimientos de contabilidad."
+description: "Es importante entender los criterios para la transferencia de movimientos de contabilidad a movimientos de coste. Durante la transferencia, el proceso de **Transferir movs. contabilidad a costes** utiliza el siguiente criterio para determinar si y cómo se transfieren los movimientos de contabilidad."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 59faad50504bff05e6cdb1c78d00553e85faf47e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 67cc593691b4d3fe6a13cd960dce150c1e552da0
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="criteria-for-transferring-general-ledger-entries-to-cost-entries"></a>Criterios para la transferencia de movimientos de contabilidad a movimientos de coste
@@ -41,7 +41,7 @@ No se transfieren los movimientos de contabilidad si:
 
 ## <a name="see-also"></a>Consulte también  
 [Contabilidad para costes](finance-manage-cost-accounting.md)  
- [Procedimiento: transferencia de movimientos de contabilidad a los movimientos de coste](finance-how-to-transfer-general-ledger-entries-to-cost-entries.md)   
+ [Transferir movimientos de contabilidad a movimientos de coste](finance-how-to-transfer-general-ledger-entries-to-cost-entries.md)   
  [Transferencia y registro de movimientos de coste](finance-transfer-and-post-cost-entries.md)   
  [Acerca de la contabilidad de costes](finance-about-cost-accounting.md)  
  [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

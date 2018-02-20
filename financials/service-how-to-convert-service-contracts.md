@@ -11,13 +11,13 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 148a566473e4964db3cbc6ee266eccb6b6c6aaa7
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 29023e68808935b49aba663d994bac756d037615
 ms.contentlocale: es-es
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-convert-service-contracts-that-include-vat-amounts"></a>Convertir contratos de servicio que incluyen importes de IVA
+# <a name="convert-service-contracts-that-include-vat-amounts"></a>Convertir contratos de servicio que incluyen importes de IVA
 Como la herramienta de cambio de tasa de IVA no puede convertir contratos de servicio, estos acuerdos deben convertirse manualmente. Este tema describe diversos métodos alternativos que puede usar para la conversión de contrato de servicio.  
 
 > [!NOTE]  
@@ -56,7 +56,7 @@ El procedimiento siguiente describe cómo crear nuevos contratos trabajando con 
 ### <a name="to-create-a-new-credit-memo"></a>Para crear un abono nuevo  
 El procedimiento siguiente describe cómo crear un nuevo abono con el trabajo por lotes de **Traer movs. contrato prepago**. Los movimientos que no desea corregir desde enero de 2017 a junio de 2017 serán eliminados.  
 
-1. Ejecute la herramienta de cambio de tasa de IVA el 1 de julio de 2017. Se cambia el grupo contable general de producto o el grupo contable de IVA de producto. Para obtener más información, consulte [Cómo trabajar con el IVA por ventas y compras](finance-work-with-vat.md).  
+1. Ejecute la herramienta de cambio de tasa de IVA el 1 de julio de 2017. Se cambia el grupo contable general de producto o el grupo contable de IVA de producto. Para obtener más información, consulte [Trabajar con el IVA por ventas y compras](finance-work-with-vat.md).  
 2. Una vez ejecutada la herramienta de cambio de tasa de IVA, introduzca una fecha de vencimiento de contrato para el contrato de servicio. Ahora puede eliminar la línea de contrato de servicio y crear una nueva línea que se idéntica a la anterior.  
 3. Cree una nueva factura para el periodo de enero de 2017 a diciembre de 2012 con la nueva tasa de IVA.  
 4. Para crear otro abono, en la ventana **Abonos de servicio**, seleccione **Nuevo** para crear un nuevo abono de servicio.  

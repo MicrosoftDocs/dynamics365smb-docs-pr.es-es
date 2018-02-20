@@ -13,13 +13,13 @@ ms.search.keywords: personnel, people, employee, staff, HR
 ms.date: 08/11/2017
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ceea5fba1b2daeab3c517d87e3e31e29d53441c3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 484d21ad14991d663de3e9c5491455fe60494a06
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-register-employees"></a>Procedimiento: Registrar empleados
+# <a name="register-employees"></a>Registrar empleados
 Para utilizar la funcionalidad Recursos humanos, primero deberá registrar cada empleado creando una ficha con toda la información base y relacionada.
 
 Los detalles de un empleado se pueden modificar en cualquier momento. Mantener los registros de empleados actualizados facilita las tareas personales. Por ejemplo, si cambia la dirección de un empleado, esta información se puede registrar en la ficha del empleado.
@@ -27,7 +27,7 @@ Los detalles de un empleado se pueden modificar en cualquier momento. Mantener l
 Los procedimientos siguientes describen cómo crear una ficha inicial del empleado y cómo asignar dos tipos de datos del empleado a un empleado. Además, puede asignar otra información relacionada, como cualificaciones y códigos de causa de inactividad. Debe asignar la información sobre empleados eligiendo un campo o una acción en la ventana **Ficha de empleado**.
 
 > [!NOTE]  
-> Puede reembolsar a los empleados por sus gastos durante las actividades comerciales. Para ello, debe rellenar los campos de la ficha desplegable **Pagos** en la ventana **Ficha empleado**. Para obtener más información, consulte [Procedimiento: registro y reembolso de los costes de los empleados](finance-how-record-reimburse-employee-expenses.md).
+> Puede reembolsar a los empleados por sus gastos durante las actividades comerciales. Para ello, debe rellenar los campos de la ficha desplegable **Pagos** en la ventana **Ficha empleado**. Para obtener más información, consulte [Registro y reembolso de los costes de los empleados](finance-how-record-reimburse-employee-expenses.md).
 
 ## <a name="to-set-up-an-employee"></a>Para configurar un empleado
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Empleados** y, a continuación, seleccione el vínculo relacionado.
@@ -57,7 +57,7 @@ Utilice direcciones alternativas para llevar un control de la ubicación de los 
 5. Repita el paso 4 para cada dirección alternativa.
 
 ## <a name="see-also"></a>Consulte también
-[Procedimiento: registro y reembolso de los costes de los empleados](finance-how-record-reimburse-employee-expenses.md)  
+[Registro y reembolso de los costes de los empleados](finance-how-record-reimburse-employee-expenses.md)  
 [Finanzas](finance.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)

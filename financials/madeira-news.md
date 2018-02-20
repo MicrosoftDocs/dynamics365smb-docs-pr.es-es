@@ -1,6 +1,6 @@
 ---
-title: Novedades de Dynamics 365 Business edition | Documentos de Microsoft
-description: "Describe las últimas noticias y novedades de Dynamics 365 Business edition."
+title: Novedades en Finance and Operations, Business edition | Documentos de Microsoft
+description: "Describe las últimas noticias y novedades de Finance and Operations, Business edition."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,27 +13,27 @@ ms.search.keywords: news
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 83637fe211ce764b4b18429ab4c2c79cc06f3d20
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 78f340d619f622c6bca91bd97f0fcd8ae6b28acd
 ms.contentlocale: es-es
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="whats-new-in-dynamics-365-for-finance-and-operations-business-edition"></a>Novedades de Dynamics 365 for Finance and Operations, Business edition
 [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Si todavía no lo ha hecho, regístrese para una prueba, déjenos guiarle por los conceptos básicos de lo que puede hacer con [!INCLUDE[d365fin](includes/d365fin_md.md)] y, a continuación, pruebe estas funciones durante un momento. Cuando esté listo, puede abrir una empresa vacía y empezar a configurarla.  
 
-De forma periódica, actualizaremos [!INCLUDE[d365fin](includes/d365fin_md.md)] con funciones adicionales en la aplicación base y con nuevas [extensiones](ui-extensions.md). Para un resumen de que está por venir y de lo que se encuentra disponible, vea [Dynamics 365 Roadmap](https://roadmap.dynamics.com/) y no se olvide de filtrar por [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+De forma periódica, actualizaremos [!INCLUDE[d365fin](includes/d365fin_md.md)] con funciones adicionales en la aplicación base y con nuevas [extensiones](ui-extensions.md). Para un resumen de que está por venir y de lo que se encuentra disponible, vea [Guía básica de Finance and Operations, Business edition](https://roadmap.dynamics.com/) y no se olvide de filtrar por [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-En esta página, puede ver qué áreas estaban disponibles mientras estábamos en la vista preliminar. A partir de ahora, busque las actualizaciones en la [Dynamics 365 Roadmap](https://roadmap.dynamics.com/).
+En esta página, puede ver qué áreas estaban disponibles mientras estábamos en la vista preliminar. A partir de ahora, busque las actualizaciones en la [Guía básica de Finance and Operations, Business edition](https://roadmap.dynamics.com/).
 
 ## <a name="november-2016-launch-of-included365finlongincludesd365finlongmdmd"></a>En noviembre de 2016 lanzamiento de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Según lo anunciado en el blog, ahora somos un servicio que usa en la empresa. Pero esta actualización también agrega nuevas funciones y una nueva extensión.
 
 ### <a name="project-management"></a>Administración de proyectos
-Si cambia a la experiencia Suite, puede administrar proyectos y trabajar con recursos, hojas de horas y proyectos. Cuando inicie sesión por primera vez como jefe de proyectos, una guía de configuración asistida le guiará por la configuración de la administración de los proyectos. Puede trabajar con las cuentas de ejemplo, trabajos, recursos, etc., en la empresa de demostración para familiarizarse con la funcionalidad. Para obtener más información, vea [Administración de proyectos](projects-manage-projects.md).
+Puede gestionar proyectos y trabajo con los recursos, los partes de horas y los trabajos. Cuando inicie sesión por primera vez como jefe de proyectos, una guía de configuración asistida le guiará por la configuración de la administración de los proyectos. Puede trabajar con las cuentas de ejemplo, trabajos, recursos, etc., en la empresa de demostración para familiarizarse con la funcionalidad. Para obtener más información, vea [Administración de proyectos](projects-manage-projects.md).
 
 ### <a name="fixed-assets"></a>Activos fijos
-Si cambia a la experiencia Suite, puede administrar activos fijos, incluida la amortización y el seguro. Se proporciona una configuración estándar, pero puede modificarla en cualquier momento si lo desea. Puede registrar las compras de activos de los diarios CG de activos fijos dedicados donde también puede disponer de activos fijos. Los movimientos de contabilidad adecuados se crean automáticamente. Para obtener más información, vea [Activos fijos](fa-manage.md).
+Puede administrar los activos fijos, incluidos la amortización y el seguro. Se proporciona una configuración estándar, pero puede modificarla en cualquier momento si lo desea. Puede registrar las compras de activos de los diarios CG de activos fijos dedicados donde también puede disponer de activos fijos. Los movimientos de contabilidad adecuados se crean automáticamente. Para obtener más información, vea [Activos fijos](fa-manage.md).
 
 ### <a name="new-extension-for-migrating-data-from-dynamics-gp"></a>Nueva extensión para migrar datos desde Dynamics GP
 Si su empresa usa hoy Dynamics GP, podrá usar una guía de configuración asistida para migrar registros maestros a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Deberá haber exportado los clientes, proveedores, productos de inventario y cuentas existentes mediante la funcionalidad de exportación de datos de Dynamics GP. La extensión de la migración de datos de Dynamics GP asigna automáticamente los datos exportados para que pueda obtener rápidamente los datos existentes en la nueva empresa en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, vea [Migración de datos de Dynamics GP](ui-extensions-dynamicsgp-data-migration.md).
@@ -59,7 +59,7 @@ Esta actualización agrega más flexibilidad en lo que vende:
 Con esta actualización, puede crear una jerarquía de categorías de productos y asignarles atributos de producto a cada categoría de productos. Para obtener más información, consulte [Clasificar productos](inventory-how-categorize-items.md).
 
 ### <a name="send-purchase-orders-to-vendors"></a>Enviar pedidos de compra a proveedores
-Ahora puede introducir pedidos de compra en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, consulte [Procedimiento: Registrar compras](purchasing-how-record-purchases.md).
+Ahora puede introducir pedidos de compra en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, consulte [Registrar compras](purchasing-how-record-purchases.md).
 
 ### <a name="better-quality-incoming-documents"></a>Documentos entrantes de mejor calidad
 Ahora puede corregir fácilmente errores en los documentos digitalizados antes de recibir el documento resultante; de esta manera, entrenará al servicio para evitar errores en adelante. Para obtener más información, vea [Usar el servicio OCR para convertir archivos PDF y de imagen en documento electrónico](across-how-use-ocr-pdf-images-files.md).
@@ -90,10 +90,10 @@ Esta actualización agrega acciones al panel del proveedor en el complemento de 
 El complemento de Outlook ahora amplía el calendario de Outlook. Desde una cita de calendario, puede abrir el complemente de [!INCLUDE[d365fin](includes/d365fin_md.md)] y obtener una visión general del cliente asociado a la cita. A continuación, puede crear y registrar una factura de los servicios proporcionados en la reunión, y todo ello directamente en el calendario de Outlook. Para obtener más información, consulte [Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] como su bandeja de entrada de empresa en Outlook](madeira-outlook.md).  
 
 ### <a name="appsource-marketplace-for-extensions"></a>Mercado AppSource de extensiones
-La extensiones [!INCLUDE[d365fin](includes/d365fin_md.md)] están disponibles en el mercado AppSource en [AppSource.microsoft.com](https://appsource.microsoft.com/). Podrá buscar y encontrar extensiones en el mercado. Podrá ver la información, incluido material de marketing, capturas de pantalla, vídeos y vínculos a detalles adicionales. Para obtener más información, consulte [Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] mediante extensiones](ui-extensions.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] las extensiones están disponibles en el mercado AppSource en [AppSource.microsoft.com](https://appsource.microsoft.com/). Podrá buscar y encontrar extensiones en el mercado. Podrá ver la información, incluido material de marketing, capturas de pantalla, vídeos y vínculos a detalles adicionales. Para obtener más información, consulte [Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] mediante extensiones](ui-extensions.md).  
 
 ### <a name="shipping-agents-and-item-attributes"></a>Atributos de transportistas y producto
-Puede agregar atributos a sus productos de inventario que faciliten mucho la búsqueda del producto adecuado que desea el cliente. Para obtener más información sobre cómo trabajar con el formulario, consulte [Procedimiento: Trabajar con atributos de producto](inventory-how-work-item-attributes.md).  
+Puede agregar atributos a sus productos de inventario que faciliten mucho la búsqueda del producto adecuado que desea el cliente. Para obtener más información sobre cómo trabajar con el formulario, consulte [Trabajar con atributos de producto](inventory-how-work-item-attributes.md).  
 
 ### <a name="new-extensions-made-available"></a>Disponibilidad de nuevas extensiones
 Con esta actualización, puede elegir entre más extensiones en la ventana **Administración de extensiones**.
@@ -129,5 +129,5 @@ Escenarios clave que puede probar por sí solo:
 ## <a name="see-also"></a>Consulte también
 [[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Dynamics 365 Roadmap](https://roadmap.dynamics.com/)  
+[Guía básica de Finance and Operations, Business edition](https://roadmap.dynamics.com/)  
 

@@ -11,13 +11,13 @@ ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c0e028d84d868c7aca597ee007a038ccf3fa61a2
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 310cad43853f347ac7ab74e186edd82e7c54727e
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-collect-outstanding-balances"></a>Procedimiento: Cobrar saldos pendientes
+# <a name="collect-outstanding-balances"></a>Cobrar saldos pendientes
 Gestionar cobros incluye comprobar si los importes vencidos se pagan puntualmente. Si los clientes tienen pagos vencidos, puede empezar enviando el informe de Extracto de cliente como recordatorio. También puede emitir recordatorios.
 
 Puede usar recordatorios para recordar a los clientes que tienen importes vencidos. También puede usar recordatorios para calcular intereses o comisiones e incluirlos en el recordatorio. Utilice documentos de interés si desea cargar a los clientes intereses o comisiones sin recordarles que tienen importes vencidos.  
@@ -98,7 +98,7 @@ Si crea más recordatorios de aquellos para los que tenga niveles definidos, se 
 
 Por ejemplo, si escribe **Tiene una deuda de %9 %7 vencida desde el %2.**, el recordatorio resultante contendrá el siguiente texto: **Tiene una deuda de USD DL vencida desde el 02-02-2014**.
 
-Una vez configurados los términos de recordatorio, con niveles y texto adicionales, escriba uno de los códigos en cada una de las fichas de cliente. Para obtener más información, vea [Procedimiento: Registrar nuevos clientes](sales-how-register-new-customers.md).
+Una vez configurados los términos de recordatorio, con niveles y texto adicionales, escriba uno de los códigos en cada una de las fichas de cliente. Para obtener más información, vea [Registrar nuevos clientes](sales-how-register-new-customers.md).
 
 ## <a name="to-create-a-reminder-automatically"></a>Para crear un recordatorio automáticamente
 Los recordatorios son parecidos a las facturas. Cuando crea un recordatorio, debe rellenar una cabecera de recordatorio y una o varias líneas de recordatorio. Puede utilizar una función para crear recordatorios para todos los clientes de forma automática.

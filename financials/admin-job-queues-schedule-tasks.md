@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6dc45cfcff07bfb36f363121298cd0f68b9ce7fe
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b679c2762c67c6d78bcc6be293e6aabde4a58848
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Uso de colas de proyectos para programar tareas
@@ -25,7 +25,7 @@ La ventana **Entradas de cola de proyectos** enumera todos los proyectos existen
 
 Opcionalmente, puede establecer un filtro en el campo **Filtro categoría de la cola de proyecto**. Las categorías de la cola de proyecto se pueden usar para agrupar proyectos en la lista.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] ejecutará automáticamente los proyectos según los calendarios especificados para cada entrada de cola de proyecto. También puede iniciar, detener y poner una entrada de cola de proyecto en espera manualmente.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  ejecutará automáticamente los proyectos según los calendarios especificados para cada entrada de cola de proyecto. También puede iniciar, detener y poner una entrada de cola de proyecto en espera manualmente.
 
 ### <a name="log-files"></a>Log Files
 Los errores se muestran en la ventana **Registro de entradas de cola proyecto** a la que se accede de la cinta. También puede solucionar errores de la cola de proyectos. Los datos generados al ejecutar una cola de proyectos se almacenan en la base de datos.  
@@ -35,7 +35,7 @@ Las colas de proyectos son un instrumento eficaz para programar la ejecución de
 
  Alternativamente, puede que desee programar registros para horas en que resulta adecuado para su organización. Por ejemplo, para su empresa puede ser útil ejecutar ciertas rutinas cuando la mayor parte de la introducción de datos del día ha concluido. Para hacerlo, configure la cola de trabajos para que ejecute varios informes de registro por lotes, como el **Reg. lotes pedidos venta**, el **Reg. lotes facturas ventas** y el **Reg. lotes abonos venta**.  
 
- [!INCLUDE[d365fin](includes/d365fin_md.md)] admite el registro en segundo plano para los siguientes tipos de documento:  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)]  admite el registro en segundo plano para los siguientes tipos de documento:  
 
 -   Venta: pedido de venta, pedido de devolución, nota de crédito, factura  
 
@@ -52,7 +52,7 @@ Puede configurar este uso de cola de proyecto en la ventana **Configuración de 
 >  Si configura un proyecto que va a registrar e imprimir documentos y la impresora muestra un cuadro de diálogo, como una solicitud de credenciales o una advertencia sobre un nivel bajo de tinta de impresora, el documento se registra pero no se imprime. Finalmente, el tiempo de espera del movimiento de cola de proyectos correspondiente se agota y el campo **Estado** se establece **Error**. Por consiguiente, es recomendable no utilizar una configuración de impresora que requiere la interacción con la pantalla de cuadros de diálogo de la impresora junto con el registro en segundo plano.  
 
 ## <a name="use-the-my-job-queue-part"></a>Use el apartado de Mi cola proyecto
-El apartado **Mi cola proyecto** muestra los movimientos de colas de proyectos que un usuario ha iniciado, pero que aún no han finalizado. Por defecto, el apartado no puede verse, por lo que tiene que agregarlo en el área de trabajo. Para obtener más información, vea [Procedimiento: Cambiar áreas de trabajo](change-role.md)  
+El apartado **Mi cola proyecto** muestra los movimientos de colas de proyectos que un usuario ha iniciado, pero que aún no han finalizado. Por defecto, el apartado no puede verse, por lo que tiene que agregarlo en el área de trabajo. Para obtener más información, vea [Cambiar áreas de trabajo](change-role.md).  
 
 En este apartado, puede ver aquellos documentos que se están procesando o que están en la cola para los que se especifica su identificador en el campo **Id. usuario asignado**. La parte le ayuda a realizar un seguimiento de todos los movimientos de cola de proyectos, incluidos los relacionados con el registro en segundo plano. La parte puede indicar en un vistazo si se produjo error en el registro de un documento o si hay errores en un movimiento de cola de proyectos. El apartado también le permite cancelar un registro de documento si no se está ejecutando.  
 
@@ -68,6 +68,6 @@ Cuando una cola de proyecto se activada de forma manual, se ejecuta con las cred
 El registro del movimiento de cola de proyectos tiene muchos campos cuya finalidad es incluir parámetros en una unidad de código especificada para ejecutarse con una cola de proyectos. Esto también significa que las unidades de código que se van a ejecutar mediante la cola de proyectos se deben especificar con el registro del movimiento de la cola de proyectos como parámetro en el desencadenador **OnRun**. Esto ayuda a proporcionar un nivel de seguridad adicional, ya que evita que los usuarios ejecuten unidades de código aleatorias mediante la cola de proyectos. Si el usuario debe transmitir parámetros a un informe, la única manera de hacerlo es ajustar la ejecución del informe en una unidad de código, que a continuación analiza los parámetros de entrada y los especifica en el informe antes de ejecutarlo.  
 
 ## <a name="see-also"></a>Consulte también  
-[Configuración y Administración en Dynamics 365 for Financials](admin-setup-and-administration.md)  
-[Configurar Dynamics 365 for Financials](setup.md)  
+[Configuración y Administración de Finance and Operations, Business edition](admin-setup-and-administration.md)  
+[Configurar Finance and Operations, Business edition ](setup.md)  
 

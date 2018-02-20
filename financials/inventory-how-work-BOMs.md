@@ -11,13 +11,13 @@ ms.workload: na
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: caf3637dac270a3d20283e6c0776634ee1f5613e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: da306187ff3007834e34b727c2c8f4e00dd8829b
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-bills-of-material"></a>Trabajar con listas de materiales
+# <a name="work-with-bills-of-material"></a>Trabajar con listas de materiales
 Utilice listas de materiales (L.M.) para estructurar los productos principales que se deben montar o producir por los recursos o centros de máquinas de componentes. Una L.M. de ensamblado también se puede utilizar para vender un producto principal como un kit formado por sus componentes.
 
 ## <a name="assembly-boms-or-production-boms"></a>L.M. de ensamblado o L.M. de producción
@@ -29,9 +29,9 @@ Las L.M. de ensamblado se describen en este tema.
 
 Utilice las órdenes de producción para crear los productos finales de los componentes en un proceso complejo que requiere una ruta de producción y un proyecto y centros de trabajo o de máquina, que representan las capacidades de producción. Por ejemplo, un proceso de producción podría ser cortar las placas de acero en una operación, soldarlas en la operación siguiente y pintar el producto final en la última operación. Para obtener más información, consulte [Fabricación](production-manage-manufacturing.md).  
 
-Un L.M. de producción es los datos maestros que definen un producto y los componentes que entren ellos. Para los artículos de montaje, el L.M. de producción se debe certificar y asignar al producto antes de que se pueda utilizar en una orden de producción. Cuando introduzca el producto en una línea del orden de producción, manualmente o restaurando el pedido, el contenido del L.M. de producción se convertirá en los componentes de la orden de producción. Para obtener más información, consulte [Creación de L.M. de producción](production-how-to-create-production-boms.md).  
+Un L.M. de producción es los datos maestros que definen un producto y los componentes que entren ellos. Para los artículos de montaje, el L.M. de producción se debe certificar y asignar al producto antes de que se pueda utilizar en una orden de producción. Cuando introduzca el producto en una línea del orden de producción, manualmente o restaurando el pedido, el contenido del L.M. de producción se convertirá en los componentes de la orden de producción. Para obtener más información, consulte [Crear L.M. de producción](production-how-to-create-production-boms.md).  
 
-El concepto de recursos de producción es mucho más avanzado que en administración de ensamblados. Los centros de trabajo y los de máquina funcionan como los recursos, y los pasos de una orden de producción se representan por las operaciones que se asignan a los recursos de las rutas de producción. Para obtener más información, consulte [Creación de conexiones de ruta](production-how-to-create-routings.md).
+El concepto de recursos de producción es mucho más avanzado que en administración de ensamblados. Los centros de trabajo y los de máquina funcionan como los recursos, y los pasos de una orden de producción se representan por las operaciones que se asignan a los recursos de las rutas de producción. Para obtener más información, consulte [Crear rutas](production-how-to-create-routings.md).
 
 Los pedidos de ensamblado y las órdenes de producción se pueden relacionar directamente a los pedidos de venta. Sin embargo, solo podrá los pedidos de ensamblado para personalizar el producto final directamente para una solicitud de cliente con el pedido de venta.
 
@@ -80,7 +80,7 @@ Se vacían todos los campos de la línea de factura de ventas para el elemento d
 ## <a name="to-calculate-the-standard-cost-of-an-assembly-item"></a>Para calcular el coste estándar de un elemento de ensamblado
 Se calcula el coste unitario de un elemento de ensamblado distribuyendo el coste unitario de cada componente y recurso de la L.M. de ensamblado del producto.
 
-También puede calcular y actualizar el coste estándar de uno o varios productos en la ventana **Hoja trab. coste estándar**. Para obtener más información, consulte [Cómo actualizar costes estándar](finance-how-to-update-standard-costs.md).  
+También puede calcular y actualizar el coste estándar de uno o varios productos en la ventana **Hoja trab. coste estándar**. Para obtener más información, consulte [Actualizar costes estándar](finance-how-to-update-standard-costs.md).  
 
 El coste unitario de una L.M. de ensamblado equivale siempre al total de los costes unitarios de sus componentes, incluidas las L.M. de otros ensamblados y cualquier recurso.
 
@@ -102,6 +102,6 @@ Los costes de los productos que conforman la L.M. de ensamblado se copian de las
 ## <a name="see-also"></a>Consulte también
 [Registro de productos nuevos](inventory-how-register-new-items.md)  
 [Consultar la disponibilidad de los productos](inventory-how-availability-overview.md)     
-[Inventario](inventory-manage-inventory.md)  
-[Trabajar con [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
+[Grupos contables inventario](inventory-manage-inventory.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

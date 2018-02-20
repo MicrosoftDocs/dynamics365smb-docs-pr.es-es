@@ -13,14 +13,14 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 08/10/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 2d8863ba9037f6470232372dedd4536664fd3404
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6edce17707ec8514348abe46f30a9368802a858a
 ms.contentlocale: es-es
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-finance"></a>Configurar las finanzas
-Para ayudarle a empezar rápidamente, [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] incluye las configuraciones estándar para la mayoría de los procesos financieros. Si necesita cambiar las configuraciones para que se adapten a su empresa, continúe. Por ejemplo, desde la página principal puede usar a una guía de configuración asistida para configurar los impuestos de ventas de su ubicación.  
+Para ayudarle a empezar rápidamente, [!INCLUDE[d365fin](includes/d365fin_md.md)] incluye las configuraciones estándar para la mayoría de los procesos financieros. Si necesita cambiar las configuraciones para que se adapten a su empresa, continúe. Por ejemplo, desde la página principal puede usar a una guía de configuración asistida para configurar los impuestos de ventas de su ubicación.  
 
 Sin embargo, hay algunos parámetros que debe configurar. Por ejemplo, si desea utilizar dimensiones como base de la inteligencia empresarial.  
 
@@ -33,11 +33,11 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Configure una tolerancia por la que el sistema cierre una factura aunque el pago, incluido el descuento, no cubra totalmente el importe de la factura.|[Trabajar con tolerancias de pago y tolerancias de descuento de pago](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Configure los periodos fiscales. |[Abrir un nuevo ejercicio](finance-how-open-new-fiscal-year.md) |
 | Definir cómo se comunican los importes del impuesto de valor añadido que ha recopilado por las ventas a las autoridades fiscales. |[Crear informes de IVA para las autoridades fiscales](finance-how-report-vat.md)|
-| Configure sus características de ventas y compras para manejar pagos en divisas extranjeras.|[Procedimiento: Permitir la liquidación de movimientos de cliente en distintas divisas](finance-how-enable-application-ledger-entries-different-currencies.md)
+| Configure sus características de ventas y compras para manejar pagos en divisas extranjeras.|[Permitir la liquidación de movimientos de cliente en distintas divisas](finance-how-enable-application-ledger-entries-different-currencies.md)
 | Agregue nuevas cuentas al plan de cuentas existente. |[Configuración del plan contable](finance-setup-chart-accounts.md) |
 | Configure gráficos de inteligencia empresarial (BI) para analizar el flujo de efectivo. |[Configuración del análisis de flujo de efectivo](finance-setup-cash-flow-analyses.md) |
-|Activar la facturación de un cliente que no está configurado en el sistema.|[Cómo configurar clientes de efectivo](finance-how-to-set-up-cash-customers.md)|
-| Configurar los informes Intrastat y, enviar el informe a una autoridad | [Procedimiento: configuración y creación de informes Intrastat](finance-how-setup-report-intrastat.md)|
+|Activar la facturación de un cliente que no está configurado en el sistema.|[Configurar clientes de efectivo](finance-how-to-set-up-cash-customers.md)|
+| Configurar los informes Intrastat y, enviar el informe a una autoridad | [Configuración y creación de informes Intrastat](finance-how-setup-report-intrastat.md)|
 
 ## <a name="see-also"></a>Consulte también
 [Finanzas](finance.md)  
@@ -47,5 +47,6 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 [Analizar el flujo de efectivo de la empresa](finance-analyze-cash-flow.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

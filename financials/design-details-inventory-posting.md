@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 9bc177d45efa1e6e772ed70cc66de393e6250def
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-inventory-posting"></a>Detalles de diseño: Registro de inventario
@@ -77,7 +77,7 @@ Cada transacción de inventario, como un albarán de compra o un albarán de ven
 
 |Nº mov.|Nº mov. producto|Nº mov. prod. entrada|Nº mov. prod. salida|Cantidad|  
 |---------------|---------------------------|----------------------------|-----------------------------|--------------|  
-|2|2|0|2|-10|  
+|2|2|1|2|-10|  
 
  Al final del periodo contable se ejecuta el trabajo por lotes de **Registro variación inventario** en contabilidad para conciliar estas transacciones de inventario con la contabilidad.  
 

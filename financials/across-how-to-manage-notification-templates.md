@@ -1,6 +1,6 @@
 ---
 title: "Administrar plantillas de notificación | Documentos de Microsoft"
-description: "Las notificaciones se envían a los usuarios del flujo de trabajo para notificarles los pasos que deben realizar o informarles acerca del estado de los pasos del flujo de trabajo. Configure quién y cuándo recibe la notificación mediante la configuración de usuarios de aprobación, la programación de notificaciones de los usuarios y respuestas correspondientes del flujo de trabajo para definir al destinatario de las notificaciones. Para obtener más información, vea [Configuración de notificaciones de flujos de trabajo](across-setting-up-workflow-notifications.md)."
+description: "Las notificaciones se envían a los usuarios del flujo de trabajo para notificarles los pasos que deben realizar o informarles acerca del estado de los pasos del flujo de trabajo. Configure quién y cuándo recibe la notificación mediante la configuración de usuarios de aprobación, la programación de notificaciones de los usuarios y respuestas correspondientes del flujo de trabajo para definir al destinatario de las notificaciones. Para obtener más información, consulte [Configurar notificaciones de flujo de trabajo](across-setting-up-workflow-notifications.md)."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9163bdb48a10d9b36b670e4bc67c696fbade6b37
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 67db510085c5a858c88565087683ffeeb4f77bd1
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-manage-notification-templates"></a>Procedimiento: Administrar las plantillas de notificación
+# <a name="manage-notification-templates"></a>Administrar las plantillas de notificación
 Las notificaciones se envían a los usuarios del flujo de trabajo para notificarles los pasos que deben realizar o informarles acerca del estado de los pasos del flujo de trabajo. Configure quién y cuándo recibe la notificación mediante la configuración de usuarios de aprobación, la programación de notificaciones de los usuarios y respuestas correspondientes del flujo de trabajo para definir al destinatario de las notificaciones. Para obtener más información, consulte [Configurar notificaciones de flujo de trabajo](across-setting-up-workflow-notifications.md).  
 
  Las notificaciones se basan en las plantillas que definen el contenido y el diseño de la notificación. Puede exportar el contenido de una plantilla de notificación, editarla e importarla en la misma plantilla de notificación o en otra nueva. Esto se describe en los procedimientos siguientes:  
@@ -76,10 +76,10 @@ Los valores de parámetro se insertan automáticamente en las notificaciones seg
 
 ## <a name="see-also"></a>Consulte también  
  [Configurar notificaciones de flujo de trabajo](across-setting-up-workflow-notifications.md)   
- [Configurar el correo electrónico](madeira-how-setup-email.md)   
- [Procedimiento: Configurar usuarios de flujo de trabajo](across-how-to-set-up-workflow-users.md)   
- [Procedimiento: Configurar usuarios de aprobación](across-how-to-set-up-approval-users.md)   
- [Procedimiento: Crear flujos de trabajo](across-how-to-create-workflows.md)   
+ [Configurar correo electrónico](madeira-how-setup-email.md)   
+ [Configurar usuarios de flujo de trabajo](across-how-to-set-up-workflow-users.md)   
+ [Configurar usuarios de aprobación](across-how-to-set-up-approval-users.md)   
+ [Crear flujos de trabajo](across-how-to-create-workflows.md)   
  [Uso de colas de proyectos para programar tareas](admin-job-queues-schedule-tasks.md)   
  [Flujo de trabajo](across-workflow.md)   
 

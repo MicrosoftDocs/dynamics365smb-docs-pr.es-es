@@ -13,10 +13,10 @@ ms.search.keywords: service, service items, repairs, maintenance, fix
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 7eac962e0c9863d8c6ed9bcff19f320687f217ff
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: cee6dcc0c0f4f596b3f63dbafec344875edb4e33
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
@@ -31,18 +31,18 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
   
 | Para | Vea |
 | --- | --- |
-| Configure códigos que asignen automáticamente líneas en los documentos de servicio para los servicios que entrega con frecuencia. |[Cómo configurar códigos para servicios estándar](service-how-setup-service-coding.md)|
-| Establezca una configuración general que controle los aspectos de los procesos de administración de servicios.|[Cómo configurar procesos de servicio](service-setup-service-processes.md)|
-| Defina cómo funciona su organización con el informe de defectos. |[Procedimiento: creación de informes de defecto](service-how-setup-fault-reporting.md) |
-| Configurar las ofertas de servicio que su empresa entrega a los clientes.|[Cómo configurar ofertas de servicio](service-how-setup-service-offerings.md)|
-| Proporcione pautas de solución de problemas que ayuden a los representantes de servicio a entregar un servicio más rápido. |[Para configurar la detección de errores](service-how-setup-troubleshooting.md) |
+| Configure códigos que asignen automáticamente líneas en los documentos de servicio para los servicios que entrega con frecuencia. |[Configurar códigos para servicios estándar](service-how-setup-service-coding.md)|
+| Establezca una configuración general que controle los aspectos de los procesos de administración de servicios.|[Configurar procesos de servicio](service-setup-service-processes.md)|
+| Defina cómo funciona su organización con el informe de defectos. |[Crear informes de defecto](service-how-setup-fault-reporting.md) |
+| Configurar las ofertas de servicio que su empresa entrega a los clientes.|[Configurar ofertas de servicio](service-how-setup-service-offerings.md)|
+| Proporcione pautas de solución de problemas que ayuden a los representantes de servicio a entregar un servicio más rápido. |[Configurar detección errores](service-how-setup-troubleshooting.md) |
 | Configure la asignación de recursos para facilitar la asignación del recurso adecuado a una tarea de servicio. |[Configurar asignación de recursos](service-how-setup-resource-allocation.md) |
 | Defina los precios de los servicios y configure los costes de servicio adicionales para evaluar los pedidos de servicio. |[Configurar precios y costes adicionales de servicios](service-how-setup-service-costs-pricing.md)|
 | Configurar para realiza un seguimiento de horas de recursos y del estado del pedido de servicio para prever cargas de trabajo y necesidades de servicio.|[Configurar horas de trabajo y de servicio](service-how-setup-work-service-hours.md)|
 | Configurar las opciones del estado de reparación para poder controlar el progreso de las reparaciones. | [Configuración de estados para órdenes y reparaciones de servicio](service-order-repair-status.md)|
-| Configure un programa de préstamo, con el que puede prestar un sustituto mientras trabaja en un producto de servicio. |[Cómo configurar un programa de productos prestados](service-how-setup-loaner-program.md) |
-| Configure componentes de servicio y de productos. |[Cómo configurar productos de servicio](service-how-setup-service-items.md) |
-| Establecer las bases para crear contratos de servicio y ofertas de contrato. |[Cómo configurar contratos de servicio](service-how-setup-service-contracts.md) |
+| Configure un programa de préstamo, con el que puede prestar un sustituto mientras trabaja en un producto de servicio. |[Configurar un programa de productos prestados](service-how-setup-loaner-program.md) |
+| Configure componentes de servicio y de productos. |[Configurar productos de servicio](service-how-setup-service-items.md) |
+| Establecer las bases para crear contratos de servicio y ofertas de contrato. |[Configurar contratos de servicio](service-how-setup-service-contracts.md) |
 
 ## <a name="see-also"></a>Consulte también .
 [Gestión de servicios](service-service.md)  

@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: workflow, Odata, Power App, SOAP
-ms.date: 06/02/2017
-ms.author: edupont
+ms.date: 01/25/2018
+ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 277dda7c954380138af1ecabc02d77121f35aac7
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ef4d841723b6bb0af37695a8c3ed1d805319be78
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="using-included365finincludesd365finmdmd-in-an-automated-workflow"></a>Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] en un flujo de trabajo automatizado
@@ -28,27 +28,31 @@ Puede utilizar sus datos de [!INCLUDE[d365fin](includes/d365fin_md.md)] como par
 1. En el explorador, vaya a [flow.microsoft.com](https://flow.microsoft.com/en-us/) y, a continuación, inicie sesión.
 2. Seleccione **Mis flujos** en la cinta en la parte superior de la página.
 3. En la ventana **Mis flujos**, elija la opción **Crear desde cero**.
-4. En la lista de desencadenadores disponibles, seleccione uno de los dos desencadenadores de [!INCLUDE[d365fin](includes/d365fin_md.md)] disponibles: *Cuando se cree un registro* o *Cuando se modifique un registro*.
-5. Flow mostrará una página de conexión que le solicita la información necesaria para conectarse con los datos de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para conectarse debe especificar un nombre para la conexión, una dirección URL de OData, el nombre de usuario, la contraseña y el nombre de la empresa.
+4. En la lista de disparadores disponibles, seleccione uno de los de [!INCLUDE[d365fin](includes/d365fin_md.md)] disponibles:  
+    *Cuando se cree un registro*,  
+    *Cuando se elimine un registro*,  
+    *Cuando se modifique un registro*,  
+    *Cuando se solicite la aprobación de un cliente*,  
+    *Cuando se solicite la aprobación de un lote de diario general*,  
+    *Cuando se solicite la aprobación de una línea de diario general*,  
+    *Cuando se solicite la aprobación de un artículo*,  
+    *Cuando se solicite la aprobación de un documento de compra*,  
+    *Cuando se solicite la aprobación de un documento de ventas*, o  
+    *Cuando se solicite la aprobación de un proveedor*.
+5. Flow le solicitará la información necesaria para conectarse con los datos de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Si ha seleccionado uno de los disparadores siguientes: *Cuando se cree un registro*, *Cuando se modifique un registro* o *Cuando se elimine un registro*, debe seleccionar un nombre de la empresa y un nombre de la tabla. Si utiliza otro disparador, únicamente será necesario el nombre de la empresa para conectarse.
 
-   Para *URL de OData*, puede copiar la dirección URL de OData V4 de cualquiera de los servicios web que se muestran en la página **Servicios Web** en [!INCLUDE[d365fin](includes/d365fin_md.md)], por ejemplo, `https://mycompany.financials.dynamics.com:7048/MS/ODataV4/`.  
-
-   Para *Nombre empresa*, utilice el nombre que se muestra en el campo **Nombre** de la ventana **Información empresa** en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Si [!INCLUDE[d365fin](includes/d365fin_md.md)] contiene varias empresas, elija el nombre de la empresa pertinente en la lista en la ventana **Empresas**. En ambos casos, asegúrese de que el nombre que especifique en el asistente PowerApps coincide exactamente con el texto que se muestra en [!INCLUDE[d365fin](includes/d365fin_md.md)], como `My Company`.
-
-   Para el nombre de usuario y la contraseña, utilice el nombre y la clave de acceso al servicio web que se especificó para la cuenta en la ventana **Usuarios** en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Por ejemplo, su nombre de usuario es *ADMIN* y la clave de acceso al servicio Web que actúa de contraseña es *EgzeUFQ9Uv0o5O0lUMyqCzo1ueUW9yRF3SsLU=*. Para obtener más información, vea [Administrar usuarios y permisos](ui-how-users-permissions.md).
-6. Elija el botón **Crear** al final de la página para continuar.
-
-   Flow mostrará una lista de tablas que están disponibles en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Estas tablas, o extremos, representan todos los servicios web que haya publicado desde [!INCLUDE[d365fin](includes/d365fin_md.md)].
+   Flow mostrará una lista de empresas y tablas que están disponibles en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Estas tablas, o extremos, representan todos los servicios web que haya publicado desde [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
    Si lo desea, puede crear una nueva dirección URL de servicio Web en [!INCLUDE[d365fin](includes/d365fin_md.md)] mediante la acción **Crear conjunto de datos** en la página **Servicios web**, utilizando la guía de configuración asistida **Configurar informes** o eligiendo la acción **Editar en Excel** en cualquier lista.
-7. Elija los datos que desee utilizar en Flow.
 
-Ya se ha conectado correctamente con los datos de Dynamics 365 y está preparado para comenzar a crear su flujo. Para obtener más información, consulte la [documentación de Flow](https://flow.microsoft.com/documentation/getting-started/).
+Ya se ha conectado correctamente con los datos de Finance and Operations, Business edition y está preparado para comenzar a crear su flujo. Para obtener más información, consulte la [documentación de Flow](https://flow.microsoft.com/documentation/getting-started/).
+
+Para solucionar problemas de Microsoft Flow, vea [Solución de problemas de integración con Microsoft Flow](across-troubleshooting-how-use-financials-data-source-flow.md).
 
 ## <a name="see-also"></a>Consulte también
 [[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Importar datos de empresa de otros sistemas financieros](upload-data.md)  
-[Administrar usuarios y permisos](ui-how-users-permissions.md)    
+[Gestionar usuarios y permisos](ui-how-users-permissions.md)    
 [Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Finanzas](finance.md)  
 

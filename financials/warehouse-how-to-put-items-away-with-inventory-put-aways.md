@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/31/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5de060d742401da62339fb67deff38d0a1e7bddb
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 92eae2f24daf8181e39b3d22ea23c31a9ee85347
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-put-items-away-with-inventory-put-aways"></a>Ubicación de productos con ubicación de inventario
+# <a name="put-items-away-with-inventory-put-aways"></a>Ubicar productos con ubicación de inventario
 Cuando el almacén está configurado para requerir el proceso de ubicación, pero no el proceso de recepción, utilice el documento **Ubicac. inventario** para registrar la información de ubicación y recepción de sus documentos de origen. El documento de origen de entrada puede ser un pedido de compra, una devolución de ventas, un pedido de transferencia de salida o una orden de producción o ensamblado cuya salida está preparados para ubicarse.  
 
 Puede crear una ubicación de inventario de tres formas:  
@@ -39,7 +39,7 @@ En el caso de pedidos de compra, pedidos de devolución de venta, pedidos de tra
 4. Seleccione la acción **Crear solicitud entrada almacén**.  
 
 > [!NOTE]  
->  También puede crear la solicitud de almacén de entrada seleccionando la casilla de verificación **Crear solicitud de entrada** cuando actualice la orden de producción. Para obtener más información, vea [Procedimiento: Actualizar o replanificar o actualizar las órdenes de producción](production-how-to-replan-refresh-production-orders.md).  
+>  También puede crear la solicitud de almacén de entrada seleccionando la casilla de verificación **Crear solicitud de entrada** cuando actualice la orden de producción. Para obtener más información, vea [Actualizar o replanificar o actualizar las órdenes de producción](production-how-to-replan-refresh-production-orders.md).  
 
 Cuando se crea la solicitud de almacén, un empleado de almacén asignado para realizar las ubicaciones de productos puede ver que el documento de origen está preparado y puede crear un documento de ubicación de inventario.  
 
@@ -68,7 +68,7 @@ Ahora que se ha creado la solicitud, el empleado del almacén puede crear un nue
 2. En las líneas de ubicación del campo **Cód. ubicación**, la ubicación en la cual se debe realizar la ubicación se sugiere como la ubicación predeterminada del artículo. Si es necesario puede cambiar la ubicación en esta ventana.  
 3. Realice la ubicación e introduzca la información de la cantidad de ubicación real en la ventana **Cdad. a manipular**.
 
-    Si es necesario colocar los productos para otra línea en varias ubicaciones porque la ubicación designada está completa, por ejemplo, utilice la función **Dividir línea** en la ficha desplegable **Líneas**. Para obtener más información acerca de cómo dividir líneas, consulte[Procedimiento: dividir las líneas de actividad de almacén](warehouse-how-to-split-warehouse-activity-lines.md).  
+    Si es necesario colocar los productos para otra línea en varias ubicaciones porque la ubicación designada está completa, por ejemplo, utilice la función **Dividir línea** en la ficha desplegable **Líneas**. Para obtener más información acerca de cómo dividir líneas, consulte[Dividir las líneas de actividad de almacén](warehouse-how-to-split-warehouse-activity-lines.md).  
 4. Cuando haya realizado la ubicación, elija la acción **Registrar**.  
 
 El proceso de registro contabilizará la recepción, o para las órdenes de producción, la salida, de las líneas del documento de origen que se han ubicado y, si la ubicación utiliza ubicaciones, el registro también creará movimientos de almacén para registrar los cambios de cantidad en la ubicación.

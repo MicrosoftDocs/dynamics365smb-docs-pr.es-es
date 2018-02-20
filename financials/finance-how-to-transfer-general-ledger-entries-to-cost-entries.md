@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 4e68378d7acc789a70caf9c5b0590a81bf874337
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 592f42f53593735526ccbd3ddaa69bb0778de0ac
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-transfer-general-ledger-entries-to-cost-entries"></a>Procedimiento: transferencia de movimientos de contabilidad a los movimientos de coste
+# <a name="transfer-general-ledger-entries-to-cost-entries"></a>Transferir movimientos de contabilidad a movimientos de coste
 Puede transferir movimientos de contabilidad a movimientos de coste.  
 
 Antes de ejecutar el proceso para transferir movimientos de contabilidad a movimientos de coste, debe preparar la transferencia para evitar el registro manual de corrección.  

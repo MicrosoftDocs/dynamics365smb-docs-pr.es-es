@@ -1,6 +1,6 @@
 ---
-title: "Configurar las campañas de marketing en Dynamics 365 | Documentos de Microsoft"
-description: "Describe cómo puede configurar y llevar a cabo campañas de marketing en Dynamics 365 para ayudarle a identificar, atraer y conservar a los clientes."
+title: "Configurar campañas de márquetin en Finance and Operations, Business edition | Documentos de Microsoft"
+description: "Describe cómo puede configurar y llevar a cabo campañas de marketing en Finance and Operations, Business edition para ayudarle a identificar, atraer y conservar a los clientes."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,16 +11,16 @@ ms.search.keywords: marketing, campaign, promo, prospect
 ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 7ca0479ba1872600356ec5b10bf9492fef87a857
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4ca4fc6eee45c69be3de746ce1d799a481d7ea48
 ms.contentlocale: es-es
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-marketing-campaigns"></a>Administrar campañas de marketing
 Un buen plan de marketing puede permitirle identificar, atraer y conservar a los clientes. Un plan de marketing consta de varias campañas y otras interacciones relacionadas con sus actividades de ventas y marketing. Durante la planificación de una campaña, debe decidir a qué contactos se va a dirigir, el tipo de campaña (por ejemplo, exposición comercial o correo directo) y los vendedores que realizarán las tareas.
 
-Cada campaña consta de diversas actividades o tareas. Puede combinar varias tareas, por ejemplo, tareas que cada una represente un paso, en las actividades. Las tareas de actividad están relacionadas entre sí por medio de una fórmula de fecha. Las tareas individuales solo se pueden asignar a vendedores. Las actividades se pueden asignar a oportunidades, vendedores, grupos de vendedores y contactos. Para obtener más información, vea [Procedimiento: Configurar ciclos y etapas de ciclos de venta de oportunidades](marketing-how-setup-opportunity-sales-cycles-stages.md).
+Cada campaña consta de diversas actividades o tareas. Puede combinar varias tareas, por ejemplo, tareas que cada una represente un paso, en las actividades. Las tareas de actividad están relacionadas entre sí por medio de una fórmula de fecha. Las tareas individuales solo se pueden asignar a vendedores. Las actividades se pueden asignar a oportunidades, vendedores, grupos de vendedores y contactos. Para obtener más información, vea [Configurar ciclos de ventas de oportunidad y etapas de ciclo](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="defining-individual-campaigns"></a>Definir campañas individuales
 Antes de crear una campaña, debe configurar *códigos de estado de campaña*. El uso de estos códigos le permitirá administrar sus campañas asignando un estado a cada una de ellas. A medida que trabaja en las distintas etapas de una campaña, podrá ver en qué etapa de la campaña se encuentra y cuál es el siguiente paso. Los códigos de estado de campaña se configuran en la ventana **Estado campaña**.
@@ -39,16 +39,16 @@ Cuando haya configurado su campaña, decidido qué segmentos desea que cubra la 
 > [!NOTE]  
 >   Para activar los precios de venta y descuentos de línea, debe especificar si todo el segmento o solo algunos contactos son los objetivos de la campaña. Si los precios de venta y descuentos de línea cubren a todos los contactos del segmento, seleccione el campo **Objetivo campaña** de la ficha desplegable **Campaña** de la ficha **Segmento**.
 
-Si los precios de venta y descuentos de línea no se ofrecen a todos los contactos del segmento, puede desactivar el campo **Objetivo campaña** para los contactos relevantes. Si no ve este campo, puede agregarlo a la vista. Para obtener más información, vea [Personalización del usuario](ui-user-personalization.md).
+Si los precios de venta y descuentos de línea no se ofrecen a todos los contactos del segmento, puede desactivar el campo **Objetivo campaña** para los contactos relevantes. Si no ve este campo, puede agregarlo a la vista. Para obtener más información, vea [Personalización del área de trabajo](ui-personalization-user.md).
 
 ## <a name="conducting-campaigns"></a>Realizar campañas
 A medida que se desarrolla una campaña, se registran todas las interacciones con los contactos o segmentos, por lo que puede obtener estadísticas y otra información sobre los costes y los porcentajes de éxito alcanzado.
 
-Las campañas las realizan vendedores y debe crear actividades para representar cada tarea y asignarlas al vendedor relevante. Para obtener más información, vea [Procedimiento: Configurar ciclos y etapas de ciclos de venta de oportunidades](marketing-how-setup-opportunity-sales-cycles-stages.md).
+Las campañas las realizan vendedores y debe crear actividades para representar cada tarea y asignarlas al vendedor relevante. Para obtener más información, vea [Configurar ciclos de ventas de oportunidad y etapas de ciclo](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="see-also"></a>Consulte también
 [Gestionar contactos](marketing-contacts.md)  
 [Administrar segmentos](marketing-segments.md)  
 [Administrar oportunidades de venta](marketing-manage-sales-opportunities.md)  
-[Trabajar con Dynamics 365](ui-work-product.md)  
+[Trabajar con Finance and Operations, Business edition](ui-work-product.md)  
 

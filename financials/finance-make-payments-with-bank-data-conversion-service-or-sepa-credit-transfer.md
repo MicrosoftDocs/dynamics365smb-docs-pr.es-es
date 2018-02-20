@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 11/17/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 0760b5480b3c2de9bc370526bd87da2c9a492d92
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d9388a99585eea4e9e229a2f47982f9f690e3001
 ms.contentlocale: es-es
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="making-payments-with-bank-data-conversion-service-or-sepa-credit-transfer"></a>Realizar pagos con Servicio de conversión de datos del banco o Transferencia de crédito SEPA
@@ -29,15 +29,15 @@ En la ventana **Diario de pagos**, puede procesar pagos a sus proveedores export
 
 |**Para**|**Vea**|  
 |------------|-------------|  
-|Active la función de servicio de conversión de datos bancarios para convertir los archivos de extracto de cuenta a un formato que pueda importar o para tener los archivos de pago exportados convertidos al formato que el banco requiere.|[Procedimiento: Configuración del servicio de conversión de datos bancarios](bank-how-setup-bank-statement-service.md)|  
-|Configure un banco, un proveedor y un diario de pagos para la transferencia de crédito de SEPA.|[Configuración de transferencias de crédito SEPA](finance-how-to-set-up-sepa-credit-transfer.md)|  
+|Active la función de servicio de conversión de datos bancarios para convertir los archivos de extracto de cuenta a un formato que pueda importar o para tener los archivos de pago exportados convertidos al formato que el banco requiere.|[Configurar el servicio de conversión de datos bancarios](bank-how-setup-bank-statement-service.md)|  
+|Configure un banco, un proveedor y un diario de pagos para la transferencia de crédito de SEPA.|[Configurar la transferencia de crédito de SEPA](finance-how-to-set-up-sepa-credit-transfer.md)|  
 |Rellenar el diario de pagos con líneas de pagos vencidos a proveedores, con opción de insertar fechas de registro según la fecha de vencimiento de los documentos de compra relacionados.|[Administrar pagos](payables-manage-payables.md)|  
-|Exportar líneas de diario de pagos a un archivo en formato de transferencia de crédito SEPA.|[Exportación de pagos a un archivo de banco](payables-how-export-payments-bank-file.md)|  
+|Exportar líneas de diario de pagos a un archivo en formato de transferencia de crédito SEPA.|[Exportar pagos a un archivo bancario](payables-how-export-payments-bank-file.md)|  
 |Cuando el banco procese correctamente el pago electrónico, registre los pagos.|[Trabajar con diarios generales](ui-work-general-journals.md)|  
 
 ## <a name="see-also"></a>Consulte también  
-[Procedimiento: Configuración del servicio de conversión de datos bancarios](bank-how-setup-bank-statement-service.md)  
-[Configuración de transferencias de crédito SEPA](finance-how-to-set-up-sepa-credit-transfer.md)  
+[Configurar el servicio de conversión de datos bancarios](bank-how-setup-bank-statement-service.md)  
+[Configurar la transferencia de crédito de SEPA](finance-how-to-set-up-sepa-credit-transfer.md)  
 [Administración de pagos](payables-manage-payables.md)   
 [Trabajar con diarios generales](ui-work-general-journals.md)  
 [Cobro de pagos mediante adeudo directo SEPA](finance-collect-payments-with-sepa-direct-debit.md)   

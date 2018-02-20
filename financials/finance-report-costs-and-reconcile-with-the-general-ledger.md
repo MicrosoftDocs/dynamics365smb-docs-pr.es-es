@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 3c3a02aa2251b9b6b18576e9f274d018a617b179
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 45afc7249e921b483d9fcb6860401528746f554a
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Creación de informes de costes y conciliación con la contabilidad
@@ -32,7 +32,7 @@ Al finalizar el periodo contable, mensual, anual o del tipo que sea, se llevan a
 |Usar un informe para analizar los motivos de las evoluciones de los costes o conocer las partes de costes de los productos vendidos (CV).|Informe **Análisis partes costes**|  
 |Registrar periódicamente los movimientos de valor de las transacciones de productos desde el inventario a las cuentas contables relacionadas para reconciliar las dos contabilidades.|[Conciliar costes de inventario con la contabilidad general](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
 |Usar una ventana para auditar la reconciliación entre la contabilidad de inventario y la contabilidad general.|[Conciliar costes de inventario con la contabilidad general](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
-|Determinar el importe WIP que debe registrarse en cuentas de balance para informes de final de periodo.|[Supervisión del progreso y el rendimiento del proyecto](projects-how-monitor-progress-performance.md)|
+|Determinar el importe WIP que debe registrarse en cuentas de balance para informes de final de periodo.|[Supervisar el progreso y el rendimiento del trabajo](projects-how-monitor-progress-performance.md)|
 
 ## <a name="see-also"></a>Consulte también  
 [Configuración de valoración de existencias](finance-set-up-inventory-valuation-and-costing.md)  

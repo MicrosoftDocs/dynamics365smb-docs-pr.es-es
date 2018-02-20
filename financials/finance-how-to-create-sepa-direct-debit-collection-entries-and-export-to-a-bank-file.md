@@ -11,13 +11,13 @@ ms.search.keywords: direct-debit, collection, payment, sepa
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: ff6fc3af28273545781fc96b811f3c164eaa6fd8
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 40e4a90329fc7fc7241b570fd641a0d83b06842e
 ms.contentlocale: es-es
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-sepa-direct-debit-collection-entries-and-export-to-a-bank-file"></a>Creación de movimientos de domiciliación de adeudo directo SEPA y exportación a un archivo bancario
+# <a name="create-sepa-direct-debit-collection-entries-and-export-to-a-bank-file"></a>Crear movimientos de domiciliación de adeudo directo SEPA y exportación a un archivo bancario
 Para indicar al banco que transfiera el importe de pago desde el banco del cliente al banco de su empresa, debe crear un cobro por adeudo directo que contiene información acerca de los bancos del cliente, las facturas de venta afectadas y la orden de domiciliación de adeudo directo. Desde el movimiento de pago por domiciliación, luego exporta un archivo XML que se envía o carga en el banco electrónico para su procesamiento. Los pagos que el banco no pudo procesar los comunicará el banco al usuario y este último deberá rechazar manualmente los movimientos de pago por adeudo directo en cuestión.  
 
 > [!NOTE]  

@@ -13,13 +13,13 @@ ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 06/20/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: cce1f5c30b758155056b00e933c9f6cabfd9f1f4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7a23f0ba28ab4c7bc9e028375246ea2e57d32764
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-intercompany"></a>Procedimiento: Configurar empresa vinculada
+# <a name="set-up-intercompany"></a>Configurar empresa vinculada
 Para que una transacción (por ejemplo, una línea del diario de ventas) se envíe de una empresa y se cree automáticamente la transacción correspondiente (por ejemplo, una línea del diario de compras) en la empresa asociada, ambas empresas tiene que acordar el plan de cuentas común y definir las dimensiones que utilizarán en las transacciones entre ambas. El plan de cuentas de empresas vinculadas puede ser, por ejemplo, una versión simplificada del plan de cuentas de la empresa matriz. Cada empresa asigna su plan de cuentas al plan de cuentas de empresas vinculadas compartido y asigna sus dimensiones a las dimensiones de empresas vinculadas.  
 
 También debe configurar un código de socio de empresas vinculadas para cada empresa asociada, que se acuerda entre todas las empresas y, a continuación, asignarlo a las tarjetas de cliente y de proveedor, respectivamente, rellenando el campo **Código de socio de empresas vinculadas**.  
@@ -40,7 +40,7 @@ Si va a realizar transacciones de ventas entre empresas vinculadas que incluyan 
 ## <a name="to-set-up-intercompany-vendors-and-intercompany-customers"></a>Para configurar proveedores y clientes de empresas vinculadas
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Proveedores** y, a continuación, seleccione el vínculo relacionado.
 2. De forma alternativa, acceda al proveedor desde el campo **N.º proveedor** en la ventana **Proveedor empresas vinculadas**.
-3. Abra la ficha de un proveedor que sea un socio de empresa vinculada. Para obtener más información, vea [Procedimiento: Registrar nuevos proveedores](purchasing-how-register-new-vendors.md).
+3. Abra la ficha de un proveedor que sea un socio de empresa vinculada. Para obtener más información, vea [Registrar nuevos proveedores](purchasing-how-register-new-vendors.md).
 4. En el campo **Socio de empresa vinculada**, seleccione el código de socio de empresas vinculadas correspondiente.
 5. Repita los pasos 1 a 4 para los clientes.
 

@@ -13,18 +13,18 @@ ms.search.keywords:
 ms.date: 08/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e5ac1c791b10c26a3cecd20711e7899bb7eaee3c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: bc323e4dac1b62802e999e2780352634e25e482d
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# Configuración de unidades de almacenamiento
+# <a name="set-up-stockkeeping-units"></a>Configurar unidades de almacenamiento
 Utilice unidades de almacenamiento para registrar información sobre los productos de un determinado almacén o de un código de variante en particular.  
 
  Las unidades de almacenamiento vienen a complementar las fichas del producto. No los reemplazan, aunque guardan cierta relación con ellos. Estas unidades le permiten distinguir información sobre un producto de un determinado almacén, como un almacén o un centro de distribución, o de una determinada variante, como distintos códigos de situación e información de reposición.  
 
-## Para configurar una unidad de almacenamiento  
+## <a name="to-set-up-a-stockkeeping-unit"></a>Para configurar una unidad de almacenamiento  
 
 1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Uds. de almacenam.** y, a continuación, seleccione el vínculo relacionado.  
 2.  Seleccione la acción **Nuevo**.  
@@ -37,10 +37,10 @@ Para crear varias unidades de almacenamiento para un producto, utilice el proces
 > [!NOTE]  
 >  La información de la ficha **Unidad de almacenamiento** tiene prioridad sobre la ficha de **Producto**.  
 
-## Consulte también  
+## <a name="see-also"></a>Consulte también  
 [Registro de productos nuevos](inventory-how-register-new-items.md)  
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)  
-[Gestión almacén](warehouse-manage-warehouse.md)  
+[Gestión de almacenes](warehouse-manage-warehouse.md)  
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  

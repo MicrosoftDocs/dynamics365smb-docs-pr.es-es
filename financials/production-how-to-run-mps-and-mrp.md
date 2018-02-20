@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bd69a3da7a0a5e766a232e8999056ac60109e7b1
-ms.openlocfilehash: 89982479ec539f6bf394d31af8775a0b735588fc
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 412050e3fd1da21421e0752be6367fa0ead8d636
 ms.contentlocale: es-es
-ms.lasthandoff: 10/02/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-run-full-planning-mps-or-mrp"></a>Cómo ejecutar la planificación completa, MPS o MRP
+# <a name="run-full-planning-mps-or-mrp"></a>Ejecutar la planificación completa, MPS o MRP
 Los términos "ejecutar la hoja de planificación" o "ejecutar MRP" hacen referencia al cálculo del programa de producción principal y a las necesidades de material, en función de la demanda real y prevista. El programa de planificación puede calcular tanto el Programa de planificación principal (MPS) como la Planificación de necesidades de material (MRP) cuando se solicite, o calcular ambas cosas a la vez.  
 
 -   MPS se refiere al cálculo de un programa de producción principal basado en la demanda real y en la previsión de producción. El cálculo de MPS se utiliza para productos finales que tengan una previsión o una línea de pedido de venta. Estos productos se denominan "productos de MPS" y se identifican dinámicamente al iniciarse el cálculo.  
@@ -27,7 +27,7 @@ Los términos "ejecutar la hoja de planificación" o "ejecutar MRP" hacen refere
 
 Los algoritmos de planificación usados tanto para MPS como para MRP son idénticos. Los algoritmos de planificación relativos a saldos netos reutilizan órdenes de reposición existentes y mensajes de acción. El proceso del sistema de planificación examina lo que se necesita o se va a necesitar (la demanda) y lo que hay físicamente o se espera que haya (el suministro). Cuando estas cantidades se comparan, [!INCLUDE[d365fin](includes/d365fin_md.md)] proporciona mensajes de acción. Los mensajes de acción son sugerencias para crear un pedido nuevo, para cambiar un pedido (la cantidad o la fecha) o para cancelar un pedido ya solicitado. El término "pedido" incluye pedidos de compra, pedido de ensamblado, pedidos de producción y pedidos de transferencia.
 
-Los vínculos creados por el motor de planificación entre la demanda y el abastecimiento correspondiente se puede seguir en la ventana **Seguimiento pedido**. Para obtener más información, vea [Procedimiento: Seguimiento de relaciones entre demanda y suministro](production-how-track-demand-supply.md).   
+Los vínculos creados por el motor de planificación entre la demanda y el abastecimiento correspondiente se puede seguir en la ventana **Seguimiento pedido**. Para obtener más información, vea [Seguimiento de relaciones entre demanda y suministro](production-how-track-demand-supply.md).   
 
 Para obtener buenos resultados en la planificación, se deben haber configurado correctamente las siguientes opciones: fichas de producto, L.M. de ensamblado. L.M. de producción y rutas.  
 

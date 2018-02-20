@@ -1,6 +1,6 @@
 ---
 title: Crear oportunidades de ventas | Documentos de Microsoft
-description: "Describe cómo crear oportunidades a partir de un vendedor o un contacto en Dynamics 365 Business edition."
+description: "Describe cómo crear oportunidades a partir de un vendedor o un contacto en Finance and Operations, Business edition."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,18 +13,18 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 2d280e80be237abb5f2b16b2130f446894497171
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ff4318d9da902847166ac5747adf469584a3d2a2
 ms.contentlocale: es-es
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-sales-opportunities"></a>Procedimiento: Crear oportunidades de ventas
+# <a name="create-sales-opportunities"></a>Crear oportunidades de ventas
 Puede crear oportunidades para las oportunidades de ventas de sus contactos. Las oportunidades deben asignarse a un vendedor o comprador y deben incluir un contacto.
 
 Puede crear oportunidades desde la ventana **Lista oportunidades**. Pero, normalmente, creará oportunidades desde el vendedor o contacto específico.
 
-Antes de crear oportunidad, debe configurar los ciclos ventas oportunidad. Para obtener más información, vea [Procedimiento: Configurar etapas y ciclos de venta de oportunidades](marketing-how-setup-opportunity-sales-cycles-stages.md).
+Antes de crear oportunidad, debe configurar los ciclos ventas oportunidad. Para obtener más información, vea [Configurar etapas y ciclos de venta de oportunidades](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="to-create-an-opportunity-from-a-salesperson"></a>Para crear una oportunidad a partir de un vendedor
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Vendedores** y, a continuación, seleccione el vínculo relacionado.
@@ -45,5 +45,5 @@ Antes de crear oportunidad, debe configurar los ciclos ventas oportunidad. Para 
 ## <a name="see-also"></a>Consulte también
 [Ventas](sales-manage-sales.md)  
 [Creación y administración de contactos](marketing-contacts.md)  
-[Trabajar con Dynamics 365](ui-work-product.md)
+[Trabajar con Finance and Operations, Business edition](ui-work-product.md)
 

@@ -12,19 +12,19 @@ ms.search.keywords: stock
 ms.date: 08/15/2017
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 986f1b00f1a8db237944ec8579d9401ca85dfd8a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: dade893e7ff1c14854274565b40a436a5a9b48c8
 ms.contentlocale: es-es
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-view-the-availability-of-items"></a>Consultar la disponibilidad de los productos
+# <a name="view-the-availability-of-items"></a>Consultar la disponibilidad de los productos
 En el contexto de una tarea de negocio, puede obtener la información avanzada acerca de cuándo y dónde está disponible un producto, por ejemplo, al hablar con un cliente sobre una fecha de entrega.
 
 Puede consultar la disponibilidad de todos los productos por ubicación y puede consultar la disponibilidad de cada producto por evento, periodo o ubicación. Un evento es cualquier transacción de producto programada, como un albarán de venta o un albarán de transferencia de entrada.
 
 > [!NOTE]  
->   Las vistas de disponibilidad por ubicación requieren que se mantenga el inventario en varias ubicaciones. Para obtener más información, vea [Procedimiento: Configurar almacenes](inventory-how-setup-locations.md).
+>   Las vistas de disponibilidad por ubicación requieren que se mantenga el inventario en varias ubicaciones. Para obtener más información, consulte [Configurar ubicaciones](inventory-how-setup-locations.md).
 
 En [!INCLUDE[d365fin](includes/d365fin_md.md)], las cifras de disponibilidad se muestran en dos campos diferentes, cada uno con una definición distinta:
 
@@ -35,7 +35,7 @@ En [!INCLUDE[d365fin](includes/d365fin_md.md)], las cifras de disponibilidad se 
 >   El saldo disponible estimado es muy relevante consultarlo en las ventanas **Existencias producto** y **Disponibilidad prod. por evento** que contienen la dimensión de fecha.  
 
 > [!NOTE]  
->   Los procedimientos siguientes describen cómo ver la información de disponibilidad avanzada de la lista de productos y la ficha de producto. También puede tener acceso a la información de las líneas del documento de venta, correspondiente al producto de la línea. Para obtener más información, vea [Procedimiento: Vender productos](sales-how-sell-products.md).
+>   Los procedimientos siguientes describen cómo ver la información de disponibilidad avanzada de la lista de productos y la ficha de producto. También puede tener acceso a la información de las líneas del documento de venta, correspondiente al producto de la línea. Para obtener más información, vea [Vender productos](sales-how-sell-products.md).
 
 ## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>Para consultar la disponibilidad de un producto según cuándo se recibirá o enviará
 Puede ver la disponibilidad de un producto según las transacciones de producto programadas en la ventana **Disponibilidad por evento**.
@@ -116,9 +116,9 @@ Si uno o más componentes del ensamblado no están disponibles, se reflejará en
 [Gestionar inventario](inventory-manage-inventory.md)  
 [Gestión de ensamblaje](assembly-assemble-items.md)  
 [Trabajar con listas de materiales](inventory-how-work-BOMs.md)    
-[Configuración de almacenes](inventory-how-setup-locations.md)  
-[Procedimiento: transferir el inventario entre almacenes](inventory-how-transfer-between-locations.md)  
+[Configurar ubicaciones](inventory-how-setup-locations.md)  
+[Transferir el inventario entre almacenes](inventory-how-transfer-between-locations.md)  
 [Vender productos](sales-how-sell-products.md)      
-[Trabajar con Dynamics 365](ui-work-product.md)  
+[Trabajar con Finance and Operations, Business edition](ui-work-product.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)
 

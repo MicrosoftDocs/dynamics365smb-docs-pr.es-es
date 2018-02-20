@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: ba88be99ad8dfcecb78dfb1dd58be2d0645e85ba
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-revaluation"></a>Detalles de diseño: Revalorización
@@ -76,7 +76,7 @@ La fecha de valoración se establece en la fecha del registro de consumo (01-02-
 
 |Fecha registro|Producto|Tipo mov.|Cantidad|N.º de movimiento|  
 |------------------|----------|----------------|--------------|---------------|  
-|15-02-20|CADENA|Output|0|3|  
+|15-02-20|CADENA|Output|1|3|  
 
 **3V**: El usuario ejecuta el trabajo por lotes de **Ajuste de costes - Movimientos de producto**, el cual registra la cadena como facturada para indicar que todo el consumo de material se ha facturado completamente. Desde un punto de vista financiero, los enlaces ya no forman parte del inventario WIP cuando se factura y se ajusta totalmente la salida. En la tabla siguiente se muestran los movimientos de valoración resultantes.  
 

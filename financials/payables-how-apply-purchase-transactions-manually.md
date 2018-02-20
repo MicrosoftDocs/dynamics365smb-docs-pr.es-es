@@ -13,13 +13,13 @@ ms.search.keywords: payment application, payment processing, match payments
 ms.date: 06/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
-ms.openlocfilehash: 7c13f127f1ca9f9d95878d79afe21488df7868a6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2d59bfc3314a97b3145d17d11755539c82858234
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-reconcile-vendor-payments-manually"></a>Conciliar pagos de proveedor manualmente
+# <a name="reconcile-vendor-payments-manually"></a>Conciliar pagos de proveedor manualmente
 Cuando envía un pago o recibe un reembolso de un proveedor, debe decidir si va a liquidar uno o varios movimientos pendientes con el pago o el reembolso. Puede especificar el importe exacto que desea liquidar con el albarán de pago o el reembolso, y liquidar sólo parcialmente movimientos del proveedor. Debe liquidar todos los movimientos de proveedores para obtener estadísticas e informes correctos de los extractos de cuentas y los intereses.
 
 > [!NOTE]  
@@ -93,7 +93,7 @@ También puede liquidar los pagos a proveedores y los pagos a clientes, después
 ## <a name="to-apply-vendor-ledger-entries-in-different-currencies-to-one-another"></a>Para liquidar movimientos de proveedor entre divisas distintas
 Si se realiza una venta a un proveedor en una divisa y se efectúa el pago en otra divisa, todavía se puede solicitar la factura para el pago.
 
-Si con un movimiento (Movimiento 1) en una divisa liquida otro movimiento (Movimiento 2) en otra divisa, se usa la fecha de registro del Movimiento 1 para buscar el tipo de cambio adecuado para convertir los importes del Movimiento 2. El tipo de cambio relevante se encuentra en la ventana **Tipos cambio divisa**. En ese caso, debe habilitar la liquidación de movimientos de proveedor en divisas distintas. Para obtener más información vea, [Procedimiento: Permitir la liquidación de movimientos de cliente en distintas divisas](finance-how-enable-application-ledger-entries-different-currencies.md)
+Si con un movimiento (Movimiento 1) en una divisa liquida otro movimiento (Movimiento 2) en otra divisa, se usa la fecha de registro del Movimiento 1 para buscar el tipo de cambio adecuado para convertir los importes del Movimiento 2. El tipo de cambio relevante se encuentra en la ventana **Tipos cambio divisa**. En ese caso, debe habilitar la liquidación de movimientos de proveedor en divisas distintas. Para obtener más información, vea [Permitir la liquidación de movimientos de cliente en distintas divisas](finance-how-enable-application-ledger-entries-different-currencies.md)
 
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diario de pagos** y, a continuación, seleccione el vínculo relacionado.
 2. Abra el diario que desea y rellene la primera línea de diario vacía utilizando un código de divisa.

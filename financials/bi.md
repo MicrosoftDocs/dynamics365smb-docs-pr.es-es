@@ -13,10 +13,10 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 06/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e41dcb709ad865ab6cb102834e9d99dc3346a840
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: bb4fcd8aa08fb172ed26620dd0bd416c9e84897d
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="business-intelligence"></a>Inteligencia empresarial
@@ -31,12 +31,12 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 
 | Para | Vea |
 | --- | --- |
-|Ver importes reales comparados con importes presupuestados para todas las cuentas y durante varios periodos.|[Analizar los importes reales frente a los importes presupuestados](bi-how-analyze-actual-versus-budget.md)|
+|Ver importes reales comparados con importes presupuestados para todas las cuentas y durante varios periodos.|[Analizar importes reales frente a importes presupuestados](bi-how-analyze-actual-versus-budget.md)|
 |Crear nuevos esquemas de cuentas para definir los balances financieros para elaborar informes o para mostrar como gráficos.|[Trabajar con esquemas de cuentas](bi-how-work-account-schedule.md)|
-|Analice el rendimiento financiero configurando KPI basados en esquemas de cuenta, que después publica como servicios web. Los KPI de esquema de cuentas publicados se pueden ver en un sitio Web o importar a Microsoft Excel usando los servicios Web de OData.|[Procedimiento: configurar y publicar un servicio web KPI que se basa en esquemas de cuentas](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)|
+|Analice el rendimiento financiero configurando KPI basados en esquemas de cuenta, que después publica como servicios web. Los KPI de esquema de cuentas publicados se pueden ver en un sitio Web o importar a Microsoft Excel usando los servicios Web de OData.|[Configurar y publicar un servicio web KPI que se basa en esquemas de cuentas](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)|
 |Configurar vistas de análisis para analizar datos usando dimensiones.|[Analizar datos por dimensiones](bi-how-analyze-data-dimension.md)|
 |Crear nuevos informes de análisis para ventas, compras y existencias, así como configurar plantillas de análisis.|[Crear informes de análisis](bi-how-create-analysis-views-reports.md)|
-|Habilite la información financiera global por medio de las organizaciones internacionales de contabilidad con el idioma estándar para informes de negocio extensible.|[Procedimiento: crear informes con XBRL](bi-create-reports-with-xbrl.md)|
+|Habilite la información financiera global por medio de las organizaciones internacionales de contabilidad con el idioma estándar para informes de negocio extensible.|[Crear informes con XBRL](bi-create-reports-with-xbrl.md)|
 
 ## <a name="see-also"></a>Consulte también
 [Finanzas](finance.md)    
@@ -44,4 +44,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 [Cerrar periodos fiscales](year-close-years-periods.md)  
 [Importar desde otros sistemas financieros](upload-data.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

@@ -13,13 +13,13 @@ ms.search.keywords: Profile
 ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 7e49359f29bcb101b2dc16236e9b617962248a67
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 454385cf346510396b7ff154164e4495bb784419
 ms.contentlocale: es-es
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-change-the-role-center"></a>Procedimiento: Cambiar el área de trabajo
+# <a name="change-the-role-center"></a>Cambiar el área de trabajo
 La página principal es el punto de entrada principal en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Aquí puede obtener una visión general de las tareas diarias y de su estado. A las tareas que realiza a menudo se puede acceder a través de las piezas del área de contenido, el panel de navegación de la izquierda y a través de las acciones de la cinta.
 
 El contenido de la página Inicio se basa en el área de trabajo seleccionada. El área de trabajo estándar de [!INCLUDE[d365fin](includes/d365fin_md.md)] es **Administrador empresarial**, pero puede cambiarla y elegir entre numerosas áreas de trabajo.

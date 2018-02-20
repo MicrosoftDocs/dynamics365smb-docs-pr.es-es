@@ -13,10 +13,10 @@ ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 06/20/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
-ms.openlocfilehash: 5ffaed472ab61d086e2b57579523340504bde119
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 341fccc4cb11f27e11d80558bbd9651ae4ad91be
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-intercompany-transactions"></a>Gestión de transacciones entre empresas vinculadas
@@ -39,13 +39,16 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 
  |Para |Vea|
  |---|---|
- |Cree sus proveedores y clientes de empresas vinculadas, como los llamados socios de empresas vinculadas, y configure un plan de cuentas de empresas vinculadas.|[Procedimiento: Configurar empresa vinculada](intercompany-how-setup.md)|
- |Utilice documentos o diarios de empresas vinculadas para registrar transacciones con empresas vinculadas asociadas.|[Procedimiento: Usar documentos y diarios de empresas vinculadas](intercompany-how-work-documents-journals.md)|
- |Organice y procese las transacciones entrantes y salientes que intercambia con sus socios de empresas vinculadas.|[Procedimiento: Administrar la bandeja de entrada y la bandeja de salida de empresas vinculadas](intercompany-how-manage-intercompany-inbox.md)|
+ |Cree sus proveedores y clientes de empresas vinculadas, como los llamados socios de empresas vinculadas, y configure un plan de cuentas de empresas vinculadas.|[Configurar empresa vinculada](intercompany-how-setup.md)|
+ |Utilice documentos o diarios de empresas vinculadas para registrar transacciones con empresas vinculadas asociadas.|[Usar documentos y diarios de empresas vinculadas](intercompany-how-work-documents-journals.md)|
+ |Organice y procese las transacciones entrantes y salientes que intercambia con sus socios de empresas vinculadas.|[Administrar la bandeja de entrada y la bandeja de salida de empresas vinculadas](intercompany-how-manage-intercompany-inbox.md)|
 
 ## <a name="see-also"></a>Consulte también
 [Finanzas](finance.md)  
 [Configurar las finanzas](finance-setup-finance.md)  
 [Trabajar con diarios generales](ui-work-general-journals.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

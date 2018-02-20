@@ -11,13 +11,13 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: acd3305694186793ccc5c305573f62c16a718531
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2c9c7796b80d77d3a879ecf9ce2a8af26a0ca5aa
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-service-items"></a>Cómo crear productos de servicio
+# <a name="create-service-items"></a>Crear productos de servicio
 En [!INCLUDE[d365fin](includes/d365fin_md.md)], el término “producto de servicio” se refiere el equipo o productos que requieren servicio. Al crear un pedido de servicio, se especifican los productos que necesitan servicio. En el pedido, puede vincular un producto de servicio a un producto en existencias o un grupo de productos de servicio.    
 
 Cuando reciba un producto que necesita servicio, puede registrarlo como un producto de servicio. Existen varias formas de hacerlo. Por ejemplo, puede crear un producto de servicio en la página **Productos de servicio**, o como parte de otro proceso, por ejemplo al trabajar con un pedido de servicio.   
@@ -59,7 +59,7 @@ El siguiente procedimiento muestra cómo crear productos de servicio al enviar p
     Se insertará una línea de servicio del tipo **Coste** con el gasto de inicio. El gasto de inicio se aplica al producto de servicio seleccionado.
 
 ## <a name="see-also"></a>Consulte también  
-[Cómo configurar componentes de servicio y de productos](service-how-setup-service-items.md)  
+[Configurar componentes de servicio y de productos](service-how-setup-service-items.md)  
 [Configurar la gestión de servicios](service-setup-service.md)  
 [Gestión de servicios](service-service.md)  
 

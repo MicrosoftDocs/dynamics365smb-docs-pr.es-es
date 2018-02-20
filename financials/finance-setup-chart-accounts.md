@@ -13,14 +13,14 @@ ms.search.keywords: COA, cha of acc
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 69d4a8d4482999ed9d622d73654c3d8a4c3d8394
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1d0130dde256706460e58e5efc445bc5f4d5c595
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>Configurar o cambiar el plan de cuentas
-El plan de cuentas muestra las cuentas de contabilidad que almacenan sus datos financieros. [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] incluye un gráfico estándar de cuentas que está preparado para respaldar su negocio.
+El plan de cuentas muestra las cuentas de contabilidad que almacenan sus datos financieros. [!INCLUDE[d365fin](includes/d365fin_md.md)] incluye un gráfico estándar de cuentas que está preparado para respaldar su negocio.
 Sin embargo, puede cambiar las cuentas predeterminadas y puede agregar nuevas cuentas.  
 
 ## <a name="adding-or-changing-accounts"></a>Agregar o cambiar cuentas
@@ -33,7 +33,7 @@ Desde el plan de cuentas, puede abrir cada cuenta de contabilidad y agregar o ca
 * El campo **Permite borrar ctas. anteriores a** se debe configurar en la ventana **Configuración de contabilidad** y la cuenta no debe tener movimientos contables en o después de esa fecha.  
 * Si se selecciona el campo **Chequear uso ctas. cont.** en la ventana **Configuración de contabilidad**, la cuenta no se debe usar en grupos contables ni en la configuración de grupos contables.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] impedirá que elimine una cuenta de contabilidad que guarde los datos que se necesitan en el plan de cuentas.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  impedirá que elimine una cuenta de contabilidad que guarde los datos que se necesitan en el plan de cuentas.  
 
 ## <a name="see-also"></a>Consulte también
 [Libro mayor y plan de cuentas](finance-general-ledger.md)  

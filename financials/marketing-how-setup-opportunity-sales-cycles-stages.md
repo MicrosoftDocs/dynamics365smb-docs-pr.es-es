@@ -1,6 +1,6 @@
 ---
 title: Configurar ciclos de ventas de oportunidad y etapas de ciclo | Documentos de Microsoft
-description: "Describe cómo definir etapas de venta, desde el contacto inicial hasta el cierre, para crear un ciclo de venta y asignarlo a las oportunidades en Dynamics 365 Business edition."
+description: "Describe cómo definir etapas de venta, desde el contacto inicial hasta el cierre, para crear un ciclo de venta y asignarlo a las oportunidades en Finance and Operations, Business edition."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,13 +11,13 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: d164dd313352e80b6ce4e6f4ba8408e1e2c093de
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ecff2e9e0705055a514f1726b3223f8196300cb6
 ms.contentlocale: es-es
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-opportunity-sales-cycles-and-cycle-stages"></a>Procedimiento: Configurar ciclos de ventas de oportunidad y etapas de ciclo
+# <a name="set-up-opportunity-sales-cycles-and-cycle-stages"></a>Configurar ciclos de ventas de oportunidad y etapas de ciclo
 Para poder usar oportunidades de ventas, debe configurar ciclos de ventas y etapas del ciclo de ventas. Un ciclo de ventas se compone de una serie de etapas que van desde el contacto inicial hasta el cierre de una venta. Cada etapa puede tener determinados requisitos que se deben cumplir, por ejemplo, requerir una oferta de venta, antes de que la oportunidad pueda pasar a la siguiente etapa. También puede especificar si se puede omitir una etapa. Puede configurar tantos ciclos de ventas como necesite y tantas etapas del ciclo de ventas como sean necesarias para el ciclo de ventas.
 
 La implementación de ciclos de ventas de oportunidad implica la configuración del ciclo de ventas, que define las diferentes etapas del ciclo, y la asignación del ciclo a oportunidades. La asignación de la actividad o las tareas relevantes para la oportunidad también puede formar parte de la configuración del ciclo de ventas.
@@ -37,7 +37,7 @@ Repita estos pasos para configurar todos los ciclos de venta que desee. Después
 Repita estos pasos para configurar tantas etapas como desee del ciclo de ventas.
 
 ## <a name="to-assign-stage-cycles-to-opportunities"></a>Para asignar ciclos de fase a oportunidades
-Cuando haya agregado el ciclo de la etapa de oportunidades, puede empezar a agregar oportunidades de ventas y, a continuación, asignar el ciclo de la etapa a oportunidades configurando el campo **Código de ciclo de ventas**. Para obtener más información, consulte [Procedimiento: Crear oportunidades de ventas](marketing-how-create-opportunities.md).
+Cuando haya agregado el ciclo de la etapa de oportunidades, puede empezar a agregar oportunidades de ventas y, a continuación, asignar el ciclo de la etapa a oportunidades configurando el campo **Código de ciclo de ventas**. Para obtener más información, consulte [Crear oportunidades de ventas](marketing-how-create-opportunities.md).
 
 ## <a name="to-set-up-activities-with-tasks"></a>Para configurar actividades con tareas
 Puede combinar varias tareas, por ejemplo, tareas que cada una represente un paso, en las actividades. Las tareas de actividad están relacionadas entre sí por medio de una fórmula de fecha. Puede asignar actividades a oportunidades, vendedores o contactos.

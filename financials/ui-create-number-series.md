@@ -1,6 +1,6 @@
 ---
 title: "Crear series numéricas | Documentos de Microsoft"
-description: "Obtenga información sobre cómo configurar series de números que asignan códigos de identificador único a las cuentas y los documentos en Dynamics 365 Business edition."
+description: "Obtenga información sobre cómo configurar series de números que asignan códigos de identificador único a las cuentas y los documentos en Finance and Operations, Business edition."
 documentationcenter: 
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
@@ -12,13 +12,13 @@ ms.search.keywords: numbers, numbering
 ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 8605c5273ac69ff7a5b8b8dab59b0856795ed706
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3f50bc1153ccd6b58bc502974c042626ce696078
 ms.contentlocale: es-es
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-number-series"></a>Crear serie numérica
+# <a name="create-number-series"></a>Crear numeración
 Para cada empresa configurada, se necesitan asignar códigos de identificación exclusivos a elementos como cuentas de contabilidad, cuentas de proveedores y clientes, facturas y otros documentos. La numeración es importante no sólo para la identificación. Un sistema de numeración bien diseñado también permite facilitar la gestión y el análisis de la empresa, y puede reducir el número de errores que se producen en la introducción de datos.
 
 > [!NOTE]  

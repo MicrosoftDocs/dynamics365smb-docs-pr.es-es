@@ -13,19 +13,19 @@ ms.search.keywords: categories, search words, facets
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: dcc29b913c999fe05272dd709a873635efb5eeb4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2b29fed7bf976c896b3d663f526d9c3a96200100
 ms.contentlocale: es-es
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-item-attributes"></a>Procedimiento: Trabajar con atributos de producto
+# <a name="work-with-item-attributes"></a>Trabajar con atributos de producto
 Cuando los clientes hacen consultas sobre un producto, ya sea por correspondencia o en una tienda en línea integrada, pueden preguntar por las características como la altura y el año del modelo. Para proporcionar este servicio al cliente, puede asignar valores de atributo de producto de diferentes tipos a sus productos, que podrán usarse posteriormente en la búsqueda de productos.
 
-También puede asignar los atributos de producto a categorías de producto que se aplican después a los productos que las utilizan. Para obtener más información, consulte [Procedimiento: Clasificar productos](inventory-how-categorize-items.md).
+También puede asignar los atributos de producto a categorías de producto que se aplican después a los productos que las utilizan. Para obtener más información, consulte [Clasificar productos](inventory-how-categorize-items.md).
 
 > [!Tip]  
-> Si asocia imágenes a productos, la extensión Analizador de imágenes puede detectar los atributos en la imagen y sugerir los atributos que puede decidir si se los asigna. La extensión está lista para usarse. Solo debe habilitarla. Para obtener más información, consulte [Extensión del analizador de imágenes de Microsoft Dynamics 365 Business edition](ui-extensions-image-analyzer.md).
+> Si asocia imágenes a productos, la extensión Analizador de imágenes puede detectar los atributos en la imagen y sugerir los atributos que puede decidir si se los asigna. La extensión está lista para usarse. Solo debe habilitarla. Para obtener más información, consulte [Extensión del analizador de imágenes de Microsoft Finance and Operations, Business edition](ui-extensions-image-analyzer.md).
 
 ## <a name="to-create-item-attributes"></a>Para crear atributos de producto
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Atributos de producto** y, a continuación, seleccione el vínculo relacionado.
@@ -80,6 +80,6 @@ Los productos de la ventana **Productos** se filtran por los valores de atributo
 ## <a name="see-also"></a>Consulte también
 [Clasificar productos](inventory-how-categorize-items.md)    
 [Registro de productos nuevos](inventory-how-register-new-items.md)  
-[Inventario](inventory-manage-inventory.md)  
+[Grupos contables inventario](inventory-manage-inventory.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

@@ -13,14 +13,14 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 06/28/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
-ms.openlocfilehash: f5f0640c84a382a62512116f2f3c7c57c7793243
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 71a311e3aefd22dd0c7d0af6eb24d54e0d2a1afe
 ms.contentlocale: es-es
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="finance"></a>Finanzas
-[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] incluye una configuración estándar de muchos procesos financieros, pero puede cambiar la configuración para que se adapte a su empresa. Para obtener más información, consulte [Configurar finanzas](finance-setup-finance.md).
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  incluye una configuración estándar de muchos procesos financieros, pero puede cambiar la configuración para que se adapte a su empresa. Para obtener más información, consulte [Configurar finanzas](finance-setup-finance.md).
 
 La configuración predeterminada incluye un plan de cuentas y grupos de registro estándar que hacen que el proceso de asignar cuentas de registro de movimientos predeterminadas a clientes, proveedores y productos sea más eficaz.  
 
@@ -40,11 +40,11 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 | Cree presupuestos contables para prever diferentes actividades financieras y asigne dimensiones para fines de inteligencia empresarial. |[Crear presupuestos contables](finance-how-create-budgets.md) |
 |Registre los ingresos o los gastos directamente en la contabilidad sin registrar documentos empresariales dedicados.|[Registrar transacciones directamente en la contabilidad](finance-how-post-transactions-directly.md)|
 |Registre entradas de reversión para deshacer los registros de valoración en el diario general o los registros de cantidad en documentos de compra y ventas. |[Revertir registros](finance-how-reverse-journal-posting.md)|
-|Asignar un movimiento en un diario general a varias cuentas al registrar el diario. |[Asignar costes e ingresos.](year-allocate-costs-income.md) |
-| Asigne costes adicionales, como flete y manipulación física que se producen durante las operaciones comerciales, a los productos relacionados para que el coste se refleje en la valoración de existencias. |[Utilizar los cargos de producto a cuenta para los costes comerciales adicionales](payables-how-assign-item-charges.md) |
-|Registre los gastos personales de los empleados por las actividades comerciales y reembólselos mediante el pago a su cuenta bancaria.|[Procedimiento: registro y reembolso de los costes de los empleados](finance-how-record-reimburse-employee-expenses.md)|
+|Asignar un movimiento en un diario general a varias cuentas al registrar el diario. |[Asignar costes e ingresos](year-allocate-costs-income.md) |
+| Asigne costes adicionales, como flete y manipulación física que se producen durante las operaciones comerciales, a los productos relacionados para que el coste se refleje en la valoración de existencias. |[Usar los cargos de producto a cuenta para los costes comerciales adicionales](payables-how-assign-item-charges.md) |
+|Registre los gastos personales de los empleados por las actividades comerciales y reembólselos mediante el pago a su cuenta bancaria.|[Registro y reembolso de los costes de los empleados](finance-how-record-reimburse-employee-expenses.md)|
 | Reconozca ingresos y gastos en periodos distintos de cuando se registraron las transacciones. |[Fraccionar ingresos y gastos](finance-how-defer-revenue-expenses.md)|
-|Información sobre utilizar divisas adicionales y actualizar los tipos de cambio automáticamente. |[Actualizar los tipos de cambio de divisa](finance-how-update-currencies.md)|
+|Información sobre utilizar divisas adicionales y actualizar los tipos de cambio automáticamente. |[Actualizar tipos cambio divisa](finance-how-update-currencies.md)|
 | Importe transacciones de salario del proveedor de nóminas en el libro mayor. |[Importar transacciones de nómina](finance-how-import-payroll-transactions.md)|
 | Supervise el flujo de efectivo de entrada y salida de su empresa. |[Analizar los flujos de efectivo de la empresa](finance-analyze-cash-flow.md) |
 | Trabajar con balances financieros y resúmenes en Excel. |[Análisis de estados financieros en Excel](finance-analyze-excel.md) |
@@ -61,5 +61,6 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 [Trabajar con diarios generales](ui-work-general-journals.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

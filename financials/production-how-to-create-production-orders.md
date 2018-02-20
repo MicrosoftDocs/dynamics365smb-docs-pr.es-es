@@ -1,6 +1,6 @@
 ---
 title: "Como crear una cabecera de orden de producción | Documentos de Microsoft"
-description: "Puede crear una orden de producción manualmente, y el primer paso es crear la cabecera."
+description: "Puede crear una orden de producción manualmente y el primer paso es crear la cabecera."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 0c792dbb7d7261e8f8b89ca4f3d39d875142c4eb
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3ffbe781830a492256be864bace38bbef3050596
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-production-order-headers"></a>Creación de cabeceras de orden de producción
+# <a name="create-production-order-headers"></a>Crear cabeceras de orden de producción
 Puede crear una orden de producción manualmente y el primer paso es crear la cabecera.
 
 Las órdenes de producción normalmente se crean automáticamente por algunas tareas de planificación para cubrir una demanda conocida. Para obtener más información, consulte [Planificación](production-planning.md).   
@@ -32,11 +32,11 @@ En el siguiente procedimiento, se crea una orden de producción planificada en f
 3.  En el campo **N.º**, inserte el número siguiente de la serie.  
 4.  En el campo **Tipo procedencia mov.**, seleccione la procedencia del movimiento de la orden de producción.
 
-    Aquí puede seleccionar producir para una familia de productos. Para obtener más información, consulte [Cómo trabajar con familias de producción](production-how-work-family.md).
+    Aquí puede seleccionar producir para una familia de productos. Para obtener más información, consulte [Trabajar con familias de producción](production-how-work-family.md).
 5.  En el campo **Cód. procedencia mov.**, seleccione el código de producto, familia o cabecera de venta para el cual se va a generar la orden de producción.  
 6.  Rellene los campos **Cantidad** y **Fecha vencimiento** según sus especificaciones.  
 
-Cuando cambian las necesidades de producción, como componentes u operaciones, puede replantear rápidamente la orden de producción. Para obtener más información, vea [Procedimiento: Replanificar o actualizar las órdenes de producción directamente](production-how-to-replan-refresh-production-orders.md). 
+Cuando cambian las necesidades de producción, como componentes u operaciones, puede replantear rápidamente la orden de producción. Para obtener más información, vea [Actualizar o replanificar las órdenes de producción directamente](production-how-to-replan-refresh-production-orders.md). 
 
 ## <a name="see-also"></a>Consulte también  
 [Fabricación](production-manage-manufacturing.md)    

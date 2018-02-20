@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 3c80d937a8b849cf7174952e02bbde243ca0ac5c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ae78d21bc4f88788a01620dbd8505d7034857d8f
 ms.contentlocale: es-es
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="creating-contact-companies"></a>Crear empresas de contacto
@@ -33,12 +33,12 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 | Configure un contacto para una nueva empresa, ya sea desde cero o a partir de un cliente, proveedor o una cuenta bancaria. |[Crear empresas de contacto](marketing-how-create-contact-companies.md) |
 | Sincronice la información de los contactos con la información común de los clientes, proveedores y cuentas bancarias |[Sincronizar contactos con clientes, proveedores y cuentas bancarias](marketing-synchronize-contacts-customers-vendors-bank-accounts.md) |
 | Describir la relación de negocio de un contacto de la empresa. |[Configurar relaciones de negocio en empresas de contacto](marketing-business-relations.md) |
-| Coloque una empresa de contacto en el grupo de industria adecuado, como por ejemplo, mercaderías. |[Configurar grupos de industria en empresas de contacto](marketing-industry-groups.md) |
+| Coloque una empresa de contacto en el grupo de industria adecuado, como por ejemplo, mercaderías. |[Configurar grupos de sector en empresas de contacto](marketing-industry-groups.md) |
 | Configurar los grupos de correo que se pueden utilizar para identificar grupos de contactos que deben recibir la misma información. |[Configurar grupos de correo en empresas de contacto](marketing-mailing-groups.md) |
 | Configurar una dirección alternativa para un contacto. |[Asignar direcciones alternativas a un contacto](marketing-how-assign-alternate-address.md) |
 | Asignar orígenes Web (motores de búsqueda y sitios Web) a sus contactos para indicar en qué lugar de Internet pretende buscar la información de sus contactos. |[Configurar orígenes web en contactos](marketing-web-sources.md) |
 
 ## <a name="see-also"></a>Consulte también
 [Crear personas de contacto](marketing-create-contact-persons.md)   
-[Trabajar con Dynamics 365](ui-work-product.md)
+[Trabajar con Finance and Operations, Business edition](ui-work-product.md)
 

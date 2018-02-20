@@ -12,13 +12,13 @@ ms.search.keywords: payment process, cash receipts, customer payment
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 94055c34b67f05faa8955fdff28f854e77d9664f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: aa2accb5b03fd55c96b046ca6b61582ed5b8a142
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-reconcile-customer-payments-manually-from-a-list-of-unpaid-sales-documents"></a>Procedimiento: Conciliar pagos manualmente de una lista de documentos de venta sin abonar
+# <a name="reconcile-customer-payments-manually-from-a-list-of-unpaid-sales-documents"></a>Conciliar pagos manualmente de una lista de documentos de venta sin abonar
 Cuando sus clientes han realizado pagos a su cuenta de banco electrónico, debe liquidar cada importe pagado al documento de venta relacionado y después registrar el pago para actualizar los movimientos de cliente, contabilidad y banco.
 
 > [!NOTE]  

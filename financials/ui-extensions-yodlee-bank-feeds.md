@@ -13,10 +13,10 @@ ms. search.keywords: app, add-in, manifest, customize, stream, bank account link
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
-ms.openlocfilehash: 8b5fab97874815849309aa46a6d44f758cb8dcb2
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9a859bf8fe418e54c793fdc97d45cddc2d737638
 ms.contentlocale: es-es
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="the-envestnet-yodlee-bank-feeds-extension"></a>Extensión de las fuentes de banco de Envestnet Yodlee
@@ -31,7 +31,7 @@ El servicio de fuentes de banco de Envestnet Yodlee proporciona las ventajas sig
 * Admite fuentes de banco manuales o automáticas.
 * Habilita la externalización de la conciliación de pagos a un contable proporcionando acceso a los extractos bancarios.
 
-Para obtener más información, vea [Procedimiento: Configuración del servicio de fuente de banco de Envestnet Yodlee](bank-how-setup-bank-statement-service.md)
+Para obtener más información, vea [Configuración del servicio de fuente de banco de Envestnet Yodlee](bank-how-setup-bank-statement-service.md)
 
 ## <a name="see-also"></a>Consulte también
 [Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones ](ui-extensions.md)    

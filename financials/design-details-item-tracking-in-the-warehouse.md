@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: d196aa3c5176d040440be441e2573eac92891219
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-item-tracking-availability"></a>Detalles de diseño: Disponibilidad de seguimiento de productos
@@ -24,7 +24,7 @@ Las ventanas **Líneas seguimiento producto** y **Resumen seguimiento producto**
   
 Al abrir la ventana **Líneas seguimiento producto**, se recuperan los datos de disponibilidad de las tablas **Mov. producto** y **Mov. reserva**, sin filtro de reserva. Cuando elige el campo **Nº serie** o **Nº lote**, se abre la ventana **Resumen seguimiento prod.** y muestra un resumen de la información de seguimiento de producto en la tabla **Mov. reserva**. El resumen contiene la siguiente información sobre cada número de serie o de lote en la línea de seguimiento de producto:  
   
-|Campo|Description|  
+|Campo|Descripción|  
 |---------------------------------|---------------------------------------|  
 |**Cantidad total**|La cantidad total del número de serie o lote actualmente en inventario.|  
 |**Cdad. solicitada total**|La cantidad total del número de serie o lote solicitada actualmente en todos los documentos.|  

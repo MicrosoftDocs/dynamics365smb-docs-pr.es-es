@@ -13,20 +13,20 @@ ms.search.keywords:
 ms.date: 08/22/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 326c7931cc0217c72ede62d5516dba5f4ee6fa32
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f9672af6dc4f87f52773a91c587f60c6afe98b8f
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-serial-and-lot-numbers"></a>Procedimiento: Trabajar con números de lote y de serie
+# <a name="work-with-serial-and-lot-numbers"></a>Trabajar con números de lote y de serie
 Puede asignar números de serie y de lote a cualquier documento de salida o de entrada, los movimientos de seguimiento de producto registrados se muestran en los correspondientes movimientos de producto. El trabajo se realiza en la ventana **Líns. seguim. prod.**.
 
 La matriz de los campos de cantidad del encabezado de la ventana **Líns. seguim. prod.** muestra las cantidades y las sumas de los números de seguimiento de producto que se definen en las líneas. Las cantidades deben corresponder a las de la línea del documento, indicado mediante un 0 en los campos **Indefinido**.
 
 Con el fin de mejorar el rendimiento, el programa recopila la información sobre disponibilidad que se muestra en la ventana **Líns. seguim. prod.** solamente cuando la abre. Esto significa que el sistema no actualiza la información sobre disponibilidad mientras la ventana está abierta, incluso aunque se produzcan cambios en el inventario o en otros documentos durante ese tiempo.
 
-Los números de serie o lote de productos se pueden seguir, ya sea hacia adelante o hacia atrás, en su cadena de suministro. Esto es útil para asegurarse de la calidad general y para la recuperación de productos. Para obtener más información, consulte [Cómo realizar un seguimiento de productos marcados para seguimiento](inventory-how-to-trace-item-tracked-items.md).
+Los números de serie o lote de productos se pueden seguir, ya sea hacia adelante o hacia atrás, en su cadena de suministro. Esto es útil para asegurarse de la calidad general y para la recuperación de productos. Para obtener más información, consulte [Realizar un seguimiento de productos marcados para seguimiento](inventory-how-to-trace-item-tracked-items.md).
 
 ## <a name="about-picking-serial-or-lot-numbers-in-the-warehouse"></a>Cómo hacer picking de los números de serie y de lote en el almacén
 El control de salidas de números de serie o lote es una tarea común en diferentes procesos del almacén.  
@@ -236,7 +236,7 @@ El contenido de los campos **Nº serie** y **Nº lote** no se puede editar. No o
 El proceso de reclasificar el seguimiento para un producto significa convertir un número de lote o de serie en un nuevo número de lote o de serie, o bien convertir la fecha de caducidad en una nueva. Si está trabajando con lotes, también puede combinar varios lotes en uno. Para llevar a cabo este proceso, deberá utilizar el diario de reclasificación de productos.
 
 1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diario reclas. producto** y, a continuación, seleccione el vínculo relacionado.  
-2.  Rellene la línea con la información correspondiente. Para obtener más información, consulte [Procedimiento: Recuento, ajuste, y reclasificación de inventario](inventory-how-count-adjust-reclassify.md).
+2.  Rellene la línea con la información correspondiente. Para obtener más información, consulte [Recuento, ajuste, y reclasificación de inventario](inventory-how-count-adjust-reclassify.md).
 3.  Seleccione la acción **Líns. seguim. prod.**  
 4.  En el campo **Nº serie** o **Nº lote**, seleccione el número de serie o de lote actual.  
 5.  Si desea introducir un nuevo número del seguimiento de producto, introdúzcalo en el campo **Nuevo nº serie** o **Nuevo nº lote**. Si lo desea, puede combinar uno o más lotes en un lote nuevo o existente.  
@@ -259,10 +259,10 @@ El proceso de reclasificar el seguimiento para un producto significa convertir u
 8.  Registre el diario para enlazar los números de seguimiento de producto renovados o las fechas de caducidad con los movimientos de producto asociados.
 
 ## <a name="see-also"></a>Consulte también
-[Cómo realizar un seguimiento de productos marcados para seguimiento](inventory-how-to-trace-item-tracked-items.md)   
+[Realizar seguimiento de productos seguidos](inventory-how-to-trace-item-tracked-items.md)   
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Detalles de diseño: seguimiento de productos](design-details-item-tracking.md)
 [Detalles de diseño. Seguimiento y reservas de productos](design-details-item-tracking-and-reservations.md)  
-[Procedimiento: Reservar productos](inventory-how-to-reserve-items.md)  
+[Reservar artículos](inventory-how-to-reserve-items.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

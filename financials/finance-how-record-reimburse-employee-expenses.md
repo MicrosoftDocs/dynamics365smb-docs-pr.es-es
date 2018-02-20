@@ -13,14 +13,14 @@ ms.search.keywords: reimbursement
 ms.date: 06/28/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
-ms.openlocfilehash: 0e10011c598678134cb7badbd9a3be97751b4424
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: c12561f4851cd75bdc4098e506c113e50d3bc3be
 ms.contentlocale: es-es
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-record-and-reimburse-employees-expenses"></a>Procedimiento: registro y reembolso de los costes de los empleados
-[!INCLUDE[d365fin](includes/d365fin_md.md)] soporta transacciones para empleados de una manera similar a los proveedores. En consecuencia, existen grupos de contabilización de empleados para asegurarse de que las entradas del libro mayor de empleados se registran en las cuentas relevantes del libro mayor.
+# <a name="record-and-reimburse-employees-expenses"></a>Registro y reembolso de los costes de los empleados
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  soporta transacciones para empleados de una manera similar a los proveedores. En consecuencia, existen grupos de contabilización de empleados para asegurarse de que las entradas del libro mayor de empleados se registran en las cuentas relevantes del libro mayor.
 
 > [!NOTE]  
 > Las transacciones de empleado se pueden registrar únicamente en la divisa local. Los pagos de reembolso a los empleados no son compatibles con los descuentos y las tolerancias de pago.

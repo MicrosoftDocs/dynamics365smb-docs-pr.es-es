@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect, client, customer, campaign, promo
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 941c9dcc1638fd82f945b0ac268854b5f34d4294
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2f258a2bf1852b4cc1741a312c78bedfc06b5c11
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-relationship-management"></a>Configurar la gestión de relaciones
@@ -31,7 +31,7 @@ Parte de la información de contacto de las empresas es la misma que la de las p
 
 Al modificar uno de estos campos en la ficha Empresa de contacto, el programa modificará de forma automática el campo de la ficha Persona de contacto, a menos que ese campo se haya modificado manualmente.
 
-Para obtener más información, consulte [Procedimiento: Crear personas de contacto](marketing-how-create-contact-persons.md).
+Para obtener más información, consulte [Crear personas de contacto](marketing-how-create-contact-persons.md).
 
 ## <a name="using-predefined-defaults-on-new-contacts"></a>Usar valores predeterminados en contactos nuevos
 Puede hacer que la aplicación asigne de forma automática ciertos códigos de idioma, territorio, vendedor y país/región como valores predeterminados para cada nuevo contacto. También se puede especificar un ciclo de ventas predeterminado que el sistema asignará de forma automática a cada nueva oportunidad creada.
@@ -41,7 +41,7 @@ La herencia de campos sobrescribe los valores predeterminados en la configuraci�
 <!--You can also setup a default salutation that the program automatically assigns to your contacts. You can use these salutations in your interaction template attachments (for example, Microsoft Word documents). When setting up a default salutation, you can enter a salutation text and a salutation format. For example, if the salutation text is Dear, and the salutation format is Salutation Text + Title + Name, the program will automatically enter Dear Mr. John Smith as a salutation for a contact called John Smith.-->
 
 ## <a name="automatically-recording-interactions"></a>Interacciones registradas automáticamente
-[!INCLUDE[d365fin](includes/d365fin_md.md)] puede registrar automáticamente los documentos de compras y ventas como interacciones (por ejemplo, los pedidos, facturas, recibos, etc.), así como los correos electrónicos, las llamadas telefónicas y las hojas de portada.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  puede registrar automáticamente los documentos de compras y ventas como interacciones (por ejemplo, los pedidos, facturas, recibos, etc.), así como los correos electrónicos, las llamadas telefónicas y las hojas de portada.
 
 Para obtener más información, vea [Registro automático de interacciones con contactos](marketing-auto-record-interactions.md)
 
@@ -53,7 +53,7 @@ Para obtener más información, consulte [Procedimiento: Sincronizar contactos c
 ## <a name="assigning-a-number-series-to-contacts-and-opportunities"></a>Asignar una serie numérica a contactos y oportunidades
 Puede configurar números de serie para contactos y oportunidades. Si ha configurado una serie numérica para contactos, cuando cree un contacto, pulse Entrar en el campo N.º de la ficha de contacto y el programa introduce automáticamente el siguiente número de contacto disponible.
 
-Para obtener más información acerca de las series numéricas, consulte [Cómo crear series numéricas](ui-create-number-series.md).
+Para obtener más información acerca de las series numéricas, consulte [Crear series numéricas](ui-create-number-series.md).
 
 ## <a name="searching-for-duplicate-contacts-when-contacts-are-created"></a>Buscar contactos duplicados al crear contactos
 Puede elegir que el sistema busque duplicados de forma automática cada vez que cree una empresa de contacto o buscarlos de forma manual después de crearlos. También puede hacer que el sistema actualice las cadenas de búsqueda de forma automática cada vez que se crea un contacto o se modifica su información. Puede elegir el porcentaje de acierto búsqueda, es decir, el porcentaje de cadenas idénticas que dos contactos deben tener para considerarlos duplicados.

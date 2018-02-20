@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 09/08/2017
+ms.date: 01/12/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 022cd32a11546913e74aeccdd74772e6e01755d3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5a667f28bd50bbd1149526e08e0d786da83bc8a6
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-inventory"></a>Configurar inventario
@@ -28,11 +28,12 @@ Cuando haya configurado su inventario, puede gestionar varios procesos relaciona
 
 | Para | Vea |
 | --- | --- |
-| Definir la configuración general de inventario, por ejemplo, las series numéricas y cómo utilizar los almacenes. |[Configurar la información de inventario general](inventory-how-setup-general.md) |
+| Definir la configuración general de inventario, por ejemplo, las series numéricas y cómo utilizar los almacenes. |[Configurar información de inventario general](inventory-how-setup-general.md) |
 |Configure un modelo de distribución eficiente con una combinación de distintas ubicaciones y centros de responsabilidad asignados a empresas colaboradoras o empleados.|[Trabajar con centros de responsabilidad](inventory-responsibility-centers.md)|
-| Organizar su inventario en varios almacenes, incluidas las rutas de transferencia. |[Configuración de almacenes](inventory-how-register-new-items.md) |
+| Organizar su inventario en varios almacenes, incluidas las rutas de transferencia. |[Configurar ubicaciones](inventory-how-register-new-items.md) |
 | Crear fichas de los productos de inventario que comercialice. |[Registro de productos nuevos](inventory-how-register-new-items.md) |
-|Como suplemento de las fichas de producto, registre la información sobre los productos en un determinado almacén o de un código de variante en particular.|[Configuración de unidades de almacenamiento](inventory-how-to-set-up-stockkeeping-units.md)|
+|Configure varias unidades de medida para un artículo que pueda usar como UOM alternativas, por ejemplo, en transacciones de ventas, compras o producción.|[Configurar unidades de medida de producto](inventory-how-setup-units-of-measure.md)|
+|Como suplemento de las fichas de producto, registre la información sobre los productos en un determinado almacén o de un código de variante en particular.|[Configurar unidades de almacenamiento](inventory-how-to-set-up-stockkeeping-units.md)|
 | Asigne productos a categorías y asígneles atributos como ayuda, tanto para usted como para los clientes, para buscar productos. |[Clasificar productos](inventory-how-categorize-items.md) |
 
 ## <a name="see-also"></a>Consulte también

@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: cb9a8366dbce67f7fdf3f32d55d7c5a289b9db4e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: c46e446c4af97e9699b1e454ff0d63173322f81e
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-plan-picks-in-worksheets"></a>Cómo planificar los picking en la hoja de trabajo
+# <a name="plan-picks-in-worksheets"></a>Planificar los picking en la hoja de trabajo
 Si el almacén está configurado para requerir los procesos de picking y envío, el almacén puede trabajar de forma que las líneas de los documentos de envío no se transformen automáticamente en instrucciones de picking, si no hacerlas disponibles en vez de llevarlas a la hoja de trabajo de picking.  
 
 > [!NOTE]  
@@ -36,7 +36,7 @@ Si ordena por fecha de vencimiento, puede eliminar de la hoja de trabajo todas l
 >   
 >  Para obtener más información, consulte "Gestión de productos de ensamblar para pedido en envíos de almacén" en Envíos de almacén.  
 >   
->  Para obtener información acerca de la realización de picking de componentes para pedidos de ensamblado en general, incluidas las situaciones en las que no caduca el producto de ensamblado en un envío de ventas, consulte [Procedimiento: Picking para ensamblado o producción en configuraciones avanzadas de almacén](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
+>  Para obtener información acerca de la realización de picking de componentes para pedidos de ensamblado en general, incluidas las situaciones en las que no caduca el producto de ensamblado en un envío de ventas, consulte [Picking para ensamblado o producción en configuraciones avanzadas de almacén](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
 
 ## <a name="to-plan-picks-in-the-worksheet"></a>Para planificar los picking en la hoja de trabajo  
 1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Hoja trabajo picking** y, a continuación, seleccione el vínculo relacionado.  

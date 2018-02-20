@@ -12,13 +12,13 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 70bacf1c523fa6f547798b1a8df14b1e316c36b3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 91071855697c9235ba8734b40d77ed0b48c24923
 ms.contentlocale: es-es
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Procedimiento: Utilizar el servicio OCR para convertir archivos PDF y de imagen en documentos electrónicos
+# <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Utilizar el servicio OCR para convertir archivos PDF y de imagen en documentos electrónicos
 A partir de archivos PDF o de imagen que reciba desde sus socios comerciales podrá hacer que un servicio externo de OCR (reconocimiento óptico de caracteres) genere documentos electrónicos que se podrán convertir a registros de documentos en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Por ejemplo, cuando recibes una factura de un proveedor en formato PDF, la puedes enviar al servicio de OCR desde la ventana **Documentos entrantes**. Esto se describe en el primer procedimiento.
 
 Como alternativa al envío del archivo desde la ventana **Documentos entrantes** puede enviar el archivo al servicio OCR por correo electrónico. A continuación, cuando vuelve a recibir el documento electrónico, se crea automáticamente un registro de documento entrante relacionado. Esto se describe en el segundo procedimiento.
@@ -27,11 +27,11 @@ Después de algunos segundos, recibirá de vuelta el archivo desde el servicio O
 
 Como el OCR se basa en el reconocimiento óptico, es probable que el servicio de OCR interprete de forma incorrecta algunos caracteres del PDF o de los archivos de imagen la primera vez que procese documentos de un determinado proveedor, por ejemplo. Puede que no interprete el logotipo de la compañía como el nombre del proveedor o que pueda malinterpretar la cantidad total de un recibo debido a su diseño. Para evitar estos errores en el futuro, puede corregirlos en una versión separada de la ventana **Documentos entrantes**. A continuación, debe enviar las correcciones al servicio OCR para entrenarle para que interprete los caracteres específicos correctamente la próxima vez que procese un documento PDF o de imagen para el mismo proveedor. Para obtener más información, consulte la sección "Para preparar el servicio OCR para evitar errores".
 
-El tráfico de los archivos hacia y desde el servicio OCR se procesa a través de un movimiento de la cola de proyectos dedicado, que se crea automáticamente cuando se activa la conexión del servicio relacionado. Para obtener más información, vea [Procedimiento: Configurar documentos entrantes](across-how-setup-income-documents.md).
+El tráfico de los archivos hacia y desde el servicio OCR se procesa a través de un movimiento de la cola de proyectos dedicado, que se crea automáticamente cuando se activa la conexión del servicio relacionado. Para obtener más información, vea [Configurar documentos entrantes](across-how-setup-income-documents.md).
 
 ## <a name="to-send-a-pdf-or-image-file-to-the-ocr-service-from-the-incoming-documents-window"></a>Para enviar un archivo PDF o de imagen al servicio OCR desde la ventana **Documentos entrantes**
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Documentos entrantes** y, a continuación, seleccione el vínculo relacionado.
-2. Cree un nuevo registro de documento entrante y adjunte el archivo. Para obtener más información, vea [Procedimiento: Crear registros de documentos entrantes](across-how-create-income-document-records.md).  
+2. Cree un nuevo registro de documento entrante y adjunte el archivo. Para obtener más información, vea [Crear registros de documentos entrantes](across-how-create-income-document-records.md).  
 3. En la ventana **Documentos entrantes**, seleccione una o más líneas y, a continuación, seleccione la acción **Enviar a cola de trabajos**.
 
     El valor del campo **Estado OCR** cambia a **Listo** . El archivo PDF o de imagen adjunto lo envía al servicio OCR la cola de proyectos según la programación, siempre que no haya errores.
@@ -42,10 +42,10 @@ El valor del campo **Estado OCR** cambia a **Enviado** siempre que no haya error
 ## <a name="to-send-a-pdf-or-image-file-to-the-ocr-service-by-email"></a>Para enviar un archivo PDF o de imagen al servicio OCR por correo electrónico
 Desde su aplicación de correo electrónico, puede enviar un correo electrónico al proveedor del servicio OCR con el archivo PDF o de imagen adjunto. Para obtener información acerca de la dirección de correo electrónico a la que enviar el archivo, consulte el sitio web del proveedor del servicio OCR.
 
-Puesto que no existe ningún registro de documento entrante para el archivo, se creará automáticamente un nuevo registro en la ventana **Documentos entrantes** cuando reciba el documento electrónico resultante desde el servicio OCR. Para obtener más información, vea [Procedimiento: Crear registros de documentos entrantes](across-how-create-income-document-records.md).
+Puesto que no existe ningún registro de documento entrante para el archivo, se creará automáticamente un nuevo registro en la ventana **Documentos entrantes** cuando reciba el documento electrónico resultante desde el servicio OCR. Para obtener más información, vea [Crear registros de documentos entrantes](across-how-create-income-document-records.md).
 
 > [!NOTE]  
->   Si trabaja con una tableta o un teléfono, puede enviar el archivo al servicio OCR en cuanto haya tomado una foto del documento o puede crear un documento entrante directamente. Para obtener más información, vea la sección "Para crear documentos entrantes a partir de una fotografía" en [Procedimiento: Crear registro de documentos entrantes](across-how-create-income-document-records.md).
+>   Si trabaja con una tableta o un teléfono, puede enviar el archivo al servicio OCR en cuanto haya tomado una foto del documento o puede crear un documento entrante directamente. Para obtener más información, vea la sección "Para crear documentos entrantes a partir de una fotografía" en [Crear registro de documentos entrantes](across-how-create-income-document-records.md).
 
 ## <a name="to-receive-the-resulting-electronic-document-from-the-ocr-service"></a>Para recibir el documento electrónico resultante desde el servicio de OCR.
 El documento electrónico que se crea por el servicio de OCR desde un archivo PDF o de imagen, se recibe automáticamente en la ventana **Documentos entrantes** por el movimiento de cola de proyectos que se configura cuando activa el servicio de OCR.
@@ -56,7 +56,7 @@ Si no utiliza una cola de proyectos o desea recibir el documento final de OCR m�
 >   Si el servicio de OCR está configurado para requerir la verificación manual de los documentos procesados, el campo **Estado OCR** contendrá **Esperando verificación**. En ese caso, ejecute los pasos siguientes para iniciar sesión en el sitio web del servicio de OCR para comprobar manualmente un documento de OCR.
 
 1. En el campo **Estado OCR**, seleccione el hipervínculo **Esperando verificación**. De forma alternativa, seleccione **Esperando verificación** en la página Inicio.
-2. En el sitio web del servicio de OCR, inicie sesión con las credenciales de su cuenta de OCR. Estas son las credenciales que también usó al configurar el servicio. Para obtener más información, vea la sección "Configurar un servicio de OCR" en [Procedimiento: Configurar documentos entrantes](across-how-setup-income-documents.md).
+2. En el sitio web del servicio de OCR, inicie sesión con las credenciales de su cuenta de OCR. Estas son las credenciales que también usó al configurar el servicio. Para obtener más información, vea la sección "Configurar un servicio de OCR" en [Configurar documentos entrantes](across-how-setup-income-documents.md).
 
     Si accede al sitio web desde el campo **Estado OCR**, el documento en cuestión se muestra inmediatamente después de que firme. Si accede al sitio web y selecciona el mosaico en la página Inicio, en la primera página que se abre, debe elegir el botón **Empezar** en la pestaña **Verificar** o hacer doble clic en el documento que desea entrar.
 
@@ -95,7 +95,7 @@ Además de asignarlo a una cuenta de proveedor o a cuentas de contabilidad, tamb
 6. En el campo **N.º cta. crédito**, escriba la cuenta de tipo de crédito que se insertará en el documento de compra resultante o en la línea del diario de la cuenta.
 
     > [!NOTE]
-    > No utilice los campos **Tipo origen contr.** y **N.º origen contr.** en relación con documentos entrantes. Se usan solo para la conciliación automática de pagos. Para más información, consulte [Procedimiento: Asignación de texto en pagos periódicos a cuentas para conciliación automática](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
+    > No utilice los campos **Tipo origen contr.** y **N.º origen contr.** en relación con documentos entrantes. Se usan solo para la conciliación automática de pagos. Para más información, consulte [Asignación de texto en pagos periódicos a cuentas para conciliación automática](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
 
 7. Repita los pasos 2 a 5 para todo el texto de los documentos entrantes para los que desea crear documentos automáticamente.
 

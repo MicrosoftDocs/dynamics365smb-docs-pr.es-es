@@ -1,6 +1,6 @@
 ---
 title: Bienvenido | Documentos de Microsoft
-description: "Describe las guías de configuración asistida, los vídeos, los temas de ayuda y las páginas y las ventanas que se usan para empezar a realizar operaciones empresariales en Dynamics 365 Business edition."
+description: "Describe las guías de configuración asistida, los vídeos, los temas de ayuda y las páginas y las ventanas que se usan para empezar a realizar operaciones empresariales en Finance and Operations, Business edition."
 documentationcenter: 
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
@@ -12,10 +12,10 @@ ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 03/21/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: e6a467f526b8bb1c55af686817ed3e419b214dbb
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2743061f3581d8938cc020960777f8e8f71b25e1
 ms.contentlocale: es-es
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="getting-ready-for-doing-business"></a>Preparación para hacer negocios
@@ -39,7 +39,7 @@ En la ventana **Configuración asistida**, encontrará lo siguiente con la exper
 | Configurar complementos de Office |Le posibilita usar y ejecutar [!INCLUDE[d365fin](includes/d365fin_md.md)] desde Outlook. |
 | Config. flujo trabajo aprob. |Le permite notificar automáticamente al aprobador cuando un usuario intente crear o cambiar determinados valores en documentos, líneas de diario o tarjetas, como por ejemplo un importe por encima del límite especificado. |
 | Config. registro correo elect. |Le permite iniciar sesión en la correspondencia por correo electrónico en [!INCLUDE[d365fin](includes/d365fin_md.md)] para realizar el seguimiento de las interacciones. |
-| Configurar conector de Dynamics 365 |Le permite conectar con Dynamics 365 for Sales que le posibilita la sincronización de datos como los contactos y la información de los pedidos. |
+| Configurar el conector de Finance and Operations, Business edition |Le permite conectar con Dynamics 365 for Sales que le posibilita la sincronización de datos como los contactos y la información de los pedidos. |
 
 Cuando ha ejecutado un asistente de configuración, se marca como **Completado**. Para ejecutar el asistente de configuración, seleccione los tres puntos también denominados menú contextual y, a continuación, seleccione **Iniciar configuración**.
 
@@ -61,5 +61,5 @@ Según sus datos migrados, ahora puede empezar a crear nuevos documentos de comp
 ## <a name="see-also"></a>Consulte también
 [[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Administrar usuarios y permisos](ui-how-users-permissions.md)
+[Gestionar usuarios y permisos](ui-how-users-permissions.md)
 

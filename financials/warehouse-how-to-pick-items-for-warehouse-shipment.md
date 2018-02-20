@@ -13,20 +13,20 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 5b2658a5b77b1e1ee293b6f99c419c133c535372
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5b73ac2ca4f1aa3bbb8c6514a8aafa39b3c76f99
 ms.contentlocale: es-es
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-pick-items-for-warehouse-shipment"></a>Procedimiento: realice un picking de los artículos para el envío de almacén
+# <a name="pick-items-for-warehouse-shipment"></a>Realizar un picking de los artículos para el envío de almacén
 Cuando el almacén está configurado para requerir los procesos de picking y envío, utilice documentos de picking de almacén para crear y procesar la información de picking anterior al registro del envío de almacén.  
 
 No se puede crear un documento de picking de almacén desde cero porque una actividad de picking siempre forma parte de un flujo de trabajo, tanto en un escenario de extracción como de inserción.  
 
 Puede crear los documentos de picking de almacén en forma de extracción abriendo un documento de envío vacío de almacén, detectando los documentos de origen para lanzar el envío y creando las líneas de picking de almacén para esos envíos. Puede utilizar las funciones **Traer doc. origen** o **Utilizar filtro para obtener documentos origen** para detectar los documentos de origen que están preparados para el envío.
 
-Como alternativa, puede utilizar la ventana **Preparar hoj. trab. pedido** para obtener y crear líneas de picking en lote. Para obtener más información, consulte [Procedimiento: planifique pickings en hojas de trabajo](warehouse-how-to-plan-picks-in-worksheets.md).  
+Como alternativa, puede utilizar la ventana **Preparar hoj. trab. pedido** para obtener y crear líneas de picking en lote. Para obtener más información, consulte [Planifique pickings en hojas de trabajo](warehouse-how-to-plan-picks-in-worksheets.md).  
 
 También puede crear los documentos de picking de almacén en forma de empuje de la ventana **Envío almacén** seleccionando **Crear picking**.  
 
@@ -37,7 +37,7 @@ También puede crear los documentos de picking de almacén en forma de empuje de
 >   
 >  Para obtener más información, vea la sección “Tratamiento de productos ensamblar para pedido en los envíos de almacén”.  
 >   
->  Para obtener información acerca de la realización de picking de componentes para pedidos de ensamblado en general, incluidas las situaciones en las que no caduca el producto de ensamblado en un envío de ventas, consulte [Procedimiento: Selección de producción o la Lista montaje](warehouse-how-to-pick-for-production.md).  
+>  Para obtener información acerca de la realización de picking de componentes para pedidos de ensamblado en general, incluidas las situaciones en las que no caduca el producto de ensamblado en un envío de ventas, consulte [Selección de producción o la Lista montaje](warehouse-how-to-pick-for-production.md).  
 
 ## <a name="to-pick-items-for-warehouse-shipment"></a>Para realizar un picking de los artículos para el envío de almacén  
 1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Picking** y, a continuación, seleccione el vínculo relacionado.  
@@ -52,7 +52,7 @@ También puede crear los documentos de picking de almacén en forma de empuje de
 
 4.  Cuando haya hecho el picking y colocado los productos en el área de o ubicación de envío, elija la acción **Registrar picking**.  
 
-La persona responsable de envío ahora puede llevar los artículos al muelle de envío y registrar el envío, incluido el documento de origen relacionado, en la ventana de **Envío de almacén**. Para obtener más información, consulte [Procedimiento: enviar productos](warehouse-how-ship-items.md).   
+La persona responsable de envío ahora puede llevar los artículos al muelle de envío y registrar el envío, incluido el documento de origen relacionado, en la ventana de **Envío de almacén**. Para obtener más información, consulte [Enviar productos](warehouse-how-ship-items.md).   
 
 Además del picking para los documentos de origen, tal como se describe en este tema, puede traer y situar los artículos entre las ubicaciones sin hacer referencia a los documentos de origen. Para obtener más información, vea [Realizar el picking y la ubicación sin un documento de origen](warehouse-how-to-create-put-aways-from-internal-put-aways.md).  
 

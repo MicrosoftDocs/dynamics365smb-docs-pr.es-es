@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 0dc8b3eeecfbf3f4a96985f4e4adaf0b3a5a21d0
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4636cdedc2c99d1aa7cfc2dc361f7135aa3c4199
 ms.contentlocale: es-es
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-restrict-and-allow-usage-of-a-record"></a>Procedimiento: Restringir y permitir el uso de un registro
+# <a name="restrict-and-allow-usage-of-a-record"></a>Restringir y permitir el uso de un registro
 Si desea restringir un registro para que no se use en ciertas actividades, por ejemplo, hasta que se haya aprobado el registro, puede introducir dos respuestas de flujo de trabajo en un flujo de trabajo que controle el uso del registro. Una respuesta del flujo de trabajo restringirá la utilización del registro definida por el evento y las condiciones del flujo de trabajo. Otra respuesta del flujo de trabajo permitirá la utilización del registro definida por el evento y las condiciones del flujo de trabajo. Hay dos respuestas existentes en la versión genérica de [!INCLUDE[d365fin](includes/d365fin_md.md)] con este fin: **Restringir el uso de un registro** y **Permitir el uso de un registro**.
 
 > [!NOTE]  
@@ -32,7 +32,7 @@ El procedimiento siguiente describe cómo restringir el registro de pedidos de c
 
 ## <a name="to-create-a-workflow-step-that-restricts-posting-of-unapproved-purchase-orders"></a>Para crear un paso de flujo de trabajo que restrinja el registro de pedidos de compra no aprobados  
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Flujos de trabajo** y, a continuación, seleccione el vínculo relacionado.  
-2. En la ventana **Flujos de trabajo**, cree un nuevo flujo de trabajo denominado Flujo de trabajo de aprobación pedido compra. Para obtener más información, consulte [Procedimiento: Crear flujos de trabajo](across-how-to-create-workflows.md).  
+2. En la ventana **Flujos de trabajo**, cree un nuevo flujo de trabajo denominado Flujo de trabajo de aprobación pedido compra. Para obtener más información, consulte [Crear flujos de trabajo](across-how-to-create-workflows.md).  
 3. Seleccione la acción **Copiar desde plantilla de flujo de trabajo**.  
 4. Elija el campo **Código de flujo de trabajo** de origen y, a continuación, en la ventana **Plantillas de flujo de trabajo**, seleccione la plantilla de flujo de trabajo de aprobación de factura de compra.  
 
@@ -41,6 +41,6 @@ El procedimiento siguiente describe cómo restringir el registro de pedidos de c
 6. Empiece a editar, eliminar o agregar otros pasos de flujo de trabajo de acuerdo con un proceso empresarial que empiece por restringir el registro de los pedidos de compra no aprobados.  
 
 ## <a name="see-also"></a>Consulte también  
-[Procedimiento: Crear flujos de trabajo](across-how-to-create-workflows.md)   
+[Crear flujos de trabajo](across-how-to-create-workflows.md)   
 [Flujo de trabajo](across-workflow.md)   
 

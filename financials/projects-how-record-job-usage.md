@@ -13,14 +13,14 @@ ms.search.keywords: project management, consumption
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 2b42abaed502c49a595a35656570548e48321b46
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b0bd4f9a4c0963520631e1571fd182adce85fdd9
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-record-usage-for-jobs"></a>Registro del uso para proyectos
-En la ventana **Líneas planificación proyecto**, puede revisar y registrar la utilización en las diferentes partes de su proyecto, que se actualiza automáticamente cuando modifica y transfiere la información entre proyectos y diarios de proyectos o facturas del proyecto. Para ello es necesario que haya configurado un proyecto para que **Aplicar vínculo uso** se active. Para obtener más información, vea [Configuración de proyectos](projects-how-setup-jobs.md).  
+# <a name="record-usage-for-jobs"></a>Registro del uso para proyectos
+En la ventana **Líneas planificación proyecto**, puede revisar y registrar la utilización en las diferentes partes de su proyecto, que se actualiza automáticamente cuando modifica y transfiere la información entre proyectos y diarios de proyectos o facturas del proyecto. Para ello es necesario que haya configurado un proyecto para que **Aplicar vínculo uso** se active. Para obtener más información, consulte [Configurar trabajos](projects-how-setup-jobs.md).  
 
 Por ejemplo, para las líneas de planificación del tipo **Presupuesto**, puede especificar la cantidad de un recurso, e indicar la cantidad a transferir al diario de proyectos. Si el tipo de la línea de planificación es **Facturable**, puede especificar la cantidad del recurso, e indicar la cantidad a transferir a una factura. Comparando la cantidad que se ha transferido al diario o a la factura con la cantidad pendiente, puede revisar rápidamente la información de utilización.
 
@@ -79,7 +79,7 @@ Cuando esté preparado para registrar la información de los proyectos, debe cre
 Después de haber registrado las líneas de diario de proyectos, puede ver las líneas de planificación que están asociadas a los movimientos del diario de proyectos que se han registrado.
 
 > [!NOTE]  
->   Para ello es necesario que la casilla de verificación **Aplicar vínculo utiliz.** se haya seleccionado para el proyecto, o sea el valor predeterminado para todos los proyectos de su organización. Para obtener más información, vea [Configuración de proyectos](projects-how-setup-jobs.md).  
+>   Para ello es necesario que la casilla de verificación **Aplicar vínculo utiliz.** se haya seleccionado para el proyecto, o sea el valor predeterminado para todos los proyectos de su organización. Para obtener más información, consulte [Configurar trabajos](projects-how-setup-jobs.md).  
 
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diarios de proyectos** y, a continuación, seleccione el vínculo relacionado.  
 2. Seleccione un diario de trabajo relevante y, a continuación, seleccione la acción **Movimientos**.  

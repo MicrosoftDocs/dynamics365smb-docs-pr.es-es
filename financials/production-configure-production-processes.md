@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: de493a4697c3a5c2fb8581545a29ee832fe1c3dc
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f2d95dbb6d0336286f0fb657028970ce8a04cfda
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-manufacturing"></a>Configuración de fabricación
@@ -31,14 +31,14 @@ Cuando haya configurado la fabricación, puede planificar y ejecutar las órdene
 |**Para**|**Vea**|  
 |------------|-------------|  
 |Configurar las características de fabricación, como la definición de las horas laborales de la planta y la selección de principios de planificación.|La página **Configuración de fabricación**.|  
-|Definir una semana laboral estándar, en el departamento de fabricación, en términos de horas de inicio y fin de cada día laboral y turno de trabajo relacionado.|[Cómo crear calendarios de planta](production-how-to-create-work-center-calendars.md)|  
-|Organizar valores fijos y requisitos de un recursos de producción, como centros de trabajo o centros de máquinas, para controlar la salida de la producción efectuada.|[Procedimiento: Configuración de centros de trabajo y centros de máquinas](production-how-to-set-up-work-and-machine-centers.md)|
+|Definir una semana laboral estándar, en el departamento de fabricación, en términos de horas de inicio y fin de cada día laboral y turno de trabajo relacionado.|[Crear calendarios de planta](production-how-to-create-work-center-calendars.md)|  
+|Organizar valores fijos y requisitos de un recursos de producción, como centros de trabajo o centros de máquinas, para controlar la salida de la producción efectuada.|[Configuración de centros de trabajo y centros de máquinas](production-how-to-set-up-work-and-machine-centers.md)|
 |Organizar las operaciones de producción en la orden requerida y asignarlas a los centros de trabajo o centros de máquinas con los horarios de trabajo necesarios.|[Creación de rutas](production-how-to-create-routings.md)|
-|Organizar componentes o subconjuntos de producción sujetos a un producto principal producido y certificar la L.M. para la ejecución en los centros de trabajo.|[Creación de L.M. de producción](production-how-to-create-production-boms.md)|
-|Asegúrese de que la cantidad correcta de componentes están disponibles cuando los artículos producidos se almacenan en una unidad de medida pero se produjeron en otra.|[Procedimiento: Trabajar con la unidad de medida de lote de fabricación](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)|  
-|Definir familias de artículos de producción con procesos de fabricación similares para ahorrar consumo. Por ejemplo, se pueden fabricar cuatro piezas de un mismo producto desde una hoja y 10 piezas de otro producto distinto al mismo tiempo.|[Procedimiento: Trabajo con familias de producción](production-how-work-family.md)|
-|Uso de tareas estándar para simplificar la creación de rutas adjuntando rápidamente información adicional a operaciones periódicas.|[Cómo configurar de líneas de ruta estándar](production-how-set-up-standard-routing-lines.md)|  
-|Prepare centros de trabajo y rutas para representar operaciones de producción subcontratadas.|[Procedimiento: Subcontratación de fabricación](production-how-to-subcontract-manufacturing.md)|  
+|Organizar componentes o subconjuntos de producción sujetos a un producto principal producido y certificar la L.M. para la ejecución en los centros de trabajo.|[Crear LM de producción](production-how-to-create-production-boms.md)|
+|Asegúrese de que la cantidad correcta de componentes están disponibles cuando los artículos producidos se almacenan en una unidad de medida pero se produjeron en otra.|[Trabajar con la unidad de medida de lote de fabricación](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)|  
+|Definir familias de artículos de producción con procesos de fabricación similares para ahorrar consumo. Por ejemplo, se pueden fabricar cuatro piezas de un mismo producto desde una hoja y 10 piezas de otro producto distinto al mismo tiempo.|[Trabajar con familias de producción](production-how-work-family.md)|
+|Uso de tareas estándar para simplificar la creación de rutas adjuntando rápidamente información adicional a operaciones periódicas.|[Configurar de líneas de ruta estándar](production-how-set-up-standard-routing-lines.md)|  
+|Prepare centros de trabajo y rutas para representar operaciones de producción subcontratadas.|[Subcontratación de fabricación](production-how-to-subcontract-manufacturing.md)|  
 
 ## <a name="see-also"></a>Consulte también
 [Fabricación](production-manage-manufacturing.md)    

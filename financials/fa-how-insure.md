@@ -1,6 +1,6 @@
 ---
 title: Asegurar activos fijos | Documentos de Microsoft
-Description: "Puede asignar un activo fijo a una póliza de seguro, que se representa con una ficha de seguro."
+Description: You can assign a fixed asset to an insurance policy, which is represented by an insurance card.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,23 +13,23 @@ ms.search.keywords: policy, coverage
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 421d45e7f35ffdc46801fea85221ba453d52c516
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d5f3ef437e19ec037dc8f81aac6a8d283fc251a5
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-insure-fixed-assets"></a>Procedimiento: Asegurar activos fijos
+# <a name="insure-fixed-assets"></a>Aseguramiento de activos fijos
 Una póliza de seguro para un activo fijo se representa con una ficha de seguro. Puede asignar uno o varios activos fijos a una póliza de seguro.
 
 Asigne un activo fijo a una póliza de seguros con el registro de los movimientos de cobertura del seguro desde la ventana **Diario seguros**.
 
-Además, puede asignar un activo fijo a una póliza de seguro y crear movimientos de cobertura cuando registra el coste. Puede realizar esta acción si registra un coste desde el diario de activos fijos con el campo **N. º seguro** rellenado. La casilla de verificación **Registro auto. seguro** de la ventana **Configuración activos fijos** debe estar seleccionada. Para obtener más información, consulte la sección "Para registrar una adquisición de un activo fijo manualmente con el diario general de activos fijos" en [Procedimiento: Adquirir activos fijos](fa-how-acquire.md).
+Además, puede asignar un activo fijo a una póliza de seguro y crear movimientos de cobertura cuando registra el coste. Puede realizar esta acción si registra un coste desde el diario de activos fijos con el campo **N. º seguro** rellenado. La casilla de verificación **Registro auto. seguro** de la ventana **Configuración activos fijos** debe estar seleccionada. Para obtener más información, consulte la sección "Para registrar una adquisición de un activo fijo manualmente con el diario general de activos fijos" en [Adquirir activos fijos](fa-how-acquire.md).
 
 Si la casilla de verificación **Registro auto. seguro** de la ventana **Configuración activos fijos** no está seleccionada, las adquisiciones registradas del diario de activos fijos crearán líneas en la ventana del **Diario de seguros** y deberá registrarlas manualmente.
 
 > [!WARNING]  
->   Si no selecciona la casilla de verificación **Registro auto. seguro** de la ventana **Configuración activos fijos**, el diario de seguros deberá basarse en una plantilla de diario sin una serie numérica. Esto se debe a que los números de documentos insertados de la línea de diario de activo fijo permanecerán en conflicto con las series numéricas del diario de seguros. Para obtener más información acerca de las plantillas de diarios y secciones, consulte [Procedimiento: Configurar la información general de los activos fijos](fa-how-setup-general.md).
+>   Si no selecciona la casilla de verificación **Registro auto. seguro** de la ventana **Configuración activos fijos**, el diario de seguros deberá basarse en una plantilla de diario sin una serie numérica. Esto se debe a que los números de documentos insertados de la línea de diario de activo fijo permanecerán en conflicto con las series numéricas del diario de seguros. Para obtener más información acerca de las plantillas de diarios y secciones, consulte [Configurar la información general de los activos fijos](fa-how-setup-general.md).
 
 Después de asignar un activo fijo a una póliza de seguros, se seleccionará la casilla de verificación **Asegurado** en la ficha del activo. Cuando vende el activo fijo, la casilla se deselecciona automáticamente.
 
@@ -70,7 +70,7 @@ Puede utilizar el proceso **Ajustar valores seguros** para actualizar el valor d
 5. Abra el diario de seguros pertinente, revise los valores creados y, a continuación, regístrelos en los movimientos de seguros.  
 
 ## <a name="to-monitor-insurance-coverage"></a>Para controlar la cobertura de seguros
-[!INCLUDE[d365fin](includes/d365fin_md.md)] proporciona informes dedicados y ventanas de estadísticas para usarlos en el análisis de las pólizas de seguro y saber si sus activos fijos tienen un exceso o una falta de seguro.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  proporciona informes dedicados y ventanas de estadísticas para usarlos en el análisis de las pólizas de seguro y saber si sus activos fijos tienen un exceso o una falta de seguro.  
 
 ### <a name="overview-of-insurance-policies"></a>Resumen de pólizas de seguro
 Para obtener una visión general de las pólizas de seguros, obtenga una vista previa del informe **Seguro - Lista** o imprímalo. El informe muestra todas las pólizas y los campos más importantes de las fichas de seguro.  

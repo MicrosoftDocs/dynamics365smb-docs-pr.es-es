@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 08/15/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9dea8be0f5b0200f97082dc25dbaa2483ad6c735
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6ca21ece631fdd07cb95ffdaaa350506b4a8c9e1
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-fixed-assets"></a>Configurar activos fijos
@@ -31,17 +31,14 @@ La siguiente tabla tiene vínculos a más información. Una vez configurados est
 
 Cuando habilita una actividad de activo fijo en la sección **Integración contabilidad** de la ventana **Ficha libro amortización**, la ventana **A/F Diario general** se usa para registrar las transacciones de la actividad.
 
-> [!NOTE]  
->  Esta funcionalidad requiere que la experiencia esté definida en **Suite**. Para obtener más información, consulte [Personalizar la experiencia de Financials](ui-experiences.md).  
-
 En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.  
 
 | Para | Vea |
 | --- | --- |
 | Configurar las cuentas predeterminadas, las claves de asignación, las plantillas y las secciones del diario utilizadas para registrar los activos fijos, y configurar las clases y subclases de activos fijos como, por ejemplo, Tangible e Intangible. |[Configurar información general de activos fijos](fa-how-setup-general.md) |
 | Crear libros de amortización y definir varios métodos de amortización, integrarlos con el libro mayor y permitir la duplicación de movimientos en varios libros de amortización. |[Configurar la amortización de los activos fijos](fa-how-setup-depreciation.md) |
-| Activar el seguro de activos fijos, configurar la información del seguro, una ficha de seguro por póliza y preparar los diarios para registrar los costes del seguro. |[Configurar el seguro de los activos fijos](fa-how-setup-insurance.md) |
-| Activar el mantenimiento de activos fijos, configurar la información general de mantenimiento, configurar el mantenimiento de las cuentas de registro y definir los tipos de trabajo de mantenimiento. |[Configurar el mantenimiento de los activos fijos](fa-how-setup-maintenance.md) |
+| Activar el seguro de activos fijos, configurar la información del seguro, una ficha de seguro por póliza y preparar los diarios para registrar los costes del seguro. |[Configure el seguro de los activos fijos](fa-how-setup-insurance.md) |
+| Activar el mantenimiento de activos fijos, configurar la información general de mantenimiento, configurar el mantenimiento de las cuentas de registro y definir los tipos de trabajo de mantenimiento. |[Configure el mantenimiento de los activos fijos](fa-how-setup-maintenance.md) |
 | Conocer varios métodos de amortización de activos fijos. |[Métodos de amortización](fa-depreciation-methods.md) |
 
 ## <a name="see-also"></a>Consulte también

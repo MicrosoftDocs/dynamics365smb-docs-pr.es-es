@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 07/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 6fb27bb277d3ad1b5363da40c26d879663ff616b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e92ac00e08008e8de6a60ec46e0d71500bb03eaa
 ms.contentlocale: es-es
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="the-microsoft-pay-extension-to-included365finincludesd365finlongmdmd"></a>La extensión de Microsoft Pay para [!INCLUDE[d365fin](includes/d365fin_long_md.md)]

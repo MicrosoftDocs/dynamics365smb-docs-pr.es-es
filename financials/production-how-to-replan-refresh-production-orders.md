@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 147163d0b75853914e5b4bd3417c3525d29caefc
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9b839b26814f730febc384ae1bca432a7c26852f
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-replan-or-refresh-production-orders-directly"></a>Cómo replanificar o actualizar órdenes de producción directamente
+# <a name="replan-or-refresh-production-orders-directly"></a>Replanificar o actualizar órdenes de producción directamente
 Se utiliza normalmente la función **Replanificar** después de haber agregado o cambiado componentes que conforman órdenes de producción subyacentes. La función de planificación calcula los cambios realizados en las líneas de componentes y rutas e incluye a los productos de los niveles de L.M. de producción inferiores, para los que puede crear nuevas órdenes de producción.  
 
 De acuerdo con los cambios realizados en las líneas de componentes y rutas, la función de replanificación calcula y planifica la nueva demanda de la orden de producción.  
@@ -67,8 +67,8 @@ Puede insertar las líneas de la orden de producción manualmente o utilizar la 
 ## <a name="to-refresh-a-production-order"></a>Para actualizar una orden de producción  
 Si ha modificado líneas de orden de producción, componentes o líneas de ruta, debe también actualizar la información en la orden de producción. En siguiente procedimiento, se calculan los componentes para una orden de producción planificada en firme. Los pasos son parecidos para las líneas de ruta.
 
-1.  Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), especifique **Orden produc. planif. en firme** y elija el vínculo relacionado.  
-2.  Seleccione la acción **Nuevo**. Para obtener más información, consulte [Creación de órdenes de producción](production-how-to-create-production-orders.md).  
+1.  Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), especifique **O.P. Planificada en firme** y elija el vínculo relacionado.  
+2.  Seleccione la acción **Nuevo**. Para obtener más información, consulte [Crear órdenes de producción](production-how-to-create-production-orders.md).  
 3.  Seleccione la acción **Actualizar**.
 4. En la ventana **Actualizar orden de producción**, seleccione una de las siguientes opciones:
 

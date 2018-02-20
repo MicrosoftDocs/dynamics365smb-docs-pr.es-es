@@ -2,10 +2,10 @@
   tocHref: /dynamics365/
   topicHref: /dynamics365/index
   items:
-    - name: Introducción a Dynamics 365
+    - name: 'Introducción a Finance and Operations, Business edition'
       tocHref: /dynamics365/get-started/what-is/
       topicHref: /dynamics365/get-started/what-is/index
-    - name: 'Finance and Operations, Business'
+    - name: 'Finance and Operations, Business edition'
       tocHref: /dynamics365/financials/
       topicHref: /dynamics365/financials/index
     - name: Accountant Hub

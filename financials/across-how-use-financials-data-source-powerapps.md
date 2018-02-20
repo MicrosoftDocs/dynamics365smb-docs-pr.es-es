@@ -13,10 +13,10 @@ ms.search.keywords: Odata, Power App, SOAP
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 694affae6dfe3015fdc73bf9e2d9dfe3357dfae7
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 40f8d00c8ee064fdee4b676e4863279ec9e50d6d
 ms.contentlocale: es-es
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="connecting-to-your-financials-data-to-build-a-business-app-using-powerapps"></a>Cómo conectarse a sus datos de Financials para crear una aplicación empresarial con PowerApps
@@ -32,7 +32,7 @@ Puede convertir los datos de [!INCLUDE[d365fin](includes/d365fin_md.md)] en disp
 
    PowerApps Studio para Windows es una aplicación de escritorio que se usa para crear y publicar PowerApps. PowerApps Studio para Web es la solución en línea que se usa para crear y publicar PowerApps.
 4. El siguiente paso para crear una PowerApp es seleccionar los datos. Elija el icono de flecha y la opción **Nueva conexión** en la parte superior izquierda de la página.
-5. En la lista de conexiones disponibles, elija **Dynamics 365 Business edition**.
+5. En la lista de conexiones disponibles, elija **Dynamics 365 for Finance and Operations, Business edition**.
 6. PowerApps mostrará una página de conexión que le solicita la información necesaria para conectarse con los datos de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para conectarse debe especificar una dirección URL de OData, el nombre de usuario, la contraseña y el nombre de la empresa.
 
    Para *URL de OData*, puede copiar la dirección URL de OData V4 de cualquiera de los servicios web que se muestran en la página **Servicios Web** en [!INCLUDE[d365fin](includes/d365fin_md.md)], por ejemplo, `https://mycompany.financials.dynamics.com:7048/MS/ODataV4/`.  
@@ -51,7 +51,7 @@ Puede convertir los datos de [!INCLUDE[d365fin](includes/d365fin_md.md)] en disp
    > [!NOTE]  
 >    Una vez que haya conectado correctamente con [!INCLUDE[d365fin](includes/d365fin_md.md)], no se le solicitará nuevamente la URL, el nombre de usuario o la contraseña de OData.
 
-Ya se ha conectado correctamente con los datos de Dynamics 365 y está preparado para comenzar a crear su PowerApp. Para obtener más información, consulte la [documentación de PowerApps](https://powerapps.microsoft.com/tutorials/getting-started/).
+Ya se ha conectado correctamente con los datos de Finance and Operations, Business edition y está preparado para comenzar a crear su PowerApp. Para obtener más información, consulte la [documentación de PowerApps](https://powerapps.microsoft.com/tutorials/getting-started/).
 
 ## <a name="see-also"></a>Consulte también
 [[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  

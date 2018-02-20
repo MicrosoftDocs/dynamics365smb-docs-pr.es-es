@@ -13,13 +13,13 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 06/02/2016
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 99f4ec1b3b02ec88bc10fd21988af8e6683867cb
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 65f3c14b29a5fcf7f855d7ea183445cf2fc1bd95
 ms.contentlocale: es-es
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-manage-many-incoming-document-records"></a>Procedimiento: Gestionar varios registros de documento entrantes
+# <a name="manage-many-incoming-document-records"></a>Gestionar varios registros de documento entrantes
 A medida que crea o procesa registros de documento entrantes, el número de líneas en la ventana **Documentos entrantes** puede aumentar hasta el punto de perder la visión general. Por lo tanto, puede establecer los registros de documento entrantes a Procesado para eliminarlos de la vista por defecto. Cuando selecciona la acción **Mostrar todos**, puede ver tanto los registros procesados como los que están sin procesar.
 
 > [!NOTE]  
@@ -56,5 +56,5 @@ Se muestran todos los registros de documento entrantes, incluyendo aquellos que 
 [Procesar documentos entrantes](across-process-income-documents.md)  
 [Documentos entrantes](across-income-documents.md)  
 [Compras](purchasing-manage-purchasing.md)  
-[Trabajar con [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 0a3b89e2d2a59aa3434e747976437f24860be408
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 92ad393733c758304743ec0b63c98c1612e7240b
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="defining-cost-centers-and-cost-objects-for-chart-of-accounts"></a>Definición de centros de coste y de objetos de coste para el plan de cuentas
@@ -43,7 +43,7 @@ Para cada cuenta de contabilidad, puede definir valores de dimensión predetermi
 
 ## <a name="see-also"></a>Consulte también  
 [Contabilidad para costes](finance-manage-cost-accounting.md)  
-[Procedimiento para configurar centros de costes](finance-how-to-set-up-cost-centers.md)   
-[Procedimiento: configurar objetos de coste](finance-how-to-set-up-cost-objects.md)  
+[Configurar centros de costes](finance-how-to-set-up-cost-centers.md)   
+[Configurar objetos de costes](finance-how-to-set-up-cost-objects.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

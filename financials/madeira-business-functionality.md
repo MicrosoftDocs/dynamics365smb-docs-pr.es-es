@@ -1,5 +1,5 @@
 ---
-title: Funciones empresariales que admite Dynamics 365, Business edition | Documentos de Microsoft
+title: Funciones empresariales que admite Finance and Operations, Business edition | Documentos de Microsoft
 Description: Provides a feature overview of all the business functions and departments that are supported by application areas, such as Finance, Inventory, and Project Management.
 services: project-madeira
 documentationcenter: 
@@ -13,16 +13,16 @@ ms.search.keywords: feature overview
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 3b68f53f2ca2f1553b0d19a617ae58b25f29acdb
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d764a759095e6cdf4e1157bc7b1f850800de3217
 ms.contentlocale: es-es
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="business-functionality"></a>Funciones empresariales
-[!INCLUDE[d365fin](includes/d365fin_md.md)] proporciona funciones para procesos empresariales comunes de las pequeñas y medianas empresas, principalmente de los servicios mayoristas y profesionales. Sin embargo, también se admiten procesos más complejos, por ejemplo, montaje, fabricación, servicio, y administración dirigida de almacén. 
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  proporciona funciones para procesos empresariales comunes de las pequeñas y medianas empresas, principalmente de los servicios mayoristas y profesionales. Sin embargo, también se admiten procesos más complejos, por ejemplo, montaje, fabricación, servicio, y administración dirigida de almacén. 
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] incluye configuraciones estándar de muchos procesos empresariales, pero puede cambiar la configuración para que se adapte a las necesidades de su empresa. Desde la página principal, puede acceder a guías de configuración asistida que le ayudarán a configurar varios escenarios y añadir funciones a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Varias áreas de las funciones empresariales se deben configurar manualmente. Para obtener más información, consulte [Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  incluye configuraciones estándar de muchos procesos empresariales, pero puede cambiar la configuración para que se adapte a las necesidades de su empresa. Desde la página principal, puede acceder a guías de configuración asistida que le ayudarán a configurar varios escenarios y añadir funciones a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Varias áreas de las funciones empresariales se deben configurar manualmente. Para obtener más información, consulte [Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 
 En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.
 

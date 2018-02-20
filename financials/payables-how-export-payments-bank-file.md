@@ -13,16 +13,16 @@ ms.search.keywords: bank file export, re-export, bank transfer, AMC, bank data c
 ms.date: 06/28/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: bab124ecc4d98886e41fbee3af00d4913435c993
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: db8f59a71b8a6afa26e878e189f8cb2ef85685e5
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-export-payments-to-a-bank-file"></a>Exportación de pagos a un archivo de banco
+# <a name="export-payments-to-a-bank-file"></a>Exportar pagos a un archivo bancario
 Cuando esté listo para hacer los pagos a los proveedores, o reembolsos a sus empleados, en la ventana **Diario de pagos**, puede exportar un archivo con la información de pago en las líneas del diario. Después, puede cargar el archivo al banco electrónico para procesar las transferencias de dinero relacionadas.
 
-En la versión genérica de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], ya está configurado y conectado un proveedor global de servicios de conversión de datos bancarios a cualquier formato de archivo que el banco requiera. En las versiones para Norteamérica, el mismo servicio se puede utilizar para enviar archivos de pagos como transferencia electrónica de fondos (EFT), al menos con un proceso ligeramente distinto. Vea el paso 6 de la sección "Para exportar pagos a un archivo bancario".    
+En la versión genérica de [!INCLUDE[d365fin](includes/d365fin_md.md)], ya está configurado y conectado un proveedor global de servicios de conversión de datos bancarios a cualquier formato de archivo que el banco requiera. En las versiones para Norteamérica, el mismo servicio se puede utilizar para enviar archivos de pagos como transferencia electrónica de fondos (EFT), al menos con un proceso ligeramente distinto. Vea el paso 6 de la sección "Para exportar pagos a un archivo bancario".    
 
 > [!NOTE]  
 >   Antes de exportar los archivos de pagos del diario de pagos, debe especificar el formato electrónico de la cuenta bancaria implicada y deberá habilitar el servicio de conversión de datos bancarios. Para obtener más información, vea [Configurar bancos](bank-how-setup-bank-accounts.md) y [Configurar el servicio de conversión de datos bancarios](bank-how-setup-bank-data-conversion-service.md). Además, debe activar la casilla **Permitir exportación de pagos** en la ventana **Secciones diario general**. Para obtener más información, consulte [Trabajar con diarios generales](ui-work-general-journals.md).  
@@ -31,7 +31,7 @@ Use la ventana **Registros de transferencia de crédito** para ver los archivos 
 
 ## <a name="to-export-payments-to-a-bank-file"></a>Para exportar pagos a un archivo bancario
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diarios de pagos** y, a continuación, seleccione el vínculo relacionado.
-2. Rellene las líneas de diario de pago, por ejemplo, mediante la función **Proponer pagos a proveedores**. Para obtener más información, vea [Procedimiento: Proponer pagos a proveedores](payables-how-suggest-vendor-payments.md).
+2. Rellene las líneas de diario de pago, por ejemplo, mediante la función **Proponer pagos a proveedores**. Para obtener más información, vea [Proponer pagos a proveedores](payables-how-suggest-vendor-payments.md).
 3. Rellene los campos de las líneas del diario de pagos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
@@ -62,7 +62,7 @@ A continuación se describe un solución para exportar pagos electrónicos de re
 
 > [!CAUTION]  
 >   Las líneas de diario de pagos resultantes no se pueden registrar, borrar o anular.
-1. Configure el cliente como proveedor. Asígnele el nombre "Cliente X para reembolsos", por ejemplo. Para obtener más información, vea [Procedimiento: Registrar nuevos proveedores](purchasing-how-register-new-vendors.md).
+1. Configure el cliente como proveedor. Asígnele el nombre "Cliente X para reembolsos", por ejemplo. Para obtener más información, vea [Registrar nuevos proveedores](purchasing-how-register-new-vendors.md).
 2. En la línea del diario de pagos del cliente, configure el campo **Tipo de cta.** en **Cliente** y el campo **Tipo documento** en **Reembolso**.
 3. Lleve a cabo los pasos normales para la exportación de pagos como se describe en "Para exportar pagos a un archivo bancario".
 
@@ -89,6 +89,4 @@ Puede volver a exportar los archivos de pago desde la ventana **Registros de tra
 [Pagos](payables-manage-payables.md)  
 [Configurar compras](purchasing-setup-purchasing.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
 

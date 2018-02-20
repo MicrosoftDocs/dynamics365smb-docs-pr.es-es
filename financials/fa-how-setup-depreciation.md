@@ -13,13 +13,13 @@ ms.search.keywords: write down
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: fbdfc4431056c4851208aa063daf8761b4e70bf1
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 92331aaa8e7d6aa83c0ec9e8bbbd350d30957cfc
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-fixed-asset-depreciation"></a>Procedimiento: Configurar la amortización de los activos fijos
+# <a name="set-up-fixed-asset-depreciation"></a>Configurar la amortización de los activos fijos
  Puede utilizar varios métodos de amortización para preparar extractos financieros y devoluciones de impuestos. Muchas grandes empresas utilizan amortizaciones en línea en sus extractos financieros porque les suele permitir obtener ganancias mayores. Sin embargo, en casos de devolución de impuestos, muchas empresas utilizan un método de amortización acelerado. Para obtener más información, consulte [Métodos de amortización](fa-depreciation-methods.md).
 
  Cuando cree los libros de amortización pertinentes, debe asignar uno o más a cada activo. Un libro de amortización que se asigna a un activo se le conoce como un libro de amortización de activo. Por consiguiente, la ventana de los libros asignados de amortización se denomina **Libros amortización A/F**.

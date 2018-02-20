@@ -1,6 +1,6 @@
 ---
 title: Exportar los datos de Financials a Excel | Documentos de Microsoft
-description: Puede exportar los informes financieros y los datos de inteligencia empresarial desde Dynamics 365 Business edition a Excel, o abrir los datos de Financials en Excel.
+description: Puede exportar los informes financieros y los datos de inteligencia empresarial desde Finance and Operations, Business edition a Excel, o abrir los datos de Financials en Excel.
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,14 +13,14 @@ ms.search.keywords: analysis, reporting, financial report, business intelligence
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 36d3e31300fbdc3a29f345a331cabbf50875c77f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6f82017a0e5178e39b5c06e4d52c6e35ec84d848
 ms.contentlocale: es-es
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Exportar los datos de negocio a Excel
-Si desea trabajar con sus datos de [!INCLUDE[d365fin](includes/d365fin_md.md)] en Excel, puede abrir todas las listas en Excel y trabajar con ellos. De igual forma, si desea cancelar la suscripción de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], puede exportar los datos a Excel de forma que pueda llevárselos.
+Si desea trabajar con sus datos de [!INCLUDE[d365fin](includes/d365fin_md.md)] en Excel, puede abrir todas las listas en Excel y trabajar con ellos. De igual forma, si desea cancelar la suscripción de [!INCLUDE[d365fin](includes/d365fin_md.md)], puede exportar los datos a Excel de forma que pueda llevárselos.
 
 ## <a name="opening-lists-in-excel"></a>Abrir listas en Excel
 Puede abrir los datos en Excel desde cualquier diario, lista u hoja de trabajo. Abra solo la página que desee y, a continuación, elija **Abrir en Excel**. Por ejemplo, abra la lista de clientes (busque **Clientes**) y elija **Abrir en Excel**. El explorador le indicaŕa que abra o guardar el libro de Excel generado.  
@@ -60,12 +60,12 @@ Le recomendamos que también considere la posibilidad de exportar los datos de l
 * Vendedores  
 
 > [!NOTE]  
->   Si ha configurado varias empresas en [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], debe exportar los datos correspondientes de cada empresa.
+>   Si ha configurado varias empresas en [!INCLUDE[d365fin](includes/d365fin_md.md)], debe exportar los datos correspondientes de cada empresa.
 
 ## <a name="see-also"></a>Consulte también
-[Cancelar la suscripción de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](madeira-cancel.md)  
+[Cancelar la suscripción de [!INCLUDE[d365fin](includes/d365fin_md.md)]](madeira-cancel.md)  
 [Importar datos de empresa de otros sistemas financieros](upload-data.md)  
 [Finanzas](finance.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)  
-[Trabajar con [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

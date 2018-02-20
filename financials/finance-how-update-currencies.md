@@ -1,6 +1,6 @@
 ---
 title: Actualizar los tipos de cambio de divisa | Documentos de Microsoft
-description: "Para utilizar varias divisas en su empresa, puede configurar un código para cada divisa y usar un servicio externo para el tipo de cambio, como Yahoo."
+description: "Para utilizar varias divisas en su empresa, puede configurar un código para cada divisa y usar un servicio externo para el tipo de cambio, como FloatRates."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -9,17 +9,17 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: multiple currencies, Yahoo
-ms.date: 07/02/2017
+ms.search.keywords: multiple currencies
+ms.date: 01/25/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: eecb1c7b7bcb62e8dc7def488f66338855dad030
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 973e2559b5cbf3e21bb735267ac800f87fa5a7f6
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-update-currency-exchange-rates"></a>Actualizar los tipos de cambio de divisa
+# <a name="update-currency-exchange-rates"></a>Actualizar tipos cambio divisa
 Debe configurar un código por cada una de las divisas usadas en caso de que las operaciones de compra y venta se realicen en una divisa que no sea la divisa local (DL), tenga cobros y pagos en otras divisas o registre las transacciones de contabilidad en diferentes divisas.  
 
 Las empresas trabajan cada vez en un mayor número de países o regiones, por lo que es muy importante que puedan crear informes financieros en más de una divisa y revisarlos. El programa admite el uso de varias divisas. En el programa, la contabilidad se configura con la divisa local (DL), y se configura otra divisa como divisa adicional, a la que se asigna un tipo de cambio.  
@@ -41,11 +41,8 @@ El uso de una divisa adicional puede servir de ayuda en el proceso de creación 
 
 Varios informes en el área de aplicación de la contabilidad se basan en las entradas de contabilidad. Para visualizar los datos financieros en el informe en la divisa adicional para informes, solo tiene que seleccionar el campo **Muestra en div. adic.** en la ventana de contabilidad correspondiente.  
 
-> [!NOTE]  
->   Esta funcionalidad requiere que la experiencia esté definida en **Suite**. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
-
 ## <a name="to-set-up-a-currency-exchange-rate-service"></a>Para configurar un servicio de tipo de cambio de divisa
-Puede utilizar un servicio externo para mantener actualizados los tipos de cambio de divisa. El servicio de tipos de cambio de divisa de Yahoo está preinstalado y listo para activarse.
+Puede utilizar un servicio externo para mantener actualizados los tipos de cambio de divisa como FloatRates.
 
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Servicios de tipo de cambio de divisas** y, a continuación, elija el vínculo relacionado.
 2. Seleccione la acción **Nuevo**.

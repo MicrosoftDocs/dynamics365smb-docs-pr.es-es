@@ -1,6 +1,6 @@
 ---
 title: "Crear nuevas empresas con una guía de configuración asistida | Documentos de Microsoft"
-description: "Es fácil crear una empresa nueva y en blanco en Dynamics 365 Business edition. Una guía de configuración asistida le ayudará a seguir los pasos, y podrá importar sus datos empresariales existentes."
+description: "Es fácil crear una empresa nueva y en blanco en Finance and Operations, Business edition. Una guía de configuración asistida le ayudará a seguir los pasos, y podrá importar sus datos empresariales existentes."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,13 +11,13 @@ ms.search.keywords: company, setup wizard
 ms.date: 07/14/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: c4152a77fcd3e5995aaf09c17b0a3a2c227aa2fa
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d18845dfb3c904139b1b392619d04611522c6e12
 ms.contentlocale: es-es
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="creating-new-companies-in-included365finlongincludesd365finlongmdmd"></a>Crear nuevas en empresas en [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# <a name="creating-new-companies-in-included365finincludesd365finmdmd"></a>Crear nuevas en empresas en [!INCLUDE[d365fin](includes/d365fin_md.md)]
 En [!INCLUDE[d365fin](includes/d365fin_md.md)], los contenedores para datos empresariales que pertenecen a una unidad de negocio o entidad legal se denominan *empresa*. Cuando se registra en [!INCLUDE[d365fin](includes/d365fin_md.md)], recibe una empresa de demostración y una empresa vacía, *Mi empresa*. Cambiar entre las empresas es fácil, solo tiene que ir a **Mi configuración** y cambiarse a la otra empresa. Pero también puede crear nuevas empresas en [!INCLUDE[d365fin](includes/d365fin_md.md)], en función de sus necesidades comerciales. Al crear una empresa nueva, una guía de configuración asistida le ayuda a obtener los elementos básicos. A continuación, puede importar datos relevantes de su sistema heredado u otra empresa en [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="create-new-company"></a>Crear nueva empresa
@@ -44,10 +44,10 @@ Cuando inicie sesión en una empresa nueva, se ejecutará el asistente **Configu
 
 Por ejemplo, la dirección de su empresa se incluye en facturas y otros documentos, su información bancaria se utiliza en los pagos y el método de cálculo de costes se utiliza para calcular los precios, así como la evaluación del inventario.  
 
-Una vez que tenga los elementos básicos, puede configurar las áreas restantes. A continuación, puede agregar datos empresariales, como clientes y proveedores. Para obtener más información, consulte [Configuración de Dynamics 365 Business edition](setup.md).  
+Una vez que tenga los elementos básicos, puede configurar las áreas restantes. A continuación, puede agregar datos empresariales, como clientes y proveedores. Para obtener más información, consulte [Configurar Finance and Operations, Business edition](setup.md).  
 
 ## <a name="see-also"></a>Consulte también
-[Configuración de Dynamics 365 Business edition](setup.md)  
+[Configurar Finance and Operations, Business edition ](setup.md)  
 [Importar datos de empresa de otros sistemas financieros](upload-data.md)  
 [Cambiar la configuración básica](ui-change-basic-settings.md)  
 [[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  

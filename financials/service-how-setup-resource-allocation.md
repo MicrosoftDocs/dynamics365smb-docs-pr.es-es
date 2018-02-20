@@ -13,14 +13,14 @@ ms.search.keywords: resource, skill, service, zones
 ms.date: 08/22/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6c20c0b346186adad6e4b125dbd48bd0d3f56ab2
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b16ba9366aefc108f39667678fe8ab70ce421b83
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="how-to-set-up-resource-allocation"></a>Configurar asignación de recursos
+# <a name="set-up-resource-allocation"></a>Configurar asignación de recursos
 Para garantizar que una tarea de servicio esté bien efectuada, es importante encontrar un recurso que esté cualificado para hacer el trabajo. Puede configurar [!INCLUDE[d365fin](includes/d365fin_md.md)] de forma que resulte fácil asignar a quien tiene las habilidades correctas para el trabajo. En [!INCLUDE[d365fin](includes/d365fin_md.md)], llamamos a esto _asignación de recursos_. Puede asignar recursos basándose en las habilidades, disponibilidad o si se encuentran en la misma zona que el cliente. 
 
 Para usar la asignación de recursos, debe configurar:  
@@ -82,8 +82,8 @@ Si desea cambiar los códigos de habilidades asignados a elementos, por ejemplo 
 ## <a name="see-also"></a>Consulte también
 [Asignar recursos](service-how-to-allocate-resources.md)  
 [Configurar horas de trabajo y de servicio](service-how-setup-work-service-hours.md)  
-[Procedimiento: creación de informes de defecto](service-how-setup-fault-reporting.md)  
-[Cómo configurar códigos para servicios estándar](service-how-setup-service-coding.md)  
+[Crear informes de defecto](service-how-setup-fault-reporting.md)  
+[Configurar códigos para servicios estándar](service-how-setup-service-coding.md)  
  
 
 

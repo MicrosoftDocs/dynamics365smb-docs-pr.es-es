@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: bbfafc41f22a5582b90683bdacf8135e78e46843
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-staying-under-the-overflow-level"></a>Detalles de diseño: Mantenimiento por debajo de los niveles de desbordamiento

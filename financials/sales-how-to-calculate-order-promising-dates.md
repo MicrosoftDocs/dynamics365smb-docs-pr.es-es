@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/10/2017
+ms.date: 01/19/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ff83b7e5b61cd265bb3cb1af0bd5db3513c26072
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b31ba087798c3f54e54403ed418019c82ce3091c
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-calculate-order-promising-dates"></a>Cálculo de las fechas de compromiso de entrega de pedido
+# <a name="calculate-order-promising-dates"></a>Calcular fechas de compromiso de entrega de pedido
 Una empresa debe poder informar a los clientes de las fechas de entrega del pedido. La ventana **Líneas compromiso entrega pedido** permite realizar esta operación desde una línea de pedido de venta.  
 
 Basándose en las fechas sabidas y planificadas de disponibilidad de un producto, [!INCLUDE[d365fin](includes/d365fin_md.md)] inmediatamente calcula las fechas de envío y de entrega, que se podrán acordar con el cliente.  
@@ -39,7 +39,7 @@ Si no especifica una fecha de entrega requerida en una línea del pedido de vent
 ## <a name="about-order-promising"></a>Acerca del compromiso de entrega
 La función compromiso de pedido le permite establecer un compromiso para enviar el pedido en una fecha determinada. Se calcula la fecha en la que un producto está disponible para su compromiso, y se crean las líneas del pedido para las fechas que haya aceptado. La función calcula la fecha más temprana posible en la que un producto se encuentra disponible para su envío. También crea líneas de demanda, en caso de que los artículos deban ser primero compras, para la fechas que usted acepta.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] utiliza dos conceptos fundamentales:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  utiliza dos conceptos fundamentales:  
 
 - Neto no comprometido (NNC)  
 - Capaz de comprometer (CTP)  
@@ -48,8 +48,10 @@ La función compromiso de pedido le permite establecer un compromiso para enviar
 El neto (ATP) no comprometido calcula fechas basándose en el sistema de reserva. Llevará a cabo una comprobación de la disponibilidad de las cantidades sin reservar del inventario en relación con la producción, las compras, las transferencias y las devoluciones de ventas previstas. De acuerdo con esta información, [!INCLUDE[d365fin](includes/d365fin_md.md)] calcula automáticamente la fecha de entrega del pedido del cliente porque los productos estarán disponibles, ya sea en el inventario o en recepciones planificadas.  
 
 ### <a name="capable-to-promise"></a>Capaz de comprometer  
-Capaz de comprometer (CTP) presupone una situación hipotética en la que el producto no se encuentra en el inventario y no hay pedidos programados. En base a esta situación, [!INCLUDE[d365fin](includes/d365fin_md.md)] calcula la fecha más temprana en la que el producto podría estar disponible si se va a producir, comprar o transferir.  
+Capaz de comprometer (CTP) supone un escenario de "qué pasa si", que solo se aplica a cantidades de artículos que no están en el inventario o en pedidos programados. En base a esta situación, [!INCLUDE[d365fin](includes/d365fin_md.md)] calcula la fecha más temprana en la que el producto podría estar disponible si se va a producir, comprar o transferir.
 
+#### <a name="example"></a>Ejemplo
+Si hay un pedido de 10 piezas y hay 6 piezas disponibles en el inventario o en pedidos programados, el cálculo de capaz de comprometer se basará en 4 piezas.
 
 ### <a name="calculations"></a>Cálculos  
 Cuando [!INCLUDE[d365fin](includes/d365fin_md.md)] calcula la fecha de la entrega del cliente, realiza dos tareas:  
@@ -62,7 +64,7 @@ Si el cliente no solicita una fecha de entrega concreta, la fecha de envío se e
 - Fecha envío + Almacén salida + Envío planeado + Tiempo manipulación = Fecha  
 - Fecha envío planeada + Hora envío = Fecha entrega planeada  
 
-A continuación, [!INCLUDE[d365fin](includes/d365fin_md.md)] comprueba si la fecha de entrega calculada es realista calculando hacia atrás en el tiempo para determinar cuándo debe estar disponible el producto para cumplir la fecha acordada. Esto se logra con las siguientes formulas:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] A continuación,  comprueba si la fecha de entrega calculada es realista calculando hacia atrás en el tiempo para determinar cuándo debe estar disponible el producto para cumplir la fecha acordada. Esto se logra con las siguientes formulas:  
 
 - Fecha entrega planeada - Hora envío = Fecha envío planeada  
 - Fecha envío planeada - Manip. almacén salida = Fecha envío  

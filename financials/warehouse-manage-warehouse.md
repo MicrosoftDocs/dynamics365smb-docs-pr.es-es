@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c1ea1c4a5ea4b917243d60981ec35050895f82a7
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5aa3728aa5658f61fd5bb094c7274405f6f9daa2
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="warehouse-management"></a>Gestión almacén
@@ -32,17 +32,20 @@ Antes de poder realizar actividades de almacén, debe configurar el sistema para
 
 |**Para**|**Vea**|  
 |------------|-------------|  
-|Registre la recepción de productos en las ubicaciones del almacén, ya sea solo con una orden de compra, en configuraciones de ubicación sencillas o con un recibo de almacén, en caso de procesamiento semi o totalmente automatizado del almacén en la ubicación.|[Cómo recibir productos](warehouse-how-receive-items.md)|
-|Evite los procesos de ubicación y picking para acelerar un elemento directamente desde la recepción o producción hasta el envío.|[Procedimiento: haga tránsito directo de artículos](warehouse-how-to-cross-dock-items.md)|    
+|Registre la recepción de productos en las ubicaciones del almacén, ya sea solo con una orden de compra, en configuraciones de ubicación sencillas o con un recibo de almacén, en caso de procesamiento semi o totalmente automatizado del almacén en la ubicación.|[Recibir productos](warehouse-how-receive-items.md)|
+|Evite los procesos de ubicación y picking para acelerar un elemento directamente desde la recepción o producción hasta el envío.|[Productos de tránsito directo](warehouse-how-to-cross-dock-items.md)|    
 |Ubicar los productos recibidos de compras, devoluciones de ventas, transferencias o salidas de producción de acuerdo con lo configurado en el proceso del almacén.|[Configurando los artículos componentes](warehouse-put-away-items.md)|
 |Mover productos de una ubicación a otra en el almacén.|[Mover artículos](warehouse-move-items.md)|
 |Realizar el picking de los productos para su envío, transferencia o consumo en producción o ensamblado, de acuerdo con lo configurado en el proceso del almacén.|[Realización de picking de artículos](warehouse-pick-items.md)|
-|Registre la envío de productos desde las ubicaciones del almacén, ya sea solo con una orden de ventas, en configuraciones de ubicación sencillas o con un envío de almacén, en caso de proceso semi o totalmente automatizado del almacén en la ubicación.|[Procedimiento: enviar productos](warehouse-how-ship-items.md)|  
+|Registre la envío de productos desde las ubicaciones del almacén, ya sea solo con una orden de ventas, en configuraciones de ubicación sencillas o con un envío de almacén, en caso de proceso semi o totalmente automatizado del almacén en la ubicación.|[Enviar productos](warehouse-how-ship-items.md)|  
 
 ## <a name="see-also"></a>Consulte también  
- [Grupos contables inventario](inventory-manage-inventory.md)  
- [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
- [Gestión de ensamblaje](assembly-assemble-items.md)    
+[Grupos contables inventario](inventory-manage-inventory.md)  
+[Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
+[Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
- [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

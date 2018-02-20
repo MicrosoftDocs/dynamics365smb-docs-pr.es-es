@@ -13,13 +13,13 @@ ms.search.keywords: relationship, client, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 289213b9c44b07387fd0dcf315b9d08750bdd9f7
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 0c4cf74ef7b0b2e48a8608a0859a71b919e46397
 ms.contentlocale: es-es
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-a-customer-vendor-or-bank-account-from-a-contact"></a>Crear una cuenta de cliente, proveedor o banco a partir de un contacto
+# <a name="create-a-customer-vendor-or-bank-account-from-a-contact"></a>Crear un contacto, proveedor o una cuenta bancaria a partir de un contacto
 Puede que desee registrar algunos de sus contactos existentes como clientes, proveedores o bancos. Crear un cliente, un proveedor o una cuenta bancaria a partir de un contacto le permite usar datos existentes. Al crear un cliente, proveedor o cuenta bancaria de esta forma, se sincroniza con el contacto. La sincronización unifica la información que es común entre los contactos y los clientes, los proveedores o la cuenta bancaria.
 
 Para poder registrar los contactos de esta forma, es necesario especificar un código de relación de negocio para los clientes, proveedores y las cuentas bancarias en la ventana **Configuración de marketing**. Si va a registrar contactos como cuentas bancarias, también debe especificar números de serie para las cuentas bancarias en la ventana **Configuración de contabilidad**.
@@ -37,7 +37,7 @@ La información de contacto se transfiere desde la ficha **Contacto** a la ficha
 [Crear personas de contacto](marketing-create-contact-persons.md)  
 [Configurar la gestión de relaciones](marketing-setup-marketing.md)  
 [Sincronizar contactos con clientes, proveedores y cuentas bancarias](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
-[Procedimiento: Cómo vincular contactos con clientes, proveedores o cuentas bancarias existentes](marketing-how-link-contact.md)  
+[Vincular contactos con clientes, proveedores o cuentas bancarias existentes](marketing-how-link-contact.md)  
 [Asignar relaciones de negocio a un contacto](marketing-business-relations.md#AssignBusRelContact)  
-[Trabajar con Dynamics 365](ui-work-product.md)
+[Trabajar con Finance and Operations, Business edition](ui-work-product.md)
 

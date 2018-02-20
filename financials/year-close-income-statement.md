@@ -13,17 +13,17 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 06/02/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6ddd7b504f6faa856e92c336f889ad08db0b3d8b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 237c03e2ba6408bde65aba5f652468a3b700fa0a
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-close-income-statement-accounts"></a>Cerrar cuentas de regularización
+# <a name="close-income-statement-accounts"></a>Cerrar cuentas de regularización
 Cuando finaliza un ejercicio, debe cerrar los periodos que lo forman. Para ello, puede ejecutar el proceso **Cerrar asiento de regularización**. Esta tarea transfiere el resultado anual a una cuenta en la hoja de balance y cierra las cuentas del balance de ingresos. Se realiza creando líneas en un diario, que después puede registrar.
 
 ## <a name="to-run-the-close-income-statement-batch-job"></a>Para ejecutar el proceso Cerrar asiento de regularización
-1. Cierre el ejercicio fiscal. Antes de ejecutar el proceso se debe cerrar el ejercicio fiscal. Para obtener más información, vea [Procedimiento: Cerrar periodos contables](year-close-account-periods.md).
+1. Cierre el ejercicio fiscal. Antes de ejecutar el proceso se debe cerrar el ejercicio fiscal. Para obtener más información, vea [Cerrar periodos contables](year-close-account-periods.md).
 2. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Cerrar asiento de regularización** y, a continuación, seleccione el vínculo relacionado.
 3. Elija el botón **Aceptar** para iniciar el trabajo por lotes.
 
@@ -38,7 +38,7 @@ El proceso **Cerrar asiento de regularización** se puede usar varias veces. Pue
 
 ## <a name="see-also"></a>Consulte también
 [Cierre de libros](year-close-books.md)  
-[Registrar movimiento de cierre del ejercicio](year-how-post-year-end-close-entry.md)  
+[Registrar el movimiento de cierre del ejercicio](year-how-post-year-end-close-entry.md)  
 [Abrir un nuevo ejercicio](finance-how-open-new-fiscal-year.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

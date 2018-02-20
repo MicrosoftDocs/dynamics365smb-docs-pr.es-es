@@ -11,13 +11,13 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 1f35debace937a04b8f4174131fd72cde6610b7a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6d5fecae58ec05f3cb3eda4ee2a43a131b267c92
 ms.contentlocale: es-es
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-data-exchange-definitions"></a>Procedimiento: Configurar las definiciones de intercambio de datos
+# <a name="set-up-data-exchange-definitions"></a>Configurar definiciones de intercambio de datos
 Puede configurar [!INCLUDE[d365fin](includes/d365fin_md.md)] para intercambiar datos de tablas específicas con datos de archivos externos, por ejemplo para enviar y recibir documentos electrónicos, importar o exportar datos de banco u otros datos, como nóminas, tipos de cambio de divisa y catálogos de productos. Para obtener más información, vea [Intercambio de datos electrónicamente](across-data-exchange.md).  
 
 Como preparación para crear una definición de intercambio de datos de un archivo de datos o una secuencia, puede utilizar los esquemas XML relacionados para definir los datos a incluir en ficha desplegable **Definiciones de columna**. Consulte el paso 6 de la sección ""Describa el formato de las líneas y las columnas en el archivo". Para obtener más información, consulte [Uso de esquemas XML para preparar las definiciones de intercambio de datos](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
@@ -133,7 +133,7 @@ La creación de una definición de intercambio de datos implica dos tareas:
     |**Título del campo de destino**|Solo visible cuando se selecciona la casilla **Usar como tabla intermedia**.<br /><br /> Especifique el nombre del campo de la tabla de destino al que se asigna el valor del campo **Título columna**, cuando se usa una tabla intermedia para importar datos.|  
     |**Opcional**|Solo visible cuando se selecciona la casilla **Usar como tabla intermedia**.<br /><br /> Especifique si se debe omitir la asignación si el campo está vacío. Si no selecciona esta casilla, se producirá un error de exportación si el campo está vacío.|  
 
- La definición de intercambio de datos está preparada para habilitarse para los usuarios. Para obtener más información, consulte [Procedimiento: Configurar el envío y la recepción de documentos electrónicos](across-how-to-set-up-electronic-document-sending-and-receiving.md), [Configuración de transferencias de crédito SEPA](finance-how-to-set-up-sepa-credit-transfer.md), [Configuración de domiciliaciones de adeudo directo SEPA](finance-how-to-set-up-sepa-direct-debit.md) y [Realizar pagos con Servicio de conversión de datos del banco o Transferencia de crédito SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
+ La definición de intercambio de datos está preparada para habilitarse para los usuarios. Para obtener más información, consulte [Configurar el envío y la recepción de documentos electrónicos](across-how-to-set-up-electronic-document-sending-and-receiving.md), [Configurar transferencias de crédito SEPA](finance-how-to-set-up-sepa-credit-transfer.md), [Configurar domiciliaciones de adeudo directo SEPA](finance-how-to-set-up-sepa-direct-debit.md) y [Realizar pagos con Servicio de conversión de datos del banco o Transferencia de crédito SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
 
     Cuando haya creado la definición de intercambio de datos para un archivo de datos específico, podrá exportarla como un archivo XML que se puede usar para habilitar rápidamente la importación del archivo de datos en cuestión. Esto se describe en el procedimiento siguiente:  
 
@@ -154,8 +154,8 @@ La creación de una definición de intercambio de datos implica dos tareas:
 
 ## <a name="see-also"></a>Consulte también  
 [Configuración del intercambio de datos](across-set-up-data-exchange.md)  
-[Procedimiento: Configurar el envío y la recepción de documentos electrónicos](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
-[Configuración de transferencias de crédito SEPA](finance-how-to-set-up-sepa-credit-transfer.md)  
+[Configurar el envío y la recepción de documentos electrónicos](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
+[Configurar la transferencia de crédito de SEPA](finance-how-to-set-up-sepa-credit-transfer.md)  
 [Configuración de domiciliaciones de adeudo directo SEPA](finance-how-to-set-up-sepa-direct-debit.md)  
 [Realizar pagos con Servicio de conversión de datos del banco o Transferencia de crédito SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
 [Documentos entrantes](across-income-documents.md)  

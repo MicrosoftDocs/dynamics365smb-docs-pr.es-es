@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c4abfbcb3bc182fa14c44c427bc41ebd9d67f6cf
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1f3f30673f8235377a581b398e1281fba92501e5
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="multiple-contracts"></a>Contratos múltiples
@@ -35,7 +35,7 @@ El control de artículos de servicio de múltiples contratos permite hacer lo si
 Puede considerar los siguientes ejemplos de uso de la funcionalidad de múltiples contratos.  
   
 ## <a name="creating-multiple-contracts-per-service-item"></a>Creación de múltiples contratos por producto de servicio  
-Puede crear manualmente un contrato de servicio u oferta de contrato para productos de servicio registrados en contratos no cancelados propiedad del mismo cliente. Para hacerlo, siga el procedimiento estándar para crear contratos de servicio y ofertas de contrato de servicio. Para obtener más información, consulte [Cómo trabajar con contratos de servicio y ofertas de contrato de servicio](service-how-to-create-service-contracts-and-service-contract-quotes.md).  
+Puede crear manualmente un contrato de servicio u oferta de contrato para productos de servicio registrados en contratos no cancelados propiedad del mismo cliente. Para hacerlo, siga el procedimiento estándar para crear contratos de servicio y ofertas de contrato de servicio. Para obtener más información, consulte [Trabajar con contratos de servicio y ofertas de contrato de servicio](service-how-to-create-service-contracts-and-service-contract-quotes.md).  
   
 Cuando se agrega un producto de servicio a una línea de contrato que ya está registrado en otro contrato de servicio u oferta de contrato, se muestra un mensaje de advertencia que indica que el producto de servicio ya pertenece a uno o varios contratos de servicio u ofertas de contrato. Si confirma este mensaje, toda la información pertinente del producto de servicio se copiará en la línea de contrato recién creada.  
   
@@ -47,5 +47,5 @@ Puede crear un pedido de servicio manualmente para un producto de servicio que e
   
 ## <a name="see-also"></a>Consulte también  
 [Cumplimiento de contratos de servicio](service-fulfill-service-contracts.md)  
-[Cómo crear pedidos de servicio](service-how-to-create-service-orders.md)  
+[Crear pedidos de servicio](service-how-to-create-service-orders.md)  
 

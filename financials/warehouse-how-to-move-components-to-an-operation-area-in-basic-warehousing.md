@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 146e113931384e8bc9ba01d5ae7ddb626d18050f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 111d79755a3141bf4e562de3e99ffc2117d12d16
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Procedimiento: mueva componentes a un área de operaciones en configuraciones básicas de almacén
+# <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Mover componentes a un área de operaciones en configuraciones básicas de almacén
 Si el artículo que procesa las operaciones tiene lugar en su ubicación de almacén, puede tener que mover los artículos entre las ubicaciones internas para responder a los documentos de origen interno, como producción, ensamblado o pedidos de servicio en la ubicación.  
 
 > [!NOTE]  
@@ -44,7 +44,7 @@ Alternativamente, un trabajador de almacén puede crearla apuntando al pedido de
 > [!NOTE]  
 >  Si el movimiento es para un pedido de ensamblado donde el artículo se ensambla para un pedido de venta, puede definir que el documento de movimiento de inventario esté creado automáticamente cuando se cree el documento del picking de existencias que toma el artículo de montaje final y registra el envío. Para configurarlo, seleccione el campo **Crear movimientos automáticamente** en la ventana **Conf. ensamblado**  
 >   
->  Para obtener más información acerca de los pedidos de endamblaje y configuraciones básicas de almacén, vea la sección “Gestionar productos de ensamblar para pedido con picking de existencias” en [Procedimiento: Selección de producción o ensamblaje](warehouse-how-to-pick-for-production.md).  
+>  Para obtener más información acerca de los pedidos de ensamblaje y configuraciones básicas de almacén, vea la sección “Gestionar productos de ensamblar para pedido con picking de existencias” en [Selección de producción o ensamblaje](warehouse-how-to-pick-for-production.md).  
 
 Este procedimiento muestra cómo crear un movimiento de inventario de la ventana **Movimiento inventario** haciendo referencia un pedido de ensamblado lanzado como documento de origen. El procedimiento es el mismo cuando se mueven los componentes para las órdenes de producción y los pedidos de servicio.  
 

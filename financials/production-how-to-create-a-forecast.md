@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5dea483395e64eb0635879b5c8821428512481ba
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: fea8af85518d608f051be154e551c4c8645ed42a
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-a-production-forecast"></a>Creación de una previsión de producción
+# <a name="create-a-production-forecast"></a>Crear una previsión de producción
 Es posible crear previsiones de ventas y producción desde la ventana **Previsión de producción**.  
 
 La funcionalidad de previsión se utiliza para crear la demanda prevista; la demanda real se crea a partir de las ventas y los pedidos de producción. Durante la creación del Programa de producción principal (MPS), la previsión se liquida con las ventas y los pedidos de producción. La opción *Componente* de la previsión determina qué tipo de requisitos se deben tener en cuenta en el proceso de liquidación. Si la previsión es para un producto de venta, sólo se liquidan los pedidos de venta en la previsión. Si es para componentes, sólo se liquida la demanda que depende de los componentes de la orden de producción en la previsión.  

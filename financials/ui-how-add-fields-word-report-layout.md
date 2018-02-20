@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: fbbddea07a39b6f725c04971466c33ca9252019e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 77f377d6858294aeb54e30fcb178fc9757ac3938
 ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-add-fields-to-a-word-report-layout"></a>Agregar campos a un diseño de informe de Word
+# <a name="add-fields-to-a-word-report-layout"></a>Agregar campos a un diseño de informe de Word
 Un conjunto de datos de informe puede constar de campos que muestran etiquetas, datos e imágenes. Este tema describe el procedimiento para agregar campos de un conjunto de datos de informe a un diseño de informe de Word para un informe. Agregue campos al informe mediante el elemento XML personalizado de Word y mediante la adición de controles de contenido que asignen los campos al conjunto de datos del informe. La adición de campos requiere tener conocimientos del conjunto de datos del informe, de forma que pueda identificar los campos que desea agregar al diseño.  
   
 > [!NOTE]  
@@ -29,15 +29,15 @@ Un conjunto de datos de informe puede constar de campos que muestran etiquetas, 
   
 1.  Si todavía no está abierto, abra en Word el documento de diseño de informe de Word.  
   
-     Para obtener más información, vea [Crear un diseño y modificar un diseño de informe personalizado](ui-how-create-custom-report-layout.md).  
+     Para obtener más información, vea [Crear y modificar un diseño de informe personalizado](ui-how-create-custom-report-layout.md).  
   
 2.  Mostrar la ficha **Desarrollador** en la cinta de Microsoft Word.  
   
-     De forma predeterminada, la pestaña **Desarrollador** no se muestra en la cinta de opciones. Para obtener más información, vea [Cómo mostrar la pestaña de desarrollador en la cinta de opciones](http://go.microsoft.com/fwlink/?LinkID=389631).  
+     De forma predeterminada, la pestaña **Desarrollador** no se muestra en la cinta de opciones. Para obtener más información, vea [Mostrar la pestaña de desarrollador en la cinta de opciones](http://go.microsoft.com/fwlink/?LinkID=389631).  
   
 3.  En la pestaña **Desarrollador**, elija **Panel de asignación XML**.  
   
-4.  En el panel **Asignación XML**, en la lista desplegable **Elemento XML personalizado**, seleccione el elemento XML personalizado para el informe de ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, que suele ser el último en la lista. El nombre del elemento XML personalizado tiene el formato siguiente:  
+4.  En el panel **Asignación XML**, en la lista desplegable **Elemento XML personalizado**, seleccione el elemento XML personalizado para el informe de ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]-->, que suele ser el último en la lista. El nombre del elemento XML personalizado tiene el formato siguiente:  
   
      urn:microsoft-dynamics-nav/reports/*report_name*/*ID*  
   
@@ -80,7 +80,7 @@ Un conjunto de datos de informe puede constar de campos que muestran etiquetas, 
  Las imágenes se alinean en la esquina superior izquierda del control de contenido y cambian su tamaño automáticamente para ajustarse a los límites del control de contenido.  
   
 > [!IMPORTANT]  
->  Puede agregar solo imágenes que tengan formato compatible con Word, como tipos de archivo .bmp, .jpeg y .png. Si agrega una imagen que tenga un formato no admitido en Word, recibirá un error cuando ejecute el informe desde el cliente de ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.  
+>  Puede agregar solo imágenes que tengan formato compatible con Word, como tipos de archivo .bmp, .jpeg y .png. Si agrega una imagen que tenga un formato no admitido en Word, recibirá un error cuando ejecute el informe desde el cliente de ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]-->.  
   
 #### <a name="to-add-an-image"></a>Para agregar una imagen  
   
@@ -107,7 +107,7 @@ La tabla siguiente proporciona un resumen simplificado del XML de un elemento XM
 |`..</DataItem1>`<br /><br /> `</WordReportXmlPart>`|Elemento de cierre.|  
   
 ### <a name="custom-xml-part-in-word"></a>Elemento XML personalizado en Word  
- En Word, se abre el elemento XML personalizado en el panel **Asignación XML** y, a continuación, se usa el panel para asignar elementos a los controles de contenido en el documento de Word. El panel **Asignación XML** está disponible desde la pestaña **Desarrollador** (para obtener más información, consulte [Cómo visualizar la pestaña Desarrollador en la cinta de opciones](http://go.microsoft.com/fwlink/?LinkID=389631)).  
+ En Word, se abre el elemento XML personalizado en el panel **Asignación XML** y, a continuación, se usa el panel para asignar elementos a los controles de contenido en el documento de Word. El panel **Asignación XML** está disponible desde la pestaña **Desarrollador** (para obtener más información, consulte [Visualizar la pestaña Desarrollador en la cinta de opciones](http://go.microsoft.com/fwlink/?LinkID=389631)).  
   
  Los elementos del panel **Asignación XML** aparecen en una estructura similar a la del origen XML. Los campos de etiqueta están agrupados en un elemento **Etiquetas** y de datos común, y las columnas están organizadas en una estructura jerárquica que corresponde al origen XML, con las columnas enumeradas en orden alfabético. Los elementos se identifican por su nombre tal como se define mediante la propiedad Nombre del Diseñador del conjunto de datos de informes en ADD INCLUDE<!--[!INCLUDE[nav_dev_short](../../includes/nav_dev_short_md.md)]-->.  
   
@@ -124,4 +124,4 @@ La tabla siguiente proporciona un resumen simplificado del XML de un elemento XM
 -   El idioma de la etiqueta que se muestra al ejecutar el informe depende del valor de idioma del objeto de informe. <!--OnPrem For more information, see [Multiple Document Languages](../FullExperience/Viewing%20the%20Application%20in%20Different%20Languages.md).-->  
   
 ## <a name="see-also"></a>Consulte también  
- [Cómo crear y modificar un diseño de informe personalizado](ui-how-create-custom-report-layout.md)   
+ [Crear y modificar un diseño de informe personalizado](ui-how-create-custom-report-layout.md)   

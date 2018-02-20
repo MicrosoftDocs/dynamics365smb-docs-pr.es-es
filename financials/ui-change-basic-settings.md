@@ -13,10 +13,10 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
-ms.openlocfilehash: dde3ad30e76c02f58bd31afaa74b81031857462b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3b2fb6a1d63e689d54d9b89b1edae0f18607f276
 ms.contentlocale: es-es
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="changing-basic-settings"></a>Cambiar la configuración básica
@@ -29,7 +29,7 @@ En el centro se encuentra el mosaico Actividades. Actividades muestra los datos 
 
 También puede crear una lista de Clientes favoritos en la página Inicio para las cuentas con las que hace negocios a menudo o a las que necesita prestar especial atención. Use las flechas para contraer parte de la página y haga más espacio para mostrar datos específicos. En la parte superior de la página Inicio encontrará todas las acciones que se pueden realizar con el contenido actual. Todo esto también se puede contraer y solo necesita hacer clic o pinchar en el área contraída para volverlo a ver.
 
-El Área de trabajo predeterminada es **Admin. empresarial**, pero puede seleccionar otra Área de trabajo que se adapte mejor a sus necesidades. Para obtener más información, vea [Procedimiento: Cambiar el Área de trabajo](change-role.md)
+El Área de trabajo predeterminada es **Admin. empresarial**, pero puede seleccionar otra Área de trabajo que se adapte mejor a sus necesidades. Para obtener más información, vea [Cambiar el área de trabajo](change-role.md).
 
 ## <a name="company"></a>Compañía
 Una empresa funciona como un contenedor de datos en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Puede haber múltiples empresas en una base de datos, pero solo se puede seleccionar una a la vez.

@@ -1,6 +1,6 @@
 ---
 title: Configurar adeudo directo SEPA | Documentos de Microsoft
-description: Aprenda a configurar el adeudo directo SEPA en Dynamics 365 Business edition.
+description: "Información sobre cómo configurar el adeudo directo SEPA en Finance and Operations, Business edition."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,16 +11,16 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 96c851c58decbeb46afcd79a9c5275d16c8072d4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 28958f1f090e5adad69cb21d30727fcbd6a7fef8
 ms.contentlocale: es-es
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-sepa-direct-debit"></a>Configuración de domiciliaciones de adeudo directo SEPA
+# <a name="set-up-sepa-direct-debit"></a>Configuración de domiciliaciones de adeudo directo SEPA
 Desde la ventana **Cobros por adeudo directo** puede exportar instrucciones al banco electrónico para realizar recaudar un adeudo directo desde el banco del cliente a su cuenta bancaria. [!INCLUDE[d365fin](includes/d365fin_md.md)] admite el formato de adeudo directo SEPA, pero en su país o región, es posible que haya otros formatos para pagos electrónicos.  
 
-Para habilitar la exportación de formatos de archivos bancarios no compatibles originales en [!INCLUDE[d365fin](includes/d365fin_md.md)], puede configurar una definición de intercambio de datos mediante el marco de intercambio de datos. Para obtener más información, vea [Procedimiento: Configurar las definiciones de intercambio de datos](across-how-to-set-up-data-exchange-definitions.md).  
+Para habilitar la exportación de formatos de archivos bancarios no compatibles originales en [!INCLUDE[d365fin](includes/d365fin_md.md)], puede configurar una definición de intercambio de datos mediante el marco de intercambio de datos. Para obtener más información, vea [Configurar las definiciones de intercambio de datos](across-how-to-set-up-data-exchange-definitions.md).  
 
 Para poder procesar pagos de clientes electrónicamente exportando instrucciones de adeudo directo en formato de adeudo directo SEPA, debe realizar los pasos de configuración siguientes:  
 
@@ -76,7 +76,7 @@ Para poder procesar pagos de clientes electrónicamente exportando instrucciones
 
 ## <a name="see-also"></a>Consulte también  
 [Cobro de pagos mediante adeudo directo SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
-[Procedimiento: Configurar las definiciones de intercambio de datos](across-how-to-set-up-data-exchange-definitions.md)
+[Configurar las definiciones de intercambio de datos](across-how-to-set-up-data-exchange-definitions.md)
 [Crear líneas de ventas y de compras periódicas](sales-how-work-standard-lines.md)
 [Intercambio de datos electrónicamente](across-data-exchange.md)
 
