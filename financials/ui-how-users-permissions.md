@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 01/25/2018
+ms.date: 03/08/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 7f02d9718f4697e5d7eb9113d52e8d6572555b52
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: e78504959c5e858b420ac463d0a6adbaccad9481
 ms.contentlocale: es-es
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="manage-users-and-permissions"></a>Gestionar usuarios y permisos
@@ -22,11 +22,9 @@ Para agregar usuarios en [!INCLUDE[d365fin](includes/d365fin_md.md)], el adminis
 
 Una vez se hayan creado los usuarios en Office 365, se pueden importar en la ventana **Usuarios** mediante la acción **Obtener usuarios desde Office 365**. A los usuarios se les asignan conjuntos de permisos según el plan asignado al usuario en Office 365.
 
-Después podrá asignar conjuntos de permisos a los usuarios para definir a qué objetos de base de datos y, por lo tanto, a qué elementos de la interfaz de usuario, tienen acceso y en qué empresas.
+Después podrá asignar conjuntos de permisos a los usuarios para definir a qué objetos de base de datos y, por lo tanto, a qué elementos de la interfaz de usuario, tienen acceso y en qué empresas. Puede agregar usuarios a grupos de usuarios. Esto facilita asignar los mismos conjuntos de permisos a varios usuarios.
 
 Un conjunto de permisos es una colección de permisos para objetos específicos de la base de datos. A todos los usuarios se les debe asignar uno o varios conjuntos de permisos antes de que pueden acceder a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Un número de conjuntos de permisos predefinidos se proporcionan de forma predeterminada. Puede utilizar estos conjuntos de permisos como están definidos, modificar los conjuntos de permisos predeterminados o crear sus propios conjuntos de permisos adicionales.
-
-Puede agregar usuarios a grupos de usuarios. Esto facilita asignar los mismos conjuntos de permisos a varios usuarios.
 
 Los administradores pueden usar la ventana **Configuración usuarios** para definir periodos de tiempo durante los que los usuarios especificados pueden registrar, así como especificar si el sistema registra la cantidad de tiempo que los usuarios tienen iniciada la sesión.
 
@@ -42,13 +40,9 @@ Puede configurar grupos de usuarios para administrar conjuntos de permisos para 
 
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Grupos de usuarios** y, a continuación, seleccione el vínculo relacionado.
 2. Alternativamente, en la ventana **Usuarios**, seleccione la acción **Grupos de usuarios**.
-3. En la ventana **Grupos de usuarios**, seleccione un grupo de usuarios existente que desee copiar y después seleccione la acción **Copiar el grupo de usuarios**.
-4. En el campo **Nuevo código de grupo de usuarios**, especifique el nombre del nuevo grupo de usuarios y después seleccione el botón **Aceptar**.
-
-    Como alternativa a copiar, puede elegir la acción Nuevo para crear una nueva línea para un grupo de usuarios vacío, que después rellenará manualmente.
-5. Para agregar usuarios nuevos o adicionales, en la ventana **Grupo de usuarios**, seleccione la acción **Miembros de grupo de usuarios**.
-6. En la ventana **Miembros de grupo de usuarios**, en una línea nueva, rellene los campos según sea necesario seleccionando entre los usuarios existentes.
-7. Para agregar conjuntos de permisos nuevos o adicionales, en la ventana **Grupo de usuarios**, seleccione la acción **Conjuntos de permisos de grupo de usuarios**.
+3. En la ventana **Grupo usuarios**, seleccione la acción **Miembros de grupo de usuarios**.
+6. En la ventana **Miembros de grupo de usuarios**, seleccione la acción **Añadir usuarios**.
+7. Para agregar conjuntos de permisos nuevos o adicionales, en la ventana **Grupos de usuarios**, seleccione la acción **Conjuntos de permisos de grupo de usuarios**.
 8. En la ventana **Conjuntos de permisos de grupo de usuarios**, en una línea nueva, rellene los campos según sea necesario seleccionando entre los conjuntos de permisos existentes.
 
 ## <a name="to-set-up-user-time-constraints"></a>Para configurar restricciones de tiempo de usuarios

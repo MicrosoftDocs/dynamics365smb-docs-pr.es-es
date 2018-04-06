@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 11/22/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: abceec5b1bc588e2842d0f512240c30eccbf6f8e
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: 803569ed99f00b9055c5a6ec6e4ffae67d9df2bd
 ms.contentlocale: es-es
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="using-the-same-office-365-account-in-included365finincludesd365finlongmdmd-and-microsoft-invoicing"></a>Con la misma cuenta de Office 365 en [!INCLUDE[d365fin](includes/d365fin_long_md.md)] y Microsoft Invoicing
@@ -37,7 +37,7 @@ Por lo tanto, tendrá que iniciar sesión en [!INCLUDE[d365fin](includes/d365fin
 
     Espere unos minutos. Realizaremos varios cambios en la base de datos subyacente y este proceso suele llevar un tiempo.
 5.  Cuando el sistema está preparado de nuevo, elija el botón **Crear nueva empresa**.  
-6.  En el cuadro de diálogo que aparece, especifique el nombre como *Mi empresa* y elija la opción **Producción de Suite - Solo datos de configuración**.  
+6.  En el cuadro de diálogo que aparece, especifique el nombre como *Mi empresa* y elija la opción **Producción - Solo datos de configuración**.  
 
 Esto tarda de nuevo varios minutos. Cuando se complete el proceso, podrá obtener acceso a Invoicing como parte de la experiencia de Office 365 Business Premium.  
 

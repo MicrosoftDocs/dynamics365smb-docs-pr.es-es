@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/02/2017
+ms.date: 02/23/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 2aac957fc253f6c7d2f621ea2e5e039733081a19
+ms.sourcegitcommit: e6e662ee13db1f9002e1c3e74a0d15e2aa2e2a98
+ms.openlocfilehash: b567b57755df5d887bc20ca8cebfb6d3d4383c37
 ms.contentlocale: es-es
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="working-with-general-journals"></a>Trabajar con diarios generales
@@ -42,7 +42,54 @@ Si ha configurado cuentas de contrapartida predeterminadas para las secciones de
 >   El IVA se calcula de manera independiente para la cuenta principal y la cuenta de contrapartida, para que puedan utilizar diferentes tipos porcentuales de IVA.
 
 ## <a name="working-with-recurring-journals"></a>Trabajar con diarios periódicos
-Un diario periódico es un diario general con campos especiales para administrar las transacciones que registre frecuentemente con pocos cambios o con ninguno. Al usar estos campos para las transacciones periódicas, puede registrar importes tanto fijos como variables. También puede especificar la movimientos de reversión automática al día siguiente a la fecha de registro y usar claves de asignación con los movimientos periódicos.
+Un diario periódico es un diario general con campos específicos para administrar las transacciones que registre frecuentemente con pocos cambios o con ninguno, como el alquiler, las suscripciones, la electricidad y la calefacción. Al usar estos campos para las transacciones periódicas, puede registrar importes tanto fijos como variables. También puede especificar movimientos de reversión automática para el día posterior a la fecha de registro. También puede usar claves de asignación para dividir los movimientos recurrentes entre varias cuentas. Para obtener más información, consulte la sección "Asignación de importes de diario recurrentes a varias cuentas".
+
+En un diario periódico, los movimientos que se van a registrar con regularidad sólo hay que escribirlos una vez. Por tanto, las cuentas, las dimensiones, los valores de dimensiones, etc. que se introduzcan permanecerán en el diario después del registro. Si hay que hacer algún cambio, puede realizarlo en cada registro.
+
+### <a name="recurring-method-field"></a>Campo Periodicidad
+Este campo determina la forma en que se tratará el importe en la línea de diario una vez realizado el registro. Por ejemplo, si usa el mismo importe cada vez que se registra la línea, puede permitir que el valor se mantenga. Si usa las mismas cuentas y texto de la línea, pero el importe varía en cada una, puede optar por borrar el importe después de cada registro.
+
+| Para | Vea |
+| --- | --- |
+|Fijo|El importe de la línea del diario permanecerá una vez realizado el registro.|
+|Variable|El importe de la línea del diario se borrará una vez realizado el registro.|
+|Saldo|El importe registrado en la cuenta de la línea se distribuirá entre las cuentas especificadas para la línea de la tabla Diario gen. distribución. El saldo de la cuenta se establecerá por lo tanto a cero. No olvide rellenar el campo **% Distribución** en la ventana **Asignaciones**. Para obtener más información, consulte la sección "Asignación de importes de diario recurrentes a varias cuentas".|
+|Contraasiento fijo|El importe de la línea del diario se mantendrá después del registro y se registrará un movimiento de contrapartida al día siguiente.|
+|Contraasiento variable|El importe de la línea del diario se borrará después del registro y se registrará un movimiento de contrapartida al día siguiente.|
+|Contraasiento saldo|El importe registrado en la cuenta de la línea se distribuirá entre las cuentas especificadas para la línea de la ventana **Asignaciones**. El saldo en la cuenta se establecerá en cero y se contabilizará un movimiento de saldo el día siguiente.|
+
+> [!NOTE]  
+>  Los campos de IVA se pueden rellenar en la línea del diario periódico o en la línea del diario de distribución, pero no en ambas. Es decir, solo se pueden rellenar en la ventana **Asignaciones** si no se han rellenado las líneas correspondientes en el diario periódico.
+
+### <a name="recurring-frequency-field"></a>Campo Frecuencia repetición
+Este campo determina la frecuencia con que se va a registrar el movimiento de la línea del diario. Es un campo de fórmula de fecha y debe rellenarse para líneas periódicas. Para obtener más información, consulte la sección sobre el uso de fórmulas de fecha en [Introducción de datos](ui-enter-data.md).
+
+#### <a name="examples"></a>Ejemplos
+Si la línea de diario debe registrarse cada mes, escriba "1M". Después de cada registro, la fecha del campo **Fecha registro** se actualizará con la fecha del mes siguiente.
+
+Si desea registrar un movimiento el último día de cada mes, opte por una de estas posibilidades:
+
+- Registre el primer movimiento el último día del mes y escriba la fórmula 1D+1M-1D (1 día + 1 mes - 1 día). Con esta fórmula, se calcula correctamente la fecha de registro con independencia de los días que tenga el mes.
+
+- Registre el primer movimiento cualquier día del mes e introduzca la fórmula 1M+CM. Con esta fórmula, la fecha de registro será después de un mes completo + los días que faltan del mes actual.
+
+### <a name="expiration-date-field"></a>Campo fecha caducidad
+Este campo determina la fecha en que se registrará la línea por última vez. La línea no se registrará después de esta fecha.
+
+La ventaja de utilizar el campo es que la línea no se eliminará inmediatamente del diario y siempre es posible sustituir la fecha de finalización presente con una posterior de manera que pueda utilizar la línea más adelante.
+
+Si el campo se deja en blanco, la línea se registrará cada vez que se registre hasta que se elimine del diario.
+
+### <a name="allocating-recurring-journal-amounts-to-several-accounts"></a>Asignación de importes de diario recurrentes a varias cuentas
+En la ventana **Diario general periódico**, puede elegir la acción **Asignaciones** para ver o administrar cómo los importes de la línea del diario periódico se asignan a varias cuentas y dimensiones. Tenga en cuenta que una asignación funciona como línea de cuenta de contrapartida a la del diario periódico.
+
+Como en el caso del diario periódico, sólo necesita introducir una vez la distribución. Una vez realizado el registro, la distribución permanecerá sin cambios en el diario de distribución, de modo que no necesitará introducir importes y distribuciones cada vez que registre la línea del diario periódico.
+
+Si el método periódico en el diario periódico está establecido en **Saldo** o en **Contraasiento saldo**, no se tendrá en cuenta ningún código de valor de dimensión global en el diario periódico cuando la cuenta esté establecida en cero. Por lo tanto, si asigna una línea periódica a varios valores de dimensión en la ventana **Asignaciones**, solo se creará una entrada reversible. Por tanto, si asigna una línea del diario periódico que contenga un código de valor de dimensión, no introduzca el mismo código en la ventana **Asignaciones**. De lo contrario, los valores de dimensión serán incorrectas.
+
+####<a name="example-allocating-rent-payments-to-different-departments"></a>Ejemplo: Asignación de pagos de alquiler a diferentes departamentos
+si usted paga un alquiler cada mes, tendrá que introducir el importe del alquiler en la cuenta de caja en una línea del diario periódico. En la ventana **Asignaciones** puede dividir el gasto entre varios departamentos (dimensión Departamento) de acuerdo con el número de metros cuadrados que ocupa cada uno. El cálculo se basa en el porcentaje de asignación en cada línea. Puede ingresar varias cuentas en diferentes líneas de asignación (si el alquiler se va a dividir entre varias cuentas), o puede ingresar la misma cuenta pero con varios códigos de valor de dimensión para la dimensión Departamento en cada línea.
+
 
 ## <a name="working-with-standard-journals"></a>Trabajar con diarios estándar
 Cuando haya creado líneas de diario que probablemente vaya a volver a crear más adelante, puede guardarlas como un diario estándar antes de registrar el diario. Esta funcionalidad se aplica a los diarios de productos y a los diarios generales.

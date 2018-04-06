@@ -16,18 +16,18 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 747a3f83d5e0387a557eebaf9ad5d2ef5dcd0673
 ms.contentlocale: es-es
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="visit-our-video-library"></a>Visite nuestra biblioteca de vídeos
 Para ayudarle a empezar rápidamente, estamos creando una biblioteca de videos "tutoriales" que ilustran cómo completar varios procesos en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Solo para mencionar algunos ejemplos, la biblioteca contiene videos que muestran cómo:  
 
-* Migrar datos de empresa de otras aplicaciones financieras a  [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+* Migrar datos de empresa de otras aplicaciones financieras a [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 * Configurar dimensiones para que pueda rastrear y analizar varios documentos y entidades
 * Conectar [!INCLUDE[d365fin](includes/d365fin_md.md)] con Microsoft Dynamics 365 for Sales
 * Configurar flujos de trabajo de aprobación  
-* Utilizar Power BI con  [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-* Configurar el correo electrónico y enviar documentos directamente desde  [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+* Utilizar Power BI con [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+* Configurar el correo electrónico y enviar documentos directamente desde [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 
 Puede acceder a los vídeos de varias formas. Si ya está trabajando con [!INCLUDE[d365fin](includes/d365fin_md.md)], hay dos formas de obtener la biblioteca:
 

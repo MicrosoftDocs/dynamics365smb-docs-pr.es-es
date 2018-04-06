@@ -11,10 +11,10 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.date: 09/05/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 61d339e584107d48e22bd4c250085e9468271d7e
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: 8c8a52f20abe27de7063a0879f529086263d0675
 ms.contentlocale: es-es
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Habilitar los datos de negocio para Power BI
@@ -53,7 +53,7 @@ Para acceder a los datos de [!INCLUDE[d365fin](includes/d365fin_md.md)] en Power
 
 | Campo | Descripción |
 | --- | --- |
-| **URL de alimentación de OData** |La URL de OData, para que Power BI pueda tener acceso a los datos de su empresa, como https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('My%2Business'). |
+| **URL de alimentación de OData** |La dirección URL de OData para que Power BI pueda tener acceso a los datos de su empresa, como https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('My%2Business'). |
 | **Método de autenticación** |Seleccione **Básico**. |
 | **Nombre de usuario** |Su nombre tal como se muestra para la cuenta en [!INCLUDE[d365fin](includes/d365fin_md.md)], como *Juan Pérez*. |
 | **Contraseña** |Esta es la clave de acceso al servicio web de su cuenta de usuario de [!INCLUDE[d365fin](includes/d365fin_md.md)]. |

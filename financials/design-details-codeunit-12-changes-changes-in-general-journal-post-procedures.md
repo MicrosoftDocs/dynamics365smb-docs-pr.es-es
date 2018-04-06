@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 6c2d80860a392ad3e6640bbdf73ab1f515e4dd0b
 ms.contentlocale: es-es
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="codeunit-12-changes-changes-in-general-journal-post-procedures"></a>Cambios en la unidad de código 12: cambios en los procedimientos de registro en el diario general

@@ -13,15 +13,15 @@ ms.search.keywords: customize, personalize, personalization, hide columns, remov
 ms.date: 07/26/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 4384aeb9a9e1e06ea7abc7b4eecdd1365ac2a0a0
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: d6ab880e7fbce361863140e634ea065a31e3aa70
 ms.contentlocale: es-es
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="managing-personalization-as-an-administrator"></a>Administrar la personalización como administrador
 <!--NAV in the Web client-->
-Los usuarios pueden personalizar el área de trabajo para que se adapte a sus preferencias. Como administrador, puede controlar y administrar la personalización desactivando la capacidad de los usuarios para personalizar las páginas y borrar las personalizaciones de página que los usuarios hayan realizado. 
+Los usuarios pueden personalizar el área de trabajo para que se adapte a sus preferencias. Como administrador, puede controlar y administrar la personalización desactivando la capacidad de los usuarios para personalizar las páginas y borrar las personalizaciones de página que los usuarios hayan realizado.
 
 ## <a name="disable-personalization-for-a-profile"></a>Deshabilitar la personalización de un perfil
 Puede evitar que todos los usuarios que pertenecen a un perfil específico puedan personalizar sus páginas.
@@ -31,15 +31,15 @@ Puede evitar que todos los usuarios que pertenecen a un perfil específico pueda
 
 ## <a name="clear-user-personalizations"></a>Borrar personalizaciones de usuarios
 
-Al borrar la personalización de la página, la página vuelve a su diseño original antes de realizar cualquier personalización. Existen dos formas de borrar las personalizaciones que los usuarios han realizado en las páginas: usando la página **Eliminar personalización usuario** o la página **Tarjeta personalización usuario**. 
+Al borrar la personalización de la página, la página vuelve a su diseño original antes de realizar cualquier personalización. Existen dos formas de borrar las personalizaciones que los usuarios han realizado en las páginas: usando la página **Eliminar personalización usuario** o la página **Tarjeta personalización usuario**.
 
 ### <a name="clear-user-personalizations-by-using-the-delete-user-personalization-page"></a>Borrar las personalizaciones de los usuarios con la página Eliminar personalización de usuarios.
 
-La página **Eliminar personalización de usuarios** le permite borrar la personalización por página y por usuario. 
+La página **Eliminar personalización de usuarios** le permite borrar la personalización por página y por usuario.
 
 1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Eliminar personalización usuario** y, a continuación, seleccione el vínculo relacionado.
 
-    La página enumera todas las páginas que se han personalizado y el usuario al que pertenece. 
+    La página enumera todas las páginas que se han personalizado y el usuario al que pertenece.
 
     >[!NOTE]
     > Una marca de verificación en las columnas **Personalización heredada** indica que la personalización se realizó en una versión anterior de [!INCLUDE[d365fin](includes/d365fin_md.md)] que manejaba la personalización de forma diferente a como lo hace ahora. Los usuarios que intentan personalizar estas páginas se bloquean a menos que elijan desbloquear la página. Para obtener más información, consulte [Por qué la página está bloqueada para la personalización](ui-personalization-locked.md).
@@ -54,7 +54,7 @@ La página **Tarjeta personalización de usuarios** le permite borrar la persona
 
 1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Personalización usuario** y, a continuación, seleccione el vínculo relacionado.
 
-    La página **Personalización usuario** muestra todos los usuarios que potencialmente hayan personalizado las páginas. Si no puede encontrar un usuario en la lista, significa que no tiene páginas personalizadas. 
+    La página **Personalización usuario** muestra todos los usuarios que potencialmente hayan personalizado las páginas. Si no puede encontrar un usuario en la lista, significa que no tiene páginas personalizadas.
 
 2. Seleccione el usuario de la lista y, a continuación, seleccione la acción **Editar**.
 
@@ -65,6 +65,6 @@ La página **Tarjeta personalización de usuarios** le permite borrar la persona
 ## <a name="see-also"></a>Consulte también
 [Personalización de su área de trabajo](ui-personalization-user.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Cambiar el área de trabajo](change-role.md)  
+[Cambiar la configuración básica](ui-change-basic-settings.md)  
 [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)  
 

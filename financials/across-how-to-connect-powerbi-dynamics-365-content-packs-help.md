@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 01/29/2018
+ms.date: 02/05/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 4a1498e634046e54bdb9a5793731e44808c2f1eb
+ms.sourcegitcommit: b4e2e7bc1c2622d329c73ae5bf47b4accff10aa8
+ms.openlocfilehash: aff8d95b13f795fa12d3146e5613712fb3baf9b4
 ms.contentlocale: es-es
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="connecting-power-bi-to-finance-and-operations-business-edition-content-packs"></a>Conectar Power BI con los paquetes de contenido de Finance and Operations, Business edition
@@ -46,22 +46,50 @@ Obtener información de los datos de Microsoft [!INCLUDE[d365fin_long_md](includ
 ## <a name="system-requirements"></a>Requisitos del sistema
 Para importar los datos de [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] en Power BI, necesita permisos para los servicios web utilizados para recuperar datos. Los servicios web necesarios para los contenidos de paquetes incluyen:
 
-**Microsoft Dynamics 365 for Finance and Operations – CRM**
+**Microsoft Dynamics 365 for Finance and Operations, Business edition – CRM**
 - SalesOpportunities
+- ExcelTemplateViewCompany
 
-**Microsoft Dynamics 365 for Finance and Operations – Sales**
+**Microsoft Dynamics 365 for Finance and Operations, Business edition – Sales**
+- ItemSalesbyCustomer
+- SalesDashboard
+- ExcelTemplateViewCompany
+
+**Microsoft Dynamics 365 for Finance and Operations, Business edition – Finance**
+- PowerBIFinance
+- ExcelTemplateViewCompany
+
+**Microsoft Dynamics 365 for Finance and Operations, Business edition – Proyectos**
+- Lista de proyectos
+- Líneas planificación proyecto
+- Líneas tarea proyecto
+
+**Microsoft Dynamics 365 for Finance and Operations, Business edition – Lista Clientes**
 - ItemSalesbyCustomer
 - Power_BI_Item_Purchase_List
 - Power_BI_Item_Sales_List
 - SalesDashboard
+- Power_BI_Customer_List
+- ExcelTemplateViewCompany
 
-**Microsoft Dynamics 365 for Finance and Operations – Finance**
-- PowerBIFinance
+**Microsoft Dynamics 365 for Finance and Operations, Business edition – List Productos**
+- ItemSalesbyCustomer
+- Power_BI_Item_Purchase_List
+- Power_BI_Item_Sales_List
+- Productos
+- SalesDashboard
+- ExcelTemplateViewCompany
 
-**Microsoft Dynamics 365 for Finance and Operations – Jobs**
-- Lista de proyectos
-- Líneas planificación proyecto
-- Líneas tarea proyecto
+**Microsoft Dynamics 365 for Finance and Operations, Business edition – Lista Proveedores**
+- ItemSalesbyCustomer
+- Power_BI_Item_Purchase_List
+- Power_BI_Item_Sales_List
+- Productos
+- SalesDashboard
+- Power_BI_Customer_List
+- ItemSalesbyCustomer
+- Power_BI_Vendor_List
+- ExcelTemplateViewCompany
 
 ## <a name="web-services"></a>Servicios Web
 Un modo de fácil de encontrar los servicios web es buscarlos en [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. En la lista, asegúrese de que el cuadro Publicar esté marcado para los servicios web enumerados anteriormente.
@@ -75,7 +103,10 @@ Un error común es introducir el nombre para mostrar de empresa en lugar del nom
 ### <a name="incorrect-user-name-and-password"></a>Nombre de usuario y contraseña incorrectos  
 El nombre de usuario y la contraseña utilizados para conectarse deben ser los mismos que se usan para conectarse a su cuenta de Microsoft Office 365.  
 
-Los paquetes de contenido requieren también que tenga una cuenta de Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].  Una vez que introduzca sus credenciales, descubriremos automáticamente los inquilinos de Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] a los que tenga acceso.  Si no tiene una cuenta de prueba o con licencia de Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], recibirá un mensaje de error.
+Los paquetes de contenido requieren también que tenga una cuenta de Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. Una vez que introduzca sus credenciales, descubriremos automáticamente los inquilinos de Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] a los que tenga acceso. Si no tiene una cuenta de prueba o con licencia de Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], recibirá un mensaje de error.
+
+### <a name="the-key-didnt-match-any-rows-in-the-table"></a>La clave no coincidió con ninguna fila de la tabla
+Si introduce un nombre de empresa no válido durante el proceso de conexión, puede recibir el mensaje de error "La clave no coincidió con ninguna fila de la tabla". Proporcione el nombre correcto de la empresa e intente conectarse de nuevo.
 
 ## <a name="see-also"></a>Consulte también
 [Introducción a Power BI](https://docs.microsoft.com/en-us/power-bi/service-get-started)  

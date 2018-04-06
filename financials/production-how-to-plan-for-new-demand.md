@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: a7266eddba4293807a1e7e2a187c5002be771499
 ms.contentlocale: es-es
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Planear la nueva demanda de pedido por pedido
@@ -75,7 +75,7 @@ En la ventana se muestran las líneas de planificación en función del filtro d
     >  Sólo puede seleccionar esta casilla de verificación si el producto tiene el valor **Opcional** o **Siempre** en el campo **Reserva** de la ficha del producto.  
 
 8.  En el campo **Cantidad que se pedirá**, puede especificar la cantidad que figurará en el pedido de suministros que va a crear.   
-    El valor predeterminado es la misma cantidad que en el campo **Cantidad necesaria**. Sin embargo, podría decidir solicitar más o menos de esta cantidad según el conocimiento que disponga de la situación de demanda. Si, por ejemplo, ve en el campo **Planificación de pedidos**que varias líneas de demanda no relacionadas corresponden al mismo producto comprado, y que su fecha de vencimiento es en torno a la misma fecha, podrá consolidarlas especificando la cantidad total necesaria en el campo **Cantidad que se pedirá** de una línea y, a continuación, eliminando el resto de líneas de planificación obsoletas de dicho producto.  
+    El valor predeterminado es la misma cantidad que en el campo **Cantidad necesaria**. Sin embargo, podría decidir solicitar más o menos de esta cantidad según el conocimiento que disponga de la situación de demanda. Si, por ejemplo, ve en el campo **Planificación de pedidos** que varias líneas de demanda no relacionadas corresponden al mismo producto comprado, y que su fecha de vencimiento es en torno a la misma fecha, podrá consolidarlas especificando la cantidad total necesaria en el campo **Cantidad que se pedirá** de una línea y, a continuación, eliminando el resto de líneas de planificación obsoletas de dicho producto.  
 
 9.  En los campos **Fecha vencimiento** y **Fecha pedido**, puede especificar las fechas que deben aplicarse a los pedidos de suministros creados.  
 

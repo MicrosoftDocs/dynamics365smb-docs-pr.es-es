@@ -16,13 +16,13 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 2d02977377f0d88229fdbfd4c2df96d88cd82f2e
 ms.contentlocale: es-es
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="planning-services"></a>Servicio de planificación
 Con [!INCLUDE[d365fin](includes/d365fin_md.md)], puede configurar las tareas estándar que necesite para satisfacer las necesidades de servicio de su cliente. Para realizarlo, debe determinar qué ofertas de productos de servicio admite su organización de servicios y a qué precio.   
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  también proporciona algunas herramientas de estadísticas que puede utilizar para determinar como de bien van las cosas e identificar las áreas donde podría mejorar.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] también proporciona algunas herramientas de estadísticas que puede utilizar para determinar como de bien van las cosas e identificar las áreas donde podría mejorar.
   
 En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.   
   

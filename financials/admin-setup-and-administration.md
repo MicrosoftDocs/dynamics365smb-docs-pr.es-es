@@ -8,36 +8,39 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/01/2017
+ms.date: 03/12/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 2de32e0acb9e3aeb57a0331aa54bbde4d5dae44d
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: acf94bd4f048e1f76ae2e84c66e8831dd4e46c81
 ms.contentlocale: es-es
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
-# <a name="setup-and-administration-in-finance-and-operations-business-edition"></a>Configuración y Administración de Finance and Operations, Business edition
+# <a name="administration"></a>Administración
 Normalmente, un rol de la empresa se encarga de las tareas de la administración central. El alcance de estas tareas puede depender del tamaño de la empresa, así como de las responsabilidades laborales del administrador. Estas tareas pueden incluir la administración de la sincronización de base de datos de las colas de proyectos y de correo electrónico, la configuración de usuarios, la personalización de la interfaz de usuario y la administración de las claves de cifrado.  
 
 Es importante introducir los valores de configuración correctos desde el principio para el éxito de cualquier nuevo software de negocio. [!INCLUDE[d365fin](includes/d365fin_md.md)] incluye varias guías de configuración que le ayudan a configurar datos fundamentales. Para obtener más información, consulte [Configurar Finance and Operations, Business edition](setup.md).
 
-<!--Whether you use [!INCLUDE[rim](../../includes/rim_md.md)] to implement setup values or you manually enter them in the new company, you can support your setup decisions with some general recommendations for selected setup fields that are known to potentially cause the solution to be inefficient if defined incorrectly.-->  
+Tanto si utiliza RapidStart Services para implementar los valores de configuración como si los introduce manualmente en la nueva empresa, puede sustentar su decisiones de configuración con algunas recomendaciones generales para los campos de configuración seleccionados que son conocidos porque pueden provocar que la solución resulte ineficaz si están definidos forma incorrecta.  
 
-Un superusuario o un administrador puede configurar el marco de intercambio de datos para que los usuarios puedan exportar e importar los datos de los archivos de banco y de nómina, por ejemplo, para diferentes procesos de tesorería.  
+Un superusuario o un administrador puede configurar el marco de intercambio de datos para que los usuarios puedan exportar e importar los datos de los archivos de banco y de nómina, por ejemplo, para diferentes procesos de tesorería.
+
+> [!NOTE]
+> Puede configurar una nueva empresa en [!INCLUDE[d365fin](includes/d365fin_md.md)] con RapidStart Services, que es una herramienta diseñada para acortar los tiempos de implementación, mejorar la calidad de la implementación, introducir un método de repetición para las implementaciones y mejorar la productividad mediante la automatización y simplificación de las tareas periódicas. Para obtener más información, consulte ## [Configuración de una empresa con RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
 En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.   
 
 |**Para**|**Vea**|  
 |------------|-------------|  
-|Agregar usuarios, gestionar permisos y gestionar el acceso a los datos, asignar roles.|[Usuarios, perfiles y áreas de trabajo en Finance and Operations, Business edition](admin-users-profiles-roles.md)|  
-|Realizar un seguimiento de todas las modificaciones directas que realicen los usuarios a los datos de la base de datos para identificar el origen de los errores y de las modificaciones en los datos.|[Registro de cambios en Finance and Operations, Business edition](across-log-changes.md)|  
-|Apoye las decisiones de configuración con recomendaciones para los campos seleccionados que se saben que potencialmente la solución se haga ineficaz si no se configuran correctamente|[Configurar áreas de aplicación complejas mediante procedimientos recomendados](set-up-complex-application-areas-using-best-practices.md)|  
-|Exponga las páginas, las unidades de código y las consultas como servicios web.|[Publicar un servicio web](across-how-publish-web-service.md)|  
-|Configure un servidor SMTP para habilitar la comunicación de correo electrónico dentro y fuera de Finance and Operations, Business edition.| [Configurar el correo electrónico manualmente o con la configuración asistida](madeira-how-setup-email.md)|  
-|Introducir solicitudes únicas o periódicas para ejecutar informes o unidades de código.|[Uso de colas de proyectos para programar tareas](admin-job-queues-schedule-tasks.md)|  
-|Administre, elimine, o comprima los documentos|[Administración de documentos](admin-manage-documents.md)|  
-|Configure una nueva empresa usando plantillas|[Crear nuevas en empresas en [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)|  
+|Agregar usuarios, gestionar permisos y gestionar el acceso a los datos, asignar roles.|[Comprender perfiles y áreas de trabajo](admin-users-profiles-roles.md)|  
+|Asignar permisos a los usuarios, modificar conjuntos de permisos y agrupar usuarios por permisos.|[Gestionar usuarios y permisos](ui-how-users-permissions.md)|
+|Configure una nueva empresa usando plantillas|[Crear nuevas en empresas](about-new-company.md)|
+| Cambie los campos y las acciones que se muestran en la interfaz de usuario para adaptarla a los procesos de la empresa. |[Personalización de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md) |
+|Realizar un seguimiento de todas las modificaciones directas que realicen los usuarios a los datos de la base de datos para identificar el origen de los errores y de las modificaciones en los datos.|[Registrar cambios](across-log-changes.md)|  
+|Introducir solicitudes únicas o periódicas para ejecutar informes o unidades de código.|[Usar colas de proyectos para programar tareas](admin-job-queues-schedule-tasks.md)|  
+|Administre, elimine, o comprima los documentos|[Eliminar documentos](admin-manage-documents.md)|  
+|Exponga las páginas, las unidades de código y las consultas como servicios web.|[Publicar un servicio web](across-how-publish-web-service.md)|
 
 ## <a name="see-also"></a>Consulte también
 [Funciones empresariales](madeira-business-functionality.md)  

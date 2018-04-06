@@ -11,17 +11,17 @@ ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
 ms.date: 07/27/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: b14df6dbf21e405464431600eb5e743b528edbee
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: c94729445defcd88f7ac20e258f71b3c9da2142b
 ms.contentlocale: es-es
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="frequently-asked-questions"></a>Preguntas más frecuentes
 Esta sección contiene las respuestas de las preguntas más frecuentes sobre el inicio de sesión y el uso de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="what-email-address-can-i-use-with-included365finincludesd365finmdmd"></a>¿Qué dirección de correo electrónico puedo usar en [!INCLUDE[d365fin](includes/d365fin_md.md)]?
-[!INCLUDE[d365fin](includes/d365fin_md.md)] Para iniciar sesión,  requiere una dirección de correo electrónico del trabajo o la escuela. [!INCLUDE[d365fin](includes/d365fin_md.md)] no admite direcciones de correo electrónico proporcionadas por servicios de correo electrónico del consumidor ni por proveedores de la telecomunicación. Esto incluye outlook.com, hotmail.com, gmail.com y otros.  
+Para iniciar sesión, [!INCLUDE[d365fin](includes/d365fin_md.md)] requiere una dirección de correo electrónico del trabajo o la escuela. [!INCLUDE[d365fin](includes/d365fin_md.md)] no admite direcciones de correo electrónico proporcionadas por servicios de correo electrónico del consumidor ni por proveedores de la telecomunicación. Esto incluye outlook.com, hotmail.com, gmail.com y otros.  
 
 Si intenta iniciar sesión con una dirección de correo personal, recibirá un mensaje indicando que use una dirección del trabajo o la escuela. Para obtener más información, vea [Solución de problemas del registro de autoservicio](ui-troubleshoot-self-signup.md).  
 
@@ -29,7 +29,7 @@ Si intenta iniciar sesión con una dirección de correo personal, recibirá un m
 N.º Pero si desea experimentar [!INCLUDE[d365fin](includes/d365fin_md.md)] completamente integrado con Office 365, puede registrarse para un mes de prueba gratuita de Office 365 [aquí](https://products.office.com/try).  
 
 ## <a name="what-is-the-integration-with-office-365-about"></a>¿De qué trata la integración con Office 365?
-[!INCLUDE[d365fin](includes/d365fin_md.md)] está completamente integrado en Office 365, por esta razón puede navegar libremente entre las aplicaciones de Office 365 y [!INCLUDE[d365fin](includes/d365fin_md.md)] usando el iniciador de aplicaciones. En [!INCLUDE[d365fin](includes/d365fin_md.md)], por ejemplo, puede abrir datos en Excel, imprimir los informes usando Word y trabajar en sus datos de [!INCLUDE[d365fin](includes/d365fin_md.md)] en Outlook. Para obtener más información, consulte [Usar [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] como su bandeja de entrada de empresa en Outlook](madeira-outlook.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] está completamente integrado en Office 365, por esta razón puede navegar libremente entre las aplicaciones de Office 365 y [!INCLUDE[d365fin](includes/d365fin_md.md)] usando el iniciador de aplicaciones. En [!INCLUDE[d365fin](includes/d365fin_md.md)], por ejemplo, puede abrir datos en Excel, imprimir los informes usando Word y trabajar en sus datos de [!INCLUDE[d365fin](includes/d365fin_md.md)] en Outlook. Para obtener más información, consulte [Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] como su bandeja de entrada de empresa en Outlook](madeira-outlook.md).  
 
 ## <a name="can-i-cancel-my-subscription"></a>¿Puedo cancelar mi suscripción?
 Sí, pero dependiendo de cómo inició sesión en [!INCLUDE[d365fin](includes/d365fin_md.md)] se pueden eliminar o conservar sus datos. Para obtener más información, consulte [Cancelar [!INCLUDE[d365fin](includes/d365fin_md.md)]](madeira-cancel.md).  
@@ -50,6 +50,9 @@ Esto es un poco complicado, pero parece que el administrador no ha cambiado el �
 [[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] como su bandeja de entrada de empresa en Outlook](madeira-outlook.md)  
 [Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] sin Outlook](madeira-no-outlook.md)  
-[Cambiar el área de trabajo](change-role.md)  
+[Cambiar la configuración básica](ui-change-basic-settings.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

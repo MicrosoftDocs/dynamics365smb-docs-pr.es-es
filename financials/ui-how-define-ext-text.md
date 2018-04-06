@@ -9,16 +9,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/16/2017
+ms.date: 03/02/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 52e5b2b69da1f9a78906563d054d91de2dfe0925
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 7f83b9fa8803e3b6611e0167a972c0e54f5eff79
 ms.contentlocale: es-es
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
-# <a name="set-up-extended-item-text"></a>Configurar textos ampliados del producto
+# <a name="adding-extended-item-text"></a>Añadir textos ampliados del producto
 Puede ampliar un concepto estándar para productos agregando líneas adicionales y puede configurar condiciones para el uso de las líneas adicionales. Puede realizar esta tarea en las fichas de productos.
 
 ## <a name="to-define-extended-text-for-an-item-description"></a>Para definir el texto adicional de una descripción de producto
@@ -30,6 +30,10 @@ Puede ampliar un concepto estándar para productos agregando líneas adicionales
 6. Rellene los campos **Fecha inicial** y **Fecha final** si desea limitar las fechas en las que se utiliza el texto adicional.
 7. Seleccione las casillas de verificación correspondientes para los tipos de documento donde desee imprimir el texto adicional.
 8. Cierre la ventana.
+
+## <a name="to-add-an-extended-item-text-on-a-sales-order-line"></a>Para agregar un texto de producto adicional en un pedido de venta línea
+1. Abra un pedido de venta con la línea de venta para un producto que tenga texto adicional definido. Para obtener más información, vea [Vender productos](sales-how-sell-products.md).
+2. Seleccione la línea en cuestión y, a continuación, la acción **Insertar textos adicionales**.
 
 ## <a name="see-also"></a>Consulte también
 [Configurar inventario](inventory-setup-inventory.md)  

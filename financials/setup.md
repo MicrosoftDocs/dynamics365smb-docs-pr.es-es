@@ -8,21 +8,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 09/01/2017
+ms.date: 03/12/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 14d3c2639fcbc6c0a1ecf47fd89a2c0452e06fb9
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 73407196730468646f8f2bb051d4df35c2157f0b
 ms.contentlocale: es-es
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="setting-up-included365finincludesd365finmdmd"></a>Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  incluye configuraciones estándar de la mayoría de procesos empresariales, pero puede cambiar la configuración para que se adapte a las necesidades de la empresa.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] incluye configuraciones estándar de la mayoría de procesos empresariales, pero puede cambiar la configuración para que se adapte a las necesidades de la empresa.
 
 Por ejemplo, para que su plan de cuentas se rellene previamente con varias cuentas de registro listas para usar. Por supuesto, puede cambiar el plan de cuentas para satisfacer sus necesidades. Para obtener más información, consulte [Finanzas](finance.md).
 
-Desde la página principal, puede acceder a guías de configuración asistida que le ayudarán a configurar varios escenarios y añadir funciones a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener información acerca de cómo acceder a todas las ventanas de configuración manual y asistida, consulte [Preparación para hacer negocios](ui-get-ready-business.md).
+Desde el área de trabajo, puede acceder a guías de configuración asistida que le ayudarán a configurar varios escenarios y añadir funciones a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener información acerca de cómo acceder a todas las ventanas de configuración manual y asistida, consulte [Preparación para hacer negocios](ui-get-ready-business.md).
+
+> [!NOTE]
+> Puede configurar una nueva empresa en [!INCLUDE[d365fin](includes/d365fin_md.md)] con RapidStart Services, que es una herramienta diseñada para acortar los tiempos de implementación, mejorar la calidad de la implementación, introducir un método de repetición para las implementaciones y mejorar la productividad mediante la automatización y simplificación de las tareas periódicas. Para obtener más información, consulte ## [Configuración de una empresa con RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
 Alguna funcionalidad, general o de procesos empresariales específicos, se puede configurar manualmente además de la configuración asistida. A continuación se enumera parte de la funcionalidad que puede configurar manualmente.
 
@@ -37,15 +40,17 @@ Alguna funcionalidad, general o de procesos empresariales específicos, se puede
 | Configurar el modo de asegurar, mantener y amortizar activos fijos, y el modo de registrar los costes de los activos fijos en los libros de su empresa. |[Configurar activos fijos](fa-setup.md) |
 |Definir las reglas y los valores generales para los procesos de almacén y la manipulación específica de cada ubicación.|[Configuración de la gestión del almacén](warehouse-setup-warehouse.md)|
 |Preparar las L.M. y las rutas de producción para definir cómo se producen los productos finales y preparar centros de máquina o de trabajo para realizar las operaciones necesarias.|[Configuración de fabricación](production-configure-production-processes.md)|
+|Lea las prácticas recomendadas para configurar los artículos para la valoración de existencias y la planificación de suministros.|[Configuración de áreas de aplicación complejas mediante procedimientos recomendados](set-up-complex-application-areas-using-best-practices.md)|
+|Configure un servidor SMTP para habilitar la comunicación de correo electrónico dentro y fuera de [!INCLUDE[d365fin](includes/d365fin_md.md)].| [Configurar el correo electrónico manualmente o con la configuración asistida](madeira-how-setup-email.md)|
 | Configure códigos de identificación únicos para registros, como fichas, documentos y líneas de diario, para realizar su seguimiento en el sistema. |[Crear serie numérica](ui-create-number-series.md) |
-| Configure la ventana **Configuración correo SMTP** para registrar y recibir correos electrónicos de documentos en [!INCLUDE[d365fin](includes/d365fin_md.md)]. |[Configurar correo electrónico](madeira-how-setup-email.md) |
-| Configure códigos de identificación únicos. |[Crear numeración](ui-create-number-series.md) |
+|Configurar y asignar un calendario base a su empresa y a sus socios comerciales, como clientes, proveedores o almacenes. Se calculan las fechas de entrega y de recepción de futuros pedidos de venta, pedidos de compra, pedidos de transferencia y líneas de órdenes de producción según los días laborables especificados en el calendario.|[Configuración de calendarios base](across-how-to-assign-base-calendars.md)|  
 
-Algunas regiones requieren que sea el administrador en su suscripción [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, consulte [Configuración y administración en [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-setup-and-administration.md).  
+Algunas regiones requieren que sea el administrador en su suscripción [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, consulte [Administración](admin-setup-and-administration.md).  
 
 ## <a name="see-also"></a>Consulte también
+[Administración](admin-setup-and-administration.md)  
 [Finanzas](finance.md)  
-[Ccial](sales-manage-sales.md)  
+[Ventas](sales-manage-sales.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Grupos contables inventario](inventory-manage-inventory.md)    
 [Administración de proyectos](projects-manage-projects.md)  

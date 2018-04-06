@@ -13,10 +13,10 @@ ms.search.keywords: news
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 78f340d619f622c6bca91bd97f0fcd8ae6b28acd
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 46e2150432c4e304fbfce63ae5eecea443391efe
 ms.contentlocale: es-es
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="whats-new-in-dynamics-365-for-finance-and-operations-business-edition"></a>Novedades de Dynamics 365 for Finance and Operations, Business edition
@@ -90,7 +90,7 @@ Esta actualización agrega acciones al panel del proveedor en el complemento de 
 El complemento de Outlook ahora amplía el calendario de Outlook. Desde una cita de calendario, puede abrir el complemente de [!INCLUDE[d365fin](includes/d365fin_md.md)] y obtener una visión general del cliente asociado a la cita. A continuación, puede crear y registrar una factura de los servicios proporcionados en la reunión, y todo ello directamente en el calendario de Outlook. Para obtener más información, consulte [Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] como su bandeja de entrada de empresa en Outlook](madeira-outlook.md).  
 
 ### <a name="appsource-marketplace-for-extensions"></a>Mercado AppSource de extensiones
-[!INCLUDE[d365fin](includes/d365fin_md.md)] las extensiones están disponibles en el mercado AppSource en [AppSource.microsoft.com](https://appsource.microsoft.com/). Podrá buscar y encontrar extensiones en el mercado. Podrá ver la información, incluido material de marketing, capturas de pantalla, vídeos y vínculos a detalles adicionales. Para obtener más información, consulte [Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] mediante extensiones](ui-extensions.md).  
+La extensiones [!INCLUDE[d365fin](includes/d365fin_md.md)] están disponibles en el mercado AppSource en [AppSource.microsoft.com](https://appsource.microsoft.com/). Podrá buscar y encontrar extensiones en el mercado. Podrá ver la información, incluido material de marketing, capturas de pantalla, vídeos y vínculos a detalles adicionales. Para obtener más información, consulte [Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] mediante extensiones](ui-extensions.md).  
 
 ### <a name="shipping-agents-and-item-attributes"></a>Atributos de transportistas y producto
 Puede agregar atributos a sus productos de inventario que faciliten mucho la búsqueda del producto adecuado que desea el cliente. Para obtener más información sobre cómo trabajar con el formulario, consulte [Trabajar con atributos de producto](inventory-how-work-item-attributes.md).  
@@ -100,7 +100,7 @@ Con esta actualización, puede elegir entre más extensiones en la ventana **Adm
 Para obtener más información, consulte [[!INCLUDE[d365fin](includes/d365fin_md.md)] Extensiones de otros proveedores](ui-extensions-other.md).  
 
 ### <a name="manage-your-customer-relationships-using-microsoft-dynamics-365-for-sales-from-inside-included365finincludesd365finmdmd"></a>Administrar las relaciones con el cliente mediante Microsoft Dynamics 365 for Sales desde [!INCLUDE[d365fin](includes/d365fin_md.md)]
-Hemos agregado una nueva guía de configuración asistida a la página programa del administrador de negocio que le guiará por el proceso de configuración para conectarse a Dynamics 365 for Sales. Una vez terminada, tendrá un acoplamiento perfecto de los registros de Dynamics 365 for Sales con los registros de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, vea [Administrar sus relaciones con el cliente mediante Microsoft Dynamics 365 for Sales desde [!INCLUDE[d365fin](includes/d365fin_md.md)] ](marketing-integrate-dynamicscrm.md).
+Hemos agregado una nueva guía de configuración asistida al área de trabajo del administrador de negocio que le guiará por el proceso de configuración para conectarse a Dynamics 365 for Sales. Una vez terminada, tendrá un acoplamiento perfecto de los registros de Dynamics 365 for Sales con los registros de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, vea [Administrar sus relaciones con el cliente mediante Microsoft Dynamics 365 for Sales desde [!INCLUDE[d365fin](includes/d365fin_md.md)] ](marketing-integrate-dynamicscrm.md).
 
 ## <a name="may-2016-update"></a>Actualización de mayo de 2016
 Esta actualización de [!INCLUDE[d365fin](includes/d365fin_md.md)] ha agregado nuevas funciones como [se anunció en el blog](https://community.dynamics.com/business/b/financials/archive/2016/06/01/new-and-updated-capabilities-in-the-first-update-of-project-quot-madeira-quot).  
@@ -122,7 +122,7 @@ Escenarios clave que puede probar por sí solo:
 - [Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] como su bandeja de entrada de empresa en Outlook](madeira-no-outlook.md)  
 - [Obtener [!INCLUDE[d365fin](includes/d365fin_md.md)] en el dispositivo móvil](install-mobile-app.md)  
 - [Habilitar los datos de negocio para Power BI](madeira-powerbi.md)  
-- [Cambiar el Área de trabajo](change-role.md)  
+- [Cambiar la configuración básica](ui-change-basic-settings.md)  
 
 
 

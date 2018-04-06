@@ -13,7 +13,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 97ff0418c2e3ffe2ace8412bb889fafd5788510b
 ms.contentlocale: es-es
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Configurar información general de activos fijos
@@ -51,7 +51,7 @@ Las claves de asignación se aplican a las clases de activos, no a los activos i
 ## <a name="to-set-up-fixed-asset-journal-templates"></a>Para configurar las plantillas del diario de activos
 Un libro es un diseño predeterminado de un diario. El libro contiene información de los códigos de seguimiento, informes y números de serie. Para obtener más información, consulte [Trabajar con diarios generales](ui-work-general-journals.md).
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] crea automáticamente una plantilla de diario de activos la primera vez que abre la ventana **Diario de activos fijos**, pero puede configurar plantillas de diario adicionales.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] crea automáticamente una plantilla de diario de activos la primera vez que abre la ventana **Diario de activos**, pero puede configurar plantillas de diario adicionales.  
 
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **A/F Libros diarios** y, a continuación, seleccione el vínculo relacionado.  
 2. Rellene los campos según sea necesario.

@@ -11,10 +11,10 @@ ms.search.keywords: accountant, accounting, financial report
 ms.date: 09/14/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 594c4cca94ee23904eaadc913f0e29ef0590f3f8
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 8e28d3b8e245c014e6494cee341b49132242ac9f
 ms.contentlocale: es-es
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="accountant-experiences-in-included365finlongincludesd365finlongmdmd"></a>Experiencias contables en [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -23,7 +23,7 @@ Los negocios deben crear sus libros y firmas de contabilidad. Algunas empresas e
 ## <a name="accountant-role-center"></a>Área de trabajo Contable
 El Área de trabajo es un tablero de mandos con cuadros de actividad que le muestran cifras clave en tiempo real y le proporcionan un acceso rápido a los datos. En la cinta en la parte superior de la ventana tiene acceso a más acciones, como abrir los informes financieros y las declaraciones más utilizados en Excel. En el panel de navegación de la izquierda, puede cambiar rápidamente entre las listas que utiliza con mayor frecuencia. Si amplía el menú **Inicio** en el panel de navegación, verá otras áreas, como **Documentos registrados** con los diversos tipos de documentos que la empresa ha publicado.  
 
-Si es nuevo en [!INCLUDE[d365fin](includes/d365fin_md.md)], puede iniciar una lista de videos directamente desde su página de inicio. También puede abrir el paseo **Introducción** que se centra en las áreas clave.  
+Si es nuevo en [!INCLUDE[d365fin](includes/d365fin_md.md)], puede iniciar una lista de videos directamente desde su área de trabajo. También puede abrir el paseo **Introducción** que se centra en las áreas clave.  
 
 ## <a name="accountant-hub"></a>Accountant Hub
 Si es un contable con varios clientes, puede utilizar [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] para obtener una mejor visión general de sus clientes. Desde allí, puede acceder al suscriptor de cada cliente en [!INCLUDE[d365fin](includes/d365fin_md.md)] y utilizar el Área de trabajo Contable como se describe anteriormente. Para obtener más información, vea [[!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index).  

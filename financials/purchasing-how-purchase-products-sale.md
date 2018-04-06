@@ -13,10 +13,10 @@ ms.search.keywords: supply planning, sales demand, replenish
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 67e76ea76267c001277be3203c28103c3acb3214
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: bb89654d7bc48ad9746265b15cf0b6270fec2f7c
 ms.contentlocale: es-es
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="purchase-items-for-a-sale"></a>Comprar productos para una venta
@@ -29,7 +29,7 @@ A partir de pedidos y facturas de venta, puede utilizar funciones para crear rá
 ## <a name="to-create-one-or-more-purchase-orders-from-a-sales-order"></a>Para crear uno o más pedidos de compra a partir de un pedido de venta
 Para crear un pedido de compra para cada cantidad de producto no disponible en el pedido de venta, utilice la función **Crear pedidos de compra**.
 
-1. En la página Inicio, elija el mosaico **Pedidos de venta en curso**.
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Pedidos de venta** y, a continuación, seleccione el vínculo relacionado.
 2. Abra un pedido de venta para el que desea comprar productos.
 3. Elija la acción **Crear pedidos de compra**.
 
@@ -52,7 +52,7 @@ Para crear una sola factura de compra para una o varias líneas de un documento 
 > [!NOTE]  
 >   Esta función crea una factura de compra para la cantidad exacta de productos en el documento de venta seleccionado. Para cambiar la cantidad de compra, debe modificar la factura de compra después de que se cree.  
 
-1. En la página Inicio, elija el mosaico **Facturas de ventas en curso**.
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Pedidos de venta** y, a continuación, seleccione el vínculo relacionado.
 2. Abra una factura de venta para la que desea comprar productos.
 3. Seleccione una o varias líneas de factura de venta que desee usar en la factura de compra. Para usar todas las líneas de factura de venta, selecciónelas todas o no seleccione ninguna.
 4. Elija la acción **Crear factura de compra**.

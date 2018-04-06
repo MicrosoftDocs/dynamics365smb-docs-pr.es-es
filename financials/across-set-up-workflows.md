@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 12/01/2017
+ms.date: 02/20/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 75571a006ab267cfef268e0ff6b62ffd0ffb936b
+ms.sourcegitcommit: e6e662ee13db1f9002e1c3e74a0d15e2aa2e2a98
+ms.openlocfilehash: d837fb0b85f3b62c82fb63596e1299ffdd252b23
 ms.contentlocale: es-es
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="setting-up-workflows"></a>Configuración de flujos de trabajo
@@ -26,7 +26,7 @@ Puede configurar y utilizar flujos de trabajo que vinculen tareas de procesos em
 
  En la ventana **Flujo de trabajo** creas un flujo de trabajo haciendo una lista de los pasos utilizados en las líneas. Cada paso consta de un evento del flujo de trabajo, moderado por condiciones de evento, y una respuesta de flujo de trabajo, moderada por las opciones de respuesta. Los pasos del flujo de trabajo se definen rellenando los campos de las líneas de flujo de trabajo en listas fijas de valores de evento y respuesta que representan los escenarios de flujo de trabajo que admite el código de aplicación.  
 
- Si una situación de negocio requiere un evento de flujo de trabajo o respuesta no compatibles, un asociado de Microsoft tiene que implementarlos personalizando el código de aplicación. Para obtener más información, consulte [Tutorial: Implementación de nuevos eventos y respuestas de flujo de trabajo](/dynamics_nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses) en la ayuda para desarrolladores e informáticos.
+ Si una situación de negocio requiere un evento de flujo de trabajo o respuesta no compatibles, un asociado de Microsoft tiene que implementarlos personalizando el código de aplicación. Para obtener más información, consulte [Tutorial: Implementación de nuevos eventos y respuestas de flujo de trabajo](/dynamics-nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses) en la ayuda para desarrolladores e informáticos.
 
  En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.  
 
@@ -37,12 +37,12 @@ Puede configurar y utilizar flujos de trabajo que vinculen tareas de procesos em
 |Especificar cómo se notifica a los usuarios del flujo de trabajo los pasos del flujo de trabajo, incluidas las solicitudes de aprobación.|[Configurar notificaciones de flujo de trabajo](across-setting-up-workflow-notifications.md)|  
 |Especificar cuándo recibirán los usuarios las notificaciones y si agregar las notificaciones correspondientes a un periodo para minimizar el número de notificaciones.|[Especificar cómo y cuándo recibir notificaciones](across-how-to-specify-when-and-how-to-receive-notifications.md)|  
 |Configurar la disposición y el contenido general de los mensajes de correo de notificaciones de nuevos flujos de trabajo o exportar, modificar y reimportar las plantillas existentes.|[Administrar las plantillas de notificación](across-how-to-manage-notification-templates.md)|  
-|Configure un servidor SMTP para habilitar la comunicación de correo electrónico dentro y fuera de  [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Configurar correo electrónico](madeira-how-setup-email.md)|
+|Configure un servidor SMTP para habilitar la comunicación de correo electrónico dentro y fuera de [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Configurar correo electrónico](madeira-how-setup-email.md)|
 |Especificar los diferentes pasos de un flujo de trabajo por conexión de eventos de flujo de trabajo con respuestas de flujo de trabajo.|[Crear flujos de trabajo](across-how-to-create-workflows.md)|  
 |Utilizar plantillas de flujo de trabajo para crear flujos de trabajo nuevos.|[Crear flujos de trabajo a partir de plantillas de flujo de trabajo](across-how-to-create-workflows-from-workflow-templates.md)|  
 |Compartir flujos de trabajo con otras bases de datos de [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Importar y exportar flujos de trabajo](across-how-to-export-and-import-workflows.md)|  
 |Aprender a configurar un flujo de trabajo para documentos de venta aprobados siguiendo un procedimiento de extremo a extremo.|[Tutorial: Configuración y uso de un flujo de trabajo de aprobación de compra](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
-|Agregar compatibilidad con un escenario empresarial que necesita nuevos eventos y respuestas personalizando el código de aplicación.|[Tutorial: Implementación de nuevos eventos y respuestas de flujo de trabajo](/dynamics_nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses)|  
+|Agregar compatibilidad con un escenario empresarial que necesita nuevos eventos y respuestas personalizando el código de aplicación.|[Tutorial: Implementación de nuevos eventos y respuestas de flujo de trabajo](/dynamics-nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses)|  
 
 ## <a name="see-also"></a>Consulte también  
  [Uso de flujos de trabajo](across-use-workflows.md)   

@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/15/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 93d5bc9fd8189d5a8341faa252de9eac257901d2
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 61ee0eaccea5bfb3511537d825b2a0cb8948dee8
 ms.contentlocale: es-es
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="create-interactions-on-contacts-and-segments"></a>Crear interacciones en contactos y segmentos
@@ -38,7 +38,7 @@ Antes de crear interacciones, debe configurar las plantillas de interacción. Pa
 3. Seleccione la interacción que desea terminar y, a continuación, seleccione la acción **Reanudar**.
 
 ## <a name="to-create-an-interaction-on-a-segment"></a>Para crear una interacción en un segmento
-1. En la página Inicio, seleccione **Activar segmentos** o, en la esquina superior derecha, seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), introduzca **Segmentos** y, a continuación, seleccione el vínculo relacionado.
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Segmentos** y, a continuación, seleccione el vínculo relacionado.
 2. En la ventana **Segmento**, en la sección **Interacción**, rellene los campos para especificar qué interacción quiere asignar al segmento.
 
     Después de asignar una interacción al segmento puede personalizar la interacción para cada contacto particular dentro del segmento, por ejemplo seleccionando otra plantilla de interacción en las líneas de la ventana **Segmento**.  

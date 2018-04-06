@@ -1,8 +1,6 @@
 ---
 title: "Detalles de diseño: Ajuste de coste | Documentos de Microsoft"
 description: "El propósito principal del ajuste de coste es desviar los cambios de coste de los orígenes de coste a los destinatarios de coste, según la valoración de existencias de un producto, para proporcionar la valoración de inventario correcta."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 23/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 8520630e03e26c8c2aab5157fc1efb853552919a
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: d0733c7d96f10969a7d266031e5d1d0d7f83519f
 ms.contentlocale: es-es
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-cost-adjustment"></a>Detalles de diseño: Ajuste de coste
@@ -171,13 +169,20 @@ Si ha configurado aplicar el ajuste automático del coste en los registros que s
 Si ha configurado aplicar el ajuste automático del coste en los registros que se produzcan dentro de un día o una semana a partir de la fecha de trabajo actual, el ajuste automático del coste no se ejecutará, y el coste de compra no se desviará a la venta hasta ejecutar el trabajo por lotes **Valorar stock - movs. producto**.  
 
 ## <a name="see-also"></a>Consulte también
+<<<<<<< HEAD [Modificar costes de productos](inventory-how-adjust-item-costs.md)  
+[Detalles de diseño: Fecha registro en el movimiento de valor de ajuste](design-details-inventory-adjustment-value-entry-posting-date.md)  
+[Detalles de diseño: Coste de inventario](design-details-inventory-costing.md)  
+[Detalles de diseño: Conciliación con contabilidad](design-details-reconciliation-with-the-general-ledger.md)  
+[Detalles de diseño: Registro de inventario](design-details-inventory-posting.md)  
+[Detalles de diseño: Desviación](design-details-variance.md)  
+=======
 [Modificar costes de productos](inventory-how-adjust-item-costs.md)   
 [Detalles de diseño: Coste de inventario](design-details-inventory-costing.md)   
 [Detalles de diseño: Conciliación con contabilidad](design-details-reconciliation-with-the-general-ledger.md)   
 [Detalles de diseño: Registro de inventario](design-details-inventory-posting.md)   
 [Detalles de diseño: Desviación](design-details-variance.md)   
-[Detalles de diseño: Registro de pedidos de ensamblado](design-details-assembly-order-posting.md)   
-[Detalles de diseño: Registro de órdenes de producción](design-details-production-order-posting.md)
+>>>>>>> refs/remotes/origin/Update13 [Detalles de diseño: Registro de pedidos de ensamblado](design-details-assembly-order-posting.md)   
+[Detalles de diseño: Registro de órdenes de producción](design-details-production-order-posting.md)  
 [Gestión de costes de inventario](finance-manage-inventory-costs.md)  
 [Finanzas](finance.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

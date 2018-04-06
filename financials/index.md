@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 09/14/2017
+ms.date: 01/31/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 2f17af763663ffc7d10c9730ca433ca1574d6552
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 9ffe72d64d8cb9a3db426ad299af8c2025ec31f5
 ms.contentlocale: es-es
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="welcome-to-included365finlongincludesd365finlongmdmd"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  es una solución de administración empresarial para pequeñas y medianas empresas que automatiza y optimiza los procesos empresariales y le ayuda a administrar su empresa. Registrarse es muy fácil y puede migrar los datos de la empresa existentes desde su sistema de herencia.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] es una solución de administración empresarial para pequeñas y medianas empresas que automatiza y optimiza los procesos empresariales y le ayuda a administrar su empresa. Registrarse es muy fácil y puede migrar los datos de la empresa existentes desde su sistema de herencia.
 Cuando se registra en la vista previa de [!INCLUDE[d365fin](includes/d365fin_md.md)], dispone de acceso a una empresa de demostración. La empresa de demostración contiene datos de ejemplo, pero puede crear sus propios documentos de venta, por ejemplo, o configurar una cuenta bancaria.  
 
 ## <a name="get-to-know-included365finincludesd365finmdmd"></a>Familiarícese con [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -35,16 +35,16 @@ Para obtener más información, consulte [Trabajar con [!INCLUDE[d365fin](includ
 Cuando esté preparado para empezar a trabajar y desee examinar algunos de los procesos empresariales que admite [!INCLUDE[d365fin](includes/d365fin_md.md)], vea [Funciones empresariales](madeira-business-functionality.md). Para obtener un resumen de las funciones actuales y futuras, eche un vistazo a nuestra guía básica en [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68).  
 
 ## <a name="the-home-pages"></a>Páginas principales
-Las páginas principales utilizan un diseño basado en roles para ofrecerle acceso rápido a las herramientas de procesos e inteligencia empresariales que necesita para realizar su trabajo. Por ejemplo, un contable puede supervisar pagos y aprobaciones, y ver gráficos de rendimiento financiero. Vea las distintas páginas principales eligiendo el icono **Configuración** ![Configuración](media/ui-experience/settings_icon_small.png "Icono Configuración del área de trabajo") en la esquina superior derecha, eligiendo **Mi configuración** y, a continuación, el área de trabajo para explorar. Inicie sesión de nuevo para aplicar el cambio. Para obtener más información, vea [Cambiar el área de trabajo](change-role.md).  
+Las páginas principales utilizan un diseño basado en roles para ofrecerle acceso rápido a las herramientas de procesos e inteligencia empresariales que necesita para realizar su trabajo. Por ejemplo, un contable puede supervisar pagos y aprobaciones, y ver gráficos de rendimiento financiero. Vea las distintas páginas principales eligiendo el icono **Configuración** ![Configuración](media/ui-experience/settings_icon_small.png "Icono Configuración del área de trabajo") en la esquina superior derecha, eligiendo **Mi configuración** y, a continuación, el área de trabajo para explorar. Inicie sesión de nuevo para aplicar el cambio. Para obtener más información, consulte [Cambiar configuración básica](ui-change-basic-settings.md).  
 
 Cada la página principal proporciona un botón **Configuración y extensiones**. Aquí tiene acceso a una lista de configuración asistencia que puede ayudarle a empezar mediante la configuración de las áreas seleccionadas rápidamente. Si un área no está cubierta por una configuración asistida, elija la acción **Configuración manual** para obtener acceso a las ventanas de configuración donde puede rellenar los campos de configuración de todas las áreas manualmente. Para obtener más información, consulte también [Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
 > [!NOTE]  
->   La lista de guías de configuración, las extensiones y los servicios que están disponibles varían según la experiencia del usuario que elija para la empresa. La experiencia **Básica** ofrece menos acceso que la experiencia **Suite**. La primera vez que inicie sesión, use la experiencia Básica. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).  
+>   La lista de guías de configuración, las extensiones y los servicios que están disponibles varían según la experiencia del usuario que elija para la empresa. La experiencia **Básica** ofrece menos acceso que la experiencia **Esencial**. La primera vez que inicie sesión, use la experiencia Básica. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).  
 
-En la ventana **Configuración asistida**, encontrará lo siguiente con la experiencia **Suite**:
+En la ventana **Configuración asistida**, encontrará lo siguiente con la experiencia **Esencial**:
 
-| Configuración asistida | Descripción |
+| Configuración asistida | Description |
 | --- | --- |
 | Migrar datos empresariales |Permite importar datos empresariales existentes, como proveedores, clientes y productos desde Excel o Quickbooks. |
 | Configurar mi empresa |Crea una nueva empresa de prueba para que pueda introducir datos y probar [!INCLUDE[d365fin](includes/d365fin_md.md)]. Si empezó con el paseo de introducción, es probable que ya lo haya **Completado**. |
@@ -53,7 +53,7 @@ En la ventana **Configuración asistida**, encontrará lo siguiente con la exper
 | Configurar un flujo de trabajo de aprobación de cliente |Configura la capacidad de notificar automáticamente al aprobador cuando un usuario intente crear o cambiar una ficha cliente. |
 | Configurar correo electrónico |Le prepara para enviar correos electrónicos directamente de, por ejemplo, pedidos o contactos en [!INCLUDE[d365fin](includes/d365fin_md.md)]. |
 | Config. registro correo elect. |Le permite iniciar sesión en la correspondencia por correo electrónico en [!INCLUDE[d365fin](includes/d365fin_md.md)] para realizar el seguimiento de las interacciones. |
-| Configurar Outlook para  [!INCLUDE[d365fin](includes/d365fin_md.md)] |Le posibilita usar y ejecutar [!INCLUDE[d365fin](includes/d365fin_md.md)] desde Outlook. |
+| Configurar Outlook para [!INCLUDE[d365fin](includes/d365fin_md.md)] |Le posibilita usar y ejecutar [!INCLUDE[d365fin](includes/d365fin_md.md)] desde Outlook. |
 | Configurar informes |Configura conjuntos de datos que puede usar para generar informes eficaces utilizando Excel o Power BI, por ejemplo. |
 | Configurar un flujo de trabajo de aprobación de producto |Configura la capacidad de enviar una notificación a un aprobador cuando un usuario cambia o crea un producto. |
 | Configurar un flujo de trabajo de aprobación de pago |Configura la capacidad de enviar una notificación a un aprobador cuando un usuario envíe líneas de diario de pagos para su aprobación. |
@@ -66,7 +66,7 @@ En la ventana **Configuración asistida**, encontrará lo siguiente con la exper
 Para crear una empresa para probar cosas, vaya al menú **Mi configuración** en la esquina superior derecha y cambie a **Mi empresa**. Cierre la sesión de [!INCLUDE[d365fin](includes/d365fin_md.md)] y vuelva a iniciarla para aplicar el cambio. Una guía de configuración asistida le ayudará a proporcionar información básica acerca de la empresa. Una vez haya terminado, explore la página principal y busque la acción **Configuración asistida**.  
 
 ## <a name="ready-to-subscribe"></a>¿Preparado para suscribirse?
-Cada vez que inicie sesión durante el periodo de prueba, una notificación en una barra azul de la parte superior muestra el tiempo restante. Si decide suscribirse, utilice el vínculo de la notificación para ponerse en contacto con Microsoft. También puede ponerse en contacto con el equipo de ventas de [!INCLUDE[d365fin](includes/d365fin_md.md)]](https://go.microsoft.com/fwlink/?linkid=828707).  
+Cada vez que inicie sesión durante el periodo de prueba, una notificación en una barra azul de la parte superior muestra el tiempo restante. Si decide suscribirse, utilice el vínculo de la notificación para ponerse en contacto con Microsoft. También puede ponerse en contacto con el equipo de ventas de [!INCLUDE[d365fin](includes/d365fin_md.md)](https://go.microsoft.com/fwlink/?linkid=828707).  
 
 ## <a name="other-finance-and-operations-business-edition-apps"></a>Otras aplicaciones de Finance and Operations, Business edition
 Navegue hasta el contenido sobre las otras aplicaciones de Finance and Operations, Business edition al elegir el enlace [Finance and Operations, Business edition](https://docs.microsoft.com/dynamics365) en el banner azul en la parte superior de esta página. También puede obtener más información en [el sitio web de Dynamics 365 for Finance and Operations, Business edition](https://www.microsoft.com/en-us/dynamics365/).  
@@ -83,5 +83,6 @@ Si es un contable, puede registrarse en [!INCLUDE[d365acc_long](includes/d365acc
 [Guía básica de Finance and Operations, Business edition](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
 [Microsoft Dynamics 365 for Finance and Operations, Business edition](https://go.microsoft.com/fwlink/?linkid=828707)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

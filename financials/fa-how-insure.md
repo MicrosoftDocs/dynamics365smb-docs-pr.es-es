@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: d5f3ef437e19ec037dc8f81aac6a8d283fc251a5
 ms.contentlocale: es-es
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="insure-fixed-assets"></a>Aseguramiento de activos fijos
@@ -70,7 +70,7 @@ Puede utilizar el proceso **Ajustar valores seguros** para actualizar el valor d
 5. Abra el diario de seguros pertinente, revise los valores creados y, a continuación, regístrelos en los movimientos de seguros.  
 
 ## <a name="to-monitor-insurance-coverage"></a>Para controlar la cobertura de seguros
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  proporciona informes dedicados y ventanas de estadísticas para usarlos en el análisis de las pólizas de seguro y saber si sus activos fijos tienen un exceso o una falta de seguro.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] proporciona informes dedicados y ventanas de estadísticas para usarlos en el análisis de las pólizas de seguro y saber si sus activos fijos tienen un exceso o una falta de seguro.  
 
 ### <a name="overview-of-insurance-policies"></a>Resumen de pólizas de seguro
 Para obtener una visión general de las pólizas de seguros, obtenga una vista previa del informe **Seguro - Lista** o imprímalo. El informe muestra todas las pólizas y los campos más importantes de las fichas de seguro.  

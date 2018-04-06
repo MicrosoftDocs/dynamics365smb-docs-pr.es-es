@@ -13,10 +13,10 @@ ms.search.keywords: money flow, expense and income, liquidity, cash receipts min
 ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 7fd5d5885439a34ca18ae4ed8d7c0bfb577c0174
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 1f6b31663aad5c777d16b82742bf11c7dce05264
 ms.contentlocale: es-es
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Configuración del análisis de flujo de efectivo
@@ -67,13 +67,15 @@ Para usar la guía de configuración asistida:
 
 1. En el área de trabajo Contable, en el gráfico **Previsión de flujo de efectivo**, elija la acción **Abrir configuración asistida**.  
 2. Rellene los campos en cada paso de la guía.  
-3. En la página principal, elija **Previsión de flujo de efectivo** encima del gráfico y, a continuación, en **Recalcular previsión**.  
+3. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), especifique **Previsión de flujo de efectivo** y elija el vínculo relacionado.
+4. En la ventana **Previsión de flujo de efectivo**, seleccione la acción **Recalcular previsión**.  
 
 Para usar un proceso manual:  
 
 1. En el área de trabajo Contable, busque **Configuración de flujo de efectivo** y, a continuación, elija el vínculo relacionado.  
 2. Expanda la ficha desplegable **Cortana Intelligence** y, a continuación, elija la casilla **Cortana Intelligence habilitado**.  
-3. En la página principal, elija **Previsión de flujo de efectivo** encima del gráfico y, a continuación, en **Recalcular previsión**.  
+3. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), especifique **Previsión de flujo de efectivo** y elija el vínculo relacionado.
+4. En la ventana **Previsión de flujo de efectivo**, seleccione la acción **Recalcular previsión**.  
 
 > [!TIP]  
 >   Considere la duración de los periodos que el servicio usará en los cálculos. Cuantos más datos proporcione, más precisas serán las predicciones. Asimismo, controle las variaciones grandes en los periodos. También afectarán a las predicciones. Si Cortana Intelligence no encuentra suficientes datos, o los datos varían mucho, el servicio no creará ninguna predicción.  

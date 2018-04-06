@@ -13,10 +13,10 @@ ms.search.keywords: reimbursement
 ms.date: 08/03/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 92c0bca970250b8f160ecfc15b086963c8693885
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 66fcd6282f02d5789b12b79467ec177817422c5c
 ms.contentlocale: es-es
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="reverse-postings"></a>Revertir registros
@@ -66,6 +66,15 @@ Se pueden revertir movimientos desde todas las ventanas **Movimientos**. El sigu
 6.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Pedidos dev. compra** y, a continuación, seleccione el vínculo relacionado.  
 7.  Abra el pedido de devolución en cuestión y, a continuación, elija la acción **Volver a abrir**.  
 8.  Corrija el movimiento en el campo **Cantidad** y vuelva a publicar la orden de devolución de la compra.  
+
+## <a name="to-post-a-negative-entry"></a>Para registrar un movimiento negativo  
+Puede utilizar el campo **Corrección** para enviar un adeudo negativo en lugar de un abono, o registrar un crédito negativo en vez de un débito en una cuenta. Para cumplir los requisitos legales, este campo estará visible de forma predeterminada en todos los diarios. Los campos **Importe debe** e **Importe haber** incluyen tanto el movimiento original como el corregido. Estos campos no influyen en el saldo de la cuenta.  
+
+1.  Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), especifique **Diarios generales** y elija el vínculo relacionado  
+2.  En el campo **Nombre sección**, seleccione el nombre de sección requerido.  
+3.  Escriba información en los campos relevantes.  
+4.  En la línea del diario que desea activar para los movimientos negativos, seleccione la casilla de activación **Corrección**.  
+5.  Para registrar el diario, elija la acción **Registrar** y el botón **Sí**.
 
 ## <a name="see-also"></a>Consulte también
 [Registrar transacciones directamente en la contabilidad](finance-how-post-transactions-directly.md)  

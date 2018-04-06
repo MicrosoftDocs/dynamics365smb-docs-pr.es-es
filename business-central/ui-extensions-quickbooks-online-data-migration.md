@@ -1,0 +1,69 @@
+---
+title: "Usar la extensión de migración de QuickBooks | Documentos de Microsoft"
+description: "Describe cómo utilizar la extensión para migrar clientes, proveedores, elementos y cuentas de QuickBooks Online a Business Central."
+author: bholtorf
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms. search.keywords: extension, migrate, data, QuickBooks, import
+ms.date: 05/24/2017
+ms.author: bholtorf
+ms.translationtype: HT
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: f84d2bcccb8876588e7292708ba2cc98fcbe50fb
+ms.contentlocale: es-es
+ms.lasthandoff: 03/22/2018
+
+---
+
+# <a name="the-quickbooks-online-data-migration-extension-for-business-central"></a>Extensión de la migración de datos de QuickBooks Online para Business Central
+Esta extensión se incluye en la guía de configuración asistida **Migración de datos** para ayudarle a migrar datos comerciales importantes de QuickBooks Online a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Por ejemplo, esto es útil cuando su negocio está creciendo y ha decidido actualizar su aplicación de administración de negocios con [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
+## <a name="what-data-can-i-import-from-quickbooks-online"></a>¿Qué datos puedo importar desde QuickBooks Online?
+Desde QuickBooks Online puede importar a [!INCLUDE[d365fin](includes/d365fin_md.md)] los datos siguientes:  
+
+* Clientes
+* Proveedores
+* Productos
+* Plan de cuentas
+* Comienzo de la transacción de saldo en el libro mayor
+* Cantidad disponible de productos de inventario
+* Documentos pendientes para clientes y proveedores, como facturas, abonos y pagos
+
+Migramos únicamente los importes totales de los documentos de ventas y compras. No actualizamos importes pagados parcialmente. Por ejemplo, si un cliente ha pagado 300 de un total de 500 dólares en una factura de venta, migramos la cantidad total de 500. Si ha recibido pagos parciales, debe actualizarlos manualmente, antes o después de migrar los datos. Le recomendamos que aplique las transacciones pendientes antes de migrar, simplemente para facilitar las cosas.
+
+> [!NOTE]  
+>   No migramos pedidos de compra o venta.
+
+## <a name="before-you-start"></a>Antes de comenzar
+Una parte importante del proceso de migración es especificar las cuentas a las que se deben migrar las transacciones. Conviene planificar esta asignación antes de migrar los datos. Por ejemplo, las cuentas en la que registre transacciones de:  
+
+* La venta de productos o servicios a los clientes.
+* La compra de productos o servicios a proveedores.  
+* Ajustes en el libro mayor.  
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] requiere que las cuentas del libro mayor tengan números de cuenta asignados. Asegúrese de que los números de cuenta están asignados a las cuentas de QuickBooks Online.
+
+Si las transacciones en QuickBooks Online tienen impuestos, debe configurar una cuenta de impuestos para sus jurisdicciones fiscales en [!INCLUDE[d365fin](includes/d365fin_md.md)] antes de poder registrar las transacciones.
+
+## <a name="how-do-i-start-using-the-extension"></a>¿Cómo empiezo a usar la extensión?
+Empezar es muy fácil. Únicamente tiene que ejecutar la guía de configuración asistida **Migración de datos**. Instrucciones:
+
+1. Seleccione el ícono ![Buscar página o informe](media/ui-search/search_small.png "Buscar página o informe"), introduzca **Config. asistida** y, a continuación, seleccione **Migrar datos empresariales**.
+2. Siga las instrucciones en cada paso de la guía de configuración asistida.
+
+## <a name="what-do-i-do-after-i-migrate-data"></a>¿Qué hago después de la migración de datos?
+Una vez haya migrado los datos, las transacciones muestran el estado **No registrado**, para que pueda revisarlas y crear ajustes. Para revisar las transacciones, vaya a la página donde están normalmente. Por ejemplo, para revisar facturas de ventas no registradas, vaya a la página **Facturas de ventas**. Para revisar las diario de pagos, vaya a la página **Diario de pagos**.   
+
+Hay algunos pasos que es recomendable que haga:
+
+* Si las transacciones de QuickBooks Online tuvieran importes de descuento o de bonificación, deberá agregar manualmente los importes a las transacciones relacionadas en [!INCLUDE[d365fin](includes/d365fin_md.md)] antes de registrarlas.
+* Si está utilizando el impuesto sobre el valor añadido (IVA), es posible que tenga que agregar un grupo de contable de negocio y un grupo contable de productos a la configuración de grupos contables para poder contabilizar importes de IVA.
+* Verifique los saldos iniciales de las cuentas en el libro mayor. QuickBooks Online no almacena el saldo actual de todas las cuentas, por lo que es posible que tenga que corregir los saldos iniciales.
+
+## <a name="see-also"></a>Consulte también
+[Importar datos de empresa de otros sistemas financieros](upload-data.md)  
+[Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones](ui-extensions.md)  
+

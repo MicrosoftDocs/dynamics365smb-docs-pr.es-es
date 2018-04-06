@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 015acdfbbc349477b9e86225f2c971f993215000
 ms.contentlocale: es-es
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Tutorial: vender, ensamblar y enviar kits
@@ -36,7 +36,7 @@ Los elementos del ensamblado se caracterizan según su sistema de reposición y 
 -   Creación de una L.M. de ensamblado que enumera los componentes del ensamblado y el recurso que forman parte del elemento del ensamblado.  
 
 ### <a name="selling-customized-assembly-items"></a>Vender elementos del ensamblado personalizados  
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  proporciona la flexibilidad para introducir una cantidad de inventario y una cantidad de ensamblar para pedido en una línea de pedido de venta. En esta sección se describen las tareas siguientes:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] proporciona la flexibilidad para introducir una cantidad de inventario y una cantidad de ensamblar para pedido en una línea de pedido de venta. En esta sección se describen las tareas siguientes:  
 
 -   Crear una línea de pedido de venta puramente ATO donde la cantidad completa no está disponible y debe ensamblarse antes del envío.  
 -   Personalizar los productos ATO.  

@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: c5da0214548d1bcc2584db681a1974ada8d265ee
 ms.contentlocale: es-es
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="about-the-data-exchange-framework-in-included365finincludesd365finmdmd"></a>Acerca del marco de intercambio de datos en [!INCLUDE[d365fin](includes/d365fin_md.md)]

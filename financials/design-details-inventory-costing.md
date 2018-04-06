@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, inventory, costing
-ms.date: 07/01/2017
+ms.date: 11/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 4f14118e435051c6d63f95a05ebee2e7107ce054
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: 2ee8988a89e4bd01683a6945e66e08ab9608af2e
 ms.contentlocale: es-es
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-inventory-costing"></a>Detalles de diseño: Coste de inventario
@@ -25,7 +25,9 @@ La valoración de inventario, también conocida como "gestión de costes", se re
 ## <a name="in-this-section"></a>En esta sección  
 [Detalles de diseño: Métodos de coste](design-details-costing-methods.md)  
 [Detalles de diseño: Liquidación de productos](design-details-item-application.md)  
+[Detalles de diseño: Problema de liquidación de producto conocido](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 [Detalles de diseño: Ajuste de coste](design-details-cost-adjustment.md)  
+[Detalles de diseño: Fecha registro en el movimiento de valor de ajuste](design-details-inventory-adjustment-value-entry-posting-date.md)  
 [Detalles de diseño: Registro de coste previsto](design-details-expected-cost-posting.md)  
 [Detalles de diseño: Coste medio](design-details-average-cost.md)  
 [Detalles de diseño: Desviación](design-details-variance.md)  

@@ -16,11 +16,11 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 9b4190ca0ffbc0a922c6679fcf98367a72980eea
 ms.contentlocale: es-es
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="viewing-list-data-in-power-bi-reports-in-finance-and-operations-business-edition"></a>Ver datos de listas en informes de Power BI en Finance and Operations, Business edition 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  incluye un elemento de control de cuadro informativo de varias páginas de lista de claves que proporciona información de los datos de la lista. A medida que se desplaza por las filas de la lista, el informe se actualiza y se filtra para la entrada seleccionada. Puede crear informes personalizados para mostrar en este control, pero hay reglas a seguir al crear informes para garantizar que proporcionan el comportamiento deseado.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] incluye un elemento de control de cuadro informativo de varias páginas de lista de claves que proporciona información de los datos de la lista. A medida que se desplaza por las filas de la lista, el informe se actualiza y se filtra para la entrada seleccionada. Puede crear informes personalizados para mostrar en este control, pero hay reglas a seguir al crear informes para garantizar que proporcionan el comportamiento deseado.  
 
 > [!NOTE]  
 >   Debe disponer de una cuenta válida con [!INCLUDE[d365fin](includes/d365fin_md.md)] y con Power BI. Además, deberá descargar [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/). Para obtener más información, consulte [Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] como origen de datos de Power BI](across-how-use-financials-data-source-powerbi.md).  

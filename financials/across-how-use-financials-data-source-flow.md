@@ -12,10 +12,10 @@ ms.search.keywords: workflow, Odata, Power App, SOAP
 ms.date: 01/25/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: ef4d841723b6bb0af37695a8c3ed1d805319be78
+ms.sourcegitcommit: b4e2e7bc1c2622d329c73ae5bf47b4accff10aa8
+ms.openlocfilehash: dde99e50c6984a7ec162b4047e8640e6affb3f25
 ms.contentlocale: es-es
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="using-included365finincludesd365finmdmd-in-an-automated-workflow"></a>Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] en un flujo de trabajo automatizado
@@ -29,9 +29,6 @@ Puede utilizar sus datos de [!INCLUDE[d365fin](includes/d365fin_md.md)] como par
 2. Seleccione **Mis flujos** en la cinta en la parte superior de la página.
 3. En la ventana **Mis flujos**, elija la opción **Crear desde cero**.
 4. En la lista de disparadores disponibles, seleccione uno de los de [!INCLUDE[d365fin](includes/d365fin_md.md)] disponibles:  
-    *Cuando se cree un registro*,  
-    *Cuando se elimine un registro*,  
-    *Cuando se modifique un registro*,  
     *Cuando se solicite la aprobación de un cliente*,  
     *Cuando se solicite la aprobación de un lote de diario general*,  
     *Cuando se solicite la aprobación de una línea de diario general*,  
@@ -39,11 +36,7 @@ Puede utilizar sus datos de [!INCLUDE[d365fin](includes/d365fin_md.md)] como par
     *Cuando se solicite la aprobación de un documento de compra*,  
     *Cuando se solicite la aprobación de un documento de ventas*, o  
     *Cuando se solicite la aprobación de un proveedor*.
-5. Flow le solicitará la información necesaria para conectarse con los datos de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Si ha seleccionado uno de los disparadores siguientes: *Cuando se cree un registro*, *Cuando se modifique un registro* o *Cuando se elimine un registro*, debe seleccionar un nombre de la empresa y un nombre de la tabla. Si utiliza otro disparador, únicamente será necesario el nombre de la empresa para conectarse.
-
-   Flow mostrará una lista de empresas y tablas que están disponibles en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Estas tablas, o extremos, representan todos los servicios web que haya publicado desde [!INCLUDE[d365fin](includes/d365fin_md.md)].
-
-   Si lo desea, puede crear una nueva dirección URL de servicio Web en [!INCLUDE[d365fin](includes/d365fin_md.md)] mediante la acción **Crear conjunto de datos** en la página **Servicios web**, utilizando la guía de configuración asistida **Configurar informes** o eligiendo la acción **Editar en Excel** en cualquier lista.
+5. Flow le solicitará que seleccione una empresa en el suscriptor [!INCLUDE[d365fin](includes/d365fin_md.md)]. Debido a que cada paso de Flow es independiente del siguiente, es posible que deba definir la empresa varias veces al usar una plantilla de [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 Ya se ha conectado correctamente con los datos de Finance and Operations, Business edition y está preparado para comenzar a crear su flujo. Para obtener más información, consulte la [documentación de Flow](https://flow.microsoft.com/documentation/getting-started/).
 

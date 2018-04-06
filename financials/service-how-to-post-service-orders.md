@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 3b52f7c62cc13d27ff4d96ff5b9087d3560d6fbc
 ms.contentlocale: es-es
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="post-service-orders-and-credit-memos"></a>Registrar abonos y órdenes de servicio
@@ -99,7 +99,7 @@ El siguiente procedimiento muestra cómo registrar el envío de artículos de l�
   
 4. Elija **Acciones**, **Registro** y, a continuación, en **Registrar**. En la ventana que aparece, elija **Enviar**.  
   
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  crea los movimientos (de garantía, de producto, de servicio o de cuenta), genera el documento de envío de servicio registrado y actualiza los campos pertinentes en las líneas de servicio del pedido de servicio.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] crea los movimientos (de garantía, de producto, de servicio o de cuenta), genera el documento de envío de servicio registrado y actualiza los campos pertinentes en las líneas de servicio del pedido de servicio.  
   
 Si el almacén está configurado para requerir el control de almacén, el envío y el movimiento de los productos de línea de servicio funcionan de la misma forma que para otros documentos de origen. La única diferencia es que los productos de línea de servicio pueden consumirse externa o internamente y por lo tanto requieren dos funciones diferentes de lanzamiento.  
   

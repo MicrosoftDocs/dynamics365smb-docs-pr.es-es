@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/01/2017
+ms.date: 03/02/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: b06c5ee737db74e5011c7854601a21bc04d8872a
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: f8f00e7db1f7594d66e1cae5ed98271e25295472
 ms.contentlocale: es-es
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
-# <a name="users-profiles-and-role-centers-in-finance-and-operations-business-edition"></a>Usuarios, perfiles y áreas de trabajo en Finance and Operations, Business edition
+# <a name="understanding-users-profiles-and-role-centers"></a>Comprender usuarios, perfiles y áreas de trabajo
 La personas de su empresa que tienen acceso a [!INCLUDE[d365fin](includes/d365fin_md.md)] tienen asignado un *perfil* que les da acceso a un *Área de trabajo*. Como administrador, puede asignar y modificar los perfiles en [!INCLUDE[d365fin](includes/d365fin_md.md)] y puede agregar y eliminar usuarios como parte de su suscripción [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="adding-users"></a>Añadir usuarios
-Para agregar usuarios en [!INCLUDE[d365fin](includes/d365fin_md.md)], el administrador de Office 365 de la empresa primero debe crear los usuarios en el centro de administración de Office 365. Para obtener más información, vea [Administrar usuarios y permisos](ui-how-users-permissions.md).  
+Para agregar usuarios en [!INCLUDE[d365fin](includes/d365fin_md.md)], el administrador de Office 365 de la empresa primero debe crear los usuarios en el centro de administración de Office 365. Para obtener más información, vea [Administración de usuarios y permisos](ui-how-users-permissions.md).  
 
 ## <a name="profiles"></a>Perfiles
 Los perfiles son colecciones de usuarios de [!INCLUDE[d365fin](includes/d365fin_md.md)] que comparten la misma área de trabajo. Un área de trabajo es un tipo de página en la que puede situar distintos apartados. Cada apartado es un contenedor en el que puede albergar otras páginas o apartados del sistema predefinidos, como un apartado de Outlook o apartados para agregar tareas, notificaciones o notas.  

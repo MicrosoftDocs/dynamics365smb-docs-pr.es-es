@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: company, setup wizard
-ms.date: 07/14/2017
+ms.date: 03/02/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: d18845dfb3c904139b1b392619d04611522c6e12
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 10fb70ded1407c95034db6fcf974c37c6e119099
 ms.contentlocale: es-es
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="creating-new-companies-in-included365finincludesd365finmdmd"></a>Crear nuevas en empresas en [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -25,14 +25,15 @@ Si decide agregar una empresa al [!INCLUDE[d365fin](includes/d365fin_md.md)], pu
 
 El asistente de configuración ofrece tres plantillas :
 
--   **Evaluación de Suite**  
+-   **Evaluación - Datos de ejemplo**  
     Crea una empresa similar a la compañía de demostración con datos de ejemplo y datos de configuración.  
--   **Producción de Suite**  
-    Crea una empresa similar a **Mi empresa** con datos de configuración pero sin datos de ejemplo.  
--   **Nuevo**  
+-   **Producción - Solo datos de configuración**  
+    Crea una empresa similar a **Mi empresa** con datos de configuración pero sin datos de ejemplo.
+-   **Evaluación avanzada - Datos de muestra completa** Esto crea una empresa con datos de configuración y datos de muestra completos para todas las funciones, incluidas la Fabricación y la Gestión de servicios.
+-   **Crear nuevo - No hay datos**  
     Crea una empresa en blanco sin datos de configuración.  
 
-Si desea empezar fácilmente con una empresa nueva, elija **Producción de Suite** y, a continuación, importe sus propios datos empresariales, como clientes, productos, y proveedores. Seleccione la plantilla **Nuevo** si desea configurar todos los parámetros desde cero. En ese caso, puede utilizar el asistente de configuración asistida **Configuración de la empresa** para obtener ayuda con los datos esenciales de configuración.  
+Si desea empezar fácilmente con una empresa nueva, elija **Producción - Solo datos de configuración** y, a continuación, importe sus propios datos empresariales, como clientes, productos, y proveedores. Seleccione la plantilla **Nuevo** si desea configurar todos los parámetros desde cero. En ese caso, puede utilizar la guía de configuración asistida **Configuración de la empresa** para obtener ayuda con los datos esenciales de configuración.  
 
 > [!NOTE]  
 >   Al crear una empresa nueva, tarda algunos minutos antes de tener acceso en [!INCLUDE[d365fin](includes/d365fin_md.md)]. El estado de configuración de la ventana **Empresas** muestra cuando la nueva empresa está lista. A continuación, puede cambiar a la nueva empresa mediante **Mi configuración**.  
@@ -44,10 +45,11 @@ Cuando inicie sesión en una empresa nueva, se ejecutará el asistente **Configu
 
 Por ejemplo, la dirección de su empresa se incluye en facturas y otros documentos, su información bancaria se utiliza en los pagos y el método de cálculo de costes se utiliza para calcular los precios, así como la evaluación del inventario.  
 
-Una vez que tenga los elementos básicos, puede configurar las áreas restantes. A continuación, puede agregar datos empresariales, como clientes y proveedores. Para obtener más información, consulte [Configurar Finance and Operations, Business edition](setup.md).  
+Una vez que tenga los elementos básicos, puede configurar las áreas restantes. A continuación, puede agregar datos empresariales, como clientes y proveedores. Para obtener más información, consulte [Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
 ## <a name="see-also"></a>Consulte también
-[Configurar Finance and Operations, Business edition ](setup.md)  
+[Personalizar Finance and Operations, Business edition](ui-customizing-overview.md)  
+[Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Importar datos de empresa de otros sistemas financieros](upload-data.md)  
 [Cambiar la configuración básica](ui-change-basic-settings.md)  
 [[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  

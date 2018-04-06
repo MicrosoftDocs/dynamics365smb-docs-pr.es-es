@@ -1,0 +1,1 @@
+Se trata de la funcionalidad de lanzamiento temprano en la que aún estamos trabajando. La funcionalidad, y el contenido de esta página, están sujetos a cambios. Para obtener información sobre las novedades que habrá, vea la [Guía básica de Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=842139).

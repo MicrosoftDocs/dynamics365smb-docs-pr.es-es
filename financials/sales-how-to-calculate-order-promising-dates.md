@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: b31ba087798c3f54e54403ed418019c82ce3091c
 ms.contentlocale: es-es
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="calculate-order-promising-dates"></a>Calcular fechas de compromiso de entrega de pedido
@@ -39,7 +39,7 @@ Si no especifica una fecha de entrega requerida en una línea del pedido de vent
 ## <a name="about-order-promising"></a>Acerca del compromiso de entrega
 La función compromiso de pedido le permite establecer un compromiso para enviar el pedido en una fecha determinada. Se calcula la fecha en la que un producto está disponible para su compromiso, y se crean las líneas del pedido para las fechas que haya aceptado. La función calcula la fecha más temprana posible en la que un producto se encuentra disponible para su envío. También crea líneas de demanda, en caso de que los artículos deban ser primero compras, para la fechas que usted acepta.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  utiliza dos conceptos fundamentales:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] utiliza dos conceptos fundamentales:  
 
 - Neto no comprometido (NNC)  
 - Capaz de comprometer (CTP)  
@@ -64,7 +64,7 @@ Si el cliente no solicita una fecha de entrega concreta, la fecha de envío se e
 - Fecha envío + Almacén salida + Envío planeado + Tiempo manipulación = Fecha  
 - Fecha envío planeada + Hora envío = Fecha entrega planeada  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] A continuación,  comprueba si la fecha de entrega calculada es realista calculando hacia atrás en el tiempo para determinar cuándo debe estar disponible el producto para cumplir la fecha acordada. Esto se logra con las siguientes formulas:  
+A continuación, [!INCLUDE[d365fin](includes/d365fin_md.md)] comprueba si la fecha de entrega calculada es realista calculando hacia atrás en el tiempo para determinar cuándo debe estar disponible el producto para cumplir la fecha acordada. Esto se logra con las siguientes formulas:  
 
 - Fecha entrega planeada - Hora envío = Fecha envío planeada  
 - Fecha envío planeada - Manip. almacén salida = Fecha envío  

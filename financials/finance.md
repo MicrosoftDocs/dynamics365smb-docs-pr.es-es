@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 06/28/2017
+ms.date: 02/28/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 71a311e3aefd22dd0c7d0af6eb24d54e0d2a1afe
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 655c2248d10b357fd6ac5f3dba5cf71d7fd2c77b
 ms.contentlocale: es-es
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="finance"></a>Finanzas
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  incluye una configuración estándar de muchos procesos financieros, pero puede cambiar la configuración para que se adapte a su empresa. Para obtener más información, consulte [Configurar finanzas](finance-setup-finance.md).
+[!INCLUDE[d365fin](includes/d365fin_md.md)] incluye una configuración estándar de muchos procesos financieros, pero puede cambiar la configuración para que se adapte a su empresa. Para obtener más información, consulte [Configurar finanzas](finance-setup-finance.md).
 
 La configuración predeterminada incluye un plan de cuentas y grupos de registro estándar que hacen que el proceso de asignar cuentas de registro de movimientos predeterminadas a clientes, proveedores y productos sea más eficaz.  
 
@@ -33,6 +33,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Haga que sus clientes envíen el pago antes de usted, o envíe el pago a sus proveedores antes de ellos.|[Facturación de prepagos](finance-invoice-prepayments.md)|
 | Concilie cuentas bancarias y transfiera fondos entre cuentas bancarias. |[Administrar cuentas bancarias](bank-manage-bank-accounts.md) |
 |Configurar los socios de empresas vinculadas y procesar transacciones, manual o automáticamente, entre las entidades jurídicas dentro de la misma empresa.|[Gestión de transacciones entre empresas vinculadas](intercompany-manage.md)|
+|Combina movimientos de contabilidad de varias empresas en una "empresa consolidada" virtual para el análisis financiero.|[Consolidar los datos financieros de varias empresas](finance-consolidated-company-reporting.md)|
 |Analice los costes de administrar su empresa asignando costes reales y presupuestados de operaciones, departamentos, productos y proyectos a los centros de costes.|[Contabilidad para costes](finance-manage-cost-accounting.md)|
 |Administrar variaciones de existencias y costes de fabricación, crear informes de costes y conciliar costes con la contabilidad.|[Gestión de costes de inventario](finance-manage-inventory-costs.md)|
 | Obtenga información sobre el libro mayor y el plan de cuentas. |[Descripción de contabilidad y plan de cuentas](finance-general-ledger.md) |

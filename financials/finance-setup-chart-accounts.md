@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 1d0130dde256706460e58e5efc445bc5f4d5c595
 ms.contentlocale: es-es
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>Configurar o cambiar el plan de cuentas
@@ -33,7 +33,7 @@ Desde el plan de cuentas, puede abrir cada cuenta de contabilidad y agregar o ca
 * El campo **Permite borrar ctas. anteriores a** se debe configurar en la ventana **Configuración de contabilidad** y la cuenta no debe tener movimientos contables en o después de esa fecha.  
 * Si se selecciona el campo **Chequear uso ctas. cont.** en la ventana **Configuración de contabilidad**, la cuenta no se debe usar en grupos contables ni en la configuración de grupos contables.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  impedirá que elimine una cuenta de contabilidad que guarde los datos que se necesitan en el plan de cuentas.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] impedirá que elimine una cuenta de contabilidad que guarde los datos que se necesitan en el plan de cuentas.  
 
 ## <a name="see-also"></a>Consulte también
 [Libro mayor y plan de cuentas](finance-general-ledger.md)  

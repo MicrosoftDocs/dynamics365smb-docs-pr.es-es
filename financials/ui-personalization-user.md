@@ -13,15 +13,15 @@ ms.search.keywords: customize, personalize, personalization, hide columns, remov
 ms.date: 07/26/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: a631b13e9b5587bba6ca22486f0e7421d96a5578
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: daf2a1349cc3e12e634324082d4e6507c5b312be
 ms.contentlocale: es-es
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="personalizing-your-workspace"></a>Personalización de su área de trabajo
 <!--NAV in the Web client-->
-Puede *personalizar* el área de trabajo para que se adapte a su trabajo y preferencias cambiando las páginas de modo que muestren únicamente la información que necesite y donde la necesite. Los cambios de personalización que realice solo afectarán a su visualización y no a la de otros usuarios. 
+Puede *personalizar* el área de trabajo para que se adapte a su trabajo y preferencias cambiando las páginas de modo que muestren únicamente la información que necesite y donde la necesite. Los cambios de personalización que realice solo afectarán a su visualización y no a la de otros usuarios.
 
 Según el tipo de página y lo que incluye, puede:
 
@@ -35,14 +35,14 @@ Según el tipo de página y lo que incluye, puede:
 
 1. En la esquina superior derecha, seleccione el icono ![Configuración](media/ui-experience/settings_icon_small.png "Icono Configuración para el área de trabajo") y **Personalizar**.
 
-    El banner **Personalización** aparece en la parte superior para indicar que puede empezar a realizar cambios. 
+    El banner **Personalización** aparece en la parte superior para indicar que puede empezar a realizar cambios.
 
     ![Modo Personalizar](media/ui_personalize_mode_small.png "Modo Personalizar")
 
 2.  Vaya a una página que desee personalizar.
 
     Si ve un icono de bloqueo en el banner, vea [Por qué se ha bloqueado la página](ui-personalization-locked.md) para obtener más información.
-    
+
 3.  Señale un área que desee personalizar, como un encabezado de campo o columna en una lista. Todo lo que se pueda personalizar se resalta inmediatamente con una flecha o un borde.
 <!--
     -  If a component can be personalized, an arrow head (![Personalization indicator arrow left](media/ui_personalize_arrow_left.png "Personalization indicator arrow left") or ![Personalization indicator arrow down](media/ui_personalize_arrow_down.png "Personalization indicator arrow down")) appears.
@@ -57,11 +57,11 @@ Según el tipo de página y lo que incluye, puede:
         <tr><td>Agregar un campo o columna</td><td>En el banner <b>Personalización</b>, elija <b>Más</b> y seleccione <b>Campo</b>.<br /></br>El panel <b>Agregar campo a página</b> se abre a la derecha. Muestra los campos que se pueden agregar a la página. Los campos marcados como <b>Colocado</b> ya están en la página. Los campos marcados como <b>Listo</b> aún no están en la página.<br /></br>Para agregar un campo, arrástrelo de panel a la ubicación que desee. La ubicación se indica con una fina línea vertical u horizontal.</td></tr>
         <tr><td>Cambiar la inmovilización de panel de una lista a otra columna</td><td>Seleccione la punta de la flecha de la columna que desee establecer como la última de la inmovilización de panel y, a continuación, elija <b>Establecer inmovilización de panel</b>.<br /><br/>Si desea volver a configurar la inmovilización de panel en su ubicación original diseñada, seleccione la punta de flecha para la columna actual y elija <b>Borrar inmovilización de panel</b>. Nota: No puede eliminar la inmovilización de panel.</td></tr>
       </table>
-    
+
     > [!IMPORTANT]  
     >   No puede modificar una lista si se muestra como mosaicos. Primero debe cambiar la página a la vista de lista mediante el icono ![Mostrar como lista](media/ui_show_as_list_icon.png "Mostrar como lista de flecha izquierda").
-   
-5.  Puede seguir realizando cambios en la misma página o moverse a otra página. Los cambios se guardan automáticamente a medida que los crea. Cuando haya terminado, en el banner **Personalización**, elija **Hecho**. 
+
+5.  Puede seguir realizando cambios en la misma página o moverse a otra página. Los cambios se guardan automáticamente a medida que los crea. Cuando haya terminado, en el banner **Personalización**, elija **Hecho**.
 
 ## <a name="clear-personalization-to-change-a-page-back-to-its-original-layout"></a>Desactive la personalización para volver a cambiar una página al diseño original
 En algún momento, es posible que desee borrar todos los cambios de personalización que hizo en esta página a lo largo del tiempo para que la página parezca como estaba al principio. Para ello, en el banner **Personalización**, elija **Más** y, a continuación, **Borrar personalización**.
@@ -69,13 +69,13 @@ En algún momento, es posible que desee borrar todos los cambios de personalizac
 ## <a name="personalization-in-detail"></a>Personalización detallada
 Para ayudarle a comprender mejor la personalización, le presentamos algunos consejos.  
 -   Cuando realice cambios en una página de ficha que abre de una lista, los cambios tendrán efecto en todos los registros que abra de esa lista. Por ejemplo, digamos que abre un cliente específico desde la página de la lista Clientes y la personaliza agregando un campo. Cuando abra otros clientes de la lista, también se mostrará el campo que agregó.
--   Los cambios realizados tendrán efecto sobre todas las áreas de trabajo. Por ejemplo, si realiza un cambio en la lista Clientes cuando el área de trabajo está configurada en administrador de negocio, también verá el cambio en la lista Clientes cuando el área de trabajo está configurada en Procesador de pedidos de ventas. 
+-   Los cambios realizados tendrán efecto sobre todas las áreas de trabajo. Por ejemplo, si realiza un cambio en la lista Clientes cuando el área de trabajo está configurada en administrador de negocio, también verá el cambio en la lista Clientes cuando el área de trabajo está configurada en Procesador de pedidos de ventas.
 -   Los cambios de una página realizados en un panel tendrán efecto en la página donde se muestre.  
 -   Solo puede agregar campos y columnas de una lista predefinida, que está basada en la página. No puede crear campos ni columnas nuevos.
 
 ## <a name="see-also"></a>Consulte también
 [Administrar la personalización](ui-personalization-manage.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Cambiar el área de trabajo](change-role.md)  
+[Cambiar la configuración básica](ui-change-basic-settings.md)  
 [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)  
 

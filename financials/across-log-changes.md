@@ -15,7 +15,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 8f49e3722f95d4e5a2c8eea83d77175581d93277
 ms.contentlocale: es-es
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="logging-changes-in-finance-and-operations-business-edition"></a>Registro de cambios en Finance and Operations, Business edition 

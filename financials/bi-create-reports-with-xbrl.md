@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 659b3bebb20e3deb33e6e392c5318810848285a1
 ms.contentlocale: es-es
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="create-reports-with-xbrl"></a>Crear informes con XBRL
@@ -27,7 +27,7 @@ XBRL, siglas en inglés de eXtensible Business Reporting Language (Lenguaje ampl
  • Información no financiera  
  • Declaraciones obligatorias, como resultados financieros anuales y trimestrales  
 
- [!INCLUDE[d365fin](includes/d365fin_md.md)]  permite a las empresas implementar datos en XBRL y aprovechar la flexibilidad y automatización que proporciona tanto para recopilar como para compartir datos.  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] permite a las empresas implementar datos en XBRL y aprovechar la flexibilidad y automatización que proporciona tanto para recopilar como para compartir datos.  
 
 ## <a name="extensible-business-reporting-language"></a>eXtensible Business Reporting Language (Lenguaje ampliado para informes comerciales)
 XBRL (e **X**tensible **B**usiness **R**eporting **L**anguage, Lenguaje ampliado para informes comerciales) es un lenguaje basado en XML para información financiera. XBRL proporciona un estándar de información uniforme para todos los usuarios de la cadena de suministro de información financiera; como empresas públicas y privadas, profesionales contables, auditores, analistas, inversores, mercados de capital y entidades de crédito, y otros como desarrolladores de software e intermediarios de datos.  

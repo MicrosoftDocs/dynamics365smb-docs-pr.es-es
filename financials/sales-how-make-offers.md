@@ -12,10 +12,10 @@ ms.search.keywords: rfq
 ms.date: 08/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 552fbf283a9149c430ea1ed94bcea4bd22e43fea
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 66a78ebc362d0e01c0e6df4bd4a2d74568845159
 ms.contentlocale: es-es
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="make-offers"></a>Crear ofertas
@@ -26,7 +26,7 @@ Mientras negocia con el cliente, puede cambiar y reenviar la oferta de venta el 
 Puede rellenar los campos de clientes en la oferta de venta de dos formas en función de si el cliente ya está registrado. Consulte los pasos 2 y 3 del siguiente procedimiento.
 
 ## <a name="to-create-a-sales-quote"></a>Para crear una oferta de venta
-En la página principal, elija la acción **Oferta de venta**.  
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Ofertas de venta** y, a continuación, seleccione el vínculo relacionado.
 2. En el campo **Cliente**, escriba el nombre de un cliente existente.
 
    Otros campos de la ventana **Oferta de venta** contienen información estándar del cliente seleccionado. Si el cliente no está registrado, realice los pasos siguientes:
