@@ -16,20 +16,20 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 4ba3826952809c1fc9ed461030da9f56c0874da4
 ms.contentlocale: es-es
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
-# <a name="design-details-reordering-policies"></a><span data-ttu-id="bc2e5-103">Detalles de diseño: Directivas de reaprovisionamiento</span><span class="sxs-lookup"><span data-stu-id="bc2e5-103">Design Details: Reordering Policies</span></span>
-<span data-ttu-id="bc2e5-104">Las directivas de reaprovisionamiento definen cuánto se debe pedir cuando se debe reponer el producto.</span><span class="sxs-lookup"><span data-stu-id="bc2e5-104">Reordering policies define how much to order when the item needs to be replenished.</span></span> <span data-ttu-id="bc2e5-105">Hay cuatro directivas de reaprovisionamiento.</span><span class="sxs-lookup"><span data-stu-id="bc2e5-105">Four different reordering policies exist.</span></span>  
+# <a name="design-details-reordering-policies"></a><span data-ttu-id="ffa4e-103">Detalles de diseño: Directivas de reaprovisionamiento</span><span class="sxs-lookup"><span data-stu-id="ffa4e-103">Design Details: Reordering Policies</span></span>
+<span data-ttu-id="ffa4e-104">Las directivas de reaprovisionamiento definen cuánto se debe pedir cuando se debe reponer el producto.</span><span class="sxs-lookup"><span data-stu-id="ffa4e-104">Reordering policies define how much to order when the item needs to be replenished.</span></span> <span data-ttu-id="ffa4e-105">Hay cuatro directivas de reaprovisionamiento.</span><span class="sxs-lookup"><span data-stu-id="ffa4e-105">Four different reordering policies exist.</span></span>  
 
-## <a name="in-this-section"></a><span data-ttu-id="bc2e5-106">En esta sección</span><span class="sxs-lookup"><span data-stu-id="bc2e5-106">In This Section</span></span>  
-[<span data-ttu-id="bc2e5-107">Detalles de diseño: Cantidad de reaprovisionamiento fija</span><span class="sxs-lookup"><span data-stu-id="bc2e5-107">Design Details: Fixed Reorder Qty.</span></span>](design-details-fixed-reorder-qty.md)  
-[<span data-ttu-id="bc2e5-108">Detalles de diseño: Cantidad máxima</span><span class="sxs-lookup"><span data-stu-id="bc2e5-108">Design Details: Maximum Qty.</span></span>](design-details-maximum-qty.md)  
-[<span data-ttu-id="bc2e5-109">Detalles de diseño: Pedidos</span><span class="sxs-lookup"><span data-stu-id="bc2e5-109">Design Details: Order</span></span>](design-details-order.md)  
-[<span data-ttu-id="bc2e5-110">Detalles de diseño: Lote por lote</span><span class="sxs-lookup"><span data-stu-id="bc2e5-110">Design Details: Lot-for-Lot</span></span>](design-details-lot-for-lot.md)  
+## <a name="in-this-section"></a><span data-ttu-id="ffa4e-106">En esta sección</span><span class="sxs-lookup"><span data-stu-id="ffa4e-106">In This Section</span></span>  
+[<span data-ttu-id="ffa4e-107">Detalles de diseño: Cantidad de reaprovisionamiento fija</span><span class="sxs-lookup"><span data-stu-id="ffa4e-107">Design Details: Fixed Reorder Qty.</span></span>](design-details-fixed-reorder-qty.md)  
+[<span data-ttu-id="ffa4e-108">Detalles de diseño: Cantidad máxima</span><span class="sxs-lookup"><span data-stu-id="ffa4e-108">Design Details: Maximum Qty.</span></span>](design-details-maximum-qty.md)  
+[<span data-ttu-id="ffa4e-109">Detalles de diseño: Pedidos</span><span class="sxs-lookup"><span data-stu-id="ffa4e-109">Design Details: Order</span></span>](design-details-order.md)  
+[<span data-ttu-id="ffa4e-110">Detalles de diseño: Lote por lote</span><span class="sxs-lookup"><span data-stu-id="ffa4e-110">Design Details: Lot-for-Lot</span></span>](design-details-lot-for-lot.md)  
 
-## <a name="see-also"></a><span data-ttu-id="bc2e5-111">Consulte también</span><span class="sxs-lookup"><span data-stu-id="bc2e5-111">See Also</span></span>  
-<span data-ttu-id="bc2e5-112">[Detalles de diseño: Parámetros de la planificación](design-details-planning-parameters.md) </span><span class="sxs-lookup"><span data-stu-id="bc2e5-112">[Design Details: Planning Parameters](design-details-planning-parameters.md) </span></span>  
-<span data-ttu-id="bc2e5-113">[Detalles de diseño: Gestión de directivas de reaprovisionamiento](design-details-handling-reordering-policies.md) </span><span class="sxs-lookup"><span data-stu-id="bc2e5-113">[Design Details: Handling Reordering Policies](design-details-handling-reordering-policies.md) </span></span>  
-[<span data-ttu-id="bc2e5-114">Detalles de diseño: Planificación de aprovisionamiento</span><span class="sxs-lookup"><span data-stu-id="bc2e5-114">Design Details: Supply Planning</span></span>](design-details-supply-planning.md)
+## <a name="see-also"></a><span data-ttu-id="ffa4e-111">Consulte también</span><span class="sxs-lookup"><span data-stu-id="ffa4e-111">See Also</span></span>  
+<span data-ttu-id="ffa4e-112">[Detalles de diseño: Parámetros de la planificación](design-details-planning-parameters.md) </span><span class="sxs-lookup"><span data-stu-id="ffa4e-112">[Design Details: Planning Parameters](design-details-planning-parameters.md) </span></span>  
+<span data-ttu-id="ffa4e-113">[Detalles de diseño: Gestión de directivas de reaprovisionamiento](design-details-handling-reordering-policies.md) </span><span class="sxs-lookup"><span data-stu-id="ffa4e-113">[Design Details: Handling Reordering Policies](design-details-handling-reordering-policies.md) </span></span>  
+[<span data-ttu-id="ffa4e-114">Detalles de diseño: Planificación de aprovisionamiento</span><span class="sxs-lookup"><span data-stu-id="ffa4e-114">Design Details: Supply Planning</span></span>](design-details-supply-planning.md)
 
