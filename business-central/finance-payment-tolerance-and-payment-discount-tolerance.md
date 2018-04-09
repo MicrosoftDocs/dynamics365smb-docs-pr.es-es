@@ -95,7 +95,6 @@ Los ejemplos con la alternativa A o B representan lo siguiente:
 - **A**: en este caso la advertencia tolerancia dto. P.P. se ha desactivado O el usuario tiene activado la advertencia y ha seleccionado permitir el descuento P.P vencido (Registrar el saldo como tolerancia pagos).  
 - **B** en este caso, el usuario tiene activada la advertencia y ha seleccionado no permitir el descuento P.P vencido (Dejar el saldo como importe pendiente).  
 
-[!div class="mx-tdBreakAll"]  
 |—|Fra.|Dto. P.P.|Máx. tol. pagos|Fecha dto. P.P.|Fecha tol. dto. Fecha|Fecha pago|Tol.|Tipo tolerancia|Todos los movimientos cerrados|Fecha tol. dto. Cb/Cl|tol. pagos Cb.|  
 |-------|----------|----------------|-----------------------|---------------------|--------------------------|------------------|----------|--------------------|------------------------|------------------------------|----------------------------|  
 |1|1,000|nº 20|5|15/01/03|20/01/03|<=15/01/03|985|Tol. pagos|Sí|0|-5|  
@@ -166,8 +165,6 @@ Los ejemplos con la alternativa A, B, C o D representan lo siguiente:
 - **B** en este caso, el usuario tiene activada la advertencia y ha seleccionado no permitir el descuento P.P vencido en una factura.  
 - **C**: en este caso, el usuario tiene activada la advertencia y ha seleccionado permitir el descuento P.P vencido en la primera factura, pero no en la segunda.  
 - **D**: en este caso, el usuario tiene activada la advertencia y ha seleccionado no permitir el descuento P.P vencido en la primera factura, pero sí en la segunda.  
-
-[!div class="mx-tdBreakAll"]  
 
 |—|Fra.|Dto. P.P.|Máx. tol. pagos|Fecha dto. P.P.|Fecha tol. dto. Fecha|Fecha pago|Dto. P.P.|Tipo tolerancia|Todos los movimientos cerrados|Fecha tol. dto. Cb/Cl|tol. pagos Cb.|  
 |-------|----------|---------------|-------------------|---------------------|--------------------------|------------------|---------|--------------------|------------------------|------------------------------|------------------------|  

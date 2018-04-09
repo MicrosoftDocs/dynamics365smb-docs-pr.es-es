@@ -38,7 +38,7 @@ Las extensiones Microsoft Pay, estándar de pagos de PayPal y estándar de pagos
 3. En el campo **Servicio de pago**, elija el servicio de pago.  
 
     > [!NOTE]  
-    >   El campo **Servicio de pago** solo está disponible si ha activado el servicio de pago.  
+    > El campo **Servicio de pago** solo está disponible si ha activado el servicio de pago.  
 
 ## <a name="see-also"></a>Consulte también  
 [Configuración de ventas](sales-setup-sales.md)  
