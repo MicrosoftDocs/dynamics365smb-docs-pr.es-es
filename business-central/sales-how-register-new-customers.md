@@ -13,10 +13,10 @@ ms.search.keywords: client
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6dcd375cc687e74783cadc2cf50fbf804377d3ca
+ms.sourcegitcommit: ea9b4a6310df319df06d02c53b9d6156caaee24f
+ms.openlocfilehash: 6ca938a5bcd0fd160c98358d89740e4dfd756e79
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 03/28/2018
 
 ---
 # <a name="register-new-customers"></a>Permite registrar nuevos clientes
@@ -54,6 +54,7 @@ Si desea usar esta ficha de cliente como plantilla cuando cree nuevas fichas de 
 La plantilla de cliente se agrega a la lista de plantillas de cliente, de modo que puede usarla para crear nuevas fichas de cliente.
 
 ## <a name="see-also"></a>Consulte también
+[Crear numeración](ui-create-number-series.md)  
 [Ventas](sales-manage-sales.md)    
 [Configuración de ventas](sales-setup-sales.md)    
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

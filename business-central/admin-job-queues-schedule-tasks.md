@@ -11,8 +11,8 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 05d2941d5124f333602cb2f73103389601ff3e85
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: fae1b2937a3c06fc947dd3dbec529826322d035c
 ms.contentlocale: es-es
 ms.lasthandoff: 03/22/2018
 
@@ -68,6 +68,6 @@ Cuando una cola de proyecto se activada de forma manual, se ejecuta con las cred
 El registro del movimiento de cola de proyectos tiene muchos campos cuya finalidad es incluir parámetros en una unidad de código especificada para ejecutarse con una cola de proyectos. Esto también significa que las unidades de código que se van a ejecutar mediante la cola de proyectos se deben especificar con el registro del movimiento de la cola de proyectos como parámetro en el desencadenador **OnRun**. Esto ayuda a proporcionar un nivel de seguridad adicional, ya que evita que los usuarios ejecuten unidades de código aleatorias mediante la cola de proyectos. Si el usuario debe transmitir parámetros a un informe, la única manera de hacerlo es ajustar la ejecución del informe en una unidad de código, que a continuación analiza los parámetros de entrada y los especifica en el informe antes de ejecutarlo.  
 
 ## <a name="see-also"></a>Consulte también  
-[Configuración y administración en Business Central](admin-setup-and-administration.md)  
+[Administración](admin-setup-and-administration.md)  
 [Configuración de Business Central](setup.md)  
 

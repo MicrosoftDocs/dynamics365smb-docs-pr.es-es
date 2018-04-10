@@ -11,8 +11,8 @@ ms.search.keywords: language, locale, localization, culture
 ms.date: 02/03/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 45c12aa0a5c4c5bf65c3d2a2011abb4095184311
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 8ec773b74bf258d6bb09ad82c7afec6e93c98869
 ms.contentlocale: es-es
 ms.lasthandoff: 03/22/2018
 
@@ -51,5 +51,5 @@ Es simple, desplácese al final de la ventana del explorador y elija el símbolo
 
 ## <a name="see-also"></a>Consulte también  
 [Cambiar la configuración básica](ui-change-basic-settings.md)  
-[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Introducción](product-get-started.md)  
 

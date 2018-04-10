@@ -13,8 +13,8 @@ ms.search.keywords: Yodlee, feed, stream, payment process
 ms.date: 09/14/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3b40920eb3b93364a7d571b46d8657336aff556a
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: f3507de1dbf463066b81b8504b832d12731f9138
 ms.contentlocale: es-es
 ms.lasthandoff: 03/22/2018
 
@@ -37,7 +37,7 @@ Después de habilitar el servicio de fuentes de banco, debe vincular una cuenta 
 Cuando se ha habilitado el servicio de fuente de banco, puede definir una cuenta bancaria que importe automáticamente nuevos extractos de cuenta en la ventana **Diario de conciliación de pagos** cada dos horas. Las transacciones para los pagos que ya se hayan registrado como liquidados o conciliados en la ventana **Diario de conciliación de pagos** no se importarán. Para obtener más información, vea la sección “Para habilitar la importación automática de los extractos bancarios”.
 
 > [!NOTE]  
->   Si usa la configuración asistida de la Configuración de la empresa, algunos de los pasos en los procedimientos siguientes se producen automáticamente cuando accede a la configuración de la cuenta bancaria de la empresa. Para obtener más información, vea [[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md).
+> Si usa la configuración asistida de la Configuración de la empresa, algunos de los pasos en los procedimientos siguientes se producen automáticamente cuando accede a la configuración de la cuenta bancaria de la empresa. Para obtener más información, vea [Introducción](product-get-started.md).
 
 ## <a name="to-enable-the-bank-feed-service"></a>Para activar el servicio de fuente de banco
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Cuentas bancarias** y, a continuación, seleccione el vínculo relacionado.
@@ -51,14 +51,14 @@ El servicio de fuente de banco se activará cuando vincule una cuenta a la cuent
 2. Seleccione la cuenta bancaria correspondiente y, a continuación, seleccione **Crear una nueva cuenta bancaria vinculada**. La ventana **Vinculación de cuenta bancaria** se abre después de unos segundos.
 
     > [!NOTE]  
->   Esta ventana muestra la página web del servicio de fuentes de banco de Envestnet Yodlee. La terminología y las funciones de la ventana pueden no coincidir con las instrucciones que ofrece este tema.  
+    > Esta ventana muestra la página web del servicio de fuentes de banco de Envestnet Yodlee. La terminología y las funciones de la ventana pueden no coincidir con las instrucciones que ofrece este tema.  
 3. En la ventana **Vinculación de banco en línea**, en el panel **Vínculo de cuenta** use la función Buscar para buscar el banco en el que tiene una o varias cuentas bancarias en línea.
 4. Seleccione el nombre del banco. Se abre el panel **Iniciar sesión**.
 5. Introduzca el nombre de usuario y la contraseña que usa para conectarse al banco en línea y, a continuación, seleccione el botón **Siguiente**.  
 6. El servicio de fuente de banco se prepara para vincular la primera cuenta bancaria en línea en el banco especificado a una nueva cuenta en [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
     > [!NOTE]  
->   Si ha configurado más de una cuenta en línea en el banco deberá crear las cuentas adicionales en [!INCLUDE[d365fin](includes/d365fin_md.md)] para ellas. Consulte los pasos 8 a 10.  
+    > Si ha configurado más de una cuenta en línea en el banco deberá crear las cuentas adicionales en [!INCLUDE[d365fin](includes/d365fin_md.md)] para ellas. Consulte los pasos 8 a 10.  
 
     Después de que se haya completado el proceso, el nombre del banco aparecerá en el panel **Mis cuentas** en la pestaña **Vinculado**. El valor entre corchetes indica la cantidad de cuentas bancarias en línea que están vinculadas.  
 7. Elija el botón **Aceptar**.
@@ -92,7 +92,7 @@ En la ventana **Lista de bancos**, se activa la casilla **Vinculado**.
 2. Seleccione la línea para una cuenta bancaria vinculada que desee desvincular de su cuenta en línea relacionada y, a continuación, seleccione la acción **Desvincular un banco en línea**.
 
 > [!NOTE]  
->   Si selecciona **Sí** en el cuadro de diálogo de confirmación, el vínculo a la cuenta bancaria en línea se elimina y se eliminan los detalles de inicio de sesión. Para vincular nuevamente la cuenta bancaria a una cuenta bancaria en línea, debe volver a iniciar sesión en el banco. Para obtener más información, vea la sección “Para vincular una cuenta bancaria a una cuenta bancaria en línea“.
+> Si selecciona **Sí** en el cuadro de diálogo de confirmación, el vínculo a la cuenta bancaria en línea se elimina y se eliminan los detalles de inicio de sesión. Para vincular nuevamente la cuenta bancaria a una cuenta bancaria en línea, debe volver a iniciar sesión en el banco. Para obtener más información, vea la sección “Para vincular una cuenta bancaria a una cuenta bancaria en línea“.
 
 ## <a name="to-update-bank-account-linking"></a>Para actualizar la vinculación de la cuenta bancaria
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Cuentas bancarias** y, a continuación, seleccione el vínculo relacionado.
@@ -106,13 +106,13 @@ Si surgen problemas para alguna de las cuentas bancarias vinculadas en la ventan
 3. En la ventana **Configuración de la importación automática de extractos bancarios**, en el campo **N.º de días incluidos**, especifique hasta qué fecha en el pasado desea obtener nuevas transacciones bancarias.
 
     > [!NOTE]  
->   Se recomienda establecer este valor a 7 días o más.  
+    > Se recomienda establecer este valor a 7 días o más.  
 4. Seleccione la casilla de verificación **Habilitado**.  
 
 Cada hora, la ventana **Diario de conciliación de pagos** mostrará cualquier nuevo pago que se realice en la cuenta bancaria en línea.
 
 > [!NOTE]  
->   Las transacciones para los pagos que ya se hayan registrado como liquidados o conciliados en la ventana **Diario de conciliación de pagos** no se importarán.
+> Las transacciones para los pagos que ya se hayan registrado como liquidados o conciliados en la ventana **Diario de conciliación de pagos** no se importarán.
 
 ## <a name="see-also"></a>Consulte también
 [Configurar banca](bank-setup-banking.md)  

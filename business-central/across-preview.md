@@ -11,8 +11,8 @@ ms.search.keywords: preview, trial, sandbox
 ms.date: 01/05/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: fa7d084f69765a0b274dc9d4e1f6c1a38752f3b5
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 3e7c5ca600a5f64b44fca419ce33cad868f15595
 ms.contentlocale: es-es
 ms.lasthandoff: 03/22/2018
 
@@ -68,6 +68,6 @@ Para obtener más información, consulte [Uso de diseñador](https://docs.micros
 [!INCLUDE[d365fin](includes/d365fin_md.md)] proporciona herramientas que puede usar para implementar su propia funcionalidad de inserción para agregar nuevas experiencias de extremo a extremo específicas de la industria o integrar soluciones de terceros. Por ejemplo, puede usar una API para construir una aplicación conectada para intercambiar datos entre [!INCLUDE[d365fin](includes/d365fin_md.md)] y su aplicación de nómina. Las liquidaciones de conexión también pueden hacer uso de extensiones para crear páginas que se utilizarán para la configuración, configuración o para admitir funciones específicas de la aplicación. Para obtener más información, vea [Desarrollo de aplicaciones para [!INCLUDE[d365fin](includes/d365fin_md.md)]](https://aka.ms/getstartedwithapps).
 
 ##<a name="see-also"></a>Consulte también
-[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Introducción](product-get-started.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

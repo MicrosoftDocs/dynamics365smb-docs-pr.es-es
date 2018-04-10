@@ -12,8 +12,8 @@ ms.search.keywords: reject, delegate, request
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4bcceb5356352d43d95c4546a1e32fbbc9a9250b
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 0b83fbb4ec39a1a7596fd788e5dad985bacb30c2
 ms.contentlocale: es-es
 ms.lasthandoff: 03/22/2018
 
@@ -25,7 +25,7 @@ Los flujos de trabajo de aprobación se crean en la ventana **Flujo de trabajo**
 
 Además de los flujos de trabajo de aprobación descritos en este tema, puede realizar otras tareas de flujo de trabajo. Para obtener más información, [Uso de flujos de trabajo](across-use-workflows.md).
 
-Los flujos de trabajo de aprobación más importantes para los documentos de compras y ventas, los diarios de pago y las fichas de clientes y productos están listos para iniciar como configuración asistida. Para obtener más información, vea [[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md).
+Los flujos de trabajo de aprobación más importantes para los documentos de compras y ventas, los diarios de pago y las fichas de clientes y productos están listos para iniciar como configuración asistida. Para obtener más información, vea [Introducción](product-get-started.md).
 
 ## <a name="to-request-approval-of-a-record"></a>Para solicitar la aprobación de un registro
 La siguiente tarea se realizado por un usuario de aprobación.

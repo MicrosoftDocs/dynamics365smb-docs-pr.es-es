@@ -12,8 +12,8 @@ ms.search.keywords: machinery, buildings
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c20d4997e84db416e2103d2318533082adc04b49
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: fac857ae94152104ea6640782a5f315424b739e7
 ms.contentlocale: es-es
 ms.lasthandoff: 03/22/2018
 
@@ -39,11 +39,11 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 | Crear libros de amortización y definir varios métodos de amortización, integrarlos con el libro mayor y permitir la duplicación de movimientos en varios libros de amortización. |[Configurar la amortización de los activos fijos](fa-how-setup-depreciation.md) |
 | Activar el seguro de activos fijos, configurar la información del seguro, una ficha de seguro por póliza y preparar los diarios para registrar los costes del seguro. |[Configure el seguro de los activos fijos](fa-how-setup-insurance.md) |
 | Activar el mantenimiento de activos fijos, configurar la información general de mantenimiento, configurar el mantenimiento de las cuentas de registro y definir los tipos de trabajo de mantenimiento. |[Configure el mantenimiento de los activos fijos](fa-how-setup-maintenance.md) |
-| Conocer varios métodos de amortización de activos fijos. |[Métodos de amortización](fa-depreciation-methods.md) |
+| Conocer varios métodos de amortización de activos fijos. |[Métodos de depreciación](fa-depreciation-methods.md) |
 
 ## <a name="see-also"></a>Consulte también
 [Activos fijos](fa-manage.md)  
 [Finanzas](finance.md)  
-[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Introducción](product-get-started.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

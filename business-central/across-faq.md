@@ -11,8 +11,8 @@ ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
 ms.date: 07/27/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 72fdb96907c4feeb21cdc40b4b781e75e4f1119c
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: d015f3c2e4b06a7e93b7b4e0fe678c5066afbb8c
 ms.contentlocale: es-es
 ms.lasthandoff: 03/22/2018
 
@@ -40,14 +40,14 @@ Si tiene alguna pregunta sobre [!INCLUDE[d365fin](includes/d365fin_md.md)] cuya 
 ## <a name="is-it-possible-to-extend-my-30-day-new-company-trial-period"></a>¿Se puede ampliar mi periodo de prueba de "Nueva empresa" de 30 días?
 Sí. Si desea ampliar la prueba, debe ponerse en contacto con Microsoft en el 1-888-477-7989 (EE. UU.) o 1-800-741-9206 (Canadá). NOTA: Puede tardar hasta 2 días laborales en completarse el proceso de ampliación de la prueba.  
 
-## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-home-page-in-included365finincludesd365finmdmd"></a>Nuestro administrador me ha cambiado a otro plan para asignarme otro rol, pero sigo viendo la misma página principal en [!INCLUDE[d365fin](includes/d365fin_md.md)].
+## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-role-center-in-included365finincludesd365finmdmd"></a>Nuestro administrador me ha cambiado a otro plan para asignarme otro rol, pero sigo viendo la misma área de trabajo en [!INCLUDE[d365fin](includes/d365fin_md.md)].
 Esto es un poco complicado, pero parece que el administrador no ha cambiado el área de trabajo ni le ha asignado grupos de usuarios que coincidan con la nueva licencia. Fundamentalmente, su acceso a [!INCLUDE[d365fin](includes/d365fin_md.md)] está determinado por el tipo de plan (licencia) que tiene, el cual define los permisos y su área de trabajo predeterminada. Puede cambiar el área de trabajo manualmente en Mi configuración, pero si se le traslada a otro plan, como cambiarle del plan Empresa al plan Miembros de equipo, es posible que vea la página principal anterior porque sus permisos no han cambiado.  
 
 ## <a name="why-cant-i-find-that-capability-in-my-included365finincludesd365finmdmd"></a>¿Por qué no puedo encontrar esa capacidad en mi [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 ¿Ha leído recientemente acerca de una nueva capacidad en la guía básica o en nuestro blog? En ese caso, el [!INCLUDE[d365fin](includes/d365fin_md.md)] puede que todavía no se haya actualizado a la última versión. Si la capacidad se publica como una extensión en AppSource, habrá un retraso entre el anuncio y su disponibilidad en AppSource.
 
 ## <a name="see-also"></a>Consulte también
-[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Introducción](product-get-started.md)  
 [Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] como su bandeja de entrada de empresa en Outlook](admin-outlook.md)  
 [Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] sin Outlook](admin-no-outlook.md)  
 [Cambiar la configuración básica](ui-change-basic-settings.md)  

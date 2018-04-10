@@ -12,8 +12,8 @@ ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 02/19/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bc317c6fefbc9f79b668c1332bbaef2fc74ed4da
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 3e517397fb849e84da42492aaeea36def7dd3a28
 ms.contentlocale: es-es
 ms.lasthandoff: 03/22/2018
 
@@ -43,12 +43,12 @@ En la ventana **Configuración asistida**, encontrará lo siguiente con la exper
 
 Cuando ha ejecutado un asistente de configuración, se marca como **Completado**. Para ejecutar el asistente de configuración, seleccione los tres puntos también denominados menú contextual y, a continuación, seleccione **Iniciar configuración**.
 
-## <a name="role-center-home-page"></a>Página inicial de áreas de trabajo
-En la página de inicio del área de trabajo, tiene una vista general del negocio. A la izquierda puede ver una barra de navegación que le da un acceso sencillo a los clientes, proveedores, productos, etc. En el centro se encuentra el mosaico **Actividades**. **Actividades** muestra los datos actuales y se puede hacer clic o pinchar sobre él para conseguir un acceso fácil al documento seleccionado. Los **Indicadores de rendimiento clave** pueden configurarse para mostrar un gráfico seleccionado para una representación visual de, por ejemplo, el flujo de efectivo o ingresos y gastos. También puede crear una lista de **Clientes favoritos** en la página de inicio del área de trabajo para las cuentas con las que hace negocios a menudo o a las que necesita prestar especial atención.
-Use las flechas para contraer parte de la página y haga más espacio para mostrar datos específicos. En la parte superior de la página de inicio del área de trabajo encontrará todas las acciones que se pueden realizar con el contenido actual. Todo esto también se puede contraer y solo necesita hacer clic o pinchar en el área contraída para volverlo a ver.
+## <a name="role-center"></a>Área de trabajo
+En Área de trabajo tiene información general de su negocio. A la izquierda puede ver una barra de navegación que le da un acceso sencillo a los clientes, proveedores, productos, etc. En el centro se encuentra el mosaico **Actividades**. **Actividades** muestra los datos actuales y se puede hacer clic o pinchar sobre él para conseguir un acceso fácil al documento seleccionado. Los **Indicadores de rendimiento clave** pueden configurarse para mostrar un gráfico seleccionado para una representación visual de, por ejemplo, el flujo de efectivo o ingresos y gastos. También puede crear una lista de **Clientes favoritos** en el área de trabajo para las cuentas con las que hace negocios a menudo o a las que necesita prestar especial atención.
+Use las flechas para contraer parte de la página y haga más espacio para mostrar datos específicos. En la parte superior del área de trabajo encontrará todas las acciones que se pueden realizar con el contenido actual. Todo esto también se puede contraer y solo necesita hacer clic o pinchar en el área contraída para volverlo a ver.
 
 > [!TIP]  
-> Puede volver a la página de inicio del área de trabajo seleccionando el nombre de la empresa en la esquina superior izquierda.
+> Puede volver al área de trabajo seleccionando el nombre de la empresa en la esquina superior izquierda.
 
 ## <a name="company-information"></a>Información de empresa
 En **Configuración de la empresa** puede ver y editar información de configuración sobre la empresa actual, mucha de la cual se rellenó previamente si completó la configuración asistida **Configurar empresa** al registrarse en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Si desea cambiar el logotipo de la empresa, la información de contacto, la configuración del banco o la información de los impuestos, puede hacerlo desde esta ventana.    
@@ -63,7 +63,7 @@ En [!INCLUDE[d365fin](includes/d365fin_md.md)] encontrará las herramientas de i
 Según sus datos migrados, ahora puede empezar a crear nuevos documentos de compra o venta. Use la sección **Mi empresa** de la página **Inicio** para crear rápidamente una nueva oferta de venta, factura de venta, pedido de venta, factura de compra o registro de venta.
 
 ## <a name="see-also"></a>Consulte también
-[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Introducción](product-get-started.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Gestionar usuarios y permisos](ui-how-users-permissions.md)
 

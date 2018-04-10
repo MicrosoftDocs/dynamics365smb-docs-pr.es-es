@@ -11,8 +11,8 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.date: 09/05/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6b72de70da67a7401bad90bd55d1a31a1ae6d880
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 7b62652e34c15831b44975a7c33b088e2be873e4
 ms.contentlocale: es-es
 ms.lasthandoff: 03/22/2018
 
@@ -101,7 +101,7 @@ Si se produce un "error de inicio de sesión" al iniciar sesión en el panel con
 * La instancia de [!INCLUDE[d365fin](includes/d365fin_md.md)] a la que está intentando conectarse no dispone de un certificado de SSL válido. En este caso, verá un mensaje de error más detallado ("incapaz de establecer una relación de SSL de confianza").
 
     > [!NOTE]  
->   No se admiten los certificados autofirmados.  
+    >   No se admiten los certificados autofirmados.  
 
 **"¡Vaya!"**  
 Si se muestra un diálogo de error del tipo "¡Vaya!" después de pasar el diálogo de autenticación, la causa suele ser un problema de conexión con los datos del paquete de contenido.
@@ -118,7 +118,7 @@ Si se muestra un diálogo de error del tipo "¡Vaya!" después de pasar el diál
 
 ## <a name="see-also"></a>Consulte también
 [Inteligencia empresarial](bi.md)  
-[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Introducción](product-get-started.md)  
 [Migrar datos de empresa de otros sistemas financieros](upload-data.md)  
 [Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] como origen de datos de Power BI](across-how-use-financials-data-source-powerbi.md)  
 [Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] como origen de datos de PowerApps](across-how-use-financials-data-source-powerapps.md)  

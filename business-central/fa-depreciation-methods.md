@@ -13,8 +13,8 @@ ms.search.keywords: write down
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 25509535a04f94c00bf8ea123e36898d4eb20eb8
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: ebee0f94a64fcb6d3a86a7fe1808fdb643371cfd
 ms.contentlocale: es-es
 ms.lasthandoff: 03/22/2018
 
@@ -31,11 +31,11 @@ Hay ocho métodos de amortización disponibles:
 * Manual  
 
   > [!NOTE]  
->   Utilice este método para activos no sujetos a amortización, por ejemplo, los terrenos. Debe introducir la amortización en el diario general de activos fijos. El proceso **Calcular amortización** ignora los activos fijos que utilizan este método de amortización.  
+  >   Utilice este método para activos no sujetos a amortización, por ejemplo, los terrenos. Debe introducir la amortización en el diario general de activos fijos. El proceso **Calcular amortización** ignora los activos fijos que utilizan este método de amortización.  
 * Convenio de medio año  
 
   > [!NOTE]  
->    Al utilizar este método, se amortiza la misma cantidad de un activo fijo cada año.  
+  >    Al utilizar este método, se amortiza la misma cantidad de un activo fijo cada año.  
 
 ## <a name="straight-line-depreciation"></a>Amortización lineal
 Al utilizar el método lineal, debe especificar una de las siguientes opciones en el libro de amortización de activos fijos:  
@@ -355,6 +355,6 @@ Cuando introduzca un movimiento en B1 del diario general de activos fijos y acti
 [Activos fijos](fa-manage.md)  
 [Configurar activos fijos](fa-setup.md)  
 [Finanzas](finance.md)  
-[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Introducción](product-get-started.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

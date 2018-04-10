@@ -11,8 +11,8 @@ ms.search.keywords: remove, delete
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b11a528805decc52c69e5bf781307440526c2b34
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 1ff8e38973220300715eaaf2836286bebdafe902
 ms.contentlocale: es-es
 ms.lasthandoff: 03/22/2018
 
@@ -36,7 +36,7 @@ Si ha agregado datos a su vista previa de [!INCLUDE[d365fin](includes/d365fin_md
 Si desea ocultar [!INCLUDE[d365fin](includes/d365fin_md.md)] de su lanzador de aplicaciones, solo hace falta desanclarlo. Esto no elimina datos ni cancela su suscripción.  
 
 ## <a name="see-also"></a>Consulte también
-[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Introducción](product-get-started.md)  
 [Portal de Office](https://portal.office.com)  
 [¿Cuánto dura el periodo de prueba y cómo lo cancelo?](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel)  
 

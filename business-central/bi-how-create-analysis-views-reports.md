@@ -1,8 +1,6 @@
 ---
 title: "Crear informes de análisis | Documentos de Microsoft"
 description: "Describe cómo crear nuevos informes de análisis para ventas, compras y existencias, así como configurar plantillas de análisis."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,8 +11,8 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 622323cd0df894c2cb8a55c6fdfe29a81934af05
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: f127cef1af857b5f50f5e14c7376941151b57e91
 ms.contentlocale: es-es
 ms.lasthandoff: 03/22/2018
 
@@ -69,9 +67,8 @@ Una plantilla contiene un conjunto de líneas que representan las columnas de an
 4. En la ventana **Columnas de análisis**, rellene los campos para especificar las columnas que desea incluir en el informe de análisis.  
 
     > [!NOTE]  
->   Para definir una columna, debe rellenar el campo **Código de tipo de análisis** para todos los tipos de columnas excepto las de **Fórmula**. Configure los códigos de tipo de análisis en la ventana **Tipos de análisis**.  
-
-    **Nota**. En el campo **Tipo mov. cont.**, si selecciona **Movs. prods.** se copian las cifras reales del movimiento del producto. Si selecciona **Movs. ppto. prods.**, se copian las cifras presupuestadas del presupuesto.  
+    >   Para definir una columna, debe rellenar el campo **Código de tipo de análisis** para todos los tipos de columnas excepto las de **Fórmula**. Configure los códigos de tipo de análisis en la ventana **Tipos de análisis**.  
+    Además, en el campo **Tipo mov. cont.**, si selecciona **Movs. prods.**, se copian las cifras reales del movimiento del producto. Si selecciona **Movs. ppto. prods.**, se copian las cifras presupuestadas del presupuesto.  
 5.  Elija el botón **Aceptar** para guardar los cambios.  
 
 ## <a name="to-set-up-analysis-line-templates"></a>Para configurar plantillas de líneas de análisis  

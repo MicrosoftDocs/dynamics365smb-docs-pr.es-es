@@ -12,8 +12,8 @@ ms. search.keywords: app, add-in, manifest, customize
 ms.date: 07/05/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ad7ae8f46b5161e363fb0d9e41ea7c2382e5bde1
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: ac0e4a77cd217a74e315d4e601fed7e0a4e7f203
 ms.contentlocale: es-es
 ms.lasthandoff: 03/22/2018
 
@@ -25,5 +25,5 @@ La lista de las extensiones de otras empresas aumenta cada mes. Esté atento a [
 
 ## <a name="see-also"></a>Consulte también
 [Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones](ui-extensions.md)  
-[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Introducción](product-get-started.md)  
 

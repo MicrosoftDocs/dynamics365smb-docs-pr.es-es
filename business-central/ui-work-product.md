@@ -12,8 +12,8 @@ ms.workload: na
 ms.date: 03/02/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 0ce84903f1273540e744006cc3b042e12113ab5c
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 26729b9ced13d6727437db91d464d7a42907b0a1
 ms.contentlocale: es-es
 ms.lasthandoff: 03/22/2018
 
@@ -45,7 +45,7 @@ En la tabla siguiente se indican algunas de las funciones generales con vínculo
 |Mire videos en la funcionalidad seleccionada para obtener ayuda.|[Vídeos de tareas comunes](across-videos.md)|  
 
 ## <a name="see-also"></a>Consulte también
-[Introducción](index.md)  
+[Introducción](product-get-started.md)  
 [Configuración de Business Central](setup.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)  
 

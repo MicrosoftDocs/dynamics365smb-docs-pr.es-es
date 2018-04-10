@@ -8,11 +8,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 03/12/2018
+ms.date: 03/22/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7d41317f1f5e071c70dfd5ae265b046b3bea4825
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: f669e4b4dd43a6ac32fafc0dc1e408e1b87be98b
 ms.contentlocale: es-es
 ms.lasthandoff: 03/22/2018
 
@@ -25,7 +25,7 @@ Por ejemplo, para que su plan de cuentas se rellene previamente con varias cuent
 Desde el área de trabajo, puede acceder a guías de configuración asistida que le ayudarán a configurar varios escenarios y añadir funciones a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener información acerca de cómo acceder a todas las ventanas de configuración manual y asistida, consulte [Preparación para hacer negocios](ui-get-ready-business.md).
 
 > [!NOTE]
-> Puede configurar una nueva empresa en [!INCLUDE[d365fin](includes/d365fin_md.md)] con RapidStart Services, que es una herramienta diseñada para acortar los tiempos de implementación, mejorar la calidad de la implementación, introducir un método de repetición para las implementaciones y mejorar la productividad mediante la automatización y simplificación de las tareas periódicas. Para obtener más información, consulte ## [Configuración de una empresa con RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
+> Puede configurar una nueva empresa en [!INCLUDE[d365fin](includes/d365fin_md.md)] con RapidStart Services, que es una herramienta diseñada para acortar los tiempos de implementación, mejorar la calidad de la implementación, introducir un método de repetición para las implementaciones y mejorar la productividad mediante la automatización y simplificación de las tareas periódicas. Para obtener más información, consulte [Configuración de una empresa con RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
 Alguna funcionalidad, general o de procesos empresariales específicos, se puede configurar manualmente además de la configuración asistida. A continuación se enumera parte de la funcionalidad que puede configurar manualmente.
 
@@ -59,9 +59,9 @@ Algunas regiones requieren que sea el administrador en su suscripción [!INCLUDE
 [Fabricación](production-manage-manufacturing.md)  
 [Gestión de almacenes](warehouse-manage-warehouse.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Configuración y administración de [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-setup-and-administration.md)  
+[Administración](admin-setup-and-administration.md)  
 [Crear nuevas en empresas en [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
+[Introducción](product-get-started.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
 ## [!INCLUDE[d365fin](includes/training_link_md.md)]

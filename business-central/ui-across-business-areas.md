@@ -10,11 +10,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 03/02/2018
+ms.date: 03/20/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: eb0b77de0be1ac9d86750bf406f0ef2a6e9770df
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: fe75b81e2eae2520c6952cf1751ee4259eb3fb68
 ms.contentlocale: es-es
 ms.lasthandoff: 03/22/2018
 
@@ -28,6 +28,7 @@ En la tabla siguiente se indican las áreas de negocio generales, con vínculos 
 
 | Para | Vea |
 | --- | --- |
+|Ver documentos en curso, registrados o archivados que están relacionados con las líneas de pedido de venta y de compra.|[Seguimiento de líneas de documentos](across-how-to-track-document-lines.md)|
 | Comunique el contenido de sus documentos empresariales rápidamente a sus socios comerciales, como la información de pago sobre documentos de ventas a clientes. |[Envío de documentos por correo electrónico](ui-how-send-documents-email.md) |
 | Establecer códigos de texto estándar para poder ampliarlo mediante la incorporación de líneas adicionales y establecer las condiciones de uso de estas últimas. |[Definir textos adicionales](ui-how-define-ext-text.md) |
 |Crear tareas para recordarle que debe realizar el proyecto. Puede crear tareas para usted, pero también puede asignar tareas a otras personas o a otra persona en su organización|[Definir tareas de usuario](across-user-tasks.md)|

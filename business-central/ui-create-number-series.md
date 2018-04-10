@@ -2,20 +2,20 @@
 title: "Crear series numéricas | Documentos de Microsoft"
 description: "Obtenga información sobre cómo configurar series de números que asignan códigos de identificador único a las cuentas y los documentos en Business Central."
 documentationcenter: 
-author: SusanneWindfeldPedersen
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
-ms.date: 06/02/2017
-ms.author: solsen
+ms.date: 03/27/2018
+ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 151e585b0a809b1b537b52089fce297f222a60dc
+ms.sourcegitcommit: ea9b4a6310df319df06d02c53b9d6156caaee24f
+ms.openlocfilehash: 4d7e554300f0b445816ef9dd7fb81ea54fd25bf7
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 03/28/2018
 
 ---
 # <a name="create-number-series"></a>Crear numeración
@@ -30,14 +30,29 @@ Las series numéricas normalmente se configuran para insertar automáticamente e
 
 Si desea usar más de un código de serie numérica para un tipo de datos maestros, por ejemplo, usar una serie numérica diferente para categorías de productos, puede establecer relaciones de series numéricas.
 
+## <a name="behavior-of-the-no-field-on-documents-and-cards"></a>Comportamiento del campo de número en documentos y fichas
+En documentos venta, compra y transferencia y en todas las fichas, el campo **N.º** se puede rellenar automáticamente a partir de una serie de números o manualmente, y puede configurarse para ser invisible.
+
+El campo **Nº** se puede rellenar de tres maneras:
+
+1. Si solo existe una serie numérica para el tipo de documento o ficha donde la casilla **Numeración predet.** está marcada y la casilla **Numeración manual** no está marcada, el campo se rellena automáticamente con el siguiente número de la serie, y el campo **N.º** no será visible.
+
+    > [!NOTE]  
+    > Si la serie numérica no funciona, por ejemplo, porque se ha quedado sin números, el campo **N.º** será visible y puede introducir un número de forma manual o resolver los problemas en la ventana **Lista nº serie**.
+
+2. Si hay varias series numéricas para el tipo de documento de compra o ficha, y la casilla **Numeración predet.** no está marcada para la serie numérica que hay asignada actualmente, el campo **N.º** está visible, y puede buscar en la ventana **Lista nº serie** y seleccionar el número de serie que desea utilizar. El número siguiente de la serie se inserta en el campo **N.º** .
+
+3. Si no ha configurado una serie numérica para el tipo de documento o ficha, o si el campo **Numeración manual** de la serie numérica está seleccionado, el campo **N.º** está visible y deberá introducir cualquier número manualmente. Puede escribir un máximo de 20 caracteres, tanto números como letras.
+
+Al abrir un nuevo documento o ficha para el que existe una serie numérica, la ventana **Configuración N.º serie** relevante se abre para que pueda configurar un número de serie para el tipo de documento o ficha antes de continuar con cualquier otra introducción de datos.
+
+> [!NOTE]  
+> Si necesita activar la numeración manual, por ejemplo, se han creado nuevas fichas de producto con un proceso de la migración de datos que ha ocultado el campo **Nº** de forma predeterminada, vaya a la ventana **Configuración del inventario** y elija el campo **Nº serie producto** para abrir y para definir las series numéricas relacionadas con **Numeración manual**.
+
 ## <a name="to-create-a-new-number-series"></a>Para crear una nueva serie numérica
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Nos. serie** y, a continuación, seleccione el vínculo relacionado.
 2. Seleccione la acción **Nuevo**.
 3. En la línea nueva, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-**SUGERENCIA**: para habilitar movimiento manual de un número en las nuevas fichas o documentos, cancele la selección de **Numeración predet.** y seleccione la casilla **Numeración manual**.
-
-Ahora, al crear una nueva ficha o documento que se haya configurado para utilizar la serie numérica en cuestión, podrá rellenar manualmente el campo **Nº** con cualquier valor.  
 
 ## <a name="to-set-up-where-a-number-series-is-used"></a>Para configurar dónde se usa una serie numérica
 El siguiente procedimiento muestra cómo configurar una serie numérica para el área de ventas. Los pasos son parecidos a los de otras áreas.

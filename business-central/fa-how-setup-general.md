@@ -10,8 +10,8 @@ ms.workload: na
 ms.date: 29/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 30c60a7ec8d80270256536d9b0b80218b7fd1559
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: d653021766b5d9dd4efa49e97525666e30c69450
 ms.contentlocale: es-es
 ms.lasthandoff: 03/22/2018
 
@@ -33,7 +33,7 @@ Puede utilizar grupos de registro para definir los grupos contables de activos f
 3. En la ventana **A/F Ficha grupo contable**, rellene los campos según sea necesario.
 
     > [!NOTE]  
->   ara asegurarse de que las cuentas de contrapartida de los diferentes registros de activos se insertan automáticamente en las líneas del diario al elegir la acción **Introducir saldo AF**, vaya al siguiente paso que se basa en el registro de apreciación.
+    >   ara asegurarse de que las cuentas de contrapartida de los diferentes registros de activos se insertan automáticamente en las líneas del diario al elegir la acción **Introducir saldo AF**, vaya al siguiente paso que se basa en el registro de apreciación.
 4. En la ficha desplegable **Saldo**, en el campo **Cta. contrap. apreciación**, seleccione la cuenta contable en la que desea registrar las contrapartidas para la apreciación.
 
 Para obtener más información sobre cómo usar la acción **Introducir saldo AF** en las líneas del diario general de activos, vea, por ejemplo, [Revalorizar activos fijos](fa-how-revalue.md).
@@ -121,6 +121,6 @@ Si los activos fijos no se integran en la contabilidad, omita los pasos 6 y 8.
 [Configurar activos fijos](fa-setup.md)  
 [Activos fijos](fa-manage.md)  
 [Finanzas](finance.md)  
-[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Introducción](product-get-started.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

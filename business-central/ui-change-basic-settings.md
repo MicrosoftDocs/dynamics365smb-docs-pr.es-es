@@ -13,8 +13,8 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 03/02/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ee0615cd475d412f7380d6577bfa2965bb0cee9f
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: c7f07bd3cee8d52cccf171dfd229265d65e99cba
 ms.contentlocale: es-es
 ms.lasthandoff: 03/22/2018
 
@@ -23,7 +23,7 @@ ms.lasthandoff: 03/22/2018
 En la ventana **Mi configuración**, puede ver y cambiar la configuración básica de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="role-center"></a>Área de trabajo
-El área de trabajo representa la página Inicio, una página de inicio que está designada para las necesidades del trabajo. El área de trabajo proporciona una vista general del negocio, que refleja la información, las tareas y las prioridades de su área. 
+El área de trabajo representa la página Inicio y está designada para las necesidades del trabajo. El área de trabajo proporciona una vista general del negocio, que refleja la información, las tareas y las prioridades de su área.
 
 En la parte superior del área de trabajo verá una barra de navegación que le brinda fácil acceso a entidades típicas para el área, como clientes, proveedores, productos, etc.
 
@@ -41,7 +41,7 @@ Una empresa funciona como un contenedor de datos en [!INCLUDE[d365fin](includes/
 La empresa predeterminada se llama CRONUS y solo contiene datos de demostración.
 
 > [!TIP]  
->   Si desea que se muestre un nombre distinto para la empresa en la aplicación (por ejemplo, como en la página principal del área de trabajo), establezca el campo **Nombre** en la página **Información empresa** o el campo **Nombre para mostrar** en la página **Empresas**.  
+>   Si desea que se muestre un nombre distinto para la empresa en la aplicación (por ejemplo, como en el área de trabajo), establezca el campo **Nombre** en la página **Información empresa** o el campo **Nombre para mostrar** en la página **Empresas**.  
 
 ## <a name="work-date"></a>Fecha de trabajo
 La fecha predeterminada de trabajo será normalmente la fecha actual. Es posible que tenga que cambiar temporalmente la fecha de trabajo para realizar tareas como la finalización de las transacciones de una fecha que no sea la fecha actual.

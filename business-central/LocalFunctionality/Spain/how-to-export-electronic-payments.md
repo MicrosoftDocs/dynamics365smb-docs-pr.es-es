@@ -1,8 +1,6 @@
 ---
 title: "Exportar pagos electrónicos"
 description: "En Business Central, puede exportar movimientos del diario de pagos a un formato de archivo de acuerdo con cuatro estándares de pago diferentes. Utilice las siguientes ventanas para exportar según los distintos estándares de pago."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +11,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9b4b0001f1af5f36c35b824985b5e5079d55c7f8
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 11c0a8c62f7fecc167e224d81e0e6f41071d5cba
 ms.contentlocale: es-es
 ms.lasthandoff: 03/22/2018
 
 ---
+
 # <a name="export-electronic-payments"></a>Exportar pagos electrónicos
 En [!INCLUDE[d365fin](../../includes/d365fin_md.md)], puede exportar movimientos del diario de pagos a un formato de archivo de acuerdo con cuatro estándares de pago diferentes. Utilice las siguientes ventanas para exportar según los distintos estándares de pago.  
 
@@ -93,9 +92,7 @@ En [!INCLUDE[d365fin](../../includes/d365fin_md.md)], puede exportar movimientos
     >  Solo puede registrar la orden de pago una vez que haya exportado correctamente los pagos electrónicos.  
 
     > [!NOTE]  
-<<<<<<< HEAD ======= <<<<<<< HEAD En la versión genérica de [!INCLUDE[d365fin](../../includes/d365fin_md.md)], la ventana **Diario de pagos** se utiliza de forma similar para exportar pagos electrónicos en el formato de transferencia de crédito SEPA. Para obtener más información, consulte [Realizar pagos con Servicio de conversión de datos del banco o Transferencia de crédito SEPA](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
-=======
->>>>>>> refs/remotes/origin/Update14 En la versión genérica de [!INCLUDE[d365fin](../../includes/d365fin_md.md)], la ventana **Diario de pagos** se utiliza de forma similar para exportar pagos electrónicos en el formato de transferencia de crédito SEPA. Para obtener más información, consulte [Realizar pagos con Servicio de conversión de datos del banco o Transferencia de crédito SEPA](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
+    >  En la versión genérica de [!INCLUDE[d365fin](../../includes/d365fin_md.md)], la ventana **Diario de pagos** se utiliza de forma similar para exportar pagos electrónicos en el formato de transferencia de crédito SEPA. Para obtener más información, consulte [Realizar pagos con Servicio de conversión de datos del banco o Transferencia de crédito SEPA](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
 
 ## <a name="to-export-electronic-payments-from-the-cartera-module"></a>Para exportar los pagos electrónicos del módulo Cartera  
 
@@ -115,8 +112,7 @@ En [!INCLUDE[d365fin](../../includes/d365fin_md.md)], puede exportar movimientos
 >  Solo puede registrar la orden de pago una vez que haya exportado correctamente los pagos electrónicos.  
 
 ## <a name="see-also"></a>Consulte también  
- [Pagos electrónicos – AEB N34.1](electronic-payments-aeb-n341.md)   
- Exportar pagos electrónicos   
- [Configurar cuentas bancarias para realizar pagos electrónicos](how-to-set-up-bank-accounts-for-electronic-payments.md)   
- [Realizar pagos con Servicio de conversión de datos del banco o Transferencia de crédito SEPA](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
+[Pagos electrónicos – AEB N34.1](electronic-payments-aeb-n341.md)  
+[Configurar cuentas bancarias para realizar pagos electrónicos](how-to-set-up-bank-accounts-for-electronic-payments.md)  
+[Realizar pagos con Servicio de conversión de datos del banco o Transferencia de crédito SEPA](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
 
