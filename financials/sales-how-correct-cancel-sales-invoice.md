@@ -13,10 +13,10 @@ ms.search.keywords: undo, credit memo, return
 ms.date: 08/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: e8e5a4762564d036ac8c0e7bdaf9e13b448d37f4
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 558b01a2d7048b8a5817a61b26e3df61d007815d
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="correct-or-cancel-unpaid-sales-invoices"></a><span data-ttu-id="1a72c-103">Corregir o cancelar facturas de venta sin abonar</span><span class="sxs-lookup"><span data-stu-id="1a72c-103">Correct or Cancel Unpaid Sales Invoices</span></span>
@@ -39,7 +39,7 @@ ms.lasthandoff: 03/22/2018
 2. <span data-ttu-id="1a72c-127">Seleccione la factura de venta registrada que desea corregir.</span><span class="sxs-lookup"><span data-stu-id="1a72c-127">Select the posted sales invoice that you want to correct.</span></span>
 
     > [!NOTE]  
->   <span data-ttu-id="1a72c-128">Si se selecciona la casilla **Cancelado**, no puede corregir la factura de venta registrada porque ya se ha corregido o cancelado.</span><span class="sxs-lookup"><span data-stu-id="1a72c-128">If the **Canceled** check box is selected, then you cannot correct the posted sales invoice because it has already been corrected or canceled.</span></span>
+   >   <span data-ttu-id="1a72c-128">Si se selecciona la casilla **Cancelado**, no puede corregir la factura de venta registrada porque ya se ha corregido o cancelado.</span><span class="sxs-lookup"><span data-stu-id="1a72c-128">If the **Canceled** check box is selected, then you cannot correct the posted sales invoice because it has already been corrected or canceled.</span></span>
 3. <span data-ttu-id="1a72c-129">En la ventana **Factura de ventas registrada**, elija la acción **Corregir**.</span><span class="sxs-lookup"><span data-stu-id="1a72c-129">In the **Posted Sales Invoice** window, choose the **Correct** action.</span></span>  
 4. <span data-ttu-id="1a72c-130">Una nueva factura de venta con la misma información se crea donde puede realizar la corrección.</span><span class="sxs-lookup"><span data-stu-id="1a72c-130">A new sales invoice with the same information is created where you can make the correction.</span></span> <span data-ttu-id="1a72c-131">El campo **Cancelado** en la factura de ventas registrada inicial se cambia a **Sí**.</span><span class="sxs-lookup"><span data-stu-id="1a72c-131">The **Canceled** field on the initial posted sales invoice is changed to **Yes**.</span></span>
 
@@ -51,7 +51,7 @@ ms.lasthandoff: 03/22/2018
 2. <span data-ttu-id="1a72c-136">Seleccione la factura de venta registrada que desea cancelar.</span><span class="sxs-lookup"><span data-stu-id="1a72c-136">Select the posted sales invoice that you want to cancel.</span></span>
 
     > [!NOTE]  
->   <span data-ttu-id="1a72c-137">Si se selecciona la casilla **Cancelado**, no puede cancelar la factura de venta registrada porque ya se ha cancelado o corregido.</span><span class="sxs-lookup"><span data-stu-id="1a72c-137">If the **Canceled** check box is selected, then you cannot cancel the posted sales invoice because it has already been canceled or corrected.</span></span>
+   >   <span data-ttu-id="1a72c-137">Si se selecciona la casilla **Cancelado**, no puede cancelar la factura de venta registrada porque ya se ha cancelado o corregido.</span><span class="sxs-lookup"><span data-stu-id="1a72c-137">If the **Canceled** check box is selected, then you cannot cancel the posted sales invoice because it has already been canceled or corrected.</span></span>
 3. <span data-ttu-id="1a72c-138">En la ventana **Factura de ventas registrada**, elija la acción **Cancelar**.</span><span class="sxs-lookup"><span data-stu-id="1a72c-138">In the **Posted Sales Invoice** window, choose the **Cancel** action.</span></span>
 
     <span data-ttu-id="1a72c-139">Un abono de venta se crea y se registra automáticamente para anular la factura de venta registrada inicial.</span><span class="sxs-lookup"><span data-stu-id="1a72c-139">A sales credit memo is automatically created and posted to void the initial posted sales invoice.</span></span> <span data-ttu-id="1a72c-140">El campo **Cancelado** en la factura de ventas registrada inicial se cambia a **Sí**.</span><span class="sxs-lookup"><span data-stu-id="1a72c-140">The **Canceled** field on the initial posted sales invoice is changed to **Yes**.</span></span>

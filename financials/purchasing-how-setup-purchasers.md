@@ -13,10 +13,10 @@ ms.search.keywords: purchasing agent
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 66e6233df8204476e5f856e230e5e3d502d309c4
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: fca44f18a43a1d3f4a5ad10678e7cd4fd3801aa0
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="set-up-purchasers"></a><span data-ttu-id="08dcf-103">Configurar compradores</span><span class="sxs-lookup"><span data-stu-id="08dcf-103">Set Up Purchasers</span></span>
@@ -25,7 +25,7 @@ ms.lasthandoff: 03/22/2018
 ## <a name="to-set-up-purchasers"></a><span data-ttu-id="08dcf-106">Para configurar compradores</span><span class="sxs-lookup"><span data-stu-id="08dcf-106">To set up purchasers</span></span>
 1. <span data-ttu-id="08dcf-107">Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Vendedores/compradores** y, a continuación, seleccione el vínculo relacionado.</span><span class="sxs-lookup"><span data-stu-id="08dcf-107">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Salespeople/Purchasers**, and then choose the related link.</span></span>
 2. <span data-ttu-id="08dcf-108">En la ventana **Vendedores/compradores**, elija **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="08dcf-108">In the **Salespeople/Purchasers** window, choose **New**.</span></span>
-3. <span data-ttu-id="08dcf-109">En la ventana **Ficha de vendedor/comprador**, rellene los campos según sea necesario.</span><span class="sxs-lookup"><span data-stu-id="08dcf-109">In the **Salesperson/Purchaser Card** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. <span data-ttu-id="08dcf-109">En la ventana **Ficha de vendedor/comprador**, rellene los campos según sea necesario.</span><span class="sxs-lookup"><span data-stu-id="08dcf-109">In the **Salesperson/Purchaser Card** window, fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-purchasers-to-vendors"></a><span data-ttu-id="08dcf-110">Para asignar compradores a proveedores</span><span class="sxs-lookup"><span data-stu-id="08dcf-110">To assign purchasers to vendors</span></span>
 1. <span data-ttu-id="08dcf-111">Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Proveedores** y, a continuación, seleccione el vínculo relacionado.</span><span class="sxs-lookup"><span data-stu-id="08dcf-111">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendors**, and then choose the related link.</span></span>

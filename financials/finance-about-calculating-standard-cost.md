@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 5dc35d82dee8d3a9b93c04de497e7363b7bafb90
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 6f6ec5d60325ecfdad3c7fb29cf2208b0d1aa557
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="about-calculating-standard-cost"></a><span data-ttu-id="17598-104">Acerca del cálculo de coste estándar</span><span class="sxs-lookup"><span data-stu-id="17598-104">About Calculating Standard Cost</span></span>
@@ -80,8 +80,8 @@ ms.lasthandoff: 03/22/2018
 
 <span data-ttu-id="17598-167">Puede configurar las tasas para cada tipo de tiempo por cada máquina o centro de trabajo de una ruta en particular.</span><span class="sxs-lookup"><span data-stu-id="17598-167">You set up the rates for each time type for each machine or work center on an individual routing.</span></span>  
 
-> [!NOTE]  
-    >  <span data-ttu-id="17598-168">Mientras las tasas de tiempo de ejecución se aplican para cada unidad de producto fabricado, las tasas de tiempo de preparación se aplican para cada lote.</span><span class="sxs-lookup"><span data-stu-id="17598-168">While run time rates apply for each item unit that is produced, the setup time rates apply for each lot.</span></span> <span data-ttu-id="17598-169">Por tanto, debe prorratear el tiempo de preparación de la ruta por cada operación en función del tamaño del lote.</span><span class="sxs-lookup"><span data-stu-id="17598-169">Therefore, you must prorate the routing setup time for each operation over the lot size.</span></span> <span data-ttu-id="17598-170">Puede especificar el tamaño del lote en el campo correspondiente de la ficha desplegable **Pedidos** de la ficha del producto.</span><span class="sxs-lookup"><span data-stu-id="17598-170">You specify the lot size in the corresponding field on the **Ordering** FastTab of the item card.</span></span>  
+> [!NOTE]
+>  <span data-ttu-id="17598-168">Mientras las tasas de tiempo de ejecución se aplican para cada unidad de producto fabricado, las tasas de tiempo de preparación se aplican para cada lote.</span><span class="sxs-lookup"><span data-stu-id="17598-168">While run time rates apply for each item unit that is produced, the setup time rates apply for each lot.</span></span> <span data-ttu-id="17598-169">Por tanto, debe prorratear el tiempo de preparación de la ruta por cada operación en función del tamaño del lote.</span><span class="sxs-lookup"><span data-stu-id="17598-169">Therefore, you must prorate the routing setup time for each operation over the lot size.</span></span> <span data-ttu-id="17598-170">Puede especificar el tamaño del lote en el campo correspondiente de la ficha desplegable **Pedidos** de la ficha del producto.</span><span class="sxs-lookup"><span data-stu-id="17598-170">You specify the lot size in the corresponding field on the **Ordering** FastTab of the item card.</span></span>  
 
 <span data-ttu-id="17598-171">Para especificar el tiempo de preparación en la ruta por motivos de planificación, pero no incluir este gasto en el cálculo del coste estándar, desactive el campo **Coste incl. preparación** de la ventana **Configuración fabricación**.</span><span class="sxs-lookup"><span data-stu-id="17598-171">To specify setup time on the routing for planning but not include this expense in the standard cost calculation, clear the **Cost Incl. Setup** field in the **Manufacturing Setup** window.</span></span>  
 

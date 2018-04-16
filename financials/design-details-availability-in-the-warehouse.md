@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 0b560d61d39ba22f0008e6cb5ef11d2f6c9aa9e0
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: ee8fe08f9c8e9d9e32052bc55539a0fa3e56e4d4
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="design-details-availability-in-the-warehouse"></a><span data-ttu-id="f9048-103">Detalles de diseño: Disponibilidad en el almacén</span><span class="sxs-lookup"><span data-stu-id="f9048-103">Design Details: Availability in the Warehouse</span></span>
@@ -51,16 +51,16 @@ ms.lasthandoff: 03/22/2018
 
  <span data-ttu-id="f9048-128">Debe ser posible reservar todos los productos del inventario, excepto los que han iniciado el proceso de salida.</span><span class="sxs-lookup"><span data-stu-id="f9048-128">It should be possible to reserve all items in inventory, except those that have started outbound processing.</span></span> <span data-ttu-id="f9048-129">Por consiguiente, la cantidad disponible para reservar se define como la cantidad en todos los documentos y todos los tipos de ubicación, excepto las cantidades de salida siguientes:</span><span class="sxs-lookup"><span data-stu-id="f9048-129">Accordingly, the quantity that is available to reserve is defined as the quantity on all documents and all bin types, except the following outbound quantities:</span></span>  
 
--   <span data-ttu-id="f9048-130">Cantidad en documentos de picking no registrados</span><span class="sxs-lookup"><span data-stu-id="f9048-130">Quantity on unregistered pick documents</span></span>  
--   <span data-ttu-id="f9048-131">Cantidad en ubicaciones de envío</span><span class="sxs-lookup"><span data-stu-id="f9048-131">Quantity in shipment bins</span></span>  
--   <span data-ttu-id="f9048-132">Cantidad en ubicaciones para producción</span><span class="sxs-lookup"><span data-stu-id="f9048-132">Quantity in to-production bins</span></span>  
--   <span data-ttu-id="f9048-133">Cantidad en ubicaciones de aprovisionamiento manual</span><span class="sxs-lookup"><span data-stu-id="f9048-133">Quantity in open shop floor bins</span></span>  
--   <span data-ttu-id="f9048-134">Cantidad en ubicaciones para ensamblado</span><span class="sxs-lookup"><span data-stu-id="f9048-134">Quantity in to-assembly bins</span></span>  
--   <span data-ttu-id="f9048-135">Cantidad en ubicaciones de ajuste</span><span class="sxs-lookup"><span data-stu-id="f9048-135">Quantity in adjustment bins</span></span>  
+- <span data-ttu-id="f9048-130">Cantidad en documentos de picking no registrados</span><span class="sxs-lookup"><span data-stu-id="f9048-130">Quantity on unregistered pick documents</span></span>  
+- <span data-ttu-id="f9048-131">Cantidad en ubicaciones de envío</span><span class="sxs-lookup"><span data-stu-id="f9048-131">Quantity in shipment bins</span></span>  
+- <span data-ttu-id="f9048-132">Cantidad en ubicaciones para producción</span><span class="sxs-lookup"><span data-stu-id="f9048-132">Quantity in to-production bins</span></span>  
+- <span data-ttu-id="f9048-133">Cantidad en ubicaciones de aprovisionamiento manual</span><span class="sxs-lookup"><span data-stu-id="f9048-133">Quantity in open shop floor bins</span></span>  
+- <span data-ttu-id="f9048-134">Cantidad en ubicaciones para ensamblado</span><span class="sxs-lookup"><span data-stu-id="f9048-134">Quantity in to-assembly bins</span></span>  
+- <span data-ttu-id="f9048-135">Cantidad en ubicaciones de ajuste</span><span class="sxs-lookup"><span data-stu-id="f9048-135">Quantity in adjustment bins</span></span>  
 
- <span data-ttu-id="f9048-136">El resultado se muestra en el campo**Cantidad total disponible** en la ventana **Reservas**.</span><span class="sxs-lookup"><span data-stu-id="f9048-136">The result is displayed in the **Total Available Quantity** field in the **Reservation** window.</span></span>  
+  <span data-ttu-id="f9048-136">El resultado se muestra en el campo**Cantidad total disponible** en la ventana **Reservas**.</span><span class="sxs-lookup"><span data-stu-id="f9048-136">The result is displayed in the **Total Available Quantity** field in the **Reservation** window.</span></span>  
 
- <span data-ttu-id="f9048-137">En una línea de reserva, la cantidad que no se puede reservar, porque está asignada en el almacén, se muestra en el campo **Cant. asignada en Almacén** de la ventana **Reservas**.</span><span class="sxs-lookup"><span data-stu-id="f9048-137">On a reservation line, the quantity that cannot be reserved, because it is allocated in the warehouse, is displayed in the **Qty. Allocated in Warehouse** field in the **Reservation** window.</span></span>  
+  <span data-ttu-id="f9048-137">En una línea de reserva, la cantidad que no se puede reservar, porque está asignada en el almacén, se muestra en el campo **Cant. asignada en Almacén** de la ventana **Reservas**.</span><span class="sxs-lookup"><span data-stu-id="f9048-137">On a reservation line, the quantity that cannot be reserved, because it is allocated in the warehouse, is displayed in the **Qty. Allocated in Warehouse** field in the **Reservation** window.</span></span>  
 
 ### <a name="calculating-the-quantity-available-to-reserve"></a><span data-ttu-id="f9048-138">Cálculo de la cantidad disponible para reservar</span><span class="sxs-lookup"><span data-stu-id="f9048-138">Calculating the Quantity Available to Reserve</span></span>  
  <span data-ttu-id="f9048-139">La cantidad disponible para reservar se calcula de la manera siguiente:</span><span class="sxs-lookup"><span data-stu-id="f9048-139">The quantity available to reserve is calculated as follows:</span></span>  

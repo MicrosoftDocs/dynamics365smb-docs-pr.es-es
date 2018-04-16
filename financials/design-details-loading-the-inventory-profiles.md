@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: d2a2ee196be4562f62604afd4faed608ff07411f
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: c588e4273fa9b23f9ace044a85f5132e12112916
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="design-details-loading-the-inventory-profiles"></a><span data-ttu-id="6b6bb-103">Detalles de diseño: Carga de los perfiles de inventario</span><span class="sxs-lookup"><span data-stu-id="6b6bb-103">Design Details: Loading the Inventory Profiles</span></span>
@@ -28,15 +28,15 @@ ms.lasthandoff: 03/22/2018
 
  <span data-ttu-id="6b6bb-112">En general, el sistema de planificación considera todos los pedidos de aprovisionamiento posteriores a la fecha de inicio de la planificación como sujetos a cambios para cubrir la demanda.</span><span class="sxs-lookup"><span data-stu-id="6b6bb-112">In general, the planning system considers all supply orders after the planning starting date as subject to change in order to fulfill demand.</span></span> <span data-ttu-id="6b6bb-113">No obstante, en cuanto una cantidad se registra a partir de un pedido de aprovisionamiento, ya no la puede modificar el sistema de planificación.</span><span class="sxs-lookup"><span data-stu-id="6b6bb-113">However, as soon as a quantity is posted from a supply order, it can no longer be changed by the planning system.</span></span> <span data-ttu-id="6b6bb-114">Por consiguiente, los diferentes pedidos siguientes no se pueden replanificar:</span><span class="sxs-lookup"><span data-stu-id="6b6bb-114">Accordingly, the following different orders cannot be replanned:</span></span>  
 
--   <span data-ttu-id="6b6bb-115">Órdenes de producción lanzadas donde se ha registrado la salida o el consumo.</span><span class="sxs-lookup"><span data-stu-id="6b6bb-115">Released production orders where consumption or output has been posted.</span></span>  
+- <span data-ttu-id="6b6bb-115">Órdenes de producción lanzadas donde se ha registrado la salida o el consumo.</span><span class="sxs-lookup"><span data-stu-id="6b6bb-115">Released production orders where consumption or output has been posted.</span></span>  
 
--   <span data-ttu-id="6b6bb-116">Pedidos de ensamblado donde se ha registrado la salida o el consumo.</span><span class="sxs-lookup"><span data-stu-id="6b6bb-116">Assembly orders where consumption or output has been posted.</span></span>  
+- <span data-ttu-id="6b6bb-116">Pedidos de ensamblado donde se ha registrado la salida o el consumo.</span><span class="sxs-lookup"><span data-stu-id="6b6bb-116">Assembly orders where consumption or output has been posted.</span></span>  
 
--   <span data-ttu-id="6b6bb-117">Pedidos de transferencia donde se ha registrado el envío.</span><span class="sxs-lookup"><span data-stu-id="6b6bb-117">Transfer orders where shipment has been posted.</span></span>  
+- <span data-ttu-id="6b6bb-117">Pedidos de transferencia donde se ha registrado el envío.</span><span class="sxs-lookup"><span data-stu-id="6b6bb-117">Transfer orders where shipment has been posted.</span></span>  
 
--   <span data-ttu-id="6b6bb-118">Pedidos de compra en los que se ha registrado la recepción.</span><span class="sxs-lookup"><span data-stu-id="6b6bb-118">Purchase orders where receipt has been posted.</span></span>  
+- <span data-ttu-id="6b6bb-118">Pedidos de compra en los que se ha registrado la recepción.</span><span class="sxs-lookup"><span data-stu-id="6b6bb-118">Purchase orders where receipt has been posted.</span></span>  
 
- <span data-ttu-id="6b6bb-119">Aparte de cargar los tipos de demanda y aprovisionamiento, se cargan determinados tipos respetando reglas especiales y dependencias, las cuales que se describen a continuación.</span><span class="sxs-lookup"><span data-stu-id="6b6bb-119">Apart from loading demand and supply types, certain types are loaded with attention to special rules and dependencies that are described in the following.</span></span>  
+  <span data-ttu-id="6b6bb-119">Aparte de cargar los tipos de demanda y aprovisionamiento, se cargan determinados tipos respetando reglas especiales y dependencias, las cuales que se describen a continuación.</span><span class="sxs-lookup"><span data-stu-id="6b6bb-119">Apart from loading demand and supply types, certain types are loaded with attention to special rules and dependencies that are described in the following.</span></span>  
 
 ## <a name="item-dimensions-are-separated"></a><span data-ttu-id="6b6bb-120">Las dimensiones de producto están separadas</span><span class="sxs-lookup"><span data-stu-id="6b6bb-120">Item Dimensions are Separated</span></span>  
  <span data-ttu-id="6b6bb-121">El plan de suministro se debe calcular mediante la combinación de dimensiones de producto, como variante y ubicación.</span><span class="sxs-lookup"><span data-stu-id="6b6bb-121">The supply plan must be calculated per combination of the item dimensions, such as variant and location.</span></span> <span data-ttu-id="6b6bb-122">No obstante, no hay razón para calcular ninguna combinación teórica.</span><span class="sxs-lookup"><span data-stu-id="6b6bb-122">However, there is no reason to calculate any theoretical combination.</span></span> <span data-ttu-id="6b6bb-123">Solo es necesario calcular las combinaciones con una necesidad de demanda o de suministro.</span><span class="sxs-lookup"><span data-stu-id="6b6bb-123">Only those combinations that carry a demand and/or supply need to be calculated.</span></span>  

@@ -13,10 +13,10 @@ ms.search.keywords: project budget, forecast
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: e88eaebf65d950dcbb6c0296be24e68628a9494e
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 474726a76681a05fdce2bfd549a91df6ff7226ee
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="manage-job-budgets"></a><span data-ttu-id="3cee6-103">Gestionar presupuestos de proyecto</span><span class="sxs-lookup"><span data-stu-id="3cee6-103">Manage Job Budgets</span></span>
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/22/2018
 1. <span data-ttu-id="3cee6-114">Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Proyectos** y, a continuación, seleccione el vínculo relacionado.</span><span class="sxs-lookup"><span data-stu-id="3cee6-114">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs**, and then choose the related link.</span></span>  
 2. <span data-ttu-id="3cee6-115">Abra un proyecto relevante.</span><span class="sxs-lookup"><span data-stu-id="3cee6-115">Open a relevant job.</span></span>
 3. <span data-ttu-id="3cee6-116">Seleccione una línea de tarea del tipo Registro y, a continuación, elija la acción **Líneas planificación proyecto**.</span><span class="sxs-lookup"><span data-stu-id="3cee6-116">Select a task line of type Posting, and then choose the **Job Planning Lines** action.</span></span>
-4. <span data-ttu-id="3cee6-117">En una línea nueva, rellene los campos según sea necesario.</span><span class="sxs-lookup"><span data-stu-id="3cee6-117">On a new line, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]   
+4. <span data-ttu-id="3cee6-117">En una línea nueva, rellene los campos según sea necesario.</span><span class="sxs-lookup"><span data-stu-id="3cee6-117">On a new line, fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]   
 
 <span data-ttu-id="3cee6-118">En el campo **Tipo de línea**, escriba la siguiente información.</span><span class="sxs-lookup"><span data-stu-id="3cee6-118">For the **Line Type** field, refer to the following information.</span></span>  
 

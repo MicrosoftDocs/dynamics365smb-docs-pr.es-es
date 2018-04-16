@@ -13,10 +13,10 @@ ms.search.keywords: trade
 ms.date: 03/26/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ea9b4a6310df319df06d02c53b9d6156caaee24f
-ms.openlocfilehash: 7d1e9196e4fa4e24eb01f6a7f6b824e0c4f857ca
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 214edd3973930abf82f0fdf41347efa5f99f7f24
 ms.contentlocale: es-es
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="sell-products"></a><span data-ttu-id="10c01-103">Vender productos</span><span class="sxs-lookup"><span data-stu-id="10c01-103">Sell Products</span></span>
@@ -55,7 +55,7 @@ ms.lasthandoff: 03/28/2018
 7. <span data-ttu-id="10c01-146">Cuando haya finalizado la ficha de cliente, haga clic en el botón **Aceptar** para volver a la ventana **Pedido de venta**.</span><span class="sxs-lookup"><span data-stu-id="10c01-146">When you have completed the customer card, choose the **OK** button to return to the **Sales Order** window.</span></span>
 
     <span data-ttu-id="10c01-147">Muchos campos del pedido de venta se rellenan con la información especificada en la nueva ficha de cliente.</span><span class="sxs-lookup"><span data-stu-id="10c01-147">Several fields on the sales order are now filled with information that you specified on the new customer card.</span></span>
-8. <span data-ttu-id="10c01-148">Rellene los campos restantes de la ventana **Pedido de venta** según sea necesario.</span><span class="sxs-lookup"><span data-stu-id="10c01-148">Fill in the remaining fields in the **Sales Order** window as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+8. <span data-ttu-id="10c01-148">Rellene los campos restantes de la ventana **Pedido de venta** según sea necesario.</span><span class="sxs-lookup"><span data-stu-id="10c01-148">Fill in the remaining fields in the **Sales Order** window as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     <span data-ttu-id="10c01-149">Ya puede rellenar las líneas del pedido de venta con los productos de inventario o los servicios que quiera vender al cliente.</span><span class="sxs-lookup"><span data-stu-id="10c01-149">You are now ready to fill in the sales order lines with inventory items or services that you want to sell to the customer.</span></span>
 
@@ -64,7 +64,7 @@ ms.lasthandoff: 03/28/2018
 10. <span data-ttu-id="10c01-152">En el campo **Cantidad**, escriba el número de productos que se van a vender.</span><span class="sxs-lookup"><span data-stu-id="10c01-152">In the **Quantity** field, enter the number of items to be sold.</span></span>
 
     > [!NOTE]  
->   <span data-ttu-id="10c01-153">Para los producto de tipo Servicio la cantidad es una unidad de tiempo, por ejemplo horas, según se indica en el campo **Cód. unidad medida** en la línea.</span><span class="sxs-lookup"><span data-stu-id="10c01-153">For items of type Service, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.</span></span>
+    >   <span data-ttu-id="10c01-153">Para los producto de tipo Servicio la cantidad es una unidad de tiempo, por ejemplo horas, según se indica en el campo **Cód. unidad medida** en la línea.</span><span class="sxs-lookup"><span data-stu-id="10c01-153">For items of type Service, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.</span></span>
 
     <span data-ttu-id="10c01-154">El campo **Importe línea** se actualiza para mostrar el valor del campo **Precio venta** multiplicado por el valor del campo **Cantidad**.</span><span class="sxs-lookup"><span data-stu-id="10c01-154">The **Line Amount** field is updated to show the value in the **Unit Price** field multiplied by the value in the **Quantity** field.</span></span>
 
@@ -79,12 +79,12 @@ ms.lasthandoff: 03/28/2018
 14. <span data-ttu-id="10c01-163">Una nueva ficha de cliente muestra la información sobre la plantilla de cliente seleccionada.</span><span class="sxs-lookup"><span data-stu-id="10c01-163">A new customer card displays the information on the selected customer template.</span></span> <span data-ttu-id="10c01-164">Rellene el resto de campos.</span><span class="sxs-lookup"><span data-stu-id="10c01-164">Fill in the remaining fields.</span></span> <span data-ttu-id="10c01-165">Para obtener más información, vea [Registrar nuevos clientes](sales-how-register-new-customers.md).</span><span class="sxs-lookup"><span data-stu-id="10c01-165">For more information, see [Register New Customers](sales-how-register-new-customers.md).</span></span>  
 15. <span data-ttu-id="10c01-166">Cuando haya finalizado la ficha de cliente, haga clic en el botón **Aceptar** para volver a la ventana **Pedido de venta**.</span><span class="sxs-lookup"><span data-stu-id="10c01-166">When you have completed the customer card, choose the **OK** button to return to the **Sales Order** window.</span></span>
 
-   <span data-ttu-id="10c01-167">Muchos campos del pedido de venta se rellenan con la información especificada en la nueva ficha de cliente.</span><span class="sxs-lookup"><span data-stu-id="10c01-167">Several fields on the sales Order are now filled with information that you specified on the new customer card.</span></span>  
-16. <span data-ttu-id="10c01-168">Rellene los campos restantes de la ventana **Pedido de venta** según sea necesario.</span><span class="sxs-lookup"><span data-stu-id="10c01-168">Fill in the remaining fields in the **Sales Order** window as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+    <span data-ttu-id="10c01-167">Muchos campos del pedido de venta se rellenan con la información especificada en la nueva ficha de cliente.</span><span class="sxs-lookup"><span data-stu-id="10c01-167">Several fields on the sales Order are now filled with information that you specified on the new customer card.</span></span>  
+16. <span data-ttu-id="10c01-168">Rellene los campos restantes de la ventana **Pedido de venta** según sea necesario.</span><span class="sxs-lookup"><span data-stu-id="10c01-168">Fill in the remaining fields in the **Sales Order** window as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-   <span data-ttu-id="10c01-169">Ahora podrá rellenar las líneas de la factura de pedido de los productos que vende al cliente o para cualquier transacción con el cliente que desee registrar en una cuenta de contabilidad.</span><span class="sxs-lookup"><span data-stu-id="10c01-169">You are now ready to fill in the sales order lines for products that you are selling to the customer or for any transaction with the customer that you want to record in a G/L account.</span></span>   
+    <span data-ttu-id="10c01-169">Ahora podrá rellenar las líneas de la factura de pedido de los productos que vende al cliente o para cualquier transacción con el cliente que desee registrar en una cuenta de contabilidad.</span><span class="sxs-lookup"><span data-stu-id="10c01-169">You are now ready to fill in the sales order lines for products that you are selling to the customer or for any transaction with the customer that you want to record in a G/L account.</span></span>   
 
-   <span data-ttu-id="10c01-170">Si ha configurado líneas de venta periódicas para el cliente, como por ejemplo un pedido de reabastecimiento mensual, puede insertar estas líneas en el pedido seleccionando la acción **Obtener líneas de venta periódicas**.</span><span class="sxs-lookup"><span data-stu-id="10c01-170">If you have set up recurring sales lines for the customer, such as a monthly replenishment order, then you can insert these lines on the order by choosing the **Get Recurring Sales Lines** action.</span></span>  
+    <span data-ttu-id="10c01-170">Si ha configurado líneas de venta periódicas para el cliente, como por ejemplo un pedido de reabastecimiento mensual, puede insertar estas líneas en el pedido seleccionando la acción **Obtener líneas de venta periódicas**.</span><span class="sxs-lookup"><span data-stu-id="10c01-170">If you have set up recurring sales lines for the customer, such as a monthly replenishment order, then you can insert these lines on the order by choosing the **Get Recurring Sales Lines** action.</span></span>  
 17. <span data-ttu-id="10c01-171">En la ficha desplegable **Líneas** del campo **Tipo**, seleccione qué tipo de producto, cargo o transacción registrará para el cliente en la línea de venta.</span><span class="sxs-lookup"><span data-stu-id="10c01-171">On the **Lines** FastTab, in the **Type** field, select what type of product, charge, or transaction that you will post for the customer with the sales line.</span></span>
 18. <span data-ttu-id="10c01-172">En el campo **N.º**,</span><span class="sxs-lookup"><span data-stu-id="10c01-172">In the **No.**</span></span> <span data-ttu-id="10c01-173">seleccione un registro para registrar según el valor del campo **Tipo**.</span><span class="sxs-lookup"><span data-stu-id="10c01-173">field, select a record to post according to the value in the **Type** field.</span></span>
 
@@ -94,7 +94,7 @@ ms.lasthandoff: 03/28/2018
 19. <span data-ttu-id="10c01-180">En el campo **Cantidad**, especifique cuántas unidades de producto, cargo o transacción registrará la línea para el cliente.</span><span class="sxs-lookup"><span data-stu-id="10c01-180">In the **Quantity** field, enter how many units of the product, charge, or transaction that the line will record for the customer.</span></span>  
 
     > [!NOTE]  
->   <span data-ttu-id="10c01-181">Si el producto es de tipo **Producto - Servicio** o **Recurso**, la cantidad es una unidad de tiempo, por ejemplo horas, según se indica en el campo **Cód. unidad medida** en la línea.</span><span class="sxs-lookup"><span data-stu-id="10c01-181">If the item is of type **Item - Service** or **Resource**, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.</span></span> <span data-ttu-id="10c01-182">Para obtener más información, vea [Configurar unidades de medida de producto](inventory-how-setup-units-of-measure.md).</span><span class="sxs-lookup"><span data-stu-id="10c01-182">For more information, see [Set Up Item Units of Measure](inventory-how-setup-units-of-measure.md).</span></span>
+    >   <span data-ttu-id="10c01-181">Si el producto es de tipo **Producto - Servicio** o **Recurso**, la cantidad es una unidad de tiempo, por ejemplo horas, según se indica en el campo **Cód. unidad medida** en la línea.</span><span class="sxs-lookup"><span data-stu-id="10c01-181">If the item is of type **Item - Service** or **Resource**, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.</span></span> <span data-ttu-id="10c01-182">Para obtener más información, vea [Configurar unidades de medida de producto](inventory-how-setup-units-of-measure.md).</span><span class="sxs-lookup"><span data-stu-id="10c01-182">For more information, see [Set Up Item Units of Measure](inventory-how-setup-units-of-measure.md).</span></span>
 
     <span data-ttu-id="10c01-183">El valor del campo **Importe línea** se calculará como *Precio venta* x *Cantidad*.</span><span class="sxs-lookup"><span data-stu-id="10c01-183">The value in the **Line Amount** field is calculated as *Unit Price* x *Quantity*.</span></span>  
 

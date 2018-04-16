@@ -13,10 +13,10 @@ ms.search.keywords: trade, sell, replenishment
 ms.date: 07/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 7c5820db4d8aa65ddeddfd5ee27f0a7e89100abf
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: ecb4bdc57f538a17a0149513cef1be318d131a9b
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a><span data-ttu-id="c638c-103">Crear líneas de ventas y de compras periódicas</span><span class="sxs-lookup"><span data-stu-id="c638c-103">Create Recurring Sales and Purchase Lines</span></span>
@@ -27,7 +27,7 @@ ms.lasthandoff: 03/22/2018
 ## <a name="to-set-up-standard-sales-lines"></a><span data-ttu-id="c638c-107">Para configurar las líneas de ventas estándar</span><span class="sxs-lookup"><span data-stu-id="c638c-107">To set up standard sales lines</span></span>  
 1. <span data-ttu-id="c638c-108">Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Códigos de venta estándar** y, a continuación, seleccione el vínculo relacionado.</span><span class="sxs-lookup"><span data-stu-id="c638c-108">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Standard Sales Codes**, and then choose the related link.</span></span>  
 2. <span data-ttu-id="c638c-109">En la ventana **Líneas ventas estándar**, elija la acción **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="c638c-109">In the **Standard Sales Lines** window, choose the **New** action.</span></span>  
-3. <span data-ttu-id="c638c-110">En la ficha desplegable **General**, rellene los campos como sea necesario.</span><span class="sxs-lookup"><span data-stu-id="c638c-110">On the **General** FastTab, fill the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. <span data-ttu-id="c638c-110">En la ficha desplegable **General**, rellene los campos como sea necesario.</span><span class="sxs-lookup"><span data-stu-id="c638c-110">On the **General** FastTab, fill the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. <span data-ttu-id="c638c-111">En la ficha desplegable **Líneas**, introduzca la información en los campos para preparar líneas de ventas que reflejen las líneas estándar que desea utilizar como líneas recurrentes en los documentos de ventas.</span><span class="sxs-lookup"><span data-stu-id="c638c-111">On the **Lines** FastTab, enter information in the fields to prepare sales lines that reflect the standard lines that you expect to use as recurring lines on sales documents.</span></span>  
 
 ## <a name="to-insert-standard-sales-lines-on-a-sales-invoice"></a><span data-ttu-id="c638c-112">Para insertar líneas de ventas estándar en una factura de ventas</span><span class="sxs-lookup"><span data-stu-id="c638c-112">To insert standard sales lines on a sales invoice</span></span>

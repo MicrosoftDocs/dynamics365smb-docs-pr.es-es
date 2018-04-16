@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 9d4f8d21d0c79adbac238b2d26accc4c08656c77
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: c736ad945453d0723581b9926e2dc50f7805a53f
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="create-service-quotes"></a><span data-ttu-id="9ca98-104">Crear ofertas de servicio</span><span class="sxs-lookup"><span data-stu-id="9ca98-104">Create Service Quotes</span></span>
@@ -30,8 +30,8 @@ ms.lasthandoff: 03/22/2018
 3. <span data-ttu-id="9ca98-112">En el campo **N.º**,</span><span class="sxs-lookup"><span data-stu-id="9ca98-112">In the **No.**</span></span> <span data-ttu-id="9ca98-113">introduzca un número para la oferta de servicio.</span><span class="sxs-lookup"><span data-stu-id="9ca98-113">field, enter a number for the service quote.</span></span> <span data-ttu-id="9ca98-114">Si ha configurado números de serie para ofertas de servicio en la ventana **Config. gestión servicio**, también puede presionar Enter para seleccionar el siguiente número de oferta de servicio disponible.</span><span class="sxs-lookup"><span data-stu-id="9ca98-114">Alternatively, if you have set up a number series for service quotes in the **Service Mgt. Setup** window, you can press Enter to select the next available service quote number.</span></span>  
 4. <span data-ttu-id="9ca98-115">En el campo **Nº cliente**,</span><span class="sxs-lookup"><span data-stu-id="9ca98-115">In the **Customer No.**</span></span>  <span data-ttu-id="9ca98-116">seleccione el cliente pertinente de la lista.</span><span class="sxs-lookup"><span data-stu-id="9ca98-116">field, select the relevant customer from the list.</span></span>  
 
-  > [!Note]  
-  >  <span data-ttu-id="9ca98-117">Los campos del cliente se rellenan automáticamente con información de la pestaña **Cliente**.</span><span class="sxs-lookup"><span data-stu-id="9ca98-117">The customer fields are filled in automatically with information from the **Customer** card.</span></span> <span data-ttu-id="9ca98-118">Si una pestaña **Cliente** no existe para el cliente y ha configurado una plantilla de cliente, podrá crear el cliente que figura en la oferta del servicio.</span><span class="sxs-lookup"><span data-stu-id="9ca98-118">If a **Customer** card does not exist for the customer, and you have set up a customer template, you can create the customer from the service quote.</span></span> <span data-ttu-id="9ca98-119">Rellene los campos relevantes y, a continuación, seleccione la acción **Crear cliente**.</span><span class="sxs-lookup"><span data-stu-id="9ca98-119">Fill in the relevant fields, and then choose the **Create Customer** action.</span></span>  
+   > [!Note]  
+   >  <span data-ttu-id="9ca98-117">Los campos del cliente se rellenan automáticamente con información de la pestaña **Cliente**.</span><span class="sxs-lookup"><span data-stu-id="9ca98-117">The customer fields are filled in automatically with information from the **Customer** card.</span></span> <span data-ttu-id="9ca98-118">Si una pestaña **Cliente** no existe para el cliente y ha configurado una plantilla de cliente, podrá crear el cliente que figura en la oferta del servicio.</span><span class="sxs-lookup"><span data-stu-id="9ca98-118">If a **Customer** card does not exist for the customer, and you have set up a customer template, you can create the customer from the service quote.</span></span> <span data-ttu-id="9ca98-119">Rellene los campos relevantes y, a continuación, seleccione la acción **Crear cliente**.</span><span class="sxs-lookup"><span data-stu-id="9ca98-119">Fill in the relevant fields, and then choose the **Create Customer** action.</span></span>  
   
 5. <span data-ttu-id="9ca98-120">Dependiendo de la configuración de la ficha desplegable **Campos obligatorios** de la ventana **Configurar gestión servicios**, puede que necesite rellenar el campo **Tipo pedido de servicio** y el campo **Código de vendedor**.</span><span class="sxs-lookup"><span data-stu-id="9ca98-120">Depending on the settings on the **Mandatory Fields** FastTab in the **Service Mgt. Setup** window, you may need to fill in the **Service Order Type** field and the **Salesperson Code** field.</span></span>  
 6. <span data-ttu-id="9ca98-121">Rellene las líneas de producto de servicio.</span><span class="sxs-lookup"><span data-stu-id="9ca98-121">Fill in the service item lines.</span></span>  

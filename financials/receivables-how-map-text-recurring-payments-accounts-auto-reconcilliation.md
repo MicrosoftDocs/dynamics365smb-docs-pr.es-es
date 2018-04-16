@@ -13,10 +13,10 @@ ms.search.keywords: account linking, direct payment posting, automatic payment p
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: c5f6f041083e291feca4544f42d43d5ebe3b7e9c
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: b10995edffd00b29615e48a7a87ccf98c9fcbf80
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a><span data-ttu-id="ca8d4-103">Asignar texto en pagos periódicos a cuentas para conciliación automática</span><span class="sxs-lookup"><span data-stu-id="ca8d4-103">Map Text on Recurring Payments to Accounts for Automatic Reconciliation</span></span>
@@ -38,7 +38,7 @@ ms.lasthandoff: 03/22/2018
 4. <span data-ttu-id="ca8d4-120">En el campo **Asignar texto**, introduzca cualquier texto de los pagos que quiera registrar en unas cuentas específicas sin aplicarlo a un movimiento pendiente.</span><span class="sxs-lookup"><span data-stu-id="ca8d4-120">In the **Mapping Text** field, enter any text that occurs on payments that you want to post to specified accounts without applying to an open entry.</span></span> <span data-ttu-id="ca8d4-121">Puede escribir hasta 50 caracteres.</span><span class="sxs-lookup"><span data-stu-id="ca8d4-121">You can enter up to 50 characters.</span></span>
 
     > [!NOTE]  
->   <span data-ttu-id="ca8d4-122">Si no existen otros pagos con la asignación de texto en cuestión, la asignación tendrá lugar incluso cuando solo una parte del texto en el pago exista como texto asignado.</span><span class="sxs-lookup"><span data-stu-id="ca8d4-122">If no other payments exist with the mapping text in question, then the text-to-account mapping will occur even when only a part of the text on the payment exists as a mapping text.</span></span>
+   >   <span data-ttu-id="ca8d4-122">Si no existen otros pagos con la asignación de texto en cuestión, la asignación tendrá lugar incluso cuando solo una parte del texto en el pago exista como texto asignado.</span><span class="sxs-lookup"><span data-stu-id="ca8d4-122">If no other payments exist with the mapping text in question, then the text-to-account mapping will occur even when only a part of the text on the payment exists as a mapping text.</span></span>
 5. <span data-ttu-id="ca8d4-123">En el campo **Nº proveedor**, escriba el proveedor al que se enviarán los pagos.</span><span class="sxs-lookup"><span data-stu-id="ca8d4-123">In the **Vendor No.** field, enter the vendor that the payments will be posted to.</span></span>
 6. <span data-ttu-id="ca8d4-124">En el campo **Tipo origen contr.**, especifique si el pago se contabilizará en una cuenta contable o en una cuenta de cliente o proveedor.</span><span class="sxs-lookup"><span data-stu-id="ca8d4-124">In the **Bal. Source Type** field, specify if the payment will be posted to a general ledger account or to a customer or vendor account.</span></span>
 7. <span data-ttu-id="ca8d4-125">En el campo **N.º origen contr.** especifique la cuenta a la que se contabilizará el pago dependiendo de su elección en el campo **Tipo origen contr.**</span><span class="sxs-lookup"><span data-stu-id="ca8d4-125">In the **Bal. Source No.** field, specify the account that the payment will be posted to, depending on your selection in the **Bal. Source Type** field.</span></span>
@@ -57,7 +57,7 @@ ms.lasthandoff: 03/22/2018
 | --- | --- | --- | --- | --- |
 | <span data-ttu-id="ca8d4-140">Shell</span><span class="sxs-lookup"><span data-stu-id="ca8d4-140">Shell</span></span> |<span data-ttu-id="ca8d4-141">EN BLANCO</span><span class="sxs-lookup"><span data-stu-id="ca8d4-141">BLANK</span></span> |<span data-ttu-id="ca8d4-142">8510</span><span class="sxs-lookup"><span data-stu-id="ca8d4-142">8510</span></span> |<span data-ttu-id="ca8d4-143">Cuenta</span><span class="sxs-lookup"><span data-stu-id="ca8d4-143">G/L Account</span></span> |<span data-ttu-id="ca8d4-144">EN BLANCO</span><span class="sxs-lookup"><span data-stu-id="ca8d4-144">BLANK</span></span> |
 
-> [!TIP]  
+> [!TIP]
 >   <span data-ttu-id="ca8d4-145">Para obtener más información sobre cómo usar campos y columnas, consulte [Trabajar con [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md).</span><span class="sxs-lookup"><span data-stu-id="ca8d4-145">For more information about how to work with fields and columns, see [Working with [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md).</span></span> <span data-ttu-id="ca8d4-146">Para obtener más información sobre la búsqueda de páginas específicas, consulte [Buscar](ui-search.md).</span><span class="sxs-lookup"><span data-stu-id="ca8d4-146">For more information about how to find specific pages, see [Search](ui-search.md).</span></span>
 
 ## <a name="see-also"></a><span data-ttu-id="ca8d4-147">Consulte también</span><span class="sxs-lookup"><span data-stu-id="ca8d4-147">See Also</span></span>

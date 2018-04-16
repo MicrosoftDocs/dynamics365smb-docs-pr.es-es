@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: e667ca56aa22fafc7fe6d0a4880c419a4272db26
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: ea0fd5ad5d2289a20a3648acba9e073a984dab12
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="calculate-bin-replenishment"></a><span data-ttu-id="d75e4-103">Calcular reposición ubicación</span><span class="sxs-lookup"><span data-stu-id="d75e4-103">Calculate Bin Replenishment</span></span>
@@ -38,14 +38,14 @@ ms.lasthandoff: 03/22/2018
 
 <span data-ttu-id="d75e4-122">La próxima vez que calcule la reposición de la ubicación, se volverán a crear las sugerencias que ha eliminado, si siguen siendo válidas en ese momento.</span><span class="sxs-lookup"><span data-stu-id="d75e4-122">The next time you calculate bin replenishment, the suggestions that you have deleted will be recreated, if they are still valid at that time.</span></span>  
 
-> [!NOTE]  
+> [!NOTE]
 >  <span data-ttu-id="d75e4-123">Si un producto cumple las siguientes condiciones:</span><span class="sxs-lookup"><span data-stu-id="d75e4-123">If the following conditions are met for an item:</span></span>  
->   
->  -   <span data-ttu-id="d75e4-124">El producto tiene fecha de caducidad y</span><span class="sxs-lookup"><span data-stu-id="d75e4-124">The item has an expiration date, and</span></span>  
-> -   <span data-ttu-id="d75e4-125">Se selecciona el campo **Picking según FEFO (Primero en caducar, primero en salir)** de la ficha de almacén. y</span><span class="sxs-lookup"><span data-stu-id="d75e4-125">The **Pick According to FEFO** field on the location card is selected, and</span></span>  
-> -   <span data-ttu-id="d75e4-126">Utilice la funcionalidad **Calcular reposición ubicación**</span><span class="sxs-lookup"><span data-stu-id="d75e4-126">You use the **Calculate Bin Replenishment** functionality</span></span>  
->   
->  <span data-ttu-id="d75e4-127">los campos **Desde zona** y **Desde ubicación** estarán en blanco, ya que el algoritmo para calcular desde dónde se van a mover los productos sólo se ejecuta al activar la función **Crear movimiento**.</span><span class="sxs-lookup"><span data-stu-id="d75e4-127">then the **From Zone** and **From Bin** fields will be blank because the algorithm to calculate from where to move the items is triggered only when you activate the **Create Movement** function.</span></span>  
+> 
+> - <span data-ttu-id="d75e4-124">El producto tiene fecha de caducidad y</span><span class="sxs-lookup"><span data-stu-id="d75e4-124">The item has an expiration date, and</span></span>  
+>   -   <span data-ttu-id="d75e4-125">Se selecciona el campo **Picking según FEFO (Primero en caducar, primero en salir)** de la ficha de almacén. y</span><span class="sxs-lookup"><span data-stu-id="d75e4-125">The **Pick According to FEFO** field on the location card is selected, and</span></span>  
+>   -   <span data-ttu-id="d75e4-126">Utilice la funcionalidad **Calcular reposición ubicación**</span><span class="sxs-lookup"><span data-stu-id="d75e4-126">You use the **Calculate Bin Replenishment** functionality</span></span>  
+> 
+>   <span data-ttu-id="d75e4-127">los campos **Desde zona** y **Desde ubicación** estarán en blanco, ya que el algoritmo para calcular desde dónde se van a mover los productos sólo se ejecuta al activar la función **Crear movimiento**.</span><span class="sxs-lookup"><span data-stu-id="d75e4-127">then the **From Zone** and **From Bin** fields will be blank because the algorithm to calculate from where to move the items is triggered only when you activate the **Create Movement** function.</span></span>  
 
 ## <a name="see-also"></a><span data-ttu-id="d75e4-128">Consulte también</span><span class="sxs-lookup"><span data-stu-id="d75e4-128">See Also</span></span>  
 [<span data-ttu-id="d75e4-129">Gestión almacén</span><span class="sxs-lookup"><span data-stu-id="d75e4-129">Warehouse Management</span></span>](warehouse-manage-warehouse.md)  

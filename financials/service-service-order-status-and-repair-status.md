@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 21f4a6fc048688858cad77fb3d306fb39bd5620c
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 3852ca5399a932705216fe6089644838aa56d26b
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="service-order-status-and-repair-status"></a><span data-ttu-id="52477-104">Estado de pedido de servicio y estado de reparación</span><span class="sxs-lookup"><span data-stu-id="52477-104">Service Order Status and Repair Status</span></span>
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/22/2018
 * <span data-ttu-id="52477-110">El estado de pedido de servicio al que está vinculado cada estado de reparación.</span><span class="sxs-lookup"><span data-stu-id="52477-110">The service order status that each repair status is linked to.</span></span> <span data-ttu-id="52477-111">Para obtener más información, consulte Estado ped. servicio.</span><span class="sxs-lookup"><span data-stu-id="52477-111">For more information, see Service Order Status.</span></span>  
 * <span data-ttu-id="52477-112">El nivel de prioridad de cada opción de estado de pedido de servicio.</span><span class="sxs-lookup"><span data-stu-id="52477-112">The level of priority of each service order status option.</span></span> <span data-ttu-id="52477-113">Para obtener más información, consulte Prioridad.</span><span class="sxs-lookup"><span data-stu-id="52477-113">For more information, see Priority.</span></span>  
   
- <span data-ttu-id="52477-114">Cuando se convierte una oferta de servicio en un pedido, cambia el estado de reparación de cada producto de servicio del pedido a **Inicial** y el estado del pedido de servicio cambia a **Pendiente**.</span><span class="sxs-lookup"><span data-stu-id="52477-114">When you convert a service quote to a service order, the repair status of each service item is changed in the order to **Initial** and the service order status is changed to **Pending**.</span></span>  
+  <span data-ttu-id="52477-114">Cuando se convierte una oferta de servicio en un pedido, cambia el estado de reparación de cada producto de servicio del pedido a **Inicial** y el estado del pedido de servicio cambia a **Pendiente**.</span><span class="sxs-lookup"><span data-stu-id="52477-114">When you convert a service quote to a service order, the repair status of each service item is changed in the order to **Initial** and the service order status is changed to **Pending**.</span></span>  
   
 ## <a name="specifying-service-order-status-for-repair-status"></a><span data-ttu-id="52477-115">Especificar el estado de pedido de servicio para el estado de reparación</span><span class="sxs-lookup"><span data-stu-id="52477-115">Specifying Service Order Status for Repair Status</span></span>  
 <span data-ttu-id="52477-116">Cada estado de reparación se encuentra vinculado a un estado de pedido de servicio determinado.</span><span class="sxs-lookup"><span data-stu-id="52477-116">Each repair status is linked to a particular service order status.</span></span> <span data-ttu-id="52477-117">Las opciones de estado del pedido de servicio son: **Pendiente**, **En proceso**, **En espera** y **Terminado**.</span><span class="sxs-lookup"><span data-stu-id="52477-117">The options for the service order status are as follows: **Pending**, **In Process**, **On Hold**, and **Finished**.</span></span> <span data-ttu-id="52477-118">Las opciones de estado de reparación son las siguientes: **Inicial**, **En proceso**, **Remitido**, **Parcialmente servido**, **Oferta terminada**, **Esperando al cliente**, **Componente pedido**, **Componente recibido** y **Terminado**.</span><span class="sxs-lookup"><span data-stu-id="52477-118">The repair status options are as follows: **Initial**, **In Process**, **Referred**, **Partly Serviced**, **Quote Finished**, **Waiting for Customer**, **Spare Part Ordered**, **Spare Part Received**, and **Finished**.</span></span>  

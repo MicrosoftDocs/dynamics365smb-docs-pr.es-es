@@ -13,10 +13,10 @@ ms.search.keywords: bank account transfer, multiple currencies
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: d3bd448ef67f742794e3a162bd828e38366775bb
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: f19fbdd0f0059e62080d0076bdc419712560d4f2
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="transfer-bank-funds"></a><span data-ttu-id="93466-103">Transferir fondos bancarios</span><span class="sxs-lookup"><span data-stu-id="93466-103">Transfer Bank Funds</span></span>
@@ -49,7 +49,7 @@ ms.lasthandoff: 03/22/2018
 12. <span data-ttu-id="93466-133">En el campo **Cta. contrapartida**, seleccione la cuenta desde la que quiere transferir los fondos.</span><span class="sxs-lookup"><span data-stu-id="93466-133">In the **Bal. Account No.** field, select the bank account from which you want to transfer the funds.</span></span>
 
     > [!NOTE]  
->   <span data-ttu-id="93466-134">Si los tipos de cambio usados en el diario son diferentes a los contenidos en la ventana **Tipos de cambio de divisa**, introduzca una tercera línea para las diferencias positivas o negativas del cambio.</span><span class="sxs-lookup"><span data-stu-id="93466-134">If the exchange rates used in the journal are different than the exchange rates in the **Currency Exchange Rates** window, enter a third line for the exchange rate gain or loss.</span></span> <span data-ttu-id="93466-135">Especifique **Cuenta** en el campo **Tipo mov**.</span><span class="sxs-lookup"><span data-stu-id="93466-135">Enter **G/L Account** in the **Account Type** field.</span></span> <span data-ttu-id="93466-136">Especifique el número de cuenta para la pérdida o ganancia de tipo de campo en el campo **Nº cuenta**.</span><span class="sxs-lookup"><span data-stu-id="93466-136">Enter the G/L account number for exchange rate gain or loss in the **Account No.** field.</span></span> <span data-ttu-id="93466-137">Introduzca la diferencia positiva o negativa del tipo de cambio en el campo **Importe** con o sin el signo menos para los créditos y los débitos respectivamente.</span><span class="sxs-lookup"><span data-stu-id="93466-137">Enter the exchange rate gain or loss in the **Amount** field with or without a minus sign for credits and debits respectively.</span></span>
+    >   <span data-ttu-id="93466-134">Si los tipos de cambio usados en el diario son diferentes a los contenidos en la ventana **Tipos de cambio de divisa**, introduzca una tercera línea para las diferencias positivas o negativas del cambio.</span><span class="sxs-lookup"><span data-stu-id="93466-134">If the exchange rates used in the journal are different than the exchange rates in the **Currency Exchange Rates** window, enter a third line for the exchange rate gain or loss.</span></span> <span data-ttu-id="93466-135">Especifique **Cuenta** en el campo **Tipo mov**.</span><span class="sxs-lookup"><span data-stu-id="93466-135">Enter **G/L Account** in the **Account Type** field.</span></span> <span data-ttu-id="93466-136">Especifique el número de cuenta para la pérdida o ganancia de tipo de campo en el campo **Nº cuenta**.</span><span class="sxs-lookup"><span data-stu-id="93466-136">Enter the G/L account number for exchange rate gain or loss in the **Account No.** field.</span></span> <span data-ttu-id="93466-137">Introduzca la diferencia positiva o negativa del tipo de cambio en el campo **Importe** con o sin el signo menos para los créditos y los débitos respectivamente.</span><span class="sxs-lookup"><span data-stu-id="93466-137">Enter the exchange rate gain or loss in the **Amount** field with or without a minus sign for credits and debits respectively.</span></span>
 13. <span data-ttu-id="93466-138">Registre el diario.</span><span class="sxs-lookup"><span data-stu-id="93466-138">Post the journal.</span></span>
 
 ## <a name="see-also"></a><span data-ttu-id="93466-139">Consulte también</span><span class="sxs-lookup"><span data-stu-id="93466-139">See Also</span></span>

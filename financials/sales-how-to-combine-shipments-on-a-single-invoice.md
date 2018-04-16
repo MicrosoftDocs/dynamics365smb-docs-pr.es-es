@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/14/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: c9f2464014f2078f2a86f2e7d8a72873fa4015a8
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 64171b3dd3d165c6204594920a8c0e8a1f852c74
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a><span data-ttu-id="aaf5f-103">Agrupar envíos en una factura única</span><span class="sxs-lookup"><span data-stu-id="aaf5f-103">Combine Shipments on a Single Invoice</span></span>
@@ -31,17 +31,17 @@ ms.lasthandoff: 03/22/2018
 4. <span data-ttu-id="aaf5f-114">En la ficha desplegable **Líneas**, elija la acción **Traer líns. recep**.</span><span class="sxs-lookup"><span data-stu-id="aaf5f-114">On the **Lines** FastTab, choose the **Get Shipment Lines** action.</span></span>  
 5. <span data-ttu-id="aaf5f-115">Seleccione la línea del envío que desee incluir en la factura:</span><span class="sxs-lookup"><span data-stu-id="aaf5f-115">Select the shipment line that you want to include in the invoice:</span></span>  
 
-    - <span data-ttu-id="aaf5f-116">Para insertar todas las líneas, selecciónelas y haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="aaf5f-116">To insert all lines, select all lines and choose the **OK** button.</span></span>  
-    - <span data-ttu-id="aaf5f-117">Para insertar líneas concretas, selecciónelas y haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="aaf5f-117">To insert specific lines, select the lines and choose the **OK** button.</span></span> <span data-ttu-id="aaf5f-118">Puede utilizar la tecla Ctrl para seleccionar varias líneas no secuenciales.</span><span class="sxs-lookup"><span data-stu-id="aaf5f-118">You can use the Ctrl key to select multiple nonsequential lines.</span></span>  
+   - <span data-ttu-id="aaf5f-116">Para insertar todas las líneas, selecciónelas y haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="aaf5f-116">To insert all lines, select all lines and choose the **OK** button.</span></span>  
+   - <span data-ttu-id="aaf5f-117">Para insertar líneas concretas, selecciónelas y haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="aaf5f-117">To insert specific lines, select the lines and choose the **OK** button.</span></span> <span data-ttu-id="aaf5f-118">Puede utilizar la tecla Ctrl para seleccionar varias líneas no secuenciales.</span><span class="sxs-lookup"><span data-stu-id="aaf5f-118">You can use the Ctrl key to select multiple nonsequential lines.</span></span>  
 
-    <span data-ttu-id="aaf5f-119">Si se ha seleccionado una línea de envío incorrecta o desea volver a empezar, sólo tiene que eliminar las líneas de la factura y volver a ejecutar la función **Traer líneas alb. venta**.</span><span class="sxs-lookup"><span data-stu-id="aaf5f-119">If an incorrect shipment line was selected or you want to start over, you can simply delete the lines on the invoice and re-run the **Get Shipment Lines** function.</span></span>  
-7. <span data-ttu-id="aaf5f-120">Para registrar la factura, elija la acción **Registrar**.</span><span class="sxs-lookup"><span data-stu-id="aaf5f-120">To post the invoice, choose the **Post** action.</span></span>  
+     <span data-ttu-id="aaf5f-119">Si se ha seleccionado una línea de envío incorrecta o desea volver a empezar, sólo tiene que eliminar las líneas de la factura y volver a ejecutar la función **Traer líneas alb. venta**.</span><span class="sxs-lookup"><span data-stu-id="aaf5f-119">If an incorrect shipment line was selected or you want to start over, you can simply delete the lines on the invoice and re-run the **Get Shipment Lines** function.</span></span>  
+6. <span data-ttu-id="aaf5f-120">Para registrar la factura, elija la acción **Registrar**.</span><span class="sxs-lookup"><span data-stu-id="aaf5f-120">To post the invoice, choose the **Post** action.</span></span>  
 
 ## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a><span data-ttu-id="aaf5f-121">Para agrupar envíos de forma automática en una factura única</span><span class="sxs-lookup"><span data-stu-id="aaf5f-121">To automatically combine shipments on a single invoice</span></span>  
 1. <span data-ttu-id="aaf5f-122">Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Fact. automática...** y, a continuación, seleccione el vínculo relacionado.</span><span class="sxs-lookup"><span data-stu-id="aaf5f-122">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Combine Shipments**, and then choose the related link.</span></span> <span data-ttu-id="aaf5f-123">Se abre la ventana de solicitud de trabajo por lotes.</span><span class="sxs-lookup"><span data-stu-id="aaf5f-123">The batch job request window opens.</span></span>  
-2. <span data-ttu-id="aaf5f-124">Rellene los campos según sea necesario.</span><span class="sxs-lookup"><span data-stu-id="aaf5f-124">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. <span data-ttu-id="aaf5f-124">Rellene los campos según sea necesario.</span><span class="sxs-lookup"><span data-stu-id="aaf5f-124">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. <span data-ttu-id="aaf5f-125">Seleccione la casilla de verificación **Registrar facturas**.</span><span class="sxs-lookup"><span data-stu-id="aaf5f-125">Select the **Post Invoices** check box.</span></span>  
-4.  <span data-ttu-id="aaf5f-126">Elija el botón **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="aaf5f-126">Choose the **OK** button.</span></span>  
+4. <span data-ttu-id="aaf5f-126">Elija el botón **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="aaf5f-126">Choose the **OK** button.</span></span>  
 
 > [!NOTE]  
 >  <span data-ttu-id="aaf5f-127">Deberá registrar las facturas manualmente si no se ha activado la casilla de verificación **Registrar facturas** en el trabajo por lotes.</span><span class="sxs-lookup"><span data-stu-id="aaf5f-127">You will need to manually post the invoices if the **Post Invoices** check box was not selected on the batch job.</span></span>  

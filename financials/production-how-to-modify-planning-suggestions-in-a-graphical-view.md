@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 9217d8707ab65d231a6759e86f6f2b2866835bb8
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 26e144490fb5b33449643fe67bede8a96bc6079c
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a><span data-ttu-id="fe1fe-104">Modificar las sugerencias de planificación en una vista gráfica</span><span class="sxs-lookup"><span data-stu-id="fe1fe-104">Modify Planning Suggestions in a Graphical View</span></span>
@@ -59,6 +59,7 @@ ms.lasthandoff: 03/22/2018
 <span data-ttu-id="fe1fe-148">Para implementar los cambios del plan de suministro, debe seguir los mensajes de acción resultantes de la hoja de planificación o demanda.</span><span class="sxs-lookup"><span data-stu-id="fe1fe-148">To implement the supply plan changes, you must follow the resulting action messages from the planning or requisition worksheet.</span></span> <span data-ttu-id="fe1fe-149">Para obtener más información, consulte Ejecutar mensajes acción.-Plan..</span><span class="sxs-lookup"><span data-stu-id="fe1fe-149">For more information, see Carry Out Action Msg.-Plan..</span></span>
 
 ## <a name="symbols-and-icons-on-the-timeline-fasttab"></a><span data-ttu-id="fe1fe-150">Símbolos e iconos en la ficha desplegable Escala de tiempo</span><span class="sxs-lookup"><span data-stu-id="fe1fe-150">Symbols and Icons on the Timeline FastTab</span></span>
+
  |<span data-ttu-id="fe1fe-151">Símbolo/icono</span><span class="sxs-lookup"><span data-stu-id="fe1fe-151">Symbol/Icon</span></span>|<span data-ttu-id="fe1fe-152">Descripción</span><span class="sxs-lookup"><span data-stu-id="fe1fe-152">Description</span></span>|  
  |------------------|---------------------------------------|  
  |<span data-ttu-id="fe1fe-153">Cruz negra</span><span class="sxs-lookup"><span data-stu-id="fe1fe-153">Black cross</span></span>|<span data-ttu-id="fe1fe-154">Pedidos (aprovisionamiento y demanda).</span><span class="sxs-lookup"><span data-stu-id="fe1fe-154">Orders (both supply and demand).</span></span><br /><br /> <span data-ttu-id="fe1fe-155">-   No puede modificar.</span><span class="sxs-lookup"><span data-stu-id="fe1fe-155">-   Cannot be modified.</span></span><br /><span data-ttu-id="fe1fe-156">- Visible cuando está seleccionado el campo **Mostrar inventario proyectado** (gráfico anaranjado).</span><span class="sxs-lookup"><span data-stu-id="fe1fe-156">-   Visible when the **Show Projected Inventory** field is selected (orange graph).</span></span>|  

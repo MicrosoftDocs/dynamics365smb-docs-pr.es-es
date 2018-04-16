@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: ff4318d9da902847166ac5747adf469584a3d2a2
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: c60084194191f958c3eac501141a52c6b32595b1
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="create-sales-opportunities"></a><span data-ttu-id="a0c0c-103">Crear oportunidades de ventas</span><span class="sxs-lookup"><span data-stu-id="a0c0c-103">Create Sales Opportunities</span></span>
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/22/2018
 1. <span data-ttu-id="a0c0c-111">Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Vendedores** y, a continuación, seleccione el vínculo relacionado.</span><span class="sxs-lookup"><span data-stu-id="a0c0c-111">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Salespeople**, and then choose the related link.</span></span>
 2. <span data-ttu-id="a0c0c-112">Seleccione el vendedor de la lista para el que desea crear una oportunidad.</span><span class="sxs-lookup"><span data-stu-id="a0c0c-112">Select the salesperson from the list for whom you want to create an opportunity.</span></span>
 3. <span data-ttu-id="a0c0c-113">Elija la acción **Oportunidades** y, a continuación, elija **Lista**.</span><span class="sxs-lookup"><span data-stu-id="a0c0c-113">Choose the **Opportunities** action, and then choose **List**.</span></span>
-4. <span data-ttu-id="a0c0c-114">Elija **Nuevo** y, a continuación, rellene los campos según sea pertinente.</span><span class="sxs-lookup"><span data-stu-id="a0c0c-114">Choose **New**, and then fill in the fields as relevant.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+4. <span data-ttu-id="a0c0c-114">Elija **Nuevo** y, a continuación, rellene los campos según sea pertinente.</span><span class="sxs-lookup"><span data-stu-id="a0c0c-114">Choose **New**, and then fill in the fields as relevant.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 
 

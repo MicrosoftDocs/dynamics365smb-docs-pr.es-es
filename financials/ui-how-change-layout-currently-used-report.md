@@ -13,10 +13,10 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 03/29/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 0cf867dc453b01b074010ee47c7c4c6560195361
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: adbae31d6c9b601f4a484b8ea8bacecf0179a408
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="change-which-layout-is-currently-used-on-a-report"></a><span data-ttu-id="ed60b-103">Cambiar el diseño que se usa actualmente en un informe</span><span class="sxs-lookup"><span data-stu-id="ed60b-103">Change Which Layout is Currently Used on a Report</span></span>
@@ -34,8 +34,8 @@ ms.lasthandoff: 03/22/2018
    * <span data-ttu-id="ed60b-115">Custom, usa un diseño personalizado en el informe.</span><span class="sxs-lookup"><span data-stu-id="ed60b-115">Custom, uses a custom layout on the report.</span></span>  
      <span data-ttu-id="ed60b-116">Puede ver qué diseños personalizados estarán disponibles para el informe en el cuadro informativo Parte de diseños de informe.</span><span class="sxs-lookup"><span data-stu-id="ed60b-116">You can see which custom layouts are available for the report in the Report Layouts Part FactBox.</span></span> <span data-ttu-id="ed60b-117">Si no hay diseños personalizados para el informe, deberá crear uno primero.</span><span class="sxs-lookup"><span data-stu-id="ed60b-117">If there are no custom layouts for the report, then you will have to create one first.</span></span> <span data-ttu-id="ed60b-118">Si elige esta opción, vaya al procedimiento siguiente para especificar el diseño personalizado que desea usar.</span><span class="sxs-lookup"><span data-stu-id="ed60b-118">If you choose this option, go to the next procedure to specify the custom layout that you want to use.</span></span>
 
-    > [!NOTE]  
-    >   <span data-ttu-id="ed60b-119">Si elige **RDLC (integrado)** o **Word (integrado)** y recibe un mensaje de error en el que se indica que el informe no tiene un diseño del tipo especificado, debe elegir otra opción de diseño o crear un diseño de informe personalizado del tipo que desea usar.</span><span class="sxs-lookup"><span data-stu-id="ed60b-119">If you choose **RDLC (built-in)** or **Word (built-in)** and you get an error message that the report does not have a layout of the specified type, then you must choose another layout option or create a custom report layout of the type that you want to use.</span></span>
+     > [!NOTE]  
+     >   <span data-ttu-id="ed60b-119">Si elige **RDLC (integrado)** o **Word (integrado)** y recibe un mensaje de error en el que se indica que el informe no tiene un diseño del tipo especificado, debe elegir otra opción de diseño o crear un diseño de informe personalizado del tipo que desea usar.</span><span class="sxs-lookup"><span data-stu-id="ed60b-119">If you choose **RDLC (built-in)** or **Word (built-in)** and you get an error message that the report does not have a layout of the specified type, then you must choose another layout option or create a custom report layout of the type that you want to use.</span></span>
 
 <span data-ttu-id="ed60b-120">Si ha seleccionado un diseño de informe de RDLC o de Word, no se requiere ninguna otra acción y el diseño se utilizará la próxima vez que se ejecute el informe.</span><span class="sxs-lookup"><span data-stu-id="ed60b-120">If you selected a built-in RDLC or Word report layout, then no further action is required and the layout will be used the next time the report is run.</span></span>
 

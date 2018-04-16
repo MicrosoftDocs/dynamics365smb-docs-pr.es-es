@@ -13,10 +13,10 @@ ms.search.keywords: project invoice
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 4c00ce50f70cbae3ad0557f0703e80f6b115995a
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: b830629d80b4bef9bbcd581336b20cfa397f83ad
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="invoice-jobs"></a><span data-ttu-id="3c14a-103">Facturar proyectos</span><span class="sxs-lookup"><span data-stu-id="3c14a-103">Invoice Jobs</span></span>
@@ -33,7 +33,7 @@ ms.lasthandoff: 03/22/2018
 <span data-ttu-id="3c14a-113">En la ventana **Proyectos** puede facturar a un cliente seleccionando el proyecto y eligiendo la acción **Crear factura venta proyecto**.</span><span class="sxs-lookup"><span data-stu-id="3c14a-113">From the **Jobs** window, you can invoice a customer by selecting the job, and then choosing the **Create Job Sales Invoice** action.</span></span> <span data-ttu-id="3c14a-114">El siguiente procedimiento muestra cómo utilizar un proceso para facturar varios proyectos.</span><span class="sxs-lookup"><span data-stu-id="3c14a-114">The following procedure shows how to use a batch job to invoice multiple jobs.</span></span>  
 
 1. <span data-ttu-id="3c14a-115">Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Crear factura venta proyecto** y, a continuación, elija el vínculo relacionado.</span><span class="sxs-lookup"><span data-stu-id="3c14a-115">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Create Sales Invoice**, and then choose the related link.</span></span>  
-2. <span data-ttu-id="3c14a-116">Rellene los campos según sea necesario.</span><span class="sxs-lookup"><span data-stu-id="3c14a-116">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. <span data-ttu-id="3c14a-116">Rellene los campos según sea necesario.</span><span class="sxs-lookup"><span data-stu-id="3c14a-116">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. <span data-ttu-id="3c14a-117">Seleccione filtros si desea limitar los proyectos que el proceso va a procesar.</span><span class="sxs-lookup"><span data-stu-id="3c14a-117">Set filters if you want to limit the jobs that the batch job will process.</span></span>
 4. <span data-ttu-id="3c14a-118">Elija el botón **Aceptar** para crear las facturas.</span><span class="sxs-lookup"><span data-stu-id="3c14a-118">Choose the **OK** button to create the invoices.</span></span>  
 

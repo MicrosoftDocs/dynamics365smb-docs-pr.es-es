@@ -13,10 +13,10 @@ ms.search.keywords: incoming document
 ms.date: 07/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: abeb3ee24434ca3549e7ed88ecfae54cc395002d
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 446357ae219555e402fd30962071ec23c08b552d
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="manage-the-intercompany-inbox-and-outbox"></a><span data-ttu-id="76cab-103">Administrar la bandeja de entrada y la bandeja de salida de empresas vinculadas</span><span class="sxs-lookup"><span data-stu-id="76cab-103">Manage the Intercompany Inbox and Outbox</span></span>
@@ -69,7 +69,7 @@ ms.lasthandoff: 03/22/2018
 
 1. <span data-ttu-id="76cab-142">Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Transacciones de bandeja de entrada entre empresas vinculadas** y, a continuación, seleccione el vínculo relacionado.</span><span class="sxs-lookup"><span data-stu-id="76cab-142">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intercompany Inbox Transactions**, and then choose the related link.</span></span>  
 2. <span data-ttu-id="76cab-143">En la ventana **Transacciones de bandeja de entrada entre empresas vinculadas**, seleccione una línea y, a continuación, elija una acción, como **Aceptar**, para procesar la línea.</span><span class="sxs-lookup"><span data-stu-id="76cab-143">In the **Intercompany Inbox Transactions** window, select a line, and then choose an action, such as **Accept**, to process the line.</span></span>
-3. <span data-ttu-id="76cab-144">En la ventana **Completa acc. band. entrada IC**, rellene los campos según sea necesario.</span><span class="sxs-lookup"><span data-stu-id="76cab-144">In the **Complete IC Inbox Action** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. <span data-ttu-id="76cab-144">En la ventana **Completa acc. band. entrada IC**, rellene los campos según sea necesario.</span><span class="sxs-lookup"><span data-stu-id="76cab-144">In the **Complete IC Inbox Action** window, fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. <span data-ttu-id="76cab-145">Elija el botón **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="76cab-145">Choose the **OK** button.</span></span>  
 
 <span data-ttu-id="76cab-146">Para las líneas procesadas con la acción **Aceptar**, se crearán líneas de diario o documentos en su empresa.</span><span class="sxs-lookup"><span data-stu-id="76cab-146">For lines that you processed with the **Accept** action, document or journal lines will be created in your company.</span></span> <span data-ttu-id="76cab-147">Abra cada documento o diario, haga los cambios necesarios y regístrelos.</span><span class="sxs-lookup"><span data-stu-id="76cab-147">Open each document or journal, make any necessary changes, and then post them.</span></span>  

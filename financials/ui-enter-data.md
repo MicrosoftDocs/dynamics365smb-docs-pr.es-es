@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/19/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: 5f95efb5cad24db9848752035172bc7bb76db716
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: ae8ef874abd6ca3b307dcbfdb3f4700b49e6680e
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="entering-data"></a><span data-ttu-id="8fd0b-104">Introducción de datos</span><span class="sxs-lookup"><span data-stu-id="8fd0b-104">Entering Data</span></span>
@@ -75,14 +75,14 @@ ms.lasthandoff: 03/22/2018
 # <a name="entering-negative-numbers"></a><span data-ttu-id="8fd0b-130">Especificación de números negativos</span><span class="sxs-lookup"><span data-stu-id="8fd0b-130">Entering Negative Numbers</span></span>
 <span data-ttu-id="8fd0b-131">Puede especificar números negativos de dos formas.</span><span class="sxs-lookup"><span data-stu-id="8fd0b-131">You can enter negative numbers in two ways.</span></span> <span data-ttu-id="8fd0b-132">El número -20,5 se puede especificar como:</span><span class="sxs-lookup"><span data-stu-id="8fd0b-132">The number -20.5 can be entered as:</span></span>  
 
--   <span data-ttu-id="8fd0b-133">-20,5</span><span class="sxs-lookup"><span data-stu-id="8fd0b-133">-20.5</span></span>  
+- <span data-ttu-id="8fd0b-133">-20,5</span><span class="sxs-lookup"><span data-stu-id="8fd0b-133">-20.5</span></span>  
 
-    <span data-ttu-id="8fd0b-134">O</span><span class="sxs-lookup"><span data-stu-id="8fd0b-134">or</span></span>
--   <span data-ttu-id="8fd0b-135">20,5-</span><span class="sxs-lookup"><span data-stu-id="8fd0b-135">20.5-</span></span>  
+  <span data-ttu-id="8fd0b-134">O</span><span class="sxs-lookup"><span data-stu-id="8fd0b-134">or</span></span>
+- <span data-ttu-id="8fd0b-135">20,5-</span><span class="sxs-lookup"><span data-stu-id="8fd0b-135">20.5-</span></span>  
 
- <span data-ttu-id="8fd0b-136">En ambos casos, el importe se registrará como -20,5.</span><span class="sxs-lookup"><span data-stu-id="8fd0b-136">In both cases, the amount will be recorded in as -20.5.</span></span>  
+  <span data-ttu-id="8fd0b-136">En ambos casos, el importe se registrará como -20,5.</span><span class="sxs-lookup"><span data-stu-id="8fd0b-136">In both cases, the amount will be recorded in as -20.5.</span></span>  
 
- <span data-ttu-id="8fd0b-137">Si el último carácter de la expresión es **+** o **-**, la expresión completa se registrará con ese signo.</span><span class="sxs-lookup"><span data-stu-id="8fd0b-137">If the last character of the expression is a **+** or a **-**, the entire expression will be recorded with that sign.</span></span> <span data-ttu-id="8fd0b-138">Ejemplo, **10-20+** dará como resultado 10 y no -10.</span><span class="sxs-lookup"><span data-stu-id="8fd0b-138">An example, **10-20+** will result in 10 and not -10.</span></span>  
+  <span data-ttu-id="8fd0b-137">Si el último carácter de la expresión es **+** o **-**, la expresión completa se registrará con ese signo.</span><span class="sxs-lookup"><span data-stu-id="8fd0b-137">If the last character of the expression is a **+** or a **-**, the entire expression will be recorded with that sign.</span></span> <span data-ttu-id="8fd0b-138">Ejemplo, **10-20+** dará como resultado 10 y no -10.</span><span class="sxs-lookup"><span data-stu-id="8fd0b-138">An example, **10-20+** will result in 10 and not -10.</span></span>  
 
 ## <a name="entering-dates-and-times"></a><span data-ttu-id="8fd0b-139">Introducir fechas y horas</span><span class="sxs-lookup"><span data-stu-id="8fd0b-139">Entering Dates and Times</span></span>
 <span data-ttu-id="8fd0b-140">Puede especificar fechas y horas en todos los campos diseñados específicamente para las fechas (campos de fecha).</span><span class="sxs-lookup"><span data-stu-id="8fd0b-140">You can enter dates and times in all the fields that are specifically assigned to dates (date fields).</span></span> <span data-ttu-id="8fd0b-141">Las fechas pueden escribirse con o sin separadores.</span><span class="sxs-lookup"><span data-stu-id="8fd0b-141">You can enter dates with or without separators.</span></span>
@@ -93,15 +93,15 @@ ms.lasthandoff: 03/22/2018
 ### <a name="entering-dates"></a><span data-ttu-id="8fd0b-144">Introducción de fechas</span><span class="sxs-lookup"><span data-stu-id="8fd0b-144">Entering Dates</span></span>  
  <span data-ttu-id="8fd0b-145">En un campo de fecha, puede introducir dos, cuatro, seis u ocho dígitos:</span><span class="sxs-lookup"><span data-stu-id="8fd0b-145">In a date field you can enter two, four, six, or eight digits:</span></span>  
 
--   <span data-ttu-id="8fd0b-146">Si introduce solo dos dígitos, se interpretarán como el día y se agregarán el mes y el año de la fecha de trabajo.</span><span class="sxs-lookup"><span data-stu-id="8fd0b-146">If you enter only two digits, this is interpreted as the day, and it will add the month and the year of the work date.</span></span>  
+- <span data-ttu-id="8fd0b-146">Si introduce solo dos dígitos, se interpretarán como el día y se agregarán el mes y el año de la fecha de trabajo.</span><span class="sxs-lookup"><span data-stu-id="8fd0b-146">If you enter only two digits, this is interpreted as the day, and it will add the month and the year of the work date.</span></span>  
 
--   <span data-ttu-id="8fd0b-147">Si introduce cuatro dígitos, se interpretarán como el día y el mes, y agregará el año de la fecha de trabajo.</span><span class="sxs-lookup"><span data-stu-id="8fd0b-147">If you enter four digits, this is interpreted as the day and the month, and it will add the year of the work date.</span></span>  
+- <span data-ttu-id="8fd0b-147">Si introduce cuatro dígitos, se interpretarán como el día y el mes, y agregará el año de la fecha de trabajo.</span><span class="sxs-lookup"><span data-stu-id="8fd0b-147">If you enter four digits, this is interpreted as the day and the month, and it will add the year of the work date.</span></span>  
 
--   <span data-ttu-id="8fd0b-148">Si la fecha que desea introducir está en el rango comprendido entre el 01/01/1930 y el 31/12/2029, puede introducir el año con dos dígitos; en caso contrario, introduzca el año mediante cuatro dígitos.</span><span class="sxs-lookup"><span data-stu-id="8fd0b-148">If the date you want to enter is in the range 01/01/1930 through 12/31/2029, you can enter the year with two digits; otherwise, enter the year with four digits.</span></span>  
+- <span data-ttu-id="8fd0b-148">Si la fecha que desea introducir está en el rango comprendido entre el 01/01/1930 y el 31/12/2029, puede introducir el año con dos dígitos; en caso contrario, introduzca el año mediante cuatro dígitos.</span><span class="sxs-lookup"><span data-stu-id="8fd0b-148">If the date you want to enter is in the range 01/01/1930 through 12/31/2029, you can enter the year with two digits; otherwise, enter the year with four digits.</span></span>  
 
- <span data-ttu-id="8fd0b-149">También es posible introducir una fecha como un día de la semana, seguido de un número de la semana y, opcionalmente, un año (por ejemplo, Lun25 o lun25 significa lunes de la semana 25).</span><span class="sxs-lookup"><span data-stu-id="8fd0b-149">You can also enter a date as a weekday followed by a week number and, optionally, a year (for example, Mon25 or mon25 means Monday in week 25).</span></span>  
+  <span data-ttu-id="8fd0b-149">También es posible introducir una fecha como un día de la semana, seguido de un número de la semana y, opcionalmente, un año (por ejemplo, Lun25 o lun25 significa lunes de la semana 25).</span><span class="sxs-lookup"><span data-stu-id="8fd0b-149">You can also enter a date as a weekday followed by a week number and, optionally, a year (for example, Mon25 or mon25 means Monday in week 25).</span></span>  
 
- <span data-ttu-id="8fd0b-150">En lugar de introducir una fecha específica, puede introducir uno de dos códigos.</span><span class="sxs-lookup"><span data-stu-id="8fd0b-150">Instead of entering a specific date, you can enter one of two codes.</span></span>  
+  <span data-ttu-id="8fd0b-150">En lugar de introducir una fecha específica, puede introducir uno de dos códigos.</span><span class="sxs-lookup"><span data-stu-id="8fd0b-150">Instead of entering a specific date, you can enter one of two codes.</span></span>  
 
 |<span data-ttu-id="8fd0b-151">Código</span><span class="sxs-lookup"><span data-stu-id="8fd0b-151">Code</span></span>|<span data-ttu-id="8fd0b-152">Resultado</span><span class="sxs-lookup"><span data-stu-id="8fd0b-152">Result</span></span>|  
 |--------------|----------------|  
@@ -202,13 +202,13 @@ ms.lasthandoff: 03/22/2018
 
  <span data-ttu-id="8fd0b-252">A continuación se incluye algunos ejemplos de cómo se pueden usar las fórmulas de fechas:</span><span class="sxs-lookup"><span data-stu-id="8fd0b-252">Here are some examples of how date formulas can be used:</span></span>  
 
--   <span data-ttu-id="8fd0b-253">La fórmula de fecha del campo de frecuencia periódica en los diarios periódicos determina con qué frecuencia se registrará el movimiento de la línea de diario.</span><span class="sxs-lookup"><span data-stu-id="8fd0b-253">The date formula in the recurring frequency field in recurring journals determines how often the entry on the journal line will be posted.</span></span>  
+- <span data-ttu-id="8fd0b-253">La fórmula de fecha del campo de frecuencia periódica en los diarios periódicos determina con qué frecuencia se registrará el movimiento de la línea de diario.</span><span class="sxs-lookup"><span data-stu-id="8fd0b-253">The date formula in the recurring frequency field in recurring journals determines how often the entry on the journal line will be posted.</span></span>  
 
--   <span data-ttu-id="8fd0b-254">La fórmula de fecha del campo Periodo gracia para un determinado nivel de recordatorio determina el periodo de tiempo que debe transcurrir, desde la fecha de vencimiento (o desde la fecha del recordatorio anterior), antes de que se cree un recordatorio.</span><span class="sxs-lookup"><span data-stu-id="8fd0b-254">The date formula in the Grace Period field for a specified reminder level determines the period of time that must pass from the due date (or from the date of the previous reminder) before a reminder will be created.</span></span>  
+- <span data-ttu-id="8fd0b-254">La fórmula de fecha del campo Periodo gracia para un determinado nivel de recordatorio determina el periodo de tiempo que debe transcurrir, desde la fecha de vencimiento (o desde la fecha del recordatorio anterior), antes de que se cree un recordatorio.</span><span class="sxs-lookup"><span data-stu-id="8fd0b-254">The date formula in the Grace Period field for a specified reminder level determines the period of time that must pass from the due date (or from the date of the previous reminder) before a reminder will be created.</span></span>  
 
--   <span data-ttu-id="8fd0b-255">La fórmula de fechas del campo Cálculo de fecha de vencimiento determina cómo calcular la fecha de vencimiento en el recordatorio.</span><span class="sxs-lookup"><span data-stu-id="8fd0b-255">The date formula in the Due Date Calculation field determines how to calculate the due date on the reminder.</span></span>  
+- <span data-ttu-id="8fd0b-255">La fórmula de fechas del campo Cálculo de fecha de vencimiento determina cómo calcular la fecha de vencimiento en el recordatorio.</span><span class="sxs-lookup"><span data-stu-id="8fd0b-255">The date formula in the Due Date Calculation field determines how to calculate the due date on the reminder.</span></span>  
 
- <span data-ttu-id="8fd0b-256">La fórmula para el cálculo de fechas puede contener un máximo de 20 caracteres, números y letras.</span><span class="sxs-lookup"><span data-stu-id="8fd0b-256">The date calculation formula can contain a maximum of 20 characters, both numbers and letters.</span></span> <span data-ttu-id="8fd0b-257">Puede usar las siguientes letras, que son abreviaturas para especificaciones de tiempo.</span><span class="sxs-lookup"><span data-stu-id="8fd0b-257">You can use the following letters, which are abbreviations for time specifications.</span></span>  
+  <span data-ttu-id="8fd0b-256">La fórmula para el cálculo de fechas puede contener un máximo de 20 caracteres, números y letras.</span><span class="sxs-lookup"><span data-stu-id="8fd0b-256">The date calculation formula can contain a maximum of 20 characters, both numbers and letters.</span></span> <span data-ttu-id="8fd0b-257">Puede usar las siguientes letras, que son abreviaturas para especificaciones de tiempo.</span><span class="sxs-lookup"><span data-stu-id="8fd0b-257">You can use the following letters, which are abbreviations for time specifications.</span></span>  
 
 |||  
 |-|-|  

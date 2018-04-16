@@ -13,10 +13,10 @@ ms.search.keywords: forecast
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: aba6d1c433d20c5d2da1234df06503ca97cac061
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 0c798fca44d9c57e38e5bb3f930e773d12b69636
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="manage-budgets-for-fixed-assets"></a><span data-ttu-id="55923-103">Gestionar presupuestos de los activos fijos</span><span class="sxs-lookup"><span data-stu-id="55923-103">Manage Budgets for Fixed Assets</span></span>
@@ -39,7 +39,7 @@ ms.lasthandoff: 03/22/2018
 
 1. <span data-ttu-id="55923-122">Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Activos fijos** y, a continuación, seleccione el vínculo relacionado.</span><span class="sxs-lookup"><span data-stu-id="55923-122">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Fixed Assets**, and then choose the related link.</span></span>
 2. <span data-ttu-id="55923-123">Seleccione el activo que desee dar de baja o vender y, a continuación, elija la acción **Libros amortización**.</span><span class="sxs-lookup"><span data-stu-id="55923-123">Select the fixed asset to be disposed of, and then choose the **Depreciation Books** action.</span></span>
-3. <span data-ttu-id="55923-124">En la ventana **Libros amortización A/F**, rellene los campos **Fecha prevista venta/baja** y **Ingresos previstos venta/baja**.</span><span class="sxs-lookup"><span data-stu-id="55923-124">In the **FA Depreciation Books** window, fill in the **Projected Disposal Date** and **Projected Proceeds on Disposal** fields.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. <span data-ttu-id="55923-124">En la ventana **Libros amortización A/F**, rellene los campos **Fecha prevista venta/baja** y **Ingresos previstos venta/baja**.</span><span class="sxs-lookup"><span data-stu-id="55923-124">In the **FA Depreciation Books** window, fill in the **Projected Disposal Date** and **Projected Proceeds on Disposal** fields.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-view-projected-disposal-values"></a><span data-ttu-id="55923-125">Para ver valores venta/baja previstos</span><span class="sxs-lookup"><span data-stu-id="55923-125">To view projected disposal values</span></span>
 <span data-ttu-id="55923-126">Para ver los valores venta/baja previstos y que se calculen las ganancias y pérdidas, puede usar el informe **Proyección de la amortización A/F**.</span><span class="sxs-lookup"><span data-stu-id="55923-126">To see the projected disposal values and have the gain and loss calculated, you can use the **FA Projected Value** report.</span></span>
