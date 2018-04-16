@@ -28,12 +28,12 @@ Cuando se realiza un servicio habitual, a menudo es necesario crear documentos d
   
 ## <a name="to-set-up-a-standard-service-code"></a>Para configurar un código de servicio estándar    
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Códigos de servicio estándar** y, a continuación, seleccione el vínculo relacionado.  
-2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-4. Rellene las líneas de servicio vinculadas a este código de servicio.  
+2. Rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. Rellene las líneas de servicio vinculadas a este código de servicio.  
 
 ## <a name="to-assign-a-standard-service-code-to-a-service-item-group"></a>Para asignar un código de servicio estándar a un grupo de productos de servicio
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Grupos producto servicio** y, a continuación, seleccione el vínculo relacionado.  
-2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Rellene las líneas de servicio vinculadas a este código de servicio.  
 
 ## <a name="see-also"></a>Consulte también

@@ -72,7 +72,7 @@ Una vez registrado el envío de almacén, los distintos campos de la línea de p
 
 > [!NOTE]
 > En escenarios de combinación, en los que una parte de la cantidad debe ensamblarse primero y la otra se debe enviar desde el inventario, se crean dos líneas de envío de almacén. Uno es para la cantidad de ensamblar para pedido y otro es para la cantidad de existencias.
-
+> 
 > En ese caso, la cantidad de ensamblar para pedido se controla tal como se describe en este tema, y la cantidad de existencias se controla como cualquier otra línea de envío normal de almacén. Para obtener más información sobre los escenarios de combinación, consulte [Comprender Ensamblar para pedido y Ensamblar para stock](assembly-assemble-to-order-or-assemble-to-stock.md).
 
 ## <a name="see-also"></a>Consulte también  

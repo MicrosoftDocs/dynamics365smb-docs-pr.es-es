@@ -23,10 +23,10 @@ ms.lasthandoff: 03/22/2018
 La forma más eficaz de crear las ubicaciones del almacén es generar grupos de ubicaciones similares en la hoja de trabajo de creación de ubicación, pero también puede crear las ubicaciones individualmente desde la ficha de almacén. También puede utilizar una función en la ventana **Hoja trab. creación ubicación** para crear las ubicaciones automáticamente.  
 
 ## <a name="to-create-a-bin-from-the-location-card"></a>Para crear una ubicación desde la ficha de almacén  
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Almacenes** y seleccione el vínculo relacionado.  
-2.  Seleccione la ubicación para la que desee crear una ubicación y elija la acción **Ubicaciones**.  
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Almacenes** y seleccione el vínculo relacionado.  
+2. Seleccione la ubicación para la que desee crear una ubicación y elija la acción **Ubicaciones**.  
 3. Seleccione la acción **Nuevo**.
-4. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+4. Rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-create-bins-individually-in-the-bin-creation-worksheet"></a>Para crear las ubicaciones individualmente en la hoja de trabajo de creación de ubicación  
 1.  Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Hoja trab. creación ubicación** y, a continuación, seleccione el vínculo relacionado.  

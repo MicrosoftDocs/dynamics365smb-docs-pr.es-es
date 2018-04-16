@@ -34,7 +34,7 @@ En los procedimientos siguientes se describe cómo registrar precios y costes de
 
     El campo **Cantidad pendiente** muestra la cantidad que queda para completar el proyecto y transferirse al diario.  
 5. Elija la acción **Crear líneas de diario de proyectos**.
-6. En la ventana **Línea planificación proyecto transf. proy.**, rellene los campos según sea necesario y, a continuación, elija el botón **Aceptar**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+6. En la ventana **Línea planificación proyecto transf. proy.**, rellene los campos según sea necesario y, a continuación, elija el botón **Aceptar**. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. Seleccione la acción **Diario de proyectos pendientes**.  
 8. En la ventana **Diario de proyectos**, seleccione la línea relevante y, a continuación, elija la acción **Registrar**.
 9. En la ventana **Líneas planificación proyecto**, revise el uso registrado mediante la consulta de los campos **Cantidad**, **Cantidad pendiente** y **Cdad. a transferir al diario**.  

@@ -36,7 +36,7 @@ Antes de que pueda registrar nuevos clientes, debe configurar varios códigos de
     Si existe más de una plantilla de cliente, se abre una ventana desde la que puede seleccionar una plantilla de cliente. En ese caso, siga los dos pasos siguientes.
 3. En la ventana **Seleccionar una plantilla para un cliente nuevo**, seleccione la plantilla que quiere usar para la nueva ficha de cliente.
 4. Elija el botón **Aceptar**. Una nueva ficha de cliente se abre con algunos campos completados con la información de la plantilla.  
-5. Empiece a rellenar o cambiar campos en la ficha de cliente según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+5. Empiece a rellenar o cambiar campos en la ficha de cliente según sea necesario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 En la ficha desplegable **Precios venta y descuentos línea ventas**, puede observar los precios especiales o los descuentos que concede al cliente si se cumplen determinados criterios, como, por ejemplo, el producto, la cantidad de pedido mínima o la fecha final. Cada fila representa un precio especial o un descuento de línea. Cada columna representa un criterio aplicable para autorizar el precio especial que se introduzca en el campo **Precio de venta**, o el descuento de línea que se introduzca en el campo **% Descuento línea**. Para más información, vea [Registrar acuerdos de pago, descuentos y precios de venta](sales-how-record-sales-price-discount-payment-agreements.md).
 
@@ -46,7 +46,7 @@ Si desea usar esta ficha de cliente como plantilla cuando cree nuevas fichas de 
 
 ## <a name="to-save-the-customer-card-as-a-template"></a>Para guardar la ficha de cliente como una plantilla
 1. En la ventana **Ficha de cliente**, seleccione la acción **Guardar como plantilla**. La ventana **Plantilla cliente** se abre mostrando la ficha de cliente como plantilla.
-2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Para volver a usar dimensiones en las plantillas, seleccione la acción **Dimensiones**. La ventana **Plantilla de dimensiones** se abre mostrando los códigos de dimensión configurados para el cliente.
 4. Modifique o introduzca los códigos de dimensión que se aplicarán a nuevas fichas de cliente creadas con la plantilla.  
 5. Cuando haya finalizado la nueva plantilla de cliente, seleccione el botón de **Aceptar**.

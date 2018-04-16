@@ -38,22 +38,22 @@ Si no se producen errores, las actualizaciones se aplican a los diseños de info
 
 ## <a name="to-test-custom-report-layout-updates"></a>Para probar actualizaciones de diseños de informe personalizados  
   
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Selección de diseño de informes** y, a continuación, seleccione el vínculo relacionado.  
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Selección de diseño de informes** y, a continuación, seleccione el vínculo relacionado.  
   
-2.  En la ventana **Selección de diseño de informes**, seleccione la acción **Probar actualizaciones de diseño**.  
+2. En la ventana **Selección de diseño de informes**, seleccione la acción **Probar actualizaciones de diseño**.  
   
- Los cambios en los diseños de informe se prueban pero no se aplican a los diseños de informe reales. Una ventana **Registro de actualización de diseño de informe** aparece, la cual proporciona el estado de actualizaciones potenciales para cada diseño de informe. Si hay errores en un diseño de informe, puede acceder al diseño de informe directamente para modificar el mensaje para solucionar errores. Para obtener más información, vea [Corrección de errores](ui-update-report-layouts.md#FixErrors).  
+   Los cambios en los diseños de informe se prueban pero no se aplican a los diseños de informe reales. Una ventana **Registro de actualización de diseño de informe** aparece, la cual proporciona el estado de actualizaciones potenciales para cada diseño de informe. Si hay errores en un diseño de informe, puede acceder al diseño de informe directamente para modificar el mensaje para solucionar errores. Para obtener más información, vea [Corrección de errores](ui-update-report-layouts.md#FixErrors).  
   
 ##  <a name="UpdateLimitations"></a> Limitaciones de la actualización de diseños de informe personalizados  
  Existen varios tipos de cambios que la actualización automática puede aplicar a los diseños de informe personalizados, por ejemplo, un campo que se utiliza en el diseño se ha eliminado del conjunto de datos del informe. Sin embargo, la actualización automática no puede administrar los siguientes cambios en un conjunto de datos de informe.  
   
-1.  Campos, etiquetas o elementos de datos borrados.  
+1. Campos, etiquetas o elementos de datos borrados.  
   
-2.  Nombres de campos duplicados en el diseño de informe después haber cambiado el nombre de un campo en el conjunto de datos. Esto debe tratarse como error de diseño.  
+2. Nombres de campos duplicados en el diseño de informe después haber cambiado el nombre de un campo en el conjunto de datos. Esto debe tratarse como error de diseño.  
   
-3.  Actualizar casos cuando hay varias iteraciones de un diseño de informe que causa varias acciones de cambio de nombre en los mismos campos, etiquetas o elementos de datos.  
+3. Actualizar casos cuando hay varias iteraciones de un diseño de informe que causa varias acciones de cambio de nombre en los mismos campos, etiquetas o elementos de datos.  
   
- Si el proceso de actualización detecta cualquiera de estos problemas, la actualización no puede aplicarse. Tendrá que solucionar los problemas manualmente, por ejemplo modificando el diseño de informe en Word o programáticamente con unidades de código de actualización.  
+   Si el proceso de actualización detecta cualquiera de estos problemas, la actualización no puede aplicarse. Tendrá que solucionar los problemas manualmente, por ejemplo modificando el diseño de informe en Word o programáticamente con unidades de código de actualización.  
   
 ##  <a name="FixErrors"></a> Corrección de errores  
  Si sigue recibiendo un mensaje de error al actualizar o probar actualizaciones de diseño de informe, es muy probable que tenga que modificar el diseño del informe para corregir el problema. Consulte el mensaje de error para determinar la causa del problema.  

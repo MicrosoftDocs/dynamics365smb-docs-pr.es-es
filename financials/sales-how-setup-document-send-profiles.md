@@ -29,7 +29,7 @@ Cuando elige la acción **Registrar y enviar** en un documento de venta, el cuad
 ## <a name="to-set-up-a-document-sending-profile"></a>Para configurar un perfil de envío de documentos
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Perfiles de envío de documentos** y, a continuación, seleccione el vínculo relacionado.
 2. En la ventana **Perfiles de envío de documentos**, elija la acción **Nuevo**.
-3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-specify-a-sending-profile-on-a-customer-card"></a>Para especificar un perfil de envío en una ficha cliente
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Clientes** y, a continuación, seleccione el vínculo relacionado.

@@ -30,7 +30,7 @@ Si un cliente desea saber el precio de un proyecto que se facturará en función
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Proyectos** y, a continuación, seleccione el vínculo relacionado.  
 2. Abra un proyecto relevante.
 3. Seleccione una línea de tarea del tipo Registro y, a continuación, elija la acción **Líneas planificación proyecto**.
-4. En una línea nueva, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]   
+4. En una línea nueva, rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]   
 
 En el campo **Tipo de línea**, escriba la siguiente información.  
 

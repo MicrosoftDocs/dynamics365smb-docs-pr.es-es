@@ -36,7 +36,7 @@ Las fichas de proveedor contienen la información necesaria para comprar product
     Si existe más de una plantilla de proveedor, se abre una ventana desde la que puede seleccionar una plantilla de proveedor. En ese caso, siga los dos pasos siguientes.
 3. En la ventana **Seleccionar una plantilla para un proveedor nuevo**, seleccione la plantilla que quiere usar para la nueva ficha de proveedor.
 4. Elija el botón **Aceptar**. Una nueva ficha de proveedor se abre con algunos campos completados con la información de la plantilla.
-5. Empiece a rellenar o cambiar campos en la ficha de proveedor, según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+5. Empiece a rellenar o cambiar campos en la ficha de proveedor, según sea necesario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
 >   Si no conoce de antemano la dirección de facturación que se utilizará para todas las facturas de un proveedor, no rellene el campo **Pago a-Nº proveedor** de la ficha de proveedor. En su lugar, elija el número del pago-a proveedor cuando haya configurado una oferta, pedido o encabezado de compra.
@@ -47,7 +47,7 @@ Si desea usar esta ficha de proveedor como plantilla cuando cree nuevas fichas d
 
 ## <a name="to-save-the-vendor-card-as-a-template"></a>Para guardar la ficha de proveedor como una plantilla
 1. En la ventana **Ficha de proveedor**, seleccione la acción **Guardar como plantilla**. La ventana **Plantilla proveedor** se abre mostrando la ficha de proveedor como plantilla.
-2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Para volver a usar dimensiones en las plantillas, seleccione la acción **Dimensiones**. La ventana **Plantilla de dimensiones** se abre mostrando los códigos de dimensión configurados para el proveedor.
 4. Modifique o introduzca los códigos de dimensión que se aplicarán a nuevas fichas de proveedor creadas con la plantilla.
 5. Cuando haya finalizado la nueva plantilla de proveedor, seleccione el botón de **Aceptar**.  

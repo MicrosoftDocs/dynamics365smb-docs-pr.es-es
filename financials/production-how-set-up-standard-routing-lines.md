@@ -25,7 +25,7 @@ La utilización de tareas estándar simplifica la creación y el mantenimiento d
 ## <a name="to-set-up-a-standard-task"></a>Para configurar tareas estándar
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Tareas estándar** y, a continuación, seleccione el vínculo relacionado.
 2. Seleccione la acción **Nuevo**.
-3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Seleccione **Herramientas**, **Personal**, **Descripción**, o la acción **Herramientas**.
 5. En la ventana que se abre, describa la tarea estándar en cuestión.
 

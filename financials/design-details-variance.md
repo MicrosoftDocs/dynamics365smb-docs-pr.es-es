@@ -32,15 +32,15 @@ La desviación se define como la diferencia entre el coste real y el coste está
 ## <a name="example"></a>Ejemplo  
  En el ejemplo siguiente se ilustra cómo se calcula la desviación de los productos comprados. Se basa en el siguiente caso:  
 
-1.  El usuario compra un producto por DL 90,00, pero el coste estándar es de 100,00 DL. Por consiguiente, la desviación de compra es 10,00 DL.  
-2.  Se cargan 10,00 DL en la cuenta de la desviación de compras.  
-3.  El usuario registra un cargo de producto de 20,00 DL. Por consiguiente, el coste real se aumenta a 110,00 DL, y el valor de desviación de compra se convierte en 10,00 DL.  
-4.  Se adeudan 20,00 DL en la cuenta de la desviación de compras. Por consiguiente, la desviación neta de compra se convierte en 10,00 DL.  
-5.  El usuario revaloriza el producto de 100,00 DL a DL 70,00. No afecta al cálculo de desviación, solo al valor de inventario.  
+1. El usuario compra un producto por DL 90,00, pero el coste estándar es de 100,00 DL. Por consiguiente, la desviación de compra es 10,00 DL.  
+2. Se cargan 10,00 DL en la cuenta de la desviación de compras.  
+3. El usuario registra un cargo de producto de 20,00 DL. Por consiguiente, el coste real se aumenta a 110,00 DL, y el valor de desviación de compra se convierte en 10,00 DL.  
+4. Se adeudan 20,00 DL en la cuenta de la desviación de compras. Por consiguiente, la desviación neta de compra se convierte en 10,00 DL.  
+5. El usuario revaloriza el producto de 100,00 DL a DL 70,00. No afecta al cálculo de desviación, solo al valor de inventario.  
 
- En la tabla siguiente se muestran los movimientos de valoración resultantes.  
+   En la tabla siguiente se muestran los movimientos de valoración resultantes.  
 
- ![Cálculo desviación compras](media/design_details_inventory_costing_11_purchase_variance.png "design_details_inventory_costing_11_purchase_variance")  
+   ![Cálculo desviación compras](media/design_details_inventory_costing_11_purchase_variance.png "design_details_inventory_costing_11_purchase_variance")  
 
 ## <a name="determining-the-standard-cost"></a>Determinación del coste estándar  
  El coste estándar se usa al calcular la desviación y el importe para capitalizar. Como el coste estándar puede cambiarse con el tiempo debido al cálculo de actualización manual, para el cálculo de desviación necesita un punto en el tiempo en el que el coste estándar sea fijo. Este momento se produce cuando se factura la entrada de existencias. En el caso de productos fabricados o ensamblados, el punto en el que se determina el coste estándar es cuando se ajusta el coste.  

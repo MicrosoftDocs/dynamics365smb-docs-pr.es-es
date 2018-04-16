@@ -30,7 +30,7 @@ A continuación se muestran algunos ejemplos de la configuración que puede apli
 
 ## <a name="to-enter-general-and-mandatory-settings"></a>Para introducir valores generales y obligatorios
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Configuración del servicio** y, a continuación, seleccione el vínculo relacionado.
-2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. Rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="see-also"></a>Consulte también  
 [Crear informes de defecto](service-how-setup-fault-reporting.md)  

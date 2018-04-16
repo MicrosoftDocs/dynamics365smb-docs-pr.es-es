@@ -33,7 +33,7 @@ Puede usar el proceso **Crear hojas de horas** para configurar hojas de horas de
 
 1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Hojas de horas** y, a continuación, seleccione el vínculo relacionado.
 2. En la ventana **Lista de hojas de horas**, seleccione la acción **Crear hojas de horas**.
-3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
 >   Los campos **Usar hoja horas** e **Id. usuario prop. hoja horas** deben completarse en la ficha del recurso de la hoja de horas.
@@ -77,16 +77,16 @@ El registro de la hoja de horas se hace en horas, la unidad de medida base está
 3. Rellene los campos de una línea, que sean necesario. Introduzca el número de horas que ha usado el recurso cada día de la semana.
 
     > [!TIP]  
->   Puede revisar la suma de horas de la hoja de horas que ha introducido en el cuadro informativo **Resumen real/presupuestado**.  
+   >   Puede revisar la suma de horas de la hoja de horas que ha introducido en el cuadro informativo **Resumen real/presupuestado**.  
 4. Repita el paso 3 para otros tipos de trabajo que realice el recurso.
 5. Elija la acción **Enviar** y, a continuación, elija la acción **Todas las líneas abiertas** para enviar todas las líneas o la acción **Solo líneas seleccionadas** para enviar únicamente las líneas que están seleccionadas en la ventana **Hoja de horas**.  
 
     > [!NOTE]  
->   Solo puede enviar las líneas de hoja de horas para las que haya especificado tiempo.  
+   >   Solo puede enviar las líneas de hoja de horas para las que haya especificado tiempo.  
 6. Para modificar la información de una línea que se ha definido como **Enviado**, seleccione la línea y, a continuación, elija la acción **Volver a abrir**.
 
     > [!NOTE]  
->   Un administrador puede rechazar una línea de hoja de horas que se ha enviado para su aprobación. Si una línea tiene el estado de **Impagado**, puede realizar los cambios en la línea y seleccionar **Enviar** de nuevo.  
+   >   Un administrador puede rechazar una línea de hoja de horas que se ha enviado para su aprobación. Si una línea tiene el estado de **Impagado**, puede realizar los cambios en la línea y seleccionar **Enviar** de nuevo.  
 7. Elija el botón **Aceptar**.
 
 ## <a name="to-approve-or-reject-a-time-sheet"></a>Para aprobar o rechazar una hoja de horas
@@ -111,7 +111,7 @@ Una vez aprobada o rechazada una hoja de horas, no se podrá modificar hasta que
 2. Abra una hoja de horas de la lista.  
 
     > [!NOTE]  
->   Puede volver a abrir sólo las líneas con el estado **Aprobado**. No puede volver a abrir solo las líneas con el estado **Impagado**. No puede volver a abrir una hoja de horas si ya se ha registrado.  
+   >   Puede volver a abrir sólo las líneas con el estado **Aprobado**. No puede volver a abrir solo las líneas con el estado **Impagado**. No puede volver a abrir una hoja de horas si ya se ha registrado.  
 3. En la ventana **Hoja de horas**, elija la acción **Volver** y, a continuación, **Todas las líneas enviadas** para volver a abrir todas las líneas o la acción **Solo líneas seleccionadas** para volver a abrir únicamente las líneas que están seleccionadas en la ventana **Hoja de horas**.
 4. Elija el botón **Aceptar**. El estado de las líneas de la hoja de horas cambia a **Enviado**.  
 
@@ -134,7 +134,7 @@ Una vez aprobados los movimientos de la hoja de horas de un proyecto, puede regi
 4. Elija el botón **Aceptar**. Los movimientos de uso se crean en el diario de proyectos, donde puede modificar la información según sea necesario.  
 
     > [!NOTE]  
->   La información acerca del tipo de trabajo y si el trabajo es facturable debe copiarse de la línea de la hoja de horas. Si es necesario, puede reducir la cantidad de horas cuenta y hacer un registro parcial. Si se reduce la cantidad, la próxima vez que elija la acción **Sugerir líneas de hojas de horas**, la línea creada contendrá la cantidad pendiente de horas.  
+   >   La información acerca del tipo de trabajo y si el trabajo es facturable debe copiarse de la línea de la hoja de horas. Si es necesario, puede reducir la cantidad de horas cuenta y hacer un registro parcial. Si se reduce la cantidad, la próxima vez que elija la acción **Sugerir líneas de hojas de horas**, la línea creada contendrá la cantidad pendiente de horas.  
 5. Seleccione la acción **Registrar**.  
 6. Para comprobar el registro, elija la acción **Movimientos**. Se abre la ventana **Movs. proyectos**, en la que muestra el resultado del registro del diario de recursos.
 

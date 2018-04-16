@@ -30,7 +30,7 @@ Antes de crear oportunidad, debe configurar los ciclos ventas oportunidad. Para 
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Vendedores** y, a continuación, seleccione el vínculo relacionado.
 2. Seleccione el vendedor de la lista para el que desea crear una oportunidad.
 3. Elija la acción **Oportunidades** y, a continuación, elija **Lista**.
-4. Elija **Nuevo** y, a continuación, rellene los campos según sea pertinente. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+4. Elija **Nuevo** y, a continuación, rellene los campos según sea pertinente. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 
 

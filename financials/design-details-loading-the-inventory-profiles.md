@@ -28,15 +28,15 @@ Para organizar los numerosos orígenes de demanda y suministro, el sistema de pl
 
  En general, el sistema de planificación considera todos los pedidos de aprovisionamiento posteriores a la fecha de inicio de la planificación como sujetos a cambios para cubrir la demanda. No obstante, en cuanto una cantidad se registra a partir de un pedido de aprovisionamiento, ya no la puede modificar el sistema de planificación. Por consiguiente, los diferentes pedidos siguientes no se pueden replanificar:  
 
--   Órdenes de producción lanzadas donde se ha registrado la salida o el consumo.  
+- Órdenes de producción lanzadas donde se ha registrado la salida o el consumo.  
 
--   Pedidos de ensamblado donde se ha registrado la salida o el consumo.  
+- Pedidos de ensamblado donde se ha registrado la salida o el consumo.  
 
--   Pedidos de transferencia donde se ha registrado el envío.  
+- Pedidos de transferencia donde se ha registrado el envío.  
 
--   Pedidos de compra en los que se ha registrado la recepción.  
+- Pedidos de compra en los que se ha registrado la recepción.  
 
- Aparte de cargar los tipos de demanda y aprovisionamiento, se cargan determinados tipos respetando reglas especiales y dependencias, las cuales que se describen a continuación.  
+  Aparte de cargar los tipos de demanda y aprovisionamiento, se cargan determinados tipos respetando reglas especiales y dependencias, las cuales que se describen a continuación.  
 
 ## <a name="item-dimensions-are-separated"></a>Las dimensiones de producto están separadas  
  El plan de suministro se debe calcular mediante la combinación de dimensiones de producto, como variante y ubicación. No obstante, no hay razón para calcular ninguna combinación teórica. Solo es necesario calcular las combinaciones con una necesidad de demanda o de suministro.  

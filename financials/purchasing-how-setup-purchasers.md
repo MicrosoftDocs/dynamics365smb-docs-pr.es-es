@@ -25,7 +25,7 @@ Si trabajan para la empresa varios compradores, puede configurarlos en una venta
 ## <a name="to-set-up-purchasers"></a>Para configurar compradores
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Vendedores/compradores** y, a continuación, seleccione el vínculo relacionado.
 2. En la ventana **Vendedores/compradores**, elija **Nuevo**.
-3. En la ventana **Ficha de vendedor/comprador**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. En la ventana **Ficha de vendedor/comprador**, rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-purchasers-to-vendors"></a>Para asignar compradores a proveedores
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Proveedores** y, a continuación, seleccione el vínculo relacionado.

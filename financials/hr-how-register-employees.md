@@ -32,7 +32,7 @@ Los procedimientos siguientes describen cómo crear una ficha inicial del emplea
 ## <a name="to-set-up-an-employee"></a>Para configurar un empleado
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Empleados** y, a continuación, seleccione el vínculo relacionado.
 2. Seleccione la acción **Nuevo**.
-3. En la ventana **Ficha de empleado**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. En la ventana **Ficha de empleado**, rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-insert-a-picture-of-an-employee"></a>Para insertar una imagen de un empleado
 Si tiene una imagen de un empleado en formato .BMP, puede insertarla en su ficha.

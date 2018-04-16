@@ -31,17 +31,17 @@ Si desea facturar varios envíos a la vez, utilice la función de agrupación de
 4. En la ficha desplegable **Líneas**, elija la acción **Traer líns. recep**.  
 5. Seleccione la línea del envío que desee incluir en la factura:  
 
-    - Para insertar todas las líneas, selecciónelas y haga clic en **Aceptar**.  
-    - Para insertar líneas concretas, selecciónelas y haga clic en **Aceptar**. Puede utilizar la tecla Ctrl para seleccionar varias líneas no secuenciales.  
+   - Para insertar todas las líneas, selecciónelas y haga clic en **Aceptar**.  
+   - Para insertar líneas concretas, selecciónelas y haga clic en **Aceptar**. Puede utilizar la tecla Ctrl para seleccionar varias líneas no secuenciales.  
 
-    Si se ha seleccionado una línea de envío incorrecta o desea volver a empezar, sólo tiene que eliminar las líneas de la factura y volver a ejecutar la función **Traer líneas alb. venta**.  
-7. Para registrar la factura, elija la acción **Registrar**.  
+     Si se ha seleccionado una línea de envío incorrecta o desea volver a empezar, sólo tiene que eliminar las líneas de la factura y volver a ejecutar la función **Traer líneas alb. venta**.  
+6. Para registrar la factura, elija la acción **Registrar**.  
 
 ## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Para agrupar envíos de forma automática en una factura única  
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Fact. automática...** y, a continuación, seleccione el vínculo relacionado. Se abre la ventana de solicitud de trabajo por lotes.  
-2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Seleccione la casilla de verificación **Registrar facturas**.  
-4.  Elija el botón **Aceptar**.  
+4. Elija el botón **Aceptar**.  
 
 > [!NOTE]  
 >  Deberá registrar las facturas manualmente si no se ha activado la casilla de verificación **Registrar facturas** en el trabajo por lotes.  

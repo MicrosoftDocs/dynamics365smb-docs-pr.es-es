@@ -30,7 +30,7 @@ También puede asignar los atributos de producto a categorías de producto que s
 ## <a name="to-create-item-attributes"></a>Para crear atributos de producto
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Atributos de producto** y, a continuación, seleccione el vínculo relacionado.
 2. En la ventana **Atributos de producto**, seleccione la acción **Nuevo**.
-3. En la ventana **Atributos de producto**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. En la ventana **Atributos de producto**, rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
 >   Si selecciona **Opción** en el campo **Tipo**, puede seleccionar la acción **Valores de atributo de producto** para crear valores de atributo de producto. Para obtener más información, consulte la sección "Para crear valores de atributo de producto del tipo Opción".  
@@ -38,7 +38,7 @@ También puede asignar los atributos de producto a categorías de producto que s
 ## <a name="to-create-values-for-item-attributes-of-type-option"></a>Para crear los valores de los atributos de producto del tipo Opción
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Atributos de producto** y, a continuación, seleccione el vínculo relacionado.
 2. En la ventana **Atributos de producto**, seleccione un atributo de producto del tipo **Opción** al que quiere asignarle un valor y, a continuación, seleccione la acción **Valores de atributo de producto**.
-3. En la ventana **Valores de atributo de producto**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. En la ventana **Valores de atributo de producto**, rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-item-attributes-to-items"></a>Asignar un atributo de producto a productos
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Productos** y, a continuación, seleccione el vínculo relacionado.
@@ -67,7 +67,7 @@ También puede asignar los atributos de producto a categorías de producto que s
 4. En el campo **Valor**, seleccione el botón de búsqueda y seleccione un valor de atributo de producto para filtrar los productos.
 
     > [!NOTE]  
->   Solo puede seleccionar los valores directamente para los atributos del producto que tienen valores fijos, como por ejemplo el Color. Para los atributos de producto que tienen valores variables, como por ejemplo el Ancho, debe especificar el valor del atributo de producto primero seleccionando una condición. Consulte el paso 5.
+   >   Solo puede seleccionar los valores directamente para los atributos del producto que tienen valores fijos, como por ejemplo el Color. Para los atributos de producto que tienen valores variables, como por ejemplo el Ancho, debe especificar el valor del atributo de producto primero seleccionando una condición. Consulte el paso 5.
 5. En el campo **Valor** para un atributo de producto variable, seleccione el botón de búsqueda.
 6. En la ventana **Especificar valor de filtro**, en el campo **Condición**, haga clic en la flecha desplegable y seleccione una condición.
 7. En el campo **Valor**, introduzca un valor de atributo para filtrar los productos.

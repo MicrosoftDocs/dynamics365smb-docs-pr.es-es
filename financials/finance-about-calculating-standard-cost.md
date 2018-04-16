@@ -80,8 +80,8 @@ Para calcular el coste de capacidad estándar, deberá establecer cuáles son la
 
 Puede configurar las tasas para cada tipo de tiempo por cada máquina o centro de trabajo de una ruta en particular.  
 
-> [!NOTE]  
-    >  Mientras las tasas de tiempo de ejecución se aplican para cada unidad de producto fabricado, las tasas de tiempo de preparación se aplican para cada lote. Por tanto, debe prorratear el tiempo de preparación de la ruta por cada operación en función del tamaño del lote. Puede especificar el tamaño del lote en el campo correspondiente de la ficha desplegable **Pedidos** de la ficha del producto.  
+> [!NOTE]
+>  Mientras las tasas de tiempo de ejecución se aplican para cada unidad de producto fabricado, las tasas de tiempo de preparación se aplican para cada lote. Por tanto, debe prorratear el tiempo de preparación de la ruta por cada operación en función del tamaño del lote. Puede especificar el tamaño del lote en el campo correspondiente de la ficha desplegable **Pedidos** de la ficha del producto.  
 
 Para especificar el tiempo de preparación en la ruta por motivos de planificación, pero no incluir este gasto en el cálculo del coste estándar, desactive el campo **Coste incl. preparación** de la ventana **Configuración fabricación**.  
 

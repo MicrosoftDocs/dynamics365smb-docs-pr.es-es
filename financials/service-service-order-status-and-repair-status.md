@@ -30,7 +30,7 @@ El campo **Estado** de la ventana **Pedido servicio** y el estado de reparación
 * El estado de pedido de servicio al que está vinculado cada estado de reparación. Para obtener más información, consulte Estado ped. servicio.  
 * El nivel de prioridad de cada opción de estado de pedido de servicio. Para obtener más información, consulte Prioridad.  
   
- Cuando se convierte una oferta de servicio en un pedido, cambia el estado de reparación de cada producto de servicio del pedido a **Inicial** y el estado del pedido de servicio cambia a **Pendiente**.  
+  Cuando se convierte una oferta de servicio en un pedido, cambia el estado de reparación de cada producto de servicio del pedido a **Inicial** y el estado del pedido de servicio cambia a **Pendiente**.  
   
 ## <a name="specifying-service-order-status-for-repair-status"></a>Especificar el estado de pedido de servicio para el estado de reparación  
 Cada estado de reparación se encuentra vinculado a un estado de pedido de servicio determinado. Las opciones de estado del pedido de servicio son: **Pendiente**, **En proceso**, **En espera** y **Terminado**. Las opciones de estado de reparación son las siguientes: **Inicial**, **En proceso**, **Remitido**, **Parcialmente servido**, **Oferta terminada**, **Esperando al cliente**, **Componente pedido**, **Componente recibido** y **Terminado**.  

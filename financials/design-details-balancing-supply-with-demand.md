@@ -31,21 +31,21 @@ Imagínese que cada perfil de inventario contiene una cadena de eventos de deman
   
      Si el momento de aprovisionamiento no resulta adecuado, probablemente el aprovisionamiento pueda volver a programarse de la siguiente forma:  
   
-    1.  Si el aprovisionamiento es anterior a la demanda, probablemente el aprovisionamiento se puede volver a programar fuera para que el inventario sea lo más bajo posible.  
-    2.  Si el aprovisionamiento es posterior a la demanda, probablemente el aprovisionamiento se puede volver a programar dentro. Si no, el programa sugiere un nuevo aprovisionamiento.  
-    3.  Si el aprovisionamiento cubre la demanda en la fecha, el sistema de planificación puede proceder a investigar si la cantidad de aprovisionamiento puede cubrir la demanda.  
+   1. Si el aprovisionamiento es anterior a la demanda, probablemente el aprovisionamiento se puede volver a programar fuera para que el inventario sea lo más bajo posible.  
+   2. Si el aprovisionamiento es posterior a la demanda, probablemente el aprovisionamiento se puede volver a programar dentro. Si no, el programa sugiere un nuevo aprovisionamiento.  
+   3. Si el aprovisionamiento cubre la demanda en la fecha, el sistema de planificación puede proceder a investigar si la cantidad de aprovisionamiento puede cubrir la demanda.  
   
-     Una vez aplicado el plan, la cantidad suficiente que se suministrará se puede calcular del siguiente modo:  
+      Una vez aplicado el plan, la cantidad suficiente que se suministrará se puede calcular del siguiente modo:  
   
-    1.  Si la cantidad de aprovisionamiento es menor que la demanda, es posible que la cantidad de aprovisionamiento pueda incrementarse (o no si está limitada por una directiva de cantidad máxima).  
-    2.  Si la cantidad de aprovisionamiento es mayor que la demanda, es posible que la cantidad de aprovisionamiento pueda disminuirse (o no si está limitada por una directiva de cantidad mínima).  
+   4. Si la cantidad de aprovisionamiento es menor que la demanda, es posible que la cantidad de aprovisionamiento pueda incrementarse (o no si está limitada por una directiva de cantidad máxima).  
+   5. Si la cantidad de aprovisionamiento es mayor que la demanda, es posible que la cantidad de aprovisionamiento pueda disminuirse (o no si está limitada por una directiva de cantidad mínima).  
   
-     En este punto se da cualquiera de estas dos situaciones:  
+      En este punto se da cualquiera de estas dos situaciones:  
   
-    1.  Se puede satisfacer la demanda actual, en cuyo caso se puede cerrar y se puede iniciar la planificación de la demanda siguiente.  
-    2.  El suministro ha alcanzado el máximo, dejando parte de la cantidad de demanda sin cubrir. En este caso, el sistema de planificación puede cerrar el aprovisionamiento actual y proceder con el siguiente.  
+   6. Se puede satisfacer la demanda actual, en cuyo caso se puede cerrar y se puede iniciar la planificación de la demanda siguiente.  
+   7. El suministro ha alcanzado el máximo, dejando parte de la cantidad de demanda sin cubrir. En este caso, el sistema de planificación puede cerrar el aprovisionamiento actual y proceder con el siguiente.  
   
- El procedimiento comienza de nuevo con la demanda siguiente y el suministro actual, o viceversa. El suministro actual también puede cubrir esta demanda siguiente, o la demanda actual no se ha cubierto por completo.  
+   El procedimiento comienza de nuevo con la demanda siguiente y el suministro actual, o viceversa. El suministro actual también puede cubrir esta demanda siguiente, o la demanda actual no se ha cubierto por completo.  
   
 ## <a name="rules-concerning-actions-for-supply-events"></a>Reglas relativas a las acciones para los eventos de suministro  
 Cuando el sistema de planificación realiza un cálculo descendente en el que el suministro debe satisfacer la demanda, esta se toma tal como se indica, es decir, está fuera del control del sistema de planificación. No obstante, el lado de aprovisionamiento sigue pudiéndose gestionar. Por lo tanto, el sistema de planificación sugerirá la creación de nuevos pedidos de suministro, reprogramar los existentes o cambiar la cantidad del pedido. Si un pedido de aprovisionamiento existente pasa a ser superfluo, el sistema de planificación sugiere que el usuario lo cancele.  

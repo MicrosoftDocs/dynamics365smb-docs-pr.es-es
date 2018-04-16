@@ -34,7 +34,7 @@ El ajuste de valores se utiliza para ajustar los diversos valores de los activos
 4. Elija la acción **Introducir saldo AF**. Se crea una segunda línea de diario para la cuenta contrapartida que se ha configurado para el registro de apreciaciones.
 
     > [!NOTE]  
->   El paso 4 solo funciona si ha configurado lo siguiente: en la ventana **A/F Ficha grupo contable** del grupo contable del activo fijo, el campo **Cta. apreciación** contiene la cuenta de cargo y el campo **Cta. contrap. apreciación** contiene la cuenta contable en la que desea registrar los movimientos de contrapartida para apreciación. Para obtener más información, vea la sección "Para configurar grupos contables de activos fijos" en [Configurar información general del activo fijo](fa-how-setup-general.md).  
+   >   El paso 4 solo funciona si ha configurado lo siguiente: en la ventana **A/F Ficha grupo contable** del grupo contable del activo fijo, el campo **Cta. apreciación** contiene la cuenta de cargo y el campo **Cta. contrap. apreciación** contiene la cuenta contable en la que desea registrar los movimientos de contrapartida para apreciación. Para obtener más información, vea la sección "Para configurar grupos contables de activos fijos" en [Configurar información general del activo fijo](fa-how-setup-general.md).  
 5. Seleccione la acción **Registrar**.
 
 ## <a name="to-post-a-write-down-from-the-fixed-asset-gl-journal"></a>Para registrar una depreciación desde el diario general de activos fijos
@@ -44,7 +44,7 @@ El ajuste de valores se utiliza para ajustar los diversos valores de los activos
 4. Elija la acción **Introducir saldo AF**. Se crea una segunda línea de diario para la cuenta contrapartida que se ha configurado para el registro de depreciaciones.
 
     > [!NOTE]  
->   El paso 4 solo funciona si ha configurado lo siguiente: en la ventana **A/F Ficha grupo contable** del grupo contable del activo fijo, el campo **Cta. depreciación** contiene la cuenta de abono y el campo **Cta. gastos depreciación** contiene la cuenta contable en la que desea registrar los movimientos de contrapartida para las depreciaciones. Para obtener más información, vea la sección "Para configurar grupos contables de activos fijos" en [Configurar información general del activo fijo](fa-how-setup-general.md).
+   >   El paso 4 solo funciona si ha configurado lo siguiente: en la ventana **A/F Ficha grupo contable** del grupo contable del activo fijo, el campo **Cta. depreciación** contiene la cuenta de abono y el campo **Cta. gastos depreciación** contiene la cuenta contable en la que desea registrar los movimientos de contrapartida para las depreciaciones. Para obtener más información, vea la sección "Para configurar grupos contables de activos fijos" en [Configurar información general del activo fijo](fa-how-setup-general.md).
 5. Seleccione la acción **Registrar**.
 
 ## <a name="to-perform-general-revaluation-of-fixed-assets"></a>Para realizar una revalorización general de activos fijos
@@ -60,7 +60,7 @@ El ajuste de valores se utiliza para ajustar los diversos valores de los activos
 6. Compruebe los movimientos creados y, a continuación, seleccione la acción **Registrar** para registrarlos en el diario.
 
     > [!TIP]  
->   Si los números de ajuste son solo para fines de simulación, puede crear un libro de amortización especial que los guarde. Así estos movimientos no afectarán a ninguno de los libros de amortización.
+   >   Si los números de ajuste son solo para fines de simulación, puede crear un libro de amortización especial que los guarde. Así estos movimientos no afectarán a ninguno de los libros de amortización.
 
    ## <a name="to-post-additional-acquisition-costs"></a>Para registrar costes adicionales
    Puede registrar costes adicionales de un activo de la misma forma en que registra el coste original: desde una factura de compra o desde un diario de activos fijos. Para obtener más información, vea [Adquirir activos fijos](fa-how-acquire.md).  

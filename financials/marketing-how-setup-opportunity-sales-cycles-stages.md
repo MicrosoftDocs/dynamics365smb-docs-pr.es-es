@@ -26,7 +26,7 @@ Este tema describe también cómo configurar tareas y actividades, y cómo asign
 
 ## <a name="to-set-up-opportunity-sales-cycle-codes"></a>Para configurar los casilla de selección de ciclo de ventas de oportunidades
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Ciclos venta** y, a continuación, seleccione el vínculo relacionado. Se abre la ventana **Ciclos de ventas** y se muestran todos los ciclos de ventas existentes.
-2. Elija la acción **Nuevo** y, a continuación, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Elija la acción **Nuevo** y, a continuación, rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Repita estos pasos para configurar todos los ciclos de venta que desee. Después de configurar los ciclos de ventas de oportunidad, puede que quiera configurar las distintas etapas de cada ciclo.
 

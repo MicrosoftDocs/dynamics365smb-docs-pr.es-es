@@ -31,7 +31,7 @@ En la ventana **Factura de compra registrada**, puede elegir el botón **Corregi
 2. Seleccione la factura de compra registrada que desea corregir.  
 
     > [!NOTE]  
->   Si se selecciona la casilla **Cancelado**, no puede corregir la factura de compra registrada porque ya se ha corregido o cancelado.
+   >   Si se selecciona la casilla **Cancelado**, no puede corregir la factura de compra registrada porque ya se ha corregido o cancelado.
 3. En la ventana **Factura de compra registrada**, elija **Corregir**.
 
     Una nueva factura de compra con la misma información se crea donde puede realizar la corrección. Para obtener más información, consulte [Registrar compras](purchasing-how-record-purchases.md). El campo **Cancelado** en la factura de compra registrada inicial se cambia a **Sí**.
@@ -44,7 +44,7 @@ En la ventana **Factura de compra registrada**, puede elegir el botón **Corregi
 2. Seleccione la factura de compra registrada que desea cancelar.
 
     > [!NOTE]  
->   Si se selecciona la casilla **Cancelado**, no puede cancelar la factura de compra registrada porque ya se ha cancelado o corregido.
+   >   Si se selecciona la casilla **Cancelado**, no puede cancelar la factura de compra registrada porque ya se ha cancelado o corregido.
 3. En la ventana **Factura de compra registrada**, elija **Cancelar**.
 
     Un abono de compra se crea y se registra automáticamente para anular la factura de compra registrada inicialmente. El campo **Cancelado** en la factura de compra registrada inicial se cambia a **Sí**.

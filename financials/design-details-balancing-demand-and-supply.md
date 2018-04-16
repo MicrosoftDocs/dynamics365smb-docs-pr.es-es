@@ -25,7 +25,7 @@ Para saber cómo funciona el sistema de planificación, es necesario conocer los
 - La demanda se satisfará con suficiente aprovisionamiento.  
 - Los aprovisionamientos sirven todos a un fin.  
 
- En general, estos objetivos se logran equilibrando el aprovisionamiento con la demanda.  
+  En general, estos objetivos se logran equilibrando el aprovisionamiento con la demanda.  
 
 ## <a name="in-this-section"></a>En esta sección  
 [Detalles de diseño: Demanda y aprovisionamiento](design-details-demand-and-supply.md)  

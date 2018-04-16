@@ -33,7 +33,7 @@ El procedimiento siguiente describe cómo rellenar y enviar un pedido de venta d
 
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Pedidos de venta** y, a continuación, seleccione el vínculo relacionado.  
 2. Para crear un nuevo pedido de venta, elija **Nuevo**. Para obtener más información, vea [Vender productos](sales-how-sell-products.md).  
-3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Asegúrese de que el cliente es socio de una empresa vinculada.
 5. Para enviar el pedido de venta antes de registrarlo, elija la acción **Envío ped. venta IC** .
 

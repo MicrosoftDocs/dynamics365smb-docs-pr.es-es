@@ -32,26 +32,26 @@ Para poder configurar una ruta, lo siguiente debe existir:
 - Se han configurado recursos de producción. Para obtener más información, consulte [Configurar centros de trabajo y centros de máquina](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-routing"></a>Para crear una ruta  
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Rutas** y, a continuación, seleccione el vínculo relacionado.  
-2.  Seleccione la acción **Nuevo**.  
-3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4.  En el campo de **Tipo**, seleccione **Número de serie** para calcular la ruta de producción según el valor del campo de **Nº operación** .   
-    Seleccione **Paralelo** para calcular las operaciones según el valor del campo de **Nº operación siguiente** .  
-5.  Para editar la ruta, establezca el campo **Estado** en **Nueva** o **En desarrollo**. Para activarla, establezca el campo **Estado** en **Certificada**.  
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Rutas** y, a continuación, seleccione el vínculo relacionado.  
+2. Seleccione la acción **Nuevo**.  
+3. Rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. En el campo de **Tipo**, seleccione **Número de serie** para calcular la ruta de producción según el valor del campo de **Nº operación** .   
+   Seleccione **Paralelo** para calcular las operaciones según el valor del campo de **Nº operación siguiente** .  
+5. Para editar la ruta, establezca el campo **Estado** en **Nueva** o **En desarrollo**. Para activarla, establezca el campo **Estado** en **Certificada**.  
 
-    Proceda a rellenar las líneas de ruta.
-6.  En el campo **Nº operación** especifique el número de la primera operación, por ejemplo **10**.  
-7.  En el campo **Tipo**, especifique qué tipo de recurso se utiliza, por ejemplo **Centro trabajo**.  
-8.  En el campo **N.º**, seleccione el recurso que se va a utilizar o especifíquelo en el campo.  
-9.  En el campo **Código de conexión de ruta**, introduzca un código para conectar el componente con una operación específica. Para obtener más información, consulte la sección "Creación de conexiones de ruta".
-10.  En los campos **Tiempo ejecución** y **Tiempo preparación**, especifique los tiempos de proceso necesarios para realizar la operación.  
+   Proceda a rellenar las líneas de ruta.
+6. En el campo **Nº operación** especifique el número de la primera operación, por ejemplo **10**.  
+7. En el campo **Tipo**, especifique qué tipo de recurso se utiliza, por ejemplo **Centro trabajo**.  
+8. En el campo **N.º**, seleccione el recurso que se va a utilizar o especifíquelo en el campo.  
+9. En el campo **Código de conexión de ruta**, introduzca un código para conectar el componente con una operación específica. Para obtener más información, consulte la sección "Creación de conexiones de ruta".
+10. En los campos **Tiempo ejecución** y **Tiempo preparación**, especifique los tiempos de proceso necesarios para realizar la operación.  
 
     > [!NOTE]  
     >  El tiempo de preparación se calcula para cada orden de producción, mientras que el tiempo de ejecución se calcula para cada producto fabricado.  
 
-11.  En el campo de **Capacidades concurrentes**, especifique cuántas unidades del recurso seleccionado se van a utilizar para realizar la operación. Por ejemplo, dos personas asignadas a una operación de embalaje dividirán por dos el tiempo de ejecución.  
-12.  Continúe rellenando las líneas para todas las operaciones necesarias para fabricar el producto en cuestión.  
-13.  Para copiar líneas desde una ruta existente, seleccione la acción **Copiar ruta** para seleccionar las líneas existentes.  
+11. En el campo de **Capacidades concurrentes**, especifique cuántas unidades del recurso seleccionado se van a utilizar para realizar la operación. Por ejemplo, dos personas asignadas a una operación de embalaje dividirán por dos el tiempo de ejecución.  
+12. Continúe rellenando las líneas para todas las operaciones necesarias para fabricar el producto en cuestión.  
+13. Para copiar líneas desde una ruta existente, seleccione la acción **Copiar ruta** para seleccionar las líneas existentes.  
 14. Certifique la ruta.  
 15. Ahora puede asociar la nueva ruta a la ficha del producto en cuestión, rellenando el campo **Nº de ruta**. Para obtener más información, vea [Registrar nuevos productos](inventory-how-register-new-items.md).  
 

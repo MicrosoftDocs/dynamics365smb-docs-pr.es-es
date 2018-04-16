@@ -37,19 +37,19 @@ Puede importar y exportar un diseño de informe personalizado existente como arc
   
 ### <a name="to-import-a-report-layout-file"></a>Para importar un archivo de diseño de informe  
   
-1.  Asegúrese de que el archivo correspondiente que define el diseño de informe está disponible en el equipo o en la red.  
+1. Asegúrese de que el archivo correspondiente que define el diseño de informe está disponible en el equipo o en la red.  
   
-     Un archivo de diseño de informe de Word debe tener la extensión de tipo de archivo .docx. El archivo de diseño de informe de RDLC debe tener la extensión de tipo de archivo .rdlc o .rdl.  
+    Un archivo de diseño de informe de Word debe tener la extensión de tipo de archivo .docx. El archivo de diseño de informe de RDLC debe tener la extensión de tipo de archivo .rdlc o .rdl.  
   
-2.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Selección de diseño de informes** y, a continuación, seleccione el vínculo relacionado.  
+2. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Selección de diseño de informes** y, a continuación, seleccione el vínculo relacionado.  
   
-3.  Seleccione la fila para el informe al cual desee importar el diseño de informe y, a continuación, en la pestaña **Inicio**, en el grupo **Procesar**, elija **Diseños personalizados**.  
+3. Seleccione la fila para el informe al cual desee importar el diseño de informe y, a continuación, en la pestaña **Inicio**, en el grupo **Procesar**, elija **Diseños personalizados**.  
   
-4.  En la ventana **Diseño de informe**, seleccione el diseño de informe al que desee importar el archivo y, a continuación, en la pestaña **Inicio**, en el grupo **Procesar**, elija **Importar diseño**.  
+4. En la ventana **Diseño de informe**, seleccione el diseño de informe al que desee importar el archivo y, a continuación, en la pestaña **Inicio**, en el grupo **Procesar**, elija **Importar diseño**.  
   
-5.  En el cuadro de diálogo **Importar**, seleccione el documento que define el diseño de informe y, a continuación, elija **Abrir**.  
+5. En el cuadro de diálogo **Importar**, seleccione el documento que define el diseño de informe y, a continuación, elija **Abrir**.  
   
- El diseño de informe original personalizado se reemplaza con el diseño de informe importado.  
+   El diseño de informe original personalizado se reemplaza con el diseño de informe importado.  
   
 ## <a name="see-also"></a>Consulte también  
  [Crear y modificar un diseño de informe personalizado](ui-how-create-custom-report-layout.md)   

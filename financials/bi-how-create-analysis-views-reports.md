@@ -69,10 +69,10 @@ Una plantilla contiene un conjunto de líneas que representan las columnas de an
 4. En la ventana **Columnas de análisis**, rellene los campos para especificar las columnas que desea incluir en el informe de análisis.  
 
     > [!NOTE]  
->   Para definir una columna, debe rellenar el campo **Código de tipo de análisis** para todos los tipos de columnas excepto las de **Fórmula**. Configure los códigos de tipo de análisis en la ventana **Tipos de análisis**.  
+   >   Para definir una columna, debe rellenar el campo **Código de tipo de análisis** para todos los tipos de columnas excepto las de **Fórmula**. Configure los códigos de tipo de análisis en la ventana **Tipos de análisis**.  
 
     **Nota**. En el campo **Tipo mov. cont.**, si selecciona **Movs. prods.** se copian las cifras reales del movimiento del producto. Si selecciona **Movs. ppto. prods.**, se copian las cifras presupuestadas del presupuesto.  
-5.  Elija el botón **Aceptar** para guardar los cambios.  
+5. Elija el botón **Aceptar** para guardar los cambios.  
 
 ## <a name="to-set-up-analysis-line-templates"></a>Para configurar plantillas de líneas de análisis  
 El procedimiento siguiente se basa en informes de análisis para ventas. Los pasos son similares para los informes de análisis de compras y de inventario.
@@ -96,7 +96,7 @@ Utilice los informes de análisis para analizar la dinámica de sus ventas segú
 
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Informes de análisis de ventas** y, a continuación, seleccione el vínculo relacionado.  
 2. En la ventana **Informe de análisis ventas**, elija la acción **Nuevo**.
-3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Elija la acción **Editar informe de análisis**.
 5. En la ventana **Informe de análisis de ventas**, elija la acción **Mostrar matriz**.  
 

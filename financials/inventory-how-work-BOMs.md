@@ -52,7 +52,7 @@ Existen dos partes para crear una L.M. de ensamblado:
 
     Continúe para introducir los componentes o recursos en la L.M. de ensamblado.  
 2. En la ventana **Ficha producto** de un elemento del ensamblado, elija la acción **Ensamblado** y, a continuación, seleccione la acción **L.M. de ensamblado**.
-3. En la ventana **L.M. de ensamblado**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. En la ventana **L.M. de ensamblado**, rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-view-the-components-of-an-assembly-item-indented-according-to-the-bom-structure"></a>Para ver los componentes de un elemento del ensamblado con sangría según la estructura de la L.M.
 En la ventana **L.M. de ensamblado** puede abrir una ventana independiente que muestre que los componentes y cualquier recurso con sangría de acuerdo con la posición de la L.M. debajo del elemento del ensamblado.

@@ -107,17 +107,17 @@ Los documentos de venta registrados a los que ha aplicado el abono están invert
 
     Tendrán lugar los siguientes procesos:  
 
-    -   Para las líneas de documentos registrados del tipo **Producto**, se crea una nueva línea de documento que es una copia de la línea del documento registrado, con la cantidad que aún no se ha revertido. El campo **Liquid.-de mov. pdto** se rellena según corresponda con el número de movimiento de producto correspondiente a la línea del documento registrado.  
+   - Para las líneas de documentos registrados del tipo **Producto**, se crea una nueva línea de documento que es una copia de la línea del documento registrado, con la cantidad que aún no se ha revertido. El campo **Liquid.-de mov. pdto** se rellena según corresponda con el número de movimiento de producto correspondiente a la línea del documento registrado.  
 
-    -   Para las líneas de documentos registrados que no sean del tipo **Producto**, como los cargos de producto, se crea una nueva línea de documento que es una copia de la línea del documento registrado original.  
+   - Para las líneas de documentos registrados que no sean del tipo **Producto**, como los cargos de producto, se crea una nueva línea de documento que es una copia de la línea del documento registrado original.  
 
-    -   Calcula el campo **Coste unitario (DL)** de la nueva línea a partir de los costes de los movimientos de producto correspondientes.  
+   - Calcula el campo **Coste unitario (DL)** de la nueva línea a partir de los costes de los movimientos de producto correspondientes.  
 
-    -   Si el documento copiado es un envío, una recepción, una recepción de devolución o un envío de devolución registrados, el precio de venta se calcula automáticamente a partir de la ficha del producto.  
+   - Si el documento copiado es un envío, una recepción, una recepción de devolución o un envío de devolución registrados, el precio de venta se calcula automáticamente a partir de la ficha del producto.  
 
-    -   Si el documento copiado es una factura o un abono registrado, se copian el precio de venta, los descuentos de factura y los descuentos de línea de la línea del documento registrado.  
+   - Si el documento copiado es una factura o un abono registrado, se copian el precio de venta, los descuentos de factura y los descuentos de línea de la línea del documento registrado.  
 
-    -   Si la línea del documento registrado contiene líneas de seguimiento de productos, el programa rellena el campo **Liquid.-de mov. pdto** de dichas líneas de seguimiento con los números de movimiento de producto correspondientes de las líneas de seguimiento de productos registradas.  
+   - Si la línea del documento registrado contiene líneas de seguimiento de productos, el programa rellena el campo **Liquid.-de mov. pdto** de dichas líneas de seguimiento con los números de movimiento de producto correspondientes de las líneas de seguimiento de productos registradas.  
 
      Cuando se copia desde una factura o abono registrados, el programa copia los descuentos de factura y de línea válidos en el momento de registrar ese documento desde la línea del documento registrado a la nueva línea de documento. Sin embargo, tenga en cuenta que si se activa la opción **Calc. dto. factura** en la ventana **Configuración de ventas y cobros**, el descuento en factura se volverá a calcular cuando registre una línea de documento nueva. Por lo tanto, el importe de la nueva línea puede ser distinto del importe de la línea del documento registrado, dependiendo del nuevo cálculo de descuento de factura.  
 

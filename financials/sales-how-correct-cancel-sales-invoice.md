@@ -39,7 +39,7 @@ Al corregir o cancelar una factura de ventas registrada, el abono de venta de co
 2. Seleccione la factura de venta registrada que desea corregir.
 
     > [!NOTE]  
->   Si se selecciona la casilla **Cancelado**, no puede corregir la factura de venta registrada porque ya se ha corregido o cancelado.
+   >   Si se selecciona la casilla **Cancelado**, no puede corregir la factura de venta registrada porque ya se ha corregido o cancelado.
 3. En la ventana **Factura de ventas registrada**, elija la acción **Corregir**.  
 4. Una nueva factura de venta con la misma información se crea donde puede realizar la corrección. El campo **Cancelado** en la factura de ventas registrada inicial se cambia a **Sí**.
 
@@ -51,7 +51,7 @@ Al corregir o cancelar una factura de ventas registrada, el abono de venta de co
 2. Seleccione la factura de venta registrada que desea cancelar.
 
     > [!NOTE]  
->   Si se selecciona la casilla **Cancelado**, no puede cancelar la factura de venta registrada porque ya se ha cancelado o corregido.
+   >   Si se selecciona la casilla **Cancelado**, no puede cancelar la factura de venta registrada porque ya se ha cancelado o corregido.
 3. En la ventana **Factura de ventas registrada**, elija la acción **Cancelar**.
 
     Un abono de venta se crea y se registra automáticamente para anular la factura de venta registrada inicial. El campo **Cancelado** en la factura de ventas registrada inicial se cambia a **Sí**.

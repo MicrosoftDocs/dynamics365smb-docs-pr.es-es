@@ -27,7 +27,7 @@ Si se produce material de rechazo durante el proceso, se puede introducir en el 
 
 ## <a name="to-post-scrap-manually"></a>Para registrar el material de rechazo manualmente  
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diario de salida** y, a continuación, seleccione el vínculo relacionado.  
-2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. Rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. En el campo **Cantidad rechazada**, introduzca la cantidad rechazada.  
 4. En el campo **Cód. rechazo**, introduzca el código de rechazo.  
 5. Seleccione la acción **Registrar** para registrar el material de rechazo específico por operación.  

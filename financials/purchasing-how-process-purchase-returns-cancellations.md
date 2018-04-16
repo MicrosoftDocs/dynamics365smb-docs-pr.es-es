@@ -89,45 +89,45 @@ El abono de compra se ha eliminado y remplazado por un nuevo documento de la lis
     - Utilice la función **Revertir líneas documentos registrados:** para copiar una o más líneas de documentos registrados de uno o varios documentos registrados. Esta función revierte siempre exactamente los costes a partir de la línea de documento registrada. Esta función se describe en los pasos siguientes.    
     - Puede utilizar la función **Copiar documento** para copiar un documento existente al pedido de devolución. Utilice esta función para copiar el documento completo. Puede ser un documento registrado o un documento que todavía no se registró. Esta función sólo permite invertir el coste exacto cuando está seleccionada la casilla **Coste exacto devol. obligatorio** en la ventana **Configuración ventas y cobros**.  
 
-4. Elija la acción **Revertir líneas documentos registrados**.
-5. En la parte superior de la ventana **Líneas doc. compras contabilizadas**, seleccione el campo **Mostrar sólo líneas reversibles** si solo desea ver las líneas con cantidades que aún no se han devuelto. Por ejemplo, si la cantidad de una factura de compra registrada ya se ha devuelto, puede que no desee incluir esa cantidad en un nuevo documento de devolución de compra.
+5. Elija la acción **Revertir líneas documentos registrados**.
+6. En la parte superior de la ventana **Líneas doc. compras contabilizadas**, seleccione el campo **Mostrar sólo líneas reversibles** si solo desea ver las líneas con cantidades que aún no se han devuelto. Por ejemplo, si la cantidad de una factura de compra registrada ya se ha devuelto, puede que no desee incluir esa cantidad en un nuevo documento de devolución de compra.
 
     > [!NOTE]  
     >  Este campo sólo funciona para líneas de facturas, envíos y recepciones registradas, no para líneas de abonos o devoluciones registradas.  
 
     En la parte izquierda de la ventana, se listan los diferentes tipos de documento y el número que aparece entre corchetes muestra el número de documentos que hay disponible del tipo en concreto.
 
-6. En el campo **Filtro de tipo de documento**, seleccione el tipo de líneas de documento registrado que desea utilizar.  
-7. Seleccione las líneas que desea copiar en el nuevo documento.  
+7. En el campo **Filtro de tipo de documento**, seleccione el tipo de líneas de documento registrado que desea utilizar.  
+8. Seleccione las líneas que desea copiar en el nuevo documento.  
 
     > [!NOTE]  
     >  Si utiliza Ctrl+E para seleccionar todas las líneas, se copiarán todas las líneas incluidas en el filtro definido, pero se ignorará el filtro **Mostrar sólo líneas reversibles**. Por ejemplo, imagine que ha filtrado las líneas en un número de documento determinado con dos líneas, una de las cuales ya se ha devuelto. Aunque el campo **Mostrar sólo líneas reversibles** esté seleccionado, si presiona Ctrl+E para copiar todas las líneas, se copiarán las dos líneas, en lugar de copiar solamente aquella que aún no se ha revertido.  
 
-8. Seleccione **Aceptar** para copiar las líneas en el documento nuevo.  
+9. Seleccione **Aceptar** para copiar las líneas en el documento nuevo.  
 
     Tendrán lugar los siguientes procesos:  
 
-    -   Para las líneas de documentos registrados del tipo **Producto**, se crea una nueva línea de documento que es una copia de la línea del documento registrado, con la cantidad que aún no se ha revertido. El campo **Liquid. por nº orden producto** se rellena según corresponda con el número de movimiento de producto correspondiente a la línea del documento registrado.  
+   - Para las líneas de documentos registrados del tipo **Producto**, se crea una nueva línea de documento que es una copia de la línea del documento registrado, con la cantidad que aún no se ha revertido. El campo **Liquid. por nº orden producto** se rellena según corresponda con el número de movimiento de producto correspondiente a la línea del documento registrado.  
 
-    -   Para las líneas de documentos registrados que no sean del tipo **Producto**, como los cargos de producto, se crea una nueva línea de documento que es una copia de la línea del documento registrado original.  
+   - Para las líneas de documentos registrados que no sean del tipo **Producto**, como los cargos de producto, se crea una nueva línea de documento que es una copia de la línea del documento registrado original.  
 
-    -   Calcula el campo **Coste unitario (DL)** de la nueva línea a partir de los costes de los movimientos de producto correspondientes.  
+   - Calcula el campo **Coste unitario (DL)** de la nueva línea a partir de los costes de los movimientos de producto correspondientes.  
 
-    -   Si el documento copiado es un envío, una recepción, una recepción de devolución o un envío de devolución registrados, el precio de venta se calcula automáticamente a partir de la ficha del producto.  
+   - Si el documento copiado es un envío, una recepción, una recepción de devolución o un envío de devolución registrados, el precio de venta se calcula automáticamente a partir de la ficha del producto.  
 
-    -   Si el documento copiado es una factura o un abono registrado, se copian el precio de venta, los descuentos de factura y los descuentos de línea de la línea del documento registrado.  
+   - Si el documento copiado es una factura o un abono registrado, se copian el precio de venta, los descuentos de factura y los descuentos de línea de la línea del documento registrado.  
 
-    -   Si la línea del documento registrado contiene líneas de seguimiento de productos, el programa rellena el campo **Liq. por nº orden producto** de dichas líneas de seguimiento con los números de movimiento de producto correspondientes de las líneas de seguimiento de productos registradas.  
+   - Si la línea del documento registrado contiene líneas de seguimiento de productos, el programa rellena el campo **Liq. por nº orden producto** de dichas líneas de seguimiento con los números de movimiento de producto correspondientes de las líneas de seguimiento de productos registradas.  
 
      Cuando se copia desde una factura o abono registrados, el programa copia los descuentos de factura y de línea válidos en el momento de registrar ese documento desde la línea del documento registrado a la nueva línea de documento. Sin embargo, tenga en cuenta que si se activa la opción **Calc. dto. factura** en la ventana **Confi&guración compras y pagos**, el descuento en factura se volverá a calcular cuando registre una línea de documento nueva. Por lo tanto, el importe de la nueva línea puede ser distinto del importe de la línea del documento registrado, dependiendo del nuevo cálculo de descuento de factura.  
 
-    > [!NOTE]  
-    >  Si ya se ha revertido, vendido o consumido parte de la cantidad de la línea del documento registrado, se crea una línea sólo para la cantidad que queda en inventario o que no se ha devuelto. Si ya se ha revertido toda la cantidad de la línea del documento registrado, no se crea una nueva línea de documento.  
-    >   
-    >  Si el flujo de los artículos en el documento registrado coincide con el del nuevo documento, se crea una copia de la línea del documento registrado original en el nuevo documento. El campo **Liquid.-de mov. pdto** se ha rellenado porque, en este caso, la reversión de coste exacto no es posible. Por ejemplo, si utiliza la función **Revertir líneas documentos registrados** para obtener una línea de un abono de compras registrado para un nuevo abono de compras, sólo se copia la línea del abono registrado original en el nuevo abono.  
+     > [!NOTE]  
+     >  Si ya se ha revertido, vendido o consumido parte de la cantidad de la línea del documento registrado, se crea una línea sólo para la cantidad que queda en inventario o que no se ha devuelto. Si ya se ha revertido toda la cantidad de la línea del documento registrado, no se crea una nueva línea de documento.  
+     >   
+     >  Si el flujo de los artículos en el documento registrado coincide con el del nuevo documento, se crea una copia de la línea del documento registrado original en el nuevo documento. El campo **Liquid.-de mov. pdto** se ha rellenado porque, en este caso, la reversión de coste exacto no es posible. Por ejemplo, si utiliza la función **Revertir líneas documentos registrados** para obtener una línea de un abono de compras registrado para un nuevo abono de compras, sólo se copia la línea del abono registrado original en el nuevo abono.  
 
-8. En la ventana **Pedido dev. compra**, en el campo **Cód. auditoría dev.** de cada línea, seleccione el motivo de la devolución.
-9. Seleccione la acción **Registrar**.
+10. En la ventana **Pedido dev. compra**, en el campo **Cód. auditoría dev.** de cada línea, seleccione el motivo de la devolución.
+11. Seleccione la acción **Registrar**.
 
 ## <a name="to-create-a-replacement-purchase-order-from-a-purchase-return-order"></a>Para crear un pedido de sustitución a partir de un pedido de devolución de compra
 Puede estar de acuerdo con el proveedor en que compense un producto comprado, sustituyendo el producto. El producto de sustitución puede ser el mismo u otro distinto. Esta situación se puede dar si el proveedor le envió por error un producto equivocado.  

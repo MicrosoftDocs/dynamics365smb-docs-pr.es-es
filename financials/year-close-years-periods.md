@@ -39,6 +39,6 @@ La tabla siguiente proporciona un resumen de las tareas que realiza, por lo gene
 [Abrir un nuevo ejercicio](finance-how-open-new-fiscal-year.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+## [!INCLUDE [d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE [d365fin](includes/training_link_md.md)]
 

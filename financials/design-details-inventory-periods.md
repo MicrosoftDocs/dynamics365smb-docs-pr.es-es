@@ -26,11 +26,11 @@ Las transacciones o los ajustes de coste a los que se aplica fecha retroactiva a
 
  Para garantizar que todos los movimientos de transacción de un periodo cerrado son finales, se deben cumplir las condiciones siguientes para que se pueda cerrar un periodo de inventario:  
 
--   Todos los movimientos de producto de en el periodo deben cerrarse (no hay inventario negativo).  
--   Todos los costes de producto en el periodo deben ser ajustados.  
--   Debe ajustarse el coste de todas las órdenes de producción lanzadas y terminadas en el periodo.  
+- Todos los movimientos de producto de en el periodo deben cerrarse (no hay inventario negativo).  
+- Todos los costes de producto en el periodo deben ser ajustados.  
+- Debe ajustarse el coste de todas las órdenes de producción lanzadas y terminadas en el periodo.  
 
- Cuando cierra un periodo de inventario, se crea un movimiento de periodo de inventario mediante el número del último registro de producto que está dentro de dicho periodo. Además, la hora, la fecha y el código del usuario del usuario que cierra el periodo se registran en el movimiento del periodo de inventario. Usando esta información con el último registro de producto para el periodo anterior, puede ver qué transacciones de inventario se registraron en el periodo del inventario. También se pueden volver a abrir periodos de inventario si necesita aplicar un registro en un periodo cerrado. Cuando se vuelve a abrir un periodo de inventario, se crea un movimiento de periodo de inventario.  
+  Cuando cierra un periodo de inventario, se crea un movimiento de periodo de inventario mediante el número del último registro de producto que está dentro de dicho periodo. Además, la hora, la fecha y el código del usuario del usuario que cierra el periodo se registran en el movimiento del periodo de inventario. Usando esta información con el último registro de producto para el periodo anterior, puede ver qué transacciones de inventario se registraron en el periodo del inventario. También se pueden volver a abrir periodos de inventario si necesita aplicar un registro en un periodo cerrado. Cuando se vuelve a abrir un periodo de inventario, se crea un movimiento de periodo de inventario.  
 
 ## <a name="see-also"></a>Consulte también  
  [Detalles de diseño: Coste de inventario](design-details-inventory-costing.md) [Gestión de costes de inventario](finance-manage-inventory-costs.md) [Finanzas](finance.md)  

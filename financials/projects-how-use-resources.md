@@ -29,7 +29,7 @@ Asigne recursos a proyectos creando líneas de planificación para el proyecto. 
 
 ## <a name="to-record-resource-usage-for-a-job"></a>Para registrar el uso de recursos de un proyecto
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diarios de proyectos** y, a continuación, seleccione el vínculo relacionado.
-2. Abra una sección del diario de proyectos correspondiente y, a continuación, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Abra una sección del diario de proyectos correspondiente y, a continuación, rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Cuando el diario esté completo, seleccione la acción **Registrar**.
 
 ## <a name="to-adjust-resource-prices"></a>Para ajustar los precios de los recursos

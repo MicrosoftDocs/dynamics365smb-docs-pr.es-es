@@ -151,7 +151,7 @@
 
 # [Finanzas](finance.md)
 ## [Administrar cobros](receivables-manage-receivables.md)
-###[Liquidar pagos automáticamente y conciliar cuentas bancarias](receivables-apply-payments-auto-reconcile-bank-accounts.md)
+### [Liquidar pagos automáticamente y conciliar cuentas bancarias](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ### [Conciliar pagos manualmente de una lista de documentos de venta sin abonar](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
 ### [Aplicar pagos de cliente manualmente](receivables-how-apply-sales-transactions-manually.md)  
 ### [Cobrar saldos pendientes](receivables-collect-outstanding-balances.md)

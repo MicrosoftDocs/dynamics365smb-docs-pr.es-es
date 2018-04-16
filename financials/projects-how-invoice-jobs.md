@@ -33,7 +33,7 @@ Puede crear la factura de un proyecto o de una o varias tareas del proyecto para
 En la ventana **Proyectos** puede facturar a un cliente seleccionando el proyecto y eligiendo la acción **Crear factura venta proyecto**. El siguiente procedimiento muestra cómo utilizar un proceso para facturar varios proyectos.  
 
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Crear factura venta proyecto** y, a continuación, elija el vínculo relacionado.  
-2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Seleccione filtros si desea limitar los proyectos que el proceso va a procesar.
 4. Elija el botón **Aceptar** para crear las facturas.  
 

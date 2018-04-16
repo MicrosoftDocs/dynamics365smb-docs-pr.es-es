@@ -51,16 +51,16 @@ El sistema debe mantener un control constante de la disponibilidad de productos 
 
  Debe ser posible reservar todos los productos del inventario, excepto los que han iniciado el proceso de salida. Por consiguiente, la cantidad disponible para reservar se define como la cantidad en todos los documentos y todos los tipos de ubicación, excepto las cantidades de salida siguientes:  
 
--   Cantidad en documentos de picking no registrados  
--   Cantidad en ubicaciones de envío  
--   Cantidad en ubicaciones para producción  
--   Cantidad en ubicaciones de aprovisionamiento manual  
--   Cantidad en ubicaciones para ensamblado  
--   Cantidad en ubicaciones de ajuste  
+- Cantidad en documentos de picking no registrados  
+- Cantidad en ubicaciones de envío  
+- Cantidad en ubicaciones para producción  
+- Cantidad en ubicaciones de aprovisionamiento manual  
+- Cantidad en ubicaciones para ensamblado  
+- Cantidad en ubicaciones de ajuste  
 
- El resultado se muestra en el campo**Cantidad total disponible** en la ventana **Reservas**.  
+  El resultado se muestra en el campo**Cantidad total disponible** en la ventana **Reservas**.  
 
- En una línea de reserva, la cantidad que no se puede reservar, porque está asignada en el almacén, se muestra en el campo **Cant. asignada en Almacén** de la ventana **Reservas**.  
+  En una línea de reserva, la cantidad que no se puede reservar, porque está asignada en el almacén, se muestra en el campo **Cant. asignada en Almacén** de la ventana **Reservas**.  
 
 ### <a name="calculating-the-quantity-available-to-reserve"></a>Cálculo de la cantidad disponible para reservar  
  La cantidad disponible para reservar se calcula de la manera siguiente:  

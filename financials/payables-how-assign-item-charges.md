@@ -42,7 +42,7 @@ Los números de cargo de producto sirven para diferenciar los distintos tipos de
 
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Cargos producto** y, a continuación, seleccione el vínculo relacionado.
 2. En la ventana **Cargos producto**, seleccione la acción **Nuevo** para crear una línea nueva.
-3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item"></a>Asignar un coste de producto directamente en la factura de compra del producto
 Si conoce el coste de un producto en el momento en que registra la factura de compra, siga este procedimiento.
@@ -53,7 +53,7 @@ Si conoce el coste de un producto en el momento en que registra la factura de co
 4. En una línea nueva, en el campo **Tipo**, seleccione **Cargo (prod.)**.
 5. En el campo **Cantidad**, introduzca las unidades del coste de producto que se han facturado.
 6. En el campo **Precio compra**, introduzca el importe del cargo de producto.
-7. Rellene los campos restantes según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+7. Rellene los campos restantes según sea necesario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     En los siguientes pasos, se efectuará la asignación actual. Hasta que el cargo del producto esté completamente asignado, el valor en el campo **Cdad. para asignar** aparece de color rojo.
 8. En la ficha **Líneas**, seleccione la acción **Asignación cargo prod.**.

@@ -27,7 +27,7 @@ Así podrá crear las líneas de documento para un almacén específico, consult
 ## <a name="to-create-a-location-card"></a>Para crear una ficha de almacén
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Almacenes** y, a continuación, seleccione el vínculo relacionado.
 2. Seleccione la acción **Nuevo**.
-3. En la ventana **Ficha de almacén**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. En la ventana **Ficha de almacén**, rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Repita los pasos 2 y 3 para cada almacén en el que desea guardar el inventario.
 
 > [!NOTE]  
@@ -37,7 +37,7 @@ Así podrá crear las líneas de documento para un almacén específico, consult
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Rutas de transferencia** y, a continuación, seleccione el vínculo relacionado.
 2. Opcionalmente, desde cualquier ventana **Ficha almacén**, elija la acción **Rutas de transferencia**.
 3. Seleccione la acción **Nuevo**.
-4. En la ventana **Ficha de almacén**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. En la ventana **Ficha de almacén**, rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Ahora puede transferir productos de inventario entre dos almacenes. Para obtener más información, vea [Transferir el inventario entre almacenes](inventory-how-transfer-between-locations.md).    
 

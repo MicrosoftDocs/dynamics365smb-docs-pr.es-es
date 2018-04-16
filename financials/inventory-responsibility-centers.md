@@ -29,11 +29,11 @@ Con múltiples almacenes, las empresas pueden gestionar sus existencias en diver
 Los centros de responsabilidad amplían la funcionalidad de los almacenes múltiples, ya que ofrecen a los usuarios la posibilidad de gestionar centros administrativos. Un centro de responsabilidad puede ser un centro de coste, de beneficios, de inversión o cualquier otro centro administrativo definido por la empresa. Entre los ejemplos de centros de responsabilidad se encuentran una oficina de ventas, un departamento de compras para varios almacenes y una oficina de planificación de una planta. Con esta funcionalidad las empresas pueden, por ejemplo, configurar vistas específicas para cada usuario de los documentos de compra y de venta relacionados exclusivamente con un centro de responsabilidad determinado.
 
 ## <a name="to-set-up-a-responsibility-center"></a>Para configurar un centro de responsabilidad  
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Centro responsabilidades** y, a continuación, seleccione el vínculo relacionado.  
-2.  Seleccione la acción **Nuevo**.  
-3.  Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Centro responsabilidades** y, a continuación, seleccione el vínculo relacionado.  
+2. Seleccione la acción **Nuevo**.  
+3. Rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-    Si utiliza centros de responsabilidad para administrar la empresa, puede resultar útil tener un centro de responsabilidad predeterminado en la empresa.
+   Si utiliza centros de responsabilidad para administrar la empresa, puede resultar útil tener un centro de responsabilidad predeterminado en la empresa.
 4. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Información de la empresa** y, a continuación, seleccione el vínculo relacionado.
 5. En el campo **Centro responsabilidades**, escriba un código de centro de responsabilidad.
 

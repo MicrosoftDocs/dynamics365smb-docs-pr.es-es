@@ -41,7 +41,7 @@ Puede crear un método de proyecto WIP que refleje las necesidades de su organiz
 > Tras haber usado el nuevo método para crear los movimientos del WIP, no puede eliminar el método ni modificarlo.  
 
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Métodos WIP de proyecto** y, a continuación, seleccione el vínculo relacionado.  
-2. Elija la acción **Nuevo** y, a continuación, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. Elija la acción **Nuevo** y, a continuación, rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Cierre la ventana.   
 4. Para convertir este nuevo método en el predeterminado, en la esquina superior derecha, seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Configuración de proyectos** y, a continuación, seleccione el vínculo relacionado.  
 5. En el campo **Método WIP predet.**, seleccione el método de la lista.

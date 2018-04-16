@@ -99,7 +99,7 @@ Los empleados pueden ahora proceder a contar el inventario y registrar las discr
     Los campos relacionados se actualizan según corresponda.
 
     > [!NOTE]  
->   Si el recuento físico revela diferencias, producidas por productos que se registraron con códigos de almacén incorrectos, no introduzca las diferencias en el diario de inventario físico. En su lugar, utilice el diario de reclasificación o un pedido de transferencia para redirigir los productos a los almacenes correctos. Para obtener más información, consulte Diario recl. prod. o Creación de pedidos de transferencia.
+   >   Si el recuento físico revela diferencias, producidas por productos que se registraron con códigos de almacén incorrectos, no introduzca las diferencias en el diario de inventario físico. En su lugar, utilice el diario de reclasificación o un pedido de transferencia para redirigir los productos a los almacenes correctos. Para obtener más información, consulte Diario recl. prod. o Creación de pedidos de transferencia.
 
 2. Para ajustar las cantidades calculadas a las cantidades contadas reales, elija la acción **Registrar**.
 
@@ -134,7 +134,7 @@ El inventario físico se realiza normalmente en intervalos de tiempo periódicos
 Configure los periodos de recuento de inventario que desee utilizar y, a continuación, asigne uno a cada producto. Al realizar un inventario físico y utilizar **Calcular periodo recuento** en el diario de inventario físico, las líneas de los elementos se crean automáticamente.
 
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Períodos recuento inventario físico** y, a continuación, seleccione el vínculo relacionado.  
-2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="to-assign-a-counting-period-to-an-item"></a>Asignar un periodo de recuento a un producto  
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Productos** y, a continuación, seleccione el vínculo relacionado.  
@@ -180,7 +180,7 @@ En la ventana **Diario productos**, puede publicar transacciones de artículos d
 Si utiliza con frecuencia el diario de productos para registrar líneas de diario iguales o parecidas, por ejemplo, relacionadas con el consumo de materiales, puede utilizar la ventana **Diario productos estándar** para hacer más fácil este trabajo repetitivo. Para obtener más información, consulte la sección "Diarios estándar" en [Trabajar con diarios generales](ui-work-general-journals.md).
 
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diarios producto** y, a continuación, seleccione el vínculo relacionado.
-2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Seleccione la acción **Registrar** para realizar ajustes de inventario.
 
 > [!NOTE]  

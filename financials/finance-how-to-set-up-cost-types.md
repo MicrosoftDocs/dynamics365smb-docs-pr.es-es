@@ -35,17 +35,17 @@ El plan de tipos de coste es similar al plan de cuentas de contabilidad general.
     >  La función **Registrar tipos de coste en plan ctas.** actualiza la relación entre el plan de cuentas y el plan de tipos de coste. El campo **Nº** se rellena y comprueba para asegurarse de que cada cuenta contable está relacionada con un solo tipo de coste. La función se ejecuta automáticamente antes de transferir los movimientos de contabilidad a la contabilidad de costes.  
 
 ## <a name="to-set-up-new-cost-types-in-the-chart-of-cost-types-window"></a>Configurar nuevos tipos de coste en la ventana Tipos centros coste  
-1.  Abra la ventana **Tipos centros coste** en el modo de edición.  
-2.  Rellene los campos descritos como necesarios. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1. Abra la ventana **Tipos centros coste** en el modo de edición.  
+2. Rellene los campos descritos como necesarios. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-    > [!NOTE]  
-    >  Puede configurar y mantener tipos de coste en la ventana **Ficha tipo de coste** o bien en la ventana **Plan tipos coste**. En este procedimiento, va a configurar tipos de coste en la ventana **Plan de tipos de coste**.
+   > [!NOTE]  
+   >  Puede configurar y mantener tipos de coste en la ventana **Ficha tipo de coste** o bien en la ventana **Plan tipos coste**. En este procedimiento, va a configurar tipos de coste en la ventana **Plan de tipos de coste**.
 
-3.  Una vez creados todos los tipos de coste, elija la acción **Aplicar sangría a tipos coste**. En el cuadro de diálogo, elija el botón **Sí**.  
-4.  Vincule el nuevo tipo de coste a la cuenta de contabilidad correspondiente.  
+3. Una vez creados todos los tipos de coste, elija la acción **Aplicar sangría a tipos coste**. En el cuadro de diálogo, elija el botón **Sí**.  
+4. Vincule el nuevo tipo de coste a la cuenta de contabilidad correspondiente.  
 
-    > [!IMPORTANT]  
-    >  Si se han escrito definiciones en el campo **Totales** para las cuentas de tipo **Fin-Total** antes de ejecutar la función **Aplicar sangría a tipos coste**, deberá volver a escribir las definiciones más adelante porque la función sobrescribe los valores de todos los campos **Fin-Total**.  
+   > [!IMPORTANT]  
+   >  Si se han escrito definiciones en el campo **Totales** para las cuentas de tipo **Fin-Total** antes de ejecutar la función **Aplicar sangría a tipos coste**, deberá volver a escribir las definiciones más adelante porque la función sobrescribe los valores de todos los campos **Fin-Total**.  
 
 ## <a name="to-update-cost-types"></a>Para actualizar tipos de coste  
 1.  En la ventana **Configuración contabilidad costes**, seleccione si desea que el plan de tipos de coste se actualice automáticamente cuando el plan de cuentas se cambia.  

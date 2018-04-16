@@ -59,7 +59,7 @@ Puede definir un porcentaje de prepago predeterminado de un producto para todos 
 
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Productos** y, a continuación, seleccione el vínculo relacionado.
 2. Seleccione un elemento y, a continuación, elija la acción **Conf. ventas y cobros**.  
-3. En la ventana **Porcentajes prepago ventas**, rellene los campos como sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. En la ventana **Porcentajes prepago ventas**, rellene los campos como sea necesario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Puede definir un porcentaje de prepago predeterminado para un cliente o proveedor en relación con todos los productos y todos los tipos de líneas de venta. Especifíquelo en la ficha de cliente o de proveedor.
 

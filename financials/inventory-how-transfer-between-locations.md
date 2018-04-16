@@ -33,10 +33,10 @@ Para transferir productos, se deben configurar las ubicaciones y las rutas de tr
 
 ## <a name="to-transfer-items-with-a-transfer-order"></a>Para transferir productos con un pedido de transferencia
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Pedidos de transferencia** y, a continuación, seleccione el vínculo relacionado.
-2. En la ventana **Pedido de transferencia**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. En la ventana **Pedido de transferencia**, rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
->   Si ha rellenado los campos **Cód. en tránsito**, **Cód. transportista** y **Cód. servicio transportista** en la ventana **Ruta transf. espec.** cuando configuró la ruta de transferencia, los campos correspondientes del pedido de transferencia se rellenan automáticamente.
+   >   Si ha rellenado los campos **Cód. en tránsito**, **Cód. transportista** y **Cód. servicio transportista** en la ventana **Ruta transf. espec.** cuando configuró la ruta de transferencia, los campos correspondientes del pedido de transferencia se rellenan automáticamente.
 
     Cuando se especifica un valor en el campo **Servicio transportista**, se calcula la fecha de recepción en el almacén de destino de la transferencia, sumando el tiempo de envío del transportista a la fecha de envío.
 
@@ -50,11 +50,11 @@ Para transferir productos, se deben configurar las ubicaciones y las rutas de tr
 
 ## <a name="to-transfer-items-with-the-item-reclassification-journal"></a>Para transferir productos con el diario de reclasificación de productos
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diarios reclas. producto** y, a continuación, seleccione el vínculo relacionado.
-2. En la ventana **Diarios reclasif. producto**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. En la ventana **Diarios reclasif. producto**, rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. En el campo **Cód. almacén**, escriba la ubicación donde se almacenan los productos actualmente.
 
     > [!NOTE]  
->   Para transferir productos que no tienen código de almacén, deje en blanco el campo **Cód. almacén**.
+   >   Para transferir productos que no tienen código de almacén, deje en blanco el campo **Cód. almacén**.
 4. En el campo **Cód. almacén destino**, especifique la ubicación a la que desee transferir los productos.
 5. Seleccione la acción **Registrar**.
 

@@ -36,7 +36,7 @@ No se incluyen los movimientos de proveedor no son del tipo **Esperar**.
 ## <a name="to-use-the-suggest-vendor-payments-function"></a>Para usar la función Proponer pagos a proveedores
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diarios de pagos** y, a continuación, seleccione el vínculo relacionado.  
 2. Abra el diario pertinente y, a continuación, elija la acción **Proponer pagos a proveedor**.  
-3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. Rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Elija el botón **Aceptar**.  
 
 ## <a name="to-insert-the-due-date-as-posting-date-on-payment-journal-lines"></a>Para insertar la fecha de vencimiento como fecha de registro en líneas de diario de pagos

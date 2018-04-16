@@ -38,14 +38,14 @@ Finalmente, si ha definido sus ubicaciones de almacenamiento masivo con un tipo 
 
 La próxima vez que calcule la reposición de la ubicación, se volverán a crear las sugerencias que ha eliminado, si siguen siendo válidas en ese momento.  
 
-> [!NOTE]  
+> [!NOTE]
 >  Si un producto cumple las siguientes condiciones:  
->   
->  -   El producto tiene fecha de caducidad y  
-> -   Se selecciona el campo **Picking según FEFO (Primero en caducar, primero en salir)** de la ficha de almacén. y  
-> -   Utilice la funcionalidad **Calcular reposición ubicación**  
->   
->  los campos **Desde zona** y **Desde ubicación** estarán en blanco, ya que el algoritmo para calcular desde dónde se van a mover los productos sólo se ejecuta al activar la función **Crear movimiento**.  
+> 
+> - El producto tiene fecha de caducidad y  
+>   -   Se selecciona el campo **Picking según FEFO (Primero en caducar, primero en salir)** de la ficha de almacén. y  
+>   -   Utilice la funcionalidad **Calcular reposición ubicación**  
+> 
+>   los campos **Desde zona** y **Desde ubicación** estarán en blanco, ya que el algoritmo para calcular desde dónde se van a mover los productos sólo se ejecuta al activar la función **Crear movimiento**.  
 
 ## <a name="see-also"></a>Consulte también  
 [Gestión almacén](warehouse-manage-warehouse.md)  

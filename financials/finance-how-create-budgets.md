@@ -32,7 +32,7 @@ En contabilidad de costes, trabaja con los presupuestos de costes de forma simil
 
 ## <a name="to-create-a-new-gl-budget"></a>Para crear un nuevo presupuesto contable  
 1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Presupuestos contables** y, a continuación, seleccione el vínculo relacionado.  
-2. Elija la acción **Editar lista** y, a continuación, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. Elija la acción **Editar lista** y, a continuación, rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Seleccione la acción **Editar presupuesto**.
 4. En la parte superior de la ventana **Presupuesto** rellene los campos según sea necesario para definir lo que se muestra.  
 

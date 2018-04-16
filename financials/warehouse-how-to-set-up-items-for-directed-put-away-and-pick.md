@@ -51,9 +51,9 @@ También puede definir los códigos de clase de almacén, si el almacén trabaja
 Ahora está preparado para configurar zonas, si desea trabajar con ellas en el almacén. El uso de zonas reduce el número de campos que tiene que rellenar al configurar sus ubicaciones, porque las ubicaciones creadas en zonas heredan varias propiedades de la zona. Las zonas también ayudan a los empleados nuevos o temporales a orientarse en el almacén. Observe que el flujo se controla a través de las ubicaciones, por tanto es posible funcionar con las ubicaciones y una sola zona.  
 
 ## <a name="to-set-up-a-zone-in-your-warehouse"></a>Para configurar una zona en el almacén  
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Almacenes** y, a continuación, seleccione el vínculo relacionado.  
-2.  Seleccione el almacén donde desee configurar la zona y abra la ficha de almacén y elija la acción **Zonas**.  
-3.  En la ventana **Zonas**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Almacenes** y, a continuación, seleccione el vínculo relacionado.  
+2. Seleccione el almacén donde desee configurar la zona y abra la ficha de almacén y elija la acción **Zonas**.  
+3. En la ventana **Zonas**, rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 Al cambiar un parámetro de zona, todas las ubicaciones creadas a partir de entonces en dicha zona presentarán las nuevas características. Sin embargo, las ubicaciones originales no cambiarán.  
 

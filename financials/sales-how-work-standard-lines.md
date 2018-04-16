@@ -27,7 +27,7 @@ El siguiente procedimiento muestra cómo trabajar con líneas de ventas estánda
 ## <a name="to-set-up-standard-sales-lines"></a>Para configurar las líneas de ventas estándar  
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Códigos de venta estándar** y, a continuación, seleccione el vínculo relacionado.  
 2. En la ventana **Líneas ventas estándar**, elija la acción **Nuevo**.  
-3. En la ficha desplegable **General**, rellene los campos como sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. En la ficha desplegable **General**, rellene los campos como sea necesario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. En la ficha desplegable **Líneas**, introduzca la información en los campos para preparar líneas de ventas que reflejen las líneas estándar que desea utilizar como líneas recurrentes en los documentos de ventas.  
 
 ## <a name="to-insert-standard-sales-lines-on-a-sales-invoice"></a>Para insertar líneas de ventas estándar en una factura de ventas

@@ -47,7 +47,7 @@ Después de crear documentos de interés y de realizar las modificaciones necesa
 
 ## <a name="to-send-the-customer-statement-report"></a>Enviar el informe de extracto del cliente
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Extracto de cliente** y, a continuación, seleccione el vínculo relacionado.
-2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. En **Opciones de salida**, seleccione cómo enviar el informe al cliente.
 
 > [!NOTE]  

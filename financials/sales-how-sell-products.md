@@ -55,7 +55,7 @@ Puede rellenar los campos de cliente en el pedido de venta de dos formas en func
 7. Cuando haya finalizado la ficha de cliente, haga clic en el botón **Aceptar** para volver a la ventana **Pedido de venta**.
 
     Muchos campos del pedido de venta se rellenan con la información especificada en la nueva ficha de cliente.
-8. Rellene los campos restantes de la ventana **Pedido de venta** según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+8. Rellene los campos restantes de la ventana **Pedido de venta** según sea necesario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     Ya puede rellenar las líneas del pedido de venta con los productos de inventario o los servicios que quiera vender al cliente.
 
@@ -64,7 +64,7 @@ Puede rellenar los campos de cliente en el pedido de venta de dos formas en func
 10. En el campo **Cantidad**, escriba el número de productos que se van a vender.
 
     > [!NOTE]  
->   Para los producto de tipo Servicio la cantidad es una unidad de tiempo, por ejemplo horas, según se indica en el campo **Cód. unidad medida** en la línea.
+    >   Para los producto de tipo Servicio la cantidad es una unidad de tiempo, por ejemplo horas, según se indica en el campo **Cód. unidad medida** en la línea.
 
     El campo **Importe línea** se actualiza para mostrar el valor del campo **Precio venta** multiplicado por el valor del campo **Cantidad**.
 
@@ -79,12 +79,12 @@ Puede rellenar los campos de cliente en el pedido de venta de dos formas en func
 14. Una nueva ficha de cliente muestra la información sobre la plantilla de cliente seleccionada. Rellene el resto de campos. Para obtener más información, vea [Registrar nuevos clientes](sales-how-register-new-customers.md).  
 15. Cuando haya finalizado la ficha de cliente, haga clic en el botón **Aceptar** para volver a la ventana **Pedido de venta**.
 
-   Muchos campos del pedido de venta se rellenan con la información especificada en la nueva ficha de cliente.  
-16. Rellene los campos restantes de la ventana **Pedido de venta** según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+    Muchos campos del pedido de venta se rellenan con la información especificada en la nueva ficha de cliente.  
+16. Rellene los campos restantes de la ventana **Pedido de venta** según sea necesario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-   Ahora podrá rellenar las líneas de la factura de pedido de los productos que vende al cliente o para cualquier transacción con el cliente que desee registrar en una cuenta de contabilidad.   
+    Ahora podrá rellenar las líneas de la factura de pedido de los productos que vende al cliente o para cualquier transacción con el cliente que desee registrar en una cuenta de contabilidad.   
 
-   Si ha configurado líneas de venta periódicas para el cliente, como por ejemplo un pedido de reabastecimiento mensual, puede insertar estas líneas en el pedido seleccionando la acción **Obtener líneas de venta periódicas**.  
+    Si ha configurado líneas de venta periódicas para el cliente, como por ejemplo un pedido de reabastecimiento mensual, puede insertar estas líneas en el pedido seleccionando la acción **Obtener líneas de venta periódicas**.  
 17. En la ficha desplegable **Líneas** del campo **Tipo**, seleccione qué tipo de producto, cargo o transacción registrará para el cliente en la línea de venta.
 18. En el campo **N.º**, seleccione un registro para registrar según el valor del campo **Tipo**.
 
@@ -94,7 +94,7 @@ Puede rellenar los campos de cliente en el pedido de venta de dos formas en func
 19. En el campo **Cantidad**, especifique cuántas unidades de producto, cargo o transacción registrará la línea para el cliente.  
 
     > [!NOTE]  
->   Si el producto es de tipo **Producto - Servicio** o **Recurso**, la cantidad es una unidad de tiempo, por ejemplo horas, según se indica en el campo **Cód. unidad medida** en la línea. Para obtener más información, vea [Configurar unidades de medida de producto](inventory-how-setup-units-of-measure.md).
+    >   Si el producto es de tipo **Producto - Servicio** o **Recurso**, la cantidad es una unidad de tiempo, por ejemplo horas, según se indica en el campo **Cód. unidad medida** en la línea. Para obtener más información, vea [Configurar unidades de medida de producto](inventory-how-setup-units-of-measure.md).
 
     El valor del campo **Importe línea** se calculará como *Precio venta* x *Cantidad*.  
 

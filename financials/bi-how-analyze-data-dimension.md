@@ -32,7 +32,7 @@ Los análisis por dimensiones muestran una combinación seleccionada de dimensio
 
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Vistas de análisis** y, a continuación, seleccione el vínculo relacionado.  
 2. En la ventana **Lista vista de análisis**, elija la acción **Nuevo**.
-3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Para agregar otros códigos de dimensión además de los cuatro de la ficha desplegable **Dimensiones**, elija la acción **Filtro**, rellene los campos y, a continuación, elija el botón **Aceptar**.  
 5. Para actualizar la vista, elija la acción **Actualizar**.
 

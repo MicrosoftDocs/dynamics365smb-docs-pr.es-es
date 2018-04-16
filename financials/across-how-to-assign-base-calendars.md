@@ -106,12 +106,12 @@ Los calendarios base se asignan a su propia empresa, clientes, proveedores, alma
 2.  Abra la ficha **Cliente** a la que asignará un calendario base.  
 3.  En la ficha desplegable **Envío**, en el campo **Código calendario base**, seleccione el calendario base que desea asignar.  
 
-> [!IMPORTANT]  
->  -   Si no asigna un calendario base a una empresa, todas las fechas se calculan como días laborables.  
-> -   Si introduce un almacén en blanco en una línea de pedido, todas las fechas se calculan como días laborables.  
-> -   Los calendarios base definidos para un proveedor o ubicación afecta en cómo se calculan las fechas y se redondea a los días laborables.
-
-> [!NOTE]  
+> [!IMPORTANT]
+> - Si no asigna un calendario base a una empresa, todas las fechas se calculan como días laborables.  
+>   -   Si introduce un almacén en blanco en una línea de pedido, todas las fechas se calculan como días laborables.  
+>   -   Los calendarios base definidos para un proveedor o ubicación afecta en cómo se calculan las fechas y se redondea a los días laborables.
+> 
+> [!NOTE]
 >  Antes de que pueda introducir valores en un calendario personalizado, primero debe asignar un calendario base a la empresa.  
 
 ## <a name="see-also"></a>Consulte también

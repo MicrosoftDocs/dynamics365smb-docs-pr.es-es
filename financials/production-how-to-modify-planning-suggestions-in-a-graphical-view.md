@@ -59,6 +59,7 @@ El siguiente procedimiento muestra cómo modificar las sugerencias de suministro
 Para implementar los cambios del plan de suministro, debe seguir los mensajes de acción resultantes de la hoja de planificación o demanda. Para obtener más información, consulte Ejecutar mensajes acción.-Plan..
 
 ## <a name="symbols-and-icons-on-the-timeline-fasttab"></a>Símbolos e iconos en la ficha desplegable Escala de tiempo
+
  |Símbolo/icono|Descripción|  
  |------------------|---------------------------------------|  
  |Cruz negra|Pedidos (aprovisionamiento y demanda).<br /><br /> -   No puede modificar.<br />- Visible cuando está seleccionado el campo **Mostrar inventario proyectado** (gráfico anaranjado).|  

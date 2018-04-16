@@ -27,7 +27,7 @@ Para buscar productos por características, puede asignar los atributos de produ
 ## <a name="to-create-an-item-category"></a>Para crear una categoría de producto
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Categorías de producto** y, a continuación, seleccione el vínculo relacionado.
 2. En la ventana **Categorías de producto**, seleccione la acción **Nuevo**.
-3. En la ficha desplegable **General** de la ventana **Ficha de categoría de producto**, complete los campos como sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. En la ficha desplegable **General** de la ventana **Ficha de categoría de producto**, complete los campos como sea necesario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. En la ficha desplegable **Atributos**, especifique atributos de producto a la categoría. Para obtener más información, vea la sección "Para asignar atributos de producto a una categoría" en [Trabajar con atributos de producto](inventory-how-work-item-attributes.md).
 
 > [!NOTE]  

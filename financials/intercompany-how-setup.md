@@ -30,7 +30,7 @@ Si va a realizar transacciones de ventas entre empresas vinculadas que incluyan 
 
 ## <a name="to-set-up-companies-for-intercompany-transactions"></a>Establecer empresas para transacciones entre empresa vinculadas
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Información de la empresa** y, a continuación, seleccione el vínculo relacionado.  
-2. En la ventana **Información de la empresa**, rellene los campos **Código de socio de empresas vinculadas**, **Tipo de bandeja de entrada de las empresas vinculadas** y **Detalles de bandeja de entrada de las empresas vinculadas**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. En la ventana **Información de la empresa**, rellene los campos **Código de socio de empresas vinculadas**, **Tipo de bandeja de entrada de las empresas vinculadas** y **Detalles de bandeja de entrada de las empresas vinculadas**. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-intercompany-partners"></a>Para establecer socios de empresas vinculadas
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Socios de empresas vinculadas** y, a continuación, seleccione el vínculo relacionado.

@@ -26,7 +26,7 @@ En las fichas de proyecto individuales, debe configurar los precios de los produ
 
 ## <a name="to-set-general-information-for-jobs"></a>Para configurar la información general de los proyectos
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Configuración de proyectos** y, a continuación, seleccione el vínculo relacionado.
-2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
 >   La casilla **Aplicar vínculo uso** es bastante compleja y, por tanto, se explica en la sección siguiente.

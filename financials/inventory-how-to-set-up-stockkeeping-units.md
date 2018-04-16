@@ -26,9 +26,9 @@ Utilice unidades de almacenamiento para registrar información sobre los product
 
 ## <a name="to-set-up-a-stockkeeping-unit"></a>Para configurar una unidad de almacenamiento  
 
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Uds. de almacenam.** y, a continuación, seleccione el vínculo relacionado.  
-2.  Seleccione la acción **Nuevo**.  
-3.  Complete los campos de la ficha. Se requieren los siguientes campos: **Nº producto**, **Cód. almacén** y/o **Cód. variante**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Uds. de almacenam.** y, a continuación, seleccione el vínculo relacionado.  
+2. Seleccione la acción **Nuevo**.  
+3. Complete los campos de la ficha. Se requieren los siguientes campos: **Nº producto**, **Cód. almacén** y/o **Cód. variante**. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 Una vez configurada la primera unidad de almacenamiento para un producto, se selecciona la casilla **Existe ud. de almacenam.** de la ficha **Producto**.  
 

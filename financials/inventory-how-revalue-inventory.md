@@ -25,7 +25,7 @@ Si desea apreciar o depreciar un producto o el movimiento de un determinado prod
 ## <a name="to-revalue-inventory"></a>Para revaluar el inventario
 1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), especifique **Diario revalorizac.** y elija el vínculo relacionado.
 2. Elija la acción **Calcular valor inventario**.
-3. En la ventana **Calcular valor inventario**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. En la ventana **Calcular valor inventario**, rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Elija el botón **Aceptar**.
 5. En cada línea de la ventana **Diario de revalorización**, en el campo **Prec. coste (revaluado)**, especifique el nuevo coste unitario. También puede especificar el nuevo importe total en el campo **Valor inventario (revalorado)**.
 

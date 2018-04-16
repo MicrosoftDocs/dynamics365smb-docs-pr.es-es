@@ -31,7 +31,7 @@ La formación de familias de productos reduce la cantidad de rechazo que normalm
 
 ## <a name="to-set-up-a-production-family"></a>Para configurar una familia de producción
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Familias** y, a continuación, seleccione el vínculo relacionado.
-2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-produce-based-on-a-production-familily"></a>Para producir basándose en una familily producción
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **O.P. Planificadas en firme** y, a continuación, seleccione el vínculo relacionado.

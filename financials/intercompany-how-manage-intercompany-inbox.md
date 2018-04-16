@@ -69,7 +69,7 @@ Cuando sus socios le envían transacciones entre empresas vinculadas, estas tran
 
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Transacciones de bandeja de entrada entre empresas vinculadas** y, a continuación, seleccione el vínculo relacionado.  
 2. En la ventana **Transacciones de bandeja de entrada entre empresas vinculadas**, seleccione una línea y, a continuación, elija una acción, como **Aceptar**, para procesar la línea.
-3. En la ventana **Completa acc. band. entrada IC**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. En la ventana **Completa acc. band. entrada IC**, rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Elija el botón **Aceptar**.  
 
 Para las líneas procesadas con la acción **Aceptar**, se crearán líneas de diario o documentos en su empresa. Abra cada documento o diario, haga los cambios necesarios y regístrelos.  

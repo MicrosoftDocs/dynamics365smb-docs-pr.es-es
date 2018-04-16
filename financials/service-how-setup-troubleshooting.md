@@ -25,7 +25,7 @@ Puede configurar pautas de solución de problemas que ayuden a los técnicos a r
 
 ## <a name="to-set-up-troubleshooting-guidelines"></a>Para configurar instrucciones de detección de errores
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Solución de problemas** y, a continuación, seleccione el vínculo relacionado.  
-2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. Rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-assign-troubleshooting-guidelines-to-items-service-items-or-service-item-groups"></a>Para asignar directrices de solución de problemas a productos, productos de servicio o grupos de productos de servicio
 1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), especifique **Productos**, **Productos de servicio** o **Grupos productos de servicio** y elija el vínculo relacionado.  

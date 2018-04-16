@@ -21,6 +21,7 @@ ms.lasthandoff: 03/22/2018
 ---
 # <a name="purchase-items-for-a-sale"></a>Comprar productos para una venta
 A partir de pedidos y facturas de venta, puede utilizar funciones para crear rápidamente los documentos de compra de las cantidades de productos que faltan que sean necesarias para la venta. Puede utilizar dos funciones distintas dependiendo del tipo de documento.
+
 |Función|Description|
 |--------|-----------|
 |**Crear pedidos de compra**|A partir de un pedido de compra, esta función crea un pedido de compra para cada proveedor de los productos que hay en el pedido de venta. Puede modificar la cantidad de compra antes de crear los pedidos de compra. Solo se sugieren las cantidades de venta no disponibles.
@@ -39,11 +40,11 @@ Para crear un pedido de compra para cada cantidad de producto no disponible en e
 4. Para comprar una cantidad distinta de la cantidad de venta no disponible, edite el valor del campo **Cantidad de compra**.
 
     > [!NOTE]  
->   También puede cambiar el campo **Cantidad de compra** en las líneas atenuadas aunque representen las cantidades de venta totalmente disponibles.
+   >   También puede cambiar el campo **Cantidad de compra** en las líneas atenuadas aunque representen las cantidades de venta totalmente disponibles.
 5. Elija el botón **Aceptar**.
 
     Se crea un pedido de compra para cada proveedor de productos del pedido de venta, incluido cualquier cambio de la cantidad que ha realizado en la ventana **Crear pedidos de compra**.
-7. Procese el pedido o los pedidos de compra, por ejemplo, mediante la modificación o la adición de las líneas del pedido de compra. Para obtener más información, consulte [Registrar compras](purchasing-how-record-purchases.md).
+6. Procese el pedido o los pedidos de compra, por ejemplo, mediante la modificación o la adición de las líneas del pedido de compra. Para obtener más información, consulte [Registrar compras](purchasing-how-record-purchases.md).
 
 
 ## <a name="to-create-a-purchase-invoice-from-a-sales-order-or-sales-invoice"></a>Para crear una factura de compra a partir de un pedido o pedidos de venta

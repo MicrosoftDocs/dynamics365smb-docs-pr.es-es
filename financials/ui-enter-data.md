@@ -75,14 +75,14 @@ Aunque el campo contiene un asterisco rojo, no se le obliga a rellenar el campo 
 # <a name="entering-negative-numbers"></a>Especificación de números negativos
 Puede especificar números negativos de dos formas. El número -20,5 se puede especificar como:  
 
--   -20,5  
+- -20,5  
 
-    O
--   20,5-  
+  O
+- 20,5-  
 
- En ambos casos, el importe se registrará como -20,5.  
+  En ambos casos, el importe se registrará como -20,5.  
 
- Si el último carácter de la expresión es **+** o **-**, la expresión completa se registrará con ese signo. Ejemplo, **10-20+** dará como resultado 10 y no -10.  
+  Si el último carácter de la expresión es **+** o **-**, la expresión completa se registrará con ese signo. Ejemplo, **10-20+** dará como resultado 10 y no -10.  
 
 ## <a name="entering-dates-and-times"></a>Introducir fechas y horas
 Puede especificar fechas y horas en todos los campos diseñados específicamente para las fechas (campos de fecha). Las fechas pueden escribirse con o sin separadores.
@@ -93,15 +93,15 @@ Puede especificar fechas y horas en todos los campos diseñados específicamente
 ### <a name="entering-dates"></a>Introducción de fechas  
  En un campo de fecha, puede introducir dos, cuatro, seis u ocho dígitos:  
 
--   Si introduce solo dos dígitos, se interpretarán como el día y se agregarán el mes y el año de la fecha de trabajo.  
+- Si introduce solo dos dígitos, se interpretarán como el día y se agregarán el mes y el año de la fecha de trabajo.  
 
--   Si introduce cuatro dígitos, se interpretarán como el día y el mes, y agregará el año de la fecha de trabajo.  
+- Si introduce cuatro dígitos, se interpretarán como el día y el mes, y agregará el año de la fecha de trabajo.  
 
--   Si la fecha que desea introducir está en el rango comprendido entre el 01/01/1930 y el 31/12/2029, puede introducir el año con dos dígitos; en caso contrario, introduzca el año mediante cuatro dígitos.  
+- Si la fecha que desea introducir está en el rango comprendido entre el 01/01/1930 y el 31/12/2029, puede introducir el año con dos dígitos; en caso contrario, introduzca el año mediante cuatro dígitos.  
 
- También es posible introducir una fecha como un día de la semana, seguido de un número de la semana y, opcionalmente, un año (por ejemplo, Lun25 o lun25 significa lunes de la semana 25).  
+  También es posible introducir una fecha como un día de la semana, seguido de un número de la semana y, opcionalmente, un año (por ejemplo, Lun25 o lun25 significa lunes de la semana 25).  
 
- En lugar de introducir una fecha específica, puede introducir uno de dos códigos.  
+  En lugar de introducir una fecha específica, puede introducir uno de dos códigos.  
 
 |Código|Resultado|  
 |--------------|----------------|  
@@ -202,13 +202,13 @@ Puede especificar fechas y horas en todos los campos diseñados específicamente
 
  A continuación se incluye algunos ejemplos de cómo se pueden usar las fórmulas de fechas:  
 
--   La fórmula de fecha del campo de frecuencia periódica en los diarios periódicos determina con qué frecuencia se registrará el movimiento de la línea de diario.  
+- La fórmula de fecha del campo de frecuencia periódica en los diarios periódicos determina con qué frecuencia se registrará el movimiento de la línea de diario.  
 
--   La fórmula de fecha del campo Periodo gracia para un determinado nivel de recordatorio determina el periodo de tiempo que debe transcurrir, desde la fecha de vencimiento (o desde la fecha del recordatorio anterior), antes de que se cree un recordatorio.  
+- La fórmula de fecha del campo Periodo gracia para un determinado nivel de recordatorio determina el periodo de tiempo que debe transcurrir, desde la fecha de vencimiento (o desde la fecha del recordatorio anterior), antes de que se cree un recordatorio.  
 
--   La fórmula de fechas del campo Cálculo de fecha de vencimiento determina cómo calcular la fecha de vencimiento en el recordatorio.  
+- La fórmula de fechas del campo Cálculo de fecha de vencimiento determina cómo calcular la fecha de vencimiento en el recordatorio.  
 
- La fórmula para el cálculo de fechas puede contener un máximo de 20 caracteres, números y letras. Puede usar las siguientes letras, que son abreviaturas para especificaciones de tiempo.  
+  La fórmula para el cálculo de fechas puede contener un máximo de 20 caracteres, números y letras. Puede usar las siguientes letras, que son abreviaturas para especificaciones de tiempo.  
 
 |||  
 |-|-|  

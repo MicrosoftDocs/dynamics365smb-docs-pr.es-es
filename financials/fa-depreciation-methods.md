@@ -31,11 +31,11 @@ Hay ocho métodos de amortización disponibles:
 * Manual  
 
   > [!NOTE]  
->   Utilice este método para activos no sujetos a amortización, por ejemplo, los terrenos. Debe introducir la amortización en el diario general de activos fijos. El proceso **Calcular amortización** ignora los activos fijos que utilizan este método de amortización.  
+  >   Utilice este método para activos no sujetos a amortización, por ejemplo, los terrenos. Debe introducir la amortización en el diario general de activos fijos. El proceso **Calcular amortización** ignora los activos fijos que utilizan este método de amortización.  
 * Convenio de medio año  
 
   > [!NOTE]  
->    Al utilizar este método, se amortiza la misma cantidad de un activo fijo cada año.  
+  >    Al utilizar este método, se amortiza la misma cantidad de un activo fijo cada año.  
 
 ## <a name="straight-line-depreciation"></a>Amortización lineal
 Al utilizar el método lineal, debe especificar una de las siguientes opciones en el libro de amortización de activos fijos:  
@@ -233,7 +233,7 @@ En la ventana **Tabla amortización**, puede configurar métodos de amortizació
 
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Tablas amortización** y, a continuación, seleccione el vínculo relacionado.  
 2. En la ventana **Lista tablas amortización**, elija la acción **Nuevo**.  
-3. En la ventana **Ficha tablas amortización**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. En la ventana **Ficha tablas amortización**, rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ### <a name="example---user-defined-depreciation"></a>Ejemplo: amortización definida por el usuario
 Por motivos de impuestos puede utilizar un método amortización que le permita amortizar activos de forma acelerada.  

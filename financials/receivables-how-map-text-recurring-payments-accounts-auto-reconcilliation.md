@@ -38,7 +38,7 @@ En una línea del diario de conciliación de pagos en la que el pago se establec
 4. En el campo **Asignar texto**, introduzca cualquier texto de los pagos que quiera registrar en unas cuentas específicas sin aplicarlo a un movimiento pendiente. Puede escribir hasta 50 caracteres.
 
     > [!NOTE]  
->   Si no existen otros pagos con la asignación de texto en cuestión, la asignación tendrá lugar incluso cuando solo una parte del texto en el pago exista como texto asignado.
+   >   Si no existen otros pagos con la asignación de texto en cuestión, la asignación tendrá lugar incluso cuando solo una parte del texto en el pago exista como texto asignado.
 5. En el campo **Nº proveedor**, escriba el proveedor al que se enviarán los pagos.
 6. En el campo **Tipo origen contr.**, especifique si el pago se contabilizará en una cuenta contable o en una cuenta de cliente o proveedor.
 7. En el campo **N.º origen contr.** especifique la cuenta a la que se contabilizará el pago dependiendo de su elección en el campo **Tipo origen contr.**
@@ -57,7 +57,7 @@ Para que los gastos de combustible de las estaciones de servicio Shell siempre s
 | --- | --- | --- | --- | --- |
 | Shell |EN BLANCO |8510 |Cuenta |EN BLANCO |
 
-> [!TIP]  
+> [!TIP]
 >   Para obtener más información sobre cómo usar campos y columnas, consulte [Trabajar con [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md). Para obtener más información sobre la búsqueda de páginas específicas, consulte [Buscar](ui-search.md).
 
 ## <a name="see-also"></a>Consulte también
