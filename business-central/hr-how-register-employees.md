@@ -13,10 +13,10 @@ ms.search.keywords: personnel, people, employee, staff, HR
 ms.date: 08/11/2017
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 0d9ddcb6ee4dfa615d4bd628bc369967b11e5a8c
+ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
+ms.openlocfilehash: 9b36c5692673ddf54be0572c8a2f035f67311d60
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/18/2018
 
 ---
 # <a name="register-employees"></a>Registrar empleados
@@ -60,5 +60,5 @@ Utilice direcciones alternativas para llevar un control de la ubicación de los 
 [Registro y reembolso de los costes de los empleados](finance-how-record-reimburse-employee-expenses.md)  
 [Finanzas](finance.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)
+[Cambiar las funciones que se muestran](ui-experiences.md)
 

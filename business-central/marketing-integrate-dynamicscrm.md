@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map
-ms.date: 01/25/2018
+ms.date: 05/24/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 1198209ce431fcf245ea149fbe7e8af0a25b6e70
+ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
+ms.openlocfilehash: f9ac1c1e1a9f4ca043ddd87c98c8014ca96d8c87
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/28/2018
 
 ---
 # <a name="managing-customers-and-sales-created-in-dynamics-365-for-sales"></a>Gestión de clientes y ventas creados en Dynamics 365 for Sales
@@ -28,7 +28,7 @@ Por ejemplo, el vendedor en Dynamics 365 for Sales puede utilizar las listas de 
 Por el contrario, los procesadores de pedidos en [!INCLUDE[d365fin](includes/d365fin_md.md)] pueden manejar las características especiales de las órdenes de venta transferidas automática o manualmente desde Dynamics 365 for Sales, tales como crear automáticamente y publicar líneas de orden de venta válidas para artículos o recursos introducidos en Sales como productos fuera de catálogo. Para obtener más información, consulte la sección "Manejo de datos de pedidos de ventas especiales".  
 
 ## <a name="setting-up-the-connection"></a>Configuración de la conexión
-Desde Inicio, podrá acceder a la guía de configuración asistida **Configuración de conexión de Dynamics 365 for Sales** que le ayuda a configurar la conexión. Una vez terminada, tendrá un acoplamiento perfecto de los registros de Dynamics 365 for Sales con los registros de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Desde Inicio, podrá acceder a la guía de configuración asistida **Configuración de conexión de Microsoft Dynamics 365** que le ayuda a configurar la conexión. Una vez terminada, tendrá un acoplamiento perfecto de los registros de Dynamics 365 for Sales con los registros de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 > [!NOTE]  
 >   A continuación se explica la configuración asistida, pero puede efectuar las mismas tareas manualmente en la ventana **Configuración de conexión Dynamics 365 for Sales**.
@@ -41,12 +41,12 @@ Para importar una solución existente Dynamics 365 for Sales, la guía de config
 * Administrador del sistema  
 * Personalizador de solución  
 
-Para obtener más información, vea [Crear usuarios y asignar roles de seguridad de Microsoft Business Central (en línea)](https://technet.microsoft.com/library/jj191623.aspx) en techNet y [Administrar usuarios y permisos](ui-how-users-permissions.md).  
+Para obtener más información, vea [Crear usuarios en Microsoft Dynamics 365 (en línea) y asignar roles de seguridad](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles) y [Administrar usuarios y permisos](ui-how-users-permissions.md).  
 
 Esta cuenta solo se utiliza durante la configuración. Una vez que la solución se importa en [!INCLUDE[d365fin](includes/d365fin_md.md)], la cuenta ya no se necesita.
 
 ### <a name="setting-up-the-user-account-for-synchronization"></a>Configuración de la cuenta de usuario para la sincronización
-La integración se basa en una cuenta de usuario compartida. Por lo tanto, en su suscripción de Office 365 deberá crear un usuario dedicado que se usará para la sincronización entre los dos servicios. Esta cuenta ya debe ser un usuario válido en Dynamics 365 for Sales, pero no es necesario asignar roles de seguridad a la cuenta porque la guía de configuración lo hace automáticamente. Debe especificar esta cuenta de usuario una o varias veces en la guía de configuración, dependiendo de la sincronización que desea activar. Para obtener más información, vea [Crear usuarios y asignar roles de seguridad de Microsoft Business Central (en línea)](https://technet.microsoft.com/library/jj191623.aspx) en techNet.
+La integración se basa en una cuenta de usuario compartida. Por lo tanto, en su suscripción de Office 365 deberá crear un usuario dedicado que se usará para la sincronización entre los dos servicios. Esta cuenta ya debe ser un usuario válido en Dynamics 365 for Sales, pero no es necesario asignar roles de seguridad a la cuenta porque la guía de configuración lo hace automáticamente. Debe especificar esta cuenta de usuario una o varias veces en la guía de configuración, dependiendo de la sincronización que desea activar. Para obtener más información, vea [Crear usuarios en Microsoft Dynamics 365 (en línea) y asignar roles de seguridad](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles).
 
 Si elige habilitar *Disponibilidad del producto*, la cuenta de usuario de integración debe tener una clave de acceso a los servicios web. Es un proceso de dos pasos en la página [!INCLUDE[d365fin](includes/d365fin_md.md)] para esa cuenta de usuario; debe elegir el botón **Cambiar clave de servicio Web** y, en la guía de configuración de conexión de Dynamics 365 for Sales, debe especificar a dicho usuario como el usuario de servicio web de OData.
 
@@ -69,17 +69,17 @@ En determinadas áreas, la funcionalidad se basa en el emparejamiento de determi
 > [!NOTE]  
 >   Si utiliza precios en divisas extranjeras, asegúrese de emparejar las divisas con las divisas de transacción de Dynamics 365 for Sales.
 
-Los pedidos de venta de Dynamics 365 for Sales dependen de información adicional como clientes, unidades de medida, divisas, grupos de precios de cliente, productos o recursos. Para que los pedidos de venta de Dynamics 365 for Sales funcionen fluidamente, primero debe emparejar clientes, unidades de medida, divisas, grupos de precios de cliente, productos o recursos.
+Los pedidos de venta de Dynamics 365 for Sales dependen de información adicional como clientes, unidades de medida, divisas, grupos de precios de cliente, productos o recursos. Para que la integración con los pedidos de venta funcione fluidamente, primero debe emparejar clientes, unidades de medida, divisas, grupos de precios de cliente, productos o recursos.
 
 ### <a name="synchronizing-records-fully"></a>Sincronización completa de los registros
 Al final de la guía de configuración asistida, puede elegir la acción **Ejecutar sincronización completa** para iniciar la sincronización de todos los registros de [!INCLUDE[d365fin](includes/d365fin_md.md)] con todos los registros relacionados en la solución de Dynamics 365 for Sales conectada. En la ventana **Revisión de sinc. completa de CRM**, elija la acción **Iniciar**. La sincronización comienza a ejecutar los proyectos según las dependencias. Por ejemplo, los registros de divisa se sincronizan antes que los registros de cliente. La sincronización completa puede durar mucho tiempo, por lo que se ejecutará en segundo plano para que pueda seguir trabajando en [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 Para comprobar el progreso de los proyectos individuales de una sincronización completa, desglose el campo **Estado mov. cola proyecto**, **Estado de proyecto de tabla de integ. de destino** o **Estado de proyecto de tabla de integ. de origen** en la ventana **Revisión de sinc. completa de CRM**.
 
-En la ventana **Configuración de conexión Dynamics 365 for Sales**, puede obtener los detalles acerca de la sincronización completa en cualquier momento. Desde aquí también puede abrir la ventana **Lista de asignaciones de tablas de integración** para ver información detallada acerca de las tablas de Business Central y en la solución Dynamics 365 for Sales que se deben sincronizar.  
+En la ventana **Configuración de conexión Microsoft Dynamics 365**, puede obtener los detalles acerca de la sincronización completa en cualquier momento. Desde aquí también puede abrir la ventana **Lista de asignaciones de tablas de integración** para ver información detallada acerca de las tablas de [!INCLUDE[d365fin](includes/d365fin_md.md)] y en la solución Dynamics 365 for Sales que se deben sincronizar.  
 
 ## <a name="handling-special-sales-order-data"></a>Manejar datos de pedidos de ventas especiales
-Las órdenes de venta en Dynamics 365 for Sales se transferirán automáticamente a [!INCLUDE[d365fin](includes/d365fin_md.md)] si selecciona la casilla **Crear automáticamente pedidos de venta** en la ventana **Configuración de conexión de Microsoft Dynamics 365 for Sales**. En dichos pedidos de venta, el campo **Nombre** del pedido original se transfiere y se asigna al campo **Número de documento externo** del pedido de venta en [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Las órdenes de venta en Dynamics 365 for Sales se transferirán automáticamente a [!INCLUDE[d365fin](includes/d365fin_md.md)] si selecciona la casilla **Crear automáticamente pedidos de venta** en la ventana **Configuración de conexión de Microsoft Dynamics 365**. En dichos pedidos de venta, el campo **Nombre** del pedido original se transfiere y se asigna al campo **Número de documento externo** del pedido de venta en [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 Esto también puede funcionar si el pedido de cliente original contiene productos fuera de catálogo, es decir, elementos o recursos que no están registrados en ninguno de los productos. En ese caso, debe rellenar los campos **Tipo producto fuera de catálogo** y **N.º producto fuera de catálogo** en la ventana **Conf. ventas y cobros**, para asignar estas ventas de productos no registrados a un número del producto especificado o recurso para el análisis financiero.
 
@@ -88,9 +88,9 @@ Si la descripción del artículo en el pedido de venta original es muy larga, se
 ## <a name="see-also"></a>Consulte también
 [Gestión de relaciones](marketing-relationship-management.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)  
+[Cambiar las funciones que se muestran](ui-experiences.md)  
 [Gestionar usuarios y permisos](ui-how-users-permissions.md)    
-[Incorporación de la organización y los usuarios a Business Central (en línea)](https://www.microsoft.com/en-US/Dynamics/crm-customer-center/onboard-your-organization-and-users-to-dynamics-365-online.aspx)  
+[Incorporación de la organización y los usuarios a Dynamics 365 (en línea)](/dynamics365/customer-engagement/admin/onboard-your-organization-and-users-to-dynamics-365-online)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
 ## [!INCLUDE[d365fin](includes/training_link_md.md)]

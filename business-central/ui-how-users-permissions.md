@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 03/16/2018
+ms.date: 05/24/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 6d350a064f134c4c29938005fea966dec7cca142
+ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
+ms.openlocfilehash: 443c04799e9aa2b9aa4ede15006ecb5e9773ce6b
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/28/2018
 
 ---
 # <a name="manage-users-and-permissions"></a>Gestionar usuarios y permisos
@@ -24,9 +24,11 @@ Una vez se hayan creado los usuarios en Office 365, se pueden importar en la ven
 
 Después podrá asignar conjuntos de permisos a los usuarios para definir a qué objetos de base de datos y, por lo tanto, a qué elementos de la interfaz de usuario, tienen acceso y en qué empresas. Puede agregar usuarios a grupos de usuarios. Esto facilita asignar los mismos conjuntos de permisos a varios usuarios.
 
-Un conjunto de permisos es una colección de permisos para objetos específicos de la base de datos. A todos los usuarios se les debe asignar uno o varios conjuntos de permisos antes de que pueden acceder a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Un número de conjuntos de permisos predefinidos se proporcionan de forma predeterminada. Puede utilizar estos conjuntos de permisos como están definidos, modificar los conjuntos de permisos predeterminados o crear sus propios conjuntos de permisos adicionales.
+Un conjunto de permisos es una colección de permisos para objetos específicos de la base de datos. A todos los usuarios se les debe asignar uno o varios conjuntos de permisos antes de que pueden acceder a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Un número de conjuntos de permisos predefinidos se proporcionan de forma predeterminada.  
 
 Los administradores pueden usar la ventana **Configuración usuarios** para definir periodos de tiempo durante los que los usuarios especificados pueden registrar, así como especificar si el sistema registra la cantidad de tiempo que los usuarios tienen iniciada la sesión.
+
+Otro sistema que define qué usuarios pueden acceder es la configuración de Experiencia. Para obtener más información, consulte [Cambiar las funciones que se muestran](ui-experiences.md).
 
 ## <a name="to-assign-permissions-to-a-user"></a>Para asignar permisos a un usuario
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Usuarios** y, a continuación, seleccione el vínculo relacionado.

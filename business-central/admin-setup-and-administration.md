@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/12/2018
+ms.date: 05/07/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 61b21714465d41369b850289d55c3f4e8d9d5920
+ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
+ms.openlocfilehash: 93eced90155b9172595561bfc5b80c3c49ca11bc
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/15/2018
 
 ---
 # <a name="administration"></a>Administración
@@ -43,12 +43,13 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Introducir solicitudes únicas o periódicas para ejecutar informes o unidades de código.|[Usar colas de proyectos para programar tareas](admin-job-queues-schedule-tasks.md)|  
 |Administre, elimine, o comprima los documentos|[Eliminar documentos](admin-manage-documents.md)|  
 |Exponga las páginas, las unidades de código y las consultas como servicios web.|[Publicar un servicio web](across-how-publish-web-service.md)|
+|Como parte de la creación de aplicaciones de Connect entre soluciones de [!INCLUDE[d365fin](includes/d365fin_md.md)] y de terceros a través de las API de REST, defina plantillas que se utilizan para completar propiedades vacías en una entidad cuando crea una acción POST a través de una API.|[Configuración de plantillas API](admin-configuring-api-template.md)|
 
 ## <a name="see-also"></a>Consulte también
 [Funciones empresariales](across-business-functionality.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Introducción](product-get-started.md)  
+[Introducción](product-get-started.md)    
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
 ## [!INCLUDE[d365fin](includes/training_link_md.md)]

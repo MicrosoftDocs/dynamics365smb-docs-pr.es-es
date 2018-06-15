@@ -13,10 +13,10 @@ ms.search.keywords: personnel, people, employee, staff, HR
 ms.date: 03/16/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: aa857448b6110e184ba4e066387cea766b78b49f
+ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
+ms.openlocfilehash: a0254dad989b361883dd62f1f798686452941538
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/18/2018
 
 ---
 # <a name="manage-human-resources"></a>Administrar recursos humanos
@@ -36,5 +36,5 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 ## <a name="see-also"></a>Consulte también
 [Finanzas](finance.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)        
+[Cambiar las funciones que se muestran](ui-experiences.md)        
 

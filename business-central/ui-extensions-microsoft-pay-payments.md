@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/07/2017
+ms.date: 04/09/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c3cb26758401d1f1b25b204ce53abcb89970c3ba
+ms.sourcegitcommit: a1ab45cb40669beb901da59469a02bd58b86d3ac
+ms.openlocfilehash: 8782fae0935a609cb991fe869907d9cd8fceccd9
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/09/2018
 
 ---
 # <a name="the-microsoft-pay-extension-to-included365finincludesd365finlongmdmd"></a>La extensión de Microsoft Pay para [!INCLUDE[d365fin](includes/d365fin_long_md.md)]
@@ -27,7 +27,7 @@ La extensión de Microsoft Pay proporciona las siguientes ventajas:
 - Los pagos del cliente llegan más rápido a su cuenta bancaria.
 - El cliente tiene más formas de pagar la factura.
 - Microsoft Pay ofrece un servicio de pago de confianza que los clientes prefieren para introducir la información de su tarjeta de crédito en sitios web desconocidos.
-- Microsoft Pay ofrece varias maneras de gestionar los pagos, incluido el procesamiento de tarjetas de crédito, WePay, cuentas de PayPal y otros orígenes.
+- Microsoft Pay ofrece varias maneras de gestionar los pagos, incluido el procesamiento de tarjetas de crédito, como PayPal y Stripe.
 - El vínculo de Microsoft Pay se puede incrustar automáticamente en cada documento de la factura o por el usuario.
 - Como esta funcionalidad está diseñada como extensión, tiene un control total para activarla cuando y si sus procesos empresariales lo requieren.
 

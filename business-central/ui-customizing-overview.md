@@ -12,10 +12,10 @@ ms.search.keywords: personalize, add-in, extend, customize
 ms.date: 03/19/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 940f5380e57e6af22958854d12a5bd2006b861e3
+ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
+ms.openlocfilehash: 7adad8c33771d478125c7f6ecb8256f5109f5f02
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/18/2018
 
 ---
 # <a name="customizing-business-central"></a>Personalizar Business Central
@@ -25,7 +25,7 @@ Existen diferentes formas de personalizar la aplicación para tener acceso a las
 | Qué puede hacer    |  Description  |  Quién ve los cambios  |  Más información  |
 |-----|---------------|---------|-------|
 |Instalar una extensión|Las extensiones son como pequeñas aplicaciones que agregan funcionalidades, cambian el comportamiento, proporcionan acceso a nuevos servicios en línea y más. Por ejemplo, Microsoft ofrece una extensión que proporciona integración con PayPal Payments Standard.|Todos los usuarios en todas las empresas.|[Personalizar con extensiones](ui-extensions.md)|
-|Cambiar la experiencia|El valor **Experiencia** determina qué cantidad de la funcionalidad se muestra en la interfaz de usuario. Elija entre Básico, Esencial y Premium.|Todos los usuarios en una empresa específica.|[Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)|
+|Cambiar qué elementos de la interfaz de usuario son visibles.|El valor **Experiencia** determina qué cantidad de la funcionalidad se muestra en la interfaz de usuario. Elija entre Básico, Esencial y Premium.|Todos los usuarios en una empresa específica.|[Cambiar las funciones que se muestran](ui-experiences.md)|
 |Personalice su área de trabajo|Cambiar la disposición y el contenido de las páginas.|Únicamente usted.|[Personalización de su área de trabajo](ui-personalization-user.md)|
 
 ## <a name="see-also"></a>Consulte también

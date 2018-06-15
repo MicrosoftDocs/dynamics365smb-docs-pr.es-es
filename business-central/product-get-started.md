@@ -11,10 +11,10 @@ ms.search.keywords: setup wizard
 ms.date: 03/21/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: fb4496359d76f6dbb23cfdffbcf60402bf8414a8
+ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
+ms.openlocfilehash: 7dda76b03bb4bff5bb75be38710f2c851b106823
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/18/2018
 
 ---
 # <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Introducción a [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -46,7 +46,7 @@ La ventana Área de trabajo se basa un diseño basado en roles para ofrecerle ac
 Cada área de trabajo proporciona un botón **Configuración y extensiones**. Aquí tiene acceso a una lista de configuración asistencia que puede ayudarle a empezar mediante la configuración de las áreas seleccionadas rápidamente. Si un área no está cubierta por una configuración asistida, elija la acción **Configuración manual** para obtener acceso a las ventanas de configuración donde puede rellenar los campos de configuración de todas las áreas manualmente. Para obtener más información, consulte también [Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
 > [!NOTE]  
->   La lista de guías de configuración, las extensiones y los servicios que están disponibles varían según la experiencia del usuario que elija para la empresa. La experiencia **Básica** ofrece menos acceso que la experiencia **Esencial**. La primera vez que inicie sesión, use la experiencia Básica. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).  
+>   La lista de guías de configuración, las extensiones y los servicios que están disponibles varían según la experiencia del usuario que elija para la empresa. La experiencia **Básica** ofrece menos acceso que la experiencia **Esencial**. La primera vez que inicie sesión, use la experiencia Básica. Para obtener más información, consulte [Cambiar las funciones que se muestran](ui-experiences.md).  
 
 En la ventana **Configuración asistida**, encontrará lo siguiente con la experiencia **Esencial**:
 

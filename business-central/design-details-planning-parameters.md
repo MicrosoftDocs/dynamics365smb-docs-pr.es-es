@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 07/01/2017
+ms.date: 05/04/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 90b85a099b2b52930299a27b39ed96be9bade624
+ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
+ms.openlocfilehash: d5606d6e8714c96a675f4d5f4074e431aa818ec7
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/15/2018
 
 ---
 # <a name="design-details-planning-parameters"></a>Detalles de diseño: Parámetros de la planificación
@@ -76,7 +76,7 @@ Para obtener un plan de suministro racional, el planificador optimizará los par
 |---------------------------------|---------------------------------------|  
 |**Periodo de reprogramación**|Este campo se usa para determinar si el mensaje de acción debe reprogramar un pedido existente o bien cancelarlo y crear otro nuevo. El pedido existente se reprogramará en un periodo de reprogramación antes del suministro actual y hasta el periodo de reprogramación después del suministro actual.|  
 |**Periodo de acumulación de lotes**|Con la directiva de reaprovisionamiento Lote a lote, este campo se usa para acumular varias necesidades de suministro en un pedido de suministro. Desde la fecha del primer aprovisionamiento planificado, el sistema acumula todas las necesidades de aprovisionamiento del periodo de acumulación de lote siguiente en un aprovisionamiento que se coloca en la fecha del primer aprovisionamiento. Demanda que está fuera del periodo de acumulación del lote no cubierta por este aprovisionamiento.|  
-|**Periodo amortiguador**|Este campo se usa para evitar la reprogramación menor del suministro existente fuera de plazo. Los cambios de la fecha de aprovisionamiento hasta un periodo amortiguador a partir de la fecha de aprovisionamiento no generarán ningún mensaje de acción.<br /><br /> Como resultado, un delta positivo entre la nueva fecha de aprovisionamiento propuesta y la fecha de aprovisionamiento original será siempre mayor que el periodo amortiguador.|  
+|**Periodo amortiguador**|Este campo se usa para evitar la reprogramación menor del suministro existente fuera de plazo. Los cambios de la fecha de aprovisionamiento hasta un periodo amortiguador a partir de la fecha de aprovisionamiento no generarán ningún mensaje de acción.<br /><br /> El periodo amortiguador especifica un periodo de tiempo durante el cual no desea que el sistema de planificación proponga volver a programar pedidos de suministro existentes hacia adelante. Esto limita el número de períodos de reprogramación insignificantes de aprovisionamiento existente a una fecha posterior si la fecha reprogramada se encuentra dentro del periodo amortiguador.<br /><br /> Como resultado, un delta positivo entre la nueva fecha de aprovisionamiento propuesta y la fecha de aprovisionamiento original será siempre mayor que el periodo amortiguador.|  
 
 El momento del periodo de reprogramación, el periodo amortiguador y el periodo de acumulación de lotes se basa en una fecha de suministro. El ciclo se basa en la fecha de inicio de la planificación, tal como se muestra en la ilustración siguiente.  
 

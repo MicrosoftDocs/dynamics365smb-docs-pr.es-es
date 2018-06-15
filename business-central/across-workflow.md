@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 02/20/2018
+ms.date: 05/09/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 06783cab93ae83111b9646de7c8577fb0669d466
+ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
+ms.openlocfilehash: 128d20233d1750b2b89c3c7e2de6e497bd32b342
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/15/2018
 
 ---
 # <a name="workflow"></a>Flujo de trabajo
@@ -26,7 +26,10 @@ Puede configurar y utilizar flujos de trabajo que vinculen tareas de procesos em
 
  La versión genérica de [!INCLUDE[d365fin](includes/d365fin_md.md)] incluye un número de flujos de trabajo preconfigurados que están representados por plantillas de flujo de trabajo que puede copiar para crear flujos de trabajo. El código para las plantillas de flujo de trabajo agregadas por Microsoft llevan el prefijo “MS-“. Para más información, consulta las plantillas de la lista de flujo de trabajo en la ventana Plantillas de flujo de trabajo.  
 
- Si una situación de negocio requiere un evento de flujo de trabajo o respuesta no compatibles, un asociado de Microsoft tiene que implementarlos personalizando el código de aplicación. Para obtener más información, consulte [Tutorial: Implementación de nuevos eventos y respuestas de flujo de trabajo](/dynamics-nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses) en la ayuda para desarrolladores e informáticos.  
+ Si una situación de negocio requiere un evento de flujo de trabajo o respuesta no compatibles, un asociado de Microsoft tiene que implementarlos personalizando el código de aplicación. Para obtener más información, consulte [Tutorial: Implementación de nuevos eventos y respuestas de flujo de trabajo](/dynamics-nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses) en la ayuda para desarrolladores e informáticos.
+
+> [!NOTE]  
+> Los flujos de trabajo también se pueden iniciar desde Microsoft Flow. Para obtener más información, vea [Usar Business Central en un flujo de trabajo automatizado](across-how-use-financials-data-source-flow.md).  
 
  En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.  
 

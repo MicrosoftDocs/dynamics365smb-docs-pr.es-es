@@ -11,15 +11,15 @@ ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 03/29/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e53db4c1eef2a2f158f289e9f89ad291436a9b1a
+ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
+ms.openlocfilehash: c7348ff75e2f9660611d0d2aed0fa1beacfa259c
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/17/2018
 
 ---
 # <a name="the-quickbooks-data-migration-extension-for-business-central"></a>Extensión de la migración de datos de QuickBooks para Business Central
 Esta extensión facilita la migración de clientes, proveedores, productos y cuentas de QuickBooks a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Si la empresa usa QuickBooks actualmente, puede exportar la información correspondiente y después abrir una guía de instalación asistida para cargar los datos en [!INCLUDE[d365fin](includes/d365fin_md.md)].  
-Para obtener más información, vea [Importar datos empresariales desde otros sistemas financieros](upload-data.md).
+Para obtener más información, vea [Importar datos empresariales desde otros sistemas financieros](across-import-data-configuration-packages.md).
 
 ## <a name="exporting-data-from-quickbooks-desktop"></a>Exportar datos desde QuickBooks Desktop
 Debe haber exportado algunos o todos los clientes, proveedores, productos de inventario y cuentas existentes a un archivo IIF (Intuit Interchange Format). La extensión de la migración de datos de QuickBooks incluye una asociación predeterminada de datos de QuickBooks para que pueda usar sus datos existentes para probar su nueva empresa [!INCLUDE[d365fin](includes/d365fin_md.md)]. La asignación predeterminada será suficiente en la gran mayoría de casos, pero puede cambiar la asignación en la guía de configuración asistida.  
@@ -36,6 +36,6 @@ Los datos exportados se guardan como un archivo IIF que, a continuación, puede 
 La extensión de la migración de datos de QuickBooks está instalada y lista como parte integrada de la guía de configuración asistida de la migración de datos. Si está preparado para empezar ahora y ha exportado sus datos de QuickBooks, elija icono ![Buscar por página o informe](media/ui-search/search_small.png "icono Buscar por página o informe"), escriba **Configuración asistida** y, a continuación, haga clic el vínculo relacionado. Seleccione **Migrar los datos empresariales**y, a continuación, siga los pasos en la guía.  
 
 ## <a name="see-also"></a>Consulte también
-[Importar datos de empresa de otros sistemas financieros](upload-data.md)  
+[Importar datos de empresa de otros sistemas financieros](across-import-data-configuration-packages.md)  
 [Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones](ui-extensions.md)  
 

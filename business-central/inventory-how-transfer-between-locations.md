@@ -11,10 +11,10 @@ ms.search.keywords: move, warehouse
 ms.date: 01/25/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 6f83607606d79d894cbe8f154566b9fe7a65a94c
+ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
+ms.openlocfilehash: 653fee8d327635f2e53a2f3c890f0b52649697f9
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/18/2018
 
 ---
 # <a name="transfer-inventory-between-locations"></a>Transferir el inventario entre almacenes
@@ -60,6 +60,6 @@ Para transferir productos, se deben configurar las ubicaciones y las rutas de tr
 [Gestionar inventario](inventory-manage-inventory.md)  
 [Configurar ubicaciones](inventory-how-setup-locations.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)  
+[Cambiar las funciones que se muestran](ui-experiences.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)
 

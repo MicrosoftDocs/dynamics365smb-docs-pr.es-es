@@ -12,10 +12,10 @@ ms.search.keywords: workflow, Odata, Power App, SOAP
 ms.date: 01/25/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 68355bc0b4afe4fcdd92f9cdb190d4b5c0d845df
+ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
+ms.openlocfilehash: 6d1c65fd226526912d83bb8acec2cae0ff19de86
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/17/2018
 
 ---
 # <a name="troubleshooting-integration-with-microsoft-flow---request-url-too-long"></a>Solución de problemas de integración con Microsoft Flow - Solicitud de URL demasiado larga
@@ -48,7 +48,7 @@ Por ejemplo, si la tabla que está utilizando como fuente de datos tiene 4000 re
 ## <a name="see-also"></a>Consulte también
 [Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] en un flujo de trabajo automatizado](across-how-use-financials-data-source-flow.md)  
 [Introducción](product-get-started.md)  
-[Importar datos de empresa de otros sistemas financieros](upload-data.md)  
+[Importar datos de empresa de otros sistemas financieros](across-import-data-configuration-packages.md)  
 [Gestionar usuarios y permisos](ui-how-users-permissions.md)    
 [Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Finanzas](finance.md)  

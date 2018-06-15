@@ -10,21 +10,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.date: 06/06/2017
+ms.date: 05/15/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 97c93fbd4d879e137e6c0d0233c652b21f5328e5
+ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
+ms.openlocfilehash: 02f063daf5afeea85832c8a322183b3db120d8d2
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/17/2018
 
 ---
 # <a name="suggest-vendor-payments"></a>Proponer pagos a proveedores
-En la ventana **Diario de pagos** puede usar el proceso **Proponer pagos a proveedores** para sugerir líneas de pago. Las líneas de elementos como pagos que están a punto de vencer, o de pagos en los que hay disponible un descuento por pronto pago, se sugieren según la configuración.
+En la ventana **Diario de pagos** puede usar el proceso **Proponer pagos a proveedores** para sugerir líneas de pago. Las líneas como pagos que están a punto de vencer, o de pagos en los que hay disponible un descuento por pronto pago, se sugieren según la configuración.
 
-Para obtener ventaja completa de las líneas sugeridas, primero debe asignar prioridades a los proveedores. Para obtener más información, consulte [Dar prioridad a proveedores](purchasing-how-prioritize-vendors.md).  
+Para obtener ventaja completa de las sugerencias de pago, primero debe asignar prioridades a los proveedores. Para obtener más información, consulte [Dar prioridad a proveedores](purchasing-how-prioritize-vendors.md).  
 
-No se incluyen los movimientos de proveedor no son del tipo **Esperar**.  
+> [!NOTE]  
+> Los movimientos de proveedor que están **En espera** no se incluyen en el trabajo por lotes.  
 
 > [!IMPORTANT]  
 >   Si desea aprovechar los descuentos por pronto pago y ha introducido un importe disponible, el importe se utilizará para:  

@@ -13,10 +13,10 @@ ms.search.keywords: projects
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f13343d8f0a18832c9f1ed16f02e79f9a59b5f12
+ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
+ms.openlocfilehash: 545c09e5b462dd712dffa68a27341b1acde17071
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/18/2018
 
 ---
 # <a name="project-management"></a>Administración de proyectos
@@ -40,9 +40,9 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 
 ## <a name="see-also"></a>Consulte también
 [Configurar la administración de proyectos](projects-setup-projects.md)  
-[Personalizar la [!INCLUDE[d365fin](includes/d365fin_md.md)] experiencia](ui-experiences.md)      
+[Cambiar las funciones que se muestran](ui-experiences.md)      
 [Compras](purchasing-manage-purchasing.md)         
-[Ccial](sales-manage-sales.md)    
+[Ventas](sales-manage-sales.md)    
 [Finanzas](finance.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

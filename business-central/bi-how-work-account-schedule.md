@@ -1,22 +1,20 @@
 ---
-title: Trabajar con esquemas de cuentas | Documentos de Microsoft
+title: Cree informes financieros con esquemas de cuentas
 description: "Describe cómo utilizar los esquemas de cuentas para crear varias vistas e informes para analizar los datos de rendimiento financiero."
-services: project-madeira
-documentationcenter: 
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 01/25/2018
-ms.author: sgroespe
+ms.date: 04/16/2018
+ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d01bd220571b7b87d9e631c8a4d75bef951c7433
+ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
+ms.openlocfilehash: f9f5b3a25a24d4d10c80d048153e68030733bf9e
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/18/2018
 
 ---
 # <a name="work-with-account-schedules"></a>Trabajar con esquemas de cuentas
@@ -72,7 +70,98 @@ Puede usar un esquema de cuentas para crear un extracto que compare las cifras d
 8. Haga clic en la ficha desplegable **Filtros dimensión** y asigne al filtro de presupuesto el nombre que desee.  
 9. Elija el botón **Aceptar**.  
 
-Ahora puede copiar y pegar el extracto del presupuesto en una hoja de cálculo.
+Ahora puede copiar y pegar el extracto del presupuesto en una hoja de cálculo.  
+
+## <a name="comparing-accounting-periods-using-period-formulas"></a>Comparación de períodos contables usando fórmulas de períodos
+El esquema de cuentas puede comparar los resultados de diferentes períodos contables, como este mes en comparación con el mismo mes del año anterior. Para hacerlo, agregue una columna con el campo **Fórmula de periodo comparativo** y luego establezca ese campo en una fórmula de período.  
+
+Un periodo contable no tiene que coincidir con el calendario, pero el año fiscal debe tener el mismo número de periodos contables, aunque cada periodo tenga una duración diferente.   
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] utiliza la fórmula de periodo para calcular el importe a partir del periodo comparativo en relación con el periodo representado por el filtro de fecha de la solicitud de informe. El periodo de comparación se basa en el periodo de la fecha de inicio del filtro fecha. Las abreviaturas de las especificaciones del periodo son:
+
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Siglas</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>P</p></td>
+<td><p>Periodo</p></td>
+</tr>
+<tr class="even">
+<td><p>LP</p></td>
+<td><p>Último periodo de un año fiscal, medio año o trimestre.</p></td>
+</tr>
+<tr class="odd">
+<td><p>CP</p></td>
+<td><p>Periodo actual de un año fiscal, medio año o trimestre.</p></td>
+</tr>
+<tr class="even">
+<td><p>FY</p></td>
+<td><p>Año fiscal. Por ejemplo, AF[1..3] indica el primer trimestre del año fiscal actual</p></td>
+</tr>
+</tbody>
+</table>
+
+Ejemplos de fórmulas:
+
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Fórmula</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>&lt;En blanco&gt;</p></td>
+<td><p>Periodo actual</p></td>
+</tr>
+<tr class="even">
+<td><p>-1P</p></td>
+<td><p>Periodo anterior</p></td>
+</tr>
+<tr class="odd">
+<td><p>-1AF[1..UP]</p></td>
+<td><p>Todo el año fiscal anterior</p></td>
+</tr>
+<tr class="even">
+<td><p>-1AF</p></td>
+<td><p>Periodo actual del año fiscal anterior</p></td>
+</tr>
+<tr class="odd">
+<td><p>-1AF[1..3]</p></td>
+<td><p>Primer trimestre del año fiscal anterior</p></td>
+</tr>
+<tr class="even">
+<td><p>-1AF[1..PA]</p></td>
+<td><p>Desde el principio de año fiscal anterior hasta el periodo actual en el año fiscal anterior, ambos inclusive</p></td>
+</tr>
+<tr class="odd">
+<td><p>-1AF[PA..UP]</p></td>
+<td><p>Desde el periodo actual del año fiscal anterior hasta el último periodo del año fiscal anterior, ambos inclusive</p></td>
+</tr>
+</tbody>
+</table>
+
+Si desea calcular el importe del periodo de comparación para periodos de tiempo regulares, deberá introducir una fórmula en el campo **Fórmula fecha comparación**.
+
+> [!NOTE]
+> No siempre es transparente qué períodos está comparando porque puede establecer un filtro de fecha en un informe que abarca diferentes fechas a los períodos contables que se reflejan en los datos del plan de cuentas. Por ejemplo, cree un esquema de cuentas en el que desee comparar este período con el mismo período del año anterior, por lo que debe establecer el campo **Filtro de período de fecha de comparación** en *-1FY*. Luego, ejecute el informe el 28 de febrero y configure el filtro de fecha en enero y febrero. Como resultado, el calendario de cuentas compara enero y febrero de este año con enero del año pasado, que es el único período contable completado de los dos para el año pasado.  
+
 
 ## <a name="see-also"></a>Consulte también
 [Inteligencia empresarial](bi.md)  

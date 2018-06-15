@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade
-ms.date: 04/03/2018
+ms.date: 04/30/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: f03cc11b5d8cb349567138604857ad3a679967cf
-ms.openlocfilehash: 4b645c2db215d08d7bf483c3d728359d8e224062
+ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
+ms.openlocfilehash: b3a3c4067c40ff2911c368cc97c94404b9dd66e2
 ms.contentlocale: es-es
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 05/15/2018
 
 ---
 # <a name="sell-products"></a>Vender productos
@@ -29,11 +29,15 @@ Después de que el cliente haya confirmado el contrato, por ejemplo después de 
 
 Cuando entregue los productos, ya sea total o parcialmente, registre el pedido de ventas como enviado o como enviado y facturado para crear los movimientos del producto relacionado y del cliente en su sistema. Cuando registre el pedido de venta, también puede enviar por correo electrónico el documento como un archivo PDF adjunto. Puede tener el cuerpo de correo electrónico rellenado previamente con un resumen del pedido y la información de pago, como por ejemplo un vínculo a PayPal. Para obtener más información, vea [Enviar documentos por correo electrónico](ui-how-send-documents-email.md).
 
-En entornos de negocio donde el cliente debe pagar antes de que los productos se entreguen, por ejemplo en la venta minorista, debe esperar la recepción del pago antes de entregar los productos. En la mayoría de casos, puede procesar los pagos entrantes algunas semanas después de la salida liquidando los pagos a las facturas relacionadas, registradas como facturas de ventas no pagadas . Para obtener más información, vea [Conciliar pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md).
+En los entornos comerciales donde el cliente paga después de la entrega, de acuerdo con el plazo de pago, una factura de ventas publicada permanece abierta (sin pagar) hasta que el departamento de Cobros verifique que se haya recibido el pago y lo liquide a la factura de ventas publicada. Para obtener más información, vea [Conciliar pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md).
+
+En los entornos comerciales en los que el cliente paga de forma inmediata, por ejemplo, mediante PayPal o en efectivo, el pago se registra inmediatamente al contabilizar la factura que no es de venta, es decir, la factura de venta publicada se cierra como totalmente liquidada. Seleccione el método relevante en el campo **Cód. forma pago** del pedido. Consulte debajo del paso 8. Para pagos electrónicos, como PayPal, también debe completar el campo **Servicio de pago**. Para obtener más información, consulte [Permitir pagos de cliente a través de servicios de pago](sales-how-enable-payment-service-extensions.md).
+
+Incluso puede crear pedidos pagados directamente para clientes no registrados configurando primero una tarjeta de "cliente de efectivo" que señale en el pedido de venta. Para obtener más información, consulte [Configurar clientes de efectivo](finance-how-to-set-up-cash-customers.md).
 
 Puede corregir o cancelar fácilmente una factura de venta registrada derivada de un pedido de venta antes de que se haya realizado el pago. Esto es útil si se desea corregir un error de escritura o si el cliente solicita un cambio temprano en el proceso de pedido. Para obtener más información, vea [Corregir o cancelar las facturas de venta sin abonar](sales-how-correct-cancel-sales-invoice.md) Si la factura de venta registrada se ha pagado, deberá crear un abono de venta para revertir la venta. Para obtener más información, vea [Procesar devoluciones de ventas o cancelaciones](sales-how-process-sales-returns-cancellations.md).
 
-Los productos pueden ser productos de inventario y servicios, lo que se indica por los tipos **Producto - Inventario** y **Producto - Servicio** en las líneas de venta. El proceso del pedido de venta es el mismo para ambos tipos de producto. Para obtener más información, vea [Registrar nuevos productos](inventory-how-register-new-items.md).
+Los productos pueden ser productos de inventario y servicios, lo que se indica por el tipo **Inventario** y **Servicio** en la ficha de producto. El proceso del pedido de venta es el mismo para ambos tipos de producto. Para obtener más información, vea [Registrar nuevos productos](inventory-how-register-new-items.md).
 
 Puede rellenar los campos de cliente en el pedido de venta de dos formas en función de si el cliente ya está registrado. Consulte los pasos 2 y 3 del siguiente procedimiento.
 
@@ -53,6 +57,9 @@ Puede rellenar los campos de cliente en el pedido de venta de dos formas en func
     Muchos campos del pedido de venta se rellenan con la información especificada en la nueva ficha de cliente.
 8. Rellene los campos restantes de la ventana **Pedido de venta** según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
+    > [!NOTE]  
+    > Si permite que el cliente pague inmediatamente, por ejemplo, en tarjeta de crédito o mediante PayPal, complete el campo **Cód. forma pago**. El pago se registra cuando se contabiliza el pedido de venta como facturado. Si selecciona EFECTIVO, el pago se registra en una cuenta de contrapartida especificada.
+
     Ya puede rellenar las líneas del pedido de venta con los productos de inventario o los servicios que quiera vender al cliente.
 
     Si ha configurado líneas de venta periódicas para el cliente, como por ejemplo un pedido de reabastecimiento mensual, puede insertar estas líneas en el pedido seleccionando la acción **Obtener líneas de venta periódicas**.
@@ -69,7 +76,7 @@ Puede rellenar los campos de cliente en el pedido de venta de dos formas en func
 
     Si ha configurado precios de producto especiales en la ficha desplegable **Precios venta y descuentos línea ventas** en la ficha del producto o en la del cliente, el porcentaje de descuento, el precio y el presupuesto de línea en la línea de la factura se actualizan automáticamente si se cumplen los criterios acordados para el precio. Para más información, vea [Registrar acuerdos de pago, descuentos y precios de venta](sales-how-record-sales-price-discount-payment-agreements.md).
 12. Para agregar un comentario acerca de la línea de oferta que el cliente puede ver en la oferta de venta impresa, escriba un texto en el campo **Descripción** en una línea vacía.  
-13. Repita los pasos 9 a 12 para cada producto que desee ofertar al cliente.
+13. Repita los pasos 9 a 12 para cada producto que desee vender al cliente.
 
     Los totales por debajo de las líneas se calculan automáticamente cuando se crean o modifican las líneas.
 14. Una nueva ficha de cliente muestra la información sobre la plantilla de cliente seleccionada. Rellene el resto de campos. Para obtener más información, vea [Registrar nuevos clientes](sales-how-register-new-customers.md).  

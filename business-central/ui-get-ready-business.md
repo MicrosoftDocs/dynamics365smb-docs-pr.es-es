@@ -12,10 +12,10 @@ ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 02/19/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 3e517397fb849e84da42492aaeea36def7dd3a28
+ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
+ms.openlocfilehash: 5508b9336b0e6bffcc47632b95eac3691ab3891c
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/18/2018
 
 ---
 # <a name="getting-ready-for-doing-business"></a>Preparación para hacer negocios
@@ -26,7 +26,7 @@ Para ayudarle a empezar a hacer negocios, puede visitar la ventana **Asistencia 
 En el área de trabajo, en la barra de navegación superior, encontrará el menú **Configuración y extensiones**. Aquí tiene acceso a una lista de configuraciones asistidas que pueden ayudarle a empezar. Una vez haya migrado los datos, como los proveedores, clientes o productos de su sistema financiero existente, está listo para empezar. Pero en función de sus necesidades, considere si la otra configuración asistida puede ayudarle. Si un área no está cubierta por una configuración asistida, elija la acción **Configuración manual** para obtener acceso a las ventanas de configuración donde puede rellenar los campos de configuración de todas las áreas manualmente. Para obtener más información, consulte también [Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 
 > [!NOTE]  
->   La lista de guías de configuración, las extensiones y los servicios que están disponibles varían según la experiencia del usuario que elija para la empresa. La experiencia **Básica** ofrece menos acceso que la experiencia **Esencial**. La primera vez que inicie sesión, use la experiencia Básica. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
+>   La lista de guías de configuración, las extensiones y los servicios que están disponibles varían según la experiencia del usuario que elija para la empresa. La experiencia **Básica** ofrece menos acceso que la experiencia **Esencial**. La primera vez que inicie sesión, use la experiencia Básica. Para obtener más información, consulte [Cambiar las funciones que se muestran](ui-experiences.md).
 
 En la ventana **Configuración asistida**, encontrará lo siguiente con la experiencia **Básico**:
 

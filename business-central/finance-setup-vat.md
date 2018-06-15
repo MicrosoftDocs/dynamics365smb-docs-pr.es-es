@@ -11,10 +11,10 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 04/20/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 3ca2883af506af1d98322305ee07a2995470bb2b
+ms.sourcegitcommit: b4dfdeb3cf49867699907c444147060727d3f146
+ms.openlocfilehash: 335738af45c1365da7e45f062b60e30d66082f41
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/09/2018
 
 ---
 
@@ -48,7 +48,9 @@ Para configurar números CIF/NIF, realice los pasos siguientes:
 2. Elija el país o región y después elija la acción **Formatos CIF/NIF**.
 3. En el campo **Formatos**, puede definir el formato introduciendo uno o varios de los siguientes caracteres:  
 
-    |----|----| | # | Requiere un número de un solo dígito. | | @ | Requiere una letra. No distingue entre mayúsculas y minúsculas. | | ? | Permite cualquier carácter. |
+* # <a name="--requires-a-single-digit-number"></a>- Requiere un número de un solo dígito.
+* @ - Requiere una letra. No distingue entre mayúsculas y minúsculas.
+* ? - Permite cualquier carácter.
 
     > [!Tip]
     > Puede usar otros caracteres siempre que estén presentes en el formato de país o región. Por ejemplo, si necesita incluir un punto o un guión entre conjuntos de números, puede definir el formato como ##.####.### o @@-###-###.  

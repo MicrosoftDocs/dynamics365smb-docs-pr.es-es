@@ -1,8 +1,6 @@
 ---
 title: "Asignar números de serie y de lote a productos para realizar un seguimiento | Microsoft Docs"
 description: "Puede agregar números de serie y números de lote a cualquier documento de salida o de entrada, los movimientos de seguimiento de producto registrados se muestran en los correspondientes movimientos de producto."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/22/2017
+ms.date: 04/17/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: dcfa7f47202472e43f0d57cee53f7c0a954dd12a
+ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
+ms.openlocfilehash: 2e764a915f1c4b258f0163f355653be81924ba96
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/18/2018
 
 ---
 # <a name="work-with-serial-and-lot-numbers"></a>Trabajar con números de lote y de serie
@@ -61,6 +59,10 @@ Un código de seguimiento de producto refleja las distintas consideraciones que 
 2. Seleccione la acción **Nuevo**.
 3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. En las fichas desplegables **Nº serie** y **Nº lote**, defina las directivas de seguimiento del producto mediante números de serie y lote respectivamente.  
+
+> [!NOTE]  
+>   Si desea rastrear elementos específicos o lotes específicos a lo largo de su vida útil, debe elegir los campos **Seguim. NS específ.** y **Seguim. lote específ.**, respectivamente. Como resultado, al manejar una unidad de salida de un artículo con este código de seguimiento de artículos, siempre debe especificar qué número de serie existente o qué número de lote existente debe gestionar. Esto significa que al vender una unidad del producto, debe liquidarse con un grupo específico de números de serie o de lote en las existencias. Es decir, un número de serie o de lote asignado al producto cuando entra en el inventario debe seguir hasta que sale del mismo.  
+Ya que este campo cubre todas las transacciones posibles con el producto, los campos de entrada y salida individuales también estarán seleccionados. No obstante, no hay que hacer nada con los campos de entrada y salida individuales en las existencias, ya que sólo definen el flujo de trabajo de su empresa cuando se asignan números de seguimiento de producto.  
 
 ### <a name="to-set-up-expiration-rules-for-serial-or-lot-numbers"></a>Para configurar las reglas de caducidad para números de serie o lote  
 Con algunos productos es posible que le interese configurar fechas y reglas de caducidad específicas en el código de seguimiento de producto. Esta funcionalidad le permite realizar un seguimiento de la caducidad de determinados números de serie y de lote.

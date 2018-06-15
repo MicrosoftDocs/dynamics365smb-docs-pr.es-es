@@ -13,10 +13,10 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 02/28/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 63dd2062d9560ef1a0fca5febfe0499aba437dc3
+ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
+ms.openlocfilehash: e4cda1f4770117065d1650a0c51dbd46fdf8baac
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/17/2018
 
 ---
 # <a name="finance"></a>Finanzas
@@ -58,7 +58,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 [Compras](purchasing-manage-purchasing.md)  
 [Cerrar periodos fiscales](year-close-years-periods.md)  
 [Administrar proyectos](projects-manage-projects.md)    
-[Importar desde otros sistemas financieros](upload-data.md)  
+[Importar datos de otros sistemas financieros](across-import-data-configuration-packages.md)(across-import-data-configuration-packages.md)  
 [Trabajar con diarios generales](ui-work-general-journals.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

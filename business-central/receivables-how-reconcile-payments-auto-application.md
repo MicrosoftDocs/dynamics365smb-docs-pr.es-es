@@ -10,17 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 03/29/2017
+ms.date: 05/17/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 75b030e6fc1a2cc5cf3c1068337dfd8c1c905543
+ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
+ms.openlocfilehash: 4a22150d1fd0afa296cd10cf3d9e4315107f20b7
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/17/2018
 
 ---
 # <a name="reconcile-payments-using-automatic-application"></a>Conciliar los pagos con liquidación automática
 La ventana **Diario de conciliación de pagos** especifica pagos, bien entrantes de clientes o salientes a proveedores, que se han registrado como transacciones en la cuenta bancaria en línea y que puede liquidar a sus clientes, vendedores y movimientos de la cuenta pendientes. Las líneas del diario se rellenan importando un extracto bancario como una fuente o un archivo de banco.
+
+> [!NOTE]
+> La ventana ofrece una funcionalidad de coincidencia automática que liquida pagos a sus movimientos abiertos relacionados basados en una coincidencia de texto en una línea de estado bancario (línea de diario) con texto en uno o más movimientos abiertos. Tenga en cuenta que puede sobrescribir las aplicaciones automáticas sugeridas y puede optar por no utilizar la aplicación automática. Para obtener más información, vea el paso 7 .
 
 Un diario de conciliación de pago está relacionado con una cuenta bancaria en [!INCLUDE[d365fin](includes/d365fin_md.md)] que refleja la cuenta bancaria en línea donde se registran las transacciones de pago. Todas las cuenta abiertas relacionada con los movimientos de los clientes o los proveedores se cerrarán cuando seleccione la acción **Registrar pagos y conciliar banco**. Eso significa que la cuenta bancaria se concilia automáticamente por los pagos que registró mediante el diario.
 
@@ -30,14 +33,14 @@ Con la acción **Asignar texto a cuenta** puede configurar asignaciones entre el
 
 La funcionalidad similar existe para conciliar el exceso de importes en las líneas del diario de conciliación de pagos sobre una base ad hoc. Para obtener más información, vea [Conciliar pagos que no pueden liquidarse](receivables-how-reconcile-payments-cannot-apply-auto.md)
 
-La función **Liquidar automáticamente** se usa automáticamente cuando se importa una fuente o un archivo bancario con transacciones de pago, o cuando se activa para liquidar pagos en sus movimientos pendientes relacionados basándose en una correspondencia de datos en una línea de diario con datos en uno o varios movimientos pendientes.
+La función **Liquidar automáticamente** se usa automáticamente cuando se importa una fuente o un archivo bancario con transacciones de pago, o cuando se activa para liquidar pagos en sus movimientos pendientes relacionados basándose en una coincidencia de texto en una línea de extracto bancario (línea de diario) con texto en una o más entradas abiertas.
 
 En las líneas de diario donde un pago se ha liquidado automáticamente a un movimiento pendiente o varios, el campo **Confianza de la correspondencia** tiene un valor entre Baja y Alta para indicar la calidad de la correspondencia de datos en la que se basa la liquidación de pago sugerida. Además, los campos **Tipo de cuenta** y **N.º de cuenta** se rellenan con información sobre el cliente o el proveedor en el que se ha liquidado el pago. Si ha configurado una asignación de texto a cuenta, la liquidación automática puede dar como resultado un valor de confianza de correspondencia **Alta: asignación de texto a cuenta**.
 
 Para cada línea de diario en la ventana **Diario de conciliación de pagos** podrá abrir la ventana **Liquidación de pago** para ver todos los candidatos con movimientos pendientes de pago y podrá ver información detallada para cada movimiento sobre la correspondencia de datos en la que se basa la liquidación de un pago. Aquí puede liquidar manualmente pagos o volver a liquidar pagos que se aplicaron automáticamente en un movimiento incorrecto. Para obtener más información, vea [Revisar o liquidar pagos después de una liquidación automática](receivables-how-review-apply-payments-auto-application.md).
 
 > [!NOTE]  
->   Puede iniciar la importación de las transacciones bancarias al mismo tiempo que abre la ventana **Conciliación de pagos** para un diario de conciliación de pagos existente en la ventana **Diarios de conciliación de pago**. El procedimiento siguiente describe cómo importar transacciones bancarias a la ventana **Diario de conciliación de pagos** una vez creado un nuevo diario.
+> Puede iniciar la importación de las transacciones bancarias al mismo tiempo que abre la ventana **Conciliación de pagos** para un diario de conciliación de pagos existente en la ventana **Diarios de conciliación de pago**. El procedimiento siguiente describe cómo importar transacciones bancarias a la ventana **Diario de conciliación de pagos** una vez creado un nuevo diario.
 
 ## <a name="to-reconcile-payments-using-automatic-application"></a>Para conciliar los pagos con liquidación automática
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diarios de conciliación de pagos** y, a continuación, seleccione el vínculo relacionado.
@@ -57,7 +60,11 @@ Para cada línea de diario en la ventana **Diario de conciliación de pagos** po
     Cuando termine la liquidación manual, el campo **Confianza de la correspondencia** en la línea de diario que ha procesado manualmente contendrá la palabra **Aceptado**.
 8. Seleccione una línea de diario desliquidado para un recibo de gasto o cobro periódico, como el de repostar gasolina y, a continuación, elija la acción **Asignar texto a cuenta**. Para más información, consulte [Asignación de texto en pagos periódicos a cuentas para conciliación automática](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
 9. Cuando haya terminado con la asignación de texto de pago a las cuentas, seleccione la acción **Liquidar manualmente**.
-10. Si está seguro de que todos los pagos en las líneas de diario se han liquidado correctamente, o se han establecido para un registro directo, seleccione la acción **Registrar**.
+10. Si está seguro de que todos los pagos en las líneas de diario se han liquidado correctamente, o se han establecido para un registro directo, seleccione la acción **Registrar** y elija una de las opciones:
+
+    - **Registrar pagos y conciliar bancos**: para registrar los pagos como liquidados y cerrar los movimientos bancarios de la cuenta relacionada como reconciliados.
+    - **Registrar solamente pagos**: para publicar solo los pagos como liquidados pero dejar abiertos los movimientos bancarios de cuentas bancarias relacionadas. Se requiere que concilie la cuenta bancaria por separado, por ejemplo: Para obtener más información, consulte [Conciliar cuentas bancarias](bank-how-reconcile-bank-accounts-separately.md).
+    - **Informe de prueba**: para revisar el resultado del registro antes de registrar. Se abre el informe **Estado de cuenta bancaria** y muestra los mismos campos que en la parte inferior de la ventana **Diario de conciliación de pagos**.
 
 Cuando se registra el diario de conciliación de pago, los abonos de movimientos pendientes liquidados se cierran y las cuentas de cliente, de proveedor o de contabilidad relacionadas se actualizan. En el caso de los pagos en las líneas de diario basados en la asignación de texto a cuenta, se actualizan las cuentas de cliente, proveedor y contabilidad especificadas. Para todas las líneas de diario, se crean movimientos de banco. Si selecciona la acción **Registrar pagos y conciliar banco**, todas las cuenta abiertas relacionadas con los movimientos de los clientes o los proveedores se cerrarán. Eso significa que la cuenta bancaria se concilia automáticamente por los pagos que registró mediante el diario.
 

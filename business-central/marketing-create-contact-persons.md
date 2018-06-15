@@ -1,8 +1,6 @@
 ---
 title: Crear personas de contacto | Documentos de Microsoft
 description: "Describe las tareas para crear una ficha de contacto de una persona, por ejemplo, un cliente potencial o proveedor, lo que ayuda a definir la relación y adaptar la comunicación."
-services: project-madeira
-documentationcenter: 
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/06/2017
+ms.date: 05/09/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3701bf4f4470b84d05ce8f7a7686a6b8d37b7025
+ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
+ms.openlocfilehash: 341cd12db4ca130539a2ba2838c3aa95a96cb6ab
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/15/2018
 
 ---
 # <a name="creating-contact-persons"></a>Crear personas de contacto
@@ -40,6 +38,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 
 ## <a name="see-also"></a>Consulte también
 [Crear empresas de contacto](marketing-create-contact-companies.md)  
-[Creación y administración de contactos]()  
+[Crear personas de contacto](marketing-create-contact-persons.md)  
+[Use cuestionarios de perfil para clasificar contactos comerciales](marketing-create-contact-profile-questionnaire.md)  
 [Trabajar con Business Central](ui-work-product.md)
 

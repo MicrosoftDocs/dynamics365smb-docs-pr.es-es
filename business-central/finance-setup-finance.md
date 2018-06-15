@@ -13,10 +13,10 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 12/20/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d365f86ae25098927b827c1add48aa3400e52ff9
+ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
+ms.openlocfilehash: 44b9d4b0f1a57920ad4be0ccb4a13f17df88ff3b
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/17/2018
 
 ---
 # <a name="setting-up-finance"></a>Configurar las finanzas
@@ -43,7 +43,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 [Finanzas](finance.md)  
 [Administrar cuentas bancarias](bank-manage-bank-accounts.md)  
 [Trabajar con dimensiones](finance-dimensions.md)  
-[Importar datos de empresa de otros sistemas financieros](upload-data.md)  
+[Importar datos de empresa de otros sistemas financieros](across-import-data-configuration-packages.md)  
 [Analizar el flujo de efectivo de la empresa](finance-analyze-cash-flow.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
