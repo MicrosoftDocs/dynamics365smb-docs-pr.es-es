@@ -68,5 +68,5 @@ Según sus datos migrados, ahora puede empezar a crear nuevos documentos de comp
 [Gestionar usuarios y permisos](ui-how-users-permissions.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

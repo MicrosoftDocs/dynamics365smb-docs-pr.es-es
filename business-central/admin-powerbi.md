@@ -170,5 +170,5 @@ Si introduce un nombre de empresa no válido durante el proceso de conexión, pu
 [Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] en Microsoft Flow](across-how-use-financials-data-source-flow.md)   
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

@@ -49,5 +49,5 @@ En la tabla siguiente se indican algunas de las funciones generales con vínculo
 [Funciones empresariales generales](ui-across-business-areas.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 
