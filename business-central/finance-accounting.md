@@ -1,5 +1,5 @@
 ---
-title: Experiencia contable en Financials | Documentos de Microsoft
+title: Experiencia contable de Business Central | Documentos de Microsoft
 description: "Obtenga más información sobre el portal contable de Business Central y el Área de trabajo Contable que admite a los contadores interno y externo en la empresa cliente."
 author: edupont04
 ms.service: dynamics365-business-central
@@ -11,10 +11,10 @@ ms.search.keywords: accountant, accounting, financial report
 ms.date: 09/14/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f679a00043cb38072aeb3bc2ce4316791e32136d
+ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
+ms.openlocfilehash: feb49e3c78329235cff68c8be009c996b1111812
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/01/2018
 
 ---
 # <a name="accountant-experiences-in-included365finlongincludesd365finlongmdmd"></a>Experiencias contables en [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]

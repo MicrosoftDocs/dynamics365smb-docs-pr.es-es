@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 05/09/2018
+ms.date: 05/15/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: 8901216a843440e922ae4df9d7508b543a6c1322
+ms.sourcegitcommit: 4bc9199b879c23115082b07a81d6da5a0b46e60d
+ms.openlocfilehash: bb700a7c65721efb7c1322420a4929eb7adc4433
 ms.contentlocale: es-es
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 05/31/2018
 
 ---
 # <a name="get-started-with-include-d365acclongincludesd365acclongmdmd"></a>Introducción a [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
@@ -25,7 +25,7 @@ Los negocios deben crear sus libros y firmas de contabilidad. Algunas empresas e
 Puede obtener acceso a [!INCLUDE [d365acc](includes/d365acc_md.md)] si se registra en [Dynamics 365 — Accountant Hub en Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants).  
 
 > [!TIP]
->  Cuando se registra en [!INCLUDE [d365acc](includes/d365acc_md.md)], debe especificar su dirección de correo electrónico de empresa, como <em>me@accountant.com</em>. Recomendamos que utilice la misma dirección de correo electrónico cuando trabaje en el [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)] de sus clientes, de modo que pueda cambiar fácilmente entre clientes. La dirección de correo electrónico debe ser una dirección de trabajo basada en Active Directory.
+>  Cuando se registre en [!INCLUDE [d365acc](includes/d365acc_md.md)], debe especificar su dirección de correo electrónico de trabajo, como <em>me@accountant.com</em>. Recomendamos que utilice la misma dirección de correo electrónico cuando trabaje en el [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)] de sus clientes, de modo que pueda cambiar fácilmente entre clientes. La dirección de correo electrónico debe ser una dirección de trabajo basada en Active Directory.
 
 ## <a name="working-with-individual-clients"></a>Trabajar con clientes individuales
 El panel muestra la información más importante sobre cada cliente.  
@@ -46,7 +46,7 @@ De manera similar, por ejemplo, puede utilizar el menú desplegable **Resumen de
 > [!TIP]
 >  Para acceder al [!INCLUDE [d365fin](includes/d365fin_md.md)] de un cliente, seleccione el elemento de menú **Ir al cliente** y se inicia sesión automáticamente.
 
-## <a name="company-details"></a>Detalles empresa
+## <a name="company-details"></a>Detalles de empresa
 Puede ver más información acerca de los datos de sus clientes eligiendo el nombre de la empresa sobre la que desea saber más. Se abrirá el panel **Detalles empresa**, donde podrá ver la información adicional siguiente:  
 
 * Saldos de cuentas de efectivo  

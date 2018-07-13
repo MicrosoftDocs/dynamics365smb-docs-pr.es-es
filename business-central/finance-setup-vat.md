@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 04/20/2017
+ms.date: 05/06/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: b4dfdeb3cf49867699907c444147060727d3f146
-ms.openlocfilehash: 335738af45c1365da7e45f062b60e30d66082f41
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: 399b1a4331431a6472ecebaad41489092d117cfa
 ms.contentlocale: es-es
-ms.lasthandoff: 04/09/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 
@@ -48,9 +48,9 @@ Para configurar números CIF/NIF, realice los pasos siguientes:
 2. Elija el país o región y después elija la acción **Formatos CIF/NIF**.
 3. En el campo **Formatos**, puede definir el formato introduciendo uno o varios de los siguientes caracteres:  
 
-* # <a name="--requires-a-single-digit-number"></a>- Requiere un número de un solo dígito.
-* @ - Requiere una letra. No distingue entre mayúsculas y minúsculas.
-* ? - Permite cualquier carácter.
+* **#** Requiere un número de un solo dígito.  
+* **@** Requiere una letra. No distingue entre mayúsculas y minúsculas.  
+* **?** Permite cualquier carácter.  
 
     > [!Tip]
     > Puede usar otros caracteres siempre que estén presentes en el formato de país o región. Por ejemplo, si necesita incluir un punto o un guión entre conjuntos de números, puede definir el formato como ##.####.### o @@-###-###.  
@@ -116,6 +116,29 @@ En las secciones siguientes se describe cómo asignar los grupos de registro de 
 * En la ficha **Recurso**, amplíe la ficha desplegable **Facturación**.  
 3. Elija el grupo de registro de IVA de producto.  
 
+## <a name="setting-up-vat-statement-templates-and-vat-statement-names"></a>Configuración de tipos de declaración de IVA y nombres de declaración de IVA
+Las autoridades fiscales pueden modificar, y lo hacen, sus requisitos para registrar el IVA. **Tipos de declaración del IVA** y **Nombres de declaración del IVA** puede ayudarle a prepararse para los próximos cambios y hacer una transición sin problemas a los nuevos requisitos. Puede utilizar tipos de declaración del IVA para definir los campos que desea incluir en su declaración del IVA, que a su vez definen los cálculos, y puede crear un nuevo tipo de declaración del IVA cuando cambien las necesidades. Por ejemplo, un tipo podría calcular el IVA para este año basándose en los requisitos actuales y otro podría calcular el IVA basándose en los requisitos para el próximo año. Los tipos también son una forma de mantener un historial de los formatos de las declaraciones del IVA, por ejemplo, para que pueda consultar ver cómo calculó el IVA en años anteriores.
+
+## <a name="how-to-define-and-preview-vat-statements"></a>Cómo definir y obtener una vista previa de las declaraciones del IVA
+Las declaraciones de IVA le permiten calcular el importe de liquidación de IVA de un determinado periodo, por ejemplo, un trimestre. Después de definir una declaración de IVA, puede obtener una vista previa de ella para asegurarse de que satisface sus necesidades. 
+
+Para definir una declaración de IVA, realice los pasos siguientes:
+
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Declaraciones IVA** y, a continuación, seleccione el vínculo relacionado.  
+2. Elija el campo **Nombre** y después **Nuevo** en la página **Nombres declar. IVA**. 
+3. Rellene los campos requeridos. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+> [!Tip]
+> Puede filtrar la información que incluirá la declaración, dependiendo de lo que elija en el campo **Tipo**. **Cuentas a totalizar** resulta útil cuando desea el IVA de una cuenta específica.
+**Total mov. IVA** obtiene el IVA de las cuentas asignadas a las selecciones en los campos **Tipo IVA**, **Grupo reg. IVA negocio** o **Grupo reg. IVA producto**. **Filas a totalizar** permite introducir un valor o criterios de filtro rápido en el campo **Filas a totalizar**. Para obtener más información, consulte [Buscar, filtrar y ordenar datos](ui-enter-criteria-filters.md). **Descripción** se utiliza con frecuencia para agregar una nota a la declaración. Por ejemplo, puede utilizarlo como cabecera cuando haya utilizado el total de filas.
+
+Para obtener una vista previa de la declaración de IVA, realice los pasos siguientes:
+
+1. Seleccione **Vista previa**.
+2. Escriba un filtro de fecha para limitar la declaración a un periodo específico. Para obtener más información sobre cómo personalizar la página para mostrar el filtro de fecha, consulte [Buscar, filtrar y ordenar datos](ui-enter-criteria-filters.md).
+3. Puede seleccionar diversas opciones para especificar el tipo de movimientos de IVA para incluir en la declaración.
+4. En las líneas cuyo campo **Tipo** contenga **Total mov. IVA**, podrá ver una lista de los movimientos de IVA al seleccionar el importe del campo **Importe columna**.   
+
 ## <a name="to-set-up-clauses-to-explain-the-use-of-non-standard-vat-rates"></a>Configurar cláusulas para explicar el uso de tasas de IVA no estándar
 Configura una cláusula de IVA para describir información acerca del tipo de IVA que se está aplicando. La legislación puede requerir la información. Una vez que haya configurado una cláusula de IVA y la haya asociado a una configuración de registro de IVA, la cláusula de IVA se muestra en los documentos de venta impresos que usan ese grupo de configuración de registro de IVA.
 
@@ -166,8 +189,7 @@ Puede ver el registro del registro de IVA en las fichas de cliente, proveedor o 
 
 Nuestro servicio también puede ahorrarle tiempo al crear un cliente o un proveedor. Si conoce el número de IVA del cliente, puede introducirlo en el campo **CIF/NIF** en las fichas de cliente o proveedor, y rellenaremos automáticamente el nombre del cliente. Algunos países también proporcionan direcciones de empresa en formato estructurado. En esos países, también completaremos la dirección.  
 
-> [!NOTE]  
-> Hay un par de cosas a recordar sobre el servicio de validación de IVA VIES:
+Hay un par de cosas a recordar sobre el servicio de validación de IVA VIES:
 
 * El servicio utiliza el protocolo HTTP, lo que significa que los datos transferidos a través del servicio no están cifrados.  
 * Puede experimentar tiempo de inactividad de este servicio del que Microsoft no es responsable. El servicio forma parte de una amplia red de la UE de registros de IVA nacionales.

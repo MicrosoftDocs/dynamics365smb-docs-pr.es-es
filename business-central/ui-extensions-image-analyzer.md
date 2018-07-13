@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: API, extension, Cognitive Services, image, computer vision, attribute, tag, recognition
-ms.date: 06/19/2017
+ms.date: 06/12/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: b767588b4dae6953371e112fd4e8e5cd4af7b1e0
+ms.sourcegitcommit: 3331849cf94c70d0597ae5f37d3109451947c9fc
+ms.openlocfilehash: f40f51ffec0d052e26bcaf34c928ef63e9adde4d
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/20/2018
 
 ---
 
@@ -28,8 +28,8 @@ El analizador está disponible en [!INCLUDE[d365fin](includes/d365fin_md.md)], p
 
 Después de habilitar la extensión, el analizador se ejecuta cada vez que importa una imagen a un elemento o persona de contacto. Verá los atributos, el nivel de confianza y los detalles de inmediato y podrá decidir qué hacer con cada atributo. Si ha importado imágenes antes de activar la extensión del analizador de imágenes, debe ir al elemento o a las tarjetas de contacto y seleccionar la acción **Analizar imagen**.  
 
->   [!NOTE]  
->   Al habilitar esta extensión, acepta que Microsoft pueda almacenar sus datos y utilizarlos para mejorar sus servicios, como por ejemplo, mejorar la API de Computer Vision. Para ayudar a proteger la privacidad, tomamos medidas para mantener el anonimato de los datos y mantenerlos seguros. No publicaremos sus datos dejamos ni permitiremos que otras personas los usen. Puede eliminar la imagen del elemento en [!INCLUDE[d365fin](includes/d365fin_md.md)], sin embargo, la API de Computer Vision aún tendrá la imagen de forma identificada. Para obtener más información, consulte [Centro de confianza de Microsoft](https://go.microsoft.com/fwlink/?linkid=851463).
+## <a name="privacy-notice"></a>Aviso de privacidad 
+Esta extensión utiliza la API de Computer Vision de Microsoft Cognitive Services, que puede tener diferentes niveles de compromisos de cumplimiento que [!INCLUDE[d365fin](includes/d365fin_md.md)]. Cuando habilita la extensión del analizador de imágenes, los datos del cliente, como una imagen de contacto o una imagen de un producto, se enviarán a la API de Computer Vision. Al instalar esta extensión, acepta que este conjunto limitado de datos se envíe a la API de Computer Vision. Tenga en cuenta que puede desactivar, así como desinstalar, la extensión del analizador de imágenes en cualquier momento para interrumpir el uso de esta funcionalidad. Para obtener más información, consulte [Centro de confianza de Microsoft](https://go.microsoft.com/fwlink/?linkid=851463).
 
 ## <a name="requirements"></a>Requisitos
 Hay algunos requisitos para las imágenes:
@@ -37,9 +37,6 @@ Hay algunos requisitos para las imágenes:
 * Formatos de imagen: JPEG, PNG, GIF, BMP  
 * Tamaño del archivo máximo: menos de 4 MB  
 * Dimensiones de la imagen: mayor de 50 x 50 píxeles  
-
-## <a name="blacklisting-suggested-attributes"></a>Listas negras de atributos sugeridos
-Si el análisis sugiere un atributo que no desea ver, puede añadirlo a una lista negra. Sin embargo, preste atención. Los atributos de la lista negra ya no aparecerán más para otros artículos ni personas de contacto. Si desea eliminar un atributo de la lista negra, puede elegir **Atributos de la lista negra** y, a continuación, eliminarlo.
 
 ## <a name="to-enable-image-analyzer"></a>Activar el analizador de imágenes
 La extensión del analizador de imágenes viene incorporada en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Solo necesita activarla.
@@ -52,8 +49,8 @@ La extensión del analizador de imágenes viene incorporada en [!INCLUDE[d365fin
 * Abrir un elemento o tarjeta de contacto. En la barra de notificación, elija **Analizar imágenes**y, a continuación, siga los pasos de la guía de configuración asistida.  
 * Seleccione el ícono ![Buscar página o informe](media/ui-search/search_small.png "Buscar página o informe"), introduzca **Conexiones servicio** y, a continuación, seleccione **Configuración de análisis de imagen**. Seleccione la casilla **Activar analizador de imágenes**y, a continuación, complete los pasos de la guía de configuración asistida.  
 
->   [!TIP]  
->   La página **Configuración del análisis de imágenes** también permite cambiar el grado de confianza de las sugerencias de atributos. Por ejemplo, si desea exigir un mayor grado de confianza, puede introducir un porcentaje más alto.
+    > [!TIP]  
+    > La página **Configuración del análisis de imágenes** también permite cambiar el grado de confianza de las sugerencias de atributos. Por ejemplo, si desea exigir un mayor grado de confianza, puede introducir un porcentaje más alto.
 
 ## <a name="to-analyze-an-image-of-an-item"></a>Analizar una imagen de un producto
 Los siguientes pasos describen cómo analizar una imagen que se importó antes de activar la extensión del analizador.  
@@ -62,8 +59,8 @@ Los siguientes pasos describen cómo analizar una imagen que se importó antes d
 2. Seleccione el producto y, a continuación, elija la acción **Analizar imagen**.  
 3. La página **Atributos del analizador de imágenes** muestra los atributos detectados, el nivel de confianza y otros detalles sobre el atributo. Utilice las opciones **Acción para realizar** para especificar qué debe hacer con el atributo.  
 
->   [!TIP]  
->   Puede agregar el nombre del atributo a la descripción del artículo mediante **Añadir a la descripción del artículo**. Por ejemplo, esto puede ser útil para agregar rápidamente detalles.  
+    > [!TIP]  
+    > Puede agregar el nombre del atributo a la descripción del artículo mediante **Añadir a la descripción del artículo**. Por ejemplo, esto puede ser útil para agregar rápidamente detalles.  
 
 ## <a name="to-analyze-a-picture-of-a-contact-person"></a>Analizar una imagen de una persona de contacto
 Los siguientes pasos describen cómo analizar una imagen que se importó antes de activar la extensión del analizador.  
@@ -72,14 +69,17 @@ Los siguientes pasos describen cómo analizar una imagen que se importó antes d
 2. Seleccione la persona de contacto y, a continuación, elija la acción **Analizar imagen**.  
 3. En la ficha desplegable **Cuestionario perfil**, revise las sugerencias y realice correcciones si es necesario.  
 
+## <a name="blacklisting-suggested-attributes"></a>Listas negras de atributos sugeridos
+Si el análisis sugiere un atributo que no desea ver, puede añadirlo a una lista negra. Sin embargo, preste atención. Los atributos de la lista negra ya no aparecerán más para otros artículos ni personas de contacto. Si desea eliminar un atributo de la lista negra, puede elegir **Atributos de la lista negra** y, a continuación, eliminarlo.
+
 ## <a name="to-use-your-own-account-for-the-computer-vision-api"></a>Usar su propia cuenta para la API de Computer Vision
 También puede utilizar su propia cuenta para la API de Computer Vision, por ejemplo, si desea analizar más imágenes de las que permitimos.  
 
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Configuración analizador de imágenes** y, a continuación, seleccione el vínculo relacionado.  
 2. Ingrese el **API de URI** y la **Clave de API** que recibió para la API de Computer Vision.  
 
->   [!NOTE]  
->   Si no está escrito, debe agregar **/analyze** al final de la API de URI. Por ejemplo: ```https://cronus.api.cognitive.microsoft.com/vision/v1.0/analyze```.
+    > [!NOTE]  
+    > Si no está escrito, debe agregar **/analyze** al final de la API de URI. Por ejemplo: ```https://cronus.api.cognitive.microsoft.com/vision/v1.0/analyze```.
 
 ## <a name="to-see-how-many-analyses-you-have-left-in-the-current-period"></a>Ver cuántos análisis ha dejado en el período actual
 Puede ver el número de análisis que ha realizado y cuántos pueden hacerse en el período actual.  

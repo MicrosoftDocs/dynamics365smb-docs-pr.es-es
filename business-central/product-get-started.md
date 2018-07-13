@@ -1,29 +1,29 @@
 ---
 title: "Introducción | Documentos de Microsoft"
 description: "Obtenga más información sobre las capacidades y los escenarios de trabajo en Business Central, una solución de administración empresarial para pequeñas y medianas empresas."
-author: SusanneWindfeldPedersen
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 03/21/2018
-ms.author: solsen
+ms.date: 06/20/2018
+ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: 7dda76b03bb4bff5bb75be38710f2c851b106823
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: 655f67778ed52794df893cec8965eec990f41b3f
 ms.contentlocale: es-es
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Introducción a [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
-[!INCLUDE[d365fin](includes/d365fin_md.md)] es una solución de administración empresarial para pequeñas y medianas empresas que automatiza y optimiza los procesos empresariales y le ayuda a administrar su empresa. Registrarse es muy fácil y puede migrar los datos de la empresa existentes desde su sistema de herencia.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] es una solución de administración empresarial para pequeñas y medianas empresas que automatiza y optimiza los procesos empresariales y le ayuda a administrar su empresa. Registrarse es muy fácil y puede migrar los datos de la empresa existentes desde su sistema de herencia. Para ayudarle con su suscripción, encuentre [aquí](https://www.microsoft.com/en-us/solution-providers/search) un socio de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Cuando se registra en la vista previa de [!INCLUDE[d365fin](includes/d365fin_md.md)], dispone de acceso a una empresa de demostración. La empresa de demostración contiene datos de ejemplo, pero puede crear sus propios documentos de venta, por ejemplo, o configurar una cuenta bancaria.  
 
 ## <a name="get-to-know-included365finincludesd365finmdmd"></a>Familiarícese con [!INCLUDE[d365fin](includes/d365fin_md.md)]
-En [!INCLUDE[d365fin](includes/d365fin_md.md)], le serán familiares algunos aspectos, pero otros no. En la empresa de demostración, las guías visuales explican funcionalidad básica y le ayudan a probar tareas diarias, como crear una factura de venta y ver un informe. Si sale de una guía, por ejemplo, para explorar [!INCLUDE[d365fin](includes/d365fin_md.md)] por su cuenta, pero desea volver a ella, vuelva al área de trabajo e inicie el paseo de introducción.
+En [!INCLUDE[d365fin](includes/d365fin_md.md)], le serán familiares algunos aspectos, pero otros no. En la empresa de demostración, las guías visuales explican funcionalidad básica y le ayudan a probar tareas diarias, como crear una factura de venta y ver un informe. Si sale de una guía, por ejemplo, para explorar [!INCLUDE[d365fin](includes/d365fin_md.md)] por su cuenta, pero desea volver a ella, vuelva al área de trabajo e inicie el paseo de introducción. Si desea más ayuda, puede encontrar un socio de [!INCLUDE[d365fin](includes/d365fin_md.md)] [aquí](https://www.microsoft.com/en-us/solution-providers/search).  
 
 > [!TIP]  
 > Puede volver al área de trabajo seleccionando el nombre de la empresa en la esquina superior izquierda.
@@ -71,8 +71,10 @@ En la ventana **Configuración asistida**, encontrará lo siguiente con la exper
 
 Para crear una empresa para probar cosas, vaya al menú **Mi configuración** en la esquina superior derecha y cambie a **Mi empresa**. Cierre la sesión de [!INCLUDE[d365fin](includes/d365fin_md.md)] y vuelva a iniciarla para aplicar el cambio. Una guía de configuración asistida le ayudará a proporcionar información básica acerca de la empresa. Una vez haya terminado, explore el Área de trabajo y busque la acción **Configuración asistida**.  
 
+También puede encontrar un socio de [!INCLUDE[d365fin](includes/d365fin_md.md)] [aquí](https://www.microsoft.com/en-us/solution-providers/search).
+
 ## <a name="ready-to-subscribe"></a>¿Preparado para suscribirse?
-Cada vez que inicie sesión durante el periodo de prueba, una notificación en una barra azul de la parte superior muestra el tiempo restante. Si decide suscribirse, utilice el vínculo de la notificación para ponerse en contacto con Microsoft. También puede ponerse en contacto con el [equipo de ventas de [!INCLUDE[d365fin](includes/d365fin_md.md)]](https://go.microsoft.com/fwlink/?linkid=828707).  
+Cada vez que inicie sesión durante el periodo de prueba, una notificación en una barra azul de la parte superior muestra el tiempo restante. Si decide suscribirse, busque un socio de [!INCLUDE[d365fin](includes/d365fin_md.md)] [aquí](https://www.microsoft.com/en-us/solution-providers/search). También puede ponerse en contacto con el [equipo de ventas de [!INCLUDE[d365fin](includes/d365fin_md.md)]](https://go.microsoft.com/fwlink/?linkid=828707).  
 
 ## <a name="other-dynamics-365-apps"></a>Más aplicaciones de Dynamics 365
 Navegue para obtener información sobre otras aplicaciones de Dynamics 365 en el vínculo [Dynamics 365](https://docs.microsoft.com/dynamics365) del anuncio de color azul que aparece en la parte superior de esta página. También puede obtener más información en el [sitio web de Dynamics 365 Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/).  
@@ -90,5 +92,5 @@ Si es un contable, puede registrarse en [!INCLUDE[d365acc_long](includes/d365acc
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

@@ -1,6 +1,6 @@
 ---
 title: "Configurar la información de administración de marketing y de contactos | Documentos de Microsoft"
-description: "Puede configurar la administración de marketing y de contacto de Financials para optimizar las relaciones con los clientes potenciales o actuales, y mejorar las campañas y las promociones."
+description: "Puede configurar la administración de marketing y de contacto de Business Central para optimizar las relaciones con los clientes potenciales o actuales, y mejorar las campañas y las promociones."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect, client, customer, campaign, promo
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 42a279b085130da609c0f448acded6e60297dc9a
+ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
+ms.openlocfilehash: f4ccc58d0414131276dec3e062cf12e1ae4596db
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/01/2018
 
 ---
 # <a name="setting-up-relationship-management"></a>Configurar la gestión de relaciones

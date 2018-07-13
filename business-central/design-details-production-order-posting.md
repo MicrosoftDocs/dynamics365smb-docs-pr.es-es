@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 08e7aac45ecc90b9b4957a8722e1a9ae13d6c321
+ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
+ms.openlocfilehash: 4180e40f318e3e735c91f8670ef9a52ee8d72f6e
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/01/2018
 
 ---
 # <a name="design-details-production-order-posting"></a>Detalles de diseño: Registro de órdenes de producción
@@ -111,5 +111,5 @@ En entornos de coste estándar, el coste de una orden de producción se basa en 
  [Detalles de diseño: Coste de inventario](design-details-inventory-costing.md)   
  [Detalles de diseño: Registro de pedidos de ensamblado](design-details-assembly-order-posting.md)  
  [Gestión de costes de inventario](finance-manage-inventory-costs.md) [Finanzas](finance.md)  
- [Trabajar con Financials](ui-work-product.md)
+ [Trabajar con Business Central](ui-work-product.md)
 

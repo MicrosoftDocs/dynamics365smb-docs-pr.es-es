@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 12/20/2017
+ms.date: 05/31/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: 44b9d4b0f1a57920ad4be0ccb4a13f17df88ff3b
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: 025c00e6013e773204a12abc7d86c09b3dcef3dd
 ms.contentlocale: es-es
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="setting-up-finance"></a>Configurar las finanzas
@@ -30,6 +30,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 | --- | --- |
 | Elija cómo se paga a los proveedores. |[Definir las formas de pago](finance-payment-methods.md) |
 | Especifique los grupos contables que asignan entidades como clientes, proveedores, productos, recursos y documentos de venta y compra a cuentas contables. |[Configurar los grupos contables](finance-posting-groups.md)|
+|Cree esquemas de cuentas y defina las categorías de cuentas para definir el contenido de los gráficos e informes financieros, como los informes Balance y Balance de ingresos.|[Preparar informes financieros con esquemas de cuentas y categorías de cuentas](bi-how-work-account-schedule.md)|
 |Configure una tolerancia por la que el sistema cierre una factura aunque el pago, incluido el descuento, no cubra totalmente el importe de la factura.|[Trabajar con tolerancias de pago y tolerancias de descuento de pago](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Configure los periodos fiscales. |[Abrir un nuevo ejercicio](finance-how-open-new-fiscal-year.md) |
 | Definir cómo se comunican los importes del impuesto de valor añadido que ha recopilado por las ventas a las autoridades fiscales. |[Crear informes de IVA para las autoridades fiscales](finance-how-report-vat.md)|
@@ -48,5 +49,5 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

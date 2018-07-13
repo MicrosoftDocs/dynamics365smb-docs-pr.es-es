@@ -8,17 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supply planning, sales demand, replenish
-ms.date: 01/25/2018
+ms.date: 06/19/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: d5ae63043a6f296de22f71c401a5686f970ad3a0
+ms.sourcegitcommit: 3331849cf94c70d0597ae5f37d3109451947c9fc
+ms.openlocfilehash: 322f55f9233e89e6e6b5a710520b3e5931d9c44a
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/20/2018
 
 ---
 # <a name="purchase-items-for-a-sale"></a>Comprar productos para una venta
-A partir de pedidos y facturas de venta, puede utilizar funciones para crear rápidamente los documentos de compra de las cantidades de productos que faltan que sean necesarias para la venta. Puede utilizar dos funciones distintas dependiendo del tipo de documento.
+A partir de pedidos y facturas de venta, puede utilizar funciones para crear rápidamente los documentos de compra de las cantidades de productos que faltan que sean necesarias para la venta. Puede utilizar dos funciones distintas dependiendo del tipo de documento.  
+
 |Función|Description|
 |--------|-----------|
 |**Crear pedidos de compra**|A partir de un pedido de compra, esta función crea un pedido de compra para cada proveedor de los productos que hay en el pedido de venta. Puede modificar la cantidad de compra antes de crear los pedidos de compra. Solo se sugieren las cantidades de venta no disponibles.
@@ -57,7 +58,7 @@ Para crear una sola factura de compra para una o varias líneas de un documento 
 5. Seleccione o **Todas las líneas** o **Líneas seleccionadas** y, a continuación, elija el botón **Aceptar**.  
 6. En la lista de proveedores que aparece, seleccione el proveedor al que desea comprar todos los productos y, a continuación, elija el botón **Aceptar**.
 
-    Se crea una factura de compra que contiene una, varias o todas las líneas en la factura de venta.
+    Se crea una factura de compra que contiene una, más de una o todas las líneas en la factura de venta.
 7. Procese la factura de compra, por ejemplo, mediante la modificación o la adición de las líneas de la factura de compra. Para obtener más información, consulte [Registrar compras](purchasing-how-record-purchases.md).
 
 ## <a name="see-also"></a>Consulte también

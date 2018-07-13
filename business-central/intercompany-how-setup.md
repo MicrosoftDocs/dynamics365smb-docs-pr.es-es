@@ -1,8 +1,6 @@
 ---
 title: "Configuración de registro de transacciones entre empresas | Documentos de Microsoft"
 description: Cree sus proveedores y clientes de empresas vinculadas, como los llamados socios de empresas vinculadas, y configure un plan de cuentas de empresas vinculadas.
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 06/20/2017
+ms.date: 06/07/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 418dac3a6d909d3eb07525ab537a94f85016ad19
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: a9e3788687e88a60141e9ffb6b18f1c98a180c59
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 # <a name="set-up-intercompany"></a>Configurar empresa vinculada
@@ -52,20 +50,20 @@ Si su empresa es la empresa asociada y se encarga de definir el plan de cuentas 
 Si su empresa es una empresa subsidiaria y ha recibido un archivo XML que contiene el plan de cuentas común de las empresas vinculadas, siga el procedimiento "Importar el plan de cuentas de empresas vinculadas".  
 
 ### <a name="to-set-up-the-defining-intercompany-chart-of-accounts"></a>Configurar la definición de las empresas vinculadas
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Plan de cuentas IC** y, a continuación, seleccione el vínculo relacionado.
-2. En la ventana **Plan de cuentas IC**, introduzca cada cuenta en una línea en la ventana.  
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Plan de cuentas de empresas vinculadas** y, a continuación, seleccione el vínculo relacionado.
+2. En la ventana **Plan de cuentas de empresas vinculadas**, introduzca cada cuenta en una línea en la ventana.  
 3. Si su plan de cuentas de empresas vinculadas va a ser idéntico o similar al suyo habitual, puede rellenar la ventana automáticamente mediante la acción **Copiar de Plan de cuentas**. Puede editar las líneas nuevas si es necesario.
 
 ### <a name="to-export-an-intercompany-chart-of-accounts"></a>Para exportar el plan de cuentas de empresas vinculadas:
 Para permitir que sus socios de empresas vinculadas importen el plan de cuentas definido, debe exportarlo a un archivo.      
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Plan de cuentas IC** y, a continuación, seleccione el vínculo relacionado.
-2. En la ventana **Plan de cuentas IC** , seleccione la acción **Exportar** y, a continuación, el botón **Guardar**.
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Plan de cuentas de empresas vinculadas** y, a continuación, seleccione el vínculo relacionado.
+2. En la ventana **Plan de cuentas de empresas vinculadas**, seleccione la acción **Exportar** y, a continuación, el botón **Guardar**.
 3. Indique el nombre y la ubicación que desea utilizar para guardar el archivo XML y seleccione **Guardar**.  
 
 ### <a name="to-import-the-intercompany-chart-of-accounts"></a>Para importar el plan de cuentas de empresas vinculadas  
 Cuando existe un archivo para el plan de cuentas de empresas vinculadas definido, los socios de las empresas vinculadas pueden importarlo para asegurarse de que tienen las mismas cuentas.  
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Plan de cuentas IC** y, a continuación, seleccione el vínculo relacionado.  
-2. En la ventana **Plan de cuentas IC**, seleccione la acción **Importar**.  
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Plan de cuentas de empresas vinculadas** y, a continuación, seleccione el vínculo relacionado.  
+2. En la ventana **Plan de cuentas de empresas vinculadas**, seleccione la acción **Importar**.  
 3. Seleccione el nombre y la ubicación del archivo XML y elija el botón **Abrir**.  
 
 La ventana **Plan de cuentas IC** se rellena con las líneas de cuentas nuevas o modificadas según el plan de cuentas de empresas vinculadas en el archivo. Las líneas existentes, no relacionadas en la ventana permanecen sin cambios.
@@ -75,7 +73,7 @@ Cuando ha definido o importado el plan de cuentas de empresas vinculadas que su 
 
 Si las cuentas del plan de cuentas de empresas vinculadas tiene los mismos números de cuenta que las correspondientes del plan de cuentas, puede asignar las cuentas automáticamente.
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Plan de cuentas IC** y, a continuación, seleccione el vínculo relacionado.  
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Plan de cuentas de empresas vinculadas** y, a continuación, seleccione el vínculo relacionado.  
 2. Seleccione las líneas que desea asignar automáticamente y seleccione la acción **Asignar a cuenta con igual n.º**.  
 3. Para las cuentas de empresas vinculadas que no se asignan automáticamente, rellene el campo **N.º de cuenta de asignación** .  
 
@@ -106,7 +104,7 @@ Si su empresa es una empresa subsidiaria y ha recibido un archivo XML que contie
 ### <a name="to-import-the-intercompany-dimensions"></a>Importar las dimensiones de empresas vinculadas  
 Cuando existe un archivo para las dimensiones de empresas vinculadas definido, los socios de las empresas vinculadas pueden importarlo para asegurarse de que tienen las mismas dimensiones.  
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Dimensiones de empresas vinculadas** y, a continuación, seleccione el vínculo relacionado.  
-2. En la ventana **Dimensiones de empresas vinculadas** , seleccione la acción **Importar**.  
+2. En la ventana **Dimensiones de empresas vinculadas**, seleccione la acción **Importar**.  
 3. Especifique el nombre y la ubicación del archivo XML y elija el botón **Abrir**.  
 
 Se han importado las líneas de las ventanas **Dimensiones de empresas vinculadas** y **Valores de dimensión de empresas vinculadas**.  

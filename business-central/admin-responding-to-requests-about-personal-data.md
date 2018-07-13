@@ -11,10 +11,10 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.translationtype: HT
-ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
-ms.openlocfilehash: 400b4710bd4e9a26db3b392646581f5225a2d245
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: b90577cbab4167894fe79a3e8e8a0c61ce8c70e9
 ms.contentlocale: es-es
-ms.lasthandoff: 05/28/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 
@@ -47,6 +47,11 @@ Si ha iniciado sesión en [!INCLUDE[d365fin](includes/d365fin_md.md)] en la pág
 En la página de Privacidad del trabajo y la escuela, también puede cerrar su cuenta. Sin embargo, le recomendamos que se asegure de haber exportado y eliminado todos los datos primero, ya que eliminar su cuenta significa perder el acceso a [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Todavía puede marcar personas como bloqueadas debido a la privacidad y exportar, editar o eliminar transacciones como se explica en otra sección de este artículo.  
+
+## <a name="exporting-data-from-tables-not-classified-by-data-subject"></a>Exportar datos de tablas no clasificadas por asunto de datos
+Si tiene una situación en la que tiene que exportar datos que no están clasificados de manera que se exporten automáticamente, como los datos de la tabla Respuestas de perfil, debe hacer lo siguiente: 
+-   Considere si realmente desea o tiene que exportar estos datos suplementarios que no están relacionados con el contacto, lo que significa que no tienen relación directa con él. 
+-   Agregue esta tabla y relación manualmente al paquete de Rapid Start y expórtela directamente desde el paquete de Rapid Start; por ese motivo, generamos un paquete de Rapid Start automáticamente, para que pueda ajustarlo en situaciones como esta.
 
 ## <a name="handling-data-about-minors"></a>Controlar datos sobre menores
 Si la edad de una persona de contacto es inferior a la edad de consentimiento legal según las leyes de su región, puede indicarlo seleccionando la casilla de verificación **Menor** en la **Tarjeta de contacto**. Al introducirlos, la casilla de verificación **Privacidad bloqueada** se seleccionará automáticamente. Cuando reciba el consentimiento del padre o tutor legal del menor, puede elegir la casilla **Consentimiento de los padres recibido** para desbloquear el contacto. Aunque puede procesar datos personales para menores, no puede usar la funcionalidad de creación de perfiles en Microsoft Dynamics 365 for Sales.

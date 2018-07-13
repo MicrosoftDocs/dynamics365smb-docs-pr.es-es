@@ -11,10 +11,10 @@ ms.search.keywords: customization, personalization
 ms.date: 09/08/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: fcfbf5d9c66df986e34e68d98888042d83a53481
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: f5225d1f6d0d4ac0020fb073d5df6da83b5c0f5b
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="managing-saved-settings-on-reports"></a>Administrar configuración guardada en los informes
@@ -22,7 +22,7 @@ Según el informe que se ejecute, es posible que se le presente una página que 
 
 Puede ver la configuración guardada que están a su disposición para un informe en la sección **Configuración guardada** de la página de solicitud de informe.  
 
-## <a name="to-apply-saved-settings-to-a-report"></a>Para aplicar la configuración guardada a un informe
+## <a name="apply-saved-settings-to-a-report"></a>Aplicar la configuración guardada a un informe
 1. Abra el informe.
 
    Aparece la página de solicitud de informe.    
@@ -30,7 +30,7 @@ Puede ver la configuración guardada que están a su disposición para un inform
 
    La sección **Valores guardados** solo aparece si el informe se ha ejecutado antes o si hay configuraciones existentes guardadas. La configuración guardada que se denomina **Filtros y opciones usados por última vez** está siempre disponible. Esta configuración son los valores de opción y filtro que se utilizaron la última vez que ejecutó el informe.
 
-## <a name="administer-saved-report-settings-for-users"></a>Administrar la configuración de informe guardada para los usuarios
+## <a name="create-and-modify-saved-settings-for-all-users"></a>Crear y modificar la configuración guardada para todos los usuarios
 Si tiene los permisos adecuados, puede ver, crear y modificar la configuración guardada de todos los informes para todos los usuarios de la empresa. Puede asignar la configuración guardada de un informe a usuarios individuales o a todos los usuarios de la empresa.
 
 La configuración guardada se administra en la página 1506 **Configuración del informe**. Para abrir esta página, elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Configuración del informe** y, a continuación, seleccione el vínculo relacionado.

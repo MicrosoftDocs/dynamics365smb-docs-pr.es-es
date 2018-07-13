@@ -1,6 +1,6 @@
 ---
 title: "Informes de configuración para Business Central en Power BI | Documentos de Microsoft"
-description: "Puede hacer que los datos de Financials estén disponibles como origen de datos en Power BI y generar informes eficaces del estado de la empresa."
+description: "Haga que los datos estén disponibles como origen de datos en Power BI y generar informes eficaces del estado de la empresa."
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 04/03/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: c7782d6f74a56f72b40dfb6cfd59a44ab4a33ae7
+ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
+ms.openlocfilehash: f2b672feed3065791ad5976591c694c6435843f8
 ms.contentlocale: es-es
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/01/2018
 
 ---
 # <a name="using-included365finlongmdincludesd365finlongmdmd-as-power-bi-data-source-for-building-reports"></a>Usar [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] como fuente de datos de Power BI para generar informes

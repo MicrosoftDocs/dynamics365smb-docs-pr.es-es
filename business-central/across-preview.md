@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox
-ms.date: 01/05/2018
+ms.date: 06/28/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 3e7c5ca600a5f64b44fca419ce33cad868f15595
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: 0829c825ec0635a20c040fe17cd3e7cfc667ffd7
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="access-to-the-included365finlongincludesd365finlongmdmd-preview"></a>Acceder a la vista preliminar de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -43,7 +43,7 @@ Para obtener más información, consulte [Uso de diseñador](https://docs.micros
 3.  Elija **Crear**. Se abrirá una pestaña en la que puede terminar de configurar su entorno aislado.
 
     > [!Note]
-    > Si el bloqueador de ventanas emergentes está activado en su navegador, cámbielo para permitir las direcciones URL de la dirección *.financials.dynamics.com*.  
+    > Si el bloqueador de ventanas emergentes está activado en su navegador, cámbielo para permitir las direcciones URL de la dirección *.businesscentral.dynamics.com*.  
 
 4.  Cuando esté listo el entorno aislado, se mostrará una página de bienvenida.  
 5.  Si desea leer sobre escenarios que puede probar en un entorno aislad, como por ejemplo cómo desarrollar extensiones, elija el enlace **Más información**. En caso contrario, elija **Cerrar** para continuar con el Área de trabajo de la instancia aislada de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -67,7 +67,7 @@ Para obtener más información, consulte [Uso de diseñador](https://docs.micros
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] proporciona herramientas que puede usar para implementar su propia funcionalidad de inserción para agregar nuevas experiencias de extremo a extremo específicas de la industria o integrar soluciones de terceros. Por ejemplo, puede usar una API para construir una aplicación conectada para intercambiar datos entre [!INCLUDE[d365fin](includes/d365fin_md.md)] y su aplicación de nómina. Las liquidaciones de conexión también pueden hacer uso de extensiones para crear páginas que se utilizarán para la configuración, configuración o para admitir funciones específicas de la aplicación. Para obtener más información, vea [Desarrollo de aplicaciones para [!INCLUDE[d365fin](includes/d365fin_md.md)]](https://aka.ms/getstartedwithapps).
 
-##<a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Consulte también
 [Introducción](product-get-started.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

@@ -1,5 +1,5 @@
 ---
-title: Agregar el contable externo a Financials | Documentos de Microsoft
+title: Agregar el contable externo a Business Central | Documentos de Microsoft
 description: "Obtenga información sobre cómo puede invitar a su contable externo a Business Central."
 author: edupont04
 ms.service: dynamics365-business-central
@@ -11,10 +11,10 @@ ms.search.keywords: accountant, accounting
 ms.date: 01/25/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a252b967e910cb16179ef33fc9ec5e6b976056a7
+ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
+ms.openlocfilehash: 2408d7df92a8367505bd068dcad22283a7082126
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/01/2018
 
 ---
 # <a name="inviting-your-external-accountant-to-your-included365finincludesd365finmdmd"></a>Invitación del contable externo a [!INCLUDE[d365fin](includes/d365fin_md.md)]

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 02/20/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d2301b31308c1300961d78478ce1ada807eddeab
+ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
+ms.openlocfilehash: 1c98e4473a1c19aac846927e2eab56493f9a0a08
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/01/2018
 
 ---
 # <a name="setting-up-workflows"></a>Configuración de flujos de trabajo
@@ -48,5 +48,5 @@ Puede configurar y utilizar flujos de trabajo que vinculen tareas de procesos em
  [Uso de flujos de trabajo](across-use-workflows.md)   
  [Flujo de trabajo](across-workflow.md)   
  [Tutorial: Configuración y uso de un flujo de trabajo de aprobación de compra](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
- [Trabajar con Financials](ui-work-product.md)
+ [Trabajar con Business Central](ui-work-product.md)
 

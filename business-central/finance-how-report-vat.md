@@ -11,10 +11,10 @@ ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.date: 07/17/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 975703333b1a675ae78b70d99b1394d370490e9d
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: e7546d2d90567f9d633394dfd585f1dbbab27e46
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 
@@ -76,7 +76,7 @@ Para informar el IVA a una autoridad fiscal electrónicamente, debe conectar [!I
     >   Para el informe de Lista de ventas de EC, puede revisar las transacciones incluidas en las líneas de informe antes de enviarlo. Para hacerlo, seleccione la línea y, a continuación, seleccione la acción **Mostrar movs. IVA**.  
 4. Para validar y preparar el informe para enviar, elija la acción **Enviar** .  
 
-    >  [!NOTE]  
+    > [!NOTE]  
     >   [!INCLUDE[d365fin](includes/d365fin_md.md)] valida si el informe está correctamente configurado. Si falla la validación, los errores se muestran en la ventana **Errores y advertencias** para que pueda corregirlos. Normalmente, si el mensaje se trata de una configuración que falta en [!INCLUDE[d365fin](includes/d365fin_md.md)], puede hacer clic en el mensaje para abrir la página que contiene la información para corregir.  
 5. Para enviar el informe, elija la acción **Enviar** .  
 
@@ -91,10 +91,10 @@ Si utiliza otro método para enviar el informe, por ejemplo, exportar el XML y c
 ## <a name="vat-settlement"></a>Liquidación IVA
 De manera periódica, debe remitir la red IVA a las autoridades fiscales. Si tiene que liquidar el IVA con frecuencia, puede ejecutar el trabajo por lotes **Calc. y registrar liq. IVA** para cerrar los movimientos de IVA abiertos y transferir los importes del IVA de ventas y compras a la cuenta de liquidación del IVA.
 
-Al transferir importes de IVA a la cuenta de liquidación, la cuenta de IVA soportado se contabiliza en el Haber y la cuenta de IVA repercutido se contabiliza en el Deber con los importes calculados en el periodo. El importe neto se contabiliza en el Haber, o en el Debe, si el importe de IVA soportado es superior, en la cuenta de liquidación del IVA. Puede registrar la liquidación inmediatamente o imprimir primero un informe.
+Al transferir importes de IVA a la cuenta de liquidación, la cuenta de IVA soportado se contabiliza en el Haber y la cuenta de IVA repercutido se contabiliza en el Deber con los importes calculados en el periodo. El importe neto se contabiliza en el Haber, o en el Debe, si el importe de IVA soportado es superior, en la cuenta de liquidación del IVA. Puede registrar la liquidación inmediatamente o imprimir primero un informe.  
 
->    [!NOTE]  
->    Cuando se utiliza el trabajo por lotes **Calc. y registrar liq. IVA**, si no especifica un **Grupo registro IVA neg.** y un **Grupo registro IVA prod.**, se incluirán los movimientos con todos los códigos de los grupos contables de negocio y los de grupos contables de producto.
+> [!Note]
+> Cuando se utiliza el trabajo por lotes **Calc. y registrar liq. IVA**, si no especifica un **Grupo registro IVA neg.** y un **Grupo registro IVA prod.**, se incluirán los movimientos con todos los códigos de los grupos contables de negocio y los de grupos contables de producto.
 
 ## <a name="configuring-your-own-vat-reports"></a>Configuración de sus propios informes de IVA
 Puede utilizar el informe de listas de ventas de CE original, sin embargo, también puede crear sus propios informes. Para ello es necesario crear algunas unidades de código. Si necesita ayuda, póngase en contacto con un socio de Microsoft.  
@@ -107,14 +107,14 @@ En la tabla siguiente se describen las unidades de código que debe crear para e
 |Contenido | Controlar el formato del informe. Por ejemplo, si es XML o JSON. El formato que debe utilizarse depende de los requisitos del servicio web de la autoridad fiscal. |
 |Envío | Controla cómo y cuándo enviar el informe en función de los requisitos de su autoridad fiscal. |
 |Controlador de respuesta | Controla la devolución de la autoridad fiscal. Por ejemplo, puede registrar un correo electrónico al contacto de la empresa. |
-|Cancelar | Registre cancelaciones de un informe de IVA enviada anteriormente a la administración fiscal. |
+|Cancelar | Registre cancelaciones de un informe de IVA enviada anteriormente a la administración fiscal. |  
 
-> [!NOTE]  
->   Cuando cree las unidades de código para el informe, ponga atención al valor del campo **Versión de informe de IVA**. Este campo debe reflejar la versión del informe que la autoridad tributaria requiere. Por ejemplo, puede introducir **2017** en el campo para indicar que el informe cumple con los requisitos que estaban en vigor ese año. Para buscar la versión actual, póngase en contacto con su autoridad fiscal.  
-
+> [!Note]
+> Cuando cree las unidades de código para el informe, ponga atención al valor del campo **Versión de informe de IVA**. Este campo debe reflejar la versión del informe que la autoridad tributaria requiere. Por ejemplo, puede introducir **2017** en el campo para indicar que el informe cumple con los requisitos que estaban en vigor ese año. Para buscar la versión actual, póngase en contacto con su autoridad fiscal.
+ 
 ## <a name="see-also"></a>Consulte también .
 [Configurar los cálculos y los métodos de registro del impuesto sobre el valor añadido](finance-setup-vat.md)  
 [Trabajar con el IVA por ventas y compras](finance-work-with-vat.md)  
 [Configuración de ventas](sales-setup-sales.md)  
-[Facturar ventas](sales-setup-sales.md)  
+[Facturar ventas](sales-how-invoice-sales.md)  
 
