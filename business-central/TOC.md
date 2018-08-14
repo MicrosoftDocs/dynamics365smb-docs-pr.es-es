@@ -266,6 +266,7 @@
 ## [Transferir el inventario entre almacenes](inventory-how-transfer-between-locations.md)
 ## [Reservar artículos](inventory-how-to-reserve-items.md)
 ## [Trabajar con números de lote y de serie](inventory-how-work-item-tracking.md)
+## [Bloquear productos](inventory-how-block-items.md)
 ## [Trabajar con centros de responsabilidad](inventory-responsibility-centers.md)
 
 # [Administración de proyectos](projects-manage-projects.md)
@@ -390,7 +391,7 @@
 ## [Detalles de diseño: Seguimiento de productos](design-details-item-tracking.md)
 ## [Detalles de diseño: línea de registro en diario general](design-details-general-journal-post-line.md)
 
-# Funcionalidad local
+# [Funcionalidad local](about-localization.md)
 ## [Australia](LocalFunctionality/Australia/australia-local-functionality.md)  
 ## [Austria](LocalFunctionality/Austria/austria-local-functionality.md)
 ## [Bélgica](LocalFunctionality/Belgium/belgium-local-functionality.md)
