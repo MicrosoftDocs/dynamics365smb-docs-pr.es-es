@@ -12,10 +12,10 @@ ms.search.keywords: workflow, Odata, Power App, SOAP
 ms.date: 05/09/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 4dd987ee51cd2b5d8575d6d97ad21d00ec85739a
+ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
+ms.openlocfilehash: b8c9f05335c76884ba0d61451b0730d64bd1bfce
 ms.contentlocale: es-es
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 07/30/2018
 
 ---
 # <a name="using-included365finincludesd365finmdmd-in-an-automated-workflow"></a>Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] en un flujo de trabajo automatizado
@@ -60,7 +60,7 @@ Ya se ha conectado correctamente con los datos de Business Central y está prepa
 11. Flow le solicitará que seleccione una empresa en el suscriptor [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. Debido a que cada paso de Flow es independiente del siguiente, es posible que deba definir la empresa varias veces al usar una plantilla de Flow [!INCLUDE[d365fin_md](includes/d365fin_md.md)].
 
 > [!NOTE]  
-> La plantilla de Flow [!INCLUDE[d365fin_md](includes/d365fin_md.md)] se integra con el motor de flujo de trabajo básico de [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. Esto significa que cada vez que utiliza una de estas plantillas para crear un flujo, un flujo de trabajo correspondiente se crea en [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. Para obtener más información, consulte [Flujo de trabajo](across-workflow.md).
+> La plantilla de Flow [!INCLUDE[d365fin_md](includes/d365fin_md.md)] se integra con el motor de flujo de trabajo básico de [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. Esto significa que cada vez que utiliza una de estas plantillas para crear un flujo, un flujo de trabajo correspondiente se crea en [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. Además, la persona que crea el flujo debe configurarse como aprobador en la guía de configuración asistida. Para obtener más información, consulte [Flujo de trabajo](across-workflow.md).
 
 Para obtener más información, consulte la [documentación de Flow](https://docs.microsoft.com/en-us/flow/getting-started).
 

@@ -11,10 +11,10 @@ ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 05/18/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
-ms.openlocfilehash: f0e7b7a560bacb3791524b94d721f413b3c72310
+ms.sourcegitcommit: 42deec3d94209a7963e596e7deb5584fccd6db7f
+ms.openlocfilehash: 2695ebc582ee2c161b566522bffd62f534fbc013
 ms.contentlocale: es-es
-ms.lasthandoff: 05/28/2018
+ms.lasthandoff: 07/19/2018
 
 ---
 
@@ -91,6 +91,22 @@ Al configurar un campo de fecha, puede introducir la fecha manualmente o abrir u
 |Entrar|Seleccionar la fecha enfocada.|
 |Ctrl+Fin<br />(Cmd+Fin)|Cierre el calendario y elimine la fecha actual.|
 |Esc|Cierre el calendario sin una selección, mantenga la fecha actual.|
+
+
+## <a name="keyboard-shortcuts-in-the-report-preview"></a>Métodos abreviados de teclado en la vista preliminar de informe
+
+|Pulsar estas teclas<br />(en macOS)|Para hacer esto|
+|-----------------|-------|
+|Flecha abajo|Desplazarse hacia abajo por la página.|  
+|Flecha hacia arriba|Desplazarse hacia arriba por la página.|
+|Flecha hacia la derecha|Desplazarse a la derecha cuando la página se acerca de modo que no está totalmente en la vista. |
+|Flecha izquierda|Desplazarse a la izquierda cuando la página se acerca de modo que no está totalmente en la vista. |
+|Ctrl+0 (cero)<br />(Cmd+0)|Ajusta toda la página a la ventana. |
+|Ctrl+Inicio<br />(Cmd+Inicio)|Ir a la primera página del informe.|
+|Ctrl+Fin<br />(Cmd+Inicio)|Ir a la última página del informe.|
+|Av. Pág.<br />(Fn+flecha abajo)|Ir a la página siguiente del informe.|
+|Re Pág />(Fn+flecha arriba)|Ir a la página anterior del informe.|
+
 
 <!--
 ## Keyboard shortcuts in list (shown as tiles)

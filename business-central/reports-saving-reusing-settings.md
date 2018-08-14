@@ -11,10 +11,10 @@ ms.search.keywords: customization, personalization
 ms.date: 09/08/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: f5225d1f6d0d4ac0020fb073d5df6da83b5c0f5b
+ms.sourcegitcommit: 42deec3d94209a7963e596e7deb5584fccd6db7f
+ms.openlocfilehash: adc15d5f80f4d7ab2a1ca5a8247588ec0aa9779a
 ms.contentlocale: es-es
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 07/19/2018
 
 ---
 # <a name="managing-saved-settings-on-reports"></a>Administrar configuración guardada en los informes
@@ -33,7 +33,7 @@ Puede ver la configuración guardada que están a su disposición para un inform
 ## <a name="create-and-modify-saved-settings-for-all-users"></a>Crear y modificar la configuración guardada para todos los usuarios
 Si tiene los permisos adecuados, puede ver, crear y modificar la configuración guardada de todos los informes para todos los usuarios de la empresa. Puede asignar la configuración guardada de un informe a usuarios individuales o a todos los usuarios de la empresa.
 
-La configuración guardada se administra en la página 1506 **Configuración del informe**. Para abrir esta página, elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Configuración del informe** y, a continuación, seleccione el vínculo relacionado.
+La configuración guardada se administra en la página 1560 **Configuración del informe**. Para abrir esta página, elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Configuración del informe** y, a continuación, seleccione el vínculo relacionado.
 
 En la página **Configuración del informe**, puede crear nuevos valores de cero o hacer una copia y modificar la configuración existente. Para modificar las opciones y los filtros de una configuración, elija la acción **Editar**.
 

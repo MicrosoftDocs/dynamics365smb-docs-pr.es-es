@@ -61,7 +61,7 @@ Una vez su proveedor le haya informado de que descuentos en factura garantizan, 
 
     Configure de nuevo los términos de descuento en factura para compras.
 4. En la ventana **Ficha de proveedor**, seleccione la acción **Descuento factura**. Aparecerá la ventana **Dtos. factura proveedor**.
-5. En el campo **Código divisa**, introduzca el código de una divisa que se aplique a los términos de descuento en factura en la línea. Deje el campo en blanco para establecer condiciones de descuento de factura en USD.
+5. En el campo **Código divisa**, introduzca el código de una divisa que se aplique a los términos de descuento en factura en la línea. Deje el campo en blanco para establecer condiciones de descuento de factura en la divisa local.
 6. En el campo **Importe mínimo**, escriba el importe mínimo que deba tener una factura para optar al descuento.
 7. En el campo **% descuento**, introduzca el descuento en la factura como un porcentaje del importe de la factura.
 8. Repita los pasos 5 a 7 para cada divisa para la que el proveedor va a recibir un descuento diferente de factura.

@@ -47,7 +47,7 @@ La empresa predeterminada se llama CRONUS y solo contiene datos de demostración
 La fecha predeterminada de trabajo será normalmente la fecha actual. Es posible que tenga que cambiar temporalmente la fecha de trabajo para realizar tareas como la finalización de las transacciones de una fecha que no sea la fecha actual.
 
 > [!TIP]  
->   Escriba **w** para introducir rápidamente la fecha de trabajo en un campo de fecha. Escriba **t** para introducir rápidamente la fecha actual en el campo de fecha.
+>   Escriba **t** para introducir rápidamente la fecha de trabajo en un campo de fecha. Escriba **h** para introducir rápidamente la fecha actual en el campo de fecha.
 
 > [!IMPORTANT]  
 >   La fecha de trabajo se cambia solo hasta que cierre la empresa o hasta que la fecha cambie. Si abre una empresa diferente o la misma al día siguiente y debe utilizar una fecha de trabajo diferente, tendrá que volver a definirla.

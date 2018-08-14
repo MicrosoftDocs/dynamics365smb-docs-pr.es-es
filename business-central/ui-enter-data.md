@@ -146,9 +146,9 @@ Puede especificar fechas y horas en todos los campos diseñados específicamente
 |1112 12|11-12-año actual 12:00:00|  
 |h u hoy|fecha de hoy 00:00:00|  
 |h hora|fecha de hoy hora real|  
-|t 10:30|fecha de hoy 10:30:00|  
+|h 10:30|fecha de hoy 10:30:00|  
 |h 3:3:3|fecha de hoy 03:03:03|  
-|l o fecha de trabajo|la fecha de trabajo 00:00:00|  
+|t o fecha de trabajo|la fecha de trabajo 00:00:00|  
 |l o lunes|Lunes de la semana actual 00:00:00|  
 |ma o martes|Martes de la semana actual 00:00:00|  
 |mi o miércoles|Miércoles de la semana actual 00:00:00|  

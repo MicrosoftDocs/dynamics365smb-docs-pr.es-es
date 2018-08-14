@@ -9,20 +9,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.date: 08/23/2017
+ms.date: 07/19/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c1dc918a775f050c51e7b83092d5f2f6ba0b83b1
+ms.sourcegitcommit: 42deec3d94209a7963e596e7deb5584fccd6db7f
+ms.openlocfilehash: 9e50d9da53077f2baa136ca614734adbd332c1be
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 07/19/2018
 
 ---
 # <a name="track-packages"></a>Hacer un seguimiento de los paquetes
-Algunos transportistas ofrecen servicios en Internet que le permiten hacer un seguimiento de los paquetes que les ha entregado. Si utiliza uno o varios de estos transportistas, configure una serie de datos básicos y utilice la función de seguimiento automático desde el histórico de albaranes. Para obtener más información, vea [Configurar transportistas](sales-how-to-set-up-shipping-agents.md).
+Algunos transportistas ofrecen servicios en Internet que le permiten hacer un seguimiento de los paquetes que les ha entregado. Si utiliza uno o varios de estos transportistas, configure una serie de datos básicos y utilice la función de seguimiento automático desde el histórico de albaranes. Para obtener más información, vea [Configurar transportistas](sales-how-to-set-up-shipping-agents.md).  
+
+> [!NOTE]
+> Esta capacidad no está disponible actualmente en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, consulte [¿Por qué algunos elementos de la interfaz de usuario que he usado en Dynamics NAV no están visibles en Business Central?](https://docs.microsoft.com/en-us/dynamics365/business-central/across-faq#why-are-some-ui-elements-that-i-used-in-dynamics-nav-not-visible-in-) en las preguntas frecuentes.
 
 ## <a name="to-track-a-package"></a>Para hacer el seguimiento de un paquete
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Albaranes venta** y, a continuación, seleccione el vínculo relacionado.
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Histórico albaranes venta** y, a continuación, seleccione el vínculo relacionado.
 2. Abra la el envío correspondiente.
 3. En el campo **Nº seguimiento bulto** especifique el número de paquete que le ha dado el transportista.
 4. Elija la acción **Seguimiento paquete**.
