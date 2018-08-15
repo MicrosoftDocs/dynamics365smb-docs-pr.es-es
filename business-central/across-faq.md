@@ -7,14 +7,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
-ms.date: 07/20/2018
+ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan, application area, experience
+ms.date: 08/15/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
-ms.openlocfilehash: 4c20da1a46879ddc342250a0e074b0f8097a64ab
+ms.sourcegitcommit: c5e17cf33d61aa45105cd3a195f2d67be5f16676
+ms.openlocfilehash: 3a25dce67299db183a11728e713a5c775232ce70
 ms.contentlocale: es-es
-ms.lasthandoff: 07/30/2018
+ms.lasthandoff: 08/15/2018
 
 ---
 # <a name="frequently-asked-questions"></a><span data-ttu-id="b64a0-103">Preguntas más frecuentes</span><span class="sxs-lookup"><span data-stu-id="b64a0-103">Frequently Asked Questions</span></span>
@@ -56,6 +56,7 @@ ms.lasthandoff: 07/30/2018
 [!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="b64a0-145"> está disponible en un número reducido de mercados, pero se añaden nuevos países mediante la localización dirigida por Microsoft o mediante la localización dirigida por socios trimestralmente.</span><span class="sxs-lookup"><span data-stu-id="b64a0-145"> is available in a limited number of markets, but new countries are added through Microsoft-led localization or through partner-led localization on a quarterly basis.</span></span> <span data-ttu-id="b64a0-146">Para obtener más información, consulte [Países y traducciones admitidas](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).</span><span class="sxs-lookup"><span data-stu-id="b64a0-146">For more information, see [Countries and Translations Supported](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).</span></span>  
 
 ## <a name="why-are-some-ui-elements-that-i-used-in-dynamics-nav-not-visible-in-included365finincludesd365finmdmd"></a><span data-ttu-id="b64a0-147">¿Por qué algunos elementos de la interfaz de usuario que utilicé en Dynamics NAV no están visibles en [!INCLUDE[d365fin](includes/d365fin_md.md)]?</span><span class="sxs-lookup"><span data-stu-id="b64a0-147">Why are some UI elements that I used in Dynamics NAV not visible in [!INCLUDE[d365fin](includes/d365fin_md.md)]?</span></span>
+
 <span data-ttu-id="b64a0-148">En [!INCLUDE[d365fin](includes/d365fin_md.md)], el sistema de Áreas de aplicación y las opciones de Experiencia le permiten mostrar/ocultar partes relevantes del producto de acuerdo con el plan adquirido (Esencial o Premium) y de acuerdo con las necesidades de su negocio.</span><span class="sxs-lookup"><span data-stu-id="b64a0-148">In [!INCLUDE[d365fin](includes/d365fin_md.md)], the Application Areas system and the Experience options enable you to show/hide relevant parts of the product according to the purchased plan (Essential or Premium) and according to your business needs.</span></span>
 
 <span data-ttu-id="b64a0-149">Estas capacidades se han utilizado para simplificar la interfaz de usuario en la versión estándar de [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="b64a0-149">These capabilities have been used to simplify the UI in the standard version of [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span> <span data-ttu-id="b64a0-150">Por ejemplo, los campos que no se usan comúnmente, como **Nº de fax**, se han eliminado, y en las cintas de las listas y tarjetas, se eliminan las acciones duplicadas y se promueven las acciones más utilizadas.</span><span class="sxs-lookup"><span data-stu-id="b64a0-150">For example, fields that are not commonly used, such as **Fax No.**, have been removed, and on ribbons on lists and cards, duplicate actions are removed and the most-used actions are promoted.</span></span> <span data-ttu-id="b64a0-151">Algunas funciones completas, como Comentarios, se están optimizando actualmente para el cliente web y, por lo tanto, no están disponibles en [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="b64a0-151">A few complete features, such as Comments, are currently being optimized for the web client and are, therefore, not available in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span>
