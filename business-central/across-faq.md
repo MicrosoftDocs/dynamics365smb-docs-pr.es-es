@@ -7,8 +7,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
-ms.date: 07/20/2018
+ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan, application area, experience
+ms.date: 08/15/2018
 ms.author: edupont
 ms.translationtype: HT
 ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
@@ -56,6 +56,7 @@ Si tiene acceso a Microsoft CustomerSource, puede obtener acceso al sitio de Ima
 [!INCLUDE[d365fin](includes/d365fin_md.md)] está disponible en un número reducido de mercados, pero se añaden nuevos países mediante la localización dirigida por Microsoft o mediante la localización dirigida por socios trimestralmente. Para obtener más información, consulte [Países y traducciones admitidas](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
 
 ## <a name="why-are-some-ui-elements-that-i-used-in-dynamics-nav-not-visible-in-included365finincludesd365finmdmd"></a>¿Por qué algunos elementos de la interfaz de usuario que utilicé en Dynamics NAV no están visibles en [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+
 En [!INCLUDE[d365fin](includes/d365fin_md.md)], el sistema de Áreas de aplicación y las opciones de Experiencia le permiten mostrar/ocultar partes relevantes del producto de acuerdo con el plan adquirido (Esencial o Premium) y de acuerdo con las necesidades de su negocio.
 
 Estas capacidades se han utilizado para simplificar la interfaz de usuario en la versión estándar de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Por ejemplo, los campos que no se usan comúnmente, como **Nº de fax**, se han eliminado, y en las cintas de las listas y tarjetas, se eliminan las acciones duplicadas y se promueven las acciones más utilizadas. Algunas funciones completas, como Comentarios, se están optimizando actualmente para el cliente web y, por lo tanto, no están disponibles en [!INCLUDE[d365fin](includes/d365fin_md.md)].
