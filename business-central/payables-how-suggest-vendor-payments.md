@@ -29,10 +29,9 @@ Para obtener ventaja completa de las sugerencias de pago, primero debe asignar p
 
 > [!IMPORTANT]  
 >   Si desea aprovechar los descuentos por pronto pago y ha introducido un importe disponible, el importe se utilizará para:  
-
-* Movimientos de proveedor vencidos con prioridad, primero en orden de prioridad.  
-* Movimientos de proveedor vencidos que no tienen prioridad.  
-* Movimientos de proveedor pendientes que cumplen los requisitos para descuentos por pronto pago, organizados por número del proveedor.  
+    * Movimientos de proveedor vencidos con prioridad, primero en orden de prioridad.   
+    * Movimientos de proveedor vencidos que no tienen prioridad.  
+    * Movimientos de proveedor pendientes que cumplen los requisitos para descuentos por pronto pago, organizados por número del proveedor.  
 
 ## <a name="to-use-the-suggest-vendor-payments-function"></a>Para usar la función Proponer pagos a proveedores
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diarios de pagos** y, a continuación, seleccione el vínculo relacionado.  
