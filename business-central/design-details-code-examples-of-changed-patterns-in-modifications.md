@@ -1,6 +1,6 @@
 ---
-title: "Detalles de diseño: Cierre de aprovisionamiento y demanda | Documentos de Microsoft"
-description: Cuando se han realizado los procedimientos de equilibrado del suministro, existen tres situaciones finales posibles.
+title: "Detalles de diseño - Ejemplos de código de patrones cambiados en las modificaciones | Documentos de Microsoft"
+description: "Ejemplos de código que muestran los patrones cambios en la modificación y migración del código de dimensión para cinco escenarios distintos. Compara los ejemplos de código en versiones anteriores con ejemplos de código en Business Central."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,41 +10,190 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 08/13/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2be48e11d562f469ab9ef5ac156fdeb46ea51107
+ms.sourcegitcommit: ded6baf8247bfbc34063f5595d42ebaf6bb300d8
+ms.openlocfilehash: a20a40e0f2d7198ce8af71298093893f16df5299
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 08/13/2018
 
 ---
-# <a name="design-details-closing-demand-and-supply"></a><span data-ttu-id="24bf7-103">Detalles de diseño: Cierre de aprovisionamiento y demanda</span><span class="sxs-lookup"><span data-stu-id="24bf7-103">Design Details: Closing Demand and Supply</span></span>
-<span data-ttu-id="24bf7-104">Cuando se han realizado los procedimientos de equilibrado del suministro, existen tres situaciones finales posibles:</span><span class="sxs-lookup"><span data-stu-id="24bf7-104">When the supply balancing procedures have been performed, there are three possible end situations:</span></span>  
+# <a name="design-details-code-examples-of-changed-patterns-in-modifications"></a><span data-ttu-id="82125-104">Detalles de diseño: Ejemplos de código de patrones cambiados en las modificaciones</span><span class="sxs-lookup"><span data-stu-id="82125-104">Design Details: Code Examples of Changed Patterns in Modifications</span></span>
+<span data-ttu-id="82125-105">En este tema se proporcionan ejemplos de código para mostrar los patrones cambios en la modificación y migración del código de dimensión para cinco escenarios distintos.</span><span class="sxs-lookup"><span data-stu-id="82125-105">This topic provides code examples to show changed patterns in dimension code modification and migration for five different scenarios.</span></span> <span data-ttu-id="82125-106">Compara los ejemplos de código en versiones anteriores con ejemplos de código en Business Central.</span><span class="sxs-lookup"><span data-stu-id="82125-106">It compares the code examples in earlier versions to the code examples in Business Central.</span></span>
 
--   <span data-ttu-id="24bf7-105">Se han cumplido la cantidad necesaria y la fecha de los eventos de demanda, y se puede cerrar la planificación de ellos.</span><span class="sxs-lookup"><span data-stu-id="24bf7-105">The required quantity and date of the demand events have been met and the planning for them can be closed.</span></span> <span data-ttu-id="24bf7-106">El evento de suministro aún está abierto y puede cubrir la demanda siguiente, por lo que el procedimiento de contrapartida puede empezar con el evento de suministro actual y la demanda siguiente.</span><span class="sxs-lookup"><span data-stu-id="24bf7-106">The supply event is still open and may be able to cover the next demand, so the balancing procedure can start over with the current supply event and the next demand.</span></span>  
+## <a name="posting-a-journal-line"></a><span data-ttu-id="82125-107">Registro de una línea del diario</span><span class="sxs-lookup"><span data-stu-id="82125-107">Posting a Journal Line</span></span>  
+<span data-ttu-id="82125-108">Los cambios clave se enumeran a continuación:</span><span class="sxs-lookup"><span data-stu-id="82125-108">Key changes are listed as follows:</span></span>  
+  
+- <span data-ttu-id="82125-109">Se eliminan las tablas de dimensiones de líneas del diario.</span><span class="sxs-lookup"><span data-stu-id="82125-109">Journal line dimension tables are removed.</span></span>  
+  
+- <span data-ttu-id="82125-110">Un ID de grupo de dimensiones se crea en el campo de **Id. grupo dimensiones**.</span><span class="sxs-lookup"><span data-stu-id="82125-110">A dimension set ID is created in the **Dimension Set ID** field.</span></span>  
+  
+<span data-ttu-id="82125-111">**Versiones anteriores**</span><span class="sxs-lookup"><span data-stu-id="82125-111">**Earlier Versions**</span></span>  
+  
+```  
+ResJnlLine."Qty. per Unit of Measure" :=   
+  SalesLine."Qty. per Unit of Measure";  
+  
+TempJnlLineDim.DELETEALL;  
+TempDocDim.RESET;  
+TempDocDim.SETRANGE(  
+  "Table ID",DATABASE::"Sales Line");  
+TempDocDim.SETRANGE(  
+  "Line No.",SalesLine."Line No.");  
+DimMgt.CopyDocDimToJnlLineDim(  
+  TempDocDim,TempJnlLineDim);  
+ResJnlPostLine.RunWithCheck(  
+  ResJnlLine,TempJnlLineDim);  
+  
+```  
+  
+ **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
+  
+```  
+  
+ResJnlLine."Qty. per Unit of Measure" :=   
+  SalesLine."Qty. per Unit of Measure";  
+  
+ResJnlLine."Dimension Set ID" :=   
+  SalesLine." Dimension Set ID ";  
+ResJnlPostLine.Run(ResJnlLine);  
+  
+```  
+  
+## <a name="posting-a-document"></a><span data-ttu-id="82125-112">Registro de un documento</span><span class="sxs-lookup"><span data-stu-id="82125-112">Posting a Document</span></span>  
+ <span data-ttu-id="82125-113">Cuando registre un documento en [!INCLUDE[d365fin](includes/d365fin_md.md)], ya no tendrá que copiar las dimensiones de documento.</span><span class="sxs-lookup"><span data-stu-id="82125-113">When you post a document in [!INCLUDE[d365fin](includes/d365fin_md.md)], you no longer have to copy the document dimensions.</span></span>  
+  
+ <span data-ttu-id="82125-114">**Versiones anteriores**</span><span class="sxs-lookup"><span data-stu-id="82125-114">**Earlier Versions**</span></span>  
+  
+```  
+DimMgt.MoveOneDocDimToPostedDocDim(  
+  TempDocDim,DATABASE::"Sales Line",  
+  "Document Type",  
+  "No.",  
+  SalesShptLine."Line No.",  
+  DATABASE::"Sales Shipment Line",  
+  SalesShptHeader."No.");  
+```  
+  
+ **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
+  
+```  
+SalesShptLine."Dimension Set ID”  
+  := SalesLine."Dimension Set ID”  
+```  
+  
+## <a name="editing-dimensions-from-a-document"></a><span data-ttu-id="82125-115">Edición de dimensiones desde un documento</span><span class="sxs-lookup"><span data-stu-id="82125-115">Editing Dimensions from a Document</span></span>  
+ <span data-ttu-id="82125-116">Puede editar las dimensiones desde un documento.</span><span class="sxs-lookup"><span data-stu-id="82125-116">You can edit dimensions from a document.</span></span> <span data-ttu-id="82125-117">Por ejemplo, puede modificar una línea de pedido de venta.</span><span class="sxs-lookup"><span data-stu-id="82125-117">For example, you can edit a sales order line.</span></span>  
+  
+ <span data-ttu-id="82125-118">**Versiones anteriores**</span><span class="sxs-lookup"><span data-stu-id="82125-118">**Earlier Versions**</span></span>  
+  
+```  
+Table 37, function ShowDimensions:  
+TESTFIELD("Document No.");  
+TESTFIELD("Line No.");  
+DocDim.SETRANGE("Table ID",DATABASE::"Sales Line");  
+DocDim.SETRANGE("Document Type","Document Type");  
+DocDim.SETRANGE("Document No.","Document No.");  
+DocDim.SETRANGE("Line No.","Line No.");  
+DocDimensions.SETTABLEVIEW(DocDim);  
+DocDimensions.RUNMODAL;  
+```  
+  
+ **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
+  
+```  
+Table 37, function ShowDimensions:  
+"Dimension ID" :=   
+  DimSetEntry.EditDimensionSet(  
+    "Dimension ID");  
+```  
+  
+## <a name="showing-dimensions-from-posted-entries"></a><span data-ttu-id="82125-119">Mostrar dimensiones de los movimientos registrados</span><span class="sxs-lookup"><span data-stu-id="82125-119">Showing Dimensions from Posted Entries</span></span>  
+ <span data-ttu-id="82125-120">Puede mostrar las dimensiones de los movimientos registrados, como, por ejemplo, las líneas de albarán de venta.</span><span class="sxs-lookup"><span data-stu-id="82125-120">You can show dimensions from posted entries, such as sales shipment lines.</span></span>  
+  
+ <span data-ttu-id="82125-121">**Versiones anteriores**</span><span class="sxs-lookup"><span data-stu-id="82125-121">**Earlier Versions**</span></span>  
+  
+```  
+Table 111, function ShowDimensions:  
+TESTFIELD("No.");  
+TESTFIELD("Line No.");  
+PostedDocDim.SETRANGE(  
+  "Table ID",DATABASE::"Sales Shipment Line");  
+PostedDocDim.SETRANGE(  
+  "Document No.","Document No.");  
+PostedDocDim.SETRANGE("Line No.","Line No.");  
+PostedDocDimensions.SETTABLEVIEW(PostedDocDim);  
+PostedDocDimensions.RUNMODAL;  
+```  
+  
+ **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
+  
+```  
+Table 111, function ShowDimensions:  
+DimSetEntry.ShowDimensionSet(  
+  "Dimension ID");  
+```  
+  
+## <a name="getting-default-dimensions-for-a-document"></a><span data-ttu-id="82125-122">Obtención de dimensiones predeterminadas para un documento</span><span class="sxs-lookup"><span data-stu-id="82125-122">Getting Default Dimensions for a Document</span></span>  
+ <span data-ttu-id="82125-123">Puede obtener las dimensiones predeterminadas de un documento, como una línea de pedido de venta.</span><span class="sxs-lookup"><span data-stu-id="82125-123">You can get default dimensions for a document, such as a sales order line.</span></span>  
+  
+ <span data-ttu-id="82125-124">**Versiones anteriores**</span><span class="sxs-lookup"><span data-stu-id="82125-124">**Earlier Versions**</span></span>  
+  
+```  
+Table 37, function CreateDim()  
+SourceCodeSetup.GET;  
+TableID[1] := Type1;  
+No[1] := No1;  
+TableID[2] := Type2;  
+No[2] := No2;  
+TableID[3] := Type3;  
+No[3] := No3;  
+"Shortcut Dimension 1 Code" := '';  
+"Shortcut Dimension 2 Code" := '';  
+DimMgt.GetPreviousDocDefaultDim(  
+  DATABASE::"Sales Header","Document Type",  
+  "Document No.",0,  
+  DATABASE::Customer,  
+  "Shortcut Dimension 1 Code",  
+  "Shortcut Dimension 2 Code");  
+DimMgt.GetDefaultDim(  
+  TableID,No,SourceCodeSetup.Sales,  
+  "Shortcut Dimension 1 Code",  
+  "Shortcut Dimension 2 Code");  
+IF "Line No." <> 0 THEN  
+  DimMgt.UpdateDocDefaultDim(  
+    DATABASE::"Sales Line","Document Type",  
+    "Document No.","Line No.",  
+    "Shortcut Dimension 1 Code",  
+    "Shortcut Dimension 2 Code");  
+```  
+  
+ **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
+  
+```  
+Table 37, function CreateDim()  
+SourceCodeSetup.GET;  
+TableID[1] := Type1;  
+No[1] := No1;  
+TableID[2] := Type2;  
+No[2] := No2;  
+TableID[3] := Type3;  
+No[3] := No3;  
+"Shortcut Dimension 1 Code" := '';  
+"Shortcut Dimension 2 Code" := '';  
+GetSalesHeader;  
+"Dimension ID" :=  
+  DimMgt.GetDefaultDimID(  
+    TableID,No,SourceCodeSetup.Sales,  
+    "Shortcut Dimension 1 Code",  
+    "Shortcut Dimension 2 Code",  
+    SalesHeader."Dimension ID",  
+    DATABASE::"Sales Header");
 
--   <span data-ttu-id="24bf7-107">El pedido de suministro no se puede modificar para cubrir toda la demanda.</span><span class="sxs-lookup"><span data-stu-id="24bf7-107">The supply order cannot be modified to cover all of the demand.</span></span> <span data-ttu-id="24bf7-108">El evento de demanda sigue abierto, con una cantidad sin cubrir que se puede cubrir mediante el evento de suministro siguiente.</span><span class="sxs-lookup"><span data-stu-id="24bf7-108">The demand event is still open, with some uncovered quantity that may be covered by the next supply event.</span></span> <span data-ttu-id="24bf7-109">Por lo tanto, se cierra el evento de suministro, por lo que el equilibrado puede empezar con la demanda actual y el siguiente evento de suministro.</span><span class="sxs-lookup"><span data-stu-id="24bf7-109">Thus the current supply event is closed, so the balancing act can start over with the current demand and the next supply event.</span></span>  
+```  
 
--   <span data-ttu-id="24bf7-110">Se ha cubierto toda la demanda; no hay demanda subsiguiente (o no ha habido demanda en absoluto).</span><span class="sxs-lookup"><span data-stu-id="24bf7-110">All of the demand has been covered; there is no subsequent demand (or there has been no demand at all).</span></span> <span data-ttu-id="24bf7-111">Si hay algún aprovisionamiento de excedente, se puede reducir (o cancelarse) y después cerrar.</span><span class="sxs-lookup"><span data-stu-id="24bf7-111">If there is any surplus supply, it may be decreased (or canceled) and then closed.</span></span> <span data-ttu-id="24bf7-112">Es posible que existan eventos de suministro adicionales más adelante en la cadena y también se deben cancelar.</span><span class="sxs-lookup"><span data-stu-id="24bf7-112">It is possible that additional supply events exist further along in the chain, and they should also be canceled.</span></span>  
-
- <span data-ttu-id="24bf7-113">Por último, el sistema de planificación creará una conexión de seguimiento de pedidos entre el suministro y la demanda.</span><span class="sxs-lookup"><span data-stu-id="24bf7-113">Last, the planning system will create an order tracking link between the supply and the demand.</span></span>  
-
-## <a name="creating-the-planning-line-suggested-action"></a><span data-ttu-id="24bf7-114">Crear la línea de planificación (acción sugerida)</span><span class="sxs-lookup"><span data-stu-id="24bf7-114">Creating the Planning Line (Suggested Action)</span></span>  
- <span data-ttu-id="24bf7-115">Si se sugiere alguna acción (nueva, cambiar de cantidad, reprogramar, reprogramar y cambiar de cantidad o cancelar) para revisar el pedido de aprovisionamiento, el sistema de planificación crea una línea de planificación en la hoja de trabajo de planificación.</span><span class="sxs-lookup"><span data-stu-id="24bf7-115">If any action – New, Change Quantity, Reschedule, Reschedule and Change Quantity, or Cancel – is suggested to revise the supply order, the planning system creates a planning line in the planning worksheet.</span></span> <span data-ttu-id="24bf7-116">El seguimiento de pedidos obliga a la creación de la línea de planificación no solo cuando se cierra el evento de aprovisionamiento, sino también si se cierra el evento de demanda, aunque el evento de aprovisionamiento esté aún abierto y puede estar sujeto a los cambios adicionales cuando se procesa el evento de demanda siguiente.</span><span class="sxs-lookup"><span data-stu-id="24bf7-116">Due to order tracking, the planning line is created not only when the supply event is closed, but also if the demand event is closed, even though the supply event is still open and may be subject to additional changes when the next demand event is processed.</span></span> <span data-ttu-id="24bf7-117">Esto significa que la línea de planificación se puede modificar de nuevo cuando se crea por primera vez.</span><span class="sxs-lookup"><span data-stu-id="24bf7-117">This means that when first created, the planning line may be changed again.</span></span>  
-
- <span data-ttu-id="24bf7-118">Para minimizar el acceso de base de datos al manipular las órdenes de producción, la línea de planificación se puede mantener en tres niveles, a la vez que se intenta realizar el nivel de mantenimiento menos exigente:</span><span class="sxs-lookup"><span data-stu-id="24bf7-118">To minimize database access when handling production orders, the planning line can be maintained in three levels, while aiming to perform the least demanding maintenance level:</span></span>  
-
--   <span data-ttu-id="24bf7-119">Crear solo la línea de planificación con la fecha de vencimiento y la cantidad actuales, pero sin la ruta y los componentes.</span><span class="sxs-lookup"><span data-stu-id="24bf7-119">Create only the planning line with the current due date and quantity but without the routing and components.</span></span>  
-
--   <span data-ttu-id="24bf7-120">Incluir ruta: la ruta planificada se diseña incluyendo el cálculo de las fechas y las horas de inicio y fin.</span><span class="sxs-lookup"><span data-stu-id="24bf7-120">Include routing: the planned routing is laid out including calculation of starting and ending dates and times.</span></span> <span data-ttu-id="24bf7-121">Esto exige muchos accesos a la base de datos.</span><span class="sxs-lookup"><span data-stu-id="24bf7-121">This is demanding in terms of database accesses.</span></span> <span data-ttu-id="24bf7-122">Para determinar las fechas finales y de vencimiento, es posible que sea necesario calcularlo aunque el evento de suministro no se haya cerrado (en el caso de la programación hacia delante).</span><span class="sxs-lookup"><span data-stu-id="24bf7-122">To determine the ending and due dates, it may be necessary to calculate this even if the supply event has not been closed (in the case of forward scheduling).</span></span>  
-
--   <span data-ttu-id="24bf7-123">Incluir despliegue de L.M.: esto puede esperar a justo antes de cerrar el evento de aprovisionamiento.</span><span class="sxs-lookup"><span data-stu-id="24bf7-123">Include BOM explosion: this can wait until just before the supply event is closed.</span></span>  
-
- <span data-ttu-id="24bf7-124">De este modo concluyen las descripciones de cómo el sistema de planificación carga, da prioridad y equilibra la demanda y el suministro.</span><span class="sxs-lookup"><span data-stu-id="24bf7-124">This concludes the descriptions of how demand and supply is loaded, prioritized, and balanced by the planning system.</span></span> <span data-ttu-id="24bf7-125">En integración con esta actividad de planificación de aprovisionamientos, el programa debe garantizar que el nivel de inventario requerido de cada producto planificado se mantiene según sus directivas de reaprovisionamiento.</span><span class="sxs-lookup"><span data-stu-id="24bf7-125">In integration with this supply planning activity, the system must ensure that the required inventory level of each planned item is maintained according to its reordering policies.</span></span>  
-
-## <a name="see-also"></a><span data-ttu-id="24bf7-126">Consulte también</span><span class="sxs-lookup"><span data-stu-id="24bf7-126">See Also</span></span>  
- <span data-ttu-id="24bf7-127">[Detalles de diseño: Equilibrio de aprovisionamiento y demanda](design-details-balancing-demand-and-supply.md) </span><span class="sxs-lookup"><span data-stu-id="24bf7-127">[Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md) </span></span>  
- <span data-ttu-id="24bf7-128">[Detalles de diseño: Conceptos centrales del sistema de planificación](design-details-central-concepts-of-the-planning-system.md) </span><span class="sxs-lookup"><span data-stu-id="24bf7-128">[Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md) </span></span>  
- [<span data-ttu-id="24bf7-129">Detalles de diseño: Planificación de aprovisionamiento</span><span class="sxs-lookup"><span data-stu-id="24bf7-129">Design Details: Supply Planning</span></span>](design-details-supply-planning.md)
-
+## <a name="see-also"></a><span data-ttu-id="82125-125">Consulte también</span><span class="sxs-lookup"><span data-stu-id="82125-125">See Also</span></span>  
+<span data-ttu-id="82125-126">[Detalles de diseño: Movimientos de grupo de dimensiones](design-details-dimension-set-entries.md) </span><span class="sxs-lookup"><span data-stu-id="82125-126">[Design Details: Dimension Set Entries](design-details-dimension-set-entries.md) </span></span>  
+<span data-ttu-id="82125-127">[Detalles de diseño: Estructura de tablas](design-details-table-structure.md) </span><span class="sxs-lookup"><span data-stu-id="82125-127">[Design Details: Table Structure](design-details-table-structure.md) </span></span>  
+[<span data-ttu-id="82125-128">Detalles de diseño: Gestión de dimensiones de unidad de código 408</span><span class="sxs-lookup"><span data-stu-id="82125-128">Design Details: Codeunit 408 Dimension Management</span></span>](design-details-codeunit-408-dimension-management.md)
