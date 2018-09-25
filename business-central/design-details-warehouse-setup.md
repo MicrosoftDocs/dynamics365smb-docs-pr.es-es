@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/29/2017
+ms.date: 08/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ced5d26e4c261bc3890ba59aa7bdaad009f240c6
+ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
+ms.openlocfilehash: ff625189c5004f682f45fe1c1796ba6afe2e7fdb
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 08/06/2018
 
 ---
 # <a name="design-details-warehouse-setup"></a>Detalles de diseño: Configuración de almacén
@@ -30,7 +30,7 @@ Existen los siguientes módulos relacionados con el almacén:
 -   Envío almacén (4210)  
 -   Sistema de gestión de almacenes (4620)  
 -   Almacenes y selecciones internos (4630)  
--   Sistema de captura de datos automatizado (4640)  
+-   <!-- Automated Data Capture System (4640) -->  
 -   Configuración de ubicación (4660)  
 
 Para obtener más información sobre cada módulo, consulte [Hojas de precios de [!INCLUDE[d365fin](includes/d365fin_md.md)]](http://go.microsoft.com/fwlink/?LinkId=238341) (requiere una cuenta de PartnerSource).  
@@ -44,7 +44,7 @@ En la tabla siguiente se muestran los módulos que se requieren para definir los
 |3 <br /><br /> **NOTA**: A pesar de que las configuraciones se denominan **Picking requerido** y **Ubicación requerida**, todavía puede registrar recibos y envíos directamente desde los documentos empresariales de origen en las ubicaciones donde se selecciona estas casillas de verificación.|Actividad de almacén básica, pedido por pedido.<br /><br /> Registro de recepción/envío de documentos de ubicación/picking de inventario. <br /><br /> Se requiere el código de ubicación.|Ubicación inventario/Movimiento de inventario/Picking inventario, con código de ubicación|(PLATA + Requerir ubicación o Requerir ubicación)|Inventario básico/Ubicación/Almacén/Selección|  
 |4|Actividad del almacén avanzada, para varios pedidos.<br /><br /> Registro de recepción o envío consolidado según registros de ubicación o selección de almacén.|Recepción de almacén/Ubicación de almacén/Picking de almacén/Envío de almacén/Hoja de trabajo de picking|VERDE|Inventario básico/Recepción en almacén/Almacén/Selección/Envío de almacén|  
 |5|Actividad del almacén avanzada, para varios pedidos.<br /><br /> Registro de recepción o envío consolidado según registros de ubicación o selección de almacén.<br /><br /> Se requiere el código de ubicación.|Recepción de almacén/Ubicación de almacén/Picking de almacén/Envío de almacén/Hoja de trabajo de picking/Hoja de trabajo de ubicación, con código de ubicación|(VERDE + ubicación obligatorio)|Inventario básico/Ubicación/Recepción en almacén/Almacén/Selección/Envío de almacén|  
-|6 <br /><br /> **Nota**: Este nivel se conoce como “SGA”, ya que requiere el módulo más avanzado: Sistemas de gestión de almacenes.|Actividad del almacén avanzada, para varios pedidos.<br /><br /> Registro de recepción o envío consolidado según registros de ubicación o selección de almacén.<br /><br /> Se requiere el código de ubicación.<br /><br /> El código de zona o clase es opcional.<br /><br /> Empleados de almacén dirigidos por flujo de trabajo.<br /><br /> Planificación de reposición de ubicación<br /><br /> Ranking ubicación.<br /><br /> Configuración de ubicación por capacidad.<br /><br /> Inserción.<br /><br /> Integración de dispositivo mediante ayuda manual.|Recepción de almacén/Ubicación de almacén/Picking de almacén/Envío de almacén/Movimiento de almacén/Hoja de trabajo de picking/Hoja de trabajo de ubicación/Picking almacén interno /Ubicación de almacén interno con código de ubicación/clase/zona<br /><br /> Varias hojas de trabajo para la administración de ubicaciones<br /><br /> Pantallas de ADCS|BLANCO|Inventario básico/Ubicación/Almacén/Recepción en almacén/Selección/Envío de almacén/Sistemas de gestión de almacenes/Almacenes y selecciones internos/Configuración de ubicación/Sistema de captura de datos automatizado/Configuración de ubicación|  
+|6 <br /><br /> **Nota**: Este nivel se conoce como “SGA”, ya que requiere el módulo más avanzado: Sistemas de gestión de almacenes.|Actividad del almacén avanzada, para varios pedidos<br /><br /> Registro de recepción o envío consolidado según registros de ubicación o selección de almacén<br /><br /> Se requiere el código de ubicación.<br /><br /> El código de zona o clase es opcional.<br /><br /> Empleados de almacén dirigidos por flujo de trabajo<br /><br /> Planificación de reposición de ubicación<br /><br /> Ranking ubicación<br /><br /> Configuración de ubicación por capacidad<br /><br /> Inserción <!-- Hand-held device integration -->|Recepción de almacén/Ubicación de almacén/Picking de almacén/Envío de almacén/Movimiento de almacén/Hoja de trabajo de picking/Hoja de trabajo de ubicación/Picking almacén interno /Ubicación de almacén interno con código de ubicación/clase/zona<br /><br /> Varias hojas de trabajo para la administración de ubicaciones <!-- ADCS screens  -->|BLANCO|Inventario básico/Ubicación/Almacén/Recepción en almacén/Selección/Envío de almacén/Sistemas de gestión de almacenes/Almacenes y selecciones internos/Configuración de ubicación/<!-- Automated Data Capture System/ -->Configuración de ubicación|  
 
 Para ver ejemplos de cómo se usan los documentos de la IU por nivel de complejidad de almacén, consulte [Detalles de diseño: Flujo de entrada en almacén](design-details-outbound-warehouse-flow.md).  
 

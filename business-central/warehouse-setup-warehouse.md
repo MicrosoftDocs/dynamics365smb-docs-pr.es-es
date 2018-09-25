@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
+ms.date: 08/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4d57e87363830c521a90f00b552146dd09654f68
+ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
+ms.openlocfilehash: caa494729c4408334fadd50903f0d17df330409d
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 08/06/2018
 
 ---
 # <a name="setting-up-warehouse-management"></a>Configuración de la gestión del almacén
@@ -40,8 +40,8 @@ La estrategia de distribución de una empresa se refleja en la configuración de
 |Definir cuándo y como los productos de las ubicaciones del almacén se contarán con fines de mantenimiento o de informes financieros.|[Contar, ajustar o reclasificar inventario](inventory-how-count-adjust-reclassify.md)|
 |Permitir a los trabajadores de almacén romper una unidad de medida más grande en unidades de medida más pequeñas para satisfacer las necesidades de los documentos de origen.|[Habilitar interrupción automática masiva con ubicaciones y picking directos](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)|  
 |Configurar el almacén para que proponga automáticamente los productos susceptibles de picking que caducan primero.|[Habilitar el picking por FEFO](warehouse-picking-by-fefo.md)|
-|Integrar los lectores de códigos de barras a su solución de gestión de almacenes.|[Utilice el sistema de captura de datos automatizado (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)|  
-|Obtener información sobre el modo de reorganizar ubicaciones o zonas para lograr mayor eficiencia en las actividades del almacén.|[Reestructurar almacenes](warehouse-how-to-restructure-warehouses.md)|  
+|Obtener información sobre el modo de reorganizar ubicaciones o zonas para lograr mayor eficiencia en las actividades del almacén.|[Reestructurar almacenes](warehouse-how-to-restructure-warehouses.md)|
+<!-- |Integrar los lectores de códigos de barras a su solución de gestión de almacenes.|[Utilice el sistema de captura de datos automatizado (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)| -->  
 
 ## <a name="see-also"></a>Consulte también  
 [Gestión de almacenes](warehouse-manage-warehouse.md)  

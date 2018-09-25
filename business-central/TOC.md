@@ -110,7 +110,6 @@
 ### [Contar, ajustar o reclasificar inventario](inventory-how-count-adjust-reclassify.md)
 ### [Habilitar interrupción automática masiva con ubicaciones y picking directos](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)
 ### [Habilitar el picking por FEFO](warehouse-picking-by-fefo.md)
-### [Habilitar el sistema de captura de datos automatizado (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)
 ### [Reestructurar almacenes](warehouse-how-to-restructure-warehouses.md)
 ## [Configuración de fabricación](production-configure-production-processes.md)
 ### [Crear calendarios de centros de trabajo](production-how-to-create-work-center-calendars.md)

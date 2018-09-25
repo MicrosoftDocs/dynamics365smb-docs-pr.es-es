@@ -1,6 +1,6 @@
 ---
-title: "Detalles de diseño: Cierre de aprovisionamiento y demanda | Documentos de Microsoft"
-description: Cuando se han realizado los procedimientos de equilibrado del suministro, existen tres situaciones finales posibles.
+title: "Detalles de diseño - Ejemplos de código de patrones cambiados en las modificaciones | Documentos de Microsoft"
+description: "Ejemplos de código que muestran los patrones cambios en la modificación y migración del código de dimensión para cinco escenarios distintos. Compara los ejemplos de código en versiones anteriores con ejemplos de código en Business Central."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,41 +10,190 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 08/13/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2be48e11d562f469ab9ef5ac156fdeb46ea51107
+ms.sourcegitcommit: ded6baf8247bfbc34063f5595d42ebaf6bb300d8
+ms.openlocfilehash: a20a40e0f2d7198ce8af71298093893f16df5299
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 08/13/2018
 
 ---
-# <a name="design-details-closing-demand-and-supply"></a>Detalles de diseño: Cierre de aprovisionamiento y demanda
-Cuando se han realizado los procedimientos de equilibrado del suministro, existen tres situaciones finales posibles:  
+# <a name="design-details-code-examples-of-changed-patterns-in-modifications"></a>Detalles de diseño: Ejemplos de código de patrones cambiados en las modificaciones
+En este tema se proporcionan ejemplos de código para mostrar los patrones cambios en la modificación y migración del código de dimensión para cinco escenarios distintos. Compara los ejemplos de código en versiones anteriores con ejemplos de código en Business Central.
 
--   Se han cumplido la cantidad necesaria y la fecha de los eventos de demanda, y se puede cerrar la planificación de ellos. El evento de suministro aún está abierto y puede cubrir la demanda siguiente, por lo que el procedimiento de contrapartida puede empezar con el evento de suministro actual y la demanda siguiente.  
+## <a name="posting-a-journal-line"></a>Registro de una línea del diario  
+Los cambios clave se enumeran a continuación:  
+  
+- Se eliminan las tablas de dimensiones de líneas del diario.  
+  
+- Un ID de grupo de dimensiones se crea en el campo de **Id. grupo dimensiones**.  
+  
+**Versiones anteriores**  
+  
+```  
+ResJnlLine."Qty. per Unit of Measure" :=   
+  SalesLine."Qty. per Unit of Measure";  
+  
+TempJnlLineDim.DELETEALL;  
+TempDocDim.RESET;  
+TempDocDim.SETRANGE(  
+  "Table ID",DATABASE::"Sales Line");  
+TempDocDim.SETRANGE(  
+  "Line No.",SalesLine."Line No.");  
+DimMgt.CopyDocDimToJnlLineDim(  
+  TempDocDim,TempJnlLineDim);  
+ResJnlPostLine.RunWithCheck(  
+  ResJnlLine,TempJnlLineDim);  
+  
+```  
+  
+ **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
+  
+```  
+  
+ResJnlLine."Qty. per Unit of Measure" :=   
+  SalesLine."Qty. per Unit of Measure";  
+  
+ResJnlLine."Dimension Set ID" :=   
+  SalesLine." Dimension Set ID ";  
+ResJnlPostLine.Run(ResJnlLine);  
+  
+```  
+  
+## <a name="posting-a-document"></a>Registro de un documento  
+ Cuando registre un documento en [!INCLUDE[d365fin](includes/d365fin_md.md)], ya no tendrá que copiar las dimensiones de documento.  
+  
+ **Versiones anteriores**  
+  
+```  
+DimMgt.MoveOneDocDimToPostedDocDim(  
+  TempDocDim,DATABASE::"Sales Line",  
+  "Document Type",  
+  "No.",  
+  SalesShptLine."Line No.",  
+  DATABASE::"Sales Shipment Line",  
+  SalesShptHeader."No.");  
+```  
+  
+ **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
+  
+```  
+SalesShptLine."Dimension Set ID”  
+  := SalesLine."Dimension Set ID”  
+```  
+  
+## <a name="editing-dimensions-from-a-document"></a>Edición de dimensiones desde un documento  
+ Puede editar las dimensiones desde un documento. Por ejemplo, puede modificar una línea de pedido de venta.  
+  
+ **Versiones anteriores**  
+  
+```  
+Table 37, function ShowDimensions:  
+TESTFIELD("Document No.");  
+TESTFIELD("Line No.");  
+DocDim.SETRANGE("Table ID",DATABASE::"Sales Line");  
+DocDim.SETRANGE("Document Type","Document Type");  
+DocDim.SETRANGE("Document No.","Document No.");  
+DocDim.SETRANGE("Line No.","Line No.");  
+DocDimensions.SETTABLEVIEW(DocDim);  
+DocDimensions.RUNMODAL;  
+```  
+  
+ **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
+  
+```  
+Table 37, function ShowDimensions:  
+"Dimension ID" :=   
+  DimSetEntry.EditDimensionSet(  
+    "Dimension ID");  
+```  
+  
+## <a name="showing-dimensions-from-posted-entries"></a>Mostrar dimensiones de los movimientos registrados  
+ Puede mostrar las dimensiones de los movimientos registrados, como, por ejemplo, las líneas de albarán de venta.  
+  
+ **Versiones anteriores**  
+  
+```  
+Table 111, function ShowDimensions:  
+TESTFIELD("No.");  
+TESTFIELD("Line No.");  
+PostedDocDim.SETRANGE(  
+  "Table ID",DATABASE::"Sales Shipment Line");  
+PostedDocDim.SETRANGE(  
+  "Document No.","Document No.");  
+PostedDocDim.SETRANGE("Line No.","Line No.");  
+PostedDocDimensions.SETTABLEVIEW(PostedDocDim);  
+PostedDocDimensions.RUNMODAL;  
+```  
+  
+ **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
+  
+```  
+Table 111, function ShowDimensions:  
+DimSetEntry.ShowDimensionSet(  
+  "Dimension ID");  
+```  
+  
+## <a name="getting-default-dimensions-for-a-document"></a>Obtención de dimensiones predeterminadas para un documento  
+ Puede obtener las dimensiones predeterminadas de un documento, como una línea de pedido de venta.  
+  
+ **Versiones anteriores**  
+  
+```  
+Table 37, function CreateDim()  
+SourceCodeSetup.GET;  
+TableID[1] := Type1;  
+No[1] := No1;  
+TableID[2] := Type2;  
+No[2] := No2;  
+TableID[3] := Type3;  
+No[3] := No3;  
+"Shortcut Dimension 1 Code" := '';  
+"Shortcut Dimension 2 Code" := '';  
+DimMgt.GetPreviousDocDefaultDim(  
+  DATABASE::"Sales Header","Document Type",  
+  "Document No.",0,  
+  DATABASE::Customer,  
+  "Shortcut Dimension 1 Code",  
+  "Shortcut Dimension 2 Code");  
+DimMgt.GetDefaultDim(  
+  TableID,No,SourceCodeSetup.Sales,  
+  "Shortcut Dimension 1 Code",  
+  "Shortcut Dimension 2 Code");  
+IF "Line No." <> 0 THEN  
+  DimMgt.UpdateDocDefaultDim(  
+    DATABASE::"Sales Line","Document Type",  
+    "Document No.","Line No.",  
+    "Shortcut Dimension 1 Code",  
+    "Shortcut Dimension 2 Code");  
+```  
+  
+ **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
+  
+```  
+Table 37, function CreateDim()  
+SourceCodeSetup.GET;  
+TableID[1] := Type1;  
+No[1] := No1;  
+TableID[2] := Type2;  
+No[2] := No2;  
+TableID[3] := Type3;  
+No[3] := No3;  
+"Shortcut Dimension 1 Code" := '';  
+"Shortcut Dimension 2 Code" := '';  
+GetSalesHeader;  
+"Dimension ID" :=  
+  DimMgt.GetDefaultDimID(  
+    TableID,No,SourceCodeSetup.Sales,  
+    "Shortcut Dimension 1 Code",  
+    "Shortcut Dimension 2 Code",  
+    SalesHeader."Dimension ID",  
+    DATABASE::"Sales Header");
 
--   El pedido de suministro no se puede modificar para cubrir toda la demanda. El evento de demanda sigue abierto, con una cantidad sin cubrir que se puede cubrir mediante el evento de suministro siguiente. Por lo tanto, se cierra el evento de suministro, por lo que el equilibrado puede empezar con la demanda actual y el siguiente evento de suministro.  
-
--   Se ha cubierto toda la demanda; no hay demanda subsiguiente (o no ha habido demanda en absoluto). Si hay algún aprovisionamiento de excedente, se puede reducir (o cancelarse) y después cerrar. Es posible que existan eventos de suministro adicionales más adelante en la cadena y también se deben cancelar.  
-
- Por último, el sistema de planificación creará una conexión de seguimiento de pedidos entre el suministro y la demanda.  
-
-## <a name="creating-the-planning-line-suggested-action"></a>Crear la línea de planificación (acción sugerida)  
- Si se sugiere alguna acción (nueva, cambiar de cantidad, reprogramar, reprogramar y cambiar de cantidad o cancelar) para revisar el pedido de aprovisionamiento, el sistema de planificación crea una línea de planificación en la hoja de trabajo de planificación. El seguimiento de pedidos obliga a la creación de la línea de planificación no solo cuando se cierra el evento de aprovisionamiento, sino también si se cierra el evento de demanda, aunque el evento de aprovisionamiento esté aún abierto y puede estar sujeto a los cambios adicionales cuando se procesa el evento de demanda siguiente. Esto significa que la línea de planificación se puede modificar de nuevo cuando se crea por primera vez.  
-
- Para minimizar el acceso de base de datos al manipular las órdenes de producción, la línea de planificación se puede mantener en tres niveles, a la vez que se intenta realizar el nivel de mantenimiento menos exigente:  
-
--   Crear solo la línea de planificación con la fecha de vencimiento y la cantidad actuales, pero sin la ruta y los componentes.  
-
--   Incluir ruta: la ruta planificada se diseña incluyendo el cálculo de las fechas y las horas de inicio y fin. Esto exige muchos accesos a la base de datos. Para determinar las fechas finales y de vencimiento, es posible que sea necesario calcularlo aunque el evento de suministro no se haya cerrado (en el caso de la programación hacia delante).  
-
--   Incluir despliegue de L.M.: esto puede esperar a justo antes de cerrar el evento de aprovisionamiento.  
-
- De este modo concluyen las descripciones de cómo el sistema de planificación carga, da prioridad y equilibra la demanda y el suministro. En integración con esta actividad de planificación de aprovisionamientos, el programa debe garantizar que el nivel de inventario requerido de cada producto planificado se mantiene según sus directivas de reaprovisionamiento.  
+```  
 
 ## <a name="see-also"></a>Consulte también  
- [Detalles de diseño: Equilibrio de aprovisionamiento y demanda](design-details-balancing-demand-and-supply.md)   
- [Detalles de diseño: Conceptos centrales del sistema de planificación](design-details-central-concepts-of-the-planning-system.md)   
- [Detalles de diseño: Planificación de aprovisionamiento](design-details-supply-planning.md)
-
+[Detalles de diseño: Movimientos de grupo de dimensiones](design-details-dimension-set-entries.md)   
+[Detalles de diseño: Estructura de tablas](design-details-table-structure.md)   
+[Detalles de diseño: Gestión de dimensiones de unidad de código 408](design-details-codeunit-408-dimension-management.md)

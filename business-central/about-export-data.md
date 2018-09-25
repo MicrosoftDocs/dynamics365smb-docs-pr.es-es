@@ -1,8 +1,6 @@
 ---
 title: Exportar los datos de Business Central a Excel | Documentos de Microsoft
 description: Puede exportar los informes financieros y los datos de inteligencia empresarial desde Business Central a Excel, o abrir los datos en Excel.
-services: project-madeira
-documentationcenter: 
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
-ms.date: 06/02/2017
+ms.date: 08/13/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 3bd7442582fe13809ea04d1f298b7aecbf9b45ed
+ms.sourcegitcommit: ded6baf8247bfbc34063f5595d42ebaf6bb300d8
+ms.openlocfilehash: 0407e0c34578e6487b37f4254f6a600fe99e967a
 ms.contentlocale: es-es
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Exportar los datos de negocio a Excel
@@ -26,6 +24,9 @@ Si desea trabajar con sus datos de [!INCLUDE[d365fin](includes/d365fin_md.md)] e
 Puede abrir los datos en Excel desde cualquier diario, lista u hoja de trabajo. Abra solo la página que desee y, a continuación, elija **Abrir en Excel**. Por ejemplo, abra la lista de clientes (busque **Clientes**) y elija **Abrir en Excel**. El explorador le indicaŕa que abra o guardar el libro de Excel generado.  
 
 Cada lista incluye varias columnas y la exportación a Excel incluirá algunas columnas que están en la vista actual. Si desea agregar o eliminar columnas antes de abrir la lista en Excel, abra el menú contextual de cualquier columna y después especifique qué columnas que desea ver. Esta lista de columnas es distinta de la mayoría de listas y refleja la estructura de la base de datos donde se almacenan los datos. Si no está seguro del tipo de datos que contiene una determinada columna, puede agregarla a la vista y decidir si desea quitarla de nuevo.  
+
+### <a name="edit-data-in-excel"></a>Editar datos en Excel
+Su experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)] incluye un complemento para Excel para que pueda editar datos en Excel. Para obtener más información, consulte [Análisis de estados financieros en Microsoft Excel](finance-analyze-excel.md).  
 
 ## <a name="exporting-data-to-other-finance-systems"></a>Exportar datos a otros sistemas financieros
 Si decida cancelar la suscripción de [!INCLUDE[d365fin](includes/d365fin_md.md)], puede exportar los datos a Excel y llevárselos a su próximo sistema financiero.  
@@ -65,6 +66,7 @@ Le recomendamos que también considere la posibilidad de exportar los datos de l
 ## <a name="see-also"></a>Consulte también
 [Cancelar la suscripción de [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-cancel.md)  
 [Importar datos de empresa de otros sistemas financieros](across-import-data-configuration-packages.md)  
+[Análisis de estados financieros en Microsoft Excel](finance-analyze-excel.md)  
 [Finanzas](finance.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

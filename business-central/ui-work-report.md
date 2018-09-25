@@ -13,18 +13,41 @@ ms.search.keywords: task, process, report
 ms.date: 07/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 01a7a1d254916a8b93744183d3678c2082aec42c
+ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
+ms.openlocfilehash: 560760b1f895ed69c2e7fd80ccf451763e87d19b
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 08/06/2018
 
 ---
 # <a name="working-with-reports"></a>Trabajar con informes
 Un informe recoge la información basada en un conjunto determinado de criterios, y organiza y muestra la información en un formato fácil de leer, imprimible. Existen numerosos informes a la que se accede en la aplicación. Los informes proporcionan normalmente la información en relación con el contexto de la página que va a usar. Por ejemplo, la página **Cliente** incluye los informes para los 10 clientes principales y sus estadísticas de ventas, entre otros datos.
 
-Puede buscar informes en la ficha **Informes** de las páginas seleccionadas, o utilizar búsquedas para buscar informes por nombre. Cuando se abre un informe, se le presenta con una página en la que puede especificar información (opciones y filtros) que determine lo que desea incluir en el informe. Por ejemplo, según del informe, puede especificar un intervalo de fechas, un registro específico como un cliente, o un orden de clasificación. A continuación le mostramos un ejemplo:
+Puede encontrar informes en la pestaña **Informes** de las páginas seleccionadas, o puede utilizar la búsqueda ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe") para buscar informes por nombre.
+
+
+## <a name="specifying-the-data-to-include-in-the-report"></a>Especificación de los datos que se van a incluir en el informe
+Cuando abre un informe, normalmente se le presenta una página donde se establecen varias opciones y filtros que determinan qué se debe incluir en el informe. Esta página se llama página de solicitud de informe. Por ejemplo, la página de solicitud de informe permite crear un informe para un cliente específico, un intervalo de fechas determinado o clasificar la información del informe. A continuación se muestra un ejemplo de una página de solicitud de informe:
 
 ![Opciones del informe](media/report_options.png "Opciones del informe")
+
+### <a name="SavedSettings"></a>Uso de la configuración guardada
+En algunos informes, dependiendo de cómo estén diseñados, la página del informe puede incluir la sección **Configuración guardada** que contiene una o más entradas en el cuadro **Utilizar valor predeterminado desde**. Las entradas de es cuadro se denominan *configuraciones guardadas*. Una configuración guardada es básicamente un grupo predefinido de opciones y filtros que puede aplicar al informe antes de previsualizar o enviar el informe a un archivo. La configuración guardada que se denomina **Filtros y opciones usados por última vez** está siempre disponible. Este movimiento establece el informe debe utilizar opciones y filtros que se utilizaron la última vez que se vio.
+
+El uso de la configuración guardada es una forma rápida y confiable de generar de forma coherente informes que contienen los datos correctos. Después de configurar el cuadro **Utilizar el valor predeterminado desde** como una entrada de configuración guardada, puede cambiar cualquiera de las opciones y filtros antes de obtener una vista previa o guardar el informe. Los cambios que realice no se guardarán en la entrada de configuración guardada que haya seleccionado, sino que se guardarán en **Últimas opciones y filtros utilizados**.
+
+>[!NOTE]
+>Si es administrador, puede crear y administrar la configuración guardada para informes de todos los usuarios. Para obtener más información, consulte [Administrar configuración guardada en los informes](reports-saving-reusing-settings.md).
+
+### <a name="setting-options-and-filters"></a>Configuración de opciones y filtros
+Si desea limitar o localizar con precisión los datos que se incluyen en un informe, puede configurar opciones y filtros adicionales.
+
+Los filtros permiten visualizar datos según un criterio específico. Los filtros están agrupados por la entidad a la que pertenecen, como **Cliente** en la ilustración anterior. Para definir un filtro, configure el cuadro **Dónde** en el campo por el que desea filtrar y, a continuación, agregue los criterios en el cuadro **es:**. Por ejemplo, en la ilustración anterior, hay un único filtro que creará un informe para el cliente cuyo **N.º** es igual a **01121212**.
+
+Puede agregar más filtros configurando los cuadros **Agregar**. Si tiene más de un filtro, solo se incluirán en el informe los resultados que cumplan los criterios de todos los filtros.
+
+En función del tipo de campo que esté filtrando, puede especificar los criterios de filtrado para buscar una coincidencia exacta, una coincidencia parcial, un rango de valores y mucho más. Para obtener ayuda sobre cómo configurar los filtros, consulte:
+-   [Filtrado](ui-enter-criteria-filters.md#FilterCriteria)
+-   [Introducir rangos de fechas](ui-enter-date-ranges.md)
 
 ## <a name="previewing-a-report"></a>Vista preliminar de un informe
 Seleccione **Vista previa** para ver el informe en el explorador de Internet. Señale una zona del informe para mostrar la barra de menús.  
@@ -57,14 +80,6 @@ Puede programar un informe cuando abra un informe. Puede elegir la acción **Pro
 
 ## <a name="PrintReport"></a>Imprimir un informe
 Puede imprimir un informe desde el botón **Imprimir** en la página de opciones que aparece al abrir el informe o desde la barra de menús en Vista previa.
-
-## <a name="using-saved-settings"></a>Uso de la configuración guardada
-Un informe puede incluir uno o más movimientos en la casilla **Configuración guardada** . *Configuración guardada* es básicamente un grupo predefinido de opciones y filtros que puede aplicar al informe antes de previsualizar o enviar el informe a un archivo. El uso de la configuración guardada es una forma rápida y confiable de generar de forma coherente informes que contienen los datos correctos.
-
-La configuración guardada que se denomina **Filtros y opciones usados por última vez** está siempre disponible. Este movimiento establece el informe debe utilizar opciones y filtros que se utilizaron la última vez que se vio.
-
->[!NOTE]
->Como administrador, puede crear y administrar la configuración guardada para informes de todos los usuarios. Para obtener más información, consulte [Administrar configuración guardada en los informes](reports-saving-reusing-settings.md).
 
 ## <a name="changing-the-layout-and-look-of-a-report"></a>Cambiar el diseño y el aspecto de un informe
 El diseño de informe controla lo que se muestra en un informe, cómo se organiza y cómo está diseñado. Si desea cambiar a otro diseño distinto, consulte [Cambiar el diseño que se utiliza actualmente en un informe](ui-how-change-layout-currently-used-report.md). Pero, si desea personalizar su propio diseño del informe, vea [Crear y editar un diseño de informe personalizado](ui-how-create-custom-report-layout.md).

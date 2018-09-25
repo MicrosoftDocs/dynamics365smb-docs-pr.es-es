@@ -1,8 +1,6 @@
 ---
 title: Buscar datos y especificar criterios de filtrado | Documentos de Microsoft
 description: "Describe cómo trabajar con filtros, como el filtro rápido, para redefinir los resultados que obtiene al buscar datos."
-services: project-madeira
-documentationcenter: 
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords: delimit, FlowFilter
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a7fd74ad235e51b1793b02e19834bdb0bd17820b
+ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
+ms.openlocfilehash: 10aac3906d9da8b9e0791db614142eeb90940a9b
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 08/06/2018
 
 ---
 # <a name="searching-filtering-and-sorting-data"></a>Buscar, filtrar y ordenar datos
@@ -82,27 +80,27 @@ Puede agregar filtros a todas las páginas con el filtro rápido. El filtro ráp
 </TABLE>
 
 > [!NOTE]  
->   No puede usar un carácter comodín al filtrar en los campos de enumeración, como el campo **Estado** en los pedidos de venta. Para especificar un filtro para este tipo de campo, puede especificar el valor numérico como parámetro de filtrado. Por ejemplo, en el campo **Estado** de un pedido de venta que tenga los valores **Abierto**, **Lanzado**, **Aprobación pendiente** y **Prepago pendiente**, utilice los valores **0**, **1**, **2** y **3** para filtrar para estas opciones. 
+>   No puede usar un carácter comodín al filtrar en los campos de enumeración, como el campo **Estado** en los pedidos de venta. Para especificar un filtro para este tipo de campo, puede especificar el valor numérico como parámetro de filtrado. Por ejemplo, en el campo **Estado** de un pedido de venta que tenga los valores **Abierto**, **Lanzado**, **Aprobación pendiente** y **Prepago pendiente**, utilice los valores **0**, **1**, **2** y **3** para filtrar para estas opciones.
 
 ## <a name="searching-by-using-column-filters"></a>Búsqueda usando filtros de columna
-Puede agregar un filtro de una o varias columnas a una lista. El filtrado en columnas es más flexible y ampliado que el filtro rápido. 
+Puede agregar un filtro de una o varias columnas a una lista. El filtrado en columnas es más flexible y ampliado que el filtro rápido.
 
 ### <a name="to-add-a-filter-on-a-column"></a>Para agregar un filtro a una columna
 1.  Antes de añadir un filtro, elija el icono ![Mostrar como una lista](media/ui_show_as_list_icon.png "Mostrar como lista de flecha izquierda") para cambiar a la vista de lista.
 2. Elija hacia flecha hacia abajo en la cabecera de columna y, a continuación elija **Filtro**.
-3. Realice una de las siguientes acciones: 
+3. Realice una de las siguientes acciones:
   -  Seleccione *…* al lado del cuadro para seleccionar un valor de una lista.
   -  Introduzca criterios de filtro en el cuadro. Véase la sección siguiente para obtener información detallada.
 4. Elija el botón **Aceptar**.
 
-## <a name="filter-criteria-and-symbols"></a>Filtrar los criterios y símbolos
+## <a name="FilterCriteria"> </a>Filtrar los criterios y símbolos
 Al introducir criterios, puede usar todos los números y las letras que normalmente se emplean en un campo. También puede usar símbolos especiales para filtrar aún más los resultados. En las tablas siguientes se muestran los símbolos que se pueden usar en los filtros.  
-  
+
 > [!IMPORTANT]  
 >  Puede haber instancias donde los valores de campo contengan los siguientes símbolos y desee filtrarlos. Para ello, debe incluir la expresión de filtro que contiene el símbolo entre comillas ("). Por ejemplo, si desea filtrar en los registros que comienzan por el texto *S&R*, la expresión de filtro es **'S&R*'**.  
-  
+
 ### <a name="-interval"></a>(..) Intervalo  
-  
+
 |Ejemplo|Registros mostrados|  
 |-----------------------|-----------------------|  
 |1100..2100|Números del 1100 al 2100.|  
@@ -112,83 +110,83 @@ Al introducir criterios, puede usar todos los números y las letras que normalme
 |..23|Desde la fecha inicial hasta 23-mes actual-año actual 23:59:59|  
 |23..|Desde 23-mes actual-año actual 0:00:00 hasta la hora final|  
 |22..23|Desde 22-mes actual-año actual 0:00:00 hasta 23-mes actual-año actual 23:59:59|  
-  
+
 ### <a name="124-eitheror"></a>(&#124;) O/o  
-  
+
 |Ejemplo|Registros mostrados|  
 |-----------------------|-----------------------|  
 |1200&#124;1300|Números con 1200 ó 1300|  
-  
+
 ### <a name="-not-equal-to"></a>(<>) Distinto  
-  
+
 |Ejemplo|Registros mostrados|  
 |-----------------------|-----------------------|  
 |<>0|Todos los números, excepto el 0<br /><br /> La opción SQL Server permite combinar este símbolo con una expresión de caracteres comodín. Por ejemplo, <>A* significa distinto de cualquier texto que empiece por A.|  
-  
+
 ### <a name="-greater-than"></a>(>) Mayor de  
-  
+
 |Ejemplo|Registros mostrados|  
 |-----------------------|-----------------------|  
 |>1200|Números mayores que 1200|  
-  
+
 ### <a name="-greater-than-or-equal-to"></a>(>=) Mayor o igual a  
-  
+
 |Ejemplo|Registros mostrados|  
 |-----------------------|-----------------------|  
 |>=1200|Números mayores o igual que 1200|  
-  
+
 ### <a name="-less-than"></a>(<) Menor de  
-  
+
 |Ejemplo|Registros mostrados|  
 |-----------------------|-----------------------|  
 |<1200|Números menores que 1200|  
-  
+
 ### <a name="-less-than-or-equal-to"></a>(<=) Menor o igual que  
-  
+
 |Ejemplo|Registros mostrados|  
 |-----------------------|-----------------------|  
 |<=1200|Números menores o iguales que 1200|  
-  
+
 ### <a name="-and"></a>(&) y  
-  
+
 |Ejemplo|Registros mostrados|  
 |-----------------------|-----------------------|  
 |>200&<1200|Números mayores de 200 e inferiores a 1200|  
-  
+
 ### <a name="-an-exact-character-match"></a>(") Una coincidencia exacta de carácter  
-  
+
 |Ejemplo|Registros mostrados|  
 |-----------------------|-----------------------|  
 |'man'|Texto que coincide exactamente con man y distingue mayúsculas de minúsculas.|  
-  
+
 ### <a name="-case-insensitive"></a>(@) Distinción entre mayúsculas y minúsculas  
-  
+
 |Ejemplo|Registros mostrados|  
 |-----------------------|-----------------------|  
 |@man*|Texto que empieza por man y no distingue mayúsculas de minúsculas.|  
-  
+
 ### <a name="-an-indefinite-number-of-unknown-characters"></a>(*) Un número indefinido de caracteres desconocidos (quizás ninguno)  
-  
+
 |Ejemplo|Registros mostrados|  
 |-----------------------|-----------------------|  
 |*Co*|Texto que contenga “Co” y es con diferenciación de mayúsculas y minúsculas.|  
 |*Co|Texto que termine con “Co” y es con diferenciación de mayúsculas y minúsculas.|  
 |Co*|Texto que empiece por “Co” y es con diferenciación de mayúsculas y minúsculas.|  
-  
+
 ### <a name="-one-unknown-character"></a>(?) Un carácter desconocido  
-  
+
 |Ejemplo|Registros mostrados|  
 |-----------------------|-----------------------|  
 |Mendo?a|Texto como Mendoza o Mendosa|  
-  
+
 ### <a name="combined-format-expressions"></a>Expresiones de formato combinadas  
-  
+
 |Ejemplo|Registros mostrados|  
 |-----------------------|-----------------------|  
 |5999&#124;8100..8490|Incluye todos los registros cuyo número sea 5999 o un número entre 8100 y 8490.|  
 |..1299&#124;1400..|Incluye los registros cuyo número sea menor o igual que 1299 o un número igual o mayor que 1400|  
 |>50&<100|Incluye los registros cuyo número sea mayor que 50 y menor que 100.|  
- 
+
 ## <a name="see-also"></a>Consulte también
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
