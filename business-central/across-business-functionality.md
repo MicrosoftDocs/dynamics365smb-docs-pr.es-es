@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
 ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
@@ -43,7 +43,6 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Configurar y utilizar los flujos de trabajo que vinculan tareas que realizan los distintos usuarios o el sistema, como registro automático. Solicitar y conceder aprobaciones para crear o registrar documentos son pasos habituales de un flujo de trabajo.|[Flujo de trabajo](across-workflow.md)|
 |Permitir a los usuarios intercambiar datos con orígenes externos durante las tareas diarias, como envío/recepción de documentos electrónicos, importación y exportación de archivos bancarios y actualización de tipos de cambio de divisa.|[Intercambio de datos electrónicamente](across-data-exchange.md)|
 |Registrar documentos externos en [!INCLUDE[d365fin](includes/d365fin_md.md)], incluidos los anexos de archivo y, a continuación, crear manualmente documentos relacionados o convertir automáticamente los archivos a documentos electrónicos.|[Documentos entrantes](across-income-documents.md)|
-
 
 ## <a name="see-also"></a>Consulte también
 [Administración](admin-setup-and-administration.md)  

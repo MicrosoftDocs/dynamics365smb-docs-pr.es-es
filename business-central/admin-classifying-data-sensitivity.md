@@ -4,7 +4,7 @@ description: "Debe especificar qué tipo de datos almacena sobre las personas pa
 author: bholtorf
 ms.author: bholtorf
 ms.custom: na
-ms.date: 03/09/2018
+ms.date: 10/01/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
