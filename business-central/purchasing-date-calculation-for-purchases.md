@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/10/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8224f609dd110cd9f5d01d33d8e207f0c4aef6e0
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 08d2f6498019b8ee0a646cec891ff897a62dc9de
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="date-calculation-for-purchases"></a><span data-ttu-id="d93fe-104">Cálculo de la fecha de compras</span><span class="sxs-lookup"><span data-stu-id="d93fe-104">Date Calculation for Purchases</span></span>
-[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="d93fe-105"> calcula automáticamente la fecha en la que se debe solicitar un producto para tenerlo en el inventario en una fecha determinada.</span><span class="sxs-lookup"><span data-stu-id="d93fe-105"> automatically calculates the date on which you must order an item to have it in inventory on a certain date.</span></span> <span data-ttu-id="d93fe-106">Esta es la fecha en la que puede contar con que los productos solicitados en una fecha determinada estén disponibles para picking.</span><span class="sxs-lookup"><span data-stu-id="d93fe-106">This is the date on which you can expect items ordered on a particular date to be available for picking.</span></span>  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="d93fe-105">calcula automáticamente la fecha en la que se debe solicitar un producto para tenerlo en el inventario en una fecha determinada.</span><span class="sxs-lookup"><span data-stu-id="d93fe-105"> automatically calculates the date on which you must order an item to have it in inventory on a certain date.</span></span> <span data-ttu-id="d93fe-106">Esta es la fecha en la que puede contar con que los productos solicitados en una fecha determinada estén disponibles para picking.</span><span class="sxs-lookup"><span data-stu-id="d93fe-106">This is the date on which you can expect items ordered on a particular date to be available for picking.</span></span>  
 
 <span data-ttu-id="d93fe-107">Si especifica una fecha de recepción solicitada en la cabecera de un pedido de compra, la fecha de pedido calculada será aquella en la que se debe realizar el pedido para recibir los artículos en la fecha solicitada.</span><span class="sxs-lookup"><span data-stu-id="d93fe-107">If you specify a requested receipt date on a purchase order header, then the calculated order date is the date on which the order must be placed to receive the items on the date that you requested.</span></span> <span data-ttu-id="d93fe-108">A continuación, la fecha en que los artículos estarán disponibles para picking se calcula y se especifica en el campo **Fecha recepción esperada**.</span><span class="sxs-lookup"><span data-stu-id="d93fe-108">Then, the date on which the items are available for picking is calculated and entered in the **Expected Receipt Date** field.</span></span>  
 

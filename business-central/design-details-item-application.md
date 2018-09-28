@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 11/23/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 12fa67c9e0c161d99faab376c440f6299fa8aa52
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 9628976ace37f672f86e23b365e49a7ce2f49aea
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-item-application"></a><span data-ttu-id="baf51-103">Detalles de diseño: Liquidación de productos</span><span class="sxs-lookup"><span data-stu-id="baf51-103">Design Details: Item Application</span></span>
@@ -22,7 +22,7 @@ ms.lasthandoff: 03/22/2018
 
 <span data-ttu-id="baf51-106">Además, se hace una solicitud de producto para conectar al destinatario del coste con el origen del coste y hacer así un desvío de coste al método de coste.</span><span class="sxs-lookup"><span data-stu-id="baf51-106">In addition, an item application is made to link the cost recipient to its cost source to provide cost forwarding according to the costing method.</span></span> <span data-ttu-id="baf51-107">Para obtener más información, consulte [Detalles de diseño: Métodos de coste](design-details-costing-methods.md).</span><span class="sxs-lookup"><span data-stu-id="baf51-107">For more information, see [Design Details: Costing Methods](design-details-costing-methods.md).</span></span>  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="baf51-108"> hace dos tipos de liquidación de productos.</span><span class="sxs-lookup"><span data-stu-id="baf51-108"> makes two types of item application.</span></span>  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="baf51-108">hace dos tipos de liquidación de productos.</span><span class="sxs-lookup"><span data-stu-id="baf51-108"> makes two types of item application.</span></span>  
 
 |<span data-ttu-id="baf51-109">Tipo de aplicación</span><span class="sxs-lookup"><span data-stu-id="baf51-109">Application type</span></span>|<span data-ttu-id="baf51-110">Description</span><span class="sxs-lookup"><span data-stu-id="baf51-110">Description</span></span>|  
 |----------------------|---------------------------------------|  
@@ -237,7 +237,7 @@ ms.lasthandoff: 03/22/2018
 * <span data-ttu-id="baf51-524">Desea invalidar la liquidación creada automáticamente al efectuar el registro, según la valoración de existencias del producto.</span><span class="sxs-lookup"><span data-stu-id="baf51-524">You want to overrule the application created automatically when posting, according to the item’s costing method.</span></span>  
 * <span data-ttu-id="baf51-525">Tiene que devolver un producto al que ya se le ha aplicado una ventana, sin usar la función **Revertir líneas documentos registrados** y, por lo tanto, debe deshacer la liquidación.</span><span class="sxs-lookup"><span data-stu-id="baf51-525">You have to return an item to which a sale has already been manually applied, without using the **Get Posted Document Lines to Reverse** function, and you must therefore undo the application.</span></span>  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="baf51-526"> ofrece una característica para analizar y corregir las liquidaciones de productos.</span><span class="sxs-lookup"><span data-stu-id="baf51-526"> offers a feature for analyzing and correcting item applications.</span></span> <span data-ttu-id="baf51-527">Este trabajo se realiza en la ventana de **Hoja liquidación**.</span><span class="sxs-lookup"><span data-stu-id="baf51-527">This work is performed in the **Application Worksheet** window.</span></span>  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="baf51-526">ofrece una característica para analizar y corregir las liquidaciones de productos.</span><span class="sxs-lookup"><span data-stu-id="baf51-526"> offers a feature for analyzing and correcting item applications.</span></span> <span data-ttu-id="baf51-527">Este trabajo se realiza en la ventana de **Hoja liquidación**.</span><span class="sxs-lookup"><span data-stu-id="baf51-527">This work is performed in the **Application Worksheet** window.</span></span>  
 
 ## <a name="see-also"></a><span data-ttu-id="baf51-528">Consulte también</span><span class="sxs-lookup"><span data-stu-id="baf51-528">See Also</span></span>  
 [<span data-ttu-id="baf51-529">Detalles de diseño: Problema de liquidación de producto conocido</span><span class="sxs-lookup"><span data-stu-id="baf51-529">Design Details: Known Item Application Issue</span></span>](design-details-inventory-zero-level-open-item-ledger-entries.md)  

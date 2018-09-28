@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/01/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 696100bfbcc987b1d684e7987e7fd43979813282
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 01b20f74d631a81085ffcaf205dd556c54d6369c
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="manage-documents"></a><span data-ttu-id="5045a-103">Administración de documentos</span><span class="sxs-lookup"><span data-stu-id="5045a-103">Manage Documents</span></span>
 <span data-ttu-id="5045a-104">Un rol central, como el administrador de aplicaciones, debe eliminar o comprimir periódicamente los documentos históricos para gestionar su acumulación.</span><span class="sxs-lookup"><span data-stu-id="5045a-104">A central role, such as the application administrator, must regularly deal with accumulating historic documents by deleting or compressing them.</span></span>  
 
 ## <a name="delete-documents"></a><span data-ttu-id="5045a-105">Eliminar documentos</span><span class="sxs-lookup"><span data-stu-id="5045a-105">Delete Documents</span></span>
-<span data-ttu-id="5045a-106">En algunos casos, es posible que necesite eliminar pedidos de compra facturados que no se hayan eliminado.</span><span class="sxs-lookup"><span data-stu-id="5045a-106">In certain situations, you may need to delete invoiced purchase orders that have not been deleted.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="5045a-107"> comprueba que se hayan facturado totalmente los pedidos de compra eliminados.</span><span class="sxs-lookup"><span data-stu-id="5045a-107"> checks that you have fully invoiced the deleted purchase orders.</span></span> <span data-ttu-id="5045a-108">No puede eliminar pedidos que no haya facturado y recibido en su totalidad.</span><span class="sxs-lookup"><span data-stu-id="5045a-108">You cannot delete orders that you have not fully invoiced and received.</span></span>  
+<span data-ttu-id="5045a-106">En algunos casos, es posible que necesite eliminar pedidos de compra facturados que no se hayan eliminado.</span><span class="sxs-lookup"><span data-stu-id="5045a-106">In certain situations, you may need to delete invoiced purchase orders that have not been deleted.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="5045a-107">comprueba que se hayan facturado totalmente los pedidos de compra eliminados.</span><span class="sxs-lookup"><span data-stu-id="5045a-107"> checks that you have fully invoiced the deleted purchase orders.</span></span> <span data-ttu-id="5045a-108">No puede eliminar pedidos que no haya facturado y recibido en su totalidad.</span><span class="sxs-lookup"><span data-stu-id="5045a-108">You cannot delete orders that you have not fully invoiced and received.</span></span>  
 
 <span data-ttu-id="5045a-109">Los pedidos de devolución generalmente se eliminan después de facturados.</span><span class="sxs-lookup"><span data-stu-id="5045a-109">Return orders are usually deleted after they are invoiced.</span></span> <span data-ttu-id="5045a-110">Cuando registra una factura, ésta se transfiere a la ventana **Histórico abono compra**.</span><span class="sxs-lookup"><span data-stu-id="5045a-110">When you post an invoice, it is transferred to the **Posted Purchase Credit Memo** window.</span></span> <span data-ttu-id="5045a-111">Si ha activado la casilla **Envío dev. en abono** en la ventana **Conf. compras y pagos**, la factura se transfiere a la ventana **Histórico envío devolución**.</span><span class="sxs-lookup"><span data-stu-id="5045a-111">If you selected the **Return Shipment on Credit Memo** check box in the **Purchases & Payable Setup** window, then the invoice is transferred to the **Posted Return Shipment** window.</span></span> <span data-ttu-id="5045a-112">Puede eliminar los documentos a partir de un trabajo por lotes **Borrar ped. dev. compras fact.**.</span><span class="sxs-lookup"><span data-stu-id="5045a-112">You can delete the documents using the **Delete Invd Purch. Ret. Orders** batch job.</span></span> <span data-ttu-id="5045a-113">Antes de eliminar, el trabajo por lotes comprueba si los pedidos devueltos de compra han sido enviados y facturados totalmente.</span><span class="sxs-lookup"><span data-stu-id="5045a-113">Before deleting, the batch job checks if the purchase return orders are fully shipped and invoiced.</span></span>  
 

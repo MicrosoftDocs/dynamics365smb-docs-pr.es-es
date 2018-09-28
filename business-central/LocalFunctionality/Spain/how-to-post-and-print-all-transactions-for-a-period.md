@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 07d9dd9cffdce35fd39de152bc569abc47c65bff
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: c0ea404b7ef819a90c4fa1e82e432e31e08b1be5
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="post-and-print-all-transactions-for-a-period"></a><span data-ttu-id="b22d6-103">Registrar e imprimir todas las transacciones de un periodo</span><span class="sxs-lookup"><span data-stu-id="b22d6-103">Post and Print All Transactions for a Period</span></span>

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 1124ac21fb7b7a47fa2b7bcf64d40e980e64140c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 4edd2067b1b7e093b61d398ba5abf403b76a89e0
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="equivalence-charges-ec"></a><span data-ttu-id="08e1f-104">Recargo de equivalencia (RE)</span><span class="sxs-lookup"><span data-stu-id="08e1f-104">Equivalence Charges (EC)</span></span>

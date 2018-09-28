@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5ee95ecb22fbe056c5a12f76bdee75e18549d222
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 7adb080e0e1ba7e9d5c43a32258bef0307a9a573
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="electronic-payments--aeb-n341"></a><span data-ttu-id="520d8-105">Pagos electrónicos – AEB N34.1</span><span class="sxs-lookup"><span data-stu-id="520d8-105">Electronic Payments – AEB N34.1</span></span>

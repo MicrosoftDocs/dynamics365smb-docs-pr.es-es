@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 02/28/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: 37c1f1b29dd60024c2601f313105aadc6215c77d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 4ac052f6a757c60dbe1a87f511c37910616f6206
 ms.contentlocale: es-es
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="finance"></a><span data-ttu-id="387b2-103">Finanzas</span><span class="sxs-lookup"><span data-stu-id="387b2-103">Finance</span></span>
-[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="387b2-104"> incluye una configuración estándar de muchos procesos financieros, pero puede cambiar la configuración para que se adapte a su empresa.</span><span class="sxs-lookup"><span data-stu-id="387b2-104"> includes a standard configuration of most financial processes, but you can change the configuration to suit your business.</span></span> <span data-ttu-id="387b2-105">Para obtener más información, consulte [Configurar finanzas](finance-setup-finance.md).</span><span class="sxs-lookup"><span data-stu-id="387b2-105">For more information, see [Setting Up Finance](finance-setup-finance.md).</span></span>
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="387b2-104">incluye una configuración estándar de muchos procesos financieros, pero puede cambiar la configuración para que se adapte a su empresa.</span><span class="sxs-lookup"><span data-stu-id="387b2-104"> includes a standard configuration of most financial processes, but you can change the configuration to suit your business.</span></span> <span data-ttu-id="387b2-105">Para obtener más información, consulte [Configurar finanzas](finance-setup-finance.md).</span><span class="sxs-lookup"><span data-stu-id="387b2-105">For more information, see [Setting Up Finance](finance-setup-finance.md).</span></span>
 
 <span data-ttu-id="387b2-106">La configuración predeterminada incluye un plan de cuentas y grupos de registro estándar que hacen que el proceso de asignar cuentas de registro de movimientos predeterminadas a clientes, proveedores y productos sea más eficaz.</span><span class="sxs-lookup"><span data-stu-id="387b2-106">The default configuration includes a chart of accounts and standard posting groups that make the process of assigning default general ledger posting accounts to customers, vendors, and items more efficient.</span></span>  
 

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4403d734565332e9adfedb02423460f6d4a5a4ec
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 222ccecd96c59b83afad56b5e935405098f4d836
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-340-reports-for-small-businesses"></a><span data-ttu-id="900bc-104">Configurar informes 340 para las empresas pequeñas</span><span class="sxs-lookup"><span data-stu-id="900bc-104">Set Up 340 Reports for Small Businesses</span></span>

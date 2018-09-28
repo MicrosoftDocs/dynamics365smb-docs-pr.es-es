@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d7974adb873f2bd285874e37584304595365f7d3
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 12a1105d9cabd7f6dfc85578f8c2d7629bdb235a
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="void-electronic-payments"></a><span data-ttu-id="51764-104">Anular pagos electrónicos</span><span class="sxs-lookup"><span data-stu-id="51764-104">Void Electronic Payments</span></span>

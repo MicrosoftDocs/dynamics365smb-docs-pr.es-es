@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: availability, localization
-ms.date: 07/06/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7664360941313da6ea0b797ef00df2e9810ad62
-ms.openlocfilehash: ffe2c700ed409a0881c94ddfd0157cf32141c60f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6271cc49358c4f31edfdfdda60e87655a53eea50
 ms.contentlocale: es-es
-ms.lasthandoff: 07/09/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="local-functionality-in-included365finlongincludesd365finlongmdmd"></a><span data-ttu-id="c0fcb-103">Funcionalidad local en [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]</span><span class="sxs-lookup"><span data-stu-id="c0fcb-103">Local Functionality in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]</span></span>
-[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="c0fcb-104"> tiene una estrategia de localización combinada que incluye tanto modelos dirigidos por Microsoft como modelos dirigidos por socios.</span><span class="sxs-lookup"><span data-stu-id="c0fcb-104"> has a combined localization strategy inclusive of both Microsoft-led and partner-led models.</span></span> <span data-ttu-id="c0fcb-105">En esta sección puede ver las descripciones de la funcionalidad que se aplica a los países donde Microsoft proporciona el cumplimiento normativo y otra funcionalidad local.</span><span class="sxs-lookup"><span data-stu-id="c0fcb-105">In this section, you can see descriptions of functionality that applies to the countries where Microsoft provides the regulatory compliance and other local functionality.</span></span>  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="c0fcb-104">tiene una estrategia de localización combinada que incluye tanto modelos dirigidos por Microsoft como modelos dirigidos por socios.</span><span class="sxs-lookup"><span data-stu-id="c0fcb-104"> has a combined localization strategy inclusive of both Microsoft-led and partner-led models.</span></span> <span data-ttu-id="c0fcb-105">En esta sección puede ver las descripciones de la funcionalidad que se aplica a los países donde Microsoft proporciona el cumplimiento normativo y otra funcionalidad local.</span><span class="sxs-lookup"><span data-stu-id="c0fcb-105">In this section, you can see descriptions of functionality that applies to the countries where Microsoft provides the regulatory compliance and other local functionality.</span></span>  
 
 <span data-ttu-id="c0fcb-106">Para obtener una lista de los mercados que se admiten actualmente, consulte el panel [Disponibilidad internacional de Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/get-started/availability).</span><span class="sxs-lookup"><span data-stu-id="c0fcb-106">For a list of currently supported markets, see the [International availability of Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/get-started/availability) deck.</span></span>  
 
@@ -48,7 +48,7 @@ ms.lasthandoff: 07/09/2018
 |        | <span data-ttu-id="c0fcb-145">Nueva Zelanda</span><span class="sxs-lookup"><span data-stu-id="c0fcb-145">New Zealand</span></span> | [<span data-ttu-id="c0fcb-146">Funcionalidad local para Nueva Zelanda</span><span class="sxs-lookup"><span data-stu-id="c0fcb-146">New Zealand Local Functionality</span></span>](localfunctionality/newzealand/new-zealand-local-functionality.md) |
 
 ### <a name="other-countries"></a><span data-ttu-id="c0fcb-147">Otros países</span><span class="sxs-lookup"><span data-stu-id="c0fcb-147">Other Countries</span></span>
-[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="c0fcb-148"> también está disponible en otros mercados mediante aplicaciones de localización.</span><span class="sxs-lookup"><span data-stu-id="c0fcb-148"> is also available in other markets through localization apps.</span></span> <span data-ttu-id="c0fcb-149">Si un socio de Microsoft ha desarrollado una aplicación de localización para su país, puede encontrarla en [AppSource](https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/).</span><span class="sxs-lookup"><span data-stu-id="c0fcb-149">If a Microsoft partner has developed a localization app for your country, you can find it in [AppSource](https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/).</span></span>
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="c0fcb-148">también está disponible en otros mercados mediante aplicaciones de localización.</span><span class="sxs-lookup"><span data-stu-id="c0fcb-148"> is also available in other markets through localization apps.</span></span> <span data-ttu-id="c0fcb-149">Si un socio de Microsoft ha desarrollado una aplicación de localización para su país, puede encontrarla en [AppSource](https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/).</span><span class="sxs-lookup"><span data-stu-id="c0fcb-149">If a Microsoft partner has developed a localization app for your country, you can find it in [AppSource](https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/).</span></span>
 
 ## <a name="see-also"></a><span data-ttu-id="c0fcb-150">Consulte también</span><span class="sxs-lookup"><span data-stu-id="c0fcb-150">See Also</span></span>
 [<span data-ttu-id="c0fcb-151">Introducción</span><span class="sxs-lookup"><span data-stu-id="c0fcb-151">Getting Started</span></span>](product-get-started.md)  

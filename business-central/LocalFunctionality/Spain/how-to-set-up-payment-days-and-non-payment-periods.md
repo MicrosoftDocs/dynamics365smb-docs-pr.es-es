@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4725df1018bd98f7a2fa0d8e2e2c44f04b53bcb2
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 5139a62fa73a1a3ce03ad0db13e1776297a83f97
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-payment-days-and-non-payment-periods"></a><span data-ttu-id="6430a-104">Configurar días de pago y de periodos no-pago</span><span class="sxs-lookup"><span data-stu-id="6430a-104">Set Up Payment Days and Non-Payment Periods</span></span>

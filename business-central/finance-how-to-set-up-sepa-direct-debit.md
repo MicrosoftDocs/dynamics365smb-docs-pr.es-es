@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/21/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 0ba40eb247c1edb2b4d8c7437bf60790545799ee
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b130948347da0abcf684a7daa5e59d9f71a29e00
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-sepa-direct-debit"></a><span data-ttu-id="8c059-103">Configuración de domiciliaciones de adeudo directo SEPA</span><span class="sxs-lookup"><span data-stu-id="8c059-103">Set Up SEPA Direct Debit</span></span>
-<span data-ttu-id="8c059-104">Desde la ventana **Cobros por adeudo directo** puede exportar instrucciones al banco electrónico para realizar recaudar un adeudo directo desde el banco del cliente a su cuenta bancaria.</span><span class="sxs-lookup"><span data-stu-id="8c059-104">From the **Direct Debit Collections** window, you can export instructions to your electronic bank to perform a direct debit collection from the customer’s bank account to your bank account.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="8c059-105"> admite el formato de adeudo directo SEPA, pero en su país o región, es posible que haya otros formatos para pagos electrónicos.</span><span class="sxs-lookup"><span data-stu-id="8c059-105"> supports the SEPA direct debit format, but in your country/region,other formats for electronic payments may be available.</span></span>  
+<span data-ttu-id="8c059-104">Desde la ventana **Cobros por adeudo directo** puede exportar instrucciones al banco electrónico para realizar recaudar un adeudo directo desde el banco del cliente a su cuenta bancaria.</span><span class="sxs-lookup"><span data-stu-id="8c059-104">From the **Direct Debit Collections** window, you can export instructions to your electronic bank to perform a direct debit collection from the customer’s bank account to your bank account.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="8c059-105">admite el formato de adeudo directo SEPA, pero en su país o región, es posible que haya otros formatos para pagos electrónicos.</span><span class="sxs-lookup"><span data-stu-id="8c059-105"> supports the SEPA direct debit format, but in your country/region,other formats for electronic payments may be available.</span></span>  
 
 <span data-ttu-id="8c059-106">Para habilitar la exportación de formatos de archivos bancarios no compatibles originales en [!INCLUDE[d365fin](includes/d365fin_md.md)], puede configurar una definición de intercambio de datos mediante el marco de intercambio de datos.</span><span class="sxs-lookup"><span data-stu-id="8c059-106">To enable export of a bank file formats that are not supported out of the box in [!INCLUDE[d365fin](includes/d365fin_md.md)] , you can set up a data exchange definition by using the data exchange framework.</span></span> <span data-ttu-id="8c059-107">Para obtener más información, vea [Configurar las definiciones de intercambio de datos](across-how-to-set-up-data-exchange-definitions.md).</span><span class="sxs-lookup"><span data-stu-id="8c059-107">For more information, see [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md).</span></span>  
 

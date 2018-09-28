@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6ebfc4fa7881bf94d243221578c704d3d4efe59f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 226120f9a0482cf70d86b2152df589f812aa8e14
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="export-account-schedules-to-asc-format"></a><span data-ttu-id="0a549-103">Exportar esquemas de cuentas a formato ASC</span><span class="sxs-lookup"><span data-stu-id="0a549-103">Export Account Schedules to ASC Format</span></span>

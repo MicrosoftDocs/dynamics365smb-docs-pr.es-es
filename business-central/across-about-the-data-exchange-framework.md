@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/18/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4b63e47d812f3a263848e1d7388b6ca7f7b3eb9f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 4c0fdd965f56f811ab9ce3346b3c408702df87bf
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="about-the-data-exchange-framework-in-included365finincludesd365finmdmd"></a><span data-ttu-id="97cf2-103">Acerca del marco de intercambio de datos en [!INCLUDE[d365fin](includes/d365fin_md.md)]</span><span class="sxs-lookup"><span data-stu-id="97cf2-103">About the Data Exchange Framework in [!INCLUDE[d365fin](includes/d365fin_md.md)]</span></span>
-<span data-ttu-id="97cf2-104">El formato de archivos para intercambio de datos en archivos bancarios, documentos electrónicos, tipos de cambio de divisa y otros con los sistemas ERP varía en función del proveedor del archivo de datos o de secuencia y el país o la región.</span><span class="sxs-lookup"><span data-stu-id="97cf2-104">The format of files for exchange of data in bank files, electronic documents, currency exchange rates, and other with ERP systems vary depending on the provider of the data file or stream and on the country/region.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="97cf2-105"> utiliza varios formatos de archivo bancario y estándares de servicio de datos.</span><span class="sxs-lookup"><span data-stu-id="97cf2-105"> supports various bank file formats and data service standards.</span></span> <span data-ttu-id="97cf2-106">Para proporcionar compatibilidad con otros formatos de documento electrónico, utilice el marco de intercambio de datos.</span><span class="sxs-lookup"><span data-stu-id="97cf2-106">To provide support for other electronic document formats, you use the data exchange framework.</span></span> <span data-ttu-id="97cf2-107">Para obtener más información, vea [Intercambio de datos electrónicamente](across-data-exchange.md).</span><span class="sxs-lookup"><span data-stu-id="97cf2-107">For more information, see [Exchanging Data Electronically](across-data-exchange.md).</span></span>    
+<span data-ttu-id="97cf2-104">El formato de archivos para intercambio de datos en archivos bancarios, documentos electrónicos, tipos de cambio de divisa y otros con los sistemas ERP varía en función del proveedor del archivo de datos o de secuencia y el país o la región.</span><span class="sxs-lookup"><span data-stu-id="97cf2-104">The format of files for exchange of data in bank files, electronic documents, currency exchange rates, and other with ERP systems vary depending on the provider of the data file or stream and on the country/region.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="97cf2-105">utiliza varios formatos de archivo bancario y estándares de servicio de datos.</span><span class="sxs-lookup"><span data-stu-id="97cf2-105"> supports various bank file formats and data service standards.</span></span> <span data-ttu-id="97cf2-106">Para proporcionar compatibilidad con otros formatos de documento electrónico, utilice el marco de intercambio de datos.</span><span class="sxs-lookup"><span data-stu-id="97cf2-106">To provide support for other electronic document formats, you use the data exchange framework.</span></span> <span data-ttu-id="97cf2-107">Para obtener más información, vea [Intercambio de datos electrónicamente](across-data-exchange.md).</span><span class="sxs-lookup"><span data-stu-id="97cf2-107">For more information, see [Exchanging Data Electronically](across-data-exchange.md).</span></span>    
 
  <span data-ttu-id="97cf2-108">En los diagramas siguientes se muestra la arquitectura del marco de intercambio de datos.</span><span class="sxs-lookup"><span data-stu-id="97cf2-108">The following diagrams show the architecture of the data exchange framework.</span></span>  
 

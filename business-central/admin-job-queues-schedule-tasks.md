@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/01/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: fae1b2937a3c06fc947dd3dbec529826322d035c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8f274fe153cb93c31148269aae994218bd0da497
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a><span data-ttu-id="98d3a-105">Uso de colas de proyectos para programar tareas</span><span class="sxs-lookup"><span data-stu-id="98d3a-105">Use Job Queues to Schedule Tasks</span></span>
@@ -25,7 +25,7 @@ ms.lasthandoff: 03/22/2018
 
 <span data-ttu-id="98d3a-115">Opcionalmente, puede establecer un filtro en el campo **Filtro categoría de la cola de proyecto**.</span><span class="sxs-lookup"><span data-stu-id="98d3a-115">Optionally, you can set a filter in the **Job Queue Category Filter** field.</span></span> <span data-ttu-id="98d3a-116">Las categorías de la cola de proyecto se pueden usar para agrupar proyectos en la lista.</span><span class="sxs-lookup"><span data-stu-id="98d3a-116">Job queue categories can be used to group jobs in the list.</span></span>
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="98d3a-117"> ejecutará automáticamente los proyectos según los calendarios especificados para cada entrada de cola de proyecto.</span><span class="sxs-lookup"><span data-stu-id="98d3a-117"> automatically runs the jobs according to the specified schedules for each job queue entry.</span></span> <span data-ttu-id="98d3a-118">También puede iniciar, detener y poner una entrada de cola de proyecto en espera manualmente.</span><span class="sxs-lookup"><span data-stu-id="98d3a-118">You can also start, stop, and put a job queue entry on hold manually.</span></span>
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="98d3a-117">ejecutará automáticamente los proyectos según los calendarios especificados para cada entrada de cola de proyecto.</span><span class="sxs-lookup"><span data-stu-id="98d3a-117"> automatically runs the jobs according to the specified schedules for each job queue entry.</span></span> <span data-ttu-id="98d3a-118">También puede iniciar, detener y poner una entrada de cola de proyecto en espera manualmente.</span><span class="sxs-lookup"><span data-stu-id="98d3a-118">You can also start, stop, and put a job queue entry on hold manually.</span></span>
 
 ### <a name="log-files"></a><span data-ttu-id="98d3a-119">Log Files</span><span class="sxs-lookup"><span data-stu-id="98d3a-119">Log Files</span></span>
 <span data-ttu-id="98d3a-120">Los errores se muestran en la ventana **Registro de entradas de cola proyecto** a la que se accede de la cinta.</span><span class="sxs-lookup"><span data-stu-id="98d3a-120">Errors are listed in the **Job Queue Log Entries** window that you can access from the ribbon.</span></span> <span data-ttu-id="98d3a-121">También puede solucionar errores de la cola de proyectos.</span><span class="sxs-lookup"><span data-stu-id="98d3a-121">You can also troubleshoot job queue errors.</span></span> <span data-ttu-id="98d3a-122">Los datos generados al ejecutar una cola de proyectos se almacenan en la base de datos.</span><span class="sxs-lookup"><span data-stu-id="98d3a-122">Data that is generated when a job queue is run is stored in the database.</span></span>  
@@ -35,7 +35,7 @@ ms.lasthandoff: 03/22/2018
 
  <span data-ttu-id="98d3a-127">Alternativamente, puede que desee programar registros para horas en que resulta adecuado para su organización.</span><span class="sxs-lookup"><span data-stu-id="98d3a-127">Alternatively, you may want to schedule postings for hours when it is convenient for your organization.</span></span> <span data-ttu-id="98d3a-128">Por ejemplo, para su empresa puede ser útil ejecutar ciertas rutinas cuando la mayor parte de la introducción de datos del día ha concluido.</span><span class="sxs-lookup"><span data-stu-id="98d3a-128">For example, it may make sense in your business to run certain routines when most of the data entry for the day has concluded.</span></span> <span data-ttu-id="98d3a-129">Para hacerlo, configure la cola de trabajos para que ejecute varios informes de registro por lotes, como el **Reg. lotes pedidos venta**, el **Reg. lotes facturas ventas** y el **Reg. lotes abonos venta**.</span><span class="sxs-lookup"><span data-stu-id="98d3a-129">You can achieve this by setting the job queue up to run various batch post reports, such as the **Batch Post Sales Orders**, **Batch Post Sales Invoices**, and **Batch Post Sales Credit Memos** reports.</span></span>  
 
- [!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="98d3a-130"> admite el registro en segundo plano para los siguientes tipos de documento:</span><span class="sxs-lookup"><span data-stu-id="98d3a-130"> supports background posting for the following document types:</span></span>  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="98d3a-130">admite el registro en segundo plano para los siguientes tipos de documento:</span><span class="sxs-lookup"><span data-stu-id="98d3a-130"> supports background posting for the following document types:</span></span>  
 
 -   <span data-ttu-id="98d3a-131">Venta: pedido de venta, pedido de devolución, nota de crédito, factura</span><span class="sxs-lookup"><span data-stu-id="98d3a-131">Sales: sales order, return order, credit memo, invoice</span></span>  
 
