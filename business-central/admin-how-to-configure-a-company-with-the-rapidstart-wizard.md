@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/06/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 264788142ab4f2a84df3e1c9da6e39503a7e820f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 27b50b9471c8dccb7da8750bbd57e34774ff6115
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>Configurar una empresa con el asistente de RapidStart
@@ -41,7 +41,7 @@ En el procedimiento siguiente, proporcionó al cliente el paquete de configuraci
     >  Solo cambie el Área de trabajo después de haber completado la configuración de la empresa. Si hay detalles de configuración adicionales que deben tenerse en cuenta o modificar, el primero use la hoja de trabajo de configuración para continuar con el trabajo. A continuación, vuelva al asistente para actualizar el perfil de Área de trabajo o elija la acción **Completar configuración**.
 
 7. Elija el botón **Aceptar**.  
-8. Para comprobar que la información de configuración se ha aplicado a la nueva empresa, elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Información empresa** y seleccione el vínculo relacionado.
+8. Para comprobar que la información de configuración se ha aplicado a la nueva empresa, elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Información empresa** y seleccione el vínculo relacionado.
 
 La ventana **Información empresa** contiene la información especificada.   
 

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/16/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 1f84075772f4862d762c9bf2179614f357fd4ca0
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8a04784a354a3f44c3a12c75d16ebc166e7a8c47
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="restructure-warehouses"></a>Reestructurar almacenes
@@ -29,11 +29,11 @@ Es posible que desee volver a estructurar el almacén con nuevos códigos y cara
 Si el almacén está configurado para utilizar ubicaciones, pero no ubicación y picking directos, reestructure el almacén creando las nuevas ubicaciones que desee usar en el futuro.  
 
 ## <a name="to-restructure-a-basic-warehouse-that-uses-bins-only"></a>Para reestructurar un almacén básico que utilice sólo las ubicaciones  
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Almacenes** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Ubicaciones** y luego elija el enlace relacionado.  
 2.  En la ficha desplegable **Almacén**, establezca el campo **Selección ubic. por defecto** en **Última ubic. utiliz.**  
 3.  Mueva todo el contenido de sus ubicaciones actuales a las nuevas ubicaciones que acaba de crear.  
 
-    1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diario reclasificación producto** y, a continuación, seleccione el vínculo relacionado.  
+    1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diario reclasif. producto** y luego elija el enlace relacionado.  
     2.  Seleccione una línea de diario y elija **Traer conten. ubicac.**  
     3.  En la ficha desplegable **Contenido ubicación**, defina los filtros en los campos **Cód. almacén**, **Cód. ubicación** y **Nº producto** para especificar el contenido que desea mover.  
     4.  Elija el botón **Aceptar** para rellenar una línea del diario.  
@@ -48,13 +48,13 @@ Ahora habrá vaciado las ubicaciones donde solían estar los artículos. Las ubi
 1.  Cree las nuevas ubicaciones que desea utilizar en el futuro. Para obtener más información, consulte [Crear ubicaciones](warehouse-how-to-create-individual-bins.md).  
 2.  Mueva todo el contenido de sus ubicaciones actuales a las nuevas ubicaciones que acaba de crear.  
 
-    1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diario reclasificación almacén** y, a continuación, seleccione el vínculo relacionado.  
+    1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diario reclasif. almacén** y luego elija el enlace relacionado.  
     2.  En las ubicaciones donde no exista un movimiento de productos real, cree una línea para cada una de ellas en el **Diario reclasificación almacén** con el código de ubicación anterior, **Desde cód. ubicación**, y el nuevo código de ubicación, **Hasta cód. ubicación**.  
     3.  Si algunos movimientos afectan a movimientos físicos reales que desea que ejecuten los empleados, utilice las **hojas de trabajo de movimiento** para preparar instrucciones de movimiento en vez de utilizar el diario de reclasificación de almacén. Para obtener más información, consulte [Mover los artículos en las configuraciones avanzadas de almacén](warehouse-how-to-move-items-in-advanced-warehousing.md).  
 
 3.  Cuando se hayan vaciado las ubicaciones antiguas, reclasifíquelas como ubicaciones de tipo **QC** para asegurarse de que no están incluidos en los flujos del artículo.  
 
-    1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Almacenes** y, a continuación, seleccione el vínculo relacionado.  
+    1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Ubicaciones** y luego elija el enlace relacionado.  
     2.  Seleccione la línea con la ubicación y, a continuación, elija la acción **Ubicaciones**.  
     3.  En la ventana **Ubicaciones**, en el campo **Cód. tipo ubicación**, escriba **QC** para cada una de las ubicaciones antiguas que se vaciaron en el paso 3 del procedimiento anterior.  
 
@@ -62,7 +62,7 @@ Ahora ha quitado las ubicaciones del flujo de almacén y las ha reclasificado co
 
 ## <a name="to-delete-a-bin"></a>Para eliminar una ubicación  
 
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Almacenes** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Ubicaciones** y luego elija el enlace relacionado.  
 2.  Seleccione el almacén que desea que elimine ubicaciones. Elija la acción **Ubicaciones**.  
 3.  Seleccione las líneas de las ubicaciones que desee eliminar.  
 4.  Elija la acción **Eliminar**.  
@@ -73,7 +73,7 @@ Si desea cambiar el nombre de una ubicación para que también cambie el nombre 
 
 ## <a name="to-rename-a-bin-and-change-the-bin-code-in-all-records"></a>Para cambiar el nombre de una ubicación y el código de ubicación en todos los registros  
 
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Almacenes** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Ubicaciones** y luego elija el enlace relacionado.  
 2.  Seleccione la ubicación donde desee cambiar el nombre o el código de ubicación y elija la acción **Ubicaciones**.  
 3.  Seleccione la ubicación que desee cambiar e introduzca un nuevo código de ubicación en el campo **Código**.  
 4.  Elija el botón **Sí**.  

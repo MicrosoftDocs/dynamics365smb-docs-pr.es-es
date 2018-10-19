@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 07/09/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7664360941313da6ea0b797ef00df2e9810ad62
-ms.openlocfilehash: 0baa6494bb9d41514122b06037020140a8c2c79f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e3c0dfdc1eb1739a1d756fcb359c99e51ceec1e7
 ms.contentlocale: es-es
-ms.lasthandoff: 07/09/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="customizing-business-central-using-extensions"></a>Personalizar Business Central con extensiones
@@ -25,7 +25,7 @@ Cuando inicia [!INCLUDE[d365fin](includes/d365fin_md.md)] por primera vez, ya es
 Por ejemplo, Microsoft ofrece una extensión que proporciona integración con PayPal Payments Standard. Esta extensión se instala por omisión.
 Pero si está disponible otra extensión que ofrece integración con otro servicio de pago, puede instalar la nueva extensión y seleccionar cuál de los dos servicios quiere usar.  
 
-Puede administrar las extensiones en la ventana **Administración de extensiones**. Puede acceder a esta ventana desde la página Inicio. También puede elegir el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe") en la esquina superior derecha, especificar **Tablas amortización** y elegir el vínculo relacionado.  
+Puede administrar las extensiones en la ventana **Administración de extensiones**. Puede acceder a esta ventana desde la página Inicio. De forma alternativa, seleccione el icono **Buscar página o informe** ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer") en la esquina superior derecha, escriba **Extensión** y, a continuación, seleccione el enlace relacionado.  
 
 > [!NOTE]  
 >   Si cree que debería tener acceso a una extensión pero no encuentra la funcionalidad, consulte la ventana **Administración de extensiones**; si la extensión no aparece, puede instalarla tal como se describe en la sección siguiente.  
@@ -35,11 +35,11 @@ Puede obtener nuevas extensiones disponibles en el mercado en [AppSource.microso
 > [!NOTE]  
 >   Inicie sesión en [AppSource.microsoft.com](https://appsource.microsoft.com/) con la cuenta de correo electrónico que usa para [!INCLUDE[d365fin](includes/d365fin_md.md)]. Use la misma cuenta de correo para otros servicios y productos para disfrutar de una experiencia agilizada.  
 
-También puede ir al mercado de aplicaciones desde [!INCLUDE[d365fin](includes/d365fin_md.md)]. En la ventana **Gestión de extensiones**, puede ver las extensiones que están instaladas actualmente y puede abrir la página del **Mercado de extensiones** que muestra todas las extensiones para [!INCLUDE[d365fin](includes/d365fin_md.md)] que están disponibles actualmente en AppSource. Si elige el vínculo *Más aplicaciones* se le redireccionará a [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).  
+También puede ir al mercado de aplicaciones desde [!INCLUDE[d365fin](includes/d365fin_md.md)]. En la ventana **Gestión de extensiones**, puede ver las extensiones que están instaladas actualmente y puede abrir la ventana del **Mercado de extensiones** que muestra todas las extensiones para [!INCLUDE[d365fin](includes/d365fin_md.md)] que están disponibles actualmente en AppSource. Si elige el vínculo *Más aplicaciones* se le redireccionará a [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).  
 
 Si selecciona una extensión, puede consultar las funciones de la extensión y acceder al sitio de ayuda de la extensión para obtener más información. Cuando elige una extensión debe aceptar las condiciones de uso. Si obtiene la extensión del sitio web de AppSource, se requerirá el inicio de sesión en [!INCLUDE[d365fin](includes/d365fin_md.md)] para completar la instalación.  
 
-Al instalar una extensión, es posible que tenga que configurarla, por ejemplo, especificar una cuenta para usar con la extensión **Estándar de pagos de PayPal para [!INCLUDE[d365fin](includes/d365fin_md.md)]**.
+Al instalar una extensión, es posible que tenga que configurarla, por ejemplo, especificar una cuenta para usar con la extensión **Paypal Payments Standard para [!INCLUDE[d365fin](includes/d365fin_md.md)]**.
 Otras extensiones simplemente agregan campos a una página existente o agregan una página nueva, por ejemplo.   
 
 Si desinstala una extensión y cambia de idea, puede volver a instalarla. Al desinstalar una extensión que ha estado usando, los datos se guardan para que se vuelve a instalar la extensión estén disponibles.  
@@ -56,7 +56,7 @@ Microsoft proporciona las extensiones siguientes:
 * [Previsión de ventas e inventario](ui-extensions-sales-forecast.md)  
 * [Nóminas de Ceridian](ui-extensions-ceridian-payroll.md)  
 * [Importación del archivo de nómina de QuickBooks](ui-extensions-quickbooks-payroll.md)  
-* [Estándar de pagos de WorldPay](ui-extensions-worldpay-payments-standard.md)  
+* [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)  
 * [Códigos postales de Reino Unido de GetAddress.io](ui-extensions-getaddressio.md)  
 * [Migración de datos de QuickBooks Online](ui-extensions-quickbooks-online-data-migration.md)  
 * [Portal para contadores](ui-extensions-accountant-portal.md)  
@@ -64,6 +64,7 @@ Microsoft proporciona las extensiones siguientes:
 * [Pagos y conciliaciones de pagos (DK)](ui-extensions-payments-reconciliation-formats-dk.md)  
 * [Migración de datos C5](ui-extensions-c5-data-migration.md)  
 * [Información de la empresa esencial](ui-extensions-essential-business-insights.md)  
+* [Predicciones de pago atrasado](ui-extensions-late-payment-prediction.md  )
 
 > [!NOTE]  
 >  Las nuevas extensiones no están disponibles en AppSource inmediatamente después anunciar una actualización. Puede estar atento a las extensiones en [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9dfee6403b451dc728c0fe37c0a5fff77d8133f6
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ab76136c7f28e322bbc3b52a0fec354c6c13f3ff
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Tutorial: Configuración y facturación de prepagos de ventas
@@ -64,7 +64,7 @@ Los prepagos son pagos que se facturan y registran en un pedido de prepago de ve
 En los siguientes procedimientos, se describe cómo realizar las tareas de Felisa:  
 
 #### <a name="to-set-up-number-series-for-prepayments"></a>Para configurar series numéricas para prepagos  
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Conf. ventas y cobros** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración ventas y cobros** y luego elija el enlace relacionado.  
 2.  En la ventana **Conf. ventas y cobros**, amplíe la ficha desplegable **Numeración**.  
 3.  Verifique que la serie numérica de las facturas de prepago registradas en el campo **Nº fact. prepago registrada** sea la misma que para las facturas de venta registradas (**Nº serie fact. registrada**) y que la serie numérica para abonos de prepago registrados (**Nº abono prepago registrado**) sea la misma que para los abonos registrados (**Nº serie abono registrado**).  
 
@@ -78,11 +78,11 @@ Felisa exige que al cliente 20000 se le facture un prepago del 30% en todos los 
 Felisa requiere que a todos los clientes se les facture un depósito del 20% para el producto 1100. El cliente 20000 tiene un mal historial de prepagos, por lo que requiere un prepago del 40% para el cliente 20000 para el producto 1100. En el procedimiento siguiente se ilustra el modo de configurar los porcentajes de prepago predeterminados.  
 
 #### <a name="to-assign-default-prepayment-percentages-to-customers-and-items"></a>Para asignar porcentajes de prepago predeterminados a clientes y productos  
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Clientes** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Clientes** y luego elija el enlace relacionado.  
 2.  Abra la ventana de la ficha del cliente 20000 (Sellafrio).
 3.  En el campo **% prepago**, escriba **30**.  
 4.  Elija el botón **Aceptar** para cerrar la ficha de cliente.  
-5.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Productos** y, a continuación, seleccione el vínculo relacionado.  
+5.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Productos** y luego elija el enlace relacionado.  
 6.  Abrir la ficha para el cliente 1100.
 7.  Seleccione la acción **Porcentajes prepago**.  
 8.  Rellene dos líneas en la ventana **Porcentajes prepago ventas** como sigue.  
@@ -98,7 +98,7 @@ Felisa requiere que a todos los clientes se les facture un depósito del 20% par
 9. Cierre todas las ventanas.  
 
 #### <a name="to-specify-an-account-for-sales-prepayments-in-general-posting-setup"></a>Para especificar una cuenta para los prepagos de ventas en la configuración del registro general  
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), introduzca **Configuración grupos contables** y, a continuación, elija el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración de registro general** y luego elija el enlace relacionado.  
 2.  Seleccione la línea donde el campo de **General neg. grupo contable** se establece en **EXPORTAR**, y el campo **General producción. grupo contable** se establece en **MERCADERÍA** y, a continuación, seleccione **Editar**.  
 3.  En la ventana de **Ficha grupos contabilización**, en el campo **Cuenta prepago ventas**, especifique la cuenta correspondiente.  
 4.  Elija el botón **Aceptar**.  
@@ -111,7 +111,7 @@ El cliente solicita poder pagar el 35%, con lo que Susana está de acuerdo. Por 
 Susana crea la factura de prepago y la envía al cliente.  
 
 #### <a name="to-create-a-sales-order-with-a-prepayment"></a>Para crear un pedido de venta con prepago  
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Pedidos de venta** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Nuevo**.  
 3.  En el campo **Venta a-N.º cliente**, seleccione **20000**.  
 5.  Acepte el la advertencia de saldo pendiente que se muestra.  
@@ -173,7 +173,7 @@ El cliente paga el importe de prepago y Andrés, que trabaja en el departamento 
 
 #### <a name="to-apply-a-payment-to-the-prepayment-invoices"></a>Para aplicar un pago a las facturas de prepago  
 
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diarios de recibos de efectivo** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diarios de recibos de efectivo** y luego elija el enlace relacionado.  
 2.  Rellene una línea de diario con la siguiente información.  
 
     |Nombre del campo|Introduzca|  
@@ -202,7 +202,7 @@ Se ha notificado a Andrés que los productos del pedido se han enviado y que el 
 
 Andrés puede ver el historial para verificar que la factura de venta fue creada tal como se previó.  
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Facturas de ventas registradas** y, a continuación, elija el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Histórico facturas venta** y luego elija el enlace relacionado.  
 
 ## <a name="next-steps"></a>Pasos siguientes  
 En este tutorial, ha visto los pasos necesarios para configurar [!INCLUDE[d365fin](includes/d365fin_md.md)] para gestionar prepagos. Ha configurado los porcentajes de prepago predeterminados en clientes y productos, y también ha utilizado distintos métodos para calcular los prepagos de un pedido. Ha tratado de asignar un importe de prepago total al pedido y ha calculado el importe de prepago como un porcentaje del pedido completo.  

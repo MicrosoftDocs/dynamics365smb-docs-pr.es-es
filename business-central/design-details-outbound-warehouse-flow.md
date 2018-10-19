@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2f84b46027aa04b50de2a8d4573ce4633fd59fcf
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 068ed0057b6c12beebfa35951b6c1ffbd6ac556b
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Detalles de diseño: Flujo de salida del almacén
@@ -47,8 +47,6 @@ Además, existen los siguientes documentos de origen internos que funcionan como
 |C|Registro de picking y envío desde un documento de envío de almacén|||X|5/4/6|  
 |D|Registro de picking desde un documento de picking de almacén y registro de envío de un documento de envío de almacén||X|X|5/4/6|  
 
- Para obtener más información, consulte [Detalles de diseño: Flujo de salida del almacén]().  
-
  La selección de un planteamiento depende de las prácticas aceptadas de la empresa y del nivel de su complejidad organizativa. En un entorno de pedido por pedido con procesos directos y estructura simple de ubicación, resulta apropiado el método A, selección y envío desde la línea de pedido. En otras empresas de pedido por pedido donde los productos para una línea de pedido pueden proceder de más de una ubicación o donde los trabajadores del almacén no pueden trabajar con documentos de pedido, es adecuado usar documentos de selección aparte, método B. En los casos de empresas donde los procesos de selección y envío implican una gestión de pedidos múltiples y por tanto requieren un mayor control y supervisión, la empresa puede optar por utilizar un documento de envío de almacén y un documento de selección de almacén para separar las tareas de selección y envío, métodos C y D.  
 
  En los métodos A, B y C, las acciones de selección y envío se agrupan en un paso al registrar el documento correspondiente como enviado. En el método D, primero se registra la selección y después se registra el envío más adelante desde otro documento.  
@@ -56,7 +54,7 @@ Además, existen los siguientes documentos de origen internos que funcionan como
 ## <a name="basic-warehouse-configurations"></a>Configuración básica de almacén  
  En el diagrama siguiente se ilustran los flujos de almacén de salida por tipo de documento en la configuración básica de almacén. Los números del diagrama corresponden a los pasos de las secciones que siguen el diagrama.  
 
- ![Flujo de salida en la configuración básica de almacén](media/design_details_warehouse_management_outbound_basic_flow.png "design_details_warehouse_management_outbound_basic_flow")  
+ ![Flujo de salida en la configuración básica de almacén](media/design_details_warehouse_management_outbound_basic_flow.png "Flujo de salida en la configuración básica de almacén")  
 
 ### <a name="1-release-source-document--create-inventory-pick-or-movement"></a>1: Lanzar documento de origen/Crear selección o movimiento de inventario  
  Cuando un usuario responsable de los documentos de origen, como un procesador de pedidos de venta o un planificador de producción, está preparado para la actividad de almacén salida, lanza el documento de origen para señalizar a los empleados de almacén que los productos o componentes vendidos se pueden preparar y colocar en las ubicaciones especificadas. Además, el usuario crea documentos de picking o de movimiento de inventario para las líneas de pedido individuales, mediante envío, basándose en las ubicaciones y cantidades especificadas para manipular.  
@@ -78,7 +76,7 @@ Además, existen los siguientes documentos de origen internos que funcionan como
 ## <a name="advanced-warehouse-configurations"></a>Configuración avanzada de almacén  
  En el diagrama siguiente se ilustran los flujos de almacén de salida por tipo de documento en la configuración avanzada de almacén. Los números del diagrama corresponden a los pasos de las secciones que siguen el diagrama.  
 
- ![Flujo de salida en la configuración avanzada de almacén](media/design_details_warehouse_management_outbound_advanced_flow.png "design_details_warehouse_management_outbound_advanced_flow")  
+ ![Flujo de salida en la configuración avanzada de almacén](media/design_details_warehouse_management_outbound_advanced_flow.png "Flujo de salida en la configuración avanzada de almacén")  
 
 ### <a name="1-release-source-document"></a>1: Lanzar documento de origen  
  Cuando un usuario responsable de los documentos de origen, como un procesador de pedidos de venta o un planificador de producción, está preparado para la actividad de almacén de salida, lanza el documento de origen para señalizar a los empleados de almacén que los productos o componentes vendidos se pueden preparar y colocar en las ubicaciones especificadas.  

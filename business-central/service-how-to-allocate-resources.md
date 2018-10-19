@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 5360e9d25b463673e2a1b033b9f8564d0f483301
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 67f4e18a8a6de3d2be4c7bbe580da1091f75e82b
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -28,7 +28,7 @@ Puede asignar el mismo recurso, por ejemplo, un técnico, o grupo de recursos a 
 ## <a name="to-see-an-overview-of-service-orders-and-service-quotes"></a>Para ver un resumen de las ofertas o los pedidos de servicio  
 A menudo puede que necesite ver la lista de pedidos de servicio u ofertas de servicio que cumplen determinados requisitos para poder realizar acciones específicas con ellas una a una. Por ejemplo, puede que tenga que asignar recursos a pedidos de servicio que pertenecen a un cliente específico.  
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Panel despacho** y, a continuación, seleccione el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Panel despacho** y luego elija el enlace relacionado.  
 2. En el campo **Filtro documento**, elija el tipo de los documentos que desea ver.
 3. Para obtener una lista de documentos que contienen tareas de servicio asignadas a un determinado recurso o grupo de recursos, rellene los campos **Filtro recurso** y **Filtro grupo** recurso y presione Entrar.  
 4. Para obtener una lista de documentos con una fecha de respuesta determinada o con fechas de respuesta en un determinado periodo, rellene el campo **Filtro fecha respuesta** y presione **Entrar**.  
@@ -36,10 +36,10 @@ A menudo puede que necesite ver la lista de pedidos de servicio u ofertas de ser
 6. Para obtener una lista de documentos que pertenecen a una zona, cliente o contrato determinado, rellene el campo **Filtro contrato o Filtro cliente o Filtro zona** y presione **Entrar**.  
 7. Seleccione una línea que corresponda a un pedido de servicio o una oferta de servicio y seleccione la acción **Mostrar documento**.  
 
-    Se abrirá la página **Pedido de servicio** u **Oferta servicio** y podrá trabajar con el documento. Para volver a la página **Panel despacho**, elija **Aceptar**.
+    Se abrirá la ventana **Pedido de servicio** u **Oferta servicio** y podrá trabajar con el documento. Para volver a la ventana **Panel despacho**, elija **Aceptar**.
 
 ## <a name="to-allocate-a-resource-using-resource-or-resource-group-availability"></a>Para asignar un recurso mediante disponibilidad de grupo de recursos o grupos de recursos    
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Panel despacho** y, a continuación, seleccione el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Panel despacho** y elija el enlace relacionado.  
 2. Elija la orden de servicio y, a continuación, elija la acción **Asignaciones recurso**.  
 3. Elija el movimiento que contenga la tarea de servicio a la que desea asignar un recurso.  
 4. Seleccione la acción **Disponibilidad recurso** o **Disponibilidad fam. recurso**.  
@@ -59,7 +59,7 @@ A menudo puede que necesite ver la lista de pedidos de servicio u ofertas de ser
 ## <a name="to-allocate-a-resource-using-a-service-order"></a>Para asignar un recurso mediante un pedido de servicio  
 Después de crear y rellenar un pedido de servicio o una oferta de servicio, puede asignar recursos (por ejemplo, técnicos) para realizar tareas de servicio registradas como líneas de producto de servicio en el documento.  
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Pedidos servicio** y, a continuación, seleccione el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos servicio** y luego elija el enlace relacionado.  
 2. Elija la orden de servicio y, a continuación, **Editar**.  
 3. Elija la línea de producto de servicio correspondiente a la tarea de servicio a la que desea asignar un recurso.  
 4. Elija **Asignaciones recurso**.
@@ -79,7 +79,7 @@ Puede reasignar recursos directamente desde un pedido u oferta de servicio cuand
 * Si no se inició el servicio mientras la asignación estaba **Activa**, el estado de asignación cambia de **Reasignación necesaria** a **Cancelado**.  
 * Si reasigna un pedido de servicio convertido de una oferta, el estado de los movimientos de asignación registrados para la oferta siempre cambia a **Terminado** cuando se reasignan los productos de servicio del pedido de servicio.  
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Pedidos servicio** y, a continuación, seleccione el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos servicio** y luego elija el enlace relacionado.  
 2. Abra el pedido servicio que corresponda.  
 3. Seleccione la línea de producto de servicio correspondiente a la tarea de servicio a la que desea asignar un recurso.  Elija **Acciones**, seleccione **Línea** y, a continuación, elija **Asignaciones recurso**.  
 4. En la ventana **Asignaciones recurso**, seleccione un movimiento de asignación con la tarea de servicio que a la cual desea reasignar el recurso. En el campo **Nº recurso**, seleccione el recurso correspondiente. Esta acción sobrescribe el número de recurso que anteriormente figuraba en el campo.  
@@ -89,7 +89,7 @@ Puede reasignar recursos directamente desde un pedido u oferta de servicio cuand
 ## <a name="to-reallocate-a-resource-using-the-dispatch-board"></a>Para reasignar un recurso con el panel despacho  
 Si el recurso asignado a una tarea de servicio no puede realizar el trabajo, la tarea de servicio debe reasignarse. Normalmente, se reasignan recursos a una tarea de servicio mediante el **Panel despacho**.  
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Panel despacho** y, a continuación, seleccione el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Panel despacho** y luego elija el enlace relacionado.  
 2. En el campo **Filtro asignación**, seleccione **Reasignación necesaria**. La ventana **Panel despacho** ahora muestra la lista de los pedidos de servicio que incluyen tareas de servicio que deben reasignarse.  
 3. Seleccione el pedido de servicio correspondiente. En la pestaña **Navegar**, en el grupo **Planificación**, elija **Asignaciones recurso**. Se abrirá la ventana **Asignaciones recurso**.  
 4. Seleccione el movimiento de asignación con la tarea de servicio que desea reasignar a un recurso.  
@@ -111,7 +111,7 @@ Puede utilizar el mismo procedimiento para registrar las horas en la ventana **L
 
 Si el mismo recurso trabaja en todos los productos de servicio del pedido de servicio, puede registrar el total de horas de recursos para un solo producto de servicio y, a continuación, dividir la línea de recurso para asignar las horas de recursos a los otros productos de servicio.
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Tareas de servicio** y, a continuación, seleccione el vínculo relacionado.
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Tareas de servicio** y luego elija el enlace relacionado.
 2. Elija la línea que contiene el producto de servicio en cuestión y, a continuación, elija la acción **Hoja de producto**.  
 3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -120,7 +120,7 @@ Si el mismo recurso, por ejemplo, un técnico, trabaja en todos los productos de
 
 El siguiente procedimiento muestra cómo dividir líneas de recurso en la ventana **Líneas factura servicio**.  
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Pedidos servicio** y, a continuación, seleccione el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos servicio** y luego elija el enlace relacionado.  
 2. Abra el pedido servicio que corresponda.  
 3. En la ficha desplegable **Líneas**, seleccione **Acciones**, elija **Pedido** y, a continuación, **Líneas servicio**. Se abrirá la ventana **Líneas servicio**.  
 4. Seleccione la línea de recurso que desea dividir. Se divide el contenido del campo **Cantidad** entre todos los productos de servicio del pedido.  
@@ -131,7 +131,7 @@ El siguiente procedimiento muestra cómo dividir líneas de recurso en la ventan
 ## <a name="to-cancel-an-allocation"></a>Para cancelar una asignación  
 Puede cancelar las asignaciones de recursos para las tareas de servicio sin reasignar las tareas.  
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Panel despacho** y, a continuación, seleccione el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Panel despacho** y luego elija el enlace relacionado.  
 2. Elija la orden de servicio y, a continuación, elija la acción **Asignaciones recurso**.  
 3. Seleccione el movimiento de asignación que contiene la tarea de servicio para la que desea cancelar la asignación.  
 4. Seleccione la acción **Cancelar asignaciones**.  

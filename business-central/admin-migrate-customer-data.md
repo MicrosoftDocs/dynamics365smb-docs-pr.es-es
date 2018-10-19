@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/07/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ce50ff8213e85a8343a93eb80bbbc381eaa8e350
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0a1a2a100fbbd0d21c3934802b624e370592bd9e
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="migrate-customer-data"></a>Migrar datos del cliente
@@ -40,7 +40,7 @@ Antes de empezar, compruebe que se encuentra en la página Área de trabajo del 
 > Tampoco se importarán las tablas que tengan diferentes claves principales ni los campos que tengan distintos tipos de datos. Por ejemplo, si el paquete de configuración incluye la tabla **50000 Cliente** que tiene la clave principal **Code20** y la base de datos a la que importa el paquete incluye la tabla **50000 Banco cliente** que tiene la clave principal **Code20 + Código 20**, no se importarán los datos.  
 
 1. Abra la nueva empresa.  
-2. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Paquetes de configuración** y, a continuación, seleccione el vínculo relacionado.  
+2. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Paquetes de configuración** y luego elija el enlace relacionado.  
 3. Elija la acción **Importar paquete**. Navegue hasta el archivo del paquete .rapidstart que desea importar y luego elija la acción **Abrir**. Durante la importación, se descomprimen los contenidos del paquete y se crea el registro del paquete.  
 
     Cuando la importación esté completada, puede ver el número de tablas de configuración que se han importado en el campo **Nº de tablas**.  
@@ -57,7 +57,7 @@ Si la selección de tablas no cubre sus necesidades, puede crear uno o varios nu
 ## <a name="to-create-a-data-migration-file"></a>Para crear un archivo de migración de datos
 Puede crear nuevos archivos de migración de datos y personalizarlos para satisfacer las necesidades de su negocio. Tenga en cuenta que un archivo solo se puede utilizar para migrar un campo que tenga su propiedad **FieldClass** establecida en **Normal**.  
 
-1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Paquete de configuración** y, a continuación, seleccione el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Paquete de configuración** y luego elija el enlace relacionado.  
 2. Seleccione y abra el paquete que desea utilizar para migrar datos y después seleccione **Obtener tablas**. Se abre la ventana **Traer tabla de paquete**.  
 3. En el campo **TableID**, introduzca un número de tabla o seleccione una tabla de la lista, por ejemplo, la tabla 18, **Cliente**. El campo **Nombre de tabla** se rellena automáticamente.  
 4. Seleccione la nueva tabla de la migración y, a continuación, en la pestaña **Tablas**, elija la acción **Campos**. Se abre la ventana **Campos migración**.  
@@ -73,7 +73,7 @@ Se creará una nueva tabla de migración.
 ## <a name="to-export-data-migration-files"></a>Para exportar archivos de migración
 Cuando haya determinado las tablas a las que desea transferir datos de cliente, debe exportar los archivos.  
 
-1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Paquetes de configuración** y, a continuación, seleccione el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Paquetes de configuración** y luego elija el enlace relacionado.  
 2. Seleccione y abra el paquete que desee usar para la exportación.
 3. Seleccione la tabla o tablas que desea exportar y después seleccione **Exportar a Excel**.
 4. Guarde el archivo Excel exportado.  
@@ -94,7 +94,7 @@ Cuando liquide datos que ha importado desde Excel o desde un paquete RapidStart,
 
 En los siguientes procedimientos, debe revisar por adelantado los valores que desea que se retengan durante el proceso de migración. Para realizar los procedimientos siguientes, necesitará los archivos de migración de datos (.xlsx) que haya exportado desde [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, consulte la sección "Para exportar archivos de migración".
 
-1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Paquetes de configuración** y, a continuación, seleccione el vínculo relacionado.
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Paquetes de configuración** y luego elija el enlace relacionado.
 2. Abra el paquete de la empresa en cuestión.  
 3. Seleccione la tabla a la que desee asignar valores y en la pestaña **Tablas**, elija la acción **Campos**.  
 4. Para cada campo que desee asignar, elija la acción **Asignación**.  
@@ -112,7 +112,7 @@ El ejemplo siguiente ilustra cómo implementa [!INCLUDE[d365fin](includes/d365fi
 3. Cuando se aplican datos, la asignación proporcionada en el campo **Código** de la tabla **Vendedor/Comprador** también se tendrá en cuenta al procesar los campos **Código de vendedor** y **Código de comprador**.
 
 ## <a name="to-add-additional-values-to-included365finincludesd365finmdmd"></a>Para agregar valores adicionales a [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Paquetes de configuración** y, a continuación, seleccione el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Paquetes de configuración** y luego elija el enlace relacionado.  
 2. Seleccione la tabla a la que desee asignar valores adicionales y en la pestaña **Tablas**, elija la acción **Campos**.  
 3. Para los campos para los que desea que [!INCLUDE[d365fin](includes/d365fin_md.md)] permita valores adicionales durante la migración, seleccione la casilla **Crear códigos que faltan**.  
 4. Importe los datos del cliente. Para obtener más información, consulte la sección "Para importar datos del cliente".

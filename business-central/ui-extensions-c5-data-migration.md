@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
-ms.date: 04/09/208
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: fa6779ee8fb2bbb453014e32cb7f3cf8dcfa18da
-ms.openlocfilehash: 698bde6949c6053501881d07135586810fc81bdd
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: a10c05116e97cdf000bd46258a9d67f4c9910c90
 ms.contentlocale: es-es
-ms.lasthandoff: 04/11/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
-# <a name="the-c5-data-migration-extension-for-business-central"></a>Extensión de la migración de datos de C5 para Business Central
+# <a name="the-c5-data-migration-extension"></a>Extensión de migración de datos de C5
 Esta extensión facilita la migración de clientes, proveedores, productos y las cuentas de contabilidad de Microsoft Dynamics C5 2012 a [!INCLUDE[d365fin](includes/d365fin_md.md)]. También puede migrar los movimientos históricos para cuentas de contabilidad.
 
 > [!Note]
@@ -30,6 +30,7 @@ Esta extensión facilita la migración de clientes, proveedores, productos y las
 Se migran los datos siguientes para cada entidad:
 
 **Clientes**
+* Contactos  
 * Lugar
 * País
 * Dimensiones de cliente (departamento, centro, propósito)
@@ -47,6 +48,7 @@ Si migra cuentas, los datos siguientes también se migrarán:
 * Transacciones abiertas (movimientos de cliente)
 
 **Proveedores**
+* Contactos
 * Lugar
 * País
 * Dimensiones de proveedor (departamento, centro, propósito)
@@ -75,6 +77,7 @@ Si migra cuentas, los datos siguientes también se migrarán:
 * Unidades de medida
 * Código seguimiento producto
 * Grupo precio cliente
+* L.M. de ensamblado
 
 Si migra cuentas, los datos siguientes también se migrarán:
 
@@ -97,32 +100,34 @@ Si migra cuentas, los datos siguientes también se migrarán:
 Deben realizarse algunos para exportar datos de la C5 e importarlos a [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
 
 1. En la C5, utilice la función **Base de datos de exportación** para exportar los datos. Envíe la carpeta de exportación a una carpeta comprimida.  
-2. En [!INCLUDE[d365fin](includes/d365fin_md.md)], seleccione el ícono ![Buscar página o informe](media/ui-search/search_small.png "Buscar página o informe"), introduzca **Migración de datos** y, a continuación, seleccione **Migración de datos**.  
+2. En [!INCLUDE[d365fin](includes/d365fin_md.md)], elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Migración de datos** y luego elija **Migración de datos**.  
 3. Complete los pasos de la guía de configuración asistida. Asegúrese de elegir **Importar de Microsoft Dynamcis C5 2012** como origen de datos.  
 
 > [!Note]
 > Las empresas a menudo agregan campos para personalizar la C5 para su línea de negocio específica. [!INCLUDE[d365fin](includes/d365fin_md.md)] no migra datos de campos personalizados. Además, la migración dará error si tiene más de 10 campos personalizados.
 
 ## <a name="viewing-the-status-of-the-migration"></a>Ver el estado de la migración
-Utilice la página **Información general sobre migración de datos** para controlar el éxito de la migración. La página muestra información como el número de entidades que la migración incluirá, el estado de la migración, el número de elementos que se han migrado y si lo han hecho correctamente. También muestra la cantidad de errores, lo que le permite investigar qué salió mal y, cuando es posible, facilita ir a la entidad para solucionar los problemas. Para obtener más información, consulte la siguiente sección de este tema.  
+Utilice la ventana **Información general sobre migración de datos** para controlar el éxito de la migración. La página muestra información como el número de entidades que la migración incluirá, el estado de la migración, el número de elementos que se han migrado y si lo han hecho correctamente. También muestra la cantidad de errores, lo que le permite investigar qué salió mal y, cuando es posible, facilita ir a la entidad para solucionar los problemas. Para obtener más información, consulte la siguiente sección de este tema.  
 
 > [!Note]
 > Mientras espera los resultados de la migración, debe actualizar la página para mostrarlos.
 
 ## <a name="how-to-avoid-double-posting"></a>Cómo evitar el doble registro
 Para ayudar a evitar el registro doble en la contabilidad, se utilizan las siguientes cuentas de saldo para las transacciones abiertas:  
-  
+
 * Para los proveedores, usamos la cuenta de A/P del grupo de publicación del proveedor.  
 * Para los clientes, usamos la cuenta de A/R del grupo de publicación del cliente.  
 * Para los elementos, creamos una configuración general de contabilización donde la cuenta de ajuste es la cuenta especificada como cuenta de inventario en la configuración de contabilización del inventario.  
 
 ## <a name="correcting-errors"></a>Corrección de errores
-Si algo sale mal y se produce un error, el campo **Estado** mostrará **Completado con errores** y el campo **Recuento de errores** mostrará cuántos. Para ver una lista de los errores, puede abrir la página **Errores de migración de datos** si elige:  
+Si algo sale mal y se produce un error, el campo **Estado** mostrará **Completado con errores** y el campo **Recuento de errores** mostrará cuántos. Para ver una lista de los errores, puede abrir la ventana **Errores de migración de datos** si elige:  
 
 * El número en el campo **Recuento de errores** de la entidad.  
 * La entidad y la acción **Mostrar errores**.  
 
-En la página **Errores de migración de datos**, para corregir un error puede elegir un mensaje de error y seleccionar **Editar registro** para abrir una página que muestre los datos migrados de la entidad. Después de corregir uno o más errores, puede elegir **Migrar** para migrar solo las entidades que reparó, sin tener que reiniciar por completo la migración.  
+En la ventana **Errores de migración de datos**, para corregir un error puede elegir un mensaje de error y seleccionar **Editar registro** para ver los datos migrados de la entidad. Si tiene varios errores a corregir, puede elegir **Corrección masiva de errores** para modificar las entidades de una lista. Aún así, debe abrir registros individuales si el error lo causó una entrada relacionada. Por ejemplo, un proveedor no se migrará si una dirección de correo electrónico a uno de sus contactos tiene un formato no válido.
+
+Después de corregir uno o más errores, puede elegir **Migrar** para migrar solo las entidades que reparó, sin tener que reiniciar por completo la migración.  
 
 > [!Tip]
 > Si ha solucionado más de un error, puede usar la función **Seleccionar más** para seleccionar varias líneas para migrar. De forma alternativa, si hay errores que no son importantes para solucionar, puede elegirlos y seleccionar **Omitir selecciones**.
@@ -145,5 +150,5 @@ Puede detener la migración de datos con la opción **Detener todas las migracio
 
 ## <a name="see-also"></a>Consulte también
 [Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones](ui-extensions.md)  
-[Introducción](product-get-started.md) 
+[Introducción](product-get-started.md)
 

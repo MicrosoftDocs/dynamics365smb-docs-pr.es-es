@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/05/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7feaa0e41cf5800ffd51d5807a90f6929492804e
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e26174fcf723e13ef5a9ed0b386006c0439e1c7a
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-custom-company-configuration-packages"></a>Crear paquetes de configuración de empresa personalizados
@@ -37,9 +37,9 @@ Otro método sería crear un paquete que incluya las tablas que definen la confi
 -   Configuración de almacén  
 -   Configuración grupos contables  
 -   Config. grupos registro IVA  
--   Config. contab. inventario  
+-   Config. registro inventario  
 
-Para ver una lista completa de las tablas de configuración, elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), introduzca **Configuración** y elija el vínculo relacionado.  
+Para ver una lista completa de tablas de configuración, elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración** y luego elija el enlace relacionado.  
 
 ## <a name="to-create-a-custom-company-configuration-package"></a>Crear un paquete de configuración de empresa personalizado  
 1.  Cree un nuevo [!INCLUDE[d365fin](includes/d365fin_md.md)] ***NO ES POSIBLE Enlazar para ayudar a "Crear un suscriptor nuevo"***.   

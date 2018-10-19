@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/16/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2f836cbceb3bd7580c3cbc48315a040e8338748b
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f14191eb0a7b7564f5079a53bd90dfc39f176326
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-reports-with-xbrl"></a>Crear informes con XBRL
@@ -66,7 +66,7 @@ Después de importar o actualizar la taxonomía, las líneas de los esquema debe
 
 Configure las líneas XBRL asignando los datos de la texto a sus datos contables.  
 
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Taxonomías XBRL** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Taxonomías XBRL** y luego elija el enlace relacionado.  
 2.  En la ventana **Taxonomías XBRL**, seleccione una taxonomía de la lista.  
 3.  Seleccione la acción **Líneas**.  
 4.  Seleccione una línea y rellene los campos.   
@@ -83,7 +83,7 @@ Configure las líneas XBRL asignando los datos de la texto a sus datos contables
  ## <a name="to-import-an-xbrl-taxonomy"></a>Para importar taxonomías XBRL  
 El primer paso para trabajar con la funcionalidad XBRL es importar la taxonomía en la base de datos de la empresa. Una taxonomía se compone de uno o varios esquemas y algunas bases de enlaces. Una vez haya completado la importación de los esquemas y las bases de enlaces y haya aplicado las bases de enlaces linkbases a los esquemas, puede configurar las líneas y asignar las cuentas contables del pan de cuentas a las líneas apropiadas de la taxonomía.  
 
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Taxonomías XBRL** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Taxonomías XBRL** y luego elija el enlace relacionado.  
 2.  En la ventana **Taxonomías XBRL**, cree una línea nueva y escriba el nombre y la descripción de la taxonomía.  
 3.  Elija la acción **Esquemas** y, a continuación, inserte la descripción del esquema.  
 4.  Para importar el esquema, en la ventana **Esquemas XBRL**, elija la acción **Importar** y seleccione una carpeta y un archivo XSD. Elija el botón **Abrir**.  
@@ -97,7 +97,7 @@ El primer paso para trabajar con la funcionalidad XBRL es importar la taxonomía
 ## <a name="to-update-an-xbrl-taxonomy"></a>Para actualizar una taxonomía XBRL  
 Cuando una taxonomía cambie, también tiene que actualizar la taxonomía actual. La razón para la actualización puede ser un cambio en el esquema, un cambio en la base de enlaces o una nueva base de enlaces. Después de actualizar la taxonomía, sólo tiene que asignar las líneas de las líneas nuevas o modificadas.  
 
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Taxonomías XBRL** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Taxonomías XBRL** y luego elija el enlace relacionado.  
 2.  En la ventana **Taxonomías XBRL**, seleccione la acción **Esquemas**.  
 3.  Para actualizar un esquema, seleccione el esquema que desea actualizar y elija la acción **Importar**.  
 4.  Para actualizar o agregar una base de enlaces nueva, elija la acción **Bases de enlaces**.  

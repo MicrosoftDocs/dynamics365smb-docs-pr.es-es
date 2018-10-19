@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/22/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: babe5bef3f0afac595b9e63276c8ce196d167f98
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: c426e8cb53833fd521f4ecad7def166534b0befe
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-tracing-serial-lot-numbers"></a>Tutorial: seguimiento de números de serie-lote
@@ -71,7 +71,7 @@ A continuación, deberá crear diversas transacciones de compra, producción y v
 
 ### <a name="to-create-the-items"></a>Para crear los productos  
 
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Productos** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Productos** y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Nuevo**.  
 3.  En el campo **N.º**, escriba **2000** y rellene los siguientes campos.  
 
@@ -107,7 +107,7 @@ A continuación, deberá crear diversas transacciones de compra, producción y v
     A continuación, debe comprar cuadros de bicicletas de Custom Metals Incorporated.  
 
 ### <a name="to-purchase-components"></a>Para comprar componentes  
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Pedidos de compra** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos compra** y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Nuevo**.  
 3.  Cree un pedido de compra para el proveedor, Custom Metals Incorporated, rellenando los campos de línea siguientes.  
 
@@ -121,7 +121,7 @@ A continuación, deberá crear diversas transacciones de compra, producción y v
 7.  Seleccione la acción **Registrar**, elija la opción **Recibir y facturar** y seleccione el botón **Aceptar**.  
 
     A continuación, compre cuadros de bicicletas de Coolwood Technologies.  
-8.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Pedidos de compra** y, a continuación, seleccione el vínculo relacionado.  
+8.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos compra** y luego elija el enlace relacionado.  
 9. Seleccione la acción **Nuevo**.
 10. Cree un pedido de compra para el proveedor, Coolwood Technologies, rellenando los siguientes campos de línea.  
 
@@ -137,7 +137,7 @@ A continuación, deberá crear diversas transacciones de compra, producción y v
     A continuación, fabrique dos bicicletas de carreras, NS1 y NS2.  
 
 ### <a name="to-produce-end-items"></a>Para producir los productos finales  
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **O.P. Lanzadas** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **O.P. Lanzadas** y luego elija el enlace relacionado.  
 2.  Seleccione el grupo **Nuevo**.  
 3.  Cree una nueva orden de producción lanzada rellenando los campos siguientes.  
 
@@ -158,7 +158,7 @@ A continuación, deberá crear diversas transacciones de compra, producción y v
 
     A continuación, fabrique dos bicicletas de carreras, NS1 y NS2.  
 
-11. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **O.P. Lanzadas** y, a continuación, seleccione el vínculo relacionado.  
+11. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **O.P. Lanzadas** y luego elija el enlace relacionado.  
 12. Seleccione la acción **Nuevo**.  
 13. Cree una nueva orden de producción lanzada rellenando los campos siguientes en la cabecera.  
 
@@ -183,7 +183,7 @@ A continuación, deberá crear diversas transacciones de compra, producción y v
     A continuación, venda bicicletas de carreras. Primero venda la bicicleta de carreras con NS1 a Selangorian Ltd.  
 
 ### <a name="to-sell-the-end-items"></a>Para vender los productos finales  
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Pedidos de venta** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.  
 2.  Elija la acción **Nuevo** y, a continuación, cree un pedido de venta rellenando los campos siguientes.  
 
     |Cliente|Producto|Cdad.|Nº serie|  
@@ -195,7 +195,7 @@ A continuación, deberá crear diversas transacciones de compra, producción y v
 
     A continuación, venda la bicicleta de carreras con NS2 al Cannon Group PLC.  
 
-5.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Pedidos de venta** y, a continuación, seleccione el vínculo relacionado.  
+5.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.  
 6.  Elija la acción **Nuevo** y, a continuación, cree un pedido de venta rellenando los campos siguientes.  
 
     |Cliente|Producto|Cdad.|Nº serie|  
@@ -207,7 +207,7 @@ A continuación, deberá crear diversas transacciones de compra, producción y v
 
     Finalmente, venda algunos cuadros de bicicleta por separado. GDE Distribución S.A. también pide cuatro marcos de bicicletas independientes para su propia línea de montaje.  
 
-9. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Pedidos de venta** y, a continuación, seleccione el vínculo relacionado.  
+9. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.  
 10. Elija la acción **Nuevo** y, a continuación, cree un pedido de venta rellenando los campos siguientes.  
 
     |Cliente|Producto|Cdad.|Nº serie|  
@@ -225,7 +225,7 @@ A continuación, deberá crear diversas transacciones de compra, producción y v
  En el departamento de ventas, el controlador de calidad averigua que la bicicleta de carrera devuelta, producto 1002, tiene el número de serie NS1. Con esta información básica, puede determinar dónde se utilizó por última vez la bicicleta de carreras terminada, en este caso, en el albarán de venta a Selangorian Ltd. A continuación, el controlador de calidad debe realizar un seguimiento hasta llegar al origen para establecer de qué número de lote procedía el cuadro de carreras defectuoso y qué proveedor lo suministró.  
 
 ### <a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a>Para determinar qué lote incluía el cuadro defectuoso y quién lo suministró  
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Seguimiento productos** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Seguimiento productos** y luego elija el enlace relacionado.  
 2.  En la ventana **Seguimiento productos**, escriba **NS1** en el campo **Filtro nº serie** y, a continuación, **1002** en el campo **Filtro producto**.  
 3.  Conserve la configuración predeterminada de **Sólo producto seguido** en el campo **Mostrar componentes** y conserve el método de seguimiento predeterminado de **Uso - Origen** en **Método seguimiento**.  
 4.  Seleccione la acción **Realizar seguimiento**.  

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 19d7e142ebe10926b2caa6da2ddf6faae486bebd
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 25a2017fd91f09a9d7725c68ffaa0df48a041294
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-handling-projected-negative-inventory"></a>Detalles de diseño: Gestión de inventario negativo proyectado
@@ -28,28 +28,20 @@ El punto de pedido expresa la demanda prevista durante el plazo del producto. Cu
 
  En la ilustración siguiente, el aprovisionamiento D representa un pedido de emergencia que ajustar para inventario negativo.  
 
- ![](media/nav_app_supply_planning_2_negative_inventory.png "NAV_APP_supply_planning_2_negative_inventory")  
+ ![Sugerencia de planificación de emergencia para evitar inventario negativo](media/nav_app_supply_planning_2_negative_inventory.png "Sugerencia de planificación de emergencia para evitar inventario negativo")  
 
 1.  El suministro **A**, inventario proyectado inicial, está por debajo del punto de pedido.  
-
 2.  Se ha creado un nuevo aprovisionamiento programación de forma anticipada (**C**).  
 
      (Cantidad = Inventario máximo – Nivel de inventario proyectado)  
-
 3.  El suministro **A** está cerrado por la demanda **B**, que no se cubre por completo.  
 
      (La demanda **B** podría intentar programar el aprovisionamiento C, pero esto no sucederá según el concepto de ciclo).  
-
 4.  Se crea un nuevo suministro (**D**) para cubrir la cantidad restante de la demanda **B**.  
-
 5.  La demanda **B** está cerrada (creando un aviso al inventario proyectado).  
-
 6.  Se cierra el nuevo suministro **D**.  
-
 7.  Se ha comprobado el inventario proyectado; no se ha superado el punto de pedido.  
-
 8.  El suministro **C** está cerrado (no hay más demanda).  
-
 9. Comprobación final: que no queden avisos pendientes en el nivel de inventario.  
 
 > [!NOTE]  

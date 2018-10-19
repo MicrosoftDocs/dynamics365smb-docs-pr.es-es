@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 12/21/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 0af01fe46f6b7df1149825c35a9fc0cc19482403
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 3d4c111af62db5858b81b76f9f51a9093c01e5e6
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-multiple-interest-rates"></a>Configurar varios tipos de interés.
@@ -25,11 +25,11 @@ Las tasas de interés múltiples se utilizan para diferentes períodos de pagos 
 Cuando cree los términos de interés y los términos de recordatorio, para la penalización por pago atrasado, puede especificar múltiples tasas de interés para que la penalización se calcule a partir de diferentes tasas de interés en diferentes períodos. Para obtener más información, vea [Cobrar saldos pendientes](receivables-collect-outstanding-balances.md).
 
 ## <a name="to-set-up-multiple-interest-rates"></a>Configurar varios tipos de interés  
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Términos interés** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Términos de interés** y luego elija el enlace relacionado.  
 2.  En la ventana **Términos interés**, seleccione el término requerido de interés y después seleccione la acción **Tipos de interés**.  
 3.  Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Elija el botón **Aceptar**.  
-5.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Recordatorio** y, a continuación, seleccione el vínculo relacionado.  
+5.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Términos recordatorio** y luego elija el enlace relacionado.  
 6.  En la ventana **Términos recordatorio**, seleccione el término recordatorio requerido y después seleccione la acción **Niveles**.  
 7.  En la ventana **Niveles recordatorio**, seleccione el campo **Cálculo interés**.  
 

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: cab6546e152ad91c1b3264fa8bd10c0fd668636d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 9c442957947b2c7a0abc730db824ddbcb29708d6
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-workflows"></a>Crear flujos de trabajo
@@ -32,7 +32,7 @@ Si su escenario empresarial necesita eventos de flujo de trabajo o respuestas qu
 >  Todas las notificaciones sobre pasos de flujo de trabajo se envían a través de una cola de proyectos. Asegúrese de que la cola de proyectos en la instalación está configurada para gestionar las notificaciones de flujo de trabajo, así como que la casilla **Iniciar automáticamente desde NAS** esté seleccionada. Para obtener más información, consulte [Uso de colas de proyectos para programar tareas](admin-job-queues-schedule-tasks.md).  
 
 ## <a name="to-create-a-workflow"></a>Para crear un flujo de trabajo  
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Flujos de trabajo** y, a continuación, seleccione el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Flujos de trabajo** y luego elija el enlace relacionado.  
 2. Seleccione la acción **Nuevo**. Se abre la ventana **Flujo de trabajo**.  
 3. En el campo **Código**, introduzca un máximo de 20 caracteres para identificar el flujo de trabajo.  
 4. Para crear el flujo de trabajo desde una plantilla, en la ventana **Flujos de trabajo**, seleccione la acción **Crear flujo de trabajo desde plantilla**. Para obtener más información, consulte [Crear flujos de trabajo a partir de plantillas de flujo de trabajo](across-how-to-create-workflows-from-workflow-templates.md).  
@@ -91,7 +91,7 @@ Si su escenario empresarial necesita eventos de flujo de trabajo o respuestas qu
 >  No habilite un flujo de trabajo hasta que esté seguro de que el flujo de trabajo esté completado y que los pasos del flujo de trabajo relacionado puedan comenzar.  
 
 > [!TIP]  
->  Para ver las relaciones entre las tablas que se utilizan en los flujos de trabajo, seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe") y, a continuación, introduzca **Flujo de trabajo: relaciones de tabla**.  
+>  Para ver las relaciones entre las tablas que se utilizan en los flujos de trabajo elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") e introduzca **Flujo de trabajo: relaciones de tabla**.  
 
 ## <a name="see-also"></a>Consulte también  
 [Crear flujos de trabajo a partir de plantillas de flujo de trabajo](across-how-to-create-workflows-from-workflow-templates.md)   

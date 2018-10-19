@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cancel, undo, correct
-ms.date: 08/03/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f961382ec80d4b7371c79df9e2b397cb7aea8b72
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 2833a18275e396a04f78b5707d885bfbd5946218
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Procesamiento de devoluciones de compra o cancelaciones
@@ -50,7 +50,7 @@ Para asignar manualmente la reversión del coste exacto, debe elegir el campo **
 Para obtener más información, consulte [Detalles de diseño: valoración de inventario](design-details-inventory-costing.md).
 
 ## <a name="to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice"></a>Para crear un nuevo abono de compra desde una factura de compra registrada.
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Histórico facturas compra** y, a continuación, seleccione el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Histórico facturas compra** y luego elija el enlace relacionado.  
 2. En la ventana **Facturas de compra registradas**, seleccione la factura de compra que desea revertir y, a continuación, seleccione la acción **Crear abono correctivo**.
 
     La mayoría de los campos de la cabecera de abono de compra se rellenan con la información de la factura de compra registrada. Puede modificar todos los campos, por ejemplo, mediante la nueva información que indica el contrato de devolución.
@@ -70,7 +70,7 @@ Las facturas de compra registradas a las que se aplica el abono ahora están rev
 El abono de compra se ha eliminado y remplazado por un nuevo documento de la lista de abonos de compra registrados.
 
 ## <a name="to-create-a-purchase-credit-memo-by-copying-a-posted-purchase-invoice"></a>Crear un nuevo abono de compra copiando una factura de compra registrada.
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Abonos de compra** y, a continuación, seleccione el vínculo relacionado.
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Abonos de compra** y luego elija el enlace relacionado.
 2. Seleccione la acción **Nuevo** para abrir un abono de compras vacío.
 3. En el campo **Proveedor**, escriba el nombre de un proveedor existente.
 4. Elija la acción **Copiar documento**.
@@ -81,7 +81,7 @@ El abono de compra se ha eliminado y remplazado por un nuevo documento de la lis
 9. Complete el abono de compra como se explica en la sección "Para crear un abono de compra de una factura de compras registrada" en este tema.
 
 ## <a name="to-create-a-purchase-return-order-based-on-one-or-more-a-posted-purchase-documents"></a>Crear un pedido de devolución de compras basado en uno o más documentos de compras registrados
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Pedidos de devolución de compra** y, a continuación, seleccione el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos devolución compra** y luego elija el enlace relacionado.  
 2. Seleccione la acción **Nuevo**.  
 3. Rellen los campos de la ficha desplegable **General**.
 4. En la ficha desplegable **Líneas**, rellene las líneas manualmente o copie la información de otros documentos para rellenar las líneas automáticamente:
@@ -141,7 +141,7 @@ Si los productos que recibe del proveedor no son satisfactorios, como cuando est
 
 Puede registrar este coste reducido de compra como un cargo de producto en un abono o pedido de devolución, y vincularlo al albarán registrado. A continuación se describe esto para un pedido de devolución de compra, pero los mismos pasos se aplican a un abono de copra.
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Abonos de compra** y, a continuación, seleccione el vínculo relacionado.
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Abonos de compra** y luego elija el enlace relacionado.
 2. Seleccione la acción **Nuevo** para abrir un abono de compras vacío.  
 3.  Rellene la cabecera de abono con información acerca del proveedor que le envió la deducción de compra.  
 4. Seleccione **Cargo (prod.)** en el campo **Tipo** de la ficha desplegable **Líneas**.  
@@ -166,7 +166,7 @@ Cuando se combinan envíos devueltos en un abono y se registran, se crea un abon
 > [!NOTE]  
 > El procedimiento siguiente supone que hay varios pedidos de devolución de compra para el proveedor y que están registrados como enviados.     
 
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Abonos de compra** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Abonos de compra** y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Nuevo**.  
 3. En la ficha desplegable **General**, rellene los campos como sea necesario.  
 4. Elija la acción **Traer líns. envío dev.**.  
@@ -177,7 +177,7 @@ Cuando se combinan envíos devueltos en un abono y se registran, se crea un abon
 
 ### <a name="to-remove-open-purchase-return-orders-after-combined-return-shipment-posting"></a>Para eliminar pedidos de devolución de compra abiertos después del registro del envío de devolución  
 
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Eliminar dev. compras fact...** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Eliminar pedidos de devolución de compra facturados** y luego elija el enlace relacionado.  
 2.  Rellene los campos según sea necesario y, a continuación, haga clic en el botón **Aceptar**.  
 3.  También puede eliminar los pedidos de devolución de compra individuales manualmente.
 

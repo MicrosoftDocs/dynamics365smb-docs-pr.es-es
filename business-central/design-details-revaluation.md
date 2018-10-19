@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bfd49fac19f2dfc09d77855cba21f39d4c9858e5
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e7afa7b3a13db29207237cd4980ba7f061b38f9e
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-revaluation"></a>Detalles de diseño: Revalorización
@@ -41,7 +41,7 @@ Dado que la operación de revalorización se puede realizar en cualquier fecha, 
 ### <a name="example"></a>Ejemplo  
 En el ejemplo siguiente se ilustra cuándo forman parte del inventario las transiciones de producto de trabajo en curso. El ejemplo se basa en la producción de una cadena con 150 eslabones.  
 
-![Inventario WIP y revalorización](media/design_details_inventory_costing_10_revaluation_wip.png "design_details_inventory_costing_10_revaluation_WIP")  
+![Inventario WIP y revalorización](media/design_details_inventory_costing_10_revaluation_wip.png "Inventario WIP y revalorización")  
 
 **1T**: el usuario registra vínculos de comprados según se reciben. En la tabla siguiente se muestra el movimiento de producto resultante.  
 

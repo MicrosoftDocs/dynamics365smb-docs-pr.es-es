@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/14/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3f99d23f2e4a43aeb1face2f39dd6384ff672214
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0f1800674e6f5561dc48eadde132f56b06500f98
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="reserve-items"></a>Reservar artículos
@@ -26,7 +26,7 @@ Cada línea de la ventana **Reservas**, que se abre para reservar productos, mue
 
 ## <a name="to-reserve-items-for-sales"></a>Para reservar productos para venta
 A continuación se describe cómo reservar productos de un pedido de venta. Los pasos son similares para pedidos de compra, de servicio y de ensambado.  
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Pedidos de venta** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.  
 2.  En la ficha desplegable **Líneas** de un pedido de venta, elija la acción **Reservar**. Se abre la ventana **Reservas**.  
 3. Seleccione la línea de la que desea reservar los productos.  
 4. Elija una de las siguientes acciones.  
@@ -44,7 +44,7 @@ A continuación se describe cómo reservar productos de un pedido de venta. Los 
 Puede reservar productos para órdenes de producción. Tiene que distinguir entre las líneas de la orden de producción, que implica el producto principal, y los componentes de la misma.
 
 En el siguiente procedimiento, se utiliza una orden de producción planificada en firme.   
-1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), especifique **Orden produc. planif. en firme** y elija el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer") escriba **O.P. Planificadas en firme** y luego elija el enlace relacionado.  
 2. Abra la orden de producción planificada en firme para la que desee reservar productos principales.  
 3. Seleccione la línea de la orden de producción pertinente.  
 4. En la ficha desplegable **Líneas**, seleccione la acción **Reservar**,
@@ -56,7 +56,7 @@ Ahora se reserva la cantidad introducida en la línea de la orden de producción
 Puede reservar productos para órdenes de producción. Tiene que distinguir entre las líneas de la orden de producción, que implica el producto principal, y los componentes de la misma.
 
 En el siguiente procedimiento, se utiliza una orden de producción planificada en firme.    
-1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), especifique **Orden produc. planif. en firme** y elija el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer") escriba **O.P. Planificadas en firme** y luego elija el enlace relacionado.  
 2. Abra la orden de producción planificada en firme para la que desee reservar componentes.  
 3. Seleccione la línea de la orden de producción pertinente.  
 4. En la ficha desplegable **Líneas**, elija **Línea** y luego seleccione **Componentes**.  
@@ -86,7 +86,7 @@ De los documentos de salida para los productos marcados para seguimiento, como p
 Esto se denomina reserva específica, porque se reserva de la cantidad de producto X que pertenece al lote X. Si simplemente reserva de las cantidades de producto X, es una reserva normal, no específica. Para obtener más información, consulte [Detalles de diseño: Seguimiento de productos y reservas](design-details-item-tracking-and-reservations.md).
 
 El procedimiento siguiente se basa en un pedido de venta.    
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Pedidos de venta** y, a continuación, seleccione el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos de venta** y luego seleccione el enlace relacionado.  
 2. Cree una línea de pedido de venta para un producto marcado para seguimiento.  
 3. Asigne números de serie y de lote a la línea de pedido de venta. Para obtener más información, consulte [Trabajar con números de serie y de lote](inventory-how-work-item-tracking.md).
 4. En la línea del pedido de ventas, seleccione la acción **Reservar**.  

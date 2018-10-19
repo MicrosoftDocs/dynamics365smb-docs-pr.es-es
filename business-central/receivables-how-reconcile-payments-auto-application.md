@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 05/17/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: 4a22150d1fd0afa296cd10cf3d9e4315107f20b7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8ef6ef563fd34471c4e82398ffa8c1d4e49c5a59
 ms.contentlocale: es-es
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="reconcile-payments-using-automatic-application"></a>Conciliar los pagos con liquidación automática
@@ -43,7 +43,7 @@ Para cada línea de diario en la ventana **Diario de conciliación de pagos** po
 > Puede iniciar la importación de las transacciones bancarias al mismo tiempo que abre la ventana **Conciliación de pagos** para un diario de conciliación de pagos existente en la ventana **Diarios de conciliación de pago**. El procedimiento siguiente describe cómo importar transacciones bancarias a la ventana **Diario de conciliación de pagos** una vez creado un nuevo diario.
 
 ## <a name="to-reconcile-payments-using-automatic-application"></a>Para conciliar los pagos con liquidación automática
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diarios de conciliación de pagos** y, a continuación, seleccione el vínculo relacionado.
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diarios de conciliación de pagos** y luego elija el enlace relacionado.
 2. Para trabajar en un nuevo diario de conciliación de pago, seleccione la acción **Nuevo diario**.
 3. En la ventana **Lista cuentas bancarias pago**, seleccione la cuenta bancaria que desee conciliar los pagos y, a continuación, haga clic en **Aceptar**.
    La ventana **Diario de conciliación de pagos** abre una ventana preparada para la cuenta bancaria seleccionada.

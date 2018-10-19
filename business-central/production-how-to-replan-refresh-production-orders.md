@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 356c8e6d87fd54be3be376ec4320d3a9aa26d834
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 605de1d0acbbe345c3568fd4328d3e649feaef9f
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Replanificar o actualizar órdenes de producción directamente
@@ -35,7 +35,7 @@ Puede insertar las líneas de la orden de producción manualmente o utilizar la 
 > Si utiliza la función Actualizar para recalcular las líneas de orden de producción, se eliminan las líneas antiguas y se calculan las nuevas.  
 
 ## <a name="to-replan-a-production-order"></a>Para replanificar una orden de producción  
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **O.P. Planificadas en firme** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer") escriba **O.P. Planificadas en firme** y luego elija el enlace relacionado.  
 2.  Abra la orden de producción que desea replanificar.  
 3.  En la ficha desplegable **Líneas**, elija la acció **Líneas** y, a continuación **Componentes**.  
 4.  Agregue un componente que sea un producto fabricado o un producto semiterminado.  
@@ -65,7 +65,7 @@ Puede insertar las líneas de la orden de producción manualmente o utilizar la 
 ## <a name="to-refresh-a-production-order"></a>Para actualizar una orden de producción  
 Si ha modificado líneas de orden de producción, componentes o líneas de ruta, debe también actualizar la información en la orden de producción. En siguiente procedimiento, se calculan los componentes para una orden de producción planificada en firme. Los pasos son parecidos para las líneas de ruta.
 
-1.  Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), especifique **O.P. Planificada en firme** y elija el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer") escriba **O.P. Planificadas en firme** y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Nuevo**. Para obtener más información, consulte [Crear órdenes de producción](production-how-to-create-production-orders.md).  
 3.  Seleccione la acción **Actualizar**.
 4. En la ventana **Actualizar orden de producción**, seleccione una de las siguientes opciones:

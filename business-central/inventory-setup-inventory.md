@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 01/12/2018
+ms.date: 10/01/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 62eee7532e457721430cb31519b5acb23e95bfcb
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8e4033412560e8dc847397c4399e12985490bf78
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="setting-up-inventory"></a>Configurar inventario
@@ -31,7 +31,8 @@ Cuando haya configurado su inventario, puede gestionar varios procesos relaciona
 | Definir la configuración general de inventario, por ejemplo, las series numéricas y cómo utilizar los almacenes. |[Configurar información de inventario general](inventory-how-setup-general.md) |
 |Configure un modelo de distribución eficiente con una combinación de distintas ubicaciones y centros de responsabilidad asignados a empresas colaboradoras o empleados.|[Trabajar con centros de responsabilidad](inventory-responsibility-centers.md)|
 | Organizar su inventario en varios almacenes, incluidas las rutas de transferencia. |[Configurar ubicaciones](inventory-how-register-new-items.md) |
-| Crear fichas de los productos de inventario que comercialice. |[Registro de productos nuevos](inventory-how-register-new-items.md) |
+| Cree fichas de producto para los productos de inventario, de no inventario o servicio que comercialice. |[Registro de productos nuevos](inventory-how-register-new-items.md) |
+|Aprenda a completar el campo **Tipo** en las fichas de producto de acuerdo con el propósito comercial.|[Acerca de los tipos de productos](inventory-about-item-types.md)| 
 |Configure varias unidades de medida para un artículo que pueda usar como UOM alternativas, por ejemplo, en transacciones de ventas, compras o producción.|[Configurar unidades de medida de producto](inventory-how-setup-units-of-measure.md)|
 |Como suplemento de las fichas de producto, registre la información sobre los productos en un determinado almacén o de un código de variante en particular.|[Configurar unidades de almacenamiento](inventory-how-to-set-up-stockkeeping-units.md)|
 | Asigne productos a categorías y asígneles atributos como ayuda, tanto para usted como para los clientes, para buscar productos. |[Clasificar productos](inventory-how-categorize-items.md) |

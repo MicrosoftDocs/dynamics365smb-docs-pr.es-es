@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 07/05/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7664360941313da6ea0b797ef00df2e9810ad62
-ms.openlocfilehash: 566594f04a1b189fe2263a945d8bd7d565539930
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 4696fa95b82a0deb0ba9642ef796160f25a57afc
 ms.contentlocale: es-es
-ms.lasthandoff: 07/09/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="collect-outstanding-balances"></a>Cobrar saldos pendientes
@@ -49,7 +49,7 @@ Después de crear documentos de interés y de realizar las modificaciones necesa
 Cuando configura los términos de interés y los términos de recordatorio, para la penalización por pago atrasado, puede especificar múltiples tasas de interés para que la penalización se calcule a partir de diferentes tasas de interés en diferentes períodos. Si no se configuran los tipos múltiples de interés, se utilizará la tasa de interés y el período que se define en las ventanas de **Términos interés** y **Términos recordatorio** para el que se usará todo el período de cálculo. Para obtener más información, vea [Configurar tipos múltiples de interés](finance-how-to-set-up-multiple-interest-rates.md).  
 
 ## <a name="to-send-the-customer-statement-report"></a>Enviar el informe de extracto del cliente
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Extracto de cliente** y, a continuación, seleccione el vínculo relacionado.
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Extracto de cliente** y luego elija el enlace relacionado.
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. En **Opciones de salida**, seleccione cómo enviar el informe al cliente.
 
@@ -59,7 +59,7 @@ Cuando configura los términos de interés y los términos de recordatorio, para
 ## <a name="to-set-up-reminder-terms"></a>Para configurar los recordatorios
 Si los clientes tienen pagos vencidos, deberá decidir cómo y cuándo les enviará un recordatorio. Además, puede cargar en sus cuentas intereses o comisiones. Puede configurar un número ilimitado de recordatorios. Para cada código de términos de recordatorio, puede definir un número ilimitado de niveles de recordatorio.
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Recordatorio** y, a continuación, seleccione el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Términos recordatorio** y luego elija el enlace relacionado.  
 2. Rellene los campos según sea necesario.  
 3. Para utilizar más de una combinación de recordatorios, configure un código para cada uno.
 
@@ -68,7 +68,7 @@ La primera vez que se crear un recordatorio para un cliente, se utiliza la confi
 
 Si crea más recordatorios de aquellos para los que tenga niveles definidos, se utilizarán las condiciones para el nivel más alto. Puede crear tantos recordatorios como permita el campo **Nº máx. recordatorios** en los términos de recordatorio.
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Recordatorio** y, a continuación, seleccione el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Términos recordatorio** y luego elija el enlace relacionado.  
 2. En la ventana **Términos recordatorio**, seleccione la línea que incluya los términos para los que desea configurar niveles y, a continuación, elija la acción **Niveles**.  
 3. Rellene los campos según sea necesario.  
 
@@ -109,7 +109,7 @@ Una vez configurados los términos de recordatorio, con niveles y texto adiciona
 ## <a name="to-create-a-reminder-automatically"></a>Para crear un recordatorio automáticamente
 Los recordatorios son parecidos a las facturas. Cuando crea un recordatorio, debe rellenar una cabecera de recordatorio y una o varias líneas de recordatorio. Puede utilizar una función para crear recordatorios para todos los clientes de forma automática.
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Recordatorios** y, a continuación, seleccione el vínculo relacionado.
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Recordatorios** y luego elija el enlace relacionado.
 2. En la ventana **Recordatorio**, elija la acción **Crear recordatorios**.
 3. En la ventana **Crear recordatorios** , rellene los campos para definir cómo y para quién se crean los recordatorios.
 4. Elija el botón **Aceptar**.
@@ -117,7 +117,7 @@ Los recordatorios son parecidos a las facturas. Cuando crea un recordatorio, deb
 ## <a name="to-create-a-reminder-manually"></a>Para crear un recordatorio manualmente
 En la ventana **Recordatorio** , puede rellenar la ficha desplegable **General** manualmente y rellenar las líneas automáticamente.
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Recordatorios** y, a continuación, seleccione el vínculo relacionado.
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Recordatorios** y luego elija el enlace relacionado.
 2. Seleccione la acción **Nuevo**.
 3. En la ficha desplegable **General**, rellene los campos como sea necesario.
 4. Elija la acción **Proponer líneas recordatorio**.
@@ -132,7 +132,7 @@ En la ventana **Recordatorio** , puede rellenar la ficha desplegable **General**
 ## <a name="to-replace-reminder-texts"></a>Para cambiar los textos de recordatorio  
 Existen varias formas de definir el texto que aparecerá en el recordatorio impreso. In algunos casos, quizás le convenga cambiar los textos de comienzo o fin definidos para el nivel actual por los de otro nivel.
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Recordatorios** y, a continuación, seleccione el vínculo relacionado.
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Recordatorios** y luego elija el enlace relacionado.
 2. Abra el recordatorio correspondiente y haga clic en la acción **Actualizar texto recordatorio** .
 3. En la ventana **Actualizar texto recordatorio**, escriba el nivel deseado en el campo **Nivel recordatorio**.
 3. Elija el botón **Aceptar** para actualizar los textos de comienzo y fin.
@@ -154,7 +154,7 @@ Si las casillas **Registrar interés** o **Registrar recargo fijo** de la ventan
 
 Por otra parte, la emisión del recordatorio puede afectar a los movimientos de IVA.
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Recordatorios** y, a continuación, seleccione el vínculo relacionado.
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Recordatorios** y luego elija el enlace relacionado.
 2. Seleccione el recordatorio correspondiente y, a continuación, elija la acción **Emitir**.
 3. En la ventana **Emitir recordatorios**, rellene los campos según sea necesario.
 4. Elija el botón **Aceptar**.
@@ -178,7 +178,7 @@ Puede calcular los intereses utilizando el cálculo por días crédito o bien el
 
 Además, cada código de la tabla Términos interés está vinculado a la subtabla Texto interés. Por cada grupo de términos de interés, puede definir un texto inicial y/o final que se incluirán en el documento de interés.
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Términos interés** y, a continuación, seleccione el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Términos de interés** y luego elija el enlace relacionado.  
 2. Rellene los campos según sea necesario.  
 3. Para utilizar más de una combinación de términos interés, configure un código para cada uno.
 
@@ -208,7 +208,7 @@ Además, cada código de la tabla Términos interés está vinculado a la subtab
 ## <a name="to-create-a-finance-charge-memo-manually"></a>Para crear un documento de interés manualmente  
 Los documentos de interés son parecidos a las facturas. Puede rellenar la cabecera manualmente y que el sistema rellene las líneas, o bien crear los documentos de interés para todos los clientes de forma automática.
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Documentos interés** y, a continuación, seleccione el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Documentos de interés** y luego elija el enlace relacionado.  
 2. Elija la acción **Nuevo** y, a continuación, rellene los campos según sea necesario.  
 3. Elija la acción **Proponer líneas doc. interés**.
 4. En la ventana **Sugerir documentos financieros de interés**, establezca un filtro en la ficha desplegable **Movimientos contables de cliente** Si desea crear documentos financieros de interés sólo para determinados movimientos.  
@@ -217,7 +217,7 @@ Los documentos de interés son parecidos a las facturas. Puede rellenar la cabec
 ## <a name="to-update-finance-charge-memo-texts"></a>Para actualizar los textos en documentos de interés  
 En algunos casos, quizás le interese modificar el texto de comienzo y fin configurado para los recordatorios de interés. Si no hace esto en el momento de crear los documentos de interés aún sin emitir, puede actualizar los documentos con el texto modificado.
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Documento interés** y, a continuación, seleccione el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Documento de interés** y luego elija el enlace relacionado.  
 2. abra el documento de interés para el cual desea modificar el texto, y elija la acción **Actualizar texto interés** .
 3. En la ventana **Actualizar texto interés**, puede definir un filtro si desea actualizar varios documentos de interés.
 4. Elija el botón **Aceptar** para actualizar los textos de comienzo y fin.  
@@ -237,7 +237,7 @@ Si las casillas **Registrar interés** o **Registrar recargo fijo** de la ventan
 
 Por otra parte, la emisión del documento de interés puede afectar a los movimientos de IVA.
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Documentos interés** y, a continuación, seleccione el vínculo relacionado.
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Documentos de interés** y luego elija el enlace relacionado.
 2. Seleccione el documento correspondiente y, a continuación, elija la acción **Emitir**.
 3. En la ventana **Emitir docs. interés**, rellene los campos según sea necesario.
 4. Elija el botón **Aceptar**.
@@ -246,7 +246,7 @@ El documento de interés está impreso para enviarlo a un correo electrónico es
 
 ## <a name="to-view-reminder-and-finance-charge-entries"></a>Para ver los movimientos de recordatorio y de interés  
 Cuando se emite un recordatorio, se crea un movimiento de recordatorio en la ventana **Movs. recordatorio/interés** para cada línea de recordatorio que contenga un movimiento de cliente. Se puede obtener un resumen de los movimientos de recordatorio creados para un cliente específico.    
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Clientes** y, a continuación, seleccione el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Clientes** y luego elija el enlace relacionado.  
 2. Abra la ficha de cliente correspondiente y, a continuación, elija la acción **Movimientos**.
 3. En la ventana **Movs. cliente**, seleccione la línea que contenga el movimiento cuyos movimientos de recordatorio desea ver y, a continuación, elija la acción **Movs. recordatorio/interés.**
 

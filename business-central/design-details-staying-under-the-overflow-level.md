@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2fc2ef2528a1edc85c0a7694c1afc5bec7a0065a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e532893b1823ef84256403fb7bf5ef9fabd59f2e
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-staying-under-the-overflow-level"></a>Detalles de diseño: Mantenimiento por debajo de los niveles de desbordamiento
@@ -24,7 +24,7 @@ Cuando se usan políticas de cantidad máxima y cantidad fija, el sistema de pla
 
 *Atención: El inventario proyectado [xx] es superior al nivel de desbordamiento [xx] en la fecha de vencimiento [xx].*  
 
-![Nivel de desbordamiento de inventario](media/supplyplanning_2_overflow1_new.png "supplyplanning_2_overflow1_new")  
+![Nivel de desbordamiento de inventario](media/supplyplanning_2_overflow1_new.png "Nivel de desbordamiento de inventario")  
 
 ##  <a name="calculating-the-overflow-level"></a>Cálculo del nivel de desbordamiento  
 El nivel de desbordamiento se calcula de diferentes modos según la configuración de planificación.  
@@ -100,7 +100,7 @@ En este ejemplo, un cliente cambia un pedido de venta de 70 a 40 piezas entre do
 ### <a name="resulting-planning-lines"></a>Líneas de planificación resultantes  
  Se crea una línea de planificación (advertencia) para reducir la compra con 30 de 90 a 60 para mantener el inventario proyectado en 100 según el nivel de desbordamiento.  
 
-![Plan según el nivel de desbordamiento](media/nav_app_supply_planning_2_overflow2.png "nav_app_supply_planning_2_overflow2")  
+![Plan según el nivel de desbordamiento](media/nav_app_supply_planning_2_overflow2.png "Plan según el nivel de desbordamiento")  
 
 > [!NOTE]  
 >  Sin la característica de desbordamiento, no se crea ninguna advertencia si el nivel de inventario proyectado está por encima del inventario máximo. Esto podría provocar un suministro superfluo de 30.  

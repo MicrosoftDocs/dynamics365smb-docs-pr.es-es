@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7f90612764872875077de1dbe250b3d59582372f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 72b668ac5ecf2d6444be68b7c678f8a08bca9796
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-assembly-order-posting"></a>Detalles de diseño: Registro de pedidos de ensamblado
@@ -33,14 +33,14 @@ Los siguientes registros de diario se producen durante el registro de pedido de 
 
 En el diagrama siguiente se muestran la estructura del producto y los movimientos de recursos resultantes del registro de pedido de ensamblado.  
 
-![Costes de recursos y capacidad](media/design_details_assembly_posting_1.png "design_details_assembly_posting_1")  
+![Movimientos de producto, recurso y capacidad resultantes del registro de pedido de ensamblado](media/design_details_assembly_posting_1.png "Movimientos de producto, recurso y capacidad resultantes del registro de pedido de ensamblado")  
 
 > [!NOTE]  
 >  Se incluyen los centros de máquina y de trabajo para ilustrar que los movimientos de capacidad se crean a partir de la producción y del ensamblado.  
 
 En el diagrama siguiente se muestra cómo los datos del ensamblado fluyen en los movimientos durante el registro:  
 
-![Flujo de datos durante el registro](media/design_details_assembly_posting_2.png "design_details_assembly_posting_2")  
+![Flujo de movimiento relacionado con el ensamblado durante la publicación](media/design_details_assembly_posting_2.png "Flujo de movimiento relacionado con el ensamblado durante la publicación")  
 
 ## <a name="posting-sequence"></a>Secuencia de registro  
 El registro de un pedido de ensamblado se produce en el orden siguiente:  
@@ -71,7 +71,7 @@ La función de detección de nivel de pedido se usa en escenarios de conversión
 
 En el gráfico siguiente se muestra la estructura del movimiento de ajuste y cómo se ajustan los costes de ensamblado.  
 
-![Estructura del movimiento de ajuste](media/design_details_assembly_posting_3.png "design_details_assembly_posting_3")  
+![Flujo de movimiento relacionado con el ensamblado durante el ajuste de coste](media/design_details_assembly_posting_3.png "Flujo de movimiento relacionado con el ensamblado durante la publicación")  
 
 ### <a name="performing-the-adjustment"></a>Realizar el ajuste  
 La distribución de los ajustes detectados de la lista de materiales y los costes de recursos en los movimientos de salida de ensamblado se lleva a cabo mediante el proceso **Valorar stock - movs. producto**. Contiene la función para aplicar ajustes de multinivel, que consta de los dos elementos siguientes:  
@@ -79,7 +79,7 @@ La distribución de los ajustes detectados de la lista de materiales y los coste
 -   Realizar el ajuste de pedido de ensamblado, que desvía el coste de la utilización de materiales y de recursos al movimiento de salida de ensamblado. Las líneas 5 y 6 del algoritmo siguiente son las responsables.  
 -   Realizar los ajustes de nivel individual, que desvía los costes de los productos individuales mediante su valoración de existencias. Las líneas 9 y 10 del algoritmo siguiente son las responsables.  
 
-![Algoritmo del movimiento de ajuste](media/design_details_assembly_posting_4.jpg "design_details_assembly_posting_4")  
+![Resumen del algoritmo de ajuste de costes del registro de montaje](media/design_details_assembly_posting_4.jpg "Resumen del algoritmo de ajuste de costes del registro de montaje")  
 
 > [!NOTE]  
 >  El elemento Realizar ajustes de trabajo en curso, en las líneas 7 y 8, es responsable de enviar el material de producción y el uso de capacidad a la salida de las órdenes de producción finalizar. No se usa al ajustar los costes del pedido de ensamblado ya que el concepto de trabajo en curso no aplica al ensamblado.  

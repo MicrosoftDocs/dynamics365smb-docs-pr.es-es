@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 05/09/2018
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: 38f42e4d44dd38fe70816035711e00561fd9e777
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0371e226de78c8c3894b47e5bebaf0aaf422666c
 ms.contentlocale: es-es
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-contact-persons"></a>Crear personas de contacto
@@ -24,7 +24,7 @@ Puede crear una ficha de contacto por cada uno que trabaje en las empresas con l
 >   Antes de crear un contacto, es posible que desee comprobar la configuración de **Herencia** de la ventana **Configuración marketing**. Si configura la herencia permite la información sobre empresas de contacto que es común para las personas de contacto, como detalles de dirección, para que se copien automáticamente desde la empresa de contacto a la persona de contacto cada vez que cree un persona de contacto para una empresa de contacto registrada.
 
 ## <a name="to-create-a-contact-card-for-a-person"></a>Procedimiento para crear una ficha de contacto para una persona
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Contactos** y, a continuación, seleccione el vínculo relacionado.
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Contactos** y luego elija el enlace relacionado.
 2. Seleccione la acción **Nuevo**.
 3. En el campo **N.º**, introduzca un número para el contacto.
 

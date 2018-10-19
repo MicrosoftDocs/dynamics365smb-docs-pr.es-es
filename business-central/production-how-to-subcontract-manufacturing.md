@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/16/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9c62f99c4baddedaaff6629c573d898f0fbd7f1a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 60628167a50977d7486c86d9730378f8d2527786
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="subcontract-manufacturing"></a>Subcontratación de fabricación
@@ -52,7 +52,7 @@ Las funciones de ventana de **Hoja subcontratación** como **Hoja planificación
 >  En las hojas de subcontratación, sólo se pueden ver y utilizar las órdenes de producción que tengan el estado de **Lanzadas**.  
 
 ### <a name="to-calculate-the-subcontracting-worksheet"></a>Para calcular la hoja de subcontratación  
-1.  Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Hoja de subcontratación** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hoja subcontratación** y luego elija el enlace relacionado.  
 2.  Para calcular la hoja, seleccione la acción **Calcular subcontratos**.  
 3.  En la ventana de **Calcular subcontratos**, defina filtros para operaciones subcontratadas, o los centros de trabajo donde se realizan, para calcular solo las órdenes de producción correspondientes.  
 4.  Elija el botón **Aceptar**.  
@@ -60,7 +60,7 @@ Las funciones de ventana de **Hoja subcontratación** como **Hoja planificación
     Revise las líneas en la ventana de **Hoja subcontratación**. La información de esta hoja de cálculo proviene de la orden de producción y de las líneas de ruta y flujos de la orden de producción del pedido de compra cuando se crea el documento. Puede eliminar una fila de la hoja de cálculo sin asignar a la información original, tal como puede hacer con las otras hojas de cálculo. La información reaparecerá la siguiente vez que ejecute la función de **Calcular subcontratos**.  
 
 ### <a name="to-create-the-subcontract-purchase-order"></a>Para generar el pedido de compra subcontratado  
-1.  Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Hoja de subcontratación** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hoja subcontratación** y luego elija el enlace relacionado.  
 2.  En la pestaña **Acciones**, en el grupo **Procesar**, elija **Ejecutar mensajes acción**.  
 3.  Seleccione el campo **Imprimir pedidos** para imprimir el pedido de compra al crearlo.  
 4.  Elija el botón **Aceptar**.  
@@ -80,7 +80,7 @@ Cuando la compra se registra como recibida, se registra automáticamente un movi
 >  Para evitar que se registra la salida esperada de una orden de producción cuando se reciban compras de subcontratados, asegúrese de que la operación subcontratada no sea la última. También, inserte una nueva última operación para la cantidad de salida final.
 
 ## <a name="to-post-a-subcontract-purchase-order"></a>Para registrar un pedido de compra de subcontratación  
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Pedidos de compra** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos compra** y luego seleccione el enlace relacionado.  
 2.  Abra un pedido de compra creado en la hoja de subcontratación.  
 
     En las líneas del pedido de compra, puede ver la misma información que estaba en la hoja de cálculo. Los campos **Nº orden producción**, **Nº lín. orden producc.**, **Nº operación** y **Nº centro trabajo** se rellenan con la información del pedido de producción de origen.  

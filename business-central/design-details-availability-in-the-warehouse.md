@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 698404dab1b3888d073eb3c23268d3b009a4f577
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 90d25c9c5c5687109387c548a273f4457691e151
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Detalles de diseño: Disponibilidad en el almacén
@@ -44,7 +44,7 @@ El sistema debe mantener un control constante de la disponibilidad de productos 
 
  En el diagrama siguiente se muestra los diferentes elementos del cálculo.  
 
- ![Disponible para picking, con superposición de reservas](media/design_details_warehouse_management_availability_2.png "design_details_warehouse_management_availability_2")  
+ ![Disponible para picking con superposición de reservas](media/design_details_warehouse_management_availability_2.png "Disponible para picking con superposición de reservas")  
 
 ## <a name="quantity-available-to-reserve"></a>Cantidad disponible para reservar  
  Dado que coexisten los conceptos de contenido y de reserva de ubicación, la cantidad de productos disponibles para reservar se debe alinear con las asignaciones hacia documentos de almacén de salida.  
@@ -69,7 +69,7 @@ El sistema debe mantener un control constante de la disponibilidad de productos 
 
  En el diagrama siguiente se muestra los diferentes elementos del cálculo.  
 
- ![Disponible para reserva, por asignaciones de almacén](media/design_details_warehouse_management_availability_3.png "design_details_warehouse_management_availability_3")  
+ ![Disponible para reserva por asignaciones de almacén](media/design_details_warehouse_management_availability_3.png "Disponible para reserva por asignaciones de almacén")  
 
 ## <a name="see-also"></a>Consulte también  
  [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)

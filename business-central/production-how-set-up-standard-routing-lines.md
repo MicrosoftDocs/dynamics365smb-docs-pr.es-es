@@ -10,27 +10,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/05/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a9ade86e4cce957967afa12f18e3e7ec0168b2b0
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e597f0847a5d1991e26b1fed4596815889f950d0
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-standard-routing-lines"></a>Configurar de líneas de ruta estándar
 La utilización de tareas estándar simplifica la creación y el mantenimiento de las rutas. Le permiten adjuntar rápidamente la información adicional a las operaciones periódicas.
 
 ## <a name="to-set-up-a-standard-task"></a>Para configurar tareas estándar
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Tareas estándar** y, a continuación, seleccione el vínculo relacionado.
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Tareas estándar** y luego elija el enlace relacionado.
 2. Seleccione la acción **Nuevo**.
 3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Seleccione **Herramientas**, **Personal**, **Descripción**, o la acción **Herramientas**.
 5. En la ventana que se abre, describa la tarea estándar en cuestión.
 
 ## <a name="to-add-a-standard-task-to-an-operation"></a>Para añadir una tarea estándar a una operación
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Rutas** y, a continuación, seleccione el vínculo relacionado.
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Rutas** y luego elija el enlace relacionado.
 2. Abra la ruta pertinente.
 3. Seleccione una línea correspondiente de ruta, elija la acción **Operaciones** , y después **Herramientas**, **Personal**, **Descripción**, o la acción **Herramientas**.
 

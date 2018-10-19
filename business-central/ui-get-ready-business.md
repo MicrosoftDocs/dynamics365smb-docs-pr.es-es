@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
-ms.date: 02/19/2018
+ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: 5508b9336b0e6bffcc47632b95eac3691ab3891c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ddffef784a80227ea28b193779b4aead7c3b691a
 ms.contentlocale: es-es
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="getting-ready-for-doing-business"></a>Preparación para hacer negocios
@@ -26,11 +26,11 @@ Para ayudarle a empezar a hacer negocios, puede visitar la ventana **Asistencia 
 En el área de trabajo, en la barra de navegación superior, encontrará el menú **Configuración y extensiones**. Aquí tiene acceso a una lista de configuraciones asistidas que pueden ayudarle a empezar. Una vez haya migrado los datos, como los proveedores, clientes o productos de su sistema financiero existente, está listo para empezar. Pero en función de sus necesidades, considere si la otra configuración asistida puede ayudarle. Si un área no está cubierta por una configuración asistida, elija la acción **Configuración manual** para obtener acceso a las ventanas de configuración donde puede rellenar los campos de configuración de todas las áreas manualmente. Para obtener más información, consulte también [Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 
 > [!NOTE]  
->   La lista de guías de configuración, las extensiones y los servicios que están disponibles varían según la experiencia del usuario que elija para la empresa. La experiencia **Básica** ofrece menos acceso que la experiencia **Esencial**. La primera vez que inicie sesión, use la experiencia Básica. Para obtener más información, consulte [Cambiar las funciones que se muestran](ui-experiences.md).
+>   La lista de guías de configuración, las extensiones y los servicios que están disponibles varían según la experiencia del usuario que elija para la empresa. La experiencia **Esencial** ofrece menos acceso que la experiencia **Premium**. La primera vez que inicie sesión, use la experiencia Esencial. Para obtener más información, consulte [Cambiar las funciones que se muestran](ui-experiences.md).
 
-En la ventana **Configuración asistida**, encontrará lo siguiente con la experiencia **Básico**:
+En la ventana **Configuración asistida**, encontrará lo siguiente con la experiencia **Esencial**:
 
-| Configuración asistida | Descripción |
+| Configuración asistida | Description |
 | --- | --- |
 | Configurar la empresa |Crea una nueva empresa de prueba para que pueda introducir datos y probar [!INCLUDE[d365fin](includes/d365fin_md.md)]. Si empezó con el paseo de introducción, es probable que ya lo haya **Completado**. |
 | Migrar datos empresariales |Permite importar datos empresariales existentes, como proveedores, clientes y productos desde Excel o Quickbooks. |
@@ -54,13 +54,13 @@ Use las flechas para contraer parte de la página y haga más espacio para mostr
 En **Configuración de la empresa** puede ver y editar información de configuración sobre la empresa actual, mucha de la cual se rellenó previamente si completó la configuración asistida **Configurar empresa** al registrarse en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Si desea cambiar el logotipo de la empresa, la información de contacto, la configuración del banco o la información de los impuestos, puede hacerlo desde esta ventana.    
 
 ## <a name="adding-users-and-permissions"></a>Agregar usuarios y permisos
-Si necesita agregar más usuarios, se realiza de centro de administración de Office 365. Para obtener más información, vea [Agregar usuarios a Office 365 para empresas](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc). Una vez se hayan creado los usuarios en Office 365, se pueden importar en la ventana **Usuarios** mediante la acción **Obtener usuarios desde Office 365**. Después podrá continuar con la asignación de permisos a usuarios y la organización en grupos de usuarios. Para obtener más información, vea [Administrar usuarios y permisos](ui-how-users-permissions.md).  
+Si necesita agregar más usuarios, se realiza de centro de administración de Office 365. Para obtener más información, vea [Agregar usuarios a Office 365 para empresas](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc). Una vez se hayan creado los usuarios en Office 365, se pueden importar en la ventana **Usuarios** mediante la acción **Obtener usuarios desde Office 365**. Después podrá continuar con la asignación de permisos a usuarios y la organización en grupos de usuarios. Para obtener más información, vea [Administración de usuarios y permisos](ui-how-users-permissions.md).  
 
 ## <a name="getting-help"></a>Obtener ayuda
 En [!INCLUDE[d365fin](includes/d365fin_md.md)] encontrará las herramientas de información que pueden guiarle a través de varios procesos empresariales. En cada herramienta de información encontrará un vínculo denominado **Obtener ayuda** que le llevará a la ayuda del producto. El signo de interrogación de la esquina superior derecha también le dirige a la ayuda del producto.
 
 ## <a name="next-steps"></a>Pasos siguientes
-Según sus datos migrados, ahora puede empezar a crear nuevos documentos de compra o venta. Use la sección **Mi empresa** de la página **Inicio** para crear rápidamente una nueva oferta de venta, factura de venta, pedido de venta, factura de compra o registro de venta.
+Según sus datos migrados, ahora puede empezar a crear nuevos documentos de compra o venta. Use la sección **Mi empresa** de la ventana **Inicio** para crear rápidamente una nueva oferta de venta, factura de venta, pedido de venta, factura de compra o registro de venta.
 
 ## <a name="see-also"></a>Consulte también
 [Introducción](product-get-started.md)  

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3c1f7a6d08ac03da0d89bad464784b71249c36a2
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 4eddb7fb118f7e410448cebf4497857532f936db
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Tutorial: recepción y ubicación en la configuración del almacenamiento avanzado
@@ -55,7 +55,7 @@ Para completar este tutorial, necesitará:
 -   CRONUS International Ltd. instalado.  
 -   Para convertirse en un empleado de almacén en el almacén BLANCO, realice los pasos siguientes:  
 
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Empleados almacén** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Empleados de almacén** y luego elija el enlace relacionado.  
 2.  Elija el campo **Id. de usuario** y seleccione su propia cuenta de usuario en la ventana **Usuarios**.  
 3.  En el campo **Cód. almacén**, especifique BLANCO.  
 4.  Seleccione el campo de **Predeterminado**.  
@@ -68,7 +68,7 @@ La configuración de la ventana **Ficha almacén** define los flujos de almacén
 
 ### <a name="to-review-the-location-setup"></a>Para revisar la configuración de almacén  
 
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Almacenes** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Ubicaciones** y luego elija el enlace relacionado.  
 2.  Abra la ficha de almacén BLANCO.  
 3.  Observe que en la ficha desplegable **Almacén** el casilla **Ubicac. y pick. directo**.  
 
@@ -83,7 +83,7 @@ Los pedidos de compra son el tipo más común de documento de origen de entrada.
 
 ### <a name="to-create-the-purchase-orders"></a>Procedimiento para crear pedidos de compra  
 
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Pedidos de compra** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos compra** y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Nuevo**.  
 3.  Cree un pedido de compra para el proveedor 10000 en la fecha de trabajo (23 de enero) con las líneas de pedido de compra siguientes.  
 
@@ -114,7 +114,7 @@ Los pedidos de compra son el tipo más común de documento de origen de entrada.
 En la ventana **Recep. almacén**, puede administrar varios pedidos entrantes para documentos de origen, como un pedido de compra.  
 
 ### <a name="to-receive-the-items"></a>Procedimiento para recibir productos  
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Recepciones almacén** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Recepciones almacén** y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Nuevo**.  
 3.  En el campo **Cód. almacén**, especifique BLANCO.  
 4.  Elija la acción **Utiliz. filt. para traer docs.**.  
@@ -132,7 +132,7 @@ En la ventana **Recep. almacén**, puede administrar varios pedidos entrantes pa
 En la ventana **Ubicar almacén**, puede administrar ubicaciones para un documento de recepción de almacén específico que cubre varios documentos de origen. Como todos los documentos de actividad de almacén, cada producto de la ubicación de almacén se representa por una línea Traer y una línea Colocar. En el procedimiento siguiente, el código de ubicación en las líneas Traer es la ubicación de recepción predeterminada en la ubicación BLANCO, W-08-0001.  
 
 ### <a name="to-put-the-items-away"></a>Para ubicar los productos  
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Ubicaciones** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Ubicaciones** y luego elija el enlace relacionado.  
 2.  Seleccione el único documento de ubicación de almacén en la lista y en la pestaña de **Inicio**, en el grupo **Administrar**, elija **Editar**.  
 
     El documento de ubicación de almacén se abre con un total de ocho líneas Traer o colocar para las cuatro líneas del pedido de compra.

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/21/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: eac3422bade7b77ee0847d6a0f47fbcb4d41988a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 507fd934ee30d2bcacbb298d0ab18fa351621922
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="send-electronic-documents"></a>Enviar documentos electrónicos
@@ -26,7 +26,7 @@ La versión genérica de [!INCLUDE[d365fin](includes/d365fin_md.md)] admite el e
 
 ### <a name="to-send-an-electronic-sales-invoice"></a>Para enviar una factura de venta electrónica  
 
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Facturas venta** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Facturas ventas** y luego elija el enlace relacionado.  
 
 2.  Cree una nueva factura de venta.  
 

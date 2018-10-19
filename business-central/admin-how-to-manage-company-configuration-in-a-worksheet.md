@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/06/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: cc2c7d5ecbff5d7cd0109c56e3c76ca137564d30
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: d52c54b18ccb7794f7556919e20b23df65c95acd
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Gestionar la configuración de la empresa en una hoja de trabajo
@@ -30,7 +30,7 @@ En los procedimientos siguientes se muestra cómo agregar y personalizar la info
 
 ## <a name="to-open-the-configuration-worksheet"></a>Procedimiento para abrir la hoja de trabajo de configuración  
 1.  En [!INCLUDE[d365fin](includes/d365fin_md.md)], abra la empresa que servirá de línea base para la configuración, y abra el Área de trabajo del implementador de RapidStart Services.  
-2.  Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Hoja de configuración** y, a continuación, seleccione el vínculo relacionado.  
+2.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hoja de configuración** y luego elija el enlace relacionado.  
 
 ## <a name="to-add-a-table-to-the-worksheet"></a>Procedimiento para agregar una tabla a la hoja de trabajo  
 1.  En la ventana **Configurar hoja**, seleccione la acción **Editar lista**.  
@@ -96,7 +96,7 @@ En el procedimiento siguiente se describe cómo agregar el área y agrupar desig
 1. Al inicio de un área, inserte una línea nueva en la hoja de trabajo.  
 2. En el campo **Tipo línea**, elija **Área**. En el campo **Nombre**, escriba un nombre para el 'area.  
 3. Al inicio de una agrupación de tablas, inserte una línea nueva en la hoja de trabajo.  
-4. En el campo **Tipo línea**, elija **Grupo**. En el campo **Nombre**, escriba un nombre para el 'area. El nombre del grupo se indenta automáticamente.  
+4. En el campo **Tipo línea**, elija **Grupo**. En el campo **Nombre**, escriba un nombre para el 'area. El nombre del grupo se sangra automáticamente.  
 5. Para mover tablas a la categoría adecuada, seleccione una tabla para mover y las acciones **Mover arriba** o **Mover abajo**. Como alternativa, puede eliminar una línea de la hoja de trabajo e insertar la tabla otra vez en la ubicación necesaria.  
 
 Algunas tablas de [!INCLUDE[d365fin](includes/d365fin_md.md)] son estándar y los datos que contienen probablemente no cambiarán de una implementación a otra. Por tanto, para ayudar al cliente, puede quitar estas tablas de la hoja de trabajo después de haberlas incluido en el paquete de configuración. Una vez agregadas, las tablas siguen formando parte del paquete de configuración.  

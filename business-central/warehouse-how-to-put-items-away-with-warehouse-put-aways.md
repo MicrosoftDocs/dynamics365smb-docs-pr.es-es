@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/31/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bf7b58fad1aa587079b51b505e9d757bb66f39c9
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: dea237fa837b34e565d9df6156ae6bbfb8508ee6
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="put-items-away-with-warehouse-put-aways"></a>Ubicar productos con ubic. exist. almacén
@@ -29,7 +29,7 @@ Dependiendo de la configuración de almacén, se ponen a disposición las línea
 Además de las formas estándar de crear las ubicaciones de almacén que se describen en este tema, puede crear la ubicación de recepción de almacén registrado relacionada. Esta acción es útil si utiliza ubicaciones y picking directos y ha decidido no utilizar la hoja de trabajo de ubicación, ya que puede crear o volver a crear las instrucciones de ubicación desde líneas de albarán recibidas.  
 
 ## <a name="to-put-items-away-without-directed-put-away-and-pick"></a>Para ubicar productos sin picking y ubicaciones directas  
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Ubicaciones** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Ubicaciones** y luego elija el enlace relacionado.  
 2.  Abra el almacén la ubicación que está preparado para manipular.  
 
     Puede ordenar las ubicaciones por varios criterios, por ejemplo, por producto, número de estante o fecha de vencimiento y, por tanto, optimizar el proceso de ubicación.  
@@ -37,7 +37,7 @@ Además de las formas estándar de crear las ubicaciones de almacén que se desc
 4.  Una vez haya completado la ubicación de los productos, elija la acción **Registrar ubicación** para registrar la finalización de la actividad y hacer que los productos estén disponibles para picking.  
 
 ## <a name="to-put-items-away-with-directed-put-away-and-pick"></a>Para ubicar productos con ubicaciones y picking directos  
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Ubicaciones** y, a continuación, seleccione el vínculo relacionado.
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Ubicaciones** y luego elija el enlace relacionado.
     Si se han creado instrucciones de ubicación, una ubicación de almacén está visible.  
 2.  Abra la ubicación de almacén con el que desee trabajar.  
 3.  Si el almacén lo requiere, escriba su id. de usuario en la ficha desplegable **General** cuando empiece a trabajar en una ubicación determinada.  
@@ -65,7 +65,7 @@ El ranking de ubicación se tiene en cuenta cuando varias ubicaciones cumplen lo
 ## <a name="to-create-a-put-away-from-a-posted-receipt"></a>Para crear una ubicación desde una recepción registrada  
  Si el almacén procesa la ubicación y la recepción y ha eliminado las líneas de ubicación, o si utiliza ubicaciones y picking directos y ha decidido no utilizar la hoja de trabajo de ubicación, puede crear o volver a crear las instrucciones de ubicación para líneas de albarán recibidas.
 
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Histórico albaranes almacén** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Recep. almacén regis.** y luego elija el enlace relacionado.  
 2.  Seleccione una recepción registrada que sea necesario ubicar.  
 3.  Seleccione la acción **Ficha**.  
 

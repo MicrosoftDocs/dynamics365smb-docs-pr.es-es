@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/18/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 015a5ff634e179dff4b51d6387a59f78ae666bc7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: a5282d20a1d9add984a70bc63e93fb32c3278f30
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Configurar el envío y la recepción de documentos electrónicos
@@ -83,7 +83,7 @@ El tema incluye los siguientes procedimientos:
 
     |Campo|Descripción|  
     |---------------------------------|---------------------------------------|  
-    |**Código estándar internacional**|Especifique el código de unidad de medida expresado como el estándar UNECERec20 en relación con el envío de documentos electrónicos.<br /><br /> Por ejemplo, al enviar facturas electrónicas en formato PEPPOL, el valor de este campo se utiliza para rellenar el atributo **unitCode** del elemento **InvoicedQuantity** bajo el nodo **InvoiceLine**. **Nota**: Si el campo **Unidad de medida** de la línea de venta está vacío, el valor estándar UNECERe20 para “Unidad” \(H87\) se inserta de manera predeterminada. Para obtener más información y una lista de códigos de unidad de medida válidos, vea [Recomendación n.º 20 \- Unidades de medida utilizadas en comercio internacional](http://www.unece.org/fileadmin/DAM/cefact/recommendations/rec20/rec20_rev3_Annex2e.pdf).|  
+    |**Código estándar internacional**|Especifique el código de unidad de medida expresado como el estándar UNECERec20 en relación con el envío de documentos electrónicos.<br /><br /> Por ejemplo, al enviar facturas electrónicas en formato PEPPOL, el valor de este campo se utiliza para rellenar el atributo **unitCode** del elemento **InvoicedQuantity** bajo el nodo **InvoiceLine**. **Nota**: Si el campo **Unidad de medida** de la línea de venta está vacío, el valor estándar UNECERe20 para “Unidad” \(H87\) se inserta de manera predeterminada. Para obtener más información y una lista de códigos de unidad de medida válidos, vea [Recomendación n.º 20 \- Unidades de medida utilizadas en comercio internacional](https://www.unece.org/fileadmin/DAM/cefact/recommendations/rec20/rec20_rev3_Annex2e.pdf).|  
 
 ### <a name="to-set-up-customers-for-electronic-document-sending"></a>Para configurar clientes para enviar documentos electrónicos  
 1. En el cuadro **Buscar**, escriba **Clientes**, y a continuación, elija el vínculo relacionado.  

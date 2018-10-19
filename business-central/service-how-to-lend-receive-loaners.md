@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/28/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 068031b480cb2d43df2c6682de70902ce672581b
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 9010858c33b7b58b3b4d7f2523785e846e307ff0
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="lend-and-receive-loaners"></a>Prestar y recibir productos prestados
 Puede prestar productos a los clientes para reemplazar temporalmente productos de servicio recibidos para servicio.  
   
 ## <a name="to-lend-a-loaner-item"></a>Para prestar un producto de préstamo    
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Pedidos servicio** y, a continuación, seleccione el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos servicio** y luego elija el enlace relacionado.  
 2. Abra la ficha pedido de servicio correspondiente.  
 3. Seleccione la línea de producto de servicio que contiene el producto de servicio que desea reemplazar por un producto prestado.  
 4. En el campo **N.º prestado**, seleccione el producto de préstamo correspondiente.  
@@ -32,7 +32,7 @@ Puede prestar productos a los clientes para reemplazar temporalmente productos d
 ## <a name="to-receive-a-loaner"></a>Para recibir un producto prestado  
 Cuando reciba un producto prestado de un cliente, deberá registrar el albarán. Para ello, utilice las ventanas **Pedido servicio**, **Envío servicio registrado** y **Ficha prod. prestado**. Este procedimiento muestra cómo recibir productos prestados en la ventana **Pedido servicio**.  
   
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Pedidos servicio** y, a continuación, seleccione el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos servicio** y luego elija el enlace relacionado.  
 2. Abra el pedido servicio que corresponda.  
 3. Seleccione la línea de producto de servicio con el producto prestado que desea recibir.  
 4. Elija **Acciones**, seleccione **Funciones** y , a continuación, elija **Recibir prod. prestado**.  
@@ -40,7 +40,7 @@ Cuando reciba un producto prestado de un cliente, deberá registrar el albarán.
 ## <a name="to-register-loaner-comments"></a>Para registrar comentarios de productos prestados  
 Puede utilizar la ventana **Comentarios generales**para registrar comentarios acerca de productos prestados registrados.  
   
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Productos prestados** y, a continuación, seleccione el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Productos prestados** y luego elija el enlace relacionado.  
 2. Abra la ficha de producto prestado correspondiente.  
 3. Seleccione la acción **Comentarios**. Se abrirá la ventana de **Hoja de comentario de servicio general**.  
 4. En el campo **Fecha**, introduzca una fecha.  

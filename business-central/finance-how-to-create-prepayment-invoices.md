@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 314732d3f622aede09342d7246e28b4a910d08d9
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 50b77f4c6e333f3024f2261eb0c6df42b3e535d0
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-prepayment-invoices"></a>Crear facturas de prepagos
@@ -27,7 +27,7 @@ Después de crear un pedido de venta o de compra, puede crear una factura de pre
 El procedimiento siguiente describe cómo facturar un prepago del pedido. Los pasos son parecidos para pedidos de compra.  
 
 ## <a name="to-create-a-prepayment-invoice"></a>Para crear una factura de prepago  
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Pedidos de venta** y, a continuación, seleccione el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.  
 2. Crear un nuevo pedido de venta. Para obtener más información, vea [Vender productos](sales-how-sell-products.md).  
 
     En la ficha desplegable **Prepago**, el campo **% prepago** de la cabecera se rellenará automáticamente si existe un porcentaje de prepago predeterminado en la ficha del cliente. Puede cambiar el contenido del campo. El porcentaje de prepago sólo se copia desde la cabecera en las líneas que no copian dicho porcentaje predeterminado del producto.  

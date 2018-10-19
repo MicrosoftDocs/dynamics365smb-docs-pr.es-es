@@ -9,17 +9,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: BI, add-in, insight, headline, data
-ms.date: 02/27/2018
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ddbce1bd10f8eb635e8749b0e1743402a17ca69e
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0879d8ff0fbca3b18c36412e0a5fbe2f39372f2a
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
-# <a name="the-essential-business-insights-extension-for-business-central"></a>La extensión Información de la empresa esencial para Business Central
+# <a name="the-essential-business-insights-extension"></a>La extensión Información de la empresa esencial
 La extensión Información de la empresa esencial encuentra hechos comerciales interesantes en los datos de su empresa y los muestra como titulares de periódico en las áreas de trabajo. En función de lo que encuentre la extensión en los datos, la información será de la última semana, mes o tres meses desde la fecha actual. La información se actualiza cada 10 minutos.  
 
 Si desea ver más de cerca una idea, puede elegirla para ir a su fuente. Por ejemplo, si desea detalles sobre la factura de ventas más grande que se publicó la semana pasada, puede elegir la información para mostrar la factura.
@@ -39,3 +39,4 @@ En la tabla siguiente se describe la información que esta extensión proporcion
 
 ## <a name="see-also"></a>Consulte también
 [Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones](ui-extensions.md)
+

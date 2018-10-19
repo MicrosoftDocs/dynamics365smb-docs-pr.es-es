@@ -1,6 +1,6 @@
 ---
 title: "Elegir la experiencia de usuario para mostrar u ocultar características avanzadas | Documentos de Microsoft"
-description: "Obtenga información sobre lo que significan las capas de experiencia de usuario Básico y Esencial para la interfaz de usuario, las áreas de aplicación y su empresa."
+description: "Obtenga información sobre lo que significan las capas de experiencia de usuario Esencial y Premium para la interfaz de usuario, las áreas de aplicación y su empresa."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-business-central
@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 07/31/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
-ms.openlocfilehash: f8dd92a5a7398ddce64dd4fce0ce9323014a29a0
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b24ef5c8750bef5ac2b5475a48a5807838162c69
 ms.contentlocale: es-es
-ms.lasthandoff: 08/06/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="changing-which-features-are-displayed"></a>Cambiar las funciones que se muestran
@@ -31,8 +31,7 @@ La siguiente tabla enumera la experiencias que están disponibles actualmente.
 
 | Experiencia | Impacto en la interfaz de usuario |
 | --- | --- |
-| **Básico** |Muestra solo las acciones y los campos principales dentro de la funcionalidad empresarial más común, como ventas, compras, inventario y finanzas. |
-| **Esencial** |Muestra todas las acciones y campos para todas las funcionalidades de negocio comunes.|
+| **Essential** |Muestra todas las acciones y campos para todas las funcionalidades de negocio comunes.|
 | **Prima de emisión** |Muestra todas las acciones y campos para todas las funcionalidades empresariales, incluidas las de Fabricación y Gestión de servicios.|
 
 > [!NOTE]  
@@ -50,15 +49,18 @@ A continuación, puede definir a qué funciones y ventanas específicas de la ex
 Cuando haya realizado un cambio en los planes de los usuarios en el Centro de administración de Office 365, como asignar más usuarios al plan Premium, debe reflejar el cambio en [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 1. Inicie sesión como administrador.
-2. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Usuarios** y, a continuación, seleccione el vínculo relacionado.
+2. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Usuarios** y luego elija el enlace relacionado.
 3. En la ventana **Usuarios**, seleccione la acción **Actualizar todos los grupos de usuarios**.
 
 Toda la información nueva sobre los planes de los usuarios y sus grupos de usuarios asignados ahora se actualizan de acuerdo con los cambios del plan.
 
 ### <a name="to-select-the-premium-experience"></a>Para seleccionar la experiencia Premium
 Ahora puede proceder a seleccionar la nueva experiencia.
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Información de la empresa** y, a continuación, seleccione el vínculo relacionado.
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Información de empresa** y luego elija el enlace relacionado.
 2. En la ventana **Información empresa**, en la ficha desplegable **Experiencia del usuario**, seleccione Premium en el campo **Experiencia**.
+
+## <a name="help-assumes-premium-experience"></a>En la ayuda se asume la experiencia premium
+Todas las descripciones de funciones que aparecen en la documentación de [!INCLUDE[d365fin](includes/d365fin_md.md)] asumen la experiencia **Premium**, lo que significa que las descripciones cubren todo el alcance de los elementos de la interfaz de usuario. Se inserta una nota de texto en los temas de ayuda de alto nivel para las áreas de características de Gestión de servicios y fabricación que indican que requieren la experiencia **Premium**.
 
 ## <a name="see-also"></a>Consulte también .
 [Crear nuevas en empresas](about-new-company.md)  

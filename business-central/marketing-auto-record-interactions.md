@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, relationship, prospect, contact, client, customer
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 16865ddb74c2d7c6bbdf84033daba816ba0405de
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 28891eb7cef2faba6004cbf97480c438c58df892
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="recording-interactions-with-contacts-automatically"></a>Registrar interacciones con contactos automáticamente
@@ -29,7 +29,7 @@ Puede configurar la aplicación para que registre automáticamente interacciones
 * Llamar a sus contactos, si tiene un teléfono compatible TAPI y la instalación correcta.
 
 Para configurar los registros automáticos de estas interacciones, puede especificar plantillas de interacciones para estos documentos y acciones mediante la ventana **Configuración de plantilla de interacción**.  
-Para abrir la ventana **Configuración plantilla interacción**, elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), especifique **Configuración plantilla interacción** y elija el vínculo relacionado.
+Para abrir la ventana **Configuración plantilla interacción**, elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración plantilla interacción** y luego elija el enlace relacionado.
 
 ## <a name="see-also"></a>Consulte también
 [Registrar interacciones con contactos](marketing-interactions.md)  

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d84006db69beee153aeecdd38ecfcae197c1ad9f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 11c1f56847102ed5f1b323a54bdcfb263c0fdda9
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Tutorial: administración de programas con proyectos
@@ -76,7 +76,7 @@ Este tutorial se centra en la empresa CRONUS International Ltd., una empresa de 
 
 ### <a name="to-prepare-the-sample-data"></a>Para preparar los datos de ejemplo  
 
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Recursos** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Recursos** y luego elija el enlace relacionado.  
 2.  Selecione la acción **Nuevo** para crear una nueva ficha de recursos.  
 3.  En la ficha desplegable **General**, introduzca la siguiente información:  
 
@@ -99,7 +99,7 @@ Este tutorial se centra en la empresa CRONUS International Ltd., una empresa de 
 
 ### <a name="to-create-a-job-journal-batch"></a>Para crear una sección de diario de proyecto  
 
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diarios de proyectos** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diarios proyecto** y luego elija el enlace relacionado.  
 2.  En la ventana **Diario proyecto**, seleccione el campo **Nombre sección**. Aparecerá la ventana **Secciones diario proyectos**.  
 3.  Seleccione la acción **Nuevo**, para crear una línea con la siguiente información:  
 
@@ -114,7 +114,7 @@ Este tutorial se centra en la empresa CRONUS International Ltd., una empresa de 
 
 ### <a name="to-set-up-a-job"></a>Para configurar un proyecto  
 
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Proyectos** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Proyectos** y luego elija el enlace relacionado.  
 2.  Selecione la acción **Nuevo** para crear una nueva ficha.  
 3.  En la ficha desplegable **General**, introduzca la siguiente información:  
 
@@ -235,7 +235,7 @@ Este tutorial se centra en la empresa CRONUS International Ltd., una empresa de 
 
 ### <a name="to-calculate-remaining-usage"></a>Para calcular el uso restante  
 
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diarios de proyectos** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diarios proyecto** y luego elija el enlace relacionado.  
 2.  En la ventana **Diario proyectos**, en el campo **Nombre sección**, abra la lista **Secciones diario proyecto**. Seleccione la sección de diario de proyecto de **Tricia**.  
 3.  Seleccione la acción **Cálcular uso restante**.  
 4.  En la ventana de **Calc. uso restante proyecto**, en la ficha desplegable **Tarea proyecto**, elija el campo de **Nº proyecto** y seleccione el número de proyecto correspondiente, normalmente trabajo J00010.  
@@ -251,7 +251,7 @@ Este tutorial se centra en la empresa CRONUS International Ltd., una empresa de 
 
 ### <a name="to-create-a-job-sales-invoice"></a>Para crear una factura de ventas del proyecto  
 
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Proyectos** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Proyectos** y luego elija el enlace relacionado.  
 2.  Seleccione el proyecto que ha creado antes y, después, seleccione la acción **Crear factura de venta de proyecto**.  
 3.  En la ficha desplegable **Tarea proyecto**, desactive cualquier filtro en **Nº tarea proyecto** para facturar el trabajo. En el campo **Nº proyecto**, seleccione el proyecto correspondiente.  
 4.  En la ficha desplegable **Opciones**, introduzca la fecha de registro y defina si desea crear una factura por tarea o una sola factura para todas las tareas.  
@@ -261,7 +261,7 @@ Este tutorial se centra en la empresa CRONUS International Ltd., una empresa de 
 
 ### <a name="to-post-a-new-sales-invoice"></a>Para registrar una nueva factura de ventas  
 
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Facturas venta** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Facturas ventas** y luego elija el enlace relacionado.  
 2.  Abra la factura para el nº de cliente 01445544. Puede ver que se ha escrito la información para las líneas de planificación.  
 3.  Seleccione la acción **Registrar**. Elija **Sí** para confirmar el registro.  
 
@@ -275,7 +275,7 @@ Este tutorial se centra en la empresa CRONUS International Ltd., una empresa de 
 
 ### <a name="to-open-the-statistics-window"></a>Para abrir la ventana Estadísticas  
 
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Proyectos** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Proyectos** y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Estadísticas**. Puede revisar información detallada acerca de los precios, costes y beneficio bruto del trabajo en las divisas local y extranjera.  
 3.  Elija el botón de **Cerrar** para cerrar la ventana de **Estadísticas proyecto**.  
 
@@ -284,7 +284,7 @@ Este tutorial se centra en la empresa CRONUS International Ltd., una empresa de 
 
 ### <a name="to-manage-fixed-pricing-in-jobs"></a>Para gestionar precios fijos en proyectos  
 
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Proyectos** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Proyectos** y luego elija el enlace relacionado.  
 2.  Seleccione el número de proyecto **Deco** y, después, seleccione la acción **Líneas de tarea de proyecto**.  
 3.  Seleccione la línea 1120 y, en el campo **Previsión (coste total)**, haga clic con el botón secundario en el importe y seleccione **Análisis**.  
 
@@ -306,7 +306,7 @@ Este tutorial se centra en la empresa CRONUS International Ltd., una empresa de 
 
 ### <a name="to-enter-hours-in-the-job-journal"></a>Para especificar horas en el Diario proyectos  
 
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diarios de proyectos** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diarios proyecto** y luego elija el enlace relacionado.  
 2.  En una línea nueva, escriba la siguiente información:  
 
     -   **Tipo línea**: **(en blanco)**  
@@ -365,7 +365,7 @@ Este tutorial se centra en la empresa CRONUS International Ltd., una empresa de 
 
 ### <a name="to-copy-a-job"></a>Para copiar un proyecto  
 
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Proyectos** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Proyectos** y luego elija el enlace relacionado.  
 2.  Selecione la acción **Nuevo** para crear un nuevo proyecto. Escriba la siguiente información:  
 
     -   **Descripción**: **Equipamiento de 10 salas de conferencias**  
@@ -390,7 +390,7 @@ Este tutorial se centra en la empresa CRONUS International Ltd., una empresa de 
 
 ### <a name="to-set-up-a-new-account"></a>Para configurar una cuenta nueva  
 
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Plan de cuentas** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Plan de cuentas** y luego elija el enlace relacionado.  
 2.  En la ventana **Plan de cuentas**, seleccione la acción **Nuevo** para crear una ficha nueva.  
 3.  En la ficha **Cuenta nueva**, escriba la siguiente información:  
 

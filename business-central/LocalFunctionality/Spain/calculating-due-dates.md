@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 1072d8e15120550c1dc868144430315ff45b85fe
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: d62d9149bd7c5c0fa84862a55c09bb54352e9a40
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="calculating-due-dates"></a>Cálculo de fechas de vencimiento
-En España, hay un límite legal para el número de días que un pago se puede retrasar. Debe presentar un informe anual de compras y ventas de los pagos que se crearon antes o después de la fecha de vencimiento. Los requisitos legales dependen de si el cliente es una empresa privada o una gestión pública. Para obtener más información, consulte la declaración oficial [BOE-A-2010-10708](http://go.microsoft.com/fwlink/?LinkId=224630) en la página web del Boletín Oficial del Estado.  
+En España, hay un límite legal para el número de días que un pago se puede retrasar. Debe presentar un informe anual de compras y ventas de los pagos que se crearon antes o después de la fecha de vencimiento. Los requisitos legales dependen de si el cliente es una empresa privada o una gestión pública. Para obtener más información, consulte la declaración oficial [BOE-A-2010-10708](https://go.microsoft.com/fwlink/?LinkId=224630) en la página web del Boletín Oficial del Estado.  
 
 ## <a name="payment-terms"></a>Condiciones de pago  
 Para ayudarle a cumplir los requisitos legales, puede configurar términos de pago para calcular las fechas de vencimiento correctamente. Esto especifica el número máximo de días naturales que un pago se puede retrasar después de la entrega. Por ejemplo, puede crear los términos de pago diferentes para las ventas al sector el público y las ventas a compañías privadas. La siguiente tabla muestra cómo puede configurar los términos de pago.  
@@ -59,7 +59,7 @@ Cada sección tiene una sección de resumen que contiene la siguiente informaci�
 
 |Información|Description|  
 |-----------------|---------------------------------------|  
-|Plazo medio ponderado superado|Esta fórmula se calcula en función del número de pagos contabilizados para el período especificado, el número de días del retraso de los pagos y el importe pagado en (DL). Para obtener más información, consulte la declaración oficial [BOE-A-2010-10708](http://go.microsoft.com/fwlink/?LinkId=224630) en la página web del Boletín Oficial del Estado.|  
+|Plazo medio ponderado superado|Esta fórmula se calcula en función del número de pagos contabilizados para el período especificado, el número de días del retraso de los pagos y el importe pagado en (DL). Para obtener más información, consulte la declaración oficial [BOE-A-2010-10708](https://go.microsoft.com/fwlink/?LinkId=224630) en la página web del Boletín Oficial del Estado.|  
 |Pagos dentro límite legal|Los importes en DL y el porcentaje de pagos totales que se crearon antes de la fecha de vencimiento máxima permitida para cada transacción.|  
 |Pagos fuera límite legal|Los importes en DL y el porcentaje de pagos totales que se crearon después de la fecha de vencimiento máxima permitida para cada transacción.|  
 

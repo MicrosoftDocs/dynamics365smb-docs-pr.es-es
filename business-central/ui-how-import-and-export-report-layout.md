@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5f66e2f3a40bb3ac680838f1e74416d3876f3979
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e32cbdc9bc5f61a054972be4c5bcc409ada961a0
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="import-and-export-a-report-or-document-layout"></a>Importar y exportar un diseño de informe o documento personalizado
@@ -27,7 +27,7 @@ Puede importar y exportar un diseño de informe personalizado existente como arc
   
 ### <a name="to-export-a-report-layout-to-a-file"></a>Para exportar un diseño de informe a un archivo  
   
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Selección de diseño de informes** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Selección de diseño de informes** y luego elija el enlace relacionado.  
   
 2.  Seleccione la fila para el informe que contenga con el diseño personalizado que desee exportar y, a continuación, en la pestaña **Inicio**, en el grupo **Procesar**, elija **Diseños personalizados**.  
   
@@ -41,7 +41,7 @@ Puede importar y exportar un diseño de informe personalizado existente como arc
   
      Un archivo de diseño de informe de Word debe tener la extensión de tipo de archivo .docx. El archivo de diseño de informe de RDLC debe tener la extensión de tipo de archivo .rdlc o .rdl.  
   
-2.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Selección de diseño de informes** y, a continuación, seleccione el vínculo relacionado.  
+2.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Selección de diseño de informes** y luego elija el enlace relacionado.  
   
 3.  Seleccione la fila para el informe al cual desee importar el diseño de informe y, a continuación, en la pestaña **Inicio**, en el grupo **Procesar**, elija **Diseños personalizados**.  
   

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 05/04/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: d5606d6e8714c96a675f4d5f4074e431aa818ec7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: a108de9d4fe537f2d014c705583b910dc7be66a7
 ms.contentlocale: es-es
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-planning-parameters"></a>Detalles de diseño: Parámetros de la planificación
@@ -80,25 +80,25 @@ Para obtener un plan de suministro racional, el planificador optimizará los par
 
 El momento del periodo de reprogramación, el periodo amortiguador y el periodo de acumulación de lotes se basa en una fecha de suministro. El ciclo se basa en la fecha de inicio de la planificación, tal como se muestra en la ilustración siguiente.  
 
-![Elementos del ciclo](media/supply_planning_5_time_bucket_elements.png "supply_planning_5_time_bucket_elements")  
+![Elementos del ciclo](media/supply_planning_5_time_bucket_elements.png "Elementos del ciclo")  
 
 En los siguientes ejemplos, las flechas negras representan el aprovisionamiento existente (arriba) y demanda (abajo). Las flechas rojas, verdes y naranjas son sugerencias de planificación.  
 
 **Ejemplo 1**: la fecha de modificación queda fuera del periodo de reprogramación, lo que hace que se cancele el aprovisionamiento existente. Se sugiere un nuevo aprovisionamiento para cubrir la demanda en el periodo de acumulación de lotes.  
 
-![Periodo de reprogramación, Periodo de acumulación de lotes](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "supply_planning_5_recheduling_period_lot_accumulation_period")  
+![Período de reprogramación y período de acumulación de lotes](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "Período de reprogramación y período de acumulación de lotes")  
 
 **Ejemplo 2**: la fecha de modificación está dentro del periodo de reprogramación, lo que hace que se reprograme el aprovisionamiento existente. Se sugiere un nuevo aprovisionamiento para cubrir la demanda fuera del periodo de acumulación de lotes.  
 
-![Periodo de reprogramación, Periodo de acumulación de lotes, Reprogramar](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "supply_planning_5_recheduling_period_lot_accum_period_reschedule")  
+![Período de reprogramación, período de acumulación de lotes y reprogramación](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Período de reprogramación, período de acumulación de lotes y reprogramación")  
 
 **Ejemplo 3**: hay una demanda en el periodo amortiguador y la cantidad de aprovisionamiento en el periodo de acumulación de lotes coincide con la cantidad de aprovisionamiento. La siguiente demanda se queda sin cubrir y se sugieren un nuevo suministro.  
 
-![Periodo amortiguador, Periodo de acumulación de lotes](media/supply_planning_5_dampener_period_lot_accumulation_period.png "supply_planning_5_dampener_period_lot_accumulation_period")  
+![Período amortiguador y período de acumulación de lotes](media/supply_planning_5_dampener_period_lot_accumulation_period.png "Período amortiguador y período de acumulación de lotes")  
 
 **Ejemplo 4**: hay una demanda en el periodo amortiguador y el aprovisionamiento sigue en la misma fecha. No obstante, la cantidad de aprovisionamiento actual no es suficiente para cubrir la demanda en el periodo de acumulación de lotes, por lo que se sugiere aplicar una acción de cambio de cantidad para el pedido de aprovisionamiento existente.  
 
-![Periodo amortiguador, Periodo de acumulación de lotes, Cambiar cdad.](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "supply_planning_5_dampener_period_lot_accum_period_change_qty")  
+![Periodo amortiguador, periodo de acumulación de lotes y cambio de cantidad](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Periodo amortiguador, periodo de acumulación de lotes y cambio de cantidad")  
 
 **Valores predeterminados:** el valor predeterminado del campo **Ciclo** y los tres campos del periodo de reaprovisionamiento están en blanco. Para todos los campos, excepto el campo **Periodo amortiguador** esto significa 0D (cero días). Si el campo **Periodo amortiguador** está en blanco, se usará el valor global en el campo **Periodo predet. amortiguador** en la ventana **Configuración fabricación**.  
 

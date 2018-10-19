@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f58f7572c2991bd4b30dca5e0c48499b36538f77
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 82b61f468b7b0f5f8a5f8406b6df369db41a6ded
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Tutorial: planificación automática de suministros
 Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálculo del programa maestro de producción (MPS) y del plan de necesidades de material (MRP) basándose en la demanda real y prevista.  
 
--   MPS se refiere al cálculo de un programa de producción principal basado en la demanda real y en la previsión de producción. El cálculo de MPS se utiliza para productos finales que tengan una previsión o una línea de pedido de venta. Estos productos se denominan "productos de MPS" y se identifican dinámicamente al iniciarse el cálculo.  
--   MRP se refiere al cálculo de las necesidades de material basado en la demanda real de componentes y en la previsión de producción de componentes. Sólo se calcula para los productos que no son productos de MPS. La finalidad global de MRP es la de proporcionar planes con fases temporales, por producto, para suministrar el producto correcto en el momento correcto, en el lugar correcto y en la cantidad correcta.  
+-   MPS se refiere al cálculo de un programa de producción principal basado en la demanda real y en la previsión de demanda. El cálculo de MPS se utiliza para productos finales que tengan una previsión o una línea de pedido de venta. Estos productos se denominan "productos de MPS" y se identifican dinámicamente al iniciarse el cálculo.  
+-   MRP se refiere al cálculo de las necesidades de material basado en la demanda real de componentes y en la previsión de demanda de componentes. Sólo se calcula para los productos que no son productos de MPS. La finalidad global de MRP es la de proporcionar planes con fases temporales, por producto, para suministrar el producto correcto en el momento correcto, en el lugar correcto y en la cantidad correcta.  
 
  Los algoritmos de planificación usados tanto para MPS como para MRP son idénticos. Los algoritmos de planificación utilizan saldos netos, reutilizan pedidos de suministro existentes y mensajes de acción. El proceso del sistema de planificación examina lo que se necesita o se va a necesitar (la demanda) y lo que hay disponible o se espera que haya (el suministro). Cuando estas cantidades se comparan, se muestran mensajes de acción en la hoja de planificación. Los mensajes de acción son sugerencias para crear un nuevo pedido de suministro, cambiar un pedido de suministro (la cantidad o la fecha) o cancelar un pedido de suministro existente. Los pedidos de suministro pueden ser órdenes de producción, pedidos de compra y pedidos de transferencia. Para obtener información detallada, consulte [Detalles de diseño: Planificación de aprovisionamiento](design-details-supply-planning.md).  
 
@@ -73,7 +73,7 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
 
 ### <a name="to-change-selected-planning-parameters"></a>Para cambiar los parámetros de planificación seleccionados  
 
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Uds. de almacenam.** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Uds. de almacenam.** y luego elija el enlace relacionado.  
 2.  Abra la ficha de unidad de almacenamiento AZUL para el producto 1100, rueda delantera.  
 3.  En la ficha desplegable **Planificación**, rellene los campos tal como se describe en la tabla siguiente.  
 
@@ -90,7 +90,7 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
 
 ### <a name="to-create-the-sales-order"></a>Para crear el pedido de venta  
 
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Pedidos de venta** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Nuevo**.  
 3.  En la ventana **Pedido de venta**, rellene los campos tal como se describe en la tabla siguiente.  
 
@@ -102,7 +102,7 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
 
 ### <a name="to-create-a-regenerative-plan-to-fulfill-demand-at-location-blue"></a>Crear un plan regenerativo para satisfacer la demanda en el almacén AZUL.  
 
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Hoja planificación** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hoja planificación** y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Calcular planificación regenerativa**.  
 3.  En la ventana **Calcular plan - Hoja planif.** rellene los campos tal como se describe en la tabla siguiente.  
 
@@ -125,7 +125,7 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
 
 ### <a name="to-calculate-mrp-to-include-underlying-component-needs"></a>Para calcular MRP para incluir las necesidades subyacentes del componente  
 
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Hoja planificación** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hoja planificación** y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Calcular planificación regenerativa**.  
 3.  En la ventana **Calcular plan - Hoja planif.** rellene los campos tal como se describe en la tabla siguiente.  
 
@@ -219,7 +219,7 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
 
 3.  Acepte el aviso de disponibilidad y elija el botón **Sí** para registrar la cantidad de demanda.  
 4.  Replanifique para ajustar el plan de suministro actual.  
-5.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Hoja planificación** y, a continuación, seleccione el vínculo relacionado.  
+5.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hoja planificación** y luego elija el enlace relacionado.  
 6.  Seleccione la acción **Calcular planificación de saldo neto**.  
 7.  En la ventana **Calcular plan - Hoja planif.** rellene los campos tal como se describe en la tabla siguiente.  
 

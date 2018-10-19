@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
-ms.date: 07/17/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
-ms.openlocfilehash: e7546d2d90567f9d633394dfd585f1dbbab27e46
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: c75b9eef5716379f6545494c20cbe6c7b34c1edd
 ms.contentlocale: es-es
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -26,7 +26,7 @@ Utilice los siguientes informes:
 * El informe **Lista venta CE** (Lista de ventas de la Comunidad Europea (CE)) contiene listas de los importes del IVA que ha recaudado con las ventas a clientes con IVA dentro de los países de la Unión Europea.  
 * El informe **Devolución de IVA** incluye el IVA de las ventas y compras a clientes pertenecientes a todos los países que utilizan el IVA.
 
-Si desea ver un historial completo de entradas de IVA, cada publicación que implica IVA crea una entrada en la página **Movs. IVA** . Estos movimientos se utilizan para calcular el importe de liquidación de IVA, como pago o devolución, de un determinado periodo. Para ver las entradas del IVA, seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Movs. IVA** y, a continuación, seleccione el vínculo relacionado.
+Si desea ver un historial completo de entradas de IVA, cada publicación que implica IVA crea una entrada en la ventana **Movs. IVA** . Estos movimientos se utilizan para calcular el importe de liquidación de IVA, como pago o devolución, de un determinado periodo. Para ver las entradas del IVA, elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Movs. IVA** y luego elija el enlace relacionado.
 
 ## <a name="about-the-ec-sales-list-report"></a>Acerca del informe de la Lista venta CE
 En el Reino Unido, todas las empresas que venden bienes y servicios a los clientes con IVA, incluidos los de los estados miembros de la UE, deben presentar una versión electrónica de su informe de la lista de ventas de la Comunidad Europea en formato XML a través del sitio web Her Majesty's Revenue and Customs (HMRC). El informe de la lista de ventas de la CE funciona solo para los países de la UE.
@@ -39,7 +39,7 @@ El informe incluye una línea para cada tipo de transacción con el cliente y mu
 
 Los bienes y servicios B2B especifican si se ha vendido un bien o un servicio y están controlados por el servicio **EU Service** en la configuración de los grupos de registro de IVA. Las mercaderías trianguladas B2B indican si se dedica al comercio con un tercero, y están controladas por el ajuste **Op. triangular UE** sobre los documentos de ventas, tales como órdenes de venta, facturas, abonos, etc.  
 
-Después de que la autoridad fiscal revise su informe, enviará un correo electrónico a la persona de contacto de su empresa. En [!INCLUDE[d365fin](includes/d365fin_md.md)], la persona de contacto se especifica en la página **Información de la empresa**. Antes de enviar el informe, asegúrese de que ha elegido a una persona de contacto.
+Después de que la autoridad fiscal revise su informe, enviará un correo electrónico a la persona de contacto de su empresa. En [!INCLUDE[d365fin](includes/d365fin_md.md)], la persona de contacto se especifica en la ventana **Información de la empresa**. Antes de enviar el informe, asegúrese de que ha elegido a una persona de contacto.
 
 ## <a name="about-the-vat-return-report"></a>Acerca del informe de devolución de IVA
 Utilice este informe para enviar el IVA para los documentos de ventas y compras, como órdenes de compra y venta, facturas y abonos. La información en el informe está en el mismo formato que el formulario de declaración de las autoridades aduaneras y fiscales.  
@@ -56,19 +56,19 @@ Para la devolución de IVA, puede especificar los movimientos para incluir:
 
 Para informar el IVA a una autoridad fiscal electrónicamente, debe conectar [!INCLUDE[d365fin](includes/d365fin_md.md)] al servicio web de la autoridad fiscal. Para ello es necesario que se configure una cuenta con su autoridad fiscal. Cuando tenga una cuenta, puede activar una conexión de servicio que proporcionamos en [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Conexiones de servicio** y, a continuación, seleccione el vínculo apropiado.
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Conexiones de servicio** y luego elija el enlace apropiado.
 2. Rellene los campos requeridos. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]  
     >   Conviene probar la conexión. Para ello, seleccione la casilla de verificación **Ejecutar en modo de prueba** y, a continuación, prepare y envíe su informe de IVA como se describe en la sección _Preparar y enviar un informe de IVA_. Mientras está en modo de prueba, el servicio comprueba si la autoridad tributaria puede recibir su informe y el estado del informe indicará si el envío de la prueba ha sido satisfactorio. Debe recordar que no es un envío real. Para enviar el informe de válido, debe desactivar la casilla de verificación **Ejecutar en modo de prueba** y, a continuación, repetir el proceso.
 
 ## <a name="to-set-up-vat-reports-in-included365finincludesd365finmdmd"></a>Para configurar informes IVA en [!INCLUDE[d365fin](includes/d365fin_md.md)]
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Configuración informe IVA** y, a continuación, seleccione el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración informe IVA** y luego elija el enlace relacionado.  
 2. Para permitir que los usuarios cambien y vuelvan a enviar este informe, seleccione la casilla de verificación **Modificar informes enviados**.  
 3. Elija el código de serie que desee usar para cada informe.  
 
 ## <a name="to-prepare-and-submit-a-vat-report"></a>Para preparar y enviar un informe de IVA
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Lista venta CE** o **Devolución de IVA** y, a continuación, seleccione el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Lista venta CE** o **Devolución de IVA** y luego elija el enlace relacionado.  
 2. Elija **Nuevo** y, a continuación, rellene los campos requeridos. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Para crear el contenido del informe, elija la acción **Proponer líneas** .  
 
@@ -80,7 +80,7 @@ Para informar el IVA a una autoridad fiscal electrónicamente, debe conectar [!I
     >   [!INCLUDE[d365fin](includes/d365fin_md.md)] valida si el informe está correctamente configurado. Si falla la validación, los errores se muestran en la ventana **Errores y advertencias** para que pueda corregirlos. Normalmente, si el mensaje se trata de una configuración que falta en [!INCLUDE[d365fin](includes/d365fin_md.md)], puede hacer clic en el mensaje para abrir la página que contiene la información para corregir.  
 5. Para enviar el informe, elija la acción **Enviar** .  
 
-Después de enviar el informe, [!INCLUDE[d365fin](includes/d365fin_md.md)] supervisa el servicio y mantiene un registro de sus comunicaciones. El campo **Estado** indica dónde se encuentra el informe en el proceso. Por ejemplo, cuando las autoridades procesan el informe, el estado del informe cambia a **Tenido éxito**. Si la autoridad tributaria encuentra errores en el informe que envió, el estado del informe aparecerán en **Erróneo**. Puede ver los errores en **Errores y advertencias**, corregirlos y volver a enviar el informe. Para ver una lista de todos sus informes de listas de ventas de CE, vaya a la página **Informes de la lista de ventas de CE**.  
+Después de enviar el informe, [!INCLUDE[d365fin](includes/d365fin_md.md)] supervisa el servicio y mantiene un registro de sus comunicaciones. El campo **Estado** indica dónde se encuentra el informe en el proceso. Por ejemplo, cuando las autoridades procesan el informe, el estado del informe cambia a **Tenido éxito**. Si la autoridad tributaria encuentra errores en el informe que envió, el estado del informe aparecerán en **Erróneo**. Puede ver los errores en **Errores y advertencias**, corregirlos y volver a enviar el informe. Para ver una lista de todos sus informes de listas de ventas de CE, vaya a la ventana **Informes de la lista de ventas de CE**.  
 
 ## <a name="viewing-communications-with-your-tax-authority"></a>Visualización de comunicaciones con la autoridad fiscal.
 En algunos países, se intercambian mensajes con la autoridad fiscal cuando se envían informes. Puede ver el primer y último mensaje que envió o recibió mediante las acciones **Descargar mensaje de envío** y **Descargar mensaje de respuesta** .  

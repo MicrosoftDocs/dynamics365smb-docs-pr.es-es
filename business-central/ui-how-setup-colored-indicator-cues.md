@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalize, customize
-ms.date: 03/29/2017
+ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c93bd33d972b030ede02ad7b24a8127ff2174141
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e4ceaeae1a37a521d2d5bd22ab711757283e6321
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-a-colored-indicator-on-cues"></a>Configurar un indicador de color en pilas
-Puede configurar pilas para que aparezcan en la página **Inicio** a fin de que incluyan un indicador que cambia de color según los valores de datos de las pilas.
+Puede configurar pilas para que aparezcan en el Área de trabajo de los usuarios a fin de que incluyan un indicador que cambia de color según los valores de datos de las pilas.
 
 El indicador se muestra como una barra de color a lo largo del borde superior del mosaico de la pila. Proporciona una guía visual del estado de la actividad de la pila, que puede indicar condiciones favorables o desfavorables para que el usuario actúe en consecuencia. Por ejemplo, si una pila muestra las facturas de venta en curso, puede configurar que el indicador aparezca de color verde (favorable) si el número total de facturas de venta en curso es inferior a 10 y que aparezca de color rojo (desfavorable) si el total es mayor que 20.
 
@@ -29,7 +29,7 @@ En la ventana **Configuración de pila** se configuran indicadores para todas la
 Para configurar el indicador, especifique hasta dos valores de umbral que definan tres rangos de valores de datos (bajo, medio y alto) a los que se pueda aplicar otro color (o estilo).
 
 ## <a name="to-set-up-colored-indicators-on-cues"></a>Para configurar indicadores de color en las pilas
-1. En **Actividades** en la página **Inicio**, elija **Configurar pilas**.  
+1. En **Actividades** en el Área de trabajo, elija **Configurar pilas**.  
    Aparece la ventana **Configuración de pila**. La ventana muestra los indicadores que están actualmente configurados en pilas.
 2. Para modificar un marcador, edite los campos y modifique, por ejemplo, los valores para los distintos umbrales.  
 

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5b47a898b7e1d574abaf521e917f780fd105c4a8
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fa9f014519994ccd69200d8a015efb77bfbcb4fc
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-loading-the-inventory-profiles"></a>Detalles de diseño: Carga de los perfiles de inventario
@@ -82,7 +82,7 @@ Para organizar los numerosos orígenes de demanda y suministro, el sistema de pl
  El stock de seguridad es una cantidad que se aparta para compensar las incertidumbres en la demanda durante el plazo de reposición. No obstante, se pueden consumir si es necesario para cubrir una demanda. En dicho caso, el programa de planificación garantizaría que el stock de seguridad se sustituye rápidamente sugiriendo un pedido de aprovisionamiento para abastecer la cantidad de stock de seguridad en la fecha en la que se consume. Esta línea de planificación mostrará un icono de advertencia de excepción explicando al planificador que el stock de seguridad se ha consumido parcialmente o en su totalidad a través de un pedido de excepción para la cantidad que falta.  
 
 ## <a name="forecast-demand-is-reduced-by-sales-orders"></a>Los pedidos de ventas reducen la demanda de previsión  
- La previsión de producción expresa la demanda futura prevista. Mientras se introduce la demanda real, normalmente como pedidos de venta para productos fabricados, se consume la previsión.  
+ La previsión de demanda expresa la demanda futura prevista. Mientras se introduce la demanda real, normalmente como pedidos de venta para productos fabricados, se consume la previsión.  
 
  La previsión no se reduce realmente por los pedidos de venta; permanece igual. No obstante, las cantidades de previsión utilizadas en el cálculo de la planificación se reducen (por las cantidades del pedido de venta) antes de que la cantidad pendiente, si la hubiera, entre en el perfil del inventario de demanda. Cuando el sistema de planificación examina las ventas reales durante un periodo, se incluyen los pedidos de venta abiertos y los movimientos de producto de las ventas enviadas, a menos que se deriven de un pedido abierto.  
 

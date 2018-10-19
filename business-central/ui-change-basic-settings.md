@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 03/02/2018
+ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 30dcd44d84ecca873de7b3a0401325377987324f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b66a33d652d4229a32ed4672774e5b2bc2ed8833
 ms.contentlocale: es-es
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="changing-basic-settings"></a>Cambiar la configuración básica
-En la ventana **Mi configuración**, puede ver y cambiar la configuración básica de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Los cambios que realice sólo afectan a su área de trabajo; no a las áreas de trabajo de otros usuarios.  
+En la ventana [**Mi configuración**](https://businesscentral.dynamics.com?page=9176 "Vaya directamente a la página de configuración en Business Central"), puede ver y cambiar la configuración básica de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Los cambios que realice sólo afectan a su área de trabajo; no a las áreas de trabajo de otros usuarios.  
 
-## <a name="role-center"></a>Área de trabajo
+## <a name="role-center"></a> Área de trabajo
 El área de trabajo representa la página Inicio, una pantalla de inicio que está designada para las necesidades específicas del trabajo en una empresa. Dependiendo de su función, el Área de trabajo le brinda una descripción general del negocio, su departamento o sus tareas personales. También le ayuda a navegar por sus tareas diarias y encontrar el trabajo que le asignaron.
 
 -   En la parte superior, la navegación le permite cambiar entre clientes, proveedores, artículos y otras listas importantes de información. Del mismo modo, las acciones le permiten iniciar tareas, como crear una nueva factura de venta, directamente desde el Área de trabajo.
@@ -41,7 +41,7 @@ Una empresa funciona como un contenedor de datos en [!INCLUDE[d365fin](includes/
 La empresa predeterminada se llama CRONUS y solo contiene datos de demostración.
 
 > [!TIP]  
->   Si desea que se muestre un nombre distinto para la empresa en la aplicación (por ejemplo, como en el área de trabajo), establezca el campo **Nombre** en la página **Información empresa** o el campo **Nombre para mostrar** en la página **Empresas**.  
+>   Si desea que se muestre un nombre distinto para la empresa en la aplicación (por ejemplo, como en el área de trabajo), establezca el campo **Nombre** en la ventana **Información empresa** o el campo **Nombre para mostrar** en la ventana **Empresas**.  
 
 ## <a name="work-date"></a>Fecha de trabajo
 La fecha predeterminada de trabajo será normalmente la fecha actual. Es posible que tenga que cambiar temporalmente la fecha de trabajo para realizar tareas como la finalización de las transacciones de una fecha que no sea la fecha actual.
@@ -52,14 +52,14 @@ La fecha predeterminada de trabajo será normalmente la fecha actual. Es posible
 > [!IMPORTANT]  
 >   La fecha de trabajo se cambia solo hasta que cierre la empresa o hasta que la fecha cambie. Si abre una empresa diferente o la misma al día siguiente y debe utilizar una fecha de trabajo diferente, tendrá que volver a definirla.
 
-## <a name="region"></a>Región
+## <a name="region"></a> Región
 El valor **Región** determina cómo se muestran o se forman las fechas, los tiempos, los números, y divisas.   
 
 
-## <a name="language"></a>Idioma
+## <a name="language"></a> Idioma
 Cambia el idioma de la pantalla. Este campo aparece sólo cuando hay más de un idioma a elegir. 
 
-El idioma inicial lo determina el administrador o la configuración de su navegador cuando inicia sesión en [!INCLUDE[d365fin](includes/d365fin_md.md)]. El idioma que establezca se usará en todos los dispositivos desde los que inicie sesión, como un teléfono o una tableta. 
+El idioma inicial lo determina el administrador o la configuración de su navegador cuando inicia sesión en [!INCLUDE[d365fin](includes/d365fin_md.md)]. El idioma que establezca se usará en todos los dispositivos desde los que inicie sesión, como un teléfono o una tableta.
 
 ## <a name="changing-when-i-receive-notifications"></a>Cambio al recibir notificaciones
 Seleccione este vínculo para ver o cambiar las notificaciones que recibe sobre determinados eventos o cambios de estado, cuando va a facturar a un cliente que tiene un saldo vencido o cuando el inventario disponible es inferior a la cantidad que va a vender, por ejemplo. Para obtener más información, consulte [Notificaciones inteligentes](ui-smart-notifications.md).

@@ -1,26 +1,27 @@
 ---
 title: Resumen de tareas para administrar los pagos a proveedores | Documentos de Microsoft
 description: "Describe las tareas para administrar los pagos a proveedores o acreedores, incluido el registro de líneas de pago, y obtener un resumen de saldo vencido."
-services: project-madeira
-documentationcenter: 
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 04/26/2018
-ms.author: sgroespe
+ms.date: 10/01/2018
+ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: db28ad9a4adb45514b1d1287d269d8daefe64865
-ms.openlocfilehash: 6b912e8f54fd0e3fb4ac4a1eee3c376c209ffe65
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b22144fff3051ef35b9e3baf6e12ecd56ee12c49
 ms.contentlocale: es-es
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="making-payments"></a>Creación de pagos
-Cuando efectúa pagos a proveedores o reembolsos a empleados, las líneas de pago relacionadas se registran en la ventana **Diario de pagos**. Puede usar la función **Proponer pagos a proveedores** para buscar los pagos vencidos del proveedor. También puede usar el informe **Proveedor - Pagos por periodos** para obtener una visión general de los pagos vencidos del proveedor.
+
+Cuando efectúa pagos a proveedores o clientes, o reembolsos a empleados, las líneas de pago relacionadas se registran en la ventana **Diario de pagos**. El diario de pagos es un diario general que está optimizado para realizar pagos e incluye una serie de funciones potentes, como la función **Sugerir pagos de proveedores** que encuentra los pagos de proveedores vencidos, y el informe **Proveedor - Pagos por periodos** que muestra una descripción general de los pagos vencidos de proveedores.  
+
+Puede iniciar el proceso de pago desde las listas, fichas y movimientos de contabilidad para proveedores, clientes y empleados. Cada una de estas páginas tiene un botón que inicia el flujo de pagos y le ayuda a completar el diario de pagos.  
 
 Desde el diario de pagos, puede imprimir cheques automáticos o registrar cuándo se escriben los cheques. Si selecciona **Cheque automático** en el campo **Tipo pago por banco**, las líneas que representan cheques se deben imprimir antes de que se pueda registrar el diario de pagos.
 
@@ -33,7 +34,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 | Para | Vea |
 | --- | --- |
 |Información sobre las funciones básicas de la ventana **Diario de pagos**, basada en el diario general, para prepararse para registrar pagos a proveedores o empleados.|[Trabajar con diarios generales](ui-work-general-journals.md)|
-|Publique pagos a proveedores y reembolsos a clientes y, opcionalmente, aplique los pagos a las facturas/abonos sin pagar para cerrarlos como pagados.|[Registre pagos y reembolsos](payables-how-post-payments-refunds.md)|
+|Publique pagos a proveedores o empleados y reembolsos a clientes y, opcionalmente, aplique los pagos a las facturas/abonos sin pagar para cerrarlos como pagados.|[Registre pagos y reembolsos](payables-how-post-payments-refunds.md)|
 | Use una función en la ventana **Diario de pagos** para sugerir pagos de proveedores según los criterios seleccionados, como la fecha de vencimiento, la posibilidad de aplicar descuentos o su liquidez. |[Proponer pagos a proveedores](payables-how-suggest-vendor-payments.md) |
 | Emita cheques para realizar pagos a proveedor o reembolsos a cliente, ya sean en papel o automáticos. Anule los cheques antes o después del registro. |[Realizar pagos por cheque](payables-how-work-checks.md) |
 |Realice pagos electrónicos mediante la exportación de pagos a un archivo de banco que envíe a su banco para su procesamiento, incluido EFT (transferencia electrónica de fondos) en Norteamérica. |[Realizar pagos electrónicos](payables-how-export-payments-bank-file.md)|

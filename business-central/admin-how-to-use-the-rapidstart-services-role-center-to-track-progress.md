@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/05/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f6e3a1ccda36947c80fead68f9e97ee8ff1286bf
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 572dedec9c00369f405bfc6d3eb4031185f7c780
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="use-the-rapidstart-services-implementer-role-center"></a>Usar el Área de trabajo del implementador de RapidStart Services
@@ -27,7 +27,7 @@ A medida que ha continúa con el trabajo, puede asignar a cada tabla el estado q
 De forma predeterminada, cuando agrega una tabla a la hoja de trabajo de configuración, su estado se establece en blanco. Esto significa que la configuración de la tabla no ha empezado. Esto se refleja en el recuento **Sin iniciar** del mosaico **Actividades**.  
 
 ## <a name="to-update-the-status-of-a-configuration-table"></a>Procedimiento para actualizar el estado de una tabla de configuración  
-1.  Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Hoja de configuración** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hoja de configuración** y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Editar lista**.  
 3.  Seleccione una tabla y, en el campo **Estado**, elija el estado correspondiente.  
 4.  Elija el botón **Aceptar**.  

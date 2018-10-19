@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 28541315244ba5c6e36f62611bac5e5e3c48c960
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 3b6ed1ffe162f0bdb4d1af1dd84c34c6f0de91bb
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-alternative-addresses-for-contacts"></a>Configurar dirección alternativa para contactos
@@ -25,7 +25,7 @@ Puede asignar una dirección alternativa a la que pueda enviar correo e informac
 ## <a name="to-assign-an-alternate-address"></a>Para asignar direcciones alternativas
 1. Abra el contacto.
 2. Elija la acción **Dirección alternativa** y, a continuación, elija **Ficha**. Se abre la ventana **Lista dir. alt. contacto**.
-3. Escriba una nueva dirección alternativa y rellene los campos de ventana **Dirección de contacto alternativa**.
+3. Escriba una nueva dirección alternativa y rellene los campos de la ventana **Dirección de contacto alternativa**.
 
 Repita estos pasos para asignar todas las direcciones alternativas que desee. Para cada dirección alternativa puede especificar uno o varios rangos de fechas.
 

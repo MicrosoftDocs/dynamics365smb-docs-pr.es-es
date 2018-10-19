@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 11/23/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e25721b0c79a87f4201314a0f3556f969a110e18
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e114142be1708447931fb475074245b57564f6b3
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-known-item-application-issue"></a>Detalles de diseño: Problema de liquidación de producto conocido
@@ -36,8 +36,6 @@ El artículo comienza enumerando los síntomas típicos del problema, seguido de
      |333|28/01/2018|Venta|Albarán venta|102043|EXAMINAR|AZUL|-1|-10|-1|-1|Sí|  
      |334|28/01/2018|Venta|Albarán venta|102043|EXAMINAR|AZUL|1|10|1|1|Sí|  
 
-<!--![Why is inventory zero 1](media/helene/TechArticleInventoryZero1.png "Whyisinventoryzero\_1")-->
-
 ## <a name="basics-of-item-application"></a>Conceptos básicos de la liquidación de producto  
  Se crea un movimiento de liquidación de producto para cada transacción de inventario para vincular el destinatario del coste a su fuente de coste, de modo que el coste pueda reenviarse de acuerdo con el método de valoración de existencias. Para obtener más información, consulte [Detalles de diseño: Liquidación de productos](design-details-item-application.md).  
 
@@ -56,7 +54,7 @@ El artículo comienza enumerando los síntomas típicos del problema, seguido de
 
  El diagrama siguiente muestra cómo se crean las liquidaciones de cantidad.  
 
-![Por qué el inventario es cero 2](media/helene/TechArticleInventoryZero2.png "Whyisinventoryzero\_2")
+![Flujo de ajuste de costes de compra a venta](media/helene/TechArticleInventoryZero2.png "Flujo de ajuste de costes de compra a venta")
 
  Tenga en cuenta que el movimiento de producto 1 (Compra) es el proveedor del producto y la fuente de coste del movimiento contable liquidado, movimiento de producto 2 (Venta).  
 
@@ -72,7 +70,6 @@ El diagrama siguiente muestra cómo se crean las liquidaciones de coste.
 |---------|------------|----------|-------------|------------|--------|-------------|--------|------------------------|-----------------|------------------|----|  
 |333|28/01/2018|Venta|Albarán venta|102043|EXAMINAR|AZUL|-1|-10|-1|-1|Sí|  
 |334|28/01/2018|Venta|Albarán venta|102043|EXAMINAR|AZUL|1|10|1|1|Sí|  
-<!--![Why is inventory zero 3](media/helene/TechArticleInventoryZero3.png "Whyisinventoryzero\_3")-->
 
  Tenga en cuenta que el movimiento de producto de entrada 3 (Devolución venta) es un destinatario del coste del movimiento de producto de salida 2 (Venta).  
 
@@ -81,7 +78,7 @@ El diagrama siguiente muestra cómo se crean las liquidaciones de coste.
 
  El diagrama siguiente muestra el flujo de costes.  
 
-![Por qué el inventario es cero 4](media/helene/TechArticleInventoryZero4.png "Whyisinventoryzero\_4")
+![Flujo de ajuste de costes de venta a devolución de ventas](media/helene/TechArticleInventoryZero4.png "Flujo de ajuste de costes de venta a devolución de ventas")
 
  Tenga en cuenta que el coste se envía al movimiento de producto 2 (Venta), a continuación al movimiento de producto 3 (Devolución venta) y finalmente al movimiento de producto 4 (Venta 2).  
 
@@ -94,7 +91,7 @@ El diagrama siguiente muestra cómo se crean las liquidaciones de coste.
 
  El diagrama siguiente ilustra cómo se realizan las liquidaciones de productos en ambos escenarios.  
 
-![Por qué el inventario es cero 6](media/helene/TechArticleInventoryZero6.png "Whyisinventoryzero\_6")  
+![El flujo de ajuste de costes va en ambas direcciones](media/helene/TechArticleInventoryZero6.png "El flujo de ajuste de costes va en ambas direcciones")  
 
  Tenga en cuenta que se realiza una liquidación de coste (representada por las flechas azules) para asegurar que el movimiento de producto 2 (Devolución ventas) tenga los mismos costes que el movimiento de producto que invierte, movimiento de producto 1 (Venta 1). Sin embargo, no se crea ninguna liquidación de cantidad (representada por las flechas rojas).  
 
@@ -115,7 +112,6 @@ El diagrama siguiente muestra cómo se crean las liquidaciones de coste.
 |---------|------------|----------|-------------|------------|--------|-------------|--------|------------------------|-----------------|------------------|----|---------|
 |333|28/01/2018|Venta|Albarán venta|102043|EXAMINAR|AZUL|-1|-10|-1|-1|Sí|N.º|  
 |334|28/01/2018|Venta|Albarán venta|102043|EXAMINAR|AZUL|1|10|1|1|Sí|**Sí**|  
-<!--![Why is inventory zero 7](media/helene/TechArticleInventoryZero7.png "Whyisinventoryzero\_7")-->
 
 -   En la ventana **Histórico albaranes venta**, busque el campo **Liquid. mov. pdto** para ver si se rellena el campo y en ese caso a qué movimiento del producto del artículo se liquida el albarán de devolución.  
 

@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/26/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 41a8ba231eb6fb9eaebe2168294ded0b0378fd81
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 4fe4c7eaf412bd6219b51a06f989c5a8508c4410
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Ejecutar la planificación completa, MPS o MRP
 Los términos "ejecutar la hoja de planificación" o "ejecutar MRP" hacen referencia al cálculo del programa de producción principal y a las necesidades de material, en función de la demanda real y prevista. El programa de planificación puede calcular tanto el Programa de planificación principal (MPS) como la Planificación de necesidades de material (MRP) cuando se solicite, o calcular ambas cosas a la vez.  
 
--   MPS se refiere al cálculo de un programa de producción principal basado en la demanda real y en la previsión de producción. El cálculo de MPS se utiliza para productos finales que tengan una previsión o una línea de pedido de venta. Estos productos se denominan "productos de MPS" y se identifican dinámicamente al iniciarse el cálculo.  
--   MRP se refiere al cálculo de las necesidades de material basado en la demanda real de componentes y en la previsión de producción de componentes. Sólo se calcula para los productos que no son productos de MPS. La finalidad de MRP es ofrecer planes formales con fases temporales, por producto, para suministrar el producto adecuado, en el momento correcto, en el lugar convenido y en la cantidad justa.  
+-   MPS se refiere al cálculo de un programa de producción principal basado en la demanda real y en la previsión de demanda. El cálculo de MPS se utiliza para productos finales que tengan una previsión o una línea de pedido de venta. Estos productos se denominan "productos de MPS" y se identifican dinámicamente al iniciarse el cálculo.  
+-   MRP se refiere al cálculo de las necesidades de material basado en la demanda real de componentes y en la previsión de demanda de componentes. Sólo se calcula para los productos que no son productos de MPS. La finalidad de MRP es ofrecer planes formales con fases temporales, por producto, para suministrar el producto adecuado, en el momento correcto, en el lugar convenido y en la cantidad justa.  
 
 Los algoritmos de planificación usados tanto para MPS como para MRP son idénticos. Los algoritmos de planificación relativos a saldos netos reutilizan órdenes de reposición existentes y mensajes de acción. El proceso del sistema de planificación examina lo que se necesita o se va a necesitar (la demanda) y lo que hay físicamente o se espera que haya (el suministro). Cuando estas cantidades se comparan, [!INCLUDE[d365fin](includes/d365fin_md.md)] proporciona mensajes de acción. Los mensajes de acción son sugerencias para crear un pedido nuevo, para cambiar un pedido (la cantidad o la fecha) o para cancelar un pedido ya solicitado. El término "pedido" incluye pedidos de compra, pedido de ensamblado, pedidos de producción y pedidos de transferencia.
 
@@ -35,7 +35,7 @@ Para obtener buenos resultados en la planificación, se deben haber configurado 
 
 -   **Calc. planif. regenerativa**: esta función procesa o vuelve a generar el plan de materiales. El proceso comienza con la eliminación de todos los pedidos de aprovisionamiento cargados actualmente. Se vuelven a planificar todos los productos de la base de datos.  
 -   **Calc. plan. cambio periodo**: esta función procesa un plan de cambio neto. Los productos se tienen en cuenta en una planificación de cambio neto de dos tipos de cambios:  
-    - **Cambios de demanda y suministro:** son las modificaciones de las cantidades en los pedidos de venta, las previsiones de producción, los pedidos de ensamblado, las órdenes de producción o los pedidos de compra. También se considera como cambio de cantidad un cambio en el nivel de existencias no planificado.  
+    - **Cambios de demanda y suministro:** son las modificaciones de las cantidades en los pedidos de venta, las previsiones de demanda, los pedidos de ensamblado, las órdenes de producción o los pedidos de compra. También se considera como cambio de cantidad un cambio en el nivel de existencias no planificado.  
     - **Cambios de parámetros de planificación:** son cambios en el stock de seguridad, el punto de pedido, la ruta, la lista de materiales, y cambios en el cálculo de ciclo o plazo de entrega.  
 -   **Traer mensajes acción:** esta función sirve como herramienta de planificación a corto plazo, ya que emite mensajes de acción para alertar al usuario sobre las modificaciones realizadas desde la última vez que se calculó el plan regenerativo o de cambio neto.  
 
@@ -47,13 +47,13 @@ Con cada método previsto, [!INCLUDE[d365fin](includes/d365fin_md.md)] genera la
 >  La función Traer mensajes de acción se puede ejecutar entre planes de cambio neto y regenerativos para obtener una vista inmediata del efecto de los cambios en el programa, pero no se debe usar como sustituto de los procesos de los dos planes completos.  
 
 ## <a name="to-calculate-the-planning-worksheet"></a>Para calcular la hoja de planificación  
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Hojas de planificación** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hojas planificación** y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Calcular planificación regenerativa** para abrir la ventana **Calcular plan**.  
 3.  En la ficha desplegable **Opciones**, rellene los campos tal como se describe en la tabla siguiente.  
 
     |Campo|Descripción|  
     |---------------------------------|---------------------------------------|  
-    |**MPS**|Seleccione para iniciar el cálculo de un programa de producción maestro. En la ejecución, se tienen en cuenta los productos con pedidos de venta abiertos o con previsiones de producción.|  
+    |**MPS**|Seleccione para iniciar el cálculo de un programa de producción maestro. En la ejecución se tienen en cuenta los productos con pedidos de venta abiertos o previsiones de demanda.|  
     |**MRP**|Seleccione para iniciar el cálculo de la planificación de requisitos de material. En esta ejecución se tienen en cuenta los productos con necesidades dependientes. Normalmente, MPS y MRP se ejecutan al mismo tiempo. Para ejecutar MPS y MRP al mismo tiempo, el campo de **Cálculo agrupado MPS/MRP** debe estar seleccionado en la ficha desplegable **Planificación** en la ventana de **Configuración fabricación**.|  
     |**Fecha inicial**|Esta fecha se utiliza para evaluar la disponibilidad de existencias. Si la cantidad física de un producto está por debajo del punto de pedido, el programa crea un pedido de reposición en el futuro, a partir de esta fecha. Si un producto está por debajo del stock de seguridad (a la fecha inicial), el sistema programa un pedido de reposición para la fecha inicial de planificación.|  
     |**Fecha final**|Es la fecha final del horizonte de la planificación. Con posterioridad a esta fecha no se tienen en cuenta ni la demanda ni el aprovisionamiento. Si el ciclo de reaprovisionamiento de un producto va más allá de la fecha final, el horizonte de planificación efectivo equivale a fecha pedido + ciclo reaprovisionamiento.<br /><br /> El horizonte de planificación se refiere a la duración del plan. Si el horizonte es demasiado breve, los productos con un plazo más largo no se piden a tiempo. Si es demasiado largo, se invierte demasiado tiempo en revisar y procesar la información y es probable que cambie antes de lo necesario. Se puede definir un horizonte de planificación para la producción y otro más largo para las compras, pero no es obligatorio. Se debe definir un horizonte de planificación para compras y producción que cubra el plazo acumulado de los componentes.|  

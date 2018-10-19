@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 75e170f10927844ca37a001812e78e062e88c451
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8e0668e39891f6e0924afd8d9ec3ee39af95e587
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="work-with-blanket-sales-orders"></a>Trabajar con pedidos de venta abiertos
@@ -30,7 +30,7 @@ Un ejemplo en el que se podría utilizar un pedido abierto de venta sería un ca
 > Los pedidos de compra abiertos funcionan de manera similar a los pedidos de venta abiertos. Esta documentación no cubre los pedidos de compra abiertos.
 
 ## <a name="to-create-a-blanket-sales-order"></a>Para crear un pedido abierto de venta  
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Pedidos de venta abiertos** y, a continuación, seleccione el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos de venta abiertos** y luego elija el enlace relacionado.  
 2. Seleccione la acción **Nuevo**.  
 3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Deje el campo **Fecha pedido** en blanco. Cuando se crean pedidos de venta independientes a partir del pedido abierto, la fecha que se definirá para el pedido de venta será igual que la fecha de trabajo real.
@@ -58,7 +58,7 @@ Lo siguiente se aplica a los pedidos de venta después de que se hayan creado a 
 ## <a name="to-view-the-status-of-a-blanket-purchase-order"></a>Para ver el estado de un pedido abierto de compra  
 Puede ver el estado de los pedidos de abiertos de venta en la ventana **Estad. pedido abierto compras**. Esto puede ser importante cuando empiece a facturar el pedido que se crea a partir del pedido abierto de compra.  
 
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Pedidos de venta abiertos** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos de compra abiertos** y luego elija el enlace relacionado.  
 2.  Seleccione un pedido abierto de compra, y después seleccione **Estadísticas** .  
 3.  En la ficha desplegable **General** de la ventana **Estad. pedido abierto compras**, puede ver información resumida sobre el pedido completo basada en la cantidad total de los distintos **campos Cantidad** de las líneas del pedido abierto de compra.  
 
@@ -70,7 +70,7 @@ Puede ver el estado de los pedidos de abiertos de venta en la ventana **Estad. p
 ## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Visualización de líneas de pedido abierto de venta registradas y no registradas   
 El vínculo entre el pedido abierto de venta y el pedido de venta de origen, y cualquier otro documento de venta, se mantiene después de registrar como lista de líneas de factura de pedido de venta registradas y sin registrar.  
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Pedidos de venta abiertos** y, a continuación, seleccione el vínculo relacionado.
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos de venta abiertos** y luego elija el enlace relacionado.
 2. Abra el pedido abierto de venta que desea ver.
 3. Para ver los movimientos no registrados, seleccione la acción **Línea** y, a continuación, la acción **Líneas no registradas**. Elija una de las siguientes opciones.  
 

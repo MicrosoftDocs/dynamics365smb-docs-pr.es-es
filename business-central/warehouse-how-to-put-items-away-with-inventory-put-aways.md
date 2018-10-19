@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/31/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8c0fd365ddcacf08a3fa49d70d5ebd0233ff5014
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b31591784c927f67f541d997f54e97ef696f63bb
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Ubicar productos con ubicación de inventario
@@ -31,11 +31,11 @@ Puede crear una ubicación de inventario de tres formas:
 ## <a name="to-request-an-inventory-put-away-by-releasing-the-source-document"></a>Para solicitar una ubicación de inventario lanzando el documento de origen
 En el caso de pedidos de compra, pedidos de devolución de venta, pedidos de transferencia de entrada y pedidos de ensamblado, para crear la solicitud de almacén, lance el pedido. A continuación se describe cómo hacerlo des de un pedido de compra.  
 
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Pedidos de compra** y, a continuación, seleccione el vínculo relacionado.
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos compra** y luego elija el enlace relacionado.
 2. Seleccione el pedido de compra que desea lanzar, y después seleccione **Lanzar**.  
 
     En el caso de los pedidos de producción, se crea la solicitud de almacén creando una solicitud de entrada a partir del pedido de producción lanzado.  
-3.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Órdenes producción lanzadas** y, a continuación, seleccione el vínculo relacionado.  
+3.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer") escriba **Órdenes producción lanzadas** y luego elija el enlace relacionado.  
 4. Seleccione la acción **Crear solicitud entrada almacén**.  
 
 > [!NOTE]  
@@ -45,7 +45,7 @@ Cuando se crea la solicitud de almacén, un empleado de almacén asignado para r
 
 ## <a name="to-create-an-inventory-put-away-based-on-the-source-document"></a>Para crear una ubicación de inventario según el documento de origen
 Ahora que se ha creado la solicitud, el empleado del almacén puede crear un nueva ubicación de inventario basado en el documento de origen lanzado.   
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Ubicac. inventario** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Ubicac. inventario** y luego seleccione el enlace relacionado.  
 2. Seleccione la acción **Nuevo**.  
 3. En el campo **Documento origen**, seleccione el tipo de documento de origen que está ubicando.  
 4. En el campo **Cód. procedencia mov.**, seleccione el documento de origen.  
@@ -58,7 +58,7 @@ Ahora que se ha creado la solicitud, el empleado del almacén puede crear un nue
 3. Elija el botón **Aceptar**. Se crea una ubicación de inventario nueva.
 
 ## <a name="to-create-multiple-inventory-put-aways-with-a-batch-job"></a>Para crear varias Ubicaciones de existencias con un proceso  
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Crear ubicac./pick. exist.** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Crear ubicac./ pick. exist.** y luego elija el enlace relacionado.  
 2.  En la ficha desplegable **Solicitud almacén** de la ventana respectiva, utilice los campos **Documento origen** y **Cód. procedencia mov.** para filtrar determinados tipos de documentos o intervalos de números de documento.  
 3.  En la ficha desplegable **Opciones**, seleccione la casilla **Crear ubicación exist.**
 4.  Elija el botón **Aceptar**. Se crean las ubicaciones de inventario especificadas.

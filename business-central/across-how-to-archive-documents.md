@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 12/21/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 74460bfcff36d293006229f4a89719f8c05c2631
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6b1b23c062fdb1c4558a292c7aa454ae24ff3c71
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="archive-documents"></a>Archivar documentos
@@ -26,7 +26,7 @@ Puede archivar pedidos de compra y venta, presupuestos, órdenes de devolución 
 Puede configurar el archivado automático de pedidos de venta y compra, presupuestos, pedidos abiertos y órdenes de devolución antes de eliminar documentos.
 
 El siguiente procedimiento describe cómo configurar el archivado automático de los documentos de ventas. Los pasos son parecidos para documentos de compra.
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Conf. ventas y cobros** y, a continuación, seleccione el vínculo relacionado.
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración ventas y cobros** y luego elija el enlace relacionado.
 2. En la ventana **Conf. ventas y cobros**, rellene los campos de la manera siguiente:
 
 |Campo|Description|
@@ -38,7 +38,7 @@ El siguiente procedimiento describe cómo configurar el archivado automático de
 ## <a name="to-archive-a-sales-order"></a>Archivar pedidos de venta
 El siguiente procedimiento describe cómo archivar una orden de venta. Los pasos son similares para todos los pedidos, pedidos abiertos, pedidos de devolución y presupuestos.
 
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Pedidos de venta** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.  
 2.  Abra un pedido de venta del que desee archivar.  
 3.  Elija la acción **Archivar documento**.
 
@@ -47,7 +47,7 @@ El pedido de ventas está archivado. Puede verlo en la ventana **Pedidos de vent
 ## <a name="to-recreate-a-sales-order-from-the-archive"></a>Para volver a crear un pedido de venta desde el archivo
 El siguiente procedimiento describe cómo volver a crear una orden de venta. Los pasos son similares para todos los pedidos, pedidos abiertos, pedidos de devolución y presupuestos.
 
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Pedidos de venta archivados** y, a continuación, seleccione el vínculo relacionado.
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos de venta archivados** y luego elija el enlace relacionado.
 2.  Seleccione el pedido de venta archivado que desea volver a crear y después seleccione **Volver a crear**.  
 
 El pedido de venta se crea y se agrega a la ventana **Pedidos venta**.
@@ -55,7 +55,7 @@ El pedido de venta se crea y se agrega a la ventana **Pedidos venta**.
 ## <a name="to-delete-archived-sales-orders"></a>Para eliminar pedidos de venta archivados
 El siguiente procedimiento describe cómo eliminar pedidos de venta archivados. Los pasos son similares para otros documentos de compra y venta archivados.
 
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Eliminar versiones pedido venta archiv.** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Eliminar versiones pedido venta archiv.** y luego elija el enlace relacionado.  
 2.  En la ventana **Eliminar versiones pedido venta archiv.**, seleccione los filtros apropiados.  
 3.  Elija el botón **Aceptar**.
 

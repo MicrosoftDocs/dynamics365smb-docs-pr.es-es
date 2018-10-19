@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
-ms.date: 08/11/2017
+ms.date: 10/01/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: 9b36c5692673ddf54be0572c8a2f035f67311d60
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 82191dc19a1a40d8823c8292010e5b01e16f9f64
 ms.contentlocale: es-es
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="register-employees"></a>Registrar empleados
@@ -30,14 +30,14 @@ Los procedimientos siguientes describen cómo crear una ficha inicial del emplea
 > Puede reembolsar a los empleados por sus gastos durante las actividades comerciales. Para ello, debe rellenar los campos de la ficha desplegable **Pagos** en la ventana **Ficha empleado**. Para obtener más información, consulte [Registro y reembolso de los costes de los empleados](finance-how-record-reimburse-employee-expenses.md).
 
 ## <a name="to-set-up-an-employee"></a>Para configurar un empleado
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Empleados** y, a continuación, seleccione el vínculo relacionado.
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Empleados** y luego elija el enlace relacionado.
 2. Seleccione la acción **Nuevo**.
 3. En la ventana **Ficha de empleado**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-insert-a-picture-of-an-employee"></a>Para insertar una imagen de un empleado
 Si tiene una imagen de un empleado en formato .BMP, puede insertarla en su ficha.
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Empleados** y, a continuación, seleccione el vínculo relacionado.
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Empleados** y luego elija el enlace relacionado.
 2. Abra la ficha del empleado pertinente.
 3. En el cuadro informativo **Imagen empleado**, seleccione el botón desplegable y elija **Importar**.
 4. En la ventana **Seleccionar una imagen para cargar** , seleccione el botón **Elegir**.
@@ -50,7 +50,7 @@ En la ficha de empleado, puede configurar información como la afiliación al si
 
 Utilice direcciones alternativas para llevar un control de la ubicación de los empleados, por ejemplo, si son destinados al extranjero, están de viaje de negocios por mucho tiempo o se encuentran en una residencia de verano.
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Empleados** y, a continuación, seleccione el vínculo relacionado.
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Empleados** y luego elija el enlace relacionado.
 2. Abra la ficha del empleado pertinente.
 3. Seleccione la acción **Direcciones alternativas**.
 4. En la ventana **Lista de direcciones alternativas**, rellene los campos según sea necesario.

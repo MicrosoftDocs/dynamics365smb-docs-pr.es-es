@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
-ms.date: 08/13/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ded6baf8247bfbc34063f5595d42ebaf6bb300d8
-ms.openlocfilehash: 0407e0c34578e6487b37f4254f6a600fe99e967a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 33ccc1dbe9654245129bdbd760896054c10cd2f1
 ms.contentlocale: es-es
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Exportar los datos de negocio a Excel
@@ -39,7 +39,7 @@ Por supuesto, puede exportar todas las páginas, pero puede que sea más de lo q
 * Bancos  
 * Productos  
 
-Si también desea todas las transacciones financieras, es una gran cantidad de datos, por lo que la exportación suele tardar varios minutos. Las transacciones financieras se muestran en la página **Movs. contabilidad**.  
+Si también desea todas las transacciones financieras, es una gran cantidad de datos, por lo que la exportación suele tardar varios minutos. Las transacciones financieras se muestran en la ventana **Movs. contabilidad**.  
 
 Le recomendamos que también considere la posibilidad de exportar los datos de las páginas siguientes:  
 

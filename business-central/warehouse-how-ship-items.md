@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/21/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 54f554e2e0acf657fdf77caa863ff4e028734418
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ebd644745ed7d914bdccfe59ecc3924ed1b542a5
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="ship-items"></a>Enviar productos
@@ -29,7 +29,7 @@ Cuando envía productos de un almacén que está configurado para realizar el pr
 
 ## <a name="to-ship-items-with-a-sales-order"></a>Para enviar productos con un pedido de ventas
 A continuación se describe cómo recibir productos con un pedido de compra. Los pasos son iguales para las órdenes de devolución de compra, las órdenes de servicio y las órdenes de transferencia de salida.  
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Pedidos de venta** y, a continuación, seleccione el vínculo relacionado.
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.
 2. Abra un pedido de venta existente o cree uno nuevo. Para obtener más información, vea [Vender productos](sales-how-sell-products.md).
 3. Escriba la cantidad recibida en el campo **Cantidad a enviar**.
 
@@ -41,7 +41,7 @@ Primero cree un documento de envío de un documento de origen de negocio. A cont
 
 ### <a name="to-create-a-warehouse-shipment"></a>Para crear un envío de almacén
 Normalmente, el empleado responsable de los envíos crea un envío de almacén.
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Envíos almacén** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Envíos de almacén** y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Nuevo**.  
 
     Rellene los campos en la ficha desplegable **General**. Al recuperar las líneas del documento de origen, se copia parte de la información en cada línea.  
@@ -74,12 +74,12 @@ Cuando tenga las líneas que desea enviar, puede iniciar el proceso que envía l
 
 ### <a name="to-pick-and-ship"></a>Para realizar el picking y enviar
 Normalmente, un empleado de almacén responsable del picking crea un documento de picking, o bien abre un documento ya creado de picking.
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Envíos almacén** y, a continuación, seleccione el vínculo relacionado.
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Envíos de almacén** y luego elija el enlace relacionado.
 2. Seleccione el envío de almacén para el que desea realizar el picking, y después seleccione la acción **Crear picking**.
 3. Rellene los campos en la ventana de solicitud y, a continuación, elija el botón **Aceptar**. Se crea el documento de picking de almacén especificado.
 
     Alternativamente, abra un picking de almacén existente.
-4. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Picking** y, a continuación, seleccione el vínculo relacionado. Seleccione el picking de almacén con el que desea trabajar.
+4. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Picking** y luego elija el enlace relacionado. Seleccione el picking de almacén con el que desea trabajar.
 
     Si el almacén está configurado para utilizar ubicaciones, las líneas de picking se han convertido a líneas de acción Traer y Colocar.
 

@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.date: 07/14/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9309868cbcee8fb969c318acfb6ce8844e78b687
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 035eb85050ec6feb9e65ee924ebf4dbd2064e5ba
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -55,7 +55,7 @@ Si necesita más configuraciones avanzadas para su consolidación, puede configu
 [!INCLUDE[d365fin](includes/d365fin_md.md)] Le permite configurar una lista de las empresas que se van a consolidar, comprobar los datos contables antes de proceder a la consolidación, importar archivos y generar informes de consolidación.  
 
 1. Inicie sesión en la empresa consolidada.
-2. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Unidades de negocio** y, a continuación, seleccione el vínculo relacionado.  
+2. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Unidades de negocio** y luego elija el enlace relacionado.  
 3. Elija **Nuevo** y, a continuación, rellene los campos requeridos.  
 
 Si su empresa utiliza una divisa extranjera debe especificar el tipo de cambio que debe utilizarse en la consolidación. También debe introducir la información de consolidación en las cuentas de la empresa. Estos procesos se describen en las siguientes secciones.
@@ -63,7 +63,7 @@ Si su empresa utiliza una divisa extranjera debe especificar el tipo de cambio q
 ### <a name="to-prepare-general-ledger-accounts-for-consolidation"></a>Para preparar los libros contables para la consolidación
 Si el plan de cuentas de la unidad de negocio difiere de la empresa consolidada, debe preparar los libros contables para la consolidación. Puede especificar las cuentas para apuntar debe y haber y el método a utilizar para traducir las divisas en la empresa consolidada. Por ejemplo, esto es útil en caso de ejecutar con frecuencia el informe.
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Plan de cuentas** y, a continuación, seleccione el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Plan de cuentas** y luego elija el enlace relacionado.  
 2. Abra la ficha de la cuenta, y rellene los campos de la ficha desplegable **Consolidación**.
 
 ### <a name="to-specify-exchange-rates-for-consolidations"></a>Para especificar los tipos de cambio para las consolidaciones
@@ -82,9 +82,9 @@ En la tabla siguiente se describen los métodos del tipo de cambio que puede uti
 
 Para especificar los tipos de cambio para las unidades de negocio, realice los pasos siguientes:
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Unidades de negocio** y, a continuación, seleccione el vínculo relacionado.  
-2. En la página **Lista de unidades de negocio**, seleccione la unidad de negocio y, después, seleccione la acción **Tipo de cambio medio (manual)**.   
-3. En la página **Modificar tipo de cambio**, el contenido del campo **Tipo de cambio relacionado** se ha copiado de la tabla **Tipo de cambio de divisa**, pero se puede modificar. Cierre la página.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Unidades de negocio** y luego elija el enlace relacionado.  
+2. En la ventana **Lista de unidades de negocio**, seleccione la unidad de negocio y, después, seleccione la acción **Tipo de cambio medio (manual)**.   
+3. En la ventana **Modifica triangulación**, el contenido del campo **Valor t.c. divisa relacionada** se ha copiado de la tabla **Tipo cambio divisa**, pero se puede modificar. Cierre la página.  
 4. Seleccione la acción **Tipo de cambio al cierre**.  
 5. En el campo **Cantidad del tipo de cambio relacionado**, introduzca el tipo de cambio.
 
@@ -108,7 +108,7 @@ Si posee únicamente parte de una empresa, puede incluir un porcentaje de cada t
 Puede probar los datos antes de transferirlos a la empresa consolidada. [!INCLUDE[d365fin](includes/d365fin_md.md)] busca las diferencias entre la información encontrada de las unidades de negocio y la empresa consolidada. Por ejemplo, si los números de cuenta o códigos de dimensión son diferentes. Deberá corregir los errores antes de ejecutar el informe. Puede probar la base de datos o, si va a importar datos desde un archivo XML, puede probar el archivo.   
 
 1. Abra la empresa consolidada.  
-2. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Unidades de negocio** y, a continuación, seleccione el vínculo relacionado.  
+2. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Unidades de negocio** y luego elija el enlace relacionado.  
 3. Realice una de las siguientes acciones:  
 
     * Para probar un archivo, elija la acción **Probar archivo**, escriba el nombre del archivo y después seleccione **Imprimir**.  

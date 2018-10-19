@@ -1,7 +1,6 @@
 ---
 title: Liquidar pagos para los documentos de venta no pagados | Documentos de Microsoft
 description: Los importes pagados por clientes se liquidan en los documentos de venta relacionados y se registra el pago para actualizar los movimientos de cliente, contabilidad y banco.
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,35 +8,38 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipts, customer payment
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: cd2496fef564004cabebc4c3010c0d3164fd28dc
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6207e13540e2eed5f7707c551c2772aed33c5540
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="reconcile-customer-payments-manually-from-a-list-of-unpaid-sales-documents"></a>Conciliar pagos manualmente de una lista de documentos de venta sin abonar
-Cuando sus clientes han realizado pagos a su cuenta de banco electrónico, debe liquidar cada importe pagado al documento de venta relacionado y después registrar el pago para actualizar los movimientos de cliente, contabilidad y banco.
+Cuando sus clientes han realizado pagos a su cuenta de banco electrónico, debe liquidar cada importe pagado al documento de venta relacionado y después registrar el pago para actualizar los movimientos de cliente, contabilidad y banco. En función de sus necesidades comerciales, puede recibir el pago y registrarlo de diferentes maneras: de forma manual, automática y mediante servicios de pago.  
 
 > [!NOTE]  
 >   Puede realizar las mismas tareas, incluidos los pagos de proveedor, en la ventana **Diario de conciliación de pagos** usando las funciones para la importación automática de extractos bancarios y la conciliación de cuentas bancarias. Para obtener más información, vea [Conciliar pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md).
 
-La ventana **Registro de pago** se ha diseñado para ayudarle en las tareas relacionadas con cuentas de contrapartida internas mediante el uso de cifras de efectivo reales para garantizar que los pagos se cobran por parte de los clientes de manera eficaz. Esta herramienta de procesamiento de pagos le permite verificar y registrar rápidamente los pagos concretos o totales, procesar pagos al descuento y buscar documentos no pagados específicos para los que se realiza el pago.
+La ventana **Registrar pagos de cliente** se ha diseñado para ayudarle en las tareas relacionadas con cuentas de contrapartida internas mediante el uso de cifras de efectivo reales para garantizar que los pagos se cobran por parte de los clientes de manera eficaz. Esta herramienta de procesamiento de pagos le permite verificar y registrar rápidamente los pagos concretos o totales, procesar pagos al descuento y buscar documentos no pagados específicos para los que se realiza el pago.
 
 Los pagos para los diferentes clientes que tienen distintas fechas de pago se deben registrar como pagos individuales. Los pagos para el mismo cliente con la misma fecha de pago se pueden registrar como pago total. Esto puede ser útil, por ejemplo, cuando un cliente ha realizado un pago único que cubre varias facturas de venta.
 
 ## <a name="to-set-up-the-payment-registration-journal"></a>Configurar el diario de registros de pago
-Dado que puede registrar distintos tipos de pago en diferentes cuentas de saldo, debe seleccionar una cuenta de saldo en la ventana **Configuración de registro de pago** antes de empezar a procesar los pagos de cliente. Si siempre registra en la misma cuenta de saldo, puede definir esa cuenta como la predeterminada y evitar este paso cada vez que abra la ventana **Registro de pago**.  
+Dado que puede registrar distintos tipos de pago en diferentes cuentas de saldo, debe seleccionar una cuenta de saldo en la ventana **Configuración de registro de pago** antes de empezar a procesar los pagos de cliente. Si siempre registra en la misma cuenta de saldo, puede definir esa cuenta como la predeterminada y evitar este paso cada vez que abra la ventana **Registrar pagos de cliente**.  
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Configuración de registro de pago** y, a continuación, seleccione el vínculo relacionado.
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración de registro de pago** y luego elija el enlace relacionado.
 
-    Alternativamente, en la venta **Registro de pago**, seleccione la acción **Configurar**.    
+    Alternativamente, en la venta **Registrar pagos de cliente**, seleccione la acción **Configurar**.    
 2. Rellene los campos de la ventana **Configuración del registro de pago**. Seleccione un campo para obtener una breve descripción del campo o el enlace a la información relacionada.  
 
-## <a name="to-reconcile-payments-individually"></a>Conciliar pagos individualmente
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Registro de pago** y, a continuación, seleccione el vínculo relacionado.  
+## <a name="to-register-customer-payments-individually"></a>Para registrar los pagos del cliente por separado
+
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Registrar pagos de cliente** y luego elija el enlace relacionado.  
+ 
+    La página **Registrar pagos de cliente** muestra todos los documentos registrados para los que puede registrarse un pago. La misma página también está disponible desde la lista **Clientes** y la ficha de cliente donde se filtrará automáticamente para el cliente especificado.  
 2. Seleccione la casilla **Pago realizado** en la línea que representa el documento registrado para el que se ha realizado un pago.
 
     Si se selecciona la casilla de verificación **Rellenar fecha de recepción automáticamente** de la ventana **Configuración de registro de pago**, la fecha de trabajo se tendrá que introducir en el campo **Fecha de recepción**.  
@@ -53,7 +55,7 @@ La información de pagos se registra para los documentos representados por las l
 Los movimientos de pago se registran en la cuenta contable, la cuenta de banco y las cuentas de cliente. Cada pago se aplica al documento de venta registrado relacionado.  
 
 ## <a name="to-reconcile-lump-payments"></a>Conciliar los pagos totales
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Registro de pago** y, a continuación, seleccione el vínculo relacionado.
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Registro de pagos** y luego elija el enlace relacionado.
 2. Seleccione la casilla **Pago realizado** en las líneas que representan documentos registrados para el mismo cliente para el que se ha realizado un pago total.  
 
     > [!NOTE]  
@@ -88,7 +90,7 @@ En los procedimientos siguientes se explican cuatro formas distintas para regist
 * El importe del pago es mayor que el importe al descuento restante. Registra los pagos tal como están. Solo se registra el importe pendiente. El importe adicional se acredita al cliente.  
 
 ### <a name="to-process-a-payment-amount-that-is-equal-to-the-discounted-amount-and-where-the-payment-date-is-before-the-discount-date"></a>Importar un importe de pago igual al descuento y donde la fecha de pago es antes de la fecha de descuento
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Registro de pago** y, a continuación, seleccione el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Registro de pagos** y luego elija el enlace relacionado.  
 2. Introduzca el importe de pago en el campo **Importe recibido**. El importe es igual al importe en el campo **Importe restante tras descuento**.
 
     La casilla **Pago realizado** se selecciona automáticamente y el campo **Fecha de recepción** se rellena con la fecha de trabajo.    
@@ -97,7 +99,7 @@ En los procedimientos siguientes se explican cuatro formas distintas para regist
 5. Seleccione la acción **Registrar pagos** para registrar el pago completo a la cuenta contable, la cuenta de banco y la cuenta de cliente.
 
 ### <a name="to-process-a-payment-amount-that-is-equal-to-the-discounted-amount-but-where-the-payment-date-is-after-the-discount-date"></a>Importar un importe de pago igual al descuento ero donde la fecha de pago es posterior a la fecha de descuento
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Registro de pago** y, a continuación, seleccione el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Registro de pagos** y luego elija el enlace relacionado.  
 2. Introduzca el importe de pago en el campo **Importe recibido**. El importe es igual al importe en el campo **Importe restante tras descuento**.
 
     La casilla **Pago realizado** se selecciona automáticamente y el campo **Fecha de recepción** se rellena con la fecha de trabajo.
@@ -115,7 +117,7 @@ En los procedimientos siguientes se explican cuatro formas distintas para regist
 El documento relacionado quedará abierto.
 
 ### <a name="to-process-a-payment-that-is-lower-than-the-remaining-discounted-amount"></a>Procesar un pago que es menor que el importe al descuento restante
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Registro de pago** y, a continuación, seleccione el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Registro de pagos** y luego elija el enlace relacionado.  
 2. Introduzca el importe de pago en el campo **Importe recibido**. El importe es inferior al importe del campo **Importe restante tras descuento**.
 
     La casilla **Pago realizado** se selecciona automáticamente y el campo **Fecha de recepción** se rellena con la fecha de trabajo.  
@@ -126,7 +128,7 @@ El documento relacionado quedará abierto.
 El documento relacionado quedará abierto.
 
 ### <a name="to-process-a-payment-that-is-more-than-the-remaining-discounted-amount"></a>Procesar un pago que es mayor que el importe al descuento restante
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Registro de pago** y, a continuación, seleccione el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Registro de pagos** y luego elija el enlace relacionado.  
 2. Introduzca el importe de pago en el campo **Importe recibido**. El importe es superior al importe del campo **Importe restante tras descuento**.  
 
     La casilla **Pago realizado** se selecciona automáticamente y el campo **Fecha de recepción** se rellena con la fecha de trabajo.    
@@ -148,7 +150,7 @@ En la ventana **Búsqueda de documentos**, podrá buscar entre los documentos qu
 
 En el procedimiento siguiente se explica cómo buscar un documento determinado mediante ambos criterios de búsqueda.  
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Registro de pago** y, a continuación, seleccione el vínculo relacionado.
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Registro de pagos** y luego elija el enlace relacionado.
 2. Con el puntero en cualquier línea, seleccione la acción **Buscar documentos**.
 3. En la ventana **Búsqueda de documentos**, especifique un valor de búsqueda en el campo **Número de documento**.  
 
@@ -169,14 +171,13 @@ Si un pago en el banco no se representa mediante ningún documento en [!INCLUDE[
 ## <a name="to-record-or-post-a-payment-without-a-related-document"></a>Registrar pagos sin documento relacionado
 Si un pago en el banco no se representa mediante ningún documento en [!INCLUDE[d365fin](includes/d365fin_md.md)], puede abrir una línea de diario general previamente rellenada en la ventana **Registro de pago** para registrar el pago directamente en la cuenta de saldo sin liquidar el pago a un documento. Alternativamente, puede que desee registrar el pago en el diario hasta que el origen del pago se haya aclarado.  
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Registro de pago** y, a continuación, seleccione el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Registro de pagos** y luego elija el enlace relacionado.  
 
-Empiece a registrar un pago no documentado.  
-
-1. Seleccione la acción **Diario general**.  
+    Empiece a registrar un pago no documentado.  
+2. Seleccione la acción **Diario general**.  
 
     La ventana **Diario general** se abre con una línea rellenada previamente con la cuenta de saldo de la sección de diario configurada en la ventana **Configuración de registro de pago**.  
-2. Rellene los campos restantes de la línea de diario general, como el importe y el número del cliente u otra información del extracto de banco. Para obtener más información, consulte [Registrar transacciones directamente en la contabilidad](finance-how-post-transactions-directly.md).  
+3. Rellene los campos restantes de la línea de diario general, como el importe y el número del cliente u otra información del extracto de banco. Para obtener más información, consulte [Registrar transacciones directamente en la contabilidad](finance-how-post-transactions-directly.md).  
 
 Puede registrar la línea del diario para actualizar el total de la cuenta de saldo. Alternativamente, puede dejar la línea del diario sin registrar, y quizás agregarla con una nota que el pago necesita más análisis.  
 

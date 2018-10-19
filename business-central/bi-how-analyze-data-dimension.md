@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 01/25/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 94d783a806b56e972f16ebe1e0d383582cd72126
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 5176b7c04c09b9357041ec4fed5ed37c385d13ce
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 #  <a name="analyze-data-by-dimensions"></a>Analizar datos por dimensiones
@@ -30,7 +30,7 @@ Analizar datos por dimensiones le proporciona una mejor perspectiva de su empres
 ## <a name="to-set-up-an-analysis-view"></a>Para configurar una vista de análisis  
 Los análisis por dimensiones muestran una combinación seleccionada de dimensiones. Puede almacenar y recuperar cada análisis que haya configurado. La información de configuración de un análisis se guarda en una ficha **Vista de análisis** para simplificar futuros análisis.  
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Vistas de análisis** y, a continuación, seleccione el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Vistas de análisis** y luego elija el enlace relacionado.  
 2. En la ventana **Lista vista de análisis**, elija la acción **Nuevo**.
 3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Para agregar otros códigos de dimensión además de los cuatro de la ficha desplegable **Dimensiones**, elija la acción **Filtro**, rellene los campos y, a continuación, elija el botón **Aceptar**.  
@@ -42,7 +42,7 @@ Puede utilizar la matriz **Análisis por dimensiones** para consultar los import
 - Las columnas de la izquierda contienen información basada en lo que haya seleccionado en el campo **Muestra como líneas** de la cabecera.  
 - Las columnas de la derecha contienen información basada en los elementos seleccionados en el campo **Muestra como columnas** del encabezado.  
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Análisis por dimensiones** y, a continuación, seleccione el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Análisis por dimensiones** y luego elija el enlace relacionado.  
 2. Seleccione la vista de análisis relevante y, a continuación, elija la acción **Editar vista de análisis**.
 3. En la parte superior de la ventana **Análisis por dimensiones** rellene los campos para definir lo que se muestra.
 4. 5. Para ver una especificación de un importe que se muestra en la matriz, seleccione el importe.  
@@ -61,7 +61,7 @@ Los importes que aparecen en la ventana **Análisis por dimensiones** le ofrecen
 
 El siguiente procedimiento permite actualizar una vista de análisis desde la ventana **Análisis por dimensiones**. Los pasos son parecidos desde las ventanas **Ficha vista de análisis** y **Lista vista de análisis**.  
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Análisis por dimensiones** y, a continuación, seleccione el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Análisis por dimensiones** y luego elija el enlace relacionado.  
 2. En la ventana **Análisis por dimensiones**, elija el campo **Cód. vista análisis**.  
 3. Seleccione la línea con la vista de análisis relevante.  
 4. Elija la acción **Actualizar**.  

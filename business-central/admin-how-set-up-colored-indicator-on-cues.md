@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5814a1719ccba38967ee64d28fddae617487b43c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f68bd92456ccab6d4bade8f5545d5c715a0c35bd
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Configurar un indicador de color en pilas para la empresa o usuarios individuales
@@ -29,7 +29,7 @@ En la ventana **Configuración de pila** se configuran indicadores para todas la
 Para configurar el indicador, especifique hasta dos valores de umbral que definan tres rangos de valores de datos (bajo, medio y alto) a los que se pueda aplicar otro color (o estilo).  
   
 ### <a name="to-set-up-colored-indicators-on-cues"></a>Para configurar indicadores de color en las pilas  
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), especifique **Configuración de pila** y elija el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración de pila** y luego elija el enlace relacionado.  
   
      Aparece la ventana **Configuración de pila**. La ventana muestra los indicadores que están actualmente configurados en las pilas. Los indicadores aplicables a todos los usuarios de la empresa tienen un campo **Nombre de usurario** en blanco. Los indicadores que se aplican a un usuario específico incluyen el nombre del usuario de en el campo **Nombre de usuario**.  
   

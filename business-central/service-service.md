@@ -8,16 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: a4ff35d8339326a0cc4a42014c82e081fb940a61
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 06f2f8d56d16ef1177bf49e30795cf41af69b8bd
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="service-management"></a>Gestión de servicios
+> [!NOTE]
+> La funcionalidad descrita en este tema y los subtemas solo están visibles en la interfaz de usuario si tiene la experiencia **Premium**. Para obtener más información, consulte [Cambiar las funciones que se muestran](ui-experiences.md).
+
 Proporcionar un servicio continuado a los clientes es una parte importante de cualquier empresa y puede ser el origen de la satisfacción y fidelidad de los clientes, así como de ingresos. Sin embargo, la gestión y supervisión del servicio no resulta siempre sencilla, y [!INCLUDE[d365fin](includes/d365fin_md.md)] ofrece un conjunto de herramientas para ayudarle. Estas herramientas se han diseñado para admitir operaciones de taller de reparaciones y especialidades de servicios, y pueden usarse en supuestos empresariales como sistemas complejos de distribución de servicios al cliente, entornos de servicios industriales con listas de materiales y despacho de alto volumen de técnicos de servicio con requisitos para gestión de piezas de repuesto.  
 
  Con estas herramientas puede llevar a cabo lo siguiente:  
@@ -46,5 +49,4 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 [[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

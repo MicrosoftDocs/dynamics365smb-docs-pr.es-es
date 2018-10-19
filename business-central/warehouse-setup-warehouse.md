@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/01/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
-ms.openlocfilehash: caa494729c4408334fadd50903f0d17df330409d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 22d79f478486bc2a7a58545345d604ac3ddd9755
 ms.contentlocale: es-es
-ms.lasthandoff: 08/06/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="setting-up-warehouse-management"></a>Configuración de la gestión del almacén
@@ -41,7 +41,7 @@ La estrategia de distribución de una empresa se refleja en la configuración de
 |Permitir a los trabajadores de almacén romper una unidad de medida más grande en unidades de medida más pequeñas para satisfacer las necesidades de los documentos de origen.|[Habilitar interrupción automática masiva con ubicaciones y picking directos](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)|  
 |Configurar el almacén para que proponga automáticamente los productos susceptibles de picking que caducan primero.|[Habilitar el picking por FEFO](warehouse-picking-by-fefo.md)|
 |Obtener información sobre el modo de reorganizar ubicaciones o zonas para lograr mayor eficiencia en las actividades del almacén.|[Reestructurar almacenes](warehouse-how-to-restructure-warehouses.md)|
-<!-- |Integrar los lectores de códigos de barras a su solución de gestión de almacenes.|[Utilice el sistema de captura de datos automatizado (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)| -->  
+|Integrar los lectores de códigos de barras a su solución de gestión de almacenes.|[Utilice el sistema de captura de datos automatizado (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)|
 
 ## <a name="see-also"></a>Consulte también  
 [Gestión de almacenes](warehouse-manage-warehouse.md)  

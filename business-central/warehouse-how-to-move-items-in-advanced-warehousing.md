@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/23/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: bcfe657407f4060e9f3ce12b8a87e4ff65e3bf79
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 037a1d507ec6705e1cc07db313fb7e78b86fed7e
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="move-items-in-advanced-warehouse-configurations"></a>Mover productos en configuraciones avanzadas de almacén
@@ -23,12 +23,12 @@ En configuraciones de almacén avanzadas, es decir, en ubicaciones con ubicació
 ## <a name="to-move-items-with-the-warehouse-movement-worksheet"></a>Para mover los artículos con la hoja de cálculo del movimiento de almacén
 En la ventana **Hoja trabajo movimiento** existen dos funciones que pueden ayudarle a rellenar las líneas automáticamente. La primera es la función **Calcular reposición ubicación**. Esta función utiliza los rankings de ubicación para sugerir el reabastecimiento para ubicaciones de alto ranking desde ubicaciones de bajo ranking. El segundo es la función **Traer conten. ubicac.**, que rellena las líneas de la hoja de cálculo con los contenidos enteros de las ubicaciones que especifique.
 
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Hoja movimiento** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hoja trabajo mov.** y luego elija el enlace relacionado.  
 2.  Especifique la información de movimientos de almacén en las líneas de la hoja de trabajo como crea conveniente.  
 3. Elija la acción **Crear movimiento** para crear un documento de movimiento de almacén que, más tarde, se puede registrar cuando se complete el movimiento.  
 
 ### <a name="to-register-the-warehouse-movement"></a>Para registrar el movimiento de almacén  
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Movimientos** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Movimientos** y luego elija el enlace relacionado.  
 2.  Abra el movimiento de almacén que desee procesar.  
 3.  En las líneas de acción tipo **Plaza**, especifique dónde, qué y cuándo mover el artículo en cuestión modificando los campos **Cód. zona**, **Cód. ubicación**, **Cdad. a manipular** o **Fecha vencimiento**.  
 
@@ -43,7 +43,7 @@ En la ventana **Hoja trabajo movimiento** existen dos funciones que pueden ayuda
 ## <a name="to-register-the-movement-of-an-item-that-has-already-occurred"></a>Para registrar el movimiento de producto que ya se ha producido  
 Si utiliza ubicación y picking directos y necesita mover productos a otros ubicaciones sin un movimiento, picking o ubicación de almacén existente, puede registrar la colocación correcta de los productos en el almacén con el **Diario reclasificación almacén**.
 
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diario reclasificación almacén** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diario reclasif. almacén** y luego elija el enlace relacionado.  
 2.  Rellene los campos **Nº producto**, **Desde cód. zona**, **Desde cód. ubicación**, **Hasta cód. zona**, **Hasta cód. ubicación**.  
 3.  Elija la acción **Registrar**.  
 

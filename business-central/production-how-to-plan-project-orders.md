@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6102c71bac7338c959e61045962d5a3452a2a0f6
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 08cd8c323e8f5221bd6915618582441a739e77c8
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="plan-project-orders"></a>Planificar órdenes de proyecto
@@ -24,12 +24,12 @@ Esta tarea de planificación se inicia desde un pedido de venta y para realizarl
 
 ## <a name="to-create-a-project-production-order"></a>Para crear una orden de producción de un proyecto  
 
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Pedidos de venta** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.  
 2.  Seleccione el pedido de venta que representa el proyecto de producción y después seleccione la acción **Planificación**.  
 4.  En la ventana **Planificación de pedido de venta**, seleccione la acción **Crear orden de producción**.  
 5.  En la ventana **Crear pedido a partir de las ventas**, en el campo **Tipo orden**, seleccione **Orden proyecto**.  
 6.  Elija el botón **Sí**.  
-7.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Órdenes de producción** y, a continuación, seleccione el vínculo relacionado.
+7.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Órdenes de producción** y luego elija el enlace relacionado.
 8. Abra la orden de producción que acaba de crear.  
 
     Tenga en cuenta que el campo **Tipo de procedencia** de la orden de producción contiene **Cabecera de ventas** y la orden tiene varias líneas, una para cada producto de línea de venta que debe fabricarse.  

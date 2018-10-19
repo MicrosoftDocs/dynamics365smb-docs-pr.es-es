@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting year, fiscal period
-ms.date: 07/17/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 028bb6554f84fc4e8d1343070121f8b0143329ce
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 9424b2dfe3a61ace4f02897f0240cc6e4f78070e
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="open-a-new-fiscal-year-and-create-accounting-periods"></a>Abrir un nuevo año fiscal y crear períodos contables
@@ -23,7 +23,7 @@ Para poder registrar un ejercicio, es necesario abrir el ejercicio y definir sus
 Para muchas empresas, el año fiscal no coincide con el año natural. Los períodos fiscales se pueden medir en otras unidades de tiempo, como meses o trimestres. Puede utilizar la ventana **Crear ejercicio** para configurar los periodos contables que se adaptan a sus necesidades comerciales. Sin embargo,   
 
 ## <a name="to-open-a-new-fiscal-year"></a>Para abrir un nuevo ejercicio
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Periodos contables** y, a continuación, seleccione el vínculo relacionado.
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Periodos contables** y luego elija el enlace relacionado.
 2. En la ventana **Periodos contables**, elija la acción **Crear ejercicio**.
 3. Rellene los campos para definir la estructura del ejercicio.
 

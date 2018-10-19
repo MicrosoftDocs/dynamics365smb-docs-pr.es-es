@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: resource, skill, service, zones
-ms.date: 08/22/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6dc4a059cb3bca46910a4a4be43a5940a5652c8f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 7ce128aa32d650cf756117ab46987167d9a3781a
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -30,29 +30,29 @@ Para usar la asignación de recursos, debe configurar:
 * Si desea mostrar las habilidades y zonas del recurso y si desea mostrar una advertencia si alguien elige un recurso no calificado, o un recurso que no está en la zona de cliente.  
 
 ## <a name="to-set-up-skills"></a>Para configurar habilidades
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Habilidades** y, a continuación, seleccione el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Cualificaciones** y luego elija el enlace relacionado.  
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-assign-skills-to-service-items-and-resources"></a>Para asignar habilidades a productos y recursos de servicio
-1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), especifique **Producto de servicio** o **Recursos**, y elija el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Productos de servicio** o **Recursos** y luego elija el enlace relacionado.  
 2. Abra la ficha del producto o recurso de servicio y elija una de las opciones siguientes:  
   
     * Para productos de servicio, elija **Cualificaciones recurso**.  
     * Para los recursos, elija **Cualificaciones**.  
 
 ## <a name="to-set-up-zones"></a>Para configurar zonas
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Zonas** y, a continuación, seleccione el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Zonas** y luego elija el enlace relacionado.  
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-assign-zones-to-customers-and-resources"></a>Para asignar zonas a clientes y recursos 
-1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), especifique **Clientes** o **Recursos**, y elija el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Clientes** o **Recursos** y luego elija el enlace relacionado.  
 2. Abra la ficha del producto o recurso de servicio y elija una de las opciones siguientes:  
   
     * Para los clientes, elija una zona en el campo **Cód. zona servicio**.  
     * Para los recursos, elija la acción de **Zonas servicio**.  
 
 ## <a name="to-specify-what-to-show-when-a-resource-is-chosen"></a>Para especificar qué mostrar cuando seleccione un recurso
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Configuración del servicio** y, a continuación, seleccione el vínculo relacionado. 
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Config. servicio** y luego elija el enlace relacionado. 
 2. En el campo **Opción cualificaciones recurso**, seleccione una de las opciones descritas en la tabla siguiente.  
   
     |**Opción**|**Descripción**|  
@@ -64,14 +64,14 @@ Para usar la asignación de recursos, debe configurar:
 ## <a name="to-update-resource-capacity"></a>Para actualizar capacidad de recurso  
 Es posible que tenga que cambiar la capacidad de los recursos.  
   
-1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), especifique **Capacidad recurso** y elija el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Capacidad recurso** y luego elija el enlace relacionado.  
 2. Elija el recurso y, a continuación, elija la acción **Fijar capacidad**.  
 3. Realice los cambios y, a continuación, seleccione **Actualizar capacidad**.  
 
 ## <a name="to-update-skills-for-items-service-items-or-service-item-groups"></a>Para actualizar las cualificaciones para los productos, productos de servicio o grupos de producto de servicio
 Si desea cambiar los códigos de habilidades asignados a elementos, por ejemplo de **PC** a **PCS**, puede hacerlo para un producto, un producto de servicio o para todos los productos de un grupo de productos de servicio.  
   
-1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), especifique **Productos**, **Productos de servicio** o **Grupo productos de servicio** y elija el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), especifique **Productos**, **Producto servicio** o **Grupo producto servicio** y, a continuación, elija el vínculo relacionado.  
 2. Elija la entidad que desee actualizar y, a continuación, elija la acción **Capacidades recurso**.  
 3. En la línea con el código que desea modificar, en el campo **Cód. cualificación**, elija el código de cualificación correspondiente.  
 4.  Si el producto tiene productos de servicio asociados, se abrirá un cuadro de diálogo con las dos opciones siguientes:  

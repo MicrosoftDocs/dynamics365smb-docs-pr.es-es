@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4598d059d40e231de0230b43fe7863759005db70
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: c8f020547cb48e288c1e1defac14993fab6bb21f
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="copy-data-to-new-companies"></a>Copiar datos a una nueva empresa
@@ -24,7 +24,7 @@ Puede copiar los valores de uso general de una empresa existente a otra nueva, s
 
 ## <a name="to-copy-data-to-a-new-company-using-rapidstart-services"></a>Procedimiento para copiar datos a una nueva empresa mediante RapidStart Services  
 1. Abra la nueva empresa.  
-2. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Hoja de configuración** y, a continuación, seleccione el vínculo relacionado.  
+2. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hoja de configuración** y luego elija el enlace relacionado.  
 3. Seleccione **Copiar datos de empresa**.  
 4. En la ventana **Copiar datos de empresa**, elija la empresa desde la que va a copiar en el campo **Copiar desde** y el botón **Aceptar**.  
 5. Seleccione una tabla de uno de los paquetes de configuración importados y elija la acción **Copiar datos**.

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7a519025bd7bed4bb2974c3e7fb5f044ac35dcf4
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e2e937aee7defcc5226a3238652f88261004920c
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Planear la nueva demanda de pedido por pedido
@@ -26,14 +26,14 @@ Puede entrar en la ventana **Planificación de pedidos** de dos formas distintas
 
 
 ## <a name="to-plan-for-new-production-order-demand"></a>Para planificar una nueva demanda de orden de producción  
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Órdenes de producción planificadas** y, a continuación, seleccione el vínculo relacionado. (Puede realizar estos pasos para una orden de producción planificada, planificada en firme o una orden de producción lanzada).
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer") escriba **Órdenes producción planificadas** y luego elija el enlace relacionado. (Puede realizar estos pasos para una orden de producción planificada, planificada en firme o una orden de producción lanzada).
 2.  Abra la orden de producción que se desea planificar y selección la acción **Planificación**.  
 3.  En la ventana **Planificación de pedidos**, seleccione la acción **Calcular plan**.  
 
 En la ventana se muestran las líneas de planificación en función del filtro de vista **Demanda de producción**, es decir, las líneas de componentes no satisfechos de todas las órdenes de producción existentes. No se muestra la demanda de una sola orden de producción, porque para planificar una orden de producción se necesita tener un panorama de la demanda de líneas de componentes posiblemente anteriores. Las líneas de planificación de la orden de producción en cuestión se expanden.  
 
 ## <a name="to-plan-for-any-new-demand"></a>Para planificar nueva demanda  
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Planificación de pedidos** y, a continuación, seleccione el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Planificación de pedidos** y luego elija el enlace relacionado.  
 2.  En la ventana **Planificación de pedidos**, seleccione la acción **Calcular plan**.
 3.  Elija el botón **Expandir (+)** que aparece delante de la fecha en el campo **Fecha demanda** para ver las líneas de planificación subyacentes que representan las líneas de demanda con disponibilidad insuficiente.  
 4.  Para cada línea de planificación expandida, es decir, línea de demanda, se muestran valores en los campos de información situados en la parte inferior de la ventana.  
@@ -85,7 +85,7 @@ En la ventana se muestran las líneas de planificación en función del filtro d
 >   Si especifica una fecha posterior a la fecha de demanda, se recibirá un mensaje de advertencia.  
 
 ## <a name="to-make-supply-orders"></a>Para crear pedidos de suministro  
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Órdenes de producción planificadas** y, a continuación, seleccione el vínculo relacionado. Puede realizar estos pasos para una orden de producción planificada, planificada en firme o lanzada.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer") escriba **Órdenes producción planificadas** y luego elija el enlace relacionado. Puede realizar estos pasos para una orden de producción planificada, planificada en firme o lanzada.  
 2.  Abra la orden de producción que se desea planificar y selección la acción **Planificación**.  
 3.  Coloque el cursor en una línea de planificación relevante y seleccione la acción **Crear pedidos**.  
 4.  En la ventana **Crear pedidos suministros**, en la ficha desplegable **Planificación de pedidos**, en el campo **Crear pedidos para**, seleccione una de las siguientes opciones.  

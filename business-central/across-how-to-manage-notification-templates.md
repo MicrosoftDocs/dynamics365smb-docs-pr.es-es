@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d6c7637527c9a93024ee62dbdd32ba63d665661d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 31a6cd72e7e7c3fda27803a995b7282c8a2c3751
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="manage-notification-templates"></a>Administrar las plantillas de notificación
@@ -27,7 +27,7 @@ Las notificaciones se envían a los usuarios del flujo de trabajo para notificar
  La versión genérica de [!INCLUDE[d365fin](includes/d365fin_md.md)] contiene tres plantillas de notificación: una para notificar las solicitudes de aprobación, otra para notificar los nuevos registros y otra para notificar las solicitudes de aprobación vencidas. Las tres plantillas de notificación predefinidas admiten **Correo electrónico** y **Nota** como método de notificación. Para ver el contenido de las tres plantillas de notificación, vea la sección “Contenido de las plantillas de notificación” en este tema.
 
 ## <a name="to-create-a-new-notification-template"></a>Para crear una plantilla de notificación nueva  
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Plantillas de notificación** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Plantillas de notificación** y luego elija el enlace relacionado.  
 2.  En la ventana **Plantillas de notificación**, elija la acción **Nuevo**.  
 3.  Rellene los campos tal como se describe en la tabla siguiente.  
 
@@ -40,7 +40,7 @@ Las notificaciones se envían a los usuarios del flujo de trabajo para notificar
     |**Predet.**|Especifique si la plantilla de notificación se usará de forma predeterminada.|  
 
 ## <a name="to-modify-a-notification-template"></a>Para modificar una plantilla de notificación  
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Plantillas de notificación** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Plantillas de notificación** y luego elija el enlace relacionado.  
 2.  En la ventana **Plantillas de notificación**, seleccione la plantilla de notificación que desea modificar.  
 3.  Seleccione la acción **Exportar contenido de la plantilla**.  
 4.  En la ventana **Exportar archivo**, seleccione el botón **Guardar** y, a continuación, asigne un nombre al archivo HTML y guárdelo en una ubicación adecuada.  

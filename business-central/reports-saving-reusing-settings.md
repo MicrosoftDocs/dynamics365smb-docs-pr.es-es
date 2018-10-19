@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customization, personalization
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
-ms.openlocfilehash: 2a7ab137a9bf8ec3580e718053f8e67320e3af5a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6027ba17868aca0a6571e059c9d157c542d12823
 ms.contentlocale: es-es
-ms.lasthandoff: 08/06/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="managing-saved-settings-on-reports"></a>Administrar configuración guardada en los informes
@@ -35,12 +35,12 @@ Si tiene los permisos adecuados, puede ver, crear y modificar la configuración 
 
 ## <a name="create-and-modify-saved-settings-for-all-users"></a>Crear y modificar la configuración guardada para todos los usuarios
 La configuración guardada se administra en la página **Configuración del informe 1560**. Hay dos maneras de abrir esta página:
--   Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Configuración del informe** y, a continuación, seleccione el vínculo relacionado.
+-   Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Config. de informe** y luego elija el enlace relacionado.
 -   Abra un informe, seleccione la búsqueda junto al cuadro **Utilizar valores predeterminado desde:**, elija **Seleccionar de la lista completa**.
 
 La página muestra todas las entradas de configuración de almacenamiento existentes para todos los usuarios. Si hay un nombre de usuario en la columna **Asignado a**, solo ese usuario puede utilizar los parámetros guardados para el informe asociado. Si hay una marca de verificación en la columna **Compartir con todos los usuarios**, todos los usuarios pueden utilizar las opciones guardadas para el informe.
 
-Desde la página **Configuración del informe**, puede:
+Desde la ventana **Configuración del informe**, puede:
 -   Seleccione **Nuevo** para crear una nueva entrada de configuración guardada desde cero.
 -   Seleccione una entrada de configuración guardada de la lista y seleccione **Copiar** para crear una copia.
 -   Seleccione una entrada de configuración guardada de la lista y elija **Editar** para modificar una entrada de configuración guardada.

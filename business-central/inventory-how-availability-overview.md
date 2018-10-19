@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.date: 08/15/2017
+ms.date: 10/01/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b3626db626e3c07498ad2a45733acf205d0ec906
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 440a6bdb3203ba1f4a9eddec3a9a88a47ce7917f
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="view-the-availability-of-items"></a>Consultar la disponibilidad de los productos
@@ -40,7 +40,7 @@ En [!INCLUDE[d365fin](includes/d365fin_md.md)], las cifras de disponibilidad se 
 ## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>Para consultar la disponibilidad de un producto según cuándo se recibirá o enviará
 Puede ver la disponibilidad de un producto según las transacciones de producto programadas en la ventana **Disponibilidad por evento**.
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Productos** y, a continuación, seleccione el vínculo relacionado.
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Productos** y luego elija el enlace relacionado.
 2. Abra la ficha de un producto del que quiera ver su disponibilidad.
 3. Elija la acción **Disponibilidad prod. por** y, a continuación, elija la acción **Evento**.
 
@@ -50,7 +50,7 @@ Puede ver la disponibilidad de un producto según las transacciones de producto 
 ## <a name="to-view-the-availability-of-an-item-in-different-periods"></a>Para consultar la disponibilidad de un producto en distintos periodos
 Puede ver la disponibilidad de un producto a lo largo del tiempo para periodos de tiempo específicos en la ventana **Existencias producto**.
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Productos** y, a continuación, seleccione el vínculo relacionado.
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Productos** y luego elija el enlace relacionado.
 2. Abra la ficha de un producto del que quiera ver su disponibilidad.
 3. Elija la acción **Disponibilidad prod. por** y, a continuación, elija la acción **Periodo**.
 
@@ -60,7 +60,7 @@ Puede ver la disponibilidad de un producto a lo largo del tiempo para periodos d
 ## <a name="to-view-the-availability-of-an-item-at-the-locations-where-it-is-stored"></a>Para consultar la disponibilidad de un producto en las ubicaciones donde se almacena
 Puede ver la disponibilidad de un producto en distintos sitios donde se almacena en la ventana **Disponib. prod. por almacén**.
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Productos** y, a continuación, seleccione el vínculo relacionado.
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Productos** y luego elija el enlace relacionado.
 2. Abra la ficha de un producto del que quiera ver su disponibilidad.
 3. Elija la acción **Disponibilidad prod. por** y, a continuación, elija la acción **Almacén**.
 
@@ -71,7 +71,7 @@ Puede ver la disponibilidad de un producto en distintos sitios donde se almacena
 ## <a name="to-view-the-availability-of-all-items-by-the-location-where-they-are-stored"></a>Para consultar la disponibilidad de todos los productos en las ubicaciones donde se almacenan
 Puede ver la disponibilidad de todos sus productos en todas sus ubicaciones en la ventana **Productos por almacén**.
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Productos** y, a continuación, seleccione el vínculo relacionado.
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Productos** y luego elija el enlace relacionado.
 2. Elija la acción **Productos por almacén**.
 
     La ventana **Productos por almacén** muestra la cantidad de todos sus productos que hay disponible en cada ubicación.

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 825e901b4126dc1ba317527862eb459559ecb538
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f930a9a2e303c0dcc0a3604cc43b919690d6f96f
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Tutorial: Configuración y uso de un flujo de trabajo de aprobación de compra
@@ -58,7 +58,7 @@ Debe crear un nuevo usuario en el equipo local y en [!INCLUDE[d365fin](includes/
 7.  Cierre la ventana **Usuarios y grupos locales**.  
 
 ### <a name="to-add-alicia-as-a-user-in-included365finincludesd365finmdmd"></a>Para agregar a Alicia como usuario en [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Usuarios** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Usuarios** y luego elija el enlace relacionado.  
 2.  En la ventana **Usuarios de Windows**, de la pestaña **Inicio**, del grupo **Nuevo**, elige **Nuevo**.  
 3.  En la ventana **Ficha de usuario** , en el campo **Nombre usuario** , introduzca a Alicia.  
 4.  En los campos **Nombre de usuario de Windows**, seleccione el botón AssistEdit.  
@@ -72,7 +72,7 @@ Debe crear un nuevo usuario en el equipo local y en [!INCLUDE[d365fin](includes/
 Mediante el usuario de Windows que acaba de crear, configure Alicia como usuario de aprobación cuyo aprobador sea usted mismo. Configure sus derechos de aprobación y especifique cómo y cuándo se le notificarán las solicitudes de aprobación.  
 
 ### <a name="to-set-up-yourself-and-alicia-as-approval-users"></a>Para configurarse a usted y a Alicia como usuarios de aprobación  
-1.  Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Configuración usuario aprobación** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Config. usuario aprobación** y luego elija el enlace relacionado.  
 2.  En la ventana **Config. usuario aprobación**, en la pestaña **Inicio**, en el grupo **Nuevo**, elija **Nuevo**.  
 
     > [!NOTE]  
@@ -103,7 +103,7 @@ Especifique cómo y cuándo se le notificarán las solicitudes de aprobación.
  Cree el flujo de aprobación de pedido de compra copiando los pasos de la plantilla de flujo de trabajo de aprobación de pedido de compra. Deje los pasos de flujo de trabajo existentes sin cambiar y, a continuación, active el flujo de trabajo.  
 
 ### <a name="to-create-and-enable-a-purchase-order-approval-workflow"></a>Para crear y activar un flujo de trabajo de aprobación de pedido de compra  
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Flujos de trabajo** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Flujos de trabajo** y luego elija el enlace relacionado.  
 2.  En la ventana **Flujos de trabajo**, de la pestaña **Acciones**, del grupo **General**, elija **Crear flujo de trabajo desde una plantilla**.  
 3.  En la pestaña **Acciones** de la pestaña **General**, elige **Crear flujo de trabajo desde una plantilla**. Se abre la ventana **Plantillas de flujo de trabajo**.  
 4.  Selecciona la plantilla de flujo de trabajo denominada Flujo de trabajo de aprobación de pedido de compra y haz clic en el botón **Aceptar**.  
@@ -115,7 +115,7 @@ Especifique cómo y cuándo se le notificarán las solicitudes de aprobación.
 Asegúrese de que hay una cola de proyectos configurada en la instalación para gestionar las notificaciones de flujo de trabajo.  
 
 ### <a name="to-start-the-notify-job-queue"></a>Para iniciar la cola de proyectos de NOTIFICACIÓN  
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Colas de proyectos** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Colas proyecto** y luego elija el enlace relacionado.  
 2.  En la ventana **Colas de proyectos**, seleccione la línea de la cola de proyecto de NOTIFICAR y después, en la pestaña **Inicio** del grupo **Proceso**, elija **Iniciar cola de proyecto**.  
 
 ## <a name="using-the-approval-workflow"></a>Uso del flujo de trabajo de aprobación  
@@ -133,7 +133,7 @@ Para iniciar sesión en [!INCLUDE[d365fin](includes/d365fin_md.md)] como diferen
 
 ### <a name="to-request-approval-of-a-purchase-order-as-alicia"></a>Para solicitar aprobación de un pedido de compra como Alicia  
 
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Pedidos de compra** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos compra** y luego elija el enlace relacionado.  
 2.  Seleccione la línea para el pedido de compra 104001 y, a continuación, en la pestaña **Inicio**, en el grupo **Administrar**, elija **Editar**.  
 3.  En la ventana **Pedido de compra**, de la pestaña **Acciones** del grupo **Aprobación**, elija **Enviar solicitud de aprobación**.  
 

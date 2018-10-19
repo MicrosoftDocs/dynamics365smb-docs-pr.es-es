@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 11/23/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c95432ec1cf24aaaedf0fad5a2746ace9705e2e3
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 9d0a5ab6bebdc9723fe8e3621fdda3cb16d5e6e1
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-posting-date-on-adjustment-value-entry"></a>Detalles de diseño: Fecha registro en el movimiento de valor de ajuste
@@ -33,7 +33,7 @@ Desde la versión 5.0, el proceso **Valorar stock - movs. producto** asigna una 
 
  Revisemos este proceso más en la práctica. Supongamos que tenemos un movimiento de producto de venta. El producto se envió el 5 de septiembre de 2013 y se facturó el día después.  
 
-![Movimiento producto: Formato de fecha: AAAA MM DD](media/helene/TechArticleAdjustcost1.png "TechArticleAdjustcost1")  
+![Estado de los movimientos de productos en el escenario](media/helene/TechArticleAdjustcost1.png "Estado de los movimientos de productos en el escenario")  
 
 A continuación, el primer movimiento de valor (379) representa el envío y lleva la misma fecha de registro que el movimiento de valor principal.  
 
@@ -41,7 +41,7 @@ El segundo movimiento de valor (381) representan la factura.
 
  El tercer movimiento de valor (391) es un ajuste del movimiento de valor de facturación (381)  
 
- ![Movimiento producto: Formato de fecha: AAAA MM DD](media/helene/TechArticleAdjustcost2.png "TechArticleAdjustcost2")  
+ ![Estado de los movimientos de valoración en el escenario](media/helene/TechArticleAdjustcost2.png "Estado de los movimientos de valoración en el escenario")  
 
  Paso 1: El movimiento de valor de ajuste que se creará tiene asignada la misma fecha de registro que el movimiento que ajusta, ilustrada anteriormente con el movimiento de valor 391.  
 
@@ -53,13 +53,13 @@ El proceso **Valorar stock - movs. producto** determina si la fecha inicial de r
 
  Periodos inventario:  
 
-![Valorar stock - movs. producto](media/helene/TechArticleAdjustcost3.png "TechArticleAdjustcost3")
+![Periodos de inventario en el escenario](media/helene/TechArticleAdjustcost3.png "Periodos de inventario en el escenario")
 
  La primera fecha de publicación permitida es el primer día del primer período abierto. 1 de septiembre de 2013.  
 
  Configuración de contabilidad:  
 
-![Valorar stock - movs. producto](media/helene/TechArticleAdjustcost4.png "TechArticleAdjustcost4")
+![Configuración de contabilidad en el escenario](media/helene/TechArticleAdjustcost4.png "Configuración de contabilidad en el escenario")
 
  La primera fecha de publicación permitida es la fecha indicada en el campo Permitir registro desde: 10 de septiembre de 2013.  
 
@@ -69,7 +69,7 @@ El proceso **Valorar stock - movs. producto** determina si la fecha inicial de r
 
  La fecha de registro asignada inicial era el 6 de septiembre como se muestra en el paso 1. Sin embargo, en el segundo paso del proceso Valorar stock - movs. producto se identifica que la primera fecha de registro permitida es el 10 de septiembre y, por lo tanto, la asigna en el movimiento de valor de ajuste siguiente.  
 
- ![Valorar stock - movs. producto](media/helene/TechArticleAdjustcost5.png "TechArticleAdjustcost5")
+ ![Estado de los movimientos de valoración en el escenario 2](media/helene/TechArticleAdjustcost5.png "Estado de los movimientos de valoración en el escenario 2")
 
  Ahora hemos revisado el concepto para asignar fechas de registro a los movimientos de valor creados por el proceso Valorar stock - movs. producto.  
 
@@ -82,15 +82,15 @@ El proceso **Valorar stock - movs. producto** determina si la fecha inicial de r
 
  En la sección anterior, que describe el concepto de asignación de fechas de registro, la intención del trabajo Valorar stock - movs. producto es crear un movimiento de valor con la fecha de registro el 10 de septiembre.  
 
-![Valorar stock - movs. producto](media/helene/TechArticleAdjustcost6.png "TechArticleAdjustcost6")
+![Mensaje de error sobre la fecha de publicación](media/helene/TechArticleAdjustcost6.png "Mensaje de error sobre la fecha de publicación")
 
  Seguimos con la configuración del usuario:  
 
-![Valorar stock - movs. producto](media/helene/TechArticleAdjustcost7.png "TechArticleAdjustcost7")
+![Configuración de fechas de publicación permitidas por el usuario](media/helene/TechArticleAdjustcost7.png "Configuración de fechas de publicación permitidas por el usuario")
 
  El usuario en este caso tiene un rango de fechas de registro permitidas desde el 11 hasta el 30 de septiembre y, por lo tanto, no puede registrar el movimiento de valor de ajuste con fecha de publicación el 10 de septiembre.  
 
-![Valorar stock - movs. producto](media/helene/TechArticleAdjustcost8.png "TechArticleAdjustcost8")
+![Resumen de la configuración de la fecha de publicación involucrada](media/helene/TechArticleAdjustcost8.png "Resumen de la configuración de la fecha de publicación involucrada")
 
  El artículo [952996](https://mbs2.microsoft.com/Knowledgebase/kbdisplay.aspx?WTNTZSMNWUKNTMMYXUPYZQPOUXNXSPSYOQQYYMLUQLOYYMWP) de la Knowledge Base discute ejemplos adicionales relacionados con el mensaje de error mencionado.  
 
@@ -173,9 +173,9 @@ El proceso **Valorar stock - movs. producto** determina si la fecha inicial de r
 
  Se han registrado los siguientes movimientos de productos y de valor:  
 
-![Valorar stock - movs. producto](media/helene/TechArticleAdjustcost9.png "TechArticleAdjustcost9")
+![Resumen del movimiento de producto y valoración resultante 1](media/helene/TechArticleAdjustcost9.png "Resumen del movimiento de producto y valoración resultante 1")
 
- ![Valorar stock - movs. producto](media/helene/TechArticleAdjustcost10.png "TechArticleAdjustcost10")
+ ![Resumen del movimiento de producto y valoración resultante 2](media/helene/TechArticleAdjustcost10.png "Resumen del movimiento de producto y valoración resultante 2")
 
  El proceso Valorar stock - movs. producto ha reconocido un cambio de costes y ha ajustado los ajustes negativos.  
 
@@ -290,7 +290,7 @@ El proceso **Valorar stock - movs. producto** determina si la fecha inicial de r
 
      Registrar albarán y factura.  
 
-     ![Valorar stock - movs. producto](media/helene/TechArticleAdjustcost11.png "TechArticleAdjustcost11")
+     ![Resumen del movimiento de producto y valoración resultante 3](media/helene/TechArticleAdjustcost11.png "Resumen del movimiento de producto y valoración resultante 3")
 
 6.  En la fecha de trabajo 3 de enero llega una factura de compra que contiene un cargo adicional de producto en la compra realizada en el paso 2. Esta factura tiene fecha de documento el 30 de diciembre y, por lo tanto, se registre con Fecha de registro el 30 de diciembre de 2013.  
 
@@ -314,11 +314,11 @@ El proceso **Valorar stock - movs. producto** determina si la fecha inicial de r
 
      Registrar albarán y factura.  
 
-   ![Valorar stock - movs. producto](media/helene/TechArticleAdjustcost12.png "TechArticleAdjustcost12")
+   ![Resumen del movimiento de producto y valoración resultante 4](media/helene/TechArticleAdjustcost12.png "Resumen del movimiento de producto y valoración resultante 4")
 
  El informe Valoración inventario se imprime a partir de fecha 31 de diciembre de 2013  
 
-![Valorar stock - movs. producto](media/helene/TechArticleAdjustcost13.png "TechArticleAdjustcost13")
+![Contenido del informe de valoración de inventario](media/helene/TechArticleAdjustcost13.png "Contenido del informe de valoración de inventario")
 
  **Resumen de ejemplo:**  
 
@@ -355,18 +355,12 @@ El proceso **Valorar stock - movs. producto** determina si la fecha inicial de r
 
  En la versión 3 y 4 el proceso se buscan todos los movimientos de valor para averiguar si hay alguno donde el Importe de coste (Real) sea diferente del Coste registrado en contabilidad. Si hay una diferencia, el importe diferente se registrará en un movimiento de contabilidad. Si se utiliza el registro de costes esperado, los campos correspondientes se procesarán del mismo modo.  
 
-![Valorar stock - movs. producto](media/helene/TechArticleAdjustcost14.png "TechArticleAdjustcost14")
+![Coste real frente a coste esperado](media/helene/TechArticleAdjustcost14.png "Coste real frente a coste esperado")
 
 ### <a name="from-version-50"></a>Desde la versión 5.0:  
  Ya no debe introducirse una fecha de registro en el formulario de solicitud del proceso Registrar variación existencias. El movimiento de contabilidad se crea con la misma fecha de registro que los movimientos de valor relacionados. Para completar el proceso, el rango de fechas de registro permitidas debe permitir la Fecha de registro del movimiento de contabilidad creado. De lo contrario, el rango de fechas de registro permitidas debe volver a abrirse temporalmente cambiando o eliminando las fechas en los campos Permitir registro desde y en la Configuración de contabilidad. Para evitar errores de conciliación es necesario que fecha de registro del movimiento de contabilidad se corresponda con la fecha de registro del movimiento de valor.  
 
- El proceso escanea la Tabla 5811 - Registrar movimiento valor en C/G para identificar los movimientos de valor en el ámbito para registrar en la Contabilidad. Después de una ejecución correcta, la tabla se vacía.  
-
- Son bienvenidos todos los comentarios sobre cómo este proceso y la documentación pueden desarrollarse más a fondo.  
-
- Helene Holmin  
-
- Ingeniero de escalación de Dynamics NAV  
+ El proceso escanea la Tabla 5811 - Registrar movimiento valor en C/G para identificar los movimientos de valor en el ámbito para registrar en la Contabilidad. Después de una ejecución correcta, la tabla se vacía.
 
 ## <a name="see-also"></a>Consulte también  
 [Detalles de diseño: Coste de inventario](design-details-inventory-costing.md)  

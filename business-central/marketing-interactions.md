@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: dd1651c6df11f99c010c1a9725b2cb5069b929e8
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6fb3c1a19626c4cfa078f030a387e314ae2e0480
 ms.contentlocale: es-es
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="managing-interactions-with-contacts"></a>Gestión de las interacciones con los contactos
@@ -30,7 +30,9 @@ El área de Gestión de relaciones permite registrar todas las interacciones que
 
 ##  <a name="setting-up-interaction-templates"></a>Configurar plantillas de interacción
 Antes de poder crear y registrar interacciones, debe configurar las plantillas de interacción. Al crear interacciones, debe especificar las plantillas en las que se basa. Una plantilla de interacción es un modelo que define las características básicas de una interacción.
-Puede configurar una plantilla de interacción en la ventana **Plantillas de interacción**.  
+Puede configurar una plantilla de interacción en la ventana **Plantillas de interacción**.
+
+Después de especificar la información de la plantilla de interacción, puede crear un anexo como, por ejemplo, un documento de Microsoft Word. Repita estos pasos para configurar todas las plantillas de interacción que desee.  
 
 ## <a name="creating-interactions"></a>Crear interacciones
 Hay dos maneras de registrar interacciones:
@@ -50,7 +52,7 @@ En esta ventana puede:
 * Ver el estado de las interacciones.
 * Marcar las interacciones como canceladas.
 
-Puede eliminar los movimientos de registro de interacción que han sido cancelados. Para eliminar os movimientos de registro de interacción, seleccione el icono ![Buscar por página o informe](media/ui-search/search_small.png "icono Buscar por página o informe"), introduzca **Eliminar mov. cancel. reg. inter.** y, a continuación, seleccione el vínculo relacionado y rellene la información.
+Puede eliminar los movimientos de registro de interacción que han sido cancelados. Para eliminar os movimientos de registro de interacción, seleccione el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), introduzca **Eliminar mov. cancel. reg. inter.** y, a continuación, seleccione el vínculo relacionado y rellene la información.
 
 ## <a name="see-also"></a>Consulte también
 [Gestionar contactos](marketing-contacts.md)  

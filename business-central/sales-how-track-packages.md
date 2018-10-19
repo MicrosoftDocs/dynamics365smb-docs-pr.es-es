@@ -9,23 +9,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.date: 07/19/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 42deec3d94209a7963e596e7deb5584fccd6db7f
-ms.openlocfilehash: 9e50d9da53077f2baa136ca614734adbd332c1be
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 7fa51c4c5bc5370df07e6277c7c7e6403d71f5e2
 ms.contentlocale: es-es
-ms.lasthandoff: 07/19/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="track-packages"></a>Hacer un seguimiento de los paquetes
 Algunos transportistas ofrecen servicios en Internet que le permiten hacer un seguimiento de los paquetes que les ha entregado. Si utiliza uno o varios de estos transportistas, configure una serie de datos básicos y utilice la función de seguimiento automático desde el histórico de albaranes. Para obtener más información, vea [Configurar transportistas](sales-how-to-set-up-shipping-agents.md).  
 
-> [!NOTE]
-> Esta capacidad no está disponible actualmente en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, consulte [¿Por qué algunos elementos de la interfaz de usuario que he usado en Dynamics NAV no están visibles en Business Central?](https://docs.microsoft.com/en-us/dynamics365/business-central/across-faq#why-are-some-ui-elements-that-i-used-in-dynamics-nav-not-visible-in-) en las preguntas frecuentes.
-
 ## <a name="to-track-a-package"></a>Para hacer el seguimiento de un paquete
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Histórico albaranes venta** y, a continuación, seleccione el vínculo relacionado.
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Histórico albaranes venta** y luego elija el enlace relacionado.
 2. Abra la el envío correspondiente.
 3. En el campo **Nº seguimiento bulto** especifique el número de paquete que le ha dado el transportista.
 4. Elija la acción **Seguimiento paquete**.

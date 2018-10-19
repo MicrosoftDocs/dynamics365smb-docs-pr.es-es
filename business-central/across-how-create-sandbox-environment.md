@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 08/18/2017
+ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: d31095d0fc67b342d74bff813fb2eff7e3f82262
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 3110168e904cc6944a5f05a3a4cc7325425d3fe9
 ms.contentlocale: es-es
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
@@ -26,7 +26,7 @@ Un entorno aislado (vista preliminar) es una instancia de no producción de [!IN
 Debe tener una suscripción a [!INCLUDE[d365fin](includes/d365fin_md.md)] para poder crear un entorno aislado. Puede haber solo un entorno aislado por suscripción.
 
 1. Inicie sesión en su instancia de producción del servicio [!INCLUDE[d365fin](includes/d365fin_md.md)].
-2. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), introduzca **Entorno aislado** y elija el vínculo relacionado.
+2. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Entorno de espacio aislado** y luego elija el enlace relacionado.
 ![Configuración de un entorno aislado](./media/across-sandbox/sandbox-environment-setup.png)
 3. Seleccione **Crear**.  
   Se abrirá otra pestaña en el navegador para finalizar la configuración del entorno aislado.
@@ -40,7 +40,7 @@ Debe tener una suscripción a [!INCLUDE[d365fin](includes/d365fin_md.md)] para p
 6. En la parte superior del Área de trabajo, aparece una notificación para informarle de que se trata de un entorno aislado. También puede ver el tipo del entorno en la barra de título del cliente.
 ![Notificaciones del Área de trabajo del entorno aislado](./media/across-sandbox/sandbox-rolecenter-notification.png)  
 En el entorno aislado, se ha creado un nuevo suscriptor. Este suscriptor se carga con datos de demostración predeterminados para la empresa CRONUS. No se copian ni se transfieren datos del entorno de producción durante la creación del entorno aislado.
-7.  Cuando lo desee puede volver a la página **Entorno aislado** y restablecerlo.
+7.  Cuando lo desee puede volver a la ventana **Entorno aislado** y restablecerlo.
 > [!NOTE]  
 >  Al restablecer el entorno aislado se eliminará completamente y, a continuación, se creará de nuevo con los datos de demostración predeterminados.  
 
@@ -58,7 +58,7 @@ En un entorno aislado, se encuentra habilitada la función de diseñador en el c
 ![Diseñador del cliente](./media/across-sandbox/sandbox-inclient-designer.png)
 
 ### <a name="enable-the-advanced-user-experience"></a>Activar la experiencia del usuario avanzado
-Es posible activar y probar la funcionalidad avanzada (completa) de [!INCLUDE[d365fin](includes/d365fin_md.md)] en un suscriptor aislado configurando el campo **Experiencia** en la página **Información de la empresa**.
+Es posible activar y probar la funcionalidad avanzada (completa) de [!INCLUDE[d365fin](includes/d365fin_md.md)] en un suscriptor aislado configurando el campo **Experiencia** en la ventana **Información de la empresa**.
 
 ![Entorno aislado avanzado](./media/across-sandbox/sandbox-advanced.png)
 

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 04de6e83dadace8844eca569f0162f827af0bb7c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f629216f08ae10667fac1726c97c4d55a90d3a88
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-jobs"></a>Configurar proyectos
@@ -25,32 +25,32 @@ En la ventana **Configuración de proyectos**, debe especificar cómo desea util
 En las fichas de proyecto individuales, debe configurar los precios de los productos del proyecto, los recursos del proyecto y las cuentas de proyecto, y debe configurar los grupos contables de proyectos.
 
 ## <a name="to-set-general-information-for-jobs"></a>Para configurar la información general de los proyectos
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Configuración de proyectos** y, a continuación, seleccione el vínculo relacionado.
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración de proyectos** y luego elija el enlace relacionado.
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
->   La casilla **Aplicar vínculo uso** es bastante compleja y, por tanto, se explica en la sección siguiente.
+>   La casilla **Aplicar vínculo uso de forma pred.** es bastante compleja y, por tanto, se explica en la sección siguiente.
 
 ## <a name="to-set-up-job-usage-tracking"></a>Para configurar el seguimiento de uso de proyecto
 Cuando se está ejecutando un proyecto, es posible que desee saber cómo va la utilización en comparación con el plan. A hacerlo fácilmente, cree un vínculo entre las líneas de planificación de proyecto y la utilización real. Esto le permite seguir los costes y ver fácilmente cuánto trabajo queda por realizar. De forma predeterminada, el tipo de línea de planificación de proyecto es **Presupuesto**, pero utilizar el tipo de línea **Presupuesto y facturable** tiene efectos similares.
 
-Si selecciona la casilla **Aplicar vínculo uso**, puede revisar la información de la línea de planificación de proyecto. Puede definir a la cantidad del recurso, el producto o la cuenta de contabilidad general, y después indicar qué cantidad desea transferir al diario de proyectos. El campo **Cantidad pendiente** de la línea de planificación de proyecto puede indicar qué queda por transferir y registrar en el diario de proyectos.
+Si selecciona la casilla **Aplicar vínculo uso de forma pred.**, puede revisar la información de la línea de planificación de proyecto. Puede definir a la cantidad del recurso, el producto o la cuenta de contabilidad general, y después indicar qué cantidad desea transferir al diario de proyectos. El campo **Cantidad pendiente** de la línea de planificación de proyecto puede indicar qué queda por transferir y registrar en el diario de proyectos.
 
-Cuando se selecciona la casilla **Aplicar vínculo uso**, y el tipo de la línea de planificación de proyecto es **Facturable**, el departamento financiero crea una línea de planificación de proyecto del tipo **Presupuesto** después de registrar la línea del diario.
+Cuando se selecciona la casilla **Aplicar vínculo uso de forma pred.**, y el tipo de la línea de planificación de proyecto es **Facturable**, el departamento financiero crea una línea de planificación de proyecto del tipo **Presupuesto** después de registrar la línea del diario.
 
 > [!NOTE]  
->   Si la casilla **Aplicar vínculo uso** está seleccionada en la ficha de proyecto y el campo **Tipo de línea** está en blanco, se crearán las nuevas líneas de planificación de proyecto del tipo de línea **Presupuesto** al registrar las líneas de diario de proyectos. Si la casilla **Aplicar vínculo uso** no está seleccionada en la ficha de proyecto y el campo **Tipo de línea** está en blanco, no se crearán líneas de planificación de proyecto al registrar las líneas de diario de proyectos. Para obtener más información, consulte [Registro del uso para proyectos](projects-how-record-job-usage.md).
+>   Si la casilla **Aplicar vínculo uso de forma pred.** está seleccionada en la ficha de proyecto y el campo **Tipo de línea** está en blanco, se crearán las nuevas líneas de planificación de proyecto del tipo de línea **Presupuesto** al registrar las líneas de diario de proyectos. Si la casilla **Aplicar vínculo uso de forma pred.** no está seleccionada en la ficha de proyecto y el campo **Tipo de línea** está en blanco, no se crearán líneas de planificación de proyecto al registrar las líneas de diario de proyectos. Para obtener más información, consulte [Registro del uso para proyectos](projects-how-record-job-usage.md).
 
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Configuración de proyectos** y, a continuación, seleccione el vínculo relacionado.
-2. Seleccione o anule la selección de la casilla **Aplicar vínculo uso**.
+2. Seleccione o anule la selección de la casilla **Aplicar vínculo uso de forma pred.**.
 
 > [!NOTE]  
->   Puede realizar una configuración diferente de la casilla **Aplicar vínculo uso** en las fichas de proyecto individuales. En ese caso, la configuración de dicho proyecto ignorará el valor predeterminado general descrito anteriormente.
+>   Puede realizar una configuración diferente de la casilla **Aplicar vínculo uso de forma pred.** en las fichas de proyecto individuales. En ese caso, la configuración de dicho proyecto ignorará el valor predeterminado general descrito anteriormente.
 
 ## <a name="to-set-up-prices-for-job-resources"></a>Para configurar los precios de los recursos de proyecto
 Puede configurar precios concretos para los recursos de un proyecto. Para ello, debe usar la ventana **Precios recursos proyecto**.
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Proyectos** y, a continuación, seleccione el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Proyectos** y luego elija el enlace relacionado.  
 2. Seleccione el proyecto correspondiente y, a continuación, elija la acción **Recurso**.
 3. En la ventana **Precios recursos proyecto**, rellene los campos según sea necesario.
 
@@ -64,7 +64,7 @@ Se usará el valor del campo **Precio de venta** correspondiente al recurso en l
 ## <a name="to-set-up-prices-for-job-items"></a>Para configurar los precios de los productos de proyecto
 Puede configurar precios concretos para los productos de un proyecto. Para ello, debe usar la ventana **Precios recursos proyecto**.
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Proyectos** y, a continuación, seleccione el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Proyectos** y luego elija el enlace relacionado.  
 2. Seleccione el proyecto correspondiente y, a continuación, elija la acción **Producto**.
 3. En la ventana **Precios productos proyecto**, rellene los campos según sea necesario.
 
@@ -78,7 +78,7 @@ El valor del campo **Precio de venta** correspondiente al artículo se usará en
 ## <a name="to-set-up-prices-for-job-general-ledger-accounts"></a>Para configurar precios de cuentas del proyecto
 Puede configurar precios específicos para gastos contables de un proyecto. Para ello, debe usar la ventana **Precios cuentas proyecto**.
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Proyectos** y, a continuación, seleccione el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Proyectos** y luego elija el enlace relacionado.  
 2. Seleccione el proyecto correspondiente y, a continuación, elija la acción **Cuenta**.  
 3. En la ventana **Precios cuentas proyecto**, rellene los campos según sea necesario.
 
@@ -92,7 +92,7 @@ Un aspecto de los proyectos de planificación es decidir qué cuentas de registr
 > [!NOTE]  
 >   Se deben configurar las cuentas necesarias en el plan de cuentas antes de configurar los grupos contables. Para obtener más información, vea [Configuración o cambio del plan de cuentas](finance-setup-chart-accounts.md).  
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Grupos contables proyectos** y, a continuación, seleccione el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Grupos registro proyecto** y luego elija el enlace relacionado.  
 2. Elija la acción **Nuevo** y, a continuación, rellene los campos de cuenta tal como se describe en la tabla siguiente.  
 
 | Campo Cuenta | Descripción |

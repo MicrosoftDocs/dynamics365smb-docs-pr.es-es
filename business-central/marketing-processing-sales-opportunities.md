@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c7c7dca1d59b407f119347345cbbdef3f730acbc
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 5b57b47d4ceb08a3836140945387e38887553a99
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="process-sales-opportunities"></a>Procesar oportunidades de ventas
@@ -27,9 +27,9 @@ Las oportunidades de venta existentes están disponibles en la ventana **Lista o
 
 | Para ver las oportunidades | Entonces |
 | --- | --- |
-| Todos los vendedores y contactos |Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Lista oportunidad** y, a continuación, seleccione el vínculo relacionado. |
-| Un vendedor específico |Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Vendedores** y, a continuación, seleccione el vínculo relacionado. Seleccione el vendedor, seleccione la acción **Oportunidades** y, a continuación, seleccione la acción **Lista**. |
-| Un contacto específico |Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Contactos** y, a continuación, seleccione el vínculo relacionado. Seleccione el contacto de la lista y, a continuación, seleccione la acción **Oportunidades**. |
+| Todos los vendedores y contactos |Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Lista oportunidades** y luego elija el enlace relacionado. |
+| Un vendedor específico |Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Vendedores** y luego elija el enlace relacionado. Seleccione el vendedor, seleccione la acción **Oportunidades** y, a continuación, seleccione la acción **Lista**. |
+| Un contacto específico |Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Contactos** y luego elija el enlace relacionado. Seleccione el contacto de la lista y, a continuación, seleccione la acción **Oportunidades**. |
 
 Todas estas tareas abren la ventana **Lista oportunidades**.
 
@@ -65,7 +65,7 @@ Para eliminar oportunidades cerradas de la ventana **Lista oportunidad**, selecc
 
 Para borrar oportunidades cerradas usando el proceso **Eliminar oport. cerradas** siga estos pasos:
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Eliminar oportunidades** y, a continuación, seleccione el vínculo relacionado.
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Eliminar oportunidades** y luego elija el enlace relacionado.
 2. En la sección **Oportunidad** configure los filtros que especifican las oportunidades que se tienen que eliminar.
 3. Elija el botón **Aceptar**.
 

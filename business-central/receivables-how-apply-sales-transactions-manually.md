@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipt
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f514f05f5333bc8f2b473c50324e267d19c70d6f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ca7052fd5353ec93f6544aa7a9056fb492b638e2
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="reconcile-customer-payments-manually"></a>Conciliar pagos de cliente manualmente
 Cuando recibe un cobro de un cliente o efectúa un reembolso, debe decidir si va a liquidar el pago o reembolsarlo para cerrar uno o varios movimientos pendientes del debe o el haber. Puede especificar el importe que desea liquidar. Por ejemplo, puede liquidar pagos parciales en movimientos de cliente. El cierre de movimientos de cliente garantiza que la información, como las estadísticas de cliente, los extractos de cuenta y los intereses, sean correctos.
 
 > [!NOTE]  
->   En la ventana **Movs. clientes**, la fuente de color rojo significa que el pago relacionado ha superado su fecha de vencimiento.
+>   En la ventana **Movs. clientes**, la fuente de color rojo significa que el pago relacionado ha superado su fecha de vencimiento. Si los pagos vencidos se están convirtiendo en un problema, podemos ayudarle a reducir su frecuencia. Puede habilitar la extensión de **Predicciones de pago atrasado**, que usa un modelo predictivo que creamos en Azure Machine Learning para predecir el momento en que se realizan los pagos. Estas predicciones le ayudan a reducir los cobros pendientes y afinar la estrategia de sus colecciones. Por ejemplo, si se predice que un pago se retrasará, puede ajustar los términos de pago o el método de pago para el cliente. Para obtener más información, consulte [Predicciones de pago atrasado](ui-extensions-late-payment-prediction.md).  
 
 Puede liquidar movimientos de cliente de varias formas:
 
@@ -34,10 +34,10 @@ Puede liquidar movimientos de cliente de varias formas:
 
 Puede liquidar pagos de cliente manualmente en la ventana **Diario de recibos de efectivo**. Un diario de cobros es un tipo de diario general, por lo que puede usarlo para registrar transacciones en cuentas contables, de banco, de cliente, de proveedor y de activos fijos. Puede liquidar el pago de uno o más movimientos de débito cuando registra el pago o puede liquidarlos desde movimientos registrados posteriormente.
 
-También puede liquidar pagos de cliente y de proveedor en la ventana **Diario de conciliación de pagos** mediante funciones para la importación de extractos bancarios, la liquidación automática y la conciliación de cuentas bancarias. Para obtener más información, vea [Conciliar pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md). De forma alternativa, puede conciliar los pagos de clientes basados en una lista de documentos de ventas sin abonar en la ventana **Registro de pagos**. Para obtener más información, consulte [Conciliar pagos de cliente desde una lista de documentos de ventas sin abonar](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
+También puede liquidar pagos de cliente y de proveedor en la ventana **Diario de conciliación de pagos** mediante funciones para la importación de extractos bancarios, la liquidación automática y la conciliación de cuentas bancarias. Para obtener más información, vea [Conciliar pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md). De forma alternativa, puede conciliar los pagos de clientes basados en una lista de documentos de ventas sin abonar en la ventana **Registro de pagos**. Para obtener más información, consulte [Conciliar pagos de cliente desde una lista de documentos de ventas sin abonar](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md).
 
 ## <a name="to-fill-and-post-a-cash-receipt-journal"></a>Para rellenar y registrar un diario de recibos de efectivo
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diario de recibos de efectivo** y, a continuación, seleccione el vínculo relacionado.
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diario de recibos de efectivo** y luego elija el enlace relacionado.
 2. Seleccione la acción **Editar diario**.
 3. Seleccione la sección de diario que le interese en el campo **Nombre sección**.
 4. Rellene el campo **Fecha registro**.  
@@ -53,7 +53,7 @@ También puede liquidar pagos de cliente y de proveedor en la ventana **Diario d
 12. Registre el diario.
 
 ## <a name="to-apply-a-payment-to-a-single-customer-ledger-entry"></a>Para liquidar un pago a un solo movimiento de cliente
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diario de recibos de efectivo** y seleccione el vínculo relacionado.
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diario de recibos de efectivo** y elija el enlace relacionado.
 2. Seleccione la acción **Editar diario**.
 3. En la primera línea de diario, escriba la información correspondiente sobre el movimiento que se va a liquidar.
 4. En el campo **Tipo documento**, introduzca **Pago**.
@@ -68,7 +68,7 @@ También puede liquidar pagos de cliente y de proveedor en la ventana **Diario d
 11. Registro el diario de cobros.
 
 ## <a name="to-apply-a-payment-to-multiple-customer-ledger-entries"></a>Para liquidar un pago a varios movimientos de cliente
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diario de recibos de efectivo** y, a continuación, seleccione el vínculo relacionado.
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diario de recibos de efectivo** y luego elija el enlace relacionado.
 2. Seleccione la acción **Editar diario**.
 3. En la primera línea de diario, escriba la información correspondiente sobre el movimiento que se va a liquidar.
 4. En el campo **Tipo documento**, introduzca **Pago**.
@@ -84,7 +84,7 @@ También puede liquidar pagos de cliente y de proveedor en la ventana **Diario d
 12. Registro el diario de cobros.
 
 ## <a name="to-apply-a-credit-memo-to-a-single-customer-ledger-entry"></a>Para liquidar un abono a un único movimiento de cliente
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Abonos de venta** y, a continuación, seleccione el vínculo relacionado.
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Abonos de venta** y luego elija el enlace relacionado.
 2. Abra el abono de venta correspondiente.
 3. Para liquidar el abono a un solo movimiento de cliente al registrar, en la ficha desplegable **Liq. por n.º documento**, seleccione el movimiento que desea liquidar con el pago.
 4. En la línea del campo **Importe a liquidar**, introduzca el importe con el que desea liquidar el movimiento.  
@@ -94,7 +94,7 @@ También puede liquidar pagos de cliente y de proveedor en la ventana **Diario d
 6. Registre el abono.
 
 ## <a name="to-apply-a-credit-memo-to-multiple-customer-ledger-entries"></a>Para liquidar un abono a varios movimientos de cliente
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Abonos de venta** y, a continuación, seleccione el vínculo relacionado.
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Abonos de venta** y luego elija el enlace relacionado.
 2. Abra el abono de venta correspondiente.
 3. Para liquidar el abono en varios movimientos del cliente cuando registre, seleccione la acción **Liquidar movs.**
 4. Seleccione las líneas que incluyen los movimientos a los que desea aplicar el movimiento de liquidación y, a continuación, seleccione la acción **Marcar id. de liquidación**.
@@ -105,7 +105,7 @@ También puede liquidar pagos de cliente y de proveedor en la ventana **Diario d
 7. Registre el abono.
 
 ## <a name="to-apply-posted-customer-ledger-entries"></a>Para liquidar movimientos de clientes registrados
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Clientes** y, a continuación, seleccione el vínculo relacionado.
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Clientes** y luego elija el enlace relacionado.
 2. Abra la ficha de cliente para el cliente con los movimientos que desea liquidar.
 3. Elija la acción **Movimientos** y, a continuación, seleccione la línea con el movimiento que se liquidará.
 4. Seleccione la acción **Liquidar movs.**. La **Liquidar movs. cliente** se abre y muestra los movimientos pendientes del cliente.
@@ -117,7 +117,7 @@ También puede liquidar pagos de cliente y de proveedor en la ventana **Diario d
 8. Para registrar la liquidación, elija el botón **Aceptar**.
 
     Si la liquidación registrada obtiene como resultado movimientos cerrados de cliente, se desactivará el campo **Pendiente** para dichos movimientos.    
-9. Para consultar los movimientos, seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Clientes** y, a continuación, seleccione el vínculo relacionado. Busque la ficha del cliente correspondiente para ver los movimientos.  
+9. Para consultar los movimientos, seleccione el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Clientes** y luego elija el enlace relacionado. Busque la ficha del cliente correspondiente para ver los movimientos.  
 
 En la lista de movimientos, en la línea que contiene el movimiento que se liquidó completamente, puede ver que la casilla **Pendiente** no está marcada.  
 
@@ -131,7 +131,7 @@ Si con un movimiento (Movimiento 1) en una divisa liquida otro movimiento (Movim
 
 Se debe habilitar la liquidación de movimientos de cliente en divisas diferentes. Para obtener más información, vea [Permitir la liquidación de movimientos de cliente en distintas divisas](finance-how-enable-application-ledger-entries-different-currencies.md).  
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diario de recibos de efectivo** y, a continuación, seleccione el vínculo relacionado.
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diario de recibos de efectivo** y luego elija el enlace relacionado.
 2. Abra el diario que desea y rellene la primera línea de diario vacía utilizando un código de divisa.
 3. Seleccione la acción **Liquidar movs.**.
 4. Seleccione la línea que contiene el movimiento con el que desea liquidar el movimiento del diario de recibos de efectivo, seleccione la acción **Marcar id. de liquidación** y, a continuación, seleccione el movimiento que desea liquidar.
@@ -144,7 +144,7 @@ Se debe habilitar la liquidación de movimientos de cliente en divisas diferente
 ## <a name="to-correct-an-application-of-customer-entries"></a>Para corregir una liquidación de movimientos de clientes
 Cuando se corrige una liquidación errónea, se crean y registran movimientos de corrección que son idénticos al original, pero de signo opuesto en el campo de importe, para todos los movimientos, incluidos todos los registros de contabilidad derivados de la liquidación, como los descuentos por pronto pago y las pérdidas y ganancias en divisas. Los movimientos que se cerraron con la liquidación se volverán a abrir.  
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Clientes** y, a continuación, seleccione el vínculo relacionado.
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Clientes** y luego elija el enlace relacionado.
 2. Abrir la ficha de cliente correspondiente.
 3. Seleccione la acción **Movimientos**.
 4. Seleccione el movimiento relevante y, a continuación, seleccione la acción **Desliquidar entradas**.

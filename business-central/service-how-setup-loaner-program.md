@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/31/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 37d592516807f23d301e78742557e922f41cfb1c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 197a5805d55546bbbff1cffc9a12d7cc91017fcd
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-a-loaner-program"></a>Configurar un programa de productos prestados
@@ -26,7 +26,7 @@ En ocasiones, debe entregar al cliente un producto prestado para que lo utilice 
 * Escribir una nota en un producto de servicio acerca de la necesidad de un producto prestado.  
 
 ## <a name="to-set-up-a-loaner"></a>Para configurar un producto prestado  
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Productos prestados** y, a continuación, seleccione el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Productos prestados** y luego elija el enlace relacionado.  
 2. Cree una ficha de producto prestado nueva. 
 3. En el campo **N.º**, introduzca un número para el producto prestado. Si ha configurado una serie numérica para productos prestados en la ventana **Config. gestión servicios**, también puede presionar la tecla Enter para seleccionar el siguiente número de producto prestado disponible.  
 4. Rellene los campos **Descripción**, **Descripción 2** y **Nº serie**.  

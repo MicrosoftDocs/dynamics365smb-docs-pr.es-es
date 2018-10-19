@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 11/22/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: ddd86615679e6231418b479a440b7555a3e1c50f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 917887deae163a76b233e1635344e537806f6215
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="using-the-same-office-365-account-in-included365finincludesd365finlongmdmd-and-microsoft-invoicing"></a>Con la misma cuenta de Office 365 en [!INCLUDE[d365fin](includes/d365fin_long_md.md)] y Microsoft Invoicing
@@ -31,7 +31,7 @@ Por lo tanto, tendrá que iniciar sesión en [!INCLUDE[d365fin](includes/d365fin
 
 ### <a name="to-rename-your-company"></a>Para cambiar el nombre de su empresa
 1.  Inicie sesión en su [!INCLUDE[d365fin](includes/d365fin_md.md)].  
-2.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Empresas** y, a continuación, seleccione el vínculo relacionado.  
+2.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Empresas** y luego elija el enlace relacionado.  
 3.  En la ventana **Empresas**, seleccione el botón **Editar lista**.  
 4.  Cambiar el nombre de la entrada *Mi empresa* por otro distinto.  
 

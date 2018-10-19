@@ -10,24 +10,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bc804db29ec89904101f48b625770f730abb13d9
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 366bf200b78e4927b1c202340dd84af09d32c1a5
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-statuses-for-service-orders-and-repairs"></a>Configuración de estados para órdenes y reparaciones de servicio
 Debe configurar opciones de estado de reparación que identifican el progreso de la reparación y el mantenimiento de productos de servicio de pedidos de servicio. Debe configurar como mínimo nueve opciones de estado de reparación que identifiquen situaciones o acciones realizadas durante el servicio de productos de servicio.  
 
 Puede establecer el nivel de prioridad de las opciones de estado de pedido de servicio. Las cuatro prioridades son: Alta, Media alta, Media baja y Baja.  
-  
+
 Cuando se modifica el estado de reparación de un producto de servicio de un pedido de servicio, se actualiza el estado de la orden de servicio. El estado de reparación de cada producto de servicio se encuentra vinculado al estado de pedido de servicio. Si los productos de servicio se encuentran vinculados a dos o más opciones de estado de pedido de servicio, se selecciona el estado de pedido de servicio con la prioridad más alta.  
 
 ## <a name="to-set-up-a-repair-status"></a>Para configurar un estado de reparación  
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Estado reparación** y, a continuación, seleccione el vínculo relacionado. 2. Cree un estado de reparación nuevo.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Estado reparación** y luego elija el enlace relacionado.
+2. Cree un estado de reparación nuevo.  
 3. Rellene los campos **Código** y **Descripción**.  
 4. En el campo **Estado ped. servicio**, seleccione el estado de pedido para enlazar el estado de reparación. El campo **Prioridad** muestra la prioridad del estado de pedido de servicio seleccionado.  
 5. Elegir un estado de reparación. Puede seleccionar solo uno.  
@@ -36,11 +37,11 @@ Cuando se modifica el estado de reparación de un producto de servicio de un ped
 8. Elija las casillas **Estado en proceso permitido**, **Estado terminado permitido** y **Estado en espera permitido** del mismo modo.
   
 ## <a name="to-set-up-service-status-priorities"></a>Para configurar prioridades de estado de servicio  
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Estado pedido servicio** y, a continuación, seleccione el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Estado pedido servicio** y luego elija el enlace relacionado.  
 2. Seleccione el estado de pedido de servicio para el que desea establecer la prioridad.  
 3. En el campo **Prioridad**, seleccione la prioridad que desea para el estado de pedido de servicio. Repita este paso para cada estado.  
-  
+
 ## <a name="see-also"></a>Consulte también  
-[Descripción del estado de pedido de servicio y estado de reparación]()  
+[Estado de pedido de servicio y estado de reparación](service-service-order-status-and-repair-status.md)  
 [Configurar la gestión de servicios](service-setup-service.md)  
 

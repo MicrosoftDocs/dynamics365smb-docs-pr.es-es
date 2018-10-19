@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 169dba92f2a105dc48551f72a5b75271f541aae4
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 547119ea0fba8a97529579146dab170298e1e83d
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="report-349"></a>Informe 349
 Debe presentar un informe periódico de comercio con otros países o regiones de la UE a las autoridades fiscales. En España, este informe 349 es parte del sistema intracomunitario de intercambio de información sobre el IVA (VIES).  
 
-En [!INCLUDE[d365fin](../../includes/d365fin_md.md)], el modelo de Informe 349 se basa en los movimientos de IVA filtrados por los códigos de país o región. Debe crear un modelo 349 y enviar el archivo a la web de la [Agencia Tributaria](http://go.microsoft.com/fwlink/?LinkId=238181) o con un CD-ROM.  
+En [!INCLUDE[d365fin](../../includes/d365fin_md.md)], el modelo de Informe 349 se basa en los movimientos de IVA filtrados por los códigos de país o región. Debe crear un modelo 349 y enviar el archivo a la web de la [Agencia Tributaria](https://go.microsoft.com/fwlink/?LinkId=238181) o con un CD-ROM.  
 
 Al crear un modelo del informe 349 que incluye los abonos, los movimientos se muestren en la ventana **Advertencias 349 Cliente/Proveedor** para que pueda incluirlos como correcciones a las facturas. Debe realizar los cambios necesarios a las líneas de la ventana **Advertencias 349 Cliente/Proveedor** antes de que pueda enviar la declaración. Para obtener más información, [Crear informes 349](how-to-create-report-349.md).  
 

@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 08/17/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c064bc8a5aaff42a75b10b133225f9d2cb87d786
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fa37e68f0544325e75e3869c61e00cde0d71a520
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="smart-notifications"></a>Notificaciones inteligentes
@@ -32,7 +32,7 @@ Además, algunas notificaciones le permiten especificar las condiciones en las q
 
 La activación o la desactivación de las notificaciones, y la especificación de las condiciones, solo se aplican a su caso.  
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), especifique **Mis notificaciones** y elija el vínculo relacionado.
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Mis notificaciones** y luego elija el enlace relacionado.
 2. Para activar o desactivar una notificación, marque o desmarque la casilla **Activado**.
 3. Para especificar las condiciones que activan una notificación, seleccione el vínculo **Ver detalles de filtro** y rellene los campos.  
 

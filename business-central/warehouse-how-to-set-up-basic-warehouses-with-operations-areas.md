@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ca194b2aeaf906c498ac541448ffac0f691fdd1b
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e10a823d856dd02311b990da5d22fe7f87730d51
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Configurar almacenes básicos con áreas de operaciones
@@ -43,13 +43,13 @@ Los procedimientos siguientes se basan en las actividades del almacén básico d
 >  En el procedimiento siguiente, el campo de configuración **Ubicac. obligatoria** en las fichas de almacén está seleccionado como condición previa porque se considera como la base de cualquier nivel de gestión de almacén.  
 
 ## <a name="to-enable-inventory-documents-for-internal-operation-activities"></a>Para activar los documentos del inventario para las actividades de la operación interna  
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Almacenes** y, a continuación, seleccione el vínculo relacionado.
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Ubicaciones** y luego elija el enlace relacionado.
 2. Abra la ficha de almacén que desea configurar.  
 3.  En la ficha desplegable **Almacén**, seleccione la casilla **Ubicación requerida** para indicar que, cuando un documento de entrada o de origen interno con un código de ubicación emitido, se puede crear una ubicación de inventario o un documento de movimiento de inventario.  
 4.  Seleccione la casilla **Ubicación requerida** para indicar que, cuando se crea un documento de salida o de origen interno con un código de ubicación emitido, debe crearse un pick de inventario o un documento de movimiento de inventario.  
 
 ## <a name="to-define-a-default-bin-structure-in-the-production-area"></a>Para definir una estructura de ubicación predeterminada en el área de producción  
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Almacenes** y, a continuación, seleccione el vínculo relacionado.
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Ubicaciones** y luego elija el enlace relacionado.
 2. Abra el almacén que desea configurar.  
 3.  En la ficha desplegable **Ubicaciones**, en el campo **Abre cód. ubic. control planta**, introduzca el código de la ubicación en la área de producción con todos los componentes de los que el operador de máquina pueda consumir sin solicitar una actividad de almacén que los lleve a la ubicación. Los productos que se colocan en esta ubicación se suelen configurar para su registro automático o baja. Esto significa que el campo **Método de baja** contiene **Adelante** o **Atrás**.  
 4. En el campo **Cód. ubic. para producción**, introduzca el código de la ubicación en el área de producción en la que se colocan por defecto componentes que se extraen para producción en este almacén antes de que se puedan consumir. Los productos que se colocan en esta ubicación se suelen configurar para el registro manual del consumo. Esto significa que el campo de **Método de baja** contiene **Manual** o **Pick + Adelante** o **Pick + Atrás** para picking y movimientos de inventario de almacén.  
@@ -73,13 +73,13 @@ Cuando las cantidades de la línea de picking y envío que se ensamblan para el 
 Para obtener más información, consulte [Gestión de ensamblado](assembly-assemble-items.md).
 
 ### <a name="to-set-up-that-an-inventory-movement-is-automatically-created-when-the-inventory-pick-for-the-assembly-item-is-created"></a>Para configurar que un movimiento de inventario se cree automáticamente cuando el picking de inventario para el producto del ensamblado se crea
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Conf. ensamblado** y, a continuación, seleccione el vínculo relacionado.
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración de ensamblaje** y luego elija el enlace relacionado.
 2. Seleccione la casilla **Crear movimientos automáticamente**.
 
 ### <a name="to-set-up-the-bin-in-the-assembly-area-where-components-are-placed-by-default-before-they-can-be-consumed-in-assembly"></a>Para configurar la ubicación en el área de ensamblado en la que se colocan, de forma predeterminada, los componentes antes de que se puedan consumir en el ensamblado
 El valor de este campo se inserta automáticamente en el campo **Cod. ubicación** de las líneas de pedido de ensamblado cuando esta ubicación se introduce en el campo **Cod. almacén** el campo de la línea de pedido de ensamblado.
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Almacenes** y, a continuación, seleccione el vínculo relacionado.
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Ubicaciones** y luego elija el enlace relacionado.
 2. Abra el almacén que desea configurar.
 3. Rellene el campo **Cód. ubic. para ensamblado**.
 
@@ -91,7 +91,7 @@ Los códigos de ubicación que se configuran en las fichas de almacén definen u
 > [!NOTE]
 > Esta configuración sólo es posible para las ubicaciones donde el campo Ubicac. obligatoria está seleccionado.
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Almacenes** y, a continuación, seleccione el vínculo relacionado.
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Ubicaciones** y luego elija el enlace relacionado.
 2. Abra el almacén que desea configurar.
 3. Rellene el campo **Cód. ubic. desde ensamblado**.
 
@@ -112,7 +112,7 @@ Si **Cód. ubic. ens.contra-pedido** está en blanco, el campo **Cód. ubic. des
 
 El mismo código de ubicación a su vez se copia al campo **Cod. ubicación** de la línea de picking de inventario que controla el envío de la cantidad de ensamblar para pedido. Para obtener más información, vea la sección "Tratamiento de productos ensamblar para pedido en los picking de inventario" en [Realizar picking de productos con picking inventario](warehouse-how-to-pick-items-with-inventory-picks.md).
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Almacenes** y, a continuación, seleccione el vínculo relacionado.
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Ubicaciones** y luego elija el enlace relacionado.
 2. Abra el almacén que desea configurar.
 3. Rellene el campo **Cód. ubic. ens.contra-pedido**.
 
@@ -128,7 +128,7 @@ La fabricación de una ubicación dedicada proporciona una funcionalidad similar
 > [!Caution]
 > Los productos de las ubicaciones dedicadas no se protegen cuando se les ha realizado el picking y se los consume como componentes de producción con la ventana Picking de inventario.
 
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Almacenes** y, a continuación, seleccione el vínculo relacionado. Seleccione el almacén que desea actualizar.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Ubicaciones** y luego elija el enlace relacionado. Seleccione el almacén que desea actualizar.  
 2.  Seleccione la acción **Ubicaciones**.  
 3.  Seleccione el campo **Dedicado** para cada ubicación que desee usar exclusivamente para determinadas operaciones internas y donde desee reservar cantidades para esa operación una vez colocadas allí.  
 

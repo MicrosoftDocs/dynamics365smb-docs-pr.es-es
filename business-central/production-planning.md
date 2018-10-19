@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/14/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a512e8e4e693a44015bc7675e5126259a5eff92b
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 24a2cec78c97d52716c1548f062fa6346bddc5f6
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="planning"></a>Planificación
@@ -38,12 +38,12 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Obtenga una breve introducción de cómo se puede utilizar el sistema de planificación para detectar y priorizar la demanda y sugerir un plan de suministro consolidado.|[Sobre la funcionalidad de la planificación](production-about-planning-functionality.md)|
 |Entienda cómo funcionan todos los aspectos del sistema de planificación y cómo ajustar los algoritmos para cumplir con los requisitos de planificación en distintos entornos.|[Detalles de diseño: Planificación de aprovisionamiento](design-details-supply-planning.md)|
 |Aprender cómo la lógica de planificación diferencia entre la demanda en ubicaciones según la configuración UA y la demanda sin códigos de ubicación.|[Planificación con o sin almacenes](production-planning-with-without-locations.md)|
-|Previsión de la demanda de producción presentada por ventas previstas y pedidos de producción.|[Crear una previsión de producción](production-how-to-create-a-forecast.md)|  
+|Previsión de la demanda presentada por ventas previstas y componentes de producción.|[Crear una previsión de la demanda](production-how-to-create-a-forecast.md)|  
 |Crear órdenes de producción una a una automáticamente a partir del pedido de ventas, para cubrir la demanda exacta de la línea de pedido de ventas.|[Crear órdenes de producción desde pedidos de venta](production-how-to-create-production-orders-from-sales-orders.md)|
 |Crear una orden de producción de proyecto directamente desde un pedido de ventas multilínea que represente un proyecto de producción.|[Planificar órdenes de proyecto](production-how-to-plan-project-orders.md)|
 |Utilizar la ventana **Programación de pedidos** para planificar manualmente para la demanda de ventas o producción un nivel L.MAT. de producción a la vez.|[Planear la nueva demanda de pedido por pedido](production-how-to-plan-for-new-demand.md)|
 |Utilice la ventana **Hoja de planificación** para ejecutar las opciones de MPS y MRP para crear automáticamente alto nivel o planificación detallada en todos los niveles de producto.|[Ejecutar la planificación completa, MPS o MRP](production-how-to-run-mps-and-mrp.md)|
-|Ejecutar la hoja de demanda para crear automáticamente un plan de suministro detallado que cubra la demanda de artículos que sólo se reponen por compra o transferencia.|Página de **Hoja de demanda**|  
+|Ejecutar la hoja de demanda para crear automáticamente un plan de suministro detallado que cubra la demanda de artículos que sólo se reponen por compra o transferencia.|Ventana **Nombre hojas de demanda**|  
 |Iniciar o actualizar una orden de producción como operaciones programadas a grosso modo en el programa de producción maestro.|[Replanificar o actualizar órdenes de producción directamente](production-how-to-replan-refresh-production-orders.md)|
 |Recalcular los calendarios de centro de trabajo o de máquina debido a cambios de planificación.|Sección “Para calcular un calendario de centro de trabajo” en [Configurar los calendarios de planta](production-how-to-create-work-center-calendars.md)|
 |Efectuar el seguimiento de la demanda de pedido (cantidad seguida), previsión, pedido de ventas abierto o parámetro de planificación (cantidad no seguida) que ha dado lugar a la línea de planificación en cuestión.|[Realizar un seguimiento de las relaciones entre demanda y suministro](production-how-track-demand-supply.md)|
@@ -60,5 +60,4 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

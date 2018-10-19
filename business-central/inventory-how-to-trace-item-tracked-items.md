@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 15676c264736b4547dd32cd7a37b252757f73b2a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: bd2bfb6f124a3a98776be21d179a81d8933cc9ee
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="trace-item-tracked-items"></a>Realizar seguimiento de productos seguidos
@@ -32,7 +32,7 @@ Puede ver donde se ha utilizado un producto marcado para seguimiento, incluso c�
 
 ## <a name="to-trace-item-tracked-items"></a>Para controlar productos seguidos  
 
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Seguimiento productos** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Seguimiento productos** y luego elija el enlace relacionado.  
 2.  En los campos de filtrado que aparecen en la parte superior de la ventana, introduzca los números de producto específicos o un filtro sobre los números de producto a los que desea realizar un seguimiento.  
 3.  En el campo **Mostrar componentes**, seleccione si desea visualizar también de dónde provienen los componentes para los productos. Las opciones de este campo son las siguientes.  
 
@@ -61,7 +61,7 @@ Puede ver donde se ha utilizado un producto marcado para seguimiento, incluso c�
 
 ## <a name="to-find-item-tracked-items-with-navigate"></a>Para buscar productos marcados para seguimiento con Navegar  
 
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Navegar** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Navegar** y luego seleccione el enlace relacionado.  
 2.  En la ficha desplegable **Seguim. prod.**, en los campos **Nº serie** y **Nº lote**, introduzca los números de seguimiento de productos de los que desea realizar un seguimiento.  
 3.  Elija la acción **Buscar** para buscar todos los casos números de serie o de lote en la base de datos.  
 
