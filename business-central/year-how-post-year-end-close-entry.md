@@ -10,30 +10,30 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 03/29/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4263f6b3260dd5b8e8fad4f515dcdb61e12eb012
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0a5eaa15fdfbc1d578d755b246b0304030a82b1c
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
-# <a name="post-the-year-end-closing-entry"></a><span data-ttu-id="a3b77-103">Registrar el movimiento de cierre del ejercicio</span><span class="sxs-lookup"><span data-stu-id="a3b77-103">Post the Year-End Closing Entry</span></span>
-<span data-ttu-id="a3b77-104">Después de usar el proceso **Asiento regularización** para generar los movimientos de cierre de fin de año, debe abrir el diario especificado en el proceso y revisar y registrar los movimientos.</span><span class="sxs-lookup"><span data-stu-id="a3b77-104">After you use the **Close Income Statement** batch job to generate the year-end closing entry or entries, you must open the journal you specified in the batch job, and then review and post the entries.</span></span>
+# <a name="post-the-year-end-closing-entry"></a><span data-ttu-id="37f9e-103">Registrar el movimiento de cierre del ejercicio</span><span class="sxs-lookup"><span data-stu-id="37f9e-103">Post the Year-End Closing Entry</span></span>
+<span data-ttu-id="37f9e-104">Después de usar el proceso **Asiento regularización** para generar los movimientos de cierre de fin de año, debe abrir el diario especificado en el proceso y revisar y registrar los movimientos.</span><span class="sxs-lookup"><span data-stu-id="37f9e-104">After you use the **Close Income Statement** batch job to generate the year-end closing entry or entries, you must open the journal you specified in the batch job, and then review and post the entries.</span></span>
 
-## <a name="to-post-the-year-end-closing-entry"></a><span data-ttu-id="a3b77-105">Para registrar el movimiento de cierre del ejercicio</span><span class="sxs-lookup"><span data-stu-id="a3b77-105">To post the year end closing entry</span></span>
-1. <span data-ttu-id="a3b77-106">Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diario general** y, a continuación, seleccione el vínculo relacionado.</span><span class="sxs-lookup"><span data-stu-id="a3b77-106">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Journal**, and then choose the related link.</span></span>
-2. <span data-ttu-id="a3b77-107">En la ventana **Diario general**, en el campo **Nombre de sección**, seleccione la sección que contiene los movimientos de cierre.</span><span class="sxs-lookup"><span data-stu-id="a3b77-107">In the **General Journal** window, in the **Batch Name** field, select the batch that contains the closing entries.</span></span>
-3. <span data-ttu-id="a3b77-108">Revise los movimientos.</span><span class="sxs-lookup"><span data-stu-id="a3b77-108">Review the entries.</span></span>
-4. <span data-ttu-id="a3b77-109">Para registrar el diario, elija la acción **Registrar**.</span><span class="sxs-lookup"><span data-stu-id="a3b77-109">To post the journal, choose the **Post** action.</span></span>
+## <a name="to-post-the-year-end-closing-entry"></a><span data-ttu-id="37f9e-105">Para registrar el movimiento de cierre del ejercicio</span><span class="sxs-lookup"><span data-stu-id="37f9e-105">To post the year end closing entry</span></span>
+1. <span data-ttu-id="37f9e-106">Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diario general** y luego elija el enlace relacionado.</span><span class="sxs-lookup"><span data-stu-id="37f9e-106">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journal**, and then choose the related link.</span></span>
+2. <span data-ttu-id="37f9e-107">En la ventana **Diario general**, en el campo **Nombre de sección**, seleccione la sección que contiene los movimientos de cierre.</span><span class="sxs-lookup"><span data-stu-id="37f9e-107">In the **General Journal** window, in the **Batch Name** field, select the batch that contains the closing entries.</span></span>
+3. <span data-ttu-id="37f9e-108">Revise los movimientos.</span><span class="sxs-lookup"><span data-stu-id="37f9e-108">Review the entries.</span></span>
+4. <span data-ttu-id="37f9e-109">Para registrar el diario, elija la acción **Registrar**.</span><span class="sxs-lookup"><span data-stu-id="37f9e-109">To post the journal, choose the **Post** action.</span></span>
 
 > [!NOTE]  
->   <span data-ttu-id="a3b77-110">Si se detecta algún error, se mostrará un mensaje de error.</span><span class="sxs-lookup"><span data-stu-id="a3b77-110">If an error is detected, an error message is displayed.</span></span> <span data-ttu-id="a3b77-111">Si el registro es correcto, se eliminan los movimientos registrados del diario.</span><span class="sxs-lookup"><span data-stu-id="a3b77-111">If the posting is successful, the posted entries are removed from the journal.</span></span> <span data-ttu-id="a3b77-112">Una vez registrados, los movimientos se registran en cada una de las cuentas de regularización, de forma que sus saldos pasan a ser cero y el resultado del año se transfiere al balance.</span><span class="sxs-lookup"><span data-stu-id="a3b77-112">After posting is complete, an entry is posted to each income statement account so that its balance becomes zero and the year's result is transferred to the balance sheet.</span></span>
+>   <span data-ttu-id="37f9e-110">Si se detecta algún error, se mostrará un mensaje de error.</span><span class="sxs-lookup"><span data-stu-id="37f9e-110">If an error is detected, an error message is displayed.</span></span> <span data-ttu-id="37f9e-111">Si el registro es correcto, se eliminan los movimientos registrados del diario.</span><span class="sxs-lookup"><span data-stu-id="37f9e-111">If the posting is successful, the posted entries are removed from the journal.</span></span> <span data-ttu-id="37f9e-112">Una vez registrados, los movimientos se registran en cada una de las cuentas de regularización, de forma que sus saldos pasan a ser cero y el resultado del año se transfiere al balance.</span><span class="sxs-lookup"><span data-stu-id="37f9e-112">After posting is complete, an entry is posted to each income statement account so that its balance becomes zero and the year's result is transferred to the balance sheet.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="a3b77-113">Consulte también</span><span class="sxs-lookup"><span data-stu-id="a3b77-113">See Also</span></span>
-[<span data-ttu-id="a3b77-114">Cerrar periodos contables</span><span class="sxs-lookup"><span data-stu-id="a3b77-114">Close Accounting Periods</span></span>](year-close-account-periods.md)  
-[<span data-ttu-id="a3b77-115">Cierre de libros</span><span class="sxs-lookup"><span data-stu-id="a3b77-115">Closing Books</span></span>](year-close-books.md)  
-[<span data-ttu-id="a3b77-116">Asiento regularización</span><span class="sxs-lookup"><span data-stu-id="a3b77-116">Close Income Statement</span></span>](year-close-income-statement.md)  
-<span data-ttu-id="a3b77-117">[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="a3b77-117">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="37f9e-113">Consulte también</span><span class="sxs-lookup"><span data-stu-id="37f9e-113">See Also</span></span>
+[<span data-ttu-id="37f9e-114">Cerrar periodos contables</span><span class="sxs-lookup"><span data-stu-id="37f9e-114">Close Accounting Periods</span></span>](year-close-account-periods.md)  
+[<span data-ttu-id="37f9e-115">Cierre de libros</span><span class="sxs-lookup"><span data-stu-id="37f9e-115">Closing Books</span></span>](year-close-books.md)  
+[<span data-ttu-id="37f9e-116">Asiento regularización</span><span class="sxs-lookup"><span data-stu-id="37f9e-116">Close Income Statement</span></span>](year-close-income-statement.md)  
+<span data-ttu-id="37f9e-117">[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="37f9e-117">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 
