@@ -63,7 +63,7 @@ Puede copiar tantas filas como desee. Por ejemplo, para copiar las 1000 filas de
 ## <a name="must-i-have-the-exact-same-number-of-columns-when-pasting-rows"></a>¿Debo tener el mismo número exacto de columnas al pegar las filas?
 Sí. Tanto si está copiando desde [!INCLUDE[d365fin](includes/d365fin_md.md)], desde Excel o desde algún otro origen de tabla, las filas que pegue deben tener las columnas coincidentes exactas, ni más ni menos.
 
-## <a name="why-do-i-get-errors-when-pasting-rows"></a>¿Por qué me aparecen errores al pegar filas? 
+## <a name="why-do-i-get-errors-when-pasting-rows"></a>¿Por qué me aparecen errores al pegar filas?
 Al pegar en [!INCLUDE[d365fin](includes/d365fin_md.md)], se comprueba cada fila para asegurarse de que los valores de cada columna son válidos. Si una columna contiene un valor que no es válido, se detiene el pegado y se muestra un mensaje de error. Para evitar esto, asegúrese de que las columnas tengan valores válidos antes de pegarlos.
 
 
