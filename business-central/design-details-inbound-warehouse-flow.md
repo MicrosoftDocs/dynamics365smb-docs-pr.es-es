@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fda754e366dab52ee2632fa9e959c8cd717e25b9
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9e7990c907360a1ba7fb445e3eeefeb026315f9e
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Detalles de diseño: Flujo de entrada en almacén
@@ -62,7 +62,7 @@ Cuando se reciben productos en el almacén, el usuario responsable de la recepci
 Cuando se libera el documento de origen de entrada, se crea automáticamente una solicitud de almacén de entrada. Contiene referencias al tipo y el número de documento de origen y no puede verlo el usuario.  
 
 ### <a name="3-create-inventory-put-away"></a>3: Crear ubicación de inventario  
-En la ventana **Ubicación inventario**, el trabajador del almacén recupera, mediante extracción, las líneas pendientes del documento de origen basándose en las solicitudes de entrada al almacén. Las líneas de ubicación de inventario las puede crear también mediante envío el usuario responsable del documento de origen.  
+En la página **Ubicación inventario**, el trabajador del almacén recupera, mediante extracción, las líneas pendientes del documento de origen basándose en las solicitudes de entrada al almacén. Las líneas de ubicación de inventario las puede crear también mediante envío el usuario responsable del documento de origen.  
 
 ### <a name="4-post-inventory-put-away"></a>4: Publicar ubicación de inventario  
 En cada línea de los productos que se han ubicado, parcial o totalmente, el empleado del almacén rellena el campo **Cantidad** y, a continuación, registra la ubicación de inventario. Los documentos de origen que están relacionados con la ubicación de inventario se registran como recibidos.  
@@ -81,7 +81,7 @@ Cuando se reciben productos en el almacén, el usuario responsable de la recepci
 Cuando se libera el documento de origen de entrada, se crea automáticamente una solicitud de almacén de entrada. Contiene referencias al tipo y el número de documento de origen y no puede verlo el usuario.  
 
 ### <a name="3-create-warehouse-receipt"></a>3: Crear recepción de almacén  
-En la ventana **Recep. almacén**, el usuario responsable de recibir los productos recupera las líneas pendientes del documento de origen basándose en la solicitud de entrada en el almacén. Se pueden combinar varias líneas del documento de origen en un documento de recepción de almacén.  
+En la página **Recep. almacén**, el usuario responsable de recibir los productos recupera las líneas pendientes del documento de origen basándose en la solicitud de entrada en el almacén. Se pueden combinar varias líneas del documento de origen en un documento de recepción de almacén.  
 
 El usuario rellena el campo **Cdad. a manipular** y selecciona la zona y la ubicación de recepción, si procede.  
 
@@ -106,7 +106,7 @@ Cuando todas las ubicaciones se planifican y asignan a empleados de almacén, el
 El empleado de almacén que realiza las ubicaciones crea un documento de ubicación de almacén, mediante extracción, basándose en la recepción de almacén registrada. El documento de ubicación de almacén se crea y se asigna también a un trabajador de almacén mediante envío.  
 
 ### <a name="9-register-warehouse-put-away"></a>9: Registrar ubicación de almacén  
-En cada línea de los productos que se han ubicado, parcial o totalmente, el empleado del almacén rellena el campo **Cantidad** en la ventana **Ubicación almacén** y, a continuación, registra la ubicación de inventario.  
+En cada línea de los productos que se han ubicado, parcial o totalmente, el empleado del almacén rellena el campo **Cantidad** en la página **Ubicación almacén** y, a continuación, registra la ubicación de inventario.  
 
 Se crean movimientos de almacén y se eliminan las líneas de ubicación de almacén, si se han manipulado por completo. El documento de ubicación de almacén permanecerá abierto hasta que se registre la cantidad total de la recepción de almacén registrada relacionada. El campo **Cantidad a ubicar** de las líneas de pedido de recepción de almacén se actualiza como corresponde.  
 

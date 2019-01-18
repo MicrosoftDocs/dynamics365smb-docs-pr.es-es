@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ddd5ac6a8252b066700b8fd0058f7f772e4fd01b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d73403090cc2b24f232fc1e5eaae1c7bd6417517
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="revalue-fixed-assets"></a>Revalorizar activos fijos
@@ -34,7 +34,7 @@ El ajuste de valores se utiliza para ajustar los diversos valores de los activos
 4. Elija la acción **Introducir saldo AF**. Se crea una segunda línea de diario para la cuenta contrapartida que se ha configurado para el registro de apreciaciones.
 
     > [!NOTE]  
-    >   El paso 4 solo funciona si ha configurado lo siguiente: en la ventana **A/F Ficha grupo contable** del grupo contable del activo fijo, el campo **Cta. apreciación** contiene la cuenta de cargo y el campo **Cta. contrap. apreciación** contiene la cuenta contable en la que desea registrar los movimientos de contrapartida para apreciación. Para obtener más información, vea la sección "Para configurar grupos contables de activos fijos" en [Configurar información general del activo fijo](fa-how-setup-general.md).  
+    >   El paso 4 solo funciona si ha configurado lo siguiente: en la página **A/F Ficha grupo contable** del grupo contable del activo fijo, el campo **Cta. apreciación** contiene la cuenta de cargo y el campo **Cta. contrap. apreciación** contiene la cuenta contable en la que desea registrar los movimientos de contrapartida para apreciación. Para obtener más información, vea la sección "Para configurar grupos contables de activos fijos" en [Configurar información general del activo fijo](fa-how-setup-general.md).  
 5. Seleccione la acción **Registrar**.
 
 ## <a name="to-post-a-write-down-from-the-fixed-asset-gl-journal"></a>Para registrar una depreciación desde el diario general de activos fijos
@@ -44,17 +44,17 @@ El ajuste de valores se utiliza para ajustar los diversos valores de los activos
 4. Elija la acción **Introducir saldo AF**. Se crea una segunda línea de diario para la cuenta contrapartida que se ha configurado para el registro de depreciaciones.
 
     > [!NOTE]  
-    >   El paso 4 solo funciona si ha configurado lo siguiente: en la ventana **A/F Ficha grupo contable** del grupo contable del activo fijo, el campo **Cta. depreciación** contiene la cuenta de abono y el campo **Cta. gastos depreciación** contiene la cuenta contable en la que desea registrar los movimientos de contrapartida para las depreciaciones. Para obtener más información, vea la sección "Para configurar grupos contables de activos fijos" en [Configurar información general del activo fijo](fa-how-setup-general.md).
+    >   El paso 4 solo funciona si ha configurado lo siguiente: en la página **A/F Ficha grupo contable** del grupo contable del activo fijo, el campo **Cta. depreciación** contiene la cuenta de abono y el campo **Cta. gastos depreciación** contiene la cuenta contable en la que desea registrar los movimientos de contrapartida para las depreciaciones. Para obtener más información, vea la sección "Para configurar grupos contables de activos fijos" en [Configurar información general del activo fijo](fa-how-setup-general.md).
 5. Seleccione la acción **Registrar**.
 
 ## <a name="to-perform-general-revaluation-of-fixed-assets"></a>Para realizar una revalorización general de activos fijos
-El ajuste de valores se utiliza para ajustar los diversos valores de los activos fijos como, por ejemplo, los cambios generales de precio. El proceso **Ajustar valores activos** puede utilizarse para cambiar diversos importes como, por ejemplo, importes de apreciación y depreciación. La casilla **Permite ajuste valores** de la ventana **Libro amortización** debe estar seleccionada.
+El ajuste de valores se utiliza para ajustar los diversos valores de los activos fijos como, por ejemplo, los cambios generales de precio. El proceso **Ajustar valores activos** puede utilizarse para cambiar diversos importes como, por ejemplo, importes de apreciación y depreciación. La casilla **Permite ajuste valores** de la página **Libro amortización** debe estar seleccionada.
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Ajustar valores activos fijos** y luego elija el enlace relacionado.  
 2. Rellene los campos según sea necesario.
 3. Elija el botón **Aceptar**.
 
-    Las líneas de revalorización se crean según su configuración en el paso 2. Las líneas se crean en el diario de activos fijos o en el diario general de activos fijos dependiendo de su configuración de plantilla y sección en la ventana **Configuración del diario A/F**. Para obtener más información, consulte [Configurar información general del activo fijo](fa-how-setup-general.md).
+    Las líneas de revalorización se crean según su configuración en el paso 2. Las líneas se crean en el diario de activos fijos o en el diario general de activos fijos dependiendo de su configuración de plantilla y sección en la página **Configuración del diario A/F**. Para obtener más información, consulte [Configurar información general del activo fijo](fa-how-setup-general.md).
 4. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diarios generales A/F** y luego elija el enlace relacionado.  
 5. Seleccione el diario con los activos fijos que desea revalorizar y, a continuación, elija la acción **Movimientos**.  
 6. Compruebe los movimientos creados y, a continuación, seleccione la acción **Registrar** para registrarlos en el diario.

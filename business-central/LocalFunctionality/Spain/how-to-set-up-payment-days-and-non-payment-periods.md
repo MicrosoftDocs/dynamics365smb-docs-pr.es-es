@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4725df1018bd98f7a2fa0d8e2e2c44f04b53bcb2
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3f39de8a04461adf83660ff8e7d724f155a31a76
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-payment-days-and-non-payment-periods"></a>Configurar días de pago y de periodos no-pago
@@ -39,10 +39,10 @@ Para facturas de compras y ventas, se tienen en cuenta los días de pago y los p
     |**Cód. días pago**|Escriba el código de días de pago.|  
     |**Cód. periodo no pago**|Escriba el código de los periodos no-pago.|  
 
-4.  Para abrir la ventana **Días pago**, elija la acción **Días pago**.  
-5.  En la ventana **Días pago**, en el campo **Día pago**, escriba el día de pago de la empresa.  
+4.  Para abrir la página **Días pago**, elija la acción **Días pago**.  
+5.  En la página **Días pago**, en el campo **Día pago**, escriba el día de pago de la empresa.  
 6.  Elija el botón **Aceptar**.  
-7.  Para abrir la ventana **Periodos no-pago**, elija la acción **Periodos no-pago**.  
+7.  Para abrir la página **Periodos no-pago**, elija la acción **Periodos no-pago**.  
 8.  Escriba información en los campos relevantes.  
 9. Elija el botón **Aceptar**.  
 
@@ -50,7 +50,7 @@ Para facturas de compras y ventas, se tienen en cuenta los días de pago y los p
 
 1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Clientes** o **Proveedores** y, a continuación, seleccione el vínculo relacionado.  
 2.  Seleccione el cliente o el proveedor correspondiente y, a continuación, la acción **Días pago** .  
-3.  En la ventana **Días pago**, en el campo **Día pago**, escriba el día de pago del cliente o proveedor.  
+3.  En la página **Días pago**, en el campo **Día pago**, escriba el día de pago del cliente o proveedor.  
 4.  Elija el botón **Aceptar**.  
 
 ## <a name="to-set-up-non-payment-periods-for-customers-and-vendors"></a>Para configurar periodos no-pago para clientes y proveedores  

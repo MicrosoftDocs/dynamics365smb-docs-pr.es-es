@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 4b9fa6fb99ec68982a2869be2085de0588d76c85
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 83545421ec7539b214788d08d4f4b33c4bdb71d7
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="undo-assembly-posting"></a>Deshacer registro de ensamblado.
@@ -44,7 +44,7 @@ El procedimiento siguiente describe cómo deshacer los pedidos de ensamblado reg
 ## <a name="to-undo-posting-of-an-assembly-order"></a>Para deshacer el registro de un pedido de ensamblado  
 1.  Para deshacer total o parcialmente el pedido de ensamblado registrado, seleccione el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos de ensamblado registrados** y seleccione el enlace relacionado.  
 
-    Se abrirá la ventana **Pedidos de ensamblado registrados** y mostrará uno o más pedidos de ensamblado registrado que se registren del pedido de ensamblado en cuestión. Cada registro parcial crea un pedido de ensamblado registrado diferente.  
+    Se abrirá la página **Pedidos de ensamblado registrados** y mostrará uno o más pedidos de ensamblado registrado que se registren del pedido de ensamblado en cuestión. Cada registro parcial crea un pedido de ensamblado registrado diferente.  
 2.  Abra el pedido de ensamblado registrado que desea revertir y elija la acción **Deshacer ensamblado**.  
 
     Si el pedido de ensamblado registrado que desea deshacer está relacionado con uno totalmente registrado que se ha eliminado, tiene la opción de reconstruirlo, normalmente porque desea volver a procesarlo.  

@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 60628167a50977d7486c86d9730378f8d2527786
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: bdb9d8c0d47fe53e9e5ea310a83854e69f545d9e
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="subcontract-manufacturing"></a>Subcontratación de fabricación
@@ -46,7 +46,7 @@ Para obtener más información, consulte [Crear rutas](production-how-to-create-
 ## <a name="calculate-subcontracting-worksheets-and-create-subcontract-purchase-orders"></a>Calcular las hojas de cálculo de la subcontratación y cree los pedidos de compra de subcontratación  
 Una vez que ha calculado la hoja de subcontratación, se crea el documento correspondiente, en este caso un pedido de compra.  
 
-Las funciones de ventana de **Hoja subcontratación** como **Hoja planificación** calculando el suministro necesario, en este caso los pedidos de compra, que se revisa en la hoja de cálculo y después crea con la función de **Ejecutar mensajes acción**.  
+Las funciones de la página **Hoja subcontratación** como **Hoja planificación** calculando el suministro necesario, en este caso los pedidos de compra, que se revisa en la hoja de cálculo y después crea con la función de **Ejecutar mensajes acción**.  
 
 > [!NOTE]  
 >  En las hojas de subcontratación, sólo se pueden ver y utilizar las órdenes de producción que tengan el estado de **Lanzadas**.  
@@ -54,10 +54,10 @@ Las funciones de ventana de **Hoja subcontratación** como **Hoja planificación
 ### <a name="to-calculate-the-subcontracting-worksheet"></a>Para calcular la hoja de subcontratación  
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hoja subcontratación** y luego elija el enlace relacionado.  
 2.  Para calcular la hoja, seleccione la acción **Calcular subcontratos**.  
-3.  En la ventana de **Calcular subcontratos**, defina filtros para operaciones subcontratadas, o los centros de trabajo donde se realizan, para calcular solo las órdenes de producción correspondientes.  
+3.  En la página **Calcular subcontratos**, defina filtros para operaciones subcontratadas, o los centros de trabajo donde se realizan, para calcular solo las órdenes de producción correspondientes.  
 4.  Elija el botón **Aceptar**.  
 
-    Revise las líneas en la ventana de **Hoja subcontratación**. La información de esta hoja de cálculo proviene de la orden de producción y de las líneas de ruta y flujos de la orden de producción del pedido de compra cuando se crea el documento. Puede eliminar una fila de la hoja de cálculo sin asignar a la información original, tal como puede hacer con las otras hojas de cálculo. La información reaparecerá la siguiente vez que ejecute la función de **Calcular subcontratos**.  
+    Revise las líneas en la página **Hoja subcontratación**. La información de esta hoja de cálculo proviene de la orden de producción y de las líneas de ruta y flujos de la orden de producción del pedido de compra cuando se crea el documento. Puede eliminar una fila de la hoja de cálculo sin asignar a la información original, tal como puede hacer con las otras hojas de cálculo. La información reaparecerá la siguiente vez que ejecute la función de **Calcular subcontratos**.  
 
 ### <a name="to-create-the-subcontract-purchase-order"></a>Para generar el pedido de compra subcontratado  
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hoja subcontratación** y luego elija el enlace relacionado.  

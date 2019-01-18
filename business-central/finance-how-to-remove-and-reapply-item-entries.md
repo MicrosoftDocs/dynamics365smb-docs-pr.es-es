@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/27/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b3df27011c482905b0b59ff03570449ac8df3cba
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4774b278e5e71bd7464b8d7d391d16dab238dc0d
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Eliminar y liquidar de nuevo los movimientos contables de producto
-En la ventana **Hoja liquidación**, puede ver y modificar manualmente determinados movimientos de liquidación del producto que se crean automáticamente durante las transacciones del inventario.  
+En la página **Hoja liquidación**, puede ver y modificar manualmente determinados movimientos de liquidación del producto que se crean automáticamente durante las transacciones del inventario.  
 
 Cuando registra una transacción en la que entran o salen productos del inventario, se crea una liquidación de producto entre cada aumento y disminución de inventario. Dichas liquidaciones determinan el flujo de costes desde los bienes que se reciben en el inventario al coste de los bienes que salen del inventario. Debido a la forma en la que se calcula el coste unitario, una liquidación de producto que sea incorrecta podría resultar en un coste medio sesgado y en un coste unitario también sesgado. Para obtener más información, consulte Detalles de diseño: Liquidación de productos.
 
@@ -32,11 +32,11 @@ Es posible que en los siguientes ejemplos, sea necesario deshacer una liquidaci�
 
 Si es posible, utilice un documento para volver a liquidar un movimiento de producto. Por ejemplo, si necesita realizar una devolución de compra de un producto al que ya se ha aplicado una venta, puede realizar una repetición de la liquidación creando y registrando el documento de devolución de compra utilizando la liquidación correcta en el campo **Liq. por nº orden producto** situado en la línea de devolución de compra. Puede utilizar la función **Revertir líneas documentos registrados** o la función **Copiar líneas** en el documento de devolución de compra para facilitar este proceso. Cuando registra el documento, el movimiento de producto se vuelve a liquidar automáticamente. Para obtener más información, vea [Procesar devoluciones de compra o cancelaciones](purchasing-how-process-purchase-returns-cancellations.md).
 
-Si no puede usar un documento para volver a liquidar, por ejemplo cuando tiene que corregir una liquidación fija, utilice la ventana **Hoja liquidación** para realizar la corrección.
+Si no puede usar un documento para volver a liquidar, por ejemplo cuando tiene que corregir una liquidación fija, utilice la página **Hoja liquidación** para realizar la corrección.
 
 > [!Warning]  
 > A continuación se muestran algunos aspectos importantes que es necesario tener en cuenta a la hora de trabajar con la hoja de liquidación:
-    - No debe dejar movimientos de liquidación sin liquidar durante largos periodos porque otros usuarios no pueden procesar los productos hasta que vuelve a liquidar los movimientos de liquidación o cierra la ventana **Hoja liquidación**. Los usuarios que intentan realizar acciones relacionadas con un movimiento de liquidación manualmente no liquidado recibirán el mensaje de error siguiente: “No se puede realizar esta acción porque los movimientos para el producto XXX no están liquidados en la Hoja de liquidación del usuario XXX”.
+    - No debe dejar movimientos de liquidación sin liquidar durante largos periodos porque otros usuarios no pueden procesar los productos hasta que vuelve a liquidar los movimientos de liquidación o cierra la página **Hoja liquidación**. Los usuarios que intentan realizar acciones relacionadas con un movimiento de liquidación manualmente no liquidado recibirán el mensaje de error siguiente: “No se puede realizar esta acción porque los movimientos para el producto XXX no están liquidados en la Hoja de liquidación del usuario XXX”.
     - Es recomendable llevar a cabo el proceso de repetición de la liquidación sólo fuera del horario laboral para evitar conflictos con otros usuarios que estén registrando transacciones relacionadas con los mismos productos.
     - Cuando cierre la hoja de liquidación, [!INCLUDE[d365fin](includes/d365fin_md.md)] llevará a cabo una comprobación para asegurarse de que se han liquidado todos los productos. Por ejemplo, si elimina una liquidación de cantidad pero no crea una nueva liquidación y, a continuación, cierra la hoja de liquidación, se creará una nueva liquidación. Esto permite garantizar que los costes se mantengan intactos. No obstante, si elimina una liquidación fija, no se creará automáticamente una liquidación fija nueva cuando cierre la hoja de liquidación. Deberá hacerlo manualmente creando una nueva liquidación desde la hoja de liquidación.
     - Es posible eliminar liquidaciones de más de un movimiento a la vez desde la hoja de liquidación. Sin embargo, dado que la liquidación de movimientos afecta al conjunto de movimientos disponibles para ser liquidados, no es posible crear una liquidación para más de un movimiento a la vez.
@@ -44,29 +44,29 @@ Si no puede usar un documento para volver a liquidar, por ejemplo cuando tiene q
 
 ## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>Para eliminar una liquidación de producto con la Hoja de liquidación  
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hoja liquidación** y luego elija el enlace relacionado.  
-2.  La ventana **Hoja liquidación** se abre y muestra los movimientos de producto existentes para todos los productos.  
+2.  La página **Hoja liquidación** se abre y muestra los movimientos de producto existentes para todos los productos.  
 3.  Especifique los filtros en la ficha desplegable **General** para facilitar el movimiento del producto para el cual desea cambiar la liquidación.  
-4.  Seleccione el movimiento de producto relevante y, a continuación, seleccione la acción **Movs. liquidados**. Se abre la ventana **Ver, Movs. conciliados - Movs. conciliados** para mostrar los movimientos de producto que se aplican actualmente al movimiento seleccionado.  
+4.  Seleccione el movimiento de producto relevante y, a continuación, seleccione la acción **Movs. liquidados**. Se abre la página **Ver, Movs. conciliados - Movs. conciliados** para mostrar los movimientos de producto que se aplican actualmente al movimiento seleccionado.  
 5.  Seleccione aquel para el cual desea eliminar la liquidación.  
-6.  Seleccione la acción **Eliminar liquidación**. De esta forma, se elimina el movimiento de liquidación del producto que vincula los dos movimientos y lo traslada a la ventana **Ver movs. conciliados - Movs. sin conciliar**.  
-7.  Cierre la ventana **Ver, Movs. conciliados - Movs. conciliados**.  
+6.  Seleccione la acción **Eliminar liquidación**. De esta forma, se elimina el movimiento de liquidación del producto que vincula los dos movimientos y lo traslada a la página **Ver movs. conciliados - Movs. sin conciliar**.  
+7.  Cierre la página **Ver, Movs. conciliados - Movs. conciliados**.  
 
- El campo **Cantidad pendiente** de los dos movimientos de producto aumenta según la cantidad que se ha desliquidado. El movimiento de producto eliminado está ya disponible para la nueva liquidación en la ventana **Ver movs. conciliados - Movs. sin conciliar**.  
+ El campo **Cantidad pendiente** de los dos movimientos de producto aumenta según la cantidad que se ha desliquidado. El movimiento de producto eliminado está ya disponible para la nueva liquidación en la página **Ver movs. conciliados - Movs. sin conciliar**.  
 
 > [!IMPORTANT]  
->  No debe dejar movimientos de liquidación sin liquidar durante periodos más largos porque otros usuarios no pueden procesar los productos afectados hasta que vuelva a liquidar los movimientos o cierre la ventana **Hoja liquidación**. Se muestra el mensaje de error siguiente si intenta realizar acciones relacionadas con un movimiento de liquidación no aplicado manualmente:  
+>  No debe dejar movimientos de liquidación sin liquidar durante periodos más largos porque otros usuarios no pueden procesar los productos afectados hasta que vuelva a liquidar los movimientos o cierre la página **Hoja liquidación**. Se muestra el mensaje de error siguiente si intenta realizar acciones relacionadas con un movimiento de liquidación no aplicado manualmente:  
 >   
 >  **No puede realizar esta acción porque los movimientos del producto <item> no están liquidados en la Hoja de liquidación del usuario <user>.**  
 
 ## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Para volver a liquidar un producto con la Hoja liquidación  
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hoja liquidación** y luego elija el enlace relacionado.  
-2.  La ventana **Hoja liquidación** se abre y muestra los movimientos de producto existentes para todos los productos.  
+2.  La página **Hoja liquidación** se abre y muestra los movimientos de producto existentes para todos los productos.  
 3.  Para volver a liquidar los movimientos eliminados desde que abriera la hoja de trabajo, seleccione el movimiento del producto que le gustaría volver a liquidar. En la pestaña **Acciones**, en el grupo **Funciones**, seleccione **Volver a liquidar**.  
 
     > [!NOTE]  
-    >  Esta nueva liquidación en el saldo original también se produce automáticamente cuando cierra la ventana **Hoja liquidación**.  
-4.  Para aplicar un movimiento de producto abierto disponible a otro movimiento, seleccione el movimiento de producto que desea aplicar. Seleccione la acción **Movs. no liquidados**. Se abre la ventana **Ver movs. conciliados - Movs. sin conciliar**.  
-5.  Seleccione uno o más movimientos que desee liquidar en el movimiento seleccionado en la ventana **Hoja liquidación** y, a continuación, elija el botón **Aceptar**.  
+    >  Esta nueva liquidación en el saldo original también se produce automáticamente cuando cierra la página **Hoja liquidación**.  
+4.  Para aplicar un movimiento de producto abierto disponible a otro movimiento, seleccione el movimiento de producto que desea aplicar. Seleccione la acción **Movs. no liquidados**. Se abre la página **Ver movs. conciliados - Movs. sin conciliar**.  
+5.  Seleccione uno o más movimientos que desee liquidar en el movimiento seleccionado en la página **Hoja liquidación** y, a continuación, elija el botón **Aceptar**.  
 
      Se crea un movimiento de liquidación del producto entre ambos movimientos. Los campos **Cantidad pendiente** de ambos movimientos se verán reducidos por la cantidad liquidada.  
 

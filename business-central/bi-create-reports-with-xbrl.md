@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f14191eb0a7b7564f5079a53bd90dfc39f176326
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e187a6d66804066f68af910c75d74f639e852446
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-reports-with-xbrl"></a>Crear informes con XBRL
@@ -67,7 +67,7 @@ Después de importar o actualizar la taxonomía, las líneas de los esquema debe
 Configure las líneas XBRL asignando los datos de la texto a sus datos contables.  
 
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Taxonomías XBRL** y luego elija el enlace relacionado.  
-2.  En la ventana **Taxonomías XBRL**, seleccione una taxonomía de la lista.  
+2.  En la página **Taxonomías XBRL**, seleccione una taxonomía de la lista.  
 3.  Seleccione la acción **Líneas**.  
 4.  Seleccione una línea y rellene los campos.   
 5.  Para obtener más información acerca de lo que tiene que rellenar, elija la acción **Información**.  
@@ -84,10 +84,10 @@ Configure las líneas XBRL asignando los datos de la texto a sus datos contables
 El primer paso para trabajar con la funcionalidad XBRL es importar la taxonomía en la base de datos de la empresa. Una taxonomía se compone de uno o varios esquemas y algunas bases de enlaces. Una vez haya completado la importación de los esquemas y las bases de enlaces y haya aplicado las bases de enlaces linkbases a los esquemas, puede configurar las líneas y asignar las cuentas contables del pan de cuentas a las líneas apropiadas de la taxonomía.  
 
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Taxonomías XBRL** y luego elija el enlace relacionado.  
-2.  En la ventana **Taxonomías XBRL**, cree una línea nueva y escriba el nombre y la descripción de la taxonomía.  
+2.  En la página **Taxonomías XBRL**, cree una línea nueva y escriba el nombre y la descripción de la taxonomía.  
 3.  Elija la acción **Esquemas** y, a continuación, inserte la descripción del esquema.  
-4.  Para importar el esquema, en la ventana **Esquemas XBRL**, elija la acción **Importar** y seleccione una carpeta y un archivo XSD. Elija el botón **Abrir**.  
-5.  Para importar la base de enlaces, en la ventana **Esquemas XBRL**, elija la acción **Base de enlaces** y seleccione una carpeta y un archivo XML. Elija el botón **Abrir**.  
+4.  Para importar el esquema, en la página **Esquemas XBRL**, elija la acción **Importar** y seleccione una carpeta y un archivo XSD. Elija el botón **Abrir**.  
+5.  Para importar la base de enlaces, en la página **Esquemas XBRL**, elija la acción **Base de enlaces** y seleccione una carpeta y un archivo XML. Elija el botón **Abrir**.  
 6.  Ahora puede elegir entre aplicar la base de enlaces al esquema. Repita el proceso hasta que haya importado todas las bases de enlaces.  
 7. Seleccione la acción **Aplicar a taxonomía** para aplicar la base de enlaces al esquema.  
 
@@ -98,7 +98,7 @@ El primer paso para trabajar con la funcionalidad XBRL es importar la taxonomía
 Cuando una taxonomía cambie, también tiene que actualizar la taxonomía actual. La razón para la actualización puede ser un cambio en el esquema, un cambio en la base de enlaces o una nueva base de enlaces. Después de actualizar la taxonomía, sólo tiene que asignar las líneas de las líneas nuevas o modificadas.  
 
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Taxonomías XBRL** y luego elija el enlace relacionado.  
-2.  En la ventana **Taxonomías XBRL**, seleccione la acción **Esquemas**.  
+2.  En la página **Taxonomías XBRL**, seleccione la acción **Esquemas**.  
 3.  Para actualizar un esquema, seleccione el esquema que desea actualizar y elija la acción **Importar**.  
 4.  Para actualizar o agregar una base de enlaces nueva, elija la acción **Bases de enlaces**.  
 5.  Seleccione la base de enlaces correspondiente o pulse Ctrl+N para crear una nueva línea, seleccione el tipo de base de enlaces y, a continuación, inserte una descripción.  

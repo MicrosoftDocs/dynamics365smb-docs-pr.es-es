@@ -13,14 +13,14 @@ ms.search.keywords: project management
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f629216f08ae10667fac1726c97c4d55a90d3a88
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: fc4c413fcb02cda2e0eb2b8caf7af721a26dfe1b
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-jobs"></a>Configurar proyectos
-En la ventana **Configuración de proyectos**, debe especificar cómo desea utilizar determinadas características del proyecto.
+En la página **Configuración de proyectos**, debe especificar cómo desea utilizar determinadas características del proyecto.
 
 En las fichas de proyecto individuales, debe configurar los precios de los productos del proyecto, los recursos del proyecto y las cuentas de proyecto, y debe configurar los grupos contables de proyectos.
 
@@ -48,25 +48,25 @@ Cuando se selecciona la casilla **Aplicar vínculo uso de forma pred.**, y el ti
 >   Puede realizar una configuración diferente de la casilla **Aplicar vínculo uso de forma pred.** en las fichas de proyecto individuales. En ese caso, la configuración de dicho proyecto ignorará el valor predeterminado general descrito anteriormente.
 
 ## <a name="to-set-up-prices-for-job-resources"></a>Para configurar los precios de los recursos de proyecto
-Puede configurar precios concretos para los recursos de un proyecto. Para ello, debe usar la ventana **Precios recursos proyecto**.
+Puede configurar precios concretos para los recursos de un proyecto. Para ello debe usar la página **Precios recursos proyecto**.
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Proyectos** y luego elija el enlace relacionado.  
 2. Seleccione el proyecto correspondiente y, a continuación, elija la acción **Recurso**.
-3. En la ventana **Precios recursos proyecto**, rellene los campos según sea necesario.
+3. En la página **Precios recursos proyecto**, rellene los campos según sea necesario.
 
 La información opcional de los campos **N.º tarea de proyecto**, **Tipo trabajo**, **Cód. divisa**, **% Descuento línea** y **Factor coste unitario** se usará en las líneas de planificación de proyecto y los diarios de uso cuando se introduce este recurso y se agrega al proyecto.  
 
 Se usará el valor del campo **Precio de venta** correspondiente al recurso en las líneas de planificación de proyecto y los diarios de proyectos cuando se introduzca este recurso, un recurso asignado al grupo de recursos o cualquier recurso.  
 
 > [!NOTE]  
->   Este precio anulará siempre los precios establecidos en la ventana **Precio de recurso/Precios de grupo de recursos** existente.
+>   Este precio anulará siempre los precios establecidos en la página **Precio de recurso/Precios de grupo de recursos** existente.
 
 ## <a name="to-set-up-prices-for-job-items"></a>Para configurar los precios de los productos de proyecto
-Puede configurar precios concretos para los productos de un proyecto. Para ello, debe usar la ventana **Precios recursos proyecto**.
+Puede configurar precios concretos para los productos de un proyecto. Para ello debe usar la página **Precios recursos proyecto**.
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Proyectos** y luego elija el enlace relacionado.  
 2. Seleccione el proyecto correspondiente y, a continuación, elija la acción **Producto**.
-3. En la ventana **Precios productos proyecto**, rellene los campos según sea necesario.
+3. En la página **Precios productos proyecto**, rellene los campos según sea necesario.
 
 La información opcional de los campos **N.º tarea de proyecto**, **Cód. divisa** y **% Descuento línea** se usarán en las líneas de planificación del proyecto y en los diarios de proyectos cuando se introduzca este producto o se agregue al proyecto.  
 
@@ -76,11 +76,11 @@ El valor del campo **Precio de venta** correspondiente al artículo se usará en
 >   Este precio siempre anulará el precio regular del cliente (mecanismo de “mejor precio”) de los productos. Si desea usar los mecanismos de precio regular del cliente, no debe crear ningún precio de producto para el proyecto.
 
 ## <a name="to-set-up-prices-for-job-general-ledger-accounts"></a>Para configurar precios de cuentas del proyecto
-Puede configurar precios específicos para gastos contables de un proyecto. Para ello, debe usar la ventana **Precios cuentas proyecto**.
+Puede configurar precios específicos para gastos contables de un proyecto. Para ello debe usar la página **Precios cuentas proyecto**.
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Proyectos** y luego elija el enlace relacionado.  
 2. Seleccione el proyecto correspondiente y, a continuación, elija la acción **Cuenta**.  
-3. En la ventana **Precios cuentas proyecto**, rellene los campos según sea necesario.
+3. En la página **Precios cuentas proyecto**, rellene los campos según sea necesario.
 
 La información opcional de los campos **N.º tarea proyecto**, **Cód. divisa**, **% Descuento línea**, **Factor coste unitario** y **Coste unitario** se usará en las líneas de planificación de proyecto y los diarios de proyectos cuando se introduce esta cuenta y se agrega al proyecto.  
 

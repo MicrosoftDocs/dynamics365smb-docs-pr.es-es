@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 11c1f56847102ed5f1b323a54bdcfb263c0fdda9
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1f228296cfa750670e1270a100755e67885c783a
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Tutorial: administración de programas con proyectos
@@ -84,7 +84,7 @@ Este tutorial se centra en la empresa CRONUS International Ltd., una empresa de 
     - **Nombre**: **Tricia**  
     - **Tipo**: **Persona**  
 
-4.  Seleccione el campo **Unidad de medida base** y seleccione la acción **Nuevo** para abrir la ventana **Unidad de medida de recursos**. En el campo **Código**, seleccione **Hora**. Elija el botón **Aceptar**.  
+4.  Seleccione el campo **Unidad de medida base** y seleccione la acción **Nuevo** para abrir la página **Unidad de medida de recursos**. En el campo **Código**, seleccione **Hora**. Elija el botón **Aceptar**.  
 5.  En la ficha desplegable **Facturación**, escriba la siguiente información:  
 
     -   **Coste unit. directo**: **5**  
@@ -100,14 +100,14 @@ Este tutorial se centra en la empresa CRONUS International Ltd., una empresa de 
 ### <a name="to-create-a-job-journal-batch"></a>Para crear una sección de diario de proyecto  
 
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diarios proyecto** y luego elija el enlace relacionado.  
-2.  En la ventana **Diario proyecto**, seleccione el campo **Nombre sección**. Aparecerá la ventana **Secciones diario proyectos**.  
+2.  En la página **Diario proyecto**, seleccione el campo **Nombre sección**. Aparecerá la página **Secciones diario proyectos**.  
 3.  Seleccione la acción **Nuevo**, para crear una línea con la siguiente información:  
 
     -   **Nombre**: **Tricia**  
     -   **Descripción**: **Tricia**  
     -   **Nos. serie**: **JJNL-GEN**  
 
-4.  Elija el botón **Aceptar** para cerrar todas las ventanas abiertas.  
+4.  Elija el botón **Aceptar** para cerrar todas las páginas abiertas.  
 
 ## <a name="setting-up-a-job"></a>Configuración de un proyecto  
  En este escenario, CRONUS ha ganado un contrato con un cliente, Progressive Home Furnishings, para diseñar una sala de conferencias y un refectorio. El cliente tiene su sede en los Estados Unidos y el proyecto precisa un software especial. El director del proyecto llega a un acuerdo con el cliente y crea un proyecto que cubra el acuerdo.  
@@ -135,26 +135,26 @@ Este tutorial se centra en la empresa CRONUS International Ltd., una empresa de 
 ### <a name="to-customize-pricing"></a>Para personalizar los precios  
 
 1.  Desde la ficha de proyecto, elija la acción **Recurso**.  
-2.  En la ventana **Precios recursos proyecto**, escriba la siguiente información:  
+2.  En la página **Precios recursos proyecto**, escriba la siguiente información:  
 
     -   **Código**: **Tricia**  
     -   **Precio venta**: **20**  
 
-3.  Seleccione el botón **Aceptar** para cerrar la ventana.  
+3.  Elija el botón **Aceptar** para cerrar la página.  
 4.  Elija la acción **Producto**.  
-5.  En la ventana **Precios productos proyecto**, escriba la siguiente información y el precio personalizado:  
+5.  En la página **Precios productos proyecto**, escriba la siguiente información y el precio personalizado:  
 
     1.  **Nº producto**: **80201 (Programa gráfico)**  
     2.  **Precio venta**: **200**  
 
-6.  Seleccione el botón **Aceptar** para cerrar la ventana.  
+6.  Elija el botón **Aceptar** para cerrar la página.  
 7.  Elija la acción **Cuentas C/G**.  
-8.  En la ventana de **precios de la cuenta de proyectos**, introduzca la siguiente información y el coste de viaje, para el que el cliente ha acordado pagar el coste además de un porcentaje del 25% :  
+8.  En la página **precios de la cuenta de proyectos**, introduzca la siguiente información y el coste de viaje, para el que el cliente ha acordado pagar el coste además de un porcentaje del 25% :  
 
     1.  **Cuenta**: **8430 (Viajes)**  
     2.  **Factor coste unitario**: **1,25**  
 
-9. Elija el botón **Aceptar** para cerrar la ventana.  
+9. Elija el botón **Aceptar** para cerrar la página.  
 
  Los pasos finales en la configuración de un trabajo añaden las tareas del trabajo y las líneas de planificación que forman parte de cada tarea. Las líneas de planificación determinan qué se factura al cliente.  
 
@@ -209,7 +209,7 @@ Este tutorial se centra en la empresa CRONUS International Ltd., una empresa de 
     -   **Cantidad**: **2**  
     -   **Coste unitario**: **400**  
 
-2.  Elija el botón **Aceptar** para cerrar la ventana. Los totales se actualizan en la ventana de **Líneas tarea proyecto**.  
+2.  Elija el botón **Aceptar** para cerrar la página. Los totales se actualizan en la página **Líneas tarea proyecto**.  
 3.  Seleccione línea 1020 y, a continuación, elija la acción **Líneas de planificación de proyecto**. Escriba la siguiente información:  
 
      **Línea 1**  
@@ -228,7 +228,7 @@ Este tutorial se centra en la empresa CRONUS International Ltd., una empresa de 
     -   **Nº**: **80201 (Programa gráfico)**  
     -   **Cantidad**: **1**  
 
-4.  Elija el botón **Aceptar** para cerrar la ventana. Los totales se actualizan en la ventana de **Líneas tarea proyecto**.  
+4.  Elija el botón **Aceptar** para cerrar la página. Los totales se actualizan en la página **Líneas tarea proyecto**.  
 
 ## <a name="calculating-remaining-usage"></a>Cálculo del uso restante  
  Tricia, el miembro del proyecto de equipo, ha estado trabajando en el proyecto durante algún tiempo y desea registrar sus horas y utilización en el proyecto. No ha trabajado más horas que las acordadas previamente con el cliente. Ella utiliza el trabajo por lotes **Cálc. uso restante** para calcular el uso restante para el proyecto en un diario respectivo. Para cada tarea, el trabajo por lotes calcula la diferencia entre el uso programado de productos, recursos y gastos de contabilidad, y el uso real registrado en los movimientos del proyecto. A continuación, se muestra el uso restante en el diario del proyecto, desde el cual puede registrarlo.  
@@ -236,15 +236,15 @@ Este tutorial se centra en la empresa CRONUS International Ltd., una empresa de 
 ### <a name="to-calculate-remaining-usage"></a>Para calcular el uso restante  
 
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diarios proyecto** y luego elija el enlace relacionado.  
-2.  En la ventana **Diario proyectos**, en el campo **Nombre sección**, abra la lista **Secciones diario proyecto**. Seleccione la sección de diario de proyecto de **Tricia**.  
+2.  En la página **Diario proyectos**, en el campo **Nombre sección**, abra la lista **Secciones diario proyecto**. Seleccione la sección de diario de proyecto de **Tricia**.  
 3.  Seleccione la acción **Cálcular uso restante**.  
-4.  En la ventana de **Calc. uso restante proyecto**, en la ficha desplegable **Tarea proyecto**, elija el campo de **Nº proyecto** y seleccione el número de proyecto correspondiente, normalmente trabajo J00010.  
+4.  En la página **Calc. uso restante proyecto**, en la ficha desplegable **Tarea proyecto**, elija el campo de **Nº proyecto** y seleccione el número de proyecto correspondiente, normalmente trabajo J00010.  
 5.  En la ficha desplegable **Opciones**, escriba **J00001** en el campo **Nº documento**. Esto facilitará el futuro seguimiento del registro.  
 6.  Escriba la fecha de hoy como fecha de registro.  
 7.  Elija el botón **Aceptar**. De este modo, se generarán las líneas de diario del proyecto derivadas de las líneas de planificación que creó Prakash para el proyecto.  
-8.  Elija el botón **Aceptar** en la ventana de confirmación. Las líneas generadas se añaden al diario del proyecto.  
+8.  Elija el botón **Aceptar** en la página de confirmación. Las líneas generadas se añaden al diario del proyecto.  
 9. Asegúrese de que todos los números del documento son J00001 y, a continuación seleccione la acción **Registrar**. Elija **Sí** para confirmar el registro.  
-10. Ya se han registrado las líneas. Elija el botón **Aceptar** para cerrar las ventanas.  
+10. Ya se han registrado las líneas. Elija el botón **Aceptar** para cerrar las páginas.  
 
 ## <a name="creating-and-posting-a-job-sales-invoice"></a>Creación y registro de una factura de ventas de proyecto  
  A continuación, Tricia puede crear una factura nueva para el trabajo completo o para parte de un trabajo. También puede adjuntar la factura a otra factura para el mismo cliente y proyecto. En este caso, puede facturar todo el proyecto, ya que éste ya estará completado.  
@@ -255,7 +255,7 @@ Este tutorial se centra en la empresa CRONUS International Ltd., una empresa de 
 2.  Seleccione el proyecto que ha creado antes y, después, seleccione la acción **Crear factura de venta de proyecto**.  
 3.  En la ficha desplegable **Tarea proyecto**, desactive cualquier filtro en **Nº tarea proyecto** para facturar el trabajo. En el campo **Nº proyecto**, seleccione el proyecto correspondiente.  
 4.  En la ficha desplegable **Opciones**, introduzca la fecha de registro y defina si desea crear una factura por tarea o una sola factura para todas las tareas.  
-5.  Elija el botón **Aceptar** para crear la factura y seleccione el botón **Aceptar** en la ventana de confirmación.  
+5.  Elija el botón **Aceptar** para crear la factura y seleccione el botón **Aceptar** en la página de confirmación.  
 
  Después de que Tricia cree la factura, ella puede acceder a ésta desde **Ventas y Marketing** en **Procesamiento de pedidos** y realizar un procesamiento adicional.  
 
@@ -269,15 +269,15 @@ Este tutorial se centra en la empresa CRONUS International Ltd., una empresa de 
 
 1.  Abra el proyecto y, a continuación, elija la acción **Líneas de planificación de proyecto**.  
 2.  Seleccione una de las líneas de planificación que se han facturado y, a continuación, seleccione la acción **Facturas ventas/abono**.
-3. En la ventana **Facturas de proyecto**, elija la acción **Abrir Facturas venta/Abonos venta**.  
+3. En la página **Facturas de proyecto**, elija la acción **Abrir Facturas venta/Abonos venta**.  
 
- Tricia tiene una pregunta acerca de los precios, los costes y los beneficios correspondientes a este proyecto en particular; por lo tanto, accede a esa información en la ventana **Estadísticas**.  
+ Tricia tiene una pregunta acerca de los precios, los costes y los beneficios correspondientes a este proyecto en particular; por lo tanto, accede a esa información en la página **Estadísticas**.  
 
-### <a name="to-open-the-statistics-window"></a>Para abrir la ventana Estadísticas  
+### <a name="to-open-the-statistics-page"></a>Para abrir la página Estadísticas  
 
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Proyectos** y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Estadísticas**. Puede revisar información detallada acerca de los precios, costes y beneficio bruto del trabajo en las divisas local y extranjera.  
-3.  Elija el botón de **Cerrar** para cerrar la ventana de **Estadísticas proyecto**.  
+3.  Elija el botón de **Cerrar** para cerrar la página **Estadísticas proyecto**.  
 
 ## <a name="handling-fixed-prices"></a>Gestión de precios fijos  
  CRONUS ha sido contratada para configurar dos salas de conferencias. Como director del proyecto, Prakash desea tener un buen panorama de las tareas que requiere el proyecto con los costes presupuestados e incurridos asociados de cada tarea. Además, desea conocer el precio contratado total del proyecto y el importe que se lleva facturado. Ha llegado a un acuerdo con el cliente respecto al precio fijo del proyecto.  
@@ -290,7 +290,7 @@ Este tutorial se centra en la empresa CRONUS International Ltd., una empresa de 
 
      Al revisar las líneas de planificación del proyecto, Prakash determina que también va a necesitar a Tricia durante 30 horas para esta etapa del proyecto. Acuerda un precio fijo con el cliente.  
 
-4.  En la ventana **Líneas de tarea de proyecto**, seleccione la línea 1120 y, a continuación, elija la acción **Líneas de planificación de proyecto**.  
+4.  En la página **Líneas de tarea de proyecto**, seleccione la línea 1120 y, a continuación, elija la acción **Líneas de planificación de proyecto**.  
 5.  Seleccione **Nuevo**, para crear una línea con la siguiente información:  
 
     -   **Tipo de línea**: **previsión y contrato**  
@@ -298,9 +298,9 @@ Este tutorial se centra en la empresa CRONUS International Ltd., una empresa de 
     -   **Nº**: **Tricia**  
     -   **Cantidad**: **30**  
 
-7.  Elija el botón **Aceptar** para cerrar la ventana.  
-8.  En el campo de **Previsión (Coste total)**, haga clic con el botón secundario en el campo y elija **Análisis** otra vez en la ventana de **Líneas tarea proyecto**. Vea los cambios a la programación. Puede ver que se han agregado 30 horas al programa.  
-9. Elija el botón **Aceptar** para cerrar las ventanas.  
+7.  Elija el botón **Aceptar** para cerrar la página.  
+8.  En el campo de **Previsión (Coste total)**, haga clic con el botón secundario en el campo y elija **Análisis** otra vez en la página **Líneas tarea proyecto**. Vea los cambios a la programación. Puede ver que se han agregado 30 horas al programa.  
+9. Elija el botón **Aceptar** para cerrar las páginas.  
 
  Una vez agregada Tricia a la previsión para esta línea de tarea, trabaja 25 horas en el proyecto. Ella introduce estas horas en el diario del proyecto.  
 
@@ -322,8 +322,8 @@ Este tutorial se centra en la empresa CRONUS International Ltd., una empresa de 
 
      Unos días más tarde, Tricia trabaja otras 10 horas en el proyecto. Ya lleva trabajadas 35 horas en total. Como el acuerdo con el cliente es por 30 horas, sólo cinco se cargarán al cliente. Tricia sumará manualmente las cinco horas adicionales que trabajó a la programación.  
 
-4.  En la ventana **Diario de proyecto**, seleccione la acción **Cálc. uso restante**.  
-5.  En la ventana **Cálc. uso restante proyecto**, en la ficha desplegable **Opciones**, escriba la siguiente información:  
+4.  En la página **Diario de proyecto**, seleccione la acción **Cálc. uso restante**.  
+5.  En la página **Cálc. uso restante proyecto**, en la ficha desplegable **Opciones**, escriba la siguiente información:  
 
     -   **Nº documento**: **J00003**  
     -   **Fecha registro**: **(fecha actual)**  
@@ -346,14 +346,14 @@ Este tutorial se centra en la empresa CRONUS International Ltd., una empresa de 
 
      Mediante el uso del tipo de línea **Programa**, se actualizan los costes y los precios previstos, pero no se factura al cliente ninguna de las actualizaciones de costes y precios de contrato.  
 
-8.  Seleccione la acción **Registrar**. Seleccione el botón **Aceptar** para cerrar la ventana.  
+8.  Seleccione la acción **Registrar**. Elija el botón **Aceptar** para cerrar la página.  
 9. Abra la lista **Proyectos** .  
 10. Seleccione el proyecto DECO y, a continuación, elija la acción **Líneas de tarea de proyecto**.  
 11. Seleccione la línea 1120 y, en el campo **Previsión (coste total)**, haga clic con el botón secundario en el importe. Elija **Análisis** para ver la información.  
 
      Los cambios se introducen automáticamente en la línea para el N.º tarea de trabajo 1120 En el coste total del proyecto programado, cinco horas adicionales de trabajo de Tricia se han añadido a la previsión.  
 
-12. Elija el botón **Cerrar** para cerrar la ventana.  
+12. Elija el botón **Cerrar** para cerrar la página.  
 13. Haga clic con el botón secundario en el importe del campo **Contrato (Coste total)** y elija **Análisis** para ver la información.  
 
      En el precio total del contrato, sólo se han incluido las 30 horas originales contratadas, pues es lo acordado con el cliente.  
@@ -361,7 +361,7 @@ Este tutorial se centra en la empresa CRONUS International Ltd., una empresa de 
 ## <a name="copying-jobs"></a>Copia de proyectos  
  Prakash ha alcanzado un acuerdo con un cliente, Sellafrio S.L. para equipar 10 salas de conferencias. El acuerdo se parece a un trabajo anterior. Por tanto, ahorrará tiempo si copia ese trabajo anterior.  
 
- En la ventana **Copiar proyecto**, puede seleccionar las líneas de proyecto y tarea que desea copiar. También puede seleccionar copiar los movimientos del proyecto de origen, con lo cual se crean líneas de planificación basadas en el uso real, o bien copiar las líneas de planificación del proyecto originales, con lo cual se copian las líneas de planificación originales en el nuevo proyecto. A continuación, puede elegir el tipo de línea de planificación o de movimiento que desea incluir, solo seleccione el que sea relevante para este nuevo proyecto. Finalmente, puede seleccionar el proyecto que desea copiar y definir si los precios y las cantidades deben copiarse también.  
+ En la página **Copiar proyecto**, puede seleccionar las líneas de proyecto y tarea que desea copiar. También puede seleccionar copiar los movimientos del proyecto de origen, con lo cual se crean líneas de planificación basadas en el uso real, o bien copiar las líneas de planificación del proyecto originales, con lo cual se copian las líneas de planificación originales en el nuevo proyecto. A continuación, puede elegir el tipo de línea de planificación o de movimiento que desea incluir, solo seleccione el que sea relevante para este nuevo proyecto. Finalmente, puede seleccionar el proyecto que desea copiar y definir si los precios y las cantidades deben copiarse también.  
 
 ### <a name="to-copy-a-job"></a>Para copiar un proyecto  
 
@@ -372,7 +372,7 @@ Este tutorial se centra en la empresa CRONUS International Ltd., una empresa de 
     -   **Factura-a Nº cliente**: **20000**  
 
 3.  Seleccione la acción **Copiar tareas de proyecto desde**.  
-4.  En la ventana de **Copiar tareas de proyecto**, introduzca lo siguiente:  
+4.  En la página **Copiar tareas de proyecto**, introduzca lo siguiente:  
 
     -   **Nº proyecto**: **Deco**  
     -   **Nº tarea proyecto desde**: **1000**  
@@ -381,7 +381,7 @@ Este tutorial se centra en la empresa CRONUS International Ltd., una empresa de 
     -   **Nº tarea proyecto hasta**: **Guildford Equipar 10 salas de conferencias**  
     -   Seleccione los campos **Copiar dimensiones** y **Copiar cantidad**.  
 
-5.  Elija el botón **Aceptar** para copiar el proyecto y, a continuación, seleccione el botón **Aceptar** para cerrar la ventana de confirmación.  
+5.  Elija el botón **Aceptar** para copiar el proyecto y, a continuación, seleccione el botón **Aceptar** para cerrar la página de confirmación.  
 
      Comparando los precios, las líneas de tareas de proyectos y las líneas de planificación del proyecto para los dos proyectos, puede ver que la información se copió correctamente.  
 
@@ -391,14 +391,14 @@ Este tutorial se centra en la empresa CRONUS International Ltd., una empresa de 
 ### <a name="to-set-up-a-new-account"></a>Para configurar una cuenta nueva  
 
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Plan de cuentas** y luego elija el enlace relacionado.  
-2.  En la ventana **Plan de cuentas**, seleccione la acción **Nuevo** para crear una ficha nueva.  
+2.  En la página **Plan de cuentas**, seleccione la acción **Nuevo** para crear una ficha nueva.  
 3.  En la ficha **Cuenta nueva**, escriba la siguiente información:  
 
     -   **Nº**: **6630**  
     -   **Nombre**: **Pago proyecto**  
 
-4.  En la ficha desplegable **Registro**, en el campo **Grupo contable producto**, seleccione **VARIOS**. Elija el botón **Aceptar** para cerrar la ventana.  
-5.  En la ventana de **Plan de cuentas**, seleccione **Nº 6630 de pago del proyecto** y, a continuación, seleccione la acción **Incidente en plan de cuentas**. Seleccione **Sí** para confirmar.  
+4.  En la ficha desplegable **Registro**, en el campo **Grupo contable producto**, seleccione **VARIOS**. Elija el botón **Aceptar** para cerrar la página.  
+5.  En la página **Plan de cuentas**, seleccione **Nº 6630 de pago del proyecto** y, a continuación, seleccione la acción **Incidente en plan de cuentas**. Seleccione **Sí** para confirmar.  
 
  Los siguientes procedimientos muestran cómo crear un proyecto nuevo, establece las tarifas y, a continuación, el pago a plazos configurado. En las líneas de tareas del proyecto, puede crear líneas específicas dedicadas al pago a plazos. Todo el trabajo finalizado del proyecto que se agregue a la previsión se escribirá en las líneas de uso. Para cada línea de tarea de pago en las líneas de planificación, el tipo de línea es Contrato, lo que significa que se va a facturar al cliente. Añada una nueva línea para la entrada del pago. En la línea de tarea de uso, puede escribir la información para los productos y recursos utilizados en este proyecto, lo cual aumentará la previsión, como horas de empleado y productos usados en el proyecto.  
 
@@ -417,7 +417,7 @@ Este tutorial se centra en la empresa CRONUS International Ltd., una empresa de 
     -   **Código**: **Tricia**  
     -   **Precio venta**: **10**  
 
-     Seleccione el botón **Aceptar** para cerrar la ventana.  
+     Elija el botón **Aceptar** para cerrar la página.  
 
 4.  En la ficha **Proyecto**, elija la acción **Líneas de tarea de proyecto**.  
 
@@ -427,10 +427,10 @@ Este tutorial se centra en la empresa CRONUS International Ltd., una empresa de 
     |----------|------------------|---------------------------------------|-------------------|  
     |1|1000|Pago del Pago inicial|Registro|  
     |2|2000|Uso|Auxiliar|  
-    |3|3000|Pago - Intermedio|Auxiliar|  
+    |3|3000|Pago - Intermedio|Registro|  
     |4|4000|Pago - Finalización|Registro|  
 
-5.  En la ventana **Líneas de tarea de proyecto**, seleccione la tarea 1000 y, a continuación, elija la acción **Líneas de planificación de proyecto**.  
+5.  En la página **Líneas de tarea de proyecto**, seleccione la tarea 1000 y, a continuación, elija la acción **Líneas de planificación de proyecto**.  
 6.  Cree una línea de planificación con la siguiente información:  
 
     -   **Tipo línea**: **Contrato**  
@@ -440,20 +440,20 @@ Este tutorial se centra en la empresa CRONUS International Ltd., una empresa de 
     -   **Cantidad**: **1**  
     -   **Precio venta**: **5000**  
 
-     Elija el botón **Aceptar** para cerrar la ventana.  
+     Elija el botón **Aceptar** para cerrar la página.  
 
-7.  En la ventana de **Líneas tarea proyecto**, seleccione **tarea 2000**y abra sus **Líneas de planificación de proyecto**.  
+7.  En la página **Líneas tarea proyecto**, seleccione **tarea 2000**y abra sus **Líneas de planificación de proyecto**.  
 
      La siguiente tabla describe las líneas de planificación que creará.  
 
     |Línea|Tipo de línea|Fecha planif.|Escriba|Nº|Cantidad|  
     |----------|---------------|-------------------|----------|---------|--------------|  
     |1|Programa|(fecha de hoy)|Recurso|Tricia|120|  
-    |2|Programa|(fecha de hoy)|Producto|70104|10|  
+    |2|Programa|(fecha de hoy)|Artículo|70104|10|  
 
-     Elija el botón **Aceptar** para cerrar la ventana. En la ventana **Líneas tarea proyecto**, podrá ver que se han actualizado los importes del programa.  
+     Elija el botón **Aceptar** para cerrar la página. En la página **Líneas tarea proyecto**, podrá ver que se han actualizado los importes del programa.  
 
-8.  En la ventana **Líneas tarea proyecto**, seleccione **tarea 3000**.  
+8.  En la página **Líneas tarea proyecto**, seleccione la **tarea 3000**.  
 9. Cree una línea de planificación con la siguiente información:  
 
     -   **Tipo línea**: **Contrato**  
@@ -463,7 +463,7 @@ Este tutorial se centra en la empresa CRONUS International Ltd., una empresa de 
     -   **Cantidad**: **1**  
     -   **Precio venta**: **5000**  
 
-     Elija el botón **Aceptar** para cerrar la ventana.  
+     Elija el botón **Aceptar** para cerrar la página.  
 
 10. Crear un movimiento de línea similar de planificación de la tarea 4000 del proyecto.  
 
@@ -471,8 +471,8 @@ Este tutorial se centra en la empresa CRONUS International Ltd., una empresa de 
 
 ### <a name="to-create-an-invoice"></a>Para crear una factura  
 
-1.  En la ventana **Líneas de tarea de proyecto**, seleccione la línea 1000 y, a continuación, elija la acción **Crear factura de ventas**.  
-2.  En la ventana de **Crear factura venta**, establezca la fecha de hoy como la fecha de registro, especifique **Por la tarea** y elija el botón de **Aceptar** para crear una factura con la información predeterminada. Elija el botón **Aceptar** para cerrar la ventana de confirmación.  
+1.  En la página **Líneas de tarea de proyecto**, seleccione la línea 1000 y, a continuación, elija la acción **Crear factura de ventas**.  
+2.  En la página **Crear factura venta**, establezca la fecha de hoy como la fecha de registro, especifique **Por la tarea** y elija el botón **Aceptar** para crear una factura con la información predeterminada. Elija el botón **Aceptar** para cerrar la página de confirmación.  
 3.  Elija la acción **Crear factura/abono de venta**. En la factura de venta, puede ver que sólo se incluye en la factura el pago de entrada. Ahora puede enviarlo al cliente como acordaron.  
 
 ## <a name="next-steps"></a>Pasos siguientes  

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3d4c111af62db5858b81b76f9f51a9093c01e5e6
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 85e295997089ea10b956fe0a5d087652c190fb44
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-multiple-interest-rates"></a>Configurar varios tipos de interés.
@@ -26,12 +26,12 @@ Cuando cree los términos de interés y los términos de recordatorio, para la p
 
 ## <a name="to-set-up-multiple-interest-rates"></a>Configurar varios tipos de interés  
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Términos de interés** y luego elija el enlace relacionado.  
-2.  En la ventana **Términos interés**, seleccione el término requerido de interés y después seleccione la acción **Tipos de interés**.  
+2.  En la página **Términos interés**, seleccione el término requerido de interés y después seleccione la acción **Tipos de interés**.  
 3.  Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Elija el botón **Aceptar**.  
 5.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Términos recordatorio** y luego elija el enlace relacionado.  
-6.  En la ventana **Términos recordatorio**, seleccione el término recordatorio requerido y después seleccione la acción **Niveles**.  
-7.  En la ventana **Niveles recordatorio**, seleccione el campo **Cálculo interés**.  
+6.  En la página **Términos recordatorio**, seleccione el término recordatorio requerido y después seleccione la acción **Niveles**.  
+7.  En la página **Niveles recordatorio**, seleccione el campo **Cálculo interés**.  
 
 Cuando emite una nota de cargo financiero, la nota muestra los cargos financieros con tasas de interés múltiples para un período de tiempo específico. La nota también contiene los detalles de contacto del cliente, la empresa que emite la nota, el importe adicional y el importe total. El movimiento inicial de la nota se muestra en negrita. Los cargos financieros se calculan con tasas de interés múltiples para un período de tiempo específico y se imprimen después del movimiento inicial de la nota.  
 

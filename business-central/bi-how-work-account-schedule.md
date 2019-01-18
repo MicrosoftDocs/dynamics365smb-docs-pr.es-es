@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 10/01/2018
+ms.date: 10/16/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8e63e507411f41c67caa94834f4d99861bd1ae77
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 854cadb176bc79a8506ccff3c13a1e579eb43e85
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Preparar informes financieros con esquemas de cuentas y categorías de cuentas
@@ -26,35 +26,59 @@ Se obtiene acceso a estos dos informes, por ejemplo, con la acción **Estados fi
 
 Configurar esquemas de cuentas requiere obtener una comprensión de los datos financieros del plan de cuentas. Por ejemplo, puede ver los movimientos de contabilidad como porcentajes de los movimientos de presupuesto. Para ello es necesario que se creen presupuestos. Para obtener más información, consulte [Crear presupuestos contables](finance-how-create-budgets.md).
 
-## <a name="account-categories-and-account-schedules"></a>Categorías de cuentas y esquemas de cuentas
-Puede usar categorías de cuentas para cambiar el diseño de sus balances financieros. Después de configurar las categorías de cuentas en la ventana **Categorías de cuenta** y haya elegido la acción **Generar esquemas de cuentas**, se actualizan los esquemas de cuentas subyacentes para los informes financieros principales. La próxima vez que ejecute uno de estos informes, como el informe Extracto del saldo, se agregan los nuevos totales y subtotales en función de los cambios que haya realizado. Para obtener más información, consulte la sesión "Categorías de cuentas" en [Descripción del libro mayor y plan de cuentas](finance-general-ledger.md).  
+## <a name="account-schedules"></a>Esquemas de cuentas
+Los esquemas de cuentas se utilizan para organizar las cuentas que aparecen en el plan de cuentas de formas adecuadas para la presentación de información acerca de ellas. Puede configurar diversas plantillas para definir la información que desea extraer del plan de cuentas. Una de las principales funciones de los esquemas de cuentas es proporcionar un lugar para los cálculos que no se puedan realizar directamente en el plan de cuentas, como crear subtotales para grupos de cuentas, que se pueden incluir en nuevos totales y usarse posteriormente en otros totales. Por ejemplo, los usuarios pueden crear esquemas de cuentas para calcular márgenes de beneficios en dimensiones como departamentos o grupos de clientes. Además, los movimientos y los movimientos presupuestarios se pueden filtrar, por ejemplo, por saldo periodo o importe debe.
 
-## <a name="to-create-new-account-schedules"></a>Para crear nuevos esquemas de cuentas  
- Usar esquemas de cuentas para analizar cifras en cuentas de contabilidad o comparar los movimientos de contabilidad con los presupuestados. Por ejemplo, puede ver los movimientos de contabilidad como porcentajes de los movimientos de presupuesto.
+También puede comparar dos o más esquemas de cuentas y plantillas de columnas mediante el uso de fórmulas. Este tipo de comparación proporciona la capacidad de:
+
+* Crear informes financieros personalizados.
+* Crear tantos esquemas de cuentas como sean necesarios, cada uno de ellos con un nombre diferente.
+* Configurar diversas plantillas de informes e imprimir estos con las cifras actuales.
+
+## <a name="account-categories"></a>Categorías de cuenta
+Puede usar categorías de cuentas para cambiar el diseño de sus balances financieros. Después de configurar las categorías de cuentas en la página **Categorías de cuenta** y haya elegido la acción **Generar esquemas de cuentas**, se actualizan los esquemas de cuentas subyacentes para los informes financieros principales. La próxima vez que ejecute uno de estos informes, como el informe Extracto del saldo, se agregan los nuevos totales y subtotales en función de los cambios que haya realizado. Para obtener más información, consulte la sesión "Categorías de cuentas" en [Descripción del libro mayor y plan de cuentas](finance-general-ledger.md).  
+
+## <a name="to-create-a-new-account-schedule"></a>Para crear un nuevo esquema de cuentas  
+Usar esquemas de cuentas para analizar cifras en cuentas de contabilidad o comparar los movimientos de contabilidad con los presupuestados. Por ejemplo, puede ver los movimientos de contabilidad como porcentajes de los movimientos de presupuesto.
+
+Los esquemas de cuentas en la versión estándar de [!INCLUDE[d365fin](includes/d365fin_md.md)] son la base de los informes financieros estándar, que pueden no adaptarse a las necesidades de su empresa. Para crear rápidamente sus propios informes financieros, puede empezar por copiar un esquema de cuentas existente. Vea el paso 3 siguiente.
+
+La página **Panorama esq. cta.** es donde puede obtener una vista previa del informe financiero que define el esquema de cuentas. A continuación, es importante comprender que lo que se configura como filas y columnas del esquema de cuentas solo se puede ver y validar en la página **Panorama esq. cta.**, que se abre desde un esquema de cuentas seleccionando la acción **Panorama**. La página **Esquema cuentas** en sí misma es solo un área de configuración.  
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Esquemas de cuentas** y luego elija el enlace relacionado.  
-2. En la ventana **Nombre esquema cuenta**, elija la acción **Nuevo** para crear un nuevo nombre de esquema de cuenta.
-3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Elija la acción **Editar esquema cuentas**.
-5. En la ventana **Esquema cuentas** rellene los campos según sea necesario.  
+2. En la página **Esquemas de cuentas**, elija la acción **Nuevo** para crear un nuevo nombre de esquema de cuenta.
+3. También puede elegir la acción **Copiar esquema de cuentas**, rellenar los dos campos y, a continuación, elegir el botón **Aceptar**.
+4. Rellene los campos según sea necesario. En el campo **Plantilla columna genér.**, seleccione una disposición existente. Puede cambiarla más adelante si lo desea.
 
-    Cuando haya creado un nuevo esquema de cuentas y haya configurado las filas, debe configurar las columnas. Puede configurarlas manualmente o bien puede asignar una plantilla de columna predefinida al esquema de cuentas.
-6. Elija la acción **Editar configuración de disposición de columna**.
-7. En la ventana **Plantilla columna** rellene los campos según sea necesario.
+    Las disposiciones de columnas se utilizan para definir columnas de diferentes parámetros mediante los cuales se muestran los datos financieros en las filas. Por ejemplo, puede diseñar una disposición de columnas para comparar el saldo del periodo y el saldo a la fecha del mismo periodo del año actual y del año anterior, con cuatro columnas. Para obtener más información, consulte la sección "Para editar una disposición de columnas".
 
-> [!NOTE]  
-> Si no ha asignado una plantilla de columna genérica al esquema de cuentas, debe configurar las columnas manualmente.
+5. Elija la acción **Editar esquema cuentas**.
+6. Cree una fila para cada elemento financiero que desee que aparezca en el informe, como una fila para los activos actuales y otra para los activos fijos. Para obtener inspiración, consulte los esquemas de cuentas existentes en la empresa de demostración CRONUS.
+7. Seleccione la acción **Panorama** para ver el informe financiero resultante.
+8. En la página **Panorama esq. cta.**, en el campo **Nombre plantilla columna**, seleccione otra plantilla de columnas para ver los datos de notificación por otros parámetros.
+9. Elija el botón **Aceptar**.
 
-### <a name="to-copy-an-existing-account-schedule"></a>Para copiar un esquema de cuentas existente
-Los esquemas de cuentas en la versión estándar de [!INCLUDE[d365fin](includes/d365fin_md.md)] son la base de los informes financieros estándar, que pueden no adaptarse a las necesidades de su empresa. Para crear rápidamente sus propios informes financieros, puede empezar por copiar un esquema de cuentas existente.
-1. En la ventana **Esquemas de cuentas**, seleccione un esquema de cuentas correspondiente y después seleccione **Copiar esquema de cuentas**.
-2. En la ventana **Copiar esquema de cuentas**, rellene los campos según sea necesario y, a continuación, elija el botón **Aceptar**.
+Ha definido la base del esquema de cuentas, las filas de datos financieros que se visualizarán y una plantilla de columnas existente para mostrar los datos de las filas según diferentes parámetros. Si la plantilla de columnas predeterminada seleccionada en el paso 4 no se adapta a su finalidad, siga el procedimiento siguiente.
+
+### <a name="to-edit-a-column-layout"></a>Para editar una plantilla de columnas
+Utilice las plantillas de columnas para determinar qué columnas va a incluir en el informe resultante. Por ejemplo, puede diseñar una plantilla para comparar el saldo del periodo y el saldo a la fecha del mismo periodo del año actual y del año anterior.
+
+> [!NOTE]
+> Una versión impresa, guardada o de vista preliminar de un esquema de cuentas puede mostrar como máximo cinco columnas. Si el esquema de cuentas solo está destinado al análisis en la página **Panorama esq. cta.**, puede crear tantas columnas como desee.
+
+1. En la página **Esquemas de cuentas**, seleccione el esquema de cuentas correspondiente y después seleccione la acción **Editar configuración de disposición de columna**.
+2. En la página **Plantillas de columnas**, cree una fila para cada columna por la que los datos financieros se van a mostrar en el informe financiero. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Elija el botón **Aceptar**.
+4. Abra la página **Panorama esq. cta.** de vez en cuando para verificar que la nueva disposición de columnas funciona del modo previsto.
+
+> [!NOTE]
+> Las columnas definidas en cada fila representan las columnas 3 y posteriores en la página **Panorama esq. cta.**. Las dos primeras columnas, **N.º fila** y **Descripción**, son fijas.  
 
 ### <a name="to-create-a-column-that-calculates-percentages"></a>Para crear una columna que calcule porcentajes  
 En ocasiones, podría desear incluir una columna en un esquema de cuentas para calcular los porcentajes de un total. Por ejemplo, si tiene una serie de filas que detallan las ventas por dimensión, podría desear crear una columna para indicar el porcentaje de las ventas totales que representa cada fila.
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Esquemas de cuentas** y luego elija el enlace relacionado.
-2. En la ventana **Nombres de esquema de cuentas**, seleccione un esquema de cuenta.  
+2. En la página **Nombres esquemas de cuentas**, seleccione un esquema de cuenta.  
 3. Elija la acción **Editar esquema cuentas** para configurar una fila del esquema de cuentas para calcular el total en el que se basarán los porcentajes.  
 4. Inserta una línea justo encima de la primera fila para la que desea que se muestre un porcentaje.  
 5. Rellene los campos de la línea como se indica a continuación: en el campo **Tipo sumatorio**, especifique **Fijar base para porcentaje**. En el campo **Sumatorio**, introduzca una fórmula para el total en el que el porcentaje se basará. Por ejemplo, si la fila 11 contiene las ventas totales, escriba **11**.  
@@ -66,7 +90,7 @@ En ocasiones, podría desear incluir una columna en un esquema de cuentas para c
 Puede usar un esquema de cuentas para crear un extracto que compare las cifras de contabilidad con las cifras presupuestadas.
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Esquemas de cuentas** y luego elija el enlace relacionado.
-2. En la ventana **Nombres de esquema de cuentas**, seleccione un esquema de cuenta.  
+2. En la página **Nombres esquemas de cuentas**, seleccione un esquema de cuenta.  
 3. Elija la acción **Editar esquema cuentas**  
 4. En la ventana **Esquema cuentas**, en el campo **Nombre**, seleccione el nombre del esquema de cuentas predeterminado.
 5. Elija la acción **Insertar cuentas**.  
@@ -74,7 +98,7 @@ Puede usar un esquema de cuentas para crear un extracto que compare las cifras d
 
     Estas cuentas se insertan en el esquema de cuentas. Si lo desea, puede modificar la plantilla de columna.  
 7. Seleccione la acción **Resumen**.  
-8. Haga clic en la ficha desplegable **Filtros dimensión** y asigne al filtro de presupuesto el nombre que desee.  
+8. En la página **Panorama esq. cta.**, en la ficha desplegable **Filtros dimensión** y asigne al filtro de presupuesto el nombre que desee.  
 9. Elija el botón **Aceptar**.  
 
 Ahora puede copiar y pegar el extracto del presupuesto en una hoja de cálculo.  
@@ -85,7 +109,6 @@ El esquema de cuentas puede comparar los resultados de diferentes períodos cont
 Un periodo contable no tiene que coincidir con el calendario, pero el año fiscal debe tener el mismo número de periodos contables, aunque cada periodo tenga una duración diferente.   
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] utiliza la fórmula de periodo para calcular el importe a partir del periodo comparativo en relación con el periodo representado por el filtro de fecha de la solicitud de informe. El periodo de comparación se basa en el periodo de la fecha de inicio del filtro fecha. Las abreviaturas de las especificaciones del periodo son:
-
 
 <table>
 <colgroup>

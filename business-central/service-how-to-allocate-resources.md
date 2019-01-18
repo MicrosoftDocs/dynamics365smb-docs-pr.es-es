@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 67f4e18a8a6de3d2be4c7bbe580da1091f75e82b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: f75dab84229aa08c35eddf057805003b69124481
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -36,14 +36,14 @@ A menudo puede que necesite ver la lista de pedidos de servicio u ofertas de ser
 6. Para obtener una lista de documentos que pertenecen a una zona, cliente o contrato determinado, rellene el campo **Filtro contrato o Filtro cliente o Filtro zona** y presione **Entrar**.  
 7. Seleccione una línea que corresponda a un pedido de servicio o una oferta de servicio y seleccione la acción **Mostrar documento**.  
 
-    Se abrirá la ventana **Pedido de servicio** u **Oferta servicio** y podrá trabajar con el documento. Para volver a la ventana **Panel despacho**, elija **Aceptar**.
+    Se abrirá la página **Pedido de servicio** u **Oferta servicio** y podrá trabajar con el documento. Para volver a la página **Panel despacho**, elija **Aceptar**.
 
 ## <a name="to-allocate-a-resource-using-resource-or-resource-group-availability"></a>Para asignar un recurso mediante disponibilidad de grupo de recursos o grupos de recursos    
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Panel despacho** y elija el enlace relacionado.  
 2. Elija la orden de servicio y, a continuación, elija la acción **Asignaciones recurso**.  
 3. Elija el movimiento que contenga la tarea de servicio a la que desea asignar un recurso.  
 4. Seleccione la acción **Disponibilidad recurso** o **Disponibilidad fam. recurso**.  
-5. En la ventana **Disponibilidad recurso (Servicio)**, elija **Mostrar matriz**.  
+5. En la página **Disponibilidad recurso (Servicio)**, elija **Mostrar matriz**.  
 6. Elija un recurso para asignar. Puede basar la selección en si el recurso está cualificado para realizar la tarea, si está ubicado en la zona del cliente y/o si es un recurso preferido por el cliente.  
 7. Especifique una fecha en la que el recurso dispone de horas suficientes para la tarea y que sea cercana a la fecha de respuesta del pedido de servicio.  
 8. En el campo **Cadad. a asignar**, introduzca el número de horas durante las que desee asignar el recurso a la tarea de servicio.  
@@ -63,7 +63,7 @@ Después de crear y rellenar un pedido de servicio o una oferta de servicio, pue
 2. Elija la orden de servicio y, a continuación, **Editar**.  
 3. Elija la línea de producto de servicio correspondiente a la tarea de servicio a la que desea asignar un recurso.  
 4. Elija **Asignaciones recurso**.
-5. En la ventana **Asignaciones recurso**, elija un movimiento de asignación no activo con la tarea de servicio a la cual desee asignar el recurso. Si el movimiento de asignación no existe, puede crear uno nuevo seleccionando **Nuevo**.  
+5. En la página **Asignaciones recurso**, elija un movimiento de asignación no activo con la tarea de servicio a la cual desee asignar el recurso. Si el movimiento de asignación no existe, puede crear uno nuevo seleccionando **Nuevo**.  
 7. Especifique la tarea de servicio rellenando el campo de **Nº prod. servicio** en la misma línea.  
 8. En el campo **Nº recurso**, elija el recurso. Si el recurso es miembro de un grupo de recursos, se introduce automáticamente el número del grupo de recursos en **Nº grupo recurso**. .  
 9. Rellene los campos **Fecha asignación** y **Horas asignadas**. El campo **Estado** se establece como **Activo**. Esto significa que el recurso está asignado a la tarea de servicio.  
@@ -82,7 +82,7 @@ Puede reasignar recursos directamente desde un pedido u oferta de servicio cuand
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos servicio** y luego elija el enlace relacionado.  
 2. Abra el pedido servicio que corresponda.  
 3. Seleccione la línea de producto de servicio correspondiente a la tarea de servicio a la que desea asignar un recurso.  Elija **Acciones**, seleccione **Línea** y, a continuación, elija **Asignaciones recurso**.  
-4. En la ventana **Asignaciones recurso**, seleccione un movimiento de asignación con la tarea de servicio que a la cual desea reasignar el recurso. En el campo **Nº recurso**, seleccione el recurso correspondiente. Esta acción sobrescribe el número de recurso que anteriormente figuraba en el campo.  
+4. En la página **Asignaciones recurso**, seleccione un movimiento de asignación con la tarea de servicio que a la cual desea reasignar el recurso. En el campo **Nº recurso**, seleccione el recurso correspondiente. Esta acción sobrescribe el número de recurso que anteriormente figuraba en el campo.  
 5. Presione la tecla Enter. Se abre un cuadro de diálogo en el que se le pregunta si desea reasignar el movimiento. Rellene el campo **Cód. auditoría** si es necesario y elija el botón **Sí** para confirmar la reasignación.  
 6. Rellene los campos **Fecha asignación** y **Horas asignadas**. Ahora el movimiento contiene el nuevo recurso y su estado es **Activo**.
 
@@ -90,8 +90,8 @@ Puede reasignar recursos directamente desde un pedido u oferta de servicio cuand
 Si el recurso asignado a una tarea de servicio no puede realizar el trabajo, la tarea de servicio debe reasignarse. Normalmente, se reasignan recursos a una tarea de servicio mediante el **Panel despacho**.  
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Panel despacho** y luego elija el enlace relacionado.  
-2. En el campo **Filtro asignación**, seleccione **Reasignación necesaria**. La ventana **Panel despacho** ahora muestra la lista de los pedidos de servicio que incluyen tareas de servicio que deben reasignarse.  
-3. Seleccione el pedido de servicio correspondiente. En la pestaña **Navegar**, en el grupo **Planificación**, elija **Asignaciones recurso**. Se abrirá la ventana **Asignaciones recurso**.  
+2. En el campo **Filtro asignación**, seleccione **Reasignación necesaria**. La página **Panel despacho** ahora muestra la lista de los pedidos de servicio que incluyen tareas de servicio que deben reasignarse.  
+3. Seleccione el pedido de servicio correspondiente. En la pestaña **Navegar**, en el grupo **Planificación**, elija **Asignaciones recurso**. Se abrirá la página **Asignaciones recurso**.  
 4. Seleccione el movimiento de asignación con la tarea de servicio que desea reasignar a un recurso.  
 5. En el campo **Nº recurso**, seleccione el recurso correspondiente. Se sobrescribe el número de recurso que anteriormente figuraba en el campo.  
 6. Pulse INTRO. Se abrirá el cuadro de diálogo **Razones reasignación de entrada** para solicitar información sobre si desea reasignar este movimiento. Rellene el campo **Cód. auditoría** si es necesario y elija el botón **Sí** para confirmar la reasignación.  
@@ -105,9 +105,9 @@ Si el recurso asignado a una tarea de servicio no puede realizar el trabajo, la 
     > * Si reasigna un pedido de servicio convertido de una oferta, el estado de los movimientos de asignación registrados para la oferta siempre cambia a **Terminado** cuando se reasignan los productos de servicio del pedido de servicio.  
 
 ## <a name="to-register-resource-hours"></a>Para registrar horas de recursos  
-Al trabajar en productos de servicio de pedidos de servicio, deberá registrar las horas de recursos empleadas en el servicio. El siguiente procedimiento muestra cómo registrar las horas de recursos en la ventana **Hoja trabajo producto servicio**.  
+Al trabajar en productos de servicio de pedidos de servicio, deberá registrar las horas de recursos empleadas en el servicio. El siguiente procedimiento muestra cómo registrar las horas de recursos en la página **Hoja trabajo producto servicio**.  
 
-Puede utilizar el mismo procedimiento para registrar las horas en la ventana **Líneas servicio**, que podrá abrir desde la ventana Pedido de servicio. Abra la ficha de servicio correspondiente y, a continuación, elija **Acciones**, seleccione **Pedido** y, a continuación, elija **Líneas servicio**.  
+Puede utilizar el mismo procedimiento para registrar las horas en la página **Líneas servicio**, que podrá abrir desde la página Pedido de servicio. Abra la ficha de servicio correspondiente y, a continuación, elija **Acciones**, seleccione **Pedido** y, a continuación, elija **Líneas servicio**.  
 
 Si el mismo recurso trabaja en todos los productos de servicio del pedido de servicio, puede registrar el total de horas de recursos para un solo producto de servicio y, a continuación, dividir la línea de recurso para asignar las horas de recursos a los otros productos de servicio.
 
@@ -118,11 +118,11 @@ Si el mismo recurso trabaja en todos los productos de servicio del pedido de ser
 ## <a name="to-assign-a-resource-to-all-service-items-in-an-order"></a>Para asignar recursos a todos los productos de servicio de un pedido
 Si el mismo recurso, por ejemplo, un técnico, trabaja en todos los productos de servicio del pedido de servicio, puede registrar el total de horas de recursos para un solo producto de servicio y, a continuación, dividir la línea de recurso para asignar las horas de recursos a las líneas de recurso de los otros productos de servicio.  
 
-El siguiente procedimiento muestra cómo dividir líneas de recurso en la ventana **Líneas factura servicio**.  
+El siguiente procedimiento muestra cómo dividir líneas de recurso en la página **Líneas factura servicio**.  
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos servicio** y luego elija el enlace relacionado.  
 2. Abra el pedido servicio que corresponda.  
-3. En la ficha desplegable **Líneas**, seleccione **Acciones**, elija **Pedido** y, a continuación, **Líneas servicio**. Se abrirá la ventana **Líneas servicio**.  
+3. En la ficha desplegable **Líneas**, seleccione **Acciones**, elija **Pedido** y, a continuación, **Líneas servicio**. Se abrirá la página **Líneas servicio**.  
 4. Seleccione la línea de recurso que desea dividir. Se divide el contenido del campo **Cantidad** entre todos los productos de servicio del pedido.  
 5. En la pestaña **Acciones**, seleccione la acción **Dividir línea recurso**. Seleccione **Sí** para confirmar.  
 

@@ -11,10 +11,10 @@ ms.search.keywords: write down
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e12432b4823bfa1477d385d73a5a938cba4cee0d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: cfd4753fc2fd2454e83c5a63e1e0ffe220d2fe17
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Depreciar o amortizar activos fijos
@@ -43,7 +43,7 @@ Una vez al mes, o cuando desee, puede ejecutar el proceso **Calcular amortizaci�
     El proceso calcula la amortización y crea líneas en el diario general de activos fijos.  
 4. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diarios generales A/F** y luego elija el enlace relacionado.  
 
-    En la ventana **A/F Diario general**, en el campo **N. º días amortización** puede ver los días de amortización calculados.  
+    En la página **A/F Diario general**, en el campo **N. º días amortización** puede ver los días de amortización calculados.  
 5. Seleccione la acción **Registrar**.  
 
 ## <a name="to-post-depreciation-manually-from-the-fixed-asset-gl-journal"></a>Para registrar una apreciación manualmente desde el diario general de activos fijos
@@ -81,18 +81,18 @@ Al rellenar las líneas de diario que se van a registrar en un libro de amortiza
 5. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **A/F Diarios** y luego elija el enlace relacionado.  
 
     > [!NOTE]  
-    >   La ventana **Diario activos fijos** contiene nuevas líneas para diferentes libros de amortización según la lista de duplicados.  
+    >   La página **Diario activos fijos** contiene nuevas líneas para diferentes libros de amortización según la lista de duplicados.  
 6. Revise o edite las líneas y, a continuación, seleccione la acción **Registrar**.  
 
     > [!NOTE]  
     >   Otra forma de duplicar un movimiento en otro libro es especificar un código de libro de amortización en el campo **Duplicado en libro amort.** al rellenar una línea de diario.  
 
-Puede copiar los movimientos de un libro de amortización a otro usando el proceso **Copiar libro amortización**. El proceso crea líneas de diario en el proceso diario especificado en la ventana **Config. diario activos** para el libro de amortización al que desea copiar. Para obtener más información, consulte el procedimiento siguiente.  
+Puede copiar los movimientos de un libro de amortización a otro usando el proceso **Copiar libro amortización**. El proceso crea líneas de diario en el proceso diario especificado en la página **Config. diario activos** para el libro de amortización al que desea copiar. Para obtener más información, consulte el procedimiento siguiente.  
 
 ## <a name="to-copy-fixed-asset-ledger-entries-between-depreciation-books"></a>Para copiar los movimientos de activos entre los libros de amortización
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Libros de amortización** y luego elija el enlace relacionado.  
 2. Abra la ficha de libro de amortización correspondiente y, a continuación, elija la acción **Copiar libro amortización**.  
-3. En la ventana **Copiar libro amortización**, rellene los campos según sea necesario.  
+3. En la página **Copiar libro amortización**, rellene los campos según sea necesario.  
 4. Elija el botón **Aceptar**.  
 
 Las líneas copiadas se crean en el diario general de activos o en el de activos fijos, según si el libro de amortización que va a copiar tiene integración con el libro mayor.  

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 5ff369b1d9ef8bb4986d4be0d885d4088205f570
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2b1820a65fd1e9cd4e41828caddd737e79a2a45b
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-base-calendars"></a>Configurar calendarios base
@@ -27,7 +27,7 @@ Puede asignar un calendario base a la empresa y a los socios comerciales, como c
 2.  Seleccione la acción **Nuevo**.  
 3.  Rellene el campo **Código**.  
 4. Seleccione la acción **Mantener cambios en el calendario base** .
-5. en la ventana **Cambios en el calendario base**, utilice el campo **Sistema periódico** para marcar una fecha o un día determinado como día no laborable periódico. Puede seleccionar la opción **Periódico anual** o **Periódico semanal**.  
+5. En la página **Cambios en el calendario base**, utilice el campo **Sistema periódico** para marcar una fecha o un día determinado como día no laborable periódico. Puede seleccionar la opción **Periódico anual** o **Periódico semanal**.  
 
     Si selecciona **Periódico anual**, también debe especificar la fecha pertinente en el campo **Fecha**.  
 
@@ -37,7 +37,7 @@ Cuando se realice un movimiento, se selecciona el campo **No laborables**. Puede
  Cuando vuelva a la ficha de calendario base, verá que se han actualizado los valores de los días no laborables que ha introducido. Estas entradas aparecen ahora en color rojo y se selecciona el campo de **No laborables**.  
 
 > [!NOTE]  
->  Al configurar un calendario base nuevo, puede seleccionar y copiar líneas de un calendario existente. Hágalo en la ventana **Cambios calendario base**.  
+>  Al configurar un calendario base nuevo, puede seleccionar y copiar líneas de un calendario existente. Hágalo en la página **Cambios calendario base**.  
 
 > [!IMPORTANT]  
 >  Los calendarios base definidos para un proveedor o ubicación afecta en cómo se calculan las fechas y se redondea a los días laborables.
@@ -57,7 +57,7 @@ Los calendarios base definidos para un proveedor o ubicación afecta en cómo se
 > [!Important]
 > Si su almacén utiliza un calendario significativamente distinto al de sus proveedores, entonces es importante que se definan los calendarios concretos para esos proveedores, para calcular el plazo de proveedor óptimo. Para obtener información acerca de cómo configurar calendarios de proveedor, consulte la sección “Asignar un calendario base.”
 
-El contenido del campo **Cálculo del plazo de entrega** se copia de la ficha de producto o de la ficha SKU, si el plazo se define para el producto, o en la ventana **Catálogo de productos del proveedor**, si el plazo se define para el proveedor.
+El contenido del campo **Cálculo del plazo de entrega** se copia de la ficha de producto o de la ficha SKU, si el plazo se define para el producto, o en la página **Catálogo de productos del proveedor**, si el plazo se define para el proveedor.
 
 ## <a name="to-customize-a-calendar"></a>Para personalizar un calendario
 La tarea principal en la personalización de un calendario base para su empresa, o uno de sus socios comerciales, es cambiar el estado de los días laborables y días no laborables.
@@ -68,7 +68,7 @@ El siguiente procedimiento utiliza este almacén como ejemplo. Tenga en cuenta q
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Ubicaciones** y luego elija el enlace relacionado.
 2. Abra la ubicación que desea actualizar y seleccione el campo **Calendario personalizado**. Tenga en cuenta que debe seleccionarse un calendario en el campo **Código calendario base**.
-3. En la ventana **Entradas del calendario personalizadas**, seleccionar la acción **Mantener los cambios del calendario personalizado**.
+3. En la página **Entradas del calendario personalizadas**, seleccionar la acción **Mantener los cambios del calendario personalizado**.
 4. En **Cambios personalizados del calendario**, añada líneas para las entradas del calendario personalizadas.
 
     Cuando se introduce una línea, el cuadro de verificación **No laborables** está seleccionado. Puede quitar la marca de verificación si desea cambiar el estado a día laborable.
@@ -79,7 +79,7 @@ El siguiente procedimiento utiliza este almacén como ejemplo. Tenga en cuenta q
 
 5. Elija el botón **Aceptar**.
 
-En la ventana **Entradas del calendario personalizadas**, verá que las entradasd de fechas se actualizan con los cambios que realiza.
+La página **Movs. calendario personaliz.**, verá que los movimientos de fechas se actualizan con los cambios que realiza.
 
 En la ficha ubicación, verá que el campo **Calendario personalizado** contiene la palabra **Sí**, lo que indica que se ha configurado un calendario personalizado.
 
@@ -100,7 +100,7 @@ Los calendarios base se asignan a su propia empresa, clientes, proveedores, alma
 -   En las fichas **Información de la empresa** y **Cliente**, el calendario base se asigna en la ficha desplegable **Envío**.  
 -   En la ficha **Proveedor**, el calendario base se asigna en la ficha desplegable **Recepción**.  
 -   En la ficha **Almacén**, el calendario base se asigna en la ficha desplegable **Almacén**.  
--   En la ventana **Transportistas**, el calendario base se asigna en la ventana **Servicios transportista**.  
+-   En la página **Transportistas**, el calendario base se asigna en la página **Servicios transportista**.  
 
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Clientes** y luego elija el enlace relacionado.  
 2.  Abra la ficha **Cliente** a la que asignará un calendario base.  

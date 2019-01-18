@@ -13,10 +13,10 @@ ms.search.keywords: machinery, buildings
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: 37e71ef201b771b13fc4393f9a6c3ffab91de163
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9569f01f286008b76667e3a524257ba1aac61f91
 ms.contentlocale: es-es
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="fixed-assets"></a>Activos fijos
@@ -31,7 +31,7 @@ Puede registrar los costes de mantenimiento y la fecha del siguiente servicio de
 Cada activo puede tener una o varias pólizas de seguro. Por tanto, podrá comprobar con facilidad que los importes de las pólizas de seguro están en consonancia con el valor de los activos relacionados con la póliza. También permite controlar las primas anuales.
 
 > [!NOTE]  
->   Puede registrar transacciones de activos en las ventanas **A/F Diario general** o **Diario activos fijos**, dependiendo de si las transacciones son para la información financiera o la gestión interna. La ayuda para los activos fijos solo describe cómo utilizar ventana **A/F Diario general**. Para obtener más información, consulte [Configurar amortización de activos fijos](fa-how-setup-depreciation.md).
+>   Puede registrar transacciones de activos en las páginas **A/F Diario general** o **Diario activos fijos**, dependiendo de si las transacciones son para la información financiera o la gestión interna. La ayuda para los activos fijos solo describe cómo utilizar la página **A/F Diario general**. Para obtener más información, consulte [Configurar amortización de activos fijos](fa-how-setup-depreciation.md).
 
 Para poder empezar a administrar los activos fijos, debe configurar valores predeterminados, la contabilidad de activos fijos, grupos contables, claves de asignación, diarios y tipos de registro. Para obtener más información, vea [Configurar activos fijos](fa-setup.md).
 

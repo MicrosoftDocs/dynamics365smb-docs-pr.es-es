@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d52c54b18ccb7794f7556919e20b23df65c95acd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e00b99c963669bb8a8577d8277082e5656d45d66
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Gestionar la configuración de la empresa en una hoja de trabajo
@@ -33,7 +33,7 @@ En los procedimientos siguientes se muestra cómo agregar y personalizar la info
 2.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hoja de configuración** y luego elija el enlace relacionado.  
 
 ## <a name="to-add-a-table-to-the-worksheet"></a>Procedimiento para agregar una tabla a la hoja de trabajo  
-1.  En la ventana **Configurar hoja**, seleccione la acción **Editar lista**.  
+1.  En la página **Configurar hoja**, seleccione la acción **Editar lista**.  
 2.  En la primera línea, en el campo **Tipo línea**, seleccione **Tabla**.  
 4.  En el campo **Id. de tabla**, seleccione la tabla que desee agregar a la configuración.  
 5.  En el campo **Id. de página**, especifique el identificador de la página asociado con la tabla. Para las tablas estándar, este valor se rellena automáticamente. Para las tablas personalizadas, debe proporcionar el identificador.
@@ -53,7 +53,7 @@ En los procedimientos siguientes se muestra cómo agregar y personalizar la info
 10. Para eliminar información de tabla duplicada, que puede resultar del uso de la acción **Obtener tablas relacionadas**, seleccione la acción **Eliminar líneas duplicadas**. Esto eliminará las tablas duplicadas que tengan el mismo código de paquete.  
 
 ## <a name="to-add-multiple-tables-to-the-configuration-worksheet"></a>Procedimiento para agregar varias tablas a la hoja de trabajo de configuración  
-1. Seleccione la acción **Obtener tablas**. Se abre la ventana de trabajo por lotes **Obtener tablas de configuración**.  
+1. Seleccione la acción **Obtener tablas**. Se abre la página de proceso **Obtener tablas de configuración**.  
 2. En la ficha desplegable **Opciones**, especifique los tipos de tablas que desea agregar a la configuración, como se describe en la siguiente tabla.
 
     |Opción|Description|  
@@ -73,7 +73,7 @@ En los procedimientos siguientes se muestra cómo agregar y personalizar la info
     > - La relación es condicional.  
     > Ejemplo: si se obtienen tablas relacionadas para la tabla **Cliente**, entonces la tabla **Almacén** no se agregará, ya que está solo condicionalmente con la tabla **Cliente**, por ejemplo si el campo **Cód. almacén** se ha rellenado en la tabla **Cliente**.  
     > - Se filtra la tabla relacionada.  
-    > Ejemplo: un campo de la tabla relacionada tiene la cláusula WHERE. El motivo de esto es que la información de las relaciones involucradas está almacenada en la tabla virtual **Campo** y no está disponible en ventanas como la hoja de cálculo de la configuración por motivos de rendimiento.  
+    > Ejemplo: un campo de la tabla relacionada tiene la cláusula WHERE. El motivo de esto es que la información de las relaciones involucradas está almacenada en la tabla virtual **Campo** y no está disponible en páginas como la hoja de cálculo de la configuración por motivos de rendimiento.  
     > Deberá agregar tablas con estas relaciones complejas manualmente según el paso 4 de la sección "Procedimiento para agregar una tabla a la hoja de cálculo".
 
 7. Para eliminar tablas de la lista de tablas resultante, seleccione una tabla que desee quitar y elija la acción **Eliminar**.  

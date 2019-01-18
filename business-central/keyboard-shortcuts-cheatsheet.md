@@ -11,39 +11,20 @@ ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f5c679a962b8eab2742c5224ea86c7329c4a2a09
+ms.sourcegitcommit: 400865a0e94ea04c534a56fcb25eb8dc039411e1
+ms.openlocfilehash: 39c32033f377654abda42dedff4a0a2edafa6621
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/01/2018
 
 ---
 
-# <a name="pc-keyboard-shortcuts-quick-reference"></a>Referencia rápida a los métodos abreviados de teclado para PC
+# <a name="keyboard-shortcuts-quick-reference"></a>Referencia rápida a los métodos abreviados de teclado
 
-
-|||||  
-|----------------|-----------|----------------|-----------|    
-|**General**||**Desplazarse y seleccionar filas**||
-|Alt+Q|Abrir **Dígame qué desea hacer**|Ctrl+E|Seleccionar todo|
-|Tab|Desplazar el enfoque al control siguiente|Inicio/Fin|Ir al primer/último campo|
-|Mayús+Tabulador|Desplazar el enfoque al control anterior|Ctrl+Inicio/Fin|Ir a la primera/última fila|   
-|Alt+flecha abajo|Abrir un menú desplegable o buscar|Ctrl+Flecha arriba/abajo|Desplazarse sin perder la selección|
-|Alt + Flecha hacia la derecha|Ver las transacciones para el valor calculado|Ctrl+Espacio|Alternar la selección de la fila| 
-|Esc|Cierre la página actual o menú desplegable.|Mayús+Ctrl+Inicio/Fin|Extender la selección a la primera o última fila| 
-|||Ctrl+Enter|Centrarse en la lista|
-|||||
-|**Copiar y pegar**||**Buscar, filtrar y ordenar**||
-|Ctrl+E|Seleccionar todo|F3|Búsqueda alternativa|
-|Ctrl+Inicio/Fin|Seleccionar la primera y última fila de la lista|Shift+F3|Alternar el panel de filtros; centrarse en los filtros de campo|
-|Inicio/Fin|Ir al primer/último campo|Ctrl+Shift+F3|Alternar filtros totales: centrarse en filtros totales|
-|Ctrl/Shift+Clic|Añadir las filas a la selección |Alt+F3|Filtrar en el valor de la celda seleccionada|
-|Ctrl+Flecha arriba/abajo|Mover el enfoque a la fila de arriba/debajo|Mayús+Alt+F3|Agregar un filtro en el campo seleccionado|
-|Ctrl+Espacio|Extienda la selección para incluir la fila enfocada|Ctrl+Alt+Mayús+F3|Restablecer filtros|
-|Mayús+Flecha arriba/abajo|Agregue una fila arriba/debajo de la selección|**Vista preliminar de un informe**||
-|Mayús+Av/Re Pág|Agregar todas las filas visibles arriba/debajo de la selección actual|Arriba/Abajo|Desplazarse hacia arriba y hacia abajo por la página
-|Ctrl+C|Copiar filas|Derecha/izquierda|Desplazarse hacia la derecha/izquierda |
-|Ctrl+V|Pegar las filas|Ctrl+0 (cero)|Ajustar página en ventana |
-|F8|Copiar campo de arriba a la fila actual|Ctrl+Inicio/Fin|Ir a la primera/última página|
-|||Av/Re Pág|Ir a la página anterior/siguiente|
-
+||||  
+|----------------|-----------|----------------| 
+|**General**|Alt+Q<br />Alt+Arriba<br />Tab<br />Mayús+Tabulador<br />Alt+flecha abajo<br />Alt + Flecha hacia la derecha<br />F5/Ctrl+F5<br />Esc|Abrir **Dígame**<br />Abrir la información sobre herramientas o el error de validación<br />Desplazar el enfoque al control siguiente<br />Desplazar el enfoque al control anterior<br />Abrir un menú desplegable o buscar<br />Ver las transacciones para el valor calculado<br />Actualizar o volver a cargar la página<br />Cierre la página actual o menú desplegable.|
+|**Desplazarse y seleccionar filas**| Inicio/Fin<br />Ctrl+Inicio/Fin <br />Ctrl+Flecha arriba/abajo<br />Ctrl+E <br />Ctrl+Espacio<br />Ctrl/Shift+Clic<br />Ctrl+Mayús+Inicio/Fin<br />Mayús+Flecha arriba/abajo<br />Mayús+Av/Re Pág<br />Ctrl+Enter| Ir al primer/último campo<br />Ir a la primera/última fila<br />Desplazarse sin perder la selección<br />Seleccionar todo<br />Alternar la selección de la fila<br /> Agregar la fila o las filas a la selección<br />Extender la selección a la primera o última fila<br />Agregue una fila arriba/debajo de la selección<br />Agregar todas las filas visibles encima o debajo de la selección<br />Centrarse en la lista|
+|**Copiar y pegar**|Ctrl+C<br />Ctrl+V<br />F8|Copiar filas<br />Pegar filas<br />Copiar campo de arriba a la fila actual|
+|**Buscar, filtrar y ordenar**|F3<br />Shift+F3<br />Ctrl+Shift+F3<br />Alt+F3<br />Mayús+Alt+F3<br />Ctrl+Alt+Mayús+F3|Búsqueda alternativa<br />Alternar el panel de filtros; centrarse en los filtros de campo<br />Alternar el panel de filtros; centrarse en los filtros de totales<br />Filtrar en el valor de la celda seleccionada<br />Agregar un filtro en el campo seleccionado<br />Restablecer filtros|
+|**Vista preliminar de un informe**|Arriba/Abajo<br />Derecha/izquierda<br />Ctrl+Inicio/Fin<br />Av/Re Pág|Desplazarse hacia arriba y hacia abajo por la página<br />Desplazarse hacia la derecha/izquierda <br />Ir a la primera/última página<br />Ir a la página anterior/siguiente|
 

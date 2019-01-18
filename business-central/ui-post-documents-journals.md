@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d1d10605991f215971a5562c9cde54ced59f9107
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 139cc2d43dbebb3c6c2f386b2977ba67bbe438d6
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="post-documents-and-journals"></a>Registrar documentos y diarios
@@ -30,7 +30,7 @@ En la tabla siguiente se describen tareas relacionadas con vínculos a los temas
 | Obtenga información registrar documentos de compra. |[Registrar compras](ui-post-purchases.md) |
 | Obtenga información sobre registrar documentos de ventas. |[Registrar ventas](ui-post-sales.md) |
 | Obtenga información sobre registrar diarios generales. |[Trabajar con diarios generales](ui-work-general-journals.md) |
-| Obtenga una vista previa, en una ventana, de las entradas que se crearán al registrar. |[Vista previa de los resultados del registro](ui-how-preview-post-results.md) |
+| Obtenga una vista previa, en una página, de las entradas que se crearán al registrar. |[Vista previa de los resultados del registro](ui-how-preview-post-results.md) |
 | Obtenga una vista previa, en un informe, de las entradas que se crearán al registrar. |[Ver informes de prueba antes de realizar el registro](ui-how-view-test-reports-posting.md) |
 
 ## <a name="see-also"></a>Consulte también

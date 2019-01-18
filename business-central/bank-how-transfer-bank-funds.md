@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account transfer, multiple currencies
-ms.date: 10/01/2018
+ms.date: 11/18/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 758833e146c03cde3f892ec24d43143bcdce655c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 486196d228d9a19d6fbba1e171e138bd5693ac94
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="transfer-bank-funds"></a>Transferir fondos bancarios
@@ -28,9 +28,10 @@ En ocasiones es necesario transferir un importe desde una cuenta bancaria a otra
 3. En el campo **Tipo mov**, seleccione **Banco**.
 4. En el campo **N.º de cuenta**, seleccione la cuenta desde la que quiere transferir los fondos.
 5. En el campo **Importe**, introduzca el importe que quiere transferir.
-6. En el campo **Tipo contrapartida**, seleccione **Cuenta bancaria**.
-7. En el campo **Cta. contrapartida**, seleccione la cuenta a la que quiere transferir los fondos.
-8. Registre el diario.
+6. Seleccione la acción **Mostrar más columnas** para ver todos los campos disponibles.
+7. En el campo **Tipo contrapartida**, seleccione **Cuenta bancaria**.
+8. En el campo **Cta. contrapartida**, seleccione la cuenta a la que quiere transferir los fondos.
+9. Registre el diario.
 
 ## <a name="to-post-a-transfer-between-bank-accounts-with-different-currency-codes"></a>Para registrar transferencias entre bancos con códigos de divisa distintos
 Para transferir fondos entre cuentas bancarias que usan distintas divisas, debe registrar dos líneas de diario general.
@@ -49,7 +50,7 @@ Para transferir fondos entre cuentas bancarias que usan distintas divisas, debe 
 12. En el campo **Cta. contrapartida**, seleccione la cuenta desde la que quiere transferir los fondos.
 
     > [!NOTE]  
-    > Si los tipos de cambio usados en el diario son diferentes a los contenidos en la ventana **Tipos de cambio de divisa**, introduzca una tercera línea para las diferencias positivas o negativas del cambio. Especifique **Cuenta** en el campo **Tipo mov**. Especifique el número de cuenta para la pérdida o ganancia de tipo de campo en el campo **Nº cuenta**. Introduzca la diferencia positiva o negativa del tipo de cambio en el campo **Importe** con o sin el signo menos para los créditos y los débitos respectivamente.
+    > Si los tipos de cambio usados en el diario son diferentes a los contenidos en la página **Tipos de cambio de divisa**, introduzca una tercera línea para las diferencias positivas o negativas del cambio. Especifique **Cuenta** en el campo **Tipo mov**. Especifique el número de cuenta para la pérdida o ganancia de tipo de campo en el campo **Nº cuenta**. Introduzca la diferencia positiva o negativa del tipo de cambio en el campo **Importe** con o sin el signo menos para los créditos y los débitos respectivamente.
 13. Registre el diario.
 
 ## <a name="see-also"></a>Consulte también

@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: general ledger, transfer, cost entries
 ms.date: 10/01/2018
 ms.author: sgroespe
+redirect_url: finance-transfer-and-post-cost-entries
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bc693bf3f3339b54a5d8d8847beb06c3fc018a0f
+ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
+ms.openlocfilehash: 0e17ff5ad60014cba6ce866c9ddae848b1239167
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/20/2018
 
 ---
 # <a name="results-of-transferring-general-ledger-entries-to-cost-entries"></a>Los resultados de la transferencia de movimientos de contabilidad a movimientos de coste
@@ -38,8 +39,5 @@ Para movimientos de coste únicos, [!INCLUDE[d365fin](includes/d365fin_md.md)] t
 En la tabla **Registro de costes**, [!INCLUDE[d365fin](includes/d365fin_md.md)] crea un movimiento con la transferencia de origen de la contabilidad. El movimiento registra el primer y último número de los movimientos de contabilidad que se transfieren, además del primer y último número de movimientos de coste creados.  
 
 ## <a name="see-also"></a>Consulte también  
-[Transferir movimientos de contabilidad a movimientos de coste](finance-how-to-transfer-general-ledger-entries-to-cost-entries.md)   
-[Criterios para la transferencia de movimientos de contabilidad a movimientos de coste](finance-criteria-for-transferring-general-ledger-entries-to-cost-entries.md)   
-[Transferencia automática y movimientos combinados](finance-automatic-transfer-combined-entries.md)   
-[Transferencia y registro de movimientos de coste](finance-transfer-and-post-cost-entries.md)  
+[Transferencia y registro de movimientos de coste](finance-transfer-and-post-cost-entries.md)   
 

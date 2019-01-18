@@ -12,10 +12,10 @@ ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 035eb85050ec6feb9e65ee924ebf4dbd2064e5ba
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4208616e0d4d865a2cc113cd888abde8285dc202
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -83,8 +83,8 @@ En la tabla siguiente se describen los métodos del tipo de cambio que puede uti
 Para especificar los tipos de cambio para las unidades de negocio, realice los pasos siguientes:
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Unidades de negocio** y luego elija el enlace relacionado.  
-2. En la ventana **Lista de unidades de negocio**, seleccione la unidad de negocio y, después, seleccione la acción **Tipo de cambio medio (manual)**.   
-3. En la ventana **Modifica triangulación**, el contenido del campo **Valor t.c. divisa relacionada** se ha copiado de la tabla **Tipo cambio divisa**, pero se puede modificar. Cierre la página.  
+2. En la página **Lista de unidades de negocio**, seleccione la unidad de negocio y, después, seleccione la acción **Tipo de cambio medio (manual)**.   
+3. En la página **Modificar tipo de cambio**, el contenido del campo **Tipo de cambio relacionado** se ha copiado de la tabla **Tipo de cambio de divisa**, pero se puede modificar. Cierre la página.  
 4. Seleccione la acción **Tipo de cambio al cierre**.  
 5. En el campo **Cantidad del tipo de cambio relacionado**, introduzca el tipo de cambio.
 

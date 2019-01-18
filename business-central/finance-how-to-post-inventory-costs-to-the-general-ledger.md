@@ -12,16 +12,16 @@ ms.search.keywords: warehouse, stock
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d6df6884ef5cf8fce96ec1f5bc5ca91bdbd3ede7
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0e9b610d54f955c3dec9cba6b2327a74663288a2
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Conciliar costes de inventario con la contabilidad general
 Cuando registra transacciones del inventario, como los envíos de ventas, los albaranes de compra o los ajustes de inventario, los costes de producto cambiados se registran en movimientos de valor de productos. Para reflejar este cambio de valor de inventario en sus libros de finanzas, los costes de inventario se registran automáticamente en las cuentas de inventario relacionadas del libro mayor. Para cada una de las transacciones de inventario que registre, los valores apropiados se contabilizan en la cuenta de inventario, en la cuenta de ajuste y en la cuenta de CV en el módulo de contabilidad.
 
-La contabilización automática de costes se define en el campo **Contabilización automática de costes** en la ventana **Configuración existencias**.
+La contabilización automática de costes se define en el campo **Contabilización automática de costes** en la página **Configuración existencias**.
 
 Aunque se hayan registrado los costes de inventario automáticamente en el libro mayor, seguirá siendo necesario asegurarse de que los costes de los bienes se dirigen a las transacciones de venta de salida relacionadas, especialmente en situaciones donde la venta de bienes se factura antes de la compra de estos bienes. Esto se denomina ajuste de costes. Los costes de los productos se ajustan automáticamente cada vez que registra transacciones de producto, pero también puede ajustar los costes de producto manualmente. Para obtener más información, consulte [Modificar precios de productos](inventory-how-adjust-item-costs.md).
 
@@ -37,7 +37,7 @@ Para ver una lista con los errores antes de ejecutar el proceso de registro, pue
 Si simplemente desea obtener una visión general acerca de qué valores se podrán registrar en el módulo de contabilidad sin que realmente se registren, puede ejecutar el proceso **Regis. variación existencias** sin que se registren los valores en el módulo de contabilidad. Para ello, deberá quitar la marca de verificación del campo **Registrar** en la página de solicitud. De esta forma, cuando ejecute el trabajo por lotes, se genera un informe que muestra los valores que están preparados para ser registrados en el módulo de contabilidad, pero no se registran.
 
 ## <a name="to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger"></a>Auditar la reconciliación entre la contabilidad de inventario y la contabilidad general
-La ventana **Invent. - Conciliación cont.** proporciona lo siguiente:
+La página **Invent. - Conciliación cont.** proporciona lo siguiente:
 
 - Muestra las diferencias de conciliación al comparar los movimientos registrados en la contabilidad general y los movimientos de inventario (movimientos de valoración).
 - Muestra los importes de costes no conciliados en los movimientos de valoración del inventario como si estuvieran asignados a cuentas relacionadas con el inventario correspondiente de la contabilidad y los compara con los totales registrados en las mismas cuentas de contabilidad.
@@ -57,11 +57,11 @@ La columna **Total C/G** muestra los importes (en negrita) de cada tipo de cuent
 
 La columna **Diferencia** representa la diferencia entre el valor de los campos **Total C/G** y **Total**.
 
-En la parte superior de la ventana **Invent. - Conciliación cont.**, puede introducir filtros para limitar, por ejemplo, el periodo de tiempo durante el que desea visualizar la información.
+En la parte superior de la página **Invent. - Conciliación cont.**, puede introducir filtros para limitar, por ejemplo, el periodo de tiempo durante el que desea visualizar la información.
 
 Si selecciona la casilla de verificación **Mostrar advertencia**, y existen discrepancias entre los totales del inventario y los totales de contabilidad, el programa mostrará mensajes en el campo **Advertencia** de la matriz en los que se explican dichas discrepancias. Si selecciona el campo advertencia, el programa mostrará más información acerca del significado de las advertencias.
 
-Cuando haya introducido todos los filtros pertinentes, seleccione la acción **Mostrar matriz**. Se calcularán los datos y aparecerá la ventana de matriz.
+Cuando haya introducido todos los filtros pertinentes, seleccione la acción **Mostrar matriz**. Se calcularán los datos y aparecerá la página de matriz.
 
 En la columna más a la izquierda de la matriz puede ver los diferentes tipos de cuentas de contabilidad que están asociadas al inventario. La matriz mostrará los totales del inventario facturados, no facturados y WIP para cada uno de esos tipos. Esos totales se calculan a partir de los movimientos de valoración.
 

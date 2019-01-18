@@ -1,22 +1,17 @@
 ---
 title: "Creación del informe 347"
-description: "Todas las empresas deben presentar una declaración anual, el **Informe 347**, a la administración fiscal que proporcione las transacciones de ventas y compras del periodo fiscal anterior."
-services: project-madeira
-documentationcenter: 
+description: "Todas las empresas en España deben presentar una declaración anual, el modelo 347, a la administración fiscal y proporcionar las transacciones de ventas y compras del periodo fiscal anterior."
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 1c79147086a29338ce3bbb23f3c74585d4eee1c4
+ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
+ms.openlocfilehash: c049561e1457f90c1a2cce03b57c39153953433e
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/20/2018
 
 ---
 # <a name="create-report-347"></a>Crear el informe 347

@@ -13,20 +13,20 @@ ms.search.keywords: API templates, configuring templates
 ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2dfa62c765a653986de2069ef26e454928d68ee3
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 7420bd1b8c1c246b608910a35a47ac025eec6b8b
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
 # <a name="configuring-api-templates"></a>Configuración de plantillas API
-La biblioteca API para [!INCLUDE[d365fin_md](includes/d365fin_md.md)] proporciona una representación simplificada de las entidades subyacentes. Todas las propiedades de la aplicación no están expuestas a través de la API asociada. La ventana **Configuración de API** le permite definir plantillas que se utilizan para llenar propiedades vacías en una entidad cuando crea una acción POST a través de la API. 
+La biblioteca API para [!INCLUDE[d365fin_md](includes/d365fin_md.md)] proporciona una representación simplificada de las entidades subyacentes. Todas las propiedades de la aplicación no están expuestas a través de la API asociada. La página **Configuración de API** le permite definir plantillas que se utilizan para llenar propiedades vacías en una entidad cuando crea una acción POST a través de la API. 
 
 Por ejemplo, si se define una plantilla de configuración para la entidad del elemento, cuando se crea un nuevo registro del elemento a través de la API de elementos, las propiedades del nuevo elemento que no están definidas en la API se rellenarán a partir de la plantilla seleccionada. Si, por ejemplo, no se define ningún valor para el campo **Grupo contable producto** a través de la API, pero se define un valor en la plantilla seleccionada, el valor del grupo definido en la plantilla se aplicará al nuevo elemento. 
 
 ## <a name="setting-up-the-entity-template"></a>Configuración de la plantilla de entidad
-Para usar plantillas con la biblioteca API, primero debe configurar y definir propiedades para las plantillas. Puede configurar estas plantillas en la ventana **Plantillas de configuración**. Para obtener más información, consulte [Prepararse para migrar datos del cliente](admin-use-templates-to-prepare-customer-data-for-migration.md). 
+Para usar plantillas con la biblioteca API, primero debe configurar y definir propiedades para las plantillas. Puede configurar estas plantillas en la página **Plantillas de configuración**. Para obtener más información, consulte [Prepararse para migrar datos del cliente](admin-use-templates-to-prepare-customer-data-for-migration.md). 
 
 ## <a name="assign-the-template-to-an-api"></a>Asigne la plantilla a una API
 
@@ -39,7 +39,7 @@ Cuando se aplican las plantillas, los valores de campo definidos en la plantilla
 3. Seleccionar un valor de **ID de página**.  
 Esta es la página de la API a la que se aplicará la plantilla. La búsqueda de **ID de página** proporciona una lista de todas las API disponibles en la biblioteca.
 4. Seleccione un valor en el campo **Código de plantilla**.  
-El código de plantilla es el código para la plantilla que se definió en la ventana **Plantillas de configuración**. Los valores de plantilla definidos se aplican a la API. 
+El código de plantilla es el código para la plantilla que se definió en la página **Plantillas de configuración**. Los valores de plantilla definidos se aplican a la API. 
 5. En el campo **Condiciones**, especifique qué plantilla se debe aplicar.  
 La plantilla definida se aplica a un nuevo registro creado a través de la API si, y únicamente en el caso de que, las condiciones definidas en el campo **Condiciones** se cumplan con los valores ya definidos para la nueva instancia de la entidad.
 

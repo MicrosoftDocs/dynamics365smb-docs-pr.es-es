@@ -12,10 +12,10 @@ ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 75ee26e612627f7d24e47db87cb520d56a331ef6
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a800f24f86227afc2ab45ffcb6d1aaffd608e69e
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="send-documents-by-email"></a>Enviar documentos por correo electrónico
@@ -23,45 +23,45 @@ Para comunicar el contenido de documentos empresariales rápidamente a sus socio
 
 Para activar los correos electrónicos en [!INCLUDE[d365fin](includes/d365fin_md.md)], inicie la guía de configuración **Configurar correo electrónico** en el área de trabajo.
 
-Puede enviar por correo electrónico prácticamente todos los tipos de documento como archivos adjuntos en el mensaje directamente desde la ventana que muestra el documento. Además del archivo adjunto, puede configurar contenido específico de un documento en el cuerpo del correo electrónico con la información principal de ése documento, precedida por el texto estándar que saluda al destinatario del correo e introduce el documento en cuestión. Para ofrecer a sus clientes el pago de las ventas de forma electrónica usando un servicio de pago, como por ejemplo PayPal, puede disponer también de su información y su hipervínculo en el cuerpo del correo.
+Puede enviar por correo electrónico prácticamente todos los tipos de documento como archivos adjuntos en el mensaje directamente desde la página que muestra el documento. Además del archivo adjunto, puede configurar contenido específico de un documento en el cuerpo del correo electrónico con la información principal de ése documento, precedida por el texto estándar que saluda al destinatario del correo e introduce el documento en cuestión. Para ofrecer a sus clientes el pago de las ventas de forma electrónica usando un servicio de pago, como por ejemplo PayPal, puede disponer también de su información y su hipervínculo en el cuerpo del correo.
 
 A partir de todos los documentos soportados, se inicia el envío del correo seleccionando la acción **Enviar** en los documentos registrados, o la acción **Registrar y enviar** en los documentos no registrados.
 
-Si el campo **Correo electrónico** en la ventana **Enviar documento a** se establece en **Sí (Mensaje para configuración)**, se abre la ventana **Enviar correo electrónico** rellenada previamente con el contacto en el campo **Para:** y el documento adjunto es un archivo PDF. En el campo **Cuerpo**, puede introducir tanto el texto manualmente como disponer del campo rellenado con un contenido específico de un documento en el cuerpo del correo electrónico que ha configurado.
+Si el campo **Correo electrónico** en la página **Enviar documento a** se establece en **Sí (Mensaje para configuración)**, se abre la página **Enviar correo electrónico** rellenada previamente con el contacto en el campo **Para:** y el documento adjunto es un archivo PDF. En el campo **Cuerpo**, puede introducir tanto el texto manualmente como disponer del campo rellenado con un contenido específico de un documento en el cuerpo del correo electrónico que ha configurado.
 
 El procedimiento siguiente describe cómo configurar el informe **Ventas - Factura** para usarlo como contenido específico en el cuerpo del correo cuando envíe las facturas de venta registradas.
 
 ## <a name="to-set-up-a-document-specific-email-body-for-sales-invoices"></a>Para configurar un documento específico en el cuerpo de un correo electrónico para las facturas de venta
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Selección informes ventas** y luego elija el enlace relacionado.
-2. En la ventana **Informe selección - ventas**, en el campo **Uso**, seleccione **Facturar**.
+2. En la página **Informe selección - ventas**, en el campo **Uso**, seleccione **Facturar**.
 3. En una línea nueva, en el campo **Id. informe**, seleccione, por ejemplo, informe estándar 1306.
 4. Seleccione la casilla **Usar para el cuerpo del correo electrónico**.
 5. Elija el campo **Código de diseño del cuerpo del correo electrónico** y seleccione una plantilla en la lista desplegable.
 
     Las plantillas de informes definen tanto el estilo como el contenido del cuerpo del correo, incluyendo el texto estándar que precede la información principal del documento. Puede ver todos los diseños de informe disponibles si elige el botón **Seleccionar de la lista completa** en la lista desplegable.
-6. Para ver o editar el diseño en el que se basa el cuerpo del correo electrónico, seleccione el diseño en la ventana **Diseños de informe personalizados** y, a continuación, elija la acción **Editar diseño**.
+6. Para ver o editar el diseño en el que se basa el cuerpo del correo electrónico, seleccione el diseño en la página **Diseños de informe personalizados** y, a continuación, elija la acción **Editar diseño**.
 7. Si desea ofrecer a sus clientes el pago de las ventas de forma electrónica puede configurar el servicio de pago relacionado, como por ejemplo PayPal y, a continuación, puede disponer también de su información y su hipervínculo en el cuerpo del correo. Para obtener más información, consulte [Permitir pagos de cliente a través de PayPal](sales-how-enable-payment-service-extensions.md).
 8. Elija el botón **Aceptar**.
 
-Ahora bien, cuando selecciona, por ejemplo, la acción **Enviar** en la ventana **Factura venta reg.**, el cuerpo del correo electrónico contendrá la información del documento del informe 1306 precedida por el texto estándar siguiendo el diseño de informe que seleccionó en el paso 5.
+Ahora bien, cuando selecciona, por ejemplo, la acción **Enviar** en la página **Factura venta reg.**, el cuerpo del correo electrónico contendrá la información del documento del informe 1306 precedida por el texto estándar siguiendo el diseño de informe que seleccionó en el paso 5.
 
 El procedimiento siguiente describe cómo enviar una factura de ventas registrada como un mensaje de correo electrónico con un documento adjunto en formato PDF y con un contenido específico en el cuerpo del correo.
 
 ## <a name="to-send-documents-by-email"></a>Para enviar documentos por correo electrónico
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Histórico facturas venta** y luego elija el enlace relacionado.
-2. Seleccione la factura de ventas registrada relevante y, a continuación, elija la acción **Enviar**. Se abre la ventana **Enviar documento a**.
+2. Seleccione la factura de ventas registrada relevante y, a continuación, elija la acción **Enviar**. Se abre la página **Enviar documento a**.
 3. en el campo **Correo electrónico** seleccione **Sí (Mensaje para configuración)**. Para obtener más información, vea [Configurar los perfiles de envío de documentos](sales-how-setup-document-send-profiles.md).
-4. Elija el botón **Aceptar**. Se abre la ventana **Enviar correo electrónico**.
+4. Elija el botón **Aceptar**. Se abre la página **Enviar correo electrónico**.
 5. En el campo **Para:** introduzca una dirección de correo electrónico válida. El valor predeterminado es la dirección de correo electrónico del cliente.
 6. En el campo **Asunto**, escriba un texto descriptivo del asunto. El valor predeterminado es el nombre del cliente y el número de factura.
 7. En el campo **Archivo adjunto**, se adjunta la factura generada de forma predeterminada como un archivo PDF. Seleccione el botón de búsqueda para abrir el archivo o para adjuntar otro.
 8. En el campo **Cuerpo**, escriba un mensaje breve al destinatario.
 
-    Si se configura el contenido específico de un documento en el cuerpo del correo electrónico en la ventana **Informe selección - Ventas**, el campo **Cuerpo** se rellena automáticamente. Para obtener más información, vea "Para configurar un contenido específico de un documento en el cuerpo del correo electrónico para las facturas de venta" en este tema.
+    Si se configura el contenido específico de un documento en el cuerpo del correo electrónico en la página **Informe selección - ventas**, el campo **Cuerpo** se rellena automáticamente. Para obtener más información, vea "Para configurar un contenido específico de un documento en el cuerpo del correo electrónico para las facturas de venta" en este tema.
 9. Haga clic en el botón **Aceptar** para enviar el correo electrónico.
 
 > [!NOTE]  
->   Si no desea especificar la configuración del correo electrónico cada vez que envíe un documento, puede seleccionar la opción **Sí (Usar configuración predeterminada)** en el campo **Correo electrónico** en la ventana **Enviar documento a**. En ese caso, la ventana **Enviar correo electrónico** no se abrirá. Consulte el paso 4. Para obtener más información, vea [Configurar los perfiles de envío de documentos](sales-how-setup-document-send-profiles.md).
+>   Si no desea especificar la configuración del correo electrónico cada vez que envíe un documento, puede seleccionar la opción **Sí (Usar configuración predeterminada)** en el campo **Correo electrónico** en la página **Enviar documento a**. En ese caso, la página **Enviar correo electrónico** no se abrirá. Consulte el paso 4. Para obtener más información, vea [Configurar los perfiles de envío de documentos](sales-how-setup-document-send-profiles.md).
 
 ## <a name="see-also"></a>Consulte también
 [Administrar diseños de informes y documentos](ui-manage-report-layouts.md)  

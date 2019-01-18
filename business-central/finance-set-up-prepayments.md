@@ -12,10 +12,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b4469b91f8bb377e4fef5700063d6085ac700605
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 7dc774654b35ce9b08885fd4ad18539e3ce5ebd5
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-prepayments"></a>Configurar prepagos
@@ -30,23 +30,23 @@ Dado que el importe de prepago pertenece al comprador hasta que haya recibido lo
 ## <a name="to-add-prepayment-accounts-to-the-general-posting-setup"></a>Para agregar cuentas de prepago a la configuración de grupos contables  
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración de registro general** y luego elija el enlace relacionado.
-2. En la ventana **Configuración grupos contables**, rellene los campos siguientes:  
+2. En la página **Configuración grupos contables**, rellene los campos siguientes:  
 
     - **Cuenta prepago ventas**  
     - **Cuenta prepagos compras**  
 
-Si aún no ha configurado cuentas de contabilidad para prepagos, puede hacerlo en la ventana **Lista de cuentas**.  
+Si aún no ha configurado cuentas de contabilidad para prepagos, puede hacerlo en la página **Lista de cuentas**.  
 
 ## <a name="to-set-up-number-series-for-prepayment-documents"></a>Configurar números de serie para documentos de prepago  
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración ventas y cobros** y luego elija el enlace relacionado.
-2. En la ventana **Conf. ventas y cobros**, rellene los campos siguientes:  
+2. En la página **Conf. ventas y cobros**, rellene los campos siguientes:  
 
    - **Nº fact. prepago registrada**
    - **Nº abono prepago registrado**
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración compras y pagos** y luego elija el enlace relacionado.
-2. En la ventana **Conf. compras y pagos:**, rellene los campos siguientes:
+2. En la página **Conf. compras y pagos:**, rellene los campos siguientes:
 
     - **Nº fact. prepago registrada**
     - **Nº abono prepago registrado**
@@ -59,7 +59,7 @@ Puede definir un porcentaje de prepago predeterminado de un producto para todos 
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Productos** y luego elija el enlace relacionado.
 2. Seleccione un elemento y, a continuación, elija la acción **Conf. ventas y cobros**.  
-3. En la ventana **Porcentajes prepago ventas**, rellene los campos como sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. En la página **Porcentajes prepago ventas**, rellene los campos como sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Puede definir un porcentaje de prepago predeterminado para un cliente o proveedor en relación con todos los productos y todos los tipos de líneas de venta. Especifíquelo en la ficha de cliente o de proveedor.
 

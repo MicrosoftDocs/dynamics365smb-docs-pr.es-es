@@ -12,10 +12,10 @@ ms.search.keywords: procurement
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: a96947c07cf86159f767ffcdf85564ee2b4366d8
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: cc0a5e88342e9f4c7493cf9d3390c248e6dd36b9
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="record-purchases"></a>Registrar compras
@@ -39,16 +39,16 @@ Puede rellenar los campos del proveedor en la factura de compra de dos maneras d
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Facturas compra** y luego elija el enlace relacionado.  
 2. En el campo **Proveedor**, escriba el nombre de un proveedor existente.
 
-    Otros campos de la ventana **Factura de compra** se rellenarán con la información estándar del proveedor seleccionado. Si el proveedor no está registrado, realice los pasos siguientes:
+    Otros campos de la página **Factura de compra** se rellenarán con la información estándar del proveedor seleccionado. Si el proveedor no está registrado, realice los pasos siguientes:
 3. En el campo **Proveedor**, especifique el nombre del proveedor nuevo.
 4. En el cuadro de diálogo que registra al nuevo proveedor, seleccione el botón **Sí**.
-5. En la ventana **Seleccionar una plantilla para un proveedor nuevo**, seleccione una plantilla en la que se basará la nueva ficha de proveedor y, a continuación, haga clic en el botón **Aceptar**.
+5. En la página **Seleccionar una plantilla para un proveedor nuevo**, seleccione una plantilla en la que se basará la nueva ficha de proveedor y, a continuación, haga clic en el botón **Aceptar**.
 6. Una nueva ficha de proveedor se abre, prellenada con información sobre la plantilla de proveedor seleccionada. El campo **Nombre** se rellena previamente con el nombre del nuevo proveedor que especificó en la factura de compra.
 7. Rellene los campos restantes de la ficha de proveedor. Para obtener más información, vea [Registrar nuevos proveedores](purchasing-how-register-new-vendors.md).  
-8. Cuando haya finalizado la ficha de proveedor, seleccione el botón **Aceptar** para devolver a la ventana **Factura de compra**.
+8. Cuando haya finalizado la ficha de proveedor, seleccione el botón **Aceptar** para devolver a la página **Factura de compra**.
 
-    Varios campos de la ventana **Factura de compra** ahora están rellenados con la información especificada en la nueva ficha del proveedor.
-9. Rellene los campos en la ventana **Factura de compra** según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+    Varios campos de la página **Factura de compra** ahora están rellenados con la información especificada en la nueva ficha del proveedor.
+9. Rellene los campos en la página **Factura de compra** según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     Ya puede empezar a rellenar las líneas de la factura de compra con los productos de inventario o los servicios que ha comprado del proveedor.
 

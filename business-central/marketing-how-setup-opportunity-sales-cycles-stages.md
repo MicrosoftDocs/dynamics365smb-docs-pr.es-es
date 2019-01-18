@@ -11,10 +11,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 34262b070ea19b5f109c9194d6a91ef048132e6b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 319a59c865b7883cf7de5c35d9ebce5c30de0f76
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-opportunity-sales-cycles-and-cycle-stages"></a>Configurar ciclos de ventas de oportunidad y etapas de ciclo
@@ -25,13 +25,13 @@ La implementación de ciclos de ventas de oportunidad implica la configuración 
 Este tema describe también cómo configurar tareas y actividades, y cómo asignar tareas a las actividades. Para obtener más información, consulte la sección "Para configurar actividades con tareas".
 
 ## <a name="to-set-up-opportunity-sales-cycle-codes"></a>Para configurar los casilla de selección de ciclo de ventas de oportunidades
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Ciclos de venta** y luego elija el enlace relacionado. Se abre la ventana **Ciclos de ventas** y se muestran todos los ciclos de ventas existentes.
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Ciclos de venta** y luego elija el enlace relacionado. Se abre la página **Ciclos de ventas** y se muestran todos los ciclos de ventas existentes.
 2. Elija la acción **Nuevo** y, a continuación, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Repita estos pasos para configurar todos los ciclos de venta que desee. Después de configurar los ciclos de ventas de oportunidad, puede que quiera configurar las distintas etapas de cada ciclo.
 
 ## <a name="to-define-opportunity-sales-cycle-stages"></a>Para definir las etapas del ciclo de ventas de oportunidad
-1. En la ventana **Ciclos de ventas**, seleccione el ciclo de ventas de oportunidad para el que quiere configurar etapas y, a continuación, seleccione la acción **Etapas**. Se abre la ventana **Etapas de ciclo de ventas**.
+1. En la página **Ciclos de ventas**, seleccione el ciclo de ventas de oportunidad para el que quiere configurar etapas y, a continuación, seleccione la acción **Etapas**. Se abre la página **Etapas de ciclo de ventas**.
 2. Seleccione la acción **Nuevo** para introducir una nueva etapa en el ciclo de ventas.
 
 Repita estos pasos para configurar tantas etapas como desee del ciclo de ventas.
@@ -54,13 +54,13 @@ Cuando haya configurado una tarea, puede asignarla a una oportunidad de ventas y
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Oportunidades** y luego elija el enlace relacionado.
 2. Seleccione una oportunidad y, a continuación, elija la acción **Tareas**.
-3. En la ventana **Lista tareas**, seleccione la acción **Crear tarea**.
-4.  En la ventana **Crear tarea**, rellene los campos según sea necesario.
+3. En la página **Lista tareas**, seleccione la acción **Crear tarea**.
+4.  En la página **Crear tarea**, rellene los campos según sea necesario.
 
     Observe el campo **Oportunidad**, que se asigna automáticamente a la oportunidad en cuestión.
 5. Elija el botón **Aceptar**.
-6. En la ventana **Lista tareas**, seleccione la nueva tarea y, a continuación, seleccione la acción **Asignar actividades**.
-7. En la ventana **Asignar actividad**, rellene los campos según sea necesario y, a continuación, elija el botón **Aceptar**.
+6. En la página **Lista tareas**, seleccione la nueva tarea y, a continuación, seleccione la acción **Asignar actividades**.
+7. En la página **Asignar actividad**, rellene los campos según sea necesario y, a continuación, elija el botón **Aceptar**.
 
 ## <a name="see-also"></a>Consulte también
 [Procesar oportunidades de ventas](marketing-processing-sales-opportunities.md)  

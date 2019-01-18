@@ -12,43 +12,43 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: eb61eeb0a044a270a8ead5464919ce537cb356b5
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 7d74ae2b6ce94d1aa0e30a3234436a940aaa6219
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Utilizar el servicio OCR para convertir archivos PDF y de imagen en documentos electrónicos
-A partir de archivos PDF o de imagen que reciba desde sus socios comerciales podrá hacer que un servicio externo de OCR (reconocimiento óptico de caracteres) genere documentos electrónicos que se podrán convertir a registros de documentos en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Por ejemplo, cuando recibes una factura de un proveedor en formato PDF, la puedes enviar al servicio de OCR desde la ventana **Documentos entrantes**. Esto se describe en el primer procedimiento.
+A partir de archivos PDF o de imagen que reciba desde sus socios comerciales podrá hacer que un servicio externo de OCR (reconocimiento óptico de caracteres) genere documentos electrónicos que se podrán convertir a registros de documentos en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Por ejemplo, cuando recibes una factura de un proveedor en formato PDF, la puedes enviar al servicio de OCR desde la página **Documentos entrantes**. Esto se describe en el primer procedimiento.
 
-Como alternativa al envío del archivo desde la ventana **Documentos entrantes** puede enviar el archivo al servicio OCR por correo electrónico. A continuación, cuando vuelve a recibir el documento electrónico, se crea automáticamente un registro de documento entrante relacionado. Esto se describe en el segundo procedimiento.
+Como alternativa al envío del archivo desde la página **Documentos entrantes** puede enviar el archivo al servicio OCR por correo electrónico. A continuación, cuando vuelve a recibir el documento electrónico, se crea automáticamente un registro de documento entrante relacionado. Esto se describe en el segundo procedimiento.
 
 Después de algunos segundos, recibirá de vuelta el archivo desde el servicio OCR como una factura electrónica que se podrá convertir a una factura de compra para el proveedor. Esto se describe en el tercer procedimiento.
 
-Como el OCR se basa en el reconocimiento óptico, es probable que el servicio de OCR interprete de forma incorrecta algunos caracteres del PDF o de los archivos de imagen la primera vez que procese documentos de un determinado proveedor, por ejemplo. Puede que no interprete el logotipo de la compañía como el nombre del proveedor o que pueda malinterpretar la cantidad total de un recibo debido a su diseño. Para evitar estos errores en el futuro, puede corregirlos en una versión separada de la ventana **Documentos entrantes**. A continuación, debe enviar las correcciones al servicio OCR para entrenarle para que interprete los caracteres específicos correctamente la próxima vez que procese un documento PDF o de imagen para el mismo proveedor. Para obtener más información, consulte la sección "Para preparar el servicio OCR para evitar errores".
+Como el OCR se basa en el reconocimiento óptico, es probable que el servicio de OCR interprete de forma incorrecta algunos caracteres del PDF o de los archivos de imagen la primera vez que procese documentos de un determinado proveedor, por ejemplo. Puede que no interprete el logotipo de la compañía como el nombre del proveedor o que pueda malinterpretar la cantidad total de un recibo debido a su diseño. Para evitar estos errores en el futuro, puede corregirlos en una versión separada de la página **Documentos entrantes**. A continuación, debe enviar las correcciones al servicio OCR para entrenarle para que interprete los caracteres específicos correctamente la próxima vez que procese un documento PDF o de imagen para el mismo proveedor. Para obtener más información, consulte la sección "Para preparar el servicio OCR para evitar errores".
 
 El tráfico de los archivos hacia y desde el servicio OCR se procesa a través de un movimiento de la cola de proyectos dedicado, que se crea automáticamente cuando se activa la conexión del servicio relacionado. Para obtener más información, vea [Configurar documentos entrantes](across-how-setup-income-documents.md).
 
-## <a name="to-send-a-pdf-or-image-file-to-the-ocr-service-from-the-incoming-documents-window"></a>Para enviar un archivo PDF o de imagen al servicio OCR desde la ventana **Documentos entrantes**
+## <a name="to-send-a-pdf-or-image-file-to-the-ocr-service-from-the-incoming-documents-page"></a>Para enviar un archivo PDF o de imagen al servicio OCR desde la página **Documentos entrantes**
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Documentos entrantes** y luego elija el enlace relacionado.
 2. Cree un nuevo registro de documento entrante y adjunte el archivo. Para obtener más información, vea [Crear registros de documentos entrantes](across-how-create-income-document-records.md).  
-3. En la ventana **Documentos entrantes**, seleccione una o más líneas y, a continuación, seleccione la acción **Enviar a cola de trabajos**.
+3. En la página **Documentos entrantes**, seleccione una o más líneas y, a continuación, seleccione la acción **Enviar a cola de trabajos**.
 
     El valor del campo **Estado OCR** cambia a **Listo** . El archivo PDF o de imagen adjunto lo envía al servicio OCR la cola de proyectos según la programación, siempre que no haya errores.
-4. De forma alternativa, en la ventana **Documentos entrantes**, seleccione una o más líneas y, a continuación, seleccione la acción **Enviar a servicio OCR**.
+4. De forma alternativa, en la página **Documentos entrantes**, seleccione una o más líneas y, a continuación, seleccione la acción **Enviar a servicio OCR**.
 
 El valor del campo **Estado OCR** cambia a **Enviado** siempre que no haya errores.
 
 ## <a name="to-send-a-pdf-or-image-file-to-the-ocr-service-by-email"></a>Para enviar un archivo PDF o de imagen al servicio OCR por correo electrónico
 Desde su aplicación de correo electrónico, puede enviar un correo electrónico al proveedor del servicio OCR con el archivo PDF o de imagen adjunto. Para obtener información acerca de la dirección de correo electrónico a la que enviar el archivo, consulte el sitio web del proveedor del servicio OCR.
 
-Puesto que no existe ningún registro de documento entrante para el archivo, se creará automáticamente un nuevo registro en la ventana **Documentos entrantes** cuando reciba el documento electrónico resultante desde el servicio OCR. Para obtener más información, vea [Crear registros de documentos entrantes](across-how-create-income-document-records.md).
+Puesto que no existe ningún registro de documento entrante para el archivo, se creará automáticamente un nuevo registro en la página **Documentos entrantes** cuando reciba el documento electrónico resultante desde el servicio OCR. Para obtener más información, vea [Crear registros de documentos entrantes](across-how-create-income-document-records.md).
 
 > [!NOTE]  
 >   Si trabaja con una tableta o un teléfono, puede enviar el archivo al servicio OCR en cuanto haya tomado una foto del documento o puede crear un documento entrante directamente. Para obtener más información, vea la sección "Para crear documentos entrantes a partir de una fotografía" en [Crear registro de documentos entrantes](across-how-create-income-document-records.md).
 
 ## <a name="to-receive-the-resulting-electronic-document-from-the-ocr-service"></a>Para recibir el documento electrónico resultante desde el servicio de OCR.
-El documento electrónico que se crea por el servicio de OCR desde un archivo PDF o de imagen, se recibe automáticamente en la ventana **Documentos entrantes** por el movimiento de cola de proyectos que se configura cuando activa el servicio de OCR.
+El documento electrónico que se crea por el servicio de OCR desde un archivo PDF o de imagen, se recibe automáticamente en la página **Documentos entrantes** por el movimiento de cola de proyectos que se configura cuando activa el servicio de OCR.
 
 Si no utiliza una cola de proyectos o desea recibir el documento final de OCR más pronto de lo acordado, puede elegir el botón **Recibir desde el servicio de OCR**. Esto obtendrá los documentos que el servicio de OCR haya completado.
 
@@ -60,7 +60,7 @@ Si no utiliza una cola de proyectos o desea recibir el documento final de OCR m�
 
     La información del documento de OCR muestra tanto el contenido original del archivo PDF o de imagen como los valores del archivo de OCR resultantes.
 3. Revise los distintos valores de campo y edite o introduzca valores manualmente en los campos donde el servicio de OCR se ha marcado como no seguro.
-4. Elija el botón **Aceptar**. El proceso de OCR se ha completado y el documento electrónico resultante se ha enviado a la ventana de **Documentos entrantes** en [!INCLUDE[d365fin](includes/d365fin_md.md)], de acuerdo con la programación de las colas de proyecto.
+4. Elija el botón **Aceptar**. El proceso de OCR se ha completado y el documento electrónico resultante se ha enviado a la página **Documentos entrantes** en [!INCLUDE[d365fin](includes/d365fin_md.md)], de acuerdo con la programación de las colas de proyecto.
 5. Repita el paso 4 para que se verifique cualquier otro documento de OCR.
 
 Ahora puede empezar a crear los documentos de registro para los documentos electrónicos recibidos en [!INCLUDE[d365fin](includes/d365fin_md.md)], de forma manual o automática. Para obtener más información, consulte el procedimiento siguiente. También puede conectar el registro del documento entrante nuevo al documento registrado o no registrado existente de forma que el archivo de origen sea fácilmente accesible desde dentro de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, vea [Procesar documentos entrantes](across-process-income-documents.md).
@@ -84,7 +84,7 @@ Para los documentos entrantes, normalmente usa la acción **Asignar texto a cuen
 
 Además de asignarlo a una cuenta de proveedor o a cuentas de contabilidad, también puede asignarlo a una cuenta bancaria. Esto resulta práctico, por ejemplo, en los documentos electrónicos para los gastos que ya se han pagado, donde desea crear una línea de diario general que esté lista para registrarse en una cuenta bancaria.
 
-1. Seleccione la línea de movimiento correspondiente del documento y seleccione la acción **Asignar texto a cuenta**. Se abre la ventana **Asignación de texto a cuenta**.
+1. Seleccione la línea de movimiento correspondiente del documento y seleccione la acción **Asignar texto a cuenta**. Se abre la página **Asignación de texto a cuenta**.
 3. En el campo **Asignación de texto**, introduzca el texto que aparecerá en las facturas de proveedor para el que desee crear documentos de compras o líneas de diario. Puede escribir hasta 50 caracteres.
 4. En el campo **Nº proveedor**, escriba el proveedor para el que se creará el documento de compra o la línea del diario resultante.
 5. En el campo **N.º cta. débito**, escriba la cuenta de tipo de débito que se insertará en el documento de compra resultante o en la línea del diario de la cuenta.
@@ -96,10 +96,10 @@ Además de asignarlo a una cuenta de proveedor o a cuentas de contabilidad, tamb
 7. Repita los pasos 2 a 5 para todo el texto de los documentos entrantes para los que desea crear documentos automáticamente.
 
 ## <a name="to-handle-errors-when-receiving-electronic-documents"></a>Para gestionar errores al recibir documentos electrónicos
-1. En la ventana **Documentos entrantes**, seleccione la línea de un documento entrante recibido del servicio OCR que contenga errores. Está indicado en el Valor de error del campo **Estado OCR**.
-2. Seleccione la acción **Editar** para abrir la ventana de **Documento entrante**.
+1. En la página **Documentos entrantes**, seleccione la línea de un documento entrante recibido del servicio OCR que contenga errores. Está indicado en el Valor de error del campo **Estado OCR**.
+2. Seleccione la acción **Editar** para abrir la página **Documento entrante**.
 3. En la ficha desplegable **Errores y advertencias**, seleccione el mensaje y, a continuación, elija la acción **Abrir registro relacionado**.
-4. Se abrirá la ventana que contiene los datos incorrectos o que faltan, como una ficha de proveedor en la que falte un valor de campo.
+4. Se abrirá la página que contiene los datos incorrectos o que faltan, como una ficha de proveedor en la que falte un valor de campo.
 5. Corrija el error o los errores tal como se describe en cada mensaje de error.
 6. Continúe para procesar el documento electrónico entrante volviendo a seleccionar la acción **Crear manualmente**.
 7. Repita los pasos del 5 al 6 para los errores pendientes hasta que el documento electrónico se pueda recibir correctamente.
@@ -107,17 +107,17 @@ Además de asignarlo a una cuenta de proveedor o a cuentas de contabilidad, tamb
 ## <a name="to-train-the-ocr-service-to-avoid-errors"></a>Para preparar al servicio OCR para evitar errores
 Como el OCR se basa en el reconocimiento óptico, es probable que el servicio de OCR interprete de forma incorrecta algunos caracteres del PDF o de los archivos de imagen la primera vez que procese documentos de un determinado proveedor, por ejemplo. Puede que no interprete el logotipo de la compañía como el nombre del proveedor o que pueda malinterpretar la cantidad total de un recibo de gastos debido a su diseño. Para evitar que sigan ocurriendo este tipo de errores, puedes corregir los datos recibidos por el servicio de OCR y después enviar comentarios al servicio.
 
-La ventana **Corrección de datos de OCR** que abrió desde la ventana **Documentos entrantes**, muestra los campos de la ficha desplegable **Información financiera** en dos columnas, una con los datos editables del OCR y la otra con los datos de solo lectura. Cuando selecciona el botón **Enviar comentarios sobre OCR** se envía el contenido de la ventana **Corrección de datos de OCR** al servicio de OCR. La próxima vez que el servicio procese PDF o archivos de imagen que contengan los datos en cuestión, se incorporarán tus correcciones para evitar los mismos errores.
+La página **Corrección de datos de OCR** que abrió desde la página **Documentos entrantes**, muestra los campos de la ficha desplegable **Información financiera** en dos columnas, una con los datos editables del OCR y la otra con los datos de solo lectura. Cuando selecciona el botón **Enviar comentarios sobre OCR** se envía el contenido de la página **Corrección de datos de OCR** al servicio de OCR. La próxima vez que el servicio procese PDF o archivos de imagen que contengan los datos en cuestión, se incorporarán tus correcciones para evitar los mismos errores.
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Documentos entrantes** y luego elija el enlace relacionado.
 2. Abra un registro de documentos entrantes que contenga los datos recibidos del servicio OCR que desea corregir.
-3. En la ventana **Documentos entrantes**, seleccione la acción **Corregir datos de OCR**.
-4. En la ventana **Corrección de datos de OCR**, sobrescriba los datos en la columna editable para cada campo que tenga un valor incorrecto.
-5. Para deshacer las correcciones que se hayan realizado desde que se abrió la ventana **Corrección de datos de OCR**, seleccione la acción **Restablecer datos de OCR**.
+3. En la página **Documentos entrantes**, seleccione la acción **Corregir datos de OCR**.
+4. En la página **Corrección de datos de OCR**, sobrescriba los datos en la columna editable para cada campo que tenga un valor incorrecto.
+5. Para deshacer las correcciones que se hayan realizado desde que se abrió la página **Corrección de datos de OCR**, seleccione la acción **Restablecer datos de OCR**.
 6. Para enviar las correcciones al servicio OCR, seleccione la acción **Enviar comentarios sobre OCR**.
-7. Para guardar las correcciones, cierre la ventana **Corrección de datos de OCR**.
+7. Para guardar las correcciones, cierre la página **Corrección de datos de OCR**.
 
-Los campos de la ficha desplegable **Información financiera** en la ventana **Documento entrante** se actualizan con los valores nuevos que introdujo en el paso 4.
+Los campos de la ficha desplegable **Información financiera** en la página **Documento entrante** se actualizan con los valores nuevos que introdujo en el paso 4.
 
 ## <a name="see-also"></a>Consulte también
 [Procesar documentos entrantes](across-process-income-documents.md)  

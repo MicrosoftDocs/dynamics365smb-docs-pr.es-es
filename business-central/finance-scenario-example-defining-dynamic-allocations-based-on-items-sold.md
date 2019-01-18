@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: 
 ms.date: 10/01/2018
 ms.author: sgroespe
+redirect_url: finance-define-and-allocate-costs
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 85d58264b14d191389bdf23a792dff7ad30bf9c3
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3103583c9781c283479c5f66e90f0e875faf46cc
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="scenario-example-defining-dynamic-allocations-based-on-items-sold"></a>Ejemplo: definición de asignaciones dinámicas basándose en productos vendidos
@@ -28,7 +29,7 @@ Este tema muestra un ejemplo de cómo definir asignaciones mediante el método d
 ## <a name="to-define-dynamic-allocations-based-on-items-sold-in-the-previous-year"></a>Para definir las asignaciones dinámicas basándose en los productos vendidos el año anterior  
 
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Asignaciones de costes** y luego elija el enlace relacionado.  
-2.  En la ventana **Asignación de costes**, elija la acción **Nuevo**.  
+2.  En la página **Asignación costes**, elija la acción **Nuevo**.  
 3.  En el campo **ID**, presione Entrar o escriba un Id.  
 4.  En el campo **Nivel**, introduzca **1**.  
 5.  Especifique las fechas del período en los campos **Válido desde** y **Válido hasta**.  
@@ -46,9 +47,7 @@ Este tema muestra un ejemplo de cómo definir asignaciones mediante el método d
     >  [!INCLUDE[d365fin](includes/d365fin_md.md)] utiliza las cifras de ventas de ejercicios anteriores para calcular un reparto de 1596,50 DL con el 100 por ciento para los paquetes de EQUIPO TI. Esto significa que todos los productos vendidos el año anterior se asignarán al EQUIPO TI del objeto de coste.  
 
 ## <a name="see-also"></a>Consulte también  
- [Configuración de filtros para las bases de la asignación dinámica](finance-setting-filters-for-dynamic-allocation-bases.md)   
- [Configurar origen de asignación y destinos](finance-how-to-set-up-allocation-source-and-targets.md)   
- [Definición y asignación de costes](finance-define-and-allocate-costs.md)   
- [Terminología en contabilidad de costes](finance-terminology-in-cost-accounting.md)   
- [Acerca de la contabilidad de costes](finance-about-cost-accounting.md)
+[Definición y asignación de costes](finance-define-and-allocate-costs.md)  
+[Terminología en contabilidad de costes](finance-terminology-in-cost-accounting.md)   
+[Acerca de la contabilidad de costes](finance-about-cost-accounting.md)
 

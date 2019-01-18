@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 90d25c9c5c5687109387c548a273f4457691e151
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5fd4bedcef6fcec79b1b2c8744c7c08d8170d97e
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Detalles de diseño: Disponibilidad en el almacén
@@ -32,7 +32,7 @@ El sistema debe mantener un control constante de la disponibilidad de productos 
 ## <a name="quantity-available-to-pick"></a>Cantidad disponible para picking  
  Si, por ejemplo, el algoritmo de selección no tiene en cuenta las cantidades del producto que están reservadas para un envío de pedido de venta pendiente, entonces los productos se pueden seleccionar para otro pedido de venta que se envíe antes, lo que impide satisfacer las primeras ventas. Para evitar esta situación, el algoritmo de picking resta las cantidades que están reservadas para otros documentos de salida, las cantidades de los documentos de picking existentes y las cantidades de las que se realiza el picking pero aún no se han enviado o consumido.  
 
- El resultado se muestra en el campo **Cdad. a picking disponible** en la ventana **Hoja de trabajo de picking**, donde el campo se calcula dinámicamente. El valor también se calcula cuando los usuarios crean los picking de almacén directamente para los documentos de salida. Dichos documentos de salida podrían ser pedidos de venta, consumo de producción o transferencias de salida, donde el resultado se refleja en los campos de cantidad relacionados, **Cdad. a manipular**.  
+ El resultado se muestra en el campo **Cdad. a picking disponible** en la página **Hoja de trabajo de picking**, donde el campo se calcula dinámicamente. El valor también se calcula cuando los usuarios crean los picking de almacén directamente para los documentos de salida. Dichos documentos de salida podrían ser pedidos de venta, consumo de producción o transferencias de salida, donde el resultado se refleja en los campos de cantidad relacionados, **Cdad. a manipular**.  
 
 > [!NOTE]  
 >  En relación con la prioridad de las reservas, la cantidad que reservar se resta de la cantidad disponible para seleccionar. Por ejemplo, si la cantidad disponible en las ubicaciones de selección es 5 unidades, pero hay 100 unidades en ubicaciones de colocación, cuando se intente reservar más de 5 unidades para otro pedido, aparecerá un mensaje de error, ya que la cantidad adicional debe estar disponible en ubicaciones de selección.  
@@ -58,9 +58,9 @@ El sistema debe mantener un control constante de la disponibilidad de productos 
 -   Cantidad en ubicaciones para ensamblado  
 -   Cantidad en ubicaciones de ajuste  
 
- El resultado se muestra en el campo**Cantidad total disponible** en la ventana **Reservas**.  
+ El resultado se muestra en el campo**Cantidad total disponible** en la página **Reservas**.  
 
- En una línea de reserva, la cantidad que no se puede reservar, porque está asignada en el almacén, se muestra en el campo **Cant. asignada en Almacén** de la ventana **Reservas**.  
+ En una línea de reserva, la cantidad que no se puede reservar, porque está asignada en el almacén, se muestra en el campo **Cant. asignada en Almacén** de la página **Reservas**.  
 
 ### <a name="calculating-the-quantity-available-to-reserve"></a>Cálculo de la cantidad disponible para reservar  
  La cantidad disponible para reservar se calcula de la manera siguiente:  

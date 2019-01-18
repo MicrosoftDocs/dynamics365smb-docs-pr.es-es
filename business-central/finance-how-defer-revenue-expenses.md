@@ -13,10 +13,10 @@ ms.search.keywords: postpone
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2e7bb4a1e4dff97167c7648d5b1c4c8250d6819b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9a21f4e54dc5afd8144d0990a9f9bcc30401a82c
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="defer-revenues-and-expenses"></a>Fraccionar ingresos y gastos
@@ -36,12 +36,12 @@ Para ambos tipos de fraccionamiento seleccione **Balance** en el campo **Tipo** 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Plantillas de fraccionamiento** y luego elija el enlace relacionado.
 2. Seleccione la acción **Nuevo**.
 3. Rellene los campos según sea necesario.
-4. En el campo **Método de calc.**, especifique cómo se calcula el campo **Importe** para cada periodo de la ventana **Previsión fraccionamiento**. Puede elegir entre las opciones siguientes:
+4. En el campo **Método de calc.**, especifique cómo se calcula el campo **Importe** para cada periodo de la página **Previsión fraccionamiento**. Puede elegir entre las opciones siguientes:
 
    * **Lineal**: los importes periódicos fraccionados se calculan según el número de periodos, distribuidos según la duración del periodo.
    * **Igual por periodo**: los importes periódicos fraccionados se calculan según el número de periodos, distribuidos equitativamente en los periodos.
    * **Días por periodo**: los importes periódicos fraccionados se calculan según el número de días en el periodo.
-   * **Definido por el usuario**: no se calculan los importes periódicos de fraccionamiento. Debe rellenar manualmente el campo **Importe** para cada periodo de la ventana Previsión fraccionamiento. Para obtener más información, consulte la sección "Para cambiar una previsión de fraccionamiento de una factura de venta".
+   * **Definido por el usuario**: no se calculan los importes periódicos de fraccionamiento. Debe rellenar manualmente el campo **Importe** para cada periodo de la página Previsión fraccionamiento. Para obtener más información, consulte la sección "Para cambiar una previsión de fraccionamiento de una factura de venta".
 5. En el campo **Desc. del período**, especifique una descripción que se mostrará en los movimientos para el registro de fraccionamiento. Puede introducir los siguientes códigos de marcador de posición para valores habituales, que se insertarán automáticamente cuando se muestre la descripción del periodo.
 
    * %1 = el número de día de la fecha de registro del periodo
@@ -67,7 +67,7 @@ Ejemplo: la fecha de registro es 06/02/2016. Si introduce "Gastos fraccionados p
 
     Observe que tan pronto como se introduce el producto (recurso o cuenta de contabilidad) de la línea de factura, el campo **Código de fraccionamiento** se rellena con el código de la plantilla de fraccionamiento asignada.
 3. Elija la acción **Previsión fraccionamiento**.
-4. En la ventana **Previsión fraccionamiento**, cambie la configuración de la cabecera o los valores de las líneas, por ejemplo, para fraccionar el importe en un periodo contable adicional.
+4. En la página **Previsión fraccionamiento**, cambie la configuración de la cabecera o los valores de las líneas, por ejemplo, para fraccionar el importe en un periodo contable adicional.
 5. Elija la acción **Calcular previsión**.
 6. Elija el botón **Aceptar**. La previsión de fraccionamiento se actualiza para la factura de venta. La plantilla de fraccionamiento relacionada no se cambia.
 
@@ -75,8 +75,8 @@ Ejemplo: la fecha de registro es 06/02/2016. Si introduce "Gastos fraccionados p
 > [!NOTE]  
 >   Los pasos de este procedimiento son los mismos que al obtener una vista previa de cómo se registran los fraccionamientos de gastos.
 
-1. En la ventana **Factura de ventas**, elija la acción **Vista previa de registro**.
-2. En la ventana **Vista previa de registro**, elija la acción **Mov. contabilidad** y, a continuación, elija la acción **Mostrar movimientos relacionados**.
+1. En la página **Factura de ventas**, elija la acción **Vista previa de registro**.
+2. En la página **Vista previa de registro**, elija la acción **Mov. contabilidad** y, a continuación, elija la acción **Mostrar movimientos relacionados**.
 
 Los movimientos de contabilidad que se van a registrar en la cuenta de fraccionamiento especificada, por ejemplo, Ingresos anticipados, son indican mediante la descripción que ha introducido en el campo **Desc. del período** de la plantilla de fraccionamiento, por ejemplo, "Gastos fraccionados para febrero de 2016".
 
@@ -85,7 +85,7 @@ Los movimientos de contabilidad que se van a registrar en la cuenta de fracciona
 >   Los pasos de este procedimiento son los mismos que al revisar el informe Resumen de fraccionamientos de compras.
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Resumen de fraccionamientos de ventas** y luego elija el enlace relacionado.
-2. En la ventana **Resumen de fraccionamientos de ventas**, en el campo **Saldo a partir de**, introduzca la fecha hasta la que desea ver ingresos fraccionados.
+2. En la página **Resumen de fraccionamientos de ventas**, en el campo **Saldo a partir de**, introduzca la fecha hasta la que desea ver ingresos fraccionados.
 3. Haga clic en el botón **Vista previa**.
 
 ## <a name="see-also"></a>Consulte también

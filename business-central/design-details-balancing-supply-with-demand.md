@@ -14,10 +14,10 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 51555bbfbd7fec6ca46bc1b2e6b02382288a41bc
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 037ba35395ba84d4f943b0a45a7fb43c24b34385
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-balancing-supply-with-demand"></a>Detalles de diseño: Equilibrio de aprovisionamiento con demanda
@@ -59,7 +59,7 @@ En general, todo el aprovisionamiento tiene una flexibilidad de planificación l
 
     -   Representa el inventario (siempre en el día cero).  
     -   Tiene una directiva pedido a pedido vinculada a otra demanda.  
-    -   Se encuentra fuera de la ventana de reprogramación definida por el ciclo.  
+    -   Se encuentra fuera de la página de reprogramación definida por el ciclo.  
     -   Hay un suministro más aproximado que se podría usar.  
     -   Por otro lado, el usuario puede decidir no reprogramar porque:  
     -   El pedido de suministro ya se ha vinculado a otra demanda en una fecha anterior.  
@@ -68,7 +68,7 @@ En general, todo el aprovisionamiento tiene una flexibilidad de planificación l
 -   **Reprogramar dentro**: fecha de un pedido de suministro existente que se puede incluir en la programación, excepto con las condiciones siguientes:  
 
     -   Está vinculada directamente a otra demanda.  
-    -   Se encuentra fuera de la ventana de reprogramación definida por el ciclo.  
+    -   Se encuentra fuera de la página de reprogramación definida por el ciclo.  
 
 > [!NOTE]  
 >  Al planificar un producto con un punto de pedido, siempre se puede programar el pedido de suministro si es necesario. Esto es habitual en los pedidos de suministro con programación anticipada que se activan mediante un punto de pedido.  

@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 1a1db22bc990fc6438a11515f87f930be1eff252
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 81b23fd28426d5241ce24b2a3bd40a5b3ec3379d
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="transfer-split-or-combine-fixed-assets"></a>Permite transferir, dividir o combinar activos fijos
@@ -30,9 +30,9 @@ Puede que necesite transferir un activo dijo a un departamento diferente cuando,
 4. Cree un diario de reclasificación donde el campo **A/F N. º** contenga el activo original, y el campo **A/F N. º nuevo** los nuevos activos fijos que se moverán.  
 5. Seleccione la acción **Reclasificación**.
 
-    Se han creado dos líneas en el diario de activos con la plantilla y sección que ha especificado en la ventana **Config. diario activos** para el libro de amortización especificado. Para obtener más información, consulte [Configurar amortización de activos fijos](fa-how-setup-depreciation.md).
+    Se han creado dos líneas en el diario de activos con la plantilla y sección que ha especificado en la página **Config. diario activos** para el libro de amortización especificado. Para obtener más información, consulte [Configurar amortización de activos fijos](fa-how-setup-depreciation.md).
 6. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diarios generales A/F** y luego elija el enlace relacionado.    
-7. En la ventana **A/F diario general**, seleccione la acción **Registrar** para registrar la reclasificación que se ha realizado en los pasos 4 y 5.
+7. En la página **A/F diario general**, seleccione la acción **Registrar** para registrar la reclasificación que se ha realizado en los pasos 4 y 5.
 
 Si registró el coste de un activo, puede utilizar el diario de reclasificación de activos fijos para dividir el coste entre varios activos.  
 
@@ -48,9 +48,9 @@ Puede dividir un activo en varios, por ejemplo, cuando necesita distribuir un ac
 7. En ambas líneas, seleccione las casillas de verificación **Coste reclasif.** y **Amortización reclasif**.   
 8. Seleccione la acción **Reclasificación**.
 
-    Se han creado dos líneas en el diario de activos con la plantilla y sección que ha especificado en la ventana **Config. diario activos** para el libro de amortización especificado. Para obtener más información, consulte [Configurar amortización de activos fijos](fa-how-setup-depreciation.md).    
+    Se han creado dos líneas en el diario de activos con la plantilla y sección que ha especificado en la página **Config. diario activos** para el libro de amortización especificado. Para obtener más información, consulte [Configurar amortización de activos fijos](fa-how-setup-depreciation.md).    
 9. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diarios generales A/F** y luego elija el enlace relacionado.
-10. En la ventana **A/F diario general**, seleccione la acción **Registrar** para registrar la reclasificación que se ha realizado en los pasos del 4 al 8.
+10. En la página **A/F diario general**, seleccione la acción **Registrar** para registrar la reclasificación que se ha realizado en los pasos del 4 al 8.
 
 ## <a name="to-combine-two-fixed-assets-into-one"></a>Para combinar dos activos fijos en uno
 Puede combinar varios activos en uno, por ejemplo, cuando mueve los activos fijos distribuidos a un solo departamento. Si ha registrado costes y amortización en los activos que se moverán, estos valores se combinarán con el activo fijo simple.
@@ -61,9 +61,9 @@ Puede combinar varios activos en uno, por ejemplo, cuando mueve los activos fijo
 4. Seleccione las casillas de verificación **Coste reclasif.** y **Amortización reclasif**.
 5. En la pestaña **Acciones**, elija **Reclasificar**.
 
-    Se han creado dos líneas en el diario de activos con la plantilla y sección que ha especificado en la ventana **Config. diario activos** para el libro de amortización especificado. Para obtener más información, consulte [Configurar amortización de activos fijos](fa-how-setup-depreciation.md).   
+    Se han creado dos líneas en el diario de activos con la plantilla y sección que ha especificado en la página **Config. diario activos** para el libro de amortización especificado. Para obtener más información, consulte [Configurar amortización de activos fijos](fa-how-setup-depreciation.md).   
 6. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diarios generales A/F** y luego elija el enlace relacionado.
-7. En la ventana **A/F diario general**, seleccione la acción **Registrar** para registrar la reclasificación que se ha realizado en los pasos del 2 al 5.
+7. En la página **A/F diario general**, seleccione la acción **Registrar** para registrar la reclasificación que se ha realizado en los pasos del 2 al 5.
 
 ## <a name="to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification"></a>Para ver los cambios en los valores del libro de amortización debido a la reclasificación del activo
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Valor contable A/F 02** y luego elija el enlace relacionado.

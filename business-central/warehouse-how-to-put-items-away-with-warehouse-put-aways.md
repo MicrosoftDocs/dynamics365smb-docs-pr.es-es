@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: dea237fa837b34e565d9df6156ae6bbfb8508ee6
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 53bf1355c9f7b1d5727e6e63f89a7d2db56cfc48
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="put-items-away-with-warehouse-put-aways"></a>Ubicar productos con ubic. exist. almacén
@@ -72,7 +72,7 @@ El ranking de ubicación se tiene en cuenta cuando varias ubicaciones cumplen lo
     Si el campo **Estado documento** está en blanco, la recepción aún no se ha ubicado. En caso contrario, el campo indica la recepción se ha ubicado parcial o completamente.  
 
 4.  Si el albarán se ha ubicado parcialmente o no se ha ubicado, elija la acción **Crear ubicación**.  
-5.  Rellene la ventana del proceso para crear la ubicación como necesite y a continuación seleccione **Aceptar**.   
+5.  Rellene la página del proceso para crear la ubicación como necesite y a continuación seleccione **Aceptar**.   
 
 ## <a name="see-also"></a>Consulte también  
 [Gestión almacén](warehouse-manage-warehouse.md)  

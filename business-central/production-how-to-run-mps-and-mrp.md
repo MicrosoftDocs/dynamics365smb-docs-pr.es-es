@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 4fe4c7eaf412bd6219b51a06f989c5a8508c4410
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3cb3c77600ef8e83612bb144f1ddfc3abed0eff1
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Ejecutar la planificación completa, MPS o MRP
@@ -27,7 +27,7 @@ Los términos "ejecutar la hoja de planificación" o "ejecutar MRP" hacen refere
 
 Los algoritmos de planificación usados tanto para MPS como para MRP son idénticos. Los algoritmos de planificación relativos a saldos netos reutilizan órdenes de reposición existentes y mensajes de acción. El proceso del sistema de planificación examina lo que se necesita o se va a necesitar (la demanda) y lo que hay físicamente o se espera que haya (el suministro). Cuando estas cantidades se comparan, [!INCLUDE[d365fin](includes/d365fin_md.md)] proporciona mensajes de acción. Los mensajes de acción son sugerencias para crear un pedido nuevo, para cambiar un pedido (la cantidad o la fecha) o para cancelar un pedido ya solicitado. El término "pedido" incluye pedidos de compra, pedido de ensamblado, pedidos de producción y pedidos de transferencia.
 
-Los vínculos creados por el motor de planificación entre la demanda y el abastecimiento correspondiente se puede seguir en la ventana **Seguimiento pedido**. Para obtener más información, vea [Seguimiento de relaciones entre demanda y suministro](production-how-track-demand-supply.md).   
+Los vínculos creados por el motor de planificación entre la demanda y el abastecimiento correspondiente se puede seguir en la página **Seguimiento pedido**. Para obtener más información, vea [Seguimiento de relaciones entre demanda y suministro](production-how-track-demand-supply.md).   
 
 Para obtener buenos resultados en la planificación, se deben haber configurado correctamente las siguientes opciones: fichas de producto, L.M. de ensamblado. L.M. de producción y rutas.  
 
@@ -48,17 +48,17 @@ Con cada método previsto, [!INCLUDE[d365fin](includes/d365fin_md.md)] genera la
 
 ## <a name="to-calculate-the-planning-worksheet"></a>Para calcular la hoja de planificación  
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hojas planificación** y luego elija el enlace relacionado.  
-2.  Seleccione la acción **Calcular planificación regenerativa** para abrir la ventana **Calcular plan**.  
+2.  Seleccione la acción **Calcular planificación regenerativa** para abrir la página **Calcular plan**.  
 3.  En la ficha desplegable **Opciones**, rellene los campos tal como se describe en la tabla siguiente.  
 
     |Campo|Descripción|  
     |---------------------------------|---------------------------------------|  
     |**MPS**|Seleccione para iniciar el cálculo de un programa de producción maestro. En la ejecución se tienen en cuenta los productos con pedidos de venta abiertos o previsiones de demanda.|  
-    |**MRP**|Seleccione para iniciar el cálculo de la planificación de requisitos de material. En esta ejecución se tienen en cuenta los productos con necesidades dependientes. Normalmente, MPS y MRP se ejecutan al mismo tiempo. Para ejecutar MPS y MRP al mismo tiempo, el campo de **Cálculo agrupado MPS/MRP** debe estar seleccionado en la ficha desplegable **Planificación** en la ventana de **Configuración fabricación**.|  
+    |**MRP**|Seleccione para iniciar el cálculo de la planificación de requisitos de material. En esta ejecución se tienen en cuenta los productos con necesidades dependientes. Normalmente, MPS y MRP se ejecutan al mismo tiempo. Para ejecutar MPS y MRP al mismo tiempo, el campo de **Cálculo agrupado MPS/MRP** debe estar seleccionado en la ficha desplegable **Planificación** en la página **Configuración fabricación**.|  
     |**Fecha inicial**|Esta fecha se utiliza para evaluar la disponibilidad de existencias. Si la cantidad física de un producto está por debajo del punto de pedido, el programa crea un pedido de reposición en el futuro, a partir de esta fecha. Si un producto está por debajo del stock de seguridad (a la fecha inicial), el sistema programa un pedido de reposición para la fecha inicial de planificación.|  
     |**Fecha final**|Es la fecha final del horizonte de la planificación. Con posterioridad a esta fecha no se tienen en cuenta ni la demanda ni el aprovisionamiento. Si el ciclo de reaprovisionamiento de un producto va más allá de la fecha final, el horizonte de planificación efectivo equivale a fecha pedido + ciclo reaprovisionamiento.<br /><br /> El horizonte de planificación se refiere a la duración del plan. Si el horizonte es demasiado breve, los productos con un plazo más largo no se piden a tiempo. Si es demasiado largo, se invierte demasiado tiempo en revisar y procesar la información y es probable que cambie antes de lo necesario. Se puede definir un horizonte de planificación para la producción y otro más largo para las compras, pero no es obligatorio. Se debe definir un horizonte de planificación para compras y producción que cubra el plazo acumulado de los componentes.|  
-    |**Parar y mostrar primer error**|Seleccione si desea que se detenga la ejecución de la planificación tan pronto como encuentre un error. Además, se mostrará un mensaje con información sobre el primer error. Si hay algún error, sólo se mostrarán en la hoja de planificación las líneas de planificación correctas realizadas antes de que se produjera el error. Si no selecciona este campo, el trabajo por lotes **Calcular plan** continuará hasta finalizar, es decir, los errores no lo detendrán. Si hay uno o más errores, se mostrará un mensaje al finalizar el proceso donde se informa el número de productos afectados. A continuación, se abrirá la ventana **Registro error planificación**, con más información sobre el error y vínculos a las fichas de productos afectados.|  
-    |**Usar previsión**|Seleccione la previsión que se debe incluir como demanda cuando ejecute el trabajo por lotes de planificación. La previsión predeterminada se configura en la ficha desplegable **Planificación** en la ventana **Configuración fabricación**.|  
+    |**Parar y mostrar primer error**|Seleccione si desea que se detenga la ejecución de la planificación tan pronto como encuentre un error. Además, se mostrará un mensaje con información sobre el primer error. Si hay algún error, sólo se mostrarán en la hoja de planificación las líneas de planificación correctas realizadas antes de que se produjera el error. Si no selecciona este campo, el trabajo por lotes **Calcular plan** continuará hasta finalizar, es decir, los errores no lo detendrán. Si hay uno o más errores, se mostrará un mensaje al finalizar el proceso donde se informa el número de productos afectados. A continuación, se abrirá la página **Registro error planificación**, con más información sobre el error y vínculos a las fichas de los productos afectados.|  
+    |**Usar previsión**|Seleccione la previsión que se debe incluir como demanda cuando ejecute el trabajo por lotes de planificación. La previsión predeterminada se configura en la ficha desplegable **Planificación** de la página **Configuración fabricación**.|  
     |**No incluir en la previsión fechas anteriores al**|Defina qué cantidad de la previsión seleccionada se debe incluir en la ejecución de la planificación; para ello, introduzca una fecha antes de la cual no se incluye la demanda prevista, con lo que se excluye la información obsoleta.|  
     |**Respetar parámetros de planificación para las advertencias de excepción**|Este campo se encuentra seleccionado de forma predeterminada.<br /><br /> El suministro de las líneas de planificación con advertencias no se modifica normalmente según los parámetros de planificación. En su lugar, el sistema de planificación sugiere solo un suministro para satisfacer la cantidad exacta de demanda. Sin embargo, puede definir ciertos parámetros de planificación para que se respeten las líneas de planificación con determinadas advertencias.<br /><br />|  
 
@@ -66,7 +66,7 @@ Con cada método previsto, [!INCLUDE[d365fin](includes/d365fin_md.md)] genera la
 5.  Elija el botón **Aceptar**. El proceso se ejecuta y, a continuación, la hoja de planificación se rellena con las líneas de planificación.  
 
 ## <a name="to-perform-action-messages"></a>Para ejecutar los mensajes de acción  
-1.  En la ventana **Hoja de planificación**, elija la acción **Ejecutar mensajes de acción**.  
+1.  En la página **Hoja de planificación**, elija la acción **Ejecutar mensajes de acción**.  
 2.  En la ficha desplegable **Opciones**, especifique cómo crear suministros. Rellene los campos tal como se describe en la tabla siguiente.  
 
     |Campo|Descripción|  

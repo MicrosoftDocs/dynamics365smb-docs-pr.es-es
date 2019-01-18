@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d16e9405cea366e11ee6319b06052fe0a2b76676
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c6f298a12cda4e06aeaa28eb3143b7a22ff12d10
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="about-planning-functionality"></a>Sobre la funcionalidad de la planificación
@@ -73,7 +73,7 @@ Existen los modificadores de pedido en la ficha del producto o de la UA:
 -   Cantidad máxima pedido  
 -   Múltiplos de pedido  
 
-Los campos de configuración de planificación global de la ventana **Configuración de fabricación** son:  
+Los campos de configuración de planificación global de la página **Configuración de fabricación** son:  
 
 -   Cód. niv. más bajo dinámico  
 -   Previsión de la demanda actual  
@@ -95,7 +95,7 @@ Esto especifica si el sistema de planificación tiene en cuenta el suministro re
 Si el campo contiene la opción **Ilimitada**, el sistema de planificación incluye la línea cuando calcula mensajes de acción. Si en el campo está especificada la opción **Ninguna**, la línea es firme e invariable, y el sistema de planificación no la incluye al calcular los mensajes de acción.
 
 ### <a name="warning"></a>Advertencia
-El campo de información **Advertencia**, la ventana **Hoja de planificación** le indica las líneas de planificación creadas para una situación inusual, con un texto que el usuario puede elegir para leer información adicional. Existen los siguientes tipos de advertencia:
+El campo de información **Advertencia**, la página **Hoja de planificación** le indica las líneas de planificación creadas para una situación inusual, con un texto que el usuario puede elegir para leer información adicional. Existen los siguientes tipos de advertencia:
 
 - Emergencia
 - Excepción

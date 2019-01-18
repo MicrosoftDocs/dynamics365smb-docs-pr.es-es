@@ -11,17 +11,17 @@ ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3df0235b477d2dc1085ed0b2a622d0e1b96c8a78
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 549f66a584e7994cba6d7b99ee25a04c8cb8960b
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
 # <a name="keyboard-shortcuts"></a>Métodos abreviados de teclado
-Este producto proporciona un resumen de algunas de las combinaciones de métodos abreviados que se pueden utilizar cuando trabaje con [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
+Este producto proporciona un resumen de algunas de las combinaciones de métodos abreviados que se pueden utilizar cuando trabaje con [!INCLUDE[prodshort](includes/prodshort.md)].
 
-[Hoja de referencia de métodos abreviados de teclado para imprimir](keyboard-shortcuts-cheatsheet.md)
+[Referencia de métodos abreviados de teclado para imprimir](keyboard-shortcuts-cheatsheet.md)
 
 ## <a name="overview"></a>Panorama
 Los métodos abreviados de teclado ayudan a la accesibilidad y pueden hacer que sea más fácil y más eficiente navegar por diferentes áreas y elementos en una página.
@@ -35,14 +35,17 @@ La mayoría de los accesos directos son los mismos sin importar si el sistema op
 ##  <a name="Keyboard"></a> Métodos abreviados de teclado generales
 En la tabla siguiente se describen los métodos abreviados de teclado para navegar y acceder a diferentes elementos de una página, como acciones, listas desplegables, búsquedas y más. Para obtener más información sobre los métodos abreviados de teclado para navegar por los registros una vez que ingresa en una lista, consulte la siguiente sección.
 
-|Pulsar estas teclas|Para hacer esto|  
+|Pulsar estas teclas<br />(en macOS)|Para hacer esto|  
 |----------------|-----------|  
-|Alt+Q|Abra el cuadro **Dígame que quiere hacer** que le ayudará a encontrar una página, un informe, una acción en la página actual o un artículo en la documentación.|
+|Alt+Q<br />(Ctrl+Alt+Q)|Abra el cuadro **Dígame que quiere hacer** que le ayudará a encontrar una página, un informe, una acción en la página actual o un artículo en la documentación.|
+|Alt+flecha arriba|Mostrar información sobre herramienta de un campo o encabezado de columna de una tabla. Si el campo contiene errores de validación, pulse "Alt+flecha arriba" para mostrar el error de validación. Pulse "Esc" o "Alt+flecha arriba" para cerrar la información sobre herramienta.|
 |Tab|Mueva el enfoque al control o elemento siguiente de una página, como acciones, botones, campos o encabezados de una lista.|
 |Mayús+Tabulador|Mueva el enfoque al control o elemento anterior de una página, como acciones, botones, campos o encabezados de una lista.|   
 |Entrar|Habilite o acceda al elemento o control que tiene el enfoque.|   
 |Alt+flecha abajo|Abra una lista desplegable o busque un valor de un campo.|    
 |Alt + Flecha hacia la derecha|Vea las transacciones que han dado lugar a un valor calculado de un campo.|  
+|F5|Actualizar los datos en la página actual.|Utilícelo para asegurarse de que los datos de la página estén actualizados con cualquier cambio que otros hayan hecho mientras usted trabaja.|
+|Ctrl+F5|Volver a cargar la aplicación [!INCLUDE[prodshort](includes/prodshort.md)].|Esto es similar a seleccionar actualizar/recargar en el explorador.|
 |Esc|Cierre la página actual o menú desplegable.|
 
 
@@ -126,7 +129,7 @@ Al configurar un campo de fecha, puede introducir la fecha manualmente o abrir u
 |Flecha hacia arriba|Desplazarse hacia arriba por la página.|
 |Flecha hacia la derecha|Desplazarse a la derecha cuando la página se acerca de modo que no está totalmente en la vista. |
 |Flecha izquierda|Desplazarse a la izquierda cuando la página se acerca de modo que no está totalmente en la vista. |
-|Ctrl+0 (cero)<br />(Cmd+0)|Ajusta toda la página a la ventana. |
+|Ctrl+0 (cero)<br />(Cmd+0)|Ajusta toda la página a la página. |
 |Ctrl+Inicio<br />(Cmd+Inicio)|Ir a la primera página del informe.|
 |Ctrl+Fin<br />(Cmd+Inicio)|Ir a la última página del informe.|
 |Av. Pág.<br />(Fn+flecha abajo)|Ir a la página siguiente del informe.|

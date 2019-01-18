@@ -1,6 +1,6 @@
 ---
 title: Crear Rutas | Documentos de Microsoft
-description: "Una ruta contiene los datos maestros que capturan los requisitos del proceso de un producto fabricado específico. Una vez creada la orden de producción para ese producto principal, la ruta controlará la programación de operaciones tal como se representan en la ventana **Ruta orden producción** bajo la orden de producción."
+description: "Una ruta contiene los datos maestros que capturan los requisitos del proceso de un producto fabricado específico. Una vez creada la orden de producción para ese producto principal, la ruta controlará la programación de operaciones tal como se representan en la página **Ruta orden producción** bajo la orden de producción."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0b274e23b03c06c395df6b91033174425cda679b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d6f64c04f6451701bbbac23e82678c5649a7df56
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-routings"></a>Creación de rutas
@@ -24,7 +24,7 @@ Las empresas con procesos de fabricación utilizan las rutas para visualizar y d
 
 La ruta es también la base para la programación del proceso, la programación de la capacidad, la programación de la asignación de los materiales necesarios y los documentos de fabricación.  
 
-En función de la L.M. de producción, las rutas se asignan al producto final de fabricación. Una ruta contiene los datos maestros que capturan los requisitos del proceso de un producto fabricado específico. Una vez creada la orden de producción para ese producto principal, la ruta controlará la programación de operaciones tal como se representan en la ventana **Ruta orden producción** bajo la orden de producción.  
+En función de la L.M. de producción, las rutas se asignan al producto final de fabricación. Una ruta contiene los datos maestros que capturan los requisitos del proceso de un producto fabricado específico. Una vez creada la orden de producción para ese producto principal, la ruta controlará la programación de operaciones tal como se representan en la página **Ruta orden producción** bajo la orden de producción.  
 
 Para poder configurar una ruta, lo siguiente debe existir:  
 
@@ -61,7 +61,7 @@ Para poder configurar una ruta, lo siguiente debe existir:
 ## <a name="to-create-routing-links"></a>Para crear conexiones de ruta
 Puede crear conexiones de ruta para conectar componentes con operaciones específicas de forma de conservar su relación aunque se modifique la L.M. de producción o la ruta. Estas conexiones permiten también dar de baja puntualmente los componentes, es decir, cuando se inicia la operación conectada específica, no cuando se lanza la orden de producción completa. Para obtener más información, consulte [Bajar componentes según la producción de la operación](production-how-to-flush-components-according-to-operation-output.md).  
 
-Otra ventaja importante es que las operaciones y los componentes conectados se muestran en una estructura de proceso lógica cuando utiliza la ventana **Diario de producción** para registrar la salida y el consumo.  
+Otra ventaja importante es que las operaciones y los componentes conectados se muestran en una estructura de proceso lógica cuando utiliza la página **Diario de producción** para registrar la salida y el consumo.  
 
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Rutas** y luego elija el enlace relacionado.  
 2.  Abra la ruta que contiene las operaciones que desea conectar.  
@@ -89,7 +89,7 @@ Otra ventaja importante es que las operaciones y los componentes conectados se m
     > [!NOTE]  
     >  Para activar las conexiones de ruta en una orden de producción existente, debe actualizar la orden de producción. Para obtener más información, consulte [Crear órdenes de producción](production-how-to-create-production-orders.md).  
 
-Los componentes seleccionados se conectarán a las operaciones seleccionadas cuando cree o actualice una orden de producción con la L.M. de producción y ruta en cuestión. Se puede ver en la ventana **Componentes orden producción** bajo la orden de producción y, en esta misma ventana, puede eliminar y agregar los códigos de conexión de ruta definidos cuando lo desee.
+Los componentes seleccionados se conectarán a las operaciones seleccionadas cuando cree o actualice una orden de producción con la L.M. de producción y ruta en cuestión. Se puede ver en la página **Componentes orden producción** bajo la orden de producción y, en esta misma ventana, puede eliminar y agregar los códigos de conexión de ruta definidos cuando lo desee.
 
 ## <a name="to-assign-personnel-tools-and-quality-measures-to-routing-operations"></a>Para asignar personal, herramientas y medidas de calidad a operaciones de ruta.
 Si necesita personal con una cualificación, conocimiento o autorización especial para una operación, puede asignar este tipo de personal a la operación. Además, puede asignar herramientas y los requisitos de calidad a la operación. Este procedimiento describe cómo asignar personal. Los pasos son parecidos para otros tipos de información de la operación.
@@ -97,15 +97,15 @@ Si necesita personal con una cualificación, conocimiento o autorización especi
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Rutas** y luego elija el enlace relacionado.  
 2.  Abra la ruta pertinente.  
 3.  En la ficha desplegable **Líneas**, seleccione la línea que desea procesar y, después, seleccione la acción **Personal**.  
-4.  Rellene los campos de la ventana **Personal ruta**.  
-5.  Elija el botón **Aceptar** para salir de la ventana. Los valores introducidos se copian y asignan a la operación.    
+4.  Rellene los campos de la página **Personal ruta**.  
+5.  Elija el botón **Aceptar** para salir de la página. Los valores introducidos se copian y asignan a la operación.    
 
 ## <a name="to-create-a-new-versions-of-a-routing"></a>Para crear una versión de ruta nueva  
 El principio de versión le permite administrar varias versiones de rutas. La estructura de la versión de ruta se corresponde con la de la ruta, la cual se compone de la cabecera y las líneas de la versión de la ruta. La diferencia básica se define mediante la fecha inicial.  
 
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Rutas** y luego elija el enlace relacionado.  
 2.  Seleccione la ruta a copiar y después seleccione la acción **Versiones**.  
-3. En la ventana **Versiones de rutas**, seleccione la acción **Nuevo**.
+3. En la página **Versiones de rutas**, seleccione la acción **Nuevo**.
 4. Rellene los campos según sea necesario.
 5.  En el campo **Código de versión**, introduzca la identificación única de la versión. Se permite cualquier combinación de letras y números.  
 

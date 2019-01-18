@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ac684ffdb7bc6e9ddefa218e27babb7c9c5bb3ea
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 9708b248eb9e9f8f1f0e14f9b8d9f02ea84767fa
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="calculate-bin-replenishment"></a>Calcular reposición ubicación
@@ -31,7 +31,7 @@ Finalmente, si ha definido sus ubicaciones de almacenamiento masivo con un tipo 
 ## <a name="to-replenish-pick-bins"></a>Para reponer ubicaciones de picking  
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hoja trabajo mov.** y luego elija el enlace relacionado.  
 2.  Elija la acción **Calcular reposición ubicación** para abrir la página de solicitud de informes.  
-3.  Rellene la ventana del proceso para limitar el alcance de las sugerencias de reposición que se calcularán. Por ejemplo, puede que esté preocupado por determinadas zonas, ubicaciones o productos.  
+3.  Rellene la página del proceso para limitar el alcance de las sugerencias de reposición que se calcularán. Por ejemplo, puede que esté preocupado por determinadas zonas, ubicaciones o productos.  
 4.  Elija el botón **Aceptar**. Se crearán líneas para los movimientos de reposición que es necesario realizar según las reglas que se han configurado para las ubicaciones y contenido de ubicaciones, es decir, productos en ubicaciones.  
 5.  Si desea ejecutar todas las sugerencias de reposición, elija la acción **Crear movimiento**. Los empleados pueden encontrar instrucciones en el elemento de menú **Movimientos**, ejecutarlas y registrarlas.  
 6.  Si sólo desea ejecutar algunas sugerencias, elimine las líneas menos importantes y, a continuación, cree un movimiento.  

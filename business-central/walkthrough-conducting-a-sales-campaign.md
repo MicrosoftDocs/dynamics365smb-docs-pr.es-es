@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 72b130e1329b5fd1eee97d2c89b7b70fc606a659
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1922c9c2112006b302851301224818f803d9f4e2
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Tutorial: realización de una campaña de ventas
@@ -65,7 +65,7 @@ Una campaña es un tipo de actividad que implica varios contactos. Una important
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Campañas** y luego elija el enlace relacionado.  
 2.  Seleccione **Nuevo** para crear una nueva campaña. En la ficha de la campaña, pulse Entrar para crear un número de la campaña insertado automáticamente.  
 3.  En el campo **Descripción**, escriba una descripción para la campaña, por ejemplo **Feria de muestras FUTURUS**.  
-4.  Elija el campo **Cód. estado** y seleccione un código de estado de la lista que se abre en la ventana **Estado campaña**.  
+4.  Elija el campo **Cód. estado** y seleccione un código de estado de la lista que se abre en la página **Estado campaña**.  
 5.  Rellene los campos **Fecha inicial** y **Fecha final** de la campaña como corresponda.  
 
 ## <a name="selecting-the-target-audience"></a>Selección del público objetivo  
@@ -83,16 +83,16 @@ Una campaña es un tipo de actividad que implica varios contactos. Una important
 
      Utilice los filtros para añadir los contactos según los criterios que mejor se ajusten a sus propósitos. Por ejemplo, puede elegir filtrar por responsabilidad del cargo de la persona de contacto, la relación empresarial o el sector de la empresa de contacto. Para este tutorial, elija el filtro **Responsabilidad cargo** para seleccionar los contactos.  
 
-4.  En la ventana **Segmento**, seleccione **Añadir contactos** para abrir el filtro **Añadir contactos**.  
+4.  En la página **Segmento**, seleccione **Añadir contactos** para abrir el filtro **Añadir contactos**.  
 5.  En la ficha desplegable **Responsabilidad cargo**, seleccione el filtro **Compra** como **Cód. cargo contacto** y elija el botón **Aceptar**.  
 
-     La ventana **Segmento** contiene ahora una lista de contactos basada en los filtros que especifique. En la ficha desplegable **General**, en el campo de **Nº líneas**, puede ver de un vistazo el número de contactos que cumplen estos criterios.  
+     La página **Segmento** contiene ahora una lista de contactos basada en los filtros que especifique. En la ficha desplegable **General**, en el campo de **Nº líneas**, puede ver de un vistazo el número de contactos que cumplen estos criterios.  
 
     > [!NOTE]  
     >  Puede guardar los criterios de segmentación para poder usarlos más adelante.
 
-    1.  En la ventana **Segmento**, elija la acción **Segmento** y, a continuación, elija **Guardar criterio**.  
-    2.  En la ventana **Guardar criterios segmento**, especifique un código para el segmento. En el campo **Descripción**, escriba una descripción de los criterios del segmento.
+    1.  En la página **Segmento**, elija la acción **Segmento** y, a continuación, elija **Guardar criterio**.  
+    2.  En la página **Guardar criterios segmento**, especifique un código para el segmento. En el campo **Descripción**, escriba una descripción de los criterios del segmento.
     3.  Elija el botón **Aceptar**.  
 
 ## <a name="mining-the-data"></a>Extracción de los datos  
@@ -100,15 +100,15 @@ Una campaña es un tipo de actividad que implica varios contactos. Una important
 
 ### <a name="to-remove-contacts-from-the-segment"></a>Para eliminar los contactos del segmento  
 
-1.  En la ventana **Segmento**, haga clic en **Contactos** y, finalmente, haga clic en **Reducir contactos** para abrir la ventana **Eliminar contactos - Reducir**.  
+1.  En la página **Segmento**, haga clic en **Contactos** y, finalmente, haga clic en **Reducir contactos** para abrir la página **Eliminar contactos - Reducir**.  
 2.  En la ficha desplegable **Relación negocio**, seleccione el filtro **REF** como **Cód. relación negocio** y elija el botón **Aceptar**.  
 
-     La ventana **Segmento** contiene ahora una lista reducida de contactos y, en el campo **Nº líneas**, puede ver el número de contactos que satisface ahora estos nuevos criterios.  
+     La página **Segmento** contiene ahora una lista reducida de contactos y, en el campo **Nº líneas**, puede ver el número de contactos que satisface ahora estos nuevos criterios.  
 
     > [!NOTE]  
     >  Si tuviera que deshacer esta eliminación de un grupo de contactos, puede hacerlo con la función **Volver**. En otras palabras, puede deshacer la última segmentación.  
     >   
-    >  En la ventana **Segmento**, elija la acción **Segmento** y, a continuación, elija **Hacia atrás**.  
+    >  En la página **Segmento**, elija la acción **Segmento** y, a continuación, elija **Hacia atrás**.  
     >   
     >  Los contactos que acaba de eliminar se añaden de nuevo a la lista de contactos.  
 
@@ -117,7 +117,7 @@ Una campaña es un tipo de actividad que implica varios contactos. Una important
 
 ### <a name="to-link-a-segment-to-the-campaign"></a>Para vincular un segmento a la campaña  
 
-1.  En la ventana **Segmento** , en la ficha desplegable **Campaña**, elija el campo **Nº campaña** ara seleccionar la campaña a la que desee vincular el segmento, por ejemplo, **CP0001**.  
+1.  En la página **Segmento**, en la ficha desplegable **Campaña**, elija el campo **Nº campaña** ara seleccionar la campaña a la que desee vincular el segmento, por ejemplo, **CP0001**.  
 2.  Dado que este segmento es el objetivo de la campaña, seleccione la casilla de verificación **Objetivo campaña**.  
 
 ## <a name="sending-letters-and-email-messages-to-contacts"></a>Enviar cartas y correos electrónicos a los contactos  
@@ -132,7 +132,7 @@ Una campaña es un tipo de actividad que implica varios contactos. Una important
     > [!NOTE]  
     >  Esta plantilla consta de más de un documento adjunto, cada uno de los cuales está escrito en un idioma distinto. Los idiomas del ejemplo comprenden español e inglés.  
 
-4.  Escoja el campo **Cód. idioma (genérico)** para abrir la ventana **Idiomas interacción segmento**. Seleccione un código de idioma y haga clic en el botón **Aceptar**.  
+4.  Escoja el campo **Cód. idioma (genérico)** para abrir la página **Idiomas interacción segmento**. Seleccione un código de idioma y haga clic en el botón **Aceptar**.  
 5.  Puede mostrar el documento en el idioma seleccionado. Seleccione la acción **Archivo adjunto** y, a continuación **Abrir**.  
 
      Para responder al mensaje que solicita permiso para iniciar Word, elija la opción **Permitir para esta sesión de cliente**.  
@@ -160,7 +160,7 @@ Una campaña es un tipo de actividad que implica varios contactos. Una important
 2.  En el campo **Asunto (Genérico)**, escriba el siguiente texto a modo de ejemplo: **Gracias por visitar la feria de muestras**.  
 3.  En el campo **Tipo correspondencia**, seleccione **Correo electrónico**.  
 4.  Especifique la configuración de idioma, tal como lo hizo en el procedimiento anterior.  
-5.  Seleccione la acción **Log**. Se abre la ventana **Grabar segmento**.  
+5.  Seleccione la acción **Log**. Se abre la página **Grabar segmento**.  
 6.  Seleccione la casilla **Enviar anexos** para enviar los anexos por correo electrónico.  
 7.  Seleccione la casilla **Crea segmento seguimiento**.  
 8.  Elija el botón **Aceptar**.  
@@ -174,12 +174,12 @@ Una campaña es un tipo de actividad que implica varios contactos. Una important
 
 ### <a name="to-register-campaign-responses"></a>Para registrar las respuestas de la campaña  
 
-1.  En la ventana **Segmento**, expanda la ficha desplegable **Interacción**.  
+1.  En la página **Segmento**, expanda la ficha desplegable **Interacción**.  
 2.  Elija el campo de **Cód. plantilla interacción**.  
 
      No existe ninguna plantilla de interacciones para registrar las respuestas a las campañas. En consecuencia, cree una plantilla nueva.  
 
-3.  En la ventana **Plantillas de interacción**, elija la acción **Nuevo**.  
+3.  En la página **Plantillas de interacción**, elija la acción **Nuevo**.  
 4.  En el campo **Código**, escriba **RESP** y, en el campo **Descripción**, escriba **Respuestas de la campaña**.  
 5.  Elija el botón **Aceptar**.  
 6.  Seleccione esta plantilla de interacción en el campo **Cód. plantilla interacción** y confirme el mensaje que pregunta si desea actualizar las líneas de los segmentos que tengan el mismo Cód. plantilla interacción.  
@@ -190,10 +190,10 @@ Una campaña es un tipo de actividad que implica varios contactos. Una important
 9. Seleccione el campo **Respuesta campaña** y confirme el siguiente mensaje.  
 
      Archive el segmento para asegurarse de registrar las interacciones.  
-10. En la ventana **Segmento**, seleccione **Grabar**.  
-11. En la ventana **Archivar segmento**, desactive la casilla de verificación **Envía anexos**, elija el botón **Aceptar** y confirme el mensaje que aparece.  
+10. En la página **Segmento**, seleccione **Grabar**.  
+11. En la página **Archivar segmento**, desactive la casilla de verificación **Envía anexos**, elija el botón **Aceptar** y confirme el mensaje que aparece.  
 
-     Después de archivado el segmento, se crea automáticamente un movimiento para la campaña a fin de registrar esta acción en la ventana **Movs. campaña**.  
+     Después de archivado el segmento, se crea automáticamente un movimiento para la campaña a fin de registrar esta acción en la página **Movs. campaña**.  
 
 ## <a name="see-also"></a>Consulte también  
 [Gestión de relaciones](marketing-relationship-management.md)  

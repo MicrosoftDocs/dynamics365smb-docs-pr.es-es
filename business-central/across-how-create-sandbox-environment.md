@@ -11,10 +11,10 @@ ms.search.keywords: sandbox, demo, develop
 ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3110168e904cc6944a5f05a3a4cc7325425d3fe9
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6a13eca9f8ad83b82e4b281c9564bdfd0c66f4fb
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
@@ -40,7 +40,7 @@ Debe tener una suscripción a [!INCLUDE[d365fin](includes/d365fin_md.md)] para p
 6. En la parte superior del Área de trabajo, aparece una notificación para informarle de que se trata de un entorno aislado. También puede ver el tipo del entorno en la barra de título del cliente.
 ![Notificaciones del Área de trabajo del entorno aislado](./media/across-sandbox/sandbox-rolecenter-notification.png)  
 En el entorno aislado, se ha creado un nuevo suscriptor. Este suscriptor se carga con datos de demostración predeterminados para la empresa CRONUS. No se copian ni se transfieren datos del entorno de producción durante la creación del entorno aislado.
-7.  Cuando lo desee puede volver a la ventana **Entorno aislado** y restablecerlo.
+7.  Cuando lo desee puede volver a la página **Entorno aislado** y restablecerlo.
 > [!NOTE]  
 >  Al restablecer el entorno aislado se eliminará completamente y, a continuación, se creará de nuevo con los datos de demostración predeterminados.  
 
@@ -58,7 +58,7 @@ En un entorno aislado, se encuentra habilitada la función de diseñador en el c
 ![Diseñador del cliente](./media/across-sandbox/sandbox-inclient-designer.png)
 
 ### <a name="enable-the-advanced-user-experience"></a>Activar la experiencia del usuario avanzado
-Es posible activar y probar la funcionalidad avanzada (completa) de [!INCLUDE[d365fin](includes/d365fin_md.md)] en un suscriptor aislado configurando el campo **Experiencia** en la ventana **Información de la empresa**.
+Es posible activar y probar la funcionalidad avanzada (completa) de [!INCLUDE[d365fin](includes/d365fin_md.md)] en un suscriptor aislado configurando el campo **Experiencia** en la página **Información de la empresa**.
 
 ![Entorno aislado avanzado](./media/across-sandbox/sandbox-advanced.png)
 

@@ -13,10 +13,10 @@ ms.search.keywords: cancel, undo, correct
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2833a18275e396a04f78b5707d885bfbd5946218
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 8f73492e70d4d30a73030953eb235f586954867e
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Procesamiento de devoluciones de compra o cancelaciones
@@ -40,10 +40,10 @@ Para conservar la valoración correcta del inventario, normalmente desea tomar l
 
 Existen dos funciones para asignar la reversión de coste exacta automáticamente.  
 
-|Función|Descripción|  
+|Función|Description|  
 |------------------|---------------------------------------|  
-|Función**Revertir líneas documentos registrados** en la ventana **Pedido dev. compra**|Copia una o varias líneas de documentos registrados para revertirlas en el pedido de devolución de compra. Para obtener más información, consulte la sección "Para crear un pedido de devolución de compras y el abono de compra relacionado, para uno o varias facturas de compras registradas".|  
-|Función**Copiar líneas** en las ventanas **Abono compra** y **Pedido dev. compra**|Copia la cabecera y las líneas de un documento registrado que se revertirá.<br /><br /> Requiere que se active la casilla de verificación **Coste exacto devol. obligatorio** en la ventana **Configuración compras y pagos**.|
+|Función **Revertir líneas documentos registrados** en la página **Pedido dev. compra**|Copia una o varias líneas de documentos registrados para revertirlas en el pedido de devolución de compra. Para obtener más información, consulte la sección "Para crear un pedido de devolución de compras y el abono de compra relacionado, para uno o varias facturas de compras registradas".|  
+|Función**Copiar líneas** en las páginas **Abono compra** y **Pedido dev. compra**|Copia la cabecera y las líneas de un documento registrado que se revertirá.<br /><br /> Requiere que se active la casilla de verificación **Coste exacto devol. obligatorio** en la página **Configuración compras y pagos**.|
 
 Para asignar manualmente la reversión del coste exacto, debe elegir el campo **Liquid.-de mov. pdto** en cualquier tipo de línea de documento, y seleccionar el número del movimiento de compra original. De este modo el pedido de abono de compra o de devolución de compra se vincula al movimiento de compra original y se asegura que el producto se valore con el coste unitario original.
 
@@ -51,15 +51,15 @@ Para obtener más información, consulte [Detalles de diseño: valoración de in
 
 ## <a name="to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice"></a>Para crear un nuevo abono de compra desde una factura de compra registrada.
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Histórico facturas compra** y luego elija el enlace relacionado.  
-2. En la ventana **Facturas de compra registradas**, seleccione la factura de compra que desea revertir y, a continuación, seleccione la acción **Crear abono correctivo**.
+2. En la página **Facturas de compra registradas**, seleccione la factura de compra que desea revertir y, a continuación, seleccione la acción **Crear abono correctivo**.
 
     La mayoría de los campos de la cabecera de abono de compra se rellenan con la información de la factura de compra registrada. Puede modificar todos los campos, por ejemplo, mediante la nueva información que indica el contrato de devolución.
 3. Edite la información de las líneas según el contrato, como por ejemplo el número de productos devueltos o el importe que se reembolsará.
 4. Seleccione la acción **Liquidar movs.**.
-5. En la ventana **Liquidar movimientos proveedor**, seleccione la línea con el documento de compra registrado al que desee liquidar el abono de compras y, a continuación, seleccione la acción **Liq. por id.**. El número del abono de compras se inserta en el campo **Liq. por id**.
+5. En la página **Liquidar movimientos proveedor**, seleccione la línea con el documento de compra registrado al que desee liquidar el abono de compras y, a continuación, seleccione laacción **Liq. por id.**. El número del abono de compras se inserta en el campo **Liq. por id**.
 6. En la línea del campo **Importe a liquidar**, introduzca el importe que desea liquidar si es menor que el importe original.
 
-    En la parte inferior de la ventana **Liq. movs. proveedor**, puede observar el importe total a liquidar para revertir todos los movimientos correspondientes, concretamente cuando el valor en el campo **Balanza** es cero.
+    En la parte inferior de la página **Liq. movs. proveedor**, puede observar el importe total a liquidar para revertir todos los movimientos correspondientes, concretamente cuando el valor en el campo **Balanza** es cero.
 7. Elija el botón **Aceptar**. Cuando registra el abono de compra, este se aplicará a los documentos de compra registrados especificados.
 
     Cuando ha creado o editado las líneas de abono de compra necesarias y se han especificado una o varias aplicaciones, puede empezar a registrar el abono de compra.
@@ -74,8 +74,8 @@ El abono de compra se ha eliminado y remplazado por un nuevo documento de la lis
 2. Seleccione la acción **Nuevo** para abrir un abono de compras vacío.
 3. En el campo **Proveedor**, escriba el nombre de un proveedor existente.
 4. Elija la acción **Copiar documento**.
-5. En la ventana **Copiar documento de compra**, en el campo **Tipo de documento**, seleccione el campo **Factura registrada**.
-6. Elija el campo **Nº documento** para abrir la ventana **Histórico facturas compra** y seleccione la factura de compra registrada que contiene las líenas que desea revertir.
+5. En la página **Copiar doc. compra**, en el campo **Tipo de documento**, seleccione el campo **Factura registrada**
+6. Elija el campo **Nº documento** para abrir la página **Histórico facturas compra** y seleccione la factura de compra registrada que contiene las líneas que desea revertir.
 7. Seleccione la casilla **Recalcular líneas** si desea que las líneas de factura de compra registradas copiadas se actualicen con los cambios en el precio y el coste unitario del producto desde que la factura fue registrada.
 8. Elija el botón **Aceptar**. Las líneas de factura copiadas se insertarán en el abono de compra.
 9. Complete el abono de compra como se explica en la sección "Para crear un abono de compra de una factura de compras registrada" en este tema.
@@ -87,15 +87,15 @@ El abono de compra se ha eliminado y remplazado por un nuevo documento de la lis
 4. En la ficha desplegable **Líneas**, rellene las líneas manualmente o copie la información de otros documentos para rellenar las líneas automáticamente:
 
     - Utilice la función **Revertir líneas documentos registrados:** para copiar una o más líneas de documentos registrados de uno o varios documentos registrados. Esta función revierte siempre exactamente los costes a partir de la línea de documento registrada. Esta función se describe en los pasos siguientes.    
-    - Puede utilizar la función **Copiar documento** para copiar un documento existente al pedido de devolución. Utilice esta función para copiar el documento completo. Puede ser un documento registrado o un documento que todavía no se registró. Esta función sólo permite invertir el coste exacto cuando está seleccionada la casilla **Coste exacto devol. obligatorio** en la ventana **Configuración ventas y cobros**.  
+    - Puede utilizar la función **Copiar documento** para copiar un documento existente al pedido de devolución. Utilice esta función para copiar el documento completo. Puede ser un documento registrado o un documento que todavía no se registró. Esta función sólo permite invertir el coste exacto cuando está seleccionada la casilla **Coste exacto devol. obligatorio** en la página **Configuración ventas y cobros**.  
 
 4. Elija la acción **Revertir líneas documentos registrados**.
-5. En la parte superior de la ventana **Líneas doc. compras contabilizadas**, seleccione el campo **Mostrar sólo líneas reversibles** si solo desea ver las líneas con cantidades que aún no se han devuelto. Por ejemplo, si la cantidad de una factura de compra registrada ya se ha devuelto, puede que no desee incluir esa cantidad en un nuevo documento de devolución de compra.
+5. En la parte superior de la página **Histórico líneas doc. compras**, seleccione el campo **Mostrar sólo líneas reversibles** si solo desea ver las líneas con cantidades que aún no se han devuelto. Por ejemplo, si la cantidad de una factura de compra registrada ya se ha devuelto, puede que no desee incluir esa cantidad en un nuevo documento de devolución de compra.
 
     > [!NOTE]  
     >  Este campo sólo funciona para líneas de facturas, envíos y recepciones registradas, no para líneas de abonos o devoluciones registradas.  
 
-    En la parte izquierda de la ventana, se listan los diferentes tipos de documento y el número que aparece entre corchetes muestra el número de documentos que hay disponible del tipo en concreto.
+    En la parte izquierda de la página, se listan los diferentes tipos de documento y el número que aparece entre corchetes muestra el número de documentos que hay disponible del tipo en concreto.
 
 6. En el campo **Filtro de tipo de documento**, seleccione el tipo de líneas de documento registrado que desea utilizar.  
 7. Seleccione las líneas que desea copiar en el nuevo documento.  
@@ -119,21 +119,21 @@ El abono de compra se ha eliminado y remplazado por un nuevo documento de la lis
 
     -   Si la línea del documento registrado contiene líneas de seguimiento de productos, el programa rellena el campo **Liq. por nº orden producto** de dichas líneas de seguimiento con los números de movimiento de producto correspondientes de las líneas de seguimiento de productos registradas.  
 
-     Cuando se copia desde una factura o abono registrados, el programa copia los descuentos de factura y de línea válidos en el momento de registrar ese documento desde la línea del documento registrado a la nueva línea de documento. Sin embargo, tenga en cuenta que si se activa la opción **Calc. dto. factura** en la ventana **Confi&guración compras y pagos**, el descuento en factura se volverá a calcular cuando registre una línea de documento nueva. Por lo tanto, el importe de la nueva línea puede ser distinto del importe de la línea del documento registrado, dependiendo del nuevo cálculo de descuento de factura.  
+     Cuando se copia desde una factura o abono registrados, el programa copia los descuentos de factura y de línea válidos en el momento de registrar ese documento desde la línea del documento registrado a la nueva línea de documento. Sin embargo, tenga en cuenta que si se activa la opción **Calc. dto. factura** en la página **Confi&guración compras y pagos**, el descuento en factura se volverá a calcular cuando registre una línea de documento nueva. Por lo tanto, el importe de la nueva línea puede ser distinto del importe de la línea del documento registrado, dependiendo del nuevo cálculo de descuento de factura.  
 
     > [!NOTE]  
     >  Si ya se ha revertido, vendido o consumido parte de la cantidad de la línea del documento registrado, se crea una línea sólo para la cantidad que queda en inventario o que no se ha devuelto. Si ya se ha revertido toda la cantidad de la línea del documento registrado, no se crea una nueva línea de documento.  
     >   
     >  Si el flujo de los artículos en el documento registrado coincide con el del nuevo documento, se crea una copia de la línea del documento registrado original en el nuevo documento. El campo **Liquid.-de mov. pdto** se ha rellenado porque, en este caso, la reversión de coste exacto no es posible. Por ejemplo, si utiliza la función **Revertir líneas documentos registrados** para obtener una línea de un abono de compras registrado para un nuevo abono de compras, sólo se copia la línea del abono registrado original en el nuevo abono.  
 
-8. En la ventana **Pedido dev. compra**, en el campo **Cód. auditoría dev.** de cada línea, seleccione el motivo de la devolución.
+8. En la página **Pedido dev. compra**, en el campo **Cód. auditoría dev.** de cada línea, seleccione el motivo de la devolución.
 9. Seleccione la acción **Registrar**.
 
 ## <a name="to-create-a-replacement-purchase-order-from-a-purchase-return-order"></a>Para crear un pedido de sustitución a partir de un pedido de devolución de compra
 Puede estar de acuerdo con el proveedor en que compense un producto comprado, sustituyendo el producto. El producto de sustitución puede ser el mismo u otro distinto. Esta situación se puede dar si el proveedor le envió por error un producto equivocado.  
-1.  En la ventana **Pedido dev. compra** para un proceso de devolución activo, en una línea vacía, haga un movimiento negativo para el producto de reposición insertando un importe negativo en el campo **Cantidad** .  
+1.  En la página **Pedido dev. compra** para un proceso de devolución activo, en una línea vacía, haga un movimiento negativo para el producto de reposición insertando un importe negativo en el campo **Cantidad** .  
 2. Seleccione la acción **Mover líneas negativas**.  
-3. En la ventana **Mover líneas compra negativas**, rellene los campos en una línea según sea necesario.
+3. En la página **Mover líneas compra negativas**, rellene los campos en una línea según sea necesario.
 4. Elija el botón **Aceptar**. La línea negativa se elimina del pedido de devolución de compra y se crea un nuevo pedido de compra. Para obtener más información, consulte [Registrar compras](purchasing-how-record-purchases.md).  
 
 ## <a name="to-create-a-purchase-allowance"></a>Para crear una deducción de compra  
@@ -150,7 +150,7 @@ Puede registrar este coste reducido de compra como un cargo de producto en un ab
     Puede que desee crear un número de coste de producto especial para cubrir las deducciones de compra.  
 6.  En el campo **Cantidad**, introduzca **1**.  
 7.  En el campo **Precio compra**, introduzca el importe de la deducción de compra.  
-8.  Asigne la deducción de compra como un cargo de producto a los productos del albarán registrado. Para obtener más información, consulte [Utilizar los cargos de producto a cuenta para los costes comerciales adicionales](payables-how-assign-item-charges.md). Una vez asignada la deducción, vuelva a la ventana **Abono de compra**.
+8.  Asigne la deducción de compra como un cargo de producto a los productos del albarán registrado. Para obtener más información, consulte [Utilizar los cargos de producto a cuenta para los costes comerciales adicionales](payables-how-assign-item-charges.md). Una vez asignada la deducción, vuelva a la página **Abono de compra**.
 
 Cuando registre el pedido de devolución de compra, la deducción de compra se añadirá al importe del movimiento de compra correspondiente. De este modo podrá mantener la precisión de la valoración del inventario.  
 

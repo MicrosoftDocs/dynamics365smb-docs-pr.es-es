@@ -11,10 +11,10 @@ ms.search.keywords: GetAddress.io, postcodes, postal, address, extension
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: de76d937535fcad44538fcea557233263fa049fd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: af4be20798af59f01c870885b7e167fcb94d6bab
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -26,8 +26,8 @@ La extensión Códigos postales de Reino Unido de GetAddress.io puede ahorrar ti
 
     > [!NOTE]  
     >   La opción **Buscar dirección a partir del código postal** solo está disponible si el campo **Cód. país/región** está vacío o contiene **GB**.
-2. En la ventana **Búsqueda de código postal** , en el campo **Código postal**, introduzca o elija el código postal.  
-3. En la ventana **Selección de dirección**, elija la dirección.  
+2. En la página **Búsqueda de código postal** , en el campo **Código postal**, introduzca o elija el código postal.  
+3. En la página **Selección de dirección**, elija la dirección.  
 
 > [!TIP]  
 >   Si sabe el número de calle, puede filtrar las direcciones introducir el número completo o parte de él en el campo **Punto de entrega**.

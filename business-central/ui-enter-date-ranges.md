@@ -12,17 +12,19 @@ ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8717d60a8449ca300eaf9c1a5c4b137ea1a1a247
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 54466c381bbeb3653a239920c00dd6f45536d9e3
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 
 # <a name="working-with-calendar-dates-and-times"></a>Trabajar con fechas y horas del calendario
+
 [!INCLUDE[d365fin](includes/d365fin_long_md.md)] ofrece múltiples formas de introducir fechas y horas, además de potentes funciones que aceleran la entrada de datos o ayudan a escribir expresiones de calendario complejas. Hay varios lugares en la aplicación donde puede introducir fechas y horas en los campos. Por ejemplo, en un pedido de venta, puede establecer la fecha de envío. Al filtrar listas o datos de informes, puede introducir fechas y horas para señalar solo los datos que le interesan.
 
 ## <a name="check-your-region-and-language-settings"></a>Compruebe su región y la configuración de idioma
+
 La página [**Mi configuración**](https://businesscentral.dynamics.com?page=9176 "Vaya directamente a la página de configuración en Business Central") especifica la **región** y el **idioma** que está utilizando en la aplicación. Estos ajustes influyen en cómo se introducen las fechas y horas. 
 
 -   El valor **Región** determina cómo se muestran o se forman las fechas, los tiempos, los números, y divisas.
@@ -35,7 +37,9 @@ La página [**Mi configuración**](https://businesscentral.dynamics.com?page=917
 <!-- 
 The following sections describe how you can enter dates, times, datetimes, durations, date ranges, and how you use date formulas.
 -->
+
 ## <a name="entering-dates"></a>Introducción de fechas
+
 En un campo de fecha, puede introducir una fecha con el formato estándar para la configuración de su región. Diferentes regiones pueden usar diferentes separadores entre los días, meses y años. Por ejemplo, algunas regiones usan guiones (mm-dd-aaaa) y otras usan barras diagonales (mm/dd/aaaa). No obstante, puede usar cualquier separador, incluso un espacio y la fecha se cambiará automáticamente para usar separadores que coincidan con su región.
 
 Tenga en cuenta que el formato en el que se muestran las fechas en los informes impresos o en los documentos enviados por correo electrónico no se ve afectado por su elección personal de configuración regional.
@@ -43,16 +47,15 @@ Tenga en cuenta que el formato en el que se muestran las fechas en los informes 
 Para trabajar de forma más productiva con fechas y horas, puede utilizar cualquiera de los métodos o formatos que se describen en las siguientes secciones. 
 
 ### <a name="picking-dates-from-the-calendar"></a>Seleccionar fechas del calendario
+
 Cualquier campo que muestre un icono de calendario se puede configurar con el selector de fechas del calendario. Para mostrar el selector de fechas del calendario, active el ícono de calendario o presione el atajo de teclado Ctrl + Inicio en el campo.
 
 ![Campos de fecha](media/ui-date-field.png "Ejemplo de un campo de fecha")
 
 Consulte también [Métodos abreviados de teclado en el selector de fechas del calendario](keyboard-shortcuts.md#calendarshortcuts)
 
-### <a name="today"></a>Hoy
-Introduzca la palabra para `today`, en el idioma establecido por la configuración de **Idioma**, que establecerá la fecha a la fecha actual. En lugar de introducir la palabra completa, puede introducir parte de la palabra, comenzando desde el principio, como `t` o `tod`, siempre que no sea también el comienzo de otra palabra.
-
 ### <a name="day-week-year-pattern"></a>Patrón día\-semana\-año
+
 Puede introducir una fecha como día de la semana seguido de un número de semana y, opcionalmente, un año. Por ejemplo, `Mon25` o `mon25` significa lunes de la semana 25. Si no introduce un año, se utiliza el año de la fecha de trabajo.
 
 En lugar de introducir la palabra completa para el día de la semana, puede introducir parte de la palabra, comenzando desde el principio. En caso de conflictos (como con `s` que podría ser sábado o domingo), los días se evalúan de acuerdo con la configuración de la región. La entrada se evalúa primero en función de `workdate` y también `today`, así que tenga esto en cuenta al abreviar. Por ejemplo, `t` ya significa hoy, por lo que no puede significar martes o jueves.
@@ -60,6 +63,7 @@ En lugar de introducir la palabra completa para el día de la semana, puede intr
 El esquema de número de la semana siempre es ISO 8601, donde la semana 1 es la semana con 4 de enero, o la semana con el primer jueves del año.
 
 ### <a name="digit-patterns"></a>Patrones de dígitos
+
 En un campo de fecha, puede introducir dos, cuatro, seis u ocho dígitos:
 
 -   Si introduce solo dos dígitos, se interpretarán como el día y se agregarán el mes y el año de la fecha de trabajo.
@@ -68,21 +72,34 @@ En un campo de fecha, puede introducir dos, cuatro, seis u ocho dígitos:
 
 -   Si la fecha que desea introducir está en el rango comprendido entre el 01/01/1930 y el 31/12/2029, puede introducir el año con dos dígitos; en caso contrario, introduzca el año mediante cuatro dígitos.
 
+### <a name="today"></a>Hoy
+
+Introduzca la palabra para `today`, en el idioma establecido por la configuración de **Idioma**, que establecerá la fecha a la fecha actual. En lugar de introducir la palabra completa, puede introducir parte de la palabra, comenzando desde el principio, como `t` o `tod`, siempre que no sea también el comienzo de otra palabra.
+
+### <a name="period"></a>Periodo
+
+Para filtrar un período contable específico, en un campo de fecha introduzca la letra `p`, o la palabra `period`, seguida de un número que identifique el período contable, como `p2` o `period4`. El período contable es relativo al ejercicio de la fecha de trabajo actual que la establecida en su área de trabajo. Por ejemplo, si la fecha de trabajo es **21/03/20**, con `p1`, o solo `p`, se filtra el primer periodo contable del ejercicio 2020 (por ejemplo, `01/01/20..01/31/20`). `p15` filtra el decimoquinto período contable desde el inicio del ejercicio 2020 (por ejemplo, `03/01/21..03/31/21`). 
+
+Los periodos contables se definen en la página **Periodos contables**. Para ver o cambiar los períodos contables, abra la página [aquí](https://businesscentral.dynamics.com/?page=100).
+
 ### <a name="current-work-date"></a>Fecha de trabajo actual
+
 La función de fecha de trabajo le permite grabar transacciones usando una fecha que es diferente de la fecha actual.
 
 La palabra para 'fecha de trabajo', en el idioma establecido por la configuración de **Idioma**, establecerá la fecha en la fecha de trabajo establecida actualmente que se especifica en la página [**Mis configuraciones**](https://businesscentral.dynamics.com?page=9176 "Vaya directamente a la página de configuración en Business Central"). En lugar de introducir la palabra completa, puede introducir parte de la palabra, comenzando desde el principio, como "t" o "trabajo".
 
 Si no ha definido una fecha de trabajo, la fecha actual se usará como la fecha de trabajo. Una fecha de trabajo se puede usar si hay muchas operaciones con una fecha distinta a la activa.
 
-Consulte también [Cambiar la configuración básica como la Fecha de trabajo](ui-change-basic-settings.md#work-date)
+Consulte también [Cambiar la configuración básica como la Fecha de trabajo](ui-change-basic-settings.md#work-date).
 
 ### <a name="closing-date"></a>Fecha cierre
+
 Cuando cierra el ejercicio, puede usar fechas U, para indicar que un movimiento es un movimiento de cierre. La fecha de cierre se encuentra técnicamente entre dos fechas, por ejemplo, entre 31 dic. y 1 ene.
 
 Para especificar que es una fecha de cierre, coloque una `C` delante, como `C123101`. Esto se puede utilizar en combinación con todos los patrones de fecha.
 
 ### <a name="examples"></a>Ejemplos
+
 La siguiente tabla contiene ejemplos de fechas en todos los formatos. Se supone que la configuración regional formatea las fechas de acuerdo con: **año.mes.día.**, una semana a partir del lunes y el idioma inglés.
 
 |**Entrada**      |**Interpretación**      |
@@ -96,6 +113,7 @@ La siguiente tabla contiene ejemplos de fechas en todos los formatos. Se supone 
 |`11`|año de la fecha de trabajo.mes de la fecha de trabajo.11.|
 |`1112`|año de la fecha de trabajo.11.12.|
 |`t` o `today`|fecha de hoy|
+|`p4`|intervalo de fechas que incluye el cuarto período contable, por ejemplo, `04/01/20..04/30/20`|
 |`w` o `workdate`|la fecha de trabajo|
 |`m` o `Monday`|Lunes de la semana de la fecha de trabajo|
 |`tu` o `Tuesday`|Martes de la semana de la fecha de trabajo|
@@ -106,16 +124,16 @@ La siguiente tabla contiene ejemplos de fechas en todos los formatos. Se supone 
 |`t-1`|Martes de la semana 1 del año de la fecha de trabajo|
 
 ##  <a name="BKMK_SettingDateRanges"></a> Configuración de rangos
+
 En listas, totales e informes, puede establecer filtros en fechas, horas y fechas y horas que contienen un valor de inicio y, opcionalmente, un valor final para mostrar solo los datos de ese rango. Se aplican reglas estándar a la forma de establecer los rangos de fechas.
 
 |**Significado**|**Expresión de muestra (Fecha)**|**Datos que se incluyen en el filtro**|
 |-----------|---------------------|--------------------|
-|Intervalo|`12 15 00..01 15 01`  \n`..12 15 00`|Registros con fechas entre el 15 12 00 y el 15 01 01 inclusive.  \nRegistros con fechas de 12 15 00 o anteriores.|
+|Intervalo|`12 15 00..01 15 01`<br /><br />`..12 15 00`<br /><br />`p1..p4`|Registros con fechas entre el 15 12 00 y el 15 01 01 inclusive.<br /><br />Registros con fechas de 12 15 00 o anteriores.<br /><br />Intervalo de fechas que incluye los períodos contables segundo, tercero y cuarto, por ejemplo, `01/01/20..04/30/20`.|
 |O|`12 15 00|12 16 00`|Registros con datos de 12 15 00 o 12 16 00. Si hay registros con fechas en ambos días, se mostrarán todos.|
 |Combinación|`12 15 00|12 01 00..12 10 00`  \n`..12 14 00|12 30 00..`|Registros con fechas de 15 12 00 o en fechas entre el 01 12 00 y el 10 12 00, inclusive.  \nRegistros con fechas de 12 14 00 o anteriores, o fechas de 12 30 00 o posteriores, es decir, todos los registros excepto aquellos con fechas comprendidas entre 12 15 00 y 12 29 00 inclusive.|
 
 Puede utilizar cualquiera de los formatos válidos en los filtros de rango de fechas. Por ejemplo, `mon14 3..t 4p` aplicado en un campo de fecha y hora da como resultado un filtro desde las 3 a.m. del lunes en la semana 14 del año actual de la fecha de trabajo, inclusive, hasta hoy a las 4 p.m., inclusive.
-
 
 ## <a name="using-date-formulas"></a>Uso de fórmulas de fecha
 Una fórmula de fecha es una breve combinación abreviada de letras y números que especifica cómo calcular fechas. Puede introducir fórmulas de fecha en varios campos o filtros de cálculo de fecha.

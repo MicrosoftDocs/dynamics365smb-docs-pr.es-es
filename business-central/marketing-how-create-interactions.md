@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ee1c27157febaf848c417eb163adea2eaa586e1f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 250e56b8bb2ced4745536092bf7cd4f3fa797dee
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-interactions-on-contacts-and-segments"></a>Crear interacciones en contactos y segmentos
@@ -39,13 +39,13 @@ Antes de crear interacciones, debe configurar las plantillas de interacción. Pa
 
 ## <a name="to-create-an-interaction-on-a-segment"></a>Para crear una interacción en un segmento
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Segmentos** y luego elija el enlace relacionado.
-2. En la ventana **Segmento**, en la sección **Interacción**, rellene los campos para especificar qué interacción quiere asignar al segmento.
+2. En la página **Segmento**, en la sección **Interacción**, rellene los campos para especificar qué interacción quiere asignar al segmento.
 
-    Después de asignar una interacción al segmento puede personalizar la interacción para cada contacto particular dentro del segmento, por ejemplo seleccionando otra plantilla de interacción en las líneas de la ventana **Segmento**.  
-3. Para registrar el segmento y las interacciones, seleccione la acción **Registrar**. Se abre la ventana **Grabar segmento**.
-4. Active la casilla de verificación **Crear segmento seguimiento** si desea crear un segmento nuevo que contenga los mismos contactos. Para crear un segmento de seguimiento, debe haber especificado antes números de serie para los segmentos en la ventana **Configuración marketing**.
+    Después de asignar una interacción al segmento puede personalizar la interacción para cada contacto particular dentro del segmento, por ejemplo seleccionando otra plantilla de interacción en las líneas de la página **Segmento**.  
+3. Para registrar el segmento y las interacciones, seleccione la acción **Registrar**. Se abre la página **Grabar segmento**.
+4. Active la casilla de verificación **Crear segmento seguimiento** si desea crear un segmento nuevo que contenga los mismos contactos. Para crear un segmento de seguimiento, debe haber especificado antes números de serie para los segmentos en la página **Configuración marketing**.
 
-Se registra una interacción para cada contacto dentro del segmento en la tabla **Movimiento de registro de interacción** y se archiva el segmento. Puede encontrar los segmentos grabados en la ventana **Segmento grabado**.
+Se registra una interacción para cada contacto dentro del segmento en la tabla **Movimiento de registro de interacción** y se archiva el segmento. Puede encontrar los segmentos grabados en la página **Segmento grabado**.
 
 Si activó la casilla **Crear segmento seguimiento**, se creará un nuevo segmento que contendrá los mismos contactos que el segmento recién archivado.
 

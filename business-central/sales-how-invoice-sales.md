@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 10/01/2018
+ms.date: 10/17/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 37875f3b09887176211f33538268706f11406fcf
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a5fe5e467d693fc98f604cfc85be47488374541a
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="invoice-sales"></a>Facturar ventas
@@ -42,15 +42,15 @@ Puede rellenar los campos de clientes en la factura de venta de dos formas en fu
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Facturas ventas** y luego elija el enlace relacionado.  
 2. En el campo **Cliente**, escriba el nombre de un cliente existente.
 
-   Otros campos de la ventana **Factura venta** contienen información estándar sobre el cliente seleccionado. Si el cliente no está registrado, realice los pasos siguientes:
+   Otros campos de la página **Factura venta** contienen información estándar sobre el cliente seleccionado. Si el cliente no está registrado, realice los pasos siguientes:
 3. En el campo **Cliente**, escriba el nombre del cliente nuevo.
 4. En el cuadro de diálogo de registro de nuevos clientes, haga clic en el botón **Sí**.
-5. En la ventana **Seleccionar una plantilla para un cliente nuevo**, seleccione una plantilla en la que se basará la nueva ficha de cliente y, a continuación, haga clic en el botón **Aceptar**.
+5. En la página **Seleccionar una plantilla para un cliente nuevo**, seleccione una plantilla en la que se basará la nueva ficha de cliente y, a continuación, haga clic en el botón **Aceptar**.
 6. Una nueva ficha de cliente muestra la información sobre la plantilla de cliente seleccionada. Rellene el resto de campos. Para obtener más información, vea [Registrar nuevos clientes](sales-how-register-new-customers.md).  
-7. Cuando haya finalizado la ficha de cliente, haga clic en el botón **Aceptar** para volver a la ventana **Factura venta**.
+7. Cuando haya finalizado la ficha de cliente, haga clic en el botón **Aceptar** para volver a la página **Factura venta**.
 
    Muchos campos de la factura de venta se rellenan con la información especificada en la nueva ficha de cliente.  
-8. Rellene los campos en la ventana **Factura de venta** según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+8. Rellene los campos en la página **Factura venta** según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
     > Si permite que el cliente pague inmediatamente, por ejemplo, en efectivo o mediante PayPal, complete el campo **Cód. forma pago**. El pago se registra cuando se contabiliza la factura de venta. Si selecciona EFECTIVO, el pago se registra en una cuenta de contrapartida especificada.
@@ -89,11 +89,11 @@ El cuadro de diálogo **Registrar y enviar confirmación** muestra el método pr
 
 El producto relacionado y los movimientos de cliente se han creado ahora en su sistema y la factura de venta se genera como un documento PDF. La factura de venta se elimina de la lista de facturas de venta y se reemplaza con un nuevo documento de la lista de facturas de venta registradas.  
 
-## <a name="registering-payments"></a>Registrar pagos
+## <a name="registering-payments"></a>Registro de pagos
 
 En función de sus necesidades comerciales, puede recibir el pago y registrarlo de diferentes maneras: de forma manual, automática y mediante servicios de pago.  
 
-Puede procesar los pagos directamente desde la ficha o desde los movimientos de un cliente. Utilice la función **Registrar pagos de cliente** para obtener un resumen de las facturas sin abonar de dicho cliente. A continuación, marque la factura como pagada de forma parcial o total. Esta conciliación de pagos permite procesar los pagos de sus clientes al conciliar los importes recibidos en la cuenta bancaria con las facturas de venta relacionadas no pagadas y luego registrar los pagos. Para obtener más información, vea [Conciliar pagos individualmente](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-register-customer-payments-individually).  
+Puede procesar los pagos directamente desde la ficha de cliente. Utilice la acción **Registrar pagos de cliente** para obtener un resumen de las facturas sin abonar de dicho cliente. A continuación, marque la factura como pagada de forma parcial o total. Esta conciliación de pagos permite procesar los pagos de sus clientes al conciliar los importes recibidos en la cuenta bancaria con las facturas de venta relacionadas no pagadas y luego registrar los pagos. Para obtener más información, vea [Conciliar pagos individualmente](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-register-customer-payments-individually).  
 
 En los entornos comerciales donde el cliente paga después de la entrega, de acuerdo con el plazo de pago, una factura de ventas publicada permanece abierta (sin pagar) hasta que el departamento de Cobros verifique que se haya recibido el pago y lo liquide a la factura de ventas publicada. Esto se puede realizar manual o automáticamente. Para obtener más información, consulte [Conciliar pagos de cliente manualmente](receivables-how-apply-sales-transactions-manually.md) y [Conciliar los pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md).  
 

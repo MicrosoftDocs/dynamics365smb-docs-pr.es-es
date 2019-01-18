@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e114142be1708447931fb475074245b57564f6b3
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0bb558fe24d8c5bc717ef72e8c94ba0154a06a55
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-known-item-application-issue"></a>Detalles de diseño: Problema de liquidación de producto conocido
@@ -102,7 +102,7 @@ El diagrama siguiente muestra cómo se crean las liquidaciones de coste.
 
  Para el ejemplo 1, identifique el problema de la siguiente forma:  
 
--   En las ventanas **Abono venta registrado** o **Histórico recep. devolución**, busque el campo **Liquid.\-de mov. pdto** para ver si se rellena el campo y en ese caso a qué movimiento del producto del artículo se liquida el albarán de devolución.  
+-   En las páginas **Abono venta registrado** o **Histórico recep. devolución**, busque el campo **Liquid.\-de mov. pdto** para ver si se rellena el campo y en ese caso a qué movimiento del producto del artículo se liquida el albarán de devolución.  
 
  Para el ejemplo 2, identifique el problema de una de las siguientes formas:  
 
@@ -113,10 +113,10 @@ El diagrama siguiente muestra cómo se crean las liquidaciones de coste.
 |333|28/01/2018|Venta|Albarán venta|102043|EXAMINAR|AZUL|-1|-10|-1|-1|Sí|N.º|  
 |334|28/01/2018|Venta|Albarán venta|102043|EXAMINAR|AZUL|1|10|1|1|Sí|**Sí**|  
 
--   En la ventana **Histórico albaranes venta**, busque el campo **Liquid. mov. pdto** para ver si se rellena el campo y en ese caso a qué movimiento del producto del artículo se liquida el albarán de devolución.  
+-   En la página **Histórico albaranes venta**, busque el campo **Liquid. mov. pdto** para ver si se rellena el campo y en ese caso a qué movimiento del producto del artículo se liquida el albarán de devolución.  
 
 > [!NOTE]  
->  Estas liquidaciones de coste no se pueden identificar en la ventana **Movs. prod. liquidado** porque esa ventana solo muestra liquidaciones de cantidad.  
+>  Estas liquidaciones de coste no se pueden identificar en la página **Movs. prod. liquidado** porque esa página solo muestra liquidaciones de cantidad.  
 
  Para ambos escenarios, identifique la liquidación de coste involucrada de la siguiente manera:  
 
@@ -138,7 +138,7 @@ El diagrama siguiente muestra cómo se crean las liquidaciones de coste.
  Tenga en cuenta que el movimiento de producto de entrada 334 se liquida al movimiento de producto de salida 333.  
 
 ## <a name="workaround-for-the-issue"></a>Solución del problema  
- En la ventana **Diario de producto**, registre las siguientes líneas para el producto en cuestión:  
+ En la página **Diario de producto**, registre las siguientes líneas para el producto en cuestión:  
 
 -   Un ajuste positivo para cerrar el movimiento de producto de salida abierto.  
 

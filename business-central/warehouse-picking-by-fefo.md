@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
-ms.openlocfilehash: e63179eb2d791a84141bdf46a632e4b7df6c554e
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 54857d668cdceb9cc1d4e035a496d621b1d9459b
 ms.contentlocale: es-es
-ms.lasthandoff: 07/30/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="enable-picking-items-by-fefo"></a>Habilitar la realización de picking de productos por FEFO
@@ -40,7 +40,7 @@ Si dos productos con número de serie o lote tienen la misma fecha de caducidad,
 <br /><br />
 Cuando se realiza el picking de productos con números de lote/serie en ubicaciones configuradas para ubicación y picking directos, sólo se realiza el picking de las cantidades de ubicaciones de tipo *Picking* según FEFO.  
 <br /><br />
-Para activar movimientos según el FEFO, en la ventana **Movimiento inventario** o en la **Hoja trabajo movimiento**, debe dejar en blanco el campo **De ubicación**.  
+Para activar movimientos según el FEFO, en la página **Movimiento inventario** o en la página **Hoja trabajo movimiento**, debe dejar en blanco el campo **De ubicación**.  
 <br /><br />
 Si se selecciona el campo **Registro caducidad requerido**, sólo los productos que no caducan se incluirán en el picking. Esto se aplica incluso si no utiliza picking según FEFO.
 

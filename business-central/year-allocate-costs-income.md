@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2291f45cda61f72cbabc8a39b2463903c641ad97
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0c761db3f76d1fff05dd75a08a586f52386b5b88
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="allocate-costs-and-income"></a>Asignar costes e ingresos
@@ -33,22 +33,22 @@ Los procedimientos siguientes describen cómo preparar la asignación de costes 
 ## <a name="to-set-up-allocation-keys"></a>Para configurar claves de asignación
 Puede asignar un movimiento en un diario general periódico a varias cuentas diferentes al registrar el diario. La distribución puede realizarse por cantidad, porcentaje o importe.
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diario general periódico** y luego elija el enlace relacionado.
-2. Seleccione el campo **Nombre de sección** para abrir la ventana **Secciones diario general**.
+2. Seleccione el campo **Nombre de sección** para abrir la página **Secciones diario general**.
 3. Puede modificar las asignaciones en una sección existente de la lista o crear une nueva sección con asignaciones.
    * Para crear un lote nuevo, seleccione la acción **Nuevo** y vaya al paso siguiente.
    * Para cambiar las asignaciones de un diario existente, seleccione el diario y vaya al paso 7.    
 4. En el campo **Nombre**, escriba un nombre para la sección, por ejemplo LIMPIEZA. En el campo **Descripción**, escriba una descripción, por ejemplo, Limpieza de diario de gastos.
-5. Cuando haya terminado, cierre la ventana. Aparecerá un nuevo diario periódico vacío.
+5. Cuando haya terminado, cierre la página. Aparecerá un nuevo diario periódico vacío.
 6. Complete los campos de la línea.
 7. Seleccione la acción **Asignaciones**.
 8. Agregue una línea para cada asignación. Debe rellenar el campo **% Distribución**, **Cantidad a distribuir** o **Importe**. También debe rellenar el campo **Nº cuenta** y, si distribuye la transacción entre dimensiones globales, los campos de dimensión global.
 9. Si escribe un porcentaje en una línea, el importe del campo **Importe** se calculará automáticamente. Estos importes tienen el signo contrario al importe total del campo **Importe** en el diario periódico.
-10. Después de introducir las líneas de asignaciones, seleccione **Aceptar** para volver a la ventana **Diario general periódico**. El campo **Importe asignado (USD)** se rellena y coincide con el campo **Importe**.
+10. Después de introducir las líneas de asignaciones, seleccione **Aceptar** para volver a la página **Diario general periódico**. El campo **Importe asignado (USD)** se rellena y coincide con el campo **Importe**.
 11. Registre el diario.
 
 ## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>Para modificar una clave de asignación que ya haya sido configurada
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diario general periódico** y luego elija el enlace relacionado.
-2. En la ventana **Diario general periódico** (Diarios generales periódicos), seleccione el diario con la distribución.
+2. En la página **Diario general periódico** (Diarios generales periódicos), seleccione el diario con la distribución.
 3. Seleccione la línea con la asignación y, a continuación, seleccione la acción **Asignaciones**.
 4. Cambie los campos relevantes y, a continuación, elija el botón **Aceptar**.
 

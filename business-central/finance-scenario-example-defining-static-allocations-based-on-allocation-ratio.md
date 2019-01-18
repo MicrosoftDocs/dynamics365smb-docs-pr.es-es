@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: 
 ms.date: 10/01/2018
 ms.author: sgroespe
+redirect_url: finance-define-and-allocate-costs
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 036aa1f317c1b1de7fc1548e03d40eca8c25be89
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d35fd5de7a0583c3864268d0749384322bf947ed
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="scenario-example-defining-static-allocations-based-on-allocation-ratio"></a>Ejemplo: definición de asignaciones estáticas basadas en la proporción de asignación
@@ -30,7 +31,7 @@ Este tema describe cómo definir tres nuevos objetos de coste de destino de asig
 ## <a name="to-define-the-allocation-source-prod-cost-center-on-the-general-fasttab"></a>Para definir el centro de coste PROD de origen de asignación en la ficha desplegable General  
 
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Asignación costes** y luego elija el enlace relacionado.  
-2.  En la ventana **Asignación de costes**, elija la acción **Nuevo**.  
+2.  En la página **Asignación costes**, elija la acción **Nuevo**.  
 3.  En el campo **ID**, presione Entrar o escriba un Id.  
 4.  En el campo **Nivel**, introduzca **1**.  
 5.  Especifique las fechas del período en los campos **Válido desde** y **Válido hasta**.  
@@ -59,8 +60,5 @@ Este tema describe cómo definir tres nuevos objetos de coste de destino de asig
 >  [!INCLUDE[d365fin](includes/d365fin_md.md)] calcula automáticamente el campo **Porcentaje** con un porcentaje que depende de las tres relaciones de asignación que se han introducido en el campo **Compartir** para las tres líneas.  
 
 ## <a name="see-also"></a>Consulte también  
-[Configurar origen de asignación y destinos](finance-how-to-set-up-allocation-source-and-targets.md)   
 [Definición y asignación de costes](finance-define-and-allocate-costs.md)   
-[Ejemplo: definición de asignaciones dinámicas basándose en productos vendidos](finance-scenario-example-defining-dynamic-allocations-based-on-items-sold.md)   
-[Definición y asignación de costes](finance-define-and-allocate-costs.md)
 

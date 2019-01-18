@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 001923d52ca7f04a338814d6636c3005277a5d02
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 7c25c4858600d959024dcbdba2ce5d0f7e3ad4c8
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -36,15 +36,15 @@ Los códigos de defecto describen los típicos defectos de producto de servicio 
     |Defecto + Síntoma | Proporcione una combinación de códigos en las tablas **Cód. defecto** y **Cód. síntoma**. Los códigos de síntoma habituales incluyen indicadores que puede usar un cliente para describir un problema, como un ruido o calidad.|  
     |Defecto + Síntoma + Area | Utilice Cód. defecto, Cód. síntoma y Cód. área defecto, como implementación del sistema internacional de codificación de reparaciones (IRIS).|  
 
-Para finalizar la configuración del informe de defectos, también puede especificar las reparaciones o resoluciones asociadas con un defecto. Se configura en la ventana **Relación códs. defecto/resol.**, donde se configuran combinaciones de códigos para el grupo de productos de servicio del producto de servicio desde el que se ha accedido a la ventana y el número de ocurrencias de cada uno.
+Para finalizar la configuración del informe de defectos, también puede especificar las reparaciones o resoluciones asociadas con un defecto. Se configura en la página **Relación códs. defecto/resol.**, donde se configuran combinaciones de códigos para el grupo de productos de servicio del producto de servicio desde el que se ha accedido a la ventana y el número de ocurrencias de cada uno.
 
 ## <a name="to-create-fault-and-resolution-code-relationships"></a>Para crear relaciones de códigos de defecto y resolución
-<!--this needs to go in a working with topic--> Para poder ver los métodos más habituales de reparación de determinados defectos de producto durante el servicio de los productos, deberá crear información acerca de las relaciones de códigos de defecto/resolución. Utilice el trabajo por lotes **Insertar relac. cód. def./res.** para buscar todas las combinaciones de códigos de defecto y resolución en los pedidos de servicio registrados y, a continuación, registrarlos en la ventana **Relac. códs. defecto/resol.**
+<!--this needs to go in a working with topic--> Para poder ver los métodos más habituales de reparación de determinados defectos de producto durante el servicio de los productos, deberá crear información acerca de las relaciones de códigos de defecto/resolución. Utilice el trabajo por lotes **Insertar relac. cód. def./res.** para buscar todas las combinaciones de códigos de defecto y resolución en los pedidos de servicio registrados y, a continuación, registrarlos en la página **Relac. códs. defecto/resol.**
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Insertar relac. cód. def./res.** y luego elija el enlace relacionado.  
 2. Introduzca las fechas para definir el periodo que desea incluir en el proceso.  
 3. Para agrupar las relaciones por grupos de producto de servicio, elija la casilla **Relación basada en grupo prod. serv.**.  
-4. Para retener los registros que insertó manualmente en la ventana **Relaciones códigos defecto/resolución**, elija la casilla **Retiene registro insertado manualmente**.  
+4. Para retener los registros que insertó manualmente en la página **Relaciones códigos defecto/resolución**, elija la casilla **Retiene registro insertado manualmente**.  
 
 ## <a name="see-also"></a>Consulte también
 [Configurar la gestión de servicios](service-setup-service.md)  

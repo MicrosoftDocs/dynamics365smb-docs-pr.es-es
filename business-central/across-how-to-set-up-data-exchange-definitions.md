@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 7c4ea5244379c5a7fcf45f1b3ea2b3a3b36280bb
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5d90eefb7fe765681a50b906f237e48b67beb935
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-data-exchange-definitions"></a>Configurar definiciones de intercambio de datos
@@ -22,7 +22,7 @@ Puede configurar [!INCLUDE[d365fin](includes/d365fin_md.md)] para intercambiar d
 
 Como preparación para crear una definición de intercambio de datos de un archivo de datos o una secuencia, puede utilizar los esquemas XML relacionados para definir los datos a incluir en ficha desplegable **Definiciones de columna**. Consulte el paso 6 de la sección ""Describa el formato de las líneas y las columnas en el archivo". Para obtener más información, consulte [Uso de esquemas XML para preparar las definiciones de intercambio de datos](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
-Las definiciones de intercambio de datos normalmente se configuran en la ventana **Definición de intercambio de datos**. Sin embargo, al configurar una definición de intercambio de datos para el servicio de actualización de tipos de cambio de divisa, el proceso se inicia en la ventana **Tarjeta de configuración de actualización de tipo de cambio** simplificada.  
+Las definiciones de intercambio de datos normalmente se configuran en la página **Definición de intercambio de datos**. Sin embargo, al configurar una definición de intercambio de datos para el servicio de actualización de tipos de cambio de divisa, el proceso se inicia en la página **Tarjeta de configuración de actualización de tipo de cambio** simplificada.  
 
 > [!NOTE]  
 >  Si el archivo que se va a convertir está en formato XML, el término *"columna"* en este tema se debe interpretar como un *"elemento XML que contiene datos"*.  
@@ -36,8 +36,8 @@ Este tema incluye los siguientes procedimientos:
 ## <a name="to-create-a-data-exchange-definition"></a>Para crear una definición de intercambio de datos  
 La creación de una definición de intercambio de datos implica dos tareas:  
 
-1. En la ventana **Definición de intercambio de datos**, describe el formato de líneas y columnas del archivo.  
-2. En la ventana **Asignación de intercambio de datos**, asigne las columnas en el archivo de datos a los campos de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+1. En la página **Definición de intercambio de datos**, describe el formato de líneas y columnas del archivo.  
+2. En la página **Asignación de intercambio de datos**, asigne las columnas en el archivo de datos a los campos de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
      Esto se describe en los procedimientos siguientes:  
 
@@ -84,7 +84,7 @@ La creación de una definición de intercambio de datos implica dos tareas:
      Continúe con la descripción del formato de las columnas en el archivo de datos rellenando los campos de la ficha desplegable **Definiciones de línea**, tal como se describe en la tabla siguiente. Puede utilizar el archivo de estructura, como un archivo .XSD, para que archivo de datos llene previamente la ficha desplegable con los elementos correspondientes. Para obtener más información, consulte [Uso de esquemas XML para preparar las definiciones de intercambio de datos](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
 6. En la ficha desplegable **Definiciones de columna**, elija **Obtener estructura de archivo**.  
-7. En la ventana **Obtener estructura de archivos**, seleccione el archivo de estructura relacionado y, a continuación, seleccione el botón **Aceptar**. Las líneas de la ficha desplegable **Definiciones de columna** se rellenan según la estructura del archivo de datos.  
+7. En la página **Obtener estructura de archivos**, seleccione el archivo de estructura relacionado y, a continuación, seleccione el botón **Aceptar**. Las líneas de la ficha desplegable **Definiciones de columna** se rellenan según la estructura del archivo de datos.  
 8. En la ficha desplegable **Definiciones de columna**, edite o rellene los campos tal como se describe en la tabla siguiente.  
 
     |Campo|Descripción|  
@@ -105,10 +105,10 @@ La creación de una definición de intercambio de datos implica dos tareas:
  El paso siguiente en la creación de una definición de intercambio de datos es decidir las columnas o los elementos XML del archivo de datos que se asignarán a los campos de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 > [!NOTE]  
->  La asignación específica depende del objetivo empresarial del archivo de datos que se intercambiará y de las variaciones locales. Incluso el estándar bancario de SEPA presenta variaciones locales. [!INCLUDE[d365fin](includes/d365fin_md.md)] admite importar archivos de extractos bancarios CAMT SEPA originales. Se representa mediante el código de registro de definición de intercambio de datos de **CAMT de SEPA** en la ventana **Definiciones intercambio de datos**. Para obtener información acerca de la asignación de campos específicos de esta ayuda de CAMT de SEPA, consulte [Asignación de campos al importar archivos CAMT de SEPA](across-field-mapping-when-importing-sepa-camt-files.md).  
+>  La asignación específica depende del objetivo empresarial del archivo de datos que se intercambiará y de las variaciones locales. Incluso el estándar bancario de SEPA presenta variaciones locales. [!INCLUDE[d365fin](includes/d365fin_md.md)] admite importar archivos de extractos bancarios CAMT SEPA originales. Se representa mediante el código de registro de definición de intercambio de datos de **CAMT de SEPA** en la página **Definiciones intercambio de datos**. Para obtener información acerca de la asignación de campos específicos de esta ayuda de CAMT de SEPA, consulte [Asignación de campos al importar archivos CAMT de SEPA](across-field-mapping-when-importing-sepa-camt-files.md).  
 
 #### <a name="to-map-columns-in-the-data-file-to-fields-in-included365finincludesd365finmdmd"></a>Para asignar las columnas en el archivo de datos a los campos de [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-1. En la ficha desplegable **Definiciones de línea**, seleccione la línea para la que desea asignar columnas a los campos y, a continuación, elija **Asignación de campos**. Se abre la ventana **Asignación de intercambio de datos**.  
+1. En la ficha desplegable **Definiciones de línea**, seleccione la línea para la que desea asignar columnas a los campos y, a continuación, elija **Asignación de campos**. Se abre la página **Asignación de intercambio de datos**.  
 2. En la ficha desplegable **General**, especifique la configuración de asignación rellenando los campos tal y como se describe en la tabla siguiente.  
 
     |Campo|Descripción|  
@@ -124,7 +124,7 @@ La creación de una definición de intercambio de datos implica dos tareas:
 
     |Campo|Descripción|  
     |---------------------------------|---------------------------------------|  
-    |**Nº columna**|Especifique para qué columna del archivo de datos desea definir una asignación.<br /><br /> Solo puede seleccionar las columnas que se representan con líneas en la ficha desplegable **Definiciones de columna** en la ventana **Definición de intercambio de datos**.|  
+    |**Nº columna**|Especifique para qué columna del archivo de datos desea definir una asignación.<br /><br /> Solo puede seleccionar las columnas que se representan con líneas en la ficha desplegable **Definiciones de columna** en la página **Definición de intercambio de datos**.|  
     |**Id. de campo**|Especificar a qué campo se asigna la columna del campo **Nº Columna** .<br /><br /> Solo puede seleccionar en los campos que existan en la tabla especificada en el campo **Tabla** en la ficha desplegable **General**.|  
     |**Opcional**|Especifique que se omitirá la asignación si el campo está vacío. **Nota**: Si no selecciona esta casilla, se producirá un error de exportación si el campo está vacío. **Nota:** Este campo solo es pertinente para la exportación.|  
     |**Id. de la tabla de destino**|Solo visible cuando se selecciona la casilla **Usar como tabla intermedia**.<br /><br /> Especifique la tabla a la que se asigna el valor del campo **Título columna**, cuando se usa una tabla intermedia para importar datos.|  
@@ -148,7 +148,7 @@ Cuando haya creado la definición de intercambio de datos para un archivo de dat
 ### <a name="to-import-an-existing-data-exchange-definition"></a>Para importar una definición de intercambio de datos existente  
 1. Guarde el archivo XML que representa la definición del intercambio de datos en una ubicación adecuada.  
 2. En el cuadro **Buscar**, escriba **Definiciones de intercambio de datos** y, a continuación, elija el vínculo relacionado.  
-3. Seleccione la acción **Nuevo**. Se abre la ventana **Definición de intercambio de datos**.  
+3. Seleccione la acción **Nuevo**. Se abre la página **Definición de intercambio de datos**.  
 4. Seleccione la acción **Importar definición de intercambio de datos**.  
 5. Seleccione el archivo que ha guardado en el paso 1.  
 

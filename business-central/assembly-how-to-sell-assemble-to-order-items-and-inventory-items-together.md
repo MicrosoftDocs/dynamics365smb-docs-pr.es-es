@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 42f4d0f07e23bfc8fd2ab79fdf315df21a90c9b3
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 2f71dbbb4e7e4af19829f08243371bea1998b093
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="sell-assemble-to-order-items-and-inventory-items-together"></a>Vender productos de ensamblado para pedido y productos de inventario juntos
@@ -31,7 +31,7 @@ La flexibilidad similar se da cuando se venden productos que se ensamblarán par
 >  El procedimiento siguiente no incluye los pasos habituales de pedido de venta que necesita seguir antes de crear un pedido de ensamblado para las cantidades no disponibles.
 
 ## <a name="to-sell-assemble-to-order-items-and-inventory-items-together"></a>Para vender productos de ensamblado para pedido y productos de inventario juntos  
-1.  En una línea de pedido de venta de un producto configurado para ensamblarse para stock, escriba una cantidad en el campo **Cantidad** que sea mayor que el inventario. La ventana **Comprobación disponibilidad** aparecerá. Para obtener más información, consulte [Consultar la disponibilidad de los productos](inventory-how-availability-overview.md).
+1.  En una línea de pedido de venta de un producto configurado para ensamblarse para stock, escriba una cantidad en el campo **Cantidad** que sea mayor que el inventario. La página **Comprobación disponibilidad** aparecerá. Para obtener más información, consulte [Consultar la disponibilidad de los productos](inventory-how-availability-overview.md).
 2.  Anote el valor del campo **Cantidad total** (un valor negativo), que introducirá en el paso siguiente.  
 3.  En el campo **Cdad. al ensamblar para pedido**, introduzca el valor del paso anterior.  
 4.  Realice los cambios en los componentes de ensamblado. Para obtener más información, consulte [Venta de artículos ensamblados para pedido](assembly-how-to-sell-items-assembled-to-order.md).  

@@ -14,10 +14,10 @@ ms.date: 11/13/2018
 ms.author: sgroespe
 redirect_url: finance-set-up-cost-accounting
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3eb90611939dce2134d9413812918c2afb82c083
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 616fcbe937e556c17e8beb79f68bc961ea8bbe18
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-cost-objects"></a>Configurar objetos de costes
@@ -27,7 +27,7 @@ Los objetos de coste son proyectos, productos o servicios de una empresa. El pla
 * Cree un plan del objeto de coste que es independiente de la contabilidad o agregue un objeto de coste nuevo a un plan existente de objetos de coste. Debe crear cada objeto de coste por separado.  
 
 ## <a name="to-transfer-dimension-values-from-the-general-ledger-to-the-chart-of-cost-objects"></a>Para transferir valores de dimensión de la contabilidad al plan de objetos de coste  
-1.  Configurar una dimensión para que sea la dimensión del objeto de coste en la ventana **Actualizar dimensiones CA**. Sólo los valores de esta dimensión se transfieren.  
+1.  Configurar una dimensión para que sea la dimensión del objeto de coste en la página **Actualizar dimensiones CA**. Sólo los valores de esta dimensión se transfieren.  
 2.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Plan objetos coste** y luego elija el enlace relacionado.  
 3.  Elija la acción **Traer objetos coste de dimensión** para transferir los valores de dimensión al plan de objetos de coste. La función transfiere los valores de dimensión que definió en el paso 1.  
 
@@ -36,10 +36,10 @@ Los objetos de coste son proyectos, productos o servicios de una empresa. El pla
 
 El plan de objetos de coste contendrá ahora todos los valores de dimensión especificados desde la contabilidad e incluirá títulos y subtotales.  
 
-## <a name="to-create-new-cost-objects-in-the-chart-of-cost-objects-window"></a>Crear nuevos objetos de coste en la ventana Plan objetos coste  
-Puede configurar y mantener objetos de coste en la ficha **Plan objeto de coste** o bien en la ventana **Plan objetos coste**. En este procedimiento, va a configurar objetos de coste en la ventana **Plan de objetos de coste**.  
+## <a name="to-create-new-cost-objects-in-the-chart-of-cost-objects-page"></a>Crear nuevos objetos de coste en la página Plan objetos coste  
+Puede configurar y mantener objetos de coste en la ficha **Plan objeto de coste** o bien en la página **Plan objetos coste**. En este procedimiento, va a configurar objetos de coste en la página **Plan de objetos de coste**.  
 
-1.  Abra la ventana **Plan objetos coste** en el modo de edición.  
+1.  Abra la página **Plan objetos coste** en el modo de edición.  
 2.  En el campo **Código**, introduzca el código del objeto de coste. Todos los objetos de coste deben disponer de un código.  
 3.  En el campo **Nombre**, introduzca el nombre del objeto de coste.  
 4.  Seleccione la flecha desplegable del campo **Tipo línea** para especificar la finalidad del objeto de coste.  

@@ -11,10 +11,10 @@ ms.search.keywords: undo, credit memo, return
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 96430c92bf4fecbe98b53d09c06c82a5828b7326
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a74dcd8e2d0409ca7385ea8a47a78dd9a74561b6
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="correct-or-cancel-unpaid-sales-invoices"></a>Corregir o cancelar facturas de venta sin abonar
@@ -23,7 +23,7 @@ Puede corregir o cancelar una factura de venta registrada. Esto es útil si se c
 > [!NOTE]  
 >   Una vez que una factura de venta registrada se haya pagado parcial o totalmente, no puede corregirla o cancelarla de la factura de venta registrada en sí. En su lugar, debe crear manualmente un abono de venta para anular la venta y reembolsar al cliente, opcionalmente administrada con una orden de devolución de venta. Para obtener más información, vea [Procesar devoluciones de ventas o cancelaciones](sales-how-process-sales-returns-cancellations.md).
 
-En la ventana **Histórico facturas venta**, puede elegir las acciones **Corregir** o **Cancelar** para realizar las acciones que se describen en la tabla siguiente.
+En la página **Histórico facturas venta**, puede elegir las acciones **Corregir** o **Cancelar** para realizar las acciones que se describen en la tabla siguiente.
 
 | Acción | Descripción |
 | --- | --- |
@@ -38,7 +38,7 @@ Al corregir o cancelar una factura de ventas registrada, el abono de venta de co
 
     > [!NOTE]  
     >   Si se selecciona la casilla **Cancelado**, no puede corregir la factura de venta registrada porque ya se ha corregido o cancelado.
-3. En la ventana **Factura de ventas registrada**, elija la acción **Corregir**.  
+3. En la página **Factura de ventas registrada**, elija la acción **Corregir**.  
 4. Una nueva factura de venta con la misma información se crea donde puede realizar la corrección. El campo **Cancelado** en la factura de ventas registrada inicial se cambia a **Sí**.
 
     Un abono de venta se crea y se registra automáticamente para anular la factura de venta registrada inicial.
@@ -50,7 +50,7 @@ Al corregir o cancelar una factura de ventas registrada, el abono de venta de co
 
     > [!NOTE]  
     >   Si se selecciona la casilla **Cancelado**, no puede cancelar la factura de venta registrada porque ya se ha cancelado o corregido.
-3. En la ventana **Factura de ventas registrada**, elija la acción **Cancelar**.
+3. En la página **Factura de ventas registrada**, elija la acción **Cancelar**.
 
     Un abono de venta se crea y se registra automáticamente para anular la factura de venta registrada inicial. El campo **Cancelado** en la factura de ventas registrada inicial se cambia a **Sí**.
 4. Elija la acción **Mostrar abono correctivo** para ver el histórico de abonos de ventas que anula la factura de ventas registrada inicial.

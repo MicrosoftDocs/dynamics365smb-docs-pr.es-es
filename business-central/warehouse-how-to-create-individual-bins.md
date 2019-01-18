@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 7d5b2ce28f1eaebfca26c2db3801b44ff5278e78
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4df1de7eca8127c5ae2c46e04fecc5ca0f2c8302
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-bins"></a>Crear ubicaciones
-La forma más eficaz de crear las ubicaciones del almacén es generar grupos de ubicaciones similares en la hoja de trabajo de creación de ubicación, pero también puede crear las ubicaciones individualmente desde la ficha de almacén. También puede utilizar una función en la ventana **Hoja trab. creación ubicación** para crear las ubicaciones automáticamente.  
+La forma más eficaz de crear las ubicaciones del almacén es generar grupos de ubicaciones similares en la hoja de trabajo de creación de ubicación, pero también puede crear las ubicaciones individualmente desde la ficha de almacén. También puede utilizar una función en la página **Hoja trab. creación ubicación** para crear las ubicaciones automáticamente.  
 
 ## <a name="to-create-a-bin-from-the-location-card"></a>Para crear una ubicación desde la ficha de almacén  
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Ubicaciones** y elija el enlace relacionado.  
@@ -39,13 +39,13 @@ Antes de empezar a crear ubicaciones automáticamente, debe determinar el tipo d
 > [!NOTE]  
 >  En cuanto utilice una ubicación, no podrá eliminarla si no está vacía. Pero si desea utilizar otro sistema de denominación de ubicaciones, puede utilizar el diario de reclasificación para mover los productos a un nuevo sistema de ubicación. No obstante, este proceso es manual y lleva cierto tiempo, por lo que es mejor configurar sus ubicaciones correctamente desde el principio.  
 
-Para trabajar con la ventana **Hoja trab. creación ubicación**, debe estar configurado como empleado de almacén en el almacén donde estén las ubicaciones. Para obtener más información, vea [Configurar los empleados de almacén](warehouse-how-to-set-up-warehouse-employees.md).    
+Para trabajar con la página **Hoja trab. creación ubicación**, debe estar configurado como empleado de almacén en el almacén donde estén las ubicaciones. Para obtener más información, vea [Configurar los empleados de almacén](warehouse-how-to-set-up-warehouse-employees.md).    
 
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hoja trab. creación ubicación** y luego elija el enlace relacionado.  
 2.  Elija la acción **Calcular ubicaciones**.
-3. En la ventana **Calcular ubicaciones**, en el campo **Cód. plantilla ubicación**, seleccione la plantilla de ubicación que desea utilizar como modelo para las ubicaciones que va a crear.
+3. En la página **Calcular ubicaciones**, en el campo **Cód. plantilla ubicación**, seleccione la plantilla de ubicación que desea utilizar como modelo para las ubicaciones que va a crear.
 4.  Rellene una descripción para las ubicaciones que está creando.  
-5.  Para crear los códigos de ubicación, rellene los campos **Desde Nº** y **Hasta Nº** en las tres categorías que se muestran en la ventana: **Estantería**, **Sección** y **Nivel**. El código de ubicación puede tener hasta 20 caracteres.  
+5.  Para crear los códigos de ubicación, rellene los campos **Desde Nº** y **Hasta Nº** en las tres categorías que se muestran en la página: **Estantería**, **Sección** y **Nivel**. El código de ubicación puede tener hasta 20 caracteres.  
 
     > [!NOTE]  
     >  El número de caracteres que ha introducido en las tres categorías de cada campo (por ejemplo, los caracteres que ha introducido en los tres campos **Desde Nº**) además de los separadores de campo, si existen, debe ser 20 o menos.  

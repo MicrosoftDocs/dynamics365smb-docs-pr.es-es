@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d45b76e137dd2e8da752be489d16ac536da265e1
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 55cefad889557df37d8869926ee7e200cd145d03
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-shop-calendars"></a>Configurar calendarios de planta
@@ -39,7 +39,7 @@ Aunque en los centros de trabajo no se trabaje en diferentes turnos, introduzca 
 2.  En una línea en blanco, escriba un número en el campo **Código** que identifique el calendario de planta.  
 3.  Describa el calendario de planta en el campo **Descripción**.  
 4.  Seleccione la acción **Días laborables**.
-5.  En la ventana **Días laborables de calendario planta**, defina una semana laborable completa, con el comienzo y finalización para cada día.  
+5.  En la página **Días laborables de calendario planta**, defina una semana laborable completa, con el comienzo y finalización para cada día.  
 
     En el campo **Cód. turno trabajo**, seleccione uno de los turnos definidos previamente. Agregue una línea para cada día laborable y cada turno. Por ejemplo:  
 
@@ -55,10 +55,10 @@ Aunque en los centros de trabajo no se trabaje en diferentes turnos, introduzca 
 
     Los días de semana que no defina en el calendario de planta, como sábado y domingo, se consideran días no laborables y tendrán una capacidad disponible de cero en el calendario de un centro de trabajo.  
 
-    Una vez definidos todos los días laborables de una semana, puede cerrar la ventana **Días labor. calendario planta** y empezar a especificar las vacaciones.  
+    Una vez definidos todos los días laborables de una semana, puede cerrar la página **Días labor. calendario planta** y empezar a especificar las vacaciones:  
 
-6.  En la ventana **Calendarios de planta**, seleccione el calendario de planta y, después, seleccione la acción **Vacaciones**.
-7. En la ventana **Calendario de vacaciones de planta**, defina las vacaciones del año, especificando la fecha y la hora inicial, la hora final y una descripción de cada día festivo en distintas líneas. Por ejemplo:  
+6.  En la página **Calendarios de planta**, seleccione el calendario de planta y, después, seleccione la acción **Vacaciones**.
+7. En la página **Calendario de vacaciones de planta**, defina las vacaciones del año, especificando la fecha y la hora inicial, la hora final y una descripción de cada día festivo en distintas líneas. Por ejemplo:  
 
     04/07/14 0:00:00 23:59:00 Vacaciones de verano  
     05/07/14 0:00:00 23:59:00 Vacaciones de verano  
@@ -74,12 +74,12 @@ El calendario de planta se puede asignar ahora a un centro de trabajo para calcu
 2. Abra el centro de trabajo que desea actualizar.  
 3. En la el campo **Código de calendario de planta**, seleccione qué calendario de planta se va a utilizar como base de un calendario de centro de trabajo.  
 4. Elija la acción **Calendario**.  
-5. En la ventana **Calendario de centro de trabajo**, elija la acción **Mostrar matriz**.  
+5. En la página **Calendario de centro de trabajo**, elija la acción **Mostrar matriz**.  
 
-    En el margen izquierdo de la ventana de matriz se incluyen los centros de trabajo definidos. En el margen derecho, se muestra un calendario en el que se indican los valores de capacidad disponible para cada día laborable en la unidad de medida definida, por ejemplo, **480** minutos. Cada línea representa el calendario de un centro de trabajo.  
+    En el margen izquierdo de la página de matriz se incluyen los centros de trabajo definidos. En el margen derecho, se muestra un calendario en el que se indican los valores de capacidad disponible para cada día laborable en la unidad de medida definida, por ejemplo, **480** minutos. Cada línea representa el calendario de un centro de trabajo.  
 
     > [!NOTE]  
-    >  También puede ver los valores de capacidad de cada semana o mes al cambiar la selección en el campo **Ver por** de la ventana **Calendario centro trabajo**.  
+    >  También puede ver los valores de capacidad de cada semana o mes al cambiar la selección en el campo **Ver por** de la página **Calendario centro trabajo**.  
 
     Para reflejar el nuevo calendario de planta como una línea en el centro de trabajo seleccionado, primero se debe calcular.  
 
@@ -97,13 +97,13 @@ Ahora se crearán o actualizarán los movimientos del calendario para mostrar la
 El calendario calculado del centro de trabajo definirá ahora cuándo y cuánta capacidad hay disponible en este centro de trabajo. Esto controla la programación detallada de las operaciones realizadas en el centro de trabajo.  
 
 ## <a name="to-record-work-center-absence"></a>Para registrar las ausencias en el centro de trabajo  
-1.  En la ventana **Calendario de centro de trabajo**, elija la acción **Mostrar matriz**.
-2. En la ventana **Matriz de calendario de centro de trabajo**, seleccione el centro de trabajo y el día de calendario donde debe registrarse el tiempo de ausencia y, a continuación, seleccione la acción **Ausencia**.  
-3.  En la ventana **Ausencia**, defina la hora de inicio, la hora de finalización y la descripción del día de ausencia. Por ejemplo:  
+1.  En la página **Calendario de centro de trabajo**, elija la acción **Mostrar matriz**.
+2. En la página **Matriz de calendario de centro de trabajo**, seleccione el centro de trabajo y el día de calendario donde debe registrarse el tiempo de ausencia y, a continuación, seleccione la acción **Ausencia**.  
+3.  En la página **Ausencia**, defina la hora de inicio, la hora de finalización y la descripción del día de ausencia. Por ejemplo:  
 
     25/01/01 08:00 10:00 Mantenimiento  
 
-4.  Seleccione la acción **Actualizar** y luego cierre la ventana **Ausencia**.  
+4.  Seleccione la acción **Actualizar** y luego cierre la página **Ausencia**.  
 
 El tiempo de ausencia registrado se reduce de la capacidad del día seleccionado.  
 

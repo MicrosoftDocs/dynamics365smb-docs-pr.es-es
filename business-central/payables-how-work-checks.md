@@ -11,10 +11,10 @@ ms.search.keywords: payment journal, print check, vendor payment, creditor, debt
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 572831f99559a65c490dcb93e13fba3bdfc57688
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4dd8f50f4d7767cb70b53a16009b86f135a5f5c6
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="make-check-payments"></a>Realizar pagos por cheque
@@ -42,7 +42,7 @@ A continuación se describe cómo pagar a un proveedor mediante un cheque. Los p
 3. En el campo **Cód. forma pago**, seleccione **Cheque**.
 4. En el campo **Tipo pago por banco**, seleccione **Cheque automático**.
 5. Seleccione la acción **Imprimir cheque**.
-6. En la ventana **Cheque**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+6. En la página **Cheque**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. Seleccione el botón **Enviar a**, seleccione la opción **Documento PDF** y, a continuación, el botón **Aceptar**.
 
     Los cheques físicos ahora se pueden llevar al banco para que los procesen. Proceda a publicar el pago tal como se le aplica al proveedor y, por lo tanto, pagado en el sistema.
@@ -54,16 +54,16 @@ Se crean los movimientos de contabilidad de proveedores y de cuenta bancaria tot
 > Si quiere imprimir y pagar cheques en varias divisas de cuentas bancarias distintas, deberá ejecutar el proceso **Imprimir cheque** por separado para cada divisa y especificar la cuenta bancaria correspondiente.
 
 ## <a name="to-cancel-printed-checks-that-are-not-posted"></a>Para anular los cheques imprimidos que no han sido registrados
-Puede anular los cheques no registrados después de que hayan sido imprimidos usando la acción **Anular cheque** de la ventana **Diario de pagos**.
+Puede anular los cheques no registrados después de que hayan sido imprimidos usando la acción **Anular cheque** de la página **Diario de pagos**.
 
-1. En la ventana **Diario de pagos**, seleccione **Anular cheque** y, a continuación, seleccione que cheques desea cancelar.
+1. En la página **Diario de pagos**, seleccione **Anular cheque** y, a continuación, seleccione qué cheques desea cancelar.
 
 ## <a name="to-void-checks"></a>Para anular cheques
 Cuando se ha registrado el pago del cheque, solo puede cancelar (anular) cheques en los movimientos resultantes del banco.
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Cuentas bancarias** y luego elija el enlace relacionado.
 2. Seleccione la cuenta bancaria correspondiente, seleccione la acción **Editar** y, a continuación, seleccione la acción **Movs. cheques**.
-3. En la ventana **Movs. cheques**, seleccione la acción **Anular cheque**.
+3. En la página **Movs. cheques**, seleccione la acción **Anular cheque**.
 4. Seleccione la casilla **Anular cheque solo**.
 5. Elija el botón **Aceptar**.
 

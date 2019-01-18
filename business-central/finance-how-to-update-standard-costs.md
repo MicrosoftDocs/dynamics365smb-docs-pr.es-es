@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c59977f847a020fbcda490893dbe15ed88ac1e5a
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 88e715ddd2c60c3eb780ffe71d80676fdea00209
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="update-standard-costs"></a>Actualizar costes estándar
@@ -40,7 +40,7 @@ Para obtener más información, consulte [Acerca de Calcular el coste estándar]
     5. Ejecute el proceso **Distribuir coste estándar**.
     6.  Revise los resultados y realice los cambios que considere necesarios.
     7.  Ejecute el proceso **Implementar cambios de coste estándar**.  
-4.  Revise y registre la ventana **Diario revalorizac.**, la cual se ha rellenado con entradas provenientes de los pasos anteriores del proceso.  
+4.  Revise y registre la página **Diario revalorizac.** , el cual se ha rellenado con entradas provenientes de los pasos anteriores del proceso.  
 
 ## <a name="see-also"></a>Consulte también  
  [Acerca del cálculo de coste estándar](finance-about-calculating-standard-cost.md)   

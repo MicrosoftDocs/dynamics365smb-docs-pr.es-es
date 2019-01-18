@@ -11,10 +11,10 @@ ms.search.keywords: contacts, profiles
 ms.author: edupont
 ms.date: 10/01/2018
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6a69a5de1ac0d6e2d238415204ec95fad9af7b9b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: edd2cae058d31e8f65d43ef14a5a96a294adf8d1
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -42,7 +42,7 @@ Tras crear un cuestionario, debe crear clasificaciones de contactos para clasifi
 > Si especifica una pregunta que el sistema responde de forma automática, seleccione <STRONG>Línea</STRONG> y, a continuación, <STRONG>Detalles pregunta</STRONG> para especificar los criterios para responder a la pregunta automáticamente.
 
 ## <a name="the-automatic-classification-of-contacts"></a>la clasificación automática de los contactos
-Puede clasificar automáticamente sus contactos según la información de cliente, proveedor y contacto, si configura las preguntas del perfil en la ventana **Config. cuestionario perfil**.  
+Puede clasificar automáticamente sus contactos según la información de cliente, proveedor y contacto, si configura las preguntas del perfil en la página **Config. cuestionario perfil**.  
 
 > [!NOTE]
 > Sólo a los contactos registrados como clientes se les puede asignar una clasificación según los datos de cliente y sólo a los contactos registrados como proveedores se les puede asignar una clasificación según datos de proveedor. La clasificación automática no se actualiza automáticamente. Por lo tanto, quizás desee actualizar los cuestionarios de perfil, después de actualizar los datos del cliente, proveedor o contacto en los que se basa.  
@@ -73,13 +73,13 @@ Puede clasificar sus contactos según el volumen de compras que le hagan:
 <td><p>contactos que han comprado de 100.000 DL hasta 499.999 DL</p></td>
 </tr>
 <tr class="odd">
-<td><p>C</p></td>
+<td><p>U</p></td>
 <td><p>contactos que han comprado 99.999 DL o menos</p></td>
 </tr>
 </tbody>
 </table>
 
-Para ello, rellene los datos de la ventana **Config. cuestionario perfil** de esta manera:
+Para ello, rellene los datos de la página **Config. cuestionario perfil** de esta manera:
 
 
 <table>
@@ -92,7 +92,7 @@ Para ello, rellene los datos de la ventana **Config. cuestionario perfil** de es
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Tipo</strong></th>
+<th><strong>Escriba</strong></th>
 <th><strong>Descripción</strong></th>
 <th><strong>Clasificación automática</strong></th>
 <th><strong>Desde valor</strong></th>
@@ -104,34 +104,34 @@ Para ello, rellene los datos de la ventana **Config. cuestionario perfil** de es
 <td><p>Pregunta</p></td>
 <td><p>Clasificación ABC</p></td>
 <td><p>Haga clic para activar el campo</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
 </tr>
 <tr class="even">
 <td><p>Respuesta</p></td>
 <td><p>A</p></td>
-<td><p> </p></td>
+<td><p> </p></td>
 <td><p>500.000</p></td>
-<td><p> </p></td>
+<td><p> </p></td>
 </tr>
 <tr class="odd">
 <td><p>Respuesta</p></td>
-<td><p>B</p></td>
-<td><p> </p></td>
-<td><p>100.000</p></td>
-<td><p>499.999</p></td>
+<td><p>P</p></td>
+<td><p> </p></td>
+<td><p>100,000</p></td>
+<td><p>499,999</p></td>
 </tr>
 <tr class="even">
 <td><p>Respuesta</p></td>
-<td><p>C</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p>99.999</p></td>
+<td><p>U</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+<td><p>99,999</p></td>
 </tr>
 </tbody>
 </table>
 
-A continuación, rellene los datos de la ventana **Detalles pregunta perfil** de la siguiente manera:
+A continuación, rellene los datos de la página **Detalles pregunta perfil** de la siguiente manera:
 <table>
 <colgroup>
 <col style="width: 50%" />

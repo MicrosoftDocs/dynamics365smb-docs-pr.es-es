@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2b86e0bfd0e746262ee3f7418a63b960736666d7
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 046563cae01c4ecf016ddc4f89bbb3d4a5d4def1
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="export-vat-statements-in-xml-format"></a>Exportar declaraciones de IVA en formato XML
@@ -34,7 +34,7 @@ Para obtener más información, consulte el sitio web de la [Agencia Tributaria]
     >   
     >  En la versión estándar de [!INCLUDE[d365fin](../../includes/d365fin_md.md)], el nombre de la declaración del IVA para la declaración telemática 392 es del tipo **Informe 1 columna**.  
 
-3.  En la ficha desplegable **Declaración IVA en XML** de la ventana **Opciones**, rellene los campos tal y como se describe en la tabla siguiente.  
+3.  En la ficha desplegable **Declaración IVA en XML** de la página **Opciones**, rellene los campos tal y como se describe en la tabla siguiente.  
   
     |Campo|Description|  
     |---------------------------------|---------------------------------------|  
@@ -46,7 +46,7 @@ Para obtener más información, consulte el sitio web de la [Agencia Tributaria]
 
     Opcionalmente, seleccione los filtros adicionales.  
 5.  Elija el botón **Aceptar**.  
-6.  En la ventana **Formato de transferencia XML**, verifique que la declaración de IVA se configura correctamente y después seleccione el botón **Aceptar**  
+6.  En la página **Formato de transferencia XML**, verifique que la declaración de IVA se configura correctamente y después seleccione el botón **Aceptar**.  
 
 Puede abrir o guardar el archivo XML generado. Ahora puede enviar la declaración del IVA a las autoridades fiscales.  
 

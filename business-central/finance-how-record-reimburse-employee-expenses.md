@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
-ms.date: 10/01/2018
+ms.date: 11/27/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 75e2615dfd7af8ec6269affb0a61f75adf1c6d97
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 30d10c443bd69acfec9a30bacef5a8f0d8aece3f
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="record-and-reimburse-employees-expenses"></a>Registro y reembolso de los costes de los empleados
@@ -28,18 +28,21 @@ ms.lasthandoff: 09/28/2018
 Si los empleados gastan su propio dinero durante las actividades comerciales, puede registrar el gasto en la cuenta del empleado. De este modo, puede reembolsar al empleado mediante un pago a su cuenta bancaria, del mismo modo que paga a los proveedores.
 
 ## <a name="to-record-an-employees-expense"></a>Registrar el gasto de un empleado
-Puede registrar los costes de los empleados en la ventana **Diario general**.
+Puede registrar los costes de los empleados en la página **Diario general**.
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diarios generales** y luego elija el enlace relacionado.
 2. Abra la sección del diario general correspondiente. Para obtener más información, consulte [Trabajar con diarios generales](ui-work-general-journals.md).
 3. En una línea nueva de diario, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]    
+
+    > [!NOTE]
+    > [!INCLUDE[journal-showhide-columns-inline-tip](includes/journal-showhide-columns-inline-tip.md)]
 4. Repita el paso 3 para todos los gastos que el empleado ha incurrido.
 
     > [!TIP]  
-    > Si desea introducir varias líneas de gastos sobre una línea de cuenta de contrapartida para la cuenta bancaria del empleado, seleccione la casilla de verificación **Sugerir importe de compensación** en la línea de la sección en la ventana **Secciones diario general**. El campo **Importe** de la línea de la cuenta de contrapartida se rellena previamente de forma automática con el valor que se requiere para compensar los gastos.
+    > Si desea introducir varias líneas de gastos sobre una línea de cuenta de contrapartida para la cuenta bancaria del empleado, seleccione la casilla de verificación **Sugerir importe de compensación** en la línea de la sección en la página **Secciones diario general**. El campo **Importe** de la línea de la cuenta de contrapartida se rellena previamente de forma automática con el valor que se requiere para compensar los gastos.
 5. Seleccione la acción **Registrar** para registrar gastos de la cuenta del empleado.
 
 ## <a name="to-reimburse-an-employee"></a>Reembolsar al empleado
-Reembolse a los empleados mediante pagos a su cuenta bancaria en la ventana **Diario de pagos**.
+Reembolse a los empleados mediante pagos a su cuenta bancaria en la página **Diario de pagos**.
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diarios de pagos** y luego elija el enlace relacionado.
 2. Abra la sección del diario de pagos correspondiente. Para obtener más información, consulte [Trabajar con diarios generales](ui-work-general-journals.md).
 3. Rellene los campos según sea necesario. Para obtener más información, consulte [Creación de pagos](payables-make-payments.md).
@@ -47,7 +50,7 @@ Reembolse a los empleados mediante pagos a su cuenta bancaria en la ventana **Di
 5. Seleccione la acción **Registrar** para registrar el reembolso.  
 
 ## <a name="to-reconcile-reimbursements-with-employee-ledger-entries"></a>Conciliar reembolsos con movimientos de empleado
-Aplique los pagos de los empleados a las entradas del libro mayor relacionadas, de la misma manera que lo hace para los pagos a proveedores, por ejemplo, en la ventana **Diario de conciliación de pagos**, en función de las entradas del extracto bancario relacionadas. Para obtener más información, vea [Liquidación de pagos automáticamente y conciliación de cuentas bancarias](receivables-apply-payments-auto-reconcile-bank-accounts.md). Opcionalmente, puede liquidar manualmente en la ventana **Movimientos de los empleados**. Para obtener más información, consulte el tema relacionado [Conciliar pagos de proveedor manualmente](payables-how-apply-purchase-transactions-manually.md).  
+Aplique los pagos de los empleados a las entradas del libro mayor relacionadas, de la misma manera que lo hace para los pagos a proveedores, por ejemplo, en la página **Diario de conciliación de pagos**, en función de las entradas del extracto bancario relacionadas. Para obtener más información, vea [Liquidación de pagos automáticamente y conciliación de cuentas bancarias](receivables-apply-payments-auto-reconcile-bank-accounts.md). Opcionalmente, puede liquidar manualmente en la página **Movimientos de los empleados**. Para obtener más información, consulte el tema relacionado [Conciliar pagos de proveedor manualmente](payables-how-apply-purchase-transactions-manually.md).  
 
 ## <a name="see-also"></a>Consulte también
 [Registrar transacciones directamente en la contabilidad](finance-how-post-transactions-directly.md)  

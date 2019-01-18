@@ -13,10 +13,10 @@ ms.search.keywords: posting setup, initialize
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4237bba8b7b3464242cacfcdbba954c321e5e04a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 732b69df44681d3cc63391bc87c0645ed7e5e1a5
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="setting-up-posting-groups"></a>Configurar los grupos contables
@@ -32,21 +32,21 @@ Las tablas siguientes describen los grupos contables con cada división.
 
 | Grupos contables | Descripción |
 | --- | --- |
-| Grupos contables negocio |Asigne este grupo a proveedores y clientes para especificar a quién vende y de quién compra. Configúrelos en la ventana **Grupos contables negocio**. Al hacerlo, piense en cuántos grupos necesita para desglosar las ventas y las compras. Por ejemplo, agrupe clientes y proveedores por área geográfica, o el tipo de negocio. |
-| Grupos contables de producto |Asigne este grupo a productos y recursos para especificar lo que vende y lo que compra. Configúrelos en la ventana **Grupos contables productos**. Al hacerlo, considere el número de grupos que necesitará para desglosar las ventas por producto (productos y recursos) y las compras por producto. Por ejemplo, divida estos grupos por materias primas, mercaderías, recursos, capacidad, etc. |
-| Configuraciones grupos contables |Combine grupos contables de negocio y de producto, y seleccione las cuentas en las que se registrarán. Para cada combinación de grupos contables de negocios y productos, puede asignar un conjunto de cuentas de contabilidad. Por ejemplo, esto significa que puede registrar la venta del mismo producto en diferentes cuentas de ventas en la contabilidad porque varios clientes se asignan a diferentes grupos contables de negocio. Configúrelos en la ventana **Configuración grupos contables**. |
+| Grupos contables negocio |Asigne este grupo a proveedores y clientes para especificar a quién vende y de quién compra. Configúrelos en la página **Grupos contables negocio**. Al hacerlo, piense en cuántos grupos necesita para desglosar las ventas y las compras. Por ejemplo, agrupe clientes y proveedores por área geográfica, o el tipo de negocio. |
+| Grupos contables de producto |Asigne este grupo a productos y recursos para especificar lo que vende y lo que compra. Configúrelos en la página **Grupos registro producto gen.**. Al hacerlo, considere el número de grupos que necesitará para desglosar las ventas por producto (productos y recursos) y las compras por producto. Por ejemplo, divida estos grupos por materias primas, mercaderías, recursos, capacidad, etc. |
+| Configuraciones grupos contables |Combine grupos contables de negocio y de producto, y seleccione las cuentas en las que se registrarán. Para cada combinación de grupos contables de negocios y productos, puede asignar un conjunto de cuentas de contabilidad. Por ejemplo, esto significa que puede registrar la venta del mismo producto en diferentes cuentas de ventas en la contabilidad porque varios clientes se asignan a diferentes grupos contables de negocio. Configúrelos en la página **Configuración grupos contables**. |
 
-| Grupos contables concretos | Descripción |
+| Grupos contables concretos | Description |
 | --- | --- |
-| Grupos contables clientes |Defina las cuentas que usará al enviar transacciones de cobros. Si usa existencias y cobros, el grupo contable de negocio general asignado al cliente y el grupo contable de producto general asignado al producto de existencias determinan las cuentas en las que se registran las líneas de pedido de ventas. Configúrelos en la ventana **Grupos contables clientes**. |
-| Grupos contables proveedores |Defina dónde registrar las transacciones de las cuentas de pagos, las cuentas de servicios y las cuentas de descuentos. Esto es similar a los grupos contables de cliente. Configúrelos en la ventana **Grupos contables proveedores**. |
-| Grupos contables inventario |Defina las cuentas de existencias de balance. También constituyen una forma adecuada de organizar las existencias, por lo tanto, puede dividir los productos por grupo contable al generar los informes. Configúrelos en la ventana **Grupos contables inventario**. |
-| Grupos contables bancos |Defina las cuentas de las cuentas bancarias. Por ejemplo, esto puede simplificar los procesos de seguimiento de las transacciones y de conciliación de cuentas bancarias. Configúrelos en la ventana **Grupos contables bancos**. |
-| Grupos contables de activos fijos |Defina las cuentas para diferentes tipos de gastos y costes, como los costes de adquisición, los importes de amortización acumulados, los costes de adquisición en venta/baja, la amortización acumulada en baja, la ganancia en venta/baja, la pérdida en venta/baja, los gastos de mantenimiento y los gastos de amortización. Configúrelos en la ventana **A/F Grupos contables**. |
+| Grupos registro cliente |Defina las cuentas que usará al enviar transacciones de cobros. Si usa existencias y cobros, el grupo contable de negocio general asignado al cliente y el grupo contable de producto general asignado al producto de existencias determinan las cuentas en las que se registran las líneas de pedido de ventas. Configúrelos en la página **Grupos contables clientes**. |
+| Grupos registro proveedor |Defina dónde registrar las transacciones de las cuentas de pagos, las cuentas de servicios y las cuentas de descuentos. Esto es similar a los grupos contables de cliente. Configúrelos en la página **Grupos contables proveedores**. |
+| Grupos registro inventario |Defina las cuentas de existencias de balance. También constituyen una forma adecuada de organizar las existencias, por lo tanto, puede dividir los productos por grupo contable al generar los informes. Configúrelos en la página **Grupos contables existencias**. |
+| Grupos registro cuenta bancaria |Defina las cuentas de las cuentas bancarias. Por ejemplo, esto puede simplificar los procesos de seguimiento de las transacciones y de conciliación de cuentas bancarias. Configúrelos en la página **Grupos contables bancos**. |
+| Grupos contables de activos fijos |Defina las cuentas para diferentes tipos de gastos y costes, como los costes de adquisición, los importes de amortización acumulados, los costes de adquisición en venta/baja, la amortización acumulada en baja, la ganancia en venta/baja, la pérdida en venta/baja, los gastos de mantenimiento y los gastos de amortización. Configúrelos en la página **Grupos registro A/F**. |
 
-| Grupo contable impuesto | Descripción |
+| Grupo contable impuesto | Description |
 | --- | --- |
-| Grupos contables negocio impuesto |Determine cómo calcular y registrar el impuesto de venta para clientes y proveedores. Configúrelos en la ventana **Grupos contables negocio impuesto**. Al hacerlo, piense en cuántos grupos necesita. Por ejemplo, esto puede depender de factores como la legislación local y si la actividad económica de la empresa es tanto nacional como internacional. |
+| Grupos contables negocio impuesto |Determine cómo calcular y registrar el impuesto de venta para clientes y proveedores. Configúrelos en la página **Grupos contables negocio impuesto**. Al hacerlo, piense en cuántos grupos necesita. Por ejemplo, esto puede depender de factores como la legislación local y si la actividad económica de la empresa es tanto nacional como internacional. |
 | Grupos contables productos impuesto |Indique los cálculos de impuesto necesarios para los tipos de productos o recursos que compre o venda. |
 | Configuración de registro impuesto |Combine grupos registro IVA negocio y grupos registro IVA producto. Cuando rellene una línea de diario general, línea de compra o línea de venta, examinaremos la combinación para identificar las cuentas que se deben usar. |
 
@@ -73,7 +73,7 @@ Al crear un documento de ventas, el encabezado de ventas usa la información de 
 La configuración determina cuándo se realiza el registro. Por ejemplo, el tiempo se ve afectado por el momento en que realiza actividades periódicas, como registrar el coste de inventario o ajustar los movimientos de producto de coste.
 
 ## <a name="copying-posting-setup-lines"></a>Copiar líneas de configuración de grupos contables
-Cuantos más grupos contables de producto y de negocio tenga, más líneas habrá en la ventana Configuración grupos contables. Ello podría conllevar la introducción de muchos datos para configurar los grupos contables de la empresa. Si bien puede haber muchas combinaciones distintas de grupos contables de negocio y de producto, las distintas combinaciones podrían crear registros en las mismas cuentas de contabilidad. Para limitar la introducción manual de los datos, copie las cuentas de contabilidad de una línea existente en la ventana **Configuración grupos contables**.
+Cuantos más grupos contables de producto y de negocio tenga, más líneas habrá en la página Configuración grupos contables. Ello podría conllevar la introducción de muchos datos para configurar los grupos contables de la empresa. Si bien puede haber muchas combinaciones distintas de grupos contables de negocio y de producto, las distintas combinaciones podrían crear registros en las mismas cuentas de contabilidad. Para limitar la introducción manual de los datos, copie las cuentas de contabilidad de una línea existente en la página **Configuración grupos contables**.
 
 ## <a name="see-also"></a>Consulte también .
 [Libro mayor y plan de cuentas](finance-general-ledger.md)  

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/08/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: c1675921c82ddf00f6a00f94bb38bd594a9a0089
+ms.sourcegitcommit: 46a37fb00319647ea1c4b4630e4d9369687dd7cf
+ms.openlocfilehash: 26057b4838681b4b6036c4a56aab4fd6d49ac1dd
 ms.contentlocale: es-es
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 11/12/2018
 
 ---
 # <a name="administration"></a>Administración
@@ -27,7 +27,7 @@ Tanto si utiliza RapidStart Services para implementar los valores de configuraci
 Un superusuario o un administrador puede configurar el marco de intercambio de datos para que los usuarios puedan exportar e importar los datos de los archivos de banco y de nómina, por ejemplo, para diferentes procesos de tesorería.
 
 > [!NOTE]
-> Puede configurar una nueva empresa en [!INCLUDE[d365fin](includes/d365fin_md.md)] con RapidStart Services, que es una herramienta diseñada para acortar los tiempos de implementación, mejorar la calidad de la implementación, introducir un método de repetición para las implementaciones y mejorar la productividad mediante la automatización y simplificación de las tareas periódicas. Para obtener más información, consulte ## [Configuración de una empresa con RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
+> Puede configurar una nueva empresa en [!INCLUDE[d365fin](includes/d365fin_md.md)] con RapidStart Services, que es una herramienta diseñada para acortar los tiempos de implementación, mejorar la calidad de la implementación, introducir un método de repetición para las implementaciones y mejorar la productividad mediante la automatización y simplificación de las tareas periódicas. Para obtener más información, consulte [Configuración de una empresa con RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
 En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.   
 
@@ -44,6 +44,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Administre, elimine, o comprima los documentos|[Eliminar documentos](admin-manage-documents.md)|  
 |Exponga las páginas, las unidades de código y las consultas como servicios web.|[Publicar un servicio web](across-how-publish-web-service.md)|
 |Como parte de la creación de aplicaciones de Connect entre soluciones de [!INCLUDE[d365fin](includes/d365fin_md.md)] y de terceros a través de las API de REST, defina plantillas que se utilizan para completar propiedades vacías en una entidad cuando crea una acción POST a través de una API.|[Configuración de plantillas API](admin-configuring-api-template.md)|
+|Cifre los datos en el servidor de [!INCLUDE[d365fin](includes/d365fin_md.md)] generando claves de cifrado nuevas o importando claves existentes que se activarán en el servidor.|[Administración del cifrado de datos](admin-manage-data-encryption.md)|
 
 ## <a name="see-also"></a>Consulte también
 [Funciones empresariales](across-business-functionality.md)  

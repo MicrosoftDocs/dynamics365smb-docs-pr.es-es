@@ -13,10 +13,10 @@ ms.search.keywords: warehouse, distribution center
 ms.date: 10/01/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 503655e65b7df83c89e52d76a22396b672b2d28e
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 828979bf181f1cd7f7a66d2c7c8ac8a2700b732b
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-locations"></a>Configurar ubicaciones
@@ -27,7 +27,7 @@ Así podrá crear las líneas de documento para un almacén específico, consult
 ## <a name="to-create-a-location-card"></a>Para crear una ficha de almacén
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Ubicaciones** y luego elija el enlace relacionado.
 2. Seleccione la acción **Nuevo**.
-3. En la ventana **Ficha de almacén**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. En la página **Ficha de almacén**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Repita los pasos 2 y 3 para cada almacén en el que desea guardar el inventario.
 
 > [!NOTE]  
@@ -35,9 +35,9 @@ Así podrá crear las líneas de documento para un almacén específico, consult
 
 ## <a name="to-create-a-transfer-route"></a>Para crear una ruta de transferencia
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Rutas de transferencia** y luego elija el enlace relacionado.
-2. Opcionalmente, desde cualquier ventana **Ficha almacén**, elija la acción **Rutas de transferencia**.
+2. Opcionalmente, desde cualquier página **Ficha almacén**, elija la acción **Rutas de transferencia**.
 3. Seleccione la acción **Nuevo**.
-4. En la ventana **Ficha de almacén**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. En la página **Ficha de almacén**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Ahora puede transferir productos de inventario entre dos almacenes. Para obtener más información, vea [Transferir el inventario entre almacenes](inventory-how-transfer-between-locations.md).    
 

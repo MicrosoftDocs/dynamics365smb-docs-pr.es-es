@@ -14,10 +14,10 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fa9f014519994ccd69200d8a015efb77bfbcb4fc
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 10d41fd87408a4dfe8d1b5de368c1a32a45e489b
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-loading-the-inventory-profiles"></a>Detalles de diseño: Carga de los perfiles de inventario
@@ -45,7 +45,7 @@ Para organizar los numerosos orígenes de demanda y suministro, el sistema de pl
  El sistema de planificación lo controla mediante la ejecución a través del perfil de inventario. Cuando se encuentra una nueva combinación, el programa crea un registro de control interno que contiene la información de combinación real. El programa inserta la UA como el registro de control, o bucle externo. Como resultado, se establecerán los parámetros de planificación adecuados según una combinación de variante y almacén, y el programa podrá proceder al bucle interno.  
 
 > [!NOTE]  
->  El programa no requiere que el usuario introduzca un registro de UA al introducir la demanda o el suministro de una determinada combinación de variante y ubicación. Por lo tanto, si no exista una UA para una combinación determinada, el programa crea su propio registro de UA temporal según los datos de la ficha de producto. Si Almacén obligatorio se establece en Sí en la ventana de configuración del inventario, se debe crear una UA o bien los componentes en el almacén deben definirse en Sí. Para obtener más información, consulte [Detalles de diseño: Demanda en almacén vacío](design-details-demand-at-blank-location.md).  
+>  El programa no requiere que el usuario introduzca un registro de UA al introducir la demanda o el suministro de una determinada combinación de variante y ubicación. Por lo tanto, si no exista una UA para una combinación determinada, el programa crea su propio registro de UA temporal según los datos de la ficha de producto. Si Almacén obligatorio se establece en Sí en la página de configuración del inventario, se debe crear una UA o bien los componentes en el almacén deben definirse en Sí. Para obtener más información, consulte [Detalles de diseño: Demanda en almacén vacío](design-details-demand-at-blank-location.md).  
 
 ## <a name="seriallot-numbers-are-loaded-by-specification-level"></a>Los números de serie y de lote se cargan por nivel de especificación  
  Los atributos en forma de números de serie o lote se cargan en los perfiles de inventario, junto con la demanda y el aprovisionamiento a los que están asignados.  

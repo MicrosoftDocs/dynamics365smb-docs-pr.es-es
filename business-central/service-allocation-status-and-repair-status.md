@@ -13,21 +13,21 @@ ms.search.keywords: resources, allocation, status, repairs
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 014ede5232017bb090fa6cd33816064a6c4b99b8
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 932abf3ee69f429c322fe82e150fa7a8f4aef8e8
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="allocation-status-and-repair-status-of-service-items"></a>Estado de asignación y estado de reparación de productos de servicio
-El estado de reparación y el estado de asignación de los movimientos de asignación de los productos de servicio están relacionados en Gestión de servicios. El estado de asignación cambia cuando se modifica el estado de reparación del producto de servicio a **Terminado** o **Parcialmente servido**, y cuando se convierte una oferta de servicio en un pedido de servicio. El estado de reparación del producto de servicio cambia cuando se cancela la asignación de producto de servicio o se reasigna el producto de servicio a otro recurso. Puede ver el estado de reparación de productos de servicio en la ventana **Tareas servicio** y actualizar el estado de reparación en el campo **Cód. estado reparación** en la ventana **Hoja trabajo prod. serv.** Puede ver el estado de asignación en el campo **Estado** de la ventana **Asignaciones recurso**.  
+El estado de reparación y el estado de asignación de los movimientos de asignación de los productos de servicio están relacionados en Gestión de servicios. El estado de asignación cambia cuando se modifica el estado de reparación del producto de servicio a **Terminado** o **Parcialmente servido**, y cuando se convierte una oferta de servicio en un pedido de servicio. El estado de reparación del producto de servicio cambia cuando se cancela la asignación de producto de servicio o se reasigna el producto de servicio a otro recurso. Puede ver el estado de reparación de productos de servicio en la página **Tareas servicio** y actualizar el estado de reparación en el campo **Cód. estado reparación** en la página **Hoja trabajo prod. serv.** Puede ver el estado de asignación en el campo **Estado** de la página **Asignaciones recurso**.  
   
 ## <a name="changing-repair-status"></a>Modificar el estado de reparación  
 Cuando se modifica el estado de reparación de un producto de servicio de una línea de producto de servicio, se realiza una búsqueda del movimiento de asignación correspondiente al producto de servicio cuyo estado sea **Activo**. Si se encuentra el movimiento de asignación, se actualiza su estado en una de las siguientes formas:  
   
 * Si cambia el estado de reparación a **Terminado**, se modifica el estado de asignación de **Activo** a **Terminado**.  
 * Si cambia el estado de reparación a **Parcialmente servido**, es decir, se ha realizado parte del servicio, o **Remitido**, no se ha realizado ningún servicio, el programa modifica el estado de asignación de **Activo** a **Reasignación necesaria**.  
-* Cuando se crea un movimiento de asignación de pedido de servicio que indica que no se ha asignado ningún recurso, se establece el campo **Estado** de la ventana **Asignaciones recurso** como **Inactivo**.  
+* Cuando se crea un movimiento de asignación de pedido de servicio que indica que no se ha asignado ningún recurso, se establece el campo **Estado** de la página **Asignaciones recurso** como **Inactivo**.  
 * Se establece el estado del movimiento de asignación como **Cancelado** cuando se reasigna el producto de servicio remitido en el movimiento de asignación de pedido de servicio, lo que indica que el recurso o grupo de recursos asignado no ha intentado realizar la tarea de servicio.  
   
 El estado de asignación indica cuando ha terminado el proceso de servicio o cuando resulta necesario otro recurso para finalizar el servicio del producto de servicio.  

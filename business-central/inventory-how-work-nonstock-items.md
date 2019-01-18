@@ -12,10 +12,10 @@ ms.search.keywords: non-inventoriable
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: feef36443adef82329fe47573dd05cc6941b9d87
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c65d498fb63668a6cd83f61303ae99c54d0a2452
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-catalog-items"></a>Trabajar con productos del catálogo
@@ -25,8 +25,8 @@ Puede ofrecer varios productos a sus clientes para su comodidad que no desea ges
 * Desde una línea de pedido de ventas del tipo **Producto** con un campo ***N.º** vacío, seleccione un producto del catálogo. A continuación, se crea automáticamente una ficha de producto para el producto del catálogo.
 
 > [!NOTE]  
-> No puede seleccionar un producto del catálogo de la ventana **Facturas venta**.<br /><br />
-> Puede seleccionarlo desde la ventana **Oferta de ventas**, pero el producto del catálogo no se convertirá en uno normal cuando utilice la función **Realizar pedido**.
+> No puede seleccionar un producto del catálogo de la página **Facturas venta**.<br /><br />
+> Puede seleccionarlo desde la página **Oferta de ventas**, pero el producto del catálogo no se convertirá en uno normal cuando utilice la función **Realizar pedido**.
 
 Un producto del catálogo normalmente tiene el número del proveedor que lo suministra. Para activar la conversión de una ficha de producto del catálogo a una ficha normal, debe configurar cómo se convertirá la numeración del producto del vendedor a la suya.   
 
@@ -49,7 +49,7 @@ Para activar la conversión de una ficha de producto del catálogo en una ficha 
 ## <a name="to-convert-a-catalog-item-to-a-normal-item"></a>Para convertir un producto del catálogo en un producto normal
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Productos del catálogo** y luego elija el enlace relacionado.
 2. Abra la ficha de un producto del catálogo que desee convertir a uno normal.
-3. En la ventana **Ficha de producto del catálogo**, seleccione la acción **Crear producto**.
+3. En la página **Ficha de producto del catálogo**, seleccione la acción **Crear producto**.
 
 Se ha creado una plantilla y una nueva ficha de producto con la información del producto del catálogo rellenada previamente. Si es necesario, podrá rellenar o editar los campos en la nueva ficha de producto. Para obtener más información, vea [Registrar nuevos productos](inventory-how-register-new-items.md).
 
@@ -60,7 +60,7 @@ Se ha creado una plantilla y una nueva ficha de producto con la información del
 4. Elija la acción **Línea** y, a continuación, elija la acción **Seleccionar artículos del catálogo**.
 
     El producto del catálogo se ha convertido en un producto normal. Se ha creado una plantilla y una nueva ficha de producto con la información del producto del catálogo rellenada previamente.
-5. En la ventana **Productos del catálogo**, seleccione el producto del catálogo que desee vender y, a continuación, haga clic en **Aceptar**.
+5. En la página **Productos del catálogo**, seleccione el producto del catálogo que desee vender y, a continuación, haga clic en **Aceptar**.
 6. Cuando el pedido de venta ya está completo, seleccione la acción **Registrar**.
 
 Si es necesario, podrá rellenar o editar los campos en la nueva ficha de producto. Para obtener más información, vea [Registrar nuevos productos](inventory-how-register-new-items.md).

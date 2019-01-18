@@ -10,11 +10,12 @@ ms.workload: na
 ms.search.keywords: direct-debit, collection, payment, sepa
 ms.date: 10/01/2018
 ms.author: sgroespe
+redirect_url: finance-collect-payments-with-sepa-direct-debit
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f714037a087084ee1c8effa7432db1e4c6ae5862
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 87bf5f10e73d3a2da73149b44ff8c99196d20b2a
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-sepa-direct-debit-collection-entries-and-export-to-a-bank-file"></a>Crear movimientos de domiciliación de adeudo directo SEPA y exportación a un archivo bancario
@@ -25,8 +26,8 @@ Para indicar al banco que transfiera el importe de pago desde el banco del clien
 
 ### <a name="to-create-a-direct-debit-collection"></a>Creación de un cobro por domiciliación  
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Cobros por adeudo directo** y luego elija el enlace relacionado.  
-2. En la ventana **Cobros por adeudo directo**, en la pestaña **Inicio**, en el grupo **Nuevo**, elija **Crear cobro por adeudo directo**.  
-3. En la ventana **Crear cobro por adeudo directo**, rellene los campos tal como se describe en la tabla siguiente.  
+2. En la página **Cobros por adeudo directo**, en la pestaña **Inicio**, en el grupo **Nuevo**, elija **Crear cobro por adeudo directo**.  
+3. En la página **Crear cobro por adeudo directo**, rellene los campos tal como se describe en la tabla siguiente.  
 
     |Campo|Descripción|  
     |---------------------------------|---------------------------------------|  
@@ -40,28 +41,28 @@ Para indicar al banco que transfiera el importe de pago desde el banco del clien
 
 4. Elija el botón **Aceptar**.  
 
-     Se agrega un cobro por domiciliación a la ventana **Cobros por adeudo directo** y se crean uno o varios movimientos de cobros por domiciliación.  
+     Se agrega un cobro por domiciliación a la página **Cobros por adeudo directo** y se crean uno o varios movimientos de cobros por domiciliación.  
 
 ### <a name="to-export-a-direct-debit-collection-entry-to-a-bank-file"></a>Exportación de movimientos de cobro por domiciliación a un archivo de banco  
-1. En la ventana **Cobros por adeudo directo**, en la pestaña **Inicio**, en el grupo **Proceso**, elija **Movimientos de cobros por adeudo directo**.  
-2. En la ventana **Movimientos de cobros por adeudo directo**, seleccione el movimiento que desee exportar y, a continuación, en la pestaña **Inicio**, en el grupo **Procesar**, elija **Crear archivo de cobro por adeudo directo**.  
+1. En la página **Cobros por adeudo directo**, en la pestaña **Inicio**, en el grupo **Proceso**, elija **Movimientos de cobros por adeudo directo**.  
+2. En la página **Movimientos de cobros por adeudo directo**, seleccione el movimiento que desee exportar y, a continuación, en la pestaña **Inicio**, en el grupo **Procesar**, elija **Crear archivo de cobro por adeudo directo**.  
 3. Guarde el archivo de exportación en la ubicación desde donde envía o carga en el banco electrónico.  
 
-     En la ventana **Direct Debit Collect. Movimientos**, el campo **Estado cobro por adeudo directo** se cambia el archivo creado. En la ventana **Órdenes de domiciliación de adeudo directo SEPA**, el campo **Contador debe** se actualiza con un recuento.  
+     En la página **Direct Debit Collect. Movimientos**, el campo **Estado cobro por adeudo directo** se cambia el archivo creado. En la página **Órdenes de domiciliación de adeudo directo SEPA**, el campo **Contador debe** se actualiza con un recuento.  
 
 Si el archivo exportado no se puede procesar, por ejemplo, porque el cliente es insolvente, puede rechazar el movimiento de cobro por domiciliación. Si el banco procesa correctamente el archivo exportado, los pagos por vencimientos de las facturas de venta implicadas se cobran automáticamente de los clientes implicados. En ese caso, puede cerrar el cobro.  
 
 ### <a name="to-reject-a-direct-debit-collection-entry"></a>Rechazo de un movimiento de cobro por domiciliación  
-* En la ventana **Movimientos de cobros por adeudo directo**, seleccione el movimiento que no se procesó correctamente y, a continuación, en la pestaña **Inicio**, en el grupo **Procesar**, elija **Rechazar movimiento**.  
+* En la página **Movimientos de cobros por adeudo directo**, seleccione el movimiento que no se procesó correctamente y, a continuación, en la pestaña **Inicio**, en el grupo **Procesar**, elija **Rechazar movimiento**.  
 
-     El valor del campo **Estado** de la ventana **Movimientos de cobros por adeudo directo** se cambia a **Rechazada**.  
+     El valor del campo **Estado** de la página **Movimientos de cobros por adeudo directo** se cambia a **Rechazada**.  
 
 ### <a name="to-close-a-direct-debit-collection"></a>Cierre de un cobro por domiciliación  
-* En la ventana **Movimientos de cobros por adeudo directo**, seleccione el movimiento que no se procesó correctamente y, a continuación, en la pestaña **Inicio**, en el grupo **Procesar**, elija **Cerrar cobro**.  
+* En la página **Movimientos de cobros por adeudo directo**, seleccione el movimiento que no se procesó correctamente y, a continuación, en la pestaña **Inicio**, en el grupo **Procesar**, elija **Cerrar cobro**.  
 
      El cobro por domiciliación relacionado está cerrado.  
 
-Ahora podrá registrar los recibos de pago para las facturas de venta implicadas. Puede hacerlo, ya que normalmente se registran recibos de pago, como en la ventana **Registro de pago**, o bien puede registrar los recibos de pago relacionados directamente en la ventana **Movimientos de cobros por adeudo directo**. Para obtener más información, consulte [Registro de recibos de pagos de domiciliación de adeudo directo SEPA](finance-how-to-post-sepa-direct-debit-payment-receipts.md).  
+Ahora podrá registrar los recibos de pago para las facturas de venta implicadas. Puede hacerlo, ya que normalmente se registran recibos de pago, como en la página **Registro de pago**, o bien puede registrar los recibos de pago relacionados directamente en la página **Movimientos de cobros por adeudo directo**. Para obtener más información, consulte [Registro de recibos de pagos de domiciliación de adeudo directo SEPA](finance-how-to-post-sepa-direct-debit-payment-receipts.md).  
 
 ## <a name="see-also"></a>Consulte también  
 [Configuración de domiciliaciones de adeudo directo SEPA](finance-how-to-set-up-sepa-direct-debit.md)   

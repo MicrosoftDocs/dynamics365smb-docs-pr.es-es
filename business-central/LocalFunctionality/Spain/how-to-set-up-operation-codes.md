@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a15fe711a415cf605b32d05d4e1bd3fb80178bf0
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b639b733727c5c6673d475067a637b3909157cef
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-operation-codes"></a>Configurar códigos de operación
@@ -25,7 +25,7 @@ Puede añadir tantos códigos de operación como desee a la tabla. Sin embargo, 
 ## <a name="to-set-up-operation-codes"></a>Para configurar códigos de operación  
 
 1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Códigos de operación** y, a continuación, seleccione el vínculo relacionado.  
-2.  En la ventana **Códigos de operación**, rellene los campos tal como se describe en la tabla siguiente  
+2.  En la página **Códigos de operación**, rellene los campos tal como se describe en la tabla siguiente  
 
     |Campo|Description|  
     |---------------------------------|---------------------------------------|  
@@ -36,7 +36,7 @@ Puede añadir tantos códigos de operación como desee a la tabla. Sin embargo, 
 
 1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Grupos contables** y, a continuación, seleccione el vínculo relacionado.  
 2.  Elija la acción **Grupos contables de producto general**.  
-3.  En la ventana **Grupos de publicación de productos generales**, vincule cada código de operación a un grupo de publicación de productos general.  
+3.  En la página **Grupos de publicación de productos generales**, vincule cada código de operación a un grupo de publicación de productos general.  
 
     |Campo|Description|  
     |---------------------------------|---------------------------------------|  

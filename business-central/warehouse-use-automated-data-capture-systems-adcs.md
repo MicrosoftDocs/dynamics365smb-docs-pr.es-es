@@ -8,16 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 10/04/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b7887206991a6e31994e3efc4942c7b1254bb805
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4d378e4407ce0023ab0f089f7a8a218605c4cf7d
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
-# <a name="enable-automated-data-capture-systems-adcs"></a>Habilitar el sistema de captura de datos automatizado (ADCS)
+# <a name="use-automated-data-capture-systems-adcs"></a>Utilice el sistema de captura de datos automatizado (ADCS)
+
+> [!NOTE]
+> En la versión estándar de [!INCLUDE[d365fin](includes/d365fin_md.md)], ADCS solo funciona en implementaciones locales. Sin embargo, un socio de Microsoft puede hacer que funcione en implementaciones en línea mediante PowerApps o similares.
+
 Puede utilizar su sistema de captura automática de datos (ADCS) para registrar el movimiento de productos en el almacén y para registrar algunas actividades del diario, como los ajustes de cantidad en el diario de productos de almacén y los inventarios físicos.  
 
 Para utilizar un ADCS, deberá asignar un identificador de producto para cada producto almacenado. También debe configurar los miniformularios de instalación, funciones portátiles, intercambios de datos y especificar las opciones de los campos que controlan un ADCS. Especifique si desea utilizar un ADCS en la ficha de almacén de un almacén.
@@ -38,22 +42,22 @@ Para utilizar un ADCS, debe especificar qué ubicaciones de almacén utilizan la
 
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Ubicaciones** y elija el enlace relacionado.
 2.  Seleccione un almacén de lista para la que desea activar un ADCS y seleccione **Editar**.
-3. En la ventana **Ficha almacén**, active la casilla  **Utilizar ADCS**.  
+3. En la página **Ficha almacén**, active la casilla **Utilizar ADCS**.  
 
 ## <a name="to-specify-an-item-to-use-adcs"></a>Para especificar que un producto utilice ADCS  
 Cada artículo de almacén que desea utilizar con un ADCS debe tener asignado un código de identificador para asociarlo al número de producto. Por ejemplo, podrá utilizar el código de barras del artículo como código de identificador. Un artículo puede tener varios códigos de identificador. Puede que esto le sea útil si un producto está disponible en varias unidades de medida, como por ejemplo piezas y paletas. En este caso, asigne un código de identificador a cada una de ellas.    
 
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Productos** y luego elija el enlace relacionado.  
 2.  Seleccione un elemento de la lista que forma parte de la solución ADCS y seleccione **Editar**.
-3. En la ventana **Tarjeta de producto**, seleccione la acción **Identificadores**.
-4. En la ventana **Identificadores producto**, seleccione la acción **Nuevo**.
+3. En la página **Tarjeta de producto**, seleccione la acción **Identificadores**.
+4. En la página **Identificadores producto**, seleccione la acción **Nuevo**.
 5. En el campo **Código**, especifique el identificador del producto. Por ejemplo, podría ser el código de barras.  
 
     Puede introducir **Cód. variante** y un código **Unidad medida**.  
 
 6. Si es necesario, introduzca varios códigos para cada artículo.
 7. Elija el botón **Aceptar**.  
-8.  Para revisar información, seleccione el campo **Código identificador** para abrir la ventana **Identificadores producto**.
+8.  Para revisar información, seleccione el campo **Código identificador** para abrir la página **Identificadores producto**.
 
 ## <a name="to-add-an-adcs-user"></a>Para agregar a un usuario de un ADCS  
 Puede agregar a cualquier usuario al sistema de captura de datos automatizados (ADCS). Cuando realice esta operación, el usuario debe proporcionar a una contraseña. Opcionalmente, también puede proporcionar un anexo que identifica al usuario de un ADCS como empleado de almacén. La contraseña de usuario de un ADCS puede ser diferente de la de inicio de Windows. Para obtener más información, vea [Administración de usuarios y permisos](ui-how-users-permissions.md).

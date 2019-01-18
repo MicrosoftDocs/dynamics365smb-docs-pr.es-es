@@ -13,10 +13,10 @@ ms.search.keywords: inventory, periods
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e6873ca2e4f4ab082bddad90f1ab59edb34a2a63
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1aae1d32b86000ea8a5f867f1ee4c07d8bc1ff09
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-inventory-periods"></a>Trabajar con periodos de inventario
@@ -52,7 +52,7 @@ Esto significa que todas las cantidades de transacciones de salida (como aquella
 
      Ejecute el trabajo por lotes **Reg. var. existencias en cont.** para asegurarse de que se hayan registrado todos los costes en el módulo de contabilidad.  
 3. Elija la acción **Registrar inventario en C/G**.  
-4. En la ventana **Periodos inventario**, seleccione el periodo de inventario que desea cerrar.  
+4. En la página **Periodos inventario**, seleccione el periodo de inventario que desea cerrar.  
 5. Seleccione la acción **Cerrar periodo**. Una vez cerrado el periodo del inventario, ya no podrá registrar cambios en el antes de la fecha de finalización. Será necesario ajustar el coste de todos los productos mediante el proceso **Valorar stock - movs. producto** antes de que cierre el periodo del inventario.  
 6. Seleccione le botón **Sí** para confirmar que desea cerrar el periodo, o bien elija **No** para cancelar el proceso.  
 7. Se cierra el periodo de inventario y aparece un mensaje de confirmación cuando haya finalizado.  

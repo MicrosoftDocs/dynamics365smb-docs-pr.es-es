@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: marketing, prospect, contact, client, customer
 ms.date: 10/01/2018
 ms.author: jswymer
+redirect_url: marketing-setup-marketing
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8a950b87b7e7947de1602db76805a0b1f41d8274
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 33743655f682aae9e02393aa68d04dffd334357b
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="setting-up-business-relations-on-contact-companies"></a>Configurar relaciones de negocio en empresas de contacto
@@ -28,7 +29,7 @@ El uso relaciones de negocio en contactos es un proceso que consta de dos pasos.
 >   Si desea sincronizar sus contactos con proveedores, clientes o bancos en otras partes de la aplicación, se recomienda configurar una relación de negocio para ellos.
 
 ## <a name="to-define-a-business-relation-code"></a>Para definir un código de relación de negocio
-El código de relación de negocio define una categoría o un tipo de relación de negocio, como BANCO o ABO. Puede tener varios códigos de relación de negocio. Para definir relaciones de negocio, use la ventana **Relaciones de negocio**.
+El código de relación de negocio define una categoría o un tipo de relación de negocio, como BANCO o ABO. Puede tener varios códigos de relación de negocio. Para definir relaciones de negocio, use la página **Relaciones de negocio**.
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Relaciones negocio** y luego elija el enlace relacionado.
 2. Seleccione la acción **Nuevo** e introduzca un código y una descripción. El código admite un máximo de 11 caracteres y puede ser cualquier combinación de números y letras.
@@ -39,12 +40,12 @@ No puede asignar relaciones de contacto a una persona de contacto, solo a empres
 1. Abra el contacto.
 2. Seleccione la acción **Empresa** y, a continuación, seleccione la acción **Relaciones de negocio**.
 
-    Se abre la ventana **Relaciones de negocio de contacto**.
+    Se abre la página **Relaciones de negocio de contacto**.
 3. En el campo **Cód. relación negocio**, seleccione la relación de negocio que desea asignar.
 
 Repita estos pasos para asignar todos las relaciones de negocio que desee. También puede asignar relaciones de negocio desde la lista de contactos con el mismo procedimiento.
 
-Aparece automáticamente el número de relaciones de negocio asignadas al contacto del campo **N.º de relaciones de negocio** en la sección **Segmentación** de la ventana **Contacto**.
+Aparece automáticamente el número de relaciones de negocio asignadas al contacto del campo **N.º de relaciones de negocio** en la sección **Segmentación** de la página **Contacto**.
 
 Después de asignar relaciones de negocio a sus contactos, puede utilizar esa información para seleccionar contactos para sus segmentos. Para obtener más información, vea [Agregar contactos a segmentos](marketing-add-contact-segment.md).
 

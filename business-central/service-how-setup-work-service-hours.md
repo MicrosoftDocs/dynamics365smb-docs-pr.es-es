@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6617cb324873c2c129e4d26907dc43fde1c3c0e6
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 223d69df17dad2a1309d333fc64be8b208262530
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-work-hours-and-service-hours"></a>Configurar horas de trabajo y de servicio
@@ -27,16 +27,16 @@ Una vez configuradas las horas de servicio predeterminadas de su empresa, puede 
 A medida que trabaje en un pedido de servicio, querrá actualizar su estado para poder controlar el progreso. El estado de pedido de servicio indica el estado de reparación de todos los productos de servicio del pedido de servicio. Para obtener más información, vea [Comprensión de pedido de servicio y estado de reparación](service-order-repair-status.md). 
 
 ## <a name="to-set-up-default-service-hours"></a>Para configurar horas de servicio genéricas  
-La ventana **Horas servicio genér.** sirve para configurar las horas de servicio habituales de la empresa. Estas horas de servicio se utilizarán para calcular la fecha y tiempo de respuesta de pedidos y ofertas de servicio y para enviar advertencias de tiempo de respuesta. Las horas de servicio genéricas se utilizarán para contratos de servicio, a no ser que especifique horas de servicio especiales para un contrato.  
+La página **Horas servicio genér.** sirve para configurar las horas de servicio habituales de la empresa. Estas horas de servicio se utilizarán para calcular la fecha y tiempo de respuesta de pedidos y ofertas de servicio y para enviar advertencias de tiempo de respuesta. Las horas de servicio genéricas se utilizarán para contratos de servicio, a no ser que especifique horas de servicio especiales para un contrato.  
   
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Horas de serv. predeterminadas** y luego elija el enlace relacionado.  
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
   
 > [!IMPORTANT]  
->  Si deja vacías las líneas de la ventana **Horas servicio genér.**, el valor predeterminado será 24 horas, válido sólo para el calendario de días laborables.  
+>  Si deja vacías las líneas de la página **Horas servicio genér.**, el valor predeterminado será 24 horas, válido sólo para el calendario de días laborables.  
   
 ## <a name="to-set-up-work-hour-templates"></a>Para configurar plantillas de trabajo-hora
-La ventana **Plantilla trabajo-hora** sirve para configurar plantillas que contienen las horas de trabajo habituales de la empresa. Por ejemplo, puede crear plantillas para técnicos empleados a tiempo completo y para técnicos empleados a tiempo parcial. Puede utilizar plantillas de horas de trabajo al añadir capacidad a recursos.  
+La página **Plantilla trabajo-hora** sirve para configurar plantillas que contienen las horas de trabajo habituales de la empresa. Por ejemplo, puede crear plantillas para técnicos empleados a tiempo completo y para técnicos empleados a tiempo parcial. Puede utilizar plantillas de horas de trabajo al añadir capacidad a recursos.  
   
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Plantillas trabajo-hora** y luego elija el enlace relacionado.  
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -45,7 +45,7 @@ La ventana **Plantilla trabajo-hora** sirve para configurar plantillas que conti
 > Una vez introducidas las horas de trabajo de cada día, el valor del campo **Total por semana** se calculará automáticamente.  
 
 ## <a name="to-set-up-contract-specific-service-hours"></a>Para configurar horas de servicio específicas de contrato  
-Puede utilizar la ventana **Horas servicio** para configurar horas de servicio específicas para el cliente propietario del contrato de servicio. Las horas de servicio se utilizarán para calcular la fecha y el tiempo de respuesta de pedidos y ofertas de servicio que pertenezcan al contrato de servicio.  
+Puede utilizar la página **Horas servicio** para configurar horas de servicio específicas para el cliente propietario del contrato de servicio. Las horas de servicio se utilizarán para calcular la fecha y el tiempo de respuesta de pedidos y ofertas de servicio que pertenezcan al contrato de servicio.  
   
 Si no configura horas de servicio específicas para un contrato de servicio, se utilizarán las horas de servicio genéricas para los contratos de servicio.  
   

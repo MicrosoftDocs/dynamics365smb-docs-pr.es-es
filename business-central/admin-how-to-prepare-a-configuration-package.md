@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ea07eff2d0eb17a76d132484d2210ad0c54053a5
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ea4a7671788ba5c4bd251a83dab1f2616cfbe706
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="prepare-a-configuration-package"></a>Preparar un paquete de configuración
@@ -36,10 +36,10 @@ Compruebe que se encuentra en la página Área de trabajo del implementador de R
 2. Seleccione la acción **Nuevo**.  
 3. En la ficha desplegable **General**, rellene el resto de los campos según corresponda. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Para excluir del paquete los cuestionarios de configuración, las plantillas de configuración y las tablas de la hoja de trabajo de configuración, active la casilla **Excluir tablas de configuración**. De lo contrario, estas tablas se agregarán automáticamente a la lista de tablas del paquete cuando este se exporte.  
-5. Seleccione la acción **Obtener tablas**. Se abre la ventana de trabajo por lotes **Traer tablas de paquete**.  
-6. Elija el campo **Seleccionar tablas**. Se abre la ventana **Selección config**.  
+5. Seleccione la acción **Obtener tablas**. Se abre la página de proceso **Traer tablas de paquete**.  
+6. Elija el campo **Seleccionar tablas**. Se abre la página **Selección config**.  
 7. Elija la acción **Seleccionar todo** para agregar todas las tablas al paquete, o bien active la casilla **Seleccionado** para cada tabla de la lista que desee agregar.
-8. Elija el botón **Aceptar**. El número de tablas seleccionado se indica en el campo **Seleccionar tablas**. Especifique las opciones adicionales y, a continuación, seleccione el botón **Aceptar**. Las tablas de [!INCLUDE[d365fin](includes/d365fin_md.md)] se agregan a las líneas de la ventana **Config. paquete**.  
+8. Elija el botón **Aceptar**. El número de tablas seleccionado se indica en el campo **Seleccionar tablas**. Especifique las opciones adicionales y, a continuación, seleccione el botón **Aceptar**. Las tablas de [!INCLUDE[d365fin](includes/d365fin_md.md)] se agregan a las líneas de la página **Config. paquete**.  
 
     > [!NOTE]  
     >  También puede hacer esta operación en la hoja de trabajo de configuración. Seleccione las tablas que desea incluir en el paquete y seleccione la acción **Asignar paquete**.
@@ -64,13 +64,13 @@ Cuando haya ajustado la lista de campos que se deben incluir de una tabla, puede
 ### <a name="to-include-a-template-for-application-to-a-table"></a>Procedimiento para incluir una plantilla aplicarla a una tabla  
 Para determinadas tablas, tal como una tabla que contendrá datos maestros, puede especificar una plantilla para aplicar a los datos. La plantilla puede incluir los campos obligatorios que desee aplicar a todos los datos maestros y que nunca deben variar. Por ejemplo, puede crear una plantilla que se usará con los datos de cliente. La plantilla puede incluir todos los campos obligatorios, lo que permitirá la importación coherente de información estandarizada. La información que no se puede estandarizar, tal como el nombre del cliente, se procesa cuando se realiza una importación de los datos de cliente.
 
-1. En la ventana **Configurar tarjeta de paquete**, seleccione una tabla y, a continuación, elija el campo **Plantilla datos**. Se muestra una lista de plantillas basadas en la tabla.
+1. En la página **Configurar tarjeta de paquete**, seleccione una tabla y, a continuación, elija el campo **Plantilla datos**. Se muestra una lista de plantillas basadas en la tabla.
 2. Seleccione una plantilla y haga clic en el botón **Aceptar**.  
 
 Una vez finalizado el paquete, siga el procedimiento siguiente para guardarlo en un archivo. A continuación, proporcione el paquete a un cliente o un socio.
 
 ### <a name="to-save-and-export-a-configuration-package"></a>Procedimiento para guardar y exportar un paquete de configuración  
-- En la ventana **Configurar tarjeta de paquete**, seleccione la acción **Exportar paquete**.  
+- En la página **Configurar tarjeta de paquete**, seleccione la acción **Exportar paquete**.  
 
 El paquete se crea en un archivo .rapidstart, que entrega los contenidos de paquete en un formato comprimido. Los cuestionarios de configuración, las plantillas de configuración y la hoja de trabajo de configuración se agregan al paquete automáticamente, a menos que decida excluirlos específicamente.  
 
@@ -121,7 +121,7 @@ A medida que crea un paquete de configuración para una solución, puede ver y p
     > [!NOTE]  
     >  Asegúrese de que cada tabla tenga asignado un identificador de página. Para las tablas de [!INCLUDE[d365fin](includes/d365fin_md.md)] estándar, este valor se rellena automáticamente. Para las tablas personalizadas, debe proporcionar el identificador.
 
-3. Seleccione la acción **Datos de base de datos**. Se abre la ventana relacionada para la página.
+3. Seleccione la acción **Datos de base de datos**. Se abre la página relacionada para la página.
 4. Revise la información disponible. Modifíquela según sea necesario. Para ello, elimine los registros que no son pertinentes o agregue registros nuevos.    
 
 ## <a name="to-copy-data-from-a-test-environment-to-a-production-environment"></a>Copiar datos desde el entorno de prueba al entorno de producción  
@@ -130,9 +130,9 @@ Una vez que haya revisado y probado toda la información de configuración, pued
 1. Abra e inicializa la nueva empresa.  
 2. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hoja de configuración** y luego elija el enlace relacionado.  
 3. Seleccione la acción **Copiar datos desde empresa**.  
-4. En la ventana **Copiar datos de empresa**, elija el campo **Copiar de**. Se abre la ventana **Empresas**.  
+4. En la página **Copiar datos de empresa**, elija el campo **Copiar de**. Se abre la página **Empresas**.  
 5. Seleccione la empresa desde la que desea copiar datos y elija el botón **Aceptar**. Aparece una lista de tablas seleccionadas en la hoja de trabajo de configuración. Solo las tablas que contienen registros se incluyen en la lista.
-6. Seleccione las tablas desde las que desea copiar datos y elija la acción **Copiar datos**. En la ventana **Copiar datos de empresa**, elija el botón **Aceptar**.  
+6. Seleccione las tablas desde las que desea copiar datos y elija la acción **Copiar datos**. En la página **Copiar datos de empresa**, elija el botón **Aceptar**.  
 
 ## <a name="see-also"></a>Consulte también  
 [Recopilación de valores de configuración de cliente](admin-gather-customer-setup-values.md)  

@@ -13,10 +13,10 @@ ms.search.keywords: design, item tracking, posting, inventory
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bde0b129455dbdd7cbc91bd50b6d993abf727100
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: b2cb135991a067b86b7c5579e0386ffd199aefcf
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-item-tracking-posting-structure"></a>Detalles de diseño: Estructura de registro de seguimiento de productos
@@ -24,7 +24,7 @@ Para establecer la correspondencia con la funcionalidad de valoración de existe
   
 Los números de seguimiento de producto en las entidades de la red de pedidos y las entidades de red que no realizan pedidos se especifican en la tabla **Mov. reserva** (T337). Los números de seguimiento de producto que están relacionados con la información histórica se recuperan directamente de los movimientos de producto relacionados con la transacción en cuestión. Esto significa que los movimientos de producto reflejan la especificación de seguimiento de producto de la línea de pedido registrada.  
   
-La ventana **Líns. seguim. prod.** recupera la información de T337 y de los movimientos de producto, y la muestra a través de la tabla temporal **Especificación seguimiento** (T336). T336 también contiene los datos temporales de la ventana **Líns. seguim. prod.** para las cantidades de seguimiento de producto que se deben facturar.  
+La página **Líns. seguim. prod.** recupera la información de T337 y de los movimientos de producto, y la muestra a través de la tabla temporal **Especificación seguimiento** (T336). T336 también contiene los datos temporales de la página **Líns. seguim. prod.** para las cantidades de seguimiento de producto que se deben facturar.  
   
 ## <a name="one-to-many-relation"></a>Relación de uno a varios  
 La tabla **Relación mov. producto**, que se usa para vincular una línea de documento registrado con sus movimientos de producto relacionados, consta de dos partes principales:  

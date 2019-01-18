@@ -13,14 +13,14 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: de7ad97401529b4dd05bc40daf16df0fe7cd6fb1
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 33ca7a06aa8c903bb6f65af298748417ac460f63
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-incoming-document-records"></a>Crear registros de documento entrantes
-En la ventana **Documentos entrantes**, puede usar distintas funciones para revisar recibos de gastos, gestionar tareas de OCR y convertir archivos de documentos entrantes, manual o automáticamente en los documentos pertinentes o en líneas de diario. Los archivos externos se pueden adjuntar en cualquier etapa del proceso, incluidos los documentos registrados y los movimientos de proveedor, cliente y de contabilidad resultantes.
+En la página **Documentos entrantes**, puede usar distintas funciones para revisar recibos de gastos, gestionar tareas de OCR y convertir archivos de documentos entrantes, manual o automáticamente en los documentos pertinentes o en líneas de diario. Los archivos externos se pueden adjuntar en cualquier etapa del proceso, incluidos los documentos registrados y los movimientos de proveedor, cliente y de contabilidad resultantes.
 
 Para registrar un documento externo en [!INCLUDE[d365fin](includes/d365fin_md.md)], debe crear o completar un registro de documento entrante. Puede hacerlo manualmente o tomar una foto del documento externo y crear el registro de documento entrante con el archivo de imagen adjunto.
 
@@ -40,7 +40,7 @@ Si aprueba el registro de documento entrante, se marca la casilla **Lanzado** de
 
 1. En la barra de aplicaciones, seleccione el mosaico **Crear documento entrante desde la cámara** y, a continuación, vaya al paso 4.
 2. O bien, en la barra de aplicaciones, seleccione el botón de opciones, elija **Documentos entrantes** y, a continuación, elija **Todo**.
-3. En la ventana **Documentos entrantes**, elija el botón de puntos suspensivos y seleccione **Crear desde la cámara**. La cámara de la tableta o del teléfono se activará.
+3. En la página **Documentos entrantes**, elija el botón de puntos suspensivos y seleccione **Crear desde la cámara**. La cámara de la tableta o del teléfono se activará.
 4. Tome una foto de un documento, como un albarán de compra, que desee procesar como documento entrante y, a continuación, seleccione el botón **Aceptar**.
 
     Se crea un nuevo registro de documento entrante con la imagen adjunta.
@@ -51,7 +51,7 @@ Si aprueba el registro de documento entrante, se marca la casilla **Lanzado** de
 
 1. En la barra de aplicaciones, elija el botón opciones, seleccione **Documentos entrantes** y, a continuación, elija **Todo**.
 2. Abra la ficha de un registro entrante de documento entrante existente.
-3. En la ventana **Documento entrante**, elija el botón de puntos suspensivos y seleccione **Adjuntar imagen desde la cámara**. La cámara de la tableta o del teléfono se activará.
+3. En la página **Documento entrante**, elija el botón de puntos suspensivos y seleccione **Adjuntar imagen desde la cámara**. La cámara de la tableta o del teléfono se activará.
 4. Tome una foto de un documento, como un albarán de compra, que desee procesar como documento entrante y, a continuación, seleccione el botón **Aceptar**.
 
     La imagen se adjunta al registro de documento entrante.
@@ -59,11 +59,11 @@ Si aprueba el registro de documento entrante, se marca la casilla **Lanzado** de
 ## <a name="to-create-an-incoming-document-record-manually"></a>Para crear un registro de documento entrante manualmente
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Documentos entrantes** y luego elija el enlace relacionado.
 2. Elija la acción **Crear desde archivo**.  
-3. En la ventana **Insertar archivo**, seleccione un archivo y, a continuación, elija **Abrir**. El campo se adjunta automáticamente.
+3. En la página **Insertar archivo**, seleccione un archivo y, a continuación, elija **Abrir**. El campo se adjunta automáticamente.
 4. De forma alternativa, elija la acción **Nuevo**.
 5. Para adjuntar un archivo, elija la acción **Adjuntar archivo**.
-6. En la ventana **Insertar archivo**, seleccione el archivo que representa el documento entrante en cuestión y, a continuación, elija el botón **Abrir**.
-7. En la ventana **Documento entrante**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+6. En la página **Insertar archivo**, seleccione el archivo que representa el documento entrante en cuestión y, a continuación, elija el botón **Abrir**.
+7. En la página **Documento entrante**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="see-also"></a>Consulte también
 [Procesar documentos entrantes](across-process-income-documents.md)  

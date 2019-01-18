@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b31591784c927f67f541d997f54e97ef696f63bb
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 410439c6a7b0aacc31f1a191b9b4540d0aa6a5e8
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Ubicar productos con ubicación de inventario
@@ -24,7 +24,7 @@ Cuando el almacén está configurado para requerir el proceso de ubicación, per
 
 Puede crear una ubicación de inventario de tres formas:  
 
-- Cree la ubicación en dos pasos; para ello cree primero una solicitud de almacén desde el documento de origen, que actúa como una señal para el almacén de que el documento de origen está preparado para la ubicación. A continuación, se puede crear la ubicación de inventario en la ventana **Ubicac. inventario** según el documento de origen.  
+- Cree la ubicación en dos pasos; para ello cree primero una solicitud de almacén desde el documento de origen, que actúa como una señal para el almacén de que el documento de origen está preparado para la ubicación. A continuación, se puede crear la ubicación de inventario en la página **Ubicac. inventario** según el documento de origen.  
 - Cree la ubicación de inventario directamente desde el propio documento de origen.  
 - Cree las ubicaciones de inventario para varios documentos de origen mediante un proceso.  
 
@@ -59,13 +59,13 @@ Ahora que se ha creado la solicitud, el empleado del almacén puede crear un nue
 
 ## <a name="to-create-multiple-inventory-put-aways-with-a-batch-job"></a>Para crear varias Ubicaciones de existencias con un proceso  
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Crear ubicac./ pick. exist.** y luego elija el enlace relacionado.  
-2.  En la ficha desplegable **Solicitud almacén** de la ventana respectiva, utilice los campos **Documento origen** y **Cód. procedencia mov.** para filtrar determinados tipos de documentos o intervalos de números de documento.  
+2.  En la ficha desplegable **Solicitud almacén** de la página respectiva, utilice los campos **Documento origen** y **Cód. procedencia mov.** para filtrar determinados tipos de documentos o intervalos de números de documento.  
 3.  En la ficha desplegable **Opciones**, seleccione la casilla **Crear ubicación exist.**
 4.  Elija el botón **Aceptar**. Se crean las ubicaciones de inventario especificadas.
 
 ## <a name="to-record-the-inventory-put-away"></a>Para registrar las ubicaciones de inventario  
-1. Abra un documento de ubicación creado previamente seleccionando uno de la ventana **Ubicac. existencias**.  
-2. En las líneas de ubicación del campo **Cód. ubicación**, la ubicación en la cual se debe realizar la ubicación se sugiere como la ubicación predeterminada del artículo. Si es necesario puede cambiar la ubicación en esta ventana.  
+1. Abra un documento de ubicación creado previamente seleccionando uno de la página **Ubicac. existencias**.  
+2. En las líneas de ubicación del campo **Cód. ubicación**, la ubicación en la cual se debe realizar la ubicación se sugiere como la ubicación predeterminada del artículo. Si es necesario puede cambiar la ubicación en esta página.  
 3. Realice la ubicación e introduzca la información de la cantidad de ubicación real en la ventana **Cdad. a manipular**.
 
     Si es necesario colocar los productos para otra línea en varias ubicaciones porque la ubicación designada está completa, por ejemplo, utilice la función **Dividir línea** en la ficha desplegable **Líneas**. Para obtener más información acerca de cómo dividir líneas, consulte[Dividir las líneas de actividad de almacén](warehouse-how-to-split-warehouse-activity-lines.md).  

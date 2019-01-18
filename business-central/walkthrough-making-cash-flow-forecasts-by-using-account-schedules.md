@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 59264fada4455f3f0a40ba225d45159d2fb77194
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 652a151ff50c8492b3dc7df5d17c04ff2d00faad
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Tutorial: elaboración de previsiones del flujo de efectivo con esquemas de cuentas
@@ -51,7 +51,7 @@ Un esquema de cuentas consta de un nombre de esquema de cuenta del flujo de efec
 ### <a name="to-set-up-a-new-account-schedule-name"></a>Configuración de un nuevo nombre de esquema de cuenta  
 
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Esquemas de cuentas** y luego elija el enlace relacionado.  
-2.  En la ventana **Nombres de esquema de cuenta**, elija **Nuevo** para crear un nuevo nombre de cuenta de flujo de efectivo.  
+2.  En la página **Nombres de esquema de cuenta**, elija **Nuevo** para crear un nuevo nombre de cuenta de flujo de efectivo.  
 3.  En el campo **Nombre**, especifique **Previsiones**.  
 4.  En el campo **Descripción**, introduzca **Previsión de flujo de efectivo**.  
 5.  Deje en blanco los campos **Plantilla columna genér.** y **Nombre vista análisis**.  
@@ -61,8 +61,8 @@ Después de configurar el nombre del esquema de cuentas, Ken define cada línea 
 
 ### <a name="to-set-up-account-schedule-lines"></a>Para configurar líneas de esquema de cuenta  
 
-1.  En la ventana **Nombre esquema cuenta**, seleccione el nuevo nombre del esquema de cuentas de **Previsiones** que ha creado. En la pestaña **Inicio**, en el grupo **Procesar**, elija **Editar esquema cuentas**.  
-2.  En la ventana **Esquema cuentas**, especifique cada línea exactamente como se muestra en la siguiente tabla.  
+1.  En la página **Nombre esquema cuenta**, seleccione el nuevo nombre del esquema de cuentas de **Previsiones** que ha creado. En la pestaña **Inicio**, en el grupo **Procesar**, elija **Editar esquema cuentas**.  
+2.  En la página **Esquema cuentas**, especifique cada línea exactamente como se muestra en la siguiente tabla.  
 
     > [!NOTE]  
     >  Con la función **Insertar cuentas de coste y flete**, puede marcar rápidamente los cuentas de flujo de efectivo del plan de cuentas del flujo de efectivo y copiar las líneas del esquema de cuentas.  
@@ -79,12 +79,12 @@ Ken ahora está preparado para asignar el diseño de columna al nombre del esque
 
 ### <a name="to-assign-the-column-layout-to-the-account-schedule-name"></a>Para asignar el nombre de la plantilla de columnas del esquema de cuentas.  
 
-1.  En la ventana **Nombres esquemas de cuentas**, seleccione **Previsión** en el campo **Nombre**.  
+1.  En la página **Nombres esquemas de cuentas**, seleccione **Previsión** en el campo **Nombre**.  
 2.  En el campo **Plantilla columna genér.**, seleccione el diseño de columna **Flujo de efectivo** para asignar como diseño de columnas predeterminado.  
 
 ### <a name="to-view-and-print-the-cash-flow-forecast"></a>Para ver e imprimir la previsión del flujo de efectivo  
-1.  En la ventana **Nombres de esquemas de cuentas**, seleccione la acción **Información general** para ver la previsión del flujo de efectivo.  
-2.  En la ventana **Panorama esq. cta.**, puede seleccionar un importe y después ver los movimientos de la previsión del flujo de efectivo que conforman el importe. Además, puede ver la fórmula que se utiliza para calcular el importe. También puede filtrar los importes por fecha y dimensión.  
+1.  En la página **Nombres de esquemas de cuentas**, seleccione la acción **Información general** para ver la previsión del flujo de efectivo.  
+2.  En la página **Panorama esq. cta.**, puede seleccionar un importe y después ver los movimientos de la previsión del flujo de efectivo que conforman el importe. Además, puede ver la fórmula que se utiliza para calcular el importe. También puede filtrar los importes por fecha y dimensión.  
 3.  Elija la acción **Imprimir** para que se imprima la previsión de flujo de efectivo.  
 
 ## <a name="see-also"></a>Consulte también  

@@ -12,10 +12,10 @@ ms.search.keywords: rfq
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: a234dee68d9c083e1ca9f72eec86e2ba1239398c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9cf65b029527dfd046223e82b92b57a48d43bb19
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="make-sales-quotes"></a>Crear ofertas de ventas
@@ -29,15 +29,15 @@ Puede rellenar los campos de clientes en la oferta de venta de dos formas en fun
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Ofertas de venta** y luego elija el enlace relacionado.
 2. En el campo **Cliente**, escriba el nombre de un cliente existente.
 
-   Otros campos de la ventana **Oferta de venta** contienen información estándar del cliente seleccionado. Si el cliente no está registrado, realice los pasos siguientes:
+   Otros campos de la página **Oferta de venta** contienen información estándar del cliente seleccionado. Si el cliente no está registrado, realice los pasos siguientes:
 3. En el campo **Cliente**, escriba el nombre del cliente nuevo.
 4. En el cuadro de diálogo de registro de nuevos clientes, haga clic en el botón **Sí**.
-5. En la ventana **Seleccionar una plantilla para un cliente nuevo**, seleccione una plantilla en la que se basará la nueva ficha de cliente y, a continuación, haga clic en el botón **Aceptar**.
+5. En la página **Seleccionar una plantilla para un cliente nuevo**, seleccione una plantilla en la que se basará la nueva ficha de cliente y, a continuación, haga clic en el botón **Aceptar**.
 6. Una nueva ficha de cliente muestra la información sobre la plantilla de cliente seleccionada. Rellene el resto de campos. Para obtener más información, vea [Registrar nuevos clientes](sales-how-register-new-customers.md).  
-7. Cuando haya finalizado la ficha de cliente, haga clic en el botón **Aceptar** para volver a la ventana **Oferta de venta**.
+7. Cuando haya finalizado la ficha de cliente, haga clic en el botón **Aceptar** para volver a la página **Oferta venta**.
 
    Muchos campos de la oferta de venta se rellenan con la información especificada en la nueva ficha de cliente.  
-8. Rellene los campos en la ventana **Oferta de venta** según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+8. Rellene los campos en la página **Oferta venta** según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     Ahora podrá rellenar las líneas de la factura de pedido de los productos que vende al cliente o para cualquier transacción con el cliente que desee registrar en una cuenta de contabilidad.   
 
@@ -69,10 +69,10 @@ Puede rellenar los campos de clientes en la oferta de venta de dos formas en fun
     Si ha configurado descuentos en factura para el cliente, el valor porcentual especificado se inserta automáticamente en el campo **% descuento en factura** si se cumplen los criterios, y el importe relacionado se inserta en el campo **Descuento en factura excluyendo impuesto** . Para más información, vea [Registrar acuerdos de pago, descuentos y precios de venta](sales-how-record-sales-price-discount-payment-agreements.md).
 
     > [!TIP]
-    > Para que la **Oferta válida hasta fecha** se complete automáticamente con un número determinado de días después de la creación de la oferta, puede completar el campo **Cálculo de validez de la oferta** en la ventana **Ventas y cobros**. 
+    > Para que la **Oferta válida hasta fecha** se complete automáticamente con un número determinado de días después de la creación de la oferta, puede completar el campo **Cálculo de validez de la oferta** en la página **Ventas y cobros**. 
 
 15. Cuando las líneas de la oferta de venta ya estén completas, seleccione la acción **Enviar por correo electrónico**.
-16. En la ventana **Enviar correo electrónico**, rellene los campos restantes y revise la oferta de venta incluida. Para obtener más información, vea [Enviar documentos por correo electrónico](ui-how-send-documents-email.md).
+16. En la página **Enviar correo electrónico**, rellene los campos restantes y revise la oferta de venta incluida. Para obtener más información, vea [Enviar documentos por correo electrónico](ui-how-send-documents-email.md).
 17. Si el cliente acepta la oferta, seleccione la acción **Generar factura** o **Realizar pedido**.
 
 La oferta de venta se quita de la base de datos. Una factura de venta o un pedido de venta se crea a partir de la información en la oferta de venta en la que puede procesar la venta. En el campo **Nº oferta** de la factura de venta o pedido de venta, se muestra el número de la oferta de venta a partir de la que se creó. Para obtener más información, consulte [Facturar ventas](sales-how-invoice-sales.md) o [Vender productos](sales-how-sell-products.md).

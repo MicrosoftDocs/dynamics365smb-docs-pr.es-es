@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 65f34ae7fe1665bbe8336e6fe959ac109486531e
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: bdb9eab2c23d8f1eacafd77433f621275c3dfdf1
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="accessibility-and-keyboard-shortcuts-in-included365finincludesd365finmdmd"></a>Accesibilidad y métodos abreviados de teclado en [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -51,7 +51,7 @@ Este tema proporciona información acerca de las características que permiten q
 ##  <a name="Navigation"></a> Navegación  
  Puede navegar entre las pestañas y las acciones en la cinta, elementos de la barra de navegación y otros controla en las páginas y los informes de [!INCLUDE[d365fin](includes/d365fin_md.md)] usando el teclado. Para mover el enfoque de una pestaña, acción o control a otro, pulse la tecla Tab para desplazarse hacia delante. Pulse Mayús+Tab para mover hacia atrás.  
 
- Con el orden tabulación, también puede cambiar entre la ventana principal del explorador y los cuadros de diálogo que solicitan confirmación, por ejemplo, o la ventana de inicio de sesión.  
+ Con el orden tabulación, también puede cambiar entre la página principal del explorador y los cuadros de diálogo que solicitan confirmación, por ejemplo, o la página de inicio de sesión.  
 
 ##  <a name="Headings"></a> Encabezados  
  El código fuente HTML para el contenido de [!INCLUDE[d365fin](includes/d365fin_md.md)] utiliza etiquetas para ayudar a los usuarios de tecnología de asistencia a comprender la estructura y el contenido de la página. Por ejemplo, en las páginas de lista, las columnas se definen en las etiquetas TH y los encabezados de columna se establecen con el atributo TITLE dentro de la etiqueta. Los títulos de los elementos, como fichas desplegables, cuadros informativos y campos, se incluyen en las etiquetas de título (H1, H2, H3 y H4).  

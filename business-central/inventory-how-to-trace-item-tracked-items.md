@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: bd2bfb6f124a3a98776be21d179a81d8933cc9ee
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: bf16f61e5c3d6ee6af045ded8ec80e426ae6c20a
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="trace-item-tracked-items"></a>Realizar seguimiento de productos seguidos
@@ -24,16 +24,16 @@ Puede ver donde se ha utilizado un producto marcado para seguimiento, incluso c�
 
  Estas funciones pueden ser especialmente útiles en controles de calidad en los que sea necesario conocer qué clientes recibieron productos con un número de lote en particular, o cuando es necesario conocer de qué lote proviene un componente defectuoso.  
 
- En la ventana **Seguimiento productos**, puede realizar un seguimiento hacia adelante y hacia atrás de una secuencia de transacciones registradas del inventario para el número de serie o de lote.  
+ En la página **Seguimiento productos**, puede realizar un seguimiento hacia adelante y hacia atrás de una secuencia de transacciones registradas del inventario para el número de serie o de lote.  
 
- En la ventana **Navegar**, no puede ver la secuencia de transacciones, pero puede ver todos los registros del número de serie o de lote, tanto las entradas registradas como los registros abiertos.  
+ En la página **Navegar**, no puede ver la secuencia de transacciones, pero puede ver todos los registros del número de serie o de lote, tanto las entradas registradas como los registros abiertos.  
 
- Las dos características se pueden utilizar en combinación mediante la transferencia de un número de serie o de lote rastreado a la ventana **Navegar** para terminar un escenario del seguimiento completo. Si desea obtener más información, consulte [Tutorial: seguimiento de números de serie-lote](walkthrough-tracing-serial-lot-numbers.md).  
+ Las dos características se pueden utilizar en combinación mediante la transferencia de un número de serie o de lote rastreado a la página **Navegar** para terminar un escenario del seguimiento completo. Si desea obtener más información, consulte [Tutorial: seguimiento de números de serie-lote](walkthrough-tracing-serial-lot-numbers.md).  
 
 ## <a name="to-trace-item-tracked-items"></a>Para controlar productos seguidos  
 
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Seguimiento productos** y luego elija el enlace relacionado.  
-2.  En los campos de filtrado que aparecen en la parte superior de la ventana, introduzca los números de producto específicos o un filtro sobre los números de producto a los que desea realizar un seguimiento.  
+2.  En los campos de filtrado que aparecen en la parte superior de la página, introduzca los números de producto específicos o un filtro sobre los números de producto a los que desea realizar un seguimiento.  
 3.  En el campo **Mostrar componentes**, seleccione si desea visualizar también de dónde provienen los componentes para los productos. Las opciones de este campo son las siguientes.  
 
     |Campo|Description|  
@@ -46,13 +46,13 @@ Puede ver donde se ha utilizado un producto marcado para seguimiento, incluso c�
 
     |Campo|Description|  
     |----------------------------------|---------------------------------------|  
-    |**Uso -> Origen**|Este método realiza un seguimiento del producto comenzando por dónde se utilizó hasta de dónde proviene. Por ejemplo, si se vendió un producto fabricado a un cliente, la ventana **Seguimiento productos** muestra esta información con la línea de albarán de ventas primero, la cual puede expandir para ver de qué orden de producción proviene.|  
-    |**Origen->Uso**|este método realiza un seguimiento del producto comenzando por dónde se introdujo en el inventario y terminando por dónde se utilizó. Por ejemplo, si se vendió un producto fabricado a un cliente, la ventana **Seguimiento productos** muestra esta información con el orden de producto acabado primeramente, el cual puede expandir para ver las líneas del albarán de ventas en los que se ha utilizado el producto.|  
+    |**Uso -> Origen**|Este método realiza un seguimiento del producto comenzando por dónde se utilizó hasta de dónde proviene. Por ejemplo, si se vendió un producto fabricado a un cliente, la página **Seguimiento productos** muestra esta información con la línea de albarán de ventas primero, la cual puede expandir para ver de qué orden de producción proviene.|  
+    |**Origen->Uso**|este método realiza un seguimiento del producto comenzando por dónde se introdujo en el inventario y terminando por dónde se utilizó. Por ejemplo, si se vendió un producto fabricado a un cliente, la página **Seguimiento productos** muestra esta información con el orden de producto acabado primeramente, el cual puede expandir para ver las líneas del albarán de ventas en los que se ha utilizado el producto.|  
 
 5.  Elija la acción **Realizar seguimiento** para ejecutar el seguimiento.  
 
 > [!NOTE]  
->  Si se ha recibido el mismo lote en más transacciones, la ventana **Seguimiento producto** no puede mostrar todas las transacciones. Solo se muestran las transacciones liquidadas.  
+>  Si se ha recibido el mismo lote en más transacciones, la página **Seguimiento producto** no puede mostrar todas las transacciones. Solo se muestran las transacciones liquidadas.  
 
 > [!NOTE]  
 >  Si el historial adicional de la transacción bajo la línea de seguimiento del producto ya se ha rastreado por otra línea por encima suyo, la casilla de verificación **Seguimiento en curso** está seleccionada. Para proporcionar una vista más sencilla, las líneas subyacentes no se muestran.  

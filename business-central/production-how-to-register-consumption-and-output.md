@@ -1,6 +1,6 @@
 ---
 title: "Registrar el consumo y la salida de una orden de producción | Documentos de Microsoft"
-description: "Esta tarea de ejecución se realiza en la ventana **Diario de producción**. El diario combina las funciones del diario de consumo y de los diarios de salida en un único diario, al que se tiene acceso directamente desde una orden de producción lanzada. La finalidad principal de este diario es registrar manualmente el consumo de componentes, la cantidad de los productos finales fabricados y el tiempo empleado en las operaciones. Su finalidad principal es registrar manualmente el consumo de componentes, la cantidad de productos finales fabricados y el tiempo dedicado a las operaciones."
+description: "Esta tarea de ejecución se realiza en la página **Diario de producción**. El diario combina las funciones del diario de consumo y de los diarios de salida en un único diario, al que se tiene acceso directamente desde una orden de producción lanzada. La finalidad principal de este diario es registrar manualmente el consumo de componentes, la cantidad de los productos finales fabricados y el tiempo empleado en las operaciones. Su finalidad principal es registrar manualmente el consumo de componentes, la cantidad de productos finales fabricados y el tiempo dedicado a las operaciones."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 03c9439bde3a8e5b1c1caaeae362fcd6609f7a63
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 673f2800c3c65af3fd50e08b0d042e6812bb29f4
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Registrar el consumo y la salida de una línea de orden de producción lanzada
-Esta tarea de ejecución se realiza en la ventana **Diario de producción**. El diario combina las funciones del diario de consumo y de los diarios de salida en un único diario, al que se tiene acceso directamente desde una orden de producción lanzada. La finalidad principal de este diario es registrar manualmente el consumo de componentes, la cantidad de los productos finales fabricados y el tiempo empleado en las operaciones. Su finalidad principal es registrar manualmente el consumo de componentes, la cantidad de productos finales fabricados y el tiempo dedicado a las operaciones. Los valores se registran en los movimientos de contabilidad bajo la orden de producción lanzada. Las cantidades de consumo se registran como movimientos de producto negativos, las cantidades de salida se registran como movimientos positivos y los tiempos invertidos se registran como movimientos de capacidad. Estos valores registrados se pueden consultar también en la parte inferior del diario como cantidades reales.  
+Esta tarea de ejecución se realiza en la página **Diario de producción**. El diario combina las funciones del diario de consumo y de los diarios de salida en un único diario, al que se tiene acceso directamente desde una orden de producción lanzada. La finalidad principal de este diario es registrar manualmente el consumo de componentes, la cantidad de los productos finales fabricados y el tiempo empleado en las operaciones. Su finalidad principal es registrar manualmente el consumo de componentes, la cantidad de productos finales fabricados y el tiempo dedicado a las operaciones. Los valores se registran en los movimientos de contabilidad bajo la orden de producción lanzada. Las cantidades de consumo se registran como movimientos de producto negativos, las cantidades de salida se registran como movimientos positivos y los tiempos invertidos se registran como movimientos de capacidad. Estos valores registrados se pueden consultar también en la parte inferior del diario como cantidades reales.  
 
 > [!NOTE]  
 >  Puesto que los datos de consumo se procesan conjuntamente con los datos de salida, este diario permite mostrar componentes y operaciones vinculadas en una estructura de proceso lógica. Los componentes se muestran con sangría bajo la operación respectiva. Esto necesita que utilice códigos de vínculo de ruta.  
@@ -32,7 +32,7 @@ Esta tarea de ejecución se realiza en la ventana **Diario de producción**. El 
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer") escriba **O.P. Lanzadas** y luego elija el enlace relacionado.  
 2.  Abra una línea de orden de producción lanzada que esté lista para su registro. En la ficha desplegable **Líneas**, seleccione la acción **Línea** y, a continuación, elija la acción **Diario de producción**.  
 
-    La ventana **Diario de producción** se abre y muestra las líneas de diario para la línea de orden de producción según las ventanas **Componente orden producción** y **Ruta orden producción**. Estas líneas proceden de la L.M. de producción y la ruta asignados al producto que se está fabricando. Para obtener más información, consulte [Crear L.M. de producción](production-how-to-create-routings.md).  
+    La página **Diario de producción** se abre y muestra las líneas de diario para la línea de orden de producción según las páginas **Componente orden producción** y **Ruta orden producción**. Estas líneas proceden de la L.M. de producción y la ruta asignados al producto que se está fabricando. Para obtener más información, consulte [Crear L.M. de producción](production-how-to-create-routings.md).  
 
 3.  En el campo **Fecha registro** situado en la parte superior del diario, especifique una fecha de registro que se aplique a todas las líneas. La fecha de trabajo se especifica de forma predeterminada. Este campo constituye un método rápido de alinear las fechas de registro en todas las líneas, si es necesario.  
 
@@ -45,7 +45,7 @@ Esta tarea de ejecución se realiza en la ventana **Diario de producción**. El 
 
     Al abrir el diario, éste se predefine con las cantidades que se van a registrar. Si hasta el momento no se ha registrado nada, todos los campos de cantidad mostrarán de forma predeterminada las cantidades esperadas procedentes de la orden de producción. Si se han realizado registros parciales, los campos de cantidad de las líneas mostrarán las cantidades restantes. Las cantidades y los tiempos ya registrados para la orden se muestran en la parte inferior del diario como movimientos reales.  
 
-    En cuanto a las cantidades del campo **Cantidad salida**, puede configurar los valores que aparecerán predefinidos al abrir por primera vez el diario. Esta operación se realiza en la ventana **Configuración fabricación**, ficha desplegable **General**, en el campo **Cantidad de salida predefinida**.
+    En cuanto a las cantidades del campo **Cantidad salida**, puede configurar los valores que aparecerán predefinidos al abrir por primera vez el diario. Esta operación se realiza en la página **Configuración fabricación**, ficha desplegable **General**, en el campo **Cantidad de salida predefinida**.
 
 5.  Empiece a especificar las cantidades pertinentes de consumo y salida en los campos editables.  
 
@@ -64,7 +64,7 @@ Si quedan valores para registrar, el diario contendrá dichos valores la próxim
 >  si cierra el diario sin realizar ningún registro, se perderán los cambios.  
 
 > [!WARNING]  
->  La ventana **Diario de producción** no se puede utilizar por dos usuarios simultáneamente. Esto significa que si el usuario 2 abre la ventana e introduce datos cuando el usuario 1 ya está trabajando en la ventana, el usuario 2 puede perder los datos cuando el usuario 1 cierre la ventana.  
+>  La página **Diario de producción** no se puede utilizar por dos usuarios simultáneamente. Esto significa que si el usuario 2 abre la página e introduce datos cuando el usuario 1 ya está trabajando en la página, el usuario 2 puede perder los datos cuando el usuario 1 cierre la página.  
 
 ## <a name="see-also"></a>Consulte también  
 [Fabricación](production-manage-manufacturing.md)    

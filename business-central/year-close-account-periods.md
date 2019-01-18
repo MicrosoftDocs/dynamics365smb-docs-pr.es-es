@@ -13,10 +13,10 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f0bdc88cb2d52ed8e1558fb140f904f792e539ff
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c8f086e0dc7479ece62ab28b64f9553ba2d13b82
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="close-accounting-periods"></a>Cerrar periodos contables
@@ -24,7 +24,7 @@ Cuando finaliza un ejercicio, debe cerrar los periodos que lo forman.
 
 ## <a name="to-close-accounting-periods"></a>Para cerrar periodos contables
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Periodos contables** y luego elija el enlace relacionado.
-2. En la ventana **Periodos contables**, elija la acción **Fijar cierre**.
+2. En la página **Periodos contables**, elija la acción **Cerrar ejercicio**.
 
     Si hay más de un ejercicio abierto, se selecciona automáticamente el más antiguo para cerrarse. Se muestra un mensaje para identificar el ejercicio que se va a cerrar y las consecuencias del cierre.
 3. Para cerrar el ejercicio, elija el botón **Sí**.

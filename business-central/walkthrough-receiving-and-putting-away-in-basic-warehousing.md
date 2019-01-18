@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2441c41c6bb28691a855ac4b5d50359b95b23f7d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0ba61572a237e177b763b7b8a2e13ca7ec93eea4
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Tutorial: recepción y ubicación en la configuración del almacenamiento básico
@@ -32,7 +32,7 @@ Para obtener más información, consulte [Detalles de diseño: Flujo de entrada 
 En el siguiente tutorial se demuestra el método B de la tabla anterior.  
 
 ## <a name="about-this-walkthrough"></a>Acerca de este tutorial  
-En la configuración básica de almacén, donde el almacén está configurado para requerir proceso de ubicación, pero no de recepción, utiliza la ventana **Ubicación existencias** para registrar la información de ubicación y recepción de los documentos de origen entrantes. El documento de origen de entrada puede ser un pedido de compra, una devolución de ventas, un pedido de transferencia de salida o una orden de producción con salida que está preparada para ubicarse.
+En la configuración básica de almacén, donde el almacén está configurado para requerir proceso de ubicación, pero no de recepción, utiliza la página **Ubicación existencias** para registrar la información de ubicación y recepción de los documentos de origen entrantes. El documento de origen de entrada puede ser un pedido de compra, una devolución de ventas, un pedido de transferencia de salida o una orden de producción con salida que está preparada para ubicarse.
 
 > [!NOTE]
 > A pesar de que las configuraciones se denominan **Picking requerido** y **Ubicación requerida**, todavía puede registrar recibos y envíos directamente desde los documentos empresariales de origen en las ubicaciones donde se selecciona estas casillas de verificación.  
@@ -63,7 +63,7 @@ Para completar este tutorial, necesitará:
 -   Para convertirse en un empleado de almacén en el almacén PLATA, realice los pasos siguientes:  
 
     1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Empleados de almacén** y luego elija el enlace relacionado.  
-    2.  Elija el campo **Id. de usuario** y seleccione su propia cuenta de usuario en la ventana **Usuarios**.  
+    2.  Elija el campo **Id. de usuario** y seleccione su propia cuenta de usuario en la página **Usuarios**.  
     3.  En el campo **Cód. almacén**, especifique PLATA.  
     4.  Seleccione el campo de **Predeterminado**.  
 
@@ -71,7 +71,7 @@ Para completar este tutorial, necesitará:
 Ellen, administradora del almacén en CRONUS International Ltd., crea un pedido de compra de 10 unidades del producto LS-75 y 30 unidades del producto LS-81 del proveedor 10000 para su entrega al almacén PLATA. Cuando la entrega llega al almacén, Juan, el trabajador del almacén, coloca los productos en las ubicaciones predeterminadas definidas para los productos. Cuando Juan registra la ubicación, los productos se registran como recibidos en el inventario y estarán disponibles para la venta u otra demanda.  
 
 ## <a name="setting-up-the-location"></a>Configuración del almacén  
- La configuración de la ventana **Ficha almacén** define los flujos de almacén de la empresa.  
+ La configuración de la página **Ficha almacén** define los flujos de almacén de la empresa.  
 
 ### <a name="to-set-up-the-location"></a>Configurar el almacén  
 
@@ -84,7 +84,7 @@ Ellen, administradora del almacén en CRONUS International Ltd., crea un pedido 
 4.  Seleccione la acción **Ubicaciones**.  
 5.  Seleccione la primera fila, para la ubicación S-01-0001, y después seleccione **Contenidos**.  
 
-    Observe en la ventana **Contenido ubicación** que el producto LS-75 ya está configurado como contenido de la ubicación S-01-0001.  
+    Observe en la página **Contenido ubicación** que el producto LS-75 ya está configurado como contenido de la ubicación S-01-0001.  
 
 6.  Seleccione la acción **Nuevo**.  
 7.  Seleccione los campos **Fijo** y **Predet.**.  
@@ -114,7 +114,7 @@ Los pedidos de compra son el tipo más común de documento de origen de entrada.
     La entrega de los altavoces del proveedor 10000 ha llegado al almacén PLATA y Juan comienza a guardarlos en su ubicación.  
 
 ## <a name="receiving-and-putting-the-items-away"></a>Recepción y ubicación de productos  
-En la ventana **Ubicación existencias**, puede administrar todas las actividades de almacén de entrada para un documento de origen determinado, como un pedido de compra.  
+En la página **Ubicación existencias**, puede administrar todas las actividades de almacén de entrada para un documento de origen determinado, como un pedido de compra.  
 
 ### <a name="to-receive-and-put-the-items-away"></a>Recibir y establecer la ubicación de los productos  
 

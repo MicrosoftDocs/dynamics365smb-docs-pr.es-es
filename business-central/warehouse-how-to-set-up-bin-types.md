@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2865d938c9bde4a64898e48d0381ed73b8c94d6e
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a82ce6867a86dcc5ba09949b7e7611550d744a83
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-bin-types"></a>Configurar tipos de ubicación
@@ -26,7 +26,7 @@ Existen seis tipos. Puede trabajar en el almacén con seis tipos de ubicaciones 
 
 ## <a name="to-set-up-the-bin-types-you-want-to-use"></a>Para configurar los tipos de ubicaciones que desea utilizar  
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Tipos ubicación** y luego elija el enlace relacionado.  
-2.  En la ventana **Tipos ubicación**, cree un código de 10 caracteres para el tipo de ubicación.  
+2.  En la página **Tipos ubicación**, cree un código d e10 caracteres para el tipo de ubicación.  
 3.  Seleccione las actividades que se pueden realizar con cada tipo de ubicación.  
 
 > [!NOTE]  

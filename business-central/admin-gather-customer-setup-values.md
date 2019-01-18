@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0282f0ae3ca2b11ff8cd01adf69054d8c805e7ae
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9231f63266ba030bbf4b3ca41641d5210bcd49b8
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="gather-customer-setup-values"></a>Recopilación de valores de configuración de cliente
@@ -32,7 +32,7 @@ Cuando su cliente completa el cuestionario, importe el archivo en la nueva empre
 ## <a name="to-create-a-configuration-questionnaire"></a>Para crear un cuestionario de configuración
 Puede usar un cuestionario para ayudarle a determinar el ámbito y necesidades de la configuración. Puede crear un nuevo cuestionario o modificar un cuestionario existente al agregar nuevas preguntas o áreas de preguntas.  
 
- Puede crear cuestionarios para únicamente para tablas de tipo de configuración. Por ejemplo, puede utilizar la herramienta para proporcionar información a las ventanas siguientes:  
+ Puede crear cuestionarios para únicamente para tablas de tipo de configuración. Por ejemplo, puede utilizar la herramienta para proporcionar información a las páginas siguientes:  
 
 -   Información de empresa  
 -   Configuración activos fijos  
@@ -50,9 +50,9 @@ Puede usar un cuestionario para ayudarle a determinar el ámbito y necesidades d
 >  Para ver una lista completa de tablas de configuración, elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración** y luego elija el enlace relacionado. Para determinar el ámbito de la migración de datos de registros, utilice la función de migración. Para obtener más información, consulte [Migrar datos del cliente](admin-migrate-customer-data.md).  
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Cuestionario de configuración** y elija el enlace relacionado.  
-2. Seleccione la acción **Nuevo**. Se abre la ventana **Cuestionario configuración**.  
-3. Seleccione la acción **Áreas preguntas**. Se abre la ventana **Áreas de pregunta**.  
-4. Seleccione la acción **Nuevo**. Se abre la ventana **Configurar área de pregunta**.  
+2. Seleccione la acción **Nuevo**. Se abre la página **Cuestionario configuración**.  
+3. Seleccione la acción **Áreas preguntas**. Se abre la página **Áreas de pregunta**.  
+4. Seleccione la acción **Nuevo**. Se abre la página **Configurar área de pregunta**.  
 5. En el campo **Id. de tabla**, seleccione el Id. de la tabla para la que desea recopilar información. El campo **Nombre de tabla** se rellena automáticamente.  
 6. Seleccione la acción **Actualizar preguntas**. Cada campo de la tabla se agrega al cuestionario con un signo de interrogación seguido de su etiqueta.
 
@@ -94,10 +94,10 @@ Una tarea de validación habitual consiste en comprobar que no hay cadenas de te
 > [!NOTE]  
 >  En general, la validación del cuestionario de configuración es un proceso manual. Sin embargo, se comprueba si hay incoherencias regionales de formato. Además, se producirán errores si la estructura de la base de datos de [!INCLUDE[d365fin](includes/d365fin_md.md)] no coincide con la estructura de la base de datos de migración.  
 
-1. En la ventana **Cuestionario configuración**, seleccione el cuestionario necesario y después seleccione la acción **Áreas de pregunta**.  
+1. En la página **Cuestionario configuración**, seleccione el cuestionario necesario y después seleccione la acción **Áreas de pregunta**.  
 2. Abra el área de pregunta pertinente.  
 3. Para cada pregunta, verifique que el valor del campo **Respuesta** se corresponde con el formato proporcionado en el campo **Opción respuesta**. Por ejemplo, verifique que la dirección de una empresa tiene formato de texto.  
-4. Si encuentra errores, puede solucionarlos y hacer correcciones en Excel exportando el cuestionario y, a continuación, importándolo de nuevo. De forma alternativa, puede corregir los errores directamente en [!INCLUDE[d365fin](includes/d365fin_md.md)] a medida que revisa las respuestas de la ventana **Configurar área de pregunta**.  
+4. Si encuentra errores, puede solucionarlos y hacer correcciones en Excel exportando el cuestionario y, a continuación, importándolo de nuevo. De forma alternativa, puede corregir los errores directamente en [!INCLUDE[d365fin](includes/d365fin_md.md)] a medida que revisa las respuestas de la página **Configurar área de pregunta**.  
 5. Repita estos pasos para cada área de preguntas.  
 
 Cuando termine la validación, los datos estarán preparados para aplicarse a la base de datos.  
@@ -105,7 +105,7 @@ Cuando termine la validación, los datos estarán preparados para aplicarse a la
 ## <a name="to-apply-answers-from-the-configuration-questionnaire"></a>Aplicar respuestas del cuestionario de configuración
 Después de que haya importado y validado información de un cuestionario de configuración, puede transferir o aplicar los datos de configuración a las tablas correspondientes en la base de datos de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Cuestionario de configuración** y luego elija el enlace relacionado. Se abre la ventana **Cuestionario configuración**.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Cuestionario de configuración** y luego elija el enlace relacionado. Se abre la página **Cuestionario configuración**.  
 2. Seleccione un cuestionario de configuración de la lista y elija la acción **Editar lista**.  
 3. Puede aplicar respuestas de dos maneras.  
 
@@ -113,7 +113,7 @@ Después de que haya importado y validado información de un cuestionario de con
 - Para aplicar las respuestas para un **Área de preguntas** específica únicamente, seleccione la acción **Áreas pregunta**, un **Área preguntas** de la lista y, a continuación, elija la acción **Aplicar respuestas**.  
 
 ### <a name="to-verify-that-answers-have-been-applied-successfully"></a>Para comprobar que las respuestas se hayan aplicado correctamente  
-1. Compruebe las ventanas de configuración de las diversas áreas funcionales de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para localizar la ventana, elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), especifique el nombre de la ventana de configuración y, a continuación, seleccione el vínculo relacionado.  
+1. Compruebe las páginas de configuración de las diversas áreas funcionales de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para localizar la página, elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), especifique el nombre de la página de configuración y, a continuación, seleccione el vínculo relacionado.  
 2. Compruebe que los campos se hayan rellenado con los datos correctos de las distintas áreas de pregunta en el cuestionario de configuración.  
 
 Ahora ha definido la configuración con la información y las reglas de negocio del cliente.

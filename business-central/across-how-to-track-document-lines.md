@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 39a44f4b608bca436adedb16c800c96a046d5644
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2325aafc22db4ab737e63a261b836076cc3fde20
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="track-document-lines"></a>Seguimiento de líneas de documentos
@@ -28,7 +28,7 @@ El siguiente procedimiento describe cómo rastrear desde una línea de orden de 
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.  
 2.  Abra un pedido de venta del que desee realizar un seguimiento.  
 3.  Seleccione una línea y, a continuación, seleccione la acción **Seguimiento de línea de documento**.
-4. En la ventana **Seguimiento de líneas de documento**, seleccione el documento que desea ver y después seleccione la acción **Muestra** para ver la línea relacionada.
+4. En la página **Seguimiento de líneas de documento**, seleccione el documento que desea ver y después seleccione la acción **Muestra** para ver la línea relacionada.
 5. Para ver el documento completo para la línea de documento seleccionada, elija la acción **Mostrar documento**.
 
 ## <a name="see-also"></a>Consulte también

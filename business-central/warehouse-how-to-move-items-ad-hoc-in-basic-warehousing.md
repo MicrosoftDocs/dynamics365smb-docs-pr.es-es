@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ac7b80c3ada7a5dd27fc74d3d8be5e38f1552725
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 7b753f291ebc4fefee523430e1b10d091e86cd0e
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Mover productos ad hoc en configuraciones básicas de almacén
@@ -22,11 +22,11 @@ Puede que necesite de vez en cuando mover los artículos entre las ubicaciones i
 
 En configuraciones de almacén básico, es decir en ubicaciones que utilizan el campo de instalación **Ubicac. obligatoria** y posiblemente los campos de configuración **Picking requerido** y **Ubicación requerida**, puede registrar los movimientos ad hoc sin los documentos de origen de las siguientes formas:  
 
-- Con la ventana **Movimiento interno**.  
-- Con la ventana **Diario reclasificación productos**.  
+- Con la página **Movimiento interno**.  
+- Con la página **Diario reclasificación productos**.  
 
 > [!NOTE]  
->  En configuraciones avanzadas de almacén, es decir las ubicaciones que utilizan el campo de configuración **Ubicac. y pick. directo**, utilice las ventanas **Hoja trabajo movimiento**, **Picking almacén interno** o **Ubicación almacén interno** para mover los artículos ad hoc entre ubicaciones.  
+>  En configuraciones avanzadas de almacén, es decir las ubicaciones que utilizan el campo de configuración **Ubicac. y pick. directo**, utilice las páginas **Hoja trabajo movimiento**, **Picking almacén interno** o **Ubicación almacén interno** para mover los artículos ad hoc entre ubicaciones.  
 
 ## <a name="to-move-items-as-an-internal-movement"></a>Para mover los artículos como movimiento interno  
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Movimiento interno** y luego elija el enlace relacionado.  
@@ -36,7 +36,7 @@ En configuraciones de almacén básico, es decir en ubicaciones que utilizan el 
     Si la ubicación está configurada como predeterminada como empleado de almacén, el código de almacén se insertará automáticamente.  
 4.  En el campo **Hasta cód. ubicación**, introduzca un código para la ubicación a la que desea mover el artículo. A efectos de producción, esto podría ser el código de ubicación a producción, por ejemplo, tal como se define en la ficha de almacén o del centro de trabajo.  
 5.  En el campo **Fecha vencimiento**, introduzca la fecha en la que debe completarse el movimiento.  
-6.  En la ficha desplegable **Líneas**, elija el campo **Nº producto** para abrir la ventana **Lista contenidos ubic.** y seleccione el producto que se debe mover según su disponibilidad en las ubicaciones. También, elija la acción **Traer conten. ubicac.** para rellenar las líneas de movimiento interno basándose en los filtros. Para obtener más información, vea la información sobre herramientas para la acción **Traer conten. ubicac.**.   
+6.  En la ficha desplegable **Líneas**, elija el campo **Nº producto** para abrir la página **Lista contenidos ubic.** y seleccione el producto que se debe mover según su disponibilidad en las ubicaciones. También, elija la acción **Traer conten. ubicac.** para rellenar las líneas de movimiento interno basándose en los filtros. Para obtener más información, vea la información sobre herramientas para la acción **Traer conten. ubicac.**.   
 
     Cuando haya seleccionado el artículo, el campo **Desde cód. ubicación** se rellena automáticamente según el contenido seleccionado en la ubicación, pero puede cambiarlo por cualquier otra ubicación donde esté disponible el artículo.  
 
@@ -54,7 +54,7 @@ En configuraciones de almacén básico, es decir en ubicaciones que utilizan el 
     > [!NOTE]  
     >  Cuando se haya creado el movimiento de inventario, se eliminarán las líneas de movimientos internos.  
 
-    Ejecute el resto del movimiento ad hoc en la ventana **Movimiento inventario** de la misma forma que lo haría en un movimiento basado en los documentos de origen. Para obtener más información, consulte, por ejemplo, [Mover componentes a un área de operaciones en las configuraciones básicas de almacén](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  
+    Ejecute el resto del movimiento ad hoc en la página **Movimiento inventario** de la misma forma que lo haría en un movimiento basado en los documentos de origen. Para obtener más información, consulte, por ejemplo, [Mover componentes a un área de operaciones en las configuraciones básicas de almacén](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  
 
 ## <a name="to-move-items-with-the-item-reclassification-journal"></a>Para mover productos con el diario de reclasificación de productos:
 En lugar de utilizar documentos de movimiento de almacén, puede registrar el movimiento de productos reclasificando sus códigos de ubicación. Para obtener más información, consulte [Recuento, ajuste, y reclasificación de inventario](inventory-how-count-adjust-reclassify.md).   

@@ -10,13 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/13/2018
 ms.author: sgroespe
+redirect_url: finance-define-and-allocate-costs
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5ca8e7008c2bfe4a9abeb9d9b7b467a38e2c1971
+ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
+ms.openlocfilehash: fcf97328900bb21a85be51452b9e86da8398d195
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/20/2018
 
 ---
 # <a name="setting-filters-for-dynamic-allocation-bases"></a>Configuración de filtros para las bases de la asignación dinámica
@@ -35,10 +36,8 @@ El método de asignación dinámica se basa en los valores cambiables. Por ejemp
 |Productos vendidos (cantidad)|Nº producto|Sí|Sí|Sí|Grupo contable existencias|  
 |Productos comprados (cantidad)|Nº producto|Sí|Sí|Sí|Grupo contable existencias|  
 |Productos vendidos (importe)|Nº producto|Sí|Sí|Sí|Grupo contable existencias|  
-|Productos comprados (importe)|N.º producto|Sí|Sí|Sí|Grupo contable inventario|  
+|Productos comprados (importe)|N.º producto|Sí|Sí|Sí|Grupo registro inventario|  
 
 ## <a name="see-also"></a>Consulte también  
- [Ejemplo: definición de asignaciones dinámicas basándose en productos vendidos](finance-scenario-example-defining-dynamic-allocations-based-on-items-sold.md)   
- [Configurar origen de asignación y destinos](finance-how-to-set-up-allocation-source-and-targets.md)   
- [Definición y asignación de costes](finance-define-and-allocate-costs.md)
+[Definición y asignación de costes](finance-define-and-allocate-costs.md)
 

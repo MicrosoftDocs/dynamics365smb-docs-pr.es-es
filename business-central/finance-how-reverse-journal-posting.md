@@ -13,10 +13,10 @@ ms.search.keywords: reimbursement
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: beed335b93ef9211e4fc53c25f97b3fed6137348
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: cc624d52ce61cea4a8e92bb7d37e07ad8c769393
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="reverse-postings"></a>Revertir registros
@@ -31,10 +31,10 @@ Si ha realizado un registro de una cantidad negativa errónea, como un pedido de
 Si ha realizado un registro de una cantidad positiva errónea, como un pedido de devolución de compra con un número de productos erróneo y lo ha registrado como enviado, pero no facturado, puede deshacer el registro.   
 
 ## <a name="to-reverse-the-journal-posting-of-a-general-ledger-entry"></a>Para revertir el registro de diario de un movimiento de contabilidad
-Se pueden revertir movimientos desde todas las ventanas **Movimientos**. El siguiente procedimiento se basa en la ventana **Movs. contabilidad**.
+Se pueden revertir movimientos desde todas las páginas **Movimientos**. El siguiente procedimiento se basa en la página **Movs. contabilidad**.
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Movs. contabilidad** y luego elija el enlace relacionado.
 2. Seleccione el movimiento que desea revertir y, después, seleccione **Revertir transacción**. Tenga en cuenta que debe proceder de un registro de diario.
-3. En la ventana **Revertir movs. trans.**, seleccione el movimiento relevante y, después, seleccione la acción **Revertir**.
+3. En la página **Revertir movs. trans.**, seleccione el movimiento relevante y, después, seleccione la acción **Revertir**.
 4. Elija el botón **Sí** para en el mensaje de confirmación.
 
 ## <a name="to-undo-a-quantity-posting-on-a-posted-purchase-receipt"></a>Para deshacer la cantidad registrada en un albarán de compra registrado  
@@ -62,7 +62,7 @@ Se pueden revertir movimientos desde todas las ventanas **Movimientos**. El sigu
 
     Ahora vuelva al pedido de devolución de compra para volver a realizar el registro.  
 
-5.  En la ventana **Histórico envío devolución**, tome una nota del número en el campo **Nº devolución** .  
+5.  En la página **Histórico envío devolución**, tome una nota del número en el campo **Nº devolución** .  
 6.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos devolución compra** y luego seleccione el enlace relacionado.  
 7.  Abra el pedido de devolución en cuestión y, a continuación, elija la acción **Volver a abrir**.  
 8.  Corrija el movimiento en el campo **Cantidad** y vuelva a publicar la orden de devolución de la compra.  

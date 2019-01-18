@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 46c19e9fc255c34cfce6e547173f14f548785a0b
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 30a6832c0672677106fdb41c9a38a73dae296aa5
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="plan-picks-in-worksheets"></a>Planificar los picking en la hoja de trabajo
@@ -42,8 +42,8 @@ Si ordena por fecha de vencimiento, puede eliminar de la hoja de trabajo todas l
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hoja trabajo picking** y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Traer doc. almacén**.  
 3.  Escriba el envío para el que desea preparar el picking. Ahora puede ordenar las líneas, pero el método ordenación que ejecute no se aplicará a la instrucción de picking. También puede eliminar algunas líneas para realizar un picking más eficaz. Por ejemplo, si hay varias líneas con productos en ubicaciones de tránsito directo, es posible que desee realizar un picking de todas las líneas asociadas con estas líneas. Se enviarán los productos de tránsito directo junto con el resto de los productos de los envíos, y las ubicaciones de tránsito directo tendrán espacio para la entrada de más productos.  
-4.  Elija la acción **Crear picking** y rellene la ventana de solicitud **Crear picking**. El método de ordenación que ha solicitado ordenará las líneas de picking que cree. Por ejemplo, puede crear un picking para cada zona y ordenar las líneas por ranking de ubicación en cada picking.  
-5.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Picking** y luego elija el enlace relacionado. Se abre la ventana **Picking**.  
+4.  Elija la acción **Crear picking** y rellene la página de solicitud **Crear picking**. El método de ordenación que ha solicitado ordenará las líneas de picking que cree. Por ejemplo, puede crear un picking para cada zona y ordenar las líneas por ranking de ubicación en cada picking.  
+5.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Picking** y luego elija el enlace relacionado. Se abre la página **Picking**.  
 6.  Ahora puede encontrar la asignación de picking que acaba de crear seleccionando el picking con el número más alto.  
 7.  En el picking, aún puede modificar el Id. de usuario asignado y el orden de las líneas.  
 8.  Elija la acción **Imprimir** para que se impriman las instrucciones de picking.  

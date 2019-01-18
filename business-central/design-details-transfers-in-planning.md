@@ -13,10 +13,10 @@ ms.search.keywords: design, transfer, sku, locations, warehouse
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fc3f1c3d8a8baab17695c22afb00c35413504ce8
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: dbf1658893d5210c38994302ae817afa7349884a
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-transfers-in-planning"></a>Detalles de diseño: Transferencias en planificación
@@ -33,7 +33,7 @@ Un pedido de transferencia se parece mucho a cualquier otro pedido en el program
 
 Un aspecto fundamental que diferencia las transferencias en la planificación de los pedidos de compra y de las órdenes de producción es que una línea de transferencia representa la demanda y el suministro al mismo tiempo. La parte de salida, que se envía desde la ubicación anterior, es demanda. La parte de entrada, que se recibirá en la nueva ubicación, es el suministro de esa ubicación.  
 
-![Contenido de la ventana Pedido de transferencia](media/nav_app_supply_planning_7_transfers3.png "Contenido de la ventana Pedido de transferencia")  
+![Contenido de la página Pedido de transferencia](media/nav_app_supply_planning_7_transfers3.png "Contenido de la página Pedido de transferencia")  
 
 Esto significa que, cuando el sistema manipula la parte de suministro de la transferencia, se debe realizar un cambio similar en la parte de demanda.  
 
@@ -64,7 +64,7 @@ El código de nivel de transferencia es un campo interno que se calcula automát
 
 El código de nivel de transferencia será 0 para las UA con pedido de compra o de producción del sistema de reposición y será -1 para el primer nivel de transferencia, -2 para el segundo, y así sucesivamente. En la cadena de transferencia descrita anteriormente, los niveles serían -1 para ROJO y -2 para VERDE, como se muestra en la ilustración siguiente.  
 
-![Contenido de la ventana Ficha UA](media/nav_app_supply_planning_7_transfers6.gif "Contenido de la ventana Ficha UA")  
+![Contenido de la página Ficha UA](media/nav_app_supply_planning_7_transfers6.gif "Contenido de la página Ficha UA")  
 
 Al actualizar una UA, el sistema de planificación detectará si las UA con la transferencia del sistema de reposición están configuradas con referencias circulares.  
 
@@ -135,7 +135,7 @@ En este ejemplo, esto significa que:
 * Fecha final + Tiempo manip. alm. entrada = Fecha recepción  
 
 ## <a name="safety-lead-time"></a>Plazo de seguridad  
-El campo Plazo seguridad genérico de la ventana Configuración fabricación y el campo Plazo de seguridad relacionado de la ficha de producto no se tendrán en cuenta en el cálculo de un pedido de transferencia. No obstante, el plazo de seguridad seguirá influenciando en el plan total, ya que afectará al pedido de reabastecimiento (compra o producción) al comienzo de la cadena de transferencia cuando los productos se coloquen en la ubicación desde la que se transferirán.  
+El campo Plazo seguridad genérico de la página Configuración fabricación y el campo Plazo de seguridad relacionado de la ficha de producto no se tendrán en cuenta en el cálculo de un pedido de transferencia. No obstante, el plazo de seguridad seguirá influenciando en el plan total, ya que afectará al pedido de reabastecimiento (compra o producción) al comienzo de la cadena de transferencia cuando los productos se coloquen en la ubicación desde la que se transferirán.  
 
 ![Elementos de la fecha de vencimiento de la transferencia](media/nav_app_supply_planning_7_transfers14.png "Elementos de la fecha de vencimiento de la transferencia")  
 

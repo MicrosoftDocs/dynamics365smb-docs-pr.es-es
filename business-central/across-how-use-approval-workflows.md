@@ -12,16 +12,16 @@ ms.search.keywords: reject, delegate, request
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 4a153d8cd4ceccea2d7d410702df4ba2ec760cf9
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3b4b4a6d544b594f439b675b88176d942d8cf325
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="use-approval-workflows"></a>Usar flujos de trabajo de aprobación del producto
 Cuando un registro, como un documento de compra o una ficha de cliente, necesita ser aprobado por alguien de su organización, enviará una solicitud de aprobación como parte de un flujo de trabajo. En función de la configuración del flujo de trabajo, el aprobador adecuado recibirá notificación sobre que el registro requiere su aprobación.
 
-Los flujos de trabajo de aprobación se crean en la ventana **Flujo de trabajo**. Para obtener más información, consulte [Configurar flujos de trabajo](across-set-up-workflows.md).
+Los flujos de trabajo de aprobación se crean en la página **Flujo de trabajo**. Para obtener más información, consulte [Configurar flujos de trabajo](across-set-up-workflows.md).
 
 Además de los flujos de trabajo de aprobación descritos en este tema, puede realizar otras tareas de flujo de trabajo. Para obtener más información, [Uso de flujos de trabajo](across-use-workflows.md).
 
@@ -30,7 +30,7 @@ Los flujos de trabajo de aprobación más importantes para los documentos de com
 ## <a name="to-request-approval-of-a-record"></a>Para solicitar la aprobación de un registro
 La siguiente tarea se realizado por un usuario de aprobación.
 
-1. En la ventana que presenta el registro, seleccione la acción **Enviar solicitud de aprobación**.
+1. En la página que presenta el registro, seleccione la acción **Enviar solicitud de aprobación**.
 2. Para ver todas las solicitudes de aprobación, seleccione el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Movs. solic. aprobación** y luego elija el enlace relacionado.  
 
 El estado del movimiento de aprobación se actualiza de **Creado** a **Abierto**. El estado del registro, por ejemplo una factura de compra, se actualiza de **Abierto** a **Pendiente de aprobación** y permanece bloqueado para el procesamiento hasta que todos los aprobadores hayan aprobado el registro.
@@ -42,14 +42,14 @@ La siguiente tarea se realizado por un usuario de aprobación con derechos de ap
 
 Puede que un cliente desee cambiar un pedido después de que éste haya sido enviado para su aprobación. En tal caso, puede cancelar el proceso de aprobación y realizar los cambios necesarios en el pedido antes de volver a solicitar aprobación.
 
-- En la ventana que muestra el registro, seleccione la acción **Cancelar solicitud de aprobación**.
+- en la página que muestra el registro, seleccione la acción **Cancelar solicitud de aprobación**.
 
 Una vez cancelada la solicitud de aprobación, el estado del movimiento de aprobación relacionado cambia a **Cancelado**. El estado del registro también se actualiza de **Aprobación pendiente** a **Abierto**. El proceso de aprobación puede entonces comenzar de nuevo.
 
 ## <a name="to-approve-or-reject-requests-for-approval"></a>Para aprobar o rechazar solicitudes de aprobación
 La siguiente tarea se realizado por un usuario de aprobación con derechos de aprobación.
 
-Puede procesar solicitudes de aprobación en la ventana **Solicitudes de aprobación**, por ejemplo aprobar múltiples solicitudes a la vez. Alternativamente, puede procesar cada solicitud en el registro relacionado, como en la ventana **Factura de compra**, seleccionando el enlace en la notificación que recibe.
+Puede procesar solicitudes de aprobación en la página **Solicitudes de aprobación**, por ejemplo aprobar múltiples solicitudes a la vez. Alternativamente, puede procesar cada solicitud en el registro relacionado, como en la página **Factura de compra**, seleccionando el enlace en la notificación que recibe.
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer") escriba **Solicitudes para aprobar** y luego elija el enlace relacionado.
 2. Seleccione una o varias líneas para el registro o los registros que desee aprobar o rechazar.
@@ -79,7 +79,7 @@ Deberá recordar de forma periódica a los usuarios de flujo de trabajo de aprob
 La función **Enviar notificaciones de aprobación vencidas** buscará todas las solicitudes de aprobación pendientes que hayan vencido. Cada aprobador que tenga al menos un movimiento de aprobación vencido recibirá una notificación con la lista de todas las solicitudes de aprobación vencidas. Esta notificación también se envía al aprobador y a todos los solicitantes de las aprobaciones vencidas. Esto resulta útil si el movimiento de aprobación vencido se debe delegar a un sustituto.
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer") escriba **Solicitudes de aprobación vencidas** y luego elija el enlace relacionado.
-2. En la ventana **Solicitudes de aprobación vencidas**, seleccione la acción **Seleccionar solicitudes de aprobación vencidas**.
+2. En la página **Solicitudes de aprobación vencidas**, seleccione la acción **Seleccionar solicitudes de aprobación vencidas**.
 
 ## <a name="see-also"></a>Consulte también
 [Ccial](sales-manage-sales.md)    

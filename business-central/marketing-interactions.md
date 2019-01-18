@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6fb3c1a19626c4cfa078f030a387e314ae2e0480
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6fa95883e30b7912ed2b6b22f40cbcd5af339f31
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="managing-interactions-with-contacts"></a>Gestión de las interacciones con los contactos
@@ -30,7 +30,7 @@ El área de Gestión de relaciones permite registrar todas las interacciones que
 
 ##  <a name="setting-up-interaction-templates"></a>Configurar plantillas de interacción
 Antes de poder crear y registrar interacciones, debe configurar las plantillas de interacción. Al crear interacciones, debe especificar las plantillas en las que se basa. Una plantilla de interacción es un modelo que define las características básicas de una interacción.
-Puede configurar una plantilla de interacción en la ventana **Plantillas de interacción**.
+Puede configurar una plantilla de interacción en la página **Plantillas de interacción**.
 
 Después de especificar la información de la plantilla de interacción, puede crear un anexo como, por ejemplo, un documento de Microsoft Word. Repita estos pasos para configurar todas las plantillas de interacción que desee.  
 
@@ -41,13 +41,13 @@ Hay dos maneras de registrar interacciones:
 * Puede registrar automáticamente interacciones cuando realiza acciones en la aplicación, por ejemplo, cuando imprime una factura o un presupuesto. Para obtener más información, vea [Registro automático de interacciones con contactos](marketing-auto-record-interactions.md)
 
 ## <a name="viewing-and-managing-recorded-interactions"></a>Ver y administrar las interacciones registradas
-Puede ver todas las interacciones archivadas que no han sido borrados en la ventana **Movs. log. interacción**. Puede abrir esta ventana por:
+Puede ver todas las interacciones archivadas que no han sido borrados en la página **Movs. log. interacción**. Puede abrir esta página por:
 
 * Mediante el icono **Buscar por página o informe** para buscar en **Movs. log. interacción**.
 * Seleccionar la acción **Movs. log. interacción** en un contacto o segmento.
-  La ventana **Movs. log. interacción** contiene las interacciones que ha creado manualmente y las interacciones que la aplicación ha registrado automáticamente.
+  La página **Movs. log. interacción** contiene las interacciones que ha creado manualmente y las interacciones que la aplicación ha registrado automáticamente.
 
-En esta ventana puede:
+En esta página, puede hacer lo siguiente:
 
 * Ver el estado de las interacciones.
 * Marcar las interacciones como canceladas.

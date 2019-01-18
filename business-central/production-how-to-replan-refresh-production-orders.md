@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 605de1d0acbbe345c3568fd4328d3e649feaef9f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2fec578da84a190535e5ebf74972aee8ff7e3b7a
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Replanificar o actualizar órdenes de producción directamente
@@ -41,7 +41,7 @@ Puede insertar las líneas de la orden de producción manualmente o utilizar la 
 4.  Agregue un componente que sea un producto fabricado o un producto semiterminado.  
 5.  Desde la orden de producción, seleccione la acción **Replanificar**.  
 
-    En la ventana **Replanificar orden de producción**, defina cómo y qué se va a replanificar.  
+    En la página **Replanificar orden de producción**, defina cómo y qué se va a replanificar.  
 6.  En el campo **Dirección programación**, seleccione una de las siguientes opciones.  
 
     |Opción|Description|  
@@ -68,7 +68,7 @@ Si ha modificado líneas de orden de producción, componentes o líneas de ruta,
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer") escriba **O.P. Planificadas en firme** y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Nuevo**. Para obtener más información, consulte [Crear órdenes de producción](production-how-to-create-production-orders.md).  
 3.  Seleccione la acción **Actualizar**.
-4. En la ventana **Actualizar orden de producción**, seleccione una de las siguientes opciones:
+4. En la página **Actualizar orden de producción**, seleccione una de las siguientes opciones:
 
     |Opción|Description|  
     |----------------------------------|---------------|---------------------------------------|  

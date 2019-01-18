@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 068ed0057b6c12beebfa35951b6c1ffbd6ac556b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d2ea80352352cfac83ebce97fee9d4f312e00348
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Detalles de diseño: Flujo de salida del almacén
@@ -66,7 +66,7 @@ Además, existen los siguientes documentos de origen internos que funcionan como
  Cuando se libera el documento de origen de salida, se crea automáticamente una solicitud de almacén de salida. Contiene referencias al tipo y el número de documento de origen y no puede verlo el usuario.  
 
 ### <a name="3-create-inventory-pick-or-movement"></a>3: Crear selección de inventario o movimiento  
- En la ventana **Picking inventario** o **Movimiento de inventario**, el trabajador del almacén recupera, mediante extracción, las líneas pendientes del documento de origen basándose en las solicitudes de salida del almacén. Las líneas de selección de inventario las puede crear también mediante envío el usuario responsable del documento de origen.  
+ En la página **Picking inventario** o **Movimiento de inventario**, el trabajador del almacén recupera, mediante extracción, las líneas pendientes del documento de origen basándose en las solicitudes de salida del almacén. Las líneas de selección de inventario las puede crear también mediante envío el usuario responsable del documento de origen.  
 
 ### <a name="4-post-inventory-pick-or-register-inventory-movement"></a>4: Registrar selección de inventario o Registrar movimiento de inventario  
  En cada línea de los productos en los que se ha realizado el picking o se han trasladado, parcial o totalmente, el empleado del almacén rellena el campo **Cantidad** y, a continuación, registra el picking de existencias o el movimiento de inventario. Los documentos de origen relacionados con el picking de existencias se registran como enviados o consumidos. No se registran los documentos de origen relacionados con los movimientos de inventario.  
@@ -85,7 +85,7 @@ Además, existen los siguientes documentos de origen internos que funcionan como
  Cuando se libera el documento de origen de entrada, se crea automáticamente una solicitud de almacén de salida. Contiene referencias al tipo y el número de documento de origen y no puede verlo el usuario.  
 
 ### <a name="3-create-warehouse-shipment"></a>3: Crear envío de almacén  
- En la ventana **Envío almacén**, el trabajador responsable de envíos recupera las líneas pendientes del documento de origen basándose en la solicitud de salida del almacén. Se pueden combinar varias líneas del documento de origen en un documento de envío de almacén.  
+ En la página **Envío almacén**, el trabajador responsable de envíos recupera las líneas pendientes del documento de origen basándose en la solicitud de salida del almacén. Se pueden combinar varias líneas del documento de origen en un documento de envío de almacén.  
 
 ### <a name="4-release-shipment--create-warehouse-pick"></a>4: Lanzar envío/Crear selección de almacén  
  El empleado de envíos responsable libera el envío de almacén, para que los empleados de almacén puedan crear o coordinar el picking de almacén para el envío en cuestión.  
@@ -109,7 +109,7 @@ Además, existen los siguientes documentos de origen internos que funcionan como
  El empleado de almacén que realiza las tareas de picking crea un documento de picking de almacén, mediante extracción, basándose en el documento de origen lanzado. El documento de selección de almacén se crea y se asigna también al trabajador de almacén mediante envío.  
 
 ### <a name="9-register-warehouse-pick"></a>9: Registrar selección de almacén  
- En cada línea de los productos en los que se ha realizado el picking, parcial o totalmente, el empleado del almacén rellena el campo **Cantidad** de la ventana **Picking almacén** y, a continuación, registra el picking del almacén.  
+ En cada línea de los productos en los que se ha realizado el picking, parcial o totalmente, el empleado del almacén rellena el campo **Cantidad** de la página **Picking almacén** y, a continuación, registra el picking del almacén.  
 
  Se crean movimientos de almacén y se eliminan las líneas de picking de almacén, si se han manipulado por completo. El documento de picking de almacén permanecerá abierto hasta que se registre la cantidad total del envío de almacén relacionado. El campo **Cdad. preparada pedido** de las líneas de albarán de almacén se actualiza como corresponde.  
 

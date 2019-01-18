@@ -13,10 +13,10 @@ ms.search.keywords: policy, coverage
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 16098723fed40fbe26b9ba238e7fe5bf339003f5
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1acb95e72ded81520272b250138005d36759d634
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-fixed-asset-insurance"></a>Configure el seguro de los activos fijos
@@ -38,11 +38,11 @@ Puede agrupar las pólizas de seguros en categorías, como seguro contra robo o 
 Puede acumular información acerca de cada póliza de seguros en la ficha de seguro.  
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Seguro** y luego elija el enlace relacionado.  
-2. En la ventana **Seguro**, seleccione la acción **Nuevo** para crear una ficha de seguro nueva.  
+2. En la página **Seguro**, seleccione la acción **Nuevo** para crear una ficha de seguro nueva.  
 3. Rellene los campos según sea necesario.
 
 ## <a name="to-set-up-insurance-journal-templates"></a>Para configurar libros diarios de seguros
-[!INCLUDE[d365fin](includes/d365fin_md.md)] crea automáticamente un libro de diario de seguros la primera vez que abra la ventana **Diario seguros**, pero puede configurar libros de diario adicionales. Para obtener más información, consulte [Trabajar con diarios generales](ui-work-general-journals.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] crea automáticamente un libro de diario de seguros la primera vez que abra la página **Diario seguros**, pero puede configurar libros de diario adicionales. Para obtener más información, consulte [Trabajar con diarios generales](ui-work-general-journals.md).  
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Plantillas diario de seguros** y luego elija el enlace relacionado.  
 2. Rellene los campos según sea necesario.
@@ -52,7 +52,7 @@ En un libro del diario de seguros puede configurar secciones. Los valores de la 
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Plantillas diario de seguros** y luego elija el enlace relacionado.  
 2. Seleccione una plantilla de diario de seguros y, a continuación, selecciona la acción **Secciones**.
-3. En la ventana **Secciones diario seguros**, rellene los campos según sea necesario.
+3. En la página **Secciones diario seguros**, rellene los campos según sea necesario.
 
 > [!NOTE]  
 >   Los números tienen una función especial en los nombres de diario. Si un nombre de libro diario o un nombre de sección del diario contiene un número, el número aumenta automáticamente en uno cada vez que se registra el diario. Por ejemplo, si se escribe HH1 en el campo **Nombre**, el nombre del diario cambiará a HH2 después de registrar el diario llamado HH1.

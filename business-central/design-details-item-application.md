@@ -11,10 +11,10 @@ ms.search.keywords: design, items, ledger entries, posting, inventory
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 12fa67c9e0c161d99faab376c440f6299fa8aa52
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5165cb97d73562d9614a955269ebdcbdc2ff33e4
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-item-application"></a>Detalles de diseño: Liquidación de productos
@@ -189,7 +189,7 @@ En la tabla siguiente se muestra el efecto de la reversión de coste exacta en l
 Al ejecutar el proceso **Valorar stock - movs. producto**, el aumento de coste del movimiento de compra, debido al cargo de producto, se desvía al movimiento de venta (número de movimiento 2). A continuación, el movimiento de venta desvía este aumento de coste al movimiento de abono de venta (movimiento número 3). El resultado final es que el coste se revierte correctamente.  
 
 > [!NOTE]  
->  Si está trabajando con reembolsos o abonos y ha configurado el campo **Coste exacto devolución obligatorio** en la ventana **Configuración compras y pagos** o en la ventana **Configuración ventas y cobros**, según corresponda en su caso, [!INCLUDE[d365fin](includes/d365fin_md.md)] rellenará automáticamente los distintos campos de registro al usar la función **Copiar documento**. Si utiliza la función **Revertir líneas documentos registrados**, el programa siempre rellenará esos campos automáticamente.  
+>  Si está trabajando con reembolsos o abonos y ha configurado el campo **Coste exacto devolución obligatorio** en la página **Configuración compras y pagos** o en la página **Configuración ventas y cobros**, según corresponda en su caso, [!INCLUDE[d365fin](includes/d365fin_md.md)] rellenará automáticamente los distintos campos de registro al usar la función **Copiar documento**. Si utiliza la función **Revertir líneas documentos registrados**, el programa siempre rellenará esos campos automáticamente.  
 
 > [!NOTE]  
 >  Si registra una transacción con una liquidación fija y el movimiento de producto al que lo está aplicando está cerrado (lo que significa que la cantidad restante es cero), el programa deshará automáticamente la liquidación anterior y volverá a aplicar el movimiento del producto utilizando la liquidación fija que ha especificado.  
@@ -237,7 +237,7 @@ Debido a la forma en la que se calcula el coste unitario de un producto, una liq
 * Desea invalidar la liquidación creada automáticamente al efectuar el registro, según la valoración de existencias del producto.  
 * Tiene que devolver un producto al que ya se le ha aplicado una ventana, sin usar la función **Revertir líneas documentos registrados** y, por lo tanto, debe deshacer la liquidación.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] ofrece una característica para analizar y corregir las liquidaciones de productos. Este trabajo se realiza en la ventana de **Hoja liquidación**.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] ofrece una característica para analizar y corregir las liquidaciones de productos. Este trabajo se realiza en la página **Hoja liquidación**.  
 
 ## <a name="see-also"></a>Consulte también  
 [Detalles de diseño: Problema de liquidación de producto conocido](design-details-inventory-zero-level-open-item-ledger-entries.md)  

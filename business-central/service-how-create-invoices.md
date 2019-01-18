@@ -13,16 +13,16 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: bdb2f5d98d22f861ce3fed0d8c72ae7992a80fdb
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a0c8cc9444c1b6979843beff55cc9e792ec188d0
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-service-invoices-or-credit-memos"></a>Crear facturas o abonos de servicios
 La facilidad de facturar sus pedidos de servicio es una función esencial de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Puede enviar una factura a sus clientes en cualquier momento o crear facturas periódicamente.  
   
-Para crear una factura directamente, puede usar la ventana **Contrato de servicio**. También puede configurar el sistema de modo que un técnico de servicio de campo pueda crear una factura de servicios que no estén vinculados con un contrato o pedido.  
+Para crear una factura directamente, puede usar la página **Contrato de servicio**. También puede configurar el sistema de modo que un técnico de servicio de campo pueda crear una factura de servicios que no estén vinculados con un contrato o pedido.  
 
 ## <a name="to-invoice-a-service-contract-from-the-service-contract-page"></a>Facturar un contrato de servicio desde la página de contrato de servicio   
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Crear facturas de contrato de servicio** y luego elija el enlace relacionado.  
@@ -62,7 +62,7 @@ Normalmente, después de que registre un pedido de servicio con la opción **Fac
 3. Rellene el campo **No.**. .  
   
     > [!NOTE]  
-    >  Si ha configurado números de serie para facturas de servicio en la ventana **Config. gestión servicio**, puede presionar INTRO para seleccionar el siguiente número de factura de servicio disponible.  
+    >  Si ha configurado números de serie para facturas de servicio en la página **Config. gestión servicio**, puede presionar INTRO para seleccionar el siguiente número de factura de servicio disponible.  
   
 4. En el campo **Nº cliente**, introduzca el número de un cliente. Seleccione el cliente pertinente de la lista.  
   
@@ -87,7 +87,7 @@ Puede emitir una factura al cliente por los servicios proporcionados en distinto
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Facturas servicio** y luego elija el enlace relacionado.  
 2. Rellene los campos de la línea como sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-3. Elija la acción **Obtener líneas de envío**. La ventana **Obtener líneas envío servicio** muestra todas las líneas enviadas pero no facturadas del cliente.  
+3. Elija la acción **Obtener líneas de envío**. La página **Obtener líneas envío servicio** muestra todas las líneas enviadas pero no facturadas del cliente.  
 4. Elija las líneas para el servicio a facturar y, a continuación, seleccione **Aceptar** para agregar las líneas de envío de servicio a la factura.  
 
 ## <a name="to-create-a-service-credit-memo"></a>Para crear un abono de servicio  

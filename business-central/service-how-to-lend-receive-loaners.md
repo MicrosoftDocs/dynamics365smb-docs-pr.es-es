@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 9010858c33b7b58b3b4d7f2523785e846e307ff0
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 65a28156827551d19b8a4b23f6773c4a957e7895
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="lend-and-receive-loaners"></a>Prestar y recibir productos prestados
@@ -30,7 +30,7 @@ Puede prestar productos a los clientes para reemplazar temporalmente productos d
 5. Elija **Sí** para confirma el préstamo.  
 
 ## <a name="to-receive-a-loaner"></a>Para recibir un producto prestado  
-Cuando reciba un producto prestado de un cliente, deberá registrar el albarán. Para ello, utilice las ventanas **Pedido servicio**, **Envío servicio registrado** y **Ficha prod. prestado**. Este procedimiento muestra cómo recibir productos prestados en la ventana **Pedido servicio**.  
+Cuando reciba un producto prestado de un cliente, deberá registrar el albarán. Para ello, utilice las páginas **Pedido servicio**, **Envío servicio registrado** y **Ficha prod. prestado**. Este procedimiento muestra cómo recibir productos prestados en la página **Pedido servicio**.  
   
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos servicio** y luego elija el enlace relacionado.  
 2. Abra el pedido servicio que corresponda.  
@@ -38,11 +38,11 @@ Cuando reciba un producto prestado de un cliente, deberá registrar el albarán.
 4. Elija **Acciones**, seleccione **Funciones** y , a continuación, elija **Recibir prod. prestado**.  
 
 ## <a name="to-register-loaner-comments"></a>Para registrar comentarios de productos prestados  
-Puede utilizar la ventana **Comentarios generales**para registrar comentarios acerca de productos prestados registrados.  
+Puede utilizar la página **Comentarios generales**para registrar comentarios acerca de productos prestados registrados.  
   
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Productos prestados** y luego elija el enlace relacionado.  
 2. Abra la ficha de producto prestado correspondiente.  
-3. Seleccione la acción **Comentarios**. Se abrirá la ventana de **Hoja de comentario de servicio general**.  
+3. Seleccione la acción **Comentarios**. Se abrirá la página **Hoja de comentario de servicio general**.  
 4. En el campo **Fecha**, introduzca una fecha.  
 5. En el campo **Comentario**, escriba un comentario. Puede introducir un máximo de 80 caracteres. Si necesita escribir más texto, desplácese a la siguiente línea. Puede completar tantas líneas como sea necesario.  
   

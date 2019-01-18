@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 7b8d12d597930824aba96cc894b11419f9ae00b0
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 643d0b7be64addf3604283dbed58d59a54df2032
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-responsibility-centers"></a>Trabajar con centros de responsabilidad
@@ -48,7 +48,7 @@ Puede establecer en la configuración de los usuarios que en sus rutinas diarias
 Para configurarlo, debe asignar centros de responsabilidad a los usuarios en tres áreas funcionales básicas: Compras, Ventas y Gestión de servicios.  
 
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración del usuario** y luego elija el enlace relacionado.  
-2.  En la ventana **Config. usuario**, seleccione el usuario al que desea asignar un centro de responsabilidad. Si el usuario no está incluido en la lista, deberá introducir un Id. de usuario en el campo **Id. usuario**.  
+2.  En la página **Config. usuario**, seleccione el usuario al que desea asignar un centro de responsabilidad. Si el usuario no está incluido en la lista, deberá introducir un Id. de usuario en el campo **Id. usuario**.  
 3.  En el campo **Filtro centro de responsabilidad de ventas**, introduzca el centro de responsabilidad donde el usuario asumirá tareas relacionadas con ventas.  
 4.  En el campo **Filtro centro responsabilidad de compras**, introduzca el centro de responsabilidad donde el usuario asumirá tareas relacionadas con compras.  
 5.  En el campo **Filtro centro responsabilidad de servicio**, introduzca el centro de responsabilidad donde el usuario asumirá tareas relacionadas con gestión de servicios.  

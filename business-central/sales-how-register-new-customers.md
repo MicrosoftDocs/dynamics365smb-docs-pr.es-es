@@ -13,10 +13,10 @@ ms.search.keywords: client
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c249e186395df580e55a806fe7446f4d13c7b786
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 06fe745bca016a776d7a1865141110ec82b1d7d7
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="register-new-customers"></a>Permite registrar nuevos clientes
@@ -25,16 +25,16 @@ Los clientes son el origen de los ingresos. Debe registrar cada cliente a quien 
 Antes de que pueda registrar nuevos clientes, debe configurar varios códigos de ventas que pueda seleccionar al rellenar fichas de cliente. Para obtener más información, consulte [Configurar ventas](sales-setup-sales.md).
 
 > [!NOTE]  
->   Si existen plantillas de cliente para distintos tipos de cliente, una ventana aparece automáticamente cuando se crea una nueva ficha de cliente en la que puede seleccionar una plantilla de cliente correspondiente. Si solo existe una plantilla de cliente, las nuevas fichas de cliente utilizan siempre esa plantilla.
+>   Si existen plantillas de cliente para distintos tipos de cliente, una página aparece automáticamente cuando se crea una nueva ficha de cliente en la que puede seleccionar una plantilla de cliente correspondiente. Si solo existe una plantilla de cliente, las nuevas fichas de cliente utilizan siempre esa plantilla.
 
 ## <a name="to-create-a-new-customer-card"></a>Para crear una nueva ficha cliente.
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Clientes** y luego elija el enlace relacionado.  
-2. En la ventana **Clientes**, seleccione la acción **Nuevo**.
+2. En la página **Clientes**, seleccione la acción **Nuevo**.
 
     Si solo existe una plantilla de cliente, una nueva ficha de cliente se abre con algunos campos rellenados con la información de la plantilla.
 
-    Si existe más de una plantilla de cliente, se abre una ventana desde la que puede seleccionar una plantilla de cliente. En ese caso, siga los dos pasos siguientes.
-3. En la ventana **Seleccionar una plantilla para un cliente nuevo**, seleccione la plantilla que quiere usar para la nueva ficha de cliente.
+    Si existe más de una plantilla de cliente, se abre una página desde la que puede seleccionar una plantilla de cliente. En ese caso, siga los dos pasos siguientes.
+3. En la página **Seleccionar una plantilla para un cliente nuevo**, seleccione la plantilla que quiere usar para la nueva ficha de cliente.
 4. Elija el botón **Aceptar**. Una nueva ficha de cliente se abre con algunos campos completados con la información de la plantilla.  
 5. Empiece a rellenar o cambiar campos en la ficha de cliente según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -45,9 +45,9 @@ El cliente estará registrado y la ficha de cliente está lista para usarse en l
 Si desea usar esta ficha de cliente como plantilla cuando cree nuevas fichas de cliente, puede guardarla. Para obtener más información, vea la siguiente sección:
 
 ## <a name="to-save-the-customer-card-as-a-template"></a>Para guardar la ficha de cliente como una plantilla
-1. En la ventana **Ficha de cliente**, seleccione la acción **Guardar como plantilla**. La ventana **Plantilla cliente** se abre mostrando la ficha de cliente como plantilla.
+1. En la página **Ficha cliente**, seleccione la acción **Guardar como plantilla**. La página **Plantilla cliente** se abre mostrando la ficha de cliente como plantilla.
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Para volver a usar dimensiones en las plantillas, seleccione la acción **Dimensiones**. La ventana **Plantilla de dimensiones** se abre mostrando los códigos de dimensión configurados para el cliente.
+3. Para volver a usar dimensiones en las plantillas, seleccione la acción **Dimensiones**. La página **Plantilla de dimensiones** se abre mostrando los códigos de dimensión configurados para el cliente.
 4. Modifique o introduzca los códigos de dimensión que se aplicarán a nuevas fichas de cliente creadas con la plantilla.  
 5. Cuando haya finalizado la nueva plantilla de cliente, seleccione el botón de **Aceptar**.
 

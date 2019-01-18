@@ -13,16 +13,16 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e7b5bb42d17791b699bced46b027c43104029ef4
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: afbc6454fd133cfc5d2a40ffc12220b9cbf0f6dd
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Detalles de diseño: Conceptos centrales del sistema de planificación
 Las funciones de planificación se incluyen en un proceso que primero selecciona los productos correspondientes y el periodo que se planificará. A continuación, según el código de nivel inferior de cada producto (posición de la L.M.), el proceso llama a una unidad de código que calcula un plan de suministro equilibrando los conjuntos de suministro y demanda, y sugiriendo acciones posibles que puede realizar el usuario. Las acciones sugeridas aparecen como líneas en la hoja de planificación o la hoja de demanda.  
 
-![Contenido de la ventana de la hoja de planificación](media/NAV_APP_supply_planning_1_planning_worksheet.png "Contenido de la ventana de la hoja de planificación")  
+![Contenido de la página de la hoja de planificación](media/NAV_APP_supply_planning_1_planning_worksheet.png "Contenido de la página de la hoja de planificación")  
 
 Se supone que el planificador de una empresa, como un comprador o un planificador de producción, es el usuario del sistema de planificación. El sistema de planificación ayuda al usuario a realizar los cálculos completos pero bastante sencillos de un plan. El usuario podrá concentrarse en resolver problemas más difíciles, como, por ejemplo, cuando las cosas son distintas de las normales.  
 
@@ -53,7 +53,7 @@ Para obtener más información, consulte [Detalles de diseño: Gestión de pedid
 ## <a name="dynamic-order-tracking-pegging"></a>Seguimiento dinámico de pedidos (fijación)  
 El seguimiento dinámico de pedidos, con creación simultánea de mensajes de acción en la hoja de trabajo de planificación, no forma parte del sistema de planificación de suministro en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Esta característica vincula, en tiempo real, la demanda y las cantidades que podrían cubrirla, siempre que se crea o se cambia una nueva demanda o suministro.  
 
-Por ejemplo, si el usuario introduce o modifica un pedido de venta, el sistema de seguimiento dinámico de pedidos buscará inmediatamente un aprovisionamiento adecuado para cubrir la demanda. Podría ser del inventario o de un pedido de suministro previsto (como un pedido de compra o una orden de producción). Cuando se encuentra un origen de suministro, el programa crea un vínculo entre la demanda y el suministro, y lo muestra en las ventanas de solo visualización a las que se tiene acceso desde las líneas de documento correspondientes. Si no se encuentra un suministro adecuado, el sistema de seguimiento de pedidos dinámico crea mensajes de acción en la hoja de planificación con sugerencias de plan de suministro que refleje el equilibrio dinámico. Por consiguiente, el sistema de seguimiento dinámico de pedidos ofrece un sistema de planificación muy básico que puede ser de ayuda para el planificador y otras funciones en la cadena de aprovisionamiento interna.  
+Por ejemplo, si el usuario introduce o modifica un pedido de venta, el sistema de seguimiento dinámico de pedidos buscará inmediatamente un aprovisionamiento adecuado para cubrir la demanda. Podría ser del inventario o de un pedido de suministro previsto (como un pedido de compra o una orden de producción). Cuando se encuentra un origen de suministro, el programa crea un vínculo entre la demanda y el suministro, y lo muestra en las páginas de solo visualización a las que se tiene acceso desde las líneas de documento correspondientes. Si no se encuentra un suministro adecuado, el sistema de seguimiento de pedidos dinámico crea mensajes de acción en la hoja de planificación con sugerencias de plan de suministro que refleje el equilibrio dinámico. Por consiguiente, el sistema de seguimiento dinámico de pedidos ofrece un sistema de planificación muy básico que puede ser de ayuda para el planificador y otras funciones en la cadena de aprovisionamiento interna.  
 
 Igualmente, el seguimiento dinámico del pedido se pueden considerar una herramienta que ayuda al usuario en evaluar si aceptar o no las sugerencias de pedidos de aprovisionamiento. Desde el lado del aprovisionamiento, un usuario puede ver qué demanda ha creado el aprovisionamiento y, desde el lado de la demanda, qué aprovisionamiento debe satisfacer la demanda.  
 
@@ -158,7 +158,7 @@ Un vínculo de pedido a pedido entre demanda y aprovisionamiento es otro tipo de
 ### <a name="specific-attributes"></a>Atributos específicos  
 Determinados atributos en demanda son específicos y deben coincidir exactamente con un aprovisionamiento correspondiente. Existen los dos atributos específicos siguientes:  
 
--   Números de serie o de lote requeridos que necesitan aplicación específica (la casilla **Seguim. NS específ.** o **Seguim. lote específ.** se ha seleccionado en la ventana **Ficha cód. seguim. prod.** para el código de seguimiento de producto que usa el producto).  
+-   Números de serie o de lote requeridos que necesitan aplicación específica (la casilla **Seguim. NS específ.** o **Seguim. lote específ.** se ha seleccionado en la página **Ficha cód. seguim. prod.** para el código de seguimiento de producto que usa el producto).  
 -   Conexiones a pedidos de suministro creados manual o automáticamente para una demanda determinada (conexiones de pedido contra pedido).  
 
 En estos atributos, el sistema de planificación aplica las reglas siguientes:  
@@ -211,7 +211,7 @@ La primera columna de la hoja de planificación corresponde a los campos de adve
 
 El aprovisionamiento de las líneas de planificación con advertencias no se modificará normalmente según los parámetros de planificación. En su lugar, el sistema de planificación sugiere solo un suministro para satisfacer la cantidad exacta de demanda. Sin embargo, el sistema se puede configurar para respetar ciertos parámetros de planificación para las líneas de planificación con determinadas advertencias. Para obtener más información, consulte la descripción de estas opciones para el proceso **Calcular plan - Hoja planif.** y el proceso **Calcular plan - Hoja demanda** respectivamente.  
 
-La información de advertencia se muestra en la ventana **Elementos planificación sin seguimiento**, que también se usa para presentar vínculos del seguimiento de pedidos a las entidades de red que no realizan pedidos. Existen los siguientes tipos de advertencia:  
+La información de advertencia se muestra en la página **Elementos planificación sin seguimiento**, que también se usa para presentar vínculos del seguimiento de pedidos a las entidades de red que no realizan pedidos. Existen los siguientes tipos de advertencia:  
 
 -   Emergencia  
 -   Excepción  
@@ -252,7 +252,7 @@ La advertencia de atención se muestra en tres situaciones:
 ## <a name="error-logs"></a>Registros de errores  
 En la página de la solicitud Calcular plan, el usuario puede seleccionar el campo **Parar y mostrar primer error** para incluir una parada en la ejecución de la planificación cuando se encuentre el primer error. Además, mostrará un mensaje con información sobre el error. Si hay algún error, solo se mostrarán en la hoja de planificación las líneas de planificación correctas realizadas antes de que se produjera el error.  
 
-Si el campo no está seleccionado, el trabajo por lotes Calcular plan continuará hasta que se haya completado. Los errores no interrumpirán el trabajo por lotes. Si hay errores, el programa mostrará un mensaje al final, para indicar cuántos productos se ven afectados por los errores. A continuación, se abrirá la ventana **Registro error planificación**, con más información sobre el error y vínculos a los documentos afectados o las fichas de configuración.  
+Si el campo no está seleccionado, el trabajo por lotes Calcular plan continuará hasta que se haya completado. Los errores no interrumpirán el trabajo por lotes. Si hay errores, el programa mostrará un mensaje al final, para indicar cuántos productos se ven afectados por los errores. A continuación, se abrirá la página **Registro error planificación**, con más información sobre el error y vínculos a los documentos afectados o las fichas de configuración.  
 
 ![Mensajes de error en la hoja de planificación](media/NAV_APP_supply_planning_1_error_log.png "Mensajes de error en la hoja de planificación")  
 
@@ -264,10 +264,10 @@ El usuario puede configurar manualmente el campo, pero, en algunos casos el sist
 Para obtener más información acerca de cómo se utiliza este campo, consulte [Detalles de diseño: Transferencias en planificación](design-details-transfers-in-planning.md).  
 
 ## <a name="order-planning"></a>Planificación de pedidos  
-La herramienta de planificación de suministro básica representada por la **Planificación de pedidos** se ha diseñado para la toma de decisiones manual. No tiene en cuenta ningún parámetro de planificación, por lo que no se contempla más adelante en este documento. Para obtener más información acerca de la función de planificación de pedidos, consulte la Ayuda de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+La herramienta de planificación de suministro básica representada por la página **Planificación de pedidos** se ha diseñado para la toma de decisiones manual. No tiene en cuenta ningún parámetro de planificación, por lo que no se contempla más adelante en este documento. Para obtener más información acerca de la función de planificación de pedidos, consulte la Ayuda de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 > [!NOTE]  
->  No es recomendable utilizar la planificación de pedidos si la empresa ya utiliza las hojas de trabajo de planificación o solicitud. Los pedidos de aprovisionamientos creados a través de la ventana **Programación de pedidos** se pueden modificar o eliminar durante las ejecuciones de planificaciones automatizadas. Esto se debe a que los procesos de planificación automatizados utilizan parámetros de planificación que es posible que el usuario que realiza el plan manual en la ventana Programación de pedidos no tenga en cuenta.  
+>  No es recomendable utilizar la planificación de pedidos si la empresa ya utiliza las hojas de trabajo de planificación o solicitud. Los pedidos de aprovisionamientos creados a través de la página **Programación de pedidos** se pueden modificar o eliminar durante las ejecuciones de planificaciones automatizadas. Esto se debe a que los procesos de planificación automatizados utilizan parámetros de planificación que es posible que el usuario que realiza el plan manual en la página Programación de pedidos no tenga en cuenta.  
 
 ##  <a name="finite-loading"></a>Carga limitada  
 [!INCLUDE[d365fin](includes/d365fin_md.md)] es un sistema ERP estándar, no un sistema de control de envíos o de planta. Planea una utilización factible de los recursos al proporcionar una programación preliminar, pero no crea ni mantiene automáticamente las programaciones detalladas basadas en prioridades o reglas de optimización.  

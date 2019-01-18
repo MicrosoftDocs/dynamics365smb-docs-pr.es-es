@@ -11,10 +11,10 @@ ms.search.keywords: customization, personalization
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6027ba17868aca0a6571e059c9d157c542d12823
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 9fd086831c0d145570d87c33c62a003c166aca87
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="managing-saved-settings-on-reports"></a>Administrar configuración guardada en los informes
@@ -40,7 +40,7 @@ La configuración guardada se administra en la página **Configuración del info
 
 La página muestra todas las entradas de configuración de almacenamiento existentes para todos los usuarios. Si hay un nombre de usuario en la columna **Asignado a**, solo ese usuario puede utilizar los parámetros guardados para el informe asociado. Si hay una marca de verificación en la columna **Compartir con todos los usuarios**, todos los usuarios pueden utilizar las opciones guardadas para el informe.
 
-Desde la ventana **Configuración del informe**, puede:
+Desde la página **Configuración del informe**, puede:
 -   Seleccione **Nuevo** para crear una nueva entrada de configuración guardada desde cero.
 -   Seleccione una entrada de configuración guardada de la lista y seleccione **Copiar** para crear una copia.
 -   Seleccione una entrada de configuración guardada de la lista y elija **Editar** para modificar una entrada de configuración guardada.

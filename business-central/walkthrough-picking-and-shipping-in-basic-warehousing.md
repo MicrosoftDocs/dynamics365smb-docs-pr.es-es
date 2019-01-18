@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6739a7fc1400e9c1cfbc276c0a9ebeb3f95467b2
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 35eaf9776508d608a48aaa38e6d83ae879cd05af
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Tutorial: picking y envío en la configuración del almacenamiento básico
@@ -32,7 +32,7 @@ Para obtener más información, consulte [Detalles de diseño: Flujo de salida d
 En el siguiente tutorial se demuestra el método B de la tabla anterior.  
 
 ## <a name="about-this-walkthrough"></a>Acerca de este tutorial  
-En la configuración del almacenamiento básico, donde el almacén está configurado para requerir proceso de picking, pero no de envío, utiliza la ventana **Picking inventario** para registrar la información de picking y envío de los documentos de origen salientes. El documento de origen de salida puede ser un pedido de venta, un pedido de devolución de compra, un pedido de transferencia de salida o una orden de producción con necesidad de componentes.  
+En la configuración del almacenamiento básico, donde el almacén está configurado para requerir proceso de picking, pero no de envío, utiliza la página **Picking inventario** para registrar la información de picking y envío de los documentos de origen salientes. El documento de origen de salida puede ser un pedido de venta, un pedido de devolución de compra, un pedido de transferencia de salida o una orden de producción con necesidad de componentes.  
 
 En este tutorial, se demuestran las siguientes tareas:  
 
@@ -56,7 +56,7 @@ Para completar este tutorial, necesitará:
 -   Para convertirse en un empleado de almacén en el almacén PLATA, realice los pasos siguientes:  
 
     1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Empleados de almacén** y luego elija el enlace relacionado.  
-    2.  Elija el campo **Id. de usuario** y seleccione su propia cuenta de usuario en la ventana **Usuarios**.  
+    2.  Elija el campo **Id. de usuario** y seleccione su propia cuenta de usuario en la página **Usuarios**.  
     3.  En el campo **Cód. almacén**, especifique PLATA.  
     4.  Seleccione el campo de **Predeterminado**.  
 
@@ -73,10 +73,10 @@ Para completar este tutorial, necesitará:
     3.  Elija la acción **Registrar** y, a continuación, seleccione el botón **Si**.  
 
 ## <a name="story"></a>Historia  
-Ellen, la administradora del almacén en CRONUS, configura el almacén PLATA para la manipulación de picking básica donde los trabajadores de almacén procesan los pedidos de salida individualmente. Susana, la encargada de procesamiento de pedidos, crea un pedido de venta de 30 unidades del producto LS-81 que se deben enviar al cliente 10000 desde el almacén PLATA. Juan, el trabajador de almacén debe comprobar que el envío se prepara y envía al cliente. Juan controla todas las tareas relacionadas con la ventana **Picking inventario**, que señala automáticamente a las ubicaciones donde se almacena LS-81.  
+Ellen, la administradora del almacén en CRONUS, configura el almacén PLATA para la manipulación de picking básica donde los trabajadores de almacén procesan los pedidos de salida individualmente. Susana, la encargada de procesamiento de pedidos, crea un pedido de venta de 30 unidades del producto LS-81 que se deben enviar al cliente 10000 desde el almacén PLATA. Juan, el trabajador de almacén debe comprobar que el envío se prepara y envía al cliente. Juan controla todas las tareas relacionadas con la página **Picking inventario**, que señala automáticamente a las ubicaciones donde se almacena LS-81.  
 
 ## <a name="setting-up-the-location"></a>Configuración del almacén  
-La configuración de la ventana **Ficha almacén** define los flujos de almacén de la empresa.  
+La configuración de la página **Ficha almacén** define los flujos de almacén de la empresa.  
 
 ### <a name="to-set-up-the-location"></a>Configurar el almacén  
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Ubicaciones** y luego elija el enlace relacionado.  
@@ -102,7 +102,7 @@ Los pedidos de venta son el tipo más común de documento de origen de salida.
     Juan comienza a realizar el picking y a enviar a productos vendidos.  
 
 ## <a name="picking-and-shipping-items"></a>Picking y envío de productos  
-En la ventana **Picking inventario**, puede administrar todas las actividades de almacén de salida para un documento de origen determinado, como un pedido de venta.  
+En la página **Picking inventario**, puede administrar todas las actividades de almacén de salida para un documento de origen determinado, como un pedido de venta.  
 
 ### <a name="to-pick-and-ship-items"></a>Realizar el picking y el envío de productos  
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Picking de inventario** y luego elija el enlace relacionado.  

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 36e7d2f3d43a966cd97fba3c92f3fd20b6b1c585
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4d4aaa82077d3628bbf75a9bc169d73ecc651884
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-production-orders-from-sales-orders"></a>Crear órdenes de producción desde pedidos de venta
@@ -26,7 +26,7 @@ Puede crear órdenes de producción para artículos producidos directamente desd
 
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.  
 2.  Seleccione el pedido de venta para el que desea crear una orden de producción.  
-3.  Seleccione la acción **Planificación**. En la ventana **Planificación pedido venta**, puede consultar la disponibilidad de un producto incluido en un pedido de venta.  
+3.  Seleccione la acción **Planificación**. En la página **Planificación pedido venta**, puede consultar la disponibilidad de un producto incluido en un pedido de venta.  
 4.  Seleccione la acción **Orden de producción**.  
 5.  Seleccione el tipo del estado y orden.  
 6.  Elija el botón de **Sí** para crear la orden de producción.

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 50b77f4c6e333f3024f2261eb0c6df42b3e535d0
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 27ef914e3ee8dc00f0e61848afaeea0433cd2279
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-prepayment-invoices"></a>Crear facturas de prepagos
@@ -44,7 +44,7 @@ El procedimiento siguiente describe cómo facturar un prepago del pedido. Los pa
 4. Si desea aplicar un porcentaje de prepago a todo el pedido, modifique el campo **% de prepago** en la cabecera después de rellenar las líneas.  
 5. Para ver el importe de prepago total, elija la acción **Estadísticas**.
 
-    Si desea ajustar el importe de prepago total para el pedido, puede cambiar los contenidos del campo **Importe prepago** en la ventana **Estad. pedido ventas**.  
+    Si desea ajustar el importe de prepago total para el pedido, puede cambiar los contenidos del campo **Importe prepago** en la página **Estad. pedido ventas**.  
 
     Si se selecciona el campo **Precios IVA incluido**, el campo **Cantidad prepago incl. IVA** se puede modificar.  
 

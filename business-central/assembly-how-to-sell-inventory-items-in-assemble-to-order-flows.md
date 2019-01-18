@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fe8964f46bd76d23e3f1457ad5627888ec3da012
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5b01e3cb4d8ea09d08a546fb0af25dc0879111eb
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="sell-inventory-items-in-assemble-to-order-flows"></a>Vender productos de inventario en los flujos de ensamblar para pedido
@@ -41,9 +41,9 @@ En este procedimiento, se reemplazan las cantidades de ensamblar para pedido con
 4.  En el cuadro informativo **Detalles líneas venta**, determine si toda la cantidad solicitada o parte de ella está disponible.  
 5.  En el campo **Cdad. al ensamblar para pedido**, deduzca la cantidad disponible de forma que solo la cantidad no disponible se ensamble para pedido. El campo **Cantidad reservada** se reduce en consecuencia para reflejar que el vínculo de pedido-a-pedido o la reserva solo se aplican a la cantidad que se va a ensamblar.  
 6.  En la ficha desplegable **Líneas**, elija **Funciones** y, a continuación, la acción **Reservar**.  
-7.  En la ventana **Reservas**, seleccione la línea o las líneas del movimiento de producto que contienen las cantidades disponibles, elija la acción **Reservar desde la línea actual** y, a continuación, elija el botón **Aceptar**.  
+7.  En la página **Reservas**, seleccione la línea o las líneas del movimiento de producto que contienen las cantidades disponibles, elija la acción **Reservar desde la línea actual** y, a continuación, elija el botón **Aceptar**.  
 
-    En la ventana **Pedido venta**, el campo **Cantidad reservada** muestra ahora que la cantidad completa de la línea de pedido está reservada. El campo **Cdad. al ensamblar para pedido** aún refleja la cantidad secundaria que debe ensamblarse.  
+    En la página **Pedido venta**, el campo **Cantidad reservada** muestra ahora que la cantidad completa de la línea de pedido está reservada. El campo **Cdad. al ensamblar para pedido** aún refleja la cantidad secundaria que debe ensamblarse.  
 
 8.  Lance el pedido de venta para el picking de los productos de inventario y para el ensamblado de los productos no disponibles. Para obtener más información, consulte [Ensamblar productos](assembly-how-to-assemble-items.md).  
 

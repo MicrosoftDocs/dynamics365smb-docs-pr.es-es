@@ -13,10 +13,10 @@ ms.search.keywords: project management, capacity, staff
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d8f900e61628960f2a64f609f62dc8465722770c
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 688593a6d59cf5d6fb9b58106a21601f3f15781e
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="use-resources-for-jobs"></a>Uso de recursos para proyectos
@@ -47,7 +47,7 @@ Si ya ha configurado precios de venta alternativos para algunos recursos, puede 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Cambios de precio en recursos** y luego elija el enlace relacionado.
 2. Elija la acción **Prop. mod. recursos (precio)** y, a continuación, rellene los campos según sea necesario.
 3. Elija el botón **Aceptar**.  
-4. Cuando termine el proceso, la ventana **Cambios de precio en recursos** muestra los resultados del proceso.
+4. Cuando termine el proceso, la página **Cambios de precio en recursos** muestra los resultados del proceso.
 
 ## <a name="to-get-resource-price-change-suggestions-based-on-standard-prices"></a>Para obtener propuestas de cambio de precio de venta de recursos basadas en precios de venta estándar
 Si desea configurar varios precios alternativos basados en los precios estándar que figuran en las fichas de recurso, puede utilizar un proceso.  
@@ -55,7 +55,7 @@ Si desea configurar varios precios alternativos basados en los precios estándar
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Cambios de precio en recursos** y luego elija el enlace relacionado.
 2. Elija la acción **Prop. mod. recurso (recurso)** y, a continuación, rellene los campos según sea necesario.  
 3. Elija el botón **Aceptar**.  
-4. Cuando termine el proceso, abra la ventana **Cambios de precio en recursos** para ver los resultados del proceso.
+4. Cuando termine el proceso, abra la página **Borrador mod. precios recursos** para ver los resultados del proceso.
 
 ## <a name="to-get-resource-price-change-suggestions-based-on-alternate-prices"></a>Para obtener propuestas para la modificación de precios de venta de recursos basadas en los precios de venta estándar
 Si ya ha configurado precios de venta alternativos para algunos recursos, puede utilizar un proceso para configurar varios precios de venta de recurso alternativos.
@@ -63,7 +63,7 @@ Si ya ha configurado precios de venta alternativos para algunos recursos, puede 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Prop. mod. recursos (precio)** y luego elija el enlace relacionado.  
 2. Rellene los campos según sea necesario.
 3. Elija el botón **Aceptar**.  
-4. Cuando termine el proceso, abra la ventana **Cambios de precio en recursos** para ver los resultados del proceso.
+4. Cuando termine el proceso, abra la página **Borrador mod. precios recursos** para ver los resultados del proceso.
 
 ## <a name="see-also"></a>Consulte también
 [Administración de proyectos](projects-manage-projects.md)  

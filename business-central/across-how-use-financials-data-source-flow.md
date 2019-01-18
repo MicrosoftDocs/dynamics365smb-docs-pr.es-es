@@ -9,17 +9,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: workflow, Odata, Power App, SOAP
-ms.date: 10/01/2018
+ms.date: 10/16/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f7ae293942318c682202a84f0a54ae8b0516c77b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6f79bd9a5e3f79d4366a1a43411fe39942ac4e4f
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="using-included365finincludesd365finmdmd-in-an-automated-workflow"></a>Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] en un flujo de trabajo automatizado
-Puede utilizar sus datos de [!INCLUDE[d365fin](includes/d365fin_md.md)] como parte de un flujo de trabajo de Microsoft Flow.  
+Puede utilizar sus datos de [!INCLUDE[d365fin](includes/d365fin_md.md)] como parte de un flujo de trabajo de Microsoft Flow.
+
+> [!NOTE]
+> Además de Microsoft Flow, puede utilizar la funcionalidad de flujo de trabajo en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Tenga en cuenta que, aunque son dos sistemas de flujo de trabajo independientes, cualquier plantilla de flujo de trabajo que cree con Microsoft Flow se agrega a la lista de modelos de flujo de trabajo en la sección [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, consulte [Flujo de trabajo](across-workflow.md).  
 
 > [!NOTE]  
 >   Debe disponer de una cuenta válida con [!INCLUDE[d365fin](includes/d365fin_md.md)] y con Flow.  
@@ -28,7 +31,7 @@ Puede utilizar sus datos de [!INCLUDE[d365fin](includes/d365fin_md.md)] como par
 1. En el explorador, vaya a [flow.microsoft.com](https://flow.microsoft.com/en-us/) y, a continuación, inicie sesión.
 2. Seleccione **Mis flujos** en la cinta en la parte superior de la página.
 3. Existen 2 formas de crear un flujo; **Crear desde plantilla** y **Crear desde cero**. Una platilla es un flujo predefinido que se ha creado de forma automática.  Para utilizar una plantilla, selecciónela y cree una conexión para cada servicio que la plantilla usa. Una plantilla en blanco permite crear un nuevo flujo completamente desde cero.
-4. Para crear desde cero, en la ventana **Mis flujos**, elija la opción **Crear desde cero**.
+4. Para crear desde cero, en la página **Mis flujos**, elija la opción **Crear desde cero**.
 5. Busque el conector de **Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]**.
 6. En la lista de disparadores disponibles, seleccione uno de los de [!INCLUDE[d365fin](includes/d365fin_md.md)] disponibles:  
     *Cuando se solicite la aprobación de un cliente*,  
@@ -58,9 +61,6 @@ Ya se ha conectado correctamente con los datos de Business Central y está prepa
     *Solicitar aprobación para lote de diario general de Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]*,  
     *Solicitar aprobación para líneas de diario general de Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]*.  
 11. Flow le solicitará que seleccione una empresa en el suscriptor [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. Debido a que cada paso de Flow es independiente del siguiente, es posible que deba definir la empresa varias veces al usar una plantilla de Flow [!INCLUDE[d365fin_md](includes/d365fin_md.md)].
-
-> [!NOTE]  
-> La plantilla de Flow [!INCLUDE[d365fin_md](includes/d365fin_md.md)] se integra con el motor de flujo de trabajo básico de [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. Esto significa que cada vez que utiliza una de estas plantillas para crear un flujo, un flujo de trabajo correspondiente se crea en [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. Además, la persona que crea el flujo debe configurarse como aprobador en la guía de configuración asistida. Para obtener más información, consulte [Flujo de trabajo](across-workflow.md).
 
 Para obtener más información, consulte la [documentación de Flow](https://docs.microsoft.com/en-us/flow/getting-started).
 

@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5c87d33bbf9d97f53e033c663532052c8aeddee9
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 97bc83c402cd8bbdc34f05035dfa6c680c2e635e
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-average-cost"></a>Detalles de diseño: Coste medio
@@ -23,7 +23,7 @@ El coste medio de un producto se calcula con una media ponderada periódica, en 
  La fecha de valoración se establece automáticamente.  
 
 ## <a name="setting-up-average-cost-calculation"></a>Configurar el cálculo del coste medio  
- En la tabla siguiente se describen los dos campos de la ventana **Configuración de inventario** que se deben rellenar para habilitar el cálculo de coste medio.  
+ En la tabla siguiente se describen los dos campos de la página **Configuración de inventario** que se deben rellenar para habilitar el cálculo de coste medio.  
 
 |Campo|Descripción|  
 |---------------------------------|---------------------------------------|  
@@ -33,7 +33,7 @@ El coste medio de un producto se calcula con una media ponderada periódica, en 
 > [!NOTE]  
 >  Solo puede usar un periodo de coste medio y un tipo de coste medio en un ejercicio.  
 >   
->  La ventana **Pedidos contables** muestra el periodo de coste medio y el tipo de cálculo de coste medio que está en vigor durante ese periodo, por cada periodo contable.  
+>  La página **Pedidos contables** muestra el periodo de coste medio y el tipo de cálculo de coste medio que está en vigor durante ese periodo, por cada periodo contable.  
 
 ## <a name="calculating-average-cost"></a>Cálculo de coste promedio  
  Cuando se registra una transacción para un producto que utiliza el método de valoración de existencias Medio, se crea un movimiento en la tabla **Punto de entrada aj. coste promedio**. Este movimiento contiene el número de producto, el código de variante y el código de almacén de la transacción. El movimiento también contiene el campo **Fecha valoración**, el cual especifica la última fecha del periodo de coste medio en la que se registró la transacción.  
@@ -51,7 +51,7 @@ El coste medio de un producto se calcula con una media ponderada periódica, en 
  El programa aplica el coste medio calculado a las salidas de existencias del elemento (producto, almacén o variante) con fechas de registro durante el periodo de coste medio. Si se han aplicado entradas de existencias de forma fija a salidas de existencias en el periodo de coste medio, el coste medio calculado se reenvía desde la entrada a la salida.  
 
 ### <a name="example-average-cost-period--day"></a>Ejemplo: Periodo de coste medio = Día  
- En el ejemplo siguiente se muestra el efecto de calcular el coste medio basado en un periodo de coste medio de un día. El campo **Tipo cálculo cte. medio** en la ventana **Configuración de inventario** está configurado en **Producto**.  
+ En el ejemplo siguiente se muestra el efecto de calcular el coste medio basado en un periodo de coste medio de un día. El campo **Tipo cálculo cte. medio** en la página **Configuración de inventario** está configurado en **Producto**.  
 
  En la tabla siguiente se muestran los movimientos de producto del producto del coste medio de muestra, ITEM1, antes de que se haya ejecutado el proceso **Valorar stock - movs. producto**.  
 
@@ -88,7 +88,7 @@ El coste medio de un producto se calcula con una media ponderada periódica, en 
 |03-02-20|Venta|-1|-100,00|6|  
 
 ### <a name="example-average-cost-period--month"></a>Ejemplo: Periodo de coste medio = Mes  
- En el ejemplo siguiente se muestra el efecto de calcular el coste medio basado en un periodo de coste medio de un mes. El campo **Tipo cálculo cte. medio** en la ventana **Configuración de inventario** está configurado en **Producto**.  
+ En el ejemplo siguiente se muestra el efecto de calcular el coste medio basado en un periodo de coste medio de un mes. El campo **Tipo cálculo cte. medio** en la página **Configuración de inventario** está configurado en **Producto**.  
 
  Si el periodo de coste medio es un mes, solo se crea una entrada para cada combinación de número de producto, código de variante, código de almacén y fecha de valoración.  
 

@@ -4,17 +4,14 @@ description: "Obtener información sobre cómo administrar usuarios y áreas de 
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: profiles, users
-ms.date: 10/01/2018
+ms.date: 10/24/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 1a94d023424c6eceb93af6e9ca89a90a3a94e996
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 7ecd8a5ad2b321d4d1683047e70ede90c7ce229f
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="understanding-users-profiles-and-role-centers"></a>Comprender usuarios, perfiles y áreas de trabajo
@@ -29,6 +26,11 @@ Para agregar usuarios en [!INCLUDE[d365fin](includes/d365fin_md.md)] en línea, 
 
 A continuación, el administrador puede asignar permisos a cada usuario y grupos de usuarios. Para obtener más información, vea [Administración de usuarios y permisos](ui-how-users-permissions.md).  
 
+Los permisos más potentes que un usuario puede tener es el conjunto de permisos SUPER. Cada empresa debe tener al menos un usuario con este conjunto de permisos, pero es una práctica recomendada dar a cada usuario permisos que coincidan con sus necesidades de trabajo en [!INCLUDE[prodshort](includes/prodshort.md)] y no más que eso. Esto contribuye a garantizar que los usuarios solo tengan acceso a los datos relevantes para su trabajo, por ejemplo.  
+
+> [!TIP]
+> Es una práctica recomendada asegurarse de que el administrador de Office 365 también tiene el permiso SUPER configurado en [!INCLUDE[prodshort](includes/prodshort.md)], ya que esto facilita muchas tareas administrativas, incluida la configuración de la integración con otras aplicaciones.
+
 ### <a name="users-of-on-premises-deployments"></a>Usuarios de las implementaciones locales
 
 Para las implementaciones locales de [!INCLUDE[d365fin](includes/d365fin_md.md)], el administrador puede elegir entre diferentes mecanismos de autorización de credenciales para los usuarios. Cuando cree un usuario, proporcione información distinta según el tipo de credencial que vaya a utilizar en la sesión específica de [!INCLUDE[server](includes/server.md)]. Para obtener más información, vea [Tipos de autenticación y credenciales](/dynamics365/business-central/dev-itpro/administration/users-credential-types) en la sección Administración del desarrollador y contenido de ITPro de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -42,6 +44,46 @@ Los perfiles son colecciones de usuarios de [!INCLUDE[d365fin](includes/d365fin_
 > [!NOTE]  
 >  En la versión actual de [!INCLUDE[d365fin](includes/d365fin_md.md)] en línea, no puede agregar, editar, o eliminar perfiles.  
 
+### <a name="CreateProfile"></a>Cree un perfil.
+
+1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Lista de perfiles** y, a continuación, seleccione el vínculo relacionado.  
+
+2.  En la página **Lista de perfiles**, seleccione la acción **Nuevo** para abrir la página **Nueva ficha de perfil**.  
+
+3.  En el campo **Id. perfil**, escriba un nombre que describa el rol previsto de los usuarios.  
+
+4.  En el campo **Descripción**, escriba una descripción del identificador de perfil, como por ejemplo, **Procesador de pedidos**.  
+
+5.  Establezca el campo **Id. área de trabajo** al área de trabajo que desea asignar al perfil.  
+
+El procedimiento para modificar un perfil existente es el mismo, excepto que se selecciona un perfil existente en la página de perfiles **Lista de perfiles** en lugar de elegir la acción **Nuevo**.  
+
+
+### <a name="copy-a-profile"></a>Copiar un perfil
+Copiar un perfil puede ahorrarle tiempo si desea utilizar una configuración similar en un perfil y solo desea modificar algunos ajustes.
+
+1.  Abra el perfil que desea copiar y elija la acción **Copiar perfil**.
+
+2.  En el campo **Nuevo id. de perfil**, introduzca el nombre del perfil que desea copiar.
+
+3.  Establezca el campo **Nuevo ámbito de perfil** en una de las siguientes opciones:
+
+    - **Sistema** para hacer que el nuevo perfil esté disponible para todas las bases de datos de inquilinos que usan la aplicación.
+    - **Suscriptor** para hacer que el nuevo perfil esté disponible para la base de datos actual del suscriptor.
+4. Cuando haya finalizado, elija el botón **Aceptar**.
+
+### <a name="ExportImportProfile"></a>Exportar e importar perfiles
+
+Puede exportar e importar perfiles como archivos XML a o desde la base de datos de [!INCLUDE[d365fin](includes/d365fin_md.md)]. La exportación e importación de un perfil puede ahorrarle tiempo al configurar la interfaz de usuario porque reutiliza una configuración de perfil existente en lugar de tener que configurar un perfil desde cero. Si tiene un perfil configurado en una base de datos de [!INCLUDE[d365fin](includes/d365fin_md.md)] y desea reutilizar todas o algunas de las mismas configuraciones de perfil en otra base de datos, puede exportar el perfil a un archivo XML. A continuación, puede importar el archivo XML de perfil a otra base de datos.
+
+-   Para exportar un perfil, puede elegir la acción **Exportar perfiles** en la página **Lista de perfiles** o **Ficha de perfil**, o puede buscar y abrir la página **Exportar perfiles**. Guarde el archivo XML en una ubicación del equipo o red.
+
+-   Para importar un perfil, puede elegir la acción **Importar perfil** en la página **Lista de perfiles** o puede buscar y abrir la página **Importar perfiles**. 
+
+    > [!NOTE]  
+    >  No puede importar un perfil que ya exista en la base de datos, aunque nombre o el contenido del archivo XML sean distintos. Debe eliminar el perfil existente para poder importar el perfil nuevo.
+
+
 ## <a name="configuration-and-personalization"></a>Configuración y personalización
 <!--The concept of UI customization in [!INCLUDE[d365fin](includes/d365fin_md.md)] is divided in two:  
 
@@ -50,6 +92,7 @@ Los perfiles son colecciones de usuarios de [!INCLUDE[d365fin](includes/d365fin_
 -   Personalization, performed by users  
 
 The administrator configures the user interface for multiple users by customizing the user interface for a profile that the users are assigned to.  -->
+
 Los usuarios personalizan la interfaz de usuario de su versión personal mediante la adaptación de la IU en su propio inicio de sesión de usuario. Esta personalización puede ser eliminada por el administrador. Para obtener más información, vea [Personalización del área de trabajo](ui-personalization-user.md).  
 
 ## <a name="see-also"></a>Consulte también  

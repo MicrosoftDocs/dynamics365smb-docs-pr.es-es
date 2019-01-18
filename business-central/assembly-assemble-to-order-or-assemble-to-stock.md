@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e09bc15f21acbcdf55908064b9867728a7870fb4
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 1000447ed0f547fea9fc349900631b0a5f0ce107
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Descripción de ensamblar para pedido y ensamblar para stock
@@ -38,7 +38,7 @@ Utilice normalmente *ensamblar para pedido* para los artículos que no desea lle
 
 En el proceso del ensamblar para pedido, el artículo se ensambla en respuesta a un pedido de venta y con un vínculo uno a uno entre el pedido de ensamblado y el pedido de venta.  
 
-Cuando se introduce un artículo de ensamblar para pedido en una línea de venta, se crea automáticamente un pedido de ensamblado con una cabecera que se basa en la línea de venta y con las líneas que se basan en el L.M. de ensamblado del artículo multiplicado por la cantidad del pedido. Puede usar la ventana **Líneas ensamblar para pedido** para ver las líneas del pedido de ensamblado con el fin de ayudarle a personalizar el elemento del ensamblado y para comprometerse con una fecha de entrega basada en la información de disponibilidad del componente. Para obtener más información, consulte [Venta de artículos ensamblados para pedido](assembly-how-to-sell-items-assembled-to-order.md).  
+Cuando se introduce un artículo de ensamblar para pedido en una línea de venta, se crea automáticamente un pedido de ensamblado con una cabecera que se basa en la línea de venta y con las líneas que se basan en el L.M. de ensamblado del artículo multiplicado por la cantidad del pedido. Puede usar la página **Líneas ensamblar para pedido** para ver las líneas del pedido de ensamblado con el fin de ayudarle a personalizar el elemento del ensamblado y para comprometerse con una fecha de entrega basada en la información de disponibilidad del componente. Para obtener más información, consulte [Venta de artículos ensamblados para pedido](assembly-how-to-sell-items-assembled-to-order.md).  
 
 > [!NOTE]  
 >  Aunque no es parte del proceso predeterminado, puede vender las cantidades del inventario con las de ensamblar para pedido. Para obtener más información, consulte [Venta de productos de inventario en los flujos de ensamblar para pedido](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  

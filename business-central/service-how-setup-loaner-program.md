@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 197a5805d55546bbbff1cffc9a12d7cc91017fcd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 46e60bcb217178d94eda195045df0db33873a190
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-a-loaner-program"></a>Configurar un programa de productos prestados
@@ -28,7 +28,7 @@ En ocasiones, debe entregar al cliente un producto prestado para que lo utilice 
 ## <a name="to-set-up-a-loaner"></a>Para configurar un producto prestado  
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Productos prestados** y luego elija el enlace relacionado.  
 2. Cree una ficha de producto prestado nueva. 
-3. En el campo **N.º**, introduzca un número para el producto prestado. Si ha configurado una serie numérica para productos prestados en la ventana **Config. gestión servicios**, también puede presionar la tecla Enter para seleccionar el siguiente número de producto prestado disponible.  
+3. En el campo **N.º**, introduzca un número para el producto prestado. Si ha configurado una serie numérica para productos prestados en la página **Config. gestión servicios**, también puede presionar la tecla Enter para seleccionar el siguiente número de producto prestado disponible.  
 4. Rellene los campos **Descripción**, **Descripción 2** y **Nº serie**.  
 5. En el campo **Cód. unidad medida**, elija la unidad de medida correspondiente.  
   

@@ -13,10 +13,10 @@ ms.search.keywords: analysis, history, track
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 1c5fda0c8cd063e784ec44448b040a298bfeaf2f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 40363e1ef9deeda6b39e2d554c5c3dc3a85334b8
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="understanding-the-general-ledger-and-the-coa"></a>Descripción de contabilidad y plan de cuentas
@@ -25,13 +25,13 @@ La contabilidad almacena sus datos financieros y el plan de cuentas muestra las 
 ## <a name="general-ledger-setup-and-general-posting-setup"></a>Configuración de contabilidad y grupos contables
 La configuración de la contabilidad es en la base de los procesos financieros porque define cómo se registran los datos.  
 
-En la ventana **Configuración contabilidad** especifique cómo gestionar determinados asuntos de contabilidad en su empresa, como:  
+En la página **Configuración contabilidad** especifique cómo gestionar determinados asuntos de contabilidad en su empresa, como:  
 
 * Detalles de redondeo de factura  
 * Formatos de dirección  
 * Informes financieros  
 
-De manera similar, en la ventana **Configuración grupos contables**, puede especificar cómo desea configurar las combinaciones generales del negocio y los grupos contables de producto. Los grupos contables asignan entidades como clientes, proveedores, productos, recursos y documentos de venta y compra a cuentas contables. Rellene una línea por cada combinación de grupo contable de negocio y de producto. Para obtener más información, consulte [Configuraciones de grupos de registro](finance-posting-groups.md)  
+De manera similar, en la página **Configuración grupos contables**, puede especificar cómo desea configurar las combinaciones generales del negocio y los grupos contables de producto. Los grupos contables asignan entidades como clientes, proveedores, productos, recursos y documentos de venta y compra a cuentas contables. Rellene una línea por cada combinación de grupo contable de negocio y de producto. Para obtener más información, consulte [Configuraciones de grupos de registro](finance-posting-groups.md)  
 
 ## <a name="the-chart-of-accounts"></a>Plan de cuentas
 El plan de cuentas muestra todas las cuentas de contabilidad. Desde el plan de cuentas, puede realizar acciones como las siguientes:  
@@ -47,9 +47,9 @@ Puede agregar, cambiar o eliminar cuentas de contabilidad. Sin embargo, para evi
 ## <a name="account-categories"></a>Categorías de cuenta
 Puede personalizar la estructura de los informes financieros con la asignación de las cuentas de contabilidad a las categorías de cuenta.  
 
-La ventana **Categorías de cuenta** muestra las categorías y subcategorías, y las cuentas que asignó a cada categoría. Puede crear nuevas subcategorías y asignarlas a las cuentas existentes.  
+La página **Categorías de cuenta** muestra las categorías y subcategorías, y las cuentas que asignó a cada categoría. Puede crear nuevas subcategorías y asignarlas a las cuentas existentes.  
 
-Puede crear un grupo de categorías marcando otras subcategorías debajo de una línea la ventana **Categorías de cuenta**. Esto le facilita la obtención de una descripción general, porque cada agrupación muestra un balance total. Por ejemplo, puede crear las subcategorías para distintos tipos de activos y a continuación crear grupos de categorías para los activos fijos y los activos circulantes.  
+Puede crear un grupo de categorías marcando otras subcategorías debajo de una línea en la página **Categorías de cuenta**. Esto le facilita la obtención de una descripción general, porque cada agrupación muestra un balance total. Por ejemplo, puede crear las subcategorías para distintos tipos de activos y a continuación crear grupos de categorías para los activos fijos y los activos circulantes.  
 
 Puede especificar si las cuentas de cada categoría deben incluirse en los tipos específicos de informes. Las categorías de cuentas ayudan a definir el diseño de sus balances financieros.  
 

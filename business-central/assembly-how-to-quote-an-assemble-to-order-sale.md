@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: be0a80ea66dea634a37cb187408c7142d70af011
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5c6cebdb3bdadc9a8b3830a1ff0cb9fb4649e863
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="quote-an-assemble-to-order-sale"></a>Oferta de una venta de ensamblar para pedido
@@ -36,8 +36,8 @@ Como cuando se vende cualquier otro tipo de producto, también puede crear una o
     >  No debe crear una oferta para una cantidad parcial. Por tanto, deberá introducir la misma cantidad que ha introducido en el campo **Cantidad** de la línea de oferta de venta.  
 
 4.  En la ficha desplegable **Líneas**, seleccione **Línea**, seleccione **Ensamblar para pedido** y, a continuación, elija **Ensamblar para líneas de pedido**. También puede elegir el campo **Cdad. al ensamblar para pedido** en la línea.  
-5.  En la ventana **Ensamblar para líneas de pedido**, revise o modifique las líneas de pedido de ensamblado de acuerdo con la oferta que el cliente solicita. Si desea ver más información, seleccione la acción **Mostrar documento** para abrir el pedido de oferta abierto completo. No puede modificar el contenido de la mayoría de los campos, y no puede realizar ningún registro.  
-6.  Cuando se hayan ajustado las líneas del pedido de ensamblado a la oferta, cierre la ventana **Ensamblar para líneas de pedido** para volver a la ventana **Oferta venta**.  
+5.  En la página **Ensamblar para líneas de pedido**, revise o modifique las líneas de pedido de ensamblado de acuerdo con la oferta que el cliente solicita. Si desea ver más información, seleccione la acción **Mostrar documento** para abrir el pedido de oferta abierto completo. No puede modificar el contenido de la mayoría de los campos, y no puede realizar ningún registro.  
+6.  Cuando se hayan ajustado las líneas del pedido de ensamblado a la oferta, cierre la página **Ensamblar para líneas de pedido** para volver a la página **Oferta venta**.  
 7.  Si el cliente acepta la oferta, cree un pedido de venta para el elemento del ensamblado ofertado. Para obtener más información, consulte [Crear ofertas de ventas](sales-how-make-offers.md). La oferta de ensamblado vinculada y cualquier personalización se asocian a ese nuevo pedido de venta para preparar el ensamblado del producto o los productos que se van a vender.  
 
 ## <a name="see-also"></a>Consulte también  

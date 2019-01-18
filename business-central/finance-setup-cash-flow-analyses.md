@@ -13,10 +13,10 @@ ms.search.keywords: money flow, expense and income, liquidity, cash receipts min
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 24ca91f224a198ec462081ced06ddfe0e9db6cf4
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: fbac12ea35916a1ae577341054f4b80522de9df8
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Configuración del análisis de flujo de efectivo
@@ -30,7 +30,7 @@ Si desea ayuda para decidir qué debe hacer con el efectivo, eche un vistazo a l
 En este tema se describe de dónde proceden los datos de los gráficos y, si es necesario, qué hacer para empezar a usar los gráficos.  
 
 ## <a name="the-cash-cycle-and-income--expense-charts"></a>Gráficos Ciclo de efectivo e Ingresos y gastos
-Los gráficos **Ciclo de efectivo** e **Ingresos y gastos** están preparados para usarse, en función del plan de cuentas y los esquemas de cuentas. Los efectos son de donde proceden los datos y los esquemas de cuentas calculan la relación entre ventas y cobros. Se proporcionan algunas cuentas y esquemas de cuentas. Puede usarlos tal como están, modificarlos y agregar nuevos. Si se agrega cuentas al plan de cuentas, por ejemplo, importándolas de QuickBooks, deberá asignarlas a las cuentas de la ventana **Esquemas de cuentas** de los siguientes nombres del esquema de cuentas:  
+Los gráficos **Ciclo de efectivo** e **Ingresos y gastos** están preparados para usarse, en función del plan de cuentas y los esquemas de cuentas. Los efectos son de donde proceden los datos y los esquemas de cuentas calculan la relación entre ventas y cobros. Se proporcionan algunas cuentas y esquemas de cuentas. Puede usarlos tal como están, modificarlos y agregar nuevos. Si se agrega cuentas al plan de cuentas, por ejemplo, importándolas de QuickBooks, deberá asignarlas a las cuentas de la página **Esquemas de cuentas** de los siguientes nombres del esquema de cuentas:  
 
 | Nombre esquema cuenta | Dónde se usa |
 | --- | --- |
@@ -68,14 +68,14 @@ Para usar la guía de configuración asistida:
 1. En el área de trabajo Contable, en el gráfico **Previsión de flujo de efectivo**, elija la acción **Abrir configuración asistida**.  
 2. Rellene los campos en cada paso de la guía.  
 3. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Previsión de flujo de efectivo** y luego elija el enlace relacionado.
-4. En la ventana **Previsión de flujo de efectivo**, seleccione la acción **Recalcular previsión**.  
+4. En la página **Previsión de flujo de efectivo**, seleccione la acción **Recalcular previsión**.  
 
 Para usar un proceso manual:  
 
 1. En el área de trabajo Contable, busque **Configuración de flujo de efectivo** y, a continuación, elija el vínculo relacionado.  
 2. Expanda la ficha desplegable **Cortana Intelligence** y, a continuación, elija la casilla **Cortana Intelligence habilitado**.  
 3. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Previsión de flujo de efectivo** y luego elija el enlace relacionado.
-4. En la ventana **Previsión de flujo de efectivo**, seleccione la acción **Recalcular previsión**.  
+4. En la página **Previsión de flujo de efectivo**, seleccione la acción **Recalcular previsión**.  
 
 > [!TIP]  
 >   Considere la duración de los periodos que el servicio usará en los cálculos. Cuantos más datos proporcione, más precisas serán las predicciones. Asimismo, controle las variaciones grandes en los periodos. También afectarán a las predicciones. Si Cortana Intelligence no encuentra suficientes datos, o los datos varían mucho, el servicio no creará ninguna predicción.  

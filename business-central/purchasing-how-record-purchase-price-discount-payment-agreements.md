@@ -11,10 +11,10 @@ ms.search.keywords: special price, alternate price, pricing
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ea247c762749c108ede8679bb622f71d2dd67f51
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0a718c45256a1e7cc7fbde794491814f1c26dd4a
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="record-special-purchase-prices-and-discounts"></a>Registrar precios y descuentos de compra especiales
@@ -60,7 +60,7 @@ Una vez su proveedor le haya informado de que descuentos en factura garantizan, 
     >   Los códigos de descuento en factura se representan por las fichas existentes del proveedor. Lo que permite asignar rápidamente las condiciones de descuento en factura a proveedores realizando el picking del nombre de otros proveedores con los mismos términos.
 
     Configure de nuevo los términos de descuento en factura para compras.
-4. En la ventana **Ficha de proveedor**, seleccione la acción **Descuento factura**. Aparecerá la ventana **Dtos. factura proveedor**.
+4. En la página **Ficha proveedor**, seleccione la acción **Descuento factura**. Aparecerá la página **Dtos. factura proveedores**.
 5. En el campo **Código divisa**, introduzca el código de una divisa que se aplique a los términos de descuento en factura en la línea. Deje el campo en blanco para establecer condiciones de descuento de factura en la divisa local.
 6. En el campo **Importe mínimo**, escriba el importe mínimo que deba tener una factura para optar al descuento.
 7. En el campo **% descuento**, introduzca el descuento en la factura como un porcentaje del importe de la factura.
@@ -88,7 +88,7 @@ Si aplica términos fijos para los descuentos en factura a algunos proveedores, 
 
  Para poder utilizar descuentos en factura en las compras, deberá especificar los proveedores que le ofrecen los descuentos.  
 
- Se relacionan los porcentajes de descuento a los importes de factura específicos en las ventanas **Dtos. factura proveedores**. Puede introducir un número ilimitado de porcentajes en cada ventana. Cada proveedor puede tener su propia ventana o se pueden vincular varios proveedores a la misma ventana.  
+ Se relacionan los porcentajes de descuento a los importes de factura específicos en las páginas **Dtos. factura proveedores**. Puede introducir un número ilimitado de porcentajes en cada página. Cada proveedor puede tener su propia página o se pueden vincular varios proveedores a la misma página.  
 
  Además de un porcentaje de descuento, puede vincular un importe de cargo por servicios a un importe facturado específico.  
 
@@ -97,7 +97,7 @@ Si aplica términos fijos para los descuentos en factura a algunos proveedores, 
  Puede optar por que [!INCLUDE[d365fin](includes/d365fin_md.md)] calcule automáticamente los descuentos en factura de ofertas, pedidos abiertos, pedidos, facturas o abonos.  
 
 > [!TIP]  
->  Antes de introducir esta información, se recomienda preparar un esquema de la estructura de descuentos que desea utilizar. De este modo, podrá ver fácilmente los proveedores que se pueden vincular a la misma ventana de descuentos en factura. Cuantas menos ventanas tenga que configurar, más rápido podrá introducir la información básica.
+>  Antes de introducir esta información, se recomienda preparar un esquema de la estructura de descuentos que desea utilizar. De este modo, podrá ver fácilmente los proveedores que se pueden vincular a la misma página de descuentos en factura. Cuantas menos páginas tenga que configurar, más rápido podrá introducir la información básica.
 
 ## <a name="best-price-calculation"></a>Cálculo del mejor precio
 Cuando haya registrado precios especiales y los descuentos de línea para ventas y compras, [!INCLUDE[d365fin](includes/d365fin_md.md)] garantiza que el beneficio en operaciones comerciales de producto siempre son óptimos calculando automáticamente el mejor precio en los documentos de ventas y compras, y en líneas del diario de proyectos y recursos.

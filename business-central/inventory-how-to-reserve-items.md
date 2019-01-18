@@ -13,27 +13,27 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0f1800674e6f5561dc48eadde132f56b06500f98
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: aa7e25f8e1d837dde55ac05812306634c4ac37bf
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="reserve-items"></a>Reservar artículos
-Puede reservar productos para pedidos de venta, pedidos de servicio, pedidos de ensamblado y órdenes de producción. Puede reservar productos del inventario o de entrada en líneas de diario abiertas. El trabajo se realiza en la ventana **Reservas**.
+Puede reservar productos para pedidos de venta, pedidos de servicio, pedidos de ensamblado y órdenes de producción. Puede reservar productos del inventario o de entrada en líneas de diario abiertas. El trabajo se realiza en la página **Reservas**.
 
-Cada línea de la ventana **Reservas**, que se abre para reservar productos, muestra información sobre un tipo de línea (venta, compra, diario) o entrada de inventario. Las líneas describen cuántos productos están disponibles para reservarse desde cada tipo de línea o movimiento.
+Cada línea de la página **Reservas**, que se abre para reservar productos, muestra información sobre un tipo de línea (venta, compra, diario) o entrada de inventario. Las líneas describen cuántos productos están disponibles para reservarse desde cada tipo de línea o movimiento.
 
 ## <a name="to-reserve-items-for-sales"></a>Para reservar productos para venta
 A continuación se describe cómo reservar productos de un pedido de venta. Los pasos son similares para pedidos de compra, de servicio y de ensambado.  
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.  
-2.  En la ficha desplegable **Líneas** de un pedido de venta, elija la acción **Reservar**. Se abre la ventana **Reservas**.  
+2.  En la ficha desplegable **Líneas** de un pedido de venta, elija la acción **Reservar**. Se abre la página **Reserva**.  
 3. Seleccione la línea de la que desea reservar los productos.  
 4. Elija una de las siguientes acciones.  
 
     |**Acciones**|**Descripción**|
     |------------------|---------------------|  
-    |**Reserva automática**|Para reservar productos automáticamente en la ventana **Reservas**.|  
+    |**Reserva automática**|Para reservar productos automáticamente en la página **Reserva**.|  
     |**Reserva desde la línea actual**|Para reservar los productos desde la línea seleccionada del documento.|  
     |**Cancelación de reserva desde la línea actual**|Para anular la reserva de los productos desde la línea seleccionada del documento.|
 
@@ -48,7 +48,7 @@ En el siguiente procedimiento, se utiliza una orden de producción planificada e
 2. Abra la orden de producción planificada en firme para la que desee reservar productos principales.  
 3. Seleccione la línea de la orden de producción pertinente.  
 4. En la ficha desplegable **Líneas**, seleccione la acción **Reservar**,
-5. En la ventana **Reserva**, seleccione la línea **Lín. venta, Pedido** y, a continuación, la acción **Reservar desde la línea actual**.  
+5. En la página **Reserva**, seleccione la línea **Lín. venta, Pedido** y, a continuación, la acción **Reservar desde la línea actual**.  
 
 Ahora se reserva la cantidad introducida en la línea de la orden de producción planificada en firme.
 
@@ -62,22 +62,22 @@ En el siguiente procedimiento, se utiliza una orden de producción planificada e
 4. En la ficha desplegable **Líneas**, elija **Línea** y luego seleccione **Componentes**.  
 5. Seleccione la línea de componentes correspondiente.  
 6. En la ficha desplegable **Líneas**, seleccione la acción **Reservar**,  
-7. En la ventana **Reserva**, seleccione una línea y, a continuación, la acción **Reservar desde la línea actual**.  
+7. En la página **Reserva**, seleccione una línea y, a continuación, la acción **Reservar desde la línea actual**.  
 
 Ahora se reserva la cantidad introducida en la línea de componentes de producción planificada en firme.
 
 ## <a name="to-change-a-reservation"></a>Para modificar una reserva  
 En ocasiones, quizá le interese modificar la reserva de un producto.   
 1. Desde la línea de documento de la que se ha reservado, en la ficha desplegable **Líneas**, seleccione la acción **Reserva**.  
-2. En la ventana **Reservas**, seleccione la acción **Movs. reserva**.
-3. La ventana **Movs. reserva**, actualice el campo **Cantidad** de la línea que vaya a modificar.
+2. En la página **Reservas**, seleccione la acción **Movs. reserva**.
+3. La página **Movs. reserva**, actualice el campo **Cantidad** de la línea que vaya a modificar.
 4. Confirme el mensaje que aparece, eligiendo el botón **Acep.**.
 
 ## <a name="to-cancel-a-reservation"></a>Para cancelar una reserva  
 En ocasiones, quizá le interese eliminar la reserva de un producto.   
 1. Desde la línea de documento de la que desee cancelar una reserva, en la ficha desplegable **Líneas**, seleccione la acción **Reservar**.  
-2. En la ventana **Reservas**, seleccione la acción **Movs. reserva**.  
-3.  En la ventana **Movs. reserva**, seleccione la acción **Cancelar reserva**.  
+2. En la página **Reservas**, seleccione la acción **Movs. reserva**.  
+3.  En la página **Movs. reserva**, elija la acción **Cancelar reserva**.  
 4.  Confirme el mensaje que aparece, eligiendo el botón **Acep.**.  
 
 ## <a name="to-reserve-a-specific-serial-or-lot-number"></a>Para reservar un número de serie o de lote específico  
@@ -91,8 +91,8 @@ El procedimiento siguiente se basa en un pedido de venta.
 3. Asigne números de serie y de lote a la línea de pedido de venta. Para obtener más información, consulte [Trabajar con números de serie y de lote](inventory-how-work-item-tracking.md).
 4. En la línea del pedido de ventas, seleccione la acción **Reservar**.  
 5. Elija el botón **Sí** para reservar números de serie o lote específicos.  
-6. En la ventana  **Lista seguimiento producto**, seleccione la combinación de números de serie y lote que acaba de asignar.  
-7. Elija el botón **Aceptar** para abrir la ventana **Reserva** que muestra solo el suministro con el número de seguimiento del producto especificado. Si existe alguna reserva no específica de cualquiera de los números de seguimiento de producto que ha especificado en esta línea, se le informa de la cantidad que ya se ha reservado.  
+6. En la página **Lista seguimiento producto**, seleccione la combinación de números de serie y lote que acaba de asignar.  
+7. Elija el botón **Aceptar** para abrir la página **Reserva** que muestra solo el suministro con el número de seguimiento del producto especificado. Si existe alguna reserva no específica de cualquiera de los números de seguimiento de producto que ha especificado en esta línea, se le informa de la cantidad que ya se ha reservado.  
 8. Elija **Reservar auto.** o **Reservar desde la línea actual** para realizar una reserva sobre los números de seguimiento de productos específicos.
 
 ## <a name="see-also"></a>Consulte también

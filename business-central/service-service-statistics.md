@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 5af0da45b27c70bc2b25fbad22f83479e9543432
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 03074e2296c95a2afec9f5852a9c4277efa0a37a
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -26,10 +26,10 @@ Puede utilizar estadísticas para analizar los documentos de servicio y determin
 ## <a name="viewing-statistics-for-service-orders"></a>Visualización de estadísticas de un pedido de servicio
 La función estadísticas de pedido de servicio le da una rápida visión general del contenido de todo el pedido de servicio, los detalles de las líneas de servicio específicas e información relacionada con la facturación, el envío, el consumo y la deuda del cliente.  
 
-Los datos estadísticos del pedido de servicio pertinente se muestran en la ventana **Estadísticas pedido servicio**. Puede abrir la ventana de estadísticas relevante desde un pedido de servicio. En la ventana **Pedidos de servicio** selección **Estadísticas**. Las fichas desplegables de esta ventana muestran información acerca de cantidad, importe, IVA, coste, beneficio y límite de crédito del cliente. Los importes incluidos en la ventana están en la misma divisa que el pedido de servicio, a menos que se indique lo contrario.  
+Los datos estadísticos del pedido de servicio pertinente se muestran en la página **Estadísticas pedido servicio**. Puede abrir la página de estadísticas relevante desde un pedido de servicio. En la página **Pedidos de servicio** seleccione **Estadísticas**. Las fichas desplegables de esta página muestran información acerca de cantidad, importe, IVA, coste, beneficio y límite de crédito del cliente. Los importes incluidos en la página están en la misma divisa que el pedido de servicio, a menos que se indique lo contrario.  
 
 ### <a name="view-totals-for-a-service-order"></a>Ver totales de un pedido de servicio  
-Puede ver el importe total en las líneas de servicio, con y sin IVA, el importe del IVA, el coste y los beneficios de las líneas de servicio. La ventana también muestra información específica de productos, como el peso, el volumen, y la cantidad de lotes.  
+Puede ver el importe total en las líneas de servicio, con y sin IVA, el importe del IVA, el coste y los beneficios de las líneas de servicio. La página también muestra información específica de productos, como el peso, el volumen, y la cantidad de lotes.  
 
 ### <a name="view-shipping-information"></a>Visualización de información de envío  
 Puede ver la información sobre los productos, los recursos o los costes de envío. Para obtener esta información, se utilizan los valores especificados en el campo **Cantidad a enviar** de cada línea de servicio del pedido.  
@@ -54,7 +54,7 @@ Puede analizar la información por los tipos de líneas de servicio incluidos en
 Vea el saldo de la cuenta del cliente, además del crédito máximo que se puede facilitar al cliente para el que ha creado el documento de servicio.
 
 ## <a name="viewing-service-item-statistics"></a>Visualización de estadísticas de producto de servicios
-En la ventana **Estadísticas de productos de servicio**, puede ver la información actualizada acerca un producto de servicio basada en los siguientes tipos de registros de movimientos de servicio:  
+En la página **Estadísticas de productos de servicio**, puede ver la información actualizada acerca un producto de servicio basada en los siguientes tipos de registros de movimientos de servicio:  
 
 * Recursos  
 * Productos  
@@ -67,7 +67,7 @@ Para cada tipo de movimiento, puede ver el importe facturado, la utilización (i
 * (Importe de la factura - Utilización (coste)) x 100/Importe de la factura  
 
 ## <a name="using-trendscapes"></a>Mediante Trendscapes
-Para productos de servicio y contratos de servicio, las ventanas de **Trendscape producto de servicio** o **Trendscape contrato de servicio** proporciona un resumen desplazable de movimientos de servicio de un periodo de tiempo para un producto o un contrato de servicio determinado. Para ver el trendscape, abra el producto de servicio o contrato de servicio, elija la acción **Estadísticas**, y después seleccione **Trendscape**.
+Para productos de servicio y contratos de servicio, las páginas **Trendscape producto de servicio** o **Trendscape contrato de servicio** proporciona un resumen desplazable de movimientos de servicio de un periodo de tiempo para un producto o un contrato de servicio determinado. Para ver el trendscape, abra el producto de servicio o contrato de servicio, elija la acción **Estadísticas**, y después seleccione **Trendscape**.
 
 Al desplazarse en la lista, los importes se calculan en la divisa loca según el intervalo de tiempo especificado. Se calculan todos los importes procedentes de los movimientos de servicio, los cuales son movimientos creados al registrar pedidos de servicio o facturas de servicio.
 
@@ -88,25 +88,25 @@ Los movimientos de beneficios o pérdidas de contrato se generan cuando se convi
 |**Pérd./gan. contr. (Cen. resp.)**|Para ver las pérdidas y ganancias de contrato por centro de responsabilidad.|  
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba el nombre de la página a mostrar y, a continuación, elija el vínculo relacionado.  
-2. Rellene los criterios del filtro que desea aplicar. Por ejemplo, en la ventana **Pérdidas/ganancias en contrato (Razones)**, seleccione un valor para **Filtro código razón**.  
+2. Rellene los criterios del filtro que desea aplicar. Por ejemplo, en la página **Pérdidas/ganancias en contrato (Razones)**, seleccione un valor para **Filtro código razón**.  
 3. Elija la acción **Mostrar matriz**.
 
 ## <a name="viewing-statistics-for-posted-service-documents"></a>Visualización de estadísticas de documentos de servicio registrados
 La función de estadísticas de servicio permite obtener un resumen estadístico del contenido de los documentos de servicio registrados, como envío registrado, factura registrada y abono registrado.  
 
-La información estadística se muestra en la ventana de estadísticas del documento de servicio registrado correspondiente. Puede abrir la ventana de estadísticas correspondiente desde el envío de servicio registrado, la factura de servicio registrada o los documentos de abono de servicio registrados. Para cada uno de esos tipos de documento, en la pestaña **Inicio**, en el grupo **Proceso**, seleccione **Estadísticas**. Por ejemplo, desde la ventana **Facturas servicios reg.**, en la pestaña **Inicio**, en el grupo **Proceso**, seleccione **Estadísticas**.  
+La información estadística se muestra en la página de estadísticas del documento de servicio registrado correspondiente. Puede abrir la página de estadísticas correspondiente desde el envío de servicio registrado, la factura de servicio registrada o los documentos de abono de servicio registrados. Para cada uno de esos tipos de documento, en la pestaña **Inicio**, en el grupo **Proceso**, seleccione **Estadísticas**. Por ejemplo, desde la página **Facturas servicios reg.**, en la pestaña **Inicio**, en el grupo **Proceso**, seleccione **Estadísticas**.  
 
 ### <a name="posted-service-shipment-statistics"></a>Estadísticas de envíos de servicios registrados  
-La ventana **Estadísticas envíos de servicios** proporciona un resumen de un envío de servicio registrado. Esto incluye información sobre el contenido físico del envío, como la cantidad de productos enviados, las horas o los costes de los recursos y el peso y el volumen de los productos enviados.  
+La página **Estadísticas envíos de servicios** proporciona un resumen de un envío de servicio registrado. Esto incluye información sobre el contenido físico del envío, como la cantidad de productos enviados, las horas o los costes de los recursos y el peso y el volumen de los productos enviados.  
 
 ### <a name="posted-service-invoice-statistics"></a>Estadísticas de facturas de servicios registradas  
-Puede ver un resumen estadístico de una factura de servicio registrada en la ventana **Estadísticas facturas servicios**. Puede ver los totales de la factura de servicio registrada. Estos datos incluyen el importe total de las líneas de servicio (con y sin IVA) que se han registrado como facturadas, el importe del IVA, el coste y los beneficios de la factura registrada. Las ventana también muestra la siguiente información:  
+Puede ver un resumen estadístico de una factura de servicio registrada en la página **Estadísticas facturas servicios**. Puede ver los totales de la factura de servicio registrada. Estos datos incluyen el importe total de las líneas de servicio (con y sin IVA) que se han registrado como facturadas, el importe del IVA, el coste y los beneficios de la factura registrada. Las página también muestra la siguiente información:  
 
 * Los productos en las líneas de factura de servicio, como el peso, el volumen, y la cantidad de lotes.  
 * El saldo de la cuenta de cliente y el crédito máximo que puede ampliar al cliente.  
 
 ### <a name="posted-service-credit-memo-statistics"></a>Estadísticas de abonos de servicios registrados  
-Puede utilizar la ventana **Estadísticas abonos servicios** para obtener un resumen estadístico de las líneas de un abono de servicio registrado. El resumen puede incluir:
+Puede utilizar la página **Estadísticas abonos servicios** para obtener un resumen estadístico de las líneas de un abono de servicio registrado. El resumen puede incluir:
 
 * Los importes totales del abono registrado, mostrado como cantidad, importe, IVA, coste y beneficios. Asimismo, es información sobre los productos de las líneas de servicio del abono registrado, como la cantidad, el peso y el volumen.  
 * Información general sobre el cliente, como su límite de crédito y el saldo de su cuenta.  

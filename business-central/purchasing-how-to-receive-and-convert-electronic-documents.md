@@ -11,14 +11,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e2cbddbfe4d184468b778455d4b75f49b0f23b67
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2ed7c083b4315f374a81ec5f97ce5e872c11f071
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Recibir y convertir documentos electrónicos
-La versión genérica de [!INCLUDE[d365fin](includes/d365fin_md.md)] admite la recepción de facturas electrónicas y abonos en formato PEPPOL, admitido por los proveedores de servicios de intercambio de documentos más importantes. Para recibir una factura de un proveedor como un documento electrónico PEPPOL, debe procesarse el documento en la ventana Documentos entrantes para luego convertirlo en una factura de compra o en una línea de diario general en [!INCLUDE[d365fin](includes/d365fin_md.md)].
+La versión genérica de [!INCLUDE[d365fin](includes/d365fin_md.md)] admite la recepción de facturas electrónicas y abonos en formato PEPPOL, admitido por los proveedores de servicios de intercambio de documentos más importantes. Para recibir una factura de un proveedor como un documento electrónico PEPPOL, debe procesarse el documento en la página Documentos entrantes para luego convertirlo en una factura de compra o en una línea de diario general en [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
  Además de recibir documentos electrónicos directamente de los socios comerciales, puede recibir documentos electrónicos de un servicio OCR que haya convertido sus archivos PDF o de imagen en documentos electrónicos.  
 
@@ -31,9 +31,9 @@ La versión genérica de [!INCLUDE[d365fin](includes/d365fin_md.md)] admite la r
  Puede iniciar la conversión de documentos electrónicos manualmente, tal como se describe en este procedimiento, o puede activar un flujo de trabajo para convertir los documentos electrónicos automáticamente cuando se reciban. La versión genérica de [!INCLUDE[d365fin](includes/d365fin_md.md)] incluye una plantilla de flujo de trabajo, *Flujo de trabajo desde Documento electrónico entrante hasta Abrir factura de compra*, que está listo para copiarse en un flujo de trabajo y activarse. Para obtener más información, consulte [Flujo de trabajo](across-workflow.md).  
 
 > [!NOTE]  
->  Cuando conviertes documentos electrónicos recibidos del servicio de OCR o de líneas del diario de [!INCLUDE[d365fin](includes/d365fin_md.md)], se suman varias líneas en el documento de origen en una línea. La línea única será del tipo Cuenta del libro mayor y los campos de **Descripción** y **Número** (de cuenta del libro mayor) estarán vacíos. El valor del campo **Importe** se igualará al importe total (IVA excluido) de todas las líneas del documento de origen.  
+>  Cuando conviertes documentos electrónicos recibidos del servicio de OCR o de líneas del diario de [!INCLUDE[d365fin](includes/d365fin_md.md)], se suman varias líneas en el documento de origen en una línea. La línea única será del tipo Cuenta del libro mayor y los campos de **Descripción** y **Número** (de cuenta del libro mayor) estarán vacíos. El valor del campo **Importe** se igualará al importe total (IVA excluído) de todas las líneas del documento de origen.  
 >   
->  Para asegurarse de que los campos **Descripción** y **N.º** se rellenan, puede elegir el botón **Asignar texto a cuenta** en la ventana **Documentos entrantes** para definir que un determinado texto de factura se asigne siempre a una cuenta Debe o Haber determinada en la contabilidad. En adelante, el campo **Descripción** del documento o de las líneas de diario creados a partir de un documento electrónico para el proveedor o cliente en concreto se rellenarán con el texto en cuestión y el campo **N.º** (cuenta libro mayor) con la cuenta en cuestión.  
+>  Para asegurarse de que los campos **Descripción** y **N.º** se rellenan, puede elegir el botón **Asignar texto a cuenta** en la página **Documentos entrantes** para definir que un determinado texto de factura se asigne siempre a una cuenta Debe o Haber determinada en la contabilidad. En adelante, el campo **Descripción** del documento o de las líneas de diario creados a partir de un documento electrónico para el proveedor o cliente en concreto se rellenarán con el texto en cuestión y el campo **N.º** (cuenta libro mayor) con la cuenta en cuestión.  
 >   
 >  En lugar de asignar a una cuenta, también se puede asignar a una cuenta bancaria. Esto resulta práctico, por ejemplo, en los documentos electrónicos para los gastos que ya se han pagado, donde desea crear una línea de diario general que esté lista para registrarse en una cuenta bancaria.  
 
@@ -45,11 +45,11 @@ La versión genérica de [!INCLUDE[d365fin](includes/d365fin_md.md)] admite la r
 
 2.  Seleccione la línea del registro del documento entrante que representa una factura electrónica entrante nueva y, en la pestaña **Inicio**, en el grupo **Administrar**, elija **Editar**.  
 
-     En la ventana **Ficha de documento entrante**, está adjunto el archivo XML relacionado, y la mayor parte de los campos se prellenan con la información de la factura electrónica. Para obtener más información, vea [Crear registros de documentos entrantes](across-how-create-income-document-records.md).  
+     En la página **Ficha de documento entrante**, está adjunto el archivo XML relacionado, y la mayor parte de los campos se prellenan con la información de la factura electrónica. Para obtener más información, vea [Crear registros de documentos entrantes](across-how-create-income-document-records.md).  
 
 3.  En el campo **Tipo de intercambio de datos**, seleccione **PEPPOL - Factura** o **OCR - Factura** según el origen del documento electrónico.  
 
-4.  Para asignar el texto de la factura de proveedor a una cuenta Debe específica, en la pestaña **Acciones**, en el grupo **General**, seleccione **Asignar texto a cuenta** y, a continuación rellene la ventana **Hoja asignación de texto a cuenta**.  
+4.  Para asignar el texto de la factura de proveedor a una cuenta Debe específica, en la pestaña **Acciones**, en el grupo **General**, seleccione **Asignar texto a cuenta** y, a continuación rellene la página **Hoja asignación de texto a cuenta**.  
 
 5.  En la ventana **Acciones**, en el grupo **General**, elija **Crear documento**.  
 

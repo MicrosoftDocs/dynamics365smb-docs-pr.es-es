@@ -11,17 +11,17 @@ ms.search.keywords: company, setup wizard
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: ce2fd5c5027fc54c92bf5ffc63b70c84d81f26b3
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9831dd53ffa3ba94202a8a15dc0bdaffdb6d2d2d
 ms.contentlocale: es-es
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="creating-new-companies-in-included365finincludesd365finmdmd"></a>Crear nuevas en empresas en [!INCLUDE[d365fin](includes/d365fin_md.md)]
 En [!INCLUDE[d365fin](includes/d365fin_md.md)], los contenedores para datos empresariales que pertenecen a una unidad de negocio o entidad legal se denominan *empresa*. Cuando se registra en [!INCLUDE[d365fin](includes/d365fin_md.md)], recibe una empresa de demostración y una empresa vacía, *Mi empresa*. Cambiar entre las empresas es fácil, solo tiene que ir a **Mi configuración** y cambiarse a la otra empresa. Pero también puede crear nuevas empresas en [!INCLUDE[d365fin](includes/d365fin_md.md)], en función de sus necesidades comerciales. Al crear una empresa nueva, una guía de configuración asistida le ayuda a obtener los elementos básicos. A continuación, puede importar datos relevantes de su sistema heredado u otra empresa en [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="create-new-company"></a>Crear nueva empresa
-Si decide agregar una empresa al [!INCLUDE[d365fin](includes/d365fin_md.md)], puede utilizar el asistente de configuración asistida **Crear nueva empresa** para comenzar. El asistente de configuración está disponible en la ventana **Empresas** y en la búsqueda en el campo **Empresa** en **Mi configuración**.  
+Si decide agregar una empresa al [!INCLUDE[d365fin](includes/d365fin_md.md)], puede utilizar el asistente de configuración asistida **Crear nueva empresa** para comenzar. El asistente de configuración está disponible en la página **Empresas** y en la búsqueda en el campo **Empresa** en **Mi configuración**.  
 
 El asistente de configuración ofrece tres plantillas :
 
@@ -36,7 +36,7 @@ El asistente de configuración ofrece tres plantillas :
 Si desea empezar fácilmente con una empresa nueva, elija **Producción - Solo datos de configuración** y, a continuación, importe sus propios datos empresariales, como clientes, productos, y proveedores. Seleccione la plantilla **Nuevo** si desea configurar todos los parámetros desde cero. En ese caso, puede utilizar la guía de configuración asistida **Configuración de la empresa** para obtener ayuda con los datos esenciales de configuración.  
 
 > [!NOTE]  
->   Al crear una empresa nueva, tarda algunos minutos antes de tener acceso en [!INCLUDE[d365fin](includes/d365fin_md.md)]. El estado de configuración de la ventana **Empresas** muestra cuando la nueva empresa está lista. A continuación, puede cambiar a la nueva empresa mediante **Mi configuración**.  
+>   Al crear una empresa nueva, tarda algunos minutos antes de tener acceso en [!INCLUDE[d365fin](includes/d365fin_md.md)]. El estado de configuración de la página **Empresas** muestra cuando la nueva empresa está lista. A continuación, puede cambiar a la nueva empresa mediante **Mi configuración**.  
 
 Durante su prueba de 30 días, puede crear todas las nuevas empresas que desee, pero solo estarán disponibles durante la versión de prueba. Para obtener más información, póngase en contacto con su socio [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 

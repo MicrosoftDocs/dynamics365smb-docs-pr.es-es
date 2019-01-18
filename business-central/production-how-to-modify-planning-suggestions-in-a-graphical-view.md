@@ -13,18 +13,18 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3188b2d711fe983526e5ee87a7a3901b16d6eb35
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4de53621a71569579fa05092dca36d8301098ffe
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Modificar las sugerencias de planificación en una vista gráfica
 Una actividad típica de planificación consiste en cambiar o añadir líneas de la hoja de planificación para modificar los pedidos de suministros sugeridos antes de confirmarlos ejecutando la función **Ejecutar mensajes acción**. Una alternativa a hacerlo en la hoja de trabajo de planificación es utilizar una vista gráfica.
 
-En la ventana **Disponibilidad de producto por escala de tiempo**, puede modificar algunos pedidos de suministro y sugerencias si arrastra los elementos del eje x para cambiar la cantidad o si arrastra los elementos del eje y para cambiar la fecha de vencimiento.  
+En la página **Disponibilidad de producto por escala de tiempo**, puede modificar algunos pedidos de suministro y sugerencias si arrastra los elementos del eje x para cambiar la cantidad o si arrastra los elementos del eje y para cambiar la fecha de vencimiento.  
 
- En la ventana **Disponib. prod. por escala de tiempo** y **Hoja planificación** puede realizar los cambios siguientes:  
+ En la página **Disponib. prod. por escala de tiempo** y **Hoja planificación** puede realizar los cambios siguientes:  
 
 -   Modificar un pedido de suministro sugerido que solo existe como una línea de la planificación.  
 -   Modificar el pedido de suministro existente que el sistema de planificación sugiere cambiar.  
@@ -32,14 +32,14 @@ En la ventana **Disponibilidad de producto por escala de tiempo**, puede modific
 
 Para obtener más información acerca de los tipos de línea de planificación que se muestran, consulte el campo Descripción en la ficha desplegable **Cambios de eventos**.  
 
-Cuando elige **Guardar cambios** en la ventana **Disponib. prod. por escala de tiempo**, las modificaciones realizadas se copian en la hoja de planificación o demanda. Ahora puede aplicarlos con la función **Ejecutar mensajes acción.-Plan**.  
+Cuando elige **Guardar cambios** en la página **Disponib. prod. por escala de tiempo**, las modificaciones realizadas se copian en la hoja de planificación o demanda. Ahora puede aplicarlos con la función **Ejecutar mensajes acción.-Plan**.  
 
-El siguiente procedimiento muestra cómo modificar las sugerencias de suministro mediante arrastrar y soltar. Como alternativa, puede cambiar los campos **Fecha de vencimiento** y **Cantidad** en la ficha desplegable **Cambios en eventos** y ver inmediatamente los cambios gráficamente en la ficha desplegable **Escala de tiempo** en la ventana **Hoja planificación**.  
+El siguiente procedimiento muestra cómo modificar las sugerencias de suministro mediante arrastrar y soltar. Como alternativa, puede cambiar los campos **Fecha de vencimiento** y **Cantidad** en la ficha desplegable **Cambios en eventos** y ver inmediatamente los cambios gráficamente en la ficha desplegable **Escala de tiempo** en la página **Hoja planificación**.  
 
 ## <a name="to-modify-suggested-supply-orders-in-the-graphical-view"></a>Para modificar los pedidos de suministros sugeridos en la vista gráfica  
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Disponib. prod. por escala de tiempo** y luego elija el enlace relacionado.  
 
-    La ventana **Disponib. prod. por escala de tiempo** se abre con el número de producto, almacén y variante del producto en la línea seleccionada de la planificación prellenada en los campos en la ficha desplegable **Opciones**. La ficha desplegable **Escala de tiempo** muestra una representación gráfica del inventario proyectado del producto, incluidas las sugerencias de la planificación.  
+    La página **Disponib. prod. por escala de tiempo** se abre con el número de producto, almacén y variante del producto en la línea seleccionada de la planificación prellenada en los campos en la ficha desplegable **Opciones**. La ficha desplegable **Escala de tiempo** muestra una representación gráfica del inventario proyectado del producto, incluidas las sugerencias de la planificación.  
 
 2.  Asegúrese de que el campo **Incluir sugerencias de planificación** se ha seleccionado.  
 3.  Buscar los pedidos de suministro sugeridos que desea modificar. Puede identificar los elementos modificables por el círculo verde y el icono de disco. Para obtener más información acerca de los diferentes símbolos, vea la sección "Símbolos e iconos en la ficha desplegable".  
@@ -53,7 +53,7 @@ El siguiente procedimiento muestra cómo modificar las sugerencias de suministro
     |**Auto-Ajuste suministro**|Optimiza un nuevo suministro que ha creado en el gráfico para asegurarse de que da como resultado un inventario de cero antes del suministro siguiente.|  
     |**Eliminar suministro**|Elimina el elemento en la ficha desplegable **Escala de tiempo** y elimina la línea de planificación cuando elige **Guardar cambios**. El icono cambia a un disco que tiene una cruz de color rojo cuando se ha eliminado el suministro.<br /><br /> **NOTA**: Solo puede eliminar un suministro de tipo de mensajes de acción **Nuevo**. Después de elegir **Guardar cambios**, debe eliminar manualmente la línea de planificación en cuestión en la hoja de planificación o demanda.|  
 
-7.  Seleccione la acción **Volver a cargar** si desea restablecer todos los cambios realizados después de la última vez que abrió la ventana **Disponibilidad de producto por escala de tiempo** o seleccionado **Volver a cargar**.  
+7.  Seleccione la acción **Volver a cargar** si desea restablecer todos los cambios realizados después de la última vez que abrió la página **Disponibilidad de producto por escala de tiempo** o seleccionado **Volver a cargar**.  
 8. Cuando se colocan los elementos donde desea en el diagrama, seleccione **Guardar cambios** para copiar la cantidad modificada y la fecha cambiada en las líneas de planificación o demanda que representan los elementos gráficos.  
 
 Para implementar los cambios del plan de suministro, debe seguir los mensajes de acción resultantes de la hoja de planificación o demanda. Para obtener más información, consulte Ejecutar mensajes acción.-Plan..

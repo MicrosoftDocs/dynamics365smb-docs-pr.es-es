@@ -13,16 +13,16 @@ ms.search.keywords: project management, material, purchase
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 95e2a1938585f1ce68e8c1ae51b8a85596fe44e5
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 68505a6507901511578dc3672de013175a3e36ef
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="manage-job-supplies"></a>Administración de suministros de proyecto
 La administración de los suministros de los productos, servicios y gastos de un proyecto es un aspecto clave y fundamental de la ejecución de todos los proyectos. Puede utilizar las cantidades de inventario o realizar compras de proyecto mediante pedidos de compra o facturas de compra. Por ejemplo, un proyecto de servicio en un equipo precisa un disco nuevo. Debe crear una factura de compra para comprar un disco nuevo y registrar el proyecto en el que se va a usar.
 
-Si el proceso de compra no requiere que la transacción física de registre por separado, se puede procesar una compra en la ventana **Diario general proyecto**. Para obtener más información, consulte [Registro del uso para proyectos](projects-how-record-job-usage.md).
+Si el proceso de compra no requiere que la transacción física de registre por separado, se puede procesar una compra en la página **Diario general proyecto**. Para obtener más información, consulte [Registro del uso para proyectos](projects-how-record-job-usage.md).
 
 ## <a name="to-purchase-items-or-services-for-a-job"></a>Para comprar productos o servicios para un proyecto
 El siguiente procedimiento muestra cómo utilizar una factura de compra para comprar productos de un proyecto. Los mismos pasos se aplican al utilizar un pedido de compra.  
@@ -41,10 +41,10 @@ El siguiente procedimiento muestra cómo utilizar una factura de compra para com
     En la ficha desplegable **Tareas**, el campo **Pedidos pendientes** muestra el importe total de los pedidos en divisa local, los productos y servicios de inventario en los documentos de compras de la línea de tarea de proyecto.  
 
     El campo **Importe recibido no facturado** muestra el valor de los productos entregados en un documento de compra pero que no están facturados.  
-3. Seleccione cualquier de los campos para abrir la ventana **Líns. compra** donde puede revisar la información sobre las líneas de documento de compra, incluyendo qué productos o servicios se han recibido.
+3. Seleccione cualquier de los campos para abrir la página **Líns. compra** donde puede revisar la información sobre las líneas de documento de compra, incluyendo qué productos o servicios se han recibido.
 
 ## <a name="to-post-a-job-related-expense"></a>Para registrar un gasto relacionado con el proyecto
-Si tiene costes de proyecto extraordinarios o únicos, puede utilizar la ventana **Diario general proyecto** para enviarlos directamente a la cuenta de proyecto relevante.
+Si tiene costes de proyecto extraordinarios o únicos, puede utilizar la página **Diario general proyecto** para enviarlos directamente a la cuenta de proyecto relevante.
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diarios generales proyecto** y luego elija el enlace relacionado.  
 2. Cree una línea nueva y especifique los datos del gasto, incluidos los campos **Nº proyecto** y **Nº tarea proyecto**.  

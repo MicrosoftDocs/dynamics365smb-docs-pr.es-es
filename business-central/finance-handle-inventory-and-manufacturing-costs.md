@@ -1,6 +1,6 @@
 ---
 title: "Administrar existencias y costes de fabricación | Documentos de Microsoft"
-description: "Aunque la mayoría de las funciones de contabilidad de costes se llevan a cabo mediante procesos subyacentes que no requieren la interacción del usuario, tales como la liquidación de movimientos y el ajuste automático de costes, existen varios campos, ventanas e informes destinados a los usuarios que administran directa o indirectamente el coste de los productos o las operaciones."
+description: "Aunque la mayoría de las funciones de contabilidad de costes se llevan a cabo mediante procesos subyacentes que no requieren la interacción del usuario, tales como la liquidación de movimientos y el ajuste automático de costes, existen varios campos, páginas e informes destinados a los usuarios que administran directa o indirectamente el coste de los productos o las operaciones."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 463902077313b09391c42f4d44fde11be08bdd02
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 27c036dac88bce71ecfefa064d05ac3cdd8e8225
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="handling-inventory-and-manufacturing-costs"></a>Administración de existencias y costes de fabricación
-Aunque la mayoría de las funciones de contabilidad de costes se llevan a cabo mediante procesos subyacentes que no requieren la interacción del usuario, tales como la liquidación de movimientos y el ajuste automático de costes, existen varios campos, ventanas e informes destinados a los usuarios que administran directa o indirectamente el coste de los productos o las operaciones.  
+Aunque la mayoría de las funciones de contabilidad de costes se llevan a cabo mediante procesos subyacentes que no requieren la interacción del usuario, tales como la liquidación de movimientos y el ajuste automático de costes, existen varios campos, páginas e informes destinados a los usuarios que administran directa o indirectamente el coste de los productos o las operaciones.  
 
  La asignación de cargos de los productos a documentos de compra es un ejemplo de una tarea indirecta de contabilidad de costes. La actualización del coste unitario de un ensamblaje o producto de L.M. es un ejemplo de una tarea de contabilidad de costes más directa.  
 

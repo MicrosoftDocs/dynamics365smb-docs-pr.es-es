@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 917887deae163a76b233e1635344e537806f6215
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3e2357766d514f30e42869a4f10ede1e66a6fec1
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="using-the-same-office-365-account-in-included365finincludesd365finlongmdmd-and-microsoft-invoicing"></a>Con la misma cuenta de Office 365 en [!INCLUDE[d365fin](includes/d365fin_long_md.md)] y Microsoft Invoicing
@@ -32,7 +32,7 @@ Por lo tanto, tendrá que iniciar sesión en [!INCLUDE[d365fin](includes/d365fin
 ### <a name="to-rename-your-company"></a>Para cambiar el nombre de su empresa
 1.  Inicie sesión en su [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 2.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Empresas** y luego elija el enlace relacionado.  
-3.  En la ventana **Empresas**, seleccione el botón **Editar lista**.  
+3.  En la página **Empresas**, seleccione el botón **Editar lista**.  
 4.  Cambiar el nombre de la entrada *Mi empresa* por otro distinto.  
 
     Espere unos minutos. Realizaremos varios cambios en la base de datos subyacente y este proceso suele llevar un tiempo.

@@ -14,10 +14,10 @@ ms.date: 11/13/2018
 ms.author: sgroespe
 redirect_url: finance-define-and-allocate-costs
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0f49faba7360ccf2e93ab62176752a503335f3f1
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d8eb48485f0889f4f10931c6642090f8290fe393
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-allocation-source-and-targets"></a>Configurar origen de asignación y destinos
@@ -25,7 +25,7 @@ Cada asignación está formada por un origen de asignación y uno o varios desti
 
 ## <a name="to-set-up-cost-allocations"></a>Para configurar asignaciones de coste  
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Asignación costes** y luego elija el enlace relacionado.  
-2.  En la ventana **Asignación costes**, elija la acción **Editar**.  
+2.  En la página **Asignación costes**, elija la acción **Editar**.  
 3.  Especifique un identificador para el origen de asignación en el campo **ID**.  
 4.  Defina un nivel como un número entre 1 y 99 en el campo **Nivel**. El registro de la asignación seguirá el orden de los niveles.  
 5.  Escriba un tipo de coste para definir qué tipos de coste se asignarán en el campo **Intervalo tipo coste**. Si todos los costes de un tipo de coste se asignan, no se define ningún intervalo.  

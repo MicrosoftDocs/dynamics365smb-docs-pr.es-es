@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6ebfc4fa7881bf94d243221578c704d3d4efe59f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5dd5d2ce26a06396aae52318f6d88fb674dd883e
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="export-account-schedules-to-asc-format"></a>Exportar esquemas de cuentas a formato ASC
@@ -30,9 +30,9 @@ Los datos del esquema de cuentas se pueden exportar a un formato de archivo digi
 ## <a name="to-export-account-schedules-into-asc-format"></a>Para exportar esquemas de cuentas a formato ASC  
 
 1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Esquemas de cuentas** y, a continuación, seleccione el vínculo relacionado.  
-2.  En la ventana **Nombres esquemas de cuentas**, seleccione el nombre del esquema de cuentas correspondiente y después seleccione **Editar esquema cuentas**.  
-3.  En la ventana **Esquema cuentas**, seleccione la acción **Exp. esq. ctas. a formato ASC**.  
-4.  En la ventana **Exp. esq. ctas. a formato ASC**, en la ficha desplegable **Opciones**, escriba la información en los campos relevantes.  
+2.  En la página **Nombres esquemas de cuentas**, seleccione el nombre del esquema de cuentas correspondiente y después seleccione **Editar esquema cuentas**.  
+3.  En la página **Esquema cuentas**, seleccione la acción **Exp. esq. ctas. a formato ASC**.  
+4.  En la página **Exp. esq. ctas. a formato ASC**, en la ficha desplegable **Opciones**, escriba la información en los campos relevantes.  
 5.  Elija el botón **Aceptar**.  
   
 ## <a name="see-also"></a>Consulte también  

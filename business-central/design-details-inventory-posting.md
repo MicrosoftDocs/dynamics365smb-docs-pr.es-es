@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f9f93fcf80524f18c9ff83b74d64231d1a033bae
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 80c2912836d8f11a8e3cf869b9412ad9ed66ca54
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-inventory-posting"></a>Detalles de diseño: Registro de inventario
@@ -29,7 +29,7 @@ Cada transacción de inventario, como un albarán de compra o un albarán de ven
 
  En relación con registros de cantidad, hay movimientos de liquidación de productos para vincular la entrada de existencias con la salida de existencias. Esto permite el motor de valoración desvíe los costes de las entradas a las salidas relacionadas, y viceversa. Para obtener más información, consulte [Detalles de diseño: Liquidación de productos](design-details-item-application.md).  
 
- Los movimientos de producto, los movimientos de valoración y los movimientos de liquidación de producto se crean como resultado del registro de una línea del diario de productos, ya sea indirectamente mediante el registro de una línea de pedido o directamente en la ventana Diario productos.  
+ Los movimientos de producto, los movimientos de valoración y los movimientos de liquidación de producto se crean como resultado del registro de una línea del diario de productos, ya sea indirectamente mediante el registro de una línea de pedido o directamente en la página Diario productos.  
 
  Las entradas de valores que se crean en el inventario físico se registran en intervalos regulares en la contabilidad para conciliar las dos contabilidades para efectos de control financiero. Para obtener más información, consulte [Detalles de diseño: Conciliación con contabilidad](design-details-reconciliation-with-the-general-ledger.md).  
 

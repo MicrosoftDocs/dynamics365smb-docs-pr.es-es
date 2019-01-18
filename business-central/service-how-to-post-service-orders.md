@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2b62ab8062c5c93bbf67b6949397d18556b8cf78
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a6554708a40b50275a88a0c414be51cc99ccda85
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="post-service-orders-and-credit-memos"></a>Registrar abonos y órdenes de servicio
@@ -30,7 +30,7 @@ Si tiene un gran número de pedidos de servicio, puede ahorrar mucho tiempo si u
 ## <a name="to-post-a-service-order"></a>Para registrar un pedido de servicio    
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos servicio** y luego elija el enlace relacionado.  
 2. Abra el pedido servicio que corresponda.  
-3. En la ventana **Pedido servicio**, seleccione una de las acciones siguientes.  
+3. En la página **Pedido servicio**, seleccione una de las acciones siguientes.  
   
     |**Acción**|**Resultado**|  
     |------------------|----------------|  
@@ -91,13 +91,13 @@ Tras especificar los detalles de un servicio, puede actualizar y registrar las c
   
 El siguiente procedimiento muestra cómo registrar el envío de artículos de línea de servicio en ubicaciones en las que no se requiera control de almacén.  
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedido servicio** y luego elija el enlace relacionado. 2. En la ventana del pedido de servicio seleccionado, elija **Acciones**, **Pedido**, **Líneas servicio**.  
-3. En la ventana **Líneas servicio**, busque los movimientos requeridos y especifique la cantidad que se va a registrar en el campo **Cantidad a enviar**.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedido servicio** y luego elija el enlace relacionado. 2. en la página del pedido de servicio seleccionado, elija **Acciones**, **Pedido**, **Líneas servicio**.  
+3. En la página **Líneas servicio**, busque los movimientos requeridos y especifique la cantidad que se va a registrar en el campo **Cantidad a enviar**.  
   
    > [!NOTE]  
    >  El valor de la cantidad para enviar depende de si desea registrar el envío total o parcialmente. Si decide enviarlo totalmente, el valor del campo **Cantidad a enviar** debe ser igual que el valor del campo **Cantidad**. Cuando registra un envío parcial, debe especificar la cantidad que desea enviar inicialmente. Si ya ha enviado parte del servicio incluido en el pedido, anote el valor en el campo **Cantidad enviada**. La máxima cantidad que se puede especificar en el campo **Cantidad a enviar** es el número de unidades que aún no se han enviado.  
   
-4. Elija **Acciones**, **Registro** y, a continuación, en **Registrar**. En la ventana que aparece, elija **Enviar**.  
+4. Elija **Acciones**, **Registro** y, a continuación, en **Registrar**. en la página que aparece, elija **Enviar**.  
   
 [!INCLUDE[d365fin](includes/d365fin_md.md)] crea los movimientos (de garantía, de producto, de servicio o de cuenta), genera el documento de envío de servicio registrado y actualiza los campos pertinentes en las líneas de servicio del pedido de servicio.  
   

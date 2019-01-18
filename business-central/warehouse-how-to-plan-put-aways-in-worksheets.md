@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f6ef554270c9e2bdef8074b65ba6e3f0de4bd45c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e0674c0c308cd83de8a6977e05445c22009f513c
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Planificar ubicaciones en hojas de trabajo
@@ -29,12 +29,12 @@ Si no selecciona este campo, el programa creará automáticamente instrucciones 
 > [!NOTE]  
 >  Independientemente del estado del campo **Utiliza hoj. trab. ubicación** de la ficha de almacén, siempre puede traer líneas de la instrucción de ubicación, es decir, líneas de la recepción registrada, a la hoja de trabajo de ubicación si hace lo siguiente:  
 >   
->  1.  En la ventana **Ubicar almacén**, pulse Ctrl+D para eliminar toda la instrucción de ubicación o seleccione las líneas que desea procesar en la hoja de trabajo y elimínelas.  
+>  1.  En la página **Ubicar almacén**, pulse Ctrl+D para eliminar toda la instrucción de ubicación o seleccione las líneas que desea procesar en la hoja de trabajo y elimínelas.  
 > 2.  Continúe el proceso de tantas ubicaciones como desee, hasta que haya eliminado todas las líneas con las que no desee trabajar en la hoja de trabajo. Ahora seleccione **Hojas trab. ubicación** y realice la planificación.  
 
 ## <a name="to-plan-instructions-in-the-put-away-worksheet"></a>Para planificar instrucciones en la hoja de trabajo de ubicación  
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hoja trabajo ubic.** y luego elija el enlace relacionado.  
-2.  Seleccione la acción **Traer documentos almacén**. Se abre la ventana **Selección ubicación**.  
+2.  Seleccione la acción **Traer documentos almacén**. Se abre la página **Selección ubicación**.  
 
     Vea las recepciones registradas y las ubicaciones internas registradas que se han pasado a la función de ubicación, incluidas aquellas para las que ya se han creado instrucciones de ubicación. Los documentos con líneas de ubicación que ya se han ubicado y registrado completamente no se muestran en la lista.  
 
@@ -54,7 +54,7 @@ Si no selecciona este campo, el programa creará automáticamente instrucciones 
     > [!NOTE]  
     >  Las líneas eliminadas sólo se borrar de esta hoja de trabajo, no de la lista de selección de ubicación.  
 
-7.  Seleccione la acción **Crear ubicación**. Se abre la ventana **Crear documento**, donde puede agregar más información a la ubicación que está creando de la siguiente forma:  
+7.  Seleccione la acción **Crear ubicación**. Se abre la página **Crear documento**, donde puede agregar más información a la ubicación que está creando de la siguiente forma:  
 
     -   Puede asignar la ubicación a un empelado determinado.  
     -   Puede ordenar las líneas de la instrucción de ubicación como lo hizo en la hoja de trabajo o por ranking de ubicación. Cuando ordene según el ranking de ubicación, las líneas Traer se muestran primero, ya que las ubicaciones de la mayoría de las recepciones tienen un ranking de ubicación con el valor 0 y las líneas Colocar aparecen al final, empezando con las ubicaciones con el ranking de ubicación inferior. Si ha estructurado el almacén para que las ubicaciones de ranking similar estén unas al lado de otras, la ordenación de las líneas de esta forma finalmente ahorrará muchos pasos a los empleados de almacén.  

@@ -1,6 +1,6 @@
 ---
 title: "Administrar plantillas de notificación | Documentos de Microsoft"
-description: "Las notificaciones se envían a los usuarios del flujo de trabajo para notificarles los pasos que deben realizar o informarles acerca del estado de los pasos del flujo de trabajo. Configure quién y cuándo recibe la notificación mediante la configuración de usuarios de aprobación, la programación de notificaciones de los usuarios y respuestas correspondientes del flujo de trabajo para definir al destinatario de las notificaciones. Para obtener más información, consulte [Configurar notificaciones de flujo de trabajo](across-setting-up-workflow-notifications.md)."
+description: "Las notificaciones se envían a los usuarios del flujo de trabajo para notificarles los pasos que deben realizar o informarles acerca del estado de los pasos del flujo de trabajo. Configure quién y cuándo recibe la notificación mediante la configuración de usuarios de aprobación, la programación de notificaciones de los usuarios y respuestas correspondientes del flujo de trabajo para definir al destinatario de las notificaciones."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/08/2018
 ms.author: sgroespe
+redirect_url: across-how-to-specify-when-and-how-to-receive-notifications
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 31a6cd72e7e7c3fda27803a995b7282c8a2c3751
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6c84e5e9e0284249ee7be3f92a82cca2a2fbb3d5
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="manage-notification-templates"></a>Administrar las plantillas de notificación
@@ -28,7 +29,7 @@ Las notificaciones se envían a los usuarios del flujo de trabajo para notificar
 
 ## <a name="to-create-a-new-notification-template"></a>Para crear una plantilla de notificación nueva  
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Plantillas de notificación** y luego elija el enlace relacionado.  
-2.  En la ventana **Plantillas de notificación**, elija la acción **Nuevo**.  
+2.  En la página **Plantillas de notificación**, elija la acción **Nuevo**.  
 3.  Rellene los campos tal como se describe en la tabla siguiente.  
 
     |Campo|Description|  
@@ -41,9 +42,9 @@ Las notificaciones se envían a los usuarios del flujo de trabajo para notificar
 
 ## <a name="to-modify-a-notification-template"></a>Para modificar una plantilla de notificación  
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Plantillas de notificación** y luego elija el enlace relacionado.  
-2.  En la ventana **Plantillas de notificación**, seleccione la plantilla de notificación que desea modificar.  
+2.  En la página **Plantillas de notificación**, seleccione la plantilla de notificación que desea modificar.  
 3.  Seleccione la acción **Exportar contenido de la plantilla**.  
-4.  En la ventana **Exportar archivo**, seleccione el botón **Guardar** y, a continuación, asigne un nombre al archivo HTML y guárdelo en una ubicación adecuada.  
+4.  En la página **Exportar archivo**, seleccione el botón **Guardar** y, a continuación, asigne un nombre al archivo HTML y guárdelo en una ubicación adecuada.  
 5.  Haga clic con el botón secundario en el archivo, seleccione **Abrir con** y, a continuación, elija el programa correspondiente.  
 
     > [!NOTE]  
@@ -51,14 +52,14 @@ Las notificaciones se envían a los usuarios del flujo de trabajo para notificar
 6.  Edite el contenido de la plantilla de notificación agregando, cambiando o quitando las variables de parámetro para definir el contenido que desee y, a continuación, guárdela. Para obtener más información, vea la sección “Contenido de las plantillas de notificación”.  
 
     Continúe con la importación del contenido modificado en la misma plantilla de notificación o en una nueva.  
-7.  Para modificar la plantilla de notificación que ha exportado, en la ventana **Plantillas de notificación**, elija la plantilla seleccionada en el paso 2.  
+7.  Para modificar la plantilla de notificación que ha exportado, en la página **Plantillas de notificación**, elija la plantilla seleccionada en el paso 2.  
 
     Además, para importar el contenido modificado de la plantilla en una nueva plantilla de notificación, siga el procedimiento “Para crear una plantilla de notificación nueva” y seleccione la nueva plantilla de notificación.  
 8.  Seleccione la acción **Importar contenido de la plantilla**.  
 9. Si está modificando una plantilla de notificación existente, elija el botón **Sí** en el mensaje acerca de la sobrescritura de la plantilla existente.  
-10. En la ventana **Seleccionar un archivo para importar**, elija el archivo HTML que ha modificado en el paso 6 y, a continuación, seleccione el botón **Abrir**.  
+10. En la página **Seleccionar un archivo para importar**, elija el archivo HTML que ha modificado en el paso 6 y, a continuación, seleccione el botón **Abrir**.  
 
-La plantilla de notificación existente o nueva en la ventana **Plantillas de notificación** ahora se actualiza con el contenido modificado.  
+La plantilla de notificación existente o nueva en la página **Plantillas de notificación** ahora se actualiza con el contenido modificado.  
 
 ### <a name="content-of-the-notification-templates"></a>Contenido de las plantillas de notificación  
 Los tres tipos de plantilla de notificación, **Registro nuevo**, **Aprobación** y **Vencidos**, tienen contenido diferente.  

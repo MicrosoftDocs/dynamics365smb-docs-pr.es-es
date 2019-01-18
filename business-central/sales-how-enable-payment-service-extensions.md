@@ -11,10 +11,10 @@ ms.search.keywords: online payment
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 883eb47f59a060befc67bdb702053810517fb5a2
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: eac58a651989fff8b1d2cc6b6dbed2a380ae8ef8
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="enable-customer-payments-through-payment-services"></a>Permitir los pagos de clientes mediante servicios de pago
@@ -26,11 +26,11 @@ Las extensiones Microsoft Pay, Paypal Payments Standard y WorldPay Payments Stan
 
 ## <a name="to-enable-a-payment-service-in-included365finincludesd365finmdmd"></a>Para activar un servicio de pago en [!INCLUDE[d365fin](includes/d365fin_md.md)]
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Servicio de pago** y luego elija el enlace relacionado.  
-2. En la ventana **Servicios de pago**, seleccione la acción **Nuevo**.  
-3. Seleccione el servicio de pago y luego cierre la ventana.  
-4. En la ventana **Servicios de pago**, seleccione la acción **Configuración**.  
+2. En la página **Servicios de pago**, seleccione la acción **Nuevo**.  
+3. Seleccione el servicio de pago y luego cierre la página.  
+4. En la página **Servicios de pago**, seleccione la acción **Configuración**.  
 5. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-6. Cierre la ventana.  
+6. Cierre la página.  
 
 ## <a name="to-select-a-payment-service-on-a-sales-invoice"></a>Para seleccionar un servicio de pago en una factura de ventas
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Facturas ventas** y luego elija el enlace relacionado.  

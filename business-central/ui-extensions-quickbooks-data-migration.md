@@ -11,29 +11,53 @@ ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 583f6947acd3778710f0889736439322d9179ce6
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 30944a42746d9538e245f8970a8cb76423bc9c59
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
+
 # <a name="the-quickbooks-data-migration-extension"></a>Extensión de la migración de datos de QuickBooks
 Esta extensión facilita la migración de clientes, proveedores, productos y cuentas de QuickBooks a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Si la empresa usa QuickBooks actualmente, puede exportar la información correspondiente y después abrir una guía de instalación asistida para cargar los datos en [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 Para obtener más información, vea [Importar datos empresariales desde otros sistemas financieros](across-import-data-configuration-packages.md).
 
-## <a name="exporting-data-from-quickbooks-desktop"></a>Exportar datos desde QuickBooks Desktop
-Debe haber exportado algunos o todos los clientes, proveedores, productos de inventario y cuentas existentes a un archivo IIF (Intuit Interchange Format). La extensión de la migración de datos de QuickBooks incluye una asociación predeterminada de datos de QuickBooks para que pueda usar sus datos existentes para probar su nueva empresa [!INCLUDE[d365fin](includes/d365fin_md.md)]. La asignación predeterminada será suficiente en la gran mayoría de casos, pero puede cambiar la asignación en la guía de configuración asistida.  
-En QuickBooks, el menú Archivo incluye una utilidad para exportar listas. Para las finalidades de [!INCLUDE[d365fin](includes/d365fin_md.md)], puede exportar las listas siguientes:
+## <a name="data-from-quickbooks-desktop"></a>Datos desde QuickBooks Desktop
+ 
+Desde QuickBooks Online puede importar a Business Central los datos siguientes:
 
-* Lista de clientes  
-* Lista de proveedores  
-* Lista de productos  
-* Lista de cuentas  
+- Clientes  
+- Proveedores  
+- Productos  
+- Plan de cuentas  
+- Comienzo de la transacción de saldo en el libro mayor  
+- Cantidad disponible de productos de inventario  
+- Documentos pendientes para clientes y proveedores, como facturas, abonos y pagos  
 
-Los datos exportados se guardan como un archivo IIF que, a continuación, puede cargar a [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Migramos únicamente los importes totales de los documentos de ventas y compras. No actualizamos importes pagados parcialmente. Por ejemplo, si un cliente ha pagado 300 de un total de 500 dólares en una factura de venta, migramos la cantidad total de 500. Si ha recibido pagos parciales, debe actualizarlos manualmente, antes o después de migrar los datos. Le recomendamos que aplique las transacciones pendientes antes de migrar, simplemente para facilitar las cosas.
+
+> [!NOTE]
+> No migramos pedidos de compra o venta.
+
+## <a name="before-you-start"></a>Antes de comenzar
+Una parte importante del proceso de migración es especificar las cuentas a las que se deben migrar las transacciones. Conviene planificar esta asignación antes de migrar los datos. Por ejemplo, las cuentas en la que registre transacciones de:
+
+- La venta de productos o servicios a los clientes  
+- La compra de productos o servicios a proveedores  
+- Ajustes en el libro mayor  
+Business Central requiere que las cuentas del libro mayor tengan números de cuenta asignados. Asegúrese de que los números de cuenta están asignados a las cuentas de QuickBooks Online.
+Si las transacciones en QuickBooks Online tienen impuestos, debe configurar una cuenta de impuestos para sus jurisdicciones fiscales en Business Central antes de poder registrar las transacciones.
+
+Para extraer sus datos de la aplicación QuickBooks Desktop necesitará descargar la herramienta Microsoft Data Exporter Tool.  Las instrucciones de la herramienta se encuentran en el Asistente para la migración de los datos de [!INCLUDE[d365fin](includes/d365fin_md.md)]. La herramienta se conectará a su aplicación QuickBooks y exportará los datos correspondientes a un archivo *.zip.  
 
 ## <a name="finding-the-quickbooks-data-migration-extension"></a>Buscar la extensión de la migración de datos de QuickBooks
 La extensión de la migración de datos de QuickBooks está instalada y lista como parte integrada de la guía de configuración asistida de la migración de datos. Si está preparado para empezar ahora y ha exportado sus datos de QuickBooks, elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), introduzca **Configuración asistida** y, a continuación, haga clic el vínculo relacionado. Seleccione **Migrar los datos empresariales**y, a continuación, siga los pasos en la guía.  
+
+## <a name="what-do-i-do-after-i-migrate-data"></a>¿Qué hago después de la migración de datos?
+Una vez haya migrado los datos, las transacciones muestran el estado No registrado, para que pueda revisarlas y crear ajustes. Para revisar las transacciones, vaya a la página donde están normalmente. Por ejemplo, para revisar facturas de ventas no registradas, vaya a la página Facturas de ventas. Para revisar las diario de pagos, vaya a la página Diario de pagos.
+Hay algunas acciones concretas que debe realizar: si las transacciones de QuickBooks tenían importes de descuento o bonificación, debe agregar manualmente los importes a las transacciones relacionadas en Business Central antes de registrarlas.
+Si está utilizando el impuesto sobre el valor añadido (IVA), es posible que tenga que agregar un grupo de contable de negocio y un grupo contable de productos a la configuración de grupos contables para poder contabilizar importes de IVA.
+Verifique los saldos iniciales de las cuentas en el libro mayor. QuickBooks no almacena el saldo actual de todas las cuentas, por lo que es posible que tenga que corregir los saldos iniciales.
 
 ## <a name="see-also"></a>Consulte también
 [Importar datos de empresa de otros sistemas financieros](across-import-data-configuration-packages.md)  

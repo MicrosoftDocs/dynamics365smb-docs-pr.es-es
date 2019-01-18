@@ -13,10 +13,10 @@ ms.search.keywords: VAT, sales, purchases,
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0abbc8f6d7aa80a7a89296568d9a4ecb0ead0f5f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9d6f3cf74582283e633d9c3347def5289aeb8f88
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Trabajar con el IVA por ventas y compras
@@ -39,7 +39,7 @@ Si el campo no está activado, el programa rellenará los campos **Precio de ven
 
 Puede configurar el valor predeterminado de **Precios IVA incluido** de todos los documentos de venta de un cliente en el campo **Precios IVA incluido** de la ficha **Cliente**. También puede configurar los precios de los productos con el IVA incluido o no incluido. Normalmente, los precios de los productos de la ficha Producto no incluirán el IVA. El programa usa la información del campo **Precio IVA incluido** de la ficha **Producto** para determinar el precio de venta de los documentos de ventas.  
 
-En la tabla siguiente se ofrece una descripción global de cómo calcula el sistema los precios unitarios de los documentos de ventas cuando no se han configurado los precios en la ventana **Precios de venta**:  
+En la tabla siguiente se ofrece una descripción global de cómo calcula el sistema los precios unitarios de los documentos de ventas cuando no se han configurado los precios en la página **Precios de venta**:  
 
 |**Campo Precio IVA incluido de la ficha Producto**|**Campo Precio IVA incluido de la Cabecera Venta**|**Acción realizada**|  
 |-----------------------------------------------|----------------------------------------------------|--------------------------|  
@@ -56,8 +56,8 @@ Aunque puede haber configurado una o varias combinaciones para administrar el im
 Si el descuento por pronto pago se ha calculado sobre la base de un importe de factura que incluye IVA, revierta la parte de descuento del importe del IVA cuando se conceda el descuento. Observe que debe activar el campo **Ajuste para dto. P.P.**, tanto en la configuración de la contabilidad en general como en la configuración de los grupos de registro de IVA para las combinaciones específicas de grupo de registro de IVA por negocio y grupo de registro de IVA por producto.  
 
 #### <a name="to-manually-enter-vat-in-sales-documents"></a>Para introducir manualmente el IVA en los documentos de venta  
-1. En la ventana **Configuración contabilidad**, especifique una **Máx. diferencia IVA permitida** el importe calculado por el programa y el importe manual.  
-2. En la ventana **Config. ventas y cobros**, active el campo **Permitir diferen. IVA**.  
+1. En la página **Configuración contabilidad**, especifique una **Máx. diferencia IVA permitida** el importe calculado por el programa y el importe manual.  
+2. En la página **Config. ventas y cobros**, active el campo **Permitir diferen. IVA**.  
 
 #### <a name="to-adjust-vat-for-a-sales-document"></a>Para ajustar el IVA de un documento de venta  
 1. Abra el pedido de venta correspondiente.  
@@ -71,11 +71,11 @@ Si el descuento por pronto pago se ha calculado sobre la base de un importe de f
 También puede ajustar los importes de IVA en general, ventas y diarios de compras. Por ejemplo, podría ser necesario si introduce una factura de proveedor en el diario y hay una diferencia entre el importe del IVA calculado por [!INCLUDE[d365fin](includes/d365fin_md.md)] y el de la factura del proveedor.  
 
 #### <a name="before-you-manually-enter-vat-on-a-general-journal"></a>Antes de introducir manualmente el IVA en un diario general  
-1. En la ventana **Configuración contabilidad**, especifique una **Máx. diferencia IVA permitida** el importe calculado por el programa y el importe manual.  
-2. En la ventana **Libros diario general**, elija la casilla **Permitir diferen. IVA** del diario correspondiente.  
+1. En la página **Configuración contabilidad**, especifique una **Máx. diferencia IVA permitida** el importe calculado por el programa y el importe manual.  
+2. En la página **Libros diario general**, elija la casilla **Permitir diferen. IVA** del diario correspondiente.  
 
 #### <a name="before-you-manually-enter-vat-on-sales-and-purchase-journals"></a>Para poder introducir manualmente el IVA en un diario de compras o ventas  
-1. En la ventana **Conf. compras y pagos**, seleccione la casilla **Permitir diferen. IVA**.  
+1. En la página **Conf. compras y pagos**, seleccione la casilla **Permitir diferen. IVA**.  
 2. Cuando haya completado las acciones descritas, puede ajustar el campo **Importe IVA** de la línea del diario general, o el campo **Importe IVA contrap.** de la línea del diario de ventas o compras. [!INCLUDE[d365fin](includes/d365fin_md.md)] comprobará que la diferencia no sea mayor que el máximo especificado.  
   
     > [!NOTE]  
@@ -117,7 +117,7 @@ Cuando se venden productos a un cliente en otro país o región de la UE, debe e
    Cuando se actualiza el campo **Estado** a **Requerido**, **Recibido** o **No recibido**, se crea un certificado.  
   
     > [!TIP]  
-    >  Puede utilizar la ventana **Certificados de suministro** para obtener una vista el estado de todos los envíos registrados para los que se haya creado un certificado de suministro.  
+    >  Puede utilizar la página **Certificados de suministro** para obtener una vista el estado de todos los envíos registrados para los que se haya creado un certificado de suministro.  
 
 5. Elija **Imprimir certificado de suministro**.  
   
@@ -130,15 +130,15 @@ Cuando se venden productos a un cliente en otro país o región de la UE, debe e
 3. Elija la acción **Imprimir certificado de suministro**.  
 
     > [!NOTE]  
-    >  También puede imprimir un certificado desde la ventana **Certificado de suministro**.  
+    >  También puede imprimir un certificado desde la página **Certificado de suministro**.  
 
 4. Para incluir la información de las líneas en el documento de envío en el certificado, seleccione la casilla **Imprimir detalles de línea**.  
 5. Elija la casilla **Crear certificados de suministro si no se han creado** para que [!INCLUDE[d365fin](includes/d365fin_md.md)] cree certificados para envíos registrados que no tengan ninguno en el momento de ejecutarse. Cuando elije la casilla, se crearán los nuevos certificados para todos los envíos registrados que no tengan certificados dentro del rango seleccionado.  
 6. De forma predeterminada, la configuración de filtro corresponde al documento de envío seleccionado. Rellene la información de filtro para seleccionar un certificado de suministro específico que desee imprimir.  
-7. En la ventana **Certificado de suministro**, elija la acción **Imprimir** para imprimir el informe o elija la acción **Vista preliminar** para verlo en la pantalla.  
+7. En la página **Certificado de suministro**, elija la acción **Imprimir** para imprimir el informe o elija la acción **Vista preliminar** para verlo en la pantalla.  
 
     > [!Note]  
-    > El campo **Estado certificado de suministro** y el campo **Impreso** se actualizan para el envío en la ventana **Certificados de suministro**.  
+    > El campo **Estado certificado de suministro** y el campo **Impreso** se actualizan para el envío en la página **Certificados de suministro**.  
 
 8. Envíe el certificado de suministro impreso al cliente para su firma.  
 
@@ -153,7 +153,7 @@ Cuando se venden productos a un cliente en otro país o región de la UE, debe e
 
    Si el cliente no devuelve el certificado de suministro firmado, elija **No recibido**. Deberá entonces enviar al cliente una nueva factura que lleve IVA incluido, porque la autoridad fiscal no aceptará la factura original.  
 
-Para ver un grupo de certificados, desde la ventana **Certificados de suministro** actualice la información sobre el estado de los certificados pendientes a medida que los reciba de sus clientes. Esto puede ser útil para buscar todos los certificados con un determinado estado, por ejemplo, **Requerido**, cuyo estado desee actualizar a **No recibido**.  
+Para ver un grupo de certificados, desde la página **Certificados de suministro** actualice la información sobre el estado de los certificados pendientes a medida que los reciba de sus clientes. Esto puede ser útil para buscar todos los certificados con un determinado estado, por ejemplo, **Requerido**, cuyo estado desee actualizar a **No recibido**.  
 
 ### <a name="to-update-the-status-of-a-group-of-certificates-of-supply"></a>Para actualizar el estado de un grupo de certificados de suministro  
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Certificados de suministro** y elija el enlace relacionado.  
@@ -166,7 +166,7 @@ Para ver un grupo de certificados, desde la ventana **Certificados de suministro
    Puede modificar la fecha para reflejar la fecha en la que se recibió el certificado de suministro firmado. También puede agregar un vínculo al certificado firmado con el sistema estándar de vinculación de documentos [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
     > [!NOTE]  
-    >  No puede crear un certificado de suministro nuevo en la ventana **Certificado de suministro** mientras se navega a él con este procedimiento. Para crear certificados para envíos no configurados para requerirlos, abra el albarán de venta y siga cualquiera de los dos procedimientos descritos antes:  
+    >  No puede crear un certificado de suministro nuevo en la página **Certificado de suministro** mientras se navega a él con este procedimiento. Para crear certificados para envíos no configurados para requerirlos, abra el albarán de venta y siga cualquiera de los dos procedimientos descritos antes:  
     >   
     > * Para crear manualmente un certificado de suministro  
     > * Para imprimir certificado de suministro.

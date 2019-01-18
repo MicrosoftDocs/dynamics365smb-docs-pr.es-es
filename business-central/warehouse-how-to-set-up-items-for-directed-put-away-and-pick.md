@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 37c8f69f7cac8155bf45ab02dc8908249a0ace71
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0f69cfc3257de42aacf01c26090230350f83dfba
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a>Configurar productos y almacenes para ubicaciones y picking directos
@@ -27,9 +27,9 @@ Cuando un almacén está configurado para ubicación y picking directos, tiene d
 2.  Abra la ficha del producto que desee configurar para picking y ubicaciones directas.
 3. En la ficha desplegable **Almacén** de la ficha de producto, rellene los campos para definir cómo debe gestionarse el producto en el almacén.  
 4.  Elija la acción **Unidades medida**.
-5. En la ventana **Unidades medida producto**, rellene los campos de este formulario para definir las diferentes unidades de medida en las que se puede trabajar con el producto, incluidos el alto, el ancho, la longitud, el cubicaje y el peso de la unidad de medida.
+5. En la página **Unidades medida producto**, rellene los campos de este formulario para definir las diferentes unidades de medida en las que se puede trabajar con el producto, incluidos el alto, el ancho, la longitud, el cubicaje y el peso de la unidad de medida.
 6. Seleccione la acción **Contenido ubicación**.
-7. En la ventana **Contenidos ubicación** puede definir el almacén y la ubicación con la que debe asociarse el producto. El campo **Genérico** no se utiliza cuando el almacén está configurado para ubicación y picking directos.  
+7. En la página **Contenidos ubicación** puede definir el almacén y la ubicación con la que debe asociarse el producto. El campo **Genérico** no se utiliza cuando el almacén está configurado para ubicación y picking directos.  
 
 ## <a name="to-activate-directed-put-away-and-pick-functionality"></a>Para activar la funcionalidad de ubicación y picking directos  
 La ubicación y picking directos le ofrecen la posibilidad de tener acceso a características de configuración avanzada de almacén que pueden mejorar su eficacia y la fiabilidad de sus datos. Para utilizar esta funcionalidad, primero debe configurar varios parámetros en su almacén.  
@@ -53,7 +53,7 @@ Ahora está preparado para configurar zonas, si desea trabajar con ellas en el a
 ## <a name="to-set-up-a-zone-in-your-warehouse"></a>Para configurar una zona en el almacén  
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Ubicaciones** y luego elija el enlace relacionado.  
 2.  Seleccione el almacén donde desee configurar la zona y abra la ficha de almacén y elija la acción **Zonas**.  
-3.  En la ventana **Zonas**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3.  En la página **Zonas**, rellene los campos necesarios. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 Al cambiar un parámetro de zona, todas las ubicaciones creadas a partir de entonces en dicha zona presentarán las nuevas características. Sin embargo, las ubicaciones originales no cambiarán.  
 

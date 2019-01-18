@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8e0668e39891f6e0924afd8d9ec3ee39af95e587
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4989933a0034e5d496e09824ad0ca621a2373825
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-blanket-sales-orders"></a>Trabajar con pedidos de venta abiertos
@@ -42,7 +42,7 @@ Un ejemplo en el que se podría utilizar un pedido abierto de venta sería un ca
 2.  Cuando esté preparado para crear pedidos, haga clic en la acción **Convertir en pedido** y, a continuación, haga clic en **Sí**. Aparecerá un mensaje para informarle de que se ha asignado un número de pedido al pedido abierto. Observe que no se ha eliminado el pedido abierto.  
 3.  Elija el botón **Aceptar**.  
 4.  Para ver los resultados de los pasos anteriores, elija la acción **Línea**, seleccione **Líneas no registradas** y, finalmente, haga clic en **Pedidos**.  
-5.  Seleccione el pedido de venta correspondiente en la ventana **Líns. venta**, elija la línea **Acción** y, finalmente, elija la acción **Mostrar documento**.  
+5.  Seleccione el pedido de venta correspondiente en la página **Líns. venta**, elija la línea **Acción** y, finalmente, elija la acción **Mostrar documento**.  
 
 Lo siguiente se aplica a los pedidos de venta después de que se hayan creado a partir de los pedidos abiertos de venta:  
 
@@ -53,14 +53,14 @@ Lo siguiente se aplica a los pedidos de venta después de que se hayan creado a 
 - Si los pedidos de venta no se crean directamente a partir del pedido abierto pero se relacionan con éste, se puede establecer un vínculo entre un pedido de venta y uno abierto especificando el número del pedido abierto asociado en el campo **Nº pedido abierto** de la línea del pedido de venta.  
 - Después de que el pedido de venta se haya creado para la cantidad total de una línea de pedido abierto, ningún otro pedido de venta se puede crear para la misma línea. Los usuarios no pueden introducir una cantidad en el campo **Cantidad a enviar**. Sin embargo, si es necesario agregar cantidades adicionales a un pedido abierto, puede incrementarse el valor del campo **Cantidad** y crear, a continuación, nuevos pedidos.  
 - El pedido abierto de venta facturado se conserva en el sistema hasta que se elimina, ya sea eliminando pedidos abiertos individuales o ejecutando el proceso **Eliminar pedidos abiertos venta facturados**.  
-- Si un cliente también está registrado como contacto en el área de la aplicación Marketing y ha especificado un código de plantilla de interacción para el pedido abierto de venta en la ventana **Configuración de marketing**, al seleccionar **Imprimir** para imprimir el pedido abierto de venta se registrará una interacción en la tabla Movimiento de registro de interacción.
+- Si un cliente también está registrado como contacto en el área de la aplicación Marketing y ha especificado un código de plantilla de interacción para el pedido abierto de venta en la página **Configuración de marketing**, al seleccionar **Imprimir** para imprimir el pedido abierto de venta se registrará una interacción en la tabla Movimiento de registro de interacción.
 
 ## <a name="to-view-the-status-of-a-blanket-purchase-order"></a>Para ver el estado de un pedido abierto de compra  
-Puede ver el estado de los pedidos de abiertos de venta en la ventana **Estad. pedido abierto compras**. Esto puede ser importante cuando empiece a facturar el pedido que se crea a partir del pedido abierto de compra.  
+Puede ver el estado de los pedidos de abiertos de venta en la página **Estad. pedido abierto compras**. Esto puede ser importante cuando empiece a facturar el pedido que se crea a partir del pedido abierto de compra.  
 
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos de compra abiertos** y luego elija el enlace relacionado.  
 2.  Seleccione un pedido abierto de compra, y después seleccione **Estadísticas** .  
-3.  En la ficha desplegable **General** de la ventana **Estad. pedido abierto compras**, puede ver información resumida sobre el pedido completo basada en la cantidad total de los distintos **campos Cantidad** de las líneas del pedido abierto de compra.  
+3.  En la página **General** de la ventana **Estad. pedido abierto compras**, puede ver información resumida sobre el pedido completo basada en la cantidad total de los distintos **campos Cantidad** de las líneas del pedido de compra abierto.  
 
     - En la ficha desplegable **Facturación**, puede ver información resumida basada en la cantidad total de los campos **Cdad. a facturar** de las líneas del pedido abierto de compra.  
     - En la ficha desplegable **Envío**, puede ver información resumida basada en la cantidad total de los campos **Cantidad a recibir** de las líneas del pedido abierto de compra.  
@@ -120,7 +120,7 @@ El vínculo entre el pedido abierto de venta y el pedido de venta de origen, y c
     <td>Los abonos registrados asociados a la línea seleccionada.</td>
     </tr>
     </table>
-5.En la ventana **Líneas de venta**, seleccione la acción **Mostrar documento** para ver la entrada.
+5. En la página **Líneas de venta**, seleccione la acción **Mostrar documento** para ver la entrada.
 
 ## <a name="see-also"></a>Consulte también
 [Ccial](sales-manage-sales.md)  

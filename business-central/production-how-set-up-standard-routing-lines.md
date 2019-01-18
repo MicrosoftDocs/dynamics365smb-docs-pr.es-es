@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e597f0847a5d1991e26b1fed4596815889f950d0
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 7d4f7293a040ad25ce8325552bc6f05f94dd0710
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-standard-routing-lines"></a>Configurar de líneas de ruta estándar
@@ -27,7 +27,7 @@ La utilización de tareas estándar simplifica la creación y el mantenimiento d
 2. Seleccione la acción **Nuevo**.
 3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Seleccione **Herramientas**, **Personal**, **Descripción**, o la acción **Herramientas**.
-5. En la ventana que se abre, describa la tarea estándar en cuestión.
+5. en la página que se abre, describa la tarea estándar en cuestión.
 
 ## <a name="to-add-a-standard-task-to-an-operation"></a>Para añadir una tarea estándar a una operación
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Rutas** y luego elija el enlace relacionado.

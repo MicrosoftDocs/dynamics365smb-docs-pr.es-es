@@ -13,14 +13,14 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 121483c36152da6a96979d13417b0d88c938cecb
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 97ca5aab24b04f6c2d0677c6fd9626b93fcd8ca8
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="manage-many-incoming-document-records"></a>Gestionar varios registros de documento entrantes
-A medida que crea o procesa registros de documento entrantes, el número de líneas en la ventana **Documentos entrantes** puede aumentar hasta el punto de perder la visión general. Por lo tanto, puede establecer los registros de documento entrantes a Procesado para eliminarlos de la vista por defecto. Cuando selecciona la acción **Mostrar todos**, puede ver tanto los registros procesados como los que están sin procesar.
+A medida que crea o procesa registros de documento entrantes, el número de líneas en la página **Documentos entrantes** puede aumentar hasta el punto de perder la visión general. Por lo tanto, puede establecer los registros de documento entrantes a Procesado para eliminarlos de la vista por defecto. Cuando selecciona la acción **Mostrar todos**, puede ver tanto los registros procesados como los que están sin procesar.
 
 > [!NOTE]  
 >   No puede modificar la información, adjuntar archivos o realizar otros procesos en los registros de documentos entrantes que se hayan establecido en Procesado. Primero deberá establecerlos a Sin procesar.
@@ -28,29 +28,29 @@ A medida que crea o procesa registros de documento entrantes, el número de lín
 La casilla de verificación **Procesado** se selecciona automáticamente en los registros de documento entrantes que han sido procesados, pero puede seleccionar o anular la selección de la casilla manualmente. Dependiendo de su proceso empresarial, se podrá procesar un registro de documento entrante cuando un documento relacionado haya sido creado para él o se haya adjuntado un archivo.
 
 > [!NOTE]  
->   Cuando abre la ventana **Documentos entrantes** con la acción **Mis documentos entrantes** en el área de trabajo, solo se muestran los registros de documento entrantes sin procesar de forma predeterminada. En este tema se trata como "la vista por defecto".
+>   Cuando abre la página **Documentos entrantes** con la acción **Mis documentos entrantes** en el área de trabajo, solo se muestran los registros de documento entrantes sin procesar de forma predeterminada. En este tema se trata como "la vista por defecto".
 
 ## <a name="to-remove-incoming-document-records-from-the-default-view"></a>Para eliminar los registros de documento entrantes de la vista por defecto
-1. En la ventana **Documentos entrantes**, seleccione una o más líneas para los registros de documento entrantes que quiera eliminar de la vista por defecto.
+1. En la página **Documentos entrantes**, seleccione una o más líneas para los registros de documento entrantes que quiera eliminar de la vista por defecto.
 2. Seleccione la acción **Establecer en Procesado**.
 
     Los registros de documento entrantes se eliminan de la vista por defecto y la casilla **Procesado** se selecciona en las líneas.
 
 > [!NOTE]  
->   También puede realizar esta acción para el registro individual en la ventana **Ficha de documento** entrante.
+>   También puede realizar esta acción para el registro individual en la página **Ficha de documento** entrante.
 
 ## <a name="to-view-all-incoming-document-records"></a>Para ver todos los registros de documento entrantes
-1. En la ventana **Documentos entrantes**, seleccione la opción **Mostrar todos**.
+1. En la página **Documentos entrantes**, seleccione la opción **Mostrar todos**.
 
 Se muestran todos los registros de documento entrantes, incluyendo aquellos que no tienen seleccionada la casilla **Procesado**.
 
 ## <a name="to-add-incoming-document-records-to-the-default-view"></a>Para agregar los registros de documento entrantes a la vista por defecto
-1. En la ventana **Documentos entrantes**, seleccione la opción **Mostrar todos**.
+1. En la página **Documentos entrantes**, seleccione la opción **Mostrar todos**.
 2. Seleccione una o más líneas para los registros de documento entrantes que desea que aparezcan en la vista por defecto.
 3. Seleccione la acción **Establecer en Sin procesar**.  
 
 > [!NOTE]  
->   También puede realizar esta acción para el registro individual en la ventana **Ficha de documento** entrante.
+>   También puede realizar esta acción para el registro individual en la página **Ficha de documento** entrante.
 
 ## <a name="see-also"></a>Consulte también
 [Procesar documentos entrantes](across-process-income-documents.md)  

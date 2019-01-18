@@ -13,10 +13,10 @@ ms.search.keywords: project management, capacity, staff
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c9c1ec39fcec950037193b15d04ab8dde994ff63
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 362f335fa313dce9a4e75c962ef6f5a2f01ec5fd
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-resources"></a>Configurar recursos
@@ -45,29 +45,29 @@ Para calcular cuánto tiempo puede dedicar un recurso a los trabajos, su capacid
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Recursos** y luego elija el enlace relacionado.
 2. Abra la ficha de recurso correspondiente y, a continuación, elija la acción **Capacidad recurso**.
-3. En la ventana **Capacidad del recurso**, en el campo **Ver**, especifique la duración del periodo, por ejemplo **Día**, que se muestra en columnas en la ficha desplegable **Matriz capacidad recurso**.
+3. En la página **Capacidad del recurso**, en el campo **Ver**, especifique la duración del periodo, por ejemplo **Día**, que se muestra en columnas en la ficha desplegable **Matriz capacidad recurso**.
 4. Para cada recurso de una línea, especifique por cada periodo de las columnas el número de horas que el recurso está disponible.
 5. Opcionalmente, para detallar la capacidad semanal de recursos en una fecha inicial y final, elija la acción **Establecer capacidad**.
-6. En la ventana **Config. capacidad recurso**, rellene los campos según sea necesario.
-7. Elija la acción **Actualizar capacidad**. La ventana **Capacidad recurso** se actualiza con la capacidad introducida.
-8. Cierre la ventana.
+6. En la página **Config. capacidad recurso**, rellene los campos según sea necesario.
+7. Elija la acción **Actualizar capacidad**. La página **Capacidad recurso** se actualiza con la capacidad introducida.
+8. Cierre la página.
 
 ## <a name="to-set-up-alternate-resource-costs"></a>Para configurar costes de recursos alternativos
 Además del coste especificado en la tarjeta de recurso, puede configurar costes alternativos para cada recurso. Por ejemplo, si paga a un empleado un sueldo por horas distinto para el trabajo en horas extraordinarias, puede configurar un precio de coste de recurso para el sueldo por horas extraordinarias. El coste alternativo que configuró para el recurso anulará el precio de coste de la ficha de recurso cuando utilice el recurso en el diario de recursos.
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Recursos** y luego elija el enlace relacionado.  
 2. Seleccione el recurso para el que desee configurar varios costes alternativos y, a continuación, elija la acción **Costes**.  
-3. En la ventana **Precio de coste del recurso**, rellene los campos en una línea según sea necesario.  
+3. En la página **Precio de coste del recurso**, rellene los campos en una línea según sea necesario.  
 4. Repita el paso 3 para cada precio de coste de recurso alternativo que desee configurar.
 
-**Nota**. Para configurar precios de coste de recursos aplicables a todos los recursos y familias de recursos, abra la ventana **Precio de coste del recurso** y rellene los campos.
+**Nota**. Para configurar precios de coste de recursos aplicables a todos los recursos y familias de recursos, abra la página **Precio de coste del recurso** y rellene los campos.
 
 ## <a name="to-set-up-alternate-resource-prices"></a>Para configurar precios de recursos alternativos
 Además del precio especificado en la tarjeta de recurso, puede configurar precios alternativos para cada recurso. Estos precios alternativos pueden ser condicionales. Pueden depender de si el recurso se consume con un proyecto o tipo de trabajo determinado.
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Recursos** y luego elija el enlace relacionado.
 2. Seleccione el recurso para el que desee configurar varios precios alternativos y, a continuación, elija la acción **Precios**.
-3. En la ventana **Precio de venta del recurso**, rellene los campos en una línea según sea necesario.
+3. En la página **Precio de venta del recurso**, rellene los campos en una línea según sea necesario.
 4. Repita el paso 3 para cada precio de venta de recurso alternativo que desee configurar.
 
 ## <a name="see-also"></a>Consulte también

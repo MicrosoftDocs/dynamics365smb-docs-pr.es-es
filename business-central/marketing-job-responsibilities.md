@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: task, to-do, relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+redirect_url: marketing-setup-contacts
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b531cfcb024444e098363725a4e0098d4651396b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b580518771ce9b599e5516ecbb1c25cc5dc5d9f4
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-job-responsibilities-for-contact-persons"></a>Configurar responsabilidades cargo para las personas de contacto.
@@ -25,7 +26,7 @@ Puede agregar información sobre las responsabilidades cargo de las personas de 
 El uso de las responsabilidades cargo en contactos es un proceso que consta de dos pasos. Primero, debe definir el código de la responsabilidad cargo. Solo debe realzar este paso una vez para cada una. Una vez tenga un código de responsabilidad cargo, puede empezar a asignarlo a sus personas de contacto.
 
 ## <a name="to-define-a-job-responsibility-code"></a>Para definir un código de responsabilidad de cargo
-El código de responsabilidad cargo define el tipo o la categoría del trabajo, por ejemplo MARKETING o COMPRA. Puede tener varios códigos de responsabilidad. Para definir la responsabilidad cargo, use la ventana **Responsabilidades cargo**.
+El código de responsabilidad cargo define el tipo o la categoría del trabajo, por ejemplo MARKETING o COMPRA. Puede tener varios códigos de responsabilidad. Para definir la responsabilidad cargo, use la página **Responsabilidades cargo**.
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Responsabilidades cargo** y luego elija el enlace relacionado.
 2. Seleccione la acción **Nuevo** e introduzca un código y una descripción. El código admite un máximo de 11 caracteres y puede ser cualquier combinación de números y letras.
@@ -34,12 +35,12 @@ El código de responsabilidad cargo define el tipo o la categoría del trabajo, 
 No puede asignar responsabilidades cargo a contactos que sean empresas.
 
 1. Abra la persona de contacto.
-2. Elija la acción **Persona** y, a continuación, elija la acción **Responsabilidades cargo**. Aparecerá la ventana **Cargos contactos**.
+2. Elija la acción **Persona** y, a continuación, elija la acción **Responsabilidades cargo**. Aparecerá la página **Cargos contactos**.
 3. En el campo **Cód. cargo contacto**, seleccione la responsabilidad cargo que desea asignar.
 
 Repita estos pasos para asignar todas las responsabilidades del cargo que desee. También puede asignar responsabilidades cargo de la lista de contactos siguiendo el mismo procedimiento.
 
-El número de responsabilidades cargo que ha asignado al contacto se muestra en el campo **N.º responsabilidades cargo** en la sección **Segmentación** en la ventana **Contacto**.
+El número de responsabilidades cargo que ha asignado al contacto se muestra en el campo **N.º responsabilidades cargo** en la sección **Segmentación** en la página **Contacto**.
 
 Después de asignar responsabilidades cargo a sus contactos puede usar esa información para seleccionar contactos para sus segmentos. Para obtener más información, vea [Agregar contactos a segmentos](marketing-add-contact-segment.md).
 

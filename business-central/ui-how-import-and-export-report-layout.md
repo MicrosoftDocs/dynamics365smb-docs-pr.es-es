@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e32cbdc9bc5f61a054972be4c5bcc409ada961a0
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 27818c45c68f37c052a39eeaeaf0fe6c2c871af9
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="import-and-export-a-report-or-document-layout"></a>Importar y exportar un diseño de informe o documento personalizado
@@ -31,7 +31,7 @@ Puede importar y exportar un diseño de informe personalizado existente como arc
   
 2.  Seleccione la fila para el informe que contenga con el diseño personalizado que desee exportar y, a continuación, en la pestaña **Inicio**, en el grupo **Procesar**, elija **Diseños personalizados**.  
   
-3.  En la ventana **Diseños de informe**, seleccione el diseño de informe que desee exportar a un archivo y, a continuación, en la pestaña **Inicio**, en el grupo **Procesar**, elija **Exportar diseño**.  
+3.  En la página **Diseños de informe**, seleccione el diseño de informe que desee exportar a un archivo y, a continuación, en la pestaña **Inicio**, en el grupo **Procesar**, elija **Exportar diseño**.  
   
 4.  En el cuadro de diálogo **Exportar archivo**, seleccione **Guardar** y, a continuación, guarde el archivo en una ubicación de su equipo o red.  
   
@@ -45,7 +45,7 @@ Puede importar y exportar un diseño de informe personalizado existente como arc
   
 3.  Seleccione la fila para el informe al cual desee importar el diseño de informe y, a continuación, en la pestaña **Inicio**, en el grupo **Procesar**, elija **Diseños personalizados**.  
   
-4.  En la ventana **Diseño de informe**, seleccione el diseño de informe al que desee importar el archivo y, a continuación, en la pestaña **Inicio**, en el grupo **Procesar**, elija **Importar diseño**.  
+4.  En la página **Diseño de informe**, seleccione el diseño de informe al que desee importar el archivo y, a continuación, en la pestaña **Inicio**, en el grupo **Procesar**, elija **Importar diseño**.  
   
 5.  En el cuadro de diálogo **Importar**, seleccione el documento que define el diseño de informe y, a continuación, elija **Abrir**.  
   

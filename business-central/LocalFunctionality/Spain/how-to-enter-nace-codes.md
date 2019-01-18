@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 64b6b7c23e1469d113b20ceb0798bb50b1f40267
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: aebf0ed3c7ff52b95dce06f5f24456d7a0e63074
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="enter-nace-codes"></a>Introducir códigos NACE
@@ -29,7 +29,7 @@ Un código CNAE sirve como base para compilar estadísticas para varios fines, i
 - Operaciones de formación de capital fijo  
 - Operaciones financieras  
 
-Los códigos CNAE se pueden escribir en la ventana **Información empresa**. Los códigos CNAE son códigos únicos de cinco o seis dígitos que están asignados a sectores industriales. Por ejemplo, DA.15.83 - Fabricación de azúcar.  
+Los códigos CNAE se pueden escribir en la página **Información empresa**. Los códigos CNAE son códigos únicos de cinco o seis dígitos que están asignados a sectores industriales. Por ejemplo, DA.15.83 - Fabricación de azúcar.  
 
 ## <a name="to-enter-nace-codes"></a>Para introducir códigos CNAE  
 

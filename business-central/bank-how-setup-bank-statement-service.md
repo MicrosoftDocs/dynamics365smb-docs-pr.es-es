@@ -13,14 +13,14 @@ ms.search.keywords: Yodlee, feed, stream, payment process
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e3d739a31c2e5a17c6ba3cc4ff1b9f158642051c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 30c0e6ebface6ccfd65cab6bd2ce97a09044ff42
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Configuración del servicio de fuentes de banco de Envestnet Yodlee
-Puede importar extractos electrónicos de su banco para rellenar rápidamente la ventana **Diario de conciliación de pagos** para que pueda liquidar pagos y conciliar la cuenta bancaria. Para obtener más información, vea [Liquidación de pagos automáticamente y conciliación de cuentas bancarias](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+Puede importar extractos electrónicos de su banco para rellenar rápidamente la página **Diario de conciliación de pagos** para que pueda liquidar pagos y conciliar la cuenta bancaria. Para obtener más información, vea [Liquidación de pagos automáticamente y conciliación de cuentas bancarias](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 El servicio de fuentes de banco de Envestnet Yodlee está instalado como una extensión de [!INCLUDE[d365fin](includes/d365fin_md.md)] y está listo para ser activado. Para obtener más información, consulte [Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] mediante extensiones](ui-extensions.md).
 
@@ -34,7 +34,7 @@ Después de habilitar el servicio de fuentes de banco, debe vincular una cuenta 
 * Una cuenta vinculada debe ser desvinculada porque desea dejar de usar el servicio de fuente de banco de la cuenta.
 * Las cuentas en línea se han modificado y desea actualizar la información en las cuentas en [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Cuando se ha habilitado el servicio de fuente de banco, puede definir una cuenta bancaria que importe automáticamente nuevos extractos de cuenta en la ventana **Diario de conciliación de pagos** cada dos horas. Las transacciones para los pagos que ya se hayan registrado como liquidados o conciliados en la ventana **Diario de conciliación de pagos** no se importarán. Para obtener más información, vea la sección “Para habilitar la importación automática de los extractos bancarios”.
+Cuando se ha habilitado el servicio de fuente de banco, puede definir una cuenta bancaria que importe automáticamente nuevos extractos de cuenta en la página **Diario de conciliación de pagos** cada dos horas. Las transacciones para los pagos que ya se hayan registrado como liquidados o conciliados en la página **Diario de conciliación de pagos** no se importarán. Para obtener más información, vea la sección “Para habilitar la importación automática de los extractos bancarios”.
 
 > [!NOTE]  
 > Si usa la configuración asistida de la Configuración de la empresa, algunos de los pasos en los procedimientos siguientes se producen automáticamente cuando accede a la configuración de la cuenta bancaria de la empresa. Para obtener más información, vea [Introducción](product-get-started.md).
@@ -42,17 +42,17 @@ Cuando se ha habilitado el servicio de fuente de banco, puede definir una cuenta
 ## <a name="to-enable-the-bank-feed-service"></a>Para activar el servicio de fuente de banco
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Cuentas bancarias** y luego elija el enlace relacionado.
 2. Abra la cuenta bancaria que usará para el servicio de fuente de banco.
-3. En la ventana **Cuenta bancaria**, en el campo **Formato de importación de extractos bancarios**, seleccione YODLEEBANKFEED.  
+3. En la página **Cuenta bancaria**, en el campo **Formato de importación de extractos bancarios**, seleccione YODLEEBANKFEED.  
 
 El servicio de fuente de banco se activará cuando vincule una cuenta a la cuenta bancaria en línea relacionada. Vea el procedimiento siguiente.  
 
 ## <a name="to-create-a-new-linked-bank-account"></a>Para crear una nueva cuenta bancaria vinculada
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Cuentas bancarias** y luego elija el enlace relacionado.
-2. Seleccione la cuenta bancaria correspondiente y, a continuación, seleccione **Crear una nueva cuenta bancaria vinculada**. La ventana **Vinculación de cuenta bancaria** se abre después de unos segundos.
+2. Seleccione la cuenta bancaria correspondiente y, a continuación, seleccione **Crear una nueva cuenta bancaria vinculada**. La página **Vinculación de cuenta bancaria** se abre después de unos segundos.
 
     > [!NOTE]  
-    > Esta ventana muestra la página web del servicio de fuentes de banco de Envestnet Yodlee. La terminología y las funciones de la ventana pueden no coincidir con las instrucciones que ofrece este tema.  
-3. En la ventana **Vinculación de banco en línea**, en el panel **Vínculo de cuenta** use la función Buscar para buscar el banco en el que tiene una o varias cuentas bancarias en línea.
+    > Esta página muestra la página web del servicio de fuentes de banco de Envestnet Yodlee. La terminología y las funciones de la página pueden no coincidir con las instrucciones que ofrece este tema.  
+3. En la página **Vinculación de banco en línea**, en el panel **Vínculo de cuenta** use la función Buscar para buscar el banco en el que tiene una o varias cuentas bancarias en línea.
 4. Seleccione el nombre del banco. Se abre el panel **Iniciar sesión**.
 5. Introduzca el nombre de usuario y la contraseña que usa para conectarse al banco en línea y, a continuación, seleccione el botón **Siguiente**.  
 6. El servicio de fuente de banco se prepara para vincular la primera cuenta bancaria en línea en el banco especificado a una nueva cuenta en [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -63,20 +63,20 @@ El servicio de fuente de banco se activará cuando vincule una cuenta a la cuent
     Después de que se haya completado el proceso, el nombre del banco aparecerá en el panel **Mis cuentas** en la pestaña **Vinculado**. El valor entre corchetes indica la cantidad de cuentas bancarias en línea que están vinculadas.  
 7. Elija el botón **Aceptar**.
 
-    Si solo vincula una cuenta bancaria en línea, se abre la ventana **Ficha banco** y se muestra el nombre de la cuenta bancaria en línea. En este caso, la vinculación de la cuenta bancaria se ha completado. Lo único que tiene que hacer es configurar la cuenta bancaria. Para obtener más información, consulte [Configurar cuentas bancarias](bank-how-setup-bank-accounts.md).
+    Si solo vincula una cuenta bancaria en línea, se abre la página **Ficha banco** y se muestra el nombre de la cuenta bancaria en línea. En este caso, la vinculación de la cuenta bancaria se ha completado. Lo único que tiene que hacer es configurar la cuenta bancaria. Para obtener más información, consulte [Configurar cuentas bancarias](bank-how-setup-bank-accounts.md).
 
-    Si va a vincular más de una cuenta bancaria en línea, la ventana **Vinculación de banco** abre una ventana y enumera las cuentas bancarias en línea adicionales que todavía no se han vinculado en [!INCLUDE[d365fin](includes/d365fin_md.md)]. En ese caso, siga el paso siguiente.  
-8. En la ventana **Vinculación de banco**, seleccione la línea para una cuenta bancaria en línea y, a continuación, seleccione la acción **Vincular a nuevo banco**.  
+    Si va a vincular más de una cuenta bancaria en línea, la página **Vinculación de banco** abre una ventana y enumera las cuentas bancarias en línea adicionales que todavía no se han vinculado en [!INCLUDE[d365fin](includes/d365fin_md.md)]. En ese caso, siga el paso siguiente.  
+8. En la página **Vinculación de banco**, seleccione la línea para una cuenta bancaria en línea y, a continuación, seleccione la acción **Vincular a nuevo banco**.  
 
-    La ventana **Ficha banco** se abre para crear una nueva y muestra el nombre de la cuenta bancaria en línea.
+    La página **Ficha banco** se abre para crear una nueva y muestra el nombre de la cuenta bancaria en línea.
 
     Si ya existe una cuenta bancaria en [!INCLUDE[d365fin](includes/d365fin_md.md)] al que desea vincular la cuenta bancaria en línea adicional, siga el siguiente paso.  
-9. En la ventana **Vinculación de banco**, seleccione la línea para una cuenta bancaria en línea y, a continuación, seleccione la acción **Vincular a banco existente**.
-10. En la ventana **Lista de bancos**, seleccione la cuenta bancaria que desee vincular y, a continuación, haga clic en **Aceptar**.
+9. En la página **Vinculación de banco**, seleccione la línea para una cuenta bancaria en línea y, a continuación, seleccione la acción **Vincular a banco existente**.
+10. En la página **Lista de bancos**, seleccione la cuenta bancaria que desee vincular y, a continuación, haga clic en **Aceptar**.
 
 ## <a name="to-link-a-bank-account-to-an-online-bank-account"></a>Para vincular una cuenta bancaria a una cuenta bancaria en línea.
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Cuentas bancarias** y luego elija el enlace relacionado.
-2. Seleccione la línea para una cuenta bancaria que no está vinculada a una cuenta en línea y, a continuación, seleccione la acción **Vincular a banco en línea**. La ventana **Vinculación de banco en línea** se abre rellenada previamente con el nombre del banco en el panel **Vincular cuenta**.
+2. Seleccione la línea para una cuenta bancaria que no está vinculada a una cuenta en línea y, a continuación, seleccione la acción **Vincular a banco en línea**. La página **Vinculación de banco en línea** se abre rellenada previamente con el nombre del banco en el panel **Vincular cuenta**.
 3. Seleccione el nombre del banco. Se abre el panel **Iniciar sesión**.
 4. Introduzca el nombre de usuario y la contraseña que usa para conectarse al banco en línea y, a continuación, seleccione el botón **Siguiente**.  
 
@@ -85,7 +85,7 @@ El servicio de fuente de banco se activará cuando vincule una cuenta a la cuent
     Cuando el proceso ha finalizado correctamente, el nombre del banco aparecerá en el panel **Mis cuentas** en la pestaña **Vinculado**. Si el banco tiene más de una cuenta bancaria, solo se vincula la cuenta bancaria seleccionada en el paso 2.  
 5. Elija el botón **Aceptar**.
 
-En la ventana **Lista de bancos**, se activa la casilla **Vinculado**.
+En la página **Lista de bancos**, se activa la casilla **Vinculado**.
 
 ## <a name="to-unlink-a-bank-account"></a>Para desvincular una cuenta bancaria
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Cuentas bancarias** y luego elija el enlace relacionado.  
@@ -98,21 +98,21 @@ En la ventana **Lista de bancos**, se activa la casilla **Vinculado**.
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Cuentas bancarias** y luego elija el enlace relacionado.
 2. Seleccione la cuenta bancaria correspondiente y, a continuación, seleccione la acción **Actualizar vinculación de banco**.
 
-Si surgen problemas para alguna de las cuentas bancarias vinculadas en la ventana **Lista de bancos**, se abre la ventana **Vinculación de banco** y se especifican qué cuentas bancarias tienen problemas. Los problemas se solucionan mejor desvinculando la cuenta y reconstruyendo el vínculo. Para obtener más información, vea la sección “Para vincular una cuenta bancaria a una cuenta bancaria en línea“.
+Si surgen problemas para alguna de las cuentas bancarias vinculadas en la página **Lista de bancos**, se abre la página **Vinculación de banco** y se especifican qué cuentas bancarias tienen problemas. Los problemas se solucionan mejor desvinculando la cuenta y reconstruyendo el vínculo. Para obtener más información, vea la sección “Para vincular una cuenta bancaria a una cuenta bancaria en línea“.
 
 ## <a name="to-enable-automatic-import-of-bank-statements"></a>Para activar la importación automática de los extractos de cuenta
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Cuentas bancarias** y luego elija el enlace relacionado.
 2. Seleccione la línea para una cuenta bancaria vinculada y, a continuación, seleccione la acción **Configuración de la importación automática de extractos bancarios**.
-3. En la ventana **Configuración de la importación automática de extractos bancarios**, en el campo **N.º de días incluidos**, especifique hasta qué fecha en el pasado desea obtener nuevas transacciones bancarias.
+3. En la página **Configuración de la importación automática de extractos bancarios**, en el campo **N.º de días incluidos**, especifique hasta qué fecha en el pasado desea obtener nuevas transacciones bancarias.
 
     > [!NOTE]  
     > Se recomienda establecer este valor a 7 días o más.  
 4. Seleccione la casilla de verificación **Habilitado**.  
 
-Cada hora, la ventana **Diario de conciliación de pagos** mostrará cualquier nuevo pago que se realice en la cuenta bancaria en línea.
+Cada hora, la página **Diario de conciliación de pagos** mostrará cualquier nuevo pago que se realice en la cuenta bancaria en línea.
 
 > [!NOTE]  
-> Las transacciones para los pagos que ya se hayan registrado como liquidados o conciliados en la ventana **Diario de conciliación de pagos** no se importarán.
+> Las transacciones para los pagos que ya se hayan registrado como liquidados o conciliados en la página **Diario de conciliación de pagos** no se importarán.
 
 ## <a name="see-also"></a>Consulte también
 [Configurar banca](bank-setup-banking.md)  

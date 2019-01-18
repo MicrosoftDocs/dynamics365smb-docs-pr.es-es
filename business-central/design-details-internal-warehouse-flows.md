@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: a52997195a95ff43eb049025b7b8ab3038381039
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b728815592975091a683eb96f87b1a632da62567
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-internal-warehouse-flows"></a>Detalles de diseño: Flujos de almacén internos
@@ -28,12 +28,12 @@ El flujo de productos entre las ubicaciones en una ubicación de empresa se cent
  En la configuración básica del almacén, el flujo de productos entre ubicaciones dentro de la empresa se centra en la selección de componentes y la ubicación de productos finales para pedidos de ensamblado u órdenes de producción, y en movimientos ad hoc, como reposiciones de ubicación, sin relación con los documentos de origen.  
 
 ### <a name="flows-to-and-from-production"></a>Flujos a o desde producción  
- La integración principal entre las órdenes de producción y las actividades de almacén básicas se representa mediante la capacidad de realizar el picking de los componentes de producción con las ventanas **Picking inventario** o **Movimiento inventario**.  
+ La integración principal entre las órdenes de producción y las actividades de almacén básicas se representa mediante la capacidad de realizar el picking de los componentes de producción con las páginas **Picking inventario** o **Movimiento inventario**.  
 
 > [!NOTE]  
->  En la ventana **Picking inventario**, el consumo de componentes se registra junto con el registro de selección. En la ventana **Movimiento inventario** solo se registran los ajustes de la ubicación, ningún movimiento de producto.  
+>  En la página **Picking inventario**, el consumo de componentes se registra junto con el registro de selección. En la página **Movimiento inventario** solo se registran los ajustes de la ubicación, ningún movimiento de producto.  
 
- Además de la gestión de componentes, la integración se representa mediante la capacidad de colocar los productos fabricados con la ventana **Ubicación inventario**.  
+ Además de la gestión de componentes, la integración se representa mediante la capacidad de colocar los productos fabricados con la página **Ubicación inventario**.  
 
  Los campos **Cód. ubic. para producción**, **Cód. ubic. desde producción** y **Abre ubic. aprovision. manual** de la ficha de ubicación o de las fichas de máquina/centro de trabajo definen los flujos predeterminados a las áreas de producción y desde ellas.  
 
@@ -42,13 +42,13 @@ El flujo de productos entre las ubicaciones en una ubicación de empresa se cent
 ### <a name="flows-to-and-from-assembly"></a>Flujos a o desde el ensamblado  
  La integración principal entre los pedidos de ensamblado y las actividades de almacén básico se representa por la capacidad de mover a los componentes del ensamblado al área de ensamblado.  
 
- Aunque no existe una funcionalidad de almacén específica para la ubicación de elementos de ensamblado, el código de ubicación del encabezado de pedido de ensamblado se puede configurar en una ubicación predeterminada. El registro del pedido de ensamblado funciona como el registro de una ubicación. La actividad de almacén para mover los elementos de ensamblado al almacén se puede administrar en la ventana **Movimiento interno**, sin relación con el pedido de ensamblado.  
+ Aunque no existe una funcionalidad de almacén específica para la ubicación de elementos de ensamblado, el código de ubicación del encabezado de pedido de ensamblado se puede configurar en una ubicación predeterminada. El registro del pedido de ensamblado funciona como el registro de una ubicación. La actividad de almacén para mover los elementos de ensamblado al almacén se puede administrar en la página **Movimiento interno**, sin relación con el pedido de ensamblado.  
 
  Existen los siguientes flujos de ensamblado.  
 
 |Flujo de trabajo|Descripción|  
 |----------|---------------------------------------|  
-|Ensamblar para stock|Los componentes se necesitan en un pedido de ensamblado donde la salida se guarda en el almacén.<br /><br /> Este flujo de almacén se administra en la ventana **Movimiento inventario**. Una línea de toma especifica de dónde tomar los componentes. Una línea de plaza especifica dónde colocar los componentes.|  
+|Ensamblar para stock|Los componentes se necesitan en un pedido de ensamblado donde la salida se guarda en el almacén.<br /><br /> Este flujo de almacén se administra en la página **Movimiento inventario**. Una línea de toma especifica de dónde tomar los componentes. Una línea de plaza especifica dónde colocar los componentes.|  
 |Ensamblar para pedido|Los componentes se necesitan en un pedido de ensamblado vinculado a un pedido de venta que se envía cuando se ensambla el producto vendido.|  
 
 > [!NOTE]  
@@ -60,26 +60,26 @@ El flujo de productos entre las ubicaciones en una ubicación de empresa se cent
 >  El campo **Cód. ubic. ens.contra-pedido** funciona como la ubicación desde ensamblado en los escenarios ensamblar para pedido.  
 
 ### <a name="ad-hoc-movements"></a>Movimientos ad hoc  
- En la gestión básica del almacén, el movimiento de los productos de ubicación a ubicación sin relación con los documentos de origen se realiza en la ventana **Movimiento interno**, la cual funciona conjuntamente con la ventana **Movimiento inventario**.  
+ En la gestión básica del almacén, el movimiento de los productos de ubicación a ubicación sin relación con los documentos de origen se realiza en la página **Movimiento interno**, la cual funciona conjuntamente con la página **Movimiento inventario**.  
 
- Otra forma de mover productos ad hoc entre ubicaciones es registrar movimientos positivos en el campo **Código ubicación nuevo** de la ventana **Diario reclasif. producto**.  
+ Otra forma de mover productos ad hoc entre ubicaciones es registrar movimientos positivos en el campo **Código ubicación nuevo** de la página **Diario reclasif. producto**.  
 
 ## <a name="internal-flows-in-advanced-warehousing"></a>Flujos internos en gestión avanzada de almacén  
  En configuraciones avanzadas de almacén, el flujo de productos entre las ubicaciones dentro de la empresa se centra en el componente de selección y colocación de productos finales para órdenes de producción y componentes de selección para pedidos de ensamblado. Además, los flujos internos se producen como movimientos ad hoc, como reposiciones de ubicación, sin relación con los documentos de origen.  
 
 ### <a name="flows-to-and-from-production"></a>Flujos a o desde producción  
- La integración principal entre las órdenes de producción y las actividades de almacén avanzadas se representa mediante la capacidad de realizar el picking de los componentes de producción, en las ventanas **Picking almacén** y **Hoja trabajo picking**, y la capacidad de ubicar los productos fabricados con la ventana **Ubicación interna alm.**  
+ La integración principal entre las órdenes de producción y las actividades de almacén avanzadas se representa mediante la capacidad de realizar el picking de los componentes de producción, en las páginas **Picking almacén** y **Hoja trabajo picking**, y la capacidad de ubicar los productos fabricados con la página **Ubicación interna alm.**  
 
- La ventana **Movimiento almacén** proporciona otro punto de integración en la producción, que junto con la ventana Hoja trabajo movimiento, le permite colocar componentes y hacerse con productos fabricados para las órdenes de producción lanzadas.  
+ La página **Movimiento almacén** proporciona otro punto de integración en la producción, que junto con la página Hoja trabajo movimiento, le permite colocar componentes y hacerse con productos fabricados para las órdenes de producción lanzadas.  
 
  Los campos **Cód. ubic. para producción**, **Cód. ubic. desde producción** y **Abre ubic. aprovision. manual** de la ficha de ubicación o de las fichas de máquina/centro de trabajo definen los flujos predeterminados a las áreas de producción y desde ellas.  
 
  Para obtener más información acerca del procedimiento de bajada del consumo desde las ubicaciones para producción o de aprovisionamiento manual, consulte la sección Consumo de componentes de producción en el almacén en este tema.  
 
 ### <a name="flows-to-and-from-assembly"></a>Flujos a o desde el ensamblado  
- La integración principal entre los pedidos de ensamblado y las actividades de almacén avanzadas se representa por la capacidad de realizar el picking de los componentes del ensamblado, tanto en la ventana **Picking almacén** como en la ventana **Hoja trabajo picking**. Esta funcionalidad opera igual que al realizar el picking de componentes para las órdenes de producción.  
+ La integración principal entre los pedidos de ensamblado y las actividades de almacén avanzadas se representa por la capacidad de realizar el picking de los componentes del ensamblado, tanto en la página **Picking almacén** como en la página **Hoja trabajo picking**. Esta funcionalidad opera igual que al realizar el picking de componentes para las órdenes de producción.  
 
- Aunque no existe una funcionalidad de almacén específica para la ubicación de elementos de ensamblado, el código de ubicación del encabezado de pedido de ensamblado se puede configurar en una ubicación predeterminada. El registro del pedido de ensamblado funciona como el registro de una ubicación. La actividad de almacén para mover los elementos de ensamblado al almacén se puede administrar en la ventana **Hoja trabajo movimiento** o **Ubicación interna alm.**, sin relación con el pedido de ensamblado.  
+ Aunque no existe una funcionalidad de almacén específica para la ubicación de elementos de ensamblado, el código de ubicación del encabezado de pedido de ensamblado se puede configurar en una ubicación predeterminada. El registro del pedido de ensamblado funciona como el registro de una ubicación. La actividad de almacén para mover los elementos de ensamblado al almacén se puede administrar en la página **Hoja trabajo movimiento** o **Ubicación interna alm.**, sin relación con el pedido de ensamblado.  
 
 > [!NOTE]  
 >  Si se ensamblan productos para un pedido, el envío de almacén del pedido de venta vinculado acciona una selección de almacén para todos los componentes de ensamblado que participan, no solo para el producto vendido, como ocurre al enviar productos de inventario.  
@@ -87,7 +87,7 @@ El flujo de productos entre las ubicaciones en una ubicación de empresa se cent
  Los campos de **Cód. ubic. para ensamblado** y **Cód. ubic. desde ensamblado** de la ficha de ubicación definen los flujos predeterminados a áreas del ensamblado y desde ellas.  
 
 ### <a name="ad-hoc-movements"></a>Movimientos ad hoc  
- En la gestión avanzada del almacén, el movimiento de los productos de ubicación a ubicación sin relación con los documentos de origen se gestiona en la ventana **Hoja trabajo almacén** y se registra en la ventana Movimiento almacén.  
+ En la gestión avanzada del almacén, el movimiento de los productos de ubicación a ubicación sin relación con los documentos de origen se gestiona en la página **Hoja trabajo almacén** y se registra en la página Movimiento almacén.  
 
 ## <a name="flushing-production-components-in-the-warehouse"></a>Consumo de componentes de producción en el almacén  
  Si se han configurado en la ficha del producto, los componentes seleccionados mediante de almacén se registran como consumidos por la orden de producción cuando se registra la selección de almacén. Con los métodos de baja **Seleccionar + Adelante** y **Seleccionar + Atrás**, el registro de selección activa el registro de consumo relacionado cuando la primera operación comienza o cuando la última operación acaba, respectivamente.  

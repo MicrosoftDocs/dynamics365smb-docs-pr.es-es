@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 10/01/2018
+ms.date: 12/07/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b22144fff3051ef35b9e3baf6e12ecd56ee12c49
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1ad5e15ef1214fb37250dcd4b04d13ab073ac21a
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="making-payments"></a>Creación de pagos
 
-Cuando efectúa pagos a proveedores o clientes, o reembolsos a empleados, las líneas de pago relacionadas se registran en la ventana **Diario de pagos**. El diario de pagos es un diario general que está optimizado para realizar pagos e incluye una serie de funciones potentes, como la función **Sugerir pagos de proveedores** que encuentra los pagos de proveedores vencidos, y el informe **Proveedor - Pagos por periodos** que muestra una descripción general de los pagos vencidos de proveedores.  
+Cuando efectúa pagos a proveedores o clientes, o reembolsos a empleados, las líneas de pago relacionadas se registran en la página **Diario de pagos**. El diario de pagos es un diario general que está optimizado para realizar pagos e incluye una serie de funciones potentes, como la función **Sugerir pagos de proveedores** que encuentra los pagos de proveedores vencidos, y el informe **Proveedor - Pagos por periodos** que muestra una descripción general de los pagos vencidos de proveedores.  
 
 Puede iniciar el proceso de pago desde las listas, fichas y movimientos de contabilidad para proveedores, clientes y empleados. Cada una de estas páginas tiene un botón que inicia el flujo de pagos y le ayuda a completar el diario de pagos.  
 
@@ -33,13 +33,13 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 
 | Para | Vea |
 | --- | --- |
-|Información sobre las funciones básicas de la ventana **Diario de pagos**, basada en el diario general, para prepararse para registrar pagos a proveedores o empleados.|[Trabajar con diarios generales](ui-work-general-journals.md)|
+|Información sobre las funciones básicas de la página **Diario de pagos**, basada en el diario general, para prepararse para registrar pagos a proveedores o empleados.|[Trabajar con diarios generales](ui-work-general-journals.md)|
 |Publique pagos a proveedores o empleados y reembolsos a clientes y, opcionalmente, aplique los pagos a las facturas/abonos sin pagar para cerrarlos como pagados.|[Registre pagos y reembolsos](payables-how-post-payments-refunds.md)|
-| Use una función en la ventana **Diario de pagos** para sugerir pagos de proveedores según los criterios seleccionados, como la fecha de vencimiento, la posibilidad de aplicar descuentos o su liquidez. |[Proponer pagos a proveedores](payables-how-suggest-vendor-payments.md) |
+| Use una función en la página **Diario de pagos** para sugerir pagos de proveedores según los criterios seleccionados, como la fecha de vencimiento, la posibilidad de aplicar descuentos o su liquidez. |[Proponer pagos a proveedores](payables-how-suggest-vendor-payments.md) |
 | Emita cheques para realizar pagos a proveedor o reembolsos a cliente, ya sean en papel o automáticos. Anule los cheques antes o después del registro. |[Realizar pagos por cheque](payables-how-work-checks.md) |
 |Realice pagos electrónicos mediante la exportación de pagos a un archivo de banco que envíe a su banco para su procesamiento, incluido EFT (transferencia electrónica de fondos) en Norteamérica. |[Realizar pagos electrónicos](payables-how-export-payments-bank-file.md)|
 |Realizar pagos electrónicos en función del estándar de transferencia de crédito SEPA de la UE.|[Realizar pagos con Servicio de conversión de datos del banco o Transferencia de crédito SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)|
-| Pague al proveedor en efectivo o cheque y registre el pago cuando registre la factura. |[Liquidar facturas de compra inmediatamente](finance-how-to-settle-purchase-invoices-promptly.md) |
+| Pague a un proveedor en efectivo o cheque y registre el pago cuando registre la factura. |[Liquidar facturas de compra inmediatamente](finance-how-to-settle-purchase-invoices-promptly.md) |
 |Reembolse a los empleados por gastos personales durante las actividades comerciales mediante el pago a su cuenta bancaria.|[Registro y reembolso de los costes de los empleados](finance-how-record-reimburse-employee-expenses.md)|
 | Asegúrese de que su banco solo compensa cheques e importes validados enviándoles un archivo que contenga la información de proveedor, cheque y pago. |[Exportar un archivo de Positive Pay](finance-how-positive-pay.md) |
 

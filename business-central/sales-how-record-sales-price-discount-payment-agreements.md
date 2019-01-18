@@ -11,10 +11,10 @@ ms.search.keywords: special price, alternate price, pricing
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ad6a72c7a0cd523ec9215df1093c69864f866028
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 92b853c0d897ac5d93cbabc435b71bbf420d28a5
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Registrar precios y descuentos de ventas especiales
@@ -62,7 +62,7 @@ Una vez que haya determinado los clientes que pueden obtener descuentos en factu
 
 Configure de nuevo los términos de descuento en factura para ventas.
 
-1. En la ventana **Ficha de cliente**, seleccione la acción **Descuento factura**. Aparecerá la ventana **Dtos. factura cliente**.
+1. En la página **Ficha de cliente**, seleccione la acción **Descuento factura**. Aparecerá la página **Dtos. factura cliente**.
 2. En el campo **Código divisa**, introduzca el código de una divisa que se aplique a los términos de descuento en factura en la línea. Deje el campo en blanco para establecer condiciones de descuento de factura en la divisa local.
 3. En el campo **Importe mínimo**, escriba el importe mínimo que deba tener una factura para optar al descuento.
 4. En el campo **% descuento**, introduzca el descuento en la factura como un porcentaje del importe de la factura.
@@ -73,23 +73,23 @@ El descuento en factura ahora está configurado y asignado al cliente en cuesti�
 ## <a name="to-work-with-sales-invoice-discounts-and-service-charges"></a>Trabajar con descuentos y cargos por servicios de la factura de venta
 Al utilizar descuentos en factura, el importe de la factura determina el descuento aplicado.  
 
-En la ventana **Dtos. factura clientes**, también puede añadir un cargo por servicio a las facturas que superen un determinado importe.  
+En la página **Dtos. factura clientes**, también puede añadir un cargo por servicio a las facturas que superen un determinado importe.  
 
 Para poder aplicar descuentos en factura a las ventas, primero debe especificar determinados datos en el sistema. Deberá determinar las siguientes cuestiones:  
 
 - a qué clientes se le concederá este tipo de descuento.  
 - qué porcentajes de descuento se va a aplicar.  
 
-Si factura descuentos para que se calculen automáticamente, puede especificarlo en la ventana **Configuración ventas y cobros**.  
+Si factura descuentos para que se calculen automáticamente, puede especificarlo en la página **Configuración ventas y cobros**.  
 
 Decida si va a conceder o no descuentos en factura a cada cliente que cumpla el requisito (es decir, que el importe de su factura supere una determinada cantidad). Defina los términos de los descuentos en factura en divisa local para los clientes nacionales y en otras divisas para los clientes de otros países.  
 
-Se relacionan los porcentajes de descuento a los importes de factura específicos en las ventanas **Dtos. factura cliente**. Puede introducir un número ilimitado de porcentajes en cada ventana. Cada cliente puede tener su propia ventana o se pueden vincular varios clientes a la misma ventana.  
+Se relacionan los porcentajes de descuento a los importes de factura específicos en las páginas **Dtos. factura cliente**. Puede introducir un número ilimitado de porcentajes en cada página. Cada cliente puede tener su propia página o se pueden vincular varios clientes a la misma página.  
 
 Además de (o en lugar de) un porcentaje de descuento, puede vincular un importe de cargo por servicios a un importe facturado específico.  
 
 > [!TIP]  
->  Antes de introducir esta información en el sistema, se recomienda preparar un esquema de la estructura de descuentos que desea utilizar. De este modo, podrá ver fácilmente los clientes que se pueden vincular a la misma ventana de descuentos en factura. Cuantas menos ventanas tenga que configurar, más rápido introducirá la información básica.  
+>  Antes de introducir esta información en el sistema, se recomienda preparar un esquema de la estructura de descuentos que desea utilizar. De este modo, podrá ver fácilmente los clientes que se pueden vincular a la misma página de descuentos en factura. Cuantas menos páginas tenga que configurar, más rápido introducirá la información básica.  
 
 ## <a name="best-price-calculation"></a>Cálculo del mejor precio
 Cuando haya registrado precios especiales y los descuentos de línea para ventas y compras, [!INCLUDE[d365fin](includes/d365fin_md.md)] garantiza que el beneficio en operaciones comerciales de producto siempre son óptimos calculando automáticamente el mejor precio en los documentos de ventas y compras, y en líneas del diario de proyectos y recursos.
@@ -114,20 +114,20 @@ El mejor precio es el precio más bajo permisible con el mayor descuento de lín
 Si no se puede calcular ningún precio especial para el producto de la línea, se inserta el último coste directo o el precio unitario de la ficha de producto.
 
 ## <a name="to-copy-sales-prices"></a>Para copiar precios de venta  
-Si desea copiar precios de venta, por ejemplo, los precios de venta de un cliente determinado a un grupo de precio de cliente, debe ejecutar el proceso **Sugerir precio venta en hoja**. Trabajo por lotes . Este proceso se encuentra en la ventana **Hoja precios venta**.    
+Si desea copiar precios de venta, por ejemplo, los precios de venta de un cliente determinado a un grupo de precio de cliente, debe ejecutar el proceso **Sugerir precio venta en hoja**. Trabajo por lotes . Este proceso se encuentra en la página **Hoja precios venta**.    
 
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hoja de precios de venta** y luego elija el enlace relacionado.  
 2.  Elija **Sugerir precio venta en hoja**. .  
 3.  En la ficha desplegable **Precios venta**, rellene los campos **Tipo venta** y **Código ventas** con los precios de venta originales que desea copiar.  
-4.  En la parte superior de la ventana de solicitud, rellene el **Tipo venta** y **Código ventas** con el tipo y el nombre al que desea copiar los precios de venta.  
+4.  En la parte superior de la página de solicitud, rellene el **Tipo venta** y **Código ventas** con el tipo y el nombre al que desea copiar los precios de venta.  
 5.  Si desea que el trabajo por lotes cree precios nuevos, seleccione el campo **Crear precios nuevos**.  
-6.  Elija el botón **Aceptar** para rellenar las líneas de la ventana **Hoja precios venta** con los nuevos precios propuestos, indicando que son válidos para el **Tipo venta** seleccionado.  
+6.  Elija el botón **Aceptar** para rellenar las líneas de la página **Hoja precios venta** con los nuevos precios propuestos, indicando que son válidos para el **Tipo venta** seleccionado.  
 
 > [!NOTE]  
->  El proceso sólo crea propuestas; no implementa los cambios propuestos. Si está satisfecho con las propuestas y desea implantarlas, es decir, insertarlas en la tabla **Precios de venta**, puede utilizar el trabajo por lotes **Realizar cambio precio**, que se encuentra en la pestaña **Acciones**, en el grupo **Funciones**, en la ventana **Hoja precios venta**.
+>  El proceso sólo crea propuestas; no implementa los cambios propuestos. Si está satisfecho con las propuestas y desea implantarlas, es decir, insertarlas en la tabla **Precios de venta**, puede utilizar el trabajo por lotes **Realizar cambio precio**, que se encuentra en la pestaña **Acciones**, en el grupo **Funciones**, en la página **Hoja precios venta**.
 
 ## <a name="see-also"></a>Consulte también
 [Configuración de ventas](sales-setup-sales.md)  
-[Ccial](sales-manage-sales.md)  
+[Ventas](sales-manage-sales.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

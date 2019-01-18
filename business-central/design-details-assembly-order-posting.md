@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 72b668ac5ecf2d6444be68b7c678f8a08bca9796
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: a3c8910ad937ec4283ce0803f787a4fe6aed071d
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-assembly-order-posting"></a>Detalles de diseño: Registro de pedidos de ensamblado
@@ -53,7 +53,7 @@ En la tabla siguiente se describe la secuencia de las acciones.
 |Acción|Description|  
 |------------|-----------------|  
 |Inicializar registro|1. Haga las comprobaciones preliminares.<br />2. Agregue el número de registro y edite la cabecera del pedido de ensamblado.<br />3. Lance el pedido de ensamblado.|  
-|Envíos postales|<ol><li>Crear la cabecera de pedido de ensamblado registrado.</li><li>Copiar líneas de comentario.</li><li>Registre las líneas del pedido de ensamblado (consumo):<br /><br /> <ol><li>Crear una ventana de estado para calcular el consumo de ensamblado.</li><li>Obtener la cantidad pendiente en la que se basará la línea de diario de productos.</li><li>Restablezca las cantidades consumidas y restantes.</li><li>Para líneas de pedido de ensamblado de tipo Producto:<br /><br /> <ol><li>Rellene los campos de la línea de diario de productos.</li><li>Transfiera las reservas a la línea de diario de productos.</li><li>Registre la línea del diario de productos para crear los movimientos de producto.</li><li>Crear líneas de diario de almacén y registrarlas.</li></ol></li><li>Para líneas de pedido de ensamblado de tipo Recurso:<br /><br /> <ol><li>Rellene los campos de la línea de diario de productos.</li><li>Registrar la línea del diario de productos. Esto crea movimientos de capacidad.</li><li>Crear y registrar línea de diario de recursos.</li></ol></li><li>Transfiera los valores de campo desde la línea de pedido de ensamblado a una nueva línea de pedido de ensamblado registrado creado recientemente.</li></ol></li><li>Registre el encabezado de pedido de ensamblado (salida):<br /><br /> <ol><li>Rellene los campos de la línea de diario de productos.</li><li>Transfiera las reservas a la línea de diario de productos.</li><li>Registre la línea del diario de productos para crear los movimientos de producto.</li><li>Crear líneas de diario de almacén y registrarlas.</li><li>Restablezca las cantidades de ensamblado y las cantidades restantes.</li></ol></li></ol>|  
+|Envíos postales|<ol><li>Crear la cabecera de pedido de ensamblado registrado.</li><li>Copiar líneas de comentario.</li><li>Registre las líneas del pedido de ensamblado (consumo):<br /><br /> <ol><li>Crear una página de estado para calcular el consumo de ensamblado.</li><li>Obtener la cantidad pendiente en la que se basará la línea de diario de productos.</li><li>Restablezca las cantidades consumidas y restantes.</li><li>Para líneas de pedido de ensamblado de tipo Producto:<br /><br /> <ol><li>Rellene los campos de la línea de diario de productos.</li><li>Transfiera las reservas a la línea de diario de productos.</li><li>Registre la línea del diario de productos para crear los movimientos de producto.</li><li>Crear líneas de diario de almacén y registrarlas.</li></ol></li><li>Para líneas de pedido de ensamblado de tipo Recurso:<br /><br /> <ol><li>Rellene los campos de la línea de diario de productos.</li><li>Registrar la línea del diario de productos. Esto crea movimientos de capacidad.</li><li>Crear y registrar línea de diario de recursos.</li></ol></li><li>Transfiera los valores de campo desde la línea de pedido de ensamblado a una nueva línea de pedido de ensamblado registrado creado recientemente.</li></ol></li><li>Registre el encabezado de pedido de ensamblado (salida):<br /><br /> <ol><li>Rellene los campos de la línea de diario de productos.</li><li>Transfiera las reservas a la línea de diario de productos.</li><li>Registre la línea del diario de productos para crear los movimientos de producto.</li><li>Crear líneas de diario de almacén y registrarlas.</li><li>Restablezca las cantidades de ensamblado y las cantidades restantes.</li></ol></li></ol>|  
 
 > [!IMPORTANT]  
 >  A diferencia de la salida de producción, que se registra al coste previsto, la salida de ensamblado se registra al coste real.  

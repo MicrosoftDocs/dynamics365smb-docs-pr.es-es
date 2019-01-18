@@ -1,6 +1,6 @@
 ---
 title: "Cómo realizar el picking en operaciones internas en configuraciones avanzadas de almacén | Documentos de Microsoft"
-description: "En la configuración avanzada de almacén en donde se configura la ubicación para utilizar picking y envío, podrá escoger los componentes para las actividades de producción y de ensamblado con la ventana de **Picking almacén**."
+description: "En la configuración avanzada de almacén en donde se configura la ubicación para utilizar picking y envío, podrá escoger los componentes para las actividades de producción y de ensamblado con la página **Picking almacén**."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,16 +13,16 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 228755cbc36ae9fbdd0f80be6f778b11fb5b3d6a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 7e4a489b49c5a97cd0df077544a51c6ba73a4a85
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="pick-for-assembly-or-production-in-advanced-warehouse-configurations"></a>Realizar picking para ensamblado o producción en una configuración avanzada de almacén
-En la configuración avanzada de almacén en donde se configura la ubicación para utilizar picking y envío, podrá escoger los componentes para las actividades de producción y de ensamblado con la ventana de **Picking almacén**.  
+En la configuración avanzada de almacén en donde se configura la ubicación para utilizar picking y envío, podrá escoger los componentes para las actividades de producción y de ensamblado con la página **Picking almacén**.  
 
-También podrá utilizar la ventana **Hoja trabajo movimiento** para mover los artículos entre las ubicaciones ad hoc (es decir, sin referencia a un documento de origen). Para obtener más información, consulte [Mover los artículos en las configuraciones avanzadas de almacén](warehouse-how-to-move-items-in-advanced-warehousing.md).  
+También podrá utilizar la página **Hoja trabajo movimiento** para mover los artículos entre las ubicaciones ad hoc (es decir, sin referencia a un documento de origen). Para obtener más información, consulte [Mover los artículos en las configuraciones avanzadas de almacén](warehouse-how-to-move-items-in-advanced-warehousing.md).  
 
 Para obtener información acerca de los artículos de picking para las operaciones internas en las ubicaciones del almacén básico configuradas sólo para picking, consulte [Mover componentes a un área de operaciones en la configuración básica de almacén](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).  
 
@@ -30,9 +30,9 @@ No se puede crear un documento de picking de almacén desde cero porque una acti
 
 Puede crear el documento de picking de almacén mediante inserción seleccionando **Crear picking almacén** en el documento de origen, como un pedido de ensamblado enviado o un envío de almacén. Para obtener más información, vea [Realizar picking de productos con picking almacén](warehouse-how-to-pick-items-for-warehouse-shipment.md).  
 
-Alternativamente, puede crear el documento de picking de almacén de forma de la extracción utilizando la ventana **Preparar hoj. trab. pedido** para detectar pedidos de picking, tanto para envío y como para operaciones internas y, a continuación crear los documentos de picking de almacén necesarios.  
+Alternativamente, puede crear el documento de picking de almacén de forma de la extracción utilizando la página **Preparar hoj. trab. pedido** para detectar pedidos de picking, tanto para envío y como para operaciones internas y, a continuación crear los documentos de picking de almacén necesarios.  
 
-El procedimiento siguiente explica un escenario de envío en donde se va a realizar el picking de los componentes para un orden de producción lanzada a través de la ventana **Hojas trabajo picking**. El procedimiento también se aplica a un pedido de ensamblado.  
+El procedimiento siguiente explica un escenario de envío en donde se va a realizar el picking de los componentes para un orden de producción lanzada a través de la página **Hojas trabajo picking**. El procedimiento también se aplica a un pedido de ensamblado.  
 
 Para crear pedidos de picking, para escenarios de extracción y de empuje, deben lanzarse los documentos de origen en cuestión. Lance los documentos de origen para las operaciones internas de las siguientes formas.  
 
@@ -46,7 +46,7 @@ Para crear pedidos de picking, para escenarios de extracción y de empuje, deben
 2.  Elija la acción **Documentos almacén** y seleccione las líneas de componente del pedido de producción lanzado.  
 3.  Explore las líneas, ordénelas para asegurar un picking más eficaz y combínelas con otras líneas de hoja de trabajo si es necesario para ahorrar tiempo a los empleados.  
 4.  Elija la acción **Crear picking**.  
-5.  Defina cómo crear los documentos de picking de almacén y cómo ordenar las líneas de picking rellenando los campos de la ventana **Crear picking**.  
+5.  Defina cómo crear los documentos de picking de almacén y cómo ordenar las líneas de picking rellenando los campos de la página **Crear picking**.  
 6.  Elija el botón **Aceptar**. Los documentos de picking de almacén se crean con las líneas de picking para cada componente necesario en la operación interna.  
 
 Si el área de operaciones internas, como un suelo de departamento de producción, se ha configurado con una ubicación predeterminada para la colocación de los componentes utilizados en la operación,ese código de ubicación se insertará en las líneas del lugar en el documento de picking de almacén para indicar a los trabajadores del almacén dónde ubicar los artículos. Para obtener más información, consulte el campo **Código de ubicación para producción** o **Código de ubicación para ensamblado**.

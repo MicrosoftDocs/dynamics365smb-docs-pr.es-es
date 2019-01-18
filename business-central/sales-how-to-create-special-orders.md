@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 36c68048c384f4ccfef6c811ac288b306351ce2f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3f5521102ebcf4ad6b5bcb88c862106fd6b85f3f
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-special-orders"></a>Crear pedidos especiales
@@ -32,9 +32,9 @@ Para utilizar esta función, primero debe tener configuradas las fichas de clien
     A continuación, cree un pedido de compra desde una hoja de demanda.  
 4. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hoja demanda** y luego elija el enlace relacionado.  
 5. Elija la acción **Pedido especial** y, a continuación, **Traer pedidoS venta**.  
-6.  En la ventana **Traer pedidos venta**, se muestran resultados en los que **Nº documento** hace referencia al número del pedido de venta. Elija el botón **Aceptar**. Se crea una línea en la hoja de demanda para el producto.  
+6.  En la página **Traer pedidos venta**, se muestran resultados en los que **Nº documento** hace referencia al número del pedido de venta. Elija el botón **Aceptar**. Se crea una línea en la hoja de demanda para el producto.  
 7.  En el campo **Mensaje acción** de la línea de la hoja de demanda, seleccione **Nuevo**.  
-8.  En la ventana **Hoja demanda**, haga elija la acción **Ejecutar mensajes acción**. La ventana **Ejecutar mensajes acción - Dem** se abrirá. Elija el botón **Aceptar**.  
+8.  En la página **Hoja de demanda**, elija la acción **Ejecutar mensajes de acción**. La página **Ejecutar mensajes acción - Dem.** se abrirá. Elija el botón **Aceptar**.  
 
     Aparece un mensaje para indicarle que se han creado los pedidos de compra. Elija el botón **Aceptar**.  
 

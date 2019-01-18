@@ -13,10 +13,10 @@ ms.search.keywords: transportation, added cost, landed cost
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: dac33cefa38e82c1fa34d1f8eeeffbfad7518ab4
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e2a7c5f34471bb76aed708d6a6e4ff36feaf39c7
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Usar los cargos de producto a cuenta para los costes comerciales adicionales
@@ -41,7 +41,7 @@ Para los documentos de compra y de venta, puede asignar un coste de producto de 
 Los números de cargo de producto sirven para diferenciar los distintos tipos de cargos que se utilizan en la empresa.
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Cargos producto** y luego elija el enlace relacionado.
-2. En la ventana **Cargos producto**, seleccione la acción **Nuevo** para crear una línea nueva.
+2. En la página **Cargos producto**, seleccione la acción **Nuevo** para crear una línea nueva.
 3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item"></a>Asignar un coste de producto directamente en la factura de compra del producto
@@ -58,9 +58,9 @@ Si conoce el coste de un producto en el momento en que registra la factura de co
     En los siguientes pasos, se efectuará la asignación actual. Hasta que el cargo del producto esté completamente asignado, el valor en el campo **Cdad. para asignar** aparece de color rojo.
 8. En la ficha **Líneas**, seleccione la acción **Asignación cargo prod.**.
 
-    La ventana **Asignación cargos prod.** abre una línea por cada línea del tipo Producto en la factura de compra. Para asignar el cargo de producto a una o más líneas de factura, puede utilizar una función que lo asigne y distribuya automáticamente o puede rellenar manualmente el campo **Cdad. para asignar**. Las siguientes tareas describen cómo utilizar la funcionalidad de la asignación de cargos de producto el menú.
+    La página **Asignación cargos prod.** abre una línea por cada línea del tipo Producto en la factura de compra. Para asignar el cargo de producto a una o más líneas de factura, puede utilizar una función que lo asigne y distribuya automáticamente o puede rellenar manualmente el campo **Cdad. para asignar**. Las siguientes tareas describen cómo utilizar la funcionalidad de la asignación de cargos de producto el menú.
 
-9. En la ventana **Asignación cargos prod.**, seleccione la acción **Sugerir asignación cargo prod.**
+9. En la página **Asignación cargos prod.**, seleccione la acción **Sugerir asignación cargo prod.**
 10. Si hay más de una línea de factura del tipo Producto, elija una de las cuatro opciones de distribución.  
 
 El cargo del producto está completamente asignado, el valor de la factura de compra en el campo **Cdad. para asignar** es cero.
@@ -70,8 +70,8 @@ El cargo de producto está asignado a la factura de compra. Al registrar la rece
 ## <a name="to-assign-an-item-charge-from-a-separate-invoice-to-the-purchase-invoice-for-the-item"></a>Asignar un coste de producto de una factura independiente a la factura de compra del producto
 Si recibió una factura por el cargo de producto después de haber publicado el recibo de compra original, siga este procedimiento.
 1. Repita los pasos del 1 al 8 en la sección "Asignar un coste de producto directamente en la factura de compra del producto".
-2. En la ventana **Asignación cargos prod.**, elija la acción **Traer líns. albarán**.
-3. En la ventana **Líns. recep. compra**, seleccione el albarán de compra registrado para el producto al que desea asignar el cargo de producto y, a continuación, elija el botón **Aceptar**.
+2. En la página **Asignación cargos prod.**, elija la acción **Traer líns. albarán**.
+3. En la página **Líns. recep. compra**, seleccione el albarán de compra registrado para el producto al que desea asignar el cargo de producto y, a continuación, elija el botón **Aceptar**.
 4. Seleccione la acción **Sugerir asignación cargo prod.**
 
 El cargo de producto de la factura de compra independiente se asigna al producto en el recibo de compra registrado, y se actualiza el valor de inventario del artículo con el coste del cargo de producto.

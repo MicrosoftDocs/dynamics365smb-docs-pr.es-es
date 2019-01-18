@@ -13,10 +13,10 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7b125edfcfd5e03882568b8ab6eb264418f15bef
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 8ecd532a043ad53b7a1d5d6c38e87a7102407003
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="closing-years-and-periods"></a>Cerrar años y periodos
@@ -26,6 +26,7 @@ La tabla siguiente proporciona un resumen de las tareas que realiza, por lo gene
 
 | Para | Vea |
 | --- | --- |
+| Defina el ejercicio y divídalo en períodos de tiempo de los que deba informar sobre el rendimiento financiero. | [Trabajar con periodos contables y ejercicios](finance-accounting-periods-and-fiscal-years.md)|
 | Especifique intervalos de fechas de registro para todo el sistema y específicos del usuario. En función de sus necesidades comerciales, puede restringir los intervalos de fechas de registro de los usuarios al inicio del proceso de fin de periodo o después de él. |[Para especificar periodos de registro](finance-how-specify-posting-periods.md) |
 | Obtenga un resumen de las actividades que, normalmente, se realizan al final de un periodo, como registrar todos los documentos y diarios o ejecutar esquemas de cuentas. |[Cerrar períodos](year-how-complete-period-end-processes.md) |
 | Actualizar los tipos de cambio de divisas y ajustar los tipos de cambio de movimientos de clientes, proveedores y bancos registrados. |[Actualizar tipos cambio divisa](finance-how-update-currencies.md) |

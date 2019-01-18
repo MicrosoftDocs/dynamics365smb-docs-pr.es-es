@@ -13,10 +13,10 @@ ms.search.keywords: repair, service
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: aef3d672bf01425a36bdd599e18d9ee9dac73b2d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 7fa3763f50549d418b0189604c170448b70c01b9
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-fixed-asset-maintenance"></a>Configure el mantenimiento de los activos fijos
@@ -33,10 +33,10 @@ Si configura los campos para el mantenimiento, puede registrar los gastos de man
 Al registrar costes de mantenimiento desde un diario general, puede rellenar el campo **Cód. mantenimiento** para registrar el tipo de mantenimiento efectuado, como un servicio rutinario o una reparación.
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Mantenimiento** y luego elija el enlace relacionado.
-2. En la ventana **Mantenimiento**, configure los códigos para cada tipo de trabajo de mantenimiento.
+2. En la página **Mantenimiento**, configure los códigos para cada tipo de trabajo de mantenimiento.
 
 ## <a name="to-set-up-maintenance-expense-accounts"></a>Para configurar las cuentas de gastos de mantenimiento
-Para registrar los costes de mantenimiento, primero debe introducir un número de cuenta en la ventana **A/F Grupos contables**.
+Para registrar los costes de mantenimiento, primero debe introducir un número de cuenta en la página **A/F Grupos contables**.
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Grupos registro A/F** y luego elija el enlace relacionado.
 2. Rellene el campo **Cta. gastos mantenimiento** de cada grupo contable.

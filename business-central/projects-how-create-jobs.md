@@ -13,10 +13,10 @@ ms.search.keywords: project management, task
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8c7af2db512927f575f62d40265ea2def6b7dc2c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5db9709500ce20bc09e2dc651ae6b7aa763c0e5f
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-jobs"></a>Crear proyectos
@@ -42,7 +42,7 @@ Cree una ficha de proyecto y, a continuación, cree las líneas de tarea de proy
 >   Si utiliza las hojas de horas con su proyecto, también debe designar una persona responsable. Esta persona puede aprobar las hojas de horas para las tareas de empleados asociadas con el proyecto. Para obtener más información, consulte [Configurar hojas de horas](projects-how-setup-time-sheets.md).
 
 ## <a name="to-create-tasks-for-a-job"></a>Para crear tareas para un proyecto
-Una parte clave de la creación de un proyecto es especificar las diversas tareas que conlleva. Para ello, debe agregar líneas nuevas en la ficha desplegable **Tareas** de la ventana **Ficha de proyecto**, con una tarea por línea. Cada proyecto debe tener al menos una tarea.
+Una parte clave de la creación de un proyecto es especificar las diversas tareas que conlleva. Para ello, debe agregar líneas nuevas en la ficha desplegable **Tareas** de la página **Ficha de proyecto**, con una tarea por línea. Cada proyecto debe tener al menos una tarea.
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Proyectos** y luego elija el enlace relacionado.
 2. Abra la ficha de un proyecto relevante.
@@ -67,7 +67,7 @@ Una línea de planificación de un proyecto puede ser de uno de los siguientes t
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Proyectos** y luego elija el enlace relacionado.
 2. Abra una ficha de un proyecto relevante.
 3. Seleccione una tarea de proyecto cuyos campo **Tipo tarea proyecto** contenga **Registrar** y seleccione la acción **Líneas planificación proyecto**.  
-4. En la ventana **Líneas planificación proyecto**, en una línea nueva, rellene los campos según sea necesario.
+4. En la página **Líneas planificación proyecto**, en una línea nueva, rellene los campos según sea necesario.
 5. Repita los pasos 3 y 4 para todas líneas de planificación que necesita para la tarea de proyecto.
 
 ## <a name="see-also"></a>Consulte también

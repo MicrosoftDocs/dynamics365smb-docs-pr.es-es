@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d21a1b2f199c5d53e3879bf3a0866f39e904b873
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2cd31544c029d66b838bbbdf27bebdcc73252014
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-invoice-rounding"></a>Configurar redondeo de factura
@@ -39,22 +39,22 @@ Para utilizar la utilidad de redondeo de factura automático, debe configurar la
 
 ### <a name="to-set-up-general-ledger-accounts-for-invoice-rounding-differences"></a>Para configurar cuentas para diferencias de redondeo de facturas  
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Plan de cuentas** y luego elija el enlace relacionado.  
-2. En la ventana **Plan de cuentas**, configure la cuenta y denomínela **Redondeo factura** o algo parecido. [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizará el nombre de la cuenta como texto en las facturas que se redondean.  
+2. En la página **Plan de cuentas**, configure la cuenta y denomínela **Redondeo factura** o algo parecido. [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizará el nombre de la cuenta como texto en las facturas que se redondean.  
 3. Dependiendo de si utiliza el IVA o impuesto sobre las ventas, en los campos **Grupo registro impuesto prod.** o **Grupo reg. IVA producto**, seleccione un grupo de registro para los importes redondeados. Puede que desee configurar un nuevo código de grupo para usarlo para el redondeo de factura.
 4. Deje en blanco los campos **Tipo IVA** y **Grupo registro impuesto neg.** o **Grupo registro IVA neg**. <!-- Why do we say to leave these blank, when there are a lot of other fields we also leave blank but don't mention? -->  
 
-Ya puede asignar la cuenta de redondeo de factura a grupos de registro en la ventana **Grupo contable proveedor**.  <!-- Why only the vendor posting groups? -->
+Ya puede asignar la cuenta de redondeo de factura a grupos de registro en la página **Grupo contable proveedor**.  <!-- Why only the vendor posting groups? -->
 
 ## <a name="set-up-rounding-for-foreign-and-local-currencies"></a>Configurar redondeo para la divisa extranjera y local
 Para poder utilizar la función de redondeo de factura automático, debe configurar reglas de redondeo para las divisas extranjera y local.
 
 ### <a name="to-set-up-rounding-for-foreign-currencies"></a>Configurar redondeo para la divisa extranjera  
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Divisas** y luego elija el enlace relacionado.  
-2. En la ventana **Divisas**, seleccione la divisa extranjera para abrir **Ficha divisa**, y rellene los campos **Prec. redondeo importe**, **Prec. redondeo precio-prod.**, **Precisión redondeo factura** y **Tipo redondeo factura**.
+2. En la página **Divisas**, seleccione la divisa extranjera para abrir **Ficha divisa**, y rellene los campos **Prec. redondeo importe**, **Prec. redondeo precio-prod.**, **Precisión redondeo factura** y **Tipo redondeo factura**.
 
 ### <a name="to-set-up-rounding-for-your-local-currency"></a>Configurar redondeo para la divisa local
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración de contabilidad** y luego elija el enlace relacionado.  
-2. En la ventana **Configuración de contabilidad**, en la ficha desplegable **General**, rellene los campos **Precisión redondeo fact.** y **Tipo redondeo fact.**.  
+2. En la página **Configuración de contabilidad**, en la ficha desplegable **General**, rellene los campos **Precisión redondeo fact.** y **Tipo redondeo fact.**.  
 
 ## <a name="activate-the-invoice-rounding-function"></a>Activar la función de redondeo de factura  
 Para asegurarse de que se redondeen automáticamente las facturas de venta y compra, debe activar la función de redondeo de factura. Active el redondeo de factura de forma independiente en las facturas de venta y en las de compra.

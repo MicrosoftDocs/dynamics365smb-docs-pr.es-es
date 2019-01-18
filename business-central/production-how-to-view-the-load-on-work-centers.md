@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: dd1bfde6dcffffa65ab58591d891a9f8b179a7eb
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 5a740651cd2413415076f2a29726793f0c36db02
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="view-load-on-work-and-machine-centers"></a>Configurar la vista de carga en centros de trabajo y de máquina
-En las ventanas **Ficha de centro de trabajo** y **Ficha de centro de máquina**, puede ver las cargas de las plantas de suelo como resultado de órdenes de producción planificadas y lanzadas.    
+En las páginas **Ficha de centro de trabajo** y **Ficha de centro de máquina**, puede ver las cargas de las plantas de suelo como resultado de órdenes de producción planificadas y lanzadas.    
 
 ## <a name="to-view-the-load-on-work-centers"></a>Para consultar la carga de centros de trabajo  
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Centros trabajo** y luego elija el enlace relacionado.  

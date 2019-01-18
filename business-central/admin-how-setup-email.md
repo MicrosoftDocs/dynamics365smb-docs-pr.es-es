@@ -12,14 +12,14 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 5bede56db06b7bac991f3f910c11e1dae61c7463
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9eb056bc98298a31833d205862d2d9bfeba04218
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-email-manually-or-using-the-assisted-setup"></a>Configurar el correo electrónico manualmente o con la configuración asistida
-Para enviar y recibir los correos electrónicos desde [!INCLUDE[d365fin](includes/d365fin_md.md)], debe rellenar los campos de la ventana **Configuración correo SMTP**.
+Para enviar y recibir los correos electrónicos desde [!INCLUDE[d365fin](includes/d365fin_md.md)], debe rellenar los campos de la página **Configuración correo SMTP**.
 
 > [!NOTE]  
 >   En lugar de especificar los detalles del servidor SMTP, puede utilizar una función para introducirlos con la información de su suscripción de Office 365.
@@ -31,7 +31,7 @@ Puede configurar el correo electrónico manualmente o puede obtener ayuda median
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Opcionalmente, elija la acción **Aplicar la configuración del servidor de Office 365** para insertar información que ya esté definida para su suscripción de Office 365.
 4. Una vez rellenados correctamente todos los campos, elija la acción **Configuración de correo elect. de prueba**.
-5. Cuando la prueba se realice correctamente, cierre la ventana.
+5. Cuando la prueba se realice correctamente, cierre la página.
 
 ## <a name="see-also"></a>Consulte también  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -11,10 +11,10 @@ ms.search.keywords: accountant, accounting, troubleshoot
 ms.date: 10/23/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
-ms.openlocfilehash: e4f739e13123054527bf3116aec2c8c4133537e6
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0ebd99e9097e4c701038f3b8be7a07d1e80a4b31
 ms.contentlocale: es-es
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="troubleshooting-include-d365acclongincludesd365acclongmdmd"></a>Solución de problemas de [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
@@ -44,7 +44,7 @@ Puede haber un par de razones, incluidas las siguientes:
   El cliente puede tener varias empresas o unidades de negocio en [!INCLUDE [d365fin](includes/d365fin_md.md)] y la invitación no siempre incluye todas las empresas. Ejecute su cliente para asegurarse de que tiene acceso a las empresas en las que el cliente quiere que trabaje.  
 
 ## <a name="why-doesnt-the-data-refresh-in-my-dashboard"></a>¿Por qué no se actualizan los datos de mi escritorio?
-Cuando se agrega a un cliente o solicita una actualización de los datos, [!INCLUDE [d365acc](includes/d365acc_md.md)] busca los datos. Pero debe actualizar la ventana, mediante la acción "Volver a mostrar todas las compañías", actualizar la ventana del navegador, navegar desde el panel de control y luego volver de nuevo, o alguna acción similar. Es un problema en el que estamos trabajando para mejorarlo en una actualización posterior.  
+Cuando se agrega a un cliente o solicita una actualización de los datos, [!INCLUDE [d365acc](includes/d365acc_md.md)] busca los datos. Pero debe actualizar la página, mediante la acción "Volver a mostrar todas las compañías", actualizar la página del navegador, navegar desde el panel de control y luego volver de nuevo, o alguna acción similar. Es un problema en el que estamos trabajando para mejorarlo en una actualización posterior.  
 
 ## <a name="see-also"></a>Consulte también
 [Introducción a [!INCLUDE[d365acc](includes/d365acc_md.md)]](get-started.md)  

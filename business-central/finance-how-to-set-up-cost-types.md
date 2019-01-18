@@ -10,13 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost types, general ledger, accounts
-ms.date: 10/01/2018
+ms.date: 11/13/2018
 ms.author: sgroespe
+redirect_url: finance-set-up-cost-accounting
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 37800664c79e501f1cf5dc41c12be6197fcb6bfd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2846967648f5c0e0b6015c7990a941642fc27323
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-cost-types"></a>Configurar tipos de costes
@@ -34,12 +35,12 @@ El plan de tipos de coste es similar al plan de cuentas de contabilidad general.
     > [!IMPORTANT]  
     >  La función **Registrar tipos de coste en plan ctas.** actualiza la relación entre el plan de cuentas y el plan de tipos de coste. El campo **Nº** se rellena y comprueba para asegurarse de que cada cuenta contable está relacionada con un solo tipo de coste. La función se ejecuta automáticamente antes de transferir los movimientos de contabilidad a la contabilidad de costes.  
 
-## <a name="to-set-up-new-cost-types-in-the-chart-of-cost-types-window"></a>Configurar nuevos tipos de coste en la ventana Tipos centros coste  
-1.  Abra la ventana **Tipos centros coste** en el modo de edición.  
+## <a name="to-set-up-new-cost-types-in-the-chart-of-cost-types-page"></a>Configurar nuevos tipos de coste en la página Tipos centros coste  
+1.  Abra la página **Plan tipos coste** en el modo de edición.  
 2.  Rellene los campos descritos como necesarios. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
-    >  Puede configurar y mantener tipos de coste en la ventana **Ficha tipo de coste** o bien en la ventana **Plan tipos coste**. En este procedimiento, va a configurar tipos de coste en la ventana **Plan de tipos de coste**.
+    >  Puede configurar y mantener tipos de coste en la página **Ficha tipo de coste** o bien en la página **Plan tipos coste**. En este procedimiento, va a configurar tipos de coste en la página **Plan de tipos de coste**.
 
 3.  Una vez creados todos los tipos de coste, elija la acción **Aplicar sangría a tipos coste**. En el cuadro de diálogo, elija el botón **Sí**.  
 4.  Vincule el nuevo tipo de coste a la cuenta de contabilidad correspondiente.  
@@ -48,7 +49,7 @@ El plan de tipos de coste es similar al plan de cuentas de contabilidad general.
     >  Si se han escrito definiciones en el campo **Totales** para las cuentas de tipo **Fin-Total** antes de ejecutar la función **Aplicar sangría a tipos coste**, deberá volver a escribir las definiciones más adelante porque la función sobrescribe los valores de todos los campos **Fin-Total**.  
 
 ## <a name="to-update-cost-types"></a>Para actualizar tipos de coste  
-1.  En la ventana **Configuración contabilidad costes**, seleccione si desea que el plan de tipos de coste se actualice automáticamente cuando el plan de cuentas se cambia.  
+1.  En la página **Configuración contabilidad costes**, seleccione si desea que el plan de tipos de coste se actualice automáticamente cuando el plan de cuentas se cambia.  
 2.  En el campo **Alinear cuenta C/G** puede seleccionar de entre las siguientes opciones.  
 
 - **Sin alineación**: no hay cambio aplicable en el plan de tipos de coste cuando se modifica el plan de cuentas.  
@@ -57,7 +58,6 @@ El plan de tipos de coste es similar al plan de cuentas de contabilidad general.
 
 ## <a name="see-also"></a>Consulte también  
 [Contabilidad para costes](finance-manage-cost-accounting.md)  
-[Definición de la relación entre los tipos de coste y las cuentas de contabilidad](finance-defining-the-relationship-between-cost-types-and-general-ledger-accounts.md)   
 [Definición de centros de coste y de objetos de coste para el plan de cuentas](finance-defining-cost-centers-and-cost-objects-for-chart-of-accounts.md)   
 [Saldos entre el tipo de coste, centro de coste y objeto de coste](finance-balances-between-cost-type-cost-center-and-cost-object.md)   
 [Configuración de contabilidad de costes](finance-set-up-cost-accounting.md)   

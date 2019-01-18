@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e8072a9e21349f3a8e8f9d21f5b011bae72a69e0
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 1b2a83ddbac54d5034b043c3124f698613be4642
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Creación de informes de costes y conciliación con la contabilidad
@@ -31,7 +31,7 @@ Al finalizar el periodo contable, mensual, anual o del tipo que sea, se llevan a
 |Ver el valor en inventario de los productos seleccionados, incluido su coste real y esperado en la fecha especificada.|Informe **Valorac. exist.-especif. coste**|  
 |Usar un informe para analizar los motivos de las evoluciones de los costes o conocer las partes de costes de los productos vendidos (CV).|Informe **Análisis partes costes**|  
 |Registrar periódicamente los movimientos de valor de las transacciones de productos desde el inventario a las cuentas contables relacionadas para reconciliar las dos contabilidades.|[Conciliar costes de inventario con la contabilidad general](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
-|Usar una ventana para auditar la reconciliación entre la contabilidad de inventario y la contabilidad general.|[Conciliar costes de inventario con la contabilidad general](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
+|Usar una página para auditar la reconciliación entre la contabilidad de inventario y la contabilidad general.|[Conciliar costes de inventario con la contabilidad general](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
 |Determinar el importe WIP que debe registrarse en cuentas de balance para informes de final de periodo.|[Supervisar el progreso y el rendimiento del trabajo](projects-how-monitor-progress-performance.md)|
 
 ## <a name="see-also"></a>Consulte también  

@@ -11,17 +11,17 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6923414d6e1fb56a48c3715eaa1c2fa3c4ee9f69
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6ced619dc9a43f7db0b4d78bf3de08a6dac27653
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Usar Business Central como su bandeja de entrada de empresa en Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] introduce la posibilidad de gestionar las interacciones comerciales con sus clientes y proveedores directamente en Microsoft Outlook. Con los complementos de Outlook de [!INCLUDE[d365fin](includes/d365fin_md.md)], puede ver los datos financieros relativos a los clientes y los proveedores, así como crear y enviar documentos financieros, como por ejemplo presupuestos y facturas.  
 
 ## <a name="getting-the-add-in"></a>Obtener el complemento
-En [!INCLUDE[d365fin](includes/d365fin_md.md)], uno de los pasos en la guía de configuración de Introducción es la ventana **Dirija su empresa desde Office 365**. En dicha ventana, cuando selecciona el botón **Registrarse en Outlook**, debe especificar su nombre de usuario y contraseña de Office 365. Los complementos [!INCLUDE[d365fin](includes/d365fin_md.md)] se agregan automáticamente a su Outlook.  
+En [!INCLUDE[d365fin](includes/d365fin_md.md)], uno de los pasos en la guía de configuración de Introducción es la página **Dirija su empresa desde Office 365**. En dicha página, cuando selecciona el botón **Registrarse en Outlook**, debe especificar su nombre de usuario y contraseña de Office 365. Los complementos [!INCLUDE[d365fin](includes/d365fin_md.md)] se agregan automáticamente a su Outlook.  
 
 A continuación, cuando abre Outlook, verá los correos electrónicos del administrador de Business Central. Se agrega el nuevo complemento a la cinta de opciones de Outlook y en el acceso red para Outlook, puede verlo en la cinta de complemento inmediatamente superior al cuerpo del correo electrónico. El complemento se actualizará periódicamente y recibirá la notificación de que tiene lista una nueva versión en Outlook.  
 
@@ -35,7 +35,7 @@ Una vez tenga los datos introducidos puede registrar el presupuesto. Puede envia
 
 De igual forma, si recibe un correo electrónico de un proveedor, puede utilizar el complemento para trabajar con proveedores y facturas de compra.  
 
-En ocasiones desea ver más campos de los que puede ver en el complemento, como cuando desea rellenar líneas en una factura. Para darle un poco más de espacio para trabajar con eso, puede abrir una ventana emergente con el complemento. Sigue formando parte de Outlook pero dispone de más espacio. Cuando introduce datos en el documento en la vista de ventana emergente, los cambios se guardan automáticamente. Cuando haya terminado de introducir datos en el documento puede elegir el botón **Aceptar**. Seleccionando el marco del complemento en Outlook se actualiza automáticamente el documento con los cambios que haya hecho en la vista de ventana emergente.  
+En ocasiones desea ver más campos de los que puede ver en el complemento, como cuando desea rellenar líneas en una factura. Para darle un poco más de espacio para trabajar con eso, puede abrir una página independiente con el complemento. Sigue formando parte de Outlook pero dispone de más espacio. Cuando introduce datos en el documento en la vista de ventana emergente, los cambios se guardan automáticamente. Cuando haya terminado de introducir datos en el documento puede elegir el botón **Aceptar**. Seleccionando el marco del complemento en Outlook se actualiza automáticamente el documento con los cambios que haya hecho en la vista de ventana emergente.  
 
 ## <a name="creating-invoices-from-your-meeting-appointments"></a>Crear facturas de las citas de reunión
 Algunos empresas registran todas las citas facturables en el calendario de Outlook. Con [!INCLUDE[d365fin](includes/d365fin_md.md)], puede crear la factura para el cliente directamente en el producto de calendario: abra la cita y, a continuación, puede abrir el complemento [!INCLUDE[d365fin](includes/d365fin_md.md)], buscar la información existente o crear una factura u otro documento de venta directamente.  
@@ -50,9 +50,9 @@ En el complemento Vínculos de documento puede modificar y realizar diferentes a
 ## <a name="adding-the-add-ins-manually"></a>Agregar los complementos manualmente
 En algunos casos, los complementos no se agregan automáticamente a Outlook. Incluso si usted o un compañero han ejecutado la guía de configuración asistida en nombre de la empresa, es posible que [!INCLUDE[d365fin](includes/d365fin_md.md)] no aparezca en Outlook. Si tiene este problema, puede agregar los complementos de [!INCLUDE[d365fin](includes/d365fin_md.md)] manualmente.  
 
-En primer lugar, debe comprobar que tiene acceso a los complementos en su cuenta de Office 365. Solo tiene que abrir Outlook Web Access en un explorador y, a continuación, agregar `/owa/#path=/options/manageapps` a la dirección URL en la barra de dirección. Se abrirá la ventana **Administrar complementos**, donde puede habilitar [!INCLUDE[d365fin](includes/d365fin_md.md)] para Outlook. A continuación, al volver a Outlook, [!INCLUDE[d365fin](includes/d365fin_md.md)] debe estar disponible.  
+En primer lugar, debe comprobar que tiene acceso a los complementos en su cuenta de Office 365. Solo tiene que abrir Outlook Web Access en un explorador y, a continuación, agregar `/owa/#path=/options/manageapps` a la dirección URL en la barra de dirección. Se abrirá la página **Administrar complementos**, donde puede habilitar [!INCLUDE[d365fin](includes/d365fin_md.md)] para Outlook. A continuación, al volver a Outlook, [!INCLUDE[d365fin](includes/d365fin_md.md)] debe estar disponible.  
 
-De igual forma, en el cliente de escritorio de Outlook puede comprobar que [!INCLUDE[d365fin](includes/d365fin_md.md)] se muestran en la ventana **Administrar complementos**.  
+De igual forma, en el cliente de escritorio de Outlook puede comprobar que [!INCLUDE[d365fin](includes/d365fin_md.md)] se muestran en la página **Administrar complementos**.  
 
 En ambos casos, si [!INCLUDE[d365fin](includes/d365fin_md.md)] sigue sin estar disponible, tiene que obtener los archivos del manifiesto del complemento. Para obtener más información, póngase en contacto con su administrador de Office 365.
 

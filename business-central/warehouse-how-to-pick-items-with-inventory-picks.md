@@ -13,23 +13,23 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 816482c6966f3b492cd79b67ac39a33a11cd3d88
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4537dbb31768ff681dd71775c3813d23caba599b
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="pick-items-with-inventory-picks"></a>Realizar el picking de productos con picking inventario
-Cuando su almacén está configurado para requerir proceso de picking, pero no de envío, utilice la ventana **Picking inventario** para registrar la información de picking y envío de sus documentos de origen. El documento de origen de salida puede ser un pedido de venta, una devolución de compras, un pedido de transferencia de salida o una orden de producción cuyos componentes están preparados para picking.
+Cuando su almacén está configurado para requerir proceso de picking, pero no de envío, utilice la página **Picking inventario** para registrar la información de picking y envío de sus documentos de origen. El documento de origen de salida puede ser un pedido de venta, una devolución de compras, un pedido de transferencia de salida o una orden de producción cuyos componentes están preparados para picking.
 
 > [!NOTE]  
-> Los componentes para los pedidos de ensamblado no se seleccionar o registrar con picking de inventario. En lugar de eso, use la ventana **Movimiento inventario**. Para obtener más información, consulte [Mover componentes a un área de operaciones en el almacenamiento básico](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
+> Los componentes para los pedidos de ensamblado no se seleccionar o registrar con picking de inventario. En lugar de eso, use la página **Movimiento inventario**. Para obtener más información, consulte [Mover componentes a un área de operaciones en el almacenamiento básico](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
 
 >  Cuando las cantidades de la línea de picking y envío que se ensamblan para el pedido, debe seguir ciertas reglas al crear las líneas de picking de inventario. Para obtener más información, vea la sección “Tratamiento de productos ensamblar para pedido en los picking de inventario”.  
 
 Puede crear un picking de inventario de tres formas:  
 
-- Cree el picking en dos pasos solicitando primero un picking de inventario mediante el lanzamiento del documento de origen. Esto indica al almacén que el documento de origen está preparado para el picking. A continuación, se puede crear el picking de inventario en la ventana **Picking inventario** según el documento de origen.  
+- Cree el picking en dos pasos solicitando primero un picking de inventario mediante el lanzamiento del documento de origen. Esto indica al almacén que el documento de origen está preparado para el picking. A continuación, se puede crear el picking de inventario en la página **Picking inventario** según el documento de origen.  
 - Cree el picking de inventario directamente desde el propio documento de origen.  
 - Con el trabajo por lotes, puede crear picking de inventario para varios documentos de origen al mismo tiempo.  
 
@@ -70,7 +70,7 @@ Ahora que se ha creado la solicitud, el empleado del almacén puede crear un nue
 
 ## <a name="to-record-the-inventory-picks"></a>Para registrar los picking de inventario  
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Picking de inventario** y luego elija el enlace relacionado.  
-2. En las líneas de picking del campo **Cód. ubicación**, la ubicación desde la cual se debe realizar el picking de productos se sugiere como la ubicación predeterminada del artículo. Si es necesario puede cambiar la ubicación en esta ventana.  
+2. En las líneas de picking del campo **Cód. ubicación**, la ubicación desde la cual se debe realizar el picking de productos se sugiere como la ubicación predeterminada del artículo. Si es necesario puede cambiar la ubicación en esta página.  
 3. Realice el picking e introduzca la información de la cantidad de ubicación real en la ventana **Cdad. a manipular**.
 
     Si es necesario realizar el picking de productos para otra línea des de varias ubicaciones porque no están disponibles en la ubicación designada, por ejemplo, utilice la función **Dividir línea** en la ficha desplegable **Líneas**. Para obtener más información acerca de cómo dividir líneas, consulte[Dividir las líneas de actividad de almacén](warehouse-how-to-split-warehouse-activity-lines.md).  
@@ -87,11 +87,11 @@ Si los productos del picking de inventario no están disponibles, puede eliminar
 >  Si las líneas de picking de inventario tienen números de lote/serie que no están disponibles, no debe eliminar las líneas en cuestión. En su lugar, debe cambiar campo **Cdad. a manipular** a cero, registrar los picking reales y eliminar el documento de picking de inventario. Esto asegura que las líneas de picking de inventario de tales números de lote/serie se pueden volver a crear a partir del pedido de venta más adelante.  
 
 ## <a name="handling-assemble-to-order-items-with-inventory-picks"></a>Tratamiento de productos de ensamblar para pedido con los picking de inventario
-La ventana **Picking de inventario** también se utiliza para realizar el picking y envíos para ventas cuando los productos se deben ensamblar antes de que se puedan enviar. Para obtener más información, consulte [Venta de artículos ensamblados para pedido](assembly-how-to-sell-items-assembled-to-order.md).
+La página **Picking de inventario** también se utiliza para realizar el picking y envíos para ventas cuando los productos se deben ensamblar antes de que se puedan enviar. Para obtener más información, consulte [Venta de artículos ensamblados para pedido](assembly-how-to-sell-items-assembled-to-order.md).
 
 Los productos que se van a enviar no están presentes físicamente en una ubicación hasta que se ensamblan y se registran como salida en una ubicación de la zona de ensamblado. Esto significa que realizar el picking de productos ensamblar para pedido para el envío sigue un flujo especial. De una ubicación, los empleados del almacén toman los productos de ensamblado al muelle de envío y después registran el picking de inventario. El picking de inventario registrado registra a continuación la salida de ensamblado, el consumo de componentes y el albarán de venta.
 
-Puede configurar [!INCLUDE[d365fin](includes/d365fin_md.md)] para que cree automáticamente un movimiento de inventario cuando el picking de inventario para el producto del ensamblado se crea. Para habilitarlo, debe seleccionar el campo **Crear movimientos automáticamente** en la ventana **Conf. ensamblado**. Para obtener más información, consulte [Mover componentes a un área de operaciones en el almacenamiento básico](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
+Puede configurar [!INCLUDE[d365fin](includes/d365fin_md.md)] para que cree automáticamente un movimiento de inventario cuando el picking de inventario para el producto del ensamblado se crea. Para habilitarlo, debe seleccionar el campo **Crear movimientos automáticamente** en la página **Conf. ensamblado**. Para obtener más información, consulte [Mover componentes a un área de operaciones en el almacenamiento básico](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
 
 Las líneas de picking de existencias se crean de diferentes modos en función de que no se ensamble ninguna, alguna o toda la cantidad de línea de venta para pedido.
 
@@ -101,7 +101,7 @@ De las ventas de ensamblar para pedido cuya cantidad total de la línea de pedid
 
 Si un flujo de salida de ensamblado está configurado para el almacén, el valor del campo **Cód. ubic. ens.contra-pedido** o el valor en el campo **Cód. ubic. desde ensamblado**, en ese orden, se inserta en el campo **Cód. ubicación** de la línea de picking de inventario.
 
-Si no se especifica ningún código de ubicación de la línea de pedido de venta, y no se configura ningún flujo de salida de ensamblado para el almacén, el campo **Cód. ubicación** de la línea de picking de inventario está vacío. El empleado del almacén debe abrir la ventana **Contenidos ubicación** y seleccionar el almacén donde se ensamblan los productos de ensamblado.
+Si no se especifica ningún código de ubicación de la línea de pedido de venta, y no se configura ningún flujo de salida de ensamblado para el almacén, el campo **Cód. ubicación** de la línea de picking de inventario está vacío. El empleado del almacén debe abrir la página **Contenidos ubicación** y seleccionar el almacén donde se ensamblan los productos de ensamblado.
 
 En escenarios de combinación, donde parte de la cantidad debe ensamblarse primero y a la otra se le debe realizar el picking de inventario, un mínimo de dos líneas de picking de inventario se crea. Una línea de picking es para la cantidad de ensamblado para pedido. La otra línea de picking depende de qué ubicación pueden cubrir la cantidad pendiente de inventario. Los códigos de ubicación en las dos líneas se completan de formas distintas según se describe para los dos tipos de venta respectivamente. Para obtener más información, consulte la sección "Escenarios de combinación" en [Comprender Ensamblar para pedido y Ensamblar para stock](assembly-assemble-to-order-or-assemble-to-stock.md).
 

@@ -13,16 +13,16 @@ ms.search.keywords: service, service items, respond, response
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9a4debcccf673ca4b2f21ac35304e18c2f571d24
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 129d82355771872f4c1385ec2f1dee4965721dd8
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="delivering-service"></a>Prestación del servicio
 [!INCLUDE[d365fin](includes/d365fin_md.md)] proporciona funciones que le ayudarán a prestar servicio según los contratos que haya creado y los pedidos de servicio que se haya comprometido a cumplir. Sus técnicos de servicio o distribuidor encontrarán con facilidad los pedidos de servicio pendientes utilizando el **Panel despacho**. De un vistazo, el **Panel despacho** muestra qué pedidos están en curso y cuáles han finalizado.  
   
-Otro modo de revisar pedidos de servicio pendientes es usar la ventana **Tareas de servicio**. En esta visión de sus obligaciones de servicio, puede ver en qué parte de su flujo de trabajo de servicios se encuentra un pedido y cambiar el estado para reflejar interacciones con su cliente.  
+Otro modo de revisar pedidos de servicio pendientes es usar la página **Tareas de servicio**. En esta visión de sus obligaciones de servicio, puede ver en qué parte de su flujo de trabajo de servicios se encuentra un pedido y cambiar el estado para reflejar interacciones con su cliente.  
   
 En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.   
 

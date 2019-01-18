@@ -13,10 +13,10 @@ ms.search.keywords: print check, customize
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d8546cd2f713416e50474848e783d61b4b1dc810
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 743cf7ecbed4157dc9283a97baa956e69ec0c6b5
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="define-check-layouts"></a>Definir diseños de cheque
@@ -26,7 +26,7 @@ Los cheques se han diseñado para imprimir formatos de imágenes de cheque de Es
 
 ## <a name="to-define-check-layouts"></a>Para definir diseños de cheque
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Selección informes banco** y luego elija el enlace relacionado.
-2. En la ventana **Informe selección - Bancos**, en el campo **Uso**, seleccione **Cheque**.
+2. En la página **Informe selección - Bancos**, en el campo **Uso**, seleccione **Cheque**.
 3. Seleccione uno de los identificadores de informes siguientes:
 
 | Id. informe | Nombre informe | Descripción |
@@ -35,7 +35,7 @@ Los cheques se han diseñado para imprimir formatos de imágenes de cheque de Es
 | 10401 |Cheque (Matriz/Matriz/Cheque) |Este informe está diseñado para imprimir cheques en un formato matriz/matriz/cheque. |
 | 10411 |Cheque (Matriz/Cheque/Matriz) |Este informe está diseñado para imprimir cheques en un formato cheque/matriz/cheque. |
 
-Cuando haya configurado los diseños de cheques, puede imprimir cheques desde la ventana **Diario de pagos**. Para obtener más información, consulte [Trabajar con cheques](payables-how-work-checks.md).
+Cuando haya configurado los diseños de cheques, puede imprimir cheques desde la página **Diario de pagos**. Para obtener más información, consulte [Trabajar con cheques](payables-how-work-checks.md).
 
 ## <a name="see-also"></a>Consulte también
 [Administrar pagos](payables-manage-payables.md)  

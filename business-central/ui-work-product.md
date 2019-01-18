@@ -11,16 +11,16 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: bb055a2520af17d5b1b9aa2239ade210016bd2ac
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 1924ed56ebf31debbccbc6f94724a6ca93eeb7a6
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="working-with-included365finincludesd365finmdmd"></a>Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Al realizar tareas empresariales, el usuario interactúa con los datos de diferentes maneras; por ejemplo, crear registros e introducir datos, ordenar y filtrar datos, escribir notas y exportando datos a otras aplicaciones.
 
-Por ejemplo, puede ajustar el tamaño y la posición de cualquier ventana. Para ello, expanda la anchura de las columnas, aumente la altura de los encabezados de columna y cambie el orden de los datos de las columnas. Y si quiere usar la barra de desplazamiento horizontal para ver todas las columnas en una página de lista o en líneas de documentos, verá que hay una inmovilización del panel vertical para impedir el desplazamiento de algunas columnas.
+Por ejemplo, puede ajustar el tamaño y la posición de cualquier página. Para ello, expanda la anchura de las columnas, aumente la altura de los encabezados de columna y cambie el orden de los datos de las columnas. Y si quiere usar la barra de desplazamiento horizontal para ver todas las columnas en una página de lista o en líneas de documentos, verá que hay una inmovilización del panel vertical para impedir el desplazamiento de algunas columnas.
 
 En la tabla siguiente se indican algunas de las funciones generales con vínculos a los temas en que se describen.
 

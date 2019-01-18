@@ -13,10 +13,10 @@ ms.search.keywords: multiple currencies, payment, reconcile
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f8216885adb734dde214570c65b5f6036caa37d2
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6d58c088c776a953cb76d102b7deeb3b8d69b42a
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="enable-application-of-ledger-entries-in-different-currencies"></a>Permitir la liquidación de movimientos de cliente en distintas divisas
@@ -24,7 +24,7 @@ Si se realiza una compra a un proveedor en una divisa y se emite el pago en otra
 
 De igual modo, si vende a un cliente en una divisa y cobra en otra, puede liquidar el pago con la factura de venta.
 
-El procedimiento siguiente describe cómo configurarlo para movimientos de proveedor en la ventana **Configuración de compras y pagos**. La configuración es similar para los movimientos de cliente en la ventana **Configuración de ventas y cobros**.
+El procedimiento siguiente describe cómo configurarlo para movimientos de proveedor en la página **Configuración de compras y pagos**. La configuración es similar para los movimientos de cliente en la página **Configuración de ventas y cobros**.
 
 ## <a name="to-enable-application-of-vendor-ledger-entries-in-different-currencies"></a>Para permitir la liquidación de movimientos de proveedor en divisas distintas
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración compras y pagos** y luego elija el enlace relacionado.

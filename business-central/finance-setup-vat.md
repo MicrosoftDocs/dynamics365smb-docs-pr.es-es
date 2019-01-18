@@ -11,10 +11,10 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f23993964f0803f2153c2d190a23532113e5ddd2
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5f22880f56cd2834c9bd92061f166cd457bc58c1
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -125,7 +125,7 @@ Las declaraciones de IVA le permiten calcular el importe de liquidación de IVA 
 Para definir una declaración de IVA, realice los pasos siguientes:
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Declaraciones de IVA** y luego elija el enlace relacionado.  
-2. Elija el campo **Nombre** y después **Nuevo** en la ventana **Nombres declar. IVA**.
+2. Elija el campo **Nombre** y después **Nuevo** en la página **Nombres declar. IVA**.
 3. Rellene los campos requeridos. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!Tip]
@@ -148,7 +148,7 @@ Puede modificar o eliminar una cláusula de IVA, y las modificaciones se refleja
 
 ### <a name="to-set-up-vat-clauses"></a>Para configurar las cláusulas de IVA
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Cláusulas de IVA** y luego elija el enlace relacionado.  
-2. En la ventana **Cláusulas de IVA**, cree una nueva línea.  
+2. En la página **Cláusulas de IVA**, cree una nueva línea.  
 3. En el campo **Código**, especifique un identificador para la cláusula. Utilice este código para asignar la cláusula a grupos de registro de IVA.  
 4. En el campo **Descripción**, escriba el texto que desea mostrar en los documentos que pueden incluir el IVA. En el campo **Descripción 2**, escriba texto adicional, en caso necesario. El texto se muestra en las líneas nuevas.  
 5. Opcional: para asignar la cláusula de IVA a una configuración de registro de IVA inmediatamente, elija **Configuración** y, a continuación, la cláusula. Si desea esperar, puede asignar la cláusula después en la página Configuración de registro de IVA.  
@@ -178,7 +178,7 @@ Para configurar los códigos del IVA de importación, realice los pasos siguient
 ## <a name="to-verify-vat-registration-numbers"></a>Comprobar CIF/NIF
 Es importante que los números CIF/NIF que tiene para clientes, proveedores y contactos sean válidos. Por ejemplo, las empresas cambian a veces el estado de la deuda tributaria, y en algunos países las autoridades fiscales podrían solicitar informes, como, por ejemplo, el informe de lista de ventas de CE, que enumera los CIF/NIF que utiliza cuando realiza operaciones comerciales.
 
-La Comisión Europea proporciona el servicio de validación de número de IVA VIES en su sitio web, que es público y gratuito. [!INCLUDE[d365fin](includes/d365fin_md.md)] puede ahorrarle un paso y permitirle utilizar el servicio VIES para validar y realizar el seguimiento de los números IVA de clientes, proveedores y contactos desde las fichas de cliente, proveedor y contacto. El servicio en [!INCLUDE[d365fin](includes/d365fin_md.md)] se denomina **Servicio Validar CIF/NIF de la UE**. El servicio está disponible en la ventana **Conexiones de servicio** y puede comenzar a usarlo de inmediato. La conexión al servicio es gratuita y no es necesario registrarse.
+La Comisión Europea proporciona el servicio de validación de número de IVA VIES en su sitio web, que es público y gratuito. [!INCLUDE[d365fin](includes/d365fin_md.md)] puede ahorrarle un paso y permitirle utilizar el servicio VIES para validar y realizar el seguimiento de los números IVA de clientes, proveedores y contactos desde las fichas de cliente, proveedor y contacto. El servicio en [!INCLUDE[d365fin](includes/d365fin_md.md)] se denomina **Servicio Validar CIF/NIF de la UE**. El servicio está disponible en la página **Conexiones de servicio** y puede comenzar a usarlo de inmediato. La conexión al servicio es gratuita y no es necesario registrarse.
 
 > [!Note]
 > Para activar el CIF/NIF de la UE Servicio de validación, debe contar con permisos de administrador.
@@ -241,7 +241,7 @@ Antes de configurar la herramienta de cambio de tasa de IVA, debe llevar a cabo 
 
 ### <a name="to-set-up-product-posting-group-conversion"></a>Para configurar una conversión grupos de registro de producto  
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Conf. cambio tasa IVA** y luego elija el enlace relacionado.  
-2. En la ventana **Conf. cambio tasa IVA**, en la pestaña **Inicio**, en el grupo **Proceso**, seleccione **Conv. gr. contable producto IVA** o bien **Conv. gr. contable producto general**.  
+2. En la página **Conf. cambio tasa IVA**, en la pestaña **Inicio**, en el grupo **Proceso**, seleccione **Conv. gr. contable producto IVA** o bien **Conv. gr. contable producto general**.  
 3. En el campo **Código origen**, especifique el grupo de registro actual.  
 4. En el campo **Código destino**, especifique el nuevo grupo de registro.  
 

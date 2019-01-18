@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c771db9256edfb6cc82f8d7a16a1fdd307d030b7
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: cd83ddd7dcda539327167e34489c227cd1fdb70e
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-costing-methods"></a>Detalles de diseño: Métodos de coste
@@ -41,7 +41,7 @@ La valoración de existencias determina si en el cálculo de costes se capitaliz
 |Característica general|Fácil de comprender|Basándose en opciones de periodo: **Día**/**Semana**/**Mes**/**Trimestre**/**Periodo contable**.<br /><br /> Se puede calcular por producto o por producto, almacén y variante.|Fácil de usar pero requiere mantenimiento cualificado.|Requiere el seguimiento de producto en la transacción de entrada y de salida.<br /><br /> Normalmente se usa para productos serializados.|  
 |Aplicación/ajuste|La aplicación hace un seguimiento de **la cantidad pendiente**.<br /><br /> El ajuste desvía los costes según la liquidación de la cantidad.|La aplicación hace un seguimiento de la **cantidad pendiente**.<br /><br /> Los costes se calculan y se envían por la **fecha de valoración**.|La aplicación hace un seguimiento de la **cantidad pendiente**.<br /><br /> La aplicación se basa en el método FIFO.|Toda las liquidaciones son fijas.|  
 |Revaluación|Revaloriza solo la cantidad facturada.<br /><br /> Se puede hacer por producto o por movimiento de producto.<br /><br /> Se puede realizar retroactivamente.|Revaloriza solo la cantidad facturada.<br /><br /> Se puede hacer solo por producto.<br /><br /> Se puede realizar retroactivamente.|Revaloriza las cantidades facturadas y no facturadas.<br /><br /> Se puede hacer por producto o por movimiento de producto.<br /><br /> Se puede realizar retroactivamente.|Revaloriza solo la cantidad facturada.<br /><br /> Se puede hacer por producto o por movimiento de producto.<br /><br /> Se puede realizar retroactivamente.|  
-|Varios|Si se especifica una fecha retroactiva para una salida de existencias, las entradas existentes NO se volverán a liquidar para proporcionar un flujo correcto FIFO del coste.|Si se retrocede la fecha de una entrada o una salida del inventario, se vuelve a calcular el coste medio y se ajustan todos los registros afectados.<br /><br /> Si cambia el periodo o el tipo de cálculo, todos los registros afectados deben ajustarse.|Utilice la ventana **Hoja de trabajo estándar** para actualizar y distribuir periódicamente los costes estándar.<br /><br /> NO se admite por UA.<br /><br /> No existe ningún registro histórico para los costes estándar.|Puede utilizar el seguimiento de producto específico sin usar la valoración de existencias Específica. El coste NO seguirá el número de lote, sino el coste supuesto de la valoración de existencias seleccionada.|  
+|Varios|Si se especifica una fecha retroactiva para una salida de existencias, las entradas existentes NO se volverán a liquidar para proporcionar un flujo correcto FIFO del coste.|Si se retrocede la fecha de una entrada o una salida del inventario, se vuelve a calcular el coste medio y se ajustan todos los registros afectados.<br /><br /> Si cambia el periodo o el tipo de cálculo, todos los registros afectados deben ajustarse.|Utilice la página **Hoja de trabajo estándar** para actualizar y distribuir periódicamente los costes estándar.<br /><br /> NO se admite por UA.<br /><br /> No existe ningún registro histórico para los costes estándar.|Puede utilizar el seguimiento de producto específico sin usar la valoración de existencias Específica. El coste NO seguirá el número de lote, sino el coste supuesto de la valoración de existencias seleccionada.|  
 
 ## <a name="example"></a>Ejemplo  
  En esta sección se proporcionan ejemplos de cómo las distintas valoraciones de existencias afectan al valor de inventario.  

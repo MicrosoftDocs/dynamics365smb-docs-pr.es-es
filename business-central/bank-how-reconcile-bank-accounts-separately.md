@@ -13,33 +13,33 @@ ms.search.keywords: bank account balance, bank statement
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: a69aa15b544ce3eee819fc9a05f6f0c8a74af6bc
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: feb29e3cee1a55833566657a6a007af8854f98f5
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="reconcile-bank-accounts-separately"></a>Conciliar cuentas bancarias
-Para conciliar las cuentas bancarias en [!INCLUDE[d365fin](includes/d365fin_md.md)] con las declaraciones recibidas del banco, comience completando el panel izquierdo en la ventana **Conciliación banco** con información del extracto de cuenta que luego coincide (concilia) con los movimientos de cuenta bancaria en el panel derecho. Una manera inteligente de completar las líneas de extracto bancario es mediante la importación de un extracto o archivo de extracto bancario.
+Para conciliar las cuentas bancarias en [!INCLUDE[d365fin](includes/d365fin_md.md)] con las declaraciones recibidas del banco, comience completando el panel izquierdo en la página **Conciliación banco** con información del extracto de cuenta que luego coincide (concilia) con los movimientos de cuenta bancaria en el panel derecho. Una manera inteligente de completar las líneas de extracto bancario es mediante la importación de un extracto o archivo de extracto bancario.
 
 > [!NOTE]  
-> En las versiones de EE. UU., también puede realizar este trabajo en **Hoja de trabajo de conciliación bancaria**, que es más adecuada para cheques y depósitos, pero no ofrece importación de archivos de extracto bancario. Para usar esta ventana en lugar de la **Conciliación banco**, anule la selección del campo **Reconocimiento banc con auto. coinc.** en la ventana **Configuración de contabilidad**. Para obtener más información, consulte la sección "Conciliar cuentas bancarias" en Funcionalidad local para Estados Unidos.
+> En las versiones de EE. UU., también puede realizar este trabajo en la página **Hoja de trabajo de conciliación bancaria**, que es más adecuada para cheques y depósitos, pero no ofrece importación de archivos de extracto bancario. Para usar esta página en lugar de la página **Conciliación banco**, anule la selección del campo **Reconocimiento banc con auto. coinc.** en la página **Configuración de contabilidad**. Para obtener más información, consulte la sección "Conciliar cuentas bancarias" en Funcionalidad local para Estados Unidos.
 
 > [!TIP]  
-> También puede conciliar las cuentas bancarias en la ventana **Diario de conciliación de pagos**. Todas las cuenta abiertas relacionada con los movimientos de los clientes o los proveedores se cerrarán cuando seleccione la acción **Registrar pagos y conciliar banco**. Eso significa que la cuenta bancaria se concilia automáticamente por los pagos que registró mediante el diario. Para obtener más información, vea [Conciliar pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md).
+> También puede conciliar las cuentas bancarias en la página **Diario de conciliación de pagos**. Todas las cuenta abiertas relacionada con los movimientos de los clientes o los proveedores se cerrarán cuando seleccione la acción **Registrar pagos y conciliar banco**. Eso significa que la cuenta bancaria se concilia automáticamente por los pagos que registró mediante el diario. Para obtener más información, vea [Conciliar pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md).
 
 Para habilitar tanto la importación de extractos bancarios como la fuente de banco, primero debe configurar y habilitar el servicio de fuente de banco de Envestnet Yodlee y, a continuación, vincular sus cuentas bancarias a las cuentas bancarias en línea relacionadas. Para obtener más información, vea [Configuración del servicio de fuente de banco de Envestnet Yodlee](bank-how-setup-bank-statement-service.md)
 
-Las líneas de la ventana **Conciliación banco** se dividen en dos paneles. El panel de **Líneas de extracto bancario** muestra tanto las transacciones bancarias como los movimientos con pagos pendientes. El panel **Movs. bancos** muestra los movimientos de la cuenta bancaria.
+Las líneas de la página **Conciliación banco** se dividen en dos paneles. El panel de **Líneas de extracto bancario** muestra tanto las transacciones bancarias como los movimientos con pagos pendientes. El panel **Movs. bancos** muestra los movimientos de la cuenta bancaria.
 
 La actividad de búsqueda y liquidación de los movimientos que hay que conciliar se denomina *coincidencia*. Puede realizar la correspondencia automáticamente mediante la función **Conciliar automáticamente**. Alternativamente, puede seleccionar manualmente líneas en ambos paneles para vincular cada línea del extracto bancario a uno o más movimientos de banco relacionados y, a continuación, utilizar la función **Conciliar manualmente**. La casilla de verificación **Liquidado** se selecciona en las líneas en las que los movimientos coinciden.
 
-Puede rellenar el panel **Líneas de extracto bancario** en la ventana **Conciliación banco** de la siguiente manera:
+Puede rellenar el panel **Líneas de extracto bancario** en la página **Conciliación banco** de la siguiente manera:
 
 * Automáticamente, utilizando la función **Importar extracto banco** para rellenar las líneas según los extractos de banco reales basándose en un archivo que proporciona el banco.
 * Manualmente, usando la función **Proponer líneas** para rellenar las líneas con los movimientos de las facturas que tienen pagos pendientes.
 
-Cuando el valor en el campo **Saldo total** en el panel **Líneas de extracto bancario** es igual al valor del campo **Saldo a conciliar** en el panel **Movs. bancos**, puede seleccionar la acción **Registrar** para conciliar los movimientos de la cuenta bancaria liquidados. Los movimientos no liquidados de la cuenta permanecerán en la ventana, lo que indica que los pagos procesados para el banco no están reflejados en el último extracto bancario o que algunos pagos se han recibido en cheques.
+Cuando el valor en el campo **Saldo total** en el panel **Líneas de extracto bancario** es igual al valor del campo **Saldo a conciliar** en el panel **Movs. bancos**, puede seleccionar la acción **Registrar** para conciliar los movimientos de la cuenta bancaria liquidados. Los movimientos no liquidados de la cuenta permanecerán en la página, lo que indica que los pagos procesados para el banco no están reflejados en el último extracto bancario o que algunos pagos se han recibido en cheques.
 
 > [!NOTE]  
 >   Si las líneas del extracto bancario están relacionadas con los movimientos del cheque, no puede utilizar las funciones de correspondencia. En lugar de eso, debe elegir la acción **Liquidar movs.** y, a continuación, seleccionar el movimiento de cheque correspondiente con el que desea relacionar la línea del extracto de cuenta.
@@ -51,19 +51,19 @@ Cuando el valor en el campo **Saldo total** en el panel **Líneas de extracto ba
 4. En el campo **Fecha extracto**, escriba la fecha del extracto del banco.
 5. En el campo **Saldo final extracto** escriba el saldo del extracto del banco.
 6. Si tiene un archivo de extracto bancario seleccione la acción **Importar extracto bancario**.
-7. Busque el archivo y haga clic en el botón **Abrir** para importar las transacciones bancarias en las líneas de la ventana **Conciliación banco**.
+7. Busque el archivo y haga clic en el botón **Abrir** para importar las transacciones bancarias en las líneas de la página **Conciliación banco**.
 
 ## <a name="to-fill-bank-reconciliation-lines-with-the-suggest-lines-function"></a>Para rellenar las líneas de conciliación bancarias con la función Proponer líneas
-1. En la ventana **Conciliación banco** seleccione la acción **Proponer líneas**.
+1. En la página **Conciliación banco** seleccione la acción **Proponer líneas**.
 2. En el campo **Fecha inicial** escriba la fecha de registro más antigua para la conciliación de los movimientos.
 3. En el campo **Fecha final**, escriba la fecha de registro que se usó por última vez para la conciliación de los movimientos.
 4. Seleccione la casilla de verificación **Incluir cheques** para proponer movimientos de cheques en lugar de los movimientos correspondientes de la cuenta.
 5. Elija el botón **Aceptar**.
 
 ## <a name="to-match-bank-statement-lines-with-bank-account-ledger-entries-automatically"></a>Para conciliar automáticamente las líneas de extracto bancario con movimientos de la cuenta
-La ventana ofrece una funcionalidad de coincidencia automática que liquida pagos a sus movimientos abiertos relacionados basados en una coincidencia de texto en una línea de estado bancario (panel izquierdo) con texto en uno o más movs. de contabilidad (panel derecho). Tenga en cuenta que puede sobrescribir las aplicaciones automáticas sugeridas y puede optar por no utilizar la aplicación automática. Para obtener más información, consulte el procedimiento siguiente.
+La página ofrece una funcionalidad de coincidencia automática que liquida pagos a sus movimientos abiertos relacionados basados en una coincidencia de texto en una línea de estado bancario (panel izquierdo) con texto en uno o más movs. de contabilidad (panel derecho). Tenga en cuenta que puede sobrescribir las aplicaciones automáticas sugeridas y puede optar por no utilizar la aplicación automática. Para obtener más información, consulte el procedimiento siguiente.
 
-1. En la ventana **Conciliación banco** seleccione la acción **Conciliar automáticamente**. La ventana **Conciliar movimientos** se abre.
+1. En la página **Conciliación banco** seleccione la acción **Conciliar automáticamente**. La página **Conciliar movimientos** se abre.
 2. En el campo **Tolerancia de datos de transacción (días)**, especifique el intervalo de días antes y después de la fecha de registro del movimiento del banco dentro de la cual la función buscará las fechas de transacciones coincidentes en el extracto bancario.
 
     Si especifica cero o deja el campo en blanco la función **Conciliar automáticamente** buscará solo por las fechas de transacción coincidentes en la fecha de registro de movimientos de la cuenta.
@@ -73,7 +73,7 @@ La ventana ofrece una funcionalidad de coincidencia automática que liquida pago
 4. Para eliminar un coincidencia seleccione la línea de extracto de cuenta y, a continuación, seleccione la acción **Eliminar conciliación**.
 
 ## <a name="to-match-bank-statement-lines-with-bank-account-ledger-entries-manually"></a>Para conciliar manualmente las líneas de extracto bancario con movimientos de la cuenta
-1. En la ventana **Conciliar banco** seleccione una línea no conciliada en el panel **Líneas de extracto bancario**.
+1. En la página **Conciliar banco** seleccione una línea no conciliada en el panel **Líneas de extracto bancario**.
 2. En el panel **Movs. bancos** seleccione uno o más movimientos de la cuenta que pueden coincidir con la línea del extracto bancario seleccionada. Para elegir varias líneas, mantenga presionada la tecla CTRL.
 3. Seleccione la acción **Conciliar manualmente**.
 
@@ -84,16 +84,16 @@ La ventana ofrece una funcionalidad de coincidencia automática que liquida pago
 ## <a name="to-create-missing-ledger-entries-to-match-bank-transactions-with"></a>Para crear movimientos no existentes para coincidir con las transacciones de banco
 En ocasiones, un extracto bancario contiene importes por los intereses y recargos cobrados. Dichas transacciones bancarias no pueden conciliarse porque no existen movimientos relacionados en [!INCLUDE[d365fin](includes/d365fin_md.md)]. A continuación, deberá registrar una linea de diario para cada transacción para crear un movimiento relacionado que pueda coincidir.
 
-1. En la ventana **Conciliación banco** seleccione la acción **Transferir al diario general**.  
-2. En la ventana **Transf. conciliación al diario**, especifique el diario general que se usará y haga clic en **Aceptar**.
+1. En la página **Conciliación banco** seleccione la acción **Transferir al diario general**.  
+2. En la página **Transf. conciliación al diario**, especifique el diario general que se usará y haga clic en **Aceptar**.
 
-    La ventana **Diario general** se abre una ventana que contiene nuevas líneas del diario para las líneas de extracto bancario con los movimientos que faltan.
+    La página **Diario general** se abre una ventana que contiene nuevas líneas del diario para las líneas de extracto bancario con los movimientos que faltan.
 3. Complete la línea del diario con la información relevante, como la cuenta de contrapartida. Para obtener más información, consulte [Trabajar con diarios generales](ui-work-general-journals.md).  
-4. Para revisar el resultado del registro antes de registrar, seleccione **Informe de prueba**. Se abre el informe **Estado de cuenta bancaria** y muestra los mismos campos que en el encabezado de la ventana **Conciliación banco**.
+4. Para revisar el resultado del registro antes de registrar, seleccione **Informe de prueba**. Se abre el informe **Estado de cuenta bancaria** y muestra los mismos campos que en el encabezado de la página **Conciliación banco**.
 4. Seleccione la acción **Registrar**.
 
     Una vez registrado el movimiento, puede empezar a liquidar la transacción de extracto bancario:
-5. Actualice o reabra la ventana **Conciliación banco**. El nuevo movimiento aparecerá en el panel **Movs. bancos**.
+5. Actualice o reabra la página **Conciliación banco**. El nuevo movimiento aparecerá en el panel **Movs. bancos**.
 6. Concilie la línea del extracto bancario al movimiento de la cuenta manual o automáticamente.
 
 ## <a name="see-also"></a>Consulte también

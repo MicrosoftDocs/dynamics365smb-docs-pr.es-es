@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9691df30fef92fcd3c459558e14c2fd627e74099
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 01e517daea89c5371f95df963831ab8f8d9bf523
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="mandatory-fields"></a>Campos obligatorios
@@ -24,9 +24,9 @@ Cuando se introducen datos en páginas de [!INCLUDE[d365fin](includes/d365fin_md
 Aunque el campo contiene un asterisco rojo, no se le obliga a rellenar el campo para ir a otros campos o cerrar la página. El asterisco rojo solo sirve como recordatorio de que se le bloqueará y no podrá terminar un determinado proceso.
 
 ## <a name="examples"></a>Ejemplos
-En la ventana **Ficha cliente**, el asterisco de color rojo aparece en el campo **Nombre**, en el campo **Cód. área impuesto** y en los campos del grupo contable para indicar que no puede registrar una transacción de venta para el cliente a menos que se rellenen los campos.
+En la página **Ficha cliente**, el asterisco de color rojo aparece en el campo **Nombre**, en el campo **Cód. área impuesto** y en los campos del grupo contable para indicar que no puede registrar una transacción de venta para el cliente a menos que se rellenen los campos.
 
-En la ventana **Ficha producto**, el asterisco de color rojo aparece en el campo **Descripción** para indicar que no podrá especificar el producto en una línea de documento, como un pedido de venta, a menos que se rellene este campo.
+En la página **Ficha producto**, el asterisco de color rojo aparece en el campo **Descripción** para indicar que no podrá especificar el producto en una línea de documento, como un pedido de venta, a menos que se rellene este campo.
 
 ## <a name="see-also"></a>Consulte también
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

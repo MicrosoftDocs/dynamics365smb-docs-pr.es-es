@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 420aac30c9b9a76c8874e6697cfa0e105bb1744a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b09a740ccd0054418c597285ebe65827827ad9de
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="pick-items-for-warehouse-shipment"></a>Realizar un picking de los artículos para el envío de almacén
@@ -26,9 +26,9 @@ No se puede crear un documento de picking de almacén desde cero porque una acti
 
 Puede crear los documentos de picking de almacén en forma de extracción abriendo un documento de envío vacío de almacén, detectando los documentos de origen para lanzar el envío y creando las líneas de picking de almacén para esos envíos. Puede utilizar las funciones **Traer doc. origen** o **Utilizar filtro para obtener documentos origen** para detectar los documentos de origen que están preparados para el envío.
 
-Como alternativa, puede utilizar la ventana **Preparar hoj. trab. pedido** para obtener y crear líneas de picking en lote. Para obtener más información, consulte [Planifique pickings en hojas de trabajo](warehouse-how-to-plan-picks-in-worksheets.md).  
+Como alternativa, puede utilizar la página **Preparar hoj. trab. pedido** para obtener y crear líneas de picking en lote. Para obtener más información, consulte [Planifique pickings en hojas de trabajo](warehouse-how-to-plan-picks-in-worksheets.md).  
 
-También puede crear los documentos de picking de almacén en forma de empuje de la ventana **Envío almacén** seleccionando **Crear picking**.  
+También puede crear los documentos de picking de almacén en forma de empuje de la página **Envío almacén** seleccionando **Crear picking**.  
 
 > [!NOTE]  
 >  Picking en el envío de almacén de los productos que se ensamblan al pedido de venta que se envía sigue los mismos pasos que para picking de almacén normales para envío, tal como se describe en este tema. Sin embargo, el número de líneas de picking por la cantidad a enviar puede ser de "muchas a una" porque realiza el picking de los componentes, no el producto del ensamblado.  
@@ -52,7 +52,7 @@ También puede crear los documentos de picking de almacén en forma de empuje de
 
 4.  Cuando haya hecho el picking y colocado los productos en el área de o ubicación de envío, elija la acción **Registrar picking**.  
 
-La persona responsable de envío ahora puede llevar los artículos al muelle de envío y registrar el envío, incluido el documento de origen relacionado, en la ventana de **Envío de almacén**. Para obtener más información, consulte [Enviar productos](warehouse-how-ship-items.md).   
+La persona responsable de envío ahora puede llevar los artículos al muelle de envío y registrar el envío, incluido el documento de origen relacionado, en la página **Envío de almacén**. Para obtener más información, consulte [Enviar productos](warehouse-how-ship-items.md).   
 
 Además del picking para los documentos de origen, tal como se describe en este tema, puede traer y situar los artículos entre las ubicaciones sin hacer referencia a los documentos de origen. Para obtener más información, vea [Realizar el picking y la ubicación sin un documento de origen](warehouse-how-to-create-put-aways-from-internal-put-aways.md).  
 
@@ -63,7 +63,7 @@ Para las demás líneas de envío de almacén, el valor del campo **Cdad. a envi
 
 Cuando los trabajadores responsables del ensamblado terminan de montar componentes o toda la cantidad de ensamblar para pedido, la registran en el campo **Cdad. a enviar** de la línea de envío de almacén y eligen la acción **Registrar envío**. El resultado es que se registra la salida de ensamblado correspondiente, incluido el consumo de componentes. Un envío de venta para la cantidad se registra para el pedido de venta.
 
-Desde el pedido de ensamblado, puede elegir **Lín. envío almacén ensamblar para pedido** para acceder a la línea de envío de almacén. Esto resulta adecuado para los trabajadores que no utilizan normalmente la ventana **Envío de almacén**.
+Desde el pedido de ensamblado, puede elegir **Lín. envío almacén ensamblar para pedido** para acceder a la línea de envío de almacén. Esto resulta adecuado para los trabajadores que no utilizan normalmente la página **Envío de almacén**.
 
 Una vez registrado el envío de almacén, los distintos campos de la línea de pedido de venta se actualizan para mostrar el progreso en el almacén. Los siguientes campos también se actualizan para mostrar cuántas cantidades de ensamblar para pedido faltan ensamblar y enviar:
 

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 07d9dd9cffdce35fd39de152bc569abc47c65bff
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: f10e01b744fea8dab136c7a3d3c276a3173354a8
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="post-and-print-all-transactions-for-a-period"></a>Registrar e imprimir todas las transacciones de un periodo
@@ -47,7 +47,7 @@ Las empresas deben enviar los movimientos de transacciones de su negocio, agrupa
     > [!NOTE]  
     >  Todas las transacciones se ordenan por fecha de registro y se asigna un número secuencial a cada movimiento del campo **Nº asiento periodo** .  
 
-5.  En la ventana **Registro movs. contabilidad**, elija la acción **Imprimir página**.  
+5.  En la página **Registro movs. contabilidad**, elija la acción **Imprimir página**.  
 
 ## <a name="see-also"></a>Consulte también  
  [Números de transacción](transaction-numbers.md)

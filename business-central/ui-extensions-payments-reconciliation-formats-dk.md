@@ -13,10 +13,10 @@ ms. search.keywords: extension, bank, formats
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c2a2fbae74dd5f6c401cfe8fa9b31c27e90a604b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a39aeebdd75c1511739eb575205b1c7c34c9df11
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -56,7 +56,7 @@ Además, debe asignar a los proveedores a un **Grupo contable negocio** y un **G
 
 ### <a name="to-allow-included365finincludesd365finmdmd-to-export-payment-data"></a>Para permitir que [!INCLUDE[d365fin](includes/d365fin_md.md)] realice exportaciones de datos de pagos
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diario de pagos** y luego elija el enlace relacionado.  
-2. En la ventana **Editar diario de pagos**, seleccione el proceso **Banco**.  
+2. En la página **Editar diario de pagos**, seleccione el proceso **Banco**.  
 3. Seleccione la casilla de verificación **Permitir exportación de pagos**.  
 
 ### <a name="to-specify-a-payment-method-for-a-vendor"></a>Para especificar una forma de pago de un proveedor

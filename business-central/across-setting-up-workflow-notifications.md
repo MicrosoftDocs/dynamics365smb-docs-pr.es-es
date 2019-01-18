@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/08/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7664360941313da6ea0b797ef00df2e9810ad62
-ms.openlocfilehash: 1a8fd4f75fc1562985412b7e478066aa425c9425
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 53b063598cf21ca5b5de72d953995b48a17d64a2
 ms.contentlocale: es-es
-ms.lasthandoff: 07/09/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="setting-up-workflow-notifications"></a>Configuración de notificaciones de flujos de trabajo
@@ -30,17 +30,17 @@ Muchas respuestas del flujo de trabajo corresponden a la notificación al usuari
 
 Se configuran distintos aspectos de las notificaciones de flujo de trabajo en los lugares siguientes:  
 
-1.  Para los flujos de trabajo de aprobación, configure los destinatarios de las notificaciones del flujo de trabajo rellenando una línea en la ventana **Config. usuario aprobación** para cada usuario que participe en el flujo de trabajo. Por ejemplo, si se ha especificado el usuario 2 en el campo **Id. aprobador** en la línea del usuario 1, la notificación de solicitud de aprobación se envía el usuario 1. Para obtener más información, vea . Para obtener más información, vea [Configurar usuarios de aprobación](across-how-to-set-up-approval-users.md).  
-2.  Para definir cuándo y cómo los usuarios reciben notificaciones de flujo de trabajo debe rellenarse la ventana **Programación de notificación** para cada usuario del flujo de trabajo. Para obtener más información, consulte [Especificar cómo y cuándo recibir notificaciones](across-how-to-specify-when-and-how-to-receive-notifications.md).  
-3.  Configure el contenido general y el diseño de las notificaciones, incluidas las notificaciones acerca de respuestas de vencimiento del flujo de trabajo, configurando para ello plantillas de notificación en la ventana **Plantillas notificación**. Puede utilizar las plantillas predeterminadas que se ofrecen con [!INCLUDE[d365fin](includes/d365fin_md.md)].  
-4.  Deberá configurarse el contenido específico y las reglas para una notificación de flujo de trabajo al crear el flujo de trabajo en cuestión. Para ello, seleccione las opciones correspondientes en la ventana **Opciones de respuesta de flujo de trabajo** para la respuesta de flujo de trabajo que represente la notificación. Para obtener más información, consulte el paso 9 en [Crear flujos de trabajo](across-how-to-create-workflows.md).  
+1.  Para los flujos de trabajo de aprobación, configure los destinatarios de las notificaciones del flujo de trabajo rellenando una línea en la página **Config. usuario aprobación** para cada usuario que participe en el flujo de trabajo. Por ejemplo, si se ha especificado el usuario 2 en el campo **Id. aprobador** en la línea del usuario 1, la notificación de solicitud de aprobación se envía el usuario 1. Para obtener más información, vea . Para obtener más información, vea [Configurar usuarios de aprobación](across-how-to-set-up-approval-users.md).  
+2.  Para definir cuándo y cómo los usuarios reciben notificaciones de flujo de trabajo debe rellenarse la página **Programación de notificación** para cada usuario del flujo de trabajo. Para obtener más información, consulte [Especificar cómo y cuándo recibir notificaciones](across-how-to-specify-when-and-how-to-receive-notifications.md).  
+3.  Si lo desea, puede personalizar el contenido de la notificación por correo electrónico si modifica el informe 1320, Correo electrónico de notificación. Para obtener más información, vea [Crear y modificar un diseño de informe o documento personalizado](ui-how-create-custom-report-layout.md).  
+4.  Deberá configurarse el contenido específico y las reglas para una notificación de flujo de trabajo al crear el flujo de trabajo en cuestión. Para ello, seleccione las opciones correspondientes en la página **Opciones de respuesta de flujo de trabajo** para la respuesta de flujo de trabajo que represente la notificación. Para obtener más información, consulte el paso 9 en [Crear flujos de trabajo](across-how-to-create-workflows.md).  
 
 ## <a name="see-also"></a>Consulte también  
  [Configurar usuarios de aprobación](across-how-to-set-up-approval-users.md)   
  [Configurar usuarios de flujo de trabajo](across-how-to-set-up-workflow-users.md)   
  [Especificar cómo y cuándo recibir notificaciones](across-how-to-specify-when-and-how-to-receive-notifications.md)   
  [Crear flujos de trabajo](across-how-to-create-workflows.md)   
- [Administrar las plantillas de notificación](across-how-to-manage-notification-templates.md)   
+ [Crear y modificar un diseño de informe o documento personalizado](ui-how-create-custom-report-layout.md)   
  [Uso de colas de proyectos para programar tareas](admin-job-queues-schedule-tasks.md)   
  [Configurar correo electrónico](admin-how-setup-email.md)   
  [Tutorial: Configuración y uso de un flujo de trabajo de aprobación de compra](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   

@@ -11,18 +11,18 @@ ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, 
 ms.date: 10/02/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: a83bb50c640adafede77524c6982107e1140a27b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: f46d085eac89743c095b5fd7d73353a5ff248f65
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-the-bank-data-conversion-service"></a>Configurar el servicio de conversión de datos bancarios
 Ya está configurado y listo para habilitar un proveedor global de servicios de conversión de información de pagos a cualquier formato de datos que requiera el banco en [!INCLUDE[d365fin](includes/d365fin_md.md)]. A esto se le denomina en [!INCLUDE[d365fin](includes/d365fin_md.md)] el servicio de conversión de datos bancarios.
 
-Puede exportar líneas de pago desde la ventana **Diario de pagos** a un archivo o una secuencia de datos que, más tarde, puede subir a su cuenta bancaria para procesarlas automáticamente, de manera que no deberá realizar pagos electrónicos de forma por separado. Para obtener más información, vea [Exportar pagos a un archivo bancario](payables-how-export-payments-bank-file.md).
+Puede exportar líneas de pago desde la página **Diario de pagos** a un archivo o una secuencia de datos que, más tarde, puede subir a su cuenta bancaria para procesarlas automáticamente, de manera que no deberá realizar pagos electrónicos de forma por separado. Para obtener más información, vea [Exportar pagos a un archivo bancario](payables-how-export-payments-bank-file.md).
 
-Puede importar archivos de extracto bancario en la ventana **Diario de conciliación de pagos** mediante el servicio de conversión de datos bancarios para convertir un archivo que reciba del banco en una secuencia de datos que [!INCLUDE[d365fin](includes/d365fin_md.md)] pueda importar. Para obtener más información, vea [Liquidación de pagos automáticamente y conciliación de cuentas bancarias](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+Puede importar archivos de extracto bancario en la página **Diario de conciliación de pagos** mediante el servicio de conversión de datos bancarios para convertir un archivo que reciba del banco en una secuencia de datos que [!INCLUDE[d365fin](includes/d365fin_md.md)] pueda importar. Para obtener más información, vea [Liquidación de pagos automáticamente y conciliación de cuentas bancarias](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 Como alternativa a la importación de extractos bancarios con el servicio de conversión de datos bancarios, puede utilizar el servicio Fuentes de bancos de Envestnet Yodlee. Para obtener más información, vea [Configuración del servicio de fuente de banco de Envestnet Yodlee](bank-how-setup-bank-statement-service.md)
 
@@ -33,7 +33,7 @@ Para importar o exportar archivos bancarios, deberá configurar su propia cuenta
 
 ## <a name="to-sign-your-company-up-for-the-bank-data-conversion-service"></a>Para registrar su empresa en el servicio de conversión de datos de banco
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración de servicio de conv. de datos del banco** y luego elija el enlace relacionado.  
-2. La ventana **Configuración de servicio de conv. de datos del banco** se abre con tres campos rellenados previamente con las URL correspondientes del proveedor del servicio de conversión de datos de banco en .
+2. La página **Configuración de servicio de conv. de datos del banco** se abre con tres campos rellenados previamente con las URL correspondientes del proveedor del servicio de conversión de datos de banco en .
 
     > [!NOTE]  
     >   En la base de datos de demostración de CRONUS International Ltd. se rellenan previamente los campos Nombre de usuario y Contraseña con información de conexión de demostración, los cuales se reemplazarán con la información real de su empresa al registrarse con el servicio de conversión de datos bancarios.
@@ -42,7 +42,7 @@ Para importar o exportar archivos bancarios, deberá configurar su propia cuenta
 
     Su empresa está ahora registrada con el servicio de conversión de datos de banco. Introduzca el nombre de usuario y la contraseña que especificó para el servicio en los campos de configuración relacionados en [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-5. En la ventana **Configuración de servicio de conv. de datos del banco**, en el campo **Nombre**, introduzca el mismo valor que introdujo como nombre de inicio de sesión en la página del proveedor de servicios en el paso 4.
+5. En la página **Configuración de servicio de conv. de datos del banco**, en el campo **Nombre**, introduzca el mismo valor que introdujo como nombre de inicio de sesión en la página del proveedor de servicios en el paso 4.
 6. En el campo **Contraseña**, introduzca el mismo valor que introdujo en el campo **Contraseña** en la página del proveedor de servicios en el paso 4.
 
 > [!NOTE]  
@@ -50,10 +50,10 @@ Para importar o exportar archivos bancarios, deberá configurar su propia cuenta
 
 ## <a name="to-view-or-update-the-list-of-currently-supported-bank-data-formats"></a>Para ver o actualizar la lista de formatos de datos de banco actualmente compatibles
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración de servicio de conv. de datos del banco** y luego elija el enlace relacionado.
-2. En la pestaña **Configuración de servicio de conv. de datos del banco**, seleccione la acción **Nombre banco - Lista conversión de datos** para abrir la lista de nombres de banco que representan los datos de banco que admite el servicio de conversiones.
-3. En la ventana **Nombre banco - Lista conversión de datos**, seleccione la acción **Actualizar lista de nombres de banco**.
+2. En la página **Configuración de servicio de conv. de datos del banco**, seleccione la acción **Nombre banco - Lista conversión de datos** para abrir la lista de nombres de banco que representan los datos de banco que admite el servicio de conversiones.
+3. En la página **Nombre banco - Lista conversión de datos**, seleccione la acción **Actualizar lista de nombres de banco**.
 
-Ahora se actualizará la lista de formatos de datos bancarios compatibles con el servicio de conversión de datos bancarios. Esta es la lista de nombres de bancos filtrada por país o región y que se puede seleccionar en el campo **Nombre del banco - Conversión de datos** en la ventana **Ficha de cuenta bancaria**.
+Ahora se actualizará la lista de formatos de datos bancarios compatibles con el servicio de conversión de datos bancarios. Esta es la lista de nombres de bancos filtrada por país o región y que se puede seleccionar en el campo **Nombre del banco - Conversión de datos** en la página **Ficha de cuenta bancaria**.
 
 > [!NOTE]  
 >   La actualización de los formatos de datos bancarios se produce también cuando se selecciona o especifica un valor en el campo **Nombre del banco - Datos de conversión** en la cuenta bancaria.

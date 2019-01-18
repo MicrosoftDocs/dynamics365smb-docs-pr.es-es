@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+redirect_url: marketing-setup-contacts
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3b6ed1ffe162f0bdb4d1af1dd84c34c6f0de91bb
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4f036800f7d9e83fdeacb827bb195f1f36b6a38e
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-alternative-addresses-for-contacts"></a>Configurar dirección alternativa para contactos
@@ -24,16 +25,16 @@ Puede asignar una dirección alternativa a la que pueda enviar correo e informac
 
 ## <a name="to-assign-an-alternate-address"></a>Para asignar direcciones alternativas
 1. Abra el contacto.
-2. Elija la acción **Dirección alternativa** y, a continuación, elija **Ficha**. Se abre la ventana **Lista dir. alt. contacto**.
-3. Escriba una nueva dirección alternativa y rellene los campos de la ventana **Dirección de contacto alternativa**.
+2. Elija la acción **Dirección alternativa** y, a continuación, elija **Ficha**. Se abre la página **Lista dir. alt. contacto**.
+3. Escriba una nueva dirección alternativa y rellene los campos de la página **Dirección de contacto alternativa**.
 
 Repita estos pasos para asignar todas las direcciones alternativas que desee. Para cada dirección alternativa puede especificar uno o varios rangos de fechas.
 
-También puede asignar direcciones alternativas, con el mismo procedimiento, en la ventana de lista de contactos.
+También puede asignar direcciones alternativas, con el mismo procedimiento, en la página de la lista de contactos.
 
 ## <a name="to-assign-an-alternate-address-date-range"></a>Para asignar un intervalo de fechas de direcciones alternativas
 1. Abra el contacto.
-2. Elija la acción **Dirección alternativa** y, a continuación, elija **Rango de fechas**. Se abre la ventana **Rangos fecha dir. alt. cont.**
+2. Elija la acción **Dirección alternativa** y, a continuación, elija **Rango de fechas**. Se abre la página **Rangos fecha dir. alt. cont.**
 3. Elija la acción **Nuevo**.
 4. En el campo **Cód. dirección alt. contacto**, seleccione una dirección alternativa para este contacto y, a continuación, rellene los campos **Fecha de inicio** y **Fecha de finalización**.
 

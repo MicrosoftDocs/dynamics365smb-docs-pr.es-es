@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+redirect_url: marketing-create-contact-companies
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 64bef8820ec10bb293ccda88e7384d5d9e868e1f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d607b23f5cd41db8551a61b68be6bf265e85d328
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-contact-companies"></a>Crear empresas de contacto
@@ -24,14 +25,14 @@ Puede crear un contacto por cada nueva empresa con la que se relacione, como pue
 
 Existen dos formas de crear un contacto: desde cero o a partir de un cliente, proveedor o cuenta bancaria existente.
 
-Antes de crear un contacto, es posible que desee comprobar la configuración de la ventana **Configuración marketing**. Para obtener más información, consulte [Configurar la gestión de relaciones](marketing-setup-marketing.md).
+Antes de crear un contacto, es posible que desee comprobar la configuración de la página **Configuración marketing**. Para obtener más información, consulte [Configurar la gestión de relaciones](marketing-setup-marketing.md).
 
 ## <a name="create-a-company-contact-from-scratch"></a>Crear un contacto de compañía desde cero
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Contactos** y luego elija el enlace relacionado.
 2. Seleccione la acción **Nuevo**.
 3. En el campo **N.º de campo** introduzca un número para el contacto.
 
-    Por otra parte, si configuró un número de serie para los contactos de la ventana **Configuración marketing**, puede pulsar Entrar para hacer que el sistema especifique el siguiente número de contacto disponible.  
+    Por otra parte, si configuró un número de serie para los contactos de la página **Configuración marketing**, puede pulsar Entrar para hacer que el sistema especifique el siguiente número de contacto disponible.  
 4. Establezca **Tipo** en **Empresa**.
 5. Rellene los demás campos según sea necesario.
 
@@ -39,16 +40,16 @@ Antes de crear un contacto, es posible que desee comprobar la configuración de 
 Si ya configuró un cierto número de clientes, proveedores o bancos, podrá crear contactos según los datos existentes. Al crear un contacto de esta manera, la información de contacto se sincroniza con la información del cliente, proveedor o de la cuenta bancaria.
 
 > [!NOTE]  
->   Para poder crear empresas de contacto, es necesario especificar un código de relación de negocio para los clientes, proveedores y las cuentas bancarias en la ventana **Configuración de marketing**. Si va a crear contactos a partir de cuentas bancarias, también debe especificar números de serie para las cuentas bancarias en la ventana **Configuración de contabilidad**.
+>   Para poder crear empresas de contacto, es necesario especificar un código de relación de negocio para los clientes, proveedores y las cuentas bancarias en la página **Configuración de marketing**. Si va a crear contactos a partir de cuentas bancarias, también debe especificar números de serie para las cuentas bancarias en la página **Configuración de contabilidad**.
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), especifique una de las siguientes opciones, según la ubicación desde la cual desee crear contactos y, a continuación, elija el vínculo relacionado.
    * **Crear Contactos desde Clientes**
-   * **Crear Contactos desde Provs**
-   * **Crear Contactos desde Bancos**
-2. En la ventana del proceso que se abre, establezca filtros en la sección **Cliente**, **Proveedor** o **Banco** si desea crear contactos solo desde determinados clientes, proveedores o bancos.
+   * **Crear contactos desde proveedores**
+   * **Crear contactos desde bancos**
+2. En la página del proceso que se abre, establezca filtros en la sección **Cliente**, **Proveedor** o **Banco** si desea crear contactos solo desde determinados clientes, proveedores o bancos.
 3. Para crear contactos, seleccione **Aceptar**.
 
-    Los siguientes números de contacto de la serie se asignan a los nuevos contactos. El programa asigna la relación comercial para proveedores especificada en la ventana **Configuración marketing** a los contactos recién creados.
+    Los siguientes números de contacto de la serie se asignan a los nuevos contactos. El programa asigna la relación comercial para proveedores especificada en la página **Configuración marketing** a los contactos recién creados.
 
 > [!TIP]  
 >   También puede crear un cliente, proveedor o una cuenta bancaria a partir de un contacto. Para obtener más información, consulte [Crear un cliente, proveedor o cuenta bancaria a partir de un contacto](marketing-how-create-contacts-new-customers-vendors-bank-accounts.md).

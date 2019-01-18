@@ -11,17 +11,17 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 037a1d507ec6705e1cc07db313fb7e78b86fed7e
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: abe6155963054b942e5d70e27737da15bcb82220
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="move-items-in-advanced-warehouse-configurations"></a>Mover productos en configuraciones avanzadas de almacén
 En configuraciones de almacén avanzadas, es decir, en ubicaciones con ubicación y picking directos, los movimientos de almacén entre ubicaciones los realiza un empleado con experiencia que los prepara en la hoja de trabajo de movimientos y, a continuación, crea dichos movimientos para que los realicen los empleados de almacén.  
 
 ## <a name="to-move-items-with-the-warehouse-movement-worksheet"></a>Para mover los artículos con la hoja de cálculo del movimiento de almacén
-En la ventana **Hoja trabajo movimiento** existen dos funciones que pueden ayudarle a rellenar las líneas automáticamente. La primera es la función **Calcular reposición ubicación**. Esta función utiliza los rankings de ubicación para sugerir el reabastecimiento para ubicaciones de alto ranking desde ubicaciones de bajo ranking. El segundo es la función **Traer conten. ubicac.**, que rellena las líneas de la hoja de cálculo con los contenidos enteros de las ubicaciones que especifique.
+En la página **Hoja trabajo movimiento** existen dos funciones que pueden ayudarle a rellenar las líneas automáticamente. La primera es la función **Calcular reposición ubicación**. Esta función utiliza los rankings de ubicación para sugerir el reabastecimiento para ubicaciones de alto ranking desde ubicaciones de bajo ranking. El segundo es la función **Traer conten. ubicac.**, que rellena las líneas de la hoja de cálculo con los contenidos enteros de las ubicaciones que especifique.
 
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hoja trabajo mov.** y luego elija el enlace relacionado.  
 2.  Especifique la información de movimientos de almacén en las líneas de la hoja de trabajo como crea conveniente.  

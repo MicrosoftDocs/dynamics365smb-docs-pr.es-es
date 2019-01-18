@@ -13,10 +13,10 @@ ms.search.keywords: category, search, attribute, facet
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c62d26dc9dc444359c0d8b5a9354b29132857de1
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5b684df40599a730054e333f1bdf2e526c840e0b
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="categorize-items"></a>Clasificar productos
@@ -26,8 +26,8 @@ Para buscar productos por características, puede asignar los atributos de produ
 
 ## <a name="to-create-an-item-category"></a>Para crear una categoría de producto
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Categorías producto** y luego elija el enlace relacionado.
-2. En la ventana **Categorías de producto**, seleccione la acción **Nuevo**.
-3. En la ficha desplegable **General** de la ventana **Ficha de categoría de producto**, complete los campos como sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. En la página **Categorías producto**, seleccione la acción **Nuevo**.
+3. En la ficha desplegable **General** de la página **Ficha de categoría de producto**, complete los campos como sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. En la ficha desplegable **Atributos**, especifique atributos de producto a la categoría. Para obtener más información, vea la sección "Para asignar atributos de producto a una categoría" en [Trabajar con atributos de producto](inventory-how-work-item-attributes.md).
 
 > [!NOTE]  

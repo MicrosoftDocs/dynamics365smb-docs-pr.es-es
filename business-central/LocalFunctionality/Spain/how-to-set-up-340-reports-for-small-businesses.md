@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4403d734565332e9adfedb02423460f6d4a5a4ec
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5dbbfbbbbb94999914dea517d655fcf3d827d8ab
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-340-reports-for-small-businesses"></a>Configurar informes 340 para las empresas pequeñas
@@ -29,9 +29,9 @@ Después de que la contabilización del IVA esté configurada para manejar el IV
 ## <a name="to-set-up-reporting-under-cac"></a>Para configurar informes según el CAC  
 
 1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "icono Buscar página o informe"), introduzca **Configuración contabilidad** y, a continuación, elija el vínculo relacionado.  
-2.  En la ventana **Configuración de contabilidad**, en la ficha desplegable **General**, seleccione la casilla **IVA no realizado**. Elija el botón **Aceptar**.  
+2.  En la página **Configuración de contabilidad**, en la ficha desplegable **General**, seleccione la casilla **IVA no realizado**. Elija el botón **Aceptar**.  
 3.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Config. grupos registro IVA** y, a continuación, seleccione el vínculo relacionado.  
-4.  En la ventana **Config. grupos registro IVA**, seleccione un grupo para modificar o crear un grupo de registro que tenga cuentas contables generales para tratar los importes de IVA de las diversas cuentas de IVA no realizado en la configuración de grupos registro IVA y elija la acción **Editar**.  
+4.  En la página **Config. grupos registro IVA**, seleccione un grupo para modificar o crear un grupo de registro que tenga cuentas contables generales para tratar los importes de IVA de las diversas cuentas de IVA no realizado en la configuración de grupos registro IVA y elija la acción **Editar**.  
 5.  En la ficha desplegable **General**, defina **Tipo IVA no realizado** a **Porcentaje**.  
 6.  En las fichas desplegables **Ventas** y **Compras**, puede especificar cuentas contables para los diversos campos **Cuenta IVA no realizado**.  
 

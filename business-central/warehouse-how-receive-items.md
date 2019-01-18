@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fcbecbf6a90e60a49c7861e16614b98174379bed
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e56105cbd2410befea964c5445d8227021058d4f
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="receive-items"></a>Recibir productos
@@ -43,22 +43,22 @@ A continuación se describe cómo recibir productos con un pedido de compra. Los
 
     > [!NOTE]  
     >  Si desea recibir productos con códigos de clase de almacén de la ubicación en el campo **Cód. ubicación** de la cabecera de documento, debe eliminar el contenido del campo **Cód. ubicación** en la cabecera antes de recuperar líneas del documento de origen para los productos.  
-3.  Seleccione la acción **Traer doc. origen**. Se abre la ventana **Documentos origen**.
+3.  Seleccione la acción **Traer doc. origen**. Se abre la página **Documentos origen**.
 
-    Desde una recepción o un recibo de almacén nuevos o abiertos, puede utilizar la ventana de **Filtros para traer docs. orig.** para recuperar las líneas del documento de origen lanzado que definen la artículos para recibir o enviar.
+    Desde una recepción o un recibo de almacén nuevos o abiertos, puede utilizar la página **Filtros para traer docs. orig.** para recuperar las líneas del documento de origen lanzado que definen la artículos para recibir o enviar.
 
     1. Elija la acción **Utiliz. filt. para traer docs.**.  
     2. Para configurar un nuevo filtro introduzca un código descriptivo en el campo **Código** y, a continuación, elija la acción **Modificar**.  
     3. Defina el tipo de líneas del documento de origen que desea que recupere el sistema rellenando los campos de filtro correspondientes.  
     4. Seleccione la acción **Ejecutar**.  
 
-    Todas las líneas del documento de origen lanzado que cumplan los criterios del filtro se insertarán en la ventana **Recibo almacén** desde las que se activó la función del filtro.  
+    Todas las líneas del documento de origen lanzado que cumplan los criterios del filtro se insertarán en la página **Recibo almacén** desde las que se activó la función del filtro.  
 
-    Las combinaciones de filtros que defina se guardan en la ventana de **Filtros para traer docs. orig.** hasta que la próxima vez que las necesite. Puede crear un número ilimitado de combinaciones de filtros. Puede modificar los criterios en cualquier momento eligiendo la acción **Modificar**.
+    Las combinaciones de filtros que defina se guardan en la página **Filtros para traer docs. orig.** hasta que la próxima vez que las necesite. Puede crear un número ilimitado de combinaciones de filtros. Puede modificar los criterios en cualquier momento eligiendo la acción **Modificar**.
 
 4.  Seleccione los documentos de origen de los que desea recibir productos y, a continuación, haga clic en **Aceptar**.  
 
-    Las líneas de los documentos de origen aparecerán en la ventana **Recep. almacén**. El campo **Cantidad a recibir** se rellena con la cantidad pendiente de cada línea, pero puede cambiarla según necesite. Si ha eliminado el contenido del campo **Cód. ubicación** de la ficha desplegable **General** antes de traer las líneas, debe rellenar un código de ubicación apropiado en cada línea de recepción.  
+    Las líneas de los documentos de origen aparecerán en la página **Recep. almacén**. El campo **Cantidad a recibir** se rellena con la cantidad pendiente de cada línea, pero puede cambiarla según necesite. Si ha eliminado el contenido del campo **Cód. ubicación** de la ficha desplegable **General** antes de traer las líneas, debe rellenar un código de ubicación apropiado en cada línea de recepción.  
 
     > [!NOTE]  
     >  Para rellenar el campo de **Cdad. para recibir** en todas las líneas con cero, elija la acción **Eliminar cdad. a recibir**. Para rellenarlo de nuevo con la cantidad pendiente, elija la acción **Rellenar cdad. a recibir aut.**  

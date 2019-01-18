@@ -8,26 +8,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 05/15/2018
+ms.date: 11/23/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 4bc9199b879c23115082b07a81d6da5a0b46e60d
-ms.openlocfilehash: 00e0d0a131b586d3aee39b3d08064defff81814a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c7f0af8d3535f558567cd40c841909cd151ce313
 ms.contentlocale: es-es
-ms.lasthandoff: 05/31/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="add-clients-to-your-dashboard-in-include-d365acclongincludesd365acclongmdmd"></a>Agregar clientes al panel de [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
 
-Puede agregar un cliente mediante la ventana **Clientes** que puede abrir con la acción **Administrar clientes** de la cinta. Simplemente, elija **Nuevo** y, a continuación, rellene los campos.  
+Puede agregar un cliente mediante la página **Clientes** que puede abrir con la acción **Administrar clientes** de la cinta. Simplemente, elija **Nuevo** y, a continuación, rellene los campos.  
 
-![Agregar un cliente](./media/accountant-add-client/manage-client.png)
+> [!div class="mx-imgBorder"]
+> ![Agregar un cliente](./media/accountant-add-client/manage-client.png)
 
 Los datos de la tarjeta para cada cliente los especifica el usuario, y puede cambiarlos según sea necesario. Sin embargo, el campo **Dirección URL del cliente** es fundamental ya que así es como puede acceder al [!INCLUDE [d365fin](includes/d365fin_md.md)] de cada cliente. Utilice la acción **Validar URL del cliente** de la cinta para comprobar que ha introducido el vínculo correcto. La URL en la que debe introducir los puntos en [!INCLUDE [d365fin](includes/d365fin_md.md)] del cliente e incluye su dirección de dominio. Por ejemplo, si han especificado un dominio como MyBusiness.com, entonces el vínculo a su [!INCLUDE [d365fin](includes/d365fin_md.md)] es *https://businesscentral.dynamics.com/mybusiness.com?redirectedfromsignup=1*.  
 
 > [!NOTE]
->  Antes de la actualización de mayo de 2018, la URL que especificó tenía un formato diferente con el nombre de la empresa del cliente al principio. Con la actualización de mayo de 2018, el formato es ```https://businesscentral.dynamics.com/clientdomain?redirectedfromsignup=1```, donde ```clientdomain``` representa el dominio de su cliente.  
+>  Antes de la actualización de mayo de 2018, la URL que especificó tenía un formato diferente con el nombre de la empresa del cliente al principio. En la versión actual de [!INCLUDE [d365fin](includes/d365fin_md.md)], el formato es ```https://businesscentral.dynamics.com/clientdomain?redirectedfromsignup=1```, donde ```clientdomain``` representa el dominio de su cliente.  
 
 La URL de cliente se utiliza cuando se elige el elemento de menú **Ir a empresa** en el panel de [!INCLUDE [d365acc](includes/d365acc_md.md)].  
 

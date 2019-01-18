@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b32a7e77a80ff0b0472d360c7865b2eb6c9f1585
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6f4d8d838ba1c5ad9da633e966c82122fa43549d
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-report-349"></a>Crear el informe 349
@@ -41,13 +41,13 @@ Debe presentar un informe periódico de comercio con otros países o regiones de
 
 3.  Elija el botón **Aceptar**.  
 
-Si el periodo incluye un abono, aparece un mensaje y, si elige el botón **Aceptar**, se abre la ventana **Advertencias 349 Cliente/Proveedor** y se mostrarán todos los abonos del periodo.  
+Si el periodo incluye un abono, aparece un mensaje y, si elige el botón **Aceptar**, se abre la página **Advertencias 349 Cliente/Proveedor** y se mostrarán todos los abonos del periodo.  
 
-Los movimientos relacionados con abonos se muestran en la ventana **Advertencias 349 Cliente/Proveedor** ya que puede ser interesante incluirlos como correcciones a las facturas. Por ejemplo, si registra una factura de ventas en octubre y envía un abono en noviembre que corrige la factura de octubre, aparecerá una advertencia. A continuación, puede realizar los cambios necesarios en la ventana **Advertencia 349 Cliente/Proveedor**. Debe especificar la sección del importe total del cliente que se debe incluir en el modelo 349 de noviembre.  
+Los movimientos relacionados con abonos se muestran en la página **Advertencias 349 Cliente/Proveedor** ya que puede ser interesante incluirlos como correcciones a las facturas. Por ejemplo, si registra una factura de ventas en octubre y envía un abono en noviembre que corrige la factura de octubre, aparecerá una advertencia. A continuación, puede realizar los cambios necesarios en la página **Advertencia 349 Cliente/Proveedor**. Debe especificar la sección del importe total del cliente que se debe incluir en el modelo 349 de noviembre.  
 
 ## <a name="to-correct-warnings-for-report-349"></a>Para corregir las advertencias del informe 349  
 
-1.  En la ventana **Advertencias 349 Cliente/Proveedor**, seleccione la línea del cliente correspondiente.  
+1.  En la página **Advertencias 349 Cliente/Proveedor**, seleccione la línea del cliente correspondiente.  
 2.  Realice los cambios necesarios en la línea.  
 
     En la tabla siguiente se describen los campos clave para corregir un modelo 349 que incluye un abono.  
@@ -63,9 +63,9 @@ Los movimientos relacionados con abonos se muestran en la ventana **Advertencias
 
 3.  Una vez realizados los cambios necesarios, elija la acción **Proceso**.  
 
-    Aparecerá una ventana donde deberá confirmar que desea actualizar el modelo 349 para los movimientos en los que se selecciona la casilla **Incluir corrección**.  
+    Aparecerá una página donde deberá confirmar que desea actualizar el modelo 349 para los movimientos en los que se selecciona la casilla **Incluir corrección**.  
 
-Para correcciones de importes que se incluyeron en un modelo 349 anterior, la ventana puede mostrar más de una advertencia para un cliente o proveedor con los mismos valores en los campos **Año fiscal y periodo de la factura que se rectifica** y **Periodo de ejercicio y de la factura que se rectifica**. En ese caso, debe combinar las correcciones realizadas en una sola línea para incluir los importes correspondientes del campo **Importe declarado anterior** e **Importe declarado inicial** del modelo 349.  
+Para correcciones de importes que se incluyeron en un modelo 349 anterior, la página puede mostrar más de una advertencia para un cliente o proveedor con los mismos valores en los campos **Año fiscal y periodo de la factura que se rectifica** y **Periodo de ejercicio y de la factura que se rectifica**. En ese caso, debe combinar las correcciones realizadas en una sola línea para incluir los importes correspondientes del campo **Importe declarado anterior** e **Importe declarado inicial** del modelo 349.  
 
 ## <a name="see-also"></a>Consulte también  
 [Informe 349](report-349.md)   

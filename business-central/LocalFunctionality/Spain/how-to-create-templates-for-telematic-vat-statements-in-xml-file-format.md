@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 76eab63c06a234cc6f1e0495936cde320f9b7870
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5fcc9999ccf5eeae517d401d7d5cd056bf0569e7
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-templates-for-telematic-vat-statements-in-xml-file-format"></a>Crear plantillas para las declaraciones telemáticas de IVA en formato XML
@@ -28,7 +28,7 @@ Para obtener más información, consulte el sitio web de la [Agencia Tributaria]
 
 1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Declaración del IVA** y, a continuación, seleccione el vínculo apropiado.  
 2.  Seleccione la declaración de IVA requerida y después seleccione **Diseñar archivo XML**.  
-3.  En la ventana **Formato transferencia XML**, rellene los campos tal como se describe en la tabla siguiente.  
+3.  En la página **Formato transferencia XML**, rellene los campos tal como se describe en la tabla siguiente.  
 
     > [!IMPORTANT]  
     >  Los valores de los campos están determinados por las autoridades fiscales.  

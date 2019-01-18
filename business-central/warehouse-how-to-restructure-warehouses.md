@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8a04784a354a3f44c3a12c75d16ebc166e7a8c47
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 06233abf9eef229ac86ee31857352af1de5e34e2
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="restructure-warehouses"></a>Reestructurar almacenes
@@ -56,9 +56,9 @@ Ahora habrá vaciado las ubicaciones donde solían estar los artículos. Las ubi
 
     1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Ubicaciones** y luego elija el enlace relacionado.  
     2.  Seleccione la línea con la ubicación y, a continuación, elija la acción **Ubicaciones**.  
-    3.  En la ventana **Ubicaciones**, en el campo **Cód. tipo ubicación**, escriba **QC** para cada una de las ubicaciones antiguas que se vaciaron en el paso 3 del procedimiento anterior.  
+    3.  En la página **Ubicaciones**, en el campo **Cód. tipo ubicación**, escriba **QC** para cada una de las ubicaciones antiguas que se vaciaron en el paso 3 del procedimiento anterior.  
 
-Ahora ha quitado las ubicaciones del flujo de almacén y las ha reclasificado como ubicaciones de control de calidad. Las ubicaciones de control de calidad no tienen ninguno de los campos de la actividad en la ventana **Tipos ubicación** seleccionada y, por lo tanto, el flujo de productos no los tiene en cuenta. Para obtener más información, consulte [Configurar tipos de ubicaciones](warehouse-how-to-set-up-bin-types.md).  
+Ahora ha quitado las ubicaciones del flujo de almacén y las ha reclasificado como ubicaciones de control de calidad. Las ubicaciones de control de calidad no tienen ninguno de los campos de la actividad en la página **Tipos ubicación** seleccionada y, por lo tanto, el flujo de productos no los tiene en cuenta. Para obtener más información, consulte [Configurar tipos de ubicaciones](warehouse-how-to-set-up-bin-types.md).  
 
 ## <a name="to-delete-a-bin"></a>Para eliminar una ubicación  
 
@@ -69,7 +69,7 @@ Ahora ha quitado las ubicaciones del flujo de almacén y las ha reclasificado co
 
 Si selecciona **Sí**, la ubicación se elimina para su uso futuro, pero permanece el código de ubicación en todos los movimientos de almacén.  
 
-Si desea cambiar el nombre de una ubicación para que también cambie el nombre de todos los registros asociados con la ubicación, incluidos contenidos de la ubicación, líneas de actividad de almacén, líneas de actividad de almacén registradas, líneas de hojas de trabajo de almacén, líneas de recepción de almacén, líneas de recepción de almacén registradas, líneas de envío de almacén, líneas de envío de almacén registradas y movimientos de almacén; puede hacerlo en la ventana **Ubicaciones**.  
+Si desea cambiar el nombre de una ubicación para que también cambie el nombre de todos los registros asociados con la ubicación, incluidos contenidos de la ubicación, líneas de actividad de almacén, líneas de actividad de almacén registradas, líneas de hojas de trabajo de almacén, líneas de recepción de almacén, líneas de recepción de almacén registradas, líneas de envío de almacén, líneas de envío de almacén registradas y movimientos de almacén; puede hacerlo en la página **Ubicaciones**.  
 
 ## <a name="to-rename-a-bin-and-change-the-bin-code-in-all-records"></a>Para cambiar el nombre de una ubicación y el código de ubicación en todos los registros  
 

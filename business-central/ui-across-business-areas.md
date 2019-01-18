@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 10/01/2018
+ms.date: 11/21/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 560ea1ce0b93a596afb6c37bda7b438115614606
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 790af74199922a1ce711b1262f2756f5c7788fb2
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="general-business-functionality"></a>Funciones empresariales generales
@@ -28,11 +28,13 @@ En la tabla siguiente se indican las áreas de negocio generales, con vínculos 
 
 | Para | Vea |
 | --- | --- |
-|Añada información adicional a las cuentas, fichas de clientes o pedidos de ventas para comunicar acuerdos, como un precio especial o un método de entrega, a otros usuarios.|[Agregar comentarios a las fichas y documentos](across-how-use-comments.md)| 
+|Añada información adicional a las cuentas, fichas de clientes o pedidos de ventas para comunicar acuerdos, como un precio especial o un método de entrega, a otros usuarios.|[Agregar comentarios a las fichas y documentos](across-how-use-comments.md)|
 |Ver documentos en curso, registrados o archivados que están relacionados con las líneas de pedido de venta y de compra.|[Seguimiento de líneas de documentos](across-how-to-track-document-lines.md)|
 | Comunique el contenido de sus documentos empresariales rápidamente a sus socios comerciales, como la información de pago sobre documentos de ventas a clientes. |[Enviar documentos por correo electrónico](ui-how-send-documents-email.md) |
+|Archive pedidos de compra y venta, presupuestos, órdenes de devolución y pedidos abiertos y use el documento archivado para recrear el documento desde el que se archivó.|[Archivar documentos](across-how-to-archive-documents.md)|
 | Establecer códigos de texto estándar para poder ampliarlo mediante la incorporación de líneas adicionales y establecer las condiciones de uso de estas últimas. |[Añadir textos ampliados del producto](ui-how-define-ext-text.md) |
 |Crear tareas para recordarle que debe realizar el proyecto. Puede crear tareas para usted, pero también puede asignar tareas a otras personas o a otra persona en su organización|[Definir tareas de usuario](across-user-tasks.md)|
+|Adjunte imágenes, documentos y otros tipos de archivos a todas las fichas, como la ficha de producto y la ficha de trabajo, y adjunte archivos a todos los tipos de documentos de compra y venta.|[Asociar archivos a fichas y documentos](across-attach-document-master-data.md)|
 |Permita al sistema ayudarle a completar las tareas más rápida y correctamente rellenando previamente los campos o las líneas completas con los datos que, de no ser así, debería calcular e introducir usted.|[Dejar que Business Central proponga valores](ui-let-system-suggest-values.md)|
 |Registrar documentos externos, incluidos los anexos de archivo y, a continuación, crear manualmente documentos relacionados o convertir automáticamente los archivos a documentos electrónicos.|[Documentos entrantes](across-income-documents.md)|
 |Configurar y utilizar los flujos de trabajo que vinculan tareas que realizan los distintos usuarios o el sistema, como registro automático. Solicitar y conceder aprobaciones para crear o registrar documentos son pasos habituales de un flujo de trabajo.|[Flujo de trabajo](across-workflow.md)|

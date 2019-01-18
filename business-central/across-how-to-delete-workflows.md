@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 79d4ac247abe75fab8a7c935d31fc236383747cc
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 05404279ee0967b1ffd48e010cdf1f9dcac157d9
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="delete-workflows"></a>Eliminar flujos de trabajo
@@ -25,14 +25,14 @@ Si está seguro que un flujo de trabajo ya no se utiliza más, puede eliminarlo.
 > [!CAUTION]  
 >  Cuando elimine un flujo de trabajo, toda la información del flujo de trabajo se perderá.  
 
- En la ventana **Flujo de trabajo** creas un flujo de trabajo haciendo una lista de los pasos utilizados en las líneas. Cada paso consta de un evento del flujo de trabajo, moderado por condiciones de evento, y una respuesta de flujo de trabajo, moderada por las opciones de respuesta. Los pasos del flujo de trabajo se definen rellenando los campos de las líneas de flujo de trabajo en listas fijas de valores de evento y respuesta que representan los escenarios de flujo de trabajo que admite el código de aplicación. Para obtener más información, consulte [Crear flujos de trabajo](across-how-to-create-workflows.md).  
+ En la página **Flujo de trabajo** puede crear un flujo de trabajo haciendo una lista de los pasos utilizados en las líneas. Cada paso consta de un evento del flujo de trabajo, moderado por condiciones de evento, y una respuesta de flujo de trabajo, moderada por las opciones de respuesta. Los pasos del flujo de trabajo se definen rellenando los campos de las líneas de flujo de trabajo en listas fijas de valores de evento y respuesta que representan los escenarios de flujo de trabajo que admite el código de aplicación. Para obtener más información, consulte [Crear flujos de trabajo](across-how-to-create-workflows.md).  
 
 ## <a name="to-delete-a-workflow"></a>Para eliminar un flujo de trabajo  
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Flujos de trabajo** y luego elija el enlace relacionado.  
 2.  Seleccione el flujo de trabajo que desea borrar.  
 3.  Elija la acción **Eliminar**.  
 4.  También puede abrir el flujo de trabajo que desea borrar.  
-5.  En la ventana **Copiar flujo de trabajo**, elija la acción **Eliminar**.  
+5.  En la página **Copiar flujo de trabajo**, elija la acción **Eliminar**.  
 
 ## <a name="see-also"></a>Consulte también  
  [Crear flujos de trabajo](across-how-to-create-workflows.md)   

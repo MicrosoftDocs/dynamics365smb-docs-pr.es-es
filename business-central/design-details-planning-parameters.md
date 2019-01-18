@@ -11,10 +11,10 @@ ms.search.keywords: planning, design
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: a108de9d4fe537f2d014c705583b910dc7be66a7
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 72b22b1370fcd5d2a92b9ed3c6c645d279ee72f3
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-planning-parameters"></a>Detalles de diseño: Parámetros de la planificación
@@ -40,9 +40,9 @@ Por lo general, las propuestas de reaprovisionamiento solo se lanzan cuando la c
 Las directivas de punto de pedido (**Fijo punto del campo cdad.** y **Cdad. máxima**) usan el campo **Ciclo**, donde el nivel de inventario se comprueba después de cada ciclo. El primer ciclo comienza en la fecha inicial de planificación.  
 
 > [!NOTE]  
->  Al calcular los ciclos, el sistema de planificación ignora los calendarios de trabajo que se definen en el campo **Código de calendario base** de las ventanas **Información de la empresa** y **Tarjeta de ubicación**.  
+>  Al calcular los ciclos, el sistema de planificación ignora los calendarios de trabajo que se definen en el campo **Código de calendario base** de las páginas **Información de la empresa** y **Tarjeta de ubicación**.  
 
-El plazo de seguridad genérico, en la ventana **Configuración fabricación**, se debe configurar en un día como mínimo. Se puede saber la fecha de vencimiento de la demanda, pero no el tiempo de vencimiento. La planificación realiza la programación hacia atrás para satisfacer la demanda bruta y, si no se ha definido ningún plazo de seguridad, las mercancías pueden llegar demasiado tarde para satisfacer la demanda.  
+El plazo de seguridad genérico, en la página **Configuración fabricación**, se debe configurar en un día como mínimo. Se puede saber la fecha de vencimiento de la demanda, pero no el tiempo de vencimiento. La planificación realiza la programación hacia atrás para satisfacer la demanda bruta y, si no se ha definido ningún plazo de seguridad, las mercancías pueden llegar demasiado tarde para satisfacer la demanda.  
 
 Tres campos de periodo de reaprovisionamiento adicionales, **Periodo de reprogramación**, **Periodo de acumulación de lotes** y **Periodo amortiguador**, también desempeñan un rol en el reaprovisionamiento. Para obtener más información, vea la sección "Optimizar cuando y qué cantidad de reaprovisionar".  
 
@@ -100,7 +100,7 @@ En los siguientes ejemplos, las flechas negras representan el aprovisionamiento 
 
 ![Periodo amortiguador, periodo de acumulación de lotes y cambio de cantidad](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Periodo amortiguador, periodo de acumulación de lotes y cambio de cantidad")  
 
-**Valores predeterminados:** el valor predeterminado del campo **Ciclo** y los tres campos del periodo de reaprovisionamiento están en blanco. Para todos los campos, excepto el campo **Periodo amortiguador** esto significa 0D (cero días). Si el campo **Periodo amortiguador** está en blanco, se usará el valor global en el campo **Periodo predet. amortiguador** en la ventana **Configuración fabricación**.  
+**Valores predeterminados:** el valor predeterminado del campo **Ciclo** y los tres campos del periodo de reaprovisionamiento están en blanco. Para todos los campos, excepto el campo **Periodo amortiguador** esto significa 0D (cero días). Si el campo **Periodo amortiguador** está en blanco, se usará el valor global en el campo **Periodo predet. amortiguador** en la página **Configuración fabricación**.  
 
 ## <a name="modify-the-supply-orders"></a>Modificar los pedidos de suministro  
 Cuando se ha calculado la cantidad de la propuesta de pedido, uno o más de los modificadores de pedido pueden ajustarla. Por ejemplo, la cantidad de pedido máxima es mayor que o igual a la cantidad de pedido mínima, que es mayor que o igual al múltiplo de pedido.  

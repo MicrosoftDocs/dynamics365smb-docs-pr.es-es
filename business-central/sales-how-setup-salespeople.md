@@ -11,20 +11,20 @@ ms.search.keywords: sales rep
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 24a32d3f1d0883f00dfaaef7924d821a039ca307
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ddc6ab85e0db5065fffc6187c26ba4d67e1a1ee9
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-salespeople"></a>Configurar vendedores
 Muchas empresas quieren realizar un seguimiento del rendimiento personal de sus empleados como base para calcular la comisión o prima por ventas. Vea, por ejemplo, el informe de **Comisiones del vendedor**. Ciertas empresas puede preferir asignar un vendedor a cada uno de sus contactos.
 
-Cuando debe configurar un vendedor en la ventana **Vendedor**, puede seleccionarlo en el campo **Cód. vendedor** de todos los registros correspondientes, como cuenta de contabilidad, clientes, proveedor, contactos y fichas de campañas. Cuando registra o configura facturas, abonos, líneas de diario, intereses, etc., el código de vendedor se transfiere a los movimientos resultantes.
+Cuando debe configurar un vendedor en la página **Vendedor**, puede seleccionarlo en el campo **Cód. vendedor** de todos los registros correspondientes, como cuenta de contabilidad, clientes, proveedor, contactos y fichas de campañas. Cuando registra o configura facturas, abonos, líneas de diario, intereses, etc., el código de vendedor se transfiere a los movimientos resultantes.
 
 ## <a name="to-set-up-a-salesperson-code"></a>Para configurar un código de vendedor
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Vendedores** y luego elija el enlace relacionado.
-2. En la ventana **Vendedor**, elija la acción **Nuevo**.
+2. En la página **Vendedor**, elija la acción **Nuevo**.
 
 Puede utilizar vendedores en diferentes tareas de gestión de relaciones y de marketing. Por ejemplo, puede asignar tareas a un vendedor, de modo que las tareas se incorporen en las oportunidades de ventas que tiene asignadas el vendedor. Para obtener más información, vea [Configurar ciclos de ventas de oportunidad y etapas de ciclo](marketing-how-setup-opportunity-sales-cycles-stages.md).
 

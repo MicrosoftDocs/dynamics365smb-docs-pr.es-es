@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: internet
 ms.date: 10/01/2018
 ms.author: jswymer
+redirect_url: marketing-setup-contacts
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b8c59f24eae07efe8f2c4ca1e4e22d05fd4f1b1c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d7a02a85e65a663bc304becd8392e949d485f13a
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-web-sources-for-contact-companies"></a>Configurar enlaces web para empresas de contacto
@@ -29,7 +30,7 @@ El uso de enlaces web en contactos es un proceso que consta de dos pasos. Primer
 2. Elija la acción **Nuevo**.
 3. Rellene los campos **Código**, **Descripción** y **URL**.
 
-    Escriba %1 en el campo **Dirección URL** para insertar un marcador de posición para una palabra de búsqueda en la URL. Al ejecutar al enlace web desde una ficha de contacto, %1 se reemplaza con la palabra de búsqueda, por ejemplo, el nombre de la empresa, especificada en la ventana **Enlaces web de contactos**.
+    Escriba %1 en el campo **Dirección URL** para insertar un marcador de posición para una palabra de búsqueda en la URL. Al ejecutar al enlace web desde una ficha de contacto, %1 se reemplaza con la palabra de búsqueda, por ejemplo, el nombre de la empresa, especificada en la página **Enlaces web de contactos**.
 
 Repita estos pasos para configurar todos los orígenes web que desee.
 
@@ -37,13 +38,13 @@ Repita estos pasos para configurar todos los orígenes web que desee.
 Al asignar enlaces web, especifica el motor de búsqueda y la palabra clave que la aplicación usará para buscar la información solicitada.
 
 1. Abra el contacto.
-2. Elija la acción **Empresa** y, a continuación, elija la acción **Enlaces web**. Se abre la ventana **Enlaces web contacto**.
+2. Elija la acción **Empresa** y, a continuación, elija la acción **Enlaces web**. Se abre la página **Enlaces web contacto**.
 3. En el campo **Código de enlace web**, elija el enlace web que desea asignar.
 4. Escriba en el campo **Busca palabra**, escriba la palabra de búsqueda que desea que use el sistema para buscar la información.
 
 Repita estos pasos para asignar todos los orígenes web que desee.
 
-También puede asignar enlaces web, con el mismo procedimiento, en la ventana **Lista contactos**.
+También puede asignar orígenes web, con el mismo procedimiento, en la página **Lista contactos**.
 
 ## <a name="see-also"></a>Consulte también
 [Crear empresas de contacto](marketing-create-contact-companies.md)  

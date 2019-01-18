@@ -14,10 +14,10 @@ ms.date: 11/13/2018
 ms.author: sgroespe
 redirect_url: finance-set-up-cost-accounting
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 7362518cbade8132fb07f49e7b2e9be67c4bce29
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 252ebf514635ada8e07bfb1e950d0cff156d0bfc
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-cost-centers"></a>Configurar centros de costes
@@ -27,7 +27,7 @@ Los centros de coste son departamentos que son responsables de los costes y de l
 -   Cree un nuevo plan de centro de coste que es independiente de la contabilidad o agregue un nuevo centro de coste a un plan existente de centro de coste. Debe crear cada centro de coste por separado.  
 
 ## <a name="to-transfer-dimension-values-in-the-general-ledger-to-the-chart-of-cost-centers"></a>Para transferir los valores de dimensión en la contabilidad al plan de centros de coste  
-1.  Configure una dimensión para que sea la dimensión del centro de coste en la ventana **Actualizar dimensiones contabilidad costes**. Sólo los valores de esta dimensión se transfieren.  
+1.  Configure una dimensión para que sea la dimensión del centro de coste en la página **Actualizar dimensiones contabilidad costes**. Sólo los valores de esta dimensión se transfieren.  
 2.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Plan centros coste** y luego elija el enlace relacionado.  
 3.  En la pestaña **Acciones**, en el grupo **Funciones**, seleccione **Traer centros de coste de dimensión** para transferir los valores de dimensión al plan de centros de coste. La función transfiere los valores de dimensión que definió en el paso 1.  
 
@@ -36,10 +36,10 @@ Los centros de coste son departamentos que son responsables de los costes y de l
 
 El plan de centros de coste contendrá ahora todos los valores de dimensión especificados desde la contabilidad e incluirá títulos y subtotales.  
 
-## <a name="to-create-new-cost-centers-in-the-chart-of-cost-centers-window"></a>Crear nuevos centros de coste en la ventana Plan centros coste  
-Puede configurar y mantener centros de coste en la ficha **Ficha centro de coste** o bien en la ventana **Plan centros coste**. En este procedimiento, va a configurar centros de coste en la ventana **Plan de centros de coste**.  
+## <a name="to-create-new-cost-centers-in-the-chart-of-cost-centers-page"></a>Crear nuevos centros de coste en la página Plan centros coste  
+Puede configurar y mantener centros de coste en la ficha **Ficha centro de coste** o bien en la página **Plan centros coste**. En este procedimiento, va a configurar centros de coste en la página **Plan de centros de coste**.  
 
-1. Abra la ventana **Plan centros coste** en el modo de edición.  
+1. Abra la página **Plan centros coste** en el modo de edición.  
 2. En el campo **Código**, introduzca el código del centro de coste. Todos los centros de coste deben disponer de un código.  
 3. En el campo **Nombre**, introduzca el nombre del centro de coste.  
 4. Seleccione la flecha desplegable del campo **Tipo línea** para especificar la finalidad del centro de coste.  

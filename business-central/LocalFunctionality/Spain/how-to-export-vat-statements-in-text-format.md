@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6dd79ad175aad5a9691404936331a0382e41d71f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 534331f3c3a294c3da459db2925ac912fbb92716
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="export-vat-statements-in-text-format"></a>Exportar declaraciones de IVA en formato de texto
@@ -34,7 +34,7 @@ Para obtener más información, consulte el sitio web de la [Agencia Tributaria]
     >   
     >  En la versión estándar de [!INCLUDE[d365fin](../../includes/d365fin_md.md)], el nombre de la declaración del IVA para la declaración telemática 320 es del tipo **Informe 1 columna**.  
 
-4.  En la ficha desplegable **Opciones** de la ventana **Declaración telemática IVA**, rellene los campos tal y como se describe en la tabla siguiente.  
+4.  En la ficha desplegable **Opciones** de la página **Declaración telemática IVA**, rellene los campos tal y como se describe en la tabla siguiente.  
 
     |Campo|Description|  
     |---------------------------------|---------------------------------------|  
@@ -46,7 +46,7 @@ Para obtener más información, consulte el sitio web de la [Agencia Tributaria]
 
     Opcionalmente, seleccione los filtros adicionales.  
 6.  Elija el botón **Aceptar**.  
-7.  En la ventana **Formato de transferencia**, verifique que la declaración de IVA se configura correctamente y después seleccione el botón **Aceptar**.  
+7.  En la página **Formato de transferencia**, verifique que la declaración de IVA se configura correctamente y después seleccione el botón **Aceptar**.  
 8.  Seleccione el botón **Abrir** o **Guardar**.  
 
 Ahora puede enviar la declaración del IVA a las autoridades fiscales.  

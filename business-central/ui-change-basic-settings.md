@@ -11,14 +11,14 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 11/19/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b66a33d652d4229a32ed4672774e5b2bc2ed8833
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 353662322e36a564f30bc911f056817cafa7440c
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="changing-basic-settings"></a>Cambiar la configuración básica
-En la ventana [**Mi configuración**](https://businesscentral.dynamics.com?page=9176 "Vaya directamente a la página de configuración en Business Central"), puede ver y cambiar la configuración básica de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Los cambios que realice sólo afectan a su área de trabajo; no a las áreas de trabajo de otros usuarios.  
+En la página [**Mi configuración**](https://businesscentral.dynamics.com?page=9176 "Vaya directamente a la página de configuración en Business Central"), puede ver y cambiar la configuración básica de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Los cambios que realice sólo afectan a su área de trabajo; no a las áreas de trabajo de otros usuarios.  
 
 ## <a name="role-center"></a> Área de trabajo
 El área de trabajo representa la página Inicio, una pantalla de inicio que está designada para las necesidades específicas del trabajo en una empresa. Dependiendo de su función, el Área de trabajo le brinda una descripción general del negocio, su departamento o sus tareas personales. También le ayuda a navegar por sus tareas diarias y encontrar el trabajo que le asignaron.
@@ -30,7 +30,7 @@ El área de trabajo representa la página Inicio, una pantalla de inicio que est
 ### <a name="to-change-role-center"></a>Para cambiar el área de trabajo
 El Área de trabajo predeterminada es **Admin. empresarial**, pero puede seleccionar otra Área de trabajo que se adapte mejor a sus necesidades.
 1. En la esquina superior derecha, elija el icono **Configuración** ![Configuración](media/ui-experience/settings_icon_small.png "Icono Configuración para el área de trabajo") y, a continuación, elija **Mi configuración**.
-2. En la ventana **Mi configuración**, en el campo **Área de trabajo**, seleccione el área de trabajo que quiere establecer como estándar. Por ejemplo, seleccione **Contable**.
+2. En la página **Mi configuración**, en el campo **Área de trabajo**, seleccione el área de trabajo que quiere establecer como estándar. Por ejemplo, seleccione **Contable**.
 3. Elija el botón **Aceptar**.
 
 ## <a name="company"></a>Compañía
@@ -39,7 +39,7 @@ Una empresa funciona como un contenedor de datos en [!INCLUDE[d365fin](includes/
 La empresa predeterminada se llama CRONUS y solo contiene datos de demostración.
 
 > [!TIP]  
->   Si desea que se muestre un nombre distinto para la empresa en la aplicación (por ejemplo, como en el área de trabajo), establezca el campo **Nombre** en la ventana **Información empresa** o el campo **Nombre para mostrar** en la ventana **Empresas**.  
+>   Si desea que se muestre un nombre distinto para la empresa en la aplicación (por ejemplo, como en el área de trabajo), establezca el campo **Nombre** en la página **Información empresa** o el campo **Nombre para mostrar** en la página **Empresas**.  
 
 ## <a name="work-date"></a>Fecha de trabajo
 La fecha predeterminada de trabajo será normalmente la fecha actual. Es posible que tenga que cambiar temporalmente la fecha de trabajo para realizar tareas como la finalización de las transacciones de una fecha que no sea la fecha actual.

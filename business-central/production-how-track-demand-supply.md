@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2300cc6e3f4c429cd73a17939420a44b846a3b13
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1de7b6679b6b2494145654f712c3ddb3e760271e
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="track-relations-between-demand-and-supply"></a>Realizar un seguimiento de las relaciones entre demanda y suministro
@@ -36,12 +36,12 @@ A continuación se describe cómo seguir productos asociados en una orden de pro
 Las líneas de **Seguimiento de pedido** muestran los documentos que están relacionados con la línea de pedido de producción actual.
 
 ## <a name="untracked-planning-elements"></a>Elementos planificación sin seguimiento
-Se abre la ventana **Elementos de planificación sin seguimiento** cuando elige el campo **Cantidad sin seguimiento** en la ventana **Planificación de pedidos**. Responde a dos propósitos:
+Se abre la página **Elementos de planificación sin seguimiento** cuando elige el campo **Cantidad sin seguimiento** en la página **Planificación de pedidos**. Responde a dos propósitos:
 
-1. Albergar información sobre cantidades sin seguimiento que se muestran cuando el usuario busca desde la ventana Seguimiento pedido las cantidades sin seguimiento.
-2. Albergar los mensajes de advertencia que se muestran cuando el usuario selecciona el icono de **Advertencia** en la ventana **Hoja de planificación**.
+1. Albergar información sobre cantidades sin seguimiento que se muestran cuando el usuario busca desde la página Seguimiento pedido las cantidades sin seguimiento.
+2. Albergar los mensajes de advertencia que se muestran cuando el usuario selecciona el icono de **Advertencia** en la página **Hoja de planificación**.
 
-La ventana contiene entradas que contabilizan la cantidad de excedentes sin seguimiento con el objeto de realizar un seguimiento de la red. Estas entradas se generan durante la ejecución de la planificación y explican la procedencia de dicha cantidad en las líneas de seguimiento de pedido. La procedencia de este excedente sin seguimiento puede ser:
+La página contiene entradas que contabilizan la cantidad de excedentes sin seguimiento con el objeto de realizar un seguimiento de la red. Estas entradas se generan durante la ejecución de la planificación y explican la procedencia de dicha cantidad en las líneas de seguimiento de pedido. La procedencia de este excedente sin seguimiento puede ser:
 
 - Previsión de producción
 - Pedidos abiertos

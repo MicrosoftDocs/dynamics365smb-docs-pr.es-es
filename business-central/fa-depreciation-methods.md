@@ -13,10 +13,10 @@ ms.search.keywords: write down
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 5e8aa531697dcdc6f629312c0569c5628b3f5755
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4a6bc27850b84928641f5de7c364fb150fcb4481
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="depreciation-methods"></a>Métodos de depreciación
@@ -52,7 +52,7 @@ Si introduce el periodo de amortización (número de años de amortización, nú
 
 Los días restantes de amortización se calculan como el número de días de amortización, menos el número de días entre la fecha inicial de amortización y la última fecha de movimiento del activo.  
 
-El valor neto puede reducirse con apreciaciones, depreciaciones o importes especiales y provisiones registradas, según se desactive el campo **Incluye en cálc. amortización** y si se activa el campo **Parte valor neto** en la ventana **A/F Config. tipo registro**. Este cálculo garantiza que el activo se amortiza por completo al llegar la fecha final de amortización.  
+El valor neto puede reducirse con apreciaciones, depreciaciones, importes personalizado 1 o 2, según se desactive el campo **tipo reg. IVAIncluye en cálc. amortización** y si se activa el campo **Compone valor contable** en la página **A/F Config. tipo registro**. Este cálculo garantiza que el activo se amortiza por completo al llegar la fecha final de amortización.  
 
 ### <a name="fixed-yearly-percentage"></a>Porcentaje fijo anual
 Si introdujo un porcentaje fijo anual, el programa utiliza la fórmula siguiente para calcular el importe de amortización:  
@@ -90,7 +90,7 @@ La fórmula siguiente calcula los importes de amortización:
 
 La base amortizable se calcula como el valor neto menos la amortización desde la fecha inicial del año fiscal actual.  
 
-El importe de amortización registrado puede contener ciertos movimientos con diferentes tipos de registros (depreciación, personalizado1 y personalizado2) registrados desde el inicio del año fiscal actual. Estos tipos de registro se incluyen en el importe de amortización registrado, si los campos **Tipo amortización** y **Componente valor contable** están activados en la ventana **Config. tipo registro A/F**.  
+El importe de amortización registrado puede contener ciertos movimientos con diferentes tipos de registros (depreciación, personalizado1 y personalizado2) registrados desde el inicio del año fiscal actual. Estos tipos de registro se incluyen en el importe de amortización registrado, si los campos **Tipo amortización** y **Compone valor neto** están activados en la página **Config. tipo registro A/F**.  
 
 ### <a name="example---declining-balance-1-depreciation"></a>Ejemplo: amortización con regresivo 1
 Un activo tiene un coste de 100.000 DL. El valor del campo **% Regresivo** es 25. El proceso **Calcular amortización** se realiza cada dos años.  
@@ -155,9 +155,9 @@ Los valores de amortización son:
 
 | Fecha | Cálculo |
 | --- | --- |
-| 30/06/10 |IA = 100.000 x (1 - (1 - 0,25)<sup>0,5<sup>) = 13.397,46 |
+| 30/06/10 |IA = 100.000,00 x (1 - (1 - 0,25)<sup>0,5<sup>) = 13.397,46 |
 | 31/12/10 |IA = 86.602,54 x (1 - (1 - 0,25)<sup>0,5<sup>) = 11.602,54 |
-| 30/06/11 |IA = 75.000 x (1 - (1 - 0,25)<sup>0,5<sup>) = 10.048,09 |
+| 30/06/11 |IA = 75.000,00 x (1 - (1 - 0,25)<sup>0,5<sup>) = 10.048,09 |
 | 31/12/11 |IA = 64.951,91 x (1 - (1 - 0,25)<sup>0,5<sup>) = 8.701,91 |
 
 ## <a name="db1sl-depreciation"></a>Amortización Rs1/L
@@ -167,10 +167,10 @@ El proceso **Calcular amortización** calcula un importe lineal y otro regresivo
 
 Puede usar varios porcentajes para el cálculo regresivo.  
 
-Si utiliza este método, deberá introducir la vida útil estimada y el porcentaje regresivo en la ventana **A/F Libros amortización**.  
+Si utiliza este método, deberá introducir la vida útil estimada y el porcentaje regresivo en la página **A/F Libros amortización**.  
 
 ### <a name="example---db1-sl-depreciation"></a>Ejemplo: amortización Rs1/L
-Un activo tiene un coste de 100.000 DL. En la ventana **A/F Crear libros amortización**, el campo **% disminución de saldo** contiene 25 y el campo **N. º años amortización** contiene 8. El proceso **Calcular amortización** se realiza cada dos años.  
+Un activo tiene un coste de 100.000 DL. En la página **A/F Crear libros amortización**, el campo **% Regresivo** contiene 25 y el campo **Nº años amortización** contiene 8. El proceso **Calcular amortización** se realiza cada dos años.  
 
 Los movimientos de activos son los siguientes:  
 
@@ -219,21 +219,21 @@ Se utiliza el importe lineal, ya que es el importe mayor.
 ## <a name="user-defined-depreciation"></a>Amortización definida por el usuario
 El programa dispone de una utilidad que permite configurar los métodos de amortización definidos por el usuario.  
 
-Con un método definido por el usuario, se utiliza la ventana **Tablas amortización**, donde debe introducir un porcentaje de amortización para cada periodo (mes, trimestre, año o periodo contable).  
+Con un método definido por el usuario, se utiliza la página **Tablas amortización**, donde debe introducir un porcentaje de amortización para cada periodo (mes, trimestre, año o periodo contable).  
 
 La fórmula para calcular los importes de amortización es:  
 
 Importe amortización = (% Amortización x Nº días amortización x Base amortizable) / (100 x 360)  
 
 ### <a name="depreciation-based-on-number-of-units"></a>Amortización según el número de unidades
-Este método definido por el usuario también se puede utilizar para amortizar según el número de unidades, por ejemplo, en el caso de máquinas de producción con una capacidad de vida establecida. En la ventana **Tablas amortización**, puede introducir el número de unidades que pueden producirse en cada periodo (mes, trimestre, año o periodo contable).  
+Este método definido por el usuario también se puede utilizar para amortizar según el número de unidades, por ejemplo, en el caso de máquinas de producción con una capacidad de vida establecida. En la página **Tablas amortización**, puede introducir el número de unidades que pueden producirse en cada periodo (mes, trimestre, año o periodo contable).  
 
 ### <a name="to-set-up-user-defined-depreciation-methods"></a>Para configurar métodos de amortización definidos por usuario
-En la ventana **Tabla amortización**, puede configurar métodos de amortización definidos por el usuario. Por ejemplo, puede configurar la amortización según el número de unidades.  
+En la página **Tabla amortización**, puede configurar métodos de amortización definidos por el usuario. Por ejemplo, puede configurar la amortización según el número de unidades.  
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Tablas de amortización** y luego elija el enlace relacionado.  
-2. En la ventana **Lista tablas amortización**, elija la acción **Nuevo**.  
-3. En la ventana **Ficha tablas amortización**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. En la página **Lista tablas amortización**, elija la acción **Nuevo**.  
+3. En la página **Ficha tablas amortización**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ### <a name="example---user-defined-depreciation"></a>Ejemplo: amortización definida por el usuario
 Por motivos de impuestos puede utilizar un método amortización que le permita amortizar activos de forma acelerada.  
@@ -257,7 +257,7 @@ El coste es de 100.000 DL y el periodo de amortización es de cinco años. La am
 
 * Fecha inicio amortización  
 
-Si utiliza un método definido por el usuario, los campos **1ª fecha amort. def.-usuario** y **Fecha inicio amortización** deben rellenarse en la ventana **Libros amortización A/F**. El campo **1ª fecha amort. def.-usuario** y el contenido del campo **Longitud periodo** en la ventana **Tablas amortización** se utilizan para determinar los intervalos de tiempo a utilizar en los cálculos de amortización. Así se garantiza que el sistema comenzará a utilizar el porcentaje especificado para todos los activos en el mismo día. El campo **Fecha inicio amortización** se utiliza para calcular el número de días de amortización.  
+Si utiliza un método definido por el usuario, los campos **1ª fecha amort. def.-usuario** y **Fecha inicio amortización** deben rellenarse en la página **Libros amortización A/F**. El campo **1ª fecha amort. def.-usuario** y el contenido del campo **Longitud periodo** en la página **Tablas amortización** se utilizan para determinar los intervalos de tiempo a utilizar en los cálculos de amortización. Así se garantiza que el sistema comenzará a utilizar el porcentaje especificado para todos los activos en el mismo día. El campo **Fecha inicio amortización** se utiliza para calcular el número de días de amortización.  
 
 En el ejemplo anterior, los campos **1ª fecha amort. def.-usuario** y **Fecha inicio amortización** contienen 01/01/01. Si, no obstante, el campo **1ª fecha amort. def.-usuario** tuviera 01/01/10 y el campo **Fecha inicio amortización** tuviera 01/04/11, el resultado podría ser:  
 
@@ -273,7 +273,7 @@ En el ejemplo anterior, los campos **1ª fecha amort. def.-usuario** y **Fecha i
 * Fecha inicio amortización  
 
 ## <a name="half-year-convention-depreciation"></a>Amortización de convenio de medio año
-El método Convenio medio año solo se aplicará si activó el campo **Usar convenio medio año** en la ventana fija **A/F Libro amortización**.  
+El método Convenio medio año solo se aplicará si activó el campo **Usar convenio medio año** en la página fija **A/F Libro amortización**.  
 
 Este método de amortización puede utilizarse junto con los siguientes métodos de amortización:  
 
@@ -284,7 +284,7 @@ Este método de amortización puede utilizarse junto con los siguientes métodos
 Al aplicar el Convenio medio año, un activo fijo tiene seis meses de amortización en el primer año fiscal, independientemente del contenido del campo **Fecha primera amortización**.  
 
 > [!NOTE]  
->   La vida estimada del activo que resta después del año fiscal siempre será de medio año con el método Convenio medio año. De esta manera, para poder aplicar correctamente el método Convenio medio año, el campo **Fecha final amortización** de la ventana **A/F Libro amortización** siempre debe contener una fecha exactamente seis meses antes de la fecha final del año fiscal en el que se amortizó totalmente el activo fijo.  
+>   La vida estimada del activo que resta después del año fiscal siempre será de medio año con el método Convenio medio año. De esta manera, para poder aplicar correctamente el método Convenio medio año, el campo **Fecha final amortización** de la página **Libro de amortización activos** siempre debe contener una fecha exactamente seis meses antes de la fecha final del año fiscal en el que se amortizó totalmente el activo fijo.  
 
 ### <a name="example---half-year-convention-depreciation"></a>Ejemplo - Amortización de convenio de medio año
 Un activo tiene un coste de 100.000 DL. La **Fecha inicio amortización** es 01/03/10. La vida estimada es de cinco años, por lo que la **Fecha final amortización** debe ser el 30/06/15. El proceso **Calcular amortización** se realiza cada año. Este ejemplo sigue el calendario fiscal anual.  
@@ -304,7 +304,7 @@ Los movimientos de activos son los siguientes:
 * Fecha inicio amortización  
 
 ## <a name="example---db1sl-depreciation-using-half-year-convention"></a>Ejemplo - Amortización Rs1/L utilizando el convenio de medio año
-Un activo tiene un coste de 100.000 DL. La **Fecha inicio amortización** es 01/11/10. La vida estimada es de cinco años, por lo que la **Fecha final amortización** debe ser el 30/06/15. En la ventana **A/F Libros amortización**, el campo **% disminución de saldo** contiene 40. El proceso **Calcular amortización** se realiza cada año. Este ejemplo sigue el calendario fiscal anual.  
+Un activo tiene un coste de 100.000 DL. La **Fecha inicio amortización** es 01/11/10. La vida estimada es de cinco años, por lo que la **Fecha final amortización** debe ser el 30/06/15. En la página **A/F Libros amortización**, el campo **% Regresivo** contiene 40. El proceso **Calcular amortización** se realiza cada año. Este ejemplo sigue el calendario fiscal anual.  
 
 Los movimientos de activos son los siguientes:  
 

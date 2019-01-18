@@ -1,6 +1,6 @@
 ---
 title: "Impresión de libros de facturas emitidas y recibidas"
-description: "Los informes **Libro facturas emitidas** y **Libro facturas recibidas** permiten comprobar todos los documentos de compras y ventas creados en un periodo específico."
+description: "Los informes Libro facturas emitidas y Libro facturas recibidas permiten comprobar todos los documentos de compras y ventas creados en un periodo específico."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e18765f937a37b6719d9f0ffab0ab380055071b5
+ms.sourcegitcommit: b8a5f4dcfa9a4e3f728c8de3786e7d5716ac82c7
+ms.openlocfilehash: 84f09cc72a52f8714a5d08ad94edc8a65e14c473
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 10/04/2018
 
 ---
 # <a name="print-sales-and-purchase-invoice-books"></a>Imprimir libros de facturas emitidas y recibidas

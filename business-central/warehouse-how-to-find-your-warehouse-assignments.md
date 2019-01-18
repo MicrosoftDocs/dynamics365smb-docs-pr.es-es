@@ -1,6 +1,6 @@
 ---
 title: "Procedimiento: busque las asignaciones de almacén | Documentos de Microsoft"
-description: "Para buscar las asignaciones de almacén, abra la ventana de la ficha de un artículo seleccionado. Si se han creado las instrucciones del almacén, las líneas de tipo Traer y colocar son visibles y puede empezar a trabajar en una asignación. En algunos almacenes, el administrador puede haber asignado instrucciones específicas a cada empleado."
+description: "Para buscar las asignaciones de almacén, abra la página de la ficha de un artículo seleccionado. Si se han creado las instrucciones del almacén, las líneas de tipo Traer y colocar son visibles y puede empezar a trabajar en una asignación. En algunos almacenes, el administrador puede haber asignado instrucciones específicas a cada empleado."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,22 +13,22 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 012e050722f97d43a8ee59fde2566969245e4ca9
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 8dafcb427cac506209e0858791f4c47a98d72a2e
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="find-your-warehouse-assignments"></a>Buscar las asignaciones de almacén
-Para buscar las asignaciones de almacén, abra la ventana de la ficha de un artículo seleccionado. Si se han creado las instrucciones del almacén, las líneas de tipo Traer y colocar son visibles y puede empezar a trabajar en una asignación. En algunos almacenes, el administrador puede haber asignado instrucciones específicas a cada empleado. Para obtener más información, vea [Configurar los empleados de almacén](warehouse-how-to-set-up-warehouse-employees.md).
+Para buscar las asignaciones de almacén, abra la página de la ficha de un artículo seleccionado. Si se han creado las instrucciones del almacén, las líneas de tipo Traer y colocar son visibles y puede empezar a trabajar en una asignación. En algunos almacenes, el administrador puede haber asignado instrucciones específicas a cada empleado. Para obtener más información, vea [Configurar los empleados de almacén](warehouse-how-to-set-up-warehouse-employees.md).
 
 ## <a name="to-find-an-instruction-assigned-to-you"></a>Para buscar una instrucción que se le ha asignado  
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), introduzca **Ubic. exist. almacén**, **Picking almacén** o **Mov. almacén** y elija el enlace relacionado.
 
-    Las tres ventanas muestran las asignaciones de todas las ubicaciones de almacén.  
+    Las tres páginas muestran las asignaciones de todas las ubicaciones de almacén.  
 
 2. Ordene los artículos por ubicación. Ahora puede ver las instrucciones que se le han asignado.  
-3. Seleccione una de las líneas con sus iniciales en el campo **Id. usuario asignado** y, a continuación, seleccione **Aceptar**. La asignación de ubicación aparece en la ventana con sus iniciales en el campo **Id. usuario asignado** de la ficha desplegable **General**.  
+3. Seleccione una de las líneas con sus iniciales en el campo **Id. usuario asignado** y, a continuación, seleccione **Aceptar**. La asignación de ubicación aparece en la página con sus iniciales en el campo **Id. usuario asignado** de la ficha desplegable **General**.  
 
 Puede utilizar el campo **Id. usuario asignado** de la cabecera para traer sus asignaciones de trabajo, si el administrador del almacén no asigna instrucciones determinadas a los usuarios. Sólo introduzca su id. de usuario en la cabecera del almacén antes de empezar a trabajar con una instrucción. Sus compañeros pueden trabajar con otras instrucciones y el almacén impedirá una duplicación del esfuerzo.  
 

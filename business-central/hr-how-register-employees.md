@@ -13,10 +13,10 @@ ms.search.keywords: personnel, people, employee, staff, HR
 ms.date: 10/01/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 82191dc19a1a40d8823c8292010e5b01e16f9f64
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 74750011c638cf3733e20d7ab996887108bc2159
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="register-employees"></a>Registrar empleados
@@ -24,15 +24,15 @@ Para utilizar la funcionalidad Recursos humanos, primero deberá registrar cada 
 
 Los detalles de un empleado se pueden modificar en cualquier momento. Mantener los registros de empleados actualizados facilita las tareas personales. Por ejemplo, si cambia la dirección de un empleado, esta información se puede registrar en la ficha del empleado.
 
-Los procedimientos siguientes describen cómo crear una ficha inicial del empleado y cómo asignar dos tipos de datos del empleado a un empleado. Además, puede asignar otra información relacionada, como cualificaciones y códigos de causa de inactividad. Debe asignar la información sobre empleados eligiendo un campo o una acción en la ventana **Ficha de empleado**.
+Los procedimientos siguientes describen cómo crear una ficha inicial del empleado y cómo asignar dos tipos de datos del empleado a un empleado. Además, puede asignar otra información relacionada, como cualificaciones y códigos de causa de inactividad. Debe asignar la información sobre empleados eligiendo un campo o una acción en la página **Ficha de empleado**.
 
 > [!NOTE]  
-> Puede reembolsar a los empleados por sus gastos durante las actividades comerciales. Para ello, debe rellenar los campos de la ficha desplegable **Pagos** en la ventana **Ficha empleado**. Para obtener más información, consulte [Registro y reembolso de los costes de los empleados](finance-how-record-reimburse-employee-expenses.md).
+> Puede reembolsar a los empleados por sus gastos durante las actividades comerciales. Para ello, debe rellenar los campos de la ficha desplegable **Pagos** en la página **Ficha empleado**. Para obtener más información, consulte [Registro y reembolso de los costes de los empleados](finance-how-record-reimburse-employee-expenses.md).
 
 ## <a name="to-set-up-an-employee"></a>Para configurar un empleado
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Empleados** y luego elija el enlace relacionado.
 2. Seleccione la acción **Nuevo**.
-3. En la ventana **Ficha de empleado**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. En la página **Ficha empleado**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-insert-a-picture-of-an-employee"></a>Para insertar una imagen de un empleado
 Si tiene una imagen de un empleado en formato .BMP, puede insertarla en su ficha.
@@ -40,7 +40,7 @@ Si tiene una imagen de un empleado en formato .BMP, puede insertarla en su ficha
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Empleados** y luego elija el enlace relacionado.
 2. Abra la ficha del empleado pertinente.
 3. En el cuadro informativo **Imagen empleado**, seleccione el botón desplegable y elija **Importar**.
-4. En la ventana **Seleccionar una imagen para cargar** , seleccione el botón **Elegir**.
+4. En la página **Seleccionar una imagen para cargar** , seleccione el botón **Elegir**.
 5. Seleccione el archivo y, a continuación, elija **Abrir**.
 
 La imagen se inserta en el cuadro informativo **Imagen empleado**.
@@ -53,7 +53,7 @@ Utilice direcciones alternativas para llevar un control de la ubicación de los 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Empleados** y luego elija el enlace relacionado.
 2. Abra la ficha del empleado pertinente.
 3. Seleccione la acción **Direcciones alternativas**.
-4. En la ventana **Lista de direcciones alternativas**, rellene los campos según sea necesario.
+4. En la página **Lista de direcciones alternativas**, rellene los campos según sea necesario.
 5. Repita el paso 4 para cada dirección alternativa.
 
 ## <a name="see-also"></a>Consulte también

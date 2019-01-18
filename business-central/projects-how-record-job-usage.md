@@ -13,14 +13,14 @@ ms.search.keywords: project management, consumption
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e73d4aa2928f7d0f5cc04e938ca887f7403f00d1
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: f1b3864eadd616273c3a4a7d061623dab701d01e
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="record-usage-for-jobs"></a>Registro del uso para proyectos
-En la ventana **Líneas planificación proyecto**, puede revisar y registrar la utilización en las diferentes partes de su proyecto, que se actualiza automáticamente cuando modifica y transfiere la información entre proyectos y diarios de proyectos o facturas del proyecto. Para ello es necesario que haya configurado un proyecto para que **Aplicar vínculo uso de forma pred.** se active. Para obtener más información, consulte [Configurar trabajos](projects-how-setup-jobs.md).  
+En la página **Líneas planificación proyecto**, puede revisar y registrar la utilización en las diferentes partes de su proyecto, que se actualiza automáticamente cuando modifica y transfiere la información entre proyectos y diarios de proyectos o facturas del proyecto. Para ello es necesario que haya configurado un proyecto para que **Aplicar vínculo uso de forma pred.** se active. Para obtener más información, consulte [Configurar trabajos](projects-how-setup-jobs.md).  
 
 Por ejemplo, para las líneas de planificación del tipo **Presupuesto**, puede especificar la cantidad de un recurso, e indicar la cantidad a transferir al diario de proyectos. Si el tipo de la línea de planificación es **Facturable**, puede especificar la cantidad del recurso, e indicar la cantidad a transferir a una factura. Comparando la cantidad que se ha transferido al diario o a la factura con la cantidad pendiente, puede revisar rápidamente la información de utilización.
 
@@ -34,10 +34,10 @@ En los procedimientos siguientes se describe cómo registrar precios y costes de
 
     El campo **Cantidad pendiente** muestra la cantidad que queda para completar el proyecto y transferirse al diario.  
 5. Elija la acción **Crear líneas de diario de proyectos**.
-6. En la ventana **Línea planificación proyecto transf. proy.**, rellene los campos según sea necesario y, a continuación, elija el botón **Aceptar**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+6. En la página **Línea planificación proyecto transf. proy.**, rellene los campos según sea necesario y, a continuación, elija el botón **Aceptar**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. Seleccione la acción **Diario de proyectos pendientes**.  
-8. En la ventana **Diario de proyectos**, seleccione la línea relevante y, a continuación, elija la acción **Registrar**.
-9. En la ventana **Líneas planificación proyecto**, revise el uso registrado mediante la consulta de los campos **Cantidad**, **Cantidad pendiente** y **Cdad. a transferir al diario**.  
+8. En la página **Diario de proyectos**, seleccione la línea relevante y, a continuación, elija la acción **Registrar**.
+9. En la página **Líneas planificación proyecto**, revise el uso registrado mediante la consulta de los campos **Cantidad**, **Cantidad pendiente** y **Cdad. a transferir al diario**.  
 10. Repita los pasos del 3 al 8 para registrar la utilización adicional.  
 
 ## <a name="to-record-usage-for-a-job-planning-line-of-type-billable"></a>Para registrar la utilización de una línea de planificación de proyecto de tipo Facturable
@@ -50,21 +50,21 @@ En la siguiente tarea, también se registra la utilización, pero para una líne
 
     El campo **Cantidad a facturar** muestra la cantidad que queda para completar el proyecto y facturarse.  
 5. Elija la acción **Crear factura venta**.
-6. En la ventana **Transf. proy. a factura ventas**, rellene los campos según sea necesario y, a continuación, elija el botón **Aceptar**.
-7. En la ventana **Líneas planificación proyecto**, seleccione la línea relevante y, a continuación, elija la acción **Registrar**.
+6. En la página **Transf. proy. a factura ventas**, rellene los campos según sea necesario y, a continuación, elija el botón **Aceptar**.
+7. En la página **Líneas planificación proyecto**, seleccione la línea relevante y, a continuación, elija la acción **Registrar**.
 8. Revise la utilización registrada consultando los campos **Cantidad**, **Cantidad a facturar**, **Cdad. a transferir a factura** y, si la factura de ventas está registrada, el campo **Cdad. facturada**.
 9. Repita los pasos del 3 al 8 para registrar la utilización adicional.  
 10. Para revisar una factura de ventas registrada relacionada, elija la acción **Facturas venta/Abonos venta**.  
-11. En la ventana **Facturas de proyecto**, seleccione la factura correspondiente y, a continuación, elija la acción **Factura ventas/abono pendiente**.         
+11. En la página **Facturas de proyecto**, seleccione la factura correspondiente y, a continuación, elija la acción **Factura ventas/abono pendiente**.         
 
 ## <a name="to-create-job-journal-lines-from-job-planning-lines"></a>Para crear líneas del diario de proyectos desde líneas de planificación del proyecto
 Cuando esté preparado para registrar la información de los proyectos, debe crear líneas del diario de proyectos que pueda registrar.
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Proyectos** y luego elija el enlace relacionado.  
 2. Seleccione el proyecto pendiente correspondiente y, a continuación, elija la acción **Líneas planificación proyecto**.  
-3. En la ventana **Líneas planificación proyecto**, en una línea de planificación de proyecto, en el campo **Cdad. a transferir al diario**, introduzca la cantidad que desee transferir a un diario de proyectos.  
+3. En la página **Líneas planificación proyecto**, en una línea de planificación de proyecto, en el campo **Cdad. a transferir al diario**, introduzca la cantidad que desee transferir a un diario de proyectos.  
 4. Elija la acción **Crear líneas de diario de proyectos**.
-5. En la ventana **Línea planificación proyecto transf. proy.**, rellene los campos según sea necesario.  
+5. En la página **Línea planificación proyecto transf. proy.**, rellene los campos según sea necesario.  
 6. Elija el botón **Aceptar**. Se crean las líneas de proyectos.
 7. Para verificar la transferencia, abra la sección de diario de proyectos pertinente y compruebe los movimientos.  
 8. Cuando las líneas del diario de proyectos están completas, seleccione la acción **Registrar**.  
@@ -83,7 +83,7 @@ Después de haber registrado las líneas de diario de proyectos, puede ver las l
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diarios proyecto** y luego elija el enlace relacionado.  
 2. Seleccione un diario de trabajo relevante y, a continuación, seleccione la acción **Movimientos**.  
-3. En la ventana **Movs. proyectos**, elija la acción **Mostrar líneas planificación proyecto vinculadas**.
+3. En la página **Movs. proyectos**, elija la acción **Mostrar líneas planificación proyecto vinculadas**.
 
 ## <a name="see-also"></a>Consulte también
 [Administración de proyectos](projects-manage-projects.md)  

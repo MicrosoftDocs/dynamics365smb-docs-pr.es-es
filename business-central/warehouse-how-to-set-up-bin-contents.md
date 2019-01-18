@@ -13,30 +13,30 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b92e6a5227fc2e1c60498ef2aafaae55deaedab8
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6aa07d1f37c15901951ab5b81b771838abf95126
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-bin-contents"></a>Crear contenido de ubicación
-Después de configurar las ubicaciones, puede configurar el contenido. Es decir, puede configurar los productos que desea almacenar en una ubicación determinada y definir las reglas que rigen la cumplimentación de la ubicación con un producto particular. Puede hacerlo manualmente en la ventana **Contenidos de ubicación** o automáticamente con la ventana **Crear hoja de contenido de ubicación**.
+Después de configurar las ubicaciones, puede configurar el contenido. Es decir, puede configurar los productos que desea almacenar en una ubicación determinada y definir las reglas que rigen la cumplimentación de la ubicación con un producto particular. Puede hacerlo manualmente en la página **Contenidos de ubicación** o automáticamente con la página **Crear hoja de contenido de ubicación**.
 
 ## <a name="to-create-bin-content-manually"></a>Para crear el contenido de ubicación manualmente  
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Ubicaciones** y luego elija el enlace relacionado.  
 2.  Seleccione la ubicación en la que desee configurar contenidos de ubicación y elija la acción **Ubicaciones**.  
 3.  Seleccione la ubicación en la que desee configurar contenidos y elija la acción **Contenidos**.  
-4.  Para cada producto que desee almacenar en la ubicación, rellene una línea en la ventana **Contenidos ubicación** con la información adecuada. Algunos campos se rellenan con información de la ubicación.  
+4.  Para cada producto que desee almacenar en la ubicación, rellene una línea en la página **Contenidos ubicación** con la información adecuada. Algunos campos se rellenan con información de la ubicación.  
 5.  Primero rellene el campo **Nº producto** y, a continuación, si utiliza ubicación y picking directos, rellene otros campos como **Cód. unidad medida**, **Cantidad máx.** y **Cantidad mín.**  
 
 Seleccione el campo **Fijo** si es necesario. Si la ubicación se va a utilizar como la ubicación genérica para el producto, seleccione el campo **Ubicación genérica**.  
 
-Si utiliza ubicación y picking directos y ha introducido la información de dimensiones correcta en la ficha de producto acerca de la unidad de medida de cada producto, la cantidad máxima que ha introducido en la ventana **Contenidos ubicación** se contrastará con las capacidades físicas de la ubicación. Se utilizarán las cantidades máxima y mínima al calcular las reposiciones de cada ubicación y se sugerirán ubicaciones.  
+Si utiliza ubicación y picking directos y ha introducido la información de dimensiones correcta en la ficha de producto acerca de la unidad de medida de cada producto, la cantidad máxima que ha introducido en la página **Contenidos ubicación** se contrastará con las capacidades físicas de la ubicación. Se utilizarán las cantidades máxima y mínima al calcular las reposiciones de cada ubicación y se sugerirán ubicaciones.  
 
 Si selecciona el campo **Fijo**, define la ubicación fija del producto, lo que significa que [!INCLUDE[d365fin](includes/d365fin_md.md)] intentará colocar este producto en la ubicación si tiene espacio para el mismo y mantendrá el registro fijo del producto incluso cuando la cantidad en la ubicación sea 0. Se pueden colocar otros productos en la ubicación, aunque se haya fijado un producto determinado a la ubicación.  
 
 > [!NOTE]  
->  Puede configurar varios contenidos de ubicación simultáneamente en la **Hoja trab. creac. cont. ubic.**  
+>  Puede configurar varios contenidos de ubicación simultáneamente en la página **Hoja trab. creac. cont. ubic.**  
 
 ## <a name="to-create-bin-content-with-a-worksheet"></a>Para crear el contenido de una ubicación con una hoja de trabajo  
 Cuando haya creado sus ubicaciones, puede crear el contenido de la ubicación que desea para cada ubicación en la hoja de trabajo de creación de contenido de hoja de trabajo.

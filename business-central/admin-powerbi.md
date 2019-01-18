@@ -11,10 +11,10 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: eae7e97ec122b91a479ad956176a0b34b269bcb6
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 26fe722a863ada2bcd017e2bc614b976a7119a25
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Habilitar los datos de negocio para Power BI
@@ -49,7 +49,7 @@ Los paquetes de contenido están configurados previamente para trabajar con los 
 
 También puede empezar desde Dynamics 365 Business Edition. En el área de trabajo, vaya a **Selección de informe** de la parte Área de trabajo de Power BI. Seleccione **Servicio** o **Mi organización** en la cinta. Cuando cualquiera de estas acciones está seleccionada, accederá a la galería de la organización en Power BI o a la biblioteca de servicios en Power BI, que también se filtrarán para mostrar solo los paquetes de contenido relacionados con [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
 
-2. En el cuadro **Servicios**, seleccione **Obtener**. Se abrirá una ventana con **AppSource** y **aplicaciones para aplicaciones de Power BI**.  
+2. En el cuadro **Servicios**, seleccione **Obtener**. Se abrirá una página con **AppSource** y **aplicaciones para aplicaciones de Power BI**.  
 ![Seleccionar paquetes de contenidos de servicios en línea](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-online-services-get.png)
 3. Seleccione **Aplicaciones** de la pestaña **Aplicaciones para aplicaciones de Power BI** y elija el paquete de contenidos **Microsoft Dynamics 365 Business Central** que quiera usar, a continuación, seleccione **Obtener ahora**.  
 ![Seleccione Dynamics 365 Business Central y seleccione Obtener ahora](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-dynamics365-for-financials-get-it-now.png)

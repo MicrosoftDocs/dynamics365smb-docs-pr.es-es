@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ebd644745ed7d914bdccfe59ecc3924ed1b542a5
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 75cf101f7f67bdd54d6e364468fd5e4354a089af
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="ship-items"></a>Enviar productos
@@ -50,22 +50,22 @@ Normalmente, el empleado responsable de los envíos crea un envío de almacén.
 
     > [!NOTE]  
     >  Si desea enviar productos con códigos de clase de almacén de la ubicación en el campo **Cód. ubicación** de la cabecera de documento, debe eliminar el contenido del campo **Cód. ubicación** en la cabecera antes de recuperar líneas del documento de origen para los productos.  
-3.  Seleccione la acción **Traer doc. origen**. Se abre la ventana **Documentos origen**.
+3.  Seleccione la acción **Traer doc. origen**. Se abre la página **Documentos origen**.
 
-    Desde una recepción o un envío de almacén nuevos o abiertos, puede utilizar la ventana de **Filtros para traer docs. orig.** para recuperar las líneas del documento de origen lanzado que definen la artículos para recibir o enviar.
+    Desde una recepción o un envío de almacén nuevos o abiertos, puede utilizar la página **Filtros para traer docs. orig.** para recuperar las líneas del documento de origen lanzado que definen la artículos para recibir o enviar.
 
     1. Elija la acción **Utiliz. filt. para traer docs.**.  
     2. Para configurar un nuevo filtro introduzca un código descriptivo en el campo **Código** y, a continuación, elija la acción **Modificar**.  
     3. Defina el tipo de líneas del documento de origen que desea que recupere el sistema rellenando los campos de filtro correspondientes.  
     4. Seleccione la acción **Ejecutar**.  
 
-    Todas las líneas del documento de origen lanzado que cumplan los criterios del filtro se insertarán en la ventana **Envío almacén** desde las que se activó la función del filtro.  
+    Todas las líneas del documento de origen lanzado que cumplan los criterios del filtro se insertarán en la página **Envío almacén** desde las que se activó la función del filtro.  
 
-    Las combinaciones de filtros que defina se guardan en la ventana de **Filtros para traer docs. orig.** hasta que la próxima vez que las necesite. Puede crear un número ilimitado de combinaciones de filtros. Puede modificar los criterios en cualquier momento eligiendo la acción **Modificar**.
+    Las combinaciones de filtros que defina se guardan en la página **Filtros para traer docs. orig.** hasta que la próxima vez que las necesite. Puede crear un número ilimitado de combinaciones de filtros. Puede modificar los criterios en cualquier momento eligiendo la acción **Modificar**.
 
 4.  Seleccione los documentos de origen de los que desea enviar productos y, a continuación, haga clic en **Aceptar**.  
 
-Las líneas de los documentos de origen aparecerán en la ventana **Envío almacén**. El campo **Cantidad a enviar** se rellena con la cantidad pendiente de cada línea, pero puede cambiarla según necesite. Si ha eliminado el contenido del campo **Cód. ubicación** de la ficha desplegable **General** antes de traer las líneas, debe rellenar un código de ubicación apropiado en cada línea de envío.  
+Las líneas de los documentos de origen aparecerán en la página **Envío almacén**. El campo **Cantidad a enviar** se rellena con la cantidad pendiente de cada línea, pero puede cambiarla según necesite. Si ha eliminado el contenido del campo **Cód. ubicación** de la ficha desplegable **General** antes de traer las líneas, debe rellenar un código de ubicación apropiado en cada línea de envío.  
 
 > [!NOTE]  
 >  No puede enviar más productos que el número que se muestra en el campo **Cdad. pendiente** de la línea del documento de origen. Para enviar más productos, recupere otro documento de origen que contenga una línea para el producto mediante la función de filtro para traer documentos de origen con el producto.  
@@ -76,7 +76,7 @@ Cuando tenga las líneas que desea enviar, puede iniciar el proceso que envía l
 Normalmente, un empleado de almacén responsable del picking crea un documento de picking, o bien abre un documento ya creado de picking.
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Envíos de almacén** y luego elija el enlace relacionado.
 2. Seleccione el envío de almacén para el que desea realizar el picking, y después seleccione la acción **Crear picking**.
-3. Rellene los campos en la ventana de solicitud y, a continuación, elija el botón **Aceptar**. Se crea el documento de picking de almacén especificado.
+3. Rellene los campos en la página de solicitud y, a continuación, elija el botón **Aceptar**. Se crea el documento de picking de almacén especificado.
 
     Alternativamente, abra un picking de almacén existente.
 4. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Picking** y luego elija el enlace relacionado. Seleccione el picking de almacén con el que desea trabajar.

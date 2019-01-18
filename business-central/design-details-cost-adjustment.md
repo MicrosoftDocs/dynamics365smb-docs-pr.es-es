@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f8f5959c25800c1a8d5ee7ed88f4e7a8599ce20a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ace9e09a1f57310e93bb86422c492383690bc04b
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-cost-adjustment"></a>Detalles de diseño: Ajuste de coste
@@ -71,7 +71,7 @@ Para obtener más información, consulte [Detalles de diseño: Registro de pedid
 El ajuste del coste se puede realizar de dos formas:  
 
 * Esto se hace manualmente ejecutando el trabajo por lotes **Valorar stock - movs. producto**. Puede ejecutar este proceso para todos los productos o solo para determinados productos o categorías de productos. Este proceso ejecuta un ajuste de coste de los productos en inventario para los que se ha realizado una transacción de entrada, como una compra. En el caso de productos que utilizan el método de coste Promedio, el trabajo por lotes también hace un ajuste si se crean transacciones de salida.  
-* Automáticamente, ajustando los costes cada vez que se registra una transacción de inventario y cuando se termina una orden de producción. El ajuste de coste solo se ejecuta para el producto o productos específicos afectados por el registro. Se configura al seleccionar la casilla **Ajuste automático coste** en la ventana **Configuración de inventario**.  
+* Automáticamente, ajustando los costes cada vez que se registra una transacción de inventario y cuando se termina una orden de producción. El ajuste de coste solo se ejecuta para el producto o productos específicos afectados por el registro. Se configura al seleccionar la casilla **Ajuste automático coste** en la página **Configuración de inventario**.  
 
 Es buena práctica ejecutar el ajuste del coste automáticamente cuando se registra, ya que los costes unitarios se actualizan con más frecuencia y por tanto son más exactos. La desventaja es que se puede ver afectado el rendimiento de la base de datos al ejecutar el ajuste de coste con tanta frecuencia.  
 
@@ -79,7 +79,7 @@ Dado que es importante mantener el coste unitario de un producto actualizado, se
 
 Independientemente de si ejecuta el ajuste de costes manual o automáticamente, el proceso de ajuste y sus consecuencias son los mismos. [!INCLUDE[d365fin](includes/d365fin_md.md)] calcula el valor de la transacción de entrada y desvía ese coste a cualquier transacción de salida, como ventas o consumos, que se hayan aplicado a la transacción de entrada. El ajuste de coste crea movimientos de valoración que contienen importes de ajuste e importes que compensan el redondeo.  
 
-Los movimientos de nuevo ajuste y de valor de redondeo tienen la fecha de registro de la factura relacionada. Las excepciones son si los movimientos de valor entran en un periodo contable o un periodo de inventario cerrado o si la fecha de registro es anterior a la del campo **Permitir registro desde**  en la ventana **Configuración de contabilidad**. Cuando esto se produce, el trabajo por lotes asigna la fecha de registro como la primera fecha del periodo abierto siguiente.  
+Los movimientos de nuevo ajuste y de valor de redondeo tienen la fecha de registro de la factura relacionada. Las excepciones son si los movimientos de valor entran en un periodo contable o un periodo de inventario cerrado o si la fecha de registro es anterior a la del campo **Permitir registro desde** en la página **Configuración de contabilidad**. Cuando esto se produce, el trabajo por lotes asigna la fecha de registro como la primera fecha del periodo abierto siguiente.  
 
 ## <a name="adjust-cost---item-entries-batch-job"></a>Proceso Valorar stock - movs. producto  
 Al ejecutar el proceso **Valorar stock - movs. producto**, tiene la opción de ejecutar el proceso para todos los productos o solo para determinados productos o categorías.  
@@ -143,7 +143,7 @@ Más tarde, se registra un cargo de producto de compra de 2,00 DL facturado en 1
 |15-01-20|[Cuenta de CV]|7290||2.00|8|  
 
 ## <a name="automatic-cost-adjustment"></a>Ajuste automático coste  
-Para configurar que el ajuste de coste se ejecute automáticamente al registrar una transacción de inventario, utilice el campo **Ajuste automático coste** en la ventana **Configuración de inventario**. Este campo le permite seleccionar hasta qué punto en el pasado a partir de la fecha de trabajo actual desea que se realice el ajuste de coste. Las siguientes opciones están disponibles.  
+Para configurar que el ajuste de coste se ejecute automáticamente al registrar una transacción de inventario, utilice el campo **Ajuste automático coste** en la página **Configuración de inventario**. Este campo le permite seleccionar hasta qué punto en el pasado a partir de la fecha de trabajo actual desea que se realice el ajuste de coste. Las siguientes opciones están disponibles.  
 
 |Opción|Description|  
 |----------------------------------|---------------------------------------|  

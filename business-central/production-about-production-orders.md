@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7172c271d2bd25d79294a637dec83a8a0fb834dc
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1c534f16c1e69840912e42c30bbcae2d6496b373
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="about-production-orders"></a>Sobre los pedidos de producción
@@ -40,7 +40,7 @@ Las órdenes de producción son los puntos de partida de:
 -   El seguimiento de la fabricación terminada  
 
 ## <a name="production-order-creation"></a>Creación de órdenes de producción  
-Las órdenes de producción se pueden crear una por una, manualmente, desde la ventana **Orden producción**, o se pueden generar desde las ventanas **Planificación de pedidos de venta** o **Planificación de pedidos**. Para crear varias órdenes se utiliza la ventana **Hoja planificación**.  
+Las órdenes de producción se pueden crear una por una, manualmente, desde la página **Orden producción**, o se pueden generar desde las páginas **Planificación pedido venta** o **Planificación de pedidos**. Para crear varias órdenes se utiliza la página **Hoja planificación**.  
 
 Las órdenes de producción se crean utilizando información sobre:  
 
@@ -54,8 +54,8 @@ Las órdenes de producción se crean utilizando información sobre:
 Las órdenes de producción se reservan automáticamente y se realiza el seguimiento hasta su origen cuando:  
 
 -   Se crean desde la **Hoja planificación**  
--   Se crean con la función de pedido de la ventana **Planificación de pedidos de venta**  
--   Se crean desde la ventana **Planificación de pedidos**  
+-   Se crean con la función de pedido de la página **Planificación pedido venta**  
+-   Se crean desde la página **Planificación de pedidos**  
 -   Se usa la función **Replanificar** en las órdenes de producción  
 
 Para obtener más información, vea [Seguimiento de relaciones entre demanda y suministro](production-how-track-demand-supply.md).
@@ -63,7 +63,7 @@ Para obtener más información, vea [Seguimiento de relaciones entre demanda y s
 Las órdenes de producción creadas por otros métodos no se reservan automáticamente, ni se realiza su seguimiento.   
 
 ## <a name="production-order-status"></a>Estado de las órdenes de producción  
-El estado de una orden de producción controla su comportamiento en el sistema. La forma y el contenido de una orden de producción se rigen por el estado de la misma. Las órdenes de producción se muestran en ventanas distintas en función de su estado. El estado de una orden de producción no se puede cambiar manualmente, es necesario usar la función **Cambiar estado**.  
+El estado de una orden de producción controla su comportamiento en el sistema. La forma y el contenido de una orden de producción se rigen por el estado de la misma. Las órdenes de producción se muestran en páginas diferentes según sus estados. El estado de una orden de producción no se puede cambiar manualmente, es necesario usar la función **Cambiar estado**.  
 
 ### <a name="simulated-production-order"></a>Orden de producción simulada  
 La orden de producción simulada es exclusiva porque tiene las características siguientes:  

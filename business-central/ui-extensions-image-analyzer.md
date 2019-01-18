@@ -12,10 +12,10 @@ ms.search.keywords: API, extension, Cognitive Services, image, computer vision, 
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 9a2d7999f3a4ecc3a597b6641ee1db69d754de4c
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 803d755a7caa470b97bf606f0f8916d0135d047e
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 
@@ -50,14 +50,14 @@ La extensión del analizador de imágenes viene incorporada en [!INCLUDE[d365fin
 * Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Conexiones de servicio** y luego elija **Configuración de análisis de imagen**. Seleccione la casilla **Activar analizador de imágenes**y, a continuación, complete los pasos de la guía de configuración asistida.  
 
     > [!TIP]  
-    > La ventana **Configuración del análisis de imágenes** también permite cambiar el grado de confianza de las sugerencias de atributos. Por ejemplo, si desea exigir un mayor grado de confianza, puede introducir un porcentaje más alto.
+    > La página **Configuración del análisis de imágenes** también permite cambiar el grado de confianza de las sugerencias de atributos. Por ejemplo, si desea exigir un mayor grado de confianza, puede introducir un porcentaje más alto.
 
 ## <a name="to-analyze-an-image-of-an-item"></a>Analizar una imagen de un producto
 Los siguientes pasos describen cómo analizar una imagen que se importó antes de activar la extensión del analizador.  
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Productos** y luego elija el enlace relacionado.  
 2. Seleccione el producto y, a continuación, elija la acción **Analizar imagen**.  
-3. La ventana **Atributos del analizador de imágenes** muestra los atributos detectados, el nivel de confianza y otros detalles sobre el atributo. Utilice las opciones **Acción para realizar** para especificar qué debe hacer con el atributo.  
+3. La página **Atributos del analizador de imágenes** muestra los atributos detectados, el nivel de confianza y otros detalles sobre el atributo. Utilice las opciones **Acción para realizar** para especificar qué debe hacer con el atributo.  
 
     > [!TIP]  
     > Puede agregar el nombre del atributo a la descripción del artículo mediante **Añadir a la descripción del artículo**. Por ejemplo, esto puede ser útil para agregar rápidamente detalles.  

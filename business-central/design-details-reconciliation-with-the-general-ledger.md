@@ -13,10 +13,10 @@ ms.search.keywords: design, reconciliation, general ledger, inventory
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 67392093b4643b6083514859655ce3adc61d1d5b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9655a65fe6a5e6f90ba2c0f1a00c6c8f2cc977ad
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Detalles de diseño: Conciliación con contabilidad
@@ -35,7 +35,7 @@ Las fechas de registro de los movimientos de contabilidad se establecerán en la
 Cuando ejecute el proceso **Registrar variación inventario en contabilidad**, es posible que se produzcan errores porque falta la configuración o porque la configuración de dimensión no es compatible. Si el proceso encuentra errores relacionados con la configuración de dimensión, omitirá dichos errores y utilizará las dimensiones del movimiento de valor. Para otros errores, el trabajo por lotes no registra los movimientos de valores y muestra una lista de ellos al final del informe, en una sección llamada **Movimientos omitidos**. Para registrar dichos movimientos, deberá primeramente arreglar las causas de los errores. Para ver una lista con los errores antes de ejecutar el trabajo por lotes, puede ejecutar el informe **Reg. var. ex. en cont. - Test**. Este informe muestra un listado con todos los errores encontrados durante un proceso de registro de prueba. Puede solucionar dichos errores y después ejecutar el proceso de registro de costes sin que se omita ningún movimiento.  
 
 ## <a name="automatic-cost-posting"></a>Variación existencias automát.  
-Para configurar que el registro de costes en contabilidad se ejecute automáticamente al registrar una transacción de inventario, seleccione la casilla **Variación existencias automát.** en la ventana **Configuración de inventario**. La fecha de registro del movimiento de contabilidad es la misma que la fecha de registro del movimiento de producto.  
+Para configurar que el registro de costes en contabilidad se ejecute automáticamente al registrar una transacción de inventario, seleccione la casilla **Variación existencias automát.** en la página **Configuración de inventario**. La fecha de registro del movimiento de contabilidad es la misma que la fecha de registro del movimiento de producto.  
 
 ## <a name="account-types"></a>Tipos de cuenta  
 Durante la conciliación, los valores de inventario se registran en la cuenta de inventario en la hoja de balance. El mismo importe, pero con el signo contrario, se registra en la cuenta de contrapartida correspondiente. Normalmente, la cuenta de contrapartida es una cuenta de ganancias y pérdidas. No obstante, cuando se registra un coste directo relacionado con un consumo o una salida, la cuenta de contrapartida es una cuenta de balance. El tipo del movimiento de producto y del movimiento de valoración determina en qué cuenta de contabilidad se realizará el registro.  
@@ -45,7 +45,7 @@ El tipo de movimiento indica en qué cuenta de contabilidad se registrará. Se d
 ### <a name="example"></a>Ejemplo  
 En el ejemplo siguiente se muestra una cadena de bicicleta que se ha fabricado con eslabones comprados. En este ejemplo se muestra cómo se usan los diferentes tipos de cuenta contable en un escenario típico.  
 
-La casilla **Regis. cte. previsto en contab.** de la ventana **Configuración de inventario** está seleccionada y la configuración siguiente está definida.  
+La casilla **Regis. cte. previsto en contab.** de la página **Configuración de inventario** está seleccionada y la configuración siguiente está definida.  
 
 En la tabla siguiente se muestra cómo está configurado el eslabón en la ficha de producto.  
 

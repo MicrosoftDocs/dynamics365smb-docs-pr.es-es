@@ -13,19 +13,19 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: df77e655c58b6eba6f431ef66be3152f56ac634f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: dda69814c0f8b2a21a3e927e2e357817090549f4
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-integration-with-inventory"></a>Detalles de diseño: Integración con inventario
 Las áreas de aplicación de Gestión de almacén e Inventario interactúan entre sí en el inventario físico y en el ajuste de inventario o de almacén.  
   
-## <a name="physical-inventory"></a>Physical Inventory  
- La ventana **Diario de inventario físico de almacén** se usa en la ventana **Diario inventario físico** para todas las ubicaciones de almacén avanzadas. Se calcula el inventario en el nivel de ubicación y se proporciona una lista impresa al empleado del almacén. La lista muestra los productos en los que se deben contar las ubicaciones.  
+## <a name="physical-inventory"></a>Inventario físico  
+ La página **Diario de inventario físico de almacén** se usa en la página **Diario inventario físico** para todas las ubicaciones de almacén avanzadas. Se calcula el inventario en el nivel de ubicación y se proporciona una lista impresa al empleado del almacén. La lista muestra los productos en los que se deben contar las ubicaciones.  
   
- El empleado de almacén introduce la cantidad contada en la ventana **Diario de inventario físico de almacén** y, a continuación, registra el diario.  
+ El empleado de almacén introduce la cantidad contada en la página **Diario de inventario físico de almacén** y, a continuación, registra el diario.  
   
  Si la cantidad contada es mayor que la cantidad en la línea del diario, se registra un movimiento para esta diferencia desde la ubicación de ajuste predeterminada a la ubicación contada. Esto aumenta la cantidad en la ubicación contada y reduce la cantidad en la ubicación de ajuste predeterminada.  
   
@@ -36,7 +36,7 @@ Las áreas de aplicación de Gestión de almacén e Inventario interactúan entr
  Cuando se registra el diario de inventario físico, se actualizan el inventario y la ubicación de ajuste predeterminada.  
   
 ### <a name="warehouse-adjustments-to-the-item-ledger"></a>Ajustes de almacén en los movimientos de productos  
- Use la ventana **Diario de producto** y la función **Calcular ajuste almacén** para ajustar el inventario en el movimiento de producto según un ajuste que se ha realizado en la cantidad de producto en una ubicación de almacén. Para crear un vínculo entre el inventario y el almacén, debe definir una ubicación de ajuste predeterminado por ubicación.  
+ Use la página **Diario de producto** y la función **Calcular ajuste almacén** para ajustar el inventario en el movimiento de producto según un ajuste que se ha realizado en la cantidad de producto en una ubicación de almacén. Para crear un vínculo entre el inventario y el almacén, debe definir una ubicación de ajuste predeterminado por ubicación.  
   
  La ubicación de ajuste predeterminado registra los productos en el almacén al registrar una entrada de existencias. No obstante, si se registra una disminución, la cantidad en la ubicación predeterminada también disminuye. En ambos casos, se crean movimientos de producto y movimientos de almacén.  
   

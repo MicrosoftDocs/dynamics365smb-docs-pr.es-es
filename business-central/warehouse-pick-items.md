@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4258d6b2edea44dbf86b649ffb4c515473421a55
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 6a51a509ae1281d7c6bfe19e5276b516982a5fa5
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="pick-items"></a>Elegir productos
@@ -27,9 +27,9 @@ Si decide organizar y registrar su actividad de picking con documentos de almac�
 > [!NOTE]
 > A pesar de que la configuración se denomina **Picking requerido**, todavía puede registrar envíos directamente desde el documento empresarial de origen en la ubicación donde se selecciona esta casilla de verificación.
 
-Si el almacén está configurado para requerir el proceso de picking, pero no el proceso de envío, utilice la ventana **Picking inventario** para organizar la información de picking, imprimirla, especificar el resultado del picking real y registrar la información de picking, que, a su vez, registra el envío de los productos. En caso de realizar el picking de componentes para una orden de producción, el registro del picking también registra el consumo.
+Si el almacén está configurado para requerir el proceso de picking, pero no el proceso de envío, utilice la página **Picking inventario** para organizar la información de picking, imprimirla, especificar el resultado del picking real y registrar la información de picking, que, a su vez, registra el envío de los productos. En caso de realizar el picking de componentes para una orden de producción, el registro del picking también registra el consumo.
 
-Si su ubicación se ha configurado para requerir picking y procesamiento de envío, con lo que ha activado las marcas de verificación de los campos de **Picking requerido** y **Envío requerido** en la ficha de almacén, utilice la ventana **Picking de almacén** para gestionar el picking. El picking de almacén funciona de forma similar al picking de inventario, excepto que en vez de registrar información de picking, se registra el picking. Este proceso de registro no registra el envío, sino simplemente hacer que los artículos estén disponibles para el envío. Como administrador del almacén, puede utilizar las hojas de trabajo de un picking para organizar la información antes de crear las instrucciones individuales de picking de almacén.
+Si su ubicación se ha configurado para requerir picking y procesamiento de envío, con lo que ha activado las marcas de verificación de los campos de **Picking requerido** y **Envío requerido** en la ficha de almacén, utilice la página **Picking de almacén** para gestionar el picking. El picking de almacén funciona de forma similar al picking de inventario, excepto que en vez de registrar información de picking, se registra el picking. Este proceso de registro no registra el envío, sino simplemente hacer que los artículos estén disponibles para el envío. Como administrador del almacén, puede utilizar las hojas de trabajo de un picking para organizar la información antes de crear las instrucciones individuales de picking de almacén.
 
 En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.   
 

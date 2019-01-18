@@ -13,10 +13,10 @@ ms.search.keywords: customize, personalize, personalization, hide columns, remov
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 78eea4df6f25772063cef5770eb1dcb433bee012
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 15d7e4aac7989f95f7becc8aa8ed96381a7dc2de
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="managing-personalization-as-an-administrator"></a>Administrar la personalización como administrador
@@ -30,11 +30,11 @@ Puede evitar que todos los usuarios que pertenecen a un perfil específico pueda
 
 ## <a name="clear-user-personalizations"></a>Borrar personalizaciones de usuarios
 
-Al borrar la personalización de la página, la página vuelve a su diseño original antes de realizar cualquier personalización. Existen dos formas de borrar las personalizaciones que los usuarios han realizado en las páginas: usando la ventana **Eliminar personalización usuario** o la ventana **Tarjeta personalización usuario**.
+Al borrar la personalización de la página, la página vuelve a su diseño original antes de realizar cualquier personalización. Existen dos formas de borrar las personalizaciones que los usuarios han realizado en las páginas: usando la página **Eliminar personalización usuario** o la página **Tarjeta personalización usuario**.
 
 ### <a name="clear-user-personalizations-by-using-the-delete-user-personalization-page"></a>Borrar las personalizaciones de los usuarios con la página Eliminar personalización de usuarios.
 
-La ventana **Eliminar personalización de usuarios** le permite borrar la personalización por página y por usuario.
+La página **Eliminar personalización de usuarios** le permite borrar la personalización por página y por usuario.
 
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Eliminar personalización usuario** y luego elija el enlace relacionado.
 
@@ -49,11 +49,11 @@ La ventana **Eliminar personalización de usuarios** le permite borrar la person
 
 ### <a name="clear-user-personalizations-by-using-the-user-personalization-card-page"></a>Borrar las personalizaciones de los usuarios con la página Tarjeta personalización de usuarios
 
-La ventana **Tarjeta personalización de usuarios** le permite borrar la personalización en todas las páginas de un usuario específico. Esto requiere permiso de escritura para el **perfil** de tabla 2000000072.
+La página **Tarjeta personalización de usuarios** le permite borrar la personalización en todas las páginas de un usuario específico. Esto requiere permiso de escritura para el **perfil** de tabla 2000000072.
 
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Personalización usuario** y luego elija el enlace relacionado.
 
-    La ventana **Personalización usuario** muestra todos los usuarios que potencialmente hayan personalizado las páginas. Si no puede encontrar un usuario en la lista, significa que no tiene páginas personalizadas.
+    La página **Personalización usuario** muestra todos los usuarios que potencialmente hayan personalizado las páginas. Si no puede encontrar un usuario en la lista, significa que no tiene páginas personalizadas.
 
 2. Seleccione el usuario de la lista y, a continuación, seleccione la acción **Editar**.
 

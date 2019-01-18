@@ -13,17 +13,17 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c7c76ce91b58d6cdba09652c54696dc38a87f950
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: f5db99544cea6cb4f34789a4b2a5cae602cc1f75
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-manufacturing-batch-units-of-measure"></a>Trabajar con la unidad de medida de lote de fabricación
 Si un producto se almacena en una unidad de medida pero se fabrica en otra, se crea una orden de producción que utiliza una unidad de medida de la sección de fabricación para calcular la cantidad correcta de componentes durante el trabajo por lotes **Actualizar orden producción**. Un ejemplo del cálculo de una unidad de medida de la sección de fabricación es el caso en que un producto fabricado se almacena por piezas pero se produce en toneladas.  
 
 ## <a name="to-create-a-production-bom-using-a-batch-unit-of-measure"></a>Para crear una lista de materiales de producción con una unidad de medida de sección  
-1.  La unidad de medida de sección de fabricación se configura como una unidad de medida alternativa en la ventana **Unidades medida producto** del producto que se va a fabricar. La unidad de medida de sección no sustituye a la unidad de medida base del producto.  
+1.  La unidad de medida de la sección de fabricación se configura como unidad de medida alternativa en la página **Unidades medida producto** del producto que se va a fabricar. La unidad de medida de sección no sustituye a la unidad de medida base del producto.  
 2.  Cree una L.M. producción para el producto configurado con la unidad de medida de sección de fabricación. Para obtener más información, consulte [Crear L.M. de producción](production-how-to-create-production-boms.md).  
 3.  En el campo **Cód. unidad medida**, seleccione la unidad de medida de sección de fabricación.  
 4.  Por cada línea de la lista de materiales de producción, en el campo **Cantidad por**, especifique la cantidad de este producto de componente, necesaria para crear esta unidad de medida de sección.  

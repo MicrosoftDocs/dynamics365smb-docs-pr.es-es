@@ -11,10 +11,10 @@ ms.search.keywords: supply planning, sales demand, replenish
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: a268ec469f7781e77d7e4438a3b18c95e9304d4d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5b766f4d11b66a88f1884f8315b5856021190b34
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="purchase-items-for-a-sale"></a>Comprar productos para una venta
@@ -35,7 +35,7 @@ Para crear un pedido de compra para cada cantidad de producto no disponible en e
 2. Abra un pedido de venta para el que desea comprar productos.
 3. Elija la acción **Crear pedidos de compra**.
 
-    Se abre la ventana **Crear pedidos de compra** mostrando una línea para cada producto en el pedido de venta. Se muestran de forma predeterminada las líneas para las cantidades de venta totalmente disponibles y las cantidades de venta no disponibles (atenuadas). Puede elegir la acción **Mostrar no disponibles** para ver solo las líneas de las cantidades de venta no disponibles.
+    Se abre la página **Crear pedidos de compra** mostrando una línea para cada producto en el pedido de venta. Se muestran de forma predeterminada las líneas para las cantidades de venta totalmente disponibles y las cantidades de venta no disponibles (atenuadas). Puede elegir la acción **Mostrar no disponibles** para ver solo las líneas de las cantidades de venta no disponibles.
 
     El campo **Cantidad de compra** contiene la cantidad de venta no disponible de forma predeterminada.
 4. Para comprar una cantidad distinta de la cantidad de venta no disponible, edite el valor del campo **Cantidad de compra**.
@@ -44,7 +44,7 @@ Para crear un pedido de compra para cada cantidad de producto no disponible en e
     >   También puede cambiar el campo **Cantidad de compra** en las líneas atenuadas aunque representen las cantidades de venta totalmente disponibles.
 5. Elija el botón **Aceptar**.
 
-    Se crea un pedido de compra para cada proveedor de productos del pedido de venta, incluido cualquier cambio de la cantidad que ha realizado en la ventana **Crear pedidos de compra**.
+    Se crea un pedido de compra para cada proveedor de productos del pedido de venta, incluido cualquier cambio de la cantidad que ha realizado en la página **Crear pedidos de compra**.
 7. Procese el pedido o los pedidos de compra, por ejemplo, mediante la modificación o la adición de las líneas del pedido de compra. Para obtener más información, consulte [Registrar compras](purchasing-how-record-purchases.md).
 
 

@@ -13,10 +13,10 @@ ms.search.keywords: multiple currencies
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 7d22d0849e2212d5f3586935601c6dee73f4e10b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 23940bd1e5fd29dc92e8285c08679135889701e9
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="update-currency-exchange-rates"></a>Actualizar tipos cambio divisa
@@ -24,7 +24,7 @@ Debe configurar un código por cada una de las divisas usadas en caso de que las
 
 Las empresas trabajan cada vez en un mayor número de países o regiones, por lo que es muy importante que puedan crear informes financieros en más de una divisa y revisarlos. El programa admite el uso de varias divisas. En el programa, la contabilidad se configura con la divisa local (DL), y se configura otra divisa como divisa adicional, a la que se asigna un tipo de cambio.  
 
- Mediante la designación de una segunda divisa como información divisa adicional, [!INCLUDE[d365fin](includes/d365fin_md.md)] registrará automáticamente los importes tanto en la divisa local como en la divisa adicional en todos los movimientos de contabilidad y en otros movimientos, por ejemplo los del IVA. Cuando se calculan los importes de un movimiento de contabilidad en una divisa adicional, la información de la ventana **Tipos cambio divisa** se utiliza para buscar el tipo de cambio que corresponda.  
+ Mediante la designación de una segunda divisa como información divisa adicional, [!INCLUDE[d365fin](includes/d365fin_md.md)] registrará automáticamente los importes tanto en la divisa local como en la divisa adicional en todos los movimientos de contabilidad y en otros movimientos, por ejemplo los del IVA. Cuando se calculan los importes de un movimiento de contabilidad en una divisa adicional, la información de la página **Tipos cambio divisa** se utiliza para buscar el tipo de cambio que corresponda.  
 
 > [!WARNING]  
 >  La funcionalidad de divisa adicional NO se debe usar como base de las traducciones de resultados financieros. No es una herramienta que pueda realizar traducciones de resultados financieros de las subsidiarias extranjeras como parte de la consolidación de una empresa. Esta funcionalidad ofrece únicamente la posibilidad de preparar los informes en otra divisa, como si dicha divisa fuera la divisa local de la empresa.
@@ -39,21 +39,21 @@ El uso de una divisa adicional puede servir de ayuda en el proceso de creación 
 
 - Empresas que desean mostrar sus informes en una divisa de mayor difusión internacional, además de en su divisa local.  
 
-Varios informes en el área de aplicación de la contabilidad se basan en las entradas de contabilidad. Para visualizar los datos financieros en el informe en la divisa adicional para informes, solo tiene que seleccionar el campo **Muestra en div. adic.** en la ventana de contabilidad correspondiente.  
+Varios informes en el área de aplicación de la contabilidad se basan en las entradas de contabilidad. Para visualizar los datos financieros en el informe en la divisa adicional para informes, solo tiene que seleccionar el campo **Muestra en div. adic.** en la página de contabilidad correspondiente.  
 
 ## <a name="to-set-up-a-currency-exchange-rate-service"></a>Para configurar un servicio de tipo de cambio de divisa
 Puede utilizar un servicio externo para mantener actualizados los tipos de cambio de divisa como FloatRates.
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Servicios de tipo de cambio de divisas** y luego elija el enlace relacionado.
 2. Seleccione la acción **Nuevo**.
-3. En la ventana **Servicio de tipo de cambio de divisas**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. En la página **Servicio de tipo de cambio de divisas**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Seleccione la casilla de verificación **Activado** para activar el servicio.
 
 ## <a name="to-update-currency-exchange-rates-through-a-service"></a>Para actualizar los tipos de cambio de divisa mediante un servicio
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Divisas** y luego elija el enlace relacionado.
 2. Seleccione la acción **Actualizar tipos de cambio**.
 
-El valor del campo **Tipo cambio** en la ventana **Divisas** se actualiza con el último tipo de cambio de divisa.
+El valor del campo **Tipo cambio** en la página **Divisas** se actualiza con el último tipo de cambio de divisa.
 
 ## <a name="see-also"></a>Consulte también
 [Cerrar años y periodos](year-close-years-periods.md)  

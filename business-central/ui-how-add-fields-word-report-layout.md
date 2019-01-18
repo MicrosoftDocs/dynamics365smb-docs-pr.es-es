@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 10/22/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2a3ff313d9c6e8bac1169daba590d2e38c312d87
+ms.sourcegitcommit: 78c689aafe31cdec7be1e1740422f781352bbd3c
+ms.openlocfilehash: 5293b5298a2084c8cd36ae4dcc60beda75f5014e
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 10/25/2018
 
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Agregar campos a un diseño de informe de Word
@@ -101,7 +101,7 @@ La tabla siguiente proporciona un resumen simplificado del XML de un elemento XM
 |------------------|-----------------|  
 |`<?xml version="1.0" encoding="utf-16"?>`|Cabecera|  
 |`<WordReportXmlPart xmlns="urn:microsoft-dynamics-365/report/<reportname>/<id>/"`|Especificación del espacio de nombres XML. `<reportname>` es el nombre asignado al informe. `<id>` es el identificador asignado al informe.|  
-|`..<Labels>`<br /><br /> `....<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<br /><br /> `....<LabelName>LabelCaption</LabelName>`<br /><br /> `..</Labels>`|Contiene todas las etiquetas del informe.<!--OnPren The element includes labels that are related to columns that have the [IncludeCaption Property](../FullExperience/Name%20Property-duplicate.md).--><br />- Los elementos etiquetados que están relacionadas con las columnas tienen el formato `<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<!--OnPrem where `ColumnName` is determined by the column's Name Property.-->.<br />- Los productos etiquetados tienen el formato `<LabelName>LabelName</LableName`<!--OnPrem where LabelName is determined by the label's Name Property.-->.<br />- Las etiquetas se enumeran en orden alfabético.|  
+|`..<Labels>`<br /><br /> `....<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<br /><br /> `....<LabelName>LabelCaption</LabelName>`<br /><br /> `..</Labels>`|Contiene todas las etiquetas del informe.<!--OnPren The element includes labels that are related to columns that have the [IncludeCaption Property](../FullExperience/Name%20Property-duplicate.md).--><br />- Los elementos etiquetados que están relacionadas con las columnas tienen el formato `<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<!--OnPrem where `ColumnName` is determined by the column's Name Property.-->.<br />- Los productos etiquetados tienen el formato `<LabelName>LabelName</LabelName`<!--OnPrem where LabelName is determined by the label's Name Property.-->.<br />- Las etiquetas se enumeran en orden alfabético.|  
 |`..<DataItem1>`<br /><br /> `....<DataItem1Column1>DataItem1Column1</DataItem1Column1>`|Elementos de datos y columnas de nivel superior. Las columnas se enumeran en orden alfabético.<!--OnPrem <br /><br /> The element names and values are determined by the [Name Property-duplicate](../FullExperience/Name%20Property-duplicate.md) of the data item or column.-->|  
 |`....<DataItem2>`<br /><br /> `......<DataItem2Column1>DataItem2Column1</DataItem2Column1>`<br /><br /> `....</DataItem2>`<br /><br /> `....<DataItem3>`<br /><br /> `......<DataItem3Column1>DataItem3Column1</DataItem3Column1>`<br /><br /> `....</DataItem3>`|Elementos y columnas de datos que están anidados en el elemento de datos de nivel superior. Las columnas se enumeran en orden alfabético en el elemento de datos correspondiente.|  
 |`..</DataItem1>`<br /><br /> `</WordReportXmlPart>`|Elemento de cierre.|  
@@ -125,3 +125,4 @@ La tabla siguiente proporciona un resumen simplificado del XML de un elemento XM
   
 ## <a name="see-also"></a>Consulte también  
  [Crear y modificar un diseño de informe personalizado](ui-how-create-custom-report-layout.md)   
+

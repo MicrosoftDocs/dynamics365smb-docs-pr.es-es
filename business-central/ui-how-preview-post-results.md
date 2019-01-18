@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: de5623e6dad677a8fb5f07824c17cb42632cff37
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 18c650a9f4c7fe1fa8daf8d9bac0949d90e3fc4f
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="preview-posting-results"></a>Vista previa de los resultados del registro
@@ -25,8 +25,8 @@ En cada documento y diario que se pueda registrar, puede elegir el botón **Vist
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Facturas compra** y luego elija el enlace relacionado.
 2. Cree una factura de compra. Para obtener más información, consulte [Registrar compras](purchasing-how-record-purchases.md).
 3. Elija **Vista previa de registro**.
-4. En la ventana **Vista previa de registro**, seleccione **Mov. contabilidad** y, a continuación, elija **Mostrar movimientos relacionados**.  
-   La ventana **Vista previa de movs. contabilidad** muestra qué movimientos se crearán al registrar la factura de compra.
+4. En la página **Vista previa de registro**, seleccione **Mov. contabilidad** y, a continuación, elija **Mostrar movimientos relacionados**.  
+   La página **Vista previa de movs. contabilidad** muestra qué movimientos se crearán al registrar la factura de compra.
 
 ## <a name="see-also"></a>Consulte también
 [Registrar documentos y diarios](ui-post-documents-journals.md)  

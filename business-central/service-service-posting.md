@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 75f0fd760978b0efc4ab86b8d17a815280a09799
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: b5dba16cae1e767c867544cfae21e12ac7d0f933
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="service-posting"></a>Registro de servicio
@@ -23,7 +23,7 @@ La funcionalidad de registro de servicios le permite procesar los documentos de 
 > [!NOTE]  
 >  A continuación se describe el registro del servicio independientemente del modo en que los artículos se controlan en el almacén.  
 >   
->  En una ubicación en la que no se haya establecido el control de almacén como elemento obligatorio, las acciones de registro se realizan directamente desde la ventana **Líneas servicio**. En ubicaciones que requieran control de almacén, las acciones de registro descritas, salvo Enviar y Consumir, se realizan indirectamente mediante distintas funciones de envío de almacén, dependiendo de la configuración. Para obtener más información, vea [Realizar picking de productos con picking inventario](warehouse-how-to-pick-items-with-inventory-picks.md).  
+>  En una ubicación en la que no se haya establecido el control de almacén como elemento obligatorio, las acciones de registro se realizan directamente desde la página **Líneas servicio**. En ubicaciones que requieran control de almacén, las acciones de registro descritas, salvo Enviar y Consumir, se realizan indirectamente mediante distintas funciones de envío de almacén, dependiendo de la configuración. Para obtener más información, vea [Realizar picking de productos con picking inventario](warehouse-how-to-pick-items-with-inventory-picks.md).  
 
 ## <a name="ship"></a>Envío  
 La opción enviar permite registrar el tiempo y los productos que se hayan especificado en las líneas de un pedido de servicio una vez haya finalizado el servicio. Se crea un envío registrado y se llevan a cabo actualizaciones en el módulo Inventario y otros módulos de [!INCLUDE[d365fin](includes/d365fin_md.md)] a fin de reflejar que los productos se han excluido del inventario y se han enviado al cliente. En concreto, se generan movimientos de producto, de valores, de servicio y de garantía.  
@@ -42,10 +42,10 @@ Con la opción consumo puede registrar los productos, los costes o las horas que
 > [!NOTE]  
 >  El procedimiento de registro de servicios permite realizar un registro parcial. Puede crear un envío o factura parciales rellenando los campos **Cantidad a enviar** y**Cdad. a facturar** en las líneas de servicio individuales de los pedidos de servicio antes del registro. Tenga en cuenta que no se puede crear una factura de algo que no se ha enviado. Es decir, para poder facturar, debe haber registrado un envío, o bien debe elegir enviar y facturar al mismo tiempo.  
 
-Una vez finalizado el registro, podrá ver los documentos de servicio registrados desde las ventanas correspondientes, es decir, **Envío servicio registrado** y **Fact. ventas (servicio) regis.** Los movimientos registrados que se han creado pueden verse en diversas ventanas que contienen movimientos registrados, como **Movs. contabilidad**, **Movs. producto**, **Movs. almacén**, **Movs. servicio**, **Movs. proyectos** y **Movs. garantía**.  
+Una vez finalizado el registro, podrá ver los documentos de servicio registrados desde las páginas correspondientes **Fact. ventas (servicio) regis.** y **Envío servicio registrado**. Los movimientos registrados que se han creado pueden verse en diversas páginas que contienen movimientos registrados, como **Movs. contabilidad**, **Movs. producto**, **Movs. almacén**, **Movs. servicio**, **Movs. proyectos** y **Movs. garantía**.  
 
 ## <a name="to-view-information-about-a-posted-service-document"></a>Para ver información sobre un documento de servicio registrado  
-Cuando se registra una factura, un envío o un abono de servicio, la información del documento se transfiere a las ventanas **Fact. ventas (servicio) regis.**, **Envío servicio registrado** o **Abono ventas (servicio) regis.** respectivamente. No puede escribir, modificar ni eliminar información en estas ventanas. En ellas puede imprimir un albarán, una factura o un abono.  
+Cuando se registra una factura, un envío o un abono de servicio, la información del documento se transfiere a las páginas **Fact. ventas (servicio) regis.**, **Envío servicio registrado** o **Abono ventas (servicio) regis.** respectivamente. No puede escribir, modificar ni eliminar información en estas páginas. En ellas puede imprimir un albarán, una factura o un abono.  
 
 El procedimiento siguiente utiliza una factura de servicio registrada como ejemplo, pero es posible aplicar el mismo procedimiento a los envíos de servicio registrados y al histórico de abonos.  
 
@@ -53,7 +53,7 @@ El procedimiento siguiente utiliza una factura de servicio registrada como ejemp
 2. Abra la factura de servicio registrada que desee ver.  
 3. Para obtener un resumen de la factura registrada, elija la acción **Estadísticas**.  
 
-    Se abre la ventana **Estad. pedido servicio**. Dicha ventana muestra información tal como la cantidad, el importe, el IVA, el coste, los beneficios y el crédito máximo del cliente en el documento registrado.
+    Se abre la página **Estad. pedido servicio**. Dicha página muestra información tal como la cantidad, el importe, el IVA, el coste, los beneficios y el crédito máximo del cliente en el documento registrado.
 
 ## <a name="see-also"></a>Consulte también  
 [Registrar pedidos de servicio](service-how-to-post-service-orders.md)   

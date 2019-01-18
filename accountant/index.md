@@ -4,17 +4,14 @@ description: "Accountant Hub le ofrece una mejor visión general de sus clientes
 author: edupont04
 ms.service: dynamics365-accountant
 ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: setup wizard, accountant
-ms.date: 05/09/2018
+ms.date: 11/05/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: daca65a5b4808800147024bb4f96244e45b4368a
+ms.sourcegitcommit: 46a37fb00319647ea1c4b4630e4d9369687dd7cf
+ms.openlocfilehash: 504891ced64d5cc25823b3887ecdd592b971bf3f
 ms.contentlocale: es-es
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 11/12/2018
 
 ---
 # <a name="welcome-to-include-d365acclongincludesd365acclongmdmd"></a>[!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
@@ -22,13 +19,13 @@ ms.lasthandoff: 05/15/2018
 
 Si es un contable con varios clientes, puede utilizar [!INCLUDE [d365acc](includes/d365acc_md.md)] como su panel de control para obtener una mejor visión general de sus clientes. Desde ahí, puede tener acceso a los datos de cada cliente.  
 
-![Accountant Hub](./media/accountant-get-started/accountant-dashboard.png)
+> [!div class="mx-imgBorder"]
+> ![Accountant Hub](./media/accountant-get-started/accountant-dashboard.png)
 
-Puede obtener acceso a [!INCLUDE [d365acc](includes/d365acc_md.md)] registrándose desde [Dynamics 365 — Accountant Hub on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants). Es gratis, y es rápido para comenzar y agregar a sus clientes al escritorio. Para obtener más información, vea [Empezar a usar Accountant Hub](get-started.md).  
+Puede obtener acceso a [!INCLUDE [d365acc](includes/d365acc_md.md)] si se registra en [Dynamics 365 — Accountant Hub en Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants). Es gratis, y es rápido comenzar y agregar sus clientes al panel. Para obtener más información, vea [Empezar a usar Accountant Hub](get-started.md).  
 
-En la versión actual de [!INCLUDE [d365acc](includes/d365acc_md.md)], puede agregar los clientes que utilizan [!INCLUDE [d365fin](includes/d365fin_long_md.md)] para administrar la empresa.  
+En la versión actual de [!INCLUDE [d365acc](includes/d365acc_md.md)], puede agregar los clientes que utilizan [!INCLUDE [d365fin](includes/d365fin_long_md.md)] para administrar la empresa. Para obtener más información, consulte [Agregar clientes al panel](add-client.md).  
 
 ## <a name="see-also"></a>Consulte también
 [Introducción al Accountant Hub](get-started.md)  
-[Documentación de Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/#pivot=main&panel=apps)  
 

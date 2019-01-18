@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c8f020547cb48e288c1e1defac14993fab6bb21f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 8fc06a83a4bbf6acb5da076e21169819a6bb07de
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="copy-data-to-new-companies"></a>Copiar datos a una nueva empresa
@@ -26,7 +26,7 @@ Puede copiar los valores de uso general de una empresa existente a otra nueva, s
 1. Abra la nueva empresa.  
 2. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hoja de configuración** y luego elija el enlace relacionado.  
 3. Seleccione **Copiar datos de empresa**.  
-4. En la ventana **Copiar datos de empresa**, elija la empresa desde la que va a copiar en el campo **Copiar desde** y el botón **Aceptar**.  
+4. En la página **Copiar datos de empresa**, elija la empresa desde la que va a copiar en el campo **Copiar desde** y el botón **Aceptar**.  
 5. Seleccione una tabla de uno de los paquetes de configuración importados y elija la acción **Copiar datos**.
 
 ## <a name="see-also"></a>Consulte también

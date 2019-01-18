@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/15/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3c368af3347c72f2cf355876ed5574151095f993
+ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
+ms.openlocfilehash: d5582e1857481d32ad146d0732f4c60d1b678c74
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/20/2018
 
 ---
 # <a name="set-up-stockkeeping-units"></a>Configurar unidades de almacenamiento
@@ -35,11 +35,15 @@ Una vez configurada la primera unidad de almacenamiento para un producto, se sel
 Para crear varias unidades de almacenamiento para un producto, utilice el proceso **Crear ud. de almacenan.**.  
 
 > [!NOTE]  
->  La información de la ficha **Unidad de almacenamiento** tiene prioridad sobre la ficha de **Producto**.  
+>  La información de la ficha **Unidad de almacenamiento** tiene prioridad sobre la ficha de **Producto**.
+
+> [!Warning]
+> Si UA se suministra a través de producción, el campo **Coste estándar** no se usa al facturar y ajustar el coste real del producto fabricado. En su lugar, el campo **Coste estándar** de la ficha subyacente de producto se utiliza, y cualquier desviación se calcula con el reparto de costes de dicho producto.<br /><br />
+> Porque las L.M. y ruta no se pueden asignar a UA, la distribución del coste unitario y el cálculo relacionado de la parte de costes tampoco están disponibles en UA. Para obtener más información, consulte [Acerca de Calcular el coste estándar](finance-about-calculating-standard-cost.md)
 
 ## <a name="see-also"></a>Consulte también  
 [Registro de productos nuevos](inventory-how-register-new-items.md)  
-[Configuración de la gestión del almacén](warehouse-setup-warehouse.md)  
+[Configurar la gestión del almacén](warehouse-setup-warehouse.md)  
 [Gestión de almacenes](warehouse-manage-warehouse.md)  
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Gestión de ensamblaje](assembly-assemble-items.md)    

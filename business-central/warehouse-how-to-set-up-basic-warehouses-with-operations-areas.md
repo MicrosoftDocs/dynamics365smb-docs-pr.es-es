@@ -13,23 +13,23 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e10a823d856dd02311b990da5d22fe7f87730d51
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 04b1e87cb41df19559d85cf02eabbf6aaec0011a
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Configurar almacenes básicos con áreas de operaciones
 Si las áreas de operaciones internas, como producción o ensamblado, existen en configuraciones de almacén básico donde las ubicaciones utilizan el campo de instalación de **Ubicac. obligatoria** y los campos de configuración **Picking requerido** y **Ubicación requerida**, puede utilizar los documentos de almacén básico siguientes para registrar sus actividades de almacén para las áreas de operaciones internas:  
 
-- Ventana **Movimiento de inventario**.  
-- Ventana **Picking existencias**.  
-- Ventana **Ubicac. existencias**.
+- Página **Lista movs. inventario**.  
+- Página **Lista picking invent.**  
+- Página **Lista ubic. inventario**.
 
 > [!NOTE]
 > A pesar de que las configuraciones se denominan **Picking requerido** y **Ubicación requerida**, todavía puede registrar recibos y envíos directamente desde los documentos empresariales de origen en las ubicaciones donde se selecciona estas casillas de verificación.  
 
-Para utilizar esta ventanas con las operaciones internas, por ejemplo para realizar el picking y para mover a los componentes a producción, debe hacer alguno o todos los pasos de instalación siguientes dependiendo del control que necesite:  
+Para utilizar estas páginas con las operaciones internas, por ejemplo para realizar el picking y para mover a los componentes a producción, debe hacer alguno o todos los pasos de instalación siguientes dependiendo del control que necesite:  
 
 - Habilitar el picking de existencias, el movimiento, y los documentos de ubicación.  
 - Defina las estructuras de ubicación predeterminada para los componentes y los productos finales que fluirán a o desde los recursos de la operación.  
@@ -59,14 +59,14 @@ Los procedimientos siguientes se basan en las actividades del almacén básico d
 
 5. En la ficha desplegable **Ubicaciones**, en el campo de **Cód. ubic. desde producción**, introduzca el código de la ubicación en la área de producción de donde se toman los productos finales terminados de forma predeterminada cuando el proceso implica una actividad de almacén. En las configuraciones básicas de almacén se registra la actividad como una ubicación o un movimiento de inventario.  
 
-Las líneas de componente del pedido de producción con ese código predeterminado de almacén requieren que se coloquen allí los componentes vaciados hacia adelante. Sin embargo, hasta que los componentes se consumen en esa ubicación, se puede hacer picking de otras demandas de componentes o se los puede consumir de esa ubicación porque aún se los considera contenidos de ubicación disponibles. Para garantizar que el contenido de la ubicación está disponible sólo para la demanda de componente que utiliza esa ubicación para producción, debe seleccionar el campo **Dedicado** de la línea para ese código de ubicación en la ventana **Ubicaciones** a la que se accede desde la ficha de almacén.
+Las líneas de componente del pedido de producción con ese código predeterminado de almacén requieren que se coloquen allí los componentes vaciados hacia adelante. Sin embargo, hasta que los componentes se consumen en esa ubicación, se puede hacer picking de otras demandas de componentes o se los puede consumir de esa ubicación porque aún se los considera contenidos de ubicación disponibles. Para garantizar que el contenido de la ubicación está disponible sólo para la demanda de componente que utiliza esa ubicación para producción, debe seleccionar el campo **Dedicado** de la línea para ese código de ubicación en la página **Ubicaciones** a la que se accede desde la ficha de almacén.
 
 Este organigrama muestra cómo se rellena el campo de **Cód. ubicación** en las líneas del componente de la orden de producción según la configuración.  
 
 ![Gráfico de flujo de ubicación](media/binflow.png "BinFlow")    
 
 ## <a name="to-define-a-default-bin-structure-in-the-assembly-area"></a>Para definir una estructura de ubicación predeterminada en el área de ensamblado
-Los componentes para los pedidos de ensamblado no se seleccionar o registrar con picking de inventario. En lugar de eso, use la ventana **Movimiento inventario**. Para obtener más información, consulte [Mover componentes a un área de operaciones en el almacenamiento básico](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
+Los componentes para los pedidos de ensamblado no se seleccionar o registrar con picking de inventario. En lugar de eso, use la página **Movimiento inventario**. Para obtener más información, consulte [Mover componentes a un área de operaciones en el almacenamiento básico](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
 
 Cuando las cantidades de la línea de picking y envío que se ensamblan para el pedido, debe seguir ciertas reglas al crear las líneas de picking de inventario. Para obtener más información, vea la sección "Tratamiento de productos ensamblar para pedido en los picking de inventario" en [Realizar picking de productos con picking inventario](warehouse-how-to-pick-items-with-inventory-picks.md).
 
@@ -119,14 +119,14 @@ El mismo código de ubicación a su vez se copia al campo **Cod. ubicación** de
 ## <a name="to-create-dedicated-component-bins"></a>Para crear las ubicaciones de componentes dedicados
 Puede especificar que las cantidades en una ubicación estén protegidas de picking para otras demandas que la demanda de su propósito actual.
 
-Las cantidades de las ubicaciones dedicadas todavía pueden reservarse. Por consiguiente, las cantidades de las ubicaciones dedicadas se incluyen en el campo **Cdad. disponible total** de la ventana **Reservas**.
+Las cantidades de las ubicaciones dedicadas todavía pueden reservarse. Por consiguiente, las cantidades de las ubicaciones dedicadas se incluyen en el campo **Cdad. disponible total** de la página **Reservas**.
 
-Por ejemplo, en un centro de trabajo se establece un código de ubicación en el campo **Cód. ubic. para producción**. Las líneas de componente del pedido de producción con ese código de almacén requieren que se coloquen allí los componentes vaciados hacia adelante. Sin embargo, hasta que los componentes se consumen en esa ubicación, se puede hacer picking de otras demandas de componentes o se los puede consumir de esa ubicación porque aún se los considera contenidos de ubicación disponibles. Para garantizar que el contenido de la ubicación está disponible sólo para la demanda de componente que utiliza esa ubicación para producción, debe seleccionar el campo **Dedicado** de la línea para ese código de ubicación en la ventana **Ubicaciones** a la que se accede desde la ficha de almacén.
+Por ejemplo, en un centro de trabajo se establece un código de ubicación en el campo **Cód. ubic. para producción**. Las líneas de componente del pedido de producción con ese código de almacén requieren que se coloquen allí los componentes vaciados hacia adelante. Sin embargo, hasta que los componentes se consumen en esa ubicación, se puede hacer picking de otras demandas de componentes o se los puede consumir de esa ubicación porque aún se los considera contenidos de ubicación disponibles. Para garantizar que el contenido de la ubicación está disponible sólo para la demanda de componente que utiliza esa ubicación para producción, debe seleccionar el campo **Dedicado** de la línea para ese código de ubicación en la página **Ubicaciones** a la que se accede desde la ficha de almacén.
 
 La fabricación de una ubicación dedicada proporciona una funcionalidad similar al uso de tipos de ubicaciones, que sólo está disponible en la gestión avanzada de almacén. Para obtener más información, consulte [Configurar tipos de ubicaciones](warehouse-how-to-set-up-bin-types.md).
 
 > [!Caution]
-> Los productos de las ubicaciones dedicadas no se protegen cuando se les ha realizado el picking y se los consume como componentes de producción con la ventana Picking de inventario.
+> Los productos de las ubicaciones dedicadas no se protegen cuando se les ha realizado el picking y se los consume como componentes de producción con la página Picking de inventario.
 
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Ubicaciones** y luego elija el enlace relacionado. Seleccione el almacén que desea actualizar.  
 2.  Seleccione la acción **Ubicaciones**.  

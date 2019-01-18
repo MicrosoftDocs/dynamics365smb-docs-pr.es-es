@@ -13,10 +13,10 @@ ms.search.keywords: check, clearing
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: dc63da7f3363ef45028a0b185c27aa468e02db6d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 61f3d3fcd093c9fca4e23481ff3b527714b85379
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="export-a-positive-pay-file"></a>Exportar un archivo de Positive Pay
@@ -28,17 +28,17 @@ Para asegurarse de que su banco solo compense los cheques e importes validados, 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Cuentas bancarias** y luego elija el enlace relacionado.
 2. Abra la ficha del banco para el que desea usar Positive Pay.
 3. En el campo **Código de exportación de Positive Pay**, introduzca POSPAYBANK.
-4. Cierre la ventana.
+4. Cierre la página.
 
 ## <a name="to-export-a-positive-pay-file"></a>Para exportar un archivo de Positive Pay
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Cuentas bancarias** y luego elija el enlace relacionado.
 2. Seleccione el banco del que desea exportar un archivo de Positive Pay.
 3. Elija la acción **Exportación de Positive Pay**.
 
-    Se abre la ventana **Exportación de Positive Pay** en la que se presentan los pagos que se han creado para el banco desde la última carga, tal como se muestra en los campos **Fecha de última carga** y **Hora de última carga**.
+    Se abre la página **Exportación de Positive Pay** en la que se presentan los pagos que se han creado para el banco desde la última carga, tal como se muestra en los campos **Fecha de última carga** y **Hora de última carga**.
 4. En el campo **Fecha límite de carga**, especifique una fecha de referencia para no incluir pagos anteriores a dicha fecha en el archivo exportado.
 5. Seleccione la acción **Exportar**.
-6. En la ventana **Exportar archivo**, seleccione el botón **Guardar** y, a continuación, guarde el archivo en una ubicación adecuada.
+6. En la página **Exportar archivo**, seleccione el botón **Guardar** y, a continuación, guarde el archivo en una ubicación adecuada.
 7. Cargue el archivo en el sitio del banco electrónico.
 8. Anote o copie el número de confirmación que se muestra al cargar el archivo correctamente.
 
@@ -48,7 +48,7 @@ Para ver registros de Positive Pay exportados
 2. Seleccione el banco del que desea ver los registros de exportación de Positive Pay.
 3. Elija la acción **Movimientos de Positive Pay**.
 
-    En la ventana **Movimientos de Positive Pay**, puede ver todos los registros de exportación de Positive Pay del banco.
+    En la página **Movimientos de Positive Pay**, puede ver todos los registros de exportación de Positive Pay del banco.
 4. En el campo **Número de confirmación**, escriba, por cada registro de salida, el número de confirmación que ha recibido cuando la carga del archivo en el banco es correcta.
 5. Para ver las líneas de pago relacionadas, elija la acción **Detalles de movimiento de Positive Pay**.
 
@@ -58,7 +58,7 @@ Para reexportar archivos de Positive Pay
 2. Seleccione el banco del que desea reexportar los archivos de Positive Pay.
 3. Elija la acción **Movimientos de Positive Pay**.
 4. Seleccione la línea del archivo de exportación de Positive Pay que desea reexportar.
-5. En la ventana **Movimientos de Positive Pay**, elija la acción **Reexportar Positive Pay a archivo**.
+5. En la página **Movimientos de Positive Pay**, elija la acción **Reexportar Positive Pay a archivo**.
 
 ## <a name="see-also"></a>Consulte también
 [Finanzas](finance.md)  

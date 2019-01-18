@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
-ms.date: 10/01/2018
+ms.date: 11/21/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 33ccc1dbe9654245129bdbd760896054c10cd2f1
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b0f53eaa777fb944e0c4b55402b895373c7843a1
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Exportar los datos de negocio a Excel
@@ -22,6 +22,9 @@ Si desea trabajar con sus datos de [!INCLUDE[d365fin](includes/d365fin_md.md)] e
 
 ## <a name="opening-lists-in-excel"></a>Abrir listas en Excel
 Puede abrir los datos en Excel desde cualquier diario, lista u hoja de trabajo. Abra solo la página que desee y, a continuación, elija **Abrir en Excel**. Por ejemplo, abra la lista de clientes (busque **Clientes**) y elija **Abrir en Excel**. El explorador le indicaŕa que abra o guardar el libro de Excel generado.  
+
+> [!NOTE]
+> Use esta opción cuando no desee realizar cambios y publicar esos cambios de nuevo en [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Cada lista incluye varias columnas y la exportación a Excel incluirá algunas columnas que están en la vista actual. Si desea agregar o eliminar columnas antes de abrir la lista en Excel, abra el menú contextual de cualquier columna y después especifique qué columnas que desea ver. Esta lista de columnas es distinta de la mayoría de listas y refleja la estructura de la base de datos donde se almacenan los datos. Si no está seguro del tipo de datos que contiene una determinada columna, puede agregarla a la vista y decidir si desea quitarla de nuevo.  
 
@@ -39,7 +42,7 @@ Por supuesto, puede exportar todas las páginas, pero puede que sea más de lo q
 * Bancos  
 * Productos  
 
-Si también desea todas las transacciones financieras, es una gran cantidad de datos, por lo que la exportación suele tardar varios minutos. Las transacciones financieras se muestran en la ventana **Movs. contabilidad**.  
+Si también desea todas las transacciones financieras, es una gran cantidad de datos, por lo que la exportación suele tardar varios minutos. Las transacciones financieras se muestran en la página **Movs. contabilidad**.  
 
 Le recomendamos que también considere la posibilidad de exportar los datos de las páginas siguientes:  
 

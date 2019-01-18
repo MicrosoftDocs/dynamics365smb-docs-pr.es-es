@@ -13,17 +13,17 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 5b57b47d4ceb08a3836140945387e38887553a99
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2eab68abd4c02aa6d42daf751640f47a8fb11d23
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="process-sales-opportunities"></a>Procesar oportunidades de ventas
 Después de crear una oportunidad, existen numerosas funciones para gestionarla y avanzar hasta completarla.
 
 ## <a name="to-view-opportunities"></a>Para ver oportunidades
-Las oportunidades de venta existentes están disponibles en la ventana **Lista oportunidades**. Existen varias formas de acceder a esta ventana para procesar las oportunidades de ventas:
+Las oportunidades de venta existentes están disponibles en la página **Lista oportunidades**. Existen varias formas de acceder a esta página para procesar las oportunidades de ventas:
 
 | Para ver las oportunidades | Entonces |
 | --- | --- |
@@ -31,12 +31,12 @@ Las oportunidades de venta existentes están disponibles en la ventana **Lista o
 | Un vendedor específico |Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Vendedores** y luego elija el enlace relacionado. Seleccione el vendedor, seleccione la acción **Oportunidades** y, a continuación, seleccione la acción **Lista**. |
 | Un contacto específico |Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Contactos** y luego elija el enlace relacionado. Seleccione el contacto de la lista y, a continuación, seleccione la acción **Oportunidades**. |
 
-Todas estas tareas abren la ventana **Lista oportunidades**.
+Todas estas tareas abren la página **Lista oportunidades**.
 
 ## <a name="to-close-opportunities"></a>Para cerrar oportunidades
 Puede cerrar oportunidades cuando terminen las negociaciones. Al cerrar una oportunidad, puede especificar tanto si las ha ganado como si las ha perdido y también las razones de su cierre. Para especificar una razón, debe configurar los cód. oportunidades cerradas.
 
-1. En la ventana **Lista oportunidad**, seleccione la oportunidad y, a continuación, seleccione la acción **Cerrar**. Se abre la ventana **Cerrar oportunidad**.
+1. En la página **Lista oportunidad**, seleccione la oportunidad y, a continuación, seleccione la acción **Cerrar**. Se abre la página **Cerrar oportunidad**.
 2. Rellene los campos relevantes y, a continuación, haga clic en el botón **Aceptar**.
 
    Los campos **Cód. cierre oportunidad** y **Fecha cerrada** son obligatorios y deben rellenarse antes de hacer clic en **Aceptar**.
@@ -46,22 +46,22 @@ Puede cerrar oportunidades cuando terminen las negociaciones. Al cerrar una opor
 ## <a name="to-create-quotes-for-opportunities"></a>Para crear ofertas para oportunidades
 Puede crear ofertas de venta para los contactos que no están registrados como clientes.
 
-1. En la ventana **Lista oportunidad**, seleccione la oportunidad y, a continuación, seleccione la acción **Asignar oferta ventas**. Se abre la ventana **Oferta de ventas**.
+1. En la página **Lista oportunidad**, seleccione la oportunidad y, a continuación, seleccione la acción **Asignar oferta ventas**. Se abre la página **Oferta de ventas**.
 2. Rellene los campos pertinentes.
 
 ## <a name="to-create-sales-orders-for-opportunities"></a>Para crear pedidos de venta para oportunidades
 Puede hacer pedidos ventas desde las ofertas ventas creadas para las oportunidades. Antes de poder crear pedidos de ventas para sus contactos, debe crear el contacto como cliente. Para obtener más información, consulte [Crear un cliente, proveedor o cuenta bancaria a partir de un contacto](marketing-how-create-contacts-new-customers-vendors-bank-accounts.md).
 
-1. En la ventana **Lista oportunidad**, busque la oportunidad para la que creó la oferta de venta.
-2. Seleccione la acción **Asignar oferta ventas**. Aparece la ventana **Oferta ventas** para mostrar la oferta de ventas asignada a la oportunidad.
+1. En la página **Lista oportunidad**, busque la oportunidad para la que creó la oferta de venta.
+2. Seleccione la acción **Asignar oferta ventas**. Aparece la página **Oferta ventas** para mostrar la oferta de ventas asignada a la oportunidad.
 3. Rellene los campos adicionales y, a continuación, seleccione la acción **Convertir en pedido**.
 
 Al manejar oportunidades de ventas puede ser necesario crear una oferta para el contacto con el que se relaciona la oportunidad.
 
 ## <a name="to-delete-opportunities"></a>Para eliminar oportunidades
-Puede borrar oportunidades, por ejemplo, después de terminar un acuerdo. Sin embargo, solo puede borrar las oportunidades cerradas. Hay dos formas de borrar oportunidades cerradas. Puede eliminar oportunidades cerradas individuales de la ventana **Lista oportunidad** o puede ejecutar el proceso **Eliminar oport. cerradas** para eliminar múltiples oportunidades basándose en los criterios especificados.
+Puede borrar oportunidades, por ejemplo, después de terminar un acuerdo. Sin embargo, solo puede borrar las oportunidades cerradas. Hay dos formas de borrar oportunidades cerradas. Puede eliminar oportunidades cerradas individuales de la página **Lista oportunidad** o puede ejecutar el proceso **Eliminar oport. cerradas** para eliminar múltiples oportunidades basándose en los criterios especificados.
 
-Para eliminar oportunidades cerradas de la ventana **Lista oportunidad**, seleccione la oportunidad y, a continuación, seleccione la acción **Eliminar**.
+Para eliminar oportunidades cerradas de la página **Lista oportunidad**, seleccione la oportunidad y, a continuación, seleccione la acción **Eliminar**.
 
 Para borrar oportunidades cerradas usando el proceso **Eliminar oport. cerradas** siga estos pasos:
 
@@ -69,12 +69,12 @@ Para borrar oportunidades cerradas usando el proceso **Eliminar oport. cerradas*
 2. En la sección **Oportunidad** configure los filtros que especifican las oportunidades que se tienen que eliminar.
 3. Elija el botón **Aceptar**.
 
-Después de borrar una oportunidad, se elimina de la ventana **Lista oportunidad**.
+Después de borrar una oportunidad, se elimina de la página **Lista oportunidad**.
 
 ## <a name="to-move-an-opportunity-through-sales-cycle-stages"></a>Para mover una oportunidad a varias etapas del ciclo de ventas
 Si una oportunidad sigue un ciclo de ventas, podrá moverlo hacia adelante o hacia atrás en las diferentes etapas, por ejemplo ir a una etapa anterior o previa, e incluso saltarla.
 
-1. En la ventana **Lista oportunidades**, seleccione la acción **Actualizar**. Aparecerá el asistente **Actualizar oportunidad**,
+1. En la página **Lista oportunidades**, seleccione la acción **Actualizar**. Aparecerá el asistente **Actualizar oportunidad**,
 2. Use el campo **Tipo acción** para mover la oportunidad a través de las etapas del ciclo de ventas:
    * **Siguiente** mueve la oportunidad una etapa adelante.
    * **Omitir** mueve la oportunidad hacia adelante una o varias etapas del ciclo de ventas, que usted especifica en el campo **Presentación**. Puede omitir solo las etapas que se han configurado como permitidas.

@@ -11,10 +11,10 @@ ms.search.keywords: trade
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 1cd0b5b48993820cc37b53ce6202bb02e4cf0f1b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 615002593edbb459b448ba75f98601e37cf59792
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="sell-products"></a>Vender productos
@@ -45,17 +45,17 @@ Puede rellenar los campos de cliente en el pedido de venta de dos formas en func
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.
 2. En el campo **Cliente**, escriba el nombre de un cliente existente.
 
-    Otros campos de la ventana **Pedido de venta** se rellenarán con la información estándar del cliente seleccionado. Si el cliente no está registrado, realice los pasos siguientes:
+    Otros campos de la página **Pedido de venta** se rellenarán con la información estándar del cliente seleccionado. Si el cliente no está registrado, realice los pasos siguientes:
 3. En el campo **Cliente**, escriba el nombre del cliente nuevo.
 4. En el cuadro de diálogo de registro de nuevos clientes, haga clic en el botón **Sí**.
-5. En la ventana **Seleccionar una plantilla para un cliente nuevo**, seleccione una plantilla en la que se basará la nueva ficha de cliente y, a continuación, haga clic en el botón **Aceptar**.
+5. En la página **Seleccionar una plantilla para un cliente nuevo**, seleccione una plantilla en la que se basará la nueva ficha de cliente y, a continuación, haga clic en el botón **Aceptar**.
 
     Una nueva ficha de cliente se abre, prellenada con información sobre la plantilla de cliente seleccionada. El campo **Nombre** se rellena previamente con el nombre del nuevo cliente que especificó en el pedido de venta.
 6. Rellene los campos restantes de la ficha de cliente. Para obtener más información, vea [Registrar nuevos clientes](sales-how-register-new-customers.md).  
-7. Cuando haya finalizado la ficha de cliente, haga clic en el botón **Aceptar** para volver a la ventana **Pedido de venta**.
+7. Cuando haya finalizado la ficha de cliente, haga clic en el botón **Aceptar** para volver a la página **Pedido venta**.
 
     Muchos campos del pedido de venta se rellenan con la información especificada en la nueva ficha de cliente.
-8. Rellene los campos restantes de la ventana **Pedido de venta** según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+8. Rellene los campos en la página **Pedido venta** según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
     > Si permite que el cliente pague inmediatamente, por ejemplo, en tarjeta de crédito o mediante PayPal, complete el campo **Cód. forma pago**. El pago se registra cuando se contabiliza el pedido de venta como facturado. Si selecciona EFECTIVO, el pago se registra en una cuenta de contrapartida especificada.
@@ -80,10 +80,10 @@ Puede rellenar los campos de cliente en el pedido de venta de dos formas en func
 
     Los totales por debajo de las líneas se calculan automáticamente cuando se crean o modifican las líneas.
 14. Una nueva ficha de cliente muestra la información sobre la plantilla de cliente seleccionada. Rellene el resto de campos. Para obtener más información, vea [Registrar nuevos clientes](sales-how-register-new-customers.md).  
-15. Cuando haya finalizado la ficha de cliente, haga clic en el botón **Aceptar** para volver a la ventana **Pedido de venta**.
+15. Cuando haya finalizado la ficha de cliente, haga clic en el botón **Aceptar** para volver a la página **Pedido venta**.
 
     Muchos campos del pedido de venta se rellenan con la información especificada en la nueva ficha de cliente.
-16. Rellene los campos restantes de la ventana **Pedido de venta** según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+16. Rellene los campos en la página **Pedido venta** según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     Ahora podrá rellenar las líneas de la factura de pedido de los productos que vende al cliente o para cualquier transacción con el cliente que desee registrar en una cuenta de contabilidad.   
 

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 11/12/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bdf0ab2dc31a9060bb50088e57eece26ee671985
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 1dce0ea658a2083c3d896fe6324751f63aabce06
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-item-tracking"></a>Detalles de diseño: Seguimiento de productos
@@ -28,7 +28,7 @@ El sistema de seguimiento de productos debe proveer a una empresa una fácil ges
 [Detalles de diseño: Diseño de seguimiento de productos](design-details-item-tracking-design.md)  
 [Detalles de diseño: Estructura de registro de seguimiento de productos](design-details-item-tracking-posting-structure.md)  
 [Detalles de diseño: registros de seguimiento de productos históricos frente a activos](design-details-active-versus-historic-item-tracking-entries.md)  
-[Detalles de diseño: Ventana de líneas de seguimiento de productos](design-details-item-tracking-lines-window.md)  
+[Detalles de diseño: página Líns. seguim. prod.](design-details-item-tracking-lines-window.md)  
 [Detalles de diseño: Disponibilidad de seguimiento de productos](design-details-item-tracking-availability.md)  
 [Detalles de diseño: Seguimiento de productos y planificación](design-details-item-tracking-and-planning.md)  
 [Detalles de diseño: Seguimiento de productos y reservas](design-details-item-tracking-and-reservations.md)  

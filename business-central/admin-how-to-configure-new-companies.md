@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 22c79e4a878f474b29831d86b613a80184395d99
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a52a95bf3fc96b89e664041e3d2b289b6042c046
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="configure-new-companies"></a>Configurar nuevas empresas
@@ -38,7 +38,7 @@ Se importan todas las tablas diseñadas para incluirse en la nueva empresa. Lleg
 ## <a name="to-apply-package-data"></a>Procedimiento para aplicar datos de paquete  
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hoja de configuración** y luego seleccione el enlace relacionado.  
 2. Seleccione una tabla para la que desea modificar los datos y elija la acción **Aplicar datos**. Elija el botón **Sí** para confirmar la aplicación.
-3. Para confirmar que los datos ahora están en la base de datos y que la aplicación se ha realizado correctamente, vuelva a la ventana **Configurar hoja trabajo** y elija la acción **Datos de base de datos**.  
+3. Para confirmar que los datos ahora están en la base de datos y que la aplicación se ha realizado correctamente, vuelva a la página **Configurar hoja trabajo** y elija la acción **Datos de base de datos**.  
 
 > [!NOTE]  
 >  Después de aplicar los datos, solo se pueden ver en la base de datos. Ya no se incluyen en el paquete.  
@@ -46,9 +46,9 @@ Se importan todas las tablas diseñadas para incluirse en la nueva empresa. Lleg
 ## <a name="to-modify-and-apply-package-data"></a>Procedimiento para modificar y aplicar los datos del paquete  
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hoja de configuración** y luego seleccione el enlace relacionado.  
 2. Seleccione una tabla para la que desea modificar los datos y elija la acción **Datos de paquete**.  
-3. En la ventana **Configurar registros de paquete**, cree las modificaciones. Por ejemplo, puede eliminar opciones que no se aplican.  
+3. En la página **Configurar registros de paquete**, cree las modificaciones. Por ejemplo, puede eliminar opciones que no se aplican.  
 4. Elija la acción **Aplicar datos** y, a continuación, seleccione el botón **Aceptar**.  
-5. Para confirmar que los datos ahora están en la base de datos y que la aplicación se ha realizado correctamente, vuelva a la ventana **Configurar hoja trabajo** y elija la acción **Datos de base de datos**.  
+5. Para confirmar que los datos ahora están en la base de datos y que la aplicación se ha realizado correctamente, vuelva a la página **Configurar hoja trabajo** y elija la acción **Datos de base de datos**.  
 
 ## <a name="to-locate-and-identify-a-configuration-error"></a>Procedimiento para localizar e identificar un error de configuración  
 Existen ciertos tipos de errores que pueden producirse cuando se aplican datos a una base de datos. El error más común es que no se hayan incluido las tablas relacionadas requeridas. Corrige esos errores en la hoja de trabajo de configuración.
@@ -58,7 +58,7 @@ Existen ciertos tipos de errores que pueden producirse cuando se aplican datos a
 
     Se resaltarán las tablas que contienen errores. El número de errores del paquete se muestra en el campo **Nº errores paquete**.  
 
-3. Elija el campo **Nº errores paquete** para abrir la ventana **Registros paquete config.**, que enumera los registros con errores.  
+3. Elija el campo **Nº errores paquete** para abrir la página **Registros paquete config.**, que enumera los registros con errores.  
 
 ### <a name="to-fix-an-error"></a>Procedimiento para corregir un error  
 1. Abra la empresa en la que basó el paquete de configuración.  

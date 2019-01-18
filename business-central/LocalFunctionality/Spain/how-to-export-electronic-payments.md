@@ -1,6 +1,6 @@
 ---
 title: "Exportar pagos electrónicos"
-description: "En Business Central, puede exportar movimientos del diario de pagos a un formato de archivo de acuerdo con cuatro estándares de pago diferentes. Utilice las siguientes ventanas para exportar según los distintos estándares de pago."
+description: "En Business Central, puede exportar movimientos del diario de pagos a un formato de archivo de acuerdo con cuatro estándares de pago diferentes. Utilice las siguientes páginas para exportar según los distintos estándares de pago."
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,27 +11,27 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 11c0a8c62f7fecc167e224d81e0e6f41071d5cba
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 54a286a2c9d3dd611f2a7a78d6f5adf6b7460fc4
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
 # <a name="export-electronic-payments"></a>Exportar pagos electrónicos
-En [!INCLUDE[d365fin](../../includes/d365fin_md.md)], puede exportar movimientos del diario de pagos a un formato de archivo de acuerdo con cuatro estándares de pago diferentes. Utilice las siguientes ventanas para exportar según los distintos estándares de pago.  
+En [!INCLUDE[d365fin](../../includes/d365fin_md.md)], puede exportar movimientos del diario de pagos a un formato de archivo de acuerdo con cuatro estándares de pago diferentes. Utilice las siguientes páginas para exportar según los distintos estándares de pago.  
 
-|Estándar de pago|Ventana desde la que exportar|  
+|Estándar de pago|Página desde la que exportar|  
 |----------------------|---------------------------|  
-|AEB N34|**Ordenes pago**|  
-|AEB N34.1|**Ordenes pago**|  
+|AEB N34|**Ordenes de pago**|  
+|AEB N34.1|**Ordenes de pago**|  
 |PAGO ELECTRÓNICO|**Diario de pagos**|  
 |SEPA|**Diario de pagos** u **Órdenes pago**|  
 
 > [!IMPORTANT]  
->  Antes de exportar un pago, debe seleccionar un formato de pago en el campo **Formato de exportación de pagos** en la ventana **Ficha banco**.  
+>  Antes de exportar un pago, debe seleccionar un formato de pago en el campo **Formato de exportación de pagos** en la página **Ficha banco**.  
 
-## <a name="to-export-electronic-payments-using-the-payment-orders-window"></a>Para exportar pagos electrónicos mediante la ventana Órdenes de pago  
+## <a name="to-export-electronic-payments-using-the-payment-orders-page"></a>Para exportar pagos electrónicos mediante la página Órdenes de pago  
 
 1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Órdenes pago** y, a continuación, seleccione el vínculo relacionado.  
 2.  Seleccione los documentos que desea pagar.  
@@ -41,7 +41,7 @@ En [!INCLUDE[d365fin](../../includes/d365fin_md.md)], puede exportar movimientos
 
     Los pagos de tipo N34 o N34.1 se exportarán cuando ejecute el informe **Orden pago - Exportar N34** u **Orden pago - Exportar N34.1**, que se muestran automáticamente cuando selecciona **Exportar** en el paso 3.  
 
-4.  En la ventana **Orden pago - Exportar N34.1**, rellene los campos tal como se describe en la tabla siguiente.  
+4.  En la página **Orden pago - Exportar N34.1**, rellene los campos tal como se describe en la tabla siguiente.  
 
     |Campo|Description|  
     |---------------------------------|---------------------------------------|  
@@ -61,7 +61,7 @@ En [!INCLUDE[d365fin](../../includes/d365fin_md.md)], puede exportar movimientos
     > [!NOTE]  
     >  Solo puede registrar la orden de pago una vez que haya exportado correctamente los pagos electrónicos.  
 
-## <a name="to-export-electronic-payments-using-the-payment-journal-window"></a>Para exportar pagos electrónicos mediante la ventana Diario de pagos  
+## <a name="to-export-electronic-payments-using-the-payment-journal-page"></a>Para exportar pagos electrónicos mediante la página Diario de pagos  
 
 1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diarios de pagos** y, a continuación, seleccione el vínculo relacionado.  
 2.  Seleccione los documentos que desea pagar.  
@@ -71,7 +71,7 @@ En [!INCLUDE[d365fin](../../includes/d365fin_md.md)], puede exportar movimientos
 
     Los pagos de tipo E-PAY se exportarán cuando ejecute el informe **Exportar pagos electrónicos**, que se muestran automáticamente cuando selecciona **Exportar** en el paso 3.  
 
-4.  En la ventana **Exportar pagos electrónicos**, rellene los campos tal como se describe en la tabla siguiente.  
+4.  En la página **Exportar pagos electrónicos**, rellene los campos tal como se describe en la tabla siguiente.  
 
     |Campo|Description|  
     |---------------------------------|---------------------------------------|  
@@ -92,7 +92,7 @@ En [!INCLUDE[d365fin](../../includes/d365fin_md.md)], puede exportar movimientos
     >  Solo puede registrar la orden de pago una vez que haya exportado correctamente los pagos electrónicos.  
 
     > [!NOTE]  
-    >  En la versión genérica de [!INCLUDE[d365fin](../../includes/d365fin_md.md)], la ventana **Diario de pagos** se utiliza de forma similar para exportar pagos electrónicos en el formato de transferencia de crédito SEPA. Para obtener más información, consulte [Realizar pagos con Servicio de conversión de datos del banco o Transferencia de crédito SEPA](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
+    >  En la versión genérica de [!INCLUDE[d365fin](../../includes/d365fin_md.md)], la página **Diario de pagos** se utiliza de forma similar para exportar pagos electrónicos en el formato de transferencia de crédito SEPA. Para obtener más información, consulte [Realizar pagos con Servicio de conversión de datos del banco o Transferencia de crédito SEPA](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
 
 ## <a name="to-export-electronic-payments-from-the-cartera-module"></a>Para exportar los pagos electrónicos del módulo Cartera  
 

@@ -13,14 +13,14 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 1962bd9d74f7b4d9600de11f85d1e312f6fb8c09
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1fcec3051fdabae818528742fba5d9ca57a721c8
 ms.contentlocale: es-es
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="managing-interactions-for-segments"></a>Administrar interacciones para segmentos
-La ventana **Segmento** es un tipo de hoja de cálculo con la que puede:
+La página **Segmento** es un tipo de hoja de cálculo con la que puede:
 
 * Crear segmentos.
 * Guardar los criterios de segmentación usados para seleccionar los contactos.
@@ -35,14 +35,14 @@ Hay varias formas de crear segmentos:
 * Puede volver a utilizar los criterios de segmentación guardados.
 
 ## <a name="interactions"></a>Interacciones
-En la ventana **Segmento**, puede crear a la vez interacciones para varios contactos. Por ejemplo, puede combinar un segmento con un documento de Microsoft Word, para poder enviar una carta a todos los contactos del segmento.
+En la página **Segmento**, puede crear a la vez interacciones para varios contactos. Por ejemplo, puede combinar un segmento con un documento de Microsoft Word, para poder enviar una carta a todos los contactos del segmento.
 
 Puede especificar información acerca de la interacción del segmento en la cabecera de **Segmento**. Por ejemplo, puede elegir la plantilla de interacción que se usará con todos los contactos, especificar una descripción, un tipo de correspondencia, etc. Sin embargo, puede modificar esta información en la línea de segmento para cada contacto en particular, por ejemplo, si especifica otra descripción de un contacto. Si combina un segmento con un documento de Microsoft Word, puede personalizar el documento para que se envíe a uno o más contactos del segmento, por ejemplo, agregando comentarios personalizados al documento.
 
-## <a name="logging"></a>Grabar
-En la ventana **Segmento**, si elige **Registrar**, la aplicación registra las interacciones en la ventana **Mov. log de interacción** y registra el segmento. Después de grabar el segmento, solo podrá encontrarlo en la ventana **Segmentos archivados**.
+## <a name="logging"></a>Registro
+En la página **Segmento**, si elige **Registrar**, la aplicación registra las interacciones en la página **Mov. log de interacción** y registra el segmento. Después de grabar el segmento, sólo podrá encontrarlo en la página **Segmentos archivados**.
 
-En la ventana **Segmentos archivados**, puede decidir crear un segmento de seguimiento que contenga los mismos contactos que el segmento que ha archivado.
+En la página **Segmentos archivados**, puede decidir crear un segmento de seguimiento que contenga los mismos contactos que el segmento que ha archivado.
 
 ## <a name="see-also"></a>Consulte también
 [Crear segmentos](marketing-how-create-segment.md)  

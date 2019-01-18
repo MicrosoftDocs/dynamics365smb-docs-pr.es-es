@@ -13,10 +13,10 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: baaa62e11f9abfac900d5fe6abb14cec9fafdacf
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 702ebfd345c7f2e09f7d84105d7d0a3e76f0550f
 ms.contentlocale: es-es
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="business-intelligence"></a>Inteligencia empresarial
@@ -25,7 +25,7 @@ Las empresas capturan una ingente cantidad de información con su actividad diar
 La funcionalidad Dimensiones desempeña una función importante en la inteligencia empresarial. Una dimensión son datos que puede agregar a un movimiento como una especie de marcador. Estos datos se utilizan para agrupar movimientos de características similares, como clientes, regiones, productos y vendedor, y así poder recuperar con facilidad estos grupos para su análisis. Entre otros usos, utilice las dimensiones al definir las vistas de análisis y al crear esquemas de cuentas para la elaboración de informes. Para obtener más información, consulte [Trabajar con dimensiones](finance-dimensions.md).
 
 > [!TIP]
-> Como una forma rápida de analizar datos transaccionales por dimensiones, puede filtrar por dimensiones los totales del plan de cuentas y movimientos en todas las ventanas **Movimientos**. Busque la acción **Establecer filtro de dimensiones**.  
+> Como una forma rápida de analizar datos transaccionales por dimensiones, puede filtrar por dimensiones los totales del plan de cuentas y movimientos en todas las páginas **Movimientos**. Busque la acción **Establecer filtro de dimensiones**.  
 
 En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.  
 

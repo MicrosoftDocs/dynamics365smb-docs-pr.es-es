@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 00830a8b1c55e67642f39378a13d34bd53d67a86
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 89f878f4049b09cbaa413bc38b97039a07646d9d
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="assemble-items"></a>Ensamblar artículos
@@ -44,18 +44,18 @@ En este procedimiento se crea y procesa un pedido de ensamblado para los artícu
 
 ## <a name="to-assemble-an-item"></a>Para ensamblar un artículo  
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos de ensamblado** y luego elija el enlace relacionado.  
-2.  Seleccione la acción **Nuevo**. Se abrirá la ventana **Nuevo pedido de ensamblado**.  
+2.  Seleccione la acción **Nuevo**. Se abrirá la página **Nuevo pedido de ensamblado**.  
 3.  Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  En el campo **Nº producto**, introduzca el número del producto que desea solicitar. El campo se filtra para mostrar solo los artículos configurados para el ensamblado, lo que significa que tienen asignado el ensamblado L.M..  
 5.  En el campo **Cantidad**, especifique cuántas unidades del artículo desea que se ensamblen.  
 
     > [!NOTE]  
-    >  Si uno o más componentes no están disponibles para cubrir la cantidad introducida del artículo de montaje en la fecha de vencimiento determinada, la ventana **Disponibilidad de ensamblado** se abrirá automáticamente para proporcionar información detallada acerca de cuántos productos de ensamblado se pueden ensamblar basándose en la disponibilidad de componentes. Para obtener más información, consulte [Consultar la disponibilidad de los productos](inventory-how-availability-overview.md).  Cuando se cierra la ventana, el pedido de ensamblado se crea con las alertas de la disponibilidad de las líneas de componente afectados.  
+    >  Si uno o más componentes no están disponibles para cubrir la cantidad introducida del artículo de montaje en la fecha de vencimiento determinada, la página **Disponibilidad de ensamblado** se abrirá automáticamente para proporcionar información detallada acerca de cuántos productos de ensamblado se pueden ensamblar basándose en la disponibilidad de componentes. Para obtener más información, consulte [Consultar la disponibilidad de los productos](inventory-how-availability-overview.md). Cuando se cierra la página, el pedido de ensamblado se crea con las alertas de la disponibilidad de las líneas de componente afectados.  
 
     Las líneas del pedido de ensamblado se rellenan automáticamente con el contenido del L.M. de ensamblado y con las cantidades de línea según la cabecera del pedido de ensamblado.  
 
     > [!NOTE]  
-    >  Si la ventana **Disponibilidad de ensamblado** se abre cuando se rellena la cabecera del pedido de ensamblado, cada línea asignado de pedido de ensamblado afectada contiene **Sí** en el campo **Advertencia disp.** con un vínculo a la información detallada de disponibilidad. Para obtener más información, consulte Comprobar disponibilidad. Puede resolver un problema de disponibilidad de componente posponiendo la fecha inicial, reemplazando al componente por otro artículo o seleccionando un sustituto disponible si hay alguno definido.  
+    >  Si la página **Disponibilidad de ensamblado** se abre cuando se rellena la cabecera del pedido de ensamblado, cada línea asignado de pedido de ensamblado afectada contiene **Sí** en el campo **Advertencia disp.** con un vínculo a la información detallada de disponibilidad. Para obtener más información, consulte Comprobar disponibilidad. Puede resolver un problema de disponibilidad de componente posponiendo la fecha inicial, reemplazando al componente por otro artículo o seleccionando un sustituto disponible si hay alguno definido.  
 
 6.  En el campo **Cantidad a ensamblar**, introduzca cuántas unidades del artículo de ensamblado va a registrar como salida la próxima vez que registre el pedido de ensamblado. Esta cantidad puede ser menor que el valor del campo **Cantidad** para reflejar un registro parcial de salida.  
 

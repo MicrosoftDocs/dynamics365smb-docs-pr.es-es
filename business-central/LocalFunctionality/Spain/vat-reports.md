@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2ee8686d00cc1b910187bc4121aef8f92c651a35
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 2ac78150878f490e191cc68f43436736cdf15c37
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="vat-reports"></a>Informes IVA
@@ -31,7 +31,7 @@ Los grupos de registro general predefinidos tienen un porcentaje RE, además de 
 Para imprimir libros de facturas emitidas y recibidas, el porcentaje de IVA y los porcentajes de RE se muestran en la tabla **Mov. IVA** durante el registro.  
 
 > [!NOTE]  
->  Si el artículo no tiene IVA gravable, se muestra automáticamente el número 0 en el campo **% IVA** en la ventana de información de IVA.  
+>  Si el artículo no tiene IVA gravable, se muestra automáticamente el número 0 en el campo **% IVA** en las páginas de información de IVA.  
 
 ### <a name="telematic-vat"></a>IVA Telemático  
 Mediante el IVA telemático se pueden diseñar y generar los informes fiscales mensuales y anuales como archivos electrónicos o impresos. Estos informes se pueden enviar a la administración fiscal a través de un programa externo o de un archivo XML del sitio Web de la administración.  

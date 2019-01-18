@@ -1,6 +1,6 @@
 ---
-title: Adjuntar archivos a los datos maestros | Documentos de Microsoft
-description: "Agregue imágenes, documentos o imágenes a clientes, proveedores y otros registros maestros, y permita que también se adjunten a las facturas."
+title: Adjuntar archivos a fichas y documentos | Documentos de Microsoft
+description: "Puede adjuntar imágenes, documentos y otro tipo de archivos a todas las fichas, como la ficha de producto y la ficha de trabajo, y puede adjuntar archivos a todos los tipos de documentos de compra y venta."
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,23 +8,28 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/21/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 12955b6c85544147dd003241e658b9ef08a4b8b5
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 02a590e3389e2453f146db6bac1c487c039f5177
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
-# <a name="attaching-documents-to-master-data"></a>Adjuntar documentos a los datos maestros
-Puede asociar todas las imágenes, documentos o imágenes a productos, a clientes, proveedores, a proyectos y recursos. De manera opcional, deje que los archivos adjuntos también se adjunten a los documentos de compra y venta para ese registro principal.  
+# <a name="attaching-files-to-cards-and-documents"></a>Asociar archivos a fichas y documentos
+Puede adjuntar imágenes, documentos y otros tipos de archivos a todas las fichas, como la ficha de producto y la ficha de trabajo, y puede adjuntar archivos a todos los tipos de documentos de compra y venta.
 
-## <a name="adding-attachments"></a>Agregar archivos adjuntos
+## <a name="to-attach-a-file-to-a-sales-order"></a>Para adjuntar un archivo a un pedido de venta
+El procedimiento siguiente se basa en un pedido de venta. Los pasos son parecidos a los de los documentos de venta y compra, así como para las demás fichas.
 
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.
+2. Abra la venta a la que desea adjuntar un archivo.
+3. Elija la acción **Datos adjuntos**.
+4. En la página **Documentos adjuntos**, en el campo **Archivo adjunto**, seleccione el botón **Seleccionar archivo**.
+5. Seleccione un archivo de cualquier ubicación y, a continuación, elija el botón **Abrir**.
 
 ## <a name="see-also"></a>Consulte también
-[Permite registrar nuevos clientes](sales-how-register-new-customers.md)  
-[Permite registrar nuevos proveedores](purchasing-how-register-new-vendors.md)  
 [Registro de productos nuevos](inventory-how-register-new-items.md)  
+[Vender productos](sales-how-sell-products.md)
 

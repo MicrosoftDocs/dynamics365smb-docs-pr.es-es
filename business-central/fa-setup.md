@@ -12,10 +12,10 @@ ms.search.keywords: machinery, buildings
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: fac857ae94152104ea6640782a5f315424b739e7
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3e610461a78ec2a4cebb60350236e17fe3d7e9cf
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="setting-up-fixed-assets"></a>Configurar activos fijos
@@ -27,9 +27,9 @@ Antes de trabajar con activos fijos, debe definir algunos parámetros:
 La siguiente tabla tiene vínculos a más información. Una vez configurados estos parámetros, pueda empezar las distintas actividades. Para obtener más información, vea [Activos fijos](fa-manage.md).  
 
 > [!NOTE]  
->   Puede registrar transacciones de activos en las ventanas **A/F Diario general** o **Diario activos fijos**, dependiendo de si las transacciones son para la información financiera o la gestión interna. La ayuda para los activos fijos solo describe cómo utilizar ventana **A/F Diario general**.  
+>   Puede registrar transacciones de activos en las páginas **A/F Diario general** o **Diario activos fijos**, dependiendo de si las transacciones son para la información financiera o la gestión interna. La ayuda para los activos fijos solo describe cómo utilizar la página **A/F Diario general**.  
 
-Cuando habilita una actividad de activo fijo en la sección **Integración contabilidad** de la ventana **Ficha libro amortización**, la ventana **A/F Diario general** se usa para registrar las transacciones de la actividad.
+Cuando habilita una actividad de activo fijo en la sección **Integración contabilidad** de la página **Ficha libro amortización**, la página **A/F Diario general** se usa para registrar las transacciones de la actividad.
 
 En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.  
 

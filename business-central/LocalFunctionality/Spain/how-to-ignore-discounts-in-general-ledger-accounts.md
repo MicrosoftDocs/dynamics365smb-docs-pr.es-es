@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e72906f9736c3589e16d7bbfbd7180f95b5ee35e
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 30a9d7cbc599197e6df5852b814312e50281b193
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="ignore-discounts-in-general-ledger-accounts"></a>Omitir descuentos en cuentas de contabilidad
@@ -25,7 +25,7 @@ Algunas cuentas de contabilidad no aceptan descuentos de pago o de factura. Para
 ## <a name="to-ignore-discounts-in-general-ledger-accounts"></a>Para omitir descuentos en cuentas de contabilidad  
 
 1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Plan de cuentas** y, a continuación, seleccione el vínculo relacionado.  
-2.  Elija la acción **Nuevo** para abrir la ventana **Ficha cuenta**.  
+2.  Elija la acción **Nuevo** para abrir la página **Ficha cuenta**.  
 3.  Amplíe la ficha desplegable **Registro**.  
 4.  Para omitir los descuentos, active la casilla **Omite descuentos**.  
 5.  Escriba información en los campos requeridos.  

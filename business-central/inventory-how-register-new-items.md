@@ -12,10 +12,10 @@ ms.search.keywords: item, finished good, component, raw material, assembly item
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0e008e9664ebc449acab49e32d2c6efd7d1a0b6f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4611072a7612feafec5466ee5092ad7938eeb2dc
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="register-new-items"></a>Registro de productos nuevos
@@ -27,26 +27,26 @@ La ficha de producto puede ser del tipo **Inventario**, **Servicio** o **No inve
 
 Un producto se puede estructurar como un producto principal con productos secundarios subyacentes en una lista de materiales (L.M.). En [!INCLUDE[d365fin](includes/d365fin_md.md)], una lista de materiales puede ser una L.M. de ensamblado o una L.M. de producción, en función de su uso. Para obtener más información, consulte [Trabajar con listas de materiales](inventory-how-work-BOMs.md).
 
-Si le compra el mismo producto a varios proveedores, puede conectarlos a la ficha de producto. Los proveedores aparecerán después en la ventana **Tarifas de compra productos** , para poder fácilmente seleccionar un proveedor alternativo.
+Si le compra el mismo producto a varios proveedores, puede conectarlos a la ficha de producto. Los proveedores aparecerán después en la página **Tarifas de compra productos** , para poder fácilmente seleccionar un proveedor alternativo.
 
 Los productos que ofrece a sus clientes pero que no desea administrar en su sistema hasta que comience a venderlos se pueden configurar como productos del catálogo. Los productos del catálogo no deben confundirse con artículos regulares de tipo **No inventario**. Para obtener más información, consulte [Trabajar con productos del catálogo](inventory-how-work-nonstock-items.md).  
 
 > [!NOTE]  
-> Si existen plantillas para distintos tipos de producto, aparece una ventana automáticamente cuando se crea una nueva ficha de producto en la que puede seleccionar una plantilla de producto apropiada. Si solo existe una plantilla de producto, las nuevas fichas de producto utilizan siempre esa plantilla.
+> Si existen plantillas para distintos tipos de producto, aparece una página automáticamente cuando se crea una nueva ficha de producto en la que puede seleccionar una plantilla de producto apropiada. Si solo existe una plantilla de producto, las nuevas fichas de producto utilizan siempre esa plantilla.
 
 ## <a name="to-create-a-new-item-card"></a>Para crear una nueva ficha de producto.
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Productos** y luego elija el enlace relacionado.  
-2. En la ventana **Productos**, seleccione la acción **Nuevo**.
+2. En la página **Productos**, seleccione la acción **Nuevo**.
 
     Si solo existe una plantilla de producto, se abre una nueva ficha de producto con algunos de los campos rellenados con la información de la plantilla.
-3. En la ventana **Seleccionar una plantilla para un producto nuevo**, seleccione la plantilla que quiere usar para la nueva ficha de producto.
+3. En la página **Seleccionar una plantilla para un producto nuevo**, seleccione la plantilla que quiere usar para la nueva ficha de producto.
 4. Elija el botón **Aceptar**. Se abre una nueva ficha de producto con algunos de los campos rellenados con la información de la plantilla.
 5. Empiece a rellenar o cambiar campos en la ficha de producto según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
 > En el campo **Valoración de existencias**, determinará la forma en que se calcula el coste unitario, presumiendo el flujo de productos físicos por la empresa. Hay cinco métodos de valoración de existencias, según del tipo de producto. Para obtener más información, consulte [Detalles de diseño: Métodos de coste](design-details-costing-methods.md).
 >
-> Si selecciona **Promedio**, el coste unitario de un producto se calcula como el coste unitario medio en cada momento después de una compra. El inventario se valora con el supuesto de que todos los inventarios se venden simultáneamente. Con este ajuste, puede elegir el campo **Coste unitario** para ver en la ventana **Inf. general cálculo cte. medio** el historial de las transacciones con las que se calcula el coste medio.
+> Si selecciona **Promedio**, el coste unitario de un producto se calcula como el coste unitario medio en cada momento después de una compra. El inventario se valora con el supuesto de que todos los inventarios se venden simultáneamente. Con este ajuste, puede elegir el campo **Coste unitario** para ver en la página **Inf. general cálculo cte. medio** el historial de las transacciones con las que se calcula el coste medio.
 
 En la ficha desplegable **Precio y registro**, puede observar los precios especiales o los descuentos que concede al cliente por el producto si se cumplen determinados criterios, como, por ejemplo, el cliente, la cantidad de pedido mínima o la fecha final. Cada fila representa un precio especial o un descuento de línea. Cada columna representa un criterio aplicable para autorizar el precio especial que se introduzca en el campo **Precio de venta**, o el descuento de línea que se introduzca en el campo **% Descuento línea**. Para más información, vea [Registrar acuerdos de pago, descuentos y precios de venta](sales-how-record-sales-price-discount-payment-agreements.md).
 
@@ -55,9 +55,9 @@ El producto quedará registrado y la ficha de producto está lista para usarse e
 Si desea usar esta ficha de producto como plantilla cuando cree nuevas fichas de producto, puede guardarla. Para obtener más información, vea la siguiente sección:
 
 ## <a name="to-save-the-item-card-as-a-template"></a>Para guardar la ficha de producto como plantilla
-1. En la ventana **Ficha de producto**, seleccione la acción **Guardar como plantilla**. La ventana **Plantilla de producto** se abre mostrando la ficha de producto como plantilla.
+1. En la página **Ficha de producto**, seleccione la acción **Guardar como plantilla**. La página **Plantilla de producto** se abre mostrando la ficha de producto como plantilla.
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Para volver a usar dimensiones en las plantillas, seleccione la acción **Dimensiones**. La ventana **Plantilla de dimensiones** se abre mostrando los códigos de dimensión configurados para el producto.
+3. Para volver a usar dimensiones en las plantillas, seleccione la acción **Dimensiones**. La página **Plantilla de dimensiones** se abre mostrando los códigos de dimensión configurados para el producto.
 4. Modifique o introduzca los códigos de dimensión que se aplicarán a nuevas fichas de producto creadas con la plantilla.
 5. Cuando haya finalizado la nueva plantilla de producto, haga clic en el botón **Aceptar**.
 
@@ -73,7 +73,7 @@ Si compra el mismo producto a varios proveedores, deberá introducir informació
 5.  Si lo desea, puede rellenar el resto de los campos.  
 6.  Repita los pasos 2 a 5 para cada proveedor al que desee comprar el producto.
 
-Los proveedores aparecerán después en la ventana **Tarifas de compra productos** , que se abre desde la tarjeta del producto, para poder fácilmente seleccionar un proveedor alternativo.
+Los proveedores aparecerán después en la página **Tarifas de compra productos** , que se abre desde la tarjeta del producto, para poder fácilmente seleccionar un proveedor alternativo.
 
 ## <a name="see-also"></a>Consulte también
 [Crear numeración](ui-create-number-series.md)  

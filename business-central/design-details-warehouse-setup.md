@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 574bca49a01d23cdbf3ea9cda3b2c67f39ee9d05
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0c813187ee6d11fcdb729cb64048386238406528
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-warehouse-setup"></a>Detalles de diseño: Configuración de almacén
@@ -93,7 +93,7 @@ En almacenes avanzados, las ubicaciones se pueden configurar con valores de capa
 
 En cada ficha de producto, puede asignar una unidad de medida (UM) para el producto, como piezas, palés, litros, gramos o cajas. También puede tener una unidad de medida base para un producto y especificar unidades de medida mayores que se basen en ella. Por ejemplo, puede definir un palé para que sea igual a 16 unidades, siendo estas la unidad de medida base.  
 
-Si desea establecer una cantidad máxima de un producto específico para almacenarlo en una ubicación individual y el producto tiene más de una unidad de medida, deberá definir la cantidad máxima para cada unidad de medida que exista en la ficha del producto. Por consiguiente, si un producto se ha configurado para gestionarse en unidades y palés, el campo **Cdad. máxima** de la ventana de **Contenido ubicación** para ese producto deberá estar igualmente en unidades y palés. De lo contrario, la cantidad permitida para esa ubicación no se calculará correctamente.  
+Si desea establecer una cantidad máxima de un producto específico para almacenarlo en una ubicación individual y el producto tiene más de una unidad de medida, deberá definir la cantidad máxima para cada unidad de medida que exista en la ficha del producto. Por consiguiente, si un producto se ha configurado para gestionarse en unidades y palés, el campo **Cdad. máxima** de la página **Contenido ubicación** para ese producto deberá estar igualmente en unidades y palés. De lo contrario, la cantidad permitida para esa ubicación no se calculará correctamente.  
 
 Antes de establecer restricciones de capacidad para contenidos de ubicación en una ubicación, primero deberá asegurarse de que la unidad de medida y las dimensiones del producto se hayan definido en la ficha del producto.  
 

@@ -13,10 +13,10 @@ ms.search.keywords: service, cost, service order
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 35dcecb6b3510101026202cb6548aa936d74b25c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a965721aef3769aa1e794c0edb9ffa48faf99541
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -45,7 +45,7 @@ Antes de que pueda trabajar con contratos, debe configurar las opciones siguient
 2. Cree una plantilla de contrato de servicio nueva.  
 3. En el campo **N.º**, introduzca un número para la plantilla de contrato.  
   
-     Si ha configurado series numéricas para plantillas de contrato en la ventana **Config. gestión servicio**, también puede presionar la tecla Enter para especificar el siguiente número de plantilla de contrato disponible. Rellene el resto de los campos en caso necesario.  
+     Si ha configurado series numéricas para plantillas de contrato en la página **Config. gestión servicio**, también puede presionar la tecla Enter para especificar el siguiente número de plantilla de contrato disponible. Rellene el resto de los campos en caso necesario.  
   
 4. En la ficha desplegable **Factura**, rellene el campo **Código de grupo de cuentas de contrato de servicio**, **Período de factura**, etc. Rellene el resto de los campos en caso necesario.  
 5. Elija la acción **Descuentos servicio** para agregar descuentos de contrato.  

@@ -11,10 +11,10 @@ ms.search.keywords: marketing, campaign, promo, prospect
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4c3f0f612c13d9fe84cffc4862641301795bcebd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 66d8bda9082754c4278a47e44529a30dea8eb39c
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="managing-marketing-campaigns"></a>Administrar campañas de marketing
@@ -23,16 +23,16 @@ Un buen plan de marketing puede permitirle identificar, atraer y conservar a los
 Cada campaña consta de diversas actividades o tareas. Puede combinar varias tareas, por ejemplo, tareas que cada una represente un paso, en las actividades. Las tareas de actividad están relacionadas entre sí por medio de una fórmula de fecha. Las tareas individuales solo se pueden asignar a vendedores. Las actividades se pueden asignar a oportunidades, vendedores, grupos de vendedores y contactos. Para obtener más información, vea [Configurar ciclos de ventas de oportunidad y etapas de ciclo](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="defining-individual-campaigns"></a>Definir campañas individuales
-Antes de crear una campaña, debe configurar *códigos de estado de campaña*. El uso de estos códigos le permitirá administrar sus campañas asignando un estado a cada una de ellas. A medida que trabaja en las distintas etapas de una campaña, podrá ver en qué etapa de la campaña se encuentra y cuál es el siguiente paso. Los códigos de estado de campaña se configuran en la ventana **Estado campaña**.
+Antes de crear una campaña, debe configurar *códigos de estado de campaña*. El uso de estos códigos le permitirá administrar sus campañas asignando un estado a cada una de ellas. A medida que trabaja en las distintas etapas de una campaña, podrá ver en qué etapa de la campaña se encuentra y cuál es el siguiente paso. Los códigos de estado de campaña se configuran en la página **Estado campaña**.
 
-Puede crear una ficha de campaña para cada campaña de la que desee realizar un seguimiento. También puede acceder a estas fichas de campañas para ver información general sobre sus campañas.
+Puede crear una ficha de campaña para cada campaña para la que desee realizar un seguimiento. También puede acceder a estas fichas de campañas para ver información general sobre sus campañas.
 Puede eliminar los movimientos de campaña, por ejemplo si registran una acción que ha sido cancelada. Sólo se pueden borrar los movimientos de campaña cancelados.
 
 ### <a name="selecting-the-target-audience"></a>Selección del público objetivo
 Una vez creada una campaña, puede crear segmentos que especifiquen el público objetivo de la campaña. Para obtener más información, vea [Administrar segmentos](marketing-segments.md).
 
 ### <a name="registering-discount-percentages"></a>Registrar porcentajes de descuento
-Cuando haya configurado su campaña, decidido qué segmentos desea que cubra la campaña y establecido la fecha inicial y final, registre el porcentaje de descuento que recibirá el cliente en cada producto en las líneas de la ventana **Descuentos línea ventas**. También puede registrar precios de venta de los productos individuales en las líneas de la ventana **Precios ventas**. Puede acceder a ambas ventanas desde la ficha de campaña.
+Cuando haya configurado su campaña, decidido qué segmentos desea que cubra la campaña y establecido la fecha inicial y final, registre el porcentaje de descuento que recibirá el cliente en cada producto en las líneas de la página **Descuentos línea ventas**. También puede registrar precios de venta de los productos individuales en las líneas de la página **Precios ventas**. Puede acceder a ambas páginas desde la ficha de campaña.
 
  Cuando haya configurado los precios de venta y los descuentos de líneas y los segmentos en la ficha de campaña, debe activarlos para que los precios y descuentos de campaña se reflejen en las líneas.
 

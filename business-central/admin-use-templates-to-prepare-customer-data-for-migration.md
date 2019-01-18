@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/07/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8724bf11537b384ae88960e40f24f1d9dbbbd484
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: dbc38deef740c6da31f93feb788b8dc5d62f25fe
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="prepare-to-migrate-customer-data"></a>Preparar migración de datos de cliente
@@ -45,32 +45,46 @@ Al seleccionar una plantilla existente de datos maestros, debe evaluar si las pl
 >  También puede usar plantillas de datos para crear nuevos registros de forma rápida. Utilícelas para una creación de datos más rápida y más exacta. Para obtener más información, vea [Registrar nuevos productos](inventory-how-register-new-items.md).
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Plantillas de configuración** y luego elija el enlace relacionado.  
-2. En la ventana **Lista plantilla de configuración**, seleccione una plantilla de datos de lista y después seleccione **Editar**.  
+2. En la página **Plantillas de configuración**, seleccione una plantilla de datos de lista y después seleccione **Editar**.  
 
 Si las plantillas predeterminadas no satisfacen sus necesidades, puede crear nuevas plantillas o agregar campos a una plantilla existente. Si las plantillas predeterminadas son suficientes, puede utilizarlas para crear registros basados en las plantillas de datos principales.
 
-## <a name="to-create-a-data-template"></a>Para crear una plantilla de datos
+## <a name="to-create-a-new-data-template"></a>Para crear una nueva plantilla de datos
 Puede crear una nueva plantilla de datos si las plantillas predeterminadas no satisfacen las necesidades de su empresa nueva. Si crea más de una, puede resultar útil adoptar una convención de nomenclatura para el campo **Código**.
 
 Cada plantilla consta de una cabecera y líneas. Cuando crea una plantilla, puede especificar los campos que siempre se deben aplicar a los datos de un tipo determinado. Por ejemplo, puede crear distintas plantillas de cliente para aplicar distintos tipos de cliente. Cuando crea el cliente mediante una plantilla, puede usar los datos de esta para rellenar determinados campos automáticamente.
 
-### <a name="to-create-a-data-template-header"></a>Para crear una cabecera de plantilla de datos
-1. Abra la ventana **Lista plantilla de configuración**.
+### <a name="to-copy-an-existing-data-template"></a>Para copiar una plantilla de datos existente
+Puede crear rápidamente una nueva plantilla de datos copiando información de una plantilla de datos existente, que puede editar después.
+
+1. Abra la página **Plantillas de configuración**.
 2. Seleccione la acción **Nuevo**.
+3. Rellene el campo **Código**.
+4. Seleccione la acción **Copiar plantilla de configuración**.
+5. En la página **Plantillas de configuración**, seleccione una plantilla existente para copiarla y, a continuación, elija el botón **Aceptar**.
+
+El identificador de tabla, el nombre de tabla y las líneas de la plantilla de datos existente se insertan en la nueva plantilla.
+
+### <a name="to-create-a-data-template-header-manually"></a>Para crear una cabecera de plantilla de datos manualmente
+1. Abra la página **Plantillas de configuración**.
+2. Seleccione la acción **Nuevo**.
+3. Rellene el campo **Código**.
 3. En el campo **Id. de tabla**, introduzca la tabla a la que se aplica esta plantilla. El campo **Nombre de tabla** se completa automáticamente cuando se establece el campo **Id. de tabla**.
 
-### <a name="to-create-a-data-template-line"></a>Para crear una línea de plantilla de datos
-1. En la primera línea, seleccione el campo **Nombre campo**. La ventana **Nombre de campo** muestra la lista de campos en la tabla.
+### <a name="to-create-a-data-template-line-manually"></a>Para crear una línea de plantilla de datos manualmente
+1. En la primera línea, seleccione el campo **Nombre campo**. La página **Nombre de campo** muestra la lista de campos en la tabla.
 2. Seleccione un campo y luego seleccione el botón **Aceptar**. El campo **Título de campo** se rellena con el nombre del campo.
 3. En el campo **Valor predeterminado**, introduzca el valor correspondiente. En algunos casos, es posible que desee usar un valor que no sea un valor disponible en la base de datos. En dicho caso, puede activar la casilla **Omitir comprobación de relación** para permitir la aplicación de datos sin errores.
 
     > [!TIP]  
     > Puesto que el campo **Valor predeterminado** no contempla las opciones correspondientes del campo [!INCLUDE[d365fin](includes/d365fin_md.md)], copie y pegue el valor que desea de la página relacionada en la plantilla.
 
-    > Seleccione la casilla de verificación **Obligatorio**. La casilla es solo para fines informativos. Indica que la información la debe especificar en el campo el usuario, pero no se aplica ninguna lógica empresarial. Por ejemplo, no podrá facturar ni registrar un pedido si no se han configurado grupos contables. Dado que se requieren grupos contables, puede activar la casilla **Obligatorio** para dichos campos.
+4. Active la casilla **Obligatorio** si los usuarios deben rellenar el campo en cuestión.
 
-3. En el campo **Referencia**, escriba información sobre el campo si es necesario.
-4. Elija el botón **Aceptar**.
+    > [!NOTE]
+    > La casilla es solo para fines informativos. No se aplica ninguna lógica empresarial. Por ejemplo, los usuarios no pueden registrar una factura si no se han configurado grupos contables. Puede activar la casilla **Obligatorio** para que el usuario tenga que rellenar estos campos y así evitar un error de registro más adelante.
+5. En el campo **Referencia**, escriba información sobre el campo si es necesario.
+6. Elija el botón **Aceptar**.
 
 ## <a name="to-export-to-a-template-in-excel"></a>Para exportar a una plantilla en Excel
 Puede crear rápidamente un libro de Excel para que sirva como plantilla basada en la estructura de una tabla de base de datos existente. A continuación, puede usar la plantilla para recopilar todos los datos de cliente en un formato coherente para su importación posterior en [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -87,7 +101,7 @@ Ahora puede introducir los datos de cliente en la hoja de cálculo de Excel. Si 
 > Es posible que se produzca el error siguiente cuando ejecuta una versión en inglés de Excel, pero las opciones de configuración regional están establecidas para un idioma que no sea el inglés: "Formato antiguo o biblioteca de tipos no válida". Para corregir este error, asegúrese de tener instalado el paquete de idioma para el idioma distinto del inglés.
 
 ## <a name="to-import-from-a-template-in-excel"></a>Procedimiento para importar desde una plantilla en Excel
-1. En la ventana **Configurar hoja**, seleccione la acción **Importar desde plantilla**.
+1. En la página **Hoja de configuración**, seleccione la acción **Importar desde plantilla**.
 3. Vaya hasta la hoja de trabajo de la plantilla que ha creado y después seleccione la acción **Abrir**.
 4. Para agregar los datos obtenidos del cliente a la base de datos, elija la acción **Aplicar datos**.
 
@@ -117,8 +131,8 @@ Se puede aplicar una plantilla de datos a cualquier registro que está en [!INCL
 El procedimiento siguiente se basa en una nueva ficha cliente.  
 
 1. Crear un cliente. Para obtener más información, vea [Registrar nuevos clientes](sales-how-register-new-customers.md).
-2. En la ventana **Ficha de cliente**, seleccione la acción **Aplicar plantilla**.  
-3. En la ventana **Plantillas cliente**, seleccione una de las plantillas y, a continuación, el botón **Aceptar**.  
+2. En la página **Ficha de cliente**, seleccione la acción **Aplicar plantilla**.  
+3. En la página **Plantillas cliente**, seleccione una de las plantillas y, a continuación, el botón **Aceptar**.  
 
 Los valores predeterminados de la plantilla de cliente seleccionada se introducen en la ficha de cliente.
 

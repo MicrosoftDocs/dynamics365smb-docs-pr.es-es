@@ -13,10 +13,10 @@ ms.search.keywords: Odata, Power App, SOAP
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d7738991133baac735586fd7e25b0d9866a3a42f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 8c14b4614f88cea932a69c00422c8e3a12bc644b
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="connecting-to-your-business-central-data-to-build-a-business-app-using-powerapps"></a>Cómo conectarse a sus datos de Business Central para crear una aplicación empresarial con PowerApps
@@ -35,16 +35,16 @@ Puede convertir los datos de [!INCLUDE[d365fin](includes/d365fin_md.md)] en disp
 5. En la lista de conexiones disponibles, elija **Dynamics 365 Business Central**.
 6. PowerApps mostrará una página de conexión que le solicita la información necesaria para conectarse con los datos de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para conectarse debe especificar una dirección URL de OData, el nombre de usuario, la contraseña y el nombre de la empresa.
 
-   Para *URL de OData*, puede copiar la dirección URL de OData V4 de cualquiera de los servicios web que se muestran en la ventana **Servicios Web** en [!INCLUDE[d365fin](includes/d365fin_md.md)], por ejemplo, `https://mycompany.businesscentral.dynamics.com:7048/MS/ODataV4/`.  
+   Para *URL de OData*, puede copiar la dirección URL de OData V4 de cualquiera de los servicios web que se muestran en la página **Servicios Web** en [!INCLUDE[d365fin](includes/d365fin_md.md)], por ejemplo, `https://mycompany.businesscentral.dynamics.com:7048/MS/ODataV4/`.  
 
-   Para *Nombre empresa*, utilice el nombre que se muestra en el campo **Nombre** de la ventana **Información empresa** en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Si [!INCLUDE[d365fin](includes/d365fin_md.md)] contiene varias empresas, elija el nombre de la empresa pertinente en la lista en la ventana **Empresas**. En ambos casos, asegúrese de que el nombre que especifique en el asistente PowerApps coincide exactamente con el texto que se muestra en [!INCLUDE[d365fin](includes/d365fin_md.md)], como `My Company`.
+   Para *Nombre empresa*, utilice el nombre que se muestra en el campo **Nombre** de la página **Información empresa** en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Si [!INCLUDE[d365fin](includes/d365fin_md.md)] contiene varias empresas, elija el nombre de la empresa pertinente en la lista en la página **Empresas**. En ambos casos, asegúrese de que el nombre que especifique en el asistente PowerApps coincide exactamente con el texto que se muestra en [!INCLUDE[d365fin](includes/d365fin_md.md)], como `My Company`.
 
-   Para el nombre de usuario y la contraseña, utilice el nombre y la clave de acceso al servicio web que se especificó para la cuenta en la ventana **Usuarios** en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Por ejemplo, su nombre de usuario es *ADMIN* y la clave de acceso al servicio Web que actúa de contraseña es *EgzeUFQ9Uv0o5O0lUMyqCzo1ueUW9yRF3SsLU=*.
+   Para el nombre de usuario y la contraseña, utilice el nombre y la clave de acceso al servicio web que se especificó para la cuenta en la página **Usuarios** en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Por ejemplo, su nombre de usuario es *ADMIN* y la clave de acceso al servicio Web que actúa de contraseña es *EgzeUFQ9Uv0o5O0lUMyqCzo1ueUW9yRF3SsLU=*.
 7. Elija el botón **Conexión** para continuar. PowerApps mostrará un conjunto de datos predeterminado para [!INCLUDE[d365fin](includes/d365fin_md.md)]. Elija el conjunto de datos **Genérico**.
 
    PowerApps mostrará una lista de tablas que están disponibles en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Estas tablas, o extremos, representan todos los servicios web que haya publicado desde [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-   Si lo desea, puede crear una nueva dirección URL de servicio Web en [!INCLUDE[d365fin](includes/d365fin_md.md)] mediante la acción **Crear conjunto de datos** en la ventana **Servicios web**, utilizando la guía de configuración asistida **Configurar informes** o eligiendo la acción **Editar en Excel** en cualquier lista.
+   Si lo desea, puede crear una nueva dirección URL de servicio Web en [!INCLUDE[d365fin](includes/d365fin_md.md)] mediante la acción **Crear conjunto de datos** en la página **Servicios web**, utilizando la guía de configuración asistida **Configurar informes** o eligiendo la acción **Editar en Excel** en cualquier lista.
 8. Elija la tabla de que desea utilizar para su PowerApp y después seleccione el botón **Conectar**.
 9. Repita los pasos anteriores agregar datos de [!INCLUDE[d365fin](includes/d365fin_md.md)] adicionales a su modelo de datos de Power BI.
 

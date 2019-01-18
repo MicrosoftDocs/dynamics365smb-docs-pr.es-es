@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 830522426153d844fadedfa81f24a1a40fc7b503
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 461c8e446ed9f649395a898b9f4376c2a52586bd
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-report-340"></a>Crear el informe 340
@@ -27,7 +27,7 @@ Este informe se genera en un formato que ha aprobado la administración fiscal. 
 ## <a name="to-create-report-340"></a>Para crear el informe 340  
 
 1.  Elija el icono ![Buscar página o informe](../../media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Modelo 340** y, a continuación, seleccione el vínculo relacionado.  
-2.  En la ficha desplegable **Opciones** de la ventana **Modelo 340**, rellene los campos tal y como se describe en la tabla siguiente.  
+2.  En la ficha desplegable **Opciones** de la página **Modelo 340**, rellene los campos tal y como se describe en la tabla siguiente.  
 
     |Campo|Description|  
     |---------------------------------|---------------------------------------|  

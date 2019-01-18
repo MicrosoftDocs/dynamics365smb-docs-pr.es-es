@@ -13,10 +13,10 @@ ms.search.keywords: postpone
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f1311d566a8166a8a8720bb09789f42c65a1b6e7
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 4cf8738c7bab09f7bcf900baae54731b6772e7e9
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="create-gl-budgets"></a>Crear presupuestos contables
@@ -34,11 +34,11 @@ En contabilidad de costes, trabaja con los presupuestos de costes de forma simil
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Presupuestos contables** y luego elija el enlace relacionado.  
 2. Elija la acción **Editar lista** y, a continuación, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Seleccione la acción **Editar presupuesto**.
-4. En la parte superior de la ventana **Presupuesto** rellene los campos según sea necesario para definir lo que se muestra.  
+4. En la parte superior de la página **Presupuesto** rellene los campos según sea necesario para definir lo que se muestra.  
 
-    Solo se mostrarán los movimientos que contengan el nombre del presupuesto que ha introducido en el campo **Nombre presupuesto**. Dado que el nombre de presupuesto acaba de crearse, no hay movimientos que coincidan con el filtro. Por tanto, la ventana está vacía.  
-5. Para escribir una cantidad, seleccione la celda correspondiente de la matriz. Se abre la ventana **Movs. pptos. contabilidad**.  
-6. Cree una nueva línea y rellene el campo **Importe**. Cierre la ventana **Movs. pptos. contabilidad**.  
+    Solo se mostrarán los movimientos que contengan el nombre del presupuesto que ha introducido en el campo **Nombre presupuesto**. Dado que el nombre de presupuesto acaba de crearse, no hay movimientos que coincidan con el filtro. Por tanto, la página está vacía.  
+5. Para escribir una cantidad, seleccione la celda correspondiente de la matriz. Se abre la página **Movs. pptos. contabilidad**.  
+6. Cree una nueva línea y rellene el campo **Importe**. Cierre la página **Movs. pptos. contabilidad**.  
 7. Repita los pasos de 5 y 6 hasta que escriba todos los importes del presupuesto.  
 
 > [!NOTE]  

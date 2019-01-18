@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 943ab7184aadeff797f08ca6af2e0426b557b9d6
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: d95ed28509bbbb21ebd08ba64f68b7cf65487f0f
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="set-up-bank-ccc-codes"></a>Configurar códigos CCC de bancos
@@ -24,10 +24,10 @@ El Código Cuenta Cliente (CCC) es un código de cuenta único usado por los ban
 
 Se pueden configurar códigos CCC en las siguientes ubicaciones:  
 
-- Ventana **Ficha banco**  
-- Ventana **Información empresa**  
-- Ventana **Ficha banco cliente**  
-- Ventana **Ficha banco proveedor**  
+- Página **Ficha banco**  
+- Página **Información de empresa**  
+- Página **Ficha banco cliente**  
+- Página **Ficha banco proveedor**  
 
 El procedimiento siguiente describe cómo configurar códigos CCC de banco para su empresa.  
 

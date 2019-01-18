@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 507fd934ee30d2bcacbb298d0ab18fa351621922
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 76940b9133f6aef69c588b12dd4e8940717d0eab
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="send-electronic-documents"></a>Enviar documentos electrónicos
@@ -47,7 +47,7 @@ La versión genérica de [!INCLUDE[d365fin](includes/d365fin_md.md)] admite el e
      Se registra la factura de venta y se envía al cliente como un documento electrónico en el formato PEPPOL.  
 
     > [!NOTE]  
-    >  También puede enviar una factura de venta registrada como documento electrónico. El procedimiento es el mismo que el descrito en este tema para documentos de venta no registrada. En la ventana **Factura venta reg.**, en la pestaña **Acciones**, en el grupo **General**, seleccione **Registro de actividades** para ver el estado del documento electrónico. Para obtener más información, vea **Registro de actividades**.  
+    >  También puede enviar una factura de venta registrada como documento electrónico. El procedimiento es el mismo que el descrito en este tema para documentos de venta no registrada. En la página **Factura venta reg.**, en la pestaña **Acciones**, en el grupo **General**, seleccione **Registro de actividades** para ver el estado del documento electrónico. Para obtener más información, vea **Registro de actividades**.  
 
 ## <a name="see-also"></a>Consulte también  
 [Facturar ventas](sales-how-invoice-sales.md)  

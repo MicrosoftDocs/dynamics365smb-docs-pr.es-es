@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cash, VAT, unrealized, cash-based
-ms.date: 10/01/2018
+ms.date: 11/15/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 5e505f1942aba554bfa83a0fb81ace0db209b102
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1a460bed4be049ddd1eff7c33ae43c70e65ab403
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -26,11 +26,10 @@ Puede elegir que los importes de IVA se calculen y registren en una cuenta tempo
 
 Para utilizar cuentas para IVA no realizado, realice los pasos siguientes:
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer") y escriba **Configuración de contabilidad**.
-2. En la ventana **Configuración de contabilidad**, en la ficha desplegable **General**, elija **Mostrar más** y, a continuación, elija la casilla de verificación **IVA no realizado**.
-3. Cierre la página.
-4. Elija el icono **Buscar por página o informe** ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer") y escriba **Config. tipo reg. IVA**.
-5. En la ventana **Config. grupos registro IVA**, seleccione el grupo de registro de IVA y después seleccione **Editar**.
-6. En el campo **Tipo IVA no realizado** elija una opción para especificar cómo se asignan los pagos al importe de la factura (excluyendo el IVA) y el importe del mismo IVA y cómo transferir los importes del IVA desde la cuenta del IVA no realizado a la cuenta de realizado. La siguiente tabla describe las opciones.
+2. En la página **Configuración de contabilidad**, active la casilla **IVA no realizado**.
+3. Elija el icono **Buscar por página o informe** ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer") y escriba **Config. tipo reg. IVA**.
+4. En la página **Config. grupos registro IVA**, seleccione el grupo de registro de IVA y después seleccione la acción **Editar**.
+5. En el campo **Tipo IVA no realizado** elija una opción para especificar cómo se asignan los pagos al importe de la factura (excluyendo el IVA) y el importe del mismo IVA y cómo transferir los importes del IVA desde la cuenta del IVA no realizado a la cuenta de realizado. La siguiente tabla describe las opciones.
 
 | Opción | Descripción |
 | --- | --- |

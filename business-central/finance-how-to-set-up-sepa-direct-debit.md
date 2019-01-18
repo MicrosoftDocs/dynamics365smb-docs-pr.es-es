@@ -12,14 +12,14 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: finance-collect-payments-with-sepa-direct-debit
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 0ba40eb247c1edb2b4d8c7437bf60790545799ee
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c5d14102299140fd93ec586d0ef6165d1408505d
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-sepa-direct-debit"></a>Configuración de domiciliaciones de adeudo directo SEPA
-Desde la ventana **Cobros por adeudo directo** puede exportar instrucciones al banco electrónico para realizar recaudar un adeudo directo desde el banco del cliente a su cuenta bancaria. [!INCLUDE[d365fin](includes/d365fin_md.md)] admite el formato de adeudo directo SEPA, pero en su país o región, es posible que haya otros formatos para pagos electrónicos.  
+Desde la página **Cobros por adeudo directo** puede exportar instrucciones al banco electrónico para realizar recaudar un adeudo directo desde el banco del cliente a su cuenta bancaria. [!INCLUDE[d365fin](includes/d365fin_md.md)] admite el formato de adeudo directo SEPA, pero en su país o región, es posible que haya otros formatos para pagos electrónicos.  
 
 Para habilitar la exportación de formatos de archivos bancarios no compatibles originales en [!INCLUDE[d365fin](includes/d365fin_md.md)], puede configurar una definición de intercambio de datos mediante el marco de intercambio de datos. Para obtener más información, vea [Configurar las definiciones de intercambio de datos](across-how-to-set-up-data-exchange-definitions.md).  
 
@@ -47,7 +47,7 @@ Para poder procesar pagos de clientes electrónicamente exportando instrucciones
     > [!NOTE]  
     >  No especifique ningún valor en el campo **Bal. Nº cuenta**.  
 
-4. Elija el botón **Aceptar** para cerrar la ventana **Métodos pago**.  
+4. Elija el botón **Aceptar** para cerrar la página **Métodos pago**.  
 5. En el cuadro **Buscar**, escriba **Clientes**, y a continuación, elija el vínculo relacionado.  
 6. Abra la ficha del cliente que desee configurar para los cobros por adeudo directo SEPA.  
 7. Elija el campo **Código método pago** y seleccione el código de la forma de pago que especificó en el paso 3.  
@@ -57,8 +57,8 @@ Para poder procesar pagos de clientes electrónicamente exportando instrucciones
 1. En el cuadro **Buscar**, escriba **Clientes**, y a continuación, elija el vínculo relacionado.  
 2. Abra la ficha del cliente que desee configurar para adeudos directos SEPA.  
 3. Elija la acción **Cuentas bancarias**.  
-4. En la ventana **Lista bancos cliente**, seleccione el banco de cliente que utilizará domiciliaciones y, a continuación, en la pestaña **Inicio**, en el grupo **Procesara**, elija **Órdenes de domiciliación de adeudo directo**.  
-5. En la ventana **Órdenes de domiciliación de adeudo directo SEPA**, rellene los campos tal como se describe en la tabla siguiente.  
+4. En la página **Lista bancos cliente**, seleccione el banco de cliente que utilizará domiciliaciones y, a continuación, en la pestaña **Inicio**, en el grupo **Procesar**, elija **Órdenes de domiciliación de adeudo directo**.  
+5. En la página **Órdenes de domiciliación de adeudo directo SEPA**, rellene los campos tal como se describe en la tabla siguiente.  
 
     |Campo|Descripción|  
     |---------------------------------|---------------------------------------|  

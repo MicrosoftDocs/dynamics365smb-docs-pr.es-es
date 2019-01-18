@@ -11,21 +11,21 @@ ms.search.keywords: payment journal, print check, vendor payment, customer refun
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8f8db0bd6d12d4a633fe4ea33c732f231d798b3d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 605c4ad4043d8b7c4b5603a4821e683f63d4a33d
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="record-payments-and-refunds-in-the-payment-journal"></a>Registrar pagos y reembolsos en el diario de pagos
 
-En la ventana **Diario de pagos**, registre los pagos que realiza a los proveedores y los reembolsos que realiza a los clientes. Cuando publica una línea de diario de pagos, el importe pagado se registra en la cuenta bancaria del sistema especificada. A continuación, debe tomar medidas para realizar la transferencia de dinero real desde la cuenta bancaria relacionada.  
+En la página **Diario de pagos**, registre los pagos que realiza a los proveedores y los reembolsos que realiza a los clientes. Cuando publica una línea de diario de pagos, el importe pagado se registra en la cuenta bancaria del sistema especificada. A continuación, debe tomar medidas para realizar la transferencia de dinero real desde la cuenta bancaria relacionada.  
 
 El diario de pagos es un diario general que se optimiza para crear pagos. Puede agregar líneas rápidamente de forma manual, puede permitir que [!INCLUDE[d365fin](includes/d365fin_md.md)] sugiera pagos a proveedores y puede aplicar el pago a los documentos publicados. A pesar de que está haciendo pagos, debe introducir una cantidad positiva en el campo **Importe del documento**. Dependiendo del tipo de documento para la línea de diario, este importe se convierte a un importe negativo en las transacciones subyacentes. De esta manera, es más rápido agregar líneas de diario manualmente. Si prefiere introducir importes negativos, puede personalizar el diario de pagos para que muestre el campo **Importe** en su lugar.  
 
 - Aplicación de pagos a facturas o abonos
 
-    Si completa el campo **Liq. por n.º documento** con la factura o nota de crédito que debe pagarse o reembolsarse, entonces el documento en cuestión se configura como pagado cuando publica el diario. Esto se conoce como entrega "liquidada". Como alternativa a la aplicación durante la publicación de pagos, puede usar la ventana **Aplicar movs. proveedor** y **Aplicar movs. cliente** después de realizar la publicación de los pagos. Para obtener más información, consulte, por ejemplo [Conciliar pagos de proveedor manualmente](payables-how-apply-purchase-transactions-manually.md).  
+    Si completa el campo **Liq. por n.º documento** con la factura o nota de crédito que debe pagarse o reembolsarse, entonces el documento en cuestión se configura como pagado cuando publica el diario. Esto se conoce como entrega "liquidada". Como alternativa a la aplicación durante la publicación de pagos, puede usar la página **Aplicar movs. proveedor** y **Aplicar movs. cliente** después de realizar la publicación de los pagos. Para obtener más información, consulte, por ejemplo [Conciliar pagos de proveedor manualmente](payables-how-apply-purchase-transactions-manually.md).  
 
 - Obtener pagos sugeridos a proveedores o empleados 
 
@@ -33,14 +33,14 @@ El diario de pagos es un diario general que se optimiza para crear pagos. Puede 
 
 - Imprimir cheques y enviar pagos electrónicamente a su banco
 
-    Además de registrar que se realiza el pago, también puede usar la ventana **Diario de pagos** para generar el pago y procesarlo en su banco. Para obtener más información, consulte [Realizar pagos de cheques](payables-how-work-checks.md) y [Realizar pagos electrónicos](payables-how-export-payments-bank-file.md).  
+    Además de registrar que se realiza el pago, también puede usar la página **Diario de pagos** para generar el pago y procesarlo en su banco. Para obtener más información, consulte [Realizar pagos de cheques](payables-how-work-checks.md) y [Realizar pagos electrónicos](payables-how-export-payments-bank-file.md).  
 
 ## <a name="to-make-payments-in-the-payment-journal"></a>Realizar pagos en el diario de pagos. 
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diarios de pagos** y luego elija el enlace relacionado.
 2. Abra la sección de diario dedicada a los pagos.
 3. Si sabe a quién pagar o reembolsar, complete los campos manualmente. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Para aplicar también el pago a la factura o abono relacionado, seleccione el campo **Liq. por n.º documento**, en la ventana **Aplicar movs. proveedor**, seleccione la factura o abono relevante, y luego elija el botón **Aceptar**.
+4. Para aplicar también el pago a la factura o abono relacionado, seleccione el campo **Liq. por n.º documento**, en la página **Aplicar movs. proveedor**, seleccione la factura o abono relevante, y luego elija el botón **Aceptar**.
 
     Muchos de los campos, como **Importe del documento** y **Fecha vencimiento**, ahora se rellenan con información del documento seleccionado.
 5. También puede usar la función **Proponer pagos a proveedores**. Toda la información aplicable y los importes también se ingresan en las líneas del diario. Para obtener más información, vea [Proponer pagos a proveedores](payables-how-suggest-vendor-payments.md).

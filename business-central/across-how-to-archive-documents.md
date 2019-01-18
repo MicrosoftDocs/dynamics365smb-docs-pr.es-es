@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6b1b23c062fdb1c4558a292c7aa454ae24ff3c71
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4827e25d97127faf691b96df9868320bb47dee39
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="archive-documents"></a>Archivar documentos
@@ -27,7 +27,7 @@ Puede configurar el archivado automático de pedidos de venta y compra, presupue
 
 El siguiente procedimiento describe cómo configurar el archivado automático de los documentos de ventas. Los pasos son parecidos para documentos de compra.
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración ventas y cobros** y luego elija el enlace relacionado.
-2. En la ventana **Conf. ventas y cobros**, rellene los campos de la manera siguiente:
+2. En la página **Conf. ventas y cobros**, rellene los campos del modo que se indica a continuación.
 
 |Campo|Description|
 |-----|-----------|
@@ -42,7 +42,7 @@ El siguiente procedimiento describe cómo archivar una orden de venta. Los pasos
 2.  Abra un pedido de venta del que desee archivar.  
 3.  Elija la acción **Archivar documento**.
 
-El pedido de ventas está archivado. Puede verlo en la ventana **Pedidos de venta archivados**. Desde este momento, también puede usarlo para volver a crear el pedido de venta desde el que se archivó.
+El pedido de ventas está archivado. Puede verlo en la página **Pedidos de venta archivados**. Desde este momento, también puede usarlo para volver a crear el pedido de venta desde el que se archivó.
 
 ## <a name="to-recreate-a-sales-order-from-the-archive"></a>Para volver a crear un pedido de venta desde el archivo
 El siguiente procedimiento describe cómo volver a crear una orden de venta. Los pasos son similares para todos los pedidos, pedidos abiertos, pedidos de devolución y presupuestos.
@@ -50,13 +50,13 @@ El siguiente procedimiento describe cómo volver a crear una orden de venta. Los
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos de venta archivados** y luego elija el enlace relacionado.
 2.  Seleccione el pedido de venta archivado que desea volver a crear y después seleccione **Volver a crear**.  
 
-El pedido de venta se crea y se agrega a la ventana **Pedidos venta**.
+El pedido de venta se crea y se agrega a la página **Pedidos venta**.
 
 ## <a name="to-delete-archived-sales-orders"></a>Para eliminar pedidos de venta archivados
 El siguiente procedimiento describe cómo eliminar pedidos de venta archivados. Los pasos son similares para otros documentos de compra y venta archivados.
 
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Eliminar versiones pedido venta archiv.** y luego elija el enlace relacionado.  
-2.  En la ventana **Eliminar versiones pedido venta archiv.**, seleccione los filtros apropiados.  
+2.  En la página **Eliminar versiones pedido venta archiv.**, seleccione los filtros apropiados.  
 3.  Elija el botón **Aceptar**.
 
 ## <a name="see-also"></a>Consulte también

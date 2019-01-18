@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 429002d1eb6bfa487e5a21e54964ce33de175441
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 914196e61a4f1c3647fdca76133dbb5612ce87c8
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a>Agrupar envíos en una factura única
@@ -38,7 +38,7 @@ Si desea facturar varios envíos a la vez, utilice la función de agrupación de
 7. Para registrar la factura, elija la acción **Registrar**.  
 
 ## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Para agrupar envíos de forma automática en una factura única  
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Fact. automática** y luego elija el enlace relacionado. Se abre la ventana de solicitud de trabajo por lotes.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Fact. automática** y luego elija el enlace relacionado. Se abre la página de solicitud de trabajo por lotes.  
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Seleccione la casilla de verificación **Registrar facturas**.  
 4.  Elija el botón **Aceptar**.  

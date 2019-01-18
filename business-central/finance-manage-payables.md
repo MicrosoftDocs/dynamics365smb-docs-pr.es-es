@@ -16,10 +16,10 @@ ms.date: 10/01/2018
 ms.author: bholtorf
 redirect_url: finance-set-up-cost-accounting
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 1682db5bd62f980e8789613cd2ca4169f98e839d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: abf7e9cf01c8d394a022e384584e32e78c754639
 ms.contentlocale: es-es
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="managing-payables"></a>Administración de pagos
@@ -36,10 +36,10 @@ Puede liquidar pagos para cerrar facturas cuando registre el pago o después de 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] puede sugerir distintos pagos a proveedores, como pagos que vencerán pronto o pagos en donde hay un descuento disponible. La propuesta de pago puede considerar un importe que se especifique como fondos disponibles para el pago y si se pueden aplicar descuentos por pronto pago.
 
 ## <a name="issue-checks"></a>Problemas con los cheques
-[!INCLUDE[d365fin](includes/d365fin_md.md)] le permite emitir los cheques a los proveedores manual y electrónicamente. Ambos se realizan en la ventana **Diarios de pagos**, donde también puede anular cheques y ver movimientos de cheque.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] le permite emitir los cheques a los proveedores manual y electrónicamente. Ambos se realizan en la página **Diarios de pagos**, donde también puede anular cheques y ver movimientos de cheque.
 
 ## <a name="export-payments-to-a-bank-file"></a>Exportar pagos a un archivo bancario
-Cuando esté listo para pagar a un proveedor desde la ventana **Diario de pagos**, puede exportar un archivo con la información de pago de las líneas del diario. Después, puede cargar el archivo al banco electrónico para procesar las transferencias de dinero.
+Cuando esté listo para pagar a un proveedor desde la página **Diario de pagos**, puede exportar un archivo con la información de pago de las líneas del diario. Después, puede cargar el archivo al banco electrónico para procesar las transferencias de dinero.
 
 Si no desea registrar una línea de diario de pagos para un pago exportado, por ejemplo porque se está esperando que el banco confirme la transacción, puede eliminar solo la línea del diario. Posteriormente, cuando cree una línea de diario de pagos para pagar el importe pendiente en la factura, el campo **Importe total exportado** muestra qué parte del importe del pago se ha exportado ya. También puede encontrar información detallada acerca del total exportado seleccionando el botón **Movimientos de reg. de transferencia de crédito**.
 

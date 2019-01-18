@@ -13,16 +13,16 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 70dcfb8ccd24f7b429a6e8755ec9e22cc59e4e5a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 973bc19e9d6e2efd28c56b0db70e4f53148f636e
 ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-on-service-tasks"></a>Trabajar en tareas de servicio
 Una vez que haya creado un pedido u oferta de servicio, registrado líneas de producto de servicio y asignado recursos a los productos de servicio del pedido u oferta, podrá empezar a reparar y mantener los productos de servicio.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] dispone de la ventana **Tareas de servicio**, que proporciona una visión general de todos los productos de servicio que requieren atención. Puede considerarlo como su tablero de mandos de servicio, en el que puede ver los pedidos pendientes, buscar y registrar piezas de repuesto y mantener actualizado el inventario.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] dispone de la página **Tareas de servicio**, que proporciona una visión general de todos los productos de servicio que requieren atención. Puede considerarlo como su tablero de mandos de servicio, en el que puede ver los pedidos pendientes, buscar y registrar piezas de repuesto y mantener actualizado el inventario.  
 
 Para realizar un seguimiento de los cambios y obtener una visión gráfica de sus negocios de servicios, utilice las herramientas estadísticas de [!INCLUDE[d365fin](includes/d365fin_md.md)] para obtener gráficos y análisis rápidos que se generan automáticamente.  
 
@@ -31,7 +31,7 @@ Para realizar un seguimiento de los cambios y obtener una visión gráfica de su
 2. Si desea una lista de tareas de servicio asignadas a un determinado recurso o grupo de recursos, rellene el campo **Filtro recurso** o **Filtro grupo recurso** y presione Enter.  
 3. Si desea obtener una lista de tareas de servicio con una fecha de respuesta determinada o con fechas de respuesta en un determinado periodo de tiempo, rellene el campo **Filtro fecha respuesta** y presione Enter.  
 4. Si desea una lista de tareas de servicio asignadas a un determinado estado de reparación o estado de asignación, rellene el campo **Filtro estado asignación** o **Filtro cód. estado reparación** y presione Enter.  
-5. Seleccione la tarea de servicio en la que desea trabajar. En la pestaña **Navegar**, en el grupo **Tareas de servicio**, elija **Hoja trabajo producto**. Se abrirá la ventana **Hoja trabajo prod. serv**.  
+5. Seleccione la tarea de servicio en la que desea trabajar. En la pestaña **Navegar**, en el grupo **Tareas de servicio**, elija **Hoja trabajo producto**. Se abrirá la página **Hoja trabajo prod. serv**.  
 6. Registre textos estándar, componentes, recursos, horas y costes utilizando las opciones correspondientes del campo **Tipo**: <Blank>, **Producto**, **Recurso** y **Coste**.  
 7. En el campo **Estado reparación**, seleccione el estado adecuado.  
 
@@ -39,7 +39,7 @@ Para realizar un seguimiento de los cambios y obtener una visión gráfica de su
    >  Rellene el campo **Estado reparación** con el estado **Terminado** o **Parcialmente servido** si ha finalizado el servicio del producto de servicio u otro recurso continúa el servicio. El estado **Terminado** o **Reasignación necesaria** se especificará automáticamente para el movimiento de asignación de este producto de servicio.  
 
 ## <a name="to-register-service-operations"></a>Para registrar operaciones de servicio  
-Al realizar un servicio de un pedido de servicio, puede registrar los detalles del mismo especificando los productos utilizados, los costes adquiridos y el tiempo invertido. Los datos especificados se almacenan en la ventana **Hoja trabajo prod. serv.** Puede actualizar los datos siempre que sea necesario.
+Al realizar un servicio de un pedido de servicio, puede registrar los detalles del mismo especificando los productos utilizados, los costes adquiridos y el tiempo invertido. Los datos especificados se almacenan en la página **Hoja trabajo prod. serv.** Puede actualizar los datos siempre que sea necesario.
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos servicio** y luego elija el enlace relacionado.  
 2. Abra el pedido de servicio para registrar el servicio y elija la línea de producto.  
@@ -50,7 +50,7 @@ Al realizar un servicio de un pedido de servicio, puede registrar los detalles d
    >  También puede registrar el servicio directamente en las líneas de servicio vinculadas al pedido de servicio.  
 
 ## <a name="to-register-spare-parts"></a>Para registrar componentes  
-Al trabajar en productos de servicio de pedidos de servicio, puede que necesite utilizar componentes para llevar a cabo el servicio. El siguiente procedimiento muestra cómo registrar los componentes utilizados en la ventana **Hoja trabajo producto servicio**.  
+Al trabajar en productos de servicio de pedidos de servicio, puede que necesite utilizar componentes para llevar a cabo el servicio. El siguiente procedimiento muestra cómo registrar los componentes utilizados en la página **Hoja trabajo producto servicio**.  
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Tareas de servicio** y luego elija el enlace relacionado.
 2. Elija la línea que contiene el producto de servicio en cuestión y, a continuación, elija la acción **Hoja trabajo prod.**.  
@@ -59,7 +59,7 @@ Al trabajar en productos de servicio de pedidos de servicio, puede que necesite 
 5. En el campo **N.º**, elija la pieza de repuesto relevante.  
 6. En el campo **Cantidad**, introduzca la cantidad de productos que desea utilizar.  
 
- Puede utilizar un procedimiento similar para registrar las piezas de repuesto en la ventana **Líneas servicio**, que podrá abrir desde la ventana **Pedido de servicio**.  
+ Puede utilizar un procedimiento similar para registrar las piezas de repuesto en la página **Líneas servicio**, que podrá abrir desde la página **Pedido de servicio**.  
 
 ## <a name="to-register-spare-parts-from-a-service-order"></a>Registrar piezas de repuesto desde un pedido de servicio  
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos servicio** y luego elija el enlace relacionado.  
@@ -94,16 +94,16 @@ Al registrar una línea de producto de servicio en una oferta o pedido de servic
 3. En la línea de producto de vínculo en la que desea cambiar la hora de respuesta, en el campo **Tiempo respuesta (Horas)** o en los campos **Fecha respuesta** y **Hora respuesta**, introduzca las nuevas horas de respuesta o la fecha y la hora de respuesta deseada.  
 
 ## <a name="to-register-faultresolution-codes"></a>Para registrar códigos de defecto/resolución  
-Después de reparar un producto de servicio, puede registrar tanto el código de defecto como el de resolución si selecciona una combinación de las relaciones de códigos de defecto/resolución existentes. Los códigos de defecto y resolución se mostrarán en los campos correspondientes de la ventana **Hoja de producto de servicio**. También puede registrar los códigos directamente en esta ventana.  
+Después de reparar un producto de servicio, puede registrar tanto el código de defecto como el de resolución si selecciona una combinación de las relaciones de códigos de defecto/resolución existentes. Los códigos de defecto y resolución se mostrarán en los campos correspondientes de la página **Hoja de producto de servicio**. También puede registrar los códigos directamente en esta página.  
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Tareas de servicio** y luego elija el enlace relacionado.
 2. Elija la línea que contiene el producto de servicio en cuestión y, a continuación, elija la acción **Hoja trabajo prod.**.  
-3. En la ventana **Hoja prod. servicio**, elija **Relac. códs. defecto/resol.**. Se abrirá la ventana **Relación códs. defecto/resol.**  
+3. En la página **Hoja prod. servicio**, elija **Relac. códs. defecto/resol.**. Se abrirá la página **Relación códs. defecto/resol.**  
 
   >  [!Note]
-  >  Los filtros se definen para las relaciones mostradas en la ventana al copiar el grupo de producto de servicio y los códigos de defecto de la ventana **Hoja trabajo prod. serv.**  
+  >  Los filtros se definen para las relaciones mostradas en la página al copiar el grupo de producto de servicio y los códigos de defecto de la página **Hoja trabajo prod. serv.**  
 
-4. Rellene la línea. Seleccione la combinación correcta de códigos de defecto y resolución y, a continuación, selección **Aceptar** para copiarla al producto de servicio. Si no se encuentra una combinación adecuada, puede crear una combinación nueva en la ventana.  
+4. Rellene la línea. Seleccione la combinación correcta de códigos de defecto y resolución y, a continuación, selección **Aceptar** para copiarla al producto de servicio. Si no se encuentra una combinación adecuada, puede crear una combinación nueva en la página.  
 
 ## <a name="see-also"></a>Consulte también  
 [Configurar informes de defectos](service-how-setup-fault-reporting.md)

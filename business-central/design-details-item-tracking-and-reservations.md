@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 40ca8e4a86a74f449a980f06060488cdb117d3c7
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 1670b102aa0eba91952391ac3daa563a651de859
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Detalles de diseño: Seguimiento de productos y reservas
@@ -44,15 +44,15 @@ La diferencia principal entre reserva específica y no específica se define por
 |**Específico**|Número de serie o de lote.|Número de serie o de lote.|  
 |**No específico**|Número de serie o de lote.|Sin número de serie o de lote.|  
   
-Cuando se reservan cantidades de inventario de una línea de documento de salida para un producto que tenga asignados números de seguimiento de producto y se haya configurado para el seguimiento de producto específico, la ventana **Reservas** le guiará por distintos flujos de trabajo según la necesidad de números de serie o de lote.  
+Cuando se reservan cantidades de inventario de una línea de documento de salida para un producto que tenga asignados números de seguimiento de producto y se haya configurado para el seguimiento de producto específico, la página **Reservas** le guiará por distintos flujos de trabajo según la necesidad de números de serie o de lote.  
   
 ## <a name="specific-reservation"></a>Reserva específica  
-Cuando elige **Reservar** en la línea de documento de salida, aparece un cuadro de diálogo en el que se le pregunta si desea reservar determinados números de serie o de lote. Si elige **Sí**, se muestra una lista con todos los números de serie o de lote asignados a la línea del documento. La ventana **Reservas** se abre después de seleccionar uno de los números de serie o de lote, y, a continuación, puede efectuar la reserva en los números de serie o de lote de la forma habitual.  
+Cuando elige **Reservar** en la línea de documento de salida, aparece un cuadro de diálogo en el que se le pregunta si desea reservar determinados números de serie o de lote. Si elige **Sí**, se muestra una lista con todos los números de serie o de lote asignados a la línea del documento. La página **Reservas** se abre después de seleccionar uno de los números de serie o de lote, y, a continuación, puede efectuar la reserva en los números de serie o de lote de la forma habitual.  
   
-Si algunos de los números específicos de seguimiento de productos que intenta reservar están en reservas no específicas, un mensaje en la parte inferior de la ventana **Reservas** le indicará qué parte de la cantidad reservada total está en reservas no específicas y si aún están disponibles.  
+Si algunos de los números específicos de seguimiento de productos que intenta reservar están en reservas no específicas, un mensaje en la parte inferior de la página **Reservas** le indicará qué parte de la cantidad reservada total está en reservas no específicas y si aún están disponibles.  
   
 ## <a name="nonspecific-reservation"></a>Reserva no específica  
-Si elige **Nº** en el cuadro de diálogo que aparece, se abre la ventana **Reservas**, donde podrá reservar entre todos los números de serie o de lote en el inventario.  
+Si elige **Nº** en el cuadro de diálogo que aparece, se abre la página **Reservas**, donde podrá reservar entre todos los números de serie o de lote en el inventario.  
   
 Dada la estructura del programa de reservas, cuando se coloca una reserva no específica en un producto con seguimiento, el sistema debe seleccionar movimientos de producto específicos con respecto a los cuales realizar la reserva. Dado que los movimientos de producto incluyen los números de seguimiento de producto, el proceso de reserva indirectamente números de serie o de lote específicos, aunque el usuario no lo quiera así específicamente. Para controlar esta situación, el sistema de reservas intenta reorganizar los movimientos de reserva no específicos antes del registro.  
   
@@ -81,7 +81,7 @@ Por ejemplo, la necesidad surge cuando un procesador de pedidos primero ha reali
 ### <a name="reserve-specific-serial-or-lot-numbers"></a>Reservar un número de serie o de lote específico  
 En este caso empresarial, la funcionalidad de enlace posterior garantiza que un usuario que intente reservar un número de serie o de lote determinado que no esté específicamente reservado pueda hacerlo. Una reserva no específica se organiza en el momento de reserva para liberar el número de serie o lote para la solicitud específica.  
   
-La reorganización se produce automáticamente, pero la ayuda integrada se muestra en la parte inferior de la ventana **Reservas** y muestra el siguiente texto:  
+La reorganización se produce automáticamente, pero la ayuda integrada se muestra en la parte inferior de la página **Reservas** y muestra el siguiente texto:  
   
 **XX de la cantidad reservada total no es específica y puede estar disponible.**  
   
