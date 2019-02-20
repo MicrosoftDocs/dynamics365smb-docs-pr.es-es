@@ -1,33 +1,34 @@
 ---
-title: "Usar la extensión de importación del archivo de nóminas de Quickbooks | Documentos de Microsoft"
-description: "Describe cómo utilizar la extensión para importar transacciones de salario y nóminas desde el servicio Quickbooks Payroll."
+title: "Usar la extensión de importación del archivo de nóminas de QuickBooks | Documentos de Microsoft"
+description: "En este tema se describe cómo utilizar la extensión para importar transacciones de salario y nóminas desde QuickBooks."
 services: project-madeira
 documentationcenter: 
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, salary, wage
-ms.date: 10/01/2018
-ms.author: SorenGP
+ms.date: 01/09/2019
+ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: caf928b653b528c10820a8dfa8feff498c88f4ff
+ms.sourcegitcommit: 79729b42b660399893aebe1116c80ef3b3209042
+ms.openlocfilehash: ac68f8a4d67224ad55b1c34ff9b2e4ffa2c372aa
 ms.contentlocale: es-es
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 01/15/2019
 
 ---
-# <a name="the-quickbooks-payroll-file-import-extension"></a><span data-ttu-id="56f32-103">Extensión de importación del archivo de nóminas de Quickbooks</span><span class="sxs-lookup"><span data-stu-id="56f32-103">The Quickbooks Payroll File Import Extension</span></span>
-<span data-ttu-id="56f32-104">Para contabilizar los pagos de salario y transacciones relacionadas, deberá importar y registrar las transacciones financieras de salario creadas para el proveedor de nóminas al libro mayor.</span><span class="sxs-lookup"><span data-stu-id="56f32-104">To account for salary payments and related transactions, you must import and post financial transactions made by your payroll provider to the general ledger.</span></span>
+# <a name="the-quickbooks-payroll-file-import-extension"></a><span data-ttu-id="e7b8e-103">Extensión de importación del archivo de nóminas de QuickBooks</span><span class="sxs-lookup"><span data-stu-id="e7b8e-103">The QuickBooks Payroll File Import Extension</span></span>
+<span data-ttu-id="e7b8e-104">Use la extensión de Importación del archivo de nómina de QuickBooks para importar transacciones de nómina de QuickBooks a cuentas de contabilidad en [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="e7b8e-104">Use the QuickBooks Payroll File Import extension to import payroll transactions from QuickBooks to general ledger accounts in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span> <span data-ttu-id="e7b8e-105">Por ejemplo, esto es útil cuando está haciendo la transición de QuickBooks a [!INCLUDE[d365fin](includes/d365fin_md.md)], o si subcontrata su nómina pero también desea realizar un seguimiento de ella en [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="e7b8e-105">For example, this is useful when you are transitioning from QuickBooks to [!INCLUDE[d365fin](includes/d365fin_md.md)], or if you outsource your payroll but also want to keep track of it in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span>
 
-<span data-ttu-id="56f32-105">Para hacer esto, primero importe un archivo que recibirá del proveedor de nóminas en la página **Diario general**.</span><span class="sxs-lookup"><span data-stu-id="56f32-105">To do this, you first import a file that you receive from the payroll provider into the **General Journal** page.</span></span> <span data-ttu-id="56f32-106">A continuación asigne las cuentas externas del archivo de nóminas a las cuentas correspondientes.</span><span class="sxs-lookup"><span data-stu-id="56f32-106">Then you map the external accounts in the payroll file to the relevant G/L accounts.</span></span> <span data-ttu-id="56f32-107">Por último, registre operaciones de nóminas según la asignación de cuentas.</span><span class="sxs-lookup"><span data-stu-id="56f32-107">Lastly, you post the payroll transactions according to the account mapping.</span></span> <span data-ttu-id="56f32-108">Para obtener más información, vea [Importar transacciones de nómina](finance-how-import-payroll-transactions.md).</span><span class="sxs-lookup"><span data-stu-id="56f32-108">For more information, see [Import Payroll Transactions](finance-how-import-payroll-transactions.md).</span></span>
+## <a name="steps-to-import-payroll-data"></a><span data-ttu-id="e7b8e-106">Pasos para importar datos de nómina</span><span class="sxs-lookup"><span data-stu-id="e7b8e-106">Steps to Import Payroll Data</span></span>
+<span data-ttu-id="e7b8e-107">El primer paso es que usted, o su contable, utilice las funciones de exportación en QuickBooks para exportar los datos de la nómina a un archivo .IIF.</span><span class="sxs-lookup"><span data-stu-id="e7b8e-107">The first step is for you, or maybe your accountant, to use the export features in QuickBooks to export the payroll data to an .IIF file.</span></span> <span data-ttu-id="e7b8e-108">El segundo paso es abrir la página **Diarios generales** en [!INCLUDE[d365fin](includes/d365fin_md.md)] y usar la acción **Importar transacciones de nómina** para importar el archivo.</span><span class="sxs-lookup"><span data-stu-id="e7b8e-108">The second step is to open the **General Journals** page in [!INCLUDE[d365fin](includes/d365fin_md.md)] and use the **Import Payroll Transactions** action to import the file.</span></span> <span data-ttu-id="e7b8e-109">Durante el proceso de importación debe asignar las cuentas de contabilidad de QuickBooks a las cuentas correspondientes en [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="e7b8e-109">During the import process you map the general ledger accounts from QuickBooks to corresponding accounts in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span> <span data-ttu-id="e7b8e-110">Por último, registre operaciones de nóminas en [!INCLUDE[d365fin](includes/d365fin_md.md)] según la asignación de cuentas.</span><span class="sxs-lookup"><span data-stu-id="e7b8e-110">The final step is to post the payroll transactions in [!INCLUDE[d365fin](includes/d365fin_md.md)] according to the account mapping.</span></span> 
 
-<span data-ttu-id="56f32-109">La extensión de importación del archivo de nóminas de Quickbooks le permite importar la transacción del servicio de nóminas de Quickbooks.</span><span class="sxs-lookup"><span data-stu-id="56f32-109">The Quickbooks Payroll File Import extension allows you to import payroll transaction from the Quickbooks Payroll service.</span></span>
+<span data-ttu-id="e7b8e-111">Para obtener más información, vea [Importar transacciones de nómina](finance-how-import-payroll-transactions.md).</span><span class="sxs-lookup"><span data-stu-id="e7b8e-111">For more information, see [Import Payroll Transactions](finance-how-import-payroll-transactions.md).</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="56f32-110">Consulte también</span><span class="sxs-lookup"><span data-stu-id="56f32-110">See Also</span></span>
-<span data-ttu-id="56f32-111">[Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones ](ui-extensions.md)  </span><span class="sxs-lookup"><span data-stu-id="56f32-111">[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions ](ui-extensions.md)  </span></span>  
-<span data-ttu-id="56f32-112">[Finanzas](finance.md)  </span><span class="sxs-lookup"><span data-stu-id="56f32-112">[Finance](finance.md)  </span></span>  
-<span data-ttu-id="56f32-113">[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="56f32-113">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="e7b8e-112">Consulte también</span><span class="sxs-lookup"><span data-stu-id="e7b8e-112">See Also</span></span>
+<span data-ttu-id="e7b8e-113">[Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones ](ui-extensions.md)  </span><span class="sxs-lookup"><span data-stu-id="e7b8e-113">[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions ](ui-extensions.md)  </span></span>  
+<span data-ttu-id="e7b8e-114">[Finanzas](finance.md)  </span><span class="sxs-lookup"><span data-stu-id="e7b8e-114">[Finance](finance.md)  </span></span>  
+<span data-ttu-id="e7b8e-115">[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="e7b8e-115">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 
