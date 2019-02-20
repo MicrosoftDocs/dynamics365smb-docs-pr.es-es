@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2018
+ms.date: 12/07/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: 341cd12db4ca130539a2ba2838c3aa95a96cb6ab
+ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
+ms.openlocfilehash: 80ab4bd8fe9a5c74f52a334cf8c4a0a297c01bd9
 ms.contentlocale: es-es
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 12/11/2018
 
 ---
 # <a name="creating-contact-persons"></a>Crear personas de contacto
@@ -26,15 +26,22 @@ Asimismo, es posible que deba traducir algunas publicaciones de los productos y,
 
 Al registrar la mayor información posible sobre las personas de contacto, se asegurará de que todos los grupos de su empresa puedan encontrar la información relevante.
 
-En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.
+Puede crear una ficha de contacto por cada uno que trabaje en las empresas con las que se relaciona. Puede especificar todos las personas contacto que desee en cada empresa contacto. También puede crear fichas de contacto para las personas que desea registrar como independientes.
 
-| Para | Vea |
-| --- | --- |
-| Proporcionar información sobre una persona de contacto. |[Crear personas de contacto](marketing-how-create-contact-persons.md) |
-| Configurar una dirección alternativa para un contacto. |[Asignar direcciones alternativas](marketing-how-assign-alternate-address.md) |
-| Describir la relación de negocio de un contacto de la empresa. |[Configurar responsabilidades de cargo en contactos](marketing-job-responsibilities.md) |
-| Describe el nivel de organización de sus contactos. |[Configurar niveles de organización en personas de contacto](marketing-organizational-levels.md) |
-| Asignar grupos de correo a los contactos |[Asignar grupos de direcciones a un contacto](marketing-mailing-groups.md) |
+> [!TIP]  
+>   Antes de crear un contacto, es posible que desee comprobar la configuración de **Herencia** de la página **Configuración marketing**. Si configura la herencia permite la información sobre empresas de contacto que es común para las personas de contacto, como detalles de dirección, para que se copien automáticamente desde la empresa de contacto a la persona de contacto cada vez que cree un persona de contacto para una empresa de contacto registrada.
+
+## <a name="to-create-a-contact-card-for-a-person"></a>Procedimiento para crear una ficha de contacto para una persona
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Contactos** y luego elija el enlace relacionado.
+2. Seleccione la acción **Nuevo**.
+3. En el campo **N.º**, introduzca un número para el contacto.
+
+    Por otra parte, si configuró un número de serie para los contactos de la página **Configuración marketing**, puede pulsar Entrar para hacer que el sistema especifique el siguiente número de contacto disponible. Para obtener más información, vea [Crear serie numérica](ui-create-number-series.md).
+4. En el campo **Tipo**, seleccione **Persona**.
+5. Rellene los otros campos de la ficha de contacto.
+
+> [!NOTE]  
+>   El contenido de los campos que haya seleccionado en la sección **Herencia** de la página **Configuración de marketing** se copia de la empresa a las personas de esa empresa.
 
 ## <a name="see-also"></a>Consulte también
 [Crear empresas de contacto](marketing-create-contact-companies.md)  

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 10/01/2018
+ms.date: 12/20/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4ce03eb7a3685f53869795ded646ef6917a1730a
+ms.sourcegitcommit: 5801fcc1284edfe1b8578518c084455c336d5a40
+ms.openlocfilehash: f40c0b422bfde2d3a186b4458c3780932934d497
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 12/27/2018
 
 ---
 # <a name="assembly-management"></a>Gestión de ensamblaje
@@ -43,6 +43,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Vender elementos de ensamblaje que no están disponibles actualmente mediante una orden de ensamblado vinculada para suministrar la cantidad total o parcial de la orden de venta.|[Venta de artículos ensamblados para pedido](assembly-how-to-sell-items-assembled-to-order.md)|
 |Cuando algunos productos de ensamblar para pedido ya se encuentran en el inventario, descuente esa cantidad de pedido de ensamblado y resérvela del inventario.|[Vender productos de inventario en los flujos de ensamblar para pedido](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md)|  
 |Cuando está vendiendo productos de ensamblado del inventario y ninguno de los productos está disponible, inicie un pedido de ensamblado para suministrar automáticamente una parte o toda la cantidad del pedido de venta.|[Vender productos de ensamblado para pedido y productos de inventario juntos](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)|
+|Cree artículos de ensamblaje personalizados para pedidos de ventas generales antes de realizar periódicamente los pedidos de ventas reales de acuerdo con el acuerdo de pedido abierto.|[Crear pedidos abiertos ensamblados](assembly-how-to-create-blanket-assembly-orders.md)|
 |Deshacer un pedido de ensamblado registrado, por ejemplo porque la orden se publicó con errores que deben corregirse.|[Deshacer registro de ensamblado](assembly-how-to-undo-assembly-posting.md).|
 |Saber la diferencia entre ensamblado L.M. y producción L.M. y las diferencias de procesamiento correspondientes.|[Trabajar con listas de materiales](inventory-how-work-BOMs.md)|
 |Saber cómo se gestiona el consumo de ensamblado y a la salida cuando se registran los pedidos de ensamblado y cómo se procesan y se distribuyen a la contabilidad el artículo y los precios de coste de recurso derivados.|[Detalles de diseño: Registro de pedidos de ensamblado](design-details-assembly-order-posting.md)|  
@@ -54,5 +55,4 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

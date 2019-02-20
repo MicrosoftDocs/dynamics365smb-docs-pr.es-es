@@ -8,18 +8,21 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: integration, synchronize, map
-ms.date: 10/01/2018
+ms.search.keywords: integration, synchronize, map, Sales
+ms.date: 01/24/2019
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 65466039efae2b18821fb03b6465f4c8c5e18f68
+ms.sourcegitcommit: c129dd63b3aabeeac15c6684f961e04bd2b08a2a
+ms.openlocfilehash: bba9fb9a83856cea43e4f4215e7c148b713252a9
 ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/24/2019
 
 ---
-# <a name="managing-customers-and-sales-created-in-dynamics-365-for-sales"></a>Gestión de clientes y ventas creados en Dynamics 365 for Sales
-Si utiliza Dynamics 365 for Sales (Sales) para la interacción con el cliente, puede usar [!INCLUDE[d365fin](includes/d365fin_md.md)] para su procesamiento de pedidos y finanzas, y tener una integración fluida en el proceso de clientes potenciales a efectivo.
+# <a name="integrating-with-dynamics-365-for-sales"></a>Integración con Dynamics 365 for Sales
+Si utiliza Dynamics 365 for Sales para la interacción con el cliente, puede usar [!INCLUDE[d365fin](includes/d365fin_md.md)] para su procesamiento de pedidos y finanzas, y tener una integración fluida en el proceso de clientes potenciales a efectivo.
+
+> [!NOTE]
+> En este tema se supone que tanto el [!INCLUDE[d365fin](includes/d365fin_md.md)] como la solución integrada de Sales se implementan en un entorno SaaS. La mezcla en línea y local es posible, pero requiere una configuración especial. Para obtener más información, vea [Preparación para integrar al Dynamics 365 for Sales local](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
 Al configurar su aplicación para integrarse con Sales, tendrá acceso a los datos de Sales desde [!INCLUDE[d365fin](includes/d365fin_md.md)] y a la inversa en algunos casos. Esta integración permite trabajar con los tipos de datos y sincronizar los que son comunes a ambos servicios, como clientes, contactos e información de ventas, y mantener los datos actualizados en ambas ubicaciones.  
 
@@ -144,6 +147,7 @@ Esto también puede funcionar si el pedido de cliente original contiene producto
 Si la descripción del artículo en el pedido de venta original es muy larga, se crea una línea de orden de venta adicional de tipo Comentario para mantener el texto completo en el pedido de cliente en [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## <a name="see-also"></a>Consulte también
+[Preparación para integrar al Dynamics 365 for Sales local](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration)  
 [Gestión de relaciones](marketing-relationship-management.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Cambiar las funciones que se muestran](ui-experiences.md)  

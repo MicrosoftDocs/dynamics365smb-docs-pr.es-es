@@ -3,20 +3,20 @@ title: Configurar los procesos financieros | Documentos de Microsoft
 description: "Obtenga información sobre las tareas para configurar las finanzas en su empresa para adaptarse a todas sus necesidades de contabilidad o auditoría."
 services: project-madeira
 documentationcenter: 
-author: edupont04
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 11/15/2018
-ms.author: edupont
+ms.date: 12/19/2018
+ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
-ms.openlocfilehash: c52121b89a08b78750c8b46377b2bf47c7a948df
+ms.sourcegitcommit: aa1e7b13cf6cc56df1a6922a9b123e7cc19580c6
+ms.openlocfilehash: 377e7f8eb3cb78adf68e3f4167a215d8f027f972
 ms.contentlocale: es-es
-ms.lasthandoff: 11/20/2018
+ms.lasthandoff: 12/19/2018
 
 ---
 # <a name="setting-up-finance"></a>Configurar las finanzas
@@ -36,6 +36,8 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 | Definir cómo se comunican los importes del impuesto de valor añadido que ha recopilado por las ventas a las autoridades fiscales. |[Configurar los cálculos y los métodos de registro del impuesto sobre el valor añadido](finance-setup-vat.md)|
 |Prepárese para gestionar el IVA no realizado en conexión con los métodos contables basados en efectivo.|[Configurar el IVA no realizado para la contabilidad basada en efectivo](finance-setup-unrealized-vat.md)|
 | Configure sus características de ventas y compras para manejar pagos en divisas extranjeras.|[Permitir la liquidación de movimientos de cliente en distintas divisas](finance-how-enable-application-ledger-entries-different-currencies.md)
+|Defina una o varias divisas adicionales para que los importes se reporten automáticamente tanto en DL como en una divisa de informe adicional en cada entrada de contabilidad y en otras entradas.|[Configurar una divisa de informes adicional](finance-how-setup-additional-currencies.md)|
+|Ajuste periódicamente los equivalentes de divisa adicionales para compensar tipos de cambio que fluctúan.|[Actualizar tipos cambio divisa](finance-how-update-currencies.md)|
 |Defina varias tasas de interés con el fin de utilizarlas para diferentes períodos de pagos retrasados en las transacciones comerciales.|[Configurar varios tipos de interés.](finance-how-to-set-up-multiple-interest-rates.md)|
 |Prepárese para redondear automáticamente los importes de las facturas en el momento en que estas se crean.|[Configurar redondeo de factura](finance-set-up-invoice-rounding.md)|
 | Agregue nuevas cuentas al plan de cuentas existente. |[Configuración del plan contable](finance-setup-chart-accounts.md) |
@@ -43,6 +45,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Activar la facturación de un cliente que no está configurado en el sistema.|[Configurar clientes de efectivo](finance-how-to-set-up-cash-customers.md)|
 | Configurar los informes Intrastat y, enviar el informe a una autoridad | [Configuración y creación de informes Intrastat](finance-how-setup-report-intrastat.md)|
 |Prepare el informe Balance comprobación consol. en el área de trabajo contable para obtener una visión general financiera de varias empresas.|[Consolidar los datos financieros de varias empresas](finance-consolidated-company-reporting.md)|
+|Asegúrese de que un movimiento de un diario general esté asignado a varias cuentas diferentes al registrar el diario, ya sea cantidad, porcentaje o importe.|[Utilizar claves de asignación en diarios generales](ui-how-use-allocation-keys-general-journals.md)|
 
 ## <a name="see-also"></a>Consulte también
 [Finanzas](finance.md)  

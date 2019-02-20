@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting
-ms.date: 10/01/2018
+ms.date: 01/14/2019
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: bb514cdfcaf2ea0a05b669cb5b5963da79a94d0e
+ms.sourcegitcommit: 79729b42b660399893aebe1116c80ef3b3209042
+ms.openlocfilehash: aff05be6ade45224a57f57c92c2d52fcf9e6eb13
 ms.contentlocale: es-es
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 01/15/2019
 
 ---
 # <a name="inviting-your-external-accountant-to-your-included365finincludesd365finmdmd"></a>Invitación del contable externo a [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -23,7 +23,8 @@ Si utiliza un contable externo para administrar los libros y los informes financ
 Una vez que el contable ha accedido a su [!INCLUDE[d365fin](includes/d365fin_md.md)], puede utilizar el área de trabajo **Contable** que da acceso fácil a las páginas más relevantes para el trabajo.  
 
 ## <a name="invite-your-accountant-to-your-included365finincludesd365finmdmd"></a>Invitar al contable a [!INCLUDE[d365fin](includes/d365fin_md.md)]
-En la última versión de [!INCLUDE[d365fin](includes/d365fin_md.md)], hemos facilitado la invitación a su contable externo. Abra simplemente la página **Usuarios**, y seleccione la acción **Invitar a contable externo** en la cinta de opciones. Se le crea un correo electrónico, ahora simplemente agregue el correo electrónico de trabajo de su contable y envíe la invitación.  
+
+Hemos facilitado la invitación a su contable externo. Abra simplemente la página **Usuarios**, y seleccione la acción **Invitar a contable externo** en la cinta de opciones. Se le crea un correo electrónico, ahora simplemente agregue el correo electrónico de trabajo de su contable y envíe la invitación.  
 
 ![Invitar al contable](./media/finance-invite-accountant/invite-accountant.png)
 
@@ -31,7 +32,7 @@ En la última versión de [!INCLUDE[d365fin](includes/d365fin_md.md)], hemos fac
 >  Para ello es necesario que haya configurado el correo electrónico SMTP. Puede hacerlo usted mismo o preguntarle a su socio de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Además, debe iniciar sesión en [!INCLUDE[d365fin](includes/d365fin_md.md)] como administrador y no como propietario u otros usuarios. Finalmente, debe haber abandonado la empresa de prueba para tener un administrador de Azure Active Directory.  
 
 > [!IMPORTANT]  
->  La dirección de correo electrónico del contable debe ser una dirección de trabajo basada en Active Directory. Si el contable utiliza otro tipo de correo electrónico, la invitación no se podrá enviar.  
+> La dirección de correo electrónico del contable debe ser una dirección de trabajo basada en Azure Active Directory. Si el contable utiliza otro tipo de correo electrónico, la invitación no se podrá enviar.  
 
 ### <a name="separate-license"></a>Licencia independiente
 En segundo plano, el contable se agrega a su suscriptor de Active Directory. Su administrador puede verificar que el contable acepta la invitación y se le asigna la licencia correcta. Los pasos para hacerlo dependen del tipo de cuenta que utilizó al registrarse en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Este tema se basa en el uso de una cuenta de Office 365, que usa Microsoft Azure Active Directory.  

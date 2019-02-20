@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 12/07/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: e00b99c963669bb8a8577d8277082e5656d45d66
+ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
+ms.openlocfilehash: 1ba27ee0ac252bbe1fd47b900654980df5b18fdf
 ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/11/2018
 
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Gestionar la configuración de la empresa en una hoja de trabajo
@@ -107,6 +107,22 @@ Después de haber agregado todas las tablas necesarias a un paquete de configura
 
     > [!NOTE]  
     >  Las tablas permanecen en el paquete aunque se eliminen de la hoja de trabajo.  
+
+## <a name="to-review-and-customize-existing-database-data"></a>Para revisar y personalizar datos de base de datos existentes
+A medida que crea un paquete de configuración para una solución, puede ver y personalizar los datos de base de datos disponibles para satisfacer las necesidades del cliente. La tabla de base de datos debe tener una página asociada.  
+
+## <a name="to-customize-data-in-the-database"></a>Procedimiento para personalizar los datos en la base de datos  
+
+1.  En la página **Hoja de trabajo de configuración**, indique las tablas cuyos datos desee ver o personalizar.  
+
+    > [!NOTE]  
+    >  Asegúrese de que cada tabla tenga asignado un identificador de página. Para las tablas de [!INCLUDE[d365fin](includes/d365fin_md.md)] estándar, este valor se rellena automáticamente. Para las tablas personalizadas, debe proporcionar el identificador.  
+
+2.  Seleccione la acción **Datos de base de datos**.  
+
+     Se abre la página [!INCLUDE[d365fin](includes/d365fin_md.md)] para la página.  
+
+3.  Revise la información disponible. Modifíquela según sea necesario. Para ello, elimine los registros que no son pertinentes o agregue registros nuevos.
 
 ## <a name="see-also"></a>Consulte también  
 [Establecer la configuración de una empresa](admin-set-up-company-configuration.md)  

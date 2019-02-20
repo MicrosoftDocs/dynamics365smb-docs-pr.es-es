@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 11/15/2018
+ms.date: 11/27/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
-ms.openlocfilehash: d24998281a7e718c5f4ae648eba1a338512eefcb
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: d5f5885055aa1094e4172d4a4e327ff1e940f799
 ms.contentlocale: es-es
-ms.lasthandoff: 11/20/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 # <a name="managing-inventory-costs"></a>Gestión de costes de inventario
@@ -29,6 +29,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |**Para**|**Vea**|  
 |------------|-------------|  
 |Leer información conceptual para conocer los principios y definiciones que rigen la función de contabilidad de valoración de existencias en [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Acerca del contabilidad de valoración](finance-learn-about-costing.md)|  
+|Información sobre todos los mecanismos en el sistema de costes.|[Detalles de diseño: Coste de inventario](design-details-inventory-costing.md)|
 |Leer cómo los periodos de inventario ayudan a las empresas a controlar el valor de las existencias con el tiempo definiendo periodos más cortos que se pueden cerrar para registrar según avanza el año fiscal.|[Trabajar con periodos de inventario](finance-how-to-work-with-inventory-periods.md)|
 |Leer por qué los costes estándar los suelen utilizar las empresas de fabricación como base de valoración para los componentes y productos finales.|[Acerca del cálculo de coste estándar](finance-about-calculating-standard-cost.md)|
 |Configurar periodos de inventario, valoración de existencias y métodos de redondeo.|[Configuración de valoración de existencias](finance-set-up-inventory-valuation-and-costing.md)|
@@ -38,12 +39,11 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Actualice periódicamente los costes estándar de los componentes, en ensamblados o L.M. de producción, y distribuya los nuevos costes al producto principal.|[Actualizar costes estándar](finance-how-to-update-standard-costs.md)|
 |Consulte y modifique manualmente determinados movimientos de liquidación del producto que se crean automáticamente durante las transacciones del inventario.|[Eliminar y liquidar de nuevo los movimientos contables de producto](finance-how-to-remove-and-reapply-item-entries.md)|
 |Realizar tareas de control e informes de final de periodo, como calcular el valor de existencias y registrar costes en la contabilidad.|[Creación de informes de costes y conciliación con la contabilidad](finance-report-costs-and-reconcile-with-the-general-ledger.md)|
-|Información sobre todos los mecanismos en el sistema de costes.|[Detalles de diseño: Coste de inventario](design-details-inventory-costing.md)|  
 
 ## <a name="see-also"></a>Consulte también  
  [Finanzas](finance.md)  
  [Grupos contables inventario](inventory-manage-inventory.md)   
- [Ccial](sales-manage-sales.md)   
+ [Ventas](sales-manage-sales.md)   
  [Compras](purchasing-manage-purchasing.md)  
  [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 01/22/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 6a51a509ae1281d7c6bfe19e5276b516982a5fa5
+ms.sourcegitcommit: 5d6d2d9527e81a92987f6b8fcdbe8e087c3c537a
+ms.openlocfilehash: 6e9c21dcec2932bcc2b93648289699d6d062bf78
 ms.contentlocale: es-es
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 01/22/2019
 
 ---
 # <a name="pick-items"></a>Elegir productos
@@ -38,7 +38,8 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Registrar el envío de los productos directamente en el documento de pedido de salida puesto que no existen funciones de almacén. (Funciona igual para los pedidos de venta, pedidos de transferencia de salida y envíos de devoluciones.)|[Enviar productos](warehouse-how-ship-items.md)|  
 |Realizar el picking de los productos pedido a pedido y registrar el envío como parte de la misma actividad, en una configuración básica de almacén.|[Realizar el picking de productos con picking inventario](warehouse-how-to-pick-items-with-inventory-picks.md)|
 |Realizar el picking de productos de distintos pedidos en una configuración avanzada de almacén.|[Realizar picking de productos con picking almacén](warehouse-how-to-pick-items-for-warehouse-shipment.md)|  
-|Realizar picking de componentes para la producción o ensamblado en una configuración avanzada o básica de almacén.|[Selección de producción o la Lista montaje](warehouse-how-to-pick-for-production.md)|  
+|Realizar el picking de componentes para la producción o ensamblado en una configuración básica de almacén.|[Realizar picking para ensamblado o producción en una configuración básica de almacén](warehouse-how-to-pick-for-production.md)|
+|Realizar picking de componentes para la producción o ensamblado en una configuración avanzada de almacén.|[Realizar picking para ensamblado o producción en una configuración avanzada de almacén](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)|  
 |Planificar instrucciones optimizadas de picking para un número de envíos en lugar de que los empleados del almacén actúen directamente en los envíos registrados.|[Planificar los picking en la hoja de trabajo](warehouse-how-to-plan-picks-in-worksheets.md)|  
 |Realizar el picking de productos técnicamente con un propósito determinado, como puede ser una unidad de producción que solicita componentes adicionales, de forma que los productos no abandonen técnicamente el almacén.|[Realizar el picking y la ubicación sin un documento de origen](warehouse-how-to-create-put-aways-from-internal-put-aways.md)|
 |Comprender cómo realizar automáticamente el picking de los productos de acuerdo con su fecha de caducidad, por ejemplo productos perecederos.|[Realización de picking por el FEFO](warehouse-picking-by-fefo.md)|

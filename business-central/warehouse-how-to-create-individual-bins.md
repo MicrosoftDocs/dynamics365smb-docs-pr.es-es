@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 01/22/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4df1de7eca8127c5ae2c46e04fecc5ca0f2c8302
+ms.sourcegitcommit: c129dd63b3aabeeac15c6684f961e04bd2b08a2a
+ms.openlocfilehash: 7dc7fb43c465cc2098ceacb6f5906303fefd1f9d
 ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/24/2019
 
 ---
 # <a name="create-bins"></a>Crear ubicaciones
@@ -26,7 +26,17 @@ La forma más eficaz de crear las ubicaciones del almacén es generar grupos de 
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Ubicaciones** y elija el enlace relacionado.  
 2.  Seleccione la ubicación para la que desee crear una ubicación y elija la acción **Ubicaciones**.  
 3. Seleccione la acción **Nuevo**.
-4. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+4. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+### <a name="the-dedicated-field"></a>El campo dedicado
+El campo **dedicado** de la página **Ubicaciones** especifica que las cantidades de la ubicación están protegidas de picking para otras demandas. Sin embargo, las cantidades de las ubicaciones dedicadas todavía pueden reservarse. Por consiguiente, las cantidades de las ubicaciones dedicadas se incluyen en el campo **Cdad. disponible total** de la página **Reservas**.
+
+La fabricación de una ubicación dedicada proporciona una funcionalidad similar en funciones de almacén básicas al uso de tipos de ubicaciones, que sólo está disponible en la gestión avanzada de almacén. Para obtener más información, consulte [Configurar tipos de ubicaciones](warehouse-how-to-set-up-bin-types.md).
+
+**Ejemplo**: En un centro de trabajo se establece un código de ubicación en el campo **Cód. ubic. para producción**. Las líneas de componente del pedido de producción con ese código de almacén requieren que se coloquen allí los componentes vaciados hacia adelante. Sin embargo, hasta que los componentes se consumen en esa ubicación, se puede hacer picking de otras demandas de componentes o se los puede consumir de esa ubicación porque aún se los considera contenidos de ubicación disponibles. Para garantizar que el contenido de la ubicación está disponible solo para la demanda de componente que utiliza esa ubicación para producción, debe seleccionar el campo **Dedicado** de la línea para ese código de ubicación.
+
+> [!Caution]
+> Los productos de las ubicaciones dedicadas no se protegen cuando se les ha realizado el picking y se los consume como componentes de producción o ensamblado con la página **Picking de inventario**. Para obtener más información, consulte [Realizar picking para ensamblado o producción en una configuración básica de almacén](warehouse-how-to-pick-for-production.md).
 
 ## <a name="to-create-bins-individually-in-the-bin-creation-worksheet"></a>Para crear las ubicaciones individualmente en la hoja de trabajo de creación de ubicación  
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hoja trab. creación ubicación** y elija el enlace relacionado.  

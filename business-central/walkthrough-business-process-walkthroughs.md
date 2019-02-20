@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 01/31/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8adebfb892b00038c010e050018c51a973aeafb8
+ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
+ms.openlocfilehash: 350ce32ffff947b8e6aa2182d69e238b5782802f
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 01/31/2019
 
 ---
 # <a name="business-process-walkthroughs"></a>Tutoriales de procesos empresariales
@@ -24,26 +24,26 @@ En esta selección de tutoriales se proporcionan procesos empresariales completo
 
  Los tutoriales son ejemplos completos y deben realizarse desde el principio hasta el final para obtener el máximo beneficio. Muchos están basados en demostraciones de [!INCLUDE[d365fin](includes/d365fin_md.md)] y permiten probar los procedimientos a su ritmo.  
 
- Para evitar tener que registrar muchos perfiles diferentes, los pasos de navegación de los tutoriales se basan en menús de departamentos y no en las áreas de trabajo.  
+> [!NOTE]
+> Algunos de los tutoriales utilizan datos de demostración que no están disponibles en la empresa CRONUS estándar. Para esos tutoriales, debe realizar los pasos en una empresa creada a partir de la opción **Evaluación completa - Datos de muestra completos**, que está disponible en el entorno de espacio aislado. Para obtener más información, consulte [Creación de un entorno aislado](across-how-create-sandbox-environment.md).
 
 |Para|Vea|  
 |--------|---------|  
-|Configurar una campaña de marketing|[Tutorial: realización de una campaña de ventas](walkthrough-conducting-a-sales-campaign.md)|  
-|Usar prepagos para parte de pedidos de venta|[Tutorial: Configuración y facturación de prepagos de ventas](walkthrough-setting-up-and-invoicing-sales-prepayments.md)|  
+|Configurar una campaña de marketing.|[Tutorial: realización de una campaña de ventas](walkthrough-conducting-a-sales-campaign.md)|  
+|Utilice los pagos por adelantado para administrar los pagos parciales de ventas y compras. **Requiere datos de muestra completos** |[Tutorial: Configuración y facturación de prepagos de ventas](walkthrough-setting-up-and-invoicing-sales-prepayments.md)|  
 |Configurar usuarios de aprobación, cómo y cuándo los usuarios reciben notificación sobre flujos de trabajo de aprobación y, a continuación, modificar y habilitar el flujo de trabajo de aprobación relevante.|[Tutorial: Configuración y uso de un flujo de trabajo de aprobación de compra](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
-|Ubicar productos recibidos en las configuraciones básicas de almacén.|[Tutorial: recepción y ubicación en la configuración del almacenamiento básico](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)|  
-|Ubicar productos recibidos en configuraciones avanzadas de inventario.|[Tutorial: recepción y ubicación en la configuración del almacenamiento avanzado](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)|  
-|Planificar los pedidos de suministros para satisfacer la demanda manualmente|[Tutorial: planificación manual de suministros](walkthrough-planning-supplies-manually.md)|  
-|Planificar los pedidos de suministros para satisfacer la demanda automáticamente|[Tutorial: planificación automática de suministros](walkthrough-planning-supplies-automatically.md)|  
-|Ensamblar y enviar productos personalizados en el pedido de venta|[Tutorial: vender, ensamblar y enviar kits](walkthrough-selling-assembling-and-shipping-kits.md)|  
-|Planificar un proyecto de principio a fin|[Tutorial: administración de programas con proyectos](walkthrough-managing-projects-with-jobs.md)|  
-|Conocer los costes de un proyecto|[Tutorial: cálculo del trabajo en curso para un proyecto](walkthrough-calculating-work-in-process-for-a-job.md)|  
-|Picking de productos para envío en configuraciones de almacén básico|[Tutorial: picking y envío en la configuración del almacenamiento básico](walkthrough-picking-and-shipping-in-basic-warehousing.md)|  
-|Implementar la gestión de defectos|[Tutorial: seguimiento de números de serie-lote](walkthrough-tracing-serial-lot-numbers.md)|  
+|Ubicar productos recibidos en las configuraciones básicas de almacén. **Requiere datos de muestra completos**|[Tutorial: recepción y ubicación en la configuración del almacenamiento básico](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)|  
+|Ubicar productos recibidos en configuraciones avanzadas de inventario. **Requiere datos de muestra completos**|[Tutorial: recepción y ubicación en la configuración del almacenamiento avanzado](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)|  
+|Planificar los pedidos de suministros para satisfacer la demanda manualmente. **Requiere datos de muestra completos**|[Tutorial: planificación manual de suministros](walkthrough-planning-supplies-manually.md)|  
+|Planificar los pedidos de suministros para satisfacer la demanda automáticamente. **Requiere datos de muestra completos**|[Tutorial: planificación automática de suministros](walkthrough-planning-supplies-automatically.md)|  
+|Ensamblar y enviar productos personalizados en el pedido de venta. **Requiere datos de muestra completos**|[Tutorial: vender, ensamblar y enviar kits](walkthrough-selling-assembling-and-shipping-kits.md)|  
+|Planificar un proyecto de principio a fin. **Requiere datos de muestra completos**|[Tutorial: administración de programas con proyectos](walkthrough-managing-projects-with-jobs.md)|  
+|Informar de los costes de un proyecto. **Requiere datos de muestra completos**|[Tutorial: cálculo del trabajo en curso para un proyecto](walkthrough-calculating-work-in-process-for-a-job.md)|  
+|Picking de productos para envío en configuraciones de almacén básico. **Requiere datos de muestra completos**|[Tutorial: picking y envío en la configuración del almacenamiento básico](walkthrough-picking-and-shipping-in-basic-warehousing.md)|  
+|Realizar gestión de defectos. **Requiere datos de muestra completos**|[Tutorial: seguimiento de números de serie-lote](walkthrough-tracing-serial-lot-numbers.md)|  
 
 ## <a name="see-also"></a>Consulte también
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

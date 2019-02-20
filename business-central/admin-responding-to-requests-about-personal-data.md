@@ -9,10 +9,10 @@ ms.date: 11/06/2018
 ms.reviewer: na
 ms.topic: article
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 313ebe68ae1963e22bc17d53a7c41ae8f090de60
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: f7a217bd61b185586c71d5982d783840dd7ffd2e
 ms.contentlocale: es-es
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 
@@ -47,8 +47,8 @@ En la página de Privacidad del trabajo y la escuela, también puede cerrar su c
 Todavía puede marcar personas como bloqueadas debido a la privacidad y exportar, editar o eliminar transacciones como se explica en otra sección de este artículo.  
 
 ## <a name="exporting-data-from-tables-not-classified-by-data-subject"></a>Exportar datos de tablas no clasificadas por asunto de datos
-Si tiene una situación en la que tiene que exportar datos que no están clasificados de manera que se exporten automáticamente, como los datos de la tabla Respuestas de perfil, debe hacer lo siguiente: 
--   Considere si realmente desea o tiene que exportar estos datos suplementarios que no están relacionados con el contacto, lo que significa que no tienen relación directa con él. 
+Si tiene una situación en la que tiene que exportar datos que no están clasificados de manera que se exporten automáticamente, como los datos de la tabla Respuestas de perfil, debe hacer lo siguiente:
+-   Considere si realmente desea o tiene que exportar estos datos suplementarios que no están relacionados con el contacto, lo que significa que no tienen relación directa con él.
 -   Agregue esta tabla y relación manualmente al paquete de Rapid Start y expórtela directamente desde el paquete de Rapid Start; por ese motivo, generamos un paquete de Rapid Start automáticamente, para que pueda ajustarlo en situaciones como esta.
 
 ## <a name="handling-data-about-minors"></a>Controlar datos sobre menores

@@ -11,10 +11,10 @@ ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 549f66a584e7994cba6d7b99ee25a04c8cb8960b
+ms.sourcegitcommit: 3f158d7ed56445d6d2acf2ef8e5e9ab8e7487531
+ms.openlocfilehash: 5b7c5282a89a1dfb39f3e94feab8e00d2373f8af
 ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -52,7 +52,7 @@ En la tabla siguiente se describen los métodos abreviados de teclado para naveg
 ## <a name="keyboard-shortcuts-in-lists"></a>Métodos abreviados de teclado en las listas
 
 En la tabla siguiente se describen los métodos abreviados de teclado que puede usar en una página de lista. La acción de acceso directo es ligeramente diferente en función de si la página se muestra en la vista de lista o de mosaico.
-<!-- 
+<!--
 > [!Note]
 > In the table that follows, the term *actionable field* refers to a field on which you can do something, like change a value or link to another page. In general, the shortcuts will skip over fields that display information that you cannot change from the list (in other words, fields that are read-only).
 -->
@@ -61,7 +61,7 @@ En la tabla siguiente se describen los métodos abreviados de teclado que puede 
 
 |Pulsar estas teclas<br />(en macOS)|Para hacerlo en una vista de lista |Para hacerlo en una vista de mosaico |Comentarios|
 |-----------------|-------|-------|-------|
-|Flecha hacia arriba|En la misma columna, desplazarse al campo de la fila superior.| En la misma columna, desplazarse al mosaico de la fila superior.  |  | 
+|Flecha hacia arriba|En la misma columna, desplazarse al campo de la fila superior.| En la misma columna, desplazarse al mosaico de la fila superior.  |  |
 |Flecha abajo|En la misma columna, desplazarse al campo de la fila inferior. |En la misma columna, desplazarse al mosaico de la fila inferior. | |
 |Flecha hacia la derecha|En una lista de solo lectura, desplácese en la misma fila al siguiente campo de la derecha.<br /><br />En una lista editable, desplácese a la derecha del campo actual.| En la misma fila, desplazarse al siguiente mosaico de la derecha. ||
 |Flecha izquierda|En una lista de solo lectura, desplácese en la misma fila al campo anterior de la izquierda. <br /><br />En una lista editable, desplácese a la izquierda del campo actual.| En la misma fila, desplazarse al mosaico anterior de la izquierda. ||
@@ -71,7 +71,7 @@ En la tabla siguiente se describen los métodos abreviados de teclado que puede 
 |Fin<br />(Fn+flecha derecha)|Desplazarse al último campo en una fila.|Desplazarse al último mosaico en una fila.||
 |Re. pág.<br />(Fn+flecha arriba)|Se desplaza para mostrar las filas establecidas por encima de las filas actuales a la vista. |Se desplaza para mostrar los mosaicos establecidos por encima de los mosaicos actuales a la vista. ||
 |Av. Pág.<br />(Fn+flecha abajo)|Se desplaza para mostrar las filas establecidas por debajo de las filas actuales a la vista.|Se desplaza para mostrar los mosaicos establecidos por debajo de los mosaicos actuales a la vista.||
-|Entrar<br />(Fn+flecha abajo)|Abre el registro asociado a este campo.|Abre el registro.| Solo es relevante si una página de ficha está asociada con el registro.|
+|Entrar|Abre el registro asociado a este campo.|Abre el registro.| Solo es relevante si una página de ficha está asociada con el registro.|
 |Ctrl+Enter|Mueva el enfoque al siguiente elemento fuera de la lista.|Mueva el enfoque al siguiente elemento fuera de la lista.||
 
 ### <a name="CopyRows"></a>Seleccionar, copiar y pegar
@@ -104,7 +104,7 @@ En la tabla siguiente se describen los métodos abreviados de teclado que puede 
 |Mayús+Alt+F3|Abre el panel de filtros y agrega un filtro en la columna seleccionada de la lista. El foco está en el nuevo campo de filtro que permite comenzar a escribir los criterios de filtro de inmediato.<br /><br /> Esto es lo mismo que seleccionar **Filtro** desde la cabecera de columna. er menú. Muestra el panel de filtros, agrega el filtro, establece el enfoque en él para que el usuario pueda escribir un valor para filtrar.<br /><br />Si ya existe un filtro en el campo, se agregará uno nuevo. |
 |Ctrl+Mayús+Alt+F3|Restablece filtros. Esto es lo mismo que elegir **Restablecer filtros** en el panel de filtro y se aplica a los filtros de campos y totales.<br /><br /> Los filtros vuelven a los filtros predeterminados para la vista actual. Si la vista actual es **Todos**, entonces es equivalente a volver a una vista sin filtros con todos los registros. |
 |Ctrl+Enter|Vuelve a la lista desde el panel de filtros.|
- 
+
 ## <a name="a-namecalendarshortcuts-keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"/> Métodos abreviados de teclado en el Calendario (selector de fecha)
 Al configurar un campo de fecha, puede introducir la fecha manualmente o abrir un calendario (selector de fecha) que le permite seleccionar la fecha que desea. En la tabla siguiente se describen los métodos abreviados de teclado del calendario.
 

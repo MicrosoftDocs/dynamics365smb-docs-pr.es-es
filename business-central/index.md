@@ -1,5 +1,5 @@
 ---
-title: Microsoft Dynamics Business Central
+title: Microsoft Dynamics 365 Business Central
 description: "Obtenga más información sobre las capacidades y los escenarios de trabajo en Business Central, una solución de administración empresarial para pequeñas y medianas empresas."
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,10 +10,10 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: c0ae00a8994f41b54356a50418eafdc090c701e7
+ms.sourcegitcommit: 3f158d7ed56445d6d2acf2ef8e5e9ab8e7487531
+ms.openlocfilehash: 423518d27902cf8c4507a583f660932296789c6e
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 # <a name="welcome-to-included365finlongincludesd365finlongmdmd"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -25,7 +25,7 @@ ms.lasthandoff: 03/22/2018
 |-|-|  
 |**Procesos empresariales**|-   [Introducción](product-get-started.md)<br />-   [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)<br />-   [Configuración de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)<br />-   [Administración](admin-setup-and-administration.md)<br />-   [Funciones empresariales](across-business-functionality.md)<br />-   [Funcionalidad local](LocalFunctionality/Austria/austria-local-functionality.md)<br />-   [Funciones empresariales generales](ui-across-business-areas.md)<br />-   [Tutoriales de procesos empresariales](walkthrough-business-process-walkthroughs.md)<br />-   [Detalles de diseño de la aplicación](design-details-application-design.md)|  
 |**Desarrollo**|-   [Introducción](/dynamics365/business-central/dev-itpro/index)<br />-   [Desarrollo en AL](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)<br />-   [Entorno de desarrollo AL](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)<br />-   [Reglas y directrices para código AL](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)|  
-|**Recursos de la comunidad**|-   [Comunidad de Microsoft Dynamics Business Central](https://community.dynamics.com/business)<br />-   [Blog de Microsoft Dynamics Business Central](https://community.dynamics.com/business/b/financials)<br />-   [Microsoft Dynamics Business Central Roadmap](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)<br />-   [Microsoft Dynamics PartnerSource \(requiere la cuenta de PartnerSource\)](https://mbs.microsoft.com/partnersource)<br />-   [Microsoft Partner Network \(requiere una cuenta de miembro de Microsoft Partner Network\)](https://mspartner.microsoft.com/en/us/Pages/index.aspx)|  
+|**Recursos de la comunidad**|-   [Comunidad de Microsoft Dynamics 365 Business Central](https://community.dynamics.com/business)<br />-   [Blog de Microsoft Dynamics 365 Business Central](https://community.dynamics.com/business/b/financials)<br />-   [Notas de la versión del Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422)<br />-   [Microsoft Dynamics PartnerSource \(requiere la cuenta de PartnerSource\)](https://mbs.microsoft.com/partnersource)<br />-   [Microsoft Partner Network \(requiere una cuenta de miembro de Microsoft Partner Network\)](https://mspartner.microsoft.com/en/us/windows/index.aspx)|  
 
 ## <a name="see-also"></a>Consulte también
 [Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones](ui-extensions.md)  

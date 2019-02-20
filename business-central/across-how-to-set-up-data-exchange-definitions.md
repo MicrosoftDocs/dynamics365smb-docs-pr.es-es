@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/26/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 5d90eefb7fe765681a50b906f237e48b67beb935
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: 0a8172f0c8770235291e7b9a29663f15932f38b4
 ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 # <a name="set-up-data-exchange-definitions"></a>Configurar definiciones de intercambio de datos
@@ -50,7 +50,7 @@ La creación de una definición de intercambio de datos implica dos tareas:
     |---------------------------------|---------------------------------------|  
     |**Código**|Introduzca un código para identificar la definición de intercambio de datos.|  
     |**Nombre**|Escriba un nombre para la definición de intercambio de datos.|  
-    |**Tipo de archivo**|Especifique el tipo de archivo para el que se usa la definición de intercambio de datos. Puede seleccionar tres tipos de archivo:<br /><br /> -   **XML**: cadenas de contenido y marcado por niveles entre etiquetas que indican función.<br />-   **Texto variable**: los registros tienen una longitud variable y están separados por un carácter, como una coma o un punto y coma. También conocido como *archivo delimitado*.<br />-   **Texto fijo**: registros que tienen la misma longitud (se usan caracteres de relleno) y en el que cada registro se incluye en una línea aparte. También conocido como *archivo de ancho fijo*.|  
+    |**Tipo de archivo**|Especifique el tipo de archivo para el que se usa la definición de intercambio de datos. Puede seleccionar cuatro tipos de archivo:<br /><br /> -   **XML**: cadenas de contenido y marcado por niveles entre etiquetas que indican función.<br />-   **Texto variable**: los registros tienen una longitud variable y están separados por un carácter, como una coma o un punto y coma. También conocido como *archivo delimitado*.<br />-   **Texto fijo**: registros que tienen la misma longitud (se usan caracteres de relleno) y en el que cada registro se incluye en una línea aparte. También conocido como *archivo de ancho fijo*.<br />- **Json**: Cadenas de contenido en JavaScript.|  
     |**Escriba**|Especifique para qué tipo de actividad económica se utiliza la definición de intercambio de datos, por ejemplo **Exportación de pagos**.|  
     |**Codeunit de control de datos**|Especifique la unidad de código que transfiere los datos a las tablas de [!INCLUDE[d365fin](includes/d365fin_md.md)] y desde ellas.|  
     |**Codeunit de validación**|Especifique la unidad de código que se usa para validar los datos según las reglas de negocio predefinidas.|  

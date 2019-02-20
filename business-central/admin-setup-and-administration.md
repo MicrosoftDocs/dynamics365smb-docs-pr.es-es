@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 11/08/2018
+ms.date: 01/24/2019
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 46a37fb00319647ea1c4b4630e4d9369687dd7cf
-ms.openlocfilehash: 26057b4838681b4b6036c4a56aab4fd6d49ac1dd
+ms.sourcegitcommit: c129dd63b3aabeeac15c6684f961e04bd2b08a2a
+ms.openlocfilehash: 9b45c50d2c3e1f1b7eab8cb8269445d61523011b
 ms.contentlocale: es-es
-ms.lasthandoff: 11/12/2018
+ms.lasthandoff: 01/24/2019
 
 ---
 # <a name="administration"></a>Administración
@@ -45,6 +45,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Exponga las páginas, las unidades de código y las consultas como servicios web.|[Publicar un servicio web](across-how-publish-web-service.md)|
 |Como parte de la creación de aplicaciones de Connect entre soluciones de [!INCLUDE[d365fin](includes/d365fin_md.md)] y de terceros a través de las API de REST, defina plantillas que se utilizan para completar propiedades vacías en una entidad cuando crea una acción POST a través de una API.|[Configuración de plantillas API](admin-configuring-api-template.md)|
 |Cifre los datos en el servidor de [!INCLUDE[d365fin](includes/d365fin_md.md)] generando claves de cifrado nuevas o importando claves existentes que se activarán en el servidor.|[Administración del cifrado de datos](admin-manage-data-encryption.md)|
+|Conecte Dynamics 365 for Sales con [!INCLUDE[d365fin](includes/d365fin_md.md)] para obtener una integración perfecta entre las relaciones con los clientes y el procesamiento de pedidos en el proceso de obtención de efectivo.|[Integración con Dynamics 365 for Sales](marketing-integrate-dynamicscrm.md)|
 
 ## <a name="see-also"></a>Consulte también
 [Funciones empresariales](across-business-functionality.md)  

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 10/01/2018
+ms.date: 12/21/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 5165cb97d73562d9614a955269ebdcbdc2ff33e4
+ms.sourcegitcommit: 5801fcc1284edfe1b8578518c084455c336d5a40
+ms.openlocfilehash: 772702717a250e7068e93d362bc09a5ba719defe
 ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/27/2018
 
 ---
 # <a name="design-details-item-application"></a>Detalles de diseño: Liquidación de productos
@@ -93,9 +93,9 @@ Para llevar a cabo una liquidación fija, deberá utilizar los campos **Liq. por
 ### <a name="example--fixed-application-in-purchase-return"></a>Ejemplo: Liquidación fija en devolución de compra  
 El ejemplo siguiente, en el que se ilustra el efecto de la liquidación fija de una devolución de compra de un producto mediante la valoración de existencias FIFO, se basa en el escenario siguiente:  
 
-1. En el número de movimiento 1, el usuario registra una compra en un coste de 10,00 DL.  
-2. En el número de movimiento 2, el usuario registra una compra en un coste de 20,00 DL.  
-3. En el número de movimiento 3, el usuario registra una devolución de compra. El usuario realiza una liquidación fija en la segunda compra al introducir el número de movimiento de producto en el campo **Liq. por nº orden producto** en la línea de pedido de devolución de compra.  
+1. En el movimiento 1, el usuario registra una compra en un coste de 10,00 DL.  
+2. En el movimiento 2, el usuario registra una compra en un coste de 20,00 DL.  
+3. En el movimiento 3, el usuario registra una devolución de compra. El usuario realiza una liquidación fija en la segunda compra al introducir el número de movimiento de producto en el campo **Liq. por nº orden producto** en la línea de pedido de devolución de compra.  
 
 En la tabla siguiente se muestran los movimientos de producto como consecuencia del escenario.  
 
@@ -111,7 +111,7 @@ En la tabla siguiente se muestra el movimiento de liquidación de producto que e
 
 |Fecha reg.|Nº mov. prod. entrada|Nº mov. prod. salida|Cantidad|Nº mov. producto|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
-|06-01-20|1|3|10|3|  
+|06-01-20|2|3|10|3|  
 
 A continuación, el coste de la segunda compra, DL 20,00, se pasará correctamente a la devolución de la compra.  
 

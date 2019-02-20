@@ -10,16 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 01/31/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: d0a7088e436def55b3c7ddc3115065c66686b7fb
+ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
+ms.openlocfilehash: bed38cf158e5372ff9c4e2f23667fba8af93ec74
 ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/31/2019
 
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Tutorial: planificación manual de suministros
+
+**Nota**: Este tutorial debe realizarse en una empresa de demostración con la opción **Evaluación completa - Datos de muestra completos**, que está disponible en el entorno de espacio aislado. Para obtener más información, consulte [Creación de un entorno aislado](across-how-create-sandbox-environment.md).
+
 En este tutorial, se demuestra el proceso de planificar pedidos de suministro para cubrir la nueva demanda. Puede iniciar la planificación de suministros a intervalos fijos, por ejemplo, todas las mañanas o todos los lunes, o bien cuando le notifiquen desde ventas o producción, en función del tipo de demanda. En este tutorial, utilizará la página **Planificación de pedidos**, una sencilla herramienta de planificación de suministros basada en la toma manual de decisiones en lugar de en una planificación automática basada en parámetros.  
 
 ## <a name="about-this-walkthrough"></a>Acerca de este tutorial  
@@ -57,7 +60,7 @@ En este tutorial, se demuestra el proceso de planificar pedidos de suministro pa
 
 ## <a name="using-the-order-planning-page"></a>Uso de la página Planificación de pedidos  
 
-<!-- 
+<!--
 The **Order Planning** page can be accessed from several different locations on the **Departments** menu in the navigation pane:  
 
 -   Manufacturing, Planning  

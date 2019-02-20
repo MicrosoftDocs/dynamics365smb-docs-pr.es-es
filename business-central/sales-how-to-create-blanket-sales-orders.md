@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 12/20/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4989933a0034e5d496e09824ad0ca621a2373825
+ms.sourcegitcommit: 5801fcc1284edfe1b8578518c084455c336d5a40
+ms.openlocfilehash: ac2582e48d03738974d5db51841e1efdf4c0a316
 ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/27/2018
 
 ---
 # <a name="work-with-blanket-sales-orders"></a>Trabajar con pedidos de venta abiertos
@@ -27,7 +27,7 @@ En un pedido abierto, cada envío independiente se puede definir como una línea
 Un ejemplo en el que se podría utilizar un pedido abierto de venta sería un caso en el que un cliente realiza un pedido de 1000 unidades de un producto y desea que los productos se le envíen en grupos de 250 unidades cada semana durante el mes siguiente.
 
 > [!NOTE]
-> Los pedidos de compra abiertos funcionan de manera similar a los pedidos de venta abiertos. Esta documentación no cubre los pedidos de compra abiertos.
+> Los pedidos de compra abiertos funcionan de manera similar a los pedidos de venta abiertos. Esta documentación cubre solo los pedidos de venta abiertos.
 
 ## <a name="to-create-a-blanket-sales-order"></a>Para crear un pedido abierto de venta  
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos de venta abiertos** y luego elija el enlace relacionado.  
@@ -38,7 +38,7 @@ Un ejemplo en el que se podría utilizar un pedido abierto de venta sería un ca
 
 ## <a name="to-create-a-sales-order-from-a-blanket-sales-order"></a>Para crear un pedido de venta a partir de un pedido abierto de venta  
 
-1.  Para crear un pedido de cualquiera de las líneas del pedido abierto de ensamblado, elimine la cantidad del campo **Cantidad a enviar** en todas las líneas que no desee enviar en este momento.  
+1.  Para crear un pedido de cualquiera de las líneas del pedido de venta abierto, elimine la cantidad del campo **Cantidad a enviar** en todas las líneas que no desee enviar en este momento.  
 2.  Cuando esté preparado para crear pedidos, haga clic en la acción **Convertir en pedido** y, a continuación, haga clic en **Sí**. Aparecerá un mensaje para informarle de que se ha asignado un número de pedido al pedido abierto. Observe que no se ha eliminado el pedido abierto.  
 3.  Elija el botón **Aceptar**.  
 4.  Para ver los resultados de los pasos anteriores, elija la acción **Línea**, seleccione **Líneas no registradas** y, finalmente, haga clic en **Pedidos**.  
@@ -55,17 +55,17 @@ Lo siguiente se aplica a los pedidos de venta después de que se hayan creado a 
 - El pedido abierto de venta facturado se conserva en el sistema hasta que se elimina, ya sea eliminando pedidos abiertos individuales o ejecutando el proceso **Eliminar pedidos abiertos venta facturados**.  
 - Si un cliente también está registrado como contacto en el área de la aplicación Marketing y ha especificado un código de plantilla de interacción para el pedido abierto de venta en la página **Configuración de marketing**, al seleccionar **Imprimir** para imprimir el pedido abierto de venta se registrará una interacción en la tabla Movimiento de registro de interacción.
 
-## <a name="to-view-the-status-of-a-blanket-purchase-order"></a>Para ver el estado de un pedido abierto de compra  
-Puede ver el estado de los pedidos de abiertos de venta en la página **Estad. pedido abierto compras**. Esto puede ser importante cuando empiece a facturar el pedido que se crea a partir del pedido abierto de compra.  
+## <a name="to-view-the-status-of-a-blanket-sales-order"></a>Para ver el estado de un pedido abierto de venta  
+Puede ver el estado de los pedidos de abiertos de venta en la página **Estad. pedido abierto ventas**. Esto puede ser importante cuando empiece a facturar el pedido que se crea a partir del pedido abierto de ventas.  
 
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos de compra abiertos** y luego elija el enlace relacionado.  
-2.  Seleccione un pedido abierto de compra, y después seleccione **Estadísticas** .  
-3.  En la página **General** de la ventana **Estad. pedido abierto compras**, puede ver información resumida sobre el pedido completo basada en la cantidad total de los distintos **campos Cantidad** de las líneas del pedido de compra abierto.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos de venta abiertos** y luego elija el enlace relacionado.  
+2.  Seleccione un pedido abierto de ventas, y después seleccione **Estadísticas** .  
+3.  En la ficha desplegable **General** de la página **Estad. pedido abierto ventas**, puede ver información resumida sobre el pedido completo basada en la cantidad total de los distintos **campos Cantidad** de las líneas del pedido de ventas abierto.  
 
-    - En la ficha desplegable **Facturación**, puede ver información resumida basada en la cantidad total de los campos **Cdad. a facturar** de las líneas del pedido abierto de compra.  
-    - En la ficha desplegable **Envío**, puede ver información resumida basada en la cantidad total de los campos **Cantidad a recibir** de las líneas del pedido abierto de compra.  
-    - En la ficha desplegable **Prepago**, puede ver información resumida sobre las importes de prepago.  
-    - La ficha desplegable **Proveedor** contiene información básica acerca del proveedor.    
+- En la ficha desplegable **Facturación** puede ver información resumida basada en la cantidad total de los campos **Cdad. a facturar** de las líneas del pedido de ventas abierto.  
+- En la ficha desplegable **Envío**, puede ver información resumida basada en la cantidad total de los campos **Cantidad a recibir** de las líneas del pedido de ventas abierto.  
+- En la ficha desplegable **Prepago**, puede ver información resumida sobre las importes de prepago.  
+- La ficha desplegable **Proveedor** contiene información básica acerca del proveedor.    
 
 ## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Visualización de líneas de pedido abierto de venta registradas y no registradas   
 El vínculo entre el pedido abierto de venta y el pedido de venta de origen, y cualquier otro documento de venta, se mantiene después de registrar como lista de líneas de factura de pedido de venta registradas y sin registrar.  
@@ -74,56 +74,27 @@ El vínculo entre el pedido abierto de venta y el pedido de venta de origen, y c
 2. Abra el pedido abierto de venta que desea ver.
 3. Para ver los movimientos no registrados, seleccione la acción **Línea** y, a continuación, la acción **Líneas no registradas**. Elija una de las siguientes opciones.  
 
-    <table>
-    <tr>
-    <th>Opción</th>
-    <th>Description</th>
-    </tr>
-    <tr>
-    <td>**Pedidos**</td>
-    <td>Especifica los pedidos abiertos asociados a la línea seleccionada.</td>
-    </tr>
-    <tr>
-    <td>**Facturas**</td>
-    <td>Especifica las facturas abiertas asociadas a la línea seleccionada. Las facturas abiertas se asocian manualmente a un pedido abierto especificando el número de dicho pedido en la línea de la factura de venta.</td>
-    </tr>
-    <tr>
-    <td>**Devoluciones**</td>
-    <td>Especifica las devoluciones abiertas asociadas a la línea seleccionada.</td>
-    </tr>
-    <tr>
-    <td>**Abonos**</td>
-    <td>Especifica los abonos abiertos asociados a la línea seleccionada.</td>
-    </tr>
-    </table>
-4.Para ver los movimientos registrados, seleccione la línea en cuestión y elija la acción **Línea** y, a continuación, la acción **Líneas registradas**. Elija una de las siguientes opciones.  
+    |Opción|Description|
+    |--|--|
+    |**Pedidos**|Especifica los pedidos abiertos asociados a la línea seleccionada.|
+    |**Facturas**|Especifica las facturas abiertas asociadas a la línea seleccionada. Las facturas abiertas se asocian manualmente a un pedido abierto especificando el número de dicho pedido en la línea de la factura de venta.|
+    |**Devoluciones**|Especifica las devoluciones abiertas asociadas a la línea seleccionada.|
+    |**Abonos**|Especifica los abonos abiertos asociados a la línea seleccionada.|
 
-    <table>
-    <tr>
-    <th>Opción</th>
-    <th>Description</th>
-    </tr>
-    <tr>
-    <td>**Envíos**</td>
-    <td>Los envíos registrados asociados a la línea seleccionada.</td>
-    </tr>
-    <tr>
-    <td>**Facturas**</td>
-    <td>Las facturas registradas asociadas a la línea seleccionada.</td>
-    </tr>
-    <tr>
-    <td>**Recep. devolución**</td>
-    <td>Las recepciones de devolución registradas asociadas a la línea seleccionada.</td>
-    </tr>
-    <tr>
-    <td>**Abonos**</td>
-    <td>Los abonos registrados asociados a la línea seleccionada.</td>
-    </tr>
-    </table>
+4. Para ver los movimientos registrados, seleccione la acción **Línea** y, a continuación, la acción **Líneas registradas**. Elija una de las siguientes opciones.  
+
+    |Opción|Description|
+    |---|----|
+    |**Envíos**|Los envíos registrados asociados a la línea seleccionada.|
+    |**Facturas**|Las facturas registradas asociadas a la línea seleccionada.|
+    |**Recep. devolución**|Las recepciones de devolución registradas asociadas a la línea seleccionada.|
+    |**Abonos**|Los abonos registrados asociados a la línea seleccionada.|
+
 5. En la página **Líneas de venta**, seleccione la acción **Mostrar documento** para ver la entrada.
 
 ## <a name="see-also"></a>Consulte también
-[Ccial](sales-manage-sales.md)  
+[Ventas](sales-manage-sales.md)
+[Crear pedidos abiertos ensamblados](assembly-how-to-create-blanket-assembly-orders.md)  
 [Configuración de ventas](sales-setup-sales.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 10/01/2018
+ms.date: 12/17/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 89f878f4049b09cbaa413bc38b97039a07646d9d
+ms.sourcegitcommit: aa1e7b13cf6cc56df1a6922a9b123e7cc19580c6
+ms.openlocfilehash: 10b8021bd688e3f699a73d6a95f511b9a26b8341
 ms.contentlocale: es-es
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 12/19/2018
 
 ---
 # <a name="assemble-items"></a>Ensamblar artículos
@@ -61,7 +61,7 @@ En este procedimiento se crea y procesa un pedido de ensamblado para los artícu
 
     > [!NOTE]  
     >  Para garantizar que el registro de consumo del componente cumpla el registro de salida del artículo de ensamblado, los campos de cantidad en las líneas del pedido de ensamblado ajustan automáticamente el valor que se introduce en el campo **Cantidad a ensamblar**.  
-7.  En líneas de pedido de ensamblado de tipo **Producto** o **Recurso**, en el campo **Cantidad para consumir**, introduzca cuántas unidades va a registrar como consumidas la próxima vez que registre el pedido de ensamblado. De forma predeterminada, se insertan la cantidad esperada para consumir según el L.M. de ensamblado y la cantidad de la cabecera del pedido de ensamblado, pero puede aumentarla o disminuirla, como para reflejar un exceso de consumo de los componentes o que se han utilizado recursos adicionales.  
+7.  En líneas de pedido de ensamblado de tipo **Producto** o **Recurso**, en el campo **Cantidad para consumir**, introduzca cuántas unidades va a registrar como consumidas la próxima vez que registre el pedido de ensamblado.
 8.  Cuando esté listo listas para realizar el registro parcial o completamente, elija la acción **Registrar**.  
 
     > [!NOTE]  

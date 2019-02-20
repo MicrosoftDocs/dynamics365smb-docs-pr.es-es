@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.date: 10/01/2018
+ms.date: 01/07/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 4cf8738c7bab09f7bcf900baae54731b6772e7e9
+ms.sourcegitcommit: a98027c3ef3171491f84197897f93cbed4e288c2
+ms.openlocfilehash: ca0648c3c3ccbfb02c910a063e6ac199e7b4b6d4
 ms.contentlocale: es-es
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 01/07/2019
 
 ---
 # <a name="create-gl-budgets"></a>Crear presupuestos contables
@@ -42,9 +42,16 @@ En contabilidad de costes, trabaja con los presupuestos de costes de forma simil
 7. Repita los pasos de 5 y 6 hasta que escriba todos los importes del presupuesto.  
 
 > [!NOTE]  
->  En la ficha desplegable **Filtros** puede filtrar la información de presupuesto por las dimensiones de presupuesto que haya configurado con ese nombre de presupuesto.   
+>  En la ficha desplegable **Filtros** puede filtrar la información de presupuesto por las dimensiones de presupuesto que haya configurado con ese nombre de presupuesto.
+
+## <a name="exporting-and-importing-gl-budgets-with-excel"></a>Exportar e importar presupuestos contables con Excel
+Prácticamente en todas las demás páginas, puede exportar datos en páginas de presupuesto a Excel para su posterior procesamiento o análisis. Para obtener más información, consulte [Exportar los datos de negocio a Excel](about-export-data.md).
+
+> [!NOTE]
+> El plan de cuentas, en el que se basan los presupuestos contables, tiene líneas de tipo de cuenta Mayor que contienen el total de las líneas siguientes. Cuando se exporta un presupuesto contable, se exportan los datos de todas las líneas independientemente del tipo de cuenta. Sin embargo, solo se pueden volver a importar los datos de las líneas del tipo Registro. En consecuencia: <br /><br /> **Al importar un presupuesto contable, todos los valores que existían en las líneas de cabecera se eliminarán.** <br /><br /> Esto sirve para evitar cantidades totales erróneas después de importar datos que se han creado o editado en Excel.<br /><br /> **Escenario**: Usted sabe que el nuevo coste de los salarios presupuestados será de 1.200.000 DL. Desea permitir que el departamento de Salarios presupueste las tres líneas específicas (de tipo de cuenta Publicación) para Empleados a tiempo completo, Empleados a tiempo parcial y Ayuda temporal. Las tres líneas se agrupan bajo una línea de encabezado de Salarios.<br /><br />Introduzca 1.200.000 en la línea Mayor, exporte el presupuesto a Excel y luego envíelo al departamento de Salarios y dígales que distribuyan los 1.200.000 DL.<br /><br /> El departamento de Salarios distribuye el importe en las tres cuentas contables. Cuando vuelve a importar al presupuesto contable, las tres cuentas se completan con los nuevos datos de Excel, que suman 1.200.000 DL y la línea Mayor está en blanco.
 
 ## <a name="see-also"></a>Consulte también
+[Exportar los datos de negocio a Excel](about-export-data.md)  
 [Finanzas](finance.md)  
 [Inteligencia empresarial](bi.md)  
 [Configurar las finanzas](finance-setup-finance.md)  

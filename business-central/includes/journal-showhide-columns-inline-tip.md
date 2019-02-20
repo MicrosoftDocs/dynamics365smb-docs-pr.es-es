@@ -2,13 +2,13 @@
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: include
-ms.date: 10/01/2018
+ms.date: 11/27/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ced98b3c63f1e0f99514590f361e34968ee8d9ac
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: bbab97bbe4591749943c8f1457e6a03e8d6847a8
 ms.contentlocale: es-es
 
 ---
-El diario general solo muestra un número limitado de campos en la línea de diario de forma predeterminada. Si desea ver campos adicionales, como el campo **Equilibrio del grupo general de publicación de productos**, elija la acción **Página** en la barra de navegación y luego elija **Mostrar más columnas**. Para ocultar los campos adicionales de nuevo, elija **Mostrar menos columnas**.  
+El diario general solo muestra un número limitado de campos en la línea de diario de forma predeterminada. Si desea ver otros campos, como el campo **Tipo de cta.**, seleccione la acción **Mostrar más columnas**. Para ocultar los campos adicionales de nuevo, elija la acción **Mostrar menos columnas**.  
 

@@ -1,6 +1,6 @@
 ---
-title: "Detalles de diseño: Disponibilidad seguimiento de productos | Documentos de Microsoft"
-description: "En este tema se discute cómo asegurarse de que las personas que procesan los pedidos pueden confiar en la disponibilidad de números de serie o números de lote."
+title: "Detalles de diseño: Seguimiento del producto en el almacén | Documentos de Microsoft"
+description: "El control de los números de serie y de lote es principalmente una tarea de almacén y, por lo tanto, todos los documentos de almacén de entrada y de salida tienen una funcionalidad estándar para asignar y seleccionar números de seguimiento de productos. No obstante, dado que el programa de reservas se basa en los movimientos de producto, no se admiten totalmente los documentos de actividad del almacén que registren solo movimientos de almacén."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,40 +10,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item, tracking, serial number, lot number, outbound documents
-ms.date: 10/01/2018
+ms.date: 01/15/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: fcdfc219f94462048474acdef259f671e1c8a402
+ms.sourcegitcommit: 5d6d2d9527e81a92987f6b8fcdbe8e087c3c537a
+ms.openlocfilehash: e780dba122374bd80e48ca6bbc74b7540e034ac6
 ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/22/2019
 
 ---
-# <a name="design-details-item-tracking-availability"></a>Detalles de diseño: Disponibilidad de seguimiento de productos
-Las páginas **Líneas seguimiento producto** y **Resumen seguimiento producto** proporcionan información de disponibilidad dinámica de los números de serie o de lote. El propósito de esto es aumentar la transparencia para los usuarios con respecto a los documentos de salida, como pedidos de venta, mostrándoles qué números de serie o cuántas unidades de un número de lote están asignado actualmente a otros documentos abiertos. De este modo se reduce la incertidumbre que provoca la doble asignación y transmite confianza en los procesadores de pedidos de que se pueden cumplir los números y las fechas de seguimiento de producto que han prometido en los pedidos de venta sin registrar. Para obtener más información, consulte [Detalles de diseño: Página de líneas de seguimiento de productos](design-details-item-tracking-lines-window.md).  
+# <a name="design-details-item-tracking-in-the-warehouse"></a>Detalles de diseño: Seguimiento de productos en el almacén
+El control de los números de serie y de lote es principalmente una tarea de almacén y, por lo tanto, todos los documentos de almacén de entrada y de salida tienen una funcionalidad estándar para asignar y seleccionar números de seguimiento de productos.  
 
-Al abrir la página **Líneas seguimiento producto**, se recuperan los datos de disponibilidad de las tablas **Mov. producto** y **Mov. reserva**, sin filtro de reserva. Cuando elige el campo **Nº serie** o **Nº lote**, se abre la página **Resumen seguimiento prod.** y muestra un resumen de la información de seguimiento de producto en la tabla **Mov. reserva**. El resumen contiene la siguiente información sobre cada número de serie o de lote en la línea de seguimiento de producto:  
+No obstante, dado que el programa de reservas se basa en los movimientos de producto, no se admiten totalmente los documentos de actividad del almacén que registren solo movimientos de almacén. Dado que las reservas y los números de seguimiento de productos se pueden administrar solo en el nivel de almacén, no en el nivel de ubicación ni de zona, la página **Líns. seguim. prod.** no se puede abrir desde documentos de actividad de almacén. Lo mismo se aplica a la página **Reservas**.  
 
-|Campo|Descripción|  
-|---------------------------------|---------------------------------------|  
-|**Cantidad total**|La cantidad total del número de serie o lote actualmente en inventario.|  
-|**Cdad. solicitada total**|La cantidad total del número de serie o lote solicitada actualmente en todos los documentos.|  
-|**Cantidad pendiente actual**|La cantidad que se introduce en la instancia actual de la página **Líns. seguim. prod.** todavía no se ha transferido a la base de datos.|  
-|**Cantidad total disponible**|Cantidad del número de serie o de lote que está disponible para que la solicite el usuario.<br /><br /> Esta cantidad se calcula a partir de otros campos de la página de la siguiente forma:<br /><br /> cantidad total – (cantidad total solicitada + cantidad actual pendiente).|  
+Después de añadir un número de serie o de lote a un elemento en una ubicación de almacén, puede moverse y volver a clasificarse libremente en el almacén mediante una estructura independiente de seguimiento del producto que esté no relacionado con el programa de reservas. A los campos **Nº serie** y **Nº lote** se obtiene acceso directamente en las líneas del documento de almacén. Cuando el número de serie o de lote participa en el registro de salida, se sincroniza con el sistema de reservas como parte de un ajuste de ubicación normal. Para obtener más información, consulte [Detalles de diseño: Integración con inventario](design-details-integration-with-inventory.md).  
 
-> [!NOTE]  
->  También puede ver la información de la tabla anterior con la función **Seleccionar movs.** en la página **Líneas seguimiento producto**.  
-
-Para mantener el rendimiento de la base de datos, los datos de disponibilidad se recuperan solo una vez de la base de datos cuando abre la página **Líneas seguimiento producto** y usa la función **Actualizar disponibilidad** en la página.  
-
-## <a name="calculation-formula"></a>Tipo cálculo  
-Tal como se describe en la tabla anterior, la disponibilidad de un número de serie o de lote determinado se calcula como sigue:  
-
-* cantidad total disponible = cantidad en inventario – (todas las demandas + cantidad sin transferir a la base de datos)  
-
-> [!IMPORTANT]  
->  Esta fórmula implica que en el cálculo de disponibilidad de número de serie o de lote solo se tiene en cuenta el inventario y se omiten las recepciones proyectadas. Por consiguiente, el aprovisionamiento que aún no se haya registrado en el inventario no afecta a la disponibilidad del seguimiento de productos, al contrario que la disponibilidad de los productos normal, donde se incluyen las recepciones proyectadas.  
+No obstante, el programa de reservas tiene en cuenta las actividades de almacén cuando calcula la disponibilidad. Por ejemplo, los productos que están asignados a selecciones o registrados como seleccionados no se pueden reservar. Para obtener más información, consulte [Detalles de diseño: Disponibilidad en el almacén](design-details-availability-in-the-warehouse.md).
 
 ## <a name="see-also"></a>Consulte también  
-[Detalles de diseño: Seguimiento de productos](design-details-item-tracking.md)
+[Detalles de diseño: Seguimiento de productos](design-details-item-tracking.md)  
+[Detalles de diseño: Integración con inventario](design-details-integration-with-inventory.md)  
+[Detalles de diseño: Disponibilidad en el almacén](design-details-availability-in-the-warehouse.md)  
+[Detalles de diseño: Diseño de seguimiento de productos](design-details-item-tracking-design.md)
 

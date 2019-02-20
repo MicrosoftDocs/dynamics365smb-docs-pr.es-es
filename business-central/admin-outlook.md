@@ -8,22 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 10/01/2018
+ms.date: 12/10/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 6ced619dc9a43f7db0b4d78bf3de08a6dac27653
+ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
+ms.openlocfilehash: a91f2d34cd023994dcd8eb67a9360d50d2cf3747
 ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/11/2018
 
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Usar Business Central como su bandeja de entrada de empresa en Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] introduce la posibilidad de gestionar las interacciones comerciales con sus clientes y proveedores directamente en Microsoft Outlook. Con los complementos de Outlook de [!INCLUDE[d365fin](includes/d365fin_md.md)], puede ver los datos financieros relativos a los clientes y los proveedores, así como crear y enviar documentos financieros, como por ejemplo presupuestos y facturas.  
 
 ## <a name="getting-the-add-in"></a>Obtener el complemento
-En [!INCLUDE[d365fin](includes/d365fin_md.md)], uno de los pasos en la guía de configuración de Introducción es la página **Dirija su empresa desde Office 365**. En dicha página, cuando selecciona el botón **Registrarse en Outlook**, debe especificar su nombre de usuario y contraseña de Office 365. Los complementos [!INCLUDE[d365fin](includes/d365fin_md.md)] se agregan automáticamente a su Outlook.  
+Es fácil comenzar con el complemento de [!INCLUDE[d365fin](includes/d365fin_md.md)] para Outlook. En la guía de configuración asistida **Configurar su bandeja de entrada de empresa en Outlook**, puede configurar la conexión para usted o para su organización. Si su organización utiliza Office 365, debe especificar su nombre de usuario y contraseña de Office 365. Si su organización no usa Office 365, debe especificar la información sobre el Exchange Server que usa. Los complementos [!INCLUDE[d365fin](includes/d365fin_md.md)] se agregan automáticamente a su Outlook.  
 
-A continuación, cuando abre Outlook, verá los correos electrónicos del administrador de Business Central. Se agrega el nuevo complemento a la cinta de opciones de Outlook y en el acceso red para Outlook, puede verlo en la cinta de complemento inmediatamente superior al cuerpo del correo electrónico. El complemento se actualizará periódicamente y recibirá la notificación de que tiene lista una nueva versión en Outlook.  
+A continuación, cuando abra Outlook, verá un mensaje de correo electrónico del administrador de Dynamics 365 Business Central. Los nuevos complementos se agregan a la cinta de Outlook y, en la aplicación web de Outlook, puede ver los complementos de [!INCLUDE[d365fin](includes/d365fin_md.md)] inmediatamente encima o debajo del cuerpo del mensaje de correo electrónico. Los complementos se actualizan periódicamente y recibirá la notificación de que tiene lista una nueva versión en Outlook.  
 
 Algunas empresas que usan Office 365 restringen los permisos de los usuarios para implementar complementos. Debe asegurarse de que tiene una suscripción a Office 365 que incluye correo electrónico y permite implementar complementos. Si desea probar el complemento de todos modos, puede [probar Office 365 gratis](https://products.office.com/try).  
 
@@ -57,7 +57,10 @@ De igual forma, en el cliente de escritorio de Outlook puede comprobar que [!INC
 En ambos casos, si [!INCLUDE[d365fin](includes/d365fin_md.md)] sigue sin estar disponible, tiene que obtener los archivos del manifiesto del complemento. Para obtener más información, póngase en contacto con su administrador de Office 365.
 
 ## <a name="see-also"></a>Consulte también
+
 [Introducción](product-get-started.md)  
+[Obtener Business Central en mi dispositivo móvil](install-mobile-app.md)  
+[Enviar documentos por correo electrónico](ui-how-send-documents-email.md)  
 [Finanzas](finance.md)  
 [Ventas](sales-manage-sales.md)  
 [Compras](purchasing-manage-purchasing.md)  

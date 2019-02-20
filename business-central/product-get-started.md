@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 10/01/2018
+ms.date: 12/03/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: b30a97ad3f7c03b1c42e5cd845698337899a0294
+ms.sourcegitcommit: 3f158d7ed56445d6d2acf2ef8e5e9ab8e7487531
+ms.openlocfilehash: 15c54c7c6514ce275ff242d620df7404f9f2fee4
 ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 # <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Introducción a [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -36,7 +36,7 @@ Para algunos consejos rápidos y que debe conocer, vea:
 
 Para obtener más información, consulte [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md).  
 
-Cuando esté preparado para empezar a trabajar y desee examinar algunos de los procesos empresariales que admite [!INCLUDE[d365fin](includes/d365fin_md.md)], vea [Funciones empresariales](across-business-functionality.md). Para obtener un resumen de las funciones actuales y futuras, eche un vistazo a nuestra guía básica en [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68).  
+Cuando esté preparado para empezar a trabajar y desee examinar algunos de los procesos empresariales que admite [!INCLUDE[d365fin](includes/d365fin_md.md)], vea [Funciones empresariales](across-business-functionality.md). Para obtener un resumen de las funciones actuales y futuras, eche un vistazo a las notas de la versión en [Notas de la versión de Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422).  
 
 ## <a name="the-role-centers"></a>Áreas de trabajo
 La página Área de trabajo se basa un diseño basado en roles para ofrecerle acceso rápido a las herramientas de procesos e inteligencia empresariales que necesita para realizar su trabajo. Por ejemplo, un contable puede supervisar pagos y aprobaciones, y ver gráficos de rendimiento financiero. Vea las áreas de trabajo eligiendo el icono **Configuración** ![Configuración](media/ui-experience/settings_icon_small.png "Icono Configuración del área de trabajo") en la esquina superior derecha, eligiendo **Mi configuración** y, a continuación, el área de trabajo para explorar. Inicie sesión de nuevo para aplicar el cambio. Para obtener más información, consulte [Cambiar configuración básica](ui-change-basic-settings.md).
@@ -69,9 +69,17 @@ En la página **Configuración asistida**, encontrará lo siguiente con la exper
 
 Para crear una empresa para probar cosas, vaya al menú **Mi configuración** en la esquina superior derecha y cambie a **Mi empresa**. Cierre la sesión de [!INCLUDE[d365fin](includes/d365fin_md.md)] y vuelva a iniciarla para aplicar el cambio. Una guía de configuración asistida le ayudará a proporcionar información básica acerca de la empresa. Una vez haya terminado, explore el Área de trabajo y busque la acción **Configuración asistida**.  
 
-También puede encontrar un socio de [!INCLUDE[d365fin](includes/d365fin_md.md)] [aquí](https://www.microsoft.com/en-us/solution-providers/search).
+También puede encontrar un socio de [!INCLUDE[d365fin](includes/d365fin_md.md)] [aquí](https://www.microsoft.com/en-us/solution-providers/search).  
 
-## <a name="ready-to-subscribe"></a>¿Preparado para suscribirse?
+## <a name="getting-answers-to-questions"></a>Obtener respuestas a las preguntas
+
+Si no está seguro de cómo hacer algo en [!INCLUDE[d365fin](includes/d365fin_md.md)], puede encontrar la respuesta leyendo la información sobre herramientas en el campo del que no está seguro o leyendo el contenido en el enlace *Más información* en la información sobre herramientas. También puede acceder a la documentación seleccionando el enlace relacionado en el menú Ayuda.  
+
+Todos los campos en [!INCLUDE[d365fin](includes/d365fin_md.md)] se describen en la información sobre herramientas. Puede acceder a la información sobre herramientas eligiendo el nombre del campo. Por ejemplo, en una página como la **Tarjeta de cliente**, simplemente elija el nombre del campo para leer la información sobre herramientas. En una lista como la lista **Clientes**, o las líneas en un documento como un pedido de cliente, debe elegir el menú desplegable a la derecha del nombre de la columna y luego elegir la opción del menú **¿Qué es esto?**.  
+
+Si tiene preguntas adicionales, le recomendamos que pregunte a la comunidad o contacte a su socio de reventa. Para obtener más información, consulte [¿Adónde me dirijo si tengo preguntas?](across-faq.md#where-do-i-go-if-i-have-questions).  
+
+## <a name="ready-to-subscribe"></a>¿Listo para suscribirse?
 Cada vez que inicie sesión durante el periodo de prueba, una notificación en una barra azul de la parte superior muestra el tiempo restante. Si decide suscribirse, busque un socio de [!INCLUDE[d365fin](includes/d365fin_md.md)] [aquí](https://www.microsoft.com/en-us/solution-providers/search). También puede ponerse en contacto con el [equipo de ventas de [!INCLUDE[d365fin](includes/d365fin_md.md)]](https://go.microsoft.com/fwlink/?linkid=828707).  
 
 ## <a name="other-dynamics-365-apps"></a>Más aplicaciones de Dynamics 365
@@ -86,7 +94,7 @@ Si es un contable, puede registrarse en [!INCLUDE[d365acc_long](includes/d365acc
 [Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] como mi bandeja de entrada de empresa en Outlook](admin-outlook.md)  
 [Obtener [!INCLUDE[d365fin](includes/d365fin_md.md)] en el dispositivo móvil](install-mobile-app.md)  
 [Documentación de Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/)  
-[Business Central Roadmap](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
+[Notas de la versión del Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

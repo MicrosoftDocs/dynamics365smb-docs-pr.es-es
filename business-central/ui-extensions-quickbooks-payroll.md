@@ -1,30 +1,31 @@
 ---
-title: "Usar la extensión de importación del archivo de nóminas de Quickbooks | Documentos de Microsoft"
-description: "Describe cómo utilizar la extensión para importar transacciones de salario y nóminas desde el servicio Quickbooks Payroll."
+title: "Usar la extensión de importación del archivo de nóminas de QuickBooks | Documentos de Microsoft"
+description: "En este tema se describe cómo utilizar la extensión para importar transacciones de salario y nóminas desde QuickBooks."
 services: project-madeira
 documentationcenter: 
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, salary, wage
-ms.date: 10/01/2018
-ms.author: SorenGP
+ms.date: 01/09/2019
+ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: caf928b653b528c10820a8dfa8feff498c88f4ff
+ms.sourcegitcommit: 79729b42b660399893aebe1116c80ef3b3209042
+ms.openlocfilehash: ac68f8a4d67224ad55b1c34ff9b2e4ffa2c372aa
 ms.contentlocale: es-es
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 01/15/2019
 
 ---
-# <a name="the-quickbooks-payroll-file-import-extension"></a>Extensión de importación del archivo de nóminas de Quickbooks
-Para contabilizar los pagos de salario y transacciones relacionadas, deberá importar y registrar las transacciones financieras de salario creadas para el proveedor de nóminas al libro mayor.
+# <a name="the-quickbooks-payroll-file-import-extension"></a>Extensión de importación del archivo de nóminas de QuickBooks
+Use la extensión de Importación del archivo de nómina de QuickBooks para importar transacciones de nómina de QuickBooks a cuentas de contabilidad en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Por ejemplo, esto es útil cuando está haciendo la transición de QuickBooks a [!INCLUDE[d365fin](includes/d365fin_md.md)], o si subcontrata su nómina pero también desea realizar un seguimiento de ella en [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Para hacer esto, primero importe un archivo que recibirá del proveedor de nóminas en la página **Diario general**. A continuación asigne las cuentas externas del archivo de nóminas a las cuentas correspondientes. Por último, registre operaciones de nóminas según la asignación de cuentas. Para obtener más información, vea [Importar transacciones de nómina](finance-how-import-payroll-transactions.md).
+## <a name="steps-to-import-payroll-data"></a>Pasos para importar datos de nómina
+El primer paso es que usted, o su contable, utilice las funciones de exportación en QuickBooks para exportar los datos de la nómina a un archivo .IIF. El segundo paso es abrir la página **Diarios generales** en [!INCLUDE[d365fin](includes/d365fin_md.md)] y usar la acción **Importar transacciones de nómina** para importar el archivo. Durante el proceso de importación debe asignar las cuentas de contabilidad de QuickBooks a las cuentas correspondientes en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Por último, registre operaciones de nóminas en [!INCLUDE[d365fin](includes/d365fin_md.md)] según la asignación de cuentas. 
 
-La extensión de importación del archivo de nóminas de Quickbooks le permite importar la transacción del servicio de nóminas de Quickbooks.
+Para obtener más información, vea [Importar transacciones de nómina](finance-how-import-payroll-transactions.md).
 
 ## <a name="see-also"></a>Consulte también
 [Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones ](ui-extensions.md)    
