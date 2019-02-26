@@ -29,7 +29,7 @@ Como alternativa a la importación de extractos bancarios con el servicio de con
 Para importar o exportar archivos bancarios, deberá configurar su propia cuenta bancaria y las de sus proveedores. Para obtener más información, consulte [Configurar cuentas bancarias](bank-how-setup-bank-accounts.md).
 
 > [!NOTE]  
->   El servicio de conversión de datos bancarios puede imponer un límite de número de líneas que se pueden exportar en un archivo. Recibirá un mensaje de error si se supera el límite. Es aconsejable que los archivos de extracto de cuenta no excedan las 1000 líneas, ya que el tiempo de procesado en el servicio de conversión de datos bancarios puede aumentar significativamente.
+> El servicio de conversión de datos bancarios puede imponer un límite de número de líneas que se pueden exportar en un archivo. Recibirá un mensaje de error si se supera el límite. Es aconsejable que los archivos de extracto de cuenta no excedan las 1000 líneas, ya que el tiempo de procesado en el servicio de conversión de datos bancarios puede aumentar significativamente.
 
 ## <a name="to-sign-your-company-up-for-the-bank-data-conversion-service"></a>Para registrar su empresa en el servicio de conversión de datos de banco
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración de servicio de conv. de datos del banco** y luego elija el enlace relacionado.  
