@@ -1,8 +1,8 @@
 ---
-title: "Conciliación de pagos con la extensión de las fuentes de banco de Envestnet Yodlee | Documentos de Microsoft"
-description: "Describe la extensión de las fuentes de banco de Envestnet Yodlee, que se vincula a las cuentas bancarias para que pueda conciliar pagos rápidamente."
+title: Conciliación de pagos con la extensión de las fuentes de banco de Envestnet Yodlee | Documentos de Microsoft
+description: Describe la extensión de las fuentes de banco de Envestnet Yodlee, que se vincula a las cuentas bancarias para que pueda conciliar pagos rápidamente.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,31 +10,33 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, stream, bank account link
-ms.date: 10/01/2018
+ms.date: 02/26/2019
 ms.author: sgroespe
+ms.openlocfilehash: 36400b3265517c29f68f7eb59d17d968334e0fb1
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: dcca7adcb8d078ee0abd436f58afc024b424bcd7
-ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806724"
 ---
-# <a name="the-envestnet-yodlee-bank-feeds-extension"></a><span data-ttu-id="f83b2-103">Extensión de las fuentes de banco de Envestnet Yodlee</span><span class="sxs-lookup"><span data-stu-id="f83b2-103">The Envestnet Yodlee Bank Feeds Extension</span></span>
-<span data-ttu-id="f83b2-104">Para conciliar pagos realizados en sus cuentas bancarias rápidamente, el servicio de fuentes de banco de Envestnet Yodlee permite vincular su cuenta bancaria del sistema a su cuenta bancaria en línea.</span><span class="sxs-lookup"><span data-stu-id="f83b2-104">To quickly reconcile payments made to your bank accounts, the Envestnet Yodlee Bank Feeds service allows you to link your system bank account to your online bank account.</span></span> <span data-ttu-id="f83b2-105">Esto significa que el último extracto bancario se introduce manual o automáticamente en el diario de conciliación de pagos, lo que garantiza que siempre procesará sus últimos pagos con el mínimo de errores.</span><span class="sxs-lookup"><span data-stu-id="f83b2-105">This means that the latest bank statement is automatically or manually fed into your reconciliation journal, ensuring that you are always processing the latest payments with minimal risk of errors.</span></span>
+# <a name="the-envestnet-yodlee-bank-feeds-extension"></a><span data-ttu-id="e6c61-103">Extensión de las fuentes de banco de Envestnet Yodlee</span><span class="sxs-lookup"><span data-stu-id="e6c61-103">The Envestnet Yodlee Bank Feeds Extension</span></span>
+<span data-ttu-id="e6c61-104">Para conciliar pagos realizados en sus cuentas bancarias rápidamente, el servicio de fuentes de banco de Envestnet Yodlee permite vincular su cuenta bancaria del sistema a su cuenta bancaria en línea.</span><span class="sxs-lookup"><span data-stu-id="e6c61-104">To quickly reconcile payments made to your bank accounts, the Envestnet Yodlee Bank Feeds service allows you to link your system bank account to your online bank account.</span></span> <span data-ttu-id="e6c61-105">Esto significa que el último extracto bancario se introduce manual o automáticamente en el diario de conciliación de pagos, lo que garantiza que siempre procesará sus últimos pagos con el mínimo de errores.</span><span class="sxs-lookup"><span data-stu-id="e6c61-105">This means that the latest bank statement is automatically or manually fed into your reconciliation journal, ensuring that you are always processing the latest payments with minimal risk of errors.</span></span>
 
-<span data-ttu-id="f83b2-106">El servicio de fuentes de banco de Envestnet Yodlee proporciona las ventajas siguientes:</span><span class="sxs-lookup"><span data-stu-id="f83b2-106">The Envestnet Yodlee Bank Feeds service provides the following benefits:</span></span>
+> [!NOTE]
+> <span data-ttu-id="e6c61-106">Esta funcionalidad solo se admite en la versión en línea de Business Central.</span><span class="sxs-lookup"><span data-stu-id="e6c61-106">This functionality is only supported in the online version of Business Central.</span></span> <span data-ttu-id="e6c61-107">Para utilizar esta funcionalidad local, debe obtener una cuenta de cobrand de Envestnet Yodlee.</span><span class="sxs-lookup"><span data-stu-id="e6c61-107">To use this functionality on-premise, you must obtain a cobrand account from Envestnet Yodlee.</span></span>
 
-* <span data-ttu-id="f83b2-107">Elimina la necesidad de la entrada manual.</span><span class="sxs-lookup"><span data-stu-id="f83b2-107">Removes the need for manual entry.</span></span>
-* <span data-ttu-id="f83b2-108">Actualiza la eficacia y la precisión al realizar la conciliación de pagos.</span><span class="sxs-lookup"><span data-stu-id="f83b2-108">Improves efficiency and accuracy when doing payment reconciliation.</span></span>
-* <span data-ttu-id="f83b2-109">Admite un gran número de bancos.</span><span class="sxs-lookup"><span data-stu-id="f83b2-109">Supports a large number of banks.</span></span>
-* <span data-ttu-id="f83b2-110">Permite información actualizada sobre transacciones bancarias en [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="f83b2-110">Allows up-to-date information about bank transactions from within [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span>
-* <span data-ttu-id="f83b2-111">Admite fuentes de banco manuales o automáticas.</span><span class="sxs-lookup"><span data-stu-id="f83b2-111">Supports manual as well as automatic bank feeds.</span></span>
-* <span data-ttu-id="f83b2-112">Habilita la externalización de la conciliación de pagos a un contable proporcionando acceso a los extractos bancarios.</span><span class="sxs-lookup"><span data-stu-id="f83b2-112">Enables outsourcing of payment reconciliation to an accountant by providing access to bank statements.</span></span>
+<span data-ttu-id="e6c61-108">El servicio de fuentes de banco de Envestnet Yodlee proporciona las ventajas siguientes:</span><span class="sxs-lookup"><span data-stu-id="e6c61-108">The Envestnet Yodlee Bank Feeds service provides the following benefits:</span></span>
 
-<span data-ttu-id="f83b2-113">Para obtener más información, vea [Configuración del servicio de fuente de banco de Envestnet Yodlee](bank-how-setup-bank-statement-service.md)</span><span class="sxs-lookup"><span data-stu-id="f83b2-113">For more information, see [Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md).</span></span>
+* <span data-ttu-id="e6c61-109">Elimina la necesidad de la entrada manual.</span><span class="sxs-lookup"><span data-stu-id="e6c61-109">Removes the need for manual entry.</span></span>
+* <span data-ttu-id="e6c61-110">Actualiza la eficacia y la precisión al realizar la conciliación de pagos.</span><span class="sxs-lookup"><span data-stu-id="e6c61-110">Improves efficiency and accuracy when doing payment reconciliation.</span></span>
+* <span data-ttu-id="e6c61-111">Admite un gran número de bancos.</span><span class="sxs-lookup"><span data-stu-id="e6c61-111">Supports a large number of banks.</span></span>
+* <span data-ttu-id="e6c61-112">Permite información actualizada sobre transacciones bancarias en [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="e6c61-112">Allows up-to-date information about bank transactions from within [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span>
+* <span data-ttu-id="e6c61-113">Admite fuentes de banco manuales o automáticas.</span><span class="sxs-lookup"><span data-stu-id="e6c61-113">Supports manual as well as automatic bank feeds.</span></span>
+* <span data-ttu-id="e6c61-114">Habilita la externalización de la conciliación de pagos a un contable proporcionando acceso a los extractos bancarios.</span><span class="sxs-lookup"><span data-stu-id="e6c61-114">Enables outsourcing of payment reconciliation to an accountant by providing access to bank statements.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="f83b2-114">Consulte también</span><span class="sxs-lookup"><span data-stu-id="f83b2-114">See Also</span></span>
-<span data-ttu-id="f83b2-115">[Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones ](ui-extensions.md)  </span><span class="sxs-lookup"><span data-stu-id="f83b2-115">[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions ](ui-extensions.md)  </span></span>  
-[<span data-ttu-id="f83b2-116">Liquidación de pagos automáticamente y conciliación de cuentas bancarias</span><span class="sxs-lookup"><span data-stu-id="f83b2-116">Applying Payments Automatically and Reconciling Bank Accounts</span></span>](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
-<span data-ttu-id="f83b2-117">[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="f83b2-117">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+<span data-ttu-id="e6c61-115">Para obtener más información, vea [Configuración del servicio de fuente de banco de Envestnet Yodlee](bank-how-setup-bank-statement-service.md)</span><span class="sxs-lookup"><span data-stu-id="e6c61-115">For more information, see [Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md).</span></span>
 
+## <a name="see-also"></a><span data-ttu-id="e6c61-116">Consulte también</span><span class="sxs-lookup"><span data-stu-id="e6c61-116">See Also</span></span>
+<span data-ttu-id="e6c61-117">[Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones ](ui-extensions.md)  </span><span class="sxs-lookup"><span data-stu-id="e6c61-117">[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions ](ui-extensions.md)  </span></span>  
+[<span data-ttu-id="e6c61-118">Liquidación de pagos automáticamente y conciliación de cuentas bancarias</span><span class="sxs-lookup"><span data-stu-id="e6c61-118">Applying Payments Automatically and Reconciling Bank Accounts</span></span>](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
+<span data-ttu-id="e6c61-119">[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="e6c61-119">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
