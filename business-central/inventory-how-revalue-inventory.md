@@ -1,8 +1,8 @@
 ---
 title: Crear nuevos movimientos de valor para los productos del inventario | Documentos de Microsoft
-description: "Describe cómo apreciar o amortizar los movimientos de valor de uno o varios productos del inventario enviando el valor calculado actual."
+description: Describe cómo apreciar o amortizar los movimientos de valor de uno o varios productos del inventario enviando el valor calculado actual.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,32 +12,31 @@ ms.workload: na
 ms.search.keywords: costing, inventory cost, value entries
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 7dd38fc58ed7bd2aafafa09042a9e23c821c76e4
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805782"
 ---
-# <a name="revalue-inventory"></a><span data-ttu-id="289a0-103">Revaluar inventario</span><span class="sxs-lookup"><span data-stu-id="289a0-103">Revalue Inventory</span></span>
-<span data-ttu-id="289a0-104">Si desea apreciar o depreciar un producto o el movimiento de un determinado producto, utilice el diario de revalorización.</span><span class="sxs-lookup"><span data-stu-id="289a0-104">If you want to appreciate or depreciate an item or a specific item ledger entry, you must use the revaluation journal.</span></span>
+# <a name="revalue-inventory"></a><span data-ttu-id="c54fe-103">Revaluar inventario</span><span class="sxs-lookup"><span data-stu-id="c54fe-103">Revalue Inventory</span></span>
+<span data-ttu-id="c54fe-104">Si desea apreciar o depreciar un producto o el movimiento de un determinado producto, utilice el diario de revalorización.</span><span class="sxs-lookup"><span data-stu-id="c54fe-104">If you want to appreciate or depreciate an item or a specific item ledger entry, you must use the revaluation journal.</span></span>
 
-## <a name="to-revalue-inventory"></a><span data-ttu-id="289a0-105">Para revaluar el inventario</span><span class="sxs-lookup"><span data-stu-id="289a0-105">To revalue inventory</span></span>
-1. <span data-ttu-id="289a0-106">Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diario revalorizac.** y luego elija el enlace relacionado.</span><span class="sxs-lookup"><span data-stu-id="289a0-106">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Revaluation Journal**, and then choose the related link.</span></span>
-2. <span data-ttu-id="289a0-107">Elija la acción **Calcular valor inventario**.</span><span class="sxs-lookup"><span data-stu-id="289a0-107">Choose the **Calculate Inventory Value** action.</span></span>
-3. <span data-ttu-id="289a0-108">En la página **Calcular valor inventario**, rellene los campos según sea necesario.</span><span class="sxs-lookup"><span data-stu-id="289a0-108">On the **Calculate Inventory Value** page, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. <span data-ttu-id="289a0-109">Elija el botón **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="289a0-109">Choose the **OK** button.</span></span>
-5. <span data-ttu-id="289a0-110">En cada línea de la página **Diario de revalorización**, en el campo **Prec. coste (revaluado)**, especifique el nuevo coste unitario.</span><span class="sxs-lookup"><span data-stu-id="289a0-110">On each line on the **Revaluation Journal** page, in the **Unit Cost (Revalued)** field, enter the new unit cost.</span></span> <span data-ttu-id="289a0-111">También puede especificar el nuevo importe total en el campo **Valor inventario (revalorado)**.</span><span class="sxs-lookup"><span data-stu-id="289a0-111">Alternatively, enter the new total amount in the **Inventory Value (Revalued)** field.</span></span>
+## <a name="to-revalue-inventory"></a><span data-ttu-id="c54fe-105">Para revaluar el inventario</span><span class="sxs-lookup"><span data-stu-id="c54fe-105">To revalue inventory</span></span>
+1. <span data-ttu-id="c54fe-106">Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diario revalorizac.** y luego elija el enlace relacionado.</span><span class="sxs-lookup"><span data-stu-id="c54fe-106">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Revaluation Journal**, and then choose the related link.</span></span>
+2. <span data-ttu-id="c54fe-107">Elija la acción **Calcular valor inventario**.</span><span class="sxs-lookup"><span data-stu-id="c54fe-107">Choose the **Calculate Inventory Value** action.</span></span>
+3. <span data-ttu-id="c54fe-108">En la página **Calcular valor inventario**, rellene los campos según sea necesario.</span><span class="sxs-lookup"><span data-stu-id="c54fe-108">On the **Calculate Inventory Value** page, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. <span data-ttu-id="c54fe-109">Elija el botón **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="c54fe-109">Choose the **OK** button.</span></span>
+5. <span data-ttu-id="c54fe-110">En cada línea de la página **Diario de revalorización**, en el campo **Prec. coste (revaluado)**, especifique el nuevo coste unitario.</span><span class="sxs-lookup"><span data-stu-id="c54fe-110">On each line on the **Revaluation Journal** page, in the **Unit Cost (Revalued)** field, enter the new unit cost.</span></span> <span data-ttu-id="c54fe-111">También puede especificar el nuevo importe total en el campo **Valor inventario (revalorado)**.</span><span class="sxs-lookup"><span data-stu-id="c54fe-111">Alternatively, enter the new total amount in the **Inventory Value (Revalued)** field.</span></span>
 
-    <span data-ttu-id="289a0-112">Los campos correspondientes se actualizan de forma automática.</span><span class="sxs-lookup"><span data-stu-id="289a0-112">The relevant fields are automatically updated.</span></span> <span data-ttu-id="289a0-113">Observe que el campo **Importe** muestra el cambio real ocurrido en el valor de inventario del movimiento de producto seleccionado.</span><span class="sxs-lookup"><span data-stu-id="289a0-113">Note that the **Amount** field shows the actual change in inventory value for the selected item ledger entry.</span></span> <span data-ttu-id="289a0-114">Muestra la diferencia entre el valor del campo **Valor stock (calculado)** y el del campo **Valor inventario (revaluado)**.</span><span class="sxs-lookup"><span data-stu-id="289a0-114">It calculates the difference between the **Inventory Value (Calculated)** field and the **Inventory Value (Revalued)** field.</span></span>
-6. <span data-ttu-id="289a0-115">Una vez completadas todas las líneas en el diario de revalorización, elija la acción **Registrar**.</span><span class="sxs-lookup"><span data-stu-id="289a0-115">When you have completed all lines in the revaluation journal, choose the **Post** action.</span></span>
+    <span data-ttu-id="c54fe-112">Los campos correspondientes se actualizan de forma automática.</span><span class="sxs-lookup"><span data-stu-id="c54fe-112">The relevant fields are automatically updated.</span></span> <span data-ttu-id="c54fe-113">Observe que el campo **Importe** muestra el cambio real ocurrido en el valor de inventario del movimiento de producto seleccionado.</span><span class="sxs-lookup"><span data-stu-id="c54fe-113">Note that the **Amount** field shows the actual change in inventory value for the selected item ledger entry.</span></span> <span data-ttu-id="c54fe-114">Muestra la diferencia entre el valor del campo **Valor stock (calculado)** y el del campo **Valor inventario (revaluado)**.</span><span class="sxs-lookup"><span data-stu-id="c54fe-114">It calculates the difference between the **Inventory Value (Calculated)** field and the **Inventory Value (Revalued)** field.</span></span>
+6. <span data-ttu-id="c54fe-115">Una vez completadas todas las líneas en el diario de revalorización, elija la acción **Registrar**.</span><span class="sxs-lookup"><span data-stu-id="c54fe-115">When you have completed all lines in the revaluation journal, choose the **Post** action.</span></span>
 
-<span data-ttu-id="289a0-116">Las nuevas entradas de valor ahora se crean de modo que reflejan las revalorizaciones que ha registrado.</span><span class="sxs-lookup"><span data-stu-id="289a0-116">New value entries are now created to reflect the revaluations that you have posted.</span></span> <span data-ttu-id="289a0-117">Puede ver los nuevos valores en las respectivas tarjetas de producto.</span><span class="sxs-lookup"><span data-stu-id="289a0-117">You can see the new values on the respective item cards.</span></span>
+<span data-ttu-id="c54fe-116">Las nuevas entradas de valor ahora se crean de modo que reflejan las revalorizaciones que ha registrado.</span><span class="sxs-lookup"><span data-stu-id="c54fe-116">New value entries are now created to reflect the revaluations that you have posted.</span></span> <span data-ttu-id="c54fe-117">Puede ver los nuevos valores en las respectivas tarjetas de producto.</span><span class="sxs-lookup"><span data-stu-id="c54fe-117">You can see the new values on the respective item cards.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="289a0-118">Consulte también</span><span class="sxs-lookup"><span data-stu-id="289a0-118">See Also</span></span>
-[<span data-ttu-id="289a0-119">Detalles de diseño: Revalorización</span><span class="sxs-lookup"><span data-stu-id="289a0-119">Design Details: Revaluation</span></span>](design-details-revaluation.md)  
-[<span data-ttu-id="289a0-120">Grupos contables inventario</span><span class="sxs-lookup"><span data-stu-id="289a0-120">Inventory</span></span>](inventory-manage-inventory.md)  
-[<span data-ttu-id="289a0-121">Ccial</span><span class="sxs-lookup"><span data-stu-id="289a0-121">Sales</span></span>](sales-manage-sales.md)  
-[<span data-ttu-id="289a0-122">Compras</span><span class="sxs-lookup"><span data-stu-id="289a0-122">Purchasing</span></span>](purchasing-manage-purchasing.md)  
-<span data-ttu-id="289a0-123">[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="289a0-123">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
-
+## <a name="see-also"></a><span data-ttu-id="c54fe-118">Consulte también</span><span class="sxs-lookup"><span data-stu-id="c54fe-118">See Also</span></span>
+[<span data-ttu-id="c54fe-119">Detalles de diseño: Revalorización</span><span class="sxs-lookup"><span data-stu-id="c54fe-119">Design Details: Revaluation</span></span>](design-details-revaluation.md)  
+[<span data-ttu-id="c54fe-120">Grupos contables inventario</span><span class="sxs-lookup"><span data-stu-id="c54fe-120">Inventory</span></span>](inventory-manage-inventory.md)  
+[<span data-ttu-id="c54fe-121">Ccial</span><span class="sxs-lookup"><span data-stu-id="c54fe-121">Sales</span></span>](sales-manage-sales.md)  
+[<span data-ttu-id="c54fe-122">Compras</span><span class="sxs-lookup"><span data-stu-id="c54fe-122">Purchasing</span></span>](purchasing-manage-purchasing.md)  
+<span data-ttu-id="c54fe-123">[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="c54fe-123">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>

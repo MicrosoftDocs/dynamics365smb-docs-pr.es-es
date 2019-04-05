@@ -1,44 +1,44 @@
 ---
-title: "Cómo crear ofertas de servicio | Documentos de Microsoft"
-description: "Puede utilizar la página **Oferta servicio** para crear documentos en los que se introduce información acerca de un servicio, como reparación y mantenimiento, de productos de servicio a solicitud del cliente. Puede utilizar una oferta de servicio como borrador de un pedido de servicio y, más adelante, convertir la oferta en un pedido de servicio."
+title: Cómo crear ofertas de servicio | Documentos de Microsoft
+description: Puede utilizar la página **Oferta servicio** para crear documentos en los que se introduce información acerca de un servicio, como reparación y mantenimiento, de productos de servicio a solicitud del cliente. Puede utilizar una oferta de servicio como borrador de un pedido de servicio y, más adelante, convertir la oferta en un pedido de servicio.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 1486be71b0b848aa48996f4161f8987322a09e32
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805368"
 ---
-# <a name="create-service-quotes"></a><span data-ttu-id="6ec60-104">Crear ofertas de servicio</span><span class="sxs-lookup"><span data-stu-id="6ec60-104">Create Service Quotes</span></span>
-<span data-ttu-id="6ec60-105">Puede pensar en ofertas de servicio como base para los pedidos de servicio.</span><span class="sxs-lookup"><span data-stu-id="6ec60-105">You can think of service quotes as the basis for service orders.</span></span> <span data-ttu-id="6ec60-106">De hecho, son casi idénticos.</span><span class="sxs-lookup"><span data-stu-id="6ec60-106">In fact, they are almost identical.</span></span> <span data-ttu-id="6ec60-107">Ambos contienen información como quién es el cliente, el tipo de pedido, el producto que requiera servicio, información sobre facturación y sobre el envío, e información acerca del proyecto de servicio real.</span><span class="sxs-lookup"><span data-stu-id="6ec60-107">They both contain information such as who the customer is, the type of order, the item that needs service, billing and shipping information, and information about the actual service work.</span></span>
+# <a name="create-service-quotes"></a><span data-ttu-id="34c0d-104">Crear ofertas de servicio</span><span class="sxs-lookup"><span data-stu-id="34c0d-104">Create Service Quotes</span></span>
+<span data-ttu-id="34c0d-105">Puede pensar en ofertas de servicio como base para los pedidos de servicio.</span><span class="sxs-lookup"><span data-stu-id="34c0d-105">You can think of service quotes as the basis for service orders.</span></span> <span data-ttu-id="34c0d-106">De hecho, son casi idénticos.</span><span class="sxs-lookup"><span data-stu-id="34c0d-106">In fact, they are almost identical.</span></span> <span data-ttu-id="34c0d-107">Ambos contienen información como quién es el cliente, el tipo de pedido, el producto que requiera servicio, información sobre facturación y sobre el envío, e información acerca del proyecto de servicio real.</span><span class="sxs-lookup"><span data-stu-id="34c0d-107">They both contain information such as who the customer is, the type of order, the item that needs service, billing and shipping information, and information about the actual service work.</span></span>
  
-<span data-ttu-id="6ec60-108">Puede utilizar una oferta de servicio como borrador de un pedido de servicio y, más adelante, convertir la oferta en un pedido de servicio.</span><span class="sxs-lookup"><span data-stu-id="6ec60-108">You can use a service quote as a preliminary draft for a service order, and then convert the quote to a service order.</span></span>  
+<span data-ttu-id="34c0d-108">Puede utilizar una oferta de servicio como borrador de un pedido de servicio y, más adelante, convertir la oferta en un pedido de servicio.</span><span class="sxs-lookup"><span data-stu-id="34c0d-108">You can use a service quote as a preliminary draft for a service order, and then convert the quote to a service order.</span></span>  
   
-## <a name="to-create-a-service-quote"></a><span data-ttu-id="6ec60-109">Para crear una oferta de servicio</span><span class="sxs-lookup"><span data-stu-id="6ec60-109">To create a service quote</span></span>  
-1. <span data-ttu-id="6ec60-110">Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Ofertas servicio** y luego elija el enlace relacionado.</span><span class="sxs-lookup"><span data-stu-id="6ec60-110">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Quotes**, and then choose the related link.</span></span>  
-2. <span data-ttu-id="6ec60-111">Cree una oferta de servicio nueva.</span><span class="sxs-lookup"><span data-stu-id="6ec60-111">Create a new service quote.</span></span>  
-3. <span data-ttu-id="6ec60-112">En el campo **N.º**,</span><span class="sxs-lookup"><span data-stu-id="6ec60-112">In the **No.**</span></span> <span data-ttu-id="6ec60-113">introduzca un número para la oferta de servicio.</span><span class="sxs-lookup"><span data-stu-id="6ec60-113">field, enter a number for the service quote.</span></span> <span data-ttu-id="6ec60-114">Si ha configurado números de serie para ofertas de servicio en la página **Config. gestión servicio**, también puede presionar Enter para seleccionar el siguiente número de oferta de servicio disponible.</span><span class="sxs-lookup"><span data-stu-id="6ec60-114">Alternatively, if you have set up a number series for service quotes on the **Service Mgt. Setup** page, you can press Enter to select the next available service quote number.</span></span>  
-4. <span data-ttu-id="6ec60-115">En el campo **Nº cliente**,</span><span class="sxs-lookup"><span data-stu-id="6ec60-115">In the **Customer No.**</span></span>  <span data-ttu-id="6ec60-116">seleccione el cliente pertinente de la lista.</span><span class="sxs-lookup"><span data-stu-id="6ec60-116">field, select the relevant customer from the list.</span></span>  
+## <a name="to-create-a-service-quote"></a><span data-ttu-id="34c0d-109">Para crear una oferta de servicio</span><span class="sxs-lookup"><span data-stu-id="34c0d-109">To create a service quote</span></span>  
+1. <span data-ttu-id="34c0d-110">Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Ofertas servicio** y luego elija el enlace relacionado.</span><span class="sxs-lookup"><span data-stu-id="34c0d-110">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Quotes**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="34c0d-111">Cree una oferta de servicio nueva.</span><span class="sxs-lookup"><span data-stu-id="34c0d-111">Create a new service quote.</span></span>  
+3. <span data-ttu-id="34c0d-112">En el campo **N.º**,</span><span class="sxs-lookup"><span data-stu-id="34c0d-112">In the **No.**</span></span> <span data-ttu-id="34c0d-113">introduzca un número para la oferta de servicio.</span><span class="sxs-lookup"><span data-stu-id="34c0d-113">field, enter a number for the service quote.</span></span> <span data-ttu-id="34c0d-114">Si ha configurado números de serie para ofertas de servicio en la página **Config. gestión servicio**, también puede presionar Enter para seleccionar el siguiente número de oferta de servicio disponible.</span><span class="sxs-lookup"><span data-stu-id="34c0d-114">Alternatively, if you have set up a number series for service quotes on the **Service Mgt. Setup** page, you can press Enter to select the next available service quote number.</span></span>  
+4. <span data-ttu-id="34c0d-115">En el campo **Nº cliente**,</span><span class="sxs-lookup"><span data-stu-id="34c0d-115">In the **Customer No.**</span></span>  <span data-ttu-id="34c0d-116">seleccione el cliente pertinente de la lista.</span><span class="sxs-lookup"><span data-stu-id="34c0d-116">field, select the relevant customer from the list.</span></span>  
 
   > [!Note]  
-  >  <span data-ttu-id="6ec60-117">Los campos del cliente se rellenan automáticamente con información de la pestaña **Cliente**.</span><span class="sxs-lookup"><span data-stu-id="6ec60-117">The customer fields are filled in automatically with information from the **Customer** card.</span></span> <span data-ttu-id="6ec60-118">Si una pestaña **Cliente** no existe para el cliente y ha configurado una plantilla de cliente, podrá crear el cliente que figura en la oferta del servicio.</span><span class="sxs-lookup"><span data-stu-id="6ec60-118">If a **Customer** card does not exist for the customer, and you have set up a customer template, you can create the customer from the service quote.</span></span> <span data-ttu-id="6ec60-119">Rellene los campos relevantes y, a continuación, seleccione la acción **Crear cliente**.</span><span class="sxs-lookup"><span data-stu-id="6ec60-119">Fill in the relevant fields, and then choose the **Create Customer** action.</span></span>  
+  >  <span data-ttu-id="34c0d-117">Los campos del cliente se rellenan automáticamente con información de la pestaña **Cliente**.</span><span class="sxs-lookup"><span data-stu-id="34c0d-117">The customer fields are filled in automatically with information from the **Customer** card.</span></span> <span data-ttu-id="34c0d-118">Si una pestaña **Cliente** no existe para el cliente y ha configurado una plantilla de cliente, podrá crear el cliente que figura en la oferta del servicio.</span><span class="sxs-lookup"><span data-stu-id="34c0d-118">If a **Customer** card does not exist for the customer, and you have set up a customer template, you can create the customer from the service quote.</span></span> <span data-ttu-id="34c0d-119">Rellene los campos relevantes y, a continuación, seleccione la acción **Crear cliente**.</span><span class="sxs-lookup"><span data-stu-id="34c0d-119">Fill in the relevant fields, and then choose the **Create Customer** action.</span></span>  
   
-5. <span data-ttu-id="6ec60-120">Dependiendo de la configuración de la ficha desplegable **Campos obligatorios** de la página **Configurar gestión servicios**, puede que necesite rellenar el campo **Tipo pedido de servicio** y el campo **Código de vendedor**.</span><span class="sxs-lookup"><span data-stu-id="6ec60-120">Depending on the settings on the **Mandatory Fields** FastTab on the **Service Mgt. Setup** page, you may need to fill in the **Service Order Type** field and the **Salesperson Code** field.</span></span>  
-6. <span data-ttu-id="6ec60-121">Rellene las líneas de producto de servicio.</span><span class="sxs-lookup"><span data-stu-id="6ec60-121">Fill in the service item lines.</span></span>  
-7. <span data-ttu-id="6ec60-122">Registre los costes previstos en las líneas de servicio.</span><span class="sxs-lookup"><span data-stu-id="6ec60-122">Register estimated costs on the service lines.</span></span>  
+5. <span data-ttu-id="34c0d-120">Dependiendo de la configuración de la ficha desplegable **Campos obligatorios** de la página **Configurar gestión servicios**, puede que necesite rellenar el campo **Tipo pedido de servicio** y el campo **Código de vendedor**.</span><span class="sxs-lookup"><span data-stu-id="34c0d-120">Depending on the settings on the **Mandatory Fields** FastTab on the **Service Mgt. Setup** page, you may need to fill in the **Service Order Type** field and the **Salesperson Code** field.</span></span>  
+6. <span data-ttu-id="34c0d-121">Rellene las líneas de producto de servicio.</span><span class="sxs-lookup"><span data-stu-id="34c0d-121">Fill in the service item lines.</span></span>  
+7. <span data-ttu-id="34c0d-122">Registre los costes previstos en las líneas de servicio.</span><span class="sxs-lookup"><span data-stu-id="34c0d-122">Register estimated costs on the service lines.</span></span>  
   
-## <a name="see-also"></a><span data-ttu-id="6ec60-123">Consulte también</span><span class="sxs-lookup"><span data-stu-id="6ec60-123">See Also</span></span>  
-[<span data-ttu-id="6ec60-124">Crear pedidos de servicio</span><span class="sxs-lookup"><span data-stu-id="6ec60-124">Create Service Orders</span></span>](service-how-to-create-service-orders.md)  
-[<span data-ttu-id="6ec60-125">Trabajar en tareas de servicio</span><span class="sxs-lookup"><span data-stu-id="6ec60-125">Work on Service tasks</span></span>](service-how-to-work-on-service-tasks.md)  
+## <a name="see-also"></a><span data-ttu-id="34c0d-123">Consulte también</span><span class="sxs-lookup"><span data-stu-id="34c0d-123">See Also</span></span>  
+[<span data-ttu-id="34c0d-124">Crear pedidos de servicio</span><span class="sxs-lookup"><span data-stu-id="34c0d-124">Create Service Orders</span></span>](service-how-to-create-service-orders.md)  
+[<span data-ttu-id="34c0d-125">Trabajar en tareas de servicio</span><span class="sxs-lookup"><span data-stu-id="34c0d-125">Work on Service tasks</span></span>](service-how-to-work-on-service-tasks.md)  
 
  
