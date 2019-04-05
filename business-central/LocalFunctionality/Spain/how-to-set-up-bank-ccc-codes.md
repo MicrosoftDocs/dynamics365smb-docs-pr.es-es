@@ -1,23 +1,23 @@
 ---
-title: "Configuración de códigos CCC de bancos"
-description: "El Código Cuenta Cliente (CCC) es un código de cuenta único usado por los bancos para identificar a sus clientes. El código CCC se imprime en los documentos bancarios, como cheques y extractos."
+title: Configuración de códigos CCC de bancos
+description: El Código Cuenta Cliente (CCC) es un código de cuenta único usado por los bancos para identificar a sus clientes. El código CCC se imprime en los documentos bancarios, como cheques y extractos.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: d95ed28509bbbb21ebd08ba64f68b7cf65487f0f
-ms.contentlocale: es-es
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827082"
 ---
 # <a name="set-up-bank-ccc-codes"></a>Configurar códigos CCC de bancos
 El Código Cuenta Cliente (CCC) es un código de cuenta único usado por los bancos para identificar a sus clientes. El código CCC se imprime en los documentos bancarios, como cheques y extractos.  
@@ -57,4 +57,3 @@ El siguiente procedimiento describe cómo configurar códigos bancarios CCC para
 
 ## <a name="see-also"></a>Consulte también  
 [Configurar bancos](../../bank-how-setup-bank-accounts.md) 
-

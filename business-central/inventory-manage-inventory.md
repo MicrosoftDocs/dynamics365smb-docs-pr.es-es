@@ -1,7 +1,7 @@
 ---
 title: Administrar el inventario | Documentos de Microsoft
-description: "Describe cómo administrar los productos físicos que comercializa, por ejemplo, manipulación de las existencias en el almacén."
-documentationcenter: 
+description: Describe cómo administrar los productos físicos que comercializa, por ejemplo, manipulación de las existencias en el almacén.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,16 +9,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 10/01/2018
+ms.date: 03/11/2019
 ms.author: sgroespe
+ms.openlocfilehash: dc32b5e210332fe0fd73b6423441cb66a5c171fb
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 1f79c20cb68ff1802bb97914a7ac1e458ca28f3a
-ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852475"
 ---
-
 # <a name="inventory"></a>Grupos contables inventario
 Por cada producto físico que se comercialice, debe crear una ficha de producto del tipo **Inventario**. Los productos que ofrece a los clientes pero que no mantiene en el inventario, puede registrarlos como productos del catálogo, y puede convertirlos a productos de inventario cuando sea necesario. Puede aumentar o reducir la cantidad de un producto en el inventario registrándolo directamente desde los movimientos de producto, por ejemplo, después de un recuento físico o si no registra compras.
 
@@ -45,7 +44,9 @@ Aunque se hayan registrado los costes de inventario automáticamente en el libro
 |Ver la disponibilidad de productos por almacén, por periodo, por evento de venta o de compra, o por su uso en las L.M. de ensamblado o producción.|[Consultar la disponibilidad de los productos](inventory-how-availability-overview.md)|
 |Transferir productos de inventario entre almacenes con pedidos de transferencia, para administrar las actividades de almacén o con el diario de reclasificación de productos.|[Transferir el inventario entre almacenes](inventory-how-transfer-between-locations.md)|
 |Reserve productos de inventario o entrantes para pedidos de venta, pedidos de servicio, pedidos de ensamblado u órdenes de producción.|[Reservar artículos](inventory-how-to-reserve-items.md)|
+|Configure la propia descripción de un proveedor o cliente para un producto, de modo que pueda insertar fácilmente su descripción de producto en los documentos comerciales.|[Usar referencias cruzadas de producto](inventory-how-use-item-cross-refs.md)|
 |Asigne números de serie o números de lote a cualquier documento o línea de diario saliente o entrante, por ejemplo, para el seguimiento de productos en caso de recuperaciones.|[Trabajar con números de lote y de serie](inventory-how-work-item-tracking.md)|
+|Configure la descripción del producto del vendedor o del cliente en su ficha de artículo para que pueda insertar rápidamente la descripción del producto en los documentos comerciales.|[Usar referencias cruzadas de producto](inventory-how-use-item-cross-refs.md)|
 |Encuentre donde se usó un número de serie o de lote en su cadena de suministro, por ejemplo, en situaciones de recuperación.|[Realizar seguimiento de productos seguidos](inventory-how-to-trace-item-tracked-items.md)|
 |Bloquear que un producto entre en líneas de compras y ventas, o que no se registre en ninguna transacción.|[Bloquear productos](inventory-how-block-items.md)|
 |Administre las operaciones comerciales en las oficinas de ventas, en los departamentos de compras o en las oficinas de planificación de plantas en múltiples ubicaciones.|[Trabajar con centros de responsabilidad](inventory-responsibility-centers.md)|
@@ -58,4 +59,3 @@ Aunque se hayan registrado los costes de inventario automáticamente en el libro
 [Funciones empresariales generales](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

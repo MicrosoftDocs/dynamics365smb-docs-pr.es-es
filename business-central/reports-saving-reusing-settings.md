@@ -1,5 +1,5 @@
 ---
-title: "Aplicar y modificar la configuración guardada en los informes | Documentos de Microsoft"
+title: Aplicar y modificar la configuración guardada en los informes | Documentos de Microsoft
 description: Describe las opciones y los filtros predefinidos para personalizar un informe y para generar los datos correctos.
 author: jswymer
 ms.service: dynamics365-business-central
@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: customization, personalization
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: cbbb072c4be3ec41684e426451c394cfa978c390
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 9fd086831c0d145570d87c33c62a003c166aca87
-ms.contentlocale: es-es
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853122"
 ---
 # <a name="managing-saved-settings-on-reports"></a>Administrar configuración guardada en los informes
 Cuando se ejecuta un informe, a los usuarios normalmente se les presenta una página que les permite definir determinados opciones y filtros para cambiar los datos que se incluyen en el informe generado. Esta página se llama página de solicitud de informe. Un informe puede incluir una o varias *opciones de configuración guardadas* que los usuarios pueden aplicar al informe de la página de solicitud. La *configuración guardada* son básicamente opciones y filtros predeterminados. El uso de la configuración guardada es una forma rápida y confiable de generar de forma coherente informes que contienen los datos correctos. Para obtener más información acerca de cómo se utilizan los ajustes guardados, consulte [Uso de la configuración guardada](ui-work-report.md#SavedSettings).
 
 Si tiene los permisos adecuados, puede ver, crear y modificar la configuración guardada de todos los informes para todos los usuarios de la empresa. Puede asignar la configuración guardada de un informe a usuarios individuales o a todos los usuarios de la empresa.
 
-<!-- 
+<!--
 ## Apply saved settings to a report
 1. Open the report.
 
@@ -53,5 +53,4 @@ Desde la página **Configuración del informe**, puede:
 > La característica de configuración guardada solo está disponible en los informes en los que la [propiedad SaveValues](https://docs.microsoft.com/en-us/dynamics-nav/savevalues-property) de la página de solicitud del informe está establecida en `Yes`. La propiedad **SaveValues** se define en el entorno de desarrollo.  
 
 ## <a name="see-also"></a>Consulte también
-[Trabajar con informes](ui-work-report.md)  
-
+[Trabajar con informes y trabajos por lotes](ui-work-report.md)  

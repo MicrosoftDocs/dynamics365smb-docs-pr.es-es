@@ -1,23 +1,23 @@
 ---
-title: "Pagar a los proveedores mediante pagos electrónicos"
-description: "En Business Central, puede pagar a un proveedor mediante pagos electrónicos. Los pagos se exportarán a un archivo, que luego se transferirá al banco. Después, el banco transfiere los pagos de manera electrónica de su cuenta de banco a la cuenta de banco del beneficiario (proveedor)."
+title: Pagar a los proveedores mediante pagos electrónicos
+description: En Business Central, puede pagar a un proveedor mediante pagos electrónicos. Los pagos se exportarán a un archivo, que luego se transferirá al banco. Después, el banco transfiere los pagos de manera electrónica de su cuenta de banco a la cuenta de banco del beneficiario (proveedor).
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 15685220e113d32c3484bf106e8ac3e71a84d739
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d5bbb66898f2467e2cca20a6f52ef8a42d5e18b3
-ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827107"
 ---
 # <a name="pay-vendors-using-electronic-payments"></a>Pagar a los proveedores mediante pagos electrónicos
 En [!INCLUDE[d365fin](../../includes/d365fin_md.md)], puede pagar a un proveedor mediante pagos electrónicos. Los pagos se exportarán a un archivo, que luego se transferirá al banco. Después, el banco transfiere los pagos de manera electrónica de su cuenta de banco a la cuenta de banco del beneficiario (proveedor).  
@@ -37,4 +37,3 @@ Este proceso es parecido al de los cheques automáticos.
 
 ## <a name="see-also"></a>Consulte también  
 [Configurar cuentas bancarias para realizar pagos electrónicos](how-to-set-up-bank-accounts-for-electronic-payments.md)
-

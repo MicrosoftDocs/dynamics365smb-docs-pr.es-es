@@ -1,23 +1,23 @@
 ---
-title: "Registro e impresión de todas las transacciones de un periodo"
-description: "Las empresas deben enviar los movimientos de transacciones de su negocio, agrupados por números de transacción, en un informe anual a la administración fiscal."
+title: Registro e impresión de todas las transacciones de un periodo
+description: Las empresas deben enviar los movimientos de transacciones de su negocio, agrupados por números de transacción, en un informe anual a la administración fiscal.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: f10e01b744fea8dab136c7a3d3c276a3173354a8
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827154"
 ---
 # <a name="post-and-print-all-transactions-for-a-period"></a>Registrar e imprimir todas las transacciones de un periodo
 Las empresas deben enviar los movimientos de transacciones de su negocio, agrupados por números de transacción, en un informe anual a la administración fiscal. Cada transacción de contabilidad debe tener un número secuencial para el ejercicio. Al registrar las transacciones, se asignarán números de transacción a los movimientos de contabilidad.  
@@ -51,4 +51,3 @@ Las empresas deben enviar los movimientos de transacciones de su negocio, agrupa
 
 ## <a name="see-also"></a>Consulte también  
  [Números de transacción](transaction-numbers.md)
-

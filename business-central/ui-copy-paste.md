@@ -1,6 +1,6 @@
 ---
 title: Copiar y pegar datos
-description: "Copie campos y filas de las páginas de Business Central y péguelos en otro lugar."
+description: Copie campos y filas de las páginas de Business Central y péguelos en otro lugar.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,15 +10,14 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: 6f731940714a754275611026749afa4d79a94443
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e924eeb10e98b81035837ca498ec4f1a7b28bf60
-ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853076"
 ---
-
-# <a name="copying-and-pasting-in-included365finincludesd365finmdmd"></a>Copiar y pegar en [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="copying-and-pasting"></a>Copiar y pegar
 Puede copiar una o más filas de una lista o un solo campo en una página y luego pegar lo que ha copiado en la misma página, otra página o un documento externo (como Microsoft Excel y el correo electrónico de Outlook). En resumen, para copiar, presione CTRL+C (cmd+C en macOS) en su teclado. Para pegar, presione CTRL+V (cmd+V en macOS).
 
 Hay otros métodos abreviados de teclado para copiar y pegar que le ayudan a ahorrar tiempo al introducir datos. Para obtener más información, consulte [Métodos abreviados de teclado](keyboard-shortcuts.md#CopyRows).
@@ -72,4 +71,3 @@ Al pegar en [!INCLUDE[d365fin](includes/d365fin_md.md)], se comprueba cada fila 
 [Introducción](product-get-started.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Preguntas más frecuentes](across-faq.md)  
-

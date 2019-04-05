@@ -1,6 +1,6 @@
 ---
 title: Resumen de tareas para configurar Business Central | Documentos de Microsoft
-description: "Describe las tareas para preparar, inicializar y configurar Business Central según sus necesidades."
+description: Describe las tareas para preparar, inicializar y configurar Business Central según sus necesidades.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: configure, initialize
 ms.date: 10/01/2018
 ms.author: edupont
+ms.openlocfilehash: 3085ef58adf25ae7212ac17894fa54e5c2f8794e
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 2c766654faad241f57cd4a99648bb349e4258857
-ms.contentlocale: es-es
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852084"
 ---
 # <a name="setting-up-included365finincludesd365finmdmd"></a>Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] incluye configuraciones estándar de la mayoría de procesos empresariales, pero puede cambiar la configuración para que se adapte a las necesidades de la empresa.
@@ -40,10 +40,20 @@ Alguna funcionalidad, general o de procesos empresariales específicos, se puede
 | Configurar el modo de asegurar, mantener y amortizar activos fijos, y el modo de registrar los costes de los activos fijos en los libros de su empresa. |[Configurar activos fijos](fa-setup.md) |
 |Definir las reglas y los valores generales para los procesos de almacén y la manipulación específica de cada ubicación.|[Configuración de la gestión del almacén](warehouse-setup-warehouse.md)|
 |Preparar las L.M. y las rutas de producción para definir cómo se producen los productos finales y preparar centros de máquina o de trabajo para realizar las operaciones necesarias.|[Configuración de fabricación](production-configure-production-processes.md)|
+|Establezca servicios estándar, síntomas y códigos de errores y configure los elementos de servicio, los recursos y la documentación necesarios para brindar servicio a sus clientes.|[Configurar la gestión de servicios](service-setup-service.md)|
 |Lea las prácticas recomendadas para configurar los artículos para la valoración de existencias y la planificación de suministros.|[Configuración de áreas de aplicación complejas mediante procedimientos recomendados](set-up-complex-application-areas-using-best-practices.md)|
+|Mejore la calidad de la implementación y reduzca el tiempo de implementación mediante el uso de un conjunto de herramientas para configurar una nueva empresa mediante asistentes, plantillas, hojas de trabajo y cuestionarios para clientes.|[Configurar una empresa con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)|
+|Transfiera clientes, proveedores, inventario e información de cuentas bancarias de otro sistema a [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Importar datos de empresa de otros sistemas financieros](across-import-data-configuration-packages.md).|
+|Use los complementos de Outlook de Business Central para ver los datos financieros relativos a los clientes y los proveedores o para crear y enviar documentos financieros, como por ejemplo presupuestos y facturas.|[Usar Business Central como su bandeja de entrada de empresa en Outlook](admin-outlook.md)|
+|Obtenga la información en los datos de Business Central con Power BI y los paquetes de contenido de Business Central.|[Habilitar los datos de negocio para Power BI](admin-powerbi.md)|
+|Utilice los datos de Business Central como parte de un flujo de trabajo en Microsoft Flow.|[Usar Business Central en un flujo de trabajo automatizado](across-how-use-financials-data-source-flow.md)|
+|Convierta los datos de Business Central en disponibles como origen de datos en PowerApps.|[Cómo conectarse a sus datos de Business Central para crear una aplicación empresarial con PowerApps](across-how-use-financials-data-source-powerapps.md)|
+|Utilice las guías de migración dedicadas de Quickbooks.|[Cambiar de una aplicación de QuickBooks a Business Central](across-quickbooks-to-business-edition.md)|
+|Acceda a los datos de Business Central desde su dispositivo móvil.|[Obtener Business Central en el dispositivo móvil](install-mobile-app.md)|
+|Haga la facturación masiva de citas creadas en Reservas.|[Facturación masiva para Microsoft Bookings](finance-bookings.md)|
 |Configure un servidor SMTP para habilitar la comunicación de correo electrónico dentro y fuera de [!INCLUDE[d365fin](includes/d365fin_md.md)].| [Configurar el correo electrónico manualmente o con la configuración asistida](admin-how-setup-email.md)|
-| Configure códigos de identificación únicos para registros, como fichas, documentos y líneas de diario, para realizar su seguimiento en el sistema. |[Crear serie numérica](ui-create-number-series.md) |
-|Configurar y asignar un calendario base a su empresa y a sus socios comerciales, como clientes, proveedores o almacenes. Se calculan las fechas de entrega y de recepción de futuros pedidos de venta, pedidos de compra, pedidos de transferencia y líneas de órdenes de producción según los días laborables especificados en el calendario.|[Configuración de calendarios base](across-how-to-assign-base-calendars.md)|  
+| Configure códigos de identificación únicos para registros, como fichas, documentos y líneas de diario, para realizar su seguimiento en el sistema. |[Crear numeración](ui-create-number-series.md) |
+|Configurar y asignar un calendario base a su empresa y a sus socios comerciales, como clientes, proveedores o almacenes. Se calculan las fechas de entrega y de recepción de futuros pedidos de venta, pedidos de compra, pedidos de transferencia y líneas de órdenes de producción según los días laborables especificados en el calendario.|[Configurar calendarios base](across-how-to-assign-base-calendars.md)|  
 
 Algunas regiones requieren que sea el administrador en su suscripción [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, consulte [Administración](admin-setup-and-administration.md).  
 
@@ -64,5 +74,3 @@ Algunas regiones requieren que sea el administrador en su suscripción [!INCLUDE
 [Introducción](product-get-started.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
-

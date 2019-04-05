@@ -1,8 +1,8 @@
 ---
-title: "Administración financiera | Documentos de Microsoft"
-description: "Obtenga información sobre las tareas para configurar las finanzas en su empresa para adaptarse a todas sus necesidades de contabilidad o auditoría."
+title: Administración financiera | Documentos de Microsoft
+description: Obtenga información sobre las tareas para configurar las finanzas en su empresa para adaptarse a todas sus necesidades de contabilidad o auditoría.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 10/01/2018
+ms.date: 03/11/2019
 ms.author: edupont
+ms.openlocfilehash: d095e710d33882cc39772c35a495b39e08e0c729
+ms.sourcegitcommit: 2b2c3b488a610a5d3b51fc8218c40b0b732fddf3
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: e4cda1f4770117065d1650a0c51dbd46fdf8baac
-ms.contentlocale: es-es
-ms.lasthandoff: 05/17/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "832533"
 ---
 # <a name="finance"></a>Finanzas
 [!INCLUDE[d365fin](includes/d365fin_md.md)] incluye una configuración estándar de muchos procesos financieros, pero puede cambiar la configuración para que se adapte a su empresa. Para obtener más información, consulte [Configurar finanzas](finance-setup-finance.md).
@@ -33,7 +33,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Haga que sus clientes envíen el pago antes de usted, o envíe el pago a sus proveedores antes de ellos.|[Facturación de prepagos](finance-invoice-prepayments.md)|
 | Concilie cuentas bancarias y transfiera fondos entre cuentas bancarias. |[Administrar cuentas bancarias](bank-manage-bank-accounts.md) |
 |Configurar los socios de empresas vinculadas y procesar transacciones, manual o automáticamente, entre las entidades jurídicas dentro de la misma empresa.|[Gestión de transacciones entre empresas vinculadas](intercompany-manage.md)|
-|Combina movimientos de contabilidad de varias empresas en una "empresa consolidada" virtual para el análisis financiero.|[Consolidar los datos financieros de varias empresas](finance-consolidated-company-reporting.md)|
+|Combine movimientos de contabilidad de varias empresas en una empresa consolidada virtual para el análisis financiero.|[Consolidar los datos financieros de varias empresas](finance-consolidated-company-reporting.md)|
 |Analice los costes de administrar su empresa asignando costes reales y presupuestados de operaciones, departamentos, productos y proyectos a los centros de costes.|[Contabilidad para costes](finance-manage-cost-accounting.md)|
 |Administrar variaciones de existencias y costes de fabricación, crear informes de costes y conciliar costes con la contabilidad.|[Gestión de costes de inventario](finance-manage-inventory-costs.md)|
 | Obtenga información sobre el libro mayor y el plan de cuentas. |[Descripción de contabilidad y plan de cuentas](finance-general-ledger.md) |
@@ -58,10 +58,8 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 [Compras](purchasing-manage-purchasing.md)  
 [Cerrar periodos fiscales](year-close-years-periods.md)  
 [Administrar proyectos](projects-manage-projects.md)    
-[Importar datos de otros sistemas financieros](across-import-data-configuration-packages.md)(across-import-data-configuration-packages.md)  
+[Importar datos de otros sistemas financieros](across-import-data-configuration-packages.md)  
 [Trabajar con diarios generales](ui-work-general-journals.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
-

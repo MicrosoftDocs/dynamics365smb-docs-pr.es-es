@@ -1,8 +1,8 @@
 ---
-title: "Personalización de páginas | Documentos de Microsoft"
+title: Personalización de páginas | Documentos de Microsoft
 description: Aprenda a personalizar la interfaz de usuario para que se adapte a su forma de trabajar.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,15 +12,16 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: 65bd6d24395990d2b92b7eeea0c7b208f7311eef
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: df4c40e38b3f7784f9f7603cddbfd9ac8681d952
-ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852314"
 ---
 # <a name="personalizing-your-workspace"></a>Personalización de su área de trabajo
-<!--NAV in the Web client--> Puede *personalizar* el área de trabajo para que se adapte a su trabajo y preferencias cambiando las páginas de modo que muestren únicamente la información que necesite y donde la necesite. Los cambios de personalización que realice solo afectarán a su visualización y no a la de otros usuarios.
+<!--NAV in the Web client-->
+Puede *personalizar* el área de trabajo para que se adapte a su trabajo y preferencias cambiando las páginas de modo que muestren únicamente la información que necesite y donde la necesite. Los cambios de personalización que realice solo afectarán a su visualización y no a la de otros usuarios.
 
 Según el tipo de página y lo que incluye, puede:
 
@@ -29,7 +30,10 @@ Según el tipo de página y lo que incluye, puede:
 -   Cambiar la inmovilización de panel de las columnas de una lista. La inmovilización de panel bloquea una o más columnas en el lado izquierdo de una lista para que estén siempre presentes, incluso cuando se desplaza horizontalmente.
 -   Ajuste el ancho de columnas de una lista.
 -   Mover y eliminar pilas (iconos).
--   Mover y eliminar piezas. Las piezas son subdivisiones o áreas en una página que contienen elementos como múltiples campos, otra página, un gráfico o iconos.  
+-   Mover y eliminar piezas. Las piezas son subdivisiones o áreas en una página que contienen elementos como múltiples campos, otra página, un gráfico o iconos.
+
+> [!NOTE]
+> Además de lo que los usuarios pueden personalizar, los administradores y los súper usuarios pueden anular las personalizaciones de los usuarios y definir qué funciones están disponibles en todas las empresas o en las empresas específicas. Para obtener más información, consulte [Personalizar Business Central](ui-customizing-overview.md). 
 
 ## <a name="to-personalize-a-page"></a>Para personalizar una página
 
@@ -79,4 +83,3 @@ Para ayudarle a comprender mejor la personalización, le presentamos algunos con
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Cambiar la configuración básica](ui-change-basic-settings.md)  
 [Cambiar las funciones que se muestran](ui-experiences.md)  
-

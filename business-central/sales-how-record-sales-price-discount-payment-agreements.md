@@ -1,6 +1,6 @@
 ---
 title: Configurar precios y descuentos de venta especiales para clientes | Documentos de Microsoft
-description: "Describe cómo definir los acuerdos de precios y descuentos alternativos que desea aplicar a los documentos de venta al vender a distintos clientes."
+description: Describe cómo definir los acuerdos de precios y descuentos alternativos que desea aplicar a los documentos de venta al vender a distintos clientes.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
 ms.date: 11/28/2018
 ms.author: sgroespe
+ms.openlocfilehash: 7a0034bfbbd62ccf3278febea0ad9d083d7482bc
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
-ms.openlocfilehash: b0af8e6d6dd477ebabbfc1fa05e8d57378eee226
-ms.contentlocale: es-es
-ms.lasthandoff: 11/29/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853217"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Registrar precios y descuentos de ventas especiales
 Es necesario definir los acuerdos de precios y descuentos que se aplican al vender a distintos clientes de modo que se apliquen las reglas y valores acordados a los documentos de venta que cree para los clientes.
 
-Cuando haya registrado precios especiales y los descuentos de línea para ventas y compras, [!INCLUDE[d365fin](includes/d365fin_md.md)] garantiza que el beneficio en operaciones comerciales de producto siempre son óptimos calculando automáticamente el mejor precio en los documentos de ventas y compras, y en líneas del diario de proyectos y recursos. Para obtener más información, consulte la sección "Cálculo del mejor precio".
+Cuando haya registrado precios especiales y los descuentos de línea para ventas y compras, [!INCLUDE[d365fin](includes/d365fin_md.md)] garantiza que el beneficio en operaciones comerciales de producto siempre son óptimos calculando automáticamente el mejor precio en los documentos de ventas y compras, y en líneas del diario de proyectos y recursos. Para obtener más información, vea [Cálculo del mejor precio](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
 Respecto a los precios, puede tener una precio especial de venta insertado en las líneas de venta si existe una cierta combinación de cliente, producto, cantidad mínima, unidad de medida o fecha de inicio o de fin.
 
@@ -144,4 +144,3 @@ Si desea actualizar de forma masiva los precios de los artículos, como aumentar
 [Configuración de ventas](sales-setup-sales.md)  
 [Ventas](sales-manage-sales.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

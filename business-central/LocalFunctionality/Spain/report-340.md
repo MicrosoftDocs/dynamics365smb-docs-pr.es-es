@@ -1,23 +1,23 @@
 ---
 title: Informe 340
-description: "El Informe 340 contiene información sobre facturas e impuestos emitidos o recibidos por su empresa en un período determinado. El informe se genera en un formato que ha aprobado la administración fiscal."
+description: El Informe 340 contiene información sobre facturas e impuestos emitidos o recibidos por su empresa en un período determinado. El informe se genera en un formato que ha aprobado la administración fiscal.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 76321fad20fdea36eb30a972471c29be43218e22
-ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827117"
 ---
 # <a name="report-340"></a>Informe 340
 El **Informe 340** contiene información sobre facturas e impuestos emitidos o recibidos por su empresa en un período determinado. El informe se genera en un formato que ha aprobado la administración fiscal. Este informe debe enviarse en el período de liquidación mensual o trimestral de la empresa, según el tamaño de la empresa. Este archivo puede cargarse en el sitio web de la Agencia Tributaria o enviarse en CD-ROM. Para obtener más información, consulte el sitio web de la [Agencia Tributaria](https://www.aeat.es). Si el número de operaciones es mayor a 1 000 000 el informe se puede enviar electrónicamente.  
@@ -94,4 +94,3 @@ Antes de crear el informe **Informe 340**, debe tener en cuenta las siguientes r
  [Crear el informe 340](how-to-create-report-340.md)   
  [Pagos en efectivo](payments-in-cash.md)   
  [Funcionalidad local para España](spain-local-functionality.md)
-

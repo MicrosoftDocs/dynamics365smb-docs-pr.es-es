@@ -1,23 +1,23 @@
 ---
-title: "Introducción de códigos CCC"
-description: "El Código Cuenta Cliente (CCC) es un código de identificación de cuentas bancarias único. Los siguientes campos de componentes componen la estructura de código CCC de 20 dígitos (España) o 21 dígitos (Portugal)."
+title: Introducción de códigos CCC
+description: El Código Cuenta Cliente (CCC) es un código de identificación de cuentas bancarias único. Los siguientes campos de componentes componen la estructura de código CCC de 20 dígitos (España) o 21 dígitos (Portugal).
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 2d6f610d6ee6a42d4061233ff58c147cf07e6c19
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8701d602ef07f5336f3f91c68e55944ad1830751
-ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827125"
 ---
 # <a name="enter-ccc-codes"></a>Introducir códigos CCC
 El Código Cuenta Cliente (CCC) es un código de identificación de cuentas bancarias único. Los siguientes campos de componentes componen la estructura de código CCC de 20 dígitos (España) o 21 dígitos (Portugal).  
@@ -38,4 +38,3 @@ Si modifica la estructura del código CCC, el campo **Nº CCC** se actualiza aut
 
 ## <a name="see-also"></a>Consulte también  
 [Funcionalidad local para España](spain-local-functionality.md)
-

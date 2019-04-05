@@ -1,6 +1,6 @@
 ---
 title: Acerca de las acciones de Buscar y Filtrar en Business Central
-description: "Respuestas a las preguntas más frecuentes sobre las acciones de Buscar y Filtrar."
+description: Respuestas a las preguntas más frecuentes sobre las acciones de Buscar y Filtrar.
 author: mikebcMSFT
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,15 +10,14 @@ ms.workload: na
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
 ms.date: 10/01/2018
 ms.author: mikebc
+ms.openlocfilehash: a4bcdca8ecff80d8d47bf9c198cd69a71f09cd2a
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 5d6d2d9527e81a92987f6b8fcdbe8e087c3c537a
-ms.openlocfilehash: 099a2a800cb71e7a0b8dd02901928b43dfa199ca
-ms.contentlocale: es-es
-ms.lasthandoff: 01/22/2019
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852061"
 ---
-
-# <a name="about-searching-and-filtering-in-included365finincludesd365finmdmd"></a>Acerca de las opciones de Buscar y Filtrar en [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="searching-and-filtering-faq"></a>Búsqueda y filtrado de preguntas frecuentes
 Este artículo responde a preguntas comunes que puede tener acerca de las acciones buscar y filtrar.
 
 ## <a name="is-there-a-difference-between-searching-and-filtering"></a>¿Hay alguna diferencia entre buscar y filtrar?
@@ -30,7 +29,7 @@ Sí.
 Las acciones de buscar y filtrar se han optimizado para los usuarios que prefieren la interacción sin mouse para trabajar de manera eficiente con sus datos. Hay varias teclas de método abreviado que se pueden usar en secuencia para trabajar a alta velocidad. Para obtener más información, consulte [Métodos abreviados de teclado](keyboard-shortcuts.md#KeyboardFilter).
 
 ## <a name="is-the-filter-pane-available-on-all-lists"></a>¿El panel de filtros está disponible en todas las listas?
-El panel de filtros está disponible en las páginas donde la lista es el contenido principal de la página, como hojas de cálculo y páginas de lista, incluidas las listas accesibles desde la barra de navegación. El panel de filtro aún no está disponible para listas integradas, como líneas de venta en pedidos de ventas o para listas con columnas dinámicas (a menudo denominadas páginas de matriz). 
+El panel de filtros está disponible en las páginas donde la lista es el contenido principal de la página, como hojas de cálculo y páginas de lista, incluidas las listas accesibles desde la barra de navegación. El panel de filtro aún no está disponible para listas integradas, como líneas de venta en pedidos de ventas o para listas con columnas dinámicas (a menudo denominadas páginas de matriz).
 
 ## <a name="how-can-i-save-my-filters"></a>¿Cómo puedo guardar mis filtros?
 
@@ -57,4 +56,3 @@ Como administrador local, aumente el límite de tiempo en las búsquedas mediant
 ## <a name="see-also"></a>Consulte también .
 [Introducción](product-get-started.md)  
 [Ordenar, buscar y filtrar en listas](ui-enter-criteria-filters.md)
-

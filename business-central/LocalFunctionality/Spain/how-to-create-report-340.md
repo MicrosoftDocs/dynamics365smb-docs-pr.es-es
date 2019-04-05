@@ -1,23 +1,23 @@
 ---
-title: "Creación del informe 340"
-description: "El Informe 340 incluye todas las facturas de compras y ventas que registra una empresa durante un periodo determinado. El informe también incluye los códigos de operación con impuestos y pagos en efectivo relacionados."
+title: Creación del informe 340
+description: El Informe 340 incluye todas las facturas de compras y ventas que registra una empresa durante un periodo determinado. El informe también incluye los códigos de operación con impuestos y pagos en efectivo relacionados.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 461c8e446ed9f649395a898b9f4376c2a52586bd
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827086"
 ---
 # <a name="create-report-340"></a>Crear el informe 340
 El Informe 340 incluye todas las facturas de compras y ventas que registra una empresa durante un periodo determinado. El informe también incluye los códigos de operación con impuestos y pagos en efectivo relacionados.  
@@ -62,4 +62,3 @@ Si imprime el documento registrado, por ejemplo, una factura de venta registrada
  [Informe 340](report-340.md)   
  [Pagos en efectivo](payments-in-cash.md)   
  [Agencia Tributaria](https://www.agenciatributaria.es/AEAT.internet/en_gb/Inicio.shtml)
-

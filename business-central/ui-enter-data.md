@@ -1,23 +1,22 @@
 ---
-title: "Cómo introducir datis eb campos | Documentos de Microsoft"
-description: "Hay varias funciones generales que le pueden ayudar a introducir datos de manera rápida y fácil. Las funciones generales para la introducción de datos se describen en este tema."
+title: Cómo introducir datis eb campos | Documentos de Microsoft
+description: Hay varias funciones generales que le pueden ayudar a introducir datos de manera rápida y fácil. Las funciones generales para la introducción de datos se describen en este tema.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: f1bd2fb92f787d52c5bbab8c2210b9d424c1ffd5
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 4354e28522d359cf9fa6178c4a1919831dcc52db
-ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852498"
 ---
-
 # <a name="entering-data"></a>Introducción de datos
 Hay varias funciones generales que le pueden ayudar a introducir datos de manera rápida y fácil. Las funciones generales para la introducción de datos se describen en este artículo.  
 
@@ -146,9 +145,9 @@ Puede especificar fechas y horas en todos los campos diseñados específicamente
 |1112 12|11-12-año actual 12:00:00|  
 |h u hoy|fecha de hoy 00:00:00|  
 |h hora|fecha de hoy hora real|  
-|h 10:30|fecha de hoy 10:30:00|  
+|t 10:30|fecha de hoy 10:30:00|  
 |h 3:3:3|fecha de hoy 03:03:03|  
-|t o fecha de trabajo|la fecha de trabajo 00:00:00|  
+|l o fecha de trabajo|la fecha de trabajo 00:00:00|  
 |l o lunes|Lunes de la semana actual 00:00:00|  
 |ma o martes|Martes de la semana actual 00:00:00|  
 |mi o miércoles|Miércoles de la semana actual 00:00:00|  
@@ -258,6 +257,5 @@ Puede especificar fechas y horas en todos los campos diseñados específicamente
 <!--OnPrem > [!CAUTION]  
 >  If the location uses a base calendar, then the date formula that you enter in, for example, the **Shipping Time** field is interpreted according to the calendar working days. For example, a 1W means seven working days. For more information, see Base Calendar Card.-->  
 ## <a name="see-also"></a>Consulte también  
- [Buscar, filtrar y ordenar datos](ui-enter-criteria-filters.md)  
+ [Ordenar, buscar y filtrar listas](ui-enter-criteria-filters.md)  
  [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

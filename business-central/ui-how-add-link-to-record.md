@@ -1,23 +1,23 @@
 ---
-title: "Proceso para vincular desde registros hacia programas o información externa | Documentos de Microsoft"
-description: "Adjuntar un hipervínculo a un documento o un sitio Web a un registro específico, como un documento de cliente."
+title: Proceso para vincular desde registros hacia programas o información externa | Documentos de Microsoft
+description: Adjuntar un hipervínculo a un documento o un sitio Web a un registro específico, como un documento de cliente.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: 3fbd9fa2e68ab84c7abb82bdef42b10e9e2cc93e
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 8927d2ca670b3faa38cd03ea10ae524e595721ad
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853309"
 ---
-# <a name="adding-links-to-websites-documents-or-programs-on-records"></a>Agregar vínculos a páginas Web, documentos o programas en registros
+# <a name="add-links-to-websites-documents-or-programs-on-records"></a>Añadir vínculos a páginas Web, documentos o programas en registros
 En un registro específico, como un cliente, documento, o pedido de venta, puede agregar un vínculo a un documento externo, una página Web, o programa. O bien, es posible que desee un vínculo que abra un nuevo mensaje de correo electrónico en blanco a un destinatario específico cuando lo seleccione. La página de fichas para algunos registros, como las fichas de cliente y proveedor, incluyen un campo **Página de inicio**, donde puede especificar una dirección de internet (URL). Para incluir otros en vínculos, puede utilizar el método que se describe en este artículo.
 
 Otro ejemplo podría ser cuando recibe facturas impresas de proveedores. Puede buscarlos y almacenarlos como archivos de .pdf en un sitio Web de SharePoint. A continuación, puede establecer un vínculo desde una factura de compra en [!INCLUDE[d365fin_md](includes/d365fin_md.md)] a la factura correspondiente en SharePoint. o bien cree un vínculo de una ficha de producto a la página correspondiente del catálogo en línea del proveedor.
@@ -45,7 +45,7 @@ Otro ejemplo podría ser cuando recibe facturas impresas de proveedores. Puede b
 
 Para eliminar un vínculo, en la página **Vínculos** , puede seleccionar **…** y después **Eliminar**.
 
-Si elimina un único registro, por ejemplo, una línea de pedido de venta, un pedido de venta o un cliente, se eliminarán todos los vínculos asociados al registro. Sin embargo, si borra los registros utilizando un trabajo por lotes, como el trabajo por lotes **Eliminar pedidos de ventas facturados**, los vínculos se siguen guardando en la base de datos. Para eliminarlos de la base de datos, ejecute el módulo **Eliminar vínculos reg. huérfanos**. Para ello, elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Eliminar vínculos reg. huérfanos** y luego elija el enlace relacionado.   
+Si elimina un único registro, por ejemplo, una línea de pedido de venta, un pedido de venta o un cliente, se eliminarán todos los vínculos asociados al registro. Sin embargo, si borra los registros utilizando un trabajo por lotes, como el trabajo por lotes **Eliminar pedidos de ventas facturados**, los vínculos se siguen guardando en la base de datos. Para eliminarlos de la base de datos, ejecute la codeunit **Eliminar vínculos reg. huérfanos**. Para ello, elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Eliminar vínculos reg. huérfanos** y luego elija el enlace relacionado.   
 
 <!-- ### To run delete orphaned record links  
 
@@ -55,4 +55,3 @@ Si elimina un único registro, por ejemplo, una línea de pedido de venta, un pe
 
 ## <a name="see-also"></a>Consulte también  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

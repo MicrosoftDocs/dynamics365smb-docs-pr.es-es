@@ -1,23 +1,23 @@
 ---
-title: "Configuración y asiento de la regularización"
-description: "Puede utilizar cuentas de regularización para saldar y realizar el seguimiento de varias cuentas al mismo tiempo."
+title: Configuración y asiento de la regularización
+description: Puede utilizar cuentas de regularización para saldar y realizar el seguimiento de varias cuentas al mismo tiempo.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 55c274c942816de432b98f37614f686bfcbebcc3
-ms.contentlocale: es-es
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827093"
 ---
 # <a name="set-up-and-close-income-statement-balances"></a>Configuración y asiento de la regularización
 Puede utilizar cuentas de regularización para saldar y realizar el seguimiento de varias cuentas al mismo tiempo. El proceso **Asiento regularización** transfiere las cuentas de regularización a una cuenta del balance y las cierra. Cuando se ejecuta el proceso **Asiento regularización**, los movimientos se registran automáticamente.  
@@ -63,4 +63,3 @@ Puede utilizar cuentas de regularización para saldar y realizar el seguimiento 
 
 ## <a name="see-also"></a>Consulte también  
  [Funcionalidad local para España](spain-local-functionality.md)
-

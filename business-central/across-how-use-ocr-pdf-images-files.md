@@ -1,7 +1,7 @@
 ---
-title: "Usar OCR para convertir PDF en facturas electrónicas | Documentos de Microsoft"
-description: "Describe cómo puede utilizar un servicio de OCR para convertir los archivos PDF de entrada o de imagen en documentos electrónicos."
-documentationcenter: 
+title: Usar OCR para convertir PDF en facturas electrónicas | Documentos de Microsoft
+description: Describe cómo puede utilizar un servicio de OCR para convertir los archivos PDF de entrada o de imagen en documentos electrónicos.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 10/01/2018
+ms.date: 03/12/2019
 ms.author: sgroespe
+ms.openlocfilehash: d7d8d3d89eb72aed3bcd86e51a025c19ce55a116
+ms.sourcegitcommit: 3291f0d92c1f2af3bbbefb90d53af4db72fe1a93
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 7d74ae2b6ce94d1aa0e30a3234436a940aaa6219
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "836117"
 ---
 # <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Utilizar el servicio OCR para convertir archivos PDF y de imagen en documentos electrónicos
 A partir de archivos PDF o de imagen que reciba desde sus socios comerciales podrá hacer que un servicio externo de OCR (reconocimiento óptico de caracteres) genere documentos electrónicos que se podrán convertir a registros de documentos en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Por ejemplo, cuando recibes una factura de un proveedor en formato PDF, la puedes enviar al servicio de OCR desde la página **Documentos entrantes**. Esto se describe en el primer procedimiento.
@@ -25,7 +25,7 @@ Como alternativa al envío del archivo desde la página **Documentos entrantes**
 
 Después de algunos segundos, recibirá de vuelta el archivo desde el servicio OCR como una factura electrónica que se podrá convertir a una factura de compra para el proveedor. Esto se describe en el tercer procedimiento.
 
-Como el OCR se basa en el reconocimiento óptico, es probable que el servicio de OCR interprete de forma incorrecta algunos caracteres del PDF o de los archivos de imagen la primera vez que procese documentos de un determinado proveedor, por ejemplo. Puede que no interprete el logotipo de la compañía como el nombre del proveedor o que pueda malinterpretar la cantidad total de un recibo debido a su diseño. Para evitar estos errores en el futuro, puede corregirlos en una versión separada de la página **Documentos entrantes**. A continuación, debe enviar las correcciones al servicio OCR para entrenarle para que interprete los caracteres específicos correctamente la próxima vez que procese un documento PDF o de imagen para el mismo proveedor. Para obtener más información, consulte la sección "Para preparar el servicio OCR para evitar errores".
+Como el OCR se basa en el reconocimiento óptico, es probable que el servicio de OCR interprete de forma incorrecta algunos caracteres del PDF o de los archivos de imagen la primera vez que procese documentos de un determinado proveedor, por ejemplo. Puede que no interprete el logotipo de la compañía como el nombre del proveedor o que pueda malinterpretar la cantidad total de un recibo debido a su diseño. Para evitar estos errores en el futuro, puede corregirlos en una versión separada de la página **Documentos entrantes**. A continuación, debe enviar las correcciones al servicio OCR para entrenarle para que interprete los caracteres específicos correctamente la próxima vez que procese un documento PDF o de imagen para el mismo proveedor. Para obtener más información, consulte [Para formar del servicio OCR para evitar errores](across-how-use-ocr-pdf-images-files.md#to-train-the-ocr-service-to-avoid-errors).
 
 El tráfico de los archivos hacia y desde el servicio OCR se procesa a través de un movimiento de la cola de proyectos dedicado, que se crea automáticamente cuando se activa la conexión del servicio relacionado. Para obtener más información, vea [Configurar documentos entrantes](across-how-setup-income-documents.md).
 
@@ -45,7 +45,7 @@ Desde su aplicación de correo electrónico, puede enviar un correo electrónico
 Puesto que no existe ningún registro de documento entrante para el archivo, se creará automáticamente un nuevo registro en la página **Documentos entrantes** cuando reciba el documento electrónico resultante desde el servicio OCR. Para obtener más información, vea [Crear registros de documentos entrantes](across-how-create-income-document-records.md).
 
 > [!NOTE]  
->   Si trabaja con una tableta o un teléfono, puede enviar el archivo al servicio OCR en cuanto haya tomado una foto del documento o puede crear un documento entrante directamente. Para obtener más información, vea la sección "Para crear documentos entrantes a partir de una fotografía" en [Crear registro de documentos entrantes](across-how-create-income-document-records.md).
+>   Si trabaja con una tableta o un teléfono, puede enviar el archivo al servicio OCR en cuanto haya tomado una foto del documento o puede crear un documento entrante directamente. Para obtener más información, vea [Para crear registros de documento entrante tomando una foto](across-how-create-income-document-records.md#to-create-an-incoming-document-record-by-taking-a-photo).
 
 ## <a name="to-receive-the-resulting-electronic-document-from-the-ocr-service"></a>Para recibir el documento electrónico resultante desde el servicio de OCR.
 El documento electrónico que se crea por el servicio de OCR desde un archivo PDF o de imagen, se recibe automáticamente en la página **Documentos entrantes** por el movimiento de cola de proyectos que se configura cuando activa el servicio de OCR.
@@ -56,7 +56,7 @@ Si no utiliza una cola de proyectos o desea recibir el documento final de OCR m�
 >   Si el servicio de OCR está configurado para requerir la verificación manual de los documentos procesados, el campo **Estado OCR** contendrá **Esperando verificación**. En ese caso, ejecute los pasos siguientes para iniciar sesión en el sitio web del servicio de OCR para comprobar manualmente un documento de OCR.
 
 1. En el campo **Estado OCR**, seleccione el hipervínculo **Esperando verificación**.
-2. En el sitio web del servicio de OCR, inicie sesión con las credenciales de su cuenta de OCR. Estas son las credenciales que también usó al configurar el servicio. Para obtener más información, vea la sección "Configurar un servicio de OCR" en [Configurar documentos entrantes](across-how-setup-income-documents.md).
+2. En el sitio web del servicio de OCR, inicie sesión con las credenciales de su cuenta de OCR. Estas son las credenciales que también usó al configurar el servicio. Para obtener más información, vea [Para configurar un servicio OCR](across-how-setup-income-documents.md#to-set-up-an-ocr-service).
 
     La información del documento de OCR muestra tanto el contenido original del archivo PDF o de imagen como los valores del archivo de OCR resultantes.
 3. Revise los distintos valores de campo y edite o introduzca valores manualmente en los campos donde el servicio de OCR se ha marcado como no seguro.
@@ -69,15 +69,13 @@ Ahora puede empezar a crear los documentos de registro para los documentos elect
 El procedimiento siguiente describe cómo crear un registro de la factura de compra desde una factura recibida de un proveedor como un documento electrónico del servicio OCR. El procedimiento es el mismo que cuando crea, por ejemplo, una línea de diario general desde un recibo de gastos o un pedido de devolución de ventas desde un cliente.
 
 > [!NOTE]  
->   Los campos **Descripción** y **N.°** de las líneas creadas del documento se completarán solo si primero ha asignado el texto encontrado en el documento de OCR a los campos de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Puede realizar esta asignándolas como las referencias cruzadas de producto, para las líneas de documentos del tipo Producto. También puede utilizar la función de asignación de texto a cuenta. Para obtener más información, consulte la sección "Asignar texto en un documento entrante a un proveedor específico, C/G o cuenta bancaria".
-
-Para asignar los números de producto del documento a las descripciones de los productos del proveedor, abra la ficha de cada producto y, a continuación, elija la acción **Referencias cruzadas** para configurar las referencias cruzadas entre su descripción de los artículos y la del vendedor. Para obtener más información, consulte la información de herramienta para las acciones **Referencias cruzadas** en las fichas de producto.
+>   Los campos **Descripción** y **N.°** de las líneas creadas del documento se completarán solo si primero ha asignado el texto encontrado en el documento de OCR a los campos de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Puede realizar esta asignándolas como las referencias cruzadas de producto, para las líneas de documentos del tipo Producto. Para obtener más información, vea [Usar referencias cruzadas de producto](inventory-how-use-item-cross-refs.md). También puede utilizar la función de asignación de texto a cuenta. Para obtener más información, consulte [Asignar texto en un documento entrante a un proveedor específico, C/G o cuenta bancaria](across-how-use-ocr-pdf-images-files.md#to-map-text-on-an-incoming-document-to-a-specific-vendor-account).
 
 1. Seleccione la línea del documento entrante y, a continuación, seleccione la acción **Crear documento**.
 
 Una factura de compra se creará en [!INCLUDE[d365fin](includes/d365fin_md.md)] según la información del documento electrónico del proveedor que recibió del servicio OCR. La información se insertará en la nueva factura de compra en función de la asignación que haya definido como una referencia cruzada o como asignación de texto a cuenta.
 
-Los errores de validación, normalmente relacionados con datos maestros incorrectos o no presentes en [!INCLUDE[d365fin](includes/d365fin_md.md)], se mostrarán en la ficha desplegable **Errores y advertencias**. Para obtener más información, consulte la sección "Para gestionar errores al recibir documentos electrónicos".
+Los errores de validación, normalmente relacionados con datos maestros incorrectos o no presentes en [!INCLUDE[d365fin](includes/d365fin_md.md)], se mostrarán en la ficha desplegable **Errores y advertencias**. Para obtener más información, consulte [Para gestionar errores al recibir documentos electrónicos](across-how-use-ocr-pdf-images-files.md#to-handle-errors-when-receiving-electronic-documents).
 
 ### <a name="to-map-text-on-an-incoming-document-to-a-specific-vendor-account"></a>Para asignar texto en un documento entrante a una cuenta de proveedor específica
 Para los documentos entrantes, normalmente usa la acción **Asignar texto a cuenta** para indicar que un determinado texto en una factura de proveedor recibida desde el servicio de OCR se ha asignado a una cuenta de un proveedor determinado. Si va más adelante, cualquier parte de la descripción de un documento entrante que existe como texto asignado implica que el campo **N.º** resultante de las líneas de documento o diario del tipo Cuenta de contabilidad se han rellenado con el proveedor en cuestión.
@@ -124,4 +122,3 @@ Los campos de la ficha desplegable **Información financiera** en la página **D
 [Documentos entrantes](across-income-documents.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

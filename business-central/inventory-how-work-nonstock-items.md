@@ -1,7 +1,7 @@
 ---
-title: "Crear y administrar los productos del catálogo | Documentos de Microsoft"
-description: "Describe cómo comerciar con artículos que están en la lista de artículos de proveedores pero no en su propia lista de artículos."
-documentationcenter: 
+title: Crear y administrar los productos del catálogo | Documentos de Microsoft
+description: Describe cómo comerciar con artículos que están en la lista de artículos de proveedores pero no en su propia lista de artículos.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: non-inventoriable
-ms.date: 10/01/2018
+ms.date: 03/12/2019
 ms.author: sgroespe
+ms.openlocfilehash: 780aabb1bcd37cfd912f84da7b956a146a918eef
+ms.sourcegitcommit: 3291f0d92c1f2af3bbbefb90d53af4db72fe1a93
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: c65d498fb63668a6cd83f61303ae99c54d0a2452
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "836140"
 ---
 # <a name="work-with-catalog-items"></a>Trabajar con productos del catálogo
 Puede ofrecer varios productos a sus clientes para su comodidad que no desea gestionar en su sistema hasta que empiece a venderlos. Cuando desee empezar a gestionar esos productos en su sistema, puede convertirlos en fichas de productos normales de dos formas.
@@ -66,11 +66,10 @@ Se ha creado una plantilla y una nueva ficha de producto con la información del
 Si es necesario, podrá rellenar o editar los campos en la nueva ficha de producto. Para obtener más información, vea [Registrar nuevos productos](inventory-how-register-new-items.md).
 
 > [!NOTE]  
->   Un informe de referencia cruzada de un producto se crea automáticamente por el proveedor del producto entre el número del producto del proveedor y su nuevo número de producto.
+>   Un informe de referencia cruzada de un producto se crea automáticamente por el proveedor del producto entre el número del producto del proveedor y su nuevo número de producto. Para obtener más información, vea [Usar referencias cruzadas de producto](inventory-how-use-item-cross-refs.md).
 
 ## <a name="see-also"></a>Consulte también
 [Registro de productos nuevos](inventory-how-register-new-items.md)  
 [Crear pedidos especiales](sales-how-to-create-special-orders.md)|  
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

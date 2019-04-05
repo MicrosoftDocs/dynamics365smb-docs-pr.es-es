@@ -1,23 +1,23 @@
 ---
-title: "Establecer límites para fechas de vencimiento"
-description: "Puede modificar los términos de pago para que tengan límites para la cantidad máxima de días que puede transcurrir entre una entrega y el pago correspondiente."
+title: Establecer límites para fechas de vencimiento
+description: Puede modificar los términos de pago para que tengan límites para la cantidad máxima de días que puede transcurrir entre una entrega y el pago correspondiente.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: aa71961496777f42a5824d77aeb4711554f098f9
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a9718dfdacdc360f59621d0264211046d5b1b537
-ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827115"
 ---
 # <a name="set-limits-for-due-dates"></a>Establecer límites para fechas de vencimiento
 Puede modificar los términos de pago para que tengan límites para la cantidad máxima de días que puede transcurrir entre una entrega y el pago correspondiente.  
@@ -36,4 +36,3 @@ A continuación, debe asegurarse de especificar los términos de pago adecuados 
 
 ## <a name="see-also"></a>Consulte también  
  [Cálculo de fechas de vencimiento](calculating-due-dates.md)
-

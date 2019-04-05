@@ -1,23 +1,23 @@
 ---
-title: "Configuración de códigos de operación"
-description: "Puede añadir tantos códigos de operación como desee a la tabla. Sin embargo, los códigos C, D e I ya existe en Business Central."
+title: Configuración de códigos de operación
+description: Puede añadir tantos códigos de operación como desee a la tabla. Sin embargo, los códigos C, D e I ya existe en Business Central.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: b639b733727c5c6673d475067a637b3909157cef
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827099"
 ---
 # <a name="set-up-operation-codes"></a>Configurar códigos de operación
 Puede añadir tantos códigos de operación como desee a la tabla. Sin embargo, los códigos C, D e I ya existe en [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. Por ejemplo, los abonos siempre tienen el código de operación D. No puede configurar estos valores en la tabla porque son códigos creados por el sistema. Si intenta agregarlos, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] devolverá un error.  
@@ -49,4 +49,3 @@ Cuando agrega un código de operación al grupo de publicación de producto gene
 
 ## <a name="see-also"></a>Consulte también  
  [Crear el informe 340](how-to-create-report-340.md)
-

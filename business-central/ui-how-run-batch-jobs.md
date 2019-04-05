@@ -1,8 +1,8 @@
 ---
 title: Crear y ejecutar un proceso | Documentos de Microsoft
-description: "Puede ejecutar procesos para procesar datos y actualizar la información, por ejemplo, para actividades contables periódicas o para cálculos."
+description: Puede ejecutar procesos para procesar datos y actualizar la información, por ejemplo, para actividades contables periódicas o para cálculos.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: task, process
 ms.date: 10/01/2018
 ms.author: solsen
+ms.openlocfilehash: 260cd7761b130bbe3748de3cc109a9f4f56c1384
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 7357ae501c4b53ae66869bbbc1ce415a3996f542
-ms.contentlocale: es-es
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853263"
 ---
 # <a name="run-batch-jobs"></a>Ejecutar procesos
 Un proceso es una rutina que procesa datos por lotes, por ejemplo, el proceso **Ajustar tipo cambio**. Hay procesos que realizan actividades contables periódicas como, por ejemplo, el asiento de regularización al final de un ejercicio. Muchos procesos realizan cálculos, como el cálculo de intereses, el ajuste tipo cambio y el cálculo de precios de venta.
@@ -31,6 +31,5 @@ Un trabajo por lotes es como un informe, excepto en que el primero usa los resul
 4. Elija el botón **Aceptar** para iniciar el trabajo por lotes.
 
 ## <a name="see-also"></a>Consulte también
-[Buscar, filtrar y ordenar datos](ui-enter-criteria-filters.md)  
+[Ordenar, buscar y filtrar listas](ui-enter-criteria-filters.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

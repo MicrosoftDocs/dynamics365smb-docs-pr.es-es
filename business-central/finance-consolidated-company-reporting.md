@@ -1,7 +1,7 @@
 ---
 title: Consolidar los datos de varias empresas | Documentos de Microsoft
-description: "Obtener una visión general de la salud financiera de sus negocios."
-documentationcenter: 
+description: Obtener una visión general de la salud financiera de sus negocios.
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,16 +9,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.date: 10/01/2018
+ms.date: 03/11/2019
 ms.author: bholtorf
+ms.openlocfilehash: feda9d1f681c40746db488027fdd8ae1d06a4d94
+ms.sourcegitcommit: 2b2c3b488a610a5d3b51fc8218c40b0b732fddf3
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4208616e0d4d865a2cc113cd888abde8285dc202
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "832602"
 ---
-
 # <a name="consolidating-financial-data-from-multiple-companies"></a>Consolidar los datos financieros de varias empresas
 Si tiene más de una empresa en [!INCLUDE[d365fin](includes/d365fin_md.md)], el informe del balance provisional del centro de rol contador puede darle un resumen de la salud financiera del total de sus empresas.  
 
@@ -50,13 +49,16 @@ Para usar la guía de configuración asistida, realice los pasos siguientes:
 2. Seleccione **Configurar informe de consolidación** y después complete cada paso en la guía de configuración asistida.
 
 ## <a name="to-do-an-advanced-consolidation-setup"></a>Para hacer una configuración avanzada de consolidación
-Si necesita más configuraciones avanzadas para su consolidación, puede configurar la consolidación manualmente. Por ejemplo, si tiene empresas de las que es propietario sólo parcialmente, o tiene las empresas que no desea incluir en la consolidación. Puede configurar la empresa consolidada de la misma forma que se configuran las demás empresas. Para obtener más información, vea [Preparación para hacer negocios](ui-get-ready-business.md).  
+Si necesita más configuraciones avanzadas para su consolidación, puede configurar la consolidación manualmente. Por ejemplo, si tiene empresas de las que es propietario sólo parcialmente, o tiene las empresas que no desea incluir en la consolidación. Configure la empresa consolidada de la misma forma que se configuran las demás empresas. Para obtener más información, vea [Preparación para hacer negocios](ui-get-ready-business.md).  
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] Le permite configurar una lista de las empresas que se van a consolidar, comprobar los datos contables antes de proceder a la consolidación, importar archivos y generar informes de consolidación.  
 
 1. Inicie sesión en la empresa consolidada.
 2. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Unidades de negocio** y luego elija el enlace relacionado.  
-3. Elija **Nuevo** y, a continuación, rellene los campos requeridos.  
+3. Elija **Nuevo** y, a continuación, rellene los campos requeridos. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+> [!IMPORTANT]
+> Cuando rellene los campos **Fecha inicial** y **Fecha final**, asegúrese de cumplir con las reglas GAAP relacionadas con los periodos fiscales de la unidad de negocio y la empresa principal.
 
 Si su empresa utiliza una divisa extranjera debe especificar el tipo de cambio que debe utilizarse en la consolidación. También debe introducir la información de consolidación en las cuentas de la empresa. Estos procesos se describen en las siguientes secciones.
 
@@ -120,7 +122,31 @@ Después de haber probado los datos, puede transferirlos a la empresa consolidad
 1. Inicie sesión en la empresa consolidada.  
 2. En el **Centro de rol contador**, seleccione la acción **Ejecutar consolidación**.  
 3. Rellene los campos requeridos.  
-4. En el campo **Donde**, elija **Nombre de la empresa** y, después, seleccione la empresa consolidada del campo **es**.  
+4. En el campo **Donde**, elija **Nombre de la empresa** y, después, seleccione la empresa consolidada del campo **es**.
+
+## <a name="to-eliminate-repeated-transactions"></a>Para eliminar transacciones repetidas
+Una vez que haya consolidado todas las empresas, debe encontrar transacciones que se registren más de una vez en todas las empresas y luego publicar los movimientos de eliminación para eliminarlas.
+
+El procesamiento de las eliminaciones de consolidación es un procedimiento manual. Puede seguir estos pasos:
+1. Busque transacciones que posiblemente deban ajustarse e introduzca líneas del diario general para eliminarlas.
+2. Ejecute el informe **Eliminaciones consolidación** para que le ayude a valorar el efecto de las líneas del diario antes del registro.
+3. Registrar transacciones de ajuste.
+
+En el informe **Eliminaciones consolidación** se muestra un balance de comprobación provisional en el que puede simular las consecuencias de eliminar los movimientos, comparando los movimientos de la empresa consolidada con las eliminaciones que se han escrito en el diario general.
+
+Para poder incluir una empresa en el informe, debe estar definida en la página **Unidades de negocio** y el campo **Consolidar** debe estar seleccionado.
+
+Cada cuenta aparece en una línea aparte, según la estructura del plan de cuentas. Una cuenta no aparecerá si todos los importes de la línea son 0. Para cada cuenta, se muestra la siguiente información:
+
+* Número cuenta
+* Nombre de cuenta.
+* Si ha seleccionado uno o más códigos de empresa en el campo **Cód. unidad de negocio**de la página de solicitud, aparecerá un total de la empresa consolidada, excluyendo las empresas seleccionadas y las eliminaciones. Si no ha rellenado el campo **Cód. empresa**, aparecerá un total de la empresa consolidada, excluyendo las eliminaciones.
+* Si ha seleccionado un código de empresa en el campo **Cód. empresa** de la página de solicitud, aparecerá un total de los movimientos importados desde la empresa. Si no ha rellenado el campo **Cód. empresa**, aparecerá un total de las eliminaciones registradas en la empresa consolidada.
+* El total de la empresa consolidada, con todas las empresas y las eliminaciones registradas.
+* Las eliminaciones a realizar en la empresa consolidada, es decir, los movimientos del diario general seleccionado en la página de solicitud.
+* El texto de registro, copiado del diario general.
+* El total de la empresa consolidada, después de las eliminaciones, si se registran.
+
 
 ## <a name="to-export-and-import-consolidated-data-between-databases"></a>Para exportar e importar datos consolidados entre las bases de datos
 Si los datos de una unidad de negocio se encuentran en otra base de datos, deberá exportar los datos a un archivo antes de incluirlos en la consolidación. Cada empresa debe exportarse por separado. Para ello, usa el proceso **Exportar consolidación**.  
@@ -138,4 +164,3 @@ Los movimientos exportados tienen los siguientes campos: **Nº cuenta**, **Fecha
 [Gestión de transacciones entre empresas vinculadas](intercompany-manage.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Exportar los datos de negocio a Excel](about-export-data.md)
-

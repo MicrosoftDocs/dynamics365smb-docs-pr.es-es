@@ -1,6 +1,6 @@
 ---
 title: Nube inteligente | Documentos de Microsoft
-description: "Obtenga una copia en la nube de sus datos y esté conectado a la nube inteligente."
+description: Obtenga una copia en la nube de sus datos y esté conectado a la nube inteligente.
 author: bmeier94
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,17 +11,16 @@ ms.reviewer: edupont
 ms. search.keywords: cloud, edge
 ms.date: 10/01/2018
 ms.author: bmeier
+ms.openlocfilehash: 932b6f45ed4f8704b48873518ba2b096efc33e7a
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0abf01698e25ae04a2e34696fb2443ff7d413a26
-ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852135"
 ---
+# <a name="your-access-to-the-intelligent-cloud-with-includeprodshortincludesprodshortmd"></a>Acceda a la nube inteligente con [!INCLUDE[prodshort](includes/prodshort.md)]
 
-# <a name="your-access-to-the-intelligent-cloud-with-includeprodlongincludesprodlongmd"></a>Acceda a la nube inteligente con [!INCLUDE[prodlong](includes/prodlong.md)]
-
-Como usuario de [!INCLUDE[prodshort](includes/prodshort.md)] en línea, tiene acceso completo a escenarios basados ​​en la nube inteligente, como editar datos en Excel y enviar los cambios de nuevo a [!INCLUDE[prodshort](includes/prodshort.md)], o cuando ve sus datos en Power BI. Sin embargo, si bien [!INCLUDE[prodshort](includes/prodshort.md)] es un servicio primordial en la nube, también pueden hacerlo aquellos clientes que necesitan ejecutar sus cargas de trabajo totalmente de forma local o en la inteligencia perimetral conectada a la nube.  
+Como usuario de [!INCLUDE[prodshort](includes/prodshort.md)] en línea, tiene acceso completo a escenarios basados en la nube inteligente, como editar datos en Excel y enviar los cambios de nuevo a [!INCLUDE[prodshort](includes/prodshort.md)], o cuando ve sus datos en Power BI. Sin embargo, si bien [!INCLUDE[prodshort](includes/prodshort.md)] es un servicio primordial en la nube, también pueden hacerlo aquellos clientes que necesitan ejecutar sus cargas de trabajo totalmente de forma local o en la inteligencia perimetral conectada a la nube.  
 
 Si está interesado en [!INCLUDE[prodshort](includes/prodshort.md)], puede inscribirse para una prueba gratuita de la solución predeterminada de implementación en la nube, o puede elegir trabajar con un asociado para implementar [!INCLUDE[prodshort](includes/prodshort.md)] localmente en su propia elección de hardware. Luego puede decidir conectarse a la nube a través de su suscriptor en la nube. Como resultado, los datos de [!INCLUDE[prodshort](includes/prodshort.md)] implementado localmente se replicarán en la nube para escenarios de nube inteligente.  
 
@@ -53,4 +52,3 @@ Cuando su asociado de reventa de Dynamics 365 ha adquirido la licencia correcta 
 [Extensión de la nube inteligente de Business Central](ui-extensions-intelligent-cloud.md)  
 [Extensión de replicación de datos](ui-extensions-data-replication.md)  
 [Conectar a la nube inteligente](/dynamics365/business-central/dev-itpro/administration/about-intelligent-edge)  
-

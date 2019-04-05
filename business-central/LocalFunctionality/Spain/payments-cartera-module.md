@@ -1,18 +1,18 @@
 ---
-title: "Módulo Docs. cartera a pagar"
-description: "El módulo Docs. cartera a pagar permite administrar documentos a pagar generados a partir de facturas de compra o del Diario Cartera."
+title: Módulo Docs. cartera a pagar
+description: El módulo Docs. cartera a pagar permite administrar documentos a pagar generados a partir de facturas de compra o del Diario Cartera.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
 ms.openlocfilehash: 896eb851c3e127aaaeb6881cadde633f76a6b1ac
-ms.contentlocale: es-es
-ms.lasthandoff: 11/20/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827129"
 ---
 # <a name="payments-cartera-module"></a>Módulo Docs. cartera a pagar
 El módulo Docs. cartera a pagar permite administrar documentos a pagar generados a partir de facturas de compra o del **Diario Cartera**. Los documentos se pueden administrar por:  
@@ -42,4 +42,3 @@ La confirmación del pago es un servicio que proporciona una entidad de crédito
 ## <a name="see-also"></a>Consulte también  
  [Módulo Cartera](cartera-module.md)   
  [Módulo Docs. cartera a cobrar](receivables-cartera-module.md)
-

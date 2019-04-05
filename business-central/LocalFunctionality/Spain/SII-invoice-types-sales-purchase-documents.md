@@ -1,23 +1,23 @@
 ---
 title: Resumen de los tipos de facturas SII en los documentos de compra y venta
-description: "Muestra el resultado de los diversos tipos que se utilizan para las facturas y los abonos en relación con SII y cómo se implementan."
+description: Muestra el resultado de los diversos tipos que se utilizan para las facturas y los abonos en relación con SII y cómo se implementan.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 12/27/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 5801fcc1284edfe1b8578518c084455c336d5a40
 ms.openlocfilehash: 4c22e93d480c047f01f7cbef54e6337d9481669d
-ms.contentlocale: es-es
-ms.lasthandoff: 12/27/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827136"
 ---
 # <a name="sii---invoice-and-credit-memo-types-in-sales-and-purchase-documents"></a>SII - Tipos de factura y abonos en documentos de compra y venta
 En la tabla siguiente se muestra el resultado de los diversos tipos que se utilizan para las facturas y los abonos en relación con SII y cómo se implementan en [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
@@ -80,4 +80,3 @@ En la tabla siguiente se muestra el resultado de los diversos tipos que se utili
 
 ## <a name="see-also"></a>Consulte también  
 [Funcionalidad local para España](spain-local-functionality.md)
-

@@ -1,6 +1,6 @@
 ---
 title: Asignar y administrar tareas | Documentos de Microsoft
-description: "Obtener información sobre cómo asignar tareas a los usuarios, incluido su contable, en Business Central"
+description: Obtener información sobre cómo asignar tareas a los usuarios, incluido su contable, en Business Central
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.workload: na
 ms.search.keywords: tasks, work
 ms.date: 10/01/2018
 ms.author: edupont
+ms.openlocfilehash: 492eeda86a392320c8b8205d3faa76416a9cf6fb
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: b225eb16a3cfa0d70f03fde01051c8ea6a956454
-ms.contentlocale: es-es
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852360"
 ---
-# <a name="defining-user-tasks"></a>Definir tareas de usuario
+# <a name="define-user-tasks"></a>Definir tareas de usuario
 En [!INCLUDE[d365fin](includes/d365fin_md.md)], puede crear tareas para recordarle que debe realizar el proyecto. Puede crear tareas para usted, pero también puede asignar tareas a otras personas o a otra persona en su organización  
 
 ## <a name="managing-user-tasks"></a>Gestionar tareas de usuario
@@ -41,4 +41,3 @@ Si desea eliminar de forma masiva todas o algunas tareas del usuario, puede usar
 ## <a name="see-also"></a>Consulte también
 [Buscar una página o informe](ui-search.md)  
 [Experiencias contables en [!INCLUDE[d365fin](includes/d365fin_md.md)]](finance-accounting.md)  
-

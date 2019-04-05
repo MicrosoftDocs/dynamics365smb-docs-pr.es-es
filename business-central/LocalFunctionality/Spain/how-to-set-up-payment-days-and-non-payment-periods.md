@@ -1,23 +1,23 @@
 ---
-title: "Configuración de días de pago y de periodos no-pago"
-description: "Los días de pago y periodos no-pago se utilizan para calcular fechas de vencimiento. El cálculo de fecha de vencimiento se utiliza para los documentos de compras y ventas."
+title: Configuración de días de pago y de periodos no-pago
+description: Los días de pago y periodos no-pago se utilizan para calcular fechas de vencimiento. El cálculo de fecha de vencimiento se utiliza para los documentos de compras y ventas.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 3f39de8a04461adf83660ff8e7d724f155a31a76
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827159"
 ---
 # <a name="set-up-payment-days-and-non-payment-periods"></a>Configurar días de pago y de periodos no-pago
 Los días de pago y periodos no-pago se utilizan para calcular fechas de vencimiento. El cálculo de fecha de vencimiento se utiliza para los documentos de compras y ventas.  
@@ -69,4 +69,3 @@ Para facturas de compras y ventas, se tienen en cuenta los días de pago y los p
 
 ## <a name="see-also"></a>Consulte también  
  [Funcionalidad local para España](spain-local-functionality.md)
-

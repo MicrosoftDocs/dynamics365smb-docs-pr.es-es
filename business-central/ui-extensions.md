@@ -1,7 +1,7 @@
 ---
 title: Instalar extensiones para personalizar Business Central | Documentos de Microsoft
-description: "Obtenga información sobre cómo agregar funcionalidad y personalizar Business Central mediante la instalación de extensiones."
-documentationcenter: 
+description: Obtenga información sobre cómo agregar funcionalidad y personalizar Business Central mediante la instalación de extensiones.
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
 ms.date: 11/27/2018
 ms.author: edupont
+ms.openlocfilehash: f093a9ce2a654d5ee693ee91f32e87f6546279d1
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
-ms.openlocfilehash: 8b68012cc6032d14071ec0eb30c0efaf947344a0
-ms.contentlocale: es-es
-ms.lasthandoff: 11/29/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852452"
 ---
 # <a name="customizing-business-central-using-extensions"></a>Personalizar Business Central con extensiones
 Puede cambiar [!INCLUDE[d365fin](includes/d365fin_md.md)] instalando extensiones que agregan funciones, cambian el comportamiento o proporcionan acceso a nuevos servicios en línea, por ejemplo.
@@ -70,7 +70,8 @@ Microsoft proporciona las extensiones siguientes:
 >  Las nuevas extensiones no están disponibles en AppSource inmediatamente después anunciar una actualización. Puede estar atento a las extensiones en [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).
 
 ## <a name="see-also"></a>Consulte también
-[Ampliar Dynamics 365 Business Central](about-develop-extensions.md)  
+[Ampliación de Dynamics 365 Business Central](about-develop-extensions.md)  
+[Extensiones de Business Central de otros proveedores](ui-extensions-other.md)  
 [Configuración del servicio de fuentes de banco de Envestnet Yodlee](bank-how-setup-bank-statement-service.md)  
 [Permitir el pago de clientes mediante PayPal](sales-how-enable-payment-service-extensions.md)  
 [Migrar datos de empresa de otros sistemas financieros](across-import-data-configuration-packages.md)  
@@ -79,4 +80,3 @@ Microsoft proporciona las extensiones siguientes:
 [Introducción](product-get-started.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

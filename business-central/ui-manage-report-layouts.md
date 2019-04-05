@@ -1,8 +1,8 @@
 ---
-title: "Diseños personalizados e integrados para informes y documentos | Documentos de Microsoft"
-description: "Use los diseños de informe para personalizar documentos, por ejemplo, para personalizar la fuente, el logotipo o la configuración de página de los archivos PDF que envía a clientes."
+title: Diseños personalizados e integrados para informes y documentos | Documentos de Microsoft
+description: Use los diseños de informe para personalizar documentos, por ejemplo, para personalizar la fuente, el logotipo o la configuración de página de los archivos PDF que envía a clientes.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 10/01/2018
 ms.author: solsen
+ms.openlocfilehash: 64c2c714afc3e052d3323dbcbddce4ee3ab5c98d
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3a8f17e86241a49ec65233b42ac0fb647462a8ab
-ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852406"
 ---
 # <a name="managing-report-and-document-layouts"></a>Administrar diseños de informes y documentos
 Un diseño de informe controla el contenido y el formato del informe, incluidos los campos de datos de un conjunto de datos de informe que aparecen en el informe y la forma en que se organizan, el estilo del texto, las imágenes, etc. Desde [!INCLUDE[d365fin](includes/d365fin_md.md)] puede cambiar el diseño que se usa en un informe, crear un nuevo diseño o modificar diseños existentes.
@@ -64,5 +64,4 @@ Para obtener información acerca de cómo cambiar el diseño que desea usar, con
 [Crear y modificar un diseño de informe o documento personalizado](ui-how-create-custom-report-layout.md)  
 [Importar y exportar un diseño de informe o documento personalizado](ui-how-import-and-export-report-layout.md)  
 [Enviar documentos por correo electrónico](ui-how-send-documents-email.md)  
-[Trabajar con informes](ui-work-report.md)  
-
+[Trabajar con informes y trabajos por lotes](ui-work-report.md)  

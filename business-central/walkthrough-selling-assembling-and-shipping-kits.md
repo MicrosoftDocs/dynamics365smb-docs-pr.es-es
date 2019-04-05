@@ -1,23 +1,23 @@
 ---
 title: 'Tutorial: vender, ensamblar y enviar kits | Documentos de Microsoft'
-description: "Para usar el inventario puntual y la capacidad de personalizar los productos según las solicitudes del cliente, los pedidos de ensamblado pueden crearse y vincularse automáticamente tan pronto como se cree la línea del pedido de venta. El vínculo entre la demanda de venta y suministro de ensamblado permite a los procesadores de pedidos de venta personalizar el elemento del ensamblado y comprometerse con fechas de entrega según la disponibilidad de los componentes. Además, el consumo y la salida del ensamblado se registran automáticamente con el envío del pedido de venta vinculado."
+description: Para usar el inventario puntual y la capacidad de personalizar los productos según las solicitudes del cliente, los pedidos de ensamblado pueden crearse y vincularse automáticamente tan pronto como se cree la línea del pedido de venta. El vínculo entre la demanda de venta y suministro de ensamblado permite a los procesadores de pedidos de venta personalizar el elemento del ensamblado y comprometerse con fechas de entrega según la disponibilidad de los componentes. Además, el consumo y la salida del ensamblado se registran automáticamente con el envío del pedido de venta vinculado.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
+ms.openlocfilehash: 4cbefdb46c6ba09dad64650123d6459135aa7afe
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
-ms.openlocfilehash: b1c0f2549420bec5efc8f224f88f46d8c5874968
-ms.contentlocale: es-es
-ms.lasthandoff: 01/31/2019
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852705"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Tutorial: vender, ensamblar y enviar kits
 
@@ -27,7 +27,7 @@ Para usar el inventario puntual y la capacidad de personalizar los productos seg
 
 La funcionalidad especial existe para controlar el envío de las cantidades tipo ensamblar para pedido, en las configuraciones de almacén tanto básicas como avanzadas. Cuando los trabajadores responsables del ensamblado terminan de montar componentes o toda la cantidad de ensamblar para pedido, la registran en el campo **Cdad. a enviar** de la línea de envío de almacén en las configuraciones avanzadas y luego se debe elegir **Registrar envío**. El resultado es que se registra la salida del ensamblado correspondiente, incluido el consumo de componentes relacionado. También se registra albarán de venta para la cantidad del pedido de venta vinculado. En este tutorial se muestra el proceso de almacén avanzado.  
 
-En configuraciones de almacén básicas, cuando una cantidad de ensamblar para pedido está lista para enviarse, el empleado del almacén responsable registra un picking de existencias para las líneas del pedido de venta. Esto crea un movimiento de inventario para los componentes y registra la salida de ensamblado y el envío del pedido de venta. Para obtener más información, vea la sección “Tratamiento de productos ensamblar para pedido en los picking de inventario” en Picking inventario.  
+En configuraciones de almacén básicas, cuando una cantidad de ensamblar para pedido está lista para enviarse, el empleado del almacén responsable registra un picking de existencias para las líneas del pedido de venta. Esto crea un movimiento de inventario para los componentes y registra la salida de ensamblado y el envío del pedido de venta. Para obtener más información, consulte [Gestión de productos de ensamblar para pedido en picking de inventario](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).  
 
 ## <a name="about-this-walkthrough"></a>Acerca de este tutorial  
 En este tutorial, se demuestran las siguientes tareas:  
@@ -106,7 +106,7 @@ Realice los pasos siguientes para quitar el plazo de entrega predeterminada para
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración fabricación** y luego elija el enlace relacionado.  
 2.  En la página **Configuración fabricación**, en la ficha desplegable **Planificación**, elimine el valor del campo **Plazo seguridad genérico**.  
 
-Cree el inventario para los componentes del ensamblado. Para ello, siga la sección sobre la preparación de datos de ejemplo de este tutorial.  
+Cree el inventario para los componentes del ensamblado. Para ello, siga [Preparar datos de ejemplo](walkthrough-selling-assembling-and-shipping-kits.md#setting-up-the-sample-data).  
 
 ## <a name="story"></a>Historia  
 El 23 de enero, Susana, la responsable del procesamiento de pedidos de venta recibe un pedido de La Tienda Aparatos de tres unidades del kit B, que es un producto ATO. Las tres unidades se personalizan y deben incluir la tarjeta gráfica de gran potencia y un bloque de RAM adicional. Las unidades de disco se actualizan a DWD porque las unidades de CD no están disponibles. Susana sabe que las unidades se pueden ensamblar inmediatamente, por lo que deja la fecha de envío sugerida del 23 de enero.  
@@ -135,7 +135,7 @@ Roberto empaqueta las diez unidades ATS con las cinco unidades ATO que Elena ens
 
 Cuando el pedido de venta se registra posteriormente como facturado en su totalidad, se quitan el pedido de venta y los pedidos de ensamblado vinculados.  
 
-## <a name="setting-up-the-sample-data"></a>Configuración de los datos de ejemplo  
+## <a name="prepare-sample-data"></a>Preparar datos de ejemplo  
 
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diarios producto almacén** y luego elija el enlace relacionado.  
 2.  Elija el campo **Nombre sección** y seleccione el diario predeterminado.  
@@ -443,4 +443,3 @@ Cuando el pedido de venta se registra posteriormente como facturado en su totali
  [Detalles de diseño: Flujos de almacén internos](design-details-internal-warehouse-flows.md)   
  [Detalles de diseño: Flujo de salida del almacén](design-details-outbound-warehouse-flow.md)   
  [Tutorial: planificación automática de suministros](walkthrough-planning-supplies-automatically.md)
-

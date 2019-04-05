@@ -1,23 +1,23 @@
 ---
 title: Informe 349
-description: "Debe presentar un informe periódico de comercio con otros países o regiones de la UE a las autoridades fiscales. En España, este informe 349 es parte del sistema intracomunitario de intercambio de información sobre el IVA (VIES)."
+description: Debe presentar un informe periódico de comercio con otros países o regiones de la UE a las autoridades fiscales. En España, este informe 349 es parte del sistema intracomunitario de intercambio de información sobre el IVA (VIES).
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 4bde22fc56ff6415d7ea1b62d74ba75111584da5
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827147"
 ---
 # <a name="report-349"></a>Informe 349
 Debe presentar un informe periódico de comercio con otros países o regiones de la UE a las autoridades fiscales. En España, este informe 349 es parte del sistema intracomunitario de intercambio de información sobre el IVA (VIES).  
@@ -55,4 +55,3 @@ Cuando registra una factura de venta, [!INCLUDE[d365fin](../../includes/d365fin_
 
 ## <a name="see-also"></a>Consulte también  
  [Crear el informe 349](how-to-create-report-349.md)
-

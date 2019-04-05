@@ -1,8 +1,8 @@
 ---
 title: Procesar transacciones IC entrantes y salientes | Documentos de Microsoft
-description: "Las transacciones entre empresas vinculadas que recibe de los socios IC se muestran en la bandeja de entrada IC donde se procesan manual o automáticamente."
+description: Las transacciones entre empresas vinculadas que recibe de los socios IC se muestran en la bandeja de entrada IC donde se procesan manual o automáticamente.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: c7bf0c1c22d2f43220d9b101a1a54757add900e9
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 8432eea92738682bbdab55f8c3f6dae16f401149
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853286"
 ---
 # <a name="manage-the-intercompany-inbox-and-outbox"></a>Administrar la bandeja de entrada y la bandeja de salida de empresas vinculadas
 Todas las transacciones de empresas vinculadas que se reciben electrónicamente aparecen en la bandeja de entrada de empresas vinculadas.  
@@ -43,7 +43,7 @@ Puede utilizar el campo **Mostrar origen de transacción** para filtrar la pági
 #### <a name="returned-from-intercompany-partner"></a>Si el socio de la empresa vinculada devolvió la transacción  
  Si el socio de la empresa vinculada rechaza la transacción, la única opción es cancelar ésta en la bandeja de entrada. Después, deberá crear líneas de corrección o revertir el diario o el documento en su empresa.  
 
-## <a name="re-creating-inbox-entries"></a>Volver a crear movimientos en la bandeja de entrada  
+## <a name="recreating-inbox-entries"></a>Volver a crear movimientos en la bandeja de entrada  
  Si ha aceptado una transacción en la bandeja de entrada pero ha eliminado el documento o el diario en lugar de registrarlo, puede volver a crear el movimiento en la bandeja de entrada y aceptarlo de nuevo.  
 
 ## <a name="getting-an-overview-of-intercompany-transactions-for-a-period"></a>Panorama de transacciones de empresas vinculadas durante un periodo  
@@ -105,4 +105,3 @@ Este siguiente procedimiento describe el método para volver a crear transaccion
 [Configurar las finanzas](finance-setup-finance.md)  
 [Trabajar con diarios generales](ui-work-general-journals.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

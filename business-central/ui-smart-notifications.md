@@ -1,8 +1,8 @@
 ---
-title: "Trabajo con notificaciones inteligentes y especificar cuándo aparecen | Documentos de Microsoft"
+title: Trabajo con notificaciones inteligentes y especificar cuándo aparecen | Documentos de Microsoft
 description: Puede recibir notificaciones que le informen sobre los cambios de estado o los eventos, por ejemplo, un saldo pendiente o inventario bajo.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,14 +11,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2018
 ms.author: bholtorf
+ms.openlocfilehash: ea0429a42447a980cf9d23f0f3b70d7c57efa184
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fa37e68f0544325e75e3869c61e00cde0d71a520
-ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852168"
 ---
-# <a name="smart-notifications"></a>Notificaciones inteligentes
+# <a name="managing-notifications"></a>Administrar notificaciones
 [!INCLUDE[d365fin](includes/d365fin_md.md)] le puede ayudar a trabajar de una forma más inteligente con las notificaciones que le envía sobre determinados eventos o cambios de estado, cuando va a facturar a un cliente que tiene un saldo vencido o cuando el inventario disponible es inferior a la cantidad que va a vender, por ejemplo. Estas notificaciones se muestran como sugerencias discretas en el contexto de la tarea que está llevando acabo, y puede elegir si las ignora o lee más detalles acerca del problema.  
 
 Si elige ver los detalles de una notificación, puede intentar resolver el problema como, por ejemplo, poniéndose en contacto con el cliente, comprando más artículos para el inventario, etc. Puede decidir qué hacer y [!INCLUDE[d365fin](includes/d365fin_md.md)] le proporciona consejos y recomendaciones.  
@@ -38,4 +38,3 @@ La activación o la desactivación de las notificaciones, y la especificación d
 
 ## <a name="see-also"></a>Consulte también
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,23 +1,23 @@
 ---
-title: "Configurar cuentas bancarias para realizar pagos electrónicos"
-description: "En Business Central, puede configurar cuentas bancarias para realizar pagos electrónicos."
+title: Configurar cuentas bancarias para realizar pagos electrónicos
+description: En Business Central, puede configurar cuentas bancarias para realizar pagos electrónicos.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 4217ab4897f480e7cc33d6e2bc21d9751cd25f9c
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 22be19a5009f56f52b61601bfa7069f0e7ea2546
-ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827161"
 ---
 # <a name="set-up-bank-accounts-for-electronic-payments"></a>Configurar cuentas bancarias para realizar pagos electrónicos
 En [!INCLUDE[d365fin](../../includes/d365fin_md.md)], puede configurar cuentas bancarias para realizar pagos electrónicos.  
@@ -52,4 +52,3 @@ En [!INCLUDE[d365fin](../../includes/d365fin_md.md)], puede configurar cuentas b
 
 ## <a name="see-also"></a>Consulte también  
  [Pagos electrónicos – AEB N34.1](electronic-payments-aeb-n341.md)
-

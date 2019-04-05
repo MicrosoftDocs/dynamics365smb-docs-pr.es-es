@@ -1,25 +1,25 @@
 ---
-title: "Tutorial: seguimiento de números de serie/lote | Documentos de Microsoft"
-description: "Cuando tienen lugar defectos en los productos, los errores deben identificarse y deberá impedirse que los productos afectados salgan de la empresa. Si ya se han enviado productos defectuosos, debe realizar un seguimiento de la persona que los ha recibido y, en caso necesario, retirarlos."
+title: 'Tutorial: seguimiento de números de serie/lote | Documentos de Microsoft'
+description: Cuando tienen lugar defectos en los productos, los errores deben identificarse y deberá impedirse que los productos afectados salgan de la empresa. Si ya se han enviado productos defectuosos, debe realizar un seguimiento de la persona que los ha recibido y, en caso necesario, retirarlos.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
+ms.openlocfilehash: e6354b57e14af89c0c998447ff09d43e3902d0b4
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
-ms.openlocfilehash: a37561ebf8b9572f69e0ce3c3b83613b98a1098f
-ms.contentlocale: es-es
-ms.lasthandoff: 01/31/2019
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853168"
 ---
-# <a name="walkthrough-tracing-serial-lot-numbers"></a>Tutorial: seguimiento de números de serie-lote
+# <a name="walkthrough-tracing-seriallot-numbers"></a>Tutorial: seguimiento de números de serie/lote
 
 **Nota**: Este tutorial debe realizarse en una empresa de demostración con la opción **Evaluación completa - Datos de muestra completos**, que está disponible en el entorno de espacio aislado. Para obtener más información, consulte [Creación de un entorno aislado](across-how-create-sandbox-environment.md).
 
@@ -50,7 +50,7 @@ En este tutorial, se demuestran las tareas realizadas por los siguientes roles d
 Para completar este tutorial, necesitará:  
 
 -   La empresa de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
--   Crear nuevos productos y varias transacciones empresariales como se indica en la sección "Preparar datos de ejemplo", más adelante en este tutorial.  
+-   Crear nuevos productos y varias transacciones empresariales siguiendo los pasos descritos en [Preparar datos de ejemplo](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data).  
 
 ## <a name="story"></a>Historia  
 Ricardo, el controlador de calidad, está trabajando en una devolución de venta del producto 1002, Bicicleta de carreras. El cliente, Sellafrio S.L., se ha quejado de que el cuadro tiene costuras de soldadura agrietadas. Los técnicos de control de calidad han confirmado que el cuadro de la bicicleta devuelta está defectuoso. El controlador de calidad debe determinar ahora:  
@@ -298,4 +298,3 @@ A continuación, deberá crear diversas transacciones de compra, producción y v
 [Trabajar con números de lote y de serie](inventory-how-work-item-tracking.md)  
 [Realizar seguimiento de productos seguidos](inventory-how-to-trace-item-tracked-items.md)  
 [Tutoriales de procesos empresariales](walkthrough-business-process-walkthroughs.md)  
-

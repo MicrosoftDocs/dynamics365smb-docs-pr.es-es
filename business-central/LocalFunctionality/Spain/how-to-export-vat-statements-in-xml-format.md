@@ -1,23 +1,23 @@
 ---
 title: Exportar declaraciones de IVA en formato XML
-description: "Puede exportar una declaración de IVA en formato XML y después enviarla electrónicamente a las autoridades fiscales."
+description: Puede exportar una declaración de IVA en formato XML y después enviarla electrónicamente a las autoridades fiscales.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 046563cae01c4ecf016ddc4f89bbb3d4a5d4def1
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827131"
 ---
 # <a name="export-vat-statements-in-xml-format"></a>Exportar declaraciones de IVA en formato XML
 Puede exportar una declaración de IVA en formato XML y después enviarla electrónicamente a las autoridades fiscales.  
@@ -53,4 +53,3 @@ Puede abrir o guardar el archivo XML generado. Ahora puede enviar la declaració
 ## <a name="see-also"></a>Consulte también  
  [Crear plantillas para las declaraciones telemáticas de IVA en formato XML](how-to-create-templates-for-telematic-vat-statements-in-xml-file-format.md)   
  [Exportar declaraciones de IVA en formato de texto](how-to-export-vat-statements-in-text-format.md)
-

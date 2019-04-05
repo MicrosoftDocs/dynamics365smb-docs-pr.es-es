@@ -1,23 +1,22 @@
 ---
-title: "Exportar pagos electrónicos"
-description: "En Business Central, puede exportar movimientos del diario de pagos a un formato de archivo de acuerdo con cuatro estándares de pago diferentes. Utilice las siguientes páginas para exportar según los distintos estándares de pago."
+title: Exportar pagos electrónicos
+description: En Business Central, puede exportar movimientos del diario de pagos a un formato de archivo de acuerdo con cuatro estándares de pago diferentes. Utilice las siguientes páginas para exportar según los distintos estándares de pago.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 54a286a2c9d3dd611f2a7a78d6f5adf6b7460fc4
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827148"
 ---
-
 # <a name="export-electronic-payments"></a>Exportar pagos electrónicos
 En [!INCLUDE[d365fin](../../includes/d365fin_md.md)], puede exportar movimientos del diario de pagos a un formato de archivo de acuerdo con cuatro estándares de pago diferentes. Utilice las siguientes páginas para exportar según los distintos estándares de pago.  
 
@@ -115,4 +114,3 @@ En [!INCLUDE[d365fin](../../includes/d365fin_md.md)], puede exportar movimientos
 [Pagos electrónicos – AEB N34.1](electronic-payments-aeb-n341.md)  
 [Configurar cuentas bancarias para realizar pagos electrónicos](how-to-set-up-bank-accounts-for-electronic-payments.md)  
 [Realizar pagos con Servicio de conversión de datos del banco o Transferencia de crédito SEPA](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
-

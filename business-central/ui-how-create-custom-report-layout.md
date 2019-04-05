@@ -1,8 +1,8 @@
 ---
-title: "Crear y modificar diseños personalizados para informes y documentos | Documentos de Microsoft"
-description: "Obtenga información sobre cómo crear sus propios diseños personalizados para personalizar el aspecto de un informe cuando se vea, se imprima o se guarde."
+title: Crear y modificar diseños personalizados para informes y documentos | Documentos de Microsoft
+description: Obtenga información sobre cómo crear sus propios diseños personalizados para personalizar el aspecto de un informe cuando se vea, se imprima o se guarde.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: 2f86eb50422b5d780ea7a0be2f6798c0b2cc3bfd
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 39e4c310e3de5f16066408b96b54042c44c753fd
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852337"
 ---
 # <a name="create-and-modify-a-custom-report-or-document-layout"></a>Crear y modificar un diseño de informe o documento personalizado
 De forma predeterminada, un informe tendrá un diseño de informe integrado, bien de RDLC o de Word, o ambos. No puede modificar diseños integrados. No obstante, puede crear sus propios diseños personalizados que le permitan modificar el aspecto del informe cuando se vea, se imprima o se guarde. Puede crear varios diseños de informe personalizados para el mismo informe y, a continuación, cambiar al diseño utilizado por un informe según sea necesario.
@@ -71,11 +71,11 @@ Para realizar cambios generales de formato y diseño, como cambiar la fuente del
 Si está creando un diseño de informe de Word desde cero o agregando nuevos campos de datos, empiece sumando una tabla que incluya las filas y columnas que llevarán los campos de datos.
 
 > [!TIP]  
->  Mostrar las líneas de cuadrícula de la tabla de manera que se vean los límites de las celdas de la tabla. No se olvide de ocultar las líneas de cuadrícula cuando termine la edición. Para mostrar u ocultar líneas de cuadrícula de tabla, seleccione la tabla y, a continuación, en **Diseño** en la pestaña **Escritorio**, elija **Ver líneas de cuadrícula**. 
+>  Mostrar las líneas de cuadrícula de la tabla de manera que se vean los límites de las celdas de la tabla. No se olvide de ocultar las líneas de cuadrícula cuando termine la edición. Para mostrar u ocultar líneas de cuadrícula de tabla, seleccione la tabla y, a continuación, en **Diseño** en la pestaña **Escritorio**, elija **Ver líneas de cuadrícula**.
 
-### <a name="embedding-fonts-in-word-layouts-for-consistency"></a>Inserción de fuentes en disposiciones de Word para mayor consistencia 
+### <a name="embedding-fonts-in-word-layouts-for-consistency"></a>Inserción de fuentes en disposiciones de Word para mayor consistencia
 
-Para garantizar que los informes siempre se muestren e impriman con las fuentes deseadas, independientemente del lugar donde los usuarios abran o impriman los informes, puede insertar las fuentes en el documento de Word. Sin embargo, tenga en cuenta que la inserción de fuentes puede aumentar significativamente el tamaño de los archivos de Word. Para obtener más información acerca de la inserción de fuentes en Word, consulte [Insertar fuentes en Word, PowerPoint o Excel](https://support.office.com/en-us/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc). 
+Para garantizar que los informes siempre se muestren e impriman con las fuentes deseadas, independientemente del lugar donde los usuarios abran o impriman los informes, puede insertar las fuentes en el documento de Word. Sin embargo, tenga en cuenta que la inserción de fuentes puede aumentar significativamente el tamaño de los archivos de Word. Para obtener más información acerca de la inserción de fuentes en Word, consulte [Insertar fuentes en Word, PowerPoint o Excel](https://support.office.com/en-us/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
 
 ###  <a name="RemoveField"></a> Quitar los campos de etiqueta y de datos en los diseños de Word  
  Los campos de etiqueta y datos de un informe están incluidos en los controles de contenido en Word. La ilustración siguiente muestra un control de contenido seleccionado en el documento de Word.  
@@ -95,13 +95,12 @@ Para garantizar que los informes siempre se muestren e impriman con las fuentes 
 ### <a name="adding-data-fields"></a>Añadir campos de datos
 La adición de campos de datos de un conjunto de datos de informe es una operación más avanzada y necesita conocimientos del conjunto de datos de informe. Para obtener información acerca de la adición campos para datos, etiquetas, datos e imágenes, consulte [Añadir campos a un diseño de informe de Word](ui-how-add-fields-word-report-layout.md).  
 
-### 
+###
 
 
 ## <a name="see-also"></a>Consulte también
 [Gestión de diseños de informe](ui-manage-report-layouts.md)  
 [Cambiar el diseño que se usa actualmente en un informe](ui-how-change-layout-currently-used-report.md)  
 [Importar y exportar un diseño de informe o documento personalizado](ui-how-import-and-export-report-layout.md)  
-[Trabajar con informes](ui-work-report.md)  
+[Trabajar con informes y trabajos por lotes](ui-work-report.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

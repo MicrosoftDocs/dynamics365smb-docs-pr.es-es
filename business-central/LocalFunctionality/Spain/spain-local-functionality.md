@@ -1,23 +1,23 @@
 ---
-title: "Funcionalidad local para España"
-description: "En los temas siguientes se describe la funcionalidad local de la versión española de Business Central."
+title: Funcionalidad local para España
+description: En los temas siguientes se describe la funcionalidad local de la versión española de Business Central.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 12/27/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 5801fcc1284edfe1b8578518c084455c336d5a40
 ms.openlocfilehash: 086157472b8ebacd53796edbf83638daddf7ec31
-ms.contentlocale: es-es
-ms.lasthandoff: 12/27/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827111"
 ---
 # <a name="spain-local-functionality"></a>Funcionalidad local para España
 En los temas siguientes se describe la funcionalidad local que es única para la versión española de [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
@@ -68,4 +68,3 @@ En los temas siguientes se describe la funcionalidad local que es única para la
 [Trabajar con [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)
 
 ## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
-

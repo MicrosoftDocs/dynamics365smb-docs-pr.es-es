@@ -1,8 +1,8 @@
 ---
-title: "Programar un informe para ejecutarlo en una fecha y hora específicos | Documentos de Microsoft"
-description: "Obtenga información sobre cómo introducir un informe en una cola de proyectos y programarlo para que se procesa en una fecha y hora específicas."
+title: Programar un informe para ejecutarlo en una fecha y hora específicos | Documentos de Microsoft
+description: Obtenga información sobre cómo introducir un informe en una cola de proyectos y programarlo para que se procesa en una fecha y hora específicas.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,15 +12,20 @@ ms.workload: na
 ms.search.keywords: task, process, report
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: 98d51b10d3ca415a463b58405cb3c4f2449b75ad
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 706464cf1b9a264f7575156c7835540ce3c254b0
-ms.contentlocale: es-es
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852429"
 ---
-# <a name="working-with-reports"></a>Trabajar con informes
+# <a name="working-with-reports-and-batch-jobs"></a>Trabajar con informes y trabajos por lotes
 Un informe recoge la información basada en un conjunto determinado de criterios, y organiza y muestra la información en un formato fácil de leer, imprimible. Existen numerosos informes a la que se accede en la aplicación. Los informes proporcionan normalmente la información en relación con el contexto de la página que va a usar. Por ejemplo, la página **Cliente** incluye los informes para los 10 clientes principales y sus estadísticas de ventas, entre otros datos.
+
+Los trabajos por lotes realizan más o menos lo mismo que los informes pero con el objetivo de realizar un proceso. Por ejemplo, el trabajo por lotes **Crear recordatorios** crear documentos de recordatorio para los clientes que tienen pagos vencidos.  
+
+> [!NOTE]
+> Este tema hace referencia principalmente al "informe", pero se aplica información similar a los trabajos por lotes.
 
 Puede buscar informes en la ficha **Informes** de las páginas seleccionadas, o utilizar búsquedas ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer") para buscar informes por nombre.
 
@@ -29,6 +34,10 @@ Puede buscar informes en la ficha **Informes** de las páginas seleccionadas, o 
 Cuando abre un informe, normalmente se le presenta una página donde se establecen varias opciones y filtros que determinan qué se debe incluir en el informe. Esta página se llama página de solicitud de informe. Por ejemplo, la página de solicitud de informe permite crear un informe para un cliente específico, un intervalo de fechas determinado o clasificar la información del informe. A continuación se muestra un ejemplo de una página de solicitud de informe:
 
 ![Opciones del informe](media/report_options.png "Opciones del informe")
+
+> [!Caution]
+> La sección **Mostrar resultados** en una página de solicitud proporciona una capacidad de filtrado genérico para los informes. Estos filtros son opcionales.<br /><br /> Algunos informes ignorarán estos filtros, lo que significa que no importa qué filtro se establezca en la sección **Mostrar resultados** puesto que la salida del informe es la misma. No es posible proporcionar una lista de los campos que se ignoran en los informes, por lo que tendrá que experimentar con los filtros cuando los use.<br /><br />
+**Ejemplo**: Cuando utilice el trabajo por lotes **Crear recordatorios**, se ignorará un filtro para el campo **Movs. clientes** del **Nivel últim. record. emitid.** porque los filtros están fijos para ese trabajo por lotes.
 
 ### <a name="SavedSettings"></a>Uso de la configuración guardada
 En algunos informes, dependiendo de cómo estén diseñados, la página del informe puede incluir la sección **Configuración guardada** que contiene una o más entradas en el cuadro **Utilizar valor predeterminado desde**. Las entradas de es cuadro se denominan *configuraciones guardadas*. Una configuración guardada es básicamente un grupo predefinido de opciones y filtros que puede aplicar al informe antes de previsualizar o enviar el informe a un archivo. La configuración guardada que se denomina **Filtros y opciones usados por última vez** está siempre disponible. Este movimiento establece el informe debe utilizar opciones y filtros que se utilizaron la última vez que se vio.
@@ -47,7 +56,7 @@ Puede agregar más filtros configurando los cuadros **Agregar**. Si tiene más d
 
 En función del tipo de campo que esté filtrando, puede especificar los criterios de filtrado para buscar una coincidencia exacta, una coincidencia parcial, un rango de valores y mucho más. Para obtener ayuda sobre cómo configurar los filtros, consulte:
 -   [Filtrado](ui-enter-criteria-filters.md#FilterCriteria)
--   [Introducir rangos de fechas](ui-enter-date-ranges.md)
+-   [Trabajar con fechas y horas del calendario](ui-enter-date-ranges.md)
 
 ## <a name="previewing-a-report"></a>Vista preliminar de un informe
 Seleccione **Vista previa** para ver el informe en el explorador de Internet. Señale una zona del informe para mostrar la barra de menús.  
@@ -61,7 +70,7 @@ Utilice la barra de menús para:
 -   Cambiar el tamaño para que encaje en la página
 -   Seleccionar texto
 
-    Puede copiar el texto de un informe y, a continuación pegarlo en algún otro lugar, como una página de [!INCLUDE[d365fin](includes/d365fin_md.md)] o en Microsoft Word.  Con un ratón, por ejemplo, presione y mantenga pulsado donde desee empezar y, a continuación, mueve el ratón para seleccionar una o más palabras, frases o párrafos. A continuación, puede pulsar el botón derecho del ratón y seleccionar **Copiar**. Puede pegar el texto seleccionado donde quiera.
+    Puede copiar el texto de un informe y, a continuación pegarlo en algún otro lugar, como una página de [!INCLUDE[d365fin](includes/d365fin_md.md)] o Microsoft Word.  Con un ratón, por ejemplo, presione y mantenga pulsado donde desee empezar y, a continuación, mueve el ratón para seleccionar una o más palabras, frases o párrafos. A continuación, puede pulsar el botón derecho del ratón y seleccionar **Copiar**. Puede pegar el texto seleccionado donde quiera.
 -   Desplazar lateralmente el documento
 
     Puede mover el área visible del informe en cualquier dirección para ver otras áreas o el informe. Esto es útil cuando se ha ampliado para ver detalles.  Con el ratón, por ejemplo, mantenga pulsado el botón en cualquier parte de la vista previa del informe y, a continuación, mueva el ratón.
@@ -88,4 +97,3 @@ El diseño de informe controla lo que se muestra en un informe, cómo se organiz
 [Especificar selección de impresora para informes](ui-specify-printer-selection-reports.md)  
 [Administrar diseños de informes y documentos](ui-manage-report-layouts.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

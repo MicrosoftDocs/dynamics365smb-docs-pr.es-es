@@ -1,23 +1,23 @@
 ---
 title: Plan de suministro | Documentos de Microsoft
-description: "Preparar un plan ejecutable detallado y el programa de montaje final de producción para venta y la demanda de producción."
+description: Preparar un plan ejecutable detallado y el programa de montaje final de producción para venta y la demanda de producción.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 41fb80f39edc87aabce18c5ef39e799148eb0058
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 849ea09fb84e2cf52971b582920debf89ca7c2b0
-ms.contentlocale: es-es
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852199"
 ---
 # <a name="planning"></a>Planificación
 Las operaciones de producción necesarias para transformar entradas en productos terminados se deben planificar a diario o semanalmente, en función del volumen y la naturaleza de los productos. [!INCLUDE[d365fin](includes/d365fin_md.md)] ofrece funciones para cubrir la demanda anticipada y real de las ventas, montaje y la producción, así como funciones de planificación de la distribución mediante unidades de almacenamiento y transferencias de ubicación.
@@ -45,7 +45,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Utilice la página **Hoja de planificación** para ejecutar las opciones de MPS y MRP para crear automáticamente alto nivel o planificación detallada en todos los niveles de producto.|[Ejecutar la planificación completa, MPS o MRP](production-how-to-run-mps-and-mrp.md)|
 |Ejecutar la hoja de demanda para crear automáticamente un plan de suministro detallado que cubra la demanda de artículos que sólo se reponen por compra o transferencia.|Página de **Hoja de demanda**|  
 |Iniciar o actualizar una orden de producción como operaciones programadas a grosso modo en el programa de producción maestro.|[Replanificar o actualizar órdenes de producción directamente](production-how-to-replan-refresh-production-orders.md)|
-|Recalcular los calendarios de centro de trabajo o de máquina debido a cambios de planificación.|Sección “Para calcular un calendario de centro de trabajo” en [Configurar los calendarios de planta](production-how-to-create-work-center-calendars.md)|
+|Recalcular los calendarios de centro de trabajo o de máquina debido a cambios de planificación.|[Para calcular un calendario de centro de trabajo](production-how-to-create-work-center-calendars.md#to-calculate-a-work-center-calendar)|
 |Efectuar el seguimiento de la demanda de pedido (cantidad seguida), previsión, pedido de ventas abierto o parámetro de planificación (cantidad no seguida) que ha dado lugar a la línea de planificación en cuestión.|[Realizar un seguimiento de las relaciones entre demanda y suministro](production-how-track-demand-supply.md)|
 |Vea el inventario disponible proyectado de un producto con diferentes visualizaciones y vea qué necesidades brutas, recepciones de orden planificadas y otros influyen en él con el paso del tiempo.|[Consultar la disponibilidad de los productos](inventory-how-availability-overview.md)|  
 |Realizar actividades de planificación seleccionadas, como modificar o agregar líneas de la hoja de planificación, en una visión gráfica del plan de suministros.|[Modificar las sugerencias de planificación en una vista gráfica](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)|
@@ -60,4 +60,3 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

@@ -1,23 +1,23 @@
 ---
-title: "Creación del informe 349"
-description: "Debe presentar un informe periódico de comercio con otros países o regiones de la UE a las autoridades fiscales. Este modelo, el Informe 349, debe enviarse a las autoridades fiscales electrónicamente en la página web de la Agencia Tributaria o en un CD-ROM."
+title: Creación del informe 349
+description: Debe presentar un informe periódico de comercio con otros países o regiones de la UE a las autoridades fiscales. Este modelo, el Informe 349, debe enviarse a las autoridades fiscales electrónicamente en la página web de la Agencia Tributaria o en un CD-ROM.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 6f4d8d838ba1c5ad9da633e966c82122fa43549d
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827081"
 ---
 # <a name="create-report-349"></a>Crear el informe 349
 Debe presentar un informe periódico de comercio con otros países o regiones de la UE a las autoridades fiscales. Este modelo, el Informe 349, debe enviarse a las autoridades fiscales electrónicamente en la página web de la Agencia Tributaria o en un CD-ROM. Para obtener más información, consulte el sitio web de la [Agencia Tributaria](https://go.microsoft.com/fwlink/?LinkId=238181).  
@@ -69,4 +69,3 @@ Para correcciones de importes que se incluyeron en un modelo 349 anterior, la p�
 
 ## <a name="see-also"></a>Consulte también  
 [Informe 349](report-349.md)   
-

@@ -2,22 +2,22 @@
 title: Facturas correctivas
 description: La funcionalidad de factura correctiva permite enviar una factura correctiva cuando haya un error o conflicto que afecte al importe del IVA o a los datos fiscales. Esta factura incluye todos los datos requeridos legalmente y hace referencia a la factura o facturas originales.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 323fbdd8df8da3f1f501ae17dacdfbc753b4ae46
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 57a125783bcc4f0816bbc58227ddce5c6f98f508
-ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827101"
 ---
 # <a name="corrective-invoices"></a>Facturas correctivas
 La funcionalidad de factura correctiva permite enviar una factura correctiva cuando haya un error o conflicto que afecte al importe del IVA o a los datos fiscales. Esta factura incluye todos los datos requeridos legalmente y hace referencia a la factura o facturas originales. Las facturas originales no se pueden anular y siguen siendo válidas. La factura correctiva contiene las correcciones y los motivos de estas correcciones.  
@@ -37,4 +37,3 @@ La factura correctiva debe cumplir los requisitos siguientes:
 
 ## <a name="see-also"></a>Consulte también  
  [Funcionalidad local para España](spain-local-functionality.md)
-
