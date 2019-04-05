@@ -1,8 +1,8 @@
 ---
 title: Configurar los procesos financieros | Documentos de Microsoft
-description: "Obtenga información sobre las tareas para configurar las finanzas en su empresa para adaptarse a todas sus necesidades de contabilidad o auditoría."
+description: Obtenga información sobre las tareas para configurar las finanzas en su empresa para adaptarse a todas sus necesidades de contabilidad o auditoría.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 12/19/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: aa1e7b13cf6cc56df1a6922a9b123e7cc19580c6
 ms.openlocfilehash: 377e7f8eb3cb78adf68e3f4167a215d8f027f972
-ms.contentlocale: es-es
-ms.lasthandoff: 12/19/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806505"
 ---
 # <a name="setting-up-finance"></a>Configurar las finanzas
 Para ayudarle a empezar rápidamente, [!INCLUDE[d365fin](includes/d365fin_md.md)] incluye las configuraciones estándar para la mayoría de los procesos financieros. Si necesita cambiar las configuraciones para que se adapten a su empresa, continúe. Por ejemplo, desde el área de trabajo puede usar a una guía de configuración asistida para configurar los impuestos de ventas de su ubicación.  
@@ -56,4 +56,3 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

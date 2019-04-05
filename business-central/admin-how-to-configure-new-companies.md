@@ -1,23 +1,23 @@
 ---
 title: Configurar nuevas empresas | Documentos de Microsoft
-description: "Puede configurar y personalizar una nueva empresa que se haya creado. Para ajustar la implementación, procederá en tres fases para completar la configuración."
+description: Puede configurar y personalizar una nueva empresa que se haya creado. Para ajustar la implementación, procederá en tres fases para completar la configuración.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: b1c953b0a5e1247115b26a8984a632478f80cdda
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: a52a95bf3fc96b89e664041e3d2b289b6042c046
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806818"
 ---
 # <a name="configure-new-companies"></a>Configurar nuevas empresas
 Para configurar una nueva empresa en la implementación de su solución, generalmente sigue tres fases. En la primera fase, importará el paquete de configuración, un archivo .rapidstart con la información de configuración. En la segunda fase, modificará la información de configuración y luego la aplicará a la nueva empresa. En la fase final, revisará y corregirá todos los errores.  
@@ -71,10 +71,9 @@ Existen ciertos tipos de errores que pueden producirse cuando se aplican datos a
     > [!NOTE]  
     >  Si vuelve a importar el mismo paquete, puede sobrescribir las modificaciones de datos que ya haya realizado. Por ese motivo, es posible que desee agregar las tablas nuevas en un paquete nuevo e importar este que en su lugar.  
 
-7. Aplique los datos a la base de datos, como se describe en la sección "Procedimiento para modificar y aplicar los datos del paquete".
+7. Aplique los datos a la base de datos, como se describe en [Para modificar y aplicar los datos del paquete](admin-how-to-configure-new-companies.md#to-modify-and-apply-package-data).
 
 ## <a name="see-also"></a>Consulte también  
 [Aplicar la configuración a nuevas empresas](admin-apply-configuration-to-new-companies.md)  
 [Configurar una empresa con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administración](admin-setup-and-administration.md)
-

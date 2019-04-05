@@ -1,8 +1,8 @@
 ---
 title: Administrar segmentos y seleccionar los contactos para incluirlos | Documentos de Microsoft
-description: "Describe las tareas para crear un segmento para seleccionar un grupo de contactos según criterios específicos, por ejemplo, contactos de un determinado sector al que desee dirigirse."
+description: Describe las tareas para crear un segmento para seleccionar un grupo de contactos según criterios específicos, por ejemplo, contactos de un determinado sector al que desee dirigirse.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: c49ccda1632eccabb412cfe44f59abd1ed2efc09
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: fab3aed9e8c426d6a8840177f63f74afe808428d
-ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806453"
 ---
 # <a name="managing-segments"></a>Administrar segmentos
 Puede crear segmentos para seleccionar un grupo de contactos en función de criterios específicos. Por ejemplo, un segmento puede ser el sector al que pertenecen los contactos o su relación de negocio con los contactos. Puede crear un segmento para seleccionar los contactos a los que se va a dirigir la campaña.
@@ -39,4 +39,3 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 [Administrar oportunidades de venta](marketing-manage-sales-opportunities.md)  
 [Gestionar contactos](marketing-contacts.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

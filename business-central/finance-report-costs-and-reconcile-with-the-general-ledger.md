@@ -1,23 +1,23 @@
 ---
-title: "Creación de informes de costes y concílielos con la contabilidad | Documentos de Microsoft"
-description: "Al finalizar el periodo contable, mensual, anual o del tipo que sea, se llevan a cabo una serie de tareas de control y auditoría de costes con el fin de generar informes correctos y compensados del valor de las existencias y remitirlo al departamento de finanzas. Aparte de las tareas de contabilidad que transfieren los movimientos de valor de productos individuales a cuentas de contabilidad exclusivas, se encuentran disponibles múltiples funciones de informes y seguimiento y una herramienta de conciliación especial para los auditores e ingenieros de control de costes responsables de este trabajo de importancia crítica para la empresa."
+title: Creación de informes de costes y concílielos con la contabilidad | Documentos de Microsoft
+description: Al finalizar el periodo contable, mensual, anual o del tipo que sea, se llevan a cabo una serie de tareas de control y auditoría de costes con el fin de generar informes correctos y compensados del valor de las existencias y remitirlo al departamento de finanzas. Aparte de las tareas de contabilidad que transfieren los movimientos de valor de productos individuales a cuentas de contabilidad exclusivas, se encuentran disponibles múltiples funciones de informes y seguimiento y una herramienta de conciliación especial para los auditores e ingenieros de control de costes responsables de este trabajo de importancia crítica para la empresa.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 1b2a83ddbac54d5034b043c3124f698613be4642
-ms.contentlocale: es-es
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806789"
 ---
 # <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Creación de informes de costes y conciliación con la contabilidad
 Al finalizar el periodo contable, mensual, anual o del tipo que sea, se llevan a cabo una serie de tareas de control y auditoría de costes con el fin de generar informes correctos y compensados del valor de las existencias y remitirlo al departamento de finanzas. Aparte de las tareas de contabilidad que transfieren los movimientos de valor de productos individuales a cuentas de contabilidad exclusivas, se encuentran disponibles múltiples funciones de informes y seguimiento y una herramienta de conciliación especial para los auditores e ingenieros de control de costes responsables de este trabajo de importancia crítica para la empresa.  
@@ -42,4 +42,3 @@ Al finalizar el periodo contable, mensual, anual o del tipo que sea, se llevan a
 [Ccial](sales-manage-sales.md)   
 [Compras](purchasing-manage-purchasing.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

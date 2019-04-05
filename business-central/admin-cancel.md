@@ -1,6 +1,6 @@
 ---
-title: "Cancelación de Business Central | Documentos de Microsoft"
-description: "Describe cómo quitar o eliminar la experiencia de Business Central."
+title: Cancelación de Business Central | Documentos de Microsoft
+description: Describe cómo quitar o eliminar la experiencia de Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: remove, delete
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 3da4de9eee04f240d88d4128fefe273999f20cfc
-ms.contentlocale: es-es
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806433"
 ---
 # <a name="unsubscribe-remove-or-reset-included365finincludesd365finmdmd"></a>Cancelar la suscripción, quitar o restablecer [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Si desea dejar de usar [!INCLUDE[d365fin](includes/d365fin_md.md)], puede cerrar su cuenta o eliminar la licencia. Los pasos a seguir son diferentes si actualmente usa la versión de prueba gratuita o si tiene una suscripción mensual como parte de una cuenta Office 365.  
@@ -51,4 +51,3 @@ Si desea ocultar [!INCLUDE[d365fin](includes/d365fin_md.md)] de su lanzador de a
 [Exportar los datos de negocio a Excel](about-export-data.md)  
 [Portal de Office](https://portal.office.com)  
 [¿Cuánto dura el periodo de prueba y cómo lo cancelo?](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel)  
-

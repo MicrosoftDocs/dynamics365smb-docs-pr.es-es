@@ -1,23 +1,23 @@
 ---
-title: "Detalles de diseño: Flujos internos de almacén | Documentos de Microsoft"
-description: "El flujo de productos entre las ubicaciones en una ubicación de empresa se centra en el picking de los componentes y en la ubicación de productos para los pedidos de ensamblado u órdenes de producción, y en los movimientos ad hoc, como reposiciones de ubicación, sin una relación con los documentos de origen."
+title: 'Detalles de diseño: Flujos internos de almacén | Documentos de Microsoft'
+description: El flujo de productos entre las ubicaciones en una ubicación de empresa se centra en el picking de los componentes y en la ubicación de productos para los pedidos de ensamblado u órdenes de producción, y en los movimientos ad hoc, como reposiciones de ubicación, sin una relación con los documentos de origen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: b728815592975091a683eb96f87b1a632da62567
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806761"
 ---
 # <a name="design-details-internal-warehouse-flows"></a>Detalles de diseño: Flujos de almacén internos
 El flujo de productos entre las ubicaciones en una ubicación de empresa se centra en el picking de los componentes y en la ubicación de productos para los pedidos de ensamblado u órdenes de producción, y en los movimientos ad hoc, como reposiciones de ubicación, sin una relación con los documentos de origen. El ámbito y la naturaleza de las actividades implicadas varía entre almacenamiento básico y avanzado.  
@@ -120,4 +120,3 @@ El flujo de productos entre las ubicaciones en una ubicación de empresa se cent
 
 ## <a name="see-also"></a>Consulte también  
  [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)
-

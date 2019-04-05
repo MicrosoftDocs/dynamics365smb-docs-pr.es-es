@@ -1,23 +1,23 @@
 ---
-title: "Cómo modificar las sugerencias de planificación en una vista gráfica | Documentos de Microsoft"
-description: "Una actividad típica de planificación consiste en cambiar o añadir líneas de la hoja de planificación para modificar los pedidos de suministros sugeridos antes de confirmarlos ejecutando la función **Ejecutar mensajes acción**. Una alternativa a hacerlo en la hoja de trabajo de planificación es utilizar una vista gráfica."
+title: Cómo modificar las sugerencias de planificación en una vista gráfica | Documentos de Microsoft
+description: Una actividad típica de planificación consiste en cambiar o añadir líneas de la hoja de planificación para modificar los pedidos de suministros sugeridos antes de confirmarlos ejecutando la función **Ejecutar mensajes acción**. Una alternativa a hacerlo en la hoja de trabajo de planificación es utilizar una vista gráfica.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 35b8694710f031d99e4cfb6b5e0927266d7559b9
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4de53621a71569579fa05092dca36d8301098ffe
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806434"
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Modificar las sugerencias de planificación en una vista gráfica
 Una actividad típica de planificación consiste en cambiar o añadir líneas de la hoja de planificación para modificar los pedidos de suministros sugeridos antes de confirmarlos ejecutando la función **Ejecutar mensajes acción**. Una alternativa a hacerlo en la hoja de trabajo de planificación es utilizar una vista gráfica.
@@ -42,7 +42,7 @@ El siguiente procedimiento muestra cómo modificar las sugerencias de suministro
     La página **Disponib. prod. por escala de tiempo** se abre con el número de producto, almacén y variante del producto en la línea seleccionada de la planificación prellenada en los campos en la ficha desplegable **Opciones**. La ficha desplegable **Escala de tiempo** muestra una representación gráfica del inventario proyectado del producto, incluidas las sugerencias de la planificación.  
 
 2.  Asegúrese de que el campo **Incluir sugerencias de planificación** se ha seleccionado.  
-3.  Buscar los pedidos de suministro sugeridos que desea modificar. Puede identificar los elementos modificables por el círculo verde y el icono de disco. Para obtener más información acerca de los diferentes símbolos, vea la sección "Símbolos e iconos en la ficha desplegable".  
+3.  Buscar los pedidos de suministro sugeridos que desea modificar. Puede identificar los elementos modificables por el círculo verde y el icono de disco. Para obtener más información acerca de los diferentes símbolos, consulte [Símbolos e iconos en la ficha desplegable](production-how-to-modify-planning-suggestions-in-a-graphical-view.md#symbols-and-icons-on-the-timeline-fasttab).  
 4.  Coloque el puntero sobre el círculo verde hasta que se agrande y el puntero cambie a la forma de movimiento (cuatro flechas).  
 5.  Mantenga pulsado el botón del mouse mientras arrastra el puntero hacia arriba o hacia abajo para modificar la cantidad. Mantenga pulsado el botón del mouse mientras arrastra el puntero hacia la izquierda y hacia la derecha para modificar la fecha de vencimiento.  
 6.  Además de mover los elementos mediante arrastrar y soltar, puede modificar las sugerencias de planificación utilizando varias funciones del menú desplegable. Acceda al menú desplegable para el círculo verde de un producto de suministro sugerido y seleccione una las funciones siguientes  
@@ -61,12 +61,12 @@ Para implementar los cambios del plan de suministro, debe seguir los mensajes de
 ## <a name="symbols-and-icons-on-the-timeline-fasttab"></a>Símbolos e iconos en la ficha desplegable Escala de tiempo
  |Símbolo/icono|Descripción|  
  |------------------|---------------------------------------|  
- |Cruz negra|Pedidos (aprovisionamiento y demanda).<br /><br /> -   No puede modificar.<br />- Visible cuando está seleccionado el campo **Mostrar inventario proyectado** (gráfico anaranjado).|  
- |Círculo rojo|Pedidos de suministros existentes que no están incluidos en las sugerencias de la planificación.<br /><br /> -   No puede modificar.<br />- Visible cuando está seleccionado el campo **Mostrar inventario proyectado** (gráfico anaranjado).|  
+ |Cruz negra|Pedidos (aprovisionamiento y demanda).<br /><br /> -   No puede modificar.<br />-   Visible cuando está seleccionado el campo **Mostrar inventario proyectado** (gráfico anaranjado).|  
+ |Círculo rojo|Pedidos de suministros existentes que no están incluidos en las sugerencias de la planificación.<br /><br /> -   No puede modificar.<br />-   Visible cuando está seleccionado el campo **Mostrar inventario proyectado** (gráfico anaranjado).|  
  |Asterisco amarillo|Previsión de la demanda.<br /><br /> -   No puede modificar.<br />-   Visible cuando el campo **Nombre de previsión** tiene un valor.<br /><br /> Cuando se seleccionan los campos **Mostrar inventario proyectado** e **Incluir sugerencias de planificación**, cada asterisco amarillo tiene una parte vinculada en el gráfico opuesto. Esto ilustra como un suministro sugerido satisface la demanda prevista.|  
- |Círculo verde con un icono en forma de disco que tiene una cruz de color rojo|Pedido de suministro sugerido con el mensaje de acción *Cancelar*.<br /><br /> -   No puede modificar.<br />- Visible cuando está seleccionado el campo **Incluir sugerencias de planificación** (gráfico verde).|  
- |Círculo verde con un icono en forma de disco que tiene un asterisco|Pedidos de suministros sugeridos con los mensajes de acción *Nuevo*.<br /><br /> -   Se puede modificar.<br />- Visible cuando está seleccionado el campo **Incluir sugerencias de planificación** (gráfico verde).|  
- |Círculo verde con un icono en forma de disco que tiene una o dos flechas|Pedidos de suministros sugeridos con el mensaje de acción *Volver a programar*, *Cambiar cdad.* o *Reprog. y Cambiar cdad.*<br /><br /> -   Se puede modificar.<br />- Visible cuando está seleccionado el campo **Incluir sugerencias de planificación** (gráfico verde).<br /><br /> Las flechas reflejan la dirección de la sugerencia de la planificación. Por ejemplo, una flecha izquierda con una flecha hacia arriba refleja el mensaje de acción *Reprog. y Cambiar cdad.* que consiste en una actualización hacia atrás y un aumento de cantidad.|  
+ |Círculo verde con un icono en forma de disco que tiene una cruz de color rojo|Pedido de suministro sugerido con el mensaje de acción *Cancelar*.<br /><br /> -   No puede modificar.<br />-   Visible cuando está seleccionado el campo **Incluir sugerencias de planificación** (gráfico verde).|  
+ |Círculo verde con un icono en forma de disco que tiene un asterisco|Pedidos de suministros sugeridos con los mensajes de acción *Nuevo*.<br /><br /> -   Se puede modificar.<br />-   Visible cuando está seleccionado el campo **Incluir sugerencias de planificación** (gráfico verde).|  
+ |Círculo verde con un icono en forma de disco que tiene una o dos flechas|Pedidos de suministros sugeridos con el mensaje de acción *Volver a programar*, *Cambiar cdad.* o *Reprog. y Cambiar cdad.*<br /><br /> -   Se puede modificar.<br />-   Visible cuando está seleccionado el campo **Incluir sugerencias de planificación** (gráfico verde).<br /><br /> Las flechas reflejan la dirección de la sugerencia de la planificación. Por ejemplo, una flecha izquierda con una flecha hacia arriba refleja el mensaje de acción *Reprog. y Cambiar cdad.* que consiste en una actualización hacia atrás y un aumento de cantidad.|  
 
 Cuando acceda al menú desplegable para la ficha desplegable **Escala de tiempo**, las funciones siguientes aparecen dependiendo de lo que elija  
 
@@ -99,4 +99,3 @@ Además de las acciones de teclado se mencionadas antes, también puede utilizar
 [Detalles de diseño: planificación de aprovisionamiento](design-details-supply-planning.md)   
 [Procedimientos recomendados de configuración: planificación de suministros](setup-best-practices-supply-planning.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

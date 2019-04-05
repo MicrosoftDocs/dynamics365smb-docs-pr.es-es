@@ -1,6 +1,6 @@
 ---
-title: "Preguntas más frecuentes acerca de la opción Dígame | Documentos de Microsoft"
-description: "Este artículo proporciona respuestas a las preguntas que nuestros socios y clientes suelen hacer sobre la función Dígame."
+title: Preguntas más frecuentes acerca de la opción Dígame | Documentos de Microsoft
+description: Este artículo proporciona respuestas a las preguntas que nuestros socios y clientes suelen hacer sobre la función Dígame.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 74cd6b136cf5785237640b124472cd26aeff97de
 ms.openlocfilehash: 70ab7fb07cda5ce9d86b3f39dd14321829e85a52
-ms.contentlocale: es-es
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806384"
 ---
 # <a name="tell-me-faq"></a>FAQ acerca de la función Dígame
 Este tema responde a las preguntas que nuestros usuarios avanzados suelen hacer sobre la nueva función Dígame que ha reemplazado la función anterior de búsqueda de páginas conocida como **Buscar páginas e informes**.
@@ -43,4 +43,3 @@ Los artículos de ayuda se mostrarán en el idioma que ha especificado en **Mi c
 
 ## <a name="see-also"></a>Consulte también  
 [Encontrar características e información](ui-search.md)
-

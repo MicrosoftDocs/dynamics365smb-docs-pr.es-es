@@ -1,8 +1,8 @@
 ---
-title: "Detalles de diseño: Cierre de aprovisionamiento y demanda | Documentos de Microsoft"
-description: "Este tema proporciona una sugerencia sobre qué hacer después de realizar procedimientos de equilibrado de suministros."
+title: 'Detalles de diseño: Cierre de aprovisionamiento y demanda | Documentos de Microsoft'
+description: Este tema proporciona una sugerencia sobre qué hacer después de realizar procedimientos de equilibrado de suministros.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: design, planning, example, closing, supply
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
+ms.openlocfilehash: 73ddbe9746d7681d11e61f10037bf26f792acffa
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6cacf967295944ba720c20203700db30d9ec45c4
-ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806503"
 ---
 # <a name="design-details-closing-demand-and-supply"></a>Detalles de diseño: Cierre de aprovisionamiento y demanda
 Cuando se han realizado los procedimientos de equilibrado del suministro, existen tres situaciones finales posibles:  
@@ -44,4 +44,3 @@ De este modo concluyen las descripciones de cómo el sistema de planificación c
 [Detalles de diseño: Equilibrio de aprovisionamiento y demanda](design-details-balancing-demand-and-supply.md)   
 [Detalles de diseño: Conceptos centrales del sistema de planificación](design-details-central-concepts-of-the-planning-system.md)   
 [Detalles de diseño: Planificación de aprovisionamiento](design-details-supply-planning.md)
-

@@ -1,8 +1,8 @@
 ---
-title: "Gestión de ensamblado | Documentos de Microsoft"
-description: "Apoyar a las empresas que suministran los productos a sus clientes agrupando los componentes en procesos sencillos sin necesidad de la funcionalidad de fabricación pero con características para ensamblar artículos que se integran con las existentes, como son planificación, reservas y almacén."
+title: Gestión de ensamblado | Documentos de Microsoft
+description: Apoyar a las empresas que suministran los productos a sus clientes agrupando los componentes en procesos sencillos sin necesidad de la funcionalidad de fabricación pero con características para ensamblar artículos que se integran con las existentes, como son planificación, reservas y almacén.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 12/20/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 5801fcc1284edfe1b8578518c084455c336d5a40
 ms.openlocfilehash: f40c0b422bfde2d3a186b4458c3780932934d497
-ms.contentlocale: es-es
-ms.lasthandoff: 12/27/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806424"
 ---
 # <a name="assembly-management"></a>Gestión de ensamblaje
 Para apoyar a las empresas que suministran los productos a sus clientes agrupando los componentes en procesos sencillos sin necesidad de la funcionalidad de fabricación, [!INCLUDE[d365fin](includes/d365fin_md.md)] incluye las características para ensamblar artículos que se integran con las existentes, como son planificación, reservas y almacén.  
@@ -55,4 +55,3 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

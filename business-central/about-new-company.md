@@ -1,6 +1,6 @@
 ---
-title: "Crear nuevas empresas con una guía de configuración asistida | Documentos de Microsoft"
-description: "Es fácil crear una empresa nueva y en blanco en Business Central. Una guía de configuración asistida le ayudará a seguir los pasos, y podrá importar sus datos empresariales existentes."
+title: Crear nuevas empresas con una guía de configuración asistida | Documentos de Microsoft
+description: Es fácil crear una empresa nueva y en blanco en Business Central. Una guía de configuración asistida le ayudará a seguir los pasos, y podrá importar sus datos empresariales existentes.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: company, setup wizard
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 9831dd53ffa3ba94202a8a15dc0bdaffdb6d2d2d
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806525"
 ---
 # <a name="creating-new-companies-in-included365finincludesd365finmdmd"></a>Crear nuevas en empresas en [!INCLUDE[d365fin](includes/d365fin_md.md)]
 En [!INCLUDE[d365fin](includes/d365fin_md.md)], los contenedores para datos empresariales que pertenecen a una unidad de negocio o entidad legal se denominan *empresa*. Cuando se registra en [!INCLUDE[d365fin](includes/d365fin_md.md)], recibe una empresa de demostración y una empresa vacía, *Mi empresa*. Cambiar entre las empresas es fácil, solo tiene que ir a **Mi configuración** y cambiarse a la otra empresa. Pero también puede crear nuevas empresas en [!INCLUDE[d365fin](includes/d365fin_md.md)], en función de sus necesidades comerciales. Al crear una empresa nueva, una guía de configuración asistida le ayuda a obtener los elementos básicos. A continuación, puede importar datos relevantes de su sistema heredado u otra empresa en [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -53,4 +53,3 @@ Una vez que tenga los elementos básicos, puede configurar las áreas restantes.
 [Importar datos de empresa de otros sistemas financieros](across-import-data-configuration-packages.md)  
 [Cambiar la configuración básica](ui-change-basic-settings.md)  
 [Introducción](product-get-started.md)  
-

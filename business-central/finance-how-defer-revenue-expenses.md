@@ -1,8 +1,8 @@
 ---
 title: Fraccionar ingresos y gastos | Documentos de Microsoft
-description: "Para reconocer ingresos y gastos en periodos distintos del periodo en el que se registró la transacción, puede fraccionarlos o posponerlos automáticamente según una previsión especificada."
+description: Para reconocer ingresos y gastos en periodos distintos del periodo en el que se registró la transacción, puede fraccionarlos o posponerlos automáticamente según una previsión especificada.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: postpone
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 9a21f4e54dc5afd8144d0990a9f9bcc30401a82c
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806500"
 ---
 # <a name="defer-revenues-and-expenses"></a>Fraccionar ingresos y gastos
 Para reconocer un ingreso o un gasto en un periodo distinto del periodo en el que se registró la transacción, puede usar la funcionalidad para fraccionar automáticamente ingresos y gastos según una previsión especificada.
@@ -93,4 +93,3 @@ Los movimientos de contabilidad que se van a registrar en la cuenta de fracciona
 [Configurar las finanzas](finance-setup-finance.md)  
 [Trabajar con diarios generales](ui-work-general-journals.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

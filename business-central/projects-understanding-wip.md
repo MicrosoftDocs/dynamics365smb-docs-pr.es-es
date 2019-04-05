@@ -1,8 +1,8 @@
 ---
-title: "Métodos WIP para calcular y registrar el progreso del proyecto | Documentos de Microsoft"
-description: "Describe los distintos métodos de trabajo en proceso (WIP) que puede utilizar para registrar, supervisar y calcular la información financiera de los proyectos en curso."
+title: Métodos WIP para calcular y registrar el progreso del proyecto | Documentos de Microsoft
+description: Describe los distintos métodos de trabajo en proceso (WIP) que puede utilizar para registrar, supervisar y calcular la información financiera de los proyectos en curso.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: work in process, work in progress, calculate project WIP
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 114acef8ed55bf60d7b96733e321440633037b42
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 85724fd6f43c684007dd22b34665438bf22bf99a
-ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806638"
 ---
 # <a name="understanding-wip-methods"></a>Comprensión de los métodos WIP
 [!INCLUDE[d365fin](includes/d365fin_md.md)] admite los siguientes métodos de cálculo y registro del valor del trabajo en curso.
@@ -36,4 +36,3 @@ ms.lasthandoff: 03/22/2018
 [Compras](purchasing-manage-purchasing.md)         
 [Ventas](sales-manage-sales.md)      
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

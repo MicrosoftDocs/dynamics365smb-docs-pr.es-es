@@ -1,6 +1,6 @@
 ---
-title: "Informes de configuración para Business Central en Power BI | Documentos de Microsoft"
-description: "Haga que los datos estén disponibles como origen de datos en Power BI y generar informes eficaces del estado de la empresa."
+title: Informes de configuración para Business Central en Power BI | Documentos de Microsoft
+description: Haga que los datos estén disponibles como origen de datos en Power BI y generar informes eficaces del estado de la empresa.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: ca4c27eaa1fe66e9bee678d6ec197fee7b928bdd
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806392"
 ---
 # <a name="using-included365finlongmdincludesd365finlongmdmd-as-power-bi-data-source-for-building-reports"></a>Usar [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] como fuente de datos de Power BI para generar informes
 Puede hacer que los datos de [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] estén disponibles como origen de datos en Power BI y generar informes eficaces del estado de la empresa.  
@@ -46,5 +46,4 @@ Para obtener más información, consulte la [documentación de Power BI](https:/
 [Importar datos de empresa de otros sistemas financieros](across-import-data-configuration-packages.md)  
 [Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)   
 [Finanzas](finance.md)  
-[Conectar Power BI a [!INCLUDE[d365fin](includes/d365fin_md.md)]](across-how-to-connect-powerbi-dynamics-365-content-packs-help.md)  
-
+[Conectar Power BI con [!INCLUDE[d365fin](includes/d365fin_md.md)]](across-how-to-connect-powerbi-dynamics-365-content-packs-help.md)  

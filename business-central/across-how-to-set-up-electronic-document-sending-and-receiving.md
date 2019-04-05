@@ -1,21 +1,21 @@
 ---
-title: "Procedimiento: Configurar el envío y la recepción de documentos electrónicos | Documentos de Microsoft"
-description: "Como alternativa al envío de correos electrónicos con archivos adjuntos, puedes enviar y recibir documentos empresariales de forma electrónica."
+title: 'Procedimiento: Configurar el envío y la recepción de documentos electrónicos | Documentos de Microsoft'
+description: Como alternativa al envío de correos electrónicos con archivos adjuntos, puedes enviar y recibir documentos empresariales de forma electrónica.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/04/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 42b56cee413dbb08f3421e95afe49c8ea1aaac03
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806574"
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Configurar el envío y la recepción de documentos electrónicos
 Como alternativa al envío de correos electrónicos con archivos adjuntos, puedes enviar y recibir documentos empresariales de forma electrónica. Se entiende por documento electrónico un archivo compatible con el estándar que representa un documento empresarial, como una factura de un proveedor que se puede recibir y convertir en una factura de compra en [!INCLUDE[d365fin](includes/d365fin_md.md)]. El intercambio de los documentos electrónicos entre dos socios comerciales se realiza a través de un proveedor externo de servicios de intercambio de datos. La versión genérica de [!INCLUDE[d365fin](includes/d365fin_md.md)] admite el envío y la recepción de facturas electrónicas y abonos en formato PEPPOL, admitido por los proveedores de servicios de intercambio de documentos más importantes. Hay preconfigurado un proveedor de servicios de intercambio de documentos principal listo para ser configurado según su empresa.  
@@ -140,4 +140,3 @@ El tema incluye los siguientes procedimientos:
 [Intercambio de datos electrónicamente](across-data-exchange.md)   
 [Facturar ventas](sales-how-invoice-sales.md)   
 [Registrar compras](purchasing-how-record-purchases.md)
-

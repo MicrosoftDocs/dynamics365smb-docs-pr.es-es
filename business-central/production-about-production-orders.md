@@ -1,23 +1,23 @@
 ---
-title: "Acerca de órdenes de producción | Documentos de Microsoft"
-description: "Las órdenes de producción se usan para gestionar la conversión de los materiales adquiridos en productos manufacturados. Las órdenes de producción (solicitudes de proyecto o de trabajo) dirigen el trabajo por las distintas instalaciones (centros de trabajo o de máquina) de la planta."
+title: Acerca de órdenes de producción | Documentos de Microsoft
+description: Las órdenes de producción se usan para gestionar la conversión de los materiales adquiridos en productos manufacturados. Las órdenes de producción (solicitudes de proyecto o de trabajo) dirigen el trabajo por las distintas instalaciones (centros de trabajo o de máquina) de la planta.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 1c534f16c1e69840912e42c30bbcae2d6496b373
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806752"
 ---
 # <a name="about-production-orders"></a>Sobre los pedidos de producción
 Las órdenes de producción se usan para gestionar la conversión de los materiales adquiridos en productos manufacturados. Las órdenes de producción dirigen el trabajo por los distintos centros de trabajo o de máquina de la planta.  
@@ -237,4 +237,3 @@ En el diario de producción, las cantidades de consumo se registran como movimie
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

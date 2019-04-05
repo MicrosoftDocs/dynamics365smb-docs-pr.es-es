@@ -1,23 +1,23 @@
 ---
 title: Elegir productos | Documentos de Microsoft
-description: "La actividad de almacén consistente en realizar el picking de los productos antes de enviarlos o consumirlos se realiza de modo distinto según estén configuradas las funciones de gestión del almacén. La complejidad de la [configuración](../configure-warehouse-processes.md) puede oscilar desde la ausencia total de funciones de almacén, pasando por configuraciones de almacén básicas para la gestión pedido-por-pedido en sólo una o más actividades, hasta configuraciones más avanzadas en las que todas las actividades del almacén se llevan a cabo como parte de un flujo de trabajo dirigido."
+description: La actividad de almacén consistente en realizar el picking de los productos antes de enviarlos o consumirlos se realiza de modo distinto según estén configuradas las funciones de gestión del almacén. La complejidad de la [configuración](../configure-warehouse-processes.md) puede oscilar desde la ausencia total de funciones de almacén, pasando por configuraciones de almacén básicas para la gestión pedido-por-pedido en sólo una o más actividades, hasta configuraciones más avanzadas en las que todas las actividades del almacén se llevan a cabo como parte de un flujo de trabajo dirigido.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/22/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 5d6d2d9527e81a92987f6b8fcdbe8e087c3c537a
 ms.openlocfilehash: 6e9c21dcec2932bcc2b93648289699d6d062bf78
-ms.contentlocale: es-es
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806731"
 ---
 # <a name="pick-items"></a>Elegir productos
 La actividad de almacén consistente en realizar el picking de los productos antes de enviarlos o consumirlos se realiza de modo distinto según estén configuradas las funciones de gestión del almacén. La complejidad puede oscilar desde la ausencia total de funciones de almacén, pasando por configuraciones básicas de almacén para la gestión pedido-por-pedido en sólo una o más actividades, hasta configuraciones más avanzadas en las que todas las actividades del almacén se llevan a cabo como parte de un flujo de trabajo dirigido. Para obtener más información, consulte [Configuración de la administración de almacén](warehouse-setup-warehouse.md).
@@ -53,4 +53,3 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 [Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,23 +1,23 @@
 ---
-title: "Administración del precio de servicio | Documentos de Microsoft"
-description: "Este tema describe cómo aplicar el mejor precio a los pedidos de servicio, configurar los acuerdos de precios de servicio personalizados, mejorar la eficacia de los empelados de servicio y acelerar el proceso de facturación."
+title: Administración del precio de servicio | Documentos de Microsoft
+description: Este tema describe cómo aplicar el mejor precio a los pedidos de servicio, configurar los acuerdos de precios de servicio personalizados, mejorar la eficacia de los empelados de servicio y acelerar el proceso de facturación.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
+ms.openlocfilehash: eb3d9b075f7209634cdc8b6f88a24409f18811e7
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 75c50a7044e3494df5aadb90caa1c008a6ac101c
-ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806386"
 ---
 # <a name="service-price-management"></a>Gestión de precios de servicios
 La funcionalidad de gestión de precios de servicio le permite aplicar el mejor precio a los pedidos de servicio, configurar los acuerdos de precios de servicio personalizados, mejorar la eficacia de los empelados de servicio y acelerar el proceso de facturación.  
@@ -69,4 +69,3 @@ La siguiente tabla describe los cálculos.
 ## <a name="see-also"></a>Consulte también  
 [Configurar precios y costes adicionales de servicios](service-how-setup-service-costs-pricing.md)  
 [Configurar la gestión de servicios](service-setup-service.md)  
-

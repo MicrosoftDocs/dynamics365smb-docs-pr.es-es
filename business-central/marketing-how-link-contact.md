@@ -1,8 +1,8 @@
 ---
 title: Vincular contactos con clientes y proveedores | Documentos de Microsoft
-description: "Describe cómo vincular un contacto con un cliente, proveedor o banco de la misma empresa, para poder sincronizar datos comunes."
+description: Describe cómo vincular un contacto con un cliente, proveedor o banco de la misma empresa, para poder sincronizar datos comunes.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-create-contact-companies
+ms.openlocfilehash: ae6b02e7ce73d4a13cdc7dd42858ac791d4bf1c2
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2613e32873c91fe24c4734456338bb1f7e18849d
-ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806339"
 ---
 # <a name="link-contacts-with-customers-vendors-and-bank-accounts"></a>Vincular contactos con clientes, proveedores y bancos
 Si tiene un contacto y un cliente, proveedor o cuenta bancaria de la misma empresa, puede vincular las dos entidades. Al vincular las dos entidades, se pueden sincronizar los datos que son comunes para que sean los mismos en ambos sitios.
@@ -34,4 +34,3 @@ Si tiene un contacto y un cliente, proveedor o cuenta bancaria de la misma empre
 [Sincronizar contactos con clientes, proveedores y cuentas bancarias](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
 [Creación y administración de contactos](marketing-contacts.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

@@ -1,23 +1,23 @@
 ---
-title: "Procedimiento: agrupamiento de envíos en una factura única | Documentos de Microsoft"
-description: "Si desea facturar varios envíos a la vez, utilice la función de agrupación de envíos."
+title: 'Procedimiento: agrupamiento de envíos en una factura única | Documentos de Microsoft'
+description: Si desea facturar varios envíos a la vez, utilice la función de agrupación de envíos.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 914196e61a4f1c3647fdca76133dbb5612ce87c8
-ms.contentlocale: es-es
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806800"
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a>Agrupar envíos en una factura única
 Si desea facturar varios envíos a la vez, utilice la función de agrupación de envíos.  
@@ -62,4 +62,3 @@ Repita las tareas 1 a 3 para cualquier otro documento asignado, como pedidos abi
 ## <a name="see-also"></a>Consulte también  
 [Ccial](sales-manage-sales.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

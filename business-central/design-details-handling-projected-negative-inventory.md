@@ -1,24 +1,24 @@
 ---
-title: "Detalles de diseño: Gestión de inventario negativo proyectado | Documentos de Microsoft"
-description: "El punto de pedido expresa la demanda prevista durante el plazo del producto. Cuando se supera el punto de pedido, ha llegado el momento de pedir más. Pero el inventario proyectado debe ser lo suficientemente grande como para satisfacer la demanda hasta que se reciba el nuevo pedido. Mientras tanto, el stock de seguridad debe satisfacer las fluctuaciones en la demanda hasta un nivel de servicio objetivo."
+title: 'Detalles de diseño: Gestión de inventario negativo proyectado | Documentos de Microsoft'
+description: El punto de pedido expresa la demanda prevista durante el plazo del producto. Cuando se supera el punto de pedido, ha llegado el momento de pedir más. Pero el inventario proyectado debe ser lo suficientemente grande como para satisfacer la demanda hasta que se reciba el nuevo pedido. Mientras tanto, el stock de seguridad debe satisfacer las fluctuaciones en la demanda hasta un nivel de servicio objetivo.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
+ms.openlocfilehash: cfedced3a1e7ccf94294ebd36f4fb5311fd1933e
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 25a2017fd91f09a9d7725c68ffaa0df48a041294
-ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806555"
 ---
 # <a name="design-details-handling-projected-negative-inventory"></a>Detalles de diseño: Gestión de inventario negativo proyectado
 El punto de pedido expresa la demanda prevista durante el plazo del producto. Cuando se supera el punto de pedido, ha llegado el momento de pedir más. Pero el inventario proyectado debe ser lo suficientemente grande como para satisfacer la demanda hasta que se reciba el nuevo pedido. Mientras tanto, el stock de seguridad debe satisfacer las fluctuaciones en la demanda hasta un nivel de servicio objetivo.  
@@ -55,4 +55,3 @@ El punto de pedido expresa la demanda prevista durante el plazo del producto. Cu
  [Detalles de diseño: Parámetros de la planificación](design-details-planning-parameters.md)   
  [Detalles de diseño: Gestión de directivas de reaprovisionamiento](design-details-handling-reordering-policies.md)   
  [Detalles de diseño: Planificación de aprovisionamiento](design-details-supply-planning.md)
-

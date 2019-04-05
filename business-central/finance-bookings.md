@@ -1,6 +1,6 @@
 ---
 title: Facturar las reservas en Business Central | Documentos de Microsoft
-description: "Obtenga información sobre cómo realizar la facturación masiva desde Microsoft Bookings en Business Central."
+description: Obtenga información sobre cómo realizar la facturación masiva desde Microsoft Bookings en Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: invoicing, bookings
 ms.date: 01/07/2019
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: a98027c3ef3171491f84197897f93cbed4e288c2
 ms.openlocfilehash: 65542f3855eff3a5ed117bff3247adbf05def6e2
-ms.contentlocale: es-es
-ms.lasthandoff: 01/07/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806538"
 ---
 # <a name="bulk-invoicing-for-microsoft-bookings-in-included365finincludesd365finmdmd"></a>Facturación masiva para Microsoft Bookings en [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Si su empresa utiliza la aplicación Bookings en Office 365, puede hacer la facturación masiva para citas. La página **Bookings sin facturar** de [!INCLUDE[d365fin](includes/d365fin_md.md)] ofrece una lista de las reservas completadas de la empresa. En esta página puede seleccionar rápidamente citas que desea facturar y para crear borradores de factura de los servicios prestados.  
@@ -43,4 +43,3 @@ La compatibilidad para facturar citas desde Bookings es más simple que el flujo
 [Facturar ventas](sales-how-invoice-sales.md)  
 [Configuración de ventas](sales-setup-sales.md)  
 [Microsoft Bookings](https://products.office.com/en-us/business/scheduling-and-booking-app)  
-

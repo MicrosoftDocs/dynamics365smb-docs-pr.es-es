@@ -1,21 +1,21 @@
 ---
-title: "Detalles de diseño: Búsqueda de combinaciones de dimensiones | Documentos de Microsoft"
-description: "Cuando se cierra una página después de editar un grupo de dimensiones, Business Central evalúa si existe el grupo de dimensiones editado. Si no existe el grupo, se crea uno nuevo y se devuelve el identificador de la combinación de dimensiones."
+title: 'Detalles de diseño: Búsqueda de combinaciones de dimensiones | Documentos de Microsoft'
+description: Cuando se cierra una página después de editar un grupo de dimensiones, Business Central evalúa si existe el grupo de dimensiones editado. Si no existe el grupo, se crea uno nuevo y se devuelve el identificador de la combinación de dimensiones.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 02/11/2019
 ms.author: sgroespe
+ms.openlocfilehash: 499ac8e6e42eeafa12ddee650661200ff876805f
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 1814d6e34fc2ab2d0c64a26ba85fa19074be4dda
-ms.contentlocale: es-es
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806541"
 ---
 # <a name="design-details-searching-for-dimension-combinations"></a>Detalles de diseño: Búsqueda de combinaciones de dimensiones
 Cuando se cierra una página después de editar un grupo de dimensiones, [!INCLUDE[d365fin](includes/d365fin_md.md)] evalúa si existe el grupo de dimensiones editado. Si no existe el grupo, se crea uno nuevo y se devuelve el identificador de la combinación de dimensiones.  
@@ -60,7 +60,7 @@ EXIT(DimSet.ID);
 
 ```  
 
- No obstante, para mantener la capacidad de [!INCLUDE[d365fin](includes/d365fin_md.md)] de cambiar el nombre de una dimensión y un valor de dimensión, la tabla 348 **Valor dimensión** se amplía con un campo entero de **Id. valor de dimensión**. Esta tabla convierte el par de campos **Dimensión** y **Valor dimensión** en un valor entero. Al cambiar el nombre de la dimensión y del valor de dimensión, no se modifica el valor de entero.  
+ No obstante, para mantener la capacidad de [!INCLUDE[d365fin](includes/d365fin_md.md)] de cambiar el nombre de una dimensión y un valor de dimensión, la tabla 349 **Valor dimensión** se amplía con un campo numérico entero de **Id. valor de dimensión**. Esta tabla convierte el par de campos **Dimensión** y **Valor dimensión** en un valor entero. Al cambiar el nombre de la dimensión y del valor de dimensión, no se modifica el valor de entero.  
 
 ```  
 DimSet."Parent ID" := 0;  // 'root'  
@@ -77,6 +77,5 @@ EXIT(DimSet.ID);
  [Detalles de diseño: Movimientos de grupo de dimensiones](design-details-dimension-set-entries.md)   
  [Información general de los movimientos del grupo dimensiones](design-details-dimension-set-entries-overview.md)   
  [Detalles de diseño: Estructura de tablas](design-details-table-structure.md)   
- [Detalles de diseño: Gestión de dimensiones de unidad de código 408](design-details-codeunit-408-dimension-management.md)   
+ [Detalles de diseño: Gestión de dimensiones de codeunit 408](design-details-codeunit-408-dimension-management.md)   
  [Detalles de diseño: Ejemplos de código de patrones cambiados en las modificaciones](design-details-code-examples-of-changed-patterns-in-modifications.md)
-

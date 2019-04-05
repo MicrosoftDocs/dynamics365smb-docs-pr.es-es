@@ -1,25 +1,25 @@
 ---
 title: 'Sugerencias y trucos: RapidStart Services | Documentos de Microsoft'
-description: "Cuando configura empresas con RapidStart Services, hay algunas sugerencias y trucos que puede aprovechar para facilitar la implementación."
+description: Cuando configura empresas con RapidStart Services, hay algunas sugerencias y trucos que puede aprovechar para facilitar la implementación.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 875ab6f5875a842fb4c2ab906f39ae95607f6ba8
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4e8dc4436b01f69292a01afbc7a5d0381b544a77
-ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806695"
 ---
-# <a name="tips-and-tricks-rapidstart-services"></a>Sugerencias y trucos: servicios de RapidStart
+# <a name="tips-and-tricks-rapidstart-services"></a>Sugerencias y trucos: RapidStart Services
 Cuando configura empresas con RapidStart Services, hay algunas sugerencias y trucos que puede aprovechar para facilitar la implementación.  
 
 ## <a name="take-advantage-of-configuration-templates"></a>Aprovechar las plantillas de configuración  
@@ -42,4 +42,3 @@ Se recomienda migrar los saldos iniciales en el orden siguiente.
 ## <a name="see-also"></a>Consulte también  
 [Configurar una empresa con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administración](admin-setup-and-administration.md)
-

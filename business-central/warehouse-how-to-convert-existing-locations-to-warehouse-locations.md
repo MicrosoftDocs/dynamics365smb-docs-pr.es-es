@@ -1,23 +1,23 @@
 ---
-title: "Procedimiento: convierta las ubicaciones existentes en ubicaciones de almacén | Documentos de Microsoft"
-description: "Puede activar una ubicación de inventario existente para utilizar zonas y ubicaciones, y para operar como ubicación de almacén."
+title: 'Procedimiento: convierta las ubicaciones existentes en ubicaciones de almacén | Documentos de Microsoft'
+description: Puede activar una ubicación de inventario existente para utilizar zonas y ubicaciones, y para operar como ubicación de almacén.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 6f5c798587c832b25ef2ead944fc5f5f8ea89644
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c97e6995a0e27d0eebcadf5b783cd9aa56cb5fde
-ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806674"
 ---
 # <a name="convert-existing-locations-to-warehouse-locations"></a>Convertir los almacenes existentes en ubicaciones de almacén
 Puede activar una ubicación de inventario existente para utilizar zonas y ubicaciones, y para operar como ubicación de almacén.  
@@ -32,7 +32,7 @@ Puede crear zonas y ubicaciones antes o después de la conversión. La única ub
 ## <a name="to-enable-an-existing-location-to-operate-as-a-warehouse-location"></a>Para activar una ubicación para que funcione como una ubicación de almacén  
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Crear un almacén** y luego elija el enlace relacionado.  
 2.  En el campo de **Cód. almacén**, especifique la ubicación que desea activar para el procesamiento de almacén.  
-3.  En el campo de **Cód. ubicación ajuste**, especifique la ubicación en el lugar de almacenamiento en donde se almacenan los movimientos de almacén no sincronizados. Para obtener más información, consulte “Sincronizar las entradas ajustadas de almacén con los movimientos de productos correspondientes" en [Recuento, ajuste, y reclasificación de inventario](inventory-how-count-adjust-reclassify.md).  
+3.  En el campo de **Cód. ubicación ajuste**, especifique la ubicación en el lugar de almacenamiento en donde se almacenan los movimientos de almacén no sincronizados. Para obtener más información, consulte [Para sincronizar los movimientos ajustados de almacén con los correspondientes movimientos de producto](inventory-how-count-adjust-reclassify.md#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries).  
 
     Mediante los movimientos de producto pendientes para el almacén especificado, se crean líneas de diario de almacén que suman las combinaciones de Nº producto, Cód. variante, Cód. unidad medida y, si es necesario, Nº lote y Nº serie en los movimientos del diario de productos. Entonces, se registrarán las líneas del diario de almacén. Este registro crea movimientos de almacén que colocan el inventario en la ubicación de ajuste de almacén. También se configura el **Cód. ubicación ajuste** en la ficha de almacén.  
 
@@ -51,4 +51,3 @@ Puede crear zonas y ubicaciones antes o después de la conversión. La única ub
 [Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

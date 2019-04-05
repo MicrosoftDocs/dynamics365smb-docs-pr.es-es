@@ -1,6 +1,6 @@
 ---
 title: Liquidar movimientos de cliente en pagos conciliados | Documentos de Microsoft
-description: "Describe cómo liquidar los recibos de efectivo o los reembolsos a uno o varios movimientos de clientes pendientes y conciliar pagos del cliente."
+description: Describe cómo liquidar los recibos de efectivo o los reembolsos a uno o varios movimientos de clientes pendientes y conciliar pagos del cliente.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,35 +8,35 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipt
-ms.date: 10/01/2018
+ms.date: 02/08/2019
 ms.author: sgroespe
+ms.openlocfilehash: f18cbb872d01daec391ca0c078f842a5cf89d74d
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 5f685ca69d9cf434e04e0c5205626eb24af3b5be
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806362"
 ---
-# <a name="reconcile-customer-payments-manually"></a>Conciliar pagos de cliente manualmente
+# <a name="reconcile-customer-payments-with-the-cash-receipt-journal-or-from-customer-ledger-entries"></a>Concilie los pagos de clientes con el diario de recibos de efectivo o de los movimientos de cliente.
 Cuando recibe un cobro de un cliente o efectúa un reembolso, debe decidir si va a liquidar el pago o reembolsarlo para cerrar uno o varios movimientos pendientes del debe o el haber. Puede especificar el importe que desea liquidar. Por ejemplo, puede liquidar pagos parciales en movimientos de cliente. El cierre de movimientos de cliente garantiza que la información, como las estadísticas de cliente, los extractos de cuenta y los intereses, sean correctos.
 
-> [!NOTE]  
+> [!TIP]  
 >   En la página **Movs. clientes**, la fuente de color rojo significa que el pago relacionado ha superado su fecha de vencimiento. Si los pagos vencidos se están convirtiendo en un problema, podemos ayudarle a reducir su frecuencia. Puede habilitar la extensión de **Predicciones de pago atrasado**, que usa un modelo predictivo que creamos en Azure Machine Learning para predecir el momento en que se realizan los pagos. Estas predicciones le ayudan a reducir los cobros pendientes y afinar la estrategia de sus colecciones. Por ejemplo, si se predice que un pago se retrasará, puede ajustar los términos de pago o el método de pago para el cliente. Para obtener más información, consulte [Predicciones de pago atrasado](ui-extensions-late-payment-prediction.md).  
 
 Puede liquidar movimientos de cliente de varias formas:
 
-* Introduciendo información en páginas específicas, como **Diario de recibos de efectivo** y **Diario de conciliación de pagos**.
-* Desde documentos de ventas.
-* Desde movimientos de cliente después de que los documentos de ventas se hayan registrado pero no liquidado.
+* Al introducir información en páginas dedicadas:
+    * La página **Diario de conciliación de pagos**. Para obtener más información, vea [Liquidación de pagos automáticamente y conciliación de cuentas bancarias](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+    * La página **Registro de pago**. Para obtener más información, consulte [Conciliar pagos de cliente desde una lista de documentos de ventas sin abonar](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md).
+    * El **Diario de recibos de cobro**. Este se describe a continuación.
+* Rellenando el campo **Liq. por nº documento** en documentos de abono de venta. Este se describe a continuación.
+* Mediante la acción **Marcar id. de liquidación** en un movimiento de cliente. Este se describe a continuación.
 
 > [!NOTE]  
 >   Si el campo **Método liquidación** de la ficha del cliente contiene **Liq. por antigüedad**, los pagos se liquidan en el movimiento de crédito pendiente más antiguo, a menos que especifique manualmente un movimiento. Si el método de liquidación es **Manual**, siempre debe liquidar los movimientos manualmente.
 
-Puede liquidar pagos de cliente manualmente en la página **Diario de recibos de efectivo**. Un diario de cobros es un tipo de diario general, por lo que puede usarlo para registrar transacciones en cuentas contables, de banco, de cliente, de proveedor y de activos fijos. Puede liquidar el pago de uno o más movimientos de débito cuando registra el pago o puede liquidarlos desde movimientos registrados posteriormente.
-
-También puede liquidar pagos de cliente y de proveedor en la página **Diario de conciliación de pagos** mediante funciones para la importación de extractos bancarios, la liquidación automática y la conciliación de cuentas bancarias. Para obtener más información, vea [Conciliar pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md). De forma alternativa, puede conciliar los pagos de clientes basados en una lista de documentos de ventas sin abonar en la página **Registro de pagos**. Para obtener más información, consulte [Conciliar pagos de cliente desde una lista de documentos de ventas sin abonar](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md).
-
 ## <a name="to-fill-and-post-a-cash-receipt-journal"></a>Para rellenar y registrar un diario de recibos de efectivo
+Un diario de cobros es un tipo de diario general, por lo que puede usarlo para registrar transacciones en cuentas contables, de banco, de cliente, de proveedor y de activos fijos. Puede liquidar el pago de uno o más movimientos de débito cuando registra el pago o puede liquidarlos desde movimientos registrados posteriormente.
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diario de recibos de efectivo** y luego elija el enlace relacionado.
 2. Seleccione la acción **Editar diario**.
 3. Seleccione la sección de diario que le interese en el campo **Nombre sección**.
@@ -159,4 +159,3 @@ Cuando se corrige una liquidación errónea, se crean y registran movimientos de
 [Administrar cobros](receivables-manage-receivables.md)  
 [Ventas](sales-manage-sales.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,23 +1,23 @@
 ---
-title: "Tutorial: cálculo del trabajo en curso para un proyecto | Documentos de Microsoft"
-description: "Con proyectos, puede programar el uso de los recursos de su empresa y realizar un seguimiento de los diversos costes asociados con el uso de recursos en un proyecto específico. Los proyectos implican el consumo de horas de mano de obra, horas de maquinaria, productos de inventario y otros tipos de consumo que se deben controlar a medida que avanza un proyecto."
+title: 'Tutorial: cálculo del trabajo en curso para un proyecto | Documentos de Microsoft'
+description: Con proyectos, puede programar el uso de los recursos de su empresa y realizar un seguimiento de los diversos costes asociados con el uso de recursos en un proyecto específico. Los proyectos implican el consumo de horas de mano de obra, horas de maquinaria, productos de inventario y otros tipos de consumo que se deben controlar a medida que avanza un proyecto.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
 ms.openlocfilehash: 396aefb64b4bc4f4555ae3a512656aa3c66bad20
-ms.contentlocale: es-es
-ms.lasthandoff: 01/31/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806442"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Tutorial: cálculo del trabajo en curso para un proyecto
 
@@ -43,10 +43,10 @@ Con proyectos, puede programar el uso de los recursos de su empresa y realizar u
  Para poder realizar las tareas del tutorial, [!INCLUDE[d365fin](includes/d365fin_md.md)] debe estar instalado en su ordenador:  
 
 ## <a name="story"></a>Historia  
- Este tutorial se centra en la empresa CRONUS International Ltd., una empresa de diseño y consultoría que diseña y ajusta nuevas infraestructuras, (como salas de conferencias y oficinas) con mobiliario, accesorios y unidades de almacenamiento. La mayor parte del trabajo en CRONUS está orientado al proyecto y Tricia, un miembro del equipo de proyecto, utiliza los trabajos para tener una visión general de cada trabajo en curso que CRONUS ha iniciado y también los trabajos que se han completado. Algunos de los trabajos pueden ser muy largos y pueden durar varios meses. Tricia puede usar un Cuenta WIP para registrar el trabajo en curso y realizar el seguimiento de los costes del proyecto.  
+ Este tutorial se centra en la empresa CRONUS España S.A., una empresa de diseño y consultoría que diseña y ajusta nuevas infraestructuras, (como salas de conferencias y oficinas) con mobiliario, accesorios y unidades de almacenamiento. La mayor parte del trabajo en CRONUS está orientado al proyecto y Tricia, un miembro del equipo de proyecto, utiliza los trabajos para tener una visión general de cada trabajo en curso que CRONUS ha iniciado y también los trabajos que se han completado. Algunos de los trabajos pueden ser muy largos y pueden durar varios meses. Tricia puede usar un Cuenta WIP para registrar el trabajo en curso y realizar el seguimiento de los costes del proyecto.  
 
 ## <a name="calculating-wip"></a>Cálculo de WIP  
- CRONUS ha contratado un proyecto de larga duración que ahora se ha ampliado en varios periodos de registro. Tricia, un miembro de equipo de proyecto, calcula el trabajo en curso (WIP) para garantizar que el informe financiero de la empresa será preciso.  
+ CRONUS ha contratado un proyecto extenso que ahora se ha ampliado a varios periodos de registro. Tricia, un miembro de equipo de proyecto, calcula el trabajo en curso (WIP) para garantizar que el informe financiero de la empresa será preciso.  
 
  Durante este procedimiento, Tricia seleccionará un grupo específico de tareas que se incluirá en el cálculo de WIP. En la página **Líneas tarea proyecto**, puede especificar estas líneas en la columna **WIP-Total**.  
 
@@ -166,4 +166,3 @@ Con proyectos, puede programar el uso de los recursos de su empresa y realizar u
  [Comprensión de los métodos WIP](projects-understanding-wip.md)   
  [Controlar el progreso y el rendimiento](projects-how-monitor-progress-performance.md)  
  [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,6 +1,6 @@
 ---
 title: Ordenar, buscar y filtrar listas | Documentos de Microsoft
-description: "Trabaje de manera eficiente en las listas buscando en sus datos, clasificando columnas y refinando los resultados utilizando potentes símbolos de filtrado y atajos de teclado."
+description: Trabaje de manera eficiente en las listas buscando en sus datos, clasificando columnas y refinando los resultados utilizando potentes símbolos de filtrado y atajos de teclado.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 5d6d2d9527e81a92987f6b8fcdbe8e087c3c537a
 ms.openlocfilehash: c6eb9465d07b702e545347cad5acf0a42f01d1de
-ms.contentlocale: es-es
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806437"
 ---
 # <a name="sorting-searching-and-filtering-lists"></a>Ordenar, buscar y filtrar listas
 Existen algunos parámetros que puede configurar que le ayudarán a buscar, encontrar y limitar los registros de una lista. Éstos incluyen la ordenación, busqueda y filtrando. Puede aplicar solo algunos o todos a la vez para encontrar o analizar rápidamente sus datos.
@@ -287,4 +287,3 @@ Use `%myvendors` en el campo de proveedor **No** para mostrar todos los registro
 ## <a name="see-also"></a>Consulte también
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Preguntas comunes acerca de Buscar y filtrar](ui-search-filter-faq.md)
-

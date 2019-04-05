@@ -1,23 +1,23 @@
 ---
 title: Configurar horas de trabajo y de servicio | Documentos de Microsoft
-description: "Puede especificar las horas de servicio habituales de la empresa. Estas horas de servicio se utilizarán para calcular la fecha y tiempo de respuesta de pedidos y ofertas de servicio y para enviar advertencias de tiempo de respuesta."
+description: Puede especificar las horas de servicio habituales de la empresa. Estas horas de servicio se utilizarán para calcular la fecha y tiempo de respuesta de pedidos y ofertas de servicio y para enviar advertencias de tiempo de respuesta.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 223d69df17dad2a1309d333fc64be8b208262530
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806408"
 ---
 # <a name="set-up-work-hours-and-service-hours"></a>Configurar horas de trabajo y de servicio
 Normalmente, un sistema de gestión de servicios realiza un seguimiento de horas de recursos y del estado del pedido de servicio para prever cargas de trabajo y necesidades de servicio. [!INCLUDE[d365fin](includes/d365fin_md.md)] incorpora herramientas que puede personalizar para registrar este tipo de información.  
@@ -60,4 +60,3 @@ Si no configura horas de servicio específicas para un contrato de servicio, se 
 [Descripción del estado de asignación y estado de reparación](service-allocation-status-and-repair-status.md)  
 [Configurar la gestión de servicios](service-setup-service.md)  
 [Descripción del estado de pedido de servicio y de reparación](service-order-repair-status.md)  
-

@@ -1,8 +1,8 @@
 ---
-title: "Formas de amortización | Documentos de Microsoft"
-description: "Obtenga información sobre los diferentes métodos para amortizar los activos fijos."
+title: Formas de amortización | Documentos de Microsoft
+description: Obtenga información sobre los diferentes métodos para amortizar los activos fijos.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 4a6bc27850b84928641f5de7c364fb150fcb4481
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806476"
 ---
 # <a name="depreciation-methods"></a>Métodos de depreciación
 Hay ocho métodos de amortización disponibles:  
@@ -357,4 +357,3 @@ Cuando introduzca un movimiento en B1 del diario general de activos fijos y acti
 [Finanzas](finance.md)  
 [Introducción](product-get-started.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

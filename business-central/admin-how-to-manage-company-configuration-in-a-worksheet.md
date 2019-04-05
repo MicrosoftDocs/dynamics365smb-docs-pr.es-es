@@ -1,23 +1,23 @@
 ---
-title: "Gestionar la configuración de la empresa en una hoja de trabajo | Documentos de Microsoft"
-description: "La hoja de trabajo de configuración es la ubicación central en la que puede planificar, controlar y realizar el trabajo de configuración. Puede crear una hoja de trabajo para cada empresa con la que trabaja o crear una hoja de trabajo de configuración estándar que se puede usar para configurar varias empresas idénticas."
+title: Gestionar la configuración de la empresa en una hoja de trabajo | Documentos de Microsoft
+description: La hoja de trabajo de configuración es la ubicación central en la que puede planificar, controlar y realizar el trabajo de configuración. Puede crear una hoja de trabajo para cada empresa con la que trabaja o crear una hoja de trabajo de configuración estándar que se puede usar para configurar varias empresas idénticas.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 12/07/2018
 ms.author: sgroespe
+ms.openlocfilehash: bd228a418db3b3ee0b3094a0da520dea6139281c
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
-ms.openlocfilehash: 1ba27ee0ac252bbe1fd47b900654980df5b18fdf
-ms.contentlocale: es-es
-ms.lasthandoff: 12/11/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806429"
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Gestionar la configuración de la empresa en una hoja de trabajo
 La hoja de trabajo de configuración es la ubicación central en la que puede planificar, controlar y realizar el trabajo de configuración. Puede crear una hoja de trabajo para cada empresa con la que trabaja o crear una hoja de trabajo de configuración estándar que se puede usar para configurar varias empresas idénticas.  
@@ -74,7 +74,7 @@ En los procedimientos siguientes se muestra cómo agregar y personalizar la info
     > Ejemplo: si se obtienen tablas relacionadas para la tabla **Cliente**, entonces la tabla **Almacén** no se agregará, ya que está solo condicionalmente con la tabla **Cliente**, por ejemplo si el campo **Cód. almacén** se ha rellenado en la tabla **Cliente**.  
     > - Se filtra la tabla relacionada.  
     > Ejemplo: un campo de la tabla relacionada tiene la cláusula WHERE. El motivo de esto es que la información de las relaciones involucradas está almacenada en la tabla virtual **Campo** y no está disponible en páginas como la hoja de cálculo de la configuración por motivos de rendimiento.  
-    > Deberá agregar tablas con estas relaciones complejas manualmente según el paso 4 de la sección "Procedimiento para agregar una tabla a la hoja de cálculo".
+    > Deberá agregar tablas con estas relaciones complejas manualmente siguiendo el paso 4 indicado en [Para agregar una tabla a la hoja de cálculo](admin-how-to-manage-company-configuration-in-a-worksheet.md#to-add-a-table-to-the-worksheet).
 
 7. Para eliminar tablas de la lista de tablas resultante, seleccione una tabla que desee quitar y elija la acción **Eliminar**.  
 
@@ -128,4 +128,3 @@ A medida que crea un paquete de configuración para una solución, puede ver y p
 [Establecer la configuración de una empresa](admin-set-up-company-configuration.md)  
 [Configurar una empresa con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administración](admin-setup-and-administration.md)
-

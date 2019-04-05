@@ -1,23 +1,23 @@
 ---
-title: "Cómo registrar el material de rechazo manualmente | Documentos de Microsoft"
+title: Cómo registrar el material de rechazo manualmente | Documentos de Microsoft
 description: Si se produce material de rechazo durante el proceso, se puede introducir en el diario de salida. Observe que la cantidad de material de rechazo no incrementa la cantidad de salida.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 5a10b42849f283cdd77c1f754d039dbcd7515f8a
-ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806657"
 ---
 # <a name="post-scrap-manually"></a>Registrar el material de rechazo manualmente
 Si se produce material de rechazo durante el proceso, se puede introducir en el diario de salida. 
@@ -39,4 +39,3 @@ Si se produce material de rechazo durante el proceso, se puede introducir en el 
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,6 +1,6 @@
 ---
 title: Liquidar pagos a documentos relacionados y publicarlos | Documentos de Microsoft
-description: "Describe cómo registrar los pagos que realiza a los proveedores y los reembolsos que realiza a los clientes."
+description: Describe cómo registrar los pagos que realiza a los proveedores y los reembolsos que realiza a los clientes.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, customer refund, creditor, debt, balance due, AP
 ms.date: 10/01/2018
 ms.author: edupont
+ms.openlocfilehash: 7b3065dd0528588fec4c05e4e9c391a3beb1cc9a
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 605c4ad4043d8b7c4b5603a4821e683f63d4a33d
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806383"
 ---
 # <a name="record-payments-and-refunds-in-the-payment-journal"></a>Registrar pagos y reembolsos en el diario de pagos
 
@@ -25,9 +25,9 @@ El diario de pagos es un diario general que se optimiza para crear pagos. Puede 
 
 - Aplicación de pagos a facturas o abonos
 
-    Si completa el campo **Liq. por n.º documento** con la factura o nota de crédito que debe pagarse o reembolsarse, entonces el documento en cuestión se configura como pagado cuando publica el diario. Esto se conoce como entrega "liquidada". Como alternativa a la aplicación durante la publicación de pagos, puede usar la página **Aplicar movs. proveedor** y **Aplicar movs. cliente** después de realizar la publicación de los pagos. Para obtener más información, consulte, por ejemplo [Conciliar pagos de proveedor manualmente](payables-how-apply-purchase-transactions-manually.md).  
+    Si completa el campo **Liq. por n.º documento** con la factura o nota de crédito que debe pagarse o reembolsarse, entonces el documento en cuestión se configura como pagado cuando publica el diario. Esto se conoce como entrega "liquidada". Como alternativa a la aplicación durante la publicación de pagos, puede usar la página **Aplicar movs. proveedor** y **Aplicar movs. cliente** después de realizar la publicación de los pagos. Para obtener más información, consulte por ejemplo, [Conciliar pagos a proveedores con el diario de pagos o desde los movimientos de proveedor](payables-how-apply-purchase-transactions-manually.md).  
 
-- Obtener pagos sugeridos a proveedores o empleados 
+- Obtener pagos sugeridos a proveedores o empleados
 
     Las funciones **Proponer pagos a proveedores** y **Proponer pagos a empleados** pueden ayudarle a completar líneas de diario de pagos automáticamente de acuerdo con la priorización del proveedor y las fechas de vencimiento. Para obtener más información, vea [Proponer pagos a proveedores](payables-how-suggest-vendor-payments.md). Con esta función, se rellena siempre el campo **Liq. por nº documento**.  
 
@@ -35,7 +35,7 @@ El diario de pagos es un diario general que se optimiza para crear pagos. Puede 
 
     Además de registrar que se realiza el pago, también puede usar la página **Diario de pagos** para generar el pago y procesarlo en su banco. Para obtener más información, consulte [Realizar pagos de cheques](payables-how-work-checks.md) y [Realizar pagos electrónicos](payables-how-export-payments-bank-file.md).  
 
-## <a name="to-make-payments-in-the-payment-journal"></a>Realizar pagos en el diario de pagos. 
+## <a name="to-make-payments-in-the-payment-journal"></a>Realizar pagos en el diario de pagos.
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diarios de pagos** y luego elija el enlace relacionado.
 2. Abra la sección de diario dedicada a los pagos.
@@ -57,4 +57,3 @@ El diario de pagos es un diario general que se optimiza para crear pagos. Puede 
 [Trabajar con diarios generales](ui-work-general-journals.md)  
 [Personalización de su área de trabajo](ui-personalization-user.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

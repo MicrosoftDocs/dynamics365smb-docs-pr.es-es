@@ -1,23 +1,23 @@
 ---
-title: "Procedimiento: configure almacenes básicos con áreas de operaciones | Documentos de Microsoft"
-description: "Si las áreas de operaciones internas, como producción o ensamblado, existen en configuraciones de almacén básico donde las ubicaciones utilizan el campo de instalación de **Ubicac. obligatoria** y los campos de configuración **Picking requerido** y **Ubicación requerida**, puede utilizar tres documentos de almacén básico siguientes para registrar sus actividades de almacén para las áreas de operaciones internas."
+title: 'Procedimiento: configure almacenes básicos con áreas de operaciones | Documentos de Microsoft'
+description: Si las áreas de operaciones internas, como producción o ensamblado, existen en configuraciones de almacén básico donde las ubicaciones utilizan el campo de instalación de **Ubicac. obligatoria** y los campos de configuración **Picking requerido** y **Ubicación requerida**, puede utilizar tres documentos de almacén básico siguientes para registrar sus actividades de almacén para las áreas de operaciones internas.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: f11719cc9488adf84bca8cd5a23d28caaa75f4bf
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 04b1e87cb41df19559d85cf02eabbf6aaec0011a
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806416"
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Configurar almacenes básicos con áreas de operaciones
 Si las áreas de operaciones internas, como producción o ensamblado, existen en configuraciones de almacén básico donde las ubicaciones utilizan el campo de instalación de **Ubicac. obligatoria** y los campos de configuración **Picking requerido** y **Ubicación requerida**, puede utilizar los documentos de almacén básico siguientes para registrar sus actividades de almacén para las áreas de operaciones internas:  
@@ -35,7 +35,7 @@ Para utilizar estas páginas con las operaciones internas, por ejemplo para real
 - Defina las estructuras de ubicación predeterminada para los componentes y los productos finales que fluirán a o desde los recursos de la operación.  
 - Cree ubicaciones "de y a" que se dediquen a recursos específicos de la operación para evitar que realizar picking de artículos para los documentos de salida.
 
-Los códigos de ubicación que se configuran en las fichas de almacén sólo definen un flujo de almacén predeterminado para algunas actividades determinadas, como componentes de un departamento de ensamblado. Existe otra funcionalidad para asegurarse de que los productos no están disponibles para otras actividades cuando se colocan en una ubicación concreta. Para obtener más información, consulte la sección “Crear ubicaciones de componentes dedicadas”.
+Los códigos de ubicación que se configuran en las fichas de almacén sólo definen un flujo de almacén predeterminado para algunas actividades determinadas, como componentes de un departamento de ensamblado. Existe otra funcionalidad para asegurarse de que los productos no están disponibles para otras actividades cuando se colocan en una ubicación concreta. Para obtener más información, consulte [Crear ubicaciones de componentes dedicadas](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md#to-create-dedicated-component-bins).
 
 Los procedimientos siguientes se basan en las actividades del almacén básico de creación alrededor de un área de producción. Los pasos son parecidos para otras áreas de operación, como ensamblado, gestión del servicio y proyectos.  
 
@@ -142,4 +142,3 @@ La fabricación de una ubicación dedicada proporciona una funcionalidad similar
 [Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

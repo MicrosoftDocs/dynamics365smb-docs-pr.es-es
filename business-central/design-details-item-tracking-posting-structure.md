@@ -1,8 +1,8 @@
 ---
-title: "Detalles de diseño: Estructura de registro de seguimiento de productos | Documentos de Microsoft"
-description: "Aprender a usar movimientos de productos como soporte principal de los números de seguimiento de producto."
+title: 'Detalles de diseño: Estructura de registro de seguimiento de productos | Documentos de Microsoft'
+description: Aprender a usar movimientos de productos como soporte principal de los números de seguimiento de producto.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: design, item tracking, posting, inventory
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: b2cb135991a067b86b7c5579e0386ffd199aefcf
-ms.contentlocale: es-es
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806603"
 ---
 # <a name="design-details-item-tracking-posting-structure"></a>Detalles de diseño: Estructura de registro de seguimiento de productos
 Para establecer la correspondencia con la funcionalidad de valoración de existencias y obtener una solución más simple y robusta, se usan los movimientos de producto como el soporte principal de los números de seguimiento de producto.  
@@ -34,18 +34,18 @@ La tabla **Relación mov. producto**, que se usa para vincular una línea de doc
   
 La funcionalidad del campo **Nº mov.** existente, que relaciona un movimiento de producto con una línea de documento registrado, controla la relación uno a uno habitual cuando no hay números de seguimiento de producto en la línea de documento registrada. Si hay números de seguimiento de productos, el campo **Nº mov.** se deja en blanco, y la relación de uno a muchos se gestiona a través de la tabla **Relación mov. producto**. Si la línea de documento registrada lleva números de seguimiento de productos pero hace referencia a un único movimiento de producto, el campo **Nº mov.** administrará la relación, y no se creará ningún registro en la tabla **Relación mov. producto**.  
   
-## <a name="codeunits-80-and-90"></a>Unidades de código 80 y 90  
-Para dividir los movimientos de producto durante el registro, el código de codeunit 80 y codeunit 90, se encuentra entre bucles que recorren las variables de registro temporales globales. Este código llama el codeunit 22 con una línea de diario de productos. Estas variables se inicializan cuando hay números de seguimiento de producto para la línea de documento. Para simplificar el código, siempre se usa esta estructura de bucle. Si no hay números de seguimiento para la línea del documento, se insertará un único registro y el bucle se ejecutará solo una vez.  
+## <a name="codeunits-80-and-90"></a>Codeunits 80 y 90  
+Para dividir los movimientos de producto durante el registro, el código de codeunit 80 y codeunit 90, se encuentra entre bucles que recorren las variables de registro temporales globales. Este código llama a la codeunit 22 con una línea de diario de productos. Estas variables se inicializan cuando hay números de seguimiento de producto para la línea de documento. Para simplificar el código, siempre se usa esta estructura de bucle. Si no hay números de seguimiento para la línea del documento, se insertará un único registro y el bucle se ejecutará solo una vez.  
   
 ## <a name="posting-the-item-journal"></a>Registro del diario de productos  
-Los números de seguimiento de producto se transfieren mediante los movimientos de reserva relacionados con el movimiento de producto y el recorrido en bucle por los números de seguimiento de producto se realiza en la unidad de código 22. Este concepto funciona del mismo modo cuando una línea del diario de productos se usa indirectamente para registrar un pedido de compra o de venta que cuando una línea del diario de productos se usa directamente. Cuando el diario de producto se usa directamente, el campo **IdLínea origen** indica la línea del diario de producto.  
+Los números de seguimiento de producto se transfieren mediante los movimientos de reserva relacionados con el movimiento de producto y el recorrido en bucle por los números de seguimiento de producto se realiza en la codeunit 22. Este concepto funciona del mismo modo cuando una línea del diario de productos se usa indirectamente para registrar un pedido de compra o de venta que cuando una línea del diario de productos se usa directamente. Cuando el diario de producto se usa directamente, el campo **IdLínea origen** indica la línea del diario de producto.  
   
-## <a name="code-unit-22"></a>Unidad de código 22  
-Las unidades de código 80 y 90 examinan la llamada de la unidad de código 22 durante el registro de factura de los números de seguimiento de productos y durante la facturación de envíos o recepciones existentes.  
+## <a name="code-unit-22"></a>Codeunit 22  
+Las codeunits 80 y 90 examinan la llamada de la codeunit 22 durante el registro de factura de los números de seguimiento de productos y durante la facturación de envíos o recepciones existentes.  
   
-Durante el registro de la cantidad de números de seguimiento de productos, la unidad de código 22 recupera los números de seguimiento de productos a partir de las entradas en T337 relativas al registro. Estos movimientos se colocan directamente en la línea de diario de productos.  
+Durante el registro de la cantidad de números de seguimiento de productos, la codeunit 22 recupera los números de seguimiento de productos a partir de las entradas en T337 relativas al registro. Estos movimientos se colocan directamente en la línea de diario de productos.  
   
-La unidad de código 22 examina los números de seguimiento de producto y divide el registro en los movimientos correspondientes con ese número de seguimiento. Se devuelve a T337 información sobre qué movimientos de producto se crean con un registro temporal T336, al cual llama un procedimiento en la unidad de código 22. Este procedimiento se desencadena cuando el código de unidad 22 ha terminado su ejecución porque en ese momento el objeto con código de unidad 22 contiene información. Cuando se recupera el registro T336 temporal, los codeunit 80 y 90 crean registros en la tabla **Relación mov. producto** para vincular los movimientos de producto con la línea de envío o recepción creada. Las unidades de código 80 o 90 a continuación convierten los registros temporales T336 en registros reales T336 relacionados con la línea en cuestión. No obstante, esta conversión solo tienen lugar si la línea de documento registrada no se elimina, porque se registra solo parcialmente.  
+La codeunit 22 examina los números de seguimiento de producto y divide el registro en los movimientos correspondientes con ese número de seguimiento. Se devuelve a T337 información sobre qué movimientos de producto se crean con un registro temporal T336, al cual llama un procedimiento en la codeunit 22. Este procedimiento se desencadena cuando la codeunit 22 ha terminado su ejecución porque en ese momento el objeto con codeunit 22 contiene información. Cuando se recupera el registro T336 temporal, las codeunits 80 y 90 crean registros en la tabla **Relación mov. producto** para vincular los movimientos de producto con la línea de envío o recepción creada. Las codeunits 80 o 90 a continuación convierten los registros temporales T336 en registros reales T336 relacionados con la línea en cuestión. No obstante, esta conversión solo tienen lugar si la línea de documento registrada no se elimina, porque se registra solo parcialmente.  
   
 ## <a name="see-also"></a>Consulte también  
 [Detalles de diseño: Seguimiento de productos](design-details-item-tracking.md)   

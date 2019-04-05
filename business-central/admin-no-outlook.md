@@ -1,7 +1,7 @@
 ---
 title: Usar Business Central sin Outlook | Documentos de Microsoft
-description: "Puede utilizar Business Central como su bandeja de entrada de empresa en Outlook porque está integrado con Office 365, sin embargo, también puede trabajar sin Outlook en un navegador o en su dispositivo móvil."
-documentationcenter: 
+description: Puede utilizar Business Central como su bandeja de entrada de empresa en Outlook porque está integrado con Office 365, sin embargo, también puede trabajar sin Outlook en un navegador o en su dispositivo móvil.
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
 ms.date: 10/01/2018
 ms.author: edupont
+ms.openlocfilehash: 49ed0eea3af363b368693b9df34bb6284ccc47ce
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: adeb5f554014e64921cccb9dc926552a2321d333
-ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806589"
 ---
 # <a name="using-business-central-without-outlook"></a>Usar Business Central sin Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] tiene una integración profunda con Office 365 y puede usar [!INCLUDE[d365fin](includes/d365fin_md.md)] como su bandeja de entrada de empresa en Outlook. Pero si no tiene Outlook, puede trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)] en el navegador o en su dispositivo móvil.  
@@ -30,4 +30,3 @@ Puede enviar documentos como facturas por correo electrónico con la dirección 
 [Usar Business Central como su bandeja de entrada de empresa en Outlook](admin-outlook.md)  
 [Obtener Business Central en mi dispositivo móvil](install-mobile-app.md)  
 [Enviar documentos por correo electrónico](ui-how-send-documents-email.md)
-

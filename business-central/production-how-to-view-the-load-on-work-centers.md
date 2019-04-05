@@ -1,23 +1,23 @@
 ---
-title: "Configurar la vista de carga en centros de trabajo y de máquina | Documentos de Microsoft"
-description: "En la ficha **Centro de trabajo**, puede consultar la carga en los centros de trabajo como resultado de órdenes de producción lanzadas."
+title: Configurar la vista de carga en centros de trabajo y de máquina | Documentos de Microsoft
+description: En la ficha **Centro de trabajo**, puede consultar la carga en los centros de trabajo como resultado de órdenes de producción lanzadas.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 5a740651cd2413415076f2a29726793f0c36db02
-ms.contentlocale: es-es
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806379"
 ---
 # <a name="view-load-on-work-and-machine-centers"></a>Configurar la vista de carga en centros de trabajo y de máquina
 En las páginas **Ficha de centro de trabajo** y **Ficha de centro de máquina**, puede ver las cargas de las plantas de suelo como resultado de órdenes de producción planificadas y lanzadas.    
@@ -35,4 +35,3 @@ Utilice los campos **Ver por** y **Ver como** de la ficha desplegable **Opciones
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

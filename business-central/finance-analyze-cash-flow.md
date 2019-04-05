@@ -1,8 +1,8 @@
 ---
-title: "Análisis de los flujos de efectivo | Documentos de Microsoft"
-description: "Describe cómo usar los gráficos Ciclo de efectivo, Ingresos y gastos, Flujo de efectivo y Previsión de flujo de efectivo para analizar el flujo de dinero de entrada y salida pasado y futuro de su empresa."
+title: Análisis de los flujos de efectivo | Documentos de Microsoft
+description: Describe cómo usar los gráficos Ciclo de efectivo, Ingresos y gastos, Flujo de efectivo y Previsión de flujo de efectivo para analizar el flujo de dinero de entrada y salida pasado y futuro de su empresa.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
 ms.date: 10/01/2018
 ms.author: bholtorf
+ms.openlocfilehash: 686f678c7459c608f0ef0dccb7bf959bf843e5e6
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ac5abf6fe38b60b385ac00d6e0ced982cd59df22
-ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806583"
 ---
 # <a name="analyzing-cash-flow-in-your-company"></a>Analizar el flujo de efectivo de la empresa
 Como dicen, el efectivo es el rey. Los gráficos del Área de trabajo Contable proporcionan información que le puede ayudar a tomar decisiones sólidas sobre qué debe hacer con el efectivo.  
@@ -53,4 +53,3 @@ Si desea examinar la previsión, además de los movimientos de previsión, tambi
 [Configurar las finanzas](finance-setup-finance.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Configuración del análisis de flujo de efectivo](finance-setup-cash-flow-analyses.md)  
-

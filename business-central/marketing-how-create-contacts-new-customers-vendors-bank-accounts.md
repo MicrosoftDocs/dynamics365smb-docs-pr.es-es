@@ -1,8 +1,8 @@
 ---
 title: Crear un cliente o un proveedor a partir de un contacto | Documentos de Microsoft
-description: "Puede registrar un contacto existente como cuenta de cliente, proveedor o banco usando datos existentes y especificando una relación de negocio."
+description: Puede registrar un contacto existente como cuenta de cliente, proveedor o banco usando datos existentes y especificando una relación de negocio.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: relationship, client, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-create-contact-companies
+ms.openlocfilehash: 5f5e690a8db82c2f95f190d5fac4b6430f900b57
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 9125e31ce579b6cda55aee8a79cb299e3c4d75a0
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806660"
 ---
 # <a name="create-a-customer-vendor-or-bank-account-from-a-contact"></a>Crear un contacto, proveedor o una cuenta bancaria a partir de un contacto
 Puede que desee registrar algunos de sus contactos existentes como clientes, proveedores o bancos. Crear un cliente, un proveedor o una cuenta bancaria a partir de un contacto le permite usar datos existentes. Al crear un cliente, proveedor o cuenta bancaria de esta forma, se sincroniza con el contacto. La sincronización unifica la información que es común entre los contactos y los clientes, los proveedores o la cuenta bancaria.
@@ -36,9 +36,7 @@ La información de contacto se transfiere desde la ficha **Contacto** a la ficha
 ## <a name="see-also"></a>Consulte también
 [Crear empresas de contacto](marketing-create-contact-companies.md)  
 [Crear personas de contacto](marketing-create-contact-persons.md)  
-[Configurar la gestión de relaciones](marketing-setup-marketing.md)  
 [Sincronizar contactos con clientes, proveedores y cuentas bancarias](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
 [Vincular contactos con clientes, proveedores o cuentas bancarias existentes](marketing-how-link-contact.md)  
 [Asignar relaciones de negocio a un contacto](marketing-business-relations.md#AssignBusRelContact)  
 [Trabajar con Business Central](ui-work-product.md)
-

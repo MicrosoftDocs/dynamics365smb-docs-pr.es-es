@@ -1,23 +1,23 @@
 ---
-title: "Cómo configurar calendarios de planta | Documentos de Microsoft"
-description: "Un calendario del centro de trabajo especifica los días y las horas laborables, las vacaciones y las ausencias que determinan la capacidad bruta disponible del centro de trabajo, medida en tiempo, de acuerdo con los valores de eficiencia y de capacidad definidos. La creación y la activación de un calendario de centro de trabajo implica una serie de tareas previas."
+title: Cómo configurar calendarios de planta | Documentos de Microsoft
+description: Un calendario del centro de trabajo especifica los días y las horas laborables, las vacaciones y las ausencias que determinan la capacidad bruta disponible del centro de trabajo, medida en tiempo, de acuerdo con los valores de eficiencia y de capacidad definidos. La creación y la activación de un calendario de centro de trabajo implica una serie de tareas previas.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 55cefad889557df37d8869926ee7e200cd145d03
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806622"
 ---
 # <a name="set-up-shop-calendars"></a>Configurar calendarios de planta
 Un calendario del centro de trabajo o de máquina especifica los días y las horas laborables, las vacaciones y las ausencias que determinan la capacidad disponible bruta del centro de trabajo, medida en tiempo, de acuerdo con los valores de eficiencia y capacidad definidos.
@@ -113,4 +113,3 @@ El tiempo de ausencia registrado se reduce de la capacidad del día seleccionado
 [Configuración de fabricación](production-configure-production-processes.md)  
 [Fabricación](production-manage-manufacturing.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

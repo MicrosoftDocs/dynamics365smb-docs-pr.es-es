@@ -7,15 +7,15 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 91f21f3b6382aee410ea1de51f371999ac86281c
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: fbbf44cd7a98598ed25dadeb4d6e3a8d37a0bfb0
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806372"
 ---
 # <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Uso de esquemas XML para preparar definiciones de intercambio de datos
 Para habilitar la importación y exportación de datos en archivos XML mediante el marco de intercambio de datos en [!INCLUDE[d365fin](includes/d365fin_md.md)], puede usar esquemas XML de los archivos para definir los elementos de datos que desea intercambiar con [!INCLUDE[d365fin](includes/d365fin_md.md)]. Este trabajo se realiza en la página **Visor de esquema XML** mediante la carga del archivo de esquema XML, la selección de los elementos de datos pertinentes y la inicialización de una definición de intercambio de datos o un objeto XMLport.  
@@ -69,7 +69,7 @@ Para habilitar la importación y exportación de datos en archivos XML mediante 
     |Campo|Descripción|  
     |---------------------------------|---------------------------------------|  
     |**Código de esquema XML**|Especifique el archivo de esquema XML que se ha cargado en el paso 5 en la sección “Para cargar un archivo de esquema XML”.|  
-    |**N.º XMLport nuevo**|Especifique el número del objeto XMLport que se crea a partir de este esquema de XML cuando elige la acción **Generar XMLport**.|  
+    |**Nuevo nº de XMLport**|Especifique el número del objeto XMLport que se crea a partir de este esquema de XML cuando elige la acción **Generar XMLport**.|  
 
      Las líneas ahora se rellenan con nodos que representan todos los elementos del esquema XML. Los nodos de los elementos que son obligatorios según el esquema XML están seleccionados de forma predeterminada.  
 
@@ -123,13 +123,12 @@ Para habilitar la importación y exportación de datos en archivos XML mediante 
 
 4.  Asegúrese de que estén seleccionados los nodos correspondientes. Para obtener más información, consulte la sección "Para seleccionar o borrar nodos en un esquema XML".  
 
-5.  En la pestaña **Inicio**, en el grupo **Procesar**, seleccione **Generar XMLport** y, a continuación, guarde el objeto como un archivo .txt en una ubicación adecuada.  
+5.  En la pestaña **Inicio**, en el grupo **Procesar**, seleccione **Generar XMLport** y, a continuación, guarde el objeto como un archivo .txt en un almacén adecuado.  
 
 6. Importe el nuevo XMLport en el entorno de desarrollo de [!INCLUDE[d365fin](includes/d365fin_md.md)] y compílelo.
 
 ## <a name="see-also"></a>Consulte también  
 [Configurar definiciones de intercambio de datos](across-how-to-set-up-data-exchange-definitions.md)   
 [Exportar pagos a un archivo bancario](payables-how-export-payments-bank-file.md)   
-[Cobro de pagos mediante adeudo directo SEPA](finance-collect-payments-with-sepa-direct-debit.md)   
+[Cobrar pagos mediante adeudo directo SEPA](finance-collect-payments-with-sepa-direct-debit.md)   
 [Acerca del marco de intercambio de datos](across-about-the-data-exchange-framework.md)
-

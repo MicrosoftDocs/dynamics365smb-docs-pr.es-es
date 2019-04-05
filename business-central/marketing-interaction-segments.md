@@ -1,8 +1,8 @@
 ---
 title: Realizar un seguimiento de los segmentos y las interacciones relacionadas | Documentos de Microsoft
-description: "Obtenga información sobre cómo crear segmentos para definir grupos de contactos y especificar interacciones para los segmentos."
+description: Obtenga información sobre cómo crear segmentos para definir grupos de contactos y especificar interacciones para los segmentos.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 1fcec3051fdabae818528742fba5d9ca57a721c8
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806763"
 ---
 # <a name="managing-interactions-for-segments"></a>Administrar interacciones para segmentos
 La página **Segmento** es un tipo de hoja de cálculo con la que puede:
@@ -52,4 +52,3 @@ En la página **Segmentos archivados**, puede decidir crear un segmento de segui
 [Administrar oportunidades de venta](marketing-manage-sales-opportunities.md)  
 [Creación y administración de contactos](marketing-contacts.md)  
 [Trabajar con Business Central](ui-work-product.md)
-

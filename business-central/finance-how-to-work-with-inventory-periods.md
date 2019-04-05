@@ -1,8 +1,8 @@
 ---
 title: Trabajar con periodos inventario | Documentos de Microsoft
-description: "Usted puede controlar el periodo en el que la gente puede registrar cambios en el inventario mediante la definición de periodos de inventario."
+description: Usted puede controlar el periodo en el que la gente puede registrar cambios en el inventario mediante la definición de periodos de inventario.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: inventory, periods
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 1aae1d32b86000ea8a5f867f1ee4c07d8bc1ff09
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806499"
 ---
 # <a name="work-with-inventory-periods"></a>Trabajar con periodos de inventario
 Los periodos del inventario definen un periodo de tiempo durante el cual es posible registrar cambios en el inventario. Un periodo del inventario se define por la fecha en la que finaliza. Cuando se cierra un periodo del inventario, no es posible registrar ningún cambio en él (ya sea previsto o facturado) antes de dicha fecha de finalización. Tampoco es posible registrar ningún valor nuevo en el inventario antes de dicha fecha. Si tiene movimientos de producto abiertos en ese periodo ya cerrado (lo que significa que existen cantidades positivas que todavía no ha aplicado a transacciones de salida), seguirá pudiendo aplicar cantidades de salida a dichos movimientos, incluso si el periodo está cerrado.  
@@ -71,4 +71,3 @@ Después de haber cerrado el periodo de inventario, ya no podrá eliminarlo. No 
 [Finanzas](finance.md)  
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Trabajar con Financials](ui-work-product.md)
-

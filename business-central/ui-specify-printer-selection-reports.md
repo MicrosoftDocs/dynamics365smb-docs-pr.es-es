@@ -1,8 +1,8 @@
 ---
-title: "Configuración informes para imprimir en impresoras específicas | Documentos de Microsoft"
-description: "Obtenga información sobre cómo especificar una impresora para un informe y usar la página Selección impresoras."
+title: Configuración informes para imprimir en impresoras específicas | Documentos de Microsoft
+description: Obtenga información sobre cómo especificar una impresora para un informe y usar la página Selección impresoras.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: online printing
 ms.date: 10/01/2018
 ms.author: solsen
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: bc3a7ab7a61e7a51a58494c3f5892c22b6867333
-ms.contentlocale: es-es
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806385"
 ---
 # <a name="specify-printer-selection-for-reports"></a>Especificar selección de impresora para informes
 Esta página está vacía porque no puede configurar impresoras específicas para informes específicos. Estamos trabajando para resolver este problema.
@@ -49,4 +49,3 @@ The following table describes the combination of values to specify when you set 
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Ejecutar procesos](ui-how-run-batch-jobs.md)  
 [Enviar documentos por correo electrónico](ui-how-send-documents-email.md)  
-

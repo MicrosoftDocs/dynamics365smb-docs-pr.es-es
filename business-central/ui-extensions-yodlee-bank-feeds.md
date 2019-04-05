@@ -1,8 +1,8 @@
 ---
-title: "Conciliación de pagos con la extensión de las fuentes de banco de Envestnet Yodlee | Documentos de Microsoft"
-description: "Describe la extensión de las fuentes de banco de Envestnet Yodlee, que se vincula a las cuentas bancarias para que pueda conciliar pagos rápidamente."
+title: Conciliación de pagos con la extensión de las fuentes de banco de Envestnet Yodlee | Documentos de Microsoft
+description: Describe la extensión de las fuentes de banco de Envestnet Yodlee, que se vincula a las cuentas bancarias para que pueda conciliar pagos rápidamente.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,17 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, stream, bank account link
-ms.date: 10/01/2018
+ms.date: 02/26/2019
 ms.author: sgroespe
+ms.openlocfilehash: 36400b3265517c29f68f7eb59d17d968334e0fb1
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5dddfc8526904a978d742e0987bb1769791e794c
-ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806724"
 ---
 # <a name="the-envestnet-yodlee-bank-feeds-extension"></a>Extensión de las fuentes de banco de Envestnet Yodlee
 Para conciliar pagos realizados en sus cuentas bancarias rápidamente, el servicio de fuentes de banco de Envestnet Yodlee permite vincular su cuenta bancaria del sistema a su cuenta bancaria en línea. Esto significa que el último extracto bancario se introduce manual o automáticamente en el diario de conciliación de pagos, lo que garantiza que siempre procesará sus últimos pagos con el mínimo de errores.
+
+> [!NOTE]
+> Esta funcionalidad solo se admite en la versión en línea de Business Central. Para utilizar esta funcionalidad local, debe obtener una cuenta de cobrand de Envestnet Yodlee.
 
 El servicio de fuentes de banco de Envestnet Yodlee proporciona las ventajas siguientes:
 
@@ -37,4 +40,3 @@ Para obtener más información, vea [Configuración del servicio de fuente de ba
 [Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones ](ui-extensions.md)    
 [Liquidación de pagos automáticamente y conciliación de cuentas bancarias](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

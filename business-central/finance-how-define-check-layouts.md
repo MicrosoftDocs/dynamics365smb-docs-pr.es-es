@@ -1,8 +1,8 @@
 ---
-title: "Especificar el diseño de un cheque | Documentos de Microsoft"
-description: "Puede diseñar e imprimir los cheques en diferentes formatos para cumplir los estándares."
+title: Especificar el diseño de un cheque | Documentos de Microsoft
+description: Puede diseñar e imprimir los cheques en diferentes formatos para cumplir los estándares.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: print check, customize
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 743cf7ecbed4157dc9283a97baa956e69ec0c6b5
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806358"
 ---
 # <a name="define-check-layouts"></a>Definir diseños de cheque
 Puede diseñar los cheques conforme a los estándares definidos por las autoridades locales. Las imágenes de los cheques se pueden imprimir en inglés, francés o español.
@@ -43,4 +43,3 @@ Cuando haya configurado los diseños de cheques, puede imprimir cheques desde la
 [Completar procesos de fin de periodo](year-how-complete-period-end-processes.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)
-

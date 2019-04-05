@@ -1,8 +1,8 @@
 ---
 title: Usar la funcionalidad de recursos humanos | Documentos de Microsoft
-description: "Puede registrar nuevo personal, modificar la información del personal existente y registrar y analizar las ausencias."
+description: Puede registrar nuevo personal, modificar la información del personal existente y registrar y analizar las ausencias.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 209a36d19d38f62aa94f77f8ef33b849c078dd67
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: a0254dad989b361883dd62f1f798686452941538
-ms.contentlocale: es-es
-ms.lasthandoff: 04/18/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806616"
 ---
 # <a name="manage-human-resources"></a>Administrar recursos humanos
 En [!INCLUDE[d365fin](includes/d365fin_md.md)], puede llevar un registro detallado de los empleados. Se puede registrar y actualizar información de los empleados, como contratos de empleo, información confidencial, cualificaciones y contactos del empleado.
@@ -37,4 +37,3 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 [Finanzas](finance.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Cambiar las funciones que se muestran](ui-experiences.md)        
-

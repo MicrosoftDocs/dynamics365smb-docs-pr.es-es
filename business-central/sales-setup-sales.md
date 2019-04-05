@@ -2,7 +2,7 @@
 title: Resumen de tareas para configurar los procesos de venta | Documentos de Microsoft
 description: Describe las tareas para configurar reglas y valores para definir las directivas y los procesos de ventas.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: trade, sell, configure
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 445b2c8ad3b5d4989324bae3d27423163d6808b5
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 00e83452109c6fa31c3eb56d5631f972e5239314
-ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806723"
 ---
 # <a name="setting-up-sales"></a>Configuración de ventas
 Para poder administrar procesos de venta, debe configurar las reglas y valores que definen las políticas de venta de la empresa.
@@ -42,4 +42,3 @@ La configuración de ventas relacionada con las finanzas, como las formas de pag
 ## <a name="see-also"></a>Consulte también
 [Ventas](sales-manage-sales.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

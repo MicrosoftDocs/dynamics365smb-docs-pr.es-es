@@ -1,8 +1,8 @@
 ---
-title: "Estado asignación y estado de reparación | Documentos de Microsoft"
-description: "Obtenga información sobre la relación entre el estado de reparación de los elementos de servicio y el estado de asignación de las entradas de asignación."
+title: Estado asignación y estado de reparación | Documentos de Microsoft
+description: Obtenga información sobre la relación entre el estado de reparación de los elementos de servicio y el estado de asignación de las entradas de asignación.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: resources, allocation, status, repairs
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 932abf3ee69f429c322fe82e150fa7a8f4aef8e8
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806684"
 ---
 # <a name="allocation-status-and-repair-status-of-service-items"></a>Estado de asignación y estado de reparación de productos de servicio
 El estado de reparación y el estado de asignación de los movimientos de asignación de los productos de servicio están relacionados en Gestión de servicios. El estado de asignación cambia cuando se modifica el estado de reparación del producto de servicio a **Terminado** o **Parcialmente servido**, y cuando se convierte una oferta de servicio en un pedido de servicio. El estado de reparación del producto de servicio cambia cuando se cancela la asignación de producto de servicio o se reasigna el producto de servicio a otro recurso. Puede ver el estado de reparación de productos de servicio en la página **Tareas servicio** y actualizar el estado de reparación en el campo **Cód. estado reparación** en la página **Hoja trabajo prod. serv.** Puede ver el estado de asignación en el campo **Estado** de la página **Asignaciones recurso**.  
@@ -71,5 +71,4 @@ Se creará una nueva entrada de asignación con el nuevo recurso y con el estado
 ## <a name="see-also"></a>Consulte también  
 [Configurar asignaciones de recursos](service-how-setup-resource-allocation.md)  
 [Asignar recursos](service-how-to-allocate-resources.md)  
-
 

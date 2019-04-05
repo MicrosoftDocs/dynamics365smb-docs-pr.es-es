@@ -1,8 +1,8 @@
 ---
-title: "Detalles de diseño: Función del punto de pedido | Documentos de Microsoft"
-description: "En este tema se destaca la importancia de establecer el punto de pedido, de forma que sepa cuándo solicitar más inventario."
+title: 'Detalles de diseño: Función del punto de pedido | Documentos de Microsoft'
+description: En este tema se destaca la importancia de establecer el punto de pedido, de forma que sepa cuándo solicitar más inventario.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: desigh, reorder, demand, supply
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
+ms.openlocfilehash: e39a7efdc796e8745bd9d8f7d74cdcfb171d851f
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a64d71ca9f163793c959126da09ffa4ef281b5e0
-ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806796"
 ---
 # <a name="design-details-the-role-of-the-reorder-point"></a>Detalles de diseño: Función del punto de pedido
 Además del equilibrado general de la oferta y la demanda, el sistema de planificación debe supervisar los niveles de inventario para que los productos afectados respeten las directivas de pedido definidas.  
@@ -34,4 +34,3 @@ El punto de pedido refleja un determinado nivel de inventario. No obstante, los 
 [Detalles de diseño: Parámetros de la planificación](design-details-planning-parameters.md)   
 [Detalles de diseño: Gestión de directivas de reaprovisionamiento](design-details-handling-reordering-policies.md)   
 [Detalles de diseño: Planificación de aprovisionamiento](design-details-supply-planning.md)
-

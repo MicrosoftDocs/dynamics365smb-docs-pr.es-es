@@ -1,6 +1,6 @@
 ---
-title: "Por qué no puedo personalizar una página | Documentos de Microsoft"
-description: "Explica por qué no puede personalizar una página y qué puede hacer para desbloquearla."
+title: Por qué no puedo personalizar una página | Documentos de Microsoft
+description: Explica por qué no puede personalizar una página y qué puede hacer para desbloquearla.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: 9923ed478bbe59089363f5d0a494a9e45829e7c2
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: 6b225548e95abacc688a97f1c3f8b5e8472a8f8f
-ms.contentlocale: es-es
-ms.lasthandoff: 04/18/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806730"
 ---
 # <a name="why-a-page-is-locked-from-personalizing"></a>Por qué la página está bloqueada para la personalización
 Si hay un ícono de candado en la barra **Personalización** cuando abre una página (como se muestra), significa que actualmente se le impide realizar más cambios de personalización en la página.
@@ -33,4 +33,3 @@ La página actualmente incluye los últimos cambios de personalización que real
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Cambiar la configuración básica](ui-change-basic-settings.md)  
 [Cambiar las funciones que se muestran](ui-experiences.md)  
-

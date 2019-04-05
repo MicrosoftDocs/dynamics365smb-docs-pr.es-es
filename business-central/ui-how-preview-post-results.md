@@ -2,7 +2,7 @@
 title: Vista previa de los movimientos antes de registrar un documento o un diario | Documentos de Microsoft
 description: Puede asegurarse de que los movimientos de documentos y diarios son precisos antes de registrarlos en la contabilidad.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 18c650a9f4c7fe1fa8daf8d9bac0949d90e3fc4f
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806779"
 ---
 # <a name="preview-posting-results"></a>Vista previa de los resultados del registro
 En cada documento y diario que se pueda registrar, puede elegir el botón **Vista previa de registro** para revisar los diferentes tipos de entradas que se crearán cuando registre el documento o diario.
@@ -31,5 +31,4 @@ En cada documento y diario que se pueda registrar, puede elegir el botón **Vist
 ## <a name="see-also"></a>Consulte también
 [Registrar documentos y diarios](ui-post-documents-journals.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-
 

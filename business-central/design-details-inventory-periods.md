@@ -1,23 +1,23 @@
 ---
-title: "Detalles de diseño: Periodos de inventario | Documentos de Microsoft"
-description: "Las transacciones o los ajustes de coste a los que se aplica fecha retroactiva a menudo repercuten en los saldos y los métodos de coste para periodos contables que pueden considerarse cerrados. Esto puede tener un efecto negativo en los informes exactos, especialmente en las corporaciones globales. La característica Periodos inventario se puede usar para evitar dichos problemas mediante la apertura o el cierre de periodos de inventario para limitar el registro en un periodo de tiempo configurado."
+title: 'Detalles de diseño: Periodos de inventario | Documentos de Microsoft'
+description: Las transacciones o los ajustes de coste a los que se aplica fecha retroactiva a menudo repercuten en los saldos y los métodos de coste para periodos contables que pueden considerarse cerrados. Esto puede tener un efecto negativo en los informes exactos, especialmente en las corporaciones globales. La característica Periodos inventario se puede usar para evitar dichos problemas mediante la apertura o el cierre de periodos de inventario para limitar el registro en un periodo de tiempo configurado.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 57f0fa4f62a4c8f52eb1e3e6def8907190f3db8e
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: c4c699204cf8c9e85f38f844a57c8da2e8e8e332
-ms.contentlocale: es-es
-ms.lasthandoff: 06/01/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806412"
 ---
 # <a name="design-details-inventory-periods"></a>Detalles de diseño: Periodos de inventario
 Las transacciones o los ajustes de coste a los que se aplica fecha retroactiva a menudo repercuten en los saldos y los métodos de coste para periodos contables que pueden considerarse cerrados. Esto puede tener un efecto negativo en los informes exactos, especialmente en las corporaciones globales. La característica Periodos inventario se puede usar para evitar dichos problemas mediante la apertura o el cierre de periodos de inventario para limitar el registro en un periodo de tiempo configurado.  
@@ -35,4 +35,3 @@ Las transacciones o los ajustes de coste a los que se aplica fecha retroactiva a
 ## <a name="see-also"></a>Consulte también  
  [Detalles de diseño: Coste de inventario](design-details-inventory-costing.md) [Gestión de costes de inventario](finance-manage-inventory-costs.md) [Finanzas](finance.md)  
  [Trabajar con Business Central](ui-work-product.md)
-

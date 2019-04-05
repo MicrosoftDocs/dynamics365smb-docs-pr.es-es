@@ -2,23 +2,23 @@
 title: 'Procedimiento: transferencia de movimientos de contabilidad a los movimientos de coste | Documentos de Microsoft'
 description: Puede transferir movimientos de contabilidad a movimientos de coste.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/13/2018
 ms.author: sgroespe
 redirect_url: finance-transfer-and-post-cost-entries
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 273a8c4341f621710819fd5fbc5cb8ce579c86f5
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806547"
 ---
 # <a name="transfer-general-ledger-entries-to-cost-entries"></a>Transferir movimientos de contabilidad a movimientos de coste
 Puede transferir movimientos de contabilidad a movimientos de coste.  
@@ -44,4 +44,3 @@ Antes de ejecutar el proceso para transferir movimientos de contabilidad a movim
 ## <a name="see-also"></a>Consulte también  
 [Transferencia y registro de movimientos de coste](finance-transfer-and-post-cost-entries.md)   
 [Configuración de contabilidad de costes](finance-set-up-cost-accounting.md)   
-

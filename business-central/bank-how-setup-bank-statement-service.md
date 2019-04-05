@@ -1,8 +1,8 @@
 ---
 title: Configurar las fuentes de banco de Envestnet Yodlee | Documentos de Microsoft
-description: "Puede convertir la información sobre pagos a cualquier formato de datos que requiera el banco y habilitar la exportación o importación de los archivos de banco."
+description: Puede convertir la información sobre pagos a cualquier formato de datos que requiera el banco y habilitar la exportación o importación de los archivos de banco.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
-ms.date: 10/01/2018
+ms.date: 02/26/2019
 ms.author: sgroespe
+ms.openlocfilehash: ea1641dd475d28fb02dda354bbf287d508e96854
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 30c0e6ebface6ccfd65cab6bd2ce97a09044ff42
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806735"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Configuración del servicio de fuentes de banco de Envestnet Yodlee
 Puede importar extractos electrónicos de su banco para rellenar rápidamente la página **Diario de conciliación de pagos** para que pueda liquidar pagos y conciliar la cuenta bancaria. Para obtener más información, vea [Liquidación de pagos automáticamente y conciliación de cuentas bancarias](receivables-apply-payments-auto-reconcile-bank-accounts.md).
@@ -25,7 +25,8 @@ Puede importar extractos electrónicos de su banco para rellenar rápidamente la
 El servicio de fuentes de banco de Envestnet Yodlee está instalado como una extensión de [!INCLUDE[d365fin](includes/d365fin_md.md)] y está listo para ser activado. Para obtener más información, consulte [Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] mediante extensiones](ui-extensions.md).
 
 > [!NOTE]
-> El servicio de fuentes de banco de Envestnet Yodlee sólo se admite en EE.UU., Canadá, y Reino Unido.
+> El servicio de fuentes de banco de Envestnet Yodlee sólo se admite en EE.UU., Canadá, y Reino Unido.<br /><br />
+> La funcionalidad solo se admite en la versión en línea de Business Central. Para utilizar esta funcionalidad local, debe obtener una cuenta de cobrand de Envestnet Yodlee.
 
 Después de habilitar el servicio de fuentes de banco, debe vincular una cuenta bancaria a la cuenta bancaria de la que proviene la fuente. Vincula las cuentas a cuentas en línea en los siguientes ejemplos:
 
@@ -45,6 +46,9 @@ Cuando se ha habilitado el servicio de fuente de banco, puede definir una cuenta
 3. En la página **Cuenta bancaria**, en el campo **Formato de importación de extractos bancarios**, seleccione YODLEEBANKFEED.  
 
 El servicio de fuente de banco se activará cuando vincule una cuenta a la cuenta bancaria en línea relacionada. Vea el procedimiento siguiente.  
+
+> [!NOTE]
+> Si utiliza la guía de configuración asistida de **Configuración de la empresa**, habilite el servicio seleccionando la casilla de verificación **Usar un servicio de fuente de banco**. Para obtener más información, consulte [Crear nuevas empresas en Business Central](about-new-company.md).
 
 ## <a name="to-create-a-new-linked-bank-account"></a>Para crear una nueva cuenta bancaria vinculada
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Cuentas bancarias** y luego elija el enlace relacionado.
@@ -120,4 +124,3 @@ Cada hora, la página **Diario de conciliación de pagos** mostrará cualquier n
 [Liquidación de pagos automáticamente y conciliación de cuentas bancarias](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones](ui-extensions.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

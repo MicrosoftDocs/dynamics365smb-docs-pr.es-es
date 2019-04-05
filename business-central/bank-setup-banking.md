@@ -2,7 +2,7 @@
 title: Configurar banca | Documentos de Microsoft
 description: Utilice fichas de banco para realizar un seguimiento de sus cuentas bancarias y configurar las fuentes de bancos, como Yodlee, para intercambiar datos.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 092d8d3f114eac890c97eca520de7b9adbc37108
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9506abc4296b9c414e942c220f6fb40f0884ea32
-ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806405"
 ---
 # <a name="setting-up-banking"></a>Configurar banca
 Mediante el uso de fichas de bancos, puede realizar un seguimiento de todos sus bancos, en cualquier divisa. Cuando haya configurado los bancos, puede utilizar también la opción de impresión de cheques.
@@ -35,4 +35,3 @@ Para usar servicios de banca electrónica para importar extractos bancarios y ex
 [Administrar cobros](receivables-manage-receivables.md)  
 [Administrar pagos](payables-manage-payables.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

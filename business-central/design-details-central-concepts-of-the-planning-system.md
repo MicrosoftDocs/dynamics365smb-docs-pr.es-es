@@ -1,26 +1,26 @@
 ---
-title: "Detalles de diseño - Conceptos centrales del sistema de planificación | Documentos de Microsoft"
-description: "Las funciones de planificación se incluyen en un proceso que primero selecciona los productos relevantes y el periodo de planificación y, a continuación, propone acciones posibles para que las realice el usuario en función de la situación de demanda/oferta y los parámetros de planificación de los productos."
+title: Detalles de diseño - Conceptos centrales del sistema de planificación | Documentos de Microsoft
+description: Las funciones de planificación se incluyen en un proceso que primero selecciona los productos relevantes y el periodo de planificación y, a continuación, propone acciones posibles para que las realice el usuario en función de la situación de demanda/oferta y los parámetros de planificación de los productos.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 06dc378a045f9217cd54a53fef9747fbd9c7ba1b
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: afbc6454fd133cfc5d2a40ffc12220b9cbf0f6dd
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806401"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Detalles de diseño: Conceptos centrales del sistema de planificación
-Las funciones de planificación se incluyen en un proceso que primero selecciona los productos correspondientes y el periodo que se planificará. A continuación, según el código de nivel inferior de cada producto (posición de la L.M.), el proceso llama a una unidad de código que calcula un plan de suministro equilibrando los conjuntos de suministro y demanda, y sugiriendo acciones posibles que puede realizar el usuario. Las acciones sugeridas aparecen como líneas en la hoja de planificación o la hoja de demanda.  
+Las funciones de planificación se incluyen en un proceso que primero selecciona los productos correspondientes y el periodo que se planificará. A continuación, según el código de nivel inferior de cada producto (posición de la L.M.), el proceso llama a una codeunit que calcula un plan de suministro equilibrando los conjuntos de suministro y demanda, y sugiriendo acciones posibles que puede realizar el usuario. Las acciones sugeridas aparecen como líneas en la hoja de planificación o la hoja de demanda.  
 
 ![Contenido de la página de la hoja de planificación](media/NAV_APP_supply_planning_1_planning_worksheet.png "Contenido de la página de la hoja de planificación")  
 
@@ -30,7 +30,7 @@ El sistema de planificación se basa en la demanda de cliente anticipada y real,
 
 Otro objetivo del sistema de planificación es el de garantizar que las existencias no aumentan innecesariamente. En el caso de un descenso de la demanda, el programa de planificación sugerirá al usuario que se pospongan o cancelen algunos de los pedidos de aprovisionamiento existentes, o que se reduzcan sus cantidades.  
 
-MRP y MPS, Calc. plan. saldo periodo y Calc. planif. regenerativa son funciones dentro de una unidad de código que contiene la lógica de planificación. No obstante, el cálculo del plan de aprovisionamiento implica a distintos subsistemas.  
+MRP y MPS, Calc. plan. saldo periodo y Calc. planif. regenerativa son funciones dentro de una codeunit que contiene la lógica de planificación. No obstante, el cálculo del plan de aprovisionamiento implica a distintos subsistemas.  
 
 Observe que el sistema de planificación no incluye ninguna lógica dedicada para la nivelación de capacidad o para la programación precisa. Por lo tanto, dicha trabajo de programación se realiza como una disciplina aparte. La falta de integración directa entre las dos áreas también significa que los cambios importantes de capacidad o de programación requerirán que se vuelva a ejecutar la planificación.  
 
@@ -237,7 +237,7 @@ Infringir el nivel de existencias de seguridad está considerado una excepción 
 En general, las propuestas de pedido excepcionales garantizan que el inventario disponible proyectado nunca será menor que el nivel de existencias de seguridad. Esto significa que la cantidad propuesta es justo suficiente como para cubrir las existencias de seguridad, sin tener en cuenta los parámetros de planificación. Sin embargo, en algunos ejemplos, se considerarán modificadores de pedido.  
 
 > [!NOTE]  
->  El sistema de planificación puede haber consumido el stock de seguridad intencionadamente y, a continuación, lo repondrá de forma inmediata. Para obtener más información, consulte la sección "El stock de seguridad se puede consumir" en [Detalles de diseño: Carga de los perfiles de inventario](design-details-loading-the-inventory-profiles.md).
+>  El sistema de planificación puede haber consumido el stock de seguridad intencionadamente y, a continuación, lo repondrá de forma inmediata. Para obtener más información, consulte [El stock de seguridad se puede consumir](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).
 
 ### <a name="attention"></a>Atención  
 La advertencia de atención se muestra en tres situaciones:  
@@ -289,4 +289,3 @@ Esto completa el resumen de los conceptos básicos relacionados con la planifica
 [Detalles de diseño: Tabla de asignación de planificación](design-details-planning-assignment-table.md)   
 [Detalles de diseño: Gestión de directivas de reaprovisionamiento](design-details-handling-reordering-policies.md)   
 [Detalles de diseño: Equilibrio de aprovisionamiento y demanda](design-details-balancing-demand-and-supply.md)
-

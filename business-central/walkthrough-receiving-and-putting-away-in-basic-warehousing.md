@@ -1,21 +1,21 @@
 ---
-title: "Tutorial: recepción y ubicación en la configuración básica de almacén | Documentos de Microsoft"
-description: "En Business Central, los procesos de entrada para la recepción y la ubicación se pueden realizar de cuatro maneras utilizando distintas funciones según el nivel de complejidad del almacén."
+title: 'Tutorial: recepción y ubicación en la configuración básica de almacén | Documentos de Microsoft'
+description: En Business Central, los procesos de entrada para la recepción y la ubicación se pueden realizar de cuatro maneras utilizando distintas funciones según el nivel de complejidad del almacén.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
 ms.openlocfilehash: 2f92a8977905f5507fdcfd26613d422ebf6c23b2
-ms.contentlocale: es-es
-ms.lasthandoff: 01/31/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806578"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Tutorial: recepción y ubicación en la configuración del almacenamiento básico
 
@@ -62,7 +62,7 @@ En este tutorial, se demuestran las tareas realizadas por los siguientes roles d
 ## <a name="prerequisites"></a>Requisitos previos  
 Para completar este tutorial, necesitará:  
 
--   CRONUS International Ltd. instalado.  
+-   CRONUS España S.A. instalado.  
 -   Para convertirse en un empleado de almacén en el almacén PLATA, realice los pasos siguientes:  
 
     1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Empleados de almacén** y luego elija el enlace relacionado.  
@@ -71,7 +71,7 @@ Para completar este tutorial, necesitará:
     4.  Seleccione el campo de **Predeterminado**.  
 
 ## <a name="story"></a>Historia  
-Ellen, administradora del almacén en CRONUS International Ltd., crea un pedido de compra de 10 unidades del producto LS-75 y 30 unidades del producto LS-81 del proveedor 10000 para su entrega al almacén PLATA. Cuando la entrega llega al almacén, Juan, el trabajador del almacén, coloca los productos en las ubicaciones predeterminadas definidas para los productos. Cuando Juan registra la ubicación, los productos se registran como recibidos en el inventario y estarán disponibles para la venta u otra demanda.  
+Ellen, administradora del almacén en CRONUS España S.A., crea un pedido de compra de 10 unidades del producto LS-75 y 30 unidades del producto LS-81 del proveedor 10000 para su entrega al almacén PLATA. Cuando la entrega llega al almacén, Juan, el trabajador del almacén, coloca los productos en las ubicaciones predeterminadas definidas para los productos. Cuando Juan registra la ubicación, los productos se registran como recibidos en el inventario y estarán disponibles para la venta u otra demanda.  
 
 ## <a name="setting-up-the-location"></a>Configuración del almacén  
  La configuración de la página **Ficha almacén** define los flujos de almacén de la empresa.  
@@ -145,4 +145,3 @@ En la página **Ubicación existencias**, puede administrar todas las actividade
  [Detalles de diseño: Flujo de entrada en almacén](design-details-inbound-warehouse-flow.md)   
  [Tutoriales de procesos empresariales](walkthrough-business-process-walkthroughs.md)  
  [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

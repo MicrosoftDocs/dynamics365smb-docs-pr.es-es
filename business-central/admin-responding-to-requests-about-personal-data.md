@@ -1,6 +1,6 @@
 ---
 title: Respuesta a las solicitudes de datos personales
-description: "Deberá responder a las solicitudes de asunto de datos."
+description: Deberá responder a las solicitudes de asunto de datos.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.author: bholtorf
@@ -8,14 +8,13 @@ ms.custom: na
 ms.date: 11/06/2018
 ms.reviewer: na
 ms.topic: article
-ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
 ms.openlocfilehash: f7a217bd61b185586c71d5982d783840dd7ffd2e
-ms.contentlocale: es-es
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806353"
 ---
-
 # <a name="responding-to-requests-about-personal-data"></a>Respuesta a las solicitudes de datos personales  
 Los asuntos de datos pueden solicitar varios tipos de acciones relacionadas con sus datos personales. Por ejemplo, según el Reglamento general de protección de datos (GDPR), los residentes de la UE tienen derecho a solicitar la exportación, eliminación y modificación de sus datos personales. Esto se conoce como *Solicitud de asunto de datos*. Si ha clasificado la sensibilidad de sus datos y está seguro de que son correctos, un administrador puede responder a las solicitudes utilizando las opciones de **Privacidad de datos** en el área de trabajo **Administrar usuarios, grupos de usuarios y permisos** o si está utilizando el cliente de Windows, en el área de trabajo **Administrador de TI**. Para obtener más información sobre la clasificación de datos y la clasificación de la confidencialidad de datos en [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], consulte [Clasificar datos](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) y [Clasificar confidencialidad de datos](admin-classifying-data-sensitivity.md).  
 
@@ -63,4 +62,3 @@ Si la edad de una persona de contacto es inferior a la edad de consentimiento le
 [Exportar los datos de negocio a Excel](about-export-data.md)  
 [Registrar cambios](across-log-changes.md)  
 [Solicitudes de sujetos de datos del GDPR](/microsoft-365/compliance/gdpr-data-subject-requests)  
-

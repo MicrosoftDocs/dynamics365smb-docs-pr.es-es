@@ -1,8 +1,8 @@
 ---
-title: "Resumen de tareas para la prestación del servicio | Documentos de Microsoft"
+title: Resumen de tareas para la prestación del servicio | Documentos de Microsoft
 description: Describe las tareas para asegurarse de que se entrega un servicio de calidad y se cumplen los acuerdos con los clientes.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: service, service items, respond, response
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 129d82355771872f4c1385ec2f1dee4965721dd8
-ms.contentlocale: es-es
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806564"
 ---
 # <a name="delivering-service"></a>Prestación del servicio
 [!INCLUDE[d365fin](includes/d365fin_md.md)] proporciona funciones que le ayudarán a prestar servicio según los contratos que haya creado y los pedidos de servicio que se haya comprometido a cumplir. Sus técnicos de servicio o distribuidor encontrarán con facilidad los pedidos de servicio pendientes utilizando el **Panel despacho**. De un vistazo, el **Panel despacho** muestra qué pedidos están en curso y cuáles han finalizado.  
@@ -46,4 +46,3 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 [Servicio de planificación](service-plan-service.md)  
 [Cumplimiento de contratos de servicio](service-fulfill-service-contracts.md)  
 [Administrar proyectos](projects-manage-projects.md)  
-

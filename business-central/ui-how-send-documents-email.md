@@ -1,7 +1,7 @@
 ---
-title: "Configurar contenido de correo electrónico específico de documento | Documentos de Microsoft"
-description: "Puede definir el contenido que se insertará en el cuerpo de un mensaje de correo electrónico, por ejemplo, un vínculo de PayPal. También es posible adjuntar documentos a los mensajes de correo electrónico."
-documentationcenter: 
+title: Configurar contenido de correo electrónico específico de documento | Documentos de Microsoft
+description: Puede definir el contenido que se insertará en el cuerpo de un mensaje de correo electrónico, por ejemplo, un vínculo de PayPal. También es posible adjuntar documentos a los mensajes de correo electrónico.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 591ec86980240b8ffcfda0cf51debe571e327299
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: a800f24f86227afc2ab45ffcb6d1aaffd608e69e
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806346"
 ---
 # <a name="send-documents-by-email"></a>Enviar documentos por correo electrónico
 Para comunicar el contenido de documentos empresariales rápidamente a sus socios, por ejemplo la información de pagos en los documentos de venta a los clientes, puede usar la función de Informe personalizado para definir el contenido específico de un documento que se insertará en el cuerpo del correo electrónico automáticamente. Para obtener más información, vea [Administrar diseños de informes y documentos](ui-manage-report-layouts.md).
@@ -57,7 +57,7 @@ El procedimiento siguiente describe cómo enviar una factura de ventas registrad
 7. En el campo **Archivo adjunto**, se adjunta la factura generada de forma predeterminada como un archivo PDF. Seleccione el botón de búsqueda para abrir el archivo o para adjuntar otro.
 8. En el campo **Cuerpo**, escriba un mensaje breve al destinatario.
 
-    Si se configura el contenido específico de un documento en el cuerpo del correo electrónico en la página **Informe selección - ventas**, el campo **Cuerpo** se rellena automáticamente. Para obtener más información, vea "Para configurar un contenido específico de un documento en el cuerpo del correo electrónico para las facturas de venta" en este tema.
+    Si se configura el contenido específico de un documento en el cuerpo del correo electrónico en la página **Informe selección - ventas**, el campo **Cuerpo** se rellena automáticamente. Para obtener más información, vea [Para configurar un documento específico en el cuerpo de un correo electrónico para las facturas de venta](ui-how-send-documents-email.md#to-set-up-a-document-specific-email-body-for-sales-invoices).
 9. Haga clic en el botón **Aceptar** para enviar el correo electrónico.
 
 > [!NOTE]  
@@ -68,4 +68,3 @@ El procedimiento siguiente describe cómo enviar una factura de ventas registrad
 [Configurar correo electrónico](admin-how-setup-email.md)  
 [Facturar ventas](sales-how-invoice-sales.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

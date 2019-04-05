@@ -1,6 +1,6 @@
 ---
 title: Agregar el contable externo a Business Central | Documentos de Microsoft
-description: "Obtenga información sobre cómo puede invitar a su contable externo a Business Central."
+description: Obtenga información sobre cómo puede invitar a su contable externo a Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting
 ms.date: 01/14/2019
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 79729b42b660399893aebe1116c80ef3b3209042
 ms.openlocfilehash: aff05be6ade45224a57f57c92c2d52fcf9e6eb13
-ms.contentlocale: es-es
-ms.lasthandoff: 01/15/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806801"
 ---
 # <a name="inviting-your-external-accountant-to-your-included365finincludesd365finmdmd"></a>Invitación del contable externo a [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Si utiliza un contable externo para administrar los libros y los informes financieros, puede invitarle a su [!INCLUDE[d365fin](includes/d365fin_md.md)] para que pueda trabajar con usted en los datos fiscales.
@@ -37,7 +37,7 @@ Hemos facilitado la invitación a su contable externo. Abra simplemente la pági
 ### <a name="separate-license"></a>Licencia independiente
 En segundo plano, el contable se agrega a su suscriptor de Active Directory. Su administrador puede verificar que el contable acepta la invitación y se le asigna la licencia correcta. Los pasos para hacerlo dependen del tipo de cuenta que utilizó al registrarse en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Este tema se basa en el uso de una cuenta de Office 365, que usa Microsoft Azure Active Directory.  
 
-Si ha activado su suscripción de [!INCLUDE[d365fin](includes/d365fin_md.md)] y ya no utiliza la empresa de valoración, dispone de un suscriptor de Azure Active Directory. El administrador o el socio de [!INCLUDE[d365fin](includes/d365fin_md.md)] administra este suscriptor en el [portal de Azure](https://portal.azure.com). Aquí es donde se agregan nuevos usuarios y se aplican y se eliminan las licencias. Para obtener más información, vea el [resumen del portal de Microsoft Azure](https://docs.microsoft.com/en-us/azure/azure-portal-overview).  
+Si ha activado su suscripción de [!INCLUDE[d365fin](includes/d365fin_md.md)] y ya no utiliza la empresa de valoración, dispone de un suscriptor de Azure Active Directory. El administrador o el socio de [!INCLUDE[d365fin](includes/d365fin_md.md)] administra este suscriptor en el [portal de Azure](https://portal.azure.com). Aquí es donde se agregan nuevos usuarios y se aplican y se eliminan las licencias. Para obtener más información, consulte el [resumen del portal de Microsoft Azure](https://docs.microsoft.com/en-us/azure/azure-portal-overview).  
 
 Uno de los tipos de licencia para [!INCLUDE[d365fin](includes/d365fin_md.md)] es la licencia *Contable externo*. Este tipo de salida está pensado para que lo utilicen usuarios como, por ejemplo, contables externos. Esto significa que no tiene que comprar un puesto adicional en su Active Directory actual ni usar una de las cuentas de usuario de [!INCLUDE[d365fin](includes/d365fin_md.md)] existentes en el contable externo. Por ejemplo, si su suscripción de Office 365 actual incluye 10 usuarios para [!INCLUDE[d365fin](includes/d365fin_md.md)] y actualmente usa 10 licencias *Usuario completo*, el administrador puede agregar su contable externo como usuario invitado en el portal de Azure y asignarle la licencia *Contable externo* sin coste adicional. No obstante, solo puede tener un usuario con la licencia *Contable externo*. Si desea añadir más usuarios, debe actualizar su suscripción de Office 365 en consecuencia.  
 
@@ -46,4 +46,3 @@ Uno de los tipos de licencia para [!INCLUDE[d365fin](includes/d365fin_md.md)] es
 [Configurar el correo electrónico manualmente o con la configuración asistida](admin-how-setup-email.md)  
 [Experiencias contables en Business Central](finance-accounting.md)  
 [Business Central for Accountants en Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
-

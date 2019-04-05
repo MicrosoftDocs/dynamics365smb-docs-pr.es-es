@@ -1,8 +1,8 @@
 ---
-title: "Detalles de diseño: Transferencias en planificación | Documentos de Microsoft"
-description: "En este tema se describe cómo usar pedidos de transferencia como origen de provisión al planificar los niveles de inventario."
+title: 'Detalles de diseño: Transferencias en planificación | Documentos de Microsoft'
+description: En este tema se describe cómo usar pedidos de transferencia como origen de provisión al planificar los niveles de inventario.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: design, transfer, sku, locations, warehouse
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: dbf1658893d5210c38994302ae817afa7349884a
-ms.contentlocale: es-es
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806365"
 ---
 # <a name="design-details-transfers-in-planning"></a>Detalles de diseño: Transferencias en planificación
 Los pedidos de transferencia también son un origen de suministro al trabajar en el nivel de UA. Al usar varias ubicaciones (almacenes), el sistema de reposición de UA se puede configurar en Transferencia, lo que implica que se realiza la reposición de la ubicación mediante la transferencia de mercancías desde otra ubicación. En una situación con varios almacenes, las empresas pueden tener una cadena de transferencias donde el aprovisionamiento al almacén VERDE se transfiere de AMARILLO, y el aprovisionamiento a AMARILLO se transfiere desde ROJO, etc. En el principio de la cadena hay un sistema de reposición de Ord. prod. o Compra.  
@@ -168,4 +168,3 @@ Si la demanda cambia de 27 a 22, el sistema bajará la cantidad a lo largo de la
 [Detalles de diseño: Conceptos centrales del sistema de planificación](design-details-central-concepts-of-the-planning-system.md)   
 [Detalles de diseño: Equilibrio de aprovisionamiento y demanda](design-details-balancing-demand-and-supply.md)   
 [Detalles de diseño: Planificación de aprovisionamiento](design-details-supply-planning.md)
-

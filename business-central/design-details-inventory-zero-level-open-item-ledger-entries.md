@@ -1,21 +1,21 @@
 ---
 title: abrir movs. productos
-description: "Descubra por qué el nivel de inventario es cero aunque existan movimientos de producto pendientes."
+description: Descubra por qué el nivel de inventario es cero aunque existan movimientos de producto pendientes.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 0bb558fe24d8c5bc717ef72e8c94ba0154a06a55
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806469"
 ---
 # <a name="design-details-known-item-application-issue"></a>Detalles de diseño: Problema de liquidación de producto conocido
 Este artículo aborda un problema donde el nivel de inventario es cero aunque existen movimientos de producto pendientes en [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -151,4 +151,3 @@ El diagrama siguiente muestra cómo se crean las liquidaciones de coste.
 ## <a name="see-also"></a>Consulte también  
 [Detalles de diseño: Liquidación de productos](design-details-item-application.md)   
 [Detalles de diseño: Coste de inventario](design-details-inventory-costing.md)  
-

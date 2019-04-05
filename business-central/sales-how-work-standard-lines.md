@@ -1,8 +1,8 @@
 ---
-title: "Configurar líneas estándar para ventas y compras periódicas | Documentos de Microsoft"
-description: "Puede configurar líneas de ventas y líneas de compras que realice con frecuencia e insertarlas en documentos de venta y compra para rellenar rápidamente las líneas con información estándar."
+title: Configurar líneas estándar para ventas y compras periódicas | Documentos de Microsoft
+description: Puede configurar líneas de ventas y líneas de compras que realice con frecuencia e insertarlas en documentos de venta y compra para rellenar rápidamente las líneas con información estándar.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, replenishment
-ms.date: 10/24/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 4285603b736cbd585c839a533d325384ba27cd15
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: f8c8f96e73f6ba119e4345c8ba12c895dd212da3
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806745"
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a>Crear líneas de ventas y de compras periódicas
 Si suele necesitar crear líneas de ventas y de compras con información similar, puede configurar líneas estándar que puede insertar en documentos de ventas y compras periódicas, por ejemplo, para órdenes de reposición periódicas.  
@@ -50,7 +50,7 @@ Si existen líneas de ventas periódicas para el cliente, puede insertarlas en t
 4. En la página **Líneas de ventas periódicas**, elija el botón de búsqueda en el campo **Código** y seleccione un conjunto de líneas de ventas estándar.
 
     > [!NOTE]
-    > Para usar las líneas de ventas recurrentes establecidas junto con el trabajo por lotes **Crear facturas de ventas periódicas**, también debe completar los campos **Válido desde la fecha** y **Válido hasta la fecha** en la página **Líneas de ventas periódicas**. Para obtener más información, consulte la sección "Para crear varias facturas de venta basadas en líneas de ventas estándar".
+    > Para usar las líneas de ventas recurrentes establecidas junto con el trabajo por lotes **Crear facturas de ventas periódicas**, también debe completar los campos **Válido desde la fecha** y **Válido hasta la fecha** en la página **Líneas de ventas periódicas**. Para obtener más información, consulte [Crear varias facturas de venta basadas en líneas de venta estándar](sales-how-work-standard-lines.md#to-create-multiple-sales-invoices-based-on-standard-sales-lines).
 
 5. Elija el botón **Aceptar** para insertar las líneas de ventas estándar en la factura, donde puede reutilizar la información tal como está o editarla.
 
@@ -58,7 +58,7 @@ Si existen líneas de ventas periódicas para el cliente, puede insertarlas en t
 Puede utilizar el trabajo por lotes **Crear facturas de venta periódicas** para crear facturas de venta según las líneas de venta estándar asignadas a los clientes y con fechas de registro dentro de las fechas de inicio y fin de validez que especifique en las líneas de ventas estándar.
 
 > [!NOTE]
-> En la página **Líneas de ventas periódicas**, también puede especificar una forma de pago por adeudo directo y una orden de domiciliación de adeudo directo. Las facturas de venta que se crean con el trabajo por lotes **Crear facturas de venta periódicas** incluirá la información necesaria para cobrar los pagos por adeudo directo SEPA para las facturas de venta. Para obtener más información, consulte [Cobro de pagos mediante adeudo directo SEPA](finance-collect-payments-with-sepa-direct-debit.md).
+> En la página **Líneas de ventas periódicas**, también puede especificar una forma de pago por adeudo directo y una orden de domiciliación de adeudo directo. Las facturas de venta que se crean con el trabajo por lotes **Crear facturas de venta periódicas** incluirá la información necesaria para cobrar los pagos por adeudo directo SEPA para las facturas de venta. Para obtener más información, consulte [Cobrar pagos mediante adeudo directo SEPA](finance-collect-payments-with-sepa-direct-debit.md).
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Crear facturas de venta periódicas** y luego elija el enlace relacionado.
 2. En la página **Crear facturas de venta periódicas**, rellene los campos necesarios.
@@ -70,4 +70,3 @@ Las facturas de venta se crean para los clientes con el código de ventas de cli
 ## <a name="see-also"></a>Consulte también  
 [Ventas](sales-manage-sales.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,8 +1,8 @@
 ---
 title: Crear interacciones en contactos y segmentos | Documentos de Microsoft
-description: "Describe cómo crear interacciones para las comunicaciones que mantenga con sus contactos y segmentos en Business Central, por ejemplo, con el correo directo."
+description: Describe cómo crear interacciones para las comunicaciones que mantenga con sus contactos y segmentos en Business Central, por ejemplo, con el correo directo.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: fc88c43e7e404c715893e11a10f0ca5fb794163a
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 250e56b8bb2ced4745536092bf7cd4f3fa797dee
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806628"
 ---
 # <a name="create-interactions-on-contacts-and-segments"></a>Crear interacciones en contactos y segmentos
 Puede crear interacciones para registrar todas las interacciones y comunicaciones que mantenga con sus contactos y segmentos, por ejemplo, con el correo directo.
@@ -53,6 +53,4 @@ Si activó la casilla **Crear segmento seguimiento**, se creará un nuevo segmen
 [Registrar interacciones](marketing-interactions.md)  
 [Gestionar contactos](marketing-contacts.md)  
 [Administrar oportunidades de venta](marketing-manage-sales-opportunities.md)  
-[Configurar la gestión de relaciones](marketing-setup-marketing.md)  
 [Trabajar con Business Central](ui-work-product.md)
-

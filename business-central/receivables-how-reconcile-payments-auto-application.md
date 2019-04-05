@@ -1,8 +1,8 @@
 ---
-title: "Usar la liquidación automática para conciliar pagos | Documentos de Microsoft"
-description: "Describe cómo usar la función de liquidación automática para liquidar pagos o recibos de efectivo en sus movimientos pendientes relacionados y conciliar pagos."
+title: Usar la liquidación automática para conciliar pagos | Documentos de Microsoft
+description: Describe cómo usar la función de liquidación automática para liquidar pagos o recibos de efectivo en sus movimientos pendientes relacionados y conciliar pagos.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 693373c91fcc2bc8d0ef4eb3acea99dd13d9eaa0
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806677"
 ---
 # <a name="reconcile-payments-using-automatic-application"></a>Conciliar los pagos con liquidación automática
 La página **Diario de conciliación de pagos** especifica pagos, bien entrantes de clientes o salientes a proveedores, que se han registrado como transacciones en la cuenta bancaria en línea y que puede liquidar a sus clientes, vendedores y movimientos de la cuenta pendientes. Las líneas del diario se rellenan importando un extracto bancario como una fuente o un archivo de banco.
@@ -77,4 +77,3 @@ Puede comparar el valor del campo **Saldo en cuenta bancaria después del regist
 [Administrar cobros](receivables-manage-receivables.md)  
 [Ventas](sales-manage-sales.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

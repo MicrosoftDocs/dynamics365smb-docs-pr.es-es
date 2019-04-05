@@ -1,23 +1,23 @@
 ---
-title: "Detalles de diseño: Desviación | Documentos de Microsoft"
-description: "La desviación se define como la diferencia entre el coste real y el coste estándar, tal como se describe en la fórmula siguiente."
+title: 'Detalles de diseño: Desviación | Documentos de Microsoft'
+description: La desviación se define como la diferencia entre el coste real y el coste estándar, tal como se describe en la fórmula siguiente.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 36062fc6fa40c3fc2b928ffad7e3b242634149fc
-ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806585"
 ---
 # <a name="design-details-variance"></a>Detalles de diseño: Desviación
 La desviación se define como la diferencia entre el coste real y el coste estándar, tal como se describe en la fórmula siguiente.  
@@ -66,4 +66,3 @@ La desviación se define como la diferencia entre el coste real y el coste está
  [Detalles de diseño: métodos de coste](design-details-costing-methods.md) [Gestión de costes de inventario](finance-manage-inventory-costs.md)  
  [Finanzas](finance.md)  
  [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

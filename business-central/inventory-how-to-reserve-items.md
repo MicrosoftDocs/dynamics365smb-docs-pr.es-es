@@ -1,23 +1,23 @@
 ---
-title: "Cómo reservar productos | Documentos de Microsoft"
-description: "Puede reservar productos para pedidos de venta, pedidos de compra, y órdenes de producción. Puede reservar productos del inventario o de entrada en líneas de documento abiertas."
+title: Cómo reservar productos | Documentos de Microsoft
+description: Puede reservar productos para pedidos de venta, pedidos de compra, y órdenes de producción. Puede reservar productos del inventario o de entrada en líneas de documento abiertas.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 531489dddc80530b1d2c33a828388a90784db6c0
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: aa7e25f8e1d837dde55ac05812306634c4ac37bf
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806521"
 ---
 # <a name="reserve-items"></a>Reservar artículos
 Puede reservar productos para pedidos de venta, pedidos de servicio, pedidos de ensamblado y órdenes de producción. Puede reservar productos del inventario o de entrada en líneas de diario abiertas. El trabajo se realiza en la página **Reservas**.
@@ -38,7 +38,7 @@ A continuación se describe cómo reservar productos de un pedido de venta. Los 
     |**Cancelación de reserva desde la línea actual**|Para anular la reserva de los productos desde la línea seleccionada del documento.|
 
 > [!NOTE]  
->  Si existen líneas de seguimiento de producto para el pedido de venta, el programa de reservas le guiará por los pasos especiales. Para obtener más información, consulte la sección “Para reservar un número de serie o de lote específico”.  
+>  Si existen líneas de seguimiento de producto para el pedido de venta, el programa de reservas le guiará por los pasos especiales. Para obtener más información, consulte [Para reservar un número de serie o de lote específico](inventory-how-to-reserve-items.md#to-reserve-a-specific-serial-or-lot-number).  
 
 ## <a name="to-reserve-an-item-for-a-production-order-line"></a>Para reservar un producto para una línea de orden de producción  
 Puede reservar productos para órdenes de producción. Tiene que distinguir entre las líneas de la orden de producción, que implica el producto principal, y los componentes de la misma.
@@ -101,4 +101,3 @@ El procedimiento siguiente se basa en un pedido de venta.
 [Detalles de diseño: Seguimiento de productos y reservas](design-details-item-tracking-and-reservations.md)  
 [Trabajar con números de lote y de serie](inventory-how-work-item-tracking.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

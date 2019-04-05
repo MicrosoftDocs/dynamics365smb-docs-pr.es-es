@@ -1,8 +1,8 @@
 ---
 title: Crear empresas de contacto | Documentos de Microsoft
-description: "Describe cómo crear un contacto para cada nueva empresa o empresa potencial con la que interactúe o tenga una relación."
+description: Describe cómo crear un contacto para cada nueva empresa o empresa potencial con la que interactúe o tenga una relación.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,19 +13,17 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-create-contact-companies
+ms.openlocfilehash: ff585f1a96d509ef317aaaf3671bc91ca46a430a
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: d607b23f5cd41db8551a61b68be6bf265e85d328
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806814"
 ---
-# <a name="create-contact-companies"></a>Crear empresas de contacto
+# <a name="create-contacts"></a>Crear contactos
 Puede crear un contacto por cada nueva empresa con la que se relacione, como puede ser un cliente, un proveedor, un posible cliente, un banco, un despacho de abogados, una consultora, etc.
 
 Existen dos formas de crear un contacto: desde cero o a partir de un cliente, proveedor o cuenta bancaria existente.
-
-Antes de crear un contacto, es posible que desee comprobar la configuración de la página **Configuración marketing**. Para obtener más información, consulte [Configurar la gestión de relaciones](marketing-setup-marketing.md).
 
 ## <a name="create-a-company-contact-from-scratch"></a>Crear un contacto de compañía desde cero
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Contactos** y luego elija el enlace relacionado.
@@ -61,4 +59,3 @@ Si ya configuró un cierto número de clientes, proveedores o bancos, podrá cre
 [Asignar grupos de correo a un contacto](marketing-mailing-groups.md#AssignMailGroupContact)  
 [Crear personas de contacto](marketing-create-contact-persons.md)  
 [Trabajar con Business Central](ui-work-product.md)
-
