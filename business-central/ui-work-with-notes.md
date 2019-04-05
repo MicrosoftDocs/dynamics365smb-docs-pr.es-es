@@ -1,22 +1,22 @@
 ---
-title: "Añadir información a sus registros para usted mismo | Documentos de Microsoft"
-description: "Adjunte una nota a cualquier registro de la aplicación. Por ejemplo, si tiene información adicional sobre un pedido de venta que no se ajusta a ninguno de los campos del pedido de venta, puede escribir una nota."
+title: Añadir información a sus registros para usted mismo | Documentos de Microsoft
+description: Adjunte una nota a cualquier registro de la aplicación. Por ejemplo, si tiene información adicional sobre un pedido de venta que no se ajusta a ninguno de los campos del pedido de venta, puede escribir una nota.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 748e148e99a6c99a5a2ebf5f05a87350bee26ae7
-ms.contentlocale: es-es
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805514"
 ---
 # <a name="add-and-view-notes-on-records"></a>Añadir y visualizar notas de registros
  Usted <!--OnPrem and your colleagues -->puede agregar notas a los registros de la aplicación. Muchas páginas, particularmente las que muestran una lista de registros, como la página **Pedidos de ventas**, incluyen la acción **Notas** o el cuadro de información de **Notas**. <!--OnPrem Notes is where you can write notes about a record to yourself or others, and where you can view notes to you from others. For example, a note could be a general comment or processing instruction to your colleague, who can then respond to your note using their own **Notes**. Or, your colleague can add a note that gives you extra information about a sales order that is not covered by the information on the sales order. These notes and correspondences will follow the record as it is processed in the company.-->
@@ -49,4 +49,3 @@ ms.lasthandoff: 11/22/2018
 3.  Choose the **OK** button.  -->
 ## <a name="see-also"></a>Consulte también
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

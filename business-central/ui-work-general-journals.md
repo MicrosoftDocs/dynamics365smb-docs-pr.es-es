@@ -1,20 +1,20 @@
 ---
 title: Usar diarios generales para registrar directamente en C/G | Documentos de Microsoft
-description: "Obtenga información sobre el uso de diarios para registrar transacciones financieras en cuentas generales y otras cuentas, como cuentas bancarias y de proveedor."
+description: Obtenga información sobre el uso de diarios para registrar transacciones financieras en cuentas generales y otras cuentas, como cuentas bancarias y de proveedor.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/27/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: ddcda93c59df3f8390dc3852595d4f07f03648f5
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: f715dc4994fb3507d73f44bc9adc689f6d3f71cb
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806187"
 ---
 # <a name="working-with-general-journals"></a>Trabajar con diarios generales
 
@@ -35,7 +35,7 @@ La información que introduzca en un diario es temporal y se puede modificar mie
 
 ## <a name="using-journal-templates-and-batches"></a>Usar plantillas y secciones de diario
 
-Existen varias plantillas de diario general. Cada plantilla de diario se representa mediante una página específica con funciones particulares y los campos que se requieren para admitir estas funciones, como la página **Diario de conciliación de pagos** para procesar pagos bancarios y la página **Diario de pagos** para pagar a sus proveedores o reembolsar a sus empleados. Para obtener más información, consulte [Realizar pagos](payables-make-payments.md) y [Conciliar pagos de cliente manualmente](receivables-how-apply-sales-transactions-manually.md).
+Existen varias plantillas de diario general. Cada plantilla de diario se representa mediante una página específica con funciones particulares y los campos que se requieren para admitir estas funciones, como la página **Diario de conciliación de pagos** para procesar pagos bancarios y la página **Diario de pagos** para pagar a sus proveedores o reembolsar a sus empleados. Para obtener más información, vea [Realizar pagos](payables-make-payments.md) y [Conciliar los pagos de clientes con el diario de recibos de efectivo o de los movimientos de cliente](receivables-how-apply-sales-transactions-manually.md).
 
 Para cada plantilla de diario, puede configurar su propio diario personal como una sección de diario. Por ejemplo, puede definir su propia sección de diario del diario de pagos que tiene su diseño y configuración personal. La sugerencia siguiente es un ejemplo de cómo personalizar un diario.
 
@@ -49,7 +49,7 @@ Si ha configurado cuentas de contrapartida predeterminadas para las secciones de
 >   El IVA se calcula de manera independiente para la cuenta principal y la cuenta de contrapartida, para que puedan utilizar diferentes tipos porcentuales de IVA.
 
 ## <a name="working-with-recurring-journals"></a>Trabajar con diarios periódicos
-Un diario periódico es un diario general con campos específicos para administrar las transacciones que registre frecuentemente con pocos cambios o con ninguno, como el alquiler, las suscripciones, la electricidad y la calefacción. Al usar estos campos para las transacciones periódicas, puede registrar importes tanto fijos como variables. También puede especificar movimientos de reversión automática para el día posterior a la fecha de registro. También puede usar claves de asignación para dividir los movimientos recurrentes entre varias cuentas. Para obtener más información, consulte la sección "Asignación de importes de diario recurrentes a varias cuentas".
+Un diario periódico es un diario general con campos específicos para administrar las transacciones que registre frecuentemente con pocos cambios o con ninguno, como el alquiler, las suscripciones, la electricidad y la calefacción. Al usar estos campos para las transacciones periódicas, puede registrar importes tanto fijos como variables. También puede especificar movimientos de reversión automática para el día posterior a la fecha de registro. También puede usar claves de asignación para dividir los movimientos recurrentes entre varias cuentas. Para obtener más información, consulte [Asignación de importes de diario recurrentes a varias cuentas](ui-work-general-journals.md#allocating-recurring-journal-amounts-to-several-accounts).
 
 En un diario periódico, los movimientos que se van a registrar con regularidad sólo hay que escribirlos una vez. Por tanto, las cuentas, las dimensiones, los valores de dimensiones, etc. que se introduzcan permanecerán en el diario después del registro. Si hay que hacer algún cambio, puede realizarlo en cada registro.
 
@@ -60,7 +60,7 @@ Este campo determina la forma en que se tratará el importe en la línea de diar
 | --- | --- |
 |Fijo|El importe de la línea del diario permanecerá una vez realizado el registro.|
 |Variable|El importe de la línea del diario se borrará una vez realizado el registro.|
-|Saldo|El importe registrado en la cuenta de la línea se distribuirá entre las cuentas especificadas para la línea de la tabla Diario gen. distribución. El saldo de la cuenta se establecerá por lo tanto a cero. No olvide rellenar el campo **% Distribución** en la página **Asignaciones**. Para obtener más información, consulte la sección "Asignación de importes de diario recurrentes a varias cuentas".|
+|Saldo|El importe registrado en la cuenta de la línea se distribuirá entre las cuentas especificadas para la línea de la tabla Diario gen. distribución. El saldo de la cuenta se establecerá por lo tanto a cero. No olvide rellenar el campo **% Distribución** en la página **Asignaciones**. Para obtener más información, consulte [Asignación de importes de diario recurrentes a varias cuentas](ui-work-general-journals.md#allocating-recurring-journal-amounts-to-several-accounts).|
 |Contraasiento fijo|El importe de la línea del diario se mantendrá después del registro y se registrará un movimiento de contrapartida al día siguiente.|
 |Contraasiento variable|El importe de la línea del diario se borrará después del registro y se registrará un movimiento de contrapartida al día siguiente.|
 |Contraasiento saldo|El importe registrado en la cuenta de la línea se distribuirá entre las cuentas especificadas para la línea de la página **Asignaciones**. El saldo en la cuenta se establecerá en cero y se contabilizará un movimiento de saldo el día siguiente.|
@@ -69,7 +69,7 @@ Este campo determina la forma en que se tratará el importe en la línea de diar
 >  Los campos de IVA se pueden rellenar en la línea del diario periódico o en la línea del diario de distribución, pero no en ambas. Es decir, sólo se pueden rellenar en la página **Asignaciones** si no se han rellenado las líneas correspondientes en el diario periódico.
 
 ### <a name="recurring-frequency-field"></a>Campo Frecuencia repetición
-Este campo determina la frecuencia con que se va a registrar el movimiento de la línea del diario. Es un campo de fórmula de fecha y debe rellenarse para líneas periódicas. Para obtener más información, consulte la sección sobre el uso de fórmulas de fecha en [Introducción de datos](ui-enter-data.md).
+Este campo determina la frecuencia con que se va a registrar el movimiento de la línea del diario. Es un campo de fórmula de fecha y debe rellenarse para líneas periódicas. Para obtener más información, vea [Uso de fórmulas de fecha](ui-enter-date-ranges.md#using-date-formulas).
 
 #### <a name="examples"></a>Ejemplos
 Si la línea de diario debe registrarse cada mes, escriba "1M". Después de cada registro, la fecha del campo **Fecha registro** se actualizará con la fecha del mes siguiente.
@@ -164,4 +164,3 @@ Cuando sea necesario, los valores del campo **Nº documento** se cambian para qu
 [Asignar costes e ingresos](year-allocate-costs-income.md)  
 [Finanzas](finance.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

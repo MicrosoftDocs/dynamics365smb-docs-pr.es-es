@@ -1,8 +1,8 @@
 ---
-title: "Descripción de cómo registrar documentos de compra | Documentos de Microsoft"
-description: "Obtenga información sobre las diversas funciones de registro para registrar documentos de compra."
+title: Descripción de cómo registrar documentos de compra | Documentos de Microsoft
+description: Obtenga información sobre las diversas funciones de registro para registrar documentos de compra.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 5f3c709e6e2588fe7cf409e44291d331acc09432
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805516"
 ---
 # <a name="posting-purchases"></a>Registrar compras
 En **Grupo contable** en un documento de compra, puede elegir entre las funciones de registro siguientes:
@@ -48,5 +48,4 @@ Una vez finalizado el registro, las líneas de compra registradas se quitan del 
 [Compras](purchasing-manage-purchasing.md)  
 [Registrar documentos y diarios](ui-post-documents-journals.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-
 

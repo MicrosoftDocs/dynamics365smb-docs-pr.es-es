@@ -1,6 +1,6 @@
 ---
 title: Recordatorios y clientes con pagos vencidos | Documentos de Microsoft
-description: "Describe cómo enviar un recordatorio a un cliente sobre un pago atrasado y los intereses o comisiones generados por el retraso."
+description: Describe cómo enviar un recordatorio a un cliente sobre un pago atrasado y los intereses o comisiones generados por el retraso.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: f33d8a851c1c5a8f3c464a44ebd1d6319131af09
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 3dfc2d9edbb72de196238748ab90ce8dd4990adb
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805869"
 ---
 # <a name="collect-outstanding-balances"></a>Cobrar saldos pendientes
 Gestionar cobros incluye comprobar si los importes vencidos se pagan puntualmente. Si los clientes tienen pagos vencidos, puede empezar enviando el informe de Extracto de cliente como recordatorio. También puede emitir recordatorios.
@@ -99,10 +99,10 @@ Si crea más recordatorios de aquellos para los que tenga niveles definidos, se 
 |%11|El nombre de la empresa|  
 |%12|Contenido del campo **Recargo adicional por línea** en la cabecera del recordatorio|  
 
-Por ejemplo, si escribe **Tiene una deuda de %9 %7 vencida desde el %2.**, el recordatorio resultante contendrá el siguiente texto: **Tiene una deuda de USD DL vencida desde el 02-02-2014**.
+Por ejemplo, si escribe **Tiene una deuda de %9 %7 vencida desde el %2.**, el recordatorio resultante contendrá el siguiente texto: **Tiene una deuda de 1.200,50 USD vencida desde el 02-02-2014**.
 
 > [!NOTE]
-> La fecha de vencimiento se calcula según la fórmula de fecha que introduzca. Para obtener más información, consulte la sección sobre el uso de fórmulas de fecha en [Introducir rangos de fechas](ui-enter-date-ranges.md).
+> La fecha de vencimiento se calcula según la fórmula de fecha que introduzca. Para obtener más información, vea [Uso de fórmulas de fecha](ui-enter-date-ranges.md#using-date-formulas).
 
 Una vez configurados los términos de recordatorio, con niveles y texto adicionales, escriba uno de los códigos en cada una de las fichas de cliente. Para obtener más información, vea [Registrar nuevos clientes](sales-how-register-new-customers.md).
 
@@ -254,4 +254,3 @@ Cuando se emite un recordatorio, se crea un movimiento de recordatorio en la pá
 [Administrar cobros](receivables-manage-receivables.md)  
 [Ventas](sales-manage-sales.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,6 +1,6 @@
 ---
 title: Enviar informes de IVA a las autoridades fiscales | Documentos de Microsoft
-description: "Obtenga más información sobre cómo preparar informes que registren el IVA de ventas durante un periodo, o durante vendas y compras, y enviarlo a las autoridades fiscales."
+description: Obtenga más información sobre cómo preparar informes que registren el IVA de ventas durante un periodo, o durante vendas y compras, y enviarlo a las autoridades fiscales.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,13 @@ ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 729524ce2145b4e167fb49671045b298affb862b
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806116"
 ---
-
 # <a name="how-to-report-vat-to-a-tax-authority"></a>Crear informes de IVA para una autoridad fiscal
 En este tema se describen los informes de [!INCLUDE[d365fin](includes/d365fin_md.md)] que puede utilizar para enviar información sobre importes del IVA (IVA) para ventas y compras a las autoridades fiscales de su región.
 
@@ -97,9 +96,9 @@ Al transferir importes de IVA a la cuenta de liquidación, la cuenta de IVA sopo
 > Cuando se utiliza el trabajo por lotes **Calc. y registrar liq. IVA**, si no especifica un **Grupo registro IVA neg.** y un **Grupo registro IVA prod.**, se incluirán los movimientos con todos los códigos de los grupos contables de negocio y los de grupos contables de producto.
 
 ## <a name="configuring-your-own-vat-reports"></a>Configuración de sus propios informes de IVA
-Puede utilizar el informe de listas de ventas de CE original, sin embargo, también puede crear sus propios informes. Para ello es necesario crear algunas unidades de código. Si necesita ayuda, póngase en contacto con un socio de Microsoft.  
+Puede utilizar el informe de listas de ventas de CE original, sin embargo, también puede crear sus propios informes. Para ello es necesario crear algunas codeunits. Si necesita ayuda, póngase en contacto con un socio de Microsoft.  
 
-En la tabla siguiente se describen las unidades de código que debe crear para el informe.
+En la tabla siguiente se describen las codeunits que debe crear para el informe.
 
 | Codeunit | Qué se debe hacer |
 |----|-----|
@@ -110,11 +109,10 @@ En la tabla siguiente se describen las unidades de código que debe crear para e
 |Cancelar | Registre cancelaciones de un informe de IVA enviada anteriormente a la administración fiscal. |  
 
 > [!Note]
-> Cuando cree las unidades de código para el informe, ponga atención al valor del campo **Versión de informe de IVA**. Este campo debe reflejar la versión del informe que la autoridad tributaria requiere. Por ejemplo, puede introducir **2017** en el campo para indicar que el informe cumple con los requisitos que estaban en vigor ese año. Para buscar la versión actual, póngase en contacto con su autoridad fiscal.
+> Cuando cree las codeunits para el informe, ponga atención al valor del campo **Versión de informe de IVA**. Este campo debe reflejar la versión del informe que la autoridad tributaria requiere. Por ejemplo, puede introducir **2017** en el campo para indicar que el informe cumple con los requisitos que estaban en vigor ese año. Para buscar la versión actual, póngase en contacto con su autoridad fiscal.
  
 ## <a name="see-also"></a>Consulte también .
 [Configurar los cálculos y los métodos de registro del impuesto sobre el valor añadido](finance-setup-vat.md)  
 [Trabajar con el IVA por ventas y compras](finance-work-with-vat.md)  
 [Configuración de ventas](sales-setup-sales.md)  
 [Facturar ventas](sales-how-invoice-sales.md)  
-

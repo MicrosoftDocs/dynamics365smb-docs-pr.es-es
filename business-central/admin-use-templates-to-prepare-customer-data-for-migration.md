@@ -1,23 +1,23 @@
 ---
-title: "Preparar migración de datos de cliente | Documentos de Microsoft"
-description: "Una vez que haya importado y aplicado los datos de configuración en la nueva base de datos, podrá comenzar a migrar los datos maestros existentes del cliente, tales como nombres y números de cliente y producto. Para asegurarse de que estos datos se crean de forma rápida y precisa en la empresa nueva, debe usar plantillas para estructurar los datos."
+title: Preparar migración de datos de cliente | Documentos de Microsoft
+description: Una vez que haya importado y aplicado los datos de configuración en la nueva base de datos, podrá comenzar a migrar los datos maestros existentes del cliente, tales como nombres y números de cliente y producto. Para asegurarse de que estos datos se crean de forma rápida y precisa en la empresa nueva, debe usar plantillas para estructurar los datos.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 11/07/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 7861925cc318a7d23c612bc640e6d7e60bc5eed3
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: dbc38deef740c6da31f93feb788b8dc5d62f25fe
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805354"
 ---
 # <a name="prepare-to-migrate-customer-data"></a>Preparar migración de datos de cliente
 Una vez que haya importado y aplicado los datos de configuración en la nueva base de datos, podrá comenzar a migrar los datos maestros existentes del cliente, tales como nombres y números de cliente y producto. Para asegurarse de que estos datos se crean de forma rápida y precisa en la empresa nueva, debe usar plantillas para estructurar los datos.  
@@ -115,7 +115,7 @@ Puede utilizar la estructura de datos que se incluye en las plantillas de datos 
 Los pasos siguientes ilustran cómo crear una ficha de producto de una plantilla de datos de producto. Puede crear un registro de cualquier plantilla de datos mediante el mismo procedimiento.  
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Plantillas de configuración** y luego elija el enlace relacionado.  
-2. Seleccione la plantilla **Artículo** y, a continuación, elija la acción **Editar**. Para obtener más información, consulte la sección "Para crear una plantilla de datos".
+2. Seleccione la plantilla **Artículo** y, a continuación, elija la acción **Editar**. Para obtener más información, consulte [Para crear una plantilla de datos](admin-use-templates-to-prepare-customer-data-for-migration.md#to-create-a-new-data-template).
 3. Seleccione la acción **Crear instancia**. Se creará una ficha de producto.  
 4. Elija el botón **Aceptar**.  
 5. Para revisar la nueva ficha de producto, elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Productos** y luego elija el enlace relacionado.  
@@ -140,4 +140,3 @@ Los valores predeterminados de la plantilla de cliente seleccionada se introduce
 [Configurar una empresa con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administración](admin-setup-and-administration.md)  
 [Permite registrar nuevos clientes](sales-how-register-new-customers.md)
-

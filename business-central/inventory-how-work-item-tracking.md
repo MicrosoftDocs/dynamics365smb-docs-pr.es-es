@@ -1,30 +1,30 @@
 ---
-title: "Asignar números de serie y de lote a productos para realizar un seguimiento | Microsoft Docs"
-description: "Puede agregar números de serie y números de lote a cualquier documento de salida o de entrada, los movimientos de seguimiento de producto registrados se muestran en los correspondientes movimientos de producto."
+title: Asignar números de serie y de lote a productos para realizar un seguimiento | Microsoft Docs
+description: Puede agregar números de serie y números de lote a cualquier documento de salida o de entrada, los movimientos de seguimiento de producto registrados se muestran en los correspondientes movimientos de producto.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 3c8e58ae653d1e8fca520fc8f3e876df67f50950
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 7200b074670f9c4541b0b7ae1d2f4e1159a7ff27
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805599"
 ---
 # <a name="work-with-serial-and-lot-numbers"></a>Trabajar con números de lote y de serie
-Puede asignar números de serie y de lote a cualquier documento de salida o de entrada, los movimientos de seguimiento de producto registrados se muestran en los correspondientes movimientos de producto. El trabajo se realiza en la página **Líns. seguim. prod.**.
+Puede asignar números de serie y de lote a cualquier documento de salida o de entrada, los movimientos de seguimiento de producto registrados se muestran en los correspondientes movimientos de producto. Realice el trabajo en la página **Líns. seguim. prod.**, que puede abrir desde un documento de entrada o salida.
 
 La matriz de los campos de cantidad del encabezado de la página **Líns. seguim. prod.** muestra las cantidades y las sumas de los números de seguimiento de producto que se definen en las líneas. Las cantidades deben corresponder a las de la línea del documento, indicado mediante un 0 en los campos **Indefinido**.
 
 Con el fin de mejorar el rendimiento, el programa recopila la información sobre disponibilidad que se muestra en la página **Líns. seguim. prod.** solamente cuando la abre. Esto significa que el sistema no actualiza la información sobre disponibilidad mientras la página está abierta, incluso aunque se produzcan cambios en el inventario o en otros documentos durante ese tiempo.
 
-Los números de serie o lote de productos se pueden seguir, ya sea hacia adelante o hacia atrás, en su cadena de suministro. Esto es útil para asegurarse de la calidad general y para la recuperación de productos. Para obtener más información, consulte [Realizar un seguimiento de productos marcados para seguimiento](inventory-how-to-trace-item-tracked-items.md).
+Los números de serie o lote de productos se pueden seguir, ya sea hacia adelante o hacia atrás, en la cadena de suministro. Esto es útil para asegurarse de la calidad general y para la recuperación de productos. Para obtener más información, consulte [Realizar un seguimiento de productos marcados para seguimiento](inventory-how-to-trace-item-tracked-items.md).
 
 ## <a name="about-picking-serial-or-lot-numbers-in-the-warehouse"></a>Cómo hacer picking de los números de serie y de lote en el almacén
 El control de salidas de números de serie o lote es una tarea común en diferentes procesos del almacén.  
@@ -62,7 +62,7 @@ Un código de seguimiento de producto refleja las distintas consideraciones que 
 
 > [!NOTE]  
 >  Si desea rastrear elementos específicos o lotes específicos a lo largo de su vida útil, debe elegir los campos **Seguim. NS específ.** y **Seguim. lote específ.**, respectivamente. Como resultado, al manejar una unidad de salida de un artículo con este código de seguimiento de artículos, siempre debe especificar qué número de serie existente o qué número de lote existente debe gestionar. Esto significa que al vender una unidad del producto, debe liquidarse con un grupo específico de números de serie o de lote en las existencias. Es decir, un número de serie o de lote asignado al producto cuando entra en el inventario debe seguir hasta que sale del mismo.
-  
+
 Ya que este campo cubre todas las transacciones posibles con el producto, los campos de entrada y salida individuales también estarán seleccionados. No obstante, no hay que hacer nada con los campos de entrada y salida individuales en las existencias, ya que sólo definen el flujo de trabajo de su empresa cuando se asignan números de seguimiento de producto.  
 
 ### <a name="to-set-up-expiration-rules-for-serial-or-lot-numbers"></a>Para configurar las reglas de caducidad para números de serie o lote  
@@ -75,6 +75,7 @@ Con algunos productos es posible que le interese configurar fechas y reglas de c
     |---------------------------------|---------------------------------------|  
     |**Registro caducidad requerido**|Especifica que, cuando el producto salga del inventario, debe respetarse la fecha de caducidad asignada al número de seguimiento de producto tal como se introdujo en el inventario.|  
     |**Fecha caducidad manual requerida**|Especifica que debe introducirse manualmente una fecha de caducidad en la línea de seguimiento de producto.|  
+    |**Ignorar fechas de caducidad**|Especifica que no desea calcular las fechas de caducidad. |  
 
 ### <a name="to-set-up-warranties-for-serial-or-lot-numbers"></a>Para configurar garantías para números de serie o lote  
 Con algunos productos es posible que le interese configurar garantías específicas en el código de seguimiento de producto. Esta funcionalidad le permite realizar un seguimiento de la caducidad de las garantías de determinados números de serie o lote en inventario.        
@@ -108,7 +109,7 @@ Si necesita vincular información especial a un número de seguimiento de produc
 5. Seleccione una ficha y después la acción **Ficha información nºlote/Ficha información nº serie** .  
 6. Edite el texto de la breve descripción, el registro de comentario o el campo **Bloqueado**.  
 
-No puede modificar los números de serie o lote ni las cantidades. Para ello, deberá reclasificar el movimiento de producto en cuestión. Si desea obtener más información, consulte "Reclasificación de números de lote o de serie".
+No puede modificar los números de serie o lote ni las cantidades. Para ello, deberá reclasificar el movimiento de producto en cuestión. Si desea obtener más información, consulte [Para reclasificar de números de lote o de serie](inventory-how-work-item-tracking.md#to-reclassify-serial-or-lot-numbers).
 
 ## <a name="to-assign-serial-or-lot-numbers-during-an-inbound-transaction"></a>Para asignar números de serie o lote en una transacción de entrada  
 Es posible que las empresas deseen realizar un seguimiento de productos desde el momento en que éstos entran en la empresa. En esta situación, el pedido de compra normalmente es el documento principal, aunque el seguimiento de productos puede controlarse desde cualquier documento de entrada y sus movimientos registrados que se muestran en los movimientos de productos correspondientes.  
@@ -146,7 +147,7 @@ Cuando se registra el documento, los movimientos de seguimiento de producto se l
 ## <a name="to-assign-a-serial-or-lot-number-during-an-outbound-transaction"></a>Para asignar un número de serie o lote en una transacción de salida  
 Hay dos formas de agregar números de serie y de lote a las transacciones de salida:  
 
--   Selección de los números de serie o lote existentes. Se aplica cuando ya se han asignado los números de seguimiento de producto en una transacción de entrada. Para más información, consulte la sección "Seleccionar números de serie o de lote existentes".
+-   Selección de los números de serie o lote existentes. Se aplica cuando ya se han asignado los números de seguimiento de producto en una transacción de entrada. Para más información, consulte [Para seleccionar números de serie o de lote existentes](inventory-how-work-item-tracking.md#to-select-from-existing-serial-or-lot-numbers).
 -   Asignación de números de serie o lote nuevos en las transacciones de salida. Esto se aplica cuando los números de seguimiento de producto no se asignan a los productos que se venden y están preparados para enviarse.  
 
 Se configuran distintas reglas para los números de seguimiento de producto en la página **Ficha cód. seguim. prod.**.  
@@ -268,4 +269,3 @@ El proceso de reclasificar el seguimiento para un producto significa convertir u
 [Detalles de diseño. Seguimiento y reservas de productos](design-details-item-tracking-and-reservations.md)  
 [Reservar artículos](inventory-how-to-reserve-items.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

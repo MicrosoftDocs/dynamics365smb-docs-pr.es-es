@@ -2,22 +2,22 @@
 title: Crear facturas o abonos de servicios | Documentos de Microsoft
 description: Aprenda a crear facturas para que pueda recibir el pago de su servicio.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: a0c8cc9444c1b6979843beff55cc9e792ec188d0
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806331"
 ---
 # <a name="create-service-invoices-or-credit-memos"></a>Crear facturas o abonos de servicios
 La facilidad de facturar sus pedidos de servicio es una función esencial de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Puede enviar una factura a sus clientes en cualquier momento o crear facturas periódicamente.  
@@ -102,4 +102,3 @@ Un documento de abono de servicio se utiliza normalmente cuando un cliente devue
 [Registrar facturas de servicio](service-how-to-post-service-orders.md)  
 [Configurar la gestión de servicios](service-setup-service.md)  
 [Registro de servicio](service-service-posting.md)  
-

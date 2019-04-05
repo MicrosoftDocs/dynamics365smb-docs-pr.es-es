@@ -1,21 +1,21 @@
 ---
-title: "Definir cómo se intercambian los datos electrónicamente | Documentos de Microsoft"
-description: "Puede usar el proveedor externo de servicios OCR para convertir documentos PDF o archivos de imagen a documentos electrónicos."
+title: Definir cómo se intercambian los datos electrónicamente | Documentos de Microsoft
+description: Puede usar el proveedor externo de servicios OCR para convertir documentos PDF o archivos de imagen a documentos electrónicos.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/26/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
 ms.openlocfilehash: 0a8172f0c8770235291e7b9a29663f15932f38b4
-ms.contentlocale: es-es
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806280"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Configurar definiciones de intercambio de datos
 Puede configurar [!INCLUDE[d365fin](includes/d365fin_md.md)] para intercambiar datos de tablas específicas con datos de archivos externos, por ejemplo para enviar y recibir documentos electrónicos, importar o exportar datos de banco u otros datos, como nóminas, tipos de cambio de divisa y catálogos de productos. Para obtener más información, vea [Intercambio de datos electrónicamente](across-data-exchange.md).  
@@ -52,14 +52,14 @@ La creación de una definición de intercambio de datos implica dos tareas:
     |**Nombre**|Escriba un nombre para la definición de intercambio de datos.|  
     |**Tipo de archivo**|Especifique el tipo de archivo para el que se usa la definición de intercambio de datos. Puede seleccionar cuatro tipos de archivo:<br /><br /> -   **XML**: cadenas de contenido y marcado por niveles entre etiquetas que indican función.<br />-   **Texto variable**: los registros tienen una longitud variable y están separados por un carácter, como una coma o un punto y coma. También conocido como *archivo delimitado*.<br />-   **Texto fijo**: registros que tienen la misma longitud (se usan caracteres de relleno) y en el que cada registro se incluye en una línea aparte. También conocido como *archivo de ancho fijo*.<br />- **Json**: Cadenas de contenido en JavaScript.|  
     |**Escriba**|Especifique para qué tipo de actividad económica se utiliza la definición de intercambio de datos, por ejemplo **Exportación de pagos**.|  
-    |**Codeunit de control de datos**|Especifique la unidad de código que transfiere los datos a las tablas de [!INCLUDE[d365fin](includes/d365fin_md.md)] y desde ellas.|  
-    |**Codeunit de validación**|Especifique la unidad de código que se usa para validar los datos según las reglas de negocio predefinidas.|  
-    |**Codeunit de XMLport de lectura/escritura**|Especifique el codeunit que procesa los datos importados antes de la asignación y los datos exportados después de la asignación.|  
-    |**XMLport de lectura/escritura**|Especifique el objeto XMLport a través del que entra un archivo de datos o un servicio importado antes de la asignación y a través del que salen los datos exportados cuando se escriben en un archivo de datos o servicio después de la asignación.|  
-    |**Codeunit de control de datos ext.**|Especifique el codeunit que transfiere los datos externos al marco de intercambio de datos y desde él.|  
-    |**Codeunit de comentario del usuario**|Especifique la unidad de código que efectúa la limpieza después de la asignación, como marcar las líneas como exportadas y eliminar los registros temporales exportado.|  
+    |**Codeunit de control de datos**|Especifique la codeunit que transfiere los datos a las tablas de [!INCLUDE[d365fin](includes/d365fin_md.md)] y desde ellas.|  
+    |**Codeunit de validación**|Especifique la codeunit que se usa para validar los datos según las reglas de negocio predefinidas.|  
+    |**Codeunit de XMLport de lectura/escritura**|Especifique la codeunit que procesa los datos importados antes de la asignación y los datos exportados después de la asignación.|  
+    |**XMLport de lectura/escritura**|Especifique el elemento XMLport a través del cual entra el archivo o el servicio de datos importados antes de que se asigne y desde el que salen los datos exportados cuando un archivo o un servicio de datos se escribe después de su asignación.|  
+    |**Codeunit de control de datos ext.**|Especifique la codeunit que transfiere los datos externos al marco de intercambio de datos y desde él.|  
+    |**Codeunit de comentario del usuario**|Especifique la codeunit que efectúa la limpieza después de la asignación, como marcar las líneas como exportadas y eliminar los registros temporales exportado.|  
     |**Codificación de archivos**|Especifique la codificación del archivo. **Nota:** Este campo solo es pertinente para la importación.|  
-    |**Separador de columnas**|Especifique cómo se separan las columnas del archivo de datos, si es de tipo **Variable Text**.|  
+    |**Separador de columnas**|Especifique cómo se separan las columnas del archivo de datos, si es de tipo **Texto variable**.|  
     |**Líneas de encabezado**|Especifique cuántas líneas de encabezado hay en el archivo.<br /><br /> De este modo se garantiza que no se importan los datos de encabezado. **Nota:** Este campo solo es pertinente para la importación.|  
     |**Etiqueta de encabezado**|Si hay una línea de cabecera en varias posiciones en el archivo, introduzca el texto de la primera columna en la línea de cabecera.<br /><br /> De este modo se garantiza que no se importan los datos de encabezado. **Nota:** Este campo solo es pertinente para la importación.|  
     |**Etiqueta de pie de página**|Si hay una línea de pie de página en varias posiciones en el archivo, introduzca el texto de la primera columna en la línea de pie de página.<br /><br /> De este modo se garantiza que no se importan los datos de pie de página. **Nota:** Este campo solo es pertinente para la importación.|  
@@ -116,9 +116,9 @@ La creación de una definición de intercambio de datos implica dos tareas:
     |**Id. tabla**|Especifique la tabla que contiene los campos a los que se intercambian los datos, o desde los que se intercambian, según la asignación.|  
     |**Usar como tabla intermedia**|Especifique si la tabla que seleccionó en el campo **Id. tabla** es una tabla intermedia en la que se almacenan los datos importados antes de asignarlos a la tabla de destino.<br /><br /> Normalmente se usa una tabla intermedia cuando la definición de intercambio de datos se utiliza para importar y para convertir los documentos electrónicos, como facturas de proveedor en facturas de compra en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, vea [Intercambio de datos electrónicamente](across-data-exchange.md).|  
     |**Nombre**|Escriba un nombre para la configuración de asignación.|  
-    |**Codeunit de preasignación**|Especifique la unidad de código que prepara la asignación entre los campos de [!INCLUDE[d365fin](includes/d365fin_md.md)] y los datos externos.|  
-    |**Codeunit de asignación**|Especifique el codeunit que se usa para asignar las columnas especificadas o los elementos de datos XML a los campos de [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
-    |**Codeunit de postasignación**|Especifique el codeunit que completa la asignación entre los campos de [!INCLUDE[d365fin](includes/d365fin_md.md)] y los datos externos. **Nota**: Al usar la característica de servicio de conversión de datos de banco, el codeunit convierte los datos exportados desde [!INCLUDE[d365fin](includes/d365fin_md.md)] a un formato genérico que está preparado para la exportación. Para importar, la unidad de código convierte los datos externos a un formato listo para importar a [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
+    |**Codeunit de preasignación**|Especifique la codeunit que prepara la asignación entre los campos de [!INCLUDE[d365fin](includes/d365fin_md.md)] y los datos externos.|  
+    |**Codeunit de asignación**|Especifique la codeunit que se usa para asignar las columnas especificadas o los elementos de datos XML a los campos de [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
+    |**Codeunit de postasignación**|Especifique la codeunit que completa la asignación entre los campos de [!INCLUDE[d365fin](includes/d365fin_md.md)] y los datos externos. **Nota**: Al usar la característica de servicio de conversión de datos de banco, la codeunit convierte los datos exportados desde [!INCLUDE[d365fin](includes/d365fin_md.md)] a un formato genérico que está preparado para la exportación. Para importar, la codeunit convierte los datos externos a un formato listo para importar a [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
 
 3.  En la ficha desplegable **Asignación de campos**, especifique las columnas que se asignan a cada campo en [!INCLUDE[d365fin](includes/d365fin_md.md)]; para ello, rellene los campos tal como se describe en la tabla siguiente.  
 
@@ -160,4 +160,3 @@ Cuando haya creado la definición de intercambio de datos para un archivo de dat
 [Realizar pagos con Servicio de conversión de datos del banco o Transferencia de crédito SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
 [Documentos entrantes](across-income-documents.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)  
-

@@ -1,8 +1,8 @@
 ---
-title: "Configurar la información de administración de marketing y de contactos | Documentos de Microsoft"
-description: "Puede configurar la administración de marketing y de contacto de Business Central para optimizar las relaciones con los clientes potenciales o actuales, y mejorar las campañas y las promociones."
+title: Configurar la información de administración de marketing y de contactos | Documentos de Microsoft
+description: Puede configurar la administración de marketing y de contacto de Business Central para optimizar las relaciones con los clientes potenciales o actuales, y mejorar las campañas y las promociones.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
-ms.date: 12/07/2018
+ms.date: 02/26/2019
 ms.author: jswymer
+redirect_url: marketing-setup-contacts
+ms.openlocfilehash: e2fa7fc0c5f2e89f592dca84a89e5e5f551b0d28
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 955d436970f922bd7c36ee6d837e75dea9847dd8
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805693"
 ---
 # <a name="setting-up-relationship-management"></a>Configurar la gestión de relaciones
 Antes de empezar a trabajar con sus contactos e intereses de marketing, hay algunas decisiones y pasos que debe tomar para configurar la manera en que el área de marketing administra ciertos aspectos de sus contactos. Por ejemplo, puede decidir si sincronizar la ficha de contacto con la ficha de cliente, proveedor o cuenta bancaria, cómo se definirán las series numéricas o qué saludo estándar se usará al escribir a sus contactos.
@@ -48,7 +49,7 @@ Para obtener más información, vea [Registro automático de interacciones con c
 ## <a name="synchronizing-contacts-with-customers-and-more"></a>Sincronizar contactos con clientes, etc.
 Para poder sincronizar la ficha del contacto con la del cliente, proveedor y banco, debe seleccionar un código de relación de negocio para clientes, proveedores y bancos. Por ejemplo, solo se puede enlazar un contacto con un cliente existente si seleccionó un código de relación de negocio para los clientes en la página **Configuración de marketing**.
 
-Para obtener más información, consulte [Procedimiento: Sincronizar contactos con clientes, proveedores y cuentas bancarias](marketing-synchronize-contacts-customers-vendors-bank-accounts.md).
+Para obtener más información, consulte [Procedimiento: Sincronizar contactos con clientes, proveedores y cuentas bancarias](marketing-synchronize-contacts-customers-vendors-bank-accounts/Synchronizing Contacts With Customers, Vendors, and Bank Accounts).
 
 ## <a name="assigning-a-number-series-to-contacts-and-opportunities"></a>Asignar una serie numérica a contactos y oportunidades
 Puede configurar números de serie para contactos y oportunidades. Si ha configurado una serie numérica para contactos, cuando cree un contacto, pulse Entrar en el campo N.º de la ficha de contacto y el programa introduce automáticamente el siguiente número de contacto disponible.
@@ -61,4 +62,3 @@ Puede elegir que el sistema busque duplicados de forma automática cada vez que 
 ## <a name="see-also"></a>Consulte también
 [Gestionar contactos](marketing-contacts.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

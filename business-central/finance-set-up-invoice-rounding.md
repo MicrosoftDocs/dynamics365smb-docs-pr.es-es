@@ -1,23 +1,23 @@
 ---
 title: Configurar redondeo de facturas | Documentos de Microsoft
-description: "Puede redondear los importes de las facturas en el momento en que éstas se crean. Además, las normativas o costumbres locales pueden requerir que el redondeo de las facturas se realice de un modo específico, por ejemplo, en una cantidad divisible por 0,05."
+description: Puede redondear los importes de las facturas en el momento en que éstas se crean. Además, las normativas o costumbres locales pueden requerir que el redondeo de las facturas se realice de un modo específico, por ejemplo, en una cantidad divisible por 0,05.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 2cd31544c029d66b838bbbdf27bebdcc73252014
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806168"
 ---
 # <a name="set-up-invoice-rounding"></a>Configurar redondeo de factura
 Si necesita redondear importes de facturas cuando se crean, puede utilizar la función de redondeo automático. Cuando se redondea una factura, se añade una línea adicional en el importe redondeado y se registra con las demás líneas de la factura.
@@ -65,4 +65,3 @@ Para asegurarse de que se redondeen automáticamente las facturas de venta y com
 ## <a name="see-also"></a>Consulte también  
 [Facturar ventas](sales-how-invoice-sales.md)  
 [Registrar compras](purchasing-how-record-purchases.md)
-

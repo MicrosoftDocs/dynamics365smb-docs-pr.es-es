@@ -1,6 +1,6 @@
 ---
 title: Asignar o editar los permisos de usuario | Documentos de Microsoft
-description: "Describe cómo agregar usuarios de Office 365 a Business Central y asignarles permisos, derechos de acceso y opciones de seguridad."
+description: Describe cómo agregar usuarios de Office 365 a Business Central y asignarles permisos, derechos de acceso y opciones de seguridad.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 11/08/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: e60b7d875ebd0a598908f37a59a49953c61479f1
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
-ms.openlocfilehash: 78e83ee0740531935bd30a5988a72d1421a1fd89
-ms.contentlocale: es-es
-ms.lasthandoff: 11/29/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806276"
 ---
 # <a name="managing-users-and-permissions"></a>Gestionar usuarios y permisos
 Para agregar usuarios en [!INCLUDE[d365fin](includes/d365fin_md.md)], el administrador de Office 365 de la empresa primero debe crear los usuarios en el centro de administración de Office 365. Para obtener más información, vea [Agregar usuarios a Office 365 para empresas](https://aka.ms/CreateOffice365Users).
@@ -26,7 +26,7 @@ Después podrá asignar conjuntos de permisos a los usuarios para definir a qué
 
 Un conjunto de permisos es una colección de permisos para objetos específicos de la base de datos. A todos los usuarios se les debe asignar uno o varios conjuntos de permisos antes de que pueden acceder a [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Desde la página de la **Tarjeta de usuario**, puede abrir la página **Permisos efectivos** para ver qué permisos tiene el usuario y a través de qué conjuntos de permisos se otorgan. Aquí también puede cambiar los detalles de los permisos para los conjuntos de permisos del tipo **Definido por el usuario**. Para obtener más información, consulte la sección "Para ver o editar los permisos de un usuario".
+Desde la página de la **Tarjeta de usuario**, puede abrir la página **Permisos efectivos** para ver qué permisos tiene el usuario y a través de qué conjuntos de permisos se otorgan. Aquí también puede cambiar los detalles de los permisos para los conjuntos de permisos del tipo **Definido por el usuario**. Para obtener más información, consulte [Para obtener un resumen de los permisos de un usuario](ui-how-users-permissions.md#to-get-an-overview-of-a-users-permissions).
 
 Los administradores pueden usar la página **Configuración usuarios** para definir periodos de tiempo durante los que los usuarios especificados pueden registrar, así como especificar si el sistema registra la cantidad de tiempo que los usuarios tienen iniciada la sesión.
 
@@ -38,7 +38,7 @@ Otro sistema que define qué usuarios pueden acceder es la configuración de Exp
 
 Cualquier usuario nuevo que se haya creado para su suscripción a Office 365 se agregará a la página **Usuarios**.
 
-## <a name="to-group-users-in-a-user-group"></a>Agrupar usuarios en un grupo de usuarios
+## <a name="to-group-users-in-user-groups"></a>Para agrupar usuarios en grupos de usuarios
 Puede configurar grupos de usuarios para administrar conjuntos de permisos para grupos de usuarios en su empresa.
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Grupos de usuarios** y luego elija el enlace relacionado.
@@ -46,7 +46,7 @@ Puede configurar grupos de usuarios para administrar conjuntos de permisos para 
 3. En la página **Grupo usuarios**, seleccione la acción **Miembros de grupo de usuarios**.
 4. En la página **Miembros de grupo de usuarios**, seleccione la acción **Agregar usuarios**.
 
-Cuando se crean usuarios o grupos de usuarios, se deben asignar conjuntos de permisos a cada uno para definir a qué objeto puede acceder un usuario. En primer lugar, debe organizar los permisos relevantes en los conjuntos de permisos. Para obtener más información, consulte la sección "Para crear o editar un conjunto de permisos".
+Cuando se crean usuarios o grupos de usuarios, se deben asignar conjuntos de permisos a cada uno para definir a qué objeto puede acceder un usuario. En primer lugar, debe organizar los permisos relevantes en los conjuntos de permisos. Para obtener más información, consulte [Para obtener un resumen de los permisos de un usuario](ui-how-users-permissions.md#to-get-an-overview-of-a-users-permissions).
 
 ## <a name="to-copy-a-user-group-and-all-its-permission-sets"></a>Para copiar un grupo de usuarios y todos los conjuntos de permisos
 Para definir rápidamente un nuevo grupo de usuarios, puede copiar todos los conjuntos de permisos de un grupo de usuarios existente al nuevo grupo de usuarios.
@@ -57,7 +57,7 @@ No copian los miembros del grupo de usuarios al nuevo grupo de usuarios. Debe a�
 2. Seleccione el grupo de usuarios que desea copiar y, a continuación, seleccione la acción **Copiar el grupo de usuarios**.
 3. En el campo **Nuevo código de grupo de usuarios**, introduzca el nombre del grupo y después seleccione el botón **Aceptar**.
 
-El nuevo grupo de usuarios se agrega a la página **Grupos de usuarios**. Empiece a agregar usuarios. Para obtener más información, consulte la sección "Para agrupar usuarios en grupos de usuarios".  
+El nuevo grupo de usuarios se agrega a la página **Grupos de usuarios**. Empiece a agregar usuarios. Para obtener más información, consulte [Para agrupar usuarios en grupos de usuarios](ui-how-users-permissions.md#to-group-users-in-a-user-group).  
 
 ## <a name="to-set-up-user-time-constraints"></a>Para configurar restricciones de tiempo de usuarios
 Los administradores pueden definir periodos de tiempo durante los que los usuarios especificados pueden registrar, así como especificar si el sistema registra la cantidad de tiempo que los usuarios tienen iniciada la sesión. Los administradores también pueden asignar centros de responsabilidad a los usuarios. Para obtener más información, consulte [Trabajar con centros de responsabilidad](inventory-responsibility-centers.md).
@@ -68,7 +68,7 @@ Los administradores pueden definir periodos de tiempo durante los que los usuari
 4. Rellene los campos según sea necesario.
 
 ## <a name="to-create-or-modify-a-permission-set"></a>Para crear o modificar un conjunto de permisos
-Los conjuntos de permisos funcionan como contenedores de permisos, de modo que puede administrar fácilmente múltiples permisos en un registro. Cuando haya creado un conjunto de permisos, debe agregar los permisos reales. Para obtener más información, consulte la sección "Para crear o editar permisos".
+Los conjuntos de permisos funcionan como contenedores de permisos, de modo que puede administrar fácilmente múltiples permisos en un registro. Cuando haya creado un conjunto de permisos, debe agregar los permisos reales. Para obtener más información, consulte [Para crear o editar permisos manualmente](ui-how-users-permissions.md#to-create-or-modify-permissions-manually).
 
 > [!NOTE]  
 > Una solución de [!INCLUDE[d365fin](includes/d365fin_md.md)] generalmente contiene una serie de conjuntos de permisos predefinidos que Microsoft o su proveedor de software agregan. Estos conjuntos de permisos son de tipo **Sistema** o **Extensión**. No puede crear o editar estos tipos de conjuntos de permisos ni los permisos que estos contienen. Sin embargo, puede copiarlos para definir sus propios permisos y conjuntos de permisos. <br /><br />
@@ -91,7 +91,7 @@ Cuando crea conjuntos de permisos nuevos, puede utilizar una función de copia p
 El nuevo conjunto de permisos, que contiene todos los permisos del conjunto de permisos copiado, se agrega como una nueva línea en la página **Conjuntos de permisos**. Tenga en cuenta que las líneas están ordenadas alfabéticamente dentro de cada tipo.
 
 ## <a name="to-create-or-modify-permissions-manually"></a>Para crear o modificar permisos manualmente
-Este procedimiento explica cómo agregar o editar permisos manualmente. Puede tener conjuntos de permisos generados automáticamente de las acciones en la interfaz de usuario. Para obtener más información, consulte la sección "“Para crear o modificar conjuntos de permisos grabando la sección de las acciones".
+Este procedimiento explica cómo agregar o editar permisos manualmente. Puede tener conjuntos de permisos generados automáticamente de las acciones en la interfaz de usuario. Para obtener más información, consulte [Para crear o modificar conjuntos de permisos grabando la sección de las acciones](ui-how-users-permissions.md#to-create-or-modify-permission-sets-by-recording-your-actions).
 
 1. En la página **Conjuntos de permisos**, seleccione la línea para el conjunto de permisos y luego elija la acción **Permisos**.
 2. En la página **Permisos**, cree una nueva línea o modifique los campos de la línea existente.
@@ -106,9 +106,13 @@ En cada uno de los cinco campos de tipo de acceso, **Permiso de lectura**, **Per
 
 ### <a name="example---indirect-permission"></a>Ejemplo: permiso indirecto
 Puede asignar un permiso indirecto para usar un objeto solo a través de otro objeto.
-Por ejemplo, un usuario puede tener permiso para ejecutar la unidad de código 80, Venta-Registrar. La unidad de código Venta-Registrar realiza muchas tareas, incluida la modificación de la tabla 37, Línea de venta. Cuando el usuario registra un documento de venta, la codeunit Venta-Registrar, [!INCLUDE[d365fin](includes/d365fin_md.md)] comprueba si el usuario tiene permiso para modificar la tabla Línea de venta. Si no es así, la unidad de código no puede completar sus tareas y el usuario recibe un mensaje de error. Si es así, la unidad de código se ejecuta correctamente.
+Por ejemplo, un usuario puede tener permiso para ejecutar la codeunit 80, Venta-Registrar. La codeunit Venta-Registrar realiza muchas tareas, incluida la modificación de la tabla 37, Línea de venta. Cuando el usuario registra un documento de venta, la codeunit Venta-Registrar, [!INCLUDE[d365fin](includes/d365fin_md.md)] comprueba si el usuario tiene permiso para modificar la tabla Línea de venta. Si no es así, la codeunit no puede completar sus tareas y el usuario recibe un mensaje de error. Si es así, la codeunit se ejecuta correctamente.
 
-Sin embargo, el usuario no necesita tener acceso total a la tabla Línea de venta para ejecutar la unidad de código. Si el usuario tiene permiso indirecto para la tabla Línea de venta, la codeunit Venta-Registrar se ejecuta correctamente. Cuando un usuario tiene permiso indirecto, solo puede modificar la tabla Línea de venta al ejecutar la unidad de código Venta-Registrar u otro objeto que tenga permiso para modificar la tabla Línea de venta. El usuario sólo puede modificar la tabla Línea de venta en las áreas compatibles de la aplicación. El usuario no puede ejecutar la característica de forma inadvertida o malintencionada mediante otros métodos.
+Sin embargo, el usuario no necesita tener acceso total a la tabla Línea de venta para ejecutar la codeunit. Si el usuario tiene permiso indirecto para la tabla Línea de venta, la codeunit Venta-Registrar se ejecuta correctamente. Cuando un usuario tiene permiso indirecto, solo puede modificar la tabla Línea de venta al ejecutar la codeunit Venta-Registrar u otro objeto que tenga permiso para modificar la tabla Línea de venta. El usuario sólo puede modificar la tabla Línea de venta en las áreas compatibles de la aplicación. El usuario no puede ejecutar la característica de forma inadvertida o malintencionada mediante otros métodos.
+
+### <a name="to-limit-a-users-access-to-specific-records-in-a-table"></a>Para restringir el acceso de un usuario a registros específicos en una tabla
+Para seguridad de nivel registro en [!INCLUDE[d365fin](includes/d365fin_md.md)], utilice los filtros de seguridad para restringir el acceso a un usuario a los datos de una tabla. Cree los filtros de seguridad en los datos de la tabla. Un filtro de seguridad describe un conjunto de registros de una tabla a la que un usuario tiene permisos para acceder. Puede especificar, por ejemplo, que el usuario puede leer solo los registros que contienen información acerca de un determinado cliente. Esto significa que el usuario no puede acceder a los registros que contienen información sobre otros clientes. Para obtener más información, consulte [Usar filtros de seguridad](/dynamics365/business-central/dev-itpro/security/security-filters) en la Ayuda para desarrolladores y profesionales de TI.
+
 
 ## <a name="to-create-or-modify-permission-sets-by-recording-your-actions"></a>Para crear o modificar conjuntos de permisos registrando las acciones
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Conjunto de permisos** y luego elija el enlace relacionado.
@@ -138,7 +142,7 @@ Puede asignar permisos a los usuarios de dos formas:
 2. Seleccione el usuario al que desea asignar el permiso.
 Los conjuntos de permisos ya asignados al usuario se muestran en el cuadro informativo **Conjuntos de permisos**.
 3. Seleccione la acción **Editar** para abrir la página **Ficha de usuario**.
-4. En la ficha desplegable **Conjuntos de permisos de usuario**, en una línea nueva, rellene los campos según sea necesario. Para obtener más información, consulte la sección "Para crear o editar un conjunto de permisos".
+4. En la ficha desplegable **Conjuntos de permisos de usuario**, en una línea nueva, rellene los campos según sea necesario. Para obtener más información, consulte [Para crear o editar un conjunto de permisos](ui-how-users-permissions.md#to-create-or-modify-a-permission-set).
 
 ### <a name="to-assign-a-permission-set-on-the-permission-set-by-user-page"></a>Para asignar un conjunto de permisos en la página **Conjunto de permisos por usuario**  
 El siguiente procedimiento explica cómo asignar conjuntos de permisos a un usuario en la página **Conjunto de permisos por usuario**. Los pasos son similares en la página **Conjunto de permisos por grupo de usuarios**.
@@ -161,20 +165,20 @@ El siguiente procedimiento explica cómo asignar conjuntos de permisos a un usua
 
     > [!NOTE]  
     > Solo se pueden editar los conjuntos de permisos del tipo **Definido por el usuario**.<br /><br />
-    > Las filas del derecho de origen se originan del plan de suscripción. Los valores del permiso del derecho anulan los valores en otros conjuntos de permisos si tienen un ranking mayor. Un valor en un conjunto de permisos sin derecho que tiene una clasificación más alta que el valor relacionado en el derecho estará entre paréntesis para indicar que no es efectivo ya que está invalidado por el derecho. Para obtener una explicación del ranking, consulte la sección "Para crear o editar permisos".  
+    > Las filas del derecho de origen se originan del plan de suscripción. Los valores del permiso del derecho anulan los valores en otros conjuntos de permisos si tienen un ranking mayor. Un valor en un conjunto de permisos sin derecho que tiene una clasificación más alta que el valor relacionado en el derecho estará entre paréntesis para indicar que no es efectivo ya que está invalidado por el derecho. Para obtener una explicación del ranking, consulte [Para crear o editar permisos](ui-how-users-permissions.md#to-create-or-modify-permissions-manually).  
 
 4. Para editar un conjunto de permisos, en la parte **Por conjunto de permisos**, en la línea para un conjunto de permisos relevante de tipo **Definido por el usuario**, elija uno de los cinco campos de tipo de acceso y seleccione un valor diferente.
 
-5. Para editar permisos individuales dentro del conjunto de permisos, elija el valor en el campo **Conjunto de permisos** para abrir la página **Permisos**. Siga los pasos descritos en la sección "Para crear o editar permisos".  
+5. Para editar permisos individuales dentro del conjunto de permisos, elija el valor en el campo **Conjunto de permisos** para abrir la página **Permisos**. Siga los pasos descritos en [Para crear o editar permisos](ui-how-users-permissions.md#to-create-or-modify-permissions-manually).  
 
 > [!NOTE]  
 > Cuando edite un conjunto de permisos, los cambios también se aplicarán a otros usuarios que tengan asignado el conjunto de permisos.
 
 ## <a name="see-also"></a>Consulte también
+[Seguridad y protección en Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection)  
 [Comprender usuarios, perfiles y áreas de trabajo](admin-users-profiles-roles.md)  
 [Preparación para hacer negocios](ui-get-ready-business.md)  
 [Cambiar las funciones que se muestran](ui-experiences.md)  
 [Administración](admin-setup-and-administration.md)  
 [Agregar usuarios para Office 365 para empresas](https://aka.ms/CreateOffice365Users)  
 [Guía sobre licencias de Microsoft Dynamics 365 Business Central](https://aka.ms/BusinessCentralLicensing)
-

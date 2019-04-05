@@ -1,8 +1,8 @@
 ---
-title: "Configurar el registro automático de las interacciones | Documentos de Microsoft"
-description: "Puede registrar automáticamente sus interacciones con el cliente, por ejemplo, para ventas, compras y documentos de servicio o llamadas telefónicas."
+title: Configurar el registro automático de las interacciones | Documentos de Microsoft
+description: Puede registrar automáticamente sus interacciones con el cliente, por ejemplo, para ventas, compras y documentos de servicio o llamadas telefónicas.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: marketing, relationship, prospect, contact, client, customer
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 996bf575d463be365b0bbcdbeef319491065b873
-ms.contentlocale: es-es
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806057"
 ---
 # <a name="recording-interactions-with-contacts-automatically"></a>Registrar interacciones con contactos automáticamente
 Puede configurar la aplicación para que registre automáticamente interacciones de ventas, compras y documentos de servicio, hojas de portada, correos electrónicos, llamadas telefónicas, como:
@@ -34,4 +34,3 @@ Para abrir la página **Configuración plantilla interacción**, elija el icono 
 ## <a name="see-also"></a>Consulte también
 [Registrar interacciones con contactos](marketing-interactions.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

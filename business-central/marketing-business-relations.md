@@ -1,8 +1,8 @@
 ---
-title: "Definir los códigos de relaciones de negocio en contactos | Documentos de Microsoft"
+title: Definir los códigos de relaciones de negocio en contactos | Documentos de Microsoft
 description: Utilice las relaciones de negocio en Business Central como ayuda con el marketing y para indicar las relaciones de ese tipo con los clientes potenciales y los clientes, por ejemplo, un banco o un proveedor de servicios.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: marketing, prospect, contact, client, customer
 ms.date: 10/01/2018
 ms.author: jswymer
-redirect_url: marketing-setup-marketing
+redirect_url: marketing-create-contact-companies
+ms.openlocfilehash: cb600ea688a856f481d84604d6966231fe7f536d
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 33743655f682aae9e02393aa68d04dffd334357b
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806148"
 ---
-# <a name="setting-up-business-relations-on-contact-companies"></a>Configurar relaciones de negocio en empresas de contacto
+# <a name="setting-up-business-relations-on-contacts"></a>Configurar relaciones de negocio en contactos
 Puede usar relaciones de negocio se usan para indicar las relaciones de ese tipo con los contactos, por ejemplo, referencia, banco, consultora, proveedor de servicios, etc.
 
 El uso relaciones de negocio en contactos es un proceso que consta de dos pasos. Primero, debe definir el código de relación de negocio. Solo debe realizar este paso una vez para cada relación de negocio. Una vez tenga un código de relación de negocio, puede comenzar a asignar el código a empresas de contacto.
@@ -50,6 +50,4 @@ Aparece automáticamente el número de relaciones de negocio asignadas al contac
 Después de asignar relaciones de negocio a sus contactos, puede utilizar esa información para seleccionar contactos para sus segmentos. Para obtener más información, vea [Agregar contactos a segmentos](marketing-add-contact-segment.md).
 
 ## <a name="see-also"></a>Consulte también
-[Crear empresas de contacto](marketing-create-contact-companies.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

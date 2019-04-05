@@ -1,6 +1,6 @@
 ---
-title: "Multilingüe y localización | Documentos de Microsoft"
-description: "Aprende cómo el idioma y la configuración regional influyen en la experiencia de Business Central."
+title: Multilingüe y localización | Documentos de Microsoft
+description: Aprende cómo el idioma y la configuración regional influyen en la experiencia de Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: language, locale, localization, culture
 ms.date: 11/19/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 218b1b825501d64bef9d65640f922e690df3108f
-ms.contentlocale: es-es
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806255"
 ---
 # <a name="changing-language-and-locale"></a>Cambiar idioma y región
 
@@ -52,4 +52,3 @@ Es simple, desplácese al final de la página del explorador y elija el símbolo
 ## <a name="see-also"></a>Consulte también  
 [Cambiar la configuración básica](ui-change-basic-settings.md)  
 [Introducción](product-get-started.md)  
-

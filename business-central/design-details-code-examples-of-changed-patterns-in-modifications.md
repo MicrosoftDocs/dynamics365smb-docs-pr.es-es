@@ -1,23 +1,23 @@
 ---
-title: "Detalles de diseño - Ejemplos de código de patrones cambiados en las modificaciones | Documentos de Microsoft"
-description: "Ejemplos de código que muestran los patrones cambios en la modificación y migración del código de dimensión para cinco escenarios distintos. Compara los ejemplos de código en versiones anteriores con ejemplos de código en Business Central."
+title: Detalles de diseño - Ejemplos de código de patrones cambiados en las modificaciones | Documentos de Microsoft
+description: Ejemplos de código que muestran los patrones cambios en la modificación y migración del código de dimensión para cinco escenarios distintos. Compara los ejemplos de código en versiones anteriores con ejemplos de código en Business Central.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 3a5806711b693dadbbaf033ffd769c5eabebe8de
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: ded6baf8247bfbc34063f5595d42ebaf6bb300d8
-ms.openlocfilehash: a20a40e0f2d7198ce8af71298093893f16df5299
-ms.contentlocale: es-es
-ms.lasthandoff: 08/13/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805860"
 ---
 # <a name="design-details-code-examples-of-changed-patterns-in-modifications"></a>Detalles de diseño: Ejemplos de código de patrones cambiados en las modificaciones
 En este tema se proporcionan ejemplos de código para mostrar los patrones cambios en la modificación y migración del código de dimensión para cinco escenarios distintos. Compara los ejemplos de código en versiones anteriores con ejemplos de código en Business Central.
@@ -196,4 +196,4 @@ GetSalesHeader;
 ## <a name="see-also"></a>Consulte también  
 [Detalles de diseño: Movimientos de grupo de dimensiones](design-details-dimension-set-entries.md)   
 [Detalles de diseño: Estructura de tablas](design-details-table-structure.md)   
-[Detalles de diseño: Gestión de dimensiones de unidad de código 408](design-details-codeunit-408-dimension-management.md)
+[Detalles de diseño: Gestión de dimensiones de codeunit 408](design-details-codeunit-408-dimension-management.md)

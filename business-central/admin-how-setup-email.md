@@ -1,7 +1,7 @@
 ---
-title: "Configurar el correo electrónico en Business Central | Documentos de Microsoft"
-description: "Describe cómo usar el servidor SMTP de la empresa para enviar y recibir mensajes de correo electrónico en Business Central, así como el modo de usar la configuración del servidor de correo electrónico creada con la suscripción de Office 365."
-documentationcenter: 
+title: Configurar el correo electrónico en Business Central | Documentos de Microsoft
+description: Describe cómo usar el servidor SMTP de la empresa para enviar y recibir mensajes de correo electrónico en Business Central, así como el modo de usar la configuración del servidor de correo electrónico creada con la suscripción de Office 365.
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 9eb056bc98298a31833d205862d2d9bfeba04218
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806281"
 ---
 # <a name="set-up-email-manually-or-using-the-assisted-setup"></a>Configurar el correo electrónico manualmente o con la configuración asistida
 Para enviar y recibir los correos electrónicos desde [!INCLUDE[d365fin](includes/d365fin_md.md)], debe rellenar los campos de la página **Configuración correo SMTP**.
@@ -40,4 +40,3 @@ Puede configurar el correo electrónico manualmente o puede obtener ayuda median
 [Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones](ui-extensions.md)  
 [Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] como su bandeja de entrada de empresa en Outlook](admin-outlook.md)  
 [Obtener [!INCLUDE[d365fin](includes/d365fin_md.md)] en el dispositivo móvil](install-mobile-app.md)
-

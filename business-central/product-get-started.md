@@ -1,6 +1,6 @@
 ---
-title: "Introducción | Documentos de Microsoft"
-description: "Obtenga más información sobre las capacidades y los escenarios de trabajo en Business Central, una solución de administración empresarial para pequeñas y medianas empresas."
+title: Introducción | Documentos de Microsoft
+description: Obtenga más información sobre las capacidades y los escenarios de trabajo en Business Central, una solución de administración empresarial para pequeñas y medianas empresas.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: setup wizard
 ms.date: 12/03/2018
 ms.author: edupont
+ms.openlocfilehash: 5386dc4158dbd1e944eac75f4339ca2295a92fd2
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 3f158d7ed56445d6d2acf2ef8e5e9ab8e7487531
-ms.openlocfilehash: 15c54c7c6514ce275ff242d620df7404f9f2fee4
-ms.contentlocale: es-es
-ms.lasthandoff: 12/04/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806028"
 ---
 # <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Introducción a [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] es una solución de administración empresarial para pequeñas y medianas empresas que automatiza y optimiza los procesos empresariales y le ayuda a administrar su empresa. Registrarse es muy fácil y puede migrar los datos de la empresa existentes desde su sistema de herencia. Para ayudarle con su suscripción, encuentre [aquí](https://www.microsoft.com/en-us/solution-providers/search) un socio de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -94,9 +94,8 @@ Si es un contable, puede registrarse en [!INCLUDE[d365acc_long](includes/d365acc
 [Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] como mi bandeja de entrada de empresa en Outlook](admin-outlook.md)  
 [Obtener [!INCLUDE[d365fin](includes/d365fin_md.md)] en el dispositivo móvil](install-mobile-app.md)  
 [Documentación de Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/)  
-[Notas de la versión del Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422)  
+[Notas de la versión de Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
  
-

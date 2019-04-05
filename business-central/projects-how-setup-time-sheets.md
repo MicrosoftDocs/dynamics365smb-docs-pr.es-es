@@ -1,8 +1,8 @@
 ---
-title: "Configurar hojas de horas y su aprobación | Documentos de Microsoft"
-description: "Puede configurar hojas de horas para realizar un seguimiento del tiempo empleado en proyectos y el uso recursos, lo que le ayudará en la administración de proyectos, personal y capacidad"
+title: Configurar hojas de horas y su aprobación | Documentos de Microsoft
+description: Puede configurar hojas de horas para realizar un seguimiento del tiempo empleado en proyectos y el uso recursos, lo que le ayudará en la administración de proyectos, personal y capacidad
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 057497cfee69ed91c5d37828ea290749585f93d8
-ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805882"
 ---
 # <a name="set-up-time-sheets"></a>Configuración de hojas de horas
 Las hojas de horas de [!INCLUDE[d365fin](includes/d365fin_md.md)] administran el registro de horas en incrementos semanales de siete días. Se usan para realizar el seguimiento del tiempo empleado en proyectos y puede usarlas para efectuar el registro de tiempo simple. Antes de poder usar las hojas de horas, debe especificar cómo desea que se configuren.
@@ -64,4 +64,3 @@ Cuando haya configurado las hojas de horas, puede crear hojas de horas para recu
 [Compras](purchasing-manage-purchasing.md)         
 [Ventas](sales-manage-sales.md)      
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

@@ -1,23 +1,23 @@
 ---
-title: "Cómo crear facturas de prepago | Documentos de Microsoft"
+title: Cómo crear facturas de prepago | Documentos de Microsoft
 description: Conocer el modo de gestionar las situaciones en las que requiere prepago, o lo requiere el proveedor.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 27ef914e3ee8dc00f0e61848afaeea0433cd2279
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805785"
 ---
 # <a name="create-prepayment-invoices"></a>Crear facturas de prepagos
 Si desea que sus clientes realicen el pago antes de enviarles un pedido o su proveedor le requiere que efectúe el pago antes de enviarle un pedido, puede utilizar la funcionalidad de prepago.  
@@ -66,4 +66,3 @@ Puede emitir facturas de prepago adicionales para el pedido. Para ello, aumente 
 [Tutorial: Configuración y facturación de prepagos de ventas](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Finanzas](finance.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

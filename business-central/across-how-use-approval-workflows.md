@@ -1,7 +1,7 @@
 ---
 title: Aprobar o rechazar documentos en los flujos de trabajo | Documentos de Microsoft
-description: "Solicite, rechace o delegue una aprobación de, por ejemplo, una compra o venta, como parte de un flujo de trabajo."
-documentationcenter: 
+description: Solicite, rechace o delegue una aprobación de, por ejemplo, una compra o venta, como parte de un flujo de trabajo.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 3b4b4a6d544b594f439b675b88176d942d8cf325
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806226"
 ---
 # <a name="use-approval-workflows"></a>Usar flujos de trabajo de aprobación del producto
 Cuando un registro, como un documento de compra o una ficha de cliente, necesita ser aprobado por alguien de su organización, enviará una solicitud de aprobación como parte de un flujo de trabajo. En función de la configuración del flujo de trabajo, el aprobador adecuado recibirá notificación sobre que el registro requiere su aprobación.
@@ -86,4 +86,3 @@ La función **Enviar notificaciones de aprobación vencidas** buscará todas las
 [Documentos entrantes](across-income-documents.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,21 +1,21 @@
 ---
-title: "Procedimiento: recibir y convertir documentos electrónicos | Documentos de Microsoft"
-description: "Puede recibir documentos electrónicos directamente desde sus socios colaboradores o desde un servicio de OCR."
+title: 'Procedimiento: recibir y convertir documentos electrónicos | Documentos de Microsoft'
+description: Puede recibir documentos electrónicos directamente desde sus socios colaboradores o desde un servicio de OCR.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 2ed7c083b4315f374a81ec5f97ce5e872c11f071
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805689"
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Recibir y convertir documentos electrónicos
 La versión genérica de [!INCLUDE[d365fin](includes/d365fin_md.md)] admite la recepción de facturas electrónicas y abonos en formato PEPPOL, admitido por los proveedores de servicios de intercambio de documentos más importantes. Para recibir una factura de un proveedor como un documento electrónico PEPPOL, debe procesarse el documento en la página Documentos entrantes para luego convertirlo en una factura de compra o en una línea de diario general en [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -63,4 +63,3 @@ La versión genérica de [!INCLUDE[d365fin](includes/d365fin_md.md)] admite la r
 [Configurar el envío y la recepción de documentos electrónicos](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
 [Intercambio de datos electrónicamente](across-data-exchange.md)   
 [Funciones empresariales generales](ui-across-business-areas.md)  
-

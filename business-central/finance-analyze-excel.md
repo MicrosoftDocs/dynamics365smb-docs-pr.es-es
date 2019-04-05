@@ -1,6 +1,6 @@
 ---
-title: "Trabajo con resúmenes financieras en Excel | Documentos de Microsoft"
-description: "Obtenga más información sobre cómo puede abrir los estados financieros en Microsoft Excel desde Business Central para un mejor análisis."
+title: Trabajo con resúmenes financieras en Excel | Documentos de Microsoft
+description: Obtenga más información sobre cómo puede abrir los estados financieros en Microsoft Excel desde Business Central para un mejor análisis.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 10/01/2018
 ms.author: edupont
+ms.openlocfilehash: acd894ede7ad497311a793fb7153333a9a35e1cb
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3ef371dda59142f38aa50159ecf305880d34529b
-ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806166"
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a>Análisis de estados financieros en Microsoft Excel
 En [!INCLUDE[d365fin](includes/d365fin_md.md)], puede ver los KPI y obtener resúmenes del estado financiero de la empresa. También puede abrir las listas en Excel y analizar los datos. Además, también puede exportar estados financieros pesados como el balance o la cuenta de resultados a Excel, analizar los datos e imprimir los informes.  
@@ -46,4 +46,3 @@ Con el complemento, puede conseguir nuevos datos de [!INCLUDE[d365fin](includes/
 [Configurar las finanzas](finance-setup-finance.md)  
 [Libro mayor y plan de cuentas](finance-general-ledger.md)  
 [Trabajar con Business Central](ui-work-product.md)  
-

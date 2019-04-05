@@ -1,8 +1,8 @@
 ---
-title: "Asignar a dirección de contacto diferente | Documentos de Microsoft"
-description: "Describe cómo asignar una dirección alternativa para sus contactos o clientes potenciales, a la que a veces se envía información."
+title: Asignar a dirección de contacto diferente | Documentos de Microsoft
+description: Describe cómo asignar una dirección alternativa para sus contactos o clientes potenciales, a la que a veces se envía información.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
+ms.openlocfilehash: d069a22603a969220a62e2c7458cb6259cfbc630
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4f036800f7d9e83fdeacb827bb195f1f36b6a38e
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805642"
 ---
 # <a name="set-up-alternative-addresses-for-contacts"></a>Configurar dirección alternativa para contactos
 Puede asignar una dirección alternativa a la que pueda enviar correo e información en ocasiones a sus contactos, por ejemplo, a su casa de verano. También puede asignar uno o varios rangos de fechas para cada dirección alternativa especificada para sus contactos para especificar cuándo es válida una dirección.
@@ -43,4 +43,3 @@ Repita estos pasos para asignar todos los rangos fechas que desee.
 ## <a name="see-also"></a>Consulte también
 [Crear empresas de contacto](marketing-create-contact-companies.md)  
 [Trabajar con Business Central](ui-work-product.md)
-

@@ -1,8 +1,8 @@
 ---
 title: Crear segmentos | Documentos de Microsoft
-description: "Describe cómo crear un segmento para un grupo de contactos en Business Central, por ejemplo, para dirigirse a varios contactos con un correo directo."
+description: Describe cómo crear un segmento para un grupo de contactos en Business Central, por ejemplo, para dirigirse a varios contactos con un correo directo.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 59db444b6ce498d987d4aeb4361e119001acd2a3
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805824"
 ---
 # <a name="create-segments"></a>Crear segmentos
 Puede crear segmentos para poder seleccionar un grupo de contactos, por ejemplo, si desea crear una interacción que implique a varios contactos, como en un envío de correo directo.
@@ -36,4 +36,3 @@ Ahora puede agregar contactos al segmento. Para obtener más información, vea [
 [Administrar segmentos](marketing-segments.md)  
 [Administrar oportunidades de venta](marketing-manage-sales-opportunities.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

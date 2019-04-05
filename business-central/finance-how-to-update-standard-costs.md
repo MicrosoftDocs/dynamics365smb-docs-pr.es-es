@@ -1,23 +1,23 @@
 ---
-title: "Cómo actualizar costes estándar | Documentos de Microsoft"
-description: "Debe actualizar periódicamente los costes estándar de los componentes y distribuir los nuevos costes al producto principal."
+title: Cómo actualizar costes estándar | Documentos de Microsoft
+description: Debe actualizar periódicamente los costes estándar de los componentes y distribuir los nuevos costes al producto principal.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 88e715ddd2c60c3eb780ffe71d80676fdea00209
-ms.contentlocale: es-es
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806325"
 ---
 # <a name="update-standard-costs"></a>Actualizar costes estándar
 Debe actualizar periódicamente los costes estándar de los componentes y distribuir los nuevos costes al producto principal. El proceso normalmente consiste en los cuatro pasos siguientes:  
@@ -47,4 +47,3 @@ Para obtener más información, consulte [Acerca de Calcular el coste estándar]
  [Gestión de costes de inventario](finance-manage-inventory-costs.md)   
  [Detalles de diseño: Métodos de coste](design-details-costing-methods.md) [Finanzas](finance.md)  
  [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

@@ -1,24 +1,24 @@
 ---
-title: "Detalles de diseño: Carga de los perfiles de inventario | Documentos de Microsoft"
-description: "Para organizar los numerosos orígenes de demanda y suministro, el sistema de planificación las organiza en dos escalas temporales denominadas perfiles de inventario."
+title: 'Detalles de diseño: Carga de los perfiles de inventario | Documentos de Microsoft'
+description: Para organizar los numerosos orígenes de demanda y suministro, el sistema de planificación las organiza en dos escalas temporales denominadas perfiles de inventario.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 10d41fd87408a4dfe8d1b5de368c1a32a45e489b
-ms.contentlocale: es-es
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805603"
 ---
 # <a name="design-details-loading-the-inventory-profiles"></a>Detalles de diseño: Carga de los perfiles de inventario
 Para organizar los numerosos orígenes de demanda y suministro, el sistema de planificación las organiza en dos escalas temporales denominadas perfiles de inventario.  
@@ -103,4 +103,3 @@ Para organizar los numerosos orígenes de demanda y suministro, el sistema de pl
  [Detalles de diseño: Conceptos centrales del sistema de planificación](design-details-central-concepts-of-the-planning-system.md)   
  [Detalles de diseño: Planificación de aprovisionamiento](design-details-supply-planning.md)   
  [Detalles de diseño: Parámetros de la planificación](design-details-planning-parameters.md)
-

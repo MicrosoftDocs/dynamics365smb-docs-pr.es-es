@@ -1,23 +1,23 @@
 ---
-title: "Cómo registrar consumibles por lotes | Documentos de Microsoft"
-description: "Si el método de baja es **Manual**, debe registrar los componentes manualmente con un diario de consumo."
+title: Cómo registrar consumibles por lotes | Documentos de Microsoft
+description: Si el método de baja es **Manual**, debe registrar los componentes manualmente con un diario de consumo.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: b7799e652394e8b9b96a168c0cb8945ec332734e
-ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805982"
 ---
 # <a name="batch-post-production-consumption"></a>Registrar consumibles de producción por lotes
 Si el método de baja es **Manual**, debe registrar los componentes manualmente con un diario de consumo.
@@ -38,4 +38,3 @@ También puede configurar el sistema para que registre (*vaciar*) automáticamen
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

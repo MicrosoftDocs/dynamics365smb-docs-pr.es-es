@@ -1,8 +1,8 @@
 ---
 title: Adquirir activos fijos | Documentos de Microsoft
-description: "Puede configurar un activo fijo, asignar un libro de amortización y registrar el coste de adquisición del activo fijo."
+description: Puede configurar un activo fijo, asignar un libro de amortización y registrar el coste de adquisición del activo fijo.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchase fixed asset
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 56062eb42db00408031cff5438cc2b9276011d27
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 2839753f888dfd76e17672c36b15da47a344900f
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806056"
 ---
 # <a name="acquire-fixed-assets"></a>Activos fijos adquiridos
 Deberá configurar una ficha con la información de cada activo. Puede configurar los edificios o los bienes de producción como activos principales con una lista de componentes y puede agruparlos de diferentes maneras como, por ejemplo, por clase, departamento o ubicación. Un libro de amortización debe estar configurado y asignado a cada activo fijo antes de que pueda adquirirlo.
@@ -29,12 +29,12 @@ El valor residual es el valor restante de un activo cuando ya no se puede utiliz
 El ajuste de valores se utiliza para ajustar los valores a los cambios de niveles generales de precio. El proceso **Ajustar valores activos** puede utilizarse para calcular los costes de adquisición como de sustitución.
 
 ## <a name="to-create-a-fixed-asset-and-acquire-it-automatically"></a>Para crear un activo y adquirirlo automáticamente
-El procedimiento siguiente describe cómo crear un activo y después adquirirlo utilizando la página **Adquisición activos asistida** para crear y registrar las líneas necesarias del diario general de activos. También puede crear y registrar las líneas de diario manualmente. Para obtener más información, consulte la sección "Para registrar una adquisición de un activo manualmente con el diario general de activos".
+El procedimiento siguiente describe cómo crear un activo y después adquirirlo utilizando la página **Adquisición activos asistida** para crear y registrar las líneas necesarias del diario general de activos. También puede crear y registrar las líneas de diario manualmente. Para obtener más información, consulte [Para registrar una adquisición de un activo manualmente con el diario general de activos](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal).
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Activos fijos** y luego elija el enlace relacionado.  
 2. Elija la acción **Nuevo** y, a continuación, rellene los campos de la ficha desplegable **General** como sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. En la ficha desplegable **Ficha libros amortización**, rellene los campos según sea necesario. Este paso asigna un libro de amortización al activo.  
-4. Si necesita asignar más de un libro de amortización al activo, elija la acción **Añadir más libros amortización**. Para obtener más información, vea la sección "Para asignar un libro de amortización a un activo" en [Configurar la amortización de los activos fijos](fa-how-setup-depreciation.md).
+4. Si necesita asignar más de un libro de amortización al activo, elija la acción **Añadir más libros amortización**. Para obtener más información, consulte [Para asignar un libro de amortización a un activo fijo](fa-how-setup-depreciation.md#to-assign-a-depreciation-book-to-a-fixed-asset).
 
     Cuando estén rellenados todos los campos requeridos para adquirir un activo, aparecerá la notificación **Está listo para adquirir el activo. Adquirir** en la parte superior de la página.
 5. Seleccione la acción **Adquirir** en la notificación.
@@ -59,7 +59,7 @@ Tanto el activo principal como todos sus componentes deben configurarse como fic
 7. Seleccione la casilla de verificación **Permitir reg. en activos pples**.
 
 ## <a name="to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal"></a>Para registrar una adquisición de activo manualmente con el diario general de activos fijos
-El procedimiento siguiente describe cómo adquirir un activo manualmente creando y registrando líneas en la página **A/F Diario general**. También puede adquirir un activo de manera automática utilizando la página **Adquisición activos asistida**. Para obtener más información, consulte el paso 5 en la sección "Para crear un activo y adquirirlo automáticamente".
+El procedimiento siguiente describe cómo adquirir un activo manualmente creando y registrando líneas en la página **A/F Diario general**. También puede adquirir un activo de manera automática utilizando la página **Adquisición activos asistida**. Para obtener más información, consulte el paso 5 en [Para crear un activo y adquirirlo automáticamente](fa-how-acquire.md#to-create-a-fixed-asset-and-acquire-it-automatically).
 
 > [!NOTE]  
 >   Puede registrar los costes como abonos. En ese caso, recuerde que el valor del campo **Importe** debe tener el símbolo menos que indica un abono.
@@ -91,7 +91,7 @@ Para anular los movimientos de varios activos fijos a la vez, use el proceso **A
 Puede registrar el valor residual junto con el coste a partir del diario general de activos.    
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Cancelar movs. A/F** y luego elija el enlace relacionado.
-2. Cree la línea de adquisición del diario. Para obtener más información, consulte la sección "Para registrar una adquisición de un activo manualmente con el diario general de activos".
+2. Cree la línea de adquisición del diario. Para obtener más información, consulte [Para registrar una adquisición de un activo manualmente con el diario general de activos](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal).
 3. En el campo **Valor residual** de la línea del diario, escriba el importe del valor residual como abono (con un signo menos).
 4. Seleccione la acción **Registrar**.
 
@@ -104,4 +104,3 @@ Puede registrar el valor residual junto con el coste a partir del diario general
 [Finanzas](finance.md)  
 [Introducción](product-get-started.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,21 +1,21 @@
 ---
 title: Usar los sistemas de captura de datos automatizado (ADCS) | Documentos de Microsoft
-description: "Puede utilizar su sistema de captura automática de datos (ADCS) para registrar el movimiento de productos en el almacén y para registrar algunas actividades del diario, como los ajustes de cantidad en el diario de productos de almacén y los inventarios físicos."
+description: Puede utilizar su sistema de captura automática de datos (ADCS) para registrar el movimiento de productos en el almacén y para registrar algunas actividades del diario, como los ajustes de cantidad en el diario de productos de almacén y los inventarios físicos.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/04/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
 ms.openlocfilehash: a2b30b3eec747104f3351aed0d0d9787d2fc4e9f
-ms.contentlocale: es-es
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806103"
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>Utilice el sistema de captura de datos automatizado (ADCS)
 
@@ -79,7 +79,7 @@ Puede agregar a cualquier usuario al sistema de captura de datos automatizados (
 ## <a name="to-create-and-customize-miniforms"></a>Para crear y personalizar miniformularios
 Utilice los miniformularios que describen la información que desea fabricar en un dispositivo portátil. Por ejemplo, puede crear los miniformularios para utilizar la actividad de almacén de los artículos de picking. Una vez cree un miniformulario, puede agregar las funciones para las acciones comunes que un usuario tiene con dispositivos portátiles, como desplazarse arriba y abajo en una línea.  
 
-Para ejecutar o cambiar las funcionalidad de una función del miniformulario, debe crear un nuevo codeunit o modificar uno existente para realizar la acción o respuesta requeridas. Puede obtener más información acerca de la funcionalidad de un ADCS examinando las unidades de código como 7705, que es el codeunit de control de la funcionalidad de inicio. El codeunit 7705 muestra cómo funciona un miniformulario tipo tarjeta.  
+Para ejecutar o cambiar las funcionalidad de una función del miniformulario, debe crear una nueva codeunit o modificar una existente para realizar la acción o respuesta requeridas. Puede obtener más información acerca de la funcionalidad de un ADCS examinando las codeunits como 7705, que es la codeunit de control de la funcionalidad de inicio. La codeunit 7705 muestra cómo funciona un miniformulario tipo tarjeta.  
 
 ### <a name="to-create-a-miniform-for-adcs"></a>Para crear un miniformulario para un ADCS  
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Miniformularios** y luego elija el enlace relacionado.  
@@ -100,7 +100,7 @@ Cuando haya creado un miniformulario, los pasos siguientes son crear las funcion
     </xsl:template>  
     ```  
 2.  En entorno de desarrollo de [!INCLUDE[d365fin](includes/d365fin_md.md)], abra la tabla 7702 y agregue un código que represente la nueva clave. En este ejemplo, cree una clave llamada **F6**.  
-3.  Agregue el código C/AL a la función correspondiente del codeunit específico del miniformulario para gestionar la clave de ejecución.  
+3.  Agregue el código C/AL a la función correspondiente de la codeunit específica del miniformulario para gestionar la clave de ejecución.  
 
 ### <a name="to-customize-miniform-functions"></a>Para personalizar las funciones del miniformulario  
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Miniformularios** y luego elija el enlace relacionado.  
@@ -119,4 +119,3 @@ Para obtener más información, consulte [Configuración de un sistema de captur
 [Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

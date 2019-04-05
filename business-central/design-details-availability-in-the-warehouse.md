@@ -1,23 +1,23 @@
 ---
-title: "Detalles de diseño: Disponibilidad en el almacén | Documentos de Microsoft"
-description: "El sistema debe mantener un control constante de la disponibilidad de productos el almacén, para que los pedidos de salida puedan fluir de un modo eficaz y proporcionar las entregas óptimas."
+title: 'Detalles de diseño: Disponibilidad en el almacén | Documentos de Microsoft'
+description: El sistema debe mantener un control constante de la disponibilidad de productos el almacén, para que los pedidos de salida puedan fluir de un modo eficaz y proporcionar las entregas óptimas.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 5fd4bedcef6fcec79b1b2c8744c7c08d8170d97e
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805350"
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Detalles de diseño: Disponibilidad en el almacén
 El sistema debe mantener un control constante de la disponibilidad de productos el almacén, para que los pedidos de salida puedan fluir de un modo eficaz y proporcionar las entregas óptimas.  
@@ -73,4 +73,3 @@ El sistema debe mantener un control constante de la disponibilidad de productos 
 
 ## <a name="see-also"></a>Consulte también  
  [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)
-

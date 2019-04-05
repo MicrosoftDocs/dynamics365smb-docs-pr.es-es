@@ -1,23 +1,23 @@
 ---
 title: Configurar una empresa con el asistente de RapidStart | Documentos de Microsoft
-description: "Puede configurar rápidamente una nueva empresa que se haya creado mediante el asistente para la configuración de RapidStart Services."
+description: Puede configurar rápidamente una nueva empresa que se haya creado mediante el asistente para la configuración de RapidStart Services.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 63120671100b7caac7f3cb08bd3fbbcd1d29ff5c
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 4dd595fabbf8e4cd2a3eef73a934922dfea92858
-ms.contentlocale: es-es
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806244"
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>Configurar una empresa con el asistente de RapidStart
 Puede configurar rápidamente una nueva empresa que se haya creado mediante el asistente para la configuración de RapidStart Services.
@@ -33,7 +33,7 @@ En el procedimiento siguiente, proporcionó al cliente el paquete de configuraci
 
     1. Aplique la configuración eligiendo la acción **Aplicar paquete**. Esto importa el paquete de configuración y al mismo tiempo aplica sus datos de base de datos.  
 
-    2. Revisar la configuración después de su aplicación. Esta opción permite revisar los detalles y cuestionarios de la configuración que proporcione el socio, así como importar algunos datos maestros necesarios para la empresa. Elija la acción **Hoja de configuración**. Para obtener más información, consulte la sección "Completar el cuestionario de configuración" en [Recopilación de valores de configuración de cliente](admin-gather-customer-setup-values.md).  
+    2. Revisar la configuración después de su aplicación. Esta opción permite revisar los detalles y cuestionarios de la configuración que proporcione el socio, así como importar algunos datos maestros necesarios para la empresa. Elija la acción **Hoja de configuración**. Para obtener más información, vea [Para completar el cuestionario de configuración](admin-gather-customer-setup-values.md#to-complete-the-configuration-questionnaire).  
 
 6. Amplíe la ficha desplegable **Paso 5**. Especifique el Área de trabajo que desee establecer como valor predeterminado para la nueva empresa.  
 
@@ -51,4 +51,3 @@ Ya ha configurado la empresa y aplicado datos a ella.
 [Aplicar la configuración a nuevas empresas](admin-apply-configuration-to-new-companies.md)  
 [Configurar una empresa con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administración](admin-setup-and-administration.md)
-

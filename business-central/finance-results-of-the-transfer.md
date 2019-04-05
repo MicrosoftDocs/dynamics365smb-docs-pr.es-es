@@ -1,8 +1,8 @@
 ---
 title: Resultados de transferencia | Documentos de Microsoft
-description: "En este tema se describe qué ocurre después de transferir movimientos de contabilidad a los movimientos de coste."
+description: En este tema se describe qué ocurre después de transferir movimientos de contabilidad a los movimientos de coste.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: general ledger, transfer, cost entries
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: finance-transfer-and-post-cost-entries
-ms.translationtype: HT
-ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
 ms.openlocfilehash: 0e17ff5ad60014cba6ce866c9ddae848b1239167
-ms.contentlocale: es-es
-ms.lasthandoff: 11/20/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806232"
 ---
 # <a name="results-of-transferring-general-ledger-entries-to-cost-entries"></a>Los resultados de la transferencia de movimientos de contabilidad a movimientos de coste
 Durante la transferencia de movimientos de contabilidad a movimientos de coste, [!INCLUDE[d365fin](includes/d365fin_md.md)] crea conexiones en los movimientos de la tabla **Mov. contabilidad**, la tabla **Movimiento de coste** y la tabla **Registro de costes** para permitir realizar un seguimiento de las conexiones entre los movimientos de costes y los movimientos de contabilidad.  
@@ -40,4 +40,3 @@ En la tabla **Registro de costes**, [!INCLUDE[d365fin](includes/d365fin_md.md)] 
 
 ## <a name="see-also"></a>Consulte también  
 [Transferencia y registro de movimientos de coste](finance-transfer-and-post-cost-entries.md)   
-

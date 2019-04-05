@@ -1,23 +1,23 @@
 ---
-title: "Definición y asignación de costes | Documentos de Microsoft"
+title: Definición y asignación de costes | Documentos de Microsoft
 description: Las asignaciones de costes mueven los costes e ingresos entre tipos de coste, centros de coste y objetos de coste. Puede definir tantas asignaciones como necesite.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/13/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: d67329ce09b40019d9568abee47cef33e3b60e85
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805568"
 ---
 # <a name="defining-and-allocating-costs"></a>Definición y asignación de costes
 Las asignaciones de costes mueven los costes e ingresos entre tipos de coste, centros de coste y objetos de coste. Puede definir tantas asignaciones como necesite. Cada asignación consta de:  
@@ -145,4 +145,3 @@ Este tema muestra un ejemplo de cómo definir asignaciones mediante el método d
  [Contabilidad para costes](finance-manage-cost-accounting.md)   
  [Terminología en contabilidad de costes](finance-terminology-in-cost-accounting.md)   
  [Acerca de la contabilidad de costes](finance-about-cost-accounting.md)
-

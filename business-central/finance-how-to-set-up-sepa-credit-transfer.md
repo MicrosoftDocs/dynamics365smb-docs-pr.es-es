@@ -1,6 +1,6 @@
 ---
-title: "Configurar la transferencia de crédito de SEPA | Documentos de Microsoft"
-description: "Aprenda a configurar la transferencia de créditos SEPA en Business Central."
+title: Configurar la transferencia de crédito de SEPA | Documentos de Microsoft
+description: Aprenda a configurar la transferencia de créditos SEPA en Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.keywords: sepa, credit, transfer, payment,
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer
+ms.openlocfilehash: 6c35fdb6e5e37eb521b6d51050a552e52b66ec5d
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 103ebe376d3384eab119617b903f9a803f248462
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805685"
 ---
 # <a name="set-up-sepa-credit-transfer"></a>Configurar la transferencia de crédito de SEPA
 Desde la página **Diario de pagos** se pueden exportar pagos a un archivo para cargarlo en el banco electrónico para procesar transferencias monetarias relacionadas. [!INCLUDE[d365fin](includes/d365fin_md.md)] admite el formato de transferencia de crédito SEPA, pero en su país o región, es posible que haya otros formatos para pagos electrónicos.  
@@ -61,8 +61,7 @@ Para poder procesar el pago electrónicamente exportando los archivos de pago en
 3. En la página **Definiciones de línea de exportación de pagos**, seleccione el código que se ha especificado en el campo **Código** en la ficha desplegable **Definiciones de línea** del paso 4 de la sección "Para describir el formato de líneas y columnas en el archivo” en [Configurar las definiciones de intercambio de datos](across-how-to-set-up-data-exchange-definitions.md).  
 
 ## <a name="see-also"></a>Consulte también  
-[Cobro de pagos mediante adeudo directo SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
+[Cobrar pagos mediante adeudo directo SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
 [Configurar definiciones de intercambio de datos](across-how-to-set-up-data-exchange-definitions.md)  
 [Crear líneas de ventas y de compras periódicas](sales-how-work-standard-lines.md)  
 [Intercambio de datos electrónicamente](across-data-exchange.md)  
-

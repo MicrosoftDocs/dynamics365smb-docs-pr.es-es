@@ -1,23 +1,23 @@
 ---
-title: "Detalles de diseño: Métodos de coste | Documentos de Microsoft"
-description: "La valoración de existencias determina si en el cálculo de costes se capitaliza y utiliza un valor real o uno presupuestado. Junto con la fecha de registro y la secuencia, el método de coste también influye en cómo se registra el flujo de costes."
+title: 'Detalles de diseño: Métodos de coste | Documentos de Microsoft'
+description: La valoración de existencias determina si en el cálculo de costes se capitaliza y utiliza un valor real o uno presupuestado. Junto con la fecha de registro y la secuencia, el método de coste también influye en cómo se registra el flujo de costes.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: cd83ddd7dcda539327167e34489c227cd1fdb70e
-ms.contentlocale: es-es
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805403"
 ---
 # <a name="design-details-costing-methods"></a>Detalles de diseño: Métodos de coste
 La valoración de existencias determina si en el cálculo de costes se capitaliza y utiliza un valor real o uno presupuestado. Junto con la fecha de registro y la secuencia, el método de coste también influye en cómo se registra el flujo de costes. En [!INCLUDE[d365fin](includes/d365fin_md.md)] se admiten las siguientes valoraciones:  
@@ -159,4 +159,3 @@ La valoración de existencias determina si en el cálculo de costes se capitaliz
  [Detalles de diseño: liquidación de producto](design-details-item-application.md) [Gestión de costes de inventario](finance-manage-inventory-costs.md)  
  [Finanzas](finance.md)  
  [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

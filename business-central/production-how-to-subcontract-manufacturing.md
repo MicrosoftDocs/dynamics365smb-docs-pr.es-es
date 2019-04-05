@@ -1,21 +1,21 @@
 ---
-title: "Cómo subcontratadas fabricación | Documentos de Microsoft"
-description: "Cuando el pedido de compra se haya creado en la hoja de subcontratación, se puede registrar."
+title: Cómo subcontratadas fabricación | Documentos de Microsoft
+description: Cuando el pedido de compra se haya creado en la hoja de subcontratación, se puede registrar.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: bdb9d8c0d47fe53e9e5ea310a83854e69f545d9e
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805667"
 ---
 # <a name="subcontract-manufacturing"></a>Subcontratación de fabricación
 La subcontratación de operaciones seleccionadas al proveedor es común de muchas empresas de fabricación. La subcontratación puede ser esporádica o puede formar parte integrante de todos los procesos de producción.
@@ -103,4 +103,3 @@ Cuando se registra el pedido de compra como facturado, el coste directo de dicho
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

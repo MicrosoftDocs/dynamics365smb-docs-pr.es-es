@@ -1,6 +1,6 @@
 ---
-title: "Usar la extensión de migración de QuickBooks | Documentos de Microsoft"
-description: "Describe cómo utilizar la extensión para importar clientes, proveedores, productos y cuentas desde QuickBooks Desktop a Business Central."
+title: Usar la extensión de migración de QuickBooks | Documentos de Microsoft
+description: Describe cómo utilizar la extensión para importar clientes, proveedores, elementos y cuentas de QuickBooks Desktop a Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,21 +10,20 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
 ms.openlocfilehash: e5cb755b6a15070410c42328ccf08b784928f3ca
-ms.contentlocale: es-es
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805981"
 ---
-
 # <a name="the-quickbooks-data-migration-extension"></a>Extensión de la migración de datos de QuickBooks
 Esta extensión facilita la migración de clientes, proveedores, productos y cuentas de QuickBooks a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Si la empresa usa QuickBooks actualmente, puede exportar la información correspondiente y después abrir una guía de instalación asistida para cargar los datos en [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 Para obtener más información, vea [Importar datos empresariales desde otros sistemas financieros](across-import-data-configuration-packages.md).
 
-## <a name="data-from-quickbooks-desktop"></a>Datos desde QuickBooks Desktop
+## <a name="data-from-quickbooks-desktop"></a>Datos de QuickBooks Desktop
  
-Desde QuickBooks Online puede importar a Business Central los datos siguientes:
+Puede importar los datos siguientes desde QuickBooks Online a Business Central:
 
 - Clientes  
 - Proveedores  
@@ -66,4 +65,3 @@ Verifique los saldos iniciales de las cuentas en el libro mayor. QuickBooks no a
 ## <a name="see-also"></a>Consulte también
 [Importar datos de empresa de otros sistemas financieros](across-import-data-configuration-packages.md)  
 [Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones](ui-extensions.md)  
-

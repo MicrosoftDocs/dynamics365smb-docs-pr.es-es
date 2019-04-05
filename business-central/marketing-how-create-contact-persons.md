@@ -1,6 +1,6 @@
 ---
 title: Crear personas de contacto | Documentos de Microsoft
-description: "Describe cómo crear una ficha de contacto para cada nueva persona o cliente potencial con el que interactúe o tenga una relación de negocio."
+description: Describe cómo crear una ficha de contacto para cada nueva persona o cliente potencial con el que interactúe o tenga una relación de negocio.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-create-contact-persons
+ms.openlocfilehash: 983de37e20b69d6ce5d8630973d8fbac6403a346
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 1bcba95f33a504d5c87fbc27671184d71aa6468f
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806009"
 ---
 # <a name="create-contact-persons"></a>Crear personas de contacto
 Puede crear una ficha de contacto por cada uno que trabaje en las empresas con las que se relaciona. Puede especificar todos las personas contacto que desee en cada empresa contacto. También puede crear fichas de contacto para las personas que desea registrar como independientes.
@@ -37,11 +37,9 @@ Puede crear una ficha de contacto por cada uno que trabaje en las empresas con l
 >   El contenido de los campos que haya seleccionado en la sección **Herencia** de la página **Configuración de marketing** se copia de la empresa a las personas de esa empresa.
 
 ## <a name="see-also"></a>Consulte también
-[Configurar la gestión de relaciones](marketing-setup-marketing.md)  
 [Asignar grupos de direcciones a un contacto](marketing-mailing-groups.md#AssignMailGroupContact)  
 [Configurar responsabilidades de cargo en contactos](marketing-job-responsibilities.md)  
 [Configurar niveles de organización en personas de contacto](marketing-organizational-levels.md)  
 [Sincronizar contactos con clientes, proveedores y cuentas bancarias](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
 [Use cuestionarios de perfil para clasificar contactos comerciales](marketing-create-contact-profile-questionnaire.md)  
 [Trabajar con Business Central](ui-work-product.md)  
-

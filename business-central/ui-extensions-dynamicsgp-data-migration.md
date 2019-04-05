@@ -1,7 +1,7 @@
 ---
-title: "Migrar datos de Dynamics GP con la extensión de la migración de datos | Documentos de Microsoft"
-description: "Utilice la extensión de migración de datos de Dynamics GP para migrar clientes, proveedores, productos de inventario, cuentas de contabilidad y transacciones de pagos y cobros pendientes desde Dynamics GP a Business Central."
-documentationcenter: 
+title: Migrar datos de Dynamics GP con la extensión de la migración de datos | Documentos de Microsoft
+description: Utilice la extensión de migración de datos de Dynamics GP para migrar clientes, proveedores, productos de inventario, cuentas de contabilidad y transacciones de pagos y cobros pendientes desde Dynamics GP a Business Central.
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 34a6789780fb3d55c0a97b29408dca659992f781
 ms.openlocfilehash: 1441e15785b159f7a8c13ee59c8ebea4c32512dc
-ms.contentlocale: es-es
-ms.lasthandoff: 01/30/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805673"
 ---
 # <a name="the-dynamics-gp-data-migration-extension"></a>Extensión de la migración de datos de Dynamics GP 
 Esta extensión facilita migrar clientes, proveedores, productos de inventario, cuentas de contabilidad y transacciones de pagos y cobros pendientes desde Dynamics GP a [!INCLUDE[prodshort](includes/prodshort.md)]. Si la empresa usa Dynamics GP actualmente, puede exportar los registros correspondientes y después abrir una guía de instalación asistida para agregar los datos a [!INCLUDE[prodshort](includes/prodshort.md)]. La extensión de migración funciona para todas las versiones compatibles de Microsoft Dynamics GP. Para obtener más información, vea [Importar datos empresariales desde otros sistemas financieros](across-import-data-configuration-packages.md).
@@ -60,4 +60,3 @@ La última opción que ve en el asistente de migración de datos para Dynamics G
 ## <a name="see-also"></a>Consulte también
 [Importar datos de empresa de otros sistemas financieros](across-import-data-configuration-packages.md)  
 [Personalizar [!INCLUDE[prodshort](includes/prodshort.md)] con extensiones](ui-extensions.md)  
-

@@ -1,23 +1,23 @@
 ---
-title: "Procedimiento: mueva componentes a un área de operaciones en configuraciones básicas de almacén | Documentos de Microsoft"
-description: "Si el artículo que procesa las operaciones tiene lugar en su ubicación de almacén, puede tener que mover los artículos entre las ubicaciones internas para responder a los documentos de origen interno, como producción, ensamblado o pedidos de servicio en la ubicación."
+title: 'Procedimiento: mueva componentes a un área de operaciones en configuraciones básicas de almacén | Documentos de Microsoft'
+description: Si el artículo que procesa las operaciones tiene lugar en su ubicación de almacén, puede tener que mover los artículos entre las ubicaciones internas para responder a los documentos de origen interno, como producción, ensamblado o pedidos de servicio en la ubicación.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: a5f103ae832231be521e9faf1d9024cbbb393c33
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: afbc3bbfa0ef8d655ef66aab219bcd7bcfb930b2
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805940"
 ---
 # <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Mover componentes a un área de operaciones en configuraciones básicas de almacén
 Si el artículo que procesa las operaciones tiene lugar en su ubicación de almacén, puede tener que mover los artículos entre las ubicaciones internas para responder a los documentos de origen interno, como producción, ensamblado o pedidos de servicio en la ubicación.  
@@ -44,7 +44,7 @@ Alternativamente, un trabajador de almacén puede crearla apuntando al pedido de
 > [!NOTE]  
 >  Si el movimiento es para un pedido de ensamblado donde el artículo se ensambla para un pedido de venta, puede definir que el documento de movimiento de inventario esté creado automáticamente cuando se cree el documento del picking de existencias que toma el artículo de montaje final y registra el envío. Para configurarlo, seleccione el campo **Crear movimientos automáticamente** en la página **Conf. ensamblado**  
 >   
->  Para obtener más información acerca de los pedidos de ensamblaje y configuraciones básicas de almacén, vea la sección “Gestionar productos de ensamblar para pedido con picking de existencias” en [Selección de producción o ensamblaje](warehouse-how-to-pick-for-production.md).  
+>  Para obtener más información acerca de los pedidos de ensamblado y la configuración básica de almacén, consulte [Tratamiento de productos de ensamblar para pedido con los picking de inventario](warehouse-how-to-pick-for-production.md#handling-assemble-to-order-items-with-inventory-picks).  
 
 Este procedimiento muestra cómo crear un movimiento de inventario de la página **Movimiento inventario** haciendo referencia un pedido de ensamblado lanzado como documento de origen. El procedimiento es el mismo cuando se mueven los componentes para las órdenes de producción y los pedidos de servicio.  
 
@@ -79,4 +79,3 @@ Este procedimiento muestra cómo crear un movimiento de inventario de la página
 [Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

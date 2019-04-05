@@ -1,23 +1,23 @@
 ---
-title: "Procedimientos recomendados de configuración: planificación de aprovisionamiento | Documentos de Microsoft"
-description: "La planificación de suministros es un área comercial crítica. Cuando se configura y utiliza correctamente, la planificación de suministros ayuda a que una empresa evite quedarse sin existencias y reduzca tanto los costes de pedido como los de inventario."
+title: 'Procedimientos recomendados de configuración: planificación de aprovisionamiento | Documentos de Microsoft'
+description: La planificación de suministros es un área comercial crítica. Cuando se configura y utiliza correctamente, la planificación de suministros ayuda a que una empresa evite quedarse sin existencias y reduzca tanto los costes de pedido como los de inventario.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 9b3b6dc26c7af1d2104c5509ba98ba75927cbcad
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8858758c6b4b680e13d54f0222201c67a03dafa3
-ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805751"
 ---
 # <a name="setup-best-practices-supply-planning"></a>Procedimientos recomendados de configuración: planificación de suministros
 La planificación de suministros es un área comercial crítica. Cuando se configura y utiliza correctamente, la planificación de suministros ayuda a que una empresa evite quedarse sin existencias y reduzca tanto los costes de pedido como los de inventario.  
@@ -37,4 +37,3 @@ La planificación de suministros es un área comercial crítica. Cuando se confi
  [Detalles de diseño: Parámetros de la planificación](design-details-planning-parameters.md)   
  [Configurar áreas de aplicación complejas mediante procedimientos recomendados](set-up-complex-application-areas-using-best-practices.md)  
  [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

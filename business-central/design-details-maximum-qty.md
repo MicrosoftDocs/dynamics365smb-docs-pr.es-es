@@ -1,24 +1,24 @@
 ---
-title: "Detalles de diseño: Cantidad máxima | Documentos de Microsoft"
-description: "La directiva de cantidad máxima es una forma de mantener el inventario mediante un punto de pedido."
+title: 'Detalles de diseño: Cantidad máxima | Documentos de Microsoft'
+description: La directiva de cantidad máxima es una forma de mantener el inventario mediante un punto de pedido.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 21ae51ecf28458f9b09be6461243f31641a0aaef
-ms.contentlocale: es-es
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805592"
 ---
 # <a name="design-details-maximum-qty"></a>Detalles de diseño: Cantidad máxima
 La directiva de cantidad máxima es una forma de mantener el inventario mediante un punto de pedido.  
@@ -43,4 +43,3 @@ La directiva de cantidad máxima es una forma de mantener el inventario mediante
  [Detalles de diseño: Parámetros de la planificación](design-details-planning-parameters.md)   
  [Detalles de diseño: Gestión de directivas de reaprovisionamiento](design-details-handling-reordering-policies.md)   
  [Detalles de diseño: Planificación de aprovisionamiento](design-details-supply-planning.md)
-

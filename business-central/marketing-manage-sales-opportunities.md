@@ -1,8 +1,8 @@
 ---
 title: Administrar oportunidades de ventas y clientes potenciales | Documentos de Microsoft
-description: "Describe la administración de los clientes potenciales u oportunidades de venta entrantes en Business Central, y la asociación de la oportunidad con un vendedor para realizar un seguimiento de las ventas potenciales."
+description: Describe la administración de los clientes potenciales u oportunidades de venta entrantes en Business Central, y la asociación de la oportunidad con un vendedor para realizar un seguimiento de las ventas potenciales.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: cb391e079d65283aef5aff1d4a30d14123065ba5
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2c9ef61555ddf3579172fc1e5b28e8eb4923b4d5
-ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805503"
 ---
 # <a name="managing-sales-opportunities"></a>Administrar oportunidades de venta
 Las referencias de entrada se pueden considerar oportunidades de venta. Puede crear oportunidades y asociarlas a un vendedor de forma que pueda realizar un seguimiento de las ventas potenciales.
@@ -36,4 +36,3 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 [Ventas](sales-manage-sales.md)  
 [Creación y administración de contactos](marketing-contacts.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

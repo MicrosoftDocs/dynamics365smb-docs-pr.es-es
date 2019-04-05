@@ -1,22 +1,22 @@
 ---
 title: Certificaciones | Documentos de Microsoft
-description: "En este contenido se incluye información acerca de las certificaciones en relación con Business Central."
+description: En este contenido se incluye información acerca de las certificaciones en relación con Business Central.
 author: sorenfriisalexandersen
-documentationcenter: 
+documentationcenter: ''
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/08/2018
 ms.author: soalex
-ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
 ms.openlocfilehash: a18bf59c9b1cfd5008d99e521109fb7d29efaf48
-ms.contentlocale: es-es
-ms.lasthandoff: 12/14/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805857"
 ---
 # <a name="certifications"></a>Certificaciones  
 En este contenido se incluye información acerca de las certificaciones en relación con [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
@@ -40,4 +40,3 @@ Business Central como servicio en la nube también ha logrado certificaciones co
 
  ## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
  
-

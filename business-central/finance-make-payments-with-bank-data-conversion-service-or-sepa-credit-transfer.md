@@ -1,21 +1,21 @@
 ---
-title: "Realizar pagos con Servicio de conversión de datos del banco o Transferencia de crédito SEPA | Documentos de Microsoft"
-description: "Procese pagos a sus proveedores exportando un archivo junto con la información de pago desde las líneas de diario."
+title: Realizar pagos con Servicio de conversión de datos del banco o Transferencia de crédito SEPA | Documentos de Microsoft
+description: Procese pagos a sus proveedores exportando un archivo junto con la información de pago desde las líneas de diario.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 11/15/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 2be387c75fc2718efa287c341b2fd6d4425cd531
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 94fd31db697f813b438b228063a2cb038b9cc022
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806066"
 ---
 # <a name="making-payments-with-bank-data-conversion-service-or-sepa-credit-transfer"></a>Realizar pagos con Servicio de conversión de datos del banco o Transferencia de crédito SEPA
 En la página **Diario de pagos**, puede procesar pagos a sus proveedores exportando un archivo junto con la información de pago desde las líneas de diario. Después, puede cargar el archivo al banco electrónico donde procesar las transferencias de dinero relacionadas. [!INCLUDE[d365fin](includes/d365fin_md.md)] admite el formato de transferencia de crédito SEPA, pero en su país o región, es posible que haya otros formatos para pagos electrónicos.   
@@ -78,7 +78,7 @@ Rellenar el diario de pagos con líneas de pagos vencidos a proveedores, con opc
 ## <a name="exporting-payments-to-a-bank-file"></a>Exportación de pagos a un archivo bancario
 Cuando esté listo para hacer los pagos a los proveedores, o reembolsos a sus empleados, en la página **Diario de pagos**, puede exportar un archivo con la información de pago en las líneas del diario. Después, puede cargar el archivo al banco electrónico para procesar las transferencias de dinero relacionadas.
 
-En la versión genérica de [!INCLUDE[d365fin](includes/d365fin_md.md)], ya está configurado y conectado un proveedor global de servicios de conversión de datos bancarios a cualquier formato de archivo que el banco requiera. En las versiones para Norteamérica, el mismo servicio se puede utilizar para enviar archivos de pagos como transferencia electrónica de fondos (EFT), al menos con un proceso ligeramente distinto. Vea el paso 6 de la sección "Para exportar pagos a un archivo bancario".    
+En la versión genérica de [!INCLUDE[d365fin](includes/d365fin_md.md)], ya está configurado y conectado un proveedor global de servicios de conversión de datos bancarios a cualquier formato de archivo que el banco requiera. En las versiones para Norteamérica, el mismo servicio se puede utilizar para enviar archivos de pagos como transferencia electrónica de fondos (EFT), al menos con un proceso ligeramente distinto. Vea el paso 6 de [Para exportar pagos a un archivo bancario](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-export-payments-to-a-bank-file).    
 
 > [!NOTE]  
 >   Antes de exportar los archivos de pagos del diario de pagos, debe especificar el formato electrónico de la cuenta bancaria implicada y deberá habilitar el servicio de conversión de datos bancarios. Para obtener más información, vea [Configurar bancos](bank-how-setup-bank-accounts.md) y [Configurar el servicio de conversión de datos bancarios](bank-how-setup-bank-data-conversion-service.md). Además, debe activar la casilla **Permitir exportación de pagos** en la página **Secciones diario general**. Para obtener más información, consulte [Trabajar con diarios generales](ui-work-general-journals.md).  
@@ -141,5 +141,4 @@ Cuando el banco procese correctamente el pago electrónico, registre los pagos. 
 [Configurar la transferencia de crédito de SEPA](finance-how-to-set-up-sepa-credit-transfer.md)  
 [Administración de pagos](payables-manage-payables.md)   
 [Trabajar con diarios generales](ui-work-general-journals.md)  
-[Cobro de pagos mediante adeudo directo SEPA](finance-collect-payments-with-sepa-direct-debit.md)   
-
+[Cobrar pagos mediante adeudo directo SEPA](finance-collect-payments-with-sepa-direct-debit.md)   

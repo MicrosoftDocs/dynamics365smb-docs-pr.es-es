@@ -1,23 +1,23 @@
 ---
-title: "Cómo ubicar la salida de producción | Documentos de Microsoft"
-description: "La forma de ubicar la salida de su producción depende de cómo esté configurado el almacén."
+title: Cómo ubicar la salida de producción | Documentos de Microsoft
+description: La forma de ubicar la salida de su producción depende de cómo esté configurado el almacén.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 9092100816c58fe2882c61214a5008e27591d4f5
-ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805538"
 ---
 # <a name="put-away-production-or-assembly-output"></a>Ubicar la salida de producción o la salida de ensamblado
 La forma de ubicar la salida de su producción depende de cómo esté configurado el almacén. Para obtener más información, consulte [Configuración de la administración de almacén](warehouse-setup-warehouse.md).  
@@ -80,4 +80,3 @@ Si solo necesita registrar el tiempo de preparación y ejecución de la última 
 [Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

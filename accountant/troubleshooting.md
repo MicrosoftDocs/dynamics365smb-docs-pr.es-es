@@ -1,6 +1,6 @@
 ---
 title: Maneras de solucionar problemas | Documentos de Microsoft
-description: "Obtener información sobre cómo solucionar problemas en el Accountant Hub de Dynamics 365."
+description: Obtener información sobre cómo solucionar problemas en el Accountant Hub de Dynamics 365.
 author: edupont04
 ms.service: dynamics365-accountant
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, troubleshoot
 ms.date: 10/23/2017
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 0ebd99e9097e4c701038f3b8be7a07d1e80a4b31
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806191"
 ---
 # <a name="troubleshooting-include-d365acclongincludesd365acclongmdmd"></a>Solución de problemas de [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
@@ -49,4 +49,3 @@ Cuando se agrega a un cliente o solicita una actualización de los datos, [!INCL
 ## <a name="see-also"></a>Consulte también
 [Introducción a [!INCLUDE[d365acc](includes/d365acc_md.md)]](get-started.md)  
 [Agregar clientes al escritorio de [!INCLUDE[d365acc](includes/d365acc_md.md)]](add-client.md)  
-

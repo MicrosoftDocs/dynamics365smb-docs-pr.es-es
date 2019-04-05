@@ -1,23 +1,23 @@
 ---
-title: "Cómo registrar órdenes de servicio | Documentos de Microsoft"
-description: "Una vez que haya creado un pedido de servicio, rellenado toda la información y realizado los cambios necesarios, podrá registrarlo. El pedido debe contener como mínimo una línea de producto de servicio y una línea de servicio para poder registrarlo. Si el pedido contiene más de una línea de servicio, se registrarán todas las líneas de una sola vez."
+title: Cómo registrar órdenes de servicio | Documentos de Microsoft
+description: Una vez que haya creado un pedido de servicio, rellenado toda la información y realizado los cambios necesarios, podrá registrarlo. El pedido debe contener como mínimo una línea de producto de servicio y una línea de servicio para poder registrarlo. Si el pedido contiene más de una línea de servicio, se registrarán todas las líneas de una sola vez.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: a6554708a40b50275a88a0c414be51cc99ccda85
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806046"
 ---
 # <a name="post-service-orders-and-credit-memos"></a>Registrar abonos y órdenes de servicio
 Una vez que haya creado un pedido de servicio, rellenado toda la información y realizado los cambios necesarios, podrá registrarlo. El pedido debe contener como mínimo una línea de producto de servicio y una línea de servicio para poder registrarlo. Si el pedido contiene más de una línea de servicio, se registrarán todas las líneas de una sola vez.  
@@ -134,4 +134,3 @@ El procedimiento siguiente describe el registro del envío directamente de un pe
 ## <a name="see-also"></a>Consulte también  
 [Registro en la gestión de servicios](service-service-posting.md)  
 [Crear un pedido de servicio](service-how-to-create-service-orders.md)  
-

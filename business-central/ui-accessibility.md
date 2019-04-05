@@ -1,21 +1,21 @@
 ---
-title: "Características de asistencia."
-description: "Métodos abreviados de teclado y otras características de asistencia."
+title: Características de asistencia.
+description: Métodos abreviados de teclado y otras características de asistencia.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: bdb9eab2c23d8f1eacafd77433f621275c3dfdf1
-ms.contentlocale: es-es
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805590"
 ---
 # <a name="accessibility-and-keyboard-shortcuts-in-included365finincludesd365finmdmd"></a>Accesibilidad y métodos abreviados de teclado en [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Este tema proporciona información acerca de las características que permiten que [!INCLUDE[d365fin](includes/d365fin_md.md)] esté disponible para personas con discapacidades. [!INCLUDE[d365fin](includes/d365fin_md.md)] admite las características de accesibilidad siguientes:  
@@ -69,4 +69,3 @@ Puede encontrar información adicional acerca de la accesibilidad con los produc
 [Introducción](product-get-started.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Preguntas más frecuentes](across-faq.md)  
-

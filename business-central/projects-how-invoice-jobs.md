@@ -1,8 +1,8 @@
 ---
 title: Crear una factura de venta para facturar un proyecto | Documentos de Microsoft
-description: "Describe cómo facturar a clientes por los costes del proyecto a medida que progresa un proyecto."
+description: Describe cómo facturar a clientes por los costes del proyecto a medida que progresa un proyecto.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: project invoice
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 73894bb8c7193d96ca1f4c4f7c8b8394b1f26f5f
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805521"
 ---
 # <a name="invoice-jobs"></a>Facturar proyectos
 Durante el proyecto, pueden acumularse los costes del proyecto por el uso de recursos, materiales y compras relacionadas con el proyecto. Según progresa el proyecto, estas transacciones se registran en el diario del proyecto. Es importante que se registren todos los costes en el diario del proyecto antes de facturar al cliente.
@@ -79,4 +79,3 @@ Cuando haya terminado todas las actividades de un proyecto, incluidos los regist
 [Compras](purchasing-manage-purchasing.md)         
 [Ccial](sales-manage-sales.md)      
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

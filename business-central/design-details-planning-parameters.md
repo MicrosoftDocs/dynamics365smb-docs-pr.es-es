@@ -1,6 +1,6 @@
 ---
-title: "Detalles de diseño: Parámetros de la planificación | Documentos de Microsoft"
-description: "En este tema se describen los distintos parámetros de planificación que puede usar en Business Central."
+title: 'Detalles de diseño: Parámetros de la planificación | Documentos de Microsoft'
+description: En este tema se describen los distintos parámetros de planificación que puede usar en Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: aeafdd37a40d393fbb62501d67b14f3e351ea254
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 72b22b1370fcd5d2a92b9ed3c6c645d279ee72f3
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806125"
 ---
 # <a name="design-details-planning-parameters"></a>Detalles de diseño: Parámetros de la planificación
 En este tema se describen los distintos parámetros de planificación que puede usar en [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -26,7 +26,7 @@ La forma en que el sistema de planificación controla el suministro de productos
 |-------------|---------------|  
 |Definir si se va a planificar el producto|Directiva reaprov. = En blanco|  
 |Definir cuándo reaprovisionar|Ciclo<br /><br /> Punto pedido<br /><br /> Plazo de seguridad|  
-|Definir qué cantidad reaprovisionar|Stock de seguridad<br /><br /> Directiva reaprov.:<br /><br /> -   Cdad. fija reaprov. frente a Cantidad a solicitar<br />-   Cantidad máxima más stock máximo<br />-   Pedido<br />-   Lote a lote|  
+|Definir qué cantidad reaprovisionar|Stock de seguridad<br /><br /> Directiva reaprov.:<br /><br /> -   Cdad. fija reaprov. frente a Cantidad a solicitar<br />-   Cantidad máxima más stock máximo<br />-   Sentido<br />-   Lote a lote|  
 |Optimizar cuando se produzca el reaprovisionamiento y según la cantidad de reaprovisionamiento|Periodo de reprogramación<br /><br /> Periodo de acumulación de lotes<br /><br /> Periodo amortiguador|  
 |Modificar los pedidos de suministro|Cantidad mínima pedido<br /><br /> Cantidad máxima pedido<br /><br /> Múltiplos de pedido|  
 |Delimitación del producto planificado|Directiva fabricación:<br /><br /> -   Fab-contra-stock<br />-   Fab-contra-pedido|  
@@ -44,7 +44,7 @@ Las directivas de punto de pedido (**Fijo punto del campo cdad.** y **Cdad. máx
 
 El plazo de seguridad genérico, en la página **Configuración fabricación**, se debe configurar en un día como mínimo. Se puede saber la fecha de vencimiento de la demanda, pero no el tiempo de vencimiento. La planificación realiza la programación hacia atrás para satisfacer la demanda bruta y, si no se ha definido ningún plazo de seguridad, las mercancías pueden llegar demasiado tarde para satisfacer la demanda.  
 
-Tres campos de periodo de reaprovisionamiento adicionales, **Periodo de reprogramación**, **Periodo de acumulación de lotes** y **Periodo amortiguador**, también desempeñan un rol en el reaprovisionamiento. Para obtener más información, vea la sección "Optimizar cuando y qué cantidad de reaprovisionar".  
+Tres campos de periodo de reaprovisionamiento adicionales, **Periodo de reprogramación**, **Periodo de acumulación de lotes** y **Periodo amortiguador**, también desempeñan un rol en el reaprovisionamiento. Para obtener más información, vea [Optimizar cuando se produzca el reaprovisionamiento y según la cantidad de reaprovisionamiento](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
 
 ## <a name="define-how-much-to-reorder"></a>Definir qué cantidad reaprovisionar  
 Si el sistema de planificación detecta necesidad de reaprovisionamiento, la directiva de reaprovisionamiento seleccionada se utiliza para determinar el momento del pedido y la cantidad correspondiente.  
@@ -57,7 +57,7 @@ Independiente de la directiva de reaprovisionamiento, el sistema de planificaci�
 4. Si hay más demanda bruta que vence antes de la fecha de fin de la propuesta de pedido anticipado y esta demanda lleva al inventario disponible proyectado actualmente calculado por debajo de la cantidad de existencias de seguridad, la cantidad del pedido se aumenta para suplir el déficit. El pedido de suministro sugerido se programa hacia atrás a partir de la fecha de vencimiento de la demanda bruta que habría infringido el stock de seguridad.  
 5. Si el campo **Ciclo** no está relleno, solo se agregará la demanda bruta en la misma fecha de vencimiento.  
 
-     Los siguientes campos de periodo de reaprovisionamiento también desempeñan un rol en la definición de la cantidad de reaprovisionamiento: **Periodo de reprogramación**, **Periodo de acumulación de lotes** y **Periodo amortiguador**. Para obtener más información, vea la sección "Optimizar cuando y qué cantidad de reaprovisionar".  
+     Los siguientes campos de periodo de reaprovisionamiento también desempeñan un rol en la definición de la cantidad de reaprovisionamiento: **Periodo de reprogramación**, **Periodo de acumulación de lotes** y **Periodo amortiguador**. Para obtener más información, vea [Optimizar cuando se produzca el reaprovisionamiento y según la cantidad de reaprovisionamiento](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
 
 ### <a name="reordering-policies"></a>Directivas de reaprovisionamiento  
 Las siguientes directivas de reaprovisionamiento afectan a la cuenta que se va a reaprovisionar.  
@@ -118,4 +118,3 @@ Si utiliza la opción **Fab-contra-pedido**, el sistema de planificación analiz
 [Detalles de diseño: Gestión de directivas de reaprovisionamiento](design-details-handling-reordering-policies.md)   
 [Detalles de diseño: Equilibrio de aprovisionamiento y demanda](design-details-balancing-demand-and-supply.md)   
 [Detalles de diseño: Conceptos centrales del sistema de planificación](design-details-central-concepts-of-the-planning-system.md)
-

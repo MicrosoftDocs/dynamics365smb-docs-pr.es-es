@@ -1,23 +1,23 @@
 ---
-title: "Configurar varios tipos de interés"
-description: "Puede calcular cargos financieros con tasas de interés múltiples para un período específico. El cálculo de intereses es similar para todos los cargos financieros, con variación solo en la tasa de interés para un período específico."
+title: Configurar varios tipos de interés
+description: Puede calcular cargos financieros con tasas de interés múltiples para un período específico. El cálculo de intereses es similar para todos los cargos financieros, con variación solo en la tasa de interés para un período específico.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 85e295997089ea10b956fe0a5d087652c190fb44
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805677"
 ---
 # <a name="set-up-multiple-interest-rates"></a>Configurar varios tipos de interés.
 Las tasas de interés múltiples se utilizan para diferentes períodos de pagos retrasados en las transacciones comerciales. Por ejemplo, un gobierno especifica el interés máximo que debe percibirse por un consumidor. Esta tipo de interés se puede modificar dos veces al año el 1 de enero y el 1 de julio. Las partes acuerdan la tasa de interés entre las empresas (B2B) y no existe un límite para ese grupo de clientes. La tasa anunciada es usualmente cuatro por ciento más que el interés bancario normal.
@@ -38,4 +38,3 @@ Cuando emite una nota de cargo financiero, la nota muestra los cargos financiero
 ## <a name="see-also"></a>Consulte también  
 [Cobrar saldos pendientes](receivables-collect-outstanding-balances.md)  
 [Configurar las finanzas](finance-setup-finance.md)
-

@@ -1,23 +1,23 @@
 ---
-title: "Cómo reestructurar los almacenes | Documentos de Microsoft"
-description: "Es posible que desee volver a estructurar el almacén con nuevos códigos y características de ubicación."
+title: Cómo reestructurar los almacenes | Documentos de Microsoft
+description: Es posible que desee volver a estructurar el almacén con nuevos códigos y características de ubicación.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 06233abf9eef229ac86ee31857352af1de5e34e2
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805386"
 ---
 # <a name="restructure-warehouses"></a>Reestructurar almacenes
 Es posible que desee volver a estructurar el almacén con nuevos códigos y características de ubicación. No realizará este tipo de actividad con mucha frecuencia, pero pueden producirse algunos casos en los que sea necesaria una reclasificación para conseguir o mantener una operatividad más eficaz. Por ejemplo:  
@@ -90,4 +90,3 @@ Si desea cambiar el nombre de una ubicación para que también cambie el nombre 
 [Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

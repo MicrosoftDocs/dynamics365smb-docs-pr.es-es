@@ -1,8 +1,8 @@
 ---
 title: Conciliar cuentas bancarias | Documentos de Microsoft
-description: "Describe cómo el valor de inventario se concilia con el libro mayor."
+description: Describe cómo el valor de inventario se concilia con el libro mayor.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: bank account balance, bank statement
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: feb29e3cee1a55833566657a6a007af8854f98f5
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805432"
 ---
 # <a name="reconcile-bank-accounts-separately"></a>Conciliar cuentas bancarias
 Para conciliar las cuentas bancarias en [!INCLUDE[d365fin](includes/d365fin_md.md)] con las declaraciones recibidas del banco, comience completando el panel izquierdo en la página **Conciliación banco** con información del extracto de cuenta que luego coincide (concilia) con los movimientos de cuenta bancaria en el panel derecho. Una manera inteligente de completar las líneas de extracto bancario es mediante la importación de un extracto o archivo de extracto bancario.
@@ -100,4 +100,3 @@ En ocasiones, un extracto bancario contiene importes por los intereses y recargo
 [Administrar cuentas bancarias](bank-manage-bank-accounts.md)  
 [Configurar banca](bank-setup-banking.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

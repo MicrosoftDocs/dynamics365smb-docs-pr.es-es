@@ -1,6 +1,6 @@
 ---
 title: Crear una factura o un pedido de venta | Documentos de Microsoft
-description: "Describe cómo crear un recibo, o una factura o un pedido de venta, para registrar el acuerdo con un cliente para vender productos con condiciones específicas."
+description: Describe cómo crear un recibo, o una factura o un pedido de venta, para registrar el acuerdo con un cliente para vender productos con condiciones específicas.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
 ms.date: 10/17/2018
 ms.author: sgroespe
+ms.openlocfilehash: c7f689a078051516f6db14b311f5f97481808a8f
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: a5fe5e467d693fc98f604cfc85be47488374541a
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805550"
 ---
 # <a name="invoice-sales"></a>Facturar ventas
 Puede crear una factura o un pedido de ventas para registrar el contrato con un cliente para vender determinados productos según términos de entrega y pago determinados.  
@@ -95,7 +95,7 @@ En función de sus necesidades comerciales, puede recibir el pago y registrarlo 
 
 Puede procesar los pagos directamente desde la ficha de cliente. Utilice la acción **Registrar pagos de cliente** para obtener un resumen de las facturas sin abonar de dicho cliente. A continuación, marque la factura como pagada de forma parcial o total. Esta conciliación de pagos permite procesar los pagos de sus clientes al conciliar los importes recibidos en la cuenta bancaria con las facturas de venta relacionadas no pagadas y luego registrar los pagos. Para obtener más información, vea [Conciliar pagos individualmente](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-register-customer-payments-individually).  
 
-En los entornos comerciales donde el cliente paga después de la entrega, de acuerdo con el plazo de pago, una factura de ventas publicada permanece abierta (sin pagar) hasta que el departamento de Cobros verifique que se haya recibido el pago y lo liquide a la factura de ventas publicada. Esto se puede realizar manual o automáticamente. Para obtener más información, consulte [Conciliar pagos de cliente manualmente](receivables-how-apply-sales-transactions-manually.md) y [Conciliar los pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md).  
+En los entornos comerciales donde el cliente paga después de la entrega, de acuerdo con el plazo de pago, una factura de ventas publicada permanece abierta (sin pagar) hasta que el departamento de Cobros verifique que se haya recibido el pago y lo liquide a la factura de ventas publicada. Esto se puede realizar manual o automáticamente. Para obtener más información, vea [Conciliar los pagos de clientes con el diario de recibos de efectivo o de los movimientos de cliente](receivables-how-apply-sales-transactions-manually.md) y [Conciliar los pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md).  
 
 En los entornos comerciales en los que el cliente paga de forma inmediata, por ejemplo, mediante PayPal o en efectivo, el pago se registra inmediatamente al contabilizar la factura de venta, es decir, la factura de venta publicada se cierra como totalmente liquidada. Seleccione el método relevante en el campo **Cód. forma pago** del pedido. Consulte debajo del paso 8. Para pagos electrónicos, como PayPal, también debe completar el campo **Servicio de pago**. Para obtener más información, consulte [Permitir pagos de cliente a través de servicios de pago](sales-how-enable-payment-service-extensions.md).  
 
@@ -108,4 +108,3 @@ Incluso puede crear facturas pagadas directamente para clientes no registrados c
 [Enviar documentos por correo electrónico](ui-how-send-documents-email.md)  
 [Facturación masiva desde Microsoft Bookings en Business Central ](finance-bookings.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

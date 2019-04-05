@@ -1,23 +1,23 @@
 ---
-title: "Cómo enviar productos | Documentos de Microsoft"
-description: "Dependiendo de la configuración de su almacén, puede registrar el envío en el documento empresarial de salida relacionado, como una orden de venta, directamente, o puede utilizar documentos de envío de almacén que respeten un flujo de trabajo e integren diversas actividades del almacén."
+title: Cómo enviar productos | Documentos de Microsoft
+description: Dependiendo de la configuración de su almacén, puede registrar el envío en el documento empresarial de salida relacionado, como una orden de venta, directamente, o puede utilizar documentos de envío de almacén que respeten un flujo de trabajo e integren diversas actividades del almacén.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 75cf101f7f67bdd54d6e364468fd5e4354a089af
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805712"
 ---
 # <a name="ship-items"></a>Enviar productos
 Cuando envíe artículos de un almacén que no está configurado para el procesamiento de envío de almacén, simplemente registre el envío en el documento de negocio relacionado, como un pedido de cliente, una orden de servicio, una orden de devolución de compra o una orden de transferencia de salida.
@@ -105,4 +105,3 @@ También puede utilizar la hoja de trabajo de picking para crear varias instrucc
 [Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

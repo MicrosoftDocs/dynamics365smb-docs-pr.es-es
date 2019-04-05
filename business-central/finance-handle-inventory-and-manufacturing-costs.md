@@ -1,23 +1,23 @@
 ---
-title: "Administrar existencias y costes de fabricación | Documentos de Microsoft"
-description: "Aunque la mayoría de las funciones de contabilidad de costes se llevan a cabo mediante procesos subyacentes que no requieren la interacción del usuario, tales como la liquidación de movimientos y el ajuste automático de costes, existen varios campos, páginas e informes destinados a los usuarios que administran directa o indirectamente el coste de los productos o las operaciones."
+title: Administrar existencias y costes de fabricación | Documentos de Microsoft
+description: Aunque la mayoría de las funciones de contabilidad de costes se llevan a cabo mediante procesos subyacentes que no requieren la interacción del usuario, tales como la liquidación de movimientos y el ajuste automático de costes, existen varios campos, páginas e informes destinados a los usuarios que administran directa o indirectamente el coste de los productos o las operaciones.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 27c036dac88bce71ecfefa064d05ac3cdd8e8225
-ms.contentlocale: es-es
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805564"
 ---
 # <a name="handling-inventory-and-manufacturing-costs"></a>Administración de existencias y costes de fabricación
 Aunque la mayoría de las funciones de contabilidad de costes se llevan a cabo mediante procesos subyacentes que no requieren la interacción del usuario, tales como la liquidación de movimientos y el ajuste automático de costes, existen varios campos, páginas e informes destinados a los usuarios que administran directa o indirectamente el coste de los productos o las operaciones.  
@@ -40,4 +40,3 @@ Aunque la mayoría de las funciones de contabilidad de costes se llevan a cabo m
 ## <a name="see-also"></a>Consulte también  
 [Gestión de costes de inventario](finance-manage-inventory-costs.md)
 [Detalles de diseño: Coste de inventario](design-details-inventory-costing.md)
-

@@ -1,23 +1,23 @@
 ---
 title: Configurar y publicar un servicios Web KPI para esquemas de cuentas | Documentos de Microsoft
-description: "Este tema describe cómo mostrar los datos de KPI del esquema de cuentas según esquemas de cuentas específicos."
+description: Este tema describe cómo mostrar los datos de KPI del esquema de cuentas según esquemas de cuentas específicos.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 89ea440851c359db7e08d4f0265a647cb9424330
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806001"
 ---
 # <a name="set-up-and-publish-kpi-web-services-based-on-account-schedules"></a>Configurar y publicar un servicio web KPI que se basa en esquemas de cuentas
 En la página **Configuración de servicio Web KPI de esquema de cuentas**, se configura cómo mostrar los datos KPI del esquema de cuentas y en qué esquemas de cuentas específicos se deben basar los KPI. Cuando elige el botón **Publicar servicio Web**, los datos especificados KPI de esquema de cuentas se agregan a la lista de servicios Web publicados en la página **Servicios Web**.  
@@ -57,4 +57,3 @@ En la página **Configuración de servicio Web KPI de esquema de cuentas**, se c
 [Configurar las finanzas](finance-setup-finance.md)  
 [Libro mayor y plan de cuentas](finance-general-ledger.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

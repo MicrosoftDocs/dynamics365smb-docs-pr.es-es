@@ -1,5 +1,5 @@
 ---
-title: "Cómo crear productos de servicio | Documentos de Microsoft"
+title: Cómo crear productos de servicio | Documentos de Microsoft
 description: Cuando reciba un producto no registrado para servicio, puede registrarlo como un producto de servicio.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,15 +7,15 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: c30c0efc931b5970ff426141fa0dc3129d827306
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805518"
 ---
 # <a name="create-service-items"></a>Crear productos de servicio
 En [!INCLUDE[d365fin](includes/d365fin_md.md)], el término “producto de servicio” se refiere el equipo o productos que requieren servicio. Al crear un pedido de servicio, se especifican los productos que necesitan servicio. En el pedido, puede vincular un producto de servicio a un producto en existencias o un grupo de productos de servicio.    
@@ -62,4 +62,3 @@ El siguiente procedimiento muestra cómo crear productos de servicio al enviar p
 [Configurar componentes de servicio y de productos](service-how-setup-service-items.md)  
 [Configurar la gestión de servicios](service-setup-service.md)  
 [Gestión de servicios](service-service.md)  
-

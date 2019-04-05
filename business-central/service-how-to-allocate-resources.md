@@ -1,23 +1,22 @@
 ---
 title: Asignar recursos | Documentos de Microsoft
-description: "Puede cambiar el importe anual del contrato de servicio u oferta de contrato para corregir el importe que se facturará anualmente."
+description: Puede cambiar el importe anual del contrato de servicio u oferta de contrato para corregir el importe que se facturará anualmente.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: f75dab84229aa08c35eddf057805003b69124481
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805522"
 ---
-
 # <a name="allocate-resources"></a>Asignar recursos
 El principal elemento de la gestión del servicio son las personas que lo prestan. Puede configurar [!INCLUDE[d365fin](includes/d365fin_md.md)] para asignar el personal adecuado a los proyectos correspondientes. Las asignaciones se pueden basar en zonas de servicio donde se encuentran las personas o donde tiene lugar el servicio. Además, puede agrupar los recursos al responder a solicitudes de servicio. Para obtener más información, vea [Asignación de recursos](service-how-setup-resource-allocation.md).
 
@@ -144,4 +143,3 @@ Puede cancelar las asignaciones de recursos para las tareas de servicio sin reas
 ## <a name="see-also"></a>Consulte también
 [Configurar asignación de recursos](service-how-setup-resource-allocation.md)  
 [Estado de asignación y estado de reparación](service-allocation-status-and-repair-status.md)  
-

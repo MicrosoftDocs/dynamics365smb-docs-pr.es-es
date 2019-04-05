@@ -1,8 +1,8 @@
 ---
-title: "Configurar la gestión de servicio | Documentos de Microsoft"
-description: "Descripción general de las tareas para configurar la Gestión de servicios para adaptarla a la forma en que sus organizaciones gestionan sus servicios."
+title: Configurar la gestión de servicio | Documentos de Microsoft
+description: Descripción general de las tareas para configurar la Gestión de servicios para adaptarla a la forma en que sus organizaciones gestionan sus servicios.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,14 +12,13 @@ ms.workload: na
 ms.search.keywords: service, service items, repairs, maintenance, fix
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: c4b8287c8e1c056bd45a30376e96aca1f8f4ddcc
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 772022a8224ff81e332783d95e6cd27500a306fa
-ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805707"
 ---
-
 # <a name="setting-up-service-management"></a>Configurar la gestión de servicios
 Para poder utilizar las funciones de la gestión de servicios en [!INCLUDE[d365fin](includes/d365fin_md.md)], hay algunos parámetros que debe configurar. Por ejemplo, puede establecer códigos para servicios estándar, síntomas y códigos de defectos, y los productos de servicio y tipos de productos de servicio que requieran las necesidades de servicio al cliente de su empresa.  
 
@@ -47,4 +46,3 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 ## <a name="see-also"></a>Consulte también .
 [Gestión de servicios](service-service.md)  
 [Introducción](product-get-started.md)  
-

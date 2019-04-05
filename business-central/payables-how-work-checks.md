@@ -1,6 +1,6 @@
 ---
 title: Emitir, imprimir, cancelar y anular cheques | Documentos de Microsoft
-description: "Describe cómo emitir cheques con el diario de pagos, imprimir cheques y anular o ver movimientos de cheques en Business Central."
+description: Describe cómo emitir cheques con el diario de pagos, imprimir cheques y anular o ver movimientos de cheques en Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 4dd8f50f4d7767cb70b53a16009b86f135a5f5c6
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805400"
 ---
 # <a name="make-check-payments"></a>Realizar pagos por cheque
 Puede emitir cheques electrónicos y manuales en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ambos métodos utilizan el diario de pagos para emitir los cheques a proveedores. También puede anular cheques y ver movimientos de cheques.
@@ -78,4 +78,3 @@ Si desea revisar los cheques registrados, por ejemplo, para verificar los cheque
 [Configurar banca](bank-setup-banking.md)  
 [Exportar un archivo de Positive Pay](finance-how-positive-pay.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

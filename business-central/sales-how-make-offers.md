@@ -1,7 +1,7 @@
 ---
 title: Crear una oferta de venta a un cliente | Documentos de Microsoft
-description: "Describe cómo crear una oferta de venta o un documento de solicitud de propuesta (RFQ) para registrar la oferta a un cliente para vender productos con determinadas condiciones."
-documentationcenter: 
+description: Describe cómo crear una oferta de venta o un documento de solicitud de propuesta (RFQ) para registrar la oferta a un cliente para vender productos con determinadas condiciones.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: rfq
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 9cf65b029527dfd046223e82b92b57a48d43bb19
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806003"
 ---
 # <a name="make-sales-quotes"></a>Crear ofertas de ventas
 Puede crear una oferta de venta para registrar la oferta a un cliente para vender determinados productos según términos de entrega y pago determinados. Puede enviar la oferta de venta al cliente para comunicar la oferta. Puede enviar por correo electrónico el documento como un documento PDF anexo. También puede rellenar previamente el cuerpo del correo electrónico con un resumen de la oferta. Para obtener más información, vea [Enviar documentos por correo electrónico](ui-how-send-documents-email.md).
@@ -82,4 +82,3 @@ La oferta de venta se quita de la base de datos. Una factura de venta o un pedid
 [Configuración de ventas](sales-setup-sales.md)  
 [Enviar documentos por correo electrónico](ui-how-send-documents-email.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,8 +1,8 @@
 ---
-title: "Detalles de diseño: Supervisión del nivel de inventario proyectado y el punto de pedido | Documentos de Microsoft"
-description: "Aprender cómo la planificación de inventario distingue entre el inventario estimado y niveles de inventario disponible estimados."
+title: 'Detalles de diseño: Supervisión del nivel de inventario proyectado y el punto de pedido | Documentos de Microsoft'
+description: Aprender cómo la planificación de inventario distingue entre el inventario estimado y niveles de inventario disponible estimados.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: design, supply, inventory, planning
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
+ms.openlocfilehash: d26790c1c48eff8af150a72f5d5d697eb7b9dc2a
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 336b5c300cf3640d7356313d2d627f6b4008c7b4
-ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805438"
 ---
 # <a name="design-details-monitoring-the-projected-inventory-level-and-the-reorder-point"></a>Detalles de diseño: Supervisión del nivel de inventario proyectado y el punto de pedido
 El inventario es un tipo de aprovisionamiento, pero para planificación del inventario, el sistema de planificación diferencia entre dos niveles de inventario:  
@@ -76,4 +76,3 @@ A continuación se muestra una ilustración gráfica de este principio:
 [Detalles de diseño: Parámetros de la planificación](design-details-planning-parameters.md)   
 [Detalles de diseño: Gestión de directivas de reaprovisionamiento](design-details-handling-reordering-policies.md)   
 [Detalles de diseño: Planificación de aprovisionamiento](design-details-supply-planning.md)
-

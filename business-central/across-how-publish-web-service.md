@@ -1,21 +1,21 @@
 ---
 title: Exponga los objetos como servicios Web | Documentos de Microsoft
-description: "Publique objetos como servicios web para que estén inmediatamente disponibles en la red."
+description: Publique objetos como servicios web para que estén inmediatamente disponibles en la red.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: bb9623c00aa038b387179d46e6eb8a869552569e
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805534"
 ---
 # <a name="publish-a-web-service"></a>Publicar un servicio web
 
@@ -32,7 +32,7 @@ Los pasos siguientes explican cómo crear y publicar un servicio web.
 2.  En la página **Servicios web**, elija **Nuevo**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]  
-    >  **Unidad de código** y **Página** son tipos válidos para los servicios web de SOAP. **Página** y **Consulta** son tipos válidos para los servicios web de OData.  
+    >  **Codeunit** y **Página** son tipos válidos para los servicios web de SOAP. **Página** y **Consulta** son tipos válidos para los servicios web de OData.  
     También, si la base de datos contiene varias empresas, puede elegir un Id. objeto que sea específico de una de las empresas.  
     Finalmente, el nombre del servicio está visible a los consumidores de su servicio Web y es la base para identificar y distinguir servicios Web, por lo que debería hacer que el nombre tenga sentido.
 
@@ -48,8 +48,8 @@ Una vez publique un servicio Web, está disponible a partes externas. Puede veri
 > [!div class="mx-tdBreakAll"]
 > |Tipo|Sintaxis|Ejemplo|
 > |----------------|------|-------|
-> |SOAP |https://*Servidor*:*PuertoServicioWebSOAP*/*InstanciaDeServidor*/WS/*NombreEmpresa*/documentosVentas/ |https://mycompany.financials.dynamics.com:7047/MS/WS/MyCompany/Page/salesDocuments?tenant=mycompany.financials.dynamics.com |
-> |OData |https://*Servidor*:*PuertoServicioWebOData*/*InstanciaServidor*/OData/Empresa(*'NombreEmpresa*')|[https://MyCompany.financials.dynamics.com:7048/MS/OData/Company('MyCompany')/salesDocuments?tenant=MyCompany.financials.dynamics.com](https://MyCompany.financials.dynamics.com:7048/MS/OData/Company('MyCompany')/salesDocuments?tenant=MyCompany.financials.dynamics.com) <br />    El nombre de la empresa distingue entre mayúsculas y minúsculas.|
+> |SOAP |https://*Server*:*PuertoServicioWebSOAP*/*InstanciaDeServidor*/WS/*NombreEmpresa*/documentosVentas/ |https://mycompany.financials.dynamics.com:7047/MS/WS/MyCompany/Page/salesDocuments?tenant=mycompany.financials.dynamics.com |
+> |OData |https://*Server*:*PuertoServicioWebOData*/*InstanciaServidor*/OData/Empresa('*NombreEmpresa*')|[https://MyCompany.financials.dynamics.com:7048/MS/OData/Company('MyCompany')/salesDocuments?tenant=MyCompany.financials.dynamics.com](https://MyCompany.financials.dynamics.com:7048/MS/OData/Company('MyCompany')/salesDocuments?tenant=MyCompany.financials.dynamics.com) <br />    El nombre de la empresa distingue entre mayúsculas y minúsculas.|
 
 2.  Revise la información que se muestra en el explorador. Compruebe que puede ver el nombre del servicio web que ha creado.  
 
@@ -65,4 +65,3 @@ https://localhost:7048/server/OData/Customer?company='CRONUS International Ltd.'
 
 ## <a name="see-also"></a>Consulte también  
 [Administración](admin-setup-and-administration.md)  
-

@@ -1,23 +1,23 @@
 ---
-title: "Cómo bloquear productos de venta o de compra"
-description: "En Business Central, un producto se puede marcar como bloqueado para ventas, bloqueado para compras o bloqueado para todos los propósitos."
+title: Cómo bloquear productos de venta o de compra
+description: En Business Central, un producto se puede marcar como bloqueado para ventas, bloqueado para compras o bloqueado para todos los propósitos.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 0d5ad688cfa6fb58e8383692362105beeee386f8
-ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805570"
 ---
 # <a name="block-items-from-sales-or-purchasing"></a>Bloquear productos de venta o de compra
 Puede bloquear que un producto entre en líneas de compras y ventas, y puede bloquearlo para que no se registre en ninguna transacción.  
@@ -53,4 +53,3 @@ Si intenta registrar algún tipo de transacción para el producto, ahora obtendr
 ## <a name="see-also"></a>Consulte también  
 [Registro de productos nuevos](inventory-how-register-new-items.md)  
 [Grupos contables inventario](inventory-manage-inventory.md)  
-

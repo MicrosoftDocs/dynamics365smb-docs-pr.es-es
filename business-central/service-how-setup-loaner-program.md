@@ -1,23 +1,23 @@
 ---
 title: Configurar productos prestados | Documentos de Microsoft
-description: "Puede configurar productos prestados que puede prestar a los clientes para reemplazar productos de servicio mientras están en servicio."
+description: Puede configurar productos prestados que puede prestar a los clientes para reemplazar productos de servicio mientras están en servicio.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 46e60bcb217178d94eda195045df0db33873a190
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805540"
 ---
 # <a name="set-up-a-loaner-program"></a>Configurar un programa de productos prestados
 En ocasiones, debe entregar al cliente un producto prestado para que lo utilice mientras el equipo de servicio al cliente realiza la reparación. En [!INCLUDE[d365fin](includes/d365fin_md.md)], puede establecer un programa de productos prestados, prestar artículos a sus clientes y llevar un seguimiento de la recepción de los artículos cuando los clientes los devuelven. Además, puede agregar comentarios acerca de los productos prestados de una de las siguientes formas:  
@@ -36,5 +36,4 @@ En ocasiones, debe entregar al cliente un producto prestado para que lo utilice 
 [Prestar y recibir productos prestados](service-how-to-lend-receive-loaners.md)  
 [Configurar la gestión de servicios](service-setup-service.md)  
 [Prestación del servicio](service-deliver-service.md)  
-
 

@@ -1,6 +1,6 @@
 ---
-title: "Métodos abreviados de teclado"
-description: "La lista completa de combinaciones de método abreviado de teclado para trabajar de manera eficaz con los datos."
+title: Métodos abreviados de teclado
+description: La lista completa de combinaciones de método abreviado de teclado para trabajar de manera eficaz con los datos.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,13 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 3f158d7ed56445d6d2acf2ef8e5e9ab8e7487531
 ms.openlocfilehash: 5b7c5282a89a1dfb39f3e94feab8e00d2373f8af
-ms.contentlocale: es-es
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805417"
 ---
-
 # <a name="keyboard-shortcuts"></a>Métodos abreviados de teclado
 Este producto proporciona un resumen de algunas de las combinaciones de métodos abreviados que se pueden utilizar cuando trabaje con [!INCLUDE[prodshort](includes/prodshort.md)].
 
@@ -160,4 +159,3 @@ The following table describes the keyboard shortcuts that you can use in a list 
 [Introducción](product-get-started.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Preguntas más frecuentes](across-faq.md)  
-

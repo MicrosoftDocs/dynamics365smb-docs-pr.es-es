@@ -1,23 +1,23 @@
 ---
-title: "Cómo bloquear ventas a productos de clientes desde el apartado de Ventas o Compras"
-description: "En Business Central, un producto se puede marcar como bloqueado para ventas, bloqueado para compras o bloqueado para todos los propósitos."
+title: Cómo bloquear ventas a productos de clientes desde el apartado de Ventas o Compras
+description: En Business Central, un producto se puede marcar como bloqueado para ventas, bloqueado para compras o bloqueado para todos los propósitos.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 268d098318b77cb89a369e8edc14729a44bedae6
-ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806143"
 ---
 # <a name="block-customers"></a>Bloquear clientes
 Puede bloquear a un cliente, por ejemplo, por insolvencia, para que el no pueda añadirse a los documentos de ventas o para que no se puedan registrar transacciones para el cliente.
@@ -42,4 +42,3 @@ La siguiente tabla describe las distintas opciones de bloqueo.
 [Permite registrar nuevos clientes](sales-how-register-new-customers.md)  
 [Cobrar saldos pendientes](receivables-collect-outstanding-balances.md)  
 [Administrar cobros](receivables-manage-receivables.md)  
-

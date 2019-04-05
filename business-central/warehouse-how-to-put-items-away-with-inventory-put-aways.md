@@ -1,23 +1,23 @@
 ---
-title: "Ubicación de productos con ubicación de inventario | Documentos de Microsoft"
-description: "Cuando el almacén está configurado para requerir el proceso de ubicación, pero no el proceso de recepción, utilice el documento **Ubicac. inventario** para registrar la información de ubicación y recepción de sus documentos de origen. El documento de origen de entrada puede ser un pedido de compra, una devolución de ventas, un pedido de transferencia de salida o una orden de producción cuya salida está preparados para ubicarse."
+title: Ubicación de productos con ubicación de inventario | Documentos de Microsoft
+description: Cuando el almacén está configurado para requerir el proceso de ubicación, pero no el proceso de recepción, utilice el documento **Ubicac. inventario** para registrar la información de ubicación y recepción de sus documentos de origen. El documento de origen de entrada puede ser un pedido de compra, una devolución de ventas, un pedido de transferencia de salida o una orden de producción cuya salida está preparados para ubicarse.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 410439c6a7b0aacc31f1a191b9b4540d0aa6a5e8
-ms.contentlocale: es-es
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805885"
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Ubicar productos con ubicación de inventario
 Cuando el almacén está configurado para requerir el proceso de ubicación, pero no el proceso de recepción, utilice el documento **Ubicac. inventario** para registrar la información de ubicación y recepción de sus documentos de origen. El documento de origen de entrada puede ser un pedido de compra, una devolución de ventas, un pedido de transferencia de salida o una orden de producción o ensamblado cuya salida está preparados para ubicarse.  
@@ -80,4 +80,3 @@ El proceso de registro contabilizará la recepción, o para las órdenes de prod
 [Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

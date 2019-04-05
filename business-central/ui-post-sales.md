@@ -1,8 +1,8 @@
 ---
-title: "Descripción de cómo registrar documentos de venta | Documentos de Microsoft"
-description: "Obtenga información sobre las diversas funciones de registro para registrar documentos de venta."
+title: Descripción de cómo registrar documentos de venta | Documentos de Microsoft
+description: Obtenga información sobre las diversas funciones de registro para registrar documentos de venta.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 7ada688f7946d7f857dc6d4a6518b8bcb4e5c707
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805955"
 ---
 # <a name="posting-sales"></a>Registrar ventas
 En **Grupo contable** en un documento de ventas, puede elegir entre las funciones de registro siguientes:
@@ -46,5 +46,4 @@ Una vez completado el registro, las líneas de venta registradas se quitan del p
 [Ventas](sales-manage-sales.md)  
 [Enviar documentos por correo electrónico](ui-how-send-documents-email.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-
 

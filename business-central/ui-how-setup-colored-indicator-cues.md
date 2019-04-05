@@ -1,8 +1,8 @@
 ---
-title: "Personalizar las señales visuales acerca de la actividad de una pila | Documentos de Microsoft"
-description: "Configure un indicador de color en un mosaico Pila para proporcionar una señal visual personalizada de la actividad de la pila."
+title: Personalizar las señales visuales acerca de la actividad de una pila | Documentos de Microsoft
+description: Configure un indicador de color en un mosaico Pila para proporcionar una señal visual personalizada de la actividad de la pila.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: personalize, customize
 ms.date: 10/01/2018
 ms.author: solsen
 redirect_url: admin-how-set-up-colored-indicator-on-cues
+ms.openlocfilehash: 0547091220aa65562766c25fe6a06d456a2c96ad
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 366d762fbfbd2a61253b087577ef2810194e2c35
-ms.contentlocale: es-es
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805989"
 ---
 # <a name="set-up-a-colored-indicator-on-cues"></a>Configurar un indicador de color en pilas
 Puede configurar pilas para que aparezcan en el Área de trabajo de los usuarios a fin de que incluyan un indicador que cambia de color según los valores de datos de las pilas.
@@ -46,4 +46,3 @@ La tabla siguiente muestra los colores que corresponden a las opciones de los ca
 
 ## <a name="see-also"></a>Consulte también
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

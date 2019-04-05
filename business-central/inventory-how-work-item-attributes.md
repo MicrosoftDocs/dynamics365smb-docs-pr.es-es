@@ -1,6 +1,6 @@
 ---
 title: Configurar atributos de producto y asignarlos a productos | Documentos de Microsoft
-description: "Describe cómo configurar los valores de atributo de producto, por ejemplo, que pueden utilizarse como palabras de búsqueda, y asignarlos a productos y categorías de productos."
+description: Describe cómo configurar los valores de atributo de producto, por ejemplo, que pueden utilizarse como palabras de búsqueda, y asignarlos a productos y categorías de productos.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: categories, search words, facets
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 9441bee71c6025deed419dec59d3bacf3bdf5e41
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: fb063e388828f9ea099388ea07d8d54971088b42
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805694"
 ---
 # <a name="work-with-item-attributes"></a>Trabajar con atributos de producto
 Cuando los clientes hacen consultas sobre un producto, ya sea por correspondencia o en una tienda en línea integrada, pueden preguntar por las características como la altura y el año del modelo. Para proporcionar este servicio al cliente, puede asignar valores de atributo de producto de diferentes tipos a sus productos, que podrán usarse posteriormente en la búsqueda de productos.
@@ -31,7 +31,7 @@ También puede asignar los atributos de producto a categorías de producto que s
 3. En la página **Atributos de producto**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
->   Si selecciona **Opción** en el campo **Tipo**, puede seleccionar la acción **Valores de atributo de producto** para crear valores de atributo de producto. Para obtener más información, consulte la sección "Para crear valores de atributo de producto del tipo Opción".  
+>   Si selecciona **Opción** en el campo **Tipo**, puede seleccionar la acción **Valores de atributo de producto** para crear valores de atributo de producto. Para obtener más información, consulte [Para crear valores de atributo de producto del tipo Opción](inventory-how-work-item-attributes.md#to-create-values-for-item-attributes-of-type-option).  
 
 ## <a name="to-create-values-for-item-attributes-of-type-option"></a>Para crear los valores de los atributos de producto del tipo Opción
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Atributos de producto** y luego elija el enlace relacionado.
@@ -42,16 +42,16 @@ También puede asignar los atributos de producto a categorías de producto que s
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Productos** y luego elija el enlace relacionado.
 2. En la página **Producto**, seleccione el producto al que quiere asignarle un atributo de producto y, a continuación, seleccione la acción **Atributos**.
 3. En la página **Valores de atributo de producto**, seleccione la acción **Nuevo**.
-4. Seleccione el botón de búsqueda en el campo **Atributo** y seleccione un atributo de producto existente. De forma alternativa, elija la acción **Nuevo** para crear primero un nuevo atributo de producto como se explica en la sección "Para crear atributos de producto".
+4. Seleccione el botón de búsqueda en el campo **Atributo** y seleccione un atributo de producto existente. De forma alternativa, elija la acción **Nuevo** para crear primero un nuevo atributo de producto como se explica en [Para crear atributos de producto](inventory-how-work-item-attributes.md#to-create-item-attributes).
 5. En el campo **Valor**, introduzca el valor del atributo de producto, como por ejemplo "2010" en el atributo **Año de modelo**.
-6. Para los atributos de producto del tipo **Opción**, seleccione el botón de búsqueda en el campo **Valor** y seleccione un valor de atributo de producto. De forma alternativa, elija la acción **Nuevo** para crear primero un nuevo valor de atributo de producto como se explica en la sección "Para crear valores de atributo de producto del tipo Opción".
+6. Para los atributos de producto del tipo **Opción**, seleccione el botón de búsqueda en el campo **Valor** y seleccione un valor de atributo de producto. De forma alternativa, elija la acción **Nuevo** para crear primero un nuevo valor de atributo de producto como se explica en [Para crear valores de atributo de producto del tipo Opción](inventory-how-work-item-attributes.md#to-assign-item-attributes-to-items).
 7. Repita los pasos del 4 al 6 para todos los atributos de producto que desea asignar al producto.
 
 ## <a name="to-assign-item-attributes-to-item-categories"></a>Asignar un atributo de producto a una categoría
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Categorías producto** y luego elija el enlace relacionado.
 2. En la página **Categoría de producto**, seleccione la categoría de producto al que quiere asignarle un atributo y, a continuación, seleccione la acción **Editar**.
 3. En la página **Ficha de categoría de artículo**, en la ficha desplegable **Atributos**, seleccione la acción **Nuevo**.
-4. Seleccione el botón de búsqueda en el campo **Atributo** y seleccione un atributo de producto existente. De forma alternativa, elija la acción **Nuevo** para crear primero un nuevo atributo de producto como se explica en la sección "Para crear un atributo de producto".
+4. Seleccione el botón de búsqueda en el campo **Atributo** y seleccione un atributo de producto existente. De forma alternativa, elija la acción **Nuevo** para crear primero un nuevo atributo de producto como se explica en [Para crear atributos de producto](inventory-how-work-item-attributes.md#to-create-item-attributes).
 5. En el campo **Valor predeterminado**, seleccione el botón de búsqueda y seleccione un valor de atributo de producto.
 6. Repita los pasos 4 y 5 para todos los atributos de producto que desea asignar a la categoría.
 
@@ -80,4 +80,3 @@ Los productos de la página **Productos** se filtran por los valores de atributo
 [Registro de productos nuevos](inventory-how-register-new-items.md)  
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

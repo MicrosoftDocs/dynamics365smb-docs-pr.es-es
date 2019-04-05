@@ -1,6 +1,6 @@
 ---
 title: Configurar formas de pago | Documentos de Microsoft
-description: "Las formas de pago, por ejemplo, cheque, transferencia bancaria, efectivo o PayPal, se usan para definir cómo se pagarán las facturas de venta y de compra."
+description: Las formas de pago, por ejemplo, cheque, transferencia bancaria, efectivo o PayPal, se usan para definir cómo se pagarán las facturas de venta y de compra.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: check, bank transfer, cash, PayPal
 ms.date: 11/22/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 8cac52a1cdd4e614c6e2ef8c027e5cf499926f9d
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805833"
 ---
 # <a name="defining-payment-methods"></a>Definir las formas de pago
 Las formas de pago definen la forma en que prefiere que los clientes le paguen y cómo desea pagar a sus proveedores. El método puede variar para cada cliente o proveedor. Ejemplos de formas de pago habituales son **banco**, **efectivo**, **cheque** o **cuenta**. 
@@ -39,4 +39,3 @@ Sin embargo, los abonos para devoluciones son excepciones porque el dinero fluye
 ## <a name="see-also"></a>Consulte también
 [Finanzas](finance.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

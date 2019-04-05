@@ -1,8 +1,8 @@
 ---
 title: Procesar oportunidades de ventas en ciclos de ventas | Documentos de Microsoft
-description: "Puede ver, cerrar o eliminar oportunidades de ventas, y también puede crear ofertas y pedidos de venta para oportunidades, y mover una oportunidad por las etapas de un ciclo de ventas."
+description: Puede ver, cerrar o eliminar oportunidades de ventas, y también puede crear ofertas y pedidos de venta para oportunidades, y mover una oportunidad por las etapas de un ciclo de ventas.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 2eab68abd4c02aa6d42daf751640f47a8fb11d23
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806330"
 ---
 # <a name="process-sales-opportunities"></a>Procesar oportunidades de ventas
 Después de crear una oportunidad, existen numerosas funciones para gestionarla y avanzar hasta completarla.
@@ -87,4 +87,3 @@ Si una oportunidad sigue un ciclo de ventas, podrá moverlo hacia adelante o hac
 [Ventas](sales-manage-sales.md)  
 [Creación y administración de contactos](marketing-contacts.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,21 +1,21 @@
 ---
-title: "Procedimientos recomendados de configuración: parámetros de planificación | Documentos de Microsoft"
-description: "La ficha desplegable Planificación de la ficha de producto es el centro de la cadena de suministro de una empresa. La configuración de los parámetros correctos de planificación es muy importante para un control de inventario rentable y un servicio al cliente superior."
+title: 'Procedimientos recomendados de configuración: parámetros de planificación | Documentos de Microsoft'
+description: La ficha desplegable Planificación de la ficha de producto es el centro de la cadena de suministro de una empresa. La configuración de los parámetros correctos de planificación es muy importante para un control de inventario rentable y un servicio al cliente superior.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: b8a5f4dcfa9a4e3f728c8de3786e7d5716ac82c7
 ms.openlocfilehash: 69344bcc4004ce29a58e8475235a97cf9196605d
-ms.contentlocale: es-es
-ms.lasthandoff: 10/04/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806193"
 ---
 # <a name="setup-best-practices-planning-parameters"></a>Procedimientos recomendados de configuración: parámetros de la planificación
 La ficha desplegable **Planificación** de la ficha de producto es el centro de la cadena de suministro de una empresa. La configuración de los parámetros correctos de planificación es muy importante para un control de inventario rentable y un servicio al cliente superior.  
@@ -45,4 +45,3 @@ La ficha desplegable **Planificación** de la ficha de producto es el centro de 
  [Detalles de diseño: planificación de aprovisionamiento](design-details-supply-planning.md)   
  [Configurar áreas de aplicación complejas mediante procedimientos recomendados](set-up-complex-application-areas-using-best-practices.md)  
  [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

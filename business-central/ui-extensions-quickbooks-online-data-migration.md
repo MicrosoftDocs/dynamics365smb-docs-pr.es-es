@@ -1,6 +1,6 @@
 ---
-title: "Usar la extensión de migración de QuickBooks | Documentos de Microsoft"
-description: "Describe cómo utilizar la extensión para migrar clientes, proveedores, elementos y cuentas de QuickBooks Online a Business Central."
+title: Usar la extensión de migración de QuickBooks | Documentos de Microsoft
+description: Describe cómo utilizar la extensión para migrar clientes, proveedores, elementos y cuentas de QuickBooks Online a Business Central.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,19 +10,18 @@ ms.workload: na
 ms. search.keywords: extension, migrate, data, QuickBooks, import
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: e158f1e92bdf7ebeab0eb4d538d2a141a590b7cd
-ms.contentlocale: es-es
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805678"
 ---
-
-# <a name="the-quickbooks-online-data-migration-extension"></a>Extensión de la migración de datos de QuickBooks Online
+# <a name="the-quickbooks-online-data-migration-extension"></a>Extensión de migración de datos de QuickBooks Online
 Esta extensión se incluye en la guía de configuración asistida **Migración de datos** para ayudarle a migrar datos comerciales importantes de QuickBooks Online a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Por ejemplo, esto es útil cuando su negocio está creciendo y ha decidido actualizar su aplicación de administración de negocios con [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## <a name="what-data-can-i-import-from-quickbooks-online"></a>¿Qué datos puedo importar desde QuickBooks Online?
-Desde QuickBooks Online puede importar a [!INCLUDE[d365fin](includes/d365fin_md.md)] los datos siguientes:  
+Puede importar los datos siguientes de QuickBooks Online a [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
 
 * Clientes
 * Proveedores
@@ -66,4 +65,3 @@ Hay algunos pasos que es recomendable que haga:
 ## <a name="see-also"></a>Consulte también
 [Importar datos de empresa de otros sistemas financieros](across-import-data-configuration-packages.md)  
 [Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones](ui-extensions.md)  
-

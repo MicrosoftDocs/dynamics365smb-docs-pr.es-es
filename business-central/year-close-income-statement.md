@@ -1,8 +1,8 @@
 ---
-title: "Cerrar cuentas de regularización | Documentos de Microsoft"
-description: "En el cierre del ejercicio, debe ejecutar el proceso Asiento regularización para cerrar los periodos contables que componen el ejercicio fiscal."
+title: Cerrar cuentas de regularización | Documentos de Microsoft
+description: En el cierre del ejercicio, debe ejecutar el proceso Asiento regularización para cerrar los periodos contables que componen el ejercicio fiscal.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 20bc194772d1aa0a8caadf0605911d0a214a9ab2
-ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805716"
 ---
 # <a name="close-income-statement-accounts"></a>Cerrar cuentas de regularización
 Cuando finaliza un ejercicio, debe cerrar los periodos que lo forman. Para ello, puede ejecutar el proceso **Cerrar asiento de regularización**. Esta tarea transfiere el resultado anual a una cuenta en la hoja de balance y cierra las cuentas del balance de ingresos. Se realiza creando líneas en un diario, que después puede registrar.
@@ -41,4 +41,3 @@ El proceso **Cerrar asiento de regularización** se puede usar varias veces. Pue
 [Registrar el movimiento de cierre del ejercicio](year-how-post-year-end-close-entry.md)  
 [Abrir un nuevo ejercicio](finance-how-open-new-fiscal-year.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

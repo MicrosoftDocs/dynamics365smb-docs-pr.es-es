@@ -1,6 +1,6 @@
 ---
 title: Depreciar o amortizar activos fijos | Documentos de Microsoft
-description: "Debe definir cómo se amortizará o depreciará cada uno de sus activos fijos."
+description: Debe definir cómo se amortizará o depreciará cada uno de sus activos fijos.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 4f11e194d020254a7e5274f2eb08f1719ffa6439
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: cfd4753fc2fd2454e83c5a63e1e0ffe220d2fe17
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805621"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Depreciar o amortizar activos fijos
 La amortización se utiliza para distribuir el coste de activos, como maquinaria y equipos, a lo largo de su vida amortizable. Debe definir la amortización de cada activo.  
@@ -50,7 +50,7 @@ Una vez al mes, o cuando desee, puede ejecutar el proceso **Calcular amortizaci�
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **A/F Diario general** y luego elija el enlace relacionado.  
 2. Cree una línea inicial de diario y rellene los campos según sea necesario.  
 3. En el campo **A/F Tipo registro**, seleccione **Amortización**.  
-4. Elija la acción **Introducir saldo AF**. Se crea una segunda línea de diario para la cuenta contrapartida que se ha configurado para el registro de amortizaciones. Para obtener más información, vea la sección "Para configurar grupos contables de activos fijos" en [Configurar información general del activo fijo](fa-how-setup-general.md).  
+4. Elija la acción **Introducir saldo AF**. Se crea una segunda línea de diario para la cuenta contrapartida que se ha configurado para el registro de amortizaciones. Para obtener más información, vea [Para configurar los grupos contables de activos fijos](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
 5. En la pestaña **Inicio**, elija **Registrar** para registrar el diario.  
 
 Si configuró las claves de distribución de activos para distribuir importes entre varios departamentos o proyectos, los importes se distribuyen durante el registro. Para obtener más información, consulte [Configurar información general de activos fijos](fa-how-setup-general.md).  
@@ -65,7 +65,7 @@ Si se utiliza un activo en varios departamentos, la amortización se puede distr
 5. En la pestaña **Inicio**, elija **Registrar** para registrar el diario.  
 
 ## <a name="use-duplication-lists-to-prepare-to-post-to-multiple-depreciation-books"></a>Use las listas de duplicados para preparar el registro a varios libros de amortización
-Al rellenar las líneas de diario que se van a registrar en un libro de amortización, puede duplicarlas en un diario independiente para poder efectuar registros en otro libro de amortización. Para obtener más información, vea la sección "Para registrar movimientos en distintos libros de amortización".
+Al rellenar las líneas de diario que se van a registrar en un libro de amortización, puede duplicarlas en un diario independiente para poder efectuar registros en otro libro de amortización. Para obtener más información, vea [Para registrar movimientos en distintos libros de amortización](fa-how-depreciate-amortize.md#to-post-entries-to-different-depreciation-books).
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Libros de amortización** y luego elija el enlace relacionado.  
 2. Abra el libro de amortización y, a continuación, seleccione la casilla **Compone lista duplicados**.  
@@ -102,4 +102,3 @@ Las líneas copiadas se crean en el diario general de activos o en el de activos
 [Configurar activos fijos](fa-setup.md)  
 [Finanzas](finance.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

@@ -8,24 +8,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipts, customer payment
-ms.date: 10/17/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: b437246b22583e8e040bef78811765297ae2e675
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: e00d7bb259ad8a8a494016746179b428b7975a8f
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805708"
 ---
-# <a name="reconcile-customer-payments-manually-from-a-list-of-unpaid-sales-documents"></a>Conciliar pagos manualmente de una lista de documentos de venta sin abonar
+# <a name="reconcile-customer-payments-from-a-list-of-unpaid-sales-documents"></a>Conciliar pagos de cliente desde una lista de documentos de venta sin abonar
 Cuando sus clientes han realizado pagos a su cuenta de banco electrónico, debe liquidar cada importe pagado al documento de venta relacionado y después registrar el pago para actualizar los movimientos de cliente, contabilidad y banco. En función de sus necesidades comerciales, puede recibir el pago y registrarlo de diferentes maneras: de forma manual, automática y mediante servicios de pago.  
 
 > [!NOTE]  
 >   Puede realizar las mismas tareas, incluidos los pagos de proveedor, en la página **Diario de conciliación de pagos** usando las funciones para la importación automática de extractos bancarios y la conciliación de cuentas bancarias. Para obtener más información, vea [Conciliar pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md).
 
-La página **Registrar pagos de cliente** se ha diseñado para ayudarle en las tareas relacionadas con cuentas de contrapartida internas mediante el uso de cifras de efectivo reales para garantizar que los pagos se cobran por parte de los clientes de manera eficaz. Esta herramienta de procesamiento de pagos le permite verificar y registrar rápidamente los pagos concretos o totales, procesar pagos al descuento y buscar documentos no pagados específicos para los que se realiza el pago.
+La página **Registrar pagos de cliente** se ha diseñado para ayudarle en las tareas relacionadas con cuentas de contrapartida internas mediante el uso de cifras de efectivo reales para garantizar que los pagos se cobran por parte de los clientes de manera eficaz. Esta herramienta de procesamiento de pagos le permite verificar y registrar rápidamente los pagos individuales o de suma totales, procesar pagos al descuento y buscar documentos no pagados específicos para los que se realiza el pago.
 
-Los pagos para los diferentes clientes que tienen distintas fechas de pago se deben registrar como pagos individuales. Los pagos para el mismo cliente con la misma fecha de pago se pueden registrar como pago total. Esto puede ser útil, por ejemplo, cuando un cliente ha realizado un pago único que cubre varias facturas de venta.
+Los pagos para los diferentes clientes que tienen distintas fechas de pago se deben registrar como pagos individuales. Los pagos para el mismo cliente con la misma fecha de pago se pueden registrar como pago de suma total. Esto puede ser útil, por ejemplo, cuando un cliente ha realizado un pago único que cubre varias facturas de venta.
 
 ## <a name="to-set-up-the-payment-registration-journal"></a>Configurar el diario de registros de pago
 Dado que puede registrar distintos tipos de pago en diferentes cuentas de saldo, debe seleccionar una cuenta de saldo en la página **Configuración de registro de pago** antes de empezar a procesar los pagos de cliente. Si siempre registra en la misma cuenta de saldo, puede definir esa cuenta como la predeterminada y evitar este paso cada vez que abra la página **Registrar pagos de cliente**.  
@@ -54,30 +54,30 @@ La información de pagos se registra para los documentos representados por las l
 
 Los movimientos de pago se registran en la cuenta contable, la cuenta de banco y las cuentas de cliente. Cada pago se aplica al documento de venta registrado relacionado.  
 
-## <a name="to-reconcile-lump-payments"></a>Conciliar los pagos totales
+## <a name="to-reconcile-lump-sum-payments"></a>Conciliar los pagos de suma totales
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Registro de pagos** y luego elija el enlace relacionado.
-2. Seleccione la casilla **Pago realizado** en las líneas que representan documentos registrados para el mismo cliente para el que se ha realizado un pago total.  
+2. Seleccione la casilla **Pago realizado** en las líneas que representan documentos registrados para el mismo cliente para el que se ha realizado un pago de suma total.  
 
     > [!NOTE]  
-    >   El cliente en el campo **Nombre** debe ser igual en todas las líneas que se registrarán como pago total.  
+    >   El cliente en el campo **Nombre** debe ser igual en todas las líneas que se registrarán como pago de suma total.  
 
     Si se selecciona la casilla de verificación **Rellenar fecha de recepción automáticamente** de la página **Configuración de registro de pago**, la fecha de trabajo se tendrá que rellenar en el campo **Fecha de recepción**.  
 3. En el campo **Fecha recepción**, especifique la fecha en la que se realizó el pago. Esta fecha puede ser distinta de la fecha de trabajo.  
 
     > [!NOTE]  
-    >   Esta fecha debe ser igual en todas las líneas que se registrarán como pago total.  
+    >   Esta fecha debe ser igual en todas las líneas que se registrarán como pago de suma total.  
 4. En el campo **Importe recibido**, especifique los importes en varias líneas que suman el importe del pago total.  
 
     > [!TIP]  
-    >   Intente registrar el mayor número posible de pagos completos con el importe total. Introduzca los importes cuya cantidad coincida con el importe en el campo **Importe pendiente** en tantas líneas como sea posible.  
-5. Repita los pasos 2 a 4 para las demás líneas que representen documentos registrados para el mismo cliente para los que se ha realizado un pago total.  
+    > Intente registrar el mayor número posible de pagos completos con el importe de suma total. Introduzca los importes cuya cantidad coincida con el importe en el campo **Importe pendiente** en tantas líneas como sea posible.  
+5. Repita los pasos 2 a 4 para las demás líneas que representen documentos registrados para el mismo cliente para los que se ha realizado un pago de suma total.  
 6. Seleccione la acción **Registrar como pago total**. La información de pagos introducida se registra para los documentos representados por las líneas donde la casilla **Pago realizado** está seleccionada.  
 
 Los movimientos de pago se registran en la cuenta contable, la cuenta de banco y las cuentas de cliente. Cada pago se aplica al documento de venta registrado relacionado.  
 
-Si un pago en el banco no se representa mediante la línea en la página **Registro de pago**, puede ser porque el documento relacionado aún no se ha registrado. En ese caso, puede usar una función de búsqueda para buscar rápidamente el documento y registrarlo para procesar el pago. Para obtener más información, vea la sección “Buscar un documento determinado de ventas que no esté totalmente facturado”.  
+Si un pago en el banco no se representa mediante la línea en la página **Registro de pago**, puede ser porque el documento relacionado aún no se ha registrado. En ese caso, puede usar una función de búsqueda para buscar rápidamente el documento y registrarlo para procesar el pago. Para obtener más información, consulte [Buscar un documento determinado de ventas que no esté totalmente facturado](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-find-a-specific-sales-document-that-is-not-fully-invoiced).  
 
-Si un pago en el banco no se representa mediante ningún documento en [!INCLUDE[d365fin](includes/d365fin_md.md)], puede abrir un diario general previamente rellenado en la página **Registro de pago** para registrar el pago directamente en la cuenta de saldo sin liquidar el pago a un documento. Alternativamente, puede que desee registrar el pago en el diario hasta que el origen del pago se haya resuelto. Para obtener más información, consulte la sección "Registrar pagos sin documento relacionado".  
+Si un pago en el banco no se representa mediante ningún documento en [!INCLUDE[d365fin](includes/d365fin_md.md)], puede abrir un diario general previamente rellenado en la página **Registro de pago** para registrar el pago directamente en la cuenta de saldo sin liquidar el pago a un documento. Alternativamente, puede que desee registrar el pago en el diario hasta que el origen del pago se haya resuelto. Para obtener más información, consulte [Registrar pagos sin documento relacionado](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-record-or-post-a-payment-without-a-related-document).  
 
 ## <a name="to-process-customer-payments-with-discounts-manually"></a>Para procesar pagos de cliente con descuentos manualmente
 Si ha acordado un descuento por pronto pago con el cliente, los importes de pago pueden ser inferiores a los importes de factura si el pago se produce antes de la fecha de descuento acordada.  
@@ -187,4 +187,3 @@ Si deja la línea del diario sin registrar, agregará al valor del campo **Saldo
 [Administrar cobros](receivables-manage-receivables.md)  
 [Ventas](sales-manage-sales.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

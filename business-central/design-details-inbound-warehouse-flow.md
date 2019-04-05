@@ -1,23 +1,23 @@
 ---
-title: "Detalles de diseño: Flujo de entrada en almacén | Documentos de Microsoft"
-description: "El flujo de entrada de un almacén comienza cuando los productos llegan al almacén de la ubicación de empresa, recibidos de orígenes externos o de otra ubicación de empresa. Un empleado registra los productos normalmente mediante el escaneo de un código de barras. Desde la dársena de recepción, las actividades de almacén se llevan a cabo en distintos niveles de complejidad para introducir los productos en el área de almacén."
+title: 'Detalles de diseño: Flujo de entrada en almacén | Documentos de Microsoft'
+description: El flujo de entrada de un almacén comienza cuando los productos llegan al almacén de la ubicación de empresa, recibidos de orígenes externos o de otra ubicación de empresa. Un empleado registra los productos normalmente mediante el escaneo de un código de barras. Desde la dársena de recepción, las actividades de almacén se llevan a cabo en distintos niveles de complejidad para introducir los productos en el área de almacén.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 9e7990c907360a1ba7fb445e3eeefeb026315f9e
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805572"
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Detalles de diseño: Flujo de entrada en almacén
 El flujo de entrada de un almacén comienza cuando los productos llegan al almacén de la ubicación de empresa, recibidos de orígenes externos o de otra ubicación de empresa. Un empleado registra los productos normalmente mediante el escaneo de un código de barras. Desde la dársena de recepción, las actividades de almacén se llevan a cabo en distintos niveles de complejidad para introducir los productos en el área de almacén.  
@@ -112,4 +112,3 @@ Se crean movimientos de almacén y se eliminan las líneas de ubicación de alma
 
 ## <a name="see-also"></a>Consulte también  
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)
-

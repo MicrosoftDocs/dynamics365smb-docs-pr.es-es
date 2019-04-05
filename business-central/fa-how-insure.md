@@ -1,8 +1,8 @@
 ---
 title: Asegurar activos fijos | Documentos de Microsoft
-Description: You can assign a fixed asset to an insurance policy, which is represented by an insurance card.
+Description: Puede asignar un activo fijo a una póliza de seguro, que se representa con una ficha de seguro.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: policy, coverage
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: bf30a9b9e783cbd9e54576a76369fc33647b3af3
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 774d578d6dfe0533bfc900f796dfe39383ad869b
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806227"
 ---
 # <a name="insure-fixed-assets"></a>Aseguramiento de activos fijos
 Una póliza de seguro para un activo fijo se representa con una ficha de seguro. Puede asignar uno o varios activos fijos a una póliza de seguro.
 
 Asigne un activo fijo a una póliza de seguros con el registro de los movimientos de cobertura del seguro desde la página **Diario seguros**.
 
-Además, puede asignar un activo fijo a una póliza de seguro y crear movimientos de cobertura cuando registra el coste. Puede realizar esta acción si registra un coste desde el diario de activos fijos con el campo **N. º seguro** rellenado. La casilla de verificación **Registro auto. seguro** de la página **Configuración activos fijos** debe estar seleccionada. Para obtener más información, consulte la sección "Para registrar una adquisición de un activo fijo manualmente con el diario general de activos fijos" en [Adquirir activos fijos](fa-how-acquire.md).
+Además, puede asignar un activo fijo a una póliza de seguro y crear movimientos de cobertura cuando registra el coste. Puede realizar esta acción si registra un coste desde el diario de activos fijos con el campo **N. º seguro** rellenado. La casilla de verificación **Registro auto. seguro** de la página **Configuración activos fijos** debe estar seleccionada. Para obtener más información, consulte [Para registrar una adquisición de un activo manualmente con el diario general de activos](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal).
 
 Si la casilla de verificación **Registro auto. seguro** de la página **Configuración activos fijos** no está seleccionada, las adquisiciones registradas del diario de activos fijos crearán líneas en la página **Diario de seguros** y deberá registrarlas manualmente.
 
@@ -119,4 +119,3 @@ El activo se desvinculará de la póliza de seguros incorrecta, en la segunda l�
 [Configurar activos fijos](fa-setup.md)  
 [Finanzas](finance.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

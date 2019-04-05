@@ -1,8 +1,8 @@
 ---
-title: "Configuración de grupos contables | Documentos de Microsoft"
+title: Configuración de grupos contables | Documentos de Microsoft
 description: Resumen de los grupos contables que puede utilizar para ahorrar tiempo y evitar errores al registrar transacciones.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: posting setup, initialize
-ms.date: 10/01/2018
+ms.date: 03/05/2019
 ms.author: bholtorf
+ms.openlocfilehash: d62742e7dbee8a4f050d95444b66fa06521b707b
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 732b69df44681d3cc63391bc87c0645ed7e5e1a5
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805649"
 ---
 # <a name="setting-up-posting-groups"></a>Configurar los grupos contables
 Los grupos contables asignan entidades como clientes, proveedores, productos, recursos y documentos de venta y compra a cuentas contables. Ahorran tiempo y ayudan a evitar errores al registrar las transacciones. Los valores de transacción se envían a las cuentas especificadas en el grupo contable de dicha entidad. El único requisito es que tenga un plan de cuentas. Para obtener más información, vea [Configuración del plan de cuentas](finance-setup-chart-accounts.md).  
@@ -38,9 +38,9 @@ Las tablas siguientes describen los grupos contables con cada división.
 
 | Grupos contables concretos | Description |
 | --- | --- |
-| Grupos registro cliente |Defina las cuentas que usará al enviar transacciones de cobros. Si usa existencias y cobros, el grupo contable de negocio general asignado al cliente y el grupo contable de producto general asignado al producto de existencias determinan las cuentas en las que se registran las líneas de pedido de ventas. Configúrelos en la página **Grupos contables clientes**. |
+| Grupos registro cliente |Defina las cuentas que usará al enviar transacciones de cobros. Si usa existencias y cobros, el grupo contable de negocio general asignado al cliente y el grupo contable de producto general asignado al producto de existencias determinan las cuentas en las que se registran las líneas de pedido de ventas. Consulte "Grupos contables negocio" y "Grupos contables de producto general" en el campo superior **Grupos contables**. Configúrelos en la página **Grupos contables clientes**. |
 | Grupos registro proveedor |Defina dónde registrar las transacciones de las cuentas de pagos, las cuentas de servicios y las cuentas de descuentos. Esto es similar a los grupos contables de cliente. Configúrelos en la página **Grupos contables proveedores**. |
-| Grupos registro inventario |Defina las cuentas de existencias de balance. También constituyen una forma adecuada de organizar las existencias, por lo tanto, puede dividir los productos por grupo contable al generar los informes. Configúrelos en la página **Grupos contables existencias**. |
+| Grupos registro inventario |Defina los grupos de registro de inventario que luego asignará a las cuentas de productos relevantes en la página **Config. registro inventario**. De este modo, al registrar movimientos relativos a un producto, el sistema registrará en la cuenta configurada para la combinación de grupo contable de existencias y almacén asociada al producto. Además, los grupos contables de existencias constituyen una forma ideal de organizar las existencias,de modo que al generar informes, puede dividir los productos por grupo contable. Configúrelos en la página **Grupos contables existencias**. |
 | Grupos registro cuenta bancaria |Defina las cuentas de las cuentas bancarias. Por ejemplo, esto puede simplificar los procesos de seguimiento de las transacciones y de conciliación de cuentas bancarias. Configúrelos en la página **Grupos contables bancos**. |
 | Grupos contables de activos fijos |Defina las cuentas para diferentes tipos de gastos y costes, como los costes de adquisición, los importes de amortización acumulados, los costes de adquisición en venta/baja, la amortización acumulada en baja, la ganancia en venta/baja, la pérdida en venta/baja, los gastos de mantenimiento y los gastos de amortización. Configúrelos en la página **Grupos registro A/F**. |
 
@@ -79,4 +79,3 @@ Cuantos más grupos contables de producto y de negocio tenga, más líneas habr�
 [Libro mayor y plan de cuentas](finance-general-ledger.md)  
 [Configurar las finanzas](finance-setup-finance.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

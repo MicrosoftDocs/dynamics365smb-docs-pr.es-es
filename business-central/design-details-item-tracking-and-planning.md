@@ -1,8 +1,8 @@
 ---
-title: "Detalles de diseño: Liquidación de producto | Documentos de Microsoft"
-description: "En este tema se describe cómo se produce la liquidación de producto cuando se registra una transacción del inventario."
+title: 'Detalles de diseño: Liquidación de producto | Documentos de Microsoft'
+description: En este tema se describe cómo se produce la liquidación de producto cuando se registra una transacción del inventario.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: design, item, item ledger, costing
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 0fa6bb40ccd17c01c40a7068ff0b081e5be1aa16
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806291"
 ---
 # <a name="design-details-item-application"></a>Detalles de diseño: Liquidación de productos
 Cuando se registra una transacción de inventario, el registro de cantidad se guarda en los movimientos de producto y el registro de valor en los movimientos de valoración. Para obtener más información, consulte [Detalles de diseño: Registro de inventario](design-details-inventory-posting.md).  
@@ -246,4 +246,3 @@ Debido a la forma en la que se calcula el coste unitario de un producto, una liq
 [Detalles de diseño: Métodos de coste](design-details-costing-methods.md)  
 [Detalles de diseño: Coste medio](design-details-average-cost.md)  
 [Detalles de diseño: Ajuste de coste](design-details-cost-adjustment.md)  
-

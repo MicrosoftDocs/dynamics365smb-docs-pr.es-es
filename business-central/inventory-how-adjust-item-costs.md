@@ -1,8 +1,8 @@
 ---
 title: Ajustar manualmente los costes de producto | Documentos de Microsoft
-description: "Puede ajustar la valoración de inventario de un producto utilizando los métodos de costes FIFO o Promedio, por ejemplo, cuando los costes de producto cambien por motivos distintos de las transacciones."
+description: Puede ajustar la valoración de inventario de un producto utilizando los métodos de costes FIFO o Promedio, por ejemplo, cuando los costes de producto cambien por motivos distintos de las transacciones.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory valuation, costing
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 6688b89dc9ef05456bca11fc722514b8bd47b05d
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: bb320750002681d11bb3ec4aa196a55884b73da7
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805424"
 ---
 # <a name="adjust-item-costs"></a>Modificar costes de productos
 El precio de un producto (valor de inventario) que compre y más tarde venda puede cambiar durante su vida útil, por ejemplo, debido a que se agregue un coste de flete a su precio de compra después de que haya vendido el producto. El ajuste de coste es muy relevante en aquellas situaciones en las que se venden bienes antes de generar la factura de compra para dichos bienes. Para conocer siempre el valor de inventario correcto, los costes de productos se deben ajustar con frecuencia. Esto garantiza que las estadísticas relativas a ventas y beneficios estén actualizadas y que los KPI financieros sean correctos. Para obtener más información, consulte [Detalles de diseño: Ajuste de coste](design-details-cost-adjustment.md).
 
-Como norma general, el valor del campo **Coste unitario** de la ficha de producto se basa en el coste estándar de los productos que utilizan el método de costes estándar. Para los productos que utilizan los demás métodos de coste, este valor se basa en el cálculo del inventario disponible (costes facturados y previstos) dividido por la cantidad física disponible. Para obtener más información, consulte la sección "Comprender el cálculo del coste unitario".
+Como norma general, el valor del campo **Coste unitario** de la ficha de producto se basa en el coste estándar de los productos que utilizan el método de costes estándar. Para los productos que utilizan los demás métodos de coste, este valor se basa en el cálculo del inventario disponible (costes facturados y previstos) dividido por la cantidad física disponible. Para obtener más información, consulte [Comprender el cálculo del coste unitario](inventory-how-adjust-item-costs.md#understanding-unit-cost-calculation).
 
 En [!INCLUDE[d365fin](includes/d365fin_md.md)], los costes de producto se actualizan automáticamente cada vez que aparece una transacción de inventario, como al registrar una factura de compra para un producto.
 
@@ -86,4 +86,3 @@ Como norma general, el valor del campo **Coste unitario** de la ficha de product
 [Ccial](sales-manage-sales.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

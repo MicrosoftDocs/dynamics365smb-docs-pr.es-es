@@ -1,30 +1,30 @@
 ---
-title: "Cómo realizar el picking para la producción en configuraciones básicas de almacén | Microsoft Docs"
-description: "Cuando el almacén requiere el proceso de picking, pero no el proceso de envío, utilice la página **Picking inventario** para organizar y registrar el picking de componentes."
+title: Cómo realizar el picking para la producción en configuraciones básicas de almacén | Microsoft Docs
+description: Cuando el almacén requiere el proceso de picking, pero no el proceso de envío, utilice la página **Picking inventario** para organizar y registrar el picking de componentes.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 01/22/2019
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: c4616282a204077665a9dfb7e8e59ee51f2846ce
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
-ms.openlocfilehash: 115bd8ef6d4069674f1d04878d0ec704214383ce
-ms.contentlocale: es-es
-ms.lasthandoff: 01/22/2019
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806152"
 ---
 # <a name="pick-for-production-or-assembly-in-basic-warehouse-configurations"></a>Realizar picking para ensamblado o producción en una configuración básica de almacén
 La forma de ubicar el picking de componentes para fabricación u órdenes de ensamblado depende de la configuración del almacén. Para obtener más información, consulte [Configuración de la administración de almacén](warehouse-setup-warehouse.md).
 
 En configuraciones de almacén básico en las que se requiere el proceso de picking, pero no el de envío, utilice la página **Picking inventario** para organizar y registrar el picking de componentes.  
 
-En configuraciones básicas de almacén, debe realizar el picking para las órdenes de ensamblado con la página **Movimiento inventario**. Para obtener más información, vea la sección "Tratamiento de productos ensamblar para pedido en los picking de inventario" en [Realizar picking de productos con picking inventario](warehouse-how-to-pick-items-with-inventory-picks.md).  
+En configuraciones básicas de almacén, debe realizar el picking para las órdenes de ensamblado con la página **Movimiento inventario**. Para obtener más información, consulte [Gestión de productos de ensamblar para pedido con picking de inventario](warehouse-how-to-pick-for-production.md#handling-assemble-to-order-items-with-inventory-picks).  
 
 En configuraciones avanzadas de almacén, donde las ubicaciones requieren tanto picking como envíos, utilice la página **Picking de almacén** para llevar los componentes a las órdenes de producción o de ensamblado. Para obtener más información, consulte [Realizar picking para ensamblado o producción en una configuración avanzada de almacén](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).
 
@@ -80,4 +80,3 @@ Este organigrama muestra cómo se rellena el campo de **Código de ubicación** 
 [Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,23 +1,23 @@
 ---
 title: Adeudo directo SEPA en Business Central | Documentos de Microsoft
-description: "Puede cobrar los pagos directamente al banco del cliente según el formato SEPA."
+description: Puede cobrar los pagos directamente al banco del cliente según el formato SEPA.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/15/2018
 ms.author: sgroespe
+ms.openlocfilehash: f917bed9eedf3c0aa8227d9c207de5e38f60a791
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: c732702808f807396702cef9ef0a1a22354ead15
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806172"
 ---
-# <a name="collecting-payments-with-sepa-direct-debit"></a>Cobro de pagos mediante adeudo directo SEPA
+# <a name="collect-payments-with-sepa-direct-debit"></a>Cobrar pagos mediante adeudo directo SEPA
 Con el consentimiento de sus clientes, puede cobrar los pagos directamente al banco del cliente según el formato SEPA.  
 
  En primer lugar, configure el formato de exportación del archivo de banco que indica a su banco que debe realizar un adeudo directo. A continuación, configure la forma de pago del cliente. Por último, establezca la orden de domiciliación de adeudo directo que refleja el acuerdo con el cliente para cobrar sus pagos en un período de acuerdo determinado.  
@@ -158,4 +158,3 @@ Para poder procesar pagos de clientes electrónicamente exportando instrucciones
 
 ## <a name="see-also"></a>Consulte también  
 [Administrar cobros](receivables-manage-receivables.md)
-

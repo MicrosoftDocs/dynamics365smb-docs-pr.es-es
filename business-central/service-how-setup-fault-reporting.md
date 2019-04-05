@@ -1,25 +1,24 @@
 ---
-title: "Configurar información de defectos en la gestión de servicios | Documentos de Microsoft"
-description: "Más información sobre la configuración de los procesos de creación de informes de defecto."
+title: Configurar información de defectos en la gestión de servicios | Documentos de Microsoft
+description: Más información sobre la configuración de los procesos de creación de informes de defecto.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 7c25c4858600d959024dcbdba2ce5d0f7e3ad4c8
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805976"
 ---
-
 # <a name="set-up-fault-reporting"></a>Crear informes de defecto
 El informe de defectos le permite configurar estándares para registrar información de defectos de productos de servicio. Por ejemplo, puede especificar de qué problema se trata, los síntomas que detecta, el motivo del problema y cómo resolverlo.  
 
@@ -49,4 +48,3 @@ Para finalizar la configuración del informe de defectos, también puede especif
 ## <a name="see-also"></a>Consulte también
 [Configurar la gestión de servicios](service-setup-service.md)  
 [Gestión de servicios](service-service.md)  
-

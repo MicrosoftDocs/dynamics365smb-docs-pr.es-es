@@ -1,26 +1,26 @@
 ---
-title: "Detalles de diseño: Gestión de dimensiones de unidad de código 408 | Documentos de Microsoft"
-description: "La gestión de dimensiones de la unidad de código 408 corresponde a una biblioteca de funciones que controla tareas comunes relacionadas con las dimensiones, como copiar desde una tabla a otra o desde un documento a otro."
+title: 'Detalles de diseño: Gestión de dimensiones de codeunit 408 | Documentos de Microsoft'
+description: La gestión de dimensiones de la codeunit 408 corresponde a una biblioteca de funciones que controla tareas comunes relacionadas con las dimensiones, como copiar desde una tabla a otra o desde un documento a otro.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 95d4afc18b0be620df2f4b2067a093237c7c4df2
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 34d4314357aa590304885585016124100ead4ca3
-ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805347"
 ---
-# <a name="design-details-codeunit-408-dimension-management"></a>Detalles de diseño: Gestión de dimensiones de unidad de código 408
-La gestión de dimensiones de la unidad de código 408 corresponde a una biblioteca de funciones que controla tareas comunes relacionadas con las dimensiones, como copiar desde una tabla a otra o desde un documento a otro. En este tema se enumeran las funciones que se han modificado en Microsoft Dynamics NAV 2013 R2 y se especifica qué se tiene que hacer en las funciones. Muchas funciones se eliminan porque no es necesario realizar la copia entre tablas de dimensiones.  
+# <a name="design-details-codeunit-408-dimension-management"></a>Detalles de diseño: Gestión de dimensiones de codeunit 408
+La gestión de dimensiones de la codeunit 408 corresponde a una biblioteca de funciones que controla tareas comunes relacionadas con las dimensiones, como copiar desde una tabla a otra o desde un documento a otro. En este tema se enumeran las funciones que se han modificado en Microsoft Dynamics NAV 2013 R2 y se especifica qué se tiene que hacer en las funciones. Muchas funciones se eliminan porque no es necesario realizar la copia entre tablas de dimensiones.  
 
 ## <a name="modified-functions"></a>Funciones modificadas  
 
@@ -32,7 +32,7 @@ La gestión de dimensiones de la unidad de código 408 corresponde a una bibliot
 |CopyJnlLineDimToICJnlDim<br /><br /> CopyICJnlDimToJnlLineDim<br /><br /> CopyDocDimtoICDocDim<br /><br /> CopyICDocDimtoICDocDim|Modificar para trabajar con DimSetID - > ICJnlLineDim|  
 
 ## <a name="deleted-functions"></a>Funciones eliminadas  
- Las funciones que se han eliminado de la unidad de código 408 en relación con los movimientos de grupo de dimensiones se presentan a continuación.  
+ Las funciones que se han eliminado de la codeunit 408 en relación con los movimientos de grupo de dimensiones se presentan a continuación.  
 
 > [!CAUTION]  
 >  Durante la actualización del código de aplicación desde Microsoft Dynamics NAV 2009 o versiones anteriores a Microsoft Dynamics NAV 2016, las funciones siguientes no están disponibles en Microsoft Dynamics NAV 2016. Si tiene personalizaciones que utilizan una o varias de las funciones, debe actualizar ese código según corresponda.
@@ -193,4 +193,3 @@ La gestión de dimensiones de la unidad de código 408 corresponde a una bibliot
  [Detalles de diseño: Búsqueda de combinaciones de dimensiones](design-details-searching-for-dimension-combinations.md)   
  [Detalles de diseño: Estructura de tablas](design-details-table-structure.md)   
  [Detalles de diseño: Ejemplos de código de patrones cambiados en las modificaciones](design-details-code-examples-of-changed-patterns-in-modifications.md)
-

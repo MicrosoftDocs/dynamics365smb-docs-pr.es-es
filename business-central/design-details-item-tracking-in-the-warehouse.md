@@ -1,8 +1,8 @@
 ---
-title: "Detalles de diseño: Seguimiento del producto en el almacén | Documentos de Microsoft"
-description: "El control de los números de serie y de lote es principalmente una tarea de almacén y, por lo tanto, todos los documentos de almacén de entrada y de salida tienen una funcionalidad estándar para asignar y seleccionar números de seguimiento de productos. No obstante, dado que el programa de reservas se basa en los movimientos de producto, no se admiten totalmente los documentos de actividad del almacén que registren solo movimientos de almacén."
+title: 'Detalles de diseño: Seguimiento del producto en el almacén | Documentos de Microsoft'
+description: El control de los números de serie y de lote es principalmente una tarea de almacén y, por lo tanto, todos los documentos de almacén de entrada y de salida tienen una funcionalidad estándar para asignar y seleccionar números de seguimiento de productos. No obstante, dado que el programa de reservas se basa en los movimientos de producto, no se admiten totalmente los documentos de actividad del almacén que registren solo movimientos de almacén.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: design, item, tracking, serial number, lot number, outbound documents
 ms.date: 01/15/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 5d6d2d9527e81a92987f6b8fcdbe8e087c3c537a
 ms.openlocfilehash: e780dba122374bd80e48ca6bbc74b7540e034ac6
-ms.contentlocale: es-es
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805472"
 ---
 # <a name="design-details-item-tracking-in-the-warehouse"></a>Detalles de diseño: Seguimiento de productos en el almacén
 El control de los números de serie y de lote es principalmente una tarea de almacén y, por lo tanto, todos los documentos de almacén de entrada y de salida tienen una funcionalidad estándar para asignar y seleccionar números de seguimiento de productos.  
@@ -33,4 +33,3 @@ No obstante, el programa de reservas tiene en cuenta las actividades de almacén
 [Detalles de diseño: Integración con inventario](design-details-integration-with-inventory.md)  
 [Detalles de diseño: Disponibilidad en el almacén](design-details-availability-in-the-warehouse.md)  
 [Detalles de diseño: Diseño de seguimiento de productos](design-details-item-tracking-design.md)
-

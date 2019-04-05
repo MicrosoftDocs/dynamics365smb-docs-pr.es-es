@@ -1,23 +1,23 @@
 ---
-title: "Tutorial: administración de programas con proyectos | Documentos de Microsoft"
-description: "Este tutorial le presenta a las funciones de administración de programas en los trabajos. Los proyectos le permiten programar el uso de los recursos de su empresa y realizar un seguimiento de los diversos costes asociados con los recursos de un proyecto específico. Los proyectos implican el consumo de horas de mano de obra, horas de maquinaria, productos de inventario y otros tipos de consumo que es posible que desee controlar a medida que avance un proyecto."
+title: 'Tutorial: administración de programas con proyectos | Documentos de Microsoft'
+description: Este tutorial le presenta a las funciones de administración de programas en los trabajos. Los proyectos le permiten programar el uso de los recursos de su empresa y realizar un seguimiento de los diversos costes asociados con los recursos de un proyecto específico. Los proyectos implican el consumo de horas de mano de obra, horas de maquinaria, productos de inventario y otros tipos de consumo que es posible que desee controlar a medida que avance un proyecto.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 1f228296cfa750670e1270a100755e67885c783a
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805577"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Tutorial: administración de programas con proyectos
 Este tutorial le presenta a las funciones de administración de programas en los trabajos. Los proyectos le permiten programar el uso de los recursos de su empresa y realizar un seguimiento de los diversos costes asociados con los recursos de un proyecto específico. Los proyectos implican el consumo de horas de mano de obra, horas de maquinaria, productos de inventario y otros tipos de consumo que es posible que desee controlar a medida que avance un proyecto.  
@@ -63,11 +63,11 @@ Este tutorial le presenta a las funciones de administración de programas en los
 ## <a name="prerequisites"></a>Requisitos previos  
  Para poder realizar las tareas del tutorial, deberá hacer lo siguiente:  
 
--   Instale la base de datos de demostración CRONUS International Ltd.
+-   Instale la base de datos de demostración CRONUS España S.A.
 -   Cree datos de ejemplo como indican los pasos de la siguiente sección.  
 
 ## <a name="story"></a>Historia  
-Este tutorial se centra en la empresa CRONUS International Ltd., una empresa de diseño y consultoría que diseña y ajusta nuevas infraestructuras, (como salas de conferencias y oficinas) con mobiliario, accesorios y unidades de almacenamiento. La mayor parte de su trabajo está orientado a los proyectos. Prakash es un director de proyectos de CRONUS. Utiliza proyectos para darle un panorama de cada proyecto en curso que CRONUS ha iniciado, además de los proyectos finalizados. Normalmente es uno de los que trata con los clientes e introduce el núcleo del proyecto, que son líneas de tareas y de planificación, además de los precios, en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Observa que crear, mantener y revisar la información es directo. Prakash también considera positiva la forma en que [!INCLUDE[d365fin](includes/d365fin_md.md)] activa copiar los trabajos y el pago por plazos.
+Este tutorial se centra en la empresa CRONUS España S.A., una empresa de diseño y consultoría que diseña y ajusta nuevas infraestructuras, (como salas de conferencias y oficinas) con mobiliario, accesorios y unidades de almacenamiento. La mayor parte de su trabajo está orientado a los proyectos. Prakash es director de proyectos en CRONUS. Utiliza proyectos para darle un panorama de cada proyecto en curso que CRONUS ha iniciado, además de los proyectos finalizados. Normalmente es uno de los que trata con los clientes e introduce el núcleo del proyecto, que son líneas de tareas y de planificación, además de los precios, en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Observa que crear, mantener y revisar la información es directo. Prakash también considera positiva la forma en que [!INCLUDE[d365fin](includes/d365fin_md.md)] activa copiar los trabajos y el pago por plazos.
 
  Tricia, miembro del equipo del proyecto que depende de Prakash, es la responsable de supervisar el día a día del proyecto. Ella introduce su propio trabajo además del trabajo realizado por técnicos en cada tarea. Ella registra los productos que han utilizado y los costes en los que han incurrido.  
 
@@ -128,7 +128,7 @@ Este tutorial se centra en la empresa CRONUS International Ltd., una empresa de 
     -   **Método WIP**: **Valor coste**  
 
 5.  En la ficha desplegable **Duración**, escriba la fecha de hoy en los campos **Fecha inicial** y **Fecha final**. Estas fechas ayudarán a aplicar las conversiones de divisas cuando se facture el proyecto.  
-6.  En la ficha desplegable **Comercio exterior**, defina el código de divisa en **USD**. Si selecciona USD en el campo **Código divisa de factura**, el proyecto se facturará en dólares estadounidenses y se planificará solo en la divisa local de CRONUS.  
+6.  En la ficha desplegable **Comercio exterior**, defina el código de divisa en **USD**. Si selecciona USD en el campo **Código divisa factura**, el proyecto se facturará en dólares estadounidenses y se planificará en la divisa local de CRONUS.  
 
  Puede personalizar el precio para los clientes por cada proyecto, en función de los contratos que ha configurado. En el siguiente procedimiento, el director de proyectos especifica un coste para el tiempo de Tricia, define el precio del software correspondiente y añade en el viaje costes que el cliente ha acordado pagar.  
 
@@ -280,7 +280,7 @@ Este tutorial se centra en la empresa CRONUS International Ltd., una empresa de 
 3.  Elija el botón de **Cerrar** para cerrar la página **Estadísticas proyecto**.  
 
 ## <a name="handling-fixed-prices"></a>Gestión de precios fijos  
- CRONUS ha sido contratada para configurar dos salas de conferencias. Como director del proyecto, Prakash desea tener un buen panorama de las tareas que requiere el proyecto con los costes presupuestados e incurridos asociados de cada tarea. Además, desea conocer el precio contratado total del proyecto y el importe que se lleva facturado. Ha llegado a un acuerdo con el cliente respecto al precio fijo del proyecto.  
+ CRONUS se han contratado a las salas de conferencias de instalación. Como director del proyecto, Prakash desea tener un buen panorama de las tareas que requiere el proyecto con los costes presupuestados e incurridos asociados de cada tarea. Además, desea conocer el precio contratado total del proyecto y el importe que se lleva facturado. Ha llegado a un acuerdo con el cliente respecto al precio fijo del proyecto.  
 
 ### <a name="to-manage-fixed-pricing-in-jobs"></a>Para gestionar precios fijos en proyectos  
 
@@ -485,4 +485,3 @@ Este tutorial se centra en la empresa CRONUS International Ltd., una empresa de 
  [Supervisar el progreso y el rendimiento](projects-how-monitor-progress-performance.md)   
  [Facturar proyectos](projects-how-invoice-jobs.md)  
  [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

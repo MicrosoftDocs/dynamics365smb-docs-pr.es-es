@@ -1,21 +1,21 @@
 ---
-title: "Picking y envío en la configuración básica de almacén | Documentos de Microsoft"
-description: "En Business Central, los procesos de salida para el picking y el envío se pueden realizar de cuatro maneras utilizando distintas funciones según el nivel de complejidad del almacén."
+title: Picking y envío en la configuración básica de almacén | Documentos de Microsoft
+description: En Business Central, los procesos de salida para el picking y el envío se pueden realizar de cuatro maneras utilizando distintas funciones según el nivel de complejidad del almacén.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
 ms.openlocfilehash: 1b07a3b064f1bc45a183d0a2d27b810312007a22
-ms.contentlocale: es-es
-ms.lasthandoff: 01/31/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805616"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Tutorial: picking y envío en la configuración del almacenamiento básico
 
@@ -55,7 +55,7 @@ En este tutorial, se demuestran las tareas realizadas por los siguientes roles d
 ## <a name="prerequisites"></a>Requisitos previos  
 Para completar este tutorial, necesitará:  
 
--   CRONUS International Ltd. instalado.  
+-   CRONUS España S.A. instalado.  
 -   Para convertirse en un empleado de almacén en el almacén PLATA, realice los pasos siguientes:  
 
     1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Empleados de almacén** y luego elija el enlace relacionado.  
@@ -70,7 +70,7 @@ Para completar este tutorial, necesitará:
 
         |Tipo mov.|Número de producto|Cód. almacén|Cód. ubicación|Cantidad|  
         |----------------|-----------------|-------------------|--------------|--------------|  
-        |Entradas|LS-81|PLATA|S-01-0001 **Nota:** La ubicación predeterminada del producto en CRONUS|20|  
+        |Entradas|LS-81|PLATA|S-01-0001 **Nota**: El almacén predeterminado del producto en CRONUS.|20|  
         |Entradas|LS-81|PLATA|S-01-0002|20|  
 
     3.  Elija la acción **Registrar** y, a continuación, seleccione el botón **Si**.  
@@ -131,4 +131,3 @@ En la página **Picking inventario**, puede administrar todas las actividades de
  [Detalles de diseño: Flujo de salida del almacén](design-details-outbound-warehouse-flow.md)   
  [Tutoriales de procesos empresariales](walkthrough-business-process-walkthroughs.md)  
  [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

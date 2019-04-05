@@ -1,6 +1,6 @@
 ---
 title: Transferir productos entre almacenes | Documentos de Microsoft
-description: "Describe cómo mover el inventario de un lugar o almacén a otro con el diario de reclasificación o con pedidos de transferencia."
+description: Describe cómo mover el inventario de un lugar o almacén a otro con el diario de reclasificación o con pedidos de transferencia.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: move, warehouse
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: SorenGP
+ms.openlocfilehash: bf0687d5b3000dde609c1eca29a0f2534d384ada
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: b3cbf41f5c803eb8d992d67e9e880759c247298e
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805810"
 ---
 # <a name="transfer-inventory-between-locations"></a>Transferir el inventario entre almacenes
 Puede transferir inventarios de productos entre almacenes creando pedidos de transferencia. También puede usar el diario de reclasificación de productos.
@@ -25,7 +25,7 @@ Con los pedidos de transferencia, se envía la transferencia de salida desde un 
 Cono el diario de reclasificación, simplemente se rellenan los campos **Código de almacén** y **Nuevo código de almacén**. Al registrar el diario, los movimientos de productos se ajustan en los almacenes en cuestión. Con este método, las actividades de almacén no se administran.
 
 > [!NOTE]  
->   Si tiene productos registrados en el inventario sin un código de almacén, por ejemplo cuando solo tenía un almacén, no podrá transferir estos productos con pedidos de transferencia. En su lugar, deberá utilizar el diario de reclasificación para reclasificar los productos desde un código de almacén en blanco a un código de almacén real.  Para obtener más información, vea el paso 3 en la sección "Para transferir productos con el diario de reclasificación".
+>   Si tiene productos registrados en el inventario sin un código de almacén, por ejemplo cuando solo tenía un almacén, no podrá transferir estos productos con pedidos de transferencia. En su lugar, deberá utilizar el diario de reclasificación para reclasificar los productos desde un código de almacén en blanco a un código de almacén real.  Para obtener más información, vea el paso 3 en [Para transferir productos con el diario de reclasificación](inventory-how-transfer-between-locations.md#to-transfer-items-with-the-item-reclassification-journal).
 
 Para transferir productos, se deben configurar las ubicaciones y las rutas de transferencia. Para obtener más información, consulte [Configurar ubicaciones](inventory-how-setup-locations.md).
 
@@ -62,4 +62,3 @@ Para transferir productos, se deben configurar las ubicaciones y las rutas de tr
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Cambiar las funciones que se muestran](ui-experiences.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)
-

@@ -1,23 +1,23 @@
 ---
-title: "Configuración de una empresa con RapidStart Services | Documentos de Microsoft"
-description: "Puede configurar una nueva empresa en Business Central con RapidStart Services, que es una herramienta diseñada para acortar los tiempos de implementación, mejorar la calidad de la implementación, introducir un método de repetición para las implementaciones y mejorar la productividad mediante la automatización y simplificación de las tareas periódicas."
+title: Configuración de una empresa con RapidStart Services | Documentos de Microsoft
+description: Puede configurar una nueva empresa en Business Central con RapidStart Services, que es una herramienta diseñada para acortar los tiempos de implementación, mejorar la calidad de la implementación, introducir un método de repetición para las implementaciones y mejorar la productividad mediante la automatización y simplificación de las tareas periódicas.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 12/07/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
 ms.openlocfilehash: d7476674407dd505fafa8e82f3bfecc3aa5a5fee
-ms.contentlocale: es-es
-ms.lasthandoff: 12/11/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805404"
 ---
 # <a name="setting-up-a-company-with-rapidstart-services"></a>Configurar una empresa con RapidStart Services
 Puede configurar una nueva empresa en [!INCLUDE[d365fin](includes/d365fin_md.md)] con RapidStart Services, que es una herramienta diseñada para acortar los tiempos de implementación, mejorar la calidad de la implementación, introducir un método de repetición para las implementaciones y mejorar la productividad mediante la automatización y simplificación de las tareas periódicas.  
@@ -52,4 +52,3 @@ Puede utilizar los componentes siguientes para agilizar la configuración de su 
 [Administración](admin-setup-and-administration.md)  
 [Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Configurar áreas de aplicación complejas mediante procedimientos recomendados](set-up-complex-application-areas-using-best-practices.md)   
-

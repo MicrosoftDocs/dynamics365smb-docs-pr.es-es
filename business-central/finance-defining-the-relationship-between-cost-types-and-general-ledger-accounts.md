@@ -1,8 +1,8 @@
 ---
-title: "Definición de la relación entre los tipos de coste y las cuentas de contabilidad | Documentos de Microsoft"
-description: "Obtenga información sobre cómo definir la relación entre el tipo de coste y la cuenta de contabilidad."
+title: Definición de la relación entre los tipos de coste y las cuentas de contabilidad | Documentos de Microsoft
+description: Obtenga información sobre cómo definir la relación entre el tipo de coste y la cuenta de contabilidad.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: cost types, general ledger
 ms.date: 11/13/2018
 ms.author: sgroespe
 redirect_url: finance-transfer-and-post-cost-entries
+ms.openlocfilehash: f80e9b6276d26adffb5e3208ffefbf98d7f7ff96
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7709edb214804f52ee9b495c43b5302e2a23bd6b
-ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805639"
 ---
 # <a name="defining-the-relationship-between-cost-types-and-general-ledger-accounts"></a>Definición de la relación entre los tipos de coste y las cuentas de contabilidad
 La relación entre el tipo de coste y la cuenta de contabilidad se crea en el tipo de coste y en la cuenta de contabilidad.  
@@ -50,4 +50,3 @@ Un tipo de coste puede no tener una relación con las cuentas contables si una d
 [Configuración de contabilidad de costes](finance-set-up-cost-accounting.md)   
 [Acerca de la contabilidad de costes](finance-about-cost-accounting.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

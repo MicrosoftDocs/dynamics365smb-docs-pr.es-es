@@ -1,8 +1,8 @@
 ---
-title: "Administrar la personalización como administrador en Business Central | Documentos de Microsoft"
+title: Administrar la personalización como administrador en Business Central | Documentos de Microsoft
 description: Aprenda a personalizar la interfaz de usuario para que se adapte a su forma de trabajar.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: ad3b4cf3be7031ab1c7c4699bed6020fe09bd2d1
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 15d7e4aac7989f95f7becc8aa8ed96381a7dc2de
-ms.contentlocale: es-es
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806112"
 ---
 # <a name="managing-personalization-as-an-administrator"></a>Administrar la personalización como administrador
 <!--NAV in the Web client--> Los usuarios pueden personalizar el área de trabajo para que se adapte a sus preferencias. Como administrador, puede controlar y administrar la personalización desactivando la capacidad de los usuarios para personalizar las páginas y borrar las personalizaciones de página que los usuarios hayan realizado.
 
 ## <a name="disable-personalization-for-a-profile"></a>Deshabilitar la personalización de un perfil
 Puede evitar que todos los usuarios que pertenecen a un perfil específico puedan personalizar sus páginas.
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Perfiles** y luego elija el enlace relacionado.
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Lista perfiles** y luego elija el enlace relacionado.
 2.  Seleccione el perfil de la lista que desea modificar.
 3. Seleccione la casilla **Deshabilitar personalización** y, a continuación, seleccione el botón **Aceptar**.
 
@@ -66,4 +66,3 @@ La página **Tarjeta personalización de usuarios** le permite borrar la persona
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Cambiar la configuración básica](ui-change-basic-settings.md)  
 [Cambiar las funciones que se muestran](ui-experiences.md)  
-

@@ -1,8 +1,8 @@
 ---
-title: "Configuración de divisas adicionales | Documentos de Microsoft"
+title: Configuración de divisas adicionales | Documentos de Microsoft
 description: La contabilidad se configura con la divisa local (DL), y se configura otra divisa como divisa adicional, a la que se asigna un tipo de cambio.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: multiple currencies
 ms.date: 01/07/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: a98027c3ef3171491f84197897f93cbed4e288c2
 ms.openlocfilehash: 294ed8019b12287e4b4ad59d46e842e4022a637f
-ms.contentlocale: es-es
-ms.lasthandoff: 01/07/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805849"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Configurar una divisa de informes adicional
 Las empresas trabajan cada vez en un mayor número de países o regiones, por lo que es muy importante que puedan revisar y crear informes de datos financieros en más de una divisa.
@@ -125,4 +125,3 @@ Además, los importes de todos los movimientos posteriores del mismo tipo se reg
 [Actualizar tipos cambio divisa](finance-how-update-currencies.md)  
 [Cerrar años y periodos](year-close-years-periods.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

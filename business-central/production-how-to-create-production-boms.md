@@ -1,28 +1,28 @@
 ---
-title: "Como crear una L.M. de producción | Documentos de Microsoft"
-description: "Una L.M. de producción contiene datos maestros que describen los componentes y los productos semiterminados utilizados en la fabricación de un producto principal. Una vez creada la orden de producción para el producto principal, la L.M. de producción controlará el cálculo de las necesidades de material tal como se representan en la página **Componentes orden producción**."
+title: Como crear una L.M. de producción | Documentos de Microsoft
+description: Una L.M. de producción contiene datos maestros que describen los componentes y los productos semiterminados utilizados en la fabricación de un producto principal. Una vez creada la orden de producción para el producto principal, la L.M. de producción controlará el cálculo de las necesidades de material tal como se representan en la página **Componentes orden producción**.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: cbcfe46f547a40112f465fbdac6511bc5a2f510a
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 319ec70a1beef3d96a87448934ae8263f21bd1b4
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805825"
 ---
 # <a name="create-production-boms"></a>Crear LM de producción
 Una lista de materiales (L.M.) de producción contiene datos maestros que describen los componentes y los subconjuntos utilizados en la fabricación de un producto principal. Una vez creada la orden de producción para el producto principal, la L.M. de producción controlará el cálculo de las necesidades de material tal como se representan en la página **Componentes orden producción**.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] también admite L.M. de ensamblado. Utilice los pedidos de ensamblado para crear productos finales de los componentes en un proceso sencillo que se pueda realizar por uno o varios recursos básicos, que no sean máquinas o centros de trabajo, o sin ningún recurso. Por ejemplo, un proceso de ensamblado podría ser el picking de dos botellas de vino y un saco de café y, después, empaquetarlo todo como artículo de regalo. Para obtener más información, consulte la sección de “L.M. de montaje o las L.M. de producción” en [Trabajar con listas de materiales](inventory-how-work-BOMs.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] también admite L.M. de ensamblado. Utilice los pedidos de ensamblado para crear productos finales de los componentes en un proceso sencillo que se pueda realizar por uno o varios recursos básicos, que no sean máquinas o centros de trabajo, o sin ningún recurso. Por ejemplo, un proceso de ensamblado podría ser el picking de dos botellas de vino y un saco de café y, después, empaquetarlo todo como artículo de regalo. Para obtener más información, consulte [L.M. de ensamblado o L.M. de producción](inventory-how-work-boms.md#assembly-boms-or-production-boms).  
 
 Para poder configurar una ruta, lo siguiente debe existir:  
 
@@ -44,7 +44,7 @@ Para poder configurar una ruta, lo siguiente debe existir:
     > [!NOTE]  
     >  Este porcentaje de rechazo representa los componentes que se rechazan durante la producción, cuando se seleccionan de las existencias, mientras que el porcentaje de rechazo en las líneas de ruta representa la salida rechazada, antes de preparar las existencias.  
 
-9.  En el campo **Código de conexión de ruta**, introduzca un código para conectar el componente con una operación específica. Para obtener más información, consulte la sección de “Establecer conexiones de ruta" en [Crear rutas](production-how-to-create-routings.md).
+9.  En el campo **Código de conexión de ruta**, introduzca un código para conectar el componente con una operación específica. Para obtener más información, consulte [Para crear conexiones de ruta](production-how-to-create-routings.md#to-create-routing-links).
 10. Para copiar líneas de una L.M. de producción existente, seleccione la acción **Copiar L.M.** para seleccionar las líneas existentes.  
 11.  Certifique la L.M. de producción.  
 12.  Ahora puede asociar la L.M. de producción nueva a la ficha del producto principal en cuestión. Para obtener más información, vea [Registrar nuevos productos](inventory-how-register-new-items.md).  
@@ -99,4 +99,3 @@ En una L.M. de producción, se necesitan setenta componentes de metal con las di
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

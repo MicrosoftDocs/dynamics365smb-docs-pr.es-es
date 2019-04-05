@@ -1,23 +1,23 @@
 ---
 title: Transferencia y registro de movimientos de coste | Documentos de Microsoft
-description: "Antes de definir asignaciones de coste, debe entender de dónde provienen los movimientos de coste."
+description: Antes de definir asignaciones de coste, debe entender de dónde provienen los movimientos de coste.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/13/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 43213f5d9e3056bdaa073624cd247e14b9925c1b
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805357"
 ---
 # <a name="transferring-and-posting-cost-entries"></a>Transferencia y registro de movimientos de coste
 Antes de definir asignaciones de coste, debe entender cómo provienen los movimientos de coste de los orígenes siguientes:  
@@ -103,4 +103,3 @@ En la tabla **Registro de costes**, [!INCLUDE[d365fin](includes/d365fin_md.md)] 
  [Configuración de contabilidad de costes](finance-set-up-cost-accounting.md)   
  [Definición y asignación de costes](finance-define-and-allocate-costs.md)   
  [Contabilidad para costes](finance-manage-cost-accounting.md)
-

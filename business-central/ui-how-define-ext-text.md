@@ -1,33 +1,33 @@
 ---
-title: "Agregar líneas adicionales para definir descripciones ampliadas de producto | Documentos de Microsoft"
-description: "Puede agregar líneas adicionales para ampliar el texto estándar que describe un producto."
+title: Agregar líneas adicionales para definir descripciones ampliadas de producto | Documentos de Microsoft
+description: Puede agregar líneas adicionales para ampliar el texto estándar que describe un producto.
 services: project-madeira
-documentationcenter: 
-author: SusanneWindfeldPedersen
+documentationcenter: ''
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2018
-ms.author: solsen
+ms.date: 02/26/2019
+ms.author: sgroespe
+ms.openlocfilehash: ecf0dab7e8c1215c6e121735fe7507ee28cc25b8
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: f27608342eb0d91dc956f9d7ebb9887c02be07dc
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805851"
 ---
 # <a name="add-extended-item-text"></a>Añadir textos ampliados del producto
 Puede ampliar un concepto estándar para productos agregando líneas adicionales y puede configurar condiciones para el uso de las líneas adicionales. Puede realizar esta tarea en las fichas de productos.
 
 ## <a name="to-define-extended-text-for-an-item-description"></a>Para definir el texto adicional de una descripción de producto
 1. Abra la ficha de un producto al que desee agregar texto adicional y, a continuación, elija la acción **Textos adicionales**.
-2. En el campo **Código**, escriba el código y en el campo **Descripción**, escriba un texto que desee.
-3. Elija **Textos adicionales**.
-4. Rellene las líneas en la página **Textos adicionales** con el texto adicional.
-5. Rellene el campo **Cód. idioma** o el campo **Común a todos los idiomas** si usa códigos de idioma.
-6. Rellene los campos **Fecha inicial** y **Fecha final** si desea limitar las fechas en las que se utiliza el texto adicional.
+2. Rellene los campos **Código** y **Descripción**.
+3. Seleccione **Nuevo**.
+4. Rellene el campo **Cód. idioma** o seleccione la casilla **Común a todos los idiomas** si usa códigos de idioma.
+5. Rellene los campos **Fecha inicial** y **Fecha final** si desea limitar las fechas en las que se utiliza el texto adicional.
+6. En el campo **Texto**, escriba el texto adicional.
 7. Seleccione las casillas de verificación correspondientes para los tipos de documento donde desee imprimir el texto adicional.
 8. Cierre la página.
 
@@ -38,4 +38,3 @@ Puede ampliar un concepto estándar para productos agregando líneas adicionales
 ## <a name="see-also"></a>Consulte también
 [Configurar inventario](inventory-setup-inventory.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,8 +1,8 @@
 ---
 title: Configurar precio y costes de servicios | Documentos de Microsoft
-description: "Más información sobre cómo configurar precios y costes adicionales de servicios."
+description: Más información sobre cómo configurar precios y costes adicionales de servicios.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,14 +12,13 @@ ms.workload: na
 ms.search.keywords: service, cost, service order
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 39d917ffcfb342aaea04b3668e032d548ef17ec9
-ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806058"
 ---
-
 # <a name="set-up-pricing-and-additional-costs-for-services"></a>Configurar precios y costes adicionales de servicios
 Puede utilizar las funciones de precios de [!INCLUDE[d365fin](includes/d365fin_md.md)] para configurar y personalizar su aplicación de modo que aplique y ajuste precios sobre productos de servicio, reparaciones y pedidos. Estas decisiones de precios se transmiten con facilidad al proceso de facturación.  
   
@@ -68,4 +67,3 @@ Cuando trabaje con productos y órdenes de servicio, puede que tenga que registr
 ## <a name="see-also"></a>Consulte también
 [Configurar la gestión de servicios](service-setup-service.md)  
 [Gestión de servicios](service-service.md)  
-

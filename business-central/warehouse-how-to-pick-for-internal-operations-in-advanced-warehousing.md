@@ -1,23 +1,23 @@
 ---
-title: "Cómo realizar el picking en operaciones internas en configuraciones avanzadas de almacén | Documentos de Microsoft"
-description: "En la configuración avanzada de almacén en donde se configura la ubicación para utilizar picking y envío, podrá escoger los componentes para las actividades de producción y de ensamblado con la página **Picking almacén**."
+title: Cómo realizar el picking en operaciones internas en configuraciones avanzadas de almacén | Documentos de Microsoft
+description: En la configuración avanzada de almacén en donde se configura la ubicación para utilizar picking y envío, podrá escoger los componentes para las actividades de producción y de ensamblado con la página **Picking almacén**.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/22/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 5d6d2d9527e81a92987f6b8fcdbe8e087c3c537a
 ms.openlocfilehash: bb4941c948c2e4479ec36fdebee11f1d75e62c68
-ms.contentlocale: es-es
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805617"
 ---
 # <a name="pick-for-production-or-assembly-in-advanced-warehouse-configurations"></a>Realizar picking para ensamblado o producción en una configuración avanzada de almacén
 En la configuración avanzada de almacén en donde se configura la ubicación para utilizar picking y envío, podrá escoger los componentes para las actividades de producción y de ensamblado con la página **Picking almacén**.  
@@ -63,4 +63,3 @@ Este organigrama muestra cómo se rellena el campo de **Código de ubicación** 
 [Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

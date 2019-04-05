@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 10/01/2018
+ms.date: 02/15/2019
 ms.author: solsen
+ms.openlocfilehash: 91db02673c1e408927d9863af9ec6751bc33e480
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
-ms.openlocfilehash: 81eb819295a8d2b03f9c53ecd98053d0b1041faa
-ms.contentlocale: es-es
-ms.lasthandoff: 12/11/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806190"
 ---
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
 
@@ -27,48 +27,48 @@ Debe tener una suscripción a [!INCLUDE[d365fin](includes/d365fin_md.md)] para p
 
 1. Inicie sesión en su instancia de producción del servicio [!INCLUDE[d365fin](includes/d365fin_md.md)].
 2. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Entorno de espacio aislado** y luego elija el enlace relacionado.
-![Configuración de un entorno aislado](./media/across-sandbox/sandbox-environment-setup.png)
+<!-- ![Sandbox Environment Setup](./media/across-sandbox/sandbox-environment-setup.png) -->
 3. Seleccione **Crear**.  
   Se abrirá otra pestaña en el navegador para finalizar la configuración del entorno aislado.
 > [!NOTE]  
 >  Si tiene activado el bloqueador de ventanas emergentes en su navegador, cámbielo para permitir las direcciones URL de la dirección *.businesscentral.dynamics.com.   
 
 4. Cuando el entorno aislado esté listo, se le redirigirá al asistente de bienvenida del entorno aislado.
-![Asistente de bienvenida del entorno aislado](./media/across-sandbox/sandbox-wizard.png)
+<!-- ![Sandbox Welcome Wizard](./media/across-sandbox/sandbox-wizard.png) -->
 
 5. Seleccione **Más información** para consultar información sobre los escenarios que puede probar en un entorno aislado. O bien, elija **Cerrar** para continuar con el Área de trabajo de la instancia aislada de [!INCLUDE[d365fin](includes/d365fin_md.md)].
 6. En la parte superior del Área de trabajo, aparece una notificación para informarle de que se trata de un entorno aislado. También puede ver el tipo del entorno en la barra de título del cliente.
-![Notificaciones del Área de trabajo del entorno aislado](./media/across-sandbox/sandbox-rolecenter-notification.png)  
+<!-- ![Sandbox RoleCenter Notification](./media/across-sandbox/sandbox-rolecenter-notification.png) --> 
 En el entorno aislado, se ha creado un nuevo suscriptor. Este suscriptor se carga con datos de demostración predeterminados para la empresa CRONUS. No se copian ni se transfieren datos del entorno de producción durante la creación del entorno aislado.
-7.  Cuando lo desee puede volver a la página **Entorno aislado** y restablecerlo.
+
+7. Cuando lo desee puede volver a la página **Entorno aislado** y restablecerlo.
 > [!NOTE]  
 >  Al restablecer el entorno aislado se eliminará completamente y, a continuación, se creará de nuevo con los datos de demostración predeterminados.  
 
-8.  Para cambiar entre los entornos de producción y aislado, puede utilizar el lanzador de aplicaciones de Business Central.
-![Menú del espacio aislado de Dynamics365](./media/across-sandbox/sandbox-dynamics365-menu.png)
+8. Para cambiar entre los entornos de producción y aislado, puede utilizar el lanzador de aplicaciones de Business Central.
+<!-- ![Sandbox Dynamics365 Menu](./media/across-sandbox/sandbox-dynamics365-menu.png) -->
 
-9.  Es posible que un administrador u otro usuario limite o incluso bloquee el acceso de algunos usuarios al entorno aislado. Esto se puede hacer mediante las características de seguridad estándar del producto, como la tarjeta de usuario, los grupos de usuarios y los conjuntos de permisos.
+9. Es posible que un administrador u otro usuario limite o incluso bloquee el acceso de algunos usuarios al entorno aislado. Esto se puede hacer mediante las características de seguridad estándar del producto, como la tarjeta de usuario, los grupos de usuarios y los conjuntos de permisos.
 
-![Conjuntos de permisos del entorno aislado](./media/across-sandbox/sandbox-permission-sets.png)
+<!-- ![Sandbox Permission Sets](./media/across-sandbox/sandbox-permission-sets.png) -->
 
 ## <a name="advanced-functionality-in-the-sandbox-environment"></a>Funcionalidad avanzada del entorno aislado
-### <a name="the-in-client-designer"></a>El diseñador del cliente
-En un entorno aislado, se encuentra habilitada la función de diseñador en el cliente, que puede activar seleccionando el icono de diseño ![Diseñadora](./media/across-sandbox/sandbox-inclient-design-icon.png) en una página.
+### <a name="designer"></a>Diseñadora
+En un entorno aislado, se encuentra habilitada la función **Diseñador**, que puede activar seleccionando el icono ![Diseñador](./media/across-sandbox/sandbox-inclient-design-icon.png) en una página.
 
-![Diseñador del cliente](./media/across-sandbox/sandbox-inclient-designer.png)
+<!-- ![In-client Designer](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
 ### <a name="enable-the-advanced-user-experience"></a>Activar la experiencia del usuario avanzado
 Es posible activar y probar la funcionalidad avanzada (completa) de [!INCLUDE[d365fin](includes/d365fin_md.md)] en un suscriptor aislado configurando el campo **Experiencia** en la página **Información de la empresa**.
 
-![Entorno aislado avanzado](./media/across-sandbox/sandbox-advanced.png)
+<!-- ![Sandbox Environment Advanced](./media/across-sandbox/sandbox-advanced.png) -->
 
-![Producción de entorno aislado](./media/across-sandbox/sandbox-production.png)
+<!-- ![Sandbox Production](./media/across-sandbox/sandbox-production.png) -->
 
 Después de habilitar la funcionalidad avanzada en un inquilino aislado, obtiene acceso a todos los perfiles y áreas de trabajo estándar. También puede crear una empresa de evaluación que esté completamente configurada, incluyendo datos de demostración y acceso a las áreas avanzadas del producto.
 
-![Nueva empresa aislada](./media/across-sandbox/sandbox-newcompany.png)
+<!-- ![Sandbox New Company](./media/across-sandbox/sandbox-newcompany.png) -->
 
 
 ## <a name="see-also"></a>Consulte también
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

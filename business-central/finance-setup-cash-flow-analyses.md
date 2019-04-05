@@ -1,8 +1,8 @@
 ---
-title: "Configuración del análisis de flujo de efectivo | Documentos de Microsoft"
-description: "Configure los planes en el área de trabajo Cuentas como ayuda para analizar el flujo de dinero de su empresa, incluyendo gastos e ingresos, liquidez y recibos de efectivo menos los pagos en efectivo."
+title: Configuración del análisis de flujo de efectivo | Documentos de Microsoft
+description: Configure los planes en el área de trabajo Cuentas como ayuda para analizar el flujo de dinero de su empresa, incluyendo gastos e ingresos, liquidez y recibos de efectivo menos los pagos en efectivo.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
 ms.date: 01/18/2019
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: c129dd63b3aabeeac15c6684f961e04bd2b08a2a
 ms.openlocfilehash: 24fad5d816260764a3eb2c476e5bff86268790a1
-ms.contentlocale: es-es
-ms.lasthandoff: 01/24/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805935"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Configuración del análisis de flujo de efectivo
 Si desea ayuda para decidir qué debe hacer con el efectivo, eche un vistazo a los gráficos del Área de trabajo Contable:  
@@ -56,7 +56,7 @@ Para ayudarle a empezar, se proporcionan algunas cuentas y configuraciones de fl
 Para configurarla, busque **cuentas de flujo de efectivo**, elija el vínculo y rellene los campos. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Repita estos pasos para la **configuración de flujo de efectivo**.  
 
 ## <a name="set-up-cash-flow-forecasts"></a>Configurar previsiones de flujo de efectivo
-El gráfico **Previsión de flujo de efectivo** utiliza cuentas de flujo de efectivo, configuraciones de flujo de efectivo y previsiones de flujo de efectivo. Se proporcionan algunas, pero configurar las suyas propias usando una guía de configuración asistida. Esta guía le ayuda a especificar aspectos como la frecuencia con que se actualizará la previsión, las cuentas en las que se basará, la información acerca de cuándo se pagan impuestos y si activar [Cortana Intelligence.](https://www.microsoft.com/en-us/cloud-platform/what-is-cortana-intelligence-suite).  
+El gráfico **Previsión de flujo de efectivo** utiliza cuentas de flujo de efectivo, configuraciones de flujo de efectivo y previsiones de flujo de efectivo. Se proporcionan algunas, pero configurar las suyas propias usando una guía de configuración asistida. Esta guía le ayuda a especificar aspectos como la frecuencia con que se actualizará la previsión, las cuentas en las que se basará, la información acerca de cuándo se pagan impuestos y si activar [Cortana Intelligence](https://www.microsoft.com/en-us/cloud-platform/what-is-cortana-intelligence-suite).  
 
 Las previsiones de flujo de efectivo pueden usar Cortana Intelligence para incluir documentos cuya fecha de vencimiento sea en el futuro. El resultado es una predicción más completa. La conexión a Cortana Intelligence ya está configurada automáticamente. Solo necesita activarla. Al iniciar sesión en [!INCLUDE[d365fin](includes/d365fin_md.md)], se muestra una notificación en una barra azul y proporciona un vínculo a la configuración de flujo de caja predeterminada. La notificación solo se muestra una vez. Si la cierra pero decide activar Cortana Intelligence, puede utilizar la guía de configuración asistida o un proceso manual.  
 
@@ -73,7 +73,7 @@ Para usar la guía de configuración asistida:
 Para usar un proceso manual:  
 
 1. En el área de trabajo Contable, busque **Configuración de flujo de efectivo** y, a continuación, elija el vínculo relacionado.  
-2. Expanda la ficha desplegable **Cortana Intelligence** y, a continuación, elija la casilla **Cortana Intelligence habilitado**.  
+2. Expanda el la ficha desplegable **Cortana Intelligence** y active la casilla **Cortana Intelligence habilitada**.  
 3. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Previsión de flujo de efectivo** y luego elija el enlace relacionado.
 4. En la página **Previsión de flujo de efectivo**, seleccione la acción **Recalcular previsión**.  
 
@@ -89,10 +89,9 @@ También puede crear su propio servicio web predictivo basado en un modelo públ
 4. Ejecute el modelo y como publíquelo como un servicio web.  
 5. Anote la URL de API y la clave de API. Usará estas credenciales para una configuración de flujo de caja.  
 6. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración de flujo de efectivo** y luego elija el enlace relacionado.  
-7. Expanda la ficha desplegable **Cortana Intelligence** y, a continuación, rellene los campos.  
+7. Expanda la ficha desplegable **Cortana Intelligence** y rellene los campos.  
 
 ## <a name="see-also"></a>Consulte también
 [Analizar el flujo de efectivo de la empresa](finance-analyze-cash-flow.md)  
 [Configurar las finanzas](finance-setup-finance.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

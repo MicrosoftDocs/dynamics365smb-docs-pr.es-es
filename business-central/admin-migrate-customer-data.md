@@ -1,23 +1,23 @@
 ---
 title: Migrar datos del cliente | Documentos de Microsoft
-description: "Puede migrar los datos existentes de cliente de un sistema de ERP existente a Business Central utilizando RapidStart Services. Puede usar archivos .xlsx de Excel como soporte de datos. También puede mover manualmente los datos al introducirlos directamente en la empresa."
+description: Puede migrar los datos existentes de cliente de un sistema de ERP existente a Business Central utilizando RapidStart Services. Puede usar archivos .xlsx de Excel como soporte de datos. También puede mover manualmente los datos al introducirlos directamente en la empresa.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 4dae4dbfc06b5040eba09df94fe13e7fce7b1940
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 69630c095da4072f31f678895ee73ab74cc8cdad
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805359"
 ---
 # <a name="migrate-customer-data"></a>Migrar datos del cliente
 Puede migrar los datos existentes de cliente de un sistema de ERP existente a [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizando las herramientas de migración de datos de RapidStart Services. Puede usar archivos de Excel como soporte de datos. También puede mover manualmente los datos al introducirlos directamente en la empresa.
@@ -92,14 +92,14 @@ Cuando liquide datos que ha importado desde Excel o desde un paquete RapidStart,
 
 - Si se definen directamente las mismas asignaciones para un campo y en la tabla relacionada, pero con valores nuevos distintos, la asignación que se defina directamente para el campo tiene prioridad sobre la asignación que se defina para la tabla a la que el campo está haciendo referencia.  
 
-En los siguientes procedimientos, debe revisar por adelantado los valores que desea que se retengan durante el proceso de migración. Para realizar los procedimientos siguientes, necesitará los archivos de migración de datos (.xlsx) que haya exportado desde [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, consulte la sección "Para exportar archivos de migración".
+En los siguientes procedimientos, debe revisar por adelantado los valores que desea que se retengan durante el proceso de migración. Para realizar los procedimientos siguientes, necesitará los archivos de migración de datos (.xlsx) que haya exportado desde [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, consulte [Para exportar archivos de migración](admin-migrate-customer-data.md#to-export-data-migration-files).
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Paquetes de configuración** y luego elija el enlace relacionado.
 2. Abra el paquete de la empresa en cuestión.  
 3. Seleccione la tabla a la que desee asignar valores y en la pestaña **Tablas**, elija la acción **Campos**.  
 4. Para cada campo que desee asignar, elija la acción **Asignación**.  
 5. En el campo **Valor antiguo**, escriba el valor que desea cambiar. En el campo **Valor nuevo**, escriba el valor al que desea que se cambie el valor original. Elija el botón **Aceptar**.  
-6. Importe los datos del cliente. Para obtener más información, consulte la sección "Para importar datos del cliente".
+6. Importe los datos del cliente. Para obtener más información, consulte [Para importar datos del cliente](admin-migrate-customer-data.md#to-import-customer-data).
 7. En el campo **Nº errores de paquete**, compruebe si hay errores notificados. Si es así, explore en profundidad para ver los errores. Se abre la página **Registros paquete config**.
 8. Elija la acción **Mostrar error**. Recibirá el error siguiente: **<option> no es una opción válida. Las opciones válidas son <valid option list>**. Elija el botón **Aceptar**.  
 9. Para liquidar la asignación que ha configurado, elija la acción **Aplicar datos**.  
@@ -115,7 +115,7 @@ El ejemplo siguiente ilustra cómo implementa [!INCLUDE[d365fin](includes/d365fi
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Paquetes de configuración** y luego elija el enlace relacionado.  
 2. Seleccione la tabla a la que desee asignar valores adicionales y en la pestaña **Tablas**, elija la acción **Campos**.  
 3. Para los campos para los que desea que [!INCLUDE[d365fin](includes/d365fin_md.md)] permita valores adicionales durante la migración, seleccione la casilla **Crear códigos que faltan**.  
-4. Importe los datos del cliente. Para obtener más información, consulte la sección "Para importar datos del cliente".
+4. Importe los datos del cliente. Para obtener más información, consulte [Para importar datos del cliente](admin-migrate-customer-data.md#to-import-customer-data).
 
 ## <a name="to-clean-up-and-process-data-before-applying-data"></a>Para limpiar y procesar datos antes de aplicar datos
 En algunos casos, puede que desee limpiar los datos de cliente y procesarlos para poder aplicarlos a la base de datos. Para hacer eso, puede usar el proceso **Paquete de configuración - Proceso** para solucionar problemas, como:  
@@ -134,7 +134,7 @@ Cuando haya exportado una tabla de migración, el siguiente paso es introducir d
 
 Para obtener ayuda con XML, habilite la pestaña **Desarrollador** de la cinta de Excel y luego elija la acción **Fuente** para ver el esquema XML de su tabla de migración como se representa en Excel.
 
-El procedimiento siguiente se basa en una hoja de cálculo de Excel que ha creado para la migración. Para obtener más información, consulte la sección "Para exportar archivos de migración".
+El procedimiento siguiente se basa en una hoja de cálculo de Excel que ha creado para la migración. Para obtener más información, consulte [Para exportar archivos de migración](admin-migrate-customer-data.md#to-export-data-migration-files).
 
 > [!IMPORTANT]  
 > No cambie las columnas en las hojas de cálculo Excel. Si se mueven, modifican o eliminan, la hoja de cálculo no podrá importarse a [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -187,4 +187,3 @@ Ya está configurada la base de datos de la empresa del cliente y se han importa
 ## <a name="see-also"></a>Consulte también  
 [Configurar una empresa con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administración](admin-setup-and-administration.md)
-

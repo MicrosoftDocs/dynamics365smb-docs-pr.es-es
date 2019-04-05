@@ -1,8 +1,8 @@
 ---
-title: "Importar datos de nómina o de salario con la extensión de nóminas de Ceridian | Documentos de Microsoft"
-description: "Utilice esta extensión para importar transacciones de nóminas de los servicios Ceridian HR/Payroll (EE. UU.) y Ceridian PowerPay (Canadá)."
+title: Importar datos de nómina o de salario con la extensión de nóminas de Ceridian | Documentos de Microsoft
+description: Utilice esta extensión para importar transacciones de nóminas de los servicios Ceridian HR/Payroll (EE. UU.) y Ceridian PowerPay (Canadá).
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, salary, wage
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: ed3ba9f10ce24c97760dce972aa96134f1bc1119
-ms.contentlocale: es-es
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805366"
 ---
 # <a name="the-ceridian-payroll-extension"></a>La extensión de nóminas de Ceridian
 Para contabilizar los pagos de salario y transacciones relacionadas, deberá importar y registrar las transacciones financieras de salario creadas para el proveedor de nóminas al libro mayor.
@@ -30,4 +30,3 @@ La extensión de nóminas de Ceridian le permite importar transacciones de nómi
 [Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones ](ui-extensions.md)    
 [Finanzas](finance.md)    
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

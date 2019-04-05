@@ -1,22 +1,22 @@
 ---
 title: Conformidad | Documentos de Microsoft
-description: "En este contenido se incluye información acerca de la conformidad en relación con Business Central."
+description: En este contenido se incluye información acerca de la conformidad en relación con Business Central.
 author: sorenfriisalexandersen
-documentationcenter: 
+documentationcenter: ''
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: soalex
-ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
 ms.openlocfilehash: c9c54562e327751190ecaddac57b7c19d3062330
-ms.contentlocale: es-es
-ms.lasthandoff: 12/14/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805702"
 ---
 # <a name="compliance"></a>Conformidad
 En este contenido se incluye información acerca de la conformidad en relación con [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
@@ -33,4 +33,3 @@ En esta sección puede obtener más información sobre nuestro enfoque por la co
 
  ## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
  
-

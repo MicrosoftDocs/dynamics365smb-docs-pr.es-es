@@ -1,24 +1,24 @@
 ---
-title: "Detalles de diseño: Función del ciclo | Documentos de Microsoft"
-description: "El propósito del ciclo es recopilar los eventos de demanda dentro del intervalo de tiempo para crear un pedido de suministro conjunto."
+title: 'Detalles de diseño: Función del ciclo | Documentos de Microsoft'
+description: El propósito del ciclo es recopilar los eventos de demanda dentro del intervalo de tiempo para crear un pedido de suministro conjunto.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: ff748a192d8d1650a708ab70ec33ccc7bfd53c48
-ms.contentlocale: es-es
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805910"
 ---
 # <a name="design-details-the-role-of-the-time-bucket"></a>Detalles de diseño: Función del ciclo
 El propósito del ciclo es recopilar los eventos de demanda dentro del intervalo de tiempo para crear un pedido de suministro conjunto.  
@@ -36,4 +36,3 @@ El propósito del ciclo es recopilar los eventos de demanda dentro del intervalo
  [Detalles de diseño: Parámetros de la planificación](design-details-planning-parameters.md)   
  [Detalles de diseño: Gestión de directivas de reaprovisionamiento](design-details-handling-reordering-policies.md)   
  [Detalles de diseño: Planificación de aprovisionamiento](design-details-supply-planning.md)
-

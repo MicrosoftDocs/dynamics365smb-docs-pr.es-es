@@ -1,8 +1,8 @@
 ---
 title: Mostrar informes de Power BI personalizados | Documentos de Microsoft
-description: "Puede usar los informes de Power BI para obtener información adicional sobre los datos en las listas."
+description: Puede usar los informes de Power BI para obtener información adicional sobre los datos en las listas.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 10/01/2018
 ms.author: edupont
+ms.openlocfilehash: 2be3a29ad88c46f8b96b9f4bed34602da35fbcb7
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 595e6fb7cc8239ea33cf57aadfd8b0f3419323e5
-ms.contentlocale: es-es
-ms.lasthandoff: 06/01/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805762"
 ---
 # <a name="viewing-list-data-in-power-bi-reports-in-business-central"></a>Ver datos de listas en informes de Power BI en Business Central 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] incluye un elemento de control de cuadro informativo de varias páginas de lista de claves que proporciona información de los datos de la lista. A medida que se desplaza por las filas de la lista, el informe se actualiza y se filtra para la entrada seleccionada. Puede crear informes personalizados para mostrar en este control, pero hay reglas a seguir al crear informes para garantizar que proporcionan el comportamiento deseado.  
@@ -50,7 +50,7 @@ Del mismo modo, si desea que el fondo del informe se mezcle con el color de fond
 Con Power BI, puede crear un solo informe con varias páginas. Los elementos visuales que desee ver en las páginas de listas de [!INCLUDE[d365fin](includes/d365fin_md.md)] deben estar en la primera página del informe en Power BI.  
 
 > [!NOTE]  
->  El cuadro informativo de Power Bi solo puede mostrar la primera página del informe; si desea ver otras páginas, debe expandir el informe y usar las pestañas de la parte inferior del informe para desplazarse a otras páginas.  
+>  El cuadro informativo de Power BI solo puede mostrar la primera página del informe; si desea ver otras páginas, debe expandir el informe y usar las pestañas de la parte inferior del informe para desplazarse a otras páginas.  
 
 ## <a name="saving-your-report"></a>Guardar el informe
 
@@ -76,4 +76,3 @@ Compruebe que el tamaño del informe se ha configurado en 325 píxeles x 310 pí
 [Introducción](product-get-started.md)    
 [Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)    
 [Finanzas](finance.md)  
-

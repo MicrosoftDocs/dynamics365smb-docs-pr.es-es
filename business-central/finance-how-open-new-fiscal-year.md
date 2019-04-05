@@ -11,12 +11,12 @@ ms.search.keywords: accounting year, fiscal period
 ms.date: 11/21/2018
 ms.author: edupont
 redirect_url: finance-accounting-periods-and-fiscal-years
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: cb523f1ee5b8bfafa63fc41284da6450f205967e
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806248"
 ---
 # <a name="open-a-new-fiscal-year-and-create-accounting-periods"></a>Abrir un nuevo año fiscal y crear períodos contables
 Para poder registrar un ejercicio, es necesario abrir el ejercicio y definir sus periodos contables.  
@@ -39,4 +39,3 @@ Los períodos contables se agregan a la página con los campos **Fecha inicial**
 [Registrar el movimiento de cierre del ejercicio](year-how-post-year-end-close-entry.md)  
 [Finanzas](finance.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

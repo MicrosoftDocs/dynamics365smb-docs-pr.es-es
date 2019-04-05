@@ -1,6 +1,6 @@
 ---
 title: Registrar gastos o ingresos directamente en contabilidad | Documentos de Microsoft
-description: "Para las actividades empresariales que no está representadas por un documento, como los gastos o recibos de efectivo más pequeños, puede crear las transacciones relacionadas registrando líneas de diario en la página Diario general."
+description: Para las actividades empresariales que no está representadas por un documento, como los gastos o recibos de efectivo más pequeños, puede crear las transacciones relacionadas registrando líneas de diario en la página Diario general.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: direct posting, general ledger
 ms.date: 11/27/2018
 ms.author: sgroespe
+ms.openlocfilehash: a1e7137cdc08fb558b6a6d423ce9524fa47eec16
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 2625ad82d2d3c45e607f35d21cac9d943af2d2f2
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805746"
 ---
 # <a name="post-transactions-directly-to-the-general-ledger"></a>Registrar transacciones directamente en la contabilidad
 
@@ -48,4 +48,3 @@ A diferencia de los movimientos que se registran en documentos, que requieren un
 [Revertir registros](finance-how-reverse-journal-posting.md)  
 [Finanzas](finance.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

@@ -1,8 +1,8 @@
 ---
-title: "Detalles de diseño: Estructura de interfaz de registro | Documentos de Microsoft"
+title: 'Detalles de diseño: Estructura de interfaz de registro | Documentos de Microsoft'
 description: Este tema proporciona un resumen de los procedimientos globales en la estructura de la interfaz de registro.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,21 +12,21 @@ ms.workload: na
 ms.search.keywords: posting, interface, design
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 236cbcc45ccca23905dcb79a491236c80b2bdebf
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4d5aede731958f6f07b361cf2b4f2351bb5ad06a
-ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806020"
 ---
 # <a name="design-details-posting-interface-structure"></a>Detalles de diseño: estructura de interfaz de registro
 En la estructura de interfaz de registro de [!INCLUDE[d365fin](includes/d365fin_md.md)] existen varios procedimientos globales que utilizan la misma estructura:  
   
 * RunWithCheck y RunWithoutCheck llaman al código de procedimiento - interfaz de registro genérica para la línea de diario general.  
-* CustPostApplyCustLedgEntry: registrar aplicación de cliente, llamada desde la unidad de código 226 Mov. cliente-Liquidar movimientos registrados.  
-* VendPostApplyVendLedgEntry: registrar liquidación de proveedor, llamada desde la unidad de código 227 Mov. proveedor-Liquidar movimientos registrados.  
-* UnapplyCustLedgEntry: registrar desliquidación de liquidación de cliente, llamada desde la unidad de código 226 Mov. cliente-Liquidar movimientos registrados.  
-* UnapplyVendLedgEntry: registrar desliquidación de liquidación de proveedor, llamada desde la unidad de código 227 Mov. proveedor-Liquidar movimientos registrados.  
+* CustPostApplyCustLedgEntry: registrar aplicación de cliente, llamada desde la codeunit 226 Mov. cliente-Liquidar movimientos registrados.  
+* VendPostApplyVendLedgEntry: registrar liquidación de proveedor, llamada desde la codeunit 227 Mov. proveedor-Liquidar movimientos registrados.  
+* UnapplyCustLedgEntry: registrar desliquidación de liquidación de cliente, llamada desde la codeunit 226 Mov. cliente-Liquidar movimientos registrados.  
+* UnapplyVendLedgEntry: registrar desliquidación de liquidación de proveedor, llamada desde la codeunit 227 Mov. proveedor-Liquidar movimientos registrados.  
   
 ## <a name="see-also"></a>Consulte también  
 [Detalles de diseño: estructura de motor de registro](design-details-posting-engine-structure.md)

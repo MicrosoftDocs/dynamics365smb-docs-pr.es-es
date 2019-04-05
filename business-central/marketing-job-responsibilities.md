@@ -1,8 +1,8 @@
 ---
 title: Configurar responsabilidades de cargo para contactos | Documentos de Microsoft
-description: "Puede definir una responsabilidad de cargo y asignarla a un contacto para indicar las tareas de las que es responsable que su contacto en su empresa, por ejemplo, TI o producción."
+description: Puede definir una responsabilidad de cargo y asignarla a un contacto para indicar las tareas de las que es responsable que su contacto en su empresa, por ejemplo, TI o producción.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: task, to-do, relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
+ms.openlocfilehash: 62d8f733dbfdb6b3da78368e553deef1ea208072
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: b580518771ce9b599e5516ecbb1c25cc5dc5d9f4
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805630"
 ---
 # <a name="set-up-job-responsibilities-for-contact-persons"></a>Configurar responsabilidades cargo para las personas de contacto.
 Puede agregar información sobre las responsabilidades cargo de las personas de contacto para indicar que son responsables en su empresa, por ejemplo, en TI, gestión o producción. Puede usar esta información al introducir información sobre sus contactos.
@@ -45,7 +45,5 @@ El número de responsabilidades cargo que ha asignado al contacto se muestra en 
 Después de asignar responsabilidades cargo a sus contactos puede usar esa información para seleccionar contactos para sus segmentos. Para obtener más información, vea [Agregar contactos a segmentos](marketing-add-contact-segment.md).
 
 ## <a name="see-also"></a>Consulte también
-[Crear personas de contacto](marketing-create-contact-persons.md)  
-[Crear empresas de contacto](marketing-create-contact-companies.md)  
+[Crear contactos](marketing-create-contact-companies.md)  
 [Trabajar con Business Central](ui-work-product.md)
-

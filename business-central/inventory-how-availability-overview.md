@@ -1,7 +1,7 @@
 ---
 title: Obtener un resumen de disponibilidad| Documentos de Microsoft
-description: "Puede obtener información sobre la disponibilidad de los productos o existencias en distintos almacenes, por eventos de venta o de compra, por un periodo de tiempo o por la posición del producto en una L.M. de ensamblado o producción."
-documentationcenter: 
+description: Puede obtener información sobre la disponibilidad de los productos o existencias en distintos almacenes, por eventos de venta o de compra, por un periodo de tiempo o por la posición del producto en una L.M. de ensamblado o producción.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: stock
 ms.date: 10/01/2018
 ms.author: SorenGP
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 47634e2af9b109c8102c527508c4a9d94a3cb7c0
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806159"
 ---
 # <a name="view-the-availability-of-items"></a>Consultar la disponibilidad de los productos
 En el contexto de una tarea de negocio, puede obtener la información avanzada acerca de cuándo y dónde está disponible un producto, por ejemplo, al hablar con un cliente sobre una fecha de entrega.
@@ -121,4 +121,3 @@ Si uno o más componentes del ensamblado no están disponibles, se reflejará en
 [Vender productos](sales-how-sell-products.md)      
 [Trabajar con Business Central](ui-work-product.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)
-

@@ -1,24 +1,24 @@
 ---
-title: "Detalles de diseño: Cantidad de reaprovisionamiento fija | Documentos de Microsoft"
-description: "La directiva Cdad. fija reaprov. está relacionada con la planificación de inventario de los productos C típicos (coste de inventario bajo, poco riesgo de obsolescencia o muchos productos). Normalmente, esta directiva se usa con relación a un punto de pedido que refleja la demanda anticipada durante el plazo del producto."
+title: 'Detalles de diseño: Cantidad de reaprovisionamiento fija | Documentos de Microsoft'
+description: La directiva Cdad. fija reaprov. está relacionada con la planificación de inventario de los productos C típicos (coste de inventario bajo, poco riesgo de obsolescencia o muchos productos). Normalmente, esta directiva se usa con relación a un punto de pedido que refleja la demanda anticipada durante el plazo del producto.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: f8d4cfbbdab6285f65611c81aaf728a8c129c729
-ms.contentlocale: es-es
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806256"
 ---
 # <a name="design-details-fixed-reorder-qty"></a>Detalles de diseño: Cantidad de reaprovisionamiento fija
 La directiva Cdad. fija reaprov. está relacionada con la planificación de inventario de los productos C típicos (coste de inventario bajo, poco riesgo de obsolescencia o muchos productos). Normalmente, esta directiva se usa con relación a un punto de pedido que refleja la demanda anticipada durante el plazo del producto.  
@@ -53,4 +53,3 @@ La directiva Cdad. fija reaprov. está relacionada con la planificación de inve
  [Detalles de diseño: Parámetros de la planificación](design-details-planning-parameters.md)   
  [Detalles de diseño: Gestión de directivas de reaprovisionamiento](design-details-handling-reordering-policies.md)   
  [Detalles de diseño: Planificación de aprovisionamiento](design-details-supply-planning.md)
-

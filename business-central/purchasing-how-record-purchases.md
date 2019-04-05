@@ -1,7 +1,7 @@
 ---
 title: Crear una factura de compra y registrar compras | Documentos de Microsoft
-description: "Describe cómo comprar productos de inventario y servicio creando y registrando facturas o pedidos de compra."
-documentationcenter: 
+description: Describe cómo comprar productos de inventario y servicio creando y registrando facturas o pedidos de compra.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: procurement
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: cc0a5e88342e9f4c7493cf9d3390c248e6dd36b9
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806327"
 ---
 # <a name="record-purchases"></a>Registrar compras
 Cree una factura o un pedido de compra para registrar el coste de las compras y para realizar el seguimiento de los pagos. Si necesita controlar un inventario, las facturas y los pedidos de compra también se utilizan para actualizar dinámicamente los niveles de inventario para que pueda minimizar sus costes de inventario y proporcionar un mejor servicio al cliente. Los costes de compra, incluidos los gastos del servicio, y los valores de inventario resultantes del registro de las facturas de compra o pedidos contribuyen a las cifras de ganancias y otros KPI financieros en el área de trabajo.
@@ -79,4 +79,3 @@ La compra ahora se refleja en el inventario y en los registros financieros, y se
 [Permite registrar nuevos proveedores](purchasing-how-register-new-vendors.md)  
 [Preparar envíos directos](sales-how-drop-shipment.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

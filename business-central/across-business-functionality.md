@@ -1,6 +1,6 @@
 ---
 title: Funciones empresariales que admite Business Central | Documentos de Microsoft
-description: "Proporciona una visión general de las funciones y los departamentos empresariales que son compatibles con las áreas de aplicación, como finanzas, inventario y administración de proyectos."
+description: Proporciona una visión general de las funciones y los departamentos empresariales que son compatibles con las áreas de aplicación, como finanzas, inventario y administración de proyectos.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: feature overview
 ms.date: 01/22/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
 ms.openlocfilehash: d00f8228d5a617ddf601bb1d4ffaf9f42f13e74a
-ms.contentlocale: es-es
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805858"
 ---
 # <a name="business-functionality"></a>Funciones empresariales
 [!INCLUDE[d365fin](includes/d365fin_md.md)] proporciona funciones para procesos empresariales comunes de las pequeñas y medianas empresas, principalmente de los servicios mayoristas y profesionales. Sin embargo, también se admiten procesos más complejos, por ejemplo, montaje, fabricación, servicio, y administración dirigida de almacén.
@@ -47,4 +47,3 @@ ms.lasthandoff: 01/22/2019
 [Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Introducción](product-get-started.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

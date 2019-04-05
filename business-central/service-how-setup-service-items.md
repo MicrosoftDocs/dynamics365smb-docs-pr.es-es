@@ -2,22 +2,22 @@
 title: Configurar los productos de servicio y los componentes del producto de servicio | Documentos de Microsoft
 description: Conozca los aspectos que debe configurar antes de poder utilizar los productos del servicio, incluidos los valores predeterminados, como el tiempo de respuesta, el porcentaje de descuento del contrato y el grupo de precios de servicio.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: e82aa86668da5999117eea636ee29d8fde2cc09e
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806171"
 ---
 # <a name="set-up-service-items-and-service-item-components"></a>Configurar componentes de servicio y de productos
 Para trabajar con productos de servicio, debe configurar lo siguiente
@@ -65,4 +65,3 @@ Puede configurar estanterías de servicio que identifiquen dónde almacena los a
 ## <a name="see-also"></a>Consulte también
 [Configurar códigos para servicios estándar](service-how-setup-service-coding.md)   
 [Configurar detección errores](service-how-setup-troubleshooting.md)
-

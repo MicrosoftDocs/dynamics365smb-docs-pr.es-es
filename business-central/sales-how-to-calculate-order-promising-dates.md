@@ -1,23 +1,23 @@
 ---
-title: "Procedimiento: Cálculo de las fechas de compromiso de entrega de pedido | Documentos de Microsoft"
-description: "La función de compromiso de entrega de pedidos es una herramienta para el cálculo de la fecha más temprana posible en la que un producto se encuentra disponible para su envío. También crea líneas de demanda para aquellas fechas que se aceptan."
+title: 'Procedimiento: Cálculo de las fechas de compromiso de entrega de pedido | Documentos de Microsoft'
+description: La función de compromiso de entrega de pedidos es una herramienta para el cálculo de la fecha más temprana posible en la que un producto se encuentra disponible para su envío. También crea líneas de demanda para aquellas fechas que se aceptan.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/23/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 2b1eae5f8562999f3fca227b6de6778ef1c5374e
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805668"
 ---
 # <a name="calculate-order-promising-dates"></a>Calcular fechas de compromiso de entrega de pedido
 Una empresa debe poder informar a los clientes de las fechas de entrega del pedido. La página **Líneas compromiso entrega pedido** permite realizar esta operación desde una línea de pedido de venta.  
@@ -147,4 +147,3 @@ Para que un producto se pueda incluir en el cálculo del compromiso de entrega, 
 [Ccial](sales-manage-sales.md)  
 [Cálculo de la fecha de compras](purchasing-date-calculation-for-purchases.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

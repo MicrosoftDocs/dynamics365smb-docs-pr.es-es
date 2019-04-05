@@ -1,6 +1,6 @@
 ---
-title: "Configurar las campañas de marketing en Business Central | Documentos de Microsoft"
-description: "Describe cómo puede configurar y llevar a cabo campañas de marketing en Business Central para ayudarle a identificar, atraer y conservar a los clientes."
+title: Configurar las campañas de marketing en Business Central | Documentos de Microsoft
+description: Describe cómo puede configurar y llevar a cabo campañas de marketing en Business Central para ayudarle a identificar, atraer y conservar a los clientes.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 66d8bda9082754c4278a47e44529a30dea8eb39c
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806128"
 ---
 # <a name="managing-marketing-campaigns"></a>Administrar campañas de marketing
 Un buen plan de marketing puede permitirle identificar, atraer y conservar a los clientes. Un plan de marketing consta de varias campañas y otras interacciones relacionadas con sus actividades de ventas y marketing. Durante la planificación de una campaña, debe decidir a qué contactos se va a dirigir, el tipo de campaña (por ejemplo, exposición comercial o correo directo) y los vendedores que realizarán las tareas.
@@ -51,4 +51,3 @@ Las campañas las realizan vendedores y debe crear actividades para representar 
 [Administrar segmentos](marketing-segments.md)  
 [Administrar oportunidades de venta](marketing-manage-sales-opportunities.md)  
 [Trabajar con Business Central](ui-work-product.md)  
-

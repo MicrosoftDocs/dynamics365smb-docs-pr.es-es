@@ -1,5 +1,5 @@
 ---
-title: "Domiciliación de adeudo directo SEPA | Documentos de Microsoft"
+title: Domiciliación de adeudo directo SEPA | Documentos de Microsoft
 description: Crear un cobro de adeudo directo y exportar un archivo XML que se puede enviar o cargar al banco digital para su procesamiento.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -11,12 +11,12 @@ ms.search.keywords: direct-debit, collection, payment, sepa
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: finance-collect-payments-with-sepa-direct-debit
+ms.openlocfilehash: 9a92b4ea321c0f4d8ff11cb8cbd93f3053974cbe
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 87bf5f10e73d3a2da73149b44ff8c99196d20b2a
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805900"
 ---
 # <a name="create-sepa-direct-debit-collection-entries-and-export-to-a-bank-file"></a>Crear movimientos de domiciliación de adeudo directo SEPA y exportación a un archivo bancario
 Para indicar al banco que transfiera el importe de pago desde el banco del cliente al banco de su empresa, debe crear un cobro por adeudo directo que contiene información acerca de los bancos del cliente, las facturas de venta afectadas y la orden de domiciliación de adeudo directo. Desde el movimiento de pago por domiciliación, luego exporta un archivo XML que se envía o carga en el banco electrónico para su procesamiento. Los pagos que el banco no pudo procesar los comunicará el banco al usuario y este último deberá rechazar manualmente los movimientos de pago por adeudo directo en cuestión.  
@@ -67,5 +67,4 @@ Ahora podrá registrar los recibos de pago para las facturas de venta implicadas
 ## <a name="see-also"></a>Consulte también  
 [Configuración de domiciliaciones de adeudo directo SEPA](finance-how-to-set-up-sepa-direct-debit.md)   
 [Registro de recibos de pagos de domiciliación de adeudo directo SEPA](finance-how-to-post-sepa-direct-debit-payment-receipts.md)   
-[Cobro de pagos mediante adeudo directo SEPA](finance-collect-payments-with-sepa-direct-debit.md)   
-
+[Cobrar pagos mediante adeudo directo SEPA](finance-collect-payments-with-sepa-direct-debit.md)   

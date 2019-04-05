@@ -1,26 +1,26 @@
 ---
-title: "Utilizar el Área de trabajo del implementador de RapidStart Services | Documentos de Microsoft"
-description: "Cuando utiliza RapidStart Services, le recomendamos que realice un seguimiento de su trabajo y utilice el Área de trabajo del implementador de RapidStart Services ya que proporciona el contexto correcto para su trabajo de configuración."
+title: Utilizar el Área de trabajo del implementador de RapidStart Services | Documentos de Microsoft
+description: Cuando utiliza RapidStart Services, le recomendamos que realice un seguimiento de su trabajo y utilice el Área de trabajo del implementador de RapidStart Services ya que proporciona el contexto correcto para su trabajo de configuración.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: c00a3e452e59e27e7edaad1fbefcfc50316254df
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 572dedec9c00369f405bfc6d3eb4031185f7c780
-ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805449"
 ---
 # <a name="use-the-rapidstart-services-implementer-role-center"></a>Usar el Área de trabajo del implementador de RapidStart Services
-Cuando utiliza RapidStart Services, le recomendamos que utilice el Área de trabajo del implementador de RapidStart Services ya que proporciona el contexto correcto para su trabajo de configuración. Para obtener más información, consulte la sección "Para cambiar el área de trabajo" en [Cambiar la configuración básica](ui-change-basic-settings.md).
+Cuando utiliza RapidStart Services, le recomendamos que utilice el Área de trabajo del implementador de RapidStart Services ya que proporciona el contexto correcto para su trabajo de configuración. Para obtener más información, vea [Para cambiar el área de trabajo](ui-change-basic-settings.md#to-change-role-center).
 
 A medida que ha continúa con el trabajo, puede asignar a cada tabla el estado que refleja donde se encuentra en el proceso. [!INCLUDE[d365fin](includes/d365fin_md.md)] luego realiza un seguimiento del estado de la tabla en el apartado **Actividades** del área de trabajo.  
 
@@ -46,4 +46,3 @@ En el apartado **Áreas de configuración**, se muestran las estadísticas de fi
 ## <a name="see-also"></a>Consulte también  
 [Configurar una empresa con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administración](admin-setup-and-administration.md)
-

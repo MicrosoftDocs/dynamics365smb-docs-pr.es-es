@@ -1,23 +1,23 @@
 ---
-title: "Cómo planificar los picking en la hoja de trabajo | Documentos de Microsoft"
-description: "Si el almacén está configurado para requerir los procesos de picking y envío, el almacén puede trabajar de forma que las líneas de los documentos de envío no se transformen automáticamente en instrucciones de picking, si no hacerlas disponibles en vez de llevarlas a la hoja de trabajo de picking."
+title: Cómo planificar los picking en la hoja de trabajo | Documentos de Microsoft
+description: Si el almacén está configurado para requerir los procesos de picking y envío, el almacén puede trabajar de forma que las líneas de los documentos de envío no se transformen automáticamente en instrucciones de picking, si no hacerlas disponibles en vez de llevarlas a la hoja de trabajo de picking.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 30a6832c0672677106fdb41c9a38a73dae296aa5
-ms.contentlocale: es-es
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805850"
 ---
 # <a name="plan-picks-in-worksheets"></a>Planificar los picking en la hoja de trabajo
 Si el almacén está configurado para requerir los procesos de picking y envío, el almacén puede trabajar de forma que las líneas de los documentos de envío no se transformen automáticamente en instrucciones de picking, si no hacerlas disponibles en vez de llevarlas a la hoja de trabajo de picking.  
@@ -62,4 +62,3 @@ En la hoja de trabajo de picking, también puede ordenar por dirección de enví
 [Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

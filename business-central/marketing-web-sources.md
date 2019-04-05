@@ -1,8 +1,8 @@
 ---
-title: "Configurar los orígenes web para empresas de contacto | Documentos de Microsoft"
-description: "Puede definir sus orígenes web o de Internet y asignarlos a una empresa de contacto para identificar cómo desea buscar la información de sus contactos."
+title: Configurar los orígenes web para empresas de contacto | Documentos de Microsoft
+description: Puede definir sus orígenes web o de Internet y asignarlos a una empresa de contacto para identificar cómo desea buscar la información de sus contactos.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: internet
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
+ms.openlocfilehash: 22b9f0be189fa24f366c1ffa20934d2d8e7e8fc5
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: d7a02a85e65a663bc304becd8392e949d485f13a
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806174"
 ---
 # <a name="set-up-web-sources-for-contact-companies"></a>Configurar enlaces web para empresas de contacto
 Puede usar enlaces web con sus empresas de contacto para identificar, por ejemplo, los motores de búsqueda y los sitios web de Internet que quiere usar para buscar información sobre los contactos. Al asignar enlaces web, especifica el motor de búsqueda y la palabra clave que la aplicación usará para buscar la información solicitada.
@@ -47,6 +47,5 @@ Repita estos pasos para asignar todos los orígenes web que desee.
 También puede asignar orígenes web, con el mismo procedimiento, en la página **Lista contactos**.
 
 ## <a name="see-also"></a>Consulte también
-[Crear empresas de contacto](marketing-create-contact-companies.md)  
+[Crear contactos](marketing-create-contact-companies.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

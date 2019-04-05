@@ -10,14 +10,13 @@ ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
 ms.date: 10/01/2018
+ms.openlocfilehash: 1007bdb689b72cf3eccfc5c15c2df9e3c760d8b3
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: edd2cae058d31e8f65d43ef14a5a96a294adf8d1
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805853"
 ---
-
 # <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Use cuestionarios de perfil para clasificar contactos comerciales
 Puede configurar los cuestionarios de perfil que desea utilizar en el momento de especificar información de los perfiles de sus contactos. En cada cuestionario, puede configurar distintas preguntas que desee realizar a sus contactos.  
 
@@ -158,7 +157,4 @@ A continuación, rellene los datos de la página **Detalles pregunta perfil** de
 Al asignar el cuestionario perfil que contiene esta pregunta a un contacto, el programa escribe automáticamente la respuesta adecuada para este contacto en las líneas de perfil de la ficha de contacto.
 
 ## <a name="see-also"></a>Consulte también
-[Crear personas de contacto](marketing-create-contact-persons.md)  
-[Crear personas de contacto](marketing-how-create-contact-persons.md)  
-[Crear empresas de contacto](marketing-create-contact-companies.md)  
-
+[Crear contactos](marketing-create-contact-companies.md)  

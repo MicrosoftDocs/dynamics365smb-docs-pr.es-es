@@ -1,21 +1,21 @@
 ---
 title: Trabajar con listas de materiales para administrar componentes | Documentos de Microsoft
-description: "Se crea una L.M. de ensamblado o una L.M. de producción para especificar los componentes o recursos necesarios para elaborar el producto al que representa la L.M."
-documentationcenter: 
+description: Se crea una L.M. de ensamblado o una L.M. de producción para especificar los componentes o recursos necesarios para elaborar el producto al que representa la L.M.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: c838fe39720cd8eaee654fe8933aa1a46ffdfbaf
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 587817f68dd731c1ea3e23617e405d0c9493fdd6
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806133"
 ---
 # <a name="work-with-bills-of-material"></a>Trabajar con listas de materiales
 Utilice listas de materiales (L.M.) para estructurar los productos principales que se deben montar o producir por los recursos o centros de máquinas de componentes. Una L.M. de ensamblado también se puede utilizar para vender un producto principal como un kit formado por sus componentes.
@@ -42,7 +42,7 @@ Las L.M. de ensamblado normalmente contienen productos pero también pueden cont
 
 Las L.M. de ensamblado pueden tener varios niveles, lo que significa que un componente de la L.M. de ensamblado puede ser un elemento del ensamblado en sí. En ese caso, el campo **L.M. de ensamblado** en la línea de L.M. de producto contiene **Sí**.
 
-Se aplican requisitos especiales a los productos de la L.M. de ensamblado en lo que respecta a la disponibilidad. Para obtener más información, vea la sección "Para consultar la disponibilidad de un producto por su uso en las L.M. de ensamblado" en [Consultar la disponibilidad de los productos](inventory-how-availability-overview.md).
+Se aplican requisitos especiales a los productos de la L.M. de ensamblado en lo que respecta a la disponibilidad. Para obtener más información, vea [Para consultar la disponibilidad de un producto por su uso en las L.M. de ensamblado](inventory-how-availability-overview.md#to-view-the-availability-of-an-item-by-its-use-in-assembly-or-production-boms).
 
 Existen dos partes para crear una L.M. de ensamblado:
 - Configuración de un producto nuevo
@@ -104,4 +104,3 @@ Los costes de los productos que conforman la L.M. de ensamblado se copian de las
 [Consultar la disponibilidad de los productos](inventory-how-availability-overview.md)     
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

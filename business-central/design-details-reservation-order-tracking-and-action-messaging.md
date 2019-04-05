@@ -1,8 +1,8 @@
 ---
-title: "Detalles de diseño: reserva, seguimiento de pedidos y mensajes de acciones | Documentos de Microsoft"
-description: "El sistema de reservas es completo e incluye las características correlacionadas y paralelas de seguimiento de pedidos y mensajes de acción."
+title: 'Detalles de diseño: reserva, seguimiento de pedidos y mensajes de acciones | Documentos de Microsoft'
+description: El sistema de reservas es completo e incluye las características correlacionadas y paralelas de seguimiento de pedidos y mensajes de acción.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: design, replenishment, reordering
 ms.date: 11/05/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: f44bbe229db6067531e894be9ae768eb909727e7
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805859"
 ---
 # <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Detalles de diseño: Reserva, seguimiento de pedidos y mensajes de acciones
 El sistema de reservas es completo e incluye las características correlacionadas y paralelas de seguimiento de pedidos y mensajes de acción.  
@@ -232,4 +232,3 @@ En la página **Configuración fabricación**, el campo **Componentes en alm.** 
 ## <a name="see-also"></a>Consulte también  
 [Detalles de diseño: Conceptos centrales del sistema de planificación](design-details-central-concepts-of-the-planning-system.md)   
 [Detalles de diseño: Planificación de aprovisionamiento](design-details-supply-planning.md)
-

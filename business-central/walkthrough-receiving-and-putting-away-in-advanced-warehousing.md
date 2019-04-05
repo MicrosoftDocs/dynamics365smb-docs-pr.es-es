@@ -1,21 +1,21 @@
 ---
-title: "Recepción y ubicación en el almacenamiento avanzado | Documentos de Microsoft"
-description: "En Business Central, los procesos de entrada para la recepción y la ubicación se pueden realizar de cuatro maneras utilizando distintas funciones según el nivel de complejidad del almacén."
+title: Recepción y ubicación en el almacenamiento avanzado | Documentos de Microsoft
+description: En Business Central, los procesos de entrada para la recepción y la ubicación se pueden realizar de cuatro maneras utilizando distintas funciones según el nivel de complejidad del almacén.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
 ms.openlocfilehash: 8d9ce13690a1db0e06d3ea204b0c95ac7cb21d33
-ms.contentlocale: es-es
-ms.lasthandoff: 01/31/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805748"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Tutorial: recepción y ubicación en la configuración del almacenamiento avanzado
 
@@ -55,7 +55,7 @@ En este tutorial, se demuestran las tareas realizadas por los siguientes roles d
 ## <a name="prerequisites"></a>Requisitos previos  
 Para completar este tutorial, necesitará:  
 
--   CRONUS International Ltd. instalado.  
+-   CRONUS España S.A. instalado.  
 -   Para convertirse en un empleado de almacén en el almacén BLANCO, realice los pasos siguientes:  
 
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Empleados de almacén** y luego elija el enlace relacionado.  
@@ -64,7 +64,7 @@ Para completar este tutorial, necesitará:
 4.  Seleccione el campo de **Predeterminado**.  
 
 ## <a name="story"></a>Historia  
-Alicia, el agente de compra en CRONUS International Ltd., crea dos pedidos de compra de productos de accesorio de los proveedores 10000 y 20000 para su entrega al almacén BLANCO. Cuando las salidas llegan al almacén, Sammy, responsable de recibir los productos de los proveedores 10000 y 20000, utiliza un filtro para crear las líneas de recepción para los pedidos de compra que llegan de los dos proveedores. Sammy registra los productos como recibidos en el inventario en una recepción de almacén y pone los productos a disposición para venta u otra demanda. Juan, el empleado del almacén, toma los artículos de la ubicación de recepción y los aparta. Guarda todas las unidades en sus ubicaciones predeterminadas, excepto 40 de las 100 bisagras recibidas, las cuales guarda en el departamento de ensamblado dividiendo la línea de ubicación interna. Cuando Juan registra la ubicación, se actualiza el contenido de la ubicación se y los productos se ponen a disposición para picking del almacén.  
+Alicia, el agente de compra en CRONUS España S.A., crea dos pedidos de compra de productos de accesorio de los proveedores 10000 y 20000 para su entrega al almacén BLANCO. Cuando las salidas llegan al almacén, Sammy, responsable de recibir los productos de los proveedores 10000 y 20000, utiliza un filtro para crear las líneas de recepción para los pedidos de compra que llegan de los dos proveedores. Sammy registra los productos como recibidos en el inventario en una recepción de almacén y pone los productos a disposición para venta u otra demanda. Juan, el empleado del almacén, toma los artículos de la ubicación de recepción y los aparta. Guarda todas las unidades en sus ubicaciones predeterminadas, excepto 40 de las 100 bisagras recibidas, las cuales guarda en el departamento de ensamblado dividiendo la línea de ubicación interna. Cuando Juan registra la ubicación, se actualiza el contenido de la ubicación se y los productos se ponen a disposición para picking del almacén.  
 
 ## <a name="reviewing-the-white-location-setup"></a>Revisar la configuración de la ubicación BLANCA  
 La configuración de la página **Ficha almacén** define los flujos de almacén de la empresa.  
@@ -159,4 +159,3 @@ En la página **Ubicar almacén**, puede administrar ubicaciones para un documen
  [Detalles de diseño: Flujo de entrada en almacén](design-details-inbound-warehouse-flow.md)   
  [Tutorial: recepción y ubicación en la configuración del almacenamiento básico](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)   
  [Tutoriales de procesos empresariales](walkthrough-business-process-walkthroughs.md)
-

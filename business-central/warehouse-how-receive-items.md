@@ -1,23 +1,23 @@
 ---
-title: "Cómo recibir productos | Documentos de Microsoft"
-description: "Cuando los productos llegan al almacén, se recuperan las líneas del documento de origen que ha activado su recepción. "
+title: Cómo recibir productos | Documentos de Microsoft
+description: Cuando los productos llegan al almacén, se recuperan las líneas del documento de origen que ha activado su recepción. 
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: e56105cbd2410befea964c5445d8227021058d4f
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806224"
 ---
 # <a name="receive-items"></a>Recibir productos
 Cuando los artículos llegan a un almacén que no está configurado para el procesamiento de recibo de almacén, simplemente registre el recibo en el documento comercial relacionado, como una orden de compra, una orden de devolución de ventas o una orden de transferencia de entrada.
@@ -84,4 +84,3 @@ Si no utiliza ubicación de almacén, pero sí utiliza ubicaciones, se registra 
 [Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

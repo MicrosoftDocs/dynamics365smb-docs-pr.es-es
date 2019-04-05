@@ -1,8 +1,8 @@
 ---
-title: "Configurar los niveles de organización para las personas de contacto | Documentos de Microsoft"
-description: "Puede definir un nivel de organización y asignarlo a su contacto para indicar la posición que tiene en su empresa, por ejemplo alta gestión."
+title: Configurar los niveles de organización para las personas de contacto | Documentos de Microsoft
+description: Puede definir un nivel de organización y asignarlo a su contacto para indicar la posición que tiene en su empresa, por ejemplo alta gestión.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: relationship, client, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
+ms.openlocfilehash: be0bde09790c68730167709e1e82562a9a39c4e6
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 44da3ed8f78dd685000e5ec27d43e1bb3a5959ba
-ms.contentlocale: es-es
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806117"
 ---
 # <a name="set-up-organizational-levels-for-contact-persons"></a>Configurar niveles de organización en personas de contacto
 Puede usar niveles de organización en sus contactos para especificar su posición en la empresa, por ejemplo, alta gestión. Puede usar esta información al introducir información sobre sus contactos.
@@ -42,7 +42,5 @@ Después de asignar niveles organización a sus contactos, puede utilizar esta i
 Después de asignar responsabilidades cargo a sus contactos puede usar esa información para seleccionar contactos para sus segmentos. Para obtener más información, vea [Agregar contactos a segmentos](marketing-add-contact-segment.md).
 
 ## <a name="see-also"></a>Consulte también
-[Crear empresas de contacto](marketing-create-contact-companies.md)  
-[Crear personas de contacto](marketing-create-contact-persons.md)  
+[Crear contactos](marketing-create-contact-companies.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

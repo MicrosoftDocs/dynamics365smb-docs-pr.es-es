@@ -1,26 +1,26 @@
 ---
 title: Tutoriales de procesos empresariales | Documentos de Microsoft
-description: "En esta selección de tutoriales se proporcionan procesos empresariales completos paso a paso que puede realizar con la empresa de demostración CRONUS International Ltd. Los tutoriales constan de procedimientos múltiples, algunos de los que se realizarían normalmente por un usuario, mientras que otros incorporan distintos roles de usuario. Para simular el entorno de trabajo, algunos de los tutoriales contienen los pasos de configuración necesarios para completar los ejercicios como se describe. Estos pasos pueden proporcionar la mejor perspectiva de la clase de información que necesitan los usuarios para compartir con los profesionales de TI de su empresa."
+description: En esta selección de tutoriales se proporcionan procesos empresariales completos paso a paso que puede realizar con la empresa de demostración CRONUS España S.A. Los tutoriales constan de procedimientos múltiples, algunos de los que se realizarían normalmente por un usuario, mientras que otros incorporan distintos roles de usuario. Para simular el entorno de trabajo, algunos de los tutoriales contienen los pasos de configuración necesarios para completar los ejercicios como se describe. Estos pasos pueden proporcionar la mejor perspectiva de la clase de información que necesitan los usuarios para compartir con los profesionales de TI de su empresa.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
 ms.openlocfilehash: 350ce32ffff947b8e6aa2182d69e238b5782802f
-ms.contentlocale: es-es
-ms.lasthandoff: 01/31/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805612"
 ---
 # <a name="business-process-walkthroughs"></a>Tutoriales de procesos empresariales
-En esta selección de tutoriales se proporcionan procesos empresariales completos paso a paso que puede realizar con la empresa de demostración CRONUS International Ltd. Los tutoriales constan de procedimientos múltiples, algunos de los que se realizarían normalmente por un usuario, mientras que otros incorporan distintos roles de usuario. Para simular el entorno de trabajo, algunos de los tutoriales contienen los pasos de configuración necesarios para completar los ejercicios como se describe. Estos pasos pueden proporcionar la mejor perspectiva de la clase de información que necesitan los usuarios para compartir con los profesionales de TI de su empresa.  
+En esta selección de tutoriales se proporcionan procesos empresariales completos paso a paso que puede realizar con la empresa de demostración CRONUS España S.A. Los tutoriales constan de procedimientos múltiples, algunos de los que se realizarían normalmente por un usuario, mientras que otros incorporan distintos roles de usuario. Para simular el entorno de trabajo, algunos de los tutoriales contienen los pasos de configuración necesarios para completar los ejercicios como se describe. Estos pasos pueden proporcionar la mejor perspectiva de la clase de información que necesitan los usuarios para compartir con los profesionales de TI de su empresa.  
 
  Los tutoriales son ejemplos completos y deben realizarse desde el principio hasta el final para obtener el máximo beneficio. Muchos están basados en demostraciones de [!INCLUDE[d365fin](includes/d365fin_md.md)] y permiten probar los procedimientos a su ritmo.  
 
@@ -46,4 +46,3 @@ En esta selección de tutoriales se proporcionan procesos empresariales completo
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

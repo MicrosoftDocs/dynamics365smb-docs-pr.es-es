@@ -1,23 +1,23 @@
 ---
-title: "Configuración de estados para órdenes y reparaciones de servicio | Documentos de Microsoft"
-description: "Debe configurar nueve opciones de estado de reparación que identifican el progreso de la reparación y el mantenimiento de productos de servicio de pedidos de servicio."
+title: Configuración de estados para órdenes y reparaciones de servicio | Documentos de Microsoft
+description: Debe configurar nueve opciones de estado de reparación que identifican el progreso de la reparación y el mantenimiento de productos de servicio de pedidos de servicio.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 366bf200b78e4927b1c202340dd84af09d32c1a5
-ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805909"
 ---
 # <a name="set-up-statuses-for-service-orders-and-repairs"></a>Configuración de estados para órdenes y reparaciones de servicio
 Debe configurar opciones de estado de reparación que identifican el progreso de la reparación y el mantenimiento de productos de servicio de pedidos de servicio. Debe configurar como mínimo nueve opciones de estado de reparación que identifiquen situaciones o acciones realizadas durante el servicio de productos de servicio.  
@@ -44,4 +44,3 @@ Cuando se modifica el estado de reparación de un producto de servicio de un ped
 ## <a name="see-also"></a>Consulte también  
 [Estado de pedido de servicio y estado de reparación](service-service-order-status-and-repair-status.md)  
 [Configurar la gestión de servicios](service-setup-service.md)  
-

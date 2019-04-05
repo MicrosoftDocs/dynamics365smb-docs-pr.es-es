@@ -1,8 +1,8 @@
 ---
 title: Crear una ficha de cliente para registrar clientes nuevos | Documentos de Microsoft
-description: "Describe cómo crear una ficha de cliente para registrar información acerca de cada cliente nuevo o existente a los que venda productos."
+description: Describe cómo crear una ficha de cliente para registrar información acerca de cada cliente nuevo o existente a los que venda productos.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: client
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 06fe745bca016a776d7a1865141110ec82b1d7d7
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805418"
 ---
 # <a name="register-new-customers"></a>Permite registrar nuevos clientes
 Los clientes son el origen de los ingresos. Debe registrar cada cliente a quien venda como ficha de cliente. Las fichas de cliente contienen la información necesaria para vender productos al cliente. Para obtener más información, vea [Facturar ventas](sales-how-invoice-sales.md) y [Registrar nuevos productos](inventory-how-register-new-items.md).  
@@ -58,4 +58,3 @@ La plantilla de cliente se agrega a la lista de plantillas de cliente, de modo q
 [Ventas](sales-manage-sales.md)    
 [Configuración de ventas](sales-setup-sales.md)    
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

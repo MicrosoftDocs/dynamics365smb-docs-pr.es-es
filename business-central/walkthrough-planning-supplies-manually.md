@@ -1,23 +1,23 @@
 ---
-title: "Tutorial: planificación manual de suministros | Documentos de Microsoft"
-description: "En este tutorial, se demuestra el proceso de planificar pedidos de suministro para cubrir la nueva demanda. Puede iniciar la planificación de suministros a intervalos fijos, por ejemplo, todas las mañanas o todos los lunes, o bien cuando le notifiquen desde ventas o producción, en función del tipo de demanda."
+title: 'Tutorial: planificación manual de suministros | Documentos de Microsoft'
+description: En este tutorial, se demuestra el proceso de planificar pedidos de suministro para cubrir la nueva demanda. Puede iniciar la planificación de suministros a intervalos fijos, por ejemplo, todas las mañanas o todos los lunes, o bien cuando le notifiquen desde ventas o producción, en función del tipo de demanda.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
 ms.openlocfilehash: bed38cf158e5372ff9c4e2f23667fba8af93ec74
-ms.contentlocale: es-es
-ms.lasthandoff: 01/31/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805613"
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Tutorial: planificación manual de suministros
 
@@ -237,4 +237,3 @@ The **Order Planning** page can be accessed from several different locations on 
 ## <a name="see-also"></a>Consulte también  
  [Tutoriales de procesos empresariales](walkthrough-business-process-walkthroughs.md)   
  [Tutorial: planificación automática de suministros](walkthrough-planning-supplies-automatically.md)
-

@@ -1,6 +1,6 @@
 ---
 title: Resumen de tareas para administrar las cuentas por pagar | Documentos de Microsoft
-description: "Describe las tareas para administrar los pagos, por ejemplo, los pagos a acreedores o la liquidación de pagos salientes en movimientos para cerrar facturas o abonos."
+description: Describe las tareas para administrar los pagos, por ejemplo, los pagos a acreedores o la liquidación de pagos salientes en movimientos para cerrar facturas o abonos.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.date: 11/15/2018
+ms.date: 02/08/2019
 ms.author: edupont
+ms.openlocfilehash: 89678ee0055992a03d4f56ecedf15350f7ad348e
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 9bc4eaf292c20c1525c499cde715964eb6e6631f
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805445"
 ---
 # <a name="managing-payables"></a>Administración de pagos
 
@@ -31,12 +31,8 @@ En la tabla siguiente se muestra una secuencia de tareas de cuentas por pagar, c
 | --- | --- |
 | Generar pagos de proveedores o reembolsos a empleados, preparar pagos con cheques y exportar pagos a un archivo bancario al registrarlos. |[Creación de pagos](payables-make-payments.md) |
 | Liquide pagos de proveedores automáticamente con facturas de compra sin abonar importando un archivo de extracto bancario. |[Liquidación de pagos automáticamente y conciliación de cuentas bancarias](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
-|Configure asignaciones entre el texto de los pagos y la cuentas de débito, crédito y saldo específicas para que los pagos se contabilicen en las cuentas específicas cuando contabilice el diario de conciliación de pagos.|[Asignar texto en pagos periódicos a cuentas para conciliación automática](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)|
-| Liquide pagos de proveedor con facturas de compra sin abonar manualmente. |[Conciliar pagos de proveedor manualmente](payables-how-apply-purchase-transactions-manually.md) |
-|Liquide automáticamente los pagos, ya sean entrantes o salientes, que se hayan registrado como transacciones en su cuenta bancaria en línea a sus movimientos de cliente, proveedor y de cuenta bancaria relacionados. La lista se genera a partir de una fuente de banco o un archivo.|[Conciliar los pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md)|
-|Administre manualmente los pagos en su cuenta bancaria que no se pueden liquidar automáticamente, por ejemplo, porque no existe ningún documento con el que se pueda liquidar el pago o porque el documento relacionado tiene un importe diferente al importe de la transacción debido a una diferencia de divisas.|[Conciliar pagos que no se pueden liquidar automáticamente](receivables-how-reconcile-payments-cannot-apply-auto.md)|
+| Liquide pagos de proveedor con facturas de compra sin abonar manualmente. |[Conciliar pagos a proveedores con el diario de pagos o desde los movimientos de proveedor](payables-how-apply-purchase-transactions-manually.md) |
 |Asegúrese de la valoración de inventario correcta mediante la asignación de costes de producto, tales como fletes, manipulación física, seguros y transporte en los que incurra al comprar.|[Usar los cargos de producto a cuenta para los costes comerciales adicionales](payables-how-assign-item-charges.md)|
-|Si necesita pagar al proveedor en efectivo o con cheque, puede registrar el pago cuando registra la factura.|[Liquidar facturas de compra inmediatamente](finance-how-to-settle-purchase-invoices-promptly.md)|
 |Reembolse a los empleados por gastos personales durante las actividades comerciales mediante el pago a su cuenta bancaria.|[Registro y reembolso de los costes de los empleados](finance-how-record-reimburse-employee-expenses.md)|
 
 ## <a name="see-also"></a>Consulte también
@@ -47,4 +43,3 @@ En la tabla siguiente se muestra una secuencia de tareas de cuentas por pagar, c
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

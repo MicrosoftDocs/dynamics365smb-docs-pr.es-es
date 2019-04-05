@@ -1,24 +1,24 @@
 ---
 title: Revisar y personalizar datos de base de datos existentes | Documentos de Microsoft
-description: "A medida que crea un paquete de configuración para una solución, puede ver y personalizar los datos de base de datos disponibles para satisfacer las necesidades del cliente. La tabla de base de datos debe tener una página asociada."
+description: A medida que crea un paquete de configuración para una solución, puede ver y personalizar los datos de base de datos disponibles para satisfacer las necesidades del cliente. La tabla de base de datos debe tener una página asociada.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: admin-how-to-create-custom-company-configuration-packages
+ms.openlocfilehash: 1f49d437e03ecf45a234574530f1e65d93584dea
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 88b555066b3c41a8b162166f6d137eb8dc33f6de
-ms.contentlocale: es-es
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805749"
 ---
 # <a name="review-and-customize-existing-database-data"></a>Revisar y personalizar datos de base de datos existentes
 A medida que crea un paquete de configuración para una solución, puede ver y personalizar los datos de base de datos disponibles para satisfacer las necesidades del cliente. La tabla de base de datos debe tener una página asociada.  
@@ -38,4 +38,3 @@ A medida que crea un paquete de configuración para una solución, puede ver y p
 
 ## <a name="see-also"></a>Consulte también  
  [Gestionar la configuración de la empresa en una hoja de trabajo](admin-how-to-manage-company-configuration-in-a-worksheet.md)
-

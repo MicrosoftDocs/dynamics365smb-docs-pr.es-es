@@ -1,8 +1,8 @@
 ---
-title: "Comprobar automáticamente los pagos liquidados y liquidar de nuevo los pagos manualmente | Documentos de Microsoft"
-description: "Una vez que los pagos se liquiden automáticamente, puede revisar todos los movimientos de un pago y volver a liquidar manualmente los que se han aplicado incorrectamente."
+title: Comprobar automáticamente los pagos liquidados y liquidar de nuevo los pagos manualmente | Documentos de Microsoft
+description: Una vez que los pagos se liquiden automáticamente, puede revisar todos los movimientos de un pago y volver a liquidar manualmente los que se han aplicado incorrectamente.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: payment process, reconcile payment, expenses, cash receipts
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 4ac7d32decd6c6ba7161398836f70c847f4b4436
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806238"
 ---
 # <a name="review-or-apply-payments-manually-after-automatic-application"></a>Revisar o liquidar pagos manualmente después de una liquidación automática
 Para cada línea de diario que representa un pago en la página **Diario de conciliación de pagos** podrá abrir la página **Liquidación de pago** para ver todos los candidatos con movimientos pendientes de pago y podrá ver información detallada para cada movimiento sobre la correspondencia de datos en la que se basa la liquidación de un pago. Aquí puede liquidar manualmente pagos o volver a liquidar pagos que se aplicaron automáticamente en un movimiento incorrecto. Para obtener más información acerca de la liquidación automática, vea [Conciliar pagos usando la liquidación automática](receivables-how-reconcile-payments-auto-application.md).
@@ -55,4 +55,3 @@ Se cierra la página **Liquidación de pagos** y, en la página **Diario de conc
 [Administrar cobros](receivables-manage-receivables.md)  
 [Ventas](sales-manage-sales.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

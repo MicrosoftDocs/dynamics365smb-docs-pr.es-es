@@ -1,7 +1,7 @@
 ---
-title: "Crear series numéricas | Documentos de Microsoft"
-description: "Obtenga información sobre cómo configurar series de números que asignan códigos de identificador único a las cuentas y los documentos en Business Central."
-documentationcenter: 
+title: Crear series numéricas | Documentos de Microsoft
+description: Obtenga información sobre cómo configurar series de números que asignan códigos de identificador único a las cuentas y los documentos en Business Central.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: numbers, numbering
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 46131d6ad5f77a02ffe33d24f1210a226c3041c1
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805679"
 ---
 # <a name="create-number-series"></a>Crear numeración
 Para cada empresa configurada, se necesitan asignar códigos de identificación exclusivos a elementos como cuentas de contabilidad, cuentas de proveedores y clientes, facturas y otros documentos. La numeración es importante no sólo para la identificación. Un sistema de numeración bien diseñado también permite facilitar la gestión y el análisis de la empresa, y puede reducir el número de errores que se producen en la introducción de datos.
@@ -75,4 +75,3 @@ En lo sucesivo, cuando configure algo que requiera un número, podrá utilizar l
 ## <a name="see-also"></a>Consulte también
 [Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

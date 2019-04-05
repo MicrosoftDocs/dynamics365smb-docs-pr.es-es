@@ -1,8 +1,8 @@
 ---
 title: Resumen de informes para preparar los extractos de cierre | Documentos de Microsoft
-description: "Proporciona un resumen de los informes que puede utilizar para recopilar la información necesaria para preparar los extractos de cierre de su empresa cuando cierre el ejercicio."
+description: Proporciona un resumen de los informes que puede utilizar para recopilar la información necesaria para preparar los extractos de cierre de su empresa cuando cierre el ejercicio.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 2129b0ea989076e69588c17b0f4a8e72f38a8a9a
-ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805937"
 ---
 # <a name="preparing-closing-statements"></a>Preparación de extractos de cierre
 Existen numerosos informes estándar que puede utilizar para recopilar la información necesaria para preparar las declaraciones de cierre de su empresa.
@@ -40,4 +40,3 @@ Para ver informe, elija el icono ![bombilla que abre la función Dígame](media/
 [Cerrar años y periodos](year-close-years-periods.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Inteligencia empresarial](bi.md)
-

@@ -1,23 +1,23 @@
 ---
-title: "Establecer la configuración de una empresa | Documentos de Microsoft"
-description: "El proceso de implementación comienza con la solución Business Central requerida. Toda esta información se agrupa en paquetes de configuración."
+title: Establecer la configuración de una empresa | Documentos de Microsoft
+description: El proceso de implementación comienza con la solución Business Central requerida. Toda esta información se agrupa en paquetes de configuración.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: c96d0c5f188b3fb0df0c5d4578a0bdeed7fc7599
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 518acdc1733a526f1b0b4c5caa3a7644d762b72c
-ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806215"
 ---
 # <a name="set-up-company-configuration"></a>Establecer la configuración de una empresa
 El proceso de la implementación comienza con el socio de Microsoft. El socio es responsable de analizar los detalles de configuración y crear un paquete que un cliente podrá aplicar fácilmente. Antes de crear una nueva empresa, debe planificar su configuración. Debe tener en cuenta los datos de configuración básica y tipos de datos que necesitará la solución [!INCLUDE[d365fin](includes/d365fin_md.md)]. Toda esta información se agrupa en paquetes de configuración.
@@ -40,4 +40,3 @@ En la tabla siguiente se muestra una secuencia de tareas con vínculos a los tem
 ## <a name="see-also"></a>Consulte también  
 [Configurar una empresa con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administración](admin-setup-and-administration.md)
-

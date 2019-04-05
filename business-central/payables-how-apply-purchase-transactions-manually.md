@@ -1,8 +1,8 @@
 ---
-title: Conciliar pagos de proveedor manualmente | Documentos de Microsoft
+title: Conciliar pagos a proveedores con el diario de pagos o desde los movimientos de proveedor | Documentos de Microsoft
 description: Para procesar, hacer coincidir o conciliar pagos o reembolsos de proveedor manualmente, liquide el importe con uno o varios movimientos de proveedores abiertos.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,14 +12,14 @@ ms.workload: na
 ms.search.keywords: payment application, payment processing, match payments
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: e8c740bd32aeceb273f3accbda7b912350c9be12
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: cb62661da68e1fd5255e285288de5089e8547b64
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806284"
 ---
-# <a name="reconcile-vendor-payments-manually"></a>Conciliar pagos de proveedor manualmente
+# <a name="reconcile-vendor-payments-with-the-payment-journal-or-from-vendor-ledger-entries"></a>Conciliar pagos a proveedores con el diario de pagos o desde los movimientos de proveedor
 Cuando envía un pago o recibe un reembolso de un proveedor, debe decidir si va a liquidar uno o varios movimientos pendientes con el pago o el reembolso. Puede especificar el importe exacto que desea liquidar con el albarán de pago o el reembolso, y liquidar sólo parcialmente movimientos del proveedor. Debe liquidar todos los movimientos de proveedores para obtener estadísticas e informes correctos de los extractos de cuentas y los intereses.
 
 > [!NOTE]  
@@ -123,4 +123,3 @@ Cuando se deshace una liquidación errónea, se crean y registran movimientos de
 [Pagos](payables-manage-payables.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

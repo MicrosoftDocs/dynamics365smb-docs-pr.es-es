@@ -1,21 +1,21 @@
 ---
-title: "Asignación de campos al importar archivos CAMT de SEPA | Documentos de Microsoft"
-description: "En los mercados europeos, puede importar los archivos de extractos bancarios en las normas regionales SEPA (zona única de pagos en euros)."
+title: Asignación de campos al importar archivos CAMT de SEPA | Documentos de Microsoft
+description: En los mercados europeos, puede importar los archivos de extractos bancarios en las normas regionales SEPA (zona única de pagos en euros).
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: e2fcfb5e896f6da2f953ad15fb46bcd9b34be047
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805595"
 ---
 # <a name="field-mapping-when-importing-sepa-camt-files"></a>Asignación de campos al importar archivos CAMT de SEPA
 [!INCLUDE[d365fin](includes/d365fin_md.md)] admite los estándares de SEPA (zona única de pagos en euros) regional para importar los extractos de cuenta de SEPA (formato CAMT). Para obtener más información, vea [Configuración del servicio de conversión de datos bancarios](bank-how-setup-bank-data-conversion-service.md).  
@@ -64,4 +64,3 @@ ms.lasthandoff: 11/26/2018
 [Configurar el servicio de conversión de datos bancarios](bank-how-setup-bank-data-conversion-service.md)   
 [Uso de esquemas XML para preparar definiciones de intercambio de datos](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Conciliar los pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md)  
-

@@ -1,8 +1,8 @@
 ---
 title: Registrar el uso facturable y presupuestado de los recursos de proyecto | Documentos de Microsoft
-description: "Describe cómo registrar el consumo o el uso de productos o recursos en proyectos para facilitar la administración de proyectos."
+description: Describe cómo registrar el consumo o el uso de productos o recursos en proyectos para facilitar la administración de proyectos.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: project management, consumption
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: f1b3864eadd616273c3a4a7d061623dab701d01e
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806183"
 ---
 # <a name="record-usage-for-jobs"></a>Registro del uso para proyectos
 En la página **Líneas planificación proyecto**, puede revisar y registrar la utilización en las diferentes partes de su proyecto, que se actualiza automáticamente cuando modifica y transfiere la información entre proyectos y diarios de proyectos o facturas del proyecto. Para ello es necesario que haya configurado un proyecto para que **Aplicar vínculo uso de forma pred.** se active. Para obtener más información, consulte [Configurar trabajos](projects-how-setup-jobs.md).  
@@ -91,4 +91,3 @@ Después de haber registrado las líneas de diario de proyectos, puede ver las l
 [Compras](purchasing-manage-purchasing.md)         
 [Ventas](sales-manage-sales.md)      
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

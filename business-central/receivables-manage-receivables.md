@@ -2,7 +2,7 @@
 title: Resumen de tareas para administrar los cobros | Documentos de Microsoft
 description: Describe tareas para administrar los cobros y liquidar los pagos en los movimientos de cliente o proveedor.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer payment, debtor, balance due, AR
-ms.date: 11/28/2018
+ms.date: 02/08/2019
 ms.author: sgroespe
+ms.openlocfilehash: da253074b383cb81980e6d41eae460b344b7ee31
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
-ms.openlocfilehash: 5621345418f8da0165fa5685fd3b4a50dd43ae9d
-ms.contentlocale: es-es
-ms.lasthandoff: 11/29/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805529"
 ---
 # <a name="managing-receivables"></a>Administrar cobros
 Un paso normal en el ritmo financiero es conciliar las cuentas bancarias, lo que requiere liquidar pagos entrantes en las movimientos de cliente o propiedad para cerrar las facturas de venta y los abonos de compra como pagados.
@@ -39,21 +39,18 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 | Para | Vea |
 | --- | --- |
 | Liquide pagos para abrir los movimientos de clientes o proveedores basados en un archivo o fuente de extracto bancario importado y concilie la cuenta bancaria cuando se apliquen todos los pagos. |[Liquidación de pagos automáticamente y conciliación de cuentas bancarias](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
-|Configure asignaciones entre el texto de los pagos y la cuentas de débito, crédito y saldo específicas para que los pagos se contabilicen en las cuentas específicas cuando contabilice el diario de conciliación de pagos.|[Asignar texto en pagos periódicos a cuentas para conciliación automática](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)|
-|En la página **Liquidación de pago**, consulte todos los movimientos pendientes candidatos para el pago y ver información detallada para cada movimiento sobre la correspondencia de datos en la que se basa la liquidación de un pago.|[Revisar o liquidar pagos manualmente después de una liquidación automática](receivables-how-review-apply-payments-auto-application.md)|
-| Liquide pagos para abrir movimientos de cliente basados en una introducción manual de datos en una lista de documentos de ventas sin pagar. |[Conciliar pagos manualmente de una lista de documentos de venta sin abonar](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md) |
-| Registre reembolsos o recibos de efectivo de clientes en el diario de cobros y aplíquelos a movimientos de cliente, ya sea desde el diario o desde movimientos registrados. |[Conciliar pagos de cliente manualmente](receivables-how-apply-sales-transactions-manually.md) |
+| Liquide los pagos para abrir los movimientos de un cliente según una lista de documentos de ventas pendientes de pago en la página **Registro de pagos**. |[Conciliar pagos de cliente desde una lista de documentos de venta sin abonar](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md) |
+| Registre reembolsos o recibos de efectivo de clientes en el diario de cobros y aplíquelos a movimientos de cliente, ya sea desde el diario o desde movimientos registrados. |[Concilie los pagos de clientes con el diario de recibos de efectivo o de los movimientos de cliente.](receivables-how-apply-sales-transactions-manually.md) |
 | Recordar a los clientes los importes vencidos, calcular intereses y administrar los cobros. |[Cobrar saldos pendientes](receivables-collect-outstanding-balances.md) |
-| Predecir cuando los pagos se realizarán tarde para los documentos de ventas. | [Extensión de Predicción de pagos atrasados](ui-extensions-late-payment-prediction.md) |
-|Con el consentimiento de sus clientes, los pagos se cobran directamente al banco del cliente, solo en euros.|[Cobro de pagos mediante adeudo directo SEPA](finance-collect-payments-with-sepa-direct-debit.md)|
+|Con el consentimiento de sus clientes, los pagos se cobran directamente al banco del cliente, solo en euros.|[Cobrar pagos mediante adeudo directo SEPA](finance-collect-payments-with-sepa-direct-debit.md)|
 |Bloquear a un cliente para que no pueda entrar en documentos o publicaciones, por ejemplo porque es insolvente.|[Bloquear clientes](receivables-how-block-customers.md)|
 |Asegúrese de que conoce el coste de los productos enviados mediante la asignación de costes de producto, tales como fletes, manipulación física, seguros y transporte en los que incurra después de la venta.|[Usar los cargos de producto a cuenta para los costes comerciales adicionales](payables-how-assign-item-charges.md)|
 |Configure una tolerancia por la que el sistema cierre una factura aunque el pago, incluido el descuento, no cubra totalmente el importe de la factura.|[Trabajar con tolerancias de pago y tolerancias de descuento de pago](finance-payment-tolerance-and-payment-discount-tolerance.md)|
+| Predecir cuando los pagos se realizarán tarde para los documentos de ventas. | [Extensión de Predicción de pagos atrasados](ui-extensions-late-payment-prediction.md) |
 ## <a name="see-also"></a>Consulte también
-[Ccial](sales-manage-sales.md)  
+[Ventas](sales-manage-sales.md)  
 [Administrar pagos](payables-manage-payables.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

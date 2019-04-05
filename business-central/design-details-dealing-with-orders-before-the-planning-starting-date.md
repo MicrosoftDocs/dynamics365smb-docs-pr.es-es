@@ -1,8 +1,8 @@
 ---
-title: "Detalles de diseño: Gestión de pedidos antes de la fecha de inicio de la planificación | Documentos de Microsoft"
-description: "En este tema se describen las reglas que la planificación aplica a los pedidos en la zona congelada."
+title: 'Detalles de diseño: Gestión de pedidos antes de la fecha de inicio de la planificación | Documentos de Microsoft'
+description: En este tema se describen las reglas que la planificación aplica a los pedidos en la zona congelada.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: planning, frozen, design serial, lot
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
+ms.openlocfilehash: 9fee9eff60b441ef2d4782a77a6fbbbe8b01af03
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4fc4afa14f9f2a989fae0b1ca8ee0e61fe24fd21
-ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806261"
 ---
 # <a name="design-details-dealing-with-orders-before-the-planning-starting-date"></a>Detalles de diseño: Gestión de pedidos antes de la fecha de inicio de planificación
 Para evitar que un plan de suministro muestre sugerencias imposibles y, por tanto, de poca utilidad, el sistema de planificación considera el periodo hasta la fecha inicial como una zona congelada donde no hay nada planificado. La regla siguiente se aplica a la zona congelada:  
@@ -42,4 +42,3 @@ Si se requieren números de serie y de lote o si hay un vínculo de pedido a ped
 [Detalles de diseño: Equilibrio de aprovisionamiento y demanda](design-details-balancing-demand-and-supply.md)   
 [Detalles de diseño: Conceptos centrales del sistema de planificación](design-details-central-concepts-of-the-planning-system.md)   
 [Detalles de diseño: Planificación de aprovisionamiento](design-details-supply-planning.md)
-

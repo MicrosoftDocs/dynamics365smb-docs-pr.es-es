@@ -1,23 +1,23 @@
 ---
-title: "Cómo configurar calendario base | Documentos de Microsoft"
-description: "Puede asignar un calendario base a la empresa y a los socios comerciales, como clientes, proveedores o almacenes. Se calculan las fechas de entrega y de recepción de futuros pedidos de venta, pedidos de compra, pedidos de transferencia y líneas de órdenes de producción según los días laborables especificados en el calendario."
+title: Cómo configurar calendario base | Documentos de Microsoft
+description: Puede asignar un calendario base a la empresa y a los socios comerciales, como clientes, proveedores o almacenes. Se calculan las fechas de entrega y de recepción de futuros pedidos de venta, pedidos de compra, pedidos de transferencia y líneas de órdenes de producción según los días laborables especificados en el calendario.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 2b00871f4074af32500678642cae63850956bfce
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 2b1820a65fd1e9cd4e41828caddd737e79a2a45b
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806260"
 ---
 # <a name="set-up-base-calendars"></a>Configurar calendarios base
 Puede asignar un calendario base a la empresa y a los socios comerciales, como clientes, proveedores o almacenes. Se calculan las fechas de entrega y de recepción de futuros pedidos de venta, pedidos de compra, pedidos de transferencia y líneas de órdenes de producción según los días laborables especificados en el calendario. La tarea principal en la configuración de un calendario base nuevo es especificar y definir los días no laborables que desea aplicar.  
@@ -41,7 +41,7 @@ Cuando se realice un movimiento, se selecciona el campo **No laborables**. Puede
 
 > [!IMPORTANT]  
 >  Los calendarios base definidos para un proveedor o ubicación afecta en cómo se calculan las fechas y se redondea a los días laborables.
-Especifica una fórmula de fecha con el tiempo que se tarda en reponer el producto. Se utiliza para calcular el campo **Fecha de recepción planificada**, si se calcula hacia adelante, y el campo **Fecha de pedido**, si calcula hacia atrás. Consulte la sección "Cálculo del plazo de entrega”.
+Especifica una fórmula de fecha con el tiempo que se tarda en reponer el producto. Se utiliza para calcular el campo **Fecha de recepción planificada**, si se calcula hacia adelante, y el campo **Fecha de pedido**, si calcula hacia atrás. Consulte [Plazo entrega (días)](across-how-to-assign-base-calendars.md#lead-time-calculation).
 
 ## <a name="lead-time-calculation"></a>Plazo entrega (días)
 Los calendarios base definidos para un proveedor o ubicación afecta en cómo se calculan las fechas y se redondea a los días laborables. Del mismo modo, los dos campos clave de fecha de las líneas de pedido de compra se calculan como sigue en distintas condiciones.
@@ -55,7 +55,7 @@ Los calendarios base definidos para un proveedor o ubicación afecta en cómo se
 > Además del plazo de entrega que afecte a la fecha de envío planificada y fecha de pedido, como se muestra en la tabla descritas anteriormente, tiempo de manipulación en almacén y plazo de seguridad se pueden agregar a las fórmulas para conformar el valor del campo **Fecha de recepción esperada**, como se indica a continuación: Fecha de recepción planificada + plazo de seguridad + tiempo de manipulación en el almacén = Fecha de recepción esperada.
 
 > [!Important]
-> Si su almacén utiliza un calendario significativamente distinto al de sus proveedores, entonces es importante que se definan los calendarios concretos para esos proveedores, para calcular el plazo de proveedor óptimo. Para obtener información acerca de cómo configurar calendarios de proveedor, consulte la sección “Asignar un calendario base.”
+> Si su almacén utiliza un calendario significativamente distinto al de sus proveedores, entonces es importante que se definan los calendarios concretos para esos proveedores, para calcular el plazo de proveedor óptimo. Para obtener información acerca de cómo configurar calendarios de proveedor, consulte [Asignar un calendario base](across-how-to-assign-base-calendars.md#to-assign-a-base-calendar).
 
 El contenido del campo **Cálculo del plazo de entrega** se copia de la ficha de producto o de la ficha SKU, si el plazo se define para el producto, o en la página **Catálogo de productos del proveedor**, si el plazo se define para el proveedor.
 
@@ -119,4 +119,3 @@ Los calendarios base se asignan a su propia empresa, clientes, proveedores, alma
 [Fabricación](production-manage-manufacturing.md)    
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

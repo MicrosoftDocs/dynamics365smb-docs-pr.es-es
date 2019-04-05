@@ -1,7 +1,7 @@
 ---
-title: "Elegir la experiencia de usuario para mostrar u ocultar características avanzadas | Documentos de Microsoft"
-description: "Obtenga información sobre lo que significan las capas de experiencia de usuario Esencial y Premium para la interfaz de usuario, las áreas de aplicación y su empresa."
-documentationcenter: 
+title: Elegir la experiencia de usuario para mostrar u ocultar características avanzadas | Documentos de Microsoft
+description: Obtenga información sobre lo que significan las capas de experiencia de usuario Esencial y Premium para la interfaz de usuario, las áreas de aplicación y su empresa.
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,17 +9,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 02/04/2019
+ms.date: 03/01/2019
 ms.author: edupont
+ms.openlocfilehash: bec47d64f2ba038e1c3b7288ce466e2f212b2b19
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: ce612d546349d05883016646fe14a35553c2f55a
-ms.openlocfilehash: 3317df5f54a359e5b143d5b288a378a350d49440
-ms.contentlocale: es-es
-ms.lasthandoff: 02/04/2019
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805490"
 ---
 # <a name="changing-which-features-are-displayed"></a>Cambiar las funciones que se muestran
-[!INCLUDE[d365fin](includes/d365fin_md.md)] está diseñado para ayudarle a dirigir su empresa, independientemente de la línea de negocio en la que se encuentre. En el núcleo de [!INCLUDE[d365fin](includes/d365fin_md.md)], se encuentran los informes financieros y los procesos de ventas y compras. Agregue experiencias según las necesidades de su negocio con extensiones de AppSource o cambiando la configuración de Experiencia para su empresa. Para obtener más información, vea [Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones](ui-extensions.md), o la sección siguiente "Elegir una experiencia de usuario para mostrar u ocultar características".
+[!INCLUDE[d365fin](includes/d365fin_md.md)] está diseñado para ayudarle a dirigir su empresa, independientemente de la línea de negocio en la que se encuentre. En el núcleo de [!INCLUDE[d365fin](includes/d365fin_md.md)], se encuentran los informes financieros y los procesos de ventas y compras. Agregue experiencias según las necesidades de su negocio con extensiones de AppSource o cambiando la configuración de Experiencia para su empresa. Para obtener más información, vea [Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones](ui-extensions.md) o [Elegir una experiencia de usuario para mostrar u ocultar características](ui-experiences.md#choosing-a-user-experience-to-show-or-hide-features).
 
 ## <a name="choosing-a-user-experience-to-show-or-hide-features"></a>Elegir una experiencia de usuario para mostrar u ocultar características
 La experiencia de usuario determina qué parte de la funcionalidad básica está disponible cuando usted y sus compañeros usan [!INCLUDE[d365fin](includes/d365fin_md.md)]. Puede elegir la experiencia de usuario de su empresa en la página **Información empresa**, en el campo **Experiencia**.
@@ -71,4 +71,3 @@ Todas las descripciones de funciones que aparecen en la documentación de [!INCL
 [[!INCLUDE[d365fin](includes/d365fin_md.md)], guía de licencia](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

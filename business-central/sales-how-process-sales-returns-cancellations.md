@@ -1,6 +1,6 @@
 ---
 title: Proceso de devoluciones o cancelaciones de ventas | Documentos de Microsoft
-description: "Describe cómo crear un abono de ventas, directamente o a través de un pedido de devolución de ventas, para procesar una devolución, una cancelación o un reembolso de productos o servicios de los que ha recibido el pago."
+description: Describe cómo crear un abono de ventas, directamente o a través de un pedido de devolución de ventas, para procesar una devolución, una cancelación o un reembolso de productos o servicios de los que ha recibido el pago.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 46ea7cb3402f65d897cc8519a062ebbf8fb9b383
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 1c1bcb570f06719cfbb8930667a2f2847003d93c
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806075"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Procesamiento de devoluciones de ventas o cancelaciones
 Si un cliente desea devolver u obtener un reembolso de algún producto o servicio que usted ha vendido y que le han pagado, debe crear y registrar una abono de ventas que especifique el cambio requerido. Para incluir la información correcta de la factura de ventas, puede crear la nota de crédito de ventas directamente de la factura de venta contabilizada o puede crear una nueva nota de crédito de ventas con información de factura copiada.
 
-Si necesita más control del proceso de devolución de ventas, como documentos de almacén para el manejo de artículos o una mejor descripción al recibir productos de varios documentos de ventas con una sola devolución de ventas, puede crear órdenes de devolución de ventas. Una orden de devolución de ventas emite automáticamente la nota de crédito de ventas relacionada y otros documentos relacionados con la devolución, como una orden de venta de reemplazo, si es necesario. Para obtener más información, consulte la sección "Para crear un pedido de devolución de ventas basado en uno o más documentos de ventas publicados".
+Si necesita más control del proceso de devolución de ventas, como documentos de almacén para el manejo de artículos o una mejor descripción al recibir productos de varios documentos de ventas con una sola devolución de ventas, puede crear órdenes de devolución de ventas. Una orden de devolución de ventas emite automáticamente la nota de crédito de ventas relacionada y otros documentos relacionados con la devolución, como una orden de venta de reemplazo, si es necesario. Para obtener más información, consulte [Para crear un pedido de devolución de ventas basado en uno o más documentos de ventas publicados](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-return-order-based-on-one-or-more-a-posted-sales-documents).
 
 > [!NOTE]  
 >   Si una factura de venta registrada aún no se ha pagado, puede usar las funciones **Corregir** o **Cancelar** en la factura de venta registrada para revertir las transacciones. Estas funciones solo funcionan para las facturas sin pagar y no admiten devoluciones o cancelaciones parciales. Para obtener más información, vea [Corregir o cancelar las facturas de venta sin abonar](sales-how-correct-cancel-sales-invoice.md)
@@ -40,7 +40,7 @@ Existen dos funciones para asignar la reversión de coste exacta automáticament
 
 |Función|Description|  
 |------------------|---------------------------------------|  
-|Función **Revertir líneas documentos registrados** en la página **Pedido dev. venta**|Copia una o varias líneas de documentos registrados para revertirlas en el pedido de devolución de ventas. Para obtener más información, consulte la sección "Para crear un pedido de devolución de ventas y el abono de venta relacionado, para uno o varias facturas de ventas registradas".|  
+|Función **Revertir líneas documentos registrados** en la página **Pedido dev. venta**|Copia una o varias líneas de documentos registrados para revertirlas en el pedido de devolución de ventas. Para obtener más información, consulte [Para crear un pedido de devolución de ventas basado en uno o más facturas de ventas publicadas](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-return-order-based-on-one-or-more-a-posted-sales-documents).|  
 |Función**Copiar líneas** en las páginas **Abono venta** y **Pedido dev. venta**.|Copia la cabecera y las líneas de un documento registrado que se revertirá.<br /><br /> Requiere que se active la casilla de verificación **Coste exacto devol. obligatorio** en la página **Configuración ventas y cobros**.|
 
 Para asignar manualmente la reversión del coste exacto, debe elegir el campo **Liquid.-de mov. pdto** en cualquier tipo de línea de documento, y seleccionar el número del movimiento de venta original. De este modo el pedido de abono de venta o de devolución de venta se vincula al movimiento de venta original y se asegura que el producto se valore con el coste unitario original.
@@ -78,9 +78,9 @@ Los documentos de venta registrados a los que ha aplicado el abono están invert
 6. Elija el campo **Nº documento** para abrir la página **Histórico facturas venta** y seleccione la factura de venta registrada que contiene las líenas que desea revertir.
 7. Seleccione la casilla **Recalcular líneas** si desea que las líneas de factura de venta registradas copiadas se actualicen con los cambios en el precio y el coste unitario del producto desde que la factura fue registrada.
 8. Elija el botón **Aceptar**. Las líneas de factura copiadas se insertarán en el abono de venta.
-9. Complete el abono de venta como se explica en la sección "Para crear un abono de ventas de una factura de ventas registrada" en este tema.
+9. Complete el abono de venta como se explica en [Para crear un abono de ventas de una factura de ventas registrada](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-credit-memo-from-a-posted-sales-invoice).
 
-## <a name="to-create-a-sales-return-order-based-on-one-or-more-a-posted-sales-documents"></a>Crear un pedido de devolución de ventas basado en uno o más documentos de ventas publicados
+## <a name="to-create-a-sales-return-order-based-on-one-or-more-posted-sales-documents"></a>Crear un pedido de devolución de ventas basado en uno o más documentos de ventas publicados
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos dev. venta** y luego elija el enlace relacionado.
 2. Seleccione la acción **Nuevo**.  
 3. Rellen los campos de la ficha desplegable **General**.
@@ -220,4 +220,3 @@ También puede eliminar los pedidos de devolución de venta individuales manualm
 [Configuración de ventas](sales-setup-sales.md)  
 [Enviar documentos por correo electrónico](ui-how-send-documents-email.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

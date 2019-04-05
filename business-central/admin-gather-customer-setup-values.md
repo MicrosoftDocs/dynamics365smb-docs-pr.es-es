@@ -1,23 +1,23 @@
 ---
-title: "Recopilación de valores de configuración de cliente | Documentos de Microsoft"
-description: "Utilice el cuestionario de configuración para ayudar a reducir su carga de trabajo de implementación agilizando la tarea de configurar la empresa nueva. Puede generar el cuestionario de configuración en Business Central y después proporcionárselo al cliente como un archivo de Excel (.xls) o XML."
+title: Recopilación de valores de configuración de cliente | Documentos de Microsoft
+description: Utilice el cuestionario de configuración para ayudar a reducir su carga de trabajo de implementación agilizando la tarea de configurar la empresa nueva. Puede generar el cuestionario de configuración en Business Central y después proporcionárselo al cliente como un archivo de Excel (.xls) o XML.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 9231f63266ba030bbf4b3ca41641d5210bcd49b8
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806031"
 ---
 # <a name="gather-customer-setup-values"></a>Recopilación de valores de configuración de cliente
 Utilice el cuestionario de configuración para ayudar a reducir su carga de trabajo de implementación agilizando la tarea de configurar la empresa nueva. Puede generar el cuestionario de configuración en [!INCLUDE[d365fin](includes/d365fin_md.md)] y después proporcionárselo al cliente como un archivo de Excel o XML.  
@@ -121,4 +121,3 @@ Ahora ha definido la configuración con la información y las reglas de negocio 
 ## <a name="see-also"></a>Consulte también  
 [Configurar una empresa con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administración](admin-setup-and-administration.md)
-

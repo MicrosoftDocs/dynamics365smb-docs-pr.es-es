@@ -1,23 +1,23 @@
 ---
-title: "Preparar un paquete de configuración | Documentos de Microsoft"
-description: "Cuando se configura una nueva empresa, se reconocen y se procesan las relaciones de tabla. Los datos se importan y se aplican en el orden correcto. Si en el paquete de configuración se incluyen tablas de dimensión, estas también se importan."
+title: Preparar un paquete de configuración | Documentos de Microsoft
+description: Cuando se configura una nueva empresa, se reconocen y se procesan las relaciones de tabla. Los datos se importan y se aplican en el orden correcto. Si en el paquete de configuración se incluyen tablas de dimensión, estas también se importan.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: b1dbe67852e197ab52aff58131576ffd6b9c49c4
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: ea4a7671788ba5c4bd251a83dab1f2616cfbe706
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806039"
 ---
 # <a name="prepare-a-configuration-package"></a>Preparar un paquete de configuración
 Cuando se configura una nueva empresa, se reconocen y se procesan las relaciones de tabla. Los datos se importan y se aplican en el orden correcto. Si en el paquete de configuración se incluyen tablas de dimensión, estas también se importan.  
@@ -93,7 +93,7 @@ Use la hoja de trabajo de configuración para recopilar y clasificar la informac
 3.  En el campo **Tipo línea**, elija **Grupo**. Especifique un nombre descriptivo en el campo **Nombre**.  
 4.  En el campo **Tipo línea**, elija **Tabla**. En el campo **Id. tabla**, seleccione la tabla que desee incluir en la hoja de trabajo.  
 
-Ahora puede asignar las tablas a paquetes de configuración específicos que se ha creado o tiene previsto crear. Para obtener más información, consulte la sección "Procedimiento para asignar una tabla a un paquete de configuración".
+Ahora puede asignar las tablas a paquetes de configuración específicos que se ha creado o tiene previsto crear. Para obtener más información sobre cómo crear un proyecto, consulte [Para asignar una tabla a un paquete de configuración](admin-how-to-prepare-a-configuration-package.md#to-assign-a-table-to-a-configuration-package).
 
 ## <a name="to-work-with-promoted-tables"></a>Procedimiento para trabajar con tablas promocionadas  
 1. Active la casilla **Tabla promocionada** para indicar una tabla que un cliente típico usará con frecuencia durante el proceso de configuración, por ejemplo, la tabla **Cuenta**. Cuando una tabla tiene esta designación, un cliente podrá filtrar fácilmente su hoja de trabajo para ver solo la lista de tablas promocionadas que necesitan atención.  
@@ -103,7 +103,7 @@ Ahora puede asignar las tablas a paquetes de configuración específicos que se 
 Una vez definidas las tablas que se deben procesar como parte de la configuración, puede asignarlas fácilmente a los paquetes de configuración. Puede asignar una tabla únicamente a un solo paquete. En el procedimiento siguiente, asignará el paquete dentro de la hoja de trabajo de configuración.  
 
 > [!NOTE]  
->  También puede crear un paquete directamente y agregarle tablas. Para obtener más información, consulte la sección "Procedimiento para crear un paquete de configuración".
+>  También puede crear un paquete directamente y agregarle tablas. Para obtener más información sobre cómo crear un proyecto, consulte [Para crear un paquete de configuración](admin-how-to-prepare-a-configuration-package.md#to-create-a-configuration-package).
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hoja de configuración** y luego elija el enlace relacionado.
 2. En la hoja de trabajo de configuración, seleccione una línea o un grupo de líneas que desee asignar a un paquete de configuración y elija la acción **Asignar paquete**.  
@@ -139,4 +139,3 @@ Una vez que haya revisado y probado toda la información de configuración, pued
 [Establecer la configuración de una empresa](admin-set-up-company-configuration.md)  
 [Configurar una empresa con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administración](admin-setup-and-administration.md)
-

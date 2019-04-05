@@ -1,23 +1,23 @@
 ---
-title: "Configurar centros de trabajo y de máquina | Documentos de Microsoft"
-description: "En la ficha **Centro trabajo**, se organizan los valores fijos y los requisitos del recurso de producción y, por consiguiente, esta ficha rige la salida de la producción realizada en dicho centro."
+title: Configurar centros de trabajo y de máquina | Documentos de Microsoft
+description: En la ficha **Centro trabajo**, se organizan los valores fijos y los requisitos del recurso de producción y, por consiguiente, esta ficha rige la salida de la producción realizada en dicho centro.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/08/2019
 ms.author: sgroespe
+ms.openlocfilehash: 2b2db4a7750a9313cc5970ef480518cdbbdca959
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 12d192338fc683cd1de8aa8092b781a559872df1
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805769"
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Configuración de centros de trabajo y centros de máquinas
 El programa distingue entre tres tipos de capacidad. Éstas se organizan de manera jerárquica. Cada nivel contiene los niveles subordinados.  
@@ -48,22 +48,22 @@ A continuación se describe principalmente cómo configurar un centro de trabajo
 
 9.  En el campo **Cálculo coste unitario**, indique si el cálculo anterior debe basarse en la cantidad de tiempo empleado: **Tiempo** o en el número de unidades producidas: **Unidades**.  
 10.  Seleccione el campo **Coste unitario específico** si desea definir el coste unitario del centro de trabajo en la línea de ruta donde se va a utilizar. Esto se aplica a las operaciones con unos costes de capacidad radicalmente diferentes de los procesados normalmente en el centro de trabajo.  
-11.  En el campo **Método de baja**, seleccione si el registro de salida de este centro de trabajo se debe calcular y registrar manualmente o automáticamente con alguno de los métodos siguientes.  
+11.  En el campo **Método de baja**, seleccione si el registro de salida de este centro de trabajo se debe calcular y registrar manualmente o automáticamente con alguno de los métodos siguientes.
 
-    |Opción|Descripción|  
-    |----------------------------------|---------------------------------------|  
-    |**Manual**|El consumo se registra manualmente en el diario de salida o en el diario de producción.|
-    |**Anticipada**|El consumo se calcula y se registra automáticamente al lanzar la orden de producción.|  
-    |**Atrás**|El consumo se calcula y se registra automáticamente cuando se finaliza la orden de producción.|  
+|Opción|Descripción|
+|------|-----------|
+|**Manual**|El consumo se registra manualmente en el diario de salida o en el diario de producción.|
+|**Anticipada**|El consumo se calcula y se registra automáticamente al lanzar la orden de producción.|
+|**Atrás**|El consumo se calcula y se registra automáticamente cuando se finaliza la orden de producción.|
 
-    > [!NOTE]  
-    >  Si es necesario, se puede reemplazar el método de baja seleccionado aquí y en la ficha **Producto** para operaciones individuales; para ello, deberá cambiar la configuración en las líneas de ruta.
+> [!NOTE]
+> Si es necesario, se puede reemplazar el método de baja seleccionado aquí y en la ficha **Producto** para operaciones individuales; para ello, deberá cambiar la configuración en las líneas de ruta.
 
 12.  En el campo **Cód. unidad de medida**, especifique la unidad de tiempo en la que se efectúa el cálculo de costes y la planificación de capacidad del centro de trabajo.
     Para poder controlar el consumo constantemente, primero debe configurar un método de medida. Las unidades que se especifican son unidades básicas. Por ejemplo, el tiempo de proceso se mide en horas y minutos.
 
-    > [!NOTE]  
-    > Si decide utilizar Días, recuerde que 1 día = 24 horas, y no 8 (jornada laboral).
+> [!NOTE]  
+> Si decide utilizar Días, recuerde que 1 día = 24 horas, y no 8 (jornada laboral).
 
 13.  En el campo **Capacidad**, puede definir si en el centro de trabajo hay más de una máquina o persona trabajando a la vez. Si la instalación de [!INCLUDE[d365fin](includes/d365fin_md.md)] no tiene la funcionalidad del centro de máquina, el valor de este campo debe ser **1**.  
 14.  En el campo **Eficiencia**, especifique el porcentaje de la salida estándar esperada que este centro de trabajo produce realmente. Si especifica **100**, estará indicando que el centro de trabajo tiene una salida real igual que la salida estándar.  
@@ -106,4 +106,3 @@ Al planificar con recursos de capacidad limitada, el sistema se asegura de que n
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

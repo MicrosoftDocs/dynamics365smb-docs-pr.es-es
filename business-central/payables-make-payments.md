@@ -1,6 +1,6 @@
 ---
 title: Resumen de tareas para administrar los pagos a proveedores | Documentos de Microsoft
-description: "Describe las tareas para administrar los pagos a proveedores o acreedores, incluido el registro de líneas de pago, y obtener un resumen de saldo vencido."
+description: Describe las tareas para administrar los pagos a proveedores o acreedores, incluido el registro de líneas de pago, y obtener un resumen de saldo vencido.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 12/07/2018
+ms.date: 02/08/2019
 ms.author: edupont
+ms.openlocfilehash: f2ff92af7dbf6c751cde795d3546d90c8d76a62b
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 1ad5e15ef1214fb37250dcd4b04d13ab073ac21a
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805691"
 ---
 # <a name="making-payments"></a>Creación de pagos
 
@@ -40,7 +40,6 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Realice pagos electrónicos mediante la exportación de pagos a un archivo de banco que envíe a su banco para su procesamiento, incluido EFT (transferencia electrónica de fondos) en Norteamérica. |[Realizar pagos electrónicos](payables-how-export-payments-bank-file.md)|
 |Realizar pagos electrónicos en función del estándar de transferencia de crédito SEPA de la UE.|[Realizar pagos con Servicio de conversión de datos del banco o Transferencia de crédito SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)|
 | Pague a un proveedor en efectivo o cheque y registre el pago cuando registre la factura. |[Liquidar facturas de compra inmediatamente](finance-how-to-settle-purchase-invoices-promptly.md) |
-|Reembolse a los empleados por gastos personales durante las actividades comerciales mediante el pago a su cuenta bancaria.|[Registro y reembolso de los costes de los empleados](finance-how-record-reimburse-employee-expenses.md)|
 | Asegúrese de que su banco solo compensa cheques e importes validados enviándoles un archivo que contenga la información de proveedor, cheque y pago. |[Exportar un archivo de Positive Pay](finance-how-positive-pay.md) |
 
 ## <a name="see-also"></a>Consulte también
@@ -48,4 +47,3 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 [Compras](purchasing-manage-purchasing.md)  
 [Administrar cobros](receivables-manage-receivables.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

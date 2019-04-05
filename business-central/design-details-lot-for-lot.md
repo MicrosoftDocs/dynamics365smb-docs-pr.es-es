@@ -1,24 +1,24 @@
 ---
-title: "Detalles de diseño: Lote por lote | Documentos de Microsoft"
-description: "Aprender cómo utilizar la directiva de lote por lote para establecer la cantidad del pedido basada en la demanda."
+title: 'Detalles de diseño: Lote por lote | Documentos de Microsoft'
+description: Aprender cómo utilizar la directiva de lote por lote para establecer la cantidad del pedido basada en la demanda.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
+ms.openlocfilehash: 7bc65fdb33b94b313b7d2b5b046156ca1d0788a2
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 712068b5fafb8c5334bf48ddfc9242d21c0995e9
-ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805962"
 ---
 # <a name="design-details-lot-for-lot"></a>Detalles de diseño: Lote por lote
 La directiva de lote por lote es la más flexible porque el sistema solo reacciones ante la demanda real, además de actuar ante la demanda anticipada de los pedidos de previsión y abiertos; a continuación, liquida la cantidad del pedido según la demanda. La directiva de lote por lote está dirigida a los productos A y B, donde el inventario se puede aceptar pero se debe evitar.  
@@ -38,4 +38,3 @@ Dado que la cantidad del pedido de aprovisionamiento se basa en la demanda real,
 [Detalles de diseño: Parámetros de la planificación](design-details-planning-parameters.md)   
 [Detalles de diseño: Gestión de directivas de reaprovisionamiento](design-details-handling-reordering-policies.md)   
 [Detalles de diseño: Planificación de aprovisionamiento](design-details-supply-planning.md)
-

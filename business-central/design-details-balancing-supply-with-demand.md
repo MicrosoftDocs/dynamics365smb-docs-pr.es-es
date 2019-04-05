@@ -1,24 +1,24 @@
 ---
-title: "Detalles de diseño: Equilibrio de aprovisionamiento con demanda | Documentos de Microsoft"
-description: "El núcleo del sistema de planificación implica el equilibrio de la demanda y del suministro mediante la sugerencia de acciones de usuario para revisar los pedidos de suministro en caso de que se produzca un desequilibrio. Se produce por la combinación de variante y de ubicación."
+title: 'Detalles de diseño: Equilibrio de aprovisionamiento con demanda | Documentos de Microsoft'
+description: El núcleo del sistema de planificación implica el equilibrio de la demanda y del suministro mediante la sugerencia de acciones de usuario para revisar los pedidos de suministro en caso de que se produzca un desequilibrio. Se produce por la combinación de variante y de ubicación.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 037ba35395ba84d4f943b0a45a7fb43c24b34385
-ms.contentlocale: es-es
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805598"
 ---
 # <a name="design-details-balancing-supply-with-demand"></a>Detalles de diseño: Equilibrio de aprovisionamiento con demanda
 El núcleo del sistema de planificación implica el equilibrio de la demanda y del suministro mediante la sugerencia de acciones de usuario para revisar los pedidos de suministro en caso de que se produzca un desequilibrio. Se produce por la combinación de variante y de ubicación.  
@@ -118,4 +118,3 @@ Antes de cuadrar el aprovisionamiento por la demanda, el programa elimina todos 
 [Detalles de diseño: Equilibrio de aprovisionamiento y demanda](design-details-balancing-demand-and-supply.md)   
 [Detalles de diseño: Conceptos centrales del sistema de planificación](design-details-central-concepts-of-the-planning-system.md)   
 [Detalles de diseño: Planificación de aprovisionamiento](design-details-supply-planning.md)
-

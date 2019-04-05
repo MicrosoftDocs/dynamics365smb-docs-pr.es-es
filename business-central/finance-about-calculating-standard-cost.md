@@ -1,21 +1,21 @@
 ---
-title: "Acerca de Calcular el coste estándar para más detalles | Documentos de Microsoft"
-description: "Un sistema de costes estándar determina el coste unitario del inventario en función de ciertos costes históricos o esperados razonables. Los estudios sobre costes anteriores y sobre costes futuros previstos pueden ofrecer una base para calcular costes estándar."
+title: Acerca de Calcular el coste estándar para más detalles | Documentos de Microsoft
+description: Un sistema de costes estándar determina el coste unitario del inventario en función de ciertos costes históricos o esperados razonables. Los estudios sobre costes anteriores y sobre costes futuros previstos pueden ofrecer una base para calcular costes estándar.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: d35fdeae364a113fa1abb1d5828182f761331cee
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: be73736f4c56ea78ef2bb2b736b76db0569312ec
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805958"
 ---
 # <a name="about-calculating-standard-cost"></a>Acerca del cálculo de coste estándar
 Muchas empresas de fabricación eligen una base de valoración de coste estándar. Esto también se aplica a las empresas que llevan a cabo la fabricación ligera, como ensamblado y kitting. Un sistema de costes estándar determina el coste unitario del inventario en función de ciertos costes históricos o esperados razonables. Los estudios sobre costes anteriores y sobre costes futuros previstos pueden ofrecer una base para calcular costes estándar. Dichos costes quedan fijos hasta que se tome la decisión de cambiarlos. El coste real para fabricar un producto puede ser diferente de los costes estándar calculados. Para controlar la gestión, el coste real se compara con el coste estándar de un producto en particular, y se identifican y analizan las diferencias o *variaciones*.  
@@ -96,7 +96,7 @@ Para actualizar o calcular el coste estándar de elementos de ensamblado, use la
 El proceso de actualizar o calcular los costes estándar normalmente consiste en las siguientes tareas:  
 
 1.  La actualización de costes en los niveles de componente y de capacidad. Para obtener más información, consulte los procesos **Sugerir coste estándar prod.** y **Sugerir coste estándar capacidad**.  
-2.  Consolidación y distribución de los costes de componentes y de la capacidad para calcular el coste total de fabricación o montaje de los productos. Para obtener más información, consulte la sección "Calcular el coste estándar de un elemento de ensamblado" en [Trabajar con listas de materiales](inventory-how-work-BOMs.md).  
+2.  Consolidación y distribución de los costes de componentes y de la capacidad para calcular el coste total de fabricación o montaje de los productos. Para obtener más información, consulte la sección [Para calcular el coste estándar de un elemento de ensamblado](inventory-how-work-boms.md#to-calculate-the-standard-cost-of-an-assembly-item).  
 3.  La implementación de los costes estándar que se introducen al ejecutar los procesos por lotes anteriores. Los costes estándar no tienen efecto hasta que se implementan. Para obtener más información, consulte el proceso **Implementar cambios de coste estándar**.  
 4.  Implementación de los cambios para actualizar el campo **Coste unitario** en la ficha del producto y realizar una revalorización de inventario. Para obtener más información, vea [Revaluación de inventario](inventory-how-revalue-inventory.md).
 
@@ -105,4 +105,3 @@ El proceso de actualizar o calcular los costes estándar normalmente consiste en
  [Trabajar con listas de materiales](inventory-how-work-BOMs.md)   
  [Actualizar costes estándar](finance-how-to-update-standard-costs.md)   
  [Detalles de diseño: Coste de inventario](design-details-inventory-costing.md)
-

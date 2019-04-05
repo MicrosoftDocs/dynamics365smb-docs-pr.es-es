@@ -1,6 +1,6 @@
 ---
-title: "Acerca de la configuración del impuesto sobre el valor añadido | Documentos de Microsoft"
-description: "Asegúrese de que calcula, registra y crea informes correctamente del IVA de las ventas y las compras."
+title: Acerca de la configuración del impuesto sobre el valor añadido | Documentos de Microsoft
+description: Asegúrese de que calcula, registra y crea informes correctamente del IVA de las ventas y las compras.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,13 @@ ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 5f22880f56cd2834c9bd92061f166cd457bc58c1
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805896"
 ---
-
 # <a name="setting-up-calculations-and-posting-methods-for-value-added-tax"></a>Configurar los cálculos y los métodos de registro del impuesto sobre el valor añadido
 Los consumidores y las empresas pagan el impuesto sobre el valor añadido (IVA) cuando compran mercancías o servicios. El importe de IVA a pagar puede variar, dependiendo de varios factores. En [!INCLUDE[d365fin](includes/d365fin_md.md)], puede configurar el IVA para especificar las tasas que se usarán para calcular los importes de impuesto a partir de lo siguiente:
 
@@ -53,7 +52,7 @@ Para configurar números CIF/NIF, realice los pasos siguientes:
 * **?** Permite cualquier carácter.  
 
     > [!Tip]
-    > Puede usar otros caracteres siempre que estén presentes en el formato de país o región. Por ejemplo, si necesita incluir un punto o un guión entre conjuntos de números, puede definir el formato como ##.####.### o @@-###-###.  
+    > Puede usar otros caracteres siempre que estén presentes en el formato de país o región. Por ejemplo, si necesita incluir un punto o un guión entre conjuntos de números, puede definir el formato como ##.####.### or @@-###-###.  
 
 ## <a name="to-set-up-vat-business-posting-groups"></a>Para configurar grupos de registro de IVA de negocio
 El grupo de registro de IVA de negocio debería representar los mercados en los que trabaje con clientes y proveedores, y definir cómo calcular y registrar el IVA en cada mercado. Ejemplos de grupos de registro de IVA de negocio son **Nacional** y **Unión Europea (EU)**.  
@@ -271,4 +270,3 @@ Utiliza la herramienta de cambio de tasa de IVA para gestionar los cambios en la
 [Configuración del impuesto sobre el valor añadido no realizado](finance-setup-unrealized-vat.md)  
 [Crear informes de IVA para una autoridad fiscal](finance-how-report-vat.md)  
 [Trabajar con el IVA por ventas y compras](finance-work-with-vat.md)  
-

@@ -1,22 +1,22 @@
 ---
-title: "Detalles de diseño | Documentos de Microsoft"
-description: "En este contenido se incluye información técnica detallada acerca de las características de la aplicación complejas en Business Central"
+title: Detalles de diseño | Documentos de Microsoft
+description: En este contenido se incluye información técnica detallada acerca de las características de la aplicación complejas en Business Central
 author: SorenGP
-documentationcenter: 
+documentationcenter: ''
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: f374daae5d7135324ef4fc3da4845a992aa0ccb5
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 11f8ab8463270723c1974791a6ff295fd1ca31aa
-ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805758"
 ---
 # <a name="design-details"></a>Detalles de diseño
 En este contenido se incluye información técnica detallada acerca de las características de la aplicación complejas en [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -30,7 +30,7 @@ En este contenido se incluye información técnica detallada acerca de las carac
 |Conozca los mecanismos del motor de valoración, como la valoración de existencias y el ajuste de coste, y los principios contables para los que están diseñados.|[Detalles de diseño: Coste de inventario](design-details-inventory-costing.md)|  
 |Conocer los principios básicos sobre las características de almacén avanzadas y básicas, y cómo se integran con otras características de la cadena de suministro.|[Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)|  
 |Conocer el diseño histórico y actual de la funcionalidad del seguimiento de productos y cómo se integra con el programa de reservas para incluir números de serie y de lote en los cálculos de disponibilidad.|[Detalles de diseño: Seguimiento de productos](design-details-item-tracking.md)|  
-|Conozca la función de la línea de registro en el diario general, incluidas simplificaciones recientes del diseño de la unidad de código 12.|[Detalles de diseño: línea de registro en diario general](design-details-general-journal-post-line.md)|  
+|Conozca la función de la línea de registro en el diario general, incluidas simplificaciones recientes del diseño de la codeunit 12.|[Detalles de diseño: línea de registro en diario general](design-details-general-journal-post-line.md)|  
 
 ## <a name="see-also"></a>Consulte también  
  [Planificación](production-planning.md)   
@@ -41,4 +41,3 @@ En este contenido se incluye información técnica detallada acerca de las carac
 
  ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
   
-

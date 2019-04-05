@@ -1,8 +1,8 @@
 ---
-title: "Procesos de servicio de planificación | Documentos de Microsoft"
+title: Procesos de servicio de planificación | Documentos de Microsoft
 description: Describe las tareas para configurar reglas y valores para definir las directivas y los procesos de servicios.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: service, work hours, configure, price, pricing
 ms.date: 10/01/2018
 ms.author: bholtorf
+ms.openlocfilehash: 2d7fd2c9d1387575254a7014c8a6f18c61c568d3
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 0ee163532fbc7588e45b0fba76a3c578f129d4fe
-ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805856"
 ---
 # <a name="planning-services"></a>Servicio de planificación
 Con [!INCLUDE[d365fin](includes/d365fin_md.md)], puede configurar las tareas estándar que necesite para satisfacer las necesidades de servicio de su cliente. Para realizarlo, debe determinar qué ofertas de productos de servicio admite su organización de servicios y a qué precio.   
@@ -41,4 +41,3 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 [Configurar componentes de servicio y de productos](service-how-setup-service-items.md)  
 [Configuración de estados para órdenes y reparaciones de servicio](service-order-repair-status.md)  
 [Configurar la gestión de servicios](service-setup-service.md)  
-

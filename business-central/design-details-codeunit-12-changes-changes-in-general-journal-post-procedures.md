@@ -1,23 +1,23 @@
 ---
-title: "Detalles de diseño: Cambios en la unidad de código 12 en los procedimientos de registro en el diario general | Documentos de Microsoft"
-description: "En esta versión de Business Central se han implementado los siguientes cambios."
+title: 'Detalles de diseño: Cambios en la codeunit 12 en los procedimientos de registro en el diario general | Documentos de Microsoft'
+description: En esta versión de Business Central se han implementado los siguientes cambios.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 6f28cf8e465a6c9f29ddf7bd1ac5db54896802cd
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 09e52a35909c21eaaf9d2eab37b19dc947a2a8dd
-ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805766"
 ---
-# <a name="codeunit-12-changes-changes-in-general-journal-post-procedures"></a>Cambios en la unidad de código 12: cambios en los procedimientos de registro en el diario general
+# <a name="codeunit-12-changes-changes-in-general-journal-post-procedures"></a>Cambios en la codeunit 12: cambios en los procedimientos de registro en el diario general
 En esta versión de [!INCLUDE[d365fin](includes/d365fin_md.md)] se han implementado los siguientes cambios.  
 
 |**Microsoft Dynamics NAV 2009 R2**|**Microsoft Dynamics NAV 2013 R2**|**Comentario**|  
@@ -72,7 +72,7 @@ En esta versión de [!INCLUDE[d365fin](includes/d365fin_md.md)] se han implement
 |CalcCurrencyUnrealizedGainLoss|CalcCurrencyUnrealizedGainLoss|Actualizada|  
 |CalcCurrencyRealizedGainLoss|CalcCurrencyRealizedGainLoss|Actualizada|  
 |CalcApplication|CalcApplication|Actualizada|  
-|CalcRemainingPmtDisc|CalcRemainingPmtDisc|Desplazado a unidad de código 426 Gestión de tolerancia de pago|  
+|CalcRemainingPmtDisc|CalcRemainingPmtDisc|Desplazado a codeunit 426 Gestión de tolerancia de pago|  
 |CalcAmtLCYAdjustment|CalcAmtLCYAdjustment|Añadido|  
 |InitNewCVLedgEntry|InitFromGenJnlLine|Desplazado a la tabla 383 Mem. inter. mov. CV detallado|  
 |InitOldCVLedgEntry|CopyFromCVLedgEntryBuf|Desplazado a la tabla 383 Mem. inter. mov. CV detallado|  
@@ -132,26 +132,26 @@ En esta versión de [!INCLUDE[d365fin](includes/d365fin_md.md)] se han implement
 |ExchangeAmtLCYToFCY2|ExchangeAmtLCYToFCY2|Actualizada|  
 |CalcAddCurrForUnapplication|CalcAddCurrForUnapplication|Actualizada|  
 |CheckNonAddCurrCodeOccurred|CheckNonAddCurrCodeOccurred|Actualizada|  
-|CheckCalcPmtDisc||Desplazado a unidad de código 426 Gestión de tolerancia de pago|  
-|CheckCalcPmtDiscCVCust||Desplazado a unidad de código 426 Gestión de tolerancia de pago|  
-|CheckCalcPmtDiscCust||Desplazado a unidad de código 426 Gestión de tolerancia de pago|  
-|CheckCalcPmtDiscGenJnlCust||Desplazado a unidad de código 426 Gestión de tolerancia de pago|  
-|CheckCalcPmtDiscCVVend||Desplazado a unidad de código 426 Gestión de tolerancia de pago|  
-|CheckCalcPmtDiscVend||Desplazado a unidad de código 426 Gestión de tolerancia de pago|  
-|CheckCalcPmtDiscGenJnlVend||Desplazado a unidad de código 426 Gestión de tolerancia de pago|  
-|Reverse|Reverse|Desplazado a unidad de código 17 Diario gen.-Revertir registrado|  
-|ReverseCustLedgEntry|ReverseCustLedgEntry|Desplazado a unidad de código 17 Diario gen.-Revertir registrado|  
-|ReverseVendLedgEntry|ReverseVendLedgEntry|Desplazado a unidad de código 17 Diario gen.-Revertir registrado|  
-|ReverseBankAccLedgEntry|ReverseBankAccLedgEntry|Desplazado a unidad de código 17 Diario gen.-Revertir registrado|  
-|ReverseVAT|ReverseVAT|Desplazado a unidad de código 17 Diario gen.-Revertir registrado|  
-|SetReversalDescription|SetReversalDescription|Desplazado a unidad de código 17 Diario gen.-Revertir registrado|  
-|ApplyCustLedgEntryByReversal|ApplyCustLedgEntryByReversal|Desplazado a unidad de código 17 Diario gen.-Revertir registrado|  
-|ApplyVendLedgEntryByReversal|ApplyVendLedgEntryByReversal|Desplazado a unidad de código 17 Diario gen.-Revertir registrado|  
-|PostPmtDiscountVATByUnapply|PostPmtDiscountVATByUnapply|Desplazado a unidad de código 17 Diario gen.-Revertir registrado|  
-||CheckDimComb|Añadido en unidad de código 17 Diario gen.-Revertir registrado|  
-||CopyCustLedgEntry|Añadido en unidad de código 17 Diario gen.-Revertir registrado|  
-||CopyVendLedgEntry|Añadido en unidad de código 17 Diario gen.-Revertir registrado|  
-||CopyBankAccLedgEntry|Añadido en unidad de código 17 Diario gen.-Revertir registrado|  
+|CheckCalcPmtDisc||Desplazado a codeunit 426 Gestión de tolerancia de pago|  
+|CheckCalcPmtDiscCVCust||Desplazado a codeunit 426 Gestión de tolerancia de pago|  
+|CheckCalcPmtDiscCust||Desplazado a codeunit 426 Gestión de tolerancia de pago|  
+|CheckCalcPmtDiscGenJnlCust||Desplazado a codeunit 426 Gestión de tolerancia de pago|  
+|CheckCalcPmtDiscCVVend||Desplazado a codeunit 426 Gestión de tolerancia de pago|  
+|CheckCalcPmtDiscVend||Desplazado a codeunit 426 Gestión de tolerancia de pago|  
+|CheckCalcPmtDiscGenJnlVend||Desplazado a codeunit 426 Gestión de tolerancia de pago|  
+|Reverse|Reverse|Desplazado a codeunit 17 Diario gen.-Revertir registrado|  
+|ReverseCustLedgEntry|ReverseCustLedgEntry|Desplazado a codeunit 17 Diario gen.-Revertir registrado|  
+|ReverseVendLedgEntry|ReverseVendLedgEntry|Desplazado a codeunit 17 Diario gen.-Revertir registrado|  
+|ReverseBankAccLedgEntry|ReverseBankAccLedgEntry|Desplazado a codeunit 17 Diario gen.-Revertir registrado|  
+|ReverseVAT|ReverseVAT|Desplazado a codeunit 17 Diario gen.-Revertir registrado|  
+|SetReversalDescription|SetReversalDescription|Desplazado a codeunit 17 Diario gen.-Revertir registrado|  
+|ApplyCustLedgEntryByReversal|ApplyCustLedgEntryByReversal|Desplazado a codeunit 17 Diario gen.-Revertir registrado|  
+|ApplyVendLedgEntryByReversal|ApplyVendLedgEntryByReversal|Desplazado a codeunit 17 Diario gen.-Revertir registrado|  
+|PostPmtDiscountVATByUnapply|PostPmtDiscountVATByUnapply|Desplazado a codeunit 17 Diario gen.-Revertir registrado|  
+||CheckDimComb|Añadido en codeunit 17 Diario gen.-Revertir registrado|  
+||CopyCustLedgEntry|Añadido en codeunit 17 Diario gen.-Revertir registrado|  
+||CopyVendLedgEntry|Añadido en codeunit 17 Diario gen.-Revertir registrado|  
+||CopyBankAccLedgEntry|Añadido en codeunit 17 Diario gen.-Revertir registrado|  
 |HandlDtlAddjustment|HandleDtldAdjustment|Actualizada|  
 |CollectAddjustment|CollectAdjustment|Actualizada|  
 |SetOverDimErr|SetOverDimErr|Actualizada|  
@@ -189,5 +189,4 @@ En esta versión de [!INCLUDE[d365fin](includes/d365fin_md.md)] se han implement
 ||CreateGLEntriesForTotalAmounts|Añadido|  
 
 ## <a name="see-also"></a>Consulte también  
- [Detalles de diseño: Cambios en unidad de código 12: Asociación de variables globales para línea de registro en diario general](design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)
-
+ [Detalles de diseño: Cambios en codeunit 12: Asociación de variables globales para línea de registro en diario general](design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)

@@ -1,22 +1,22 @@
 ---
 title: Revalorizar activos fijos | Documentos de Microsoft
-description: "Obtenga información sobre cómo ajustar el valor de los activos fijos, registrar nuevos importes como amortización o apreciación, y registrar costes de adquisición adicionales."
+description: Obtenga información sobre cómo ajustar el valor de los activos fijos, registrar nuevos importes como amortización o apreciación, y registrar costes de adquisición adicionales.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: bdb382f350e3edbb3e76bac1272ba534fcec8ad4
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: d73403090cc2b24f232fc1e5eaae1c7bd6417517
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806098"
 ---
 # <a name="revalue-fixed-assets"></a>Revalorizar activos fijos
 La revalorización de activos fijos está formada por apreciaciones, depreciaciones o ajustes de valor general.
@@ -34,7 +34,7 @@ El ajuste de valores se utiliza para ajustar los diversos valores de los activos
 4. Elija la acción **Introducir saldo AF**. Se crea una segunda línea de diario para la cuenta contrapartida que se ha configurado para el registro de apreciaciones.
 
     > [!NOTE]  
-    >   El paso 4 solo funciona si ha configurado lo siguiente: en la página **A/F Ficha grupo contable** del grupo contable del activo fijo, el campo **Cta. apreciación** contiene la cuenta de cargo y el campo **Cta. contrap. apreciación** contiene la cuenta contable en la que desea registrar los movimientos de contrapartida para apreciación. Para obtener más información, vea la sección "Para configurar grupos contables de activos fijos" en [Configurar información general del activo fijo](fa-how-setup-general.md).  
+    >   El paso 4 solo funciona si ha configurado lo siguiente: en la página **A/F Ficha grupo contable** del grupo contable del activo fijo, el campo **Cta. apreciación** contiene la cuenta de cargo y el campo **Cta. contrap. apreciación** contiene la cuenta contable en la que desea registrar los movimientos de contrapartida para apreciación. Para obtener más información, vea [Para configurar los grupos contables de activos fijos](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).  
 5. Seleccione la acción **Registrar**.
 
 ## <a name="to-post-a-write-down-from-the-fixed-asset-gl-journal"></a>Para registrar una depreciación desde el diario general de activos fijos
@@ -44,7 +44,7 @@ El ajuste de valores se utiliza para ajustar los diversos valores de los activos
 4. Elija la acción **Introducir saldo AF**. Se crea una segunda línea de diario para la cuenta contrapartida que se ha configurado para el registro de depreciaciones.
 
     > [!NOTE]  
-    >   El paso 4 solo funciona si ha configurado lo siguiente: en la página **A/F Ficha grupo contable** del grupo contable del activo fijo, el campo **Cta. depreciación** contiene la cuenta de abono y el campo **Cta. gastos depreciación** contiene la cuenta contable en la que desea registrar los movimientos de contrapartida para las depreciaciones. Para obtener más información, vea la sección "Para configurar grupos contables de activos fijos" en [Configurar información general del activo fijo](fa-how-setup-general.md).
+    >   El paso 4 solo funciona si ha configurado lo siguiente: en la página **A/F Ficha grupo contable** del grupo contable del activo fijo, el campo **Cta. depreciación** contiene la cuenta de abono y el campo **Cta. gastos depreciación** contiene la cuenta contable en la que desea registrar los movimientos de contrapartida para las depreciaciones. Para obtener más información, vea [Para configurar los grupos contables de activos fijos](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
 5. Seleccione la acción **Registrar**.
 
 ## <a name="to-perform-general-revaluation-of-fixed-assets"></a>Para realizar una revalorización general de activos fijos
@@ -122,4 +122,3 @@ Si no seleccionó la casilla **A/F Amort. hasta fecha reg.**, el activo perderí
 [Finanzas](finance.md)  
 [Introducción](product-get-started.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

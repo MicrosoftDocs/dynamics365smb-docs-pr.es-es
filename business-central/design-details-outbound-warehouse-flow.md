@@ -1,23 +1,23 @@
 ---
-title: "Detalles de diseño: Flujo de salida del almacén | Documentos de Microsoft"
-description: "El flujo de salida en el almacén comienza con una solicitud de los documentos de origen lanzados para sacar los productos del almacén, para enviarlos a una parte externa o a otra ubicación de la empresa. Desde el área de almacenamiento, las actividades de almacén se llevan a cabo en distintos niveles de complejidad para extraer productos de las dársenas de envío."
+title: 'Detalles de diseño: Flujo de salida del almacén | Documentos de Microsoft'
+description: El flujo de salida en el almacén comienza con una solicitud de los documentos de origen lanzados para sacar los productos del almacén, para enviarlos a una parte externa o a otra ubicación de la empresa. Desde el área de almacenamiento, las actividades de almacén se llevan a cabo en distintos niveles de complejidad para extraer productos de las dársenas de envío.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: d2ea80352352cfac83ebce97fee9d4f312e00348
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805741"
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Detalles de diseño: Flujo de salida del almacén
 El flujo de salida en el almacén comienza con una solicitud de los documentos de origen lanzados para sacar los productos del almacén, para enviarlos a una parte externa o a otra ubicación de la empresa. Desde el área de almacenamiento, las actividades de almacén se llevan a cabo en distintos niveles de complejidad para extraer productos de las dársenas de envío.  
@@ -118,4 +118,3 @@ Además, existen los siguientes documentos de origen internos que funcionan como
 
 ## <a name="see-also"></a>Consulte también  
  [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)
-

@@ -1,21 +1,21 @@
 ---
-title: "Detalles de diseño: Configuración del almacén | Documentos de Microsoft"
-description: "La funcionalidad de almacén en Business Central contiene distintos niveles de complejidad, tal como se define mediante los permisos de licencia en los módulos ofrecidos. El nivel de complejidad de una solución de almacén se define en gran medida con la configuración de ubicación en las fichas de ubicación, que, a su vez, se controla mediante licencia, por lo que el acceso a los campos de configuración de ubicación está definido por la licencia."
+title: 'Detalles de diseño: Configuración del almacén | Documentos de Microsoft'
+description: La funcionalidad de almacén en Business Central contiene distintos niveles de complejidad, tal como se define mediante los permisos de licencia en los módulos ofrecidos. El nivel de complejidad de una solución de almacén se define en gran medida con la configuración de ubicación en las fichas de ubicación, que, a su vez, se controla mediante licencia, por lo que el acceso a los campos de configuración de ubicación está definido por la licencia.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 0c813187ee6d11fcdb729cb64048386238406528
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806228"
 ---
 # <a name="design-details-warehouse-setup"></a>Detalles de diseño: Configuración de almacén
 La funcionalidad de almacén en [!INCLUDE[d365fin](includes/d365fin_md.md)] contiene distintos niveles de complejidad, tal como se define mediante los permisos de licencia en los módulos ofrecidos. El nivel de complejidad de una solución de almacén se define en gran medida con la configuración de ubicación en las fichas de ubicación, que, a su vez, se controla mediante licencia, por lo que el acceso a los campos de configuración de ubicación está definido por la licencia. Además, los objetos de la aplicación en la licencia rigen qué documento de la IU que se deberá usar para las actividades de almacén permitidas.  
@@ -37,7 +37,7 @@ Para obtener más información sobre cada módulo, consulte [Hojas de precios de
 
 En la tabla siguiente se muestran los módulos que se requieren para definir los distintos niveles de complejidad de almacenamiento, que documentos de IU admite cada nivel y qué códigos de ubicación reflejan estos niveles en la base de datos de demostración de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-|Nivel de complejidad|Descripción|Documento de IU|Ubicación de CRONUS|Requisito mínimo del módulo|  
+|Nivel de complejidad|Description|Documento de IU|Almacén de CRONUS|Requisito mínimo del módulo|  
 |----------------------|---------------------------------------|-----------------|---------------------------------|---------------------------------|  
 |1|No hay ninguna actividad de almacén dedicada.<br /><br /> Registro de recepción/envío de pedidos.|Pedido|AZUL|Inventario básico|  
 |2|No hay ninguna actividad de almacén dedicada.<br /><br /> Registro de recepción/envío de pedidos.<br /><br /> Se requiere el código de ubicación.|Pedido, con código de ubicación|PLATA|Inventario básico/Ubicación|  
@@ -130,4 +130,3 @@ La plantilla de ubicación se puede asignar a un producto y a una ubicación. La
 ## <a name="see-also"></a>Consulte también  
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)   
 [Detalles de diseño: Disponibilidad en el almacén](design-details-availability-in-the-warehouse.md)
-

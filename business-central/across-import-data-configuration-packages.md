@@ -1,6 +1,6 @@
 ---
 title: Usar Excel para importar datos en Business Central | Documentos de Microsoft
-description: "Utilice el paquete de configuración predeterminado para agregar datos de cliente en Excel e importar los datos en Business Central."
+description: Utilice el paquete de configuración predeterminado para agregar datos de cliente en Excel e importar los datos en Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: migration, Excel
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: f5ca69c1e542a9b5846c99b03103fd9b2be86499
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805510"
 ---
 # <a name="importing-business-data-from-other-finance-systems"></a>Importar datos de empresa de otros sistemas financieros
 Cuando se registra en [!INCLUDE[d365fin](includes/d365fin_md.md)], puede elegir crear una empresa vacía, de este modo podrá cargar sus datos y probar su nueva empresa de [!INCLUDE[d365fin](includes/d365fin_md.md)]. En función de la solución de finanzas que use su empresa actualmente, puede transferir información sobre clientes, proveedores, inventario y cuentas bancarias.  
@@ -81,4 +81,3 @@ El paquete de configuración predeterminado admite las tablas siguientes:
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
  
-

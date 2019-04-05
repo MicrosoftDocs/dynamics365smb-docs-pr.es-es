@@ -1,6 +1,6 @@
 ---
 title: Clasificar confidencialidad de datos
-description: "Debe especificar qué tipo de datos almacena sobre las personas para que pueda responder a las solicitudes de los asuntos de datos."
+description: Debe especificar qué tipo de datos almacena sobre las personas para que pueda responder a las solicitudes de los asuntos de datos.
 author: bholtorf
 ms.author: bholtorf
 ms.custom: na
@@ -8,14 +8,13 @@ ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 10/01/2018
+ms.openlocfilehash: 4e12aa7b4b105a221a218bcd0b6ab7d3ed30c290
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 05d9630075ed533759f8225810e4e4a95c141b16
-ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805692"
 ---
-
 # <a name="classifying-data-sensitivity"></a>Clasificar confidencialidad de datos
 Para clasificar los campos que contienen datos confidenciales o personales, un socio de Microsoft puede establecer la propiedad ```DataClassification``` en los campos. Esto requiere acceso a las tablas de la base de datos, ya sea a través del entorno de desarrollo o ejecutando un script de Windows PowerShell. Para obtener más información, consulte [Clasificar datos](https://docs.microsoft.com/en-us/dynamics-nav/classifying-data).  
 
@@ -50,4 +49,3 @@ Por ejemplo, la hoja de trabajo Clasificación de datos le permite hacer cosas c
 
 ## <a name="see-also"></a>Consulte también
 [Clasificar datos](https://docs.microsoft.com/en-us/dynamics-nav/classifying-data)  
-

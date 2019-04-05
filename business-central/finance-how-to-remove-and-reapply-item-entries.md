@@ -1,23 +1,23 @@
 ---
-title: "Cómo eliminar y liquidar de nuevo los movimientos de producto | Documentos de Microsoft"
-description: "Puede ver y modificar manualmente determinados movimientos de liquidación del producto que se crean automáticamente durante las transacciones del inventario."
+title: Cómo eliminar y liquidar de nuevo los movimientos de producto | Documentos de Microsoft
+description: Puede ver y modificar manualmente determinados movimientos de liquidación del producto que se crean automáticamente durante las transacciones del inventario.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/27/2018
 ms.author: sgroespe
+ms.openlocfilehash: a05acc754c14342d70ffa7f1e9c003099e949cff
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4774b278e5e71bd7464b8d7d391d16dab238dc0d
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805562"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Eliminar y liquidar de nuevo los movimientos contables de producto
 En la página **Hoja liquidación**, puede ver y modificar manualmente determinados movimientos de liquidación del producto que se crean automáticamente durante las transacciones del inventario.  
@@ -80,4 +80,3 @@ Si no puede usar un documento para volver a liquidar, por ejemplo cuando tiene q
  [Gestión de costes de inventario](finance-manage-inventory-costs.md)   
  [Detalles de diseño: Liquidación de productos](design-details-item-application.md)  
  [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

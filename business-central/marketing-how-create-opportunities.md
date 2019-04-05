@@ -1,8 +1,8 @@
 ---
 title: Crear oportunidades de ventas | Documentos de Microsoft
-description: "Describe cómo crear oportunidades a partir de un vendedor o un contacto en Business Central."
+description: Describe cómo crear oportunidades a partir de un vendedor o un contacto en Business Central.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: d4b5b39826da539f3c87f1ba0d9ad27662598665
-ms.contentlocale: es-es
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806157"
 ---
 # <a name="create-sales-opportunities"></a>Crear oportunidades de ventas
 Puede crear oportunidades para las oportunidades de ventas de sus contactos. Las oportunidades deben asignarse a un vendedor o comprador y deben incluir un contacto.
@@ -46,4 +46,3 @@ Antes de crear oportunidad, debe configurar los ciclos ventas oportunidad. Para 
 [Ventas](sales-manage-sales.md)  
 [Creación y administración de contactos](marketing-contacts.md)  
 [Trabajar con Business Central](ui-work-product.md)
-

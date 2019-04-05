@@ -1,6 +1,6 @@
 ---
 title: Crear personas de contacto | Documentos de Microsoft
-description: "Describe las tareas para crear una ficha de contacto de una persona, por ejemplo, un cliente potencial o proveedor, lo que ayuda a definir la relación y adaptar la comunicación."
+description: Describe las tareas para crear una ficha de contacto de una persona, por ejemplo, un cliente potencial o proveedor, lo que ayuda a definir la relación y adaptar la comunicación.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 12/07/2018
+ms.date: 02/26/2019
 ms.author: jswymer
+redirect_url: marketing-create-contact-companies
+ms.openlocfilehash: 871e2c2fe75d5c14299651ab278aee9140430d19
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
-ms.openlocfilehash: 80ab4bd8fe9a5c74f52a334cf8c4a0a297c01bd9
-ms.contentlocale: es-es
-ms.lasthandoff: 12/11/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805681"
 ---
 # <a name="creating-contact-persons"></a>Crear personas de contacto
 Para crear un contacto, debe configurar una ficha de contacto de la persona. Puede crear personas de contacto de empresas de contacto existentes o personas de contacto independientes.
@@ -44,8 +45,6 @@ Puede crear una ficha de contacto por cada uno que trabaje en las empresas con l
 >   El contenido de los campos que haya seleccionado en la sección **Herencia** de la página **Configuración de marketing** se copia de la empresa a las personas de esa empresa.
 
 ## <a name="see-also"></a>Consulte también
-[Crear empresas de contacto](marketing-create-contact-companies.md)  
-[Crear personas de contacto](marketing-create-contact-persons.md)  
+[Crear contactos](marketing-create-contact-companies.md)  
 [Use cuestionarios de perfil para clasificar contactos comerciales](marketing-create-contact-profile-questionnaire.md)  
 [Trabajar con Business Central](ui-work-product.md)
-

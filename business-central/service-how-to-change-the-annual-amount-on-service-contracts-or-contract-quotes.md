@@ -1,21 +1,21 @@
 ---
-title: "Cómo cambiar el importe anual de los contratos de servicio o las ofertas de contrato | Documentos de Microsoft"
-description: "puede cambiar el importe que se facturará anualmente en el contrato de servicio o las ofertas de contrato de servicio."
+title: Cómo cambiar el importe anual de los contratos de servicio o las ofertas de contrato | Documentos de Microsoft
+description: puede cambiar el importe que se facturará anualmente en el contrato de servicio o las ofertas de contrato de servicio.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: c656787a2de965fee90bd24922a443bc3d24bb8a
-ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805620"
 ---
 # <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Cambiar el importe anual de los contratos de servicio o las ofertas de contrato
 Puede cambiar el importe anual del contrato de servicio u oferta de contrato para corregir el importe que se facturará anualmente.  
@@ -118,7 +118,7 @@ Finalmente, las líneas del contrato tendrán los siguientes datos:
 |----------|---------------|----------------|---------------------|--------------------------|-----------------|------------|  
 |Producto 1|15.00|17.00|11.41|1.94|15.06|0.06|  
 |Producto 2|20,00|23.00|8.65|1.99|21.01|1.01|  
-|Producto 3|24.00|27.00|11.37|3.07|23.93|-0,07|  -   % Descuento línea = (Importe dto. línea/ Valor línea) * 100  
+|Producto 3|24.00|27.00|11.37|3.07|23.93|-0,07|  -   % Descuento línea = Importe dto. línea / Valor línea * 100  
 
 #### <a name="example"></a>Ejemplo  
 La casilla de verificación **Permite importes sin saldar** no está activada en el contrato de servicio que contiene tres líneas de contrato con esta información.  
@@ -188,4 +188,3 @@ Finalmente, las líneas del contrato tendrán los siguientes datos:
 ## <a name="see-also"></a>Consulte también  
 [Creación de contratos de servicio y ofertas de contrato de servicio](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Configurar la gestión de servicios](service-setup-service.md)  
-

@@ -1,6 +1,6 @@
 ---
 title: Configurar los valores de campo sugeridos | Documentos de Microsoft
-description: "Para evitar cálculos manuales y completar rápidamente y de forma precisa las tareas, puede configurar la entrada de datos automática de forma que Business Central rellene los campos seleccionados."
+description: Para evitar cálculos manuales y completar rápidamente y de forma precisa las tareas, puede configurar la entrada de datos automática de forma que Business Central rellene los campos seleccionados.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 023f67f90b00c53440cb835cd0e3886ced0d3b98
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 74a88d3e81413b4ecf849f500b5b670feea948bf
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805459"
 ---
 # <a name="letting-included365finincludesd365finmdmd-suggest-values"></a>Permitir que [!INCLUDE[d365fin](includes/d365fin_md.md)] proponga valores
 [!INCLUDE[d365fin](includes/d365fin_md.md)] puede ayudarle a completar las tareas más rápida y correctamente rellenando previamente los campos o las líneas completas con los datos que, de no ser así, debería calcular e introducir usted. Aunque los datos introducidos automáticamente son siempre correctos, puede cambiarlos si lo desea.
@@ -32,7 +32,7 @@ Cuando, por ejemplo, está introduciendo en el diario general las líneas para l
 Para obtener información acerca de cómo configurar un proceso personal del diario general, por ejemplo, para el control de gastos, vea [Trabajar con diarios generales](ui-work-general-journals.md).
 
 ## <a name="the-automatically-fill-date-received-field-on-the-payment-registration-page"></a>Campo **Rellenar fecha de recepción automáticamente** en la página **Registro de pago**
-La página **Registro de pago** muestra los pagos entrantes pendientes como líneas que representan los documentos de venta donde se debe un importe para el pago. Para obtener más información acerca de liquidar los pagos de clientes, consulte [Conciliar manualmente pagos de cliente desde una lista de documentos de ventas sin abonar](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md).
+La página **Registro de pago** muestra los pagos entrantes pendientes como líneas que representan los documentos de venta donde se debe un importe para el pago. Para obtener más información acerca de liquidar los pagos de clientes, consulte [Conciliar pagos de cliente desde una lista de documentos de ventas sin abonar](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md).
 
 Sus principales acciones en la página son rellenar la casilla **Pago realizado** y el campo **Fecha recepción**. Puede configurar [!INCLUDE[d365fin](includes/d365fin_md.md)] para que introduzca la fecha del trabajo automáticamente en el campo **Fecha recepción** cuando selecciona la casilla de verificación **Pago realizado**.
 
@@ -44,4 +44,3 @@ Sus principales acciones en la página son rellenar la casilla **Pago realizado*
 ## <a name="see-also"></a>Consulte también
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Finanzas](finance.md)
-

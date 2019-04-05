@@ -1,8 +1,8 @@
 ---
-title: "Utilizar la extensión de pagos y conciliaciones (DK) | Documentos de Microsoft"
-description: "Esta extensión facilita la exportación de archivos con formato predefinido para cumplir con los requisitos del banco para envíos electrónicos."
+title: Utilizar la extensión de pagos y conciliaciones (DK) | Documentos de Microsoft
+description: Esta extensión facilita la exportación de archivos con formato predefinido para cumplir con los requisitos del banco para envíos electrónicos.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,14 +12,13 @@ ms.workload: na
 ms. search.keywords: extension, bank, formats
 ms.date: 10/01/2018
 ms.author: bholtorf
+ms.openlocfilehash: c8b829a69547ae8791e763e399012649dc750359
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: a39aeebdd75c1511739eb575205b1c7c34c9df11
-ms.contentlocale: es-es
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806169"
 ---
-
 # <a name="the-payments-and-reconciliations-dk-extension"></a>Extensión de pagos y conciliaciones (DK)
 Realice pagos rápidos y sin errores exportando archivos formateados específicamente para intercambios con su proveedor o banco. Estos archivos aceleran los procesos de pago y conciliación, y eliminan los errores que pueden ocurrir al ingresar manualmente la información en un sitio web de un banco.  
 
@@ -104,6 +103,5 @@ La siguiente tabla muestra las combinaciones de formas de pago FIK y GIRO que [!
 [Crear movimientos de domiciliación de adeudo directo SEPA y exportación a un archivo bancario](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)  
 [Configuración de domiciliaciones de adeudo directo SEPA](finance-how-to-set-up-sepa-direct-debit.md)  
 [Registro de recibos de pagos de domiciliación de adeudo directo SEPA](finance-how-to-post-sepa-direct-debit-payment-receipts.md)  
-[Cobro de pagos mediante adeudo directo SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
+[Cobrar pagos mediante adeudo directo SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
 [Trabajar con diarios generales](ui-work-general-journals.md)  
-

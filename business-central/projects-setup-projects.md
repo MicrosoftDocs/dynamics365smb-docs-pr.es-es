@@ -1,8 +1,8 @@
 ---
 title: Configurar recursos, hojas de horas y proyectos | Documentos de Microsoft
-description: "Describe cómo configurar recursos, hojas de horas y proyectos para administrar proyectos."
+description: Describe cómo configurar recursos, hojas de horas y proyectos para administrar proyectos.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: projects
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 6089fa6ceb5198d280fa0c2240967c5728a2a3a9
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d72d7cf8899928e1515b29b49b1642e299679e4a
-ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806061"
 ---
 # <a name="setting-up-project-management"></a>Configurar la administración de proyectos
 Antes de poder usar [!INCLUDE[d365fin](includes/d365fin_md.md)] para administrar proyectos, debe configurar los recursos, las hojas de horas y los proyectos.
@@ -38,4 +38,3 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 [Compras](purchasing-manage-purchasing.md)         
 [Ventas](sales-manage-sales.md)     
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

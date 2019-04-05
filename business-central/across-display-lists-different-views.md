@@ -1,8 +1,8 @@
 ---
 title: Ajustar la cantidad de detalle que se ve en las listas | Documentos de Microsoft
-description: "Puede mostrar listas en vistas detalladas que proporcionen más información o como mosaicos que sean fáciles de analizar visualmente."
+description: Puede mostrar listas en vistas detalladas que proporcionen más información o como mosaicos que sean fáciles de analizar visualmente.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: personalization
 ms.date: 10/01/2018
 ms.author: solsen
+ms.openlocfilehash: 8f196f8df6683b0a7d11e75b8da53861facab0c0
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: dcad65142e4f2c9fc9ab6c5ab01ed4bb057721a0
-ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "805888"
 ---
 # <a name="displaying-lists-in-different-ways"></a>Mostrar listas en diferentes vistas
 En la esquina derecha de cualquier lista de [!INCLUDE[d365fin](includes/d365fin_md.md)] encontrará iconos que permiten modificar la vista de la lista. Una lista se puede ver como una lista detallada, que es una vista estándar. Pero también puede cambiarla a una vista de mosaicos que mostrará menos detalles en el registro específico y apilará los movimientos como mosaicos. Esta vista es muy útil para obtener un resumen de varios movimientos y, sobre todo, en dispositivos pequeños, porque hace que los movimientos sean más fáciles de pulsar.
@@ -30,4 +30,3 @@ Puede importar una imagen para un determinado producto si accede a la ficha **Pr
 ## <a name="see-also"></a>Consulte también
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Registro de productos nuevos](inventory-how-register-new-items.md)  
-
