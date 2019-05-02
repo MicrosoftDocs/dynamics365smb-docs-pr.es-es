@@ -1,1 +1,0 @@
-Las funciones Isabel están disponibles solo para las implementaciones locales.

@@ -1,1 +1,0 @@
-Herramienta de administración del servidor Microsoft Dynamics NAV
