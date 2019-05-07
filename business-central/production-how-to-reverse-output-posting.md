@@ -10,30 +10,30 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: fb107d6d165ede233799ab165d735c030c0c8bba
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 09c8e38af535d5f178c2df8ce4513f199bfa4d1e
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "805680"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "929195"
 ---
-# <a name="reverse-output-posting"></a><span data-ttu-id="8f381-104">Revertir el registro de la salida</span><span class="sxs-lookup"><span data-stu-id="8f381-104">Reverse Output Posting</span></span>
-<span data-ttu-id="8f381-105">En ciertas ocasiones es necesario revertir el registro de la salida.</span><span class="sxs-lookup"><span data-stu-id="8f381-105">There are times when output posting must be reversed.</span></span> <span data-ttu-id="8f381-106">Por ejemplo, si se ha cometido un error en la introducción de los datos y se ha registrado una cantidad de salida incorrecta en una orden de producción.</span><span class="sxs-lookup"><span data-stu-id="8f381-106">An example of this would be if a data entry error occurred and an incorrect amount of output is posted to a production order.</span></span>  
+# <a name="reverse-output-posting"></a><span data-ttu-id="196cc-104">Revertir el registro de la salida</span><span class="sxs-lookup"><span data-stu-id="196cc-104">Reverse Output Posting</span></span>
+<span data-ttu-id="196cc-105">En ciertas ocasiones es necesario revertir el registro de la salida.</span><span class="sxs-lookup"><span data-stu-id="196cc-105">There are times when output posting must be reversed.</span></span> <span data-ttu-id="196cc-106">Por ejemplo, si se ha cometido un error en la introducción de los datos y se ha registrado una cantidad de salida incorrecta en una orden de producción.</span><span class="sxs-lookup"><span data-stu-id="196cc-106">An example of this would be if a data entry error occurred and an incorrect amount of output is posted to a production order.</span></span>  
 
-## <a name="to-reverse-an-output-posting"></a><span data-ttu-id="8f381-107">Para revertir un registro de salida</span><span class="sxs-lookup"><span data-stu-id="8f381-107">To reverse an output posting</span></span>  
-1.  <span data-ttu-id="8f381-108">Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diario salida** y luego elija el enlace relacionado.</span><span class="sxs-lookup"><span data-stu-id="8f381-108">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Output Journal**, and then choose the related link.</span></span> <span data-ttu-id="8f381-109">Seleccione el lote.</span><span class="sxs-lookup"><span data-stu-id="8f381-109">Select your batch.</span></span>  
-2. <span data-ttu-id="8f381-110">Rellene los campos según sea necesario.</span><span class="sxs-lookup"><span data-stu-id="8f381-110">Fill in the fields as necessary.</span></span> <span data-ttu-id="8f381-111">Para obtener más información, vea [Registro de salida y tiempos de ejecución por lotes](production-how-to-post-output-quantity.md).</span><span class="sxs-lookup"><span data-stu-id="8f381-111">For more information, see [Batch Post Output and Run Times](production-how-to-post-output-quantity.md).</span></span>
-3.  <span data-ttu-id="8f381-112">En el campo **Liq. por nº orden**, seleccione el movimiento de contabilidad de productos asociado.</span><span class="sxs-lookup"><span data-stu-id="8f381-112">In the **Applies-To Entry** field, select the associated item ledger entry.</span></span> <span data-ttu-id="8f381-113">De esta forma se reserva la capacidad y los movimientos de producto.</span><span class="sxs-lookup"><span data-stu-id="8f381-113">This reverses the capacity and item ledger entries.</span></span>  
-4. <span data-ttu-id="8f381-114">Registre la reversión registrando el diario.</span><span class="sxs-lookup"><span data-stu-id="8f381-114">Post the reversal by posting the journal.</span></span>  
+## <a name="to-reverse-an-output-posting"></a><span data-ttu-id="196cc-107">Para revertir un registro de salida</span><span class="sxs-lookup"><span data-stu-id="196cc-107">To reverse an output posting</span></span>  
+1.  <span data-ttu-id="196cc-108">Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diario salida** y luego elija el enlace relacionado.</span><span class="sxs-lookup"><span data-stu-id="196cc-108">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Output Journal**, and then choose the related link.</span></span> <span data-ttu-id="196cc-109">Seleccione el lote.</span><span class="sxs-lookup"><span data-stu-id="196cc-109">Select your batch.</span></span>  
+2. <span data-ttu-id="196cc-110">Rellene los campos según sea necesario.</span><span class="sxs-lookup"><span data-stu-id="196cc-110">Fill in the fields as necessary.</span></span> <span data-ttu-id="196cc-111">Para obtener más información, vea [Registro de salida y tiempos de ejecución por lotes](production-how-to-post-output-quantity.md).</span><span class="sxs-lookup"><span data-stu-id="196cc-111">For more information, see [Batch Post Output and Run Times](production-how-to-post-output-quantity.md).</span></span>
+3.  <span data-ttu-id="196cc-112">En el campo **Liq. por nº orden**, seleccione el movimiento de contabilidad de productos asociado.</span><span class="sxs-lookup"><span data-stu-id="196cc-112">In the **Applies-To Entry** field, select the associated item ledger entry.</span></span> <span data-ttu-id="196cc-113">De esta forma se reserva la capacidad y los movimientos de producto.</span><span class="sxs-lookup"><span data-stu-id="196cc-113">This reverses the capacity and item ledger entries.</span></span>  
+4. <span data-ttu-id="196cc-114">Registre la reversión registrando el diario.</span><span class="sxs-lookup"><span data-stu-id="196cc-114">Post the reversal by posting the journal.</span></span>  
 
-<span data-ttu-id="8f381-115">Los movimientos del diario de salida se registran como un ajuste positivo.</span><span class="sxs-lookup"><span data-stu-id="8f381-115">The output journal entries are posted to the item ledger as a positive adjustment.</span></span>  
+<span data-ttu-id="196cc-115">Los movimientos del diario de salida se registran como un ajuste positivo.</span><span class="sxs-lookup"><span data-stu-id="196cc-115">The output journal entries are posted to the item ledger as a positive adjustment.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="8f381-116">Consulte también</span><span class="sxs-lookup"><span data-stu-id="8f381-116">See Also</span></span>  
- <span data-ttu-id="8f381-117">[Fabricación](production-manage-manufacturing.md)  </span><span class="sxs-lookup"><span data-stu-id="8f381-117">[Manufacturing](production-manage-manufacturing.md)  </span></span>  
- [<span data-ttu-id="8f381-118">Configuración de fabricación</span><span class="sxs-lookup"><span data-stu-id="8f381-118">Setting Up Manufacturing</span></span>](production-configure-production-processes.md)  
- <span data-ttu-id="8f381-119">[Planificación](production-planning.md)    </span><span class="sxs-lookup"><span data-stu-id="8f381-119">[Planning](production-planning.md)    </span></span>  
- [<span data-ttu-id="8f381-120">Grupos contables inventario</span><span class="sxs-lookup"><span data-stu-id="8f381-120">Inventory</span></span>](inventory-manage-inventory.md)  
- [<span data-ttu-id="8f381-121">Compras</span><span class="sxs-lookup"><span data-stu-id="8f381-121">Purchasing</span></span>](purchasing-manage-purchasing.md)  
- <span data-ttu-id="8f381-122">[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="8f381-122">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+## <a name="see-also"></a><span data-ttu-id="196cc-116">Consulte también</span><span class="sxs-lookup"><span data-stu-id="196cc-116">See Also</span></span>  
+ <span data-ttu-id="196cc-117">[Fabricación](production-manage-manufacturing.md)  </span><span class="sxs-lookup"><span data-stu-id="196cc-117">[Manufacturing](production-manage-manufacturing.md)  </span></span>  
+ [<span data-ttu-id="196cc-118">Configuración de fabricación</span><span class="sxs-lookup"><span data-stu-id="196cc-118">Setting Up Manufacturing</span></span>](production-configure-production-processes.md)  
+ <span data-ttu-id="196cc-119">[Planificación](production-planning.md)    </span><span class="sxs-lookup"><span data-stu-id="196cc-119">[Planning](production-planning.md)    </span></span>  
+ [<span data-ttu-id="196cc-120">Grupos contables inventario</span><span class="sxs-lookup"><span data-stu-id="196cc-120">Inventory</span></span>](inventory-manage-inventory.md)  
+ [<span data-ttu-id="196cc-121">Compras</span><span class="sxs-lookup"><span data-stu-id="196cc-121">Purchasing</span></span>](purchasing-manage-purchasing.md)  
+ <span data-ttu-id="196cc-122">[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="196cc-122">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  

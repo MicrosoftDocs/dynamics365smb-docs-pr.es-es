@@ -10,31 +10,32 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3a5806711b693dadbbaf033ffd769c5eabebe8de
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+redirect_url: design-details-dimension-set-entries
+ms.openlocfilehash: 5bb5e5713ed23877006ebb913e01416feac69266
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "805860"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "915652"
 ---
-# <a name="design-details-code-examples-of-changed-patterns-in-modifications"></a><span data-ttu-id="54324-104">Detalles de diseño: Ejemplos de código de patrones cambiados en las modificaciones</span><span class="sxs-lookup"><span data-stu-id="54324-104">Design Details: Code Examples of Changed Patterns in Modifications</span></span>
-<span data-ttu-id="54324-105">En este tema se proporcionan ejemplos de código para mostrar los patrones cambios en la modificación y migración del código de dimensión para cinco escenarios distintos.</span><span class="sxs-lookup"><span data-stu-id="54324-105">This topic provides code examples to show changed patterns in dimension code modification and migration for five different scenarios.</span></span> <span data-ttu-id="54324-106">Compara los ejemplos de código en versiones anteriores con ejemplos de código en Business Central.</span><span class="sxs-lookup"><span data-stu-id="54324-106">It compares the code examples in earlier versions to the code examples in Business Central.</span></span>
+# <a name="design-details-code-examples-of-changed-patterns-in-modifications"></a><span data-ttu-id="7ed5a-104">Detalles de diseño: Ejemplos de código de patrones cambiados en las modificaciones</span><span class="sxs-lookup"><span data-stu-id="7ed5a-104">Design Details: Code Examples of Changed Patterns in Modifications</span></span>
+<span data-ttu-id="7ed5a-105">En este tema se proporcionan ejemplos de código para mostrar los patrones cambios en la modificación y migración del código de dimensión para cinco escenarios distintos.</span><span class="sxs-lookup"><span data-stu-id="7ed5a-105">This topic provides code examples to show changed patterns in dimension code modification and migration for five different scenarios.</span></span> <span data-ttu-id="7ed5a-106">Compara los ejemplos de código en versiones anteriores con ejemplos de código en Business Central.</span><span class="sxs-lookup"><span data-stu-id="7ed5a-106">It compares the code examples in earlier versions to the code examples in Business Central.</span></span>
 
-## <a name="posting-a-journal-line"></a><span data-ttu-id="54324-107">Registro de una línea del diario</span><span class="sxs-lookup"><span data-stu-id="54324-107">Posting a Journal Line</span></span>  
-<span data-ttu-id="54324-108">Los cambios clave se enumeran a continuación:</span><span class="sxs-lookup"><span data-stu-id="54324-108">Key changes are listed as follows:</span></span>  
-  
-- <span data-ttu-id="54324-109">Se eliminan las tablas de dimensiones de líneas del diario.</span><span class="sxs-lookup"><span data-stu-id="54324-109">Journal line dimension tables are removed.</span></span>  
-  
-- <span data-ttu-id="54324-110">Un ID de grupo de dimensiones se crea en el campo de **Id. grupo dimensiones**.</span><span class="sxs-lookup"><span data-stu-id="54324-110">A dimension set ID is created in the **Dimension Set ID** field.</span></span>  
-  
-<span data-ttu-id="54324-111">**Versiones anteriores**</span><span class="sxs-lookup"><span data-stu-id="54324-111">**Earlier Versions**</span></span>  
-  
+## <a name="posting-a-journal-line"></a><span data-ttu-id="7ed5a-107">Registro de una línea del diario</span><span class="sxs-lookup"><span data-stu-id="7ed5a-107">Posting a Journal Line</span></span>  
+<span data-ttu-id="7ed5a-108">Los cambios clave se enumeran a continuación:</span><span class="sxs-lookup"><span data-stu-id="7ed5a-108">Key changes are listed as follows:</span></span>  
+
+- <span data-ttu-id="7ed5a-109">Se eliminan las tablas de dimensiones de líneas del diario.</span><span class="sxs-lookup"><span data-stu-id="7ed5a-109">Journal line dimension tables are removed.</span></span>  
+
+- <span data-ttu-id="7ed5a-110">Un ID de grupo de dimensiones se crea en el campo de **Id. grupo dimensiones**.</span><span class="sxs-lookup"><span data-stu-id="7ed5a-110">A dimension set ID is created in the **Dimension Set ID** field.</span></span>  
+
+<span data-ttu-id="7ed5a-111">**Versiones anteriores**</span><span class="sxs-lookup"><span data-stu-id="7ed5a-111">**Earlier Versions**</span></span>  
+
 ```  
 ResJnlLine."Qty. per Unit of Measure" :=   
   SalesLine."Qty. per Unit of Measure";  
-  
+
 TempJnlLineDim.DELETEALL;  
 TempDocDim.RESET;  
 TempDocDim.SETRANGE(  
@@ -45,27 +46,27 @@ DimMgt.CopyDocDimToJnlLineDim(
   TempDocDim,TempJnlLineDim);  
 ResJnlPostLine.RunWithCheck(  
   ResJnlLine,TempJnlLineDim);  
-  
+
 ```  
-  
+
  **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
-  
+
 ```  
-  
+
 ResJnlLine."Qty. per Unit of Measure" :=   
   SalesLine."Qty. per Unit of Measure";  
-  
+
 ResJnlLine."Dimension Set ID" :=   
   SalesLine." Dimension Set ID ";  
 ResJnlPostLine.Run(ResJnlLine);  
-  
+
 ```  
-  
-## <a name="posting-a-document"></a><span data-ttu-id="54324-112">Registro de un documento</span><span class="sxs-lookup"><span data-stu-id="54324-112">Posting a Document</span></span>  
- <span data-ttu-id="54324-113">Cuando registre un documento en [!INCLUDE[d365fin](includes/d365fin_md.md)], ya no tendrá que copiar las dimensiones de documento.</span><span class="sxs-lookup"><span data-stu-id="54324-113">When you post a document in [!INCLUDE[d365fin](includes/d365fin_md.md)], you no longer have to copy the document dimensions.</span></span>  
-  
- <span data-ttu-id="54324-114">**Versiones anteriores**</span><span class="sxs-lookup"><span data-stu-id="54324-114">**Earlier Versions**</span></span>  
-  
+
+## <a name="posting-a-document"></a><span data-ttu-id="7ed5a-112">Registro de un documento</span><span class="sxs-lookup"><span data-stu-id="7ed5a-112">Posting a Document</span></span>  
+ <span data-ttu-id="7ed5a-113">Cuando registre un documento en [!INCLUDE[d365fin](includes/d365fin_md.md)], ya no tendrá que copiar las dimensiones de documento.</span><span class="sxs-lookup"><span data-stu-id="7ed5a-113">When you post a document in [!INCLUDE[d365fin](includes/d365fin_md.md)], you no longer have to copy the document dimensions.</span></span>  
+
+ <span data-ttu-id="7ed5a-114">**Versiones anteriores**</span><span class="sxs-lookup"><span data-stu-id="7ed5a-114">**Earlier Versions**</span></span>  
+
 ```  
 DimMgt.MoveOneDocDimToPostedDocDim(  
   TempDocDim,DATABASE::"Sales Line",  
@@ -75,19 +76,19 @@ DimMgt.MoveOneDocDimToPostedDocDim(
   DATABASE::"Sales Shipment Line",  
   SalesShptHeader."No.");  
 ```  
-  
+
  **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
-  
+
 ```  
 SalesShptLine."Dimension Set ID”  
   := SalesLine."Dimension Set ID”  
 ```  
-  
-## <a name="editing-dimensions-from-a-document"></a><span data-ttu-id="54324-115">Edición de dimensiones desde un documento</span><span class="sxs-lookup"><span data-stu-id="54324-115">Editing Dimensions from a Document</span></span>  
- <span data-ttu-id="54324-116">Puede editar las dimensiones desde un documento.</span><span class="sxs-lookup"><span data-stu-id="54324-116">You can edit dimensions from a document.</span></span> <span data-ttu-id="54324-117">Por ejemplo, puede modificar una línea de pedido de venta.</span><span class="sxs-lookup"><span data-stu-id="54324-117">For example, you can edit a sales order line.</span></span>  
-  
- <span data-ttu-id="54324-118">**Versiones anteriores**</span><span class="sxs-lookup"><span data-stu-id="54324-118">**Earlier Versions**</span></span>  
-  
+
+## <a name="editing-dimensions-from-a-document"></a><span data-ttu-id="7ed5a-115">Edición de dimensiones desde un documento</span><span class="sxs-lookup"><span data-stu-id="7ed5a-115">Editing Dimensions from a Document</span></span>  
+ <span data-ttu-id="7ed5a-116">Puede editar las dimensiones desde un documento.</span><span class="sxs-lookup"><span data-stu-id="7ed5a-116">You can edit dimensions from a document.</span></span> <span data-ttu-id="7ed5a-117">Por ejemplo, puede modificar una línea de pedido de venta.</span><span class="sxs-lookup"><span data-stu-id="7ed5a-117">For example, you can edit a sales order line.</span></span>  
+
+ <span data-ttu-id="7ed5a-118">**Versiones anteriores**</span><span class="sxs-lookup"><span data-stu-id="7ed5a-118">**Earlier Versions**</span></span>  
+
 ```  
 Table 37, function ShowDimensions:  
 TESTFIELD("Document No.");  
@@ -99,21 +100,21 @@ DocDim.SETRANGE("Line No.","Line No.");
 DocDimensions.SETTABLEVIEW(DocDim);  
 DocDimensions.RUNMODAL;  
 ```  
-  
+
  **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
-  
+
 ```  
 Table 37, function ShowDimensions:  
 "Dimension ID" :=   
   DimSetEntry.EditDimensionSet(  
     "Dimension ID");  
 ```  
-  
-## <a name="showing-dimensions-from-posted-entries"></a><span data-ttu-id="54324-119">Mostrar dimensiones de los movimientos registrados</span><span class="sxs-lookup"><span data-stu-id="54324-119">Showing Dimensions from Posted Entries</span></span>  
- <span data-ttu-id="54324-120">Puede mostrar las dimensiones de los movimientos registrados, como, por ejemplo, las líneas de albarán de venta.</span><span class="sxs-lookup"><span data-stu-id="54324-120">You can show dimensions from posted entries, such as sales shipment lines.</span></span>  
-  
- <span data-ttu-id="54324-121">**Versiones anteriores**</span><span class="sxs-lookup"><span data-stu-id="54324-121">**Earlier Versions**</span></span>  
-  
+
+## <a name="showing-dimensions-from-posted-entries"></a><span data-ttu-id="7ed5a-119">Mostrar dimensiones de los movimientos registrados</span><span class="sxs-lookup"><span data-stu-id="7ed5a-119">Showing Dimensions from Posted Entries</span></span>  
+ <span data-ttu-id="7ed5a-120">Puede mostrar las dimensiones de los movimientos registrados, como, por ejemplo, las líneas de albarán de venta.</span><span class="sxs-lookup"><span data-stu-id="7ed5a-120">You can show dimensions from posted entries, such as sales shipment lines.</span></span>  
+
+ <span data-ttu-id="7ed5a-121">**Versiones anteriores**</span><span class="sxs-lookup"><span data-stu-id="7ed5a-121">**Earlier Versions**</span></span>  
+
 ```  
 Table 111, function ShowDimensions:  
 TESTFIELD("No.");  
@@ -126,20 +127,20 @@ PostedDocDim.SETRANGE("Line No.","Line No.");
 PostedDocDimensions.SETTABLEVIEW(PostedDocDim);  
 PostedDocDimensions.RUNMODAL;  
 ```  
-  
+
  **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
-  
+
 ```  
 Table 111, function ShowDimensions:  
 DimSetEntry.ShowDimensionSet(  
   "Dimension ID");  
 ```  
-  
-## <a name="getting-default-dimensions-for-a-document"></a><span data-ttu-id="54324-122">Obtención de dimensiones predeterminadas para un documento</span><span class="sxs-lookup"><span data-stu-id="54324-122">Getting Default Dimensions for a Document</span></span>  
- <span data-ttu-id="54324-123">Puede obtener las dimensiones predeterminadas de un documento, como una línea de pedido de venta.</span><span class="sxs-lookup"><span data-stu-id="54324-123">You can get default dimensions for a document, such as a sales order line.</span></span>  
-  
- <span data-ttu-id="54324-124">**Versiones anteriores**</span><span class="sxs-lookup"><span data-stu-id="54324-124">**Earlier Versions**</span></span>  
-  
+
+## <a name="getting-default-dimensions-for-a-document"></a><span data-ttu-id="7ed5a-122">Obtención de dimensiones predeterminadas para un documento</span><span class="sxs-lookup"><span data-stu-id="7ed5a-122">Getting Default Dimensions for a Document</span></span>  
+ <span data-ttu-id="7ed5a-123">Puede obtener las dimensiones predeterminadas de un documento, como una línea de pedido de venta.</span><span class="sxs-lookup"><span data-stu-id="7ed5a-123">You can get default dimensions for a document, such as a sales order line.</span></span>  
+
+ <span data-ttu-id="7ed5a-124">**Versiones anteriores**</span><span class="sxs-lookup"><span data-stu-id="7ed5a-124">**Earlier Versions**</span></span>  
+
 ```  
 Table 37, function CreateDim()  
 SourceCodeSetup.GET;  
@@ -168,9 +169,9 @@ IF "Line No." <> 0 THEN
     "Shortcut Dimension 1 Code",  
     "Shortcut Dimension 2 Code");  
 ```  
-  
+
  **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
-  
+
 ```  
 Table 37, function CreateDim()  
 SourceCodeSetup.GET;  
@@ -193,7 +194,7 @@ GetSalesHeader;
 
 ```  
 
-## <a name="see-also"></a><span data-ttu-id="54324-125">Consulte también</span><span class="sxs-lookup"><span data-stu-id="54324-125">See Also</span></span>  
-<span data-ttu-id="54324-126">[Detalles de diseño: Movimientos de grupo de dimensiones](design-details-dimension-set-entries.md) </span><span class="sxs-lookup"><span data-stu-id="54324-126">[Design Details: Dimension Set Entries](design-details-dimension-set-entries.md) </span></span>  
-<span data-ttu-id="54324-127">[Detalles de diseño: Estructura de tablas](design-details-table-structure.md) </span><span class="sxs-lookup"><span data-stu-id="54324-127">[Design Details: Table Structure](design-details-table-structure.md) </span></span>  
-[<span data-ttu-id="54324-128">Detalles de diseño: Gestión de dimensiones de codeunit 408</span><span class="sxs-lookup"><span data-stu-id="54324-128">Design Details: Codeunit 408 Dimension Management</span></span>](design-details-codeunit-408-dimension-management.md)
+## <a name="see-also"></a><span data-ttu-id="7ed5a-125">Consulte también</span><span class="sxs-lookup"><span data-stu-id="7ed5a-125">See Also</span></span>  
+<span data-ttu-id="7ed5a-126">[Detalles de diseño: Movimientos de grupo de dimensiones](design-details-dimension-set-entries.md) </span><span class="sxs-lookup"><span data-stu-id="7ed5a-126">[Design Details: Dimension Set Entries](design-details-dimension-set-entries.md) </span></span>  
+<span data-ttu-id="7ed5a-127">[Detalles de diseño: Estructura de tablas](design-details-table-structure.md) </span><span class="sxs-lookup"><span data-stu-id="7ed5a-127">[Design Details: Table Structure](design-details-table-structure.md) </span></span>  
+[<span data-ttu-id="7ed5a-128">Detalles de diseño: Gestión de dimensiones de codeunit 408</span><span class="sxs-lookup"><span data-stu-id="7ed5a-128">Design Details: Codeunit 408 Dimension Management</span></span>](design-details-codeunit-408-dimension-management.md)
