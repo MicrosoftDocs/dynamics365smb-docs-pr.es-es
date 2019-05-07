@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 12/21/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 772702717a250e7068e93d362bc09a5ba719defe
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 9da76eb0058d2215e6437b52cf68720e663dd4c7
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "805883"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "929556"
 ---
 # <a name="design-details-item-application"></a>Detalles de diseño: Liquidación de productos
 Cuando se registra una transacción de inventario, el registro de cantidad se guarda en los movimientos de producto y el registro de valor en los movimientos de valoración. Para obtener más información, consulte [Detalles de diseño: Registro de inventario](design-details-inventory-posting.md).  

@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 02/26/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 71c48a677dbc684978271e19d67409dc07143f9d
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: d337da227214c88b8358eb07261f18443d9c5d93
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "805657"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "918152"
 ---
-# <a name="setting-up-contacts"></a>Configurar contactos
+# <a name="set-up-contacts"></a>Configuración de contactos
 Al crear contactos, puede especificar información como, por ejemplo, la industria a la que pertenecen y sus relaciones de negocio con los contactos.
 
 Antes de crear los contactos y los detalles de registro de sus relaciones de negocio, debe configurar los códigos que utilizará para asignar esta información a las empresas y personas de contacto. Se pueden configurar códigos para grupos de correo, grupos de industria, relaciones de negocio, orígenes Web, niveles de organización y responsabilidades del cargo. Puede configurarlos seleccionando la acción **Nuevo** mientras mira las listas de la ficha de contacto.  
@@ -151,10 +151,10 @@ Para sincronizar la ficha de contacto con un cliente, proveedor o tarjeta de cue
 
 Para obtener más información, consulte [Sincronizar contactos con clientes, proveedores y cuentas bancarias](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).
 
-## <a name="searching-for-duplicate-contacts-when-contacts-are-created"></a>Buscar contactos duplicados al crear contactos
-Puede elegir que el sistema busque duplicados de forma automática cada vez que cree una empresa de contacto o buscarlos de forma manual después de crearlos. También puede hacer que el sistema actualice las cadenas de búsqueda de forma automática cada vez que se crea un contacto o se modifica su información. Puede elegir el porcentaje de acierto búsqueda, es decir, el porcentaje de cadenas idénticas que dos contactos deben tener para considerarlos duplicados.
+## <a name="searching-for-duplicate-contacts"></a>Búsqueda de contactos duplicados
+Puede elegir que el sistema busque duplicados de forma automática cada vez que cree un contacto o buscarlos de forma manual después de crearlos. También puede hacer que el sistema actualice las cadenas de búsqueda de forma automática cada vez que se crea un contacto o se modifica su información. Puede elegir el porcentaje de acierto búsqueda, es decir, el porcentaje de cadenas idénticas que dos contactos deben tener para considerarlos duplicados. Configúrelo en la pestaña desplegable **Duplicados** de la página **Configuración de marketing**.
 
-Configúrelo en la pestaña desplegable **Duplicados** de la página **Configuración de marketing**.
+Cuando haya encontrado un contacto duplicado, puede usar la página **Combinar duplicado** para combinarlo en un registro de contacto existente que desee conservar. Para obtener más información, consulte [Combinar registros duplicados](sales-how-merge-duplicate-records.md).
 
 ## <a name="see-also"></a>Consulte también
 [Gestionar contactos](marketing-contacts.md)  

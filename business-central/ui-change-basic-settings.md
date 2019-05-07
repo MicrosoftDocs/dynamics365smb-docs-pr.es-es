@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 11/19/2018
+ms.date: 04/01/2019
 ms.author: solsen
-ms.openlocfilehash: 353662322e36a564f30bc911f056817cafa7440c
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: d95d2f609129e4bdba35deda726323dbed2ba67a
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "805911"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "916227"
 ---
 # <a name="changing-basic-settings"></a>Cambiar la configuración básica
 En la página [**Mi configuración**](https://businesscentral.dynamics.com?page=9176 "Vaya directamente a la página de configuración en Business Central"), puede ver y cambiar la configuración básica de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Los cambios que realice sólo afectan a su área de trabajo; no a las áreas de trabajo de otros usuarios.  
@@ -48,10 +48,21 @@ La fecha predeterminada de trabajo será normalmente la fecha actual. Es posible
 >   Escriba **t** para introducir rápidamente la fecha de trabajo en un campo de fecha. Escriba **h** para introducir rápidamente la fecha actual en el campo de fecha.
 
 > [!IMPORTANT]  
->   La fecha de trabajo se cambia solo hasta que cierre la empresa o hasta que la fecha cambie. Si abre una empresa diferente o la misma al día siguiente y debe utilizar una fecha de trabajo diferente, tendrá que volver a definirla.
+>   Después de modificar la fecha de trabajo, si cierra la sesión o cambia a otra empresa, los datos de trabajo vuelven a la fecha de trabajo predeterminada. Por lo tanto, la próxima vez que inicie sesión o vuelva a cambiar a la empresa original, es posible que tenga que volver a establecer la fecha de trabajo. 
 
+### <a name="work-date-indication"></a>Indicación de la fecha de trabajo
+<!--
+Whenever the work date is not set to the current day (today), there are two indicators on pages that you open for editing:
+
+- A reminder appears at the top of the page that tells you what the work date is set to. The reminder provides a direct link to the work date setting on the **My Settings** page so you change the date if you want. From the reminder, you can also choose to dismiss the reminder for the rest of your session. Unless you change the work date to "today", the reminder will appear the next time you sign in. 
+
+- If you dismiss the reminder, the work date will appear in the title of the page.  
+-->
+Si la fecha de trabajo no está establecida en el día actual (hoy), la fecha de trabajo actual se muestra en la esquina superior izquierda de todas las páginas donde puede editar datos.
+  
 ## <a name="region"></a> Región
-El valor **Región** determina cómo se muestran o se forman las fechas, los tiempos, los números, y divisas.   
+
+El valor **Región** determina cómo se muestran o se forman las fechas, los tiempos, los números, y divisas.
 
 
 ## <a name="language"></a> Idioma

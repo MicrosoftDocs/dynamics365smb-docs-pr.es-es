@@ -1,23 +1,19 @@
 ---
 title: Tareas de trabajo usando recursos y hojas de horas | Documentos de Microsoft
 description: Describe cómo usar recursos, hojas de horas y trabajos para administrar proyectos.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 10/01/2018
-ms.author: sgroespe
-ms.openlocfilehash: 1de8a8feaa7ae9c7d2dd656a525be84cd5424dc6
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.date: 04/01/2019
+ms.author: edupont
+ms.openlocfilehash: dcd68331143cac2572b37e7bf130010d69dc05f4
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "806641"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "921033"
 ---
 # <a name="project-management"></a>Administración de proyectos
 En [!INCLUDE[d365fin](includes/d365fin_md.md)], puede realizar tareas habituales de administración de proyectos, como configurar un proyecto y programar un recurso, así como proporcionar la información necesaria para administrar presupuestos y supervisar el progreso. Puede hacer un seguimiento de las horas de máquina y de empleados del proyecto utilizando las hojas de horas. Como administrador de proyectos, dispone de una buena visión general no solo de proyectos individuales, sino también de la asignación de empleados, maquinaria y otros recursos que se estén usando en todos los proyectos.
@@ -38,13 +34,18 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 | Registrar el consumo de materiales, recursos y demás gastos del trabajo en curso (WIP) del proyecto para supervisar su valor financiero y mantener balances financieros correctos, aunque se registren los gastos del proyecto antes de facturar el proyecto. |[Supervisar el progreso y el rendimiento del trabajo](projects-how-monitor-progress-performance.md) |
 | Registrar los costes de proyecto para el uso de recursos, materiales y compras relacionadas con el proyecto de forma continua y emitir la factura al cliente, cuando el proyecto haya finalizado o según un programa de facturación. |[Facturar proyectos](projects-how-invoice-jobs.md) |
 
+## <a name="get-started-with-projects"></a>Introducción a los proyectos
+
+La administración de proyectos ya es bastante complicada en sí misma, y aprender a crear proyectos y administrar el trabajo en curso en una nueva herramienta puede ser otra complicación. Para ayudarte a empezar con la administración de proyectos en [!INCLUDE [prodshort](includes/prodshort.md)], puede ver [un vídeo sobre la creación de proyectos](https://www.youtube.com/watch?v=VqaPWr7BWmw) en el canal [!INCLUDE [prodshort](includes/prodshort.md)] de YouTube.  
+
 ## <a name="see-also"></a>Consulte también
+
 [Configurar la administración de proyectos](projects-setup-projects.md)  
-[Cambiar las funciones que se muestran](ui-experiences.md)      
-[Compras](purchasing-manage-purchasing.md)         
-[Ventas](sales-manage-sales.md)    
+[Vídeo: Cómo crear un proyecto en Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
+[Cambiar las funciones que se muestran](ui-experiences.md)  
+[Compras](purchasing-manage-purchasing.md)  
+[Ccial](sales-manage-sales.md)  
 [Finanzas](finance.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 

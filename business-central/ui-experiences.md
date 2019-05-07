@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: bec47d64f2ba038e1c3b7288ce466e2f212b2b19
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 9110ee79e4d1788f41c8f1960f282cb490a3cc8a
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "805490"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "912419"
 ---
 # <a name="changing-which-features-are-displayed"></a>Cambiar las funciones que se muestran
 [!INCLUDE[d365fin](includes/d365fin_md.md)] está diseñado para ayudarle a dirigir su empresa, independientemente de la línea de negocio en la que se encuentre. En el núcleo de [!INCLUDE[d365fin](includes/d365fin_md.md)], se encuentran los informes financieros y los procesos de ventas y compras. Agregue experiencias según las necesidades de su negocio con extensiones de AppSource o cambiando la configuración de Experiencia para su empresa. Para obtener más información, vea [Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones](ui-extensions.md) o [Elegir una experiencia de usuario para mostrar u ocultar características](ui-experiences.md#choosing-a-user-experience-to-show-or-hide-features).

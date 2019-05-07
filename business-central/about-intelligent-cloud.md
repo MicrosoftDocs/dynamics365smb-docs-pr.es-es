@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms. search.keywords: cloud, edge
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bmeier
-ms.openlocfilehash: 932b6f45ed4f8704b48873518ba2b096efc33e7a
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 4bd30c2912c8a690431221e7983f5fe53b543322
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852135"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "920918"
 ---
 # <a name="your-access-to-the-intelligent-cloud-with-includeprodshortincludesprodshortmd"></a>Acceda a la nube inteligente con [!INCLUDE[prodshort](includes/prodshort.md)]
 
@@ -38,7 +38,7 @@ En su empresa en línea de [!INCLUDE[prodshort](includes/prodshort.md)], la pág
 Junto a los gráficos de KPI, obtendrá información sobre posibles áreas de preocupación, incluidos los pagos atrasados. Elija la información para profundizar en los datos.  
 
 > [!div class="mx-imgBorder"]
-> ![Información de inteligencia perimetral](media/across-intelligent-cloud/intelligentcloudinsights.png "Muestra la página de Información de inteligencia perimetral en Business Central")
+> ![Información de inteligencia perimetral](media/across-intelligent-cloud/intelligentcloudApril19.png "Muestra la página de Información de inteligencia perimetral en Business Central")
 
 La página también se conecta a Power BI para obtener más información.
 

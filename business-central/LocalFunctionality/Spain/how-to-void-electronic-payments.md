@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 12a1105d9cabd7f6dfc85578f8c2d7629bdb235a
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 4c1fcca7dc17427425b88dff1e92fab376e71dcf
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "827103"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "918005"
 ---
 # <a name="void-electronic-payments"></a>Anular pagos electrónicos
 En [!INCLUDE[d365fin](../../includes/d365fin_md.md)], puede anular el archivo de pago exportado. Al anular el archivo, se eliminará todo el diario de pagos desde el que se creó el archivo.  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalization
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: solsen
-ms.openlocfilehash: 8f196f8df6683b0a7d11e75b8da53861facab0c0
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 2d20fc0849e90f74924ebc585662a9e461cc2313
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "805888"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "924881"
 ---
 # <a name="displaying-lists-in-different-ways"></a>Mostrar listas en diferentes vistas
 En la esquina derecha de cualquier lista de [!INCLUDE[d365fin](includes/d365fin_md.md)] encontrará iconos que permiten modificar la vista de la lista. Una lista se puede ver como una lista detallada, que es una vista estándar. Pero también puede cambiarla a una vista de mosaicos que mostrará menos detalles en el registro específico y apilará los movimientos como mosaicos. Esta vista es muy útil para obtener un resumen de varios movimientos y, sobre todo, en dispositivos pequeños, porque hace que los movimientos sean más fáciles de pulsar.

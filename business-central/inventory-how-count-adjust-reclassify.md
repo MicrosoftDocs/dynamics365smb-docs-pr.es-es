@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b0d6f0b27e9a49238ba3fa4209c38ee2e6bb7cda
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: d8a9ba2f4fc819c1da515a0ace7d8641ec54ffc6
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "805891"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "929410"
 ---
-# <a name="count-adjust-and-reclassify-inventory"></a>Recuento, ajuste y reclasificación de inventario
+# <a name="count-adjust-and-reclassify-inventory-using-journals"></a>Recuento, ajuste y reclasificación de inventario con diarios
 Como mínimo una vez cada año fiscal, debe realizar un inventario físico (es decir, contar todos los productos del inventario) para ver si la cantidad registrada en la base de datos es la misma que la cantidad física real en los almacenes. Una vez se sepa la cantidad física, debe registrarse en la contabilidad como parte de la evaluación del inventario de final de periodo.
 
 Aunque cuente todos los productos del inventario una vez al año, puede que haya decidido contar algunos productos con mayor frecuencia, quizás porque son más valiosos o porque se fluctúan muy rápido y forman una gran parte del negocio. Con este fin, puede asignar períodos de recuento especiales a esos elementos. Para obtener más información, consulte [Realizar el recuento cíclico](inventory-how-count-adjust-reclassify.md#to-perform-cycle-counting).
@@ -31,6 +31,10 @@ Si necesita cambiar los atributos de las entradas de contabilidad de los product
 
 ## <a name="to-perform-a-physical-inventory"></a>Realizar un inventario físico
 Es necesario llevar un inventario físico, es decir, hacer un recuento de los productos reales disponibles, para comprobar que la cantidad registrada coincida con la cantidad física en stock al final del ejercicio, o con mayor frecuencia. Si existen diferencias, debe registrarlas en las cuentas de producto antes de realizar la valoración de las existencias.
+
+> [!NOTE]
+> Este procedimiento describe cómo realizar un inventario utilizando un diario, la página **Diario inventario físico**. También puede realizar la tarea utilizando documentos, las páginas **Pedido de inventario físico** y **Registro de inventario físico**, que proporcionan más control y asistencia para distribuir el recuento a varios empleados. Para obtener más información, consulte [Contar inventario mediante documentos](inventory-how-count-inventory-with-documents.md).<br /><br />
+> Tenga en cuenta que la funcionalidad basada en documentos no se puede utilizar para contar productos en ubicaciones, movimientos de almacén.
 
 Aparte de la tarea de recuento físico, el proceso completo implica las tres tareas siguientes:
 
@@ -222,8 +226,9 @@ El siguiente ejemplo se basa en un código de almacén. Los pasos son parecidos 
 Para obtener información sobre la transferencia de productos con el control total de las cantidades enviadas y recibidas, consulte [Transferir el inventario entre almacenes](inventory-how-transfer-between-locations.md).
 
 ## <a name="see-also"></a>Consulte también
+[Contar inventario mediante documentos](inventory-how-count-inventory-with-documents.md)  
 [Inventario](inventory-manage-inventory.md)
 [Gestión almacenes](warehouse-manage-warehouse.md)    
-[Ventas](sales-manage-sales.md)  
+[Ccial](sales-manage-sales.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

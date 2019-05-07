@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4c0fdd965f56f811ab9ce3346b3c408702df87bf
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 3c68b40f22503ced21130f57feec7c06b6b2c9f5
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "806519"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "924361"
 ---
 # <a name="about-the-data-exchange-framework-in-included365finincludesd365finmdmd"></a>Acerca del marco de intercambio de datos en [!INCLUDE[d365fin](includes/d365fin_md.md)]
 El formato de archivos para intercambio de datos en archivos bancarios, documentos electrónicos, tipos de cambio de divisa y otros con los sistemas ERP varía en función del proveedor del archivo de datos o de secuencia y el país o la región. [!INCLUDE[d365fin](includes/d365fin_md.md)] utiliza varios formatos de archivo bancario y estándares de servicio de datos. Para proporcionar compatibilidad con otros formatos de documento electrónico, utilice el marco de intercambio de datos. Para obtener más información, vea [Intercambio de datos electrónicamente](across-data-exchange.md).    

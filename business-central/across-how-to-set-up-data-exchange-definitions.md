@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/26/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0a8172f0c8770235291e7b9a29663f15932f38b4
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 382a95a579482a56597ffae053c53dab92f3739a
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "806280"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "914427"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Configurar definiciones de intercambio de datos
 Puede configurar [!INCLUDE[d365fin](includes/d365fin_md.md)] para intercambiar datos de tablas específicas con datos de archivos externos, por ejemplo para enviar y recibir documentos electrónicos, importar o exportar datos de banco u otros datos, como nóminas, tipos de cambio de divisa y catálogos de productos. Para obtener más información, vea [Intercambio de datos electrónicamente](across-data-exchange.md).  
 
-Como preparación para crear una definición de intercambio de datos de un archivo de datos o una secuencia, puede utilizar los esquemas XML relacionados para definir los datos a incluir en ficha desplegable **Definiciones de columna**. Consulte el paso 6 de la sección ""Describa el formato de las líneas y las columnas en el archivo". Para obtener más información, consulte [Uso de esquemas XML para preparar las definiciones de intercambio de datos](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
+Como preparación para crear una definición de intercambio de datos de un archivo de datos o una secuencia, puede utilizar los esquemas XML relacionados para definir los datos a incluir en ficha desplegable **Definiciones de columna**. Consulte el paso 6 de la sección [Para describir el formato de las líneas y las columnas en el archivo](across-how-to-set-up-data-exchange-definitions.md#to-describe-the-formatting-of-lines-and-columns-in-the-file). Para obtener más información, consulte [Uso de esquemas XML para preparar las definiciones de intercambio de datos](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
 Las definiciones de intercambio de datos normalmente se configuran en la página **Definición de intercambio de datos**. Sin embargo, al configurar una definición de intercambio de datos para el servicio de actualización de tipos de cambio de divisa, el proceso se inicia en la página **Tarjeta de configuración de actualización de tipo de cambio** simplificada.  
 
@@ -39,7 +39,10 @@ La creación de una definición de intercambio de datos implica dos tareas:
 1. En la página **Definición de intercambio de datos**, describe el formato de líneas y columnas del archivo.  
 2. En la página **Asignación de intercambio de datos**, asigne las columnas en el archivo de datos a los campos de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-     Esto se describe en los procedimientos siguientes:  
+Esto se describe en los procedimientos siguientes:  
+
+> [!TIP]
+> Para ver qué codeunits utiliza Microsoft en las definiciones existentes en el producto estándar, revise los tres campos **Codeunit** en la cabecera de la página **Asignación de campos** para cada definición.
 
 #### <a name="to-describe-the-formatting-of-lines-and-columns-in-the-file"></a>Para describir el formato de las líneas y las columnas en el archivo  
 1. En el cuadro **Buscar**, escriba **Definiciones de intercambio de datos** y, a continuación, elija el vínculo relacionado.  

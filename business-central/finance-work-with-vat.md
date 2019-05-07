@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 9d6f3cf74582283e633d9c3347def5289aeb8f88
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 1665985ba00b291469146536a69a0dcfe9dec85a
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "806234"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "919519"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Trabajar con el IVA por ventas y compras
 Si su país o región requiere que calcule el impuesto al valor añadido (IVA) en las transacciones de compra y venta para que pueda informar de los importes a una autoridad fiscal, puede configurar [!INCLUDE[d365fin](includes/d365fin_md.md)] para calcular el IVA automáticamente en documentos de ventas y compras. Para obtener más información, vea [Configurar los cálculos y los métodos de registro del impuesto sobre el valor añadido](finance-setup-vat.md).
@@ -63,7 +63,7 @@ Si el descuento por pronto pago se ha calculado sobre la base de un importe de f
 1. Abra el pedido de venta correspondiente.  
 2. Seleccione la acción **Estadísticas**.  
 3. Elija la ficha desplegable **Facturación**.  
-  
+
     > [!NOTE]  
     >  El importe total del IVA de la factura, agrupado por identificador de IVA, se muestra en las líneas. Puede ajustar manualmente el importe del campo **Importe IVA** de las líneas de cada identificador de IVA. Si modifica el campo **Importe IVA**, el programa comprueba que no lo modifica en un importe mayor que el especificado como diferencia máxima permitida. Si el importe es mayor que la **Máx. diferencia IVA permitida**, se muestra una advertencia en la que se indica cuál es la mayor diferencia permitida. No podrá continuar hasta que ajuste el importe con un valor admitido. Haga clic en **Aceptar** y escriba otro **Importe IVA** que sea admitido. Si la diferencia del IVA es igual a o menor que el máximo permitido, el IVA se dividirá proporcionalmente entre las líneas del documento que tengan el mismo identificador de IVA.  
 
@@ -77,7 +77,7 @@ También puede ajustar los importes de IVA en general, ventas y diarios de compr
 #### <a name="before-you-manually-enter-vat-on-sales-and-purchase-journals"></a>Para poder introducir manualmente el IVA en un diario de compras o ventas  
 1. En la página **Conf. compras y pagos**, seleccione la casilla **Permitir diferen. IVA**.  
 2. Cuando haya completado las acciones descritas, puede ajustar el campo **Importe IVA** de la línea del diario general, o el campo **Importe IVA contrap.** de la línea del diario de ventas o compras. [!INCLUDE[d365fin](includes/d365fin_md.md)] comprobará que la diferencia no sea mayor que el máximo especificado.  
-  
+
     > [!NOTE]  
     > Si la diferencia es mayor, se muestra una advertencia en la que se indica cuál es la mayor diferencia permitida. Para continuar, debe ajustar el importe. Elija **Aceptar** e introduzca un importe admitido. Si la diferencia de IVA es igual o menor que el máximo permitido, [!INCLUDE[d365fin](includes/d365fin_md.md)] mostrará la diferencia en el campo **Diferencia IVA**.  
 
@@ -115,12 +115,12 @@ Cuando se venden productos a un cliente en otro país o región de la UE, debe e
     >  Si la configuración del grupo de registro de IVA no tiene seleccionada la casilla **Certificado de suministro obligatorio**, se crea un registro y el campo **Estado** se establece en **No aplica**. Puede actualizar el campo para reflejar la información correcta del estado. Puede cambiar manualmente el estado de **No aplicable** a **Requerido**, y de **Requerido** a **No aplicable**, según sea necesario.  
 
    Cuando se actualiza el campo **Estado** a **Requerido**, **Recibido** o **No recibido**, se crea un certificado.  
-  
+
     > [!TIP]  
     >  Puede utilizar la página **Certificados de suministro** para obtener una vista el estado de todos los envíos registrados para los que se haya creado un certificado de suministro.  
 
 5. Elija **Imprimir certificado de suministro**.  
-  
+
     > [!Note]  
     >  Puede ver o imprimir el documento. Cuando elige **Imprimir certificado de suministro** e imprime el documento, la casilla **Impreso** se selecciona automáticamente. Además, si no se ha especificado, el estado del certificado se actualiza a **Obligatorio**. Si es necesario, el certificado impreso se incluye con el envío.  
 

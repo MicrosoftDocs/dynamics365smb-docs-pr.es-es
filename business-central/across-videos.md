@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: video, library, how to
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 71e92f587ac5697b96aca937e6a6d4b00dc41902
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 685487de30a50defa5fd3908c3b049e639a12843
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "806654"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "928571"
 ---
 # <a name="visit-our-video-library"></a>Visite nuestra biblioteca de vídeos
-Tengan paciencia mientras reconstruimos nuestra biblioteca de videos de ayuda. Un efecto secundario de las recientes mejoras en [!INCLUDE[d365fin](includes/d365fin_md.md)] es que tenemos que reproducir nuestro contenido para que refleje con precisión el producto. 
+Tengan paciencia mientras reconstruimos nuestra biblioteca de videos de ayuda. Un efecto secundario de las recientes mejoras en [!INCLUDE[d365fin](includes/d365fin_md.md)] es que tenemos que reproducir nuestro contenido para que refleje con precisión el producto.
 
 Mientras tanto, ofrecemos tres videos que pueden ayudarlo a ponerse en marcha.
 
@@ -30,7 +30,7 @@ Mientras tanto, ofrecemos tres videos que pueden ayudarlo a ponerse en marcha.
 |Introducción|Conocer los primeros pasos clave cuando está probando [!INCLUDE[d365fin](includes/d365fin_md.md)] o ha comprado recientemente el producto. |
 |Obtener ayuda|Sepa a dónde ir para obtener respuestas a varios tipos de preguntas.|
 
-Puede acceder a los vídeos de varias formas. Cuando empiece con [!INCLUDE[d365fin](includes/d365fin_md.md)] por primera vez, puede iniciar los videos desde la página de bienvenida que se muestra. Si ya está trabajando en [!INCLUDE[d365fin](includes/d365fin_md.md)], puede acceder a la biblioteca desde las Áreas de trabajo **Administrador de negocio** y **Contable** seleccionando los mosaicos **Vídeos de productos**. 
+Puede acceder a los vídeos de varias formas. Cuando empiece con [!INCLUDE[d365fin](includes/d365fin_md.md)] por primera vez, puede iniciar los videos desde la página de bienvenida que se muestra. Si ya está trabajando en [!INCLUDE[d365fin](includes/d365fin_md.md)], puede acceder a la biblioteca desde las Áreas de trabajo **Administrador de negocio** y **Contable** seleccionando los mosaicos **Vídeos de productos**.
 
 > [!Tip]  
 > Los vídeos en la biblioteca se muestran en un cuadro que puede parecer pequeño. Para agrandar el marco, elija el icono de flecha de doble extremo en la esquina superior derecha. Después, los videos se mostrarán en el cuadro más grande hasta que vuelva a ser pequeño.
@@ -42,7 +42,7 @@ Solo por mencionar algunos ejemplos, los videos que estamos actualizando se most
 
 * Migrar datos de empresa de otras aplicaciones financieras a [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 * Configurar dimensiones para que pueda rastrear y analizar varios documentos y entidades
-* Conectar [!INCLUDE[d365fin](includes/d365fin_md.md)] con Microsoft Dynamics 365 for Sales
+* Conectar [!INCLUDE[d365fin](includes/d365fin_md.md)] con Dynamics 365 for Sales
 * Configurar flujos de trabajo de aprobación  
 * Usar Power BI con [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 * Configurar el correo electrónico y enviar documentos directamente desde [!INCLUDE[d365fin](includes/d365fin_md.md)]  

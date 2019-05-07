@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: c6eb9465d07b702e545347cad5acf0a42f01d1de
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 5cd8bce29b1973274cda673e22dd07e6b50f830f
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "806437"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "928074"
 ---
 # <a name="sorting-searching-and-filtering-lists"></a>Ordenar, buscar y filtrar listas
 Existen algunos parámetros que puede configurar que le ayudarán a buscar, encontrar y limitar los registros de una lista. Éstos incluyen la ordenación, busqueda y filtrando. Puede aplicar solo algunos o todos a la vez para encontrar o analizar rápidamente sus datos.
@@ -36,7 +36,8 @@ Para ordenar una lista, puede elegir un texto de cabecera de columna para altern
 >   El ordenamiento no se admite en imágenes, campos BLOB, FlowFilters ni campos que no pertenecen a una tabla.  
 
 ## <a name="searching"></a>Búsqueda
-<!--## Searching by using the Quick Filter --> En la parte superior de cada página de la lista, hay un icono de ![Buscar en la lista](media/ui-search/search-list.png "icono de Buscar en la lista") **Buscar** que proporciona una manera rápida y fácil de reducir los registros en una lista y muestra solo aquellos registros que contienen los datos que le interesa ver.
+<!--## Searching by using the Quick Filter -->
+En la parte superior de cada página de la lista, hay un icono de ![Buscar en la lista](media/ui-search/search-list.png "icono de Buscar en la lista") **Buscar** que proporciona una manera rápida y fácil de reducir los registros en una lista y muestra solo aquellos registros que contienen los datos que le interesa ver.
 
 Para buscar, simplemente seleccione el icono de búsqueda y luego, en el cuadro, escriba el texto que está buscando. Puede escribir letras, números y otros símbolos.
 
@@ -55,27 +56,6 @@ Sin embargo, puede realizar una búsqueda más exacta utilizando los siguientes 
 
 En la tabla siguiente se muestran algunos ejemplos de cómo puede utilizar la búsqueda.
 
-
-<!--
-In search criteria you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.-->
-
-<!--
-The Quick Filter provides an easy access to filter data by entering plain text, but does also provide a lot of search criteria options. Depending on whether you enter plain text or text including symbols, the Quick Filter behaves differently.  
-
-* If you enter plain text in the search criteria, the search criteria is interpreted as a case insensitive search that contains certain text.  
-* If you enter text including symbols in the search criteria, the search criteria is interpreted exactly as you entered it, and the search is case sensitive.
--->
-<!--
-
-|Search Criteria|Interpreted as...|Finds...|
-|---------------|----------------|----------|
-|`man`<br />or <br />`Man`|Contains the text; case insensitive|All records with fields that contain the text **man**, regardless of the case.|
-|`'Man'`|Entire text match; case sensitive.|All records with fields that only contain **Man** exactly.|
-|`Man*`|Starts with the text; case sensitive.|All records with fields that start with the text <b>Man</b> exactly.|
-|`@Man*`|Starts with the text; case insensitive.|All records with fields that start with **man**, regardless of the case.|
-|`@*man`|Ends with the text; case insensitive.|All records that end with **man**, regardless of the case.|
--->
-
 |Criterios de búsqueda|Búsquedas…|
 |---------------|----------|
 |`man`<br />o <br />`Man`|Todos los registros con los campos que contienen el texto **man**, independientemente de las mayúsculas y minúsculas. Por ejemplo, **Manchester**, **manual** o **Norman**. |
@@ -87,7 +67,7 @@ The Quick Filter provides an easy access to filter data by entering plain text, 
 > [!TIP]
 > Puede presionar F3 para activar y desactivar el cuadro de búsqueda. Para obtener más información, consulte [Métodos abreviados de teclado](keyboard-shortcuts.md#KeyboardFilter).
 
-## <a name="filtering"></a>Filtrado
+## <a name="Filtering"> </a>Filtrado
 El filtrado proporciona una forma más avanzada y versátil de controlar qué registros se muestran en una lista. Existen dos diferencias principales entre la búsqueda y el filtrado, como se describe en la tabla siguiente.
 
 || **Búsqueda** | **Filtrado** |
@@ -98,13 +78,14 @@ El filtrado proporciona una forma más avanzada y versátil de controlar qué re
 El filtrado le permite mostrar registros de cuentas o clientes específicos, fechas, importes y otra información especificando criterios de filtro. Únicamente se mostrarán los registros que coincidan con los criterios. Si especifica criterios para varios campos, solo se mostrarán los registros que coincidan con todos los criterios.
 
 ### <a name="working-in-the-filter-pane"></a>Trabajar en el panel de filtros
+
+Para mostrar el panel de filtros, seleccione ![Icono Panel de filtros](media/open-filter-pane-icon.png "Icono Panel de filtros") en la parte superior de la lista o pulse **Mayús+F3**. Para las listas del Área de trabajo, también puede elegir la flecha hacia abajo cerca del título de la página en la barra de navegación que se encuentra sobre la lista, y luego seleccionar **Mostrar panel de filtros**, tal como se muestra aquí:
+
+![Mostrar panel de filtros](media/open-filter-pane.png "Mostrar panel de filtros")
+
 El panel de filtros muestra los filtros actuales para una lista y le permite configurar sus propios filtros personalizados en uno o más campos. La siguiente ilustración muestra un panel de filtros de ejemplo para una lista de Ofertas de venta.
 
 ![Vista general del panel de filtros ](media/filter-pane-overview.png "Icono de Filtros")
-
-Para mostrar el panel de filtros, use el método abreviado de teclado **Mayús+F3**. Para las listas del Área de trabajo, también puede elegir la flecha hacia abajo cerca del título de la página en la barra de navegación que se encuentra sobre la lista, y luego seleccionar **Mostrar panel de filtros**.
-
-![Mostrar panel de filtros](media/open-filter-pane.png "Mostrar panel de filtros")
 
 Un panel de filtros se divide en tres secciones: **Vistas**, **Filtrar lista por** y **Filtrar totales por**:
 
@@ -137,7 +118,7 @@ Ya puede escribir o seleccionar sus criterios de filtro en el cuadro. El tipo de
 Las columnas que ya tienen filtros se indican mediante el ![icono Filtro](media/ui-search/filter-icon.png "icono Filtro") en el encabezado de la columna. Para eliminar un filtro, seleccione el encabezado de la columna, luego elija **Borrar filtro**.
 
 
-### <a name="entering-filter-criteria-without-the-filter-pane"></a>Introducción de criterios de filtros sin el panel de filtros
+### <a name="entering-filter-criteria-without-using-the-filter-pane"></a>Introducción de criterios de filtros sin el panel de filtros
 Puede especificar filtros simples directamente dentro de la lista sin tener que usar el panel de filtros.
 Con cualquier campo seleccionado en una fila, use el método abreviado de teclado **Alt+F3** para mostrar solo los registros que tienen el mismo valor. A continuación puede seleccionar otro campo y usar el mismo acceso directo nuevamente para continuar refinando los filtros. Si el campo seleccionado ya está filtrado, la combinación **Alt+F3** borrará ese filtro.
 
@@ -146,7 +127,7 @@ Con cualquier campo seleccionado en una fila, use el método abreviado de teclad
 Para obtener más información, consulte [Métodos abreviados de teclado](keyboard-shortcuts.md#KeyboardFilter).
 
 
-## <a name="FilterCriteria"> </a>Filtrar los criterios y símbolos
+## <a name="FilterCriteria"> </a>Criterios y símbolos de filtro
 Al introducir criterios, puede usar todos los números y las letras que normalmente se emplean en un campo. También puede usar símbolos especiales para filtrar aún más los resultados. En las tablas siguientes se muestran los símbolos que se pueden usar en los filtros. Para obtener más información sobre fechas y horas, también puede consultar [Trabajar con fechas y horas del calendario](ui-enter-date-ranges.md).
 
 > [!IMPORTANT]  
@@ -244,7 +225,7 @@ Al introducir criterios, puede usar todos los números y las letras que normalme
 |`>50&<100`|Incluye los registros cuyo número sea mayor que 50 y menor que 100.|  
 
 
-## <a name="FilterTokens"> </a>Tokens de filtros
+## <a name="FilterTokens"> </a>Tokens de filtro
 Al introducir criterios de filtro, también puede escribir palabras que tengan un significado especial, lo que se conoce como tokens de filtro. Después de introducir la palabra token, la palabra se reemplaza por el valor o valores que representa. Esto facilita el filtrado al reducir la necesidad de ir a otras páginas para buscar los valores que desea agregar a su filtro. En las tablas siguientes se describen algunos de los tokens que puede escribir como criterios de filtro.
 
 > [!TIP]

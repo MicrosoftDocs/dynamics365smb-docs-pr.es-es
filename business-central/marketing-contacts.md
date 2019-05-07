@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 02/26/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: af87183dfd9785bfbe3dd56794682d13a5057ada
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 85975b28dbe19702412a05bb927f3fe59bd8bfc3
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "806369"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "915122"
 ---
 # <a name="creating-and-managing-contacts"></a>Creación y administración de contactos
 Cada grupo de su empresa mantiene relaciones de negocio con diferentes empresas. Por ejemplo, un vendedor podría visitar regularmente a clientes potenciales y registrar los resultados de estas visitas al finalizar la semana.
@@ -28,8 +28,9 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 
 | Para | Vea |
 | --- | --- |
-| Configure la gestión de contactos antes de crear contactos. |[Configurar contactos](marketing-setup-contacts.md) |
+| Configure la gestión de contactos antes de crear contactos. |[Configuración de contactos](marketing-setup-contacts.md) |
 | Crear una ficha de contacto para cada nueva persona o empresa con la que se interactúa, como un cliente o proveedor. |[Crear contactos](marketing-create-contact-companies.md) |
+|Resolver la confusión cuando existen dos o más registros para el mismo contacto.|[Combinar registros duplicados](sales-how-merge-duplicate-records.md)|
 
 ## <a name="see-also"></a>Consulte también
 [Administrar oportunidades de venta](marketing-manage-sales-opportunities.md)  

@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 02/21/2019
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 72fcf1b698b464cd21107184cd2bb166a8612cae
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: f86c8a3cd93995aaf52a9e7f95065751f8061fd7
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852291"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "916154"
 ---
 # <a name="frequently-asked-questions"></a>Preguntas más frecuentes
 
@@ -49,12 +49,15 @@ Si tiene acceso a Microsoft CustomerSource, puede obtener acceso al sitio de Ima
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] se vende a través de socios y debe ponerse en contacto con su socio distribuidor para obtener ayuda con problemas técnicos. Si su socio de [!INCLUDE[d365fin](includes/d365fin_md.md)] no puede resolver el problema, generará un vale de soporte técnico con Microsoft.  
 
-Si se ha registrado en una versión de prueba y aún no ha comprado [!INCLUDE[d365fin](includes/d365fin_md.md)], no tiene un socio de reventa y no puede ponerse en contacto con el equipo de soporte de Microsoft.  
-
-Puede encontrar un socio de Business Central en la página [Estoy buscando un proveedor de soluciones](https://go.microsoft.com/fwlink/?linkid=2038145).  
+Para obtener más información, vea [Ayuda y soporte técnico](product-help-and-support.md).  
 
 ## <a name="why-does-help-describe-functionality-that-i-cannot-access"></a>¿Por qué la Ayuda describe una funcionalidad a la que no puedo acceder?
-Si la configuración de Experiencia en la página **Información de la empresa** está establecida en **Esencial**, los elementos de la interfaz de usuario para las funciones de Gestión de fabricación y servicios no serán visibles porque requieren la experiencia **Premium**. Se inserta una nota de texto en los temas de ayuda de alto nivel para estas áreas de funciones. Para obtener más información, consulte [Cambiar las funciones que se muestran](ui-experiences.md).  
+Si la configuración de Experiencia en la página **Información de la empresa** está establecida en **Esencial**, los elementos de la interfaz de usuario para las funciones de Gestión de fabricación y servicios no serán visibles porque requieren la experiencia **Premium**. Se inserta una nota de texto en los temas de ayuda de alto nivel para estas áreas de funciones. Para obtener más información, consulte [Cambiar las funciones que se muestran](ui-experiences.md).
+
+## <a name="where-is-the-save-button"></a>¿Dónde se encuentra el botón Guardar?
+
+No hay ningún botón *Guardar* en las páginas como en otros programas con los que pueda estar familiarizado. En [!INCLUDE[d365fin](includes/d365fin_md.md)], los cambios realizados en un campo se guardan automáticamente en cuanto se traslada al siguiente campo o cierra la página, mientras no haya errores. Al realizar cambios en un campo y pasar a otro, verá el texto **Guardando** en la esquina superior derecha de la página, que cambiará rápidamente a **Guardado** si no se produce ningún error. Si se produce un error, el texto cambiará **No guardado**.
+
 
 ## <a name="what-email-address-can-i-use-with-included365finincludesd365finmdmd"></a>¿Qué dirección de correo electrónico puedo usar en [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 Para iniciar sesión, [!INCLUDE[d365fin](includes/d365fin_md.md)] requiere una dirección de correo electrónico del trabajo o la escuela. [!INCLUDE[d365fin](includes/d365fin_md.md)] no admite direcciones de correo electrónico proporcionadas por servicios de correo electrónico del consumidor ni por proveedores de la telecomunicación. Esto incluye outlook.com, hotmail.com, gmail.com y otros.  

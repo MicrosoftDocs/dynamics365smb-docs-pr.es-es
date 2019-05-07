@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: ca4c27eaa1fe66e9bee678d6ec197fee7b928bdd
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 8dfedbc2685e086f9bdc63706d70327ebb95c2b5
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "806392"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "919896"
 ---
 # <a name="using-included365finlongmdincludesd365finlongmdmd-as-power-bi-data-source-for-building-reports"></a>Usar [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] como fuente de datos de Power BI para generar informes
 Puede hacer que los datos de [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] estén disponibles como origen de datos en Power BI y generar informes eficaces del estado de la empresa.  

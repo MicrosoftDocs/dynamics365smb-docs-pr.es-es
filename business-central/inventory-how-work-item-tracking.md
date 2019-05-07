@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3c8e58ae653d1e8fca520fc8f3e876df67f50950
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: c7a5aa7d768a4fe2fae111b04ffc1fdab65d07dc
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "805599"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "919981"
 ---
 # <a name="work-with-serial-and-lot-numbers"></a>Trabajar con números de lote y de serie
 Puede asignar números de serie y de lote a cualquier documento de salida o de entrada, los movimientos de seguimiento de producto registrados se muestran en los correspondientes movimientos de producto. Realice el trabajo en la página **Líns. seguim. prod.**, que puede abrir desde un documento de entrada o salida.
@@ -240,7 +240,7 @@ El contenido de los campos **Nº serie** y **Nº lote** no se puede editar. No o
 El proceso de reclasificar el seguimiento para un producto significa convertir un número de lote o de serie en un nuevo número de lote o de serie, o bien convertir la fecha de caducidad en una nueva. Si está trabajando con lotes, también puede combinar varios lotes en uno. Para llevar a cabo este proceso, deberá utilizar el diario de reclasificación de productos.
 
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diario reclasif. producto** y luego elija el enlace relacionado.  
-2.  Rellene la línea con la información correspondiente. Para obtener más información, consulte [Recuento, ajuste, y reclasificación de inventario](inventory-how-count-adjust-reclassify.md).
+2.  Rellene la línea con la información correspondiente. Para obtener más información, consulte [Contar inventario mediante documentos](inventory-how-count-inventory-with-documents.md) o [Recuento, ajuste y reclasificación de inventario mediante diarios](inventory-how-count-adjust-reclassify.md).
 3.  Seleccione la acción **Líns. seguim. prod.**  
 4.  En el campo **Nº serie** o **Nº lote**, seleccione el número de serie o de lote actual.  
 5.  Si desea introducir un nuevo número del seguimiento de producto, introdúzcalo en el campo **Nuevo nº serie** o **Nuevo nº lote**. Si lo desea, puede combinar uno o más lotes en un lote nuevo o existente.  

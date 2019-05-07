@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 98d51b10d3ca415a463b58405cb3c4f2449b75ad
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 65fcba3f0222b324f132115ea7f1ec53b75d983f
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852429"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "921414"
 ---
 # <a name="working-with-reports-and-batch-jobs"></a>Trabajar con informes y trabajos por lotes
 Un informe recoge la información basada en un conjunto determinado de criterios, y organiza y muestra la información en un formato fácil de leer, imprimible. Existen numerosos informes a la que se accede en la aplicación. Los informes proporcionan normalmente la información en relación con el contexto de la página que va a usar. Por ejemplo, la página **Cliente** incluye los informes para los 10 clientes principales y sus estadísticas de ventas, entre otros datos.
@@ -50,9 +50,9 @@ El uso de la configuración guardada es una forma rápida y confiable de generar
 ### <a name="setting-options-and-filters"></a>Configuración de opciones y filtros
 Si desea limitar o localizar con precisión los datos que se incluyen en un informe, puede configurar opciones y filtros adicionales.
 
-Los filtros permiten visualizar datos según un criterio específico. Los filtros están agrupados por la entidad a la que pertenecen, como **Cliente** en la ilustración anterior. Para definir un filtro, configure el cuadro **Dónde** en el campo por el que desea filtrar y, a continuación, agregue los criterios en el cuadro **es:**. Por ejemplo, en la ilustración anterior, hay un único filtro que creará un informe para el cliente cuyo **N.º** es igual a **01121212**.
+Los filtros permiten visualizar datos según un criterio específico. Los filtros están agrupados por la entidad a la que pertenecen, como **Cliente** en la ilustración anterior. Para definir un filtro, configure el cuadro **Dónde** en el campo por el que desea filtrar y, a continuación, agregue los criterios en el cuadro **es:**.
 
-Puede agregar más filtros configurando los cuadros **Agregar**. Si tiene más de un filtro, solo se incluirán en el informe los resultados que cumplan los criterios de todos los filtros.
+Puede agregar más filtros rellenando los cuadros **Y** y **es**. Si tiene más de un filtro, solo se incluirán en el informe los resultados que cumplan los criterios de todos los filtros.
 
 En función del tipo de campo que esté filtrando, puede especificar los criterios de filtrado para buscar una coincidencia exacta, una coincidencia parcial, un rango de valores y mucho más. Para obtener ayuda sobre cómo configurar los filtros, consulte:
 -   [Filtrado](ui-enter-criteria-filters.md#FilterCriteria)
@@ -70,7 +70,7 @@ Utilice la barra de menús para:
 -   Cambiar el tamaño para que encaje en la página
 -   Seleccionar texto
 
-    Puede copiar el texto de un informe y, a continuación pegarlo en algún otro lugar, como una página de [!INCLUDE[d365fin](includes/d365fin_md.md)] o Microsoft Word.  Con un ratón, por ejemplo, presione y mantenga pulsado donde desee empezar y, a continuación, mueve el ratón para seleccionar una o más palabras, frases o párrafos. A continuación, puede pulsar el botón derecho del ratón y seleccionar **Copiar**. Puede pegar el texto seleccionado donde quiera.
+    Puede copiar el texto de un informe y, a continuación pegarlo en algún otro lugar, como una página de [!INCLUDE[d365fin](includes/d365fin_md.md)] o Microsoft Word.  Con un ratón, por ejemplo, presione y mantenga pulsado donde desee empezar y, a continuación, mueve el ratón para seleccionar una o más palabras, frases o párrafos. A continuación, puede pulsar el botón derecho del ratón y seleccionar **Copiar**. A continuación, puede pegar el texto seleccionado donde quiera.
 -   Desplazar lateralmente el documento
 
     Puede mover el área visible del informe en cualquier dirección para ver otras áreas o el informe. Esto es útil cuando se ha ampliado para ver detalles.  Con el ratón, por ejemplo, mantenga pulsado el botón en cualquier parte de la vista previa del informe y, a continuación, mueva el ratón.
