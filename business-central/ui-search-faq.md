@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 70ab7fb07cda5ce9d86b3f39dd14321829e85a52
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: d04f78b31b9fb0403201cb9e5cb1f98f1ef935e1
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "806384"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "937586"
 ---
 # <a name="tell-me-faq"></a>FAQ acerca de la función Dígame
 Este tema responde a las preguntas que nuestros usuarios avanzados suelen hacer sobre la nueva función Dígame que ha reemplazado la función anterior de búsqueda de páginas conocida como **Buscar páginas e informes**.
@@ -33,7 +33,7 @@ La función Dígame recoge las acciones, páginas e informes que se originan a p
 La Búsqueda de páginas se ha convertido en la función Dígame para ayudarle a realizar el trabajo rápidamente. La búsqueda de páginas solo puede ayudarle a desplazarse por páginas o informes. A nivel técnico, la función Dígame ya no se basa en el concepto heredado de MenuSuite.
 
 ### <a name="i-use-on-premises-included365finincludesd365finmdmd-does-that-include-tell-me"></a>Utilizo [!INCLUDE[d365fin](includes/d365fin_md.md)] local. ¿Incluye la función Dígame?
-Puede usar la función Dígame en el cliente web local para buscar acciones, páginas e informes, pero no documentación. Los usuarios que se conectan a [!INCLUDE[d365fin](includes/d365fin_md.md)] desde el cliente de Dynamics NAV continúan usando la Búsqueda de páginas.
+Puede usar la función Dígame en el cliente web local para buscar acciones, páginas e informes, pero no documentación, o aplicaciones y servicios de consultoría en AppSource. Los usuarios que se conectan a [!INCLUDE[d365fin](includes/d365fin_md.md)] desde el cliente de Dynamics NAV continúan usando la Búsqueda de páginas.
 
 ### <a name="is-tell-me-available-for-all-form-factors"></a>¿Está disponible para todos los factores de forma?
 La función Dígame solo está disponible en el cliente web o en la aplicación de escritorio de Windows.

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1486be71b0b848aa48996f4161f8987322a09e32
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 44ffab92930237c5496860771f41b4951b15b0ff
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "805368"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "930242"
 ---
 # <a name="create-service-quotes"></a>Crear ofertas de servicio
 Puede pensar en ofertas de servicio como base para los pedidos de servicio. De hecho, son casi idénticos. Ambos contienen información como quién es el cliente, el tipo de pedido, el producto que requiera servicio, información sobre facturación y sobre el envío, e información acerca del proyecto de servicio real.

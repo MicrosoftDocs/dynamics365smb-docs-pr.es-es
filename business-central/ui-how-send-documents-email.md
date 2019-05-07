@@ -9,19 +9,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 591ec86980240b8ffcfda0cf51debe571e327299
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: fcae17577b448b4271adee299874cf5cad9da79f
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "806346"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "938208"
 ---
 # <a name="send-documents-by-email"></a>Enviar documentos por correo electrónico
 Para comunicar el contenido de documentos empresariales rápidamente a sus socios, por ejemplo la información de pagos en los documentos de venta a los clientes, puede usar la función de Informe personalizado para definir el contenido específico de un documento que se insertará en el cuerpo del correo electrónico automáticamente. Para obtener más información, vea [Administrar diseños de informes y documentos](ui-manage-report-layouts.md).
 
-Para activar los correos electrónicos en [!INCLUDE[d365fin](includes/d365fin_md.md)], inicie la guía de configuración **Configurar correo electrónico** en el área de trabajo.
+Para activar los correos electrónicos en [!INCLUDE[d365fin](includes/d365fin_md.md)], inicie la guía de configuración asistida **Configurar correo electrónico** en el área de trabajo.
 
 Puede enviar por correo electrónico prácticamente todos los tipos de documento como archivos adjuntos en el mensaje directamente desde la página que muestra el documento. Además del archivo adjunto, puede configurar contenido específico de un documento en el cuerpo del correo electrónico con la información principal de ése documento, precedida por el texto estándar que saluda al destinatario del correo e introduce el documento en cuestión. Para ofrecer a sus clientes el pago de las ventas de forma electrónica usando un servicio de pago, como por ejemplo PayPal, puede disponer también de su información y su hipervínculo en el cuerpo del correo.
 

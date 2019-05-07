@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 896eb851c3e127aaaeb6881cadde633f76a6b1ac
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 4f01665a38406bccb9478809cfe9f97536e750f0
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "827129"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "941223"
 ---
 # <a name="payments-cartera-module"></a>Módulo Docs. cartera a pagar
 El módulo Docs. cartera a pagar permite administrar documentos a pagar generados a partir de facturas de compra o del **Diario Cartera**. Los documentos se pueden administrar por:  

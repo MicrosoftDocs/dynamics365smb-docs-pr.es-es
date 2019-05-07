@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: SorenGP
-ms.openlocfilehash: 74750011c638cf3733e20d7ab996887108bc2159
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: db891aae40ff3d681173a7ced673a30fcf4e0629
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "806396"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "934286"
 ---
 # <a name="register-employees"></a>Registrar empleados
 Para utilizar la funcionalidad Recursos humanos, primero deberá registrar cada empleado creando una ficha con toda la información base y relacionada.

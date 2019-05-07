@@ -1,34 +1,36 @@
 ---
 title: Encontrar características e información | Documentos de Microsoft
-description: En este tema se describe cómo utilizar la búsqueda para encontrar acciones, páginas, informes, documentación y datos.
-author: SusanneWindfeldPedersen
+description: Este tema describe cómo utilizar la búsqueda para encontrar acciones, páginas, informes, documentación y datos, así como otras aplicaciones y servicios de consultoría.
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: d260f7cf5db0bbd7c70320d0bd1d33ee29650616
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 309146e68abe91a89f761be0957ae27718ee2a0d
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "806288"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "934424"
 ---
 # <a name="using-tell-me-to-find-features-and-information"></a>Usar la opción Dígame para encontrar características e información  
-En este tema se describen varias formas con las que la opción Dígame puede ayudarle a encontrar rápidamente una acción, una página, un informe o cómo hacer algo en [!INCLUDE[d365fin](includes/d365fin_md.md)] si no lo sabe.  
+Este tema describe cómo la función Dígame puede ayudarle a ir rápidamente a cosas como acciones, páginas o informes, encontrar información sobre cómo completar una tarea concreta y descubrir aplicaciones y servicios de consultoría adicionales para [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+  
 
-> [!VIDEO https://www.youtube.com/embed/W8egYiS445o]
+> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2086048]
 
-## <a name="find-pages-reports-actions-and-documentation"></a>Buscar páginas, informes, acciones y documentación. 
-Cuando necesite ayuda para encontrar una página, un informe, un artículo en nuestra documentación o una acción en la página que está abierta, use el icono ![Dígame qué desea hacer](media/ui-search/search.png "Buscar por página o informe") **Dígame qué desea hacer**. También puede usar ALT+Q para comenzar a usar la opción Dígame.
+Cuando necesite ayuda para encontrar algo, utilice el icono ![Dígame qué desea hacer](media/ui-search/search.png "Buscar página o informe") **Dígame qué desea hacer** para buscarlo. También puede usar ALT+Q para comenzar a usar la opción Dígame.
 
-Cuando comienza a escribir caracteres, [!INCLUDE[d365fin](includes/d365fin_md.md)] muestra inmediatamente las coincidencias en una lista desplegable. Los resultados de la lista cambian a medida que escribe más caracteres. La segunda columna de la lista desplegable indica la categoría general del resultado.   
+Cuando comienza a escribir caracteres, [!INCLUDE[d365fin](includes/d365fin_md.md)] muestra inmediatamente las coincidencias. Los resultados de la lista cambian a medida que escribe más caracteres. Si observa que al introducir la palabra "producto" y los resultados incluyen "artículos", esto se debe a que la función Dígame utiliza sinónimos y términos de búsqueda alternativos para facilitar la búsqueda de acciones, páginas e informes. 
+
+La columna a la derecha indica la categoría general del resultado. Por ejemplo, si se abrirá una página de lista o si se trata de una tarea administrativa.  
 
 > [!NOTE]  
->   Cuando presiona **Intro** en su teclado, [!INCLUDE[d365fin](includes/d365fin_md.md)] abre el resultado que aparece primero. Si prefiere usar su teclado, use la tecla de tabulación y las teclas de flecha para elegir un elemento de los resultados.
+>   Si prefiere usar su teclado, use la tecla de tabulación y las teclas de flecha para elegir un elemento de los resultados. Si pulsa **Entrar** en su teclado sin elegir un resultado, [!INCLUDE[d365fin](includes/d365fin_md.md)] abre el resultado que aparece primero.
 
 ### <a name="find-an-action-on-the-current-page"></a>Encontrar una acción en la página actual
 La sección **En la página actual** le permite encontrar y realizar acciones en la página que tiene abierta. Por ejemplo, si la página Oferta de venta está abierta y escribe "cliente", la sección incluye una acción que abre la ficha de cliente para el cliente seleccionado en la oferta de venta. 
@@ -47,6 +49,9 @@ En **Documentación** verá artículos de la documentación de [!INCLUDE[d365fin
 
 > [!NOTE]  
 >   La documentación de las extensiones de terceros no se incluye en los resultados. 
+
+### <a name="get-more-functionality-by-finding-an-app-on-microsoft-appsource"></a>Obtener más funcionalidad mediante la búsqueda de una aplicación en Microsoft AppSource
+Nuestra comunidad de socios está desarrollando aplicaciones que agregan funcionalidades a [!INCLUDE[d365fin](includes/d365fin_md.md)]. La sección **Obtener de Microsoft AppSource** enumera aplicaciones para [!INCLUDE[d365fin](includes/d365fin_md.md)] que están disponibles en Microsoft AppSource y están relacionadas con la palabra clave que ha buscado.
 
 ## <a name="searching-for-data"></a>Buscar datos
 La función **Dígame qué desea hacer** no busca datos, como nombres de clientes, direcciones o transacciones. En su lugar, puede buscar datos en páginas de lista eligiendo el icono ![Buscar en la lista](media/ui-search/search-list.png "icono Buscar en la lista") **Búsqueda** en la esquina izquierda de la cabecera de la lista. La búsqueda solo se aplica a la lista que está viendo. Para obtener más información, consulte [Ordenar, buscar y filtrar listas](ui-enter-criteria-filters.md).

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8fc06a83a4bbf6acb5da076e21169819a6bb07de
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: daf11bb8f219367506cff4fff46caa4f75ec6c86
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "806646"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "938993"
 ---
 # <a name="copy-data-to-new-companies"></a>Copiar datos a una nueva empresa
 Puede copiar los valores de uso general de una empresa existente a otra nueva, siempre y cuando ambas empresas estén en la misma base de datos. Por ejemplo, si tiene una lista estándar de códigos de síntoma comunes a todas las implementaciones de gestión de servicios, puede copiarlos con facilidad de una empresa a otra.  

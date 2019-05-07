@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b1dbe67852e197ab52aff58131576ffd6b9c49c4
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: fde77f873897d801e6bf06d55d57e9406f352eed
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "806039"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "941639"
 ---
 # <a name="prepare-a-configuration-package"></a>Preparar un paquete de configuración
-Cuando se configura una nueva empresa, se reconocen y se procesan las relaciones de tabla. Los datos se importan y se aplican en el orden correcto. Si en el paquete de configuración se incluyen tablas de dimensión, estas también se importan.  
+Cuando se configura una nueva empresa, se reconocen y se procesan las relaciones de tabla. Los datos se importan y se aplican en el orden correcto. Si en el paquete de configuración se incluyen tablas de dimensión, estas también se importan. Para obtener más información, consulte [Para importar datos del cliente](admin-migrate-customer-data.md#to-import-customer-data). 
 
 Para ayudar al cliente a usar el paquete de configuración, puede agregar un cuestionario o un conjunto de cuestionarios al paquete. El cuestionario puede ayudar al cliente a comprender las distintas opciones de configuración. Normalmente, los cuestionarios se crean para las tablas de configuración principales cuando un cliente pueda requerir asistencia adicional sobre cómo seleccionar una configuración adecuada. Para obtener más información, vea [Recopilación de valores de configuración de cliente](admin-gather-customer-setup-values.md).
 

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6d8ecf84d4254d4ab18653444bf66df3c161c2ff
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 027fbfcf6f6dd73688b84d6850e19229480980b8
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "827143"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "941884"
 ---
 # <a name="receivables-cartera-module"></a>Módulo Docs. cartera a cobrar
 El módulo Docs. cartera a cobrar permite administrar las facturas generadas a partir de facturas de ventas. Los documentos se pueden administrar por:  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 35b8694710f031d99e4cfb6b5e0927266d7559b9
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 30de3d3243b0b6babff94efc33d87e7494d2e2bd
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "806434"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "939252"
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Modificar las sugerencias de planificación en una vista gráfica
 Una actividad típica de planificación consiste en cambiar o añadir líneas de la hoja de planificación para modificar los pedidos de suministros sugeridos antes de confirmarlos ejecutando la función **Ejecutar mensajes acción**. Una alternativa a hacerlo en la hoja de trabajo de planificación es utilizar una vista gráfica.

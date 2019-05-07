@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4dae4dbfc06b5040eba09df94fe13e7fce7b1940
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 3a3e42d9468c9f1a8d23afd8284e210fa7145c3c
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "805359"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "953515"
 ---
 # <a name="migrate-customer-data"></a>Migrar datos del cliente
 Puede migrar los datos existentes de cliente de un sistema de ERP existente a [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizando las herramientas de migración de datos de RapidStart Services. Puede usar archivos de Excel como soporte de datos. También puede mover manualmente los datos al introducirlos directamente en la empresa.
@@ -101,7 +101,7 @@ En los siguientes procedimientos, debe revisar por adelantado los valores que de
 5. En el campo **Valor antiguo**, escriba el valor que desea cambiar. En el campo **Valor nuevo**, escriba el valor al que desea que se cambie el valor original. Elija el botón **Aceptar**.  
 6. Importe los datos del cliente. Para obtener más información, consulte [Para importar datos del cliente](admin-migrate-customer-data.md#to-import-customer-data).
 7. En el campo **Nº errores de paquete**, compruebe si hay errores notificados. Si es así, explore en profundidad para ver los errores. Se abre la página **Registros paquete config**.
-8. Elija la acción **Mostrar error**. Recibirá el error siguiente: **<option> no es una opción válida. Las opciones válidas son <valid option list>**. Elija el botón **Aceptar**.  
+8. Elija la acción **Mostrar error**. Recibirá el error siguiente: **XX no es una opción válida. Las opciones válidas son: XX**. Elija el botón **Aceptar**.  
 9. Para liquidar la asignación que ha configurado, elija la acción **Aplicar datos**.  
 
 ### <a name="mapping-example"></a>Ejemplo de asignación  
@@ -153,7 +153,11 @@ Cuando se hayan introducido los datos del cliente en los archivos de migración 
 
 1. Abra la página **Configurar tarjeta de paquete**.
 2. Seleccione la tabla a la que desee importar datos y en la pestaña **Tablas**, elija la acción **Importar desde Excel**.
-3. Busque y abra el archivo que desee desde el que desea importar los datos a [!INCLUDE[d365fin](includes/d365fin_md.md)].
+3. Localice y abra el archivo del que desea importar datos.
+4. En la página **Config. vista previa importación paquetes**, revise el contenido que se va a importar.
+
+    La página **Config. vista previa importación paquetes** proporciona una visión general del contenido del archivo de Excel que se va a importar. También indica si se crea un nuevo paquete de configuración o si se actualiza el existente, y si se crean nuevas líneas (tablas) de paquete de configuración o se actualizan las existentes.    
+5. Seleccione la acción **Importar**.
 
 Los datos del archivo se importan en las tablas de paquetes de configuración. En el campo **Nº registros de paquete**, puede ver el número de registros que se han importado. Además, puede ver el número de errores de la migración.
 

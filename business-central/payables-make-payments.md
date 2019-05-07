@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 02/08/2019
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: f2ff92af7dbf6c751cde795d3546d90c8d76a62b
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 4ece210d5dd8f7748b6c7031bb0fedf571b61c9c
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "805691"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "990110"
 ---
 # <a name="making-payments"></a>Creación de pagos
 
@@ -37,7 +37,6 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Publique pagos a proveedores o empleados y reembolsos a clientes y, opcionalmente, aplique los pagos a las facturas/abonos sin pagar para cerrarlos como pagados.|[Registre pagos y reembolsos](payables-how-post-payments-refunds.md)|
 | Use una función en la página **Diario de pagos** para sugerir pagos de proveedores según los criterios seleccionados, como la fecha de vencimiento, la posibilidad de aplicar descuentos o su liquidez. |[Proponer pagos a proveedores](payables-how-suggest-vendor-payments.md) |
 | Emita cheques para realizar pagos a proveedor o reembolsos a cliente, ya sean en papel o automáticos. Anule los cheques antes o después del registro. |[Realizar pagos por cheque](payables-how-work-checks.md) |
-|Realice pagos electrónicos mediante la exportación de pagos a un archivo de banco que envíe a su banco para su procesamiento, incluido EFT (transferencia electrónica de fondos) en Norteamérica. |[Realizar pagos electrónicos](payables-how-export-payments-bank-file.md)|
 |Realizar pagos electrónicos en función del estándar de transferencia de crédito SEPA de la UE.|[Realizar pagos con Servicio de conversión de datos del banco o Transferencia de crédito SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)|
 | Pague a un proveedor en efectivo o cheque y registre el pago cuando registre la factura. |[Liquidar facturas de compra inmediatamente](finance-how-to-settle-purchase-invoices-promptly.md) |
 | Asegúrese de que su banco solo compensa cheques e importes validados enviándoles un archivo que contenga la información de proveedor, cheque y pago. |[Exportar un archivo de Positive Pay](finance-how-positive-pay.md) |

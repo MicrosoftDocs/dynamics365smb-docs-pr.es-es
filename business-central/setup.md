@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 10/01/2018
+ms.date: 04/05/2019
 ms.author: edupont
-ms.openlocfilehash: 3085ef58adf25ae7212ac17894fa54e5c2f8794e
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 3139273b09a223c84c452b5fbe2ee8b637a4c493
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852084"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "969837"
 ---
 # <a name="setting-up-included365finincludesd365finmdmd"></a>Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] incluye configuraciones estándar de la mayoría de procesos empresariales, pero puede cambiar la configuración para que se adapte a las necesidades de la empresa.
@@ -27,7 +27,7 @@ Desde el área de trabajo, puede acceder a guías de configuración asistida que
 > [!NOTE]
 > Puede configurar una nueva empresa en [!INCLUDE[d365fin](includes/d365fin_md.md)] con RapidStart Services, que es una herramienta diseñada para acortar los tiempos de implementación, mejorar la calidad de la implementación, introducir un método de repetición para las implementaciones y mejorar la productividad mediante la automatización y simplificación de las tareas periódicas. Para obtener más información, consulte [Configuración de una empresa con RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
-Alguna funcionalidad, general o de procesos empresariales específicos, se puede configurar manualmente además de la configuración asistida. A continuación se enumera parte de la funcionalidad que puede configurar manualmente.
+Alguna funcionalidad, general o de procesos empresariales específicos, se puede configurar manualmente además de la guía de configuración asistida. A continuación se enumera parte de la funcionalidad que puede configurar manualmente.
 
 | Para | Vea |
 | --- | --- |
@@ -58,18 +58,18 @@ Alguna funcionalidad, general o de procesos empresariales específicos, se puede
 Algunas regiones requieren que sea el administrador en su suscripción [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, consulte [Administración](admin-setup-and-administration.md).  
 
 ## <a name="see-also"></a>Consulte también
+
 [Administración](admin-setup-and-administration.md)  
 [Finanzas](finance.md)  
 [Ventas](sales-manage-sales.md)  
 [Compras](purchasing-manage-purchasing.md)  
-[Grupos contables inventario](inventory-manage-inventory.md)    
+[Inventario](inventory-manage-inventory.md)  
 [Administración de proyectos](projects-manage-projects.md)  
-[Activos fijos](fa-manage.md)    
+[Activos fijos](fa-manage.md)  
 [Gestión de ensamblaje](assembly-assemble-items.md)  
 [Fabricación](production-manage-manufacturing.md)  
 [Gestión de almacenes](warehouse-manage-warehouse.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Administración](admin-setup-and-administration.md)  
 [Crear nuevas en empresas en [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)  
 [Introducción](product-get-started.md)  
 

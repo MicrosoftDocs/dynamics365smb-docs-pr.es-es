@@ -8,15 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
 redirect_url: marketing-create-contact-persons
-ms.openlocfilehash: 983de37e20b69d6ce5d8630973d8fbac6403a346
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: b3012f5f22fc1dbbb78eb655e2d27abe290eb470
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "806009"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "930684"
 ---
 # <a name="create-contact-persons"></a>Crear personas de contacto
 Puede crear una ficha de contacto por cada uno que trabaje en las empresas con las que se relaciona. Puede especificar todos las personas contacto que desee en cada empresa contacto. También puede crear fichas de contacto para las personas que desea registrar como independientes.

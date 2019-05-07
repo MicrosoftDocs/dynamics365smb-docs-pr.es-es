@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/31/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4cbefdb46c6ba09dad64650123d6459135aa7afe
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: b717de6bcefc774b3fb92ed440cde9f3597f34ce
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852705"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "929750"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Tutorial: vender, ensamblar y enviar kits
 
@@ -106,7 +106,7 @@ Realice los pasos siguientes para quitar el plazo de entrega predeterminada para
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración fabricación** y luego elija el enlace relacionado.  
 2.  En la página **Configuración fabricación**, en la ficha desplegable **Planificación**, elimine el valor del campo **Plazo seguridad genérico**.  
 
-Cree el inventario para los componentes del ensamblado. Para ello, siga [Preparar datos de ejemplo](walkthrough-selling-assembling-and-shipping-kits.md#setting-up-the-sample-data).  
+Cree el inventario para los componentes del ensamblado. Para ello, siga [Preparar datos de ejemplo](walkthrough-selling-assembling-and-shipping-kits.md#prepare-sample-data).  
 
 ## <a name="story"></a>Historia  
 El 23 de enero, Susana, la responsable del procesamiento de pedidos de venta recibe un pedido de La Tienda Aparatos de tres unidades del kit B, que es un producto ATO. Las tres unidades se personalizan y deben incluir la tarjeta gráfica de gran potencia y un bloque de RAM adicional. Las unidades de disco se actualizan a DWD porque las unidades de CD no están disponibles. Susana sabe que las unidades se pueden ensamblar inmediatamente, por lo que deja la fecha de envío sugerida del 23 de enero.  

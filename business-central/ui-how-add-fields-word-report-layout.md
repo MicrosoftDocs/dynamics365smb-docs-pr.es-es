@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/22/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 5293b5298a2084c8cd36ae4dcc60beda75f5014e
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 5af662dcef893c04ea83f7051c63c53ec5d1e783
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "806629"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "933937"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Agregar campos a un diseño de informe de Word
 Un conjunto de datos de informe puede constar de campos que muestran etiquetas, datos e imágenes. Este tema describe el procedimiento para agregar campos de un conjunto de datos de informe a un diseño de informe de Word para un informe. Agregue campos al informe mediante el elemento XML personalizado de Word y mediante la adición de controles de contenido que asignen los campos al conjunto de datos del informe. La adición de campos requiere tener conocimientos del conjunto de datos del informe, de forma que pueda identificar los campos que desea agregar al diseño.  
   
 > [!NOTE]  
->  No puede modificar diseños de informe integrados.<!--Onprem. Built-in layouts can only be modified by using the development environment-->  
+>  No puede modificar diseños de informe integrados<!--Onprem. Built-in layouts can only be modified by using the development environment-->.  
 
 ##  <a name="OpenXMLPart"></a>Para abrir el elemento XML personalizado para el informe en Word  
   
@@ -37,7 +37,7 @@ Un conjunto de datos de informe puede constar de campos que muestran etiquetas, 
   
 3.  En la pestaña **Desarrollador**, elija **Panel de asignación XML**.  
   
-4.  En el panel **Asignación XML**, en la lista desplegable **Elemento XML personalizado**, seleccione el elemento XML personalizado para el informe de ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]-->, que suele ser el último en la lista. El nombre del elemento XML personalizado tiene el formato siguiente:  
+4.  En el panel **Asignación XML**, en la lista desplegable **Elemento XML personalizado**, seleccione el elemento XML personalizado para ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> informe, que suele ser el último de la lista. El nombre del elemento XML personalizado tiene el formato siguiente:  
   
      urn:microsoft-dynamics-nav/reports/*report_name*/*ID*  
   
@@ -80,7 +80,7 @@ Un conjunto de datos de informe puede constar de campos que muestran etiquetas, 
  Las imágenes se alinean en la esquina superior izquierda del control de contenido y cambian su tamaño automáticamente para ajustarse a los límites del control de contenido.  
   
 > [!IMPORTANT]  
->  Puede agregar solo imágenes que tengan formato compatible con Word, como tipos de archivo .bmp, .jpeg y .png. Si agrega una imagen que tenga un formato no admitido en Word, recibirá un error cuando ejecute el informe desde el cliente de ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]-->.  
+>  Puede agregar solo imágenes que tengan formato compatible con Word, como tipos de archivo .bmp, .jpeg y .png. Si agrega una imagen que tenga un formato no admitido en Word, recibirá un error cuando ejecute el informe desde el cliente de ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> .  
   
 #### <a name="to-add-an-image"></a>Para agregar una imagen  
   
@@ -101,7 +101,7 @@ La tabla siguiente proporciona un resumen simplificado del XML de un elemento XM
 |------------------|-----------------|  
 |`<?xml version="1.0" encoding="utf-16"?>`|Cabecera|  
 |`<WordReportXmlPart xmlns="urn:microsoft-dynamics-365/report/<reportname>/<id>/"`|Especificación del espacio de nombres XML. `<reportname>` es el nombre asignado al informe. `<id>` es el identificador asignado al informe.|  
-|`..<Labels>`<br /><br /> `....<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<br /><br /> `....<LabelName>LabelCaption</LabelName>`<br /><br /> `..</Labels>`|Contiene todas las etiquetas del informe.<!--OnPren The element includes labels that are related to columns that have the [IncludeCaption Property](../FullExperience/Name%20Property-duplicate.md).--><br />-   Los elementos etiquetados que están relacionadas con las columnas tienen el formato `<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<!--OnPrem where `ColumnName` is determined by the column's Name Property.-->.<br />- Los productos etiquetados tienen el formato `<LabelName>LabelName</LabelName`<!--OnPrem where LabelName is determined by the label's Name Property.-->.<br />-   Las etiquetas se enumeran en orden alfabético.|  
+|`..<Labels>`<br /><br /> `....<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<br /><br /> `....<LabelName>LabelCaption</LabelName>`<br /><br /> `..</Labels>`|Contiene todas las etiquetas del informe.<!--OnPren The element includes labels that are related to columns that have the [IncludeCaption Property](../FullExperience/Name%20Property-duplicate.md).--><br />-   Los elementos etiquetados que están relacionadas con las columnas tienen el formato `<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<!--OnPrem where `ColumnName` is determined by the column's Name Property.-->.<br />- Los productos etiquetados tienen el formato `<LabelName>LabelName</LabelName`.<!--OnPrem where LabelName is determined by the label's Name Property.-->.<br />-   Las etiquetas se enumeran en orden alfabético.|  
 |`..<DataItem1>`<br /><br /> `....<DataItem1Column1>DataItem1Column1</DataItem1Column1>`|Elementos de datos y columnas de nivel superior. Las columnas se enumeran en orden alfabético.<!--OnPrem <br /><br /> The element names and values are determined by the [Name Property-duplicate](../FullExperience/Name%20Property-duplicate.md) of the data item or column.-->|  
 |`....<DataItem2>`<br /><br /> `......<DataItem2Column1>DataItem2Column1</DataItem2Column1>`<br /><br /> `....</DataItem2>`<br /><br /> `....<DataItem3>`<br /><br /> `......<DataItem3Column1>DataItem3Column1</DataItem3Column1>`<br /><br /> `....</DataItem3>`|Elementos y columnas de datos que están anidados en el elemento de datos de nivel superior. Las columnas se enumeran en orden alfabético en el elemento de datos correspondiente.|  
 |`..</DataItem1>`<br /><br /> `</WordReportXmlPart>`|Elemento de cierre.|  

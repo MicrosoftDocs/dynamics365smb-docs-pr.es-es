@@ -8,15 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: solsen
 redirect_url: admin-powerbi
-ms.openlocfilehash: 48c57e03f4679ea05792304fe13bdf896be2f1e3
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: b7e844f64a96ba02c1a5fa0231f7b6992f972677
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "806687"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "932838"
 ---
 # <a name="connecting-power-bi-to-dynamics-365-business-central-content-packs"></a>Conectar Power BI con los paquetes de contenido de Dynamics 365 Business Central
 Obtener información de los datos de Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] resulta muy sencillo con Power BI y los paquetes de contenido de Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. Power BI extrae los datos y, a continuación, genera un panel original e informes en función de los datos.
@@ -55,26 +55,26 @@ Para importar los datos de [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.m
 - Empresa de vista de plantilla de Excel
 - Etiquetas de informe del Power BI
 
-**Microsoft Dynamics 365 Business Central – Finanzas**
+**Microsoft Dynamics 365 Business Central – Finance**
 - PowerBIFinance
 - Empresa de vista de plantilla de Excel
 - Etiquetas de informe del Power BI
 
-**Microsoft Dynamics 365 Business Central – Proyectos**
+**Microsoft Dynamics 365 Business Central – Jobs**
 - Lista de proyectos
 - Líneas planificación proyecto
 - Líneas tarea proyecto
 - Etiquetas de informe del Power BI
 - Empresa de vista de plantilla de Excel
 
-**Microsoft Dynamics 365 Business Central - Ventas**
+**Microsoft Dynamics 365 Business Central - Sales**
 - Panel de ventas
 - Empresa de vista de plantilla de Excel
 - Etiquetas de informe del Power BI
 
 ## <a name="list-page-reports"></a>Informes de páginas de listas 
 
-**Microsoft Dynamics 365 Business Central – Lista Clientes**
+**Microsoft Dynamics 365 Business Central – Customers List**
 - Ventas de productos por cliente
 - Lista de compra del producto Power BI
 - Lista de venta del producto Power BI
@@ -83,13 +83,13 @@ Para importar los datos de [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.m
 - ExcelTemplateViewCompany
 - Etiquetas de informe del Power BI 
 
-**Microsoft Dynamics 365 Business Central - Lista Movs. contabilidad**
+**Microsoft Dynamics 365 Business Central - General Ledger Entries List**
 - Lista de importes CG de Power BI
 - Importe presupuestado CG de Power BI
 - ExcelTemplateViewCompany
 - Etiquetas de informe del Power BI
 
-**Microsoft Dynamics 365 Business Central – Lista Productos**
+**Microsoft Dynamics 365 Business Central – Items List**
 - Ventas de productos por cliente
 - Lista de compra del producto Power BI
 - Lista de venta del producto Power BI
@@ -97,23 +97,23 @@ Para importar los datos de [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.m
 - ExcelTemplateViewCompany
 - Etiquetas de informe del Power BI
 
-**Microsoft Dynamics 365 Business Central – Lista Proyectos**
+**Microsoft Dynamics 365 Business Central – Jobs List**
 - Lista de proyectos de Power BI
 - ExcelTemplateViewCompany
 - Etiquetas de informe del Power BI
 
-**Microsoft Dynamics 365 Business Central – Lista Facturas compra**
+**Microsoft Dynamics 365 Business Central – Purchase Invoices List**
 - Lista de compras de Power BI
 - ExcelTemplateViewCompany
 - Etiquetas de informe del Power BI
 
-**Microsoft Dynamics 365 Business Central – Lista Pedidos venta**
+**Microsoft Dynamics 365 Business Central – Sales Orders List**
 - Lista de ventas de Power BI
 - ExcelTemplateViewCompany
 - Etiquetas de informe del Power BI
 
 
-**Microsoft Dynamics 365 Business Central – Lista Proveedores**
+**Microsoft Dynamics 365 Business Central – Vendors List**
 - Lista de compra del producto Power BI
 - Lista de venta del producto Power BI
 - Lista de proveedores de Power BI

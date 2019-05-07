@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e0674c0c308cd83de8a6977e05445c22009f513c
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 3bf24a32ba4a411ada744092d594b874c0154588
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "805558"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "930806"
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Planificar ubicaciones en hojas de trabajo
 Si el almacén requiere los procesos de ubicación y recepción, y desea planificar instrucciones de ubicación para varias recepciones, en vez de hacer que los empleados sigan las instrucciones que crea el sistema para recepciones registradas independientes, puede utilizar la hoja de trabajo de ubicación.  
@@ -58,7 +58,7 @@ Si no selecciona este campo, el programa creará automáticamente instrucciones 
 
     -   Puede asignar la ubicación a un empelado determinado.  
     -   Puede ordenar las líneas de la instrucción de ubicación como lo hizo en la hoja de trabajo o por ranking de ubicación. Cuando ordene según el ranking de ubicación, las líneas Traer se muestran primero, ya que las ubicaciones de la mayoría de las recepciones tienen un ranking de ubicación con el valor 0 y las líneas Colocar aparecen al final, empezando con las ubicaciones con el ranking de ubicación inferior. Si ha estructurado el almacén para que las ubicaciones de ranking similar estén unas al lado de otras, la ordenación de las líneas de esta forma finalmente ahorrará muchos pasos a los empleados de almacén.  
-    -   Puede optar por no ver las líneas intermedias creadas cuando el sistema divide una unidad de medida grande en otras más pequeñas seleccionando el campo **Define filtro div. bulto**. Para obtener más información, consulte [Habilitar interrupción automática masiva con picking y ubicaciones directas](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md).  
+    -   Puede optar por no ver las líneas intermedias creadas cuando el sistema divide una unidad de medida grande en otras más pequeñas seleccionando el campo **Define filtro div. bulto**. Para obtener más información, consulte [Habilitar interrupción automática masiva con ubicaciones y picking directos](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md).  
     -   Puede hacer que no se rellene automáticamente el campo **Cdad. a manipular** en las instrucciones de ubicación.  
     -   También puede elegir imprimir el documento inmediatamente.  
 

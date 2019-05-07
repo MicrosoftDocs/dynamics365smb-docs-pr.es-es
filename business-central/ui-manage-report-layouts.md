@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: solsen
-ms.openlocfilehash: 64c2c714afc3e052d3323dbcbddce4ee3ab5c98d
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: ff9e2087f832d954ae403596744990a243af80c5
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852406"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "934309"
 ---
 # <a name="managing-report-and-document-layouts"></a>Administrar diseños de informes y documentos
 Un diseño de informe controla el contenido y el formato del informe, incluidos los campos de datos de un conjunto de datos de informe que aparecen en el informe y la forma en que se organizan, el estilo del texto, las imágenes, etc. Desde [!INCLUDE[d365fin](includes/d365fin_md.md)] puede cambiar el diseño que se usa en un informe, crear un nuevo diseño o modificar diseños existentes.
@@ -32,7 +32,7 @@ En concreto, un diseño de informe configura lo siguiente:
 * El logotipo de la empresa y su posición.
 * Configuración de página general, como márgenes e imágenes de fondo.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] se puede configurar con varios diseños de informe, entre los que puede cambiar según sea necesario. Puede utilizar uno de los diseños de informe integrados o puede crear diseños de informe personalizados y asignarlos a sus informes según sea necesario. Para obtener más información, vea [Crear un diseño de informe o documento personalizado](ui-how-create-custom-report-layout.md).
+Un informe se puede configurar con varios diseños de informe, entre los que puede cambiar según sea necesario. Puede utilizar uno de los diseños de informe integrados o puede crear diseños de informe personalizados y asignarlos a sus informes según sea necesario. Para obtener más información, vea [Crear un diseño de informe o documento personalizado](ui-how-create-custom-report-layout.md).
 
 Se pueden usar dos tipos de diseños de informe: Word y RDLC.
 

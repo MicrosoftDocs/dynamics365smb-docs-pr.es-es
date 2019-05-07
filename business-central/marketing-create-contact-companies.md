@@ -10,28 +10,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: aaeb98aa5e3c48a92be71546be33b1494a751cb9
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 75f055dcc862f3954aa0c50d6d22643940baa538
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "805460"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "938970"
 ---
-# <a name="creating-contacts"></a>Crear contactos
-Su empresa asiste con frecuencia a reuniones con empresas de las que en muchas ocasiones surgen futuras relaciones de negocio. Cuando se crea un nuevo contacto, se debe registrar esta información de modo que pueda establecerse una comunicación continua.
+# <a name="create-contacts"></a>Crear contactos
+Conoce regularmente a personas de otras empresas que pueden convertirse en relaciones de negocio, como una relación de cliente. Cuando se realiza un nuevo contacto, se debe registrar tanta información como sea posible en una ficha de contacto para que la comunicación pueda continuar.
 
-Asignar la mayor información posible sobre una empresa específica garantiza una comunicación eficaz. Por ejemplo, si asigna el grupo de industria correspondiente, se asegura que las empresas se incluyan en todas las comunicaciones relevantes. También puede definir la relación de negocio que mantiene con un contacto. Por ejemplo, un contacto podría ser un cliente potencial, un banco o un contratista.
+## <a name="person-or-company"></a>Persona o empresa
+Puede decidir configurar un contacto como una persona o una empresa, por lo general dependiendo de si conoce el nombre de la persona de contacto en el momento de la creación. Esto se hace rellenando el campo **Tipo** en la página **Ficha contacto**. También se pueden actualizar fichas de contacto tanto para una empresa como para una o varias personas que trabajan en la empresa. Esto sucede automáticamente cuando rellena el campo **Nombre de la empresa** en una ficha de contacto del tipo **Persona**.
 
-> [!NOTE]
-> En el campo **Tipo** en la página **Ficha de contacto**, puede configurar un contacto como una persona o una empresa, por lo general dependiendo de si conoce el nombre de la persona de contacto en el momento de la creación. La funcionalidad es la misma para ambos tipos, excepto para algunos tipos de información adicional que se pueden asignar. Puede modificar el valor del campo más adelante, o puede usar los campos de la pestaña desplegable **Herencia** en la página de **Configuración de marketing** para controlar qué datos se comparten entre una persona y la empresa relacionada.
-
-Puede crear un contacto por cada nueva persona o empresa con las que se relacione, como puede ser un cliente, un proveedor, un posible cliente, un banco, un despacho de abogados, una consultora, etc.
-
-Existen dos formas de crear un contacto:
- * Manualmente.
- * Desde un cliente, proveedor o cuenta bancaria existente.
+La funcionalidad es la misma para ambos tipos, excepto las opciones de información adicional que cambian según el tipo. Por ejemplo, solo se pueden asignar responsabilidades de funciones a una persona y a un grupo de industria a una empresa. Esto se indica en la interfaz de usuario con cautela en los campos y acciones que no se aplican. Puede modificar el valor del campo **Tipo** más adelante, o puede usar los campos de la pestaña desplegable **Herencia** en la página de **Configuración de marketing** para controlar qué datos se comparten entre una persona y la empresa relacionada de la persona. Para obtener más información, consulte [Configurar contactos](marketing-setup-contacts.md).
 
 ## <a name="to-create-a-contact-manually"></a>Para crear un contacto manualmente
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Contactos** y luego elija el enlace relacionado.

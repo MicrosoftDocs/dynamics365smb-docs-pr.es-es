@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 9eb056bc98298a31833d205862d2d9bfeba04218
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: b7f41e3630b818607dee18ad2b8afe6ba5daa3de
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "806281"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "939157"
 ---
 # <a name="set-up-email-manually-or-using-the-assisted-setup"></a>Configurar el correo electrónico manualmente o con la configuración asistida
 Para enviar y recibir los correos electrónicos desde [!INCLUDE[d365fin](includes/d365fin_md.md)], debe rellenar los campos de la página **Configuración correo SMTP**.
@@ -24,7 +24,7 @@ Para enviar y recibir los correos electrónicos desde [!INCLUDE[d365fin](include
 > [!NOTE]  
 >   En lugar de especificar los detalles del servidor SMTP, puede utilizar una función para introducirlos con la información de su suscripción de Office 365.
 
-Puede configurar el correo electrónico manualmente o puede obtener ayuda mediante la configuración asistida **Configuración correo electrónico**. Para obtener más información, vea [Preparación para hacer negocios](ui-get-ready-business.md).  
+Puede configurar el correo electrónico manualmente o puede obtener ayuda mediante la guía de configuración asistida **Configuración correo electrónico**. Para obtener más información, vea [Preparación para hacer negocios](ui-get-ready-business.md).  
 
 ## <a name="to-set-up-email"></a>Para configurar el correo electrónico
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración correo electrónico SMTP** y luego elija el enlace relacionado.

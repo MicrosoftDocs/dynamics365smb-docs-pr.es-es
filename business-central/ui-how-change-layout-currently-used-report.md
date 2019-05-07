@@ -10,19 +10,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: a68c26e94aa4adda7c1f546e57331a741dcfe94b
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: f24f1cd24a31ddbd0b455b876821ae0173a677c3
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "806797"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "969814"
 ---
 # <a name="change-which-layout-is-currently-used-on-a-report"></a>Cambiar el diseño que se usa actualmente en un informe
 Un informe se puede configurar con varios diseños de informe, entre los que puede cambiar según sea necesario.
 
 Según los diseños disponibles para un informe, puede optar por usar un diseño de informe de RDLC integrado, un diseño de informe de Word integrado o un diseño personalizado. Para obtener más información acerca de los diseños de informe de RDLC y de Word, diseños personalizados e integrados y otros temas, consulte [Gestionar diseños de informe](ui-manage-report-layouts.md).
+
+> [!TIP]  
+> Los informes de documento (no listas) que utilizan un diseño de informe de Word suelen ser más rápidos que los que utilizan un diseño de informe RDLC. Por lo tanto, si tiene la opción de elegir entre un diseño de informe Word o RDLC para un informe de documento, utilice el diseño de informe Word para obtener el mejor rendimiento.  
 
 ## <a name="to-change-the-layout-that-is-used-on-a-report"></a>Para cambiar el diseño que se usa en un informe
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Selección de diseño de informes** y luego elija el enlace relacionado.  

@@ -8,17 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/12/2019
 ms.author: jswymer
-ms.openlocfilehash: 3fbd9fa2e68ab84c7abb82bdef42b10e9e2cc93e
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 602d520043c5192109ccc4e2605ae0e231dafc1e
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "853309"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "990182"
 ---
 # <a name="add-links-to-websites-documents-or-programs-on-records"></a>Añadir vínculos a páginas Web, documentos o programas en registros
-En un registro específico, como un cliente, documento, o pedido de venta, puede agregar un vínculo a un documento externo, una página Web, o programa. O bien, es posible que desee un vínculo que abra un nuevo mensaje de correo electrónico en blanco a un destinatario específico cuando lo seleccione. La página de fichas para algunos registros, como las fichas de cliente y proveedor, incluyen un campo **Página de inicio**, donde puede especificar una dirección de internet (URL). Para incluir otros en vínculos, puede utilizar el método que se describe en este artículo.
+En un registro específico, como un cliente, documento, o pedido de venta, puede agregar un vínculo a un documento externo, una página Web, o programa. O bien, es posible que desee un vínculo que abra un nuevo mensaje de correo electrónico en blanco a un destinatario específico cuando lo seleccione. La página de fichas para algunos registros, como las fichas de cliente y proveedor, incluyen un campo **Página de inicio**, donde puede especificar una dirección de internet (URL). Para incluir otros en vínculos, puede utilizar el método que se describe en este artículo.  
+
+> [!IMPORTANT]
+> Actualmente, esta capacidad solo está disponible en implementaciones locales de [!INCLUDE [prodshort](includes/prodshort.md)] con el cliente Windows de Dynamics NAV heredado.  
 
 Otro ejemplo podría ser cuando recibe facturas impresas de proveedores. Puede buscarlos y almacenarlos como archivos de .pdf en un sitio Web de SharePoint. A continuación, puede establecer un vínculo desde una factura de compra en [!INCLUDE[d365fin_md](includes/d365fin_md.md)] a la factura correspondiente en SharePoint. o bien cree un vínculo de una ficha de producto a la página correspondiente del catálogo en línea del proveedor.
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 384bb86a6d6a7384af287d8bbd13a506e1bfcfe1
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 1cf5b75bc63acfa07a90cda1d03f45579a0aa51d
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "805870"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "935380"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Uso de colas de proyectos para programar tareas
 Las colas de proyectos de [!INCLUDE[d365fin](includes/d365fin_md.md)] permiten a los usuarios programar y ejecutar informes y codeunits específicos. Puede configurar proyectos para que se ejecuten una vez o de manera periódica. Por ejemplo, puede ejecutar el informe de **Vendedor - Estadísticas ventas** de manera semanal, para realizar el seguimiento de ventas por vendedor cada semana, o bien ejecutar la codeunit **Procesar cola de correo electrónico del servicio** diariamente, para asegurarse de que se envían de manera oportuna los mensajes de correo electrónico a los clientes relacionados con sus pedidos de venta.

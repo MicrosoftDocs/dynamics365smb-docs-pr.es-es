@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 4e47858bf1f7253f8fb8951fe8ea3cb611138852
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 54a7ad407ef3322ec1e02de4b20a934163a21a8e
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "806496"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "935808"
 ---
 # <a name="the-late-payment-prediction-extension"></a>Extensión de Predicción de pagos atrasados  
 La gestión efectiva de los cobres es importante para el estado financiero general de una empresa. La extensión de Predicción de pagos atrasados puede ayudarle a reducir los cobros pendientes y afinar su estrategia de cobros puesto que predice si las facturas de ventas se pagarán a tiempo. Por ejemplo, si se predice que un pago se retrasará, puede decidir ajustar los términos de pago o el método de pago para el cliente.
@@ -55,7 +55,7 @@ On the **Late Payment Prediction Setup** page you can schedule updates to paymen
 ## <a name="building-your-own-predictive-model"></a>Crear un modelo predictivo personalizado
 ¿Le interesa crear un modelo predictivo personalizado? Puede usar Azure Machine Learning Studio para crear su propio modelo predictivo y usarlo en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para utilizar su propio modelo, debe suscribirse a Azure Machine Learning. Para obtener más información, vea [Documentación de Azure Machine Learning Studio](https://go.microsoft.com/fwlink/?linkid=861765).  
 
-Sin embargo, le ofrecemos una forma más fácil de crear y usar su propio modelo predictivo. Puede compartir los datos de sus facturas con nuestro experimento predictivo en Azure Machine Learning y dejar que cree y forme un modelo predictivo basado en sus datos. Para compartir sus datos, en la página **Configuración de predicción de pago atrasado**, seleccione la acción **Crear mi modelo**. Después, las predicciones se basarán en su modelo y sus datos, no en los nuestros.  
+Sin embargo, le ofrecemos una forma más fácil de crear y usar su propio modelo predictivo. Puede compartir los datos de sus facturas con nuestro [experimento de predicción para Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2086310) en Azure Machine Learning y dejar que cree y forme un modelo predictivo basado en sus datos. Para compartir sus datos, en la página **Configuración de predicción de pago atrasado**, seleccione la acción **Crear mi modelo**. Después, las predicciones se basarán en su modelo y sus datos, no en los nuestros.  
 
 > [!Note]
 >   La calidad de modelo es importante. Cuando nuestro experimento predictivo utiliza sus datos para formar un modelo, determina un valor de calidad para el modelo como un porcentaje. La calidad del modelo indica la precisión de las predicciones. Varios factores pueden afectar la calidad de un modelo. Por ejemplo, estos factores pueden ser que no hay suficientes datos o que los datos no contienen suficiente variación. Puede ver la calidad del modelo que utiliza actualmente en la página **Configuración de predicción de pago atrasado**. También puede especificar un umbral mínimo de calidad para el modelo. Los modelos con el valor de calidad inferiores al umbral no generará predicciones.  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: feb29e3cee1a55833566657a6a007af8854f98f5
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 60b3e0d732125f60b092a0e089cabc2b82ad71ef
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "805432"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "932037"
 ---
 # <a name="reconcile-bank-accounts-separately"></a>Conciliar cuentas bancarias
 Para conciliar las cuentas bancarias en [!INCLUDE[d365fin](includes/d365fin_md.md)] con las declaraciones recibidas del banco, comience completando el panel izquierdo en la página **Conciliación banco** con información del extracto de cuenta que luego coincide (concilia) con los movimientos de cuenta bancaria en el panel derecho. Una manera inteligente de completar las líneas de extracto bancario es mediante la importación de un extracto o archivo de extracto bancario.

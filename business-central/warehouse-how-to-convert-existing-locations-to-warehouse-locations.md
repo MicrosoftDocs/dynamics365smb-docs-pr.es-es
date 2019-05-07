@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6f5c798587c832b25ef2ead944fc5f5f8ea89644
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 9996dce18755a48be903fabdfcb381a5d6ee5398
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "806674"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "939205"
 ---
 # <a name="convert-existing-locations-to-warehouse-locations"></a>Convertir los almacenes existentes en ubicaciones de almacén
 Puede activar una ubicación de inventario existente para utilizar zonas y ubicaciones, y para operar como ubicación de almacén.  
@@ -37,7 +37,7 @@ Puede crear zonas y ubicaciones antes o después de la conversión. La única ub
     Mediante los movimientos de producto pendientes para el almacén especificado, se crean líneas de diario de almacén que suman las combinaciones de Nº producto, Cód. variante, Cód. unidad medida y, si es necesario, Nº lote y Nº serie en los movimientos del diario de productos. Entonces, se registrarán las líneas del diario de almacén. Este registro crea movimientos de almacén que colocan el inventario en la ubicación de ajuste de almacén. También se configura el **Cód. ubicación ajuste** en la ficha de almacén.  
 
 4.  Para ver los productos que se han añadido a la ubicación de ajuste durante el proceso, ejecute el informe **Ubic. ajuste alm**.  
-5.  Una vez que se ha completado el trabajo por lotes **Crear un almacén**, debe llevar a cabo y registrar el inventario físico del almacén. Para obtener más información, consulte [Recuento, ajuste, y reclasificación de inventario](inventory-how-count-adjust-reclassify.md).  
+5.  Una vez que se ha completado el trabajo por lotes **Crear un almacén**, debe llevar a cabo y registrar el inventario físico del almacén. Para obtener más información, consulte [Recuento, ajuste y reclasificación de inventario mediante diarios](inventory-how-count-adjust-reclassify.md).  
 
 > [!NOTE]  
 >  Se recomienda que ejecute el proceso **Crear un almacén** en un momento en el que no tenga impacto en el trabajo diario del sistema. Esta tarea procesa todos los movimientos de la tabla **Mov. producto** y si hay un gran número de movimientos de productos, la tarea puede durar varias horas.  
