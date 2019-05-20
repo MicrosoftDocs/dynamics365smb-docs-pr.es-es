@@ -1,6 +1,6 @@
 ---
-title: Microsoft Pay estándar | Documentos de Microsoft
-description: Proporciona información sobre la extensión de Microsoft Pay
+title: Microsoft Pay estándar | Microsoft Docs
+description: Proporciona información acerca de la extensión Microsoft Pay
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -12,13 +12,13 @@ ms.workload: na
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 61022b690cb2a442eaf6cd27c305ebd874a9474f
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "935831"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249933"
 ---
-# <a name="the-microsoft-pay-extension"></a>La extensión de Microsoft Pay
+# <a name="the-microsoft-pay-extension"></a>Extensión Microsoft Pay
 Los clientes requieren continuamente un servicio de atención mejor, ya sea en cuanto a la calidad de los productos como en las opciones de pago y envío. El servicio Microsoft Pay ayuda a mejorar el servicio de atención al cliente.
 
 La extensión de Microsoft Pay agrega un vínculo de Microsoft Pay a los documentos de venta para que los clientes pueden pagar fácilmente mediante Microsoft Pay. Después podrá registrar los documentos por correo electrónico para proporcionar un servicio al cliente superior y acortar el tiempo necesario para que los pagos de los clientes lleguen a su cuenta del banco.

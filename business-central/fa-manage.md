@@ -13,11 +13,11 @@ ms.search.keywords: machinery, buildings
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: fabff17b66dd3d5a8c57537df34bddedba0d7248
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "914638"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243853"
 ---
 # <a name="fixed-assets"></a>Activos fijos
 La funcionalidad Activos fijos de [!INCLUDE[d365fin](includes/d365fin_md.md)] proporciona un resumen de sus activos y asegura una correcta amortización periódica. También le permite realizar un seguimiento de los costes de mantenimiento, gestionar las pólizas de seguros, registrar transacciones de activos y generar diversos informes y estadísticas.

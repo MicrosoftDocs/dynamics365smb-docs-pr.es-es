@@ -13,11 +13,11 @@ ms.search.keywords: feature overview, functionality
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 063de8e16c01569c4a25e825b8804898a6f80e79
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "939467"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250876"
 ---
 # <a name="general-business-functionality"></a>Funciones empresariales generales
 [!INCLUDE[d365fin](includes/d365fin_md.md)] proporciona funciones dedicadas para las áreas habituales comerciales, como finanzas y ventas. Para obtener más información, consulte [Funciones empresariales](across-business-functionality.md).

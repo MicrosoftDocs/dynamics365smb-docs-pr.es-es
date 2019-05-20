@@ -13,11 +13,11 @@ ms.search.keywords: project invoice
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 57a0cb6624e122f52aaa0680fd73df8b67a23d30
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "927882"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1253338"
 ---
 # <a name="invoice-jobs"></a>Facturar proyectos
 Durante el proyecto, pueden acumularse los costes del proyecto por el uso de recursos, materiales y compras relacionadas con el proyecto. Según progresa el proyecto, estas transacciones se registran en el diario del proyecto. Es importante que se registren todos los costes en el diario del proyecto antes de facturar al cliente.

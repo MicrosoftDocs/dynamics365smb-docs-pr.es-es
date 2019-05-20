@@ -13,11 +13,11 @@ ms.search.keywords: supplier, payment priority
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: c709539b24aa1f94c86dee26dd63adead39c892b
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "915605"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252370"
 ---
 # <a name="prioritize-vendors"></a>De prioridad a los proveedores
 [!INCLUDE[d365fin](includes/d365fin_md.md)] puede proponer diversos pagos a proveedores, como los pagos que están próximos a vencer o los pagos en los que se pueden realizar descuentos. Para obtener más información, vea [Proponer pagos a proveedores](payables-how-suggest-vendor-payments.md).

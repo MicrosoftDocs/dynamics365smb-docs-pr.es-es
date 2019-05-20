@@ -13,11 +13,11 @@ ms.search.keywords: check, clearing
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: c2a3a1e94eaa5fee747ce52726765ff1f9401bb2
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "915412"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243623"
 ---
 # <a name="export-a-positive-pay-file"></a>Exportar un archivo de Positive Pay
 Para asegurarse de que su banco solo compense los cheques e importes validados, puede exportar un archivo de Positive Pay que contenga la información de proveedor, el número de cheque y el importe de pago, que puede enviar al banco como referencia cuando se procesen pagos.

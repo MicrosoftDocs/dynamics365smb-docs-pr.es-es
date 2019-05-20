@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 0ed1e040be212f8f59efb5d4b6a41346e6d9b84e
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "922582"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1239480"
 ---
 # <a name="apply-configurations-to-new-companies"></a>Aplicar la configuración a nuevas empresas
 Una vez que haya creado un paquete de configuración, el siguiente paso es implementar el paquete en el cliente para su implementación. Trabaje con el paquete de configuración dentro de una nueva empresa vacía.  

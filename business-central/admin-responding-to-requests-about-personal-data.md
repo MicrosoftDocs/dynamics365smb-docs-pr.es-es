@@ -9,11 +9,11 @@ ms.date: 04/01/2019
 ms.reviewer: na
 ms.topic: article
 ms.openlocfilehash: 3b49df32acdc9530eb56a26538dbc34e245ec1e3
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "917387"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244914"
 ---
 # <a name="responding-to-requests-about-personal-data"></a>Respuesta a las solicitudes de datos personales  
 Los asuntos de datos pueden solicitar varios tipos de acciones relacionadas con sus datos personales. Por ejemplo, según el Reglamento general de protección de datos (GDPR), los residentes de la UE tienen derecho a solicitar la exportación, eliminación y modificación de sus datos personales. Esto se conoce como *Solicitud de asunto de datos*. Si ha clasificado la sensibilidad de sus datos y está seguro de que son correctos, un administrador puede responder a las solicitudes utilizando las opciones de **Privacidad de datos** en el área de trabajo **Administrar usuarios, grupos de usuarios y permisos** o si está utilizando el cliente de Windows, en el área de trabajo **Administrador de TI**. Para obtener más información sobre la clasificación de datos y la clasificación de la confidencialidad de datos en [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], consulte [Clasificar datos](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) y [Clasificar confidencialidad de datos](admin-classifying-data-sensitivity.md).  

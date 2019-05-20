@@ -4,20 +4,20 @@ description: Utilice fichas de banco para realizar un seguimiento de sus cuentas
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
-ms.date: 04/01/2019
+ms.date: 06/02/2016
 ms.author: sgroespe
 ms.openlocfilehash: 05cf51ae4d09dc0b023782f7f68e514eb8668be8
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "923350"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244106"
 ---
 # <a name="setting-up-banking"></a>Configurar banca
 Mediante el uso de fichas de bancos, puede realizar un seguimiento de todos sus bancos, en cualquier divisa. Cuando haya configurado los bancos, puede utilizar también la opción de impresión de cheques.
@@ -27,7 +27,7 @@ Para usar servicios de banca electrónica para importar extractos bancarios y ex
 | Para | Vea |
 | --- | --- |
 | Configurar fichas de bancos para cada uno de sus bancos, de modo que pueda realizar un seguimiento de sus transacciones bancarias. |[Configurar bancos](bank-how-setup-bank-accounts.md) |
-| Configure un servicio externo que permita importar extractos bancarios como fuentes de banco para la liquidación de pagos y la conciliación de bancos. |[Configuración del servicio de fuentes de banco de Envestnet Yodlee](bank-how-setup-bank-statement-service.md) |
+| Configure un servicio externo que permita importar extractos bancarios como fuentes de banco para la liquidación de pagos y la conciliación de bancos. |[Configuración del servicio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md) |
 | Configure un servicio externo que permita exportar pagos al banco para su procesamiento e importar extractos bancarios como archivos bancarios para la liquidación de pagos y la conciliación de bancos. |[Configurar el servicio de conversión de datos bancarios](bank-how-setup-bank-data-conversion-service.md) |
 
 ## <a name="see-also"></a>Consulte también

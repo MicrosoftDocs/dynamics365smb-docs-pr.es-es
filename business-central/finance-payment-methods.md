@@ -11,11 +11,11 @@ ms.search.keywords: check, bank transfer, cash, PayPal
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: c9eace037f6a30fafdd5bc2a3af0af83da73b3f5
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "926348"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244405"
 ---
 # <a name="defining-payment-methods"></a>Definir las formas de pago
 Las formas de pago definen la forma en que prefiere que los clientes le paguen y cómo desea pagar a sus proveedores. El método puede variar para cada cliente o proveedor. Ejemplos de formas de pago habituales son **banco**, **efectivo**, **cheque** o **cuenta**. 

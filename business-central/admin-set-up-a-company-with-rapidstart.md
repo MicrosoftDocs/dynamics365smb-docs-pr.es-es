@@ -1,5 +1,5 @@
 ---
-title: Configuración de una empresa con RapidStart Services | Documentos de Microsoft
+title: Configurar una empresa con RapidStart Services | Documentos de Microsoft
 description: Puede configurar una nueva empresa en Business Central con RapidStart Services, que es una herramienta diseñada para acortar los tiempos de implementación, mejorar la calidad de la implementación, introducir un método de repetición para las implementaciones y mejorar la productividad mediante la automatización y simplificación de las tareas periódicas.
 services: project-madeira
 documentationcenter: ''
@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 04d665ac1cfcf66c2581d97bac05d636114a5ef4
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "914791"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244323"
 ---
 # <a name="setting-up-a-company-with-rapidstart-services"></a>Configurar una empresa con RapidStart Services
 Puede configurar una nueva empresa en [!INCLUDE[d365fin](includes/d365fin_md.md)] con RapidStart Services, que es una herramienta diseñada para acortar los tiempos de implementación, mejorar la calidad de la implementación, introducir un método de repetición para las implementaciones y mejorar la productividad mediante la automatización y simplificación de las tareas periódicas.  
@@ -37,7 +37,7 @@ Puede utilizar los componentes siguientes para agilizar la configuración de su 
 
  En la tabla siguiente se muestra una secuencia de tareas con vínculos a los temas que las describen.
 
-|**Para**|**Consulte**|  
+|**Para**|**Vea**|  
 |------------|-------------|  
 |Configurar la interfaz de usuario principal de RapidStart Services.|[Usar el Área de trabajo del implementador de RapidStart Services](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md)|  
 |Cree una nueva empresa e importe plantillas y datos de configuración básicos.|[Establecer la configuración de una empresa](admin-set-up-company-configuration.md)|  

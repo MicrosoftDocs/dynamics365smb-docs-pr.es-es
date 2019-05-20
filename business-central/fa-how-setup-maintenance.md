@@ -13,11 +13,11 @@ ms.search.keywords: repair, service
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: ba01ccb88349a1f1943655949a36e2a21f3ae2de
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "913900"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244502"
 ---
 # <a name="set-up-fixed-asset-maintenance"></a>Configure el mantenimiento de los activos fijos
 Para gestionar el mantenimiento de los activos fijos, primero debe configurar la información de mantenimiento en una cuenta de registro para los costes de mantenimiento y los códigos de mantenimiento para los tipos de trabajo, como por ejemplo Servicio rutinario o Reparación.

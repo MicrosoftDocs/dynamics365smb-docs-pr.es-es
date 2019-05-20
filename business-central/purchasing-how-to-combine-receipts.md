@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 5e1b04cc998319cc835b5dcc1547723c48be6763
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "926872"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252886"
 ---
 # <a name="combine-receipts-on-a-single-invoice"></a>Agrupar albaranes en una factura única
 Si desea facturar varios albaranes de compra a la vez, puede utilizar la función **Combinar albaranes**.  

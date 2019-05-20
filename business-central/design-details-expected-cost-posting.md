@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: c1ecbbc42fcc5ccf5cb6f0d39c908da36cc8c918
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "923420"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246529"
 ---
 # <a name="design-details-expected-cost-posting"></a>Detalles de diseño: Registro de coste previsto
 Los costes previstos representan la estimación, por ejemplo, del coste de un producto comprado registrado antes de recibir la factura de este producto.  

@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 165eddfa28f2a48597d64c4480288e9280124fe7
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "912442"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247242"
 ---
 # <a name="prepare-to-migrate-customer-data"></a>Preparar migración de datos de cliente
 Una vez que haya importado y aplicado los datos de configuración en la nueva base de datos, podrá comenzar a migrar los datos maestros existentes del cliente, tales como nombres y números de cliente y producto. Para asegurarse de que estos datos se crean de forma rápida y precisa en la empresa nueva, debe usar plantillas para estructurar los datos.  

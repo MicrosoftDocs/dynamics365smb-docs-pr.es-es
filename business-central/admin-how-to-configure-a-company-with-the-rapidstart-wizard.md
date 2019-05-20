@@ -13,16 +13,16 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 3784b8e0cc0c0c07300895ce448ff82f9acc91c9
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "919276"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1239917"
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>Configurar una empresa con el asistente de RapidStart
 Puede configurar rápidamente una nueva empresa que se haya creado mediante el asistente para la configuración de RapidStart Services.
 
-En el procedimiento siguiente, proporcionó al cliente el paquete de configuración, que luego se instala en un equipo. El cliente abre la nueva empresa, que no contiene ningún elemento de datos de cliente. Usted o el cliente sigue los pasos del asistente de RapidStart Services y que se describen en este procedimiento, con el fin de proporcionar información básica sobre la empresa. El asistente importa el paquete de configuración y luego aplica este a la empresa.  
+En el procedimiento siguiente, proporcionó al cliente el paquete de configuración, que luego se instala en un equipo. El cliente abre la nueva empresa, que no contiene ningún elemento de datos de cliente. Usted o el cliente siguen los pasos del asistente de RapidStart Services y que se describen en este procedimiento, con el fin de proporcionar información básica sobre la empresa. El asistente importa el paquete de configuración y luego aplica este a la empresa.  
 
 ## <a name="to-configure-a-new-company"></a>Procedimiento para configurar una nueva empresa  
 1. En el Área de trabajo del implementador de RapidStart Services, elija la acción **Asistente de RapidStart**.  

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 68128de48b014e7ca44fba3909cf72dcf0d87135
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: c64b58c036395764191c05f47f8327c6479a4c6f
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "920420"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1447042"
 ---
 # <a name="setting-up-finance"></a>Configurar las finanzas
 Para ayudarle a empezar rápidamente, [!INCLUDE[d365fin](includes/d365fin_md.md)] incluye las configuraciones estándar para la mayoría de los procesos financieros. Si necesita cambiar las configuraciones para que se adapten a su empresa, continúe. Por ejemplo, desde el área de trabajo puede usar a una guía de configuración asistida para configurar los impuestos de ventas de su ubicación.  
@@ -44,7 +44,6 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 | Configure gráficos de inteligencia empresarial (BI) para analizar el flujo de efectivo. |[Configuración del análisis de flujo de efectivo](finance-setup-cash-flow-analyses.md) |
 |Activar la facturación de un cliente que no está configurado en el sistema.|[Configurar clientes de efectivo](finance-how-to-set-up-cash-customers.md)|
 | Configurar los informes Intrastat y, enviar el informe a una autoridad | [Configuración y creación de informes Intrastat](finance-how-setup-report-intrastat.md)|
-|Prepare el informe Balance comprobación consol. en el área de trabajo contable para obtener una visión general financiera de varias empresas.|[Consolidar los datos financieros de varias empresas](finance-consolidated-company-reporting.md)|
 |Asegúrese de que un movimiento de un diario general esté asignado a varias cuentas diferentes al registrar el diario, ya sea cantidad, porcentaje o importe.|[Utilizar claves de asignación en diarios generales](ui-how-use-allocation-keys-general-journals.md)|
 
 ## <a name="see-also"></a>Consulte también

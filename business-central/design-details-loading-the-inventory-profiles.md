@@ -14,11 +14,11 @@ ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
 ms.openlocfilehash: 09f74e83bdc467378144f586dd3a33a0fc1ba213
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "932557"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1242174"
 ---
 # <a name="design-details-loading-the-inventory-profiles"></a>Detalles de diseño: Carga de los perfiles de inventario
 Para organizar los numerosos orígenes de demanda y suministro, el sistema de planificación las organiza en dos escalas temporales denominadas perfiles de inventario.  

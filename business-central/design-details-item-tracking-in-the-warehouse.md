@@ -13,11 +13,11 @@ ms.search.keywords: design, item, tracking, serial number, lot number, outbound 
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: a482e0fed80d5e9380b6c6e0ec03557abbc02953
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "917821"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1242105"
 ---
 # <a name="design-details-item-tracking-in-the-warehouse"></a>Detalles de diseño: Seguimiento de productos en el almacén
 El control de los números de serie y de lote es principalmente una tarea de almacén y, por lo tanto, todos los documentos de almacén de entrada y de salida tienen una funcionalidad estándar para asignar y seleccionar números de seguimiento de productos.  

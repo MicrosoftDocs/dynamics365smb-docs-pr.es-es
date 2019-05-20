@@ -12,11 +12,11 @@ ms.search.keywords: reject, delegate, request
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 64ac69bfa3a1ad0d5dd3b9c86af4a495fbf10b14
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "923396"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1240630"
 ---
 # <a name="set-up-workflow-users"></a>Configurar usuarios de flujo de trabajo
 Para poder crear flujos de trabajo, debe configurar los usuarios que participan en flujos de trabajo. Esto es necesario para especificar, por ejemplo, quién debe recibir una notificación para actuar sobre un paso del flujo de trabajo.  

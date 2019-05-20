@@ -11,11 +11,11 @@ ms.search.keywords: GetAddress.io, postcodes, postal, address, extension
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: 5c83a5bc7fbe91b9ff0592c5129f5a7dd5887c2c
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "928374"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250048"
 ---
 # <a name="the-getaddressio-uk-postcodes-extension"></a>La extensión Códigos postales de Reino Unido de GetAddress.io
 La extensión Códigos postales de Reino Unido de GetAddress.io puede ahorrar tiempo y evitar errores al introducir las direcciones de entidades como clientes, proveedores, bancos y empleados. Por ejemplo, al crear un cliente, solo debe elegir un prefijo postal y [!INCLUDE[d365fin](includes/d365fin_md.md)] mostrará una lista de direcciones. Elija la dirección que desea y, ya está, los campos de dirección se rellenan.  

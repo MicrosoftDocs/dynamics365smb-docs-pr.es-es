@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 19f7c77a115f473238441b8c67417e53c0896625
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: 3a719e7b2d44a6cf67335b938a0899a52fcde41b
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "915481"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1446835"
 ---
 # <a name="managing-sales-opportunities"></a>Administrar oportunidades de venta
 Las referencias de entrada se pueden considerar oportunidades de venta. Puede crear oportunidades y asociarlas a un vendedor de forma que pueda realizar un seguimiento de las ventas potenciales.
@@ -33,6 +33,6 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 | Mueva una oportunidad de ventas a través del ciclo de venta para que se complete. |[Procesar oportunidades de ventas](marketing-processing-sales-opportunities.md) |
 
 ## <a name="see-also"></a>Consulte también
-[Ventas](sales-manage-sales.md)  
+[Ccial](sales-manage-sales.md)  
 [Creación y administración de contactos](marketing-contacts.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

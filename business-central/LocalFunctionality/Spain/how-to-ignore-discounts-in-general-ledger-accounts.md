@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: dc34f996cb543e0c83fa3554a324f8411d842eca
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "937889"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1241479"
 ---
 # <a name="ignore-discounts-in-general-ledger-accounts"></a>Omitir descuentos en cuentas de contabilidad
 Algunas cuentas de contabilidad no aceptan descuentos de pago o de factura. Para estas cuentas, se pueden omitir los descuentos.  

@@ -11,11 +11,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: a322fe99a76555d438033919a2f6a1ace4e108db
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "922532"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1240912"
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-bank-data-conversion-service"></a>Asignación de campos al exportar archivos de pago con el servicio de conversión de datos bancarios
 Cuando se exportan archivos de pago con la función de servicio de conversión de datos bancarios, los datos exportados serán visibles para el proveedor del servicio de conversión de datos bancarios. El proveedor del servicio es responsable de la privacidad de estos datos. Para obtener más información sobre la función de servicio de conversión de datos bancarios, consulte [Acerca del marco de intercambio de datos](across-about-the-data-exchange-framework.md).  

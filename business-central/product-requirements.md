@@ -11,11 +11,11 @@ ms.search.keywords: version
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: 42e0bd7555b99b8e9ba6748d77817c69eb55d009
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "923133"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252902"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Requisitos mínimos para utilizar Business Central
 Antes de que acceda a [!INCLUDE[d365fin](includes/d365fin_md.md)], le recomendamos que verifique que su equipo o dispositivo móvil cumple o supera los requisitos mínimos del sistema para el producto. En este artículo se especifican los requisitos.  

@@ -14,11 +14,11 @@ ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: finance-set-up-cost-accounting
 ms.openlocfilehash: 725ad9ed12dd32dc1cc3257c266efa274ea964a0
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "923276"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1239641"
 ---
 # <a name="set-up-cost-objects"></a>Configurar objetos de costes
 Los objetos de coste son proyectos, productos o servicios de una empresa. El plan de objetos de coste es similar a la información de dimensión de contabilidad. Puede configurar el plan de objetos de coste de la siguiente forma:  

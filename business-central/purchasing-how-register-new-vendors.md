@@ -13,11 +13,11 @@ ms.search.keywords: supplier
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 9f388b788e8788049ee30567972090984063cad1
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "930360"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252923"
 ---
 # <a name="register-new-vendors"></a>Permite registrar nuevos proveedores
 Los proveedores proporcionan los productos que vende. Cada proveedor del que compra debe estar registrado como ficha de proveedor.

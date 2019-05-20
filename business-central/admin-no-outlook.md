@@ -12,11 +12,11 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: beadf2b83468da9d453d9be8aaa8a39723ab3309
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "923722"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243657"
 ---
 # <a name="using-business-central-without-outlook"></a>Usar Business Central sin Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] tiene una integración profunda con Office 365 y puede usar [!INCLUDE[d365fin](includes/d365fin_md.md)] como su bandeja de entrada de empresa en Outlook. Pero si no tiene Outlook, puede trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)] en el navegador o en su dispositivo móvil.  

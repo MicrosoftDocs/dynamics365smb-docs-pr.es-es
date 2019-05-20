@@ -12,17 +12,15 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 7ef4416c695543cb93fcf0bed9501bfa4d04985d
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: eedb7a319a11b740f6afa869d162f15c167ccc6d
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "917194"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1446789"
 ---
-# <a name="managing-interactions-with-contacts"></a>Gestión de las interacciones con los contactos
-En [!INCLUDE[d365fin](includes/d365fin_md.md)], las interacciones son todos los tipos de comunicaciones entre su empresa y sus contactos. Por ejemplo, pueden ser por carta, fax, correo electrónico, teléfono, reuniones, etc.
-
-El área de Gestión de relaciones permite registrar todas las interacciones que tenga con sus contactos para poder hacer un seguimiento de las ventas y los esfuerzos comerciales dirigidos a éstos y mejorar las interacciones de negocio futuras. La configuración de su aplicación para registrar interacciones consta de tres pasos:
+# <a name="record-interactions-with-contacts"></a>Registrar interacciones con contactos
+La configuración de su aplicación para registrar interacciones consta de tres pasos:
 
 * Configurar plantillas de interacción  
 * Crear interacciones en contactos o segmentos  

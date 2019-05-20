@@ -11,11 +11,11 @@ ms.search.keywords: design, item, tracking, tracing
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 90da4a9665de1f5f47ab99aa7567fc5ff65599d2
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "937299"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246775"
 ---
 # <a name="design-details-item-tracking-design"></a>Detalles de diseño: Diseño de seguimiento de productos
 En la primera versión de seguimiento de productos de [!INCLUDE[d365fin](includes/d365fin_md.md)] 2.60, los números de serie o de lote se registraban directamente en los movimientos de producto. Este diseño proporcionó información de disponibilidad completa y un seguimiento sencillo del historial de movimientos, pero carecía de flexibilidad y funcionalidad.  

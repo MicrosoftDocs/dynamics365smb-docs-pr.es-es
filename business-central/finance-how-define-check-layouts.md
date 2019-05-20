@@ -1,8 +1,6 @@
 ---
 title: Especificar el diseño de un cheque | Documentos de Microsoft
 description: Puede diseñar e imprimir los cheques en diferentes formatos para cumplir los estándares.
-services: project-madeira
-documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, customize
-ms.date: 04/01/2019
+ms.date: 04/24/2019
 ms.author: edupont
-ms.openlocfilehash: eace865bc70f56206d478f8e8d38fd217133925e
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: f2b7fa01cff36e3aab335f7d5921954343c69b74
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "935263"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243600"
 ---
 # <a name="define-check-layouts"></a>Definir diseños de cheque
 Puede diseñar los cheques conforme a los estándares definidos por las autoridades locales. Las imágenes de los cheques se pueden imprimir en inglés, francés o español.
@@ -29,11 +27,12 @@ Los cheques se han diseñado para imprimir formatos de imágenes de cheque de Es
 2. En la página **Informe selección - Bancos**, en el campo **Uso**, seleccione **Cheque**.
 3. Seleccione uno de los identificadores de informes siguientes:
 
-| Id. informe | Nombre informe | Descripción |
-| --- | --- | --- |
-| 1401 |Activar |Es el informe predeterminado. |
-| 10401 |Cheque (Matriz/Matriz/Cheque) |Este informe está diseñado para imprimir cheques en un formato matriz/matriz/cheque. |
-| 10411 |Cheque (Matriz/Cheque/Matriz) |Este informe está diseñado para imprimir cheques en un formato cheque/matriz/cheque. |
+  | Id. informe | Nombre informe | Descripción |
+  | --- | --- | --- |
+  | 1401 |Activar |Es el informe predeterminado. |
+  | 10411 |Cheque (Matriz/Matriz/Cheque) |Este informe está diseñado para imprimir cheques en un formato matriz/matriz/cheque. |
+  | 10412 |Cheque (Matriz/Cheque/Matriz) |Este informe está diseñado para imprimir cheques en un formato matriz/cheque/matriz. |
+  | 10413 |Tres cheques por página |Este informe está diseñado para imprimir tres cheques por página. |
 
 Cuando haya configurado los diseños de cheques, puede imprimir cheques desde la página **Diario de pagos**. Para obtener más información, consulte [Trabajar con cheques](payables-how-work-checks.md).
 
@@ -41,5 +40,5 @@ Cuando haya configurado los diseños de cheques, puede imprimir cheques desde la
 [Administrar pagos](payables-manage-payables.md)  
 [Administrar cuentas bancarias](bank-manage-bank-accounts.md)   
 [Completar procesos de fin de periodo](year-how-complete-period-end-processes.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prodshort](includes/prodshort.md)]](ui-work-product.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)

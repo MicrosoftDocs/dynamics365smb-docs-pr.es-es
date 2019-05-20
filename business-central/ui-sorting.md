@@ -11,11 +11,11 @@ ms.date: 04/01/2019
 ms.author: solsen
 redirect_url: ui-enter-criteria-filters
 ms.openlocfilehash: ae8bec7c0d9d7f23c607037588663d926237d352
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "928490"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247963"
 ---
 # <a name="sorting"></a>Ordenación
 Esta función permite obtener fácil y rápidamente un panorama de los datos. Si hay varios clientes, por ejemplo, puede elegir ordenarlos por **N.º de cliente**, **Grupo contable cliente**, **Cód. divisa**, **Cód. país/región** o **N.º de registro de impuesto sobre las ventas** para disponer de la vista general que desea.

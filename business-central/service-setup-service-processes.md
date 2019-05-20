@@ -13,11 +13,11 @@ ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, 
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: b640443093b137ce3b5afe264185cf75ab0478c3
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "930089"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251083"
 ---
 # <a name="configure-service-processes"></a>Configurar procesos de servicio
 A continuación se muestran algunos ejemplos de la configuración que puede aplicar a los procesos de gestión de servicios:  

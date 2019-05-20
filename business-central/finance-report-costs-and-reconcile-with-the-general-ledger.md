@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 05/02/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7ebdf239e592faedd1502c8fff50dd91e474352f
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: d92d732b99eedb06eb0185d1227252e1ace95334
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "917724"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1446881"
 ---
 # <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Creación de informes de costes y conciliación con la contabilidad
 Al finalizar el periodo contable, mensual, anual o del tipo que sea, se llevan a cabo una serie de tareas de control y auditoría de costes con el fin de generar informes correctos y compensados del valor de las existencias y remitirlo al departamento de finanzas. Aparte de las tareas de contabilidad que transfieren los movimientos de valor de productos individuales a cuentas de contabilidad exclusivas, se encuentran disponibles múltiples funciones de informes y seguimiento y una herramienta de conciliación especial para los auditores e ingenieros de control de costes responsables de este trabajo de importancia crítica para la empresa.  
@@ -31,7 +31,6 @@ Al finalizar el periodo contable, mensual, anual o del tipo que sea, se llevan a
 |Ver el valor en inventario de los productos seleccionados, incluido su coste real y esperado en la fecha especificada.|Informe **Valorac. exist.-especif. coste**|  
 |Usar un informe para analizar los motivos de las evoluciones de los costes o conocer las partes de costes de los productos vendidos (CV).|Informe **Análisis partes costes**|  
 |Registrar periódicamente los movimientos de valor de las transacciones de productos desde el inventario a las cuentas contables relacionadas para reconciliar las dos contabilidades.|[Conciliar costes de inventario con la contabilidad general](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
-|Usar una página para auditar la reconciliación entre la contabilidad de inventario y la contabilidad general.|[Conciliar costes de inventario con la contabilidad general](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
 |Determinar el importe WIP que debe registrarse en cuentas de balance para informes de final de periodo.|[Supervisar el progreso y el rendimiento del trabajo](projects-how-monitor-progress-performance.md)|
 
 ## <a name="see-also"></a>Consulte también  

@@ -11,11 +11,11 @@ ms.search.keywords: customization, personalization
 ms.date: 04/01/2019
 ms.author: jswymer
 ms.openlocfilehash: 3e7b00d54a9c655a77b7b7f4854e59993866427e
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941520"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251231"
 ---
 # <a name="managing-saved-settings-on-reports"></a>Administrar configuración guardada en los informes
 Cuando se ejecuta un informe, a los usuarios normalmente se les presenta una página que les permite definir determinados opciones y filtros para cambiar los datos que se incluyen en el informe generado. Esta página se llama página de solicitud de informe. Un informe puede incluir una o varias *opciones de configuración guardadas* que los usuarios pueden aplicar al informe de la página de solicitud. La *configuración guardada* son básicamente opciones y filtros predeterminados. El uso de la configuración guardada es una forma rápida y confiable de generar de forma coherente informes que contienen los datos correctos. Para obtener más información acerca de cómo se utilizan los ajustes guardados, consulte [Uso de la configuración guardada](ui-work-report.md#SavedSettings).

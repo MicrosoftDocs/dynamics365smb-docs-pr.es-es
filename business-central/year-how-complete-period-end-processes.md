@@ -13,11 +13,11 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ag
 ms.date: 04/01/2019
 ms.author: jswymer
 ms.openlocfilehash: cbbfb06052f8286822f4ab722d00706de303dc02
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "939513"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1248698"
 ---
 # <a name="overview-of-tasks-to-close-accounting-periods"></a>Resumen de tareas para cerrar periodos contables
 [!INCLUDE[d365fin](includes/d365fin_md.md)] no le fuerza a cerrar los períodos, pero numerosas actividades de fin de período (fin de mes) que puede realizar. Este tema proporciona una visión general de procesos y actividades opcionales para cerrar períodos.  

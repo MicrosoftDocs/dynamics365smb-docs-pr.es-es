@@ -13,11 +13,11 @@ ms.search.keywords: bank account transfer, multiple currencies
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 69e5f439ee8a02ae553d8b148480b655596e2951
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "934611"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244175"
 ---
 # <a name="transfer-bank-funds"></a>Transferir fondos bancarios
 En ocasiones es necesario transferir un importe desde una cuenta bancaria a otra. Para hacerlo, debe registrar una transacción en el diario general. La tarea varía en función de si los bancos usan la misma divisa o distintas divisas.

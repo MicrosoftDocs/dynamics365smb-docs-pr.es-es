@@ -11,11 +11,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: f5dbe1ec1dfa765ead07b7fcd0dd2c860d055ae1
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "916356"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244152"
 ---
 # <a name="design-details-cost-adjustment"></a>Detalles de diseño: Ajuste de coste
 El propósito principal del ajuste de coste es desviar los cambios de coste de los orígenes de coste a los destinatarios de coste, según la valoración de existencias de un producto, para proporcionar la valoración de inventario correcta.  

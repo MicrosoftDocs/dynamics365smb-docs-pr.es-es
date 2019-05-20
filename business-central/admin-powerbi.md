@@ -8,27 +8,35 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 04/01/2019
+ms.date: 04/26/2019
 ms.author: edupont
-ms.openlocfilehash: f51de349c4b13eaabd185cdb728d59006dfe6db6
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: a999a9533aa2dd4e8dcadea04e7838305b34ba5b
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "916379"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247507"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Habilitar los datos de negocio para Power BI
 Obtener información de los datos de [!INCLUDE[d365fin](includes/d365fin_md.md)] resulta muy sencillo con Power BI y los paquetes de contenido de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Power BI extrae los datos y, a continuación, genera un panel original e informes en función de los datos.  
 
 Debe disponer de una cuenta válida con Dynamics 365 y con Power BI. Además, deberá descargar [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) si desea crear sus propios informes de Power BI. Los paquetes de contenido de Power BI requieren permisos para las tablas desde donde se recuperan los datos. A continuación se describen más detalles sobre los requisitos.  
 
+> [!IMPORTANT]
+> Los paquetes de contenido que se describen en este artículo están diseñados para utilizar Azure Active Directory como mecanismo de autenticación. Si utiliza [!INCLUDE [prodshort](includes/prodshort.md)] on-premises y un mecanismo de autenticación diferente, Power BI no puede conectar los datos.  
+
 Microsoft ha publicado los paquetes de contenido siguientes:
 
-| App | Description |
-| --- | --- |
-| Microsoft Business Central | Proporciona un panel de control con datos financieros clave a lo largo del tiempo, como ingresos frente a gastos, margen de operación y ciclo de efectivo.|
-| Microsoft Business Central - CRM | Proporciona un panel de control con datos clave sobre oportunidades de ventas y contactos.  |
-| Microsoft Business Central - Sales | Proporciona un panel de control con datos clave sobre ventas e inventario. |
+- [!INCLUDE [prodlong](includes/prodlong.md)] - CRM  
+- [!INCLUDE [prodlong](includes/prodlong.md)] - Lista de clientes  
+- [!INCLUDE [prodlong](includes/prodlong.md)] - Finanzas  
+- [!INCLUDE [prodlong](includes/prodlong.md)] - Lista de productos  
+- [!INCLUDE [prodlong](includes/prodlong.md)] - Proyectos  
+- [!INCLUDE [prodlong](includes/prodlong.md)] - Lista de proyectos  
+- [!INCLUDE [prodlong](includes/prodlong.md)] - Facturas compra  
+- [!INCLUDE [prodlong](includes/prodlong.md)] - Ventas  
+- [!INCLUDE [prodlong](includes/prodlong.md)] - Lista pedidos venta  
+- [!INCLUDE [prodlong](includes/prodlong.md)] - Lista de proveedores  
 
 ## <a name="using-the-dashboards"></a>Uso de paneles de control
 Cada paquete de contenido proporciona informes que puede explorar:
@@ -47,14 +55,14 @@ Los paquetes de contenido están configurados previamente para trabajar con los 
 1. Seleccione **Obtener datos** en la parte inferior del panel de navegación izquierdo.  
 ![Navegar para obtener datos](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
 
-También puede empezar desde Dynamics 365 Business Edition. En el área de trabajo, vaya a **Selección de informe** de la parte Área de trabajo de Power BI. Seleccione **Servicio** o **Mi organización** en la cinta. Cuando cualquiera de estas acciones está seleccionada, accederá a la galería de la organización en Power BI o a la biblioteca de servicios en Power BI, que también se filtrarán para mostrar solo los paquetes de contenido relacionados con [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
+También puede empezar desde [!INCLUDE [prodshort](includes/prodshort.md)]. En el área de trabajo, vaya a **Selección de informe** de la parte Área de trabajo de Power BI. Seleccione **Servicio** o **Mi organización** en la cinta. Cuando cualquiera de estas acciones está seleccionada, accederá a la galería de la organización en Power BI o a la biblioteca de servicios en Power BI, que también se filtrarán para mostrar solo los paquetes de contenido relacionados con [!INCLUDE[prodshort](includes/prodshort.md)].
 
 2. En el cuadro **Servicios**, seleccione **Obtener**. Se abrirá una página con **AppSource** y **Aplicaciones para aplicaciones de Power BI**.  
 ![Seleccionar paquetes de contenidos de servicios en línea](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-online-services-get.png)
 3. Seleccione **Aplicaciones** de la pestaña **Aplicaciones para aplicaciones de Power BI** y elija el paquete de contenidos **Microsoft Dynamics 365 Business Central** que quiera usar, a continuación, seleccione **Obtener ahora**.  
 ![Seleccione Dynamics 365 Business Central y Obtener ahora](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-dynamics365-for-financials-get-it-now.png)
 4. Cuando se lo solicite, escriba el nombre de *su empresa* en [!INCLUDE[d365fin_md](includes/d365fin_long_md.md)]. Este no es el nombre para mostrar. El nombre de la empresa puede encontrarse en la página "Empresas" de su instancia de [!INCLUDE[d365fin_md](includes/d365fin_long_md.md)].  
-![Seleccione Dynamics 365 Business Central y Obtener ahora](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-connect-to-d365-finance-and-operations-crm.png)
+![Seleccione Dynamics 365 Business Central y Obtener ahora](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-connect-to-d365-business-central-finance.png)
 5. Una vez conectado se cargarán automáticamente un panel, un informe y un conjunto de datos en su espacio de trabajo de Power BI. Cuando se haya completado, se actualizarán los mosaicos con datos de su empresa de [!INCLUDE[d365fin_md](includes/d365fin_long_md.md)].
 ![Seleccione Dynamics 365 Business Central y Obtener ahora](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
 
@@ -68,7 +76,7 @@ También puede empezar desde Dynamics 365 Business Edition. En el área de traba
 ## <a name="system-requirements"></a>Requisitos del sistema
 Para importar los datos de [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] en Power BI, necesita permisos para los servicios web utilizados para recuperar datos. Los servicios web necesarios para los contenidos de paquetes incluyen:
 
-## <a name="role-center-reports"></a>Informes de Área de trabajo
+### <a name="role-center-reports"></a>Informes de Área de trabajo
 
 **Microsoft Dynamics 365 Business Central – CRM**
 - Oportunidades de venta
@@ -92,7 +100,7 @@ Para importar los datos de [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.m
 - Empresa de vista de plantilla de Excel
 - Etiquetas de informe del Power BI
 
-## <a name="list-page-reports"></a>Informes de páginas de listas
+### <a name="list-page-reports"></a>Informes de páginas de listas
 
 **Microsoft Dynamics 365 Business Central – Customers List**
 - Ventas de productos por cliente

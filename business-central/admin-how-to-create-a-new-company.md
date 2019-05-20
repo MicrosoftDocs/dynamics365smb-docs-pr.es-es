@@ -1,6 +1,6 @@
 ---
 title: Como crear una empresa nueva | Documentos de Microsoft
-description: Para usar las tablas y páginas de RapidStart Service creadas que no tienen datos.
+description: Para usar las tablas y páginas de RapidStart Services creadas que no tienen datos.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 8b534af530a7ce6d91a71ca7802938fe3573c2c2
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "932085"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1240797"
 ---
 # <a name="create-a-new-company"></a>Cree una nueva empresa
 Para usar RapidStart Services para [!INCLUDE[d365fin](includes/d365fin_md.md)], primero debe crear una nueva empresa para la que desee realizar una implementación de cliente. Al crear una empresa nueva, se crean las tablas y páginas estándar de [!INCLUDE[d365fin](includes/d365fin_md.md)], pero no existen datos en ellas.

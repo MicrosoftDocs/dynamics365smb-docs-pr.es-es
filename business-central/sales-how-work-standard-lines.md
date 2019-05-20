@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, replenishment
-ms.date: 04/01/2019
+ms.date: 04/24/2019
 ms.author: sgroespe
-ms.openlocfilehash: 35395ad71dbc0717410ed5a910f5bcd0170b1d8c
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: 83f6a24fc066faef49de456e18673f8059a9831d
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "936793"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252259"
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a>Crear líneas de ventas y de compras periódicas
 Si suele necesitar crear líneas de ventas y de compras con información similar, puede configurar líneas estándar que puede insertar en documentos de ventas y compras periódicas, por ejemplo, para órdenes de reposición periódicas.  
@@ -33,14 +33,21 @@ Los siguientes procedimientos muestran cómo trabajar con líneas de ventas est�
 > [!NOTE]
 > No puede definir precios en líneas de ventas estándar porque los precios, descuentos, etc., se calculan en los documentos de ventas reales después de insertar las líneas de ventas estándar.
 
-## <a name="to-assign-standard-sales-lines-to-a-customers"></a>Para asignar líneas de ventas estándar a clientes
+## <a name="to-assign-standard-sales-lines-to-a-customer"></a>Para asignar líneas de ventas estándar a un cliente
 Asigne una o varias líneas de ventas estándar a un cliente para que estén disponibles para insertarlas en documentos de ventas para ese cliente.
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Clientes** y luego elija el enlace relacionado.
 2. Abra la ficha de un cliente relevante.
 3. Elija la acción **Líneas de ventas periódicas**.
 4. En la página **Líneas de ventas periódicas**, seleccione los códigos de las líneas de ventas periódicas que desea insertar en documentos de ventas para el cliente.
-5. Rellene los campos adicionales para definir cuándo, cómo y dónde se deben utilizar las líneas de ventas periódicas. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+5. Rellene los campos adicionales para definir cuándo, cómo y dónde se deben utilizar las líneas de ventas periódicas.
+6. En los cuatro campos donde selecciona cómo se insertan las líneas en cuatro tipos de documentos, seleccione una de las siguientes opciones:
+
+|Opción|Descripción|
+|-|-|
+|**Manual**|Debe buscar manualmente e insertar una línea de venta recurrente que exista para el cliente.|
+|**Automática**|Si existen varias líneas de venta recurrentes para el cliente, recibirá una notificación desde donde puede elegir cuál insertar. Si sólo existe una línea de venta recurrente, se insertará automáticamente.|
+|**Preguntar siempre**|Aparece una notificación y se muestran todas las líneas de venta recurrentes que existen para que pueda seleccionar una.
 
 ## <a name="to-insert-recurring-sales-lines-on-a-sales-invoice"></a>Para insertar líneas de ventas periódicas en una factura de ventas
 Si existen líneas de ventas periódicas para el cliente, puede insertarlas en todos los tipos de documentos de ventas, como una factura de ventas. Si ha activado la notificación en cuestión, se le informará de si existen líneas de ventas periódicas.

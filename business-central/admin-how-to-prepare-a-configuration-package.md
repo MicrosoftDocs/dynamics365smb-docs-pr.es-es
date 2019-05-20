@@ -13,18 +13,18 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: fde77f873897d801e6bf06d55d57e9406f352eed
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941639"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245864"
 ---
 # <a name="prepare-a-configuration-package"></a>Preparar un paquete de configuración
 Cuando se configura una nueva empresa, se reconocen y se procesan las relaciones de tabla. Los datos se importan y se aplican en el orden correcto. Si en el paquete de configuración se incluyen tablas de dimensión, estas también se importan. Para obtener más información, consulte [Para importar datos del cliente](admin-migrate-customer-data.md#to-import-customer-data). 
 
 Para ayudar al cliente a usar el paquete de configuración, puede agregar un cuestionario o un conjunto de cuestionarios al paquete. El cuestionario puede ayudar al cliente a comprender las distintas opciones de configuración. Normalmente, los cuestionarios se crean para las tablas de configuración principales cuando un cliente pueda requerir asistencia adicional sobre cómo seleccionar una configuración adecuada. Para obtener más información, vea [Recopilación de valores de configuración de cliente](admin-gather-customer-setup-values.md).
 
-Compruebe que se encuentra en la página Área de trabajo del implementador de RapidStart Services. Para obtener más información, consulte [Usar el Área de trabajo del implementador de RapidStart Services](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md).
+Asegúrese de que se encuentra en el Área de trabajo del implementador de RapidStart Services. Para obtener más información, vea [Usar el Área de trabajo del implementador de RapidStart Services](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md)
 
 > [!IMPORTANT]  
 >  Al exportar e importar los paquetes de configuración entre dos bases de datos de empresa, las bases de datos deben tener el mismo esquema para garantizar que todos los datos se transferirán correctamente. Esto significa que las bases de datos deben tener la misma estructura de tablas y campos, en la que las tablas con las mismas claves principales y campos tienen los mismos identificadores y tipos de datos.  
@@ -77,7 +77,7 @@ El paquete se crea en un archivo .rapidstart, que entrega los contenidos de paqu
 Puede guardar el archivo con un nombre que tenga significado para usted, pero no puede modificar la extensión de archivo. Debe ser .rapidstart.  
 
 ### <a name="to-copy-a-configuration-package"></a>Procedimiento para copiar un paquete de configuración  
-Una vez que haya creado un paquete que satisfaga la mayoría de sus necesidades, puede emplearlo como base para crear paquetes similares. Esto puede acelerar el tiempo de implementación y mejora la capacidad de repetición de RapidStart Services.
+Una vez que haya creado un paquete que satisfaga la mayoría de sus necesidades, puede emplearlo como base para crear paquetes similares. Esto puede agilizar el tiempo de implementación y mejora la capacidad de repetición de RapidStart Services.
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Paquetes de configuración** y luego elija el enlace relacionado.  
 2. Seleccione un paquete de la lista y, a continuación, seleccione la acción **Copiar paquete**.  

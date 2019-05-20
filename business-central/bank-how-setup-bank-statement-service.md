@@ -1,5 +1,5 @@
 ---
-title: Configurar las fuentes de banco de Envestnet Yodlee | Documentos de Microsoft
+title: Configurar Yodlee Bank Feeds | Documentos de Microsoft
 description: Puede convertir la información sobre pagos a cualquier formato de datos que requiera el banco y habilitar la exportación o importación de los archivos de banco.
 services: project-madeira
 documentationcenter: ''
@@ -13,20 +13,20 @@ ms.search.keywords: Yodlee, feed, stream, payment process
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 9fa3911ceeb94d523709d1029db9527b868bc199
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941824"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246658"
 ---
-# <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Configuración del servicio de fuentes de banco de Envestnet Yodlee
+# <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Configuración del servicio Envestnet Yodlee Bank Feeds
 Puede importar extractos electrónicos de su banco para rellenar rápidamente la página **Diario de conciliación de pagos** para que pueda liquidar pagos y conciliar la cuenta bancaria. Para obtener más información, vea [Liquidación de pagos automáticamente y conciliación de cuentas bancarias](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 > [!NOTE]
-> El servicio Fuentes de bancos de Envestnet Yodlee solo se admite en la versión en línea de Business Central. Para utilizar esta funcionalidad local, debe obtener una cuenta de cobrand de Envestnet Yodlee.<br /><br />
-> El servicio de fuentes de banco de Envestnet Yodlee sólo se admite en EE.UU., Canadá, y Reino Unido.
+> El servicio Envestnet Yodlee Bank Feeds solo se admite en la versión en línea de Business Central. Para utilizar esta funcionalidad local, debe obtener una cuenta de cobrand de Envestnet Yodlee.<br /><br />
+> El servicio Envestnet Yodlee Bank Feeds sólo se admite en EE.UU., Canadá, y Reino Unido.
 
-El servicio de fuentes de banco de Envestnet Yodlee está instalado como una extensión de [!INCLUDE[d365fin](includes/d365fin_md.md)] en línea y está listo para ser activado en los países admitidos. Para obtener más información, consulte [Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] mediante extensiones](ui-extensions.md).
+El servicio Envestnet Yodlee Bank Feeds está instalado como una extensión de [!INCLUDE[d365fin](includes/d365fin_md.md)] en línea y está listo para ser activado en los países admitidos. Para obtener más información, consulte [Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] mediante extensiones](ui-extensions.md).
 
 Después de habilitar el servicio de fuentes de banco, debe vincular una cuenta bancaria a la cuenta bancaria de la que proviene la fuente. Vincula las cuentas a cuentas en línea en los siguientes ejemplos:
 
@@ -55,7 +55,7 @@ El servicio de fuente de banco se activará cuando vincule una cuenta a la cuent
 2. Seleccione la cuenta bancaria correspondiente y, a continuación, seleccione **Crear una nueva cuenta bancaria vinculada**. La página **Vinculación de cuenta bancaria** se abre después de unos segundos.
 
     > [!NOTE]  
-    > Esta página muestra la página web del servicio de fuentes de banco de Envestnet Yodlee. La terminología y las funciones de la página pueden no coincidir con las instrucciones que ofrece este tema.  
+    > Esta página muestra la página web del servicio Envestnet Yodlee Bank Feeds. La terminología y las funciones de la página pueden no coincidir con las instrucciones que ofrece este tema.  
 3. En la página **Vinculación de banco en línea**, en el panel **Vínculo de cuenta** use la función Buscar para buscar el banco en el que tiene una o varias cuentas bancarias en línea.
 4. Seleccione el nombre del banco. Se abre el panel **Iniciar sesión**.
 5. Introduzca el nombre de usuario y la contraseña que usa para conectarse al banco en línea y, a continuación, seleccione el botón **Siguiente**.  

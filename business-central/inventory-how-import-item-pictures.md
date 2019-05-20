@@ -12,11 +12,11 @@ ms.search.keywords: product, image
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: fa859d3e350cedb845df47521ee58ba8d2e4aade
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "940327"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243071"
 ---
 # <a name="import-multiple-item-pictures"></a>Importar varias imágenes de producto
 Puede importar varias imágenes de productos de una sola vez. Simplemente asigne a sus archivos de imagen nombres que correspondan a sus números de producto, comprímalos en un archivo ZIP y, a continuación, utilice la página **Importar imágenes de producto** para administrar las imágenes de artículo que desea importar.

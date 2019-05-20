@@ -11,11 +11,11 @@ ms.search.keywords: categories, search words, facets
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 7d35f7c91792d9fe8eea87a4c63f8fd637a94fd1
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941616"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243968"
 ---
 # <a name="work-with-item-attributes"></a>Trabajar con atributos de producto
 Cuando los clientes hacen consultas sobre un producto, ya sea por correspondencia o en una tienda en línea integrada, pueden preguntar por las características como la altura y el año del modelo. Para proporcionar este servicio al cliente, puede asignar valores de atributo de producto de diferentes tipos a sus productos, que podrán usarse posteriormente en la búsqueda de productos.

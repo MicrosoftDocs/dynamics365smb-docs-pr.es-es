@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 3a3e42d9468c9f1a8d23afd8284e210fa7145c3c
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "953515"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247168"
 ---
 # <a name="migrate-customer-data"></a>Migrar datos del cliente
 Puede migrar los datos existentes de cliente de un sistema de ERP existente a [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizando las herramientas de migración de datos de RapidStart Services. Puede usar archivos de Excel como soporte de datos. También puede mover manualmente los datos al introducirlos directamente en la empresa.
@@ -30,7 +30,7 @@ Al crear una empresa nueva, puede importar las opciones de la empresa para la em
 > [!NOTE]  
 >  No puede cambiar el nombre de un archivo que no es un paquete de configuración de RapidStart Services como un archivo de paquete de configuración .rapidstart y luego intentar importarlo. Si intenta hacerlo, recibirá un mensaje de error.  
 
-Antes de empezar, compruebe que se encuentra en la página Área de trabajo del implementador de RapidStart Services.
+Antes de empezar, compruebe que se encuentra en el Área de trabajo del implementador de RapidStart Services.
 
 > [!IMPORTANT]  
 >  Al exportar e importar los paquetes de configuración entre dos bases de datos de empresa, las bases de datos deben tener el mismo esquema para garantizar que todos los datos se transferirán correctamente. Esto significa que las bases de datos deben tener la misma estructura de tablas y campos, en la que las tablas con las mismas claves principales y campos tienen los mismos identificadores y tipos de datos.  

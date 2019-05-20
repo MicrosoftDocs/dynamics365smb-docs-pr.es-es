@@ -13,11 +13,11 @@ ms.search.keywords: personnel, people, employee, staff, HR
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 5210258f1e217149f0d41e1edcfaf8a8c0c3be79
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "932776"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1238675"
 ---
 # <a name="manage-human-resources"></a>Administrar recursos humanos
 En [!INCLUDE[d365fin](includes/d365fin_md.md)], puede llevar un registro detallado de los empleados. Se puede registrar y actualizar información de los empleados, como contratos de empleo, información confidencial, cualificaciones y contactos del empleado.

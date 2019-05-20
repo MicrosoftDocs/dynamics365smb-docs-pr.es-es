@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
-ms.date: 04/01/2019
+ms.date: 05/02/2019
 ms.author: bholtorf
-ms.openlocfilehash: c4536dca720be5d52bc860c9acce8d7f903314ff
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: fcc9eda38a54e8e94bd74bfbcc76fe808a119525
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "919080"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1446996"
 ---
-# <a name="how-to-report-vat-to-a-tax-authority"></a>Crear informes de IVA para una autoridad fiscal
+# <a name="report-vat-to-a-tax-authority"></a>Crear informes de IVA para la autoridad fiscal
 En este tema se describen los informes de [!INCLUDE[d365fin](includes/d365fin_md.md)] que puede utilizar para enviar información sobre importes del IVA (IVA) para ventas y compras a las autoridades fiscales de su región.
 
 Utilice los siguientes informes:
@@ -110,7 +110,7 @@ En la tabla siguiente se describen las codeunits que debe crear para el informe.
 
 > [!Note]
 > Cuando cree las codeunits para el informe, ponga atención al valor del campo **Versión de informe de IVA**. Este campo debe reflejar la versión del informe que la autoridad tributaria requiere. Por ejemplo, puede introducir **2017** en el campo para indicar que el informe cumple con los requisitos que estaban en vigor ese año. Para buscar la versión actual, póngase en contacto con su autoridad fiscal.
- 
+
 ## <a name="see-also"></a>Consulte también .
 [Configurar los cálculos y los métodos de registro del impuesto sobre el valor añadido](finance-setup-vat.md)  
 [Trabajar con el IVA por ventas y compras](finance-work-with-vat.md)  

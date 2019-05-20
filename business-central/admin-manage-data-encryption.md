@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: f45c359dcd65a4eae428208a17c392077d24f073
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "921463"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244451"
 ---
 # <a name="managing-data-encryption"></a>Administración del cifrado de datos
 Puede cifrar datos en el servidor de [!INCLUDE[d365fin](includes/d365fin_md.md)] generando claves de cifrado nuevas o importando claves existentes que se activarán en la instancia del servidor de [!INCLUDE[d365fin](includes/d365fin_md.md)] que conecta con la base de datos.

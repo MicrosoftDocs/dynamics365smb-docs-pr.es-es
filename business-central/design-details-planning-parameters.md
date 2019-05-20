@@ -11,11 +11,11 @@ ms.search.keywords: planning, design
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: e720dff3266419c7afc11a5b722974c6a461389a
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "913994"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1241742"
 ---
 # <a name="design-details-planning-parameters"></a>Detalles de diseño: Parámetros de la planificación
 En este tema se describen los distintos parámetros de planificación que puede usar en [!INCLUDE[d365fin](includes/d365fin_md.md)].  

@@ -12,11 +12,11 @@ ms.search.keywords: personalize, add-in, extend, customize
 ms.date: 04/01/2019
 ms.author: jswymer
 ms.openlocfilehash: 6d1a1f17d66ec931ad075fe75936c4317898ccd7
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "934878"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250830"
 ---
 # <a name="customizing-business-central"></a>Personalizar Business Central
 Existen diferentes formas de personalizar la aplicación para tener acceso a las funciones, la funcionalidad y los datos que más necesitan, de la manera que mejor se adapte a su trabajo diario. Aquellos que vean los cambios dependerán de lo que haga, como se describe en esta tabla.

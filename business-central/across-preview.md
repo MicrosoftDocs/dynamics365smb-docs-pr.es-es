@@ -9,11 +9,11 @@ ms.search.keywords: preview, trial, sandbox
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: 95301c0d8473adf923b4c5ed81bec9e873fad8df
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "912465"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1241574"
 ---
 # <a name="included365finlongincludesd365finlongmdmd-trials-and-previews"></a>Períodos de prueba y vistas previas de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 

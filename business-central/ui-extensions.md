@@ -12,11 +12,11 @@ ms.search.keywords: app, add-in, manifest, customize
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: 869d136498604a61b1f3016efca475b4784c4456
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "910370"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250278"
 ---
 # <a name="customizing-business-central-using-extensions"></a>Personalizar Business Central con extensiones
 Puede cambiar [!INCLUDE[d365fin](includes/d365fin_md.md)] instalando extensiones que agregan funciones, cambian el comportamiento o proporcionan acceso a nuevos servicios en línea, por ejemplo.
@@ -49,7 +49,7 @@ Algunas de las extensiones las proporciona Microsoft y otras las proporcionan [o
 Microsoft proporciona las extensiones siguientes:  
 
 * [Migración de datos de Dynamics GP](ui-extensions-dynamicsgp-data-migration.md)  
-* [Fuentes de bancos de Envestnet Yodlee](ui-extensions-yodlee-bank-feeds.md)  
+* [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)  
 * [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)  
 * [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)  
 * [Migración de datos de QuickBooks](ui-extensions-quickbooks-data-migration.md)  
@@ -72,7 +72,7 @@ Microsoft proporciona las extensiones siguientes:
 ## <a name="see-also"></a>Consulte también
 [Ampliación de Dynamics 365 Business Central](about-develop-extensions.md)  
 [Extensiones de Business Central de otros proveedores](ui-extensions-other.md)  
-[Configuración del servicio de fuentes de banco de Envestnet Yodlee](bank-how-setup-bank-statement-service.md)  
+[Configuración del servicio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)  
 [Permitir el pago de clientes mediante PayPal](sales-how-enable-payment-service-extensions.md)  
 [Migrar datos de empresa de otros sistemas financieros](across-import-data-configuration-packages.md)  
 [Configurar la extensión Códigos postales de Reino Unido de GetAddress.io](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)  

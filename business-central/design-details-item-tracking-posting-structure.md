@@ -13,11 +13,11 @@ ms.search.keywords: design, item tracking, posting, inventory
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 884ed0ced1c9e39104cec203bb67346bdf779aeb
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "922484"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1242128"
 ---
 # <a name="design-details-item-tracking-posting-structure"></a>Detalles de diseño: Estructura de registro de seguimiento de productos
 Para establecer la correspondencia con la funcionalidad de valoración de existencias y obtener una solución más simple y robusta, se usan los movimientos de producto como el soporte principal de los números de seguimiento de producto.  

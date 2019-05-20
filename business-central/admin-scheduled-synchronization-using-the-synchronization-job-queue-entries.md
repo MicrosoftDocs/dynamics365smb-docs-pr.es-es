@@ -11,11 +11,11 @@ ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: b3fb3d2680cd85da8b2def7e82fbf62c0046fcc3
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "940339"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247426"
 ---
 # <a name="scheduling-a-synchronization-between-business-central-and-dynamics-365-for-sales"></a>Programación de una sincronización entre Business Central y Dynamics 365 for Sales
 Puede sincronizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con [!INCLUDE[crm_md](includes/crm_md.md)] en intervalos programados configurando proyectos en la cola de proyectos. Los proyectos de sincronización sincronizan los datos de los registros de [!INCLUDE[d365fin](includes/d365fin_md.md)] y de los registros de [!INCLUDE[crm_md](includes/crm_md.md)] que se han emparejado previamente. O, para registros que no se han emparejado, según la dirección y las reglas de sincronización, los proyectos de sincronización pueden crear y emparejar registros nuevos en el sistema de destino. Hay varios trabajos de sincronización que están disponibles de forma inmediata. Puede verlos en la página de **Movimientos de cola de proyectos**. Para obtener más información, consulte [Uso de colas de proyectos para programar tareas](admin-job-queues-schedule-tasks.md).

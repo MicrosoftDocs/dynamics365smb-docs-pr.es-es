@@ -3,22 +3,21 @@ title: Configurar la información de administración de marketing y de contactos
 description: Puede configurar la administración de marketing y de contacto de Business Central para optimizar las relaciones con los clientes potenciales o actuales, y mejorar las campañas y las promociones.
 services: project-madeira
 documentationcenter: ''
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
-ms.date: 04/01/2019
-ms.author: jswymer
-redirect_url: marketing-setup-contacts
-ms.openlocfilehash: 40c7777cc630602b77392e636e4c29c4ec6c0696
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.date: 04/24/2019
+ms.author: sgroespe
+ms.openlocfilehash: 7d294ba1a484af195b962bac827435e57ff5709f
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "934008"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1446858"
 ---
 # <a name="setting-up-relationship-management"></a>Configurar la gestión de relaciones
 Antes de empezar a trabajar con sus contactos e intereses de marketing, hay algunas decisiones y pasos que debe tomar para configurar la manera en que el área de marketing administra ciertos aspectos de sus contactos. Por ejemplo, puede decidir si sincronizar la ficha de contacto con la ficha de cliente, proveedor o cuenta bancaria, cómo se definirán las series numéricas o qué saludo estándar se usará al escribir a sus contactos.
@@ -27,7 +26,7 @@ La gestión de contactos y el establecimiento de una estrategia para identificar
 
 Puede configurar la gestión de marketing y de contactos desde la página **Configuración de marketing**. Para abrir la página **Configuración de marketing**, elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración de marketing** y luego elija el enlace relacionado.
 
-## <a name="automatically-copying-specific-information-from-the-contact-companies-to-the-contact-persons"></a>Copiar automáticamente información específica desde las empresas de contacto a las personas de contacto
+## <a name="automatically-copying-specific-information-from-contact-companies-to-contact-persons"></a>Copiar automáticamente información específica desde las empresas de contacto a las personas de contacto
 Parte de la información de contacto de las empresas es la misma que la de las personas que trabajan allí, como la dirección. En la sección **Herencia** de la página **Configuración de marketing**, puede configurar la aplicación para que copie automáticamente campos específicos de la ficha de empresa de contacto a la ficha de persona de contacto cada vez que cree una persona de contacto de una empresa de contacto. Por ejemplo, puede seleccionar copiar el código de vendedor, los detalles de dirección (dirección, dirección 2, ciudad, código postal y provincia), los detalles de comunicación (número de fax, respuesta de télex y el número de teléfono) y más.
 
 Al modificar uno de estos campos en la ficha Empresa de contacto, el programa modificará de forma automática el campo de la ficha Persona de contacto, a menos que ese campo se haya modificado manualmente.

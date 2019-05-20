@@ -4,16 +4,17 @@ description: Debe especificar qué tipo de datos almacena sobre las personas par
 author: bholtorf
 ms.author: bholtorf
 ms.custom: na
+ms.date: 03/09/2018
 ms.reviewer: na
-ms.service: dynamics365-business-central
+ms.suite: na
+ms.tgt_pltfrm: na
 ms.topic: article
-ms.date: 04/01/2019
 ms.openlocfilehash: b104f3f4a90c9db08b113f861c6e2b3f93f639c7
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "919756"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1239365"
 ---
 # <a name="classifying-data-sensitivity"></a>Clasificar confidencialidad de datos
 Para clasificar los campos que contienen datos confidenciales o personales, un socio de Microsoft puede establecer la propiedad ```DataClassification``` en los campos. Esto requiere acceso a las tablas de la base de datos, ya sea a través del entorno de desarrollo o ejecutando un script de Windows PowerShell. Para obtener más información, consulte [Clasificar datos](https://docs.microsoft.com/en-us/dynamics-nav/classifying-data).  

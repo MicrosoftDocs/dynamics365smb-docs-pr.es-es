@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 75bd53acf885a79c1d3ea236240e2e7f2ca66829
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "916687"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1238790"
 ---
 # <a name="accounting-for-costs"></a>Contabilidad para costes
 La contabilidad de costes se utiliza para ayudarle a conocer los costes de la dirección de una empresa. Para iniciarse en la contabilidad de costes, vea los temas siguientes.  
