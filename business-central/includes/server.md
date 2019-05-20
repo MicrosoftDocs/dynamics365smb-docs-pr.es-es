@@ -1,1 +1,1 @@
-<span data-ttu-id="43601-101">Business Central Server</span><span class="sxs-lookup"><span data-stu-id="43601-101">Business Central Server</span></span>
+<span data-ttu-id="3b45f-101">Business Central Server</span><span class="sxs-lookup"><span data-stu-id="3b45f-101">Business Central Server</span></span>

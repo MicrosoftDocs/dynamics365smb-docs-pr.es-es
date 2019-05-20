@@ -12,17 +12,17 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 04/01/2019
 ms.author: jswymer
 ms.openlocfilehash: 82b2dd880618f8ee7f44203db5638ef6da12c5cc
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "923840"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247794"
 ---
-# <a name="add-and-view-notes-on-records"></a><span data-ttu-id="b0745-104">Añadir y visualizar notas de registros</span><span class="sxs-lookup"><span data-stu-id="b0745-104">Add and View Notes on Records</span></span>
- <span data-ttu-id="b0745-105">Puede</span><span class="sxs-lookup"><span data-stu-id="b0745-105">You</span></span> <!--OnPrem and your colleagues --><span data-ttu-id="b0745-106">puede agregar notas a los registros de la aplicación.</span><span class="sxs-lookup"><span data-stu-id="b0745-106">can add notes to records in the application.</span></span> <span data-ttu-id="b0745-107">Muchas páginas, particularmente las que muestran una lista de registros, como la página **Pedidos de ventas**, incluyen la acción **Notas** o el cuadro de información de **Notas**.</span><span class="sxs-lookup"><span data-stu-id="b0745-107">Many pages, particularly those that display a list of records, such as the **Sales Orders** page, include the **Notes** action or the **Notes** FactBox.</span></span> <!--OnPrem Notes is where you can write notes about a record to yourself or others, and where you can view notes to you from others. For example, a note could be a general comment or processing instruction to your colleague, who can then respond to your note using their own **Notes**. Or, your colleague can add a note that gives you extra information about a sales order that is not covered by the information on the sales order. These notes and correspondences will follow the record as it is processed in the company.-->
+# <a name="add-and-view-notes-on-records"></a><span data-ttu-id="7b007-104">Añadir y visualizar notas de registros</span><span class="sxs-lookup"><span data-stu-id="7b007-104">Add and View Notes on Records</span></span>
+ <span data-ttu-id="7b007-105">Puede</span><span class="sxs-lookup"><span data-stu-id="7b007-105">You</span></span> <!--OnPrem and your colleagues --><span data-ttu-id="7b007-106">puede agregar notas a los registros de la aplicación.</span><span class="sxs-lookup"><span data-stu-id="7b007-106">can add notes to records in the application.</span></span> <span data-ttu-id="7b007-107">Muchas páginas, particularmente las que muestran una lista de registros, como la página **Pedidos de ventas**, incluyen la acción **Notas** o el cuadro de información de **Notas**.</span><span class="sxs-lookup"><span data-stu-id="7b007-107">Many pages, particularly those that display a list of records, such as the **Sales Orders** page, include the **Notes** action or the **Notes** FactBox.</span></span> <!--OnPrem Notes is where you can write notes about a record to yourself or others, and where you can view notes to you from others. For example, a note could be a general comment or processing instruction to your colleague, who can then respond to your note using their own **Notes**. Or, your colleague can add a note that gives you extra information about a sales order that is not covered by the information on the sales order. These notes and correspondences will follow the record as it is processed in the company.-->
 
  > [!NOTE]  
- >  <span data-ttu-id="b0745-108">Esta característica no está disponible actualmente.</span><span class="sxs-lookup"><span data-stu-id="b0745-108">This feature is currently not available.</span></span>  
+ >  <span data-ttu-id="7b007-108">Esta característica no está disponible actualmente.</span><span class="sxs-lookup"><span data-stu-id="7b007-108">This feature is currently not available.</span></span>  
 
 <!--OnPrem
 > [!NOTE]  
@@ -47,5 +47,5 @@ ms.locfileid: "923840"
      If **Notify** is selected, the note will be sent as a notification to the user's **My Notifications** on the Role Center.  -->
 <!--OnPrem
 3.  Choose the **OK** button.  -->
-## <a name="see-also"></a><span data-ttu-id="b0745-109">Consulte también</span><span class="sxs-lookup"><span data-stu-id="b0745-109">See Also</span></span>
-<span data-ttu-id="b0745-110">[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="b0745-110">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+## <a name="see-also"></a><span data-ttu-id="7b007-109">Consulte también</span><span class="sxs-lookup"><span data-stu-id="7b007-109">See Also</span></span>
+<span data-ttu-id="7b007-110">[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="7b007-110">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
