@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
 ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 869d136498604a61b1f3016efca475b4784c4456
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: d03d1aa3910dc73dc61c61bdd66725e8e8af3c66
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250278"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621119"
 ---
 # <a name="customizing-business-central-using-extensions"></a>Personalizar Business Central con extensiones
 Puede cambiar [!INCLUDE[d365fin](includes/d365fin_md.md)] instalando extensiones que agregan funciones, cambian el comportamiento o proporcionan acceso a nuevos servicios en línea, por ejemplo.
@@ -65,6 +65,7 @@ Microsoft proporciona las extensiones siguientes:
 * [Migración de datos C5](ui-extensions-c5-data-migration.md)  
 * [Información de la empresa esencial](ui-extensions-essential-business-insights.md)  
 * [Predicciones de pago atrasado](ui-extensions-late-payment-prediction.md  )
+* [Enviar aviso de pago](ui-extensions-send-remittance-advice.md)
 
 > [!NOTE]  
 >  Las nuevas extensiones no están disponibles en AppSource inmediatamente después anunciar una actualización. Puede estar atento a las extensiones en [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).

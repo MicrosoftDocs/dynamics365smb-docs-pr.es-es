@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e13d59e939e71a252e08afc26d2fb1ec76b247c9
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 8c98e4b893783c795a49e05ab04dc70b03161c6a
+ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238537"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594260"
 ---
 # <a name="block-items-from-sales-or-purchasing"></a>Bloquear productos de venta o de compra
 Puede bloquear que un producto entre en líneas de compras y ventas, y puede bloquearlo para que no se registre en ninguna transacción.  
@@ -28,7 +28,10 @@ La siguiente tabla muestra qué sucede cuando se bloquean los productos.
 |--------------------|------------|  
 |**Venta bloqueada**|No puede introducir el producto en un documento de venta ni en un diario de productos de venta.|  
 |**Compra bloqueada**|No puede introducir el producto en un documento de compra, en un diario de productos de compra ni en procesos de planificación de compras.|  
-|**Bloqueado**|No puede usar el producto en ninguna transacción de producto. Para obtener más información sobre el bloqueo de un producto para todos los propósitos, consulte la ficha de producto.|  
+|**Bloqueado**|No puede usar el producto en ninguna transacción de producto.|  
+
+> [!NOTE]
+> Los productos bloqueados se pueden devolver. Esto significa que ninguna de las opciones de configuración anteriores se aplica cuando se utiliza el producto en devoluciones y abonos.
 
 ## <a name="to-block-an-item-from-being-entered-on-sales-lines"></a>Para bloquear que un producto se introduzca en líneas de venta  
 

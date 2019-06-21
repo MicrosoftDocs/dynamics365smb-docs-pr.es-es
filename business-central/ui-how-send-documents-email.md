@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
-ms.date: 04/01/2019
+ms.date: 05/20/2019
 ms.author: sgroespe
-ms.openlocfilehash: fcae17577b448b4271adee299874cf5cad9da79f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c326b280e6539da69831fd4f9610540f1a1e139e
+ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249381"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594132"
 ---
 # <a name="send-documents-by-email"></a>Enviar documentos por correo electrónico
 Para comunicar el contenido de documentos empresariales rápidamente a sus socios, por ejemplo la información de pagos en los documentos de venta a los clientes, puede usar la función de Informe personalizado para definir el contenido específico de un documento que se insertará en el cuerpo del correo electrónico automáticamente. Para obtener más información, vea [Administrar diseños de informes y documentos](ui-manage-report-layouts.md).
@@ -54,7 +54,7 @@ El procedimiento siguiente describe cómo enviar una factura de ventas registrad
 4. Elija el botón **Aceptar**. Se abre la página **Enviar correo electrónico**.
 5. En el campo **Para:** introduzca una dirección de correo electrónico válida. El valor predeterminado es la dirección de correo electrónico del cliente.
 6. En el campo **Asunto**, escriba un texto descriptivo del asunto. El valor predeterminado es el nombre del cliente y el número de factura.
-7. En el campo **Archivo adjunto**, se adjunta la factura generada de forma predeterminada como un archivo PDF. Seleccione el botón de búsqueda para abrir el archivo o para adjuntar otro.
+7. En el campo **Archivo adjunto**, se adjunta la factura generada de forma predeterminada como un archivo PDF.
 8. En el campo **Cuerpo**, escriba un mensaje breve al destinatario.
 
     Si se configura el contenido específico de un documento en el cuerpo del correo electrónico en la página **Informe selección - ventas**, el campo **Cuerpo** se rellena automáticamente. Para obtener más información, vea [Para configurar un documento específico en el cuerpo de un correo electrónico para las facturas de venta](ui-how-send-documents-email.md#to-set-up-a-document-specific-email-body-for-sales-invoices).

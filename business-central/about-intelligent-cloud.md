@@ -1,6 +1,6 @@
 ---
-title: Nube inteligente | Documentos de Microsoft
-description: Obtenga una copia en la nube de sus datos y esté conectado a la nube inteligente.
+title: Información inteligente | Documentos de Microsoft
+description: Conéctese con Business Central para obtener información inteligente, incluso desde su solución local.
 author: bmeier94
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,20 +9,20 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms. search.keywords: cloud, edge
-ms.date: 04/01/2019
+ms.date: 05/20/2019
 ms.author: bmeier
-ms.openlocfilehash: 4bd30c2912c8a690431221e7983f5fe53b543322
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: a625bdb047fe77ca2fb118a41902c5546d38523d
+ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241428"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594161"
 ---
-# <a name="your-access-to-the-intelligent-cloud-with-includeprodshortincludesprodshortmd"></a>Acceda a la nube inteligente con [!INCLUDE[prodshort](includes/prodshort.md)]
+# <a name="intelligent-insights-with-includeprodshortincludesprodshortmd"></a>Información inteligente con [!INCLUDE[prodshort](includes/prodshort.md)]
 
-Como usuario de [!INCLUDE[prodshort](includes/prodshort.md)] en línea, tiene acceso completo a escenarios basados en la nube inteligente, como editar datos en Excel y enviar los cambios de nuevo a [!INCLUDE[prodshort](includes/prodshort.md)], o cuando ve sus datos en Power BI. Sin embargo, si bien [!INCLUDE[prodshort](includes/prodshort.md)] es un servicio primordial en la nube, también pueden hacerlo aquellos clientes que necesitan ejecutar sus cargas de trabajo totalmente de forma local o en la inteligencia perimetral conectada a la nube.  
+Como usuario de [!INCLUDE[prodshort](includes/prodshort.md)] en línea, tiene acceso completo a escenarios basados en la nube inteligente, como los KPI que están basados en aprendizaje automático, o cuando ve sus datos en Power BI. Sin embargo, si bien [!INCLUDE[prodshort](includes/prodshort.md)] es un servicio primordial en la nube, también pueden hacerlo aquellos clientes que necesitan ejecutar sus cargas de trabajo totalmente de forma local o en la inteligencia perimetral conectada a la nube.  
 
-Si está interesado en [!INCLUDE[prodshort](includes/prodshort.md)], puede inscribirse para una prueba gratuita de la solución predeterminada de implementación en la nube, o puede elegir trabajar con un asociado para implementar [!INCLUDE[prodshort](includes/prodshort.md)] localmente en su propia elección de hardware. Luego puede decidir conectarse a la nube a través de su suscriptor en la nube. Como resultado, los datos de [!INCLUDE[prodshort](includes/prodshort.md)] implementado localmente se replicarán en la nube para escenarios de nube inteligente.  
+Si está interesado en [!INCLUDE[prodshort](includes/prodshort.md)], puede inscribirse para una prueba gratuita en línea, o puede elegir trabajar con un asociado para implementar [!INCLUDE[prodshort](includes/prodshort.md)] localmente en su propia elección de hardware. A continuación, puede decidir obtener información inteligente conectándose con un suscriptor en la nube. Como resultado, los datos de [!INCLUDE[prodshort](includes/prodshort.md)] implementado localmente se replicarán en la nube para escenarios de nube inteligente.  
 
 La conexión a la nube inteligente desde una solución local requiere que su administrador especifique información sobre su base de datos. Para obtener más información, consulte [Conectarse a la nube inteligente](/dynamics365/business-central/dev-itpro/administration/about-intelligent-edge) en el contenido de ITPro para [!INCLUDE[prodshort](includes/prodshort.md)].  
 
@@ -38,17 +38,21 @@ En su empresa en línea de [!INCLUDE[prodshort](includes/prodshort.md)], la pág
 Junto a los gráficos de KPI, obtendrá información sobre posibles áreas de preocupación, incluidos los pagos atrasados. Elija la información para profundizar en los datos.  
 
 > [!div class="mx-imgBorder"]
-> ![Información de inteligencia perimetral](media/across-intelligent-cloud/intelligentcloudApril19.png "Muestra la página de Información de inteligencia perimetral en Business Central")
+> ![Información de nube inteligente](media/across-intelligent-cloud/intelligentcloudApril19.png "Muestra la página Información de nube inteligente en Business Central")
 
 La página también se conecta a Power BI para obtener más información.
 
-## <a name="viewing-intelligent-cloud-insights-on-premises"></a>Visualización de información de nube inteligente local
+## <a name="viewing-intelligent-insights-on-premises"></a>Visualización de información inteligente local
 
 Cuando su asociado de reventa de Dynamics 365 ha adquirido la licencia correcta para su solución local para conectarse a la nube a través de [!INCLUDE[prodshort](includes/prodshort.md)], su administrador puede configurar la conexión. Una vez hecho esto, puede ver la misma información desde la nube en su aplicación local. Dependiendo de la solución local, la página de **Información de inteligencia perimetral** puede integrarse en la página de inicio o ser una página separada, como en [!INCLUDE[prodshort](includes/prodshort.md)] en línea y en local.  
 
+## <a name="connecting-to-business-central-from-other-dynamics-products"></a>Conexión a Business Central desde otros productos de Dynamics
+
+Si utiliza una de las versiones locales compatibles, también puede conectarse a Business Central en línea y obtener información inteligente localmente. Para obtener más información, consulte [Conectarse a la nube inteligente](/dynamics365/business-central/dev-itpro/administration/about-intelligent-edge) en el contenido de ITPro para [!INCLUDE[prodshort](includes/prodshort.md)].  
+
 ## <a name="see-also"></a>Consulte también
 
-[Este es Business Central](index.md)  
+[Bienvenido a Business Central](index.md)  
 [Extensión de la nube inteligente de Business Central](ui-extensions-intelligent-cloud.md)  
 [Extensión de replicación de datos](ui-extensions-data-replication.md)  
 [Conectar a la nube inteligente](/dynamics365/business-central/dev-itpro/administration/about-intelligent-edge)  

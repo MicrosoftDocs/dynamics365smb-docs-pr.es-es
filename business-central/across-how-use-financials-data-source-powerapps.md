@@ -1,8 +1,6 @@
 ---
 title: Usar los datos para crear una aplicación | Documentos de Microsoft
 description: Puede hacer que los datos de Business Central estén disponibles como un origen de datos y especificar una URL de OData de sus servicios web para crear una aplicación empresarial con PowerApps.
-services: project-madeira
-documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Odata, Power App, SOAP
-ms.date: 04/01/2019
+ms.date: 05/13/2019
 ms.author: edupont
-ms.openlocfilehash: be1f5c64cefdcd4cb9a14c0c2f1c559e426ce0f8
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 67d7129e32ccde3154a02dd12b806d712f470833
+ms.sourcegitcommit: 92c7b6c5f0a5d8becbef106ab85258906765bc3e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240469"
+ms.lasthandoff: 05/13/2019
+ms.locfileid: "1540274"
 ---
 # <a name="connecting-to-your-business-central-data-to-build-a-business-app-using-powerapps"></a>Cómo conectarse a sus datos de Business Central para crear una aplicación empresarial con PowerApps
 Puede convertir los datos de [!INCLUDE[d365fin](includes/d365fin_md.md)] en disponibles como origen de datos en PowerApps.  
@@ -27,34 +25,29 @@ Puede convertir los datos de [!INCLUDE[d365fin](includes/d365fin_md.md)] en disp
 
 ## <a name="to-add-included365finincludesd365finmdmd-as-a-data-source-in-powerapps"></a>Para agregar [!INCLUDE[d365fin](includes/d365fin_md.md)] como origen de datos de PowerApps
 1. En el explorador, vaya a [powerapps.microsoft.com](https://powerapps.microsoft.com/en-us/) y, a continuación, inicie sesión.
-2. En el panel de navegación izquierdo, elija **Nueva aplicación**.
-3. Elija el editor, PowerApps Studio para Windows o PowerApps Studio para Web.
+2. En la página Web, seleccione la plantilla **Iniciar desde datos** para crear una nueva aplicación de lienzo. Esta aplicación se ha diseñado para su uso en un dispositivo móvil, pero también puede seleccionar usar otra plantilla.
 
-   PowerApps Studio para Windows es una aplicación de escritorio que se usa para crear y publicar PowerApps. PowerApps Studio para Web es la solución en línea que se usa para crear y publicar PowerApps.
-4. El siguiente paso para crear una PowerApp es seleccionar los datos. Elija el icono de flecha y la opción **Nueva conexión** en la parte superior izquierda de la página.
-5. En la lista de conexiones disponibles, elija **Dynamics 365 Business Central**.
-6. PowerApps mostrará una página de conexión que le solicita la información necesaria para conectarse con los datos de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para conectarse debe especificar una dirección URL de OData, el nombre de usuario, la contraseña y el nombre de la empresa.
+    El siguiente paso para crear una PowerApp es seleccionar los datos. Elija el icono de flecha y la opción **Nueva conexión** en la parte superior izquierda de la página.
+3. En la lista de conexiones disponibles, elija **Business Central** y, después, seleccione el botón **Crear**.
 
-   Para *URL de OData*, puede copiar la dirección URL de OData V4 de cualquiera de los servicios web que se muestran en la página **Servicios Web** en [!INCLUDE[d365fin](includes/d365fin_md.md)], por ejemplo, `https://mycompany.businesscentral.dynamics.com:7048/MS/ODataV4/`.  
+    PowerApps se conectará a su [!INCLUDE [prodshort](includes/prodshort.md)] con las credenciales con las que ha iniciado sesión. Si no es administrador de su [!INCLUDE [prodshort](includes/prodshort.md)], es posible que tenga que iniciar sesión con otra cuenta.  
 
-   Para *Nombre empresa*, utilice el nombre que se muestra en el campo **Nombre** de la página **Información empresa** en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Si [!INCLUDE[d365fin](includes/d365fin_md.md)] contiene varias empresas, elija el nombre de la empresa pertinente en la lista en la página **Empresas**. En ambos casos, asegúrese de que el nombre que especifique en el asistente PowerApps coincide exactamente con el texto que se muestra en [!INCLUDE[d365fin](includes/d365fin_md.md)], como `My Company`.
+4. Si tiene más de una empresa en su [!INCLUDE [prodshort](includes/prodshort.md)], debe elegir la empresa a la que se conectará. Después, PowerApps muestra una lista de *tablas* que están disponibles en [!INCLUDE [prodshort](includes/prodshort.md)]. Estas denominadas tablas forman parte de la API de [!INCLUDE [prodshort](includes/prodshort.md)]. No es necesario que configure los extremos usted mismo, el conector de [!INCLUDE [prodshort](includes/prodshort.md)] para PowerApps hacerlo de forma automática.  
 
-   Para el nombre de usuario y la contraseña, utilice el nombre y la clave de acceso al servicio web que se especificó para la cuenta en la página **Usuarios** en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Por ejemplo, su nombre de usuario es *ADMIN* y la clave de acceso al servicio Web que actúa de contraseña es *EgzeUFQ9Uv0o5O0lUMyqCzo1ueUW9yRF3SsLU=*.
-7. Elija el botón **Conexión** para continuar. PowerApps mostrará un conjunto de datos predeterminado para [!INCLUDE[d365fin](includes/d365fin_md.md)]. Elija el conjunto de datos **Genérico**.
+    Si desea incluir datos de otras tablas en [!INCLUDE [prodshort](includes/prodshort.md)] en su aplicación, debe trabajar con un desarrollador para definir una API personalizada en [!INCLUDE [prodshort](includes/prodshort.md)] y, después, consumir esa API personalizada a través de un conector personalizado en PowerApps. Para obtener más información, vea [Crear un conector personalizado desde cero](/connectors/custom-connectors/define-blank).  
 
-   PowerApps mostrará una lista de tablas que están disponibles en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Estas tablas, o extremos, representan todos los servicios web que haya publicado desde [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Ya se ha conectado correctamente con los datos de [!INCLUDE [prodshort](includes/prodshort.md)] y está preparado para comenzar a crear su PowerApp. Puede agregar pantallas adicionales y conectarse a los datos adicionales de su [!INCLUDE [prodshort](includes/prodshort.md)]. Para obtener más información, consulte [Crear una aplicación de lienzo a partir de una plantilla de PowerApps](/powerapps/maker/canvas-apps/get-started-test-drive).  
 
-   Si lo desea, puede crear una nueva dirección URL de servicio Web en [!INCLUDE[d365fin](includes/d365fin_md.md)] mediante la acción **Crear conjunto de datos** en la página **Servicios web**, utilizando la guía de configuración asistida **Configurar informes** o eligiendo la acción **Editar en Excel** en cualquier lista.
-8. Elija la tabla de que desea utilizar para su PowerApp y después seleccione el botón **Conectar**.
-9. Repita los pasos anteriores agregar datos de [!INCLUDE[d365fin](includes/d365fin_md.md)] adicionales a su modelo de datos de Power BI.
+Cuando haya diseñado y creado la aplicación, puede compartirla con sus compañeros. Para obtener más información, consulte [Guardar y publicar una aplicación de lienzo en PowerApps](/powerapps/maker/canvas-apps/save-publish-app).  
 
-   > [!NOTE]  
-   >    Una vez que haya conectado correctamente con [!INCLUDE[d365fin](includes/d365fin_md.md)], no se le solicitará nuevamente la URL, el nombre de usuario o la contraseña de OData.
-
-Ya se ha conectado correctamente con los datos de Business Central y está preparado para comenzar a crear su PowerApp. Para obtener más información, consulte la [documentación de PowerApps](https://powerapps.microsoft.com/tutorials/getting-started/).
+> [!NOTE]
+> Si desea conectarse a [!INCLUDE [prodshort](includes/prodshort.md)] local, deberá elegir el conector **Business Central (local)** en el paso 3.  
 
 ## <a name="see-also"></a>Consulte también
+
+[Crear una aplicación de lienzo a partir de una plantilla de PowerApps](/powerapps/maker/canvas-apps/get-started-test-drive)  
 [Introducción](product-get-started.md)  
 [Importar datos de empresa de otros sistemas financieros](across-import-data-configuration-packages.md)  
 [Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Finanzas](finance.md)  
+[Introducción al desarrollo de aplicaciones de Connect para Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps)  

@@ -1,8 +1,6 @@
 ---
 title: Programar un informe para ejecutarlo en una fecha y hora específicos | Documentos de Microsoft
 description: Obtenga información sobre cómo introducir un informe en una cola de proyectos y programarlo para que se procesa en una fecha y hora específicas.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report
-ms.date: 04/01/2019
+ms.date: 05/16/2019
 ms.author: jswymer
-ms.openlocfilehash: 65fcba3f0222b324f132115ea7f1ec53b75d983f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 508a6406fe11099f19ce46c70147d62ba74278d1
+ms.sourcegitcommit: f4beaa63e2f32e2947de1c794c5619ed40a47301
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250692"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1586157"
 ---
 # <a name="working-with-reports-and-batch-jobs"></a>Trabajar con informes y trabajos por lotes
 Un informe recoge la información basada en un conjunto determinado de criterios, y organiza y muestra la información en un formato fácil de leer, imprimible. Existen numerosos informes a la que se accede en la aplicación. Los informes proporcionan normalmente la información en relación con el contexto de la página que va a usar. Por ejemplo, la página **Cliente** incluye los informes para los 10 clientes principales y sus estadísticas de ventas, entre otros datos.
@@ -88,7 +86,12 @@ Puede programar un informe para ejecutarlo en una fecha y hora específicos. Los
 Puede programar un informe cuando abra un informe. Puede elegir la acción **Programar** y, a continuación, introducir información como la impresora, la hora y la fecha. A continuación, el informe se agrega a la cola de proyectos y se ejecutará en el momento especificado. Cuando se procese el informe, el elemento se eliminará de la cola de proyectos. Si guardó el informe procesado en un archivo, estará disponible en el área **Bandeja de entrada de informes**.
 
 ## <a name="PrintReport"></a>Imprimir un informe
-Puede imprimir un informe desde el botón **Imprimir** en la página de opciones que aparece al abrir el informe o desde la barra de menús en Vista previa.
+Puede imprimir un informe desde el botón **Imprimir** en la página de opciones que aparece al abrir el informe o desde la barra de menús en Vista previa.  
+
+### <a name="printing-reports-in-thai"></a>Impresión de informes en tailandés
+Específicamente para la versión tailandesa de [!INCLUDE[prodshort](includes/prodshort.md)], el botón **Imprimir** no puede imprimir correctamente los informes debido a las limitaciones del servicio que genera el archivo PDF imprimible. En su lugar, puede abrir el informe en Word y luego guardarlo como un PDF imprimible.  
+
+Alternativamente, puede pedir a su administrador que cree un diseño de informe de Word para los informes más utilizados. Para obtener más información, vea [Administrar diseños de informes y documentos](ui-manage-report-layouts.md).  
 
 ## <a name="changing-the-layout-and-look-of-a-report"></a>Cambiar el diseño y el aspecto de un informe
 El diseño de informe controla lo que se muestra en un informe, cómo se organiza y cómo está diseñado. Si desea cambiar a otro diseño distinto, consulte [Cambiar el diseño que se utiliza actualmente en un informe](ui-how-change-layout-currently-used-report.md). Pero, si desea personalizar su propio diseño del informe, vea [Crear y editar un diseño de informe personalizado](ui-how-create-custom-report-layout.md).

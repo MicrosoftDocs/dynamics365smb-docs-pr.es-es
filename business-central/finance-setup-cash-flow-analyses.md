@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 442d16561321acc552a2cf39a1659d763e6f319a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 933323815f0ee31e8bd281dd00ac2d604dd914db
+ms.sourcegitcommit: 92c7b6c5f0a5d8becbef106ab85258906765bc3e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244083"
+ms.lasthandoff: 05/13/2019
+ms.locfileid: "1540322"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Configuración del análisis de flujo de efectivo
 Si desea ayuda para decidir qué debe hacer con el efectivo, eche un vistazo a los gráficos del Área de trabajo Contable:  

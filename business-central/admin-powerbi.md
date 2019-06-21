@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/26/2019
 ms.author: edupont
-ms.openlocfilehash: a999a9533aa2dd4e8dcadea04e7838305b34ba5b
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 79fa8f67a1b2d7ced65f002bd04fc69f61811c5e
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247507"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1620981"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Habilitar los datos de negocio para Power BI
 Obtener información de los datos de [!INCLUDE[d365fin](includes/d365fin_md.md)] resulta muy sencillo con Power BI y los paquetes de contenido de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Power BI extrae los datos y, a continuación, genera un panel original e informes en función de los datos.  
 
-Debe disponer de una cuenta válida con Dynamics 365 y con Power BI. Además, deberá descargar [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) si desea crear sus propios informes de Power BI. Los paquetes de contenido de Power BI requieren permisos para las tablas desde donde se recuperan los datos. A continuación se describen más detalles sobre los requisitos.  
+Debe disponer de una cuenta válida con [!INCLUDE[prodshort](includes/prodshort.md)] y con Power BI. Además, deberá descargar [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) si desea crear sus propios informes de Power BI. Los paquetes de contenido de Power BI requieren permisos para las tablas desde donde se recuperan los datos. A continuación se describen más detalles sobre los requisitos.  
 
 > [!IMPORTANT]
 > Los paquetes de contenido que se describen en este artículo están diseñados para utilizar Azure Active Directory como mecanismo de autenticación. Si utiliza [!INCLUDE [prodshort](includes/prodshort.md)] on-premises y un mecanismo de autenticación diferente, Power BI no puede conectar los datos.  
@@ -28,15 +28,8 @@ Debe disponer de una cuenta válida con Dynamics 365 y con Power BI. Además, de
 Microsoft ha publicado los paquetes de contenido siguientes:
 
 - [!INCLUDE [prodlong](includes/prodlong.md)] - CRM  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Lista de clientes  
 - [!INCLUDE [prodlong](includes/prodlong.md)] - Finanzas  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Lista de productos  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Proyectos  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Lista de proyectos  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Facturas compra  
 - [!INCLUDE [prodlong](includes/prodlong.md)] - Ventas  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Lista pedidos venta  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Lista de proveedores  
 
 ## <a name="using-the-dashboards"></a>Uso de paneles de control
 Cada paquete de contenido proporciona informes que puede explorar:
@@ -88,64 +81,9 @@ Para importar los datos de [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.m
 - Empresa de vista de plantilla de Excel
 - Etiquetas de informe del Power BI
 
-**Microsoft Dynamics 365 Business Central – Jobs**
-- Lista de proyectos
-- Líneas planificación proyecto
-- Líneas tarea proyecto
-- Etiquetas de informe del Power BI
-- Empresa de vista de plantilla de Excel
-
 **Microsoft Dynamics 365 Business Central - Sales**
 - Panel de ventas
 - Empresa de vista de plantilla de Excel
-- Etiquetas de informe del Power BI
-
-### <a name="list-page-reports"></a>Informes de páginas de listas
-
-**Microsoft Dynamics 365 Business Central – Customers List**
-- Ventas de productos por cliente
-- Lista de compra del producto Power BI
-- Lista de venta del producto Power BI
-- Panel de ventas
-- Lista de clientes de Power BI
-- ExcelTemplateViewCompany
-- Etiquetas de informe del Power BI
-
-**Microsoft Dynamics 365 Business Central - General Ledger Entries List**
-- Lista de importes CG de Power BI
-- Importe presupuestado CG de Power BI
-- ExcelTemplateViewCompany
-- Etiquetas de informe del Power BI
-
-**Microsoft Dynamics 365 Business Central – Items List**
-- Ventas de productos por cliente
-- Lista de compra del producto Power BI
-- Lista de venta del producto Power BI
-- Panel de ventas
-- ExcelTemplateViewCompany
-- Etiquetas de informe del Power BI
-
-**Microsoft Dynamics 365 Business Central – Jobs List**
-- Lista de proyectos de Power BI
-- ExcelTemplateViewCompany
-- Etiquetas de informe del Power BI
-
-**Microsoft Dynamics 365 Business Central – Purchase Invoices List**
-- Lista de compras de Power BI
-- ExcelTemplateViewCompany
-- Etiquetas de informe del Power BI
-
-**Microsoft Dynamics 365 Business Central – Sales Orders List**
-- Lista de ventas de Power BI
-- ExcelTemplateViewCompany
-- Etiquetas de informe del Power BI
-
-
-**Microsoft Dynamics 365 Business Central – Vendors List**
-- Lista de compra del producto Power BI
-- Lista de venta del producto Power BI
-- Lista de proveedores de Power BI
-- ExcelTemplateViewCompany
 - Etiquetas de informe del Power BI
 
 ## <a name="web-services"></a>Servicios Web
@@ -158,8 +96,7 @@ El panel de Power BI depende de los servicios web publicados que aparecen en la 
 Un error común es introducir el nombre para mostrar de empresa en lugar del nombre de la empresa. Para buscar el nombre de la empresa, busque **Empresas**. A continuación, use el campo **Nombre** al introducir el nombre de su empresa.
 
 ### <a name="incorrect-user-name-and-password"></a>Nombre de usuario y contraseña incorrectos  
-El nombre de usuario y la contraseña utilizados para conectarse deben ser los mismos que se usan para conectarse a su cuenta de Microsoft Office 365.  
-
+El nombre de usuario y la contraseña utilizados para iniciar sesión en Power BI deben ser los mismos que se usan para conectarse a su cuenta de Microsoft Office 365.  
 Los paquetes de contenido requieren también que tenga una cuenta de Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. Una vez que introduzca sus credenciales, descubriremos automáticamente los inquilinos de Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] a los que tenga acceso. Si no tiene una cuenta de prueba o con licencia de Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], recibirá un mensaje de error.
 
 ### <a name="the-key-didnt-match-any-rows-in-the-table"></a>La clave no coincidió con ninguna fila de la tabla

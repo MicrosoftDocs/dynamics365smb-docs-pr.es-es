@@ -10,19 +10,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 06/03/2019
 ms.author: sgroespe
-ms.openlocfilehash: 38218c497f7d3892b19d0b594ff3863004f69ac4
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ab0f0e921fd7a321975330062d19869efc7d8ec7
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246869"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1620935"
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Detalles de diseño: Disponibilidad en el almacén
 El sistema debe mantener un control constante de la disponibilidad de productos el almacén, para que los pedidos de salida puedan fluir de un modo eficaz y proporcionar las entregas óptimas.  
 
- La disponibilidad varía en función de las asignaciones en el nivel de ubicación cuando tienen lugar actividades de almacén, como selección y movimientos, y cuando el programa de reservas de inventario impone restricciones. Un algoritmo bastante complejo comprueba que todas las condiciones se cumplan antes de asignar cantidades a selecciones para los flujos de salida.  
+La disponibilidad varía en función de las asignaciones en el nivel de ubicación cuando tienen lugar actividades de almacén, como selección y movimientos, y cuando el programa de reservas de inventario impone restricciones. Un algoritmo bastante complejo comprueba que todas las condiciones se cumplan antes de asignar cantidades a selecciones para los flujos de salida.
+
+Si no se cumplen una o más condiciones, se pueden mostrar diferentes mensajes de error, incluyendo el mensaje genérico "Nada a manipular." . El mensaje "Nada a manipular." puede producirse por muchas razones diferentes, en los flujos de entrada y salida, en los que una línea de documento directa o indirectamente implicada contiene el campo **Cant. a manipular**.
+
+> [!NOTE]
+> Pronto se publicará aquí información sobre posibles razones y soluciones para el mensaje "Nada a manipular." .
 
 ## <a name="bin-content-and-reservations"></a>Contenido y reservas de ubicación  
  En cualquier instalación de gestión de almacén, hay cantidades de productos, tanto como entradas de almacén, en el área de aplicación del almacén, como entradas contables de productos, en el área de aplicación del inventario. Estos tipos dos tipos de movimiento contienen información diversa sobre el lugar donde están los productos y si están disponibles. Los movimientos de almacén definen la disponibilidad de un producto por ubicación y tipo de ubicación, lo que se denomina contenido de ubicación. Los movimientos de producto definen la disponibilidad de un producto por sus documentos de reserva a salida.  
@@ -72,4 +77,5 @@ El sistema debe mantener un control constante de la disponibilidad de productos 
  ![Disponible para reserva por asignaciones de almacén](media/design_details_warehouse_management_availability_3.png "Disponible para reserva por asignaciones de almacén")  
 
 ## <a name="see-also"></a>Consulte también  
- [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)
+ [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
+ [Consultar la disponibilidad de los productos](inventory-how-availability-overview.md)

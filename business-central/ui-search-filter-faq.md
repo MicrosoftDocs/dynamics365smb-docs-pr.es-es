@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.reviewer: edupont04
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
-ms.date: 04/05/2019
+ms.date: 06/03/2019
 ms.author: mikebc
-ms.openlocfilehash: 0f9f5db0e7031156848a5bd15c711d3108f3490b
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: bf595cc54fa6d3d105770893864f655f82e04433
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249060"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1620843"
 ---
 # <a name="searching-and-filtering-faq"></a>Búsqueda y filtrado de preguntas frecuentes
 Este artículo responde a preguntas comunes que puede tener acerca de las acciones buscar y filtrar.
@@ -27,7 +27,7 @@ Sí.
 Las acciones de buscar y filtrar se han optimizado para los usuarios que prefieren la interacción sin mouse para trabajar de manera eficiente con sus datos. Hay varias teclas de método abreviado que se pueden usar en secuencia para trabajar a alta velocidad. Para obtener más información, consulte [Métodos abreviados de teclado](keyboard-shortcuts.md#KeyboardFilter).
 
 ## <a name="is-the-filter-pane-available-on-all-lists"></a>¿El panel de filtros está disponible en todas las listas?
-El panel de filtros está disponible en las páginas donde la lista es el contenido principal de la página, como hojas de cálculo y páginas de lista, incluidas las listas accesibles desde la barra de navegación. El panel de filtro aún no está disponible para listas integradas, como líneas de venta en pedidos de ventas o para listas con columnas dinámicas (a menudo denominadas páginas de matriz).
+El panel de filtros está disponible en las páginas donde la lista es el contenido principal de la página, como hojas de cálculo y páginas de lista, incluidas las listas accesibles desde la barra de navegación. El panel de filtro aún no está disponible para las listas que se muestran como partes, como fichas desplegables o partes del área de trabajo. Cuando una lista está incorporada en una página, como líneas de ventas en un pedido de venta, el panel de filtro está disponible cuando esa lista obtiene el enfoque mediante el botón de modo de enfoque. Para obtener más información, consulte [Enfoque en los productos de línea](ui-enter-data.md#Focus).
 
 ## <a name="how-can-i-save-my-filters"></a>¿Cómo puedo guardar mis filtros?
 

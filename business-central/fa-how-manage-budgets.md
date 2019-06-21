@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: forecast
-ms.date: 04/01/2019
+ms.date: 05/24/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0e7c7d665dc26a2af365daf6171affb679c22c1a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: dfae781b7ddabd7283868886dd07699bf62be052
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247213"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1620912"
 ---
 # <a name="manage-budgets-for-fixed-assets"></a>Gestionar presupuestos de los activos fijos
 Puede configurar activos fijos presupuestados. Por ejemplo, esto le permite incluir adquisiciones y ventas anticipadas en los informes.  
@@ -51,7 +51,7 @@ Para ver los valores venta/baja previstos y que se calculen las ganancias y pér
 ## <a name="to-budget-depreciation"></a>Para presupuestar amortización
 Puede usar el informe **A/F - Proyección amort.** para calcular la amortización futura. El informe muestra el valor neto y la amortización acumulada al principio del periodo seleccionado, los cambios durante el periodo y el valor neto y la amortización acumulada al final del periodo seleccionado.
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Proyección de la amortización A/F** y luego elija el enlace relacionado.
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Valor proyectado de activo fijo** y luego elija el enlace relacionado.
 2. Rellene los campos según sea necesario.
 3. Para ver los valores totales de todos los activos, desactive la casilla **Imprimir por activo fijo**.
 4. Deje en blanco la ficha desplegable **Activo** para incluir todos los activos. En el campo **Activo presupuestado**, puede especificar **No** para excluir los activos presupuestados o **Sí** para ver solo los activos presupuestados.

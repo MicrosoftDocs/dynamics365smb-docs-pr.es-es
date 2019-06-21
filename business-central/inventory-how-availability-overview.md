@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.date: 04/01/2019
+ms.date: 06/03/2019
 ms.author: SorenGP
-ms.openlocfilehash: ab3e23f9d3128045e722bf2677b1b687b2218b10
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: f1c7fbe75dfa9767e5a5dfbfbe354fbd3f9448b5
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243247"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621004"
 ---
 # <a name="view-the-availability-of-items"></a>Consultar la disponibilidad de los productos
 En el contexto de una tarea de negocio, puede obtener la información avanzada acerca de cuándo y dónde está disponible un producto, por ejemplo, al hablar con un cliente sobre una fecha de entrega.
@@ -26,9 +26,11 @@ Puede consultar la disponibilidad de todos los productos por ubicación y puede 
 > [!NOTE]  
 >   Las vistas de disponibilidad por ubicación requieren que se mantenga el inventario en varias ubicaciones. Para obtener más información, consulte [Configurar ubicaciones](inventory-how-setup-locations.md).
 
-En [!INCLUDE[d365fin](includes/d365fin_md.md)], las cifras de disponibilidad se muestran en dos campos diferentes, cada uno con una definición distinta:
+Si utiliza la funcionalidad de almacén, la disponibilidad varía en función de las asignaciones en el nivel de ubicación cuando tienen lugar actividades de almacén, como selección y movimientos, y cuando el programa de reservas de inventario impone restricciones. Un algoritmo bastante complejo comprueba que todas las condiciones se cumplan antes de asignar cantidades a selecciones para los flujos de salida. Para obtener más información, consulte [Detalles de diseño: Disponibilidad en el almacén](design-details-availability-in-the-warehouse.md).
 
-* El campo **Cantidad disponible** muestra la cantidad real hoy de acuerdo con los movimientos de producto registrados.
+En [!INCLUDE[d365fin](includes/d365fin_md.md)], las cifras de disponibilidad normalmente se muestran en dos campos diferentes, cada uno con una definición distinta:
+
+* El campo **Cantidad disponible**, en algunas parte se denomina **Inventario**, muestra la cantidad real hoy de acuerdo con los movimientos de producto registrados.
 * El campo **Saldo disponible estimado** calcula y muestra el stock disponible más las recepciones programadas menos las necesidades brutas. (En [!INCLUDE[d365fin](includes/d365fin_md.md)], las recepciones programadas incluyen cantidades en los pedidos de compra y pedidos de transferencia de entrada. Las necesidades brutas incluyen cantidades de los pedidos de venta y los pedidos de transferencia de salida).
 
 > [!TIP]  

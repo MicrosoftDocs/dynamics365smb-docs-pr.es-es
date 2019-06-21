@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 57ac1956c2e7b22a04615c4ebd0ab5b502787a93
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: dcce77cae3f582f59ec07469342661ad2f4d9afa
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240653"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621027"
 ---
 # <a name="how-to-set-up-and-report-intrastat"></a>Procedimiento: configuración y creación de informes Intrastat
 Todas las empresas de la Unión Europea deben emitir informes sobre sus transacciones comerciales con otros países o regiones de la UE. Debe notificar el movimiento de mercancías al organismo de estadística de su país o región todos los meses, y el informe se debe remitir a las autoridades fiscales. Esto se denomina Informes de Intrastat. Para realizar los informes de Intrastat periódicos se usa la página **Diario Intrastat**.  
@@ -25,6 +25,7 @@ Todas las empresas de la Unión Europea deben emitir informes sobre sus transacc
 ## <a name="required-and-optional-setups"></a>Configuraciones necesarias y opcionales
 Para poder usar el diario de Intrastat para informar sobre Instratat, debe configurar algunos parámetros:  
 
+* **Configuración de Intrastat**: la página Configuración de Intrastat se utiliza para habilitar los informes de Intrastat y establecer sus valores predeterminados. Puede especificar si necesita elaborar informes de Intrastat a partir de envíos (despachos), recibos (llegadas) o ambos, según los umbrales establecidos por sus regulaciones locales. También se pueden establecer naturalezas de transacción predeterminadas para documentos normales y de devolución, que se utilizan para la naturaleza de los informes de transacción. 
 * **Libros del diario de Intrastat**: debe configurar los libros y secciones del diario de Intrastat que utilizará. Como el informe de Intrastat se realiza mensualmente, debe utilizar 12 procesos de diarios Intrastat basados en el mismo libro.  
 * **Códigos de mercancía**: las autoridades aduaneras y fiscales han establecido códigos numéricos que clasificar productos y servicios. Especifique estos códigos para los productos.
 * **Códigos de naturaleza de la transacción**: los países y regiones tienen diferentes códigos para los tipos de transacciones de Intrastat, como la compra y venta ordinaria, el intercambio de mercancías devueltas y el intercambio de mercancías no devueltas. Configure todos los códigos que se aplican a su país o región. Utilice estos códigos en los documentos de venta y compra y cuando procese las devoluciones.  

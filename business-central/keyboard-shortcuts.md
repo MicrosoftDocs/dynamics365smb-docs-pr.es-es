@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 423f5098589a0df5613190517fb933d0181360dd
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 11d63e2745ce35067d87e66c6077d51276f90075
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240584"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621211"
 ---
 # <a name="keyboard-shortcuts"></a>Métodos abreviados de teclado
 Este producto proporciona un resumen de algunas de las combinaciones de métodos abreviados que se pueden utilizar cuando trabaje con [!INCLUDE[prodshort](includes/prodshort.md)].
@@ -105,8 +105,8 @@ En la tabla siguiente se describen los métodos abreviados de teclado que puede 
 |Mayús+Re Pág<br />(Mayús+Fn+flecha arriba)|Extienda la selección de filas para incluir todas las filas visibles sobre la selección actual de filas.|No aplicable.|
 |Mayús+Av Pág<br />(Mayús+Fn+Flecha abajo)|Extienda la selección de filas para incluir las filas visibles por debajo de la selección actual de filas.|No aplicable.|
 |Ctrl+C<br />(Cmd+C)|Copiar las filas seleccionadas al portapapeles.|No aplicable.|
-|Ctrl+V<br />(Cmd+V)|Pegar las filas seleccionadas del portapapeles en la página actual o en un documento externo, como Microsoft Excel o el correo electrónico de Outlook.<br /><br />Solo lo puede hacer en listas editables.|No aplicable.|
-|F8|Copie el campo en la misma columna de la fila anterior y péguelo en la fila actual.<br /><br />Solo lo puede hacer en listas editables. Mediante este método abreviado seguido de una pestaña podrá completar rápidamente los campos de los artículos de la línea que desea que tengan el mismo valor que la fila anterior.|No aplicable.||
+|Ctrl+V<br />(Cmd+V)|Pegar las filas seleccionadas del portapapeles en la página actual o en un documento externo, como Microsoft Excel o el correo electrónico de Outlook. Solo lo puede hacer en listas editables.|No aplicable.|
+|F8|Copie el campo en la misma columna de la fila anterior y péguelo en la fila actual. Solo lo puede hacer en listas editables. Mediante este método abreviado seguido de una pestaña podrá completar rápidamente los campos de los artículos de la línea que desea que tengan el mismo valor que la fila anterior.|No aplicable.|
 
 ### <a name="KeyboardFilter"></a>Búsqueda y filtrado de listas
 

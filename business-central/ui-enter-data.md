@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 06/03/2019
 ms.author: jswymer
-ms.openlocfilehash: 00143454cf0b0da9b111f92bcdb7879c7e6743d2
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: d0fac96313b41a0e41ea96ab4fedd25565498f12
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252463"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621165"
 ---
 # <a name="entering-data"></a>Introducción de datos
 
@@ -39,7 +39,7 @@ Es posible que ya esté familiarizado con el uso de la tecla Tab para navegar de
 
 Cada campo puede marcarse como *incluido en la entrada rápida* o como *excluido de la entrada rápida*. Los campos que se incluyen en la entrada rápida se incluirán en la ruta cuando pulse Entrar; los campos que se excluyen de la entrada rápida, no.
 
-Cuando haya finalizado de rellenar un campo, pulse Entrar para confirmar los cambios e ir al siguiente campo. Si desea invertir la dirección y pasar al campo anterior, pulse Mayús+Entrar. Para obtener más información sobre estos métodos abreviados, consulte [Métodos abreviados de teclado de entrada rápida](keyboard-shortcuts.md#QuickEntry).
+Cuando haya finalizado de rellenar un campo, pulse Entrar para confirmar los cambios e ir al siguiente campo. Si desea invertir la dirección y pasar al campo anterior, pulse Mayús+Entrar. Para obtener más información sobre estos métodos abreviados, consulte [Métodos abreviados de teclado de entrada rápida para campos](keyboard-shortcuts.md#QuickEntry).
 
 #### <a name="tips-and-tricks"></a>Sugerencias y trucos
 A continuación se ofrece información útil sobre el uso de la entrada rápida.
@@ -90,7 +90,7 @@ Al trabajar en documentos que incluyen una parte de productos de línea, como un
 
 Otra ventaja es que también proporciona capacidad de filtrado avanzado, como en otras listas, de modo que la navegación y la búsqueda a través de los productos de línea resulta aún más fácil.
 
-### <a name="switch-the-focus-on-and-off"></a>Activar y desactivar el enfoque
+### <a name="switching-the-focus-on-and-off"></a>Activar y desactivar el enfoque
 
 Para el enfoque en los productos de línea, seleccione cualquier lugar de la parte de producto de línea y, a continuación, seleccione ![icono Modo de enfoque](media/focus-mode.png "Icono Modo de enfoque") en la esquina superior derecha o pulse Ctrl+Mayús+F12.
 

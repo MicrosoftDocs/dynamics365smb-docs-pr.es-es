@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d4db23fe103807180cf5a3bfcd66075ef683e7f7
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: f7dc0bc270435f2d8f6b9c045f84428f08e56a79
+ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241623"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594202"
 ---
 # <a name="spain-local-functionality"></a>Funcionalidad local para España
 En los temas siguientes se describe la funcionalidad local que es única para la versión española de [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
 ## <a name="feature-availability"></a>Disponibilidad de la característica  
 
-* IVA e impuestos  
+* IVA  
     * [SII - Tipos de factura y abonos en documentos de compra y venta](SII-invoice-types-sales-purchase-documents.md) **Disponible ahora**
     * [Informes IVA](vat-reports.md) **Disponible ahora**
     * [Informe 340](report-340.md) **Disponible ahora**  

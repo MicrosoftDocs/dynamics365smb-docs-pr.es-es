@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: c318346c62b7776a550a77a2947173e33d5f17c0
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 3163389cb0818133fba9ab8c55b8d0cf662130f1
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246579"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1620958"
 ---
 # <a name="setting-up-user-accounts-for-integrating-with-dynamics-365-for-sales"></a>Configuración de cuentas de usuario para la integración con Dynamics 365 for Sales
 Este artículo proporciona una visión general de cómo configurar las cuentas de usuario que se necesitan para integrar [!INCLUDE[crm_md](includes/crm_md.md)] con [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -28,7 +28,7 @@ Este artículo proporciona una visión general de cómo configurar las cuentas d
 Debe agregar su cuenta de usuario administrador para [!INCLUDE[d365fin](includes/d365fin_md.md)] como usuario en [!INCLUDE[crm_md](includes/crm_md.md)] y luego promocionar al usuario a administrador en [!INCLUDE[crm_md](includes/crm_md.md)]. La cuenta de usuario administrador también debe tener el rol Personalizador del sistema y al menos otro rol de usuario no administrativo, como Director de ventas, en [!INCLUDE[crm_md](includes/crm_md.md)].
 
 ## <a name="setting-up-the-user-account-for-the-integration"></a>Configuración de la cuenta de usuario para la integración
-Debe crear una cuenta de usuario dedicada en su suscripción de Office 365 que [!INCLUDE[d365fin](includes/d365fin_md.md)] y [!INCLUDE[crm_md](includes/crm_md.md)] puedan utilizar para sincronizar datos. Esta cuenta de usuario debe poder iniciar sesión en [!INCLUDE[crm_md](includes/crm_md.md)], lo que significa que este usuario debe tener una licencia para [!INCLUDE[crm_md](includes/crm_md.md)]. Esta cuenta también debe ser una cuenta no interactiva en [!INCLUDE[crm_md](includes/crm_md.md)]. Para obtener más información sobre cómo crear usuarios en [!INCLUDE[crm_md](includes/crm_md.md)], consulte [Administrar la seguridad, los usuarios y los equipos](http://go.microsoft.com/fwlink/?LinkID=616518). Una vez configurada la conexión, [!INCLUDE[d365fin](includes/d365fin_md.md)] asignará a la cuenta de usuario los roles de seguridad que necesita en [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Debe crear una cuenta de usuario dedicada en su suscripción de Office 365 que [!INCLUDE[d365fin](includes/d365fin_md.md)] y [!INCLUDE[crm_md](includes/crm_md.md)] puedan utilizar para sincronizar datos. Esta cuenta de usuario debe poder iniciar sesión en [!INCLUDE[crm_md](includes/crm_md.md)], lo que significa que este usuario debe tener una licencia para [!INCLUDE[crm_md](includes/crm_md.md)] y al menos un rol seguridad asignado en [!INCLUDE[crm_md](includes/crm_md.md)], tal y como se describe [aquí](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-user-account). Para obtener más información sobre cómo crear usuarios en [!INCLUDE[crm_md](includes/crm_md.md)], consulte [Administrar la seguridad, los usuarios y los equipos](http://go.microsoft.com/fwlink/?LinkID=616518). Una vez establecida la conexión, [!INCLUDE[d365fin](includes/d365fin_md.md)] asignará a la cuenta de usuario los roles de seguridad que necesita en [!INCLUDE[d365fin](includes/d365fin_md.md)] y esta cuenta puede configurarse en [modo de acceso no interactivo](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account) en [!INCLUDE[crm_md](includes/crm_md.md)]
 
 ![Guía de configuración asistida que muestra el lugar para introducir las credenciales de usuario de sincronización](media/sync-user-setup.png "Página del asistente de configuración asistida de visualización que muestra el lugar para introducir las credenciales de usuario de sincronización")
 

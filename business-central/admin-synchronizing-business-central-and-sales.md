@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: e52010384de83d95011cb29a88cad17a5eba817c
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: a2adf188f616f3a9cbb0e0d3135ee79d238c453b
+ms.sourcegitcommit: 92c7b6c5f0a5d8becbef106ab85258906765bc3e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247145"
+ms.lasthandoff: 05/13/2019
+ms.locfileid: "1540228"
 ---
 # <a name="synchronizing-data-in-business-central-and-dynamics-365-for-sales"></a>Sincronización de datos en Business Central y Dynamics 365 for Sales
 Cuando integra [!INCLUDE[crm_md](includes/crm_md.md)] con [!INCLUDE[d365fin](includes/d365fin_md.md)], puede decidir si desea sincronizar los datos de campos seleccionados de los registros de [!INCLUDE[d365fin](includes/d365fin_md.md)] (como clientes, contactos y personal de ventas) con registros equivalentes en [!INCLUDE[d365fin](includes/d365fin_md.md)] (como cuentas, contactos y usuarios). Dependiendo del tipo de registro, puede sincronizar datos de [!INCLUDE[crm_md](includes/crm_md.md)] a [!INCLUDE[d365fin](includes/d365fin_md.md)], o viceversa. Para obtener más información, vea [Integración con Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
@@ -46,7 +46,7 @@ La siguiente tabla enumera la asignación estándar entre entidades en [!INCLUDE
 |-------------------------------------------|-----|-------------------------|--------------|
 |Vendedor/Comprador|Usuario|[!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Filtro de contacto de Sales: **Estado** es **No**, **Usuario con licencia** es **Sí**, Modo de integración de usuario es **No**|
 |Cliente|Cuenta|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] y [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Filtro de cuenta de Sales: **Tipo de relación** es **Cliente** y **Estado** es **Activo**.|
-|Contacto|Contacto|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] y [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Filtro de contacto de [!INCLUDE[d365fin](includes/d365fin_md.md)]: **Tipo** es **Persona** y el contacto se asigna a una empresa. Filtro de contacto de Sales: el contacto se asigna a una empresa y el tipo de cliente principal es **Cuenta**.|
+|Contacto|Contacto|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] y [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Filtro de contacto de [!INCLUDE[d365fin](includes/d365fin_md.md)]: el **tipo** es **Persona** y el contacto se asigna una empresa. Filtro de contacto de Sales: el contacto se asigna a una empresa y el tipo de cliente principal es **Cuenta**.|
 |Divisa|Divisa de la transacción|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
 |Unidad de medida|Grupo de unidad|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
 |Producto|Producto|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] y [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Filtro de contacto de Sales: **Tipo de producto** es **Inventario de ventas**|

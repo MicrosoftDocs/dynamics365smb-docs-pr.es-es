@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: de924baa494ae00c09dcb7657c050f2d9ae3ba87
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c2b2df393afe7cf27964b1540deddf7760747a9d
+ms.sourcegitcommit: 92c7b6c5f0a5d8becbef106ab85258906765bc3e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247449"
+ms.lasthandoff: 05/13/2019
+ms.locfileid: "1540205"
 ---
 # <a name="modify-table-mappings-for-synchronization"></a>Modificar asignaciones de tablas para la sincronización
 Una asignación de tabla de integración vincula una tabla en [!INCLUDE[d365fin](includes/d365fin_md.md)] con una tabla de integración para la entidad de [!INCLUDE[crm_md](includes/crm_md.md)]. Para cada entidad de [!INCLUDE[crm_md](includes/crm_md.md)] que desee sincronizar con los datos correspondientes de [!INCLUDE[d365fin](includes/d365fin_md.md)]], debe existir una asignación de tabla de integración correspondiente. Una asignación de tabla de integración incluye varias configuraciones que le permiten controlar cómo se sincronizan los registros de una tabla de [!INCLUDE[d365fin](includes/d365fin_md.md)] y una entidad de [!INCLUDE[crm_md](includes/crm_md.md)] mediante los proyectos de sincronización de integración correspondientes.  

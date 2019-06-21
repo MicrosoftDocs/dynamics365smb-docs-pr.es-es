@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 05/23/2019
 ms.author: sgroespe
-ms.openlocfilehash: b0fdc5b1c0b76db96652e363979e6eb55f3c6c24
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 363cf9d0e7b90557867daaaab6f99378f51b9ef9
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252026"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621142"
 ---
 # <a name="planning"></a>Planificación
 Las operaciones de producción necesarias para transformar entradas en productos terminados se deben planificar a diario o semanalmente, en función del volumen y la naturaleza de los productos. [!INCLUDE[d365fin](includes/d365fin_md.md)] ofrece funciones para cubrir la demanda anticipada y real de las ventas, montaje y la producción, así como funciones de planificación de la distribución mediante unidades de almacenamiento y transferencias de ubicación.
@@ -26,9 +26,7 @@ Las operaciones de producción necesarias para transformar entradas en productos
 > En este tema se describe principalmente la planificación de empresas implicadas en la fabricación o gestión de ensamblaje donde los pedidos de suministro que se crean pueden ser tanto de producción, como de ensamblaje, transferencia o pedidos de compra. La interfaz principal de este trabajo de planificación es la página **Hoja planificación**.<br /><br />
 > [!INCLUDE[d365fin](includes/d365fin_md.md)] también admite la planificación de suministro de las compañías mayoristas, en las que los pedidos de suministro que se creen solo pueden ser de transferencia y pedidos de compra. La interfaz principal de este trabajo de planificación es la página **Hoja de demanda**, que se describe indirectamente en este tema, pues la mayoría de las funciones de planificación se aplica a ambas hojas de trabajo.
 
-Antes de planear y ejecutar órdenes de producción, debe configurar las capacidades de producción, como la creación de calendarios de planta, rutas y L.M. de producción y centros máquina. Para obtener más información, vea [Configurar fabricación](production-configure-production-processes.md).
-
-La planificación puede considerarse como la preparación necesaria de pedidos de suministros en los departamentos de ensamblaje o de fabricación para cubrir la demanda. Si desea obtener más información, consulte [Gestión de ensamblaje](assembly-assemble-items.md) y [Fabricación](production-manage-manufacturing.md).
+La planificación puede considerarse como la preparación de los pedidos de suministro necesarios en los departamentos de compra, ensamblaje o de fabricación para cubrir la demanda de ventas o productos finales. Si desea obtener más información, consulte [Compras](purchasing-manage-purchasing.md), [Administración de ensamblados](assembly-assemble-items.md) y [Fabricación](production-manage-manufacturing.md).
 
 En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.   
 

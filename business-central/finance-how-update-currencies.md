@@ -1,23 +1,18 @@
 ---
 title: Actualizar los tipos de cambio de divisa | Documentos de Microsoft
-description: Para utilizar varias divisas en su empresa, puede configurar un código para cada divisa y usar un servicio externo para el tipo de cambio.
-services: project-madeira
-documentationcenter: ''
+description: Realice un seguimiento de los importes en diferentes divisas utilizando códigos de divisa y deje que Business Central le ayude a ajustar los tipos de cambio de los movimientos registrados con un servicio externo.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: multiple currencies
-ms.date: 04/01/2019
+ms.search.keywords: multiple currencies, adjust exchange rates
+ms.date: 06/04/2019
 ms.author: sgroespe
-ms.openlocfilehash: a9fa636fb68a428da3c587e59be1bf76cf976207
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 2958cf5dd124fd9437217214ea0df28944d07651
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238951"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621096"
 ---
 # <a name="update-currency-exchange-rates"></a>Actualizar tipos cambio divisa
 Las empresas trabajan cada vez en un mayor número de países o regiones, por lo que es muy importante que puedan comercializar y crear informes financieros en más de una divisa. Debe configurar un código por cada una de las divisas usadas en caso de que las operaciones de compra y venta se realicen en una divisa que no sea la divisa local (DL), tenga cobros y pagos en otras divisas o registre las transacciones de contabilidad en diferentes divisas.
