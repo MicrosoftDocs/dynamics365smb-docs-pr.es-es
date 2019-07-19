@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 06/17/2019
 ms.author: sgroespe
-ms.openlocfilehash: e1f6af964dad89a8a311f315f8885aaa94b92427
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 6d931625ef469a0b156d2794de7eda131213f28f
+ms.sourcegitcommit: 6dc83b27ac47f3b39a7b84cfb7446e7f48b8ce63
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252348"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "1632688"
 ---
 # <a name="set-up-shipping-agents"></a>Configurar transportistas
 Configure un código para cada uno de sus transportistas e introduzca información acerca de ellos.  
@@ -39,9 +39,10 @@ Una vez asignado un servicio de transportista a una línea de pedido de venta, e
 >  Si elimina el transportista de la línea de pedido, también se eliminará el código de servicio de transportista. Se volverá a calcular el contenido de los campos basados en parte en el servicio de transportista.  
 
 ## <a name="see-also"></a>Consulte también
+[Configuración de métodos de envío](sales-how-set-up-shipment-methods.md)  
 [Hacer un seguimiento de los paquetes](sales-how-track-packages.md)    
 [Gestión de almacenes](warehouse-manage-warehouse.md)  
-[Grupos contables inventario](inventory-manage-inventory.md)  
+[Inventario](inventory-manage-inventory.md)  
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  

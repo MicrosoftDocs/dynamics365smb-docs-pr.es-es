@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 04/01/2019
+ms.date: 06/13/2019
 ms.author: edupont
-ms.openlocfilehash: f86c8a3cd93995aaf52a9e7f95065751f8061fd7
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 4854dc38fe395fb36381cda0e2c177e9e3abf591
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245895"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629486"
 ---
 # <a name="frequently-asked-questions"></a>Preguntas más frecuentes
 
@@ -38,7 +38,10 @@ Desde la página de inicio de la comunidad, también puede encontrar enlaces a n
 Por último, puede ponerse en contacto con su distribuidor de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, consulte la sección [¿Cómo obtengo soporte técnico?](across-faq.md#how-do-i-get-technical-support-for-).  
 
 ## <a name="why-cant-i-find-that-capability-in-my-included365finincludesd365finmdmd"></a>¿Por qué no puedo encontrar esa capacidad en mi [!INCLUDE[d365fin](includes/d365fin_md.md)]?
-¿Ha leído recientemente acerca de una nueva capacidad en las notas de la versión o en nuestro blog? En ese caso, el [!INCLUDE[d365fin](includes/d365fin_md.md)] puede que todavía no se haya actualizado a la última versión. Si la capacidad se publica como una extensión en AppSource, habrá un retraso entre el anuncio y su disponibilidad en AppSource.  
+¿Ha leído recientemente acerca de una nueva capacidad en el plan de la versión o en nuestro blog? En ese caso, el [!INCLUDE[d365fin](includes/d365fin_md.md)] puede que todavía no se haya actualizado a la última versión. Si la capacidad se publica como una extensión en AppSource, habrá un retraso entre el anuncio y su disponibilidad en AppSource.  
+
+## <a name="are-there-any-differences-between-an-on-premises-deployment-and-the-cloud-version-of-business-central"></a>¿Existen diferencias entre una implementación local y la versión en la nube de Business Central?
+Sí. Algunas funciones basadas en la nube pueden funcionar localmente en algunos casos y otras no son compatibles en absoluto. Para obtener más información, consulte [Características no implementadas en implantaciones locales de Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises).
 
 ## <a name="can-i-get-training-in-included365finincludesd365finmdmd"></a>¿Puedo recibir formación en [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 Sí que puede. Pero actualmente, tiene que preguntar a su socio de reventa. Si no sabe quién es, busque un socio de Business Central en la página [Estoy buscando un proveedor de soluciones](https://go.microsoft.com/fwlink/?linkid=2038145).  

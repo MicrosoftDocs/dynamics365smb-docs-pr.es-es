@@ -9,30 +9,38 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
-ms.date: 04/01/2019
+ms.date: 06/19/2019
 ms.author: solsen
-ms.openlocfilehash: 73fb2daa84bc34d0fd865e2b95d5ea6dea11336c
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: e100350322a1cf840b4428868f77b104e07c23c1
+ms.sourcegitcommit: 0854c074b500c3031eaf86fde9d452f93f238081
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249519"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "1701226"
 ---
 # <a name="getting-ready-for-doing-business"></a>Preparación para hacer negocios
 Enhorabuena, acaba de iniciar su primera empresa en [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 Para ayudarle a empezar a hacer negocios, puede visitar la página **Asistencia de negocio** donde puede iniciar guías de configuración asistida, vídeos o temas de ayuda para determinadas tareas de configuración. A la página se accede desde el gráfico en el área de trabajo **Administrador de negocio** eligiendo el menú desplegable **Asistencia de negocio** y, a continuación, eligiendo la acción **Mostrar configuración y recursos de ayuda**. Al actualizar la página, el gráfico se reemplaza por los recursos de configuración y ayuda.
 
-En el área de trabajo, en la barra de navegación superior, encontrará el menú **Configuración y extensiones**. Aquí tiene acceso a una lista de guías de configuración asistida que pueden ayudarle a empezar. Una vez haya migrado los datos, como los proveedores, clientes o productos de su sistema financiero existente, está listo para empezar. Pero en función de sus necesidades, considere si la otra configuración asistida puede ayudarle. Si un área no está cubierta por una configuración asistida, elija la acción **Configuración manual** para obtener acceso a las páginas de configuración donde puede rellenar los campos de configuración de todas las áreas manualmente. Para obtener más información, consulte también [Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
+Como alternativa, para abrir la lista de guías de configuración asistida, elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración asistida** y luego elija el enlace relacionado.
+
+En el área de trabajo, en la barra de navegación superior, encontrará el menú **Configuración y extensiones**. Aquí tiene acceso a una lista de guías de configuración asistida que pueden ayudarle a empezar. Una vez haya migrado los datos, como los proveedores, clientes o productos de su sistema financiero existente, está listo para empezar. Pero en función de sus necesidades, considere si la otra configuración asistida puede ayudarle.
+
+Si un área no está cubierta por una configuración asistida, elija la acción **Configuración manual** para obtener acceso a las páginas de configuración donde puede rellenar los campos de configuración de todas las áreas manualmente. Para obtener más información, consulte también [Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 
 > [!NOTE]  
->   La lista de guías de configuración asistida, las extensiones y los servicios que están disponibles varían según la experiencia del usuario que elija para la empresa. La experiencia **Esencial** ofrece menos acceso que la experiencia **Premium**. La primera vez que inicie sesión, use la experiencia **Esencial**. Para obtener más información, consulte [Cambiar las funciones que se muestran](ui-experiences.md).
+> La lista de guías de configuración asistida, las extensiones y los servicios que están disponibles varían según la experiencia del usuario que elija para la empresa. La experiencia **Esencial** ofrece menos acceso que la experiencia **Premium**.<br /><br />
+> La primera vez que inicie sesión, use la experiencia **Esencial**. Para obtener más información, consulte [Cambiar las funciones que se muestran](ui-experiences.md).
 
-Cuando ha ejecutado una guía de configuración asistida, se marca como **Completado**. Para ejecutar la guía de configuración asistida, seleccione los tres puntos también denominados menú contextual y, a continuación, seleccione **Iniciar configuración**.
+Cuando ha ejecutado una guía de configuración asistida, se marca como **Completado**. Para ejecutar la guía de configuración asistida, seleccione los tres puntos y, a continuación, elija la acción **Iniciar configuración**.
 
 ## <a name="role-center"></a>Área de trabajo
-En Área de trabajo tiene información general de su negocio. A la izquierda puede ver una barra de navegación que le da un acceso sencillo a los clientes, proveedores, productos, etc. En el centro se encuentra el mosaico **Actividades**. **Actividades** muestra los datos actuales y se puede hacer clic o pinchar sobre él para conseguir un acceso fácil al documento seleccionado. Los **Indicadores de rendimiento clave** pueden configurarse para mostrar un gráfico seleccionado para una representación visual de, por ejemplo, el flujo de efectivo o ingresos y gastos. También puede crear una lista de **Clientes favoritos** en el área de trabajo para las cuentas con las que hace negocios a menudo o a las que necesita prestar especial atención.
-Use las flechas para contraer parte de la página y haga más espacio para mostrar datos específicos. En la parte superior del área de trabajo encontrará todas las acciones que se pueden realizar con el contenido actual. Todo esto también se puede contraer y solo necesita hacer clic o pinchar en el área contraída para volverlo a ver.
+En Área de trabajo tiene información general de su negocio. A la izquierda puede ver una barra de navegación que le da un acceso sencillo a los clientes, proveedores, productos, etc. En el centro se encuentra el mosaico **Actividades**. **Actividades** muestra los datos actuales y se puede hacer clic o pinchar sobre él para conseguir un acceso fácil al documento seleccionado.
+
+Los **Indicadores de rendimiento clave** pueden configurarse para mostrar un gráfico seleccionado para una representación visual de, por ejemplo, el flujo de efectivo o ingresos y gastos. También puede crear una lista de **Clientes favoritos** en el área de trabajo para las cuentas con las que hace negocios a menudo o a las que necesita prestar especial atención.
+
+Use las flechas para contraer una parte de la página y haga más espacio para mostrar datos específicos. En la parte superior del área de trabajo encontrará todas las acciones que se pueden realizar con el contenido actual. Todo esto también se puede contraer y solo necesita hacer clic o pinchar en el área contraída para volverlo a ver.
 
 > [!TIP]  
 > Puede volver al área de trabajo seleccionando el nombre de la empresa en la esquina superior izquierda.
@@ -47,7 +55,7 @@ Si necesita agregar más usuarios, se realiza de centro de administración de Of
 En [!INCLUDE[d365fin](includes/d365fin_md.md)] encontrará las herramientas de información que pueden guiarle a través de varios procesos empresariales. Para cada información sobre herramientas de campo, puede presionar Ctrl+F1 o elegir el vínculo **Más información** para abrir la Ayuda de la página en cuestión. El signo de interrogación de la esquina superior derecha también le dirige a la ayuda del producto.
 
 ## <a name="next-steps"></a>Pasos siguientes
-Según sus datos migrados, ahora puede empezar a crear nuevos documentos de compra o venta. Use la sección **Mi empresa** de la página **Inicio** para crear rápidamente una nueva oferta de venta, factura de venta, pedido de venta, factura de compra o registro de venta.
+Según sus datos migrados, ahora puede empezar a crear nuevos documentos de compra o venta. Use la sección **Acciones** de su área de trabajo para crear rápidamente una nueva oferta de venta, factura de venta, pedido de venta, factura de compra o registro de venta.
 
 ## <a name="see-also"></a>Consulte también
 [Introducción](product-get-started.md)  

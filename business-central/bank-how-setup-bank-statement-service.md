@@ -10,21 +10,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
-ms.date: 04/01/2019
+ms.date: 06/25/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9fa3911ceeb94d523709d1029db9527b868bc199
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1c27575cd218b4f7c3ac5098eaca96d9ab9a4a1b
+ms.sourcegitcommit: 73e955b8fec819e5212b6ca7d8bfff42fe2d5eb8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246658"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "1702887"
 ---
-# <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Configuración del servicio Envestnet Yodlee Bank Feeds
+# <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Configurar el servicio Envestnet Yodlee Bank Feeds
 Puede importar extractos electrónicos de su banco para rellenar rápidamente la página **Diario de conciliación de pagos** para que pueda liquidar pagos y conciliar la cuenta bancaria. Para obtener más información, vea [Liquidación de pagos automáticamente y conciliación de cuentas bancarias](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 > [!NOTE]
 > El servicio Envestnet Yodlee Bank Feeds solo se admite en la versión en línea de Business Central. Para utilizar esta funcionalidad local, debe obtener una cuenta de cobrand de Envestnet Yodlee.<br /><br />
-> El servicio Envestnet Yodlee Bank Feeds sólo se admite en EE.UU., Canadá, y Reino Unido.
+> El servicio Envestnet Yodlee Bank Feeds solo se admite en EE.UU., Canadá y Reino Unido.
+
+> [!IMPORTANT]
+> Para obtener asistencia técnica con la funcionalidad Envestnet Yodlee, póngase en contacto con el soporte técnico de Microsoft. No se ponga en contacto con Envestnet Yodlee. Para obtener más información, consulte [Configuración de soporte técnico para Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/technical-support).
 
 El servicio Envestnet Yodlee Bank Feeds está instalado como una extensión de [!INCLUDE[d365fin](includes/d365fin_md.md)] en línea y está listo para ser activado en los países admitidos. Para obtener más información, consulte [Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] mediante extensiones](ui-extensions.md).
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 04/01/2019
+ms.date: 06/13/2019
 ms.author: edupont
-ms.openlocfilehash: eae085d430fb7341b8ac62f26033d68d9ea155cf
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 91ade518beb551d7b9c30cef0eef3c5c72b366aa
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1254085"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629946"
 ---
 # <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Introducción a [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] es una solución de administración empresarial para pequeñas y medianas empresas que automatiza y optimiza los procesos empresariales y le ayuda a administrar su empresa. Registrarse es muy fácil y puede migrar los datos de la empresa existentes desde su sistema de herencia. Para ayudarle con su suscripción, encuentre [aquí](https://www.microsoft.com/en-us/solution-providers/search) un socio de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -23,7 +23,7 @@ ms.locfileid: "1254085"
 Cuando se registra en la vista previa de [!INCLUDE[d365fin](includes/d365fin_md.md)], dispone de acceso a una empresa de demostración. La empresa de demostración contiene datos de ejemplo, pero puede crear sus propios documentos de venta, por ejemplo, o configurar una cuenta bancaria.  
 
 ## <a name="get-to-know-included365finincludesd365finmdmd"></a>Familiarícese con [!INCLUDE[d365fin](includes/d365fin_md.md)]
-En [!INCLUDE[d365fin](includes/d365fin_md.md)], le serán familiares algunos aspectos, pero otros no. En la empresa de demostración, las guías visuales explican funcionalidad básica y le ayudan a probar tareas diarias, como crear una factura de venta y ver un informe. Si sale de una guía, por ejemplo, para explorar [!INCLUDE[d365fin](includes/d365fin_md.md)] por su cuenta, pero desea volver a ella, vuelva al área de trabajo e inicie el paseo de introducción. Si desea más ayuda, puede encontrar un socio de [!INCLUDE[d365fin](includes/d365fin_md.md)] [aquí](https://www.microsoft.com/en-us/solution-providers/search).  
+En [!INCLUDE[d365fin](includes/d365fin_md.md)], le serán familiares algunos aspectos, pero otros no. En la empresa de demostración, las guías visuales explican funcionalidad básica y le ayudan a probar tareas diarias, como crear una factura de venta y ver un informe. Si sale de una guía, por ejemplo, para explorar [!INCLUDE[d365fin](includes/d365fin_md.md)] por su cuenta, pero desea volver a ella, vuelva al área de trabajo e inicie el paseo de introducción. Si desea más ayuda, contacte a un socio de [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 
 > [!TIP]  
 > Puede volver al área de trabajo seleccionando el nombre de la empresa en la esquina superior izquierda.
@@ -36,7 +36,11 @@ Para algunos consejos rápidos y que debe conocer, vea:
 
 Para obtener más información, consulte [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md).  
 
-Cuando esté preparado para empezar a trabajar y desee examinar algunos de los procesos empresariales que admite [!INCLUDE[d365fin](includes/d365fin_md.md)], vea [Funciones empresariales](across-business-functionality.md). Para obtener un resumen de las funciones actuales y futuras, eche un vistazo a las notas de la versión en [Notas de la versión de Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422).  
+Cuando esté preparado para empezar a trabajar y desee examinar algunos de los procesos empresariales que admite [!INCLUDE[d365fin](includes/d365fin_md.md)], vea [Funciones empresariales](across-business-functionality.md).
+
+Para poder empezar a utilizar la funcionalidad, se debe realizar cierta configuración. Para obtener más información, consulte también [Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md). Tenga en cuenta que algunos pasos de configuración se pueden realizar de forma semiautomática utilizando guías de configuración asistida.
+
+Para obtener un resumen de las funciones actuales y futuras, eche un vistazo al plan de versión en [Plan de la versión de Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422).  
 
 ## <a name="the-role-centers"></a>Áreas de trabajo
 La página Área de trabajo se basa un diseño basado en roles para ofrecerle acceso rápido a las herramientas de procesos e inteligencia empresariales que necesita para realizar su trabajo. Por ejemplo, un contable puede supervisar pagos y aprobaciones, y ver gráficos de rendimiento financiero. Vea las áreas de trabajo eligiendo el icono **Configuración** ![Configuración](media/ui-experience/settings_icon_small.png "Icono Configuración del área de trabajo") en la esquina superior derecha, eligiendo **Mi configuración** y, a continuación, el área de trabajo para explorar. Inicie sesión de nuevo para aplicar el cambio. Para obtener más información, consulte [Cambiar configuración básica](ui-change-basic-settings.md).
@@ -96,7 +100,7 @@ Si es un contable, puede registrarse en [!INCLUDE[d365acc_long](includes/d365acc
 [Obtener [!INCLUDE[d365fin](includes/d365fin_md.md)] en el dispositivo móvil](install-mobile-app.md)  
 [Recursos de ayuda y soporte técnico](product-help-and-support.md)  
 [Documentación de Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/)  
-[Notas de la versión de Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422)  
+[Plan de la versión de Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

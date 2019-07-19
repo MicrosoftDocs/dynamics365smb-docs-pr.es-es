@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 06/07/2019
 ms.author: sgroespe
-ms.openlocfilehash: def9338cea3a1998aafac671e304c55f83fdece7
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 7ca4f01d261915e2ecf6416ee1d9e85f50c73fb0
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1242473"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629716"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Trabajar con tolerancias de pago y tolerancias de descuento de pago
 Puede configurar una tolerancia de pago para cerrar una factura cuando el pago no cubre totalmente el importe de la factura. Puede configurar una tolerancia de descuento P.P. para conceder un descuento P.P. después de que haya pasado la fecha de descuento.  
@@ -218,7 +218,7 @@ Importe pendiente por
 
 Reglas de liquidación normales  
 
-![Reglas de tolerancia de pago múltiple 2](media/multiplePmtTolRules(GracePeriodInv1).gif "Reglas de tolerancia de pago múltiple 2")  
+![Reglas de tolerancia de pago múltiple 2](media/multiplePmtTolRules(GracePeriodInv1-2).gif "Reglas de tolerancia de pago múltiple 2")  
 
 (1) si el pago no se produce en estos intervalos, todos los movimientos de liquidación se cierran con o sin tolerancia..  
 
@@ -229,7 +229,7 @@ Importe pendiente por
 
 Reglas de liquidación normales  
 
-![Reglas de tolerancia de pago múltiple 3](media/multiplePmtTolRules(GracePeriodInv1-2).gif "Reglas de tolerancia de pago múltiple 3")  
+![Reglas de tolerancia de pago múltiple 3](media/multiplePmtTolRules(GracePeriodInv1).gif "Reglas de tolerancia de pago múltiple 3")  
 
 (1) si el pago no se produce en estos intervalos, todos los movimientos de liquidación se cierran con o sin tolerancia..  
 

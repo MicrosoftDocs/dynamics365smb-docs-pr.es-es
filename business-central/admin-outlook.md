@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 04/01/2019
+ms.date: 06/28/2019
 ms.author: edupont
-ms.openlocfilehash: d314b8ce94c5f8251298f0322acd2cdc4f6b15d5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 9248d39ed447f8c590db708567790edfd64da0db
+ms.sourcegitcommit: e8abfb78e13f3c29035087b09d7930f2950ab7a3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246741"
+ms.lasthandoff: 07/01/2019
+ms.locfileid: "1717589"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Usar Business Central como su bandeja de entrada de empresa en Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] introduce la posibilidad de gestionar las interacciones comerciales con sus clientes y proveedores directamente en Microsoft Outlook. Con los complementos de Outlook de [!INCLUDE[d365fin](includes/d365fin_md.md)], puede ver los datos financieros relativos a los clientes y los proveedores, así como crear y enviar documentos financieros, como por ejemplo presupuestos y facturas.  
 
 ## <a name="getting-the-add-in"></a>Obtener el complemento
-Es fácil comenzar con el complemento de [!INCLUDE[d365fin](includes/d365fin_md.md)] para Outlook. En la guía de configuración asistida **Configurar su bandeja de entrada de empresa en Outlook**, puede configurar la conexión para usted o para su organización. Si su organización utiliza Office 365, debe especificar su nombre de usuario y contraseña de Office 365. Si su organización no usa Office 365, debe especificar la información sobre el Exchange Server que usa. Los complementos [!INCLUDE[d365fin](includes/d365fin_md.md)] se agregan automáticamente a su Outlook.  
+Es fácil comenzar con el complemento de [!INCLUDE[d365fin](includes/d365fin_md.md)] para Outlook. En la guía de configuración asistida **Configurar su bandeja de entrada de empresa en Outlook**, puede configurar la conexión para usted o para su organización si su organización usa Office 365. Solo tiene que especificar su nombre de usuario y contraseña de Office 365. Los complementos [!INCLUDE[d365fin](includes/d365fin_md.md)] se agregan automáticamente a su Outlook. Para obtener más información, consulte [Requisitos mínimos para Outlook](product-requirements.md#outlook).  
 
 A continuación, cuando abra Outlook, verá un mensaje de correo electrónico del administrador de Dynamics 365 Business Central. Los nuevos complementos se agregan a la cinta de Outlook y, en la aplicación web de Outlook, puede ver los complementos de [!INCLUDE[d365fin](includes/d365fin_md.md)] inmediatamente encima o debajo del cuerpo del mensaje de correo electrónico. Los complementos se actualizan periódicamente y recibirá la notificación de que tiene lista una nueva versión en Outlook.  
 
@@ -50,7 +50,7 @@ En el complemento Vínculos de documento puede modificar y realizar diferentes a
 ## <a name="adding-the-add-ins-manually"></a>Agregar los complementos manualmente
 En algunos casos, los complementos no se agregan automáticamente a Outlook. Incluso si usted o un compañero han ejecutado la guía de configuración asistida en nombre de la empresa, es posible que [!INCLUDE[d365fin](includes/d365fin_md.md)] no aparezca en Outlook. Si tiene este problema, puede agregar los complementos de [!INCLUDE[d365fin](includes/d365fin_md.md)] manualmente.  
 
-En primer lugar, debe comprobar que tiene acceso a los complementos en su cuenta de Office 365. Solo tiene que abrir Outlook Web Access en un explorador y, a continuación, agregar `/owa/#path=/options/manageapps` a la dirección URL en la barra de dirección. Se abrirá la página **Administrar complementos**, donde puede habilitar [!INCLUDE[d365fin](includes/d365fin_md.md)] para Outlook. A continuación, al volver a Outlook, [!INCLUDE[d365fin](includes/d365fin_md.md)] debe estar disponible.  
+En primer lugar, debe comprobar que tiene acceso a los complementos en su cuenta de Office 365. Solo tiene que abrir Outlook en un explorador y, a continuación, agregar `/owa/#path=/options/manageapps` a la dirección URL en la barra de dirección. Se abrirá la página **Administrar complementos**, donde puede habilitar [!INCLUDE[d365fin](includes/d365fin_md.md)] para Outlook. A continuación, al volver a Outlook, [!INCLUDE[d365fin](includes/d365fin_md.md)] debe estar disponible.  
 
 De igual forma, en el cliente de escritorio de Outlook puede comprobar que [!INCLUDE[d365fin](includes/d365fin_md.md)] se muestran en la página **Administrar complementos**.  
 

@@ -1,6 +1,6 @@
 ---
-title: Ver el estado de una sincronización | Documentos de Microsoft
-description: Obtenga información sobre cómo ver el estado de un proyecto de sincronización individual.
+title: Ver el estado de los proyectos de sincronización | Documentos de Microsoft
+description: Aprenda a ver el estado después de sincronizar los registros emparejados.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,26 +8,41 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 04/01/2019
+ms.date: 06/13/2019
 ms.author: bholtorf
-ms.openlocfilehash: 11e29674c2d12031fdf4e7f66e767be4fcc74795
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.openlocfilehash: 8d7421d5fee1a6498c204730f873c3746aafc637
+ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1620889"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "1726749"
 ---
-# <a name="view-the-status-of-a-synchronization"></a>Ver el estado de una sincronización
-Puede ver el estado de los proyectos individuales de sincronización que se han ejecutado para la integración de [!INCLUDE[crm_md](includes/crm_md.md)]. Esto incluye proyectos de sincronización que se han ejecutado desde la cola de proyectos y proyectos manuales de sincronización que se han realizado en registros desde [!INCLUDE[d365fin](includes/d365fin_md.md)]. Esto es útil al solucionar problemas de sincronización porque le concede acceso a los detalles sobre los errores específicos.
+# <a name="view-the-status-of-synchronization-jobs"></a>Ver el estado de los proyectos de sincronización
+Utilice la página **Errores de sincronización de datos emparejados** para ver el estado de los proyectos de sincronización que se han ejecutado para los registros emparejados en una integración de [!INCLUDE[crm_md](includes/crm_md.md)]. Esto incluye proyectos que se han ejecutado desde la cola de proyectos y proyectos manuales de sincronización que se han ejecutado en registros desde [!INCLUDE[d365fin](includes/d365fin_md.md)]. Por ejemplo, ver su estado es útil para la resolución de problemas, ya que le da acceso a los detalles sobre los errores relacionados con los registros emparejados. Normalmente, estos tipos de errores se deben a acciones del usuario, por ejemplo, cuando:  
 
-### <a name="to-view-synchronization-issues-for-coupled-records"></a>Para ver los problemas de sincronización de los registros emparejados
+* Dos personas han hecho un cambio en el mismo registro en ambas aplicaciones empresariales.
+* Alguien ha eliminado un registro de una de las aplicaciones, pero no de ambas.
+
+> [!Note]
+> La página **Errores de sincronización de datos emparejados** muestra información sobre los proyectos relacionados con los registros emparejados. Si resuelve todos los errores pero los registros siguen sin sincronizarse, es posible que tenga algo que ver con una configuración para la integración. Típicamente, su administrador necesitará resolver esos tipos de errores.   
+
+> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098171]
+
+## <a name="to-view-and-resolve-synchronization-errors-for-coupled-records"></a>Para ver y resolver los errores de sincronización de los registros emparejados
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Errores de sincronización de datos emparejados** y luego elija el enlace relacionado.
-2. La página **Errores de sincronización de datos emparejados** muestra los problemas que se produjeron al sincronizar registros emparejados. Puede filtrar y ordenar los registros y realizar acciones como **Restaurar** o **Eliminar registros** para resolver los problemas uno por uno.
+2. La página **Errores de sincronización de datos emparejados** muestra los problemas que se produjeron al sincronizar registros emparejados. La siguiente tabla incluye acciones que puede utilizar para resolver problemas uno por uno:
 
-### <a name="to-view-synchronization-log-for-specific-manually-synchronized-record"></a>Para ver el registro de sincronización de un registro específico (sincronizado manualmente)
-1. Abrir, por ejemplo, un cliente, un producto o cualquier otro registro que esté sincronizando datos entre [!INCLUDE[d365fin](includes/d365fin_md.md)] y Sales.
+|Acción|Descripción|
+|----|----|
+|**Eliminar emparejamiento**|Desempareja los registros y ya no se sincronizarán. Para reanudar la sincronización de los registros, debe emparejarlos de nuevo.|
+|**Reintentar**|Para cada registro en el que se encuentra un error, la sincronización se omite a menos que solucione el problema manualmente. El reintento incluirá el registro en la siguiente sincronización.|
+|**Sincronizar**|La aplicación intentará resolver un conflicto en el que se haya cambiado un registro en ambas aplicaciones empresariales. Puede elegir la versión del registro que se usará en ambas aplicaciones.|
+|**Restaurar Registros** y **Eliminar registros**|Son útiles cuando se ha eliminado un registro en una de las aplicaciones. La opción Eliminar registros elimina el registro en la aplicación donde aún existe. La restauración recrea el registro en la aplicación donde se eliminó.|
+
+## <a name="to-view-the-synchronization-log-for-a-specific-manually-synchronized-record"></a>Para ver el registro de sincronización de un registro específico (sincronizado manualmente)
+1. Abrir, por ejemplo, un cliente, un producto o cualquier otro registro que esté sincronizando datos entre [!INCLUDE[d365fin](includes/d365fin_md.md)] y [!INCLUDE[crm_md](includes/crm_md.md)].
 2. Seleccione la acción **Registro de sincronización** para ver el registro de sincronización de un registro seleccionado. Por ejemplo, un cliente específico que ha sincronizado manualmente.
 
 ## <a name="see-also"></a>Consulte también  
-[Configuración de la integración de Dynamics 365 for Sales en Business Central](admin-setting-up-integration-with-dynamics-sales.md)  
+[Configuración de cuentas de usuario para la integración con Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)  
 [Uso de Dynamics 365 for Sales desde Business Central](marketing-integrate-dynamicscrm.md)

@@ -12,18 +12,20 @@ ms.workload: na
 ms.search.keywords: crm, sales, couple, decouple, synchronize
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 36f1a0fe8c50744d9ce13d1e6c3c899f4ceaf5e4
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 6d1248ac77208e382c5594af57335df6ff824630
+ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245410"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "1726772"
 ---
 # <a name="couple-and-synchronize-records-manually"></a>Emparejar y sincronizar registros manualmente
 En este tema se describe cómo emparejar uno o más registros de [!INCLUDE[d365fin](includes/d365fin_md.md)] con registros de [!INCLUDE[crm_md](includes/crm_md.md)]. El emparejamiento de registros le permite ver información de [!INCLUDE[crm_md](includes/crm_md.md)] desde [!INCLUDE[d365fin](includes/d365fin_md.md)], y viceversa. El emparejamiento también le permite sincronizar datos entre los registros. Puede emparejar registros existentes o crear y emparejar nuevos registros.
 
 > [!Note]
 > El emparejamiento y la sincronización de datos con [!INCLUDE[crm_md](includes/crm_md.md)] solo están disponibles si el administrador del sistema ha creado una conexión entre [!INCLUDE[d365fin](includes/d365fin_md.md)] y [!INCLUDE[crm_md](includes/crm_md.md)]. Una forma rápida de comprobarlo es abrir la ficha **Cliente** y buscar la acción **Configurar emparejamiento**. Si la acción está disponible, las aplicaciones se conectan.   
+
+> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098376]
 
 ## <a name="to-couple-a-record"></a>Para emparejar un registro  
 1.  En [!INCLUDE[d365fin](includes/d365fin_md.md)], abra la tarjeta para el registro que desea emparejar. Por ejemplo, la tarjeta Cliente o Contacto.  

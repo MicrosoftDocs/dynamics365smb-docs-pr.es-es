@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, configure
-ms.date: 04/01/2019
+ms.date: 06/17/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6903744c1be0492267c8dee307e4b012aed4ffa4
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 3ece1edb7ba18cb96099cba34065c96164390e82
+ms.sourcegitcommit: 6dc83b27ac47f3b39a7b84cfb7446e7f48b8ce63
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251037"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "1632711"
 ---
 # <a name="setting-up-sales"></a>Configuración de ventas
 Para poder administrar procesos de venta, debe configurar las reglas y valores que definen las políticas de venta de la empresa.
@@ -37,6 +37,7 @@ La configuración de ventas relacionada con las finanzas, como las formas de pag
 | Especifique para clientes individuales o para todos los clientes cómo se envían los documentos de ventas por defecto cuando elige la acción **Registrar y enviar**. |[Configurar perfiles de envío de documentos](sales-how-setup-document-send-profiles.md) |
 | Configure su correo electrónico para que contenga un resumen de información en el documento de ventas que se está enviando. |[Enviar documentos por correo electrónico](ui-how-send-documents-email.md). |
 |Utilice un servicio Web de la UE para comprobar el número de CIF/NIF de un cliente.|[Comprobar CIF/NIF](finance-setup-vat.md)|
+|Defina los diferentes incoterms que ofrece a los clientes o que sus proveedores le ofrecen.|[Configuración de métodos de envío](sales-how-set-up-shipment-methods.md)|
 |Introducir información acerca de los distintos proveedores de transporte empleados, incluyendo un vínculo a su servicio de seguimiento del envío.|[Configurar transportistas](sales-how-to-set-up-shipping-agents.md)|
 
 ## <a name="see-also"></a>Consulte también

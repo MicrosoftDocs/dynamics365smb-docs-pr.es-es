@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/12/2019
 ms.author: jswymer
-ms.openlocfilehash: 602d520043c5192109ccc4e2605ae0e231dafc1e
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 781f43daf6482c7e29696dc7a03aa021550cde7d
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250347"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629762"
 ---
 # <a name="add-links-to-websites-documents-or-programs-on-records"></a>Añadir vínculos a páginas Web, documentos o programas en registros
 En un registro específico, como un cliente, documento, o pedido de venta, puede agregar un vínculo a un documento externo, una página Web, o programa. O bien, es posible que desee un vínculo que abra un nuevo mensaje de correo electrónico en blanco a un destinatario específico cuando lo seleccione. La página de fichas para algunos registros, como las fichas de cliente y proveedor, incluyen un campo **Página de inicio**, donde puede especificar una dirección de internet (URL). Para incluir otros en vínculos, puede utilizar el método que se describe en este artículo.  
@@ -35,10 +35,9 @@ Otro ejemplo podría ser cuando recibe facturas impresas de proveedores. Puede b
 
 4.  En el campo **Vincular dirección**, especifique
 
-    -   Para vincular un archivo en el equipo o red, introduzca la ruta de acceso completa y el nombre de archivo, como **C:Mis Documentsfactura1.doc**.
+    -   Para vincular un archivo en el equipo o red, introduzca la ruta de acceso completa y el nombre de archivo, como **C:\My Documents\invoice1.doc**.
     -   Para vincular la página Web, especifique la dirección de Internet (URL), por ejemplo **www.microsoft.com**.
-    -   Para vincular la página Web, especifique la dirección de Internet (URL), por ejemplo **www.microsoft.com**.
-    -   Para vincular un programa, escriba una secuencia de caracteres específica para abrir el programa. Por ejemplo, para abrir OneNote con una página específica, escriba **onenote:///C:Mis documentostest.one**. O, para abrir Outlook con un nuevo mensaje de correo electrónico en blanco a un alias específico, escriba **mailto:testalias**.  
+    -   Para vincular un programa, escriba una secuencia de caracteres específica para abrir el programa. Por ejemplo, para abrir OneNote con una página específica, escriba **onenote:///C:\My Documents/test.one**. O, para abrir Outlook con un nuevo mensaje de correo electrónico en blanco a un alias específico, escriba **mailto:testalias**.  
 
 5.  Rellene el campo **Descripción** con información sobre el vínculo.  
 

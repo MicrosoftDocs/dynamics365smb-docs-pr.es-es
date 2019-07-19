@@ -1,8 +1,6 @@
 ---
 title: Utilizar el Área de trabajo del implementador de RapidStart Services | Documentos de Microsoft
 description: Cuando utiliza RapidStart Services, le recomendamos que realice un seguimiento de su trabajo y utilice el Área de trabajo del implementador de RapidStart Services ya que proporciona el contexto correcto para su trabajo de configuración.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,14 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: cb25c0266fe77454b20b471691e4d930110ac09a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+redirect_url: /dynamics365/business-central/admin-set-up-company-configuration
+ROBOTS: NOINDEX
+ms.openlocfilehash: e1cfcc47d5fb1112c4422be93ab49a345e9a30ec
+ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245171"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "1726910"
 ---
 # <a name="use-the-rapidstart-services-implementer-role-center"></a>Usar el Área de trabajo del implementador de RapidStart Services
 Cuando utiliza RapidStart Services, le recomendamos que utilice el Área de trabajo del implementador de RapidStart Services ya que proporciona el contexto correcto para su trabajo de configuración. Para obtener más información, vea [Para cambiar el área de trabajo](ui-change-basic-settings.md#to-change-role-center).

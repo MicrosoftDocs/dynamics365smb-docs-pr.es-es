@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 04/01/2019
+ms.date: 06/26/2019
 ms.author: solsen
-ms.openlocfilehash: 113c081e60b825c48cfb85ae3475a713a1a1e215
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 217310522d7e54eeaa9dbd50df4ff89b0d68517d
+ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241665"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1711088"
 ---
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
 
@@ -26,28 +26,36 @@ Un entorno aislado (vista preliminar) es una instancia de no producción de [!IN
 Debe tener una suscripción a [!INCLUDE[d365fin](includes/d365fin_md.md)] para poder crear un entorno aislado. Puede haber solo un entorno aislado por suscripción.
 
 1. Inicie sesión en su instancia de producción del servicio [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
 2. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Entorno de espacio aislado** y luego elija el enlace relacionado.
 <!-- ![Sandbox Environment Setup](./media/across-sandbox/sandbox-environment-setup.png) -->
-3. Seleccione **Crear**.  
-  Se abrirá otra pestaña en el navegador para finalizar la configuración del entorno aislado.
-> [!NOTE]  
->  Si tiene activado el bloqueador de ventanas emergentes en su navegador, cámbielo para permitir las direcciones URL de la dirección *.businesscentral.dynamics.com.   
+3. Haga clic en el botón **Crear**.  
+
+    Se abre otra pestaña con [!INCLUDE[d365fin](includes/d365fin_md.md)] en la que puede terminar la configuración de su entorno aislado.
+
+    > [!NOTE]  
+    >  Si tiene activado el bloqueador de ventanas emergentes en su navegador, cámbielo para permitir las direcciones URL de la dirección *.businesscentral.dynamics.com.
 
 4. Cuando el entorno aislado esté listo, se le redirigirá al asistente de bienvenida del entorno aislado.
 <!-- ![Sandbox Welcome Wizard](./media/across-sandbox/sandbox-wizard.png) -->
 
-5. Seleccione **Más información** para consultar información sobre los escenarios que puede probar en un entorno aislado. O bien, elija **Cerrar** para continuar con el Área de trabajo de la instancia aislada de [!INCLUDE[d365fin](includes/d365fin_md.md)].
-6. En la parte superior del Área de trabajo, aparece una notificación para informarle de que se trata de un entorno aislado. También puede ver el tipo del entorno en la barra de título del cliente.
-<!-- ![Sandbox RoleCenter Notification](./media/across-sandbox/sandbox-rolecenter-notification.png) --> En el entorno aislado, se ha creado un nuevo suscriptor. Este suscriptor se carga con datos de demostración predeterminados para la empresa CRONUS. No se copian ni se transfieren datos del entorno de producción durante la creación del entorno aislado.
+5. Seleccione el botón **Más información** para leer acerca de los escenarios que puede probar en un entorno aislado o seleccione el botón **Cerrar** para continuar con el área de trabajo de su instancia aislada de [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-7. Cuando lo desee puede volver a la página **Entorno aislado** y restablecerlo.
-> [!NOTE]  
->  Al restablecer el entorno aislado se eliminará completamente y, a continuación, se creará de nuevo con los datos de demostración predeterminados.  
+    En la parte superior del Área de trabajo, aparece una notificación para informarle de que se trata de un entorno aislado. También puede ver el tipo del entorno en la barra de título del cliente.
+    <!-- ![Sandbox RoleCenter Notification](./media/across-sandbox/sandbox-rolecenter-notification.png) -->
 
-8. Para cambiar entre los entornos de producción y aislado, puede utilizar el lanzador de aplicaciones de Business Central.
+    > [!NOTE]
+    > Un entorno aislado creado de esta manera solo contiene los datos de demostración predeterminados para la empresa de CRONUS. No se copian ni se transfieren datos del entorno de producción.<br /><br />
+    > También puede crear un entorno aislado que contenga los datos de producción. Debe hacerlo a través del centro de administración. Para obtener más información, consulte [Administración de entornos](/business-central/dev-itpro/administration/tenant-admin-center-environments) en la Ayuda para desarrolladores y profesionales de TI.
+
+6. Cuando lo desee puede volver a la página **Entorno aislado** y restablecerlo.
+    > [!NOTE]  
+    >  Al restablecer el entorno aislado se eliminará completamente y, a continuación, se creará de nuevo con los datos de demostración predeterminados.  
+
+7. Para cambiar entre los entornos de producción y aislado, puede utilizar el lanzador de aplicaciones de Business Central.
 <!-- ![Sandbox Dynamics365 Menu](./media/across-sandbox/sandbox-dynamics365-menu.png) -->
 
-9. Es posible que un administrador u otro usuario limite o incluso bloquee el acceso de algunos usuarios al entorno aislado. Esto se puede hacer mediante las características de seguridad estándar del producto, como la tarjeta de usuario, los grupos de usuarios y los conjuntos de permisos.
+8. Es posible que un administrador u otro usuario limite o incluso bloquee el acceso de algunos usuarios al entorno aislado. Esto se puede hacer mediante las características de seguridad estándar del producto, como la tarjeta de usuario, los grupos de usuarios y los conjuntos de permisos.
 
 <!-- ![Sandbox Permission Sets](./media/across-sandbox/sandbox-permission-sets.png) -->
 
@@ -57,7 +65,7 @@ En un entorno aislado, se encuentra habilitada la función **Diseñador**, que p
 
 <!-- ![In-client Designer](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
-### <a name="enable-the-advanced-user-experience"></a>Activar la experiencia del usuario avanzado
+### <a name="to-enable-the-advanced-user-experience"></a>Para activar la experiencia del usuario avanzado
 Es posible activar y probar la funcionalidad avanzada (completa) de [!INCLUDE[d365fin](includes/d365fin_md.md)] en un suscriptor aislado configurando el campo **Experiencia** en la página **Información de la empresa**.
 
 <!-- ![Sandbox Environment Advanced](./media/across-sandbox/sandbox-advanced.png) -->

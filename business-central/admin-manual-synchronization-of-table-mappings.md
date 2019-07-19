@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 368bfc191aea4ae00c53d0c7ee892f3cc82c0ff7
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 71284c8a2824e63c21768f2db55edb501486424d
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245736"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629555"
 ---
 # <a name="manually-synchronize-table-mappings"></a>Sincronizar manualmente las asignaciones de tablas
 Una asignación de tabla de integración asocia una tabla de [!INCLUDE[d365fin](includes/d365fin_md.md)] (tipo de registro), como un cliente, con una entidad de [!INCLUDE[crm_md](includes/crm_md.md)], como una cuenta. La sincronización de una asignación de tablas de integración le permite sincronizar los datos de todos los registros de la tabla de [!INCLUDE[d365fin](includes/d365fin_md.md)] y de la entidad de [!INCLUDE[crm_md](includes/crm_md.md)] que están emparejadas. Además, dependiendo de la configuración de la asignación de tablas, la sincronización puede crear y emparejar nuevos registros en la solución de destino para los registros desemparejados en el origen.  
@@ -95,4 +95,4 @@ Al modificar la asignación de tablas de integración por adelantado, puede conf
 
 ## <a name="see-also"></a>Consulte también  
 [Sincronización de Business Central y Dynamics 365 for Sales](admin-synchronizing-business-central-and-sales.md)   
-[Configuración de la integración de Dynamics 365 for Sales en Business Central](admin-setting-up-integration-with-dynamics-sales.md)   
+[Configuración de cuentas de usuario para la integración con Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)   

@@ -1,8 +1,6 @@
 ---
 title: Configurar una empresa con RapidStart Services | Documentos de Microsoft
 description: Puede configurar una nueva empresa en Business Central con RapidStart Services, que es una herramienta diseñada para acortar los tiempos de implementación, mejorar la calidad de la implementación, introducir un método de repetición para las implementaciones y mejorar la productividad mediante la automatización y simplificación de las tareas periódicas.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 07/04/2019
 ms.author: sgroespe
-ms.openlocfilehash: 04d665ac1cfcf66c2581d97bac05d636114a5ef4
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1e7976e19641bd49c1c1d94a31de902aea1a9769
+ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244323"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "1726933"
 ---
 # <a name="setting-up-a-company-with-rapidstart-services"></a>Configurar una empresa con RapidStart Services
 Puede configurar una nueva empresa en [!INCLUDE[d365fin](includes/d365fin_md.md)] con RapidStart Services, que es una herramienta diseñada para acortar los tiempos de implementación, mejorar la calidad de la implementación, introducir un método de repetición para las implementaciones y mejorar la productividad mediante la automatización y simplificación de las tareas periódicas.  
@@ -39,7 +37,6 @@ Puede utilizar los componentes siguientes para agilizar la configuración de su 
 
 |**Para**|**Vea**|  
 |------------|-------------|  
-|Configurar la interfaz de usuario principal de RapidStart Services.|[Usar el Área de trabajo del implementador de RapidStart Services](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md)|  
 |Cree una nueva empresa e importe plantillas y datos de configuración básicos.|[Establecer la configuración de una empresa](admin-set-up-company-configuration.md)|  
 |Implementar el paquete configurado a su cliente por la implementación.|[Aplicar la configuración a nuevas empresas](admin-apply-configuration-to-new-companies.md)|
 |Definir y validar los valores de configuración de su cliente para todas las áreas centrales, como la información de la empresa, la contabilidad, el inventario, las ventas o la fabricación.|[Recopilación de valores de configuración de cliente](admin-gather-customer-setup-values.md)|  

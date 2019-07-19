@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 16f334548d9831507970a1b74ba5fa1716611380
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: de7acb10c76acc05fc6e6a5c708a8d412e4d9b30
+ms.sourcegitcommit: 6dc83b27ac47f3b39a7b84cfb7446e7f48b8ce63
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253728"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "1632734"
 ---
 # <a name="personalizing-your-workspace"></a>Personalización de su área de trabajo
 
@@ -60,7 +60,7 @@ Dependiendo del tipo de página y qué incluye, puede llevar a cabo varias accio
 |Mostrar un campo de la cabecera de una ficha desplegable cuando está contraída.|Seleccione la punta de flecha y seleccione <b>Mostrar cuando se contrae</b>. <br /> <br />Si no hace ve esta opción, significa que ya está establecida. En este caso, para dejar de mostrar el campo del encabezado de la ficha desplegable, elija <b>Mostrar Siempre</b>.|*Ficha desplegable* es el término que se utiliza para un grupo de campos que aparecerán bajo un encabezado común. Utilice la opción <b>Mostrar cuando se contrae</b> para mostrar los campos más importantes. Si selecciona un campo del encabezado, se abrirá la ficha desplegable y con el enfoque en el campo seleccionado.<br /><br />Esta opción solo es aplicable si una página tiene una más de una ficha desplegable. Si hay solo una ficha desplegable, no se puede contraer, por lo que la opción <b>Mostrar cuando se contrae</b> no está disponible.|
 |Hacer que un campo se muestre solo cuando seleccione **Mostrar más**.|Seleccione la punta de flecha y seleccione <b>Mostrar en "Mostrar más</b>. <br /> <br />Si no ve la opción <b>Mostrar en "Mostrar más"</b>, significa que ya está establecida. En este caso, para que un campo se muestre siempre, no solo al seleccionar **Mostrar más**, elija <b>Mostrar siempre</b>.||
 |Cambiar la inmovilización de panel de una lista a otra columna. |Seleccione la punta de la flecha de la columna que desee establecer como la última de la inmovilización de panel y, a continuación, elija <b>Establecer inmovilización de panel</b>.<br /><br/>Si desea volver a configurar la inmovilización de panel en su ubicación original diseñada, seleccione la punta de flecha para la columna actual y elija <b>Borrar inmovilización de panel</b>. Nota: No puede eliminar la inmovilización de panel.|La inmovilización de panel especifica las columnas que siempre aparecen a la izquierda, incluso durante el desplazamiento horizontal.|  
-|Cambiar el ancho de una columna.|En la fila del encabezado de la tabla, arrastre el borde derecho de la columna. <br /><br />Para maximizar el ancho de la columna para que se ajuste a la línea de texto más larga de la columna, haga doble clic en el borde derecho.||
+|Cambiar el ancho de una columna.|En la cabecera de la lista, arrastre el límite entre columnas. <br /><br />Puede hacer doble clic en el límite entre las cabeceras de columna para ajustar automáticamente, lo que ajusta el ancho a un tamaño cómodo para facilitar la lectura.||
 |Saltar un campo al presionar Entrar.|Seleccione la punta de flecha junto al campo, o la cabecera de columna en una lista, y seleccione **Excluir de entrada rápida**. <br /><br /> Si no ve esta opción, significa que el campo ya está establecido para saltarlo. En este caso, para dejar de omitir el campo, elija **Incluir en entrada rápida**. |Consulte [Acelerar la entrada de datos con la entrada rápida](ui-enter-data.md#QuickEntry)|
 
 ## <a name="Actions"></a>Personalización de acciones

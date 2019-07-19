@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 04/01/2019
+ms.date: 06/13/2019
 ms.author: edupont
-ms.openlocfilehash: d03d1aa3910dc73dc61c61bdd66725e8e8af3c66
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.openlocfilehash: e1f7d9891be4ae31fc3f98fb768bfddcd38582ca
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1621119"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629877"
 ---
 # <a name="customizing-business-central-using-extensions"></a>Personalizar Business Central con extensiones
 Puede cambiar [!INCLUDE[d365fin](includes/d365fin_md.md)] instalando extensiones que agregan funciones, cambian el comportamiento o proporcionan acceso a nuevos servicios en línea, por ejemplo.
@@ -48,24 +48,28 @@ Algunas de las extensiones las proporciona Microsoft y otras las proporcionan [o
 
 Microsoft proporciona las extensiones siguientes:  
 
-* [Migración de datos de Dynamics GP](ui-extensions-dynamicsgp-data-migration.md)  
-* [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)  
-* [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)  
-* [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)  
-* [Migración de datos de QuickBooks](ui-extensions-quickbooks-data-migration.md)  
-* [Previsión de ventas e inventario](ui-extensions-sales-forecast.md)  
-* [Nóminas de Ceridian](ui-extensions-ceridian-payroll.md)  
-* [Importación del archivo de nómina de QuickBooks](ui-extensions-quickbooks-payroll.md)  
-* [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)  
-* [Códigos postales de Reino Unido de GetAddress.io](ui-extensions-getaddressio.md)  
-* [Migración de datos de QuickBooks Online](ui-extensions-quickbooks-online-data-migration.md)  
-* [Portal para contadores](ui-extensions-accountant-portal.md)  
-* [Analizador de imágenes](ui-extensions-image-analyzer.md)  
-* [Pagos y conciliaciones de pagos (DK)](ui-extensions-payments-reconciliation-formats-dk.md)  
-* [Migración de datos C5](ui-extensions-c5-data-migration.md)  
-* [Información de la empresa esencial](ui-extensions-essential-business-insights.md)  
-* [Predicciones de pago atrasado](ui-extensions-late-payment-prediction.md  )
-* [Enviar aviso de pago](ui-extensions-send-remittance-advice.md)
+* [Portal para contables de Business Central](ui-extensions-accountant-portal.md)
+* [Nóminas de Ceridian](ui-extensions-ceridian-payroll.md)
+* [Migración de datos de Dynamics GP](ui-extensions-dynamicsgp-data-migration.md)
+* [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)
+* [Información de la empresa esencial](ui-extensions-essential-business-insights.md)
+* [Analizador de imágenes](ui-extensions-image-analyzer.md)
+* [Nube inteligente](ui-extensions-data-replication.md)
+* [Base de nube inteligente](ui-extensions-intelligent-cloud.md)
+* [Predicciones de pago atrasado](ui-extensions-late-payment-prediction.md)
+* [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)
+* [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)
+* [Migración de datos de QuickBooks](ui-extensions-quickbooks-data-migration.md)
+* [Migración de datos de QuickBooks Online](ui-extensions-quickbooks-online-data-migration.md)
+* [Importación del archivo de nómina de QuickBooks](ui-extensions-quickbooks-payroll.md)
+* [Previsión de ventas e inventario](ui-extensions-sales-forecast.md)
+* [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
+* [DK - Migración de datos C5](ui-extensions-c5-data-migration.md)
+* [DK - Pagos y conciliaciones de pagos](ui-extensions-payments-reconciliation-formats-dk.md)
+* [DK - Formatos de archivo de impuestos](ui-extensions-tax-file-formats-dk.md)
+* [UK - Códigos postales de Reino Unido de GetAddress.io](ui-extensions-getaddressio.md)
+* [US/CA/UK/AU/NZ/ZA - Enviar aviso de pago](ui-extensions-send-remittance-advice.md)
+* [Extensiones de Business Central de otros proveedores](ui-extensions-other.md)
 
 > [!NOTE]  
 >  Las nuevas extensiones no están disponibles en AppSource inmediatamente después anunciar una actualización. Puede estar atento a las extensiones en [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).
@@ -73,7 +77,7 @@ Microsoft proporciona las extensiones siguientes:
 ## <a name="see-also"></a>Consulte también
 [Ampliación de Dynamics 365 Business Central](about-develop-extensions.md)  
 [Extensiones de Business Central de otros proveedores](ui-extensions-other.md)  
-[Configuración del servicio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)  
+[Configurar el servicio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)  
 [Permitir el pago de clientes mediante PayPal](sales-how-enable-payment-service-extensions.md)  
 [Migrar datos de empresa de otros sistemas financieros](across-import-data-configuration-packages.md)  
 [Configurar la extensión Códigos postales de Reino Unido de GetAddress.io](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)  

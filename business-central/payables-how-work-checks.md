@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0eb1c99d38467969f072659996b0f598ba9d6576
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 97b98a334428f697e83bf655c1ec15a3539d3dea
+ms.sourcegitcommit: 0854c074b500c3031eaf86fde9d452f93f238081
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1254050"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "1701203"
 ---
 # <a name="make-check-payments"></a>Realizar pagos por cheque
 Puede emitir cheques electrónicos y manuales en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ambos métodos utilizan el diario de pagos para emitir los cheques a proveedores. También puede anular cheques y ver movimientos de cheques.
@@ -30,9 +30,9 @@ Puede pagar con dos tipos de cheques. Para ambos tipos, el campo **Tipo contrapa
 > [!NOTE]  
 > Para asegurarse de que su banco solo compensa cheques e importes validados, puede enviarles un archivo que contenga la información de proveedor, cheque y pago. Para obtener más información, vea [Exportar un archivo de Positive Pay](finance-how-positive-pay.md).
 
-Su impresora tiene que haber configurado correctamente los documentos y usted deberá definir qué plantilla de cheques va a usar. Para obtener más información , vea [Definir plantillas de cheques](finance-how-define-check-layouts.md)
+Su impresora tiene que haber configurado correctamente los documentos y usted deberá definir qué plantilla de cheques va a usar. Para obtener más información , vea [Seleccionar una plantilla de cheques](finance-how-define-check-layouts.md)
 
-Puede imprimir hasta 10 facturas en una página para una matriz de cheque. Si un cheque se aplica a más de 10 facturas, cuando imprima el talón anularemos el cheque en la primera página e imprimiremos la palabra ANULADO en el cheque. A continuación, imprimimos el resto de las facturas y el importe total del cheque en la segunda página. 
+Puede imprimir hasta 10 facturas en una página para una matriz de cheque. Si un cheque se aplica a más de 10 facturas, cuando imprima el talón anularemos el cheque en la primera página e imprimiremos la palabra ANULADO en el cheque. A continuación, imprimimos el resto de las facturas y el importe total del cheque en la segunda página.
 
 ## <a name="to-pay-a-vendor-invoice-with-a-computer-check"></a>Para pagar una factura de proveedor con un cheque automático
 A continuación se describe cómo pagar a un proveedor mediante un cheque. Los pasos son similares al reembolso de un cheque.

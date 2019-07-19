@@ -8,35 +8,38 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, customize
-ms.date: 04/24/2019
+ms.date: 06/24/2019
 ms.author: edupont
-ms.openlocfilehash: f2b7fa01cff36e3aab335f7d5921954343c69b74
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 6ba5b6f0f91e207ec8ffedf5b45003a5787b9e0f
+ms.sourcegitcommit: 0854c074b500c3031eaf86fde9d452f93f238081
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243600"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "1701134"
 ---
-# <a name="define-check-layouts"></a>Definir diseños de cheque
+# <a name="select-a-check-layout"></a>Seleccionar una plantilla de cheques
 Puede diseñar los cheques conforme a los estándares definidos por las autoridades locales. Las imágenes de los cheques se pueden imprimir en inglés, francés o español.
 
 Los cheques se han diseñado para imprimir formatos de imágenes de cheque de Estados Unidos y Canadá en un formato cheque-matriz-cheque o en un formato matriz-matriz-cheque.
 
-## <a name="to-define-check-layouts"></a>Para definir diseños de cheque
+## <a name="to-select-a-check-layout"></a>Para seleccionar una plantilla de cheques
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Selección informes banco** y luego elija el enlace relacionado.
 2. En la página **Informe selección - Bancos**, en el campo **Uso**, seleccione **Cheque**.
 3. Seleccione uno de los identificadores de informes siguientes:
 
-  | Id. informe | Nombre informe | Descripción |
-  | --- | --- | --- |
-  | 1401 |Activar |Es el informe predeterminado. |
-  | 10411 |Cheque (Matriz/Matriz/Cheque) |Este informe está diseñado para imprimir cheques en un formato matriz/matriz/cheque. |
-  | 10412 |Cheque (Matriz/Cheque/Matriz) |Este informe está diseñado para imprimir cheques en un formato matriz/cheque/matriz. |
-  | 10413 |Tres cheques por página |Este informe está diseñado para imprimir tres cheques por página. |
+| Id. informe | Nombre informe | Descripción |
+| --- | --- | --- |
+| 1401 |Activar |Es el informe predeterminado. |
+| 10411 |Cheque (Matriz/Matriz/Cheque) |Este informe está diseñado para imprimir cheques en un formato matriz/matriz/cheque. |
+| 10412 |Cheque (Matriz/Cheque/Matriz) |Este informe está diseñado para imprimir cheques en un formato matriz/cheque/matriz. |
+| 10413 |Tres cheques por página |Este informe está diseñado para imprimir tres cheques por página. |
 
 Cuando haya configurado los diseños de cheques, puede imprimir cheques desde la página **Diario de pagos**. Para obtener más información, consulte [Trabajar con cheques](payables-how-work-checks.md).
 
+Para cambiar una de estas plantillas de cheques predeterminadas, utilice la integración de Word o RDLC. Para obtener más información, vea [Crear y modificar un diseño de informe o documento personalizado](ui-how-create-custom-report-layout.md).
+
 ## <a name="see-also"></a>Consulte también
+[Crear y modificar un diseño de informe o documento personalizado](ui-how-create-custom-report-layout.md)  
 [Administrar pagos](payables-manage-payables.md)  
 [Administrar cuentas bancarias](bank-manage-bank-accounts.md)   
 [Completar procesos de fin de periodo](year-how-complete-period-end-processes.md)  
