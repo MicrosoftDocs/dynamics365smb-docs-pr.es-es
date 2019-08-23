@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 04/01/2019
+ms.date: 07/16/2019
 ms.author: bholtorf
-ms.openlocfilehash: b3fb3d2680cd85da8b2def7e82fbf62c0046fcc3
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 9290730bb559d4ac03a437a49ed81b09f3c01853
+ms.sourcegitcommit: 519623f9a5134c9ffa97eeaed0841ae59835f453
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247426"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "1755223"
 ---
 # <a name="scheduling-a-synchronization-between-business-central-and-dynamics-365-for-sales"></a>Programación de una sincronización entre Business Central y Dynamics 365 for Sales
 Puede sincronizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con [!INCLUDE[crm_md](includes/crm_md.md)] en intervalos programados configurando proyectos en la cola de proyectos. Los proyectos de sincronización sincronizan los datos de los registros de [!INCLUDE[d365fin](includes/d365fin_md.md)] y de los registros de [!INCLUDE[crm_md](includes/crm_md.md)] que se han emparejado previamente. O, para registros que no se han emparejado, según la dirección y las reglas de sincronización, los proyectos de sincronización pueden crear y emparejar registros nuevos en el sistema de destino. Hay varios trabajos de sincronización que están disponibles de forma inmediata. Puede verlos en la página de **Movimientos de cola de proyectos**. Para obtener más información, consulte [Uso de colas de proyectos para programar tareas](admin-job-queues-schedule-tasks.md).
@@ -31,7 +31,7 @@ Para sincronizar datos, los registros de entidad de [!INCLUDE[crm_md](includes/c
 -   De manera predeterminada, solo se sincronizan los registros de [!INCLUDE[d365fin](includes/d365fin_md.md)] que están emparejados con registros de [!INCLUDE[crm_md](includes/crm_md.md)]. Puede cambiar la asignación de tabla entre una entidad de [!INCLUDE[crm_md](includes/crm_md.md)] y una tabla de [!INCLUDE[d365fin](includes/d365fin_md.md)], de manera que los proyectos de sincronización de integración creen los registros nuevos en la base de datos de destino para cada registro de la base de datos de origen que no esté emparejado. Los nuevos registros también se emparejan con los registros correspondientes en el origen. Por ejemplo, al sincronizar clientes con cuentas de [!INCLUDE[crm_md](includes/crm_md.md)], se crea un nuevo registro de cuenta para cada cliente en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Las cuentas nuevas se emparejan automáticamente con clientes en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Como la sincronización en este caso es bidireccional, se crea un cliente nuevo y se empareja para cada cuenta de [!INCLUDE[crm_md](includes/crm_md.md)] que aún no está emparejada.  
 
     > [!NOTE]  
-    >  Existen reglas y filtros que determinan qué datos se sincronizan. Para obtener más información, vea [Reglas de sincronización](admin-synchronizing-business-central-and-sales.md#synchronization-rules).
+    > Existen reglas y filtros que determinan qué datos se sincronizan. Para obtener más información, vea [Reglas de sincronización](admin-synchronizing-business-central-and-sales.md#synchronization-rules).
 
 -   Cuando se crean nuevos registros en [!INCLUDE[d365fin](includes/d365fin_md.md)], los registros utilizan la plantilla definida para la asignación de tablas de integración o la plantilla predeterminada que está disponible para el tipo de registro. Los campos se rellenan con datos de [!INCLUDE[d365fin](includes/d365fin_md.md)] o [!INCLUDE[crm_md](includes/crm_md.md)] dependiendo de la dirección de sincronización. Para obtener más información, consulte [Procedimiento: modificar asignaciones de tablas para la sincronización](admin-how-to-modify-table-mappings-for-synchronization.md).  
 
@@ -51,7 +51,7 @@ La tabla siguiente describe los proyectos de sincronización predeterminados.
 |Proyecto de sincronización de CLIENTE - Dynamics 365 for Sales|Sincroniza las cuentas de [!INCLUDE[crm_md](includes/crm_md.md)] con los clientes de [!INCLUDE[d365fin](includes/d365fin_md.md)].|Bidireccional|CLIENTE|  
 |Proyecto de sincronización de CUSTPRCGRP-PRICE - Dynamics 365 for Sales|Sincroniza las listas de precios de venta de [!INCLUDE[crm_md](includes/crm_md.md)] con los grupos de precios de los clientes de [!INCLUDE[d365fin](includes/d365fin_md.md)].| |GRUPOS DE PRECIOS DE CLIENTES-LISTAS DE PRECIOS DE VENTA|
 |Proyecto de sincronización de ARTÍCULO-PRODUCTO - Dynamics 365 for Sales|Sincroniza los productos de [!INCLUDE[crm_md](includes/crm_md.md)] con los artículos de [!INCLUDE[d365fin](includes/d365fin_md.md)].|De [!INCLUDE[d365fin](includes/d365fin_md.md)] a [!INCLUDE[crm_md](includes/crm_md.md)]|ARTÍCULO-PRODUCTO|
-|Proyecto de sincronización de POSTEDSALESINV-INV - Dynamics 365 for Sales|Sincroniza las facturas de [!INCLUDE[crm_md](includes/crm_md.md)] con facturas de ventas registradas de [!INCLUDE[d365fin](includes/d365fin_md.md)].|De [!INCLUDE[crm_md](includes/crm_md.md)] a [!INCLUDE[d365fin](includes/d365fin_md.md)]|FACTURAS-FACTURAS DE VENTAS REGISTRADAS|
+|Proyecto de sincronización de POSTEDSALESINV-INV - Dynamics 365 for Sales|Sincroniza las facturas de [!INCLUDE[crm_md](includes/crm_md.md)] con facturas de ventas registradas de [!INCLUDE[d365fin](includes/d365fin_md.md)].|De [!INCLUDE[d365fin](includes/d365fin_md.md)] a [!INCLUDE[crm_md](includes/crm_md.md)]|FACTURAS-FACTURAS DE VENTAS REGISTRADAS|
 |Proyecto de sincronización de RECURSO-PRODUCTO - Dynamics 365 for Sales|Sincroniza los productos de [!INCLUDE[crm_md](includes/crm_md.md)] con los recursos de [!INCLUDE[d365fin](includes/d365fin_md.md)].|De [!INCLUDE[d365fin](includes/d365fin_md.md)] a [!INCLUDE[crm_md](includes/crm_md.md)]|RECURSO-PRODUCTO|  
 |Proyecto de sincronización de VENDEDORES - Dynamics 365 for Sales|Sincroniza los vendedores de [!INCLUDE[d365fin](includes/d365fin_md.md)] con los usuarios de [!INCLUDE[crm_md](includes/crm_md.md)].|De [!INCLUDE[crm_md](includes/crm_md.md)] a [!INCLUDE[d365fin](includes/d365fin_md.md)]|VENDEDORES|
 |Proyecto de sincronización de SALESPRC-PRODUCTPRICE - Dynamics 365 for Sales|Sincroniza los precios de producto de [!INCLUDE[crm_md](includes/crm_md.md)] con los precios de venta de [!INCLUDE[d365fin](includes/d365fin_md.md)].||PRECIO DEL PRODUCTO-PRECIO DE VENTA|
@@ -63,7 +63,7 @@ La tabla siguiente describe los proyectos de sincronización predeterminados.
 2.  Si se generan uno o más errores para un proyecto de sincronización, el número de errores aparece en la columna **Erróneo**. Para ver los errores del proyecto, elija el número.  
 
     > [!TIP]  
-    >  Puede ver todos los errores del proyecto de sincronización abriendo el registro de errores del proyecto de sincronización directamente.
+    > Puede ver todos los errores del proyecto de sincronización abriendo el registro de errores del proyecto de sincronización directamente.
 
 ## <a name="to-view-the-synchronization-job-log-from-the-table-mappings"></a>Para ver el registro del proyecto de sincronización desde las asignaciones de tabla  
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Lista de asignaciones de tablas de integración** y luego elija el enlace relacionado.

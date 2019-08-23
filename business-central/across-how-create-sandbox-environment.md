@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sandbox, demo, develop
 ms.date: 06/26/2019
 ms.author: solsen
-ms.openlocfilehash: 217310522d7e54eeaa9dbd50df4ff89b0d68517d
-ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
+ms.openlocfilehash: 10ccbc7546aa5d03c3837997a721c63c3ce465da
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "1711088"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796670"
 ---
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
 
@@ -72,7 +72,7 @@ Es posible activar y probar la funcionalidad avanzada (completa) de [!INCLUDE[d3
 
 <!-- ![Sandbox Production](./media/across-sandbox/sandbox-production.png) -->
 
-Después de habilitar la funcionalidad avanzada en un inquilino aislado, obtiene acceso a todos los perfiles y áreas de trabajo estándar. También puede crear una empresa de evaluación que esté completamente configurada, incluyendo datos de demostración y acceso a las áreas avanzadas del producto.
+Después de habilitar la funcionalidad avanzada en un inquilino aislado, obtiene acceso a todos los perfiles (roles) y áreas de trabajo estándar. También puede crear una empresa de evaluación que esté completamente configurada, incluyendo datos de demostración y acceso a las áreas avanzadas del producto.
 
 <!-- ![Sandbox New Company](./media/across-sandbox/sandbox-newcompany.png) -->
 

@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 07/03/2019
-ms.openlocfilehash: 6b19a566ada8e9708bb19a82ded3404b29cf260d
-ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
+ms.date: 07/17/2019
+ms.openlocfilehash: 4ca4205fa5d2da35451f3a78c1534dd32d4d8f65
+ms.sourcegitcommit: b4fb54af9ed2e51479bb5293f86290c0de78858c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "1726959"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "1755974"
 ---
 # <a name="resources-for-help-and-support"></a>Recursos de ayuda y soporte técnico
 
@@ -43,11 +43,11 @@ Si está utilizando una versión de prueba de [!INCLUDE [prodshort](includes/pro
 
 ### <a name="blog"></a>Blog
 
-El [blog de Business Central](https://community.dynamics.com/business/b/financials) es donde puede obtener más información sobre nuevas funciones de [!INCLUDE[prodshort](includes/prodshort.md)], nuevos lanzamientos aplicación, consejos y trucos, así como actualizaciones sobre nuevas versiones de país.  
+Hablamos de nuevas capacidades en [el blog de Dynamics 365](https://cloudblogs.microsoft.com/dynamics365/users/product/business-central/), incluso cuando están disponibles y si hay consideraciones especiales.  
 
 ### <a name="capabilities-coming-soon"></a>Futuras funcionalidades
 
-[!INCLUDE[prodshort](includes/prodshort.md)] se actualiza con actualizaciones de las principales características cada 6 meses, y con actualizaciones mensuales del servicio. Elija el vínculo para ver el último plan de la versión. También puede obtener una descripción general de las capacidades próximas y lanzadas recientemente en el plan de la versión de Dynamics 365 en [https://dynamics.microsoft.com/en-us/business-applications/release/](https://dynamics.microsoft.com/en-us/business-applications/release/#release-notes).  
+[!INCLUDE[prodshort](includes/prodshort.md)] se actualiza con actualizaciones de las principales características cada 6 meses, y con actualizaciones mensuales del servicio. Elija el vínculo para ver el último plan de la versión. También puede obtener una descripción general de las capacidades próximas y lanzadas recientemente en el plan de la versión de Dynamics 365 en [https://aka.ms/businessappsreleasenotes](https://aka.ms/businessappsreleasenotes).  
 
 Para una visión general a más largo plazo, la [página de la guía básica](https://dynamics.microsoft.com/roadmap/business-central/) de [!INCLUDE[prodshort](includes/prodshort.md)] muestra las prioridades generales para [!INCLUDE[prodshort](includes/prodshort.md)] en los próximos años.  
 

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 04/01/2019
+ms.date: 06/20/2019
 ms.author: SorenGP
-ms.openlocfilehash: 038e3a9bfdb66a8d714f4f9452f0322623e6ddc4
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 53214df635c637e265c6d302498beee08e9b806c
+ms.sourcegitcommit: acbbe80503e61296310ea7f787a9d7f4bc6dccd7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238514"
+ms.lasthandoff: 08/12/2019
+ms.locfileid: "1870528"
 ---
 # <a name="setting-up-inventory"></a>Configurar inventario
 Para poder administrar la actividad de un almacén y los costes de inventario, debe configurar las reglas y valores que definen las políticas de inventario de la empresa.
@@ -32,6 +32,7 @@ Cuando haya configurado su inventario, puede gestionar varios procesos relaciona
 |Configure un modelo de distribución eficiente con una combinación de distintas ubicaciones y centros de responsabilidad asignados a empresas colaboradoras o empleados.|[Trabajar con centros de responsabilidad](inventory-responsibility-centers.md)|
 | Organizar su inventario en varios almacenes, incluidas las rutas de transferencia. |[Configurar ubicaciones](inventory-how-register-new-items.md) |
 | Cree fichas de producto para los productos de inventario, de no inventario o servicio que comercialice. |[Registro de productos nuevos](inventory-how-register-new-items.md) |
+|Utilice la función **Copiar producto** para crear rápidamente una nueva ficha de producto basada en una ya existente.|[Copiar productos existentes para crear productos nuevos](inventory-how-copy-items.md)|
 |Aprenda a completar el campo **Tipo** en las fichas de producto de acuerdo con el propósito comercial.|[Acerca de los tipos de productos](inventory-about-item-types.md)|
 |Configure varias unidades de medida para un artículo que pueda usar como UOM alternativas, por ejemplo, en transacciones de ventas, compras o producción.|[Configurar unidades de medida de producto](inventory-how-setup-units-of-measure.md)|
 |Como suplemento de las fichas de producto, registre la información sobre los productos en un determinado almacén o de un código de variante en particular.|[Configurar unidades de almacenamiento](inventory-how-to-set-up-stockkeeping-units.md)|

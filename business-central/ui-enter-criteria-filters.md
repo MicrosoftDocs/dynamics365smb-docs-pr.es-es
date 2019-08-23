@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 06/13/2019
 ms.author: sgroespe
-ms.openlocfilehash: f0c86cd9018caa59106468121e1d763d0974c96e
-ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
+ms.openlocfilehash: 5f3bab58a2387f5bf21042da782756f7b36d4792
+ms.sourcegitcommit: f5050fd209b8d66722c81abe48c4c0a6f749a1f7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1629923"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1740507"
 ---
 # <a name="sorting-searching-and-filtering-lists"></a>Ordenar, buscar y filtrar listas
 Existen algunos parámetros que puede configurar que le ayudarán a buscar, encontrar y limitar los registros de una lista. Éstos incluyen la ordenación, busqueda y filtrando. Puede aplicar solo algunos o todos a la vez para encontrar o analizar rápidamente sus datos.
@@ -128,10 +128,15 @@ Para obtener más información, consulte [Métodos abreviados de teclado](keyboa
 
 
 ## <a name="FilterCriteria"> </a>Criterios y símbolos de filtro
-Al introducir criterios, puede usar todos los números y las letras que normalmente se emplean en un campo. También puede usar símbolos especiales para filtrar aún más los resultados. En las tablas siguientes se muestran los símbolos que se pueden usar en los filtros. Para obtener más información sobre fechas y horas, también puede consultar [Trabajar con fechas y horas del calendario](ui-enter-date-ranges.md).
+Al introducir criterios, puede usar todos los números y las letras que normalmente se emplean en un campo. También puede usar símbolos especiales (u operadores) para filtrar aún más los resultados. En las tablas siguientes se muestran los símbolos que se pueden usar en los filtros. Para obtener más información sobre fechas y horas, también puede consultar [Trabajar con fechas y horas del calendario](ui-enter-date-ranges.md).
 
 > [!IMPORTANT]  
->  Puede haber instancias donde los valores de campo contengan los siguientes símbolos y desee filtrarlos. Para ello, debe incluir la expresión de filtro que contiene el símbolo entre comillas ("). Por ejemplo, si desea filtrar en los registros que comienzan por el texto *S&R*, la expresión de filtro es `'S&R*'`.  
+>  Puede haber instancias donde los valores de campo contengan los siguientes símbolos y desee filtrarlos. Para ello, debe incluir la expresión de filtro que contiene el símbolo entre comillas ("). Por ejemplo, si desea filtrar en los registros que comienzan por el texto *S&R*, la expresión de filtro es `'S&R*'`.
+
+En las siguientes secciones se describe cómo utilizar los diferentes operadores.
+
+> [!NOTE]
+> Si hay más de 200 operadores en un solo filtro, el sistema agrupará automáticamente algunas expresiones entre paréntesis `()` con el fin de procesarlas. Esto no tiene ningún efecto en el filtro ni en los resultados.  
 
 ### <a name="-interval"></a>(..) Intervalo
 
@@ -145,7 +150,7 @@ Al introducir criterios, puede usar todos los números y las letras que normalme
 |`23..`|Desde 23-mes actual-año actual 0:00:00 hasta la hora final|  
 |`22..23`|Desde 22-mes actual-año actual 0:00:00 hasta 23-mes actual-año actual 23:59:59|  
 
-### <a name="124-eitheror"></a>(&#124;) O/o  
+### <a name="124-eitheror"></a>(&#124;) O/o 
 
 |Ejemplo|Registros mostrados|  
 |-----------------------|-----------------------|  

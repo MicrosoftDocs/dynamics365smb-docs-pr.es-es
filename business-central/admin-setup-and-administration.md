@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 07/22/2019
 ms.author: edupont
-ms.openlocfilehash: c5b76a434403da0d472b1e1fa9430d40ff082220
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 41917ece38cf553582438d7c57ca3e09b82b21e9
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247191"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796716"
 ---
 # <a name="administration"></a>Administración
 Normalmente, un rol de la empresa se encarga de las tareas de la administración central. El alcance de estas tareas puede depender del tamaño de la empresa, así como de las responsabilidades laborales del administrador. Estas tareas pueden incluir la administración de la sincronización de base de datos de las colas de proyectos y de correo electrónico, la configuración de usuarios y la personalización de la interfaz de usuario.  
@@ -33,7 +33,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 
 |**Para**|**Vea**|  
 |------------|-------------|  
-|Agregar usuarios, gestionar permisos y gestionar el acceso a los datos, asignar roles.|[Comprender perfiles y áreas de trabajo](admin-users-profiles-roles.md)|  
+|Agregar usuarios, gestionar permisos y gestionar el acceso a los datos, asignar roles.|[Comprender perfiles (roles) y áreas de trabajo](admin-users-profiles-roles.md)|  
 |Asignar permisos a los usuarios, modificar conjuntos de permisos y agrupar usuarios por permisos.|[Gestionar usuarios y permisos](ui-how-users-permissions.md)|
 |Clasifique la confidencialidad de los datos para los campos, de modo que pueda responder a las solicitudes de los asuntos relacionadas con sus datos personales.|[Clasificar confidencialidad de datos](admin-classifying-data-sensitivity.md)|
 |Responda a las solicitudes de los asuntos relacionadas con sus datos personales.|[Respuesta a las solicitudes de datos personales](admin-responding-to-requests-about-personal-data.md)|

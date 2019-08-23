@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 64995372f68ed2804bc165823dacc34ad6a3194d
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1a3edaca2e76388d82ea8991c3196410dd9c7288
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251290"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796771"
 ---
 # <a name="why-a-page-is-locked-from-personalization"></a>Por qué la página está bloqueada para evitar la personalización
 
@@ -55,7 +55,7 @@ Si hay un icono ![Personalización bloqueada](media/personalization-blocked-icon
 
 ![Personalización bloqueada](media/personalization-blocked.png "Bloqueo de personalización")
 
-La razón de esto es que el área de trabajo o perfil que está actualmente asociado con su cuenta de usuario modifica esta página específicamente para su rol. Póngase en contacto con su administrador para obtener ayuda o, si tiene sentido, intente cambiar a un área de trabajo (desde [**Mi configuración**](https://businesscentral.dynamics.com?page=9176 "Vaya directamente a la página de configuración del usuario en Business Central")) que incluya la personalización de rol para esta página.
+La razón de esto es que el área de trabajo o rol que está actualmente asociado con su cuenta de usuario modifica esta página específicamente para su rol. Póngase en contacto con su administrador para obtener ayuda o, si tiene sentido, intente cambiar a un área de trabajo (desde [**Mi configuración**](https://businesscentral.dynamics.com?page=9176 "Vaya directamente a la página de configuración del usuario en Business Central")) que incluya la personalización de rol para esta página.
 
 ## <a name="see-also"></a>Consulte también
 [Personalización de su área de trabajo](ui-personalization-manage.md)  

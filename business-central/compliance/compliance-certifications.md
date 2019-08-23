@@ -9,21 +9,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 07/31/2019
 ms.author: soalex
-ms.openlocfilehash: b18fa9511d8d79a2954dca57250a04905e5d0efa
-ms.sourcegitcommit: e8abfb78e13f3c29035087b09d7930f2950ab7a3
+ms.openlocfilehash: ac7f649e25393e4d75644736f61b8930855b8e3b
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2019
-ms.locfileid: "1717612"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796647"
 ---
 # <a name="certifications"></a>Certificaciones  
 En este contenido se incluye información acerca de las certificaciones en relación con [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
 
 ## <a name="country-certifications-and-accreditations"></a>Certificaciones y acreditaciones por países
 En algunos países, el software de contabilidad debe estar certificado para cumplir con las normativas fiscales locales y los requisitos financieros. Algunos países aplican esto como un requisito anual recurrente y otros como un requisito único que se debe cumplir. A continuación se muestra una lista de los países actuales en los que Business Central ha obtenido certificaciones. Tenga en cuenta que solo algunos países tienen este requisito.  
-- Francia (Certificación de Auditoría Fiscal) [(enlace a la certificación en francés)](https://services.infocert.org/certificats/CERTIF-07-181-R16.pdf) 
+- Francia (Certificación de Auditoría Fiscal) [(enlace a la certificación en francés)](https://certificates.infocert.org/certificates/CERTIF-07-181-R16.pdf) 
 - Alemania (también cubre Austria y Suiza) [(enlace a la certificación en alemán)](https://www.bdo.de/de-de/themen/softwarebescheinungen/bdo/microsoft-dynamics-365-business-central)
 
 > [!NOTE]  

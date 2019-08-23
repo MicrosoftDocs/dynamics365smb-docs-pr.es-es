@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
-ms.date: 04/01/2019
+ms.date: 07/22/2019
 ms.author: sgroespe
-ms.openlocfilehash: 45fb2f1ac2b9d26e74e625321a64b4a5033880bf
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 195ab393046d56611445d7cba9ed39cdbaf75454
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252509"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796820"
 ---
 # <a name="register-new-customers"></a>Permite registrar nuevos clientes
 Los clientes son el origen de los ingresos. Debe registrar cada cliente a quien venda como ficha de cliente. Las fichas de cliente contienen la información necesaria para vender productos al cliente. Para obtener más información, vea [Facturar ventas](sales-how-invoice-sales.md) y [Registrar nuevos productos](inventory-how-register-new-items.md).  
@@ -54,6 +54,7 @@ Si desea usar esta ficha de cliente como plantilla cuando cree nuevas fichas de 
 La plantilla de cliente se agrega a la lista de plantillas de cliente, de modo que puede usarla para crear nuevas fichas de cliente.
 
 ## <a name="see-also"></a>Consulte también
+[Definir las formas de pago](finance-payment-methods.md)  
 [Combinar registros duplicados](sales-how-merge-duplicate-records.md)  
 [Crear numeración](ui-create-number-series.md)  
 [Ventas](sales-manage-sales.md)    

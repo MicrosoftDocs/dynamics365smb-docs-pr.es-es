@@ -1,8 +1,6 @@
 ---
 title: Mostrar informes de Power BI personalizados | Documentos de Microsoft
 description: Puede usar los informes de Power BI para obtener información adicional sobre los datos en las listas.
-services: project-madeira
-documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,20 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 04/01/2019
+ms.date: 07/08/2019
 ms.author: edupont
-ms.openlocfilehash: 29c7b7656632d2103a16025848a6ddc82650353e
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: acf9462db8b4f559a5fbc40381b4e5009cdac088
+ms.sourcegitcommit: 519623f9a5134c9ffa97eeaed0841ae59835f453
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241607"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "1755200"
 ---
-# <a name="viewing-list-data-in-power-bi-reports-in-business-central"></a>Ver datos de listas en informes de Power BI en Business Central 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] incluye un elemento de control de cuadro informativo de varias páginas de lista de claves que proporciona información de los datos de la lista. A medida que se desplaza por las filas de la lista, el informe se actualiza y se filtra para la entrada seleccionada. Puede crear informes personalizados para mostrar en este control, pero hay reglas a seguir al crear informes para garantizar que proporcionan el comportamiento deseado.  
+# <a name="viewing-list-data-in-power-bi-reports-in-business-central"></a>Ver datos de listas en informes de Power BI en Business Central
+
+[!INCLUDE[prodlong](includes/prodlong.md)] incluye un elemento de control de cuadro informativo de varias páginas de lista de claves que proporciona información de los datos de la lista. A medida que se desplaza por las filas de la lista, el informe se actualiza y se filtra para la entrada seleccionada. Puede crear informes personalizados para mostrar en este control, pero hay reglas a seguir al crear informes para garantizar que proporcionan el comportamiento deseado.  
 
 > [!NOTE]  
->   Debe disponer de una cuenta válida con [!INCLUDE[d365fin](includes/d365fin_md.md)] y con Power BI. Además, deberá descargar [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/). Para obtener más información, consulte [Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] como origen de datos de Power BI](across-how-use-financials-data-source-powerbi.md).  
+> Debe disponer de una cuenta válida con [!INCLUDE[prodshort](includes/prodshort.md)] y con Power BI. Además, para crear informes personalizados, debe descargar [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/). Para obtener más información, consulte [Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] como origen de datos de Power BI](across-how-use-financials-data-source-powerbi.md).  
 
 ## <a name="report-data-set"></a>Conjunto de datos del informe
 Al crear el informe en Power BI Desktop, especifique el origen de datos o un servicio web que contenga los datos relacionados con la lista a la que desea asociar el informe. Por ejemplo, si desea crear un informe para la lista Ventas, asegúrese de que el conjunto de datos contenga información relacionada con ventas.  
@@ -50,7 +49,7 @@ Del mismo modo, si desea que el fondo del informe se mezcle con el color de fond
 Con Power BI, puede crear un solo informe con varias páginas. Los elementos visuales que desee ver en las páginas de listas de [!INCLUDE[d365fin](includes/d365fin_md.md)] deben estar en la primera página del informe en Power BI.  
 
 > [!NOTE]  
->  El cuadro informativo de Power BI solo puede mostrar la primera página del informe; si desea ver otras páginas, debe expandir el informe y usar las pestañas de la parte inferior del informe para desplazarse a otras páginas.  
+> El cuadro informativo de Power BI solo puede mostrar la primera página del informe; si desea ver otras páginas, debe expandir el informe y usar las pestañas de la parte inferior del informe para desplazarse a otras páginas.  
 
 ## <a name="saving-your-report"></a>Guardar el informe
 
@@ -72,7 +71,9 @@ En esta sección se proporciona una solución para los problemas más habituales
 Compruebe que el tamaño del informe se ha configurado en 325 píxeles x 310 píxeles. Guarde el informe y, a continuación, actualice la página de listas.  
 
 ## <a name="see-also"></a>Consulte también
+
+[Habilitar los datos de negocio para Power BI](admin-powerbi.md)  
 [Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] como origen de datos de Power BI](across-how-use-financials-data-source-powerbi.md)  
-[Introducción](product-get-started.md)    
-[Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)    
+[Introducción](product-get-started.md)  
+[Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Finanzas](finance.md)  

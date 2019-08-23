@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: setup wizard
 ms.date: 06/13/2019
 ms.author: edupont
-ms.openlocfilehash: 91ade518beb551d7b9c30cef0eef3c5c72b366aa
-ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
+ms.openlocfilehash: dd3cf008e2d16a8d63c9fea930ddcb4ba14072a2
+ms.sourcegitcommit: 5bcc5f95e450ee9a3d9f7a380e592a5e75c4185b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1629946"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1858294"
 ---
-# <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Introducción a [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# <a name="getting-started-with-included365fin_longincludesd365fin_long_mdmd"></a>Introducción a [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] es una solución de administración empresarial para pequeñas y medianas empresas que automatiza y optimiza los procesos empresariales y le ayuda a administrar su empresa. Registrarse es muy fácil y puede migrar los datos de la empresa existentes desde su sistema de herencia. Para ayudarle con su suscripción, encuentre [aquí](https://www.microsoft.com/en-us/solution-providers/search) un socio de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Cuando se registra en la vista previa de [!INCLUDE[d365fin](includes/d365fin_md.md)], dispone de acceso a una empresa de demostración. La empresa de demostración contiene datos de ejemplo, pero puede crear sus propios documentos de venta, por ejemplo, o configurar una cuenta bancaria.  
 
-## <a name="get-to-know-included365finincludesd365finmdmd"></a>Familiarícese con [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="get-to-know-included365finincludesd365fin_mdmd"></a>Familiarícese con [!INCLUDE[d365fin](includes/d365fin_md.md)]
 En [!INCLUDE[d365fin](includes/d365fin_md.md)], le serán familiares algunos aspectos, pero otros no. En la empresa de demostración, las guías visuales explican funcionalidad básica y le ayudan a probar tareas diarias, como crear una factura de venta y ver un informe. Si sale de una guía, por ejemplo, para explorar [!INCLUDE[d365fin](includes/d365fin_md.md)] por su cuenta, pero desea volver a ella, vuelva al área de trabajo e inicie el paseo de introducción. Si desea más ayuda, contacte a un socio de [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 
 > [!TIP]  
@@ -87,7 +87,7 @@ Si tiene preguntas adicionales, le recomendamos que pregunte a la comunidad o co
 Cada vez que inicie sesión durante el periodo de prueba, una notificación en una barra azul de la parte superior muestra el tiempo restante. Si decide suscribirse, busque un socio de [!INCLUDE[d365fin](includes/d365fin_md.md)] [aquí](https://www.microsoft.com/en-us/solution-providers/search). También puede ponerse en contacto con el [equipo de ventas de [!INCLUDE[d365fin](includes/d365fin_md.md)]](https://go.microsoft.com/fwlink/?linkid=828707).  
 
 ## <a name="other-dynamics-365-apps"></a>Más aplicaciones de Dynamics 365
-Navegue para obtener información sobre otras aplicaciones de Dynamics 365 en el vínculo [Dynamics 365](https://docs.microsoft.com/dynamics365) del anuncio de color azul que aparece en la parte superior de esta página. También puede obtener más información en el [sitio web de Dynamics 365 Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/).  
+Navegue para obtener información sobre otras aplicaciones de Dynamics 365 en el vínculo [Dynamics 365](/dynamics365/) del anuncio de color azul que aparece en la parte superior de esta página. También puede obtener más información en el [sitio web de Dynamics 365 Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/).  
 
 Si es un contable, puede registrarse en [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] y tener un emparejamiento de datos sin problemas con [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, consulte [Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).
 
@@ -99,7 +99,7 @@ Si es un contable, puede registrarse en [!INCLUDE[d365acc_long](includes/d365acc
 [Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] como mi bandeja de entrada de empresa en Outlook](admin-outlook.md)  
 [Obtener [!INCLUDE[d365fin](includes/d365fin_md.md)] en el dispositivo móvil](install-mobile-app.md)  
 [Recursos de ayuda y soporte técnico](product-help-and-support.md)  
-[Documentación de Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/)  
+[Documentación de Dynamics 365](/dynamics365/)  
 [Plan de la versión de Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 

@@ -1,22 +1,21 @@
 ---
 title: Descripción de cómo registrar documentos de compra | Documentos de Microsoft
-description: Obtenga información sobre las diversas funciones de registro para registrar documentos de compra.
-services: project-madeira
-documentationcenter: ''
-author: SusanneWindfeldPedersen
+description: Obtenga información sobre las diferentes funciones de registro para registrar documentos de compra y cómo puede actualizar los documentos registrados.
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
-ms.author: solsen
-ms.openlocfilehash: cc3d2e5b0f3425c329e5567e7d00908cb7f5c7d5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.reviewer: edupont
+ms.date: 07/17/2019
+ms.author: sgroespe
+ms.openlocfilehash: 55a910e471db7b674b0107022647cfd7af7a500d
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247860"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796923"
 ---
 # <a name="posting-purchases"></a>Registrar compras
 En **Grupo contable** en un documento de compra, puede elegir entre las funciones de registro siguientes:
@@ -45,7 +44,9 @@ Puede registrar o registrar e imprimir. Si elije registrar e imprimir, un inform
 Una vez finalizado el registro, las líneas de compra registradas se quitan del pedido. Al terminar el registro aparece un mensaje de aviso. Después de esto, podrá ver los movimientos registrados en las diferentes páginas que los contienen, como **Movs. proveedores**, **Movs, contabilidad**, **Movs. productos**, **Albaranes compra** e **Histórico facturas compra**.
 
 ## <a name="see-also"></a>Consulte también
+
 [Compras](purchasing-manage-purchasing.md)  
 [Registrar documentos y diarios](ui-post-documents-journals.md)  
+[Corregir o cancelar facturas de compra sin abonar](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
+[Usar la opción Dígame para encontrar características e información](ui-search.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

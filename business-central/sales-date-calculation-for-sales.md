@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a620b7ed9d06cdd8adf7b12bea2b55aecea32bcc
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 927c16f0fb1d12ff1202e4e675b97078d354375f
+ms.sourcegitcommit: 8c0d734c7202fec81da79c7db382243aa49e37f6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251135"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "1737125"
 ---
 # <a name="date-calculation-for-sales"></a>Cálculo de fecha de ventas
 [!INCLUDE[d365fin](includes/d365fin_md.md)] calcula automáticamente la fecha más próxima posible en la que se puede enviar un producto incluido en una línea de pedido de venta.
@@ -27,14 +27,15 @@ Si el cliente solicita una fecha de entrega concreta, se calcula la fecha en que
 Si el cliente no solicita una fecha de entrega concreta, se calcula la fecha en que los productos se podrán entregar, a partir de la fecha en que estén disponibles para el picking.
 
 ## <a name="calculating-a-requested-delivery-date"></a>Realizar cálculos de una Fecha de entrega requerida
-Si escribe una fecha de entrega requerida en la línea de pedido de venta, se utilizará dicha fecha como punto inicial para los cálculos siguientes.
+Si escribe una fecha de entrega requerida en la línea de pedido de venta, dicha fecha se convertirá en el punto inicial para los cálculos siguientes.
 
 - Fecha entrega requerida - Hora envío = Fecha envío planeada
 - Fecha envío planeada - Tiempo manip. alm. salida = Fecha envío
 
-Si los productos están disponibles para el picking en la fecha de envío, el proceso de venta puede continuar.
+Si los productos están disponibles para el picking en la fecha de envío, el proceso de venta puede continuar. De lo contrario, se muestra una advertencia de falta de stock.
 
-Si no lo están, se mostrará la advertencia de falta de stock.
+> [!Note]
+> Si su proceso se basa en el cálculo hacia atrás, por ejemplo, si utiliza la fecha de entrega solicitada para obtener la fecha de envío planificada, le recomendamos que utilice fórmulas de fecha que tengan duraciones fijas, como "5D" para cinco días o "1S" para una semana. Las fórmulas de fecha sin duraciones fijas, como "SA" para la semana actual o MA para el mes actual, pueden dar lugar a cálculos de fecha incorrectos. Para obtener más información sobre las fórmulas de fecha, consulte [Trabajar con fechas y horas del calendario](ui-enter-date-ranges.md).
 
 ## <a name="calculating-the-earliest-possible-delivery-date"></a>Cálculo de fecha de entrega más próxima posible
 Si no especifica una fecha de entrega requerida en la línea de pedido de venta, o si la fecha de entrega requerida no se puede cumplir, se calculará la fecha más próxima en la que estarán disponibles los productos. A continuación se insertará dicha fecha en la línea del campo Fecha envío y utiliza las siguientes formulas para calcular la fecha prevista para el envío de los productos y la fecha de su entrega al cliente:

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
-ms.date: 04/01/2019
+ms.date: 07/24/2019
 ms.author: bholtorf
-ms.openlocfilehash: 1665985ba00b291469146536a69a0dcfe9dec85a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 09aa4b5f6e08265e49a02e3014ffe6724edfcffd
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238905"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796854"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Trabajar con el IVA por ventas y compras
 Si su país o región requiere que calcule el impuesto al valor añadido (IVA) en las transacciones de compra y venta para que pueda informar de los importes a una autoridad fiscal, puede configurar [!INCLUDE[d365fin](includes/d365fin_md.md)] para calcular el IVA automáticamente en documentos de ventas y compras. Para obtener más información, vea [Configurar los cálculos y los métodos de registro del impuesto sobre el valor añadido](finance-setup-vat.md).
@@ -55,34 +55,42 @@ Aunque puede haber configurado una o varias combinaciones para administrar el im
 
 Si el descuento por pronto pago se ha calculado sobre la base de un importe de factura que incluye IVA, revierta la parte de descuento del importe del IVA cuando se conceda el descuento. Observe que debe activar el campo **Ajuste para dto. P.P.**, tanto en la configuración de la contabilidad en general como en la configuración de los grupos de registro de IVA para las combinaciones específicas de grupo de registro de IVA por negocio y grupo de registro de IVA por producto.  
 
-#### <a name="to-manually-enter-vat-in-sales-documents"></a>Para introducir manualmente el IVA en los documentos de venta  
+### <a name="to-set-the-system-up-for-manual-vat-entry-in-sales-documents"></a>Para configurar el sistema para el movimiento de IVA manual en documentos de ventas
+A continuación se describe cómo habilitar las modificaciones de IVA manuales en los documentos de ventas. Los pasos son similares a los de la página **Configuración de compras y pagos**.
+
 1. En la página **Configuración contabilidad**, especifique una **Máx. diferencia IVA permitida** el importe calculado por el programa y el importe manual.  
 2. En la página **Config. ventas y cobros**, active el campo **Permitir diferen. IVA**.  
 
-#### <a name="to-adjust-vat-for-a-sales-document"></a>Para ajustar el IVA de un documento de venta  
+### <a name="to-adjust-vat-for-a-sales-document"></a>Para ajustar el IVA de un documento de venta  
 1. Abra el pedido de venta correspondiente.  
 2. Seleccione la acción **Estadísticas**.  
-3. Elija la ficha desplegable **Facturación**.  
+3. En la ficha desplegable **Facturación**, seleccione el valor en el campo **N.º de líneas de impuestos**.
+4. Edite el campo **Importe de IVA**.   
 
-    > [!NOTE]  
-    >  El importe total del IVA de la factura, agrupado por identificador de IVA, se muestra en las líneas. Puede ajustar manualmente el importe del campo **Importe IVA** de las líneas de cada identificador de IVA. Si modifica el campo **Importe IVA**, el programa comprueba que no lo modifica en un importe mayor que el especificado como diferencia máxima permitida. Si el importe es mayor que la **Máx. diferencia IVA permitida**, se muestra una advertencia en la que se indica cuál es la mayor diferencia permitida. No podrá continuar hasta que ajuste el importe con un valor admitido. Haga clic en **Aceptar** y escriba otro **Importe IVA** que sea admitido. Si la diferencia del IVA es igual a o menor que el máximo permitido, el IVA se dividirá proporcionalmente entre las líneas del documento que tengan el mismo identificador de IVA.  
+> [!NOTE]  
+> El importe total del IVA de la factura, agrupado por identificador de IVA, se muestra en las líneas. Puede ajustar manualmente el importe del campo **Importe IVA** de las líneas de cada identificador de IVA. Si modifica el campo **Importe IVA**, el programa comprueba que no lo modifica en un importe mayor que el especificado como diferencia máxima permitida. Si el importe es mayor que la **Máx. diferencia IVA permitida**, se muestra una advertencia en la que se indica cuál es la mayor diferencia permitida. No podrá continuar hasta que ajuste el importe con un valor admitido. Haga clic en **Aceptar** y escriba otro **Importe IVA** que sea admitido. Si la diferencia del IVA es igual a o menor que el máximo permitido, el IVA se dividirá proporcionalmente entre las líneas del documento que tengan el mismo identificador de IVA.  
 
 ## <a name="calculating-vat-manually-using-journals"></a>Cálculo manual del IVA mediante los diarios  
 También puede ajustar los importes de IVA en general, ventas y diarios de compras. Por ejemplo, podría ser necesario si introduce una factura de proveedor en el diario y hay una diferencia entre el importe del IVA calculado por [!INCLUDE[d365fin](includes/d365fin_md.md)] y el de la factura del proveedor.  
 
-#### <a name="before-you-manually-enter-vat-on-a-general-journal"></a>Antes de introducir manualmente el IVA en un diario general  
+### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-general-journals"></a>Para configurar el sistema para el movimiento de IVA manual en un diario general
+Debe realizar los pasos siguientes antes de introducir manualmente el IVA en un diario general.  
+
 1. En la página **Configuración contabilidad**, especifique una **Máx. diferencia IVA permitida** el importe calculado por el programa y el importe manual.  
 2. En la página **Libros diario general**, elija la casilla **Permitir diferen. IVA** del diario correspondiente.  
 
-#### <a name="before-you-manually-enter-vat-on-sales-and-purchase-journals"></a>Para poder introducir manualmente el IVA en un diario de compras o ventas  
+### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-sales-and-purchase-journals"></a>Para configurar el sistema para el movimiento de IVA manual en un diario de ventas y compras
+Debe realizar los pasos siguientes antes de introducir manualmente el IVA en un diario de ventas y compras.
+
 1. En la página **Conf. compras y pagos**, seleccione la casilla **Permitir diferen. IVA**.  
-2. Cuando haya completado las acciones descritas, puede ajustar el campo **Importe IVA** de la línea del diario general, o el campo **Importe IVA contrap.** de la línea del diario de ventas o compras. [!INCLUDE[d365fin](includes/d365fin_md.md)] comprobará que la diferencia no sea mayor que el máximo especificado.  
+2. Repita el paso 1 para la página **Configuración de ventas y cobros**.
+3. Cuando haya completado las acciones descritas, puede ajustar el campo **Importe IVA** de la línea del diario general, o el campo **Importe IVA contrap.** de la línea del diario de ventas o compras. [!INCLUDE[d365fin](includes/d365fin_md.md)] comprobará que la diferencia no sea mayor que el máximo especificado.  
 
     > [!NOTE]  
     > Si la diferencia es mayor, se muestra una advertencia en la que se indica cuál es la mayor diferencia permitida. Para continuar, debe ajustar el importe. Elija **Aceptar** e introduzca un importe admitido. Si la diferencia de IVA es igual o menor que el máximo permitido, [!INCLUDE[d365fin](includes/d365fin_md.md)] mostrará la diferencia en el campo **Diferencia IVA**.  
 
-## <a name="to-post-import-vat-with-purchase-invoices"></a>Registrar IVA de importación con facturas de compra
-En lugar de utilizar un diario general para registrar las facturas de IVA de importación, puede utilizar facturas de compra.  
+## <a name="posting-import-vat-with-purchase-invoices"></a>Registro del IVA de importación con facturas de compra
+En lugar de utilizar diarios para registrar las facturas de IVA de importación, puede utilizar facturas de compra.  
 
 ### <a name="to-set-up-purchasing-for-posting-import-vat-invoices"></a>Procedimiento para configurar la compra para registrar facturas de IVA de importación  
 1. Configure una ficha de proveedor para la autoridad de importación que envía la factura de IVA de importación. Los campos **Grupo contable negocio** y **Grupo registro IVA neg.** deben configurarse de la misma forma que la contabilidad para el IVA de importación.  
@@ -102,7 +110,7 @@ En lugar de utilizar un diario general para registrar las facturas de IVA de imp
 6. En el campo **Coste unitario directo excl. IVA**, especifique el importe de IVA.  
 7. Registrar la factura.  
 
-## <a name="to-process-certificates-of-supply"></a>Procesar certificados de suministro
+## <a name="processing-certificates-of-supply"></a>Procesamiento de certificados de suministro
 Cuando se venden productos a un cliente en otro país o región de la UE, debe enviar al cliente un certificado de suministro que el cliente debe firmar y devolverle. Los procedimientos siguientes son para procesar certificados de suministro para los albaranes de venta, pero se siguen los mismos pasos para envíos de servicio de productos y envíos de devolución a proveedores.  
 
 ### <a name="to-view-certificate-of-supply-details"></a>Para ver detalles de un certificado de suministro  

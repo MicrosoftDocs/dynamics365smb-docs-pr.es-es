@@ -5,20 +5,20 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
-ms.date: 04/01/2019
+ms.date: 08/02/2019
 ms.author: edupont
-ms.openlocfilehash: fc52d943938616041881c55f70c510e4c63b5de6
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 27a57490101195f8dc05cc39538260e7db5e46af
+ms.sourcegitcommit: 5bcc5f95e450ee9a3d9f7a380e592a5e75c4185b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245814"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1858225"
 ---
-# <a name="understanding-users-profiles-and-role-centers"></a>Comprender usuarios, perfiles y áreas de trabajo
+# <a name="understanding-users-roles-and-profiles"></a>Comprensión de usuarios, roles y perfiles
 
 En [!INCLUDE[d365fin](includes/d365fin_md.md)], un administrador añade a los usuarios y también les da acceso a las áreas de [!INCLUDE[d365fin](includes/d365fin_md.md)] que requieren en su trabajo.  
 
-El acceso a la funcionalidad se gestiona a través de *grupos de usuarios* y *perfiles*. Como administrador, puede agregar y quitar usuarios como parte de su suscripción a [!INCLUDE[d365fin](includes/d365fin_md.md)] y puede asignar permisos de usuario a través de grupos de usuarios.  
+El acceso a la funcionalidad se gestiona a través de *grupos de usuarios* y *perfiles (roles)*. Como administrador, puede agregar y quitar usuarios como parte de su suscripción a [!INCLUDE[d365fin](includes/d365fin_md.md)] y puede asignar permisos de usuario a través de grupos de usuarios.  
 
 ## <a name="adding-users"></a>Añadir usuarios
 
@@ -35,20 +35,20 @@ Los permisos más potentes que un usuario puede tener es el conjunto de permisos
 
 Para las implementaciones locales de [!INCLUDE[d365fin](includes/d365fin_md.md)], el administrador puede elegir entre diferentes mecanismos de autorización de credenciales para los usuarios. Cuando cree un usuario, proporcione información distinta según el tipo de credencial que vaya a utilizar en la sesión específica de [!INCLUDE[server](includes/server.md)]. Para obtener más información, vea [Tipos de autenticación y credenciales](/dynamics365/business-central/dev-itpro/administration/users-credential-types) en la sección Administración del desarrollador y contenido de ITPro de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-## <a name="profiles"></a>Perfiles
+## <a name="profiles-roles"></a>Perfiles (roles)
 
-La personas de su empresa que tienen acceso a [!INCLUDE[d365fin](includes/d365fin_md.md)] tienen asignado un *perfil* que les da acceso a un *Área de trabajo*.
+La personas de su empresa que tienen acceso a [!INCLUDE[d365fin](includes/d365fin_md.md)] tienen asignado un rol que les da acceso a un *Área de trabajo*.
 
-Los perfiles son colecciones de usuarios de [!INCLUDE[d365fin](includes/d365fin_md.md)] que comparten la misma área de trabajo. Un área de trabajo es el punto de entrada y la página de inicio de [!INCLUDE[d365fin](includes/d365fin_md.md)] que le da acceso rápido a sus tareas más importantes y le muestra varias perspectivas e indicadores de rendimiento clave (KPI) sobre su trabajo.  
+Los perfiles son colecciones de usuarios de [!INCLUDE[d365fin](includes/d365fin_md.md)] que comparten el mismo rol. Un área de trabajo es el punto de entrada y la página de inicio de [!INCLUDE[d365fin](includes/d365fin_md.md)] que le da acceso rápido a sus tareas más importantes y le muestra varias perspectivas e indicadores de rendimiento clave (KPI) sobre su trabajo.  
 
 > [!NOTE]  
 >  En la versión actual de [!INCLUDE[d365fin](includes/d365fin_md.md)] en línea, no puede agregar, editar, o eliminar perfiles.  
 
-### <a name="CreateProfile"></a>Cree un perfil.
+### <a name="CreateProfile"></a>Para crear un perfil
 
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Lista de perfiles** y, a continuación, seleccione el vínculo relacionado.  
+1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Perfiles** y, a continuación, seleccione el vínculo relacionado.  
 
-2.  En la página **Lista de perfiles**, seleccione la acción **Nuevo** para abrir la página **Nueva ficha de perfil**.  
+2.  En la página **Perfiles**, seleccione la acción **Nuevo** para abrir la página **Nueva ficha de perfil**.  
 
 3.  En el campo **Id. perfil**, escriba un nombre que describa el rol previsto de los usuarios.  
 
@@ -56,7 +56,7 @@ Los perfiles son colecciones de usuarios de [!INCLUDE[d365fin](includes/d365fin_
 
 5.  Establezca el campo **Id. área de trabajo** al área de trabajo que desea asignar al perfil.  
 
-El procedimiento para modificar un perfil existente es el mismo, excepto que se selecciona un perfil existente en la página de perfiles **Lista de perfiles** en lugar de elegir la acción **Nuevo**.  
+El procedimiento para modificar un perfil existente es el mismo, excepto que se selecciona un perfil existente en la página de perfiles **Perfiles** en lugar de elegir la acción **Nuevo**.  
 
 
 ### <a name="copy-a-profile"></a>Copiar un perfil
@@ -78,7 +78,7 @@ Puede exportar e importar perfiles como archivos XML a o desde la base de datos 
 
 -   Para exportar un perfil, puede elegir la acción **Exportar perfiles** en la página **Lista de perfiles** o **Ficha de perfil**, o puede buscar y abrir la página **Exportar perfiles**. Guarde el archivo XML en una ubicación del equipo o red.
 
--   Para importar un perfil, puede elegir la acción **Importar perfil** en la página **Lista de perfiles** o puede buscar y abrir la página **Importar perfiles**. 
+-   Para importar un perfil, puede elegir la acción **Importar perfil** en la página **Lista de perfiles** o puede buscar y abrir la página **Importar perfiles**.
 
     > [!NOTE]  
     >  No puede importar un perfil que ya exista en la base de datos, aunque nombre o el contenido del archivo XML sean distintos. Debe eliminar el perfil existente para poder importar el perfil nuevo.

@@ -2,4 +2,4 @@
 >
 > ¿Le gustaría conocer las nuevas y futuras funcionalidades de Dynamics 365 Business Central?
 >
-> [Eche un vistazo a la última versión del plan de la versión](/business-applications-release-notes/April19/dynamics365-business-central/). Hemos capturado todos los detalles, e incluso puede obtener el plan de la versión como un único PDF que puede usar para la planificación.  
+> [Eche un vistazo a la última versión del plan de la versión](/dynamics365/release-plans/index). Hemos recogido absolutamente todos los detalles que puede usar para la planificación. Para cada versión, puede obtener el plan de la versión en un único PDF.  
