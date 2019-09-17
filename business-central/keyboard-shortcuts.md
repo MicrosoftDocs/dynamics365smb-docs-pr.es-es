@@ -1,21 +1,21 @@
 ---
 title: Métodos abreviados de teclado
 description: La lista completa de combinaciones de método abreviado de teclado para trabajar de manera eficaz con los datos.
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 04/01/2019
-ms.author: jswymer
-ms.openlocfilehash: 11d63e2745ce35067d87e66c6077d51276f90075
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.date: 09/06/2019
+ms.author: sgroespe
+ms.openlocfilehash: e6919dd3e09fcf13bf07b051abfea90a5a35eb01
+ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1621211"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "1985915"
 ---
 # <a name="keyboard-shortcuts"></a>Métodos abreviados de teclado
 Este producto proporciona un resumen de algunas de las combinaciones de métodos abreviados que se pueden utilizar cuando trabaje con [!INCLUDE[prodshort](includes/prodshort.md)].
@@ -170,6 +170,12 @@ Al configurar un campo de fecha, puede introducir la fecha manualmente o abrir u
 |Esc|Cierre el calendario sin una selección, mantenga la fecha actual.|
 |Av. Pág.|Desplazarse al mes siguiente.|
 |Re. pág.|Desplazarse al mes anterior.|  
+
+## <a name="keyboard-shortcuts-in-date-fields"></a>Métodos abreviados de teclado en campos de fecha
+|Pulsar estas teclas<br />(en macOS)|Para hacer esto|
+|-----------------|-------|
+|h|Introduzca la fecha actual. "H" significa "hoy".|
+|t|Introduzca la fecha de trabajo. Para obtener más información, consulte [Fecha de trabajo](ui-change-basic-settings.md#work-date).|
 
 ## <a name="a-namereportpreviewshortcutskeyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"/>Métodos abreviados de teclado en la vista preliminar de informe
 

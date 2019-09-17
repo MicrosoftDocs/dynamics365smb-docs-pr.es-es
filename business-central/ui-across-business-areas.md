@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 04/01/2019
+ms.date: 07/24/2019
 ms.author: sgroespe
-ms.openlocfilehash: 063de8e16c01569c4a25e825b8804898a6f80e79
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: a4c6a7c1c25fab4c8321f59a9b2bbac5c5225eee
+ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250876"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1921412"
 ---
 # <a name="general-business-functionality"></a>Funciones empresariales generales
 [!INCLUDE[d365fin](includes/d365fin_md.md)] proporciona funciones dedicadas para las áreas habituales comerciales, como finanzas y ventas. Para obtener más información, consulte [Funciones empresariales](across-business-functionality.md).
@@ -40,7 +40,8 @@ En la tabla siguiente se indican las áreas de negocio generales, con vínculos 
 |Adjunte imágenes, documentos y otros tipos de archivos a todas las fichas, como la ficha de producto y la ficha de trabajo, y adjunte archivos a todos los tipos de documentos de compra y venta.|[Adjuntar archivos a fichas y documentos](across-attach-document-master-data.md)|
 |Trabaje con los datos de Business Central en Excel.|[Exportar los datos de negocio a Excel](about-export-data.md)|
 |Comprender lo que sucede cuando elige la acción **Registrar**.|[Registrar documentos y diarios](ui-post-documents-journals.md)|
-|Revise el resultado del registro antes de registrar.|[Vista previa de los resultados del registro](ui-how-preview-post-results.md)| 
+|Revise el resultado del registro antes de registrar.|[Vista previa de los resultados del registro](ui-how-preview-post-results.md)|
+|Edite los campos seleccionados en las ventas registradas o en los documentos de compra.|[Editar documentos registrados](across-edit-posted-document.md)| 
 |Obtenga información sobre cómo trabajar con diarios generales, que se usan para registrar en cuentas contables y otras cuentas, como bancarias, de clientes, de proveedores y de activos fijos. |[Trabajar con diarios generales](ui-work-general-journals.md) |
 | Programar un informe para ejecutarlo en una fecha y hora específicos. |[Programar un informe para que se ejecute](ui-work-report.md#ScheduleReport) |
 |Permita al sistema ayudarle a completar las tareas más rápida y correctamente rellenando previamente los campos o las líneas completas con los datos que, de no ser así, debería calcular e introducir usted.|[Dejar que Business Central proponga valores](ui-let-system-suggest-values.md)|

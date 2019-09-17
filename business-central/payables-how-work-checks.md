@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 04/01/2019
+ms.date: 09/06/2019
 ms.author: sgroespe
-ms.openlocfilehash: 97b98a334428f697e83bf655c1ec15a3539d3dea
-ms.sourcegitcommit: 0854c074b500c3031eaf86fde9d452f93f238081
+ms.openlocfilehash: ab769498741a8da17b64eebb4bccf9e177d95e37
+ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "1701203"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "1985768"
 ---
 # <a name="make-check-payments"></a>Realizar pagos por cheque
 Puede emitir cheques electrónicos y manuales en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ambos métodos utilizan el diario de pagos para emitir los cheques a proveedores. También puede anular cheques y ver movimientos de cheques.
@@ -24,7 +24,7 @@ El siguiente procedimiento muestra cómo pagar a un proveedor con cheques por or
 
 Puede pagar con dos tipos de cheques. Para ambos tipos, el campo **Tipo contrapartida** o **Tipo de cuenta** debe contener **Cuenta bancaria**.
 
-- **Cheque automático**: Seleccione esta opción si desea imprimir un cheque por el importe de la línea del diario de pagos. Debe imprimir los cheques antes de que pueda registrar las líneas del diario. Sólo puede seleccionar **Cheque automático** si
+- **Cheque automático**: Seleccione esta opción si desea imprimir un cheque por el importe de la línea del diario de pagos. Debe imprimir los cheques antes de que pueda registrar las líneas del diario.
 - **Cheque manual**: Seleccione esta opción si ha creado manualmente un cheque y desea crear el movimiento de cheque correspondiente a ese importe. Usando esta opción no puede imprimir el cheque.
 
 > [!NOTE]  

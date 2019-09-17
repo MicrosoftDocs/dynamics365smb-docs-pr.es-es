@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 04/01/2019
+ms.date: 08/16/2019
 ms.author: jswymer
-ms.openlocfilehash: 37cdf2d7dcc46b1286cbb7a5ad620547e364309e
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 268d61e05f84643abe8eeeb283bd035e0247fe1c
+ms.sourcegitcommit: 81b6062194bf04d8052a3cd394cc0b41e3f53e6d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250600"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "1887742"
 ---
 # <a name="managing-personalization-as-an-administrator"></a>Administrar la personalización como administrador
 
@@ -71,6 +71,9 @@ Puede evitar que todos los usuarios que pertenecen a un perfil específico pueda
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Perfiles** y luego elija el enlace relacionado.
 2. Seleccione el perfil de la lista que desea modificar.
 3. Seleccione la casilla **Deshabilitar personalización** y, a continuación, seleccione el botón **Aceptar**.
+
+> [!NOTE]  
+> En Business Central en línea, solo puede deshabilitar la personalización para un perfil de suscriptor, no para los perfiles del sistema. 
 
 ## <a name="to-clear-user-personalizations"></a>Para borrar personalizaciones de usuarios
 

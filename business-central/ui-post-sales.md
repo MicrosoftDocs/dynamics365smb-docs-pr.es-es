@@ -8,25 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 04/01/2019
+ms.date: 08/27/2019
 ms.author: sgroespe
-ms.openlocfilehash: 01e831ddddeffe6a64c6de24b4cd8c1b94bad9c3
-ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
+ms.openlocfilehash: a2eb27a541033b755b9ab9d4ea9156bf7de9cab4
+ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1796900"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1921435"
 ---
 # <a name="posting-sales"></a>Registrar ventas
-En **Grupo contable** en un documento de ventas, puede elegir entre las funciones de registro siguientes:
+En el menú **Registro** en un documento de venta, puede elegir entre las funciones de registro siguientes:
 
 * **Registrar**
-* **Informe de prueba**
+* **Registrar y nuevo**
 * **Registrar y enviar**
-* **Registrar e imprimir**
-* **Registrar y enviar por correo electrónico**
-* **Registrar por lotes**
 * **Vista previa de registro**
+* **Borrador de factura**
+* **Factura proforma**
+* **Informe de prueba**
 
 Una vez completadas todas las líneas e introducida toda la información en el pedido de venta, puede registrarlo. Esto crea un envío y una factura.
 
@@ -41,9 +41,11 @@ Por cada línea de pedido de venta, se creará un movimiento de producto en la t
 
 Una vez completado el registro, las líneas de venta registradas se quitan del pedido. Al terminar el registro aparece un mensaje de aviso. Después de esto, podrá ver los movimientos registrados en las diferentes páginas que los contienen, como **Movs. cliente**, **Movs. contabilidad**, **Movs. producto**, **Histórico albaranes ventas** y **Histórico facturas venta**.  
 
-## <a name="see-also"></a>Consulte también
+Puede editar determinados campos en documentos de venta registrados, como **Nº seguimiento bulto**. . Para obtener más información, vea [Editar documentos registrados](across-edit-posted-document.md).
 
+## <a name="see-also"></a>Consulte también
 [Ccial](sales-manage-sales.md)  
+[Editar documentos registrados](across-edit-posted-document.md)  
 [Enviar documentos por correo electrónico](ui-how-send-documents-email.md)  
 [Corregir o cancelar facturas de venta sin abonar](sales-how-correct-cancel-sales-invoice.md)  
 [Usar la opción Dígame para encontrar características e información](ui-search.md)  

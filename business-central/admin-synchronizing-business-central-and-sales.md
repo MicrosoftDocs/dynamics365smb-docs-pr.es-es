@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: b5a3b83d21390711ff0517df67bf9912ece57f6b
-ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
+ms.openlocfilehash: 9506b64229c4d936fa25d74d71a923bdf7915e45
+ms.sourcegitcommit: 6ef7d2fae52feff786f2e15e2863d7f5aaa762be
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1629624"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1917465"
 ---
 # <a name="synchronizing-data-in-business-central-and-dynamics-365-for-sales"></a>Sincronización de datos en Business Central y Dynamics 365 for Sales
 Cuando integra [!INCLUDE[crm_md](includes/crm_md.md)] con [!INCLUDE[d365fin](includes/d365fin_md.md)], puede decidir si desea sincronizar los datos de campos seleccionados de los registros de [!INCLUDE[d365fin](includes/d365fin_md.md)] (como clientes, contactos y personal de ventas) con registros equivalentes en [!INCLUDE[d365fin](includes/d365fin_md.md)] (como cuentas, contactos y usuarios). Dependiendo del tipo de registro, puede sincronizar datos de [!INCLUDE[crm_md](includes/crm_md.md)] a [!INCLUDE[d365fin](includes/d365fin_md.md)], o viceversa. Para obtener más información, vea [Integración con Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
@@ -92,7 +92,7 @@ En la tabla siguiente se describen las reglas que controlan la sincronización e
 |Precios ventas|Los precios de Sales que tienen el tipo de venta Grupo precio cliente y tengan un código de venta definido se sincronizan con las líneas de lista de precios de [!INCLUDE[crm_md](includes/crm_md.md)].|
 |Oportunidades|Las oportunidades se sincronizan con las oportunidades de [!INCLUDE[crm_md](includes/crm_md.md)]. El valor de Código de vendedor define el propietario de la entidad emparejada en [!INCLUDE[crm_md](includes/crm_md.md)].|
 |Histórico facturas venta|Las facturas de ventas registradas se sincronizan con las facturas de ventas. Para poder sincronizar una factura, es mejor sincronizar las demás entidades que puedan participar en la factura, desde los vendedores hasta las listas de precios. El valor de Código de vendedor en la cabecera de la factura define el propietario de la entidad acoplada en Sales.|
-|Pedidos de venta|El pedido de venta lanzado (cabeceras) se sincroniza con el pedido de venta. Para poder sincronizar un pedido, es mejor sincronizar las demás entidades que puedan participar en el pedido, desde los vendedores hasta las listas de precios. El valor de Código de vendedor en la cabecera del pedido define el propietario de la entidad emparejada en Sales.|  
+|Pedidos de venta|Cuando se activa la integración de pedidos de venta, los pedidos de venta creados en [!INCLUDE[d365fin](includes/d365fin_md.md)] a partir de pedidos de venta enviados en [!INCLUDE[crm_md](includes/crm_md.md)] se sincronizan con los pedidos de venta en INCLUIR VENTAS cuando se liberan. Antes de sincronizar los pedidos, recomendamos que primero sincronice todas las entidades que intervienen en el pedido, como los vendedores y las listas de precios. El campo Código de vendedor en la cabecera del pedido define el propietario de la entidad emparejada en [!INCLUDE[crm_md](includes/crm_md.md)].|  
 
 ## <a name="see-also"></a>Consulte también  
 [Emparejar y sincronizar registros manualmente](admin-how-to-couple-and-synchronize-records-manually.md)   

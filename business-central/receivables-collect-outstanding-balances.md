@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a39e43a430720c0453ba5bd9bccf864237b8ae6f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: a4b6f58c434c563021e94e55e47c547d39967502
+ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252762"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "1985891"
 ---
 # <a name="collect-outstanding-balances"></a>Cobrar saldos pendientes
 Gestionar cobros incluye comprobar si los importes vencidos se pagan puntualmente. Si los clientes tienen pagos vencidos, puede empezar enviando el informe de Extracto de cliente como recordatorio. También puede emitir recordatorios.
@@ -179,7 +179,7 @@ Puede calcular los intereses utilizando el cálculo por días crédito o bien el
 Además, cada código de la tabla Términos interés está vinculado a la subtabla Texto interés. Por cada grupo de términos de interés, puede definir un texto inicial y/o final que se incluirán en el documento de interés.
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Términos de interés** y luego elija el enlace relacionado.  
-2. Rellene los campos según sea necesario.  
+2. Rellene los campos según sea necesario.
 3. Para utilizar más de una combinación de términos interés, configure un código para cada uno.
 
     Para cada término de interés, puede especificar condiciones individuales, que pueden incluir comisiones adicionales tanto en la divisa local como en la divisa extranjera. Puede definir muchos recargos adicionales en divisas extranjeras para cada código de la página **Términos interés**.

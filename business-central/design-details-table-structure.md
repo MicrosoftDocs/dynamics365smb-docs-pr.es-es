@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 688c448f920a032a0f137bab7abdb9de51af1f96
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1dd1877540a536d95c8ea1613a23d2bd40e9c990
+ms.sourcegitcommit: 1fa3d33db7bc71e3a27c826308a80ff24a436a72
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246175"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "1970952"
 ---
 # <a name="design-details-table-structure"></a>Detalles de diseño: Estructura de tablas
 Para entender cómo se almacenan y registran los movimientos de dimensión, es importante comprender la estructura de tabla.  
@@ -187,5 +187,4 @@ El campo 480 existe en las siguientes tablas de búfer.
  [Detalles de diseño: Movimientos de grupo de dimensiones](design-details-dimension-set-entries.md)   
  [Información general de los movimientos del grupo dimensiones](design-details-dimension-set-entries-overview.md)   
  [Detalles de diseño: Búsqueda de combinaciones de dimensiones](design-details-searching-for-dimension-combinations.md)   
- [Detalles de diseño: Gestión de dimensiones de codeunit 408](design-details-codeunit-408-dimension-management.md)   
- [Detalles de diseño: Ejemplos de código de patrones cambiados en las modificaciones](design-details-code-examples-of-changed-patterns-in-modifications.md)
+ 

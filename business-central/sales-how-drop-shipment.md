@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: direct shipment
-ms.date: 04/01/2019
+ms.date: 09/06/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7a87023445ea10aa19cc0cc4f60d76ce4cf3e365
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 9555aabe515757b71426ddca2f90b37e561f96e2
+ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251230"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "1985819"
 ---
 # <a name="make-drop-shipments"></a>Realizar envíos directos
 Un envío directo es el envío de los productos de uno de sus proveedores directamente a uno de sus clientes.
 
-Cuando marca un pedido de venta con el envío directo y crea un pedido especificando el cliente en el campo **Venta a-N.º cliente** puede vincular los dos documentos y así asignar instrucciones al proveedor para que envíe el producto directamente al cliente.
+Cuando se marca un pedido de venta para envío directo y se crea un pedido de compra especificando el cliente en el campo **Dirección de envío**, **Dirección del cliente**, se pueden enlazar los dos documentos y, de este modo, indicar al proveedor que realice el envío directamente al cliente.
 
 ## <a name="to-create-a-sales-order-for-drop-shipment"></a>Para crear un pedido de venta de envío directo
 Para preparar un envío directo cree un pedido de venta como si fuese normal, pero indique en la línea de ventas que dicha venta requiere un envío directo.
@@ -34,7 +34,8 @@ Para preparar un envío directo cree un pedido de venta como si fuese normal, pe
 Para preparar un envío directo de un producto que se va a vender, cree un pedido de compra como si fuese normal, pero indique en el pedido que el producto debe enviarse directamente al cliente no a usted.
 
 1. Cree un pedido de compra. No rellene ningún campo en las líneas. Para obtener más información, consulte [Registrar compras](purchasing-how-record-purchases.md).
-2. En el campo **Venta a-N.º cliente**, seleccione el cliente al que le está vendiendo.
+2. En el campo **Dirección de envío**, seleccione **Dirección del cliente**.
+3. En el campo **Cliente**, seleccione el cliente al que está realizando la venta.
 3. Elija la acción **Envíos directos** y, a continuación, **Traer pedido venta**.
 4. En la página **Lista ventas**, seleccione el pedido de ventas que ha preparado en [Para crear un pedido de venta de envío directo](sales-how-drop-shipment.md#to-create-a-sales-order-for-drop-shipment).
 5. Elija el botón **Aceptar**.

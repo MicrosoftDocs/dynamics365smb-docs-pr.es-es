@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: dimension
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9706b5cc2438c49c143b7ded27447b4d6403e0dc
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 051cb40676560bcb531c6708960986a69e7cfdf4
+ms.sourcegitcommit: 1fa3d33db7bc71e3a27c826308a80ff24a436a72
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246798"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "1970883"
 ---
 # <a name="dimension-set-entries-overview"></a>Información general de los movimientos del grupo dimensiones
 Este tema describe cómo se almacenan y se registran los movimientos de grupo de dimensiones en [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -38,7 +38,10 @@ Los grupos de dimensiones se almacenan en la tabla **Mov. grupo de dimensiones**
 
 Cuando crea una nueva línea de diario, cabecera de documentos o línea de documentos, puede especificar una combinación de valores de dimensión. En lugar de explícitamente guardar cada valor de dimensión en la base de datos, un Id. de grupo de dimensiones se asigna a la línea de diario, cabecera de documentos o línea de documentos para especificar el grupo de dimensiones.  
 
-Cuando modifica y cierra la página **Editar movimientos de grupo de dimensiones**, se realiza una comprobación para ver si la combinación de valores de dimensión existe como grupo de dimensiones en la tabla. Si la combinación tiene lugar en la tabla, el Id. correspondiente del grupo de dimensiones se asigna a la línea de diario, cabecera de documentos o línea de documentos. Si no, un nuevo grupo de dimensiones se agrega a la tabla, y el nuevo Id. del grupo de dimensiones se asigna a la línea de diario, cabecera de documento o línea de documento.  
+Cuando modifica y cierra la página **Editar movimientos de grupo de dimensiones**, se realiza una comprobación para ver si la combinación de valores de dimensión existe como grupo de dimensiones en la tabla. Si la combinación tiene lugar en la tabla, el Id. correspondiente del grupo de dimensiones se asigna a la línea de diario, cabecera de documentos o línea de documentos. Si no, un nuevo grupo de dimensiones se agrega a la tabla, y el nuevo Id. del grupo de dimensiones se asigna a la línea de diario, cabecera de documento o línea de documento.
+
+## <a name="codeunit-408-dimension-management"></a>Gestión de dimensiones de codeunit 408
+Codeunit 408, gestión de dimensiones, es una biblioteca de funciones que controla tareas comunes relacionadas con las dimensiones, como copiar desde una tabla a otra o desde un documento a otro.
 
 ## <a name="performance-improvement"></a>Mejora del rendimiento  
 Al almacenar grupos de dimensiones una vez en la base de datos, se preserva el espacio de la base de datos y se mejora el rendimiento total.  
@@ -46,6 +49,4 @@ Al almacenar grupos de dimensiones una vez en la base de datos, se preserva el e
 ## <a name="see-also"></a>Consulte también  
 [Detalles de diseño: Búsqueda de combinaciones de dimensiones](design-details-searching-for-dimension-combinations.md)   
 [Detalles de diseño: Estructura de tablas](design-details-table-structure.md)   
-[Detalles de diseño: Gestión de dimensiones de codeunit 408](design-details-codeunit-408-dimension-management.md)   
-[Detalles de diseño: Ejemplos de código de patrones cambiados en las modificaciones](design-details-code-examples-of-changed-patterns-in-modifications.md)   
 [Detalles de diseño: Movimientos de grupo de dimensiones](design-details-dimension-set-entries.md)   

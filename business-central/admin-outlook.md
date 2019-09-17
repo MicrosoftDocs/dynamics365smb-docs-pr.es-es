@@ -3,19 +3,19 @@ title: Usar Business Central con Outlook | Documentos de Microsoft
 description: Este servicio tiene una integración profunda con Office 365 lo que le permite administrar todas sus interacciones y correo de negocio con clientes y proveedores directamente en Outlook.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: get-started-article
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 07/12/2019
+ms.date: 08/14/2019
 ms.author: edupont
-ms.openlocfilehash: 578f33dace52383ce588494d35c875ceaf6ffc21
-ms.sourcegitcommit: f5050fd209b8d66722c81abe48c4c0a6f749a1f7
+ms.openlocfilehash: 70299f86a1ebc3251780eb05f8b68afeff23fa5e
+ms.sourcegitcommit: 81b6062194bf04d8052a3cd394cc0b41e3f53e6d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1740461"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "1887696"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Usar Business Central como su bandeja de entrada de empresa en Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] introduce la posibilidad de gestionar las interacciones comerciales con sus clientes y proveedores directamente en Microsoft Outlook. Con los complementos de Outlook de [!INCLUDE[d365fin](includes/d365fin_md.md)], puede ver los datos financieros relativos a los clientes y los proveedores, así como crear y enviar documentos financieros, como por ejemplo presupuestos y facturas.  
@@ -53,9 +53,9 @@ En el complemento Vínculos de documento puede modificar y realizar diferentes a
 ## <a name="adding-the-add-ins-manually"></a>Agregar los complementos manualmente
 En algunos casos, los complementos no se agregan automáticamente a Outlook. Incluso si usted o un compañero han ejecutado la guía de configuración asistida en nombre de la empresa, es posible que [!INCLUDE[d365fin](includes/d365fin_md.md)] no aparezca en Outlook. Si tiene este problema, puede agregar los complementos de [!INCLUDE[d365fin](includes/d365fin_md.md)] manualmente.  
 
-En primer lugar, debe comprobar que tiene acceso a los complementos en su cuenta de Office 365. Simplemente abra su Outlook en un explorador, vaya a **Configuración** y seleccione **Administrar complementos**. Se abre la página **Administrar complementos**, donde puede habilitar [!INCLUDE[prodshort](includes/prodshort.md)] para su Outlook. A continuación, al volver a Outlook, [!INCLUDE[prodshort](includes/prodshort.md)] debe estar disponible.  
+En primer lugar, debe comprobar que tiene acceso a los complementos en su cuenta de Office 365. Simplemente abra su Outlook en un explorador, abra un mensaje, seleccione **Más acciones** (...) en la parte superior del mensaje y, a continuación, en la parte inferior de la lista, seleccione **Obtener complementos**. Esto abre la página **Complementos para Outlook**, donde puede activar [!INCLUDE[prodshort](includes/prodshort.md)] para su Outlook. A continuación, al volver a Outlook, [!INCLUDE[prodshort](includes/prodshort.md)] debe estar disponible.  
 
-De igual forma, en el cliente de escritorio de Outlook puede comprobar que [!INCLUDE[d365fin](includes/d365fin_md.md)] se muestran en la página **Administrar complementos**.  
+De igual forma, en el cliente de escritorio de Outlook puede comprobar que [!INCLUDE[d365fin](includes/d365fin_md.md)] se muestra en la página **Obtener complementos**.  
 
 En ambos casos, si [!INCLUDE[d365fin](includes/d365fin_md.md)] sigue sin estar disponible, tiene que obtener los archivos del manifiesto del complemento. Para obtener más información, póngase en contacto con su administrador de Office 365.
 
