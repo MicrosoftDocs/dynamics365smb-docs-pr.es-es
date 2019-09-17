@@ -1,1 +1,1 @@
-<span data-ttu-id="f8a70-101">Para ver los temas de esta sección, elija los enlaces en **Consultar también:**.</span><span class="sxs-lookup"><span data-stu-id="f8a70-101">To see the topics in this section, choose the links under **See Also**.</span></span>
+<span data-ttu-id="20df0-101">Para ver los temas de esta sección, elija los enlaces en **Consultar también:**.</span><span class="sxs-lookup"><span data-stu-id="20df0-101">To see the topics in this section, choose the links under **See Also**.</span></span>
