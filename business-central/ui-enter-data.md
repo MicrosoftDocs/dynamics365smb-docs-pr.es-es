@@ -1,27 +1,27 @@
 ---
-title: Cómo introducir datis eb campos | Documentos de Microsoft
+title: Cómo introducir datos en campos | Documentos de Microsoft
 description: Obtenga información sobre las características generales que le ayudan a introducir datos en los campos.
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/03/2019
-ms.author: jswymer
-ms.openlocfilehash: d0fac96313b41a0e41ea96ab4fedd25565498f12
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.date: 09/17/2019
+ms.author: sgroespe
+ms.openlocfilehash: 83bf26c7059146978d46820144e5701fdbb3aa31
+ms.sourcegitcommit: 7ce8005806465417c7040c61da1d6cada29cd9c0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1621165"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "2000792"
 ---
 # <a name="entering-data"></a>Introducción de datos
 
 Hay muchas características generales que le ayudan a introducir datos de forma más fácil, rápida y precisa. Las características generales para la introducción de datos se describen en este artículo.  
 
-<!-- The examples in this article use the demonstration data.-->
+Los ejemplos de este producto utilizan los datos de demostración.
 
 ## <a name="keyboard-shortcuts"></a>Métodos abreviados de teclado
 
@@ -152,12 +152,12 @@ También es posible introducir una fecha como un día de la semana, seguido de u
 
 En lugar de introducir una fecha específica, puede introducir uno de estos códigos.  
 
-|Code|Resultado|  
+|Código|Resultado|  
 |--------------|----------------|  
 |h|Esto especifica la fecha de hoy (la fecha de sistema del equipo).|  
-|p|Esto especifica un "período contable, donde `p` significa el primer período contable, `p2` significa el segundo período contable, y así sucesivamente. |
+|p|Esto especifica un "período contable, donde p significa el primer período contable, p2 significa el segundo período contable, y así sucesivamente. |
 |t|Esto especifica la fecha de trabajo que está configurada en la aplicación. Para cambiar la fecha de trabajo, vea [Cambiar la configuración básica](ui-change-basic-settings.md). Una fecha de trabajo se puede usar si hay muchas operaciones con una fecha distinta a la activa.|
-|c|Esto especifica que la fecha después de `c` es una fecha de cierre, por ejemplo, `C123101`.|  
+|c|Esto especifica que la fecha después de c es una fecha de cierre, por ejemplo, C123101.|  
 
 ## <a name="entering-times"></a>Introducción de horas
 
@@ -185,15 +185,15 @@ En la tabla siguiente se muestran varias formas de introducir fechas y horas y c
 
 |Movimiento|Interpretación|  
 |---------------|------------------------|  
-|131202 132455|13-12-02 13:24:55|  
-|1-12-02 10|01-12-02 10:00:00|  
-|1.12.02 5|01-12-02 05:00:00|  
-|1.12.02|01-12-02 00:00:00|  
-|11 12|11-mes actual-año actual 12:00:00|  
-|1112 12|11-12-año actual 12:00:00|  
+|021213 132455|13/12/02 13:24:55|  
+|02-12-01 10|01/12/02 10:00:00|  
+|12.01.02 5|01/12/02 05:00:00|  
+|12.1.02|01/12/02 00:00:00|  
+|11 12|11/mes actual/año actual 12:00:00|  
+|1112 12|11/12/año actual 12:00:00|  
 |h u hoy|fecha de hoy 00:00:00|  
 |h hora|fecha de hoy hora real|  
-|t 10:30|fecha de hoy 10:30:00|  
+|h 10:30|fecha de hoy 10:30:00|  
 |h 3:3:3|fecha de hoy 03:03:03|  
 |l o fecha de trabajo|la fecha de trabajo 00:00:00|  
 |l o lunes|Lunes de la semana actual 00:00:00|  
@@ -207,105 +207,24 @@ En la tabla siguiente se muestran varias formas de introducir fechas y horas y c
 |ma 3:3:3|Martes de la semana actual 03:03:03|  
 
 ## <a name="entering-duration"></a>Introducción de duración
-
 Introduzca un periodo de tiempo como un número seguido de su unidad de medida.  
 
 A continuación se muestran algunos ejemplos.  
 
 |Duración|Unidad de medida**|  
 |------------------|-------------------------|  
-|2h|2 hrs|  
-|6h 30 m|6 hrs 30 mins|  
-|6,5h|6 h 30 min|  
-|90m|1 hr 30 mins|  
-|2d 6h 30m|2 días 6 hrs 30 mins|  
-|2d 6h 30m 56s 600ms|2 días 6 hrs 30 mins 56 segs 600 msegs|  
+|2h|2 h|  
+|6 h 30 m|6 h 30 m|  
+|6,5h|6 h 30 m|  
+|90m|1 h 30 m|  
+|2d 6h 30m|2 días 6 h 30 m|  
+|2d 6h 30m 56s 600ms|2 días 6 h 30 m 56 s 600 ms|  
 
  También puede introducir un número y se convertirá automáticamente en un periodo de tiempo. El número que introduzca se convierte según la unidad de medida predeterminada que se ha especificado en el campo Duración.  
 
  Para ver la unidad de medida que se va a usar en un campo Duración, introduzca un número y observe a qué unidad de medida se convierte.  
 
  El número 5 se convierte a 5 hrs, si la unidad de medida es horas.  
-
-<!--OnPrem  ##  <a name="BKMK_SettingDateRanges"></a> Setting Date Ranges  
- You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges.  
-
-|**Meaning**|**Sample expression**|**Entries included**|  
-|-----------------|---------------------------|--------------------------|  
-|**Equal to**|12 15 00|Only those posted on 12 15 00.|  
-|**Interval**|12 15 00..01 15 01<br /><br /> ..12 15 00|Those posted on dates between and including 12 15 00 and 01 15 01.<br /><br /> Those posted on 12 15 00 or earlier.|  
-|**Either/or**|12 15 00&#124;12 16 00|Those posted on either 12 15 00 or 12 16 00. If there are entries posted on both days, they will all be displayed.|  
-
- You can also combine the various format types.  
-
-|**Sample expression**|**Entries included**|  
-|---------------------------|--------------------------|  
-|12 15 00&#124;12 01 00..12 10 00|Entries posted either on 12 15 00 or on dates between and including 12 01 00 and 12 10 00.|  
-|..12 14 00&#124;12 30 00..|Entries posted on 12 14 00 or earlier, or entries posted on 12 30 00 or later - that is, all entries except those posted on dates between and including 12 15 00 and 12 29 00.|
-
-## Using Date Formulas
-
- A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.  
-
-> [!NOTE]  
->  In all data formula fields, one day is automatically included to cover today as the day when the period starts. Accordingly, if you enter 1W, for example, then the period is actually eight days because today is included. To specify a period of seven days (one true week) including the period starting date, then you must enter 6D or 1W-1D.  
-
- Here are some examples of how date formulas can be used:  
-
--   The date formula in the recurring frequency field in recurring journals determines how often the entry on the journal line will be posted.  
-
--   The date formula in the Grace Period field for a specified reminder level determines the period of time that must pass from the due date (or from the date of the previous reminder) before a reminder will be created.  
-
--   The date formula in the Due Date Calculation field determines how to calculate the due date on the reminder.  
-
- The date calculation formula can contain a maximum of 20 characters, both numbers and letters. You can use the following letters, which are abbreviations for time specifications.  
-
-|||  
-|-|-|  
-|C|Current|  
-|D|Day(s)|  
-|W|Week(s)|  
-|M|Month(s)|  
-|Q|Quarter(s)|  
-|Y|Year(s)|  
-
- You can construct a date formula in three ways.  
-
- The following example shows how current plus a time unit.  
-
-|||  
-|-|-|  
-|CW|Current week|  
-|CM|Current month|  
-
- The following example shows how a number and a time unit. A number cannot be larger than 9999.  
-
-|||  
-|-|-|  
-|10D|10 days from today|  
-|2W|2 weeks from today|  
-
- The following example shows how a time unit and a number.  
-
-|||  
-|-|-|  
-|D10|The next 10th day of a month|  
-|WD4|The next 4th day of a week (Thursday)|  
-
- The following example shows how you can combine these three forms as needed.  
-
-|||  
-|-|-|  
-|CM+10D|Current month + 10 days|  
-
- The following example shows how you can use a minus sign to indicate a date in the past.  
-
-|||  
-|-|-|  
-|-1Y|1 year ago from today|
-
-[!CAUTION]  
->  If the location uses a base calendar, then the date formula that you enter in, for example, the **Shipping Time** field is interpreted according to the calendar working days. For example, a 1W means seven working days. For more information, see Base Calendar Card.-->
 
 ## <a name="see-also"></a>Consulte también  
  [Ordenar, buscar y filtrar listas](ui-enter-criteria-filters.md)  
