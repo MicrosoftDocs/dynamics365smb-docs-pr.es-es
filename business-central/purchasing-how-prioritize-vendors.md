@@ -10,30 +10,30 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier, payment priority
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c709539b24aa1f94c86dee26dd63adead39c892b
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 2586e9a5af338bee79bf73b494a7a653b6bfc2f2
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252370"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312537"
 ---
-# <a name="prioritize-vendors"></a><span data-ttu-id="90532-103">De prioridad a los proveedores</span><span class="sxs-lookup"><span data-stu-id="90532-103">Prioritize Vendors</span></span>
-[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="90532-104">puede proponer diversos pagos a proveedores, como los pagos que están próximos a vencer o los pagos en los que se pueden realizar descuentos.</span><span class="sxs-lookup"><span data-stu-id="90532-104">can suggest various payments to vendors, for example, payments that will be due soon or payments where a discount is available.</span></span> <span data-ttu-id="90532-105">Para obtener más información, vea [Proponer pagos a proveedores](payables-how-suggest-vendor-payments.md).</span><span class="sxs-lookup"><span data-stu-id="90532-105">For more information, see [Suggest Vendor Payments](payables-how-suggest-vendor-payments.md).</span></span>
+# <a name="prioritize-vendors"></a><span data-ttu-id="73918-103">De prioridad a los proveedores</span><span class="sxs-lookup"><span data-stu-id="73918-103">Prioritize Vendors</span></span>
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="73918-104">puede proponer diversos pagos a proveedores, como los pagos que están próximos a vencer o los pagos en los que se pueden realizar descuentos.</span><span class="sxs-lookup"><span data-stu-id="73918-104">can suggest various payments to vendors, for example, payments that will be due soon or payments where a discount is available.</span></span> <span data-ttu-id="73918-105">Para obtener más información, vea [Proponer pagos a proveedores](payables-how-suggest-vendor-payments.md).</span><span class="sxs-lookup"><span data-stu-id="73918-105">For more information, see [Suggest Vendor Payments](payables-how-suggest-vendor-payments.md).</span></span>
 
-<span data-ttu-id="90532-106">Primero, debe dar prioridad a los proveedores asignándoles números.</span><span class="sxs-lookup"><span data-stu-id="90532-106">First, you must prioritize your vendors by assigning numbers to them.</span></span>
+<span data-ttu-id="73918-106">Primero, debe dar prioridad a los proveedores asignándoles números.</span><span class="sxs-lookup"><span data-stu-id="73918-106">First, you must prioritize your vendors by assigning numbers to them.</span></span>
 
-## <a name="to-prioritize-vendors"></a><span data-ttu-id="90532-107">Para dar prioridad a proveedores</span><span class="sxs-lookup"><span data-stu-id="90532-107">To prioritize vendors</span></span>
-1. <span data-ttu-id="90532-108">Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Proveedores** y luego elija el enlace relacionado.</span><span class="sxs-lookup"><span data-stu-id="90532-108">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.</span></span>
-2. <span data-ttu-id="90532-109">Seleccione el proveedor correspondiente y, a continuación, elija **Editar**.</span><span class="sxs-lookup"><span data-stu-id="90532-109">Select the relevant vendor, and then choose **Edit**.</span></span>
-3. <span data-ttu-id="90532-110">En el campo **Prioridad**, escriba un número.</span><span class="sxs-lookup"><span data-stu-id="90532-110">In the **Priority** field, enter a number.</span></span>
+## <a name="to-prioritize-vendors"></a><span data-ttu-id="73918-107">Para dar prioridad a proveedores</span><span class="sxs-lookup"><span data-stu-id="73918-107">To prioritize vendors</span></span>
+1. <span data-ttu-id="73918-108">Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Proveedores** y luego elija el enlace relacionado.</span><span class="sxs-lookup"><span data-stu-id="73918-108">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.</span></span>
+2. <span data-ttu-id="73918-109">Seleccione el proveedor correspondiente y, a continuación, elija **Editar**.</span><span class="sxs-lookup"><span data-stu-id="73918-109">Select the relevant vendor, and then choose **Edit**.</span></span>
+3. <span data-ttu-id="73918-110">En el campo **Prioridad**, escriba un número.</span><span class="sxs-lookup"><span data-stu-id="73918-110">In the **Priority** field, enter a number.</span></span>
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="90532-111">considera que el número más bajo, excepto el 0, tiene la prioridad más alta.</span><span class="sxs-lookup"><span data-stu-id="90532-111">considers the lowest number, except 0, to have the highest priority.</span></span> <span data-ttu-id="90532-112">Por ejemplo, si utiliza 1, 2 y 3; 1 tendrá la prioridad más alta.</span><span class="sxs-lookup"><span data-stu-id="90532-112">So, for example, if you use 1, 2, and 3, then 1 will have the highest priority.</span></span>
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="73918-111">considera que el número más bajo, excepto el 0, tiene la prioridad más alta.</span><span class="sxs-lookup"><span data-stu-id="73918-111">considers the lowest number, except 0, to have the highest priority.</span></span> <span data-ttu-id="73918-112">Por ejemplo, si utiliza 1, 2 y 3; 1 tendrá la prioridad más alta.</span><span class="sxs-lookup"><span data-stu-id="73918-112">So, for example, if you use 1, 2, and 3, then 1 will have the highest priority.</span></span>
 
-<span data-ttu-id="90532-113">Si no desea dar prioridad a un proveedor, deje el campo **Prioridad** en blanco.</span><span class="sxs-lookup"><span data-stu-id="90532-113">If you do not want to prioritize a vendor, leave the **Priority** field blank.</span></span> <span data-ttu-id="90532-114">Más adelante, si utiliza la característica de propuesta de pago, el proveedor se mostrará después de todos los proveedores que poseen un número de prioridad.</span><span class="sxs-lookup"><span data-stu-id="90532-114">Then, if you use the payment suggestion feature, the vendor will be listed after all the vendors that have a priority number.</span></span> <span data-ttu-id="90532-115">Puede introducir tantos niveles de prioridad como considere necesario.</span><span class="sxs-lookup"><span data-stu-id="90532-115">You can enter as many priority levels as necessary.</span></span>
+<span data-ttu-id="73918-113">Si no desea dar prioridad a un proveedor, deje el campo **Prioridad** en blanco.</span><span class="sxs-lookup"><span data-stu-id="73918-113">If you do not want to prioritize a vendor, leave the **Priority** field blank.</span></span> <span data-ttu-id="73918-114">Más adelante, si utiliza la característica de propuesta de pago, el proveedor se mostrará después de todos los proveedores que poseen un número de prioridad.</span><span class="sxs-lookup"><span data-stu-id="73918-114">Then, if you use the payment suggestion feature, the vendor will be listed after all the vendors that have a priority number.</span></span> <span data-ttu-id="73918-115">Puede introducir tantos niveles de prioridad como considere necesario.</span><span class="sxs-lookup"><span data-stu-id="73918-115">You can enter as many priority levels as necessary.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="90532-116">Consulte también</span><span class="sxs-lookup"><span data-stu-id="90532-116">See Also</span></span>
-[<span data-ttu-id="90532-117">Configurar compras</span><span class="sxs-lookup"><span data-stu-id="90532-117">Setting Up Purchasing</span></span>](purchasing-setup-purchasing.md)  
-[<span data-ttu-id="90532-118">Administrar pagos</span><span class="sxs-lookup"><span data-stu-id="90532-118">Managing Payables</span></span>](payables-manage-payables.md)  
-<span data-ttu-id="90532-119">[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="90532-119">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="73918-116">Consulte también</span><span class="sxs-lookup"><span data-stu-id="73918-116">See Also</span></span>
+[<span data-ttu-id="73918-117">Configurar compras</span><span class="sxs-lookup"><span data-stu-id="73918-117">Setting Up Purchasing</span></span>](purchasing-setup-purchasing.md)  
+[<span data-ttu-id="73918-118">Administrar pagos</span><span class="sxs-lookup"><span data-stu-id="73918-118">Managing Payables</span></span>](payables-manage-payables.md)  
+<span data-ttu-id="73918-119">[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="73918-119">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>

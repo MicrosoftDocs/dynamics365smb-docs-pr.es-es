@@ -10,23 +10,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, salary, wage
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6bf5796a5e438995d039f2e40d7dbec3ccdc8cf1
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1dd13b3a0b1f11c5ba0b358fba7061b166d7b62c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250140"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315556"
 ---
-# <a name="the-ceridian-payroll-extension"></a><span data-ttu-id="90ae2-103">La extensión de nóminas de Ceridian</span><span class="sxs-lookup"><span data-stu-id="90ae2-103">The Ceridian Payroll Extension</span></span>
-<span data-ttu-id="90ae2-104">Para contabilizar los pagos de salario y transacciones relacionadas, deberá importar y registrar las transacciones financieras de salario creadas para el proveedor de nóminas al libro mayor.</span><span class="sxs-lookup"><span data-stu-id="90ae2-104">To account for salary payments and related transactions, you must import and post financial transactions made by your payroll provider to the general ledger.</span></span>
+# <a name="the-ceridian-payroll-extension"></a><span data-ttu-id="2f644-103">La extensión de nóminas de Ceridian</span><span class="sxs-lookup"><span data-stu-id="2f644-103">The Ceridian Payroll Extension</span></span>
+<span data-ttu-id="2f644-104">Para contabilizar los pagos de salario y transacciones relacionadas, deberá importar y registrar las transacciones financieras de salario creadas para el proveedor de nóminas al libro mayor.</span><span class="sxs-lookup"><span data-stu-id="2f644-104">To account for salary payments and related transactions, you must import and post financial transactions made by your payroll provider to the general ledger.</span></span>
 
-<span data-ttu-id="90ae2-105">Para hacer esto, primero importe un archivo que recibirá del proveedor de nóminas en la página **Diario general**.</span><span class="sxs-lookup"><span data-stu-id="90ae2-105">To do this, you first import a file that you receive from the payroll provider into the **General Journal** page.</span></span> <span data-ttu-id="90ae2-106">A continuación asigne las cuentas externas del archivo de nóminas a las cuentas correspondientes.</span><span class="sxs-lookup"><span data-stu-id="90ae2-106">Then you map the external accounts in the payroll file to the relevant G/L accounts.</span></span> <span data-ttu-id="90ae2-107">Por último, registre operaciones de nóminas según la asignación de cuentas.</span><span class="sxs-lookup"><span data-stu-id="90ae2-107">Lastly, you post the payroll transactions according to the account mapping.</span></span> <span data-ttu-id="90ae2-108">Para obtener más información, vea [Importar transacciones de nómina](finance-how-import-payroll-transactions.md).</span><span class="sxs-lookup"><span data-stu-id="90ae2-108">For more information, see [Import Payroll Transactions](finance-how-import-payroll-transactions.md).</span></span>
+<span data-ttu-id="2f644-105">Para hacer esto, primero importe un archivo que recibirá del proveedor de nóminas en la página **Diario general**.</span><span class="sxs-lookup"><span data-stu-id="2f644-105">To do this, you first import a file that you receive from the payroll provider into the **General Journal** page.</span></span> <span data-ttu-id="2f644-106">A continuación asigne las cuentas externas del archivo de nóminas a las cuentas correspondientes.</span><span class="sxs-lookup"><span data-stu-id="2f644-106">Then you map the external accounts in the payroll file to the relevant G/L accounts.</span></span> <span data-ttu-id="2f644-107">Por último, registre operaciones de nóminas según la asignación de cuentas.</span><span class="sxs-lookup"><span data-stu-id="2f644-107">Lastly, you post the payroll transactions according to the account mapping.</span></span> <span data-ttu-id="2f644-108">Para obtener más información, vea [Importar transacciones de nómina](finance-how-import-payroll-transactions.md).</span><span class="sxs-lookup"><span data-stu-id="2f644-108">For more information, see [Import Payroll Transactions](finance-how-import-payroll-transactions.md).</span></span>
 
-<span data-ttu-id="90ae2-109">La extensión de nóminas de Ceridian le permite importar transacciones de nóminas de los servicios Ceridian HR/Payroll (EE. UU.) y Ceridian PowerPay (Canadá).</span><span class="sxs-lookup"><span data-stu-id="90ae2-109">The Ceridian Payroll extension allows you to import payroll transactions from the Ceridian HR/Payroll (US) and Ceridian PowerPay (Canada) services.</span></span>
+<span data-ttu-id="2f644-109">La extensión de nóminas de Ceridian le permite importar transacciones de nóminas de los servicios Ceridian HR/Payroll (EE. UU.) y Ceridian PowerPay (Canadá).</span><span class="sxs-lookup"><span data-stu-id="2f644-109">The Ceridian Payroll extension allows you to import payroll transactions from the Ceridian HR/Payroll (US) and Ceridian PowerPay (Canada) services.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="90ae2-110">Consulte también</span><span class="sxs-lookup"><span data-stu-id="90ae2-110">See Also</span></span>
-<span data-ttu-id="90ae2-111">[Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones ](ui-extensions.md)  </span><span class="sxs-lookup"><span data-stu-id="90ae2-111">[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions ](ui-extensions.md)  </span></span>  
-<span data-ttu-id="90ae2-112">[Finanzas](finance.md)  </span><span class="sxs-lookup"><span data-stu-id="90ae2-112">[Finance](finance.md)  </span></span>  
-<span data-ttu-id="90ae2-113">[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="90ae2-113">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="2f644-110">Consulte también</span><span class="sxs-lookup"><span data-stu-id="2f644-110">See Also</span></span>
+<span data-ttu-id="2f644-111">[Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones ](ui-extensions.md)  </span><span class="sxs-lookup"><span data-stu-id="2f644-111">[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions ](ui-extensions.md)  </span></span>  
+<span data-ttu-id="2f644-112">[Finanzas](finance.md)  </span><span class="sxs-lookup"><span data-stu-id="2f644-112">[Finance](finance.md)  </span></span>  
+<span data-ttu-id="2f644-113">[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="2f644-113">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
