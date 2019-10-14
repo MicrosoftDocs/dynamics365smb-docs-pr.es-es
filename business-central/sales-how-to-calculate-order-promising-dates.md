@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 119c3df2f58f6aeb7ee6614a56b85c42724517c8
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 575d83652dde83c9b12358788a96d00c70ffcda3
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251543"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2316337"
 ---
 # <a name="calculate-order-promising-dates"></a>Calcular fechas de compromiso de entrega de pedido
 Una empresa debe poder informar a los clientes de las fechas de entrega del pedido. La página **Líneas compromiso entrega pedido** permite realizar esta operación desde una línea de pedido de venta.  
@@ -135,7 +135,7 @@ Para que un producto se pueda incluir en el cálculo del compromiso de entrega, 
 
 ## <a name="to-calculate-an-order-promising-date"></a>Para calcular una fecha de compromiso de entrega de pedido  
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedido de venta** y luego elija el enlace relacionado.  
-2.  Abra el pedido de venta pertinente y seleccione las líneas del pedido de venta que desea calcular.  
+2.  Abra el pedido de venta pertinente y seleccione las líneas del pedido de venta que desea que calcule la aplicación.  
 3.  Seleccione la acción **Comprom. entreg.** y, a continuación elija **Líneas compromiso entrega pedido**.  
 4.  Seleccione una línea y, a continuación, una de las siguientes opciones:  
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7b9bfeea6a4a3f93559d49319257053aef2f7bec
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: dc739c364b7e1fba5ab7c885c8c32052fd8f2dc9
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249091"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314897"
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Tutorial: realización de una campaña de ventas
 Una campaña es un tipo de actividad que implica varios contactos. Una importante parte de la configuración de una campaña implica la selección del público objetivo para la misma. Con este fin, en [!INCLUDE[d365fin](includes/d365fin_md.md)], creará un segmento o grupo de contactos con filtros.  

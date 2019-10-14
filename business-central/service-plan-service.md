@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, work hours, configure, price, pricing
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 6a92b411eebe7e469d19b12dc1afbce9cf2f5dd3
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ded3c6ba3fe0b2632597ffe717141aa41a2c42cf
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250623"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315977"
 ---
 # <a name="planning-services"></a>Servicio de planificación
 Con [!INCLUDE[d365fin](includes/d365fin_md.md)], puede configurar las tareas estándar que necesite para satisfacer las necesidades de servicio de su cliente. Para realizarlo, debe determinar qué ofertas de productos de servicio admite su organización de servicios y a qué precio.   

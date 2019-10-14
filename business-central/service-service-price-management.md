@@ -4,20 +4,20 @@ description: Este tema describe cómo aplicar el mejor precio a los pedidos de s
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 08/28/2017
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: a4b5b946d6c1402ad1a27661267c202b703cc1c1
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 14ea816e6614a3e47cbc9e47a1adccf8eeddffbd
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249887"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311577"
 ---
 # <a name="service-price-management"></a>Gestión de precios de servicios
 La funcionalidad de gestión de precios de servicio le permite aplicar el mejor precio a los pedidos de servicio, configurar los acuerdos de precios de servicio personalizados, mejorar la eficacia de los empelados de servicio y acelerar el proceso de facturación.  

@@ -9,22 +9,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 09/17/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 96471b07d48120db7fda5e48a14c9ca0147688fb
-ms.sourcegitcommit: 7ce8005806465417c7040c61da1d6cada29cd9c0
+ms.openlocfilehash: 22014c6df6ccffa08ff2fed25d40ce4c0312d57d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "2000768"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315593"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Trabajar con fechas y horas del calendario
 
 [!INCLUDE[d365fin](includes/d365fin_long_md.md)] ofrece múltiples formas de introducir fechas y horas, además de potentes funciones que aceleran la entrada de datos o ayudan a escribir expresiones de calendario complejas. Hay varios lugares en la aplicación donde puede introducir fechas y horas en los campos. Por ejemplo, en un pedido de venta, puede establecer la fecha de envío. Al filtrar listas o datos de informes, puede introducir fechas y horas para señalar solo los datos que le interesan.
 
 ## <a name="check-your-region-and-language-settings"></a>Compruebe su región y la configuración de idioma
-
-La página [**Mi configuración**](https://businesscentral.dynamics.com?page=9176 "Vaya directamente a la página de configuración en Business Central") especifica la **región** y el **idioma** que está utilizando en la aplicación. Estos ajustes influyen en cómo se introducen las fechas y horas.
+La página **Mi configuración** especifica los valores de **Región** e **Idioma** que utiliza en la aplicación. Estos ajustes influyen en cómo se introducen las fechas y horas.
 
 -   El valor **Región** determina cómo se muestran o se forman las fechas, los tiempos, los números, y divisas.
 
@@ -51,7 +50,7 @@ Cualquier campo que muestre un icono de calendario se puede configurar con el se
 
 ![Campos de fecha](media/ui-date-field.png "Ejemplo de un campo de fecha")
 
-Consulte también [Métodos abreviados de teclado en el selector de fechas del calendario](keyboard-shortcuts.md#calendarshortcuts)
+Consulte también [Métodos abreviados de teclado en el selector de fechas del calendario](keyboard-shortcuts.md#calendarshortcuts).
 
 ### <a name="day-week-year-pattern"></a>Patrón día\-semana\-año
 
@@ -85,11 +84,11 @@ Los periodos contables se definen en la página **Periodos contables**. Para ver
 
 La función de fecha de trabajo le permite grabar transacciones usando una fecha que es diferente de la fecha actual.
 
-La palabra para 'fecha de trabajo', en el idioma establecido por la configuración de **Idioma**, establecerá la fecha en la fecha de trabajo establecida actualmente que se especifica en la página [**Mis configuraciones**](https://businesscentral.dynamics.com?page=9176 "Vaya directamente a la página de configuración en Business Central"). En lugar de introducir la palabra completa, puede introducir parte de la palabra, comenzando desde el principio, como "t" o "trabajo".
+La palabra para 'fecha de trabajo', en el idioma establecido por la configuración **Idioma**, establecerá la fecha en la fecha de trabajo establecida actualmente que se especifica en la página **Mis configuraciones**. En lugar de introducir la palabra completa, puede introducir parte de la palabra, comenzando desde el principio, como "t" o "trabajo".
 
 Si no ha definido una fecha de trabajo, la fecha actual se usará como la fecha de trabajo. Una fecha de trabajo se puede usar si hay muchas operaciones con una fecha distinta a la activa.
 
-Consulte también [Cambiar la configuración básica como la Fecha de trabajo](ui-change-basic-settings.md#work-date).
+Consulte también [Cambiar la configuración básica como la fecha de trabajo](ui-change-basic-settings.md#work-date).
 
 ### <a name="closing-date"></a>Fecha cierre
 
@@ -129,8 +128,8 @@ En listas, totales e informes, puede establecer filtros en fechas, horas y fecha
 |**Significado**|**Expresión de muestra (Fecha)**|**Datos que se incluyen en el filtro**|
 |-----------|---------------------|--------------------|
 |Intervalo|15 12 00..15 01 01<br /><br />..15 12 00<br /><br />p1..p4|Registros con fechas entre el 15 12 00 y el 15 01 01 inclusive.<br /><br />Registros con fechas de 12 15 00 o anteriores.<br /><br />Rango de fechas que incluye los períodos contables segundo, tercero y cuarto, por ejemplo, 01/01/20..30/04/20.|
-|O|15 12 00|16 12 00|Registros con datos de 12 15 00 o 12 16 00. Si hay registros con fechas en ambos días, se mostrarán todos.|
-|Combinación|15 12 00|01 12 00..10 12 00  \n..14 12 00|30 12 00..|Registros con fechas de 15 12 00 o en fechas entre el 01 12 00 y el 10 12 00, inclusive.  \Registros con fechas de 14 12 00 o anteriores, o fechas de 30 12 00 o posteriores, es decir, todos los registros excepto aquellos con fechas comprendidas entre 15 12 00 y 29 12 00 inclusive.|
+|O|15 12 00\|16 12 00|Registros con datos de 12 15 00 o 12 16 00. Si hay registros con fechas en ambos días, se mostrarán todos.|
+|Combinación|15 12 00\|01 12 00..10 12 00  <br /><br />..14 12 00\|30 12 00..|Registros con fechas de 15 12 00 o en fechas entre el 01 12 00 y el 10 12 00, inclusive.  <br /><br />Registros con fechas de 12 14 00 o anteriores, o fechas de 12 30 00 o posteriores, es decir, todos los registros excepto aquellos con fechas comprendidas entre 12 15 00 y 12 29 00 inclusive.|
 
 Puede utilizar cualquiera de los formatos válidos en los filtros de rango de fechas. Por ejemplo, lun14 3..h 4p aplicado en un campo de fecha y hora da como resultado un filtro desde las 3 a.m. del lunes en la semana 14 del año actual de la fecha de trabajo, inclusive, hasta hoy a las 4 p.m., inclusive.
 

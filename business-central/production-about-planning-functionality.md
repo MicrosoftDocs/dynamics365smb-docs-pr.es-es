@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0ed611dd790685999048887d4a7b96d45a7cd696
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 27a2a105cbb6a8a449de44c564dc448ec6136d61
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253561"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313473"
 ---
 # <a name="about-planning-functionality"></a>Sobre la funcionalidad de la planificación
 El programa de planificación tiene en cuenta todos los datos del aprovisionamiento y la demanda, cuadra el resultado y genera sugerencias para hacer que el aprovisionamiento satisfaga la demanda.  
@@ -30,13 +30,13 @@ Para obtener información detallada, consulte [Detalles de diseño: Planificaci�
 ## <a name="demand-and-supply"></a>Aprovisionamiento y demanda  
 La planificación tiene dos elementos: demanda y aprovisionamiento. Dichos elementos se deben equilibrar para garantizar que la demanda se satisface de manera puntual y rentable.  
 
-- Demanda es el término habitual usado para todo tipo de necesidades brutas: pedido de venta, pedido de servicio, necesidad de componentes de órdenes de producción, pedidos de ensamblado, transferencia de salida, pedido abierto o previsión. Además de todos ellos, el programa admite algunos otros tipos técnicos de demanda, por ejemplo una orden de producción o un pedido de compra negativos, existencias negativas y devoluciones de compras.  
+- Demanda es el término habitual usado para todo tipo de necesidades brutas: pedido de venta, pedido de servicio, necesidad de componentes de órdenes de producción, pedidos de ensamblado, transferencia de salida, pedido abierto o previsión. Además de todos ellos, la aplicación admite algunos otros tipos técnicos de demanda, por ejemplo una orden de producción o un pedido de compra negativos, existencias negativas y devoluciones de compras.  
 - Aprovisionamiento es el término habitual utilizado para todo tipo de reposición: existencias, pedido de compra, pedido de ensamblado, orden de producción o transferencia de entrada. En correspondencia, puede haber un pedido de venta o de servicio negativo, una necesidad de componente negativa o una devolución de ventas; todos ellos, de alguna forma, representan también un aprovisionamiento.  
 
 Otro objetivo del sistema de planificación es el de garantizar que las existencias no aumentan innecesariamente. En el caso de un descenso de la demanda, el programa de planificación sugerirá que se pospongan o cancelen algunos de los pedidos de reposición existentes, o que se reduzca sus cantidades.  
 
 ## <a name="planning-calculation"></a>Cálculo de la planificación  
-El programa de planificación está controlado por la demanda, estimada y real, de los clientes, además de los parámetros de reaprovisionamiento de existencias. Si se ejecuta el cálculo de la planificación, el programa sugerirá acciones concretas (mensajes de acción) que se deben emprender en relación con una posible reposición de los proveedores, transferencias entre almacenes, o producción. Si ya hay pedidos de reposición, las acciones sugeridas pueden ser aumentar o acelerar los pedidos para satisfacer los cambios de la demanda.  
+El programa de planificación está controlado por la demanda, estimada y real, de los clientes, además de los parámetros de reaprovisionamiento de existencias. Si se ejecuta el cálculo de la planificación, la aplicación sugerirá acciones concretas (mensajes de acción) que se deben emprender en relación con una posible reposición de los proveedores, transferencias entre almacenes, o producción. Si ya hay pedidos de reposición, las acciones sugeridas pueden ser aumentar o acelerar los pedidos para satisfacer los cambios de la demanda.  
 
 La base de la rutina de planificación es el cálculo bruto-neto. Las necesidades netas controlan la emisión de pedidos planificados, que se programan en función de la información sobre rutas (productos fabricados) o el plazo de seguridad de la ficha de producto (productos comprados). Las cantidades de los pedidos planificados se basan en el cálculo de la planificación y se ven afectadas por los parámetros definidos en cada una de las fichas de producto.  
 

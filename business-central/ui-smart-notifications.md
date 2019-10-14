@@ -9,16 +9,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: c70a8fd066ffd5d312716891aa4cdf7768cd102a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 6e78a03e17348545805d0be889b62a2cb8187197
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249220"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315017"
 ---
-# <a name="managing-notifications"></a>Administrar notificaciones
+# <a name="manage-notifications"></a>Administrar notificaciones
 [!INCLUDE[d365fin](includes/d365fin_md.md)] le puede ayudar a trabajar de una forma más inteligente con las notificaciones que le envía sobre determinados eventos o cambios de estado, cuando va a facturar a un cliente que tiene un saldo vencido o cuando el inventario disponible es inferior a la cantidad que va a vender, por ejemplo. Estas notificaciones se muestran como sugerencias discretas en el contexto de la tarea que está llevando acabo, y puede elegir si las ignora o lee más detalles acerca del problema.  
 
 Si elige ver los detalles de una notificación, puede intentar resolver el problema como, por ejemplo, poniéndose en contacto con el cliente, comprando más artículos para el inventario, etc. Puede decidir qué hacer y [!INCLUDE[d365fin](includes/d365fin_md.md)] le proporciona consejos y recomendaciones.  

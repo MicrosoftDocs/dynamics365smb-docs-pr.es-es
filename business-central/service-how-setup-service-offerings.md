@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: components, service item, service
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1a33fbd8bebd24806c373b9e7d35c2e877e8b747
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: bcd6597ff26a3889608486cde6f8d0158364a956
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250025"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311793"
 ---
 # <a name="set-up-service-offerings"></a>Configurar ofertas de servicio
 Cuando configure la gestión de servicios, debe decidir qué servicios desea ofrecer a los clientes y la previsión de dichos servicios. Un servicio es un tipo de trabajo realizado por uno o varios recursos y proporcionado a un cliente. Por ejemplo, un servicio podría ser un tipo de reparación de equipo. Un producto de servicio es el equipo o producto que necesita servicios, como el equipo que necesita reparación, instalado en un cliente determinado. Puede configurar servicios como parte de un grupo de productos relacionados de reparación o mantenimiento.  

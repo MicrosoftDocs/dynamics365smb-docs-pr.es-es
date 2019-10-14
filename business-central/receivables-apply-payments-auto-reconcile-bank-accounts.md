@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 124b3e82a38af375128353d977cc250aa9f94cf8
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 70faf0628df96718c93767326720be56f7c05268
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251405"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312321"
 ---
 # <a name="applying-payments-automatically-and-reconciling-bank-accounts"></a>Liquidación de pagos automáticamente y conciliación de cuentas bancarias
 Debe conciliar con frecuencia las cuentas bancarias, las de cobros y las de pagos liquidando pagos registrados en el banco en sus facturas sin abonar relacionadas, abonos y otros movimientos pendientes en [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -26,7 +26,7 @@ Puede realizar esta tarea en la página **Diario de conciliación de pagos** imp
 
 También puede conciliar cuentas bancarias sin liquidar pagos simultáneamente. Este trabajo se realiza en la página **Conciliación banco**. Para obtener más información, vea [Conciliar cuenta bancaria por separado](bank-how-reconcile-bank-accounts-separately.md).   
 
-Para importar extractos bancarios como fuente de banco, primero debe configurar y habilitar el servicio Envestnet Yodlee Bank Feeds y, a continuación, vincular sus cuentas bancarias a las cuentas bancarias en línea relacionadas. Para obtener más información, vea [Configuración del servicio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)  
+Para importar extractos bancarios como fuente de banco, primero debe configurar y habilitar el servicio Envestnet Yodlee Bank Feeds y, a continuación, vincular sus cuentas bancarias a las cuentas bancarias en línea relacionadas. Para obtener más información, vea [Configurar el servicio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).  
 
 De forma alternativa, puede usar el servicio de conversión de datos de banco para convertir un archivo de extracto de banco, en cualquier formato, a una secuencia de datos que pueda importar en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, vea [Configuración del servicio de conversión de datos bancarios](bank-how-setup-bank-data-conversion-service.md).  
 

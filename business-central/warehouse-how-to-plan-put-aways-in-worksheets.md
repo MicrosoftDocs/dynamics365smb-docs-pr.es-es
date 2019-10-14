@@ -1,6 +1,6 @@
 ---
 title: Cómo planificar ubicaciones en la hoja de trabajo | Documentos de Microsoft
-description: Si el almacén requiere los procesos de ubicación y recepción, y desea planificar instrucciones de ubicación para varias recepciones, en vez de hacer que los empleados sigan las instrucciones que crea el sistema para recepciones registradas independientes, puede utilizar la hoja de trabajo de ubicación.
+description: Si el almacén requiere los procesos de ubicación y recepción, y desea planificar instrucciones de ubicación para varios albaranes, en vez de hacer que los empleados sigan las instrucciones que crea la aplicación para albaranes registrados independientes, puede utilizar la hoja de trabajo de ubicación.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3bf24a32ba4a411ada744092d594b874c0154588
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ae631fc6383e9aec6edc5fcc432e614f39ee74e4
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248461"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314609"
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Planificar ubicaciones en hojas de trabajo
-Si el almacén requiere los procesos de ubicación y recepción, y desea planificar instrucciones de ubicación para varias recepciones, en vez de hacer que los empleados sigan las instrucciones que crea el sistema para recepciones registradas independientes, puede utilizar la hoja de trabajo de ubicación.  
+Si el almacén requiere los procesos de ubicación y recepción, y desea planificar instrucciones de ubicación para varios albaranes, en vez de hacer que los empleados sigan las instrucciones que crea la aplicación para albaranes registrados independientes, puede utilizar la hoja de trabajo de ubicación.  
 
 Para configurar el almacén de manera que las líneas de recepción estén disponibles en la hoja de trabajo de ubicación en cuanto se registran, seleccione el campo **Utiliza hoj. trab. ubicación** en la ficha desplegable **Almacén** de la ficha de almacén. Para obtener más información, consulte [Configuración de la administración de almacén](warehouse-setup-warehouse.md).  
 
-Si no selecciona este campo, el programa creará automáticamente instrucciones de ubicación para las recepciones que se registren.  
+Si no selecciona este campo, la aplicación creará automáticamente instrucciones de ubicación para los albaranes que se registren.  
 
 > [!NOTE]  
 >  Independientemente del estado del campo **Utiliza hoj. trab. ubicación** de la ficha de almacén, siempre puede traer líneas de la instrucción de ubicación, es decir, líneas de la recepción registrada, a la hoja de trabajo de ubicación si hace lo siguiente:  
@@ -41,7 +41,7 @@ Si no selecciona este campo, el programa creará automáticamente instrucciones 
 3. Seleccione los documentos con los que desee trabajar en la hoja de trabajo. Puede trabajar con líneas de distintos documentos al mismo tiempo.  
 
     > [!NOTE]  
-    >  Si intenta seleccionar un documento de recepción o ubicación interna para el que ya ha creado instrucciones para todas sus líneas, el programa le indica que no tiene nada que manipular.  
+    >  Si intenta seleccionar un documento de albarán o ubicación interna para el que ya ha creado instrucciones para todas sus líneas, la aplicación le indica que no tiene nada que manipular.  
 
 4. Rellene el campo **Método ordenación** para ordenar las líneas de la forma que prefiera.  
 
@@ -58,14 +58,14 @@ Si no selecciona este campo, el programa creará automáticamente instrucciones 
 
     -   Puede asignar la ubicación a un empelado determinado.  
     -   Puede ordenar las líneas de la instrucción de ubicación como lo hizo en la hoja de trabajo o por ranking de ubicación. Cuando ordene según el ranking de ubicación, las líneas Traer se muestran primero, ya que las ubicaciones de la mayoría de las recepciones tienen un ranking de ubicación con el valor 0 y las líneas Colocar aparecen al final, empezando con las ubicaciones con el ranking de ubicación inferior. Si ha estructurado el almacén para que las ubicaciones de ranking similar estén unas al lado de otras, la ordenación de las líneas de esta forma finalmente ahorrará muchos pasos a los empleados de almacén.  
-    -   Puede optar por no ver las líneas intermedias creadas cuando el sistema divide una unidad de medida grande en otras más pequeñas seleccionando el campo **Define filtro div. bulto**. Para obtener más información, consulte [Habilitar interrupción automática masiva con ubicaciones y picking directos](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md).  
+    -   Puede optar por no ver las líneas intermedias creadas cuando la aplicación divide una unidad de medida grande en otras más pequeñas seleccionando el campo **Define filtro div. bulto**. Para obtener más información, consulte [Habilitar interrupción automática masiva con ubicaciones y picking directos](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md).  
     -   Puede hacer que no se rellene automáticamente el campo **Cdad. a manipular** en las instrucciones de ubicación.  
     -   También puede elegir imprimir el documento inmediatamente.  
 
-8.  Seleccione **Aceptar** y el sistema creará la ubicación según sus solicitudes.  
+8.  Seleccione **Aceptar** y la aplicación creará la ubicación según sus solicitudes.  
 
 ## <a name="see-also"></a>Consulte también  
-[Gestión almacén](warehouse-manage-warehouse.md)  
+[Gestión de almacenes](warehouse-manage-warehouse.md)  
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    

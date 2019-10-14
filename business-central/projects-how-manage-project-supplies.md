@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, material, purchase
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b6f60fccd9be7dbad28b1d0e190d240602720c69
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 676658e869d0310fac71dda592c892994dac0edc
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252647"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312849"
 ---
 # <a name="manage-job-supplies"></a>Administración de suministros de proyecto
 La administración de los suministros de los productos, servicios y gastos de un proyecto es un aspecto clave y fundamental de la ejecución de todos los proyectos. Puede utilizar las cantidades de inventario o realizar compras de proyecto mediante pedidos de compra o facturas de compra. Por ejemplo, un proyecto de servicio en un equipo precisa un disco nuevo. Debe crear una factura de compra para comprar un disco nuevo y registrar el proyecto en el que se va a usar.
@@ -29,7 +29,7 @@ El siguiente procedimiento muestra cómo utilizar una factura de compra para com
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Facturas compra** y luego elija el enlace relacionado.  
 2. Elija la acción **Nuevo** y, a continuación, rellene los campos según sea necesario. Para obtener más información, consulte [Registrar compras](purchasing-how-record-purchases.md).
-3. En los campos **Nº proyecto** y **N.º tarea de trabajo**, seleccione la información del proyecto para el que desea comprar productos o servicios. Use la función **Elegir columnas** si el campo no está visible. Para obtener más información, vea [Personalización del área de trabajo](ui-personalization-user.md).
+3. En los campos **Nº proyecto** y **N.º tarea de trabajo**, seleccione la información del proyecto para el que desea comprar productos o servicios. Use la función **Elegir columnas** si el campo no está visible. Para obtener más información, consulte [Personalizar el área de trabajo](ui-personalization-user.md).
 
     El valor que seleccione en el campo **Tipo línea proyecto** define si una línea de planificación se crea cuando registra el uso del producto. Si el campo contiene **Facturable**, se crean las líneas de planificación de proyecto preparadas para facturarlas al cliente. Para obtener más información, vea [Facturar trabajos](projects-how-invoice-jobs.md).
 4. Seleccione la acción **Registrar**.

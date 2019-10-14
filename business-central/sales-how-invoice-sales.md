@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 08/19/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 53f2356299bfa21efda3ec4c98dacfca68539dea
-ms.sourcegitcommit: 81b6062194bf04d8052a3cd394cc0b41e3f53e6d
+ms.openlocfilehash: ccc909b56e3d1d1d48915470b819be2c91c92b9b
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "1887604"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312201"
 ---
 # <a name="invoice-sales"></a>Facturar ventas
 Puede crear una factura o un pedido de ventas para registrar el contrato con un cliente para vender determinados productos según términos de entrega y pago determinados.  
@@ -69,7 +69,7 @@ Puede rellenar los campos de clientes en la factura de venta de dos formas en fu
 11. En el campo **Cantidad**, especifique cuántas unidades de producto, cargo o transacción registrará la línea para el cliente.  
 
     > [!NOTE]  
-    >   Si el producto es de tipo **Servicio** o el campo **Tipo** contiene **Recurso**, la cantidad es una unidad de tiempo, por ejemplo horas, según se indica en el campo **Cód. unidad medida** en la línea.  
+    > Si el producto es de tipo **Servicio** o el campo **Tipo** contiene **Recurso**, la cantidad es una unidad de tiempo, por ejemplo horas, según se indica en el campo **Cód. unidad medida** en la línea. Para obtener más información, vea [Configurar unidades de medida de producto](inventory-how-setup-units-of-measure.md)
 
     El valor del campo **Importe línea** se calculará como *Precio venta* x *Cantidad*.  
 

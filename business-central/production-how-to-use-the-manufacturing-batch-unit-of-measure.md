@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 52801c3303a06488416b8b82fac3f761ec0705e7
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ea111c7f31406fd016cea2ebed70df2311d2b930
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252394"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313089"
 ---
 # <a name="work-with-manufacturing-batch-units-of-measure"></a>Trabajar con la unidad de medida de lote de fabricación
 Si un producto se almacena en una unidad de medida pero se fabrica en otra, se crea una orden de producción que utiliza una unidad de medida de la sección de fabricación para calcular la cantidad correcta de componentes durante el trabajo por lotes **Actualizar orden producción**. Un ejemplo del cálculo de una unidad de medida de la sección de fabricación es el caso en que un producto fabricado se almacena por piezas pero se produce en toneladas.  
@@ -33,7 +33,7 @@ Si un producto se almacena en una unidad de medida pero se fabrica en otra, se c
 6.  Cree una cabecera de orden de producción utilizando el producto configurado con la unidad de medida de la sección de fabricación. Para obtener más información, consulte [Crear órdenes de producción](production-how-to-create-production-orders.md).  
 7.  Elija la acción **Actualizar** y, a continuación, seleccione el botón **Aceptar**.  
 
-En la ficha desplegable **Líneas**, elija la acción **Línea** y, a continuación, seleccione la acción **Componentes** para ver el resultado. El programa calcula la cantidad correcta de los componentes necesarios para satisfacer la lista de materiales de producción en función de la unidad de medida de la sección de fabricación.  
+En la ficha desplegable **Líneas**, elija la acción **Línea** y, a continuación, seleccione la acción **Componentes** para ver el resultado. La aplicación calcula la cantidad correcta de los componentes necesarios para satisfacer la lista de materiales de producción en función de la unidad de medida de la sección de fabricación.  
 
 ## <a name="to-calculate-a-manufacturing-batch-unit-of-measure-on-a-production-order"></a>Para calcular una unidad de medida de sección de fabricación de una orden de producción  
 1.  Cree una cabecera de orden de producción utilizando el producto configurado con la unidad de medida de la sección de fabricación.  

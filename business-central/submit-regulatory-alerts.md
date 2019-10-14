@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.reviewer: edupont
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: soalex
-ms.openlocfilehash: d4ceef0780306015795c0a2406245514c2a26de5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 482c0e9f7fe0fa787ab9d3e45f22abd07d009b3e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250324"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315713"
 ---
 # <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Enviar alertas sobre las características normativas específicas del país/región
 
@@ -21,13 +21,21 @@ Le invitamos a utilizar Microsoft Dynamics Lifecycle Services (LCS) para enviar 
 
 ## <a name="to-submit-a-regulatory-alert-in-lcs"></a>Para enviar una alerta normativa en LCS
 
-1. Vaya a https://lcs.dynamics.com e inicie sesión. Se le mostrarán los proyectos a los que tiene acceso.
+1. Vaya a https://lcs.dynamics.com e inicie sesión  
 
-2. Seleccione el proyecto **Alertas normativas: internacionales**. Esto abrirá el proyecto y mostrará una variedad de características relacionadas con este proyecto.
+    Se le mostrarán los proyectos a los que tiene acceso
 
-3. Seleccione **Servicio de alertas** en el lado derecho en la sección **Más herramientas**. Verá una lista de alertas con el encabezado **Envío de alertas normativas de Dynamics**.
+2. Seleccione el proyecto **Alertas normativas: internacionales**
 
-4. Puede añadir una nueva alerta haciendo clic en el signo más **(+)** en la parte superior de la lista. Esta acción le presentará una guía de 4 pasos para crear la alerta. La guía tiene los pasos siguientes:
+    Se abrirá el proyecto y mostrará varios elementos relacionados con este proyecto
+
+3. Seleccione **Servicio de alerta** en el lado derecho de la sección **Más herramientas**
+
+    Verá una lista de alertas con el título **Envío de alertas normativas de Dynamics**
+
+4. Puede agregar una nueva alerta haciendo clic en el signo más **(+)** en la parte superior de la lista
+
+    Se le presentará una guía de cuatro pasos para crear la alerta. La guía tiene los pasos siguientes:
     - Buscar artículos existentes
 
         Busque cualquier información que considere relevante para la alerta que va a crear. Si no encuentra resultados de búsqueda relevantes, puede seleccionar el botón **Enviar alerta normativa** en la parte inferior de la página para continuar con el envío de la alerta.
@@ -44,7 +52,7 @@ Le invitamos a utilizar Microsoft Dynamics Lifecycle Services (LCS) para enviar 
         |Description  | Introduzca un breve resumen de la ley. La descripción debe centrarse en los problemas que son relevantes para la planificación de recursos empresariales (ERP), de modo que los usuarios puedan comprender los requisitos en su totalidad sin tener que leer la legislación primero.|
         |País  | Especifique el país o región al que se aplica la legislación.|
         |Industria| Especifique la industria, si el requisito se aplica solo a industrias específicas. Por ejemplo, elija **Sector público**, **Mercadería** o **Fabricación**.|
-        |Referencia de la característica  | Esto no es relevante para Dynamics 365 Business Central pero, si conoce alguna, puede introducir una referencia de características. La lista de características para el país específico se puede encontrar en el [Portal de localización](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC). |
+        |Referencia de la característica  | Esto no es relevante para Dynamics 365 Business Central pero, si conoce alguna, puede introducir una referencia de características. La lista de características para el país específico se puede encontrar en el [Portal de localización](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC) en el sitio de CustomerSource. |
         |Fecha de la aplicación de la ley  | Especifique la fecha en que los clientes afectados deben comenzar a cumplir con la ley.|
         |Fecha de anuncio de las administraciones públicas  | Especifique la fecha en la que la autoridad anunció el cambio.|
         |Última fecha de presentación  | Seleccione la fecha límite para el primer envío del informe nuevo o modificado.|
@@ -66,7 +74,9 @@ Le invitamos a utilizar Microsoft Dynamics Lifecycle Services (LCS) para enviar 
 
 ## <a name="see-also"></a>Consulte también
 
-[Bienvenido a Business Central](index.md)  
+[Funcionalidad local en [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](about-localization.md)  
+[Cambiar idioma y región](about-locale-language.md)  
 [Introducción](product-get-started.md)  
+[Bienvenido a Business Central](index.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

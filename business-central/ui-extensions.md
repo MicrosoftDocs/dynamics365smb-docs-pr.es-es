@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 08/22/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 93d75f1ea55f47c6601cbdd3c3856e39b9dc1416
-ms.sourcegitcommit: 6ef7d2fae52feff786f2e15e2863d7f5aaa762be
+ms.openlocfilehash: c4e8fe698aa93a110cb2cb2df5f094a79cc20bb7
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1917419"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311025"
 ---
 # <a name="customizing-business-central-using-extensions"></a>Personalizar Business Central con extensiones
 Puede cambiar [!INCLUDE[d365fin](includes/d365fin_md.md)] instalando extensiones que agregan funciones, cambian el comportamiento o proporcionan acceso a nuevos servicios en línea, por ejemplo.
@@ -47,7 +47,7 @@ Si selecciona una extensión, puede consultar las funciones de la extensión y a
 Al instalar una extensión, es posible que tenga que configurarla, por ejemplo, especificar una cuenta para usar con la extensión **Paypal Payments Standard para [!INCLUDE[d365fin](includes/d365fin_md.md)]**.
 Otras extensiones simplemente agregan campos a una página existente o agregan una página nueva, por ejemplo.   
 
-Si desinstala una extensión y cambia de idea, puede volver a instalarla. Al desinstalar una extensión que ha estado usando, los datos se guardan para que se vuelve a instalar la extensión estén disponibles.  
+Si desinstala una extensión y cambia de idea, puede volver a instalarla. Al desinstalar una extensión que ha estado usando, los datos se guardan para que se vuelve a instalar la extensión estén disponibles. Hay algunas extensiones que son obligatorias. No puede desinstalarlas de la página **Administración de extensiones**. Si lo intenta, aparece un mensaje de error.  
 
 Algunas de las extensiones las proporciona Microsoft y otras las proporcionan [otras empresas](ui-extensions-other.md). Se prueban todas las extensiones antes de que estén disponibles, pero le recomendamos que acceda a los vínculos que se proporcionan con cada extensión para obtener más información sobre la extensión antes de optar por instalarla.  
 

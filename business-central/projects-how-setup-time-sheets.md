@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d2efe0d6d630f3548a41e164f0d71cb98fe09240
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 7fe47c3ae0faed5fbb8ca1c60314c774abf8143a
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253222"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312729"
 ---
 # <a name="set-up-time-sheets"></a>Configuración de hojas de horas
 Las hojas de horas de [!INCLUDE[d365fin](includes/d365fin_md.md)] administran el registro de horas en incrementos semanales de siete días. Se usan para realizar el seguimiento del tiempo empleado en proyectos y puede usarlas para efectuar el registro de tiempo simple. Antes de poder usar las hojas de horas, debe especificar cómo desea que se configuren.
@@ -42,7 +42,7 @@ Cuando haya configurado las hojas de horas, puede crear hojas de horas para recu
 
 ## <a name="to-assign-a-time-sheet-administrator"></a>Para asignar un administrador de la hoja de horas
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración del usuario** y luego elija el enlace relacionado.  
-2. Agregue un nuevo usuario, si la lista de usuarios no incluye a la persona que desea que sea el administrador de la hoja de horas. Para obtener más información, vea [Administración de usuarios y permisos](ui-how-users-permissions.md).
+2. Agregue un nuevo usuario, si la lista de usuarios no incluye a la persona que desea que sea el administrador de la hoja de horas. Para obtener más información, vea [Administrar usuarios y permisos](ui-how-users-permissions.md).
 3. Seleccione el usuario que sea un administrador de hoja de horas y seleccione la casilla **Admin. hoja horas**.  
 
 > [!TIP]  

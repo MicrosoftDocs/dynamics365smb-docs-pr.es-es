@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a4b6f58c434c563021e94e55e47c547d39967502
-ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
+ms.openlocfilehash: ca99b44b7c96037d07c00902df3411db81745d86
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "1985891"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2316649"
 ---
 # <a name="collect-outstanding-balances"></a>Cobrar saldos pendientes
 Gestionar cobros incluye comprobar si los importes vencidos se pagan puntualmente. Si los clientes tienen pagos vencidos, puede empezar enviando el informe de Extracto de cliente como recordatorio. También puede emitir recordatorios.
@@ -161,6 +161,11 @@ Por otra parte, la emisión del recordatorio puede afectar a los movimientos de 
 
 El recordatorio está impreso para enviarlo a un correo electrónico específico como un archivo PDF adjunto.
 
+### <a name="to-cancel-an-issued-reminder"></a>Para cancelar un recordatorio emitido
+Si se han emitido recordatorios por error, puede cancelarlos antes de enviarlos. Puede hacerlo uno por uno o en lote.
+1. En la página **Recordatorios emitidos**, seleccione una o más líneas de los recordatorios emitidos que desea cancelar y, a continuación, elija la acción **Cancelar**.
+2. En la página **Cancelar recordatorios emitidos**, rellene los campos según sea necesario y, a continuación, elija el botón **Aceptar**.
+
 ## <a name="to-set-up-finance-charge-terms"></a>Configurar términos interés
 Debe definir un código para cada cálculo de interés. Después puede introducir este código en el campo **Cód. interés** de las fichas de cliente o proveedor.
 
@@ -243,6 +248,11 @@ Por otra parte, la emisión del documento de interés puede afectar a los movimi
 4. Elija el botón **Aceptar**.
 
 El documento de interés está impreso para enviarlo a un correo electrónico específico como un archivo PDF adjunto.
+
+### <a name="to-cancel-an-issued-finance-charge-memo"></a>Para cancelar un documento de interés emitido
+Si se han emitido documentos de interés por error, puede cancelarlos antes de enviarlos. Puede hacerlo uno por uno o en lote.
+1. En la página **Documentos de interés emitidos**, seleccione una o más líneas de los documentos de interés emitidos que desea cancelar y, a continuación, elija la acción **Cancelar**.
+2. En la página **Cancelar docs. de interés emitidos**, rellene los campos según sea necesario y, a continuación, elija el botón **Aceptar**.
 
 ## <a name="to-view-reminder-and-finance-charge-entries"></a>Para ver los movimientos de recordatorio y de interés  
 Cuando se emite un recordatorio, se crea un movimiento de recordatorio en la página **Movs. recordatorio/interés** para cada línea de recordatorio que contenga un movimiento de cliente. Se puede obtener un resumen de los movimientos de recordatorio creados para un cliente específico.    

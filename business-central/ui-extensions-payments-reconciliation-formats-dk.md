@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, bank, formats
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: ff09be509c1ab6366dbd852a5c1c6e69f46cc9d5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 0cafffa57e5e8d532b4f60fa3aafccadb23d24bf
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250738"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311217"
 ---
 # <a name="the-payments-and-reconciliations-dk-extension"></a>Extensión de pagos y conciliaciones (DK)
 Realice pagos rápidos y sin errores exportando archivos formateados específicamente para intercambios con su proveedor o banco. Estos archivos aceleran los procesos de pago y conciliación, y eliminan los errores que pueden ocurrir al ingresar manualmente la información en un sitio web de un banco.  
@@ -53,7 +53,7 @@ Existen algunos pasos a seguir para empezar.
 
 Además, debe asignar a los proveedores a un **Grupo contable negocio** y un **Grupo contable proveedor** nacional. La configuración de país/región para el proveedor debe ser Dinamarca (DK). Para obtener más información, consulte [Configurar los grupos contables](finance-posting-groups.md).  
 
-### <a name="to-allow-included365finincludesd365finmdmd-to-export-payment-data"></a>Para permitir que [!INCLUDE[d365fin](includes/d365fin_md.md)] realice exportaciones de datos de pagos
+### <a name="to-allow-included365finincludesd365fin_mdmd-to-export-payment-data"></a>Para permitir que [!INCLUDE[d365fin](includes/d365fin_md.md)] realice exportaciones de datos de pagos
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diario de pagos** y luego elija el enlace relacionado.  
 2. En la página **Editar diario de pagos**, seleccione el proceso **Banco**.  
 3. Seleccione la casilla de verificación **Permitir exportación de pagos**.  

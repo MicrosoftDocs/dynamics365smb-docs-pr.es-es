@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: incoterms
-ms.date: 06/17/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7248f49e92db98cec047d2035ce82d7caf84799f
-ms.sourcegitcommit: 6dc83b27ac47f3b39a7b84cfb7446e7f48b8ce63
+ms.openlocfilehash: be65cd62cec984cd2571b6e88998dc169741f376
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "1632788"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312081"
 ---
 # <a name="set-up-shipment-methods"></a>Configuración de métodos de envío
 Los métodos de envío, también llamados incoterms, a menudo dependen de los productos, los clientes y los proveedores. Por ejemplo, si el cliente reside en una isla, puede elegir que le envíen siempre los productos por barco o por avión. Algunos clientes pueden requerir la entrega al día siguiente. Algunos pueden querer recoger el pedido. Puede especificar el tipo de entrega deseado en las fichas de cliente y de proveedor.

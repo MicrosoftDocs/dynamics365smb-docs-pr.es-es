@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 70a6f2e583e5ba78eecae0a25d6533d8265414ca
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: fc0a0dda33b7b90658ca60285abab0562c28fbbc
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253314"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314125"
 ---
 # <a name="create-production-order-headers"></a>Crear cabeceras de orden de producción
 Puede crear una orden de producción manualmente y el primer paso es crear la cabecera.

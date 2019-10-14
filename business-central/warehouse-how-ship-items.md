@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 188cbf7d63795167a0cbbf0b0debf904b153992d
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 239810db7fa6f7cd74aaebf94581f9ad76fd5599
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248829"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314681"
 ---
 # <a name="ship-items"></a>Enviar productos
 Cuando envíe artículos de un almacén que no está configurado para el procesamiento de envío de almacén, simplemente registre el envío en el documento de negocio relacionado, como un pedido de cliente, una orden de servicio, una orden de devolución de compra o una orden de transferencia de salida.
@@ -25,7 +25,7 @@ Cuando envíe artículos de un almacén que no está configurado para el procesa
 Cuando envía productos de un almacén que está configurado para realizar el proceso de envío de almacén, puede enviar productos solo basándose en los documentos de origen que otras unidades de la empresa han enviado al almacén para realizar una acción.
 
 > [!NOTE]
-> Si el almacén utiliza tránsito directo y ubicaciones, para cada línea, puede ver la cantidad de productos que se han colocado en las ubicaciones de tránsito directo. El programa calcula estas cantidades automáticamente cada vez que se actualicen los campos en el envío. Si son los productos que se incluyen en el envío que está preparando, puede crear un picking de todas las líneas y, a continuación, completar el envío. Para obtener más información, consulte [Productos de tránsito directo](warehouse-how-to-cross-dock-items.md).
+> Si el almacén utiliza tránsito directo y ubicaciones, para cada línea, puede ver la cantidad de productos que se han colocado en las ubicaciones de tránsito directo. La aplicación calcula estas cantidades automáticamente cada vez que se actualicen los campos en el envío. Si son los productos que se incluyen en el envío que está preparando, puede crear un picking de todas las líneas y, a continuación, completar el envío. Para obtener más información, consulte [Productos de tránsito directo](warehouse-how-to-cross-dock-items.md).
 
 ## <a name="to-ship-items-with-a-sales-order"></a>Para enviar productos con un pedido de ventas
 A continuación se describe cómo recibir productos con un pedido de compra. Los pasos son iguales para las órdenes de devolución de compra, las órdenes de servicio y las órdenes de transferencia de salida.  

@@ -8,23 +8,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1dac30e8c48e37464bc503fcc1d2961cc5721868
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 020fde81b868a2aba65ae5d5acae2047a007eaa5
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253015"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313065"
 ---
 # <a name="subcontract-manufacturing"></a>Subcontratación de fabricación
 La subcontratación de operaciones seleccionadas al proveedor es común de muchas empresas de fabricación. La subcontratación puede ser esporádica o puede formar parte integrante de todos los procesos de producción.
 
-El programa ofrece varias herramientas para gestionar el trabajo subcontratado:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] ofrece varias herramientas para gestionar el trabajo subcontratado:  
 
 - Centros de trabajo con proveedor asignado: esta característica le permite configurar un centro de trabajo asociado a un proveedor (subcontratista). Se denomina centro de trabajo subcontratado. Puede especificar un centro de trabajo subcontratado en una operación de ruta, con lo que le resultará muy sencillo procesar la actividad subcontratada. Además, el coste de la operación se puede indicar en el nivel de la ruta o del centro de trabajo.  
-- Coste del centro de trabajo basado en unidades o tiempo: esta característica le permite especificar si los costes asociados al centro de trabajo se basan en el tiempo de producción o en una tarifa plana por unidad. Si bien los subcontratistas suelen usar una tarifa plana por unidad en sus servicios, el programa puede manejar las dos opciones (tiempo de producción y tarifa plana por unidad).  
-- Hoja de subcontratación: esta característica le permite buscar las órdenes de producción cuyo material esté listo para el envío a un subcontratista y para crear automáticamente pedidos de compra para las operaciones subcontratadas a partir de rutas de órdenes de producción. A continuación, el programa registra automáticamente los cargos del pedido de compra en la orden de producción al proceder al registro del pedido de compra. En las hojas de subcontratación sólo se pueden ver y utilizar las órdenes de producción que tengan el estado de lanzadas.  
+- Coste del centro de trabajo basado en unidades o tiempo: esta característica le permite especificar si los costes asociados al centro de trabajo se basan en el tiempo de producción o en una tarifa plana por unidad. Si bien los subcontratistas suelen usar una tarifa plana por unidad en sus servicios, la aplicación puede manejar las dos opciones (tiempo de producción y tarifa plana por unidad).  
+- Hoja de subcontratación: esta característica le permite buscar las órdenes de producción cuyo material esté listo para el envío a un subcontratista y para crear automáticamente pedidos de compra para las operaciones subcontratadas a partir de rutas de órdenes de producción. La aplicación registra automáticamente los cargos del pedido de compra en la orden de producción al proceder al registro del pedido de compra. En las hojas de subcontratación sólo se pueden ver y utilizar las órdenes de producción que tengan el estado de lanzadas.  
 
 ## <a name="subcontract-work-centers"></a>Subcontratar centros de trabajo  
 Los centros de trabajo subcontratados se configuran igual que los centros de trabajo normales que tienen información adicional. Se asignan a rutas de la misma forma que los demás centros de trabajo.  

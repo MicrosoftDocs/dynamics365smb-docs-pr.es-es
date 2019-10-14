@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f0bf6da083b69d76c3f2ad75e8fb9b9d6bfdc5d9
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: b3f3cf5befb5bcca602b67cdc1f6de6d50ddd320
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248530"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313957"
 ---
 # <a name="plan-picks-in-worksheets"></a>Planificar los picking en la hoja de trabajo
 Si el almacén está configurado para requerir los procesos de picking y envío, el almacén puede trabajar de forma que las líneas de los documentos de envío no se transformen automáticamente en instrucciones de picking, si no hacerlas disponibles en vez de llevarlas a la hoja de trabajo de picking.  
@@ -25,7 +25,7 @@ Si el almacén está configurado para requerir los procesos de picking y envío,
 > [!NOTE]  
 >  Si ya se han creado las instrucciones de picking de almacén y desea combinarlas en una instrucción de picking más eficaz debe eliminar los picking de almacén individuales. Las líneas de las que se va a realizar el picking se pueden listar en la hoja de trabajo.  
 
-En la hoja de trabajo de picking, puede configurar listas de picking para empleados que minimicen el tiempo que el empleado tarda en mover los productos de picking de almacén. Hay campos que contienen información acerca de las cantidades de productos disponibles en las ubicaciones de tránsito directo. Esto es útil en situaciones de tránsito directo para planificar las tareas de trabajo, ya que el programa siempre sugerirá un picking de una ubicación de tránsito directo antes de cualquier otra ubicación, independientemente de la unidad de medida. Las líneas de la hoja de trabajo pueden proceder de varios documentos de origen y estar ordenadas por producto, número de estante, documento de origen, fecha de vencimiento o dirección de envío.  
+En la hoja de trabajo de picking, puede configurar listas de picking para empleados que minimicen el tiempo que el empleado tarda en mover los productos de picking de almacén. Hay campos que contienen información acerca de las cantidades de productos disponibles en las ubicaciones de tránsito directo. Esto es útil en situaciones de tránsito directo para planificar las tareas de trabajo, ya que la aplicación siempre sugerirá un picking de una ubicación de tránsito directo antes de cualquier otra ubicación, independientemente de la unidad de medida. Las líneas de la hoja de trabajo pueden proceder de varios documentos de origen y estar ordenadas por producto, número de estante, documento de origen, fecha de vencimiento o dirección de envío.  
 
 Si ordena por fecha de vencimiento, puede eliminar de la hoja de trabajo todas las líneas excepto las que necesiten atención inmediata. Las líneas menos urgentes no se eliminan, sólo se devuelven a la hoja de trabajo de **Selección de picking**. Al crear el picking, las líneas ya se han ordenado por fecha de vencimiento y puede elegir asignar el picking a un empleado determinado.  
 

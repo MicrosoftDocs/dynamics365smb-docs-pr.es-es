@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b86143c39c20605d9695b684d90f72d646d77937
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 41c2a4ea5a79f7fe66eaae93c7bffa2c7bbe3d2e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250922"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2316121"
 ---
 # <a name="set-up-service-items-and-service-item-components"></a>Configurar componentes de servicio y de productos
 Para trabajar con productos de servicio, debe configurar lo siguiente

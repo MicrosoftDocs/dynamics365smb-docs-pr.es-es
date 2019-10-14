@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b02aa262089d5c341fb3b535f2af82c7085e99ee
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 6a99066c784a6526bf06c816431b912b1db73f06
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252969"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313441"
 ---
 # <a name="about-production-orders"></a>Sobre los pedidos de producción
 Las órdenes de producción se usan para gestionar la conversión de los materiales adquiridos en productos manufacturados. Las órdenes de producción dirigen el trabajo por los distintos centros de trabajo o de máquina de la planta.  
 
 Antes de empezar con producción, la mayoría de las empresas realizan una planificación de suministros, normalmente una vez por semana, para calcular cuántos pedidos de producción y de compra ejecutar para cubrir la demanda de ventas esa semana. Los pedidos de compra suministran los componentes que se requieren según la L.M de producción para fabricar los productos finales.
 
-Las órdenes de producción son los componentes esenciales de la funcionalidad de fabricación del sistema. Contienen la información siguiente:  
+Las órdenes de producción son los componentes esenciales de la funcionalidad de fabricación de la aplicación. Contienen la información siguiente:  
 
 -   Productos planificados para fabricación  
 -   Materiales necesarios para las órdenes de producción planificadas  
@@ -63,7 +63,7 @@ Para obtener más información, vea [Seguimiento de relaciones entre demanda y s
 Las órdenes de producción creadas por otros métodos no se reservan automáticamente, ni se realiza su seguimiento.   
 
 ## <a name="production-order-status"></a>Estado de las órdenes de producción  
-El estado de una orden de producción controla su comportamiento en el sistema. La forma y el contenido de una orden de producción se rigen por el estado de la misma. Las órdenes de producción se muestran en páginas diferentes según sus estados. El estado de una orden de producción no se puede cambiar manualmente, es necesario usar la función **Cambiar estado**.  
+El estado de una orden de producción controla su comportamiento en la aplicación. La forma y el contenido de una orden de producción se rigen por el estado de la misma. Las órdenes de producción se muestran en páginas diferentes según sus estados. El estado de una orden de producción no se puede cambiar manualmente, es necesario usar la función **Cambiar estado**.  
 
 ### <a name="simulated-production-order"></a>Orden de producción simulada  
 La orden de producción simulada es exclusiva porque tiene las características siguientes:  
@@ -115,9 +115,9 @@ Una vez que se ha creado y programado una orden de producción, se tiene que lan
 Esta información se puede registrar manualmente o con la información automática, según los productos configurados en el campo de Método de baja.  
 
 ### <a name="material-consumption"></a>Consumo de material  
-El programa ofrece diversas opciones para que las empresas de fabricación puedan registrar el consumo de material. Por ejemplo, se puede registrar de forma manual, lo que puede ser aconsejable si los componentes se sustituyen con frecuencia o la cantidad de productos rechazados es mayor que la prevista.  
+La aplicación ofrece diversas opciones para que las empresas de fabricación puedan registrar el consumo de material. Por ejemplo, se puede registrar de forma manual, lo que puede ser aconsejable si los componentes se sustituyen con frecuencia o la cantidad de productos rechazados es mayor que la prevista.  
 
-El consumo de material se puede procesar mediante el diario de consumo. Además, el programa lo puede registrar automáticamente, lo que se denomina creación automática de informes. Los métodos de creación de informes son::  
+El consumo de material se puede procesar mediante el diario de consumo. Además, la aplicación lo puede registrar automáticamente, lo que se denomina creación automática de informes. Los métodos de creación de informes son::  
 
 -   Manual  
 -   Adelante  
@@ -143,7 +143,7 @@ La ventaja del consumo automático es que reduce en gran medida el volumen de da
 - Baja hacia atrás de toda la orden  
 
 #### <a name="automatic-reporting---forward-flush-the-entire-order"></a>Registro automático - Baja hacia adelante de toda la orden  
-Si realiza la baja hacia adelante de la orden de producción al comienzo del proyecto, el comportamiento del sistema es muy parecido al del consumo manual. La diferencia principal es que el consumo tiene lugar automáticamente.  
+Si realiza la baja hacia adelante de la orden de producción al comienzo del proyecto, el comportamiento de la aplicación es muy parecido al del consumo manual. La diferencia principal es que el consumo tiene lugar automáticamente.  
 
 - Todo el contenido de la lista de materiales de producción se consume y deduce de las existencias en el momento en que se actualiza la orden de producción lanzada.  
 - La cantidad de consumo es la cantidad por montaje indicada en la lista de materiales de producción, multiplicada por el número de productos principales que se esté produciendo.  
@@ -185,9 +185,9 @@ No se selecciona ningún componente hasta que el estado de la orden de producci�
 Efectuar la baja retroactiva de toda la orden de producción requiere la misma configuración que la baja hacia adelante: el método de creación de informes se debe establecer en hacia atrás en la tarjeta de producto para todos los productos de la lista de materiales principal. Además, todos los códigos de conexión de ruta se deben eliminar de la lista de materiales de producción.  
 
 ### <a name="production-output"></a>Salida de producción  
-El programa proporciona la posibilidad de realizar el seguimiento del tiempo invertido en el trabajo de una orden de producción, además de registrar la cantidad producida. Esta información puede resultar útil para determinar con más precisión los costes de producción. Los fabricantes que utilicen un sistema de costes estándar, pueden registrar la información real para desarrollar estándares más avanzados.  
+La aplicación proporciona la posibilidad de realizar el seguimiento del tiempo invertido en el trabajo de una orden de producción, además de registrar la cantidad producida. Esta información puede resultar útil para determinar con más precisión los costes de producción. Los fabricantes que utilicen un sistema de costes estándar, pueden registrar la información real para desarrollar estándares más avanzados.  
 
-La salida se puede procesar mediante el diario de salida, pero, además, el programa la puede registrar automáticamente. El programa copia el método de purga de las fichas del centro de máquina o centro de trabajo en la ruta de la orden de producción al realizar una actualización. Lo mismo que sucede con el consumo de materiales, para la salida hay tres métodos de registro:  
+La salida se puede procesar mediante el diario de salida, pero, además, la aplicación la puede registrar automáticamente. La aplicación copia el método de purga de las fichas del centro de máquina o centro de trabajo en la ruta de la orden de producción al realizar una actualización. Lo mismo que sucede con el consumo de materiales, para la salida hay tres métodos de registro:  
 
 - Manual  
 - Adelante  

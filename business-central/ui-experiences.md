@@ -2,30 +2,30 @@
 title: Elegir la experiencia de usuario para mostrar u ocultar características avanzadas | Documentos de Microsoft
 description: Obtenga información sobre lo que significan las capas de experiencia de usuario Esencial y Premium para la interfaz de usuario, las áreas de aplicación y su empresa.
 documentationcenter: ''
-author: edupont04
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 04/01/2019
-ms.author: edupont
-ms.openlocfilehash: 9110ee79e4d1788f41c8f1960f282cb490a3cc8a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 5866ce2bc125d7e21c6dbdf93984a87b07ae46b1
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251428"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311361"
 ---
-# <a name="changing-which-features-are-displayed"></a>Cambiar las funciones que se muestran
-[!INCLUDE[d365fin](includes/d365fin_md.md)] está diseñado para ayudarle a dirigir su empresa, independientemente de la línea de negocio en la que se encuentre. En el núcleo de [!INCLUDE[d365fin](includes/d365fin_md.md)], se encuentran los informes financieros y los procesos de ventas y compras. Agregue experiencias según las necesidades de su negocio con extensiones de AppSource o cambiando la configuración de Experiencia para su empresa. Para obtener más información, vea [Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones](ui-extensions.md) o [Elegir una experiencia de usuario para mostrar u ocultar características](ui-experiences.md#choosing-a-user-experience-to-show-or-hide-features).
+# <a name="change-which-features-are-displayed"></a>Cambiar las funciones que se muestran
+[!INCLUDE[d365fin](includes/d365fin_md.md)] está diseñado para ayudarle a dirigir su empresa, independientemente de la línea de negocio en la que se encuentre. En el núcleo de [!INCLUDE[d365fin](includes/d365fin_md.md)], se encuentran los informes financieros y los procesos de ventas y compras. Agregue experiencias según las necesidades de su negocio cambiando la configuración de **Experiencia** para su empresa, tal como se describe a continuación, o agregando extensiones de AppSource. Para obtener más información, consulte [Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] mediante extensiones](ui-extensions.md).
 
 ## <a name="choosing-a-user-experience-to-show-or-hide-features"></a>Elegir una experiencia de usuario para mostrar u ocultar características
 La experiencia de usuario determina qué parte de la funcionalidad básica está disponible cuando usted y sus compañeros usan [!INCLUDE[d365fin](includes/d365fin_md.md)]. Puede elegir la experiencia de usuario de su empresa en la página **Información empresa**, en el campo **Experiencia**.
 
 > [!NOTE]  
-> Esta esta configuración se aplica a todos los usuarios de la empresa. Los usuarios pueden personalizar aún más su propia experiencia cambiando el diseño y el contenido de la página. Para obtener más información, vea [Personalización del área de trabajo y las páginas](ui-personalization-user.md).  
+> Esta esta configuración se aplica a todos los usuarios de la empresa. Los usuarios pueden personalizar aún más su propia experiencia cambiando el diseño y el contenido de la página. Para obtener más información, consulte [Personalizar el área de trabajo](ui-personalization-user.md).  
 
 La siguiente tabla enumera la experiencias que están disponibles actualmente.
 
@@ -43,7 +43,7 @@ La siguiente tabla enumera la experiencias que están disponibles actualmente.
 ## <a name="enabling-premium-features-after-upgrading-a-plan"></a>Habilitar características premium después de actualizar un plan
 Los usuarios se asignan a planes en el Centro de administración de Office 365 en relación con el trabajo general para crear los usuarios de Business Central. Para obtener más información, vea [Agregar usuarios a Office 365 para empresas](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc).
 
-A continuación, puede definir a qué funciones y páginas específicas de la experiencia se les permite a esos usuarios acceder mediante la asignación de conjuntos de permisos. Para obtener más información, vea [Administración de usuarios y permisos](ui-how-users-permissions.md).
+A continuación, puede definir a qué funciones y páginas específicas de la experiencia se les permite a esos usuarios acceder mediante la asignación de conjuntos de permisos. Para obtener más información, vea [Administrar usuarios y permisos](ui-how-users-permissions.md).
 
 ### <a name="to-update-plan-changes-in-users-groups"></a>Para actualizar los cambios del plan en grupos de usuarios
 Cuando haya realizado un cambio en los planes de los usuarios en el Centro de administración de Office 365, como asignar más usuarios al plan Premium, debe reflejar el cambio en [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -63,10 +63,11 @@ Ahora puede proceder a seleccionar la nueva experiencia.
 Todas las descripciones de funciones que aparecen en la documentación de [!INCLUDE[d365fin](includes/d365fin_md.md)] asumen la experiencia **Premium**, lo que significa que las descripciones cubren todo el alcance de los elementos de la interfaz de usuario. Se inserta una nota de texto en los temas de ayuda de alto nivel para las áreas de características de Gestión de servicios y fabricación que indican que requieren la experiencia **Premium**.
 
 ## <a name="see-also"></a>Consulte también .
-[Crear nuevas en empresas](about-new-company.md)  
-[Gestionar usuarios y permisos](ui-how-users-permissions.md)    
+[Personalizar el área de trabajo](ui-personalization-user.md)  
+[Personalizar Business Central](ui-customizing-overview.md)
+[Crear nuevas empresas](about-new-company.md)  
+[Administrar usuarios y permisos](ui-how-users-permissions.md)    
 [Cambiar la configuración básica](ui-change-basic-settings.md)  
-[Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones](ui-extensions.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)], guía de licencia](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409)
 

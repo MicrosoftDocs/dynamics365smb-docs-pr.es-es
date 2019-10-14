@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5936343b9a1e1ebd7b871f11b0aeb9a7554636b4
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 3611bf23466509d0bd4932fc660cf1dff8bfa4a4
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253452"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314197"
 ---
 # <a name="create-a-demand-forecast"></a>Crear una previsión de la demanda
 Es posible crear previsiones de ventas y producción desde la página **Previsión de la demanda**.  
@@ -27,7 +27,7 @@ La funcionalidad de previsión se utiliza para crear la demanda prevista; la dem
 Mediante la previsión, la empresa puede crear escenarios hipotéticos y planificar y satisfacer la demanda con eficacia y rentabilidad. Una previsión exacta puede aumentar significativamente el grado de satisfacción de los clientes en relación con el cumplimiento de fechas y la entrega puntual.  
 
 ## <a name="sales-forecasts-and-production-forecasts"></a>Previsiones de ventas y previsiones de producción  
-La funcionalidad de previsión del sistema se puede usar para crear previsiones de ventas o de producción, juntas o por separado. Por ejemplo, casi todas las empresas que fabrican contra pedido no disponen de existencias de productos terminados, porque cada producto se fabrica cuando se pide. La previsión de pedidos (previsión de ventas) es esencial para lograr unos plazos de producción de los productos terminados razonables (previsión de producción). Por ejemplo, si las piezas de los componentes tienen tiempos de entrega muy largos, y no están pedidas o en existencias, pueden retrasar la producción.  
+La funcionalidad de previsión de la aplicación se puede usar para crear previsiones de ventas o de producción, juntas o por separado. Por ejemplo, casi todas las empresas que fabrican contra pedido no disponen de existencias de productos terminados, porque cada producto se fabrica cuando se pide. La previsión de pedidos (previsión de ventas) es esencial para lograr unos plazos de producción de los productos terminados razonables (previsión de producción). Por ejemplo, si las piezas de los componentes tienen tiempos de entrega muy largos, y no están pedidas o en existencias, pueden retrasar la producción.  
 
 -   La previsión de ventas es la mejor previsión del departamento del mismo nombre de lo que se va a vender en el futuro, y se determina por producto y por periodo. Con todo, la previsión de ventas no es siempre adecuada para la producción.  
 -   La elaboración de previsiones es la proyección del planificador de producción de cuántos productos finales y productos semiterminados derivados se deben producir en cada periodo específico para cubrir las ventas previstas.  

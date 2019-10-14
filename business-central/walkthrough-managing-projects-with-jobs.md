@@ -10,16 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 570e001eb0f412599d66bda098563f772570cd29
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c50646a8e1f56d95256271f64ecf7dfb4992e4ce
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249634"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314825"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Tutorial: administración de programas con proyectos
+
+**Nota**: Este tutorial debe realizarse en una empresa de demostración con la opción **Evaluación completa - Datos de muestra completos**, que está disponible en el entorno de espacio aislado. Para obtener más información, consulte [Creación de un entorno aislado](across-how-create-sandbox-environment.md).
+
 Este tutorial le presenta a las funciones de administración de programas en los trabajos. Los proyectos le permiten programar el uso de los recursos de su empresa y realizar un seguimiento de los diversos costes asociados con los recursos de un proyecto específico. Los proyectos implican el consumo de horas de mano de obra, horas de maquinaria, productos de inventario y otros tipos de consumo que es posible que desee controlar a medida que avance un proyecto.  
 
  En este tutorial, se trata la configuración de un nuevo proyecto, además de las tareas más comunes, como gestión de precios fijos, creación de pagos a plazo, registro de facturas de proyectos y copia de proyectos.  
@@ -84,7 +87,7 @@ Este tutorial se centra en la empresa CRONUS España S.A., una empresa de diseñ
     - **Nombre**: **Tricia**  
     - **Tipo**: **Persona**  
 
-4.  Seleccione el campo **Unidad de medida base** y seleccione la acción **Nuevo** para abrir la página **Unidad de medida de recursos**. En el campo **Código**, seleccione **Hora**. Elija el botón **Aceptar**.  
+4.  Seleccione el campo **Unidad de medida base** y seleccione la acción **Nuevo** para abrir la página **Unidad de medida de recursos**. En el campo **Código**, seleccione **Hora**.  
 5.  En la ficha desplegable **Facturación**, escriba la siguiente información:  
 
     -   **Coste unit. directo**: **5**  
@@ -93,9 +96,9 @@ Este tutorial se centra en la empresa CRONUS España S.A., una empresa de diseñ
     -   **Grupo contable producto**: **Servicios**  
     -   **Grupo registro IVA prod.**: **IVA 25**  
 
-6.  Elija el botón **Aceptar** para guardar los cambios.  
+6. Cierre la página.
 
- En el siguiente procedimiento, cree una sección diario proyecto para Tricia para registrar su utilización.  
+En el siguiente procedimiento, cree una sección diario proyecto para Tricia para registrar su utilización.  
 
 ### <a name="to-create-a-job-journal-batch"></a>Para crear una sección de diario de proyecto  
 
@@ -107,7 +110,7 @@ Este tutorial se centra en la empresa CRONUS España S.A., una empresa de diseñ
     -   **Descripción**: **Tricia**  
     -   **Nos. serie**: **JJNL-GEN**  
 
-4.  Elija el botón **Aceptar** para cerrar todas las páginas abiertas.  
+4.  Elija el botón **Aceptar** para guardar los cambios.
 
 ## <a name="setting-up-a-job"></a>Configuración de un proyecto  
  En este escenario, CRONUS ha ganado un contrato con un cliente, Progressive Home Furnishings, para diseñar una sala de conferencias y un refectorio. El cliente tiene su sede en los Estados Unidos y el proyecto precisa un software especial. El director del proyecto llega a un acuerdo con el cliente y crea un proyecto que cubra el acuerdo.  
@@ -123,7 +126,7 @@ Este tutorial se centra en la empresa CRONUS España S.A., una empresa de diseñ
 
 4.  En la ficha desplegable **Registro**, escriba la siguiente información:  
 
-    -   **Estado**: **Pedido**  
+    -   **Estado**: **Planificación**  
     -   **Grupo contable proyecto**: **Equipar**  
     -   **Método WIP**: **Valor coste**  
 
@@ -140,21 +143,21 @@ Este tutorial se centra en la empresa CRONUS España S.A., una empresa de diseñ
     -   **Código**: **Tricia**  
     -   **Precio venta**: **20**  
 
-3.  Elija el botón **Aceptar** para cerrar la página.  
+3.  Cierre la página.  
 4.  Elija la acción **Producto**.  
 5.  En la página **Precios productos proyecto**, escriba la siguiente información y el precio personalizado:  
 
     1.  **Nº producto**: **80201 (Programa gráfico)**  
     2.  **Precio venta**: **200**  
 
-6.  Elija el botón **Aceptar** para cerrar la página.  
+6.  Cierre la página.  
 7.  Elija la acción **Cuentas C/G**.  
 8.  En la página **precios de la cuenta de proyectos**, introduzca la siguiente información y el coste de viaje, para el que el cliente ha acordado pagar el coste además de un porcentaje del 25% :  
 
     1.  **Cuenta**: **8430 (Viajes)**  
     2.  **Factor coste unitario**: **1,25**  
 
-9. Elija el botón **Aceptar** para cerrar la página.  
+9. Cierre la página.  
 
  Los pasos finales en la configuración de un trabajo añaden las tareas del trabajo y las líneas de planificación que forman parte de cada tarea. Las líneas de planificación determinan qué se factura al cliente.  
 
@@ -176,9 +179,9 @@ Este tutorial se centra en la empresa CRONUS España S.A., una empresa de diseñ
 
 -   **Previsión**: Añadido a la previsión, pero no facturado.  
 -   **Contrato**: Facturado, pero no añadido a la previsión.  
--   **Programa y contrato**: Facturado y añadido a la previsión.  
+-   **Presupuesto y facturable**: Facturado y añadido a la previsión.  
 
- En este tutorial, el director de proyectos utiliza **Programa y contrato**. Crea tres líneas de planificación para la tarea 1010, y dos líneas de planificación para la tarea 1020.  
+ En este tutorial, el director de proyectos utiliza **Presupuesto y facturable**. Crea tres líneas de planificación para la tarea 1010, y dos líneas de planificación para la tarea 1020.  
 
 ### <a name="to-create-planning-lines"></a>Para crear líneas de planificación  
 
@@ -186,7 +189,7 @@ Este tutorial se centra en la empresa CRONUS España S.A., una empresa de diseñ
 
      **Línea 1**  
 
-    -   **Tipo de línea**: **previsión y contrato**  
+    -   **Tipo de línea**: **Presupuesto y facturable**  
     -   **Fecha planif.**: **(fecha actual)**  
     -   **Tipo**: **recurso**  
     -   **Nº**: **Tricia**  
@@ -194,7 +197,7 @@ Este tutorial se centra en la empresa CRONUS España S.A., una empresa de diseñ
 
      **Línea 2**  
 
-    -   **Tipo línea**: **Programa y contrato**  
+    -   **Tipo de línea**: **Presupuesto y facturable**  
     -   **Fecha planif.**: **(fecha actual)**  
     -   **Tipo**: **recurso**  
     -   **Nº**: **Alfredo**  
@@ -202,19 +205,19 @@ Este tutorial se centra en la empresa CRONUS España S.A., una empresa de diseñ
 
      **Línea 3**  
 
-    -   **Tipo línea**: **previsión y contrato**  
+    -   **Tipo de línea**: **Presupuesto y facturable**  
     -   **Fecha planif.**: **(fecha actual)**  
     -   **Tipo**: **cuenta G/L**  
     -   **Nº**: **8430 (viaje)**  
     -   **Cantidad**: **2**  
     -   **Coste unitario**: **400**  
 
-2.  Elija el botón **Aceptar** para cerrar la página. Los totales se actualizan en la página **Líneas tarea proyecto**.  
+2.  Cierre la página. Los totales se actualizan en la página **Líneas tarea proyecto**.  
 3.  Seleccione línea 1020 y, a continuación, elija la acción **Líneas de planificación de proyecto**. Escriba la siguiente información:  
 
      **Línea 1**  
 
-    -   **Tipo de línea**: **previsión y contrato**  
+    -   **Tipo de línea**: **Presupuesto y facturable**  
     -   **Fecha planif.**: **(fecha actual)**  
     -   **Tipo**: **recurso**  
     -   **Nº**: **Tricia**  
@@ -222,13 +225,13 @@ Este tutorial se centra en la empresa CRONUS España S.A., una empresa de diseñ
 
      **Línea 2**  
 
-    -   **Tipo línea**: **previsión y contrato**  
+    -   **Tipo de línea**: **Presupuesto y facturable**  
     -   **Fecha planif.**: **(fecha actual)**  
     -   **Tipo**: **Producto**  
     -   **Nº**: **80201 (Programa gráfico)**  
     -   **Cantidad**: **1**  
 
-4.  Elija el botón **Aceptar** para cerrar la página. Los totales se actualizan en la página **Líneas tarea proyecto**.  
+4.  Cierre la página. Los totales se actualizan en la página **Líneas tarea proyecto**.  
 
 ## <a name="calculating-remaining-usage"></a>Cálculo del uso restante  
  Tricia, el miembro del proyecto de equipo, ha estado trabajando en el proyecto durante algún tiempo y desea registrar sus horas y utilización en el proyecto. No ha trabajado más horas que las acordadas previamente con el cliente. Ella utiliza el trabajo por lotes **Cálc. uso restante** para calcular el uso restante para el proyecto en un diario respectivo. Para cada tarea, el trabajo por lotes calcula la diferencia entre el uso programado de productos, recursos y gastos de contabilidad, y el uso real registrado en los movimientos del proyecto. A continuación, se muestra el uso restante en el diario del proyecto, desde el cual puede registrarlo.  
@@ -244,7 +247,8 @@ Este tutorial se centra en la empresa CRONUS España S.A., una empresa de diseñ
 7.  Elija el botón **Aceptar**. De este modo, se generarán las líneas de diario del proyecto derivadas de las líneas de planificación que creó Prakash para el proyecto.  
 8.  Elija el botón **Aceptar** en la página de confirmación. Las líneas generadas se añaden al diario del proyecto.  
 9. Asegúrese de que todos los números del documento son J00001 y, a continuación seleccione la acción **Registrar**. Elija **Sí** para confirmar el registro.  
-10. Ya se han registrado las líneas. Elija el botón **Aceptar** para cerrar las páginas.  
+
+Ya se han registrado las líneas.  
 
 ## <a name="creating-and-posting-a-job-sales-invoice"></a>Creación y registro de una factura de ventas de proyecto  
  A continuación, Tricia puede crear una factura nueva para el trabajo completo o para parte de un trabajo. También puede adjuntar la factura a otra factura para el mismo cliente y proyecto. En este caso, puede facturar todo el proyecto, ya que éste ya estará completado.  
@@ -293,16 +297,16 @@ Este tutorial se centra en la empresa CRONUS España S.A., una empresa de diseñ
 4.  En la página **Líneas de tarea de proyecto**, seleccione la línea 1120 y, a continuación, elija la acción **Líneas de planificación de proyecto**.  
 5.  Seleccione **Nuevo**, para crear una línea con la siguiente información:  
 
-    -   **Tipo de línea**: **previsión y contrato**  
+    -   **Tipo de línea**: **Presupuesto y facturable**  
     -   **Tipo**: **recurso**  
     -   **Nº**: **Tricia**  
     -   **Cantidad**: **30**  
 
-7.  Elija el botón **Aceptar** para cerrar la página.  
+7.  Cierre la página.  
 8.  En el campo de **Previsión (Coste total)**, haga clic con el botón secundario en el campo y elija **Análisis** otra vez en la página **Líneas tarea proyecto**. Vea los cambios a la programación. Puede ver que se han agregado 30 horas al programa.  
-9. Elija el botón **Aceptar** para cerrar las páginas.  
+9. Cierre las páginas.  
 
- Una vez agregada Tricia a la previsión para esta línea de tarea, trabaja 25 horas en el proyecto. Ella introduce estas horas en el diario del proyecto.  
+Una vez agregada Tricia a la previsión para esta línea de tarea, trabaja 25 horas en el proyecto. Ella introduce estas horas en el diario del proyecto.  
 
 ### <a name="to-enter-hours-in-the-job-journal"></a>Para especificar horas en el Diario proyectos  
 
@@ -333,9 +337,11 @@ Este tutorial se centra en la empresa CRONUS España S.A., una empresa de diseñ
     -   **Nº proyecto**: **Deco**  
     -   **Nº tarea proyecto**: **1120**  
 
-     Elija el botón **Aceptar** para ejecutar el cálculo. Existen cinco horas de trabajo que permanecen para Tricia. El campo **Tipo línea** está vacío, lo que indica que sólo falta registrar el uso, puesto que el trabajo ya se ha programado.  
+7. Elija el botón **Aceptar** para ejecutar el cálculo.
 
-7.  En la opción **Diario proyecto**, cree una línea nueva con la siguiente información. Asegúrese de que ambos números de proyecto son secuenciales con los que ha utilizado ya:  
+    Existen cinco horas de trabajo que permanecen para Tricia. El campo **Tipo línea** está vacío, lo que indica que sólo falta registrar el uso, puesto que el trabajo ya se ha programado.  
+
+8.  En la opción **Diario proyecto**, cree una línea nueva con la siguiente información. Asegúrese de que ambos números de proyecto son secuenciales con los que ha utilizado ya:  
 
     -   **Tipo línea**: **Programa**  
     -   **Nº proyecto**: **Deco**  
@@ -346,17 +352,17 @@ Este tutorial se centra en la empresa CRONUS España S.A., una empresa de diseñ
 
      Mediante el uso del tipo de línea **Programa**, se actualizan los costes y los precios previstos, pero no se factura al cliente ninguna de las actualizaciones de costes y precios de contrato.  
 
-8.  Seleccione la acción **Registrar**. Elija el botón **Aceptar** para cerrar la página.  
-9. Abra la lista **Proyectos** .  
-10. Seleccione el proyecto DECO y, a continuación, elija la acción **Líneas de tarea de proyecto**.  
-11. Seleccione la línea 1120 y, en el campo **Previsión (coste total)**, haga clic con el botón secundario en el importe. Elija **Análisis** para ver la información.  
+9.  Seleccione la acción **Registrar**. Elija el botón **Aceptar** para cerrar la página.  
+10. Abra la lista **Proyectos** .  
+11. Seleccione el proyecto DECO y, a continuación, elija la acción **Líneas de tarea de proyecto**.  
+12. Seleccione la línea 1120 y, en el campo **Previsión (coste total)**, haga clic con el botón secundario en el importe. Elija **Análisis** para ver la información.  
 
      Los cambios se introducen automáticamente en la línea para el N.º tarea de trabajo 1120 En el coste total del proyecto programado, cinco horas adicionales de trabajo de Tricia se han añadido a la previsión.  
 
-12. Elija el botón **Cerrar** para cerrar la página.  
-13. Haga clic con el botón secundario en el importe del campo **Contrato (Coste total)** y elija **Análisis** para ver la información.  
+13. Elija el botón **Cerrar** para cerrar la página.  
+14. Haga clic con el botón secundario en el importe del campo **Contrato (Coste total)** y elija **Análisis** para ver la información.  
 
-     En el precio total del contrato, sólo se han incluido las 30 horas originales contratadas, pues es lo acordado con el cliente.  
+En el precio total del contrato, sólo se han incluido las 30 horas originales contratadas, pues es lo acordado con el cliente.  
 
 ## <a name="copying-jobs"></a>Copia de proyectos  
  Prakash ha alcanzado un acuerdo con un cliente, Sellafrio S.L. para equipar 10 salas de conferencias. El acuerdo se parece a un trabajo anterior. Por tanto, ahorrará tiempo si copia ese trabajo anterior.  
@@ -383,7 +389,7 @@ Este tutorial se centra en la empresa CRONUS España S.A., una empresa de diseñ
 
 5.  Elija el botón **Aceptar** para copiar el proyecto y, a continuación, seleccione el botón **Aceptar** para cerrar la página de confirmación.  
 
-     Comparando los precios, las líneas de tareas de proyectos y las líneas de planificación del proyecto para los dos proyectos, puede ver que la información se copió correctamente.  
+Comparando los precios, las líneas de tareas de proyectos y las líneas de planificación del proyecto para los dos proyectos, puede ver que la información se copió correctamente.  
 
 ## <a name="making-payments-by-installments"></a>Creación de pagos a plazos  
  CRONUS acaba de iniciar un proyecto grande de un año de duración. Dado que requiere la dedicación de numerosos recursos, el director del proyecto configura el contrato de manera que el cliente pague parte del precio por adelantado, parte cuando el proyecto vaya por la mitad y el último pago tras su finalización.  
@@ -397,7 +403,7 @@ Este tutorial se centra en la empresa CRONUS España S.A., una empresa de diseñ
     -   **Nº**: **6630**  
     -   **Nombre**: **Pago proyecto**  
 
-4.  En la ficha desplegable **Registro**, en el campo **Grupo contable producto**, seleccione **VARIOS**. Elija el botón **Aceptar** para cerrar la página.  
+4.  En la ficha desplegable **Registro**, en el campo **Grupo contable producto**, seleccione **VARIOS**. Cierre la página.  
 5.  En la página **Plan de cuentas**, seleccione **Nº 6630 de pago del proyecto** y, a continuación, seleccione la acción **Incidente en plan de cuentas**. Seleccione **Sí** para confirmar.  
 
  Los siguientes procedimientos muestran cómo crear un proyecto nuevo, establece las tarifas y, a continuación, el pago a plazos configurado. En las líneas de tareas del proyecto, puede crear líneas específicas dedicadas al pago a plazos. Todo el trabajo finalizado del proyecto que se agregue a la previsión se escribirá en las líneas de uso. Para cada línea de tarea de pago en las líneas de planificación, el tipo de línea es Contrato, lo que significa que se va a facturar al cliente. Añada una nueva línea para la entrada del pago. En la línea de tarea de uso, puede escribir la información para los productos y recursos utilizados en este proyecto, lo cual aumentará la previsión, como horas de empleado y productos usados en el proyecto.  
@@ -417,7 +423,7 @@ Este tutorial se centra en la empresa CRONUS España S.A., una empresa de diseñ
     -   **Código**: **Tricia**  
     -   **Precio venta**: **10**  
 
-     Elija el botón **Aceptar** para cerrar la página.  
+     Cierre la página.  
 
 4.  En la ficha **Proyecto**, elija la acción **Líneas de tarea de proyecto**.  
 
@@ -440,7 +446,7 @@ Este tutorial se centra en la empresa CRONUS España S.A., una empresa de diseñ
     -   **Cantidad**: **1**  
     -   **Precio venta**: **5000**  
 
-     Elija el botón **Aceptar** para cerrar la página.  
+     Cierre la página.  
 
 7.  En la página **Líneas tarea proyecto**, seleccione **tarea 2000**y abra sus **Líneas de planificación de proyecto**.  
 
@@ -449,9 +455,9 @@ Este tutorial se centra en la empresa CRONUS España S.A., una empresa de diseñ
     |Línea|Tipo de línea|Fecha planif.|Escriba|Nº|Cantidad|  
     |----------|---------------|-------------------|----------|---------|--------------|  
     |1|Programa|(fecha de hoy)|Recurso|Tricia|120|  
-    |2|Programa|(fecha de hoy)|Artículo|70104|10|  
+    |2|Programa|(fecha de hoy)|Producto|70104|10|  
 
-     Elija el botón **Aceptar** para cerrar la página. En la página **Líneas tarea proyecto**, podrá ver que se han actualizado los importes del programa.  
+     Cierre la página. En la página **Líneas tarea proyecto**, podrá ver que se han actualizado los importes del programa.  
 
 8.  En la página **Líneas tarea proyecto**, seleccione la **tarea 3000**.  
 9. Cree una línea de planificación con la siguiente información:  
@@ -463,7 +469,7 @@ Este tutorial se centra en la empresa CRONUS España S.A., una empresa de diseñ
     -   **Cantidad**: **1**  
     -   **Precio venta**: **5000**  
 
-     Elija el botón **Aceptar** para cerrar la página.  
+     Cierre la página.  
 
 10. Crear un movimiento de línea similar de planificación de la tarea 4000 del proyecto.  
 

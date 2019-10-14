@@ -9,17 +9,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a650bb8dec324e94801da828d7e967b514ae3ca1
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 65d4562e133d8fa2383bd1fb5092ea001d577396
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251382"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311409"
 ---
 # <a name="create-number-series"></a>Crear numeración
 Para cada empresa configurada, se necesitan asignar códigos de identificación exclusivos a elementos como cuentas de contabilidad, cuentas de proveedores y clientes, facturas y otros documentos. La numeración es importante no sólo para la identificación. Un sistema de numeración bien diseñado también permite facilitar la gestión y el análisis de la empresa, y puede reducir el número de errores que se producen en la introducción de datos.
+
+> [!Important]
+> De forma predeterminada, no se permiten saltos en las series numéricas porque, por ley, el historial exacto de las transacciones financieras debe estar disponible para auditoría y, por lo tanto, debe seguir una secuencia ininterrumpida sin números eliminados.<br /><br />
+Si desea permitir huecos en ciertas series numéricas, primero consulte a su auditor o director de contabilidad para asegurarse de que cumple los requisitos legales de su país o región. Para obtener más información, vea [Espacios en serie numérica](ui-create-number-series.md#gaps-in-number-series).
 
 > [!NOTE]  
 >   Le recomendamos que use los mismos códigos de serie numérica que aparecen en la página **Lista nº serie** de la empresa de demostración CRONUS. Es posible que los códigos como *C-FAC+* no tengan un sentido inmediato, pero [!INCLUDE[d365fin](includes/d365fin_md.md)] tiene una serie de opciones de configuración predeterminadas que dependen de estos códigos de serie numérica.
@@ -30,6 +34,9 @@ Las series numéricas normalmente se configuran para insertar automáticamente e
 
 Si desea usar más de un código de serie numérica para un tipo de datos maestros, por ejemplo, usar una serie numérica diferente para categorías de productos, puede establecer relaciones de series numéricas.
 
+## <a name="gaps-in-number-series"></a>Espacios en serie numérica
+No todos los registros que crea en [!INCLUDE[d365fin](includes/d365fin_md.md)] son transacciones financieras que deben usar una numeración secuencial. Las fichas de cliente, las ofertas de venta y las actividades de almacén son ejemplos de registros a los que se les asigna un número de una serie numérica, pero no están sujetos a auditoría financiera o pueden eliminarse. Para estas series numéricas, puede seleccionar la casilla **Permitir espacios en números** en la página **Líneas nº serie**. Para obtener más información, consulte [Para crear una nueva serie numérica](ui-create-number-series.md#to-create-a-new-number-series).
+
 ## <a name="behavior-of-the-no-field-on-documents-and-cards"></a>Comportamiento del campo de número en documentos y fichas
 En documentos venta, compra y transferencia y en todas las fichas, el campo **N.º** se puede rellenar automáticamente a partir de una serie de números o manualmente, y puede configurarse para ser invisible.
 
@@ -38,9 +45,9 @@ El campo **Nº** se puede rellenar de tres maneras:
 1. Si solo existe una serie numérica para el tipo de documento o ficha donde la casilla **Numeración predet.** está marcada y la casilla **Numeración manual** no está marcada, el campo se rellena automáticamente con el siguiente número de la serie, y el campo **N.º** no será visible.
 
     > [!NOTE]  
-    > Si la serie numérica no funciona, por ejemplo, porque se ha quedado sin números, el campo **N.º** será visible y puede introducir un número de forma manual o resolver los problemas en la página **Lista nº serie**.
+    > Si la serie numérica no funciona, por ejemplo, porque se ha quedado sin números, el campo **N.º** será visible y puede introducir un número de forma manual o resolver los problemas en la página **Nos. serie**.
 
-2. Si hay varias series numéricas para el tipo de documento de compra o ficha, y la casilla **Numeración predet.** no está marcada para la serie numérica que hay asignada actualmente, el campo **N.º** está visible, y puede buscar en la página **Lista nº serie** y seleccionar el número de serie que desea utilizar. El número siguiente de la serie se inserta en el campo **N.º** .
+2. Si hay varias series numéricas para el tipo de documento de compra o ficha, y la casilla **Numeración predet.** no está marcada para la serie numérica que hay asignada actualmente, el campo **N.º** está visible, y puede buscar en la página **Nos. serie** y seleccionar la serie numérica que desea utilizar. El número siguiente de la serie se inserta en el campo **N.º** .
 
 3. Si no ha configurado una serie numérica para el tipo de documento o ficha, o si el campo **Numeración manual** de la serie numérica está seleccionado, el campo **N.º** está visible y deberá introducir cualquier número manualmente. Puede escribir un máximo de 20 caracteres, tanto números como letras.
 
@@ -53,6 +60,9 @@ Al abrir un nuevo documento o ficha para el que existe una serie numérica, la p
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **N.º serie** y luego elija el enlace relacionado.
 2. Seleccione la acción **Nuevo**.
 3. En la línea nueva, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. Seleccione la acción **Líneas**.
+5. En la página **Líneas nº serie**, complete los campos para definir el uso real y el contenido de la serie numérica que creó en el paso 2.
+6. Repita el paso 5 para los distintos usos de la serie numérica que necesite. El campo **Fecha inicial** define qué línea de serie numérica está activa.
 
 ## <a name="to-set-up-where-a-number-series-is-used"></a>Para configurar dónde se usa una serie numérica
 El siguiente procedimiento muestra cómo configurar una serie numérica para el área de ventas. Los pasos son parecidos a los de otras áreas.

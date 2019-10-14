@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 79f4d6a549716011a5f01b3b8b7d6b065d1af295
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c0acb72f9c083b262251f249d1004b333b911c3c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251982"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2316057"
 ---
 # <a name="allocate-resources"></a>Asignar recursos
 El principal elemento de la gestión del servicio son las personas que lo prestan. Puede configurar [!INCLUDE[d365fin](includes/d365fin_md.md)] para asignar el personal adecuado a los proyectos correspondientes. Las asignaciones se pueden basar en zonas de servicio donde se encuentran las personas o donde tiene lugar el servicio. Además, puede agrupar los recursos al responder a solicitudes de servicio. Para obtener más información, vea [Asignación de recursos](service-how-setup-resource-allocation.md).

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 691a8af0a6b3646cc4cf6129fa99a9231bfd2324
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 5daf54251048137ca7829ef00d2f65c890b22b12
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248185"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315233"
 ---
 # <a name="import-and-export-a-report-or-document-layout"></a>Importar y exportar un diseño de informe o documento personalizado
 Puede importar y exportar un diseño de informe personalizado existente como archivo a o desde una ubicación de su equipo y red. Por ejemplo, puede exportar un diseño de informe y, a continuación, enviar el archivo a otra persona para que lo modifique. Esa persona podrá entonces hacer las modificaciones en el diseño y devolverle el archivo para que pueda importarlo de nuevo.  
@@ -54,4 +54,4 @@ Puede importar y exportar un diseño de informe personalizado existente como arc
 ## <a name="see-also"></a>Consulte también  
  [Crear y modificar un diseño de informe personalizado](ui-how-create-custom-report-layout.md)   
  [Administrar diseños de informes y documentos](ui-manage-report-layouts.md)  
- [Trabajar con informes y trabajos por lotes](ui-work-report.md)    
+ [Trabajar con informes, trabajos por lotes y XMLports](ui-work-report.md)    

@@ -1,32 +1,29 @@
 ---
 title: Por qué no puedo personalizar una página | Documentos de Microsoft
 description: Explica por qué no puede personalizar una página y qué puede hacer para desbloquearla.
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 04/01/2019
-ms.author: jswymer
-ms.openlocfilehash: 1a3edaca2e76388d82ea8991c3196410dd9c7288
-ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: c77664a1013804de13303c8e1d162c437cf5d6e7
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1796771"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315137"
 ---
 # <a name="why-a-page-is-locked-from-personalization"></a>Por qué la página está bloqueada para evitar la personalización
 
-Hay dos condiciones que le impiden personalizar una página. La página está bloqueada (como se indica en ![Personalización bloqueada](media/personalization-lock-icon.png "Personalización bloqueada")) o está bloqueada (como se indica en ![Bloqueo de personalización](media/personalization-blocked-icon.png "Bloqueo de personalización")).
+Hay dos condiciones que le impiden personalizar una página. La página está bloqueada (como se indica en el icono ![Personalización bloqueada](media/personalization-lock-icon.png "Personalización bloqueada")) o está bloqueada (como se indica en el icono ![Bloqueo de personalización](media/personalization-blocked-icon.png "Bloqueo de personalización")).
 
 ## <a name="locked-from-personalizing"></a>Bloqueado para evitar la personalización
 
-Si hay un icono ![Bloqueo de personalización](media/personalization-lock-icon.png "Bloqueo de personalización") en el banner de **Personalización** cuando abre una página (como se muestra), significa que actualmente se le impide realizar más cambios de personalización en la página.
-
-![Personalización bloqueada](media/personalization-locked.png "Personalización bloqueada")
-
+Si hay un icono ![Bloqueo de personalización](media/personalization-lock-icon.png "Bloqueo de personalización") en el banner **Personalización** cuando abre una página, significa que actualmente se le impide realizar más cambios de personalización en la página.
 
 <!-- This is because we changed the way personalization works behind the scenes since the last time that you personalized the page. Unfortunately, the old way and new of doing things do not work together.
 
@@ -41,7 +38,7 @@ Puede haber dos razones para ello:
 
 ### <a name="unlocking-the-page"></a>Desbloqueo de la página
 
-Si desea desbloquear una página y seguir personalizándola, seleccione ![Bloqueo de personalización](media/personalization-lock-icon.png "Bloqueo de personalización") y, a continuación, **Desbloquear**.  
+Si desea desbloquear una página y seguir personalizándola, seleccione el icono ![Personalización bloqueada](media/personalization-lock-icon.png "Personalización bloqueada") y, a continuación, elija la acción **Desbloquear**.  
 
 Antes de desbloquear la página, tenga en cuenta lo siguiente:
 
@@ -51,14 +48,14 @@ Antes de desbloquear la página, tenga en cuenta lo siguiente:
 
 ## <a name="blocked-from-personalizing"></a>Bloqueado para evitar la personalización
 
-Si hay un icono ![Personalización bloqueada](media/personalization-blocked-icon.png "Personalización bloqueada") en el banner Personalización, significa que se le impide hacer cualquier personalización de la página.
+Si hay un icono ![Personalización bloqueada](media/personalization-blocked-icon.png "Personalización bloqueada") en el banner **Personalización**, significa que se le impide hacer cualquier personalización de la página.
 
-![Personalización bloqueada](media/personalization-blocked.png "Bloqueo de personalización")
+<!-- Only text is translated, so removing this image for non-English UX reasons.  ![Personalize blocked](media/personalization-blocked.png "Personalize lock") -->
 
-La razón de esto es que el área de trabajo o rol que está actualmente asociado con su cuenta de usuario modifica esta página específicamente para su rol. Póngase en contacto con su administrador para obtener ayuda o, si tiene sentido, intente cambiar a un área de trabajo (desde [**Mi configuración**](https://businesscentral.dynamics.com?page=9176 "Vaya directamente a la página de configuración del usuario en Business Central")) que incluya la personalización de rol para esta página.
+La razón de esto es que el área de trabajo o rol que está actualmente asociado con su cuenta de usuario modifica esta página específicamente para su rol. Póngase en contacto con su administrador para obtener ayuda. Alternativamente, intente cambiar a un área de trabajo que incluya la adaptación de roles para esta página. Para obtener más información, consulte [Cambiar configuración básica](ui-change-basic-settings.md).
 
 ## <a name="see-also"></a>Consulte también
-[Personalización de su área de trabajo](ui-personalization-manage.md)  
-[Administrar la personalización](ui-personalization-manage.md)  
+[Personalizar el área de trabajo](ui-personalization-user.md)  
+[Personalizar páginas para perfiles](ui-personalization-manage.md)  
 [Cambiar la configuración básica](ui-change-basic-settings.md)  
 [Cambiar las funciones que se muestran](ui-experiences.md)  

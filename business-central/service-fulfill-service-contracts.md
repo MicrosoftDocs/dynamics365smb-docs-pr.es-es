@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contract, agreement, configure
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 574509447668d0aab4bba0394029f784eb55ca2e
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 50214fcf1e1f13c8e4fa69e1b14ba4adc537bf86
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250232"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2316217"
 ---
 # <a name="fulfilling-service-contracts"></a>Cumplimiento de contratos de servicio 
 Un modo de configurar una empresa de gestión de servicios es tener acuerdos contractuales entre usted y sus clientes, que describan el nivel de servicio y las expectativas del servicio. Puede crear plantillas de contratos que incluyan información necesaria, como cliente, fecha de inicio del contrato y periodo de facturación.  

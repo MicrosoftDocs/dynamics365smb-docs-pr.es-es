@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer payment, debtor, balance due, AR
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 60a28c856609861d9e47877fb093d819afcc044c
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ba5214c357e3682a182ce91f3846aa22120af484
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252049"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312273"
 ---
 # <a name="managing-receivables"></a>Administrar cobros
 Un paso normal en el ritmo financiero es conciliar las cuentas bancarias, lo que requiere liquidar pagos entrantes en las movimientos de cliente o propiedad para cerrar las facturas de venta y los abonos de compra como pagados.

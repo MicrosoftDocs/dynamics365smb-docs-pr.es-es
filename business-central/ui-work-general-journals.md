@@ -7,14 +7,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9ba3873284f5e40e46eeee8615974dd6053d4991
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 635e53040ab9920780cd1cf05a14f6dfa17496d9
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249956"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314969"
 ---
 # <a name="working-with-general-journals"></a>Trabajar con diarios generales
 
@@ -28,7 +28,7 @@ Pero en muchos casos, deseará utilizar los diarios que están optimizados para 
 
 Puede usar diarios generales para registrar transacciones financieras directamente en cuentas generales y otras cuentas, como cuentas bancarias, de cliente, proveedor y empleado. Registrar con un diario general siempre crea movimientos en cuentas contables. Esto es así incluso si, por ejemplo, una línea del diario se registra en una cuenta de cliente, pues un movimiento se registra en una cuenta de cobros de contabilidad a través de un grupo de registro.
 
-La información que introduzca en un diario es temporal y se puede modificar mientras se encuentre en el diario. Al registrar el diario, la información se transfiere a movimientos en cuentas individuales, donde no se puede modificar. Sin embargo, puede desliquidar los movimientos registrados y puede registrar movimientos de inversión o correctores. Para obtener más información, consulte [Revertir registros](finance-how-reverse-journal-posting.md).
+La información que introduzca en un diario es temporal y se puede modificar mientras se encuentre en el diario. Al registrar el diario, la información se transfiere a movimientos en cuentas individuales, donde no se puede modificar. Sin embargo, puede desliquidar los movimientos registrados y puede registrar movimientos de inversión o correctores. Para obtener más información, vea [Revertir los registros de diario y deshacer los recibos/envíos](finance-how-reverse-journal-posting.md).
 
 > [!NOTE]
 > [!INCLUDE[journal-showhide-columns-inline-tip](includes/journal-showhide-columns-inline-tip.md)]  
@@ -113,7 +113,7 @@ Cuando haya creado líneas de diario que probablemente vaya a volver a crear má
     Si ya ha creado uno o más diarios de productos estándar y desea reemplazar uno de ellos con el nuevo conjunto de líneas de diario, en el campo Código, seleccione el código que desee usar.
 6. Elija el botón **Aceptar** para confirmar que desea sobrescribir el diario de productos estándar existente y reemplazar todo el contenido.
 7. Seleccione el campo **Guardar precio unitario** si desea guardar los valores del campo **Precio unitario** del diario de productos estándar.
-8. Seleccione el campo de **Guardar cantidad** si desea que el programa guarde los valores contenidos en el campo **Cantidad**.
+8. Seleccione el campo de **Guardar cantidad** si desea que la aplicación guarde los valores contenidos en el campo **Cantidad**.
 9. Elija el botón **Aceptar** para guardar el diario de productos estándar.
 
 Cuando haya terminado de guardar el diario de productos estándar, se muestra la página Diario productos para que pueda registrarlo, sabiendo que puede volver a crearlo fácilmente la siguiente vez que deba registrar líneas iguales o parecidas.
@@ -160,7 +160,7 @@ Cuando sea necesario, los valores del campo **Nº documento** se cambian para qu
 
 ## <a name="see-also"></a>Consulte también
 [Registrar transacciones directamente en la contabilidad](finance-how-post-transactions-directly.md)  
-[Revertir registros](finance-how-reverse-journal-posting.md)  
+[Revertir los registros de diario y deshacer los recibos/envíos](finance-how-reverse-journal-posting.md)  
 [Asignar costes e ingresos](year-allocate-costs-income.md)  
 [Finanzas](finance.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

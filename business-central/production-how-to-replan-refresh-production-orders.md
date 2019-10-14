@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: dfe311bacc141bd03de022a5ec3a0d5aa70f8864
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c8c1885abb3913f4bec3246234a08ebe75bd1718
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253130"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313185"
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Replanificar o actualizar órdenes de producción directamente
 Se utiliza normalmente la función **Replanificar** después de haber agregado o cambiado componentes que conforman órdenes de producción subyacentes. La función de planificación calcula los cambios realizados en las líneas de componentes y rutas e incluye a los productos de los niveles de L.M. de producción inferiores, para los que puede crear nuevas órdenes de producción.  

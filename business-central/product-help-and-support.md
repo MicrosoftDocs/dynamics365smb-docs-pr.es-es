@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 07/17/2019
-ms.openlocfilehash: 4ca4205fa5d2da35451f3a78c1534dd32d4d8f65
-ms.sourcegitcommit: b4fb54af9ed2e51479bb5293f86290c0de78858c
+ms.date: 10/01/2019
+ms.openlocfilehash: 0c710291b1039dedf23266b48940e123f425c9cc
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "1755974"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313617"
 ---
 # <a name="resources-for-help-and-support"></a>Recursos de ayuda y soporte técnico
 
@@ -43,7 +43,7 @@ Si está utilizando una versión de prueba de [!INCLUDE [prodshort](includes/pro
 
 ### <a name="blog"></a>Blog
 
-Hablamos de nuevas capacidades en [el blog de Dynamics 365](https://cloudblogs.microsoft.com/dynamics365/users/product/business-central/), incluso cuando están disponibles y si hay consideraciones especiales.  
+Hablamos de nuevas capacidades en [el blog de Dynamics 365](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/), incluso cuando están disponibles y si hay consideraciones especiales.  
 
 ### <a name="capabilities-coming-soon"></a>Futuras funcionalidades
 
@@ -66,24 +66,24 @@ Asegúrese de buscar en la lista de sugerencias enviadas. Lo más probable es qu
 
 ## <a name="troubleshooting"></a>Solución de problemas
 
-La sección **Solución de problemas** muestra a información técnica que su administrador o socio de [!INCLUDE[prodshort](includes/prodshort.md)] pueden utilizar para desbloquear usuarios. Esto incluye información sobre el último mensaje de error, la versión actual de [!INCLUDE[prodshort](includes/prodshort.md)] y un vínculo para ir a la página **inspección de la página**. Para obtener más información, consulte [Inspección de páginas en Business Central](across-inspect-page.md).  
+La sección **Solución de problemas** muestra a información técnica que su administrador o socio de [!INCLUDE[prodshort](includes/prodshort.md)] pueden utilizar para desbloquear usuarios. Esto incluye información sobre el último mensaje de error, la versión actual de su [!INCLUDE[prodshort](includes/prodshort.md)] y un vínculo para ir a la página **inspección de la página**. Para obtener más información, consulte [Inspección de páginas en Business Central](across-inspect-page.md).  
 
 ## <a name="report-a-problem"></a>Informar sobre un problema
 
-Se espera que su socio distribuidor de [!INCLUDE[prodshort](includes/prodshort.md)] le ayude con el soporte técnico. [!INCLUDE[prodshort](includes/prodshort.md)] se vende a través de socios y esta sección le facilita ponerse en contacto con su socio distribuidor si ha enviado su dirección de correo electrónico de soporte. Si su socio de [!INCLUDE[prodshort](includes/prodshort.md)] no puede resolver el problema, generará un vale de soporte técnico con Microsoft.  
+Su socio distribuidor de [!INCLUDE[prodshort](includes/prodshort.md)] le ayudará con el soporte técnico. [!INCLUDE[prodshort](includes/prodshort.md)] se vende a través de socios y esta sección le facilita ponerse en contacto con su socio distribuidor si ha enviado sus datos de contacto de soporte. Si su socio de [!INCLUDE[prodshort](includes/prodshort.md)] no puede resolver el problema, generará un vale de soporte técnico con Microsoft.  
 
 > [!NOTE]
 > Esta sección solo está disponible si ha pagado una suscripción a [!INCLUDE [prodshort](includes/prodshort.md)]. Si se ha registrado en una versión de prueba y aún no ha comprado [!INCLUDE[prodshort](includes/prodshort.md)], no tiene un socio de reventa y no puede ponerse en contacto con el equipo de soporte de Microsoft. Puede encontrar un socio de [!INCLUDE[prodshort](includes/prodshort.md)] en la página [Estoy buscando un proveedor de soluciones](https://go.microsoft.com/fwlink/?linkid=2038145).  
 
-### <a name="support-email-address"></a>Dirección de correo electrónico de soporte técnico
+### <a name="support-contacts"></a>Contactos de soporte
 
-La dirección de correo electrónico que se muestra en la sección **Informar sobre un problema** puede ser para una persona o un equipo. Si usted es el socio distribuidor de [!INCLUDE[prodshort](includes/prodshort.md)] de un suscriptor, puede configurar esta dirección de correo electrónico en la página de **Tarjeta de información de contacto de soporte**. Para obtener más información, consulte [Configuración del soporte técnico](/dynamics365/business-central/dev-itpro/technical-support) en el contenido para desarrolladores e informáticos para [!INCLUDE [prodshort](includes/prodshort.md)]  
+La sección **Informar sobre un problema** muestra una dirección de correo electrónico o un hipervínculo para que pueda ponerse en contacto con la persona o el equipo de atención al cliente. Si usted es el socio distribuidor de [!INCLUDE[prodshort](includes/prodshort.md)] de un suscriptor, puede configurar los datos de contacto de soporte preferidos en el centro de administración. Para obtener más información, consulte [Configuración de la experiencia de soporte](/dynamics365/business-central/dev-itpro/technical-support#configuring-the-support-experience) en el contenido para desarrolladores e informáticos para [!INCLUDE [prodshort](includes/prodshort.md)]  
 
-Para alertar a su socio de un problema, seleccione el vínculo. Esto abre un nuevo correo electrónico en el editor de correo electrónico predeterminado y, a continuación, puede agregar la información técnica sobre el suscriptor de Azure Active Directory y cualquier otra información que considere relevante.  
+Para alertar a su socio de un problema, elija el vínculo para enviar un correo electrónico o abrir su sitio de soporte en una nueva pestaña del explorador. A continuación, puede agregar la información técnica sobre su suscriptor de Azure Active Directory desde la sección **Solución de problemas** y cualquier otra información que considere relevante.  
 
 ## <a name="see-also"></a>Consulte también
 
 [Entrada de blog: Encuentre los recursos adecuados y proporcione comentarios](https://community.dynamics.com/business/b/financials/archive/2018/12/04/find-the-right-resources-and-provide-feedback)  
 [Documentos para desarrolladores e informáticos de Business Central](/dynamics365/business-central/dev-itpro/)  
 [Recursos de ayuda y soporte técnico para socios](/dynamics365/business-central/dev-itpro/help-and-support)  
-[Configuración del soporte técnico](/dynamics365/business-central/dev-itpro/technical-support)  
+[Soporte técnico](/dynamics365/business-central/dev-itpro/technical-support)  

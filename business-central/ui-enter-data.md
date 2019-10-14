@@ -1,5 +1,5 @@
 ---
-title: Cómo introducir datos en campos | Documentos de Microsoft
+title: Cómo introducir datos en Business Central | Documentos de Microsoft
 description: Obtenga información sobre las características generales que le ayudan a introducir datos en los campos.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 09/17/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 83bf26c7059146978d46820144e5701fdbb3aa31
-ms.sourcegitcommit: 7ce8005806465417c7040c61da1d6cada29cd9c0
+ms.openlocfilehash: 722f81e9e06cdab13bdd838837e2053de0215821
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "2000792"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311385"
 ---
 # <a name="entering-data"></a>Introducción de datos
 
@@ -39,7 +39,7 @@ Es posible que ya esté familiarizado con el uso de la tecla Tab para navegar de
 
 Cada campo puede marcarse como *incluido en la entrada rápida* o como *excluido de la entrada rápida*. Los campos que se incluyen en la entrada rápida se incluirán en la ruta cuando pulse Entrar; los campos que se excluyen de la entrada rápida, no.
 
-Cuando haya finalizado de rellenar un campo, pulse Entrar para confirmar los cambios e ir al siguiente campo. Si desea invertir la dirección y pasar al campo anterior, pulse Mayús+Entrar. Para obtener más información sobre estos métodos abreviados, consulte [Métodos abreviados de teclado de entrada rápida para campos](keyboard-shortcuts.md#QuickEntry).
+Cuando haya finalizado de rellenar un campo, pulse Entrar para confirmar los cambios e ir al siguiente campo. Si desea invertir la dirección y pasar al campo anterior, pulse Mayús+Entrar. Para obtener más información sobre estos métodos abreviados, consulte [Métodos abreviados de entrada rápida para campos](keyboard-shortcuts.md#QuickEntry).
 
 #### <a name="tips-and-tricks"></a>Sugerencias y trucos
 A continuación se ofrece información útil sobre el uso de la entrada rápida.
@@ -51,14 +51,14 @@ A continuación se ofrece información útil sobre el uso de la entrada rápida.
 - La entrada rápida funciona independientemente de si los campos son obligatorios. Por lo tanto, es buena idea asegurarse de que los campos obligatorios se incluyan en la entrada rápida.
 - De forma predeterminada, la mayoría de los campos se incluyen automáticamente en la entrada rápida. Por lo tanto, al principio, lo más probable es que su tarea sea excluir campos de la entrada rápida.
 
-### <a name="how-to-change-quick-entry-fields"></a>Cómo modificar los campos de entrada rápida
+### <a name="to-change-quick-entry-fields"></a>Para cambiar los campos de entrada rápida
 
 Para cambiar los campos que se incluyen o se excluyen de la entrada rápida de una página, se utiliza la personalización.
 
-1. Comience la personalización seleccionando el icono ![Configuración](media/ui-experience/settings_icon_small.png "Icono Configuración para el área de trabajo") y **Personalizar**.
+1. Comience la personalización seleccionando el icono ![Configuración](media/ui-experience/settings_icon_small.png "Icono Configuración para el área de trabajo") y, a continuación, la acción **Personalizar**.
 2. Seleccione un campo que desee modificar o, en las listas, seleccione la cabecera de columna correspondiente y, a continuación, seleccione **Incluir en entrada rápida** o **Excluir de entrada rápida**.
 
-Para obtener más información sobre la personalización, consulte [Personalización del área de trabajo](ui-personalization-user.md).
+Para obtener más información sobre la personalización, consulte [Personalizar el área de trabajo](ui-personalization-user.md).
 
 ## <a name="mandatory-fields"></a>Campos obligatorios
 
@@ -76,19 +76,25 @@ Aunque el campo contiene un asterisco rojo, no se le obliga a rellenar el campo 
 
 -   Desplegable: muestra el conjunto de opciones que existe para el campo. Sólo puede seleccionar una de las opciones.  
 
-## <a name="copying-and-pasting-fields-and-lines"></a>Copia y pegado de campos y líneas
+## <a name="copying-and-pasting-faq-fields-and-lines"></a>Preguntas frecuentes sobre copiar y pegar campos y líneas
 
 Puede copiar una o más filas de una lista o un solo campo en una página y luego pegar lo que ha copiado en la misma página, otra página o un documento externo (como Microsoft Excel y el correo electrónico de Outlook). En resumen, para copiar, presione CTRL+C (cmd+C en macOS) en su teclado. Para pegar, presione CTRL+V (cmd+V en macOS).
 
 En una lista, para copiar el campo en la misma columna de la fila anterior y pegarlo en la fila actual, pulse F8.
 
-Para obtener más información, consulte [Copiar y pegar en Business Central](ui-copy-paste.md).
+Para obtener más información, consulte [Preguntas frecuentes sobre copiar y pegar](ui-copy-paste.md).
+
+## <a name="filtering-line-items"></a>Filtrado de los productos de línea
+
+Para iniciar el filtrado, seleccione ![Icono Panel de filtro](media/open-filter-pane-icon.png "Icono Panel de filtro") en la parte superior de la lista o pulse Mayús+F3 para abrir el panel de filtro. Con el panel de filtros se trabaja como en cualquier otra lista. Para obtener más información, consulte [Filtrado](ui-enter-criteria-filters.md#Filtering).
+
+El filtrado es especialmente útil cuando se ven y analizan documentos largos. Por ejemplo, imagine que abre una factura de ventas registrada y filtra los productos de línea para visualizar todos los productos de línea que tienen un descuento individual superior al 5 %, o bien establece un filtro para visualizar solo los accesorios de bicicleta con "pro" en el nombre.
 
 ## <a name="Focus"></a>Enfoque en los productos de línea
 
-Al trabajar en documentos que incluyen una parte de productos de línea, como una página de pedido de venta o de factura, puede cambiar su vista para centrarse solo en los productos de línea, ampliando esencialmente la parte de productos de línea para que ocupe prácticamente todo el espacio de trabajo y ocultando otras partes de la página excepto el área de acciones en la parte superior. Esto le proporciona una mejor visión general de los productos de línea y más espacio para trabajar en ellos. Esto es muy beneficioso cuando se trabaja con grandes listas de productos de línea y se desea una entrada rápida de los datos.
+Al trabajar en documentos que incluyen una parte de productos de línea, como un pedido de venta o una página de factura, puede cambiar la vista para centrarse solo en los productos de línea. La parte de los productos de línea se expande para que ocupe casi todo el espacio de trabajo, ocultando otras partes de la página, excepto el área de acciones en la parte superior. Esto le proporciona una mejor visión general de los productos de línea y más espacio para trabajar en ellos.
 
-Otra ventaja es que también proporciona capacidad de filtrado avanzado, como en otras listas, de modo que la navegación y la búsqueda a través de los productos de línea resulta aún más fácil.
+Esto es muy beneficioso cuando se trabaja con grandes listas de productos de línea y cuando se desea una entrada rápida de los datos. Otra ventaja es que también proporciona capacidad de filtrado avanzado, como en otras listas, de modo que la navegación y la búsqueda a través de los productos de línea resulta aún más fácil.
 
 ### <a name="switching-the-focus-on-and-off"></a>Activar y desactivar el enfoque
 
@@ -96,11 +102,16 @@ Para el enfoque en los productos de línea, seleccione cualquier lugar de la par
 
 Para volver a la vista normal, seleccione ![Icono Modo de enfoque](media/focus-mode.png "Icono Modo de enfoque") o pulse Ctrl+Mayús+F12 de nuevo.
 
-### <a name="filtering-the-line-items"></a>Filtrado de los productos de línea
+## <a name="multitasking-across-multiple-pages"></a>Multitarea en varias páginas
+Cuando trabaje en múltiples tareas a la vez o cuando administre interrupciones en la tarea actual, como atender una llamada entrante, puede abrir una página de ficha o documento en una nueva ventana. Esto le permite mantener una ventana abierta para una tarea en curso mientras inicia o completa otra tarea en una o más ventanas.
 
-Para iniciar el filtrado, seleccione ![Icono Panel de filtros](media/open-filter-pane-icon.png "Icono Panel de filtros") en la parte superior de la lista o pulse **Mayús+F3** para abrir el panel de filtros. Con el panel de filtros se trabaja como en cualquier otra lista. Para obtener más información, consulte [Filtrado](ui-enter-criteria-filters.md#Filtering).
+Para abrir la ficha o documento actual en una nueva ventana, elija ![Abrir nueva ventana](media/open-new-window-icon.png "Icono Abrir nueva ventana") en la esquina superior derecha o pulse Alt+Mayús+W.
 
-El filtrado es especialmente útil cuando se ven y analizan documentos largos. Por ejemplo, imagine que abre una factura de ventas registrada y filtra los productos de línea para visualizar todos los productos de línea que tienen un descuento individual superior al 5 %, o bien establece un filtro para visualizar solo los accesorios de bicicleta con "pro" en el nombre.
+> [!NOTE]
+> Cuando abre otras páginas desde una ficha o documento que está abierto en una nueva ventana, esas páginas se abrirán en una nueva ventana aunque no elija ![Abrir nueva ventana](media/open-new-window-icon.png "Icono Abrir nueva ventana").
+
+> [!NOTE]
+> Si trabaja en el explorador Safari, un bloqueador de ventanas emergentes puede provocar que no se abra la nueva ventana. Si este es el caso, especifique la URL del producto como un sitio web permitido. Para obtener información, consulte [Cambiar las preferencias en Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).  
 
 ## <a name="entering-quantities-by-calculation"></a>Introducir cantidades por cálculo
 
@@ -185,9 +196,9 @@ En la tabla siguiente se muestran varias formas de introducir fechas y horas y c
 
 |Movimiento|Interpretación|  
 |---------------|------------------------|  
-|021213 132455|13/12/02 13:24:55|  
+|`131202` 132455|13/12/02 13:24:55|  
 |02-12-01 10|01/12/02 10:00:00|  
-|12.01.02 5|01/12/02 05:00:00|  
+|1.12.02 5|01/12/02 05:00:00|  
 |12.1.02|01/12/02 00:00:00|  
 |11 12|11/mes actual/año actual 12:00:00|  
 |1112 12|11/12/año actual 12:00:00|  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 82c7e19c2c493df77094bd3b6e4d2e5835a278bb
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 777133cb15b6949eafe20abf325556cd8b16bb9a
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250784"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2316062"
 ---
 # <a name="convert-service-contracts-that-include-vat-amounts"></a>Convertir contratos de servicio que incluyen importes de IVA
 Como la herramienta de cambio de tasa de IVA no puede convertir contratos de servicio, estos acuerdos deben convertirse manualmente. Este tema describe diversos métodos alternativos que puede usar para la conversión de contrato de servicio.  

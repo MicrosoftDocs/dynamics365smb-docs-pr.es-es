@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: bf64955898ddbdce539a2e68c2db07c2c6b8c575
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 226fb329b852075a26ad42e2f08a11f2f97ea733
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253084"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313137"
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Ejecutar la planificación completa, MPS o MRP
 Los términos "ejecutar la hoja de planificación" o "ejecutar MRP" hacen referencia al cálculo del programa de producción principal y a las necesidades de material, en función de la demanda real y prevista. El programa de planificación puede calcular tanto el Programa de planificación principal (MPS) como la Planificación de necesidades de material (MRP) cuando se solicite, o calcular ambas cosas a la vez.  

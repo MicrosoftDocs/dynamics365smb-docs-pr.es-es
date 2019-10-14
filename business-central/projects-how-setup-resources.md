@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: dc3c7f272eb6566178e1599d603a2b83da1de5a3
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: bd0206c0ceb9a2e559f3fb4e391877e158800cd4
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253268"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312753"
 ---
 # <a name="set-up-resources"></a>Configurar recursos
 Para administrar correctamente las actividades de recursos, debe configurar los recursos, y los costes y los precios relacionados. Las reglas de precios, descuentos y factores de coste relacionadas con el proyecto se configuran en la tarjeta respectiva. Puede especificar los costes y los precios de recursos individuales, de grupos de recursos o de todos los recursos disponibles de la empresa.

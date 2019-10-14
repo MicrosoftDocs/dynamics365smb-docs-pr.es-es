@@ -3,23 +3,23 @@ title: Cambiar el aspecto de un informe seleccionando otro diseño | Documentos 
 description: Puede utilizar diseños distintos para un informe y cambiar de un diseño a otro para cambiar el aspecto de un informe.
 services: project-madeira
 documentationcenter: ''
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 04/01/2019
-ms.author: jswymer
-ms.openlocfilehash: f24f1cd24a31ddbd0b455b876821ae0173a677c3
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 07de4be7bc516cf9f4b802a48dc59293b1992f5f
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249446"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315257"
 ---
-# <a name="change-which-layout-is-currently-used-on-a-report"></a>Cambiar el diseño que se usa actualmente en un informe
+# <a name="change-the-current-report-layout"></a>Cambiar el diseño de informe actual
 Un informe se puede configurar con varios diseños de informe, entre los que puede cambiar según sea necesario.
 
 Según los diseños disponibles para un informe, puede optar por usar un diseño de informe de RDLC integrado, un diseño de informe de Word integrado o un diseño personalizado. Para obtener más información acerca de los diseños de informe de RDLC y de Word, diseños personalizados e integrados y otros temas, consulte [Gestionar diseños de informe](ui-manage-report-layouts.md).
@@ -35,10 +35,11 @@ Según los diseños disponibles para un informe, puede optar por usar un diseño
    * Usa el diseño de informe de RDLC integrado en el informe.
    * Usa el diseño de informe de Word integrado en el informe.
    * Custom, usa un diseño personalizado en el informe.  
-     Puede ver qué diseños personalizados estarán disponibles para el informe en el cuadro informativo Parte de diseños de informe. Si no hay diseños personalizados para el informe, deberá crear uno primero. Si elige esta opción, vaya al procedimiento siguiente para especificar el diseño personalizado que desea usar.
 
-    > [!NOTE]  
-    >   Si elige **RDLC (integrado)** o **Word (integrado)** y recibe un mensaje de error en el que se indica que el informe no tiene un diseño del tipo especificado, debe elegir otra opción de diseño o crear un diseño de informe personalizado del tipo que desea usar.
+Puede ver qué diseños personalizados estarán disponibles para el informe en el cuadro informativo **Parte de diseños de informe**. Si no hay diseños personalizados para el informe, deberá crear uno primero. Si elige esta opción, vaya al procedimiento siguiente para especificar el diseño personalizado que desea usar.
+
+> [!NOTE]
+> Si elige **RDLC (integrado)** o **Word (integrado)** y recibe un mensaje de error en el que se indica que el informe no tiene un diseño del tipo especificado, debe elegir otra opción de diseño o crear un diseño de informe personalizado del tipo que desea usar.
 
 Si ha seleccionado un diseño de informe de RDLC o de Word, no se requiere ninguna otra acción y el diseño se utilizará la próxima vez que se ejecute el informe.
 

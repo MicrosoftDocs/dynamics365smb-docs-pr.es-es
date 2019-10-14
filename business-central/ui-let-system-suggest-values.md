@@ -7,16 +7,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6f2357a169684f30dd6e177b1687a387d22e8690
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 8d59462f89e8268bdb9def8c455388ccddcea3ac
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249496"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310857"
 ---
-# <a name="letting-included365finincludesd365finmdmd-suggest-values"></a>Permitir que [!INCLUDE[d365fin](includes/d365fin_md.md)] proponga valores
+# <a name="letting-included365finincludesd365fin_mdmd-suggest-values"></a>Permitir que [!INCLUDE[d365fin](includes/d365fin_md.md)] proponga valores
 [!INCLUDE[d365fin](includes/d365fin_md.md)] puede ayudarle a completar las tareas más rápida y correctamente rellenando previamente los campos o las líneas completas con los datos que, de no ser así, debería calcular e introducir usted. Aunque los datos introducidos automáticamente son siempre correctos, puede cambiarlos si lo desea.
 
 La funcionalidad que introduce los valores del campo por usted, normalmente, se ofrece mediante tareas en las que se introducen grandes volúmenes de datos transaccionales y se desea evitar errores y ahorrar tiempo. Este tema contiene una selección de éstas funcionalidades. Se agregarán más secciones en futuras actualizaciones de [!INCLUDE[d365fin](includes/d365fin_md.md)].

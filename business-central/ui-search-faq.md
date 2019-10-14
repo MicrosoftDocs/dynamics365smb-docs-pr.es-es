@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: d04f78b31b9fb0403201cb9e5cb1f98f1ef935e1
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 9fac8d546a24839ebaa0719d721d886c03001521
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248022"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310761"
 ---
 # <a name="tell-me-faq"></a>FAQ acerca de la función Dígame
-Este tema responde a las preguntas que nuestros usuarios avanzados suelen hacer sobre la nueva función Dígame que ha reemplazado la función anterior de búsqueda de páginas conocida como **Buscar páginas e informes**.
+Este tema responde las preguntas que nuestros usuarios avanzados suelen hacer sobre la función Dígame.
 
 ### <a name="are-all-actions-from-my-current-page-discoverable-in-tell-me"></a>¿Se pueden ver todas las acciones de mi página actual en la función Dígame?
 No. Las acciones en partes, como la parte Líneas de venta o Cuadros de información, no se muestran en la función Dígame.
@@ -32,8 +32,8 @@ La función Dígame recoge las acciones, páginas e informes que se originan a p
 ### <a name="what-makes-this-different-from-what-was-previously-known-as-page-search"></a>¿Qué diferencia hay con lo que antes se conocía como búsqueda de página?
 La Búsqueda de páginas se ha convertido en la función Dígame para ayudarle a realizar el trabajo rápidamente. La búsqueda de páginas solo puede ayudarle a desplazarse por páginas o informes. A nivel técnico, la función Dígame ya no se basa en el concepto heredado de MenuSuite.
 
-### <a name="i-use-on-premises-included365finincludesd365finmdmd-does-that-include-tell-me"></a>Utilizo [!INCLUDE[d365fin](includes/d365fin_md.md)] local. ¿Incluye la función Dígame?
-Puede usar la función Dígame en el cliente web local para buscar acciones, páginas e informes, pero no documentación, o aplicaciones y servicios de consultoría en AppSource. Los usuarios que se conectan a [!INCLUDE[d365fin](includes/d365fin_md.md)] desde el cliente de Dynamics NAV continúan usando la Búsqueda de páginas.
+### <a name="i-use-on-premises-included365finincludesd365fin_mdmd-does-that-include-tell-me"></a>Utilizo [!INCLUDE[d365fin](includes/d365fin_md.md)] local. ¿Incluye la función Dígame?
+Puede usar la función Dígame en el cliente web local para buscar acciones, páginas e informes, pero no documentación, o aplicaciones y servicios de consultoría en AppSource.
 
 ### <a name="is-tell-me-available-for-all-form-factors"></a>¿Está disponible para todos los factores de forma?
 La función Dígame solo está disponible en el cliente web o en la aplicación de escritorio de Windows.
@@ -41,5 +41,14 @@ La función Dígame solo está disponible en el cliente web o en la aplicación 
 ### <a name="are-the-documentation-results-available-in-any-language"></a>¿Los resultados de la documentación están disponibles en algún idioma?
 Los artículos de ayuda se mostrarán en el idioma que ha especificado en **Mi configuración**, si la ayuda está disponible en ese idioma.
 
+### <a name="why-dont-i-see-a-bookmark-icon-for-my-search-results"></a>¿Por qué no veo un icono de marcador para mis resultados de búsqueda?
+El icono de marcador no se muestra en la ventana Dígame cuando la personalización está deshabilitada para un rol de usuario.
+
+### <a name="is-the-bookmark-icon-available-for-reports"></a>¿El icono de marcador está disponible para los informes?
+Nº Solo puede marcar un vínculo a una página o cualquier resultado de búsqueda que se muestre en la sección **Páginas y tareas** de la ventana Dígame.
+
+
 ## <a name="see-also"></a>Consulte también  
-[Encontrar características e información](ui-search.md)
+[Guardar y personalizar vistas de lista](ui-views.md)  
+[Búsqueda de páginas e información con Dígame](ui-search.md)  
+[Búsqueda de páginas desde una descripción general de funciones](ui-role-explorer.md)

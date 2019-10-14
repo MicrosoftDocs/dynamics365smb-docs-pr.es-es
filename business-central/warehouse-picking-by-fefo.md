@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a5e25c9df3ccd98436945b0070773d5b48eb54ac
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 327cd6e048ce4afcc6b58c2d546da4768ec03724
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247656"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314537"
 ---
 # <a name="enable-picking-items-by-fefo"></a>Habilitar la realización de picking de productos por FEFO
 El primero que caduca es el primero en salir (FEFO en las siglas en inglés) es un método de ordenación que asegura que con los artículos más antiguos, aquéllos con las fechas de vencimiento más próxima, se hace el picking antes.  
@@ -25,7 +25,7 @@ El primero que caduca es el primero en salir (FEFO en las siglas en inglés) es 
  Esta funcionalidad sólo funciona únicamente cuando se cumplen los criterios siguientes:  
 
 -   El artículo debe tener un número de serie/lote.  
--   En el código del seguimiento de producto del artículo de instalación, debe seleccionarse el campo **Seguimiento almacén específico NS** o el **Seguimiento almacén específico lote**.  
+-   En el código del seguimiento de producto del artículo de instalación, debe seleccionarse el campo **Seguim. NS específ.** o **Seguim. lote específ.**  
 -   El artículo debe registrarse para inventariar con una fecha de vencimiento.  
 -   En la ficha de almacén, debe estar seleccionada la casilla **Picking requerido**.  
 -   En la ficha de almacén, debe seleccionar la casilla **Picking según FEFO (Primero en caducar, primero en salir)**.  
@@ -36,7 +36,7 @@ El primero que caduca es el primero en salir (FEFO en las siglas en inglés) es 
 > [!NOTE]  
 > Si algún artículo numerado con serie/lote utiliza el seguimiento específico, se respetan primero y bajo ellos, se incluyen en una lista los restantes, no específicos, números de serie/lote según el FEFO.
 <br /><br />
-Si dos productos con número de serie o lote tienen la misma fecha de caducidad, el programa selecciona aquel cuyo número de lote o de serie sea menor.
+Si dos productos con número de serie o lote tienen la misma fecha de caducidad, la aplicación selecciona aquel cuyo número de lote o de serie sea menor.
 <br /><br />
 Cuando se realiza el picking de productos con números de lote/serie en ubicaciones configuradas para ubicación y picking directos, sólo se realiza el picking de las cantidades de ubicaciones de tipo *Picking* según FEFO.  
 <br /><br />

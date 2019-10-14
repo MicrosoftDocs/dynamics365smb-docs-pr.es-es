@@ -1,6 +1,6 @@
 ---
 title: Cálculo de la fecha de ventas | Documentos de Microsoft
-description: El programa calcula automáticamente la fecha en la que se debe solicitar un producto para tenerlo en el inventario en una fecha determinada. Esta es la fecha en la que puede contar con que los productos solicitados en una fecha determinada estén disponibles para picking.
+description: La aplicación calcula automáticamente la fecha en la que se debe solicitar un producto para tenerlo en el inventario en una fecha determinada. Esta es la fecha en la que puede contar con que los productos solicitados en una fecha determinada estén disponibles para picking.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 927c16f0fb1d12ff1202e4e675b97078d354375f
-ms.sourcegitcommit: 8c0d734c7202fec81da79c7db382243aa49e37f6
+ms.openlocfilehash: 0fa1f07b5da450a2e6f634bda07752efd0e35889
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/10/2019
-ms.locfileid: "1737125"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312249"
 ---
 # <a name="date-calculation-for-sales"></a>Cálculo de fecha de ventas
 [!INCLUDE[d365fin](includes/d365fin_md.md)] calcula automáticamente la fecha más próxima posible en la que se puede enviar un producto incluido en una línea de pedido de venta.

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b4a47608bbcc191ec413f08e0969f1bbd6fc4041
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 5b153d68636e948a01a5ab2d514828710e413f3d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251175"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311649"
 ---
 # <a name="work-on-service-tasks"></a>Trabajar en tareas de servicio
 Una vez que haya creado un pedido u oferta de servicio, registrado líneas de producto de servicio y asignado recursos a los productos de servicio del pedido u oferta, podrá empezar a reparar y mantener los productos de servicio.  
@@ -100,7 +100,7 @@ Después de reparar un producto de servicio, puede registrar tanto el código de
 2. Elija la línea que contiene el producto de servicio en cuestión y, a continuación, elija la acción **Hoja trabajo prod.**.  
 3. En la página **Hoja prod. servicio**, elija **Relac. códs. defecto/resol.**. Se abrirá la página **Relación códs. defecto/resol.**  
 
-  >  [!Note]
+  >  [!NOTE]
   >  Los filtros se definen para las relaciones mostradas en la página al copiar el grupo de producto de servicio y los códigos de defecto de la página **Hoja trabajo prod. serv.**  
 
 4. Rellene la línea. Seleccione la combinación correcta de códigos de defecto y resolución y, a continuación, selección **Aceptar** para copiarla al producto de servicio. Si no se encuentra una combinación adecuada, puede crear una combinación nueva en la página.  

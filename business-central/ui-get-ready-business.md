@@ -9,19 +9,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
-ms.date: 06/19/2019
+ms.date: 10/01/2019
 ms.author: solsen
-ms.openlocfilehash: e100350322a1cf840b4428868f77b104e07c23c1
-ms.sourcegitcommit: 0854c074b500c3031eaf86fde9d452f93f238081
+ms.openlocfilehash: 095d8ba53bce25df66bcb8c5daa1e06479b68f0c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "1701226"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315305"
 ---
 # <a name="getting-ready-for-doing-business"></a>Preparación para hacer negocios
 Enhorabuena, acaba de iniciar su primera empresa en [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Para ayudarle a empezar a hacer negocios, puede visitar la página **Asistencia de negocio** donde puede iniciar guías de configuración asistida, vídeos o temas de ayuda para determinadas tareas de configuración. A la página se accede desde el gráfico en el área de trabajo **Administrador de negocio** eligiendo el menú desplegable **Asistencia de negocio** y, a continuación, eligiendo la acción **Mostrar configuración y recursos de ayuda**. Al actualizar la página, el gráfico se reemplaza por los recursos de configuración y ayuda.
+Para ayudarle a empezar a hacer negocios, puede visitar la página **Asistencia de negocio** donde puede iniciar guías de configuración asistida, vídeos o temas de ayuda para determinadas tareas de configuración. A la página se accede desde el gráfico en el área de trabajo **Administrador de negocio** eligiendo la flecha desplegable **Asistencia de negocio** y, a continuación, eligiendo la acción **Mostrar configuración y recursos de ayuda**. Al actualizar la página, el gráfico se reemplaza por los recursos de configuración y ayuda.
 
 Como alternativa, para abrir la lista de guías de configuración asistida, elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración asistida** y luego elija el enlace relacionado.
 
@@ -49,7 +49,7 @@ Use las flechas para contraer una parte de la página y haga más espacio para m
 En **Configuración de la empresa** puede ver y editar información de configuración sobre la empresa actual, mucha de la cual se rellenó previamente si completó la configuración asistida **Configurar empresa** al registrarse en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Si desea cambiar el logotipo de la empresa, la información de contacto, la configuración del banco o la información de los impuestos, puede hacerlo desde esta página.    
 
 ## <a name="adding-users-and-permissions"></a>Agregar usuarios y permisos
-Si necesita agregar más usuarios, se realiza de centro de administración de Office 365. Para obtener más información, vea [Agregar usuarios a Office 365 para empresas](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc). Una vez se hayan creado los usuarios en Office 365, se pueden importar en la página **Usuarios** mediante la acción **Obtener usuarios desde Office 365**. Después podrá continuar con la asignación de permisos a usuarios y la organización en grupos de usuarios. Para obtener más información, vea [Administración de usuarios y permisos](ui-how-users-permissions.md).  
+Si necesita agregar más usuarios, se realiza de centro de administración de Office 365. Para obtener más información, vea [Agregar usuarios a Office 365 para empresas](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc). Una vez se hayan creado los usuarios en Office 365, se pueden importar en la página **Usuarios** mediante la acción **Obtener usuarios desde Office 365**. Después podrá continuar con la asignación de permisos a usuarios y la organización en grupos de usuarios. Para obtener más información, vea [Administrar usuarios y permisos](ui-how-users-permissions.md).  
 
 ## <a name="getting-help"></a>Obtener ayuda
 En [!INCLUDE[d365fin](includes/d365fin_md.md)] encontrará las herramientas de información que pueden guiarle a través de varios procesos empresariales. Para cada información sobre herramientas de campo, puede presionar Ctrl+F1 o elegir el vínculo **Más información** para abrir la Ayuda de la página en cuestión. El signo de interrogación de la esquina superior derecha también le dirige a la ayuda del producto.
@@ -60,6 +60,6 @@ Según sus datos migrados, ahora puede empezar a crear nuevos documentos de comp
 ## <a name="see-also"></a>Consulte también
 [Introducción](product-get-started.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Gestionar usuarios y permisos](ui-how-users-permissions.md)
+[Administrar usuarios y permisos](ui-how-users-permissions.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

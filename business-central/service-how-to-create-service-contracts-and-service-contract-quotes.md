@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: d3c3a460cd13d0af16e38564d4b2fb0de367ed53
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: bdb6339715fd656a7c8e25b7d35b337c17da1b97
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252210"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311697"
 ---
 # <a name="work-with-service-contracts-and-service-contract-quotes"></a>Trabajar con contratos de servicio y ofertas de contrato de servicio
 Puede crear un contrato de servicio de forma manual o desde una oferta de contrato de servicio. Puede utilizar una oferta de contrato de servicio como precursora de un contrato de servicio, en ésta su empresa realiza una oferta al cliente para obtener así su aprobación para poder convertirla en un contrato de servicio. Los procedimientos para crear un contrato de servicio o una oferta de contrato de servicio son similares.  
@@ -28,7 +28,7 @@ Puede crear un contrato de servicio de forma manual o desde una oferta de contra
 3. Rellene el campo **No.**. . Se abrirá un cuadro de diálogo en el que se le preguntará si desea rellenar los datos comunes del contrato a partir de una plantilla de contrato. Si desea crear este tipo de contrato u oferta de contrato de servicio, seleccione **Sí**. Se abrirá la página **Lista plantilla contrato serv.**  
 4. Seleccione la plantilla adecuada y, a continuación, elija **Aceptar** para utilizarla al crear el contrato u oferta de contrato de servicio.  
 5. En el campo **Nº cliente**, elija el cliente.  
-6. Si no desea que se distribuya automáticamente la diferencia de importe anual, elija la casilla **Permite importes sin saldar**. Los valores de los campos **Importe anual** e **Importe anual calculado** no se igualan automáticamente. Si desea que el programa distribuya automáticamente la diferencia de importe anual que pueda generarse con el cambio de contrato de servicio, no seleccione la casilla **Permite importes sin saldar**.  
+6. Si no desea que se distribuya automáticamente la diferencia de importe anual, elija la casilla **Permite importes sin saldar**. Los valores de los campos **Importe anual** e **Importe anual calculado** no se igualan automáticamente. Si desea que la aplicación distribuya automáticamente la diferencia de importe anual que pueda generarse con el cambio de contrato de servicio, no seleccione la casilla **Permite importes sin saldar**.  
 7. Agregue líneas de contrato al contrato o a la oferta de contrato de servicio.  
 8. Rellene el resto de campos según sea necesario.  
 

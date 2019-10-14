@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipts
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d96f46d7c0bd2b8a20294ff934ed645a76298e42
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 64e2ce149a51466ff458e914f7365026ccb6c3ab
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251888"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2316553"
 ---
 # <a name="reconcile-payments-that-cannot-be-applied-automatically"></a>Conciliar pagos que no se pueden liquidar automáticamente
 En ocasiones es posible que tenga que gestionar los pagos en su cuenta bancaria que no se pueden liquidar con un cliente, proveedor o movimiento de cuenta bancario abierto relacionado. Los motivos pueden ser que no haya ningún documento en [!INCLUDE[d365fin](includes/d365fin_md.md)] con el que se pueda liquidar el pago o el documento relacionado en [!INCLUDE[d365fin](includes/d365fin_md.md)] tiene un importe diferente al de la transacción, por ejemplo, debido al tipo de cambio de divisa. En la página **Diario de conciliación de pagos**, todos los importes de transacciones de pagos que aún no se hayan liquidado aparecen en el campo **Diferencia**, incluidos los importes que no se pueden liquidar debido a los motivos que aparecen anteriormente.

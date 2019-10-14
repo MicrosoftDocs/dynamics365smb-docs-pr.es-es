@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 06/13/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: dd3cf008e2d16a8d63c9fea930ddcb4ba14072a2
-ms.sourcegitcommit: 5bcc5f95e450ee9a3d9f7a380e592a5e75c4185b
+ms.openlocfilehash: 00ab948c07e708ae22c63177f01ed4c6ada28c5a
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1858294"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313593"
 ---
 # <a name="getting-started-with-included365fin_longincludesd365fin_long_mdmd"></a>Introducción a [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] es una solución de administración empresarial para pequeñas y medianas empresas que automatiza y optimiza los procesos empresariales y le ayuda a administrar su empresa. Registrarse es muy fácil y puede migrar los datos de la empresa existentes desde su sistema de herencia. Para ayudarle con su suscripción, encuentre [aquí](https://www.microsoft.com/en-us/solution-providers/search) un socio de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -42,6 +42,8 @@ Para poder empezar a utilizar la funcionalidad, se debe realizar cierta configur
 
 Para obtener un resumen de las funciones actuales y futuras, eche un vistazo al plan de versión en [Plan de la versión de Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422).  
 
+También puede encontrar contenido de eLearning en [Microsoft Learn](/learn/browse/?products=dynamics-business-central).  
+
 ## <a name="the-role-centers"></a>Áreas de trabajo
 La página Área de trabajo se basa un diseño basado en roles para ofrecerle acceso rápido a las herramientas de procesos e inteligencia empresariales que necesita para realizar su trabajo. Por ejemplo, un contable puede supervisar pagos y aprobaciones, y ver gráficos de rendimiento financiero. Vea las áreas de trabajo eligiendo el icono **Configuración** ![Configuración](media/ui-experience/settings_icon_small.png "Icono Configuración del área de trabajo") en la esquina superior derecha, eligiendo **Mi configuración** y, a continuación, el área de trabajo para explorar. Inicie sesión de nuevo para aplicar el cambio. Para obtener más información, consulte [Cambiar configuración básica](ui-change-basic-settings.md).
 
@@ -65,7 +67,7 @@ En la página **Configuración asistida**, encontrará lo siguiente con la exper
 | Configurar informes |Configura conjuntos de datos que puede usar para generar informes eficaces utilizando Excel o Power BI, por ejemplo. |
 | Configurar un flujo de trabajo de aprobación de producto |Configura la capacidad de enviar una notificación a un aprobador cuando un usuario cambia o crea un producto. |
 | Configurar un flujo de trabajo de aprobación de pago |Configura la capacidad de enviar una notificación a un aprobador cuando un usuario envíe líneas de diario de pagos para su aprobación. |
-| Configurar el conector de Business Central |Le permite conectar con Dynamics 365 for Sales, que le posibilita la sincronización de datos como los contactos y la información de los pedidos. |
+| Configurar el conector de Business Central |Le permite conectar con Dynamics 365 Sales, que le posibilita la sincronización de datos como los contactos y la información de los pedidos. |
 | Configurar impuestos de ventas |Le ayudará a empezar con grupos de impuestos por defecto y asignará códigos de impuestos de área que podrá asignar a clientes y proveedores para poder calcular automáticamente los impuestos de venta en los documentos de venta o compra. |
 
 ## <a name="trying-things-out-in-your-own-company"></a>Probar cosas en su empresa
@@ -99,6 +101,7 @@ Si es un contable, puede registrarse en [!INCLUDE[d365acc_long](includes/d365acc
 [Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] como mi bandeja de entrada de empresa en Outlook](admin-outlook.md)  
 [Obtener [!INCLUDE[d365fin](includes/d365fin_md.md)] en el dispositivo móvil](install-mobile-app.md)  
 [Recursos de ayuda y soporte técnico](product-help-and-support.md)  
+[Dynamics 365 Business Central en Microsoft Learn](/learn/browse/?products=dynamics-business-central)  
 [Documentación de Dynamics 365](/dynamics365/)  
 [Plan de la versión de Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  

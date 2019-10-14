@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 03eeb13e5087e064e80d444ab373b0407f5a93be
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 9bc4879e6461ad9a2a1f88e2c877bc80d27c2206
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248139"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314993"
 ---
 # <a name="updating-report-or-document-layouts"></a>Actualizar diseños de informes o documentos
 De vez en cuando es posible que necesite actualizar un diseño de informe personalizado que se use en un informe. Esto es necesario cuando ha habido un cambio de diseño en el conjunto de datos del informe, por ejemplo, si se elimina un campo que se utiliza en el diseño. Si un diseño de informe requiere actualización, recibirá un mensaje de error cuando intente obtener una vista previa del informe, o al imprimirlo o guardarlo.  
@@ -66,4 +66,4 @@ Si no se producen errores, las actualizaciones se aplican a los diseños de info
 
 ## <a name="see-also"></a>Consulte también  
  [Gestión de diseños de informe](ui-manage-report-layouts.md)  
- [Trabajar con informes y trabajos por lotes](ui-work-report.md)  
+ [Trabajar con informes, trabajos por lotes y XMLports](ui-work-report.md)  

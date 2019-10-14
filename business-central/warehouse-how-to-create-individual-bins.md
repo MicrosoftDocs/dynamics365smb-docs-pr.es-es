@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 73cbd1f7a36e9493495464357117e28732cf5cd2
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 753e76ae1c1ca120896d71ade44222864658fded
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249795"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314633"
 ---
 # <a name="create-bins"></a>Crear ubicaciones
 La forma más eficaz de crear las ubicaciones del almacén es generar grupos de ubicaciones similares en la hoja de trabajo de creación de ubicación, pero también puede crear las ubicaciones individualmente desde la ficha de almacén. También puede utilizar una función en la página **Hoja trab. creación ubicación** para crear las ubicaciones automáticamente.  
@@ -60,15 +60,15 @@ Para trabajar con la página **Hoja trab. creación ubicación**, debe estar con
     > [!NOTE]  
     >  El número de caracteres que ha introducido en las tres categorías de cada campo (por ejemplo, los caracteres que ha introducido en los tres campos **Desde Nº**) además de los separadores de campo, si existen, debe ser 20 o menos.  
 
-     En el código puede utilizar letras como combinación de identificación, pero éstas deben ser las mismas en los campos **Desde Nº** y **Hasta Nº** . Por ejemplo, puede definir el componente Armario del código como **Desde Nº A01** y **Hasta Nº A10**. El programa no está configurado para generar códigos con secuencias de letras, por ejemplo, desde A01 hasta F05.  
+     En el código puede utilizar letras como combinación de identificación, pero éstas deben ser las mismas en los campos **Desde Nº** y **Hasta Nº** . Por ejemplo, puede definir el componente Armario del código como **Desde Nº A01** y **Hasta Nº A10**. La aplicación no está configurada para generar códigos con secuencias de letras, por ejemplo, desde A01 hasta F05.  
 
 6.  Si desea utilizar un carácter, como un guión, para separar los campos de categoría que ha definido como parte del código de ubicación, rellene el campo **Separador campo** con este carácter.  
-7.  Si desea que el sistema no cree una línea para una ubicación si ya existe, seleccione el campo **Comprueba en ubic. actual**.  
+7.  Si desea que la aplicación no cree una línea para una ubicación si ya existe, seleccione el campo **Comprueba en ubic. actual**.  
 8. Cuando haya terminado de rellenar todos los campos, seleccione el botón **Aceptar**.
 
-    El programa crea una línea para cada ubicación de la hoja de trabajo. Ahora puede eliminar algunas ubicaciones, por ejemplo, si tiene una estantería con un pasillo a través de los dos primeros niveles de un par de secciones.  
+    La aplicación crea una línea para cada ubicación de la hoja de trabajo. Ahora puede eliminar algunas ubicaciones, por ejemplo, si tiene una estantería con un pasillo a través de los dos primeros niveles de un par de secciones.  
 
-9. Cuando haya eliminado todas las ubicaciones innecesarias, elija la acción **Crear ubicaciones** y el sistema creará ubicaciones para cada línea de la hoja de trabajo.  
+9. Cuando haya eliminado todas las ubicaciones innecesarias, elija la acción **Crear ubicaciones** y la aplicación creará ubicaciones para cada línea de la hoja de trabajo.  
 
 Repita el proceso para otro grupo de ubicaciones hasta que haya creado todas las ubicaciones del almacén.  
 

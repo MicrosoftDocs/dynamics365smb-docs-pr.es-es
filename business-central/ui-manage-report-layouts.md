@@ -3,21 +3,21 @@ title: Diseños personalizados e integrados para informes y documentos | Documen
 description: Use los diseños de informe para personalizar documentos, por ejemplo, para personalizar la fuente, el logotipo o la configuración de página de los archivos PDF que envía a clientes.
 services: project-madeira
 documentationcenter: ''
-author: SusanneWindfeldPedersen
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 05/22/2019
-ms.author: solsen
-ms.openlocfilehash: e00ca327748ac84dc39e5de73c4bcaae97f26105
-ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: f64397d41eb4002221d9967b5b61145882aee0d6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1594292"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315161"
 ---
 # <a name="managing-report-and-document-layouts"></a>Administrar diseños de informes y documentos
 Un diseño de informe controla el contenido y el formato del informe, incluidos los campos de datos de un conjunto de datos de informe que aparecen en el informe y la forma en que se organizan, el estilo del texto, las imágenes, etc. Desde [!INCLUDE[d365fin](includes/d365fin_md.md)] puede cambiar el diseño que se usa en un informe, crear un nuevo diseño o modificar diseños existentes.
@@ -56,7 +56,7 @@ Los conceptos de diseño generales son muy parecidos en Word y RDLC. Sin embargo
 
 El proceso para configurar diseños de informe de Word y de RDLC en informes es el mismo. La diferencia principal es la forma en la que se modifican los diseños. Los diseños de informe Word suelen ser más fáciles de crear y modificar que los diseños de informe de RDLC, ya que se puede utilizar Word para ello. Los diseños de informe de RDLC se modifican mediante el generador de informes de SQL Server, que está dirigido a usuarios más avanzados.
 
-Para obtener información acerca de cómo cambiar el diseño que desea usar, consulte [Cambiar el diseño que se usa actualmente en un informe](ui-how-change-layout-currently-used-report.md).
+Para obtener información acerca de cómo cambiar el diseño que desea usar, consulte [Cambiar el diseño de informe actual](ui-how-change-layout-currently-used-report.md).
 
 ## <a name="see-also"></a>Consulte también
 [Actualizar diseños de informes o documentos](ui-update-report-layouts.md)  
@@ -64,4 +64,4 @@ Para obtener información acerca de cómo cambiar el diseño que desea usar, con
 [Crear y modificar un diseño de informe o documento personalizado](ui-how-create-custom-report-layout.md)  
 [Importar y exportar un diseño de informe o documento personalizado](ui-how-import-and-export-report-layout.md)  
 [Enviar documentos por correo electrónico](ui-how-send-documents-email.md)  
-[Trabajar con informes y trabajos por lotes](ui-work-report.md)  
+[Trabajar con informes, trabajos por lotes y XMLports](ui-work-report.md)  

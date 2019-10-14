@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cancel, undo, correct
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 78a67f214de9e3d4d1df673a21c5a2c1b3ec1f64
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 496873cf36ec696b081f7f29bcf8b2b9bb3c026f
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252532"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312513"
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Procesamiento de devoluciones de compra o cancelaciones
 Si desea devolver productos al proveedor o cancelar servicios comprados, puede crear y registrar un abono de compra que especifique el cambio solicitado en relación a la factura de compra original. Para incluir la información correcta de la factura de compras, puede crear el abono de compra directamente de la factura de compra contabilizada o puede crear un nuevo abono de compra con información de factura copiada.
@@ -119,7 +119,7 @@ El abono de compra se ha eliminado y remplazado por un nuevo documento de la lis
 
     -   Si la línea del documento registrado contiene líneas de seguimiento de productos, el programa rellena el campo **Liq. por nº orden producto** de dichas líneas de seguimiento con los números de movimiento de producto correspondientes de las líneas de seguimiento de productos registradas.  
 
-     Cuando se copia desde una factura o abono registrados, el programa copia los descuentos de factura y de línea válidos en el momento de registrar ese documento desde la línea del documento registrado a la nueva línea de documento. Sin embargo, tenga en cuenta que si se activa la opción **Calc. dto. factura** en la página **Confi&guración compras y pagos**, el descuento en factura se volverá a calcular cuando registre una línea de documento nueva. Por lo tanto, el importe de la nueva línea puede ser distinto del importe de la línea del documento registrado, dependiendo del nuevo cálculo de descuento de factura.  
+     Cuando se copia desde una factura o abono registrados, la aplicación copia los descuentos de factura y de línea válidos en el momento de registrar ese documento desde la línea del documento registrado a la nueva línea de documento. Sin embargo, tenga en cuenta que si se activa la opción **Calc. dto. factura** en la página **Confi&guración compras y pagos**, el descuento en factura se volverá a calcular cuando registre una línea de documento nueva. Por lo tanto, el importe de la nueva línea puede ser distinto del importe de la línea del documento registrado, dependiendo del nuevo cálculo de descuento de factura.  
 
     > [!NOTE]  
     >  Si ya se ha revertido, vendido o consumido parte de la cantidad de la línea del documento registrado, se crea una línea sólo para la cantidad que queda en inventario o que no se ha devuelto. Si ya se ha revertido toda la cantidad de la línea del documento registrado, no se crea una nueva línea de documento.  

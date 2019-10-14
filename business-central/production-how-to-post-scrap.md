@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ebe165de02ff3925a67da8306de0277e2315ad16
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 340b66ed5d36e67ffc5c3afb05e38ea36e520e58
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253645"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313233"
 ---
 # <a name="post-scrap-manually"></a>Registrar el material de rechazo manualmente
 Si se produce material de rechazo durante el proceso, se puede introducir en el diario de salida. 

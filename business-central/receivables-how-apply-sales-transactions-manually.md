@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipt
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2e7f24f6c8bca209fbb53f215d644517f495978e
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: d32f614ce86f6ad1b3f846631d3b4062788b755a
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252302"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312345"
 ---
 # <a name="reconcile-customer-payments-with-the-cash-receipt-journal-or-from-customer-ledger-entries"></a>Concilie los pagos de clientes con el diario de recibos de efectivo o de los movimientos de cliente.
 Cuando recibe un cobro de un cliente o efectúa un reembolso, debe decidir si va a liquidar el pago o reembolsarlo para cerrar uno o varios movimientos pendientes del debe o el haber. Puede especificar el importe que desea liquidar. Por ejemplo, puede liquidar pagos parciales en movimientos de cliente. El cierre de movimientos de cliente garantiza que la información, como las estadísticas de cliente, los extractos de cuenta y los intereses, sean correctos.
@@ -89,7 +89,7 @@ Un diario de cobros es un tipo de diario general, por lo que puede usarlo para r
 3. Para liquidar el abono a un solo movimiento de cliente al registrar, en la ficha desplegable **Liq. por n.º documento**, seleccione el movimiento que desea liquidar con el pago.
 4. En la línea del campo **Importe a liquidar**, introduzca el importe con el que desea liquidar el movimiento.  
 
-    Si no especifica ninguna cantidad, el programa utilizará automáticamente el importe máximo. Al final de la página **Movs. pendientes cliente**, podrá ver el importe específico incluido en el campo **Importe liquidado** y también si la liquidación está cuadrada.    
+    Si no especifica ninguna cantidad, la aplicación utilizará automáticamente el importe máximo. Al final de la página **Movs. pendientes cliente**, podrá ver el importe específico incluido en el campo **Importe liquidado** y también si la liquidación está cuadrada.    
 5. Elija el botón **Aceptar**. La página **Abono de venta** ahora muestra el movimiento que ha introducido en los campos **Liq. por tipo documento** y **Liq. por n.º documento**. Asimismo, muestra el importe del abono que se va a registrar, ajustado con los posibles descuentos por pronto pago.
 6. Registre el abono.
 

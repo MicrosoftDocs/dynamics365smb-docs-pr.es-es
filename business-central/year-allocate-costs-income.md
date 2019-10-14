@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 60b73b5c29bca5dc85e123f5957c7f3c0917345f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ac6390df7f278edfcceae435e7a00bc5897bc6e6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248346"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314417"
 ---
 # <a name="allocate-costs-and-income"></a>Asignar costes e ingresos
 Puede asignar un movimiento en un diario general a varias cuentas diferentes al registrar el diario. La asignación se puede realizar según tres métodos distintos:

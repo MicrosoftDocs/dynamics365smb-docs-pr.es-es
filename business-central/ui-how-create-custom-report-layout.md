@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 993c3b539df3a7479ed97eaf03203e3f1cceb4eb
-ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
+ms.openlocfilehash: f7d907393f765538512a547c8eaa6a3f8963de79
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "1985792"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311049"
 ---
 # <a name="create-and-modify-a-custom-report-or-document-layout"></a>Crear y modificar un diseño de informe o documento personalizado
 De forma predeterminada, un informe tendrá un diseño de informe integrado, bien de RDLC o de Word, o ambos. No puede modificar diseños integrados. No obstante, puede crear sus propios diseños personalizados que le permitan modificar el aspecto del informe cuando se vea, se imprima o se guarde. Puede crear varios diseños de informe personalizados para el mismo informe y, a continuación, cambiar al diseño utilizado por un informe según sea necesario.
@@ -30,18 +30,21 @@ Para crear un diseño personalizado, puede hacer una copia de un diseño persona
 ## <a name="to-create-a-custom-layout"></a>Para crear un diseño personalizado
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Selección de diseño de informes** y luego elija el enlace relacionado.
 
-    La página **Selección de diseño de informes** muestra todos los informes disponibles en la empresa especificada en el campo **Empresa** en la parte superior de la página.
+    La página **Selección de diseño de informes** muestra todos los informes disponibles en la empresa especificada en el campo **Nombre de la empresa** en la parte superior de la página.
 2. Establezca el campo **Empresa** en la empresa en la que desea crear el diseño del informe.
 3. Seleccione la fila para el informe para el cual desee crear el diseño y, a continuación, elija la acción **Diseños personalizados**.  
+
    La página **Diseños de informe personalizados** aparece con todos los diseños personalizados disponibles para el informe seleccionado.
 4. Si desea crear una copia de un diseño personalizado existente, seleccione el diseño personalizado existente en la lista y, a continuación, elija la acción **Copiar**.  
+
    La copia del diseño personalizado aparece en la página **Diseños de informe personalizados** e incluye las palabras *Copia de* en el campo **Descripción**.
 5. Si desea añadir un nuevo diseño personalizado que se base en un diseño integrado, haga lo siguiente:  
    1. Seleccione la acción **Nuevo**. Aparece la página **Insertar diseñado integrado para un informe**. Los campos de **Id.** y **Nombre** se rellenan automáticamente.
    2. Para agregar un tipo de diseño de informe de Word personalizado, seleccione la casilla **Insertar diseño de Word**.
    3. Para agregar un tipo de diseño de informe de RDLC personalizado, seleccione la casilla **Insertar diseño de RDLC**.
    4. Elija el botón **Aceptar**.  
-      Los nuevos diseños personalizados aparecen en la página **Diseños de informe personalizados**. Si un diseño nuevo se basa en un diseño integrado, tendrá las palabras **Copia de un diseño integrado** en el campo **Descripción**. Si no había diseño integrado para el informe, el nuevo diseño tendrá las palabras **Nuevo diseño** en el campo **Descripción** para indicar que el diseño personalizado está en blanco.
+
+    El nuevo diseño personalizado aparece en la página **Diseños de informe personalizados**. Si un diseño nuevo se basa en un diseño integrado, tendrá las palabras **Copia de un diseño integrado** en el campo **Descripción**. Si no había diseño integrado para el informe, el nuevo diseño tendrá las palabras **Nuevo diseño** en el campo **Descripción** para indicar que el diseño personalizado está en blanco.
 6. De forma predeterminada, el campo **Nombre de la empresa** está en blanco, lo que significa que el diseño personalizado estará disponible para el informe en todas las empresas. Para que el diseño personalizado esté disponible en una empresa específica solo, elija **Editar** y, a continuación, establezca el campo **Nombre de la empresa** en la empresa que quiera.
 
 El diseño personalizado se ha creado. Ahora puede modificar el diseño personalizado según sea necesario.
@@ -100,7 +103,7 @@ La adición de campos de datos de un conjunto de datos de informe es una operaci
 
 ## <a name="see-also"></a>Consulte también
 [Gestión de diseños de informe](ui-manage-report-layouts.md)  
-[Cambiar el diseño que se usa actualmente en un informe](ui-how-change-layout-currently-used-report.md)  
+[Cambiar el diseño de informe actual](ui-how-change-layout-currently-used-report.md)  
 [Importar y exportar un diseño de informe o documento personalizado](ui-how-import-and-export-report-layout.md)  
-[Trabajar con informes y trabajos por lotes](ui-work-report.md)  
+[Trabajar con informes, trabajos por lotes y XMLports](ui-work-report.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

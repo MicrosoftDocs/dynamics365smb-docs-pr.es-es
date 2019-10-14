@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/24/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a3fabec129de3e59eff30f70d1084e3969fa9ddc
-ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
+ms.openlocfilehash: 21329a8c6232fe0aba2f0ef99cc58ce4ea699d68
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "1921366"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310704"
 ---
 # <a name="posting-documents-and-journals"></a>Registrar documentos y diarios
 Registrar representa la acción contable de registrar transacciones empresariales en extractos de varias empresas.
@@ -29,6 +29,7 @@ En la tabla siguiente se describen tareas relacionadas con vínculos a los temas
 | --- | --- |
 | Obtenga información registrar documentos de compra. |[Registrar compras](ui-post-purchases.md) |
 | Obtenga información sobre registrar documentos de ventas. |[Registrar ventas](ui-post-sales.md) |
+| Registre varios documentos de venta o compra juntos, inmediatamente o según lo programado.|[Registrar varios documentos al mismo tiempo](ui-batch-posting.md)|
 | Obtenga información sobre registrar diarios generales. |[Trabajar con diarios generales](ui-work-general-journals.md) |
 | Obtenga una vista previa, en una página, de las entradas que se crearán al registrar. |[Vista previa de los resultados del registro](ui-how-preview-post-results.md) |
 | Obtenga una vista previa, en un informe, de las entradas que se crearán al registrar. |[Ver informes de prueba antes de realizar el registro](ui-how-view-test-reports-posting.md) |

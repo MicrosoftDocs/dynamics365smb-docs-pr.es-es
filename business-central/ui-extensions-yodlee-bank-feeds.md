@@ -10,22 +10,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, stream, bank account link
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 53ee8bb7ee798c473e1053ea8413be28f9185d1b
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: d79ef7c076ec3a529aeb0c679b8b61658ef65af5
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248208"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315353"
 ---
 # <a name="the-envestnet-yodlee-bank-feeds-extension"></a>Extensión Envestnet Yodlee Bank Feeds
-Para conciliar pagos realizados en sus cuentas bancarias rápidamente, el servicio Envestnet Yodlee Bank Feeds permite vincular su cuenta bancaria del sistema a su cuenta bancaria en línea. Esto significa que el último extracto bancario se introduce manual o automáticamente en el diario de conciliación de pagos, lo que garantiza que siempre procesará sus últimos pagos con el mínimo de errores.
+Para conciliar pagos realizados en sus bancos rápidamente, el servicio Envestnet Yodlee Bank Feeds permite vincular su cuenta bancaria del sistema a su cuenta bancaria en línea. Esto significa que el último extracto bancario se introduce manual o automáticamente en el diario de conciliación de pagos, lo que garantiza que siempre procesará sus últimos pagos con el mínimo de errores.
+
+El servicio Envestnet Yodlee Bank Feeds solo se admite en Estados Unidos y Canadá.
 
 > [!NOTE]
-> Esta funcionalidad solo se admite en la versión en línea de Business Central. Para utilizar esta funcionalidad local, debe obtener una cuenta de cobrand de Envestnet Yodlee.
+> Esta funcionalidad solo se admite en la versión en línea de Business Central. Para utilizar esta funcionalidad local, debe obtener una cuenta de cobrand de Envestnet Yodlee.<br /><br />
 
-El servicio Envestnet Yodlee Bank Feeds proporciona las ventajas siguientes:
+> [!IMPORTANT]
+> Debido a la nueva directiva sobre servicios de pago en Europa (PSD2), después del 14 de septiembre de 2019 ya no podrá importar automáticamente extractos de cuenta de bancos del Reino Unido a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Estamos analizando la posibilidad de ofrecer esta función nuevamente en el futuro.
+
+El servicio Envestnet Yodlee Bank Feeds proporciona las siguientes ventajas:
 
 * Elimina la necesidad de la entrada manual.
 * Actualiza la eficacia y la precisión al realizar la conciliación de pagos.
@@ -34,7 +39,7 @@ El servicio Envestnet Yodlee Bank Feeds proporciona las ventajas siguientes:
 * Admite fuentes de banco manuales o automáticas.
 * Habilita la externalización de la conciliación de pagos a un contable proporcionando acceso a los extractos bancarios.
 
-Para obtener más información, vea [Configuración del servicio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)
+Para obtener más información, vea [Configurar el servicio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
 ## <a name="see-also"></a>Consulte también
 [Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones ](ui-extensions.md)    

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 08/27/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 77be24dce0d34c712b87649f9ced21b947c77cbe
-ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
+ms.openlocfilehash: 0fccda42a69cd1d1d7129380518890fac5b8986c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "1921343"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315089"
 ---
 # <a name="posting-purchases"></a>Registrar compras
 En **Grupo contable** en un documento de compra, puede elegir entre las funciones de registro siguientes:
@@ -39,7 +39,7 @@ Antes de comenzar a registrar, podrá imprimir un informe que contenga toda la i
 > [!IMPORTANT]  
 >   Cuando registre un pedido, podrá crear tanto un albarán de compra como una factura. Esto se puede hacer simultánea o independientemente. También puede crear una recepción y una factura parciales completando los campos **Cantidad a recibir** o **Cantidad a facturar** en las líneas individuales del pedido de compra antes de registrar. Tenga en cuenta que no puede crear una factura de algo no se ha recibido. Es decir, antes de poder facturar debe haber registrado un albarán de compra o haber elegido recibir y facturar al mismo tiempo.
 
-Puede registrar o registrar e imprimir. Si elije registrar e imprimir, un informe se imprime cuando se registre el pedido. También puede elegir la función **Registrar por lotes**, que permite registrar varios pedidos a la vez.
+Puede registrar o registrar e imprimir. Si elije registrar e imprimir, un informe se imprime cuando se registre el pedido. También puede elegir la función **Registrar por lotes**, que permite registrar varios pedidos a la vez. Para obtener más información, consulte [Registrar varios documentos al mismo tiempo](ui-batch-posting.md).
 
 Una vez finalizado el registro, las líneas de compra registradas se quitan del pedido. Al terminar el registro aparece un mensaje de aviso. Después de esto, podrá ver los movimientos registrados en las diferentes páginas que los contienen, como **Movs. proveedores**, **Movs, contabilidad**, **Movs. productos**, **Albaranes compra** e **Histórico facturas compra**.
 
@@ -47,8 +47,9 @@ Puede editar determinados campos en documentos de compra registrados, como el ca
 
 ## <a name="see-also"></a>Consulte también
 [Editar documentos registrados](across-edit-posted-document.md)  
+[Registrar varios documentos al mismo tiempo](ui-batch-posting.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Registrar documentos y diarios](ui-post-documents-journals.md)  
 [Corregir o cancelar facturas de compra sin abonar](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
-[Usar la opción Dígame para encontrar características e información](ui-search.md)  
+[Búsqueda de páginas e información con Dígame](ui-search.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 08/27/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a2eb27a541033b755b9ab9d4ea9156bf7de9cab4
-ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
+ms.openlocfilehash: c389a93a71b251b5b0e11f4450251fdf68b64345
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "1921435"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310785"
 ---
 # <a name="posting-sales"></a>Registrar ventas
 En el menú **Registro** en un documento de venta, puede elegir entre las funciones de registro siguientes:
@@ -39,14 +39,17 @@ Por cada línea de pedido de venta, se creará un movimiento de producto en la t
 > [!IMPORTANT]  
 >   Cuando registre un pedido, puede crear un albarán de venta y una factura. Esto se puede realizar al mismo tiempo o de manera independiente. También puede crear un envío y una factura parciales completando los campos **Cantidad a enviar** y **Cantidad a facturar** en las líneas individuales del pedido de venta antes de registrar. Tenga en cuenta que no se puede crear una factura de algo que no se ha enviado. Es decir, para poder facturar, debe haber registrado un envío, o bien debe elegir enviar y facturar al mismo tiempo.
 
+Puede registrar o registrar e imprimir. Si elije registrar e imprimir, un informe se imprime cuando se registre el pedido. También puede elegir la función **Registrar por lotes**, que permite registrar varios pedidos a la vez. Para obtener más información, consulte [Registrar varios documentos al mismo tiempo](ui-batch-posting.md).
+
 Una vez completado el registro, las líneas de venta registradas se quitan del pedido. Al terminar el registro aparece un mensaje de aviso. Después de esto, podrá ver los movimientos registrados en las diferentes páginas que los contienen, como **Movs. cliente**, **Movs. contabilidad**, **Movs. producto**, **Histórico albaranes ventas** y **Histórico facturas venta**.  
 
 Puede editar determinados campos en documentos de venta registrados, como **Nº seguimiento bulto**. . Para obtener más información, vea [Editar documentos registrados](across-edit-posted-document.md).
 
 ## <a name="see-also"></a>Consulte también
 [Ccial](sales-manage-sales.md)  
+[Registrar varios documentos al mismo tiempo](ui-batch-posting.md)  
 [Editar documentos registrados](across-edit-posted-document.md)  
 [Enviar documentos por correo electrónico](ui-how-send-documents-email.md)  
 [Corregir o cancelar facturas de venta sin abonar](sales-how-correct-cancel-sales-invoice.md)  
-[Usar la opción Dígame para encontrar características e información](ui-search.md)  
+[Búsqueda de páginas e información con Dígame](ui-search.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

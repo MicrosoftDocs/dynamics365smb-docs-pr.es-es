@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, reconcile payment, expenses, cash receipts
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3c175e15c9a1cf1fae4879a520c26232195b289d
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: e87b4c4c22c83f482fcc777eac95df72acbb9eb6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251799"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2316529"
 ---
 # <a name="review-or-apply-payments-manually-after-automatic-application"></a>Revisar o liquidar pagos manualmente después de una liquidación automática
 Para cada línea de diario que representa un pago en la página **Diario de conciliación de pagos** podrá abrir la página **Liquidación de pago** para ver todos los candidatos con movimientos pendientes de pago y podrá ver información detallada para cada movimiento sobre la correspondencia de datos en la que se basa la liquidación de un pago. Aquí puede liquidar manualmente pagos o volver a liquidar pagos que se aplicaron automáticamente en un movimiento incorrecto. Para obtener más información acerca de la liquidación automática, vea [Conciliar pagos usando la liquidación automática](receivables-how-reconcile-payments-auto-application.md).

@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4a9bbc34893f1af257908558122f8e8cbe6ce757
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 51c8c4207d9b5311698c7c5575fc67d8c5b2df9d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250117"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310905"
 ---
-# <a name="managing-users-and-permissions"></a>Gestionar usuarios y permisos
+# <a name="manage-users-and-permissions"></a>Administrar usuarios y permisos
 Para agregar usuarios en [!INCLUDE[d365fin](includes/d365fin_md.md)], el administrador de Office 365 de la empresa primero debe crear los usuarios en el centro de administración de Office 365. Para obtener más información, vea [Agregar usuarios a Office 365 para empresas](https://aka.ms/CreateOffice365Users).
 
 Una vez que los usuarios se crean en Office 365, se pueden importar a la página **Usuarios** en [!INCLUDE[d365fin](includes/d365fin_md.md)]. A los usuarios se les asignan conjuntos de permisos según el plan asignado al usuario en Office 365. Para obtener información detallada acerca de las licencias, consulte la [Guía de licencias de Microsoft Dynamics 365 Business Central](https://aka.ms/BusinessCentralLicensing).
@@ -28,15 +28,23 @@ Un conjunto de permisos es una colección de permisos para objetos específicos 
 
 Desde la página de la **Tarjeta de usuario**, puede abrir la página **Permisos efectivos** para ver qué permisos tiene el usuario y a través de qué conjuntos de permisos se otorgan. Aquí también puede cambiar los detalles de los permisos para los conjuntos de permisos del tipo **Definido por el usuario**. Para obtener más información, consulte [Para obtener un resumen de los permisos de un usuario](ui-how-users-permissions.md#to-get-an-overview-of-a-users-permissions).
 
-Los administradores pueden usar la página **Configuración usuarios** para definir periodos de tiempo durante los que los usuarios especificados pueden registrar, así como especificar si el sistema registra la cantidad de tiempo que los usuarios tienen iniciada la sesión.
+## <a name="users-in-on-premises-deployments"></a>Usuarios en implementaciones locales
+Para las implementaciones locales de [!INCLUDE[d365fin](includes/d365fin_md.md)], el administrador puede elegir entre diferentes mecanismos de autorización de credenciales para los usuarios. Cuando cree un usuario, proporcione información distinta según el tipo de credencial que vaya a utilizar en la sesión específica de [!INCLUDE[server](includes/server.md)]. Para obtener más información, vea [Tipos de autenticación y credenciales](/dynamics365/business-central/dev-itpro/administration/users-credential-types) en la sección Administración del desarrollador y contenido de ITPro de [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Otro sistema que define qué usuarios pueden acceder es la configuración de Experiencia. Para obtener más información, consulte [Cambiar las funciones que se muestran](ui-experiences.md).
+## <a name="profiles"></a>Perfiles
+Después de agregar usuarios, puede definir lo que ven en la interfaz de usuario y cómo interactúan con su funcionalidad permitida a través de las páginas. Esta acción hace a través de perfiles, que reflejan roles o departamentos, que se asignan a diferentes tipos de usuarios. Para obtener más información, [Administración de perfiles](admin-users-profiles-roles.md) y [Personalización de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md).
 
 ## <a name="to-add-a-user-in-business-central"></a>Agregar un usuario en Business Central
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Usuarios** y luego elija el enlace relacionado.
 2. Elija la acción **Obtener usuarios de Office 365**.
 
 Cualquier usuario nuevo que se haya creado para su suscripción a Office 365 se agregará a la página **Usuarios**.
+
+## <a name="to-edit-or-delete-a-user"></a>Para editar o eliminar un usuario
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Usuarios** y luego elija el enlace relacionado.
+2. Seleccione el usuario que desea editar y, a continuación, seleccione la acción **Editar**.
+3. En la página **Ficha de usuario**, cambie la información según sea necesario.    
+4. Para eliminar un usuario, seleccione el usuario que desea eliminar y, después, seleccione la acción **eliminar**.
 
 ## <a name="to-group-users-in-user-groups"></a>Para agrupar usuarios en grupos de usuarios
 Puede configurar grupos de usuarios para administrar conjuntos de permisos para grupos de usuarios en su empresa.
@@ -110,7 +118,7 @@ Por ejemplo, un usuario puede tener permiso para ejecutar la codeunit 80, Venta-
 
 Sin embargo, el usuario no necesita tener acceso total a la tabla Línea de venta para ejecutar la codeunit. Si el usuario tiene permiso indirecto para la tabla Línea de venta, la codeunit Venta-Registrar se ejecuta correctamente. Cuando un usuario tiene permiso indirecto, solo puede modificar la tabla Línea de venta al ejecutar la codeunit Venta-Registrar u otro objeto que tenga permiso para modificar la tabla Línea de venta. El usuario sólo puede modificar la tabla Línea de venta en las áreas compatibles de la aplicación. El usuario no puede ejecutar la característica de forma inadvertida o malintencionada mediante otros métodos.
 
-### <a name="to-limit-a-users-access-to-specific-records-in-a-table"></a>Para restringir el acceso de un usuario a registros específicos en una tabla
+## <a name="to-limit-a-users-access-to-specific-records-in-a-table"></a>Para restringir el acceso de un usuario a registros específicos en una tabla
 Para seguridad de nivel registro en [!INCLUDE[d365fin](includes/d365fin_md.md)], utilice los filtros de seguridad para restringir el acceso a un usuario a los datos de una tabla. Cree los filtros de seguridad en los datos de la tabla. Un filtro de seguridad describe un conjunto de registros de una tabla a la que un usuario tiene permisos para acceder. Puede especificar, por ejemplo, que el usuario puede leer solo los registros que contienen información acerca de un determinado cliente. Esto significa que el usuario no puede acceder a los registros que contienen información sobre otros clientes. Para obtener más información, consulte [Usar filtros de seguridad](/dynamics365/business-central/dev-itpro/security/security-filters) en la Ayuda para desarrolladores y profesionales de TI.
 
 
@@ -174,9 +182,14 @@ El siguiente procedimiento explica cómo asignar conjuntos de permisos a un usua
 > [!NOTE]  
 > Cuando edite un conjunto de permisos, los cambios también se aplicarán a otros usuarios que tengan asignado el conjunto de permisos.
 
+## <a name="to-remove-a-users-access-to-the-system"></a>Para eliminar el acceso de un usuario al sistema
+
+Como administrador, puede eliminar el acceso de un usuario al sistema configurando el campo **Estado** en **Deshabilitado**. Todas las referencias al usuario se conservarán, pero el usuario ya no podrá iniciar sesión en el sistema y finalizarán las sesiones activas para el usuario. Para dar acceso de nuevo al usuario, configure el campo **Estado** en **Habilitado**.
+
 ## <a name="see-also"></a>Consulte también
 [Seguridad y protección en Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection)  
-[Comprender usuarios, perfiles y áreas de trabajo](admin-users-profiles-roles.md)  
+[Administración de perfiles](admin-users-profiles-roles.md)  
+[Personalización de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)  
 [Preparación para hacer negocios](ui-get-ready-business.md)  
 [Cambiar las funciones que se muestran](ui-experiences.md)  
 [Administración](admin-setup-and-administration.md)  

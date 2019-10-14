@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: resource, skill, service, zones
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 7b7a01bc61d55379cd12563d1f31f331c3b4fd74
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ee97797c9dabab188f1e6a2bbf2cb1f9846e7321
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251958"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2316169"
 ---
 # <a name="set-up-resource-allocation"></a>Configurar asignación de recursos
 Para garantizar que una tarea de servicio esté bien efectuada, es importante encontrar un recurso que esté cualificado para hacer el trabajo. Puede configurar [!INCLUDE[d365fin](includes/d365fin_md.md)] de forma que resulte fácil asignar a quien tiene las habilidades correctas para el trabajo. En [!INCLUDE[d365fin](includes/d365fin_md.md)], llamamos a esto _asignación de recursos_. Puede asignar recursos basándose en las habilidades, disponibilidad o si se encuentran en la misma zona que el cliente. 

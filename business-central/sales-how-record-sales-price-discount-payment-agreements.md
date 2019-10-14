@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 25dc281d83860742b9d699aeba9794f70f786202
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 9814da8c8a29c29e5bfee5da85f6d9b522a03e9d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252486"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312153"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Registrar precios y descuentos de ventas especiales
 Es necesario definir los acuerdos de precios y descuentos que se aplican al vender a distintos clientes de modo que se apliquen las reglas y valores acordados a los documentos de venta que cree para los clientes.
@@ -75,7 +75,7 @@ Al utilizar descuentos en factura, el importe de la factura determina el descuen
 
 En la página **Dtos. factura clientes**, también puede añadir un cargo por servicio a las facturas que superen un determinado importe.  
 
-Para poder aplicar descuentos en factura a las ventas, primero debe especificar determinados datos en el sistema. Deberá determinar las siguientes cuestiones:  
+Para poder aplicar descuentos en factura a las ventas, primero debe especificar determinados datos en la aplicación. Deberá determinar las siguientes cuestiones:  
 
 - a qué clientes se le concederá este tipo de descuento.  
 - qué porcentajes de descuento se va a aplicar.  
@@ -89,7 +89,7 @@ Se relacionan los porcentajes de descuento a los importes de factura específico
 Además de (o en lugar de) un porcentaje de descuento, puede vincular un importe de cargo por servicios a un importe facturado específico.  
 
 > [!TIP]  
->  Antes de introducir esta información en el sistema, se recomienda preparar un esquema de la estructura de descuentos que desea utilizar. De este modo, podrá ver fácilmente los clientes que se pueden vincular a la misma página de descuentos en factura. Cuantas menos páginas tenga que configurar, más rápido introducirá la información básica.  
+>  Antes de introducir esta información en la aplicación, se recomienda preparar un esquema de la estructura de descuentos que desea utilizar. De este modo, podrá ver fácilmente los clientes que se pueden vincular a la misma página de descuentos en factura. Cuantas menos páginas tenga que configurar, más rápido introducirá la información básica.  
 
 ## <a name="best-price-calculation"></a>Cálculo del mejor precio
 Cuando haya registrado precios especiales y los descuentos de línea para ventas y compras, [!INCLUDE[d365fin](includes/d365fin_md.md)] garantiza que el beneficio en operaciones comerciales de producto siempre son óptimos calculando automáticamente el mejor precio en los documentos de ventas y compras, y en líneas del diario de proyectos y recursos.
