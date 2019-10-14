@@ -18,35 +18,39 @@
 
 # Trabajar con Business Central
 ## [Panorama](ui-work-product.md)
-## [Encontrar características e información](ui-search.md)
+## [Búsqueda de páginas e información con Dígame](ui-search.md)
+## [Búsqueda de páginas desde una descripción general de funciones](ui-role-explorer.md)
 ## [FAQ acerca de la función Dígame](ui-search-faq.md)
-## [Ordenar, buscar y filtrar listas](ui-enter-criteria-filters.md)
+## [Ordenar, buscar y filtrar](ui-enter-criteria-filters.md)
 ## [Búsqueda y filtrado de preguntas frecuentes](ui-search-filter-faq.md)
 ## [Introducción de fechas](ui-enter-data.md)
+## [Preguntas frecuentes sobre copiar y pegar](ui-copy-paste.md)
 ## [Trabajar con fechas y horas del calendario](ui-enter-date-ranges.md)
-## [Copiar y pegar](ui-copy-paste.md)
 ## [Detección de campos obligatorios](ui-mandatory-fields.md)
 ## [Cambiar idioma y región](about-locale-language.md)
 ## [Ver y editar en Excel](across-work-with-excel.md)  
-## [Administrar notificaciones](ui-smart-notifications.md)
+## [Administrar archivos adjuntos, vínculos y notas en fichas y documentos](ui-how-add-link-to-record.md)
 ## [Cambiar la configuración básica](ui-change-basic-settings.md)
+## [Administrar notificaciones](ui-smart-notifications.md)
 ## Personalizar Business Central
-### [Personalización de su área de trabajo](ui-personalization-user.md)
+### [Personalizar el área de trabajo](ui-personalization-user.md)
 ### [Por qué la página está bloqueada para la personalización](ui-personalization-locked.md)
+### [Guardar y personalizar vistas de lista](ui-views.md)
+### [Agregar una acción de página al área de trabajo](ui-bookmarks.md)
 ### [Mostrar listas en diferentes vistas](across-display-lists-different-views.md)
-## Imprimir informes y ejecutar trabajos por lotes
-### [Trabajar con informes y trabajos por lotes](ui-work-report.md)
+## Imprimir informes y ejecutar trabajos por lotes y XMLports
+### [Trabajar con informes, trabajos por lotes y XMLports](ui-work-report.md)
 ### [Especificar selección de impresora para informes](ui-specify-printer-selection-reports.md)
-### [Programar un informe o proyecto por lotes para que se ejecute](ui-work-report.md#ScheduleReport)
-### [Administrar configuración guardada en los informes](reports-saving-reusing-settings.md)
+### [Programar un informe para que se ejecute](ui-work-report.md#ScheduleReport)
+### [Administrar configuraciones guardadas para informes y trabajos por lotes](reports-saving-reusing-settings.md)
 ### [Ver informes de prueba antes de realizar el registro](ui-how-view-test-reports-posting.md)
-### [Ejecutar procesos](ui-how-run-batch-jobs.md)
-## Cambiar el aspecto de los documentos
+### [Ejecutar trabajos por lotes y XMLports](ui-how-run-batch-jobs.md)
+## Cambiar el aspecto externo de los documentos e informes
 ### [Administrar diseños de informes y documentos](ui-manage-report-layouts.md)
 ### [Actualizar diseños de informes o documentos](ui-update-report-layouts.md)
 ### [Realizar cambios en un diseño de informe de Word](ui-how-create-custom-report-layout.md)
 ### [Importar y exportar un diseño de informe o documento personalizado](ui-how-import-and-export-report-layout.md)
-### [Cambiar el diseño que se usa actualmente en un informe](ui-how-change-layout-currently-used-report.md)
+### [Cambiar el diseño de informe actual](ui-how-change-layout-currently-used-report.md)
 ### [Agregar campos a un diseño de informe de Word](ui-how-add-fields-word-report-layout.md)
 ## Usar métodos abreviados de teclado
 ### [Accesibilidad y métodos abreviados de teclado](ui-accessibility.md)
@@ -229,10 +233,9 @@
 ## [Archivar documentos](across-how-to-archive-documents.md)
 ## [Añadir textos ampliados del producto](ui-how-define-ext-text.md)
 ## [Definir tareas de usuario](across-user-tasks.md)
-## [Añadir vínculos a páginas Web, documentos o programas en registros](ui-how-add-link-to-record.md)
-## [Asociar archivos a fichas y documentos](across-attach-document-master-data.md)
 ## [Exportar los datos de negocio a Excel](about-export-data.md)
 ## [Registrar documentos y diarios](ui-post-documents-journals.md)
+## [Registrar varios documentos al mismo tiempo](ui-batch-posting.md)
 ## [Vista previa de los resultados del registro](ui-how-preview-post-results.md)
 ## [Editar documentos registrados](across-edit-posted-document.md)
 ## [Trabajar con diarios generales](ui-work-general-journals.md)
@@ -304,8 +307,8 @@
 
 # Administración
 ## [Panorama](admin-setup-and-administration.md)
-## [Comprensión de usuarios, roles y perfiles](admin-users-profiles-roles.md)
-## [Gestionar usuarios y permisos](ui-how-users-permissions.md)
+## [Administrar usuarios y permisos](ui-how-users-permissions.md)
+## [Administración de perfiles](admin-users-profiles-roles.md)
 ## [Clasificar confidencialidad de datos](admin-classifying-data-sensitivity.md)
 ## [Respuesta a las solicitudes de datos personales](admin-responding-to-requests-about-personal-data.md)
 ## [Crear nuevas en empresas](about-new-company.md)
@@ -318,17 +321,11 @@
 ## [Extensión de la versión de prueba](admin-extend-trial.md)
 ## [Inspección de páginas](across-inspect-page.md)
 ## [Crear un entorno aislado](across-how-create-sandbox-environment.md)
-## Integración con Dynamics 365 for Sales
-### [Panorama](admin-prepare-dynamics-365-for-sales-for-integration.md)
-### [Configuración de cuentas de usuario para la integración con Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)
-### [Configurar una conexión de Dynamics 365 for Sales](admin-how-to-set-up-a-dynamics-crm-connection.md)
-### [Sincronización de Business Central y Dynamics 365 for Sales](admin-synchronizing-business-central-and-sales.md)
-### [Modificar asignaciones de tablas para la sincronización](admin-how-to-modify-table-mappings-for-synchronization.md)
-### [Sincronizar manualmente las asignaciones de tablas](admin-manual-synchronization-of-table-mappings.md)
-### [Programar una sincronización](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
-### [Solución de problemas de errores de sincronización](admin-troubleshoot-sales-synchronization.md)
 ## Personalizar Business Central
 ### [Panorama](ui-customizing-overview.md)
+### [Personalizar páginas para perfiles](ui-personalization-manage.md)
+### [Cambiar las funciones que se muestran](ui-experiences.md)
+### [Configurar un indicador de color en pilas](admin-how-set-up-colored-indicator-on-cues.md)
 ### Personalizar con extensiones
 #### [Panorama](ui-extensions.md)
 #### [Personalizar con extensiones](ui-extensions.md)
@@ -354,9 +351,15 @@
 #### [UK - Códigos postales de Reino Unido de GetAddress.io](ui-extensions-getaddressio.md)
 #### [US/CA/UK/AU/NZ/ZA - Enviar aviso de pago](ui-extensions-send-remittance-advice.md)
 #### [Extensiones de Business Central de otros proveedores](ui-extensions-other.md)
-### [Cambiar las funciones que se muestran](ui-experiences.md)
-### [Administrar la personalización como administrador](ui-personalization-manage.md)
-### [Configurar un indicador de color en pilas](admin-how-set-up-colored-indicator-on-cues.md)
+## Integración con Dynamics 365 Sales
+### [Panorama](admin-prepare-dynamics-365-for-sales-for-integration.md)
+### [Configuración de cuentas de usuario para la integración con Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)
+### [Configurar una conexión de Dynamics 365 Sales](admin-how-to-set-up-a-dynamics-crm-connection.md)
+### [Sincronización de Business Central y Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)
+### [Modificar asignaciones de tablas para la sincronización](admin-how-to-modify-table-mappings-for-synchronization.md)
+### [Sincronizar manualmente las asignaciones de tablas](admin-manual-synchronization-of-table-mappings.md)
+### [Programar una sincronización](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
+### [Solución de problemas de errores de sincronización](admin-troubleshoot-sales-synchronization.md)
 
 # Finanzas
 ## [Panorama](finance.md)
@@ -470,7 +473,7 @@
 ## [Trabajar con dimensiones](finance-dimensions.md)
 ## [Crear presupuestos contables](finance-how-create-budgets.md)
 ## [Registrar transacciones directamente en la contabilidad](finance-how-post-transactions-directly.md)
-## [Revertir registros](finance-how-reverse-journal-posting.md)
+## [Revertir los registros de diario y deshacer los recibos/envíos](finance-how-reverse-journal-posting.md)
 ## [Asignar costes e ingresos](year-allocate-costs-income.md)
 ## [Usar los cargos de producto a cuenta para los costes comerciales adicionales](payables-how-assign-item-charges.md)
 ## [Registro y reembolso de los costes de los empleados](finance-how-record-reimburse-employee-expenses.md)
@@ -592,7 +595,6 @@
 ### [Configurar ciclos de ventas de oportunidad y etapas de ciclo](marketing-how-setup-opportunity-sales-cycles-stages.md)
 ### [Crear oportunidades](marketing-how-create-opportunities.md)
 ### [Seguimiento de intercambios de mensajes de correo electrónico](marketing-set-up-email-logging.md)
-
 ### [Procesar oportunidades de ventas](marketing-processing-sales-opportunities.md)
 ### [Config. registro correo elect.](marketing-set-up-email-logging.md)
 ## [Use cuestionarios de perfil para clasificar contactos comerciales](marketing-create-contact-profile-questionnaire.md)
@@ -839,7 +841,6 @@
 #### [Imprimir informes de prueba para recordatorios de entrega](LocalFunctionality/Austria/how-to-print-test-reports-for-delivery-reminders.md)
 ### General
 #### [Imprimir información de configuración de contabilidad](LocalFunctionality/Austria/how-to-print-general-ledger-setup-information.md)
-#### [Imprimir pedidos de compra y venta durante el registro por lotes](LocalFunctionality/Austria/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 
 ## Bélgica
 ### [Panorama](LocalFunctionality/Belgium/belgium-local-functionality.md)
@@ -1022,7 +1023,6 @@
 #### [Tipos cambio divisa](LocalFunctionality/Germany/currency-exchange-rates.md)
 #### [Lista de ventas de la UE en Alemania](LocalFunctionality/Germany/eu-sales-list-in-germany.md)
 #### [Incluir CIF/NIF de la empresa en los informes de ventas y los informes de compras](LocalFunctionality/Germany/how-to-include-company-registration-numbers-on-sales-reports-and-purchase-reports.md)
-#### [Imprimir pedidos de compra y venta durante el registro por lotes](LocalFunctionality/Germany/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 #### [Imprimir información de configuración de contabilidad](LocalFunctionality/Germany/how-to-print-general-ledger-setup-information.md)
 #### [Certificación de Business Central del mercado alemán (el documento está en alemán)](https://go.microsoft.com/fwlink/?linkid=875256)
 
@@ -1074,7 +1074,6 @@
 #### [Configurar la información de la empresa](LocalFunctionality/Italy/how-to-set-up-company-information.md)
 #### [Subcontratación italiana](LocalFunctionality/Italy/italian-subcontracting.md)
 #### [Configurar libros y secciones del diario](LocalFunctionality/Italy/how-to-set-up-journal-templates-and-batches.md)
-#### [Informe de comercio con clientes y proveedores en países y regiones de la lista negra](LocalFunctionality/Italy/how-to-report-trade-with-customers-and-vendors-in-blacklist-countries-regions.md)  
 
 ## México
 ### [Panorama](LocalFunctionality/Mexico/mexico-local-functionality.md)
@@ -1168,6 +1167,7 @@
 ## Noruega
 ### [Panorama](LocalFunctionality/Norway/norway-local-functionality.md)
 ### IVA
+#### [Archivo de auditoría estándar noruego - Administración fiscal (SAF-T)](LocalFunctionality/Norway/ui-extensions-setup-and-generate-saf-t-files-no.md)
 #### [Informes de IVA noruegos](LocalFunctionality/Norway/norwegian-vat-reporting.md)
 #### [Códigos de IVA noruegos](LocalFunctionality/Norway/norwegian-vat-codes.md)  
 #### [Cómo utilizar un código de IVA en los diarios](LocalFunctionality/Norway/how-to-use-one-vat-code-in-journals.md)
@@ -1378,7 +1378,6 @@
 ### General    
 #### [Importar códigos postales suizos](LocalFunctionality/Switzerland/how-to-import-swiss-post-codes.md)
 #### [Documentos de compra y pedidos de venta de Suiza](LocalFunctionality/Switzerland/swiss-purchase-documents-and-sales-documents.md)
-#### [Imprimir pedidos de compra y venta durante el registro por lotes](LocalFunctionality/Switzerland/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 
 ## Reino Unido
 ### [Panorama](LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality.md)

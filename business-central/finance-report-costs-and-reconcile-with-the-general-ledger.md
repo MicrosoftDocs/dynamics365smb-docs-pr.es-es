@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/02/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d92d732b99eedb06eb0185d1227252e1ace95334
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: eafcf0bdd26e26903c17e43d37ca7e35b96f240c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446881"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301833"
 ---
 # <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Creación de informes de costes y conciliación con la contabilidad
 Al finalizar el periodo contable, mensual, anual o del tipo que sea, se llevan a cabo una serie de tareas de control y auditoría de costes con el fin de generar informes correctos y compensados del valor de las existencias y remitirlo al departamento de finanzas. Aparte de las tareas de contabilidad que transfieren los movimientos de valor de productos individuales a cuentas de contabilidad exclusivas, se encuentran disponibles múltiples funciones de informes y seguimiento y una herramienta de conciliación especial para los auditores e ingenieros de control de costes responsables de este trabajo de importancia crítica para la empresa.  

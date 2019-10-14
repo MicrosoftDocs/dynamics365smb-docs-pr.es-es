@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
-ms.openlocfilehash: 09f74e83bdc467378144f586dd3a33a0fc1ba213
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: a87250d836739eb3b01cc88a1b2bf3116396ccd0
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1242174"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303177"
 ---
 # <a name="design-details-loading-the-inventory-profiles"></a>Detalles de diseño: Carga de los perfiles de inventario
 Para organizar los numerosos orígenes de demanda y suministro, el sistema de planificación las organiza en dos escalas temporales denominadas perfiles de inventario.  
@@ -42,10 +42,10 @@ Para organizar los numerosos orígenes de demanda y suministro, el sistema de pl
 ## <a name="item-dimensions-are-separated"></a>Las dimensiones de producto están separadas  
  El plan de suministro se debe calcular mediante la combinación de dimensiones de producto, como variante y ubicación. No obstante, no hay razón para calcular ninguna combinación teórica. Solo es necesario calcular las combinaciones con una necesidad de demanda o de suministro.  
 
- El sistema de planificación lo controla mediante la ejecución a través del perfil de inventario. Cuando se encuentra una nueva combinación, el programa crea un registro de control interno que contiene la información de combinación real. El programa inserta la UA como el registro de control, o bucle externo. Como resultado, se establecerán los parámetros de planificación adecuados según una combinación de variante y almacén, y el programa podrá proceder al bucle interno.  
+ El sistema de planificación lo controla mediante la ejecución a través del perfil de inventario. Cuando se encuentra una nueva combinación, la aplicación crea un registro de control interno que contiene la información de combinación real. La aplicación inserta la UA como el registro de control, o bucle externo. Como resultado, se establecerán los parámetros de planificación adecuados según una combinación de variante y almacén, y la aplicación podrá proceder al bucle interno.  
 
 > [!NOTE]  
->  El programa no requiere que el usuario introduzca un registro de UA al introducir la demanda o el suministro de una determinada combinación de variante y ubicación. Por lo tanto, si no exista una UA para una combinación determinada, el programa crea su propio registro de UA temporal según los datos de la ficha de producto. Si Almacén obligatorio se establece en Sí en la página de configuración del inventario, se debe crear una UA o bien los componentes en el almacén deben definirse en Sí. Para obtener más información, consulte [Detalles de diseño: Demanda en almacén vacío](design-details-demand-at-blank-location.md).  
+>  La aplicación no requiere que el usuario introduzca un registro de UA al introducir la demanda o el suministro de una determinada combinación de variante y ubicación. Por lo tanto, si no exista una UA para una combinación determinada, la aplicación crea su propio registro de UA temporal según los datos de la ficha de producto. Si Almacén obligatorio se establece en Sí en la página de configuración del inventario, se debe crear una UA o bien los componentes en el almacén deben definirse en Sí. Para obtener más información, consulte [Detalles de diseño: Demanda en almacén vacío](design-details-demand-at-blank-location.md).  
 
 ## <a name="seriallot-numbers-are-loaded-by-specification-level"></a>Los números de serie y de lote se cargan por nivel de especificación  
  Los atributos en forma de números de serie o lote se cargan en los perfiles de inventario, junto con la demanda y el aprovisionamiento a los que están asignados.  

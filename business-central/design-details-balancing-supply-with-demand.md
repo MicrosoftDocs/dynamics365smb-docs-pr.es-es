@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
-ms.openlocfilehash: 13ab8097b9c6d75f838a58c347af31d560fa9374
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1bef0ad2a94e64ecf95614707b6746e6a381fcb0
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1242887"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307401"
 ---
 # <a name="design-details-balancing-supply-with-demand"></a>Detalles de diseño: Equilibrio de aprovisionamiento con demanda
 El núcleo del sistema de planificación implica el equilibrio de la demanda y del suministro mediante la sugerencia de acciones de usuario para revisar los pedidos de suministro en caso de que se produzca un desequilibrio. Se produce por la combinación de variante y de ubicación.  
@@ -109,7 +109,7 @@ Existen dos motivos para esto:
 
 Con el tiempo, las conexiones de seguimiento de pedidos se descuadran porque la red completa de seguimiento de pedidos no se reorganiza hasta que un evento de demanda o de suministro se cierre realmente.  
 
-Antes de cuadrar el aprovisionamiento por la demanda, el programa elimina todos los vínculos de seguimiento de pedidos existentes. A continuación, durante el procedimiento de contrapartida, cuando se cierra un evento demanda o de suministro, establece nuevos vínculos de seguimiento de pedidos entre la demanda y el suministro.  
+Antes de cuadrar el aprovisionamiento por la demanda, la aplicación elimina todos los vínculos de seguimiento de pedidos existentes. A continuación, durante el procedimiento de contrapartida, cuando se cierra un evento demanda o de suministro, establece nuevos vínculos de seguimiento de pedidos entre la demanda y el suministro.  
 
 > [!NOTE]  
 >  Aunque el producto no se haya configurado para seguimiento dinámico de pedidos, el programa previsto establecerá vínculos de seguimiento de pedidos equilibrados, tal y como se ha explicado anteriormente.  

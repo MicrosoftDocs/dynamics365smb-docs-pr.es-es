@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9e7bf29f6412c895ca1454ca007951b03a98669b
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 49e67bbdcf67b750f0de0d0c890df00281e381e6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248990"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310377"
 ---
 # <a name="cross-dock-items"></a>Productos de tránsito directo
 La funcionalidad de tránsito directo está disponible si ha configurado el almacén para requerir el proceso de recepción y ubicación.  
@@ -34,7 +34,7 @@ Si ha seleccionado el campo **Utiliza hoj. trab. ubicación** de la ficha de alm
 
 Si registra la recepción de almacén y no ha seleccionado el campo **Utiliza hoj. trab. ubicación**, los productos de los que se va a realizar el tránsito directo aparecen como líneas independientes en la instrucción de ubicación. El campo **Información tránsito directo** de cada línea de ubicación muestra si la línea contiene productos de tránsito directo, productos de la misma recepción que se tienen que almacenar o productos que se tienen que almacenar que provienen de una línea de recepción donde se va a realizar el tránsito directo de algunos productos. Con este campo, los empleados pueden ver fácilmente por qué no se ha colocado en el almacén toda la cantidad recibida.  
 
-El programa no mantiene registros independientes de los productos de los que se ha realizado el tránsito directo, si no que los registra como instrucciones de ubicación normales.  
+La aplicación no mantiene registros independientes de los productos de los que se ha realizado el tránsito directo, sino que los registra como instrucciones de ubicación normales.  
 
 ## <a name="to-set-up-the-warehouse-for-cross-docking"></a>Para configurar el almacén para tránsito directo  
 1.  Si utiliza ubicaciones configure al menos una ubicación de tránsito directo. Si utiliza ubicación y picking directos configure una zona de tránsito directo.  
@@ -96,7 +96,7 @@ Si utiliza ubicaciones, puede ver, cada vez que abra un envío o una hoja de tra
 
 Tiene que buscar productos en el área de tránsito directo cuando va a realizar el picking de productos para enviarlos. Si no se ha dado cuenta durante el proceso de recepción de los documentos de origen que eran la base para el tránsito directo, ahora tiene una idea mejor de si se pueden encontrar los productos en el área de tránsito directo.  
 
-Al lanzar una orden de producción, las líneas están disponibles en la hoja de trabajo de picking se pueden ver en el campo **Cdad. en ubic. tráns. directo** si los productos que espera han llegado y se han colocado en las ubicaciones de tránsito directo. Al crear una instrucción de picking, el programa sugiere que primero realice el picking de los productos de tránsito directo y sólo después buscará los productos en las ubicaciones de almacenamiento.  
+Al lanzar una orden de producción, las líneas están disponibles en la hoja de trabajo de picking se pueden ver en el campo **Cdad. en ubic. tráns. directo** si los productos que espera han llegado y se han colocado en las ubicaciones de tránsito directo. Al crear una instrucción de picking, la aplicación sugiere que primero realice el picking de los productos de tránsito directo y sólo después buscará los productos en las ubicaciones de almacenamiento.  
 
 Si no utiliza ubicaciones, recuerde comprobar el área de tránsito directo de vez en cuando o deberá confiar en las notificaciones de recepción que han llegado productos para producción.  
 

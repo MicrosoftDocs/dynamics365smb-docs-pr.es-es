@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 382a95a579482a56597ffae053c53dab92f3739a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 46b18910efb1abb8df1ef1f427933f75deb3912c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245148"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2305265"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Configurar definiciones de intercambio de datos
 Puede configurar [!INCLUDE[d365fin](includes/d365fin_md.md)] para intercambiar datos de tablas específicas con datos de archivos externos, por ejemplo para enviar y recibir documentos electrónicos, importar o exportar datos de banco u otros datos, como nóminas, tipos de cambio de divisa y catálogos de productos. Para obtener más información, vea [Intercambio de datos electrónicamente](across-data-exchange.md).  
@@ -110,7 +110,7 @@ Esto se describe en los procedimientos siguientes:
 > [!NOTE]  
 >  La asignación específica depende del objetivo empresarial del archivo de datos que se intercambiará y de las variaciones locales. Incluso el estándar bancario de SEPA presenta variaciones locales. [!INCLUDE[d365fin](includes/d365fin_md.md)] admite importar archivos de extractos bancarios CAMT SEPA originales. Se representa mediante el código de registro de definición de intercambio de datos de **CAMT de SEPA** en la página **Definiciones intercambio de datos**. Para obtener información acerca de la asignación de campos específicos de esta ayuda de CAMT de SEPA, consulte [Asignación de campos al importar archivos CAMT de SEPA](across-field-mapping-when-importing-sepa-camt-files.md).  
 
-#### <a name="to-map-columns-in-the-data-file-to-fields-in-included365finincludesd365finmdmd"></a>Para asignar las columnas en el archivo de datos a los campos de [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+#### <a name="to-map-columns-in-the-data-file-to-fields-in-included365finincludesd365fin_mdmd"></a>Para asignar las columnas en el archivo de datos a los campos de [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 1. En la ficha desplegable **Definiciones de línea**, seleccione la línea para la que desea asignar columnas a los campos y, a continuación, elija **Asignación de campos**. Se abre la página **Asignación de intercambio de datos**.  
 2. En la ficha desplegable **General**, especifique la configuración de asignación rellenando los campos tal y como se describe en la tabla siguiente.  
 

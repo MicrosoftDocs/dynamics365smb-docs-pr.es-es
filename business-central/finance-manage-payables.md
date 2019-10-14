@@ -12,15 +12,15 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: article
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
 redirect_url: finance-set-up-cost-accounting
-ms.openlocfilehash: f7556b204403f0abdb6361a0e1650b90e58810e1
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 36da19dbe011f3e26dc166955fb9c5f0decd3b94
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238882"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2305769"
 ---
 # <a name="managing-payables"></a>Administración de pagos
 [!INCLUDE[d365fin](includes/d365fin_md.md)] tiene lo que necesita para administrar eficazmente las cuentas de pagos.  
@@ -47,7 +47,7 @@ Si espera a registrar los pagos hasta que el banco confirme que ha procesado las
 
 * En un diario de pagos con líneas de pago propuestas, puede ordenar tanto **Exportado a archivo de pagos** o **Importe total exportado** y después eliminar las propuestas de pago de las facturas pendientes para las que ya se han realizado los pagos y no desea realizar ninguno más.
 
-    **Nota** Es posible que tenga que agregar dichas columnas a la lista. Para obtener más información, vea [Personalización del área de trabajo](ui-personalization-user.md).  
+    **Nota** Es posible que tenga que agregar dichas columnas a la lista. Para obtener más información, consulte [Personalizar el área de trabajo](ui-personalization-user.md).  
 * En el proceso **Proponer pagos a proveedores**, donde se pueden especificar los pagos que se incluirán en el diario de pagos, también puede especificar que no se inserten las líneas de diario para pagos que ya se hayan exportado eligiendo la casilla **Omitir pagos exportados**.
 
 ## <a name="see-also"></a>Consulte también

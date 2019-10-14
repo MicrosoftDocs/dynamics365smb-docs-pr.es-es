@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9072bd45d5189ec42e8f1adaa3554fa182c36f1f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 74e4c2e26ec4b51c00ece9ff8f56f7d556b74416
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244727"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302385"
 ---
 # <a name="working-with-dimensions"></a>Trabajar con dimensiones
 Para simplificar la realización de análisis en documentos, como pedidos de venta, puede utilizar dimensiones. Las dimensiones son atributos y valores que clasifican los movimientos de modo que pueda realizar el seguimiento y el análisis de ellos. Por ejemplo, las dimensiones pueden indicar de qué proyecto o departamento procede un movimiento.  
@@ -50,7 +50,7 @@ También se configuran los valores de dimensión. Por ejemplo, los valores puede
 
 Cuando se configuran las dimensiones y los valores, se pueden definir dimensiones globales y abreviadas en la página **Configuración de contabilidad**, que siempre estarán disponibles para seleccionar como campos en las líneas del diario y del documento, sin tener que abrir primero la página **Dimensiones**. Para obtener más información, vea [Para configurar dimensiones globales y abreviadas](finance-dimensions.md#to-set-up-global-and-shortcut-dimensions).
 
-* Las **dimensiones globales** se usan como filtros, por ejemplo, en informes y procesos. Solo puede utilizar dos dimensiones globales, por lo que debería elegir las dimensiones que use a menudo.
+* Las **dimensiones globales** se usan como filtros, por ejemplo, en informes, trabajos por lotes y XMLports. Solo puede utilizar dos dimensiones globales, por lo que debería elegir las dimensiones que use a menudo.
 * Las **dimensiones abreviadas** están disponibles como campos en líneas de diario y documento. Puede crear un máximo de seis.  
 
 ### <a name="to-set-up-default-dimensions-for-customers-vendors-and-other-accounts"></a>Para configurar dimensiones predeterminadas para clientes, proveedores y otras cuentas
@@ -159,7 +159,7 @@ Para **DEPARTAMENTO**, agregue los siguientes valores de dimensión:
 Con esta configuración, puede agregar las dos dimensiones como las dos dimensiones globales en la página **Configuración de contabilidad**. Esto significa que puede usar ÁREA Y DEPARTAMENTO como filtros para los movimientos de contabilidad, así como en todos los informes y esquemas de cuentas. También están disponibles ambas dimensiones globales de forma automática para el uso en líneas de movimientos y cabeceras de documentos, como dimensiones abreviadas.
 
 ## <a name="getting-an-overview-of-dimensions-used-multiple-times"></a>Obtener una visión general de las dimensiones utilizadas varias veces
-La página **Dimensiones predet.-Múltiple** especifica cómo un grupo de cuentas usa dimensiones y valores de dimensión. Puede hacerlo resaltando varias cuentas y, a continuación, especificando las dimensiones y los valores de dimensión predeterminados para todas las cuentas que ha resaltado en la lista de cuentas. Al especificar las dimensiones predeterminadas para las cuentas resaltadas, el programa sugerirá estas dimensiones y valores de dimensión cuando se utilice una de ellas, por ejemplo, en una línea de diario. Esto facilita el registro de movimientos, ya que los campos de dimensión se rellenan automáticamente. No obstante, los valores de dimensión sugeridos se pueden cambiar en, por ejemplo, una línea de diario.
+La página **Dimensiones predet.-Múltiple** especifica cómo un grupo de cuentas usa dimensiones y valores de dimensión. Puede hacerlo resaltando varias cuentas y, a continuación, especificando las dimensiones y los valores de dimensión predeterminados para todas las cuentas que ha resaltado en la lista de cuentas. Al especificar las dimensiones predeterminadas para las cuentas resaltadas, la aplicación sugerirá estas dimensiones y valores de dimensión cuando se utilice una de ellas, por ejemplo, en una línea de diario. Esto facilita el registro de movimientos, ya que los campos de dimensión se rellenan automáticamente. No obstante, los valores de dimensión sugeridos se pueden cambiar en, por ejemplo, una línea de diario.
 
 La página **Dimensiones predet.-Múltiple** contiene los campos siguientes:
 

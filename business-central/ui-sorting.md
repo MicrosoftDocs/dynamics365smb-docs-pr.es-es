@@ -7,15 +7,15 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: solsen
 redirect_url: ui-enter-criteria-filters
-ms.openlocfilehash: ae8bec7c0d9d7f23c607037588663d926237d352
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 6242e3e640f43b28b5e1cfb0e3c5384ee00391ec
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247963"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310694"
 ---
 # <a name="sorting"></a>Ordenación
 Esta función permite obtener fácil y rápidamente un panorama de los datos. Si hay varios clientes, por ejemplo, puede elegir ordenarlos por **N.º de cliente**, **Grupo contable cliente**, **Cód. divisa**, **Cód. país/región** o **N.º de registro de impuesto sobre las ventas** para disponer de la vista general que desea.

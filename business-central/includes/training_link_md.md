@@ -1,1 +1,1 @@
-[Formación](/dynamics365/get-started/training/)
+[Formación](/learn/browse/?products=dynamics-business-central)

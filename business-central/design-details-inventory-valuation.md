@@ -4,20 +4,20 @@ description: La valoración del inventario "Valoración de inventario" es la det
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/01/2017
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1321c9cfdb3814802db295eb7f5dcc90b325c19e
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: f83c00da396b87eb90f7c03f8c673fb3cd2d1aaf
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246391"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307065"
 ---
 # <a name="design-details-inventory-valuation"></a>Detalles de diseño: Valoración de inventario
 La valoración del inventario "Valoración de inventario" es la determinación del coste que se asigna a un producto de inventario, tal como expresa la ecuación siguiente.  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9c9d01e54aa43cbba722c459a2bf60be26433727
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 261fc147c4e940e4fce69e5a302d1d501f9c5597
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240981"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302889"
 ---
 # <a name="depreciation-methods"></a>Métodos de depreciación
 Hay ocho métodos de amortización disponibles:  
@@ -55,12 +55,12 @@ Los días restantes de amortización se calculan como el número de días de amo
 El valor neto puede reducirse con apreciaciones, depreciaciones, importes personalizado 1 o 2, según se desactive el campo **tipo reg. IVAIncluye en cálc. amortización** y si se activa el campo **Compone valor contable** en la página **A/F Config. tipo registro**. Este cálculo garantiza que el activo se amortiza por completo al llegar la fecha final de amortización.  
 
 ### <a name="fixed-yearly-percentage"></a>Porcentaje fijo anual
-Si introdujo un porcentaje fijo anual, el programa utiliza la fórmula siguiente para calcular el importe de amortización:  
+Si introduce un porcentaje fijo anual, la aplicación utiliza la fórmula siguiente para calcular el importe de amortización:  
 
 Importe amortización = (% Lineal x Base amortizable x Nº días amortización) / (100 x 360)  
 
 ### <a name="fixed-yearly-amount"></a>Importe fijo anual
-Si especificó un importe fijo anual, el programa utiliza esta fórmula para calcular el importe de amortización:  
+Si introduce un importe fijo anual, la aplicación utiliza esta fórmula para calcular el importe de amortización:  
 
 Importe amortización = (Importe fijo amortización x Número días amortización) / 360  
 
@@ -217,7 +217,7 @@ Se utiliza el importe regresivo, ya que es el importe mayor.
 Se utiliza el importe lineal, ya que es el importe mayor.  
 
 ## <a name="user-defined-depreciation"></a>Amortización definida por el usuario
-El programa dispone de una utilidad que permite configurar los métodos de amortización definidos por el usuario.  
+La aplicación dispone de una utilidad que permite configurar los métodos de amortización definidos por el usuario.  
 
 Con un método definido por el usuario, se utiliza la página **Tablas amortización**, donde debe introducir un porcentaje de amortización para cada periodo (mes, trimestre, año o periodo contable).  
 
@@ -257,7 +257,7 @@ El coste es de 100.000 DL y el periodo de amortización es de cinco años. La am
 
 * Fecha inicio amortización  
 
-Si utiliza un método definido por el usuario, los campos **1ª fecha amort. def.-usuario** y **Fecha inicio amortización** deben rellenarse en la página **Libros amortización A/F**. El campo **1ª fecha amort. def.-usuario** y el contenido del campo **Longitud periodo** en la página **Tablas amortización** se utilizan para determinar los intervalos de tiempo a utilizar en los cálculos de amortización. Así se garantiza que el sistema comenzará a utilizar el porcentaje especificado para todos los activos en el mismo día. El campo **Fecha inicio amortización** se utiliza para calcular el número de días de amortización.  
+Si utiliza un método definido por el usuario, los campos **1ª fecha amort. def.-usuario** y **Fecha inicio amortización** deben rellenarse en la página **Libros amortización A/F**. El campo **1ª fecha amort. def.-usuario** y el contenido del campo **Longitud periodo** en la página **Tablas amortización** se utilizan para determinar los intervalos de tiempo a utilizar en los cálculos de amortización. Así se garantiza que la aplicación comenzará a utilizar el porcentaje especificado para todos los activos en el mismo día. El campo **Fecha inicio amortización** se utiliza para calcular el número de días de amortización.  
 
 En el ejemplo anterior, los campos **1ª fecha amort. def.-usuario** y **Fecha inicio amortización** contienen 01/01/01. Si, no obstante, el campo **1ª fecha amort. def.-usuario** tuviera 01/01/10 y el campo **Fecha inicio amortización** tuviera 01/04/11, el resultado podría ser:  
 
@@ -275,7 +275,7 @@ En el ejemplo anterior, los campos **1ª fecha amort. def.-usuario** y **Fecha i
 ## <a name="half-year-convention-depreciation"></a>Amortización de convenio de medio año
 El método Convenio medio año solo se aplicará si activó el campo **Usar convenio medio año** en la página fija **A/F Libro amortización**.  
 
-Este método de amortización puede utilizarse junto con los siguientes métodos de amortización:  
+Este método de amortización puede utilizarse junto con los siguientes métodos de amortización en la aplicación:  
 
 * Lineal  
 * Regresivo 1  
@@ -343,7 +343,7 @@ Se utiliza el importe lineal, ya que es el importe mayor.
 ## <a name="duplicating-entries-to-more-depreciation-books"></a>Duplicación de movimientos en más libros de amortización
 Si tiene tres libros de amortización, B1, B2 y B3, y desea duplicar los movimientos del B1 al B2 y B3, puede activar el campo **Compone lista duplicados** en las fichas del libro de amortización para B2 y B3. Esto puede resultar de utilidad si el libro de amortización B1 está integrado en la contabilidad y utiliza el diario general de activos fijos, y los libros de amortización B2 y B3 no están integrados con la contabilidad y utiliza el diario de activos.  
 
-Cuando introduzca un movimiento en B1 del diario general de activos fijos y active el campo **Utiliza lista duplicados**, el programa duplicará el movimiento en los libros B2 y B3 del diario de activos en el momento de registrar el movimiento.  
+Cuando introduzca un movimiento en B1 del diario general de activos fijos y active el campo **Utiliza lista duplicados**, la aplicación duplicará el movimiento en los libros B2 y B3 del diario de activos en el momento de registrar el movimiento.  
 
 > [!NOTE]  
 >   No puede duplicar en el mismo diario y proceso de diario desde el que está duplicando. Si registra movimientos en el diario general de activos fijos, podrá duplicarlos en el diario de activos o en el diario general de activos fijos mediante otro proceso.  

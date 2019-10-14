@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d337da227214c88b8358eb07261f18443d9c5d93
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 8a3cce098b254111b219f94baf1c507d6edbcd23
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1242286"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308721"
 ---
 # <a name="set-up-contacts"></a>Configuración de contactos
 Al crear contactos, puede especificar información como, por ejemplo, la industria a la que pertenecen y sus relaciones de negocio con los contactos.
@@ -142,9 +142,9 @@ Al modificar uno de estos campos en la ficha de la empresa de contacto, se actua
 Para obtener más información, consulte [Crear contactos](marketing-create-contact-companies.md).
 
 ## <a name="using-predefined-defaults-on-new-contacts"></a>Usar valores predeterminados en contactos nuevos
-Puede hacer que la aplicación asigne de forma automática ciertos códigos de idioma, territorio, vendedor y país/región como valores predeterminados para cada nuevo contacto. También se puede especificar un ciclo de ventas predeterminado que el sistema asignará de forma automática a cada nueva oportunidad creada. Configúrelo en la pestaña desplegable **Valores predeterminados** de la página **Configuración de marketing**.
+Puede hacer que la aplicación asigne de forma automática ciertos códigos de idioma, territorio, vendedor y país/región como valores predeterminados para cada nuevo contacto. También se puede especificar un ciclo de ventas predeterminado que la aplicación asignará de forma automática a cada nueva oportunidad creada. Configúrelo en la pestaña desplegable **Valores predeterminados** de la página **Configuración de marketing**.
 
-La herencia de campos sobrescribe los valores predeterminados en la configuración. Por ejemplo, si el idioma predeterminado es el inglés, pero el de la empresa contacto es el alemán, el programa asignará automáticamente el alemán como idioma para las personas de contacto almacenadas de esa empresa.
+La herencia de campos sobrescribe los valores predeterminados en la configuración. Por ejemplo, si el idioma predeterminado es el inglés, pero el de la empresa contacto es el alemán, la aplicación asignará automáticamente el alemán como idioma para las personas de contacto almacenadas de esa empresa.
 
 ## <a name="synchronizing-contacts-with-customers-vendors-and-bank-accounts"></a>Sincronizar contactos con clientes, proveedores y cuentas bancarias
 Para sincronizar la ficha de contacto con un cliente, proveedor o tarjeta de cuenta bancaria vinculados, debe completar el campo correspondiente en la sección **Cód. relac. negoc. para** de la pestaña desplegable **Interacciones** en la página de **Configuración de marketing**.  
@@ -152,7 +152,7 @@ Para sincronizar la ficha de contacto con un cliente, proveedor o tarjeta de cue
 Para obtener más información, consulte [Sincronizar contactos con clientes, proveedores y cuentas bancarias](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).
 
 ## <a name="searching-for-duplicate-contacts"></a>Búsqueda de contactos duplicados
-Puede elegir que el sistema busque duplicados de forma automática cada vez que cree un contacto o buscarlos de forma manual después de crearlos. También puede hacer que el sistema actualice las cadenas de búsqueda de forma automática cada vez que se crea un contacto o se modifica su información. Puede elegir el porcentaje de acierto búsqueda, es decir, el porcentaje de cadenas idénticas que dos contactos deben tener para considerarlos duplicados. Configúrelo en la pestaña desplegable **Duplicados** de la página **Configuración de marketing**.
+Puede elegir que la aplicación busque duplicados de forma automática cada vez que cree un contacto o buscarlos de forma manual después de crearlos. También puede hacer que la aplicación actualice las cadenas de búsqueda de forma automática cada vez que se crea un contacto o se modifica su información. Puede elegir el porcentaje de acierto búsqueda, es decir, el porcentaje de cadenas idénticas que dos contactos deben tener para que la aplicación los considere duplicados. Configúrelo en la pestaña desplegable **Duplicados** de la página **Configuración de marketing**.
 
 Cuando haya encontrado un contacto duplicado, puede usar la página **Combinar duplicado** para combinarlo en un registro de contacto existente que desee conservar. Para obtener más información, consulte [Combinar registros duplicados](sales-how-merge-duplicate-records.md).
 

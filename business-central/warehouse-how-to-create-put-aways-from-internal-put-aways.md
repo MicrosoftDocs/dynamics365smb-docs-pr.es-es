@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0807c425b4951cacf19724db78aa4ae5920f1f2f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 791b23bd158c8dffcf75c511cd2607ef59dae5a6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248898"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310401"
 ---
 # <a name="pick-and-put-away-without-a-source-document"></a>Realizar el picking y la ubicación sin un documento de origen
 Una vez ubicados los productos y antes de que se realice el picking de los mismos para cubrir las necesidades de una orden de producción o un envío, los productos se almacenan en el almacén como parte de las existencias disponibles.  

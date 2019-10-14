@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, troubleshoot
-ms.date: 10/23/2017
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 0ebd99e9097e4c701038f3b8be7a07d1e80a4b31
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 8faba6940469265959d09f807d2d3c1afe6199af
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237985"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300406"
 ---
-# <a name="troubleshooting-include-d365acclongincludesd365acclongmdmd"></a>Solución de problemas de [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
+# <a name="troubleshooting-include-d365acc_longincludesd365acc_long_mdmd"></a>Solución de problemas de [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
 
 Registrarse en [!INCLUDE [d365acc](includes/d365acc_md.md)] es muy fácil y se puede realizar muy rápidamente. Agregar clientes al escritorio también es sencillo, si no este artículo le ayudará a solucionar los problemas que puedan surgirle.
 
-## <a name="what-email-address-can-i-use-with-include-d365accincludesd365accmdmd"></a>¿Qué dirección de correo electrónico puedo usar en [!INCLUDE [d365acc](includes/d365acc_md.md)]?
+## <a name="what-email-address-can-i-use-with-include-d365accincludesd365acc_mdmd"></a>¿Qué dirección de correo electrónico puedo usar en [!INCLUDE [d365acc](includes/d365acc_md.md)]?
 Para iniciar sesión, [!INCLUDE [d365acc](includes/d365acc_md.md)] requiere una dirección de correo electrónico del trabajo o la escuela. [!INCLUDE [d365acc](includes/d365acc_md.md)] no admite direcciones de correo electrónico proporcionadas por servicios de correo electrónico del consumidor ni por proveedores de la telecomunicación. Esto incluye outlook.com, hotmail.com, gmail.com y otros.  
 
 Si intenta iniciar sesión con una dirección de correo personal, recibirá un mensaje indicando que use una dirección del trabajo o la escuela.  

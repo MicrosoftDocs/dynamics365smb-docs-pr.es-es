@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: policy, coverage
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8a04dae573423daaf7e7e475e63d7090e3a18c97
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 6c6e8ac025033e061ff3bd6d1a3a66decc700a0f
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244590"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302817"
 ---
 # <a name="insure-fixed-assets"></a>Aseguramiento de activos fijos
 Una póliza de seguro para un activo fijo se representa con una ficha de seguro. Puede asignar uno o varios activos fijos a una póliza de seguro.

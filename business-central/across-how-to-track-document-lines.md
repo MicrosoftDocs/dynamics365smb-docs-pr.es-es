@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2e308fc6bd84e608f641bca1b94b8e6b226a30fb
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1c5190daaa7954e50db903d64455f07f3e3e6627
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241149"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308351"
 ---
 # <a name="track-document-lines"></a>Seguimiento de líneas de documentos
 Puede ver documentos relacionados con líneas de orden de venta y líneas de orden de compra, incluso desde líneas de pedido archivadas. Los documentos relacionados que puede rastrear incluyen presupuestos, envíos, recibos y pedidos abiertos. Esto le permite identificar los documentos que se usan para procesar pedidos.  

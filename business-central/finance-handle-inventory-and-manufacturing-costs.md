@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 53f1c002236877f536a85586d0af912d5e9a85c2
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1f858457bcf667d158642fe42f3ea85e668adff3
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238261"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2306369"
 ---
 # <a name="handling-inventory-and-manufacturing-costs"></a>Administración de existencias y costes de fabricación
 Aunque la mayoría de las funciones de contabilidad de costes se llevan a cabo mediante procesos subyacentes que no requieren la interacción del usuario, tales como la liquidación de movimientos y el ajuste automático de costes, existen varios campos, páginas e informes destinados a los usuarios que administran directa o indirectamente el coste de los productos o las operaciones.  
@@ -34,7 +34,7 @@ Aunque la mayoría de las funciones de contabilidad de costes se llevan a cabo m
 |Calcular el coste unitario de un producto de LM basándose en los costes unitarios de sus componentes subyacentes.|[Trabajar con listas de materiales](inventory-how-work-BOMs.md)|  
 |Completar el ciclo de vida de la valoración de un producto fabricado ajustando los costes y conciliando los movimientos con la contabilidad.|[Sobre los costes de la orden de producción terminada](finance-about-finished-production-order-costs.md)|  
 |Cambiar el valor de un producto en existencias o el valor de un movimiento de producto, como una transacción de compra.|[Revaluar inventario](inventory-how-revalue-inventory.md)|
-|Deshacer manualmente una liquidación de producto o liquidar de nuevo movimientos de productos creados por el programa.|[Eliminar y liquidar de nuevo los movimientos contables de producto](finance-how-to-remove-and-reapply-item-entries.md)|  
+|Deshacer manualmente una liquidación de producto o liquidar de nuevo movimientos de productos creados por la aplicación.|[Eliminar y liquidar de nuevo los movimientos contables de producto](finance-how-to-remove-and-reapply-item-entries.md)|  
 |Utilice el campo **Liquidar por mov.** en el diario de productos para crear manualmente una liquidación fija entre una transacción de entrada y la transacción de salida original.|[Cerrar los movimientos de producto abiertos que se crean por una liquidación fija en el diario de productos](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)|  
 
 ## <a name="see-also"></a>Consulte también  

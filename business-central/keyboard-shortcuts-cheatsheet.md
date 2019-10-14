@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 05/22/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f23d1ffd1d9f000578269d0ed89c355bc2edb291
-ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
+ms.openlocfilehash: 8712e38d2de04cbaebe810367cfe9aa4f8cf9410
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1629739"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309561"
 ---
-# <a name="keyboard-shortcuts-pc-only"></a>Métodos abreviados de teclado (solo PC)
+# <a name="keyboard-quick-reference---pc-only"></a>Referencia rápida de teclado: solo PC
 
 ||||  
 |----------------|-----------|----------------|
-|**General**|Alt+F2<br />Alt+N<br />Alt+Q<br />Alt+Arriba<br />Alt+flecha abajo<br />Alt + Flecha hacia la derecha<br />Alt+T<br />Ctrl+Alt+F1<br />Ctrl+F1<br />F5/Ctrl+F5<br />Tab/Mayús+Tab<br />|Mostrar u ocultar el panel de cuadro informativo<br />Crear un registro nuevo<br />Abrir **Dígame**<br />Abrir la información sobre herramientas o el error de validación<br />Abrir un menú desplegable o buscar<br />Ver las transacciones para el valor calculado<br />Abrir la página **Mi configuración**<br />Inspeccionar la página<br />Abrir la ayuda de la página<br />Actualizar o volver a cargar la página<br />Desplazar el enfoque al elemento siguiente/anterior|
+|**General**|Alt+F2<br />Alt+N<br />Alt+Mayús+N<br />Alt+O<br />Alt+Q<br />Alt+Arriba<br />Alt+flecha abajo<br />Alt+T<br />Alt+Mayús+W<br />Ctrl+Insertar<br />Ctrl+Supr<br />Ctrl+Shift+F12<br />Ctrl+F1<br />Ctrl+Clic<br />Shift+F12<br />F5/Ctrl+F5<br />Tab/Mayús+Tab<br />|Mostrar u ocultar el panel de cuadro informativo<br />Crear un registro nuevo<br />Cerrar un registro recién creado y crear uno nuevo<br />Agregar una nueva nota para el registro seleccionado<br />Abrir **Dígame**<br />Abrir la información sobre herramientas o el error de validación<br />Abrir un menú desplegable o buscar<br />Abrir la página **Mi configuración**<br />Abrir la ficha o documento actual en una nueva ventana<br />Insertar una nueva línea en un documento<br />Eliminar la línea de un documento, diario u hoja de trabajo<br />Maximizar la parte de productos de línea en una página de documento<br />Abrir la ayuda de la página<br />Navegar al personalizar<br />Abrir la descripción general de funciones<br />Actualizar o volver a cargar la página<br />Desplazar el enfoque al elemento siguiente/anterior|
 |**Desplazarse y <br />seleccionar filas**| Inicio/Fin<br />Ctrl+Inicio/Fin <br />Ctrl+Flecha arriba/abajo<br />Ctrl+E <br />Ctrl+Espacio<br />Ctrl/Shift+Clic<br />Mayús+Flecha arriba/abajo<br />Mayús+Av/Re Pág<br />Ctrl+Enter| Ir al primer/último campo<br />Ir a la primera/última fila<br />Desplazarse sin perder la selección<br />Seleccionar todo<br />Alternar la selección de la fila<br /> Agregar la fila o las filas a la selección<br />Agregue una fila arriba/debajo de la selección<br />Seleccionar filas visibles arriba/abajo <br />Centrarse en la lista|
 |**Copiar y pegar**|Ctrl+C/V<br />F8|Copiar/pegar filas<br />Copiar campo de arriba a la fila actual|
 |**Buscar, filtrar <br />y ordenar**|F6<br />Alt+F7<br />F3<br />Shift+F3<br />Ctrl+Shift+F3<br />Alt+F3<br />Mayús+Alt+F3<br />Ctrl+Alt+Mayús+F3|Desplazarse a la siguiente ficha desplegable<br />Clasificar la columna en orden ascendente/descendente<br />Búsqueda alternativa<br />Alternar el panel de filtros; centrarse en los filtros de campo<br />Alternar el panel de filtros; centrarse en los filtros de totales<br />Filtrar en el valor de la celda seleccionada<br />Agregar un filtro en el campo seleccionado<br />Restablecer filtros|

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 911e3ebb67aa506055f2738be031443e622f8a1d
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 4e5818f5bafd737738a99b4627ab36548a7f0ec4
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246183"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303401"
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Detalles de diseño: Seguimiento de productos y reservas
 No es habitual el uso simultáneo de la reserva y del seguimiento de producto específico porque ambos crean un acoplamiento entre el suministro y la demanda. Salvo en situaciones en las que un cliente o un planificador de producción solicita un lote específico, casi nunca tiene sentido reservar productos de inventario que ya llevan números de seguimiento de producto para una liquidación específica. Aunque es posible reservar los productos que requieren seguimiento específico, se necesita una funcionalidad especial para evitar conflictos entre los procesadores de pedidos que solicitan los mismos productos a los que se hace un seguimiento.  

@@ -6,16 +6,16 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 95301c0d8473adf923b4c5ed81bec9e873fad8df
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: adbfad70678d1244a3760b4427a8db422a06799a
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241574"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304905"
 ---
-# <a name="included365finlongincludesd365finlongmdmd-trials-and-previews"></a>Períodos de prueba y vistas previas de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# <a name="included365fin_longincludesd365fin_long_mdmd-trials-and-previews"></a>Períodos de prueba y vistas previas de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] está disponible en cada vez más países en todo el mundo. Si desea obtener más información sobre [!INCLUDE [prodshort](includes/prodshort.md)], puede registrarse para una prueba gratuita, y si es un socio, puede crear vistas previas utilizando entornos aislados que luego puede compartir con clientes potenciales y clientes.  
 

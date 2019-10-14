@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ee54a60705a3dff4313522500e9457243ea4907d
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 39b44713eb473e0a5220906a7caa5e7acdce24bc
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243991"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309513"
 ---
 # <a name="work-with-responsibility-centers"></a>Trabajar con centros de responsabilidad
 Los centros de responsabilidad proporcionan la capacidad de controlar los centros administrativos. Un centro de responsabilidad puede ser un centro de coste, de beneficios, de inversión o cualquier otro centro administrativo definido por la empresa. Entre los ejemplos de centros de responsabilidad se encuentran una oficina de ventas, un departamento de compras para varios almacenes y una oficina de planificación de una planta. Con esta funcionalidad las empresas pueden, por ejemplo, configurar vistas específicas para cada usuario de los documentos de compra y de venta relacionados exclusivamente con un centro de responsabilidad determinado.  
@@ -43,7 +43,7 @@ Este código se utilizará en todos los documentos de compras, ventas o servicio
 >  Cuando introduce un código de centro de responsabilidad en un documento, éste afecta a la dirección, dimensiones y precios que figuran en el documento.  
 
 ## <a name="to-assign-responsibility-centers-to-users"></a>Para asignar centros de responsabilidad a los usuarios  
-Puede establecer en la configuración de los usuarios que en sus rutinas diarias el sistema recupere únicamente los documentos relevantes para sus áreas de trabajo concretas. Los usuarios suelen asociarse a un centro de responsabilidad y trabajan únicamente con los documentos relacionados con determinadas áreas de aplicación en dicho centro específico.  
+Puede establecer en la configuración de los usuarios que en sus rutinas diarias la aplicación recupere únicamente los documentos relevantes para sus áreas de trabajo concretas. Los usuarios suelen asociarse a un centro de responsabilidad y trabajan únicamente con los documentos relacionados con determinadas áreas de aplicación en dicho centro específico.  
 
 Para configurarlo, debe asignar centros de responsabilidad a los usuarios en tres áreas funcionales básicas: Compras, Ventas y Gestión de servicios.  
 

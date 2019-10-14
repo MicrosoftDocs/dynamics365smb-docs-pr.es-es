@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 00fc38cf50b641bb6c9578f80eda8bf618888512
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ca015f0f2805983d8df76ef25f0d8743f6ea30c3
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241413"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301077"
 ---
 # <a name="report-340"></a>Informe 340
 El **Informe 340** contiene información sobre facturas e impuestos emitidos o recibidos por su empresa en un período determinado. El informe se genera en un formato que ha aprobado la administración fiscal. Este informe debe enviarse en el período de liquidación mensual o trimestral de la empresa, según el tamaño de la empresa. Este archivo puede cargarse en el sitio web de la Agencia Tributaria o enviarse en CD-ROM. Para obtener más información, consulte el sitio web de la [Agencia Tributaria](https://www.aeat.es). Si el número de operaciones es mayor a 1 000 000 el informe se puede enviar electrónicamente.  

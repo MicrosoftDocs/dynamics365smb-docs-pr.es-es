@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f79466819826185c501677e1d4a2c1dee74ddf3a
-ms.sourcegitcommit: 1fa3d33db7bc71e3a27c826308a80ff24a436a72
+ms.openlocfilehash: e118ad07537cdaa0d6ed526ab8e91461cd430f08
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "1970860"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303009"
 ---
 # <a name="design-details-searching-for-dimension-combinations"></a>Detalles de diseño: Búsqueda de combinaciones de dimensiones
 Cuando se cierra una página después de editar un grupo de dimensiones, [!INCLUDE[d365fin](includes/d365fin_md.md)] evalúa si existe el grupo de dimensiones editado. Si no existe el grupo, se crea uno nuevo y se devuelve el identificador de la combinación de dimensiones.  

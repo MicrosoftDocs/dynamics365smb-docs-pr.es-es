@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f7dc0bc270435f2d8f6b9c045f84428f08e56a79
-ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
+ms.openlocfilehash: 110d33a199b474c0d5b4e52fb6627a3955578000
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1594202"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301074"
 ---
 # <a name="spain-local-functionality"></a>Funcionalidad local para España
 En los temas siguientes se describe la funcionalidad local que es única para la versión española de [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d8a9ba2f4fc819c1da515a0ace7d8641ec54ffc6
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c565f3f4419f8132ac643ca47c071b3791e147c2
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240354"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309945"
 ---
 # <a name="count-adjust-and-reclassify-inventory-using-journals"></a>Recuento, ajuste y reclasificación de inventario con diarios
 Como mínimo una vez cada año fiscal, debe realizar un inventario físico (es decir, contar todos los productos del inventario) para ver si la cantidad registrada en la base de datos es la misma que la cantidad física real en los almacenes. Una vez se sepa la cantidad física, debe registrarse en la contabilidad como parte de la evaluación del inventario de final de periodo.
@@ -68,7 +68,7 @@ Puede realizar el inventario físico en cualquiera de las siguientes formas en f
 6. Elija la acción **Calcular inventario**. Se abrirá la página de solicitud del trabajo por lotes **Calcular existencias alm.**  
 7.  Defina los filtros para limitar los productos que se contarán en el diario y, a continuación, seleccione **Aceptar**.
 
-    El programa crea una línea para cada ubicación que cumpla los requisitos del filtro. En este momento puede eliminar algunas líneas, pero si desea registrar el resultado como un inventario físico, debe contar el producto en todas las ubicaciones.  
+    La aplicación crea una línea para cada ubicación que cumpla los requisitos del filtro. En este momento puede eliminar algunas líneas, pero si desea registrar el resultado como un inventario físico, debe contar el producto en todas las ubicaciones.  
 
      Si sólo tiene tiempo para contar las existencias del producto en algunas ubicaciones, pero no en todas, puede encontrar diferencias y registrarlas posteriormente en el diario de productos con la función **Calcular ajuste almacén**.  
 8.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Lista invent. fís. alm.** y luego elija el enlace relacionado.  
@@ -76,14 +76,14 @@ Puede realizar el inventario físico en cualquiera de las siguientes formas en f
 10. Una vez realizado el recuento, introduzca las cantidades contadas en el campo **Cdad. (stock físico)** en el diario de inventario físico de almacén.  
 
     > [!NOTE]  
-    >  En el diario de inventario físico de almacén, el campo de **Cdad. (Calculado)** se rellena automáticamente a partir de los registros de la ubicación de almacén y copia estas cantidades al campo **Cdad. (física)** en cada línea. Si la cantidad contada por el empleado de almacén se diferencia de lo que el programa ha introducido en el campo Cdad. (física), debe introducir la cantidad contada realmente.  
+    >  En el diario de inventario físico de almacén, el campo de **Cdad. (Calculado)** se rellena automáticamente a partir de los registros de la ubicación de almacén y copia estas cantidades al campo **Cdad. (física)** en cada línea. Si la cantidad contada por el empleado de almacén se diferencia de lo que la aplicación ha introducido en el campo Cdad. (física), debe introducir la cantidad contada realmente.  
 
 11. Cuando haya introducido todas las cantidades contadas, elija la acción **Registrar**.  
 
-    Al registrar el diario, el programa crea dos movimientos de almacén en el registro por cada línea que se ha contado y registrado:  
+    Al registrar el diario, la aplicación crea dos movimientos de almacén en el registro por cada línea que se ha contado y registrado:  
 
     -   Si la cantidad calculada y la cantidad física son distintas, se registra una cantidad negativa o positiva en la ubicación y se registra una cantidad de contrapartida en la ubicación de ajuste del almacén.  
-    -   Si la cantidad calculada es igual que la cantidad física, el programa registra un movimiento de 0 en la ubicación y en la ubicación de ajuste. Los movimientos se registran en la fecha en que se ha realizado el inventario físico de almacén y no existen diferencias en las existencias del producto.  
+    -   Si la cantidad calculada es igual que la cantidad física, la aplicación registra un movimiento de 0 en la ubicación y en la ubicación de ajuste. Los movimientos se registran en la fecha en que se ha realizado el inventario físico de almacén y no existen diferencias en las existencias del producto.  
 
 Al registrar el inventario físico de almacén, no se registra el diario de productos, el diario de inventario físico o el movimiento de valoración, si no que los registros se colocan ahí para una conciliación inmediata cuando sea necesario. No obstante, si desea mantener registros exactos de lo que sucede en el almacén y ha contado todas las ubicaciones donde estaban registrados los productos, debe registrar inmediatamente el resultado del almacén como un inventario físico en existencias. Para obtener más información, consulte [Para introducir y registrar el inventario contado real en configuraciones avanzadas de almacén](inventory-how-count-adjust-reclassify.md#to-enter-and-post-the-actual-counted-inventory-in-advanced-warehouse-configurations).
 
@@ -120,7 +120,7 @@ Los empleados pueden ahora proceder a contar el inventario y registrar las discr
 
 4.  Registre el diario sin cambiar las cantidades.  
 
-Las cantidades del diario de productos (movimientos de producto) y las cantidades del almacén (movimientos de almacén) son de nuevo las mismas para estos productos y el sistema ha actualizado la última fecha de recuento del producto o unidad de almacenamiento.  
+Las cantidades del diario de productos (movimientos de producto) y las cantidades del almacén (movimientos de almacén) son de nuevo las mismas para estos productos y la aplicación ha actualizado la última fecha de recuento del producto o unidad de almacenamiento.  
 
 ## <a name="to-perform-cycle-counting"></a>Realizar el recuento cíclico
 Aunque cuente todos los productos del inventario una vez al año, puede que haya decidido contar algunos productos con mayor frecuencia, quizás porque son más valiosos o porque se fluctúan muy rápido y forman una gran parte del negocio. Con este fin, puede asignar períodos de recuento especiales a esos elementos.
@@ -159,7 +159,7 @@ Configure los periodos de recuento de inventario que desee utilizar y, a continu
 3. Realizar un inventario físico. Para obtener más información, consulte [Para ejecutar un inventario físico](inventory-how-count-adjust-reclassify.md#to-perform-a-physical-inventory).  
 
     > [!NOTE]  
-    >  Debe contar el artículo en todas las ubicaciones que contengan el artículo determinado. Si se eliminan algunas de las líneas de la ubicación que el programa ha recuperado para contar en la página **Almacén. fís. inventario**, no contará todos los artículos en el almacén. Si realiza un registro posterior por resultados incompletos en Diario inventario fís., las cantidades registradas serán incorrectas.  
+    >  Debe contar el artículo en todas las ubicaciones que contengan el artículo determinado. Si se eliminan algunas de las líneas de la ubicación que la aplicación ha recuperado para contar en la página **Almacén. fís. inventario**, no contará todos los artículos en el almacén. Si realiza un registro posterior por resultados incompletos en Diario inventario fís., las cantidades registradas serán incorrectas.  
 
 ## <a name="to-adjust-the-inventory-of-one-item"></a>Ajustar el inventario de un producto
 Una vez realizado un recuento físico de un productos en el área de inventario, puede utilizar la función **Ajustar inventario** para registrar la cantidad real del inventario.

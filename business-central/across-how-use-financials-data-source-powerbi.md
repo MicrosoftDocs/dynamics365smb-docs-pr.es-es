@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 07/08/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: c86f1c3c40f80ec993d0a3a89154047ddf9e8126
-ms.sourcegitcommit: 519623f9a5134c9ffa97eeaed0841ae59835f453
+ms.openlocfilehash: b57b87dd8cdc9390ed5b1b7136107639f689c192
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "1755246"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2305001"
 ---
 # <a name="using-include-prodlongincludesprodlongmd-as-power-bi-data-source-for-building-reports"></a>Usar [!INCLUDE [prodlong](includes/prodlong.md)] como fuente de datos de Power BI para generar informes
 
@@ -28,10 +28,7 @@ Debe disponer de una cuenta válida con [!INCLUDE[prodshort](includes/prodshort.
 1. En Power BI Desktop, en el panel de navegador izquierdo, elija **Obtener datos**.
 2. En la página **Obtener datos**, **Servicios en línea**, elija **Microsoft Dynamics 365 Business Central** y después seleccione el botón **Conectar**.
 3. Power BI muestra un asistente que le guiará por el proceso de conexión. Se le pedirá que inicie sesión en [!INCLUDE [prodshort](includes/prodshort.md)]. Seleccione **Iniciar sesión** y elija la cuenta con la que desea iniciar sesión. Debe ser la misma cuenta con la que inicia sesión en [!INCLUDE [prodshort](includes/prodshort.md)].
-4. Elija el botón **Conectar** para continuar. El asistente Power BI muestra una lista de las empresas y los orígenes de datos de Microsoft [!INCLUDE[d365fin](includes/d365fin_md.md)]. Este origen de datos todos los servicios web que haya publicado desde cada empresa en [!INCLUDE [prodshort](includes/prodshort.md)].
-
-  ![powerbi_webservices.png](media/across-how-use-financials-data-source-powerbi/powerbi_webservices.png)
-
+4. Elija el botón **Conectar** para continuar. El asistente de Power BI muestra una lista de los ambientes, las empresas y los orígenes de datos de Microsoft [!INCLUDE[d365fin](includes/d365fin_md.md)]. Este origen de datos todos los servicios web que haya publicado desde cada suscriptor/empresa en [!INCLUDE [prodshort](includes/prodshort.md)].
 5. Si lo desea, puede crear una nueva dirección URL de servicio Web en [!INCLUDE [prodshort](includes/prodshort.md)] mediante la acción **Crear conjunto de datos** en la página **Servicios web**, utilizando la guía de configuración asistida **Configurar informes** o eligiendo la acción **Editar en Excel** en cualquier lista.
 6. Especifique los datos que desea agregar al modelo de datos y después seleccione el botón **Cargar**.
 7. Repita los pasos anteriores agregar datos de [!INCLUDE [prodshort](includes/prodshort.md)] adicionales, u otros datos, a su modelo de datos de Power BI.

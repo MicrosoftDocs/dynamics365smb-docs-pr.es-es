@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9bd9b933e432cf5a8f3e992c36502d9e1a38c5c7
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 097bfdb77b4c43b6ebb6d8605496530ed04b9624
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241559"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301103"
 ---
 # <a name="create-report-347"></a>Crear el informe 347
 Todas las empresas deben presentar una declaración anual, el **Informe 347**, a la administración fiscal que proporcione las transacciones de ventas y compras del periodo fiscal anterior.  

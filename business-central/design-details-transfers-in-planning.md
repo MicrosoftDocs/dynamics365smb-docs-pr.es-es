@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, transfer, sku, locations, warehouse
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 56988064297cac55c48624071a19d510f6126495
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 72a9455810b017510947b78e40c88116e9935d20
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248047"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2306729"
 ---
 # <a name="design-details-transfers-in-planning"></a>Detalles de diseño: Transferencias en planificación
 Los pedidos de transferencia también son un origen de suministro al trabajar en el nivel de UA. Al usar varias ubicaciones (almacenes), el sistema de reposición de UA se puede configurar en Transferencia, lo que implica que se realiza la reposición de la ubicación mediante la transferencia de mercancías desde otra ubicación. En una situación con varios almacenes, las empresas pueden tener una cadena de transferencias donde el aprovisionamiento al almacén VERDE se transfiere de AMARILLO, y el aprovisionamiento a AMARILLO se transfiere desde ROJO, etc. En el principio de la cadena hay un sistema de reposición de Ord. prod. o Compra.  
@@ -29,7 +29,7 @@ Al comparar la situación en que un pedido de suministro atiende directamente un
 ![Ejemplo de equilibrio oferta/demanda en transferencias](media/nav_app_supply_planning_7_transfers2.png "Ejemplo de equilibrio oferta/demanda en transferencias")  
 
 ## <a name="why-is-transfer-a-special-case"></a>¿Por qué la transferencia es un caso especial?  
-Un pedido de transferencia se parece mucho a cualquier otro pedido en el programa. No obstante, lo que ocurre en un segundo plano es muy diferente.  
+Un pedido de transferencia se parece mucho a cualquier otro pedido en la aplicación. No obstante, lo que ocurre en un segundo plano es muy diferente.  
 
 Un aspecto fundamental que diferencia las transferencias en la planificación de los pedidos de compra y de las órdenes de producción es que una línea de transferencia representa la demanda y el suministro al mismo tiempo. La parte de salida, que se envía desde la ubicación anterior, es demanda. La parte de entrada, que se recibirá en la nueva ubicación, es el suministro de esa ubicación.  
 

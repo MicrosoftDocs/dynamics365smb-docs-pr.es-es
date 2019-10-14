@@ -5,16 +5,16 @@ author: edupont04
 ms.service: dynamics365-accountant
 ms.topic: article
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 11/23/2018
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 0c4dadb15c9756c49f94839236766432844088c8
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: 54536e29fea7e5bab676647753954237ec8c37aa
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "1238721"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300352"
 ---
-# <a name="get-started-with-include-d365acclongincludesd365acclongmdmd"></a>Introducción a [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
+# <a name="get-started-with-include-d365acc_longincludesd365acc_long_mdmd"></a>Introducción a [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
 
 Los negocios deben crear sus libros y firmas de contabilidad. Algunas empresas emplean un contable externo, y otras lo tienen en plantilla. Si es un contable con varios clientes, puede utilizar [!INCLUDE [d365acc](includes/d365acc_md.md)] como su panel de control para obtener una mejor visión general de sus clientes.  

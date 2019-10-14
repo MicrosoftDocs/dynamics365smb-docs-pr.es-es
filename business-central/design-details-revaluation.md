@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2c78322213eaf6e091278e3e5528f82493aba1da
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: a15b1f36bccc733a8de8c846da7cffbfae7c5af6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240400"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303033"
 ---
 # <a name="design-details-revaluation"></a>Detalles de diseño: Revalorización
 Puede revalorizar el inventario según la base de valoración que refleja de forma más precisa el valor de inventario. También puede especificar una fecha retroactiva para una revalorización, de modo que el coste total de las mercancías vendidas se actualice correctamente para los productos que ya se han vendido. Los productos que usan la valoración de existencias Estándar que no se han facturado por completo también se pueden volver a valorar.  

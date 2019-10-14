@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 42a02a5ec6a519b43df1b147cd4ba94006bdcae0
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 8e7a26f3086249e1e36fe302e75141c44bbb46d7
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241874"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308577"
 ---
 # <a name="managing-intercompany-transactions"></a>Gestión de transacciones entre empresas vinculadas
 Su organización puede estar formada por varias empresas, pero puede no tener un número equivalente de departamentos de contabilidad y administrativos. La funcionalidad de empresas vinculadas le permite hacer transacciones con las subsidiarias y con otras organizaciones asociadas de la misma forma que con sus clientes y proveedores. La información sobre las transacciones entre empresas vinculadas sólo se introduce una vez en los documentos correspondientes. Puede usar las funciones que ya conoce, por ejemplo la gestión de cobros y pagos. Las opciones de asignación del plan de cuentas y las dimensiones contribuyen a garantizar que la información se muestra en los lugares correctos.  
@@ -29,7 +29,7 @@ La funcionalidad entre empresas vinculadas tienen cuatro ventajas principales:
 - Se logran un seguimiento y una visibilidad totales de las actividades empresariales y los historiales de las transacciones  
 - Las transacciones con las subsidiarias y las filiales son eficaces y rentables  
 
-El control sobre todos los documentos de las transacciones es total. Por ejemplo, puede rechazar un documento que ha recibido y, de esta forma, revertir los registros incorrectos. Al realizar una compra a un asociado o una subsidiaria puede actualizar el pedido de compra, siempre que la empresa vendedora no haya enviado los productos todavía.  
+El control sobre todos los documentos de las transacciones es total. Por ejemplo, puede rechazar un documento que ha recibido y, de esta forma, revertir los registros de diario y deshacer los recibos/envíos incorrectos. Al realizar una compra a un asociado o una subsidiaria puede actualizar el pedido de compra, siempre que la empresa vendedora no haya enviado los productos todavía.  
 
 Al introducir una transacción, no tiene que especificar las cuentas de cada uno de los grupos de libros, si no que sólo tiene que proporcionar la identificación de la empresa asociada. La funcionalidad entre empresas vinculadas crean líneas del diario general que hacen que los libros queden cuadrados en las dos empresas implicadas en la transacción. En cobros y pagos, puede asignar un código de socio de empresa vinculada a cualquier cliente o proveedor. A partir de ese momento, todos los pedidos y facturas generados en relación con las transacciones realizadas con este tipo de empresas crearán los documentos correspondientes en la empresa asociada, y se cuadran correctamente todas las cuentas.  
 

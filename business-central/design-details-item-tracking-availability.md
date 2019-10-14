@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9bfbcb3cc65a162a04b6055f341d528810097494
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 950f23ee4a93c5135eafe2ac14313d1fa2dc7fda
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1242151"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307041"
 ---
 # <a name="design-details-item-tracking-availability"></a>Detalles de diseño: Disponibilidad de seguimiento de productos
 Las páginas **Líneas seguimiento producto** y **Resumen seguimiento producto** proporcionan información de disponibilidad dinámica de los números de serie o de lote. El propósito de esto es aumentar la transparencia para los usuarios con respecto a los documentos de salida, como pedidos de venta, mostrándoles qué números de serie o cuántas unidades de un número de lote están asignado actualmente a otros documentos abiertos. De este modo se reduce la incertidumbre que provoca la doble asignación y transmite confianza en los procesadores de pedidos de que se pueden cumplir los números y las fechas de seguimiento de producto que han prometido en los pedidos de venta sin registrar. Para obtener más información, consulte [Detalles de diseño: Página de líneas de seguimiento de productos](design-details-item-tracking-lines-window.md).  

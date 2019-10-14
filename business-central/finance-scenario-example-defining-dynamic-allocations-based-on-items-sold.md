@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
 redirect_url: finance-define-and-allocate-costs
-ms.openlocfilehash: 7219e1d56129da66e802aa0b4ea5df946dc34e04
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 905dc15b2c29c4a97f2bf73b9970750b47995720
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1239595"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301785"
 ---
 # <a name="scenario-example-defining-dynamic-allocations-based-on-items-sold"></a>Ejemplo: definición de asignaciones dinámicas basándose en productos vendidos
 Este tema muestra un ejemplo de cómo definir asignaciones mediante el método de asignación dinámica. En el ejemplo, se cambia la asignación dinámica de los costes del centro de coste VENTAS para admitir el nuevo EQUIPO TI del objeto de coste. Los paquetes de EQUIPO TI tienen números de producto en el rango de 8904-W a 8924-W. Utiliza las cifras de ventas del año anterior para calcular el reparto. La asignación se registra al tipo de coste de ayuda 9903.  

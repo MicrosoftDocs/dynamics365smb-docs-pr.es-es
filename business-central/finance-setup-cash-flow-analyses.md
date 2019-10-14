@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 933323815f0ee31e8bd281dd00ac2d604dd914db
-ms.sourcegitcommit: 92c7b6c5f0a5d8becbef106ab85258906765bc3e
+ms.openlocfilehash: c33ef33a9eb660e7cde7da2d1e8a6dad76f18dd7
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2019
-ms.locfileid: "1540322"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301713"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Configuración del análisis de flujo de efectivo
 Si desea ayuda para decidir qué debe hacer con el efectivo, eche un vistazo a los gráficos del Área de trabajo Contable:  
@@ -56,9 +56,9 @@ Para ayudarle a empezar, se proporcionan algunas cuentas y configuraciones de fl
 Para configurarla, busque **cuentas de flujo de efectivo**, elija el vínculo y rellene los campos. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Repita estos pasos para la **configuración de flujo de efectivo**.  
 
 ## <a name="set-up-cash-flow-forecasts"></a>Configurar previsiones de flujo de efectivo
-El gráfico **Previsión de flujo de efectivo** utiliza cuentas de flujo de efectivo, configuraciones de flujo de efectivo y previsiones de flujo de efectivo. Se proporcionan algunas, pero configurar las suyas propias usando una guía de configuración asistida. Esta guía le ayuda a especificar aspectos como la frecuencia con que se actualizará la previsión, las cuentas en las que se basará, la información acerca de cuándo se pagan impuestos y si activar [Cortana Intelligence](https://www.microsoft.com/en-us/cloud-platform/what-is-cortana-intelligence-suite).  
+El gráfico **Previsión de flujo de efectivo** utiliza cuentas de flujo de efectivo, configuraciones de flujo de efectivo y previsiones de flujo de efectivo. Se proporcionan algunas, pero configurar las suyas propias usando una guía de configuración asistida. Esta guía le ayuda a especificar aspectos como la frecuencia con que se actualizará la previsión, las cuentas en las que se basará, la información acerca de cuándo se pagan impuestos y si activar [Azure AI](https://azure.microsoft.com/en-us/overview/ai-platform/).  
 
-Las previsiones de flujo de efectivo pueden usar Cortana Intelligence para incluir documentos cuya fecha de vencimiento sea en el futuro. El resultado es una predicción más completa. La conexión a Cortana Intelligence ya está configurada automáticamente. Solo necesita activarla. Al iniciar sesión en [!INCLUDE[d365fin](includes/d365fin_md.md)], se muestra una notificación en una barra azul y proporciona un vínculo a la configuración de flujo de caja predeterminada. La notificación solo se muestra una vez. Si la cierra pero decide activar Cortana Intelligence, puede utilizar la guía de configuración asistida o un proceso manual.  
+Las previsiones de flujo de efectivo pueden usar Azure AI para incluir documentos cuya fecha de vencimiento sea en el futuro. El resultado es una predicción más completa. La conexión a Azure AI ya está configurada automáticamente. Solo necesita activarla. Al iniciar sesión en [!INCLUDE[d365fin](includes/d365fin_md.md)], se muestra una notificación en una barra azul y proporciona un vínculo a la configuración de flujo de caja predeterminada. La notificación solo se muestra una vez. Si la cierra pero decide activar Azure AI, puede utilizar la guía de configuración asistida o un proceso manual.  
 
 > [!NOTE]  
 >   También puede usar su propio servicio web de predicción. Para obtener más información, vea [Crear y usar su propio servicio web predictivo para las previsiones de flujo de efectivo](#AnchorText).  
@@ -73,23 +73,23 @@ Para usar la guía de configuración asistida:
 Para usar un proceso manual:  
 
 1. En el área de trabajo Contable, busque **Configuración de flujo de efectivo** y, a continuación, elija el vínculo relacionado.  
-2. Expanda el la ficha desplegable **Cortana Intelligence** y active la casilla **Cortana Intelligence habilitada**.  
+2. Expanda la ficha desplegable **Azure AI** y active la casilla **Azure AI habilitado**.  
 3. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Previsión de flujo de efectivo** y luego elija el enlace relacionado.
 4. En la página **Previsión de flujo de efectivo**, seleccione la acción **Recalcular previsión**.  
 
 > [!TIP]  
->   Considere la duración de los periodos que el servicio usará en los cálculos. Cuantos más datos proporcione, más precisas serán las predicciones. Asimismo, controle las variaciones grandes en los periodos. También afectarán a las predicciones. Si Cortana Intelligence no encuentra suficientes datos, o los datos varían mucho, el servicio no creará ninguna predicción.  
+>   Considere la duración de los periodos que el servicio usará en los cálculos. Cuantos más datos proporcione, más precisas serán las predicciones. Asimismo, controle las variaciones grandes en los periodos. También afectarán a las predicciones. Si Azure AI no encuentra suficientes datos, o los datos varían mucho, el servicio no creará ninguna predicción.  
 
 ## <a name="AnchorText"> </a>Crear y usar su propio servicio web predictivo para las previsiones de flujo de efectivo
-También puede crear su propio servicio web predictivo basado en un modelo público denominado **Modelo de previsión para Microsoft Business Central**. Este modelo predictivo está disponible en línea en la galería de Cortana Intelligence. Para usar el modelo, siga estos pasos:  
+También puede crear su propio servicio web predictivo basado en un modelo público denominado **Modelo de previsión para Microsoft Business Central**. Este modelo predictivo está disponible en línea en la galería de Azure AI. Para usar el modelo, siga estos pasos:  
 
-1. Abra un explorador y vaya a la [Galería de Cortana Intelligence](https://go.microsoft.com/fwlink/?linkid=828352).  
+1. Abra un explorador y vaya a la [Galería de Azure AI](https://go.microsoft.com/fwlink/?linkid=828352).  
 2. Busque **Modelo de previsión para Microsoft Business Central** y, a continuación, abra el modelo en Azure Machine Learning Studio.  
 3. Use su cuenta de Microsoft para iniciar sesión en un espacio de trabajo y, a continuación, copie el modelo.  
 4. Ejecute el modelo y como publíquelo como un servicio web.  
 5. Anote la URL de API y la clave de API. Usará estas credenciales para una configuración de flujo de caja.  
 6. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración de flujo de efectivo** y luego elija el enlace relacionado.  
-7. Expanda la ficha desplegable **Cortana Intelligence** y rellene los campos.  
+7. Expanda la ficha desplegable **Azure AI** y rellene los campos.  
 
 ## <a name="see-also"></a>Consulte también
 [Analizar el flujo de efectivo de la empresa](finance-analyze-cash-flow.md)  

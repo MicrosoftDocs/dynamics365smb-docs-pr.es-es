@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8daa5d57ed2f12daf3f3eef3572b2f7dbd39d92c
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 5f27bb652009c740066dfa0ef3659bb9e53cfb0e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243416"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307353"
 ---
 # <a name="codeunit-12-changes-changes-in-general-journal-post-procedures"></a>Cambios en la codeunit 12: cambios en los procedimientos de registro en el diario general
 En esta versión de [!INCLUDE[d365fin](includes/d365fin_md.md)] se han implementado los siguientes cambios.  
@@ -163,7 +163,7 @@ En esta versión de [!INCLUDE[d365fin](includes/d365fin_md.md)] se han implement
 |GetApplnRoundPrecision|GetApplnRoundPrecision|Actualizada|  
 |CheckDimValueForDisposal|CheckDimValueForDisposal|Actualizada|  
 |CalculateCurrentBalance|CalculateCurrentBalance|Actualizada|  
-|IncludeVATAmount||Desplazado a la tabla 81 Lín. diario general|  
+|IncludeVATAmount||Desplazado a tabla 81 Diario Línea de diario|  
 |CalcVATAmountFromVATEntry|CalcVATAmountFromVATEntry|Actualizada|  
 ||TotalVATAmountOnJnlLines|Añadido|  
 ||SetGLRegReverse|Añadido|  

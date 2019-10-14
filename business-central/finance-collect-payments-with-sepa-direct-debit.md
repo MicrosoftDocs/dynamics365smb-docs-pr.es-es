@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9a2d4c8696eee9ec75de556b984d9ea2a87ad771
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: fe015afa5508117fb7425042972e967d7a652485
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1239848"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302505"
 ---
 # <a name="collect-payments-with-sepa-direct-debit"></a>Cobrar pagos mediante adeudo directo SEPA
 Con el consentimiento de sus clientes, puede cobrar los pagos directamente al banco del cliente según el formato SEPA.  
@@ -137,13 +137,13 @@ Para poder procesar pagos de clientes electrónicamente exportando instrucciones
  Ahora podrá registrar los recibos de pago para las facturas de venta implicadas. Puede hacerlo, ya que normalmente se registran recibos de pago, como en la página **Registro de pago**, o bien puede registrar los recibos de pago relacionados directamente en la página **Movimientos de cobros por adeudo directo**. Para obtener más información, consulte [Registro de recibos de pagos de domiciliación de adeudo directo SEPA](finance-how-to-post-sepa-direct-debit-payment-receipts.md).
 
 ## <a name="posting-sepa-direct-debit-payment-receipts"></a>Registro de recibos de pagos de domiciliación de adeudo directo SEPA
- Cuando el banco procesa correctamente un cobro por adeudo directo, puede proceder con el registro de la recepción del pago para las facturas de venta implicadas. Para obtener más información, consulte [Crear movimientos de domiciliación de adeudo directo SEPA y exportación a un archivo bancario](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md).  
+ Cuando el banco procesa correctamente un cobro por adeudo directo, puede proceder con el registro de la recepción del pago para las facturas de venta implicadas. Para obtener más información, consulte [Crear movimientos de domiciliación de adeudo directo SEPA y exportación a un archivo bancario](finance-collect-payments-with-sepa-direct-debit.md#creating-sepa-direct-debit-collection-entries-and-export-to-a-bank-file).  
 
  Puede registrar el recibo de pago directamente desde la página **Cobros por adeudo directo** o la página **Movimientos de cobros por adeudo directo**. Como alternativa, puede delegar el trabajo a otro usuario mediante la preparación de las líneas de diario relacionadas.  
 
 ### <a name="to-post-a-direct-debit-payment-receipt-from-the-direct-debit-collections-page"></a>Registro de un recibo de pago de domiciliación desde la página Cobros por adeudo directo  
  1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Cobros por adeudo directo** y luego elija el enlace relacionado.  
- 2. Seleccione una línea para un cobro por adeudo directo que se ha exportado a un archivo de banco y procesado correctamente por el banco. Para obtener más información, consulte [Crear movimientos de domiciliación de adeudo directo SEPA y exportación a un archivo bancario](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md).  
+ 2. Seleccione una línea para un cobro por adeudo directo que se ha exportado a un archivo de banco y procesado correctamente por el banco.
  3. Seleccione la acción **Registrar recibos de pago**.  
  4. En la página **Registrar cobro por adeudo directo**, rellene los campos tal como se describe en la tabla siguiente.  
 
@@ -157,4 +157,5 @@ Para poder procesar pagos de clientes electrónicamente exportando instrucciones
  5. Elija el botón **Aceptar**.
 
 ## <a name="see-also"></a>Consulte también  
-[Administrar cobros](receivables-manage-receivables.md)
+[Administrar cobros](receivables-manage-receivables.md)  
+[Gestión de servicios](service-service.md)

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a96bd6b4442aa83f4e0540ee2c9b4659da1eac66
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c0339ec5d008f5994d64cf6162feda8144d06a67
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248323"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310209"
 ---
 # <a name="set-up-bin-types"></a>Configurar tipos de ubicación
 Puede dirigir el flujo de productos por las ubicaciones que ha definido para las actividades de un almacén determinado. Indique las actividades de flujo básicas para cada ubicación y defina la forma en que se utilizará la ubicación, asignándola a un tipo de ubicación.  

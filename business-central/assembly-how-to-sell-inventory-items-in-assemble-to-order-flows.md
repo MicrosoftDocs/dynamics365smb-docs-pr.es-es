@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 188df39e5381f331da338aec1284b44f4e329977
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 98d5b9e7efb4d195512010d9c18f875c946bcef7
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247059"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307665"
 ---
 # <a name="sell-inventory-items-in-assemble-to-order-flows"></a>Vender productos de inventario en los flujos de ensamblar para pedido
 Si el campo **Directiva de ensamblado** de la ficha de producto de un elemento del ensamblado contiene **Ensamblar para pedido**, el proceso de pedido de venta predeterminado supone que el producto no está en el inventario y se debe ensamblar para ese pedido de venta concreto. Por tanto, se crea automáticamente un pedido de ensamblado al agregar el elemento a una línea de pedido de venta. Para obtener más información, consulte [Venta de artículos ensamblados para pedido](assembly-how-to-sell-items-assembled-to-order.md). Sin embargo, si parte de la cantidad del pedido de venta ya está disponible en el inventario, puede reducir la cantidad del pedido de ensamblado cambiando el campo **Cdad. al ensamblar para pedido** de la línea de pedido de venta.  

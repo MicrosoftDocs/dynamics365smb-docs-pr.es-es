@@ -4,20 +4,20 @@ description: Con la funcionalidad de pagos electrónicos, puede pagar a los prov
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/01/2017
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 89480eec524f2c3a31f1ccd866742eb97a6748cb
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 51903b95c1026d052c754bf811bc9895c8377e1a
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241563"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301109"
 ---
 # <a name="electronic-payments--aeb-n341"></a>Pagos electrónicos – AEB N34.1
 Con la funcionalidad de pagos electrónicos, puede pagar a los proveedores mediante pagos electrónicos en lugar de tener que emitir cheques en papel. Los pagos electrónicos se exportan a un formato de archivo AEB N34.1 estándar, utilizado por casi todos los bancos en España. Posteriormente, este archivo se transmite al banco.  

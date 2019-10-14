@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 776a39f10041dc540de53e5aa724db6fd755c2d6
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 22ebbde0d04dfeb03fa52978e2d1e82d40713445
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247092"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307617"
 ---
 # <a name="undo-assembly-posting"></a>Deshacer registro de ensamblado.
 Puede que, a veces, tenga que deshacer un pedido de ensamblado registrado, por ejemplo cuando se haya registrado con errores que deban corregirse, o porque no deban haberse registrado en el primer lugar y deban revertirse.
@@ -39,7 +39,7 @@ Además, los pedidos de ensamblado existentes se pueden restablecer sólo si no 
 > [!TIP]  
 >  Para solucionar conflictos debido a variaciones de línea, puede revertir manualmente los cambios en las líneas en cuestión antes de deshacer el pedido de ensamblado registrado relacionado. También puede registrar el pedido de ensamblado totalmente y, después, seleccionarlo para reconstruirlo al deshacer el registro.  
 
-El procedimiento siguiente describe cómo deshacer los pedidos de ensamblado registrado donde los artículos se ensamblaron para stock. Si desea deshacer los pedidos de ensamblado registrado donde los artículos se ensamblaron para pedido de venta, deberá usar la función **Deshacer envío** en el envío registrado relacionado con el pedido de ensamblado registrado. Para obtener más información, consulte [Revertir registros](finance-how-reverse-journal-posting.md). Deshacer el pedido de ensamblado registrado se produce entonces automáticamente tal como que se describe en este tema.  
+El procedimiento siguiente describe cómo deshacer los pedidos de ensamblado registrado donde los artículos se ensamblaron para stock. Si desea deshacer los pedidos de ensamblado registrado donde los artículos se ensamblaron para pedido de venta, deberá usar la función **Deshacer envío** en el envío registrado relacionado con el pedido de ensamblado registrado. Para obtener más información, vea [Revertir los registros de diario y deshacer los recibos/envíos](finance-how-reverse-journal-posting.md). Deshacer el pedido de ensamblado registrado se produce entonces automáticamente tal como que se describe en este tema.  
 
 ## <a name="to-undo-posting-of-an-assembly-order"></a>Para deshacer el registro de un pedido de ensamblado  
 1.  Para deshacer total o parcialmente el pedido de ensamblado registrado, seleccione el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos de ensamblado registrados** y seleccione el enlace relacionado.  
@@ -57,7 +57,7 @@ El campo **Revertido** de la cabecera del pedido de ensamblado cambia a **Sí**.
 
 ## <a name="see-also"></a>Consulte también  
 [Gestión de ensamblaje](assembly-assemble-items.md)  
-[Revertir registros](finance-how-reverse-journal-posting.md)  
+[Revertir los registros de diario y deshacer los recibos/envíos](finance-how-reverse-journal-posting.md)  
 [Procesamiento de devoluciones de ventas o cancelaciones](sales-how-process-sales-returns-cancellations.md)    
 [Trabajar con listas de materiales](inventory-how-work-BOMs.md)  
 [Grupos contables inventario](inventory-manage-inventory.md)  

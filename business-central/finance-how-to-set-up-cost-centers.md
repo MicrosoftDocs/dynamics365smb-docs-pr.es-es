@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
 redirect_url: finance-set-up-cost-accounting
-ms.openlocfilehash: 48c1b9800c1e89246ba84122b4af56d75fdf6f9f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: bc2349e75724dbfaf0028cf015bfbe311f75bb81
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243531"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301942"
 ---
 # <a name="set-up-cost-centers"></a>Configurar centros de costes
 Los centros de coste son departamentos que son responsables de los costes y de los ingresos. El plan de centros de coste es similar a la información de dimensión de contabilidad. Puede configurar el plan de centros de coste de la siguiente forma:  

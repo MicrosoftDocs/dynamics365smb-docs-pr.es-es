@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 38c1ee9b37513b270dcad09238df4f841a961d1a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 04c9a867e43a1228839eaf95b3b31e5ab3421fe6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245029"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304065"
 ---
 # <a name="set-up-the-bank-data-conversion-service"></a>Configurar el servicio de conversión de datos bancarios
 Ya está configurado y listo para habilitar un proveedor global de servicios de conversión de información de pagos a cualquier formato de datos que requiera el banco en [!INCLUDE[d365fin](includes/d365fin_md.md)]. A esto se le denomina en [!INCLUDE[d365fin](includes/d365fin_md.md)] el servicio de conversión de datos bancarios.
@@ -24,7 +24,7 @@ Puede exportar líneas de pago desde la página **Diario de pagos** a un archivo
 
 Puede importar archivos de extracto bancario en la página **Diario de conciliación de pagos** mediante el servicio de conversión de datos bancarios para convertir un archivo que reciba del banco en una secuencia de datos que [!INCLUDE[d365fin](includes/d365fin_md.md)] pueda importar. Para obtener más información, vea [Liquidación de pagos automáticamente y conciliación de cuentas bancarias](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
-Como alternativa a la importación de extractos bancarios con el servicio de conversión de datos bancarios, puede utilizar el servicio Envestnet Yodlee Bank Feeds. Para obtener más información, vea [Configuración del servicio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)
+Como alternativa a la importación de extractos bancarios con el servicio de conversión de datos bancarios, puede utilizar el servicio Envestnet Yodlee Bank Feeds. Para obtener más información, vea [Configurar el servicio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
 Para importar o exportar archivos bancarios, deberá configurar su propia cuenta bancaria y las de sus proveedores. Para obtener más información, consulte [Configurar cuentas bancarias](bank-how-setup-bank-accounts.md).
 

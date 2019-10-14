@@ -1,6 +1,6 @@
 ---
-title: Sincronización de Business Central y Dynamics 365 for Sales | Documentos de Microsoft
-description: Obtenga información sobre la sincronización de datos entre Business Central y Dynamics 365 for Sales.
+title: Sincronización de Business Central y Dynamics 365 Sales | Documentos de Microsoft
+description: Obtenga información sobre la sincronización de datos entre Business Central y Dynamics 365 Sales.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 07/16/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 9290730bb559d4ac03a437a49ed81b09f3c01853
-ms.sourcegitcommit: 519623f9a5134c9ffa97eeaed0841ae59835f453
+ms.openlocfilehash: 8b1fd4a676d1efe508e6fd2dcb37a67b3c24cdb1
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "1755223"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304353"
 ---
-# <a name="scheduling-a-synchronization-between-business-central-and-dynamics-365-for-sales"></a>Programación de una sincronización entre Business Central y Dynamics 365 for Sales
+# <a name="scheduling-a-synchronization-between-business-central-and-dynamics-365-sales"></a>Programación de una sincronización entre Business Central y Dynamics 365 Sales
 Puede sincronizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con [!INCLUDE[crm_md](includes/crm_md.md)] en intervalos programados configurando proyectos en la cola de proyectos. Los proyectos de sincronización sincronizan los datos de los registros de [!INCLUDE[d365fin](includes/d365fin_md.md)] y de los registros de [!INCLUDE[crm_md](includes/crm_md.md)] que se han emparejado previamente. O, para registros que no se han emparejado, según la dirección y las reglas de sincronización, los proyectos de sincronización pueden crear y emparejar registros nuevos en el sistema de destino. Hay varios trabajos de sincronización que están disponibles de forma inmediata. Puede verlos en la página de **Movimientos de cola de proyectos**. Para obtener más información, consulte [Uso de colas de proyectos para programar tareas](admin-job-queues-schedule-tasks.md).
 <!--
 > [!Note]
@@ -46,17 +46,17 @@ La tabla siguiente describe los proyectos de sincronización predeterminados.
 
 |Mov. cola proyecto|Descripción|Dirección|Asignación de tablas de integración|  
 |---------------------|---------------------------------------|---------------|-------------------------------|  
-|Proyecto de sincronización de CONTACTO - Dynamics 365 for Sales|Sincroniza los contactos de [!INCLUDE[crm_md](includes/crm_md.md)] con los contactos de [!INCLUDE[d365fin](includes/d365fin_md.md)].|Bidireccional|CONTACTO|  
-|Proyecto de sincronización de DIVISA - Dynamics 365 for Sales|Sincroniza las divisas de transacciones de [!INCLUDE[crm_md](includes/crm_md.md)] con las divisas de [!INCLUDE[d365fin](includes/d365fin_md.md)].|De [!INCLUDE[d365fin](includes/d365fin_md.md)] a [!INCLUDE[crm_md](includes/crm_md.md)]|DIVISA|  
-|Proyecto de sincronización de CLIENTE - Dynamics 365 for Sales|Sincroniza las cuentas de [!INCLUDE[crm_md](includes/crm_md.md)] con los clientes de [!INCLUDE[d365fin](includes/d365fin_md.md)].|Bidireccional|CLIENTE|  
-|Proyecto de sincronización de CUSTPRCGRP-PRICE - Dynamics 365 for Sales|Sincroniza las listas de precios de venta de [!INCLUDE[crm_md](includes/crm_md.md)] con los grupos de precios de los clientes de [!INCLUDE[d365fin](includes/d365fin_md.md)].| |GRUPOS DE PRECIOS DE CLIENTES-LISTAS DE PRECIOS DE VENTA|
-|Proyecto de sincronización de ARTÍCULO-PRODUCTO - Dynamics 365 for Sales|Sincroniza los productos de [!INCLUDE[crm_md](includes/crm_md.md)] con los artículos de [!INCLUDE[d365fin](includes/d365fin_md.md)].|De [!INCLUDE[d365fin](includes/d365fin_md.md)] a [!INCLUDE[crm_md](includes/crm_md.md)]|ARTÍCULO-PRODUCTO|
-|Proyecto de sincronización de POSTEDSALESINV-INV - Dynamics 365 for Sales|Sincroniza las facturas de [!INCLUDE[crm_md](includes/crm_md.md)] con facturas de ventas registradas de [!INCLUDE[d365fin](includes/d365fin_md.md)].|De [!INCLUDE[d365fin](includes/d365fin_md.md)] a [!INCLUDE[crm_md](includes/crm_md.md)]|FACTURAS-FACTURAS DE VENTAS REGISTRADAS|
-|Proyecto de sincronización de RECURSO-PRODUCTO - Dynamics 365 for Sales|Sincroniza los productos de [!INCLUDE[crm_md](includes/crm_md.md)] con los recursos de [!INCLUDE[d365fin](includes/d365fin_md.md)].|De [!INCLUDE[d365fin](includes/d365fin_md.md)] a [!INCLUDE[crm_md](includes/crm_md.md)]|RECURSO-PRODUCTO|  
-|Proyecto de sincronización de VENDEDORES - Dynamics 365 for Sales|Sincroniza los vendedores de [!INCLUDE[d365fin](includes/d365fin_md.md)] con los usuarios de [!INCLUDE[crm_md](includes/crm_md.md)].|De [!INCLUDE[crm_md](includes/crm_md.md)] a [!INCLUDE[d365fin](includes/d365fin_md.md)]|VENDEDORES|
-|Proyecto de sincronización de SALESPRC-PRODUCTPRICE - Dynamics 365 for Sales|Sincroniza los precios de producto de [!INCLUDE[crm_md](includes/crm_md.md)] con los precios de venta de [!INCLUDE[d365fin](includes/d365fin_md.md)].||PRECIO DEL PRODUCTO-PRECIO DE VENTA|
-|Proyecto de sincronización de UNITOFMEASURE - Dynamics 365 for Sales|Sincroniza los grupos de unidad de [!INCLUDE[crm_md](includes/crm_md.md)] con las unidades de medida de [!INCLUDE[d365fin](includes/d365fin_md.md)].|De [!INCLUDE[d365fin](includes/d365fin_md.md)] a [!INCLUDE[crm_md](includes/crm_md.md)]|UNIDAD DE MEDIDA|  
-|Estadísticas de clientes: sincronización de Dynamics 365 for Sales|Actualiza las cuentas de [!INCLUDE[crm_md](includes/crm_md.md)] con los últimos datos de los clientes de [!INCLUDE[d365fin](includes/d365fin_md.md)]. En [!INCLUDE[crm_md](includes/crm_md.md)], la información se muestra en el formulario de vista rápida **Estadísticas de la cuenta de Business Central** de cuentas que están emparejadas con los clientes de [!INCLUDE[d365fin](includes/d365fin_md.md)].<br /><br /> Estos datos también pueden actualizarse manualmente desde cada registro de cliente. Para obtener más información, consulte [Procedimiento: emparejar y sincronizar registros manualmente](admin-how-to-couple-and-synchronize-records-manually.md). </BR></BR>**Nota:** este movimiento de la cola de proyectos es relevante solo si la solución de integración de [!INCLUDE[d365fin](includes/d365fin_md.md)] está instalada en [!INCLUDE[crm_md](includes/crm_md.md)]. Para obtener más información, consulte [Acerca de la solución de integración de Business Central](admin-prepare-dynamics-365-for-sales-for-integration.md#about-the-business-central-integration-solution).|No aplicable.|No aplicable.|   
+|Proyecto de sincronización de CONTACTO - Dynamics 365 Sales|Sincroniza los contactos de [!INCLUDE[crm_md](includes/crm_md.md)] con los contactos de [!INCLUDE[d365fin](includes/d365fin_md.md)].|Bidireccional|CONTACTO|  
+|Proyecto de sincronización de DIVISA - Dynamics 365 Sales|Sincroniza las divisas de transacciones de [!INCLUDE[crm_md](includes/crm_md.md)] con las divisas de [!INCLUDE[d365fin](includes/d365fin_md.md)].|De [!INCLUDE[d365fin](includes/d365fin_md.md)] a [!INCLUDE[crm_md](includes/crm_md.md)]|DIVISA|  
+|Proyecto de sincronización de CLIENTE - Dynamics 365 Sales|Sincroniza las cuentas de [!INCLUDE[crm_md](includes/crm_md.md)] con los clientes de [!INCLUDE[d365fin](includes/d365fin_md.md)].|Bidireccional|CLIENTE|  
+|Proyecto de sincronización de CUSTPRCGRP-PRICE - Dynamics 365 Sales|Sincroniza las listas de precios de venta de [!INCLUDE[crm_md](includes/crm_md.md)] con los grupos de precios de los clientes de [!INCLUDE[d365fin](includes/d365fin_md.md)].| |GRUPOS DE PRECIOS DE CLIENTES-LISTAS DE PRECIOS DE VENTA|
+|Proyecto de sincronización de ARTÍCULO-PRODUCTO - Dynamics 365 Sales|Sincroniza los productos de [!INCLUDE[crm_md](includes/crm_md.md)] con los artículos de [!INCLUDE[d365fin](includes/d365fin_md.md)].|De [!INCLUDE[d365fin](includes/d365fin_md.md)] a [!INCLUDE[crm_md](includes/crm_md.md)]|ARTÍCULO-PRODUCTO|
+|Proyecto de sincronización de POSTEDSALESINV-INV - Dynamics 365 Sales|Sincroniza las facturas de [!INCLUDE[crm_md](includes/crm_md.md)] con facturas de ventas registradas de [!INCLUDE[d365fin](includes/d365fin_md.md)].|De [!INCLUDE[d365fin](includes/d365fin_md.md)] a [!INCLUDE[crm_md](includes/crm_md.md)]|FACTURAS-FACTURAS DE VENTAS REGISTRADAS|
+|Proyecto de sincronización de RECURSO-PRODUCTO - Dynamics 365 Sales|Sincroniza los productos de [!INCLUDE[crm_md](includes/crm_md.md)] con los recursos de [!INCLUDE[d365fin](includes/d365fin_md.md)].|De [!INCLUDE[d365fin](includes/d365fin_md.md)] a [!INCLUDE[crm_md](includes/crm_md.md)]|RECURSO-PRODUCTO|  
+|Proyecto de sincronización de VENDEDORES - Dynamics 365 Sales|Sincroniza los vendedores de [!INCLUDE[d365fin](includes/d365fin_md.md)] con los usuarios de [!INCLUDE[crm_md](includes/crm_md.md)].|De [!INCLUDE[crm_md](includes/crm_md.md)] a [!INCLUDE[d365fin](includes/d365fin_md.md)]|VENDEDORES|
+|Proyecto de sincronización de SALESPRC-PRODUCTPRICE - Dynamics 365 Sales|Sincroniza los precios de producto de [!INCLUDE[crm_md](includes/crm_md.md)] con los precios de venta de [!INCLUDE[d365fin](includes/d365fin_md.md)].||PRECIO DEL PRODUCTO-PRECIO DE VENTA|
+|Proyecto de sincronización de UNITOFMEASURE - Dynamics 365 Sales|Sincroniza los grupos de unidad de [!INCLUDE[crm_md](includes/crm_md.md)] con las unidades de medida de [!INCLUDE[d365fin](includes/d365fin_md.md)].|De [!INCLUDE[d365fin](includes/d365fin_md.md)] a [!INCLUDE[crm_md](includes/crm_md.md)]|UNIDAD DE MEDIDA|  
+|Sincronización de Estadísticas de clientes - Dynamics 365 Sales|Actualiza las cuentas de [!INCLUDE[crm_md](includes/crm_md.md)] con los últimos datos de los clientes de [!INCLUDE[d365fin](includes/d365fin_md.md)]. En [!INCLUDE[crm_md](includes/crm_md.md)], la información se muestra en el formulario de vista rápida **Estadísticas de la cuenta de Business Central** de cuentas que están emparejadas con los clientes de [!INCLUDE[d365fin](includes/d365fin_md.md)].<br /><br /> Estos datos también pueden actualizarse manualmente desde cada registro de cliente. Para obtener más información, consulte [Procedimiento: emparejar y sincronizar registros manualmente](admin-how-to-couple-and-synchronize-records-manually.md). </BR></BR>**Nota:** este movimiento de la cola de proyectos es relevante solo si la solución de integración de [!INCLUDE[d365fin](includes/d365fin_md.md)] está instalada en [!INCLUDE[crm_md](includes/crm_md.md)]. Para obtener más información, consulte [Acerca de la solución de integración de Business Central](admin-prepare-dynamics-365-for-sales-for-integration.md#about-the-business-central-integration-solution).|No aplicable.|No aplicable.|   
 
 ## <a name="to-view-the-synchronization-job-log"></a>Para ver el registro de proyectos de sincronización  
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Registro de sincronización de integración** y luego elija el enlace relacionado.
@@ -73,10 +73,10 @@ La tabla siguiente describe los proyectos de sincronización predeterminados.
 * Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Errores de sincronización de integración** y luego elija el enlace relacionado.
 
 ## <a name="see-also"></a>Consulte también  
-[Sincronización de datos en Business Central y Dynamics 365 for Sales](admin-synchronizing-business-central-and-sales.md)  
+[Sincronización de datos en Business Central y Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)  
 [Sincronizar manualmente las asignaciones de tablas](admin-manual-synchronization-of-table-mappings.md)  
-[Programación de una sincronización entre Business Central y Dynamics 365 for Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)  
-[Acerca de la integración de Dynamics 365 Business Central con Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
+[Programación de una sincronización entre Business Central y Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)  
+[Acerca de la integración de Dynamics 365 Business Central con Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 
 
 

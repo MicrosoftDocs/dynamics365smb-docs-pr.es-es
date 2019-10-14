@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
-ms.date: 07/24/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 09aa4b5f6e08265e49a02e3014ffe6724edfcffd
-ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
+ms.openlocfilehash: ab408bbef4e2fc9535eaa64e61a9e93d2d87378c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1796854"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301569"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Trabajar con el IVA por ventas y compras
 Si su país o región requiere que calcule el impuesto al valor añadido (IVA) en las transacciones de compra y venta para que pueda informar de los importes a una autoridad fiscal, puede configurar [!INCLUDE[d365fin](includes/d365fin_md.md)] para calcular el IVA automáticamente en documentos de ventas y compras. Para obtener más información, vea [Configurar los cálculos y los métodos de registro del impuesto sobre el valor añadido](finance-setup-vat.md).
@@ -35,17 +35,17 @@ Si está vendiendo a consumidores minoristas, es posible que desee que los preci
 ### <a name="including-or-excluding-vat-on-prices"></a>Inclusión o exclusión de IVA en los precios
 Si la casilla de verificación **Precios IVA incluido** está seleccionada en un documento de ventas, los campos **Precio de venta** e **Importe de línea** incluirán el IVA, lo que también se indicará en el nombre de los campos. De forma predeterminada, no se incluye el IVA en estos campos.  
 
-Si el campo no está activado, el programa rellenará los campos **Precio de venta** e **Importe de línea** sin incluir el IVA, lo que quedará indicado en el nombre de los campos.  
+Si el campo no está activado, la aplicación rellenará los campos **Precio de venta** e **Importe de línea** sin incluir el IVA, lo que quedará indicado en el nombre de los campos.  
 
-Puede configurar el valor predeterminado de **Precios IVA incluido** de todos los documentos de venta de un cliente en el campo **Precios IVA incluido** de la ficha **Cliente**. También puede configurar los precios de los productos con el IVA incluido o no incluido. Normalmente, los precios de los productos de la ficha Producto no incluirán el IVA. El programa usa la información del campo **Precio IVA incluido** de la ficha **Producto** para determinar el precio de venta de los documentos de ventas.  
+Puede configurar el valor predeterminado de **Precios IVA incluido** de todos los documentos de venta de un cliente en el campo **Precios IVA incluido** de la ficha **Cliente**. También puede configurar los precios de los productos con el IVA incluido o no incluido. Normalmente, los precios de los productos de la ficha Producto no incluirán el IVA. La aplicación usa la información del campo **Precio IVA incluido** de la ficha **Producto** para determinar el precio de venta de los documentos de ventas.  
 
-En la tabla siguiente se ofrece una descripción global de cómo calcula el sistema los precios unitarios de los documentos de ventas cuando no se han configurado los precios en la página **Precios de venta**:  
+En la tabla siguiente se ofrece una descripción global de cómo calcula la aplicación los precios unitarios de los documentos de ventas cuando no se han configurado los precios en la página **Precios de venta**:  
 
 |**Campo Precio IVA incluido de la ficha Producto**|**Campo Precio IVA incluido de la Cabecera Venta**|**Acción realizada**|  
 |-----------------------------------------------|----------------------------------------------------|--------------------------|  
 |Sin marca de verificación|Sin marca de verificación|El **Precio de venta** de la ficha Producto se copia en el campo **Precio de venta IVA excl.** de las líneas de ventas.|  
-|Sin marca de verificación|Marca de verificación|El programa calcula el importe del IVA por unidad y lo agrega al **Precio de venta** de la ficha Producto. A continuación, este precio de venta total se introduce en el campo **Precio de venta IVA incl.** de las líneas de ventas.|  
-|Marca de verificación|Sin marca de verificación|El programa calcula el importe del IVA incluido en **Precio unitario** en la ficha de producto utilizando el % de IVA relativo a la combinación de Gr. contable negocio (Precio) y Grupo registro IVA prod. El **Precio unitario** en la ficha de producto, reducido por el importe de IVA, se introduce en el campo **Precio de venta IVA excl.** en las líneas de venta.|  
+|Sin marca de verificación|Marca de verificación|La aplicación calcula el importe del IVA por unidad y lo agrega al **Precio de venta** de la ficha Producto. A continuación, este precio de venta total se introduce en el campo **Precio de venta IVA incl.** de las líneas de ventas.|  
+|Marca de verificación|Sin marca de verificación|La aplicación calcula el importe del IVA incluido en **Precio unitario** en la ficha de producto utilizando el % de IVA relativo a la combinación de Gr. contable negocio (Precio) y Grupo registro IVA prod. El **Precio unitario** en la ficha de producto, reducido por el importe de IVA, se introduce en el campo **Precio de venta IVA excl.** en las líneas de venta.|  
 |Marca de verificación|Marca de verificación|El **Precio de venta** de la ficha Producto se copia en el campo **Precio venta IVA incl.** de las líneas de ventas.|
 
 ## <a name="correcting-vat-amounts-manually-in-sales-and-purchase-documents"></a>Corrección manual de los importes del IVA en los documentos de ventas y compras  
@@ -58,7 +58,7 @@ Si el descuento por pronto pago se ha calculado sobre la base de un importe de f
 ### <a name="to-set-the-system-up-for-manual-vat-entry-in-sales-documents"></a>Para configurar el sistema para el movimiento de IVA manual en documentos de ventas
 A continuación se describe cómo habilitar las modificaciones de IVA manuales en los documentos de ventas. Los pasos son similares a los de la página **Configuración de compras y pagos**.
 
-1. En la página **Configuración contabilidad**, especifique una **Máx. diferencia IVA permitida** el importe calculado por el programa y el importe manual.  
+1. En la página **Configuración contabilidad**, especifique una **Máx. diferencia IVA permitida** el importe calculado por la aplicación y el importe manual.  
 2. En la página **Config. ventas y cobros**, active el campo **Permitir diferen. IVA**.  
 
 ### <a name="to-adjust-vat-for-a-sales-document"></a>Para ajustar el IVA de un documento de venta  
@@ -68,7 +68,7 @@ A continuación se describe cómo habilitar las modificaciones de IVA manuales e
 4. Edite el campo **Importe de IVA**.   
 
 > [!NOTE]  
-> El importe total del IVA de la factura, agrupado por identificador de IVA, se muestra en las líneas. Puede ajustar manualmente el importe del campo **Importe IVA** de las líneas de cada identificador de IVA. Si modifica el campo **Importe IVA**, el programa comprueba que no lo modifica en un importe mayor que el especificado como diferencia máxima permitida. Si el importe es mayor que la **Máx. diferencia IVA permitida**, se muestra una advertencia en la que se indica cuál es la mayor diferencia permitida. No podrá continuar hasta que ajuste el importe con un valor admitido. Haga clic en **Aceptar** y escriba otro **Importe IVA** que sea admitido. Si la diferencia del IVA es igual a o menor que el máximo permitido, el IVA se dividirá proporcionalmente entre las líneas del documento que tengan el mismo identificador de IVA.  
+> El importe total del IVA de la factura, agrupado por identificador de IVA, se muestra en las líneas. Puede ajustar manualmente el importe del campo **Importe IVA** de las líneas de cada identificador de IVA. Si modifica el campo **Importe IVA**, la aplicación comprueba que no lo modifica en un importe mayor que el especificado como diferencia máxima permitida. Si el importe es mayor que la **Máx. diferencia IVA permitida**, se muestra una advertencia en la que se indica cuál es la mayor diferencia permitida. No podrá continuar hasta que ajuste el importe con un valor admitido. Haga clic en **Aceptar** y escriba otro **Importe IVA** que sea admitido. Si la diferencia del IVA es igual a o menor que el máximo permitido, el IVA se dividirá proporcionalmente entre las líneas del documento que tengan el mismo identificador de IVA.  
 
 ## <a name="calculating-vat-manually-using-journals"></a>Cálculo manual del IVA mediante los diarios  
 También puede ajustar los importes de IVA en general, ventas y diarios de compras. Por ejemplo, podría ser necesario si introduce una factura de proveedor en el diario y hay una diferencia entre el importe del IVA calculado por [!INCLUDE[d365fin](includes/d365fin_md.md)] y el de la factura del proveedor.  
@@ -76,7 +76,7 @@ También puede ajustar los importes de IVA en general, ventas y diarios de compr
 ### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-general-journals"></a>Para configurar el sistema para el movimiento de IVA manual en un diario general
 Debe realizar los pasos siguientes antes de introducir manualmente el IVA en un diario general.  
 
-1. En la página **Configuración contabilidad**, especifique una **Máx. diferencia IVA permitida** el importe calculado por el programa y el importe manual.  
+1. En la página **Configuración contabilidad**, especifique una **Máx. diferencia IVA permitida** el importe calculado por la aplicación y el importe manual.  
 2. En la página **Libros diario general**, elija la casilla **Permitir diferen. IVA** del diario correspondiente.  
 
 ### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-sales-and-purchase-journals"></a>Para configurar el sistema para el movimiento de IVA manual en un diario de ventas y compras

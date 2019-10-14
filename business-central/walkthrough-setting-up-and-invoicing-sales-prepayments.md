@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5cceff2795f9b6c9dd8addeeeb5f6a1982b4e0ec
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: f1724f95652194e426a353b4ebb89c54ef384754
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249473"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310545"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Tutorial: Configuración y facturación de prepagos de ventas
 
@@ -61,7 +61,7 @@ Los prepagos son pagos que se facturan y registran en un pedido de prepago de ve
  Felisa configura el sistema para gestionar los prepagos de los clientes.  
 
 -   Felisa decide utilizar la misma serie numérica para los prepagos que las usadas para la facturación de venta.  
--   Felisa configura el programa para que compruebe si se requieren prepagos antes de la facturación final de los pedidos.  
+-   Felisa configura la aplicación para que compruebe si se requieren prepagos antes de la facturación final de los pedidos.  
 -   Felisa configura valores predeterminados para un porcentaje de prepago requerido para ciertos productos y clientes.  
 
 En los siguientes procedimientos, se describe cómo realizar las tareas de Felisa:  

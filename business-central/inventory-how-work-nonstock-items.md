@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: non-inventoriable
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4af4a4610fc42f4b413056cf85555b5c506ff8da
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: d7448e9fe95f2ef6821dd4a1d41eae0390d1547c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244037"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309585"
 ---
 # <a name="work-with-catalog-items"></a>Trabajar con productos del catálogo
 Puede ofrecer varios productos a sus clientes para su comodidad que no desea gestionar en su sistema hasta que empiece a venderlos. Cuando desee empezar a gestionar esos productos en su sistema, puede convertirlos en fichas de productos normales de dos formas.

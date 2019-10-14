@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3a3e42d9468c9f1a8d23afd8284e210fa7145c3c
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 7f2d1f354b789931bde76ed8869e326a34e53919
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247168"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304423"
 ---
 # <a name="migrate-customer-data"></a>Migrar datos del cliente
 Puede migrar los datos existentes de cliente de un sistema de ERP existente a [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizando las herramientas de migración de datos de RapidStart Services. Puede usar archivos de Excel como soporte de datos. También puede mover manualmente los datos al introducirlos directamente en la empresa.
@@ -111,7 +111,7 @@ El ejemplo siguiente ilustra cómo implementa [!INCLUDE[d365fin](includes/d365fi
 2. Añada tablas adicionales al paquete, por ejemplo, **Cliente** y **Proveedor**. Estas tablas hacen referencia a la tabla **Vendedor/Comprador** a través del **código de vendedor** y el **código de comprador**, respectivamente.  
 3. Cuando se aplican datos, la asignación proporcionada en el campo **Código** de la tabla **Vendedor/Comprador** también se tendrá en cuenta al procesar los campos **Código de vendedor** y **Código de comprador**.
 
-## <a name="to-add-additional-values-to-included365finincludesd365finmdmd"></a>Para agregar valores adicionales a [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+## <a name="to-add-additional-values-to-included365finincludesd365fin_mdmd"></a>Para agregar valores adicionales a [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Paquetes de configuración** y luego elija el enlace relacionado.  
 2. Seleccione la tabla a la que desee asignar valores adicionales y en la pestaña **Tablas**, elija la acción **Campos**.  
 3. Para los campos para los que desea que [!INCLUDE[d365fin](includes/d365fin_md.md)] permita valores adicionales durante la migración, seleccione la casilla **Crear códigos que faltan**.  

@@ -1,6 +1,6 @@
 ---
 title: Emparejar y sincronizar registros manualmente| Documentos de Microsoft
-description: La sincronización de una asignación de tablas de integración permite la sincronización de datos de todos los registros de una tabla de Business Central y de la entidad de Dynamics 365 for Sales que están emparejadas.
+description: La sincronización de una asignación de tablas de integración permite la sincronización de datos de todos los registros de una tabla de Business Central y de la entidad de Dynamics 365 Sales que están emparejadas.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: crm, sales, couple, decouple, synchronize
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 6d1248ac77208e382c5594af57335df6ff824630
-ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
+ms.openlocfilehash: 0c70b1ba34af32b7cf542149c8f15cb191761358
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "1726772"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308121"
 ---
 # <a name="couple-and-synchronize-records-manually"></a>Emparejar y sincronizar registros manualmente
 En este tema se describe cómo emparejar uno o más registros de [!INCLUDE[d365fin](includes/d365fin_md.md)] con registros de [!INCLUDE[crm_md](includes/crm_md.md)]. El emparejamiento de registros le permite ver información de [!INCLUDE[crm_md](includes/crm_md.md)] desde [!INCLUDE[d365fin](includes/d365fin_md.md)], y viceversa. El emparejamiento también le permite sincronizar datos entre los registros. Puede emparejar registros existentes o crear y emparejar nuevos registros.
@@ -46,4 +46,4 @@ En este tema se describe cómo emparejar uno o más registros de [!INCLUDE[d365f
 3.  Si los registros se pueden sincronizar desde [!INCLUDE[d365fin](includes/d365fin_md.md)] a [!INCLUDE[crm_md](includes/crm_md.md)] o desde [!INCLUDE[crm_md](includes/crm_md.md)] a [!INCLUDE[d365fin](includes/d365fin_md.md)], seleccione la opción que especifica la dirección de actualización de datos y, a continuación, seleccione **Aceptar**.  
 
 ## <a name="see-also"></a>Consulte también  
-[Uso de Dynamics 365 for Sales desde Business Central](marketing-integrate-dynamicscrm.md)
+[Uso de Dynamics 365 Sales desde Business Central](marketing-integrate-dynamicscrm.md)

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/11/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: bb6d0837f91240eb31abc7c02895cf2da420bf7d
-ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
+ms.openlocfilehash: 729a767c0cb4bb330a463e14c7eb6a4f8fd7d909
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "1726795"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304270"
 ---
 # <a name="troubleshooting-synchronization-errors"></a>Solución de problemas de errores de sincronización
 Hay muchos factores involucrados en la integración de [!INCLUDE[d365fin](includes/d365fin_md.md)] con [!INCLUDE[crm_md](includes/crm_md.md)], y a veces las cosas salen mal. Este tema señala algunos de los errores típicos que se producen y ofrece algunos consejos para corregirlos.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: migration, Excel
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 0d31e710c0b5d9e1dfa63c9c653b740fdcc12f11
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: e4399c16c28d97c0c1c6d8826af14e1b4a48e454
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245529"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304977"
 ---
 # <a name="importing-business-data-from-other-finance-systems"></a>Importar datos de empresa de otros sistemas financieros
 Cuando se registra en [!INCLUDE[d365fin](includes/d365fin_md.md)], puede elegir crear una empresa vacía, de este modo podrá cargar sus datos y probar su nueva empresa de [!INCLUDE[d365fin](includes/d365fin_md.md)]. En función de la solución de finanzas que use su empresa actualmente, puede transferir información sobre clientes, proveedores, inventario y cuentas bancarias.  
@@ -62,14 +62,14 @@ El paquete de configuración predeterminado admite las tablas siguientes:
 -   Lín. venta
 -   Cab. compra
 -   Lín. compra
--   Lín. diario general
+-   Gen. Línea de diario
 -   Lín. diario producto
 -   Grupo contable cliente
 -   Grupo contable proveedor
 -   Grupo contable inventario
 -   Unidad de medida
--   Gr. contable negocio
--   Gr. contable producto
+-   Gen. Grupo de registro de negocio
+-   Gen. Grupo de registro de producto
 -   Configuración grupos contables
 -   Territorio
 -   Categoría producto

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0c14ae1300d0e569e04159484da6ffb6e0541947
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ce7830c4fa7c40bb0da08ba27fac6b5a9121c50a
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248806"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310353"
 ---
 # <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Mover componentes a un área de operaciones en configuraciones básicas de almacén
 Si el artículo que procesa las operaciones tiene lugar en su ubicación de almacén, puede tener que mover los artículos entre las ubicaciones internas para responder a los documentos de origen interno, como producción, ensamblado o pedidos de servicio en la ubicación.  

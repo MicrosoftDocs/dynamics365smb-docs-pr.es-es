@@ -4,20 +4,21 @@ description: Describe cómo vincular un contacto con un cliente, proveedor o ban
 services: project-madeira
 documentationcenter: ''
 author: jswymer
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/06/2017
+ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 3db94f55657b08e06a4691b2bd78791da4f26bf5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+redirect_url: marketing-create-contact-companies
+ms.openlocfilehash: 44b723a20b38e617165d4bc129319f22d686c87f
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238318"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309057"
 ---
 # <a name="link-contacts-with-customers-vendors-and-bank-accounts"></a>Vincular contactos con clientes, proveedores y bancos
 Si tiene un contacto y un cliente, proveedor o cuenta bancaria de la misma empresa, puede vincular las dos entidades. Al vincular las dos entidades, se pueden sincronizar los datos que son comunes para que sean los mismos en ambos sitios.

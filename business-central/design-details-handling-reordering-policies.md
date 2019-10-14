@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 69f9f1f2f63e1d16ec1ef4980c00d21bada06166
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 53d9d0ff2d9d1f42bb7f9c05ed49aa4df20f2a92
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245785"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307161"
 ---
 # <a name="design-details-handling-reordering-policies"></a>Detalles de diseño: Gestión de directivas de reaprovisionamiento
 Para que un producto participe en la planificación de aprovisionamiento es necesario definir una directiva de reaprovisionamiento. Existen las cuatro directivas de reaprovisionamiento siguientes:  
@@ -267,7 +267,7 @@ Si la fecha programada es un día no laborable, el sistema de planificación mue
 ### <a name="order"></a>Sentido
 En un entorno de fabricación contra pedido, el producto se compra o se produce para cubrir exclusivamente una demanda concreta. Normalmente, se relaciona con productos A y el motivo para elegir la política de reaprovisionamiento de pedido puede ser que la demanda se produce con poca frecuencia, el plazo es insignificante o varían los atributos requeridos.  
 
-El programa crea un vínculo de pedido contra pedido, que actúa de conexión preliminar entre el suministro, un pedido de suministro o inventario, y la demanda que se va a cumplir.  
+La aplicación crea un vínculo de pedido contra pedido, que actúa de conexión preliminar entre el suministro, un pedido de suministro o inventario, y la demanda que se va a cumplir.  
 
 Aparte de utilizar la directiva de pedido, el vínculo de pedido a pedido se puede aplicar de las siguientes formas durante la planificación:  
 

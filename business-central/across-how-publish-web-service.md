@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 952f2b9dc301b6941d13b4c23ac55f83b781739f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 05a414d6f12243f55105863b66d9b6e759a29189
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245923"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2305700"
 ---
 # <a name="publish-a-web-service"></a>Publicar un servicio web
 
 Los servicios web son una forma ligera para hacer que la funcionalidad de la aplicación esté disponible para una variedad de sistemas externos y usuarios. [!INCLUDE[d365fin](includes/d365fin_md.md)] incluye un número de objetos que se exponen como servicios Web de forma predeterminada debido a la integración con otros servicios de Microsoft, pero también puede agregar otros servicios Web.  
 
-Puede configurar un servicio Web del cliente Windows o en el cliente Web. A continuación debe publicar el servicio web para ponerlo a disposición de las solicitudes de servicio en la red. Los usuarios pueden descubrir servicios Web seleccionando un navegador en la ubicación del servidor y solicitando una lista de servicios disponibles. Al publicar un servicio web, estará disponible inmediatamente a través de la red para los usuarios autenticados. Todo los usuarios autorizados pueden tener acceso a los metadatos de los servicios Web, pero solo los usuarios con permisos suficientes pueden tener acceso a los datos reales.
+Configure un servicio web en el cliente de [!INCLUDE[d365fin](includes/d365fin_md.md)]. A continuación debe publicar el servicio web para ponerlo a disposición de las solicitudes de servicio en la red. Los usuarios pueden descubrir servicios Web seleccionando un navegador en la ubicación del servidor y solicitando una lista de servicios disponibles. Al publicar un servicio web, estará disponible inmediatamente a través de la red para los usuarios autenticados. Todo los usuarios autorizados pueden tener acceso a los metadatos de los servicios Web, pero solo los usuarios con permisos suficientes pueden tener acceso a los datos reales.
 
 ## <a name="creating-and-publishing-a-web-service"></a>Crear y publicar un servicio web  
 Los pasos siguientes explican cómo crear y publicar un servicio web.  

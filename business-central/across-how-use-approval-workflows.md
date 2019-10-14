@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f7c959a44a7b27df464ce8a4c45567d036dc137f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 9432436aa3adbc0723be4a5a042e35ef90f88d04
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245552"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2305097"
 ---
 # <a name="use-approval-workflows"></a>Usar flujos de trabajo de aprobación del producto
 Cuando un registro, como un documento de compra o una ficha de cliente, necesita ser aprobado por alguien de su organización, enviará una solicitud de aprobación como parte de un flujo de trabajo. En función de la configuración del flujo de trabajo, el aprobador adecuado recibirá notificación sobre que el registro requiere su aprobación.

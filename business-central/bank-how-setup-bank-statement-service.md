@@ -10,21 +10,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
-ms.date: 06/25/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1c27575cd218b4f7c3ac5098eaca96d9ab9a4a1b
-ms.sourcegitcommit: 73e955b8fec819e5212b6ca7d8bfff42fe2d5eb8
+ms.openlocfilehash: e688eb8aacba049c91cd0dcd83522e5bd5eec4f2
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "1702887"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307593"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Configurar el servicio Envestnet Yodlee Bank Feeds
 Puede importar extractos electrónicos de su banco para rellenar rápidamente la página **Diario de conciliación de pagos** para que pueda liquidar pagos y conciliar la cuenta bancaria. Para obtener más información, vea [Liquidación de pagos automáticamente y conciliación de cuentas bancarias](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
+> [!IMPORTANT]
+> Debido a la nueva directiva sobre servicios de pago en Europa (PSD2), después del 14 de septiembre de 2019 ya no podrá importar automáticamente extractos de cuenta de bancos del Reino Unido a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Estamos analizando la posibilidad de ofrecer esta función nuevamente en el futuro.
+
 > [!NOTE]
 > El servicio Envestnet Yodlee Bank Feeds solo se admite en la versión en línea de Business Central. Para utilizar esta funcionalidad local, debe obtener una cuenta de cobrand de Envestnet Yodlee.<br /><br />
-> El servicio Envestnet Yodlee Bank Feeds solo se admite en EE.UU., Canadá y Reino Unido.
+> El servicio Envestnet Yodlee Bank Feeds solo se admite en Estados Unidos y Canadá.
 
 > [!IMPORTANT]
 > Para obtener asistencia técnica con la funcionalidad Envestnet Yodlee, póngase en contacto con el soporte técnico de Microsoft. No se ponga en contacto con Envestnet Yodlee. Para obtener más información, consulte [Configuración de soporte técnico para Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/technical-support).

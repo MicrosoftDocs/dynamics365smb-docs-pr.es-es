@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 514c896c4bee0b5ade8532f8b08dba6b8a7a6657
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: b8e4cb09e8b391f9818c9dabbc25d88eeca4aeac
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243876"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303777"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Detalles de diseño: Equilibrio de aprovisionamiento y demanda
 Para saber cómo funciona el sistema de planificación, es necesario conocer los objetivos con prioridad del sistema de planificación, los más importantes de los cuales son asegurarse de que:  
@@ -28,7 +28,7 @@ Para saber cómo funciona el sistema de planificación, es necesario conocer los
  En general, estos objetivos se logran equilibrando el aprovisionamiento con la demanda.  
 
 ## <a name="demand-and-supply"></a>Aprovisionamiento y demanda
- "Demanda" es el término común usado para todo tipo de demanda bruta, como un pedido de venta o una necesidad de componente de una orden de producción. Además, el programa permite tipos de demanda más técnicos, como inventario negativo y devoluciones de compra.  
+ "Demanda" es el término común usado para todo tipo de demanda bruta, como un pedido de venta o una necesidad de componente de una orden de producción. Además, la aplicación permite tipos de demanda más técnicos, como inventario negativo y devoluciones de compra.  
 
   Suministro es el término habitual que se usa para cualquier tipo de cantidad positiva o de entrada, como inventario, compras, ensamblado, producción o transferencias de entrada. Además, una devolución de ventas también puede representar un aprovisionamiento.  
 
@@ -84,10 +84,10 @@ Aparte de cargar los tipos de demanda y aprovisionamiento, se cargan determinado
 ### <a name="item-dimensions-are-separated"></a>Las dimensiones de producto están separadas  
 El plan de suministro se debe calcular mediante la combinación de dimensiones de producto, como variante y ubicación. No obstante, no hay razón para calcular ninguna combinación teórica. Solo es necesario calcular las combinaciones con una necesidad de demanda o de suministro.  
 
-El sistema de planificación lo controla mediante la ejecución a través del perfil de inventario. Cuando se encuentra una nueva combinación, el programa crea un registro de control interno que contiene la información de combinación real. El programa inserta la UA como el registro de control, o bucle externo. Como resultado, se establecerán los parámetros de planificación adecuados según una combinación de variante y almacén, y el programa podrá proceder al bucle interno.  
+El sistema de planificación lo controla mediante la ejecución a través del perfil de inventario. Cuando se encuentra una nueva combinación, la aplicación crea un registro de control interno que contiene la información de combinación real. La aplicación inserta la UA como el registro de control, o bucle externo. Como resultado, se establecerán los parámetros de planificación adecuados según una combinación de variante y almacén, y la aplicación podrá proceder al bucle interno.  
 
 > [!NOTE]  
->  El programa no requiere que el usuario introduzca un registro de UA al introducir la demanda o el suministro de una determinada combinación de variante y ubicación. Por lo tanto, si no exista una UA para una combinación determinada, el programa crea su propio registro de UA temporal según los datos de la ficha de producto. Si Almacén obligatorio se establece en Sí en la página de configuración del inventario, se debe crear una UA o bien los componentes en el almacén deben definirse en Sí. Para obtener más información, consulte [Detalles de diseño: Demanda en almacén vacío](design-details-demand-at-blank-location.md).  
+>  La aplicación no requiere que el usuario introduzca un registro de UA al introducir la demanda o el suministro de una determinada combinación de variante y ubicación. Por lo tanto, si no exista una UA para una combinación determinada, la aplicación crea su propio registro de UA temporal según los datos de la ficha de producto. Si Almacén obligatorio se establece en Sí en la página de configuración del inventario, se debe crear una UA o bien los componentes en el almacén deben definirse en Sí. Para obtener más información, consulte [Detalles de diseño: Demanda en almacén vacío](design-details-demand-at-blank-location.md).  
 
 ### <a name="seriallot-numbers-are-loaded-by-specification-level"></a>Los números de serie y de lote se cargan por nivel de especificación  
 Los atributos en forma de números de serie o lote se cargan en los perfiles de inventario, junto con la demanda y el aprovisionamiento a los que están asignados.  
@@ -265,7 +265,7 @@ Existen dos motivos para esto:
 
 Con el tiempo, las conexiones de seguimiento de pedidos se descuadran porque la red completa de seguimiento de pedidos no se reorganiza hasta que un evento de demanda o de suministro se cierre realmente.  
 
-Antes de cuadrar el aprovisionamiento por la demanda, el programa elimina todos los vínculos de seguimiento de pedidos existentes. A continuación, durante el procedimiento de contrapartida, cuando se cierra un evento demanda o de suministro, establece nuevos vínculos de seguimiento de pedidos entre la demanda y el suministro.  
+Antes de cuadrar el aprovisionamiento por la demanda, la aplicación elimina todos los vínculos de seguimiento de pedidos existentes. A continuación, durante el procedimiento de contrapartida, cuando se cierra un evento demanda o de suministro, establece nuevos vínculos de seguimiento de pedidos entre la demanda y el suministro.  
 
 > [!NOTE]  
 >  Aunque el producto no se haya configurado para seguimiento dinámico de pedidos, el programa previsto establecerá vínculos de seguimiento de pedidos equilibrados, tal y como se ha explicado anteriormente.

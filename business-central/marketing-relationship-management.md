@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contact, prospect, client
-ms.date: 05/02/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 39e8a4bce8174116bbe7b63908007aa7873acc02
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: 54cdb205f26de16397890e08b8918c66998af9b9
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446743"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308805"
 ---
 # <a name="managing-relationships"></a>Gestionar las relaciones
 Las funciones de gestión de relaciones de [!INCLUDE[d365fin](includes/d365fin_md.md)] le ayudan a gestionar y proporcionar soporte a sus esfuerzos de ventas. Con estas funciones, tiene acceso a información completa y precisa, de modo que las interacciones se pueden centrar en los segmentos de cliente o contacto preferidos.
@@ -34,4 +34,4 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Defina segmentos para seleccionar un grupo de contactos según criterios específicos, como el sector al que pertenecen los contactos.|[Administrar segmentos](marketing-segments.md)|
 |Procese los clientes potenciales entrantes con la creación de oportunidades y asócielos a vendedores para poder hacer un seguimiento de las ventas potenciales.|[Administrar oportunidades de venta](marketing-manage-sales-opportunities.md)|
 |Cree los planes de marketing para identificar, atraer y conservar a los clientes.|[Administrar campañas de marketing](marketing-campaigns.md)|
-|Utilice Dynamics 365 for Sales for Customer Engagement y disfrute de una integración perfecta en el proceso de clientes potenciales a efectivo mediante el uso de Business Central para las actividades de backend como el procesamiento de pedidos, la gestión de inventario y la gestión de sus finanzas.|[Integración con Dynamics 365 for Sales](marketing-integrate-dynamicscrm.md)|
+|Utilice Dynamics 365 Sales para la interacción con el cliente y disfrute de una integración perfecta en el proceso de clientes potenciales a efectivo mediante el uso de Business Central para las actividades de backend como el procesamiento de pedidos, la gestión de inventario y la gestión de sus finanzas.|[Integración con Dynamics 365 Sales](marketing-integrate-dynamicscrm.md)|

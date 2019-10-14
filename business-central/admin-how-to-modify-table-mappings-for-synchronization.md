@@ -1,6 +1,6 @@
 ---
 title: Modificar las asignaciones de tablas para la sincronización | Documentos de Microsoft
-description: Obtenga información sobre cómo cambiar las asignaciones de tablas que se utilizan al sincronizar datos entre Business Central y Dynamics 365 for Sales.
+description: Obtenga información sobre cómo cambiar las asignaciones de tablas que se utilizan al sincronizar datos entre Business Central y Dynamics 365 Sales.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: c2b2df393afe7cf27964b1540deddf7760747a9d
-ms.sourcegitcommit: 92c7b6c5f0a5d8becbef106ab85258906765bc3e
+ms.openlocfilehash: 505c1427c63a0a6f9e68980ea0ff05c93918ea60
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2019
-ms.locfileid: "1540205"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308082"
 ---
 # <a name="modify-table-mappings-for-synchronization"></a>Modificar asignaciones de tablas para la sincronización
 Una asignación de tabla de integración vincula una tabla en [!INCLUDE[d365fin](includes/d365fin_md.md)] con una tabla de integración para la entidad de [!INCLUDE[crm_md](includes/crm_md.md)]. Para cada entidad de [!INCLUDE[crm_md](includes/crm_md.md)] que desee sincronizar con los datos correspondientes de [!INCLUDE[d365fin](includes/d365fin_md.md)]], debe existir una asignación de tabla de integración correspondiente. Una asignación de tabla de integración incluye varias configuraciones que le permiten controlar cómo se sincronizan los registros de una tabla de [!INCLUDE[d365fin](includes/d365fin_md.md)] y una entidad de [!INCLUDE[crm_md](includes/crm_md.md)] mediante los proyectos de sincronización de integración correspondientes.  
@@ -33,7 +33,7 @@ Una asignación de tabla de integración vincula una tabla en [!INCLUDE[d365fin]
 ## <a name="creating-new-records"></a>Crear registros nuevos  
  De manera predeterminada, solo los registros de [!INCLUDE[d365fin](includes/d365fin_md.md)] y [!INCLUDE[crm_md](includes/crm_md.md)] que están emparejados se sincronizarán mediante proyectos de sincronización de integración. Puede configurar asignaciones de tabla de manera que se creen nuevos registros en el destino (por ejemplo, [!INCLUDE[d365fin](includes/d365fin_md.md)]) para cada registro del origen (por ejemplo, [!INCLUDE[crm_md](includes/crm_md.md)]) que aún no está emparejado.  
 
- Por ejemplo, el proyecto de sincronización VENDEDORES - Dynamics 365 for Sales usa la asignación de tabla VENDEDORES. El proyecto de sincronización copia los datos de los registros del usuario de [!INCLUDE[crm_md](includes/crm_md.md)] en los registros de vendedores de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Si configura la asignación de tabla para crear registros nuevos, para cada usuario de [!INCLUDE[crm_md](includes/crm_md.md)] que aún no está acoplado a un vendedor de [!INCLUDE[d365fin](includes/d365fin_md.md)], se crea un registro de vendedor en [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+ Por ejemplo, el proyecto de sincronización de Dynamics 365 Sales VENDEDORES usa la asignación de tabla VENDEDORES. El proyecto de sincronización copia los datos de los registros del usuario de [!INCLUDE[crm_md](includes/crm_md.md)] en los registros de vendedores de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Si configura la asignación de tabla para crear registros nuevos, para cada usuario de [!INCLUDE[crm_md](includes/crm_md.md)] que aún no está acoplado a un vendedor de [!INCLUDE[d365fin](includes/d365fin_md.md)], se crea un registro de vendedor en [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 #### <a name="to-create-new-records-during-synchronization"></a>Para crear registros nuevos durante la sincronización  
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Lista de asignaciones de tablas de integración** y luego elija el enlace relacionado.
@@ -59,6 +59,6 @@ Si instala la configuración de sincronización predeterminada, la mayoría de l
 3.  Establezca el campo **Código de plantilla de config. de tab. int.** en la plantilla de configuración que se utilizará para registros nuevos de [!INCLUDE[crm_md](includes/crm_md.md)].
 
 ## <a name="see-also"></a>Consulte también  
-[Acerca de la integración de Dynamics 365 Business Central con Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md )   
-[Sincronización de Business Central y Dynamics 365 for Sales](admin-synchronizing-business-central-and-sales.md)   
+[Acerca de la integración de Dynamics 365 Business Central con Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md )   
+[Sincronización de Business Central y Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)   
 [Programar una sincronización](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)  

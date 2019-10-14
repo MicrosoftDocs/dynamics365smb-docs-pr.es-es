@@ -5,18 +5,18 @@ author: bholtorf
 ms.service: dynamics365-business-central
 ms.author: bholtorf
 ms.custom: na
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.reviewer: na
 ms.topic: article
-ms.openlocfilehash: 3b49df32acdc9530eb56a26538dbc34e245ec1e3
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 4f96ddb96d9f0b816a4fd6651d4c1453bbf65ca1
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244914"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307859"
 ---
 # <a name="responding-to-requests-about-personal-data"></a>Respuesta a las solicitudes de datos personales  
-Los asuntos de datos pueden solicitar varios tipos de acciones relacionadas con sus datos personales. Por ejemplo, según el Reglamento general de protección de datos (GDPR), los residentes de la UE tienen derecho a solicitar la exportación, eliminación y modificación de sus datos personales. Esto se conoce como *Solicitud de asunto de datos*. Si ha clasificado la sensibilidad de sus datos y está seguro de que son correctos, un administrador puede responder a las solicitudes utilizando las opciones de **Privacidad de datos** en el área de trabajo **Administrar usuarios, grupos de usuarios y permisos** o si está utilizando el cliente de Windows, en el área de trabajo **Administrador de TI**. Para obtener más información sobre la clasificación de datos y la clasificación de la confidencialidad de datos en [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], consulte [Clasificar datos](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) y [Clasificar confidencialidad de datos](admin-classifying-data-sensitivity.md).  
+Los asuntos de datos pueden solicitar varios tipos de acciones relacionadas con sus datos personales. Por ejemplo, según el Reglamento general de protección de datos (GDPR), los residentes de la UE tienen derecho a solicitar la exportación, eliminación y modificación de sus datos personales. Esto se conoce como *Solicitud de asunto de datos*. Si ha clasificado la confidencialidad de sus datos y está seguro de que son correctos, un administrador puede responder a las solicitudes utilizando las opciones de la pestaña **Privacidad de datos** en el área de trabajo **Director de TI**. Para obtener más información sobre la clasificación de datos y la clasificación de la confidencialidad de datos en [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], consulte [Clasificar datos](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) y [Clasificar confidencialidad de datos](admin-classifying-data-sensitivity.md).  
 
 ## <a name="types-of-requests"></a>Tipos de solicitudes
 
@@ -51,7 +51,7 @@ Si tiene una situación en la que tiene que exportar datos que no están clasifi
 -   Agregue esta tabla y relación manualmente al paquete de Rapid Start y expórtela directamente desde el paquete de Rapid Start; por ese motivo, generamos un paquete de Rapid Start automáticamente, para que pueda ajustarlo en situaciones como esta.
 
 ## <a name="handling-data-about-minors"></a>Controlar datos sobre menores
-Si la edad de una persona de contacto es inferior a la edad de consentimiento legal según las leyes de su región, puede indicarlo seleccionando la casilla de verificación **Menor** en la **Tarjeta de contacto**. Al introducirlos, la casilla de verificación **Privacidad bloqueada** se seleccionará automáticamente. Cuando reciba el consentimiento del padre o tutor legal del menor, puede elegir la casilla **Consentimiento de los padres recibido** para desbloquear el contacto. Aunque puede procesar datos personales para menores, no puede usar la funcionalidad de creación de perfiles en Dynamics 365 for Sales.
+Si la edad de una persona de contacto es inferior a la edad de consentimiento legal según las leyes de su región, puede indicarlo seleccionando la casilla de verificación **Menor** en la **Tarjeta de contacto**. Al introducirlos, la casilla de verificación **Privacidad bloqueada** se seleccionará automáticamente. Cuando reciba el consentimiento del padre o tutor legal del menor, puede elegir la casilla **Consentimiento de los padres recibido** para desbloquear el contacto. Aunque puede procesar datos personales para menores, no puede usar la funcionalidad de creación de perfiles en Dynamics 365 Sales.
 
 > [!Note]
 > El Registro de cambios puede registrar detalles tales como cuándo y por quién se seleccionó la casilla de verificación **Consentimiento de los padres recibido**. Un administrador puede configurarlo utilizando la guía **Cambiar configuración de registro** y también eligiendo la casilla de verificación **Registrar modificación para el consentimiento de los padres** en la tarjeta de **Contacto**. Para obtener más información, vea [Registrar cambios](across-log-changes.md).  

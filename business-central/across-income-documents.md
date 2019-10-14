@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7d5da0999a2e1b549018b104bd02830939154884
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: f3ff7d711e7a8f7bfe7acf44c8cd648dcb7a591e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240423"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304858"
 ---
 # <a name="incoming-documents"></a>Documentos entrantes
 Algunas transacciones empresariales no se registran en [!INCLUDE[d365fin](includes/d365fin_md.md)] desde el principio. En su lugar, un documento empresarial externo llega a la empresa como datos adjuntos de correo electrónico o una copia en papel que se digitaliza para archivarla. Esto es habitual en las compras, donde dichos archivos de documentos entrantes representan los recibos de pago de gastos o pequeñas compras.

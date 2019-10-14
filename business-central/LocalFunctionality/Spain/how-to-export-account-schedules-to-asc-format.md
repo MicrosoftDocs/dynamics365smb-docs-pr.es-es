@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a44aee30a23373b2bc6916a93da6a89f69437476
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 143f9851392a8c8cf7b0d85cdd2f9b52bf13dad7
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245646"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301097"
 ---
 # <a name="export-account-schedules-to-asc-format"></a>Exportar esquemas de cuentas a formato ASC
 Los datos del esquema de cuentas se pueden exportar a un formato de archivo digital que ha aprobado la administración fiscal local para los siguientes informes anuales:  

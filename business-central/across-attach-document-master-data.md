@@ -8,20 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: upload, attach, attachments
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: cfed7b7946aaa24544c6ae47dfc9ebc39c00716d
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+redirect_url: ui-how-add-link-to-record
+ms.openlocfilehash: 2b5ed5ade59e2cf3b8832da088d79adfba4ad7fa
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240889"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300686"
 ---
 # <a name="attaching-files-to-cards-and-documents"></a>Asociar archivos a fichas y documentos
 Puede adjuntar imágenes, documentos y otros tipos de archivos a todas las fichas, como la ficha de producto y la ficha de trabajo, y puede adjuntar archivos a todos los tipos de documentos de compra y venta.
 
 > [!Note]
-> En general, el tamaño máximo de archivo para los archivos adjuntos es de 150 MB. Sin embargo, el límite puede ser menor para algunas características. 
+> En general, el tamaño máximo de archivo para los archivos adjuntos es de 150 MB. Sin embargo, el límite puede ser menor para algunas características.
 
 ## <a name="to-attach-a-file-to-a-sales-order"></a>Para adjuntar un archivo a un pedido de venta
 El procedimiento siguiente se basa en un pedido de venta. Los pasos son parecidos a los de los documentos de venta y compra, así como para las demás fichas.

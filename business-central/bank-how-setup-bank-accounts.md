@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e3ccc70405b286929c9d267e76c3ba76fd2e7e4a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 27e3dd32fc1bf79dffdf1b7f33d1ea86a3f598e3
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247371"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307641"
 ---
 # <a name="set-up-bank-accounts"></a>Configurar bancos
 Las cuentas bancarias se utilizan en [!INCLUDE[d365fin](includes/d365fin_md.md)] para hacer un seguimiento de las transacciones bancarias. Los bancos pueden expresarse en la divisa local (DL) o en una extranjera. Cuando haya configurado todos los bancos, puede utilizar también la opción de impresión de cheques.
@@ -31,7 +31,7 @@ Las cuentas bancarias se utilizan en [!INCLUDE[d365fin](includes/d365fin_md.md)]
 > Para completar el campo **Saldo** con un saldo inicial, debe publicar un movimiento de cuenta bancaria con el importe en cuestión. Puede hacerlo si realiza una conciliación de bancos. Para obtener más información, vea [Conciliar cuentas bancarias por separado](bank-how-reconcile-bank-accounts-separately.md). De forma alternativa, puede implementar el saldo inicial como parte de la creación de datos generales en nuevas compañías mediante la guía de configuración asistida **Migrar datos empresariales**. Para obtener más información, vea [Introducción](product-get-started.md).
 
 ## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Para configurar la cuenta para la importación o exportación de archivos bancarios
-Los campos de la ficha desplegable **Transferencia** en la página **Ficha banco** están relacionados con la importación y exportación de archivos o fuentes de banco. Para obtener más información, vea [Configurar el servicio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-data-conversion-service.md) y [Configurar el servicio de conversión de datos bancarios](bank-how-setup-bank-statement-service.md).
+Los campos de la ficha desplegable **Transferencia** en la página **Ficha banco** están relacionados con la importación y exportación de archivos o fuentes de banco. Para obtener más información, vea [Configurar el servicio de conversión de datos bancarios](bank-how-setup-bank-data-conversion-service.md) y [Configurar el servicio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Cuentas bancarias** y luego elija el enlace relacionado.
 2. Abra la ficha de un banco del que exportará archivos de banco, o al que los importará.

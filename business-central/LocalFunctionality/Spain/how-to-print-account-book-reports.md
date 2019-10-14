@@ -4,20 +4,20 @@ description: Los informes de libro diario muestran todos los movimientos de cont
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/01/2017
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 394ef25eb206ad52a9fc3edc5016b9eb81eb8a6a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 3b5c7ce430e0205d8baaa5856355f5402d684455
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241467"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301087"
 ---
 # <a name="print-account-book-reports"></a>Imprimir informes de libro diario
 Los informes de libro diario muestran todos los movimientos de contabilidad creados en un periodo específico. Los dos informes de libro diario son:  

@@ -8,31 +8,33 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 09/06/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e6919dd3e09fcf13bf07b051abfea90a5a35eb01
-ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
+ms.openlocfilehash: f0c021edd416daff4b40dee6f4a541b4e3e8bc32
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "1985915"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309465"
 ---
 # <a name="keyboard-shortcuts"></a>Métodos abreviados de teclado
 Este producto proporciona un resumen de algunas de las combinaciones de métodos abreviados que se pueden utilizar cuando trabaje con [!INCLUDE[prodshort](includes/prodshort.md)].
 
 > [!TIP]
-> Para una visión general rápida y fácil de imprimir de los métodos abreviados más populares, [consulte el artículo de referencia aquí](keyboard-shortcuts-cheatsheet.md) o haga clic en la siguiente imagen:
+> Para obtener una descripción general rápida y fácil de imprimir de los accesos directos más populares para usuarios de PC, consulte [Métodos abreviados de teclado (solo PC)](keyboard-shortcuts-cheatsheet.md). Para una representación gráfica, elija la siguiente imagen:
 >
 >[ ![Para descargar la imagen para imprimirla, haga clic con el botón secundario y seleccione Guardar imagen como](media/bckeyboardmap-inline.png) ](media/bckeyboardmap.png#lightbox)
 
 ## <a name="overview"></a>Panorama
-Los métodos abreviados de teclado ayudan a la accesibilidad y pueden hacer que sea más fácil y más eficiente navegar por diferentes áreas y elementos en una página.
+Los métodos abreviados de teclado ayudan a la accesibilidad y pueden hacer que sea más fácil y más eficiente navegar por diferentes áreas y elementos en una página. Son compatibles con la mayoría de los exploradores web; sin embargo el comportamiento puede variar ligeramente.
 
-Los métodos abreviados de teclado son compatibles con la mayoría de los navegadores web; sin embargo el comportamiento puede variar ligeramente.
+> [!NOTE]
+> Los métodos abreviados de teclado aquí descritos se refieren al diseño del teclado de EE. UU. Puede que la distribución de las teclas de otros teclados no se corresponda exactamente con las teclas de un teclado de Estados Unidos.
 
-Los métodos abreviados de teclado aquí descritos se refieren al diseño del teclado de EE. UU. Puede que la distribución de las teclas de otros teclados no se corresponda exactamente con las teclas de un teclado de Estados Unidos.
+La mayoría de los accesos directos son los mismos independientemente de que el sistema operativo sea Windows o macOS. Sin embargo, algunos accesos directos son distintos para macOS. Se indican entre paréntesis en las siguientes secciones.
 
-La mayoría de los accesos directos son los mismos sin importar si el sistema operativo es Windows o macOS; sin embargo, hay algunos accesos directos que son diferentes para macOS. Se indican entre paréntesis en las tablas en las secciones siguientes.
+> [!NOTE]
+> Además de los métodos abreviados de teclado globales descritos en este tema, hay disponibles varios métodos específicos de la empresa. Por ejemplo, en la versión genérica de [!INCLUDE[prodshort](includes/prodshort.md)], F9 publica un documento y Ctrl + F7 muestra las entradas financieras de un registro. (Estos pueden ser diferentes en su solución). El método abreviado de teclado se muestra en la información sobre herramientas de la acción en cuestión.
 
 ##  <a name="Keyboard"></a> Métodos abreviados de teclado generales
 En la tabla siguiente se describen los métodos abreviados de teclado para navegar y acceder a diferentes elementos de una página, como acciones, listas desplegables, búsquedas y más. Para obtener más información sobre los métodos abreviados de teclado para navegar por los registros una vez que ingresa en una lista, consulte la siguiente sección.
@@ -40,19 +42,26 @@ En la tabla siguiente se describen los métodos abreviados de teclado para naveg
 |Pulsar estas teclas<br />(en macOS)|Para hacer esto|
 |----------------|-----------|
 |Alt+flecha abajo|Abra una lista desplegable o busque un valor de un campo.|    
-|Alt + Flecha hacia la derecha|Vea las transacciones que han dado lugar a un valor calculado de un campo.|  
+|Alt+flecha arriba|Mostrar información sobre herramienta de un campo o encabezado de columna de una tabla. Si el campo contiene errores de validación, pulse Alt+flecha arriba para mostrar el error de validación. Pulse Esc o Alt+flecha arriba para cerrar la información sobre herramientas.|
 |Alt+F2|Mostrar u ocultar el panel de cuadro informativo.|
-|Alt+Q<br />(Ctrl+Alt+Q)|Abra el cuadro **Dígame que quiere hacer** que le ayudará a encontrar una página, un informe, una acción en la página actual o un artículo en la documentación.|
+|Alt+Mayús+F2|Cambiar entre **Detalles** y **Archivos adjuntos** en el panel del cuadro informativo.|
+|Alt+O|Agregar una nueva nota para el registro seleccionado, incluso si el panel del cuadro informativo no está abierto.|
+|Alt+Q<br />(Ctrl+Opción+Q)|Abrir la ventana **Dígame**. Para obtener más información, consulte [Búsqueda de páginas e información con Dígame](ui-search.md).|
+|Alt+N |Abrir una página para crear un nuevo registro. (Similar a elegir las acciones **Nuevo** y **+**).
+|Alt+Mayús+N |Cerrar una página recién creada y abrir una nueva para crear un nuevo registro.
 |Alt+T|Abrir la página **Mi configuración**.|
-|Alt+flecha arriba|Mostrar información sobre herramienta de un campo o encabezado de columna de una tabla. Si el campo contiene errores de validación, pulse "Alt+flecha arriba" para mostrar el error de validación. Pulse "Esc" o "Alt+flecha arriba" para cerrar la información sobre herramienta.|
+|Alt + Flecha hacia la derecha|Buscar información adicional o valores subyacentes para un campo que contiene el botón ![AssistEdit](media/assist-edit-icon.png "Botón AssistEdit"). Se usa cuando el botón desplegable habitual (Alt+flecha abajo) en el mismo campo se usa para otro propósito.|
+|Shift+F12|Abrir la descripción general de funciones. Para obtener más información, consulte [Búsqueda de páginas desde una descripción general de funciones](ui-role-explorer.md).|
+|Ctrl+Alt+Mayús+C|Mostrar información en el distintivo de la empresa.|
 |Ctrl+Alt+F1|Abrir y cerrar el panel de inspección de la página. El panel de inspección de la página muestra información sobre la página, como su tabla de orígenes, campos, filtros, extensiones y más.<br /><br />Para obtener más información, vea [Inspección de páginas](across-inspect-page.md).|
 |Ctrl+C |Copiar el valor del campo. Si el campo tiene el enfoque y no ha seleccionado ningún texto en el campo, se copiará todo el valor. Si ha seleccionado texto en el campo, solo copiará el texto seleccionado.|
 |Ctrl+F1|Abrir la ayuda de Business Central correspondiente a la página.|
-|Ctrl+F5|Volver a cargar la aplicación [!INCLUDE[prodshort](includes/prodshort.md)].<br/><br />Esto es similar a seleccionar actualizar/recargar en el explorador.|
-|F5|Actualizar los datos en la página actual.<br /><br />Utilícelo para asegurarse de que los datos de la página estén actualizados con cualquier cambio que otros hayan hecho mientras usted trabaja.|
 |Ctrl+F12|Cambiar entre vista de diseño amplia y estrecha.|
+|Ctrl+Clic|Navegar durante la personalización cuando la acción está resaltada con una punta de flecha. Para obtener más información, consulte [Personalizar el área de trabajo](ui-personalization-user.md).|  
+|Ctrl+F5|Volver a cargar la aplicación [!INCLUDE[prodshort](includes/prodshort.md)]. (Similar a seleccionar actualizar/recargar en el explorador).|
+|F5|Actualizar los datos en la página actual.<br /><br />Utilícelo para asegurarse de que los datos de la página estén actualizados con cualquier cambio que otros hayan hecho mientras usted trabaja.|
 |Introduzca|Habilite o acceda al elemento o control que tiene el enfoque.|
-|Esc|Cierre la página actual o menú desplegable.|
+|Esc|Cerrar la página o lista desplegable actual.|
 |Tabulador|Mueva el enfoque al control o elemento siguiente de una página, como acciones, botones, campos o encabezados de una lista.|
 |Mayús+Tabulador|Mueva el enfoque al control o elemento anterior de una página, como acciones, botones, campos o encabezados de una lista.|
 
@@ -68,8 +77,8 @@ En la tabla siguiente se describen los métodos abreviados de teclado que puede 
 |Pulsar estas teclas<br />(en macOS)|Para hacerlo en una vista de lista|Para hacerlo en una vista de mosaico |
 |-----------------|-------|-------|
 |Alt+F7 |Ordenar la columna seleccionada en orden ascendente o descendente.|No aplicable.|
-|Shift+F10 |Abrir un menú de opciones que están disponibles para la fila seleccionada.|No aplicable.|
-|Alt+N |Abrir una página para crear un nuevo registro; de la misma manera que se selecciona la acción **Nueva**. |Igual.|
+|Alt+N|Insertar una nueva línea en una lista editable, como la página **Presupuestos contables**.|Igual.|
+|Shift+F10 |Abrir un menú de opciones que están disponibles para la fila seleccionada.|Igual.|
 
 ### <a name="navigateshortcuts"></a>Navegación entre filas y columnas
 
@@ -100,12 +109,12 @@ En la tabla siguiente se describen los métodos abreviados de teclado que puede 
 |Ctrl+Flecha abajo<br />(Ctrl+Cmd+Flecha abajo)|Mueva el enfoque de la fila inferior y mantenga la fila actual seleccionada.|No aplicable.|
 |Ctrl+Barra espaciadora<br />(Ctrl+Cmd+espacio)|Extienda la selección de filas para incluir la fila enfocada.<br /><br />Puede usar esto después de usar Ctrl + Flecha arriba o Ctrl + Flecha abajo para expandir su selección.|No aplicable.|
 |Ctrl+E|Seleccionar todas las filas.|No aplicable.|
+|Ctrl+C<br />(Cmd+C)|Copiar las filas seleccionadas al portapapeles.|Sí, pero solo para un único mosaico seleccionado.|
+|Ctrl+V<br />(Cmd+V)|Pegar las filas seleccionadas del portapapeles en la página actual o en un documento externo, como Microsoft Excel o el correo electrónico de Outlook. Solo lo puede hacer en listas editables.|No aplicable.|
 |Mayús+flecha arriba|Extienda la selección de filas para incluir la fila superior.|No aplicable.|
 |Mayús+Flecha abajo|Extienda la selección de filas para incluir la fila inferior.|No aplicable.|
 |Mayús+Re Pág<br />(Mayús+Fn+flecha arriba)|Extienda la selección de filas para incluir todas las filas visibles sobre la selección actual de filas.|No aplicable.|
 |Mayús+Av Pág<br />(Mayús+Fn+Flecha abajo)|Extienda la selección de filas para incluir las filas visibles por debajo de la selección actual de filas.|No aplicable.|
-|Ctrl+C<br />(Cmd+C)|Copiar las filas seleccionadas al portapapeles.|No aplicable.|
-|Ctrl+V<br />(Cmd+V)|Pegar las filas seleccionadas del portapapeles en la página actual o en un documento externo, como Microsoft Excel o el correo electrónico de Outlook. Solo lo puede hacer en listas editables.|No aplicable.|
 |F8|Copie el campo en la misma columna de la fila anterior y péguelo en la fila actual. Solo lo puede hacer en listas editables. Mediante este método abreviado seguido de una pestaña podrá completar rápidamente los campos de los artículos de la línea que desea que tengan el mismo valor que la fila anterior.|No aplicable.|
 
 ### <a name="KeyboardFilter"></a>Búsqueda y filtrado de listas
@@ -122,16 +131,19 @@ En la tabla siguiente se describen los métodos abreviados de teclado que puede 
 
 ## <a name="keyboard-shortcuts-in-cards-and-documents"></a>Métodos abreviados de teclado en fichas y documentos
 
-Los siguientes métodos abreviados están disponibles en las páginas de ficha (como **Cliente**) y en las páginas de documento (como **Pedido de cliente**) para visualizar y modificar registros.
+Los siguientes métodos abreviados están disponibles en las páginas de ficha, como **Ficha cliente**, y en las páginas de documento, como **Pedido de venta**, para visualizar y modificar registros.
 
 |Pulsar estas teclas<br />(en macOS)|Para hacer esto|
 |----------------|-----------|
-|Alt+F6|Contraer y expandir la ficha desplegable actual.|
+|Alt+F6|Alternar contraer/expandir la ficha desplegable actual.|
 |Alt+N |Abrir una página para crear un nuevo registro; de la misma manera que se elige la acción **Nueva**. |
-|Alt+Mayús+N |Cerrar la página de la tarjeta actual y crear una nueva entidad; lo mismo que seleccionar la flecha de atrás y luego la acción **Nueva**.|
+|Alt+Mayús+N |Cerrar una página y abrir una nueva para crear un nuevo registro; de la misma manera que se selecciona la acción **Aceptar y nuevo**. |
+|Alt+Mayús+W |Abra la ficha o documento actual en una nueva ventana. Para obtener más información, consulte [Multitarea en varias páginas](ui-enter-data.md#multitasking-across-multiple-pages).|
 |Ctrl+Flecha abajo|Abrir el siguiente registro de una entidad.|
 |Ctrl+Flecha arriba |Abrir el registro anterior de una entidad.|
-|Ctrl+Shift+F12 |Maximizar la parte de productos de línea en una página de documento, como un pedido de cliente o una factura. Otras partes de la página se ocultan y la parte de los productos de línea se expande a todo el espacio de trabajo. Pulse las teclas de nuevo para volver a la pantalla normal.<br /><br />Para obtener más información, consulte [Enfoque en los productos de línea](ui-enter-data.md#Focus).|
+|Ctrl+Insertar |Insertar una nueva línea en los documentos.|
+|Ctrl+Supr |Eliminar la línea en documentos, diarios y hojas de trabajo.|
+|Ctrl+Shift+F12 |Maximizar la parte de productos de línea en una página de documento Pulse las teclas de nuevo para volver a la pantalla normal. Para obtener más información, consulte [Enfoque en los productos de línea](ui-enter-data.md#Focus).|
 |F6|Moverse a la siguiente ficha desplegable o parte (subpágina).|
 |Shift+F6|Moverse a la ficha desplegable o parte (subpágina) anterior.|
 
@@ -145,21 +157,13 @@ Los siguientes accesos directos pertenecen a la función de entrada rápida en f
 |Mayús+Entrar|Confirmar el valor en el campo actual y pasar al campo de entrada rápida anterior.||
 |Ctrl+Mayús+Entrar|Confirmar el valor en la columna actual y pasar al siguiente campo de entrada rápida fuera de la lista.<br /><br />Este método abreviado se aplica a las listas insertadas en una página, como los productos de lista de un pedido de venta. Le permite salir rápidamente de la lista y continuar introduciendo datos en otros campos de la página.|
 
-## <a name="keyboard-shortcuts-in-worksheets"></a>Métodos abreviados de teclado en las hojas de trabajo
-
-Los siguientes métodos abreviados solo están disponibles en las páginas de la hoja de cálculo, como **Diarios de productos**.
-
-|Pulsar estas teclas<br />(en macOS)|Para hacer esto|  
-|----------------|-----------|  
-|Ctrl+Supr| Eliminar una producto de línea.|
-
 ## <a name="a-namecalendarshortcuts-keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"/> Métodos abreviados de teclado en el Calendario (selector de fecha)
 
 Al configurar un campo de fecha, puede introducir la fecha manualmente o abrir un calendario (selector de fecha) que le permite seleccionar la fecha que desea. En la tabla siguiente se describen los métodos abreviados de teclado del calendario.
 
 |Pulsar estas teclas<br />(en macOS)|Para hacer esto|
 |-----------------|-------|
-|Ctrl+Inicio|Abrir el calendario si está cerrado.|
+|Ctrl+Inicio|Abrir el calendario si está cerrado. **Nota**: Esto no funciona si el campo de fecha está en una cuadrícula, donde Ctrl+Inicio salta a la primera fila.|
 |Ctrl+Inicio<br />(Cmd+Inicio)|Desplazarse al mes actual, día actual.|
 |Ctrl+Flecha izquierda<br />(Cmd+Flecha izquierda)|Desplazarse al día anterior.|
 |Ctrl + Flecha derecha<br />(Cmd+Flecha derecha)|Desplazarse al día siguiente.|
@@ -192,7 +196,7 @@ Al configurar un campo de fecha, puede introducir la fecha manualmente o abrir u
 |Re. pág.<br />(Fn+flecha arriba)|Ir a la página anterior del informe.|
 
 ## <a name="see-also"></a>Consulte también .
-
+[Referencia rápida de teclado: solo PC](keyboard-shortcuts-cheatsheet.md)  
 [Características de asistencia](ui-accessibility.md)  
 [Introducción](product-get-started.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

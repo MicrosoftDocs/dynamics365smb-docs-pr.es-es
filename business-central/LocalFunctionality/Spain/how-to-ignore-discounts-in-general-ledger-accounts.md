@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: dc34f996cb543e0c83fa3554a324f8411d842eca
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ed1337dc75937288e1708f6435df6307b26788f1
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241479"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301094"
 ---
 # <a name="ignore-discounts-in-general-ledger-accounts"></a>Omitir descuentos en cuentas de contabilidad
 Algunas cuentas de contabilidad no aceptan descuentos de pago o de factura. Para estas cuentas, se pueden omitir los descuentos.  

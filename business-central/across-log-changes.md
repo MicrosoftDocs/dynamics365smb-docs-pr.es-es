@@ -1,6 +1,6 @@
 ---
-title: Realizar el seguimiento de la actividad de usuario en un registro de cambios | Documentos de Microsoft
-description: Puede activar el registro de usuario para tener un historial de los cambios realizados en los datos de las tablas de las que se hace el seguimiento.
+title: Auditar cambios | Documentos de Microsoft
+description: Puede activar el registro de usuario para tener un historial de los cambios realizados en los datos de las tablas de las que se hace el seguimiento. También puede realizar un seguimiento de actividades con ciertos tipos de registros de actividad.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user log, user activity, tracking
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: fc14d11bf75ea39553c1ed04986273903874a0e1
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 43aea054ce4e66e9108f408d96c2eb491351b382
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240446"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304940"
 ---
 # <a name="auditing-changes-in-business-central"></a>Auditar cambios en Business Central
 
@@ -38,9 +38,15 @@ En la página **Config. log cambio**, si elige la acción **Tablas**, puede espe
 
 Después de haber configurado el registro de cambios, haberlo activado y alguien haya realizado un cambio en los datos, puede ver y filtrar los cambios en la página **Movs. registro cambios**. Si desea eliminar movimientos, puede hacerlo en la página **Eliminar movs. reg. de cambios**, donde puede definir filtros basados en fechas y horas.  
 
+## <a name="working-with-activity-logs"></a>Trabajar con registros de actividad
+
+Desde algunas páginas en [!INCLUDE [prodshort](includes/prodshort.md)], puede ver un registro de actividad que muestra el estado y los errores de los archivos que exporta o importa [!INCLUDE [prodshort](includes/prodshort.md)].  
+
+La información se muestra en la ventana **Registro de actividad** según el contexto desde el que se abra. Puede abrir la ventana desde las páginas **Configuración del servicio de intercambio de documentos**, **Documento entrante**, **Histórico facturas venta** e **Histórico de abonos de venta**, por ejemplo. Puede vaciar la lista de entradas de registro o simplemente borrar la lista de entradas anteriores a 7 días.  
+
 ## <a name="see-also"></a>Consulte también
 [Cambiar la configuración básica](ui-change-basic-settings.md)  
 [Ordenación](ui-sorting.md)  
-[Usar la opción Dígame para encontrar características e información](ui-search.md)  
-[Gestionar usuarios y permisos](ui-how-users-permissions.md)    
+[Búsqueda de páginas e información con Dígame](ui-search.md)  
+[Administrar usuarios y permisos](ui-how-users-permissions.md)    
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

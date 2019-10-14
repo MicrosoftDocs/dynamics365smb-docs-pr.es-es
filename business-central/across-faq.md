@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 08/02/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 91cd5a7bd5b4aa5103e472fbf040599ac9740226
-ms.sourcegitcommit: 5bcc5f95e450ee9a3d9f7a380e592a5e75c4185b
+ms.openlocfilehash: bfe2c4bec0627aee83d0ca25db975c76b7f803ab
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1858271"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300574"
 ---
 # <a name="frequently-asked-questions"></a>Preguntas más frecuentes
 
@@ -40,15 +40,17 @@ Desde la página de inicio de la comunidad, también puede encontrar enlaces a n
 Por último, puede ponerse en contacto con su distribuidor de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, consulte la sección [¿Cómo obtengo soporte técnico?](across-faq.md#how-do-i-get-technical-support-for-).  
 
 ## <a name="why-cant-i-find-that-capability-in-my-included365finincludesd365fin_mdmd"></a>¿Por qué no puedo encontrar esa capacidad en mi [!INCLUDE[d365fin](includes/d365fin_md.md)]?
-¿Ha leído recientemente acerca de una nueva capacidad en el plan de la versión o en nuestro blog? En ese caso, el [!INCLUDE[d365fin](includes/d365fin_md.md)] puede que todavía no se haya actualizado a la última versión. Si la capacidad se publica como una extensión en AppSource, habrá un retraso entre el anuncio y su disponibilidad en AppSource.  
+¿Ha leído recientemente acerca de una nueva capacidad en el plan de la versión o en nuestro blog? En ese caso, el [!INCLUDE[d365fin](includes/d365fin_md.md)] puede que todavía no se haya actualizado a la última versión. Puede comprobar en qué versión se basa su [!INCLUDE[d365fin](includes/d365fin_md.md)] en la página [Ayuda y soporte técnico](product-help-and-support.md).  
+
+Además, si la capacidad se publica como una extensión en AppSource, habrá un retraso entre el anuncio y su disponibilidad en AppSource.  
 
 ## <a name="are-there-any-differences-between-an-on-premises-deployment-and-the-cloud-version-of-business-central"></a>¿Existen diferencias entre una implementación local y la versión en la nube de Business Central?
 Sí. Algunas funciones basadas en la nube pueden funcionar localmente en algunos casos y otras no son compatibles en absoluto. Para obtener más información, consulte [Características no implementadas en implantaciones locales de Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises).
 
 ## <a name="can-i-get-training-in-included365finincludesd365fin_mdmd"></a>¿Puedo recibir formación en [!INCLUDE[d365fin](includes/d365fin_md.md)]?
-Sí que puede. Pero actualmente, tiene que preguntar a su socio de reventa. Si no sabe quién es, busque un socio de Business Central en la página [Estoy buscando un proveedor de soluciones](https://go.microsoft.com/fwlink/?linkid=2038145).  
+Sí que puede. Puede encontrar contenido gratuito de eLearning en el [sitio de Microsoft Learn](/learn/browse/?products=dynamics-business-central). También puede pedirle a su socio de reventa información adicional. Si no sabe quién es, busque un socio de Business Central en la página [Estoy buscando un proveedor de soluciones](https://go.microsoft.com/fwlink/?linkid=2038145).  
 
-Si tiene acceso a Microsoft CustomerSource, puede obtener acceso al sitio de Imagine Academy con material de eLearning. Para obtener más información sobre cómo obtener acceso, consulte la página de [formación de Microsoft Dynamics 365](/dynamics365/get-started/training/index#dynamics-365-customers).  
+Para obtener más información sobre la formación que ofrece Microsoft, consulte la página [Formación de Microsoft Dynamics 365](/dynamics365/get-started/training/index#dynamics-365-customers).  
 
 ## <a name="how-do-i-get-technical-support-for-included365finincludesd365fin_mdmd"></a>¿Cómo obtengo soporte técnico para [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 
@@ -74,7 +76,7 @@ Si desea realizar la implementación local de [!INCLUDE[d365fin](includes/d365fi
 ## <a name="do-i-have-to-buy-office-365"></a>¿Tengo que comprar Office 365?
 N.º Pero si desea experimentar [!INCLUDE[d365fin](includes/d365fin_md.md)] completamente integrado con Office 365, puede registrarse para un mes de prueba gratuita de Office 365 [aquí](https://products.office.com/try).  
 
-Si la cuenta con la que se registra es una cuenta de trabajo que no es de Office 365 (como *joe@mysolution.com*) y tiene una suscripción a Office 365, puede asociar su dominio (*mysolution.com*) con la suscripción de Office 365. Para obtener más información, consulte [Obtener ayuda con los dominios de Office 365](/office365/admin/get-help-with-domains/get-help-with-domains?view=o365-worldwide).  
+Si la cuenta con la que se registra es una cuenta de trabajo que no es de Office 365 (como joe@mysolution.com) y tiene una suscripción a Office 365, puede asociar su dominio (*mysolution.com*) con la suscripción de Office 365. Para obtener más información, consulte [Obtener ayuda con los dominios de Office 365](/office365/admin/get-help-with-domains/get-help-with-domains?view=o365-worldwide).  
 
 Si no tiene una suscripción a Office 365 y no desea adquirir una, entonces, cuando se registre, le proporcionamos un nuevo inquilino de Azure Active Directory para que tenga acceso al portal de Azure al que tiene acceso a herramientas avanzadas de administración.  
 
@@ -87,8 +89,8 @@ Sí. Cuando se acerque la fecha de vencimiento de su período de prueba, cuando 
 > [!NOTE]
 > Puede tardar hasta dos días laborales en completarse el proceso de ampliación de la prueba.  
 
-## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-role-center-in-included365finincludesd365fin_mdmd"></a>Nuestro administrador me ha cambiado a otro plan para asignarme otro rol, pero sigo viendo la misma área de trabajo en [!INCLUDE[d365fin](includes/d365fin_md.md)].
-Esto es un poco complicado, pero parece que el administrador no ha cambiado el área de trabajo ni le ha asignado grupos de usuarios que coincidan con la nueva licencia. Fundamentalmente, su acceso a [!INCLUDE[d365fin](includes/d365fin_md.md)] está determinado por el tipo de plan (licencia) que tiene, el cual define los permisos y su área de trabajo predeterminada. Puede cambiar el área de trabajo manualmente en Mi configuración, pero si se le traslada a otro plan, como cambiarle del plan Empresa al plan Miembros de equipo, es posible que vea la página principal anterior porque sus permisos no han cambiado.  
+## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-home-screen-in-included365finincludesd365fin_mdmd"></a>Nuestro administrador me ha cambiado a otro plan para asignarme otro rol, pero sigo viendo la misma página principal en [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Esto es un poco complicado, pero parece que el administrador no ha cambiado el rol asignado ni le ha asignado grupos de usuarios que coincidan con la nueva licencia. Fundamentalmente, su acceso a [!INCLUDE[d365fin](includes/d365fin_md.md)] está determinado por el tipo de plan (licencia) que tiene, el cual define los permisos, su rol asignado y su pantalla de inicio predeterminada. Puede cambiar su rol actual manualmente en Mi configuración, pero si se le traslada a otro plan, como cambiarle del plan Empresa al plan Miembros de equipo, es posible que vea la pantalla de inicio anterior porque sus permisos no han cambiado.  
 
 ## <a name="can-i-cancel-my-subscription"></a>¿Puedo cancelar mi suscripción?
 Sí, pero dependiendo de cómo inició sesión en [!INCLUDE[d365fin](includes/d365fin_md.md)] se pueden eliminar o conservar sus datos. Para obtener más información, consulte [Cancelar [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-cancel.md).  
@@ -104,6 +106,6 @@ Por supuesto. Si lo hace, es posible que necesite una contraseña de aplicación
 [Cambiar la configuración básica](ui-change-basic-settings.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Obtener respuestas a las preguntas](product-get-started.md#getting-answers-to-questions)  
-[Gestionar usuarios y permisos](ui-how-users-permissions.md)  
+[Administrar usuarios y permisos](ui-how-users-permissions.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

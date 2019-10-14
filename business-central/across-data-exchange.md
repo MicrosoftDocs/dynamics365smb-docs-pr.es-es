@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8845f74e544b1c39f5260b799e81c31ea91fc77b
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 209516aff6195901f06705d2a2fb27d7144c4a0a
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240866"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300646"
 ---
 # <a name="exchanging-data-electronically"></a>Intercambio de datos electrónicamente
 Puede usar Marco de intercambio de datos para intercambiar documentos empresariales, archivos bancarios, tipos de cambio de divisa y cualquier otro archivo de datos con sus socios comerciales.

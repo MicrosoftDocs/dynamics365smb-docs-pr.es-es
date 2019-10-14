@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: a2d2394201f101ea368cfc616bf3c293c4c51e98
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 84cb09cbe7291ae0bd57997f5f23d04bd22cb898
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246938"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303921"
 ---
 # <a name="set-up-and-publish-kpi-web-services-based-on-account-schedules"></a>Configurar y publicar un servicio web KPI que se basa en esquemas de cuentas
 En la página **Configuración de servicio Web KPI de esquema de cuentas**, se configura cómo mostrar los datos KPI del esquema de cuentas y en qué esquemas de cuentas específicos se deben basar los KPI. Cuando elige el botón **Publicar servicio Web**, los datos especificados KPI de esquema de cuentas se agregan a la lista de servicios Web publicados en la página **Servicios Web**.  

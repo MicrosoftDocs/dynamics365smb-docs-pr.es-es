@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: b08864a4cf7f7f198d692a6658ae437856860a51
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 2595efa188aed593bf1d112f984acf411446959b
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247564"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307137"
 ---
 # <a name="design-details-posting-date-on-adjustment-value-entry"></a>Detalles de diseño: Fecha registro en el movimiento de valor de ajuste
 Este artículo proporciona una guía para los usuarios de la funcionalidad Coste de inventario en [!INCLUDE[d365fin](includes/d365fin_md.md)]. El artículo específico proporciona una guía de cómo el proceso **Valorar stock - movs. producto** identifica y asigna una fecha de registro a los movimientos de valor que creará.  
@@ -351,7 +351,7 @@ El proceso **Valorar stock - movs. producto** determina si la fecha inicial de r
  En el formulario de solicitud del proceso Registrar variación existencias, el usuario debe introducir una fecha de registro. El proceso ejecuta todos los movimientos de valor del filtro, si los hay, y crea movimientos de contabilidad con la fecha de registro en el formulario de solicitud.  
 
 ### <a name="version-370b40"></a>Versión 3.70.B..4.0  
- En el formulario de solicitud del proceso Registrar variación existencias, está disponible el campo fecha de registro de movimiento de período cerrado. El programa usa la fecha especificada en este campo como la fecha de registro de los movimientos de contabilidad que crea para los movimientos de valor cuyas fechas de registro están en periodos contables cerrados. De lo contrario, los movimientos de contabilidad tendrán la misma fecha de registro que los movimientos de valor originales. Se considera que una fecha se encuentra en un período cerrado cuando es anterior a la fecha del campo Permitir registro desde de la Configuración de contabilidad. Si registran en contabilidad por grupo contable, los movimientos de contabilidad generales tendrán la fecha de registro que se especifica en el campo Fecha registro del formulario de solicitud.  
+ En el formulario de solicitud del proceso Registrar variación existencias, está disponible el campo fecha de registro de movimiento de período cerrado. La aplicación usa la fecha especificada en este campo como la fecha de registro de los movimientos de contabilidad que crea para los movimientos de valor cuyas fechas de registro están en periodos contables cerrados. De lo contrario, los movimientos de contabilidad tendrán la misma fecha de registro que los movimientos de valor originales. Se considera que una fecha se encuentra en un período cerrado cuando es anterior a la fecha del campo Permitir registro desde de la Configuración de contabilidad. Si registran en contabilidad por grupo contable, los movimientos de contabilidad generales tendrán la fecha de registro que se especifica en el campo Fecha registro del formulario de solicitud.  
 
  En la versión 3 y 4 el proceso se buscan todos los movimientos de valor para averiguar si hay alguno donde el Importe de coste (Real) sea diferente del Coste registrado en contabilidad. Si hay una diferencia, el importe diferente se registrará en un movimiento de contabilidad. Si se utiliza el registro de costes esperado, los campos correspondientes se procesarán del mismo modo.  
 

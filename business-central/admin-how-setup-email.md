@@ -2,28 +2,28 @@
 title: Configurar el correo electrónico en Business Central | Documentos de Microsoft
 description: Describe cómo usar el servidor SMTP de la empresa para enviar y recibir mensajes de correo electrónico en Business Central, así como el modo de usar la configuración del servidor de correo electrónico creada con la suscripción de Office 365.
 documentationcenter: ''
-author: edupont04
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 09/09/2019
-ms.author: edupont
-ms.openlocfilehash: b9a443072d13e3cbf5f8e07006bea5477c275968
-ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 90e119dc44a23bcd9dca7920d05538ac685a44f6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "1985939"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304617"
 ---
 # <a name="set-up-email"></a>Configurar correo electrónico
 Para enviar y recibir los correos electrónicos desde [!INCLUDE[d365fin](includes/d365fin_md.md)], debe rellenar los campos de la página Configuración correo SMTP.
 
 En lugar de especificar los detalles del servidor SMTP manualmente, puede utilizar la función **Aplicar la configuración del servidor de Office 365** para introducirlos con la información de su suscripción de Office 365.
 
-Puede configurar el correo electrónico manualmente o puede obtener ayuda mediante la guía de configuración asistida **Configuración correo electrónico**. Para obtener más información, vea [Preparación para hacer negocios](ui-get-ready-business.md).  
+Puede configurar el correo electrónico manualmente, tal como se describe a continuación, o puede obtener ayuda mediante la guía de configuración asistida **Configuración correo electrónico**. Para obtener más información, vea [Preparación para hacer negocios](ui-get-ready-business.md).  
 
 ## <a name="to-set-up-email"></a>Para configurar el correo electrónico
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración correo electrónico SMTP** y luego elija el enlace relacionado.

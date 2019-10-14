@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4581e1f21e87190d75aa0048e9f5aabf8dd85fe0
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 95feecd98debfe6595ca66b23bf38085f245f025
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244359"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304126"
 ---
 # <a name="sell-assemble-to-order-items-and-inventory-items-together"></a>Vender productos de ensamblado para pedido y productos de inventario juntos
 Si el campo **Directiva de ensamblado** de la ficha de producto de un elemento del ensamblado contiene **Ensamblar para stock**, el proceso de pedido de venta predeterminado supone que el producto está ensamblado y se puede ya seleccionar del inventario, si está disponible. Por tanto, no se crea ni vincula ningún pedido de ensamblado automáticamente a la línea de pedido de venta. Sin embargo, si parte de la cantidad (o toda) no está disponible, tiene la flexibilidad de crear un pedido de ensamblado para la cantidad pendiente rellenando el campo **Cdad. al ensamblar para pedido** de la línea de pedido de venta. De esta forma, puede ensamblar el producto para pedido aunque esté configurado para ensamblarse para stock de forma predeterminada.  

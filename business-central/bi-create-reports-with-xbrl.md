@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0576f2e7b93040118d2ef31458939d9b9822a6aa
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 6a327ffa67dcf5f9a388c99b236ce9cbf5755561
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247007"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307545"
 ---
 # <a name="create-reports-with-xbrl"></a>Crear informes con XBRL
 XBRL, siglas en inglés de eXtensible Business Reporting Language (Lenguaje ampliado para informes comerciales), es un lenguaje basado en XML para etiquetar datos financieros que permite a las empresas procesar y compartir sus datos de manera eficiente y precisa. La iniciativa XBRL permite los informes financieros mundiales a numerosas empresas de software ERP y organizaciones internacionales de contabilidad. El objetivo de la iniciativa es proporcionar una norma para informes uniformes sobre información financiera para bancos, inversores y autoridades. Estos informes comerciales pueden incluir:  
@@ -34,7 +34,7 @@ XBRL (e **X**tensible **B**usiness **R**eporting **L**anguage, Lenguaje ampliado
 
 El sitio Web www.xbrl.org mantiene las taxonomías. Para obtener más información o descargar taxonomías visite el sitio Web de XBRL.  
 
-Si alguien desea su información financiera, le proporcionará una taxonomía (un documento XML) que contiene uno o varios esquemas, cada uno con una o varias líneas. Las líneas corresponden a operaciones financieras individuales que requiere el remitente. Importe esta taxonomía en el sistema y rellene los esquemas introduciendo las cuentas que corresponden a cada línea, el tipo de periodo, por ejemplo, el saldo del periodo o el saldo a la fecha. En algunos casos puede introducir una constante, por ejemplo, el número de empleados. Ahora ya puede enviar el documento de instancia (un documento XML) a quien le ha solicitado la información. La idea es que esto puede ser un evento periódico, por lo que si no ha hecho cambios en la taxonomía, sólo tiene que exportar los nuevos documentos de instancia para los nuevos periodos cuando se lo soliciten.  
+Si alguien desea su información financiera, le proporcionará una taxonomía (un documento XML) que contiene uno o varios esquemas, cada uno con una o varias líneas. Las líneas corresponden a operaciones financieras individuales que requiere el remitente. Importe esta taxonomía en la aplicación y rellene los esquemas introduciendo las cuentas que corresponden a cada línea, el tipo de periodo, por ejemplo, el saldo del periodo o el saldo a la fecha. En algunos casos puede introducir una constante, por ejemplo, el número de empleados. Ahora ya puede enviar el documento de instancia (un documento XML) a quien le ha solicitado la información. La idea es que esto puede ser un evento periódico, por lo que si no ha hecho cambios en la taxonomía, sólo tiene que exportar los nuevos documentos de instancia para los nuevos periodos cuando se lo soliciten.  
 
 ## <a name="xbrl-is-comprised-of-the-following-components"></a>XBRL consta de los siguientes componentes:  
 La **especificación** XBRL explica lo que es XBRL, cómo generar documentos de instancia XBRL y taxonomías XBRL. La especificación XBRL explica XBRL en términos técnicos y está pensada para un público técnico.  
@@ -55,7 +55,7 @@ Una taxonomía puede componerse de una taxonomía base, por ejemplo, us-gaap o I
 
 -   Base de enlaces de etiqueta: Esta base de enlaces contiene etiquetas o nombres de los elementos. El archivo puede contener etiquetas en diferentes idiomas que se identifican con una propiedad XML denominada 'lang'. El identificador de idioma XML contiene, normalmente, una abreviatura de dos letras y, por lo tanto, es fácil saber qué significa la abreviatura, no existe ninguna conexión con el código de idioma de Windows ni con los códigos de idioma definidos en los datos de demostración. Cuando el usuario busque los idiomas de una taxonomía específica, verá todas las etiquetas del primer elemento de la taxonomía, lo que significa que, a continuación, podrá ver un ejemplo de cada idioma. Una taxonomía puede tener varias bases de enlaces de etiquetas adjuntas siempre que estas bases contengan diferentes idiomas.  
 
--   Base de enlaces de presentación: Esta base de enlaces contiene información sobre la estructura de los elementos, o más exactamente, cómo sugiere el emisor de la taxonomía que el sistema la presente al usuario. La base de enlaces contiene una serie de enlaces que conectan dos elementos como padre e hijo. Al aplicar estos enlaces, los elementos pueden mostrarse de forma jerárquica. Tenga en cuenta que la base de enlaces de presentación sólo se ocupa de: la presentación de elementos al usuario.  
+-   Base de enlaces de presentación: Esta base de enlaces contiene información sobre la estructura de los elementos, o más exactamente, cómo sugiere el emisor de la taxonomía que la aplicación la presente al usuario. La base de enlaces contiene una serie de enlaces que conectan dos elementos como padre e hijo. Al aplicar estos enlaces, los elementos pueden mostrarse de forma jerárquica. Tenga en cuenta que la base de enlaces de presentación sólo se ocupa de: la presentación de elementos al usuario.  
 
 -   Base de enlaces de cálculo: Esta base de enlaces contiene información sobre los elementos que se distribuyen a otros elementos. La estructura es muy parecida a la de la base de enlaces de presentación, excepto que cada enlace o 'arc', como se denominan, tiene una propiedad Weight. La propiedad Weight puede ser 1 o –1, que indica si el elemento debe agregarse o eliminarse de su elemento padre. Tenga en cuenta que las distribuciones no tienen que mantenerse necesariamente con la presentación visual.  
 

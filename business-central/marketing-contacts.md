@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 09/06/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a0db1779172a9b2822ad4898e9dbf82e68b58622
-ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
+ms.openlocfilehash: 510252387dfb2acef7163819f223b6bcb49ac0f9
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "1985744"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309345"
 ---
 # <a name="managing-contacts"></a>Gestionar contactos
 Los empleados de su empresa se reúnen periódicamente con posibles relaciones de negocio que pueden convertirse en relaciones formales. Todos estos contactos externos y su información detallada deben registrarse en el sistema para que la comunicación sea más satisfactoria y puedan convertirse fácilmente en relaciones formales con clientes, proveedores o bancos.

@@ -8,17 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 06/26/2019
+ms.date: 10/01/2019
 ms.author: solsen
-ms.openlocfilehash: 10ccbc7546aa5d03c3837997a721c63c3ce465da
-ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
+ms.openlocfilehash: d945a6b851c20479a4c8c83f38b8fc8ccdfd6765
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1796670"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300430"
 ---
-[!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
-
 # <a name="creating-a-sandbox-environment"></a>Crear un entorno aislado
 Un entorno aislado (vista preliminar) es una instancia de no producción de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Aislado de la producción, un entorno aislado es el lugar para explorar, aprender, demostrar, desarrollar y probar el servicio de forma segura sin el riesgo de afectar los datos y la configuración de su entorno de producción.
 
@@ -46,7 +44,7 @@ Debe tener una suscripción a [!INCLUDE[d365fin](includes/d365fin_md.md)] para p
 
     > [!NOTE]
     > Un entorno aislado creado de esta manera solo contiene los datos de demostración predeterminados para la empresa de CRONUS. No se copian ni se transfieren datos del entorno de producción.<br /><br />
-    > También puede crear un entorno aislado que contenga los datos de producción. Debe hacerlo a través del centro de administración. Para obtener más información, consulte [Administración de entornos](/business-central/dev-itpro/administration/tenant-admin-center-environments) en la Ayuda para desarrolladores y profesionales de TI.
+    > También puede crear un entorno aislado que contenga los datos de producción. Debe hacerlo a través del centro de administración. Para obtener más información, consulte [Administración de entornos](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments) en la Ayuda para desarrolladores y profesionales de TI.
 
 6. Cuando lo desee puede volver a la página **Entorno aislado** y restablecerlo.
     > [!NOTE]  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a26cafc11479d7065645947f63fa93d28ddb824f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 3106cb9b89f25470c433b6f33e0e541bcf7c8e31
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246022"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307449"
 ---
 # <a name="design-details-assembly-order-posting"></a>Detalles de diseño: Registro de pedidos de ensamblado
 El registro de pedidos de ensamblado se basa en los mismos principios que al registrar las actividades similares de los pedidos de venta y el consumo o la salida de producción. No obstante, los principios que se agrupan en los pedidos de ensamblado tienen su propia IU de registro, como para los pedidos de venta, mientras que el registro real de movimientos se produce en segundo plano como registro de productos directos y registro de diario de recursos, como con el de consumo, la salida y la capacidad de producción.  
@@ -96,11 +96,11 @@ Eso se habilita mediante la estructura de datos siguiente.
 
 Además, los campos del grupo contable de la cabecera de pedido de ensamblado y las líneas de pedido de ensamblado se rellenan de forma predeterminada como sigue.  
 
-|Entidad|Escriba|IVA prod. genér.|Grupo contable producto|  
+|Entidad|Escriba|IVA prod. genér.|Gen. Grupo registro prod.|  
 |------------|----------|-------------------|------------------------------|  
-|Cabecera de pedido de ensamblado|Producto|Grupo contable existencias|Grupo contable producto|  
-|Línea de pedido ensamblado|Producto|Grupo contable existencias|Grupo contable producto|  
-|Línea de pedido ensamblado|Recurso||Grupo contable producto|  
+|Cabecera de pedido de ensamblado|Producto|Grupo contable existencias|Gen. Grupo registro prod.|  
+|Línea de pedido ensamblado|Producto|Grupo contable existencias|Gen. Grupo registro prod.|  
+|Línea de pedido ensamblado|Recurso||Gen. Grupo registro prod.|  
 
 Por consiguiente, en la contabilidad solo se registran los costes reales, y no se rellena ninguna cuenta provisional a partir del registro de pedidos de ensamblado. Para obtener más información, consulte [Detalles de diseño: cuentas en la contabilidad](design-details-accounts-in-the-general-ledger.md).  
 

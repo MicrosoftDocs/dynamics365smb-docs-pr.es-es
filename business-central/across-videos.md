@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: video, library, how to
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 685487de30a50defa5fd3908c3b049e639a12843
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: bfcf6190250ba05ac5556d5c7543df6c4e9fa34e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244891"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304737"
 ---
 # <a name="visit-our-video-library"></a>Visite nuestra biblioteca de vídeos
 Tengan paciencia mientras reconstruimos nuestra biblioteca de videos de ayuda. Un efecto secundario de las recientes mejoras en [!INCLUDE[d365fin](includes/d365fin_md.md)] es que tenemos que reproducir nuestro contenido para que refleje con precisión el producto.
@@ -42,7 +42,7 @@ Solo por mencionar algunos ejemplos, los videos que estamos actualizando se most
 
 * Migrar datos de empresa de otras aplicaciones financieras a [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 * Configurar dimensiones para que pueda rastrear y analizar varios documentos y entidades
-* Conectar [!INCLUDE[d365fin](includes/d365fin_md.md)] con Dynamics 365 for Sales
+* Conectar [!INCLUDE[d365fin](includes/d365fin_md.md)] con Dynamics 365 Sales
 * Configurar flujos de trabajo de aprobación  
 * Usar Power BI con [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 * Configurar el correo electrónico y enviar documentos directamente desde [!INCLUDE[d365fin](includes/d365fin_md.md)]  

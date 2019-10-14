@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 529f1c71111fd6ea0b93e7d29d2f5f6b6f1df3ae
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 025b8fb9100d8418e9e157e8098afe19d24843fc
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247502"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303753"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Detalles de diseño: Conceptos centrales del sistema de planificación
 Las funciones de planificación se incluyen en un proceso que primero selecciona los productos correspondientes y el periodo que se planificará. A continuación, según el código de nivel inferior de cada producto (posición de la L.M.), el proceso llama a una codeunit que calcula un plan de suministro equilibrando los conjuntos de suministro y demanda, y sugiriendo acciones posibles que puede realizar el usuario. Las acciones sugeridas aparecen como líneas en la hoja de planificación o la hoja de demanda.  
@@ -26,7 +26,7 @@ Las funciones de planificación se incluyen en un proceso que primero selecciona
 
 Se supone que el planificador de una empresa, como un comprador o un planificador de producción, es el usuario del sistema de planificación. El sistema de planificación ayuda al usuario a realizar los cálculos completos pero bastante sencillos de un plan. El usuario podrá concentrarse en resolver problemas más difíciles, como, por ejemplo, cuando las cosas son distintas de las normales.  
 
-El sistema de planificación se basa en la demanda de cliente anticipada y real, como los pedidos previstos y de venta. Si se ejecuta el cálculo de la planificación, el programa sugerirá acciones concretas al usuario en relación con un posible aprovisionamiento desde los proveedores, departamentos de producción o de ensamblado o transferencias desde otros almacenes. Estas acciones sugeridas podrían ser crear nuevos pedidos de suministro, como pedidos de compra u órdenes de producción. Si ya hay pedidos de aprovisionamiento, las acciones sugeridas pueden ser aumentar o acelerar los pedidos para satisfacer los cambios de la demanda.  
+El sistema de planificación se basa en la demanda de cliente anticipada y real, como los pedidos previstos y de venta. Si se ejecuta el cálculo de la planificación, la aplicación sugerirá acciones concretas al usuario en relación con un posible aprovisionamiento desde los proveedores, departamentos de producción o de ensamblado o transferencias desde otros almacenes. Estas acciones sugeridas podrían ser crear nuevos pedidos de suministro, como pedidos de compra u órdenes de producción. Si ya hay pedidos de aprovisionamiento, las acciones sugeridas pueden ser aumentar o acelerar los pedidos para satisfacer los cambios de la demanda.  
 
 Otro objetivo del sistema de planificación es el de garantizar que las existencias no aumentan innecesariamente. En el caso de un descenso de la demanda, el programa de planificación sugerirá al usuario que se pospongan o cancelen algunos de los pedidos de aprovisionamiento existentes, o que se reduzcan sus cantidades.  
 
@@ -66,7 +66,7 @@ En empresas con un flujo de productos bajo y menos estructuras de producto avanz
 ### <a name="dynamic-order-tracking-versus-the-planning-system"></a>Seguimiento dinámico de pedidos frente al sistema de planificación  
 Con un vistazo rápido puede ser complicado diferenciar entre el sistema de planificación y el seguimiento dinámico de pedidos. Ambas funciones muestran la salida en la hoja de trabajo de la planificación mediante la sugerencia de acciones que el planificador debe realizar. No obstante, la forma en la que se produce esta salida es diferente.  
 
-El sistema de planificación se ocupa de todo el patrón de suministro-demanda de un producto a través de todos los niveles de la jerarquía de la L.M. a lo largo de la escala temporal, mientras que el seguimiento dinámico de pedidos solo se ocupa de la situación del pedido que lo ha activado. Al equilibrar la demanda y el suministro, el sistema de planificación crea vínculos en un modo por lotes activado por el usuario, mientras que el seguimiento dinámico de pedidos crea los vínculos de forma automática y dinámica, siempre que el usuario introduce una demanda o un suministro en el programa, como, por ejemplo, un pedido de venta o un pedido de compra.  
+El sistema de planificación se ocupa de todo el patrón de suministro-demanda de un producto a través de todos los niveles de la jerarquía de la L.M. a lo largo de la escala temporal, mientras que el seguimiento dinámico de pedidos solo se ocupa de la situación del pedido que lo ha activado. Al equilibrar la demanda y el suministro, el sistema de planificación crea vínculos en un modo por lotes activado por el usuario, mientras que el seguimiento dinámico de pedidos crea los vínculos de forma automática y dinámica, siempre que el usuario introduce una demanda o un suministro en la aplicación, por ejemplo, un pedido de venta o un pedido de compra.  
 
 El seguimiento dinámico de pedidos establece vínculos entre aprovisionamiento y demanda cuando se introducen datos según orden de entrada. Esto puede provocar un desorden en las prioridades. Por ejemplo, un pedido de venta que se ha registrado primero, con una fecha de vencimiento en el siguiente mes, se puede vincular al aprovisionamiento en inventario, mientras que el siguiente pedido de venta con vencimiento al día siguiente puede hacer que un mensaje de acción cree un nuevo pedido de compra para cubrirlo, tal como se ilustra a continuación.  
 
@@ -97,9 +97,9 @@ Para obtener más información acerca de las consideraciones de fabricación, co
 ### <a name="locations--transfer-level-priority"></a>Prioridad de ubicaciones o de nivel de transferencia  
 Las empresas que trabajan con más de un almacén pueden tener que planificar para cada almacén por individual. Por ejemplo, el nivel de existencias de seguridad de un producto y su directiva de reaprovisionamiento pueden diferir de un almacén a otro. En este caso, los parámetros de planificación deben especificarse por producto y también por almacén.  
 
-Se admite con el uso de UA, donde los parámetros individuales de planificación se pueden especificar en el nivel de UA. Las UA se pueden considerar como productos en un almacén específico. Si el usuario no ha definido una UA para ese almacén, el programa establecerá los parámetros en su valor establecido en la ficha del producto. El programa calcula un plan para las ubicaciones activas únicamente, que es donde hay demanda o suministro existente para el producto indicado.  
+Se admite con el uso de UA, donde los parámetros individuales de planificación se pueden especificar en el nivel de UA. Las UA se pueden considerar como productos en un almacén específico. Si el usuario no ha definido una UA para ese almacén, la aplicación establecerá los parámetros en su valor establecido en la ficha del producto. La aplicación calcula un plan para las ubicaciones activas únicamente, que es donde hay demanda o suministro existente para el producto indicado.  
 
-En principio, cualquier producto puede gestionarse en cualquier almacén, pero el acercamiento del programa al concepto de almacén es muy estricto. Por ejemplo, un pedido de venta en un almacén no se puede satisfacer con una cantidad en existencias en otro almacén. La cantidad de existencias primero se debe transferir a la ubicación especificada en el pedido de venta.  
+En principio, cualquier producto puede gestionarse en cualquier almacén, pero el enfoque del programa en cuanto al concepto de almacén es muy estricto. Por ejemplo, un pedido de venta en un almacén no se puede satisfacer con una cantidad en existencias en otro almacén. La cantidad de existencias primero se debe transferir a la ubicación especificada en el pedido de venta.  
 
 ![Planificación de las unidades de almacenamiento](media/NAV_APP_supply_planning_1_SKU_planning.png "Planificación de las unidades de almacenamiento")  
 
@@ -124,7 +124,7 @@ Si el usuario ha introducido un nuevo pedido de venta o ha cambiado uno existent
 
 El sistema de planificación supervisa dichos eventos y asigna los productos adecuados para realizar la planificación.  
 
-En el caso de ubicaciones múltiples, la asignación se realiza en el nivel de producto por combinación de almacén. Si, por ejemplo, se ha creado un pedido de venta en solo una ubicación, el programa asignará el producto a esa ubicación específica para planificar.  
+En el caso de ubicaciones múltiples, la asignación se realiza en el nivel de producto por combinación de almacén. Si, por ejemplo, se ha creado un pedido de venta en solo una ubicación, la aplicación asignará el producto a esa ubicación específica para planificar.  
 
 El motivo para seleccionar productos para la planificación es cuestión de rendimiento del sistema. Si no se ha producido ningún cambio en el patrón de demanda-aprovisionamiento de un producto, el sistema de planificación no sugerirá ninguna acción. Sin la asignación de planificación, el sistema tendría que realizar cálculos para todos los productos a fin de averiguar para qué debe planificar y lo que agotaría los recursos del sistema.  
 
@@ -146,7 +146,7 @@ La demanda y el aprovisionamiento pueden llevar códigos de variante y códigos 
 
 El sistema trata los códigos de variante y de ubicación como dimensiones de producto en una línea de pedido de venta, un movimiento de contabilidad, etc. Por consiguiente, se calcula un plan para cada combinación de variante y almacén, como si la combinación fuera un número de producto aparte.  
 
-En lugar de calcular cualquier combinación teórica de variante y ubicación, el programa solo calcula las combinaciones que existen realmente en la base de datos.  
+En lugar de calcular cualquier combinación teórica de variante y ubicación, la aplicación solo calcula las combinaciones que existen realmente en la base de datos.  
 
 Para obtener más información sobre cómo el sistema de planificación gestiona los códigos de almacén en demandas, consulte [Detalles de diseño: Demanda en almacén vacío](design-details-balancing-demand-and-supply.md).  
 
@@ -252,7 +252,7 @@ La advertencia de atención se muestra en tres situaciones:
 ## <a name="error-logs"></a>Registros de errores  
 En la página de la solicitud Calcular plan, el usuario puede seleccionar el campo **Parar y mostrar primer error** para incluir una parada en la ejecución de la planificación cuando se encuentre el primer error. Además, mostrará un mensaje con información sobre el error. Si hay algún error, solo se mostrarán en la hoja de planificación las líneas de planificación correctas realizadas antes de que se produjera el error.  
 
-Si el campo no está seleccionado, el trabajo por lotes Calcular plan continuará hasta que se haya completado. Los errores no interrumpirán el trabajo por lotes. Si hay errores, el programa mostrará un mensaje al final, para indicar cuántos productos se ven afectados por los errores. A continuación, se abrirá la página **Registro error planificación**, con más información sobre el error y vínculos a los documentos afectados o las fichas de configuración.  
+Si el campo no está seleccionado, el trabajo por lotes Calcular plan continuará hasta que se haya completado. Los errores no interrumpirán el trabajo por lotes. Si hay errores, la aplicación mostrará un mensaje al final, para indicar cuántos productos se ven afectados por los errores. A continuación, se abrirá la página **Registro error planificación**, con más información sobre el error y vínculos a los documentos afectados o las fichas de configuración.  
 
 ![Mensajes de error en la hoja de planificación](media/NAV_APP_supply_planning_1_error_log.png "Mensajes de error en la hoja de planificación")  
 

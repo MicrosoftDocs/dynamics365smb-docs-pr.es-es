@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: move, warehouse
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: SorenGP
-ms.openlocfilehash: 95ce328595bccaff230699c56e603ba55f9375b7
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 26ce0f4661a44c1f478b38a2709015ea6ff1f602
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240101"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309705"
 ---
 # <a name="transfer-inventory-between-locations"></a>Transferir el inventario entre almacenes
 Puede transferir inventarios de productos entre almacenes creando pedidos de transferencia. También puede usar el diario de reclasificación de productos.
@@ -31,20 +31,24 @@ Para transferir productos, se deben configurar las ubicaciones y las rutas de tr
 
 ## <a name="to-transfer-items-with-a-transfer-order"></a>Para transferir productos con un pedido de transferencia
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos de transferencia** y luego elija el enlace relacionado.
-2. En la página **Pedido de transferencia**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. En la cabecera de la página **Pedido de transferencia**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
     >   Si ha rellenado los campos **Cód. en tránsito**, **Cód. transportista** y **Cód. servicio transportista** en la página **Ruta transf. espec.** cuando configuró la ruta de transferencia, los campos correspondientes del pedido de transferencia se rellenan automáticamente.
 
     Cuando se especifica un valor en el campo **Servicio transportista**, se calcula la fecha de recepción en el almacén de destino de la transferencia, sumando el tiempo de envío del transportista a la fecha de envío.
 
+3. Para rellenar las líneas, introdúzcalas manualmente o elija una de las siguientes opciones en la acción **Funciones**:
+    - Elija la acción **Traer conten. ubicac.** para seleccionar productos existentes de un contenedor específico en el almacén.
+    - Elija la acción **Traer líns. albarán** para seleccionar productos que acaban de llegar al almacén de transferencia.   
+
     Como trabajador de almacén en el almacén de procedencia de la transferencia, continúe con el envío de los productos.
-3. Seleccione la acción **Registrar**, seleccione la opción **Envío** y seleccione el botón **Aceptar**.
+4. Seleccione la acción **Registrar**, seleccione la opción **Envío** y seleccione el botón **Aceptar**.
 
     Los productos ahora se encuentran en tránsito entre las ubicaciones especificadas, según la ruta de transferencia especificada.
 
-    Como trabajador de almacén en el almacén de procedencia de la transferencia, continúe con la recepción de los productos.
-4. Seleccione la acción **Registrar**, seleccione la opción **Recepción** y seleccione el botón **Aceptar**.
+    Como trabajador de almacén en el almacén de procedencia de la transferencia, continúe con la recepción de los productos. Las líneas del pedido de transferencia son las mismas que en el envío y no se pueden editar.
+5. Seleccione la acción **Registrar**, seleccione la opción **Recepción** y seleccione el botón **Aceptar**.
 
 ## <a name="to-transfer-items-with-the-item-reclassification-journal"></a>Para transferir productos con el diario de reclasificación de productos
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diarios reclasif. producto** y luego elija el enlace relacionado.

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7b6b4c31b19b85ae33eb3d4a8be0e2e3d5c14320
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c5a3ce2049b1686da04842f7c73abb2255369ffa
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247310"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2306993"
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Detalles de diseño: Flujo de salida del almacén
 El flujo de salida en el almacén comienza con una solicitud de los documentos de origen lanzados para sacar los productos del almacén, para enviarlos a una parte externa o a otra ubicación de la empresa. Desde el área de almacenamiento, las actividades de almacén se llevan a cabo en distintos niveles de complejidad para extraer productos de las dársenas de envío.  
@@ -73,7 +73,7 @@ Además, existen los siguientes documentos de origen internos que funcionan como
 
  En el caso de selecciones de inventario, se crean movimientos de producto negativos y movimientos de almacén, así como se elimina la solicitud de selección si se ha gestionado íntegramente. Por ejemplo, se actualiza el campo **Cantidad enviada** en la línea de salida del documento de origen. Se crea un documento de envío registrado que refleja el pedido de venta, por ejemplo, y los productos enviados.  
 
-## <a name="advanced-warehouse-configurations"></a>Configuración avanzada de almacén  
+## <a name="advanced-warehouse-configurations"></a>Configuraciones avanzadas de almacén  
  En el diagrama siguiente se ilustran los flujos de almacén de salida por tipo de documento en la configuración avanzada de almacén. Los números del diagrama corresponden a los pasos de las secciones que siguen el diagrama.  
 
  ![Flujo de salida en la configuración avanzada de almacén](media/design_details_warehouse_management_outbound_advanced_flow.png "Flujo de salida en la configuración avanzada de almacén")  

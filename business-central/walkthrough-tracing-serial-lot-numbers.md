@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 913537f5fad5732c729a5e00894400bedcf949b3
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: a1a339c57e47f3722050209acbe83e246ccdbbb6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249037"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310497"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Tutorial: seguimiento de números de serie/lote
 
@@ -78,7 +78,7 @@ A continuación, deberá crear diversas transacciones de compra, producción y v
 2.  Seleccione la acción **Nuevo**.  
 3.  En el campo **N.º**, escriba **2000** y rellene los siguientes campos.  
 
-    |Descripción|Unidad medida base|Grupo contable producto|Grupo registro IVA prod.|Grupo contable existencias|Cód. seguim. prod.|  
+    |Descripción|Unidad medida base|Gen. Grupo registro prod.|Grupo registro IVA prod.|Grupo contable existencias|Cód. seguim. prod.|  
     |-----------------|--------------------------|------------------------------|-----------------------------|-----------------------------|------------------------|  
     |Cuadro de bicicleta|UDS|MAT. PRIMA|IVA25|MAT. PRIMA|SEGLOTE|  
 
@@ -90,7 +90,7 @@ A continuación, deberá crear diversas transacciones de compra, producción y v
 6.  Elija **Nuevo**.  
 7.  En el campo **N.º**, escriba **1002** y rellene los siguientes campos.  
 
-    |Descripción|Unidad medida base|Grupo contable producto|Grupo registro IVA prod.|Grupo contable existencias|Sistema reposición|Cód. seguim. prod.|  
+    |Descripción|Unidad medida base|Gen. Grupo registro prod.|Grupo registro IVA prod.|Grupo contable existencias|Sistema reposición|Cód. seguim. prod.|  
     |-----------------|--------------------------|------------------------------|-----------------------------|-----------------------------|--------------------------|------------------------|  
     |Bicicleta de carreras|UDS|MERCADERÍA|IVA25|TERMINADA|Or. prod.|SEGNS|  
 

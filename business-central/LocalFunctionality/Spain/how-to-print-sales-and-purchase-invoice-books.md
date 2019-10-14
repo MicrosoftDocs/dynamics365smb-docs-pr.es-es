@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b8c157c7b95a3839daa0ec48c5c9a63e110964ef
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 2fe2d5af5f245da41ea933f531017ebede7d4255
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241472"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301089"
 ---
 # <a name="print-sales-and-purchase-invoice-books"></a>Imprimir libros de facturas emitidas y recibidas
 Los informes **Libro facturas emitidas** y **Libro facturas recibidas** permiten comprobar todos los documentos de compras y ventas creados en un periodo específico.  

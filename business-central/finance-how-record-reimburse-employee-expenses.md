@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 660cb4d9f2238bffeb1c7eaf49d5d70dbb654f45
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 825658d88ea38a3c0c93d77c760707ae086f796f
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244796"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2306202"
 ---
 # <a name="record-and-reimburse-employees-expenses"></a>Registro y reembolso de los costes de los empleados
 [!INCLUDE[d365fin](includes/d365fin_md.md)] soporta transacciones para empleados de una manera similar a los proveedores. En consecuencia, existen grupos de contabilización de empleados para asegurarse de que las entradas del libro mayor de empleados se registran en las cuentas relevantes del libro mayor.
@@ -55,6 +55,6 @@ Aplique los pagos de los empleados a las entradas del libro mayor relacionadas, 
 ## <a name="see-also"></a>Consulte también
 [Registrar transacciones directamente en la contabilidad](finance-how-post-transactions-directly.md)  
 [Trabajar con diarios generales](ui-work-general-journals.md)  
-[Revertir registros](finance-how-reverse-journal-posting.md)  
+[Revertir los registros de diario y deshacer los recibos/envíos](finance-how-reverse-journal-posting.md)  
 [Finanzas](finance.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

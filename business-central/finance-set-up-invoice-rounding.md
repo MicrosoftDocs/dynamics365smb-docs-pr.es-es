@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 4ab5031668e9db877a4ea04f77160794162ca7a1
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 399216085913c576007bd5996cef4f3192362c4b
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1239503"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2305649"
 ---
 # <a name="set-up-invoice-rounding"></a>Configurar redondeo de factura
 Si necesita redondear importes de facturas cuando se crean, puede utilizar la función de redondeo automático. Cuando se redondea una factura, se añade una línea adicional en el importe redondeado y se registra con las demás líneas de la factura.

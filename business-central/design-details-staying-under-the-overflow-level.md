@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
-ms.openlocfilehash: 250de9bf843dac7bfca08d8f3a9dcd4ea44586df
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: bf602a0a7688c0459b4f7a3711e4f3d75bd8ef00
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240055"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2306801"
 ---
 # <a name="design-details-staying-under-the-overflow-level"></a>Detalles de diseño: Mantenimiento por debajo de los niveles de desbordamiento
 Cuando se usan políticas de cantidad máxima y cantidad fija, el sistema de planificación se centra en el inventario proyectado únicamente en el ciclo indicado. Esto significa que el sistema de planificación puede sugerir un suministro superfluo cuando se producen cambios de demanda negativa o de suministro positivo fuera del ciclo determinado. Si, por esta razón, se sugiere un aprovisionamiento superfluo, el sistema de planificación calcula qué cantidad de aprovisionamiento debe disminuirse (o eliminarse) para evitar un aprovisionamiento superfluo. Esta cantidad se denomina “nivel de desbordamiento.” El desbordamiento se comunica como una línea de planificación con una acción de **Cambiar cantidad. (salida)** o **Cancelar** y el mensaje de advertencia siguiente:  

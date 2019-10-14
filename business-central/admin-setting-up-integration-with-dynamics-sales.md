@@ -1,5 +1,5 @@
 ---
-title: Configuración de cuentas de usuario para la integración con Dynamics 365 for Sales | Documentos de Microsoft
+title: Configuración de cuentas de usuario para la integración con Dynamics 365 Sales | Documentos de Microsoft
 description: Obtenga información sobre cómo configurar las cuentas de usuario que las aplicaciones usan para intercambiar datos y que los usuarios usan para acceder y sincronizar datos en las aplicaciones.
 services: project-madeira
 documentationcenter: ''
@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 0f59324e41695e35e09a2dd970492acb3a8dba58
-ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
+ms.openlocfilehash: a876df301476cb6b4af335e8ee957de26865cbaa
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "1726887"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307833"
 ---
-# <a name="setting-up-user-accounts-for-integrating-with-dynamics-365-for-sales"></a>Configuración de cuentas de usuario para la integración con Dynamics 365 for Sales
+# <a name="setting-up-user-accounts-for-integrating-with-dynamics-365-sales"></a>Configuración de cuentas de usuario para la integración con Dynamics 365 Sales
 Este artículo proporciona una visión general de cómo configurar las cuentas de usuario que se necesitan para integrar [!INCLUDE[crm_md](includes/crm_md.md)] con [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2085500]
@@ -36,14 +36,14 @@ Debe crear una cuenta de usuario dedicada en su suscripción de Office 365 que [
 > No utilice la cuenta de administrador de [!INCLUDE[crm_md](includes/crm_md.md)] para la sincronización. Si lo hace, la sincronización se interrumpirá.
 > Además, para evitar una sincronización constante, los cambios en los datos realizados por la cuenta de usuario de integración no están sincronizados. <!--What changes would this account make?--> Una vez establecida la conexión, se recomienda configurar el modo de acceso de la cuenta de usuario para la integración en modo no interactivo en [!INCLUDE[crm_md](includes/crm_md.md)]. Para obtener más información, consulte [Crear una cuenta de usuario no interactiva](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account).
 
-## <a name="setting-up-accounts-for-sales-people"></a>Configuración de cuentas para vendedores
+## <a name="setting-up-accounts-sales-people"></a>Configuración de cuentas de vendedores
 Debe crear cuentas de usuario en [!INCLUDE[crm_md](includes/crm_md.md)] para los vendedores desde [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para hacerlo más fácil, el centro de administración de Microsoft 365 ofrece una plantilla de Excel que puede utilizar. En la página **Usuarios activos**, seleccione **Más** y, a continuación, **Importar varios usuarios**. Seleccione **Descargar un archivo CSV solo con cabeceras** y, a continuación, introduzca la información para los vendedores. Para ver un ejemplo, seleccione **Descargar un archivo CSV con cabeceras e información de usuario de ejemplo**. Después de introducir la información sobre los usuarios, el siguiente paso del proceso de importación es asignar las licencias de usuario al plan de Dynamics 365 Customer Engagement.  
 
 Después de importar los usuarios y asignarles licencias para Dynamics 365 Customer Engagement, debe asignar los usuarios al rol **Vendedor** en [!INCLUDE[crm_md](includes/crm_md.md)].
 
-![Emparejamiento de vendedores con usuarios en Dynamics 365 for Sales](media/couple-salespeople.png "Visualización del emparejamiento de vendedores con usuarios en Dynamics 365 for Sales")
+![Emparejamiento de vendedores con usuarios en Dynamics 365 Sales](media/couple-salespeople.png "Visualización del emparejamiento de vendedores con usuarios en Dynamics 365 Sales")
 
-## <a name="minimum-permissions-for-user-accounts-in-includecrmmdincludescrmmdmd"></a>Permisos mínimos para cuentas de usuario en [!INCLUDE[crm_md](includes/crm_md.md)]
+## <a name="minimum-permissions-for-user-accounts-in-includecrm_mdincludescrm_mdmd"></a>Permisos mínimos para cuentas de usuario en [!INCLUDE[crm_md](includes/crm_md.md)]
 Cuando instala la solución de integración, los permisos para la cuenta de usuario de integración se configuran en [!INCLUDE[crm_md](includes/crm_md.md)]. Si se cambian esos permisos, es posible que deba restablecerlos. Puede hacerlo reinstalando la solución de integración o restableciéndolos manualmente. Las siguientes tablas enumeran los permisos mínimos para las cuentas de usuario en [!INCLUDE[crm_md](includes/crm_md.md)].
 
 ### <a name="integration-administrator"></a>Administrador de integración
@@ -135,4 +135,4 @@ Puede permitir que los vendedores vean los niveles de inventario de los producto
 |Conexión de Dynamics 365 Business Central|Global|Leer|Leer|Leer|
 
 ## <a name="see-also"></a>Consulte también  
-[Integración con Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
+[Integración con Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  

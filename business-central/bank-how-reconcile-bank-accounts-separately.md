@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 60b3e0d732125f60b092a0e089cabc2b82ad71ef
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 69afda011e17a13eff747f8916e33c74c336bb82
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245101"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304209"
 ---
 # <a name="reconcile-bank-accounts-separately"></a>Conciliar cuentas bancarias
 Para conciliar las cuentas bancarias en [!INCLUDE[d365fin](includes/d365fin_md.md)] con las declaraciones recibidas del banco, comience completando el panel izquierdo en la página **Conciliación banco** con información del extracto de cuenta que luego coincide (concilia) con los movimientos de cuenta bancaria en el panel derecho. Una manera inteligente de completar las líneas de extracto bancario es mediante la importación de un extracto o archivo de extracto bancario.
@@ -28,7 +28,7 @@ Para conciliar las cuentas bancarias en [!INCLUDE[d365fin](includes/d365fin_md.m
 > [!TIP]  
 > También puede conciliar las cuentas bancarias en la página **Diario de conciliación de pagos**. Todas las cuenta abiertas relacionada con los movimientos de los clientes o los proveedores se cerrarán cuando seleccione la acción **Registrar pagos y conciliar banco**. Eso significa que la cuenta bancaria se concilia automáticamente por los pagos que registró mediante el diario. Para obtener más información, vea [Conciliar pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md).
 
-Para habilitar tanto la importación de extractos bancarios como la fuente de banco, primero debe configurar y habilitar el servicio Envestnet Yodlee Bank Feeds y, a continuación, vincular sus cuentas bancarias a las cuentas bancarias en línea relacionadas. Para obtener más información, vea [Configuración del servicio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)
+Para habilitar tanto la importación de extractos bancarios como la fuente de banco, primero debe configurar y habilitar el servicio Envestnet Yodlee Bank Feeds y, a continuación, vincular sus cuentas bancarias a las cuentas bancarias en línea relacionadas. Para obtener más información, vea [Configurar el servicio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
 Las líneas de la página **Conciliación banco** se dividen en dos paneles. El panel de **Líneas de extracto bancario** muestra tanto las transacciones bancarias como los movimientos con pagos pendientes. El panel **Movs. bancos** muestra los movimientos de la cuenta bancaria.
 

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/03/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 99d3a5b4048756e71711abf9fa24bef12c12d963
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.openlocfilehash: 6f009b0e43a3d3424782f5c3f052033c813e3f18
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1621073"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303653"
 ---
 # <a name="design-details-costing-methods"></a>Detalles de diseño: Métodos de coste
 La valoración de existencias determina si en el cálculo de costes se capitaliza y utiliza un valor real o uno presupuestado. Junto con la fecha de registro y la secuencia, el método de coste también influye en cómo se registra el flujo de costes.
@@ -162,6 +162,7 @@ En [!INCLUDE[d365fin](includes/d365fin_md.md)] se admiten las siguientes valorac
  [Detalles de diseño: Coste de inventario](design-details-inventory-costing.md)   
  [Detalles de diseño: Desviación](design-details-variance.md)   
  [Detalles de diseño: Coste medio](design-details-average-cost.md)   
- [Detalles de diseño: liquidación de producto](design-details-item-application.md) [Gestión de costes de inventario](finance-manage-inventory-costs.md)  
+ [Detalles de diseño: Liquidación de productos](design-details-item-application.md)  
+ [Gestión de costes de inventario](finance-manage-inventory-costs.md)  
  [Finanzas](finance.md)  
  [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

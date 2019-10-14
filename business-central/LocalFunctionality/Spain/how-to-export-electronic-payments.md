@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 773b0c0dfe1ceaeabe07b7e252d7c2382c457887
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 67c17552985c48a0b30405aa4b8df86dc0d7b524
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241529"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301098"
 ---
 # <a name="export-electronic-payments"></a>Exportar pagos electrónicos
 En [!INCLUDE[d365fin](../../includes/d365fin_md.md)], puede exportar movimientos del diario de pagos a un formato de archivo de acuerdo con cuatro estándares de pago diferentes. Utilice las siguientes páginas para exportar según los distintos estándares de pago.  

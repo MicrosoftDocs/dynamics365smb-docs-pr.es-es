@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: b816d7ff9f8446aa81746b980fd47b3b531e1396
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 70ee472953e470fe5d069ce3536d729677a1a135
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1239038"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302560"
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a>Análisis de estados financieros en Microsoft Excel
 En [!INCLUDE[d365fin](includes/d365fin_md.md)], puede ver los KPI y obtener resúmenes del estado financiero de la empresa. También puede abrir las listas en Excel y analizar los datos. Además, también puede exportar estados financieros pesados como el balance o la cuenta de resultados a Excel, analizar los datos e imprimir los informes.  
@@ -36,7 +36,7 @@ Digamos que desea profundizar en su flujo de efectivo. Desde el Área de trabajo
 
 En Excel, ve una pestaña donde los datos se establecen en la primera hoja de cálculo. Todos los datos que se exportaron también están presentes en otras hojas de trabajo en caso de que lo necesite. Puede imprimir el informe de inmediato o puede modificarlo hasta que tenga el panorama y los detalles que desee. Utilice el complemento [!INCLUDE[d365fin](includes/d365fin_md.md)] de Excel para filtrar y analizar datos.  
 
-## <a name="the-included365finincludesd365finmdmd-excel-add-in"></a>Complemento [!INCLUDE[d365fin](includes/d365fin_md.md)] de Excel
+## <a name="the-included365finincludesd365fin_mdmd-excel-add-in"></a>Complemento [!INCLUDE[d365fin](includes/d365fin_md.md)] de Excel
 Su experiencia con [!INCLUDE[d365fin](includes/d365fin_md.md)] incluye un complemento de Excel. Dependiendo de su suscripción, se iniciará sesión automáticamente o deberá especificar los mismos datos de inicio de sesión que utiliza para [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Con el complemento, puede conseguir nuevos datos de [!INCLUDE[d365fin](includes/d365fin_md.md)] y puede insertar cambios a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Sin embargo, la capacidad de insertar datos en la base de datos está desactivada para los informes financieros de Excel a la lista anterior.  

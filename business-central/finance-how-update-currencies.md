@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: multiple currencies, adjust exchange rates
-ms.date: 06/04/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2958cf5dd124fd9437217214ea0df28944d07651
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.openlocfilehash: 7376abd7806eb664bbfcbf3f3505df00ababba9e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1621096"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2305817"
 ---
 # <a name="update-currency-exchange-rates"></a>Actualizar tipos cambio divisa
 Las empresas trabajan cada vez en un mayor número de países o regiones, por lo que es muy importante que puedan comercializar y crear informes financieros en más de una divisa. Debe configurar un código por cada una de las divisas usadas en caso de que las operaciones de compra y venta se realicen en una divisa que no sea la divisa local (DL), tenga cobros y pagos en otras divisas o registre las transacciones de contabilidad en diferentes divisas.
@@ -20,7 +20,7 @@ Las empresas trabajan cada vez en un mayor número de países o regiones, por lo
 La contabilidad se configura con la divisa local (DL), pero también se puede configurar para usarla en otra divisa a la que se asigna un tipo de cambio. Mediante la designación de una segunda divisa como la denominada divisa de informes adicional, [!INCLUDE[d365fin](includes/d365fin_md.md)] registrará automáticamente los importes tanto en la divisa local como en la divisa adicional en todos los movimientos de contabilidad y en otros movimientos, por ejemplo los del IVA. Para obtener más información, vea [Configurar una divisa de informes adicional](finance-how-setup-additional-currencies.md).
 
 ## <a name="adjusting-exchange-rates"></a>Ajustar los tipos de cambio
-Puesto que los tipos de cambio fluctúan constantemente, los equivalentes de la divisa adicional del sistema se deben ajustar regularmente. Si no se llevan a cabo estos ajustes, los importes que se hayan convertido desde divisas extranjeras (o adicionales) y registrado en contabilidad en la divisa local pueden ser erróneos. Además, los movimientos diarios registrados antes de que se introduzca el tipo de cambio del día en el programa se tienen que actualizar una vez que se haya introducido esta información.
+Puesto que los tipos de cambio fluctúan constantemente, los equivalentes de la divisa adicional del sistema se deben ajustar regularmente. Si no se llevan a cabo estos ajustes, los importes que se hayan convertido desde divisas extranjeras (o adicionales) y registrado en contabilidad en la divisa local pueden ser erróneos. Además, los movimientos diarios registrados antes de que se introduzca el tipo de cambio del día en la aplicación se tienen que actualizar una vez que se haya introducido esta información.
 
 El proceso **Ajustar tipos de cambio** se usa para ajustar manualmente los tipos de cambio de los movimientos de clientes, proveedores y bancos. También sirve para actualizar los importes en la divisa adicional de los movimientos de contabilidad. También puede hacer que los tipos de cambio se ajusten automáticamente mediante el uso de un servicio. Para obtener más información, vea [Para configurar un servicio de tipo de cambio de divisa](finance-how-update-currencies.md#to-set-up-a-currency-exchange-rate-service).
 

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ca9f31b737fbd81bd1abba2a942301d0c9c919a6
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 8f7c409759716e741edfe1a352ff81da9fdea0db
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244050"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309657"
 ---
 # <a name="use-item-cross-references"></a>Usar referencias cruzadas de producto
 Si configura una referencia cruzada entre la descripción del producto que usa para un producto y la descripción que utiliza el proveedor de ese producto, la descripción del producto del proveedor se inserta automáticamente en los documentos de compra del proveedor cuando complete el campo **Nº referencia cruzada**. . Se aplica la misma funcionalidad para los números de producto del cliente en los documentos de venta.

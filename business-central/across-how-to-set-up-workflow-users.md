@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 64ac69bfa3a1ad0d5dd3b9c86af4a495fbf10b14
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ee8080689c948daa14d05e8b970de63da749746e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240630"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2305217"
 ---
 # <a name="set-up-workflow-users"></a>Configurar usuarios de flujo de trabajo
 Para poder crear flujos de trabajo, debe configurar los usuarios que participan en flujos de trabajo. Esto es necesario para especificar, por ejemplo, quién debe recibir una notificación para actuar sobre un paso del flujo de trabajo.  
@@ -40,7 +40,7 @@ Los usuarios del flujo de trabajo que funcionan como usuarios de aprobación, ta
 
     |Campo|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Nombre usuario**|Especifique el usuario que formará parte de los flujos de trabajo.<br /><br /> El usuario debe existir en la página **Configuración usuarios**. Para obtener más información, vea [Administración de usuarios y permisos](ui-how-users-permissions.md).|  
+    |**Nombre usuario**|Especifique el usuario que formará parte de los flujos de trabajo.<br /><br /> El usuario debe existir en la página **Configuración usuarios**. Para obtener más información, vea [Administrar usuarios y permisos](ui-how-users-permissions.md).|  
     |**Nº secuencia**|Especifique el orden en el que participa el usuario de flujo de trabajo en flujos de trabajo relacionados con otros usuarios. Este campo se puede usar, por ejemplo, para especificar cuándo aprueba el usuario en relación con otros aprobadores cuando se utiliza la opción **Grupo de usuarios de flujo de trabajo** en el campo **Tipo de aprobador** en la respuesta relacionada del flujo de trabajo. **SUGERENCIA**: Para definir que una solicitud de aprobación no está aprobada hasta que varios aprobadores iguales la hayan aprobado, independientemente de la jerarquía, configure un grupo de usuarios de flujo de trabajo plano asignando el mismo número de secuencia a los aprobadores correspondientes.|  
 6. Repita el paso 5 para añadir más usuarios de flujo de trabajo al grupo de usuarios.  
 7. Repita los pasos del 2 al 6 para añadir más grupos de usuarios de flujo de trabajo.  

@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c7a5aa7d768a4fe2fae111b04ffc1fdab65d07dc
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: d3efa05fda5bcacd4eba0fa4f4f64888d91c46bf
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240377"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309609"
 ---
 # <a name="work-with-serial-and-lot-numbers"></a>Trabajar con números de lote y de serie
 Puede asignar números de serie y de lote a cualquier documento de salida o de entrada, los movimientos de seguimiento de producto registrados se muestran en los correspondientes movimientos de producto. Realice el trabajo en la página **Líns. seguim. prod.**, que puede abrir desde un documento de entrada o salida.
 
 La matriz de los campos de cantidad del encabezado de la página **Líns. seguim. prod.** muestra las cantidades y las sumas de los números de seguimiento de producto que se definen en las líneas. Las cantidades deben corresponder a las de la línea del documento, indicado mediante un 0 en los campos **Indefinido**.
 
-Con el fin de mejorar el rendimiento, el programa recopila la información sobre disponibilidad que se muestra en la página **Líns. seguim. prod.** solamente cuando la abre. Esto significa que el sistema no actualiza la información sobre disponibilidad mientras la página está abierta, incluso aunque se produzcan cambios en el inventario o en otros documentos durante ese tiempo.
+Con el fin de mejorar el rendimiento, la aplicación recopila la información sobre disponibilidad que se muestra en la página **Líns. seguim. prod.** solamente cuando la abre. Esto significa que la aplicación no actualiza la información sobre disponibilidad mientras la página está abierta, incluso aunque se produzcan cambios en el inventario o en otros documentos durante ese tiempo.
 
 Los números de serie o lote de productos se pueden seguir, ya sea hacia adelante o hacia atrás, en la cadena de suministro. Esto es útil para asegurarse de la calidad general y para la recuperación de productos. Para obtener más información, consulte [Realizar un seguimiento de productos marcados para seguimiento](inventory-how-to-trace-item-tracked-items.md).
 

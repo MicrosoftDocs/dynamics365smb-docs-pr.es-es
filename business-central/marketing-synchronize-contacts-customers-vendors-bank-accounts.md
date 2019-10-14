@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, CRM, integration, couple
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
 redirect_url: marketing-create-contact-companies
-ms.openlocfilehash: 96ec0862cf93cf9b0bf240ef65bc7ff79b3ccfb5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: f102b6dac47732d96aff8413697c172fbea3f687
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1242283"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308649"
 ---
 # <a name="synchronizing-contacts-with-customers-vendors-and-bank-accounts"></a>Sincronizar contactos con clientes, proveedores y cuentas bancarias
 Si algunos contactos también son clientes, proveedores o bancos, podrá sincronizar la información de contacto con el cliente, proveedor o la cuenta bancaria relacionados. La sincronización unifica la información que es común entre los contactos y los clientes, los proveedores o la cuenta bancaria.  

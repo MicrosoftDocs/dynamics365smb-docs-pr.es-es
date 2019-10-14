@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c2514b4a6284dd5b3f8ddc4a03ed3162e163877d
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 93b46a05cf63973fcef2a52f44c122542f8989e4
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241655"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301083"
 ---
 # <a name="set-up-operation-codes"></a>Configurar códigos de operación
 Puede añadir tantos códigos de operación como desee a la tabla. Sin embargo, los códigos C, D e I ya existe en [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. Por ejemplo, los abonos siempre tienen el código de operación D. No puede configurar estos valores en la tabla porque son códigos creados por el sistema. Si intenta agregarlos, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] devolverá un error.  

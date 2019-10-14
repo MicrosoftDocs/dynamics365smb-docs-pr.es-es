@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: incoming document
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9ef598ec969e406d2e64519c31521d2444849d58
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 9bdeb10b10c7d31ded2036f4240e6b430bf2cc4d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240262"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308504"
 ---
 # <a name="manage-the-intercompany-inbox-and-outbox"></a>Administrar la bandeja de entrada y la bandeja de salida de empresas vinculadas
 Todas las transacciones de empresas vinculadas que se reciben electrónicamente aparecen en la bandeja de entrada de empresas vinculadas.  

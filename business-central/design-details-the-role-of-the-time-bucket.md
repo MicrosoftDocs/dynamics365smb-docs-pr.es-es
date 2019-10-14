@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
-ms.openlocfilehash: 54d4a4aed94b562b82d94d6a5a75a3050c054fc3
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 4a8e231dbee8f26c2ac6f0420af252996302ac86
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1239319"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302927"
 ---
 # <a name="design-details-the-role-of-the-time-bucket"></a>Detalles de diseño: Función del ciclo
 El propósito del ciclo es recopilar los eventos de demanda dentro del intervalo de tiempo para crear un pedido de suministro conjunto.  

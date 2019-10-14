@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: adae1dd11e8d26c3d4940b4495c9b39d716811ce
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ab8f5bd1aed1f8f0897320cfcb8a84673fa60371
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245993"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301099"
 ---
 # <a name="export-vat-statements-in-text-format"></a>Exportar declaraciones de IVA en formato de texto
 Puede exportar una declaración de IVA en formato de texto y después enviarla electrónicamente a las autoridades fiscales.  

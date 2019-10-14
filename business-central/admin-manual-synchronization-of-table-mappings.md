@@ -1,6 +1,6 @@
 ---
 title: Sincronización manual de asignaciones de tablas | Documentos de Microsoft
-description: La sincronización copia los datos entre los movimientos de Dynamics 365 for Sales y Business Central para mantener actualizados ambos sistemas.
+description: La sincronización copia los datos entre los movimientos de Dynamics 365 Sales y Business Central para mantener actualizados ambos sistemas.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 71284c8a2824e63c21768f2db55edb501486424d
-ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
+ms.openlocfilehash: 4aa56deaef4cd32f58fe4ad17abbc72a58b94ed9
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1629555"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307947"
 ---
 # <a name="manually-synchronize-table-mappings"></a>Sincronizar manualmente las asignaciones de tablas
 Una asignación de tabla de integración asocia una tabla de [!INCLUDE[d365fin](includes/d365fin_md.md)] (tipo de registro), como un cliente, con una entidad de [!INCLUDE[crm_md](includes/crm_md.md)], como una cuenta. La sincronización de una asignación de tablas de integración le permite sincronizar los datos de todos los registros de la tabla de [!INCLUDE[d365fin](includes/d365fin_md.md)] y de la entidad de [!INCLUDE[crm_md](includes/crm_md.md)] que están emparejadas. Además, dependiendo de la configuración de la asignación de tablas, la sincronización puede crear y emparejar nuevos registros en la solución de destino para los registros desemparejados en el origen.  
@@ -39,13 +39,13 @@ Si se crea un registro, y dónde se crea, depende de la dirección de sincroniza
 
 Los trabajos se ejecutan en el siguiente orden para evitar dependencias de emparejamiento entre entidades.  
 
-1.  Proyecto de sincronización de DIVISA - Dynamics 365 for Sales  
-2.  Proyecto de sincronización de VENDEDORES - Dynamics 365 for Sales  
-3.  Proyecto de sincronización de UNITOFMEASURE - Dynamics 365 for Sales  
-4.  Proyecto de sincronización de CLIENTE - Dynamics 365 for Sales  
-5.  Proyecto de sincronización de CONTACTOS - Dynamics 365 for Sales  
-6.  Proyecto de sincronización de RECURSO-PRODUCTO - Dynamics 365 for Sales  
-7.  Proyecto de sincronización de ARTÍCULO-PRODUCTO - Dynamics 365 for Sales  
+1.  Proyecto de sincronización de DIVISA - Dynamics 365 Sales  
+2.  Proyecto de sincronización de VENDEDORES - Dynamics 365 Sales  
+3.  Proyecto de sincronización de UNITOFMEASURE - Dynamics 365 Sales  
+4.  Proyecto de sincronización de CLIENTE - Dynamics 365 Sales  
+5.  Proyecto de sincronización de CONTACTOS - Dynamics 365 Sales  
+6.  Proyecto de sincronización de RECURSO-PRODUCTO - Dynamics 365 Sales  
+7.  Proyecto de sincronización de ARTÍCULO-PRODUCTO - Dynamics 365 Sales  
 
 > [!IMPORTANT]  
 >  Normalmente, solo se utiliza la sincronización completa cuando se configura inicialmente la integración entre [!INCLUDE[d365fin](includes/d365fin_md.md)] y [!INCLUDE[crm_md](includes/crm_md.md)], y solo una de las soluciones contiene datos, que se desea copiar en la otra solución. Una sincronización completa puede ser útil en un entorno de demostración. Debido a que la sincronización completa crea y asocia registros automáticamente entre las soluciones, es más rápido empezar a trabajar con la sincronización de datos entre registros. Por otro lado, solo debe ejecutar una sincronización completa si desea que se incluya un registro de [!INCLUDE[d365fin](includes/d365fin_md.md)] para cada registro de [!INCLUDE[crm_md](includes/crm_md.md)] para las asignaciones de tabla indicadas. De lo contrario, puede tener registros no deseados o duplicados en [!INCLUDE[d365fin](includes/d365fin_md.md)] o [!INCLUDE[crm_md](includes/crm_md.md)].  
@@ -54,7 +54,7 @@ Los trabajos se ejecutan en el siguiente orden para evitar dependencias de empar
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2085502]
 
 ### <a name="to-run-a-full-synchronization"></a>Para ejecutar una sincronización completa  
-1.  Elija el ![icono bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración de conexión de Microsoft Dynamics 365 for Sales** y luego elija el enlace relacionado.
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración de conexión de Microsoft Dynamics 365 Sales** y luego elija el vínculo relacionado.
 2.  Seleccione la acción **Ejecutar sincronización completa** y, a continuación, el botón **Sí**.  
 3.  Una vez finalizada la sincronización completa, puede especificar si desea permitir que los trabajos de sincronización programados creen nuevos registros.  
 
@@ -65,15 +65,15 @@ Los trabajos se ejecutan en el siguiente orden para evitar dependencias de empar
 Puede ver los resultados de la sincronización completa en la página **Trabajos de sincronización de integración**. Para obtener más información, consulte [Ver el estado de una sincronización](admin-how-to-view-synchronization-status.md).  
 
 ## <a name="synchronizing-all-modified-records"></a>Sincronización de todos los registros modificados
-Puede utilizar la página **Configuración de la conexión de Microsoft Dynamics 365 for Sales** para sincronizar los cambios en los datos de todas las asignaciones de tablas de integración. Es similar a una sincronización completa. Sincronizará los datos de todos los registros emparejados en las tablas de [!INCLUDE[d365fin](includes/d365fin_md.md)] y las entidades de [!INCLUDE[crm_md](includes/crm_md.md)] definidas en las asignaciones de tablas. De forma predeterminada, solo se sincronizarán los registros que se hayan modificado desde la última vez que se sincronizaron. Las asignaciones de tablas se sincronizan en el siguiente orden para evitar dependencias de emparejamiento entre las entidades:  
+Puede utilizar la página **Configuración de la conexión de Microsoft Dynamics 365 Sales** para sincronizar los cambios en los datos de todas las asignaciones de tablas de integración. Es similar a una sincronización completa. Sincronizará los datos de todos los registros emparejados en las tablas de [!INCLUDE[d365fin](includes/d365fin_md.md)] y las entidades de [!INCLUDE[crm_md](includes/crm_md.md)] definidas en las asignaciones de tablas. De forma predeterminada, solo se sincronizarán los registros que se hayan modificado desde la última vez que se sincronizaron. Las asignaciones de tablas se sincronizan en el siguiente orden para evitar dependencias de emparejamiento entre las entidades:  
 
-1.  Proyecto de sincronización de DIVISA - Dynamics 365 for Sales  
-2.  Proyecto de sincronización de VENDEDORES - Dynamics 365 for Sales  
-3.  Proyecto de sincronización de UNITOFMEASURE - Dynamics 365 for Sales  
-4.  Proyecto de sincronización de CLIENTE - Dynamics 365 for Sales  
-5.  Proyecto de sincronización de CONTACTOS - Dynamics 365 for Sales  
-6.  Proyecto de sincronización de RECURSO-PRODUCTO \- Dynamics 365 for Sales  
-7.  Proyecto de sincronización de ARTÍCULO-PRODUCTO - Dynamics 365 for Sales  
+1.  Proyecto de sincronización de DIVISA - Dynamics 365 Sales  
+2.  Proyecto de sincronización de VENDEDORES - Dynamics 365 Sales  
+3.  Proyecto de sincronización de UNITOFMEASURE - Dynamics 365 Sales  
+4.  Proyecto de sincronización de CLIENTE - Dynamics 365 Sales  
+5.  Proyecto de sincronización de CONTACTOS - Dynamics 365 Sales  
+6.  Proyecto de sincronización de RECURSO-PRODUCTO \- Dynamics 365 Sales  
+7.  Proyecto de sincronización de ARTÍCULO-PRODUCTO - Dynamics 365 Sales  
 
 Puede ver los resultados de la sincronización en la página **Trabajos de sincronización de integración**. Para obtener más información, consulte [Ver el estado de una sincronización](admin-how-to-view-synchronization-status.md).  
 
@@ -81,7 +81,7 @@ Puede ver los resultados de la sincronización en la página **Trabajos de sincr
 >  Al modificar previamente la asignación de tabla de integración, puede configurar la sincronización con filtros para controlar qué registros se sincronizan o configurarla para crear nuevos registros en la solución de destino para registros desemparejados en el origen. Para obtener más información, consulte [Modificar asignaciones de tablas para la sincronización](admin-how-to-modify-table-mappings-for-synchronization.md).
 
 ### <a name="to-synchronize-records-for-all-tables"></a>Para sincronizar los registros para todas las tablas  
-1.  Elija el ![icono bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración de conexión de Microsoft Dynamics 365 for Sales** y luego elija el enlace relacionado.
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración de conexión de Microsoft Dynamics 365 Sales** y luego elija el vínculo relacionado.
 2.  Elija la acción **Sincronizar registros modificados** y, a continuación, seleccione **Si**.  
 
 ## <a name="synchronize-individual-table-mappings"></a>Sincronizar las asignaciones de tablas individuales
@@ -94,5 +94,5 @@ Al modificar la asignación de tablas de integración por adelantado, puede conf
 2.  Elija la acción **Sincronizar registros modificados** y, a continuación, seleccione **Si**.  
 
 ## <a name="see-also"></a>Consulte también  
-[Sincronización de Business Central y Dynamics 365 for Sales](admin-synchronizing-business-central-and-sales.md)   
-[Configuración de cuentas de usuario para la integración con Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)   
+[Sincronización de Business Central y Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)   
+[Configuración de cuentas de usuario para la integración con Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)   

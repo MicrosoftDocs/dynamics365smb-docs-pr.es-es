@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8c9acc1c9b513edf213e617a562ff033f546f320
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: e018ae685b7ea8b1c1c5444e68e11c388a7b15a2
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245751"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301105"
 ---
 # <a name="create-report-349"></a>Crear el informe 349
 Debe presentar un informe periódico de comercio con otros países o regiones de la UE a las autoridades fiscales. Este modelo, el Informe 349, debe enviarse a las autoridades fiscales electrónicamente en la página web de la Agencia Tributaria o en un CD-ROM. Para obtener más información, consulte el sitio web de la [Agencia Tributaria](https://go.microsoft.com/fwlink/?LinkId=238181).  

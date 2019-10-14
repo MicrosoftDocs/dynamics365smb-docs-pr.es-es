@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, status, negative, positive, increase, decrease
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 24b89662ed772280da8f5f8f08677f644f75922e
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 33710cd80ba1218ad59c98ec605bcba98c8b7e1c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240285"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309921"
 ---
 # <a name="count-inventory-using-documents"></a>Contar inventario mediante documentos
 Puede realizar un inventario físico de los productos utilizando los documentos de pedido de inventario físico y registro de inventario físico. La página **Orden de inventario físico** se usa para organizar el proyecto de recuento de inventario completo, por ejemplo una por almacén. La página **Registro de inventario físico** se utiliza para comunicar y para capturar el recuento real de productos. Puede crear varias grabaciones para un pedido, por ejemplo, para distribuir grupos de productos a diferentes empleados.
@@ -94,7 +94,7 @@ Cuando haya terminado un registro de inventario físico, el campo **Cant. regist
 
 Para ver cantidades previstas y cualquier diferencia registrada para los productos con el seguimiento de producto, elija la acción **Líneas** y, a continuación elija **Líns. seguim. prod.** para seleccionar varias vistas de los números de serie y lote implicados en el recuento de inventario físico.
 
-También puede elegir la acción **Dif. pedido invent. físico** para ver la diferencia entre la cantidad prevista y la cantidad contada.
+También puede elegir la acción **Dif. pedido invent. físico** para ver las diferencias entre la cantidad esperada y la cantidad contada.
 
 ### <a name="to-find-duplicate-physical-inventory-order-lines"></a>Para encontrar líneas de pedido de inventario físico duplicadas
 

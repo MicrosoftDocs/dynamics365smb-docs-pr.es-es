@@ -1,8 +1,6 @@
 ---
 title: Recopilación de valores de configuración de cliente | Documentos de Microsoft
-description: Utilice el cuestionario de configuración para ayudar a reducir su carga de trabajo de implementación agilizando la tarea de configurar la empresa nueva. Puede generar el cuestionario de configuración en Business Central y después proporcionárselo al cliente como un archivo de Excel (.xls) o XML.
-services: project-madeira
-documentationcenter: ''
+description: Utilice el cuestionario de configuración para ayudar a reducir su carga de trabajo de implementación agilizando la tarea de configurar la empresa nueva. Puede generar el cuestionario de configuración en Business Central y después proporcionárselo al cliente como un archivo de Excel (.xlsx) o XML.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6df4963c18e12efe4ddad68c6050776b45e7614c
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 8f333831c4e8aac1ba0eb4939131a9d80347441d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245577"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304641"
 ---
 # <a name="gather-customer-setup-values"></a>Recopilación de valores de configuración de cliente
 Utilice el cuestionario de configuración para ayudar a reducir su carga de trabajo de implementación agilizando la tarea de configurar la empresa nueva. Puede generar el cuestionario de configuración en [!INCLUDE[d365fin](includes/d365fin_md.md)] y después proporcionárselo al cliente como un archivo de Excel o XML.  
@@ -75,7 +73,7 @@ Utilice el cuestionario de configuración para estructurar y documentar una disc
 2. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Cuestionario de configuración** y luego elija el enlace relacionado.  
 3. Seleccione el cuestionario para la empresa y luego elija la acción **Exportar a Excel**, de forma opcional la acción **Exportar a XML**.
 4. Haga que el cliente complete el cuestionario de configuración al especificar las respuestas en el libro de Excel. Existen hojas de cálculo para cada una de las áreas de preguntas que se han creado para el cuestionario.   
-5. Seleccione la acción **Importar desde Excel** y seleccione el archivo .xlsx con las respuestas de cliente.  
+5. Guarde el libro de Excel como *Datos XML*. Seleccione la acción **Importar desde XML** y seleccione el archivo .xml con las respuestas de cliente.
 6. Seleccione la acción **Áreas pregunta** para iniciar el proceso de validación y aplicación de las respuestas al cuestionario de configuración.  
 
 ## <a name="to-complete-a-questionnaire-from-the-configuration-worksheet"></a>Procedimiento para completar un cuestionario de desde la hoja de trabajo de configuración  

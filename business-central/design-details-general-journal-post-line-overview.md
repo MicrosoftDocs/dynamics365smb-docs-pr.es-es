@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, general ledger, post
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5fac91190e5a4cea0648f618ea2a9af0afc65fb6
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 5589aa476662a9dff69e95d70367ae4c5e45aaba
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246552"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303561"
 ---
 # <a name="general-journal-post-line-overview"></a>Descripción de la línea de registro en diario general
 La codeunit 12, **Diario general-lín. reg.**, es el objeto principal de aplicación para el registro en contabilidad y es el único lugar donde insertar movimientos de contabilidad, de IVA, de clientes y de proveedores. Esta codeunit se usa también para todas las operaciones de Liquidar, Desliquidar y Revertir.  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f15f965237401f668325ab1a10d1e154bf00254f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: e6379530eed2c0e3881dd951fbd09602360e5fad
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240331"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2306897"
 ---
 # <a name="design-details-production-order-posting"></a>Detalles de diseño: Registro de órdenes de producción
 Al igual que el registro de pedido de ensamblado, se convierten los componentes consumidos y el tiempo de máquina usado, y se envían como el producto fabricado cuando finaliza la orden de producción. Para obtener más información, consulte [Detalles de diseño: Registro de pedidos de ensamblado](design-details-assembly-order-posting.md). No obstante, el flujo del coste para los pedidos de ensamblado es menos complejo, especialmente porque el registro de coste de ensamblado solo se produce una vez, y por tanto que no genera un inventario de trabajo en curso.

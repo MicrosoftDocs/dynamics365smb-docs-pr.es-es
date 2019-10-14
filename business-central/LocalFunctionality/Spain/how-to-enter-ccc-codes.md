@@ -4,20 +4,20 @@ description: El Código Cuenta Cliente (CCC) es un código de identificación de
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/01/2017
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 43bb2b95d26112acdcdd543cfc05987605b4c35c
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 32514856184473afbb4a531b5d8ddc5d1a732c2a
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241533"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301102"
 ---
 # <a name="enter-ccc-codes"></a>Introducir códigos CCC
 El Código Cuenta Cliente (CCC) es un código de identificación de cuentas bancarias único. Los siguientes campos de componentes componen la estructura de código CCC de 20 dígitos (España) o 21 dígitos (Portugal).  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 05/02/2019
+ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 0392e39957455702bb1aae8eef38d872f803ee42
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: 186f14f25e4b158babcdd2930ace3263269415ea
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446812"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308769"
 ---
 # <a name="managing-segments"></a>Administrar segmentos
 Puede crear segmentos para seleccionar un grupo de contactos en función de criterios específicos. Por ejemplo, un segmento puede ser el sector al que pertenecen los contactos o su relación de negocio con los contactos. Puede crear un segmento para seleccionar los contactos a los que se va a dirigir la campaña.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: e3ca7a52bb01b9d4a7b6417be14396cc616131ca
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 2b0cd58ebb61dba8fcdcb0f686a2afe88a5e9f3d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241825"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309369"
 ---
 # <a name="managing-marketing-campaigns"></a>Administrar campañas de marketing
 Un buen plan de marketing puede permitirle identificar, atraer y conservar a los clientes. Un plan de marketing consta de varias campañas y otras interacciones relacionadas con sus actividades de ventas y marketing. Durante la planificación de una campaña, debe decidir a qué contactos se va a dirigir, el tipo de campaña (por ejemplo, exposición comercial o correo directo) y los vendedores que realizarán las tareas.
@@ -39,7 +39,7 @@ Cuando haya configurado su campaña, decidido qué segmentos desea que cubra la 
 > [!NOTE]  
 >   Para activar los precios de venta y descuentos de línea, debe especificar si todo el segmento o solo algunos contactos son los objetivos de la campaña. Si los precios de venta y descuentos de línea cubren a todos los contactos del segmento, seleccione el campo **Objetivo campaña** de la ficha desplegable **Campaña** de la ficha **Segmento**.
 
-Si los precios de venta y descuentos de línea no se ofrecen a todos los contactos del segmento, puede desactivar el campo **Objetivo campaña** para los contactos relevantes. Si no ve este campo, puede agregarlo a la vista. Para obtener más información, vea [Personalización del área de trabajo](ui-personalization-user.md).
+Si los precios de venta y descuentos de línea no se ofrecen a todos los contactos del segmento, puede desactivar el campo **Objetivo campaña** para los contactos relevantes. Si no ve este campo, puede agregarlo a la vista. Para obtener más información, consulte [Personalizar el área de trabajo](ui-personalization-user.md).
 
 ## <a name="conducting-campaigns"></a>Realizar campañas
 A medida que se desarrolla una campaña, se registran todas las interacciones con los contactos o segmentos, por lo que puede obtener estadísticas y otra información sobre los costes y los porcentajes de éxito alcanzado.

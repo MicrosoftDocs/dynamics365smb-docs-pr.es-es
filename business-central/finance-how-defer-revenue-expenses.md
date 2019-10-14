@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 046d2469c13358942fec767b58f6e9ffe46e7799
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 6fab25e6f8a3e840dd0b40f616b2a21abe13a9ad
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243462"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302333"
 ---
 # <a name="defer-revenues-and-expenses"></a>Fraccionar ingresos y gastos
 Para reconocer un ingreso o un gasto en un periodo distinto del periodo en el que se registró la transacción, puede usar la funcionalidad para fraccionar automáticamente ingresos y gastos según una previsión especificada.
@@ -42,7 +42,7 @@ Para ambos tipos de fraccionamiento seleccione **Balance** en el campo **Tipo** 
    * **Igual por periodo**: los importes periódicos fraccionados se calculan según el número de periodos, distribuidos equitativamente en los periodos.
    * **Días por periodo**: los importes periódicos fraccionados se calculan según el número de días en el periodo.
    * **Definido por el usuario**: no se calculan los importes periódicos de fraccionamiento. Debe rellenar manualmente el campo **Importe** para cada periodo de la página Previsión fraccionamiento. Para obtener más información, consulte la sección "Para cambiar una previsión de fraccionamiento de una factura de venta".
-5. En el campo **Desc. del período**, especifique una descripción que se mostrará en los movimientos para el registro de fraccionamiento. Puede introducir los siguientes códigos de marcador de posición para valores habituales, que se insertarán automáticamente cuando se muestre la descripción del periodo.
+5. En el campo **Desc. del período** especifique una descripción que se mostrará en los movimientos para el registro de fraccionamiento. Puede introducir los siguientes códigos de marcador de posición para valores habituales, que se insertarán automáticamente cuando se muestre la descripción del periodo.
 
    * %1 = el número de día de la fecha de registro del periodo
    * %2 = el número de semana de la fecha de registro del periodo

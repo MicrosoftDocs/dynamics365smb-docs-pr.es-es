@@ -8,13 +8,13 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.service: dynamics365-business-central
 author: jswymer
-ms.date: 04/01/2019
-ms.openlocfilehash: e747757ec6942ede0e237e013703ebf6d3df189b
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.date: 10/01/2019
+ms.openlocfilehash: 7bc5186103f05ad827d15933f586e2fac9b4a584
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1447019"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304882"
 ---
 # <a name="inspecting-pages-in-business-central"></a>Inspección de páginas en Business Central
 
@@ -38,7 +38,7 @@ Si no ve los detalles que espera ver en el panel **Inspección de la página**, 
 
 ## <a name="controlling-access-to-page-inspection-details"></a>Control del acceso a los detalles de inspección de páginas
 
-Como administrador, puede controlar el acceso a todos los detalles que se muestran en el panel **Inspección de la página** configurando los permisos que tienen los usuarios. Para conceder a un usuario un permiso para todos los detalles, conceda a los usuarios el permiso **Ejecutar** en el objeto **Sistema** **5330**. Puede conceder este permiso utilizando un conjunto de permisos (como **Solución de problemas de D365**) o un grupo de usuarios (como **Solución de problemas de D365**). Para obtener más información sobre los permisos, vea [Administración de usuarios y permisos](ui-how-users-permissions.md).
+Como administrador, puede controlar el acceso a todos los detalles que se muestran en el panel **Inspección de la página** configurando los permisos que tienen los usuarios. Para conceder a un usuario un permiso para todos los detalles, conceda a los usuarios el permiso **Ejecutar** en el objeto **Sistema** **5330**. Puede conceder este permiso utilizando un conjunto de permisos (como **Solución de problemas de D365**) o un grupo de usuarios (como **Solución de problemas de D365**). Para obtener más información sobre los permisos, vea [Administrar usuarios y permisos](ui-how-users-permissions.md).
 
 Los usuarios a los que no se les conceden permisos sobre el **objeto de sistema 5330** pueden acceder al panel **Inspección de páginas**, pero solo verán los campos **Página** y **Tabla**, que muestran los detalles básicos que pueden pasar a su equipo de soporte.
 

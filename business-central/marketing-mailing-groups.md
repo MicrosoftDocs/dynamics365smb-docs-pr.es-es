@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
-ms.openlocfilehash: fb9c540819279d042685ad69c790e36e71dcfbed
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 6ec96c1872f59ca8583a85436702390d6b6fa8c4
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238284"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308889"
 ---
 # <a name="set-up-mailing-groups-for-contacts"></a>Configurar grupos de correo para contactos
 Puede usar grupos de correo para identificar grupos de contactos que quiere que reciban la misma información. Por ejemplo, puede configurar un grupo de direcciones para los contactos a los que desea enviar una notificación de un movimiento de oficina u otro grupo para enviar regalos de vacaciones.

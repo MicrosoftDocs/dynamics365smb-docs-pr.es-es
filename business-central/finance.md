@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 05/02/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 4f62954b7cc427eac84e78a4cb19a61387d423b3
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: 69014460131bd80bf08403a079e30b61d56cf307
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446973"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301545"
 ---
 # <a name="finance"></a>Finanzas
 [!INCLUDE[d365fin](includes/d365fin_md.md)] incluye una configuración estándar de muchos procesos financieros, pero puede cambiar la configuración para que se adapte a su empresa. Para obtener más información, consulte [Configurar finanzas](finance-setup-finance.md).
@@ -40,7 +40,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 | Agregue dimensiones para la inteligencia empresarial más completa. |[Trabajar con dimensiones](finance-dimensions.md) |
 | Cree presupuestos contables para prever diferentes actividades financieras y asigne dimensiones para fines de inteligencia empresarial. |[Crear presupuestos contables](finance-how-create-budgets.md) |
 |Registre los ingresos o los gastos directamente en la contabilidad sin registrar documentos empresariales dedicados.|[Registrar transacciones directamente en la contabilidad](finance-how-post-transactions-directly.md)|
-|Registre entradas de reversión para deshacer los registros de valoración en el diario general o los registros de cantidad en documentos de compra y ventas. |[Revertir registros](finance-how-reverse-journal-posting.md)|
+|Registre entradas de reversión para deshacer los registros de valoración en el diario general o los registros de cantidad en documentos de compra y ventas. |[Revertir los registros de diario y deshacer los recibos/envíos](finance-how-reverse-journal-posting.md)|
 |Asignar un movimiento en un diario general a varias cuentas al registrar el diario. |[Asignar costes e ingresos](year-allocate-costs-income.md) |
 | Asigne costes adicionales, como flete y manipulación física que se producen durante las operaciones comerciales, a los productos relacionados para que el coste se refleje en la valoración de existencias. |[Usar los cargos de producto a cuenta para los costes comerciales adicionales](payables-how-assign-item-charges.md) |
 |Registre los gastos personales de los empleados por las actividades comerciales y reembólselos mediante el pago a su cuenta bancaria.|[Registro y reembolso de los costes de los empleados](finance-how-record-reimburse-employee-expenses.md)|

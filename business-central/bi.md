@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 21042f9eb55413a6627dab830091686e06c34acc
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 7253e4fc4e4f1418a7c9bd1e2ac5e19298e4fb57
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246915"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308345"
 ---
 # <a name="business-intelligence"></a>Inteligencia empresarial
 Las empresas capturan una ingente cantidad de información con su actividad diaria. Esta información, que refleja aspectos como las cifras de ventas, las compras, los gastos operativos, los salarios de los empleados o los presupuestos de la organización, y que se conoce como inteligencia empresarial, resulta muy valiosa para los responsables de la toma de decisiones. [!INCLUDE[d365fin](includes/d365fin_md.md)] contiene numerosas funciones que le ayudan a recopilar, analizar y compartir la información de su empresa.

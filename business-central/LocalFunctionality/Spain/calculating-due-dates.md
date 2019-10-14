@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d0b7a8a1b3e6749947ce6eb63e2bb43345be8877
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 692089d2d3202ecc2a2d39212e2dfd27f5faae7a
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245397"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301113"
 ---
 # <a name="calculating-due-dates"></a>Cálculo de fechas de vencimiento
 En España, hay un límite legal para el número de días que un pago se puede retrasar. Debe presentar un informe anual de compras y ventas de los pagos que se crearon antes o después de la fecha de vencimiento. Los requisitos legales dependen de si el cliente es una empresa privada o una gestión pública. Para obtener más información, consulte la declaración oficial [BOE-A-2010-10708](https://go.microsoft.com/fwlink/?LinkId=224630) en la página web del Boletín Oficial del Estado.  

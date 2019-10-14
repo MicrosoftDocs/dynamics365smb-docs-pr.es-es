@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 10d593a8f52d9667428bae99d5e5c37a7eaccccb
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: d3f0a9fb50b7e41d23f735aa299162d64dcb19a9
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241594"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301114"
 ---
 # <a name="sii---invoice-and-credit-memo-types-in-sales-and-purchase-documents"></a>SII - Tipos de factura y abonos en documentos de compra y venta
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] admite los requisitos del SII españoles para la declaración del IVA (suministro de información inmediato). Para obtener más información, consulte [Guía de instalación y uso de la información electrónica sobre el IVA en SII en la versión española de Dynamics NAV](https://aka.ms/SIISetup).

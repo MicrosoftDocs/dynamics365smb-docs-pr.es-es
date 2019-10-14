@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e003f429122bd31ee35ef9b843682bfe8866407a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: e1863c6933cf5722c4a9940225ec59aabbdf84da
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246704"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304329"
 ---
 # <a name="set-up-company-configuration"></a>Establecer la configuración de una empresa
 El proceso de la implementación comienza con el socio de Microsoft. El socio es responsable de analizar los detalles de configuración y crear un paquete que un cliente podrá aplicar fácilmente. Antes de crear una nueva empresa, debe planificar su configuración. Debe tener en cuenta los datos de configuración básica y tipos de datos que necesitará la solución [!INCLUDE[d365fin](includes/d365fin_md.md)]. Toda esta información se agrupa en paquetes de configuración.

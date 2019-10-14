@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: eca41d78ca6665f8e64f99c448d0d771f7d2ad26
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: e6f44cfc8dc5eb3591aadd520a4ec58086d5f823
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244221"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300096"
 ---
 # <a name="set-up-intercompany"></a>Configurar empresa vinculada
 Para que una transacción (por ejemplo, una línea del diario de ventas) se envíe de una empresa y se cree automáticamente la transacción correspondiente (por ejemplo, una línea del diario de compras) en la empresa asociada, ambas empresas tiene que acordar el plan de cuentas común y definir las dimensiones que utilizarán en las transacciones entre ambas. El plan de cuentas de empresas vinculadas puede ser, por ejemplo, una versión simplificada del plan de cuentas de la empresa matriz. Cada empresa asigna su plan de cuentas al plan de cuentas de empresas vinculadas compartido y asigna sus dimensiones a las dimensiones de empresas vinculadas.  
@@ -112,7 +112,7 @@ Se han importado las líneas de las páginas **Dimensiones de empresas vinculada
 ### <a name="to-map-intercompany-dimensions-to-your-companys-dimensions"></a>Para asignar dimensiones de empresas vinculadas a las dimensiones de su empresa
 Cuando haya definido o importado las dimensiones que su empresa y las empresas vinculadas asociadas han acordado utilizar, debe asociar cada una de las dimensiones de empresas vinculadas a una de las dimensiones de su empresa, y a la inversa. En la página **Dimensiones de empresas vinculadas**, puede especificar cómo se transformarán las dimensiones de las empresas vinculadas en transacciones entrantes, en dimensiones de la lista de dimensiones de su propia empresa. En la página **Dimensiones**, puede especificar cómo se transformarán sus dimensiones en dimensiones de empresas vinculadas, en transacciones salientes.
 
-Si alguna de las dimensiones de empresas vinculadas tiene el mismo código que las dimensiones correspondientes de la lista de dimensiones de su empresa, puede dejar que el programa realice automáticamente las asignaciones y, a continuación, puede asignar las cuentas automáticamente.
+Si alguna de las dimensiones de empresas vinculadas tiene el mismo código que las dimensiones correspondientes de la lista de dimensiones de su empresa, puede dejar que la aplicación realice automáticamente las asignaciones y, a continuación, puede asignar las cuentas automáticamente.
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Dimensiones de empresas vinculadas** y luego elija el enlace relacionado.
 2. Abra la página **Dimensiones de empresas vinculadas**, seleccione las líneas que desea asignar automáticamente y elija la acción **Asignar a dim. con igual código**.

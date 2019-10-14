@@ -4,20 +4,20 @@ description: En Business Central, puede pagar a un proveedor mediante pagos elec
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/26/2017
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5a7925c1faf09005d24e13224ee5f4eef446e96e
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 359503886c6d726f618a8b027af08d38b00ff5fe
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241709"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301092"
 ---
 # <a name="pay-vendors-using-electronic-payments"></a>Pagar a los proveedores mediante pagos electrónicos
 En [!INCLUDE[d365fin](../../includes/d365fin_md.md)], puede pagar a un proveedor mediante pagos electrónicos. Los pagos se exportarán a un archivo, que luego se transferirá al banco. Después, el banco transfiere los pagos de manera electrónica de su cuenta de banco a la cuenta de banco del beneficiario (proveedor).  

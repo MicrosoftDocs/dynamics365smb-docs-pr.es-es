@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Odata, Power App, SOAP
-ms.date: 05/13/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 67d7129e32ccde3154a02dd12b806d712f470833
-ms.sourcegitcommit: 92c7b6c5f0a5d8becbef106ab85258906765bc3e
+ms.openlocfilehash: 4b8005154afb988cf25c6a04b7beeaafd199afca
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2019
-ms.locfileid: "1540274"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2305033"
 ---
 # <a name="connecting-to-your-business-central-data-to-build-a-business-app-using-powerapps"></a>Cómo conectarse a sus datos de Business Central para crear una aplicación empresarial con PowerApps
 Puede convertir los datos de [!INCLUDE[d365fin](includes/d365fin_md.md)] en disponibles como origen de datos en PowerApps.  
@@ -23,18 +23,20 @@ Puede convertir los datos de [!INCLUDE[d365fin](includes/d365fin_md.md)] en disp
 > [!NOTE]  
 >   Debe disponer de una cuenta válida con [!INCLUDE[d365fin](includes/d365fin_md.md)] y con PowerApps.  
 
-## <a name="to-add-included365finincludesd365finmdmd-as-a-data-source-in-powerapps"></a>Para agregar [!INCLUDE[d365fin](includes/d365fin_md.md)] como origen de datos de PowerApps
+## <a name="to-add-included365finincludesd365fin_mdmd-as-a-data-source-in-powerapps"></a>Para agregar [!INCLUDE[d365fin](includes/d365fin_md.md)] como origen de datos de PowerApps
 1. En el explorador, vaya a [powerapps.microsoft.com](https://powerapps.microsoft.com/en-us/) y, a continuación, inicie sesión.
-2. En la página Web, seleccione la plantilla **Iniciar desde datos** para crear una nueva aplicación de lienzo. Esta aplicación se ha diseñado para su uso en un dispositivo móvil, pero también puede seleccionar usar otra plantilla.
+2. En la página Web, elija **Aplicaciones**, **Crear una aplicación** y **Lienzo** para crear una nueva aplicación de lienzo. Esta aplicación se ha diseñado para su uso en un dispositivo móvil, pero también puede seleccionar usar otra plantilla.
 
     El siguiente paso para crear una PowerApp es seleccionar los datos. Elija el icono de flecha y la opción **Nueva conexión** en la parte superior izquierda de la página.
 3. En la lista de conexiones disponibles, elija **Business Central** y, después, seleccione el botón **Crear**.
 
     PowerApps se conectará a su [!INCLUDE [prodshort](includes/prodshort.md)] con las credenciales con las que ha iniciado sesión. Si no es administrador de su [!INCLUDE [prodshort](includes/prodshort.md)], es posible que tenga que iniciar sesión con otra cuenta.  
 
-4. Si tiene más de una empresa en su [!INCLUDE [prodshort](includes/prodshort.md)], debe elegir la empresa a la que se conectará. Después, PowerApps muestra una lista de *tablas* que están disponibles en [!INCLUDE [prodshort](includes/prodshort.md)]. Estas denominadas tablas forman parte de la API de [!INCLUDE [prodshort](includes/prodshort.md)]. No es necesario que configure los extremos usted mismo, el conector de [!INCLUDE [prodshort](includes/prodshort.md)] para PowerApps hacerlo de forma automática.  
+4.  PowerApps mostrará una lista de *ambientes y empresas* que están disponibles en [!INCLUDE [prodshort](includes/prodshort.md)]. Elija el ambiente y la empresa que contiene los datos a los que desea conectarse. A continuación, se le presentará una lista de API. Seleccione la **API** a la que desee conectarse.
 
-    Si desea incluir datos de otras tablas en [!INCLUDE [prodshort](includes/prodshort.md)] en su aplicación, debe trabajar con un desarrollador para definir una API personalizada en [!INCLUDE [prodshort](includes/prodshort.md)] y, después, consumir esa API personalizada a través de un conector personalizado en PowerApps. Para obtener más información, vea [Crear un conector personalizado desde cero](/connectors/custom-connectors/define-blank).  
+Estas denominadas tablas forman parte de la API de [!INCLUDE [prodshort](includes/prodshort.md)]. No es necesario que configure los extremos usted mismo, el conector de [!INCLUDE [prodshort](includes/prodshort.md)] para PowerApps hacerlo de forma automática.  
+
+    If you want to include data from other tables in [!INCLUDE [prodshort](includes/prodshort.md)] in your app, then you must work with a developer to define a custom API in [!INCLUDE [prodshort](includes/prodshort.md)] and then consume that custom API through a custom connector in PowerApps. For more information, see [Create a custom connector from scratch](/connectors/custom-connectors/define-blank).  
 
 Ya se ha conectado correctamente con los datos de [!INCLUDE [prodshort](includes/prodshort.md)] y está preparado para comenzar a crear su PowerApp. Puede agregar pantallas adicionales y conectarse a los datos adicionales de su [!INCLUDE [prodshort](includes/prodshort.md)]. Para obtener más información, consulte [Crear una aplicación de lienzo a partir de una plantilla de PowerApps](/powerapps/maker/canvas-apps/get-started-test-drive).  
 

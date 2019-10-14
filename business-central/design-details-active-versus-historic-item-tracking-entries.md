@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0f99bc9af80f1efa91892fc1ce6f59a8ac987bef
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 497d95ac42aa34d92c44884252bf369867b2bda1
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243201"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307497"
 ---
 # <a name="design-details-active-versus-historic-item-tracking-entries"></a>Detalles de diseño: registros de seguimiento de productos históricos frente a activos
 Cuando se registran partes de una cantidad de línea de documento, solo dicha cantidad concreta se transfiere a los movimientos de producto y sus números de seguimiento de producto. No obstante, le interesará acceder a toda la información de seguimiento del producto relevante directamente desde la línea activa del documento. Es decir, no solo desea ver los movimientos que están relacionados con la cantidad restantes, sino que también desea información sobre las unidades que se han registrado. Cuando consulte o modifique la página **Líns. seguim. prod.**, el contenido colectivo de las tablas **Especificación seguimiento** (T336) y **Mov. reserva** (T337) se presentan en una versión temporal de T336. De este modo se garantiza que se obtiene acceso a los datos de seguimiento de producto históricos y activos como una sola unidad.  

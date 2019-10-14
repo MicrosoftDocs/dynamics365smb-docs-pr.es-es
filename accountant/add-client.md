@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 11/23/2018
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: c7f0af8d3535f558567cd40c841909cd151ce313
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 95a4153c56693d8bdd28980f1acff14b917a9488
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237859"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300072"
 ---
-# <a name="add-clients-to-your-dashboard-in-include-d365acclongincludesd365acclongmdmd"></a>Agregar clientes al panel de [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
+# <a name="add-clients-to-your-dashboard-in-include-d365acc_longincludesd365acc_long_mdmd"></a>Agregar clientes al panel de [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
 
 Puede agregar un cliente mediante la página **Clientes** que puede abrir con la acción **Administrar clientes** de la cinta. Simplemente, elija **Nuevo** y, a continuación, rellene los campos.  
@@ -32,7 +32,7 @@ Los datos de la tarjeta para cada cliente los especifica el usuario, y puede cam
 
 La URL de cliente se utiliza cuando se elige el elemento de menú **Ir a empresa** en el panel de [!INCLUDE [d365acc](includes/d365acc_md.md)].  
 
-### <a name="get-invited-to-a-clients-include-d365finlongincludesd365finlongmdmd"></a>Obtener una invitación a [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)] de un cliente
+### <a name="get-invited-to-a-clients-include-d365fin_longincludesd365fin_long_mdmd"></a>Obtener una invitación a [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)] de un cliente
 Una empresa que utiliza [!INCLUDE [d365fin](includes/d365fin_md.md)] puede invitarle a [!INCLUDE [d365fin](includes/d365fin_md.md)] como su contable externo. Para ser invitado, debe indicarle el correo electrónico que usa con [!INCLUDE [d365acc](includes/d365acc_md.md)], como <em>me@accountant.com</em>. El administrador de su cliente puede agregarlo a su sistema ejecutando el asistente **Invitar a contable externo**.  
 
 Como resultado, recibirá el correo electrónico del cliente con vínculos a [!INCLUDE [d365fin](includes/d365fin_md.md)]. El primer enlace es una invitación para acceder a su empresa: ábralo y acepte los pasos que lo incorporan al [!INCLUDE [d365fin](includes/d365fin_md.md)] de su cliente. El segundo enlace es para agregar este cliente a su escritorio en [!INCLUDE [d365acc](includes/d365acc_md.md)] como se describe anteriormente.  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 184c7651fe8db60b55bd161bb5dc870df1ed01c5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 26b7f280afa61bc42af7b728272116731e6947b1
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241943"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2305673"
 ---
 # <a name="setting-up-inventory-valuation-and-costing"></a>Configuración de valoración de existencias
 Para asegurarse de que los costes de inventario se registran correctamente, debe configurar varios campos y páginas antes de comenzar a realizar transacciones de elementos.
@@ -31,7 +31,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Asegurar que los costes esperados se registran en la contabilidad para ver a partir de las cuentas provisionales una estimación de los importes vencidos y el coste de los productos comercializados antes de que se facturen realmente.|**Registro de coste previsto en contabilidad** de la ventana **Configuración de inventario**.|  
 |Configurar el sistema para ajustar los cambios de coste automáticamente cada vez que se registran transacciones de inventario.|[Modificar costes de productos](inventory-how-adjust-item-costs.md)|  
 |Definir si el coste medio debe calcularse por producto solamente o por producto para cada unidad de almacenamiento y para cada variante del producto.|Campo **Tipo cálculo coste medio** en la página **Configuración de inventario**|  
-|Seleccionar el periodo de tiempo que desea que utilice el programa para calcular el coste medio ponderado de los productos que utilizan la valoración de existencias media.|Campo **Periodo coste medio** en la página **Configuración de inventario**|  
+|Seleccionar el periodo de tiempo que desea que utilice la aplicación para calcular el coste medio ponderado de los productos que utilizan la valoración de existencias media.|Campo **Periodo coste medio** en la página **Configuración de inventario**|  
 |Definir periodos de inventario para controlar el valor del inventario con el tiempo no permitiendo el registro de transacciones en periodos de inventario cerrados.|[Trabajar con periodos de inventario](finance-how-to-work-with-inventory-periods.md)|  
 |Asegurar que las devoluciones de ventas se liquidan con la transacción de salida original para conservar el valor del inventario.|Campo **Coste exacto reversión obligatoria** en la página **Ventas y cobros**|  
 |Asegurar que las devoluciones de compras se liquidan con la transacción de entrada original para conservar el valor del inventario.|Campo **Coste exacto reversión obligatoria** en la página **Compras y pagos**|

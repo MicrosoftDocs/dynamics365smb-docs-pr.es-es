@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 76523523253a0bce8640aadab022e4880133c949
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 3bc3699e7ec5d356ed1bd1b85ad574f2e50d831b
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1239112"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303225"
 ---
 # <a name="design-details-planning-assignment-table"></a>Detalles de diseño: Tabla de asignación de planificación
 Todos los productos se deben planificar; no obstante, no hay razón para calcular un plan para un producto a menos que haya habido un cambio en el patrón de demanda o de aprovisionamiento desde la última vez que se calculó un plan.  
 
 Si el usuario ha introducido un nuevo pedido de venta o ha cambiado uno existente, existen motivos para volver a calcular el plan. Entre otros motivos se incluye un cambio en la previsión o en el stock de seguridad deseado. Un cambio en una lista de materiales mediante la adición o eliminación de un componente indicaría probablemente un cambio, pero para el producto componente solo.  
 
-En el caso de ubicaciones múltiples, la asignación se realiza en el nivel de producto por combinación de almacén. Si, por ejemplo, se ha creado un pedido de venta en solo una ubicación, el programa asignará el producto a esa ubicación específica para planificar.  
+En el caso de ubicaciones múltiples, la asignación se realiza en el nivel de producto por combinación de almacén. Si, por ejemplo, se ha creado un pedido de venta en solo una ubicación, la aplicación asignará el producto a esa ubicación específica para planificar.  
 
 El motivo para seleccionar productos para la planificación es cuestión de rendimiento del sistema. Si no se ha producido ningún cambio en el patrón de demanda-aprovisionamiento de un producto, el sistema de planificación no sugerirá ninguna acción. Sin la asignación de planificación, el sistema tendría que realizar cálculos para todos los productos a fin de averiguar para qué debe planificar y lo que agotaría los recursos del sistema.  
 

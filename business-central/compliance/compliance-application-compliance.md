@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: soalex
-ms.openlocfilehash: 283fe8bd51cca855f97b682c3b77c3e8805514e6
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ede085fca1595c7349501d9a8cbbd09e4e14e897
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246892"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303881"
 ---
 # <a name="application-compliance"></a>Conformidad de las aplicaciones
 En este contenido se incluye información acerca de la conformidad de las aplicaciones en relación con [!INCLUDE[d365fin](../includes/d365fin_md.md)], como las Normas Internacionales de Información Financiera, la funcionalidad local, el RGPD y más. La confianza en una solución de gestión empresarial es clave para dirigir un negocio eficiente. Con Business Central, las empresas están facultadas para agilizar los procesos de negocios a la vez que cumplen de manera consistente y rentable con el aumento de los requisitos de regulación e informes.
@@ -46,15 +46,18 @@ Business Central proporciona información operativa y financiera integrada en ti
 ## <a name="gain-control-of-critical-information-processes-and-reports"></a>Obtener control de información, procesos e informes críticos.
 
 ### <a name="manage-compliance-to-the-standards-that-matter"></a>Gestionar la conformidad de las normas importantes
+
 Ofrezca información integrada, procesos alineados y herramientas fáciles de usar para ayudar a sus empleados a cumplir con las expectativas y los estándares de administración financiera que son importantes para su negocio específico.
 
 ### <a name="tailor-account-schedules-to-your-needs"></a>Adaptar los horarios de las cuentas a sus necesidades
+
 - Defina la estructura del plan de cuentas de su empresa en función de los requisitos comerciales y las normas reglamentarias aplicables
 - Cree cuentas y maneje procesos complejos relacionados con un espectro de actividades comerciales, incluida la valoración de inventarios, las monedas extranjeras, los informes de segmentos y las salidas de los PCGA locales.
 - Controle el nivel de detalle para cada transacción registrada y seleccione el registro detallado para tipos específicos de transacciones, como activos fijos y cuentas por pagar.
-- Personalice los cálculos de la programación y la visualización para los informes financieros o exporte la información a Microsoft® Office Excel® para un análisis más detallado.
+- Personalice los cálculos de la programación y la visualización para los informes financieros o exporte la información a Microsoft Excel para un análisis más detallado.
 
 ### <a name="improve-information-validity"></a>Mejorar la validez de la información
+
 - Configure los campos de datos para aceptar solo información en el formato correcto, como el número correcto de posiciones decimales o patrones alfanuméricos.
 - Ayude a garantizar que la información se complete con los controles de la aplicación, como solicitar que se ingrese un número de factura del proveedor antes de que se pueda contabilizar una orden de compra.
 - Reduzca el riesgo de información inexacta o manipulación y ayude a proteger la información confidencial con acceso a la información basada en la función de trabajo.
@@ -69,9 +72,10 @@ Ofrezca información integrada, procesos alineados y herramientas fáciles de us
 - Acelere la transmisión de información financiera a clientes, accionistas, agencias reguladoras y al público en general con documentos XBRL basados ​​en XML que respaldan el intercambio de información financiera a través de diferentes software y tecnologías, incluido Internet.
 
 ### <a name="help-ensure-clear-audit-trails"></a>Facilidad para garantizar pistas de auditoría claras
+
 - Realice el seguimiento de documentos e información tanto hacia delante como hacia atrás a través del sistema, desde la fuente original hasta los estados financieros finales y viceversa.
 - Identifique cómo, cuándo y quién ingresó o editó la información, y en qué cuentas se han publicado las entradas financieras.
-- Busque cambios en la base de datos, incluidos los datos anteriores y revisados, en el Registro de cambios de la solución.
+- Busque cambios en la base de datos, incluidos los datos anteriores y revisados, en el [Registro de cambios](../across-log-changes.md) de la solución.
 - Aumente la transparencia y la facilidad de uso de la auditoría y acelere el acceso a la información para auditores externos con detalles, búsqueda, filtrado, registro y navegación
 
 ## <a name="compliance-and-local-functionality"></a>Conformidad y funcionalidad local
@@ -89,7 +93,8 @@ Microsoft está creando versiones localizadas de Business Central para varios pa
 > **Basilea II: implicaciones para la presentación de informes y análisis**  
 > Basilea II, desarrollada por el Banco de Pagos Internacionales, ayuda a garantizar la protección y la seguridad en el sistema financiero en tres áreas clave: requisitos de capital mínimo, proceso de revisión supervisora y disciplina de mercado. Aunque el acuerdo se aplica a las instituciones financieras y no se dirige a las pequeñas y medianas empresas, Basilea II puede tener algunas implicaciones para estas organizaciones en la presentación de informes y el análisis.
 
-## <a name="see-also"></a>Consulte también  
+## <a name="see-also"></a>Consulte también
+
 [Conformidad](compliance-overview.md)  
 [Conformidad de los servicios](compliance-service-compliance.md)  
 [Certificaciones](compliance-certifications.md)  

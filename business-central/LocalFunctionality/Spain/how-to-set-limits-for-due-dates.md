@@ -4,20 +4,20 @@ description: Puede modificar los términos de pago para que tengan límites para
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/01/2017
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b00d32d9b10e371ae41b9ba0924c4d1e17a5ded4
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 6e1e647b84a7a82ab126f6123a5c02ab6cc2e6a7
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241470"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301091"
 ---
 # <a name="set-limits-for-due-dates"></a>Establecer límites para fechas de vencimiento
 Puede modificar los términos de pago para que tengan límites para la cantidad máxima de días que puede transcurrir entre una entrega y el pago correspondiente.  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2edd26310dfc9a9f1dc0202fee4d51d2d6e5e317
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 7e133eaf7c6addbb79cc9f18313349bf303c6146
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241564"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301106"
 ---
 # <a name="create-report-340"></a>Crear el informe 340
 El Informe 340 incluye todas las facturas de compras y ventas que registra una empresa durante un periodo determinado. El informe también incluye los códigos de operación con impuestos y pagos en efectivo relacionados.  

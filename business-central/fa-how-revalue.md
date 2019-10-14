@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 12daf4927e6b18f999c85a3352a61ea28e7e0412
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: b2051b8b84336f28c58ead79f40129d2fa74d840
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1239825"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302769"
 ---
 # <a name="revalue-fixed-assets"></a>Revalorizar activos fijos
 La revalorización de activos fijos está formada por apreciaciones, depreciaciones o ajustes de valor general.

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: dcce77cae3f582f59ec07469342661ad2f4d9afa
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.openlocfilehash: cdf0eb137984bbc1988677ca53991d75659c022a
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1621027"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302193"
 ---
 # <a name="how-to-set-up-and-report-intrastat"></a>Procedimiento: configuración y creación de informes Intrastat
 Todas las empresas de la Unión Europea deben emitir informes sobre sus transacciones comerciales con otros países o regiones de la UE. Debe notificar el movimiento de mercancías al organismo de estadística de su país o región todos los meses, y el informe se debe remitir a las autoridades fiscales. Esto se denomina Informes de Intrastat. Para realizar los informes de Intrastat periódicos se usa la página **Diario Intrastat**.  

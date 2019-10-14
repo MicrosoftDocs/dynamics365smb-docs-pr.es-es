@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: dfd2a97c6c41ac43bbe4d33792774f929a68d7f6
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ca97d08166b73f75240203aa9949e4b0aa774ea6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247966"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310521"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Tutorial: Configuración y uso de un flujo de trabajo de aprobación de compra
 Puede automatizar el proceso de aprobar nuevos registros o registros modificados, como documentos, líneas de diario y fichas cliente, creando flujos de trabajo con pasos para las aprobaciones en cuestión. Antes de crear flujos de trabajo de aprobación, debe configurar un aprobador y un aprobador sustituto para cada usuario de aprobación. También puede establecer límites de cantidad de aprobadores para definir qué registros de venta y de compra pueden aprobar. Las solicitudes de aprobación y otras notificaciones se pueden enviar como mensajes de correo electrónico o como notas internas. Para cada configuración de usuario de aprobación, también puede configurar cuándo reciben notificaciones.
@@ -45,7 +45,7 @@ Pedro es superusuario en CRONUS. Crea dos usuarios de aprobación. Uno es Alicia
 Para probar el flujo de aprobación, Pedro primero inicia sesión en [!INCLUDE[d365fin](includes/d365fin_md.md)] como Alicia y, a continuación, solicita aprobación de un pedido de compra. Después inicia sesión como él mismo, ve la nota en su área de trabajo, sigue el vínculo a la solicitud de aprobación del pedido de compra y aprueba la solicitud.  
 
 ## <a name="setting-up-sample-data"></a>Configuración de los datos de ejemplo
-Para poder configurar los usuarios de aprobación y su método de notificación, debe asegurarse de que existen dos usuarios en [!INCLUDE[d365fin](includes/d365fin_md.md)]: un usuario representará a Alicia. El otro usuario, usted, representará a Sean. Para obtener más información, vea [Administración de usuarios y permisos](ui-how-users-permissions.md).
+Para poder configurar los usuarios de aprobación y su método de notificación, debe asegurarse de que existen dos usuarios en [!INCLUDE[d365fin](includes/d365fin_md.md)]: un usuario representará a Alicia. El otro usuario, usted, representará a Sean. Para obtener más información, vea [Administrar usuarios y permisos](ui-how-users-permissions.md).
 
 ### <a name="setting-up-approval-users"></a>Configuración de usuarios de aprobación  
 Cuando inicie sesión como usted mismo, configure a Alicia como un usuario de aprobación cuyo aprobador sea usted mismo. Configure sus derechos de aprobación y especifique cómo y cuándo se le notificarán las solicitudes de aprobación.  

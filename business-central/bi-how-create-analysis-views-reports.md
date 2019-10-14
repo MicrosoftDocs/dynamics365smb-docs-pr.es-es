@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e8744455f41897f00315968cc10f12f18bf042b9
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 8c3b7ee476287b25740648758ff7b87ff13f22a7
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245263"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303945"
 ---
 #  <a name="create-analysis-reports"></a>Crear informes de análisis
 Los directores de ventas necesitan analizar las facturaciones, los ingresos brutos y otros indicadores clave del rendimiento de las ventas con regularidad. Los compradores están más interesados en la dinámica de los volúmenes de compra, las actuaciones de los proveedores y los precios de compra. A su vez, los directores de inventario/logística necesitan información sobre la rotación de inventarios, sobre los análisis de los movimientos de inventario y sobre las estadísticas de valores de inventario.  
@@ -43,7 +43,7 @@ A continuación, puede configurar las siguientes columnas:
 ## <a name="setting-up-line-and-column-layouts"></a>Configuración de plantillas de líneas y columnas  
  En la página **Informe de análisis**, puede ver distintas plantillas de líneas y columnas según la configuración definida. Las líneas o las plantillas de línea, se configuran en la página **Plantilla de línea de análisis**. En esta página puede definir el nombre del informe y los objetos que desea mostrar en las líneas del informe. Las columnas se configuran en la página **Plantillas columnas análisis**. En esta página puede definir el nombre de la plantilla de columna y los parámetros de análisis que desea mostrar en el informe como columnas. En la página **Plantillas columnas análisis**, cada línea representa una columna del informe. Observe que las líneas de análisis y las columnas de análisis son independientes las unas de las otras.  
 
-Basándose en las líneas y columnas definidas, el programa agregará el resultado del informe en la página de matriz **Informe de análisis**, como en este ejemplo:  
+Basándose en las líneas y columnas definidas, la aplicación agregará el resultado del informe en la página de matriz **Informe de análisis**, como en este ejemplo:  
 
 | |Ventas del mes actual|Ventas del mes anterior|Porcentaje de ventas del mes anterior|  
 |-|-|-|-|  

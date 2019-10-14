@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d4340172164401e736bf070b8bf6f3da97cfacb6
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 66b4d9c3f9f84e9342cffd9446a4b3992ff62a57
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248783"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310281"
 ---
 # <a name="pick-items-with-inventory-picks"></a>Realizar el picking de productos con picking inventario
 Cuando su almacén está configurado para requerir proceso de picking, pero no de envío, utilice la página **Picking inventario** para registrar la información de picking y envío de sus documentos de origen. El documento de origen de salida puede ser un pedido de venta, una devolución de compras, un pedido de transferencia de salida o una orden de producción cuyos componentes están preparados para picking.

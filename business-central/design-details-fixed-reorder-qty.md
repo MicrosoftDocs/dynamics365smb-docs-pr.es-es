@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
-ms.openlocfilehash: 5447e64e4be43b7f6777d52f385084599f5d8a0d
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: dd8c4b8cdae3e004e30551798e5a68058b5c38fe
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1242358"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307231"
 ---
 # <a name="design-details-fixed-reorder-qty"></a>Detalles de diseño: Cantidad de reaprovisionamiento fija
 La directiva Cdad. fija reaprov. está relacionada con la planificación de inventario de los productos C típicos (coste de inventario bajo, poco riesgo de obsolescencia o muchos productos). Normalmente, esta directiva se usa con relación a un punto de pedido que refleja la demanda anticipada durante el plazo del producto.  

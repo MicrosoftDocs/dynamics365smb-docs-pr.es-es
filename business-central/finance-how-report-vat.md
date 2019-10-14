@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
-ms.date: 05/02/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: fcc9eda38a54e8e94bd74bfbcc76fe808a119525
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: 4560de9740d0b4918d685fb0278b905baf1a8ecd
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446996"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2306241"
 ---
 # <a name="report-vat-to-a-tax-authority"></a>Crear informes de IVA para la autoridad fiscal
 En este tema se describen los informes de [!INCLUDE[d365fin](includes/d365fin_md.md)] que puede utilizar para enviar información sobre importes del IVA (IVA) para ventas y compras a las autoridades fiscales de su región.
@@ -61,7 +61,7 @@ Para informar el IVA a una autoridad fiscal electrónicamente, debe conectar [!I
     > [!NOTE]  
     >   Conviene probar la conexión. Para ello, seleccione la casilla de verificación **Ejecutar en modo de prueba** y, a continuación, prepare y envíe su informe de IVA como se describe en la sección _Preparar y enviar un informe de IVA_. Mientras está en modo de prueba, el servicio comprueba si la autoridad tributaria puede recibir su informe y el estado del informe indicará si el envío de la prueba ha sido satisfactorio. Debe recordar que no es un envío real. Para enviar el informe de válido, debe desactivar la casilla de verificación **Ejecutar en modo de prueba** y, a continuación, repetir el proceso.
 
-## <a name="to-set-up-vat-reports-in-included365finincludesd365finmdmd"></a>Para configurar informes IVA en [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="to-set-up-vat-reports-in-included365finincludesd365fin_mdmd"></a>Para configurar informes IVA en [!INCLUDE[d365fin](includes/d365fin_md.md)]
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración informe IVA** y luego elija el enlace relacionado.  
 2. Para permitir que los usuarios cambien y vuelvan a enviar este informe, seleccione la casilla de verificación **Modificar informes enviados**.  
 3. Elija el código de serie que desee usar para cada informe.  

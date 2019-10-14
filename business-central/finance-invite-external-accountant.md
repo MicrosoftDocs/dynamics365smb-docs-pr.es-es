@@ -8,22 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
 redirect_url: finance-accounting
-ms.openlocfilehash: 4b56e6923d1d554bb27a4c0f82f0226dea51f280
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: 365d0829d11394bc292d6e908588564b711785af
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446904"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302021"
 ---
-# <a name="inviting-your-external-accountant-to-your-included365finincludesd365finmdmd"></a>Invitación del contable externo a [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="inviting-your-external-accountant-to-your-included365finincludesd365fin_mdmd"></a>Invitación del contable externo a [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Si utiliza un contable externo para administrar los libros y los informes financieros, puede invitarle a su [!INCLUDE[d365fin](includes/d365fin_md.md)] para que pueda trabajar con usted en los datos fiscales.
 
 Una vez que el contable ha accedido a su [!INCLUDE[d365fin](includes/d365fin_md.md)], puede utilizar el área de trabajo **Contable** que da acceso fácil a las páginas más relevantes para el trabajo.  
 
-## <a name="invite-your-accountant-to-your-included365finincludesd365finmdmd"></a>Invitar al contable a [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="invite-your-accountant-to-your-included365finincludesd365fin_mdmd"></a>Invitar al contable a [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
 Hemos facilitado la invitación a su contable externo. Abra simplemente la página **Usuarios**, y seleccione la acción **Invitar a contable externo** en la cinta de opciones. Se le crea un correo electrónico, ahora simplemente agregue el correo electrónico de trabajo de su contable y envíe la invitación.  
 
