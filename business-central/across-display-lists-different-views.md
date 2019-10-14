@@ -1,32 +1,32 @@
 ---
 title: Ajustar la cantidad de detalle que se ve en las listas | Documentos de Microsoft
-description: Puede mostrar listas en vistas detalladas que proporcionen más información o como mosaicos que sean fáciles de analizar visualmente.
+description: Puede mostrar listas como filas detalladas que proporcionen el máximo de información o como mosaicos que sean fáciles de analizar visualmente y puede incluir miniaturas de imágenes.
 services: project-madeira
 documentationcenter: ''
-author: SusanneWindfeldPedersen
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalization
-ms.date: 04/01/2019
-ms.author: solsen
-ms.openlocfilehash: 2d20fc0849e90f74924ebc585662a9e461cc2313
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: bd82b37992a7664df1a85f7f5734e79a1e7c233e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244382"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300622"
 ---
-# <a name="displaying-lists-in-different-ways"></a><span data-ttu-id="dabfd-103">Mostrar listas en diferentes vistas</span><span class="sxs-lookup"><span data-stu-id="dabfd-103">Displaying Lists in Different Ways</span></span>
-<span data-ttu-id="dabfd-104">En la esquina derecha de cualquier lista de [!INCLUDE[d365fin](includes/d365fin_md.md)] encontrará iconos que permiten modificar la vista de la lista.</span><span class="sxs-lookup"><span data-stu-id="dabfd-104">In the right corner of any list in [!INCLUDE[d365fin](includes/d365fin_md.md)] you will find icons that let you switch view on the list.</span></span> <span data-ttu-id="dabfd-105">Una lista se puede ver como una lista detallada, que es una vista estándar.</span><span class="sxs-lookup"><span data-stu-id="dabfd-105">A list can be viewed as a detailed list, which is the standard view.</span></span> <span data-ttu-id="dabfd-106">Pero también puede cambiarla a una vista de mosaicos que mostrará menos detalles en el registro específico y apilará los movimientos como mosaicos.</span><span class="sxs-lookup"><span data-stu-id="dabfd-106">But you can also switch to view as tiles, which will show less detail on the specific record and stack the entries as tiles.</span></span> <span data-ttu-id="dabfd-107">Esta vista es muy útil para obtener un resumen de varios movimientos y, sobre todo, en dispositivos pequeños, porque hace que los movimientos sean más fáciles de pulsar.</span><span class="sxs-lookup"><span data-stu-id="dabfd-107">This view is very useful to gain an overview of several entries and is in particular useful on smaller devices, because it makes each entry easier to tap.</span></span>
+# <a name="displaying-lists-in-different-ways"></a><span data-ttu-id="17226-103">Mostrar listas en diferentes vistas</span><span class="sxs-lookup"><span data-stu-id="17226-103">Displaying Lists in Different Ways</span></span>
+<span data-ttu-id="17226-104">En la esquina derecha de cualquier lista de [!INCLUDE[d365fin](includes/d365fin_md.md)] encontrará iconos que permiten elegir cómo se muestra la lista de registros.</span><span class="sxs-lookup"><span data-stu-id="17226-104">In the right corner of any list in [!INCLUDE[d365fin](includes/d365fin_md.md)] you will find icons that let you choose how the list of records is displayed.</span></span> <span data-ttu-id="17226-105">Una lista se puede mostrar como filas detalladas, lo cual es ideal cuando necesita trabajar con muchos campos o editar campos en la lista.</span><span class="sxs-lookup"><span data-stu-id="17226-105">A list can be displayed as detailed rows, which is ideal when you need to work with many fields or edit fields in the list.</span></span> <span data-ttu-id="17226-106">Pero también puede cambiar para mostrar registros como mosaicos, que es más compacto y muestra menos campos en el registro específico.</span><span class="sxs-lookup"><span data-stu-id="17226-106">But you can also switch to display records as tiles, which is more compact and shows less fields on the specific record.</span></span> <span data-ttu-id="17226-107">Esto es muy útil para obtener un resumen de varios movimientos y, sobre todo, en dispositivos pequeños, porque es compacto y es más fácil de puntear.</span><span class="sxs-lookup"><span data-stu-id="17226-107">This is very useful to gain an overview of several entries and is in particular useful on smaller devices, because it is compact and easier to tap.</span></span>
 
-## <a name="items-list"></a><span data-ttu-id="dabfd-108">Lista de productos</span><span class="sxs-lookup"><span data-stu-id="dabfd-108">Items list</span></span>
-<span data-ttu-id="dabfd-109">En la lista de productos, la existencia de imágenes que ayudan a obtener un resumen rápido de los productos que vende y el cambio a los mosaicos le proporcionan un catálogo de productos por el que puede navegar.</span><span class="sxs-lookup"><span data-stu-id="dabfd-109">On the Items list, having pictures helps you get a quick overview of what you sell and switching to the tiles gives you an item catalogue to browse through.</span></span> <span data-ttu-id="dabfd-110">Si se define una imagen para un producto determinado, existe otra opción entre la lista detallada y los mosaicos: la vista de mosaicos grandes.</span><span class="sxs-lookup"><span data-stu-id="dabfd-110">If a picture is defined for the specific item, you have a third option besides the detailed list and the tiles; the large tiles view.</span></span> <span data-ttu-id="dabfd-111">Esta vista muestra imágenes de gran tamaño para cada movimiento.</span><span class="sxs-lookup"><span data-stu-id="dabfd-111">This view displays large pictures for each entry.</span></span>
+## <a name="item-list"></a><span data-ttu-id="17226-108">Lista de productos</span><span class="sxs-lookup"><span data-stu-id="17226-108">Item List</span></span>
+<span data-ttu-id="17226-109">En la página **Productos**, la existencia de imágenes que ayudan a obtener un resumen rápido de los productos que vende y el cambio a los mosaicos le proporcionan un catálogo de productos por el que puede navegar.</span><span class="sxs-lookup"><span data-stu-id="17226-109">On the **Items** page, having pictures helps you get a quick overview of what you sell and switching to the tiles gives you an item catalogue to browse through.</span></span> <span data-ttu-id="17226-110">Para las listas que incluyen imágenes, como la página **Productos**, tiene una tercera opción para la visualización como mosaicos grandes.</span><span class="sxs-lookup"><span data-stu-id="17226-110">For lists that include pictures, such as the **Items** page, you have a third option to display as large tiles.</span></span> <span data-ttu-id="17226-111">De este modo se muestran imágenes grandes para cada registro, pero también se muestran pocos campos.</span><span class="sxs-lookup"><span data-stu-id="17226-111">This displays large pictures for each record but also shows few fields.</span></span>
 
-<span data-ttu-id="dabfd-112">Puede importar una imagen para un determinado producto si accede a la ficha **Producto** y, a la derecha, selecciona **Imagen** y, a continuación, elige **Importar**.</span><span class="sxs-lookup"><span data-stu-id="dabfd-112">You can import a picture for a specific item by going to the **Item** card and to the right select **Picture** and then choose **Import**.</span></span> <span data-ttu-id="dabfd-113">Asimismo, puede exportar una imagen a un archivo o eliminar la imagen de este producto.</span><span class="sxs-lookup"><span data-stu-id="dabfd-113">Likewise you can export a picture to a file or delete the picture for the item.</span></span>  
+<span data-ttu-id="17226-112">Puede importar imágenes de producto, una por una o para varios productos de una sola vez.</span><span class="sxs-lookup"><span data-stu-id="17226-112">You can import item pictures, either one by one or for multiple items in one go.</span></span> <span data-ttu-id="17226-113">Para obtener más información, consulte [Importar varias imágenes de producto](inventory-how-import-item-pictures.md).</span><span class="sxs-lookup"><span data-stu-id="17226-113">For more information, see [Import Multiple Item Pictures](inventory-how-import-item-pictures.md).</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="dabfd-114">Consulte también</span><span class="sxs-lookup"><span data-stu-id="dabfd-114">See Also</span></span>
-<span data-ttu-id="dabfd-115">[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="dabfd-115">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
-[<span data-ttu-id="dabfd-116">Registro de productos nuevos</span><span class="sxs-lookup"><span data-stu-id="dabfd-116">Register New Items</span></span>](inventory-how-register-new-items.md)  
+## <a name="see-also"></a><span data-ttu-id="17226-114">Consulte también</span><span class="sxs-lookup"><span data-stu-id="17226-114">See Also</span></span>
+<span data-ttu-id="17226-115">[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="17226-115">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+[<span data-ttu-id="17226-116">Registro de productos nuevos</span><span class="sxs-lookup"><span data-stu-id="17226-116">Register New Items</span></span>](inventory-how-register-new-items.md)  

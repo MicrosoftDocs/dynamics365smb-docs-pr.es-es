@@ -185,7 +185,7 @@
     <Node Name="" DisplayName="Trabajar con dimensiones" Page="finance-dimensions.html"/>
     <Node Name="" DisplayName="Crear presupuestos" Page="finance-how-create-budgets.html"/>
     <Node Name="" DisplayName="Registrar transacciones directamente en la contabilidad" Page="finance-how-post-transactions-directly.html"/>
-    <Node Name="" DisplayName="Revertir registros" Page="finance-how-reverse-journal-posting.html"/>
+    <Node Name="" DisplayName="Procedimiento: revertir los registros de diario y deshacer los recibos/envíos" Page="finance-how-reverse-journal-posting.html"/>
     <Node Name="" DisplayName="Asignar costes e ingresos." Page="year-allocate-costs-income.html"/>
     <Node Name="" DisplayName="Usar los cargos de producto a cuenta para los costes comerciales adicionales" Page="payables-how-assign-item-charges.html"/>
     <Node Name="" DisplayName="Procedimiento: registro y reembolso de los costes de los empleados" Page="finance-how-record-reimburse-employee-expenses.html"/>
