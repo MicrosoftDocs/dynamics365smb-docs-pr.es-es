@@ -8,22 +8,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 10/01/2019
+ms.date: 11/07/2019
 ms.author: sgroespe
-ms.openlocfilehash: f0c021edd416daff4b40dee6f4a541b4e3e8bc32
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e8d55ffd434ff2c7666d0b90a5cfd091fc68a015
+ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309465"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "2774848"
 ---
 # <a name="keyboard-shortcuts"></a>Métodos abreviados de teclado
 Este producto proporciona un resumen de algunas de las combinaciones de métodos abreviados que se pueden utilizar cuando trabaje con [!INCLUDE[prodshort](includes/prodshort.md)].
 
+Para obtener una descripción general de los métodos abreviados de teclado más populares, vea [Métodos abreviados de teclado (solo PC)](keyboard-shortcuts-cheatsheet.md).
+
 > [!TIP]
-> Para obtener una descripción general rápida y fácil de imprimir de los accesos directos más populares para usuarios de PC, consulte [Métodos abreviados de teclado (solo PC)](keyboard-shortcuts-cheatsheet.md). Para una representación gráfica, elija la siguiente imagen:
+> Para obtener una vista gráfica de los métodos abreviados más utilizados, elija la siguiente imagen y descargue el archivo PDF.
 >
->[ ![Para descargar la imagen para imprimirla, haga clic con el botón secundario y seleccione Guardar imagen como](media/bckeyboardmap-inline.png) ](media/bckeyboardmap.png#lightbox)
+> [ ![](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf)
 
 ## <a name="overview"></a>Panorama
 Los métodos abreviados de teclado ayudan a la accesibilidad y pueden hacer que sea más fácil y más eficiente navegar por diferentes áreas y elementos en una página. Son compatibles con la mayoría de los exploradores web; sin embargo el comportamiento puede variar ligeramente.
@@ -47,11 +49,11 @@ En la tabla siguiente se describen los métodos abreviados de teclado para naveg
 |Alt+Mayús+F2|Cambiar entre **Detalles** y **Archivos adjuntos** en el panel del cuadro informativo.|
 |Alt+O|Agregar una nueva nota para el registro seleccionado, incluso si el panel del cuadro informativo no está abierto.|
 |Alt+Q<br />(Ctrl+Opción+Q)|Abrir la ventana **Dígame**. Para obtener más información, consulte [Búsqueda de páginas e información con Dígame](ui-search.md).|
-|Alt+N |Abrir una página para crear un nuevo registro. (Similar a elegir las acciones **Nuevo** y **+**).
-|Alt+Mayús+N |Cerrar una página recién creada y abrir una nueva para crear un nuevo registro.
+|Alt+N |Abrir una página para crear un nuevo registro. (Similar a elegir las acciones **Nuevo** y **+**).|
+|Alt+Mayús+N |Cerrar una página recién creada y abrir una nueva para crear un nuevo registro. Del mismo modo, Alt+F9 registra un documento y crea uno nuevo.|
 |Alt+T|Abrir la página **Mi configuración**.|
 |Alt + Flecha hacia la derecha|Buscar información adicional o valores subyacentes para un campo que contiene el botón ![AssistEdit](media/assist-edit-icon.png "Botón AssistEdit"). Se usa cuando el botón desplegable habitual (Alt+flecha abajo) en el mismo campo se usa para otro propósito.|
-|Shift+F12|Abrir la descripción general de funciones. Para obtener más información, consulte [Búsqueda de páginas desde una descripción general de funciones](ui-role-explorer.md).|
+|Shift+F12|Abrir el explorador de roles, una descripción general de la función. Para obtener más información, vea [Búsqueda de páginas con el explorador de roles](ui-role-explorer.md).|
 |Ctrl+Alt+Mayús+C|Mostrar información en el distintivo de la empresa.|
 |Ctrl+Alt+F1|Abrir y cerrar el panel de inspección de la página. El panel de inspección de la página muestra información sobre la página, como su tabla de orígenes, campos, filtros, extensiones y más.<br /><br />Para obtener más información, vea [Inspección de páginas](across-inspect-page.md).|
 |Ctrl+C |Copiar el valor del campo. Si el campo tiene el enfoque y no ha seleccionado ningún texto en el campo, se copiará todo el valor. Si ha seleccionado texto en el campo, solo copiará el texto seleccionado.|

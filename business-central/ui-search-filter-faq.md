@@ -8,12 +8,12 @@ ms.reviewer: edupont04
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
 ms.date: 10/01/2019
 ms.author: mikebc
-ms.openlocfilehash: 93a68509653aef29bb8f798e7fded70bab550e13
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a0b5d48f5decbed87337e27145486a2884a6612d
+ms.sourcegitcommit: 49309bdff9b680a35032b355fe97c565845dba15
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315065"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2695196"
 ---
 # <a name="searching-and-filtering-faq"></a>Búsqueda y filtrado de preguntas frecuentes
 Este artículo responde a preguntas comunes que puede tener acerca de las acciones buscar y filtrar.
@@ -52,5 +52,5 @@ Como administrador local, aumente el límite de tiempo en las búsquedas mediant
 ## <a name="see-also"></a>Consulte también .
 [Ordenar, buscar y filtrar](ui-enter-criteria-filters.md)  
 [Búsqueda de páginas e información con Dígame](ui-search.md)  
-[Búsqueda de páginas desde una descripción general de funciones](ui-role-explorer.md)  
+[Búsqueda de páginas con el explorador de roles](ui-role-explorer.md)  
 [Introducción](product-get-started.md)  

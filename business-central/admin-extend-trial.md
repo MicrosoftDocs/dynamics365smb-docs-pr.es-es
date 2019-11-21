@@ -1,7 +1,6 @@
 ---
 title: Extender la versión de prueba | Documentos de Microsoft
 description: Si necesita más tiempo para decidir si desea suscribirse, puede ampliar su versión de prueba.
-services: project-madeira
 documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -10,19 +9,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 11/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: cefaf4469cb174140833e310e5c28fa6de1baf9c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: bce2f8ec50fa836be87c0f1bd77a28e44b208167
+ms.sourcegitcommit: f9f805282c86fda55843f7a11020fb3df861d50e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308193"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "2764629"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>¿Necesita más tiempo para decidir si suscribirse?
 Es importante tomar la decisión correcta al elegir una aplicación de negocios y sabemos que puede llevar tiempo explorar todos los rincones de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Si necesita más tiempo para finalizar su evaluación, puede ampliar el período de prueba otros 30 días más. Cuando se acerque la fecha de vencimiento de su período de prueba, cuando inicie sesión le mostraremos una notificación para avisarle. La notificación contendrá un enlace a la guía **Ampliar período de prueba** que puede usar para ampliar su período de prueba. Los 30 días adicionales comienzan en el momento que elija **Ampliar versión de prueba** en la guía.
 
-Sin embargo, por su parte solo puede ampliar el período de prueba una vez. No es posible hacerlo dos veces, al menos no por su parte. Si ya ha ampliado el período de prueba, su socio de Microsoft puede ampliarlo nuevamente para usted. Aunque también es posible hacerlo solamente una vez. Si aún no está trabajando con un socio, el siguiente enlace le ayudará a encontrar uno: [Póngase en contacto con un socio](https://go.microsoft.com/fwlink/?linkid=2038439).
+Sin embargo, por su parte solo puede ampliar el período de prueba una vez. No es posible hacerlo dos veces, al menos no por su parte. Si ya ha ampliado el período de prueba, su socio de Microsoft puede ampliarlo nuevamente para usted. Aunque también es posible hacerlo solamente una vez. Si aún no trabaja con un socio, vea [¿Cómo encuentro un socio distribuidor?](across-faq.md#findpartner)
 
 ## <a name="what-happens-if-my-trial-period-is-expired"></a>¿Qué pasa si mi período de prueba ha expirado?
 Si su primer período de prueba de 30 días ha caducado, puede ampliarlo usted mismo y las características seguirán funcionando como de costumbre. Simplemente inicie sesión en la empresa de demostración e inicie la guía **Ampliar período de prueba** desde la notificación. Si ha creado su propia empresa, cierre sesión y vuelva a iniciarla con las credenciales de esa empresa. Si su período de prueba ampliado ha caducado, puede [suscribirse](https://go.microsoft.com/fwlink/?linkid=828659) a [!INCLUDE[d365fin](includes/d365fin_md.md)] en un plazo de 90 días y continuar trabajando en la empresa que creó. Después de 90 días eliminaremos su empresa y sus datos. 
@@ -34,3 +33,4 @@ Si su primer período de prueba de 30 días ha caducado, puede ampliarlo usted m
 ## <a name="see-also"></a>Consulte también
 [Crear nuevas en empresas](about-new-company.md)  
 [Acceder a una vista preliminar](across-preview.md)  
+[¿Cómo encuentro un socio distribuidor?](across-faq.md#findpartner)  

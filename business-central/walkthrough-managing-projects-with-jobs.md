@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c50646a8e1f56d95256271f64ecf7dfb4992e4ce
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 43bad71f76fc441fee84c14d1890572130d3948a
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314825"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554721"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Tutorial: administración de programas con proyectos
 
@@ -173,7 +173,7 @@ En el siguiente procedimiento, cree una sección diario proyecto para Tricia par
     |nº 1020|Desarrollo|Auxiliar|  
     |1090|Total de consultoría|Fin Total|  
 
-3.  Para indicar que algunas tareas son subcategorías de otras tareas, en la pestaña de **Acciones**, en el grupo de **Funciones**, seleccione **Indentar tareas proyecto**.  
+3.  Para indicar que algunas tareas son subcategorías de otras tareas, elija la acción **Indentar tareas proyecto**.  
 
  Una línea de planificación puede ser uno de los siguientes tipos:  
 
@@ -261,7 +261,7 @@ Ya se han registrado las líneas.
 4.  En la ficha desplegable **Opciones**, introduzca la fecha de registro y defina si desea crear una factura por tarea o una sola factura para todas las tareas.  
 5.  Elija el botón **Aceptar** para crear la factura y seleccione el botón **Aceptar** en la página de confirmación.  
 
- Después de que Tricia cree la factura, ella puede acceder a ésta desde **Ventas y Marketing** en **Procesamiento de pedidos** y realizar un procesamiento adicional.  
+ Después de que Tricia cree la factura, puede acceder a ella desde el área de trabajo **Procesadora de pedidos de ventas**, por ejemplo. 
 
 ### <a name="to-post-a-new-sales-invoice"></a>Para registrar una nueva factura de ventas  
 

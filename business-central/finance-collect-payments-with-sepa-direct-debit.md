@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: fe015afa5508117fb7425042972e967d7a652485
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2cc4f25ad0ae861579789d05dd192c1019bfe505
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302505"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554307"
 ---
 # <a name="collect-payments-with-sepa-direct-debit"></a>Cobrar pagos mediante adeudo directo SEPA
 Con el consentimiento de sus clientes, puede cobrar los pagos directamente al banco del cliente según el formato SEPA.  
@@ -43,12 +43,12 @@ Para poder procesar pagos de clientes electrónicamente exportando instrucciones
 * Establezca la orden de adeudo directo que refleja el acuerdo con el cliente para cobrar sus pagos en un período de acuerdo determinado.  
 
 ### <a name="to-set-up-your-bank-account-for-sepa-direct-debit"></a>Configuración del banco para adeudo directo SEPA  
-1. En el cuadro **Buscar**, escriba **Cuentas bancarias** y, a continuación, elija el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Cuentas bancarias** y luego elija el enlace relacionado.  
 2. Abra el banco que desea utilizar para el adeudo directo.  
 3. En la ficha desplegable **Transferencia**, en el campo **Formato exportación de adeudo directo SEPA**, elija la opción para adeudo directo SEPA.  
 
 ### <a name="to-set-up-the-customers-payment-method-for-sepa-direct-debit"></a>Configuración de la forma de pago del cliente para adeudo directo SEPA  
-1. En el cuadro **Buscar**, escriba **Formas de pago** y, a continuación, elija el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Métodos pago** y luego elija el enlace relacionado.  
 2. Seleccione la acción **Nuevo**.  
 3. Configure una forma de pago. Rellene los campos específicos del adeudo directo tal como se describe en la tabla siguiente.  
 
@@ -61,16 +61,16 @@ Para poder procesar pagos de clientes electrónicamente exportando instrucciones
     >  No especifique ningún valor en el campo **Bal. Nº cuenta**.  
 
 4. Elija el botón **Aceptar** para cerrar la página **Métodos pago**.  
-5. En el cuadro **Buscar**, escriba **Clientes**, y a continuación, elija el vínculo relacionado.  
+5. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Clientes** y luego elija el enlace relacionado.  
 6. Abra la ficha del cliente que desee configurar para los cobros por adeudo directo SEPA.  
 7. Elija el campo **Código método pago** y seleccione el código de la forma de pago que especificó en el paso 3.  
 8. Repita los pasos 6 a 7 para todos los clientes que desea configurar para el cobro por adeudo directo SEPA.  
 
 #### <a name="to-set-up-the-direct-debit-mandate-that-represents-the-customer-agreement"></a>Configuración de la orden de domiciliación de adeudo directo que representa el acuerdo del cliente  
-1. En el cuadro **Buscar**, escriba **Clientes**, y a continuación, elija el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Clientes** y luego elija el enlace relacionado.  
 2. Abra la ficha del cliente que desee configurar para adeudos directos SEPA.  
 3. Elija la acción **Cuentas bancarias**.  
-4. En la página **Lista bancos cliente**, seleccione el banco de cliente que utilizará domiciliaciones y, a continuación, en la pestaña **Inicio**, en el grupo **Procesar**, elija **Órdenes de domiciliación de adeudo directo**.  
+4. En la página **Lista bancos cliente**, seleccione el banco de cliente que utilizará domiciliaciones y, a continuación, elija la opción **Órdenes de domiciliación de adeudo directo**.  
 5. En la página **Órdenes de domiciliación de adeudo directo SEPA**, rellene los campos tal como se describe en la tabla siguiente.  
 
     |Campo|Descripción|  
@@ -97,7 +97,7 @@ Para poder procesar pagos de clientes electrónicamente exportando instrucciones
 ### <a name="to-create-a-direct-debit-collection"></a>Creación de un cobro por domiciliación  
 
  1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Cobros por adeudo directo** y luego elija el enlace relacionado.  
- 2. En la página **Cobros por adeudo directo**, en la pestaña **Inicio**, en el grupo **Nuevo**, elija **Crear cobro por adeudo directo**.  
+ 2. En la página **Cobros por adeudo directo**, elija la acción **Crear cobro por adeudo directo**.  
  3. En la página **Crear cobro por adeudo directo**, rellene los campos tal como se describe en la tabla siguiente.  
 
      |Campo|Descripción|  
@@ -115,8 +115,8 @@ Para poder procesar pagos de clientes electrónicamente exportando instrucciones
       Se agrega un cobro por domiciliación a la página **Cobros por adeudo directo** y se crean uno o varios movimientos de cobros por domiciliación.  
 
 ### <a name="to-export-a-direct-debit-collection-entry-to-a-bank-file"></a>Exportación de movimientos de cobro por domiciliación a un archivo de banco  
- 1. En la página **Cobros por adeudo directo**, en la pestaña **Inicio**, en el grupo **Proceso**, elija **Movimientos de cobros por adeudo directo**.  
- 2. En la página **Movimientos de cobros por adeudo directo**, seleccione el movimiento que desee exportar y, a continuación, en la pestaña **Inicio**, en el grupo **Procesar**, elija **Crear archivo de cobro por adeudo directo**.  
+ 1. En la página **Cobros por adeudo directo**, elija la acción **Movimientos de cobros por adeudo directo**.  
+ 2. En la página **Movimientos de cobros por adeudo directo**, seleccione el movimiento que desee exportar y, a continuación, elija la acción **Crear archivo de cobro por adeudo directo**.  
  3. Guarde el archivo de exportación en la ubicación desde donde envía o carga en el banco electrónico.  
 
       En la página **Direct Debit Collect. Movimientos**, el campo **Estado cobro por adeudo directo** se cambia el archivo creado. En la página **Órdenes de domiciliación de adeudo directo SEPA**, el campo **Contador debe** se actualiza con un recuento.  
@@ -125,12 +125,12 @@ Para poder procesar pagos de clientes electrónicamente exportando instrucciones
 
 ### <a name="to-reject-a-direct-debit-collection-entry"></a>Rechazo de un movimiento de cobro por domiciliación  
 
- * En la página **Movimientos de cobros por adeudo directo**, seleccione el movimiento que no se procesó correctamente y, a continuación, en la pestaña **Inicio**, en el grupo **Procesar**, elija **Rechazar movimiento**.  
+ * En la página **Movimientos de cobros por adeudo directo**, seleccione el movimiento que no se procesó correctamente y, a continuación, elija la acción **Rechazar movimiento**.  
 
       El valor del campo **Estado** de la página **Movimientos de cobros por adeudo directo** se cambia a **Rechazada**.  
 
 ### <a name="to-close-a-direct-debit-collection"></a>Cierre de un cobro por domiciliación  
- *  En la página **Movimientos de cobros por adeudo directo**, seleccione el movimiento que no se procesó correctamente y, a continuación, en la pestaña **Inicio**, en el grupo **Procesar**, elija **Cerrar cobro**.  
+ *  En la página **Movimientos de cobros por adeudo directo**, seleccione el movimiento que se procesó correctamente y, a continuación, elija la acción **Cerrar cobro**.  
 
       El cobro por domiciliación relacionado está cerrado.  
 

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2019
+ms.date: 11/11/2019
 ms.author: sgroespe
-ms.openlocfilehash: f4bf8e694a7b034eb601c3bf39bd420ff61ab73a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: cf7ef0013cac921ec7ab7b1fa505a9c2f0852a33
+ms.sourcegitcommit: 02f1633213793bfc040ad0d2a96fe76572215aa5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309321"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "2798576"
 ---
 # <a name="create-contacts"></a>Crear contactos
 Conoce regularmente a personas de otras empresas que pueden convertirse en relaciones de negocio, como una relación de cliente. Cuando se realiza un nuevo contacto, se debe registrar tanta información como sea posible en una ficha de contacto para que la comunicación pueda continuar.
@@ -32,7 +32,7 @@ Puede decidir configurar un contacto como una persona o una empresa, por lo gene
 La funcionalidad es la misma para ambos tipos, excepto las opciones de información adicional que cambian según el tipo. Por ejemplo, solo se pueden asignar responsabilidades de funciones a una persona y a un grupo de industria a una empresa. Esto se indica en la interfaz de usuario atenuando los campos y acciones que no se aplican. Puede modificar el valor del campo **Tipo** más adelante, o puede usar los campos de la pestaña desplegable **Herencia** en la página de **Configuración de marketing** para controlar qué datos se comparten entre una persona y la empresa relacionada de la persona. Para obtener más información, consulte [Configurar contactos](marketing-setup-contacts.md).
 
 ## <a name="to-create-a-contact-manually"></a>Para crear un contacto manualmente
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Contactos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Contactos** y luego elija el enlace relacionado.
 2. Seleccione la acción **Nuevo**.
 3. En el campo **N.º**, introduzca un número para el contacto.
 
@@ -45,7 +45,7 @@ Si tiene clientes, proveedores y cuentas bancarias para los que desea crear tarj
 > [!NOTE]  
 > Antes de que pueda crear contactos basados en datos existentes, debe especificar un código de relación de negocio para clientes, proveedores o cuentas bancarias en la pestaña desplegable **Interacciones** en la página **Configuración de marketing**. Para obtener más información, consulte [Configurar contactos](marketing-setup-contacts.md).
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), especifique una de las siguientes opciones, dependiendo desde dónde desee crear contactos y, a continuación, elija el vínculo relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), especifique una de las siguientes opciones, dependiendo desde dónde desee crear contactos y, a continuación, elija el vínculo relacionado.
    * **Crear contactos desde clientes**
    * **Crear contactos desde proveedores**
    * **Crear contactos desde bancos**
@@ -63,7 +63,7 @@ Si tiene un cliente, proveedor o cuenta bancaria para la empresa para la que des
 > [!NOTE]  
 > Antes de que pueda crear clientes, proveedores o cuentas bancarias a partir de contactos, debe especificar un código de relación de negocio para clientes, proveedores o cuentas bancarias en la pestaña desplegable **Interacciones** en la página **Configuración de marketing**. Para obtener más información, consulte [Configurar contactos](marketing-setup-contacts.md).
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Contactos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Contactos** y luego elija el enlace relacionado.
 2. Seleccione el contacto que desea crear como cliente, proveedor o banco.
 3. Elija la acción **Crear como** y, a continuación, elija **Cliente**, **Proveedor** o **Banco**.
 4. Elija el botón **Aceptar**.
@@ -101,7 +101,7 @@ La sincronización de datos comunes entre contactos y los clientes, proveedores 
 * Cuando se vinculan los contactos con clientes existentes, proveedores o bancos de la ficha de contacto. Consulte [Para vincular un contacto con un cliente, proveedor o cuenta bancaria existente](marketing-create-contact-companies.md#to-link-a-contact-to-an-existing-customer-vendor-or-bank-account).
 
 ## <a name="to-view-which-customer-vendor-or-bank-account-a-contact-is-related-to"></a>Para ver con qué cliente, proveedor o banco está relacionado un contacto
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Contactos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Contactos** y luego elija el enlace relacionado.
 2. Seleccione la línea de un contacto, seleccione la acción **Información relacionada** y, a continuación, la acción **Cliente/Proveedor/Banco**.
 
 Se abre la ficha relacionada para la página.

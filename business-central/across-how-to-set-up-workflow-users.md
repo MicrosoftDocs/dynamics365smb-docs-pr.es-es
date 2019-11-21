@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ee8080689c948daa14d05e8b970de63da749746e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 88919a3665aff5f9d9ae7a6ead1fa19581119977
+ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305217"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "2775408"
 ---
 # <a name="set-up-workflow-users"></a>Configurar usuarios de flujo de trabajo
 Para poder crear flujos de trabajo, debe configurar los usuarios que participan en flujos de trabajo. Esto es necesario para especificar, por ejemplo, quién debe recibir una notificación para actuar sobre un paso del flujo de trabajo.  
@@ -32,7 +32,7 @@ Los usuarios del flujo de trabajo que funcionan como usuarios de aprobación, ta
 
 ### <a name="to-set-up-a-workflow-user"></a>Para configurar usuarios de flujo de trabajo  
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Grupos de usuarios de flujo de trabajo** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Grupos de usuarios de flujo de trabajo** y luego elija el enlace relacionado.  
 2. Seleccione la acción **Nuevo**. Se abre la página **Grupo de usuarios de flujo de trabajo**.  
 3. En el campo **Código**, introduzca un máximo de 20 caracteres para identificar el flujo de trabajo.  
 4. En el campo **Descripción**, describa el flujo de trabajo.  
@@ -40,7 +40,7 @@ Los usuarios del flujo de trabajo que funcionan como usuarios de aprobación, ta
 
     |Campo|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Nombre usuario**|Especifique el usuario que formará parte de los flujos de trabajo.<br /><br /> El usuario debe existir en la página **Configuración usuarios**. Para obtener más información, vea [Administrar usuarios y permisos](ui-how-users-permissions.md).|  
+    |**Nombre usuario**|Especifique el usuario que formará parte de los flujos de trabajo.<br /><br /> El usuario debe existir en la página **Configuración usuarios**. Para obtener más información, vea [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md).|  
     |**Nº secuencia**|Especifique el orden en el que participa el usuario de flujo de trabajo en flujos de trabajo relacionados con otros usuarios. Este campo se puede usar, por ejemplo, para especificar cuándo aprueba el usuario en relación con otros aprobadores cuando se utiliza la opción **Grupo de usuarios de flujo de trabajo** en el campo **Tipo de aprobador** en la respuesta relacionada del flujo de trabajo. **SUGERENCIA**: Para definir que una solicitud de aprobación no está aprobada hasta que varios aprobadores iguales la hayan aprobado, independientemente de la jerarquía, configure un grupo de usuarios de flujo de trabajo plano asignando el mismo número de secuencia a los aprobadores correspondientes.|  
 6. Repita el paso 5 para añadir más usuarios de flujo de trabajo al grupo de usuarios.  
 7. Repita los pasos del 2 al 6 para añadir más grupos de usuarios de flujo de trabajo.  

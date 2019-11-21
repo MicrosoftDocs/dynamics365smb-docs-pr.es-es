@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 10/21/2019
 ms.author: sgroespe
-ms.openlocfilehash: 84d58193fa7ee272b372403d63702348fbfb1f77
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 88e6a04a8e4a992b6a5df3fee87104eba7b5510e
+ms.sourcegitcommit: be1e2c49a8434d3f440d5a201508af9c3c8cc87f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315281"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2649793"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Administrar archivos adjuntos, vínculos y notas en fichas y documentos
 
@@ -33,7 +33,7 @@ Puede adjuntar cualquier tipo de archivo, que contenga texto, imagen o vídeo, a
 
 El procedimiento siguiente se basa en un pedido de venta. Los pasos son parecidos a los de los demás documentos y las fichas admitidos.
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Facturas compra** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Facturas de compra** y luego elija el enlace relacionado.
 2. Abra el pedido de venta al que desea adjuntar un archivo.
 3. En el cuadro informativo, abra la pestaña **Anexos**.
 4. Elija el valor que va detrás del campo **Documentos**, como "0".
@@ -47,14 +47,12 @@ Puede añadir un enlace de una ficha o un documento a cualquier URL o ruta. Esto
 
 El procedimiento siguiente se basa en una ficha de producto. Los pasos son parecidos a los de las demás fichas y documentos admitidos.
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Productos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos** y luego elija el enlace relacionado.
 2. Seleccione el producto del que desea agregar un vínculo y luego elija la pestaña **Anexos** en el cuadro informativo.
 3. En **Vínculos**, elija el icono **+**.
 4. En el campo **Vincular dirección**, especifique el vínculo.
 
-    - Para vincular un archivo en el equipo o red, introduzca la ruta de acceso completa y el nombre de archivo, como **C:\My Documents\invoice1.doc**.
-    - Para vincular la página Web, especifique la dirección de Internet (URL), por ejemplo **www.microsoft.com**.
-    - Para vincular un programa, escriba una secuencia de caracteres específica para abrir el programa. Por ejemplo, para abrir Outlook con un nuevo mensaje de correo electrónico en blanco a un alias específico, escriba **mailto:testalias**.  
+    El enlace debe ser una URL válida de Internet o intranet.
 
 5. En el campo **Descripción**, escriba cualquier información sobre el vínculo.  
 6. Elija el botón **Aceptar**.
@@ -69,7 +67,7 @@ Puede escribir una nota en un documento o ficha, por ejemplo, para comunicar ins
 
 El procedimiento siguiente se basa en un pedido de venta. Los pasos son parecidos a los de los demás documentos y las fichas admitidos.
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.
 2. Seleccione el pedido de venta del en el que desea escribir una nota y luego elija la pestaña **Anexos** en el cuadro informativo.
 3. En la sección **Notas**, elija el icono **+**.
 4. En el campo **Nota**, escriba cualquier texto, por ejemplo, "Este pedido es urgente.".

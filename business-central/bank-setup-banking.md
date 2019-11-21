@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1dbbc8ff96f381a5e52c67eac9dfe2c91ee17eb5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 083bb3784e21621f97161e65ff3cfa80ed0efc52
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303993"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692733"
 ---
 # <a name="setting-up-banking"></a>Configurar banca
 Mediante el uso de fichas de bancos, puede realizar un seguimiento de todos sus bancos, en cualquier divisa. Cuando haya configurado los bancos, puede utilizar también la opción de impresión de cheques.
@@ -28,7 +28,7 @@ Para usar servicios de banca electrónica para importar extractos bancarios y ex
 | --- | --- |
 | Configurar fichas de bancos para cada uno de sus bancos, de modo que pueda realizar un seguimiento de sus transacciones bancarias. |[Configurar bancos](bank-how-setup-bank-accounts.md) |
 | Configure un servicio externo que permita importar extractos bancarios como fuentes de banco para la liquidación de pagos y la conciliación de bancos. |[Configurar el servicio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md) |
-| Configure un servicio externo que permita exportar pagos al banco para su procesamiento e importar extractos bancarios como archivos bancarios para la liquidación de pagos y la conciliación de bancos. |[Configurar el servicio de conversión de datos bancarios](bank-how-setup-bank-data-conversion-service.md) |
+| Configure un servicio externo que permita exportar pagos al banco para su procesamiento e importar extractos bancarios como archivos bancarios para la liquidación de pagos y la conciliación de bancos. |[Uso de la extensión AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) |
 
 ## <a name="see-also"></a>Consulte también
 [Administrar cuentas bancarias](bank-manage-bank-accounts.md)  

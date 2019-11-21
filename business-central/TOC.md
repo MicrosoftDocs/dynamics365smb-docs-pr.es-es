@@ -5,6 +5,15 @@
 ## [Requisitos mínimos](product-requirements.md)
 ## [Preguntas más frecuentes](across-faq.md)
 ## [Recursos de ayuda y soporte técnico](product-help-and-support.md)
+## Buscar formación
+### [Catálogo de aprendizaje](readiness/readiness-learning-catalog.md)
+### [Catálogo de aprendizaje de responsables de decisiones empresariales](readiness/readiness-learning-bus-decision-makers.md)
+### [Catálogo de aprendizaje de usuarios empresariales](readiness/readiness-learning-bus-users.md)
+### [Catálogo de aprendizaje para desarrolladores](readiness/readiness-learning-developers.md)
+### [Catálogo de aprendizaje para consultores funcionales](readiness/readiness-learning-functional-consultants.md)
+### [Catálogo de aprendizaje para preventa](readiness/readiness-learning-presales.md)
+### [Catálogo de aprendizaje para venta](readiness/readiness-learning-sales.md)
+
 ## [Preparación para hacer negocios](ui-get-ready-business.md)
 ## [Resumen de las funciones empresariales](across-business-functionality.md)
 ## [Probar una versión preliminar](across-preview.md)
@@ -18,11 +27,12 @@
 
 # Trabajar con Business Central
 ## [Panorama](ui-work-product.md)
+## [Guía rápida en versión para imprimir](ui-work-product.md)
 ## [Búsqueda de páginas e información con Dígame](ui-search.md)
-## [Búsqueda de páginas desde una descripción general de funciones](ui-role-explorer.md)
+## [Búsqueda de páginas con el explorador de roles](ui-role-explorer.md)
 ## [FAQ acerca de la función Dígame](ui-search-faq.md)
 ## [Ordenar, buscar y filtrar](ui-enter-criteria-filters.md)
-## [Búsqueda y filtrado de preguntas frecuentes](ui-search-filter-faq.md)
+## [Preguntas frecuentes sobre buscar y filtrar](ui-search-filter-faq.md)
 ## [Introducción de fechas](ui-enter-data.md)
 ## [Preguntas frecuentes sobre copiar y pegar](ui-copy-paste.md)
 ## [Trabajar con fechas y horas del calendario](ui-enter-date-ranges.md)
@@ -66,7 +76,7 @@
 ### [Preparar informes financieros con esquemas de cuentas y categorías de cuentas](bi-how-work-account-schedule.md)
 ### [Trabajar con tolerancias de pago y tolerancias de descuento de pago](finance-payment-tolerance-and-payment-discount-tolerance.md)
 ### [Abrir un nuevo ejercicio](finance-how-open-new-fiscal-year.md)
-### [Configurar los cálculos y los métodos de registro del impuesto sobre el valor añadido](finance-setup-vat.md)
+### [Configurar el impuesto sobre el valor añadido (IVA)](finance-setup-vat.md)
 ### [Configurar el IVA no realizado para la contabilidad basada en efectivo](finance-setup-unrealized-vat.md)
 ### [Permitir la liquidación de movimientos de cliente en distintas divisas](finance-how-enable-application-ledger-entries-different-currencies.md)
 ### [Configurar una divisa de informes adicional](finance-how-setup-additional-currencies.md)
@@ -83,7 +93,7 @@
 ### [Panorama](bank-setup-banking.md)
 ### [Configurar bancos](bank-how-setup-bank-accounts.md)
 ### [Configurar el servicio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)
-### [Configurar el servicio de conversión de datos bancarios](bank-how-setup-bank-data-conversion-service.md)
+### [Uso de la extensión AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)
 ### [Seleccionar una plantilla de cheques](finance-how-define-check-layouts.md)
 
 ## Configuración de ventas
@@ -287,7 +297,7 @@
 #### [Configurar el envío y la recepción de documentos electrónicos](across-how-to-set-up-electronic-document-sending-and-receiving.md)
 #### [Configurar la transferencia de crédito de SEPA](finance-how-to-set-up-sepa-credit-transfer.md)
 #### [Configuración de domiciliaciones de adeudo directo SEPA](finance-how-to-set-up-sepa-direct-debit.md)
-#### [Configurar el servicio de conversión de datos bancarios](bank-how-setup-bank-data-conversion-service.md)
+#### [Uso de la extensión AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)
 #### [Configurar el servicio de declaración bancaria](bank-how-setup-bank-statement-service.md)
 #### [Configurar bancos](bank-how-setup-bank-accounts.md)
 #### [Uso de esquemas XML para preparar definiciones de intercambio de datos](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)
@@ -307,7 +317,8 @@
 
 # Administración
 ## [Panorama](admin-setup-and-administration.md)
-## [Administrar usuarios y permisos](ui-how-users-permissions.md)
+## [Crear usuarios de acuerdo con las licencias](ui-how-users-permissions.md)
+## [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md)
 ## [Administración de perfiles](admin-users-profiles-roles.md)
 ## [Clasificar confidencialidad de datos](admin-classifying-data-sensitivity.md)
 ## [Respuesta a las solicitudes de datos personales](admin-responding-to-requests-about-personal-data.md)
@@ -344,6 +355,7 @@
 #### [Migración de datos de QuickBooks Online](ui-extensions-quickbooks-online-data-migration.md)
 #### [Importación del archivo de nómina de QuickBooks](ui-extensions-quickbooks-payroll.md)
 #### [Previsión de ventas e inventario](ui-extensions-sales-forecast.md)
+#### [Extensión AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)
 #### [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
 #### [DK - Migración de datos C5](ui-extensions-c5-data-migration.md)
 #### [DK - Pagos y conciliaciones de pagos](ui-extensions-payments-reconciliation-formats-dk.md)
@@ -529,8 +541,9 @@
 ## [Recibir y convertir documentos electrónicos](purchasing-how-to-receive-and-convert-electronic-documents.md)
 ## [Cálculo de la fecha de compras](purchasing-date-calculation-for-purchases.md)
 ## [Combinar registros duplicados](sales-how-merge-duplicate-records.md)
+## [Trabajar con pedidos abiertos de compra](sales-how-to-create-blanket-sales-orders.md)
 
-# Existencias
+# Inventario
 ## [Panorama](inventory-manage-inventory.md)
 ## [Registro de productos nuevos](inventory-how-register-new-items.md)
 ## [Trabajar con listas de materiales](inventory-how-work-BOMs.md)
@@ -1223,9 +1236,19 @@
 #### [Correspondencia de contabilidad](LocalFunctionality/Russia/general-ledger-correspondence.md)
 #### [Divisa](LocalFunctionality/Russia/Currency-information-Import-currency-rates.md)
 #### [Configuración de empleados responsables y extractos anticipados](LocalFunctionality/Russia/How-to-Set-Up-Responsible-Employees-and-Advance-Statements.md)
-#### [Pagos y cobros](LocalFunctionality/Russia/Payables-and-Receivables.md)
+### Pagos y cobros
+#### [Panorama](LocalFunctionality/Russia/Payables-and-Receivables.md)
+#### [Introducción de información de declaración personalizada](LocalFunctionality/Russia/how-to-enter-custom-declarations-information.md)
+#### [Configuración y creación de cartas de abogado](LocalFunctionality/Russia/how-to-set-up-and-create-letters-of-attorney.md)
+#### [Informes rusos de pagos](LocalFunctionality/Russia/russian-payables-reports.md)
+#### [Informes rusos de cobros](LocalFunctionality/Russia/russian-receivables-reports.md)
+#### [Configuración de prepagos de cliente](LocalFunctionality/Russia/how-to-set-up-customer-prepayments.md)
+#### [Configuración de prepagos de proveedor](LocalFunctionality/Russia/how-to-set-up-vendor-prepayments.md)
+#### [Registro de prepagos de proveedores y clientes](LocalFunctionality/Russia/prepayments-vendor-and-customers.md)
+#### [Diferencias de prepago](LocalFunctionality/Russia/prepayment-differences-invoices-prepayment-differences.md)
+#### [Configuración de acuerdos de clientes y proveedores](LocalFunctionality/Russia/how-to-set-up-customer-and-vendor-agreements.md)
 ### Activos fijos
-#### [Activos fijos](LocalFunctionality/Russia/fixed-assets.md)
+#### [Panorama](LocalFunctionality/Russia/fixed-assets.md)
 #### [Cálculo del impuesto evaluado](LocalFunctionality/Russia/How-to-Calculate-Assessed-Tax.md)
 #### [Bonificaciones de depreciación](LocalFunctionality/Russia/Depreciation-Bonus.md)
 #### [Cargos de activos fijos](LocalFunctionality/Russia/Fixed-Asset-Charges.md)
@@ -1246,9 +1269,9 @@
 #### [Panorama](LocalFunctionality/Russia/VAT.md)
 #### [Configuración de movimientos de IVA](LocalFunctionality/Russia/How-to-Set-Up-VAT-Ledgers.md)  
 #### [Preparación de los movimientos de IVA para registrarlos](LocalFunctionality/Russia/How-to-Prepare-VAT-Entries-for-Posting.md)  
-#### [IVA de liquidación](LocalFunctionality/Russia/Settlement-VAT.md)  
+#### [Liquidación de IVA](LocalFunctionality/Russia/Settlement-VAT.md)  
 #### [Cargar libros de compras y ventas y de declaración de IVA en formato XML](LocalFunctionality/Russia/upload-books-purchases-sales-xml-vat-declaration.md)  
-#### [IVA por prepagos de clientes](LocalFunctionality/Russia/VAT-by-Customer-prepayments.md)  
+#### [IVA por prepago de clientes](LocalFunctionality/Russia/VAT-by-Customer-prepayments.md)  
 #### [Reintegro del IVA](LocalFunctionality/Russia/VAT-reinstatement.md)  
 #### [Esquema de agente tributario de proveedores](LocalFunctionality/Russia/Vendor-Tax-Agent-scheme.md)  
 ### Contabilidad fiscal
@@ -1256,14 +1279,15 @@
 #### [Configuración de la contabilidad fiscal](LocalFunctionality/Russia/How-to-Set-Up-Tax-Accounting.md)  
 #### [Registros tributarios](LocalFunctionality/Russia/Tax-Registers.md)  
 #### [Creación de registros tributarios](LocalFunctionality/Russia/How-to-Create-Tax-Registers.md)  
-#### [Configuración de secciones de registros tributarios](LocalFunctionality/Russia/How-to-Set-Up-Tax-Register-Sections.md) #### [Diferencias fiscales](LocalFunctionality/Russia/Tax-Differences.md)  
+#### [Configuración de secciones de registros tributarios](LocalFunctionality/Russia/How-to-Set-Up-Tax-Register-Sections.md)
+#### [Diferencias fiscales](LocalFunctionality/Russia/Tax-Differences.md)  
 #### [Contabilidad del pago del impuesto sobre la renta de las personas físicas](LocalFunctionality/Russia/Accounting-for-personal-income-tax-payments.md)  
 #### [Cargar KLADR](LocalFunctionality/Russia/Upload-KLADR.md)  
 #### [Informes estatutarios](LocalFunctionality/Russia/Statutory-Reports.md)
-#### Gestión bancaria
+### Banca
 #### [Gestión bancaria](LocalFunctionality/Russia/bank-management.md)
-### Existencias
-#### [Inventario](LocalFunctionality/Russia/Inventory.md)
+### Inventario
+#### [Panorama](LocalFunctionality/Russia/Inventory.md)
 #### [Config. existencias](LocalFunctionality/Russia/Inventory-Setup.md)
 #### [Documentos de productos](LocalFunctionality/Russia/Item-Documents.md)
 #### [Actos obligatorios de producto](LocalFunctionality/Russia/Item-Obligatory-Acts.md)
@@ -1271,12 +1295,12 @@
 #### [Facturación de contabilidad de artículos](LocalFunctionality/Russia/Item-General-Ledger-Turnover.md)
 #### [Creación del informe de productos TORG-29](LocalFunctionality/Russia/How-to-Create-the-TORG-29-Goods-Report.md)
 ### Recursos humanos
-#### [Recursos humanos](LocalFunctionality/Russia/Human-Resources.md)
+#### [Panorama](LocalFunctionality/Russia/Human-Resources.md)
 #### [Nómina](LocalFunctionality/Russia/Payroll.md)
 #### [Establecimiento de cargos y deducciones al empleado](LocalFunctionality/Russia/Establishment-of-charges-and-deductions-to-the-employee.md)
 #### [Registro de ausencias](LocalFunctionality/Russia/Absence-registration.md)
 #### [Despido](LocalFunctionality/Russia/Dismissal.md)
-#### [Creación y cambio del orden de la lista de personal, disposición del personal](LocalFunctionality/Russia/Forming-and-changing-Staff-List-Order-Staff-Arrangement.md)
+#### [Creación y cambio del orden de la lista de personal](LocalFunctionality/Russia/Forming-and-changing-Staff-List-Order-Staff-Arrangement.md)
 #### [Planificación de vacaciones](LocalFunctionality/Russia/Vacation-planning.md)
 
 ## España

@@ -1,6 +1,6 @@
 ---
 title: Asignación de campos para exportar los archivos de pago de banco | Documentos de Microsoft
-description: Cuando se exportan archivos de pago con la función de servicio de conversión de datos bancarios, los datos exportados serán visibles para el proveedor del servicio de conversión de datos bancarios.
+description: Cuando exporta archivos de pago utilizando la extensión AMC Banking 365 Fundamentals, los datos que exporta se exponen al proveedor de servicios.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,20 +10,20 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ca6b3722220e008a3a8132054eed7ba29afd11f3
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 49ed61472966ca06f996296d3d97365a6c223983
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300526"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692633"
 ---
-# <a name="field-mapping-when-exporting-payment-files-using-bank-data-conversion-service"></a>Asignación de campos al exportar archivos de pago con el servicio de conversión de datos bancarios
-Cuando se exportan archivos de pago con la función de servicio de conversión de datos bancarios, los datos exportados serán visibles para el proveedor del servicio de conversión de datos bancarios. El proveedor del servicio es responsable de la privacidad de estos datos. Para obtener más información sobre la función de servicio de conversión de datos bancarios, consulte [Acerca del marco de intercambio de datos](across-about-the-data-exchange-framework.md).  
+# <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Asignación de campos al exportar archivos de pago utilizando la extensión AMC Banking 365 Fundamentals
+Cuando exporta archivos de pago utilizando la extensión AMC Banking 365 Fundamentals, los datos que exporta se exponen al proveedor de servicios. El proveedor del servicio es responsable de la privacidad de estos datos. Para obtener más información sobre la extensión AMC Banking 365 Fundamentals, vea [Usar la extensión AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
 
 > [!CAUTION]  
->  Cuando se exportan archivos de pago con la función de servicio de conversión de datos bancarios, algunos de los datos empresariales serán visibles para el proveedor del servicio. El proveedor de servicios, AMC Consult A/S, es responsable de la privacidad de estos datos. Para obtener más información, consulte [Directiva de función de AMC](https://go.microsoft.com/fwlink/?LinkId=510158).  
+>  Cuando se exportan archivos de pago con la extensión AMC Banking 365 Fundamentals, algunos de los datos empresariales serán visibles para el proveedor del servicio. El proveedor de servicios, AMC Consult A/S, es responsable de la privacidad de estos datos. Para obtener más información, consulte [Directiva de función de AMC](https://go.microsoft.com/fwlink/?LinkId=510158).  
 
-La tabla siguiente indica los campos de [!INCLUDE[d365fin](includes/d365fin_md.md)] desde los que se pueden exportar datos al proveedor de servicios.  
+La siguiente tabla enumera los campos en [!INCLUDE[d365fin](includes/d365fin_md.md)] desde los que puede exportar datos.  
 
 |Campo asignado|Campo en tabla|Escritorio|Descripción|  
 |------------------|--------------------|-----------|---------------------------------------|  
@@ -65,10 +65,10 @@ La tabla siguiente indica los campos de [!INCLUDE[d365fin](includes/d365fin_md.m
 |Código postal del banco del remitente|C.P.|Cuenta bancaria|El código postal de la cuenta bancaria del emisor especificada en la ficha de la cuenta bancaria|  
 |Plantilla de libros diario general|Nombre libro diario|Línea diario general|La plantilla de la sección de diario general que se usa para la línea de pago|  
 |Nombre sección diario general|Nombre sección diario|Línea diario general|El nombre de la sección de diario general que se usa para la línea de pago|  
-|Nombre del banco del remitente - Conv. de datos|Nombre del banco - Conv. de datos|Cuenta bancaria|El nombre de la cuenta bancaria del emisor solicitado por el servicio de conversión de datos bancarios y especificado en la ficha de la cuenta bancaria|  
+|Nombre del banco del remitente - Conv. de datos|Nombre del banco - Conv. de datos|Cuenta bancaria|El nombre de la cuenta bancaria del emisor solicitado por la extensión AMC Banking 365 Fundamentals y especificado en la ficha de la cuenta bancaria|  
 
 ## <a name="see-also"></a>Consulte también  
 [Configuración del intercambio de datos](across-set-up-data-exchange.md)  
 [Intercambio de datos electrónicamente](across-data-exchange.md)
-[Configuración del servicio de conversión de datos bancarios](bank-how-setup-bank-data-conversion-service.md)   
+[Uso de la extensión AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)   
 [Realizar pagos con Servicio de conversión de datos del banco o Transferencia de crédito SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   

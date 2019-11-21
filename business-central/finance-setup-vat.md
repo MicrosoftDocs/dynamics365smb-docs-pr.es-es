@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 10/01/2019
+ms.date: 11/11/2019
 ms.author: bholtorf
-ms.openlocfilehash: 46fbc3e9c2553a7c45fe571a74126c534d442b7c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0360396d0379ca325a8563fffbfead971b8ba7f1
+ms.sourcegitcommit: 02f1633213793bfc040ad0d2a96fe76572215aa5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301641"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "2798528"
 ---
-# <a name="setting-up-calculations-and-posting-methods-for-value-added-tax"></a>Configurar los cálculos y los métodos de registro del impuesto sobre el valor añadido
+# <a name="set-up-value-added-tax"></a>Configurar el impuesto sobre el valor añadido
 Los consumidores y las empresas pagan el impuesto sobre el valor añadido (IVA) cuando compran mercancías o servicios. El importe de IVA a pagar puede variar, dependiendo de varios factores. En [!INCLUDE[d365fin](includes/d365fin_md.md)], puede configurar el IVA para especificar las tasas que se usarán para calcular los importes de impuesto a partir de lo siguiente:
 
 * A quién vende  
@@ -36,14 +36,14 @@ Si desea configurar cálculos del IVA, o solo desea obtener información acerca 
 Es recomendable que use la guía de configuración asistida Configuración de IVA para configurar el IVA en [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 Para iniciar la guía de configuración asistida, realice los pasos siguientes:
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración ASISTIDA**.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración asistida**.  
 2. Elija **Configurar IVA**.
 
 ## <a name="to-set-up-vat-registration-numbers-for-your-country-or-region"></a>Para configurar números CIF/NIF para su país o región
 Para ayudar a garantizar que las personas introduzcan números CIF/NIF válidos, puede definir formatos que se usan en los países o regiones con los que mantiene relaciones comerciales. [!INCLUDE[d365fin](includes/d365fin_md.md)] mostrará un mensaje de error cuando alguien cometa un error o utilice un formato que sea incorrecto para el país o región.
 
 Para configurar números CIF/NIF, realice los pasos siguientes:
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Países y regiones**.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Países y regiones**.
 2. Elija el país o región y después elija la acción **Formatos CIF/NIF**.
 3. En el campo **Formatos**, puede definir el formato introduciendo uno o varios de los siguientes caracteres:  
 
@@ -61,7 +61,7 @@ Use códigos fáciles de recordar y que describan el grupo de registro de negoci
 
 Para configurar un grupo de registro de IVA de negocio, realice los pasos siguientes:
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Grupo registro IVA negocio** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Grupo de registro de IVA de negocio** y luego elija el enlace relacionado.  
 2. Rellene los campos según sea necesario.
 
 Para configurar grupos de registro de IVA de negocio predeterminados deberá vincularlos a grupos contables de negocio. [!INCLUDE[d365fin](includes/d365fin_md.md)]asigna automáticamente el grupo de registro de IVA de negocio cuando asigne el grupo de registro de negocio relevante a un cliente, proveedor o cuenta contable.
@@ -72,7 +72,7 @@ Conviene utilizar códigos que sean fáciles de recordar y que describan el tipo
 
 Para configurar un grupo de registro de IVA de negocio, realice los pasos siguientes:
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Grupos registro IVA producto** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Grupos de registro IVA de producto** y luego elija el enlace relacionado.  
 2. Rellene los campos según sea necesario.
 
 ## <a name="to-combine-vat-posting-groups-in-vat-posting-setups"></a>Combinar grupos de registro de IVA en configuraciones de registro de IVA
@@ -82,7 +82,7 @@ Configure tambas combinaciones como necesite. Si desea agrupar las combinaciones
 
 Para combinar las configuraciones de registro de IVA, realice los pasos siguientes:
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración tipo reg. IVA** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Config. grupos registro IVA** y luego elija el enlace relacionado.
 2. Rellene los campos según sea necesario.
 
 ## <a name="to-assign-vat-posting-groups-by-default-to-multiple-entities"></a>Asignar los grupos de registro de IVA de forma predeterminada a varias entidades
@@ -93,22 +93,22 @@ Si desea aplicar los mismos grupos de registro de IVA a varias entidades, puede 
 
 El grupo de registro de IVA de negocio o de producto se asigna cuando elige un grupo de registro de IVA de negocio o de producto para un cliente, un proveedor, un producto o un recurso.
 
-## <a name="to-assign-vat-posting-groups-to-individual-accounts-customers-vendors-items-and-resources"></a>Asignar grupos de registro del IVA a cuentas, clientes, proveedores, productos y recursos individuales
+## <a name="assigning-vat-posting-groups-to-accounts-customers-vendors-items-and-resources"></a>Asignación de grupos de registro de IVA a cuentas, clientes, proveedores, productos y recursos
 En las secciones siguientes se describe cómo asignar los grupos de registro de IVA de negocio a los objetos individuales.
 
 ### <a name="to-assign-vat-posting-groups-to-individual-general-ledger-accounts"></a>Para asignar grupos de registro de IVA a cuentas contables individuales
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Plan de cuentas** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Plan de cuentas** y luego elija el enlace relacionado.  
 2. Abre la ficha **Cuenta** de la cuenta.  
 3. En la ficha desplegable **Registro**, en el campo **Tipo IVA**, elija **Venta** o **Compra**.  
 5. Elija los grupos de registro de IVA que se usarán para la cuenta de venta o de compra.  
 
 ### <a name="to-assign-vat-business-posting-groups-to-customers-and-vendors"></a>Para asignar grupos de registro de IVA a clientes y proveedores  
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Cliente** o **Proveedor** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Cliente** o **Proveedor** y luego elija el enlace relacionado.  
 2. En la ficha **Cliente** o **Proveedor**, amplíe la ficha desplegable **Facturación**.  
 3. Elija el grupo de registro de IVA de negocio.  
 
 ### <a name="to-assign-vat-product-posting-groups-to-individual-items-and-resources"></a>Para asignar grupos de registro de IVA de producto a productos y recursos individuales  
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Producto** o **Recurso** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Producto** o **Recurso** y luego elija el enlace relacionado.  
 2. Realice una de las siguientes acciones:  
 
 * En la ficha **Producto**, expanda la ficha desplegable **Precio y registro** y haga clic en **Mostrar más** para mostrar el campo **Grupo registro IVA producto**.  
@@ -116,14 +116,12 @@ En las secciones siguientes se describe cómo asignar los grupos de registro de 
 3. Elija el grupo de registro de IVA de producto.  
 
 ## <a name="setting-up-vat-statement-templates-and-vat-statement-names"></a>Configuración de tipos de declaración de IVA y nombres de declaración de IVA
-Las autoridades fiscales pueden modificar, y lo hacen, sus requisitos para registrar el IVA. **Tipos de declaración del IVA** y **Nombres de declaración del IVA** puede ayudarle a prepararse para los próximos cambios y hacer una transición sin problemas a los nuevos requisitos. Puede utilizar tipos de declaración del IVA para definir los campos que desea incluir en su declaración del IVA, que a su vez definen los cálculos, y puede crear un nuevo tipo de declaración del IVA cuando cambien las necesidades. Por ejemplo, un tipo podría calcular el IVA para este año basándose en los requisitos actuales y otro podría calcular el IVA basándose en los requisitos para el próximo año. Los tipos también son una forma de mantener un historial de los formatos de las declaraciones del IVA, por ejemplo, para que pueda consultar ver cómo calculó el IVA en años anteriores.
+Las autoridades fiscales pueden modificar, y lo hacen, sus requisitos para registrar el IVA. Los tipos de declaración del IVA y los nombres de declaración del IVA pueden ayudarle a prepararse para los próximos cambios y hacer una transición sin problemas a los nuevos requisitos. Puede utilizar tipos de declaración del IVA para definir los campos que desea incluir en su declaración del IVA, que a su vez definen los cálculos, y puede crear un nuevo tipo de declaración del IVA cuando cambien las necesidades. Por ejemplo, un tipo podría calcular el IVA para este año basándose en los requisitos actuales y otro podría calcular el IVA basándose en los requisitos para el próximo año. Los tipos también son una forma de mantener un historial de los formatos de las declaraciones del IVA, por ejemplo, para que pueda consultar ver cómo calculó el IVA en años anteriores.
 
-## <a name="how-to-define-and-preview-vat-statements"></a>Cómo definir y obtener una vista previa de las declaraciones del IVA
-Las declaraciones de IVA le permiten calcular el importe de liquidación de IVA de un determinado periodo, por ejemplo, un trimestre. Después de definir una declaración de IVA, puede obtener una vista previa de ella para asegurarse de que satisface sus necesidades.
+## <a name="to-define-a-vat-statements"></a>Para definir una declaración de IVA
+Las declaraciones de IVA le permiten calcular el importe de liquidación de IVA de un determinado periodo, por ejemplo, un trimestre.
 
-Para definir una declaración de IVA, realice los pasos siguientes:
-
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Declaraciones de IVA** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Declaraciones de IVA** y luego elija el enlace relacionado.  
 2. Elija el campo **Nombre** y después **Nuevo** en la página **Nombres declar. IVA**.
 3. Rellene los campos requeridos. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -131,34 +129,39 @@ Para definir una declaración de IVA, realice los pasos siguientes:
 > Puede filtrar la información que incluirá la declaración, dependiendo de lo que elija en el campo **Tipo**. **Cuentas a totalizar** resulta útil cuando desea el IVA de una cuenta específica.
 **Total mov. IVA** obtiene el IVA de las cuentas asignadas a las selecciones en los campos **Tipo IVA**, **Grupo reg. IVA negocio** o **Grupo reg. IVA producto**. **Filas a totalizar** permite introducir un valor o criterios de filtro rápido en el campo **Filas a totalizar**. Para obtener más información, consulte [Buscar, filtrar y ordenar datos](ui-enter-criteria-filters.md). **Descripción** se utiliza con frecuencia para agregar una nota a la declaración. Por ejemplo, puede utilizarlo como cabecera cuando haya utilizado el total de filas.
 
-Para obtener una vista previa de la declaración de IVA, realice los pasos siguientes:
+## <a name="to-preview-the-vat-statement"></a>Para obtener una vista previa de la declaración de IVA
+Después de definir una declaración de IVA, puede obtener una vista previa de ella para asegurarse de que satisface sus necesidades.
 
 1. Seleccione **Vista previa**.
 2. Escriba un filtro de fecha para limitar la declaración a un periodo específico. Para obtener más información sobre cómo personalizar la página para mostrar el filtro de fecha, consulte [Buscar, filtrar y ordenar datos](ui-enter-criteria-filters.md).
 3. Puede seleccionar diversas opciones para especificar el tipo de movimientos de IVA para incluir en la declaración.
 4. En las líneas cuyo campo **Tipo** contenga **Total mov. IVA**, podrá ver una lista de los movimientos de IVA al seleccionar el importe del campo **Importe columna**.   
 
-## <a name="to-set-up-clauses-to-explain-the-use-of-non-standard-vat-rates"></a>Configurar cláusulas para explicar el uso de tasas de IVA no estándar
+## <a name="setting-up-clauses-to-explain-vat-exemption-or-non-standard-vat-rates"></a>Configuración de cláusulas para explicar la exención del IVA o los tipos de IVA no estándar
 Configura una cláusula de IVA para describir información acerca del tipo de IVA que se está aplicando. La legislación puede requerir la información. Una vez que haya configurado una cláusula de IVA y la haya asociado a una configuración de registro de IVA, la cláusula de IVA se muestra en los documentos de venta impresos que usan ese grupo de configuración de registro de IVA.
 
-Si es necesario, también puede especificar cómo traducir las cláusulas de IVA a otros idiomas. A continuación, cuando cree e imprima un documento de venta que contenga un identificador de IVA, el documento traducido incluirá la cláusula de IVA. El código de idioma especificado en la ficha Cliente determina el idioma.
+Si es necesario, también puede especificar cómo traducir las cláusulas de IVA a otros idiomas. A continuación, cuando cree e imprima un documento de venta que contenga un identificador de IVA, el documento traducido incluirá la cláusula de IVA. El código de idioma especificado en la ficha de cliente determina el idioma.
+
+Cuando se usan tipos de IVA no estándar en diferentes tipos de documentos, como facturas o abonos, a las empresas generalmente se les exige que incluyan un texto de exención (cláusula de IVA) que indique por qué se ha calculado un tipo de IVA reducido o cero. Puede definir diferentes cláusulas de IVA que se incluirán en los documentos comerciales por tipo de documento, como factura o abono. Haces esto en la página **Cláusulas de IVA por tipo de documento**.
 
 Puede modificar o eliminar una cláusula de IVA, y las modificaciones se reflejarán en un informe generado. Sin embargo, [!INCLUDE[d365fin](includes/d365fin_md.md)] no mantiene un historial de cambios. En el informe, la descripciones de cláusula de IVA se imprimen y se muestran para todas las líneas del informe junto al importe de IVA y el importe base de IVA. Si una cláusula de IVA no se ha definido para ninguna línea en el documento de venta, se omite toda la sección cuando se imprima el informe.
 
 ### <a name="to-set-up-vat-clauses"></a>Para configurar las cláusulas de IVA
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Cláusulas de IVA** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Cláusulas de IVA** y luego elija el enlace relacionado.  
 2. En la página **Cláusulas de IVA**, cree una nueva línea.  
 3. En el campo **Código**, especifique un identificador para la cláusula. Utilice este código para asignar la cláusula a grupos de registro de IVA.  
-4. En el campo **Descripción**, escriba el texto que desea mostrar en los documentos que pueden incluir el IVA. En el campo **Descripción 2**, escriba texto adicional, en caso necesario. El texto se muestra en las líneas nuevas.  
-5. Opcional: para asignar la cláusula de IVA a una configuración de registro de IVA inmediatamente, elija **Configuración** y, a continuación, la cláusula. Si desea esperar, puede asignar la cláusula después en la página Configuración de registro de IVA.  
-6. Opcional: para especificar cómo traducir la cláusula de IVA, elija la acción **Traducciones**.
+4. En el campo **Descripción**, escriba el texto de exención de IVA que desea mostrar en los documentos que pueden incluir el IVA. En el campo **Descripción 2**, escriba texto adicional, en caso necesario. El texto aparecerá en nuevas líneas de documento.
+5. Elija la acción **Descripción por tipo de documento**.
+6. En la página **Cláusulas de IVA por tipo de documento**, complete los campos para configurar qué texto de exención de IVA se mostrará para cada tipo de documento.  
+7. Opcional: para asignar la cláusula de IVA a una configuración de registro de IVA inmediatamente, elija **Configuración** y, a continuación, la cláusula. Si desea esperar, puede asignar la cláusula después en la página **Config. grupos registro IVA**.  
+8. Opcional: para especificar cómo traducir la cláusula de IVA, elija la acción **Traducciones**.
 
 ### <a name="to-assign-a-vat-clause-to-a-vat-posting-setup"></a>Para asignar una cláusula de IVA a una configuración de registro de IVA
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración tipo reg. IVA** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Config. grupos registro IVA** y luego elija el enlace relacionado.  
 2. En la columna **Cláusula de IVA**, seleccione la cláusula que se usará por cada configuración de registro de IVA al que se aplique.  
 
 ### <a name="to-specify-translations-for-vat-clauses"></a>Para especificar las traducciones de las cláusulas de IVA
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Cláusulas de IVA** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Cláusulas de IVA** y luego elija el enlace relacionado.  
 2. Elija la acción **Traducciones**.  
 3. En el campo **Código idioma**, seleccione el idioma al que realizará la traducción.  
 4. En los campos **Descripción** y **Descripción 2**, especifique las traducciones de las descripciones. Este texto se muestra en los documentos de informes de IVA traducidos.  
@@ -167,9 +170,9 @@ Puede modificar o eliminar una cláusula de IVA, y las modificaciones se refleja
 Puede usar la característica de IVA de importación cuando necesite registrar un documento cuyo importe total sea el IVA. Se utiliza si se recibe de las autoridades fiscales una factura por el IVA de los productos importados.  
 
 Para configurar los códigos del IVA de importación, realice los pasos siguientes:  
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Grupos registro IVA producto** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Grupos de registro IVA de producto** y luego elija el enlace relacionado.  
 2. En la página Grupos de registro de IVA de producto, configure un nuevo grupo de registro de IVA de producto para el IVA de importación.  
-3. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración tipo reg. IVA** y luego elija el enlace relacionado.  
+3. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Config. grupos registro IVA** y luego elija el enlace relacionado.  
 4. En la página Configuración de registro de IVA, cree una nueva línea o use una combinación de grupos de registro de IVA de negocio ya existente y el nuevo grupo de registro de IVA de producto.  
 5. En el campo **Tipo cálculo IVA**, elija **Total**.  
 6. En el campo **Cta. IVA acreditable**, escriba la cuenta que se utilizará para registrar el IVA de importación. Las demás cuentas son opcionales.  
@@ -235,12 +238,12 @@ Antes de configurar la herramienta de cambio de tasa de IVA, debe llevar a cabo 
 * Copia de seguridad de datos.
 
 ### <a name="to-set-up-the-vat-rate-change-tool"></a>Para configurar la herramienta de cambio de tasa de IVA  
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Conf. cambio tasa IVA** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Conf. cambio tipo IVA** y luego elija el enlace relacionado.  
 2. En las fichas desplegables **Datos maestros**, **Diarios** y **Documentos**, elija un valor de grupo contable de la lista de opciones para los campos necesarios.  
 
 ### <a name="to-set-up-product-posting-group-conversion"></a>Para configurar una conversión grupos de registro de producto  
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Conf. cambio tasa IVA** y luego elija el enlace relacionado.  
-2. En la página **Conf. cambio tasa IVA**, en la pestaña **Inicio**, en el grupo **Proceso**, seleccione **Conv. gr. contable producto IVA** o bien **Conv. gr. contable producto general**.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Conf. cambio tipo IVA** y luego elija el enlace relacionado.  
+2. En la página **Conf. cambio tasa IVA**, elija la acción **Conv. gr. contable producto IVA** o **Conv. gr. contable producto general**.  
 3. En el campo **Código origen**, especifique el grupo de registro actual.  
 4. En el campo **Código destino**, especifique el nuevo grupo de registro.  
 
@@ -253,7 +256,7 @@ Utiliza la herramienta de cambio de tasa de IVA para gestionar los cambios en la
 > [!IMPORTANT]  
 >  Antes de realizar la conversión de cambio del tipo de IVA, puede probarla. Para hacerlo, siga los pasos siguientes, pero asegúrese de desactivar las casillas de verificación **Realizar conversión** y **Herramienta cambio tasa IVA finalizada**. Durante la conversión de prueba, el campo **Convertido** en la tabla **Mov. registro cambios en tasa IVA** está desactivada y el campo **Fecha conversión** en la tabla **Mov. registro cambios en tasa IVA** está vacío. Después de que la conversión esté completa, elija **Movs. reg. de cambio de tasa de IVA** para ver los resultados de la prueba. Verifique cada movimiento antes de realizar la conversión. Concretamente, verifique las transacciones que utilizan una tasa de IVA antigua.     
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Cambio tasa IVA** y luego elija el enlace **Conf. cambio tasa IVA**.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Conf. cambio tipo IVA** y luego elija el enlace **Conf. cambio tasa IVA**.  
 2. Compruebe que haya configurado la conversión del grupo de registro de IVA de producto o la conversión del grupo de registro general de producto.  
 3. Elija la casilla de verificación **Realizar conversión**.  
 
@@ -261,12 +264,12 @@ Utiliza la herramienta de cambio de tasa de IVA para gestionar los cambios en la
     >  Desactive la casilla de verificación **Herramienta cambio tasa IVA finalizada**. La casilla de verificación se selecciona automáticamente cuando la conversión de cambio de tasa de IVA se completa.  
 
 4. Seleccione la acción **Convertir**.  
-5. Después de que la conversión esté completa, en la pestaña **Inicio**, en el grupo **Proceso** , seleccione **Movs. reg. de cambio de tasa de IVA** para ver los resultados de la conversión.  
+5. Después de que la conversión esté completa, elija la acción **Movs. reg. de cambio de tasa de IVA** para ver los resultados de la conversión.  
 
 > [!IMPORTANT]  
 >  Después de la conversión, el campo **Convertido** en la tabla **Mov. registro cambios en tasa IVA** queda seleccionado y el campo **Fecha conversión** en la tabla **Mov. registro cambios en tasa IVA** muestra la fecha de conversión.  
 
 ## <a name="see-also"></a>Consulte también  
 [Configuración del impuesto sobre el valor añadido no realizado](finance-setup-unrealized-vat.md)  
-[Crear informes de IVA para una autoridad fiscal](finance-how-report-vat.md)  
+[Crear informes de IVA para la autoridad fiscal](finance-how-report-vat.md)  
 [Trabajar con el IVA por ventas y compras](finance-work-with-vat.md)  

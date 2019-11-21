@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 04c9a867e43a1228839eaf95b3b31e5ab3421fe6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7c36c50387418f25f3d16f46cefcf275742e69d3
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304065"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692757"
 ---
 # <a name="set-up-the-bank-data-conversion-service"></a>Configurar el servicio de conversión de datos bancarios
 Ya está configurado y listo para habilitar un proveedor global de servicios de conversión de información de pagos a cualquier formato de datos que requiera el banco en [!INCLUDE[d365fin](includes/d365fin_md.md)]. A esto se le denomina en [!INCLUDE[d365fin](includes/d365fin_md.md)] el servicio de conversión de datos bancarios.
@@ -32,7 +32,7 @@ Para importar o exportar archivos bancarios, deberá configurar su propia cuenta
 > El servicio de conversión de datos bancarios puede imponer un límite de número de líneas que se pueden exportar en un archivo. Recibirá un mensaje de error si se supera el límite. Es aconsejable que los archivos de extracto de cuenta no excedan las 1000 líneas, ya que el tiempo de procesado en el servicio de conversión de datos bancarios puede aumentar significativamente.
 
 ## <a name="to-sign-your-company-up-for-the-bank-data-conversion-service"></a>Para registrar su empresa en el servicio de conversión de datos de banco
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración de servicio de conv. de datos del banco** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de servicio de conv. de datos del banco** y luego elija el enlace relacionado.  
 2. La página **Configuración de servicio de conv. de datos del banco** se abre con tres campos rellenados previamente con las URL correspondientes del proveedor del servicio de conversión de datos de banco en .
 
     > [!NOTE]  
@@ -49,11 +49,11 @@ Para importar o exportar archivos bancarios, deberá configurar su propia cuenta
 > Los datos de inicio de sesión se cifran automáticamente.
 
 ## <a name="to-view-or-update-the-list-of-currently-supported-bank-data-formats"></a>Para ver o actualizar la lista de formatos de datos de banco actualmente compatibles
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración de servicio de conv. de datos del banco** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de servicio de conv. de datos del banco** y luego elija el enlace relacionado.
 2. En la página **Configuración de servicio de conv. de datos del banco**, seleccione la acción **Nombre banco - Lista conversión de datos** para abrir la lista de nombres de banco que representan los datos de banco que admite el servicio de conversiones.
 3. En la página **Nombre banco - Lista conversión de datos**, seleccione la acción **Actualizar lista de nombres de banco**.
 
-Ahora se actualizará la lista de formatos de datos bancarios compatibles con el servicio de conversión de datos bancarios. Esta es la lista de nombres de bancos filtrada por país o región y que se puede seleccionar en el campo **Nombre del banco - Conversión de datos** en la página **Ficha de cuenta bancaria**.
+Ahora se actualizará la lista de formatos de datos bancarios compatibles con la extensión AMC Banking 365 Fundamentals. Esta es la lista de nombres de bancos filtrada por país o región y que se puede seleccionar en el campo **Nombre del banco - Conversión de datos** en la página **Ficha de cuenta bancaria**.
 
 > [!NOTE]  
 >   La actualización de los formatos de datos bancarios se produce también cuando se selecciona o especifica un valor en el campo **Nombre del banco - Datos de conversión** en la cuenta bancaria.

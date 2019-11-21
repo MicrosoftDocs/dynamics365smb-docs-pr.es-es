@@ -8,27 +8,36 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 11/06/2019
 ms.author: sgroespe
-ms.openlocfilehash: a70d11fcac9f69cc572352fa8f2932d1c1555404
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c0cd3a1d72b466946f8efcd4774a1629c21af6d0
+ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316861"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "2774800"
 ---
-# <a name="finding-pages-from-a-feature-overview"></a>Búsqueda de páginas desde una descripción general de funciones
-Puede obtener una descripción general de todas las funciones empresariales que están disponibles para su rol y para otros roles si va un paso más allá. Cada elemento de la descripción general es una acción que abre una página. En consecuencia, también puede usar la descripción general de funciones como un medio para navegar en [!INCLUDE[d365fin](includes/d365fin_md.md)].
+# <a name="finding-pages-with-the-role-explorer"></a>Búsqueda de páginas con el explorador de roles
+Puede obtener una descripción general de todas las funciones empresariales que están disponibles para su rol y para otros roles si va un paso más allá. En la siguiente documentación, esta descripción general de funciones se denomina *explorador de roles*.
 
-Puede abrir la descripción general de funciones desde el área de trabajo y todas las páginas de la lista y desde la ventana **Dígame**.
+Cada elemento del explorador de roles es una acción que abre una página. En consecuencia, también puede usar el explorador de roles como un medio para navegar en [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-- En su área de trabajo o en cualquier página de lista, elija el botón ![botón Menú](media/ui_menu_button.png "botón Menú") situado a la derecha de la barra de navegación.
+Puede abrir el explorador de roles desde el área de trabajo y todas las páginas de la lista y desde la ventana **Dígame**.
+
+- En su área de trabajo o en cualquier página de lista, elija el botón ![Botón Menú](media/ui_menu_button.png "Botón Menú") situado a la derecha de la barra de navegación o pulse Mayús+F12.
 - En la ventana **Dígame**, elija la acción **explorando** en la parte inferior.
 
-Para obtener una descripción general de la función empresarial que está disponible para los demás roles, además del suyo, elija la acción **Explorar todos**.
+Para obtener una descripción general de la función empresarial que está disponible para los demás roles, además del suyo, elija la acción **Explorar todos** en la página que presenta el explorador de roles.
 
 > [!NOTE]
-> Solo roles donde la casilla **Mostrar en Explorador de roles** está seleccionada para que el perfil relacionado aparezca en la descripción general de funciones para todos los roles. Para obtener más información, consulte [Administrar perfiles](admin-users-profiles-roles.md).
+> Solo las acciones del área de trabajo para perfiles donde la casilla **Mostrar en Explorador de roles** esté seleccionada aparecerán en la versión extendida del explorador de roles (se muestra con la acción **Explorar todo**). Para obtener más información, consulte [Administrar perfiles](admin-users-profiles-roles.md).
+
+## <a name="to-expandcollapse-nodes-on-the-role-explorer"></a>Para expandir/contraer nodos en el explorador de roles
+Las acciones que abren las páginas están organizadas en nodos con el nombre de las características o áreas de aplicación. Cada nodo se puede contraer o expandir individualmente y puede contraer/expandir todos los nodos a la vez.
+
+- Para expandir/contraer un nodo, elija el nodo. Esto se aplica a los nodos de nivel superior y los subnodos.
+- Para expandir/contraer todos los nodos de nivel superior de la página, elija la acción **Expandir** o **Contraer** en la esquina superior derecha.
+- Para expandir/contraer un nodo de nivel superior y todos los subnodos debajo de él, pulse las teclas Ctrl+Mayús mientras elige la acción **Expandir** o **Contraer** en la esquina superior derecha.
 
 ## <a name="see-also"></a>Consulte también
 [Búsqueda de páginas e información con Dígame](ui-search.md)  

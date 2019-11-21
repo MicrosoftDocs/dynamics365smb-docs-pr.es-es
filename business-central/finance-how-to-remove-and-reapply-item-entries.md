@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3d9d602690b8d4ca7714b328759a705204c740ee
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 898548bd33bbc9a5a7ae7400c626bf7a7820bfd4
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306057"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554139"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Eliminar y liquidar de nuevo los movimientos contables de producto
 En la página **Hoja liquidación**, puede ver y modificar manualmente determinados movimientos de liquidación del producto que se crean automáticamente durante las transacciones del inventario.  
@@ -61,7 +61,7 @@ Si no puede usar un documento para volver a liquidar, por ejemplo cuando tiene q
 ## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Para volver a liquidar un producto con la Hoja liquidación  
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hoja liquidación** y luego elija el enlace relacionado.  
 2.  La página **Hoja liquidación** se abre y muestra los movimientos de producto existentes para todos los productos.  
-3.  Para volver a liquidar los movimientos eliminados desde que abriera la hoja de trabajo, seleccione el movimiento del producto que le gustaría volver a liquidar. En la pestaña **Acciones**, en el grupo **Funciones**, seleccione **Volver a liquidar**.  
+3.  Para volver a liquidar los movimientos que se eliminaron desde que abriera la hoja de trabajo, seleccione el movimiento que desea volver a liquidar y, a continuación, elija la acción **Liquidar de nuevo**.  
 
     > [!NOTE]  
     >  Esta nueva liquidación en el saldo original también se produce automáticamente cuando cierra la página **Hoja liquidación**.  

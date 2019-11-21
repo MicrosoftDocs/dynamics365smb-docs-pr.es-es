@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: inventory, periods
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 64c47b78555e1364bbc0e1d4be97ed4910bca04a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1a88456e91b3398ac9cae1b64ebdd80644b5d0aa
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305851"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554043"
 ---
 # <a name="work-with-inventory-periods"></a>Trabajar con periodos de inventario
 Los periodos del inventario definen un periodo de tiempo durante el cual es posible registrar cambios en el inventario. Un periodo del inventario se define por la fecha en la que finaliza. Cuando se cierra un periodo del inventario, no es posible registrar ningún cambio en él (ya sea previsto o facturado) antes de dicha fecha de finalización. Tampoco es posible registrar ningún valor nuevo en el inventario antes de dicha fecha. Si tiene movimientos de producto abiertos en ese periodo ya cerrado (lo que significa que existen cantidades positivas que todavía no ha aplicado a transacciones de salida), seguirá pudiendo aplicar cantidades de salida a dichos movimientos, incluso si el periodo está cerrado.  
 
-En el siguiente apartado se explica cómo:  
+En el siguiente apartado se explica cómo:
 
 * Cree periodos de inventario.  
 * Cierre periodos de inventario.  
@@ -45,7 +45,7 @@ Es posible cerrar un periodo del inventario siempre y cuando se cumplan las sigu
 Esto significa que todas las cantidades de transacciones de salida (como aquellas provenientes de los pedidos de ventas, transferencias de salida, facturas de ventas, devoluciones de compra o abonos de compra) deben aplicarse a una cantidad existente en el inventario.  
 
 ### <a name="to-close-an-inventory-period"></a>Para cerrar un periodo de inventario  
-1. Antes de cerrar un periodo de inventario, ejecute el trabajo por lotes **Valorar stock - movs. producto** para asegurarse de que se hayan registrado todos los ajustes de costes. En la pestaña **Acciones**, en el grupo **Funciones**, seleccione **Valorar stock - movs. producto**.  
+1. Antes de cerrar un periodo de inventario, elija la acción **Valorar stock - movs. producto** para asegurarse de que se hayan registrado todos los ajustes de costes.
 
      Ejecute el informe **Cerrar periodo inventario - Prueba** para determinar si existe algún movimiento de producto de salida dentro del periodo de inventario o cualquier producto cuyo coste no se haya ajustado todavía.  
 2. Seleccione la acción **Cerrar periodo inventario - Prueba**.  

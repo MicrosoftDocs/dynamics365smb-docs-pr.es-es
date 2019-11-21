@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 10/01/2019
+ms.date: 10/14/2019
 ms.author: edupont
-ms.openlocfilehash: c4e8fe698aa93a110cb2cb2df5f094a79cc20bb7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 072a7a371e8314acddb6d42aec5e263dabdfa9c1
+ms.sourcegitcommit: 659cbd179d207b21fce2e365d60b423680d5156a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311025"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2622334"
 ---
 # <a name="customizing-business-central-using-extensions"></a>Personalizar Business Central con extensiones
 Puede cambiar [!INCLUDE[d365fin](includes/d365fin_md.md)] instalando extensiones que agregan funciones, cambian el comportamiento o proporcionan acceso a nuevos servicios en línea, por ejemplo.
@@ -69,6 +69,7 @@ Microsoft proporciona las extensiones siguientes:
 * [Importación del archivo de nómina de QuickBooks](ui-extensions-quickbooks-payroll.md)
 * [Previsión de ventas e inventario](ui-extensions-sales-forecast.md)
 * [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
+* [Extensión AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)
 * [DK - Migración de datos C5](ui-extensions-c5-data-migration.md)
 * [DK - Pagos y conciliaciones de pagos](ui-extensions-payments-reconciliation-formats-dk.md)
 * [DK - Formatos de archivo de impuestos](ui-extensions-tax-file-formats-dk.md)

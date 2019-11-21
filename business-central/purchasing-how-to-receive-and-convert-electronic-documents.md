@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6ed3790a5e74528866ef226872be99db9dec7d4f
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e9543d9fc361f2948907bc0e84d37dd870139cd8
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312393"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553871"
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Recibir y convertir documentos electrónicos
 La versión genérica de [!INCLUDE[d365fin](includes/d365fin_md.md)] admite la recepción de facturas electrónicas y abonos en formato PEPPOL, admitido por los proveedores de servicios de intercambio de documentos más importantes. Para recibir una factura de un proveedor como un documento electrónico PEPPOL, debe procesarse el documento en la página Documentos entrantes para luego convertirlo en una factura de compra o en una línea de diario general en [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -43,7 +43,7 @@ La versión genérica de [!INCLUDE[d365fin](includes/d365fin_md.md)] admite la r
 
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Documentos entrantes** y luego elija el enlace relacionado.  
 
-2.  Seleccione la línea del registro del documento entrante que representa una factura electrónica entrante nueva y, en la pestaña **Inicio**, en el grupo **Administrar**, elija **Editar**.  
+2.  Seleccione la línea del registro del documento entrante que representa una factura electrónica entrante nueva y, a continuación, elija la acción **Editar**.  
 
      En la página **Ficha de documento entrante**, está adjunto el archivo XML relacionado, y la mayor parte de los campos se prellenan con la información de la factura electrónica. Para obtener más información, vea [Crear registros de documentos entrantes](across-how-create-income-document-records.md).  
 
@@ -51,7 +51,7 @@ La versión genérica de [!INCLUDE[d365fin](includes/d365fin_md.md)] admite la r
 
 4.  Para asignar el texto de la factura de proveedor a una cuenta Debe específica, en la pestaña **Acciones**, en el grupo **General**, seleccione **Asignar texto a cuenta** y, a continuación rellene la página **Hoja asignación de texto a cuenta**.  
 
-5.  En la ventana **Acciones**, en el grupo **General**, elija **Crear documento**.  
+5.  Seleccione la acción **Crear documento**.  
 
      Se creará una factura de compra en [!INCLUDE[d365fin](includes/d365fin_md.md)] basándose en la información del documento electrónico.  
 

@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 10/01/2019
-ms.openlocfilehash: 0c710291b1039dedf23266b48940e123f425c9cc
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 11/06/2019
+ms.openlocfilehash: e1c7d5f7880f283c0b26679572202aaa769a1227
+ms.sourcegitcommit: 86498fe4326b9ce26cc31e8645db27570d13bdf9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313617"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2767662"
 ---
 # <a name="resources-for-help-and-support"></a>Recursos de ayuda y soporte técnico
 
@@ -73,7 +73,7 @@ La sección **Solución de problemas** muestra a información técnica que su ad
 Su socio distribuidor de [!INCLUDE[prodshort](includes/prodshort.md)] le ayudará con el soporte técnico. [!INCLUDE[prodshort](includes/prodshort.md)] se vende a través de socios y esta sección le facilita ponerse en contacto con su socio distribuidor si ha enviado sus datos de contacto de soporte. Si su socio de [!INCLUDE[prodshort](includes/prodshort.md)] no puede resolver el problema, generará un vale de soporte técnico con Microsoft.  
 
 > [!NOTE]
-> Esta sección solo está disponible si ha pagado una suscripción a [!INCLUDE [prodshort](includes/prodshort.md)]. Si se ha registrado en una versión de prueba y aún no ha comprado [!INCLUDE[prodshort](includes/prodshort.md)], no tiene un socio de reventa y no puede ponerse en contacto con el equipo de soporte de Microsoft. Puede encontrar un socio de [!INCLUDE[prodshort](includes/prodshort.md)] en la página [Estoy buscando un proveedor de soluciones](https://go.microsoft.com/fwlink/?linkid=2038145).  
+> Esta sección solo está disponible si ha pagado una suscripción a [!INCLUDE [prodshort](includes/prodshort.md)]. Si se ha registrado en una versión de prueba y aún no ha comprado [!INCLUDE[prodshort](includes/prodshort.md)], no tiene un socio de reventa y no puede ponerse en contacto con el equipo de soporte de Microsoft. Puede encontrar un socio de [!INCLUDE[prodshort](includes/prodshort.md)] en la página [Estoy buscando un proveedor de soluciones](https://go.microsoft.com/fwlink/?linkid=2038145). Para obtener más información, vea [¿Cómo encuentro un socio distribuidor?](across-faq.md#findpartner)  
 
 ### <a name="support-contacts"></a>Contactos de soporte
 
@@ -83,6 +83,8 @@ Para alertar a su socio de un problema, elija el vínculo para enviar un correo 
 
 ## <a name="see-also"></a>Consulte también
 
+[Catálogo de aprendizaje de Business Central](readiness/readiness-learning-catalog.md)  
+[¿Cómo encuentro un socio distribuidor?](across-faq.md#findpartner)  
 [Entrada de blog: Encuentre los recursos adecuados y proporcione comentarios](https://community.dynamics.com/business/b/financials/archive/2018/12/04/find-the-right-resources-and-provide-feedback)  
 [Documentos para desarrolladores e informáticos de Business Central](/dynamics365/business-central/dev-itpro/)  
 [Recursos de ayuda y soporte técnico para socios](/dynamics365/business-central/dev-itpro/help-and-support)  

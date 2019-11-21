@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 10/01/2019
+ms.date: 11/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 4917142d6805824163e72e0403103e6974d856da
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 75bff4d303ac13c2ba76cb21a76de1ac6a08dca1
+ms.sourcegitcommit: 49309bdff9b680a35032b355fe97c565845dba15
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310737"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2695052"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Búsqueda de páginas e información con Dígame  
 Este tema describe cómo la función Dígame puede ayudarle a ir rápidamente a cosas como acciones, páginas o informes, encontrar información sobre cómo completar una tarea concreta y descubrir aplicaciones y servicios de consultoría adicionales para [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -29,7 +29,7 @@ Cuando comienza a escribir caracteres, [!INCLUDE[d365fin](includes/d365fin_md.md
 
 La columna a la derecha indica la categoría general del resultado. Por ejemplo, si se abrirá una página de lista o si se trata de una tarea administrativa.  
 
-En la parte inferior de la ventana **Dígame** hay una acción llamada **explorando**, que abre una descripción general de funciones que muestra todas las funciones disponibles para su rol o para todos los roles. Para obtener más información, consulte [Búsqueda de páginas desde una descripción general de funciones](ui-role-explorer.md).
+En la parte inferior de la ventana **Dígame** hay una acción llamada **explorando**, que abre una descripción general de funciones que muestra todas las funciones disponibles para su rol o para todos los roles. Para obtener más información, vea [Búsqueda de páginas con el explorador de roles](ui-role-explorer.md).
 
 > [!NOTE]  
 >   Si prefiere usar el teclado, use la tecla de tabulación y las teclas de flecha para elegir un elemento de los resultados. Si pulsa la tecla Entrar en su teclado sin elegir un resultado, [!INCLUDE[d365fin](includes/d365fin_md.md)] abre el resultado que aparece primero.
@@ -58,7 +58,7 @@ En **Documentación** verá artículos de la documentación de [!INCLUDE[d365fin
 Nuestra comunidad de socios está desarrollando aplicaciones que agregan funcionalidades a [!INCLUDE[d365fin](includes/d365fin_md.md)]. La sección **Obtener de Microsoft AppSource** enumera aplicaciones para [!INCLUDE[d365fin](includes/d365fin_md.md)] que están disponibles en Microsoft AppSource y están relacionadas con la palabra clave que ha buscado.
 
 ## <a name="searching-for-data"></a>Buscar datos
-La función **Dígame qué desea hacer** no busca datos, como nombres de clientes, direcciones o transacciones. En su lugar, puede buscar datos en páginas de lista eligiendo el icono ![Buscar en la lista](media/ui-search/search-list.png "icono Buscar en la lista") **Búsqueda** en la esquina izquierda de la cabecera de la lista. La búsqueda solo se aplica a la lista que está viendo. Para obtener más información, consulte [Ordenar, buscar y filtrar listas](ui-enter-criteria-filters.md).
+La función **Dígame qué desea hacer** no busca datos, como nombres de clientes, direcciones o transacciones. En su lugar, puede buscar datos en páginas de lista eligiendo el icono ![Buscar en la lista](media/ui-search/search-list.png "Icono de lista de búsqueda") **Búsqueda** en la esquina izquierda de la cabecera de la lista. La búsqueda solo se aplica a la lista que está viendo. Para obtener más información, consulte [Ordenar, buscar y filtrar listas](ui-enter-criteria-filters.md).
 
 ## <a name="questions"></a>¿Tiene alguna pregunta?
 Hemos mostrado la opción Dígame a varias partes interesadas, anotamos las preguntas que tenían en común y convertimos nuestras notas en una lista de preguntas frecuentes. Si le interesa, consulte las [Preguntas más frecuentes de la opción Dígame](ui-search-faq.md).

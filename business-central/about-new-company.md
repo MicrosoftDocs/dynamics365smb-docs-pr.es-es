@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: company, setup wizard
-ms.date: 10/01/2019
+ms.date: 11/01/2019
 ms.author: edupont
-ms.openlocfilehash: e22b93182627a5954b2aa2f1fb1fa4938d89be89
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 70bd78244c4d8570a5e9b8fbe2d1e8a4c74d7530
+ms.sourcegitcommit: 49309bdff9b680a35032b355fe97c565845dba15
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300742"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2695124"
 ---
 # <a name="creating-new-companies-in-included365finincludesd365fin_mdmd"></a>Crear nuevas en empresas en [!INCLUDE[d365fin](includes/d365fin_md.md)]
-En [!INCLUDE[d365fin](includes/d365fin_md.md)], los contenedores para datos empresariales que pertenecen a una unidad de negocio o entidad legal se denominan *empresa*. Cuando se registra en [!INCLUDE[d365fin](includes/d365fin_md.md)], recibe una empresa de demostración y una empresa vacía, *Mi empresa*. Cambiar entre las empresas es fácil, solo tiene que ir a **Mi configuración** y cambiarse a la otra empresa. Pero también puede crear nuevas empresas en [!INCLUDE[d365fin](includes/d365fin_md.md)], en función de sus necesidades comerciales. Al crear una empresa nueva, una guía de configuración asistida le ayuda a obtener los elementos básicos. A continuación, puede importar datos relevantes de su sistema heredado u otra empresa en [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+En [!INCLUDE[d365fin](includes/d365fin_md.md)], los contenedores para datos empresariales que pertenecen a una unidad de negocio o entidad legal se denominan *empresa*. Cuando se registra en [!INCLUDE[d365fin](includes/d365fin_md.md)], recibe una empresa de demostración y una empresa vacía, *Mi empresa*. Cambiar entre las empresas es fácil, solo tiene que ir a **Mi configuración** y cambiar a la otra empresa. Pero también puede crear nuevas empresas en [!INCLUDE[d365fin](includes/d365fin_md.md)], según sus necesidades comerciales. Al crear una empresa nueva, una guía de configuración asistida le ayuda a obtener los elementos básicos. A continuación, puede importar datos relevantes de su sistema heredado u otra empresa en [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-## <a name="create-new-company"></a>Crear nueva empresa
-Si decide agregar una empresa al [!INCLUDE[d365fin](includes/d365fin_md.md)], puede utilizar la guía de configuración asistida **Crear nueva empresa** para comenzar. El asistente de configuración está disponible en la página **Empresas** y en la búsqueda en el campo **Empresa** en **Mi configuración**.  
+## <a name="creating-a-new-company"></a>Creación de una nueva empresa
+Si decide agregar una empresa al [!INCLUDE[d365fin](includes/d365fin_md.md)], puede utilizar la guía de configuración asistida **Crear nueva empresa** para comenzar. El asistente de configuración está disponible en la página **Empresas** y en la búsqueda en el campo **Empresa** en la página **Mi configuración**.  
 
 El asistente de configuración ofrece tres plantillas :
 
@@ -39,6 +39,12 @@ Si desea empezar fácilmente con una empresa nueva, elija **Producción - Solo d
 >   Al crear una empresa nueva, tarda algunos minutos antes de tener acceso en [!INCLUDE[d365fin](includes/d365fin_md.md)]. El estado de configuración de la página **Empresas** muestra cuando la nueva empresa está lista. A continuación, puede cambiar a la nueva empresa mediante **Mi configuración**.  
 
 Durante su prueba de 30 días, puede crear todas las nuevas empresas que desee, pero solo estarán disponibles durante la versión de prueba. Para obtener más información, póngase en contacto con su socio [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+
+## <a name="copying-a-company"></a>Copiar una empresa
+En la página **Empresas**, puede usar la acción **Copiar** para crear una segunda empresa basada en los contenidos de una empresa existente. Esto es útil, por ejemplo, cuando desea probar una empresa sin interrumpir los datos de producción.
+
+> [!Important]
+> Esta función no se puede utilizar para hacer una copia de seguridad de una empresa. Hacer una copia de seguridad de la empresa comienza exportando la base de datos como un archivo .bacpac. Para obtener más información, consulte [Exportar bases de datos](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export) en la ayuda para desarrolladores y profesionales de TI.
 
 ## <a name="company-setup"></a>Configuración de la empresa
 Cuando inicie sesión en una empresa nueva, se ejecutará el asistente **Configuración de la empresa** automáticamente y le ayudará a empezar. Se le pedirá información sobre su empresa, como la dirección, los datos bancarios y el método de cálculo de costes de inventario. Pedimos esta información porque se utiliza como base para muchas áreas en [!INCLUDE[d365fin](includes/d365fin_md.md)] que no tendrá que configurar manualmente más adelante.  

@@ -12,12 +12,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, stream, bank account link
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d79ef7c076ec3a529aeb0c679b8b61658ef65af5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6089a51a0ef27175988ed0c00fdb353cd3c7e96c
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315353"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692949"
 ---
 # <a name="the-envestnet-yodlee-bank-feeds-extension"></a>Extensión Envestnet Yodlee Bank Feeds
 Para conciliar pagos realizados en sus bancos rápidamente, el servicio Envestnet Yodlee Bank Feeds permite vincular su cuenta bancaria del sistema a su cuenta bancaria en línea. Esto significa que el último extracto bancario se introduce manual o automáticamente en el diario de conciliación de pagos, lo que garantiza que siempre procesará sus últimos pagos con el mínimo de errores.
@@ -25,7 +25,9 @@ Para conciliar pagos realizados en sus bancos rápidamente, el servicio Envestne
 El servicio Envestnet Yodlee Bank Feeds solo se admite en Estados Unidos y Canadá.
 
 > [!NOTE]
-> Esta funcionalidad solo se admite en la versión en línea de Business Central. Para utilizar esta funcionalidad local, debe obtener una cuenta de cobrand de Envestnet Yodlee.<br /><br />
+> El servicio Envestnet Yodlee Bank Feeds solo se admite en la versión en línea de Business Central. Para utilizar esta funcionalidad local, debe obtener una cuenta de cobrand de Envestnet Yodlee.<br /><br />
+> El servicio Envestnet Yodlee Bank Feeds solo se admite en Estados Unidos y Canadá.
+> Solo se admiten los bancos que residan en estos países, aunque los bancos de otros países puedan aparecer en la ventana de selección de banco de Envestnet Yodlee Bank Feeds en [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 > [!IMPORTANT]
 > Debido a la nueva directiva sobre servicios de pago en Europa (PSD2), después del 14 de septiembre de 2019 ya no podrá importar automáticamente extractos de cuenta de bancos del Reino Unido a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Estamos analizando la posibilidad de ofrecer esta función nuevamente en el futuro.

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 597f14f07f7e8ac690dce8a5473d01ec68d1669a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 31ac21dbba331748c9eef7bce199a5709147016b
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314752"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554649"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Tutorial: recepción y ubicación en la configuración del almacenamiento básico
 
@@ -126,7 +126,7 @@ En la página **Ubicación existencias**, puede administrar todas las actividade
 3.  Seleccione el campo **Documento origen** y luego **Pedido compra**.  
 4.  Seleccione el campo **Nº origen**, seleccione la línea para la compra del proveedor 10000 y, a continuación, seleccione el botón **Aceptar**.  
 
-    También, en la pestaña **Acciones**, en el grupo **Acciones**, seleccione **Traer documento origen** y seleccione el pedido de compra.  
+    De forma alternativa, seleccione la acción **Obtener documento de origen** y, a continuación, seleccione el pedido de compra.  
 
 5.  Seleccione la acción **Autorrellenar el campo Cdad. para manipular**.  
 

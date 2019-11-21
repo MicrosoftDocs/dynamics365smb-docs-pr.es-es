@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: client
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e8fd2d876a148c1107b4db1d7c554a79e21bf53d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2d8ef273db1211228e71df30af77bc572a23f75d
+ms.sourcegitcommit: ab4141739a53ec100d42773f0da863fbeefa384f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312129"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2577140"
 ---
 # <a name="register-new-customers"></a>Permite registrar nuevos clientes
 Los clientes son el origen de los ingresos. Debe registrar cada cliente a quien venda como ficha de cliente. Las fichas de cliente contienen la información necesaria para vender productos al cliente. Para obtener más información, vea [Facturar ventas](sales-how-invoice-sales.md) y [Registrar nuevos productos](inventory-how-register-new-items.md).  
@@ -26,6 +26,8 @@ Antes de que pueda registrar nuevos clientes, debe configurar varios códigos de
 
 > [!NOTE]  
 >   Si existen plantillas de cliente para distintos tipos de cliente, una página aparece automáticamente cuando se crea una nueva ficha de cliente en la que puede seleccionar una plantilla de cliente correspondiente. Si solo existe una plantilla de cliente, las nuevas fichas de cliente utilizan siempre esa plantilla.
+<br><br>
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3PZsM]
 
 ## <a name="to-create-a-new-customer-card"></a>Para crear una nueva ficha cliente.
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Clientes** y luego elija el enlace relacionado.  

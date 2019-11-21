@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9bf9de93ca218d00cc1db467c74e0af9942f21d0
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 93411d5469373a1084579b1235dcd2befdf921a8
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302841"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554283"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Depreciar o amortizar activos fijos
 La amortización se utiliza para distribuir el coste de activos, como maquinaria y equipos, a lo largo de su vida amortizable. Debe definir la amortización de cada activo.  
@@ -51,7 +51,7 @@ Una vez al mes, o cuando desee, puede ejecutar el proceso **Calcular amortizaci�
 2. Cree una línea inicial de diario y rellene los campos según sea necesario.  
 3. En el campo **A/F Tipo registro**, seleccione **Amortización**.  
 4. Elija la acción **Introducir saldo AF**. Se crea una segunda línea de diario para la cuenta contrapartida que se ha configurado para el registro de amortizaciones. Para obtener más información, vea [Para configurar los grupos contables de activos fijos](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
-5. En la pestaña **Inicio**, elija **Registrar** para registrar el diario.  
+5. Elija la acción **Registrar** para registrar el diario.  
 
 Si configuró las claves de distribución de activos para distribuir importes entre varios departamentos o proyectos, los importes se distribuyen durante el registro. Para obtener más información, consulte [Configurar información general de activos fijos](fa-how-setup-general.md).  
 
@@ -62,7 +62,7 @@ Si se utiliza un activo en varios departamentos, la amortización se puede distr
 2. Cree una línea inicial y rellene los campos según sea necesario.
 3. En el campo **A/F Tipo registro**, seleccione **Distribución**.  
 4. Elija la acción **Introducir saldo AF**. Se crea una segunda línea de diario para la cuenta contrapartida que se ha configurado para el registro de distribuciones.  
-5. En la pestaña **Inicio**, elija **Registrar** para registrar el diario.  
+5. Elija la acción **Registrar** para registrar el diario.  
 
 ## <a name="use-duplication-lists-to-prepare-to-post-to-multiple-depreciation-books"></a>Use las listas de duplicados para preparar el registro a varios libros de amortización
 Al rellenar las líneas de diario que se van a registrar en un libro de amortización, puede duplicarlas en un diario independiente para poder efectuar registros en otro libro de amortización. Para obtener más información, vea [Para registrar movimientos en distintos libros de amortización](fa-how-depreciate-amortize.md#to-post-entries-to-different-depreciation-books).

@@ -10,21 +10,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 10/01/2019
+ms.date: 11/12/2019
 ms.author: SorenGP
-ms.openlocfilehash: bf81f57aad5178a7f875381b274e43cab50899ad
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 36c5446a2297dd0208104d22a7d2fd96077b3590
+ms.sourcegitcommit: 02f1633213793bfc040ad0d2a96fe76572215aa5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309876"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "2798406"
 ---
 # <a name="set-up-general-inventory-information"></a>Configurar información de inventario general
 Especifique la configuración del inventario en la página **Configuración de inventario**.
 
 ## <a name="to-set-up-general-inventory-information"></a>Para configurar la información de inventario general
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración de inventario** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Config. existencias** y luego elija el enlace relacionado.
 2. En la página **Configuración de inventario**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+Para obtener información detallada sobre los campos de costes, **Variación existencias automát.** y **Registro de coste previsto en contabilidad**, vea [Conciliar costes de inventario con la contabilidad general](finance-how-to-post-inventory-costs-to-the-general-ledger.md) y [Detalles de diseño: Registro de coste previsto](design-details-expected-cost-posting.md).
 
 Si desea que el sistema incluya un tiempo de manipulación en almacén de entrada en el cálculo del compromiso de entrega del pedido en la línea de compra, configúrelo como un valor predeterminado para las existencias, en la página **Configuración inventario** y para su almacén. Para obtener más información, consulte [Calcular las fechas de compromiso de entrega de pedido](sales-how-to-calculate-order-promising-dates.md).  
 

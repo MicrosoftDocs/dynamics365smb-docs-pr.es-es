@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: de3456884d3c5f46ef246aa6fcd02bec5b001377
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: df539a8c1aa42fe8bc732e4819db10cbfbdaec2a
+ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309009"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "2775576"
 ---
 # <a name="using-dynamics-365-sales-from-business-central"></a>Uso de Dynamics 365 Sales desde Business Central
 Si utiliza Dynamics 365 Sales para la interacción con el cliente, puede disfrutar de una integración perfecta en el proceso de clientes potenciales a efectivo mediante el uso de [!INCLUDE[d365fin](includes/d365fin_md.md)] para las actividades de backend como el procesamiento de pedidos, la gestión de inventario y la gestión de sus finanzas.
@@ -97,7 +97,7 @@ Cuando se recibe el pago del cliente para la factura de venta en [!INCLUDE[d365f
 [Gestión de relaciones](marketing-relationship-management.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Cambiar las funciones que se muestran](ui-experiences.md)  
-[Administrar usuarios y permisos](ui-how-users-permissions.md)    
+[Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md)    
 [Descripción general de Sales y Centro de ventas](/dynamics365/customer-engagement/sales-enterprise/overview)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: dcb1f7e94aacb07bb314aa5053d789877e3b49a8
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e3d77e5f9a018325855594da62fc4a45f711e30b
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306561"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554235"
 ---
 # <a name="transfer-split-or-combine-fixed-assets"></a>Permite transferir, dividir o combinar activos fijos
 Puede utilizar el diario de reclasificación de activos fijos para transferir, dividir y combinar activos fijos. En el informe **A/F - Valor contable 02** puede ver o imprimir los resultados de la reclasificación de los activos fijos.
@@ -59,7 +59,7 @@ Puede combinar varios activos en uno, por ejemplo, cuando mueve los activos fijo
 2. Cree un diario de reclasificación donde el campo **A/F N. º** contenga el activo que se moverá o combinará, y el campo **A/F N. º nuevo** el activo con el que se combinará..
 3. Deje el campo **% Coste reclasif.** vacío para mover o combinar el coste completo.    
 4. Seleccione las casillas de verificación **Coste reclasif.** y **Amortización reclasif**.
-5. En la pestaña **Acciones**, elija **Reclasificar**.
+5. Seleccione la acción **Reclasificación**.
 
     Se han creado dos líneas en el diario de activos con la plantilla y sección que ha especificado en la página **Config. diario activos** para el libro de amortización especificado. Para obtener más información, consulte [Configurar amortización de activos fijos](fa-how-setup-depreciation.md).   
 6. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diarios generales A/F** y luego elija el enlace relacionado.

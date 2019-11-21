@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: GetAddress.io, postcodes, postal, address, extension
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 5fa6a6382d75bc29384ab31a78265fa2ed6954dc
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 489106d6e4e5dbb6f9c787d6ad5de556c5ec5bee
+ms.sourcegitcommit: 659cbd179d207b21fce2e365d60b423680d5156a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311241"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2622358"
 ---
 # <a name="the-getaddressio-uk-postcodes-extension"></a>La extensión Códigos postales de Reino Unido de GetAddress.io
 La extensión Códigos postales de Reino Unido de GetAddress.io puede ahorrar tiempo y evitar errores al introducir las direcciones de entidades como clientes, proveedores, bancos y empleados. Por ejemplo, al crear un cliente, solo debe elegir un prefijo postal y [!INCLUDE[d365fin](includes/d365fin_md.md)] mostrará una lista de direcciones. Elija la dirección que desea y, ya está, los campos de dirección se rellenan.  
 
-##<a name="to-use-the-getaddressio-uk-postcodes-extension-when-you-enter-an-address"></a>Para usa la Códigos postales de Reino Unido de GetAddress.io al introducir una dirección
+## <a name="to-use-the-getaddressio-uk-postcodes-extension-when-you-enter-an-address"></a>Para usa la Códigos postales de Reino Unido de GetAddress.io al introducir una dirección
 1. En **Dirección**, elija **Buscar dirección a partir del código postal**.  
 
     > [!NOTE]  

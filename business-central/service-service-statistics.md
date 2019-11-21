@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 16b3a3be096bc8d5391b7a14b56524191663ff56
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9016412d32176a99ca84831566d7bbb628ec88a8
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315881"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553847"
 ---
 # <a name="viewing-service-statistics"></a>Visualización de estadísticas de servicio
 Puede utilizar estadísticas para analizar los documentos de servicio y determinar el cómo de bien está gestionando sus procesos de servicio. Puede analizar los contratos de servicio, los productos, ofertas, pedidos, facturas y abonos eligiendo la acción **Estadísticas**. Para los productos y contratos de servicios, también puede usar **Trendscape porducto de servicio** o **Trendscape contrato** para ver un resumen de los movimientos de servicio para un producto de servicio determinado.   
@@ -93,7 +93,7 @@ Los movimientos de beneficios o pérdidas de contrato se generan cuando se convi
 ## <a name="viewing-statistics-for-posted-service-documents"></a>Visualización de estadísticas de documentos de servicio registrados
 La función de estadísticas de servicio permite obtener un resumen estadístico del contenido de los documentos de servicio registrados, como envío registrado, factura registrada y abono registrado.  
 
-La información estadística se muestra en la página de estadísticas del documento de servicio registrado correspondiente. Puede abrir la página de estadísticas correspondiente desde el envío de servicio registrado, la factura de servicio registrada o los documentos de abono de servicio registrados. Para cada uno de esos tipos de documento, en la pestaña **Inicio**, en el grupo **Proceso**, seleccione **Estadísticas**. Por ejemplo, desde la página **Facturas servicios reg.**, en la pestaña **Inicio**, en el grupo **Proceso**, seleccione **Estadísticas**.  
+La información estadística se muestra en la página de estadísticas del documento de servicio registrado correspondiente. Puede abrir la página de estadísticas correspondiente desde el envío de servicio registrado, la factura de servicio registrada o los documentos de abono de servicio registrados. Para cada uno de estos tipos de documento, elija la acción **Estadística**. Por ejemplo, en la página **Facturas servicios reg.**, elija la acción **Estadística**.  
 
 ### <a name="posted-service-shipment-statistics"></a>Estadísticas de envíos de servicios registrados  
 La página **Estadísticas envíos de servicios** proporciona un resumen de un envío de servicio registrado. Esto incluye información sobre el contenido físico del envío, como la cantidad de productos enviados, las horas o los costes de los recursos y el peso y el volumen de los productos enviados.  

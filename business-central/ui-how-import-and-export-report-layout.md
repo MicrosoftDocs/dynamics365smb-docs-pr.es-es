@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 5daf54251048137ca7829ef00d2f65c890b22b12
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 493217e3f7607c4553d6c0ac6500f21f0ff712cc
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315233"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553823"
 ---
 # <a name="import-and-export-a-report-or-document-layout"></a>Importar y exportar un diseño de informe o documento personalizado
 Puede importar y exportar un diseño de informe personalizado existente como archivo a o desde una ubicación de su equipo y red. Por ejemplo, puede exportar un diseño de informe y, a continuación, enviar el archivo a otra persona para que lo modifique. Esa persona podrá entonces hacer las modificaciones en el diseño y devolverle el archivo para que pueda importarlo de nuevo.  
@@ -29,11 +29,11 @@ Puede importar y exportar un diseño de informe personalizado existente como arc
 
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Selección de diseño de informes** y luego elija el enlace relacionado.  
 
-2.  Seleccione la fila para el informe que contenga con el diseño personalizado que desee exportar y, a continuación, en la pestaña **Inicio**, en el grupo **Procesar**, elija **Diseños personalizados**.  
+2.  Seleccione la fila para el informe que contiene el diseño de informe personalizado que desea exportar y, a continuación, elija la acción **Diseños personalizados**.  
 
-3.  En la página **Diseños de informe**, seleccione el diseño de informe que desee exportar a un archivo y, a continuación, en la pestaña **Inicio**, en el grupo **Procesar**, elija **Exportar diseño**.  
+3.  En la página **Diseños de informe**, seleccione el diseño de informe que desee exportar a un archivo y, a continuación, elija la acción **Exportar diseño**.  
 
-4.  En el cuadro de diálogo **Exportar archivo**, seleccione **Guardar** y, a continuación, guarde el archivo en una ubicación de su equipo o red.  
+4.  En el cuadro de diálogo **Exportar archivo**, elija el botón **Guardar** y, a continuación, guarde el archivo en una ubicación de su equipo o red.  
 
 ### <a name="to-import-a-report-layout-file"></a>Para importar un archivo de diseño de informe  
 
@@ -43,11 +43,11 @@ Puede importar y exportar un diseño de informe personalizado existente como arc
 
 2.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Selección de diseño de informes** y luego elija el enlace relacionado.  
 
-3.  Seleccione la fila para el informe al cual desee importar el diseño de informe y, a continuación, en la pestaña **Inicio**, en el grupo **Procesar**, elija **Diseños personalizados**.  
+3.  Seleccione la fila para el informe para el que desee importar el diseño de informe y, a continuación, elija la acción **Diseños personalizados**.  
 
-4.  En la página **Diseño de informe**, seleccione el diseño de informe al que desee importar el archivo y, a continuación, en la pestaña **Inicio**, en el grupo **Procesar**, elija **Importar diseño**.  
+4.  En la página **Diseños de informe**, seleccione el diseño de informe en el que desee importar el archivo y, a continuación, elija la acción **Importar diseño**.  
 
-5.  En el cuadro de diálogo **Importar**, seleccione el documento que define el diseño de informe y, a continuación, elija **Abrir**.  
+5.  En el cuadro de diálogo **Importar**, seleccione el documento que define el diseño de informe y, a continuación, elija el botón **Abrir**.  
 
  El diseño de informe original personalizado se reemplaza con el diseño de informe importado.  
 

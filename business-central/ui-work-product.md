@@ -8,19 +8,24 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 11/07/2019
 ms.author: sgroespe
-ms.openlocfilehash: 81ba616c55b364843a718e9b000bfee02a513ad1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: fbac11fc220184a2906ceed1811c7f5b0b7676b5
+ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310641"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "2774776"
 ---
 # <a name="working-with-included365finincludesd365fin_mdmd"></a>Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Al realizar tareas empresariales, el usuario interactúa con los datos de diferentes maneras; por ejemplo, crear registros e introducir datos, ordenar y filtrar datos, escribir notas y exportando datos a otras aplicaciones.
 
 Por ejemplo, puede ajustar el tamaño y la posición de cualquier página. Para ello, expanda la anchura de las columnas, aumente la altura de los encabezados de columna y cambie el orden de los datos de las columnas. Y si quiere usar la barra de desplazamiento horizontal para ver todas las columnas en una página de lista o en líneas de documentos, verá que hay una inmovilización del panel vertical para impedir el desplazamiento de algunas columnas.
+
+> [!TIP]
+> Para obtener un resumen en versión para imprimir de las funciones más usadas, elija la siguiente imagen y descargue el archivo PDF.
+>
+> [ ![](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf)
 
 > [!NOTE]
 > Además de las funciones de IU generales descritas en esta sección, puede usar otras funciones generales que estén más relacionadas con el negocio. Para obtener más información, consulte [Funciones empresariales generales](ui-across-business-areas.md).
@@ -30,7 +35,7 @@ En la tabla siguiente se indican algunas de las funciones generales con vínculo
 | Para | Vea |
 | --- | --- |
 |Encuentre una página, informe, acción, tema de ayuda o extensión de socio específica. |[Búsqueda de páginas e información con Dígame](ui-search.md) |
-|Obtenga una descripción general de las páginas para su rol y para otros roles y navegue a las páginas.|[Búsqueda de páginas desde una descripción general de funciones](ui-role-explorer.md)|
+|Obtenga una descripción general de las páginas para su rol y para otros roles y navegue a las páginas.|[Búsqueda de páginas con el explorador de roles](ui-role-explorer.md)|
 | Filtrar los datos de vistas, informes, o funciones con los símbolos y caracteres especiales. |[Ordenar, buscar y filtrar listas](ui-enter-criteria-filters.md) |
 |Obtenga información sobre varias funciones generales que le pueden ayudar a introducir datos de manera rápida y fácil.|[Introducción de fechas](ui-enter-data.md)|
 |Obtenga información sobre cómo copiar y pegar datos rápidamente incluido mediante el uso de métodos abreviados de teclado.|[Preguntas frecuentes sobre copiar y pegar](ui-copy-paste.md)|

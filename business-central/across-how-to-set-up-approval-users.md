@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3071577689c7f292b27aef72291d9bfdd36c473a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 067db27e9b0000d39af06e877193e241d05bc4cc
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305289"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554478"
 ---
 # <a name="set-up-approval-users"></a>Configurar usuarios de aprobación
 Antes de que puedas crear flujos de trabajo que impliquen pasos de aprobación, tienes que configurar los usuarios del flujo de trabajo implicados en los procesos de aprobación. En la página **Config. usuario aprobación**, también se pueden establecer los límites del importe de tipos específicos de solicitudes y definir aprobadores sustitutos a los que delegar las solicitudes de aprobación cuando el aprobador original está ausente.  
@@ -49,10 +49,10 @@ Antes de que puedas crear flujos de trabajo que impliquen pasos de aprobación, 
     |**Aprob. solic. compra ilimitada**|Especifica que el usuario del campo **Id. de usuario** puede aprobar todas las ofertas de compra independientemente de su importe.<br /><br /> Si activas esta casilla, no podrás rellenar el campo **Importe límite aprob. solicitud**.|  
     |**Sustituir**|En el campo **Id. del usuario**, selecciona el Id. del usuario que tiene que aprobar las solicitudes hechas por el usuario si el usuario de **Id. aprobador** no está disponible. **Nota**: El sustituto puede ser usuario del campo **Substituir**, el aprobador directo o administrador de la aprobación, en ese orden de prioridad. Para obtener más información, vea [Usar flujos de trabajo de aprobación](across-how-use-approval-workflows.md).|  
     |**Correo electrónico**|Especifica la dirección de correo electrónico del usuario en el campo **Id. de usuario**.|  
-    |**Administrador aprobación**|Especifique el usuario que tiene derechos para desbloquear flujos de trabajo de aprobación, por ejemplo, delegando las solicitudes de aprobación en nuevos aprobadores sustitutos y eliminando las solicitudes de aprobación vencidas.|  
+    |**Administrador aprobación**|Especifique el usuario que tiene derechos para desbloquear flujos de trabajo de aprobación, por ejemplo, delegando las solicitudes de aprobación en nuevos aprobadores sustitutos y eliminando las solicitudes de aprobación vencidas.|
 
-    > [!NOTE]  
-    >  El comportamiento del campo **Tipo de límite de aprobador** solo se aplica en las áreas de aplicación en las que se pueden definir límites, a saber, las aprobaciones de ventas y compras. Cualquier otro tipo de aprobación donde no se aplican los límites siempre se comportará como se describe para la opción **Aprobador Directo**.  
+    > [!Note]
+    > Solo una persona puede ser el administrador de aprobación.  
 
 3. Para probar la configuración de usuario de aprobación, elija la opción **Prueba configuración usuario aprobación**.  
 4. Repita los pasos 2 y 3 para cada usuario que desee configurar como usuario de aprobación.  

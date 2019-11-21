@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: ab408bbef4e2fc9535eaa64e61a9e93d2d87378c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 24f9720c0dfb1641db347d6eca37d7e4f4c3a2ab
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301569"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554187"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Trabajar con el IVA por ventas y compras
 Si su país o región requiere que calcule el impuesto al valor añadido (IVA) en las transacciones de compra y venta para que pueda informar de los importes a una autoridad fiscal, puede configurar [!INCLUDE[d365fin](includes/d365fin_md.md)] para calcular el IVA automáticamente en documentos de ventas y compras. Para obtener más información, vea [Configurar los cálculos y los métodos de registro del impuesto sobre el valor añadido](finance-setup-vat.md).
@@ -96,7 +96,7 @@ En lugar de utilizar diarios para registrar las facturas de IVA de importación,
 1. Configure una ficha de proveedor para la autoridad de importación que envía la factura de IVA de importación. Los campos **Grupo contable negocio** y **Grupo registro IVA neg.** deben configurarse de la misma forma que la contabilidad para el IVA de importación.  
 2. Cree un **Gr. contable producto** para el IVA de importación y configure un **Grupo registro IVA producto** predeterminado del IVA de importación para el **Gr. contable producto** relacionado.  
 3. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Plan de cuentas** y luego elija el enlace relacionado.  
-4. Seleccione la cuenta del IVA de importación y, a continuación, en la pestaña **Inicio**, grupo **Administrar**, elija **Editar**.  
+4. Seleccione la cuenta contable de IVA de importación y, a continuación, seleccione la acción **Editar**.  
 5. En la ficha desplegable **Registro**, seleccione la configuración **Grupo contable producto** para el IVA de importación. [!INCLUDE[d365fin](includes/d365fin_md.md)] debería rellenar automáticamente el campo **Grupo registro IVA prod.**  
 6. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración de registro general** y luego elija el enlace relacionado.  
 7. Cree una combinación **Grupo contable negocio** para la autoridad de IVA y **Grupo contable producto** para el IVA de importación. Para esta combinación nueva, en el campo **Cuenta de compras**, elija la cuenta contable de IVA de importación.  
@@ -181,4 +181,4 @@ Para ver un grupo de certificados, desde la página **Certificados de suministro
 
 ## <a name="see-also"></a>Consulte también  
 [Configurar los cálculos y los métodos de registro del impuesto sobre el valor añadido](finance-setup-vat.md)   
-[Crear informes de IVA para una autoridad fiscal](finance-how-report-vat.md)   
+[Crear informes de IVA para la autoridad fiscal](finance-how-report-vat.md)   

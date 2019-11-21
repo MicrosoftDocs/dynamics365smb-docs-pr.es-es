@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4e179b8dae0fda5c0a2c045fc61fb58101bfec07
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e4c3b60bca16e1f1e72e728d02b07ded11cada09
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300502"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692589"
 ---
 # <a name="field-mapping-when-importing-sepa-camt-files"></a>Asignación de campos al importar archivos CAMT de SEPA
-[!INCLUDE[d365fin](includes/d365fin_md.md)] admite los estándares de SEPA (zona única de pagos en euros) regional para importar los extractos de cuenta de SEPA (formato CAMT). Para obtener más información, vea [Configuración del servicio de conversión de datos bancarios](bank-how-setup-bank-data-conversion-service.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] admite los estándares de SEPA (zona única de pagos en euros) regional para importar los extractos de cuenta de SEPA (formato CAMT). Para obtener más información, vea [Usar la extensión AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
 
  El estándar CAMT de SEPA en sí presenta variaciones locales. Por lo tanto, es posible que tenga que modificar la configuración de intercambio de datos genérica (representada por el código de **CAMT de SEPA** en la página **Definiciones de intercambio de registro**) para adaptarla a una variación local del estándar. En las tablas siguientes se muestra la asignación de elemento a campo para las tablas 81, 273 y 274 en la implementación CAMT de SEPA en [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
@@ -61,6 +61,6 @@ ms.locfileid: "2300502"
 ## <a name="see-also"></a>Consulte también  
 [Configuración del intercambio de datos](across-set-up-data-exchange.md)  
 [Intercambio de datos electrónicamente](across-data-exchange.md)  
-[Configurar el servicio de conversión de datos bancarios](bank-how-setup-bank-data-conversion-service.md)   
+[Uso de la extensión AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)   
 [Uso de esquemas XML para preparar definiciones de intercambio de datos](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Conciliar los pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md)  

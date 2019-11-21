@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: barcode
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 459c3f9ff695fe4cbee2dd1cb23e3cc5b989f939
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: dfabf797ae9ba85a5a241d88f9ba3f5deb16bd4c
+ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310041"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "2775480"
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>Utilice el sistema de captura de datos automatizado (ADCS)
 
@@ -40,14 +40,14 @@ Para utilizar un ADCS, debe especificar qué ubicaciones de almacén utilizan la
 > [!NOTE]  
 >  Se recomienda no configurar un almacén para utilizar un ADCS si dicho almacén también tiene una directiva de capacidad de la ubicación.
 
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Ubicaciones** y elija el enlace relacionado.
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Almacenes** y elija el enlace relacionado.
 2.  Seleccione un almacén de lista para la que desea activar un ADCS y seleccione **Editar**.
 3. En la página **Ficha almacén**, active la casilla **Utilizar ADCS**.  
 
 ## <a name="to-specify-an-item-to-use-adcs"></a>Para especificar que un producto utilice ADCS  
 Cada artículo de almacén que desea utilizar con un ADCS debe tener asignado un código de identificador para asociarlo al número de producto. Por ejemplo, podrá utilizar el código de barras del artículo como código de identificador. Un artículo puede tener varios códigos de identificador. Puede que esto le sea útil si un producto está disponible en varias unidades de medida, como por ejemplo piezas y paletas. En este caso, asigne un código de identificador a cada una de ellas.    
 
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Productos** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos** y luego elija el enlace relacionado.  
 2.  Seleccione un elemento de la lista que forma parte de la solución ADCS y seleccione **Editar**.
 3. En la página **Tarjeta de producto**, seleccione la acción **Identificadores**.
 4. En la página **Identificadores producto**, seleccione la acción **Nuevo**.
@@ -60,15 +60,15 @@ Cada artículo de almacén que desea utilizar con un ADCS debe tener asignado un
 8.  Para revisar información, seleccione el campo **Código identificador** para abrir la página **Identificadores producto**.
 
 ## <a name="to-add-an-adcs-user"></a>Para agregar a un usuario de un ADCS  
-Puede agregar a cualquier usuario al sistema de captura de datos automatizados (ADCS). Cuando realice esta operación, el usuario debe proporcionar a una contraseña. Opcionalmente, también puede proporcionar un anexo que identifica al usuario de un ADCS como empleado de almacén. La contraseña de usuario de un ADCS puede ser diferente de la de inicio de Windows. Para obtener más información, vea [Administrar usuarios y permisos](ui-how-users-permissions.md).
+Puede agregar a cualquier usuario al sistema de captura de datos automatizados (ADCS). Cuando realice esta operación, el usuario debe proporcionar a una contraseña. Opcionalmente, también puede proporcionar un anexo que identifica al usuario de un ADCS como empleado de almacén. La contraseña de usuario de un ADCS puede ser diferente de la de inicio de Windows. Para obtener más información, vea [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md).
 
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Usuarios ADCS** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Usuarios de ADCS** y luego elija el enlace relacionado.  
 2. Seleccione la acción **Nuevo**.  
 3.  En el campo **Nombre**, escriba un nombre para el usuario. El nombre no puede contener más de 20 caracteres, incluidos los espacios.  
 4.  En el campo **Contraseña**, introduzca una contraseña. La contraseña se enmascara.  
 
 ### <a name="to-specify-that-a-warehouse-employee-is-an-adcs-user"></a>Para especificar que un empleado del almacén es usuario de un ADCS  
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Empleados de almacén** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Empleados de almacén** y luego elija el enlace relacionado.  
 2.  Si es necesario, agregue un nuevo empleado de almacén. Para obtener más información, vea [Configurar los empleados de almacén](warehouse-how-to-set-up-warehouse-employees.md).  
 3.  Seleccione la acción **Editar lista**.  
 4.  Seleccione un empleado de almacén de la lista. En el campo **Usuario ADCS**, seleccione la flecha desplegable y el nombre de un usuario de un ADCS de la lista.  
@@ -82,7 +82,7 @@ Utilice los miniformularios que describen la información que desea fabricar en 
 Para ejecutar o cambiar las funcionalidad de una función del miniformulario, debe crear una nueva codeunit o modificar una existente para realizar la acción o respuesta requeridas. Puede obtener más información acerca de la funcionalidad de un ADCS examinando las codeunits como 7705, que es la codeunit de control de la funcionalidad de inicio. La codeunit 7705 muestra cómo funciona un miniformulario tipo tarjeta.  
 
 ### <a name="to-create-a-miniform-for-adcs"></a>Para crear un miniformulario para un ADCS  
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Miniformularios** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Miniformularios** y luego elija el enlace relacionado.  
 2. Seleccione la acción **Nuevo**.  
 3.  Escriba un código para el miniformulario en el campo **Código**. Opcionalmente, introduzca los valores en el resto de campos.  
 
@@ -103,7 +103,7 @@ Cuando haya creado un miniformulario, los pasos siguientes son crear las funcion
 3.  Agregue el código C/AL a la función correspondiente de la codeunit específica del miniformulario para gestionar la clave de ejecución.  
 
 ### <a name="to-customize-miniform-functions"></a>Para personalizar las funciones del miniformulario  
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Miniformularios** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Miniformularios** y luego elija el enlace relacionado.  
 2.  Seleccione un miniformulario de la lista y, a continuación, seleccione la acción **Editar**.  
 3.  Seleccione la acción **Funciones**.  
 4.  En la lista desplegable de **Cód. función**, seleccione un código que represente la función que desea asociar con el miniformulario. Por ejemplo, puede seleccionar ESC, que asocia la funcionalidad con la pulsación de la tecla ESC.  

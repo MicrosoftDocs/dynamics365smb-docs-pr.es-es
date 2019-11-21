@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4b6626f13e04e3014df3c792e5ace05575b430c4
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c567652331d82e4386bcf8829dd7d296f8ebecb4
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314707"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553897"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Tutorial: recepción y ubicación en la configuración del almacenamiento avanzado
 
@@ -136,7 +136,7 @@ En la página **Ubicar almacén**, puede administrar ubicaciones para un documen
 
 ### <a name="to-put-the-items-away"></a>Para ubicar los productos  
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Ubicaciones** y luego elija el enlace relacionado.  
-2.  Seleccione el único documento de ubicación de almacén en la lista y en la pestaña de **Inicio**, en el grupo **Administrar**, elija **Editar**.  
+2.  Seleccione el único documento de ubicación de almacén en la lista y, a continuación, elija acción **Editar**.  
 
     El documento de ubicación de almacén se abre con un total de ocho líneas Traer o colocar para las cuatro líneas del pedido de compra.
 

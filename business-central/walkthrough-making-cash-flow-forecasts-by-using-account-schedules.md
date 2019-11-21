@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 70f1e51a0cd2c1b6c90ca3d76013fb3a5f30f80e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 415cabbb859bfc49477f69b19ad4a4daf1137837
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314849"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554697"
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Tutorial: elaboración de previsiones del flujo de efectivo con esquemas de cuentas
 Este tutorial describe cómo puede utilizar los esquemas de cuentas para elaborar previsiones del flujo de efectivo. Los esquemas de cuentas realizan cálculos que no se puedan realizar directamente en el plan de cuentas del flujo de efectivo. En los esquemas de cuentas, puede configurar los subtotales para las recepciones y los desembolsos del flujo de efectivo. Estos subtotales se pueden incluir de los nuevos totales que pueden usarse en la elaboración de previsiones del flujo de efectivo.  
@@ -61,7 +61,7 @@ Después de configurar el nombre del esquema de cuentas, Ken define cada línea 
 
 ### <a name="to-set-up-account-schedule-lines"></a>Para configurar líneas de esquema de cuenta  
 
-1.  En la página **Nombre esquema cuenta**, seleccione el nuevo nombre del esquema de cuentas de **Previsiones** que ha creado. En la pestaña **Inicio**, en el grupo **Procesar**, elija **Editar esquema cuentas**.  
+1.  En la página **Nombres esquemas de cuentas**, seleccione el nombre del nuevo esquema de cuentas **Previsión** y después seleccione la acción **Editar esquema cuentas**.  
 2.  En la página **Esquema cuentas**, especifique cada línea exactamente como se muestra en la siguiente tabla.  
 
     > [!NOTE]  

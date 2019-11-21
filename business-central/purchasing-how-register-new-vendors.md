@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: supplier
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 26be6007c195964758e070d3d1b1e03800d4be4b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7e8306ad65b41784e853dfc46a41c2deee997180
+ms.sourcegitcommit: ab4141739a53ec100d42773f0da863fbeefa384f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316697"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2577236"
 ---
 # <a name="register-new-vendors"></a>Permite registrar nuevos proveedores
 Los proveedores proporcionan los productos que vende. Cada proveedor del que compra debe estar registrado como ficha de proveedor.
@@ -28,6 +28,8 @@ Las fichas de proveedor contienen la información necesaria para comprar product
 
 > [!NOTE]  
 >   Si existen plantillas de proveedor para distintos tipos de proveedor, una página aparece cuando se crea una nueva ficha de proveedor en la que puede seleccionar una plantilla adecuada. Si solo existe una plantilla de proveedor, las nuevas fichas de proveedor utilizan siempre esa plantilla.
+<br><br>
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE3PZtd]
 
 ## <a name="to-create-a-new-vendor-card"></a>Para crear una nueva ficha de proveedor
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Proveedores** y luego elija el enlace relacionado.  

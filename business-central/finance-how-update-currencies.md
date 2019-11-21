@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: multiple currencies, adjust exchange rates
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7376abd7806eb664bbfcbf3f3505df00ababba9e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c971a3cd11f34db0ff04cd66096d74909cca3651
+ms.sourcegitcommit: ab4141739a53ec100d42773f0da863fbeefa384f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305817"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2577260"
 ---
 # <a name="update-currency-exchange-rates"></a>Actualizar tipos cambio divisa
 Las empresas trabajan cada vez en un mayor número de países o regiones, por lo que es muy importante que puedan comercializar y crear informes financieros en más de una divisa. Debe configurar un código por cada una de las divisas usadas en caso de que las operaciones de compra y venta se realicen en una divisa que no sea la divisa local (DL), tenga cobros y pagos en otras divisas o registre las transacciones de contabilidad en diferentes divisas.
@@ -46,6 +46,8 @@ Los movimientos registrados se asignan a las dimensiones predeterminadas de las 
 
 > [!Important]
 > Antes de utilizar el trabajo por lotes, introduzca los tipos de cambio de ajuste que se usan para ajustar los saldos en divisa extranjera. Debe hacerlo en la página **Tipos cambio divisa**.
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE3Q24s]
 
 ## <a name="to-set-up-a-currency-exchange-rate-service"></a>Para configurar un servicio de tipo de cambio de divisa
 Puede utilizar un servicio externo para mantener actualizados los tipos de cambio de divisa como FloatRates.

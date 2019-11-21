@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 10/01/2019
+ms.date: 10/17/2019
 ms.author: edupont
-ms.openlocfilehash: a01fb01fb6a4e18bb3cfd46693885f7891989804
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6c1ec2e61b1a6d61b9662abe70e3177747b73a12
+ms.sourcegitcommit: be1e2c49a8434d3f440d5a201508af9c3c8cc87f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304452"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2649721"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Usar Business Central como su bandeja de entrada de empresa en Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] introduce la posibilidad de gestionar las interacciones comerciales con sus clientes y proveedores directamente en Microsoft Outlook. Con los complementos de Outlook de [!INCLUDE[d365fin](includes/d365fin_md.md)], puede ver los datos financieros relativos a los clientes y los proveedores, así como crear y enviar documentos financieros, como por ejemplo presupuestos y facturas.  
@@ -27,6 +27,8 @@ A continuación, cuando abra Outlook, verá un mensaje de correo electrónico de
 
 > [!TIP]
 > Si utiliza el nuevo Outlook en un explorador, los complementos de pueden [!INCLUDE [prodshort](includes/prodshort.md)] estar ocultos en **Más acciones**.
+
+Si trabaja con más de una empresa de [!INCLUDE [prodshort](includes/prodshort.md)], puede cambiar fácilmente entre empresas en Outlook.
 
 Algunas empresas que usan Office 365 restringen los permisos de los usuarios para implementar complementos. Debe asegurarse de que tiene una suscripción a Office 365 que incluye correo electrónico y permite implementar complementos. Si desea probar el complemento de todos modos, puede [probar Office 365 gratis](https://products.office.com/try).  
 

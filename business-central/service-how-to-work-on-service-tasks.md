@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5b153d68636e948a01a5ab2d514828710e413f3d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: f567bb154781c3fe506a5609325f793d47e231e5
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311649"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553775"
 ---
 # <a name="work-on-service-tasks"></a>Trabajar en tareas de servicio
 Una vez que haya creado un pedido u oferta de servicio, registrado líneas de producto de servicio y asignado recursos a los productos de servicio del pedido u oferta, podrá empezar a reparar y mantener los productos de servicio.  
@@ -31,7 +31,7 @@ Para realizar un seguimiento de los cambios y obtener una visión gráfica de su
 2. Si desea una lista de tareas de servicio asignadas a un determinado recurso o grupo de recursos, rellene el campo **Filtro recurso** o **Filtro grupo recurso** y presione Enter.  
 3. Si desea obtener una lista de tareas de servicio con una fecha de respuesta determinada o con fechas de respuesta en un determinado periodo de tiempo, rellene el campo **Filtro fecha respuesta** y presione Enter.  
 4. Si desea una lista de tareas de servicio asignadas a un determinado estado de reparación o estado de asignación, rellene el campo **Filtro estado asignación** o **Filtro cód. estado reparación** y presione Enter.  
-5. Seleccione la tarea de servicio en la que desea trabajar. En la pestaña **Navegar**, en el grupo **Tareas de servicio**, elija **Hoja trabajo producto**. Se abrirá la página **Hoja trabajo prod. serv**.  
+5. Seleccione la tarea de servicio en la que desea trabajar. Elija la acción **Hoja de producto**. Se abrirá la página **Hoja trabajo prod. serv**.  
 6. Registre textos estándar, componentes, recursos, horas y costes utilizando las opciones correspondientes del campo **Tipo**: <Blank>, **Producto**, **Recurso** y **Coste**.  
 7. En el campo **Estado reparación**, seleccione el estado adecuado.  
 
@@ -43,7 +43,7 @@ Al realizar un servicio de un pedido de servicio, puede registrar los detalles d
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos servicio** y luego elija el enlace relacionado.  
 2. Abra el pedido de servicio para registrar el servicio y elija la línea de producto.  
-3. Elija **Acciones**, seleccione **Línea** y, a continuación, elija **Hoja prod. servicio**.  
+3. Elija la acción **Hoja prod. servicio**.  
 4. En las líneas, especifique los productos utilizados, los costes adquiridos y el tiempo invertido en el servicio.  
 
    > [!NOTE]  

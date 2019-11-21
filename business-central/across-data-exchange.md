@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 209516aff6195901f06705d2a2fb27d7144c4a0a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 700c0e8456185ffdf9c322f58b59337c8be44328
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300646"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692685"
 ---
 # <a name="exchanging-data-electronically"></a>Intercambio de datos electrónicamente
 Puede usar Marco de intercambio de datos para intercambiar documentos empresariales, archivos bancarios, tipos de cambio de divisa y cualquier otro archivo de datos con sus socios comerciales.
@@ -32,15 +32,15 @@ Para recibir, por ejemplo, una factura de un proveedor como un documento electr�
  Para recibir, por ejemplo, una factura como documento electrónico de OCR, se procesa como cuando se recibe un documento electrónico de PEPPOL. La recepción y la conversión de documentos electrónicos de OCR las realiza el marco de intercambio de datos, representado por la definición de intercambio de datos **OCR - Factura**.  
 
 ## <a name="bank-files"></a>Archivos bancarios  
- Los formatos de los archivos para el intercambio de datos bancarios con sistemas ERP varían en función del proveedor del archivo y del país o la región. La versión genérica de [!INCLUDE[d365fin](includes/d365fin_md.md)] permite importar y exportar archivos bancarios SEPA (zona única de pagos en euros) y un servicio de conversión de datos bancarios facilitado por el proveedor externo, AMC Consult. Para proporcionar compatibilidad con otros formatos de documento electrónico, utilice el marco de intercambio de datos.  
+Los formatos de los archivos para intercambiar datos bancarios con sistemas ERP varían en función del proveedor del archivo y del país o la región. [!INCLUDE[d365fin](includes/d365fin_md.md)] permite importar y exportar archivos bancarios SEPA (zona única de pagos en euros) y la extensión AMC Banking 365 Fundamentals le permite conectar un servicio de conversión de datos bancarios facilitado por el proveedor externo, AMC Consult. Para proporcionar compatibilidad con otros formatos de documento electrónico, utilice el marco de intercambio de datos.  
 
-Para exportar transferencias de crédito SEPA, se elige el botón **Exportar pagos a archivo** en la página **Diario de pagos** y después se carga el archivo para procesar pagos en el banco. Primero debe configurar distintos datos maestros, como la cuenta bancaria, proveedores y formas de pago. La conversión de datos y la exportación de datos bancarios SEPA se realizan a través de una codeunit y un XMLport dedicados, representados por la configuración de exportación/importación **Transferencia de crédito SEPA**. Alternativamente, puede configurar el servicio de conversión de datos bancarios para realizar la exportación, representada en la definición de intercambio de datos **Servicio de conversión de datos bancarios - Transferencia de crédito**.  
+Para exportar transferencias de crédito SEPA, se elige el botón **Exportar pagos a archivo** en la página **Diario de pagos** y después se carga el archivo para procesar pagos en el banco. Primero debe configurar distintos datos maestros, como la cuenta bancaria, proveedores y formas de pago. La conversión de datos y la exportación de datos bancarios SEPA se realizan a través de una codeunit y un XMLport dedicados, representados por la configuración de exportación/importación **Transferencia de crédito SEPA**. Alternativamente, puede configurar la extensión AMC Banking 365 Fundamentals para realizar la exportación, representada en la definición de intercambio de datos **Servicio de conversión de datos bancarios - Transferencia de crédito**.  
 
 Para exportar las instrucciones de adeudo directo SEPA, debe elegirse el botón **Exportar archivo de adeudo directo** de la página **Cobros por adeudo directo** y después enviarlo al banco para cobrar automáticamente los pagos al cliente en cuestión. Primero debe configurar cuentas bancarias, clientes, órdenes de adeudo directo y formas de pago. La conversión de datos y la exportación de los datos bancarios SEPA se realizan a través de una codeunit y un XMLport dedicados, representados por la configuración de exportación/importación **Adeudo directo SEPA**.  
 
-Para importar extractos bancarios SEPA, debe elegir el botón Importar extracto bancario en las páginas **Diario de conciliación de pagos** y **Conciliación banco** y, a continuación, aplicar cada movimiento de extracto bancario a pagos o movimientos de contabilidad bancaria, manual o automáticamente. Primero debe configurar cuentas bancarias. La importación y la conversión de datos bancarios SEPA las realiza el marco de intercambio de datos, representado por la definición de intercambio de datos **CAMT de SEPA**. Alternativamente, puede configurar el servicio de conversión de datos bancarios para realizar la importación, representada en la definición de intercambio de datos **Servicio de conversión de datos bancarios - Extracto banco**.  
+Para importar extractos bancarios SEPA, debe elegir el botón Importar extracto bancario en las páginas **Diario de conciliación de pagos** y **Conciliación banco** y, a continuación, aplicar cada movimiento de extracto bancario a pagos o movimientos de contabilidad bancaria, manual o automáticamente. Primero debe configurar cuentas bancarias. La importación y la conversión de datos bancarios SEPA las realiza el marco de intercambio de datos, representado por la definición de intercambio de datos **CAMT de SEPA**. Alternativamente, puede configurar la extensión AMC Banking 365 Fundamentals para realizar la importación, representada en la definición de intercambio de datos **Servicio de conversión de datos bancarios - Extracto de cuenta**.  
 
- Además, las versiones locales de [!INCLUDE[d365fin](includes/d365fin_md.md)] admiten otros formatos de archivo para importar y exportar datos bancarios, transacciones de nóminas y otros datos. Para obtener más información, consulte la sección de ayuda sobre funcionalidad local en la versión de [!INCLUDE[d365fin](includes/d365fin_md.md)] para su país.  
+Además, las versiones locales de [!INCLUDE[d365fin](includes/d365fin_md.md)] admiten otros formatos de archivo para importar y exportar datos bancarios, transacciones de nóminas y otros datos. Para obtener más información, consulte la sección de ayuda sobre funcionalidad local en la versión de [!INCLUDE[d365fin](includes/d365fin_md.md)] para su país.  
 
 ## <a name="currency-exchange-rates"></a>Tipos cambio divisa  
 Puede configurar un servicio externo para mantener actualizados los tipos de cambio de divisa. El servicio que proporciona tipos de cambio de divisa actualizados se habilita mediante una definición de intercambio de datos. Por consiguiente, la página **Tarjeta de configuración de actualización de tipo de cambio** es una visión condensada de la página **Definición de intercambio de datos** para la definición de intercambio de datos en cuestión.  

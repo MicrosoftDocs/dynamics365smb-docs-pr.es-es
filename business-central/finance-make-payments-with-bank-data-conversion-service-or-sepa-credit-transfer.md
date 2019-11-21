@@ -1,7 +1,7 @@
 ---
-title: Realizar pagos con Servicio de conversión de datos del banco o Transferencia de crédito SEPA | Documentos de Microsoft
+title: Realizar pagos con la extensión AMC Banking 365 Fundamentals o transferencia de crédito SEPA | Documentos de Microsoft
 description: Procese pagos a sus proveedores exportando un archivo junto con la información de pago desde las líneas de diario.
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
@@ -9,15 +9,15 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: c1089a48cee57f6e42e48d995ed9c9ae7fd8fd80
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.author: bholtorf
+ms.openlocfilehash: 35904d33c7e456e3797dae0835ed7462a65f4a7f
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302070"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692853"
 ---
-# <a name="making-payments-with-bank-data-conversion-service-or-sepa-credit-transfer"></a>Realizar pagos con Servicio de conversión de datos del banco o Transferencia de crédito SEPA
+# <a name="make-payments-with-the-amc-banking-365-fundamentals-extension-or-sepa-credit-transfer"></a>Realizar pagos con la extensión AMC Banking 365 Fundamentals o transferencia de crédito SEPA
 En la página **Diario de pagos**, puede procesar pagos a sus proveedores exportando un archivo junto con la información de pago desde las líneas de diario. Después, puede cargar el archivo al banco electrónico donde procesar las transferencias de dinero relacionadas. [!INCLUDE[d365fin](includes/d365fin_md.md)] admite el formato de transferencia de crédito SEPA, pero en su país o región, es posible que haya otros formatos para pagos electrónicos.
 
 En la versión genérica de [!INCLUDE[d365fin](includes/d365fin_md.md)], ya está configurado y conectado un proveedor global de servicios de conversión de datos bancarios a cualquier formato de archivo que el banco requiera. En las versiones para Norteamérica, el mismo servicio se puede utilizar para enviar archivos de pagos como transferencia electrónica de fondos (EFT), al menos con un proceso ligeramente distinto. Vea el paso 6 de [Para exportar pagos a un archivo bancario](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-export-payments-to-a-bank-file).   
@@ -27,8 +27,8 @@ En la versión genérica de [!INCLUDE[d365fin](includes/d365fin_md.md)], ya est�
 > [!NOTE]  
 >  Cuando haya comprobado que el banco ha procesado correctamente los pagos, puede continuar con el registro de las líneas del diario de pagos.  
 
-## <a name="setting-up-the-bank-data-conversion-service"></a>Configuración del servicio de conversión de datos bancarios.
-Active la función de servicio de conversión de datos bancarios para convertir los archivos de extracto de cuenta a un formato que pueda importar o para tener los archivos de pago exportados convertidos al formato que el banco requiere. Para obtener más información, vea [Configuración del servicio de conversión de datos bancarios](bank-how-setup-bank-statement-service.md).
+## <a name="setting-up-the-amc-banking-365-fundamentals-extension"></a>Configuración de la extensión AMC Banking 365 Fundamentals
+Active la extensión AMC Banking 365 Fundamentals para convertir los archivos de extracto de cuenta a un formato que pueda importar o para tener los archivos de pago exportados convertidos al formato que el banco requiere. Para obtener más información, vea [Usar la extensión AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).
 
 ## <a name="setting-up-sepa-credit-transfer"></a>Configuración de la transferencia de crédito de SEPA
 Desde la página **Diario de pagos** se pueden exportar pagos a un archivo para cargarlo en el banco electrónico para procesar transferencias monetarias relacionadas. [!INCLUDE[d365fin](includes/d365fin_md.md)] admite el formato de transferencia de crédito SEPA, pero en su país o región, es posible que haya otros formatos para pagos electrónicos.  
@@ -64,7 +64,7 @@ Para poder procesar el pago electrónicamente exportando los archivos de pago en
 1. En el cuadro **Buscar**, escriba **Diarios de pagos** y, a continuación, elija el vínculo relacionado.  
 2. Abra el diario de pagos que usa para procesar los pagos mediante la exportación de archivos en el formato de transferencia de crédito de SEPA.  
 3. En el campo **Nombre sección**, elija el botón de lista desplegable.  
-4. En la página **Secciones diario general**, de la pestaña **Inicio**, del grupo **Administrar**, elige **Editar lista**.  
+4. En la página **Secciones diario general**, elija la acción **Editar lista**.  
 5. En la línea del diario de pagos que usará para exportar los pagos, seleccione la casilla **Permitir exportación de pagos**.  
 
 ### <a name="to-connect-the-data-exchange-definition-for-one-or-more-payment-types-with-the-relevant-payment-method-or-methods"></a>Para conectar la definición de intercambio de datos para uno o varios tipos de pago con la forma de pago correspondiente  
@@ -80,17 +80,17 @@ Rellenar el diario de pagos con líneas de pagos vencidos a proveedores, con opc
 ## <a name="exporting-payments-to-a-bank-file"></a>Exportación de pagos a un archivo bancario
 Cuando esté listo para hacer los pagos a los proveedores, o reembolsos a sus empleados, en la página **Diario de pagos**, puede exportar un archivo con la información de pago en las líneas del diario. Después, puede cargar el archivo al banco electrónico para procesar las transferencias de dinero relacionadas.
 
-En la versión genérica de [!INCLUDE[d365fin](includes/d365fin_md.md)], se configura y conecta el servicio de conversión de datos bancarios. En las versiones para Norteamérica, el mismo servicio se puede utilizar para enviar archivos de pagos como transferencia electrónica de fondos (EFT), al menos con un proceso ligeramente distinto. Vea el paso 6 de [Para exportar pagos a un archivo bancario](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-export-payments-to-a-bank-file).
+En la versión genérica de [!INCLUDE[d365fin](includes/d365fin_md.md)], está disponible la extensión AMC Banking 365 Fundamentals. En las versiones para Norteamérica, la misma extensión se puede utilizar para enviar archivos de pagos como transferencia electrónica de fondos (EFT), al menos con un proceso ligeramente distinto. Vea el paso 6 de [Para exportar pagos a un archivo bancario](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-export-payments-to-a-bank-file).
 
 > [!NOTE]  
->   Antes de exportar los archivos de pagos del diario de pagos, debe especificar el formato electrónico de la cuenta bancaria implicada y deberá habilitar el servicio de conversión de datos bancarios. Para obtener más información, vea [Configurar bancos](bank-how-setup-bank-accounts.md) y [Configurar el servicio de conversión de datos bancarios](bank-how-setup-bank-data-conversion-service.md). Además, debe activar la casilla **Permitir exportación de pagos** en la página **Secciones diario general**. Para obtener más información, consulte [Trabajar con diarios generales](ui-work-general-journals.md).  
+>   Antes de exportar los archivos de pagos del diario de pagos, debe especificar el formato electrónico de la cuenta bancaria implicada y deberá habilitar la extensión AMC Banking 365 Fundamentals. Para obtener más información, vea [Configurar bancos](bank-how-setup-bank-accounts.md) y [Usar la extensión AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md). Además, debe activar la casilla **Permitir exportación de pagos** en la página **Secciones diario general**. Para obtener más información, consulte [Trabajar con diarios generales](ui-work-general-journals.md).  
 
 Use la página **Registros de transferencia de crédito** para ver los archivos de pago que han sido exportados del diario de pagos. Desde esta página, también puede reexportar los archivos de paso en caso de errores técnicos o cambios en el archivo. No obstante, tenga en cuenta que los archivos EFT exportados no se muestran en esta página y no se pueden volver a exportar.  
 
 ### <a name="to-export-payments-to-a-bank-file"></a>Para exportar pagos a un archivo bancario
 A continuación se describe cómo pagar a un proveedor mediante un cheque. Los pasos son similares al reembolso de un cheque.
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diarios de pagos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diarios de pagos** y luego elija el enlace relacionado.
 2. Rellene las líneas del diario de pagos. Para obtener más información, vea [Registre pagos y reembolsos](payables-how-post-payments-refunds.md).
 
 > [!NOTE]  
@@ -102,7 +102,7 @@ A continuación se describe cómo pagar a un proveedor mediante un cheque. Los p
     Los mensajes de error aparecerán en el cuadro informativo **Errores del archivo de pagos**, donde también puede elegir un mensaje de error para ver información detallada. Debe resolver todos los errores para que se pueda exportar el archivo de pagos.
 
     > [!TIP]  
-    >   Cuando usa la función del servicio de conversión de datos bancarios, un mensaje de error común indica que el número de la cuenta bancaria no tiene la longitud que el banco requiere. Para evitar o resolver el error, debe eliminar el valor del campo en la ventana **IBAN** de la página **Ficha banco** y, a continuación, en el campo **N.º cuenta bancaria** un número de cuenta bancaria en el formato que requiera su banco.
+    >   Cuando usa la extensión AMC Banking 365 Fundamentals, un mensaje de error común indica que el número de la cuenta bancaria no tiene la longitud que el banco requiere. Para evitar o resolver el error, debe eliminar el valor del campo en la ventana **IBAN** de la página **Ficha banco** y, a continuación, en el campo **N.º cuenta bancaria** un número de cuenta bancaria en el formato que requiera su banco.
 
 5. En la página **Guardar como**, especifique la ubicación a la que se exporta el archivo y, a continuación, seleccione **Guardar**.
 
@@ -132,14 +132,14 @@ Puede volver a exportar los archivos de pago desde la página **Registros de tra
 > [!NOTE]  
 >   Los archivos EFT exportados no se muestran en la página **Registros de transferencia de crédito** y no se pueden volver a exportar.
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Registros de transferencia de crédito** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Registros de transferencia de crédito** y luego elija el enlace relacionado.
 2. Seleccione una exportación de pago que desee reexportar y, a continuación, elija la acción **Reexportar pago a archivo**.
 
 ## <a name="posting-the-payments"></a>Registro de los pagos
 Cuando el banco procese correctamente el pago electrónico, registre los pagos. Para obtener más información, consulte [Creación de pagos](payables-make-payments.md).
 
 ## <a name="see-also"></a>Consulte también  
-[Configurar el servicio de conversión de datos bancarios](bank-how-setup-bank-statement-service.md)  
+[Uso de la extensión AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)  
 [Configurar la transferencia de crédito de SEPA](finance-how-to-set-up-sepa-credit-transfer.md)  
 [Administración de pagos](payables-manage-payables.md)   
 [Trabajar con diarios generales](ui-work-general-journals.md)  

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: bdb6339715fd656a7c8e25b7d35b337c17da1b97
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 69cc8f393e60d30b5dd7fefdd3f5a49df5aaede3
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311697"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553921"
 ---
 # <a name="work-with-service-contracts-and-service-contract-quotes"></a>Trabajar con contratos de servicio y ofertas de contrato de servicio
 Puede crear un contrato de servicio de forma manual o desde una oferta de contrato de servicio. Puede utilizar una oferta de contrato de servicio como precursora de un contrato de servicio, en ésta su empresa realiza una oferta al cliente para obtener así su aprobación para poder convertirla en un contrato de servicio. Los procedimientos para crear un contrato de servicio o una oferta de contrato de servicio son similares.  
@@ -73,7 +73,7 @@ Puede utilizar abonos de servicio de contrato cuando un cliente cancela un contr
 
  Para crear automáticamente un abono cuando se eliminen líneas de contrato de un contrato de servicio, en la página **Contrato servicio** de la ficha desplegable **Detalles factura**, active la casilla de verificación **Abonos automáticos**.  
 
- Para crear manualmente un abono cuando se quiten líneas de contrato de un contrato de servicio, en la página **Contrato servicio**, en la pestaña **Acciones**, en el grupo **Funciones**, elija **Abono**.  
+ Para crear manualmente un abono cuando se quiten líneas de contrato de un contrato de servicio, en la página **Contrato servicio**, elija la acción **Abono**.  
 
 ## <a name="updating-and-evaluating-contracts"></a>Actualización y evaluación de los contratos
 A veces es necesario cambiar las condiciones de un contrato una vez creado. En la mayoría de las ocasiones, el contrato correspondiente se abre en la página **Contrato servicio** y se cambia según sea necesario.  
@@ -99,12 +99,12 @@ Es posible que tenga que eliminar líneas de contrato del contrato de servicio s
 4. Seleccione la línea de contrato que desea eliminar. Rellene el campo **Fecha fin contrato** con la fecha en la que desea quitar la línea. Por ejemplo, podría especificar la fecha en la que se estropeó el producto de servicio.  
 5. Seleccione la acción **Eliminar líns. contrato**. Se abre la página **Eliminar líns. del contrato**.  
 6. Rellene los filtros por defecto: **Nº contrato**, **Nº prod. servicio** y **Tipo contrato**. Si es necesario, puede aplicar más filtros o cambiar los existentes.  
-7. Rellene los campos de la ficha desplegable **Opciones**. En el campo **Acción**, seleccione **Borrar líneas**.  
+7. Rellene los campos de la ficha desplegable **Opciones** y, a continuación, elija la acción **Eliminar líneas**.  
 
 > [!NOTE]  
 >  Si el contrato no es detallado, debe actualizar el valor del campo **Importe anual** de la ficha desplegable **Detalles fact.** en la página **Contrato servicio**, que refleja la pérdida del producto de servicio del contrato.  
 >   
->  Si el contrato es detallado y de prepago y se han registrado facturas, podrá crear un abono para el contrato. En la pestaña **Acciones** del grupo **Funciones**, seleccione **Crear abono**. Esto no es necesario si la casilla del campo **Abonos automáticos** de la ficha desplegable **Detalles de la factura** está seleccionada. En ese caso, un abono se crea automáticamente cuando se elimina una línea de contrato.
+>  Si el contrato es detallado y de prepago y se han registrado facturas, podrá crear un abono para el contrato. Elija la acción **Crear abono**. Esto no es necesario si la casilla del campo **Abonos automáticos** de la ficha desplegable **Detalles de la factura** está seleccionada. En ese caso, un abono se crea automáticamente cuando se elimina una línea de contrato.
 
 ## <a name="service-line-cost-and-value"></a>Coste y valor de la línea de servicio
 En las líneas de un contrato de servicio, los importes de **Coste línea** y **Valor línea** se calculan según se describe en las siguientes tablas.
@@ -150,7 +150,7 @@ Es posible que necesite modificar el propietario de un contrato de servicio. Si 
 4. En los campos **N.º contrato** y **Nº prod. servicio** puede ver los números de contrato y producto de servicio propiedad del cliente seleccionado. Si el cliente posee más de un contrato con más de un producto de servicio, el valor de estos campos será **Múltiple**. Para ver la lista de artículos de servicio o contratos relacionados, seleccione estos valores de campo.  
 5. En el campo **Nº cliente nuevo** elija el cliente nuevo.  
 6. En el campo **Código nuevo de dirección de envío**, seleccione la dirección.  
-7. Elija **Aceptar** para cambiar el cliente y el código de dirección de envío al cliente de los contratos de servicio.  
+7. Seleccione el botón **Aceptar** para cambiar el cliente y el código de dirección de envío de los contratos de servicio.  
 8. Elija la acción **Bloquear contrato** para bloquear el contrato y asegurarse de que los cambios formarán parte de él.  
 
 ## <a name="to-update-a-service-contract-price"></a>Para actualizar un precio de contrato de servicio  

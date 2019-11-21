@@ -12,20 +12,20 @@ ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: cdf0eb137984bbc1988677ca53991d75659c022a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ddcc935a6ae539ad82894d6153f7c7f4b6fdeb48
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302193"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554163"
 ---
-# <a name="how-to-set-up-and-report-intrastat"></a>Procedimiento: configuración y creación de informes Intrastat
+# <a name="set-up-and-report-intrastat"></a>Configuración y creación de informes Intrastat
 Todas las empresas de la Unión Europea deben emitir informes sobre sus transacciones comerciales con otros países o regiones de la UE. Debe notificar el movimiento de mercancías al organismo de estadística de su país o región todos los meses, y el informe se debe remitir a las autoridades fiscales. Esto se denomina Informes de Intrastat. Para realizar los informes de Intrastat periódicos se usa la página **Diario Intrastat**.  
 
 ## <a name="required-and-optional-setups"></a>Configuraciones necesarias y opcionales
 Para poder usar el diario de Intrastat para informar sobre Instratat, debe configurar algunos parámetros:  
 
-* **Configuración de Intrastat**: la página Configuración de Intrastat se utiliza para habilitar los informes de Intrastat y establecer sus valores predeterminados. Puede especificar si necesita elaborar informes de Intrastat a partir de envíos (despachos), recibos (llegadas) o ambos, según los umbrales establecidos por sus regulaciones locales. También se pueden establecer naturalezas de transacción predeterminadas para documentos normales y de devolución, que se utilizan para la naturaleza de los informes de transacción. 
+* **Configuración de Intrastat**: la página Configuración de Intrastat se utiliza para habilitar los informes de Intrastat y establecer sus valores predeterminados. Puede especificar si necesita elaborar informes de Intrastat a partir de envíos (despachos), recibos (llegadas) o ambos, según los umbrales establecidos por sus regulaciones locales. También se pueden establecer naturalezas de transacción predeterminadas para documentos normales y de devolución, que se utilizan para la naturaleza de los informes de transacción.
 * **Libros del diario de Intrastat**: debe configurar los libros y secciones del diario de Intrastat que utilizará. Como el informe de Intrastat se realiza mensualmente, debe utilizar 12 procesos de diarios Intrastat basados en el mismo libro.  
 * **Códigos de mercancía**: las autoridades aduaneras y fiscales han establecido códigos numéricos que clasificar productos y servicios. Especifique estos códigos para los productos.
 * **Códigos de naturaleza de la transacción**: los países y regiones tienen diferentes códigos para los tipos de transacciones de Intrastat, como la compra y venta ordinaria, el intercambio de mercancías devueltas y el intercambio de mercancías no devueltas. Configure todos los códigos que se aplican a su país o región. Utilice estos códigos en los documentos de venta y compra y cuando procese las devoluciones.  
@@ -47,7 +47,7 @@ Puede exportar los movimientos a un archivo que puede enviar a las autoridades d
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Libros diario Intrastat** y luego elija el enlace relacionado.  
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Cree una plantilla para cada formulario Intrastat que utilice.  
-3. Para crear secciones, elija la ficha **Navegar** y, a continuación, seleccione **Secciones**.  
+3. Para crear secciones, elija la acción **Secciones**.  
 4. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Cree una plantilla para cada formulario Intrastat que utilice.  
 
 > [!Note]
@@ -76,7 +76,7 @@ En algunos países, como España y el Reino Unido, las autoridades requieren que
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración de Intrastat** y luego elija el enlace relacionado.
 2. Elija la acción **Configuración de test de Intrastat**.
-3. En la página **Configuración de test de Intrastat**, haga clic en **Nombre de campo** para elegir el campo de informe Intrastat que desea hacer obligatorio. 
+3. En la página **Configuración de test de Intrastat**, haga clic en **Nombre de campo** para elegir el campo de informe Intrastat que desea hacer obligatorio.
 
 ## <a name="to-report-intrastat"></a>Para crear informes Intrastat
 Después de rellenar el diario de Intrastat, puede ejecutar la acción **Test** para asegurarse de que toda esa información del diario es correcta. Los campos obligatorios que ha establecido en la página **Configuración de test de Intrastat** a los que les faltan valores, se mostrarán en el cuadro de información de Errores y advertencias en la página **Diario de intrastat**. Posteriormente, puede imprimir un informe Intrastat como un formulario o crear un archivo para enviarlo a la autoridad tributaria de su país o región.  
@@ -98,7 +98,7 @@ Para conseguir la información necesaria en el formulario Intrastat de las autor
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diarios de Intrastat** y luego elija el enlace relacionado.  
 2. En la página **Diario Intrastat**, elija la sección relevante de diario en el campo **Nombre sección**.  
-3. Si todavía no lo ha hecho, rellene el diario manualmente o elija **Proponer líneas**.  
+3. Si todavía no lo ha hecho, rellene el diario manualmente o elija la acción **Proponer líneas**.  
 4. Seleccione la acción **Imprime el diario de intrastat**.  
 5. En la ficha desplegable **Lín. diario Intrastat**, agregue un filtro **Tipo** y, a continuación, especifique si es una **Recepción** o un **Envío**.  
 6. Haga clic en **Enviar a** para imprimir el informe.  
@@ -108,9 +108,9 @@ Puede entregar el informe Intrastat como un archivo. Antes de crear el archivo, 
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diario de Intrastat** y luego elija el enlace relacionado.  
 2. En la página **Diario Intrastat**, seleccione la sección relevante de diario en el campo **Nombre sección**.  
-3. Si todavía no lo ha hecho, rellene el diario manualmente o elija **Proponer líneas**.  
+3. Si todavía no lo ha hecho, rellene el diario manualmente o elija la acción **Proponer líneas**.  
 4. Elija la acción **Crear archivo**.  
-5. En la página del proceso, seleccione **Aceptar**.  
+5. En la página Trabajo por lotes, elija el botón **Aceptar**.  
 6. Elija **Guardar**.  
 7. Busque la ubicación donde desea guardar el archivo y, a continuación, escriba el nombre del archivo y elija **Guardar**.
 
@@ -119,7 +119,7 @@ Dado que debe presentar un informe Intrastat cada mes y crear una nueva sección
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diarios de Intrastat** y luego elija el enlace relacionado.  
 2. Para ver las opciones, seleccione el campo **Nombre sección**.  
-3. Elija las secciones del diario que desea eliminar y, a continuación, seleccione **Eliminar**.  
+3. Elija las secciones del diario que desea eliminar y, a continuación, seleccione el botón **Eliminar**.  
 
 ## <a name="see-also"></a>Consulte también
 [Gestión financiera](finance.md)

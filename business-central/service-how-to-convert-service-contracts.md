@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 777133cb15b6949eafe20abf325556cd8b16bb9a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c0c68b43e562ece0dce695ed4366dcc5ad409e27
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316062"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554793"
 ---
 # <a name="convert-service-contracts-that-include-vat-amounts"></a>Convertir contratos de servicio que incluyen importes de IVA
 Como la herramienta de cambio de tasa de IVA no puede convertir contratos de servicio, estos acuerdos deben convertirse manualmente. Este tema describe diversos métodos alternativos que puede usar para la conversión de contrato de servicio.  
@@ -32,9 +32,9 @@ Como la herramienta de cambio de tasa de IVA no puede convertir contratos de ser
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Administración de contratos** y luego elija el enlace relacionado.  
 2. En **Listas**, seleccione **Contratos de servicio**.  
 3. Cree un contrato de servicio de prepago nuevo. Introduzca una fecha de inicio de **01.01.2017** y un año de periodo de factura para el cliente **20000**.  
-4. Este contrato debe estar firmado. En la pestaña **Inicio** del grupo **Proceso**, seleccione **Firmar contrato**.  
+4. Para firmar el contrato, elija la acción **Firmar contrato**.  
 5. Crear una factura de servicio.
-6. La factura aparece como una factura sin registrar del servicio. Para ver la factura del servicio, seleccione **Servicio**, elija **Administración de contratos** y, a continuación elija **Facturas de servicio**.  
+6. La factura aparece como una factura sin registrar del servicio. Para ver la factura del servicio, elija las acciones **Servicio**, **Administración de contratos** y **Facturas de servicio**.  
 7. Registre la factura de servicio.  
 
 > [!NOTE]  
@@ -59,7 +59,7 @@ El procedimiento siguiente describe cómo crear un nuevo abono con el trabajo po
 1. Ejecute la herramienta de cambio de tasa de IVA el 1 de julio de 2017. Se cambia el grupo contable general de producto o el grupo contable de IVA de producto. Para obtener más información, consulte [Trabajar con el IVA por ventas y compras](finance-work-with-vat.md).  
 2. Una vez ejecutada la herramienta de cambio de tasa de IVA, introduzca una fecha de vencimiento de contrato para el contrato de servicio. Ahora puede eliminar la línea de contrato de servicio y crear una nueva línea que se idéntica a la anterior.  
 3. Cree una nueva factura para el periodo de enero de 2017 a diciembre de 2012 con la nueva tasa de IVA.  
-4. Para crear otro abono, en la página **Abonos de servicio**, seleccione **Nuevo** para crear un nuevo abono de servicio.  
+4. Para crear otro abono, en la página **Abonos de servicio**, seleccione la acción **Nuevo** para crear un nuevo abono de servicio.  
 5. Elija la acción **Traer movs. contrato prepag.**  
 6. Después de que la conversión esté completa, los movimientos de IVA y del servicio estarán correctos.  
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 9fac8d546a24839ebaa0719d721d886c03001521
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 88a1e6cc711888a3cf68744d0ea6bbfdee41aea3
+ms.sourcegitcommit: 49309bdff9b680a35032b355fe97c565845dba15
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310761"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2695100"
 ---
 # <a name="tell-me-faq"></a>FAQ acerca de la función Dígame
 Este tema responde las preguntas que nuestros usuarios avanzados suelen hacer sobre la función Dígame.
@@ -51,4 +51,4 @@ Nº Solo puede marcar un vínculo a una página o cualquier resultado de búsque
 ## <a name="see-also"></a>Consulte también  
 [Guardar y personalizar vistas de lista](ui-views.md)  
 [Búsqueda de páginas e información con Dígame](ui-search.md)  
-[Búsqueda de páginas desde una descripción general de funciones](ui-role-explorer.md)
+[Búsqueda de páginas con el explorador de roles](ui-role-explorer.md)

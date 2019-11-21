@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 20e934c3556f408a48e595e6c5ef4f46809aa742
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 898167c1b76a757dc4b6b06f8df64eef3a3c2b59
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302721"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554259"
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Configurar información general de activos fijos
 Para poder gestionar activos fijos, debe configurar las cuentas predeterminadas, las claves de asignación, las plantillas y las secciones del diario que se utilizan para registrar y reclasificar los activos fijos, y clasificar los activos fijos en clases como, por ejemplo, Tangible e Intangible.
@@ -105,7 +105,7 @@ Si es la primera vez que utiliza los activos fijos en [!INCLUDE[d365fin](include
 
     Active la integración en contabilidad siguiendo estos pasos. Primero, asegúrese de que la integración del libro mayor esté deshabilitada para todos los libros de amortización, luego publique los movimientos pendientes y, finalmente, active la integración del libro mayor.  
 4. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Libros de amortización** y luego elija el enlace relacionado.  
-5. Seleccione la ficha de libro de amortización correspondiente. En la pestaña **Inicio**, grupo **Administrar**, elija **Editar** para abrir la página **Ficha libro amortización**.
+5. Seleccione el libro de amortización correspondiente y, a continuación, elija la acción **Editar** para abrir la página **Ficha libro amortización**.
 6. Asegúrese de que todos los campos estén vacíos borrando todas las marcas en la ficha desplegable **Integración**. Si dispone de más de un libro de amortización, desactive la integración contable de cada uno.  
 7. En el diario de activos fijos, introduzca las siguientes líneas por activo:
    * Línea con el coste.

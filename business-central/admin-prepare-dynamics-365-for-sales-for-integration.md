@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 54f2a90939a47cc34f7dbcea3509b5e0b0f2d598
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9f56e96b86fb7462799c9a9c655010ee2fb04381
+ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304377"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "2775312"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Integración con Dynamics 365 Sales
 El papel de vendedor se considera a menudo uno de los trabajos más orientados hacia el exterior en una empresa. Sin embargo, puede ser útil para los vendedores poder mirar hacia adentro en la empresa y ver lo que está sucediendo en la trastienda. Mediante la integración de [!INCLUDE[d365fin](includes/d365fin_md.md)] y [!INCLUDE[crm_md](includes/crm_md.md)], puede dar a sus vendedores esa visión, permitiéndoles ver la información en [!INCLUDE[d365fin](includes/d365fin_md.md)] mientras trabajan en [!INCLUDE[crm_md](includes/crm_md.md)]. Por ejemplo, al preparar una oferta de ventas podría ser útil saber si tiene suficiente inventario para cumplir el pedido. Para obtener más información, consulte [Uso de Dynamics 365 Sales desde Business Central](marketing-integrate-dynamicscrm.md).
@@ -52,7 +52,7 @@ De forma predeterminada, la guía de configuración asistida **Configurar la con
 * Administrador del sistema  
 * Personalizador de solución  
 
-Para obtener más información, consulte [Configuración de cuentas de usuario para la integración con Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md), [Crear usuarios en Microsoft Dynamics 365 (online) y asignar roles de seguridad](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles) y [Gestionar usuarios y permisos](ui-how-users-permissions.md).  
+Para obtener más información, consulte [Configuración de cuentas de usuario para la integración con Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md), [Crear usuarios en Microsoft Dynamics 365 (online) y asignar roles de seguridad](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles) y [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md).  
 
 Esta cuenta se utiliza una sola vez durante la configuración. Después que la solución se importa en [!INCLUDE[d365fin](includes/d365fin_md.md)], la cuenta ya no se necesita. La integración continuará utilizando la cuenta de usuario creada específicamente para la integración.
 

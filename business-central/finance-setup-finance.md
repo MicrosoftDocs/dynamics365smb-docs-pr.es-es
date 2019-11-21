@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 127d0dd747fa29926852be9e99e36d992e7d0ea1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: fc8f52e5ef9fdeb8a2add9cf030a348012f25366
+ms.sourcegitcommit: 02f1633213793bfc040ad0d2a96fe76572215aa5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305716"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "2798504"
 ---
 # <a name="setting-up-finance"></a>Configurar las finanzas
 Para ayudarle a empezar rápidamente, [!INCLUDE[d365fin](includes/d365fin_md.md)] incluye las configuraciones estándar para la mayoría de los procesos financieros. Si necesita cambiar las configuraciones para que se adapten a su empresa, continúe. Por ejemplo, desde el área de trabajo puede usar a una guía de configuración asistida para configurar los impuestos de ventas de su ubicación.  
@@ -33,7 +33,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Cree esquemas de cuentas y defina las categorías de cuentas para definir el contenido de los gráficos e informes financieros, como los informes Balance y Balance de ingresos.|[Preparar informes financieros con esquemas de cuentas y categorías de cuentas](bi-how-work-account-schedule.md)|
 |Configure una tolerancia por la que el sistema cierre una factura aunque el pago, incluido el descuento, no cubra totalmente el importe de la factura.|[Trabajar con tolerancias de pago y tolerancias de descuento de pago](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Configure los periodos fiscales. |[Abrir un nuevo ejercicio](finance-how-open-new-fiscal-year.md) |
-| Definir cómo se comunican los importes del impuesto de valor añadido que ha recopilado por las ventas a las autoridades fiscales. |[Configurar los cálculos y los métodos de registro del impuesto sobre el valor añadido](finance-setup-vat.md)|
+| Definir cómo se comunican los importes del impuesto de valor añadido que ha recopilado por las ventas a las autoridades fiscales. |[Configurar el impuesto sobre el valor añadido (IVA)](finance-setup-vat.md)|
 |Prepárese para gestionar el IVA no realizado en conexión con los métodos contables basados en efectivo.|[Configurar el IVA no realizado para la contabilidad basada en efectivo](finance-setup-unrealized-vat.md)|
 | Configure sus características de ventas y compras para manejar pagos en divisas extranjeras.|[Permitir la liquidación de movimientos de cliente en distintas divisas](finance-how-enable-application-ledger-entries-different-currencies.md)
 |Defina una o varias divisas adicionales para que los importes se reporten automáticamente tanto en DL como en una divisa de informe adicional en cada entrada de contabilidad y en otras entradas.|[Configurar una divisa de informes adicional](finance-how-setup-additional-currencies.md)|
