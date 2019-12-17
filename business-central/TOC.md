@@ -16,14 +16,14 @@
 
 ## [Preparación para hacer negocios](ui-get-ready-business.md)
 ## [Resumen de las funciones empresariales](across-business-functionality.md)
-## [Probar una versión preliminar](across-preview.md)
-## [Cancelar la suscripción, quitar o restablecer Business Central](admin-cancel.md)
-## [Solución de problemas en el registro de autoservicio](ui-troubleshoot-self-signup.md)
+## [Versiones de prueba y suscripciones](across-preview.md)
+### [Solución de problemas en el registro de autoservicio](ui-troubleshoot-self-signup.md)
+### [Cancelar la suscripción o quitar Business Central](admin-cancel.md)
 ## [Acceda a la nube inteligente con Business Central](about-intelligent-cloud.md)
 ## [Visite nuestra biblioteca de vídeos](across-videos.md)
-## [Ser distribuidor](product-sell.md)
-## [Ampliar Business Central](about-develop-extensions.md)
-## [Extensiones de Business Central de otros proveedores](ui-extensions-other.md)
+## Distribuidores y socios
+### [Ser distribuidor](product-sell.md)
+### [Ampliar Business Central](about-develop-extensions.md)
 
 # Trabajar con Business Central
 ## [Panorama](ui-work-product.md)
@@ -38,7 +38,7 @@
 ## [Trabajar con fechas y horas del calendario](ui-enter-date-ranges.md)
 ## [Detección de campos obligatorios](ui-mandatory-fields.md)
 ## [Cambiar idioma y región](about-locale-language.md)
-## [Ver y editar en Excel](across-work-with-excel.md)  
+## [Ver y editar en Excel](across-work-with-excel.md)
 ## [Administrar archivos adjuntos, vínculos y notas en fichas y documentos](ui-how-add-link-to-record.md)
 ## [Cambiar la configuración básica](ui-change-basic-settings.md)
 ## [Administrar notificaciones](ui-smart-notifications.md)
@@ -55,12 +55,13 @@
 ### [Administrar configuraciones guardadas para informes y trabajos por lotes](reports-saving-reusing-settings.md)
 ### [Ver informes de prueba antes de realizar el registro](ui-how-view-test-reports-posting.md)
 ### [Ejecutar trabajos por lotes y XMLports](ui-how-run-batch-jobs.md)
-## Cambiar el aspecto externo de los documentos e informes
+## Cambiar el aspecto de los documentos externos
 ### [Administrar diseños de informes y documentos](ui-manage-report-layouts.md)
-### [Actualizar diseños de informes o documentos](ui-update-report-layouts.md)
-### [Realizar cambios en un diseño de informe de Word](ui-how-create-custom-report-layout.md)
-### [Importar y exportar un diseño de informe o documento personalizado](ui-how-import-and-export-report-layout.md)
 ### [Cambiar el diseño de informe actual](ui-how-change-layout-currently-used-report.md)
+### [Crear y modificar diseños de informe personalizados](ui-how-create-custom-report-layout.md)
+### [Importar y exportar diseños de informe personalizados](ui-how-import-and-export-report-layout.md)
+### [Actualizar los diseños de informe personalizados](ui-update-report-layouts.md)
+### [Definir diseños de documentos para clientes y proveedores](ui-define-customer-vendor-document-layouts.md)
 ### [Agregar campos a un diseño de informe de Word](ui-how-add-fields-word-report-layout.md)
 ## Usar métodos abreviados de teclado
 ### [Accesibilidad y métodos abreviados de teclado](ui-accessibility.md)
@@ -222,10 +223,10 @@
 ### [Habilitar los datos de negocio para Power BI](admin-powerbi.md)
 ### [Ver datos de listas en informes de Power BI en Business Central](across-how-use-powerbi-reports-factbox.md)
 ### [Usar Business Central como fuente de datos de Power BI](across-how-use-financials-data-source-powerbi.md)
-## Usar Flow con Business Central
+## Usar Power Automate con Business Central
 ### [Usar Business Central en un flujo de trabajo automatizado](across-how-use-financials-data-source-flow.md)
-### [Solución de problemas de integración con Microsoft Flow - Solicitud de URL demasiado larga](across-troubleshooting-how-use-financials-data-source-flow.md)
-## [Cómo conectarse a sus datos de Business Central para crear una aplicación empresarial con PowerApps](across-how-use-financials-data-source-powerapps.md)
+## Usar Power Apps con Business Central
+### [Cómo conectarse a sus datos de Business Central para crear una aplicación empresarial con Power Apps](across-how-use-financials-data-source-powerapps.md)
 ## [Cambiar de una aplicación de QuickBooks a Business Central](across-quickbooks-to-business-edition.md)
 ## [Obtener Business Central en el dispositivo móvil](install-mobile-app.md)
 ## [Facturación masiva para Microsoft Bookings](finance-bookings.md)
@@ -271,7 +272,7 @@
 #### [Configurar usuarios de aprobación](across-how-to-set-up-approval-users.md)
 #### [Configurar notificaciones de flujo de trabajo](across-setting-up-workflow-notifications.md)
 #### [Especificar cómo y cuándo recibir notificaciones](across-how-to-specify-when-and-how-to-receive-notifications.md)
-#### [Crear y modificar un diseño de informe o documento personalizado](ui-how-create-custom-report-layout.md)
+#### [Crear y modificar diseños de informe personalizados](ui-how-create-custom-report-layout.md)
 #### [Configurar correo electrónico](admin-how-setup-email.md)
 #### [Crear flujos de trabajo](across-how-to-create-workflows.md)
 #### [Crear flujos de trabajo a partir de plantillas de flujo de trabajo](across-how-to-create-workflows-from-workflow-templates.md)
