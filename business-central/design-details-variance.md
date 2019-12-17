@@ -1,8 +1,6 @@
 ---
 title: 'Detalles de diseño: Desviación | Documentos de Microsoft'
 description: La desviación se define como la diferencia entre el coste real y el coste estándar, tal como se describe en la fórmula siguiente.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f5b4d56c5afb728c915c95f763c75f4c5fe6d008
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 55317d4ae474c17df08449ebadd97aa11856a2c8
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306705"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882787"
 ---
 # <a name="design-details-variance"></a>Detalles de diseño: Desviación
 La desviación se define como la diferencia entre el coste real y el coste estándar, tal como se describe en la fórmula siguiente.  
@@ -40,7 +38,7 @@ La desviación se define como la diferencia entre el coste real y el coste está
 
  En la tabla siguiente se muestran los movimientos de valoración resultantes.  
 
- ![Cálculo de desviación de compra](media/design_details_inventory_costing_11_purchase_variance.png "Cálculo de desviación de compra")  
+ ![Cálculo de desviación de compras](media/design_details_inventory_costing_11_purchase_variance.png "Cálculo de desviación de compras")  
 
 ## <a name="determining-the-standard-cost"></a>Determinación del coste estándar  
  El coste estándar se usa al calcular la desviación y el importe para capitalizar. Como el coste estándar puede cambiarse con el tiempo debido al cálculo de actualización manual, para el cálculo de desviación necesita un punto en el tiempo en el que el coste estándar sea fijo. Este momento se produce cuando se factura la entrada de existencias. En el caso de productos fabricados o ensamblados, el punto en el que se determina el coste estándar es cuando se ajusta el coste.  

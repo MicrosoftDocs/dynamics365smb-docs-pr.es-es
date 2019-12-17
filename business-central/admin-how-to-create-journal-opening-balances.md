@@ -1,8 +1,6 @@
 ---
 title: 'Procedimiento: Crear saldos iniciales del diario | Documentos de Microsoft'
 description: Business Central incluye varios trabajos por lotes que se proporcionen para ayudar en la transferencia de saldos de cuenta heredados a una empresa recién configurada. Puede transferir fácilmente estos datos con registros en los diarios.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 837845bfa31217e071d7237591d34eb3a049bad0
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ebf6d29a388ed3c66159a8c8a8e8fd65abe709ed
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304545"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878846"
 ---
 # <a name="create-journal-opening-balances"></a>Crear saldos iniciales del diario
 [!INCLUDE[d365fin](includes/d365fin_md.md)] incluye varios trabajos por lotes que se proporcionen para ayudar en la transferencia de saldos de cuenta heredados a una empresa recién configurada. Puede transferir fácilmente estos datos con el diario del cliente, el diario del proveedor, el diario de productos o el diario de contabilidad.

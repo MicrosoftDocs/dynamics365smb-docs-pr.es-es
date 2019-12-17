@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 11/07/2019
 ms.author: sgroespe
-ms.openlocfilehash: ac77368b30d442d6524b5231252ba5f370d50233
-ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
+ms.openlocfilehash: 03656014a2b7826008d415e53afbad2d88aac357
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "2774728"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2809353"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Asignar permisos a usuarios y grupos
 El sistema de seguridad de [!INCLUDE[d365fin](includes/d365fin_md.md)] le permite controlar a qué objetos puede acceder un usuario en cada base de datos o entorno. Puede especificar para cada usuario si puede leer, modificar o introducir datos en los objetos de la base de datos seleccionados. Para obtener información detallada, vea [Seguridad de datos](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) en la ayuda para desarrolladores y profesionales de TI para [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Antes de asignar permisos a usuarios y grupos de usuarios, debe definir quién puede iniciar sesión creando usuarios de acuerdo con la licencia tal como se define en el Centro de administración de Office 365. Para obtener más información, vea [Crear usuarios de acuerdo con las licencias](ui-how-users-permissions.md).
+Antes de asignar permisos a usuarios y grupos de usuarios, debe definir quién puede iniciar sesión creando usuarios de acuerdo con la licencia tal como se define en el Centro de administración de Microsoft 365. Para obtener más información, vea [Crear usuarios de acuerdo con las licencias](ui-how-users-permissions.md).
 
 En [!INCLUDE[d365fin](includes/d365fin_md.md)], hay dos niveles de permisos para los objetos de la base de datos:
 - Permisos generales de acuerdo con la licencia, también se denominan derecho.

@@ -1,8 +1,6 @@
 ---
 title: 'Procedimientos recomendados de configuración: planificación de aprovisionamiento | Documentos de Microsoft'
 description: La planificación de suministros es un área comercial crítica. Cuando se configura y utiliza correctamente, la planificación de suministros ayuda a que una empresa evite quedarse sin existencias y reduzca tanto los costes de pedido como los de inventario.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2cfb83468cd952f1528783a62a08732af2b9aeb9
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: cbda83a386aa288cb6a845fd16c2c7dfb5c24e5f
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315737"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882210"
 ---
 # <a name="setup-best-practices-supply-planning"></a>Procedimientos recomendados de configuración: planificación de suministros
 La planificación de suministros es un área comercial crítica. Cuando se configura y utiliza correctamente, la planificación de suministros ayuda a que una empresa evite quedarse sin existencias y reduzca tanto los costes de pedido como los de inventario.  

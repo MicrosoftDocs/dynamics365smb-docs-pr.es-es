@@ -1,8 +1,6 @@
 ---
 title: Configurar procesos de gestión de servicio | Documentos de Microsoft
 description: Aprenda a configurar procesos que ayuden a asegurar que sus clientes estén completamente satisfechos con su atención al cliente.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, warranties
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: eb83c1a2e90e81060355e15c9d0e81d321ed8ed0
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 665842a2ec24cbee6db469f5ce71b03ddd278555
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315857"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877140"
 ---
 # <a name="configure-service-processes"></a>Configurar procesos de servicio
 A continuación se muestran algunos ejemplos de la configuración que puede aplicar a los procesos de gestión de servicios:  
@@ -29,7 +27,7 @@ A continuación se muestran algunos ejemplos de la configuración que puede apli
 * Secuencias numéricas para documentos y productos relacionados con el servicio.  
 
 ## <a name="to-enter-general-and-mandatory-settings"></a>Para introducir valores generales y obligatorios
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Config. servicio** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración del servicio** y luego elija el enlace relacionado.
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="see-also"></a>Consulte también  

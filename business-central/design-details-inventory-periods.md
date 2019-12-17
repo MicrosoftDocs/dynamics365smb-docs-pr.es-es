@@ -1,8 +1,6 @@
 ---
 title: 'Detalles de diseño: Periodos de inventario | Documentos de Microsoft'
 description: Las transacciones o los ajustes de coste a los que se aplica fecha retroactiva a menudo repercuten en los saldos y los métodos de coste para periodos contables que pueden considerarse cerrados. Esto puede tener un efecto negativo en los informes exactos, especialmente en las corporaciones globales. La característica Periodos inventario se puede usar para evitar dichos problemas mediante la apertura o el cierre de periodos de inventario para limitar el registro en un periodo de tiempo configurado.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: feaa4362da3165e951fb2bc12845bdbadc2e3d97
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 818b7c431a518d58c52536034f4652b098e91c25
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307089"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880333"
 ---
 # <a name="design-details-inventory-periods"></a>Detalles de diseño: Periodos de inventario
 Las transacciones o los ajustes de coste a los que se aplica fecha retroactiva a menudo repercuten en los saldos y los métodos de coste para periodos contables que pueden considerarse cerrados. Esto puede tener un efecto negativo en los informes exactos, especialmente en las corporaciones globales. La característica Periodos inventario se puede usar para evitar dichos problemas mediante la apertura o el cierre de periodos de inventario para limitar el registro en un periodo de tiempo configurado.  

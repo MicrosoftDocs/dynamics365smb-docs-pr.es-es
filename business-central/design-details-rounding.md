@@ -1,8 +1,6 @@
 ---
 title: 'Detalles de diseño: Redondeo | Documentos de Microsoft'
 description: Los redondeos residuales se pueden producir cuando se valora el coste de una salida de existencias que se mide en una cantidad distinta a la de la entrada de existencias correspondiente. Cuando se ejecuta el proceso **Valorar stock - movs. producto**, se calculan los redondeos residuales para todas las valoraciones de existencias.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a5cee9272d628b5046edc6aeed4d53b43a754752
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 526bd73a3b2bcb3094202eeab91ea7885573c9f6
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306873"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878418"
 ---
 # <a name="design-details-rounding"></a>Detalles de diseño: Redondeo
 Los redondeos residuales se pueden producir cuando se valora el coste de una salida de existencias que se mide en una cantidad distinta a la de la entrada de existencias correspondiente. Cuando se ejecuta el proceso **Valorar stock - movs. producto**, se calculan los redondeos residuales para todas las valoraciones de existencias.  

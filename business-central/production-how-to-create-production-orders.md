@@ -1,8 +1,6 @@
 ---
 title: Como crear una cabecera de orden de producción | Documentos de Microsoft
 description: Puede crear una orden de producción manualmente y el primer paso es crear la cabecera.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: fc0a0dda33b7b90658ca60285abab0562c28fbbc
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2088cd12faaefb2d9902cad0cc149d209f905f71
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314125"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877980"
 ---
 # <a name="create-production-order-headers"></a>Crear cabeceras de orden de producción
 Puede crear una orden de producción manualmente y el primer paso es crear la cabecera.
@@ -27,7 +25,7 @@ Las órdenes de producción normalmente se crean automáticamente por algunas ta
 En el siguiente procedimiento, se crea una orden de producción planificada en firme. Puede también crear órdenes de producción con estados distintos.  
 
 ## <a name="to-create-a-production-order-header"></a>Para crear la cabecera de una orden de producción  
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer") escriba **O.P. Planificadas en firme** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **O.P. Planificadas en firme** y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Nuevo**.  
 3.  En el campo **N.º**, inserte el número siguiente de la serie.  
 4.  En el campo **Tipo procedencia mov.**, seleccione la procedencia del movimiento de la orden de producción.
@@ -42,6 +40,6 @@ Cuando cambian las necesidades de producción, como componentes u operaciones, p
 [Fabricación](production-manage-manufacturing.md)    
 [Configuración de fabricación](production-configure-production-processes.md)  
 [Planificación](production-planning.md)      
-[Grupos contables inventario](inventory-manage-inventory.md)  
+[Inventario](inventory-manage-inventory.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

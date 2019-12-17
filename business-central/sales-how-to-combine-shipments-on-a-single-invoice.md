@@ -1,8 +1,6 @@
 ---
 title: 'Procedimiento: agrupamiento de envíos en una factura única | Documentos de Microsoft'
 description: Si desea facturar varios envíos a la vez, utilice la función de agrupación de envíos.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6a9f4d6ee49b8958b3dcc33697db5ce0d77ae2c8
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: febf38da727cb7f41fa6d6c4bacf36877a8df1f3
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312033"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882912"
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a>Agrupar envíos en una factura única
 Si desea facturar varios envíos a la vez, utilice la función de agrupación de envíos.  
@@ -25,7 +23,7 @@ Si desea facturar varios envíos a la vez, utilice la función de agrupación de
  Para crear una agrupación de envíos, primero debe registrar más de un envío de venta para el mismo cliente en la misma divisa. Dicho de otro modo, debe haber rellenado dos o más pedidos de venta y haberlos registrado como enviados pero no facturados. Para agrupar envíos deberá activar la casilla de verificación **Fact. automática** de la ficha desplegable **Envíos** de la ficha del **Cliente**.  
 
 ## <a name="to-manually-combine-shipments-on-a-single-invoice"></a>Para agrupar envíos de forma manual en una factura única  
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Facturas ventas** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Facturas venta** y luego elija el enlace relacionado.  
 2. Seleccione la acción **Nuevo**. Para obtener más información, vea [Facturar ventas](sales-how-invoice-sales.md).
 3. En el campo **Venta a-N.º cliente**, introduzca el cliente que recibirá la factura de los productos enviados.  
 4. En la ficha desplegable **Líneas**, elija la acción **Traer líns. recep**.  
@@ -38,7 +36,7 @@ Si desea facturar varios envíos a la vez, utilice la función de agrupación de
 7. Para registrar la factura, elija la acción **Registrar**.  
 
 ## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Para agrupar envíos de forma automática en una factura única  
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Fact. automática** y luego elija el enlace relacionado. Se abre la página de solicitud de trabajo por lotes.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Fact. automática** y luego elija el enlace relacionado. Se abre la página de solicitud de trabajo por lotes.  
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Seleccione la casilla de verificación **Registrar facturas**.  
 4.  Elija el botón **Aceptar**.  
@@ -51,7 +49,7 @@ Cuando se agrupan envíos en una factura y se registran, se crea una factura de 
 
 Al facturar envíos de esta forma, los pedidos a partir de los cuales se registraron los envíos siguen existiendo, aunque se hayan enviado y facturado por completo.   
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Eliminar peds. venta factdos.** y seleccione el enlace.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Eliminar ped. venta fact.** y luego seleccione el enlace.  
 2. Especifique en el campo de filtro **Nº.** que pedidos de venta desea eliminar.  
 3. Elija el botón **Aceptar**.  
 

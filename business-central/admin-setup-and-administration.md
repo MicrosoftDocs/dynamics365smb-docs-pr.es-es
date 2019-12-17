@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 11/07/2019
 ms.author: sgroespe
-ms.openlocfilehash: b38a48c4b9a57a863518a6cd701176a0635b552b
-ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
+ms.openlocfilehash: a23af49140b683c5383287b3057f024644c19133
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "2774704"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2808870"
 ---
 # <a name="administration"></a>Administración
 Normalmente, un rol de la empresa se encarga de las tareas de la administración central. El alcance de estas tareas puede depender del tamaño de la empresa, así como de las responsabilidades laborales del administrador. Estas tareas pueden incluir la administración de la sincronización de base de datos de las colas de proyectos y de correo electrónico, la configuración de usuarios y la personalización de la interfaz de usuario.  
@@ -33,7 +33,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 
 |**Para**|**Vea**|  
 |------------|-------------|  
-|Defina quién puede iniciar sesión en [!INCLUDE[d365fin](includes/d365fin_md.md)] creando usuarios en el centro de administración de Office 365 según las licencias del producto.|[Crear usuarios de acuerdo con las licencias](ui-how-users-permissions.md)| 
+|Defina quién puede iniciar sesión en [!INCLUDE[d365fin](includes/d365fin_md.md)] creando usuarios en el centro de administración de Microsoft 365 según las licencias del producto.|[Crear usuarios de acuerdo con las licencias](ui-how-users-permissions.md)| 
 |Asignar permisos a los usuarios, modificar conjuntos de permisos y agrupar usuarios para facilitar la administración de permisos.|[Asignar permisos a usuarios y grupos](ui-how-users-permissions.md)|
 |Agregar usuarios, gestionar permisos y gestionar el acceso a los datos, asignar roles.|[Administración de perfiles](admin-users-profiles-roles.md)|
 |Clasifique la confidencialidad de los datos para los campos, de modo que pueda responder a las solicitudes de los asuntos relacionadas con sus datos personales.|[Clasificar confidencialidad de datos](admin-classifying-data-sensitivity.md)|

@@ -1,8 +1,6 @@
 ---
 title: Ver las instancias de paso de flujo de trabajo archivadas | Documentos de Microsoft
 description: Todas las instancias de paso de flujo de trabajo completada se guardan en la página **Instancias de paso de flujo de trabajo archivadas**.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ec36ab8e884ee7f97b2bde8885bed895a81e09f5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a6797d407b2bb307e963b35ca8d8165982864b98
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305145"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881053"
 ---
 # <a name="view-archived-workflow-step-instances"></a>Ver instancias de paso de flujo de trabajo archivadas
 Todas las instancias de paso de flujo de trabajo completada se guardan en la página **Instancias de paso de flujo de trabajo archivadas**.  
@@ -25,12 +23,12 @@ Todas las instancias de paso de flujo de trabajo completada se guardan en la pá
  En la página **Flujo de trabajo** puede crear un flujo de trabajo haciendo una lista de los pasos utilizados en las líneas. Cada paso consta de un evento del flujo de trabajo, moderado por condiciones de evento, y una respuesta de flujo de trabajo, moderada por las opciones de respuesta. Los pasos del flujo de trabajo se definen rellenando los campos de las líneas de flujo de trabajo en listas fijas de valores de evento y respuesta que representan los escenarios de flujo de trabajo que admite el código de aplicación. Para obtener más información, consulte [Crear flujos de trabajo](across-how-to-create-workflows.md).  
 
 ## <a name="to-view-archived-workflow-step-instances"></a>Para ver las instancias de paso de flujo de trabajo archivadas  
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Flujos de trabajo** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Flujos de trabajo** y luego elija el enlace relacionado.  
 2.  Abra el flujo de trabajo del que desea ver todas las instancias de paso de flujo de trabajo archivadas.  
 3.  En la página **Flujo de trabajo** , seleccione la acción **Instancias de paso de flujo de trabajo archivadas**.  
 
     Se abre la página **Instancias de paso de flujo de trabajo archivadas** y muestra las instancias de paso de flujo de trabajo archivadas del flujo de trabajo seleccionado.  
-4.  También puede elegir el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escribir **Instancias de paso de flujo de trabajo archivadas** y luego elegir el enlace relacionado.  
+4.  También puede elegir el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escribir **Instancias de paso de flujo de trabajo archivadas** y luego elegir el enlace relacionado.  
 
 Se abre la página **Instancias de paso de flujo de trabajo archivadas** para mostrar todas las instancias de paso de flujo de trabajo archivadas. En el campo **Código flujo de trabajo** puede ver a qué flujo de trabajo pertenecía la instancia de paso de flujo de trabajo archivada.  
 

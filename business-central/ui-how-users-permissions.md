@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 11/07/2019
+ms.date: 12/03/2019
 ms.author: sgroespe
-ms.openlocfilehash: c64a14ed66668f8c3cbe09e8db3430a7dc25db5c
-ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
+ms.openlocfilehash: 1d0b7b7363df88e52631b4ba6e2f495be13f7397
+ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "2774824"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2896162"
 ---
 # <a name="create-users-according-to-licenses"></a>Crear usuarios de acuerdo con las licencias
 A continuación se describe cómo usted, como administrador, crea usuarios y define quién puede iniciar sesión en [!INCLUDE[d365fin](includes/d365fin_md.md)], y qué derechos fundamentales tienen los diferentes tipos de usuario según las licencias.
@@ -34,14 +34,17 @@ Para definir quién puede iniciar sesión en [!INCLUDE[d365fin](includes/d365fin
 
 Para obtener más información, vea [Administración de Business Central en línea](/dynamics365/business-central/dev-itpro/administration/tenant-administration) en la ayuda para desarrolladores y profesionales de TI.
 
-Cuando los usuarios con una licencia de [!INCLUDE[d365fin](includes/d365fin_md.md)] se crean en Office 365, se pueden importar en la página **Usuarios** en [!INCLUDE[d365fin](includes/d365fin_md.md)] mediante la acción **Obtener usuarios desde Office 365**.
+Cuando los usuarios con una licencia de [!INCLUDE[d365fin](includes/d365fin_md.md)] se crean en Office 365, se pueden importar en la página **Usuarios** en [!INCLUDE[d365fin](includes/d365fin_md.md)] mediante la acción **Obtener nuevos usuarios desde Office 365**.
 
 ### <a name="to-add-a-user-in-business-central"></a>Agregar un usuario en Business Central
 Para agregar usuarios desde el Centro de administración de Microsoft 365 a [!INCLUDE[d365fin](includes/d365fin_md.md)] en línea, utilice una función de importación dedicada.  
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Usuarios** y luego elija el enlace relacionado.
-2. Elija la acción **Obtener usuarios de Office 365**.
+2. Elija la acción **Obtener nuevos usuarios de Office 365**.
 
 Cualquier usuario nuevo que se haya creado para su suscripción a Office 365 se agregará a la página **Usuarios**. A los usuarios se les asignan conjuntos de permisos de acuerdo con la licencia asignada al usuario en Office 365. Después podrá continuar con la asignación de permisos más detallados a usuarios y la organización en grupos de usuarios para facilitar la administración de permisos. Para obtener más información, vea [Para asignar conjuntos de permisos a los usuarios](ui-define-granular-permissions.md#to-assign-permission-sets-to-users).
+
+> [!NOTE]
+> Si utiliza un contable externo para administrar los libros y los informes financieros, puede invitarle a su Business Central para que pueda trabajar con usted en los datos fiscales. Para obtener más información, vea [Invitar a contable externo a Business Central](finance-accounting.md#inviteaccountant)
 
 ### <a name="to-remove-a-users-access-to-the-system"></a>Para eliminar el acceso de un usuario al sistema
 En las implementaciones en línea, puede eliminar el acceso de un usuario al sistema configurando el campo **Estado** en **Deshabilitado**. Todas las referencias al usuario se conservarán, pero el usuario ya no podrá iniciar sesión en el sistema y finalizarán las sesiones activas para el usuario.
@@ -50,22 +53,38 @@ En las implementaciones en línea, puede eliminar el acceso de un usuario al sis
 2. Abre la página **Ficha de usuario** para el usuario relevante y, a continuación, en el campo **Estado**, seleccione **Deshabilitado**.
 3. Para dar acceso de nuevo al usuario, configure el campo **Estado** en **Habilitado**.
 
-Además de deshabilitar a un usuario, puede anular la asignación de la licencia de un usuario en el Centro de administración de Office 365. El usuario no puede iniciar sesión. Para obtener más información, vea [Anular la asignación de las licencias de los usuarios](https://docs.microsoft.com/office365/admin/manage/remove-licenses-from-users).
+Además de deshabilitar a un usuario, puede anular la asignación de la licencia de un usuario en el Centro de administración de Microsoft 365. El usuario no puede iniciar sesión. Para obtener más información, vea [Anular la asignación de las licencias de los usuarios](https://docs.microsoft.com/office365/admin/manage/remove-licenses-from-users).
 
 ### <a name="to-change-the-assigned-license-for-a-user"></a>Para cambiar la licencia asignada para un usuario
 En ocasiones, es posible que deba cambiar la licencia asignada a un usuario. Por ejemplo, si decide usar el módulo Administración de servicios y, por lo tanto, necesita actualizar todas las licencias Essential a Premium. O si la responsabilidad de un usuario ha cambiado y necesita reemplazar una licencia Team Member a Essential.
 
-1. Cambie la licencia en el Centro de administración de Office 365. Para obtener más información, vea [Agregar usuarios individualmente o en masa a Office 365](https://aka.ms/CreateOffice365Users).
+1. Cambie la licencia en el Centro de administración de Microsoft 365. Para obtener más información, vea [Agregar usuarios individualmente o en masa a Office 365](https://aka.ms/CreateOffice365Users).
 2. Inicie sesión en [!INCLUDE[d365fin](includes/d365fin_md.md)] como administrador.
 3. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Usuarios** y luego elija el enlace relacionado.
 4. En la página **Usuarios**, seleccione la acción **Actualizar todos los grupos de usuarios**.
+
 Los usuarios se trasladarán a un grupo de usuarios adecuado y se actualizarán los conjuntos de permisos. Para obtener más información, vea [Para administrar permisos mediante grupos de usuarios](ui-define-granular-permissions.md#to-manage-permissions-through-user-groups).
 
 > [!NOTE]
 > Todos los usuarios habituales de una solución deben tener asignada la misma licencia, Essential o Premium.
 > Para obtener información acerca de las licencias, consulte la [Guía de licencias de Microsoft Dynamics 365 Business Central](https://aka.ms/BusinessCentralLicensing).
 
-## <a name="managing-users-and-licenses-in-online-deployments"></a>Administración de usuarios y licencias en implementaciones en línea
+### <a name="synchronization-with-office-365"></a>Sincronización con Office 365
+Cuando se asigna una licencia a un usuario en Office 365, hay dos formas de crear el usuario en [!INCLUDE[d365fin](includes/d365fin_md.md)]. El sistema lo hará automáticamente cuando el usuario inicie sesión por primera vez, o el administrador puede agregar al usuario seleccionando la acción **Obtener usuarios desde Office 365** en la página **Usuarios**.
+
+En ambos casos, se realizan automáticamente varias configuraciones adicionales. Estas se enumeran en la segunda y tercera columnas de la tabla siguiente.
+
+Si cambia el usuario en Office 365 posteriormente, y necesita sincronizar los cambios con [!INCLUDE[d365fin](includes/d365fin_md.md)], puede usar diferentes acciones en la página **Usuarios** dependiendo de qué es exactamente lo que desea sincronizar. Estas se enumeran en las tres últimas columnas de la tabla siguiente.
+
+|Qué pasa cuando:|Primer inicio de sesión|Obtener usuarios desde Office 365|Actualizar usuarios desde Office 365|Restaurar los grupos de usuarios predeterminados del usuario|Actualizar grupos de usuarios|
+|-|-|-|-|-|-|
+|Ámbito:|Usuario actual|Nuevos usuarios en Office 365|Varios usuarios seleccionados|Usuario individual seleccionado (excepto el actual)|Varios usuarios seleccionados|
+|Cree el nuevo usuario y asigne el conjunto de permisos SUPER.<br /><br />Plataforma|**X**|**X**| | | |
+|Actualice el registro de usuario en función de la información real en Office 365 : Estado, Nombre completo, Correo electrónico de contacto, Correo electrónico de autenticación.<br /><br />Codeunit " Usuario de Azure AD Graph".UpdateUserFromAzureGraph|**X**|**X**|**X**|**X**| |
+|Sincronice planes de usuario (licencias) con licencias y roles asignados en Office 365.<br /><br />Codeunit " Usuario de Azure AD Graph".UpdateUserPlans|**X**|**X**| |**X**|**X**|
+|Agregue el usuario a grupos de usuarios de acuerdo con los planes de usuario actuales. Revoque el conjunto de permisos SUPER. (Se necesita al menos un SUPER. No revoque desde [administradores](/dynamics365/business-central/dev-itpro/administration/tenant-administration)).<br /><br />Codeunit "Administrador de permisos". AddUserToDefaultUserGroups|**X**|**X**| |**X**<br /><br />Sobrescribir: elimine al usuario de otros grupos. Elimine conjuntos de permisos asignados manualmente.|**X**<br /><br />Aditivo: mantenga intactos la pertenencia actual en el grupo de usuarios y los conjuntos de permisos asignados. Agregue únicamente el usuario a los grupos si es necesario.|
+
+## <a name="managing-users-and-licenses-in-on-premises-deployments"></a>Administración de usuarios y licencias en implementaciones locales
 Para las implementaciones locales, se especifica una cantidad de usuarios con licencia en el archivo de licencia (.flf). Cuando el administrador o el socio de Microsoft carga el archivo de licencia, el administrador puede especificar qué usuarios pueden iniciar sesión en [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 Para las implementaciones locales, el administrador crea, edita y elimina usuarios directamente desde la página **Usuarios**.

@@ -1,8 +1,6 @@
 ---
 title: Configurar varios tipos de interés
 description: Puede calcular cargos financieros con tasas de interés múltiples para un período específico. El cálculo de intereses es similar para todos los cargos financieros, con variación solo en la tasa de interés para un período específico.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e6312b1e00b3267c582dac50da616bdccd2a75b7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: fd52a1cb3f139f5c21b4c1f0d6ce86f7aac7167c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305985"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882643"
 ---
 # <a name="set-up-multiple-interest-rates"></a>Configurar varios tipos de interés.
 Las tasas de interés múltiples se utilizan para diferentes períodos de pagos retrasados en las transacciones comerciales. Por ejemplo, un gobierno especifica el interés máximo que debe percibirse por un consumidor. Esta tipo de interés se puede modificar dos veces al año el 1 de enero y el 1 de julio. Las partes acuerdan la tasa de interés entre las empresas (B2B) y no existe un límite para ese grupo de clientes. La tasa anunciada es usualmente cuatro por ciento más que el interés bancario normal.
@@ -25,11 +23,11 @@ Las tasas de interés múltiples se utilizan para diferentes períodos de pagos 
 Cuando cree los términos de interés y los términos de recordatorio, para la penalización por pago atrasado, puede especificar múltiples tasas de interés para que la penalización se calcule a partir de diferentes tasas de interés en diferentes períodos. Para obtener más información, vea [Cobrar saldos pendientes](receivables-collect-outstanding-balances.md).
 
 ## <a name="to-set-up-multiple-interest-rates"></a>Configurar varios tipos de interés  
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Términos de interés** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Términos interés** y luego elija el enlace relacionado.  
 2.  En la página **Términos interés**, seleccione el término requerido de interés y después seleccione la acción **Tipos de interés**.  
 3.  Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Elija el botón **Aceptar**.  
-5.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Términos recordatorio** y luego elija el enlace relacionado.  
+5.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Términos recordatorio** y luego elija el enlace relacionado.  
 6.  En la página **Términos recordatorio**, seleccione el término recordatorio requerido y después seleccione la acción **Niveles**.  
 7.  En la página **Niveles recordatorio**, seleccione el campo **Cálculo interés**.  
 

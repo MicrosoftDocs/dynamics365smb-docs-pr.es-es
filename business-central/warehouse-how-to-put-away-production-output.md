@@ -1,8 +1,6 @@
 ---
 title: Cómo ubicar la salida de producción | Documentos de Microsoft
 description: La forma de ubicar la salida de su producción depende de cómo esté configurado el almacén.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6d1684b170d050392b02a9b40070b17ff22ebd47
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5d2a8e53d26ea6a6f0ab591b9695acb39024348b
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314585"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881683"
 ---
 # <a name="put-away-production-or-assembly-output"></a>Ubicar la salida de producción o la salida de ensamblado
 La forma de ubicar la salida de su producción depende de cómo esté configurado el almacén. Para obtener más información, consulte [Configuración de la administración de almacén](warehouse-setup-warehouse.md).  
@@ -29,14 +27,14 @@ En las configuraciones avanzadas de almacén, donde el almacén no requiere los 
 El primer paso para crear la ubicación de salida es crear la solicitud de almacén de entrada. Esta solicitud informa al almacén de que la salida del pedido de producción o ensamblado está preparada para ubicación.
 
 ## <a name="to-create-the-inbound-warehouse-request"></a>Para crear la solicitud de entrada al almacén  
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer") escriba **Orden producción lanzada** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Orden de producción lanzada** y luego elija el enlace relacionado.  
 2.  En la orden de producción que está preparada para ubicación, elija la acción **Crear petición entrada alm.**  
 
 > [!NOTE]  
 >  También puede crear la solicitud de almacén de entrada seleccionando la casilla de verificación **Crear solicitud de entrada** cuando actualice la orden de producción. Para obtener más información, vea [Actualizar o replanificar o actualizar las órdenes de producción](production-how-to-replan-refresh-production-orders.md).  
 
 ## <a name="to-put-output-away-with-an-inventory-put-away"></a>Para ubicar la salida con una ubicación de inventario  
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Ubicac. inventario** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Ubicación existencias** y luego elija el enlace relacionado.  
 2.  Cree una ubicación de inventario nueva. Para obtener más información, vea [Ubicar productos con ubicaciones de almacén](warehouse-how-to-put-items-away-with-inventory-put-aways.md).
 3.  Para tener acceso a la salida de la orden de producción, elija la acción **Traer doc. origen** y, a continuación, seleccione la orden de producción lanzada.  
 4.  Rellene las líneas de ubicación como crea conveniente.
@@ -49,7 +47,7 @@ Al ubicar y registrar el inventario, se asume que todas las operaciones se regis
 Si solo necesita registrar el tiempo de preparación y ejecución de la última operación, defina la cantidad de salida de la última operación en 0. También puede decidir no registrar la última línea eliminándola.  
 
 ## <a name="to-put-output-away-with-a-warehouse-internal-put-away"></a>Para ubicar la salida con una ubicación interna de almacén
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Ubicación interna alm.** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Ubicación interna alm.** y luego elija el enlace relacionado.  
 2. Seleccione la acción **Nuevo**.
 3. Rellene la cabecera de una nueva ubicación interna con, al menos, el **Cód. almacén.**  
 4. Rellene una línea por cada producto que desea mover al almacén. Sólo tiene que rellenar los campos **Nº producto** y **Cantidad**.  
@@ -64,7 +62,7 @@ Si solo necesita registrar el tiempo de preparación y ejecución de la última 
 >  Cuando el almacén está configurado para utilizar ubicaciones y picking directos, el al está vinculado al área de fabricación a través de las ubicaciones de producción genéricas: las ubicaciones de entrada y salida y la ubicación de control de planta, que define en la ficha desplegable **Ubicaciones** de la ficha de almacén. Cuando registra la salida de una orden de producción, la salida se coloca automáticamente en la **Ubicación de salida de producción**. Siga el mismo procedimiento descrito anteriormente para ubicar la salida de producción, excepto que en vez de utilizar la ubicación genérica del producto, moverá o ubicará los productos desde la **ubicación de salida de producción** en la ubicación predeterminado del producto.  
 
 ## <a name="to-manually-specify-a-bin-to-store-items-from-production-output"></a>Para especificar manualmente una ubicación para almacenar los artículos de la salida de producción  
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hoja trabajo mov.** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja trabajo mov.** y luego elija el enlace relacionado.  
 2.  Rellene la cabecera y cree una línea por cada producto que desea mover al almacén.  
 3.  Rellene los campos **Desde cód. ubicación** y **Hasta cód. ubicación** e introduzca la cantidad en el campo **Cantidad**.  
 4.  Para rellenar las líneas de la hoja de trabajo con todo el contenido de la ubicación o el contenido filtrado de las ubicaciones del almacén, elija la acción **Traer conten. ubicac.**.  

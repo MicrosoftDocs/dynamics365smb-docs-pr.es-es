@@ -1,8 +1,6 @@
 ---
 title: Como crear una L.M. de producción | Documentos de Microsoft
 description: Una L.M. de producción contiene datos maestros que describen los componentes y los productos semiterminados utilizados en la fabricación de un producto principal. Una vez creada la orden de producción para el producto principal, la L.M. de producción controlará el cálculo de las necesidades de material tal como se representan en la página **Componentes orden producción**.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: cbab5a90341fa3e04d47c8846b2f139febadcdf4
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: edb5cec5d9cf4872dc105828055a555819d4fd33
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553751"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878004"
 ---
 # <a name="create-production-boms"></a>Crear LM de producción
 Una lista de materiales (L.M.) de producción contiene datos maestros que describen los componentes y los subconjuntos utilizados en la fabricación de un producto principal. Una vez creada la orden de producción para el producto principal, la L.M. de producción controlará el cálculo de las necesidades de material tal como se representan en la página **Componentes orden producción**.
@@ -30,7 +28,7 @@ Para poder configurar una ruta, lo siguiente debe existir:
 - Se han configurado recursos de producción. Para obtener más información, consulte [Configurar centros de trabajo y centros de máquina](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-production-bom"></a>Crear una L.M. de producción.  
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **L.M. producción** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **L.M. de producción** y luego elija el enlace relacionado.  
 2. Seleccione la acción **Nuevo**.  
 3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Para editar la L.M., establezca el campo **Estado** en **Nueva** o **En desarrollo**. Para activarla, establezca el campo **Estado** en **Certificada**.  
@@ -57,7 +55,7 @@ Se utilizan las nuevas versiones de la L.M. de producción cuando, por ejemplo, 
 
 La fecha inicial indica el comienzo del periodo en el que la versión es válida. Para lo demás, la fecha inicial es un criterio de filtro para cálculos y evaluaciones. La versión de L.M. es válida hasta que la siguiente versión se convierta en la válida debido a su fecha inicial.  
 
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **L.M. producción** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **L.M. de producción** y luego elija el enlace relacionado.  
 2.  Seleccione la L.M. de producción a copiar y después seleccione la acción **Versiones**.  
 3.  Seleccione la acción **Nuevo**.  
 4. Rellene los campos según sea necesario.
@@ -96,6 +94,6 @@ En una L.M. de producción, se necesitan setenta componentes de metal con las di
 [Configuración de fabricación](production-configure-production-processes.md)  
 [Fabricación](production-manage-manufacturing.md)    
 [Planificación](production-planning.md)   
-[Grupos contables inventario](inventory-manage-inventory.md)  
+[Inventario](inventory-manage-inventory.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

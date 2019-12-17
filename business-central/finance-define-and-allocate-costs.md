@@ -1,8 +1,6 @@
 ---
 title: Definición y asignación de costes | Documentos de Microsoft
 description: Las asignaciones de costes mueven los costes e ingresos entre tipos de coste, centros de coste y objetos de coste. Puede definir tantas asignaciones como necesite.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8261dee0b2ba56d9aec707b5614999697e19ef62
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7e66411200823961936e5c596461a9f227a85d9f
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306393"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879805"
 ---
 # <a name="defining-and-allocating-costs"></a>Definición y asignación de costes
 Las asignaciones de costes mueven los costes e ingresos entre tipos de coste, centros de coste y objetos de coste. Puede definir tantas asignaciones como necesite. Cada asignación consta de:  
@@ -40,7 +38,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 Cada asignación está formada por un origen de asignación y uno o varios destinos de asignación. El origen de asignación define qué costes se asignarán. Los destinos de asignación determinan dónde se deben asignar los costes.  
 
 ### <a name="to-set-up-cost-allocations"></a>Para configurar asignaciones de coste  
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Asignación costes** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Asignación de costes** y, a continuación, elija el enlace relacionado.  
 2.  En la página **Asignación costes**, elija la acción **Editar**.  
 3.  Especifique un identificador para el origen de asignación en el campo **ID**.  
 4.  Defina un nivel como un número entre 1 y 99 en el campo **Nivel**. El registro de la asignación seguirá el orden de los niveles.  
@@ -84,7 +82,7 @@ Este tema describe cómo definir tres nuevos objetos de coste de destino de asig
 
 ### <a name="to-define-the-allocation-source-prod-cost-center-on-the-general-fasttab"></a>Para definir el centro de coste PROD de origen de asignación en la ficha desplegable General  
 
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Asignación costes** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Asignación de costes** y, a continuación, elija el enlace relacionado.  
 2.  En la página **Asignación costes**, elija la acción **Nuevo**.  
 3.  En el campo **ID**, presione Entrar o escriba un Id.  
 4.  En el campo **Nivel**, introduzca **1**.  
@@ -121,7 +119,7 @@ Este tema muestra un ejemplo de cómo definir asignaciones mediante el método d
 
 ### <a name="to-define-dynamic-allocations-based-on-items-sold-in-the-previous-year"></a>Para definir las asignaciones dinámicas basándose en los productos vendidos el año anterior  
 
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Asignaciones de costes** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Asignaciones de costes** y, a continuación, elija el enlace relacionado.  
 2.  En la página **Asignación costes**, elija la acción **Nuevo**.  
 3.  En el campo **ID**, presione Entrar o escriba un Id.  
 4.  En el campo **Nivel**, introduzca **1**.  

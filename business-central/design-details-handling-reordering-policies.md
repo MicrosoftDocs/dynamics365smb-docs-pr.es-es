@@ -1,8 +1,6 @@
 ---
 title: 'Detalles de diseño: Gestión de directivas de reaprovisionamiento | Documentos de Microsoft'
 description: Resumen de las tareas de definición de una directiva de reaprovisionamiento de planificación del suministro.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 53d9d0ff2d9d1f42bb7f9c05ed49aa4df20f2a92
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0708a78be4dbd70d8555b8c088fedd88d3fb5459
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307161"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880477"
 ---
 # <a name="design-details-handling-reordering-policies"></a>Detalles de diseño: Gestión de directivas de reaprovisionamiento
 Para que un producto participe en la planificación de aprovisionamiento es necesario definir una directiva de reaprovisionamiento. Existen las cuatro directivas de reaprovisionamiento siguientes:  
@@ -181,7 +179,7 @@ En este ejemplo, un cliente cambia un pedido de venta de 70 a 40 piezas entre do
 #### <a name="resulting-planning-lines"></a>Líneas de planificación resultantes  
  Se crea una línea de planificación (advertencia) para reducir la compra con 30 de 90 a 60 para mantener el inventario proyectado en 100 según el nivel de desbordamiento.  
 
-![Plan según el nivel de desbordamiento](media/nav_app_supply_planning_2_overflow2.png "Plan según el nivel de desbordamiento")  
+![Planificar de acuerdo con el nivel de desbordamiento](media/nav_app_supply_planning_2_overflow2.png "Planificar de acuerdo con el nivel de desbordamiento")  
 
 > [!NOTE]  
 >  Sin la característica de desbordamiento, no se crea ninguna advertencia si el nivel de inventario proyectado está por encima del inventario máximo. Esto podría provocar un suministro superfluo de 30.
@@ -195,7 +193,7 @@ El punto de pedido expresa la demanda prevista durante el plazo del producto. Cu
 
  En la ilustración siguiente, el aprovisionamiento D representa un pedido de emergencia que ajustar para inventario negativo.  
 
- ![Sugerencia de planificación de emergencia para evitar inventario negativo](media/nav_app_supply_planning_2_negative_inventory.png "Sugerencia de planificación de emergencia para evitar inventario negativo")  
+ ![Sugerencia de planificación de emergencia para evitar existencias negativas](media/nav_app_supply_planning_2_negative_inventory.png "Sugerencia de planificación de emergencia para evitar existencias negativas")  
 
 1.  El suministro **A**, inventario proyectado inicial, está por debajo del punto de pedido.  
 2.  Se ha creado un nuevo aprovisionamiento programación de forma anticipada (**C**).  

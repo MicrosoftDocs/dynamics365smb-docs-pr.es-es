@@ -1,8 +1,6 @@
 ---
 title: Estadísticas de servicio | Documentos de Microsoft
 description: Obtenga una visión general del contenido de los documentos de servicio, como pedidos, ofertas, facturas o abonos, los detalles sobre las líneas de servicio específicas y los productos de servicio.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 9016412d32176a99ca84831566d7bbb628ec88a8
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 95bed832d95647ea538324544c302054328cae66
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553847"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877164"
 ---
 # <a name="viewing-service-statistics"></a>Visualización de estadísticas de servicio
 Puede utilizar estadísticas para analizar los documentos de servicio y determinar el cómo de bien está gestionando sus procesos de servicio. Puede analizar los contratos de servicio, los productos, ofertas, pedidos, facturas y abonos eligiendo la acción **Estadísticas**. Para los productos y contratos de servicios, también puede usar **Trendscape porducto de servicio** o **Trendscape contrato** para ver un resumen de los movimientos de servicio para un producto de servicio determinado.   
@@ -86,7 +84,7 @@ Los movimientos de beneficios o pérdidas de contrato se generan cuando se convi
 |**Pérd./gan. contrato (Razones)**|Para ver las pérdidas y ganancias de contrato por código de razón.|  
 |**Pérd./gan. contr. (Cen. resp.)**|Para ver las pérdidas y ganancias de contrato por centro de responsabilidad.|  
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba el nombre de la página a mostrar y, a continuación, elija el vínculo relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba el nombre de la página a mostrar y, a continuación, elija el vínculo relacionado.  
 2. Rellene los criterios del filtro que desea aplicar. Por ejemplo, en la página **Pérdidas/ganancias en contrato (Razones)**, seleccione un valor para **Filtro código razón**.  
 3. Elija la acción **Mostrar matriz**.
 

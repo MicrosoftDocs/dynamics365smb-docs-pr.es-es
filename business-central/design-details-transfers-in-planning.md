@@ -1,8 +1,6 @@
 ---
 title: 'Detalles de diseño: Transferencias en planificación | Documentos de Microsoft'
 description: En este tema se describe cómo usar pedidos de transferencia como origen de provisión al planificar los niveles de inventario.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, transfer, sku, locations, warehouse
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 72a9455810b017510947b78e40c88116e9935d20
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 697630e03e3bbb59518ea3405524ad6de3765d7a
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306729"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879997"
 ---
 # <a name="design-details-transfers-in-planning"></a>Detalles de diseño: Transferencias en planificación
 Los pedidos de transferencia también son un origen de suministro al trabajar en el nivel de UA. Al usar varias ubicaciones (almacenes), el sistema de reposición de UA se puede configurar en Transferencia, lo que implica que se realiza la reposición de la ubicación mediante la transferencia de mercancías desde otra ubicación. En una situación con varios almacenes, las empresas pueden tener una cadena de transferencias donde el aprovisionamiento al almacén VERDE se transfiere de AMARILLO, y el aprovisionamiento a AMARILLO se transfiere desde ROJO, etc. En el principio de la cadena hay un sistema de reposición de Ord. prod. o Compra.  
@@ -26,14 +24,14 @@ Los pedidos de transferencia también son un origen de suministro al trabajar en
 
 Al comparar la situación en que un pedido de suministro atiende directamente un pedido de demanda para una situación en que el pedido de venta se suministra a través de una cadena de transferencias de UA, es evidente que la tarea de planificación en esta última situación puede llegar a ser muy compleja. Si la demanda cambia, puede causar un efecto de ondulación a través de la cadena, ya que tendrán que manipularse todos los pedidos de transferencia más el pedido de compra o la orden de producción en el extremo opuesto de la cadena para volver a establecer el saldo entre la demanda y el aprovisionamiento.  
 
-![Ejemplo de equilibrio oferta/demanda en transferencias](media/nav_app_supply_planning_7_transfers2.png "Ejemplo de equilibrio oferta/demanda en transferencias")  
+![Ejemplo de equilibrio entre la oferta y la demanda en transferencias](media/nav_app_supply_planning_7_transfers2.png "Ejemplo de equilibrio entre la oferta y la demanda en transferencias")  
 
 ## <a name="why-is-transfer-a-special-case"></a>¿Por qué la transferencia es un caso especial?  
 Un pedido de transferencia se parece mucho a cualquier otro pedido en la aplicación. No obstante, lo que ocurre en un segundo plano es muy diferente.  
 
 Un aspecto fundamental que diferencia las transferencias en la planificación de los pedidos de compra y de las órdenes de producción es que una línea de transferencia representa la demanda y el suministro al mismo tiempo. La parte de salida, que se envía desde la ubicación anterior, es demanda. La parte de entrada, que se recibirá en la nueva ubicación, es el suministro de esa ubicación.  
 
-![Contenido de la página Pedido de transferencia](media/nav_app_supply_planning_7_transfers3.png "Contenido de la página Pedido de transferencia")  
+![Contenido de la página Orden de transferencia](media/nav_app_supply_planning_7_transfers3.png "Contenido de la página Orden de transferencia")  
 
 Esto significa que, cuando el sistema manipula la parte de suministro de la transferencia, se debe realizar un cambio similar en la parte de demanda.  
 
@@ -55,7 +53,7 @@ En este ejemplo, un cliente solicita el producto en el almacén VERDE. El sumini
 
 En este ejemplo, el sistema de planificación empezará con la demanda del cliente e irá retrocediendo a través de la cadena. Las demandas y los suministros se procesarán en una ubicación al mismo tiempo.  
 
-![Suministro de planificación con transferencias](media/nav_app_supply_planning_7_transfers5.png "Suministro de planificación con transferencias")  
+![Planificación de suministros con transferencias](media/nav_app_supply_planning_7_transfers5.png "Planificación de suministros con transferencias")  
 
 ## <a name="transfer-level-code"></a>Cód. nivel transfer.  
 La secuencia en que se procesan las ubicaciones en el sistema de planificación se determina mediante el código de nivel de transferencia de UA.  
@@ -74,7 +72,7 @@ Aunque no se utilice la característica de la unidad de almacenamiento, es posib
 
 Para usar las transferencias manuales, la planificación analizará los pedidos de transferencia existentes y, a continuación, planificará el orden en que se deben procesar las ubicaciones. Internamente, el sistema de planificación operará con UA temporales con códigos de nivel de transferencia.  
 
-![Código del nivel de transferencia](media/nav_app_supply_planning_7_transfers7.png "Código del nivel de transferencia")  
+![Código de nivel de transferencia](media/nav_app_supply_planning_7_transfers7.png "Código de nivel de transferencia")  
 
 Si hay más transferencias para un almacén determinado, el primer pedido de transferencia definirá la dirección de la planificación. Se cancelarán las transferencias que vayan en dirección opuesta.  
 
@@ -85,7 +83,7 @@ Al cambiar la cantidad de una línea de pedido de transferencia existente, tenga
 
 Por ejemplo, si una línea de pedido de transferencia de 117 piezas está reservada con respecto a una línea de venta de 46 y una línea de compra de 24, no es posible reducir la línea de transferencia por debajo de las 46 piezas, aunque esto pueda representar un exceso de aprovisionamiento en el lado de entrada.  
 
-![Reservas en la planificación de la transferencia](media/nav_app_supply_planning_7_transfers8.png "Reservas en la planificación de la transferencia")  
+![Reservas en planificación de transferencia](media/nav_app_supply_planning_7_transfers8.png "Reservas en planificación de transferencia")  
 
 ## <a name="changing-quantity-in-a-transfer-chain"></a>Cambio de cantidad en un cadena de transferencia  
 En el ejemplo siguiente, el punto de partida es una situación equilibrada con una cadena de transferencia que suministra un pedido de venta de 27 en el almacén ROJO con un pedido de compra correspondiente en el almacén AZUL, transferido a través del almacén ROSA. Por lo tanto, aparte de ventas y compras, hay dos pedidos de transferencia: AZUL-ROSA y ROJO-ROSA.  
@@ -126,7 +124,7 @@ Las fechas iniciales y finales se usarán para describir el periodo de transport
 
 En la ilustración siguiente se muestra la interpretación de la fecha-hora inicial y la hora-fecha final de las líneas de planificación relacionadas con los pedidos de transferencia.  
 
-![Fecha-hora central en la planificación de la transferencia.](media/nav_app_supply_planning_7_transfers13.png "Fecha-hora central en la planificación de la transferencia.")  
+![Fechas-horas centrales en la planificación de transferencia](media/nav_app_supply_planning_7_transfers13.png "Fechas-horas centrales en la planificación de transferencia")  
 
 En este ejemplo, esto significa que:  
 
@@ -156,7 +154,7 @@ Si la demanda incluye números de serie o lote y se ejecuta el motor de planific
 ## <a name="order-to-order-links"></a>Vínculos de pedido a pedido  
 En este ejemplo, la UA AZUL se ha configurado con la directiva de reaprovisionamiento de pedido, mientras que los almacenes ROSA y ROJO usan la de lote por lote. Cuando se crea un pedido de venta de 27 en la ubicación ROJA, generará una cadena de transferencias y la última unión en la ubicación AZUL se reservará con enlace. En este ejemplo, las reservas no son reservas firmes creadas por el planificador en el almacén ROSA, sino uniones creadas por el sistema de planificación. La diferencia importante es que el sistema de planificación puede cambiar esto último.  
 
-![Enlaces pedido a pedido en la planificación de transferencia](media/nav_app_supply_planning_7_transfers16.png "Enlaces pedido a pedido en la planificación de transferencia")  
+![Vínculos de pedido a pedido en la planificación de transferencia](media/nav_app_supply_planning_7_transfers16.png "Vínculos de pedido a pedido en la planificación de transferencia")  
 
 Si la demanda cambia de 27 a 22, el sistema bajará la cantidad a lo largo de la cadena, reduciendo también la reserva vinculante.  
 

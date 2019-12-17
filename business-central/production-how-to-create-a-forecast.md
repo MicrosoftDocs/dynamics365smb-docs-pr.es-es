@@ -1,8 +1,6 @@
 ---
 title: Como crear una previsión de la demanda | Documentos de Microsoft
 description: Es posible crear previsiones de ventas y producción desde la página **Previsión de la demanda**.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3611bf23466509d0bd4932fc660cf1dff8bfa4a4
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8ae3e142946ff968a1b1357df1a1634734c0392c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314197"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883387"
 ---
 # <a name="create-a-demand-forecast"></a>Crear una previsión de la demanda
 Es posible crear previsiones de ventas y producción desde la página **Previsión de la demanda**.  
@@ -53,7 +51,7 @@ Puede establecerse en la configuración de fabricación si desea filtrar el pron
 
 ## <a name="to-create-a-demand-forecast"></a>Para crear una previsión de la demanda
 
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Previsión de la demanda** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Previsión de la demanda** y luego elija el enlace relacionado.  
 2.  Seleccione una previsión en el campo **Nombre previsión demanda** de la ficha desplegable  **General**. Puede haber varias previsiones, que se distinguen por el nombre y el tipo de previsión.  
 3.  Seleccione el almacén del campo **Filtro almacén** al que se va a aplicar esta previsión.  
 4.  En el campo **Tipo previsión**, seleccione **Producto venta**, **Componente** o **Ambos**. Si selecciona **Producto venta** o **Componente**, puede editar la cantidad según el periodo. Si selecciona **Ambos**, no podrá modificar la cantidad, pero podrá elegir el botón de flecha desplegable y ver los movimientos de previsión de la demanda.  

@@ -1,8 +1,6 @@
 ---
 title: Crear Rutas | Documentos de Microsoft
 description: Una ruta contiene los datos maestros que capturan los requisitos del proceso de un producto fabricado específico. Una vez creada la orden de producción para ese producto principal, la ruta controlará la programación de operaciones tal como se representan en la página **Ruta orden producción** bajo la orden de producción.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: aa03051a02309944c66d3fdf89de12627af8c4bf
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 79875b770dba5ef7b074bd3b7c52858f37951c25
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314101"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883291"
 ---
 # <a name="create-routings"></a>Creación de rutas
 Las empresas con procesos de fabricación utilizan las rutas para visualizar y dirigir el funcionamiento de los mismos.
@@ -32,7 +30,7 @@ Para poder configurar una ruta, lo siguiente debe existir:
 - Se han configurado recursos de producción. Para obtener más información, consulte [Configurar centros de trabajo y centros de máquina](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-routing"></a>Para crear una ruta  
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Rutas** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Rutas** y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Nuevo**.  
 3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  En el campo de **Tipo**, seleccione **Número de serie** para calcular la ruta de producción según el valor del campo de **Nº operación** .   
@@ -63,7 +61,7 @@ Puede crear conexiones de ruta para conectar componentes con operaciones especí
 
 Otra ventaja importante es que las operaciones y los componentes conectados se muestran en una estructura de proceso lógica cuando utiliza la página **Diario de producción** para registrar la salida y el consumo.  
 
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Rutas** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Rutas** y luego elija el enlace relacionado.  
 2.  Abra la ruta que contiene las operaciones que desea conectar.  
 
     Asegúrese de que el estado de la ruta sea **En desarrollo**.  
@@ -94,7 +92,7 @@ Los componentes seleccionados se conectarán a las operaciones seleccionadas cua
 ## <a name="to-assign-personnel-tools-and-quality-measures-to-routing-operations"></a>Para asignar personal, herramientas y medidas de calidad a operaciones de ruta.
 Si necesita personal con una cualificación, conocimiento o autorización especial para una operación, puede asignar este tipo de personal a la operación. Además, puede asignar herramientas y los requisitos de calidad a la operación. Este procedimiento describe cómo asignar personal. Los pasos son parecidos para otros tipos de información de la operación.
 
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Rutas** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Rutas** y luego elija el enlace relacionado.  
 2.  Abra la ruta pertinente.  
 3.  En la ficha desplegable **Líneas**, seleccione la línea que desea procesar y, después, seleccione la acción **Personal**.  
 4.  Rellene los campos de la página **Personal ruta**.  
@@ -103,7 +101,7 @@ Si necesita personal con una cualificación, conocimiento o autorización especi
 ## <a name="to-create-a-new-versions-of-a-routing"></a>Para crear una versión de ruta nueva  
 El principio de versión le permite administrar varias versiones de rutas. La estructura de la versión de ruta se corresponde con la de la ruta, la cual se compone de la cabecera y las líneas de la versión de la ruta. La diferencia básica se define mediante la fecha inicial.  
 
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Rutas** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Rutas** y luego elija el enlace relacionado.  
 2.  Seleccione la ruta a copiar y después seleccione la acción **Versiones**.  
 3. En la página **Versiones de rutas**, seleccione la acción **Nuevo**.
 4. Rellene los campos según sea necesario.
@@ -123,6 +121,6 @@ El periodo de validez de la versión se especifica mediante el campo **Fecha ini
 [Configuración de fabricación](production-configure-production-processes.md)  
 [Fabricación](production-manage-manufacturing.md)    
 [Planificación](production-planning.md)   
-[Grupos contables inventario](inventory-manage-inventory.md)  
+[Inventario](inventory-manage-inventory.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

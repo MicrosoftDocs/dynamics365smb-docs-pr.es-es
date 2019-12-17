@@ -1,8 +1,6 @@
 ---
 title: 'Detalles de diseño: Flujo de salida del almacén | Documentos de Microsoft'
 description: El flujo de salida en el almacén comienza con una solicitud de los documentos de origen lanzados para sacar los productos del almacén, para enviarlos a una parte externa o a otra ubicación de la empresa. Desde el área de almacenamiento, las actividades de almacén se llevan a cabo en distintos niveles de complejidad para extraer productos de las dársenas de envío.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c5a3ce2049b1686da04842f7c73abb2255369ffa
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 973c248473f2f2eebc10e095f619b51e48de7886
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306993"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880117"
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Detalles de diseño: Flujo de salida del almacén
 El flujo de salida en el almacén comienza con una solicitud de los documentos de origen lanzados para sacar los productos del almacén, para enviarlos a una parte externa o a otra ubicación de la empresa. Desde el área de almacenamiento, las actividades de almacén se llevan a cabo en distintos niveles de complejidad para extraer productos de las dársenas de envío.  
@@ -54,7 +52,7 @@ Además, existen los siguientes documentos de origen internos que funcionan como
 ## <a name="basic-warehouse-configurations"></a>Configuración básica de almacén  
  En el diagrama siguiente se ilustran los flujos de almacén de salida por tipo de documento en la configuración básica de almacén. Los números del diagrama corresponden a los pasos de las secciones que siguen el diagrama.  
 
- ![Flujo de salida en la configuración básica de almacén](media/design_details_warehouse_management_outbound_basic_flow.png "Flujo de salida en la configuración básica de almacén")  
+ ![Flujo de salida en las configuraciones básicas de almacén](media/design_details_warehouse_management_outbound_basic_flow.png "Flujo de salida en las configuraciones básicas de almacén")  
 
 ### <a name="1-release-source-document--create-inventory-pick-or-movement"></a>1: Lanzar documento de origen/Crear selección o movimiento de inventario  
  Cuando un usuario responsable de los documentos de origen, como un procesador de pedidos de venta o un planificador de producción, está preparado para la actividad de almacén salida, lanza el documento de origen para señalizar a los empleados de almacén que los productos o componentes vendidos se pueden preparar y colocar en las ubicaciones especificadas. Además, el usuario crea documentos de picking o de movimiento de inventario para las líneas de pedido individuales, mediante envío, basándose en las ubicaciones y cantidades especificadas para manipular.  
@@ -76,7 +74,7 @@ Además, existen los siguientes documentos de origen internos que funcionan como
 ## <a name="advanced-warehouse-configurations"></a>Configuraciones avanzadas de almacén  
  En el diagrama siguiente se ilustran los flujos de almacén de salida por tipo de documento en la configuración avanzada de almacén. Los números del diagrama corresponden a los pasos de las secciones que siguen el diagrama.  
 
- ![Flujo de salida en la configuración avanzada de almacén](media/design_details_warehouse_management_outbound_advanced_flow.png "Flujo de salida en la configuración avanzada de almacén")  
+ ![Flujo de salida en las configuraciones avanzadas de almacén](media/design_details_warehouse_management_outbound_advanced_flow.png "Flujo de salida en las configuraciones avanzadas de almacén")  
 
 ### <a name="1-release-source-document"></a>1: Lanzar documento de origen  
  Cuando un usuario responsable de los documentos de origen, como un procesador de pedidos de venta o un planificador de producción, está preparado para la actividad de almacén de salida, lanza el documento de origen para señalizar a los empleados de almacén que los productos o componentes vendidos se pueden preparar y colocar en las ubicaciones especificadas.  

@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: profiles, users
 ms.date: 11/06/2019
 ms.author: sgroespe
-ms.openlocfilehash: b96b5cbff2ec182ab1a7254ee3384a6d1869e3c4
-ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
+ms.openlocfilehash: 4c485d722de2a51f22310308b102ed066b4f01d2
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2775432"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2809038"
 ---
 # <a name="manage-profiles"></a>Administración de perfiles
 A todos los usuarios de [!INCLUDE[d365fin](includes/d365fin_md.md)] se les asigna un perfil que refleja su rol de negocio, el departamento en el que trabaja u otra clasificación. Los perfiles permiten a los administradores definir y administrar centralmente lo que los diferentes tipos de usuarios pueden ver y hacer en la interfaz de usuario para que puedan realizar sus tareas de negocio de manera eficiente.
@@ -22,7 +22,7 @@ A todos los usuarios de [!INCLUDE[d365fin](includes/d365fin_md.md)] se les asign
 
 Como administrador, usted crea y administra perfiles en la página **Perfiles (roles)**. Cada perfil tiene una tarjeta en la que administra varias configuraciones para el rol relacionado, como el nombre del rol, la configuración del usuario y el área de trabajo que utiliza el perfil. Para obtener más información sobre la configuración de usuario y las áreas de trabajo, consulte [Cambiar la configuración básica](ui-change-basic-settings.md).
 
-Para poder administrar los perfiles de los usuarios, los usuarios se deben crear y agregar a través de Centro de administración de Office 365. Después, puede asignar permisos a cada usuario o grupo de usuarios para definir qué características se les permite ver o editar. Para obtener más información, vea [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md).
+Para poder administrar los perfiles de los usuarios, los usuarios se deben crear y agregar a través de Centro de administración de Microsoft 365. Después, puede asignar permisos a cada usuario o grupo de usuarios para definir qué características se les permite ver o editar. Para obtener más información, vea [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md).
 
 ## <a name="page-customization"></a>Personalización de página
 Puede personalizar los diseños de página para un perfil de modo que todos los usuarios asignados al perfil vean las páginas personalizadas. Como administrador, personalice las páginas utilizando la misma funcionalidad que los usuarios cuando realizan la personalización. Para obtener más información, consulte [Personalizar las páginas para los perfiles](ui-personalization-manage.md).

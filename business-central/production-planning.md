@@ -1,8 +1,6 @@
 ---
 title: Plan de suministro | Documentos de Microsoft
 description: Preparar un plan ejecutable detallado y el programa de montaje final de producción para venta y la demanda de producción.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 84be678eee6309da6c0cc9f5e0d652f8d8235df7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 85dfc44f453e27cad0b0a3385f2822715bc252e7
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312945"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877644"
 ---
 # <a name="planning"></a>Planificación
 Las operaciones de producción necesarias para transformar entradas en productos terminados se deben planificar a diario o semanalmente, en función del volumen y la naturaleza de los productos. [!INCLUDE[d365fin](includes/d365fin_md.md)] ofrece funciones para cubrir la demanda anticipada y real de las ventas, montaje y la producción, así como funciones de planificación de la distribución mediante unidades de almacenamiento y transferencias de ubicación.

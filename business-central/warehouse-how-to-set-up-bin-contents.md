@@ -1,8 +1,6 @@
 ---
 title: Crear contenidos de ubicación | Documentos de Microsoft
 description: Después de configurar las ubicaciones, puede configurar el contenido. Es decir, puede configurar los productos que desea almacenar en una ubicación determinada y definir las reglas que rigen la cumplimentación de la ubicación con un producto particular.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c932a29c42b379e7ce7686e8ae3c4bc26b9d2fa9
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2d716040bae8f6e0cec3055af0ce2a26b6bc04e1
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314561"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876517"
 ---
 # <a name="create-bin-contents"></a>Crear contenido de ubicación
 Después de configurar las ubicaciones, puede configurar el contenido. Es decir, puede configurar los productos que desea almacenar en una ubicación determinada y definir las reglas que rigen la cumplimentación de la ubicación con un producto particular. Puede hacerlo manualmente en la página **Contenidos de ubicación** o automáticamente con la página **Crear hoja de contenido de ubicación**.
 
 ## <a name="to-create-bin-content-manually"></a>Para crear el contenido de ubicación manualmente  
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Ubicaciones** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Almacenes** y, a continuación, elija el enlace relacionado.  
 2.  Seleccione la ubicación en la que desee configurar contenidos de ubicación y elija la acción **Ubicaciones**.  
 3.  Seleccione la ubicación en la que desee configurar contenidos y elija la acción **Contenidos**.  
 4.  Para cada producto que desee almacenar en la ubicación, rellene una línea en la página **Contenidos ubicación** con la información adecuada. Algunos campos se rellenan con información de la ubicación.  
@@ -41,7 +39,7 @@ Si selecciona el campo **Fijo**, define la ubicación fija del producto, lo que 
 ## <a name="to-create-bin-content-with-a-worksheet"></a>Para crear el contenido de una ubicación con una hoja de trabajo  
 Cuando haya creado sus ubicaciones, puede crear el contenido de la ubicación que desea para cada ubicación en la hoja de trabajo de creación de contenido de hoja de trabajo.
 
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hoja trab. creac. cont. ubic.** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja de creación de contenido de ubicación** y luego elija el enlace relacionado.  
 2.  En la cabecera de la hoja de trabajo, haga clic en el campo **Nombre** y seleccione la hoja de trabajo de la ubicación donde desea crear el contenido de ubicación.  
 3.  En el campo **Ubicación**, seleccione el código de la ubicación para la que desea definir el contenido.   
 

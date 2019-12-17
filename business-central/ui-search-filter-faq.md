@@ -8,12 +8,12 @@ ms.reviewer: edupont04
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
 ms.date: 10/01/2019
 ms.author: mikebc
-ms.openlocfilehash: a0b5d48f5decbed87337e27145486a2884a6612d
-ms.sourcegitcommit: 49309bdff9b680a35032b355fe97c565845dba15
+ms.openlocfilehash: 79fb96b0262eacfd67326236c7cf8468689c6b5e
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2695196"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876876"
 ---
 # <a name="searching-and-filtering-faq"></a>Búsqueda y filtrado de preguntas frecuentes
 Este artículo responde a preguntas comunes que puede tener acerca de las acciones buscar y filtrar.
@@ -47,7 +47,7 @@ En Microsoft, escuchamos constantemente los comentarios de nuestra comunidad div
 
 Una operación de búsqueda tiene un límite de tiempo para llevarse a cabo. En primer lugar, intente cambiar los criterios de búsqueda y busque de nuevo. Si está utilizando [!INCLUDE[prodshort](includes/prodshort.md)] local, póngase en contacto con el administrador del sistema, ya que un administrador puede aumentar el límite de tiempo para las búsquedas.
 
-Como administrador local, aumente el límite de tiempo en las búsquedas mediante la configuración de **Tiempo de espera de búsqueda** del servidor de [!INCLUDE[prodshort](includes/prodshort.md)]. Para obtener más información, consulte [Configuración de Business Central Server](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-server-instance?#Database) en la Ayuda de Business Central Developer e IT Pro.
+Como administrador local, aumente el límite de tiempo en las búsquedas mediante la configuración de **Tiempo de espera de búsqueda** del servidor de [!INCLUDE[prodshort](includes/prodshort.md)]. Para obtener más información, consulte [Configuración de Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance?#Database) en la Ayuda de Business Central Developer e IT Pro.
 
 ## <a name="see-also"></a>Consulte también .
 [Ordenar, buscar y filtrar](ui-enter-criteria-filters.md)  

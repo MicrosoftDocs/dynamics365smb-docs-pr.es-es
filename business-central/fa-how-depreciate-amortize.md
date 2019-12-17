@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 10/01/2019
+ms.date: 11/27/2019
 ms.author: sgroespe
-ms.openlocfilehash: 93411d5469373a1084579b1235dcd2befdf921a8
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 79e09037208233b378a4b464acce996537375e6c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554283"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879973"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Depreciar o amortizar activos fijos
 La amortización se utiliza para distribuir el coste de activos, como maquinaria y equipos, a lo largo de su vida amortizable. Debe definir la amortización de cada activo.  
@@ -36,29 +36,39 @@ El ajuste de valores se utiliza para ajustar los valores a los cambios de nivele
 ## <a name="to-calculate-depreciation-automatically"></a>Para calcular la amortización de forma manual
 Una vez al mes, o cuando desee, puede ejecutar el proceso **Calcular amortización**. El proceso ignora los activos fijos vendidos, bloqueados o inactivos, o usar el método de amortización manual.  
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Calcular amortización** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Calcular amortización** y luego elija el enlace relacionado.  
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Elija el botón **Aceptar**.  
 
-    El proceso calcula la amortización y crea líneas en el diario general de activos fijos.  
-4. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diarios generales A/F** y luego elija el enlace relacionado.  
+    El proceso calcula la amortización y crea líneas en el diario general de activos fijos.
 
-    En la página **A/F Diario general**, en el campo **N. º días amortización** puede ver los días de amortización calculados.  
+4. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diarios generales A/F** y luego elija el enlace relacionado.  
+
+    En la página **A/F Diario general**, en el campo **N.º días amortización** puede ver los días de amortización calculados.  
 5. Seleccione la acción **Registrar**.  
 
 ## <a name="to-post-depreciation-manually-from-the-fixed-asset-gl-journal"></a>Para registrar una apreciación manualmente desde el diario general de activos fijos
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **A/F Diario general** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **A/F Diario general** y luego elija el enlace relacionado.  
 2. Cree una línea inicial de diario y rellene los campos según sea necesario.  
 3. En el campo **A/F Tipo registro**, seleccione **Amortización**.  
 4. Elija la acción **Introducir saldo AF**. Se crea una segunda línea de diario para la cuenta contrapartida que se ha configurado para el registro de amortizaciones. Para obtener más información, vea [Para configurar los grupos contables de activos fijos](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
 5. Elija la acción **Registrar** para registrar el diario.  
 
+El campo **Valor contable** en la página **Ficha activo** se actualiza en consecuencia.
+
 Si configuró las claves de distribución de activos para distribuir importes entre varios departamentos o proyectos, los importes se distribuyen durante el registro. Para obtener más información, consulte [Configurar información general de activos fijos](fa-how-setup-general.md).  
+
+## <a name="to-manage-the-ending-book-value"></a>Para administrar el valor contable final
+En el campo **Valor contable final** en la página **A/F Libro amortización**, puede especificar el valor contable que desea que tenga su activo fijo en el libro de amortización actual después de que se haya amortizado por completo. Puede hacerlo manualmente o puede completar el campo **Valor contable final genérico** en la página **Libro de amortización** relacionada, que luego se utilizará para rellenar automáticamente el campo.
+
+> [!NOTE]
+> Si la última amortización hace que el campo **Valor contable** en la página **Ficha activo** sea cero, la última amortización se reduce automáticamente en este importe.<br /><br />
+> Si el valor del campo **Valor contable** es superior a cero después de la última amortización debido, por ejemplo, a la existencia de un problema de redondeo o porque hay un valor residual, se ignora el valor del campo **Valor contable final** de la página **Libros amortización A/F**. Para obtener más información, vea [Para registrar el valor residual junto con el coste](fa-how-acquire.md#to-post-the-salvage-value-together-with-the-acquisition-cost).
 
 ## <a name="to-calculate-allocations-in-the-fixed-asset-gl-journal"></a>Para calcular distribuciones en el diario general de activos
 Si se utiliza un activo en varios departamentos, la amortización se puede distribuir automáticamente en esos departamentos según una tabla de distribución definida por usuario.  
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **A/F Diario general** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **A/F Diario general** y luego elija el enlace relacionado.  
 2. Cree una línea inicial y rellene los campos según sea necesario.
 3. En el campo **A/F Tipo registro**, seleccione **Distribución**.  
 4. Elija la acción **Introducir saldo AF**. Se crea una segunda línea de diario para la cuenta contrapartida que se ha configurado para el registro de distribuciones.  
@@ -67,18 +77,18 @@ Si se utiliza un activo en varios departamentos, la amortización se puede distr
 ## <a name="use-duplication-lists-to-prepare-to-post-to-multiple-depreciation-books"></a>Use las listas de duplicados para preparar el registro a varios libros de amortización
 Al rellenar las líneas de diario que se van a registrar en un libro de amortización, puede duplicarlas en un diario independiente para poder efectuar registros en otro libro de amortización. Para obtener más información, vea [Para registrar movimientos en distintos libros de amortización](fa-how-depreciate-amortize.md#to-post-entries-to-different-depreciation-books).
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Libros de amortización** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Libros de amortización** y luego elija el enlace relacionado.  
 2. Abra el libro de amortización y, a continuación, seleccione la casilla **Compone lista duplicados**.  
 
 > [!IMPORTANT]  
 >   Si ha seleccionado el campo **Utiliza lista duplicados**, no utilice números de serie en el diario. La razón es que las series numéricas del diario general de activos no corresponden a las series del diario de activos fijos.  
 
 ## <a name="to-post-entries-to-different-depreciation-books"></a>Para registrar movimientos en distintos libros de amortización
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **A/F Diario general** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **A/F Diario general** y luego elija el enlace relacionado.  
 2. En el diario que desee registrar la amortización, seleccione la casilla **Utilizar lista duplicados**.  
 3. Rellene los campos restantes según sea necesario.  
 4. Seleccione la acción **Registrar**.  
-5. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **A/F Diarios** y luego elija el enlace relacionado.  
+5. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **A/F Diarios** y luego elija el enlace relacionado.  
 
     > [!NOTE]  
     >   La página **Diario activos fijos** contiene nuevas líneas para diferentes libros de amortización según la lista de duplicados.  
@@ -90,7 +100,7 @@ Al rellenar las líneas de diario que se van a registrar en un libro de amortiza
 Puede copiar los movimientos de un libro de amortización a otro usando el proceso **Copiar libro amortización**. El proceso crea líneas de diario en el proceso diario especificado en la página **Config. diario activos** para el libro de amortización al que desea copiar. Para obtener más información, consulte el procedimiento siguiente.  
 
 ## <a name="to-copy-fixed-asset-ledger-entries-between-depreciation-books"></a>Para copiar los movimientos de activos entre los libros de amortización
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Libros de amortización** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Libros de amortización** y luego elija el enlace relacionado.  
 2. Abra la ficha de libro de amortización correspondiente y, a continuación, elija la acción **Copiar libro amortización**.  
 3. En la página **Copiar libro amortización**, rellene los campos según sea necesario.  
 4. Elija el botón **Aceptar**.  

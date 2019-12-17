@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 11/20/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7d52f1dce42bb8c3b84ff335eb07b6a12154fbcf
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2c39fb8e9c2b380674169a27d05a04f0f4b0d451
+ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316884"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832099"
 ---
 # <a name="add-a-page-action-to-your-role-center"></a>Agregar una acción de página al área de trabajo
 Con el nuevo icono de marcador, puede agregar un vínculo de acción a cualquier página desde el menú de navegación de su área de trabajo. Agregue el marcador desde la página de destino, es decir, la página que desea que abra la acción en el área de trabajo.
@@ -33,6 +33,9 @@ Ahora se agrega un nombre de acción según la página al menú de navegación e
 2. Pase el cursor sobre el resultado de búsqueda para la página **Pedidos de venta** y luego elija el icono ![Marcador](media/ui_bookmark_icon.png "Marcador").
 
 Si ya existe un marcador para la página, el icono está oscuro y la información sobre herramientas indica "Marcado".
+
+> [!NOTE]  
+> Cuando se agrega un marcador, también se marca como favorito cualquier texto traducido que estuviera disponible en ese momento. Si más adelante se agrega un nuevo texto traducido, el vínculo marcado no se actualiza.
 
 ## <a name="see-also"></a>Consulte también
 [Personalizar el área de trabajo](ui-personalization-user.md)  

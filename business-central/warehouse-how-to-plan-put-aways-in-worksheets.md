@@ -1,8 +1,6 @@
 ---
 title: Cómo planificar ubicaciones en la hoja de trabajo | Documentos de Microsoft
 description: Si el almacén requiere los procesos de ubicación y recepción, y desea planificar instrucciones de ubicación para varios albaranes, en vez de hacer que los empleados sigan las instrucciones que crea la aplicación para albaranes registrados independientes, puede utilizar la hoja de trabajo de ubicación.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ae631fc6383e9aec6edc5fcc432e614f39ee74e4
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4537a7f6d450ec71e574c85cef1987232f792479
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314609"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876541"
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Planificar ubicaciones en hojas de trabajo
 Si el almacén requiere los procesos de ubicación y recepción, y desea planificar instrucciones de ubicación para varios albaranes, en vez de hacer que los empleados sigan las instrucciones que crea la aplicación para albaranes registrados independientes, puede utilizar la hoja de trabajo de ubicación.  
@@ -33,7 +31,7 @@ Si no selecciona este campo, la aplicación creará automáticamente instruccion
 > 2.  Continúe el proceso de tantas ubicaciones como desee, hasta que haya eliminado todas las líneas con las que no desee trabajar en la hoja de trabajo. Ahora seleccione **Hojas trab. ubicación** y realice la planificación.  
 
 ## <a name="to-plan-instructions-in-the-put-away-worksheet"></a>Para planificar instrucciones en la hoja de trabajo de ubicación  
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hoja trabajo ubic.** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja de ubicación** y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Traer documentos almacén**. Se abre la página **Selección ubicación**.  
 
     Vea las recepciones registradas y las ubicaciones internas registradas que se han pasado a la función de ubicación, incluidas aquellas para las que ya se han creado instrucciones de ubicación. Los documentos con líneas de ubicación que ya se han ubicado y registrado completamente no se muestran en la lista.  

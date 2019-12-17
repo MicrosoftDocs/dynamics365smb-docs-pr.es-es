@@ -1,8 +1,6 @@
 ---
 title: 'Procedimiento: busque las asignaciones de almacén | Documentos de Microsoft'
 description: Para buscar las asignaciones de almacén, abra la página de la ficha de un artículo seleccionado. Si se han creado las instrucciones del almacén, las líneas de tipo Traer y colocar son visibles y puede empezar a trabajar en una asignación. En algunos almacenes, el administrador puede haber asignado instrucciones específicas a cada empleado.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3e056c16a700f6ce4dc08c0bc55ad54e6992ea71
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7952276992b28ec5c1c90da10634867ef7b7a35c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314053"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881755"
 ---
 # <a name="find-your-warehouse-assignments"></a>Buscar las asignaciones de almacén
 Para buscar las asignaciones de almacén, abra la página de la ficha de un artículo seleccionado. Si se han creado las instrucciones del almacén, las líneas de tipo Traer y colocar son visibles y puede empezar a trabajar en una asignación. En algunos almacenes, el administrador puede haber asignado instrucciones específicas a cada empleado. Para obtener más información, vea [Configurar los empleados de almacén](warehouse-how-to-set-up-warehouse-employees.md).
 
 ## <a name="to-find-an-instruction-assigned-to-you"></a>Para buscar una instrucción que se le ha asignado  
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), introduzca **Ubic. exist. almacén**, **Picking almacén** o **Mov. almacén** y elija el enlace relacionado.
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Ubic. exist. almacén**, **Picking almacén** o **Mov. almacén** y elija el enlace relacionado.
 
     Las tres páginas muestran las asignaciones de todas las ubicaciones de almacén.  
 

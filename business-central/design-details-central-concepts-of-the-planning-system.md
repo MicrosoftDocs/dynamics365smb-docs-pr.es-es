@@ -1,8 +1,6 @@
 ---
 title: Detalles de diseño - Conceptos centrales del sistema de planificación | Documentos de Microsoft
 description: Las funciones de planificación se incluyen en un proceso que primero selecciona los productos relevantes y el periodo de planificación y, a continuación, propone acciones posibles para que las realice el usuario en función de la situación de demanda/oferta y los parámetros de planificación de los productos.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 025b8fb9100d8418e9e157e8098afe19d24843fc
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 92c30770b62b6456a16ab26db2c4ea3cda526b8e
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303753"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880597"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Detalles de diseño: Conceptos centrales del sistema de planificación
 Las funciones de planificación se incluyen en un proceso que primero selecciona los productos correspondientes y el periodo que se planificará. A continuación, según el código de nivel inferior de cada producto (posición de la L.M.), el proceso llama a una codeunit que calcula un plan de suministro equilibrando los conjuntos de suministro y demanda, y sugiriendo acciones posibles que puede realizar el usuario. Las acciones sugeridas aparecen como líneas en la hoja de planificación o la hoja de demanda.  
 
-![Contenido de la página de la hoja de planificación](media/NAV_APP_supply_planning_1_planning_worksheet.png "Contenido de la página de la hoja de planificación")  
+![Contenido de la página Hoja de planificación](media/NAV_APP_supply_planning_1_planning_worksheet.png "Contenido de la página Hoja de planificación")  
 
 Se supone que el planificador de una empresa, como un comprador o un planificador de producción, es el usuario del sistema de planificación. El sistema de planificación ayuda al usuario a realizar los cálculos completos pero bastante sencillos de un plan. El usuario podrá concentrarse en resolver problemas más difíciles, como, por ejemplo, cuando las cosas son distintas de las normales.  
 
@@ -101,7 +99,7 @@ Se admite con el uso de UA, donde los parámetros individuales de planificación
 
 En principio, cualquier producto puede gestionarse en cualquier almacén, pero el enfoque del programa en cuanto al concepto de almacén es muy estricto. Por ejemplo, un pedido de venta en un almacén no se puede satisfacer con una cantidad en existencias en otro almacén. La cantidad de existencias primero se debe transferir a la ubicación especificada en el pedido de venta.  
 
-![Planificación de las unidades de almacenamiento](media/NAV_APP_supply_planning_1_SKU_planning.png "Planificación de las unidades de almacenamiento")  
+![Planificación de unidades de almacenamiento](media/NAV_APP_supply_planning_1_SKU_planning.png "Planificación de unidades de almacenamiento")  
 
 Para obtener más información, consulte [Detalles de diseño: Transferencias en planificación](design-details-transfers-in-planning.md).  
 
@@ -217,7 +215,7 @@ La información de advertencia se muestra en la página **Elementos planificaci�
 -   Excepción  
 -   Atención  
 
-![Advertencias de la hoja de planificación](media/NAV_APP_supply_planning_1_warnings.png "Advertencias de la hoja de planificación")  
+![Advertencias en la hoja de planificación](media/NAV_APP_supply_planning_1_warnings.png "Advertencias en la hoja de planificación")  
 
 ### <a name="emergency"></a>Emergencia  
 La advertencia de emergencia se muestra en dos situaciones:  

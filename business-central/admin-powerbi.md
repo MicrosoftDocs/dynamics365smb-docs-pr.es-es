@@ -11,18 +11,18 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.reviewer: edupont
 ms.date: 10/01/2019
 ms.author: bmeier
-ms.openlocfilehash: e17485563e331f7e78500650e174f6b2b57bbb8e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0750f1724260eb7767757d947f30dcb074ef1aeb
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307977"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879111"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Habilitar los datos de negocio para Power BI
 
 Obtener información de los datos de [!INCLUDE[prodshort](includes/prodshort.md)] resulta muy sencillo con las aplicaciones de [!INCLUDE[prodshort](includes/prodshort.md)] para Power BI. Power BI extrae los datos y, a continuación, genera un panel original e informes en función de los datos.  
 
-Debe disponer de una cuenta válida con [!INCLUDE[prodshort](includes/prodshort.md)] y con Power BI. Además, deberá descargar [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) si desea crear sus propios informes de Power BI. Las aplicaciones de Power BI requieren permisos para las tablas desde donde se recuperan los datos. A continuación se describen más detalles sobre los requisitos.  
+Debe disponer de una cuenta válida con [!INCLUDE[prodshort](includes/prodshort.md)] y con Power BI. Además, deberá descargar [Power BI Desktop](https://powerbi.microsoft.com/desktop/) si desea crear sus propios informes de Power BI. Las aplicaciones de Power BI requieren permisos para las tablas desde donde se recuperan los datos. A continuación se describen más detalles sobre los requisitos.  
 
 > [!IMPORTANT]
 > Las aplicaciones de Power BI que se describen en este artículo están diseñados para utilizar Azure Active Directory como mecanismo de autenticación, a menos que se especifique lo contrario. Para instalar una aplicación de Power BI, también debe tener una licencia de Power BI Pro.  Una vez instalada la aplicación de Power BI, se puede compartir con usuarios de cualquier tipo de licencia.
@@ -214,7 +214,7 @@ La aplicación de Power BI solo mostrará los datos de la empresa de [!INCLUDE [
 [Importar datos de empresa de otros sistemas financieros](across-import-data-configuration-packages.md)  
 [Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] como origen de datos de Power BI](across-how-use-financials-data-source-powerbi.md)  
-[Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] como origen de datos de PowerApps](across-how-use-financials-data-source-powerapps.md)  
-[Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] en Microsoft Flow](across-how-use-financials-data-source-flow.md)  
+[Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] como origen de datos de Power Apps](across-how-use-financials-data-source-powerapps.md)  
+[Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] en Power Automate](across-how-use-financials-data-source-flow.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

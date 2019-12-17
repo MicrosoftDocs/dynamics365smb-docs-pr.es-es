@@ -1,25 +1,23 @@
 ---
 title: Importar y exportar un diseño de informe y de documento | Documentos de Microsoft
 description: Puede importar y exportar un diseño de informe personalizado existente como archivo a o desde una ubicación de su equipo y red.
-services: project-madeira
-documentationcenter: ''
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: jswymer
-ms.openlocfilehash: 493217e3f7607c4553d6c0ac6500f21f0ff712cc
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.date: 11/15/2019
+ms.author: sgroespe
+ms.openlocfilehash: 97f66d28576586c4e09c0bc700785eac969d316a
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553823"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881971"
 ---
-# <a name="import-and-export-a-report-or-document-layout"></a>Importar y exportar un diseño de informe o documento personalizado
+# <a name="import-and-export-custom-report-layouts"></a>Importar y exportar diseños de informe personalizados
 Puede importar y exportar un diseño de informe personalizado existente como archivo a o desde una ubicación de su equipo y red. Por ejemplo, puede exportar un diseño de informe y, a continuación, enviar el archivo a otra persona para que lo modifique. Esa persona podrá entonces hacer las modificaciones en el diseño y devolverle el archivo para que pueda importarlo de nuevo.  
 
 > [!IMPORTANT]  
@@ -27,7 +25,7 @@ Puede importar y exportar un diseño de informe personalizado existente como arc
 
 ### <a name="to-export-a-report-layout-to-a-file"></a>Para exportar un diseño de informe a un archivo  
 
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Selección de diseño de informes** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Selección de diseño de informes** y luego elija el enlace relacionado.  
 
 2.  Seleccione la fila para el informe que contiene el diseño de informe personalizado que desea exportar y, a continuación, elija la acción **Diseños personalizados**.  
 
@@ -41,7 +39,7 @@ Puede importar y exportar un diseño de informe personalizado existente como arc
 
      Un archivo de diseño de informe de Word debe tener la extensión de tipo de archivo .docx. El archivo de diseño de informe de RDLC debe tener la extensión de tipo de archivo .rdlc o .rdl.  
 
-2.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Selección de diseño de informes** y luego elija el enlace relacionado.  
+2.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Selección de diseño de informes** y luego elija el enlace relacionado.  
 
 3.  Seleccione la fila para el informe para el que desee importar el diseño de informe y, a continuación, elija la acción **Diseños personalizados**.  
 

@@ -1,8 +1,6 @@
 ---
 title: Procedimiento para eliminar movimientos de presupuestos de costes | Documentos de Microsoft
 description: Utilice el trabajo por lotes Eliminar movimientos presupuesto de costes para anular los movimientos de presupuesto de costes del registro de presupuestos de costes.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a20895b02b00c64261e0a318949e2ba83bd15a56
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 04510e87789e6d69b33009be7ebbaf7a405d0dff
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302072"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882704"
 ---
 # <a name="delete-cost-budget-entries"></a>Eliminar movs. ppto. costes
 Utilice el trabajo por lotes **Eliminar movimientos presupuesto de costes** para anular los movimientos de presupuesto de costes del registro de presupuestos de costes.  
@@ -26,7 +24,7 @@ Para evitar cualquier discontinuidad en movimientos de presupuesto de costes y m
 
 ### <a name="to-delete-a-cost-budget-entry"></a>Para eliminar movimientos de presupuesto de costes  
 
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Eliminar movs. ppto. costes** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Eliminar movs. ppto. costes** y luego elija el enlace relacionado.  
 
     El campo **Hasta nº registro** contiene siempre el último número de movimiento de registro, que no se puede cambiar.  
 

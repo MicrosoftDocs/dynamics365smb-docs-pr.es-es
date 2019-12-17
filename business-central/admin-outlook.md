@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 10/17/2019
+ms.date: 11/22/2019
 ms.author: edupont
-ms.openlocfilehash: 6c1ec2e61b1a6d61b9662abe70e3177747b73a12
-ms.sourcegitcommit: be1e2c49a8434d3f440d5a201508af9c3c8cc87f
+ms.openlocfilehash: 1e45b7cb19df3c057485451a95ae1633804fa865
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2649721"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879137"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Usar Business Central como su bandeja de entrada de empresa en Outlook
+
 [!INCLUDE[d365fin](includes/d365fin_md.md)] introduce la posibilidad de gestionar las interacciones comerciales con sus clientes y proveedores directamente en Microsoft Outlook. Con los complementos de Outlook de [!INCLUDE[d365fin](includes/d365fin_md.md)], puede ver los datos financieros relativos a los clientes y los proveedores, así como crear y enviar documentos financieros, como por ejemplo presupuestos y facturas.  
 
 ## <a name="getting-the-add-in"></a>Obtener el complemento
@@ -26,9 +27,13 @@ Es fácil comenzar con el complemento de [!INCLUDE[d365fin](includes/d365fin_md.
 A continuación, cuando abra Outlook, verá un mensaje de correo electrónico del *administrador de Dynamics 365 Business Central*. Los nuevos complementos se agregan a la cinta de Outlook y, en el explorador, puede ver los complementos de [!INCLUDE[prodshort](includes/prodshort.md)] inmediatamente encima o debajo del cuerpo del mensaje de correo electrónico. Los complementos se actualizan periódicamente y recibirá la notificación de que tiene lista una nueva versión en Outlook.  
 
 > [!TIP]
-> Si utiliza el nuevo Outlook en un explorador, los complementos de pueden [!INCLUDE [prodshort](includes/prodshort.md)] estar ocultos en **Más acciones**.
+> Si utiliza el nuevo Outlook en la web, los complementos de [!INCLUDE [prodshort](includes/prodshort.md)] pueden estar ocultos en **Más acciones**. Si usa el complemento con frecuencia, puede anclarlo para que siempre esté visible de inmediato. Para obtener más información, consulte [Usar complementos en Outlook en la web](https://support.office.com/article/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?ns=OLWAO365B&version=16).  
 
-Si trabaja con más de una empresa de [!INCLUDE [prodshort](includes/prodshort.md)], puede cambiar fácilmente entre empresas en Outlook.
+Si trabaja con más de una empresa de [!INCLUDE [prodshort](includes/prodshort.md)], puede cambiar fácilmente entre empresas en Outlook. En la barra de acciones del complemento, elija **Mas acciones** y, a continuación, puede ver la opción para cambiar de una empresa a otra.  
+
+<!--TEMP-->
+> [!NOTE]
+> El cambio de una empresa a otra requiere la fase de lanzamiento 2 de [!INCLUDE [prodshort](includes/prodshort.md)] 2019 o posterior como se anunció en el [plan de versiones](/dynamics365-release-plan/2019wave2/dynamics365-business-central/switch-between-companies-business-inbox-outlook).
 
 Algunas empresas que usan Office 365 restringen los permisos de los usuarios para implementar complementos. Debe asegurarse de que tiene una suscripción a Office 365 que incluye correo electrónico y permite implementar complementos. Si desea probar el complemento de todos modos, puede [probar Office 365 gratis](https://products.office.com/try).  
 
@@ -74,4 +79,4 @@ Los complementos están diseñados para usarse con Office 365. Si utiliza [!INCL
 [Ccial](sales-manage-sales.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Requisitos mínimos para Outlook](product-requirements.md#outlook)  
-[Usar complementos en Outlook en la web](https://support.office.com/en-us/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  
+[Usar complementos en Outlook en la web](https://support.office.com/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  

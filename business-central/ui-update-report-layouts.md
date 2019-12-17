@@ -1,25 +1,23 @@
 ---
 title: Conservar una diseño de informe actualizado | Documentos de Microsoft
 description: Es posible que necesite actualizar un diseño de informe personalizado que se use en un informe. Esto es necesario cuando ha habido un cambio de diseño en el conjunto de datos del informe, por ejemplo, si se elimina un campo que se utiliza en el diseño.
-services: project-madeira
-documentationcenter: ''
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: jswymer
-ms.openlocfilehash: 9bc4879e6461ad9a2a1f88e2c877bc80d27c2206
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 11/15/2019
+ms.author: sgroespe
+ms.openlocfilehash: 7a9389134c57d60999be2019a1e4394f8c3a00e5
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314993"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876948"
 ---
-# <a name="updating-report-or-document-layouts"></a>Actualizar diseños de informes o documentos
+# <a name="update-custom-report-layouts"></a>Actualizar los diseños de informe personalizados
 De vez en cuando es posible que necesite actualizar un diseño de informe personalizado que se use en un informe. Esto es necesario cuando ha habido un cambio de diseño en el conjunto de datos del informe, por ejemplo, si se elimina un campo que se utiliza en el diseño. Si un diseño de informe requiere actualización, recibirá un mensaje de error cuando intente obtener una vista previa del informe, o al imprimirlo o guardarlo.  
 
 Para actualizar automáticamente el diseño de un informe a partir del mensaje de error que aparece al ejecutar un informe, seleccionando el botón **Sí** en el mensaje de error. O, antes de ejecutar los informes, puede actualizar determinados diseños de informe o todos los diseños de informe personalizados que podrían verse afectados por los cambios del conjunto de datos.  
@@ -30,7 +28,7 @@ No todos los cambios de conjunto de datos de informe se pueden actualizar autom�
 
 ## <a name="to-update-one-or-more-custom-report-layouts"></a>Para actualizar una o varias plantillas de informe personalizado  
 
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diseños de informe** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diseños de informe** y luego elija el enlace relacionado.  
 
 2.  En la página **Diseños de informe**, si desea actualizar un informe específico, seleccione el diseño de lista y, después, seleccione la acción **Actualizar diseño**. O, si desea actualizar todos los diseños de informe personalizados para la empresa, seleccione la acción **Actualizar todos los diseños**.  
 
@@ -38,7 +36,7 @@ Si no se producen errores, las actualizaciones se aplican a los diseños de info
 
 ## <a name="to-test-custom-report-layout-updates"></a>Para probar actualizaciones de diseños de informe personalizados  
 
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Selección de diseño de informes** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Selección de diseño de informes** y luego elija el enlace relacionado.  
 
 2.  En la página **Selección de diseño de informes**, seleccione la acción **Probar actualizaciones de diseño**.  
 

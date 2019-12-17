@@ -1,8 +1,6 @@
 ---
 title: 'Tutorial: planificación manual de suministros | Documentos de Microsoft'
 description: En este tutorial, se demuestra el proceso de planificar pedidos de suministro para cubrir la nueva demanda. Puede iniciar la planificación de suministros a intervalos fijos, por ejemplo, todas las mañanas o todos los lunes, o bien cuando le notifiquen desde ventas o producción, en función del tipo de demanda.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: cf3a0653b4094b9e7d90be2909572ed831863c4f
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 0da12af6eb5a165c717cd112735a91aebe3ae85d
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554673"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876972"
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Tutorial: planificación manual de suministros
 
@@ -69,7 +67,7 @@ A la página **Planificación de pedidos** se puede acceder desde varias ubicaci
 
 ### <a name="to-use-the-order-planning-page"></a>Para utilizar la página Planificación de pedidos  
 
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Planificación de pedidos** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Planificación de pedidos** y luego elija el enlace relacionado.  
 
      Cuando se abre la página **Planificación de pedidos** por primera vez, debe calcularse un plan para mostrar la nueva demanda desde la última vez que se calculó.  
 
@@ -227,7 +225,7 @@ A la página **Planificación de pedidos** se puede acceder desde varias ubicaci
 
      El mensaje indica que ya se han suministrado todos los productos requeridos. Compruebe los órdenes de producción planificada en firme que se crean.  
 
-13. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer") escriba **O.P. Planificadas en firme** y luego elija el enlace relacionado.  
+13. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **O.P. Planificadas en firme** y luego elija el enlace relacionado.  
 
      En la página **O.P. planif. en firme** revise como están programadas las horas de inicio y finalización de cada pedido según la estructura del producto. Primero se producen los componentes de nivel inferior. Por lo tanto, debe planificar pedidos de varios niveles como se demuestra en este flujo de trabajo de planificación.  
 

@@ -1,8 +1,6 @@
 ---
 title: 'Detalles de diseño: Tabla de asignación de planificación | Documentos de Microsoft'
 description: Este tema proporciona una perspectiva de qué ocurre cuando se modifica la forma en que realiza un plan para un producto.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3bc3699e7ec5d356ed1bd1b85ad574f2e50d831b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: fac2dfffae5eb1e09b2a0568024f51a2bc93e215
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303225"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878514"
 ---
 # <a name="design-details-planning-assignment-table"></a>Detalles de diseño: Tabla de asignación de planificación
 Todos los productos se deben planificar; no obstante, no hay razón para calcular un plan para un producto a menos que haya habido un cambio en el patrón de demanda o de aprovisionamiento desde la última vez que se calculó un plan.  

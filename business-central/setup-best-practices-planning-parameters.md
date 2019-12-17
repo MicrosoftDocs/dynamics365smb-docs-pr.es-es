@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 11/27/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9a29dce0b8ec2a4c7738f7f74144eea7cb441e65
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5fb804c76bcf5ea86bff181a9c3d3f373ab56a63
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315761"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877044"
 ---
 # <a name="setup-best-practices-planning-parameters"></a>Procedimientos recomendados de configuración: parámetros de la planificación
 La ficha desplegable **Planificación** de la ficha de producto es el centro de la cadena de suministro de una empresa. La configuración de los parámetros correctos de planificación es muy importante para un control de inventario rentable y un servicio al cliente superior.  
@@ -44,4 +44,5 @@ La ficha desplegable **Planificación** de la ficha de producto es el centro de 
  [Procedimientos recomendados de configuración: planificación de suministros](setup-best-practices-supply-planning.md)   
  [Detalles de diseño: planificación de aprovisionamiento](design-details-supply-planning.md)   
  [Configurar áreas de aplicación complejas mediante procedimientos recomendados](set-up-complex-application-areas-using-best-practices.md)  
+ [Detalles de diseño: Demanda en almacén vacío](design-details-demand-at-blank-location.md)  
  [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

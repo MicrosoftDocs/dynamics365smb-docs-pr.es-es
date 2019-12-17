@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 10/17/2019
+ms.date: 11/20/2019
 ms.author: edupont
-ms.openlocfilehash: 497045b1c79f1ea27bebe994bbfbc39d5a29e1d9
-ms.sourcegitcommit: be1e2c49a8434d3f440d5a201508af9c3c8cc87f
+ms.openlocfilehash: 318e9afb29539b68aea4babf97c0608365406394
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2649817"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881269"
 ---
 # <a name="extending-included365finincludesd365fin_mdmd"></a>Ampliación de [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Microsoft [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] es una solución de administración empresarial que ayuda a las empresas a conectar sus finanzas, ventas, servicios y operaciones para simplificar los procesos empresariales, mejorar interacciones con el cliente y tomar mejores decisiones. [!INCLUDE[d365fin](includes/d365fin_md.md)] está disponible en la nube y para los usuarios a través de varios tipos de dispositivos, que siempre están actualizados. Con esta moderna plataforma de negocios, puede adaptar, ampliar y crear aplicaciones de manera fácil y rápida para que se ajusten a sus necesidades específicas, con poco o ningún desarrollo de código.  
@@ -30,7 +30,7 @@ Hay muchas ventajas en el uso de [!INCLUDE[d365fin](includes/d365fin_md.md)] com
 * Mejore el valor del negocio y aumente el trato con clientes existentes y nuevos
 * Consiga más con una plataforma que proporciona una experiencia moderna y ofrece escala  
 * Obtenga información práctica sobre el rendimiento de sus listas a través de Cloud Partner Portal o el proceso de publicación de aplicaciones de Office.
-* Combine con aplicaciones empresariales inteligentes, como PowerApps, Flow, Power BI, Azure AI y muchas más  
+* Combine con aplicaciones empresariales inteligentes, como Power Apps, Power Automate, Power BI, Azure AI y muchas más  
 
 Traiga sus servicios de [!INCLUDE[d365fin](includes/d365fin_md.md)] a Microsoft AppSource como:
 
@@ -39,9 +39,9 @@ Traiga sus servicios de [!INCLUDE[d365fin](includes/d365fin_md.md)] a Microsoft 
 
 Las nuevas herramientas de desarrollo le permiten crear extensiones para usuarios de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Si desea familiarizarse con las nuevas herramientas u obtener información acerca de las extensiones 2.0, eche un vistazo a [aka.ms/GetStartedWithApps](https://aka.ms/GetStartedWithApps).  
 
-Encuentre información sobre aplicaciones y servicios de consultoría que están actualmente disponibles en [Microsoft AppSource](https://appsource.microsoft.com/en-us/marketplace/consulting-services?country=US&page=1).
+Encuentre información sobre aplicaciones y servicios de consultoría que están actualmente disponibles en [Microsoft AppSource](https://appsource.microsoft.com/consulting-services).
 
-Para ayudar a los usuarios empresariales a comenzar rápidamente, Microsoft ha agregado un catálogo de ofertas de servicios de consultoría para soluciones basadas en [!INCLUDE[d365fin](includes/d365fin_md.md)], Power BI y PowerApps a AppSource. Más información acerca de los [Servicios de consultoría](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-consulting).
+Para ayudar a los usuarios empresariales a comenzar rápidamente, Microsoft ha agregado un catálogo de ofertas de servicios de consultoría para soluciones basadas en [!INCLUDE[prodshort](includes/prodshort.md)], Power BI y Power Apps a AppSource. Más información acerca de los [Servicios de consultoría](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-consulting).
 
 ## <a name="choosing-which-services-to-offer-with-included365finincludesd365fin_mdmd"></a>Elegir qué servicios ofrecer con [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
@@ -58,14 +58,14 @@ Amplíe la experiencia y la capacidad de [!INCLUDE[d365fin](includes/d365fin_md.
 Cumpla con las capacidades regulatorias locales mediante el desarrollo de [!INCLUDE[d365fin](includes/d365fin_md.md)], que adapta las áreas funcionales a los requisitos del mercado local junto con el [Servicio de traducción de Dynamics 365](/dynamics365/unified-operations/fin-ops-core/dev-itpro/lifecycle-services/translation-service-overview). Alinee las capacidades básicas de los requisitos legales locales y amplíe la funcionalidad existente para competir con éxito en su mercado local. Más información acerca del [Desarrollo de una solución de localización](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization).
 
 ### <a name="reseller-solution"></a>Solución de distribuidor
-Dado que cada empresa es única, con [Personalizar inquilinos](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-customizing-tenants), puede hacer coincidir la forma en que trabaja con sus procesos simplificados o su terminología y la forma en que sus empleados o departamentos se conectan y colaboran. Además, puede optar por distribuir y ajustar [!INCLUDE[d365fin](includes/d365fin_md.md)] a las necesidades individuales de sus clientes mediante [Servicios de consultoría](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-consulting). O bien, use Microsoft Flow, Power Apps y Power BI para crear [Flujos de trabajo personalizados](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-no-code), aplicaciones e informes de negocios sin tener que escribir ningún código. Más información acerca de [Distribuidor de Dynamics 365 (VAR)](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller).
+Dado que cada empresa es única, con [Personalizar inquilinos](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-customizing-tenants), puede hacer coincidir la forma en que trabaja con sus procesos simplificados o su terminología y la forma en que sus empleados o departamentos se conectan y colaboran. Además, puede optar por distribuir y ajustar [!INCLUDE[d365fin](includes/d365fin_md.md)] a las necesidades individuales de sus clientes mediante [Servicios de consultoría](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-consulting). O bien, use Power Apps, Power Automate y Power BI para crear [Flujos de trabajo personalizados](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-no-code), aplicaciones e informes de negocios sin tener que escribir ningún código. Más información acerca de [Distribuidor de Dynamics 365 (VAR)](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller).
 
 ## <a name="where-do-i-learn-more"></a>¿Dónde puedo encontrar más información?
 Para obtener más información acerca de las ofertas de servicios de consultoría de Microsoft AppSource, vea los vínculos siguientes:
 
-[Ofertas de consultoría de AppSource](https://appsource.microsoft.com/en-us/marketplace/consulting-services?country=US&page=1)  
+[Ofertas de consultoría de AppSource](https://appsource.microsoft.com/marketplace/consulting-services)  
 [Idoneidad de socio](https://smp-cdn-prod.azureedge.net/documents/Microsoft%20AppSource%20Partner%20Listing%20Guidelines.pdf)  
-[Formulario de nombramiento de socio](https://appsource.microsoft.com/en-us/partners/list-consulting-service)  
+[Formulario de nombramiento de socio](https://appsource.microsoft.com/partners/list-consulting-service)  
 
 ## <a name="the-ready-to-go-program"></a>El programa Ready to Go
 El programa Ready to Go está diseñado para ayudarlo a llevar sus ofertas de [!INCLUDE[d365fin](includes/d365fin_md.md)] a Microsoft AppSource. El programa incluye:
@@ -82,6 +82,6 @@ La versión estándar del producto incluye cada vez más extensiones desarrollad
 ## <a name="see-also"></a>Consulte también
 [Introducción](product-get-started.md)  
 
-[https://appsource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365-for-financials&page=1)  
+[https://appsource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

@@ -1,8 +1,6 @@
 ---
 title: Cómo configurar plantillas de ubicación | Documentos de Microsoft
 description: Con la funcionalidad de ubicación y picking directo, se sugiere la ubicación más adecuada para los productos en un momento determinado, según la plantilla de ubicación que ha configurado para el almacén, los rankings que ha dado a las ubicaciones y las cantidades máxima y mínima que ha definido para las ubicaciones fijas.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9d984ff5646fd467bf5c30ee3bebf4c377e38365
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 811e3cda680d414694f1cf060bdb66390939e6d6
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310137"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876403"
 ---
 # <a name="set-up-put-away-templates"></a>Configurar plantillas de ubicación
 Con la funcionalidad de ubicación y picking directo, se sugiere la ubicación más adecuada para los productos en un momento determinado, según la plantilla de ubicación que ha configurado para el almacén, los rankings que ha dado a las ubicaciones y las cantidades máxima y mínima que ha definido para las ubicaciones fijas.  
@@ -25,7 +23,7 @@ Con la funcionalidad de ubicación y picking directo, se sugiere la ubicación m
 Puede configurar varias plantillas de ubicación y seleccionar una para controlar las ubicaciones en general en el almacén. También puede seleccionar una plantilla de ubicación para cualquier producto o unidad de almacenamiento que tenga unos requisitos de ubicación especiales.  
 
 ## <a name="to-set-up-put-away-templates"></a>Para configurar las plantillas de ubicación  
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Plantillas de ubicación** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Plantillas de ubicación** y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Nuevo**.  
 3.  Escriba un código que sea el identificador exclusivo de la plantilla que va a crear.  
 4.  Escriba una breve descripción, si lo desea.  

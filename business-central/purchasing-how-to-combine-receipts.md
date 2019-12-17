@@ -1,8 +1,6 @@
 ---
 title: Cómo permitir albaranes de más productos de los que se han pedido | Documentos de Microsoft
 description: Si desea facturar varios albaranes de compra a la vez, puede utilizar la función Combinar albaranes.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6076412504a8f9176503deced03ae92c7e8076c5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 3a8a637292f25f683b197d96d55816bfc79d44cf
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312441"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883051"
 ---
 # <a name="allow-receipt-of-more-items-than-ordered"></a>Permitir el albarán de más productos de los que se han pedido
 Cuando reciba más productos de los que ha pedido, es posible que desee recibirlos en lugar de cancelar el albarán. Por ejemplo, puede ser más barato mantener el exceso en su inventario que devolverlos o su proveedor puede ofrecerle un descuento por conservarlos.
@@ -26,7 +24,7 @@ Los procesadores de pedidos y los empleados del almacén deben poder manejar est
 
 ## <a name="to-receive-more-items-than-specified-on-the-purchase-document"></a>Para recibir más productos de los especificados en el documento de compra
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración compras y pagos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de compras y pagos** y luego elija el enlace relacionado.
 2.   
 
 ## <a name="see-also"></a>Consulte también  

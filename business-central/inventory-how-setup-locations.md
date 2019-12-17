@@ -12,20 +12,23 @@ ms.workload: na
 ms.search.keywords: warehouse, distribution center
 ms.date: 10/01/2019
 ms.author: SorenGP
-ms.openlocfilehash: 1ad6b8333e13c01a1ed97ebdd9553f0e7fb31297
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5554bb1576705cd1f3cbcddc7ef33da7b5db3796
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309825"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878322"
 ---
 # <a name="set-up-locations"></a>Configurar ubicaciones
 Si compra, almacena o vende productos en más de un sitio o almacén, debe configurar cada ubicación con una ficha de almacén y definir las rutas de transferencia.
 
 Así podrá crear las líneas de documento para un almacén específico, consultar la disponibilidad por almacén y transferir inventario entre almacenes. Para obtener más información, vea [Administrar inventario](inventory-manage-inventory.md).
+<br><br>  
+  
+> [!Video https://www.microsoft.com/videoplayer/embed/RE4aQvq]
 
 ## <a name="to-create-a-location-card"></a>Para crear una ficha de almacén
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Ubicaciones** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Almacenes** y, a continuación, elija el enlace relacionado.
 2. Seleccione la acción **Nuevo**.
 3. En la página **Ficha de almacén**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Repita los pasos 2 y 3 para cada almacén en el que desea guardar el inventario.
@@ -34,7 +37,7 @@ Así podrá crear las líneas de documento para un almacén específico, consult
 > Muchos campos de la ficha de almacén se refieren a la manipulación de productos en los procesos de almacén de entrada y salida. Para obtener más información, consulte [Configuración de la administración de almacén](warehouse-setup-warehouse.md).
 
 ## <a name="to-create-a-transfer-route"></a>Para crear una ruta de transferencia
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Rutas de transferencia** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Rutas de transferencia** y luego elija el enlace relacionado.
 2. Opcionalmente, desde cualquier página **Ficha almacén**, elija la acción **Rutas de transferencia**.
 3. Seleccione la acción **Nuevo**.
 4. En la página **Ficha de almacén**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]

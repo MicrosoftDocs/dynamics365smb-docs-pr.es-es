@@ -1,8 +1,6 @@
 ---
 title: 'Detalles de diseño: Seguimiento de productos | Documentos de Microsoft'
 description: Este tema proporciona un resumen de los detalles de diseño del seguimiento de producto.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b263abf09a3d74bbac4f8b94c4dde61644702bfc
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1eaa4339512ebc243a7ba8b7e3193c943aeebaef
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303201"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878538"
 ---
 # <a name="design-details-item-tracking"></a>Detalles de diseño: Seguimiento de productos
 A medida que el flujo de productos en la cadena de suministro actual se hace cada vez más complejo, la posibilidad de hacer un seguimiento de los productos cobra mayor importancia para las empresas implicadas. La supervisión del flujo de transacciones de un producto es un requisito legal en el suministro de productos médicos y químicos, pero en otros sectores se pueden supervisar los productos con garantías o fechas de vencimiento por motivos de servicio al cliente.  

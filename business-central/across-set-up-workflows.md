@@ -1,8 +1,6 @@
 ---
 title: Configurar flujos de trabajo | Documentos de Microsoft
 description: Puede configurar y utilizar flujos de trabajo que vinculen tareas de procesos empresariales realizadas por distintos usuarios. Las tareas de sistema, como registros automáticos, se pueden incluir como pasos en los flujos de trabajo, antes o después de las tareas de usuario. Solicitar y conceder aprobaciones para crear registros nuevos son pasos habituales de un flujo de trabajo.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: dd399a74f4f5f08dab9b3abe86cac6844ab8efbd
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6ff257a13a995b9617bdae9de98830f50e45edee
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304785"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879360"
 ---
 # <a name="setting-up-workflows"></a>Configuración de flujos de trabajo
 Puede configurar y utilizar flujos de trabajo que vinculen tareas de procesos empresariales realizadas por distintos usuarios. Las tareas de sistema, como registros automáticos, se pueden incluir como pasos en los flujos de trabajo, antes o después de las tareas de usuario. Solicitar y conceder aprobaciones para crear registros nuevos son pasos habituales de un flujo de trabajo. Para obtener más información, consulte [Uso de flujos de trabajo](across-use-workflows.md).  
@@ -36,7 +34,7 @@ Puede configurar y utilizar flujos de trabajo que vinculen tareas de procesos em
 |Configurar usuarios de flujo de trabajo que participan en flujos de trabajo de aprobación.|[Configurar usuarios de aprobación](across-how-to-set-up-approval-users.md)|  
 |Especificar cómo se notifica a los usuarios del flujo de trabajo los pasos del flujo de trabajo, incluidas las solicitudes de aprobación.|[Configurar notificaciones de flujo de trabajo](across-setting-up-workflow-notifications.md)|  
 |Especifique si los usuarios reciben notificaciones por correo electrónico o nota, y con qué frecuencia se envían las notificaciones.|[Especificar cómo y cuándo recibir notificaciones](across-how-to-specify-when-and-how-to-receive-notifications.md)|  
-|Personalice el contenido de la notificación por correo electrónico si modifica el informe 1320, Correo electrónico de notificación.|[Crear y modificar un diseño de informe o documento personalizado](ui-how-create-custom-report-layout.md)|  
+|Personalice el contenido de la notificación por correo electrónico si modifica el informe 1320, Correo electrónico de notificación.|[Crear y modificar diseños de informe personalizados](ui-how-create-custom-report-layout.md)|  
 |Configure un servidor SMTP para habilitar la comunicación de correo electrónico dentro y fuera de [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Configurar correo electrónico](admin-how-setup-email.md)|
 |Especificar los diferentes pasos de un flujo de trabajo por conexión de eventos de flujo de trabajo con respuestas de flujo de trabajo.|[Crear flujos de trabajo](across-how-to-create-workflows.md)|  
 |Utilizar plantillas de flujo de trabajo para crear flujos de trabajo nuevos.|[Crear flujos de trabajo a partir de plantillas de flujo de trabajo](across-how-to-create-workflows-from-workflow-templates.md)|  

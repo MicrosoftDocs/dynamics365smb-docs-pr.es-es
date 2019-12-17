@@ -1,8 +1,6 @@
 ---
 title: Migrar datos del cliente | Documentos de Microsoft
 description: Puede migrar los datos existentes de cliente de un sistema de ERP existente a Business Central utilizando RapidStart Services. Puede usar archivos .xlsx de Excel como soporte de datos. También puede mover manualmente los datos al introducirlos directamente en la empresa.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,17 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 12/04/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7f2d1f354b789931bde76ed8869e326a34e53919
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 80fbd0a1024ae104fb6fc0921e1260c89a26debf
+ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304423"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2896210"
 ---
 # <a name="migrate-customer-data"></a>Migrar datos del cliente
 Puede migrar los datos existentes de cliente de un sistema de ERP existente a [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizando las herramientas de migración de datos de RapidStart Services. Puede usar archivos de Excel como soporte de datos. También puede mover manualmente los datos al introducirlos directamente en la empresa.
+
+> [!NOTE]
+> Los campos de tipo BLOB no se pueden exportar/importar con Excel.
 
 Las páginas **Info. gral. migración** y la **Configurar hoja** proporcionan acceso a las funciones y la vistas para realizar todas las tareas relacionadas con la migración de datos. Es recomendable que migre las tablas de una en una, para gestionar las dependencias en sus datos. En la migración, también tocará las tablas de los datos maestros, que contienen información acerca de los clientes, proveedores, productos, contacto y la contabilidad general.  
 
@@ -40,7 +41,7 @@ Antes de empezar, compruebe que se encuentra en el Área de trabajo del implemen
 > Tampoco se importarán las tablas que tengan diferentes claves principales ni los campos que tengan distintos tipos de datos. Por ejemplo, si el paquete de configuración incluye la tabla **50000 Cliente** que tiene la clave principal **Code20** y la base de datos a la que importa el paquete incluye la tabla **50000 Banco cliente** que tiene la clave principal **Code20 + Código 20**, no se importarán los datos.  
 
 1. Abra la nueva empresa.  
-2. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Paquetes de configuración** y luego elija el enlace relacionado.  
+2. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Paquetes de configuración** y luego elija el enlace relacionado.  
 3. Elija la acción **Importar paquete**. Navegue hasta el archivo del paquete .rapidstart que desea importar y luego elija la acción **Abrir**. Durante la importación, se descomprimen los contenidos del paquete y se crea el registro del paquete.  
 
     Cuando la importación esté completada, puede ver el número de tablas de configuración que se han importado en el campo **Nº de tablas**.  
@@ -57,7 +58,7 @@ Si la selección de tablas no cubre sus necesidades, puede crear uno o varios nu
 ## <a name="to-create-a-data-migration-file"></a>Para crear un archivo de migración de datos
 Puede crear nuevos archivos de migración de datos y personalizarlos para satisfacer las necesidades de su negocio. Tenga en cuenta que un archivo solo se puede utilizar para migrar un campo que tenga su propiedad **FieldClass** establecida en **Normal**.  
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Paquete de configuración** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Paquete de configuración** y luego elija el enlace relacionado.  
 2. Seleccione y abra el paquete que desea utilizar para migrar datos y después seleccione **Obtener tablas**. Se abre la página **Traer tabla de paquete**.  
 3. En el campo **TableID**, introduzca un número de tabla o seleccione una tabla de la lista, por ejemplo, la tabla 18, **Cliente**. El campo **Nombre de tabla** se rellena automáticamente.  
 4. Seleccione la nueva tabla de la migración y, a continuación, en la pestaña **Tablas**, elija la acción **Campos**. Se abre la página **Campos migración**.  
@@ -73,7 +74,7 @@ Se creará una nueva tabla de migración.
 ## <a name="to-export-data-migration-files"></a>Para exportar archivos de migración
 Cuando haya determinado las tablas a las que desea transferir datos de cliente, debe exportar los archivos.  
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Paquetes de configuración** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Paquetes de configuración** y luego elija el enlace relacionado.  
 2. Seleccione y abra el paquete que desee usar para la exportación.
 3. Seleccione la tabla o tablas que desea exportar y después seleccione **Exportar a Excel**.
 4. Guarde el archivo Excel exportado.  
@@ -94,7 +95,7 @@ Cuando liquide datos que ha importado desde Excel o desde un paquete RapidStart,
 
 En los siguientes procedimientos, debe revisar por adelantado los valores que desea que se retengan durante el proceso de migración. Para realizar los procedimientos siguientes, necesitará los archivos de migración de datos (.xlsx) que haya exportado desde [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, consulte [Para exportar archivos de migración](admin-migrate-customer-data.md#to-export-data-migration-files).
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Paquetes de configuración** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Paquetes de configuración** y luego elija el enlace relacionado.
 2. Abra el paquete de la empresa en cuestión.  
 3. Seleccione la tabla a la que desee asignar valores y en la pestaña **Tablas**, elija la acción **Campos**.  
 4. Para cada campo que desee asignar, elija la acción **Asignación**.  
@@ -112,7 +113,7 @@ El ejemplo siguiente ilustra cómo implementa [!INCLUDE[d365fin](includes/d365fi
 3. Cuando se aplican datos, la asignación proporcionada en el campo **Código** de la tabla **Vendedor/Comprador** también se tendrá en cuenta al procesar los campos **Código de vendedor** y **Código de comprador**.
 
 ## <a name="to-add-additional-values-to-included365finincludesd365fin_mdmd"></a>Para agregar valores adicionales a [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Paquetes de configuración** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Paquetes de configuración** y luego elija el enlace relacionado.  
 2. Seleccione la tabla a la que desee asignar valores adicionales y en la pestaña **Tablas**, elija la acción **Campos**.  
 3. Para los campos para los que desea que [!INCLUDE[d365fin](includes/d365fin_md.md)] permita valores adicionales durante la migración, seleccione la casilla **Crear códigos que faltan**.  
 4. Importe los datos del cliente. Para obtener más información, consulte [Para importar datos del cliente](admin-migrate-customer-data.md#to-import-customer-data).

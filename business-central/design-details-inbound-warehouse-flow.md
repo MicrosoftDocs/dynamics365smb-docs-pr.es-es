@@ -1,8 +1,6 @@
 ---
 title: 'Detalles de diseño: Flujo de entrada en almacén | Documentos de Microsoft'
 description: El flujo de entrada de un almacén comienza cuando los productos llegan al almacén de la ubicación de empresa, recibidos de orígenes externos o de otra ubicación de empresa. Un empleado registra los productos normalmente mediante el escaneo de un código de barras. Desde la dársena de recepción, las actividades de almacén se llevan a cabo en distintos niveles de complejidad para introducir los productos en el área de almacén.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1b8a30732b0bf562e54d74c6477c95c36a5ab524
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8c7dd9f8ed55465a45ef843ebf2a996b79b454f3
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303489"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880443"
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Detalles de diseño: Flujo de entrada en almacén
 El flujo de entrada de un almacén comienza cuando los productos llegan al almacén de la ubicación de empresa, recibidos de orígenes externos o de otra ubicación de empresa. Un empleado registra los productos normalmente mediante el escaneo de un código de barras. Desde la dársena de recepción, las actividades de almacén se llevan a cabo en distintos niveles de complejidad para introducir los productos en el área de almacén.  
@@ -53,7 +51,7 @@ En los métodos A, B y C, las acciones de recepción y ubicación se agrupan en 
 ## <a name="basic-warehouse-configurations"></a>Configuración básica de almacén  
 En el diagrama siguiente se ilustran los flujos de almacén de entrada por tipo de documento en la configuración básica de almacén. Los números del diagrama corresponden a los pasos de las secciones que siguen el diagrama.  
 
-![Flujo de entrada en la configuración básica de almacén](media/design_details_warehouse_management_inbound_basic_flow.png "Flujo de entrada en la configuración básica de almacén")  
+![Flujo de entrada en las configuraciones básicas de almacén](media/design_details_warehouse_management_inbound_basic_flow.png "Flujo de entrada en las configuraciones básicas de almacén")  
 
 ### <a name="1-release-source-document--create-inventory-put-away"></a>1: Lanzar documento de origen/Crear ubicación de inventario  
 Cuando se reciben productos en el almacén, el usuario responsable de la recepción libera el documento de origen, como, por ejemplo, un pedido de compra o un pedido de transferencia interna, para señalizar a los empleados de almacén que los productos recibidos se pueden guardar en el inventario. El usuario también puede crear mediante envío documentos de ubicación de inventario para líneas de pedido particulares, en función de las ubicaciones especificadas y de las cantidades que gestionar.  
@@ -72,7 +70,7 @@ Se crean movimientos de producto positivos, se crean movimientos de almacén y s
 ## <a name="advanced-warehouse-configurations"></a>Configuración avanzada de almacén  
 En el diagrama siguiente se ilustran los flujos de almacén de entrada por tipo de documento en la configuración avanzada de almacén. Los números del diagrama corresponden a los pasos de las secciones que siguen el diagrama.  
 
-![Flujo de entrada en la configuración avanzada de almacén](media/design_details_warehouse_management_inbound_advanced_flow.png "Flujo de entrada en la configuración avanzada de almacén")  
+![Flujo de entrada en las configuraciones avanzadas de almacén](media/design_details_warehouse_management_inbound_advanced_flow.png "Flujo de entrada en las configuraciones avanzadas de almacén")  
 
 ### <a name="1-release-source-document"></a>1: Lanzar documento de origen  
 Cuando se reciben productos en el almacén, el usuario responsable de la recepción libera el documento de origen, como, por ejemplo, un pedido de compra o un pedido de transferencia interna, para señalizar a los empleados de almacén que los productos recibidos se pueden guardar en el inventario.  

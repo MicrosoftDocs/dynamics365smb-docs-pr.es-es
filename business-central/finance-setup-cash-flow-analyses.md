@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: c33ef33a9eb660e7cde7da2d1e8a6dad76f18dd7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 88b84c13da3b443714bcfb7cb86a52ee49264c64
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301713"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879494"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Configuración del análisis de flujo de efectivo
 Si desea ayuda para decidir qué debe hacer con el efectivo, eche un vistazo a los gráficos del Área de trabajo Contable:  
@@ -56,7 +56,7 @@ Para ayudarle a empezar, se proporcionan algunas cuentas y configuraciones de fl
 Para configurarla, busque **cuentas de flujo de efectivo**, elija el vínculo y rellene los campos. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Repita estos pasos para la **configuración de flujo de efectivo**.  
 
 ## <a name="set-up-cash-flow-forecasts"></a>Configurar previsiones de flujo de efectivo
-El gráfico **Previsión de flujo de efectivo** utiliza cuentas de flujo de efectivo, configuraciones de flujo de efectivo y previsiones de flujo de efectivo. Se proporcionan algunas, pero configurar las suyas propias usando una guía de configuración asistida. Esta guía le ayuda a especificar aspectos como la frecuencia con que se actualizará la previsión, las cuentas en las que se basará, la información acerca de cuándo se pagan impuestos y si activar [Azure AI](https://azure.microsoft.com/en-us/overview/ai-platform/).  
+El gráfico **Previsión de flujo de efectivo** utiliza cuentas de flujo de efectivo, configuraciones de flujo de efectivo y previsiones de flujo de efectivo. Se proporcionan algunas, pero configurar las suyas propias usando una guía de configuración asistida. Esta guía le ayuda a especificar aspectos como la frecuencia con que se actualizará la previsión, las cuentas en las que se basará, la información acerca de cuándo se pagan impuestos y si activar [Azure AI](https://azure.microsoft.com/overview/ai-platform/).  
 
 Las previsiones de flujo de efectivo pueden usar Azure AI para incluir documentos cuya fecha de vencimiento sea en el futuro. El resultado es una predicción más completa. La conexión a Azure AI ya está configurada automáticamente. Solo necesita activarla. Al iniciar sesión en [!INCLUDE[d365fin](includes/d365fin_md.md)], se muestra una notificación en una barra azul y proporciona un vínculo a la configuración de flujo de caja predeterminada. La notificación solo se muestra una vez. Si la cierra pero decide activar Azure AI, puede utilizar la guía de configuración asistida o un proceso manual.  
 
@@ -67,14 +67,14 @@ Para usar la guía de configuración asistida:
 
 1. En el área de trabajo Contable, en el gráfico **Previsión de flujo de efectivo**, elija la acción **Abrir configuración asistida**.  
 2. Rellene los campos en cada paso de la guía.  
-3. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Previsión de flujo de efectivo** y luego elija el enlace relacionado.
+3. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Previsión de flujo de efectivo** y luego elija el enlace relacionado.
 4. En la página **Previsión de flujo de efectivo**, seleccione la acción **Recalcular previsión**.  
 
 Para usar un proceso manual:  
 
 1. En el área de trabajo Contable, busque **Configuración de flujo de efectivo** y, a continuación, elija el vínculo relacionado.  
 2. Expanda la ficha desplegable **Azure AI** y active la casilla **Azure AI habilitado**.  
-3. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Previsión de flujo de efectivo** y luego elija el enlace relacionado.
+3. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Previsión de flujo de efectivo** y luego elija el enlace relacionado.
 4. En la página **Previsión de flujo de efectivo**, seleccione la acción **Recalcular previsión**.  
 
 > [!TIP]  
@@ -88,7 +88,7 @@ También puede crear su propio servicio web predictivo basado en un modelo públ
 3. Use su cuenta de Microsoft para iniciar sesión en un espacio de trabajo y, a continuación, copie el modelo.  
 4. Ejecute el modelo y como publíquelo como un servicio web.  
 5. Anote la URL de API y la clave de API. Usará estas credenciales para una configuración de flujo de caja.  
-6. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración de flujo de efectivo** y luego elija el enlace relacionado.  
+6. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración flujos efectivo** y luego elija el enlace relacionado.  
 7. Expanda la ficha desplegable **Azure AI** y rellene los campos.  
 
 ## <a name="see-also"></a>Consulte también

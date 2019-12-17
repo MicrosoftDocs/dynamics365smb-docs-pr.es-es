@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: list, filter, pane, views
 ms.date: 01/01/2019
 ms.author: mikebc
-ms.openlocfilehash: d2caa1d9b84d99c0b43a70bca1c45da81138f7b9
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6357a025c58df8e55bf7aaad5961190ad6ed3350
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316838"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881995"
 ---
 # <a name="list-views-faq"></a>Preguntas frecuentes sobre vistas de lista
 Este tema responde preguntas que nuestros usuarios avanzados hacen a menudo sobre cómo trabajar con vistas de lista y guardar filtros.  
@@ -58,7 +58,7 @@ Algunas vistas del sistema pueden tener diseños únicos de las columnas de la l
 ### <a name="what-does-the-show-system-filters-link-do"></a>¿Qué hace el vínculo Mostrar filtros del sistema?
 En algunas páginas de lista, se mostrará el panel de filtro **Mostrar filtros del sistema** en la parte inferior del panel de filtro cuando la página incluye filtros especificados por el sistema. Por lo general, estos filtros especiales se usan para mostrar registros basados en el contexto actual, por ejemplo, cuando se debe filtrar una lista de pedidos para un cliente específico.
 
-Los desarrolladores establecen los filtros del sistema utilizando el grupo de filtros 0. Para obtener detalles técnicos sobre los filtros del sistema, consulte [Función de grupo de filtros](https://docs.microsoft.com/en-us/dynamics-nav/filtergroup-function--record-)
+Los desarrolladores establecen los filtros del sistema utilizando el grupo de filtros 0. Para obtener detalles técnicos sobre los filtros del sistema, consulte [Método de grupo de filtros](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-filtergroup-method)
 
 ### <a name="i-see-multiple-views-on-my-page-but-i-did-not-create-them-where-did-they-come-from"></a>Veo varias vistas en mi página, pero yo no las creé. ¿De dónde proceden?
 Las vistas que ve en cualquier lista son una combinación de sus vistas personales junto con las vistas del sistema. Las vistas del sistema pueden originarse desde la aplicación de negocio, desde extensiones o pueden ser específicas del rol si la lista se ha personalziado para su rol.

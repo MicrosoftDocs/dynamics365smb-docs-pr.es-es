@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 10/01/2019
+ms.date: 11/27/2019
 ms.author: sgroespe
-ms.openlocfilehash: 521ebb4ec1a1687ea4263f8f181dc32c69f2ad63
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 3cb9ffd6dadaeba7aab782c0bd8f45d3f4aa5387
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309891"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878346"
 ---
 # <a name="register-new-items"></a>Registro de productos nuevos
 Los productos, entre otros elementos, son la base de su empresa, las mercancías o servicios con las que comercializa. Cada producto se debe registrar como una ficha de producto.
@@ -34,10 +34,12 @@ Los productos que ofrece a sus clientes pero que no desea administrar en su sist
 > [!NOTE]  
 > Si existen plantillas para distintos tipos de producto, aparece una página automáticamente cuando se crea una nueva ficha de producto en la que puede seleccionar una plantilla de producto apropiada. Si solo existe una plantilla de producto, las nuevas fichas de producto utilizan siempre esa plantilla.
 
-En el siguiente procedimiento se explica cómo crear una ficha de producto desde cero. También puede crear nuevas fichas de producto copiando las existentes. Para obtener más información, consulte [Copiar productos existentes para crear productos nuevos](inventory-how-copy-items.md).
+En el siguiente procedimiento se explica cómo crear una ficha de producto desde cero. También puede crear nuevas fichas de producto copiando las existentes. Para obtener más información, consulte [Copiar productos existentes para crear productos nuevos](inventory-how-copy-items.md).<br><br>  
+
+> [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx]
 
 ## <a name="to-create-a-new-item-card"></a>Para crear una nueva ficha de producto.
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Productos** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos** y luego elija el enlace relacionado.  
 2. En la página **Productos**, seleccione la acción **Nuevo**.
 
     Si solo existe una plantilla de producto, se abre una nueva ficha de producto con algunos de los campos rellenados con la información de la plantilla.
@@ -50,7 +52,7 @@ En el siguiente procedimiento se explica cómo crear una ficha de producto desde
 >
 > Si selecciona **Promedio**, el coste unitario de un producto se calcula como el coste unitario medio en cada momento después de una compra. El inventario se valora con el supuesto de que todos los inventarios se venden simultáneamente. Con este ajuste, puede elegir el campo **Coste unitario** para ver en la página **Inf. general cálculo cte. medio** el historial de las transacciones con las que se calcula el coste medio.
 
-En la ficha desplegable **Precio y registro**, puede observar los precios especiales o los descuentos que concede al cliente por el producto si se cumplen determinados criterios, como, por ejemplo, el cliente, la cantidad de pedido mínima o la fecha final. Cada fila representa un precio especial o un descuento de línea. Cada columna representa un criterio aplicable para autorizar el precio especial que se introduzca en el campo **Precio de venta**, o el descuento de línea que se introduzca en el campo **% Descuento línea**. Para más información, vea [Registrar acuerdos de pago, descuentos y precios de venta](sales-how-record-sales-price-discount-payment-agreements.md).
+Puede ver o editar los precios o los descuentos especiales que concede al cliente por el producto si se cumplen determinados criterios, como, por ejemplo, el cliente, la cantidad de pedido mínima o la fecha final. Para ello, se eligen las acciones **Establecer precios especiales** o **Establecer descuentos especiales**. Por ejemplo, cada fila de la página **Precios ventas** representa un precio especial. Cada columna representa un criterio que debe aplicarse para conceder a un cliente el precio especial que introduzca en el campo **Precio venta** de la página **Precios ventas**. Para más información, vea [Registrar acuerdos de pago, descuentos y precios de venta](sales-how-record-sales-price-discount-payment-agreements.md).
 
 El producto quedará registrado y la ficha de producto está lista para usarse en los documentos de compra y venta.
 
@@ -68,7 +70,7 @@ La plantilla de producto se agrega a la lista de plantillas de producto, de modo
 ## <a name="to-set-up-multiple-vendors-for-an-item"></a>Para configurar varios proveedores para un producto  
 Si compra el mismo producto a varios proveedores, deberá introducir información acerca de cada proveedor del producto, como precios, plazo de entrega (días), descuentos, etc.  
 
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Productos** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos** y luego elija el enlace relacionado.  
 2.  Seleccione el elemento correspondiente y, a continuación, elija la acción **Editar**.  
 3.  Seleccione la acción **Proveedores**.  
 4.  Elija el campo **Nº proveedor** y, a continuación, seleccione el proveedor que desea configurar para el producto.  
@@ -79,7 +81,7 @@ Los proveedores aparecerán después en la página **Tarifas de compra productos
 
 ## <a name="see-also"></a>Consulte también
 [Crear numeración](ui-create-number-series.md)  
-[Grupos contables inventario](inventory-manage-inventory.md)  
+[Inventario](inventory-manage-inventory.md)  
 [Compras](purchasing-manage-purchasing.md)  
-[Ventas](sales-manage-sales.md)  
+[Ccial](sales-manage-sales.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

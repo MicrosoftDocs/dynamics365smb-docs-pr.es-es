@@ -1,8 +1,6 @@
 ---
 title: Configurar contratos de servicio | Documentos de Microsoft
 description: Aprenda cómo configurar contratos de servicio.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: service, cost, service order
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 785a1f813956fa769d55b9bd71544613ca463b5b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 96928809525ef07ee82725bad5dd7f6ac4b7a6e0
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316145"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877356"
 ---
 # <a name="set-up-service-contracts"></a>Configurar contratos de servicio
 Antes de que pueda trabajar con contratos, debe configurar las opciones siguientes: 
@@ -28,19 +26,19 @@ Antes de que pueda trabajar con contratos, debe configurar las opciones siguient
 * Las **Plantillas de clientes** que le permiten crear ofertas para contactos o clientes potenciales que no están registrados como clientes en [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="to-set-up-a-service-contract-group"></a>Para configurar un grupo de contratos de servicio  
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Grupos contrato servicio** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Grupos contrato servicio** y luego elija el enlace relacionado.  
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Elija la casilla **Sólo dto. en pedidos contrat.** si desea que los descuentos de contrato o servicio sean válidos únicamente para pedidos de servicio de contrato, como el mantenimiento.  
 
 ## <a name="to-set-up-a-service-contract-account-group"></a>Para configurar un grupo de cuentas de contratos de servicio  
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Grupos contables contr. serv.** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Grupos contables contr. serv.** y luego elija el enlace relacionado.  
 2. Cree un grupo de cuentas de contratos de servicio nuevo.   
 3. Rellene los campos **Código** y **Descripción**. Estos campos describen el grupo de cuentas de servicio.  
 4. Rellene el campo **Cuenta contrato no prepago**, elija el número de la cuenta contable de no prepago.  
 5. En el campo **Cuenta contrato no prepago**, elija el número de la cuenta contable de prepago.  
 
 ## <a name="to-set-up-a-contract-template"></a>Para configurar una plantilla de contrato  
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Plantillas contrato servicio** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Plantillas de contrato de servicio** y luego elija el enlace relacionado.  
 2. Cree una plantilla de contrato de servicio nueva.  
 3. En el campo **N.º**, introduzca un número para la plantilla de contrato.  
   
@@ -50,7 +48,7 @@ Antes de que pueda trabajar con contratos, debe configurar las opciones siguient
 5. Elija la acción **Descuentos servicio** para agregar descuentos de contrato.  
 
 ## <a name="to-set-up-a-customer-template"></a>Para configurar una plantilla de cliente  
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Plantillas de cliente** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Plantillas de cliente** y luego elija el enlace relacionado.  
 2. Cree una ficha de plantilla de cliente nueva.  
 3. En la ficha desplegable **General**, escriba un nombre y una descripción para la plantilla de cliente en los campos **Código** y **Descripción** respectivamente. 
 4. Para definir los criterios de búsqueda, rellene los otros campos, como **Cód. país/región**, **Cód. territorio** y **Cód. idioma**.  

@@ -1,8 +1,6 @@
 ---
 title: Gestionar la configuración de la empresa en una hoja de trabajo | Documentos de Microsoft
 description: La hoja de trabajo de configuración es la ubicación central en la que puede planificar, controlar y realizar el trabajo de configuración. Puede crear una hoja de trabajo para cada empresa con la que trabaja o crear una hoja de trabajo de configuración estándar que se puede usar para configurar varias empresas idénticas.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b76312ecf58112fa62e4bb01da90611dedcd129e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c7e6d53d2d600c9a46fb99f82fc52383759f5435
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308049"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879237"
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Gestionar la configuración de la empresa en una hoja de trabajo
 La hoja de trabajo de configuración es la ubicación central en la que puede planificar, controlar y realizar el trabajo de configuración. Puede crear una hoja de trabajo para cada empresa con la que trabaja o crear una hoja de trabajo de configuración estándar que se puede usar para configurar varias empresas idénticas.  
@@ -30,7 +28,7 @@ En los procedimientos siguientes se muestra cómo agregar y personalizar la info
 
 ## <a name="to-open-the-configuration-worksheet"></a>Procedimiento para abrir la hoja de trabajo de configuración  
 1.  En [!INCLUDE[d365fin](includes/d365fin_md.md)], abra la empresa que servirá de línea base para la configuración, y abra el Área de trabajo del implementador de RapidStart Services.  
-2.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hoja de configuración** y luego elija el enlace relacionado.  
+2.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja de configuración** y luego elija el enlace relacionado.  
 
 ## <a name="to-add-a-table-to-the-worksheet"></a>Procedimiento para agregar una tabla a la hoja de trabajo  
 1.  En la página **Configurar hoja**, seleccione la acción **Editar lista**.  

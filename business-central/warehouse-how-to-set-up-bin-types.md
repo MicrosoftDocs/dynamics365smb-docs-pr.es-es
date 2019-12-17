@@ -1,8 +1,6 @@
 ---
 title: Configurar tipos de ubicaciones | Documentos de Microsoft
 description: Puede dirigir el flujo de productos por las ubicaciones que ha definido para las actividades de un almacén determinado. Indique las actividades de flujo básicas para cada ubicación y defina la forma en que se utilizará la ubicación, asignándola a un tipo de ubicación.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c0339ec5d008f5994d64cf6162feda8144d06a67
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9876fdc5d68721e15ca449bfe8fd2d790ade9b97
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310209"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881618"
 ---
 # <a name="set-up-bin-types"></a>Configurar tipos de ubicación
 Puede dirigir el flujo de productos por las ubicaciones que ha definido para las actividades de un almacén determinado. Indique las actividades de flujo básicas para cada ubicación y defina la forma en que se utilizará la ubicación, asignándola a un tipo de ubicación.  
@@ -25,7 +23,7 @@ Puede dirigir el flujo de productos por las ubicaciones que ha definido para las
 Existen seis tipos. Puede trabajar en el almacén con seis tipos de ubicaciones posibles, o puede trabajar con sólo los tipos de ubicaciones RECIBIR, COLOCARPICKING, ENVIAR y QC. Estos cuatro tipos permiten realizar sugerencias para admitir el flujo de productos y registrar las diferencias de existencias.  
 
 ## <a name="to-set-up-the-bin-types-you-want-to-use"></a>Para configurar los tipos de ubicaciones que desea utilizar  
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Tipos ubicación** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Tipos de ubicación** y luego elija el enlace relacionado.  
 2.  En la página **Tipos ubicación**, cree un código d e10 caracteres para el tipo de ubicación.  
 3.  Seleccione las actividades que se pueden realizar con cada tipo de ubicación.  
 

@@ -1,8 +1,6 @@
 ---
 title: Establecer la configuración de una empresa | Documentos de Microsoft
 description: El proceso de implementación comienza con la solución Business Central requerida. Toda esta información se agrupa en paquetes de configuración.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e1863c6933cf5722c4a9940225ec59aabbdf84da
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ef6300121695a0c8836df58e31848024c87deb75
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304329"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879063"
 ---
 # <a name="set-up-company-configuration"></a>Establecer la configuración de una empresa
 El proceso de la implementación comienza con el socio de Microsoft. El socio es responsable de analizar los detalles de configuración y crear un paquete que un cliente podrá aplicar fácilmente. Antes de crear una nueva empresa, debe planificar su configuración. Debe tener en cuenta los datos de configuración básica y tipos de datos que necesitará la solución [!INCLUDE[d365fin](includes/d365fin_md.md)]. Toda esta información se agrupa en paquetes de configuración.

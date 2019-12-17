@@ -1,8 +1,6 @@
 ---
 title: Oferta de una venta de ensamblar para pedido | Documentos de Microsoft
 description: Puede utilizar la administración de ensamblados para personalizar un artículo del ensamblado a la solicitud de un cliente durante el proceso de venta.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1ca43d43c382d191854e89760479d642edec722a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b6c9ea37d0a76c39a82f25970b58b60c1993afac
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307713"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880861"
 ---
 # <a name="quote-an-assemble-to-order-sale"></a>Oferta de una venta de ensamblar para pedido
 Puede utilizar la administración de ensamblados para personalizar un artículo del ensamblado a la solicitud de un cliente durante el proceso de venta. Para obtener más información, consulte [Venta de artículos ensamblados para pedido](assembly-how-to-sell-items-assembled-to-order.md).  
@@ -28,7 +26,7 @@ Como cuando se vende cualquier otro tipo de producto, también puede crear una o
 >  Como todos los tipos de oferta, las cantidades en ofertas de ensamblado no se utilizan en la disponibilidad, la planificación o las reservas.  
 
 ## <a name="to-create-a-sales-quote-for-an-assemble-to-order-item"></a>Para crear una oferta de venta de productos ensamblar para pedido  
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Oferta de venta** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Oferta de venta** y luego elija el enlace relacionado.  
 2.  Cree una línea de oferta de venta con una línea para un elemento del ensamblado. Para obtener más información, consulte [Crear ofertas de ventas](sales-how-make-offers.md).  
 3.  En el campo **Cdad. al ensamblar para pedido**, introduzca la cantidad total.
 
@@ -43,6 +41,6 @@ Como cuando se vende cualquier otro tipo de producto, también puede crear una o
 ## <a name="see-also"></a>Consulte también  
 [Gestión de ensamblaje](assembly-assemble-items.md)  
 [Trabajar con listas de materiales](inventory-how-work-BOMs.md)  
-[Grupos contables inventario](inventory-manage-inventory.md)  
+[Inventario](inventory-manage-inventory.md)  
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

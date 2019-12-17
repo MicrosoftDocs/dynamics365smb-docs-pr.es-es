@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 9f56e96b86fb7462799c9a9c655010ee2fb04381
-ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
+ms.openlocfilehash: 09edf4a84720085d0accb008b0ae29f47fa38f60
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2775312"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2808774"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Integración con Dynamics 365 Sales
 El papel de vendedor se considera a menudo uno de los trabajos más orientados hacia el exterior en una empresa. Sin embargo, puede ser útil para los vendedores poder mirar hacia adentro en la empresa y ver lo que está sucediendo en la trastienda. Mediante la integración de [!INCLUDE[d365fin](includes/d365fin_md.md)] y [!INCLUDE[crm_md](includes/crm_md.md)], puede dar a sus vendedores esa visión, permitiéndoles ver la información en [!INCLUDE[d365fin](includes/d365fin_md.md)] mientras trabajan en [!INCLUDE[crm_md](includes/crm_md.md)]. Por ejemplo, al preparar una oferta de ventas podría ser útil saber si tiene suficiente inventario para cumplir el pedido. Para obtener más información, consulte [Uso de Dynamics 365 Sales desde Business Central](marketing-integrate-dynamicscrm.md).
@@ -34,7 +34,7 @@ Los pasos siguientes proporcionan una visión general de los pasos de la integra
 > [!Note]  
 > Estas tareas requieren el rol de seguridad **Administrador del sistema** en [!INCLUDE[crm_md](includes/crm_md.md)] y [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-1. En el centro de administración de Office 365, configure una cuenta de usuario para conectarse y sincronizar los datos con [!INCLUDE[crm_md](includes/crm_md.md)]. Para obtener más información, consulte [Configuración de cuentas de usuario para la integración con Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md).
+1. En el centro de administración de Microsoft 365, configure una cuenta de usuario para conectarse y sincronizar los datos con [!INCLUDE[crm_md](includes/crm_md.md)]. Para obtener más información, consulte [Configuración de cuentas de usuario para la integración con Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md).
 
 2. Asignar las licencias de [!INCLUDE[crm_md](includes/crm_md.md)] a los usuarios de [!INCLUDE[d365fin](includes/d365fin_md.md)] que utilizarán las aplicaciones integradas.
 

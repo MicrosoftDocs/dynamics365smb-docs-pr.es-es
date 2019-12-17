@@ -9,23 +9,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
-ms.date: 10/01/2019
+ms.date: 11/15/2019
 ms.author: solsen
-ms.openlocfilehash: e78f5151694ce2fe5c37e6cfcc78ac69e5954dc1
-ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
+ms.openlocfilehash: 4f711e2bf06d0072fb063fd3d8ab5cb1e0813b68
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2775600"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2809110"
 ---
 # <a name="getting-ready-for-doing-business"></a>Preparación para hacer negocios
 Enhorabuena, acaba de iniciar su primera empresa en [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Para ayudarle a empezar a hacer negocios, puede visitar la página **Asistencia de negocio** donde puede iniciar guías de configuración asistida, vídeos o temas de ayuda para determinadas tareas de configuración. A la página se accede desde el gráfico en el área de trabajo **Administrador de negocio** eligiendo la flecha desplegable **Asistencia de negocio** y, a continuación, eligiendo la acción **Mostrar configuración y recursos de ayuda**. Al actualizar la página, el gráfico se reemplaza por los recursos de configuración y ayuda.
+Para ayudarle a empezar a hacer negocios, puede visitar la página **Configuración asistida** donde puede iniciar guías de configuración asistida, vídeos o temas de ayuda para determinadas tareas de configuración. A la página se accede desde el área de trabajo de Business Manager seleccionando las acciones **Configuración y extensiones** y **Configuración asistida**.
 
-Como alternativa, para abrir la lista de guías de configuración asistida, elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración asistida** y luego elija el enlace relacionado.
+Como alternativa, para abrir la lista de guías de configuración asistida para cualquier rol, elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración asistida** y luego elija el enlace relacionado.
 
-En el área de trabajo, en la barra de navegación superior, encontrará el menú **Configuración y extensiones**. Aquí tiene acceso a una lista de guías de configuración asistida que pueden ayudarle a empezar. Una vez haya migrado los datos, como los proveedores, clientes o productos de su sistema financiero existente, está listo para empezar. Pero en función de sus necesidades, considere si la otra configuración asistida puede ayudarle.
+Una vez haya migrado los datos, como los proveedores, clientes o productos de su sistema financiero existente, está listo para empezar. Pero en función de sus necesidades, considere si las otras guías de configuración asistida pueden ayudarle.
 
 Si un área no está cubierta por una configuración asistida, elija la acción **Configuración manual** para obtener acceso a las páginas de configuración donde puede rellenar los campos de configuración de todas las áreas manualmente. Para obtener más información, consulte también [Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 
@@ -49,7 +49,9 @@ Use las flechas para contraer una parte de la página y haga más espacio para m
 En **Configuración de la empresa** puede ver y editar información de configuración sobre la empresa actual, mucha de la cual se rellenó previamente si completó la configuración asistida **Configurar empresa** al registrarse en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Si desea cambiar el logotipo de la empresa, la información de contacto, la configuración del banco o la información de los impuestos, puede hacerlo desde esta página.    
 
 ## <a name="adding-users-and-permissions"></a>Agregar usuarios y permisos
-Si necesita agregar más usuarios, se realiza de centro de administración de Office 365. Para obtener más información, vea [Agregar usuarios a Office 365 para empresas](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc). Una vez se hayan creado los usuarios en Office 365, se pueden importar en la página **Usuarios** mediante la acción **Obtener usuarios desde Office 365**. Después podrá continuar con la asignación de permisos a usuarios y la organización en grupos de usuarios. Para obtener más información, vea [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md).  
+Si necesita agregar más usuarios, se realiza de centro de administración de Microsoft 365. Para obtener más información, vea [Crear usuarios de acuerdo con las licencias](ui-how-users-permissions.md).
+
+Cuando los usuarios se crean en Microsoft 365, se pueden importar en la página **Usuarios** mediante la acción **Obtener nuevos usuarios desde Office 365**. Después podrá continuar con la asignación de permisos a usuarios y la organización en grupos de usuarios. Para obtener más información, vea [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md).  
 
 ## <a name="getting-help"></a>Obtener ayuda
 En [!INCLUDE[d365fin](includes/d365fin_md.md)] encontrará las herramientas de información que pueden guiarle a través de varios procesos empresariales. Para cada información sobre herramientas de campo, puede presionar Ctrl+F1 o elegir el vínculo **Más información** para abrir la Ayuda de la página en cuestión. El signo de interrogación de la esquina superior derecha también le dirige a la ayuda del producto.
@@ -60,6 +62,7 @@ Según sus datos migrados, ahora puede empezar a crear nuevos documentos de comp
 ## <a name="see-also"></a>Consulte también
 [Introducción](product-get-started.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md)
+[Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md)  
+[Versiones de prueba y suscripciones de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](across-preview.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

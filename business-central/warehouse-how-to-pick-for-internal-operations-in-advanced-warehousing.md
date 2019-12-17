@@ -1,8 +1,6 @@
 ---
 title: Cómo realizar el picking en operaciones internas en configuraciones avanzadas de almacén | Documentos de Microsoft
 description: En la configuración avanzada de almacén en donde se configura la ubicación para utilizar picking y envío, podrá escoger los componentes para las actividades de producción y de ensamblado con la página **Picking almacén**.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 064ef2019c91d077a28612b4f322f65fb613c6a8
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4272512046a3951eb933fb25c869d5e9d7a3b416
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314005"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876612"
 ---
 # <a name="pick-for-production-or-assembly-in-advanced-warehouse-configurations"></a>Realizar picking para ensamblado o producción en una configuración avanzada de almacén
 En la configuración avanzada de almacén en donde se configura la ubicación para utilizar picking y envío, podrá escoger los componentes para las actividades de producción y de ensamblado con la página **Picking almacén**.  
@@ -42,7 +40,7 @@ Para crear pedidos de picking, para escenarios de extracción y de empuje, deben
 |Pedido de ensamblado|Cambie el estado a Lanzada.|  
 
 ## <a name="to-pick-components-using-the-pick-worksheet"></a>Para realizar el picking de componentes desde la hoja de trabajo de picking  
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hoja trabajo picking** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja trabajo picking.** y luego elija el enlace relacionado.  
 2.  Elija la acción **Documentos almacén** y seleccione las líneas de componente del pedido de producción lanzado.  
 3.  Explore las líneas, ordénelas para asegurar un picking más eficaz y combínelas con otras líneas de hoja de trabajo si es necesario para ahorrar tiempo a los empleados.  
 4.  Elija la acción **Crear picking**.  
@@ -54,11 +52,11 @@ Si el área de operaciones internas, como un suelo de departamento de producció
 ## <a name="filling-the-consumption-bin"></a>Rellenando la ubicación del consumo
 Este organigrama muestra cómo se rellena el campo de **Código de ubicación** en las líneas del componente de la orden de producción según la ubicación.
 
-![Gráfico de flujo de ubicación](media/binflow.png "BinFlow")  
+![Diagrama de flujo de ubicación](media/binflow.png "BinFlow")  
 
 ## <a name="see-also"></a>Consulte también
-[Gestión almacén](warehouse-manage-warehouse.md)  
-[Grupos contables inventario](inventory-manage-inventory.md)  
+[Gestión de almacenes](warehouse-manage-warehouse.md)  
+[Inventario](inventory-manage-inventory.md)  
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  

@@ -1,8 +1,6 @@
 ---
 title: Configurar ofertas de servicio | Documentos de Microsoft
 description: Aprenda a configurar los servicios que ofrece a sus clientes.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: components, service item, service
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: bcd6597ff26a3889608486cde6f8d0158364a956
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8d34ef54ebfe16b59149036d59c2ce6e264baefb
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311793"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877260"
 ---
 # <a name="set-up-service-offerings"></a>Configurar ofertas de servicio
 Cuando configure la gestión de servicios, debe decidir qué servicios desea ofrecer a los clientes y la previsión de dichos servicios. Un servicio es un tipo de trabajo realizado por uno o varios recursos y proporcionado a un cliente. Por ejemplo, un servicio podría ser un tipo de reparación de equipo. Un producto de servicio es el equipo o producto que necesita servicios, como el equipo que necesita reparación, instalado en un cliente determinado. Puede configurar servicios como parte de un grupo de productos relacionados de reparación o mantenimiento.  

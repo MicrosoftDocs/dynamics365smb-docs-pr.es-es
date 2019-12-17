@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: sales rep
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 59138242b77af3b71a7feab566e2c66513547fdb
-ms.sourcegitcommit: f9f805282c86fda55843f7a11020fb3df861d50e
+ms.openlocfilehash: ef0e1db9e4af18ad209c111c951c98a46b0aabe9
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "2764509"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877572"
 ---
 # <a name="set-up-salespeople"></a>Configurar vendedores
 Muchas empresas quieren realizar un seguimiento del rendimiento personal de sus empleados como base para calcular la comisión o prima por ventas. Vea, por ejemplo, el informe de **Comisiones del vendedor**. Ciertas empresas puede preferir asignar un vendedor a cada uno de sus contactos.
 
 Cuando debe configurar un vendedor en la página **Vendedor**, puede seleccionarlo en el campo **Cód. vendedor** de todos los registros correspondientes, como cuenta de contabilidad, clientes, proveedor, contactos y fichas de campañas. Cuando registra o configura facturas, abonos, líneas de diario, intereses, etc., el código de vendedor se transfiere a los movimientos resultantes.
 <br><br>  
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE43Vhm)]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE43Vhm)]
 
 ## <a name="to-set-up-a-salesperson-code"></a>Para configurar un código de vendedor
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Vendedores** y luego elija el enlace relacionado.

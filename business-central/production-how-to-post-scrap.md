@@ -1,8 +1,6 @@
 ---
 title: Cómo registrar el material de rechazo manualmente | Documentos de Microsoft
 description: Si se produce material de rechazo durante el proceso, se puede introducir en el diario de salida. Observe que la cantidad de material de rechazo no incrementa la cantidad de salida.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 340b66ed5d36e67ffc5c3afb05e38ea36e520e58
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 31bd5370a2e14e327efa337d5cff0786f93b18ae
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313233"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877806"
 ---
 # <a name="post-scrap-manually"></a>Registrar el material de rechazo manualmente
 Si se produce material de rechazo durante el proceso, se puede introducir en el diario de salida. 
@@ -26,7 +24,7 @@ Si se produce material de rechazo durante el proceso, se puede introducir en el 
 > La cantidad de material de rechazo no incrementa la cantidad de salida.  
 
 ## <a name="to-post-scrap-manually"></a>Para registrar el material de rechazo manualmente  
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diario salida** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diario salida** y luego elija el enlace relacionado.  
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. En el campo **Cantidad rechazada**, introduzca la cantidad rechazada.  
 4. En el campo **Cód. rechazo**, introduzca el código de rechazo.  
@@ -36,6 +34,6 @@ Si se produce material de rechazo durante el proceso, se puede introducir en el 
 [Fabricación](production-manage-manufacturing.md)    
 [Configuración de fabricación](production-configure-production-processes.md)  
 [Planificación](production-planning.md)      
-[Grupos contables inventario](inventory-manage-inventory.md)  
+[Inventario](inventory-manage-inventory.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 11/06/2019
+ms.date: 12/06/2019
 ms.author: edupont
-ms.openlocfilehash: cf4fe3abc4a31619015520f2be598976b0fc8f5c
-ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
+ms.openlocfilehash: 4df167f27fc9fe456cece9c8738fa5f3aff8338c
+ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2775504"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2896190"
 ---
 # <a name="frequently-asked-questions"></a>Preguntas más frecuentes
 
@@ -20,7 +20,7 @@ Esta sección contiene las respuestas de las preguntas más frecuentes sobre el 
 
 ## <a name="is-included365finincludesd365fin_mdmd-available-in-my-country"></a>¿Está [!INCLUDE[d365fin](includes/d365fin_md.md)] disponible en mi país?
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] está disponible en un número reducido de mercados, pero se añaden nuevos países mediante la localización dirigida por Microsoft o mediante la localización dirigida por socios trimestralmente. Para obtener más información, consulte [Países y traducciones admitidas](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] está disponible en un número reducido de mercados, pero se añaden nuevos países mediante la localización dirigida por Microsoft o mediante la localización dirigida por socios trimestralmente. Para obtener más información, consulte [Disponibilidad nacional/regional y traducciones admitidas](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) (disponible solo en inglés).  
 
 ## <a name="how-do-i-get-include-prodshortincludesprodshortmd"></a>¿Cómo obtengo [!INCLUDE [prodshort](includes/prodshort.md)]?
 
@@ -84,7 +84,7 @@ Si no tiene una suscripción a Office 365 y no desea adquirir una, entonces, cua
 [!INCLUDE[d365fin](includes/d365fin_md.md)] en línea está completamente integrado en Office 365, por esta razón puede navegar libremente entre las aplicaciones de Office 365 y [!INCLUDE[d365fin](includes/d365fin_md.md)] usando el iniciador de aplicaciones. En [!INCLUDE[d365fin](includes/d365fin_md.md)], por ejemplo, puede abrir datos en Excel, imprimir los informes usando Word y trabajar en sus datos de [!INCLUDE[d365fin](includes/d365fin_md.md)] en Outlook. Para obtener más información, consulte [Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] como su bandeja de entrada de empresa en Outlook](admin-outlook.md).  
 
 ## <a name="can-i-extend-my-30-day-new-company-trial-period"></a>¿Puedo ampliar mi periodo de prueba de 30 días de "Nueva empresa"?
-Sí. Cuando se acerque la fecha de vencimiento de su período de prueba, cuando inicie sesión le mostraremos una notificación para avisarle. La notificación contendrá un enlace a la guía **Ampliar período de prueba** que puede usar para ampliar su período de prueba. Los 30 días adicionales comienzan en el momento que elija **Ampliar versión de prueba** en la guía. Puede ampliarse el período de prueba una vez. Después, puede ampliarlo otros 30 días una empresa asociada con Microsoft. Para obtener más información, vea [Extender la versión de prueba](admin-extend-trial.md). 
+Sí. Cuando se acerque la fecha de vencimiento de su período de prueba, cuando inicie sesión le mostraremos una notificación para avisarle. La notificación contendrá un enlace a la guía **Ampliar período de prueba** que puede usar para ampliar su período de prueba. Los 30 días adicionales comienzan en el momento que elija **Ampliar versión de prueba** en la guía. Puede ampliarse el período de prueba una vez. Después, puede ampliarlo otros 30 días una empresa asociada con Microsoft. Para obtener más información, vea [Extender la versión de prueba](admin-extend-trial.md).
 
 > [!NOTE]
 > Puede tardar hasta dos días laborales en completarse el proceso de ampliación de la prueba.  
@@ -108,10 +108,12 @@ Cuando esté preparado para adquirir [!INCLUDE [prodshort](includes/prodshort.md
 
 Si desea orientación de Microsoft, póngase en contacto con el [Equipo de ventas de Microsoft](https://go.microsoft.com/fwlink/?linkid=828707).  
 
-Su socio distribuidor también se ocupará del soporte técnico. Para obtener más información, vea [Recursos para ayuda y soporte técnico](product-help-and-support.md).  
+Su socio distribuidor también se ocupará del soporte técnico. Para obtener más información, vea [Recursos para ayuda y soporte técnico](product-help-and-support.md).
+
+## <a name="is-the-windows-client-supported"></a>¿Es compatible el cliente de Windows?
+Las primeras versiones de [!INCLUDE[prodshort](includes/prodshort.md)] local incluían un cliente instalado derivado de Microsoft Dynamics NAV. A partir de la fase de lanzamiento 2 de 2019, este componente heredado, denominado "el cliente de Windows", ya no estará disponible para [!INCLUDE[prodshort](includes/prodshort.md)]. Para obtener más información, consulte [Preguntas frecuentes sobre Cliente de Windows y Business Central](/dynamics365/business-central/dev-itpro/across-faq-win-cli).
 
 ## <a name="see-also"></a>Consulte también
-
 [Introducción](product-get-started.md)  
 [FAQ acerca de la función Dígame](ui-search-faq.md)  
 [Preguntas frecuentes sobre buscar y filtrar](ui-search-filter-faq.md)  
@@ -125,5 +127,7 @@ Su socio distribuidor también se ocupará del soporte técnico. Para obtener m�
 [Recursos de ayuda y soporte técnico](product-help-and-support.md)  
 [Catálogo de aprendizaje de Business Central](readiness/readiness-learning-catalog.md)  
 [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md)  
+[Disponibilidad nacional/regional y traducciones admitidas](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
+[Preguntas frecuentes sobre experiencias de desarrolladores y profesionales de TI](/dynamics365/business-central/dev-itpro/faq)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

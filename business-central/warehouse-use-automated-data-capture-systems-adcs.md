@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: barcode
-ms.date: 10/01/2019
+ms.date: 11/20/2019
 ms.author: sgroespe
-ms.openlocfilehash: dfabf797ae9ba85a5a241d88f9ba3f5deb16bd4c
-ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
+ms.openlocfilehash: 209bbe3539fb99c626376149c22c419b4b476608
+ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2775480"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832340"
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>Utilice el sistema de captura de datos automatizado (ADCS)
 
 > [!NOTE]
-> En la versión estándar de [!INCLUDE[d365fin](includes/d365fin_md.md)], ADCS solo funciona en implementaciones locales. Sin embargo, un socio de Microsoft puede hacer que funcione en implementaciones en línea mediante PowerApps o similares.
+> En la versión estándar de [!INCLUDE[d365fin](includes/d365fin_md.md)], ADCS solo funciona en implementaciones locales. Sin embargo, un socio de Microsoft puede hacer que funcione en implementaciones en línea mediante Power Apps o similares.
 
 Puede utilizar su sistema de captura automática de datos (ADCS) para registrar el movimiento de productos en el almacén y para registrar algunas actividades del diario, como los ajustes de cantidad en el diario de productos de almacén y los inventarios físicos. ADCS generalmente implica el escaneo un código de barras.
 

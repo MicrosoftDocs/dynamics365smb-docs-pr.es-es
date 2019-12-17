@@ -1,8 +1,6 @@
 ---
 title: Configurar clientes de efectivo | Documentos de Microsoft
 description: En este tema se describen los pasos para configurar al cliente que paga en efectivo.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 853784f676ea986cc11754bb5cb006b57d5e72ce
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a89522a57d84d70c1d7a1816f064375197329f5e
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306009"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879709"
 ---
 # <a name="set-up-cash-customers"></a>Configurar clientes de efectivo
 No se puede crear una factura sin un número de cliente. Esto es válido, incluso si realiza una venta en efectivo y no tiene nada que registrar en una cuenta de cliente.  
 
 ## <a name="to-set-up-a-cash-customer"></a>Para configurar un cliente de efectivo  
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Cliente** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Cliente** y luego elija el enlace relacionado.  
 2.  Cree una ficha **Cliente** nueva. Para obtener más información, vea [Registrar nuevos clientes](sales-how-register-new-customers.md).
 3.  En el campo **N.º**, introduzca, por ejemplo, **Efectivo**.  
 4.  En el campo **Nombre**, escriba **Venta en efectivo**.  

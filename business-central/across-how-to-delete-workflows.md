@@ -1,8 +1,6 @@
 ---
 title: Eliminar flujos de trabajo | Documentos de Microsoft
 description: Si está seguro que un flujo de trabajo ya no se utiliza más, puede eliminarlo. Todas las instancias de paso de flujo de trabajo definidas en el flujo de trabajo deben tener el estado **Completado**.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0cdec04115ebfe089ee89cdc5db8cf28e3963eb8
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5d01d6bc81629985a95f0508ec103368e2aea92e
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305433"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881173"
 ---
 # <a name="delete-workflows"></a>Eliminar flujos de trabajo
 Si está seguro que un flujo de trabajo ya no se utiliza más, puede eliminarlo. Todas las instancias de paso de flujo de trabajo definidas en el flujo de trabajo deben tener el estado **Completado**.  
@@ -28,7 +26,7 @@ Si está seguro que un flujo de trabajo ya no se utiliza más, puede eliminarlo.
  En la página **Flujo de trabajo** puede crear un flujo de trabajo haciendo una lista de los pasos utilizados en las líneas. Cada paso consta de un evento del flujo de trabajo, moderado por condiciones de evento, y una respuesta de flujo de trabajo, moderada por las opciones de respuesta. Los pasos del flujo de trabajo se definen rellenando los campos de las líneas de flujo de trabajo en listas fijas de valores de evento y respuesta que representan los escenarios de flujo de trabajo que admite el código de aplicación. Para obtener más información, consulte [Crear flujos de trabajo](across-how-to-create-workflows.md).  
 
 ## <a name="to-delete-a-workflow"></a>Para eliminar un flujo de trabajo  
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Flujos de trabajo** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Flujos de trabajo** y luego elija el enlace relacionado.  
 2.  Seleccione el flujo de trabajo que desea borrar.  
 3.  Elija la acción **Eliminar**.  
 4.  También puede abrir el flujo de trabajo que desea borrar.  

@@ -1,8 +1,6 @@
 ---
 title: Cómo crear pedidos de servicio | Documentos de Microsoft
 description: Puede utilizar la página **Pedido servicio** para crear documentos en los que se introduce información acerca de un servicio, como reparación y mantenimiento, de productos de servicio a solicitud del cliente.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2e27844b708982e76ce4dfcf15ec02f7190cd855
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5415475d2dd820ff03615b6911db3082c33be9b6
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311721"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877332"
 ---
 # <a name="create-service-orders"></a>Crear pedidos de servicio
 Puede utilizar la página **Pedido servicio** para crear documentos en los que se introduce información acerca de un servicio, como reparación y mantenimiento, de productos de servicio a solicitud del cliente.  
@@ -25,7 +23,7 @@ Puede utilizar la página **Pedido servicio** para crear documentos en los que s
 Cuando cree un pedido de servicio, solo tendrá que rellenar algunos campos. Algunos campos son opcionales y muchos se rellenarán automáticamente cuando rellene los campos correspondientes.  
 
 ## <a name="to-create-a-service-order"></a>Para crear un pedido de servicio    
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos servicio** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de servicio** y luego elija el enlace relacionado.  
 2. Cree un pedido de servicio nuevo.  
 3. En el campo **N.º**, introduzca un número para el pedido de servicio.  
 
@@ -40,7 +38,7 @@ Cuando cree un pedido de servicio, solo tendrá que rellenar algunos campos. Alg
 ## <a name="to-create-a-service-order-from-a-contract"></a>Para crear un pedido de servicio a partir de un contrato  
 Puede basarse en contratos de servicio para crear automáticamente ofertas de servicio de mantenimiento de productos de servicio.  
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Crear pedidos serv. contrato** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Crear pedidos serv. contrato** y luego elija el enlace relacionado.  
 2. Defina los filtros que desea aplicar en la ficha desplegable **Cabecera contrato servicio**.  
 3. En la ficha desplegable **Opciones**, rellene los campos **Fecha inicial** y **Fecha final** con la fecha inicial y final del periodo para el que desee crear pedidos de servicio de contratos. El proceso crea ofertas de servicio que incluyen productos de servicio de contratos de servicio con las siguientes fechas de servicio planificadas dentro de este periodo.  
 
@@ -54,14 +52,14 @@ Una vez que el cliente ha aceptado la oferta de servicio, puede convertirla en u
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] busca movimientos de asignación para todos los productos de servicio de la oferta de servicio cuyo estado sea **Activo**. Si encuentra los movimientos de asignación, se actualiza su estado de asignación a **Reasignación necesaria**. Cuando se reasignan los productos de servicio del pedido de servicio, se actualiza el estado de los movimientos de asignación registrados para la oferta a **Terminado**.   
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Ofertas contrato servicio** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Ofertas contrato servicio** y luego elija el enlace relacionado.  
 2. Elija la oferta de servicio relevante que desee convertir en pedido de servicio.  
 3. Seleccione la acción **Crear pedido**.  
 
 ## <a name="to-check-item-availability-for-one-or-more-orders"></a>Comprobación de la disponibilidad de los artículos para uno o varios pedidos de servicio  
 Es posible comprobar si el artículo necesario para cubrir un pedido está en existencias y, en caso contrario, averiguar cuándo lo estará. Además, si es posible efectuar la reserva de un artículo, podrá reservarlo para asegurarse de que esté disponible para el uso. Puede activar la disponibilidad de un pedido determinado o de todos los pedidos.  
 
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Panel despacho** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Panel despacho** y luego elija el enlace relacionado.  
 2. Realice una de las siguientes acciones:  
 
     * Para un pedido determinado, selecciónelo y, a continuación, elija la acción **Panorama de demanda**.  
@@ -81,7 +79,7 @@ Si necesita asegurarse de que un producto está disponible para el pedido de ser
 ## <a name="to-insert-lines-based-on-standard-service-codes"></a>Para insertar líneas basadas en el servicio estándar  
 Si ha configurado códigos de servicio estándar y los ha asignado a grupos de productos de servicio, puede insertar las líneas estándar vinculadas a los códigos de servicio estándar en documentos de servicio. Para obtener más información, consulte [Configurar códigos de servicio estándar](service-how-setup-service-coding.md).   
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos servicio** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de servicio** y luego elija el enlace relacionado.  
 2. Cree un pedido de servicio nuevo.  
 3. Rellene los campos según sea necesario.  
 4. Rellene las líneas de producto de servicio con la información requerida.  
@@ -99,7 +97,7 @@ Los pedidos se suelen eliminar automáticamente después de haberse facturado en
 
 Sin embargo, los pedidos de servicio no se eliminarán de forma automática si la cantidad total de dicho pedido no se ha registrado desde el pedido de servicio en sí, sino desde la página **Factura servicio**. En este caso, puede que tenga que eliminar los pedidos facturados que no se hayan eliminado. Para ello, ejecute el proceso **Eliminar ped. servicio facturados**.  
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Eliminar ped. servicio facturados** y luego elija el enlace relacionado. Se abre la página de solicitud del proceso **Eliminar pedidos de servicio facturados**.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Eliminar ped. servicio facturados** y luego elija el enlace relacionado. Se abre la página de solicitud del proceso **Eliminar pedidos de servicio facturados**.  
 2. Para seleccionar los pedidos que se van a eliminar, puede definir filtros en los campos **Nº**, **Nº cliente** y **Factura Nº cliente**. .  
 3. Elija **Aceptar**.  
 

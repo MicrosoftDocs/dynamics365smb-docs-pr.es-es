@@ -1,8 +1,6 @@
 ---
 title: Crear paquetes de configuración de empresa personalizados | Documentos de Microsoft
 description: A medida que crece su empresa, probablemente confiará en un conjunto de tipos de empresa que utiliza con la mayor parte de los clientes. Puede simplificar el proceso de implementación al convertir estos tipos habituales en paquetes de configuración de empresa disponibles para volver a usarlas.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6fd35133d16056b947db6680cc9a76cfccaa6a3c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 99fad48961dc201a25af061cf982a1c65d9446bd
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308085"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878870"
 ---
 # <a name="create-custom-company-configuration-packages"></a>Crear paquetes de configuración de empresa personalizados
 A medida que crece su empresa, probablemente confiará en un conjunto de tipos de empresa que utiliza con la mayor parte de los clientes. Puede simplificar el proceso de implementación al convertir estos tipos habituales en paquetes de configuración de empresa disponibles para volver a usarlas.  
@@ -39,7 +37,7 @@ Otro método sería crear un paquete que incluya las tablas que definen la confi
 -   Config. grupos registro IVA  
 -   Config. registro inventario  
 
-Para ver una lista completa de tablas de configuración, elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración manual** y luego elija el enlace relacionado.  
+Para ver una lista completa de tablas de configuración, elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración manual** y luego elija el enlace relacionado.  
 
 ## <a name="to-create-a-custom-company-configuration-package"></a>Crear un paquete de configuración de empresa personalizado  
 1.  Cree una nueva empresa. Para obtener más información, consulte [Crear nuevas empresas en Business Central](about-new-company.md).  

@@ -1,8 +1,6 @@
 ---
 title: Especificar los indicadores de color para personalizar las señales visuales acerca de la actividad de una pila para la empresa o los usuarios individuales| Documentos de Microsoft
 description: Como administrador, puede configurar pilas para que aparezcan en las áreas de trabajo de los usuarios a fin de que incluyan un indicador que cambia de color según los valores de datos de las pilas.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 3c6cfb1c012a2991477a874f9611460c0bd8e4d8
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6d9cecac1a7e1ac0c65542ee4e2928ac2a27412f
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308169"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880957"
 ---
 # <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Configurar un indicador de color en pilas para la empresa o usuarios individuales
 Como administrador, puede configurar pilas para que aparezcan en las áreas de trabajo de los usuarios a fin de que incluyan un indicador que cambia de color según los valores de datos de las pilas.  
@@ -29,7 +27,7 @@ En la página **Configuración de pila** se configuran indicadores para todas la
 Para configurar el indicador, especifique hasta dos valores de umbral que definan tres rangos de valores de datos (bajo, medio y alto) a los que se pueda aplicar otro color (o estilo).  
   
 ### <a name="to-set-up-colored-indicators-on-cues"></a>Para configurar indicadores de color en las pilas  
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración de pila** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de pila** y luego elija el enlace relacionado.  
   
      Aparece la página **Configuración de pila**. La página muestra los indicadores que están actualmente configurados en las pilas. Los indicadores aplicables a todos los usuarios de la empresa tienen un campo **Nombre de usurario** en blanco. Los indicadores que se aplican a un usuario específico incluyen el nombre del usuario de en el campo **Nombre de usuario**.  
   

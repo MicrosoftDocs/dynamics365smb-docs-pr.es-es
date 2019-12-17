@@ -1,8 +1,6 @@
 ---
 title: Configurar horas de trabajo y de servicio | Documentos de Microsoft
 description: Puede especificar las horas de servicio habituales de la empresa. Estas horas de servicio se utilizarán para calcular la fecha y tiempo de respuesta de pedidos y ofertas de servicio y para enviar advertencias de tiempo de respuesta.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3adc4f10e8a5b9d26440bf47170f117de7e17310
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6aaf78756f091d70a1a33532afbafb14a5b29bc7
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311769"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877284"
 ---
 # <a name="set-up-work-hours-and-service-hours"></a>Configurar horas de trabajo y de servicio
 Normalmente, un sistema de gestión de servicios realiza un seguimiento de horas de recursos y del estado del pedido de servicio para prever cargas de trabajo y necesidades de servicio. [!INCLUDE[d365fin](includes/d365fin_md.md)] incorpora herramientas que puede personalizar para registrar este tipo de información.  
@@ -29,7 +27,7 @@ A medida que trabaje en un pedido de servicio, querrá actualizar su estado para
 ## <a name="to-set-up-default-service-hours"></a>Para configurar horas de servicio genéricas  
 La página **Horas servicio genér.** sirve para configurar las horas de servicio habituales de la empresa. Estas horas de servicio se utilizarán para calcular la fecha y tiempo de respuesta de pedidos y ofertas de servicio y para enviar advertencias de tiempo de respuesta. Las horas de servicio genéricas se utilizarán para contratos de servicio, a no ser que especifique horas de servicio especiales para un contrato.  
   
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Horas de serv. predeterminadas** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Horas de serv. predeterminadas** y luego elija el enlace relacionado.  
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
   
 > [!IMPORTANT]  
@@ -38,7 +36,7 @@ La página **Horas servicio genér.** sirve para configurar las horas de servici
 ## <a name="to-set-up-work-hour-templates"></a>Para configurar plantillas de trabajo-hora
 La página **Plantilla trabajo-hora** sirve para configurar plantillas que contienen las horas de trabajo habituales de la empresa. Por ejemplo, puede crear plantillas para técnicos empleados a tiempo completo y para técnicos empleados a tiempo parcial. Puede utilizar plantillas de horas de trabajo al añadir capacidad a recursos.  
   
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Plantillas trabajo-hora** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Plantillas trabajo-hora** y luego elija el enlace relacionado.  
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
   
 > [!Note]
@@ -49,7 +47,7 @@ Puede utilizar la página **Horas servicio** para configurar horas de servicio e
   
 Si no configura horas de servicio específicas para un contrato de servicio, se utilizarán las horas de servicio genéricas para los contratos de servicio.  
   
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Contratos servicio** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Contratos servicio** y luego elija el enlace relacionado.  
 2. Abra el contrato de servicio para el que desee configurar horas de servicio específicas y elija **Horas servicio**.  
 4. Para configurar horas de servicio basadas en horas de servicio genéricas, elija la acción **Copiar horas serv. genéricas**.  
 5. Modifique los campos de los movimientos de horas de servicio. Inserte o elimine los movimientos para establecer las horas de servicio para el contrato. Tenga en cuenta que los campos **Día**, **Hora de inicio** y **Hora final** son obligatorios para cada movimiento.  

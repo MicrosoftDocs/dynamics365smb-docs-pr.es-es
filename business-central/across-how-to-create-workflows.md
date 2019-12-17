@@ -1,8 +1,6 @@
 ---
 title: Crear flujos de trabajo | Documentos de Microsoft
 description: Puede crear flujos de trabajo que vinculen tareas de procesos empresariales realizadas por distintos usuarios. Las tareas de sistema, como registros automáticos, se pueden incluir como pasos en los flujos de trabajo, antes o después de las tareas de usuario. Solicitar y conceder aprobaciones para crear registros nuevos son pasos habituales de un flujo de trabajo.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 11/15/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7ef58cf6729ed5608fdbc6ac24093941bf41dc82
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0589314914b2f7982c52b62475d41754845a48d5
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305457"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881197"
 ---
 # <a name="create-workflows"></a>Crear flujos de trabajo
 Puede crear flujos de trabajo que vinculen tareas de procesos empresariales realizadas por distintos usuarios. Las tareas de sistema, como registros automáticos, se pueden incluir como pasos en los flujos de trabajo, antes o después de las tareas de usuario. Solicitar y conceder aprobaciones para crear registros nuevos son pasos habituales de un flujo de trabajo.  
@@ -27,12 +25,12 @@ En la página **Flujo de trabajo** puede crear un flujo de trabajo haciendo una 
 Al crear flujos de trabajo, puede copiar los pasos de flujos de trabajo existentes o de plantillas de flujo de trabajo. Las plantillas de flujo de trabajo representan flujos de trabajo no editables que existen en la versión genérica de [!INCLUDE[d365fin](includes/d365fin_md.md)]. El código de las plantillas de flujo de trabajo agregados por Microsoft se prefija con “MS-“, como “MS-PIW”. Para obtener más información, consulte [Crear flujos de trabajo a partir de plantillas de flujo de trabajo](across-how-to-create-workflows-from-workflow-templates.md).  
 
 Si su escenario empresarial necesita eventos de flujo de trabajo o respuestas que no se admiten, un asociado de Microsoft debe implementarlos personalizando el código de aplicación.  
-  
+
 > [!NOTE]  
 >  Todas las notificaciones sobre pasos de flujo de trabajo se envían a través de una cola de proyectos. Asegúrese de que la cola de proyectos en la instalación está configurada para gestionar las notificaciones de flujo de trabajo, así como que la casilla **Iniciar automáticamente desde NAS** esté seleccionada. Para obtener más información, consulte [Uso de colas de proyectos para programar tareas](admin-job-queues-schedule-tasks.md).  
 
 ## <a name="to-create-a-workflow"></a>Para crear un flujo de trabajo  
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Flujos de trabajo** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Flujos de trabajo** y luego elija el enlace relacionado.  
 2. Seleccione la acción **Nuevo**. Se abre la página **Flujo de trabajo**.  
 3. En el campo **Código**, introduzca un máximo de 20 caracteres para identificar el flujo de trabajo.  
 4. Para crear el flujo de trabajo desde una plantilla, en la página **Flujos de trabajo**, seleccione la acción **Crear flujo de trabajo desde plantilla**. Para obtener más información, consulte [Crear flujos de trabajo a partir de plantillas de flujo de trabajo](across-how-to-create-workflows-from-workflow-templates.md).  
@@ -56,9 +54,11 @@ Si su escenario empresarial necesita eventos de flujo de trabajo o respuestas qu
 
     1.  Para especificar las opciones para una respuesta de flujo de trabajo que implica enviar una notificación, rellene los campos tal como se describe en la tabla siguiente.  
 
-        |Campo|Description|  
+        |Campo|Descripción|  
         |----------------------------------|---------------------------------------|  
+        |**Notificar remitente**|Especifique si se notifica al solicitante de aprobación en lugar de al destinatario de la solicitud de aprobación. Si selecciona la casilla, el campo **Id. de usuario destinatario** está deshabilitado porque se notificará al solicitante de la aprobación, el remitente. El nombre de la respuesta del flujo de trabajo cambia en consecuencia, a **Crear notificación para &lt;remitente&gt;**. Si la casilla no está seleccionada, el nombre de la respuesta del flujo de trabajo es **Crear notificación para &lt;usuario&gt;**.
         |**Id. de usuario destinatario**|Especifique el usuario al que se debe enviar la notificación. Nota: Esta opción solo está disponible para respuestas de flujo de trabajo con un marcador para un usuario específico. Para las respuestas de flujo de trabajo sin marcadores para usuarios, el usuario de aprobación define normalmente la configuración del destinatario de la notificación.|  
+        |**Tipo de movimiento de notificación**|Especifica si la notificación de flujo de trabajo se desencadena por un cambio de registro, una solicitud de aprobación o una fecha de vencimiento pasada.|
         |**Página de destino de vínculo**|Especifique otra página en [!INCLUDE[d365fin](includes/d365fin_md.md)] que el vínculo de la notificación abrirá en lugar de la página predeterminada.|  
         |**Personalizar vínculo**|Especifique la dirección URL de un vínculo que se agrega a la notificación además del vínculo a la página en [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
     2.  Para especificar opciones para una respuesta de flujo de trabajo que implica crear una solicitud de aprobación, rellene los campos tal como se describe en la tabla siguiente.  
@@ -91,7 +91,7 @@ Si su escenario empresarial necesita eventos de flujo de trabajo o respuestas qu
 >  No habilite un flujo de trabajo hasta que esté seguro de que el flujo de trabajo esté completado y que los pasos del flujo de trabajo relacionado puedan comenzar.  
 
 > [!TIP]  
->  Para ver las relaciones entre las tablas que se utilizan en los flujos de trabajo elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") e introduzca **Flujo de trabajo: relaciones de tabla**.  
+>  Para ver las relaciones entre las tablas que se utilizan en los flujos de trabajo elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "TDígame qué desea hacer") y, a continuación, introduzca **Flujo de trabajo: relaciones de tabla**.  
 
 ## <a name="see-also"></a>Consulte también  
 [Crear flujos de trabajo a partir de plantillas de flujo de trabajo](across-how-to-create-workflows-from-workflow-templates.md)   
@@ -103,4 +103,3 @@ Si su escenario empresarial necesita eventos de flujo de trabajo o respuestas qu
 [Configuración de flujos de trabajo](across-set-up-workflows.md)   
 [Uso de flujos de trabajo](across-use-workflows.md)   
 [Flujo de trabajo](across-workflow.md)      
-

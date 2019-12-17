@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 21e3defe178a3619df58d712c86935515e303692
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: abca7de7ce91ebe32e8c17a2288c49684b53455c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308409"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879207"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Uso de colas de proyectos para programar tareas
 Las colas de proyectos de [!INCLUDE[d365fin](includes/d365fin_md.md)] permiten a los usuarios programar y ejecutar informes y codeunits específicos. Puede configurar proyectos para que se ejecuten una vez o de manera periódica. Por ejemplo, puede ejecutar el informe de **Vendedor - Estadísticas ventas** de manera semanal, para realizar el seguimiento de ventas por vendedor cada semana, o bien ejecutar la codeunit **Procesar cola de correo electrónico del servicio** diariamente, para asegurarse de que se envían de manera oportuna los mensajes de correo electrónico a los clientes relacionados con sus pedidos de venta.
@@ -33,12 +33,12 @@ Para hacerlo, configure la cola de proyectos para que ejecute varios informes de
 
 El siguiente procedimiento explica cómo configurar el registro en segundo plano de los pedidos de ventas. Los pasos son parecidos para la compra y el servicio.  
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración ventas y cobros** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de ventas y cobros** y luego elija el enlace relacionado.
 2. En la página **Configuración de ventas y cobros**, seleccione la casilla de verificación **Registrar con cola de proyectoss**.
 3. Para filtrar a las entradas de la cola de proyectoss para el registro de pedidos de ventas, seleccione el campo **Cód. categoría cola proyectos** y, a continuación, seleccione la categoría **REGVEN**.
 
     Se crea un objeto de cola de proyectoss, codeunit 88 **Registro de ventas a través de cola de proyectoss**. Continúe para habilitarlo en la página **Movs. cola proyecto**.
-4. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Movs. cola proyecto** y luego elija el enlace relacionado.
+4. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Movs. cola proyecto** y luego elija el enlace relacionado.
 5. En la página **Movs. cola proyecto**, seleccione la acción **Nuevo**.
 6. En el campo **Tipo objeto para ejecutar**, seleccione **Codeunit**.  
 7. En el campo **Id. objeto para ejecutar**, seleccione 88, **Registro ventas a través de cola de proyectos**.
@@ -56,7 +56,7 @@ Si también desea que los documentos de ventas se impriman cuando se registren, 
 ## <a name="to-create-a-job-queue-entry-for-batch-posting-of-sales-orders"></a>Para crear un movimiento de la cola de proyectos para el registro por lotes de pedidos de ventas
 El siguiente procedimiento muestra cómo configurar el informe **Reg. lotes pedidos venta** para que se registren automáticamente los pedidos de ventas lanzados a las 4:00 en días hábiles.  
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Movs. cola proyecto** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Movs. cola proyecto** y luego elija el enlace relacionado.  
 2. Seleccione la acción **Nuevo**.  
 3. En el campo **Tipo objeto para ejecutar**, seleccione **Informe**.  
 4. En el campo **Id. objeto para ejecutar**, seleccione 296, **Reg. lotes pedidos venta**.
@@ -85,7 +85,7 @@ Después de que un proyecto haya finalizado correctamente, se elimina de la list
 Los datos que se generan cuando se ejecuta una cola de proyectos se almacenan en la base de datos, para que pueda solucionar los errores de la cola de proyectos.
 
 ### <a name="to-view-status-for-any-job"></a>Para ver el estado de un proyecto
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Movs. cola proyecto** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Movs. cola proyecto** y luego elija el enlace relacionado.
 2. En la página **Movs. cola proyectos**, seleccione un movimiento de la cola de proyectos y luego elija la acción **Registrar movs**.  
 
 ### <a name="to-view-status-from-a-sales-or-purchase-document"></a>Para ver el estado de un documento de compra o de venta
@@ -111,6 +111,9 @@ Cuando una cola de proyecto se activada de forma manual, se ejecuta con las cred
 
 ## <a name="using-job-queues-effectively"></a>Uso eficaz de las colas de proyectos  
 El registro del movimiento de cola de proyectos tiene muchos campos cuya finalidad es incluir parámetros en una codeunit especificada para ejecutarse con una cola de proyectos. Esto también significa que las codeunits que se van a ejecutar mediante la cola de proyectos se deben especificar con el registro del movimiento de la cola de proyectos como parámetro en el desencadenador **OnRun**. Esto ayuda a proporcionar un nivel de seguridad adicional, ya que evita que los usuarios ejecuten codeunits aleatorias mediante la cola de proyectos. Si el usuario debe transmitir parámetros a un informe, la única manera de hacerlo es ajustar la ejecución del informe en una codeunit, que a continuación analiza los parámetros de entrada y los especifica en el informe antes de ejecutarlo.  
+
+## <a name="scheduling-synchronization-between-included365finincludesd365fin_mdmd-and-includecrm_mdincludescrm_mdmd"></a>Programación de la sincronización entre [!INCLUDE[d365fin](includes/d365fin_md.md)] y [!INCLUDE[crm_md](includes/crm_md.md)]
+Si ha integrado [!INCLUDE[d365fin](includes/d365fin_md.md)] con [!INCLUDE[crm_md](includes/crm_md.md)], puede utilizar la cola de proyectos para programar cuándo desea sincronizar los datos de los registros que ha emparejado en las dos aplicaciones empresariales. Dependiendo de la dirección y las reglas que haya definido para la integración, los trabajos de sincronización también pueden crear nuevos registros en la aplicación de destino para que coincidan con los del origen. Por ejemplo, si un vendedor crea un nuevo contacto en [!INCLUDE[crm_md](includes/crm_md.md)], el proyecto de sincronización puede crear ese contacto para el vendedor emparejado en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, consulte [Programación de una sincronización entre Business Central y Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md).
 
 ## <a name="see-also"></a>Consulte también  
 [Administración](admin-setup-and-administration.md)  

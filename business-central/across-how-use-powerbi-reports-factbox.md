@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: a8acad8d0be760f567902587acada49ab68e740f
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0506dad5f65766919405dd944d75b014957b509c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304939"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879432"
 ---
 # <a name="viewing-list-data-in-power-bi-reports-in-business-central"></a>Ver datos de listas en informes de Power BI en Business Central
 
 [!INCLUDE[prodlong](includes/prodlong.md)] incluye un elemento de control de cuadro informativo de varias páginas de lista de claves que proporciona información de los datos de la lista. A medida que se desplaza por las filas de la lista, el informe se actualiza y se filtra para la entrada seleccionada. Puede crear informes personalizados para mostrar en este control, pero hay reglas a seguir al crear informes para garantizar que proporcionan el comportamiento deseado.  
 
 > [!NOTE]  
-> Debe disponer de una cuenta válida con [!INCLUDE[prodshort](includes/prodshort.md)] y con Power BI. Además, para crear informes personalizados, debe descargar [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/). Para obtener más información, consulte [Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] como origen de datos de Power BI](across-how-use-financials-data-source-powerbi.md).  
+> Debe disponer de una cuenta válida con [!INCLUDE[prodshort](includes/prodshort.md)] y con Power BI. Además, para crear informes personalizados, debe descargar [Power BI Desktop](https://powerbi.microsoft.com/desktop/). Para obtener más información, consulte [Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] como origen de datos de Power BI](across-how-use-financials-data-source-powerbi.md).  
 
 ## <a name="report-data-set"></a>Conjunto de datos del informe
 Al crear el informe en Power BI Desktop, especifique el origen de datos o un servicio web que contenga los datos relacionados con la lista a la que desea asociar el informe. Por ejemplo, si desea crear un informe para la lista Ventas, asegúrese de que el conjunto de datos contenga información relacionada con ventas.  

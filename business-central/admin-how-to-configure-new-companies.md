@@ -1,8 +1,6 @@
 ---
 title: Configurar nuevas empresas | Documentos de Microsoft
 description: Puede configurar y personalizar una nueva empresa que se haya creado. Para ajustar la implementación, procederá en tres fases para completar la configuración.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b3169663fd764bf4f7c9c6dc8895b152fdca19bd
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ae54c2f764deafe34df8d38e1213757ee9b05515
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304569"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878586"
 ---
 # <a name="configure-new-companies"></a>Configurar nuevas empresas
 Para configurar una nueva empresa en la implementación de su solución, generalmente sigue tres fases. En la primera fase, importará el paquete de configuración, un archivo .rapidstart con la información de configuración. En la segunda fase, modificará la información de configuración y luego la aplicará a la nueva empresa. En la fase final, revisará y corregirá todos los errores.  
@@ -28,15 +26,15 @@ Los siguientes procedimientos presuponen que ha inicializado y abierto su nueva 
 
 ## <a name="to-import-a-configuration-package"></a>Procedimiento para importar un paquete de configuración  
 1. Abra la nueva empresa en la base de datos de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
-2. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Paquetes de configuración** y luego seleccione el enlace relacionado.  
+2. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Paquetes de configuración** y luego seleccione el enlace relacionado.  
 3. Elija la acción **Importar paquete**.  
 4. Vaya a la ubicación donde guardó el archivo del paquete de configuración .rapidstart y luego elija el botón **Abrir**.  
-5. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Información de empresa** y luego elija el enlace relacionado. Especifique la información sobre la empresa en la ficha de información de la empresa. Incluya información como, por ejemplo, el banco. También puede proporcionar un logotipo para la empresa.  
+5. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Información de empresa** y luego elija el enlace relacionado. Especifique la información sobre la empresa en la ficha de información de la empresa. Incluya información como, por ejemplo, el banco. También puede proporcionar un logotipo para la empresa.  
 
 Se importan todas las tablas diseñadas para incluirse en la nueva empresa. Llegado a este punto, puede aplicar los datos del paquete a la base de datos, o bien ajustar y modificar los datos de la tabla para satisfacer las especificaciones del cliente.  
 
 ## <a name="to-apply-package-data"></a>Procedimiento para aplicar datos de paquete  
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hoja de configuración** y luego seleccione el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja de configuración** y luego seleccione el enlace relacionado.  
 2. Seleccione una tabla para la que desea modificar los datos y elija la acción **Aplicar datos**. Elija el botón **Sí** para confirmar la aplicación.
 3. Para confirmar que los datos ahora están en la base de datos y que la aplicación se ha realizado correctamente, vuelva a la página **Configurar hoja trabajo** y elija la acción **Datos de base de datos**.  
 
@@ -44,7 +42,7 @@ Se importan todas las tablas diseñadas para incluirse en la nueva empresa. Lleg
 >  Después de aplicar los datos, solo se pueden ver en la base de datos. Ya no se incluyen en el paquete.  
 
 ## <a name="to-modify-and-apply-package-data"></a>Procedimiento para modificar y aplicar los datos del paquete  
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hoja de configuración** y luego seleccione el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja de configuración** y luego seleccione el enlace relacionado.  
 2. Seleccione una tabla para la que desea modificar los datos y elija la acción **Datos de paquete**.  
 3. En la página **Configurar registros de paquete**, cree las modificaciones. Por ejemplo, puede eliminar opciones que no se aplican.  
 4. Elija la acción **Aplicar datos** y, a continuación, seleccione el botón **Aceptar**.  
@@ -53,7 +51,7 @@ Se importan todas las tablas diseñadas para incluirse en la nueva empresa. Lleg
 ## <a name="to-locate-and-identify-a-configuration-error"></a>Procedimiento para localizar e identificar un error de configuración  
 Existen ciertos tipos de errores que pueden producirse cuando se aplican datos a una base de datos. El error más común es que no se hayan incluido las tablas relacionadas requeridas. Corrige esos errores en la hoja de trabajo de configuración.
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Paquetes de configuración** y luego seleccione el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Paquetes de configuración** y luego seleccione el enlace relacionado.  
 2. Seleccione el paquete que desea revisar y, a continuación, seleccione la acción **Editar**.  
 
     Se resaltarán las tablas que contienen errores. El número de errores del paquete se muestra en el campo **Nº errores paquete**.  
@@ -62,7 +60,7 @@ Existen ciertos tipos de errores que pueden producirse cuando se aplican datos a
 
 ### <a name="to-fix-an-error"></a>Procedimiento para corregir un error  
 1. Abra la empresa en la que basó el paquete de configuración.  
-2. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hoja de configuración** y luego seleccione el enlace relacionado.  
+2. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja de configuración** y luego seleccione el enlace relacionado.  
 3. Corrija los errores como agregar a la hoja de trabajo las tablas relacionadas que faltan.  
 4. Agregue las tablas al paquete de configuración existente o cree un nuevo paquete que contenga solo las tablas nuevas. Para obtener más información sobre cómo crear un proyecto, consulte [Preparar un paquete de configuración](admin-how-to-prepare-a-configuration-package.md).  
 5. Vuelva a abrir la nueva empresa para la que está implementando la configuración.  

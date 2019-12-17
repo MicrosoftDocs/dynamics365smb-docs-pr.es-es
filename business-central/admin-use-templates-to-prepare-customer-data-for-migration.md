@@ -1,8 +1,6 @@
 ---
 title: Preparar migración de datos de cliente | Documentos de Microsoft
 description: Una vez que haya importado y aplicado los datos de configuración en la nueva base de datos, podrá comenzar a migrar los datos maestros existentes del cliente, tales como nombres y números de cliente y producto. Para asegurarse de que estos datos se crean de forma rápida y precisa en la empresa nueva, debe usar plantillas para estructurar los datos.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 12/04/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0257b3bdb68a92cdc1719f19a2fc4b73a9e33dc2
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: f2289ff66e3d95a0df16b2e51b72719b56a20eda
+ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307777"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2896090"
 ---
 # <a name="prepare-to-migrate-customer-data"></a>Preparar migración de datos de cliente
 Una vez que haya importado y aplicado los datos de configuración en la nueva base de datos, podrá comenzar a migrar los datos maestros existentes del cliente, tales como nombres y números de cliente y producto. Para asegurarse de que estos datos se crean de forma rápida y precisa en la empresa nueva, debe usar plantillas para estructurar los datos.  
@@ -34,9 +32,12 @@ Sin embargo, puede crear una estructura de plantilla y aplicarla en cualquier ta
 > [!TIP]  
 >  También puede usar plantillas de datos para operaciones diarias a fin de crear registros nuevos basados en plantillas. Estas plantillas de datos funcionan sólo para las tablas de datos maestros compatibles. Para obtener más información, consulte, por ejemplo, [Registrar nuevos productos](inventory-how-register-new-items.md).  
 
-Al importar datos de cliente, tal como los datos de producto, de la plantilla de datos vinculada se obtienen los datos de campos obligatorios especificados. Al crear un producto nuevo, especifique solo información general, tal como el nombre, la descripción y precio de producto. A continuación, recopile el resto de los datos del campo obligatorio a partir de una plantilla de datos seleccionada.  
+Al importar datos de cliente, tal como los datos de producto, de la plantilla de datos vinculada se obtienen los datos de campos obligatorios especificados. Al crear un producto nuevo, especifique solo información general, tal como el nombre, la descripción y precio de producto. A continuación, recopile el resto de los datos del campo obligatorio a partir de una plantilla de datos seleccionada.
 
 Cuando se crea un nuevo registro de datos maestros, como una ficha de cliente, algunos campos son obligatorios y deben rellenarse. Puede agrupar la mayoría de los campos obligatorios, como grupos contables y condiciones de pago, para facilitar la creación de registros de datos maestros y hacerla más estable. Por ejemplo, puede agrupar campos obligatorios para la tabla 18, **Cliente**, como tipos **Nacional**, **Internacional** o **Exportar**.
+
+> [!NOTE]
+> Los campos de tipo BLOB no se pueden exportar/importar con Excel.
 
 ## <a name="to-select-a-data-template"></a>Para seleccionar una plantilla de datos
 Al seleccionar una plantilla existente de datos maestros, debe evaluar si las plantillas creadas para la nueva empresa son suficientes para el cliente. Revise los campos y los valores proporcionados para determinar qué plantillas son adecuadas para una empresa nueva.  
@@ -44,7 +45,7 @@ Al seleccionar una plantilla existente de datos maestros, debe evaluar si las pl
 > [!TIP]  
 >  También puede usar plantillas de datos para crear nuevos registros de forma rápida. Utilícelas para una creación de datos más rápida y más exacta. Para obtener más información, vea [Registrar nuevos productos](inventory-how-register-new-items.md).
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Plantillas de configuración** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Plantillas de configuración** y luego elija el enlace relacionado.  
 2. En la página **Plantillas de configuración**, seleccione una plantilla de datos de lista y después seleccione **Editar**.  
 
 Si las plantillas predeterminadas no satisfacen sus necesidades, puede crear nuevas plantillas o agregar campos a una plantilla existente. Si las plantillas predeterminadas son suficientes, puede utilizarlas para crear registros basados en las plantillas de datos principales.
@@ -89,7 +90,7 @@ El identificador de tabla, el nombre de tabla y las líneas de la plantilla de d
 ## <a name="to-export-to-a-template-in-excel"></a>Para exportar a una plantilla en Excel
 Puede crear rápidamente un libro de Excel para que sirva como plantilla basada en la estructura de una tabla de base de datos existente. A continuación, puede usar la plantilla para recopilar todos los datos de cliente en un formato coherente para su importación posterior en [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hoja de configuración** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja de configuración** y luego elija el enlace relacionado.
 2. Agregue una tabla a la lista o seleccione una tabla existente. Para obtener más información, vea [Gestionar la configuración de la empresa en una hoja de trabajo](admin-how-to-manage-company-configuration-in-a-worksheet.md).
 3. Defina los campos de la tabla que desea incluir en la plantilla.
 4. Seleccione la acción **Exportar a plantilla**.
@@ -114,11 +115,11 @@ Puede utilizar la estructura de datos que se incluye en las plantillas de datos 
 
 Los pasos siguientes ilustran cómo crear una ficha de producto de una plantilla de datos de producto. Puede crear un registro de cualquier plantilla de datos mediante el mismo procedimiento.  
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Plantillas de configuración** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Plantillas de configuración** y luego elija el enlace relacionado.  
 2. Seleccione la plantilla **Artículo** y, a continuación, elija la acción **Editar**. Para obtener más información, consulte [Para crear una plantilla de datos](admin-use-templates-to-prepare-customer-data-for-migration.md#to-create-a-new-data-template).
 3. Seleccione la acción **Crear instancia**. Se creará una ficha de producto.  
 4. Elija el botón **Aceptar**.  
-5. Para revisar la nueva ficha de producto, elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Productos** y luego elija el enlace relacionado.  
+5. Para revisar la nueva ficha de producto, elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos** y luego elija el enlace relacionado.  
 6. Abra la ficha de producto nueva.  
 7. Expanda diferentes fichas desplegables y verifique que la información fue creada correctamente en ellas.  
 

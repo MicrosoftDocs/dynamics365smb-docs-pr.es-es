@@ -1,8 +1,6 @@
 ---
 title: Configurar transportistas | Documentos de Microsoft
 description: Configure un código para cada uno de sus transportistas e introduzca información acerca de ellos.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 27b362c9c9aabec842e28e631ca2b93c1515f2fc
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b1c5b0940998531601f0ab1c604c31328ce2bd66
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311985"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882859"
 ---
 # <a name="set-up-shipping-agents"></a>Configurar transportistas
 Configure un código para cada uno de sus transportistas e introduzca información acerca de ellos.  
@@ -30,7 +28,7 @@ Puede configurar un número ilimitado de servicios para cada transportista y esp
 Una vez asignado un servicio de transportista a una línea de pedido de venta, el tiempo de envío del servicio se incluirá en el cálculo del compromiso de entrega de dicha línea. Para obtener más información, consulte [Calcular las fechas de compromiso de entrega de pedido](sales-how-to-calculate-order-promising-dates.md).
 
 ## <a name="to-set-up-a-shipping-agent"></a>Para configurar un transportista  
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Transportistas** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Transportistas** y luego elija el enlace relacionado.  
 2.  Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].  
 3.  Elija la acción **Servicios transportista**.
 4. En **Servicios transportista**, rellene los campos según sea necesario.

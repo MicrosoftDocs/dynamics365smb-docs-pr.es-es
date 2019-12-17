@@ -1,8 +1,6 @@
 ---
 title: Cómo ejecutar la planificación completa, MPS y MRP | Documentos de Microsoft
 description: Los términos "ejecutar la hoja de planificación" o "ejecutar MRP" hacen referencia al cálculo del programa de producción principal y a las necesidades de material, en función de la demanda real y prevista. El programa de planificación puede calcular tanto el Programa de planificación principal (MPS) como la Planificación de necesidades de material (MRP) cuando se solicite, o calcular ambas cosas a la vez.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 226fb329b852075a26ad42e2f08a11f2f97ea733
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9a9ba92be649c8272822c3c332c6c4c330910df8
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313137"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883195"
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Ejecutar la planificación completa, MPS o MRP
 Los términos "ejecutar la hoja de planificación" o "ejecutar MRP" hacen referencia al cálculo del programa de producción principal y a las necesidades de material, en función de la demanda real y prevista. El programa de planificación puede calcular tanto el Programa de planificación principal (MPS) como la Planificación de necesidades de material (MRP) cuando se solicite, o calcular ambas cosas a la vez.  
@@ -47,7 +45,7 @@ Con cada método previsto, [!INCLUDE[d365fin](includes/d365fin_md.md)] genera la
 >  La función Traer mensajes de acción se puede ejecutar entre planes de cambio neto y regenerativos para obtener una vista inmediata del efecto de los cambios en el programa, pero no se debe usar como sustituto de los procesos de los dos planes completos.  
 
 ## <a name="to-calculate-the-planning-worksheet"></a>Para calcular la hoja de planificación  
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hojas planificación** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hojas de planificación** y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Calcular planificación regenerativa** para abrir la página **Calcular plan**.  
 3.  En la ficha desplegable **Opciones**, rellene los campos tal como se describe en la tabla siguiente.  
 

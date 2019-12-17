@@ -1,8 +1,6 @@
 ---
 title: 'Detalles de diseño: Métodos de coste | Documentos de Microsoft'
 description: La valoración de existencias determina si en el cálculo de costes se capitaliza y utiliza un valor real o uno presupuestado. Junto con la fecha de registro y la secuencia, el método de coste también influye en cómo se registra el flujo de costes.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6f009b0e43a3d3424782f5c3f052033c813e3f18
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0dfd9e28d4db9b55c4f7d6aa5ee6c1f5a56d6a89
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303653"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880559"
 ---
 # <a name="design-details-costing-methods"></a>Detalles de diseño: Métodos de coste
 La valoración de existencias determina si en el cálculo de costes se capitaliza y utiliza un valor real o uno presupuestado. Junto con la fecha de registro y la secuencia, el método de coste también influye en cómo se registra el flujo de costes.
@@ -38,7 +36,7 @@ En [!INCLUDE[d365fin](includes/d365fin_md.md)] se admiten las siguientes valorac
 
  En la imagen siguiente se muestra cómo fluyen los costes a través del inventario por cada valoración de existencias.  
 
- ![Métodos de valoración](media/design_details_inventory_costing_7_costing_methods.png "Métodos de valoración")  
+ ![Valoraciones de existencias](media/design_details_inventory_costing_7_costing_methods.png "Valoraciones de existencias")  
 
  Los métodos de coste varían en cuanto a la forma en que el inventario disminuye y si se utiliza el coste real o el coste estándar como base de valoración. En la tabla siguiente se explican las diferentes características. (Se excluye el método LIFO por ser muy parecido al método FIFO).  
 

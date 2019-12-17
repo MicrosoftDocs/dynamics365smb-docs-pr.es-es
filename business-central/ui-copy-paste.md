@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a77c5bcadb15cd1180fc102a1f15881d0cc5db5a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8c8714bc1f12b6fd4bf68124cf1797bfa89ece6b
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315665"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882259"
 ---
 # <a name="copy-and-paste-faq"></a>Preguntas frecuentes sobre copiar y pegar
 Puede copiar una o más filas (registros) de una lista o un solo campo en una página y luego pegar lo que ha copiado en la misma página, otra página o un documento externo (como Microsoft Excel y el correo electrónico de Outlook). En resumen, para copiar, presione CTRL+C (cmd+C en macOS) en su teclado. Para pegar, presione CTRL+V (cmd+V en macOS).
@@ -38,7 +38,7 @@ Para copiar una sola fila, selecciónela y, a continuación, presione Ctrl+C.
 
 Si desea copiar más filas, puede:
 - Presionar Ctrl+Clic en otra fila o Mayús+Clic para seleccionar la fila y todas las filas intermedias. Consulte [Métodos abreviados de teclado](keyboard-shortcuts.md#CopyRows) para obtener más combinaciones de mouse y teclado para seleccionar filas.
-- Seleccione ![Mostrar más opciones](media/show-more-options-icon.png "icono Mostrar más opciones") en la primera columna, elija **Seleccionar más**, seleccione la casilla junto a cada fila que desea copiar y luego presione Ctrl+C.
+- Seleccione ![Mostrar más opciones](media/show-more-options-icon.png "Icono Mostrar más opciones") en la primera columna, elija **Seleccionar más**, seleccione la casilla junto a cada fila que desea copiar y luego presione Ctrl+C.
 
 ## <a name="how-do-i-paste-rows"></a>¿Cómo pego las filas?
 Seleccione una fila vacía, con el enfoque en cualquier celda y luego presione Crtl+V.
@@ -56,7 +56,7 @@ Sí. Se pega como una tabla bien formateada que conserva la sangría, la alineac
 ## <a name="in-which-lists-can-i-copy-and-paste-rows"></a>¿En qué listas puedo copiar y pegar filas?
 Puede copiar filas en cualquier tipo de lista, incluidas hojas de trabajo, cuadros informativos o listas que están incrustadas en una página (como líneas de un pedido de ventas). Sin embargo, para pegar filas, la lista debe ser editable.
 
-En algunas páginas, el diseño de la aplicación puede evitar que pegue filas. Póngase en contacto con su administrador o desarrollador de aplicaciones para cambiar la [propiedad editable](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-editable-property) de la página o la [propiedad PasteIsValid](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-pasteisvalid-property) de la tabla de origen.
+En algunas páginas, el diseño de la aplicación puede evitar que pegue filas. Póngase en contacto con su administrador o desarrollador de aplicaciones para cambiar la [propiedad editable](/dynamics365/business-central/dev-itpro/developer/properties/devenv-editable-property) de la página o la [propiedad PasteIsValid](/dynamics365/business-central/dev-itpro/developer/properties/devenv-pasteisvalid-property) de la tabla de origen.
 
 ## <a name="on-which-clients-is-copy-and-paste-available"></a>¿En qué clientes está disponible la acción de copiar y pegar?
 Copiar y pegar está disponible en el navegador o en la aplicación [!INCLUDE[d365fin](includes/d365fin_md.md)] para Windows 10.

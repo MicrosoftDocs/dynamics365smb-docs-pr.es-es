@@ -12,22 +12,22 @@ ms.workload: na
 ms.search.keywords: supplier, payment priority
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c37ff7d347788300bcd2c9e138ac8379fb12a78a
-ms.sourcegitcommit: ab4141739a53ec100d42773f0da863fbeefa384f
+ms.openlocfilehash: 538a6f4b1ead61afde223391441bf097f3c26f77
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "2577164"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877596"
 ---
 # <a name="prioritize-vendors"></a>De prioridad a los proveedores
 [!INCLUDE[d365fin](includes/d365fin_md.md)] puede proponer diversos pagos a proveedores, como los pagos que están próximos a vencer o los pagos en los que se pueden realizar descuentos. Para obtener más información, vea [Proponer pagos a proveedores](payables-how-suggest-vendor-payments.md).
 
 Primero, debe dar prioridad a los proveedores asignándoles números.
 <br><br>
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE3PRGa]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE3PRGa]
 
 ## <a name="to-prioritize-vendors"></a>Para dar prioridad a proveedores
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Proveedores** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Proveedores** y luego elija el enlace relacionado.
 2. Seleccione el proveedor correspondiente y, a continuación, elija **Editar**.
 3. En el campo **Prioridad**, escriba un número.
 

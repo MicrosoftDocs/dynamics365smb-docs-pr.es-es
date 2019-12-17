@@ -1,8 +1,6 @@
 ---
 title: Impresión de libros de facturas emitidas y recibidas
 description: Los informes Libro facturas emitidas y Libro facturas recibidas permiten comprobar todos los documentos de compras y ventas creados en un periodo específico.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2fe2d5af5f245da41ea933f531017ebede7d4255
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 09ba90046683cbb5b60c26bd36c840eae400af93
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301089"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878822"
 ---
 # <a name="print-sales-and-purchase-invoice-books"></a>Imprimir libros de facturas emitidas y recibidas
 Los informes **Libro facturas emitidas** y **Libro facturas recibidas** permiten comprobar todos los documentos de compras y ventas creados en un periodo específico.  
@@ -32,7 +30,7 @@ Los informes **Libro facturas emitidas** y **Libro facturas recibidas** se puede
 
 ## <a name="to-print-sales-invoice-book-and-purchase-invoice-book-reports"></a>Para imprimir los informes Libro de facturas emitidas y Libro de facturas recibidas  
 
-1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Libro facturas emitidas** o **Libro facturas recibidas** y, a continuación, seleccione el vínculo relacionado.  
+1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "Icono Buscar página o informe"), escriba **Libro facturas emitidas** o **Libro facturas recibidas** y, a continuación, seleccione el vínculo relacionado.  
 2.  En la ficha desplegable **Opciones**, rellene los campos tal como se describe en la tabla siguiente.  
 
     |Opción|Description|  

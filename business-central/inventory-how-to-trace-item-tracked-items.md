@@ -1,8 +1,6 @@
 ---
 title: Cómo realizar un seguimiento de productos marcados para seguimiento | Documentos de Microsoft
 description: Puede ver donde se ha utilizado un producto marcado para seguimiento, incluso cómo y dónde se recibió o se produjo, transfirió, vendió, consumió o devolvió. También puede encontrar todas las instancias actuales de un número de serie o de lote específico en la base de datos. Puede hacerlo con las funciones Seguimiento de producto y Navegar.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: cf3581babda20b1645168785adb6efc2000fb92e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: cd97605ec3f000e738cde06fa44c6bc4ccc49499
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309729"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878250"
 ---
 # <a name="trace-item-tracked-items"></a>Realizar seguimiento de productos seguidos
 Puede ver donde se ha utilizado un producto marcado para seguimiento, incluso cómo y dónde se recibió o se produjo, transfirió, vendió, consumió o devolvió. También puede encontrar todas las instancias actuales de un número de serie o de lote específico en la base de datos. Puede hacerlo con las funciones Seguimiento de producto y Navegar.  
@@ -32,7 +30,7 @@ Puede ver donde se ha utilizado un producto marcado para seguimiento, incluso c�
 
 ## <a name="to-trace-item-tracked-items"></a>Para controlar productos seguidos  
 
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Seguimiento productos** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Seguimiento productos** y luego elija el enlace relacionado.  
 2.  En los campos de filtrado que aparecen en la parte superior de la página, introduzca los números de producto específicos o un filtro sobre los números de producto a los que desea realizar un seguimiento.  
 3.  En el campo **Mostrar componentes**, seleccione si desea visualizar también de dónde provienen los componentes para los productos. Las opciones de este campo son las siguientes.  
 
@@ -61,7 +59,7 @@ Puede ver donde se ha utilizado un producto marcado para seguimiento, incluso c�
 
 ## <a name="to-find-item-tracked-items-with-navigate"></a>Para buscar productos marcados para seguimiento con Navegar  
 
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Navegar** y luego seleccione el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Navegar** y luego seleccione el enlace relacionado.  
 2.  En la ficha desplegable **Seguim. prod.**, en los campos **Nº serie** y **Nº lote**, introduzca los números de seguimiento de productos de los que desea realizar un seguimiento.  
 3.  Elija la acción **Buscar** para buscar todos los casos números de serie o de lote en la base de datos.  
 

@@ -1,8 +1,6 @@
 ---
 title: 'Detalles de diseño: Flujos internos de almacén | Documentos de Microsoft'
 description: El flujo de productos entre las ubicaciones en una ubicación de empresa se centra en el picking de los componentes y en la ubicación de productos para los pedidos de ensamblado u órdenes de producción, y en los movimientos ad hoc, como reposiciones de ubicación, sin una relación con los documentos de origen.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: bce55cda1ba5fd5dd89ad75b224651df719d76d5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 55f58acc0f65469261903c28b71942010d44c695
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303465"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880357"
 ---
 # <a name="design-details-internal-warehouse-flows"></a>Detalles de diseño: Flujos de almacén internos
 El flujo de productos entre las ubicaciones en una ubicación de empresa se centra en el picking de los componentes y en la ubicación de productos para los pedidos de ensamblado u órdenes de producción, y en los movimientos ad hoc, como reposiciones de ubicación, sin una relación con los documentos de origen. El ámbito y la naturaleza de las actividades implicadas varía entre almacenamiento básico y avanzado.  
@@ -116,7 +114,7 @@ El flujo de productos entre las ubicaciones en una ubicación de empresa se cent
 
  En la ilustración siguiente se muestra cuando se rellena el campo **Cód. ubicación** de la lista de componentes según la configuración de la máquina o del centro de trabajo.  
 
- ![Resumen de cuándo/cómo se completa el campo Código ubicación](media/binflow.png "Resumen de cuándo/cómo se completa el campo Código ubicación")  
+ ![Descripción general de cuándo y cómo se rellena el campo Código de ubicación](media/binflow.png "Descripción general de cuándo y cómo se rellena el campo Código de ubicación")  
 
 ## <a name="see-also"></a>Consulte también  
  [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)

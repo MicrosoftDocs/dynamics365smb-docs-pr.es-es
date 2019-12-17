@@ -1,8 +1,6 @@
 ---
 title: 'Procedimiento: Baje componentes según la producción de la operación | Documentos de Microsoft'
 description: Para los productos que se configuran con el método de baja hacia atrás, el comportamiento predeterminado es calcular y registrar el consumo de componentes cuando cambie el estado de una orden de producción lanzada a **Terminada**. Para obtener más información, consulte Método de baja.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3c1bcf36ed2ec494b54fe8fdf3b26b07aa834f7f
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 09534c7a859f7e0a5ba7bf861718e060d5e56c3e
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313401"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883267"
 ---
 # <a name="flush-components-according-to-operation-output"></a>Bajar componentes según la salida de la operación
 Para los productos que se configuran con el método de baja hacia atrás, el comportamiento predeterminado es calcular y registrar el consumo de componentes cuando cambie el estado de una orden de producción lanzada a **Terminada**.  
@@ -35,16 +33,16 @@ Esta funcionalidad se útil por los motivos siguientes:
 El siguiente procedimiento muestra cómo combinar códigos de vínculo de ruta y baja hacia atrás de modo que la cantidad que se baja para cada operación es proporcional a la salida real de la operación terminada.  
 
 ## <a name="to-flush-components-according-to-operation-output"></a>Para bajar componentes según la salida de la operación  
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Productos** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos** y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Editar**.  
 3.  En la ficha desplegable **Reposición**, en el campo **Método de baja**, seleccione **Anticipada**.  
 
     > [!NOTE]  
     >  Seleccione **Pick+ Adelante** si el componente se utiliza en un almacén que está configurado para la ubicación y picking directos.  
 
-4.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Rutas** y luego elija el enlace relacionado.  
+4.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Rutas** y luego elija el enlace relacionado.  
 5.  Defina los códigos de vínculo de ruta para cada operación que consume el componente. Para obtener más información, consulte [Crear rutas](production-how-to-create-routings.md).  
-6.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **L.M. producción** y luego elija el enlace relacionado.  
+6.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **L.M. de producción** y luego elija el enlace relacionado.  
 7.  Defina los códigos de vínculo de ruta desde cada instancia del componente hasta la operación donde se consume.
 
     > [!IMPORTANT]  
@@ -55,6 +53,6 @@ El siguiente procedimiento muestra cómo combinar códigos de vínculo de ruta y
 [Configuración de fabricación](production-configure-production-processes.md)  
 [Fabricación](production-manage-manufacturing.md)    
 [Planificación](production-planning.md)   
-[Grupos contables inventario](inventory-manage-inventory.md)  
+[Inventario](inventory-manage-inventory.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

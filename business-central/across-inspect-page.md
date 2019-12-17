@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: dynamics365-business-central
 author: jswymer
 ms.date: 10/01/2019
-ms.openlocfilehash: ce3187199a0402961b1206077c4d1613093f1919
-ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
+ms.openlocfilehash: de9f34fc8aefc2d6803f658bf738b06af27f0ebe
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2775384"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879384"
 ---
 # <a name="inspecting-pages-in-business-central"></a>Inspección de páginas en Business Central
 
@@ -32,7 +32,7 @@ Cuando el panel **Inspección de la página** se abre por primera vez, muestra i
 
 Utilice el teclado o el dispositivo señalador para mover el enfoque a diferentes elementos de la página. Cuando selecciona un cuadro informativo o una parte de la página principal, el área delimitada se resalta con un borde y el panel **Inspección de la página** muestra información sobre el elemento seleccionado. Por ejemplo, la figura anterior muestra información sobre la parte de la lista en la página **Pedido de venta**. A medida que se desplaza a otras páginas de la aplicación, el panel **Inspección de la página** se actualizará automáticamente con la información de la página a medida que avanza.
 
-Para obtener más información sobre lo que se muestra en la inspección de páginas, consulte [Inspección y resolución de problemas de páginas](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-inspecting-pages) en la ayuda para desarrolladores e informáticos de Business Central.
+Para obtener más información sobre lo que se muestra en la inspección de páginas, consulte [Inspección y resolución de problemas de páginas](/dynamics365/business-central/dev-itpro/developer/devenv-inspecting-pages) en la ayuda para desarrolladores e informáticos de Business Central.
 
 Si no ve los detalles que espera ver en el panel **Inspección de la página**, es probable que no tenga los permisos necesarios, como se describe en la siguiente sección.
 

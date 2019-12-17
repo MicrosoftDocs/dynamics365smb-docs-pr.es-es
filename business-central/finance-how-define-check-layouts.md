@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: print check, customize
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: fea52bfa75d953b96aecc0f3e354806324f77d83
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d4818c9dfe96f7e890d84a16c717d4451f56497a
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306321"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2808582"
 ---
 # <a name="select-a-check-layout"></a>Seleccionar una plantilla de cheques
 Puede diseñar los cheques conforme a los estándares definidos por las autoridades locales. Las imágenes de los cheques se pueden imprimir en inglés, francés o español.
@@ -23,7 +23,7 @@ Puede diseñar los cheques conforme a los estándares definidos por las autorida
 Los cheques se han diseñado para imprimir formatos de imágenes de cheque de Estados Unidos y Canadá en un formato cheque-matriz-cheque o en un formato matriz-matriz-cheque.
 
 ## <a name="to-select-a-check-layout"></a>Para seleccionar una plantilla de cheques
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Selección informes banco** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Selección informes banco** y luego elija el enlace relacionado.
 2. En la página **Informe selección - Bancos**, en el campo **Uso**, seleccione **Cheque**.
 3. Seleccione uno de los identificadores de informes siguientes:
 
@@ -36,10 +36,10 @@ Los cheques se han diseñado para imprimir formatos de imágenes de cheque de Es
 
 Cuando haya configurado los diseños de cheques, puede imprimir cheques desde la página **Diario de pagos**. Para obtener más información, consulte [Trabajar con cheques](payables-how-work-checks.md).
 
-Para cambiar una de estas plantillas de cheques predeterminadas, utilice la integración de Word o RDLC. Para obtener más información, vea [Crear y modificar un diseño de informe o documento personalizado](ui-how-create-custom-report-layout.md).
+Para cambiar una de estas plantillas de cheques predeterminadas, utilice la integración de Word o RDLC. Para obtener más información, vea [Crear y modificar diseños de informe personalizados](ui-how-create-custom-report-layout.md).
 
 ## <a name="see-also"></a>Consulte también
-[Crear y modificar un diseño de informe o documento personalizado](ui-how-create-custom-report-layout.md)  
+[Crear y modificar diseños de informe personalizados](ui-how-create-custom-report-layout.md)  
 [Administrar pagos](payables-manage-payables.md)  
 [Administrar cuentas bancarias](bank-manage-bank-accounts.md)   
 [Completar procesos de fin de periodo](year-how-complete-period-end-processes.md)  

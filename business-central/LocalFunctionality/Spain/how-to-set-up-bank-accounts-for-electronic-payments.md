@@ -1,8 +1,6 @@
 ---
 title: Configurar cuentas bancarias para realizar pagos electrónicos
 description: En Business Central, puede configurar cuentas bancarias para realizar pagos electrónicos.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 23cea7970b34a69d3fc31c0ff1e238e20b7ebe81
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 789e4a88d2bdf49708795d4aaa9c8b70c75a594f
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301086"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878824"
 ---
 # <a name="set-up-bank-accounts-for-electronic-payments"></a>Configurar cuentas bancarias para realizar pagos electrónicos
 En [!INCLUDE[d365fin](../../includes/d365fin_md.md)], puede configurar cuentas bancarias para realizar pagos electrónicos.  
 
 ## <a name="to-set-up-bank-accounts-for-electronic-payments"></a>Para configurar cuentas bancarias para realizar pagos electrónicos  
 
-1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Ficha banco** y, a continuación, seleccione el vínculo relacionado.  
+1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Ficha banco** y, a continuación, seleccione el vínculo relacionado.  
 2.  En la ficha desplegable **Transferencia**, asegúrese de que los campos **CCC Cód. banco**, **CCC Cód. oficina**, **CCC Dígito control** y **CCC Nº cuenta** se rellenan correctamente.  
 3.  En la ficha desplegable **Transferencia**, rellene los campos tal como se describe en la tabla siguiente.  
 
@@ -41,7 +39,7 @@ En [!INCLUDE[d365fin](../../includes/d365fin_md.md)], puede configurar cuentas b
 
 ## <a name="to-set-up-vendor-bank-accounts-for-electronic-payments"></a>Para configurar cuentas bancarias para realizar pagos electrónicos  
 
-1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Ficha banco proveedor** y, a continuación, seleccione el vínculo relacionado.  
+1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Ficha banco proveedor** y, a continuación, seleccione el vínculo relacionado.  
 2.  En la ficha desplegable **General**, rellene los campos tal como se describe en la tabla siguiente.  
 
     |Campo|Description|  

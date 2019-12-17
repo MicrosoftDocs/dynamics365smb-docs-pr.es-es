@@ -1,8 +1,6 @@
 ---
 title: Cómo configurar calendarios de planta | Documentos de Microsoft
 description: Un calendario del centro de trabajo especifica los días y las horas laborables, las vacaciones y las ausencias que determinan la capacidad bruta disponible del centro de trabajo, medida en tiempo, de acuerdo con los valores de eficiencia y de capacidad definidos. La creación y la activación de un calendario de centro de trabajo implica una serie de tareas previas.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1663f9092c21e1955f3e2531efc9935ba1c68982
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: cc40361150d8368c46f9045451c0d542eff13779
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314077"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877956"
 ---
 # <a name="set-up-shop-calendars"></a>Configurar calendarios de planta
 Un calendario del centro de trabajo o de máquina especifica los días y las horas laborables, las vacaciones y las ausencias que determinan la capacidad disponible bruta del centro de trabajo, medida en tiempo, de acuerdo con los valores de eficiencia y capacidad definidos.
@@ -27,7 +25,7 @@ Como requisito para calcular el calendario de un centro de trabajo o de máquina
 A continuación se describe cómo configurar calendarios de centro de trabajo. Los pasos son parecidos al configurar los calendarios de centro de máquina.  
 
 ## <a name="to-create-work-shifts"></a>Para crear turnos de trabajo  
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Turnos trabajo** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Turnos trabajo** y luego elija el enlace relacionado.  
 2.  En una línea en blanco, escriba un número en el campo **Código** que identifique el turno de trabajo, por ejemplo, **1**.  
 3.  Describa el turno de trabajo en el campo **Descripción**, por ejemplo, **Primer turno**.  
 4.  Opcionalmente, rellene las líneas para un segundo o tercer turno de trabajo.  
@@ -35,7 +33,7 @@ A continuación se describe cómo configurar calendarios de centro de trabajo. L
 Aunque en los centros de trabajo no se trabaje en diferentes turnos, introduzca al menos un código de turno.  
 
 ## <a name="to-set-up-a-shop-calendar"></a>Para configurar un calendario de planta  
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Calendarios planta** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Calendarios planta** y luego elija el enlace relacionado.  
 2.  En una línea en blanco, escriba un número en el campo **Código** que identifique el calendario de planta.  
 3.  Describa el calendario de planta en el campo **Descripción**.  
 4.  Seleccione la acción **Días laborables**.
@@ -70,7 +68,7 @@ El calendario de planta se puede asignar ahora a un centro de trabajo para calcu
 
 ## <a name="to-calculate-a-work-center-calendar"></a>Para calcular un calendario de centro de trabajo  
 
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Centros trabajo** y luego elija el enlace relacionado.
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Centros de trabajo** y luego elija el enlace relacionado.
 2. Abra el centro de trabajo que desea actualizar.  
 3. En la el campo **Código de calendario de planta**, seleccione qué calendario de planta se va a utilizar como base de un calendario de centro de trabajo.  
 4. Elija la acción **Calendario**.  

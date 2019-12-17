@@ -1,8 +1,6 @@
 ---
 title: Cómo modificar las sugerencias de planificación en una vista gráfica | Documentos de Microsoft
 description: Una actividad típica de planificación consiste en cambiar o añadir líneas de la hoja de planificación para modificar los pedidos de suministros sugeridos antes de confirmarlos ejecutando la función **Ejecutar mensajes acción**. Una alternativa a hacerlo en la hoja de trabajo de planificación es utilizar una vista gráfica.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3aea6aa1aab6b5006bdc548b99bfa037e995de32
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2d068ed3e206f7d93b15d0cd2af56a7557ce3977
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313377"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877932"
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Modificar las sugerencias de planificación en una vista gráfica
 Una actividad típica de planificación consiste en cambiar o añadir líneas de la hoja de planificación para modificar los pedidos de suministros sugeridos antes de confirmarlos ejecutando la función **Ejecutar mensajes acción**. Una alternativa a hacerlo en la hoja de trabajo de planificación es utilizar una vista gráfica.
@@ -37,7 +35,7 @@ Cuando elige **Guardar cambios** en la página **Disponib. prod. por escala de t
 El siguiente procedimiento muestra cómo modificar las sugerencias de suministro mediante arrastrar y soltar. Como alternativa, puede cambiar los campos **Fecha de vencimiento** y **Cantidad** en la ficha desplegable **Cambios en eventos** y ver inmediatamente los cambios gráficamente en la ficha desplegable **Escala de tiempo** en la página **Hoja planificación**.  
 
 ## <a name="to-modify-suggested-supply-orders-in-the-graphical-view"></a>Para modificar los pedidos de suministros sugeridos en la vista gráfica  
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Disponib. prod. por escala de tiempo** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Disponib. prod. por escala de tiempo** y luego elija el enlace relacionado.  
 
     La página **Disponib. prod. por escala de tiempo** se abre con el número de producto, almacén y variante del producto en la línea seleccionada de la planificación prellenada en los campos en la ficha desplegable **Opciones**. La ficha desplegable **Escala de tiempo** muestra una representación gráfica del inventario proyectado del producto, incluidas las sugerencias de la planificación.  
 

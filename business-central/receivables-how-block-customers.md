@@ -1,8 +1,6 @@
 ---
 title: Cómo bloquear ventas a productos de clientes desde el apartado de Ventas o Compras
 description: En Business Central, un producto se puede marcar como bloqueado para ventas, bloqueado para compras o bloqueado para todos los propósitos.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c2b0d5b15571b7e8af1ed1dbee22859f4c131aa3
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c1b055e5101b99f0b0e1b69169d5c9f2f7e21d09
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316625"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882999"
 ---
 # <a name="block-customers"></a>Bloquear clientes
 Puede bloquear a un cliente, por ejemplo, por insolvencia, para que el no pueda añadirse a los documentos de ventas o para que no se puedan registrar transacciones para el cliente.
@@ -34,7 +32,7 @@ La siguiente tabla describe las distintas opciones de bloqueo.
 |**Todos**|No se permite ninguna transacción para este cliente, incluidos los pagos.|  
 
 ## <a name="to-block-a-customer"></a>Para bloquear a un cliente  
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Clientes** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Clientes** y luego elija el enlace relacionado.
 2. Seleccione un cliente y, a continuación, elija la acción **Editar**.
 3. Rellene el campo **Bloqueado** con una de las opciones descritas anteriormente.
 

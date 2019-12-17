@@ -8,15 +8,15 @@ ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 10/01/2019
-ms.openlocfilehash: f2b5e3ded5c89f241d0c49ee8c6f9d196c6bae43
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7578cdff40111adcbf2401e6bed33ddf47641107
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308217"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880981"
 ---
 # <a name="classifying-data-sensitivity"></a>Clasificar confidencialidad de datos
-Para clasificar los campos que contienen datos confidenciales o personales, un socio de Microsoft puede establecer la propiedad ```DataClassification``` en los campos. Esto requiere acceso a las tablas de la base de datos, ya sea a través del entorno de desarrollo o ejecutando un script de Windows PowerShell. Para obtener más información, consulte [Clasificar datos](https://docs.microsoft.com/en-us/dynamics-nav/classifying-data).  
+Para clasificar los campos que contienen datos confidenciales o personales, un socio de Microsoft puede establecer la propiedad ```DataClassification``` en los campos. Esto requiere acceso a las tablas de la base de datos, ya sea a través del entorno de desarrollo o ejecutando un script de Windows PowerShell. Para obtener más información, consulte [Clasificar datos](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).  
 
 Como cliente, puede agregar un segundo nivel de clasificación especificando los niveles de confidencialidad para los datos que almacena en campos estándar y personalizados. La clasificación de la confidencialidad de los datos ayuda a garantizar que sepa dónde guarda los datos personales en su sistema y facilita la respuesta a las solicitudes de los interesados. Por ejemplo, si un contacto o cliente le pide que exporte sus datos personales. Para obtener más información, vea [Respuesta a las solicitudes de datos personales](admin-responding-to-requests-about-personal-data.md).
 
@@ -48,4 +48,5 @@ Por ejemplo, la hoja de trabajo Clasificación de datos le permite hacer cosas c
 > Hemos definido clasificaciones de confidencialidad de muestra para las tablas y campos en la empresa de demostración Cronus. Puede utilizar las clasificaciones como inspiración cuando ordene sus propias tablas y campos.
 
 ## <a name="see-also"></a>Consulte también
-[Clasificar datos](https://docs.microsoft.com/en-us/dynamics-nav/classifying-data)  
+
+[Clasificar datos](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data)  

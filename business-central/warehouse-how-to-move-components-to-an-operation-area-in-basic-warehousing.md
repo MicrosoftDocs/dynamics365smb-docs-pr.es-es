@@ -1,8 +1,6 @@
 ---
 title: 'Procedimiento: mueva componentes a un área de operaciones en configuraciones básicas de almacén | Documentos de Microsoft'
 description: Si el artículo que procesa las operaciones tiene lugar en su ubicación de almacén, puede tener que mover los artículos entre las ubicaciones internas para responder a los documentos de origen interno, como producción, ensamblado o pedidos de servicio en la ubicación.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ce7830c4fa7c40bb0da08ba27fac6b5a9121c50a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: fc3211ef873e3cf31768210e9659ae54dd59d10d
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310353"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882883"
 ---
 # <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Mover componentes a un área de operaciones en configuraciones básicas de almacén
 Si el artículo que procesa las operaciones tiene lugar en su ubicación de almacén, puede tener que mover los artículos entre las ubicaciones internas para responder a los documentos de origen interno, como producción, ensamblado o pedidos de servicio en la ubicación.  
@@ -49,7 +47,7 @@ Alternativamente, un trabajador de almacén puede crearla apuntando al pedido de
 Este procedimiento muestra cómo crear un movimiento de inventario de la página **Movimiento inventario** haciendo referencia un pedido de ensamblado lanzado como documento de origen. El procedimiento es el mismo cuando se mueven los componentes para las órdenes de producción y los pedidos de servicio.  
 
 ## <a name="to-move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Para mover componentes a un área de operaciones en configuraciones básicas de almacén  
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Movimiento inventario** y elija el enlace relevante.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Movimiento de inventario** y elija el enlace relevante.  
 2.  En la ficha desplegable **General**, rellene el campo **Nº** . Puede pulsar la tecla Entrar para seleccionar entre las series numéricas.  
 3.  En el campo **Cód. almacén**, escriba la ubicación donde tiene lugar el movimiento.  
 4.  Seleccione la acción **Traer doc. origen**. Alternativamente, rellene el campo **Documento origen** y, a continuación, elija el botón **AssistEdit** en el campo **Cód. procedencia mov.**  

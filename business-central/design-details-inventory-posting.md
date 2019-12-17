@@ -1,8 +1,6 @@
 ---
 title: 'Detalles de diseño: Registro inventario | Documentos de Microsoft'
 description: Cada transacción de inventario, como un albarán de compra o un albarán de venta, registra dos movimientos de distintos tipos.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 71ee3624868f546ec7b45f5177dcc61acc5b7a21
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: dc3e997d0ca29c680cd6a915751a368dd77a5433
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303406"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880309"
 ---
 # <a name="design-details-inventory-posting"></a>Detalles de diseño: Registro de inventario
 Cada transacción de inventario, como un albarán de compra o un albarán de venta, registra dos movimientos de distintos tipos.  
@@ -35,7 +33,7 @@ Cada transacción de inventario, como un albarán de compra o un albarán de ven
 
  ![Flujo de entrada al reconciliar el inventario con C/G](media/design_details_inventory_costing_1_entry_flow.png "Flujo de entrada al reconciliar el inventario con C/G")  
 
-## <a name="example"></a>Ejemplo  
+## <a name="example"></a>Ejemplo:  
  En el ejemplo siguiente se muestra cómo los movimientos de producto, los movimientos de valoración y los movimientos de liquidación de producto dan como resultado movimientos de contabilidad.  
 
  Registra un pedido de compra como recibido y facturado para 10 productos con un coste unitario directo de 7 DL y una tasa de costes generales de 1 DL. La fecha de registro es 01-01-20. Se crean los siguientes registros:  

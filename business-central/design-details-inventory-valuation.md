@@ -1,8 +1,6 @@
 ---
 title: 'Detalles de diseño: Valoración inventario | Documentos de Microsoft'
 description: La valoración del inventario "Valoración de inventario" es la determinación del coste que se asigna a un producto de inventario, tal como expresa la ecuación siguiente.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f83c00da396b87eb90f7c03f8c673fb3cd2d1aaf
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a734d4b270fcce9959bd720f923fc1fd990559ff
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307065"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880285"
 ---
 # <a name="design-details-inventory-valuation"></a>Detalles de diseño: Valoración de inventario
 La valoración del inventario "Valoración de inventario" es la determinación del coste que se asigna a un producto de inventario, tal como expresa la ecuación siguiente.  

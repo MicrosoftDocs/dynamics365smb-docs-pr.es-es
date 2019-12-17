@@ -1,8 +1,6 @@
 ---
 title: Ejecutar producción | Documentos de Microsoft
 description: Cuando se ha planificado un pedido y se han emitido los materiales de acuerdo con la L.M. de producción, entonces, pueden iniciarse las operaciones de producción y se pueden ejecutar en la secuencia definida por la ruta de órdenes de producción.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ac871665486260c02ab01dda8d893e30b34e8c4d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 926f22537d54ad770e38d40a376a6c8ce2594991
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312993"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877671"
 ---
 # <a name="manufacturing"></a>Fabricación
 > [!NOTE]

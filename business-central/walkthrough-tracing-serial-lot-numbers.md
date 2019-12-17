@@ -1,8 +1,6 @@
 ---
 title: 'Tutorial: seguimiento de números de serie/lote | Documentos de Microsoft'
 description: Cuando tienen lugar defectos en los productos, los errores deben identificarse y deberá impedirse que los productos afectados salgan de la empresa. Si ya se han enviado productos defectuosos, debe realizar un seguimiento de la persona que los ha recibido y, en caso necesario, retirarlos.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a1a339c57e47f3722050209acbe83e246ccdbbb6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 23bbed9e19fa2a3fd99f45cfde24d6d16f31e795
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310497"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876828"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Tutorial: seguimiento de números de serie/lote
 
@@ -74,7 +72,7 @@ A continuación, deberá crear diversas transacciones de compra, producción y v
 
 ### <a name="to-create-the-items"></a>Para crear los productos  
 
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Productos** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos** y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Nuevo**.  
 3.  En el campo **N.º**, escriba **2000** y rellene los siguientes campos.  
 
@@ -110,7 +108,7 @@ A continuación, deberá crear diversas transacciones de compra, producción y v
     A continuación, debe comprar cuadros de bicicletas de Custom Metals Incorporated.  
 
 ### <a name="to-purchase-components"></a>Para comprar componentes  
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos compra** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de compra** y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Nuevo**.  
 3.  Cree un pedido de compra para el proveedor, Custom Metals Incorporated, rellenando los campos de línea siguientes.  
 
@@ -124,7 +122,7 @@ A continuación, deberá crear diversas transacciones de compra, producción y v
 7.  Seleccione la acción **Registrar**, elija la opción **Recibir y facturar** y seleccione el botón **Aceptar**.  
 
     A continuación, compre cuadros de bicicletas de Coolwood Technologies.  
-8.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos compra** y luego elija el enlace relacionado.  
+8.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de compra** y luego elija el enlace relacionado.  
 9. Seleccione la acción **Nuevo**.
 10. Cree un pedido de compra para el proveedor, Coolwood Technologies, rellenando los siguientes campos de línea.  
 
@@ -140,7 +138,7 @@ A continuación, deberá crear diversas transacciones de compra, producción y v
     A continuación, fabrique dos bicicletas de carreras, NS1 y NS2.  
 
 ### <a name="to-produce-end-items"></a>Para producir los productos finales  
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **O.P. Lanzadas** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **O.P. lanzadas** y luego elija el enlace relacionado.  
 2.  Seleccione el grupo **Nuevo**.  
 3.  Cree una nueva orden de producción lanzada rellenando los campos siguientes.  
 
@@ -161,7 +159,7 @@ A continuación, deberá crear diversas transacciones de compra, producción y v
 
     A continuación, fabrique dos bicicletas de carreras, NS1 y NS2.  
 
-11. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **O.P. Lanzadas** y luego elija el enlace relacionado.  
+11. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **O.P. lanzadas** y luego elija el enlace relacionado.  
 12. Seleccione la acción **Nuevo**.  
 13. Cree una nueva orden de producción lanzada rellenando los campos siguientes en la cabecera.  
 
@@ -186,7 +184,7 @@ A continuación, deberá crear diversas transacciones de compra, producción y v
     A continuación, venda bicicletas de carreras. Primero venda la bicicleta de carreras con NS1 a Selangorian Ltd.  
 
 ### <a name="to-sell-the-end-items"></a>Para vender los productos finales  
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.  
 2.  Elija la acción **Nuevo** y, a continuación, cree un pedido de venta rellenando los campos siguientes.  
 
     |Cliente|Producto|Cdad.|Nº serie|  
@@ -198,7 +196,7 @@ A continuación, deberá crear diversas transacciones de compra, producción y v
 
     A continuación, venda la bicicleta de carreras con NS2 al Cannon Group PLC.  
 
-5.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.  
+5.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.  
 6.  Elija la acción **Nuevo** y, a continuación, cree un pedido de venta rellenando los campos siguientes.  
 
     |Cliente|Producto|Cdad.|Nº serie|  
@@ -210,7 +208,7 @@ A continuación, deberá crear diversas transacciones de compra, producción y v
 
     Finalmente, venda algunos cuadros de bicicleta por separado. GDE Distribución S.A. también pide cuatro marcos de bicicletas independientes para su propia línea de montaje.  
 
-9. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.  
+9. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.  
 10. Elija la acción **Nuevo** y, a continuación, cree un pedido de venta rellenando los campos siguientes.  
 
     |Cliente|Producto|Cdad.|Nº serie|  
@@ -228,7 +226,7 @@ A continuación, deberá crear diversas transacciones de compra, producción y v
  En el departamento de ventas, el controlador de calidad averigua que la bicicleta de carrera devuelta, producto 1002, tiene el número de serie NS1. Con esta información básica, puede determinar dónde se utilizó por última vez la bicicleta de carreras terminada, en este caso, en el albarán de venta a Selangorian Ltd. A continuación, el controlador de calidad debe realizar un seguimiento hasta llegar al origen para establecer de qué número de lote procedía el cuadro de carreras defectuoso y qué proveedor lo suministró.  
 
 ### <a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a>Para determinar qué lote incluía el cuadro defectuoso y quién lo suministró  
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Seguimiento productos** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Seguimiento productos** y luego elija el enlace relacionado.  
 2.  En la página **Seguimiento productos**, escriba **NS1** en el campo **Filtro nº serie** y, a continuación, **1002** en el campo **Filtro producto**.  
 3.  Conserve la configuración predeterminada de **Sólo producto seguido** en el campo **Mostrar componentes** y conserve el método de seguimiento predeterminado de **Uso - Origen** en **Método seguimiento**.  
 4.  Seleccione la acción **Realizar seguimiento**.  

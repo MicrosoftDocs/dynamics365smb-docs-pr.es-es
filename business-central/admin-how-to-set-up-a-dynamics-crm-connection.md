@@ -1,8 +1,6 @@
 ---
 title: Conectar con Dynamics 365 Sales | Documentos de Microsoft
 description: Puede efectuar la integración con Dynamics 365 Sales.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 9e68f62a7fd79188e2461983837586bd4cd2c64b
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: ffcaaf6550601c181913ebe32e80d4cbcf0756bd
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554379"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879288"
 ---
 # <a name="set-up-a-connection-to-dynamics-365-sales"></a>Configurar una conexión a Dynamics 365 Sales
 Para integrar con [!INCLUDE[crm_md](includes/crm_md.md)] deberá configurar una conexión entre [!INCLUDE[d365fin](includes/d365fin_md.md)] y [!INCLUDE[crm_md](includes/crm_md.md)].
@@ -52,7 +50,7 @@ La guía de configuración asistida **Configurar la conexión de Dynamics 365 Sa
 |**URL de servicio web OData de Dynamics 365 Business Central**|Si habilita el servicio web de disponibilidad de producto, la URL del servicio web OData se proporciona automáticamente.|
 |**Nombre de usuario de servicio web OData de Dynamics 365 Business Central**|El nombre de la cuenta de usuario de [!INCLUDE[d365fin](includes/d365fin_md.md)] que [!INCLUDE[crm_md](includes/crm_md.md)] usa para recuperar información sobre disponibilidad de productos en [!INCLUDE[d365fin](includes/d365fin_md.md)] a través del servicio web OData.|
 |**Clave de acceso de servicio web OData de Dynamics 365 Business Central**|La clave de acceso de la cuenta de usuario que [!INCLUDE[crm_md](includes/crm_md.md)] usa para obtener información sobre disponibilidad de productos en [!INCLUDE[d365fin](includes/d365fin_md.md)] a través del servicio web OData. La clave se asigna al usuario seleccionado en el campo **Nombre de usuario de servicio web OData de Dynamics 365 Business Central**. Para obtener la clave, seleccione el botón **Valor de búsqueda** para el nombre de usuario, elija el usuario, elija **Administrar** y, a continuación **Editar**. En la ficha de usuario, elija **Acciones**, **Autenticación** y después seleccione **Cambiar clave de servicio Web**.|
-|**Habilitar integración de pedido de venta**|Cuando los usuarios crean pedidos de venta en [!INCLUDE[crm_md](includes/crm_md.md)] y completan pedidos [!INCLUDE[d365fin](includes/d365fin_md.md)], se integra el proceso en [!INCLUDE[crm_md](includes/crm_md.md)]. Para obtener más información, consulte [Activar la integración de procesamiento de pedidos de venta](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). Para ello es necesario que proporcione las credenciales de una cuenta de usuario de administrador en [!INCLUDE[crm_md](includes/crm_md.md)]. Para obtener más información, consulte [Manejo de datos de pedidos de ventas especiales](marketing-integrate-dynamicscrm.md#handling-sales-order-data).|
+|**Habilitar integración de pedido de venta**|Cuando los usuarios crean pedidos de venta en [!INCLUDE[crm_md](includes/crm_md.md)] y completan pedidos [!INCLUDE[d365fin](includes/d365fin_md.md)], se integra el proceso en [!INCLUDE[crm_md](includes/crm_md.md)]. Para obtener más información, consulte [Activar la integración de procesamiento de pedidos de venta](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). Para ello es necesario que proporcione las credenciales de una cuenta de usuario de administrador en [!INCLUDE[crm_md](includes/crm_md.md)]. Para obtener más información, consulte [Manejo de datos de pedidos de ventas especiales](marketing-integrate-dynamicscrm.md#handling-sales-order-data).|
 |**Habilitar la conexión de Dynamics 365 for Sales**|Habilitar la conexión a [!INCLUDE[crm_md](includes/crm_md.md)].|
 |**Versión de Dynamics 365 SDK**|Solo es relevante si va a realizar la integración con una versión local de [!INCLUDE[crm_md](includes/crm_md.md)]. Se trata del kit de desarrollo de software de Dynamics 365 (también designado Xrm) que se utiliza para conectar [!INCLUDE[d365fin](includes/d365fin_md.md)] a [!INCLUDE[crm_md](includes/crm_md.md)]. La versión debe ser compatible con la versión de SDK que utiliza [!INCLUDE[crm_md](includes/crm_md.md)] e igual o más nueva que la versión que utiliza [!INCLUDE[crm_md](includes/crm_md.md)].|
 
@@ -62,7 +60,7 @@ La guía de configuración asistida **Configurar la conexión de Dynamics 365 Sa
 ### <a name="to-create-or-maintain-the-connection-manually"></a>Para crear o mantener la conexión manualmente
 El procedimiento siguiente describe cómo rellenar los campos en la página **Configuración de la conexión de Microsoft Dynamics 365 Sales** manualmente. También es la página donde administra los valores para la integración.
 
-1. Elija el ![icono bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración de conexión de Microsoft Dynamics 365** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de la conexión de Microsoft Dynamics 365** y luego elija el enlace relacionado.
 2. Escriba la siguiente información para la conexión de [!INCLUDE[d365fin](includes/d365fin_md.md)] a [!INCLUDE[crm_md](includes/crm_md.md)].
 
 |Campo|Descripción|
@@ -89,7 +87,7 @@ El procedimiento siguiente describe cómo rellenar los campos en la página **Co
 
 |Campo|Descripción|
 |-----|-----|
-|**La integración de pedidos de venta está habilitada**|Permitir que los usuarios envíen pedidos de venta y ofertas activadas en [!INCLUDE[crm_md](includes/crm_md.md)] y después verlas y procesarlas en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Esto integra el proceso en [!INCLUDE[crm_md](includes/crm_md.md)]. Para obtener más información, consulte [Activar la integración de procesamiento de pedidos de venta](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration).|
+|**La integración de pedidos de venta está habilitada**|Permitir que los usuarios envíen pedidos de venta y ofertas activadas en [!INCLUDE[crm_md](includes/crm_md.md)] y después verlas y procesarlas en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Esto integra el proceso en [!INCLUDE[crm_md](includes/crm_md.md)]. Para obtener más información, consulte [Activar la integración de procesamiento de pedidos de venta](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration).|
 |**Crear automáticamente pedidos de ventas**|Crear un pedido de venta en [!INCLUDE[d365fin](includes/d365fin_md.md)] cuando un usuario cree y envíe uno en [!INCLUDE[crm_md](includes/crm_md.md)].|
 |**Procesar automáticamente ofertas de venta**|Procesar una oferta de venta cuando en [!INCLUDE[d365fin](includes/d365fin_md.md)] cuando un usuario cree y active una en [!INCLUDE[crm_md](includes/crm_md.md)].|
 
@@ -108,15 +106,15 @@ El procedimiento siguiente describe cómo rellenar los campos en la página **Co
 7. Si aún no está configurada la sincronización de [!INCLUDE[crm_md](includes/crm_md.md)], se le preguntará si desea utilizar la configuración de sincronización predeterminada. Dependiendo de si desea mantener los registros alineados en [!INCLUDE[crm_md](includes/crm_md.md)] y [!INCLUDE[d365fin](includes/d365fin_md.md)], elija **Sí** o **No**.
 
 > [!Note]
-> La conexión a Dynamics 365 Sales mediante la página **Configuración de la conexión de Microsoft Dynamics 365 Sales** puede requerir que asigne los roles de seguridad Administrador de integración y Usuario de integración a la cuenta utilizada para la integración. Para obtener más información, consulte [Asignar un rol de seguridad a un usuario](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).
+> La conexión a Dynamics 365 Sales mediante la página **Configuración de la conexión de Microsoft Dynamics 365 Sales** puede requerir que asigne los roles de seguridad Administrador de integración y Usuario de integración a la cuenta utilizada para la integración. Para obtener más información, consulte [Asignar un rol de seguridad a un usuario](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).
 
 
 > [!Note]
-> La conexión a Dynamics 365 Sales mediante la página **Configuración de la conexión de Microsoft Dynamics 365 Sales** puede requerir que [asigne los roles de seguridad **Administrador de integración** y **Usuario de integración**](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user) a la cuenta de usuario utilizada para la integración.
+> La conexión a Dynamics 365 Sales mediante la página **Configuración de la conexión de Microsoft Dynamics 365 Sales** puede requerir que [asigne los roles de seguridad **Administrador de integración** y **Usuario de integración**](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user) a la cuenta de usuario utilizada para la integración.
 
 
 ### <a name="to-disconnect-from-includecrm_mdincludescrm_mdmd"></a>Para desconectar de [!INCLUDE[crm_md](includes/crm_md.md)]  
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración de conexión de Microsoft Dynamics 365 Sales** y luego elija el vínculo relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de la conexión de Microsoft Dynamics 365 Sales** y luego elija el enlace relacionado.
 2. En la página **Configuración de la conexión de Microsoft Dynamics 365 Sales**, desactive la casilla **Activado**.  
 
 <!--## Install the [!INCLUDE[d365fin](includes/d365fin_md.md) Integration Solution
@@ -131,11 +129,11 @@ El procedimiento siguiente describe cómo rellenar los campos en la página **Co
 
      This step adds the **[!INCLUDE[d365fin](includes/d365fin_md.md) Connection** entity and **[!INCLUDE[d365fin](includes/d365fin_md.md) Account Statistics** entity in the system and additional items such as [!INCLUDE[d365fin](includes/d365fin_md.md)] integration security roles.  
 
-     For more information about how to manage solutions in [!INCLUDE[crm_md](includes/crm_md.md)], [http://go.microsoft.com/fwlink/?LinkID=616519](http://go.microsoft.com/fwlink/?LinkID=616519).  
+     For more information about how to manage solutions in [!INCLUDE[crm_md](includes/crm_md.md)], [https://go.microsoft.com/fwlink/?LinkID=616519](https://go.microsoft.com/fwlink/?LinkID=616519).  
 
 3.  Optional: Set up the **[!INCLUDE[d365fin](includes/d365fin_md.md) Connection** entity to display in the **Settings** area of [!INCLUDE[crm_md](includes/crm_md.md)].  
 
-     This enables [!INCLUDE[crm_md](includes/crm_md.md)] users who are assigned the **[!INCLUDE[d365fin](includes/d365fin_md.md) Admin** role to modify the entity in [!INCLUDE[crm_md](includes/crm_md.md)]. For more information about how to modify entities in [!INCLUDE[crm_md](includes/crm_md.md)], see [View or edit entity information](http://go.microsoft.com/fwlink/?LinkID=616521).  
+     This enables [!INCLUDE[crm_md](includes/crm_md.md)] users who are assigned the **[!INCLUDE[d365fin](includes/d365fin_md.md) Admin** role to modify the entity in [!INCLUDE[crm_md](includes/crm_md.md)]. For more information about how to modify entities in [!INCLUDE[crm_md](includes/crm_md.md)], see [View or edit entity information](https://go.microsoft.com/fwlink/?LinkID=616521).  
 
 4.  Assign the **[!INCLUDE[d365fin](includes/d365fin_md.md) Integration Administrator** role to the user account for the connection to [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 

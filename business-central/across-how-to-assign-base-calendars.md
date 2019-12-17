@@ -1,8 +1,6 @@
 ---
 title: Cómo configurar calendario base | Documentos de Microsoft
 description: Puede asignar un calendario base a la empresa y a los socios comerciales, como clientes, proveedores o almacenes. Se calculan las fechas de entrega y de recepción de futuros pedidos de venta, pedidos de compra, pedidos de transferencia y líneas de órdenes de producción según los días laborables especificados en el calendario.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5e643adf2f66cd1e8d49d0d3b943b92ba749cccf
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c9c4b89122f9c8b905a864d39a559b7214ee7c5c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305481"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881221"
 ---
 # <a name="set-up-base-calendars"></a>Configurar calendarios base
 Puede asignar un calendario base a la empresa y a los socios comerciales, como clientes, proveedores o almacenes. Se calculan las fechas de entrega y de recepción de futuros pedidos de venta, pedidos de compra, pedidos de transferencia y líneas de órdenes de producción según los días laborables especificados en el calendario. La tarea principal en la configuración de un calendario base nuevo es especificar y definir los días no laborables que desea aplicar.  
 
 ## <a name="to-set-up-a-base-calendar"></a>Para configurar un calendario base  
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Calendario base** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Calendario base** y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Nuevo**.  
 3.  Rellene el campo **Código**.  
 4. Seleccione la acción **Mantener cambios en el calendario base** .
@@ -66,7 +64,7 @@ Por ejemplo, mientras que un calendario base normalmente enumeraría todos los s
 
 El siguiente procedimiento utiliza este almacén como ejemplo. Tenga en cuenta que en este momento, ya ha asignado a un calendario base al almacén.
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Ubicaciones** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Almacenes** y, a continuación, elija el enlace relacionado.
 2. Abra la ubicación que desea actualizar y seleccione el campo **Calendario personalizado**. Tenga en cuenta que debe seleccionarse un calendario en el campo **Código calendario base**.
 3. En la página **Entradas del calendario personalizadas**, seleccionar la acción **Mantener los cambios del calendario personalizado**.
 4. En **Cambios personalizados del calendario**, añada líneas para las entradas del calendario personalizadas.
@@ -102,7 +100,7 @@ Los calendarios base se asignan a su propia empresa, clientes, proveedores, alma
 -   En la ficha **Almacén**, el calendario base se asigna en la ficha desplegable **Almacén**.  
 -   En la página **Transportistas**, el calendario base se asigna en la página **Servicios transportista**.  
 
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Clientes** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Clientes** y luego elija el enlace relacionado.  
 2.  Abra la ficha **Cliente** a la que asignará un calendario base.  
 3.  En la ficha desplegable **Envío**, en el campo **Código calendario base**, seleccione el calendario base que desea asignar.  
 
@@ -117,5 +115,5 @@ Los calendarios base se asignan a su propia empresa, clientes, proveedores, alma
 ## <a name="see-also"></a>Consulte también
 [Compras](purchasing-manage-purchasing.md)  
 [Fabricación](production-manage-manufacturing.md)    
-[Grupos contables inventario](inventory-manage-inventory.md)  
+[Inventario](inventory-manage-inventory.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

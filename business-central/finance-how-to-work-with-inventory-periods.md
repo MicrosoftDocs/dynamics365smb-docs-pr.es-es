@@ -1,8 +1,6 @@
 ---
 title: Trabajar con periodos inventario | Documentos de Microsoft
 description: Usted puede controlar el periodo en el que la gente puede registrar cambios en el inventario mediante la definición de periodos de inventario.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: inventory, periods
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1a88456e91b3398ac9cae1b64ebdd80644b5d0aa
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 8b2a34db5d4e40f99fceb844150312d6c6dffc55
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554043"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879637"
 ---
 # <a name="work-with-inventory-periods"></a>Trabajar con periodos de inventario
 Los periodos del inventario definen un periodo de tiempo durante el cual es posible registrar cambios en el inventario. Un periodo del inventario se define por la fecha en la que finaliza. Cuando se cierra un periodo del inventario, no es posible registrar ningún cambio en él (ya sea previsto o facturado) antes de dicha fecha de finalización. Tampoco es posible registrar ningún valor nuevo en el inventario antes de dicha fecha. Si tiene movimientos de producto abiertos en ese periodo ya cerrado (lo que significa que existen cantidades positivas que todavía no ha aplicado a transacciones de salida), seguirá pudiendo aplicar cantidades de salida a dichos movimientos, incluso si el periodo está cerrado.  
@@ -29,7 +27,7 @@ En el siguiente apartado se explica cómo:
 * Vuelva a abrir periodos de inventario.  
 
 ## <a name="to-create-an-inventory-period"></a>Para crear un periodo de inventario  
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Periodos inventario** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Periodos inventario** y luego elija el enlace relacionado.  
 2. Cree una línea nueva.  
 3. En el campo **Fecha final**, introduzca la última fecha del periodo que desee definir. Cuando se cierre el periodo del inventario, ya no podrá registrar cambios en el inventario antes de dicha fecha.  
 4. Introduzca un nombre descriptivo en el campo **Nombre**. Elija el botón **Aceptar**.  
@@ -61,7 +59,7 @@ Esto significa que todas las cantidades de transacciones de salida (como aquella
 Después de haber cerrado el periodo de inventario, ya no podrá eliminarlo. No obstante, si lo desea podrá volver a abrirlo para permitir realizar cambios antes de la fecha de finalización del periodo del inventario. Al volver a abrir un periodo, también se volverán a abrir todos los periodos del inventario cuyas fechas de finalización sean posteriores a las del periodo que está volviendo a abrir.  
 
 ### <a name="to-reopen-an-inventory-period"></a>Para volver a abrir un periodo de inventario  
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Periodos inventario** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Periodos inventario** y luego elija el enlace relacionado.  
 2. Seleccione el periodo del inventario que desea volver a abrir.  
 3. Seleccione la acción del periodo **Reabrir periodo**. Confirme que desea volver a abrir el periodo.  
 4. Todos los periodos del inventario cuyas fechas de finalización sean posteriores a las del periodo que ha seleccionado se vuelven a abrir.  
@@ -69,5 +67,5 @@ Después de haber cerrado el periodo de inventario, ya no podrá eliminarlo. No 
 ## <a name="see-also"></a>Consulte también  
 [Detalles de diseño: Periodos de inventario](design-details-inventory-periods.md)  
 [Finanzas](finance.md)  
-[Grupos contables inventario](inventory-manage-inventory.md)  
+[Inventario](inventory-manage-inventory.md)  
 [Trabajar con Financials](ui-work-product.md)

@@ -1,8 +1,6 @@
 ---
 title: Configurar una empresa con el asistente de RapidStart | Documentos de Microsoft
 description: Puede configurar rápidamente una nueva empresa que se haya creado mediante el asistente para la configuración de RapidStart Services.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a6bc660112edb7a316fcbb2f0bdfddd0f5e90634
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d26073d7b96b3c5970689c916edf18fccab6ca34
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308145"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878706"
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>Configurar una empresa con el asistente de RapidStart
 Puede configurar rápidamente una nueva empresa que se haya creado mediante el asistente para la configuración de RapidStart Services.
@@ -41,7 +39,7 @@ En el procedimiento siguiente, proporcionó al cliente el paquete de configuraci
     >  Solo cambie el Área de trabajo después de haber completado la configuración de la empresa. Si hay detalles de configuración adicionales que deben tenerse en cuenta o modificar, el primero use la hoja de trabajo de configuración para continuar con el trabajo. A continuación, vuelva al asistente para actualizar el perfil de Área de trabajo o elija la acción **Completar configuración**.
 
 7. Elija el botón **Aceptar**.  
-8. Para comprobar que la información de configuración se ha aplicado a la nueva empresa, elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Información empresa** y seleccione el vínculo relacionado.
+8. Para comprobar que la información de configuración se ha aplicado a la nueva empresa, elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Información empresa** y seleccione el vínculo relacionado.
 
 La página **Información empresa** contiene la información especificada.   
 

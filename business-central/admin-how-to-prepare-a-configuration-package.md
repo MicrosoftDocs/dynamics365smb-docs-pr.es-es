@@ -1,8 +1,6 @@
 ---
 title: Preparar un paquete de configuración | Documentos de Microsoft
 description: Cuando se configura una nueva empresa, se reconocen y se procesan las relaciones de tabla. Los datos se importan y se aplican en el orden correcto. Si en el paquete de configuración se incluyen tablas de dimensión, estas también se importan.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0f74b3472b081d7968336fd16b6ef6addccff861
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 48127ea1fb363bd22d4f6d7dec85df47a11f8ce8
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308002"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879255"
 ---
 # <a name="prepare-a-configuration-package"></a>Preparar un paquete de configuración
 Cuando se configura una nueva empresa, se reconocen y se procesan las relaciones de tabla. Los datos se importan y se aplican en el orden correcto. Si en el paquete de configuración se incluyen tablas de dimensión, estas también se importan. Para obtener más información, consulte [Para importar datos del cliente](admin-migrate-customer-data.md#to-import-customer-data). 
@@ -32,7 +30,7 @@ Asegúrese de que se encuentra en el Área de trabajo del implementador de Rapid
 >  Puede importar un paquete de configuración que se ha exportado desde una base de datos con un esquema distinto al de la base de datos de destino. Sin embargo, no se importarán las tablas o los campos del paquete de configuración que falten en la base de datos de destino. Tampoco se importarán las tablas con diferentes claves principales ni los campos con distintos tipos de datos. Por ejemplo, si el paquete de configuración incluye la tabla **50000, Cliente** que tiene la clave principal **Code20** y la base de datos a la que importa el paquete incluye la tabla **50000, Banco cliente** que tiene la clave principal **Code20 + Código 20**, no se importarán los datos.  
 
 ## <a name="to-create-a-configuration-package"></a>Procedimiento para crear un paquete de configuración  
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Paquetes de configuración** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Paquetes de configuración** y luego elija el enlace relacionado.  
 2. Seleccione la acción **Nuevo**.  
 3. En la ficha desplegable **General**, rellene el resto de los campos según corresponda. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Para excluir del paquete los cuestionarios de configuración, las plantillas de configuración y las tablas de la hoja de trabajo de configuración, active la casilla **Excluir tablas de configuración**. De lo contrario, estas tablas se agregarán automáticamente a la lista de tablas del paquete cuando este se exporte.  
@@ -79,7 +77,7 @@ Puede guardar el archivo con un nombre que tenga significado para usted, pero no
 ### <a name="to-copy-a-configuration-package"></a>Procedimiento para copiar un paquete de configuración  
 Una vez que haya creado un paquete que satisfaga la mayoría de sus necesidades, puede emplearlo como base para crear paquetes similares. Esto puede agilizar el tiempo de implementación y mejora la capacidad de repetición de RapidStart Services.
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Paquetes de configuración** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Paquetes de configuración** y luego elija el enlace relacionado.  
 2. Seleccione un paquete de la lista y, a continuación, seleccione la acción **Copiar paquete**.  
 3. Escriba un código para el nuevo paquete en el campo **Nuevo código paquete**.  
 4. Active la casilla **Copiar datos** si también desea copiar los datos de base de datos del paquete existente.  
@@ -88,7 +86,7 @@ Una vez que haya creado un paquete que satisfaga la mayoría de sus necesidades,
 ## <a name="to-customize-a-configuration-package"></a>Procedimiento para personalizar un paquete de configuración
 Use la hoja de trabajo de configuración para recopilar y clasificar la información que desea usar para configurar una nueva empresa, y organice las tablas de manera lógica. El formato de la hoja de trabajo se basa en una jerarquía sencilla: las áreas contienen grupos que, a su vez, contienen tablas. Las áreas y los grupos son opcionales, pero son necesarios para activar un resumen del proceso de configuración en el Área de trabajo de RapidStart Services.
 
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hoja de configuración** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja de configuración** y luego elija el enlace relacionado.  
 2.  En el campo **Tipo línea**, elija **Área**. Especifique un nombre descriptivo en el campo **Nombre**.  
 3.  En el campo **Tipo línea**, elija **Grupo**. Especifique un nombre descriptivo en el campo **Nombre**.  
 4.  En el campo **Tipo línea**, elija **Tabla**. En el campo **Id. tabla**, seleccione la tabla que desee incluir en la hoja de trabajo.  
@@ -105,7 +103,7 @@ Una vez definidas las tablas que se deben procesar como parte de la configuraci�
 > [!NOTE]  
 >  También puede crear un paquete directamente y agregarle tablas. Para obtener más información sobre cómo crear un proyecto, consulte [Para crear un paquete de configuración](admin-how-to-prepare-a-configuration-package.md#to-create-a-configuration-package).
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hoja de configuración** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja de configuración** y luego elija el enlace relacionado.
 2. En la hoja de trabajo de configuración, seleccione una línea o un grupo de líneas que desee asignar a un paquete de configuración y elija la acción **Asignar paquete**.  
 3.  Seleccione un paquete de la lista o elija la acción **Nuevo** para crear un nuevo paquete y, a continuación, elija el botón **Aceptar**.  
 
@@ -115,7 +113,7 @@ Una vez definidas las tablas que se deben procesar como parte de la configuraci�
 ## <a name="to-review-or-customize-existing-database-data"></a>Revisar o personalizar datos de base de datos existentes
 A medida que crea un paquete de configuración para una solución, puede ver y personalizar los datos de base de datos disponibles para satisfacer las necesidades del cliente. La tabla de base de datos debe tener una página asociada.  
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hoja de configuración** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja de configuración** y luego elija el enlace relacionado.
 2. En la hoja de trabajo de configuración, indique las tablas cuyos datos desee ver o personalizar.  
 
     > [!NOTE]  
@@ -128,7 +126,7 @@ A medida que crea un paquete de configuración para una solución, puede ver y p
 Una vez que haya revisado y probado toda la información de configuración, puede comenzar a copiar datos al entorno de producción. Crea una nueva empresa en la misma base de datos.
 
 1. Abra e inicializa la nueva empresa.  
-2. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hoja de configuración** y luego elija el enlace relacionado.  
+2. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja de configuración** y luego elija el enlace relacionado.  
 3. Seleccione la acción **Copiar datos desde empresa**.  
 4. En la página **Copiar datos de empresa**, elija el campo **Copiar de**. Se abre la página **Empresas**.  
 5. Seleccione la empresa desde la que desea copiar datos y elija el botón **Aceptar**. Aparece una lista de tablas seleccionadas en la hoja de trabajo de configuración. Solo las tablas que contienen registros se incluyen en la lista.

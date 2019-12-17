@@ -1,8 +1,6 @@
 ---
 title: Copiar datos a una nueva empresa | Documentos de Microsoft
 description: Puede copiar los valores de uso general de una empresa existente a otra nueva, siempre y cuando ambas empresas estén en la misma base de datos. Por ejemplo, si tiene una lista estándar de códigos de síntoma comunes a todas las implementaciones de gestión de servicios, puede copiarlos con facilidad de una empresa a otra.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 87b9a6b39128c43d7159fc5e964d307d19013c2b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: f95e7ec5be6e00e908f5cb8cbe6f08528542e150
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308456"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878610"
 ---
 # <a name="copy-data-to-new-companies"></a>Copiar datos a una nueva empresa
 Puede copiar los valores de uso general de una empresa existente a otra nueva, siempre y cuando ambas empresas estén en la misma base de datos. Por ejemplo, si tiene una lista estándar de códigos de síntoma comunes a todas las implementaciones de gestión de servicios, puede copiarlos con facilidad de una empresa a otra.  
 
 ## <a name="to-copy-data-to-a-new-company-using-rapidstart-services"></a>Procedimiento para copiar datos a una nueva empresa mediante RapidStart Services  
 1. Abra la nueva empresa.  
-2. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hoja de configuración** y luego elija el enlace relacionado.  
+2. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja de configuración** y luego elija el enlace relacionado.  
 3. Seleccione **Copiar datos de empresa**.  
 4. En la página **Copiar datos de empresa**, elija la empresa desde la que va a copiar en el campo **Copiar desde** y el botón **Aceptar**.  
 5. Seleccione una tabla de uno de los paquetes de configuración importados y elija la acción **Copiar datos**.

@@ -12,12 +12,12 @@ ms.search.keywords: ''
 ms.reviewer: edupont
 ms.date: 10/01/2019
 ms.author: soalex
-ms.openlocfilehash: a9378bd44dfbf0271987e748b03d7f2f3e17e1ac
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ad70b9d321ac4c8ee9b1d7c8a00e7e192187093a
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307473"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880717"
 ---
 # <a name="service-compliance"></a>Conformidad de los servicios
 En este contenido se incluye información acerca de la conformidad de los servicios en relación con [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
@@ -26,11 +26,11 @@ Business Central es un servicio en la nube con un alcance y escala global que se
 
 Consulte la lista detallada de [ofertas de conformidad de la nube para Business Central aquí](https://aka.ms/d365-compliance-list).
 
-Si desea encontrar la lista completa de ofertas de conformidad de Microsoft, consulte [Centro de confianza de Microsoft](https://www.microsoft.com/en-us/trustcenter/compliance/complianceofferings).
+Si desea encontrar la lista completa de ofertas de conformidad de Microsoft, consulte [Centro de confianza de Microsoft](https://www.microsoft.com/trustcenter/compliance/complianceofferings).
 
 ## <a name="service-terms"></a>Términos del servicio
 
-[!INCLUDE [prodshort](../includes/prodshort.md)] en línea se rige por la [directiva de ciclo de vida moderno](https://support.microsoft.com/en-us/help/30881/modern-lifecycle-policy). Los términos del acuerdo de nivel de servicio se describen en el documento que puede descargar de la sección **Acuerdos de nivel de servicio para Microsoft Online Services** en la página [Términos de licencia](https://www.microsoft.com/en-us/licensing/product-licensing/products).  
+[!INCLUDE [prodshort](../includes/prodshort.md)] en línea se rige por la [directiva de ciclo de vida moderno](https://support.microsoft.com/help/30881/modern-lifecycle-policy). Los términos del acuerdo de nivel de servicio se describen en el documento que puede descargar de la sección **Acuerdos de nivel de servicio para Microsoft Online Services** en la página [Términos de licencia](https://www.microsoft.com/licensing/product-licensing/products).  
 
 Además, puede supervisar el estado de salud de su suscriptor y especificar periodos de actualización en el [Centro de administración de suscriptores](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
 

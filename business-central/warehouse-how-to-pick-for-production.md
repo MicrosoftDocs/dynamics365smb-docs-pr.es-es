@@ -1,8 +1,6 @@
 ---
 title: Cómo realizar el picking para la producción en configuraciones básicas de almacén | Microsoft Docs
 description: Cuando el almacén requiere el proceso de picking, pero no el proceso de envío, utilice la página **Picking inventario** para organizar y registrar el picking de componentes.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e58299e7edecc35c7757ebc91d1e444df299ee13
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 303f8007bbe1a953fb09c892e71f5e52dbcf74ee
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310305"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876660"
 ---
 # <a name="pick-for-production-or-assembly-in-basic-warehouse-configurations"></a>Realizar picking para ensamblado o producción en una configuración básica de almacén
 La forma de ubicar el picking de componentes para fabricación u órdenes de ensamblado depende de la configuración del almacén. Para obtener más información, consulte [Configuración de la administración de almacén](warehouse-setup-warehouse.md).
@@ -39,7 +37,7 @@ Una condición previa del sistema para picking o traslado de componentes para lo
 ## <a name="to-pick-components-in-basic-warehouse-configurations"></a>Para realizar el picking de componentes en configuraciones básicas de almacén
 En configuraciones básicas de almacén en donde se configura la ubicación para utilizar picking, podrá escoger los componentes para las actividades de producción con la página **Picking inventario**. Para obtener más información, vea [Realizar picking de productos con picking inventario](warehouse-how-to-pick-items-with-inventory-picks.md).
 
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Picking de inventario** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Picking de existencias** y luego elija el enlace relacionado.  
 2.  Para tener acceso a los componentes de la orden de producción, elija la acción **Traer doc. origen** y, a continuación, seleccione la orden de producción lanzada.  
 3.  realice el picking y, a continuación, registre la información de picking real en el campo **Cdad. preparada pedido**.  
 4.  Cuando las líneas estén preparadas para registrar, elija la acción **Registrar**. El registro crea los movimientos de almacén necesarios y registra el consumo de los productos.  
@@ -71,11 +69,11 @@ En escenarios de combinación, donde parte de la cantidad debe ensamblarse prime
 ## <a name="filling-the-consumption-bin"></a>Rellenando la ubicación del consumo
 Este organigrama muestra cómo se rellena el campo de **Código de ubicación** en las líneas del componente de la orden de producción según la ubicación.
 
-![Gráfico de flujo de ubicación](media/binflow.png "BinFlow")
+![Diagrama de flujo de ubicación](media/binflow.png "BinFlow")
 
 ## <a name="see-also"></a>Consulte también
-[Gestión almacén](warehouse-manage-warehouse.md)  
-[Grupos contables inventario](inventory-manage-inventory.md)  
+[Gestión de almacenes](warehouse-manage-warehouse.md)  
+[Inventario](inventory-manage-inventory.md)  
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  

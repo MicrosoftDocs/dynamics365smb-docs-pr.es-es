@@ -1,8 +1,6 @@
 ---
 title: Cómo eliminar y liquidar de nuevo los movimientos de producto | Documentos de Microsoft
 description: Puede ver y modificar manualmente determinados movimientos de liquidación del producto que se crean automáticamente durante las transacciones del inventario.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 898548bd33bbc9a5a7ae7400c626bf7a7820bfd4
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 81565950191b40f2c54646d17f02ee857856c436
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554139"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882699"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Eliminar y liquidar de nuevo los movimientos contables de producto
 En la página **Hoja liquidación**, puede ver y modificar manualmente determinados movimientos de liquidación del producto que se crean automáticamente durante las transacciones del inventario.  
@@ -43,7 +41,7 @@ Si no puede usar un documento para volver a liquidar, por ejemplo cuando tiene q
     - La hoja de liquidación no puede realizar una liquidación si se da el caso siguiente: si no hay suficiente cantidad que liquidar en el stock, la hoja de liquidación no puede llevar a cabo el proceso si intente liquidar un movimiento de salida de existencias que no incluya información de seguimiento del producto con un movimiento de salida de existencias que sí incluya información de seguimiento.
 
 ## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>Para eliminar una liquidación de producto con la Hoja de liquidación  
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hoja liquidación** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja de liquidación** y luego elija el enlace relacionado.  
 2.  La página **Hoja liquidación** se abre y muestra los movimientos de producto existentes para todos los productos.  
 3.  Especifique los filtros en la ficha desplegable **General** para facilitar el movimiento del producto para el cual desea cambiar la liquidación.  
 4.  Seleccione el movimiento de producto relevante y, a continuación, seleccione la acción **Movs. liquidados**. Se abre la página **Ver, Movs. conciliados - Movs. conciliados** para mostrar los movimientos de producto que se aplican actualmente al movimiento seleccionado.  
@@ -59,7 +57,7 @@ Si no puede usar un documento para volver a liquidar, por ejemplo cuando tiene q
 >  **No puede realizar esta acción porque los movimientos del producto <item> no están liquidados en la Hoja de liquidación del usuario <user>.**  
 
 ## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Para volver a liquidar un producto con la Hoja liquidación  
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hoja liquidación** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja de liquidación** y luego elija el enlace relacionado.  
 2.  La página **Hoja liquidación** se abre y muestra los movimientos de producto existentes para todos los productos.  
 3.  Para volver a liquidar los movimientos que se eliminaron desde que abriera la hoja de trabajo, seleccione el movimiento que desea volver a liquidar y, a continuación, elija la acción **Liquidar de nuevo**.  
 

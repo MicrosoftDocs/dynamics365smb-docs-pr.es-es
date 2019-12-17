@@ -1,8 +1,6 @@
 ---
 title: Configuración de códigos de operación
 description: Puede añadir tantos códigos de operación como desee a la tabla. Sin embargo, los códigos C, D e I ya existe en Business Central.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 93b46a05cf63973fcef2a52f44c122542f8989e4
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: bd24167fa0109eef6cb70534f134013b112bb796
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301083"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878823"
 ---
 # <a name="set-up-operation-codes"></a>Configurar códigos de operación
 Puede añadir tantos códigos de operación como desee a la tabla. Sin embargo, los códigos C, D e I ya existe en [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. Por ejemplo, los abonos siempre tienen el código de operación D. No puede configurar estos valores en la tabla porque son códigos creados por el sistema. Si intenta agregarlos, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] devolverá un error.  
 
 ## <a name="to-set-up-operation-codes"></a>Para configurar códigos de operación  
 
-1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Códigos de operación** y, a continuación, seleccione el vínculo relacionado.  
+1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Códigos operación** y, a continuación, seleccione el vínculo relacionado.  
 2.  En la página **Códigos de operación**, rellene los campos tal como se describe en la tabla siguiente  
 
     |Campo|Description|  
@@ -34,7 +32,7 @@ Puede añadir tantos códigos de operación como desee a la tabla. Sin embargo, 
 
 ## <a name="to-link-operation-codes-to-general-product-posting-groups"></a>Para vincular códigos de operación a grupos de publicación de productos en general  
 
-1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Grupos contables** y, a continuación, seleccione el vínculo relacionado.  
+1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Grupos contables** y, a continuación, seleccione el vínculo relacionado.  
 2.  Elija la acción **Grupos contables de producto general**.  
 3.  En la página **Grupos de publicación de productos generales**, vincule cada código de operación a un grupo de publicación de productos general.  
 

@@ -10,18 +10,19 @@ ms.workload: na
 ms.search.keywords: COA, cha of acc
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: b31bc4fb174c78092986c14f97232d8498974834
-ms.sourcegitcommit: f9f805282c86fda55843f7a11020fb3df861d50e
+ms.openlocfilehash: ee789f35118c054fec8129106db0ad60cc48141c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "2764485"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879470"
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>Configurar o cambiar el plan de cuentas
 El plan de cuentas muestra las cuentas de contabilidad que almacenan sus datos financieros. [!INCLUDE[d365fin](includes/d365fin_md.md)] incluye un gráfico estándar de cuentas que está preparado para respaldar su negocio.
 Sin embargo, puede cambiar las cuentas predeterminadas y puede agregar nuevas cuentas. 
 <br><br>  
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE43KO9]
+
+> [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9]
 
 
 ## <a name="adding-or-changing-accounts"></a>Agregar o cambiar cuentas

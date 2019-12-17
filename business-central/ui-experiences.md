@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 10/08/2019
+ms.date: 11/13/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8c9223176968d048d167b3b8509cab26343ee9f1
-ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
+ms.openlocfilehash: 32de53150f90f2400962f33601a0fa45c059bd4c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2775336"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882163"
 ---
 # <a name="change-which-features-are-displayed"></a>Cambiar las funciones que se muestran
 [!INCLUDE[d365fin](includes/d365fin_md.md)] está diseñado para ayudarlo a administrar su empresa, independientemente del tamaño y la complejidad. En el núcleo del producto, encontrará características esenciales, como informes financieros, ventas, compras y administración de inventario. A medida que aumenta la complejidad empresarial, puede activar la funcionalidad para la fabricación y la administración de servicios, por ejemplo.
@@ -40,10 +40,10 @@ Antes de definir la configuración de experiencia de una empresa, defina el acce
 La configuración **Experiencia** se aplica a todos los usuarios de una empresa, pero cada usuario puede personalizar aún más su propia experiencia cambiando el diseño y el contenido de la página. Para obtener más información, consulte [Personalizar el área de trabajo](ui-personalization-user.md).
 
 ## <a name="enabling-premium-features-after-upgrading-a-plan"></a>Habilitar características premium después de actualizar un plan
-Los usuarios se asignan a planes en el Centro de administración de Office 365 en relación con el trabajo general para crear los usuarios de Business Central. Para obtener más información, vea [Agregar usuarios a Office 365 para empresas](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc).
+Los usuarios se asignan a planes en el Centro de administración de Microsoft 365 en relación con el trabajo general para crear los usuarios de Business Central. Para obtener más información, vea [Agregar usuarios individualmente o en masa a Office 365](https://support.office.com/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc).
 
 ### <a name="to-update-plan-changes-in-users-groups"></a>Para actualizar los cambios del plan en grupos de usuarios
-Cuando haya realizado un cambio en los planes de los usuarios en el Centro de administración de Office 365, como asignar más usuarios al plan Premium, debe reflejar el cambio en [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Cuando haya realizado un cambio en los planes de los usuarios en el Centro de administración de Microsoft 365, como asignar más usuarios al plan Premium, debe reflejar el cambio en [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 1. Inicie sesión como administrador.
 2. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Usuarios** y luego elija el enlace relacionado.

@@ -1,8 +1,6 @@
 ---
 title: Cómo crear ofertas de servicio | Documentos de Microsoft
 description: Puede utilizar la página **Oferta servicio** para crear documentos en los que se introduce información acerca de un servicio, como reparación y mantenimiento, de productos de servicio a solicitud del cliente. Puede utilizar una oferta de servicio como borrador de un pedido de servicio y, más adelante, convertir la oferta en un pedido de servicio.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e3689096a2bcdfed5ceb92a2fc9163549f2d53de
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4e04c2dc74ab1ecc0c0041258ca1824f872caac8
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315929"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877236"
 ---
 # <a name="create-service-quotes"></a>Crear ofertas de servicio
 Puede pensar en ofertas de servicio como base para los pedidos de servicio. De hecho, son casi idénticos. Ambos contienen información como quién es el cliente, el tipo de pedido, el producto que requiera servicio, información sobre facturación y sobre el envío, e información acerca del proyecto de servicio real.
@@ -25,7 +23,7 @@ Puede pensar en ofertas de servicio como base para los pedidos de servicio. De h
 Puede utilizar una oferta de servicio como borrador de un pedido de servicio y, más adelante, convertir la oferta en un pedido de servicio.  
   
 ## <a name="to-create-a-service-quote"></a>Para crear una oferta de servicio  
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Ofertas servicio** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Ofertas servicio** y luego elija el enlace relacionado.  
 2. Cree una oferta de servicio nueva.  
 3. En el campo **N.º**, introduzca un número para la oferta de servicio. Si ha configurado números de serie para ofertas de servicio en la página **Config. gestión servicio**, también puede presionar Enter para seleccionar el siguiente número de oferta de servicio disponible.  
 4. En el campo **Nº cliente**,  seleccione el cliente pertinente de la lista.  

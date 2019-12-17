@@ -1,8 +1,6 @@
 ---
 title: Cómo realizar picking de productos con picking inventario | Documentos de Microsoft
 description: Si se configura un almacén para requerir proceso de picking, pero no de envío, utilice documentos de picking de inventario para registrar la información de picking y de envío de los documentos de origen.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 66b4d9c3f9f84e9342cffd9446a4b3992ff62a57
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0f6f157de1d3d65eddf7e2db9c40f27ec56443de
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310281"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876636"
 ---
 # <a name="pick-items-with-inventory-picks"></a>Realizar el picking de productos con picking inventario
 Cuando su almacén está configurado para requerir proceso de picking, pero no de envío, utilice la página **Picking inventario** para registrar la información de picking y envío de sus documentos de origen. El documento de origen de salida puede ser un pedido de venta, una devolución de compras, un pedido de transferencia de salida o una orden de producción cuyos componentes están preparados para picking.
@@ -36,7 +34,7 @@ Puede crear un picking de inventario de tres formas:
 ## <a name="to-request-an-inventory-pick-by-releasing-the-source-document"></a>Para solicitar un picking de inventario lanzado el documento de origen  
 En el caso de pedidos de venta, pedidos de devolución de compra y pedidos de transferencia de salida, para crear la solicitud de almacén, lance el pedido. A continuación se describe cómo hacerlo des de un pedido de venta.
 
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.
 2. Seleccione el pedido de venta que desea lanzar, y después seleccione **Lanzar**.
 
 Para las órdenes de producción, cree la solicitud de almacén automáticamente para el picking de componentes, llamado *método de baja* cuando cambie el estado de la orden de producción a **Lanzado** o cuando se cree la orden de producción lanzada. Para obtener más información, consulte [Picking para producción o ensamblado](warehouse-how-to-pick-for-production.md).
@@ -45,7 +43,7 @@ Cuando se ha creado la solicitud de almacén, un empleado del almacén asignado 
 
 ## <a name="to-create-an-inventory-pick-based-on-the-source-document"></a>Para crear un picking de inventario basado en el documento de origen
 Ahora que se ha creado la solicitud, el empleado del almacén puede crear un nuevo picking de inventario basado en el documento de origen lanzado.
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Picking de inventario** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Picking de existencias** y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Nuevo**.  
 3. En el campo **Documento origen**, seleccione el tipo de documento de origen en el que está realizando el picking.  
 4. En el campo **Cód. procedencia mov.**, seleccione el documento de origen.  
@@ -58,7 +56,7 @@ Ahora que se ha creado la solicitud, el empleado del almacén puede crear un nue
 3.  Elija el botón **Aceptar**. Se creará un nuevo picking de inventario.
 
 ## <a name="to-create-multiple-inventory-picks-with-a-batch-job"></a>Para crear varios picking de inventario con un trabajo por lotes  
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Crear ubicac./ pick. exist.** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Crear ubicac./pick. exist.** y luego elija el enlace relacionado.  
 2.  En la ficha desplegable **Solicitud almacén**, use los campos **Documento origen** y **Cód. procedencia mov.** para filtrar determinados tipos de documentos o intervalos de números de documento. Por ejemplo, puede crear picking solo de los pedidos de venta.  
 3. En la ficha desplegable **Opciones**, seleccione la casilla **Crear pick exist.**
 4. Elija el botón **Aceptar**. Se crean los picking de inventario especificados.
@@ -69,7 +67,7 @@ Ahora que se ha creado la solicitud, el empleado del almacén puede crear un nue
 >  En la configuración del almacenamiento básico, se realiza picking de los productos que se ensamblan para pedidos de venta del pedido de venta relacionado, como se explica en este tema. Para obtener más información, consulte la sección “Tratamiento de productos ensamblar para pedido en los picking de inventario” en Picking inventario.  
 
 ## <a name="to-record-the-inventory-picks"></a>Para registrar los picking de inventario  
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Picking de inventario** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Picking de existencias** y luego elija el enlace relacionado.  
 2. En las líneas de picking del campo **Cód. ubicación**, la ubicación desde la cual se debe realizar el picking de productos se sugiere como la ubicación predeterminada del artículo. Si es necesario puede cambiar la ubicación en esta página.  
 3. Realice el picking e introduzca la información de la cantidad de ubicación real en la ventana **Cdad. a manipular**.
 

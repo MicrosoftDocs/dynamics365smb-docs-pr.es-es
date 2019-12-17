@@ -1,8 +1,6 @@
 ---
 title: Cómo planificar pedido por pedido | Documentos de Microsoft
 description: Esta tarea de planificación se puede realizar en la página **Programación de pedidos**, en la que se muestra toda la demanda nueva junto con información sobre disponibilidad y sugerencias de aprovisionamiento. Esta ventana proporciona la información y las herramientas necesarias para planificar de forma eficaz la demanda de las líneas de venta y las líneas de componentes y crear después directamente diferentes tipos de pedidos de suministros.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ecc317449642dafe43f294ecefba386ba7e08f51
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: aa0d9039ff48d05e0a96ceb5480b40cde864499c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313353"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883219"
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Planear la nueva demanda de pedido por pedido
 Esta tarea de planificación se puede realizar en la página **Programación de pedidos**, en la que se muestra toda la demanda nueva junto con información sobre disponibilidad y sugerencias de aprovisionamiento. Esta ventana proporciona la información y las herramientas necesarias para planificar de forma eficaz la demanda de las líneas de venta y las líneas de componentes y crear después directamente diferentes tipos de pedidos de suministros.  
@@ -26,14 +24,14 @@ Puede entrar en la página **Planificación de pedidos** de dos formas distintas
 
 
 ## <a name="to-plan-for-new-production-order-demand"></a>Para planificar una nueva demanda de orden de producción  
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer") escriba **Órdenes producción planificadas** y luego elija el enlace relacionado. (Puede realizar estos pasos para una orden de producción planificada, planificada en firme o una orden de producción lanzada).
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Órdenes producción planificadas** y luego elija el enlace relacionado. (Puede realizar estos pasos para una orden de producción planificada, planificada en firme o una orden de producción lanzada).
 2.  Abra la orden de producción que se desea planificar y selección la acción **Planificación**.  
 3.  En la página **Planificación de pedidos**, seleccione la acción **Calcular plan**.  
 
 En la página se muestran las líneas de planificación en función del filtro de vista **Demanda de producción**, es decir, las líneas de componentes no satisfechos de todas las órdenes de producción existentes. No se muestra la demanda de una sola orden de producción, porque para planificar una orden de producción se necesita tener un panorama de la demanda de líneas de componentes posiblemente anteriores. Las líneas de planificación de la orden de producción en cuestión se expanden.  
 
 ## <a name="to-plan-for-any-new-demand"></a>Para planificar nueva demanda  
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Planificación de pedidos** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Planificación de pedidos** y luego elija el enlace relacionado.  
 2.  En la página **Planificación de pedidos**, seleccione la acción **Calcular plan**.
 3.  Elija el botón **Expandir (+)** que aparece delante de la fecha en el campo **Fecha demanda** para ver las líneas de planificación subyacentes que representan las líneas de demanda con disponibilidad insuficiente.  
 4.  Para cada línea de planificación expandida, es decir, línea de demanda, se muestran valores en los campos de información situados en la parte inferior de la página.  
@@ -85,7 +83,7 @@ En la página se muestran las líneas de planificación en función del filtro d
 >   Si especifica una fecha posterior a la fecha de demanda, se recibirá un mensaje de advertencia.  
 
 ## <a name="to-make-supply-orders"></a>Para crear pedidos de suministro  
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer") escriba **Órdenes producción planificadas** y luego elija el enlace relacionado. Puede realizar estos pasos para una orden de producción planificada, planificada en firme o lanzada.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Órdenes producción planificadas** y luego elija el enlace relacionado. Puede realizar estos pasos para una orden de producción planificada, planificada en firme o lanzada.  
 2.  Abra la orden de producción que se desea planificar y selección la acción **Planificación**.  
 3.  Coloque el cursor en una línea de planificación relevante y seleccione la acción **Crear pedidos**.  
 4.  En la página **Crear pedidos suministros**, en la ficha desplegable **Planificación de pedidos**, en el campo **Crear pedidos para**, seleccione una de las siguientes opciones.  

@@ -1,8 +1,6 @@
 ---
 title: Cómo enviar productos | Documentos de Microsoft
 description: Dependiendo de la configuración de su almacén, puede registrar el envío en el documento empresarial de salida relacionado, como una orden de venta, directamente, o puede utilizar documentos de envío de almacén que respeten un flujo de trabajo e integren diversas actividades del almacén.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 239810db7fa6f7cd74aaebf94581f9ad76fd5599
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a2bde69033ee208082662fa771616ac0b124d73e
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314681"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876780"
 ---
 # <a name="ship-items"></a>Enviar productos
 Cuando envíe artículos de un almacén que no está configurado para el procesamiento de envío de almacén, simplemente registre el envío en el documento de negocio relacionado, como un pedido de cliente, una orden de servicio, una orden de devolución de compra o una orden de transferencia de salida.
@@ -29,7 +27,7 @@ Cuando envía productos de un almacén que está configurado para realizar el pr
 
 ## <a name="to-ship-items-with-a-sales-order"></a>Para enviar productos con un pedido de ventas
 A continuación se describe cómo recibir productos con un pedido de compra. Los pasos son iguales para las órdenes de devolución de compra, las órdenes de servicio y las órdenes de transferencia de salida.  
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.
 2. Abra un pedido de venta existente o cree uno nuevo. Para obtener más información, vea [Vender productos](sales-how-sell-products.md).
 3. Escriba la cantidad recibida en el campo **Cantidad a enviar**.
 
@@ -41,7 +39,7 @@ Primero cree un documento de envío de un documento de origen de negocio. A cont
 
 ### <a name="to-create-a-warehouse-shipment"></a>Para crear un envío de almacén
 Normalmente, el empleado responsable de los envíos crea un envío de almacén.
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Envíos de almacén** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Envíos de almacén** y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Nuevo**.  
 
     Rellene los campos en la ficha desplegable **General**. Al recuperar las líneas del documento de origen, se copia parte de la información en cada línea.  
@@ -74,12 +72,12 @@ Cuando tenga las líneas que desea enviar, puede iniciar el proceso que envía l
 
 ### <a name="to-pick-and-ship"></a>Para realizar el picking y enviar
 Normalmente, un empleado de almacén responsable del picking crea un documento de picking, o bien abre un documento ya creado de picking.
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Envíos de almacén** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Envíos de almacén** y luego elija el enlace relacionado.
 2. Seleccione el envío de almacén para el que desea realizar el picking, y después seleccione la acción **Crear picking**.
 3. Rellene los campos en la página de solicitud y, a continuación, elija el botón **Aceptar**. Se crea el documento de picking de almacén especificado.
 
     Alternativamente, abra un picking de almacén existente.
-4. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Picking** y luego elija el enlace relacionado. Seleccione el picking de almacén con el que desea trabajar.
+4. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Picking** y luego elija el enlace relacionado. Seleccione el picking de almacén con el que desea trabajar.
 
     Si el almacén está configurado para utilizar ubicaciones, las líneas de picking se han convertido a líneas de acción Traer y Colocar.
 
