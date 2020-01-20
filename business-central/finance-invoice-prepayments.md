@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 7034e88e5f9a46f3d593a532020acc40be3b437f
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: f08e9549d83d689721657584eb95733cb8ac323c
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879661"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953760"
 ---
 # <a name="invoicing-prepayments"></a>Facturación de prepagos
 Los prepagos son pagos que se facturan y registran en un pedido de prepago de ventas o compras antes de la facturación final. Puede requerir un depósito antes de fabricar productos bajo pedido o puede requerir el pago antes de enviar productos a un cliente. La funcionalidad de prepagos le permite facturar y cobrar depósitos requeridos de los clientes o remitir depósitos a proveedores. De este modo, puede asegurar que todos los pagos se registran contra una factura.  
@@ -29,6 +29,8 @@ Los prepagos son pagos que se facturan y registran en un pedido de prepago de ve
 |Configure grupos de registro de prepago y series numéricas y establezca porcentajes predeterminados de prepago para clientes, proveedores y productos.|[Configurar prepagos](finance-set-up-prepayments.md)|
 |Crear un pedido, ajustar los importes de prepago y emitir una factura para los importes de prepago.|[Crear facturas de prepagos](finance-how-to-create-prepayment-invoices.md)|  
 |Emitir una factura de prepago adicional, bien para productos adicionales o para un depósito adicional en el pedido original, o emitir un abono de prepago.|[Corregir prepagos](finance-how-to-correct-prepayments.md)|  
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesprepayment-invoices-dynamics-365-business-centralindex"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/prepayment-invoices-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Consulte también  
 [Tutorial: Configuración y facturación de prepagos de ventas](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

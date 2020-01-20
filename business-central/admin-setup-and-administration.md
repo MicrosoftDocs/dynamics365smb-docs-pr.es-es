@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/07/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: a23af49140b683c5383287b3057f024644c19133
-ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
+ms.openlocfilehash: 3388e30168e6f0da0dfee2b6dcd7e70cb7a62eac
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2808870"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953568"
 ---
 # <a name="administration"></a>Administración
 Normalmente, un rol de la empresa se encarga de las tareas de la administración central. El alcance de estas tareas puede depender del tamaño de la empresa, así como de las responsabilidades laborales del administrador. Estas tareas pueden incluir la administración de la sincronización de base de datos de las colas de proyectos y de correo electrónico, la configuración de usuarios y la personalización de la interfaz de usuario.  
@@ -33,7 +33,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 
 |**Para**|**Vea**|  
 |------------|-------------|  
-|Defina quién puede iniciar sesión en [!INCLUDE[d365fin](includes/d365fin_md.md)] creando usuarios en el centro de administración de Microsoft 365 según las licencias del producto.|[Crear usuarios de acuerdo con las licencias](ui-how-users-permissions.md)| 
+|Defina quién puede iniciar sesión en [!INCLUDE[d365fin](includes/d365fin_md.md)] creando usuarios en el centro de administración de Microsoft 365 según las licencias del producto.|[Crear usuarios de acuerdo con las licencias](ui-how-users-permissions.md)|
 |Asignar permisos a los usuarios, modificar conjuntos de permisos y agrupar usuarios para facilitar la administración de permisos.|[Asignar permisos a usuarios y grupos](ui-how-users-permissions.md)|
 |Agregar usuarios, gestionar permisos y gestionar el acceso a los datos, asignar roles.|[Administración de perfiles](admin-users-profiles-roles.md)|
 |Clasifique la confidencialidad de los datos para los campos, de modo que pueda responder a las solicitudes de los asuntos relacionadas con sus datos personales.|[Clasificar confidencialidad de datos](admin-classifying-data-sensitivity.md)|
@@ -47,6 +47,8 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Cifre los datos en el servidor de [!INCLUDE[d365fin](includes/d365fin_md.md)] generando claves de cifrado nuevas o importando claves existentes que se activarán en el servidor.|[Administración del cifrado de datos](admin-manage-data-encryption.md)|
 |Conecte Dynamics 365 Sales con [!INCLUDE[d365fin](includes/d365fin_md.md)] para obtener una integración perfecta entre las relaciones con los clientes y el procesamiento de pedidos en el proceso de obtención de efectivo.|[Integración con Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)|
 |Cambie los campos y las acciones que se muestran en la interfaz de usuario para adaptarla a los procesos de la empresa y ampliar la solución con aplicaciones.|[Personalización de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)|
+
+## <a name="see-related-training-at-microsoft-learnlearnpathsdeploy-configure-dynamics-365-business-central"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/paths/deploy-configure-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Consulte también
 [Funciones empresariales](across-business-functionality.md)  

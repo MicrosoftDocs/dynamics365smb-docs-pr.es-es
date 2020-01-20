@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.reviewer: edupont
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: bmeier
-ms.openlocfilehash: 0750f1724260eb7767757d947f30dcb074ef1aeb
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 1450db26598da2f2735df1979cfacc16034fcf3a
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879111"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952992"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Habilitar los datos de negocio para Power BI
 
@@ -164,7 +164,7 @@ No se ha configurado una cuenta de Power BI. Para tener una cuenta de Power BI v
 
 ### <a name="message-there-are-no-enabled-reports-choose-select-report-to-see-a-list-of-reports-that-you-can-display"></a>Mensaje: No hay informes habilitados. Elija Seleccionar informe para ver una lista de informes que se pueden visualizar.
 
-Este mensaje aparecerá si el informe predeterminado no se ha podido implementar en su espacio de trabajo de Power BI o el informe implementado pero no se ha actualizado correctamente. Si esto sucede, navegue hasta el informe en su espacio de trabajo de Power BI, seleccione **Conjunto de datos**, **Configuración** y luego actualice manualmente las credenciales. Una vez que el conjunto de datos se actualice correctamente, vuelva a Business Central y seleccione manualmente el informe desde la página **Seleccionar informes**. 
+Este mensaje aparecerá si el informe predeterminado no se ha podido implementar en su espacio de trabajo de Power BI o el informe implementado pero no se ha actualizado correctamente. Si esto sucede, navegue hasta el informe en su espacio de trabajo de Power BI, seleccione **Conjunto de datos**, **Configuración** y luego actualice manualmente las credenciales. Una vez que el conjunto de datos se actualice correctamente, vuelva a Business Central y seleccione manualmente el informe desde la página **Seleccionar informes**.
 
 ### <a name="you-need-a-power-bi-pro-license-to-install-the-include-prodshortincludesprodshortmd-app-in-power-bi"></a>Necesita una licencia Power BI Pro para instalar la aplicación de [!INCLUDE [prodshort](includes/prodshort.md)] en Power BI
 
@@ -174,7 +174,7 @@ Las aplicaciones de Power BI solo las pueden instalar usuarios que tengan una li
 
 Este error indica que uno o varios de los parámetros no son válidos.
 
-- El parámetro de ambiente especificado no coincide con ningún ambiente de producción o aislado de [!INCLUDE [prodshort](includes/prodshort.md)] existente. 
+- El parámetro de ambiente especificado no coincide con ningún ambiente de producción o aislado de [!INCLUDE [prodshort](includes/prodshort.md)] existente.
 - El parámetro de empresa especificado no coincide con ninguna empresa de [!INCLUDE [prodshort](includes/prodshort.md)] existente. Verifique el nombre de la empresa en la página **Empresas** en [!INCLUDE [prodshort](includes/prodshort.md)].
 - Si se conecta a [!INCLUDE [prodshort](includes/prodshort.md)] local. ha introducido una URL que no es válida. Puede verificar la URL en la página de **Servicios web** en [!INCLUDE [prodshort](includes/prodshort.md)]  
 - Un puerto no está abierto para permitir que la petición pase a través de su firewall.
@@ -202,6 +202,8 @@ Una vez que la aplicación de Power BI está instalada y sus datos aparezcan en 
 ### <a name="i-only-see-data-for-a-single-company"></a>Solo veo datos de una sola empresa
 
 La aplicación de Power BI solo mostrará los datos de la empresa de [!INCLUDE [prodshort](includes/prodshort.md)] que se definió cuando se instaló la aplicación de Power BI. Los datos de empresas adicionales se pueden añadir a los informes añadiendo nuevas consultas que utilizan empresas diferentes como origen de datos.  
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Consulte también
 

@@ -1,1 +1,2 @@
-Se trata de la funcionalidad de lanzamiento temprano en la que aún estamos trabajando. La funcionalidad, y el contenido de esta página, están sujetos a cambios.
+> [!NOTE]
+> [!INCLUDE [d365acc_long_md](d365acc_long_md.md)] se encuentra actualmente en vista previa pública en un número reducido de mercados. La funcionalidad y el contenido de esta página son funciones de lanzamiento anticipado en las que aún estamos trabajando.

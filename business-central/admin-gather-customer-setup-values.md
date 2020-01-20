@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8f333831c4e8aac1ba0eb4939131a9d80347441d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4fc9ffe9205e8f075f1b133686c2b869495bf42a
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304641"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910861"
 ---
 # <a name="gather-customer-setup-values"></a>Recopilación de valores de configuración de cliente
 Utilice el cuestionario de configuración para ayudar a reducir su carga de trabajo de implementación agilizando la tarea de configurar la empresa nueva. Puede generar el cuestionario de configuración en [!INCLUDE[d365fin](includes/d365fin_md.md)] y después proporcionárselo al cliente como un archivo de Excel o XML.  
@@ -29,6 +29,11 @@ Cuando su cliente completa el cuestionario, importe el archivo en la nueva empre
 
 ## <a name="to-create-a-configuration-questionnaire"></a>Para crear un cuestionario de configuración
 Puede usar un cuestionario para ayudarle a determinar el ámbito y necesidades de la configuración. Puede crear un nuevo cuestionario o modificar un cuestionario existente al agregar nuevas preguntas o áreas de preguntas.  
+
+<!-- A configuration questionnaire has the following structure
+* The name of the questionnaire itself
+* Question Areas that group questions about a similar subject. For example, you might create a question area that focuses on entering company informtion. Typically, configuration questionnaires have many question groups
+* Questions that are closed ended, meaning that the customer must choose an answer, and can choose only one. -->
 
  Puede crear cuestionarios para únicamente para tablas de tipo de configuración. Por ejemplo, puede utilizar la herramienta para proporcionar información a las páginas siguientes:  
 
@@ -45,10 +50,33 @@ Puede usar un cuestionario para ayudarle a determinar el ámbito y necesidades d
 -   Configuración almacén  
 
 > [!NOTE]  
->  Para ver una lista completa de tablas de configuración, elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración** y luego elija el enlace relacionado. Para determinar el ámbito de la migración de datos de registros, utilice la función de migración. Para obtener más información, consulte [Migrar datos del cliente](admin-migrate-customer-data.md).  
+>  Para ver una lista completa de tablas de configuración, elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Configuración manual** y luego elija el enlace relacionado. Para determinar el ámbito de la migración de datos de registros, utilice la función de migración. Para obtener más información, consulte [Migrar datos del cliente](admin-migrate-customer-data.md).  
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Cuestionario de configuración** y elija el enlace relacionado.  
-2. Seleccione la acción **Nuevo**. Se abre la página **Cuestionario configuración**.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **cuestionarios de configuración** y luego elija el enlace relacionado.  
+2. Seleccione la acción **Nuevo**.   
+3. En la página **Cuestionario de configuración**, en el campo **Código**, introduzca ... 
+<!--4. In the **Name** field, enter...
+5. Choose the **Question Areas** action. .
+6. On the **Config. Question Areas** page, in the **Code** field, enter...
+  
+    > [!Note]  
+    > The code is alphanumeric, and must start with a letter of the alphabet.
+7. In the Table ID field, choose the table to which to apply the answer to the question. Your selection will determine the fields that are available for the questions, and thereby the answer selections.
+  
+    > [!Tip]
+    > The list of table objects is long. If you know the name of the table, use **Search** in the upper left to find it in the list.
+8. In the **Description** field, enter text that indicates the subject of the question group.
+9. In the **No.** field, enter a number to define where the question appears in the sequence of questions.
+10. In the **Field ID** field, choose the field the the customer's answer will be applied to. You can choose from the fields on the table you chose in the **Table ID** field.
+  
+    When you choose a field, [!INCLUDE[d365fin](includes/d365fin_md.md)] provides a suggestion in the **Question** field. You can edit the question if needed.
+11. To add more questions to the questionnaire, repeat steps seven through 10.
+
+> [!Tip]
+> If at some point you change a question, or add a new one, choose the **Update Questions** action to update the list.
+
+-->
+
 3. Seleccione la acción **Áreas preguntas**. Se abre la página **Áreas de pregunta**.  
 4. Seleccione la acción **Nuevo**. Se abre la página **Configurar área de pregunta**.  
 5. En el campo **Id. de tabla**, seleccione el Id. de la tabla para la que desea recopilar información. El campo **Nombre de tabla** se rellena automáticamente.  
@@ -70,7 +98,7 @@ Utilice el cuestionario de configuración para estructurar y documentar una disc
 >  También puede crear su propio cuestionario de configuración para ajustarse a sus necesidades.  
 
 1. Abra la empresa para la que desea completar el cuestionario.
-2. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Cuestionario de configuración** y luego elija el enlace relacionado.  
+2. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Cuestionarios de configuración** y luego elija el enlace relacionado.  
 3. Seleccione el cuestionario para la empresa y luego elija la acción **Exportar a Excel**, de forma opcional la acción **Exportar a XML**.
 4. Haga que el cliente complete el cuestionario de configuración al especificar las respuestas en el libro de Excel. Existen hojas de cálculo para cada una de las áreas de preguntas que se han creado para el cuestionario.   
 5. Guarde el libro de Excel como *Datos XML*. Seleccione la acción **Importar desde XML** y seleccione el archivo .xml con las respuestas de cliente.
@@ -103,7 +131,7 @@ Cuando termine la validación, los datos estarán preparados para aplicarse a la
 ## <a name="to-apply-answers-from-the-configuration-questionnaire"></a>Aplicar respuestas del cuestionario de configuración
 Después de que haya importado y validado información de un cuestionario de configuración, puede transferir o aplicar los datos de configuración a las tablas correspondientes en la base de datos de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Cuestionario de configuración** y luego elija el enlace relacionado. Se abre la página **Cuestionario configuración**.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **cuestionarios de configuración** y luego elija el enlace relacionado. Se abre la página **Cuestionario configuración**.  
 2. Seleccione un cuestionario de configuración de la lista y elija la acción **Editar lista**.  
 3. Puede aplicar respuestas de dos maneras.  
 
@@ -111,7 +139,7 @@ Después de que haya importado y validado información de un cuestionario de con
 - Para aplicar las respuestas para un **Área de preguntas** específica únicamente, seleccione la acción **Áreas pregunta**, un **Área preguntas** de la lista y, a continuación, elija la acción **Aplicar respuestas**.  
 
 ### <a name="to-verify-that-answers-have-been-applied-successfully"></a>Para comprobar que las respuestas se hayan aplicado correctamente  
-1. Compruebe las páginas de configuración de las diversas áreas funcionales de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para localizar la página, elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), especifique el nombre de la página de configuración y, a continuación, seleccione el vínculo relacionado.  
+1. Compruebe las páginas de configuración de las diversas áreas funcionales de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para localizar la página, elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca el nombre de la página a mostrar y, a continuación, elija el vínculo relacionado.  
 2. Compruebe que los campos se hayan rellenado con los datos correctos de las distintas áreas de pregunta en el cuestionario de configuración.  
 
 Ahora ha definido la configuración con la información y las reglas de negocio del cliente.

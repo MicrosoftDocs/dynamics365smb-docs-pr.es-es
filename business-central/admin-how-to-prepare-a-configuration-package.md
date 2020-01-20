@@ -10,24 +10,37 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 48127ea1fb363bd22d4f6d7dec85df47a11f8ce8
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 398ca571c7b201ca80d252aaff958ee295890f4e
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879255"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910617"
 ---
 # <a name="prepare-a-configuration-package"></a>Preparar un paquete de configuración
 Cuando se configura una nueva empresa, se reconocen y se procesan las relaciones de tabla. Los datos se importan y se aplican en el orden correcto. Si en el paquete de configuración se incluyen tablas de dimensión, estas también se importan. Para obtener más información, consulte [Para importar datos del cliente](admin-migrate-customer-data.md#to-import-customer-data). 
 
 Para ayudar al cliente a usar el paquete de configuración, puede agregar un cuestionario o un conjunto de cuestionarios al paquete. El cuestionario puede ayudar al cliente a comprender las distintas opciones de configuración. Normalmente, los cuestionarios se crean para las tablas de configuración principales cuando un cliente pueda requerir asistencia adicional sobre cómo seleccionar una configuración adecuada. Para obtener más información, vea [Recopilación de valores de configuración de cliente](admin-gather-customer-setup-values.md).
 
-Asegúrese de que se encuentra en el Área de trabajo del implementador de RapidStart Services. Para obtener más información, vea [Usar el Área de trabajo del implementador de RapidStart Services](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md)
+## <a name="before-you-create-a-configuration-package"></a>Procedimiento previo a crear un paquete de configuración
+Hay algunas cosas a tener en cuenta antes de crear un paquete de configuración porque afectarán su capacidad o la de su cliente para importarlo. 
 
-> [!IMPORTANT]  
->  Al exportar e importar los paquetes de configuración entre dos bases de datos de empresa, las bases de datos deben tener el mismo esquema para garantizar que todos los datos se transferirán correctamente. Esto significa que las bases de datos deben tener la misma estructura de tablas y campos, en la que las tablas con las mismas claves principales y campos tienen los mismos identificadores y tipos de datos.  
->   
->  Puede importar un paquete de configuración que se ha exportado desde una base de datos con un esquema distinto al de la base de datos de destino. Sin embargo, no se importarán las tablas o los campos del paquete de configuración que falten en la base de datos de destino. Tampoco se importarán las tablas con diferentes claves principales ni los campos con distintos tipos de datos. Por ejemplo, si el paquete de configuración incluye la tabla **50000, Cliente** que tiene la clave principal **Code20** y la base de datos a la que importa el paquete incluye la tabla **50000, Banco cliente** que tiene la clave principal **Code20 + Código 20**, no se importarán los datos.  
+### <a name="tables-that-contain-posted-entries"></a>Tablas que contienen movimientos registrados
+No puede importar datos a tablas que contengan movimientos registrados, como las tablas para clientes, proveedores y movimiento de productos, por lo que no debe incluir estos datos en su paquete de configuración. Puede añadir movimientos a estas tablas después de importar el paquete de configuración mediante el uso de diarios para registrar los movimientos. Para más información, consulte [Registrar documentos y diarios](ui-post-documents-journals.md).
+
+### <a name="licensing"></a>Licencias
+Su licencia debe incluir las tablas que está actualizando. Si no está seguro, la página **Hoja de trabajo de configuración** puede ser de ayuda. Si su licencia incluye la tabla, la casilla de verificación **Tabla con licencia** estará seleccionada.  
+
+### <a name="permissions"></a>Permisos
+El proceso de creación e importación de un paquete de configuración implica los siguientes permisos efectivos para todas las tablas del paquete: 
+
+* El usuario que exporta datos para el paquete de configuración debe tener **Leer** permisos efectivos.
+* El usuario que importa el paquete de configuración debe tener **Insertar** y **Modificar** permisos efectivos.
+
+### <a name="database-schema"></a>Esquema de base de datos
+Al exportar e importar los paquetes de configuración entre dos bases de datos de empresa, las bases de datos deben tener el mismo esquema para garantizar que todos los datos se transferirán correctamente. Esto significa que las bases de datos deben tener la misma estructura de tablas y campos, en la que las tablas con las mismas claves principales y campos tienen los mismos identificadores y tipos de datos.  
+
+Puede importar un paquete de configuración que se ha exportado desde una base de datos con un esquema distinto al de la base de datos de destino. Sin embargo, no se importarán las tablas o los campos del paquete de configuración que falten en la base de datos de destino. Tampoco se importarán las tablas con diferentes claves principales ni los campos con distintos tipos de datos. Por ejemplo, si el paquete de configuración incluye la tabla **50000, Cliente** que tiene la clave principal **Code20** y la base de datos a la que importa el paquete incluye la tabla **50000, Banco cliente** que tiene la clave principal **Code20 + Código 20**, no se importarán los datos.  
 
 ## <a name="to-create-a-configuration-package"></a>Procedimiento para crear un paquete de configuración  
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Paquetes de configuración** y luego elija el enlace relacionado.  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 39fc89ee98ecd76bf292074466b1b70989a2f2e2
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 64dd9d1e4645b845c02872a8bc09f0925f4fa33c
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879027"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910567"
 ---
 # <a name="setting-up-user-accounts-for-integrating-with-dynamics-365-sales"></a>Configuración de cuentas de usuario para la integración con Dynamics 365 Sales
 Este artículo proporciona una visión general de cómo configurar las cuentas de usuario que se necesitan para integrar [!INCLUDE[crm_md](includes/crm_md.md)] con [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -34,7 +34,7 @@ Debe crear una cuenta de usuario dedicada en su suscripción de Office 365 que [
 > No utilice la cuenta de administrador de [!INCLUDE[crm_md](includes/crm_md.md)] para la sincronización. Si lo hace, la sincronización se interrumpirá.
 > Además, para evitar una sincronización constante, los cambios en los datos realizados por la cuenta de usuario de integración no están sincronizados. <!--What changes would this account make?--> Una vez establecida la conexión, se recomienda configurar el modo de acceso de la cuenta de usuario para la integración en modo no interactivo en [!INCLUDE[crm_md](includes/crm_md.md)]. Para obtener más información, consulte [Crear una cuenta de usuario no interactiva](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account).
 
-## <a name="setting-up-accounts-sales-people"></a>Configuración de cuentas de vendedores
+## <a name="setting-up-accounts-for-salespeople"></a>Configuración de cuentas para vendedores
 Debe crear cuentas de usuario en [!INCLUDE[crm_md](includes/crm_md.md)] para los vendedores desde [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para hacerlo más fácil, el centro de administración de Microsoft 365 ofrece una plantilla de Excel que puede utilizar. En la página **Usuarios activos**, seleccione **Más** y, a continuación, **Importar varios usuarios**. Seleccione **Descargar un archivo CSV solo con cabeceras** y, a continuación, introduzca la información para los vendedores. Para ver un ejemplo, seleccione **Descargar un archivo CSV con cabeceras e información de usuario de ejemplo**. Después de introducir la información sobre los usuarios, el siguiente paso del proceso de importación es asignar las licencias de usuario al plan de Dynamics 365 Customer Engagement.  
 
 Después de importar los usuarios y asignarles licencias para Dynamics 365 Customer Engagement, debe asignar los usuarios al rol **Vendedor** en [!INCLUDE[crm_md](includes/crm_md.md)].

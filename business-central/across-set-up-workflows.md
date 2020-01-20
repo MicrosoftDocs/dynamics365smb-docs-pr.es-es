@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6ff257a13a995b9617bdae9de98830f50e45edee
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 96c39641c9665542c8c27b004bb27f92768d57dc
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879360"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910909"
 ---
 # <a name="setting-up-workflows"></a>Configuración de flujos de trabajo
 Puede configurar y utilizar flujos de trabajo que vinculen tareas de procesos empresariales realizadas por distintos usuarios. Las tareas de sistema, como registros automáticos, se pueden incluir como pasos en los flujos de trabajo, antes o después de las tareas de usuario. Solicitar y conceder aprobaciones para crear registros nuevos son pasos habituales de un flujo de trabajo. Para obtener más información, consulte [Uso de flujos de trabajo](across-use-workflows.md).  
@@ -41,6 +41,12 @@ Puede configurar y utilizar flujos de trabajo que vinculen tareas de procesos em
 |Compartir flujos de trabajo con otras bases de datos de [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Importar y exportar flujos de trabajo](across-how-to-export-and-import-workflows.md)|  
 |Aprender a configurar un flujo de trabajo para documentos de venta aprobados siguiendo un procedimiento de extremo a extremo.|[Tutorial: Configuración y uso de un flujo de trabajo de aprobación de compra](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
 |Agregar compatibilidad con un escenario empresarial que necesita nuevos eventos y respuestas personalizando el código de aplicación.|[Tutorial: Implementación de nuevos eventos y respuestas de flujo de trabajo](/dynamics-nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses)|  
+
+## <a name="example-of-an-approval-workflow"></a>Ejemplo de un flujo de trabajo de aprobación
+Este video muestra cómo configurar un flujo de trabajo que requerirá que alguien solicite la aprobación de otra persona antes de que pueda cambiar la información sobre un cliente existente o crear un nuevo cliente.  
+<br><br>  
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI]
 
 ## <a name="see-also"></a>Consulte también  
  [Uso de flujos de trabajo](across-use-workflows.md)   

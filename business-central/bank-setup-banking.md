@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 083bb3784e21621f97161e65ff3cfa80ed0efc52
-ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
+ms.openlocfilehash: 5995e550b4d4c25296842a7d73a5f74acb91bd83
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2692733"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910400"
 ---
 # <a name="setting-up-banking"></a>Configurar banca
 Mediante el uso de fichas de bancos, puede realizar un seguimiento de todos sus bancos, en cualquier divisa. Cuando haya configurado los bancos, puede utilizar también la opción de impresión de cheques.
@@ -31,7 +31,7 @@ Para usar servicios de banca electrónica para importar extractos bancarios y ex
 | Configure un servicio externo que permita exportar pagos al banco para su procesamiento e importar extractos bancarios como archivos bancarios para la liquidación de pagos y la conciliación de bancos. |[Uso de la extensión AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) |
 
 ## <a name="see-also"></a>Consulte también
-[Administrar cuentas bancarias](bank-manage-bank-accounts.md)  
+[Conciliar bancos](bank-manage-bank-accounts.md)  
 [Administrar cobros](receivables-manage-receivables.md)  
 [Administrar pagos](payables-manage-payables.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

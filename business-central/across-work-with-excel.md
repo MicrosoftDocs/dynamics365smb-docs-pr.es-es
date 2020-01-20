@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 10/24/2019
+ms.date: 01/13/2020
 ms.author: jswymer
-ms.openlocfilehash: 99fe339426b755b70983d8ec9345858357043347
-ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
+ms.openlocfilehash: 9fd5c6c242932d75addcfa5c1811bdd1aff99a94
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2808750"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953056"
 ---
 # <a name="viewing-and-editing-in-excel-from-business-central"></a>Ver y editar en Excel desde Business Central
 
@@ -25,9 +25,9 @@ Con las páginas que muestran una lista de registros en filas y columnas, como u
 
 - Con esta acción, Excel respeta los filtros de la página que limita los registros que se muestran. Esto significa que el libro de Excel contendrá las mismas filas y columnas que aparecen en la página de [!INCLUDE[prodshort](includes/prodshort.md)].
 
-- Puede realizar cambios en los registros en Excel, pero no puede volver a publicar los cambios en [!INCLUDE[prodshort](includes/prodshort.md)]. Solo puede guardar los cambios en el archivo de Excel en su ordenador. 
+- Puede realizar cambios en los registros en Excel, pero no puede volver a publicar los cambios en [!INCLUDE[prodshort](includes/prodshort.md)]. Solo puede guardar los cambios en el archivo de Excel en su ordenador.
 
-- Esta acción funciona tanto en Windows como en macOS. 
+- Esta acción funciona tanto en Windows como en macOS.
 
 > [!NOTE]
 > Por [!INCLUDE[prodshort](includes/prodshort.md)] local, la acción **Abrir en Excel** está disponible de forma predeterminada. Sin embargo, si configura [!INCLUDE [prodshort](includes/prodshort.md)] local para editar datos en Excel, la acción **Abrir en Excel** se reemplaza por la acción **Editar en Excel**.
@@ -48,10 +48,12 @@ Esto se mejoró en la fase de lanzamiento 2 de 2019. Para obtener más informaci
 > [!NOTE]
 > Por [!INCLUDE[prodshort](includes/prodshort.md)] local, esta función solo está disponible para el cliente web.
 
-### <a name="see-the-differences-between-the-options"></a>Consulte las diferencias entre las opciones 
+### <a name="see-the-differences-between-the-options"></a>Consulte las diferencias entre las opciones
 <br><br>  
 
 > [!Video https://go.microsoft.com/fwlink/?linkid=2086039]
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Consulte también
 [Trabajar con Business Central](ui-work-product.md)  

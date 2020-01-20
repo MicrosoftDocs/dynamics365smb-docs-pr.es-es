@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 11/07/2019
+ms.date: 12/17/2019
 ms.author: sgroespe
-ms.openlocfilehash: e8d55ffd434ff2c7666d0b90a5cfd091fc68a015
-ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
+ms.openlocfilehash: eb40c1d479267ba2e8111bd1183f2c7454a2bd16
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "2774848"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2911126"
 ---
 # <a name="keyboard-shortcuts"></a>Métodos abreviados de teclado
 Este producto proporciona un resumen de algunas de las combinaciones de métodos abreviados que se pueden utilizar cuando trabaje con [!INCLUDE[prodshort](includes/prodshort.md)].
@@ -66,6 +66,7 @@ En la tabla siguiente se describen los métodos abreviados de teclado para naveg
 |Esc|Cerrar la página o lista desplegable actual.|
 |Tabulador|Mueva el enfoque al control o elemento siguiente de una página, como acciones, botones, campos o encabezados de una lista.|
 |Mayús+Tabulador|Mueva el enfoque al control o elemento anterior de una página, como acciones, botones, campos o encabezados de una lista.|
+|S y N|Activar los botones **Sí** y **No** en cuadros de diálogo. Esto es compatible con el idioma. Por ejemplo, pulse J en Alemania para activar el botón **Ja**.|
 
 ## <a name="keyboard-shortcuts-in-lists"></a>Métodos abreviados de teclado en las listas
 
@@ -141,6 +142,7 @@ Los siguientes métodos abreviados están disponibles en las páginas de ficha, 
 |Alt+N |Abrir una página para crear un nuevo registro; de la misma manera que se elige la acción **Nueva**. |
 |Alt+Mayús+N |Cerrar una página y abrir una nueva para crear un nuevo registro; de la misma manera que se selecciona la acción **Aceptar y nuevo**. |
 |Alt+Mayús+W |Abra la ficha o documento actual en una nueva ventana. Para obtener más información, consulte [Multitarea en varias páginas](ui-enter-data.md#multitasking-across-multiple-pages).|
+|Ctrl+Enter|Guarde y cierre la página.|
 |Ctrl+Flecha abajo|Abrir el siguiente registro de una entidad.|
 |Ctrl+Flecha arriba |Abrir el registro anterior de una entidad.|
 |Ctrl+Insertar |Insertar una nueva línea en los documentos.|

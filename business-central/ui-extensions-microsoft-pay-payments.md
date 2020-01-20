@@ -9,16 +9,27 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 01/08/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8dc710cb95e82e535a1ee694f3aeb510be0a03b5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 336aa735b703d7924914f4180ce46fd00ea23479
+ms.sourcegitcommit: 70fe73040126960c813804d001b646f81cbf2f38
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311169"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "2943288"
 ---
 # <a name="the-microsoft-pay-extension"></a>Extensión Microsoft Pay
+
+> [!IMPORTANT]
+> A partir del 8 de febrero de 2020, los cambios en el servicio Microsoft Pay afectarán a la extensión Microsoft Pay en Microsoft [!INCLUDE[d365fin](includes/d365fin_long_md.md)]. Debido a los cambios, después del 8 de febrero, los vínculos de pago **Pagar ahora** que la extensión Microsoft Pay genera para las facturas en [!INCLUDE[d365fin](includes/d365fin_md.md)] no abrirán Microsoft Pay. Los clientes que usan la extensión deben cambiar la configuración de los Servicios de pago para comenzar a usar la extensión PayPal en su lugar.<br /></br>
+>
+> A partir del 8 de enero, mostraremos una notificación en [!INCLUDE[d365fin](includes/d365fin_md.md)]. La notificación contendrá un vínculo a la configuración que necesita cambiar y a más información. Después del 8 de febrero, la extensión Microsoft Pay ya no estará disponible en [!INCLUDE[d365fin](includes/d365fin_md.md)].<br /></br>
+>
+> Las modificaciones afectan a las siguientes versiones de Business Central:
+> - Microsoft Dynamics 365 Business Central de octubre de 2018
+> - Microsoft Dynamics 365 Business Central de abril de 2019
+> - Fase de lanzamiento 2 de Microsoft Dynamics 365 Business Central 2019
+
 Los clientes requieren continuamente un servicio de atención mejor, ya sea en cuanto a la calidad de los productos como en las opciones de pago y envío. El servicio Microsoft Pay ayuda a mejorar el servicio de atención al cliente.
 
 La extensión de Microsoft Pay agrega un vínculo de Microsoft Pay a los documentos de venta para que los clientes pueden pagar fácilmente mediante Microsoft Pay. Después podrá registrar los documentos por correo electrónico para proporcionar un servicio al cliente superior y acortar el tiempo necesario para que los pagos de los clientes lleguen a su cuenta del banco.

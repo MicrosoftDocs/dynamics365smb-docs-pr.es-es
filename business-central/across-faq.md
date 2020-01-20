@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 12/06/2019
+ms.date: 12/12/2019
 ms.author: edupont
-ms.openlocfilehash: 4df167f27fc9fe456cece9c8738fa5f3aff8338c
-ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
+ms.openlocfilehash: cb470cd72c3352ca5de9fc27264b30b67abbadec
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896190"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910933"
 ---
 # <a name="frequently-asked-questions"></a>Preguntas más frecuentes
 
@@ -111,7 +111,7 @@ Si desea orientación de Microsoft, póngase en contacto con el [Equipo de venta
 Su socio distribuidor también se ocupará del soporte técnico. Para obtener más información, vea [Recursos para ayuda y soporte técnico](product-help-and-support.md).
 
 ## <a name="is-the-windows-client-supported"></a>¿Es compatible el cliente de Windows?
-Las primeras versiones de [!INCLUDE[prodshort](includes/prodshort.md)] local incluían un cliente instalado derivado de Microsoft Dynamics NAV. A partir de la fase de lanzamiento 2 de 2019, este componente heredado, denominado "el cliente de Windows", ya no estará disponible para [!INCLUDE[prodshort](includes/prodshort.md)]. Para obtener más información, consulte [Preguntas frecuentes sobre Cliente de Windows y Business Central](/dynamics365/business-central/dev-itpro/across-faq-win-cli).
+Las primeras versiones de [!INCLUDE[prodshort](includes/prodshort.md)] local incluían un cliente instalado derivado de Microsoft Dynamics NAV. A partir de la fase de lanzamiento 2 de 2019, este componente heredado, denominado "el cliente de Windows", ya no estará disponible para [!INCLUDE[prodshort](includes/prodshort.md)]. Para obtener más información, consulte [las preguntas frecuentes sobre el Cliente de Windows y Business Central](/dynamics365/business-central/dev-itpro/faq-win-cli).
 
 ## <a name="see-also"></a>Consulte también
 [Introducción](product-get-started.md)  

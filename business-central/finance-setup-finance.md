@@ -10,19 +10,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: fc8f52e5ef9fdeb8a2add9cf030a348012f25366
-ms.sourcegitcommit: 02f1633213793bfc040ad0d2a96fe76572215aa5
+ms.openlocfilehash: fa8b324c0a63f7c00209579878b9739af8178041
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "2798504"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953664"
 ---
 # <a name="setting-up-finance"></a>Configurar las finanzas
-Para ayudarle a empezar rápidamente, [!INCLUDE[d365fin](includes/d365fin_md.md)] incluye las configuraciones estándar para la mayoría de los procesos financieros. Si necesita cambiar las configuraciones para que se adapten a su empresa, continúe. Por ejemplo, desde el área de trabajo puede usar a una guía de configuración asistida para configurar los impuestos de ventas de su ubicación.  
+Antes de que pueda comenzar a administrar su negocio, debe especificar reglas y valores predeterminados sobre cómo desea administrar los procesos financieros para esa empresa. En primer lugar, deberá configurar el elemento básico de los registros de contabilidad de la empresa - el plan de cuentas. A continuación, deberá configurar los grupos contables, que permiten que la asignación de cuentas contables predeterminadas a los clientes, proveedores y productos sea más eficaz.
 
-Sin embargo, hay algunos parámetros que debe configurar. Por ejemplo, si desea utilizar dimensiones como base de la inteligencia empresarial.  
+Algunas configuraciones financieras se pueden hacer automáticamente con guías de configuración asistidas, y algunas deben hacerse manualmente. Para obtener más información, vea [Preparación para hacer negocios](ui-get-ready-business.md).
+
+Puede utilizar dimensiones para agregar diferentes tipos de información a cada transacción. Puede configurar las dimensiones básicas de la empresa, por ejemplo, Proyectos y Departamentos. Posteriormente, puede agregar más dimensiones cuando sea necesario y configurar dimensiones temporales para utilizarlas durante un periodo de tiempo limitado, por ejemplo, en relación con una campaña de ventas. Para obtener más información, consulte [Trabajar con dimensiones](finance-dimensions.md).
+
+En general, las tareas de configuración se deben completar para poder registrar las transacciones financieras, aunque la mayoría de las configuraciones se pueden modificar posteriormente. Algunas de las tareas de configuración son opcionales, por ejemplo, los registros entre empresas vinculadas y las consolidaciones sólo se deben configurar si trabaja con varias empresas. Algunas tareas de configuración tales como la introducción del periodo durante el que se permite el registro puede que se tengan que repetir de forma periódica.  
 
 En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.
 
@@ -46,9 +50,11 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 | Configurar los informes Intrastat y, enviar el informe a una autoridad | [Configuración y creación de informes Intrastat](finance-how-setup-report-intrastat.md)|
 |Asegúrese de que un movimiento de un diario general esté asignado a varias cuentas diferentes al registrar el diario, ya sea cantidad, porcentaje o importe.|[Utilizar claves de asignación en diarios generales](ui-how-use-allocation-keys-general-journals.md)|
 
+## <a name="see-related-training-at-microsoft-learnlearnpathsset-up-financial-management-dynamics-365-business-central"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Consulte también
 [Finanzas](finance.md)  
-[Administrar cuentas bancarias](bank-manage-bank-accounts.md)  
+[Conciliar bancos](bank-manage-bank-accounts.md)  
 [Trabajar con dimensiones](finance-dimensions.md)  
 [Importar datos de empresa de otros sistemas financieros](across-import-data-configuration-packages.md)  
 [Analizar el flujo de efectivo de la empresa](finance-analyze-cash-flow.md)  

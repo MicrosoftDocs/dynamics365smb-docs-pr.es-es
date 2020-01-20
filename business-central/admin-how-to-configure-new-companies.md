@@ -10,19 +10,25 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ae54c2f764deafe34df8d38e1213757ee9b05515
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: aade98d02744ef2e40b7d844c4bddea4d231fceb
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878586"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910813"
 ---
 # <a name="configure-new-companies"></a>Configurar nuevas empresas
 Para configurar una nueva empresa en la implementación de su solución, generalmente sigue tres fases. En la primera fase, importará el paquete de configuración, un archivo .rapidstart con la información de configuración. En la segunda fase, modificará la información de configuración y luego la aplicará a la nueva empresa. En la fase final, revisará y corregirá todos los errores.  
 
 Para los procedimientos siguientes se supone que se ha creado y guardado un paquete de configuración. Para obtener más información sobre cómo crear un proyecto, consulte [Preparar un paquete de configuración](admin-how-to-prepare-a-configuration-package.md).  
 
-Los siguientes procedimientos presuponen que ha inicializado y abierto su nueva empresa y que está utilizando el Área de trabajo del implementador de RapidStart Services.
+Los siguientes procedimientos presuponen que ha inicializado y abierto su nueva empresa y que está utilizando el Área de trabajo de administración.
+
+## <a name="before-you-import-a-configuration-package"></a>Procedimiento previo a importar un paquete de configuración
+Antes de importar un paquete de configuración, es buena idea verificar que las siguientes afirmaciones sean verdaderas. De lo contrario, usted o su cliente no podrán importar el paquete de configuración.
+
+* Su licencia incluye las tablas que está actualizando. Si no está seguro, la **Hoja de trabajo de configuración** puede ser de ayuda. Si su licencia incluye las tablas, la casilla de verificación **Tabla con licencia** estará seleccionada.  
+* El usuario que importa el paquete de configuración tiene permisos efectivos de Insertar y Modificar para todas las tablas que el paquete actualizará. Para obtener más información, consulte [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md) 
 
 ## <a name="to-import-a-configuration-package"></a>Procedimiento para importar un paquete de configuración  
 1. Abra la nueva empresa en la base de datos de [!INCLUDE[d365fin](includes/d365fin_md.md)].  

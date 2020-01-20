@@ -12,17 +12,20 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 01799b1881fbcdc6285e84f86f9db88a8c4196a7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 50198afaa8caae9a11a06a25357fa94ad26b0b8f
+ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312225"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "2943190"
 ---
 # <a name="make-drop-shipments"></a>Realizar envíos directos
 Un envío directo es el envío de los productos de uno de sus proveedores directamente a uno de sus clientes.
 
 Cuando se marca un pedido de venta para envío directo y se crea un pedido de compra especificando el cliente en el campo **Dirección de envío**, **Dirección del cliente**, se pueden enlazar los dos documentos y, de este modo, indicar al proveedor que realice el envío directamente al cliente.
+<br><br>  
+  
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4mOyM]
 
 ## <a name="to-create-a-sales-order-for-drop-shipment"></a>Para crear un pedido de venta de envío directo
 Para preparar un envío directo cree un pedido de venta como si fuese normal, pero indique en la línea de ventas que dicha venta requiere un envío directo.
@@ -50,7 +53,7 @@ Ahora puede asignar instrucciones al proveedor para que envíe los productos al 
 ## <a name="to-post-a-drop-shipment"></a>Para registrar un envío directo
 Después de que el proveedor envíe los productos, puede establecer los pedidos de venta como enviados. También puede registrar el pedido de compra, pero solo con la opción **Recibir** hasta que se haya facturado el pedido de ventas.
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.
 2. Abra el pedido de venta que ha creado en [Para crear un pedido de venta de envío directo]().
 3. En el campo **Cantidad a enviar**, especifiqué qué cantidad del pedido debe enviarse, todo o solo una parte.
 4. Seleccione la acción **Registrar** o **Registrar y enviar**.
@@ -61,6 +64,6 @@ Después de que el proveedor envíe los productos, puede establecer los pedidos 
 [Comprar productos para una venta](purchasing-how-purchase-products-sale.md)  
 [Vender productos](sales-how-sell-products.md)  
 [Registrar compras](purchasing-how-record-purchases.md)  
-[Ventas](sales-manage-sales.md)  
-[Grupos contables inventario](inventory-manage-inventory.md)  
+[Ccial](sales-manage-sales.md)  
+[Inventario](inventory-manage-inventory.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: b999e8670c2d9208fb0a9f86d6c0ec26353207b6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5d84dee6ed6cf0b17f488d67e5403638ecb79ce9
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302360"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953808"
 ---
 # <a name="create-gl-budgets"></a>Crear presupuestos contables
 Puede tener varios presupuestos para idénticos periodos de tiempo si crea presupuestos con nombres distintos. En primer lugar, debe configurar el nombre del presupuesto e introducir las cifras del presupuesto. El nombre del presupuesto se incluye en todos los movimientos de presupuesto que cree.  
@@ -29,7 +29,7 @@ Los presupuestos desempeñan una función importante en la inteligencia empresar
 En contabilidad de costes, trabaja con los presupuestos de costes de forma similar. Para obtener más información, consulte [Crear presupuestos de costes](finance-create-cost-budgets.md).    
 
 ## <a name="to-create-a-new-gl-budget"></a>Para crear un nuevo presupuesto contable  
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Presupuestos contables** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Presupuestos generales** y luego elija el enlace relacionado.  
 2. Elija la acción **Editar lista** y, a continuación, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Seleccione la acción **Editar presupuesto**.
 4. En la parte superior de la página **Presupuesto** rellene los campos según sea necesario para definir lo que se muestra.  
@@ -47,6 +47,8 @@ Prácticamente en todas las demás páginas, puede exportar datos en páginas de
 
 > [!NOTE]
 > El plan de cuentas, en el que se basan los presupuestos contables, tiene líneas de tipo de cuenta Mayor que contienen el total de las líneas siguientes. Cuando se exporta un presupuesto contable, se exportan los datos de todas las líneas independientemente del tipo de cuenta. Sin embargo, solo se pueden volver a importar los datos de las líneas del tipo Registro. En consecuencia: <br /><br /> **Al importar un presupuesto contable, todos los valores que existían en las líneas de cabecera se eliminarán.** <br /><br /> Esto sirve para evitar cantidades totales erróneas después de importar datos que se han creado o editado en Excel.<br /><br /> **Escenario**: Usted sabe que el nuevo coste de los salarios presupuestados será de 1.200.000 DL. Desea permitir que el departamento de Salarios presupueste las tres líneas específicas (de tipo de cuenta Publicación) para Empleados a tiempo completo, Empleados a tiempo parcial y Ayuda temporal. Las tres líneas se agrupan bajo una línea de encabezado de Salarios.<br /><br />Introduzca 1.200.000 en la línea Mayor, exporte el presupuesto a Excel y luego envíelo al departamento de Salarios y dígales que distribuyan los 1.200.000 DL.<br /><br /> El departamento de Salarios distribuye el importe en las tres cuentas contables. Cuando vuelve a importar al presupuesto contable, las tres cuentas se completan con los nuevos datos de Excel, que suman 1.200.000 DL y la línea Mayor está en blanco.
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesbudgets-exchange-rates-dynamics-365-business-centralindex"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Consulte también
 [Exportar los datos de negocio a Excel](about-export-data.md)  

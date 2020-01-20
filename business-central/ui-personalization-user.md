@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4f65a4908fee045190229c1423ef61c6c7bed8c7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 34c09b4acdad057bd5accd388335439e555dc733
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315113"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953352"
 ---
 # <a name="personalize-your-workspace"></a>Personalice su área de trabajo
 Puede personalizar su área de trabajo para que se adapte a su trabajo y preferencias cambiando las páginas de modo que muestren únicamente la información que necesite y donde la necesite. Los cambios de personalización que realice solo afectarán a su visualización y no a la de otros usuarios.
@@ -37,14 +37,14 @@ En cuanto a otra personalización, los cambios que efectúe en el ancho de colum
 
 ## <a name="to-personalize-a-page-through-the-personalizing-banner"></a>Para personalizar una página a través del banner **Personalización**
 1. Abra cualquier página que quiera personalizar.
-2. En la esquina superior derecha, seleccione el icono ![Configuración](media/ui-experience/settings_icon_small.png "Icono Configuración para el área de trabajo") y elija la acción **Personalizar**.
+2. En la esquina superior derecha, seleccione el icono ![Configuración](media/ui-experience/settings_icon_small.png "Icono de configuración para el área de trabajo") y, a continuación, elija la acción **Personalizar**.
 
     El banner **Personalización** aparece en la parte superior para indicar que puede empezar a realizar cambios.
 
     > [!NOTE]
     > Para navegar durante la personalización, use Ctrl + clic en una acción si está resaltada por la punta de flecha.
 
-    Si se muestra ![Bloqueo de personalización](media/personalization-lock-icon.png "Bloqueo de personalización") o ![Personalización bloqueada](media/personalization-blocked-icon.png "Personalización bloqueada") en el banner, no puede personalizar la página. Para obtener más detalles, consulte [Por qué la página está bloqueada para la personalización](ui-personalization-locked.md).
+    Si se muestra ![Bloqueo de personalización](media/personalization-lock-icon.png "Bloqueo de personalizacion") o ![Personalización bloqueada](media/personalization-blocked-icon.png "Personalización bloqueada") en el banner, no puede personalizar la página. Para obtener más detalles, consulte [Por qué la página está bloqueada para la personalización](ui-personalization-locked.md).
 
 3. Para agregar un campo, elija la acción **+ Campo**.
 4. Desde el panel **Agregar campo a página**, arrastre y suelte un campo en la posición deseada en la página.
@@ -56,7 +56,7 @@ En cuanto a otra personalización, los cambios que efectúe en el ancho de colum
 
 |Qué desea hacer|Cómo hacerlo|Comentarios|
 |----|------------|-------|
-|Mover algo, un campo, una columna de la lista, un icono, una acción o una pieza|Señale en cualquier lugar qué desea mover y arrástrelo a su nueva posición. La posición se indica con una fina línea vertical u horizontal.<br /><br />![Icono No se puede mover aquí](media/personalization-cannot-move-here.png "Modo Personalizar - Icono No se puede mover aquí") indica que no puede mover el elemento a la posición seleccionada.|Las piezas son subdivisiones o áreas en una página que contienen elementos como múltiples campos, otra página, un gráfico o iconos.<br /><br />Para obtener más información sobre la personalización de acciones, consulte [Personalización de acciones](ui-personalization-user.md#Actions). |
+|Mover algo, un campo, una columna de la lista, un icono, una acción o una pieza|Señale en cualquier lugar qué desea mover y arrástrelo a su nueva posición. La posición se indica con una fina línea vertical u horizontal.<br /><br />![Icono No se puede mover aquí](media/personalization-cannot-move-here.png "Modo de personalización: icono No se puede mover aquí") indica que no puede mover el elemento a la posición seleccionada.|Las piezas son subdivisiones o áreas en una página que contienen elementos como múltiples campos, otra página, un gráfico o iconos.<br /><br />Para obtener más información sobre la personalización de acciones, consulte [Personalización de acciones](ui-personalization-user.md#Actions). |
 |Ocultar algo, un campo, una columna de la lista, un icono, una acción o una pieza.|Elija la punta de flecha y elija <b>Ocultar</b>.|El elemento aparece en gris cuando está en modo de personalización. Si el campo que oculta también se muestra en el encabezado de la ficha desplegable cuando está contraída, el campo ya no aparecerá allí.|
 |Mostrar acciones y campos ocultos.|Para un elemento atenuado (oculto), elija la punta de flecha y luego elija <b>Mostrar</b>.|El elemento oculto vuelve a estar visible.|
 |Agregar un campo o columna.|En el banner <b>Personalización</b>, elija la acción <b>+ Campo</b>.<br /></br>El panel <b>Agregar campo a página</b> se abre a la derecha. Muestra los campos que se pueden agregar a la página.<br /><br />Para agregar un campo, arrástrelo de panel a la posición que desee. La posición se indica con una fina línea vertical u horizontal.|Cada página incluye un conjunto predefinido de campos que puede mostrar. Siga este procedimiento para agregar campos o columnas que no se han mostrado anteriormente o para mostrar los campos que ha ocultado.|
@@ -115,6 +115,8 @@ Para ayudarle a comprender mejor la personalización, le presentamos algunos con
 - Los cambios realizados tendrán efecto sobre todas las áreas de trabajo. Por ejemplo, si realiza un cambio en la lista Clientes cuando el área de trabajo está configurada en administrador de negocio, también verá el cambio en la página **Clientes** cuando el área de trabajo está configurada en Procesador de pedidos de ventas.
 - Los cambios de una página realizados en un panel tendrán efecto en la página donde se muestre.  
 - Solo puede agregar campos y columnas de una lista predefinida, que está basada en la página. No puede crear campos ni columnas nuevos.
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulespersonalize-ui-dynamics-365-business-centralindex"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Consulte también
 [Personalizar páginas para perfiles](ui-personalization-manage.md)  

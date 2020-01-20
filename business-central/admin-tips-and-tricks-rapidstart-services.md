@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: acdac865286577b30f9fe036cca8a50eb7e143a0
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 890a6e87ec25293232f089b68e57a577fec6aa56
+ms.sourcegitcommit: 53565fea987af861f3846e5c1e0e868c279aeb30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878991"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2918171"
 ---
 # <a name="tips-and-tricks-rapidstart-services"></a>Sugerencias y trucos: RapidStart Services
 Cuando configura empresas con RapidStart Services, hay algunas sugerencias y trucos que puede aprovechar para facilitar la implementación.  
@@ -30,10 +30,10 @@ Para ayudar al proceso de rellenar un cuestionario de configuración, considere 
 Se recomienda usar las herramientas de migración de datos que se ofrecen para migrar los movimientos del diario. De lo contrario, si usa un trabajo por lotes para crear líneas de diario, eso tiene un ámbito limitado y genera solo los campos predeterminados en un diario. El resto del diario debe completarse manualmente.  
 
 ## <a name="migrating-transactions"></a>Migración de transacciones  
-Se recomienda migrar los saldos iniciales en el orden siguiente.  
+Se recomienda migrar los saldos iniciales en el orden siguiente. <!--Be aware that you cannot insert ledger entries directly. Instead you must use journals to post the journal lines--> 
 
 1.  Migre los saldos iniciales de contabilidad sin usar los sublibros de la cuenta de contabilidad. Use cuentas de compensación de saldos iniciales específicas, una para cada sublibro. Configure las cuentas de compensación para habilitar los registros directos.  
-2.  Migre los movimientos de cliente abiertos.  
+2.  Migre los movimientos de cliente abiertos.  <!--work on these-->
 3.  Migre los movimientos de producto abiertos.  
 4.  Migre los movimientos de activos abiertos.  
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: edupont
-ms.openlocfilehash: c843f0fb6c8017817ada9dc5bf2af0ef68a5cc5a
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: a069fb7df3738b1f42aa2ddc86ce95144c39daff
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878753"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952847"
 ---
 # <a name="using-include-prodlongincludesprodlongmd-as-power-bi-data-source-for-building-reports"></a>Usar [!INCLUDE [prodlong](includes/prodlong.md)] como fuente de datos de Power BI para generar informes
 
@@ -41,6 +41,8 @@ Una vez que los datos se hayan cargado, aparecerán en el panel de navegación d
 Antes de elaborar el informe, le recomendamos que importe el archivo de tema de [!INCLUDE [prodshort](includes/prodshort.md)].  El archivo de tema creará una paleta de colores de forma que pueda crear informes con el mismo estilo de color que las aplicaciones de [!INCLUDE [prodshort](includes/prodshort.md)] sin pedirle que defina colores personalizados para cada elemento visual.
 
 Para obtener más información, consulte la [documentación de Power BI](/power-bi/consumer/power-bi-consumer-landing/).
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Consulte también
 

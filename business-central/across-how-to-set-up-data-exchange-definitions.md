@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 46b18910efb1abb8df1ef1f427933f75deb3912c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8cf6c70c3794a5f231f9072d01d671afdebc54ca
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305265"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952944"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Configurar definiciones de intercambio de datos
 Puede configurar [!INCLUDE[d365fin](includes/d365fin_md.md)] para intercambiar datos de tablas específicas con datos de archivos externos, por ejemplo para enviar y recibir documentos electrónicos, importar o exportar datos de banco u otros datos, como nóminas, tipos de cambio de divisa y catálogos de productos. Para obtener más información, vea [Intercambio de datos electrónicamente](across-data-exchange.md).  
@@ -111,6 +111,9 @@ Esto se describe en los procedimientos siguientes:
 >  La asignación específica depende del objetivo empresarial del archivo de datos que se intercambiará y de las variaciones locales. Incluso el estándar bancario de SEPA presenta variaciones locales. [!INCLUDE[d365fin](includes/d365fin_md.md)] admite importar archivos de extractos bancarios CAMT SEPA originales. Se representa mediante el código de registro de definición de intercambio de datos de **CAMT de SEPA** en la página **Definiciones intercambio de datos**. Para obtener información acerca de la asignación de campos específicos de esta ayuda de CAMT de SEPA, consulte [Asignación de campos al importar archivos CAMT de SEPA](across-field-mapping-when-importing-sepa-camt-files.md).  
 
 #### <a name="to-map-columns-in-the-data-file-to-fields-in-included365finincludesd365fin_mdmd"></a>Para asignar las columnas en el archivo de datos a los campos de [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+> [!TIP]
+> A veces, los valores en los campos que desea asignar son diferentes. Por ejemplo, en una aplicación comercial, el código de idioma para Estados Unidos es "U.S.", pero en la otra es "US." Eso significa que debe transformar el valor cuando intercambia datos. Esto sucede por de las reglas de transformación que define para los campos. Para obtener más información, vea [Reglas de transformación](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).
+
 1. En la ficha desplegable **Definiciones de línea**, seleccione la línea para la que desea asignar columnas a los campos y, a continuación, elija **Asignación de campos**. Se abre la página **Asignación de intercambio de datos**.  
 2. En la ficha desplegable **General**, especifique la configuración de asignación rellenando los campos tal y como se describe en la tabla siguiente.  
 
@@ -138,9 +141,44 @@ Esto se describe en los procedimientos siguientes:
 
 La definición de intercambio de datos está preparada para habilitarse para los usuarios. Para obtener más información, consulte [Configurar el envío y la recepción de documentos electrónicos](across-how-to-set-up-electronic-document-sending-and-receiving.md), [Configurar transferencias de crédito SEPA](finance-how-to-set-up-sepa-credit-transfer.md), [Configurar domiciliaciones de adeudo directo SEPA](finance-how-to-set-up-sepa-direct-debit.md) y [Realizar pagos con Servicio de conversión de datos del banco o Transferencia de crédito SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
 
-Cuando haya creado la definición de intercambio de datos para un archivo de datos específico, podrá exportarla como un archivo XML que se puede usar para habilitar rápidamente la importación del archivo de datos en cuestión. Esto se describe en el procedimiento siguiente:  
+### <a name="transformation-rules"></a>Reglas de transformación
+Si los valores en los campos que está asignando difieren, debe usar reglas de transformación para las definiciones de intercambio de datos para que sean iguales. Defina reglas de transformación para las definiciones de intercambio de datos abriendo una definición existente, o creando una nueva definición, y luego en las **Definiciones de línea** FastTab, eligiendo **Gestionar**, y entonces **Mapeo de campo**. Se proporcionan reglas predefinidas, pero también puede crear las suyas propias. La siguiente tabla describe los tipos de transformaciones que puede realizar.
 
-### <a name="to-export-a-data-exchange-definition-as-an-xml-file-for-use-by-others"></a>Para exportar una definición de intercambio de datos como un archivo XML para que lo utilicen otros usuarios  
+|Opción|Descripción|
+|---------|---------|
+|**Mayúsculas**|Ponga en mayúscula todas las letras.|
+|**Minúsculas**|Ponga todas las letras en minúscula.|
+|**Título de caso**|Ponga en mayúscula la primera letra de cada palabra.|
+|**Recorte**|Eliminar espacios vacíos antes y después del valor.|
+|**Subcadena**|Transforma una parte específica de un valor. Para especificar dónde comenzar la transformación, elija una **Posición de salida** o **Texto de inicio**. La posición inicial es un número que representa el primer carácter a transformar. El texto inicial es la letra inmediatamente anterior a la letra a reemplazar. Si desea comenzar con la primera letra del valor, utilice una posición inicial. Para especificar dónde detener la transformación, elija **Longitud**, que es el número de caracteres a reemplazar, o el **Texto final**, que es el carácter que está inmediatamente después del último carácter a transformar.|
+|**Reemplazar**|Encuentre un valor y reemplácelo con otro. Esto es útil para reemplazar valores simples, como una palabra en particular.|
+|**Expresión regular - Reemplazar**|Use una expresión regular como parte de una operación de buscar y reemplazar. Esto es útil para reemplazar valores múltiples, o quizás más complejos.|
+|**Eliminar caracteres no alfanuméricos**|Elimine caracteres que no sean letras o números, como símbolos o caracteres especiales.|
+|**Formato de fecha**|Especifique cómo mostrar las fechas. Por ejemplo, puede transformar DD-MM-AAAA a AAAA-MM-DD.|
+|**Símbolo decimal**|Defina reglas para la colocación de decimales y la precisión de redondeo.|
+|**Coincidencia - expresiones regulares**|Use una expresión regular para encontrar uno o más valores. Esto es similar a las opciones de **Subcadena** y **Expresión regular - Reemplazar**.|
+|**Personalizado**|Esta es una opción avanzada que requiere asistencia de un desarrollador. Permite un evento de integración al que puede suscribirse si desea usar su propio código de transformación. Si es desarrollador y desea utilizar esta opción, consulte el [ejemplo](across-how-to-set-up-data-exchange-definitions.md#tip-for-developers-example-of-the-custom-option) abajo.|
+|**Formato de fecha y hora**|Defina cómo mostrar la fecha actual y la hora del día.|
+
+#### <a name="tip-for-developers-example-of-the-custom-option"></a>Consejo para desarrolladores: ejemplo de la opción personalizada
+El siguiente ejemplo muestra cómo implementar su propio código de transformación.
+
+```
+codeunit 60100 "Hello World"
+{
+    [EventSubscriber(ObjectType::Table, Database::"Transformation Rule", 'OnTransformation', '', false, false)]
+    procedure OnTransformation(TransformationCode: Code[20]; InputText: Text; var OutputText: Text)
+    begin
+        if TransformationCode = 'CUST' then
+            OutputText := InputText + ' testing';
+    end;
+}
+```
+Después de definir sus reglas, puede probarlas. En la sección **Prueba**, introduzca un ejemplo de un valor que desea transformar y luego verifique los resultados.
+
+### <a name="to-export-a-data-exchange-definition-as-an-xml-file-for-use-by-others"></a>Para exportar una definición de intercambio de datos como un archivo XML para que lo utilicen otros usuarios
+Cuando haya creado la definición de intercambio de datos para un archivo de datos específico, podrá exportar la definición de intercambio de datos como un archivo XML que podrá importar. Esto se describe en el procedimiento siguiente:  
+
 1. En el cuadro **Buscar**, escriba **Definiciones de intercambio de datos** y, a continuación, elija el vínculo relacionado.  
 2. Seleccione la definición de intercambio de datos que desea exportar.  
 3. Seleccione la acción **Exportar definición de intercambio de datos** .  

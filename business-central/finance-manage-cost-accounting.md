@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9700b3453e43b1f692d1e98c2feab225b57e7c01
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 0b93073c8d8c6ad639d27644719c4c5b40cda6fe
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882595"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952655"
 ---
 # <a name="accounting-for-costs"></a>Contabilidad para costes
 La contabilidad de costes se utiliza para ayudarle a conocer los costes de la dirección de una empresa. Para iniciarse en la contabilidad de costes, vea los temas siguientes.  
@@ -28,8 +28,9 @@ La contabilidad de costes se utiliza para ayudarle a conocer los costes de la di
 |Transferir movimientos de contabilidad a movimientos de coste.|[Transferencia y registro de movimientos de coste](finance-transfer-and-post-cost-entries.md)|  
 |Asignar costes.|[Definición y asignación de costes](finance-define-and-allocate-costs.md)|  
 |Conocer los procesos de creación de presupuestos de costes.|[Crear presupuesto coste](finance-create-cost-budgets.md)|
-|Cancelar movimientos de presupuesto de costes en el registro de presupuestos de costes.|[Eliminar movs. ppto. costes](finance-how-to-delete-cost-budget-entries.md)| 
+|Cancelar movimientos de presupuesto de costes en el registro de presupuestos de costes.|[Eliminar movs. ppto. costes](finance-how-to-delete-cost-budget-entries.md)|
 
+## <a name="see-related-training-at-microsoft-learnlearnpathsuse-cost-accounting-dynamics-365-business-central"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/paths/use-cost-accounting-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Consulte también  
 [Finanzas](finance.md)  

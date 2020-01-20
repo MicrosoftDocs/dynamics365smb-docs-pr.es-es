@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 74e4c2e26ec4b51c00ece9ff8f56f7d556b74416
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6ac8d49d2b3a88d472a61a9a61c2893360036eb7
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302385"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952631"
 ---
 # <a name="working-with-dimensions"></a>Trabajar con dimensiones
 Para simplificar la realización de análisis en documentos, como pedidos de venta, puede utilizar dimensiones. Las dimensiones son atributos y valores que clasifican los movimientos de modo que pueda realizar el seguimiento y el análisis de ellos. Por ejemplo, las dimensiones pueden indicar de qué proyecto o departamento procede un movimiento.  
@@ -56,7 +56,7 @@ Cuando se configuran las dimensiones y los valores, se pueden definir dimensione
 ### <a name="to-set-up-default-dimensions-for-customers-vendors-and-other-accounts"></a>Para configurar dimensiones predeterminadas para clientes, proveedores y otras cuentas
 Puede asignar una dimensión predeterminada para una determinada cuenta. La dimensión se copiará en el diario o el documento cuando introduzca el número de cuenta en una línea, pero puede eliminar o cambiar el código de la línea si es necesario. También puede convertir una dimensión en obligatoria para registrar un movimiento con un tipo de cuenta específico.  
 
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Dimensiones** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Dimensiones** y, a continuación, elija el enlace relacionado.  
 2.  En la página **Dimensiones**, seleccione la dimensión correspondiente y elija la acción **Dimensión predet. tipo cta**.  
 4.  Rellene una línea para cada nueva dimensión predeterminada que quiera configurar. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -72,7 +72,7 @@ Puede asignar una dimensión predeterminada para una determinada cuenta. La dime
 ### <a name="to-set-up-default-dimension-priorities"></a>Para configurar prioridades de dimensiones predeterminadas  
 Distintos tipos de cuentas, por ejemplo, una cuenta de cliente y una cuenta de producto, pueden tener configuradas dimensiones predeterminadas diferentes. Como resultado, un movimiento puede tener más de una propuesta de dimensión predeterminada para una dimensión. Para evitar este tipo de conflictos, puede aplicar reglas de prioridad a los diversos orígenes.  
 
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Prioridades dimensión predet.** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Prioridades de dimensión** y luego elija el enlace relacionado.  
 2.  En la página **Prioridades dimensión predet.**, en el campo **Cód. origen**, escriba el código de origen para la tabla de movimientos para la que se aplicarán las prioridades de dimensión predeterminadas.  
 3.  Rellene una línea para cada prioridad de dimensión predeterminada que desee para el código de origen seleccionado.
 4.  Repita el procedimiento para la cada código de origen para el que quiera configurar prioridades de dimensión predeterminadas.  
@@ -83,7 +83,7 @@ Distintos tipos de cuentas, por ejemplo, una cuenta de cliente y una cuenta de p
 ### <a name="to-set-up-dimension-combinations"></a>Para configurar combinaciones de dimensión  
 Para evitar registrar movimientos con dimensiones contradictorias o irrelevantes, puede bloquear o limitar determinadas combinaciones de dos dimensiones. Una dimensión está bloqueada si no es posible registrar ambas dimensiones en el mismo movimiento independientemente de los valores de dimensión. Una combinación de dimensión limitada le permite registrar ambas dimensiones en el mismo movimiento, pero únicamente para determinadas combinaciones de valores de dimensión.
 
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Combinaciones dimensión** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Combinaciones de dimensión** y, a continuación, elija el enlace relacionado.  
 2.  En la página **Combinación dimensión**, seleccione el campo de la combinación de dimensión y seleccione una de las opciones siguientes.  
 
     |Campo|Description|
@@ -111,11 +111,11 @@ Las dimensiones globales y abreviadas se pueden utilizar como un filtro en cualq
 > [!Note]
 > Al añadir o cambiar una dimensión global o abreviada, se cierra automáticamente la sesión y se vuelve a iniciar para que el nuevo valor esté preparado para su uso en toda la aplicación.
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración de contabilidad** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de contabilidad** y luego elija el enlace relacionado.
 2. En la ficha desplegable **Dimensiones**, rellene los campos. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 #### <a name="to-change-global-dimensions"></a>Para cambiar las dimensiones globales
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Cambiar dimen. globales** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Cambiar dimensiones globales** y, a continuación, elija el enlace relacionado.
 2. Pase el cursor por encima de las acciones y campos de la página para aprender a cambiar las dimensiones globales y abreviadas.
 
 ### <a name="example-of-dimension-setup"></a>Ejemplo de configuración de dimensiones
@@ -181,7 +181,7 @@ El nombre y la definición de las dimensiones globales los establece la empresa.
 
 En una página de movimiento de contabilidad, puede ver si hay dimensiones globales para los movimientos. Las dos dimensiones globales difieren del resto de las dimensiones porque se pueden utilizar como filtros en cualquier lugar de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Plan de cuentas** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Plan de cuentas** y luego elija el enlace relacionado.  
 2.  En la página **Plan de cuentas**, seleccione la acción **Movimientos**.  
 3.  Para ver únicamente los movimientos relevantes, establezca uno o más filtros en la página.  
 4.  Para ver todas las dimensiones de un movimiento, seleccione el movimiento y elija la acción **Dimensiones**.  
@@ -208,6 +208,8 @@ Cuando se registran documentos o líneas de diario que contienen dimensiones, pu
 |Código de valor de dimensión erróneo para la dimensión predeterminada cuando el campo **Registro valor** contiene **Igual código**|- Seleccione %1 %2 para el %3 %4.<br />- Seleccione %1 %2 para el %3 %4 para %5 %6.|-Cambie el campo **Registro valor** en la página **Dimensión predeterminada**.<br />-Introduzca un valor de dimensión requerido para la dimensión en conflicto en el grupo de dimensiones.|
 |Código de valor de dimensión no vacío para la dimensión predeterminada en blanco cuando el campo **Registro valor** contiene **Igual código**|-%1 %2 debe estar en blanco.<br />-%1 %2 debe estar en blanco para %3 %4.|-Cambie el campo **Registro valor** en la página **Dimensión predeterminada**.<br />-Introduzca un código de valor de dimensión en blanco para la dimensión en conflicto en el grupo de dimensiones.|
 |Valor de dimensión inesperado para la dimensión predeterminada cuando el campo **Registro valor** contiene **Sin código**|-%1 %2 no debe ser mencionado.<br />-%1 %2 no debe ser mencionado para %3 %4|-Cambie el campo **Registro valor** en la página **Dimensión predeterminada**.<br />-Elimine la línea conflictiva del grupo de dimensiones.|
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesdimensions-dynamics-365-business-centralindex"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/dimensions-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Consulte también
 [Inteligencia empresarial](bi.md)  

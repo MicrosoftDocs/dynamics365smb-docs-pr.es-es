@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 11/14/2019
+ms.date: 12/10/2019
 ms.author: edupont
-ms.openlocfilehash: 8905a7dccc96f85a3803b1cf89862718d6a0df2e
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 17f8a61507659f05e12bc7b5d4560bd50f344b0e
+ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879408"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "2942995"
 ---
 # <a name="included365fin_longincludesd365fin_long_mdmd-trials-and-subscriptions"></a>Versiones de prueba y suscripciones de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 
@@ -29,7 +29,7 @@ Si encuentra dificultades, la página [Preguntas frecuentes](across-faq.md) pued
 
 ### <a name="try-out-your-own-company"></a>Probar su propia empresa
 
-Si desea probar [!INCLUDE [prodshort](includes/prodshort.md)] con sus propios datos, puede cambiar a una prueba gratuita de 30 días con una empresa vacía para que pueda importar sus propios datos.  
+Si desea probar [!INCLUDE [prodshort](includes/prodshort.md)] con sus propios datos, puede cambiar a una prueba gratuita de 30 días con una empresa vacía. La **guía de configuración asistida** Configurar mi empresa puede ayudarlo a especificar información básica sobre su negocio. De manera opcional, puede importar datos de su solución de gestión empresarial existente para poder evaluar [!INCLUDE [prodshort](includes/prodshort.md)] con sus propios datos.  
 
 Si 30 días no son suficientes para decidirse, puede ampliar la prueba. Para obtener más información, vea [¿Necesita más tiempo para decidir si suscribirse?](admin-extend-trial.md)  
 
@@ -72,11 +72,11 @@ También puede ponerse en contacto con el [equipo de ventas de [!INCLUDE[d365fin
 
 ## <a name="getting-started-with-sandboxes"></a>Introducción a los entornos aislados
 
-Los entornos aislados pueden ser una forma de practicar con [!INCLUDE[d365fin](includes/d365fin_md.md)]. Puede pensar en un entorno aislado como un entorno que no es de producción y que puede usar en su instancia de producción de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Los entornos aislados pueden ser una forma de practicar con [!INCLUDE[d365fin](includes/d365fin_md.md)]. Puede pensar en un entorno aislado como un entorno que no es de producción y que puede usar en su instancia de producción de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Por ejemplo, si desea tomar la formación en línea gratuita de [Microsoft Learn](/learn/browse/?products=dynamics-business-central), su administrador puede crear un entorno aislado y para que usted y sus compañeros puedan practicar allí en lugar de hacerlo en su entorno de producción.  
 
-Un entorno aislado le permite crear y probar extensiones de forma segura y desarrollar nuevas funcionalidades para personalizar el servicio sin afectar los datos y la configuración de su entorno de producción. Por ejemplo, si desea tomar la formación en línea gratuita de [Microsoft Learn](/learn/browse/?products=dynamics-business-central), puede crear un entorno aislado y practicar allí en lugar de hacerlo en su entorno de producción.  
+Si usted es un desarrollador, un entorno aislado le permite crear y probar extensiones de forma segura y desarrollar nuevas funcionalidades para personalizar el servicio sin afectar los datos y la configuración de su entorno de producción.  
 
-En este momento, todos los clientes pueden usar un entorno aislado. Para obtener más información acerca de cómo obtener ayuda con un entorno aislado, vea [Crear un entorno aislado](across-how-create-sandbox-environment.md).  
+En este momento, todos los clientes pueden usar un sandbox, incluidas las organizaciones que se han registrado para una prueba. Para obtener más información acerca de cómo obtener ayuda con un entorno aislado, vea [Crear un entorno aislado](across-how-create-sandbox-environment.md).  
 
 > [!NOTE]
 > Los entornos aislados creados de esta forma contienen datos de demostración de la empresa CRONUS ficticia. No se copian ni se transfieren datos del entorno de producción.  
@@ -96,6 +96,7 @@ For example, you can use an API to build a connected app to exchange data betwee
 ## <a name="see-also"></a>Consulte también
 
 [Introducción](product-get-started.md)  
+[Extensión de la versión de prueba](admin-extend-trial.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Preguntas más frecuentes](across-faq.md)  
 [¿Cómo encuentro un socio distribuidor?](across-faq.md#findpartner)  

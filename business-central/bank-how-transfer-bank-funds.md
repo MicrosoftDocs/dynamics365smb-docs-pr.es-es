@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account transfer, multiple currencies
-ms.date: 10/01/2019
+ms.date: 12/13/2019
 ms.author: sgroespe
-ms.openlocfilehash: c38666d6e3dcdaf2a5426795930887d726767190
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 3618ad87377ebc47f183292207d2f25dc6c3ed34
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304021"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910425"
 ---
 # <a name="transfer-bank-funds"></a>Transferir fondos bancarios
-En ocasiones es necesario transferir un importe desde una cuenta bancaria a otra. Para hacerlo, debe registrar una transacción en el diario general. La tarea varía en función de si los bancos usan la misma divisa o distintas divisas.
+En ocasiones es necesario transferir un importe desde un banco en [!INCLUDE[d365fin](includes/d365fin_md.md)] a otro. Para hacerlo, debe registrar una transacción en la página **Diario general**. La tarea varía en función de si los bancos usan la misma divisa o distintas divisas.
 
 ## <a name="to-post-a-transfer-between-bank-accounts-with-the-same-currency-code"></a>Para registrar transferencias entre bancos con el mismo código de divisa
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diario general** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Diario general** y luego elija el enlace relacionado.
 2. En una línea de diario, rellene los campos **Fecha registro** y **Nº documento**.
 3. En el campo **Tipo mov**, seleccione **Banco**.
 4. En el campo **N.º de cuenta**, seleccione la cuenta desde la que quiere transferir los fondos.
@@ -36,7 +36,7 @@ En ocasiones es necesario transferir un importe desde una cuenta bancaria a otra
 ## <a name="to-post-a-transfer-between-bank-accounts-with-different-currency-codes"></a>Para registrar transferencias entre bancos con códigos de divisa distintos
 Para transferir fondos entre cuentas bancarias que usan distintas divisas, debe registrar dos líneas de diario general.
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diario general** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Diario general** y luego elija el enlace relacionado.
 2. Cree dos líneas de diario y rellene los campos **Fecha de registro** y **N.º de documento**.
 3. En la primera línea de diario, en el campo **Tipo**, seleccione **Cuenta bancaria**.
 4. En el campo **N.º de cuenta**, seleccione la cuenta desde la que quiere transferir los fondos.
@@ -54,7 +54,7 @@ Para transferir fondos entre cuentas bancarias que usan distintas divisas, debe 
 13. Registre el diario.
 
 ## <a name="see-also"></a>Consulte también
-[Administrar cuentas bancarias](bank-manage-bank-accounts.md)  
+[Conciliar bancos](bank-manage-bank-accounts.md)  
 [Configurar banca](bank-setup-banking.md)  
 [Trabajar con diarios generales](ui-work-general-journals.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

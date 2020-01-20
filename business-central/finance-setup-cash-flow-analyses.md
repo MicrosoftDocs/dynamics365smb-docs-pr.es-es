@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: bholtorf
-ms.openlocfilehash: 88b84c13da3b443714bcfb7cb86a52ee49264c64
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 8fc2bd353a80bf72f8bb9a0d282bec7c216fc0fa
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879494"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953712"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Configuración del análisis de flujo de efectivo
 Si desea ayuda para decidir qué debe hacer con el efectivo, eche un vistazo a los gráficos del Área de trabajo Contable:  
@@ -28,6 +28,9 @@ Si desea ayuda para decidir qué debe hacer con el efectivo, eche un vistazo a l
 * **Previsiones de flujo de efectivo**  
 
 En este tema se describe de dónde proceden los datos de los gráficos y, si es necesario, qué hacer para empezar a usar los gráficos.  
+<br><br>  
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4mJhc]
 
 ## <a name="the-cash-cycle-and-income--expense-charts"></a>Gráficos Ciclo de efectivo e Ingresos y gastos
 Los gráficos **Ciclo de efectivo** e **Ingresos y gastos** están preparados para usarse, en función del plan de cuentas y los esquemas de cuentas. Los efectos son de donde proceden los datos y los esquemas de cuentas calculan la relación entre ventas y cobros. Se proporcionan algunas cuentas y esquemas de cuentas. Puede usarlos tal como están, modificarlos y agregar nuevos. Si se agrega cuentas al plan de cuentas, por ejemplo, importándolas de QuickBooks, deberá asignarlas a las cuentas de la página **Esquemas de cuentas** de los siguientes nombres del esquema de cuentas:  
@@ -90,6 +93,8 @@ También puede crear su propio servicio web predictivo basado en un modelo públ
 5. Anote la URL de API y la clave de API. Usará estas credenciales para una configuración de flujo de caja.  
 6. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración flujos efectivo** y luego elija el enlace relacionado.  
 7. Expanda la ficha desplegable **Azure AI** y rellene los campos.  
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesforecast-cash-flow-dynamics-365-business-centralindex"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Consulte también
 [Analizar el flujo de efectivo de la empresa](finance-analyze-cash-flow.md)  

@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 11/15/2019
+ms.date: 12/17/2019
 ms.author: sgroespe
-ms.openlocfilehash: e1f24e6da71d32e162b107b0e0b9e01cb68cc302
-ms.sourcegitcommit: 23577ae8ecaaf09b58716c2b9f65e39c188e3661
+ms.openlocfilehash: df0956167908c214385b40e3ccb2f20a10d4458b
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2810818"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910837"
 ---
 # <a name="set-up-email"></a>Configurar correo electrónico
 Para enviar y recibir los correos electrónicos desde [!INCLUDE[d365fin](includes/d365fin_md.md)], debe rellenar los campos de la página Configuración correo SMTP.
@@ -30,7 +30,7 @@ Puede configurar el correo electrónico manualmente, tal como se describe a cont
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]
-    > Si está utilizando una cuenta que requiere autenticación de dos factores, la contraseña que introduzca en el campo **Contraseña** debe ser la misma que la que utiliza para su suscripción de Office 365 y debe ser de tipo **Contraseña de aplicación**. Para obtener más información, consulte [Administrar las contraseñas de aplicación para la verificación en dos pasos](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords). 
+    > Si está utilizando una cuenta que requiere autenticación de dos factores, la contraseña que introduzca en el campo **Contraseña** debe ser la misma que la que utiliza para su suscripción de Office 365 y debe ser de tipo **Contraseña de aplicación**. Para obtener más información, consulte [Administrar las contraseñas de aplicación para la verificación en dos pasos](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords).
 3. Opcionalmente, elija la acción **Aplicar la configuración del servidor de Office 365** para insertar información que ya esté definida para su suscripción de Office 365.
 4. Una vez rellenados correctamente todos los campos, elija la acción **Configuración de correo elect. de prueba**.
 5. Cuando la prueba se realice correctamente, cierre la página.
@@ -51,7 +51,7 @@ A continuación se ofrecen ejemplos de cómo se usan Enviar como y Enviar en nom
 2. En [!INCLUDE[d365fin](includes/d365fin_md.md)], elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de correo electrónico SMTP** y luego elija el enlace relacionado.
 3. En el campo **Enviar como**, introduzca la dirección sustituta.
 4. Copie o anote la dirección en el campo **ID de usuario**.
-5. En el **centro de administración de Exchange**, busque el buzón de correo que desea utilizar como dirección sustituta y, a continuación, introduzca la dirección del campo **ID de usuario** en el campo **Enviar como**. Para obtener más información, vea [Administrar permisos para destinatarios](/Exchange/recipients/mailbox-permissions?view=exchserver-2019#use-the-eac-to-assign-permissions-to-individual-mailboxes).
+5. En el **centro de administración de Exchange**, busque el buzón de correo que desea utilizar como dirección sustituta y, a continuación, introduzca la dirección del campo **ID de usuario** en el campo **Enviar como**. Para más información, ver [Use el EAC para asignar permisos a buzones individuales](/Exchange/recipients/mailbox-permissions?view=exchserver-2019#use-the-eac-to-assign-permissions-to-individual-mailboxes).
 
 ### <a name="to-use-the-substitute-address-in-approval-workflows"></a>Para utilizar la dirección sustituta en los flujos de trabajo de aprobación
 1. En [!INCLUDE[d365fin](includes/d365fin_md.md)], elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de correo electrónico SMTP** y luego elija el enlace relacionado.

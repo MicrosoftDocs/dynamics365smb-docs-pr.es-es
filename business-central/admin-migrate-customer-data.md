@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 12/04/2019
+ms.date: 12/19/2019
 ms.author: sgroespe
-ms.openlocfilehash: 80fbd0a1024ae104fb6fc0921e1260c89a26debf
-ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
+ms.openlocfilehash: d5c9badf083352e04e118cd7ddc25e5a337e5686
+ms.sourcegitcommit: 53565fea987af861f3846e5c1e0e868c279aeb30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896210"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2918219"
 ---
 # <a name="migrate-customer-data"></a>Migrar datos del cliente
 Puede migrar los datos existentes de cliente de un sistema de ERP existente a [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizando las herramientas de migración de datos de RapidStart Services. Puede usar archivos de Excel como soporte de datos. También puede mover manualmente los datos al introducirlos directamente en la empresa.
@@ -31,13 +31,13 @@ Al crear una empresa nueva, puede importar las opciones de la empresa para la em
 > [!NOTE]  
 >  No puede cambiar el nombre de un archivo que no es un paquete de configuración de RapidStart Services como un archivo de paquete de configuración .rapidstart y luego intentar importarlo. Si intenta hacerlo, recibirá un mensaje de error.  
 
-Antes de empezar, compruebe que se encuentra en el Área de trabajo del implementador de RapidStart Services.
+Antes de comenzar, debe asegurarse de tener permiso para ejecutar los RapidStart Services objetos. Por ejemplo, puede tener configurado el permiso SUPER o ser un administrador interno o delegado. También le recomendamos que se encuentre en un área de trabajo con enlaces a RapidStart Services, como el Centro de funciones de administración. Para obtener más información, vea [Para cambiar el rol](ui-change-basic-settings.md#to-change-the-role).  
 
 > [!IMPORTANT]  
->  Al exportar e importar los paquetes de configuración entre dos bases de datos de empresa, las bases de datos deben tener el mismo esquema para garantizar que todos los datos se transferirán correctamente. Esto significa que las bases de datos deben tener la misma estructura de tablas y campos, en la que las tablas con las mismas claves principales y campos tienen los mismos identificadores y tipos de datos.  
->   
+> Al exportar e importar los paquetes de configuración entre dos bases de datos de empresa, las bases de datos deben tener el mismo esquema para garantizar que todos los datos se transferirán correctamente. Esto significa que las bases de datos deben tener la misma estructura de tablas y campos, en la que las tablas con las mismas claves principales y campos tienen los mismos identificadores y tipos de datos.  
+>
 >  Puede importar un paquete de configuración que se ha exportado desde una base de datos con un esquema distinto al de la base de datos de destino. Sin embargo, no se importarán las tablas o los campos del paquete de configuración que falten en la base de datos de destino.
->   
+>
 > Tampoco se importarán las tablas que tengan diferentes claves principales ni los campos que tengan distintos tipos de datos. Por ejemplo, si el paquete de configuración incluye la tabla **50000 Cliente** que tiene la clave principal **Code20** y la base de datos a la que importa el paquete incluye la tabla **50000 Banco cliente** que tiene la clave principal **Code20 + Código 20**, no se importarán los datos.  
 
 1. Abra la nueva empresa.  
@@ -56,7 +56,11 @@ Antes de empezar, compruebe que se encuentra en el Área de trabajo del implemen
 Si la selección de tablas no cubre sus necesidades, puede crear uno o varios nuevos archivos de migración de datos. Si los archivos de la migración de datos predeterminados son suficientes, puede continuar con la migración de datos mediante archivos Excel o XML.
 
 ## <a name="to-create-a-data-migration-file"></a>Para crear un archivo de migración de datos
-Puede crear nuevos archivos de migración de datos y personalizarlos para satisfacer las necesidades de su negocio. Tenga en cuenta que un archivo solo se puede utilizar para migrar un campo que tenga su propiedad **FieldClass** establecida en **Normal**.  
+
+Puede crear nuevos archivos de migración de datos y personalizarlos para satisfacer las necesidades de su negocio.  
+
+> [!TIP]
+> Un archivo solo se puede utilizar para migrar un campo que tenga su propiedad **FieldClass** establecida en **Normal**.  
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Paquete de configuración** y luego elija el enlace relacionado.  
 2. Seleccione y abra el paquete que desea utilizar para migrar datos y después seleccione **Obtener tablas**. Se abre la página **Traer tabla de paquete**.  

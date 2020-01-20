@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 69014460131bd80bf08403a079e30b61d56cf307
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2152e5535f35be234753895ca024791f912f6869
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301545"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2911100"
 ---
 # <a name="finance"></a>Finanzas
 [!INCLUDE[d365fin](includes/d365fin_md.md)] incluye una configuración estándar de muchos procesos financieros, pero puede cambiar la configuración para que se adapte a su empresa. Para obtener más información, consulte [Configurar finanzas](finance-setup-finance.md).
@@ -31,7 +31,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 | Liquide pagos entrantes, concilie cuentas bancarias durante la liquidación de pagos y recopile saldos pendientes. |[Administrar cobros](receivables-manage-receivables.md) |
 | Efectúe pagos, liquide pagos salientes y trabaje con cheques. |[Administrar pagos](payables-manage-payables.md) |
 |Haga que sus clientes envíen el pago antes de usted, o envíe el pago a sus proveedores antes de ellos.|[Facturación de prepagos](finance-invoice-prepayments.md)|
-| Concilie cuentas bancarias y transfiera fondos entre cuentas bancarias. |[Administrar cuentas bancarias](bank-manage-bank-accounts.md) |
+| Concilie cuentas bancarias y transfiera fondos entre cuentas bancarias. |[Conciliar bancos](bank-manage-bank-accounts.md) |
 |Configurar los socios de empresas vinculadas y procesar transacciones, manual o automáticamente, entre las entidades jurídicas dentro de la misma empresa.|[Gestión de transacciones entre empresas vinculadas](intercompany-manage.md)|
 |Analice los costes de administrar su empresa asignando costes reales y presupuestados de operaciones, departamentos, productos y proyectos a los centros de costes.|[Contabilidad para costes](finance-manage-cost-accounting.md)|
 |Administrar variaciones de existencias y costes de fabricación, crear informes de costes y conciliar costes con la contabilidad.|[Gestión de costes de inventario](finance-manage-inventory-costs.md)|

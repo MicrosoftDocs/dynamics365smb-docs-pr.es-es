@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: edupont
-ms.openlocfilehash: 23027c809571512c99d75860c108aa4a23ca5477
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 576e974221d6fb1e7aa92b200338e32b1339b4d3
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307569"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953832"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Preparar informes financieros con esquemas de cuentas y categorías de cuentas
 Use esquemas de cuentas para obtener información sobre los datos financieros almacenados en su plan de cuentas. Los esquemas de cuentas analizan cifras en cuentas de contabilidad y comparan los movimientos de contabilidad con los presupuestados. Los resultados se muestran en gráficos en su área de trabajo, como el gráfico de flujo de efectivo, y en informes, como los informes Balance de ingresos y Balance.
@@ -45,7 +45,7 @@ Los esquemas de cuentas en la versión estándar de [!INCLUDE[d365fin](includes/
 
 La página **Panorama esq. cta.** es donde puede obtener una vista previa del informe financiero que define el esquema de cuentas. A continuación, es importante comprender que lo que se configura como filas y columnas del esquema de cuentas solo se puede ver y validar en la página **Panorama esq. cta.**, que se abre desde un esquema de cuentas seleccionando la acción **Panorama**. La página **Esquema cuentas** en sí misma es solo un área de configuración.  
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Esquemas de cuentas** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Esquemas de cuentas** y luego elija el enlace relacionado.  
 2. En la página **Esquemas de cuentas**, elija la acción **Nuevo** para crear un nuevo nombre de esquema de cuenta.
 3. También puede elegir la acción **Copiar esquema de cuentas**, rellenar los dos campos y, a continuación, elegir el botón **Aceptar**.
 4. Rellene los campos según sea necesario. En el campo **Plantilla columna genér.**, seleccione una disposición existente. Puede cambiarla más adelante si lo desea.
@@ -77,7 +77,7 @@ Utilice las plantillas de columnas para determinar qué columnas va a incluir en
 ### <a name="to-create-a-column-that-calculates-percentages"></a>Para crear una columna que calcule porcentajes  
 En ocasiones, podría desear incluir una columna en un esquema de cuentas para calcular los porcentajes de un total. Por ejemplo, si tiene una serie de filas que detallan las ventas por dimensión, podría desear crear una columna para indicar el porcentaje de las ventas totales que representa cada fila.
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Esquemas de cuentas** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Esquemas de cuentas** y luego elija el enlace relacionado.
 2. En la página **Nombres esquemas de cuentas**, seleccione un esquema de cuenta.  
 3. Elija la acción **Editar esquema cuentas** para configurar una fila del esquema de cuentas para calcular el total en el que se basarán los porcentajes.  
 4. Inserta una línea justo encima de la primera fila para la que desea que se muestre un porcentaje.  
@@ -89,7 +89,7 @@ En ocasiones, podría desear incluir una columna en un esquema de cuentas para c
 ## <a name="to-set-up-account-schedules-with-overviews"></a>Para configurar esquemas de cuentas con resúmenes  
 Puede usar un esquema de cuentas para crear un extracto que compare las cifras de contabilidad con las cifras presupuestadas.
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Esquemas de cuentas** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Esquemas de cuentas** y luego elija el enlace relacionado.
 2. En la página **Nombres esquemas de cuentas**, seleccione un esquema de cuenta.  
 3. Elija la acción **Editar esquema cuentas**  
 4. En la ventana **Esquema cuentas**, en el campo **Nombre**, seleccione el nombre del esquema de cuentas predeterminado.
@@ -192,6 +192,7 @@ Si desea calcular el importe del periodo de comparación para periodos de tiempo
 > [!NOTE]
 > No siempre es transparente qué períodos está comparando porque puede establecer un filtro de fecha en un informe que abarca diferentes fechas a los períodos contables que se reflejan en los datos del plan de cuentas. Por ejemplo, cree un esquema de cuentas en el que desee comparar este período con el mismo período del año anterior, por lo que debe establecer el campo **Filtro de período de fecha de comparación** en *-1FY*. Luego, ejecute el informe el 28 de febrero y configure el filtro de fecha en enero y febrero. Como resultado, el calendario de cuentas compara enero y febrero de este año con enero del año pasado, que es el único período contable completado de los dos para el año pasado.  
 
+## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-financial-reports-dynamics-365-business-centralindex"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/configure-financial-reports-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Consulte también
 [Inteligencia empresarial](bi.md)  

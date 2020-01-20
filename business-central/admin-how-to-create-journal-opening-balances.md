@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ebf6d29a388ed3c66159a8c8a8e8fd65abe709ed
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 63013d244b5cab25e520bb05af4c84293aa5ed48
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878846"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910765"
 ---
 # <a name="create-journal-opening-balances"></a>Crear saldos iniciales del diario
 [!INCLUDE[d365fin](includes/d365fin_md.md)] incluye varios trabajos por lotes que se proporcionen para ayudar en la transferencia de saldos de cuenta heredados a una empresa recién configurada. Puede transferir fácilmente estos datos con el diario del cliente, el diario del proveedor, el diario de productos o el diario de contabilidad.
 
 El primer paso es crear un paquete de configuración que incluya las tablas de configuración para aquellos diarios. En el procedimiento siguiente se supone que este paso ya se completó. Para obtener más información, consulte [Establecer la configuración de una empresa](admin-set-up-company-configuration.md). Este procedimiento se describen los pasos subsiguientes, que incluyen la aplicación del paquete que proporciona un socio.  
 
-Antes de comenzar, asegúrese de estar en la página Área de trabajo del implementador de RapidStart Services ya que proporciona el contexto correcto para su trabajo de configuración. Para obtener más información, consulte [Cambiar configuración básica](ui-change-basic-settings.md).
+Antes de comenzar, asegúrese de estar en la página Área de trabajo de la administración ya que proporciona el contexto correcto para su trabajo de configuración. Para obtener más información, consulte [Cambiar configuración básica](ui-change-basic-settings.md).
 
 ## <a name="to-apply-the-entries-in-a-journal-to-a-new-company"></a>Procedimiento para aplicar movimientos de un diario a una nueva empresa  
 1. Configure una nueva empresa y aplíquele un paquete de configuración. Para obtener más información, consulte [Configurar una empresa con el asistente de RapidStart](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md).  
@@ -30,7 +30,7 @@ Antes de comenzar, asegúrese de estar en la página Área de trabajo del implem
     La nueva empresa no contiene información sobre los saldos iniciales del diario.  
 
 2. Abra la hoja de trabajo de configuración e importe los datos existentes acerca de los clientes, los productos, los proveedores y la contabilidad. Para obtener más información, consulte [Migrar datos del cliente](admin-migrate-customer-data.md).  
-3. Elija, por ejemplo, la acción **Crear líneas diario general**.  
+3. Elija, por ejemplo, la acción **Crear líneas diario de cuentas general**.  
 4. Rellene la ficha desplegable **Opciones** según corresponda y establezca los filtros según sea necesario. Por ejemplo, en el campo **Libro diario**, especifique un nombre.  
 5. Elija el botón **Aceptar**. Los registros ahora están en el diario, pero los importes estarán vacíos.  
 6. Exporte la tabla del diario a Excel y especifique manualmente la información de cuenta de registro y saldo a partir de los datos heredados.

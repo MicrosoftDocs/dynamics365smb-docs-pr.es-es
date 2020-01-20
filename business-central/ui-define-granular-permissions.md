@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 11/07/2019
 ms.author: sgroespe
-ms.openlocfilehash: 03656014a2b7826008d415e53afbad2d88aac357
-ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
+ms.openlocfilehash: a162246fcd0a6f3db07922cc100e21aacbc76fbe
+ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2809353"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "2943214"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Asignar permisos a usuarios y grupos
 El sistema de seguridad de [!INCLUDE[d365fin](includes/d365fin_md.md)] le permite controlar a qué objetos puede acceder un usuario en cada base de datos o entorno. Puede especificar para cada usuario si puede leer, modificar o introducir datos en los objetos de la base de datos seleccionados. Para obtener información detallada, vea [Seguridad de datos](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) en la ayuda para desarrolladores y profesionales de TI para [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -120,7 +120,7 @@ En cada uno de los cinco campos de tipo de acceso, **Permiso de lectura**, **Per
 |Opción|Description|Ranking|
 |------|-----------|
 |**Sí**|El usuario puede realizar la acción del objeto en cuestión.|El mayor|
-|**Indirecto**|El usuario puede realizar la acción del objeto en cuestión pero solo a través de otro objeto relacionado con el que el usuario tiene acceso a total.|En segundo mayor|
+|**Indirecto**|El usuario puede realizar la acción del objeto en cuestión pero solo a través de otro objeto relacionado con el que el usuario tiene acceso a total. Para obtener más información sobre los permisos indirectos, consulte [Propiedad Permissions](/dynamics365/business-central/dev-itpro/developer/properties/devenv-permissions-property) en la Ayuda para desarrolladores e informáticos|En segundo mayor|
 |**En blanco**|El usuario no puede realizar la acción del objeto en cuestión.|El menor|
 
 ### <a name="example---indirect-permission"></a>Ejemplo: permiso indirecto
