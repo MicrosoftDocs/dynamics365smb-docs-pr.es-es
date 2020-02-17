@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 33b2931e14cb7e41cc3e71c327d2237cd8308466
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 1e45a480e8fdcc508de8ac82a6d2860147d76cec
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878202"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2991789"
 ---
 # <a name="using-dynamics-365-sales-from-business-central"></a>Uso de Dynamics 365 Sales desde Business Central
 Si utiliza Dynamics 365 Sales para la interacción con el cliente, puede disfrutar de una integración perfecta en el proceso de clientes potenciales a efectivo mediante el uso de [!INCLUDE[d365fin](includes/d365fin_md.md)] para las actividades de backend como el procesamiento de pedidos, la gestión de inventario y la gestión de sus finanzas.
@@ -76,7 +76,7 @@ Si la descripción del artículo en el pedido de venta original es larga, se cre
 Las actualizaciones de los campos de cabecera de pedido de venta, como Fecha de último envío o Fecha entrega requerida, que se asignan en **Asignación de tablas de integración** de PEDIDODEVENTA-PEDIDO se sincronizan periódicamente con [!INCLUDE[crm_md](includes/crm_md.md)]. Procesos como la liberación de un pedido de venta y el envío o facturación de un pedido de venta se registran contabilizan en la escala de tiempo del pedido de venta en [!INCLUDE[crm_md](includes/crm_md.md)]. Para obtener más información, consulte [Introducción a las fuentes de actividades](/dynamics365/customer-engagement/developer/introduction-activity-feeds).
 
 > [!NOTE]  
-> La sincronización periódica basada en la **asignación de tablas de integración** de PEDIDODEVENTA-PEDIDO solo funcionará cuando la integración de pedidos de venta esté activada. Para obtener más información, vea [Conectado a Dynamics 365 for Sales](admin-how-to-set-up-a-dynamics-crm-connection.md). Solo se sincronizan los pedidos de venta creados a partir de los pedidos de venta enviados en [!INCLUDE[crm_md](includes/crm_md.md)]. Para obtener más información, consulte [Activar la integración de procesamiento de pedidos de venta](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration).
+> La sincronización periódica basada en la **asignación de tablas de integración** de PEDIDODEVENTA-PEDIDO solo funcionará cuando la integración de pedidos de venta esté activada. Para obtener más información, consulte [Conectar con Dynamics 365 Sales](admin-how-to-set-up-a-dynamics-crm-connection.md). Solo se sincronizan los pedidos de venta creados a partir de los pedidos de venta enviados en [!INCLUDE[crm_md](includes/crm_md.md)]. Para obtener más información, consulte [Activar la integración de procesamiento de pedidos de venta](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration).
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098170]
 

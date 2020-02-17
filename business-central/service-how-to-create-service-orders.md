@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5415475d2dd820ff03615b6911db3082c33be9b6
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: b941d451a5c3ef288128a271855958a954f70f9c
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877332"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030105"
 ---
 # <a name="create-service-orders"></a>Crear pedidos de servicio
 Puede utilizar la página **Pedido servicio** para crear documentos en los que se introduce información acerca de un servicio, como reparación y mantenimiento, de productos de servicio a solicitud del cliente.  
@@ -27,11 +27,11 @@ Cuando cree un pedido de servicio, solo tendrá que rellenar algunos campos. Alg
 2. Cree un pedido de servicio nuevo.  
 3. En el campo **N.º**, introduzca un número para el pedido de servicio.  
 
-     Si ha configurado números de serie para pedidos de servicio en la página **Config. gestión servicio**, también puede presionar Enter para seleccionar el siguiente número de pedido de servicio disponible.  
+     Alternativamente, si ha configurado números de serie para pedidos de servicio en la página **Configuración de gestión de servicios**, también puede pulsar Entrar para seleccionar el siguiente número de pedido de servicio disponible.  
 
 4. En el campo **Nº cliente**, seleccione el cliente pertinente de la lista. Los campos correspondientes al cliente se rellenan con información de la tabla **Cliente**.  
 
-5. Dependiendo de la configuración de la ficha desplegable **Campos obligatorios** de la página **Configurar gestión servicios**, puede que necesite rellenar el campo **Tipo pedido de servicio** y el campo **Código de vendedor**.  
+5. Dependiendo de la configuración de la ficha desplegable **Campos obligatorios** de la página **Configuración de gestión se servicios**, puede que necesite rellenar el campo **Tipo pedido servicio** y el campo **Cód. vendedor**.  
 6. Si lo desea, puede rellenar el resto de los campos.  
 7. Registre las líneas de producto de servicio.  
 
@@ -43,9 +43,11 @@ Puede basarse en contratos de servicio para crear automáticamente ofertas de se
 3. En la ficha desplegable **Opciones**, rellene los campos **Fecha inicial** y **Fecha final** con la fecha inicial y final del periodo para el que desee crear pedidos de servicio de contratos. El proceso crea ofertas de servicio que incluyen productos de servicio de contratos de servicio con las siguientes fechas de servicio planificadas dentro de este periodo.  
 
     > [!NOTE]  
-    >  Existe un límite en el número de días que puede utilizar como rango de fechas cada vez que se ejecuta el trabajo por lotes. Este límite se establece en el campo **Días máx. ped. serv. contrato** de la página **Config. gestión servicio**.  
+    >  Existe un límite en el número de días que puede utilizar como rango de fechas cada vez que se ejecuta el trabajo por lotes. Este límite se establece en el campo **Días máx. ped. serv. contrato** de la página **Configuración de gestión de servicios**.  
 
 4. En el campo **Acción**, seleccione **Crear pedido servicio**.  
+    > [!NOTE]  
+    >  No podrá crear pedidos con varios productos de servicio, si configura el campo **Una línea prod. serv./pedido** en la página **Configuración de gestión de servicios**. 
 
 ## <a name="to-convert-a-service-quote-to-a-service-order"></a>Para convertir una oferta de servicio en un pedido de servicio
 Una vez que el cliente ha aceptado la oferta de servicio, puede convertirla en un pedido de servicio. La oferta se elimina y se configura un nuevo pedido de servicio con la misma descripción que la oferta de servicio. Se vuelven a calcular la fecha y el tiempo de respuesta del pedido de servicio y el estado se establece como **Pendiente**. El estado de reparación de los productos de servicio del pedido se cambian a **Inicial**.  

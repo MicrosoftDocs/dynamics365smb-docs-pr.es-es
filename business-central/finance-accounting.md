@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 01/06/2020
 ms.author: edupont
-ms.openlocfilehash: 9c409b3aa0301b959cde0681307cf8346fbe7a54
-ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
+ms.openlocfilehash: 50cc4aba9f3a01b9518d974cf011de3b9b20a4da
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "2943043"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2991861"
 ---
 # <a name="accountant-experiences-in-included365fin_longincludesd365fin_long_mdmd"></a>Experiencias contables en [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Los negocios deben crear sus libros y firmas de contabilidad. Algunas empresas emplean un contable externo, y otras lo tienen en plantilla. Independientemente del tipo de contable que sea, puede utilizar el Área de trabajo **Contable** como su página de inicio en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Desde aquí, puede acceder a todas las páginas que necesita en su trabajo.  
@@ -42,7 +42,7 @@ Hemos facilitado la invitación a su contable externo. Abra simplemente la pági
 > 
 > Esta tarea requiere acceso para administrar usuarios y licencias en Azure Active Directory, el usuario que envía esta invitación debe tener asignado el rol **Administrador global** o **Administrador de usuarios** en el centro de administración Office 365 . Para obtener más información, consulte [Acerca de los roles de administrador](/office365/admin/add-users/about-admin-roles) en el contenido de administración de Office 365.  
 
-### <a name="adding-your-accountant-to-your-office-365-via-azure-portal"></a>Añadir su contable a su Office 365 a través de Azure Portal '
+### <a name="adding-your-accountant-to-your-office-365-via-azure-portal"></a>Añadir su contable a su Office 365 a través de Azure Portal
 
 Si su administrador o distribuidor no desea utilizar la guía **Invitar a un contador externo**, pueden añadir un usuario externo en el Portal de Azure y asignar a este usuario la licencia de Contable externo. Para más información, consulte [Inicio rápido: añada usuarios invitados a su directorio en Azure Portal](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
 

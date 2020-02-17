@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 729a767c0cb4bb330a463e14c7eb6a4f8fd7d909
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 489e66165c5441ea63043a30dee8af314ef5d815
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304270"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2991813"
 ---
 # <a name="troubleshooting-synchronization-errors"></a>Solución de problemas de errores de sincronización
 Hay muchos factores involucrados en la integración de [!INCLUDE[d365fin](includes/d365fin_md.md)] con [!INCLUDE[crm_md](includes/crm_md.md)], y a veces las cosas salen mal. Este tema señala algunos de los errores típicos que se producen y ofrece algunos consejos para corregirlos.
@@ -37,6 +37,16 @@ Debe resolver manualmente los errores, pero hay algunas maneras en las que la p�
 
 * Los campos **Origen** y **Destino** pueden contener vínculos al registro donde se encontró el error. Haga clic en el vínculo para abrir el registro e investigar el error.  
 * Las acciones **Eliminar movs. anteriores a 7 días** y **Eliminar todos los movs.** limpiarán la lista. Normalmente, estas acciones se utilizan después de haber resuelto la causa de un error que afecta a muchos registros. Sin embargo, preste atención. Estas acciones pueden eliminar errores que todavía son relevantes.
+
+A veces, las marcas de tiempo en los registros pueden causar conflictos. La tabla "Registro de integración CRM" mantiene las marcas de tiempo "Fecha de última modificación de sincronización" y "Fecha de última modificación de sincronización de CRM" para la última integración realizada en ambas direcciones para un registro. Estas marcas de tiempo se comparan con las marcas de tiempo en Business Central y los registros de ventas. En Business Central, la marca de tiempo está en la tabla Registro de integración.
+
+Puede filtrar los registros que se van a sincronizar comparando las marcas de tiempo del registro en los campos "Filtro de fecha modificación de sinc." y "Filtro de fecha modif. tabla integ. de sinc.".
+
+El mensaje de error de conflicto "No se puede actualizar el registro del cliente porque tiene una fecha de modificación posterior al registro de la cuenta" o "No se puede actualizar el registro de la cuenta porque tiene una fecha de modificación posterior al registro del cliente" puede aparecer si un registro tiene una marca de tiempo que es más grande que IntegrationTableMapping."Filtro de fecha modificación de sinc." pero no es más reciente que la marca de tiempo en el registro de integración de ventas. Significa que el registro de origen se sincronizó manualmente, no por el movimiento de la cola de proyectos. 
+
+El conflicto ocurre porque el registro de destino también se modificó: la marca de tiempo del registro es más reciente que la marca de tiempo del registro de integración de ventas. La verificación de destino se realiza solo para tablas bidireccionales. 
+
+Estos registros ahora se mueven a la página "Registros sinc. omitidos", que se abre desde la página Configuración de conexión de Microsoft Dynamics en Business Central. Allí puede especificar los cambios que desea conservar y luego sincronizar nuevamente los registros.
 
 ## <a name="see-also"></a>Consulte también
 [Integración con [!INCLUDE[crm_md](includes/crm_md.md)]](admin-prepare-dynamics-365-for-sales-for-integration.md)  

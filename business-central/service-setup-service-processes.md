@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, warranties
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 665842a2ec24cbee6db469f5ce71b03ddd278555
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 3ca0221f755aa4bf3033cbab3469c6772c6d8413
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877140"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030225"
 ---
 # <a name="configure-service-processes"></a>Configurar procesos de servicio
 A continuación se muestran algunos ejemplos de la configuración que puede aplicar a los procesos de gestión de servicios:  
@@ -27,7 +27,7 @@ A continuación se muestran algunos ejemplos de la configuración que puede apli
 * Secuencias numéricas para documentos y productos relacionados con el servicio.  
 
 ## <a name="to-enter-general-and-mandatory-settings"></a>Para introducir valores generales y obligatorios
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración del servicio** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de gestión de servicios** y luego elija el enlace relacionado.
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="see-also"></a>Consulte también  

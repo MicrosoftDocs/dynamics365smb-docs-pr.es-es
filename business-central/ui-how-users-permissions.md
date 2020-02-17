@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 01/06/2020
 ms.author: sgroespe
-ms.openlocfilehash: b9fbf0b2793c6239f3a1a416230d4afb17bdb5c6
-ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
+ms.openlocfilehash: e07636b6211eb57205d41d982bfbfb4bc2d5b330
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "2943238"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030057"
 ---
 # <a name="create-users-according-to-licenses"></a>Crear usuarios de acuerdo con las licencias
 A continuación se describe cómo usted, como administrador, crea usuarios y define quién puede iniciar sesión en [!INCLUDE[d365fin](includes/d365fin_md.md)], y qué derechos fundamentales tienen los diferentes tipos de usuario según las licencias.
@@ -61,7 +61,7 @@ En ocasiones, es posible que deba cambiar la licencia asignada a un usuario. Por
 1. Cambie la licencia en el Centro de administración de Microsoft 365. Para obtener más información, vea [Agregar usuarios individualmente o en masa a Office 365](https://aka.ms/CreateOffice365Users).
 2. Inicie sesión en [!INCLUDE[d365fin](includes/d365fin_md.md)] como administrador.
 3. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Usuarios** y luego elija el enlace relacionado.
-4. En la página **Usuarios**, seleccione la acción **Actualizar todos los grupos de usuarios**.
+4. En la página **Usuarios**, seleccione la acción **Restaurar los grupos de usuarios predeterminados del usuario**.
 
 Los usuarios se trasladarán a un grupo de usuarios adecuado y se actualizarán los conjuntos de permisos. Para obtener más información, vea [Para administrar permisos mediante grupos de usuarios](ui-define-granular-permissions.md#to-manage-permissions-through-user-groups).
 
@@ -87,7 +87,7 @@ Si cambia el usuario en Office 365 posteriormente, y necesita sincronizar los ca
 ## <a name="the-device-license"></a>La licencia de dispositivo
 Con la licencia de dispositivo de Dynamics 365 Business Central, varios usuarios pueden utilizar un dispositivo con licencia Dispositivo para operar un dispositivo de punto de venta, un dispositivo de planta o un dispositivo de almacén. Para obtener más información, consulte la [Guía de licencias de Microsoft Dynamics 365 Business Central](https://aka.ms/BusinessCentralLicensing).
 
-La licencia Dispositivo se implementa como un modelo de usuario concurrente. Cuando ha comprado X número de licencias de dispositivo, hasta X número de usuarios del grupo designado llamado Usuarios* de dispositivo de Dynamics 365 Business Central pueden iniciar sesión simultáneamente.
+La licencia Dispositivo se implementa como un modelo de usuario concurrente. Cuando ha comprado un número X de licencias de dispositivo, hasta un número X de usuarios del grupo designado llamado Usuarios de dispositivo de Dynamics 365 Business Central pueden iniciar sesión simultáneamente.
 
 El administrador de Office 365 de su empresa o el socio de Microsoft debe crear el grupo de dispositivos designado y agregar usuarios de dispositivos como miembros de ese grupo. Pueden hacerlo en el [Centro de administración de Microsoft 365](https://admin.microsoft.com/) o en [Azure Portal](https://portal.azure.com/).
 

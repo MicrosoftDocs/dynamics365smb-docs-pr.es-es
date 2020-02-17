@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 01/13/2020
+ms.date: 01/17/2020
 ms.author: sgroespe
-ms.openlocfilehash: 3d7c1fa772263aa863b6398e86f35be47998f455
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: a8388c81bfdf767463a27d845dded64ee0f08c7e
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2954012"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2991933"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Procesamiento de devoluciones de ventas o cancelaciones
 Si un cliente desea devolver u obtener un reembolso de algún producto o servicio que usted ha vendido y que le han pagado, debe crear y registrar una abono de ventas que especifique el cambio requerido. Para incluir la información correcta de la factura de ventas, puede crear la nota de crédito de ventas directamente de la factura de venta contabilizada o puede crear una nueva nota de crédito de ventas con información de factura copiada.
@@ -32,6 +32,9 @@ Además de la original factura de venta registrada, puede liquidar el abono de v
 Puede enviar el abono de venta registrado al cliente para confirmar la devolución o cancelación y comunicar que el valor relacionado se reembolsará, por ejemplo, cuando se devuelven los productos.
 
 El registro del abono también revertirá cualquier coste de producto que se hubiera asignado al documento registrado, de forma que los movimientos de valor del producto son los mismos de antes que se asignara el cargo de producto.
+
+> [!NOTE]
+> Los aspectos de contabilidad de las devoluciones de ventas, como los pagos de reembolso a los clientes, se consideran trabajo de contabilidad y no se describen aquí. Para obtener más información, vea [Administración de pagos](payables-manage-payables.md).
 
 ## <a name="inventory-costing"></a>Inventario y valoración
 Para conservar la valoración correcta del inventario, normalmente desea devolver los artículos devueltos al inventario al costo unitario en el que fueron vendidos, no al costo unitario actual. Esto se denomina reversión de coste exacto.
@@ -220,5 +223,6 @@ También puede eliminar los pedidos de devolución de venta individuales manualm
 ## <a name="see-also"></a>Consulte también
 [Ccial](sales-manage-sales.md)  
 [Configuración de ventas](sales-setup-sales.md)  
+[Administrar pagos](payables-manage-payables.md)  
 [Enviar documentos por correo electrónico](ui-how-send-documents-email.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

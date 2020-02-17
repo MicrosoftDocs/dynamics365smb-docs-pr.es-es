@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 02/04/2020
 ms.author: sgroespe
-ms.openlocfilehash: 2cc4f25ad0ae861579789d05dd192c1019bfe505
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: e3270864e184bdb7473a95fd1620ea98c3e3fbd2
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554307"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030201"
 ---
 # <a name="collect-payments-with-sepa-direct-debit"></a>Cobrar pagos mediante adeudo directo SEPA
 Con el consentimiento de sus clientes, puede cobrar los pagos directamente al banco del cliente según el formato SEPA.  
@@ -32,7 +32,10 @@ Con el consentimiento de sus clientes, puede cobrar los pagos directamente al ba
 >  Para cobrar los pagos mediante adeudo directo SEPA, la divisa de la factura de venta debe ser EURO.  
 
 ## <a name="setting-up-sepa-direct-debit"></a>Configuración de domiciliaciones de adeudo directo SEPA
-Desde la página **Cobros por adeudo directo** puede exportar instrucciones al banco electrónico para realizar recaudar un adeudo directo desde el banco del cliente a su cuenta bancaria. [!INCLUDE[d365fin](includes/d365fin_md.md)] admite el formato de adeudo directo SEPA, pero en su país o región, es posible que haya otros formatos para pagos electrónicos.  
+Desde la página **Cobros por adeudo directo** puede exportar instrucciones al banco electrónico para realizar recaudar un adeudo directo desde el banco del cliente a su cuenta bancaria, según el formato de débito directo de SEPA.
+
+> [!NOTE]
+> La versión global de [!INCLUDE[d365fin](includes/d365fin_md.md)] solo admite el formato de débito directo de SEPA. La versión de su país o región puede admitir otros formatos para pago electrónico. Consulte **Funcionalidad local** en el contenido.  
 
 Para habilitar la exportación de formatos de archivos bancarios no compatibles originales en [!INCLUDE[d365fin](includes/d365fin_md.md)], puede configurar una definición de intercambio de datos mediante el marco de intercambio de datos. Para obtener más información, vea [Configurar las definiciones de intercambio de datos](across-how-to-set-up-data-exchange-definitions.md).  
 
@@ -43,12 +46,12 @@ Para poder procesar pagos de clientes electrónicamente exportando instrucciones
 * Establezca la orden de adeudo directo que refleja el acuerdo con el cliente para cobrar sus pagos en un período de acuerdo determinado.  
 
 ### <a name="to-set-up-your-bank-account-for-sepa-direct-debit"></a>Configuración del banco para adeudo directo SEPA  
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Cuentas bancarias** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Bancos** y luego elija el enlace relacionado.  
 2. Abra el banco que desea utilizar para el adeudo directo.  
 3. En la ficha desplegable **Transferencia**, en el campo **Formato exportación de adeudo directo SEPA**, elija la opción para adeudo directo SEPA.  
 
 ### <a name="to-set-up-the-customers-payment-method-for-sepa-direct-debit"></a>Configuración de la forma de pago del cliente para adeudo directo SEPA  
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Métodos pago** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Formas de pago** y luego elija el enlace relacionado.  
 2. Seleccione la acción **Nuevo**.  
 3. Configure una forma de pago. Rellene los campos específicos del adeudo directo tal como se describe en la tabla siguiente.  
 
@@ -61,13 +64,13 @@ Para poder procesar pagos de clientes electrónicamente exportando instrucciones
     >  No especifique ningún valor en el campo **Bal. Nº cuenta**.  
 
 4. Elija el botón **Aceptar** para cerrar la página **Métodos pago**.  
-5. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Clientes** y luego elija el enlace relacionado.  
+5. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Clientes** y luego elija el enlace relacionado.  
 6. Abra la ficha del cliente que desee configurar para los cobros por adeudo directo SEPA.  
 7. Elija el campo **Código método pago** y seleccione el código de la forma de pago que especificó en el paso 3.  
 8. Repita los pasos 6 a 7 para todos los clientes que desea configurar para el cobro por adeudo directo SEPA.  
 
 #### <a name="to-set-up-the-direct-debit-mandate-that-represents-the-customer-agreement"></a>Configuración de la orden de domiciliación de adeudo directo que representa el acuerdo del cliente  
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Clientes** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Clientes** y luego elija el enlace relacionado.  
 2. Abra la ficha del cliente que desee configurar para adeudos directos SEPA.  
 3. Elija la acción **Cuentas bancarias**.  
 4. En la página **Lista bancos cliente**, seleccione el banco de cliente que utilizará domiciliaciones y, a continuación, elija la opción **Órdenes de domiciliación de adeudo directo**.  
@@ -96,7 +99,7 @@ Para poder procesar pagos de clientes electrónicamente exportando instrucciones
 
 ### <a name="to-create-a-direct-debit-collection"></a>Creación de un cobro por domiciliación  
 
- 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Cobros por adeudo directo** y luego elija el enlace relacionado.  
+ 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Cobros por adeudo directo** y luego elija el enlace relacionado.  
  2. En la página **Cobros por adeudo directo**, elija la acción **Crear cobro por adeudo directo**.  
  3. En la página **Crear cobro por adeudo directo**, rellene los campos tal como se describe en la tabla siguiente.  
 
@@ -112,7 +115,7 @@ Para poder procesar pagos de clientes electrónicamente exportando instrucciones
 
  4. Elija el botón **Aceptar**.  
 
-      Se agrega un cobro por domiciliación a la página **Cobros por adeudo directo** y se crean uno o varios movimientos de cobros por domiciliación.  
+Se agrega un cobro por domiciliación a la página **Cobros por adeudo directo** y se crean uno o varios movimientos de cobros por domiciliación.  
 
 ### <a name="to-export-a-direct-debit-collection-entry-to-a-bank-file"></a>Exportación de movimientos de cobro por domiciliación a un archivo de banco  
  1. En la página **Cobros por adeudo directo**, elija la acción **Movimientos de cobros por adeudo directo**.  
@@ -142,7 +145,7 @@ Para poder procesar pagos de clientes electrónicamente exportando instrucciones
  Puede registrar el recibo de pago directamente desde la página **Cobros por adeudo directo** o la página **Movimientos de cobros por adeudo directo**. Como alternativa, puede delegar el trabajo a otro usuario mediante la preparación de las líneas de diario relacionadas.  
 
 ### <a name="to-post-a-direct-debit-payment-receipt-from-the-direct-debit-collections-page"></a>Registro de un recibo de pago de domiciliación desde la página Cobros por adeudo directo  
- 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Cobros por adeudo directo** y luego elija el enlace relacionado.  
+ 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Cobros por adeudo directo** y luego elija el enlace relacionado.  
  2. Seleccione una línea para un cobro por adeudo directo que se ha exportado a un archivo de banco y procesado correctamente por el banco.
  3. Seleccione la acción **Registrar recibos de pago**.  
  4. En la página **Registrar cobro por adeudo directo**, rellene los campos tal como se describe en la tabla siguiente.  

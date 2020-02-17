@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 01/13/2020
+ms.date: 01/17/2020
 ms.author: sgroespe
-ms.openlocfilehash: fe7d9406f07eeadc0a6fb052556735eb7efeb815
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 2565133adfab4fb5f6febeeccb69c4f3d6f59e71
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953184"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2991885"
 ---
 # <a name="posting-purchases"></a>Registrar compras
 En **Grupo contable** en un documento de compra, puede elegir entre las funciones de registro siguientes:
@@ -41,9 +41,13 @@ Antes de comenzar a registrar, podrá imprimir un informe que contenga toda la i
 
 Puede registrar o registrar e imprimir. Si elije registrar e imprimir, un informe se imprime cuando se registre el pedido. También puede elegir la función **Registrar por lotes**, que permite registrar varios pedidos a la vez. Para obtener más información, consulte [Registrar varios documentos al mismo tiempo](ui-batch-posting.md).
 
+## <a name="viewing-ledger-entries"></a>Ver movimientos
 Una vez finalizado el registro, las líneas de compra registradas se quitan del pedido. Al terminar el registro aparece un mensaje de aviso. Después de esto, podrá ver los movimientos registrados en las diferentes páginas que los contienen, como **Movs. proveedores**, **Movs, contabilidad**, **Movs. productos**, **Albaranes compra** e **Histórico facturas compra**.
 
-Puede editar determinados campos en documentos de compra registrados, como el campo **Referencia pago**. Para obtener más información, vea [Editar documentos registrados](across-edit-posted-document.md).
+En la mayoría de los casos, puede abrir movimientos desde la tarjeta o documento afectado. Por ejemplo, en la página **Ficha proveedor**, seleccione la acción **Entradas**.
+
+## <a name="editing-ledger-entries"></a>Editar movimientos
+Puede editar determinados campos en documentos de compra registrados, como el campo **Referencia pago**. Para obtener más información, vea [Editar documentos registrados](across-edit-posted-document.md). Para campos más críticos que afectan el registro de auditoría, debe revertir o deshacer la publicación. Para obtener más información, vea [Revertir los registros de diario y deshacer los recibos/envíos](finance-how-reverse-journal-posting.md). 
 
 ## <a name="see-related-training-at-microsoft-learnlearnmodulesreceive-invoice-dynamics-d365-business-centralindex"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/receive-invoice-dynamics-d365-business-central/index)
 

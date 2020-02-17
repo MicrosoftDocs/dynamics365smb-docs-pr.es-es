@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.date: 10/01/2019
+ms.date: 01/25/2020
 ms.author: SorenGP
-ms.openlocfilehash: 73ed7ac7ef80aa9e85f4d87ee1adbd5ba53ba44f
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 58f4787a5e9bb845fc72b2ce6d9a1872c4245ee4
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308601"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2991909"
 ---
 # <a name="view-the-availability-of-items"></a>Consultar la disponibilidad de los productos
 En el contexto de una tarea de negocio, puede obtener la información avanzada acerca de cuándo y dónde está disponible un producto, por ejemplo, al hablar con un cliente sobre una fecha de entrega.
@@ -42,7 +42,7 @@ En [!INCLUDE[d365fin](includes/d365fin_md.md)], las cifras de disponibilidad nor
 ## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>Para consultar la disponibilidad de un producto según cuándo se recibirá o enviará
 Puede ver la disponibilidad de un producto según las transacciones de producto programadas en la página **Disponibilidad por evento**.
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Productos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos** y luego elija el enlace relacionado.
 2. Abra la ficha de un producto del que quiera ver su disponibilidad.
 3. Elija la acción **Disponibilidad prod. por** y, a continuación, elija la acción **Evento**.
 
@@ -52,7 +52,7 @@ Puede ver la disponibilidad de un producto según las transacciones de producto 
 ## <a name="to-view-the-availability-of-an-item-in-different-periods"></a>Para consultar la disponibilidad de un producto en distintos periodos
 Puede ver la disponibilidad de un producto a lo largo del tiempo para periodos de tiempo específicos en la página **Existencias producto**.
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Productos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos** y luego elija el enlace relacionado.
 2. Abra la ficha de un producto del que quiera ver su disponibilidad.
 3. Elija la acción **Disponibilidad prod. por** y, a continuación, elija la acción **Periodo**.
 
@@ -62,7 +62,7 @@ Puede ver la disponibilidad de un producto a lo largo del tiempo para periodos d
 ## <a name="to-view-the-availability-of-an-item-at-the-locations-where-it-is-stored"></a>Para consultar la disponibilidad de un producto en las ubicaciones donde se almacena
 Puede ver la disponibilidad de un producto en distintos sitios donde se almacena en la página **Disponib. prod. por almacén**.
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Productos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos** y luego elija el enlace relacionado.
 2. Abra la ficha de un producto del que quiera ver su disponibilidad.
 3. Elija la acción **Disponibilidad prod. por** y, a continuación, elija la acción **Almacén**.
 
@@ -73,7 +73,7 @@ Puede ver la disponibilidad de un producto en distintos sitios donde se almacena
 ## <a name="to-view-the-availability-of-all-items-by-the-location-where-they-are-stored"></a>Para consultar la disponibilidad de todos los productos en las ubicaciones donde se almacenan
 Puede ver la disponibilidad de todos sus productos en todas sus ubicaciones en la página **Productos por almacén**.
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Productos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos** y luego elija el enlace relacionado.
 2. Elija la acción **Productos por almacén**.
 
     La página **Productos por almacén** muestra la cantidad de todos sus productos que hay disponible en cada ubicación.
@@ -91,13 +91,16 @@ En cada línea de la página para los productos principales y los productos secu
 |**Puede hacer elemento primario**|Muestra cuántas unidades de cualquier producto semiterminado del producto superior puede producir. El campo especifica cuántas unidades principales inmediatas puede ensamblar. El valor se basa en la disponibilidad del producto de la línea.|
 |**Puede hacer prod. ppal.**|Muestra cuántas unidades del producto superior puede producir. El campo especifica cuántas unidades del producto de la L.M. de la línea superior puede ensamblar. El valor se basa en la disponibilidad del producto de la línea.|
 
-### <a name="item-availability-by-bom-level-page"></a>Página Disponibilidad prod. por nivel L.M.
+### <a name="to-view-the-availability-of-an-item-according-to-demand-for-its-parent"></a>Para ver la disponibilidad de un producto según la demanda para su principal
 La página **Disponibilidad prod. por nivel L.M.** muestra información acerca del producto de la línea de ficha o documento para el que se ha abierto la página. El producto siempre se muestra en la línea superior. Puede ver la información de otros productos o de todos los productos cambiando el valor del campo **Filtro producto**.
 
 > [!NOTE]  
 >   De forma predeterminada, las cifras de disponibilidad de las líneas muestran la disponibilidad total de todos los productos bajo el producto superior. Estas cifras se muestran en el campo **Cdad. disponible**, y el foco está en el producto superior. Sin embargo, la información de cuántos productos semiterminados puede producir puede estar desviada. Para obtener una indicación verdadera de cuántos de los productos semiterminados mostrados puede producir, debe desactivar la casilla **Mostrar disponibilidad total** y después consultar la cifra en el campo **Puede hacer elemento primario**.
 
 El campo **Cuello de botella** especifica qué producto de una estructura de L.M. le impide producir una cantidad mayor que la cantidad que se muestra en el campo **Puede hacer prod. ppal.** Por ejemplo, el artículo de embotellamiento puede ser un componente comprado con una fecha de recepción esperada que es demasiado atrasada para realizar las unidades de artículos adicionales del artículo superior por la fecha del campo **Fecha en que se necesita**.
+
+### <a name="to-view-the-availability-of-an-item-by-its-units-of-measure"></a>Para ver la disponibilidad de un producto por sus unidades de medida
+La página **Disponibilidad de producto por unidad de medida** muestra una disponibilidad de productos desglosada en las diferentes unidades de medida en las que está almacenada.
 
 ## <a name="assembly-availability-page"></a>Página Disponibilidad de ensamblado
 La página **Disponibilidad de ensamblado** muestra la información de disponibilidad detallada para el elemento del ensamblado. Abre:

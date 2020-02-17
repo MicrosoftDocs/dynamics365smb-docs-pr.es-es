@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 02/04/2020
 ms.author: edupont
-ms.openlocfilehash: 05a414d6f12243f55105863b66d9b6e759a29189
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4e09df754895a8d0d3a1cc1ed84a7c8332e32880
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305700"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030249"
 ---
 # <a name="publish-a-web-service"></a>Publicar un servicio web
 
@@ -28,7 +28,7 @@ Los pasos siguientes explican cómo crear y publicar un servicio web.
 
 ### <a name="to-create-and-publish-a-web-service"></a>Para crear y publicar un servicio web  
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Servicios web** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Servicios web** y luego elija el enlace relacionado.  
 2. En la página **Servicios web**, elija **Nuevo**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]  
@@ -52,8 +52,8 @@ Una vez publique un servicio Web, está disponible a partes externas. Puede veri
     > [!div class="mx-tdBreakAll"]
     > |Escriba|Sintaxis|Ejemplo:|
     > |----------------|------|-------|
-    > |SOAP |https://api.businesscentral.dynamics.com/*versión*/*suscriptor*/WS/*NombreEmpresa*/*entidad*/ |`https://api.businesscentral.dynamics.com/v1.0/a10b3ee6-d9a2-42fe-926f-946e23bb8ddd/WS/CRONUS%20USA%2C%20Inc./Page/InvoiceDocument`|
-    > |OData V4|https://api.businesscentral.dynamics.com/*versión*/*suscriptor*/ODataV4/Company('*NombreEmpresa*')/*entidad*|`https://api.businesscentral.dynamics.com/v1.0/a10b3ee6-d9a2-42fe-926f-946e23bb8ddd/ODataV4/Company('CRONUS%20USA%2C%20Inc.')/InvoiceDocument`<br/>    El nombre de la empresa distingue entre mayúsculas y minúsculas.|
+    > |SOAP|https://api.businesscentral.dynamics.com/*versión*/*suscriptor*/Production/WS/*NombreEmpresa*/*entidad*/ |https://api.businesscentral.dynamics.com/v2.0/7acc9d3d-d354-4616-8bbd-c4fc9f2b15b3/Production/WS/CRONUS%20USA%2C%20Inc./Page/InvoiceDocument|
+    > |OData V4|https://api.businesscentral.dynamics.com/*versión*/*suscriptor*/Production/ODataV4/Company('*NombreEmpresa*')/*entidad*|https://api.businesscentral.dynamics.com/v2.0/7acc9d3d-d354-4616-8bbd-c4fc9f2b15b3/Production/ODataV4/Company('CRONUS%20Estados Unidos%2C%20Inc.')/InvoiceDocument<br/>    El nombre de la empresa distingue entre mayúsculas y minúsculas.|
 
 2. Revise la información que se muestra en el explorador. Compruebe que puede ver el nombre del servicio web que ha creado.  
 

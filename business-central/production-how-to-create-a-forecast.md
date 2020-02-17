@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 01/29/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8ae3e142946ff968a1b1357df1a1634734c0392c
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 71d62cdd0e21d0eb2d10f5b33e30be91e92d0928
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2883387"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999933"
 ---
 # <a name="create-a-demand-forecast"></a>Crear una previsión de la demanda
 Es posible crear previsiones de ventas y producción desde la página **Previsión de la demanda**.  
@@ -51,18 +51,18 @@ Puede establecerse en la configuración de fabricación si desea filtrar el pron
 
 ## <a name="to-create-a-demand-forecast"></a>Para crear una previsión de la demanda
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Previsión de la demanda** y luego elija el enlace relacionado.  
-2.  Seleccione una previsión en el campo **Nombre previsión demanda** de la ficha desplegable  **General**. Puede haber varias previsiones, que se distinguen por el nombre y el tipo de previsión.  
-3.  Seleccione el almacén del campo **Filtro almacén** al que se va a aplicar esta previsión.  
-4.  En el campo **Tipo previsión**, seleccione **Producto venta**, **Componente** o **Ambos**. Si selecciona **Producto venta** o **Componente**, puede editar la cantidad según el periodo. Si selecciona **Ambos**, no podrá modificar la cantidad, pero podrá elegir el botón de flecha desplegable y ver los movimientos de previsión de la demanda.  
-5.  Especifique un **Filtro fecha** si desea limitar la cantidad de datos que se muestran.  
-6.  Introduzca las cantidades previstas de **Producto venta** o **Componente** para los distintos periodos en la ficha desplegable **Matriz prev. demanda**.  
-7.  Para modificar el periodo que se muestra en cada columna, ajuste el intervalo de tiempo en el campo **Ver por** de la ficha desplegable **Opciones matriz**. Se pueden seleccionar los siguientes intervalos: **Día**, **Semana**, **Mes**, **Trimestre**, **Año** o el **Periodo contable**, configurado en la Gestión financiera.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Previsión de la demanda** y luego elija el enlace relacionado.  
+2. Seleccione una previsión en el campo **Nombre previsión demanda** de la ficha desplegable  **General**. Puede haber varias previsiones, que se distinguen por el nombre y el tipo de previsión.  
+3. Seleccione el almacén del campo **Filtro almacén** al que se va a aplicar esta previsión.
+4. En el campo **Ver por** para cambiar el periodo que se muestra en cada columna. Se pueden seleccionar los siguientes intervalos: **Día**, **Semana**, **Mes**, **Trimestre**, **Año** o el **Periodo contable** configurado en su área financiera.    
 
-    > [!NOTE]  
-    >  Debería analizar qué intervalo de tiempo desea utilizar para futuras previsiones para que sea el mismo en todas las ocasiones. Si especifica una cantidad de previsión, es válida el primer día del intervalo de tiempo seleccionado. Por ejemplo, si selecciona un mes, debe especificar la cantidad prevista en el primer día del mes. Si selecciona un trimestre, debe especificar la cantidad del primer día del primer mes del trimestre.  
+> [!NOTE]  
+>  Debería analizar qué intervalo de tiempo desea utilizar para futuras previsiones para que sea el mismo en todas las ocasiones. Si especifica una cantidad de previsión, es válida el primer día del intervalo de tiempo seleccionado. Por ejemplo, si selecciona un mes, debe especificar la cantidad prevista en el primer día del mes. Si selecciona un trimestre, debe especificar la cantidad del primer día del primer mes del trimestre.
 
-8.  Seleccione cómo se mostrarán las cantidades de previsión del intervalo de tiempo en el campo **Ver como**. Si se selecciona **Saldo periodo**, se mostrará el balance del saldo del periodo. Si se selecciona **Saldo a la fecha**, la página mostrará el saldo del último día del intervalo de tiempo.  
+5. Seleccione cómo se mostrarán las cantidades de previsión del intervalo de tiempo en el campo **Ver como**. Si se selecciona **Saldo periodo**, se mostrará el balance del saldo del periodo. Si se selecciona **Saldo a la fecha**, la página mostrará el saldo del último día del intervalo de tiempo.  
+6. En el campo **Tipo previsión**, seleccione **Producto venta**, **Componente** o **Ambos**. Si selecciona **Producto venta** o **Componente**, puede editar la cantidad según el periodo. Si selecciona **Ambos**, no podrá modificar la cantidad, pero podrá elegir el botón de flecha desplegable y ver los movimientos de previsión de la demanda.  
+7. Especifique un **Filtro fecha** si desea limitar la cantidad de datos que se muestran.  
+8. En la ficha desplegable **Matriz de previsión de demanda**, introduzca las cantidades pronosticadas escribiendo una cantidad en la celda que represente un producto en una fecha o período en particular. Tenga en cuenta que en las celdas vacías, el botón de búsqueda abre una página vacía que indica que debe introducir un valor manualmente.   
 
 > [!NOTE]  
 >  También se puede editar una previsión existente. Haga clic en la página **Matriz de previsión de la demanda**, seleccione la acción **Copiar previsión de la demanda** y rellene la página **Previsión de la demanda** con una previsión existente. Es posible realizar modificaciones a las cantidades según sea pertinente.  

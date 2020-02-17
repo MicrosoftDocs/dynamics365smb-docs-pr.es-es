@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: abca7de7ce91ebe32e8c17a2288c49684b53455c
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: b8470fa559d8a640e1c05cc6e03ca4caf3a9827e
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879207"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999788"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Uso de colas de proyectos para programar tareas
 Las colas de proyectos de [!INCLUDE[d365fin](includes/d365fin_md.md)] permiten a los usuarios programar y ejecutar informes y codeunits específicos. Puede configurar proyectos para que se ejecuten una vez o de manera periódica. Por ejemplo, puede ejecutar el informe de **Vendedor - Estadísticas ventas** de manera semanal, para realizar el seguimiento de ventas por vendedor cada semana, o bien ejecutar la codeunit **Procesar cola de correo electrónico del servicio** diariamente, para asegurarse de que se envían de manera oportuna los mensajes de correo electrónico a los clientes relacionados con sus pedidos de venta.
@@ -31,6 +31,11 @@ Para hacerlo, configure la cola de proyectos para que ejecute varios informes de
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] admite el registro en segundo plano para todos los documentos de ventas, compras y servicios.
 
+> [!NOTE]
+> Algunos proyectos cambian los mismos datos y no deberían ejecutarse al mismo tiempo porque pueden causar conflictos. Por ejemplo, los proyectos en segundo plano para documentos de ventas intentarán modificar los mismos datos al mismo tiempo. Las categorías de la cola de proyectos ayudan a prevenir este tipo de conflictos al garantizar que cuando se ejecuta un proyecto, otro proyecto que pertenece a la misma categoría de cola de proyectos no se ejecutará hasta que finalice. Por ejemplo, un proyecto que pertenece a una categoría de cola de proyectos de ventas esperará hasta que se realicen todos los demás proyectos relacionados con las ventas. Usted especifica una categoría de cola de proyectos en la ficha desplegable de **Registro de fondo** en la página **Configuración de ventas y cobros**. 
+> 
+> [!INCLUDE[d365fin](includes/d365fin_md.md)] proporciona categorías de cola de proyectos para ventas, compras y contabilidad. Recomendamos que siempre se especifique uno de estos, o uno que cree usted. Si experimenta fallos debido a conflictos, considere configurar una categoría para todas las ventas, compras y publicaciones de contabilidad.
+
 El siguiente procedimiento explica cómo configurar el registro en segundo plano de los pedidos de ventas. Los pasos son parecidos para la compra y el servicio.  
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de ventas y cobros** y luego elija el enlace relacionado.
@@ -41,7 +46,7 @@ El siguiente procedimiento explica cómo configurar el registro en segundo plano
 4. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Movs. cola proyecto** y luego elija el enlace relacionado.
 5. En la página **Movs. cola proyecto**, seleccione la acción **Nuevo**.
 6. En el campo **Tipo objeto para ejecutar**, seleccione **Codeunit**.  
-7. En el campo **Id. objeto para ejecutar**, seleccione 88, **Registro ventas a través de cola de proyectos**.
+7. En el campo **ID de objeto para ejecutar**, seleccione **88**. Los campos Descripción y Leyenda de objeto a ejecutar mostrarán Registro de ventas a través de la cola de proyectos.
 
     Ningún otro campo es relevante para este ejemplo.
 8. Elija la acción **Establecer estado en Preparado**.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 01/27/2020
 ms.author: sgroespe
-ms.openlocfilehash: 722f81e9e06cdab13bdd838837e2053de0215821
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6a57af4a29e2b355dfe3f261a5d83fade992551d
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311385"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2992094"
 ---
 # <a name="entering-data"></a>Introducción de datos
 
@@ -55,7 +55,7 @@ A continuación se ofrece información útil sobre el uso de la entrada rápida.
 
 Para cambiar los campos que se incluyen o se excluyen de la entrada rápida de una página, se utiliza la personalización.
 
-1. Comience la personalización seleccionando el icono ![Configuración](media/ui-experience/settings_icon_small.png "Icono Configuración para el área de trabajo") y, a continuación, la acción **Personalizar**.
+1. Comience la personalización seleccionando el icono ![Configuración](media/ui-experience/settings_icon_small.png "Icono de configuración para el área de trabajo") y luego la acción **Personalizar**.
 2. Seleccione un campo que desee modificar o, en las listas, seleccione la cabecera de columna correspondiente y, a continuación, seleccione **Incluir en entrada rápida** o **Excluir de entrada rápida**.
 
 Para obtener más información sobre la personalización, consulte [Personalizar el área de trabajo](ui-personalization-user.md).
@@ -100,18 +100,19 @@ Esto es muy beneficioso cuando se trabaja con grandes listas de productos de lí
 
 Para el enfoque en los productos de línea, seleccione cualquier lugar de la parte de producto de línea y, a continuación, seleccione ![icono Modo de enfoque](media/focus-mode.png "Icono Modo de enfoque") en la esquina superior derecha o pulse Ctrl+Mayús+F12.
 
-Para volver a la vista normal, seleccione ![Icono Modo de enfoque](media/focus-mode.png "Icono Modo de enfoque") o pulse Ctrl+Mayús+F12 de nuevo.
+Para volver a la vista normal, seleccione ![icono Modo de enfoque](media/focus-mode.png "Icono Modo de enfoque") o pulse Ctrl+Mayús+F12 de nuevo.
 
 ## <a name="multitasking-across-multiple-pages"></a>Multitarea en varias páginas
 Cuando trabaje en múltiples tareas a la vez o cuando administre interrupciones en la tarea actual, como atender una llamada entrante, puede abrir una página de ficha o documento en una nueva ventana. Esto le permite mantener una ventana abierta para una tarea en curso mientras inicia o completa otra tarea en una o más ventanas.
 
-Para abrir la ficha o documento actual en una nueva ventana, elija ![Abrir nueva ventana](media/open-new-window-icon.png "Icono Abrir nueva ventana") en la esquina superior derecha o pulse Alt+Mayús+W.
+Para abrir la ficha o documento actual en una nueva ventana, elija ![Abrir nueva ventana](media/open-new-window-icon.png "Icono Abrir en una nueva ventana") en la esquina superior derecha o pulse Alt+Mayús+W.
 
 > [!NOTE]
-> Cuando abre otras páginas desde una ficha o documento que está abierto en una nueva ventana, esas páginas se abrirán en una nueva ventana aunque no elija ![Abrir nueva ventana](media/open-new-window-icon.png "Icono Abrir nueva ventana").
+> Cuando abre otras páginas desde una ficha o documento que está abierto en una nueva ventana, esas páginas se abrirán en una nueva ventana aunque no elija ![Abrir nueva ventana](media/open-new-window-icon.png "Icono Abrir en una nueva ventana").
 
 > [!NOTE]
-> Si trabaja en el explorador Safari, un bloqueador de ventanas emergentes puede provocar que no se abra la nueva ventana. Si este es el caso, especifique la URL del producto como un sitio web permitido. Para obtener información, consulte [Cambiar las preferencias en Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).  
+> Si trabaja en el explorador Safari, un bloqueador de ventanas emergentes puede provocar que no se abra la nueva ventana. Si este es el caso, especifique la URL del producto como un sitio web permitido. Para obtener información, consulte [Cambiar las preferencias en Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
+> Lo mismo puede suceder en otros navegadores, como Firefox. Para obtener más información, vea [Configuración del bloqueador de elementos emergentes en Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400).  
 
 ## <a name="entering-quantities-by-calculation"></a>Introducir cantidades por cálculo
 

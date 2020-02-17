@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 01/29/2020
 ms.author: bholtorf
-ms.openlocfilehash: d187398fe615574785a17b4a7eb122b7a18c557e
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: b38f5f97c7b5be46f1d6cd4d1bc898e72060417e
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879685"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999624"
 ---
 # <a name="settle-purchase-invoices-promptly"></a>Liquidar facturas de compra inmediatamente
 Si necesita pagar al proveedor en efectivo o con cheque, puede registrar el pago cuando registra la factura.  
@@ -26,7 +26,7 @@ Si necesita pagar al proveedor en efectivo o con cheque, puede registrar el pago
 3.  Para pagar en efectivo o mediante transferencia bancaria, introduzca el número de cuenta de caja o de banco en el campo **Cuenta contrapartida**.  
 
 > [!IMPORTANT]  
->  Los campos **Tipo contrapartida** y **Cuenta contrapartida** no forman parte del formato estándar de la cabecera de factura. Para registrar el pago de una factura, primero deberá insertarlos con las utilidades de diseño.  
+>  Los campos **Tipo contrapartida** y **Cuenta contrapartida** no forman parte del formato estándar de la cabecera de factura. Para registrar el pago de una factura, primero deberá insertarlos con las utilidades de diseño. Para obtener más información, consulte [Personalizar el área de trabajo](ui-personalization-user.md). 
 
 > [!NOTE]  
 >  Si paga a menudo facturas de compra en efectivo, se recomienda que configure una forma de pago específica con una cuenta de contrapartida e introduzca la forma en el campo **Forma de pago** de la ficha de proveedor. Se inserta automáticamente el número de cuenta de contrapartida en la cabecera de la factura cada vez que se crea una factura nueva.  

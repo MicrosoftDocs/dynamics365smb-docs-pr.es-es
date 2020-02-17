@@ -9,17 +9,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 10/01/2019
+ms.date: 01/16/2020
 ms.author: edupont
-ms.openlocfilehash: c5798baec1130c3fc662a8751aee87bb8b438146
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b05959eea09289db7878145347362786ab336de8
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311289"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2992150"
 ---
 # <a name="the-dynamics-gp-data-migration-extension"></a>Extensión de la migración de datos de Dynamics GP 
 Esta extensión facilita migrar clientes, proveedores, productos de inventario, cuentas de contabilidad y transacciones de pagos y cobros pendientes desde Dynamics GP a [!INCLUDE[prodshort](includes/prodshort.md)]. Si la empresa usa Dynamics GP actualmente, puede exportar los registros correspondientes y después abrir una guía de instalación asistida para agregar los datos a [!INCLUDE[prodshort](includes/prodshort.md)]. La extensión de migración funciona para todas las versiones compatibles de Microsoft Dynamics GP. Para obtener más información, vea [Importar datos empresariales desde otros sistemas financieros](across-import-data-configuration-packages.md).
+
+> [!NOTE]
+>  Esta extensión se dejará de usar en la actualización 15.3. Recomendamos que los usuarios que quieran migrar desde Dynamics GP comiencen a utilizar el asistente **Migración en la nube** en su lugar. La extensión **Migración en la nube** tiene una funcionalidad más robusta y proporciona más datos a Business Central desde Dynamics GP.
 
 ## <a name="exporting-data-from-dynamics-gp"></a>Exportar datos desde Dynamics GP
 Deberá haber exportado todos los clientes, proveedores, productos de inventario y cuentas de contabilidad existentes, o parte de ellos, mediante la funcionalidad de exportación de datos de Dynamics GP. Al seleccionar los datos para exportar se pueden seleccionar los siguientes tipos:

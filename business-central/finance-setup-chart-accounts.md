@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: COA, cha of acc
-ms.date: 10/01/2019
+ms.date: 01/27/2020
 ms.author: edupont
-ms.openlocfilehash: 901650c2ed61867cdcccd093d54b10fe24ce30a9
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: 780b42f779fa436716144e4bc598255d913427ed
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2911076"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999812"
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>Configurar o cambiar el plan de cuentas
 El plan de cuentas muestra las cuentas de contabilidad que almacenan sus datos financieros. [!INCLUDE[d365fin](includes/d365fin_md.md)] incluye un gráfico estándar de cuentas que está preparado para respaldar su negocio.
-Sin embargo, puede cambiar las cuentas predeterminadas y puede agregar nuevas cuentas. 
+Sin embargo, puede cambiar las cuentas predeterminadas y puede agregar nuevas cuentas.
 <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9]
@@ -36,6 +36,8 @@ Desde el plan de cuentas, puede abrir cada cuenta de contabilidad y agregar o ca
 >   * Si se selecciona el campo **Chequear uso ctas. cont.** en la página **Configuración de contabilidad**, la cuenta no se debe usar en grupos contables ni en la configuración de grupos contables.  
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] impedirá que elimine una cuenta de contabilidad que guarde los datos que se necesitan en el plan de cuentas.  
+
+## <a name="see-related-training-at-microsoft-learnlearnmoduleschart-accounts-dynamics-365-business-centralindex"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/chart-accounts-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Consulte también
 [Libro mayor y plan de cuentas](finance-general-ledger.md)  
