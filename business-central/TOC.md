@@ -47,7 +47,7 @@
 ### [Personalizar el área de trabajo](ui-personalization-user.md)
 ### [Por qué la página está bloqueada para la personalización](ui-personalization-locked.md)
 ### [Guardar y personalizar vistas de lista](ui-views.md)
-### [Agregar una acción de página al área de trabajo](ui-bookmarks.md)
+### [Marque una página o informe en su Área de trabajo](ui-bookmarks.md)
 ### [Mostrar listas en diferentes vistas](across-display-lists-different-views.md)
 ## Imprimir informes y ejecutar trabajos por lotes y XMLports
 ### [Trabajar con informes, trabajos por lotes y XMLports](ui-work-report.md)
@@ -64,6 +64,7 @@
 ### [Actualizar los diseños de informe personalizados](ui-update-report-layouts.md)
 ### [Definir diseños de documentos para clientes y proveedores](ui-define-customer-vendor-document-layouts.md)
 ### [Agregar campos a un diseño de informe de Word](ui-how-add-fields-word-report-layout.md)
+### [Fuentes Disponibles](ui-fonts.md)
 ## Usar métodos abreviados de teclado
 ### [Accesibilidad y métodos abreviados de teclado](ui-accessibility.md)
 ### [Métodos abreviados de teclado](keyboard-shortcuts.md)
@@ -295,10 +296,9 @@
 #### [Panorama](across-set-up-data-exchange.md)
 #### [Configurar un servicio de intercambio de documentos](across-how-to-set-up-a-document-exchange-service.md)
 #### [Configurar documentos entrantes](across-how-setup-income-documents.md)
-#### [Actualizar tipos cambio divisa](finance-how-update-currencies.md)
+#### [Actualizar tipos de cambio de divisa](finance-how-update-currencies.md)
 #### [Configurar el envío y la recepción de documentos electrónicos](across-how-to-set-up-electronic-document-sending-and-receiving.md)
-#### [Configurar la transferencia de crédito de SEPA](finance-how-to-set-up-sepa-credit-transfer.md)
-#### [Configuración de domiciliaciones de adeudo directo SEPA](finance-how-to-set-up-sepa-direct-debit.md)
+#### [Cobrar pagos mediante adeudo directo SEPA](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Uso de la extensión AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)
 #### [Configurar el servicio de declaración bancaria](bank-how-setup-bank-statement-service.md)
 #### [Configurar bancos](bank-how-setup-bank-accounts.md)
@@ -310,8 +310,8 @@
 #### [Utilizar el servicio OCR para convertir archivos PDF y de imagen en documentos electrónicos](across-how-use-ocr-pdf-images-files.md)
 #### [Recibir y convertir documentos electrónicos](purchasing-how-to-receive-and-convert-electronic-documents.md)
 #### [Configurar el servicio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)
-#### [Exportar pagos a un archivo bancario](payables-how-export-payments-bank-file.md)
-#### [Realizar pagos con Servicio de conversión de datos del banco o Transferencia de crédito SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
+#### [Exportar pagos a un archivo bancario](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
+#### [Realizar pagos con la extensión AMC Banking 365 Fundamentals o transferencia de crédito SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
 #### [Cobro de pagos mediante adeudo directo SEPA](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Actualizar tipos cambio divisa](finance-how-update-currencies.md)
 #### [Asignación de campos al importar archivos CAMT de SEPA](across-field-mapping-when-importing-sepa-camt-files.md)
@@ -403,7 +403,7 @@
 #### [Registre pagos y reembolsos](payables-how-post-payments-refunds.md)
 #### [Proponer pagos a proveedores](payables-how-suggest-vendor-payments.md)
 #### [Realizar pagos por cheque](payables-how-work-checks.md)
-#### [Realizar pagos con Servicio de conversión de datos del banco o Transferencia de crédito SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
+#### [Realizar pagos con la extensión AMC Banking 365 Fundamentals o transferencia de crédito SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
 #### [Liquidar facturas de compra inmediatamente](finance-how-to-settle-purchase-invoices-promptly.md)
 #### [Exportar un archivo de Positive Pay](finance-how-positive-pay.md)
 ### Liquidación de pagos automáticamente y conciliación de cuentas bancarias
@@ -918,7 +918,6 @@
 #### [Configurar el impuesto al uso y el impuesto a la compra](LocalFunctionality/Canada/how-to-set-up-use-tax-and-purchase-tax.md)
 ### Banca y pagos
 #### [Crear depósitos](LocalFunctionality/Canada/how-to-create-deposits.md)
-#### [Administrar la información de crédito de los clientes](LocalFunctionality/Canada/how-to-manage-customer-credit-information.md)
 #### [Realizar pagos electrónicos](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
 ### General
 #### [Imprimir informes de solución de problemas](LocalFunctionality/Canada/how-to-print-troubleshooting-reports.md)
@@ -1064,7 +1063,6 @@
 ## Islandia
 ### [Panorama](LocalFunctionality/Iceland/iceland-local-functionality.md)
 ### IVA
-#### [Normas fiscales islandesas para descuentos condicionales](LocalFunctionality/Iceland/icelandic-tax-regulations-of-conditional-discounts.md)
 #### [Imprimir información de resumen de IVA en documentos](LocalFunctionality/Iceland/how-to-print-vat-summary-information-on-documents.md)  
 #### [Salida de datos especiales e informes para la autoridad fiscal](LocalFunctionality/Iceland/special-data-output-and-reports-for-the-tax-authority.md)
 ### Facturación electrónica
@@ -1459,7 +1457,6 @@
 #### [Conciliar cuentas bancarias](LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md)
 #### [Realizar pagos electrónicos](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
 ### General
-#### [Cómo administrar la información de crédito de los clientes](LocalFunctionality/UnitedStates/how-to-manage-customer-credit-information.md)  
 #### [Imprimir informes de solución de problemas](LocalFunctionality/UnitedStates/how-to-print-troubleshooting-reports.md)
 ## [Enviar alertas reglamentarias](submit-regulatory-alerts.md)
 # Conformidad

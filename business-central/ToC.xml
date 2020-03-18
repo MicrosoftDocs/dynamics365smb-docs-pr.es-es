@@ -44,7 +44,7 @@
     </Node>
     <Node Name="" DisplayName="Configurar banca" Page="bank-setup-banking.html">
       <Node Name="" DisplayName="Procedimiento para configurar las cuentas de bancos" Page="bank-how-setup-bank-accounts.html"/>
-      <Node Name="" DisplayName="Procedimiento: Configuración del servicio de conversión de datos bancarios" Page="bank-how-setup-bank-data-conversion-service.html"/>
+      <Node Name="" DisplayName="Configurar la extensión AMC Banking 365 Fundamentals" Page="bank-how-setup-bank-data-conversion-service.html"/>
     </Node>
     <Node Name="" DisplayName="Configuración de ventas" Page="sales-setup-sales.html">
       <Node Name="" DisplayName="Registro de clientes nuevos" Page="sales-how-register-new-customers.html"/>
