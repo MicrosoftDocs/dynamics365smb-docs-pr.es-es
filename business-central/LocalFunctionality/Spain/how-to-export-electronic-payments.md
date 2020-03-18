@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 67c17552985c48a0b30405aa4b8df86dc0d7b524
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0f9ef238cd848672b5f41cba0919cb4301bcf755
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301098"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076508"
 ---
 # <a name="export-electronic-payments"></a>Exportar pagos electrónicos
 En [!INCLUDE[d365fin](../../includes/d365fin_md.md)], puede exportar movimientos del diario de pagos a un formato de archivo de acuerdo con cuatro estándares de pago diferentes. Utilice las siguientes páginas para exportar según los distintos estándares de pago.  
@@ -32,7 +32,7 @@ En [!INCLUDE[d365fin](../../includes/d365fin_md.md)], puede exportar movimientos
 
 ## <a name="to-export-electronic-payments-using-the-payment-orders-page"></a>Para exportar pagos electrónicos mediante la página Órdenes de pago  
 
-1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Órdenes pago** y, a continuación, seleccione el vínculo relacionado.  
+1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Órdenes de pagos** y, a continuación, seleccione el vínculo relacionado.  
 2.  Seleccione los documentos que desea pagar.  
 3.  Seleccione la acción **Exportar a archivo**.  
 
@@ -62,7 +62,7 @@ En [!INCLUDE[d365fin](../../includes/d365fin_md.md)], puede exportar movimientos
 
 ## <a name="to-export-electronic-payments-using-the-payment-journal-page"></a>Para exportar pagos electrónicos mediante la página Diario de pagos  
 
-1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diarios de pagos** y, a continuación, seleccione el vínculo relacionado.  
+1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Diarios de pagos** y, a continuación, seleccione el vínculo relacionado.  
 2.  Seleccione los documentos que desea pagar.  
 3.  En la pestaña **Navegar**, elija **Pagos electrónicos** y después seleccione **Exportar**.  
 
@@ -91,11 +91,11 @@ En [!INCLUDE[d365fin](../../includes/d365fin_md.md)], puede exportar movimientos
     >  Solo puede registrar la orden de pago una vez que haya exportado correctamente los pagos electrónicos.  
 
     > [!NOTE]  
-    >  En la versión genérica de [!INCLUDE[d365fin](../../includes/d365fin_md.md)], la página **Diario de pagos** se utiliza de forma similar para exportar pagos electrónicos en el formato de transferencia de crédito SEPA. Para obtener más información, consulte [Realizar pagos con Servicio de conversión de datos del banco o Transferencia de crédito SEPA](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
+    >  En la versión genérica de [!INCLUDE[d365fin](../../includes/d365fin_md.md)], la página **Diario de pagos** se utiliza de forma similar para exportar pagos electrónicos en el formato de transferencia de crédito SEPA. Para obtener más información, consulte [Hacer pagos con la extensión AMC Banking 365 Fundamentals o Transferencia de crédito SEPA](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
 
 ## <a name="to-export-electronic-payments-from-the-cartera-module"></a>Para exportar los pagos electrónicos del módulo Cartera  
 
-1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Orden pago - Exportar N34.1** y, a continuación, seleccione el vínculo relacionado.  
+1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Orden pago - Exportar N34.1** y, a continuación, seleccione el vínculo relacionado.  
 2.  Rellene los campos tal como se describe en la tabla siguiente.  
 
     |Campo|Description|  
@@ -113,4 +113,4 @@ En [!INCLUDE[d365fin](../../includes/d365fin_md.md)], puede exportar movimientos
 ## <a name="see-also"></a>Consulte también  
 [Pagos electrónicos – AEB N34.1](electronic-payments-aeb-n341.md)  
 [Configurar cuentas bancarias para realizar pagos electrónicos](how-to-set-up-bank-accounts-for-electronic-payments.md)  
-[Realizar pagos con Servicio de conversión de datos del banco o Transferencia de crédito SEPA](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
+[Realizar pagos con la extensión AMC Banking 365 Fundamentals o transferencia de crédito SEPA](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  

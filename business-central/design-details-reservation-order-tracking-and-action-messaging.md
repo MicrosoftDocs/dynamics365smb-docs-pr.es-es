@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, replenishment, reordering
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a3b7c5c52590644a8f61c0d97312d7dd1342fc97
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: f179075a63ee42ba2cb61c3647b116536afd5a65
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878442"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076954"
 ---
 # <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Detalles de diseño: Reserva, seguimiento de pedidos y mensajes de acciones
 El sistema de reservas es completo e incluye las características correlacionadas y paralelas de seguimiento de pedidos y mensajes de acción.  
@@ -80,7 +80,7 @@ El sistema de reservas es completo e incluye las características correlacionada
 
 -   Un pedido de producción de varios niveles cuyo campo **Directiva fabricación** del principal involucrado y los productos secundarios se establece en **Fab-contra-pedido**. El sistema de planificación crea reservas entre la orden de producción principal y las órdenes de producción subyacentes para garantizar que se procesan juntas. Dicho enlace de reserva reemplaza la valoración de existencias y el método de liquidación predeterminados del producto.  
 
--   Una orden de producción, de ensamblado o de compra cuyo campo **Directiva reaprov.** del producto implicado está establecido en **Pedido**. El sistema de planificación crea reservas entre la demanda y el suministro planeado para garantizar que se crea el suministro específico. Para obtener más información, consulte [Detalles de diseño: Orden](design-details-order.md).  
+-   Una orden de producción, de ensamblado o de compra cuyo campo **Directiva reaprov.** del producto implicado está establecido en **Pedido**. El sistema de planificación crea reservas entre la demanda y el suministro planeado para garantizar que se crea el suministro específico. Para obtener más información, consulte [Pedido](design-details-handling-reordering-policies.md#order).  
 
 -   Una orden de producción creada de un pedido de venta con la función de **Planificación pedido venta** va vinculada al pedido de venta a una reserva automática.  
 

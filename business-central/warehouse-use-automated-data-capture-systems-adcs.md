@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: barcode
 ms.date: 11/20/2019
 ms.author: sgroespe
-ms.openlocfilehash: 209bbe3539fb99c626376149c22c419b4b476608
-ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
+ms.openlocfilehash: 64391913910dfc963d430efa3d00a75491a6c41f
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832340"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097797"
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>Utilice el sistema de captura de datos automatizado (ADCS)
 
 > [!NOTE]
-> En la versión estándar de [!INCLUDE[d365fin](includes/d365fin_md.md)], ADCS solo funciona en implementaciones locales. Sin embargo, un socio de Microsoft puede hacer que funcione en implementaciones en línea mediante Power Apps o similares.
+> La solución del Sistema Automatizado de Captura de Datos (ADCS) proporciona una forma para que [!INCLUDE[d365fin](includes/d365fin_md.md)] pueda comunicarse con dispositivos de mano a través de servicios web. Debe trabajar con un socio de Microsoft que pueda proporcionar el enlace entre el servicio web y el dispositivo portátil específico. 
 
 Puede utilizar su sistema de captura automática de datos (ADCS) para registrar el movimiento de productos en el almacén y para registrar algunas actividades del diario, como los ajustes de cantidad en el diario de productos de almacén y los inventarios físicos. ADCS generalmente implica el escaneo un código de barras.
 
@@ -32,7 +32,23 @@ Basándose en las necesidades de su almacén, se define la cantidad de informaci
 - Información de texto.  
 - Los mensajes para mostrar las confirmaciones o los errores sobre las actividades preformadas y registradas por el usuario del dispositivo portátil.
 
-Para obtener más información, consulte [Configuración de un sistema de captura de datos automatizado](/dynamics-nav/Configuring-Automated-Data-Capture-System) en la ayuda para desarrolladores e informáticos.
+## <a name="to-enable-web-services-for-adcs"></a>Para habilitar los servicios web para ADCS
+Para usar el Sistema Automatizado de Captura de Datos, debe habilitar el servicio web ADCS.  
+
+## <a name="to-enable-and-publish-the-adcs-web-service"></a>Para habilitar y publicar el servicio web ADCS  
+
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Servicios web** y luego elija el enlace relacionado.
+2. Seleccione la acción **Nuevo**.  
+3. En la página **Servicios web**, introduzca la siguiente información en una nueva línea:  
+
+    |Campo|Valor|  
+    |---------------------------------|-----------|  
+    |**Tipo de objeto**|Codeunit|  
+    |**Id. de objeto**|7714|  
+    |**Nombre del servicio**|ADCS **Importante:** se requiere que ponga nombre al servicio **ADCS**.|  
+
+5. Seleccione la casilla de verificación **Publicado**.  
+6. Elija el botón **Aceptar**.  
 
 ## <a name="to-set-up-a-warehouse-to-use-adcs"></a>Para configurar un almacén para utilizar ADCS (sistema de captura de datos automatizado)  
 Para utilizar un ADCS, debe especificar qué ubicaciones de almacén utilizan la tecnología.  
@@ -79,7 +95,8 @@ Puede agregar a cualquier usuario al sistema de captura de datos automatizados (
 ## <a name="to-create-and-customize-miniforms"></a>Para crear y personalizar miniformularios
 Utilice los miniformularios que describen la información que desea fabricar en un dispositivo portátil. Por ejemplo, puede crear los miniformularios para utilizar la actividad de almacén de los artículos de picking. Una vez cree un miniformulario, puede agregar las funciones para las acciones comunes que un usuario tiene con dispositivos portátiles, como desplazarse arriba y abajo en una línea.  
 
-Para ejecutar o cambiar las funcionalidad de una función del miniformulario, debe crear una nueva codeunit o modificar una existente para realizar la acción o respuesta requeridas. Puede obtener más información acerca de la funcionalidad de un ADCS examinando las codeunits como 7705, que es la codeunit de control de la funcionalidad de inicio. La codeunit 7705 muestra cómo funciona un miniformulario tipo tarjeta.  
+> [!NOTE] 
+> Para ejecutar o cambiar las funcionalidad de una función del miniformulario, debe crear una nueva codeunit para el campo **Gestionar Codeunit** para realizar la acción o respuesta necesaria. Puede obtener más información sobre la funcionalidad ADCS examinando unidades de código como 7705, 7706, 7712 y 7713.  
 
 ### <a name="to-create-a-miniform-for-adcs"></a>Para crear un miniformulario para un ADCS  
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Miniformularios** y luego elija el enlace relacionado.  
@@ -92,29 +109,15 @@ Para ejecutar o cambiar las funcionalidad de una función del miniformulario, de
 
 Cuando haya creado un miniformulario, los pasos siguientes son crear las funciones y asociarlas la diversas entradas de teclado.  
 
-### <a name="to-add-support-for-a-function-key"></a>Para agregar ayuda para una clave de función  
-1.  Agregue el código similar al ejemplo siguiente al archivo the.xsl del complemento. Esto crea una función para la clave de **F6**. La información de la secuencia clave se puede obtener del fabricante del dispositivo.  
-    ```xml  
-    <xsl:template match="Function[.='F6']">  
-      <Function Key1="27" Key2="91" Key3="49" Key4="55" Key5="126" Key6="0"><xsl:value-of select="."/></Function>  
-    </xsl:template>  
-    ```  
-2.  En entorno de desarrollo de [!INCLUDE[d365fin](includes/d365fin_md.md)], abra la tabla 7702 y agregue un código que represente la nueva clave. En este ejemplo, cree una clave llamada **F6**.  
-3.  Agregue el código C/AL a la función correspondiente de la codeunit específica del miniformulario para gestionar la clave de ejecución.  
-
 ### <a name="to-customize-miniform-functions"></a>Para personalizar las funciones del miniformulario  
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Miniformularios** y luego elija el enlace relacionado.  
 2.  Seleccione un miniformulario de la lista y, a continuación, seleccione la acción **Editar**.  
 3.  Seleccione la acción **Funciones**.  
 4.  En la lista desplegable de **Cód. función**, seleccione un código que represente la función que desea asociar con el miniformulario. Por ejemplo, puede seleccionar ESC, que asocia la funcionalidad con la pulsación de la tecla ESC.  
 
-En el entorno de desarrollo de [!INCLUDE[d365fin](includes/d365fin_md.md)], modifique el código del campo **Manejar Codeunit** para crear o modificar código para que realice la acción o respuesta requeridas.
-
-Para obtener más información, consulte [Configuración de un sistema de captura de datos automatizado](/dynamics-nav/Configuring-Automated-Data-Capture-System) en la ayuda para desarrolladores e informáticos.
-
 ## <a name="see-also"></a>Consulte también  
 [Gestión de almacenes](warehouse-manage-warehouse.md)  
-[Grupos contables inventario](inventory-manage-inventory.md)  
+[Inventario](inventory-manage-inventory.md)  
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  

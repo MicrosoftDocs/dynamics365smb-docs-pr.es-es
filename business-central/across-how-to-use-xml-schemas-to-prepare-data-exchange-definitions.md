@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0d028206d1e17c7a1093cf2b93da02894909deb5
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 65392cc5f47353b9266d5198b739835fd329c204
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554451"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076688"
 ---
 # <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Uso de esquemas XML para preparar definiciones de intercambio de datos
 Para habilitar la importación y exportación de datos en archivos XML mediante el marco de intercambio de datos en [!INCLUDE[d365fin](includes/d365fin_md.md)], puede usar esquemas XML de los archivos para definir los elementos de datos que desea intercambiar con [!INCLUDE[d365fin](includes/d365fin_md.md)]. Este trabajo se realiza en la página **Visor de esquema XML** mediante la carga del archivo de esquema XML, la selección de los elementos de datos pertinentes y la inicialización de una definición de intercambio de datos o un objeto XMLport.  
@@ -40,7 +40,7 @@ Para habilitar la importación y exportación de datos en archivos XML mediante 
 
 1.  Asegúrese de que esté disponible el archivo de esquema XML. La extensión de archivo es .xsd.  
 
-2.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Esquemas XML** y luego elija el enlace relacionado.  
+2.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Esquemas XML** y luego elija el enlace relacionado.  
 
 3.  Seleccione la acción **Nuevo**.  
 
@@ -62,7 +62,7 @@ Para habilitar la importación y exportación de datos en archivos XML mediante 
 
 ### <a name="to-select-or-clear-nodes-in-an-xml-schema"></a>Para seleccionar o borrar nodos en un esquema XML  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Visor esquemas XML** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Visor de esquemas XML** y luego elija el enlace relacionado.  
 
 2.  Rellene los campos en la cabecera tal como se describe en la tabla siguiente.  
 
@@ -100,7 +100,7 @@ Para habilitar la importación y exportación de datos en archivos XML mediante 
 
 ### <a name="to-generate-a-data-exchange-definition-that-is-based-on-an-xml-schema"></a>Para generar una definición de intercambio de datos basada en un esquema XML  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Esquemas XML** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Esquemas XML** y luego elija el enlace relacionado.  
 
 2.  Seleccione el esquema XML relevante y luego elija la acción **Abrir Visor de esquema XML**.  
 
@@ -115,7 +115,7 @@ Para habilitar la importación y exportación de datos en archivos XML mediante 
 
 ### <a name="to-generate-an-xmlport-that-is-based-on-an-xml-schema"></a>Para generar un objeto XMLport basado en un esquema XML  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Esquemas XML** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Esquemas XML** y luego elija el enlace relacionado.  
 
 2.  Seleccione el esquema XML relevante y luego elija la acción **Abrir Visor de esquema XML**.  
 
@@ -129,6 +129,6 @@ Para habilitar la importación y exportación de datos en archivos XML mediante 
 
 ## <a name="see-also"></a>Consulte también  
 [Configurar definiciones de intercambio de datos](across-how-to-set-up-data-exchange-definitions.md)   
-[Exportar pagos a un archivo bancario](payables-how-export-payments-bank-file.md)   
+[Exportar pagos a un archivo bancario](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)   
 [Cobrar pagos mediante adeudo directo SEPA](finance-collect-payments-with-sepa-direct-debit.md)   
 [Acerca del marco de intercambio de datos](across-about-the-data-exchange-framework.md)

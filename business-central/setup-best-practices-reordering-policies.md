@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 97d299372bc140c29138d6b83c34ec18254c4fcd
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: e128e5a4f08364ccea9ae0aa4e284943688404c4
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882235"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076443"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Procedimientos recomendados de configuración: políticas de reaprovisionamiento
 El campo **Directiva reaprov.** en las fichas de producto ofrece cuatro métodos de planificación distintos que determinan la forma en que interactúan los parámetros individuales de planificación.  
@@ -43,10 +43,6 @@ La tabla siguiente proporciona los procedimientos recomendados para seleccionar 
 
 ## <a name="see-also"></a>Consulte también  
  [Procedimientos recomendados de configuración: planificación de suministros](setup-best-practices-supply-planning.md)   
- [Detalles de diseño: Directivas de reaprovisionamiento](design-details-reordering-policies.md)   
- [Detalles de diseño: Pedidos](design-details-order.md)   
- [Detalles de diseño: Lote por lote](design-details-lot-for-lot.md)   
- [Detalles de diseño: Cantidad de reaprovisionamiento fija](design-details-fixed-reorder-qty.md)   
- [Detalles de diseño: Cantidad máxima](design-details-maximum-qty.md)   
+ [Detalles de diseño: Gestión de directivas de reaprovisionamiento](design-details-handling-reordering-policies.md)   
  [Configurar áreas de aplicación complejas mediante procedimientos recomendados](set-up-complex-application-areas-using-best-practices.md)  
  [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

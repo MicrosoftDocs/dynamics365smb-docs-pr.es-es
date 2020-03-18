@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 92c30770b62b6456a16ab26db2c4ea3cda526b8e
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: b809743aa25aee409b9a71ca98da77ea64b58fb1
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2880597"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076519"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Detalles de diseño: Conceptos centrales del sistema de planificación
 Las funciones de planificación se incluyen en un proceso que primero selecciona los productos correspondientes y el periodo que se planificará. A continuación, según el código de nivel inferior de cada producto (posición de la L.M.), el proceso llama a una codeunit que calcula un plan de suministro equilibrando los conjuntos de suministro y demanda, y sugiriendo acciones posibles que puede realizar el usuario. Las acciones sugeridas aparecen como líneas en la hoja de planificación o la hoja de demanda.  
@@ -46,7 +46,7 @@ Toda la demanda y aprovisionamiento antes de la fecha de inicio del periodo de p
 
 Es decir, se asume que el plan para el pasado se ejecuta según el plan proporcionado.  
 
-Para obtener más información, consulte [Detalles de diseño: Gestión de pedidos antes de la fecha de inicio de planificación](design-details-dealing-with-orders-before-the-planning-starting-date.md).  
+Para obtener más información, consulte [Gestión de pedidos antes de la fecha de inicio de planificación](design-details-balancing-demand-and-supply.md#dealing-with-orders-before-the-planning-starting-date).  
 
 ## <a name="dynamic-order-tracking-pegging"></a>Seguimiento dinámico de pedidos (fijación)  
 El seguimiento dinámico de pedidos, con creación simultánea de mensajes de acción en la hoja de trabajo de planificación, no forma parte del sistema de planificación de suministro en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Esta característica vincula, en tiempo real, la demanda y las cantidades que podrían cubrirla, siempre que se crea o se cambia una nueva demanda o suministro.  
@@ -76,7 +76,7 @@ En cambio, el sistema de planificación trata con toda la demanda y el aprovisio
 
 Después la ejecución de la planificación, no quedan mensajes de acción en la tabla Mov. mensaje acción, ya que han sido reemplazados por las acciones sugeridas en la hoja de trabajo de planificación.  
 
-Para obtener más información, consulte Conexiones de seguimiento de pedidos durante la planificación en [Detalles de diseño: Equilibrio de aprovisionamiento con demanda](design-details-balancing-supply-with-demand.md).  
+Para obtener más información, consulte Conexiones de seguimiento de pedidos durante la planificación en [Equilibrio de aprovisionamiento con demanda](design-details-balancing-demand-and-supply.md#balancing-supply-with-demand).  
 
 ## <a name="sequence-and-priority-in-planning"></a>Secuencia y prioridad en la planificación  
 Al establecer un plan, es importante la secuencia de los cálculos para que el trabajo se realice en un intervalo de tiempo razonable. Además, la priorización de los requisitos y los recursos desempeña una importante función a la hora de obtener los mejores resultados.  
@@ -90,7 +90,7 @@ En un entorno de fabricación, la demanda para un producto terminado y sellable 
 
 En la figura se ilustra la secuencia en el que el sistema realiza las sugerencias de los pedidos de suministro en el nivel superior y, si se supone que el usuario va a aceptar estas sugerencias, también para productos de nivel inferior.  
 
-Para obtener más información acerca de las consideraciones de fabricación, consulte [Detalles de diseño: Carga de los perfiles de inventario](design-details-loading-the-inventory-profiles.md).  
+Para obtener más información acerca de las consideraciones de fabricación, consulte [Carga de los perfiles de inventario](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
 
 ### <a name="locations--transfer-level-priority"></a>Prioridad de ubicaciones o de nivel de transferencia  
 Las empresas que trabajan con más de un almacén pueden tener que planificar para cada almacén por individual. Por ejemplo, el nivel de existencias de seguridad de un producto y su directiva de reaprovisionamiento pueden diferir de un almacén a otro. En este caso, los parámetros de planificación deben especificarse por producto y también por almacén.  
@@ -106,14 +106,14 @@ Para obtener más información, consulte [Detalles de diseño: Transferencias en
 ### <a name="order-priority"></a>Prioridad pedido  
 En una UA concreta, la fecha solicitada o disponible representa la máxima prioridad; la demanda de hoy se debe tratar antes que la de los próximos días. Pero aparte de esta clase de prioridad, los distintos tipos de demanda y aprovisionamiento se ordenan según su relevancia empresarial para decidir qué demanda se debe satisfacer antes de cubrir otra demanda. En el suministro, la prioridad de pedido indica qué origen de suministro se debe aplicar antes de que se apliquen otros orígenes de suministro.  
 
-Para obtener más información, consulte [Detalles de diseño: Prioridad de pedidos](design-details-prioritizing-orders.md).  
+Para obtener más información, consulte [Priorizar pedidos](design-details-balancing-demand-and-supply.md#prioritizing-orders).  
 
 ## <a name="demand-forecasts-and-blanket-orders"></a>Previsiones de demanda y pedidos abiertos  
 Las previsiones y los pedidos abiertos representan ambos la demanda prevista. El pedido abierto, que abarca las compras previstas de un cliente durante un determinado periodo de tiempo, sirve para reducir la incertidumbre de una previsión global. El pedido abierto es una previsión específica del cliente por encima de la previsión sin especificar, tal como se ilustra a continuación.  
 
 ![Planificación con previsiones](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "Planificación con previsiones")  
 
-Para obtener más información, consulte la sección “Los pedidos de ventas reducen la demanda de previsión” en [Detalles de diseño: Carga de los perfiles de inventario](design-details-loading-the-inventory-profiles.md).  
+Para obtener más información, consulte la sección “Los pedidos de ventas reducen la demanda de previsión” en [Carga de los perfiles de inventario](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
 
 ## <a name="planning-assignment"></a>Asignar planificación  
 Todos los productos se deben planificar; no obstante, no hay razón para calcular un plan para un producto a menos que haya habido un cambio en el patrón de demanda o de aprovisionamiento desde la última vez que se calculó un plan.  
@@ -171,9 +171,9 @@ Los productos con número de serie o de lote sin una configuración específica 
 
 La demanda y el aprovisionamiento con números de serie y de lote, específicos o no, se consideran prioritarios y están por tanto exentos de la zona congelada, lo que significa que formarán parte de la planificación incluso si vencen antes de la fecha de inicio de la planificación.  
 
-Para obtener más información, consulte la sección sobre la carga de números de serie y de lote por nivel de especificación” en [Detalles de diseño: Carga de los perfiles de inventario](design-details-loading-the-inventory-profiles.md).  
+Para obtener más información, consulte la sección sobre la carga de números de serie y de lote por nivel de especificación” en [Carga de los perfiles de inventario](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
 
-Para obtener más información sobre cómo el sistema de planificación equilibra los atributos, consulte la sección sobre exención de números de serie y de lote y de vínculos de pedido a pedido de la zona congelada en [Detalles de diseño: Gestión de pedidos antes de la fecha de inicio de planificación](design-details-dealing-with-orders-before-the-planning-starting-date.md).  
+Para obtener más información sobre cómo el sistema de planificación equilibra los atributos, consulte [Exención de números de serie y de lote y de vínculos de pedido a pedido de la zona congelada](design-details-balancing-demand-and-supply.md#seriallot-numbers-and-order-to-order-links-are-exempt-from-the-frozen-zone).  
 
 ## <a name="order-to-order-links"></a>Vínculos de pedido a pedido  
 Las compras de pedido contra pedido implican que un producto se compra, se ensambla o se produce para cubrir exclusivamente una demanda concreta. Normalmente, se relaciona con productos A, y el motivo para elegir esta política de reaprovisionamiento puede ser que la demanda se produce con poca frecuencia, el plazo es insignificante o varían los atributos requeridos.  
@@ -223,14 +223,14 @@ La advertencia de emergencia se muestra en dos situaciones:
 -   Cuando el inventario es negativo en la fecha de inicio de la planificación.  
 -   Cuando existen eventos de demanda o aprovisionamiento atrasados.  
 
-Si el inventario de un producto es negativo en la fecha de inicio de la planificación, el sistema de planificación le sugiere un aprovisionamiento de emergencia para la cantidad negativa que llegue en la fecha de inicio de la planificación. El texto de advertencia informa de tal fecha y de la cantidad del pedido de emergencia. Para obtener más información, consulte [Detalles de diseño: Gestión de inventario negativo proyectado](design-details-handling-projected-negative-inventory.md).  
+Si el inventario de un producto es negativo en la fecha de inicio de la planificación, el sistema de planificación le sugiere un aprovisionamiento de emergencia para la cantidad negativa que llegue en la fecha de inicio de la planificación. El texto de advertencia informa de tal fecha y de la cantidad del pedido de emergencia. Para obtener más información, consulte [Gestión de inventario negativo proyectado](design-details-handling-reordering-policies.md#handling-projected-negative-inventory).  
 
 Todas las líneas de documento con fecha de vencimiento antes de la fecha de inicio de la planificación se consolidan en un pedido de demanda de emergencia para que el elemento llegue en la fecha de inicio de la planificación.  
 
 ### <a name="exception"></a>Excepción  
 Se mostrará la advertencia de excepción si el inventario disponible previsto cae por debajo de la cantidad de existencias de seguridad. El programa de planificación sugerirá un pedido de suministros para cubrir la demanda en la fecha de vencimiento. El texto de advertencia informa de la cantidad de existencias de seguridad del producto y de la fecha en la que se infringe.  
 
-Infringir el nivel de existencias de seguridad está considerado una excepción debido a que no debería ocurrir si se configura correctamente el punto de nuevo pedido. Para obtener más información, consulte [Detalles de diseño: Función del punto de pedido](design-details-the-role-of-the-reorder-point.md).  
+Infringir el nivel de existencias de seguridad está considerado una excepción debido a que no debería ocurrir si se configura correctamente el punto de nuevo pedido. Para obtener más información, consulte [Función del punto de pedido](design-details-handling-reordering-policies.md#the-role-of-the-reorder-point).  
 
 En general, las propuestas de pedido excepcionales garantizan que el inventario disponible proyectado nunca será menor que el nivel de existencias de seguridad. Esto significa que la cantidad propuesta es justo suficiente como para cubrir las existencias de seguridad, sin tener en cuenta los parámetros de planificación. Sin embargo, en algunos ejemplos, se considerarán modificadores de pedido.  
 
@@ -242,7 +242,7 @@ La advertencia de atención se muestra en tres situaciones:
 
 -   La fecha de inicio de la planificación es anterior a la fecha de trabajo.  
 -   La línea de planificación sugiere cambiar una compra realizada o una orden de producción.  
--   El inventario proyectado supera el nivel de desbordamiento en la fecha de vencimiento. Para obtener más información, consulte [Detalles de diseño: Mantenimiento por debajo de los niveles de desbordamiento](design-details-staying-under-the-overflow-level.md).  
+-   El inventario proyectado supera el nivel de desbordamiento en la fecha de vencimiento. Para obtener más información, consulte [Mantenimiento por debajo de los niveles de desbordamiento](design-details-handling-reordering-policies.md#staying-under-the-overflow-level).  
 
 > [!NOTE]  
 >  En las líneas de planificación con advertencias, el campo **Aceptar mensaje acción** está desactivado, ya que se espera que el planificador investigue estás líneas más detalladamente antes de llevar a cabo el plan.  

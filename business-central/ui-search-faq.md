@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 10/01/2019
+ms.date: 02/12/2020
 ms.author: bholtorf
-ms.openlocfilehash: 88a1e6cc711888a3cf68744d0ea6bbfdee41aea3
-ms.sourcegitcommit: 49309bdff9b680a35032b355fe97c565845dba15
+ms.openlocfilehash: 67dd65491710206245a2ff83dce3d3eb94484770
+ms.sourcegitcommit: c78df3aefb3e2ed8c28e5ac8340d56ab787212e8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2695100"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "3071915"
 ---
 # <a name="tell-me-faq"></a>FAQ acerca de la función Dígame
 Este tema responde las preguntas que nuestros usuarios avanzados suelen hacer sobre la función Dígame.
@@ -32,7 +32,7 @@ La función Dígame recoge las acciones, páginas e informes que se originan a p
 ### <a name="what-makes-this-different-from-what-was-previously-known-as-page-search"></a>¿Qué diferencia hay con lo que antes se conocía como búsqueda de página?
 La Búsqueda de páginas se ha convertido en la función Dígame para ayudarle a realizar el trabajo rápidamente. La búsqueda de páginas solo puede ayudarle a desplazarse por páginas o informes. A nivel técnico, la función Dígame ya no se basa en el concepto heredado de MenuSuite.
 
-### <a name="i-use-on-premises-included365finincludesd365fin_mdmd-does-that-include-tell-me"></a>Utilizo [!INCLUDE[d365fin](includes/d365fin_md.md)] local. ¿Incluye la función Dígame?
+### <a name="i-use-on-premises-d365fin-does-that-include-tell-me"></a>Utilizo [!INCLUDE[d365fin](includes/d365fin_md.md)] local. ¿Incluye la función Dígame?
 Puede usar la función Dígame en el cliente web local para buscar acciones, páginas e informes, pero no documentación, o aplicaciones y servicios de consultoría en AppSource.
 
 ### <a name="is-tell-me-available-for-all-form-factors"></a>¿Está disponible para todos los factores de forma?
@@ -44,11 +44,9 @@ Los artículos de ayuda se mostrarán en el idioma que ha especificado en **Mi c
 ### <a name="why-dont-i-see-a-bookmark-icon-for-my-search-results"></a>¿Por qué no veo un icono de marcador para mis resultados de búsqueda?
 El icono de marcador no se muestra en la ventana Dígame cuando la personalización está deshabilitada para un rol de usuario.
 
-### <a name="is-the-bookmark-icon-available-for-reports"></a>¿El icono de marcador está disponible para los informes?
-Nº Solo puede marcar un vínculo a una página o cualquier resultado de búsqueda que se muestre en la sección **Páginas y tareas** de la ventana Dígame.
-
 
 ## <a name="see-also"></a>Consulte también  
 [Guardar y personalizar vistas de lista](ui-views.md)  
 [Búsqueda de páginas e información con Dígame](ui-search.md)  
-[Búsqueda de páginas con el explorador de roles](ui-role-explorer.md)
+[Búsqueda de páginas con el explorador de roles](ui-role-explorer.md)  
+[Marque una página o informe en su Área de trabajo](ui-bookmarks.md)

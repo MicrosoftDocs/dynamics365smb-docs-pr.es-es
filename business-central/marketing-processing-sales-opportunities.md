@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: dc88bfaac0fe65bfa5e5053529c5724b76787cac
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 92e2ad3723e2cb2b3b24f179d39462a98e9cc106
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308802"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076592"
 ---
 # <a name="process-sales-opportunities"></a>Procesar oportunidades de ventas
 Después de crear una oportunidad, existen numerosas funciones para gestionarla y avanzar hasta completarla.
@@ -27,9 +27,9 @@ Las oportunidades de venta existentes están disponibles en la página **Lista o
 
 | Para ver las oportunidades | Entonces |
 | --- | --- |
-| Todos los vendedores y contactos |Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Lista oportunidades** y luego elija el enlace relacionado. |
-| Un vendedor específico |Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Vendedores** y luego elija el enlace relacionado. Seleccione el vendedor, seleccione la acción **Oportunidades** y, a continuación, seleccione la acción **Lista**. |
-| Un contacto específico |Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Contactos** y luego elija el enlace relacionado. Seleccione el contacto de la lista y, a continuación, seleccione la acción **Oportunidades**. |
+| Todos los vendedores y contactos |Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Lista de oportunidades** y luego elija el enlace relacionado. |
+| Un vendedor específico |Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Vendedores** y luego elija el enlace relacionado. Seleccione el vendedor, seleccione la acción **Oportunidades** y, a continuación, seleccione la acción **Lista**. |
+| Un contacto específico |Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Contactos** y luego elija el enlace relacionado. Seleccione el contacto de la lista y, a continuación, seleccione la acción **Oportunidades**. |
 
 Todas estas tareas abren la página **Lista oportunidades**.
 
@@ -50,7 +50,7 @@ Puede crear ofertas de venta para los contactos que no están registrados como c
 2. Rellene los campos pertinentes.
 
 ## <a name="to-create-sales-orders-for-opportunities"></a>Para crear pedidos de venta para oportunidades
-Puede hacer pedidos ventas desde las ofertas ventas creadas para las oportunidades. Antes de poder crear pedidos de ventas para sus contactos, debe crear el contacto como cliente. Para obtener más información, consulte [Crear un cliente, proveedor o cuenta bancaria a partir de un contacto](marketing-how-create-contacts-new-customers-vendors-bank-accounts.md).
+Puede hacer pedidos ventas desde las ofertas ventas creadas para las oportunidades. Antes de poder crear pedidos de ventas para sus contactos, debe crear el contacto como cliente. Para obtener más información, consulte [Crear contactos](marketing-create-contact-companies.md).
 
 1. En la página **Lista oportunidad**, busque la oportunidad para la que creó la oferta de venta.
 2. Seleccione la acción **Asignar oferta ventas**. Aparece la página **Oferta ventas** para mostrar la oferta de ventas asignada a la oportunidad.
@@ -65,7 +65,7 @@ Para eliminar oportunidades cerradas de la página **Lista oportunidad**, selecc
 
 Para borrar oportunidades cerradas usando el proceso **Eliminar oport. cerradas** siga estos pasos:
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Eliminar oportunidades** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Eliminar oportunidades** y luego elija el enlace relacionado.
 2. En la sección **Oportunidad** configure los filtros que especifican las oportunidades que se tienen que eliminar.
 3. Elija el botón **Aceptar**.
 
@@ -84,6 +84,6 @@ Si una oportunidad sigue un ciclo de ventas, podrá moverlo hacia adelante o hac
 3. Rellene los otros campos requeridos y, a continuación, haga clic en el botón **Aceptar**.
 
 ## <a name="see-also"></a>Consulte también
-[Ventas](sales-manage-sales.md)  
+[Ccial](sales-manage-sales.md)  
 [Creación y administración de contactos](marketing-contacts.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

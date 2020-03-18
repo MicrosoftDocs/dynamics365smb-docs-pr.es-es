@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: user log, user activity, tracking
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: cffa7d23b7c09561914cc00a8a4b9820ed743c29
-ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
+ms.openlocfilehash: cb091a54b7b8da571117c807a621ed298842444c
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2775360"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076664"
 ---
 # <a name="auditing-changes-in-business-central"></a>Auditar cambios en Business Central
 
@@ -46,7 +46,7 @@ La información se muestra en la ventana **Registro de actividad** según el con
 
 ## <a name="see-also"></a>Consulte también
 [Cambiar la configuración básica](ui-change-basic-settings.md)  
-[Ordenación](ui-sorting.md)  
+[Ordenar, buscar y filtrar](ui-enter-criteria-filters.md)  
 [Búsqueda de páginas e información con Dígame](ui-search.md)  
 [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md)    
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

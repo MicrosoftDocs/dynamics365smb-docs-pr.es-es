@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1dda414746c8661e5a9cee3eee5ce569cfa83e16
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 54e7aabe2989033a33373b960633b1c8f8e38eab
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882955"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076417"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Detalles de diseño: Equilibrio de aprovisionamiento y demanda
 Para saber cómo funciona el sistema de planificación, es necesario conocer los objetivos con prioridad del sistema de planificación, los más importantes de los cuales son asegurarse de que:  
@@ -66,7 +66,7 @@ Si el inventario disponible inicial es menor que cero, el sistema de planificaci
 ## <a name="loading-the-inventory-profiles"></a>Carga de los perfiles de inventario
 Para organizar los numerosos orígenes de demanda y suministro, el sistema de planificación las organiza en dos escalas temporales denominadas perfiles de inventario.  
 
-Los tipos normales de demanda y suministro con fechas de fecha de vencimiento en la fecha inicial de planificación se cargan en cada perfil de inventario. Cuando se cargan, los distintos tipos de demanda y de suministro se ordenan según las prioridades generales, como la fecha de vencimiento, los códigos de bajo nivel, la ubicación y la variante. Además, se aplican prioridades de pedido a los diversos tipos para garantizar que primero se satisfaga la demanda más importante. Para obtener más información, consulte [Detalles de diseño: Prioridad de pedidos](design-details-prioritizing-orders.md).  
+Los tipos normales de demanda y suministro con fechas de fecha de vencimiento en la fecha inicial de planificación se cargan en cada perfil de inventario. Cuando se cargan, los distintos tipos de demanda y de suministro se ordenan según las prioridades generales, como la fecha de vencimiento, los códigos de bajo nivel, la ubicación y la variante. Además, se aplican prioridades de pedido a los diversos tipos para garantizar que primero se satisfaga la demanda más importante. Para obtener más información, consulte [Priorizar pedidos](design-details-balancing-demand-and-supply.md#prioritizing-orders).  
 
 Como se indicaba anteriormente, la demanda también podría ser negativa. Esto significa que se debe tratar como suministro; no obstante, a diferencia de los tipos de suministro normales, la demanda negativa se considera suministro fijo. El sistema de planificación puede tenerla en cuenta, pero no sugerirá cambios.  
 

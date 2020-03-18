@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 1b7936a73274545dc0e8a9fcddec2fe68fdb62c9
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 946b14c6d3a480bda217b9d78330343a8d772de1
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953880"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097725"
 ---
 # <a name="assembly-management"></a>Gestión de ensamblaje
 Para apoyar a las empresas que suministran los productos a sus clientes agrupando los componentes en procesos sencillos sin necesidad de la funcionalidad de fabricación, [!INCLUDE[d365fin](includes/d365fin_md.md)] incluye las características para ensamblar artículos que se integran con las existentes, como son planificación, reservas y almacén.  
 
  Un artículo de montaje se define como uno sellable que contenga un L.M. de ensamblado. Para obtener más información, consulte [Trabajar con listas de materiales](inventory-how-work-BOMs.md).
 
- Los pedidos de ensamblado son pedidos internos, como las órdenes de producción, que se utilizan para gestionar el proceso de ensamblado y para conectar los requisitos de venta con las actividades de almacén correspondientes. Los pedidos de ensamblado difieren de otros tipos de pedido porque implican la salida y el consumo cuando se están registrando. La cabecera del pedido de ensamblado se comporta de modo similar a una línea del pedido de venta, y las líneas del pedido de ensamblado se comportan de forma similar a las líneas del diario de consumo.  
+ Los pedidos de ensamblado son pedidos internos, como las órdenes de producción, que se utilizan para gestionar el proceso de ensamblado y para conectar los requisitos de venta con las actividades de almacén correspondientes. Los pedidos de ensamblado difieren de otros tipos de pedido porque implican la salida y el consumo cuando se están registrando. La cabecera del pedido de ensamblado se comporta de modo similar a una línea de diario de salida, y las líneas del pedido de ensamblado se comportan de forma similar a las líneas del diario de consumo.  
 
  Para utilizar una estrategia de inventario puntual y la capacidad de personalizar los productos según las solicitudes del cliente, los pedidos de ensamblado pueden crearse y vincularse automáticamente tan pronto como se cree la línea del pedido de venta. El vínculo entre la demanda de venta y el suministro del ensamblado permite a los procesadores del pedido de venta personalizar el elemento del ensamblado de forma dinámica, comprometer las fechas de entrega según la disponibilidad del componente, así como registrar la salida el envío del producto ensamblado directamente en la interfaz del pedido de venta. Para obtener más información, consulte [Venta de artículos ensamblados para pedido](assembly-how-to-sell-items-assembled-to-order.md).  
 
@@ -46,7 +46,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Saber la diferencia entre ensamblado L.M. y producción L.M. y las diferencias de procesamiento correspondientes.|[Trabajar con listas de materiales](inventory-how-work-BOMs.md)|
 |Saber cómo se gestiona el consumo de ensamblado y a la salida cuando se registran los pedidos de ensamblado y cómo se procesan y se distribuyen a la contabilidad el artículo y los precios de coste de recurso derivados.|[Detalles de diseño: Registro de pedidos de ensamblado](design-details-assembly-order-posting.md)|  
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsassemble-items-dynamics-365-business-central"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Consulte también  
 [Trabajar con listas de materiales](inventory-how-work-BOMs.md)  
