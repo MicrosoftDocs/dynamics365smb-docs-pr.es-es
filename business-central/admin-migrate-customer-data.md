@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 12/19/2019
 ms.author: sgroespe
-ms.openlocfilehash: d5c9badf083352e04e118cd7ddc25e5a337e5686
-ms.sourcegitcommit: 53565fea987af861f3846e5c1e0e868c279aeb30
+ms.openlocfilehash: 2da58a4f5a3655fc2153647d80c5d69e1356b503
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2918219"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097701"
 ---
 # <a name="migrate-customer-data"></a>Migrar datos del cliente
 Puede migrar los datos existentes de cliente de un sistema de ERP existente a [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizando las herramientas de migración de datos de RapidStart Services. Puede usar archivos de Excel como soporte de datos. También puede mover manualmente los datos al introducirlos directamente en la empresa.
@@ -31,7 +31,7 @@ Al crear una empresa nueva, puede importar las opciones de la empresa para la em
 > [!NOTE]  
 >  No puede cambiar el nombre de un archivo que no es un paquete de configuración de RapidStart Services como un archivo de paquete de configuración .rapidstart y luego intentar importarlo. Si intenta hacerlo, recibirá un mensaje de error.  
 
-Antes de comenzar, debe asegurarse de tener permiso para ejecutar los RapidStart Services objetos. Por ejemplo, puede tener configurado el permiso SUPER o ser un administrador interno o delegado. También le recomendamos que se encuentre en un área de trabajo con enlaces a RapidStart Services, como el Centro de funciones de administración. Para obtener más información, vea [Para cambiar el rol](ui-change-basic-settings.md#to-change-the-role).  
+Antes de comenzar, debe asegurarse de tener permiso para ejecutar los RapidStart Services objetos. Por ejemplo, puede tener los conjuntos de permisos SUPER o D365 RAPIDSTART. También le recomendamos que se encuentre en un área de trabajo con enlaces a RapidStart Services, como el Centro de funciones de administración. Para obtener más información, vea [Para cambiar el rol](ui-change-basic-settings.md#to-change-the-role).  
 
 > [!IMPORTANT]  
 > Al exportar e importar los paquetes de configuración entre dos bases de datos de empresa, las bases de datos deben tener el mismo esquema para garantizar que todos los datos se transferirán correctamente. Esto significa que las bases de datos deben tener la misma estructura de tablas y campos, en la que las tablas con las mismas claves principales y campos tienen los mismos identificadores y tipos de datos.  
@@ -116,7 +116,7 @@ El ejemplo siguiente ilustra cómo implementa [!INCLUDE[d365fin](includes/d365fi
 2. Añada tablas adicionales al paquete, por ejemplo, **Cliente** y **Proveedor**. Estas tablas hacen referencia a la tabla **Vendedor/Comprador** a través del **código de vendedor** y el **código de comprador**, respectivamente.  
 3. Cuando se aplican datos, la asignación proporcionada en el campo **Código** de la tabla **Vendedor/Comprador** también se tendrá en cuenta al procesar los campos **Código de vendedor** y **Código de comprador**.
 
-## <a name="to-add-additional-values-to-included365finincludesd365fin_mdmd"></a>Para agregar valores adicionales a [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+## <a name="to-add-additional-values-to-d365fin"></a>Para agregar valores adicionales a [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Paquetes de configuración** y luego elija el enlace relacionado.  
 2. Seleccione la tabla a la que desee asignar valores adicionales y en la pestaña **Tablas**, elija la acción **Campos**.  
 3. Para los campos para los que desea que [!INCLUDE[d365fin](includes/d365fin_md.md)] permita valores adicionales durante la migración, seleccione la casilla **Crear códigos que faltan**.  
