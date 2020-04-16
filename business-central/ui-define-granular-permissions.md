@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 11/07/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: a162246fcd0a6f3db07922cc100e21aacbc76fbe
-ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
+ms.openlocfilehash: c71b56812b67c4ec51ea8d48d095cabc79c585fb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "2943214"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194480"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Asignar permisos a usuarios y grupos
 El sistema de seguridad de [!INCLUDE[d365fin](includes/d365fin_md.md)] le permite controlar a qué objetos puede acceder un usuario en cada base de datos o entorno. Puede especificar para cada usuario si puede leer, modificar o introducir datos en los objetos de la base de datos seleccionados. Para obtener información detallada, vea [Seguridad de datos](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) en la ayuda para desarrolladores y profesionales de TI para [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -130,18 +130,18 @@ Por ejemplo, un usuario puede tener permiso para ejecutar la codeunit 80, Venta-
 Sin embargo, el usuario no necesita tener acceso total a la tabla Línea de venta para ejecutar la codeunit. Si el usuario tiene permiso indirecto para la tabla Línea de venta, la codeunit Venta-Registrar se ejecuta correctamente. Cuando un usuario tiene permiso indirecto, solo puede modificar la tabla Línea de venta al ejecutar la codeunit Venta-Registrar u otro objeto que tenga permiso para modificar la tabla Línea de venta. El usuario sólo puede modificar la tabla Línea de venta en las áreas compatibles de la aplicación. El usuario no puede ejecutar la característica de forma inadvertida o malintencionada mediante otros métodos.
 
 ## <a name="to-create-or-modify-permissions-by-recording-your-actions"></a>Para crear o modificar permisos registrando las acciones
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Conjuntos de permisos** y luego elija el enlace relacionado.
-2.  Alternativamente, en la página **Usuarios**, seleccione la acción **Conjuntos de permisos**.
-3.  En la página **Conjuntos de permisos**, elija la acción **Nuevo**.
-4.  En una línea nueva, rellene los campos según sea necesario.
-5.  Elija la acción **Permisos**.
-6.  En la página **Permisos**, seleccione la acción **Registrar permisos** y, a continuación elija la acción **Iniciar**.
+1.    Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Conjuntos de permisos** y luego elija el enlace relacionado.
+2.    Alternativamente, en la página **Usuarios**, seleccione la acción **Conjuntos de permisos**.
+3.    En la página **Conjuntos de permisos**, elija la acción **Nuevo**.
+4.    En una línea nueva, rellene los campos según sea necesario.
+5.    Elija la acción **Permisos**.
+6.    En la página **Permisos**, seleccione la acción **Registrar permisos** y, a continuación elija la acción **Iniciar**.
 
     Se inicia un proceso de registro que captura todas las acciones en la interfaz de usuario.
-7.  Vaya a las diferentes páginas y actividades en [!INCLUDE[d365fin](includes/d365fin_md.md)] a las que desea que accedan los usuarios con este conjunto de permisos. Debe realizar las tareas para las que desea registrar permisos.
-8.  Cuando desea finalizar el registro, vuelva a la página **Permisos** y, a continuación elija la acción **Paro**.
-9.  Seleccione el botón **Sí** para agregar los permisos registrados al nuevo conjunto de permisos.
-10. Para cada objeto de la lista registrada especifique si los usuarios pueden insertar, modificar o eliminar los registros de las tablas registradas.
+7.    Vaya a las diferentes páginas y actividades en [!INCLUDE[d365fin](includes/d365fin_md.md)] a las que desea que accedan los usuarios con este conjunto de permisos. Debe realizar las tareas para las que desea registrar permisos.
+8.    Cuando desea finalizar el registro, vuelva a la página **Permisos** y, a continuación elija la acción **Paro**.
+9.    Seleccione el botón **Sí** para agregar los permisos registrados al nuevo conjunto de permisos.
+10.    Para cada objeto de la lista registrada especifique si los usuarios pueden insertar, modificar o eliminar los registros de las tablas registradas.
 
 ## <a name="security-filters---to-limit-a-users-access-to-specific-records-in-a-table"></a>Filtros de seguridad: para restringir el acceso de un usuario a registros específicos en una tabla
 Para seguridad de nivel registro en [!INCLUDE[d365fin](includes/d365fin_md.md)], utilice los filtros de seguridad para restringir el acceso a un usuario a los datos de una tabla. Cree los filtros de seguridad en los datos de la tabla. Un filtro de seguridad describe un conjunto de registros de una tabla a la que un usuario tiene permisos para acceder. Puede especificar, por ejemplo, que el usuario puede leer solo los registros que contienen información acerca de un determinado cliente. Esto significa que el usuario no puede acceder a los registros que contienen información sobre otros clientes. Para obtener más información, consulte [Usar filtros de seguridad](/dynamics365/business-central/dev-itpro/security/security-filters) en la Ayuda para desarrolladores y profesionales de TI.
@@ -204,5 +204,4 @@ Los administradores pueden definir periodos de tiempo durante los que los usuari
 [Preparación para hacer negocios](ui-get-ready-business.md)  
 [Administración](admin-setup-and-administration.md)  
 [Agregar usuarios para Office 365 para empresas](https://aka.ms/CreateOffice365Users)  
-[Guía sobre licencias de Microsoft Dynamics 365 Business Central](https://aka.ms/BusinessCentralLicensing)  
 [Seguridad y protección en Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection) en Ayuda para desarrolladores y profesionales de TI

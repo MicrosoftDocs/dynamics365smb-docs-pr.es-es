@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, cost, service order
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 58c54fd68d291a5d07765a57002e0918df78a1f3
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: c1cbf33052e9f38a0787923ce70c9ca42799d539
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877381"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195128"
 ---
 # <a name="set-up-pricing-and-additional-costs-for-services"></a>Configurar precios y costes adicionales de servicios
 Puede utilizar las funciones de precios de [!INCLUDE[d365fin](includes/d365fin_md.md)] para configurar y personalizar su aplicación de modo que aplique y ajuste precios sobre productos de servicio, reparaciones y pedidos. Estas decisiones de precios se transmiten con facilidad al proceso de facturación.  

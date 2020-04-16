@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 1fb7f049e253e70e9170c257848b3738dec9d176
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c73fd564211dd93a7c6f668e1753227811544074
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312177"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193640"
 ---
 # <a name="merge-duplicate-records"></a>Combinar registros duplicados
 A medida que diferentes usuarios crean nuevas fichas de cliente, proveedor o contacto a lo largo del tiempo, o que los nuevos registros se crean automáticamente durante la migración, un cliente, proveedor o contacto puede estar representado en el sistema con más de un registro. En este caso, puede utilizar la página **Combinar duplicados** de la ficha del registro que desea conservar. La página le ofrece una visión general de los valores de campo duplicado y le ofrece funciones para seleccionar los valores que desea conservar o descartar al combinar dos registros en uno.
@@ -30,7 +30,7 @@ A medida que diferentes usuarios crean nuevas fichas de cliente, proveedor o con
 
 El procedimiento siguiente se basa en una ficha de cliente. Los pasos son parecidos para una ficha de proveedor y de contacto.
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Clientes** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Clientes** y luego elija el enlace relacionado.
 2. Seleccione el cliente del que sabe o sospecha que existe un registro duplicado y, a continuación, seleccione la acción **Editar**.
 3. En la página **Ficha de cliente**, seleccione la acción **Combinar con**.
 4. En la página **Combinar duplicado**, en el campo **Combinar con**, seleccione el cliente que cree que es un duplicado del que ha abierto, indicado en el campo **Actual**.

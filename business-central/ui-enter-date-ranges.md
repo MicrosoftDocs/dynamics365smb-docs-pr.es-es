@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 22014c6df6ccffa08ff2fed25d40ce4c0312d57d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ff34a7a8a1086b41d2df2a75955017fc82866fb6
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315593"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194408"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Trabajar con fechas y horas del calendario
 
@@ -48,7 +48,7 @@ Para trabajar de forma más productiva con fechas y horas, puede utilizar cualqu
 
 Cualquier campo que muestre un icono de calendario se puede configurar con el selector de fechas del calendario. Para mostrar el selector de fechas del calendario, active el ícono de calendario o presione el atajo de teclado Ctrl + Inicio en el campo.
 
-![Campos de fecha](media/ui-date-field.png "Ejemplo de un campo de fecha")
+![Campos de fecha](media/ui-date-field.png "Ejemplo de campo de fecha")
 
 Consulte también [Métodos abreviados de teclado en el selector de fechas del calendario](keyboard-shortcuts.md#calendarshortcuts).
 
@@ -121,7 +121,7 @@ La siguiente tabla contiene ejemplos de fechas en todos los formatos. Se supone 
 |m 23|Martes de la semana 23 del año de la fecha de trabajo|
 |m-1|Martes de la semana 1 del año de la fecha de trabajo|
 
-##  <a name="BKMK_SettingDateRanges"></a> Configuración de rangos
+##  <a name="setting-ranges"></a><a name="BKMK_SettingDateRanges"></a> Configuración de rangos
 
 En listas, totales e informes, puede establecer filtros en fechas, horas y fechas y horas que contienen un valor de inicio y, opcionalmente, un valor final para mostrar solo los datos de ese rango. Se aplican reglas estándar a la forma de establecer los rangos de fechas.
 

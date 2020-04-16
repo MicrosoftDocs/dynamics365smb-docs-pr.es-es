@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: BI, add-in, insight, headline, data
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 08a955f9fb2698b95e8cc92648be0e7c0bfe6e6c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ab06a76319897b1eef00ba57d5a1c2cba5773334
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311265"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194240"
 ---
 # <a name="the-essential-business-insights-extension"></a>La extensión Información de la empresa esencial
 La extensión Información de la empresa esencial encuentra hechos comerciales interesantes en los datos de su empresa y los muestra como titulares de periódico en las áreas de trabajo. En función de lo que encuentre la extensión en los datos, la información será de la última semana, mes o tres meses desde la fecha actual. La información se actualiza cada 10 minutos.  

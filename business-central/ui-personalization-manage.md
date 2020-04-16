@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 470d2542864b8d0e0f16f89fd99e422807829404
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6720f207b3bca2e74bccb9b82a5661d98292163d
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310809"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195416"
 ---
 # <a name="customize-pages-for-profiles"></a>Personalizar páginas para perfiles
 Los usuarios pueden personalizar las páginas que componen su área de trabajo para que se adapte a sus preferencias. Para obtener más información, consulte [Personalizar el área de trabajo](ui-personalization-user.md).
@@ -30,7 +30,7 @@ Los administradores pueden personalizar las páginas para un perfil, de acuerdo 
 La personalización de la página comienza en la página **Perfiles (roles)**, el punto de partida del administrador para administrar los perfiles de los usuarios en fichas de perfil individuales. Además de personalizar el diseño de la página, puede controlar otras configuraciones para los perfiles en la página **Perfil (rol)** para cada perfil. Para obtener más información, consulte [Administrar perfiles](admin-users-profiles-roles.md).
 
 ## <a name="to-customize-pages-for-a-profile"></a>Para personalizar páginas para un perfil
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Perfiles (roles)** y luego elija el vínculo relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Perfiles (roles)** y luego elija el enlace relacionado.
 2. Seleccione la línea del perfil para el que desea personalizar páginas y, después, seleccione la acción **Editar**.
 3. Elija la acción **Personalizar páginas**.
 

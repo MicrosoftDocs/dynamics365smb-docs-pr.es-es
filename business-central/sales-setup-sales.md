@@ -1,8 +1,6 @@
 ---
 title: Resumen de tareas para configurar los procesos de venta | Documentos de Microsoft
 description: Describe las tareas para configurar reglas y valores para definir las directivas y los procesos de ventas.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, configure
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: d19d02cb770efb32441d4b1282789a92deea41a0
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 9bfdfa6d4abf49f163fd9478e4c0c59dda069abd
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953400"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194744"
 ---
 # <a name="setting-up-sales"></a>Configuración de ventas
 Para poder administrar procesos de venta, debe configurar las reglas y valores que definen las políticas de venta de la empresa.
@@ -40,7 +38,7 @@ La configuración de ventas relacionada con las finanzas, como las formas de pag
 |Defina los diferentes incoterms que ofrece a los clientes o que sus proveedores le ofrecen.|[Configuración de métodos de envío](sales-how-set-up-shipment-methods.md)|
 |Introducir información acerca de los distintos proveedores de transporte empleados, incluyendo un vínculo a su servicio de seguimiento del envío.|[Configurar transportistas](sales-how-to-set-up-shipping-agents.md)|
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulestrade-get-started-dynamics-365-business-central"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Consulte también
 [Ccial](sales-manage-sales.md)  

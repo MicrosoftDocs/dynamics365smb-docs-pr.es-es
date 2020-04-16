@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: bd4f9ea57e0c21cd5398830bbcdddecf68e9c4c0
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ff621150cca478f56edd113832e2253d73f7698c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314801"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195704"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Tutorial: picking y envío en la configuración del almacenamiento básico
 
@@ -58,14 +58,14 @@ Para completar este tutorial, necesitará:
 -   CRONUS España S.A. instalado.  
 -   Para convertirse en un empleado de almacén en el almacén PLATA, realice los pasos siguientes:  
 
-    1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Empleados de almacén** y luego elija el enlace relacionado.  
+    1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Empleados de almacén** y luego elija el enlace relacionado.  
     2.  Elija el campo **Id. de usuario** y seleccione su propia cuenta de usuario en la página **Usuarios**.  
     3.  En el campo **Cód. almacén**, especifique PLATA.  
     4.  Seleccione el campo de **Predeterminado**.  
 
 -   Haga que el producto LS-81 esté disponible en el almacén PLATA siguiendo estos pasos:  
 
-    1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diarios de producto** y luego elija el enlace relacionado.  
+    1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diarios de productos** y luego elija el enlace relacionado.  
     2.  Abra el diario predeterminado y después cree dos líneas del diario del producto con la siguiente información en la fecha de trabajo (23 de enero).  
 
         |Tipo mov.|Número de producto|Cód. almacén|Cód. ubicación|Cantidad|  
@@ -82,7 +82,7 @@ Ellen, la administradora del almacén en CRONUS, configura el almacén PLATA par
 La configuración de la página **Ficha almacén** define los flujos de almacén de la empresa.  
 
 ### <a name="to-set-up-the-location"></a>Configurar el almacén  
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Ubicaciones** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Almacenes** y, a continuación, elija el enlace relacionado.  
 2.  Abra la ficha de almacén PLATA.  
 3.  Active la casilla **Picking requerido**.  
 
@@ -90,7 +90,7 @@ La configuración de la página **Ficha almacén** define los flujos de almacén
 Los pedidos de venta son el tipo más común de documento de origen de salida.  
 
 ### <a name="to-create-the-sales-order"></a>Para crear el pedido de venta  
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Nuevo**.  
 3.  Crea un pedido de venta para el cliente 10000 en la fecha de trabajo (23 de enero) con la línea de pedido de venta siguiente.  
 
@@ -108,7 +108,7 @@ Los pedidos de venta son el tipo más común de documento de origen de salida.
 En la página **Picking inventario**, puede administrar todas las actividades de almacén de salida para un documento de origen determinado, como un pedido de venta.  
 
 ### <a name="to-pick-and-ship-items"></a>Realizar el picking y el envío de productos  
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Picking de inventario** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Picking de existencias** y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Nuevo**.  
 3.  Seleccione el campo **Documento origen** y luego **Pedido venta**.  
 4.  Seleccione el campo **Nº origen**, la línea para la venta al cliente 10000 y, a continuación, el botón **Aceptar**.  

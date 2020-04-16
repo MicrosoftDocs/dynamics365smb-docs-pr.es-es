@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 31ac21dbba331748c9eef7bce199a5709147016b
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 3df8666206409aaf811faedb635b47f1a0688b3b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554649"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193424"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Tutorial: recepción y ubicación en la configuración del almacenamiento básico
 
@@ -65,7 +65,7 @@ Para completar este tutorial, necesitará:
 -   CRONUS España S.A. instalado.  
 -   Para convertirse en un empleado de almacén en el almacén PLATA, realice los pasos siguientes:  
 
-    1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Empleados de almacén** y luego elija el enlace relacionado.  
+    1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Empleados de almacén** y luego elija el enlace relacionado.  
     2.  Elija el campo **Id. de usuario** y seleccione su propia cuenta de usuario en la página **Usuarios**.  
     3.  En el campo **Cód. almacén**, especifique PLATA.  
     4.  Seleccione el campo de **Predeterminado**.  
@@ -78,7 +78,7 @@ Ellen, administradora del almacén en CRONUS España S.A., crea un pedido de com
 
 ### <a name="to-set-up-the-location"></a>Configurar el almacén  
 
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Ubicaciones** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Almacenes** y, a continuación, elija el enlace relacionado.  
 2.  Abra la ficha de almacén PLATA.  
 3.  Active la casilla **Ubicación requerida**.  
 
@@ -98,7 +98,7 @@ Los pedidos de compra son el tipo más común de documento de origen de entrada.
 
 ### <a name="to-create-the-purchase-order"></a>Crear el pedido de compra  
 
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos compra** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de compra** y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Nuevo**.  
 3.  Cree un pedido de compra para el proveedor 10000 en la fecha de trabajo (23 de enero) con las líneas de pedido de compra siguientes.  
 
@@ -121,7 +121,7 @@ En la página **Ubicación existencias**, puede administrar todas las actividade
 
 ### <a name="to-receive-and-put-the-items-away"></a>Recibir y establecer la ubicación de los productos  
 
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Ubicac. inventario** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Ubicaciones existencias** y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Nuevo**.  
 3.  Seleccione el campo **Documento origen** y luego **Pedido compra**.  
 4.  Seleccione el campo **Nº origen**, seleccione la línea para la compra del proveedor 10000 y, a continuación, seleccione el botón **Aceptar**.  

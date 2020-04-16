@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 84d9c0768a457fd13a73b3d70d2b8c329098fe82
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: c5d9dcc46e05cef21961e20008227a1a35b737af
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953282"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193887"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Administrar archivos adjuntos, vínculos y notas en fichas y documentos
 
@@ -34,7 +34,7 @@ Puede adjuntar cualquier tipo de archivo, que contenga texto, imagen o vídeo, a
 > [!NOTE]
 > Los archivos adjuntos con la función Documentos entrantes no se incluyen en la pestaña **Anexos**. Para obtener más información, consulte [Documentos entrantes](across-income-documents.md).
 
-El procedimiento siguiente se basa en un pedido de venta. Los pasos son parecidos a los de los demás documentos y las fichas admitidos.
+El procedimiento siguiente se basa en una factura de compra. Los pasos son parecidos a los de los demás documentos y las fichas admitidos.
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Facturas de compra** y luego elija el enlace relacionado.
 2. Abra el pedido de venta al que desea adjuntar un archivo.
@@ -44,6 +44,16 @@ El procedimiento siguiente se basa en un pedido de venta. Los pasos son parecido
 5. Seleccione un archivo de cualquier ubicación y, a continuación, elija el botón **Abrir**.
 
 El archivo se adjunta ahora a la factura de compra.
+
+## <a name="to-save-a-document-as-a-pdf-attachment"></a>Para guardar un documento como un archivo PDF adjunto
+Siempre que necesite guardar un documento como un archivo, puede usar la acción **Adjuntar como PDF** para capturar el contenido actual del documento como un archivo PDF adjunto al cuadro informativo del documento. Esto es útil, por ejemplo, cuando los documentos siguen varios pasos de un proceso, como un proceso de ventas o un flujo de trabajo de aprobación, y desea consultar una copia impresa del paso anterior.
+
+El procedimiento siguiente se basa en un pedido de venta. Los pasos son similares para todos los documentos admitidos.
+
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.
+2. Seleccione un pedido de ventas y después seleccione la acción **Adjuntar como PDF** .
+
+Se agrega un archivo PDF con el contenido actual del pedido de cliente a la pestaña **Archivos adjuntos** del cuadro informativo. 
 
 ## <a name="to-add-a-link-from-an-item-card"></a>Para añadir un enlace de una ficha de producto
 Puede añadir un enlace de una ficha o un documento a cualquier URL o ruta. Esto es útil, por ejemplo, cuando desea vincular una ficha de producto con el catálogo de producto del proveedor.

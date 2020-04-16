@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: solsen
-ms.openlocfilehash: ab2bcb78479e91c111868c21bd3019c7971d9ffb
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e91332cd90ded6560f34bc2378eaf6e286b2eb43
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310881"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195512"
 ---
 # <a name="view-test-reports-before-posting"></a>Ver informes de prueba antes de realizar el registro
 Cuando esté listo para registrar un documento, como un pedido, una factura o un abono, puede probar el documento para asegurarse de que no hay problemas que vayan a bloquear el registro.
@@ -25,7 +25,7 @@ Cuando esté listo para registrar un documento, como un pedido, una factura o un
 >   Con el siguiente procedimiento se realiza una prueba antes de registrar un documento de compra. La funcionalidad funciona de la misma forma que para los documentos de venta.
 
 ## <a name="to-print-a-test-report-before-posting-a-purchase-invoice"></a>Para imprimir un test antes de registrar una factura de compra
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Facturas compra** y luego seleccione el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Facturas de compra** y luego seleccione el enlace relacionado.
 2. Abra la factura de compra que desee evaluar.
 3. Elija la acción **Informe de prueba**.  
 

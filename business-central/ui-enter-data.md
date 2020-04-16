@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/27/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 6a57af4a29e2b355dfe3f261a5d83fade992551d
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: 9405e285613c95e6c3bfcf19a5fc57e109b3f419
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2992094"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194432"
 ---
 # <a name="entering-data"></a>Introducción de datos
 
@@ -29,7 +29,7 @@ Hay varios métodos abreviados de teclado que le permiten trabajar "sin ratón" 
 
 Para obtener más información sobre estos métodos abreviados, consulte [Métodos abreviados de teclado](keyboard-shortcuts.md). Algunos de los métodos abreviados se explican en este artículo.
 
-## <a name="QuickEntry"></a>Acelerar la entrada de datos con la entrada rápida
+## <a name="accelerating-data-entry-using-quick-entry"></a><a name="QuickEntry"></a>Acelerar la entrada de datos con la entrada rápida
 
 La entrada rápida es una característica diseñada para la entrada de datos cuando se utiliza el teclado. La entrada rápida funciona en campos (como en las páginas de fichas) y en listas (filas y columnas). Es beneficiosa cuando se realizan tareas de escritura repetitivas que requieren la creación de varios registros en secuencia, como un lote de pedidos de venta o el registro de nuevos productos.
 
@@ -86,11 +86,11 @@ Para obtener más información, consulte [Preguntas frecuentes sobre copiar y pe
 
 ## <a name="filtering-line-items"></a>Filtrado de los productos de línea
 
-Para iniciar el filtrado, seleccione ![Icono Panel de filtro](media/open-filter-pane-icon.png "Icono Panel de filtro") en la parte superior de la lista o pulse Mayús+F3 para abrir el panel de filtro. Con el panel de filtros se trabaja como en cualquier otra lista. Para obtener más información, consulte [Filtrado](ui-enter-criteria-filters.md#Filtering).
+Para iniciar el filtrado, seleccione ![Icono Panel de filtro](media/open-filter-pane-icon.png "Icono Panel de filtro") en la parte superior de la lista o pulse Mayús+F3 para abrir el panel de filtro. Con el panel de filtros se trabaja como en cualquier otra lista. Para obtener más información, consulte [Filtrado](ui-enter-criteria-filters.md#filtering).
 
 El filtrado es especialmente útil cuando se ven y analizan documentos largos. Por ejemplo, imagine que abre una factura de ventas registrada y filtra los productos de línea para visualizar todos los productos de línea que tienen un descuento individual superior al 5 %, o bien establece un filtro para visualizar solo los accesorios de bicicleta con "pro" en el nombre.
 
-## <a name="Focus"></a>Enfoque en los productos de línea
+## <a name="focusing-on-line-items"></a><a name="Focus"></a>Enfoque en los productos de línea
 
 Al trabajar en documentos que incluyen una parte de productos de línea, como un pedido de venta o una página de factura, puede cambiar la vista para centrarse solo en los productos de línea. La parte de los productos de línea se expande para que ocupe casi todo el espacio de trabajo, ocultando otras partes de la página, excepto el área de acciones en la parte superior. Esto le proporciona una mejor visión general de los productos de línea y más espacio para trabajar en ellos.
 
@@ -113,6 +113,11 @@ Para abrir la ficha o documento actual en una nueva ventana, elija ![Abrir nueva
 > [!NOTE]
 > Si trabaja en el explorador Safari, un bloqueador de ventanas emergentes puede provocar que no se abra la nueva ventana. Si este es el caso, especifique la URL del producto como un sitio web permitido. Para obtener información, consulte [Cambiar las preferencias en Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
 > Lo mismo puede suceder en otros navegadores, como Firefox. Para obtener más información, vea [Configuración del bloqueador de elementos emergentes en Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400).  
+
+Otra forma de realizar múltiples tareas es abrir [!INCLUDE[d365fin](includes/d365fin_md.md)] en dos o más pestañas del navegador. Cuando haga esto, debe crear una nueva pestaña y luego copiar/pegar la URL de la pestaña original en la nueva pestaña. Esto crea una nueva sesión.   
+
+> [!NOTE]
+> No use la función **Duplicar** del navegador para crear la nueva pestaña, ya que esto puede hacer que las acciones de una pestaña bloqueen las acciones de otras pestañas porque son parte de la misma sesión.
 
 ## <a name="entering-quantities-by-calculation"></a>Introducir cantidades por cálculo
 

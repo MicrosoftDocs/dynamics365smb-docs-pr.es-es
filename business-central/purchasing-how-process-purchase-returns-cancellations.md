@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cancel, undo, correct
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 53bc73248b8c69e8c2fcd03270f7698f7f6f503a
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: fc2a3a372ac82ce936418f793cdd33eb3b0ea4b9
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953544"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193989"
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Procesamiento de devoluciones de compra o cancelaciones
 Si desea devolver productos al proveedor o cancelar servicios comprados, puede crear y registrar un abono de compra que especifique el cambio solicitado en relación a la factura de compra original. Para incluir la información correcta de la factura de compras, puede crear el abono de compra directamente de la factura de compra contabilizada o puede crear un nuevo abono de compra con información de factura copiada.
@@ -43,7 +43,7 @@ Existen dos funciones para asignar la reversión de coste exacta automáticament
 |Función|Description|  
 |------------------|---------------------------------------|  
 |Función **Revertir líneas documentos registrados** en la página **Pedido dev. compra**|Copia una o varias líneas de documentos registrados para revertirlas en el pedido de devolución de compra. Para obtener más información, consulte [Crear un pedido de devolución de compra basado en uno o más documentos de compra registrados](purchasing-how-process-purchase-returns-cancellations.md#to-create-a-purchase-return-order-based-on-one-or-more-posted-purchase-documents).|  
-|Función**Copiar líneas** en las páginas **Abono compra** y **Pedido dev. compra**|Copia la cabecera y las líneas de un documento registrado que se revertirá.<br /><br /> Requiere que se active la casilla de verificación **Coste exacto devol. obligatorio** en la página **Configuración compras y pagos**.|
+|Función **Copiar de documento** en las páginas **Abono compra** y **Pedido dev. compra**|Copia la cabecera y las líneas de un documento registrado que se revertirá.<br /><br /> Requiere que se active la casilla de verificación **Coste exacto devol. obligatorio** en la página **Configuración compras y pagos**.|
 
 Para asignar manualmente la reversión del coste exacto, debe elegir el campo **Liquid.-de mov. pdto** en cualquier tipo de línea de documento, y seleccionar el número del movimiento de compra original. De este modo el pedido de abono de compra o de devolución de compra se vincula al movimiento de compra original y se asegura que el producto se valore con el coste unitario original.
 
@@ -73,7 +73,7 @@ El abono de compra se ha eliminado y remplazado por un nuevo documento de la lis
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Abonos de compra** y luego elija el enlace relacionado.
 2. Seleccione la acción **Nuevo** para abrir un abono de compras vacío.
 3. En el campo **Proveedor**, escriba el nombre de un proveedor existente.
-4. Elija la acción **Copiar documento**.
+4. Elija la acción **Copiar de documento**.
 5. En la página **Copiar doc. compra**, en el campo **Tipo de documento**, seleccione el campo **Factura registrada**
 6. Elija el campo **Nº documento** para abrir la página **Histórico facturas compra** y seleccione la factura de compra registrada que contiene las líneas que desea revertir.
 7. Seleccione la casilla **Recalcular líneas** si desea que las líneas de factura de compra registradas copiadas se actualicen con los cambios en el precio y el coste unitario del producto desde que la factura fue registrada.
@@ -87,7 +87,7 @@ El abono de compra se ha eliminado y remplazado por un nuevo documento de la lis
 4. En la ficha desplegable **Líneas**, rellene las líneas manualmente o copie la información de otros documentos para rellenar las líneas automáticamente:
 
     - Utilice la función **Revertir líneas documentos registrados:** para copiar una o más líneas de documentos registrados de uno o varios documentos registrados. Esta función revierte siempre exactamente los costes a partir de la línea de documento registrada. Esta función se describe en los pasos siguientes.    
-    - Puede utilizar la función **Copiar documento** para copiar un documento existente al pedido de devolución. Utilice esta función para copiar el documento completo. Puede ser un documento registrado o un documento que todavía no se registró. Esta función sólo permite invertir el coste exacto cuando está seleccionada la casilla **Coste exacto devol. obligatorio** en la página **Configuración ventas y cobros**.  
+    - Utilice la función **Copiar de documento** para copiar un documento existente al pedido de devolución. Utilice esta función para copiar el documento completo. Puede ser un documento registrado o un documento que todavía no se registró. Esta función sólo permite invertir el coste exacto cuando está seleccionada la casilla **Coste exacto devol. obligatorio** en la página **Configuración ventas y cobros**.  
 
 4. Elija la acción **Revertir líneas documentos registrados**.
 5. En la parte superior de la página **Histórico líneas doc. compras**, seleccione el campo **Mostrar sólo líneas reversibles** si solo desea ver las líneas con cantidades que aún no se han devuelto. Por ejemplo, si la cantidad de una factura de compra registrada ya se ha devuelto, puede que no desee incluir esa cantidad en un nuevo documento de devolución de compra.
@@ -181,7 +181,7 @@ Cuando se combinan envíos devueltos en un abono y se registran, se crea un abon
 2.  Rellene los campos según sea necesario y, a continuación, haga clic en el botón **Aceptar**.  
 3.  También puede eliminar los pedidos de devolución de compra individuales manualmente.
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsreturn-items-dynamics-365-business-central"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/paths/return-items-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/paths/return-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Consulte también
 [Compras](purchasing-manage-purchasing.md)  

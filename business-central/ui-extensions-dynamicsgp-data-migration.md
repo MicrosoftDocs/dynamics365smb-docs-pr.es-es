@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 01/16/2020
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: b05959eea09289db7878145347362786ab336de8
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: 89611f41192820e03ee055ce171aa55738809195
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2992150"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194264"
 ---
 # <a name="the-dynamics-gp-data-migration-extension"></a>Extensión de la migración de datos de Dynamics GP 
 Esta extensión facilita migrar clientes, proveedores, productos de inventario, cuentas de contabilidad y transacciones de pagos y cobros pendientes desde Dynamics GP a [!INCLUDE[prodshort](includes/prodshort.md)]. Si la empresa usa Dynamics GP actualmente, puede exportar los registros correspondientes y después abrir una guía de instalación asistida para agregar los datos a [!INCLUDE[prodshort](includes/prodshort.md)]. La extensión de migración funciona para todas las versiones compatibles de Microsoft Dynamics GP. Para obtener más información, vea [Importar datos empresariales desde otros sistemas financieros](across-import-data-configuration-packages.md).

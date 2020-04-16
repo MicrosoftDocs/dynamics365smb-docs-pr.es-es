@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 01/17/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: a8388c81bfdf767463a27d845dded64ee0f08c7e
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: b0b3179e8931dbf4c647a7bf66ed1b9de45589ce
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2991933"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193592"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Procesamiento de devoluciones de ventas o cancelaciones
 Si un cliente desea devolver u obtener un reembolso de algún producto o servicio que usted ha vendido y que le han pagado, debe crear y registrar una abono de ventas que especifique el cambio requerido. Para incluir la información correcta de la factura de ventas, puede crear la nota de crédito de ventas directamente de la factura de venta contabilizada o puede crear una nueva nota de crédito de ventas con información de factura copiada.
@@ -44,7 +44,7 @@ Existen dos funciones para asignar la reversión de coste exacta automáticament
 |Función|Description|  
 |------------------|---------------------------------------|  
 |Función **Revertir líneas documentos registrados** en la página **Pedido dev. venta**|Copia una o varias líneas de documentos registrados para revertirlas en el pedido de devolución de ventas. Para obtener más información, consulte [Para crear un pedido de devolución de ventas basado en uno o más documentos de ventas publicados](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-return-order-based-on-one-or-more-posted-sales-documents).|  
-|Función**Copiar líneas** en las páginas **Abono venta** y **Pedido dev. venta**.|Copia la cabecera y las líneas de un documento registrado que se revertirá.<br /><br /> Requiere que se active la casilla de verificación **Coste exacto devol. obligatorio** en la página **Configuración ventas y cobros**.|
+|Función **Copiar de documento** en las páginas **Abono venta** y **Pedido dev. venta**|Copia la cabecera y las líneas de un documento registrado que se revertirá.<br /><br /> Requiere que se active la casilla de verificación **Coste exacto devol. obligatorio** en la página **Configuración ventas y cobros**.|
 
 Para asignar manualmente la reversión del coste exacto, debe elegir el campo **Liquid.-de mov. pdto** en cualquier tipo de línea de documento, y seleccionar el número del movimiento de venta original. De este modo el pedido de abono de venta o de devolución de venta se vincula al movimiento de venta original y se asegura que el producto se valore con el coste unitario original.
 
@@ -76,7 +76,7 @@ Los documentos de venta registrados a los que ha aplicado el abono están invert
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Abonos de venta** y luego elija el enlace relacionado.
 2. Seleccione la acción **Nuevo** para abrir un abono de ventas vacío.
 3. En el campo **Cliente**, escriba el nombre de un cliente existente.
-4. Elija la acción **Copiar documento**.
+4. Elija la acción **Copiar de documento**.
 5. En la página **Copiar documento de ventas**, en el campo **Tipo de documento**, seleccione el campo **Factura registrada**
 6. Elija el campo **Nº documento** para abrir la página **Histórico facturas venta** y seleccione la factura de venta registrada que contiene las líenas que desea revertir.
 7. Seleccione la casilla **Recalcular líneas** si desea que las líneas de factura de venta registradas copiadas se actualicen con los cambios en el precio y el coste unitario del producto desde que la factura fue registrada.
@@ -90,7 +90,7 @@ Los documentos de venta registrados a los que ha aplicado el abono están invert
 4. En la ficha desplegable **Líneas**, rellene las líneas manualmente o copie la información de otros documentos para rellenar las líneas automáticamente:
 
     - Utilice la función **Revertir líneas documentos registrados:** para copiar una o más líneas de documentos registrados de uno o varios documentos registrados. Esta función revierte siempre exactamente los costes a partir de la línea de documento registrada. Esta función se describe en los pasos siguientes.    
-    - Puede utilizar la función **Copiar documento** para copiar un documento existente al pedido de devolución. Utilice esta función para copiar el documento completo. Puede ser un documento registrado o un documento que todavía no se registró. Esta función sólo permite invertir el coste exacto cuando está seleccionada la casilla **Coste exacto devol. obligatorio** en la página **Configuración ventas y cobros**.  
+    - Utilice la función **Copiar de documento** para copiar un documento existente al pedido de devolución. Utilice esta función para copiar el documento completo. Puede ser un documento registrado o un documento que todavía no se registró. Esta función sólo permite invertir el coste exacto cuando está seleccionada la casilla **Coste exacto devol. obligatorio** en la página **Configuración ventas y cobros**.  
 
 5. Elija la acción **Revertir líneas documentos registrados**.
 6. En la parte superior de la página **Líneas doc. ventas contabilizadas**, seleccione el campo **Mostrar sólo líneas reversibles** si solo desea ver las líneas con cantidades que aún no se han devuelto. Por ejemplo, si la cantidad de una factura de venta registrada ya se ha devuelto, puede que no desee devolver dicha cantidad en un nuevo documento de devolución de venta.
@@ -218,7 +218,7 @@ Cuando las recepciones de devolución se agrupan en un abono y se registran, se 
 
 También puede eliminar los pedidos de devolución de venta individuales manualmente.   
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsreturn-items-dynamics-365-business-central"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/paths/return-items-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/paths/return-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Consulte también
 [Ccial](sales-manage-sales.md)  

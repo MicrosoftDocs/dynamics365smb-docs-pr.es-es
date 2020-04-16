@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 5f6f62e146f6799cad552e60b399f74636091ea7
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: cd3d7a821c088b6e9f457e3bf3dc05d0c53525c4
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953314"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194600"
 ---
 # <a name="change-basic-settings"></a>Cambiar la configuración básica
 
 En la página **Mi configuración**, puede ver y cambiar la configuración básica de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Los cambios que realice sólo afectan a su área de trabajo; no a las áreas de trabajo de otros usuarios.  
 
-## <a name="role-center"></a> Área de trabajo
+## <a name="role-center"></a><a name="role-center"></a> Área de trabajo
 El área de trabajo representa la página Inicio, una pantalla de inicio que está designada para las necesidades específicas del trabajo en una empresa. Dependiendo de su función, el Área de trabajo le brinda una descripción general del negocio, su departamento o sus tareas personales. También le ayuda a navegar por sus tareas diarias y encontrar el trabajo que le asignaron.
 
 -   En la parte superior, la navegación le permite cambiar entre clientes, proveedores, artículos y otras listas importantes de información. Del mismo modo, las acciones le permiten iniciar tareas, como crear una nueva factura de venta, directamente desde el Área de trabajo.
@@ -34,7 +34,7 @@ El rol pedido es **Administrador de negocio**, pero puede seleccionar otro rol p
 2. En la página **Mi configuración**, en el campo **Rol**, seleccione el rol que desea usar de forma predeterminada. Por ejemplo, seleccione **Contable**.
 3. Elija el botón **Aceptar**.
 
-## <a name="company"></a>Compañía
+## <a name="company"></a><a name="company"></a>Compañía
 Una empresa funciona como un contenedor de datos en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Puede haber múltiples empresas en una base de datos, pero solo se puede seleccionar una a la vez.
 
 La empresa predeterminada se llama CRONUS y solo contiene datos de demostración. Puede crear una nueva empresa con datos personalizados. Para obtener más información, consulte [Crear nuevas empresas](about-new-company.md).
@@ -42,7 +42,7 @@ La empresa predeterminada se llama CRONUS y solo contiene datos de demostración
 ## <a name="to-change-the-company-name"></a>Para cambiar el nombre de la empresa
 El nombre de la empresa siempre se muestra en la esquina superior izquierda y funciona como una acción que puede elegir para volver al área de trabajo. Puede cambiar este nombre en la página **Información de empresa**.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Información de empresa** y luego elija el enlace relacionado.
+1. Elija el icono ![Icono de rueda dentada para abrir el menú Configuración](media/ui-experience/settings_icon_small.png) y luego elija la acción **Información de empresa**.
 2. En el campo **Nombre**, introduzca el nuevo nombre de empresa.
 3. Salga de la página. El sistema se reinicia y muestra la nueva empresa en la esquina superior izquierda.
 
@@ -55,7 +55,7 @@ Puede agregar un distintivo personalizado en la esquina superior derecha, que pu
 > [!NOTE]
 > Si se define un distintivo de la empresa, no puede cambiar el nombre de la empresa como se describe en [Para cambiar el nombre de la empresa](ui-change-basic-settings.md#to-change-the-company-name)
 
-## <a name="work-date"></a>Fecha de trabajo
+## <a name="work-date"></a><a name="work-date"></a>Fecha de trabajo
 La fecha de trabajo más utilizada es la fecha actual. Es posible que tenga que cambiar temporalmente la fecha de trabajo para realizar tareas como la finalización de las transacciones de una fecha que no sea la fecha de hoy.
 
 > [!TIP]  
@@ -72,19 +72,21 @@ Siempre que la fecha de trabajo no esté establecida en la fecha de hoy, aparece
 - Si descarta el recordatorio, la fecha de trabajo aparecerá en el título de la página.  
 --> Si la fecha de trabajo no está establecida en el día actual (hoy), la fecha de trabajo actual se muestra en la esquina superior izquierda de todas las páginas donde puede editar datos.
 
-## <a name="region"></a> Región
+## <a name="region"></a><a name="region"></a> Región
 
 El valor **Región** determina cómo se muestran o se forman las fechas, los tiempos, los números, y divisas.
 
-## <a name="language"></a> Idioma
+## <a name="language"></a><a name="language"></a> Idioma
 Cambia el idioma de la pantalla. Este campo aparece sólo cuando hay más de un idioma a elegir.
 
 El idioma inicial lo determina el administrador o la configuración de su navegador cuando inicia sesión en [!INCLUDE[d365fin](includes/d365fin_md.md)]. El idioma que establezca se usará en todos los dispositivos desde los que inicie sesión, como un teléfono o una tableta.
 
+Los idiomas adicionales para [!INCLUDE[prodshort](includes/prodshort.md)] se pueden instalar desde AppSource. Si bien todos los idiomas de visualización compatibles se muestran en la lista, el administrador debe instalar la aplicación de idioma pertinente para el suscriptor antes de que los usuarios puedan cambiar al nuevo idioma en [!INCLUDE[prodshort](includes/prodshort.md)].  
+
 ## <a name="changing-when-i-receive-notifications"></a>Cambio al recibir notificaciones
 Seleccione este vínculo para ver o cambiar las notificaciones que recibe sobre determinados eventos o cambios de estado, cuando va a facturar a un cliente que tiene un saldo vencido o cuando el inventario disponible es inferior a la cantidad que va a vender, por ejemplo. Para obtener más información, consulte [Administrar notificaciones](ui-smart-notifications.md).
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulespersonalize-ui-dynamics-365-business-centralindex"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/personalize-ui-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Consulte también
 [Crear nuevas en empresas](about-new-company.md)  

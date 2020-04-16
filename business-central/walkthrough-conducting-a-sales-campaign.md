@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: dc739c364b7e1fba5ab7c885c8c32052fd8f2dc9
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 53bc7faefc01399ae8db1d0763bc6ec91745b7b5
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314897"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195296"
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Tutorial: realización de una campaña de ventas
 Una campaña es un tipo de actividad que implica varios contactos. Una importante parte de la configuración de una campaña implica la selección del público objetivo para la misma. Con este fin, en [!INCLUDE[d365fin](includes/d365fin_md.md)], creará un segmento o grupo de contactos con filtros.  
@@ -62,7 +62,7 @@ Una campaña es un tipo de actividad que implica varios contactos. Una important
 
 ### <a name="to-set-up-a-campaign"></a>Para configurar una campaña  
 
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Campañas** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Campañas** y luego elija el enlace relacionado.  
 2.  Seleccione **Nuevo** para crear una nueva campaña. En la ficha de la campaña, pulse Entrar para crear un número de la campaña insertado automáticamente.  
 3.  En el campo **Descripción**, escriba una descripción para la campaña, por ejemplo **Feria de muestras FUTURUS**.  
 4.  Elija el campo **Cód. estado** y seleccione un código de estado de la lista que se abre en la página **Estado campaña**.  
@@ -148,11 +148,11 @@ Una campaña es un tipo de actividad que implica varios contactos. Una important
 
 9. Se envían los archivos adjuntos. Cuando el proceso haya finalizado, haga clic en el botón **Aceptar** para el mensaje que indica que el segmento se registró.  
 
-     Las cartas se imprimen automáticamente y se registra el segmento. Dado que ya se registró el segmento, este no figura en la lista de segmentos, sino que se mueven a la lista de segmentos registrados. Para ver esa lista, elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Segmentos archivados** y luego elija el enlace relacionado.  
+     Las cartas se imprimen automáticamente y se registra el segmento. Dado que ya se registró el segmento, este no figura en la lista de segmentos, sino que se mueven a la lista de segmentos registrados. Para ver esa lista, elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Segmentos grabados** y luego elija el enlace relacionado.  
 
 10. Una vez registrado el segmento, cada carta se envíe que se registra como interacción, que se puede ver en el registro.  
 
-     Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Movs. log. interacción** y luego elija el enlace relacionado. Hay un movimiento para cada carta enviada.  
+     Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Movs. log. interacción** y luego elija el enlace relacionado. Hay un movimiento para cada carta enviada.  
 
 ### <a name="to-send-an-email-message-to-a-contact"></a>Procedimiento para enviar un correo electrónico a un contacto  
 
@@ -165,7 +165,7 @@ Una campaña es un tipo de actividad que implica varios contactos. Una important
 7.  Seleccione la casilla **Crea segmento seguimiento**.  
 8.  Elija el botón **Aceptar**.  
 
-     Las cartas se envían por correo electrónico automáticamente y se registra el segmento. Dado que ya se registró el segmento, este no figura en la lista de segmentos, sino que se guarda en la lista de segmentos registrados. Para ver esa lista, elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Segmentos archivados** y luego elija el enlace relacionado.  
+     Las cartas se envían por correo electrónico automáticamente y se registra el segmento. Dado que ya se registró el segmento, este no figura en la lista de segmentos, sino que se guarda en la lista de segmentos registrados. Para ver esa lista, elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Segmentos grabados** y luego elija el enlace relacionado.  
 
 ## <a name="registering-campaign-responses"></a>Registro de las respuestas de la campaña  
  En el siguiente par de semanas, los probables clientes responden a la carta. El director de marketing desea realizar un seguimiento de las respuestas y registrar estas interacciones.  

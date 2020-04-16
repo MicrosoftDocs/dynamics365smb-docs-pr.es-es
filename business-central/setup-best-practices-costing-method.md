@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4e6666cd68f0a4b240e3c5663b5229df7ebb09ab
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: cc6a94df19988827ee2f62398c8dfb7c972288a3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877068"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192272"
 ---
 # <a name="setup-best-practices-costing-method"></a>Procedimientos recomendados de configuración: valoración de existencias
 La **Valoración existencias** en la ficha de producto define cómo se registra el flujo de coste del producto y si un el valor real o presupuestado se capitaliza y utiliza en el cálculo del coste.  

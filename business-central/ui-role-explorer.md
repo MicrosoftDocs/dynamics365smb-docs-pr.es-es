@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/06/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c0cd3a1d72b466946f8efcd4774a1629c21af6d0
-ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
+ms.openlocfilehash: 5e6e034aa6a071751893ebae477cb3e22b2635bb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "2774800"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195368"
 ---
 # <a name="finding-pages-with-the-role-explorer"></a>Búsqueda de páginas con el explorador de roles
 Puede obtener una descripción general de todas las funciones empresariales que están disponibles para su rol y para otros roles si va un paso más allá. En la siguiente documentación, esta descripción general de funciones se denomina *explorador de roles*.
@@ -27,7 +27,9 @@ Puede abrir el explorador de roles desde el área de trabajo y todas las página
 - En su área de trabajo o en cualquier página de lista, elija el botón ![Botón Menú](media/ui_menu_button.png "Botón Menú") situado a la derecha de la barra de navegación o pulse Mayús+F12.
 - En la ventana **Dígame**, elija la acción **explorando** en la parte inferior.
 
-Para obtener una descripción general de la función empresarial que está disponible para los demás roles, además del suyo, elija la acción **Explorar todos** en la página que presenta el explorador de roles.
+Elija la acción **Buscar** en la parte superior del explorador de roles para localizar rápidamente nombres de características que contienen un cierto término.
+
+Elija la acción **Explorar todos** en la parte superior del explorador de roles para obtener una descripción general de las funciones empresariales que están disponibles para todos los roles, incluido el suyo.
 
 > [!NOTE]
 > Solo las acciones del área de trabajo para perfiles donde la casilla **Mostrar en Explorador de roles** esté seleccionada aparecerán en la versión extendida del explorador de roles (se muestra con la acción **Explorar todo**). Para obtener más información, consulte [Administrar perfiles](admin-users-profiles-roles.md).

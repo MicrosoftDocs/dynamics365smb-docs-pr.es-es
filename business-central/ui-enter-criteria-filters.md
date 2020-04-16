@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 412c354313e571969c3ab7aa87210ff432ae0e91
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 50fbfe2cfa10885ad126153b0602bf953a105d9f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882187"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194456"
 ---
 # <a name="sorting-searching-and-filtering"></a>Ordenar, buscar y filtrar
 Existen algunos parámetros que puede configurar que le ayudarán a buscar, encontrar y limitar los registros de una lista, un informe o un XMLport Estos incluyen la ordenación, la búsqueda y el filtrado. Puede aplicar solo algunos o todos a la vez para encontrar o analizar rápidamente sus datos.
@@ -69,7 +69,7 @@ En la tabla siguiente se muestran algunos ejemplos de cómo puede utilizar la b�
 > [!TIP]
 > Puede presionar **F3** para activar y desactivar el cuadro de búsqueda. Para obtener más información, consulte [Métodos abreviados de teclado](keyboard-shortcuts.md#KeyboardFilter).
 
-## <a name="Filtering"> </a>Filtrado
+## <a name="filtering"></a><a name="filtering"></a>Filtrado
 El filtrado proporciona una forma más avanzada y versátil de controlar qué registros se muestran en una lista o se incluyen en un informe o XMLport Existen dos diferencias principales entre la búsqueda y el filtrado, como se describe en la tabla siguiente.
 
 || **Búsqueda** | **Filtrado** |
@@ -132,7 +132,7 @@ Las columnas que ya tienen filtros se indican mediante el icono ![Icono Filtro](
 > [!TIP]
 > Acelere la búsqueda y el análisis de sus datos utilizando combinaciones de atajos de teclado. Por ejemplo, seleccione un campo, use **Mayús+Alt+F3** para agregar ese campo al panel de filtros, escriba los criterios de filtro, use **Ctrl+Intro** para volver a las filas, seleccione otro campo y use **Alt+F3** para filtrar ese valor. Para obtener más información, consulte [Métodos abreviados de teclado](keyboard-shortcuts.md#KeyboardFilter).
 
-### <a name="FilterCriteria"> </a>Criterios y símbolos de filtro
+### <a name="filter-criteria-and-symbols"></a><a name="FilterCriteria"> </a>Criterios y símbolos de filtro
 Al introducir criterios, puede usar todos los números y las letras que normalmente se emplean en un campo. También puede usar símbolos especiales (u operadores) para filtrar aún más los resultados. En las tablas siguientes se muestran los símbolos que se pueden usar en los filtros. Para obtener más información sobre fechas y horas, también puede consultar [Trabajar con fechas y horas del calendario](ui-enter-date-ranges.md).
 
 > [!IMPORTANT]  
@@ -231,7 +231,7 @@ En las siguientes secciones se describe cómo utilizar los diferentes operadores
 |`..1299|1400..`|Incluye los registros cuyo número sea menor o igual que 1299 o un número igual o mayor que 1400|  
 |`>50&<100`|Incluye los registros cuyo número sea mayor que 50 y menor que 100.|  
 
-### <a name="FilterTokens"> </a>Tokens de filtro
+### <a name="filter-tokens"></a><a name="FilterTokens"> </a>Tokens de filtro
 Al introducir criterios de filtro, también puede escribir palabras que tengan un significado especial, lo que se conoce como tokens de filtro. Después de introducir la palabra token, la palabra se reemplaza por el valor o valores que representa. Esto facilita el filtrado al reducir la necesidad de ir a otras páginas para buscar los valores que desea agregar a su filtro. En las tablas siguientes se describen algunos de los tokens que puede escribir como criterios de filtro.
 
 > [!TIP]

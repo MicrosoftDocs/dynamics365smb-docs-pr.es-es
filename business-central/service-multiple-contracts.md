@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: ba14e98e8387981d108b4a8440419f617fa3b3d8
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: c9822e35ea4ad6ad1b32894bbe0b980bf70149ae
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877188"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192536"
 ---
 # <a name="multiple-contracts"></a>Contratos múltiples
 Dependiendo de los acuerdos de nivel de servicio con un cliente, es posible que tenga que gestionar un producto de servicio en más de un contrato de servicio.  
@@ -38,7 +38,7 @@ Puede crear manualmente un contrato de servicio u oferta de contrato para produc
 Cuando se agrega un producto de servicio a una línea de contrato que ya está registrado en otro contrato de servicio u oferta de contrato, se muestra un mensaje de advertencia que indica que el producto de servicio ya pertenece a uno o varios contratos de servicio u ofertas de contrato. Si confirma este mensaje, toda la información pertinente del producto de servicio se copiará en la línea de contrato recién creada.  
   
 ## <a name="copying-documents"></a>Copiar documentos  
-Puede crear automáticamente un contrato de servicio u oferta de contrato para productos de servicio ya registrados en otros contratos de servicio u ofertas de contratos mediante la acción **Copiar documento**.  
+Puede crear automáticamente un contrato de servicio u oferta de contrato para productos de servicio ya registrados en otros contratos de servicio u ofertas de contratos mediante la acción **Copiar de documento**.  
   
 ## <a name="creating-service-orders-for-multiple-contracts"></a>Creación de pedidos de servicios para múltiples contratos  
 Puede crear un pedido de servicio manualmente para un producto de servicio que esté registrado en múltiples contratos activos. Un contrato de servicio está activo cuando está firmado y no ha caducado.  

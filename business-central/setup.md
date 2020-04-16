@@ -8,24 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 11/20/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: ac1cc92d67142b22de67dc417686a869a9ea5277
-ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
+ms.openlocfilehash: 80f33734365ad52b59e77d89e35af81d5a798fcb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832364"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194672"
 ---
-# <a name="setting-up-included365finincludesd365fin_mdmd"></a>Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]
-[!INCLUDE[d365fin](includes/d365fin_md.md)] incluye configuraciones estándar de la mayoría de procesos empresariales, pero puede cambiar la configuración para que se adapte a las necesidades de la empresa.
+# <a name="setting-up-prodshort"></a>Configurar [!INCLUDE[prodshort](includes/prodshort.md)]
+
+[!INCLUDE[prodshort](includes/prodshort.md)] incluye configuraciones estándar de la mayoría de procesos empresariales, pero puede cambiar la configuración para que se adapte a las necesidades de su organización.
 
 Por ejemplo, para que su plan de cuentas se rellene previamente con varias cuentas de registro listas para usar. Por supuesto, puede cambiar el plan de cuentas para satisfacer sus necesidades. Para obtener más información, consulte [Finanzas](finance.md).
 
-Desde el área de trabajo, puede acceder a guías de configuración asistida que le ayudarán a configurar varios escenarios y añadir funciones a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener información acerca de cómo acceder a todas las páginas de configuración manual y asistida, consulte [Preparación para hacer negocios](ui-get-ready-business.md).
-
-> [!NOTE]
-> Puede configurar una nueva empresa en [!INCLUDE[d365fin](includes/d365fin_md.md)] con RapidStart Services, que es una herramienta diseñada para acortar los tiempos de implementación, mejorar la calidad de la implementación, introducir un método de repetición para las implementaciones y mejorar la productividad mediante la automatización y simplificación de las tareas periódicas. Para obtener más información, consulte [Configuración de una empresa con RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
+Desde el ![icono de rueda dentada para abrir el menú Configuración](media/ui-experience/settings_icon_small.png), puede acceder a guías de configuración asistida que ayudan a configurar ciertos escenarios y agregar funciones a [!INCLUDE[prodshort](includes/prodshort.md)]. Para obtener información acerca de cómo acceder a todas las páginas de configuración manual y asistida, consulte [Preparación para hacer negocios](ui-get-ready-business.md).
 
 Alguna funcionalidad, general o de procesos empresariales específicos, se puede configurar manualmente además de la guía de configuración asistida. A continuación se enumera parte de la funcionalidad que puede configurar manualmente.
 
@@ -57,11 +55,14 @@ Alguna funcionalidad, general o de procesos empresariales específicos, se puede
 
 Algunas regiones requieren que sea el administrador en su suscripción [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, consulte [Administración](admin-setup-and-administration.md).  
 
+> [!NOTE]
+> Como administrador, puede configurar una nueva empresa en [!INCLUDE[d365fin](includes/d365fin_md.md)] con RapidStart Services, que es una herramienta diseñada para acortar los tiempos de implementación, mejorar la calidad de la implementación, introducir un método de repetición para las implementaciones y mejorar la productividad mediante la automatización y simplificación de las tareas periódicas. Para obtener más información, consulte [Configuración de una empresa con RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
+
 ## <a name="see-also"></a>Consulte también
 
 [Administración](admin-setup-and-administration.md)  
 [Finanzas](finance.md)  
-[Ventas](sales-manage-sales.md)  
+[Ccial](sales-manage-sales.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Inventario](inventory-manage-inventory.md)  
 [Administración de proyectos](projects-manage-projects.md)  
