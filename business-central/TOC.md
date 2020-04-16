@@ -28,7 +28,7 @@
 
 # Trabajar con Business Central
 ## [Panorama](ui-work-product.md)
-## [Guía rápida en versión para imprimir](ui-work-product.md)
+## [Guía rápida en versión para imprimir](ui-work-product.md#cheatsheet)
 ## [Búsqueda de páginas e información con Dígame](ui-search.md)
 ## [Búsqueda de páginas con el explorador de roles](ui-role-explorer.md)
 ## [FAQ acerca de la función Dígame](ui-search-faq.md)
@@ -43,6 +43,7 @@
 ## [Administrar archivos adjuntos, vínculos y notas en fichas y documentos](ui-how-add-link-to-record.md)
 ## [Cambiar la configuración básica](ui-change-basic-settings.md)
 ## [Administrar notificaciones](ui-smart-notifications.md)
+## [Consejos de rendimiento para usuarios comerciales](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
 ## Personalizar Business Central
 ### [Personalizar el área de trabajo](ui-personalization-user.md)
 ### [Por qué la página está bloqueada para la personalización](ui-personalization-locked.md)
@@ -51,7 +52,7 @@
 ### [Mostrar listas en diferentes vistas](across-display-lists-different-views.md)
 ## Imprimir informes y ejecutar trabajos por lotes y XMLports
 ### [Trabajar con informes, trabajos por lotes y XMLports](ui-work-report.md)
-### [Especificar selección de impresora para informes](ui-specify-printer-selection-reports.md)
+### [Configuración de impresoras](ui-specify-printer-selection-reports.md)
 ### [Programar un informe para que se ejecute](ui-work-report.md#ScheduleReport)
 ### [Administrar configuraciones guardadas para informes y trabajos por lotes](reports-saving-reusing-settings.md)
 ### [Ver informes de prueba antes de realizar el registro](ui-how-view-test-reports-posting.md)
@@ -78,7 +79,7 @@
 ### [Configurar los grupos contables](finance-posting-groups.md)
 ### [Preparar informes financieros con esquemas de cuentas y categorías de cuentas](bi-how-work-account-schedule.md)
 ### [Trabajar con tolerancias de pago y tolerancias de descuento de pago](finance-payment-tolerance-and-payment-discount-tolerance.md)
-### [Abrir un nuevo ejercicio](finance-how-open-new-fiscal-year.md)
+### [Trabajar con periodos contables y ejercicios](finance-accounting-periods-and-fiscal-years.md)
 ### [Configurar el impuesto sobre el valor añadido (IVA)](finance-setup-vat.md)
 ### [Configurar el IVA no realizado para la contabilidad basada en efectivo](finance-setup-unrealized-vat.md)
 ### [Permitir la liquidación de movimientos de cliente en distintas divisas](finance-how-enable-application-ledger-entries-different-currencies.md)
@@ -322,6 +323,7 @@
 ## [Crear usuarios de acuerdo con las licencias](ui-how-users-permissions.md)
 ## [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md)
 ## [Administración de perfiles](admin-users-profiles-roles.md)
+## [Configuración de impresoras](ui-specify-printer-selection-reports.md)
 ## [Clasificar confidencialidad de datos](admin-classifying-data-sensitivity.md)
 ## [Respuesta a las solicitudes de datos personales](admin-responding-to-requests-about-personal-data.md)
 ## [Crear nuevas en empresas](about-new-company.md)
@@ -367,13 +369,17 @@
 #### [Extensiones de Business Central de otros proveedores](ui-extensions-other.md)
 ## Integración con Dynamics 365 Sales
 ### [Panorama](admin-prepare-dynamics-365-for-sales-for-integration.md)
-### [Configuración de cuentas de usuario para la integración con Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)
-### [Configurar una conexión de Dynamics 365 Sales](admin-how-to-set-up-a-dynamics-crm-connection.md)
-### [Sincronización de Business Central y Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)
+## Integración con Common Data Service
+### [Panorama](admin-common-data-service.md)
+### [Modelos de propiedad de datos](admin-cds-company-concept.md)
+### [Configuración de cuentas de usuario para la integración con Common Data Service](admin-setting-up-integration-with-dynamics-sales.md)
+### [Conectar a Common Data Service](admin-how-to-set-up-a-dynamics-crm-connection.md)
+### [Sincronización de Business Central y Common Data Service](admin-synchronizing-business-central-and-sales.md)
 ### [Asignación de tablas y campos para sincronizar](admin-how-to-modify-table-mappings-for-synchronization.md)
 ### [Sincronizar manualmente las asignaciones de tablas](admin-manual-synchronization-of-table-mappings.md)
 ### [Programar una sincronización](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Solución de problemas de errores de sincronización](admin-troubleshoot-sales-synchronization.md)
+<!-- ### [Developer Walkthrough: Custom Integration with Common Data Service](admin-walkthrough-customizing-cds-integration.md) moved to devitpro -->
 
 # Finanzas
 ## [Panorama](finance.md)
@@ -511,6 +517,7 @@
 ## [Analizar datos por dimensiones](bi-how-analyze-data-dimension.md)
 ## [Crear informes de análisis](bi-how-create-analysis-views-reports.md)
 ## [Crear informes con XBRL](bi-create-reports-with-xbrl.md)
+## [Gestionar la intención de acceso a la base de datos](admin-data-access-intent.md)
 
 # Ccial
 ## [Panorama](sales-manage-sales.md)
@@ -646,7 +653,7 @@
 ## [Vender productos de inventario en los flujos de ensamblar para pedido](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md)
 ## [Vender productos de ensamblado para pedido y productos de inventario juntos](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)
 ## [Crear pedidos abiertos ensamblados](assembly-how-to-create-blanket-assembly-orders.md)
-## [Deshacer registro de ensamblado](assembly-how-to-undo-assembly-posting.md).
+## [Deshacer registro de ensamblado](assembly-how-to-undo-assembly-posting.md)
 ## [Trabajar con listas de materiales](inventory-how-work-BOMs.md)
 ## [Detalles de diseño: Registro de pedidos de ensamblado](design-details-assembly-order-posting.md)
 
@@ -1390,7 +1397,7 @@
 #### [Impuesto sobre el valor añadido de Suiza](LocalFunctionality/Switzerland/swiss-value-added-tax.md)
 #### [Tipos de IVA para Suiza](LocalFunctionality/Switzerland/vat-rates-for-switzerland.md)
 ### Banca y pagos
-#### Código QR en resguardos de pagos de Suiza
+#### QR-Gestión de facturas (LocalFunctionality/Switzerland/ui-extensions-qr-bill-management.md)
 #### [Cerrar un cobro LSV](LocalFunctionality/Switzerland/how-to-close-an-lsv-collection.md)
 #### [Exportar pagos mediante LSV](LocalFunctionality/Switzerland/how-to-export-payments-using-lsv.md)
 #### [Importar pagos ESR](LocalFunctionality/Switzerland/how-to-import-esr-payments.md)

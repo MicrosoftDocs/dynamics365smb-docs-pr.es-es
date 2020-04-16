@@ -9,38 +9,38 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 1e45a480e8fdcc508de8ac82a6d2860147d76cec
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: b9926ced6827354c438445f0618db5a525b080d2
+ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2991789"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3196740"
 ---
 # <a name="using-dynamics-365-sales-from-business-central"></a>Uso de Dynamics 365 Sales desde Business Central
 Si utiliza Dynamics 365 Sales para la interacción con el cliente, puede disfrutar de una integración perfecta en el proceso de clientes potenciales a efectivo mediante el uso de [!INCLUDE[d365fin](includes/d365fin_md.md)] para las actividades de backend como el procesamiento de pedidos, la gestión de inventario y la gestión de sus finanzas.
 
-Para poder utilizar las capacidades de integración, debe configurar la conexión y definir los usuarios en [!INCLUDE[crm_md](includes/crm_md.md)]. Para obtener más información, vea [Integración con Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).
+Para poder utilizar las capacidades de integración, el administrador del sistema debe configurar la conexión y definir los usuarios en [!INCLUDE[crm_md](includes/crm_md.md)]. Para obtener más información, vea [Integración con Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).
 
 > [!NOTE]
 > Estos pasos describen el proceso de integración de las versiones en línea de [!INCLUDE[crm_md](includes/crm_md.md)] y [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener información sobre la configuración local, consulte [Preparación de Dynamics 365 Sales para la integración local](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
 La integración de las aplicaciones le permite acceder a los datos de Sales desde [!INCLUDE[d365fin](includes/d365fin_md.md)] y, en algunos casos, al revés. Puede trabajar con los datos y sincronizar los que tienen en común ambos servicios, como clientes, contactos e información de ventas, y mantener los datos actualizados en ambas aplicaciones.  
 
-Por ejemplo, un vendedor en Sales puede utilizar las listas de precios de [!INCLUDE[d365fin](includes/d365fin_md.md)] cuando se crea un pedido de venta. Cuando agrega el producto a la línea del pedido de venta en Sales, puede ver el nivel de inventario (disponibilidad) del producto desde [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Por ejemplo, un vendedor en [!INCLUDE[crm_md](includes/crm_md.md)] puede utilizar las listas de precios de [!INCLUDE[d365fin](includes/d365fin_md.md)] cuando se crea un pedido de venta. Cuando agrega el producto a la línea del pedido de venta en [!INCLUDE[crm_md](includes/crm_md.md)], puede ver el nivel de inventario (disponibilidad) del producto desde [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Por el contrario, los procesadores de pedidos en [!INCLUDE[d365fin](includes/d365fin_md.md)] pueden gestionar los pedidos de venta que se transfieren de forma automática o manual desde ventas. Por ejemplo, pueden crear y registrar líneas de pedido de venta para productos o recursos que se introdujeron en Sales como productos fuera de catálogo. Para obtener más información, consulte [Manejo de datos de pedidos de ventas especiales](marketing-integrate-dynamicscrm.md#handling-sales-order-data).
+Por el contrario, los procesadores de pedidos en [!INCLUDE[d365fin](includes/d365fin_md.md)] pueden gestionar los pedidos de venta que se transfieren de forma automática o manual desde [!INCLUDE[crm_md](includes/crm_md.md)]. Por ejemplo, pueden crear y registrar líneas de pedido de venta para productos o recursos que se introdujeron en [!INCLUDE[crm_md](includes/crm_md.md)] como productos fuera de catálogo. Para obtener más información, consulte [Manejo de datos de pedidos de ventas especiales](marketing-integrate-dynamicscrm.md#handling-sales-order-data).
 
 > [!IMPORTANT]  
-> [!INCLUDE[d365fin](includes/d365fin_md.md)] se integra solo con Dynamics 365 Sales. Otras aplicaciones de Dynamics 365 que cambian el flujo de trabajo estándar o el modelo de datos en Sales, por ejemplo, Project Service Automation, pueden romper la integración entre [!INCLUDE[d365fin](includes/d365fin_md.md)] y Sales.
+> [!INCLUDE[d365fin](includes/d365fin_md.md)] se integra solo con [!INCLUDE[crm_md](includes/crm_md.md)]. Otras aplicaciones de Dynamics 365 que cambian el flujo de trabajo estándar o el modelo de datos en [!INCLUDE[crm_md](includes/crm_md.md)], por ejemplo, Project Service Automation, pueden romper la integración entre [!INCLUDE[d365fin](includes/d365fin_md.md)] y [!INCLUDE[crm_md](includes/crm_md.md)].
 
-### <a name="coupling-records"></a>Emparejamiento de registros
-La guía de configuración asistida le permite elegir los datos que desea sincronizar. Más tarde, también puede configurar la sincronización de registros específicos. Esto se conoce como *emparejamiento*. Por ejemplo, puede emparejar una cuenta específica en Sales con un cliente específico en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Esta sección describe lo que se debe tener en cuenta al emparejar registros.
+## <a name="coupling-records"></a>Emparejamiento de registros
+La guía de configuración asistida le permite elegir los datos que desea sincronizar. Más tarde, también puede configurar la sincronización de registros específicos. Esto se conoce como *emparejamiento*. Por ejemplo, puede emparejar una cuenta específica en [!INCLUDE[crm_md](includes/crm_md.md)] con un cliente específico en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Esta sección describe lo que se debe tener en cuenta al emparejar registros.
 
-Por ejemplo, si desea ver las cuentas de Sales como clientes en [!INCLUDE[d365fin](includes/d365fin_md.md)], debe emparejar los dos tipos de registros. Para ello, en la página de lista **Clientes** en [!INCLUDE[d365fin](includes/d365fin_md.md)], utilice la acción **Configurar emparejamiento**. A continuación, especifique qué clientes de [!INCLUDE[d365fin](includes/d365fin_md.md)] coinciden con cada cuenta de Sales.
+Por ejemplo, si desea ver las cuentas de [!INCLUDE[crm_md](includes/crm_md.md)] como clientes en [!INCLUDE[d365fin](includes/d365fin_md.md)], debe emparejar los dos tipos de registros. Para ello, en la página de lista **Clientes** en [!INCLUDE[d365fin](includes/d365fin_md.md)], utilice la acción **Configurar emparejamiento**. A continuación, especifique qué clientes de [!INCLUDE[d365fin](includes/d365fin_md.md)] coinciden con cada cuenta de [!INCLUDE[crm_md](includes/crm_md.md)].
 
-También puede crear (y emparejar) una cuenta en Sales basada, por ejemplo, en el registro de cliente de [!INCLUDE[d365fin](includes/d365fin_md.md)] mediante **Crear cuenta en Dynamics 365 Sales**, o viceversa, mediante **Crear cliente en [!INCLUDE[d365fin](includes/d365fin_md.md)]**.
+También puede crear (y emparejar) una cuenta en [!INCLUDE[crm_md](includes/crm_md.md)] basada, por ejemplo, en el registro de cliente de [!INCLUDE[d365fin](includes/d365fin_md.md)] mediante **Crear cuenta en Dynamics 365 Sales**, o viceversa, mediante **Crear cliente en [!INCLUDE[d365fin](includes/d365fin_md.md)]**.
 
 Al configurar el emparejamiento entre dos registros, también puede solicitar manualmente que el registro actual, por ejemplo, un cliente, se sobrescriba inmediatamente con los datos de cuenta desde Sales (o desde [!INCLUDE[d365fin](includes/d365fin_md.md)]) mediante la acción **Sincronizar ahora**. Acción **Sincronizar ahora** que preguntará si desea sobrescribir los datos de registro de Sales o [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
@@ -48,17 +48,17 @@ En algunos casos se deben emparejar ciertos conjuntos de datos antes que otros, 
 
 |Datos|Qué se debe emparejar primero|
 |-----|----|
-|Clientes y cuentas|Emparejar vendedores con usuarios de Sales|
-|Productos y recursos|Emparejar unidades de medida con grupos de unidades de Sales|
-|Precios de productos y recursos|Emparejar grupos de precios de cliente con precios de Sales|
+|Clientes y cuentas|Emparejar vendedores con usuarios de [!INCLUDE[crm_md](includes/crm_md.md)]|
+|Productos y recursos|Emparejar unidades de medida con grupos de unidades de [!INCLUDE[crm_md](includes/crm_md.md)]|
+|Precios de productos y recursos|Emparejar grupos de precios de cliente con precios de [!INCLUDE[crm_md](includes/crm_md.md)]|
 
 > [!NOTE]  
 > Si sus precios o clientes utilizan precios en divisas extranjeras, asegúrese de emparejar las divisas con las divisas de transacción de Sales.
 
-En Sales, los pedidos de venta dependen de información como clientes, unidades de medida, divisas, grupos de precios de cliente, productos o recursos. Para que la integración con los pedidos de venta funcione, debe emparejar clientes, unidades de medida, divisas, grupos de precios de cliente, productos o recursos.
+En [!INCLUDE[crm_md](includes/crm_md.md)], los pedidos de venta dependen de información como clientes, unidades de medida, divisas, grupos de precios de cliente, productos o recursos. Para que la integración con los pedidos de venta funcione, debe emparejar clientes, unidades de medida, divisas, grupos de precios de cliente, productos o recursos.
 
-### <a name="fully-synchronizing-records"></a>Sincronización completa de los registros
-Al final de la guía de configuración asistida, puede elegir la acción **Ejecutar sincronización completa** para iniciar la sincronización de todos los registros de [!INCLUDE[d365fin](includes/d365fin_md.md)] con todos los registros relacionados en Sales. En la página **Revisión de sinc. completa de Dynamics 365 Sales**, elija la acción **Iniciar**. La sincronización de relleno puede tardar algún tiempo en completarse, pero puede continuar trabajando en [!INCLUDE[d365fin](includes/d365fin_md.md)] mientras se ejecuta en segundo plano.
+## <a name="fully-synchronizing-records"></a>Sincronización completa de los registros
+Al final de la guía de configuración asistida, puede elegir la acción **Ejecutar sincronización completa** para iniciar la sincronización de todos los registros de [!INCLUDE[d365fin](includes/d365fin_md.md)] con todos los registros relacionados en [!INCLUDE[crm_md](includes/crm_md.md)]. En la página **Revisión de sinc. completa de Dynamics 365 Sales**, elija la acción **Iniciar**. La sincronización completa puede tardar algún tiempo en completarse, pero puede continuar trabajando en [!INCLUDE[d365fin](includes/d365fin_md.md)] mientras se ejecuta en segundo plano.
 
 Para comprobar el progreso de los trabajos individuales en una sincronización completa, en la página **Revisión de sinc. completa de Dynamics 365 Sales**, seleccione un registro para ver los detalles. Para actualizar el estado durante la sincronización, actualice la página.
 
@@ -73,10 +73,10 @@ Esto también puede funcionar si el pedido de cliente original contiene producto
 
 Si la descripción del artículo en el pedido de venta original es larga, se crea una línea de orden de venta adicional del tipo **Comentario** para mantener el texto completo en el pedido de cliente en [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Las actualizaciones de los campos de cabecera de pedido de venta, como Fecha de último envío o Fecha entrega requerida, que se asignan en **Asignación de tablas de integración** de PEDIDODEVENTA-PEDIDO se sincronizan periódicamente con [!INCLUDE[crm_md](includes/crm_md.md)]. Procesos como la liberación de un pedido de venta y el envío o facturación de un pedido de venta se registran contabilizan en la escala de tiempo del pedido de venta en [!INCLUDE[crm_md](includes/crm_md.md)]. Para obtener más información, consulte [Introducción a las fuentes de actividades](/dynamics365/customer-engagement/developer/introduction-activity-feeds).
+Las actualizaciones de los campos de las cabeceras de los pedidos de venta, como los campos Fecha de último envío o Fecha entrega requerida, que se asignan en **Asignación de tablas de integración** de PEDIDODEVENTA-PEDIDO se sincronizan periódicamente con [!INCLUDE[crm_md](includes/crm_md.md)]. Procesos como la liberación de un pedido de venta y el envío o facturación de un pedido de venta se registran contabilizan en la escala de tiempo del pedido de venta en [!INCLUDE[crm_md](includes/crm_md.md)]. Para obtener más información, consulte [Introducción a las fuentes de actividades](/dynamics365/sales-enterprise/developer/introduction-activity-feeds). <!--The link is broken. Should this actually point to https://docs.microsoft.com/en-us/dynamics365/sales-enterprise/manage-activities-->
 
 > [!NOTE]  
-> La sincronización periódica basada en la **asignación de tablas de integración** de PEDIDODEVENTA-PEDIDO solo funcionará cuando la integración de pedidos de venta esté activada. Para obtener más información, consulte [Conectar con Dynamics 365 Sales](admin-how-to-set-up-a-dynamics-crm-connection.md). Solo se sincronizan los pedidos de venta creados a partir de los pedidos de venta enviados en [!INCLUDE[crm_md](includes/crm_md.md)]. Para obtener más información, consulte [Activar la integración de procesamiento de pedidos de venta](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration).
+> La sincronización periódica basada en la **asignación de tablas de integración** de PEDIDODEVENTA-PEDIDO solo funcionará cuando la integración de pedidos de venta esté activada. Para más información, vea [Configuración de la conexión en la página Configuración de la conexión de Sales](admin-prepare-dynamics-365-for-sales-for-integration.md). Solo se sincronizan los pedidos de venta creados a partir de los pedidos de venta enviados en [!INCLUDE[crm_md](includes/crm_md.md)]. Para obtener más información, consulte [Activar la integración de procesamiento de pedidos de venta](/dynamics365/sales-enterprise/developer/enable-sales-order-processing-integration).
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098170]
 

@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 022e364b6a40fe8df1f9c4e3425030d35f729e6a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2371c61c36a17df93ccc1a24c588b12613f5c380
+ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304497"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3196620"
 ---
 # <a name="view-the-status-of-synchronization-jobs"></a>Ver el estado de los proyectos de sincronización
-Utilice la página **Errores de sincronización de datos emparejados** para ver el estado de los proyectos de sincronización que se han ejecutado para los registros emparejados en una integración de [!INCLUDE[crm_md](includes/crm_md.md)]. Esto incluye proyectos que se han ejecutado desde la cola de proyectos y proyectos manuales de sincronización que se han ejecutado en registros desde [!INCLUDE[d365fin](includes/d365fin_md.md)]. Por ejemplo, ver su estado es útil para la resolución de problemas, ya que le da acceso a los detalles sobre los errores relacionados con los registros emparejados. Normalmente, estos tipos de errores se deben a acciones del usuario, por ejemplo, cuando:  
+Utilice la página **Errores de sincronización de datos emparejados** para ver el estado de los proyectos de sincronización que se han ejecutado para los registros emparejados en una integración de Common Data Service o [!INCLUDE[crm_md](includes/crm_md.md)]. Esto incluye proyectos que se han ejecutado desde la cola de proyectos y proyectos manuales de sincronización que se han ejecutado en registros desde [!INCLUDE[d365fin](includes/d365fin_md.md)]. Por ejemplo, ver su estado es útil para la resolución de problemas, ya que le da acceso a los detalles sobre los errores relacionados con los registros emparejados. Normalmente, estos tipos de errores se deben a acciones del usuario, por ejemplo, cuando:  
 
 * Dos personas han hecho un cambio en el mismo registro en ambas aplicaciones empresariales.
 * Alguien ha eliminado un registro de una de las aplicaciones, pero no de ambas.
@@ -29,7 +29,7 @@ Utilice la página **Errores de sincronización de datos emparejados** para ver 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098171]
 
 ## <a name="to-view-and-resolve-synchronization-errors-for-coupled-records"></a>Para ver y resolver los errores de sincronización de los registros emparejados
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Errores de sincronización de datos emparejados** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Errores de sincronización de datos emparejados** y luego elija el enlace relacionado.
 2. La página **Errores de sincronización de datos emparejados** muestra los problemas que se produjeron al sincronizar registros emparejados. La siguiente tabla incluye acciones que puede utilizar para resolver problemas uno por uno:
 
 |Acción|Descripción|
@@ -37,10 +37,10 @@ Utilice la página **Errores de sincronización de datos emparejados** para ver 
 |**Eliminar emparejamiento**|Desempareja los registros y ya no se sincronizarán. Para reanudar la sincronización de los registros, debe emparejarlos de nuevo.|
 |**Reintentar**|Para cada registro en el que se encuentra un error, la sincronización se omite a menos que solucione el problema manualmente. El reintento incluirá el registro en la siguiente sincronización.|
 |**Sincronizar**|La aplicación intentará resolver un conflicto en el que se haya cambiado un registro en ambas aplicaciones empresariales. Puede elegir la versión del registro que se usará en ambas aplicaciones.|
-|**Restaurar Registros** y **Eliminar registros**|Son útiles cuando se ha eliminado un registro en una de las aplicaciones. La opción Eliminar registros elimina el registro en la aplicación donde aún existe. La restauración recrea el registro en la aplicación donde se eliminó.|
+|**Restaurar Registros** y **Eliminar registros**|Son útiles cuando se ha eliminado un registro en una de las aplicaciones empresariales. La opción Eliminar registros elimina el registro en la aplicación donde aún existe. La restauración recrea el registro en la aplicación empresarial donde se eliminó.|
 
 ## <a name="to-view-the-synchronization-log-for-a-specific-manually-synchronized-record"></a>Para ver el registro de sincronización de un registro específico (sincronizado manualmente)
-1. Abrir, por ejemplo, un cliente, un producto o cualquier otro registro que esté sincronizando datos entre [!INCLUDE[d365fin](includes/d365fin_md.md)] y [!INCLUDE[crm_md](includes/crm_md.md)].
+1. Abrir, por ejemplo, un cliente, un producto o cualquier otro registro que esté sincronizando datos entre [!INCLUDE[d365fin](includes/d365fin_md.md)] y Common Data Service o [!INCLUDE[crm_md](includes/crm_md.md)].
 2. Seleccione la acción **Registro de sincronización** para ver el registro de sincronización de un registro seleccionado. Por ejemplo, un cliente específico que ha sincronizado manualmente.
 
 ## <a name="see-also"></a>Consulte también  

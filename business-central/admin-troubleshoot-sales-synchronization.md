@@ -10,19 +10,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 489e66165c5441ea63043a30dee8af314ef5d815
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: 82b5f3ec52be27c4fbe60a6a63a0cfc5f6f1bd7c
+ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2991813"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3196548"
 ---
 # <a name="troubleshooting-synchronization-errors"></a>Solución de problemas de errores de sincronización
-Hay muchos factores involucrados en la integración de [!INCLUDE[d365fin](includes/d365fin_md.md)] con [!INCLUDE[crm_md](includes/crm_md.md)], y a veces las cosas salen mal. Este tema señala algunos de los errores típicos que se producen y ofrece algunos consejos para corregirlos.
+Hay muchos factores involucrados en la integración de [!INCLUDE[d365fin](includes/d365fin_md.md)] con Common Data Service, y a veces las cosas salen mal. Este tema señala algunos de los errores típicos que se producen y ofrece algunos consejos para corregirlos.
 
 A menudo se producen errores, ya sea por algo que un usuario ha hecho a los registros emparejados o por algo que no funciona en la configuración de la integración. En el caso de los errores relacionados con los registros emparejados, los usuarios pueden resolverlos por sí mismos. Estos errores se deben a acciones tales como eliminar un registro en una aplicación empresarial, pero no en las dos, y después realizar la sincronización. Para obtener más información, consulte [Ver el estado de una sincronización](admin-how-to-view-synchronization-status.md).
+
+## <a name="example"></a>Ejemplo:
+Este vídeo muestra un ejemplo de cómo solucionar errores que ocurrieron al sincronizar con Sales. El proceso será el mismo para todas las integraciones. 
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2097304]
 
@@ -38,7 +41,7 @@ Debe resolver manualmente los errores, pero hay algunas maneras en las que la p�
 * Los campos **Origen** y **Destino** pueden contener vínculos al registro donde se encontró el error. Haga clic en el vínculo para abrir el registro e investigar el error.  
 * Las acciones **Eliminar movs. anteriores a 7 días** y **Eliminar todos los movs.** limpiarán la lista. Normalmente, estas acciones se utilizan después de haber resuelto la causa de un error que afecta a muchos registros. Sin embargo, preste atención. Estas acciones pueden eliminar errores que todavía son relevantes.
 
-A veces, las marcas de tiempo en los registros pueden causar conflictos. La tabla "Registro de integración CRM" mantiene las marcas de tiempo "Fecha de última modificación de sincronización" y "Fecha de última modificación de sincronización de CRM" para la última integración realizada en ambas direcciones para un registro. Estas marcas de tiempo se comparan con las marcas de tiempo en Business Central y los registros de ventas. En Business Central, la marca de tiempo está en la tabla Registro de integración.
+A veces, las marcas de tiempo en los registros pueden causar conflictos. La tabla "Registro de integración CDS" mantiene las marcas de tiempo "Fecha de última modificación de sincronización" y "Fecha de última modificación de sincronización de CDS" para la última integración realizada en ambas direcciones para un registro. Estas marcas de tiempo se comparan con las marcas de tiempo en Business Central y los registros de ventas. En Business Central, la marca de tiempo está en la tabla Registro de integración.
 
 Puede filtrar los registros que se van a sincronizar comparando las marcas de tiempo del registro en los campos "Filtro de fecha modificación de sinc." y "Filtro de fecha modif. tabla integ. de sinc.".
 
@@ -49,8 +52,8 @@ El conflicto ocurre porque el registro de destino también se modificó: la marc
 Estos registros ahora se mueven a la página "Registros sinc. omitidos", que se abre desde la página Configuración de conexión de Microsoft Dynamics en Business Central. Allí puede especificar los cambios que desea conservar y luego sincronizar nuevamente los registros.
 
 ## <a name="see-also"></a>Consulte también
-[Integración con [!INCLUDE[crm_md](includes/crm_md.md)]](admin-prepare-dynamics-365-for-sales-for-integration.md)  
-[Configuración de cuentas de usuario para la integración con [!INCLUDE[crm_md](includes/crm_md.md)]](admin-setting-up-integration-with-dynamics-sales.md)  
-[Configurar una conexión a [!INCLUDE[crm_md](includes/crm_md.md)]](admin-how-to-set-up-a-dynamics-crm-connection.md)  
+[Integración con Common Data Service](admin-prepare-dynamics-365-for-sales-for-integration.md)  
+[Configuración de cuentas de usuario para la integración con Common Data Service](admin-setting-up-integration-with-dynamics-sales.md)  
+[Configurar una conexión a Common Data Service](admin-how-to-set-up-a-dynamics-crm-connection.md)  
 [Emparejar y sincronizar registros manualmente](admin-how-to-couple-and-synchronize-records-manually.md)  
 [Ver el estado de una sincronización](admin-how-to-view-synchronization-status.md)  

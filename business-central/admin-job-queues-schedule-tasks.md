@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: b8470fa559d8a640e1c05cc6e03ca4caf3a9827e
-ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
+ms.openlocfilehash: fc2c2de39c3391a430adda72a841b01897235f68
+ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "2999788"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3196692"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Uso de colas de proyectos para programar tareas
 Las colas de proyectos de [!INCLUDE[d365fin](includes/d365fin_md.md)] permiten a los usuarios programar y ejecutar informes y codeunits específicos. Puede configurar proyectos para que se ejecuten una vez o de manera periódica. Por ejemplo, puede ejecutar el informe de **Vendedor - Estadísticas ventas** de manera semanal, para realizar el seguimiento de ventas por vendedor cada semana, o bien ejecutar la codeunit **Procesar cola de correo electrónico del servicio** diariamente, para asegurarse de que se envían de manera oportuna los mensajes de correo electrónico a los clientes relacionados con sus pedidos de venta.
@@ -117,8 +117,8 @@ Cuando una cola de proyecto se activada de forma manual, se ejecuta con las cred
 ## <a name="using-job-queues-effectively"></a>Uso eficaz de las colas de proyectos  
 El registro del movimiento de cola de proyectos tiene muchos campos cuya finalidad es incluir parámetros en una codeunit especificada para ejecutarse con una cola de proyectos. Esto también significa que las codeunits que se van a ejecutar mediante la cola de proyectos se deben especificar con el registro del movimiento de la cola de proyectos como parámetro en el desencadenador **OnRun**. Esto ayuda a proporcionar un nivel de seguridad adicional, ya que evita que los usuarios ejecuten codeunits aleatorias mediante la cola de proyectos. Si el usuario debe transmitir parámetros a un informe, la única manera de hacerlo es ajustar la ejecución del informe en una codeunit, que a continuación analiza los parámetros de entrada y los especifica en el informe antes de ejecutarlo.  
 
-## <a name="scheduling-synchronization-between-included365finincludesd365fin_mdmd-and-includecrm_mdincludescrm_mdmd"></a>Programación de la sincronización entre [!INCLUDE[d365fin](includes/d365fin_md.md)] y [!INCLUDE[crm_md](includes/crm_md.md)]
-Si ha integrado [!INCLUDE[d365fin](includes/d365fin_md.md)] con [!INCLUDE[crm_md](includes/crm_md.md)], puede utilizar la cola de proyectos para programar cuándo desea sincronizar los datos de los registros que ha emparejado en las dos aplicaciones empresariales. Dependiendo de la dirección y las reglas que haya definido para la integración, los trabajos de sincronización también pueden crear nuevos registros en la aplicación de destino para que coincidan con los del origen. Por ejemplo, si un vendedor crea un nuevo contacto en [!INCLUDE[crm_md](includes/crm_md.md)], el proyecto de sincronización puede crear ese contacto para el vendedor emparejado en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, consulte [Programación de una sincronización entre Business Central y Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md).
+## <a name="scheduling-synchronization-between-d365fin-and-d365fin"></a>Programación de la sincronización entre [!INCLUDE[d365fin](includes/d365fin_md.md)] y [!INCLUDE[d365fin](includes/cds_long_md.md)]
+Si ha integrado [!INCLUDE[d365fin](includes/d365fin_md.md)] con [!INCLUDE[d365fin](includes/cds_long_md.md)], puede utilizar la cola de proyectos para programar cuándo desea sincronizar los datos de los registros que ha emparejado en las dos aplicaciones empresariales. Dependiendo de la dirección y las reglas que haya definido para la integración, los trabajos de sincronización también pueden crear nuevos registros en la aplicación de destino para que coincidan con los del origen. Por ejemplo, si un vendedor crea un nuevo contacto en [!INCLUDE[crm_md](includes/crm_md.md)], el proyecto de sincronización puede crear ese contacto para el vendedor emparejado en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, consulte [Programación de una sincronización entre Business Central y Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md).
 
 ## <a name="see-also"></a>Consulte también  
 [Administración](admin-setup-and-administration.md)  

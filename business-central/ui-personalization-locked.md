@@ -8,22 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c77664a1013804de13303c8e1d162c437cf5d6e7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9774c3472a70967f6b0250e2f02e817f26e9b710
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315137"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195728"
 ---
 # <a name="why-a-page-is-locked-from-personalization"></a>Por qué la página está bloqueada para evitar la personalización
 
-Hay dos condiciones que le impiden personalizar una página. La página está bloqueada (como se indica en el icono ![Personalización bloqueada](media/personalization-lock-icon.png "Personalización bloqueada")) o está bloqueada (como se indica en el icono ![Bloqueo de personalización](media/personalization-blocked-icon.png "Bloqueo de personalización")).
+Hay dos condiciones que le impiden personalizar una página. La página está bloqueada (como se indica en el icono ![Personalización bloqueada](media/personalization-lock-icon.png "Bloqueo de personalizacion")) o está bloqueada (como se indica en el icono ![Bloqueo de personalización](media/personalization-blocked-icon.png "Personalización bloqueada")).
 
 ## <a name="locked-from-personalizing"></a>Bloqueado para evitar la personalización
 
-Si hay un icono ![Bloqueo de personalización](media/personalization-lock-icon.png "Bloqueo de personalización") en el banner **Personalización** cuando abre una página, significa que actualmente se le impide realizar más cambios de personalización en la página.
+Si hay un icono ![Bloqueo de personalización](media/personalization-lock-icon.png "Bloqueo de personalizacion") en el banner **Personalización** cuando abre una página, significa que actualmente se le impide realizar más cambios de personalización en la página.
 
 <!-- This is because we changed the way personalization works behind the scenes since the last time that you personalized the page. Unfortunately, the old way and new of doing things do not work together.
 
@@ -38,7 +38,7 @@ Puede haber dos razones para ello:
 
 ### <a name="unlocking-the-page"></a>Desbloqueo de la página
 
-Si desea desbloquear una página y seguir personalizándola, seleccione el icono ![Personalización bloqueada](media/personalization-lock-icon.png "Personalización bloqueada") y, a continuación, elija la acción **Desbloquear**.  
+Si desea desbloquear una página y seguir personalizándola, seleccione el icono ![Personalización bloqueada](media/personalization-lock-icon.png "Bloqueo de personalizacion") y, a continuación, elija la acción **Desbloquear**.  
 
 Antes de desbloquear la página, tenga en cuenta lo siguiente:
 
