@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, opportunity, email
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: e325cce98256b723c6fcfdf4d16068f852a2b032
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 13699c002402b6b6d32edc13dca3710fefff2129
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308745"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181266"
 ---
 # <a name="track-email-message-exchanges-between-salespeople-and-contacts"></a>Realizar un seguimiento de los intercambios de mensajes de correo electrónico entre vendedores y contactos
 Aproveche al máximo las comunicaciones entre los vendedores y sus clientes actuales o potenciales mediante el seguimiento de los intercambios de correos electrónicos y, a continuación, conviértalos en oportunidades procesables. [!INCLUDE[d365fin](includes/d365fin_md.md)] puede funcionar con Exchange Online para mantener un registro de los mensajes entrantes y salientes. Puede ver y analizar el contenido de cada mensaje en la página **Movimientos del log de interacción**.
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2085401]
 
-## <a name="setting-up-included365finincludesd365fin_mdmd-to-log-email-messages"></a>Configuración de [!INCLUDE[d365fin](includes/d365fin_md.md)] para registrar los mensajes de correo electrónico
+## <a name="setting-up-d365fin-to-log-email-messages"></a>Configuración de [!INCLUDE[d365fin](includes/d365fin_md.md)] para registrar los mensajes de correo electrónico
 Comience con el registro de correo electrónico en dos sencillos pasos:
 
 1. Conecte [!INCLUDE[d365fin](includes/d365fin_md.md)] con Exchange Online para su suscripción de Office 365. Exchange Online gestiona sus mensajes de correo electrónico. Hemos facilitado este paso al proporcionar una guía de configuración asistida. Solo necesita sus credenciales de administrador para su cuenta de administrador en Office 365. Para comenzar la guía, vaya a **Configuración asistida** y, a continuación, elija **Configurar registro de correo electrónico**. 

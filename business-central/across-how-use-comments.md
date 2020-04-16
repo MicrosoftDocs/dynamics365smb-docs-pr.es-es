@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: tasks, work
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 00aef090b99ee41962ed59fd6050b6f17be77ed5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: db3d7dd3b7efdd10aa22e3aa4ca0ff445428bbd2
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305073"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187969"
 ---
 # <a name="add-comments-to-cards-and-documents"></a>Agregar comentarios a las fichas y documentos
 Puede añadir información adicional a cuentas de contabilidad, fichas de clientes o pedidos de venta para comunicar excepciones o acuerdos especiales a otros usuarios.
@@ -31,7 +31,7 @@ Además, se puede especificar si se desea que los comentarios se transfieran de 
 A continuación se describe cómo agregar un comentario a una ficha de producto. Los pasos son similares para todas las demás fichas y documentos, excepto en las líneas de documentos, la acción de **Comentarios** se coloca en un menú de acciones de líneas.
 
 ## <a name="to-add-a-comments-to-an-item-card"></a>Para añadir un comentario a una ficha de producto
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Productos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos** y luego elija el enlace relacionado.
 2. Abra la ficha de producto que corresponda.
 3. Seleccione la acción **Comentarios**.
 4. En la página **Hoja de comentarios**, escriba el texto y luego elija el botón **Aceptar**.

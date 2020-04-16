@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 0b469458490d08475d81f767a88a99c84a4daad6
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: defa6662a66e23d70d519861dbacd6d5036da589
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953232"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189968"
 ---
 # <a name="create-and-modify-custom-report-layouts"></a>Crear y modificar diseños de informe personalizados
 De forma predeterminada, un informe tendrá un diseño de informe integrado, bien de RDLC o de Word, o ambos. No puede modificar diseños integrados. No obstante, puede crear sus propios diseños personalizados que le permitan modificar el aspecto del informe cuando se vea, se imprima o se guarde. Puede crear varios diseños de informe personalizados para el mismo informe y, a continuación, cambiar al diseño utilizado por un informe según sea necesario.
@@ -51,7 +51,7 @@ Cuando se definen diseños de informes personalizados, puede seleccionarlos de l
 
 El diseño personalizado se ha creado. Ahora puede modificar el diseño personalizado según sea necesario.
 
-## <a name="ModifyCustomLayout"></a>Modificación de un diseño personalizado
+## <a name="modifying-a-custom-layout"></a><a name="ModifyCustomLayout"></a>Modificación de un diseño personalizado
 Para modificar un diseño de informe, primero deberá exportar el diseño de informe como archivo a una ubicación en su equipo o red y después abrir el documento exportado y realizar los cambios. Cuando haya terminado de realizar los cambios, importe el diseño de informe.
 
 ### <a name="to-modify-a-custom-layout"></a>Para modificar un diseño personalizado
@@ -70,7 +70,7 @@ Para modificar un diseño de informe, primero deberá exportar el diseño de inf
 
 5. En el cuadro de diálogo **Importar**, seleccione **Seleccionar** para buscar y seleccionar un documento de diseño y, a continuación, elija **Abrir**.
 
-##  <a name="MakeChangesToLayout"></a> Crear y modificar diseños de informe personalizados  
+##  <a name="create-and-modify-custom-report-layouts"></a><a name="MakeChangesToLayout"></a> Crear y modificar diseños de informe personalizados  
 Para realizar cambios generales de formato y diseño, como cambiar la fuente del texto, agregar y modificar una tabla o eliminar un campo de datos, simplemente use las funciones de edición básicas de Word, como con cualquier documento de Word.
 
 Si está creando un diseño de informe de Word desde cero o agregando nuevos campos de datos, empiece sumando una tabla que incluya las filas y columnas que llevarán los campos de datos.
@@ -82,7 +82,7 @@ Si está creando un diseño de informe de Word desde cero o agregando nuevos cam
 
 Para garantizar que los informes siempre se muestren e impriman con las fuentes deseadas, independientemente del lugar donde los usuarios abran o impriman los informes, puede insertar las fuentes en el documento de Word. Sin embargo, tenga en cuenta que la inserción de fuentes puede aumentar significativamente el tamaño de los archivos de Word. Para obtener más información acerca de la inserción de fuentes en Word, consulte [Insertar fuentes en Word, PowerPoint o Excel](https://support.office.com/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
 
-###  <a name="RemoveField"></a> Quitar los campos de etiqueta y de datos en los diseños de Word  
+###  <a name="removing-label-and-data-fields-in-word-layouts"></a><a name="RemoveField"></a> Quitar los campos de etiqueta y de datos en los diseños de Word  
  Los campos de etiqueta y datos de un informe están incluidos en los controles de contenido en Word. La ilustración siguiente muestra un control de contenido seleccionado en el documento de Word.  
 
  ![Control de contenido del campo en el diseño de informe de Word](media/nav_wordreportlayouts_contentcontrol.png "NAV_WordReportLayouts_ContentControl")  
@@ -100,7 +100,7 @@ Para garantizar que los informes siempre se muestren e impriman con las fuentes 
 ### <a name="adding-data-fields"></a>Añadir campos de datos
 La adición de campos de datos de un conjunto de datos de informe es una operación más avanzada y necesita conocimientos del conjunto de datos de informe. Para obtener información acerca de la adición campos para datos, etiquetas, datos e imágenes, consulte [Añadir campos a un diseño de informe de Word](ui-how-add-fields-word-report-layout.md).  
 
-## <a name="see-related-training-at-microsoft-learnlearnmoduleschange-documents-dynamics-365-business-centralindex"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Consulte también
 [Gestión de diseños de informe](ui-manage-report-layouts.md)  

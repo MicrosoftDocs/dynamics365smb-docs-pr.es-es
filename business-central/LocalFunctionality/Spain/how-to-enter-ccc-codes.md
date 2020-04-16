@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 32514856184473afbb4a531b5d8ddc5d1a732c2a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1eebd4d936a13d6bfa197f79bcaf2dd67211fe07
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301102"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189187"
 ---
 # <a name="enter-ccc-codes"></a>Introducir códigos CCC
 El Código Cuenta Cliente (CCC) es un código de identificación de cuentas bancarias único. Los siguientes campos de componentes componen la estructura de código CCC de 20 dígitos (España) o 21 dígitos (Portugal).  
@@ -26,7 +26,7 @@ Si modifica la estructura del código CCC, el campo **Nº CCC** se actualiza aut
 
 ## <a name="to-enter-ccc-codes"></a>Para introducir códigos CCC  
 
-1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Información de la empresa** y, a continuación, seleccione el vínculo relacionado.  
+1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Información de empresa** y, a continuación, seleccione el vínculo relacionado.  
 2.  Rellene los campos de la ficha desplegable **Pagos**, tal como se describe en la tabla siguiente  
 
     |Campo|Description|  

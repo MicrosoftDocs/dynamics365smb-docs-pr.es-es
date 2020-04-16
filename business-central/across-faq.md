@@ -5,24 +5,24 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 12/12/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: cb470cd72c3352ca5de9fc27264b30b67abbadec
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: 9c6e162e8b8146c59c135b669566594ca67be7dc
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2910933"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188689"
 ---
 # <a name="frequently-asked-questions"></a>Preguntas más frecuentes
 
 Esta sección contiene las respuestas de las preguntas más frecuentes sobre el inicio de sesión en una versión de prueba, la adquisición de una suscripción y el uso de [!INCLUDE[d365fin](includes/d365fin_md.md)]. También puede obtener información sobre cómo obtener asistencia técnica.  
 
-## <a name="is-included365finincludesd365fin_mdmd-available-in-my-country"></a>¿Está [!INCLUDE[d365fin](includes/d365fin_md.md)] disponible en mi país?
+## <a name="is-d365fin-available-in-my-country"></a>¿Está [!INCLUDE[d365fin](includes/d365fin_md.md)] disponible en mi país?
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] está disponible en un número reducido de mercados, pero se añaden nuevos países mediante la localización dirigida por Microsoft o mediante la localización dirigida por socios trimestralmente. Para obtener más información, consulte [Disponibilidad nacional/regional y traducciones admitidas](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) (disponible solo en inglés).  
 
-## <a name="how-do-i-get-include-prodshortincludesprodshortmd"></a>¿Cómo obtengo [!INCLUDE [prodshort](includes/prodshort.md)]?
+## <a name="how-do-i-get-prodshort"></a>¿Cómo obtengo [!INCLUDE [prodshort](includes/prodshort.md)]?
 
 Puede registrarse para obtener una versión de prueba y explorar [!INCLUDE [prodshort](includes/prodshort.md)]. [!INCLUDE [free_trial_md](includes/free_trial_md.md)] Si desea más tiempo para explorar, [puede ampliar su periodo de prueba](#can-i-extend-my-30-day-new-company-trial-period).  
 
@@ -35,9 +35,9 @@ Si tiene alguna pregunta sobre [!INCLUDE[d365fin](includes/d365fin_md.md)] cuya 
 
 Desde la página de inicio de la comunidad, también puede encontrar enlaces a nuestros blogs donde también puede encontrar consejos y trucos. Para obtener más información, consulte [Microsoft Dynamics 365 Business Central en el blog de Dynamics 365](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) y en el [blog de Dynamics 365 Business Central](https://community.dynamics.com/business/b/financials) anterior.  
 
-Por último, puede ponerse en contacto con su distribuidor de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, consulte las secciones [¿Cómo obtengo soporte técnico?](across-faq.md#how-do-i-get-technical-support-for-) y [¿Cómo encuentro un socio distribuidor?](#findpartner)  
+Por último, puede ponerse en contacto con su distribuidor de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, consulte las secciones [¿Cómo obtengo soporte técnico?](across-faq.md#hdigetsupport) y [¿Cómo encuentro un socio distribuidor?](#findpartner)  
 
-## <a name="why-cant-i-find-that-capability-in-my-included365finincludesd365fin_mdmd"></a>¿Por qué no puedo encontrar esa capacidad en mi [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+## <a name="why-cant-i-find-that-capability-in-my-d365fin"></a>¿Por qué no puedo encontrar esa capacidad en mi [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 ¿Ha leído recientemente acerca de una nueva capacidad en el plan de la versión o en nuestro blog? En ese caso, el [!INCLUDE[d365fin](includes/d365fin_md.md)] puede que todavía no se haya actualizado a la última versión. Puede comprobar en qué versión se basa su [!INCLUDE[d365fin](includes/d365fin_md.md)] en la página [Ayuda y soporte técnico](product-help-and-support.md).  
 
 Además, si la capacidad se publica como una extensión en AppSource, habrá un retraso entre el anuncio y su disponibilidad en AppSource.  
@@ -45,14 +45,14 @@ Además, si la capacidad se publica como una extensión en AppSource, habrá un 
 ## <a name="are-there-any-differences-between-an-on-premises-deployment-and-the-cloud-version-of-business-central"></a>¿Existen diferencias entre una implementación local y la versión en la nube de Business Central?
 Sí. Algunas funciones basadas en la nube pueden funcionar localmente en algunos casos y otras no son compatibles en absoluto. Para obtener más información, consulte [Características no implementadas en implantaciones locales de Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises).
 
-## <a name="can-i-get-training-in-included365finincludesd365fin_mdmd"></a>¿Puedo recibir formación en [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+## <a name="can-i-get-training-in-d365fin"></a>¿Puedo recibir formación en [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 Sí que puede. Puede encontrar contenido gratuito de eLearning en el [sitio de Microsoft Learn](/learn/browse/?products=dynamics-business-central). Para obtener más información, consulte [Catálogo de aprendizaje de Business Central](readiness/readiness-learning-catalog.md). También puede pedirle a su socio de reventa información adicional. Si no sabe quién es, vea la sección [¿Cómo encuentro un socio distribuidor?](#findpartner)  
 
 Para obtener más información sobre la formación en Dynamics 365 que ofrece Microsoft, consulte la página [Formación de Microsoft Dynamics 365](/dynamics365/get-started/training/index#dynamics-365-customers).  
 
 El contenido adicional lo proporciona la comunidad de [!INCLUDE [prodshort](includes/prodshort.md)], como la [Guía de campo de Microsoft Dynamics 365 Business Central](https://leanpub.com/dynamics), que la ha elaborado un socio.  
 
-## <a name="how-do-i-get-technical-support-for-included365finincludesd365fin_mdmd"></a>¿Cómo obtengo soporte técnico para [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+## <a name="how-do-i-get-technical-support-for-d365fin"></a><a name="hdigetsupport"></a>¿Cómo obtengo soporte técnico para [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] se vende a través de socios y debe ponerse en contacto con su socio distribuidor para obtener ayuda con problemas técnicos. Si su socio de [!INCLUDE[d365fin](includes/d365fin_md.md)] no puede resolver el problema, generará un vale de soporte técnico con Microsoft.  
 
@@ -65,8 +65,7 @@ Si la configuración de Experiencia en la página **Información de la empresa**
 
 No hay ningún botón *Guardar* en las páginas como en otros programas con los que pueda estar familiarizado. En [!INCLUDE[d365fin](includes/d365fin_md.md)], los cambios realizados en un campo se guardan automáticamente en cuanto se traslada al siguiente campo o cierra la página, mientras no haya errores. Al realizar cambios en un campo y pasar a otro, verá el texto **Guardando** en la esquina superior derecha de la página, que cambiará rápidamente a **Guardado** si no se produce ningún error. Si se produce un error, el texto cambiará **No guardado**.
 
-
-## <a name="what-email-address-can-i-use-with-included365finincludesd365fin_mdmd"></a>¿Qué dirección de correo electrónico puedo usar en [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+## <a name="what-email-address-can-i-use-with-d365fin"></a><a name="email"></a>¿Qué dirección de correo electrónico puedo usar en [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 Para iniciar sesión, [!INCLUDE[d365fin](includes/d365fin_md.md)] requiere una dirección de correo electrónico del trabajo o la escuela. [!INCLUDE[d365fin](includes/d365fin_md.md)] no admite direcciones de correo electrónico proporcionadas por servicios de correo electrónico del consumidor ni por proveedores de la telecomunicación. Esto incluye outlook.com, hotmail.com, gmail.com y otros.  
 
 Si intenta iniciar sesión con una dirección de correo personal, recibirá un mensaje indicando que use una dirección del trabajo o la escuela. Para obtener más información, vea [Solución de problemas del registro de autoservicio](ui-troubleshoot-self-signup.md).  
@@ -91,7 +90,7 @@ Sí. Cuando se acerque la fecha de vencimiento de su período de prueba, cuando 
 
 Para obtener más información sobre cómo buscar un socio, vea [¿Cómo encuentro un socio distribuidor?](#findpartner)  
 
-## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-home-screen-in-included365finincludesd365fin_mdmd"></a>Nuestro administrador me ha cambiado a otro plan para asignarme otro rol, pero sigo viendo la misma página principal en [!INCLUDE[d365fin](includes/d365fin_md.md)].
+## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-home-screen-in-d365fin"></a>Nuestro administrador me ha cambiado a otro plan para asignarme otro rol, pero sigo viendo la misma página principal en [!INCLUDE[d365fin](includes/d365fin_md.md)].
 Esto es un poco complicado, pero parece que el administrador no ha cambiado el rol asignado ni le ha asignado grupos de usuarios que coincidan con la nueva licencia. Fundamentalmente, su acceso a [!INCLUDE[d365fin](includes/d365fin_md.md)] está determinado por el tipo de plan (licencia) que tiene, el cual define los permisos, su rol asignado y su pantalla de inicio predeterminada. Puede cambiar su rol actual manualmente en Mi configuración, pero si se le traslada a otro plan, como cambiarle del plan Empresa al plan Miembros de equipo, es posible que vea la pantalla de inicio anterior porque sus permisos no han cambiado.  
 
 ## <a name="can-i-cancel-my-subscription"></a>¿Puedo cancelar mi suscripción?
@@ -100,7 +99,7 @@ Sí, pero dependiendo de cómo inició sesión en [!INCLUDE[d365fin](includes/d3
 ## <a name="can-i-use-multi-factor-authentication"></a>¿Puedo utilizar la autenticación de varios factores?
 Por supuesto. Si lo hace, es posible que necesite una contraseña de aplicación para enviar mensajes de correo electrónico. Las contraseñas de las aplicaciones le dan acceso a una aplicación o dispositivo a su cuenta de correo electrónico. Los pasos para obtener una contraseña de aplicación varían según el proveedor de correo electrónico. Para obtener más información, consulte la ayuda del proveedor. Por ejemplo, si utiliza Outlook, vea [Crear una contraseña de aplicación para Office 365](https://go.microsoft.com/fwlink/?linkid=2082543).  
 
-## <a name="findpartner"></a>¿Cómo encuentro un socio distribuidor?
+## <a name="how-do-i-find-a-reselling-partner"></a><a name="findpartner"></a>¿Cómo encuentro un socio distribuidor?
 
 [!INCLUDE [prodshort](includes/prodshort.md)] se vende e implementa a través de una red global de socios de Dynamics 365 con experiencia en el sector. Póngase en contacto con un socio para obtener una evaluación detallada, servicios de consultoría y precios adicionales. Para obtener más información, consulte la sección **Precios** en la [página de Dynamics 365 Business Central en microsoft.com](https://dynamics.microsoft.com/business-central/overview/).  
 

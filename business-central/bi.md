@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 7253e4fc4e4f1418a7c9bd1e2ac5e19298e4fb57
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6f8935ed6a8ca2ac806dd746a0376210d5e8abbf
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308345"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186001"
 ---
 # <a name="business-intelligence"></a>Inteligencia empresarial
 Las empresas capturan una ingente cantidad de información con su actividad diaria. Esta información, que refleja aspectos como las cifras de ventas, las compras, los gastos operativos, los salarios de los empleados o los presupuestos de la organización, y que se conoce como inteligencia empresarial, resulta muy valiosa para los responsables de la toma de decisiones. [!INCLUDE[d365fin](includes/d365fin_md.md)] contiene numerosas funciones que le ayudan a recopilar, analizar y compartir la información de su empresa.
@@ -37,6 +37,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Configurar vistas de análisis para analizar datos usando dimensiones.|[Analizar datos por dimensiones](bi-how-analyze-data-dimension.md)|
 |Crear nuevos informes de análisis para ventas, compras y existencias, así como configurar plantillas de análisis.|[Crear informes de análisis](bi-how-create-analysis-views-reports.md)|
 |Habilite la información financiera global por medio de las organizaciones internacionales de contabilidad con el idioma estándar para informes de negocio extensible.|[Crear informes con XBRL](bi-create-reports-with-xbrl.md)|
+|Cambie la intención de acceso a la base de datos en informes, páginas de tipo API y consultas para reducir la carga y mejorar el rendimiento.|[Gestionar la intención de acceso a la base de datos](admin-data-access-intent.md)|
 
 ## <a name="see-also"></a>Consulte también
 [Finanzas](finance.md)    

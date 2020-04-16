@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2595efa188aed593bf1d112f984acf411446959b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 843e0590bbcff22b5d0ad40fcae5dd51c64eae3a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307137"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185281"
 ---
 # <a name="design-details-posting-date-on-adjustment-value-entry"></a>Detalles de diseño: Fecha registro en el movimiento de valor de ajuste
 Este artículo proporciona una guía para los usuarios de la funcionalidad Coste de inventario en [!INCLUDE[d365fin](includes/d365fin_md.md)]. El artículo específico proporciona una guía de cómo el proceso **Valorar stock - movs. producto** identifica y asigna una fecha de registro a los movimientos de valor que creará.  
@@ -41,7 +41,7 @@ El segundo movimiento de valor (381) representan la factura.
 
  El tercer movimiento de valor (391) es un ajuste del movimiento de valor de facturación (381)  
 
- ![Estado de los movimientos de valoración en el escenario](media/helene/TechArticleAdjustcost2.png "Estado de los movimientos de valoración en el escenario")  
+ ![Estado de los movimientos de valores en el escenario](media/helene/TechArticleAdjustcost2.png "Estado de los movimientos de valores en el escenario")  
 
  Paso 1: El movimiento de valor de ajuste que se creará tiene asignada la misma fecha de registro que el movimiento que ajusta, ilustrada anteriormente con el movimiento de valor 391.  
 
@@ -69,7 +69,7 @@ El proceso **Valorar stock - movs. producto** determina si la fecha inicial de r
 
  La fecha de registro asignada inicial era el 6 de septiembre como se muestra en el paso 1. Sin embargo, en el segundo paso del proceso Valorar stock - movs. producto se identifica que la primera fecha de registro permitida es el 10 de septiembre y, por lo tanto, la asigna en el movimiento de valor de ajuste siguiente.  
 
- ![Estado de los movimientos de valoración en el escenario 2](media/helene/TechArticleAdjustcost5.png "Estado de los movimientos de valoración en el escenario 2")
+ ![Estado de los movimientos de valores en el escenario 2](media/helene/TechArticleAdjustcost5.png "Estado de los movimientos de valores en el escenario 2")
 
  Ahora hemos revisado el concepto para asignar fechas de registro a los movimientos de valor creados por el proceso Valorar stock - movs. producto.  
 
@@ -82,15 +82,15 @@ El proceso **Valorar stock - movs. producto** determina si la fecha inicial de r
 
  En la sección anterior, que describe el concepto de asignación de fechas de registro, la intención del trabajo Valorar stock - movs. producto es crear un movimiento de valor con la fecha de registro el 10 de septiembre.  
 
-![Mensaje de error sobre la fecha de publicación](media/helene/TechArticleAdjustcost6.png "Mensaje de error sobre la fecha de publicación")
+![Mensaje de error sobre la fecha de registro](media/helene/TechArticleAdjustcost6.png "Mensaje de error sobre la fecha de registro")
 
  Seguimos con la configuración del usuario:  
 
-![Configuración de fechas de publicación permitidas por el usuario](media/helene/TechArticleAdjustcost7.png "Configuración de fechas de publicación permitidas por el usuario")
+![Configuración de fechas de registro permitidas del usuario](media/helene/TechArticleAdjustcost7.png "Configuración de fechas de registro permitidas del usuario")
 
  El usuario en este caso tiene un rango de fechas de registro permitidas desde el 11 hasta el 30 de septiembre y, por lo tanto, no puede registrar el movimiento de valor de ajuste con fecha de publicación el 10 de septiembre.  
 
-![Resumen de la configuración de la fecha de publicación involucrada](media/helene/TechArticleAdjustcost8.png "Resumen de la configuración de la fecha de publicación involucrada")
+![Descripción general de la configuración de la fecha de registro involucrada](media/helene/TechArticleAdjustcost8.png "Descripción general de la configuración de la fecha de registro involucrada")
 
  El artículo [952996](https://mbs2.microsoft.com/Knowledgebase/kbdisplay.aspx?WTNTZSMNWUKNTMMYXUPYZQPOUXNXSPSYOQQYYMLUQLOYYMWP) de la Knowledge Base discute ejemplos adicionales relacionados con el mensaje de error mencionado.  
 
@@ -173,9 +173,9 @@ El proceso **Valorar stock - movs. producto** determina si la fecha inicial de r
 
  Se han registrado los siguientes movimientos de productos y de valor:  
 
-![Resumen del movimiento de producto y valoración resultante 1](media/helene/TechArticleAdjustcost9.png "Resumen del movimiento de producto y valoración resultante 1")
+![Descripción general de los movimientos de productos y valores resultantes 1](media/helene/TechArticleAdjustcost9.png "Descripción general de los movimientos de productos y valores resultantes 1")
 
- ![Resumen del movimiento de producto y valoración resultante 2](media/helene/TechArticleAdjustcost10.png "Resumen del movimiento de producto y valoración resultante 2")
+ ![Descripción general de los movimientos de productos y valores resultantes 2](media/helene/TechArticleAdjustcost10.png "Descripción general de los movimientos de productos y valores resultantes 2")
 
  El proceso Valorar stock - movs. producto ha reconocido un cambio de costes y ha ajustado los ajustes negativos.  
 
@@ -290,7 +290,7 @@ El proceso **Valorar stock - movs. producto** determina si la fecha inicial de r
 
      Registrar albarán y factura.  
 
-     ![Resumen del movimiento de producto y valoración resultante 3](media/helene/TechArticleAdjustcost11.png "Resumen del movimiento de producto y valoración resultante 3")
+     ![Descripción general de los movimientos de productos y valores resultantes 3](media/helene/TechArticleAdjustcost11.png "Descripción general de los movimientos de productos y valores resultantes 3")
 
 6.  En la fecha de trabajo 3 de enero llega una factura de compra que contiene un cargo adicional de producto en la compra realizada en el paso 2. Esta factura tiene fecha de documento el 30 de diciembre y, por lo tanto, se registre con Fecha de registro el 30 de diciembre de 2013.  
 
@@ -314,7 +314,7 @@ El proceso **Valorar stock - movs. producto** determina si la fecha inicial de r
 
      Registrar albarán y factura.  
 
-   ![Resumen del movimiento de producto y valoración resultante 4](media/helene/TechArticleAdjustcost12.png "Resumen del movimiento de producto y valoración resultante 4")
+   ![Descripción general de los movimientos de productos y valores resultantes 4](media/helene/TechArticleAdjustcost12.png "Descripción general de los movimientos de productos y valores resultantes 4")
 
  El informe Valoración inventario se imprime a partir de fecha 31 de diciembre de 2013  
 
@@ -355,7 +355,7 @@ El proceso **Valorar stock - movs. producto** determina si la fecha inicial de r
 
  En la versión 3 y 4 el proceso se buscan todos los movimientos de valor para averiguar si hay alguno donde el Importe de coste (Real) sea diferente del Coste registrado en contabilidad. Si hay una diferencia, el importe diferente se registrará en un movimiento de contabilidad. Si se utiliza el registro de costes esperado, los campos correspondientes se procesarán del mismo modo.  
 
-![Coste real frente a coste esperado](media/helene/TechArticleAdjustcost14.png "Coste real frente a coste esperado")
+![Coste real frente a coste previsto](media/helene/TechArticleAdjustcost14.png "Coste real frente a coste previsto")
 
 ### <a name="from-version-50"></a>Desde la versión 5.0:  
  Ya no debe introducirse una fecha de registro en el formulario de solicitud del proceso Registrar variación existencias. El movimiento de contabilidad se crea con la misma fecha de registro que los movimientos de valor relacionados. Para completar el proceso, el rango de fechas de registro permitidas debe permitir la Fecha de registro del movimiento de contabilidad creado. De lo contrario, el rango de fechas de registro permitidas debe volver a abrirse temporalmente cambiando o eliminando las fechas en los campos Permitir registro desde y en la Configuración de contabilidad. Para evitar errores de conciliación es necesario que fecha de registro del movimiento de contabilidad se corresponda con la fecha de registro del movimiento de valor.  

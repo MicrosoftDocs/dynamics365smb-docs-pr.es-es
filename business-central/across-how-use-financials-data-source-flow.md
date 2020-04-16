@@ -9,16 +9,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms.search.keywords: workflow, OData, Power App, SOAP
-ms.date: 11/20/2019
+ms.date: 04/01/2020
 ms.author: bmeier
-ms.openlocfilehash: 24ca66c2d533f4a3e30eb1ebaca817915b95c370
-ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
+ms.openlocfilehash: 6dbc2fd67b5156c47690661016d4e7d3aae64a09
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832027"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187945"
 ---
-# <a name="using-includeprodshortincludesprodshortmd-in-an-automated-workflow"></a>Usar [!INCLUDE[prodshort](includes/prodshort.md)] en un flujo de trabajo automatizado
+# <a name="using-prodshort-in-an-automated-workflow"></a>Usar [!INCLUDE[prodshort](includes/prodshort.md)] en un flujo de trabajo automatizado
 
 Puede utilizar sus datos de [!INCLUDE[prodshort](includes/prodshort.md)] como parte de un flujo de trabajo de Microsoft Power Automate.
 
@@ -28,7 +28,7 @@ Puede utilizar sus datos de [!INCLUDE[prodshort](includes/prodshort.md)] como pa
 > [!NOTE]  
 > Debe disponer de una cuenta válida con [!INCLUDE[prodshort](includes/prodshort.md)] y con Power Automate.  
 
-## <a name="to-add-includeprodshortincludesprodshortmd-as-a-data-source-in-power-automate"></a>Para agregar [!INCLUDE[prodshort](includes/prodshort.md)] como origen de datos de Power Automate
+## <a name="to-add-prodshort-as-a-data-source-in-power-automate"></a>Para agregar [!INCLUDE[prodshort](includes/prodshort.md)] como origen de datos de Power Automate
 
 1. En el explorador, vaya a [flow.microsoft.com](https://flow.microsoft.com) y, a continuación, inicie sesión.
 2. Seleccione **Mis flujos** en la cinta en la parte superior de la página.

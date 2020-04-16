@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 11/12/2019
+ms.date: 04/01/2020
 ms.author: SorenGP
-ms.openlocfilehash: 36c5446a2297dd0208104d22a7d2fd96077b3590
-ms.sourcegitcommit: 02f1633213793bfc040ad0d2a96fe76572215aa5
+ms.openlocfilehash: 6b9c0fb0952a30e99d4537407d7abce284df3bae
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "2798406"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182113"
 ---
 # <a name="set-up-general-inventory-information"></a>Configurar información de inventario general
 Especifique la configuración del inventario en la página **Configuración de inventario**.

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 04a7cd4a847ede27ac8f2d4e87684bba7d8cf4ef
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 643a9835ca7c86459e49f97cf368e4d4d57f18a9
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301100"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189186"
 ---
 # <a name="enter-nace-codes"></a>Introducir códigos NACE
 Los códigos de Nomenclature génerale des Activités économiques dans les Communautés Européennes (CNAE) representan la clasificación estadística de actividades económicas dentro de la Unión Europea (UE).  
@@ -33,7 +33,7 @@ Los códigos CNAE se pueden escribir en la página **Información empresa**. Los
 
 ## <a name="to-enter-nace-codes"></a>Para introducir códigos CNAE  
 
-1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Información de la empresa** y, a continuación, seleccione el vínculo relacionado.  
+1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Información de empresa** y, a continuación, seleccione el vínculo relacionado.  
 2.  Escriba un código NACE en el campo **Código SIC de actividad** de la ficha desplegable **General**.  
 3.  Elija el botón **Aceptar**.  
 

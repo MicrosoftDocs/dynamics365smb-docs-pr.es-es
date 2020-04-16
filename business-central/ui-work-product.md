@@ -1,38 +1,41 @@
 ---
 title: Trabajar con la funcionalidad general en Business Central | Documentos de Microsoft
 description: Describe la funcionalidad general que se utiliza para interactuar con los datos en Business Central, como introducir valores, ordenar datos y cambiar de vista.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 45db775e7d615f3c11a9617d36e4111baa40ccc1
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 666102d7f75028035b4b4087c2c8de0c693268c8
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953928"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189349"
 ---
-# <a name="working-with-included365finincludesd365fin_mdmd"></a>Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="working-with-d365fin"></a>Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Al realizar tareas empresariales, el usuario interactúa con los datos de diferentes maneras; por ejemplo, crear registros e introducir datos, ordenar y filtrar datos, escribir notas y exportando datos a otras aplicaciones.
 
 Por ejemplo, puede ajustar el tamaño y la posición de cualquier página. Para ello, expanda la anchura de las columnas, aumente la altura de los encabezados de columna y cambie el orden de los datos de las columnas. Y si quiere usar la barra de desplazamiento horizontal para ver todas las columnas en una página de lista o en líneas de documentos, verá que hay una inmovilización del panel vertical para impedir el desplazamiento de algunas columnas.
+
+## <a name="tips-and-tricks"></a><a name="cheatsheet"></a>Sugerencias y trucos
 
 > [!TIP]
 > Para obtener un resumen en versión para imprimir de las funciones más usadas, elija la siguiente imagen y descargue el archivo PDF.
 >
 > [ ![](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf)
 
-> [!NOTE]
-> Además de las funciones de IU generales descritas en esta sección, puede usar otras funciones generales que estén más relacionadas con el negocio. Para obtener más información, consulte [Funciones empresariales generales](ui-across-business-areas.md).
+## <a name="links-to-learn-more"></a>Vínculos para obtener más información
 
 En la tabla siguiente se indican algunas de las funciones generales con vínculos a los temas en que se describen.
 
-| Para | Vea |
+> [!NOTE]
+> Además de las funciones de IU generales descritas en esta sección, puede usar otras funciones generales que estén más relacionadas con el negocio. Para obtener más información, consulte [Funciones empresariales generales](ui-across-business-areas.md).
+
+| Para  | Vea |
 | --- | --- |
 |Encuentre una página, informe, acción, tema de ayuda o extensión de socio específica. |[Búsqueda de páginas e información con Dígame](ui-search.md) |
 |Obtenga una descripción general de las páginas para su rol y para otros roles y navegue a las páginas.|[Búsqueda de páginas con el explorador de roles](ui-role-explorer.md)|
@@ -56,11 +59,22 @@ A continuación se muestra un vídeo corto acerca de cómo desplazarse en [!INCL
 
 > [!VIDEO https://www.youtube.com/embed/zqz03iMihx0]
 
-## <a name="see-related-training-at-microsoft-learnlearnpathswork-pro-data-dynamics-365-business-central"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/paths/work-pro-data-dynamics-365-business-central/)
+## <a name="choosing-a-desktop-browser"></a>Elegir un navegador de escritorio
+
+[!INCLUDE[prodshort](includes/prodshort.md)] admite múltiples navegadores que ofrecen una variedad de características y capacidades. El navegador juega un papel importante en la capacidad de respuesta y la fluidez de la interfaz de usuario. Consulte la lista de navegadores compatibles y recomendados para [Business Central Online](https://go.microsoft.com/fwlink/?linkid=2110804) y navegadores para [Business Central On-premises](https://go.microsoft.com/fwlink/?linkid=2110719).
+
+- Siempre que sea posible, evite navegadores antiguos como Internet Explorer y cambie a uno de nuestros navegadores modernos recomendados, como el [nuevo Microsoft Edge](https://www.microsoft.com/edge/).  
+
+    Internet Explorer todavía es compatible, pero, dado que el nuevo navegador Edge está disponible para Windows Server ahora, vemos una tasa de uso decreciente para Internet Explorer. También puede obtener [un piloto de Edge en modo IE](https://www.microsoft.com/edge/business). Para obtener más información, consulte la [documentación de Microsoft Edge](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
+- Mantenga su navegador siempre actualizado a la última versión.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/paths/work-pro-data-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Consulte también
+
 [Introducción](product-get-started.md)  
 [Configuración de Business Central](setup.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)  
+[Consejos de rendimiento para usuarios comerciales](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
-ms.date: 01/27/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 0e38ec4c70fdbf81b29d96ad9db80cd7efdd2c82
-ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
+ms.openlocfilehash: 38c836609a4e896b9fb71d0195f1d3c05d1cf081
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "2999860"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183577"
 ---
 # <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Revertir los registros de diario y deshacer los recibos/envíos
 Para deshacer un registro erróneo del diario, seleccione un movimiento y cree un movimiento de reversión (movimientos idénticos al original, pero con el signo contrario en el campo de importe) con el mismo número de documento y la misma fecha de registro que el movimiento original. Después de revertir un movimiento, debe registrar el movimiento correcto.
@@ -80,7 +80,7 @@ A continuación se describe cómo deshacer un envío de devolución de artículo
 8.  Corrija el movimiento en el campo **Cantidad** y vuelva a publicar la orden de devolución de la compra.  
 
 ## <a name="see-also"></a>Consulte también
-[Deshacer registro de ensamblado](assembly-how-to-undo-assembly-posting.md).  
+[Deshacer registro de ensamblado](assembly-how-to-undo-assembly-posting.md)  
 [Registrar transacciones directamente en la contabilidad](finance-how-post-transactions-directly.md)  
 [Trabajar con diarios generales](ui-work-general-journals.md)  
 [Finanzas](finance.md)  

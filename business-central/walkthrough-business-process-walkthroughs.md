@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 6b0d14b8c46d5d41266de950e60daa56d88cbd5e
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: ddd5ae8f701caab38b11072f3eb8bd61cfc9d251
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881923"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189272"
 ---
 # <a name="business-process-walkthroughs"></a>Tutoriales de procesos empresariales
 En esta selección de tutoriales se proporcionan procesos empresariales completos paso a paso que puede realizar con la empresa de demostración CRONUS España S.A. Los tutoriales constan de procedimientos múltiples, algunos de los que se realizarían normalmente por un usuario, mientras que otros incorporan distintos roles de usuario. Para simular el entorno de trabajo, algunos de los tutoriales contienen los pasos de configuración necesarios para completar los ejercicios como se describe. Estos pasos pueden proporcionar la mejor perspectiva de la clase de información que necesitan los usuarios para compartir con los profesionales de TI de su empresa.  

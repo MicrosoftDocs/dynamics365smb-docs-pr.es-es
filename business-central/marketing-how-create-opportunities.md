@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 209df24710837e3407498c600ec77bea3f76690d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0971998feed22b61dbcb948dda719e7e40287e63
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309129"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181537"
 ---
 # <a name="create-sales-opportunities"></a>Crear oportunidades de ventas
 Puede crear oportunidades para las oportunidades de ventas de sus contactos. Las oportunidades deben asignarse a un vendedor o comprador y deben incluir un contacto.
@@ -27,7 +27,7 @@ Puede crear oportunidades desde la página **Lista oportunidades**. Pero, normal
 Antes de crear oportunidad, debe configurar los ciclos ventas oportunidad. Para obtener más información, vea [Configurar etapas y ciclos de venta de oportunidades](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="to-create-an-opportunity-from-a-salesperson"></a>Para crear una oportunidad a partir de un vendedor
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Vendedores** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Vendedores** y luego elija el enlace relacionado.
 2. Seleccione el vendedor de la lista para el que desea crear una oportunidad.
 3. Elija la acción **Oportunidades** y, a continuación, elija **Lista**.
 4. Elija **Nuevo** y, a continuación, rellene los campos según sea pertinente. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -35,7 +35,7 @@ Antes de crear oportunidad, debe configurar los ciclos ventas oportunidad. Para 
 
 
 ## <a name="to-create-an-opportunity-from-a-contact"></a>Para crear una oportunidad a partir de un contacto
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Contactos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Contactos** y luego elija el enlace relacionado.
 2. Seleccione el contacto de la lista para el que desea crear una oportunidad.
 3. Realice una de las siguientes acciones:
    * Elija la acción **Crear oportunidad**.

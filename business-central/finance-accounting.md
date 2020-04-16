@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 01/06/2020
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 50cc4aba9f3a01b9518d974cf011de3b9b20a4da
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: 2c99b8bef9bff22edd2d27856e703b41c6ec6441
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2991861"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184033"
 ---
-# <a name="accountant-experiences-in-included365fin_longincludesd365fin_long_mdmd"></a>Experiencias contables en [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# <a name="accountant-experiences-in-d365fin_long"></a>Experiencias contables en [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Los negocios deben crear sus libros y firmas de contabilidad. Algunas empresas emplean un contable externo, y otras lo tienen en plantilla. Independientemente del tipo de contable que sea, puede utilizar el Área de trabajo **Contable** como su página de inicio en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Desde aquí, puede acceder a todas las páginas que necesita en su trabajo.  
 
 ## <a name="accountant-role-center"></a>Área de trabajo Contable
@@ -25,7 +25,7 @@ El Área de trabajo es un tablero de mandos con cuadros de actividad que le mues
 
 Si es nuevo en [!INCLUDE[d365fin](includes/d365fin_md.md)], puede iniciar una lista de videos directamente desde su área de trabajo. También puede abrir el paseo **Introducción** que se centra en las áreas clave.  
 
-## <a name="inviteaccountant"></a>Invitación del contable externo a [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="inviting-your-external-accountant-to-your-d365fin"></a><a name="inviteaccountant"></a>Invitación del contable externo a [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Si utiliza un contable externo para administrar los libros y los informes financieros, su administrador puede invitarle a su [!INCLUDE[d365fin](includes/d365fin_md.md)] para que pueda trabajar con usted en los datos fiscales. [!INCLUDE[d365fin](includes/d365fin_md.md)] incluye tres licencias de tipo Contable externo. Para obtener información detallada acerca de las licencias, consulte la [Guía de licencias de Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?LinkId=871590).
 
 Una vez que el contable ha accedido a su [!INCLUDE[d365fin](includes/d365fin_md.md)], puede utilizar el área de trabajo **Contable** que da acceso fácil a las páginas más relevantes para el trabajo.  
@@ -61,7 +61,7 @@ Si su administrador o distribuidor no desea utilizar la guía **Invitar a un con
 
 A continuación, debe asignar al nuevo usuario invitado una licencia para [!INCLUDE [prodshort](includes/prodshort.md)].
 
-#### <a name="to-give-your-accountant-access-to-your-include-prodshortincludesprodshortmd"></a>Para darle acceso a su contable a su [!INCLUDE [prodshort](includes/prodshort.md)]
+#### <a name="to-give-your-accountant-access-to-your-prodshort"></a>Para darle acceso a su contable a su [!INCLUDE [prodshort](includes/prodshort.md)]
 
 1. En Azure Portal, en el usuario recién agregado, elija **Perfil** y luego elija **Editar**
 2. Actualizar el campo **Lugar de uso** al país relevante y luego elija **Guardar**.
@@ -73,7 +73,7 @@ A continuación, debe asignar al nuevo usuario invitado una licencia para [!INCL
 
 Si tiene éxito, la licencia se asigna al usuario invitado y se crea la cuenta de invitado.
 
-### <a name="importing-the-new-user-into-include-prodshortincludesprodshortmd"></a>Importar al nuevo usuario a [!INCLUDE [prodshort](includes/prodshort.md)]
+### <a name="importing-the-new-user-into-prodshort"></a>Importar al nuevo usuario a [!INCLUDE [prodshort](includes/prodshort.md)]
 
 El contador recibirá un correo electrónico que le notifica que se le ha dado acceso a su Active Directory. A continuación, debe darles acceso a la compañía correcta en [!INCLUDE [prodshort](includes/prodshort.md)].
 
@@ -83,7 +83,7 @@ El contador recibirá un correo electrónico que le notifica que se le ha dado a
 2. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Usuarios** y luego elija el enlace relacionado.  
 3. Elija la acción **Obtener nuevos usuarios de Office 365**.
 
-Esto importa la cuenta de usuario que creó en Azure Portal a la empresa. Para obtener más información, consulte [Para añadir un usuario en Business Central](ui-how-users-permissions.md#to-add-a-user-in-business-central).  
+Esto importa la cuenta de usuario que creó en Azure Portal a la empresa. Para obtener más información, consulte [Para añadir un usuario en Business Central](ui-how-users-permissions.md#adduser).  
 
 Si desea dar acceso a varias empresas, debe iniciar sesión en cada compañía y repetir este proceso. Alternativamente, puede actualizar los grupos de permisos para el perfil de usuario del contador en [!INCLUDE [prodshort](includes/prodshort.md)], como asignarles el *grupo de usuario* D365 Bus Premium. Para obtener más información, vea [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md).  
 

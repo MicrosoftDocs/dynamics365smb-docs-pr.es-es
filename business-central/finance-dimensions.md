@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 6ac8d49d2b3a88d472a61a9a61c2893360036eb7
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 61e39b15042a4c3bd21ef1297d90803496305f8f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952631"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183793"
 ---
 # <a name="working-with-dimensions"></a>Trabajar con dimensiones
 Para simplificar la realización de análisis en documentos, como pedidos de venta, puede utilizar dimensiones. Las dimensiones son atributos y valores que clasifican los movimientos de modo que pueda realizar el seguimiento y el análisis de ellos. Por ejemplo, las dimensiones pueden indicar de qué proyecto o departamento procede un movimiento.  
@@ -209,7 +209,7 @@ Cuando se registran documentos o líneas de diario que contienen dimensiones, pu
 |Código de valor de dimensión no vacío para la dimensión predeterminada en blanco cuando el campo **Registro valor** contiene **Igual código**|-%1 %2 debe estar en blanco.<br />-%1 %2 debe estar en blanco para %3 %4.|-Cambie el campo **Registro valor** en la página **Dimensión predeterminada**.<br />-Introduzca un código de valor de dimensión en blanco para la dimensión en conflicto en el grupo de dimensiones.|
 |Valor de dimensión inesperado para la dimensión predeterminada cuando el campo **Registro valor** contiene **Sin código**|-%1 %2 no debe ser mencionado.<br />-%1 %2 no debe ser mencionado para %3 %4|-Cambie el campo **Registro valor** en la página **Dimensión predeterminada**.<br />-Elimine la línea conflictiva del grupo de dimensiones.|
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesdimensions-dynamics-365-business-centralindex"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/dimensions-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/dimensions-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Consulte también
 [Inteligencia empresarial](bi.md)  

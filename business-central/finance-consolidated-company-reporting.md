@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 2455cbf74520ddbc2ddb6ba6ae2e02064370ac2d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: fc026d34c39b7f045100e16024d971493041fb80
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302481"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183865"
 ---
 # <a name="consolidating-financial-data-from-multiple-companies"></a>Consolidar los datos financieros de varias empresas
 Si tiene más de una empresa en [!INCLUDE[d365fin](includes/d365fin_md.md)], el informe del balance provisional del centro de rol contador puede darle un resumen de la salud financiera del total de sus empresas.  
@@ -54,7 +54,7 @@ Si necesita más configuraciones avanzadas para su consolidación, puede configu
 [!INCLUDE[d365fin](includes/d365fin_md.md)] Le permite configurar una lista de las empresas que se van a consolidar, comprobar los datos contables antes de proceder a la consolidación, importar archivos y generar informes de consolidación.  
 
 1. Inicie sesión en la empresa consolidada.
-2. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Unidades de negocio** y luego elija el enlace relacionado.  
+2. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Unidades de negocio** y luego elija el enlace relacionado.  
 3. Elija **Nuevo** y, a continuación, rellene los campos requeridos. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!IMPORTANT]
@@ -65,7 +65,7 @@ Si su empresa utiliza una divisa extranjera debe especificar el tipo de cambio q
 ### <a name="to-prepare-general-ledger-accounts-for-consolidation"></a>Para preparar los libros contables para la consolidación
 Si el plan de cuentas de la unidad de negocio difiere de la empresa consolidada, debe preparar los libros contables para la consolidación. Puede especificar las cuentas para apuntar debe y haber y el método a utilizar para traducir las divisas en la empresa consolidada. Por ejemplo, esto es útil en caso de ejecutar con frecuencia el informe.
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Plan de cuentas** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Plan de cuentas** y luego elija el enlace relacionado.  
 2. Abra la ficha de la cuenta, y rellene los campos de la ficha desplegable **Consolidación**.
 
 ### <a name="to-specify-exchange-rates-for-consolidations"></a>Para especificar los tipos de cambio para las consolidaciones
@@ -84,7 +84,7 @@ En la tabla siguiente se describen los métodos del tipo de cambio que puede uti
 
 Para especificar los tipos de cambio para las unidades de negocio, realice los pasos siguientes:
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Unidades de negocio** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Unidades de negocio** y luego elija el enlace relacionado.  
 2. En la página **Lista de unidades de negocio**, seleccione la unidad de negocio y, después, seleccione la acción **Tipo de cambio medio (manual)**.   
 3. En la página **Modificar tipo de cambio**, el contenido del campo **Tipo de cambio relacionado** se ha copiado de la tabla **Tipo de cambio de divisa**, pero se puede modificar. Cierre la página.  
 4. Seleccione la acción **Tipo de cambio al cierre**.  
@@ -110,7 +110,7 @@ Si posee únicamente parte de una empresa, puede incluir un porcentaje de cada t
 Puede probar los datos antes de transferirlos a la empresa consolidada. [!INCLUDE[d365fin](includes/d365fin_md.md)] busca las diferencias entre la información encontrada de las unidades de negocio y la empresa consolidada. Por ejemplo, si los números de cuenta o códigos de dimensión son diferentes. Deberá corregir los errores antes de ejecutar el informe. Puede probar la base de datos o, si va a importar datos desde un archivo XML, puede probar el archivo.   
 
 1. Abra la empresa consolidada.  
-2. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Unidades de negocio** y luego elija el enlace relacionado.  
+2. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Unidades de negocio** y luego elija el enlace relacionado.  
 3. Realice una de las siguientes acciones:  
 
     * Para probar un archivo, elija la acción **Probar archivo**, escriba el nombre del archivo y después seleccione **Imprimir**.  

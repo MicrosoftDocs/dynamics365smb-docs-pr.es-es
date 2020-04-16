@@ -2,15 +2,15 @@
 title: Catálogo de aprendizaje de responsables de decisiones empresariales
 description: Catálogo de aprendizaje de responsables de decisiones empresariales
 author: loreleishannonmsft
-ms.date: 02/19/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.author: v-lshann
-ms.openlocfilehash: 29830b2d243cde7ab5b68f0967883db07c713f24
-ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
+ms.openlocfilehash: 1e02527e370308f5332a0453b0e05f3838b0194a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "3097580"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190880"
 ---
 # <a name="business-decision-makers-learning-catalog"></a>Catálogo de aprendizaje de responsables de decisiones empresariales
 
@@ -18,13 +18,13 @@ ms.locfileid: "3097580"
 
 El siguiente catálogo está organizado desde el conocimiento básico hasta dominios específicos y desde el más básico hasta el más avanzado. Si el contenido está en varios formatos, se lo haremos saber, para que pueda elegir el formato de formación que mejor se adapte a sus necesidades.  
 
-## Valor de negocio<a name="busvalue"></a>
+## <a name="business-value"></a>Valor de negocio<a name="busvalue"></a>
 
 | Contenido                                                                 | Descripción                                                                                                | Formato                                | Longitud     |
 |----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|---------------------------------------|------------|
 | [Dynamics 365 Business Central](https://docs.microsoft.com/learn/modules/dynamics-365-business-central/) | Este módulo muestra características de aplicación, beneficios y ejemplos de Dynamics 365 Business Central en acción. | Ruta de aprendizaje en línea gratuito y a su propio ritmo | 24 minutos |
 
-## Introducción<a name="get-started"></a>
+## <a name="getting-started"></a>Introducción<a name="get-started"></a>
 
 | Contenido                                                                                                                             | Descripción                                                                                                                                                                                                                                                                                      | Formato                                | Longitud             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|

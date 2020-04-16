@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 54e7aabe2989033a33373b960633b1c8f8e38eab
-ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
+ms.openlocfilehash: a1e55d983abae5f85807039da6dd4d846c3e40b3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076417"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185713"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Detalles de diseño: Equilibrio de aprovisionamiento y demanda
 Para saber cómo funciona el sistema de planificación, es necesario conocer los objetivos con prioridad del sistema de planificación, los más importantes de los cuales son asegurarse de que:  
@@ -99,7 +99,7 @@ Durante el proceso de equilibrado, el sistema de planificación toma los número
 
 Otra razón por la que el aprovisionamiento de números de serie y de lote no es flexible es que los números de serie y de lote generalmente se asignan tan tarde en el proceso que resultaría confuso si se sugirieran cambios.  
 
-La contrapartida de números de serie o de lote no respeta [Zona congelada](design-details-dealing-with-orders-before-the-planning-starting-date.md). Si la demanda y el aprovisionamiento no se sincroniza, el sistema de planificación sugerirá cambios o sugerirá nuevos pedidos, independientemente de la fecha de inicio de la planificación.  
+La contrapartida de números de serie o de lote no respeta la *zona congelada*. Si la demanda y el aprovisionamiento no se sincroniza, el sistema de planificación sugerirá cambios o sugerirá nuevos pedidos, independientemente de la fecha de inicio de la planificación.  
 
 ### <a name="order-to-order-links-are-never-broken"></a>Las conexiones de pedido contra pedido nunca se rompen  
 Al planificar un producto de pedido contra pedido, el suministro vinculado no se debe usar para ninguna otra demanda que para la que se ha pensado originalmente. La demanda vinculada no se debe cubrir con otro suministro aleatorio, incluso si, en la situación actual, está disponible en cuanto a tiempo y a cantidad. Por ejemplo, no se podrá utilizar para cubrir otra demanda un pedido de ensamblado vinculado a un pedido de venta en un caso de ensamblado para pedido.  
@@ -117,7 +117,7 @@ Esta contrapartida también afecta a la temporización. No se considera el horiz
 ### <a name="component-need-is-loaded-according-to-production-order-changes"></a>La necesidad de componente se carga según los cambios de la orden de producción  
 Al manipular las órdenes de producción, el sistema de planificación debe supervisar los componentes necesarios antes de cargarlos en el perfil de demanda. Las líneas de componente resultantes de una orden de producción modificada reemplazarán las del pedido original. De este modo se garantiza que el sistema de planificación establece que nunca se dupliquen las líneas de planificación de la necesidad de componentes.  
 
-###  <a name="BKMK_SafetyStockMayBeConsumed"></a> El stock de seguridad se puede consumir  
+###  <a name="safety-stock-may-be-consumed"></a><a name="BKMK_SafetyStockMayBeConsumed"></a> El stock de seguridad se puede consumir  
 El stock de seguridad es, principalmente, un tipo de demanda y, por lo tanto, se carga en el perfil de inventario en la fecha inicial de la planificación.  
 
 El stock de seguridad es una cantidad que se aparta para compensar las incertidumbres en la demanda durante el plazo de reposición. No obstante, se pueden consumir si es necesario para cubrir una demanda. En dicho caso, el programa de planificación garantizaría que el stock de seguridad se sustituye rápidamente sugiriendo un pedido de aprovisionamiento para abastecer la cantidad de stock de seguridad en la fecha en la que se consume. Esta línea de planificación mostrará un icono de advertencia de excepción explicando al planificador que el stock de seguridad se ha consumido parcialmente o en su totalidad a través de un pedido de excepción para la cantidad que falta.  

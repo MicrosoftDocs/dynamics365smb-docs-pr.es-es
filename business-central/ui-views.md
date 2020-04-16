@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 01decbd2ab4f3ed664c62e29d8bed6655758b315
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7285bf6984cc4f245282dcc129e66f097e11c5f2
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316815"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189416"
 ---
 # <a name="save-and-personalize-list-views"></a>Guardar y personalizar vistas de lista
 Cuando haya establecido un filtro en una lista y desee conservar el filtro para más adelante, puede guardarlo como una vista. Para obtener más información sobre el filtrado de listas, consulte [Configuración de filtros en listas](ui-enter-criteria-filters.md#setting-filters-on-lists).
@@ -24,7 +24,7 @@ Si existen vistas, el grupo **Vistas** aparece en la parte superior del panel de
 
 ## <a name="to-save-a-view"></a>Para guardar una vista
 1. Abre cualquier página de lista.
-2. Seleccione ![Icono Panel de filtro](media/open-filter-pane-icon.png "Icono Panel de filtro") en la parte superior de la lista o pulse Mayús+F3 para abrir el panel de filtro.
+2. Seleccione el ![icono Panel de filtroIcono Panel de filtro](media/open-filter-pane-icon.png "Icono Panel de filtro") en la parte superior de la lista o pulse Mayús+F3 para abrir el panel de filtro.
 3. Establezca uno o más filtros nuevos. Para obtener más información, vea [Configuración de filtros en listas](ui-enter-criteria-filters.md#setting-filters-on-lists).
 4. Cuando haya configurado los filtros, elija el icono ![Guardar vista](media/save_view_icon.png "Guardar vista").
 

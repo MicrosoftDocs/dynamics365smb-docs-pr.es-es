@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 10/17/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: b75ad760448b595e0241918006d5a888b5d5d625
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: cf0091de7446aff07b039d795b07334e3ba9d2a8
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2911244"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190088"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Requisitos mínimos para utilizar Business Central
 Antes de que acceda a [!INCLUDE [prodshort](includes/prodshort.md)] en línea, le recomendamos que verifique que su equipo o dispositivo móvil cumple o supera los requisitos mínimos del sistema para el producto. En este artículo se especifican los requisitos.  
@@ -30,13 +30,13 @@ Antes de que acceda a [!INCLUDE [prodshort](includes/prodshort.md)] en línea, l
 
 ### <a name="other-supported-browsers"></a>Otros navegadores compatibles
 
-**Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] está diseñado para que funcione con Internet Explorer 11 (compilación 11.0.9600.17239) para Windows 10 (versiones de 32 y 64 bits). Le recomendamos que actualice Internet Explorer a la última versión compatible con su versión de Windows. 
+**Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] está diseñado para que funcione con Internet Explorer 11 (compilación 11.0.9600.17239) para Windows 10 (versiones de 32 y 64 bits). Le recomendamos que actualice Internet Explorer a la última versión compatible con su versión de Windows. También puede ejecutar el nuevo Edge y aún acceder a sitios web que requieren Internet Explorer. Para obtener más información, consulte la [documentación de Microsoft Edge](/deployedge/edge-ie-mode).
 
 ## <a name="mobile-devices"></a>Dispositivos móviles
 **Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] para Windows se puede instalar en dispositivos con un mínimo de 1 GB de RAM y Windows 10 Home, Pro, Enterprise o Education (ediciones de 32 y 64 bits).  
 **iOS**: [!INCLUDE[d365fin](includes/d365fin_md.md)] para iPad y iPhone requiere iOS 10.0 o posterior.  
 **Android**: [!INCLUDE[d365fin](includes/d365fin_md.md)] para teléfonos Android y tabletas Android se puede instalar en dispositivos con al menos 1 GB de memoria RAM y Android 6.0 o posterior.  
-**Tamaño de los dispositivos:** [!INCLUDE[d365fin](includes/d365fin_md.md)] es compatible con smartphones con un tamaño de pantalla mínimo de 4 pulg. y tabletas con un tamaño de pantalla mínimo de 7 pulg.  
+**Tamaño de los dispositivos:** [!INCLUDE[d365fin](includes/d365fin_md.md)] es compatible con smartphones con un tamaño de pantalla mínimo de 4" y tabletas con un tamaño de pantalla mínimo de 7".  
 
 ## <a name="outlook"></a>Outlook
 **Aplicaciones de Outlook**: para usar [!INCLUDE[d365fin](includes/d365fin_md.md)] en línea como bandeja de entrada de empresa en Outlook, requerirá Outlook 2016 o posterior, Outlook en un explorador, Outlook para iPhone, Outlook para iPad o Outlook para Android. Su organización también debe utilizar Office 365. No puede utilizar [!INCLUDE [prodshort](includes/prodshort.md)] en línea como su bandeja de entrada empresarial en Outlook si su organización usa Exchange Server local.  

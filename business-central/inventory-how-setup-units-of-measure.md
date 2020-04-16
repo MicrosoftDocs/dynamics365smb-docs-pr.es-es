@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: UOM
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: SorenGP
-ms.openlocfilehash: 672ddb851b14accf4df3f88bbc0badd775319a68
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: f8ddba0ba5507d205e5e8fdf6f04007ac1060462
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309801"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182065"
 ---
 # <a name="set-up-item-units-of-measure"></a>Configurar unidades de medida de producto
 Puede configurar varias unidades de medida para un producto de forma que pueda asignar las unidades de medida al producto para los fines siguientes:
@@ -28,7 +28,7 @@ Puede configurar varias unidades de medida para un producto de forma que pueda a
 Si un producto se almacena en una unidad de medida pero se fabrica en otra, se crea una orden de producción que utiliza una unidad de medida de la sección de fabricación para calcular la cantidad correcta de componentes durante el trabajo por lotes **Actualizar orden producción**. Un ejemplo del cálculo de una unidad de medida de la sección de fabricación es el caso en que un producto fabricado se almacena por piezas pero se produce en toneladas. Para obtener más información, consulte [Trabajar con la unidad de medida de lote de fabricación](production-how-to-use-the-manufacturing-batch-unit-of-measure.md).
 
 ## <a name="to-set-up-a-unit-of-measure"></a>Configurar una unidad de medida
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Productos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos** y luego elija el enlace relacionado.
 2. Abra la ficha del producto para el que desea configurar unidades de medida alternas.
 3. Elija la acción **Unidades medida**. Se abre la página **Unidades medida producto**.
 4. Si el campo **Unidad de medida base** en la ficha de producto se ha rellenado, dicha unidad de medida ya está configurada.
@@ -42,7 +42,7 @@ Ahora puede utilizar las unidades de medida alternas de los documentos de compra
 ## <a name="to-set-up-unit-of-measure-translations"></a>Para configurar traducciones de unidades de medida
 Cuando vende productos a clientes extranjeros, quizás le interese especificar la unidad de medida en el idioma del cliente. Para ello, primero debe configurar las traducciones correspondientes de las unidades de medida.
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Uds. de medida** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Unidades de medida** y luego elija el enlace relacionado.
 2. Seleccione el código para el que desea configurar las traducciones y, a continuación, elija la acción **Traducciones**.
 3. En el campo **Cód. idioma**, seleccione la flecha desplegable para ver una lista de los códigos de idioma disponibles. Seleccione el código de idioma para el que desea especificar una traducción y, a continuación, elija el botón Aceptar para copiarlo en el campo.
 4. En el campo **Descripción**, escriba el texto correspondiente.
@@ -51,7 +51,7 @@ Cuando vende productos a clientes extranjeros, quizás le interese especificar l
 ## <a name="to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions"></a>Para introducir un código de unidad de medida predeterminada para las transacciones de compra y venta
 Si suele comprar o vender en unidades que no sean la unidad de medida base, especifique unidades de medida diferentes para las compras y las ventas. Para ello, debe configurar las unidades de medida en la página **Unidades medida producto**.
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Productos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos** y luego elija el enlace relacionado.
 2. Abra la ficha de producto relevante para la que desea especificar un código de unidad de medida de compra o venta predeterminado.
 3. Para ventas, en la ficha desplegable **Facturación**, en el campo **Unidad medida venta**, abra la página **Unidades medida producto**.
 4. En compras, en la ficha desplegable **Reposición**, en el campo **Unidad medida compra**, abra la página **Unidades medida producto**.

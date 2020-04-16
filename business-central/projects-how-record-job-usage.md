@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, consumption
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: a7b4c95b669b617b83445a6fa3b8eeb5c7b4070a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0709dc9fb13b5928fae40e92c21e67b0376a2db5
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312801"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191172"
 ---
 # <a name="record-usage-for-jobs"></a>Registro del uso para proyectos
 En la página **Líneas planificación proyecto**, puede revisar y registrar la utilización en las diferentes partes de su proyecto, que se actualiza automáticamente cuando modifica y transfiere la información entre proyectos y diarios de proyectos o facturas del proyecto. Para ello es necesario que haya configurado un proyecto para que **Aplicar vínculo uso de forma pred.** se active. Para obtener más información, consulte [Configurar trabajos](projects-how-setup-jobs.md).  
@@ -27,7 +27,7 @@ Por ejemplo, para las líneas de planificación del tipo **Presupuesto**, puede 
 En los procedimientos siguientes se describe cómo registrar precios y costes de proyecto reales (facturables) o presupuestados. Para obtener información acerca de la estimación de valores presupuestados durante la planificación, vea [Administración de presupuestos de proyecto](projects-how-manage-budgets.md).
 
 ## <a name="to-record-usage-for-a-job-planning-line-of-type-budget"></a>Para registrar la utilización de una línea de planificación de proyecto de tipo Presupuesto
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Proyectos** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Proyectos** y luego elija el enlace relacionado.  
 2. Seleccione el proyecto correspondiente y, a continuación, elija la acción **Líneas planificación proyecto**.
 3. Seleccione una línea planificación de proyecto del tipo **Presupuesto** o **Presupuesto y Facturable** para la que desea registrar la utilización.
 4. En el campo **Cdad. a transferir al diario**, introduzca el número que desea transferir. La cantidad predeterminada es el valor que introduzca en el campo **Cantidad**.
@@ -43,7 +43,7 @@ En los procedimientos siguientes se describe cómo registrar precios y costes de
 ## <a name="to-record-usage-for-a-job-planning-line-of-type-billable"></a>Para registrar la utilización de una línea de planificación de proyecto de tipo Facturable
 En la siguiente tarea, también se registra la utilización, pero para una línea de planificación de proyecto de tipo **Facturable**. Normalmente, en este caso, se factura la utilización, pero también puede transferirla a un diario. Sin embargo, al hacer esto, se crea una línea de planificación de proyecto de tipo **Presupuesto** para que coincida con la línea facturable. Para obtener más información, vea [Administración de presupuestos de proyecto](projects-how-manage-budgets.md).
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Proyectos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Proyectos** y luego elija el enlace relacionado.
 2. Seleccione el proyecto correspondiente y, a continuación, elija la acción **Líneas planificación proyecto**.  
 3. Seleccione una línea de planificación de proyecto de tipo **Facturable** para la que desee registrar la utilización.
 4. En el campo **Cdad. a transferir a factura**, introduzca el número que desea transferir. La cantidad predeterminada es el valor que introduzca en el campo **Cantidad**.
@@ -60,7 +60,7 @@ En la siguiente tarea, también se registra la utilización, pero para una líne
 ## <a name="to-create-job-journal-lines-from-job-planning-lines"></a>Para crear líneas del diario de proyectos desde líneas de planificación del proyecto
 Cuando esté preparado para registrar la información de los proyectos, debe crear líneas del diario de proyectos que pueda registrar.
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Proyectos** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Proyectos** y luego elija el enlace relacionado.  
 2. Seleccione el proyecto pendiente correspondiente y, a continuación, elija la acción **Líneas planificación proyecto**.  
 3. En la página **Líneas planificación proyecto**, en una línea de planificación de proyecto, en el campo **Cdad. a transferir al diario**, introduzca la cantidad que desee transferir a un diario de proyectos.  
 4. Elija la acción **Crear líneas de diario de proyectos**.
@@ -70,7 +70,7 @@ Cuando esté preparado para registrar la información de los proyectos, debe cre
 8. Cuando las líneas del diario de proyectos están completas, seleccione la acción **Registrar**.  
 
 ## <a name="to-create-job-journal-lines-manually"></a>Para crear manualmente líneas de diario de proyectos
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diarios proyecto** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diarios de proyectos** y luego elija el enlace relacionado.  
 2. En el campo **Nombre sección**, seleccione una sección de diario de proyectos relevante.  
 3. En una nueva línea, introduzca el número de documento, el número de proyecto, el número de la tarea del proyecto, el tipo y la cantidad del tipo que se consume.  
 4. Cuando las líneas del diario de proyectos están completas, seleccione la acción **Registrar**.  
@@ -81,7 +81,7 @@ Después de haber registrado las líneas de diario de proyectos, puede ver las l
 > [!NOTE]  
 >   Para ello es necesario que la casilla de verificación **Aplicar vínculo uso de forma pred.** se haya seleccionado para el proyecto, o sea el valor predeterminado para todos los proyectos de su organización. Para obtener más información, consulte [Configurar trabajos](projects-how-setup-jobs.md).  
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diarios proyecto** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diarios de proyectos** y luego elija el enlace relacionado.  
 2. Seleccione un diario de trabajo relevante y, a continuación, seleccione la acción **Movimientos**.  
 3. En la página **Movs. proyectos**, elija la acción **Mostrar líneas planificación proyecto vinculadas**.
 

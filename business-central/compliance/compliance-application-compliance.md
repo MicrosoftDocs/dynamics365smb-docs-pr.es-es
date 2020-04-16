@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: soalex
-ms.openlocfilehash: ede085fca1595c7349501d9a8cbbd09e4e14e897
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: bc55e2ec51285f540c117983af51704f7059abd9
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303881"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185977"
 ---
 # <a name="application-compliance"></a>Conformidad de las aplicaciones
 En este contenido se incluye información acerca de la conformidad de las aplicaciones en relación con [!INCLUDE[d365fin](../includes/d365fin_md.md)], como las Normas Internacionales de Información Financiera, la funcionalidad local, el RGPD y más. La confianza en una solución de gestión empresarial es clave para dirigir un negocio eficiente. Con Business Central, las empresas están facultadas para agilizar los procesos de negocios a la vez que cumplen de manera consistente y rentable con el aumento de los requisitos de regulación e informes.

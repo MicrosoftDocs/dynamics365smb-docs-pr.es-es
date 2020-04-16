@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 12/17/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: eb40c1d479267ba2e8111bd1183f2c7454a2bd16
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: 2dd601784418468a0f70befaced4b87e497fc2d7
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2911126"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181753"
 ---
 # <a name="keyboard-shortcuts"></a>Métodos abreviados de teclado
 Este producto proporciona un resumen de algunas de las combinaciones de métodos abreviados que se pueden utilizar cuando trabaje con [!INCLUDE[prodshort](includes/prodshort.md)].
@@ -38,7 +38,7 @@ La mayoría de los accesos directos son los mismos independientemente de que el 
 > [!NOTE]
 > Además de los métodos abreviados de teclado globales descritos en este tema, hay disponibles varios métodos específicos de la empresa. Por ejemplo, en la versión genérica de [!INCLUDE[prodshort](includes/prodshort.md)], F9 publica un documento y Ctrl + F7 muestra las entradas financieras de un registro. (Estos pueden ser diferentes en su solución). El método abreviado de teclado se muestra en la información sobre herramientas de la acción en cuestión.
 
-##  <a name="Keyboard"></a> Métodos abreviados de teclado generales
+##  <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a> Métodos abreviados de teclado generales
 En la tabla siguiente se describen los métodos abreviados de teclado para navegar y acceder a diferentes elementos de una página, como acciones, listas desplegables, búsquedas y más. Para obtener más información sobre los métodos abreviados de teclado para navegar por los registros una vez que ingresa en una lista, consulte la siguiente sección.
 
 |Pulsar estas teclas<br />(en macOS)|Para hacer esto|
@@ -83,7 +83,8 @@ En la tabla siguiente se describen los métodos abreviados de teclado que puede 
 |Alt+N|Insertar una nueva línea en una lista editable, como la página **Presupuestos contables**.|Igual.|
 |Shift+F10 |Abrir un menú de opciones que están disponibles para la fila seleccionada.|Igual.|
 
-### <a name="navigateshortcuts"></a>Navegación entre filas y columnas
+### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Navegación entre filas y columnas
+Las cuadrículas con filas y columnas existen en muchos tipos de página en [!INCLUDE[prodshort](includes/prodshort.md)], como páginas de lista y partes de **Líneas** en documentos. Moverse de una celda a otra a través de una cuadrícula está totalmente preparado para el teclado.
 
 |Pulsar estas teclas<br />(en macOS)|Para hacerlo en una vista de lista |Para hacerlo en una vista de mosaico |
 |-----------------|-------|-------|
@@ -93,16 +94,17 @@ En la tabla siguiente se describen los métodos abreviados de teclado que puede 
 |Fin<br />(Fn+flecha derecha)|Desplazarse al último campo en una fila.|Desplazarse al último mosaico en una fila.|
 |Introduzca|Abre el registro asociado a este campo.<br /><br />Solo es relevante si una página de ficha está asociada con el registro.|Abre el registro.<br /><br />Solo es relevante si una página de ficha está asociada con el registro.|
 |Ctrl+Enter|Mueva el enfoque al siguiente elemento fuera de la lista.|Mueva el enfoque al siguiente elemento fuera de la lista.|
+|Re. pág.<br />(Fn+flecha arriba)|Desplazarse para mostrar las filas establecidas por encima de las filas actuales a la vista. |Se desplaza para mostrar los mosaicos establecidos por encima de los mosaicos actuales a la vista. |
+|Av. Pág.<br />(Fn+flecha abajo)|Desplazarse para mostrar las filas establecidas por debajo de las filas actuales a la vista.|Desplazarse para mostrar los mosaicos establecidos por debajo de los mosaicos actuales a la vista.|
 |Flecha abajo|En la misma columna, desplazarse al campo de la fila inferior. |En la misma columna, desplazarse al mosaico de la fila inferior. |
 |Flecha hacia arriba|En la misma columna, desplazarse al campo de la fila superior.| En la misma columna, desplazarse al mosaico de la fila superior.  |
 |Flecha hacia la derecha|En una lista de solo lectura, desplácese en la misma fila al siguiente campo de la derecha.<br /><br />En una lista editable, desplácese a la derecha del campo actual.| En la misma fila, desplazarse al siguiente mosaico de la derecha. |
 |Flecha izquierda|En una lista de solo lectura, desplácese en la misma fila al campo anterior de la izquierda. <br /><br />En una lista editable, desplácese a la izquierda del campo actual.| En la misma fila, desplazarse al mosaico anterior de la izquierda. |
-|Re. pág.<br />(Fn+flecha arriba)|Desplazarse para mostrar las filas establecidas por encima de las filas actuales a la vista. |Se desplaza para mostrar los mosaicos establecidos por encima de los mosaicos actuales a la vista. |
-|Av. Pág.<br />(Fn+flecha abajo)|Desplazarse para mostrar las filas establecidas por debajo de las filas actuales a la vista.|Desplazarse para mostrar los mosaicos establecidos por debajo de los mosaicos actuales a la vista.|
-|Tabulador|En una lista editable, desplácese en la misma fila al siguiente campo de la derecha.|No aplicable.||
+|Tab|En una lista editable, desplácese en la misma fila al siguiente campo de la derecha.|No aplicable.||
 |Mayús+Tabulador|En una lista editable, desplácese en la misma fila al anterior campo de la izquierda. | No aplicable. |
 
-### <a name="CopyRows"></a>Selección, copia y pegado
+
+### <a name="selecting-copying-and-pasting"></a><a name="CopyRows"></a>Selección, copia y pegado
 
 |Pulsar estas teclas<br />(en macOS)|Para hacerlo en una vista de lista |Para hacerlo en una vista de mosaico |
 |-----------------|-------|-------|
@@ -120,7 +122,7 @@ En la tabla siguiente se describen los métodos abreviados de teclado que puede 
 |Mayús+Av Pág<br />(Mayús+Fn+Flecha abajo)|Extienda la selección de filas para incluir las filas visibles por debajo de la selección actual de filas.|No aplicable.|
 |F8|Copie el campo en la misma columna de la fila anterior y péguelo en la fila actual. Solo lo puede hacer en listas editables. Mediante este método abreviado seguido de una pestaña podrá completar rápidamente los campos de los artículos de la línea que desea que tengan el mismo valor que la fila anterior.|No aplicable.|
 
-### <a name="KeyboardFilter"></a>Búsqueda y filtrado de listas
+### <a name="searching-and-filtering-lists"></a><a name="KeyboardFilter"></a>Búsqueda y filtrado de listas
 
 |Pulsar estas teclas<br />(en macOS)|Para hacer esto|
 |-----------------|-------|
@@ -138,7 +140,7 @@ Los siguientes métodos abreviados están disponibles en las páginas de ficha, 
 
 |Pulsar estas teclas<br />(en macOS)|Para hacer esto|
 |----------------|-----------|
-|Alt+F6|Alternar contraer/expandir la ficha desplegable actual.|
+|Alt+F6|Alternar contraer/expandir la ficha desplegable o parte (subpágina) actual.|
 |Alt+N |Abrir una página para crear un nuevo registro; de la misma manera que se elige la acción **Nueva**. |
 |Alt+Mayús+N |Cerrar una página y abrir una nueva para crear un nuevo registro; de la misma manera que se selecciona la acción **Aceptar y nuevo**. |
 |Alt+Mayús+W |Abra la ficha o documento actual en una nueva ventana. Para obtener más información, consulte [Multitarea en varias páginas](ui-enter-data.md#multitasking-across-multiple-pages).|
@@ -151,7 +153,7 @@ Los siguientes métodos abreviados están disponibles en las páginas de ficha, 
 |F6|Moverse a la siguiente ficha desplegable o parte (subpágina).|
 |Shift+F6|Moverse a la ficha desplegable o parte (subpágina) anterior.|
 
-## <a name="QuickEntry"></a>Métodos abreviados de entrada rápida para campos
+## <a name="quick-entry-shortcuts-for-fields"></a><a name="QuickEntry"></a>Métodos abreviados de entrada rápida para campos
 
 Los siguientes accesos directos pertenecen a la función de entrada rápida en fichas, documentos y páginas de listas. En las listas, los métodos abreviados no se pueden utilizar cuando la lista está en la vista de mosaico. Para obtener más información sobre la entrada rápida, consulte [Aceleración de la entrada de datos mediante la entrada rápida](ui-enter-data.md#QuickEntry).
 
@@ -161,7 +163,7 @@ Los siguientes accesos directos pertenecen a la función de entrada rápida en f
 |Mayús+Entrar|Confirmar el valor en el campo actual y pasar al campo de entrada rápida anterior.||
 |Ctrl+Mayús+Entrar|Confirmar el valor en la columna actual y pasar al siguiente campo de entrada rápida fuera de la lista.<br /><br />Este método abreviado se aplica a las listas insertadas en una página, como los productos de lista de un pedido de venta. Le permite salir rápidamente de la lista y continuar introduciendo datos en otros campos de la página.|
 
-## <a name="a-namecalendarshortcuts-keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"/> Métodos abreviados de teclado en el Calendario (selector de fecha)
+## <a name="keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"/> Métodos abreviados de teclado en el Calendario (selector de fecha)
 
 Al configurar un campo de fecha, puede introducir la fecha manualmente o abrir un calendario (selector de fecha) que le permite seleccionar la fecha que desea. En la tabla siguiente se describen los métodos abreviados de teclado del calendario.
 
@@ -185,7 +187,7 @@ Al configurar un campo de fecha, puede introducir la fecha manualmente o abrir u
 |h|Introduzca la fecha actual. "H" significa "hoy".|
 |t|Introduzca la fecha de trabajo. Para obtener más información, consulte [Fecha de trabajo](ui-change-basic-settings.md#work-date).|
 
-## <a name="a-namereportpreviewshortcutskeyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"/>Métodos abreviados de teclado en la vista preliminar de informe
+## <a name="keyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"/>Métodos abreviados de teclado en la vista preliminar de informe
 
 |Pulsar estas teclas<br />(en macOS)|Para hacer esto|
 |-----------------|-------|

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment application, payment processing, match payments
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 1efebf96f1327f2ed50712e1acc3d87a6b2389d3
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1e7d29d226c0c899a71188bc3ed1036e39939e67
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314245"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189992"
 ---
 # <a name="reconcile-vendor-payments-with-the-payment-journal-or-from-vendor-ledger-entries"></a>Conciliar pagos a proveedores con el diario de pagos o desde los movimientos de proveedor
 Cuando envía un pago o recibe un reembolso de un proveedor, debe decidir si va a liquidar uno o varios movimientos pendientes con el pago o el reembolso. Puede especificar el importe exacto que desea liquidar con el albarán de pago o el reembolso, y liquidar sólo parcialmente movimientos del proveedor. Debe liquidar todos los movimientos de proveedores para obtener estadísticas e informes correctos de los extractos de cuentas y los intereses.
@@ -39,7 +39,7 @@ Puede liquidar pagos a proveedores manualmente a los documentos de compra relaci
 También puede liquidar los pagos a proveedores y los pagos a clientes, después los pagos aparecen como transacciones negativas en su banco. En la página **Diario de conciliación de pagos**, puede usar las funciones para importar extractos bancarios, para la liquidación automática y para la conciliación de cuentas bancarias. Para obtener más información, vea [Conciliar pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md).
 
 ## <a name="to-apply-a-payment-to-a-single-or-multiple-vendor-ledger-entries"></a>Para liquidar uno o varios movimientos del proveedor con un pago:
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diario de pagos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diarios de pagos** y luego elija el enlace relacionado.
 2. En la página **Diario de pagos**, en la primera línea del diario, escriba la información correspondiente sobre el movimiento de pago.
 3. Para liquidar un solo movimiento de proveedor:
    1. En el campo **Liq. por n.º documento**, elija el campo para abrir la página **Aplicar movs. proveedor**.
@@ -57,7 +57,7 @@ También puede liquidar los pagos a proveedores y los pagos a clientes, después
 6. Seleccione la acción **Registrar**, para registrar el diario de pagos.
 
 ## <a name="to-apply-a-credit-memo-to-a-single-or-multiple-vendor-ledger-entries"></a>Para liquidar un abono con uno o varios movimientos de proveedor
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Abono de compra** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Abono de compra** y luego elija el enlace relacionado.
 2. Abra el abono que desea liquidar.
 3. Escriba la información relevante en la cabecera.
 4. Para liquidar un solo movimiento de proveedor, en la ficha desplegable **Liquidación**, campo **Liq. por n.º documento**, seleccione el movimiento para liquidar el abono y, a continuación, en el campo **Importe a liquidar**, introduzca el importe para liquidar el movimiento.
@@ -74,7 +74,7 @@ También puede liquidar los pagos a proveedores y los pagos a clientes, después
 7. Seleccione el botón **Registrar** para crear el abono de compra.
 
 ## <a name="to-apply-posted-vendor-ledger-entries"></a>Para liquidar movimientos de proveedor registrados
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Proveedores** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Proveedores** y luego elija el enlace relacionado.
 2. Abra el proveedor pertinente con movimientos ya registrados.
 3. Seleccione la acción **Movimientos** y, a continuación, seleccione la acción **Liquidar movs**.
 4. En la página **Movs. pendientes proveedor** podrá ver los movimientos pendientes del proveedor.
@@ -95,7 +95,7 @@ Si se realiza una venta a un proveedor en una divisa y se efectúa el pago en ot
 
 Si con un movimiento (Movimiento 1) en una divisa liquida otro movimiento (Movimiento 2) en otra divisa, se usa la fecha de registro del Movimiento 1 para buscar el tipo de cambio adecuado para convertir los importes del Movimiento 2. El tipo de cambio relevante se encuentra en la página **Tipos cambio divisa**. En ese caso, debe habilitar la liquidación de movimientos de proveedor en divisas distintas. Para obtener más información, vea [Permitir la liquidación de movimientos de cliente en distintas divisas](finance-how-enable-application-ledger-entries-different-currencies.md)
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diario de pagos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diarios de pagos** y luego elija el enlace relacionado.
 2. Abra el diario que desea y rellene la primera línea de diario vacía utilizando un código de divisa.
 3. Seleccione la acción **Liquidar movs.**.
 4. Seleccione la línea que contiene el movimiento con el que desea liquidar el movimiento del diario de pagos, seleccione la acción **Marcar id. de liquidación** y, a continuación, seleccione el movimiento que desea liquidar.
@@ -108,7 +108,7 @@ Si con un movimiento (Movimiento 1) en una divisa liquida otro movimiento (Movim
 ## <a name="to-unapply-an-application-of-vendor-entries"></a>Para deshacer un movimiento de liquidación de movimientos de proveedor
 Cuando se deshace una liquidación errónea, se crean y registran movimientos de corrección que son idénticos al original, pero de signo opuesto en el campo de importe, para todos los movimientos, incluidos todos los registros de contabilidad derivados de la liquidación, como los descuentos por pronto pago y las pérdidas y ganancias en divisas. Los movimientos que se cerraron con la liquidación se volverán a abrir.
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Proveedores** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Proveedores** y luego elija el enlace relacionado.
 2. Abra la ficha de proveedor correspondiente.
 3. Seleccione la acción **Movimientos**.
 4. Seleccione el movimiento relevante y, a continuación, seleccione la acción **Desliquidar entradas**.

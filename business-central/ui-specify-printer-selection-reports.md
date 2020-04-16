@@ -3,49 +3,84 @@ title: Configuración informes para imprimir en impresoras específicas | Docume
 description: Obtenga información sobre cómo especificar una impresora para un informe y usar la página Selección impresoras.
 services: project-madeira
 documentationcenter: ''
-author: SusanneWindfeldPedersen
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online printing
-ms.date: 10/01/2019
-ms.author: solsen
-ms.openlocfilehash: 0c3a57906c32751639585e542a60d931174d594b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: d027999692323960327e8b34ddb2efaea23c59a8
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315041"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189488"
 ---
-# <a name="specify-printer-selection-for-reports"></a>Especificar selección de impresora para informes
-Esta página está vacía porque no puede configurar impresoras específicas para informes específicos. Estamos trabajando para resolver este problema.
+# <a name="set-up-printers"></a>Configuración de impresoras
+Como [!INCLUDE[prodshort](includes/prodshort.md)] es un servicio en la nube, no puede llegar a las impresoras locales conectadas a las máquinas de los usuarios. Sin embargo, puede conectarse a impresoras habilitadas para la nube. En la versión genérica de [!INCLUDE[prodshort](includes/prodshort.md)], una impresora en la nube llamada **Impresora de correo electrónico** se instala como extensión y está lista para usar después de la configuración inicial.
 
-Mientras tanto, si desea imprimir un informe, tiene que descargarlo como documento PDF primero, eligiendo el botón **Enviar**. A continuación, seleccione el tipo de archivo como se descargará el informe; debe elegir **Documento PDF**. Ahora puede abrir el documento de PDF inmediatamente e imprimirlo, o guardarlo e imprimirlo más adelante.
+Si no se instala y configura una impresora en la nube o si falla una impresora instalada, la impresión tendrá las opciones de impresión predeterminadas para el navegador. Esto se indica mediante este valor en el campo **Impresora** en la página de solicitud de informe: *(ninguna, controlada por el navegador)*.
 
-<!--
+En la página **Administración de impresoras**, puede ver las impresoras que están configuradas. Cuando haya configurado una o más impresoras, puede abrir la página **Selecciones de impresoras** para configurar para su cuenta de usuario qué informes específicos imprimir con qué impresora.
 
-You can set up reports so that they must be printed on a specific printer. The following are some uses of printer selection:
+Cuando se configura una impresora y se asigna a informes específicos, para imprimir un informe se selecciona el botón **Imprimir** en la página de solicitud de informe. Para más información, vea [Imprimir un informe](ui-work-report.md#PrintReport).
 
-- You can print reports on special company letterhead.
-- You can print reports on different paper sizes.
-- You can print reports on the default printer of a specified employee.
+## <a name="to-set-up-a-printer"></a>Para configurar una impresora
+En la página **Administración de impresoras**, puede ver las impresoras que están configuradas y puede acceder a la página **Configuraciones** para cada impresora para editar una configuración existente o configurar una nueva impresora.
 
-You use the **Printer Selections** page to set different values to obtain different output. If you set a specific printer selection, then it takes precedence over a more general printer selection. For example, you can set a printer selection that has values in the **User ID**, **Report ID**, and **Printer Name** fields. This printer selection takes precedence over a printer selection that has blank entries in the **User ID** or **Report ID** fields.
+El siguiente procedimiento describe cómo configurar la **Impresora de correo electrónico** existente, que es una extensión preinstalada.
 
-The following table describes the combination of values to specify when you set up printer selections for a report.
+> [!NOTE]
+> Para utilizar la impresión por correo electrónico, se debe configurar la funcionalidad de correo electrónico. Para obtener más información, consulte [Configurar correo electrónico](admin-how-setup-email.md).
 
-|To                                                 |Set the following values                                             |
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Administración de impresoras** y luego seleccione el enlace relacionado.
+2. Seleccione la línea para la **Impresora de correo electrónico** y luego elija la acción **Editar configuración de impresora**.
+3. En la página **Configuración**, rellene los campos necesarios. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+    > [!NOTE]
+    > Debe seleccionar manualmente el tamaño de papel adecuado para una impresora, ya que no se puede almacenar la impresora local o la configuración del usuario.
+    >
+    > Tenga en cuenta que la extensión de la impresora de correo electrónico está configurada con el tamaño de papel **A4** por defecto, que no es adecuado en Norteamérica, por ejemplo.
+4. Para hacer que una impresora sea la predeterminada, en la página **Administración de impresoras**, elija **Establecer como mi impresora predeterminada**.
+
+### <a name="privacy-notice"></a>Aviso de privacidad
+Si utiliza la extensión de impresora de correo electrónico, todos o algunos trabajos de impresión se enviarán a la dirección de correo electrónico que proporcionó al configurar la impresora. Recomendamos encarecidamente que se vincule una identificación de correo electrónico única a un dispositivo de impresora utilizando solo los servicios oficiales proporcionados por el fabricante del hardware, como HP ePrint, KonicaMinolta EveryonePrint o Epson Email Print.
+
+Debe tomar todas las precauciones de privacidad necesarias, incluida la garantía de que la solución de impresión de correo electrónico haya configurado correctamente los permisos, la configuración de privacidad y las políticas de retención. Es su responsabilidad proporcionar una dirección de correo electrónico correcta, verificada y operativa. Para obtener más información, consulte la [Declaración de privacidad de Microsoft](https://privacy.microsoft.com/en-us/privacystatement).
+
+## <a name="to-select-which-printers-print-which-reports"></a>Para seleccionar qué impresoras imprimen qué informes
+En la página **Selecciones de impresoras**, puede configurar para su cuenta de usuario qué informes se imprimen en qué impresora. Esto es útil si trabaja con diferentes informes que requieren impresoras diferentes debido a su ubicación en la empresa o sus capacidades de salida.
+
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Selecciones de impresora** y luego seleccione el enlace relacionado. Alternativamente, desde la página **Administración de impresoras**, seleccione una impresora y luego elija la acción **Selecciones de impresoras**.
+2. Elija la acción **Nuevo** para agregar una selección de impresora para un informe específico.
+3. Rellene los campos según sea necesario.
+
+El informe especificado estará ahora configurado para imprimirse en la impresora seleccionada de manera predeterminada.
+
+> [!NOTE]
+> Cuando imprime el informe en cuestión, puede anular esta configuración seleccionando otra impresora en la página de solicitud **Configuraciones de impresión**.
+
+> [!NOTE]
+> Si no configura un informe para una impresora específica en la página **Selecciones de impresora**, se imprimirá en la impresora predeterminada de la empresa, tal como se define en la página **Administración de impresoras**.
+
+Usted o el administrador también pueden usar la página **Selecciones de impresora** para definir otras variaciones de impresión para usuarios e informes. La tabla siguiente describe la combinación de valores para especificar una configuración de impresión diferente para un informe.
+
+|Para                                                 |Establecer los valores siguientes                                             |
 |---------------------------------------------------|---------------------------------------------------------------------|
-|Print a report to a specific printer for all users |Specify values in the **Report ID** and **Printer Name** fields and leave the **User ID** field blank.|
-|Print all reports to a specific printer for a specific user|Specify values in the **User ID** and **Printer Name** fields and leave the **Report ID** field blank.|
-|Set the default printer for all reports|Specify a value in the **Printer Name** field and leave the **User ID** and **Report ID** fields blank.|
-|Print a specific report to the user’s default printer|Specify a value in the **Report ID** field and leave the **Printer Name** and **User ID** fields blank.|
-|Print a specific report to a specific printer for a specific user|Specify values in all three fields.|
--->
+|Imprimir un informe en una impresora específica para todos los usuarios |Especifique los valores de los campos **Id. informe** y **Nombre impresora** y deje en blanco el campo **Id. usuario**.|
+|Imprimir todos los informes en una impresora específica para un usuario específico|Especifique los valores de los campos **Id. usuario** y **Nombre impresora** y deje en blanco el campo **Id. informe**.|
+|Establecer la impresora predeterminada para todos los informes|Especifique un valor en el campo **Nombre impresora** y deje en blanco los campos **Id. usuario** e **Id. informe**.|
+|Imprimir un informe específico en la impresora predeterminada del usuario|Especifique un valor en el campo **Id. informe** y deje en blanco los campos **Id. usuario** y **Nombre impresora**.|
+|Imprimir un informe específico en una impresora concreta para un usuario específico|Especifique los valores de los tres campos.|
+
+> [!NOTE]
+> Las selecciones de impresora más específicas tienen preferencia sobre las selecciones de impresora más generales. Por ejemplo, una selección de impresora que tenga valores en **ID de usuario**, **ID de informe** y **Nombre de impresora** tiene prioridad sobre una selección de impresora que tenga entradas en blanco en los campos **ID de usuario** o **ID de informe**.
 
 ## <a name="see-also"></a>Consulte también
+[Imprimir un informe](ui-work-report.md#PrintReport)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Ejecutar procesos](ui-how-run-batch-jobs.md)  
 [Enviar documentos por correo electrónico](ui-how-send-documents-email.md)  

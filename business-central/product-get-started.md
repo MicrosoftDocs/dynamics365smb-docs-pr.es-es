@@ -5,23 +5,23 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.search.keywords: setup wizard
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4ae2faf57007bef9525134fbdc1232e8c0103d56
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 62ee42fe2b6e03ad1137a50a38c1cd2ee4bfcd0f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2954264"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190160"
 ---
-# <a name="getting-started-with-included365fin_longincludesd365fin_long_mdmd"></a>Introducción a [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# <a name="getting-started-with-d365fin_long"></a>Introducción a [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] es una solución de administración empresarial para pequeñas y medianas empresas que automatiza y optimiza los procesos empresariales y le ayuda a administrar su empresa. Registrarse es muy fácil y puede migrar los datos de la empresa existentes desde su sistema de herencia.  
 
 Para ayudarle con su suscripción, encuentre un socio de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, vea [¿Cómo encuentro un socio distribuidor?](across-faq.md#findpartner)  
 
 Cuando se registra en [!INCLUDE [prodshort](includes/prodshort.md)], dispone de acceso a una empresa de demostración. La empresa de demostración contiene datos de ejemplo, pero puede crear nuevos documentos de venta, por ejemplo, o configurar una cuenta bancaria. Sin embargo, si desea usar [!INCLUDE [prodshort](includes/prodshort.md)] como ayuda para administrar su negocio, debe ponerse en contacto con un socio distribuidor de [!INCLUDE [prodshort](includes/prodshort.md)] y comprar una suscripción. Para obtener más información sobre pruebas y suscripciones, vea [Versiones de prueba y suscripciones](across-preview.md).  
 
-## <a name="get-to-know-included365finincludesd365fin_mdmd"></a>Familiarícese con [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="get-to-know-d365fin"></a>Familiarícese con [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
 En [!INCLUDE[d365fin](includes/d365fin_md.md)], le serán familiares algunos aspectos, pero otros no. Para algunos consejos rápidos y que debe conocer, vea:  
 
@@ -38,20 +38,20 @@ En la empresa de demostración, el administrador de negocio y las áreas de trab
 
 Cuando esté preparado para empezar a trabajar y desee examinar algunos de los procesos empresariales que admite [!INCLUDE[d365fin](includes/d365fin_md.md)], vea [Funciones empresariales](across-business-functionality.md).
 
-Para poder empezar a utilizar la funcionalidad, se debe realizar cierta configuración. Para obtener más información, consulte también [Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
+Para poder empezar a utilizar la funcionalidad, se debe realizar cierta configuración. Para empezar, simplemente elija el icono ![Icono de rueda dentada para abrir el menú Configuración](media/ui-experience/settings_icon_small.png) y luego la acción **Configuración asistida**. Para obtener más información, consulte también [Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
 > [!TIP]
-> Algunos pasos de configuración se pueden realizar de forma semiautomática utilizando guías de configuración asistida.
+> Algunos pasos de configuración se pueden realizar de forma semiautomática utilizando guías de configuración asistida. Otros requieren configuración manual y puede encontrar una lista en la página **Ajustes avanzados**.
+
+<!--Some Role Center pages provide a **Setup and Extensions** button. Here you have access to a list of assisted setup guides that can help you get started by setting selected areas up quickly. If an area is not covered by an assisted setup, choose the **Manual Setup** action to access setup pages where you can fill in setup fields for all areas manually. For more information, see also [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
+
+> [!NOTE]
+> The list of setup guides, extensions, and services that are available differ depending on the user experience you choose for your company. The **Essential** experience gives access to fewer than the **Premium** experience does. The first time you sign in, you use the Essential experience. For more information, see [Change Which Features are Displayed](ui-experiences.md).  -->
 
 Para obtener un resumen de las funciones actuales y futuras, eche un vistazo al plan de versión en [Plan de la versión de Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422).  
 
 ## <a name="the-role-centers"></a>Áreas de trabajo
 La página Área de trabajo se basa un diseño basado en roles para ofrecerle acceso rápido a las herramientas de procesos e inteligencia empresariales que necesita para realizar su trabajo. Por ejemplo, un contable puede supervisar pagos y aprobaciones, y ver gráficos de rendimiento financiero. Descubra a qué le da acceso su rol actual con el explorador de roles. Para obtener más información, vea [Búsqueda de páginas con el explorador de roles](ui-role-explorer.md). Vea las áreas de trabajo eligiendo el icono **Configuración** ![Configuración](media/ui-experience/settings_icon_small.png "Icono de configuración para el área de trabajo") del área de trabajo en la esquina superior derecha, eligiendo **Mi configuración** y, a continuación, el área de trabajo para explorar. Se cierra sesión automáticamente y se vuelve a iniciar para aplicar el cambio. Para obtener más información, consulte [Cambiar configuración básica](ui-change-basic-settings.md).  
-
-Algunas páginas de área de trabajo proporcionan un botón **Configuración y extensiones**. Aquí tiene acceso a una lista de guías de configuración asistencia que puede ayudarle a empezar mediante la configuración de las áreas seleccionadas rápidamente. Si un área no está cubierta por una configuración asistida, elija la acción **Configuración manual** para obtener acceso a las páginas de configuración donde puede rellenar los campos de configuración de todas las áreas manualmente. Para obtener más información, consulte también [Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
-
-> [!NOTE]
-> La lista de guías de configuración, las extensiones y los servicios que están disponibles varían según la experiencia del usuario que elija para la empresa. La experiencia **Esencial** ofrece menos acceso que la experiencia **Premium**. La primera vez que inicie sesión, use la experiencia Esencial. Para obtener más información, consulte [Cambiar las funciones que se muestran](ui-experiences.md).  
 
 ## <a name="trying-things-out-in-your-own-company"></a>Probar cosas en su empresa
 ¿Está pensando en suscribirse? Puede cambiar fácilmente de la empresa de demostración y crear y trabajar en una empresa que desee. Es una forma excelente de cambiar a una suscripción. Se proporcionan configuraciones para finanzas, solo necesita crear o importar clientes, proveedores y los productos o servicios que vende. Después, podrá registrar facturas y usar las herramientas de inteligencia empresarial para analizar la empresa. Puede usar su empresa gratis durante un periodo de prueba de 30 días. Si se suscribe a [!INCLUDE[d365fin](includes/d365fin_md.md)] durante a ese tiempo, ya estará preparado para empezar. Puede seguir con el trabajo que realizó durante la prueba.  
@@ -77,7 +77,7 @@ Navegue para obtener información sobre otras aplicaciones de Dynamics 365 en el
 
 <!--COMMENTINGOUTTOREDUCENOISEIf you are an accountant, you can sign up for [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] and have seamless integration with [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Welcome to Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).-->
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsget-started-dynamics-365-business-central"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/paths/get-started-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/paths/get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Consulte también
 

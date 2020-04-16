@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 6fbb4e458b0e4f9068b234748a3921dbca6b3222
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1041dda83552af3c2c805c08518600d89f0467fb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300598"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188737"
 ---
 # <a name="edit-posted-documents"></a>Editar documentos registrados
 A veces tiene que actualizar un documento registrado porque la información relevante para el documento ha cambiado. En un documento de venta publicado, puede ser el número de seguimiento del paquete del transportista, por ejemplo. En un documento de compra registrado, puede ser un texto de referencia de pago.
@@ -37,7 +37,7 @@ Los siguientes documentos adicionales se pueden editar en versiones de país sel
 ## <a name="to-edit-a-posted-sales-shipment"></a>Para editar un histórico de albaranes de venta
 A continuación se explica cómo editar un histórico de albaranes de venta. Los pasos son similares para los demás documentos admitidos.
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Histórico albaranes venta** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Histórico albaranes venta** y luego elija el enlace relacionado.
 2. Seleccione el documento que desea editar y, a continuación, seleccione la acción **Actualizar documento**. También puede abrir el documento y, a continuación, elegir la acción.
 3. En la página **Histórico albaranes venta - Actualiz.**, edite el campo **Nº seguimiento bulto** , por ejemplo.
 4. Elija el botón **Aceptar**.

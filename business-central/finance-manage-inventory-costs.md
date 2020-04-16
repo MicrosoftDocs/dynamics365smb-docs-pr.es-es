@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 888eb525aafcd0f7fdd41e846b7aa5b0d60fb39d
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 34912c7f87823bf6f51ca97ff579ce34c0900d69
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879566"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183001"
 ---
 # <a name="managing-inventory-costs"></a>Gestión de costes de inventario
 La gestión de costes, también conocida como "valoración de existencias", se refiere al registro y la creación de informes sobre los costes operativos de la empresa. Incluye la creación de informes de los costes de stock y fabricación, es decir, el valor de los productos.   

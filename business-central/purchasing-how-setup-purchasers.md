@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchasing agent
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 486637c66d7664931308c0133789ec8fbf291090
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 59884fbde8cb466a84bdd243aed92ca0143eb709
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2883075"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191000"
 ---
 # <a name="set-up-purchasers"></a>Configurar compradores
 Si trabajan para la empresa varios compradores, puede configurarlos en una página y asignar un código a cada uno. Más adelante, podrá utilizar los códigos para preparar estadísticas y filtrar información en los informes impresos.<br><br>  
 
-> [!Video https://www.microsoft.com/videoplayer/embed/RE3Q7hU]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE3Q7hU?rel=0]
 
 ## <a name="to-set-up-purchasers"></a>Para configurar compradores
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Vendedores/Compradores** y luego elija el enlace relacionado.

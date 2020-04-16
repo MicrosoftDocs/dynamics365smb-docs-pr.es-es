@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, status, negative, positive, increase, decrease
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 33710cd80ba1218ad59c98ec605bcba98c8b7e1c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 944ce9e3950ea64fafada118b6f99f5d891242a5
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309921"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182209"
 ---
 # <a name="count-inventory-using-documents"></a>Contar inventario mediante documentos
 Puede realizar un inventario físico de los productos utilizando los documentos de pedido de inventario físico y registro de inventario físico. La página **Orden de inventario físico** se usa para organizar el proyecto de recuento de inventario completo, por ejemplo una por almacén. La página **Registro de inventario físico** se utiliza para comunicar y para capturar el recuento real de productos. Puede crear varias grabaciones para un pedido, por ejemplo, para distribuir grupos de productos a diferentes empleados.
@@ -36,9 +36,9 @@ El recuento de inventario con documentos consta de los pasos generales siguiente
 ## <a name="to-create-a-physical-inventory-order"></a>Para crear un pedido de inventario físico
 Un pedido de inventario físico es un documento completo formado por la cabecera del pedido de inventario físico y unas líneas de pedido de inventario físico. La información de la cabecera de inventario físico describe cómo realizar el inventario físico. Las líneas de pedido de inventario físico contienen información acerca de los productos y sus almacenes.
 
-Para crear las líneas de pedido de inventario físico, se suele usar la función **Calcular líneas** para reflejar el inventario actual como líneas del pedido. Opcionalmente, puede utilizar la función **Copiar documento** para rellenar las líneas con el contenido de otro pedido de inventario físico abierto o registrado. El procedimiento siguiente solo describe cómo utilizar la función **Calcular líneas**.
+Para crear las líneas de pedido de inventario físico, se suele usar la función **Calcular líneas** para reflejar el inventario actual como líneas del pedido. Opcionalmente, puede utilizar la función **Copiar de documento** para rellenar las líneas con el contenido de otro pedido de inventario físico abierto o registrado. El procedimiento siguiente solo describe cómo utilizar la función **Calcular líneas**.
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos de inventario físico** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de inventario físico** y luego elija el enlace relacionado.
 2. Seleccione la acción **Nuevo**.
 3. Rellene los campos obligatorios en la ficha desplegable **General**. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Elija la acción **Calcular líneas**.
@@ -98,7 +98,7 @@ También puede elegir la acción **Dif. pedido invent. físico** para ver las di
 
 ### <a name="to-find-duplicate-physical-inventory-order-lines"></a>Para encontrar líneas de pedido de inventario físico duplicadas
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos de inventario físico** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de inventario físico** y luego elija el enlace relacionado.
 2. Abra el inventario físico del que desea ver las líneas duplicadas.
 3. Seleccione la acción **Mostrar líneas duplicadas**.
 
@@ -111,7 +111,7 @@ Después de completar un inventario físico pedido y cambiar el estado **Termina
 - Cada línea de pedido de inventario físico ha sido contada por al menos una línea de registro de inventario.
 - Las casillas de verificación **En líneas de registro** y **Cant. esperada calculada** se han seleccionado para todas las líneas de pedido de inventario físico.
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos de inventario físico** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de inventario físico** y luego elija el enlace relacionado.
 2. Seleccione el pedido de inventario físico que desea completar, y después seleccione la acción **Editar**.
 
     En la página **Pedido de inventario físico**, puede ver la cantidad registrada en el campo **Cant. registrada (base)**.
@@ -125,7 +125,7 @@ Los movimientos de producto correspondientes se actualizan junto con los movimie
 ### <a name="to-view-posted-physical-inventory-orders"></a>Para ver los pedidos de inventario físico registrados
 Después de realizar el registro, el pedido de inventario físico se borrará y podrá ver y evaluar el documento como un pedido de inventario físico con sus registros de inventario físico y cualquier comentario que haya creado.
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos inv. fís. registrados** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Pedidos inv. fís. registrados** y luego elija el enlace relacionado.
 2. En la página **Pedidos inv. fís. registrados**, seleccione el pedido de inventario registrado que desea ver, y después seleccione la acción **Ver**.
 3. Para ver una lista de registros de inventario físico relacionados, elija la acción **Registros**.
 

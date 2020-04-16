@@ -1,7 +1,6 @@
 ---
 title: Fraccionar ingresos y gastos | Documentos de Microsoft
 description: Para reconocer ingresos y gastos en periodos distintos del periodo en el que se registró la transacción, puede fraccionarlos o posponerlos automáticamente según una previsión especificada.
-services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 6fab25e6f8a3e840dd0b40f616b2a21abe13a9ad
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0b94dfe59d8d75e8371bcb02c7c306eaa187f8a4
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302333"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183697"
 ---
 # <a name="defer-revenues-and-expenses"></a>Fraccionar ingresos y gastos
 Para reconocer un ingreso o un gasto en un periodo distinto del periodo en el que se registró la transacción, puede usar la funcionalidad para fraccionar automáticamente ingresos y gastos según una previsión especificada.
@@ -25,7 +24,7 @@ Para reconocer un ingreso o un gasto en un periodo distinto del periodo en el qu
 Para distribuir los ingresos o los gastos de los periodos contables relacionados, debe configurar una plantilla de fraccionamiento para el recurso, el producto o la cuenta de contabilidad para el que se registrará el ingreso o el gasto. Cuando registre el documento de venta o de compra relacionado, los ingresos o los gastos se fraccionan en los periodos contables relacionados, según la previsión de fraccionamiento que controle la configuración de la plantilla de fraccionamiento y la fecha de registro.
 
 ## <a name="to-set-up-a-gl-account-for-deferral"></a>Para configurar una cuenta de contabilidad para el fraccionamiento
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Plan de cuentas** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Plan de cuentas** y luego elija el enlace relacionado.
 2. Seleccione la acción **Nuevo**.
 3. Rellene los campos según sea necesario para crear una cuenta de contabilidad para los ingresos fraccionados. Para obtener más información, consulte [Libro mayor y plan de cuentas](finance-general-ledger.md).
 4. Repita los pasos 2 y 3 para crear una nueva cuenta de contabilidad para los gastos fraccionados.
@@ -33,7 +32,7 @@ Para distribuir los ingresos o los gastos de los periodos contables relacionados
 Para ambos tipos de fraccionamiento seleccione **Balance** en el campo **Tipo** y asigne un nombre adecuado a las cuentas, por ejemplo "Ingresos anticipados" en el caso de los ingresos fraccionados y "Gastos no pagados" en el caso de los gastos fraccionados.
 
 ## <a name="to-set-up-a-deferral-template"></a>Para configurar una plantilla de fraccionamiento
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Plantillas de fraccionamiento** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Plantillas de fraccionamiento** y luego elija el enlace relacionado.
 2. Seleccione la acción **Nuevo**.
 3. Rellene los campos según sea necesario.
 4. En el campo **Método de calc.**, especifique cómo se calcula el campo **Importe** para cada periodo de la página **Previsión fraccionamiento**. Puede elegir entre las opciones siguientes:
@@ -54,7 +53,9 @@ Para ambos tipos de fraccionamiento seleccione **Balance** en el campo **Tipo** 
 Ejemplo: la fecha de registro es 06/02/2016. Si introduce "Gastos fraccionados para %4 %6", la descripción mostrada será "Gastos fraccionados para febrero de 2016".
 
 ## <a name="to-assign-a-deferral-template-to-an-item"></a>Para asignar una plantilla de fraccionamiento a un producto
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Plantillas de fraccionamiento** y luego elija el enlace relacionado.
+> [!NOTE]  
+>   Los pasos de este procedimiento son los mismos que cuando asigna una plantilla de fraccionamiento a una cuenta o un recurso.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Producto** y luego elija el enlace relacionado.
 2. Abra la ficha del producto para los que se deban fraccionar los ingresos o los gastos para los periodos contables cuando el artículo se ha vendido o comprado.
 3. En el campo **Plantilla de fraccionamiento predeterminada**, seleccione la plantilla de fraccionamiento relevante.
 
@@ -62,7 +63,7 @@ Ejemplo: la fecha de registro es 06/02/2016. Si introduce "Gastos fraccionados p
 > [!NOTE]  
 >   Los pasos de este procedimiento son los mismos que al cambiar una previsión de fraccionamiento, para gastos, de una factura de compra.
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Facturas ventas** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Facturas venta** y luego elija el enlace relacionado.
 2. Cree una factura de ventas para un producto que tenga asignada una plantilla de fraccionamiento. Para obtener más información, vea [Facturar ventas](sales-how-invoice-sales.md).
 
     Observe que tan pronto como se introduce el producto (recurso o cuenta de contabilidad) de la línea de factura, el campo **Código de fraccionamiento** se rellena con el código de la plantilla de fraccionamiento asignada.
@@ -84,7 +85,7 @@ Los movimientos de contabilidad que se van a registrar en la cuenta de fracciona
 > [!NOTE]  
 >   Los pasos de este procedimiento son los mismos que al revisar el informe Resumen de fraccionamientos de compras.
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Resumen de fraccionamientos de ventas** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Resumen de fraccionamientos de ventas** y luego elija el enlace relacionado.
 2. En la página **Resumen de fraccionamientos de ventas**, en el campo **Saldo a partir de**, introduzca la fecha hasta la que desea ver ingresos fraccionados.
 3. Haga clic en el botón **Vista previa**.
 

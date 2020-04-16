@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: e3d72eecf3f0d4e92b0255dffdece8dcb795cf96
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: dbe03ccde8111a4d14ce34db5b5b5e73297796be
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553799"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191456"
 ---
 # <a name="subcontract-manufacturing"></a>Subcontratación de fabricación
 La subcontratación de operaciones seleccionadas al proveedor es común de muchas empresas de fabricación. La subcontratación puede ser esporádica o puede formar parte integrante de todos los procesos de producción.
@@ -52,7 +52,7 @@ Las funciones de la página **Hoja subcontratación** como **Hoja planificación
 >  En las hojas de subcontratación, sólo se pueden ver y utilizar las órdenes de producción que tengan el estado de **Lanzadas**.  
 
 ### <a name="to-calculate-the-subcontracting-worksheet"></a>Para calcular la hoja de subcontratación  
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hoja subcontratación** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja subcontratación** y luego elija el enlace relacionado.  
 2.  Para calcular la hoja, seleccione la acción **Calcular subcontratos**.  
 3.  En la página **Calcular subcontratos**, defina filtros para operaciones subcontratadas, o los centros de trabajo donde se realizan, para calcular solo las órdenes de producción correspondientes.  
 4.  Elija el botón **Aceptar**.  
@@ -60,7 +60,7 @@ Las funciones de la página **Hoja subcontratación** como **Hoja planificación
     Revise las líneas en la página **Hoja subcontratación**. La información de esta hoja de cálculo proviene de la orden de producción y de las líneas de ruta y flujos de la orden de producción del pedido de compra cuando se crea el documento. Puede eliminar una fila de la hoja de cálculo sin asignar a la información original, tal como puede hacer con las otras hojas de cálculo. La información reaparecerá la siguiente vez que ejecute la función de **Calcular subcontratos**.  
 
 ### <a name="to-create-the-subcontract-purchase-order"></a>Para generar el pedido de compra subcontratado  
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hoja subcontratación** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja subcontratación** y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Ejecutar mensajes de acción**.  
 3.  Seleccione el campo **Imprimir pedidos** para imprimir el pedido de compra al crearlo.  
 4.  Elija el botón **Aceptar**.  
@@ -80,7 +80,7 @@ Cuando la compra se registra como recibida, se registra automáticamente un movi
 >  Para evitar que se registra la salida esperada de una orden de producción cuando se reciban compras de subcontratados, asegúrese de que la operación subcontratada no sea la última. También, inserte una nueva última operación para la cantidad de salida final.
 
 ## <a name="to-post-a-subcontract-purchase-order"></a>Para registrar un pedido de compra de subcontratación  
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos compra** y luego seleccione el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Pedidos de compra** y luego elija el enlace relacionado.  
 2.  Abra un pedido de compra creado en la hoja de subcontratación.  
 
     En las líneas del pedido de compra, puede ver la misma información que estaba en la hoja de cálculo. Los campos **Nº orden producción**, **Nº lín. orden producc.**, **Nº operación** y **Nº centro trabajo** se rellenan con la información del pedido de producción de origen.  
@@ -100,6 +100,6 @@ Cuando se registra el pedido de compra como facturado, el coste directo de dicho
 [Fabricación](production-manage-manufacturing.md)    
 [Configuración de fabricación](production-configure-production-processes.md)  
 [Planificación](production-planning.md)      
-[Grupos contables inventario](inventory-manage-inventory.md)  
+[Inventario](inventory-manage-inventory.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

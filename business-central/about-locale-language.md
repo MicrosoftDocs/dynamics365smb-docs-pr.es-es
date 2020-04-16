@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture
-ms.date: 10/22/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 81377dfe391415c6922cf0dcf00a8c8567ee4c80
-ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
+ms.openlocfilehash: 2d98f433acbe5905d9807bf7e7ded8708ed22d3b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2692709"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189026"
 ---
 # <a name="changing-language-and-locale"></a>Cambiar idioma y región
 
@@ -44,7 +44,7 @@ Para cambiar configuración regional, vaya a la página **Mi configuración**. P
 
 En la página **Ayuda y soporte técnico** puede ver la versión de que [!INCLUDE [prodshort](includes/prodshort.md)] en la que se basa su empresa. Si desea basar una empresa en una versión diferente, su administrador puede crear un nuevo entorno de producción. Para obtener más información, vea [Crear un nuevo entorno de producción](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-production-environment) en el contenido para desarrolladores y profesionales de TI.  
 
-## <a name="languages-of-the-included365finincludesd365fin_mdmd-help"></a>Idiomas de la Ayuda de [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="languages-of-the-d365fin-help"></a>Idiomas de la Ayuda de [!INCLUDE[d365fin](includes/d365fin_md.md)]
 El contenido de la Ayuda de la funcionalidad principal de [!INCLUDE[d365fin](includes/d365fin_md.md)] se publica en el sitio de Documentos de Microsoft y está disponible en varios idiomas. Si tiene acceso a documentos desde [!INCLUDE[d365fin](includes/d365fin_md.md)], el contenido se mostrará en su idioma. Si una página en particular aún no está disponible en su idioma, se mostrarán en inglés.
 
 ### <a name="how-do-i-change-the-language"></a>¿Cómo cambio el idioma?

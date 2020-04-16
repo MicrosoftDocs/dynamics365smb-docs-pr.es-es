@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 156e36af1110bcf153ed00b16eb041f28a5c3168
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8e55baf7fcc375c492a4b50794d823ad13b432a4
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308961"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181393"
 ---
 # <a name="record-interactions-with-contacts"></a>Registrar interacciones con contactos
 La configuración de su aplicación para registrar interacciones consta de tres pasos:
@@ -50,7 +50,7 @@ En esta página, puede hacer lo siguiente:
 * Ver el estado de las interacciones.
 * Marcar las interacciones como canceladas.
 
-Puede eliminar los movimientos de registro de interacción que han sido cancelados. Para eliminar os movimientos de registro de interacción, seleccione el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), introduzca **Eliminar mov. cancel. reg. inter.** y, a continuación, seleccione el vínculo relacionado y rellene la información.
+Puede eliminar los movimientos de registro de interacción que han sido cancelados. Para eliminar os movimientos de registro de interacción, seleccione el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Eliminar mov. cancel. reg. inter.** y, a continuación, seleccione el vínculo relacionado y rellene la información.
 
 ## <a name="see-also"></a>Consulte también
 [Gestionar contactos](marketing-contacts.md)  

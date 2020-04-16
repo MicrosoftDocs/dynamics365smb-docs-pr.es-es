@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9200256cec074e547bc594950b1eb2d975a8ad9b
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: e656cf8ccf9c87187cb2b6e7bba858216cf9b413
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877888"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190520"
 ---
 # <a name="batch-post-production-consumption"></a>Registrar consumibles de producción por lotes
 Si el método de baja es **Manual**, debe registrar los componentes manualmente con un diario de consumo.

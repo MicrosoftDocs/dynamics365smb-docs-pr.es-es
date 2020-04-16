@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: dbd14c11d726aae802d5008c681eeb9ffcd55438
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b45fe3d89502e5a4e42bc43cc4679afe1b13699d
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314333"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191696"
 ---
 # <a name="using-pre-closing-reports"></a>Usar los informes previos al cierre
 Existen numerosos informes estándar que puede usar para verificar la exactitud de las cuentas antes de cerrar los libros al final de un año o periodo. Por ejemplo, puede usar el informe **Cliente - Balance sumas y saldos** para verificar si el saldo para un grupo contable de cliente es igual al saldo en la cuenta de contabilidad correspondiente en una determinada fecha.
@@ -35,7 +35,7 @@ La tabla siguiente describe diversos informes que pueden ayudar en este proceso.
 | Imprimir un informe de balance de comprobación con saldos y cambios netos para cuentas de contabilidad. |Balance sumas y saldos |
 | Imprimir un balance de comprobación para una empresa consolidada. |Balance comprobación consol. |
 
-Para ver informe, elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba el nombre como aparece en la tabla y, a continuación, elija el vínculo relacionado.
+Para ver informe, elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba el nombre como aparece en la tabla y, a continuación, elija el vínculo relacionado.
 
 ## <a name="see-also"></a>Consulte también
 [Cerrar años y periodos](year-close-years-periods.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: e0074d3e3a1869a8f377c6ff3d8faad97f781077
-ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
+ms.openlocfilehash: 37ca9da29fdfc19253850e431362dfd199a20484
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076640"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187657"
 ---
 # <a name="setting-up-data-exchange"></a>Configuración del intercambio de datos
 Para poder enviar y recibir documentos electrónicos o importar y exportar archivos de banco, debe configurar el marco de intercambio de datos para procesar los archivos correspondientes. Además, debe configurar áreas relacionadas, como los clientes a los que envía facturas electrónicas o la extensión AMC Banking 365 Fundamentals si usa el proveedor de servicios externos para convertir los archivos bancarios. Para obtener más información, vea [Intercambio de datos electrónicamente](across-data-exchange.md).  
@@ -30,7 +30,7 @@ Para poder enviar y recibir documentos electrónicos o importar y exportar archi
 |Configure el servicio de OCR preconfigurado para convertir documentos PDF o archivos de imagen a documentos electrónicos que se pueden convertir a registros de documento en [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Configurar documentos entrantes](across-how-setup-income-documents.md)|  
 |Configure dos servicios preconfigurados para tipos de cambio actualizados para obtener los últimos tipos de cambio en la página **Divisa**.|[Actualizar tipos cambio divisa](finance-how-update-currencies.md)|  
 |Configure los distintos datos maestros, como la información de la empresa, los clientes, los proveedores, los productos y las unidades de medida relacionadas con la asignación de datos en [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Configurar el envío y la recepción de documentos electrónicos](across-how-to-set-up-electronic-document-sending-and-receiving.md)|  
-|Configure un banco, un proveedor y un diario de pagos para la transferencia de crédito de SEPA.|[Configurar transferencia de crédito SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#setting-up-sepa-credit-transfer)|  
+|Configure un banco, un proveedor y un diario de pagos para la transferencia de crédito de SEPA.|[Configurar la transferencia de crédito de SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#setting-up-sepa-credit-transfer)|  
 |Prepare los formatos de banco, las formas de pago y los acuerdos de cliente para el adeudo directo SEPA.|[Cobrar pagos mediante adeudo directo SEPA](finance-collect-payments-with-sepa-direct-debit.md)|  
 |Configure la autenticación de usuario y la URL del proveedor de servicios de la extensión AMC Banking 365 Fundamentals que se requiere para que los archivos de banco se conviertan al formato de su banco.|[Uso de la extensión AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)|  
 |Configure y habilite un servicio externo que permita importar extractos bancarios directamente como fuentes de banco.|[Configurar el servicio de declaración bancaria](bank-how-setup-bank-statement-service.md)|  

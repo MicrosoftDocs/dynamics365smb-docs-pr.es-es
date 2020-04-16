@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/29/2020
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: b38f5f97c7b5be46f1d6cd4d1bc898e72060417e
-ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
+ms.openlocfilehash: ec5723088553141c1f6df55ba8bac3303ee4e2bd
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "2999624"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183265"
 ---
 # <a name="settle-purchase-invoices-promptly"></a>Liquidar facturas de compra inmediatamente
 Si necesita pagar al proveedor en efectivo o con cheque, puede registrar el pago cuando registra la factura.  

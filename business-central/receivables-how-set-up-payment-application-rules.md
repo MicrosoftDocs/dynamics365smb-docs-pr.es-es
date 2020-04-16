@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 04d43437a6b16ed88c638c81de30729c33276df7
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 64756cdc1a95cc0bb866fa4b7f87ecea0f1282ff
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953448"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191936"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Configurar reglas para la liquidación automática de los pagos
 En la página **Reglas de liquidación de pagos**, se establecen reglas para regular el modo en que el texto de pago (en una operación bancaria) se ajusta automáticamente al texto de los movimientos pendientes en los dos procesos siguientes:
@@ -81,7 +81,7 @@ La tabla siguiente muestra las reglas de liquidación configuradas en la versió
 | Baja              | 4        | No                    | No                             | Una instancia                      |
 | Baja              | 5        | No                    | No                             | Múltiples instancias               |
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesreconciliation-journals-dynamics-365-business-centralindex"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/reconciliation-journals-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/reconciliation-journals-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Consulte también
 [Conciliar los pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md)  

@@ -7,14 +7,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/12/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: a2a1f923fed08b27152688ecc05c0aa9ff627eed
-ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
+ms.openlocfilehash: ffea5823e0d36df01f53a5e461da65e793ecf522
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2809182"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189464"
 ---
 # <a name="troubleshooting-self-service-sign-up"></a>Solución de problemas en el registro de autoservicio
 Registrarse en [!INCLUDE[d365fin](includes/d365fin_md.md)] es muy fácil y se puede realizar muy rápidamente. Puede crear una cuenta gratuita incluso si es una organización existente. Este recurso aborda los problemas que pueda tener durante el registro.

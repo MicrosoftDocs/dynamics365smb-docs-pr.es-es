@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: OData, Power App, SOAP
-ms.date: 11/20/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9cf587dca8224e742ecbde30bcabc35697bb6f2a
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: f6b771b0107214702785d2b124983eb369741a84
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881005"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187921"
 ---
 # <a name="connecting-to-your-business-central-data-to-build-a-business-app-using-power-apps"></a>Cómo conectarse a sus datos de Business Central para crear una aplicación empresarial con Power Apps
 
@@ -24,7 +24,7 @@ Puede convertir los datos de [!INCLUDE[prodshort](includes/prodshort.md)] en dis
 > [!NOTE]  
 > Debe disponer de una cuenta válida con [!INCLUDE[prodshort](includes/prodshort.md)] y con Power Apps.  
 
-## <a name="to-add-includeprodshortincludesprodshortmd-as-a-data-source-in-power-apps"></a>Para agregar [!INCLUDE[prodshort](includes/prodshort.md)] como origen de datos de Power Apps
+## <a name="to-add-prodshort-as-a-data-source-in-power-apps"></a>Para agregar [!INCLUDE[prodshort](includes/prodshort.md)] como origen de datos de Power Apps
 
 1. En el explorador, vaya a [powerapps.microsoft.com](https://powerapps.microsoft.com/) y, a continuación, inicie sesión.
 2. En la página Web, elija **Aplicaciones**, **Crear una aplicación** y **Lienzo** para crear una nueva aplicación de lienzo. Esta aplicación se ha diseñado para su uso en un dispositivo móvil, pero también puede seleccionar usar otra plantilla.

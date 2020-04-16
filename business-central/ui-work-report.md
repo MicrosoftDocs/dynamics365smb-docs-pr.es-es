@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 709e444d185e6950d6367036db622b30c8062f25
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2bafaa9f4bda392309a76470df5290857327e59c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310617"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189296"
 ---
 # <a name="working-with-reports-batch-jobs-and-xmlports"></a>Trabajar con informes, trabajos por lotes y XMLports
 Un informe recoge la información basada en un conjunto determinado de criterios, y organiza y muestra la información en un formato fácil de leer que puede imprimir o guardar como un archivo. Existen numerosos informes a la que se accede en la aplicación. Los informes proporcionan normalmente la información en relación con el contexto de la página que va a usar. Por ejemplo, la página **Cliente** incluye los informes para los 10 clientes principales, estadísticas de ventas, etc.
@@ -25,18 +25,18 @@ Los trabajos por lotes y XMLports realizan más o menos lo mismo que los informe
 > [!NOTE]
 > Este tema hace referencia principalmente al "informe", pero se aplica información similar a los trabajos por lotes y XMLports.
 
-Puede buscar informes en la ficha **Informes** de las páginas seleccionadas, o utilizar búsquedas ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer") para buscar informes por nombre.
+Puede buscar informes en la ficha **Informes** de las páginas seleccionadas, o utilizar búsquedas ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") para buscar informes por nombre.
 
 ## <a name="specifying-the-data-to-include-in-reports"></a>Especificación de los datos que se van a incluir en los informes
 Cuando abre un informe, un trabajo por lotes o XMLport, normalmente se le presenta una página de solicitud donde se establecen varias opciones y filtros que determinan qué se debe incluir en el informe.
 
-Los filtros se establecen en un informe de la misma manera que en las listas. Para obtener más información, consulte [Filtrado](ui-enter-criteria-filters.md#-filtering).
+Los filtros se establecen en un informe de la misma manera que en las listas. Para obtener más información, consulte [Filtrado](ui-enter-criteria-filters.md#filtering).
 
 > [!Caution]
 > La sección **Filtrar lista por** en una página de solicitud proporciona una capacidad de filtrado genérico para los informes. Estos filtros son opcionales.<br /><br /> Algunos informes ignorarán estos filtros, lo que significa que no importa qué filtro se establezca en la sección **Filtrar lista por** puesto que la salida del informe es la misma. No es posible proporcionar una lista de los campos que se ignoran en los informes, por lo que tendrá que experimentar con los filtros cuando los use.<br /><br />
 **Ejemplo**: Cuando utilice el trabajo por lotes **Crear recordatorios**, se ignorará un filtro para el campo **Movs. clientes** del **Nivel últim. record. emitid.** porque los filtros están fijos para ese trabajo por lotes.
 
-## <a name="SavedSettings"></a>Uso de la configuración guardada
+## <a name="using-saved-settings"></a><a name="SavedSettings"></a>Uso de la configuración guardada
 La página de solicitud puede incluir la sección **Configuración guardada** que contiene una o más entradas en el cuadro **Utilizar el valor predeterminado desde**. Una configuración guardada es básicamente un grupo predefinido de opciones y filtros que puede aplicar al informe antes de previsualizar o enviar el informe a un archivo. La configuración guardada que se denomina **Filtros y opciones usados por última vez** está siempre disponible. Esta entrada establece el informe debe utilizar opciones y filtros que se utilizaron la última vez que se usó.
 
 El uso de la configuración guardada es una forma rápida y confiable de generar de forma coherente informes que contienen los datos correctos. Después de configurar el cuadro **Utilizar el valor predeterminado desde** como una entrada de configuración guardada, puede cambiar cualquiera de las opciones y filtros antes de obtener una vista previa o guardar el informe. Los cambios que realice no se guardarán en la entrada de configuración guardada que haya seleccionado, sino que se guardarán en la entrada **Últimas opciones y filtros utilizados**.
@@ -63,13 +63,22 @@ Elija el botón **Vista previa** para ver el informe. Use la barra de menú en l
 ## <a name="saving-a-report"></a>Cómo guardar un informe
 Puede guardar un informe en un documento PDF, un documento de Microsoft Word o un documento de Microsoft Excel seleccionando el botón **Enviar a** y luego hacer su selección.
 
-## <a name="ScheduleReport"></a> Programar un informe para que se ejecute
+## <a name="scheduling-a-report-to-run"></a><a name="ScheduleReport"></a> Programar un informe para que se ejecute
 Puede programar un informe o un trabajo por lotes para ejecutarlo en una fecha y hora específicos. Los informes y los trabajos por lotes programados se introducen en la cola de proyectos y se procesan en el momento programado, de manera similar a con otros proyectos. Elija la opción **Programa** después de elegir el botón **Enviar a** y, a continuación, introduzca información como la impresora, la hora y la fecha. A continuación, el informe se agrega a la cola de proyectos y se ejecutará en el momento especificado. Cuando se procese el informe, el elemento se eliminará de la cola de proyectos. Para obtener más información, consulte [Uso de colas de proyectos para programar tareas](admin-job-queues-schedule-tasks.md).
 
 Puede elegir guardar el informe procesado en un archivo, como archivo Excel, Word o PDF, imprimirlo en una impresora seleccionada o solo procesarlo. Si elige guardar el informe en un archivo, el informe procesado se envía al área **Bandeja de entrada de informes** en el área de trabajo, donde puede verlo.
 
-## <a name="PrintReport"></a>Imprimir un informe
-Puede imprimir un informe desde el botón **Imprimir** en la página de opciones que aparece al abrir el informe o desde la barra de menús en Vista previa.  
+## <a name="printing-a-report"></a><a name="PrintReport"></a>Imprimir un informe
+Puede imprimir un informe eligiendo el botón **Imprimir** en la página de solicitud de informe o en la barra de menú en la página **Vista previa**.
+
+Como [!INCLUDE[prodshort](includes/prodshort.md)] es un servicio en la nube, no puede llegar a las impresoras locales conectadas a las máquinas de los usuarios. Sin embargo, puede conectarse a impresoras habilitadas para la nube. En la versión genérica de [!INCLUDE[prodshort](includes/prodshort.md)], una impresora en la nube llamada **Impresora de correo electrónico** se instala como extensión y está lista para usar después de la configuración inicial.
+
+Si no se instala y configura una impresora en la nube o si falla una impresora instalada, la impresión tendrá las opciones de impresión predeterminadas para el navegador. Esto se indica mediante este valor en el campo **Impresora** en la página de solicitud de informe: *(ninguna, controlada por el navegador)*.
+
+En la página **Administración de impresoras**, puede ver las impresoras que están configuradas. Para obtener más información, consulte [Configurar impresoras](ui-specify-printer-selection-reports.md).
+
+> [!NOTE]
+> No puede cambiar el campo **Impresora** en la página de solicitud de informe. Para usar otra impresora, debe seleccionarla en la página **Administración de impresoras**.
 
 ### <a name="printing-reports-in-thai"></a>Impresión de informes en tailandés
 Específicamente para la versión tailandesa de [!INCLUDE[prodshort](includes/prodshort.md)], el botón **Imprimir** no puede imprimir correctamente los informes debido a las limitaciones del servicio que genera el archivo PDF imprimible. En su lugar, puede abrir el informe en Word y luego guardarlo como un PDF imprimible.  
@@ -80,7 +89,7 @@ Alternativamente, puede pedir a su administrador que cree un diseño de informe 
 El diseño de informe controla lo que se muestra en un informe, cómo se organiza y cómo está diseñado. Si desea cambiar a otro diseño distinto, consulte [Cambiar el diseño de informe actual](ui-how-change-layout-currently-used-report.md). Pero, si desea personalizar su propio diseño del informe, vea [Crear y editar un diseño de informe personalizado](ui-how-create-custom-report-layout.md).
 
 ## <a name="see-also"></a>Consulte también
-[Especificar selección de impresora para informes](ui-specify-printer-selection-reports.md)  
+[Configuración de impresoras](ui-specify-printer-selection-reports.md)  
 [Trabajar con fechas y horas del calendario](ui-enter-date-ranges.md)  
 [Administrar diseños de informes y documentos](ui-manage-report-layouts.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

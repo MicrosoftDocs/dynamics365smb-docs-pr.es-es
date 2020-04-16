@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 79633ad4488a5fbe9df372331c54dd3a0e15f929
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 85f8de1a0e3aadbf55fb8c4292aeb1e216817a23
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303681"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185641"
 ---
 # <a name="design-details-cost-adjustment"></a>Detalles de diseño: Ajuste de coste
 El propósito principal del ajuste de coste es desviar los cambios de coste de los orígenes de coste a los destinatarios de coste, según la valoración de existencias de un producto, para proporcionar la valoración de inventario correcta.  
@@ -63,7 +63,7 @@ Esta función de detección se usa en escenarios de conversión, producción y e
 
 La función de nivel de pedido se usa para detectar los ajustes en el registro de ensamblado. En el gráfico siguiente se muestra la estructura del movimiento de ajuste:  
 
-![Flujo de movimientos en el ajuste de coste](media/design_details_assembly_posting_3.png "Flujo de movimientos en el ajuste de coste")  
+![Flujo de entradas en ajuste de costes](media/design_details_assembly_posting_3.png "Flujo de entradas en ajuste de costes")  
 
 Para obtener más información, consulte [Detalles de diseño: Registro de pedidos de ensamblado](design-details-assembly-order-posting.md).  
 
