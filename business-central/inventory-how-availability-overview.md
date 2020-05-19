@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: stock
 ms.date: 04/01/2020
 ms.author: SorenGP
-ms.openlocfilehash: fc7a0c6f750958cb35b2a85ed9d548f2e8219484
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: f95544f2090185512d94e9a8ce10975304f0ec2f
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182329"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324251"
 ---
 # <a name="view-the-availability-of-items"></a>Consultar la disponibilidad de los productos
 En el contexto de una tarea de negocio, puede obtener la información avanzada acerca de cuándo y dónde está disponible un producto, por ejemplo, al hablar con un cliente sobre una fecha de entrega.
@@ -34,7 +34,7 @@ En [!INCLUDE[d365fin](includes/d365fin_md.md)], las cifras de disponibilidad nor
 * El campo **Saldo disponible estimado** calcula y muestra el stock disponible más las recepciones programadas menos las necesidades brutas. (En [!INCLUDE[d365fin](includes/d365fin_md.md)], las recepciones programadas incluyen cantidades en los pedidos de compra y pedidos de transferencia de entrada. Las necesidades brutas incluyen cantidades de los pedidos de venta y los pedidos de transferencia de salida).
 
 > [!TIP]  
->   El saldo disponible estimado es muy relevante consultarlo en las páginas **Existencias producto** y **Disponibilidad prod. por evento** que contienen la dimensión de fecha.  
+>   El saldo disponible estimado es muy relevante consultarlo en las páginas **Existencias producto** y **Disponibilidad prod. por evento** porque contienen la dimensión de fecha.  
 
 > [!NOTE]  
 >   Los procedimientos siguientes describen cómo ver la información de disponibilidad avanzada de la lista de productos y la ficha de producto. También puede tener acceso a la información de las líneas del documento de venta, correspondiente al producto de la línea. Para obtener más información, vea [Vender productos](sales-how-sell-products.md).
@@ -80,9 +80,9 @@ Puede ver la disponibilidad de todos sus productos en todas sus ubicaciones en l
 3. Elija el valor en el campo **Cantidad física disponible** para ver los movimientos de productos que constituyen el valor.
 
 ## <a name="to-view-the-availability-of-an-item-by-its-use-in-assembly-or-production-boms"></a>Para consultar la disponibilidad de un producto por su uso en las L.M. de ensamblado o producción
-Si un producto existe en las L.M. de ensamblado o producción, como producto principal o como componente, puede ver cuántas unidades se requieren en la página **Disponibilidad producto por nivel L.M.**. La página muestra cuántas unidades de un producto principal se pueden producir según la disponibilidad de productos secundarios en las líneas subyacentes. Cualquier producto cuya L.M. de ensamblado o producción se muestre en la página como una línea contraíble. Puede expandir esta línea para ver los componentes subyacentes y subconjuntos de nivel inferior con sus propias L.M.
+Si un producto forma parte de las L.M. de ensamblado o producción, como producto principal o como componente, puede ver cuántas unidades se requieren en la página **Disponibilidad producto por nivel L.M.**. La página muestra cuántas unidades de un producto principal se pueden producir según la disponibilidad de productos secundarios en las líneas subyacentes. Cualquier producto cuya L.M. de ensamblado o producción se muestre en la página como una línea contraíble. Puede expandir esta línea para ver los componentes subyacentes y subconjuntos de nivel inferior con sus propias L.M.
 
-Puede utilizar la página para averiguar si puede completar una pedido de venta para un producto en una fecha especificada consultando su disponibilidad actual en y las cantidades que sus componentes pueden suministrar. También puede utilizar la página para especificar los cuellos de botella en las L.M. relacionadas.
+Por ejemplo, puede utilizar la página para determinar si puede completar una pedido de venta para un producto en una fecha especificada consultando su disponibilidad actual en y las cantidades que sus componentes pueden suministrar. También puede utilizar la página para especificar los cuellos de botella en las L.M. relacionadas.
 
 En cada línea de la página para los productos principales y los productos secundarios, los siguientes campos de clave especifican las cifras de disponibilidad. Puede usar estas cifras para comprometer cuántas unidades de un producto principal puede suministrar si inicia el proceso de ensamblado relacionado.
 
@@ -99,8 +99,11 @@ La página **Disponibilidad prod. por nivel L.M.** muestra información acerca d
 
 El campo **Cuello de botella** especifica qué producto de una estructura de L.M. le impide producir una cantidad mayor que la cantidad que se muestra en el campo **Puede hacer prod. ppal.** Por ejemplo, el artículo de embotellamiento puede ser un componente comprado con una fecha de recepción esperada que es demasiado atrasada para realizar las unidades de artículos adicionales del artículo superior por la fecha del campo **Fecha en que se necesita**.
 
-### <a name="to-view-the-availability-of-an-item-by-its-units-of-measure"></a>Para ver la disponibilidad de un producto por sus unidades de medida
-La página **Disponibilidad de producto por unidad de medida** muestra una disponibilidad de productos desglosada en las diferentes unidades de medida en las que está almacenada.
+## <a name="to-view-the-availability-of-an-item-by-its-units-of-measure"></a>Para ver la disponibilidad de un producto por sus unidades de medida
+La página **Disponibilidad de producto por unidad de medida** muestra la disponibilidad de un producto en las unidades de medida en las que está almacenada.
+
+> [!NOTE]  
+> Para mantener esta información precisa, debe convertir las unidades de medida del producto. Por ejemplo, si compra un artículo en una unidad de medida, como cajas, y vende artículos en otra unidad de medida, como piezas, debe usar un diario de artículos para convertir las unidades de medida o "desempaquetar" artículos. Puede usar una línea de diario de elementos de ajuste negativo para reducir el inventario en la unidad de medida de compra, por ejemplo, cajas, y un ajuste positivo para aumentar el inventario en la unidad de medida de ventas, por ejemplo, piezas. 
 
 ## <a name="assembly-availability-page"></a>Página Disponibilidad de ensamblado
 La página **Disponibilidad de ensamblado** muestra la información de disponibilidad detallada para el elemento del ensamblado. Abre:

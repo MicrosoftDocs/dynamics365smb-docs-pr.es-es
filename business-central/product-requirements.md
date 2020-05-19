@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 04/01/2020
+ms.date: 05/06/2020
 ms.author: edupont
-ms.openlocfilehash: cf0091de7446aff07b039d795b07334e3ba9d2a8
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 417b7ba9743ec0dabb4c7b311535ed8c22d8896a
+ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190088"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "3372597"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Requisitos mínimos para utilizar Business Central
 Antes de que acceda a [!INCLUDE [prodshort](includes/prodshort.md)] en línea, le recomendamos que verifique que su equipo o dispositivo móvil cumple o supera los requisitos mínimos del sistema para el producto. En este artículo se especifican los requisitos.  
@@ -24,16 +24,17 @@ Antes de que acceda a [!INCLUDE [prodshort](includes/prodshort.md)] en línea, l
 
 ### <a name="recommended-browsers"></a>Navegadores recomendados
 
+**Microsoft Edge**: [!INCLUDE[d365fin](includes/d365fin_md.md)] está diseñado para que funcione con la versión actual del nuevo Microsoft Edge.  
 **Chrome y Firefox para Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] está diseñado para que funcione con la versión actual de estos exploradores.  
-**Safari:** [!INCLUDE[d365fin](includes/d365fin_md.md)] está diseñado para que funcione con la versión actual de Safari en OSX.  
-**Microsoft Edge:** [!INCLUDE[d365fin](includes/d365fin_md.md)] está diseñado para que funcione con la versión actual de Microsoft Edge.
+**Safari**: [!INCLUDE[d365fin](includes/d365fin_md.md)] está diseñado para que funcione con la versión actual de Safari en macOS.  
 
 ### <a name="other-supported-browsers"></a>Otros navegadores compatibles
 
-**Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] está diseñado para que funcione con Internet Explorer 11 (compilación 11.0.9600.17239) para Windows 10 (versiones de 32 y 64 bits). Le recomendamos que actualice Internet Explorer a la última versión compatible con su versión de Windows. También puede ejecutar el nuevo Edge y aún acceder a sitios web que requieren Internet Explorer. Para obtener más información, consulte la [documentación de Microsoft Edge](/deployedge/edge-ie-mode).
+**Microsoft Edge (versión heredada)**: [!INCLUDE[d365fin](includes/d365fin_md.md)] se ha diseñado para que funcione con la versión heredada de Microsoft Edge.  
+**Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] está diseñado para que funcione con Internet Explorer 11 (compilación 11.0.9600.17239) para Windows 10 (versiones de 32 y 64 bits). Le recomendamos que actualice Internet Explorer a la última versión compatible con su versión de Windows. También puede ejecutar el nuevo Edge y aún acceder a otros sitios web que requieren Internet Explorer. Para obtener más información, consulte la [documentación de Microsoft Edge](/deployedge/edge-ie-mode).
 
 ## <a name="mobile-devices"></a>Dispositivos móviles
-**Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] para Windows se puede instalar en dispositivos con un mínimo de 1 GB de RAM y Windows 10 Home, Pro, Enterprise o Education (ediciones de 32 y 64 bits).  
+**Windows**: [!INCLUDE[d365fin](includes/d365fin_md.md)] para Windows se puede instalar en dispositivos con un mínimo de 1 GB de RAM y Windows 10 Home, Pro, Enterprise o Education (ediciones de 32 y 64 bits).  
 **iOS**: [!INCLUDE[d365fin](includes/d365fin_md.md)] para iPad y iPhone requiere iOS 10.0 o posterior.  
 **Android**: [!INCLUDE[d365fin](includes/d365fin_md.md)] para teléfonos Android y tabletas Android se puede instalar en dispositivos con al menos 1 GB de memoria RAM y Android 6.0 o posterior.  
 **Tamaño de los dispositivos:** [!INCLUDE[d365fin](includes/d365fin_md.md)] es compatible con smartphones con un tamaño de pantalla mínimo de 4" y tabletas con un tamaño de pantalla mínimo de 7".  
@@ -45,6 +46,13 @@ Antes de que acceda a [!INCLUDE [prodshort](includes/prodshort.md)] en línea, l
 
 ## <a name="excel"></a>Excel
 **Editar en Excel:** Para usar el complemento de Excel para realizar cambios en Excel y volver a insertar los cambios en [!INCLUDE[d365fin](includes/d365fin_md.md)], necesita Excel 2016 o posterior. Para obtener más información, consulte [Análisis de estados financieros en Microsoft Excel](finance-analyze-excel.md).  
+
+## <a name="using-the-business-central-administration-center"></a><a name="TAC"></a> Uso del centro de administración de Business Central
+El centro de administración está diseñado para funcionar con la versión actual de los siguientes navegadores:
+- El nuevo Microsoft Edge
+- Chrome para Windows
+- Firefox para Windows
+- Safari para macOS
 
 ## <a name="using-business-central-on-premises"></a>Uso de Business Central local
 

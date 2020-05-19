@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 04/22/2020
 ms.author: sgroespe
-ms.openlocfilehash: d559eb54b727a60c2135a10ec23fc31b33241832
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: a317d80b9aa3a82da939d39f515fb4e0d37e887a
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190640"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324347"
 ---
 # <a name="setting-up-manufacturing"></a>Configuración de fabricación
 Para convertir material en artículos producidos finales, se deben configurar recursos de producción, como listas de materiales, ruta, operadores de máquina y maquinaria, en el sistema.
@@ -24,11 +24,14 @@ Los operadores y máquinas se representan en el sistema como centros de máquina
 
 Cuando haya configurado la fabricación, puede planificar y ejecutar las órdenes de producción. Si desea obtener más información, consulte [Planificación ](production-planning.md) y [Fabricación](production-manage-manufacturing.md).  
 
+
+
  En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.   
 
 |**Para**|**Vea**|  
 |------------|-------------|  
-|Configurar las características de fabricación, como la definición de las horas laborales de la planta y la selección de principios de planificación.|La página **Configuración de fabricación**.|  
+|Configurar las características de fabricación, como la definición de las horas laborales de la planta y la selección de parámetros de planificación.|La página **Configuración de fabricación**.|
+|En la pestaña **Planificación** de la página **Configuración de fabricación**, establezca los parámetros de planificación global que anulan los parámetros establecidos en las fichas de producto individuales.|[Detalles de diseño: Parámetros de la planificación](design-details-planning-parameters.md)|
 |Definir una semana laboral estándar, en el departamento de fabricación, en términos de horas de inicio y fin de cada día laboral y turno de trabajo relacionado.|[Crear calendarios de planta](production-how-to-create-work-center-calendars.md)|  
 |Organizar valores fijos y requisitos de un recursos de producción, como centros de trabajo o centros de máquinas, para controlar la salida de la producción efectuada.|[Configuración de centros de trabajo y centros de máquinas](production-how-to-set-up-work-and-machine-centers.md)|
 |Organizar las operaciones de producción en la orden requerida y asignarlas a los centros de trabajo o centros de máquinas con los horarios de trabajo necesarios.|[Creación de rutas](production-how-to-create-routings.md)|

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 04/01/2020
+ms.date: 04/27/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9e485f2051cb045db6f106377521973a45546ad7
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 2ff842cc12ea820c9a2fe180cd4dd2eef3ecc18f
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193664"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324323"
 ---
 # <a name="invoice-sales"></a>Facturar ventas
 Puede crear una factura o un pedido de ventas para registrar el contrato con un cliente para vender determinados productos según términos de entrega y pago determinados.  
@@ -109,6 +109,7 @@ Incluso puede crear facturas pagadas directamente para clientes no registrados c
 ## <a name="see-also"></a>Consulte también
 [Ccial](sales-manage-sales.md)  
 [Configuración de ventas](sales-setup-sales.md)  
+[Imprimir la lista de picking](sales-how-print-picking-list.md)  
 [Inventario](inventory-manage-inventory.md)  
 [Enviar documentos por correo electrónico](ui-how-send-documents-email.md)  
 [Facturación masiva desde Microsoft Bookings en Business Central ](finance-bookings.md)  

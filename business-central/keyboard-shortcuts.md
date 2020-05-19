@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 04/01/2020
+ms.date: 04/03/2020
 ms.author: sgroespe
-ms.openlocfilehash: 2dd601784418468a0f70befaced4b87e497fc2d7
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 34d620e0c3f84f7ace651b1434290778df2aace9
+ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181753"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262219"
 ---
 # <a name="keyboard-shortcuts"></a>Métodos abreviados de teclado
 Este producto proporciona un resumen de algunas de las combinaciones de métodos abreviados que se pueden utilizar cuando trabaje con [!INCLUDE[prodshort](includes/prodshort.md)].
@@ -33,18 +33,19 @@ Los métodos abreviados de teclado ayudan a la accesibilidad y pueden hacer que 
 > [!NOTE]
 > Los métodos abreviados de teclado aquí descritos se refieren al diseño del teclado de EE. UU. Puede que la distribución de las teclas de otros teclados no se corresponda exactamente con las teclas de un teclado de Estados Unidos.
 
-La mayoría de los accesos directos son los mismos independientemente de que el sistema operativo sea Windows o macOS. Sin embargo, algunos accesos directos son distintos para macOS. Se indican entre paréntesis en las siguientes secciones.
+La mayoría de los accesos directos son los mismos independientemente de que el sistema operativo sea Windows o macOS. Sin embargo, algunos accesos directos son distintos para macOS. Estos métodos abreviados de teclado se indican entre paréntesis en las siguientes secciones.
 
 > [!NOTE]
 > Además de los métodos abreviados de teclado globales descritos en este tema, hay disponibles varios métodos específicos de la empresa. Por ejemplo, en la versión genérica de [!INCLUDE[prodshort](includes/prodshort.md)], F9 publica un documento y Ctrl + F7 muestra las entradas financieras de un registro. (Estos pueden ser diferentes en su solución). El método abreviado de teclado se muestra en la información sobre herramientas de la acción en cuestión.
 
 ##  <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a> Métodos abreviados de teclado generales
-En la tabla siguiente se describen los métodos abreviados de teclado para navegar y acceder a diferentes elementos de una página, como acciones, listas desplegables, búsquedas y más. Para obtener más información sobre los métodos abreviados de teclado para navegar por los registros una vez que ingresa en una lista, consulte la siguiente sección.
+En la siguiente tabla se describen métodos abreviados de teclado para navegar y acceder a diferentes elementos de una página. Los elementos incluyen cosas como acciones, listas desplegables, búsquedas y más. Para obtener más información sobre los métodos abreviados de teclado para navegar por los registros una vez que ingresa en una lista, consulte la siguiente sección.
 
 |Pulsar estas teclas<br />(en macOS)|Para hacer esto|
 |----------------|-----------|
 |Alt+flecha abajo|Abra una lista desplegable o busque un valor de un campo.|    
 |Alt+flecha arriba|Mostrar información sobre herramienta de un campo o encabezado de columna de una tabla. Si el campo contiene errores de validación, pulse Alt+flecha arriba para mostrar el error de validación. Pulse Esc o Alt+flecha arriba para cerrar la información sobre herramientas.|
+|F2|Alterne entre seleccionar todo el valor del campo o colocar el cursor al final del valor del campo.|
 |Alt+F2|Mostrar u ocultar el panel de cuadro informativo.|
 |Alt+Mayús+F2|Cambiar entre **Detalles** y **Archivos adjuntos** en el panel del cuadro informativo.|
 |Alt+O|Agregar una nueva nota para el registro seleccionado, incluso si el panel del cuadro informativo no está abierto.|
@@ -61,12 +62,12 @@ En la tabla siguiente se describen los métodos abreviados de teclado para naveg
 |Ctrl+F12|Cambiar entre vista de diseño amplia y estrecha.|
 |Ctrl+Clic|Navegar durante la personalización cuando la acción está resaltada con una punta de flecha. Para obtener más información, consulte [Personalizar el área de trabajo](ui-personalization-user.md).|  
 |Ctrl+F5|Volver a cargar la aplicación [!INCLUDE[prodshort](includes/prodshort.md)]. (Similar a seleccionar actualizar/recargar en el explorador).|
-|F5|Actualizar los datos en la página actual.<br /><br />Utilícelo para asegurarse de que los datos de la página estén actualizados con cualquier cambio que otros hayan hecho mientras usted trabaja.|
+|F5|Actualizar los datos en la página actual.<br /><br />Utilice esta tecla para asegurarse de que los datos de la página estén actualizados con cualquier cambio que otros hayan hecho mientras usted trabaja.|
 |Introduzca|Habilite o acceda al elemento o control que tiene el enfoque.|
 |Esc|Cerrar la página o lista desplegable actual.|
 |Tabulador|Mueva el enfoque al control o elemento siguiente de una página, como acciones, botones, campos o encabezados de una lista.|
 |Mayús+Tabulador|Mueva el enfoque al control o elemento anterior de una página, como acciones, botones, campos o encabezados de una lista.|
-|S y N|Activar los botones **Sí** y **No** en cuadros de diálogo. Esto es compatible con el idioma. Por ejemplo, pulse J en Alemania para activar el botón **Ja**.|
+|S y N|Activar los botones **Sí** y **No** en cuadros de diálogo. Las claves reales variarán según el idioma actual especificado en **Mi configuración**. Por ejemplo, presione J para activar el botón **Ja** cuando se utiliza el idioma alemán.|
 
 ## <a name="keyboard-shortcuts-in-lists"></a>Métodos abreviados de teclado en las listas
 
@@ -127,10 +128,10 @@ Las cuadrículas con filas y columnas existen en muchos tipos de página en [!IN
 |Pulsar estas teclas<br />(en macOS)|Para hacer esto|
 |-----------------|-------|
 |F3|Alterna el cuadro de búsqueda.<ul><li>Se activa el cuadro de búsqueda, por lo que puede empezar a escribir el texto de búsqueda.</li><li>Si el cuadro de búsqueda ya está activado, F3 vuelve a la lista sin borrar el texto de búsqueda.</li><ul>|
-|Shift+F3|Abrir y cerrar el panel de filtros.<ul><li> Si el panel de filtro no está abierto, Mayús+F3 lo abre y se centra en la acción **+ Filtro** debajo de **Filtrar lista por**, lo que le permite presionar Intro para comenzar a agregar un filtro de campo.</li><li>Si el panel de filtro ya está abierto, Mayús+F3 lo cierra pero no borra ningún filtro que haya agregado.</li></ul>|
-|Ctrl+Shift+F3|Abrir y cerrar el panel de filtros.<ul><li> Si el panel de filtro no está abierto, Ctrl+Mayús+F3 lo abre y se centra en la acción **+ Filtro** debajo de **Filtrar total por**, lo que le permite presionar Intro para comenzar a agregar un filtro de totales.</li><li>Si el panel de filtro ya está abierto, Ctrl+Mayús+F3 lo cierra pero no borra ningún filtro que haya agregado.</li></ul>  |
+|Shift+F3|Abrir y cerrar el panel de filtros.<ul><li> Si el panel de filtro no está abierto, Mayús+F3 lo abre y se centra en la acción **+ Filtrar** bajo **Filtrar lista por**. Luego puede presionar Entrar para comenzar a agregar un filtro de campo.</li><li>Si el panel de filtro ya está abierto, Mayús+F3 lo cierra pero no borra ningún filtro que haya agregado.</li></ul>|
+|Ctrl+Shift+F3|Abrir y cerrar el panel de filtros.<ul><li> Si el panel de filtro no está abierto, Ctrl+Mayús+F3 lo abre y se centra en la acción **+ Filtrar** bajo **Filtrar total por**. Luego puede presionar Entrar para comenzar a agregar un filtro de totales.</li><li>Si el panel de filtro ya está abierto, Mayús+F3 lo cierra pero no borra ningún filtro que haya agregado.</li></ul>  |
 |Alt+F3|Alternar el filtrado al valor seleccionado.<ul><li>Aplica un filtro de columna en el valor del campo seleccionado en la lista. Esto es lo mismo que elegir **Filtrar a este valor** desde un encabezado de columna. Abre el panel de filtros, establece el filtro en el valor seleccionado, mientras que el foco permanece en la celda de la lista.</li><li>Si la columna ya está filtrada, Alt+F3 borra el filtro en esa columna.</li></ul> |
-|Mayús+Alt+F3|Abrir el panel de filtros y agregar un filtro en la columna seleccionada de la lista. El foco está en el nuevo campo de filtro que permite comenzar a escribir los criterios de filtro de inmediato.<br /><br /> Esto es lo mismo que seleccionar **Filtro** desde la cabecera de columna.<br /><br />Si ya existe un filtro en el campo, se agregará uno nuevo. |
+|Mayús+Alt+F3|Abrir el panel de filtros y agregar un filtro en la columna seleccionada de la lista. El foco está en el nuevo campo de filtro, que le permite comenzar a escribir los criterios de filtro de inmediato.<br /><br /> Esto es lo mismo que seleccionar **Filtro** desde la cabecera de columna.<br /><br />Si ya existe un filtro en el campo, se agregará uno nuevo. |
 |Ctrl+Mayús+Alt+F3|Restablecer filtros. Esto es lo mismo que elegir **Restablecer filtros** en el panel de filtro y se aplica a los filtros de campos y totales.<br /><br /> Los filtros vuelven a los filtros predeterminados para la vista actual. Si la vista actual es **Todos**, entonces es lo mismo que volver a una vista sin filtros con todos los registros. |
 |Ctrl+Enter|Cambiar el enfoque del panel de filtros a la lista.|
 

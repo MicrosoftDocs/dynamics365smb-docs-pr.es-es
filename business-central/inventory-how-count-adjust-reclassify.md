@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
-ms.date: 04/01/2020
+ms.date: 04/20/2020
 ms.author: sgroespe
-ms.openlocfilehash: d3d2770cd261215144edfe0992d0bb2b269971df
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 815956fe6eefa069a9930043d4a0c93a725b4fc1
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182233"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3272067"
 ---
 # <a name="count-adjust-and-reclassify-inventory-using-journals"></a>Recuento, ajuste y reclasificación de inventario con diarios
 Como mínimo una vez cada año fiscal, debe realizar un inventario físico (es decir, contar todos los productos del inventario) para ver si la cantidad registrada en la base de datos es la misma que la cantidad física real en los almacenes. Una vez se sepa la cantidad física, debe registrarse en la contabilidad como parte de la evaluación del inventario de final de periodo.
@@ -94,6 +94,9 @@ Al registrar el inventario físico de almacén, no se registra el diario de prod
 4. Elija el botón **Imprimir**.
 
 Los empleados pueden ahora proceder a contar el inventario y registrar las discrepancias en el informe impreso.
+
+> [!NOTE]
+> Pueden pasar varios días antes de que los informes impresos regresen para su registro y procesamiento finales. Cuando especifica y registra el inventario contado real, el sistema ajusta el inventario para reflejar la diferencia entre el inventario contado esperado y el real. Debe mantener las líneas de diario calculadas originalmente y no volver a calcular el inventario previsto, ya que el inventario previsto puede cambiar y conducir a niveles de inventario incorrectos. Si necesita emitir varios informes, como para diferentes ubicaciones o grupos de productos, debe crear y mantener secciones de diario separados.
 
 ### <a name="to-enter-and-post-the-actual-counted-inventory-in-basic-warehouse-configurations"></a>Para introducir y registrar el inventario contado real en configuraciones básicas de almacén
 1. En cada línea de la página **Diario inventario físico**, donde el inventario real disponible, según lo determinado por el recuento físico, difiere de la cantidad calculada, introduzca el inventario real disponible en el campo **Cdad. (stock físico)**.
@@ -201,7 +204,7 @@ A diferencia de los ajustes de registro en el diario del artículo de inventario
 6.  Elija la acción **Registrar**.
 
 ## <a name="to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries"></a>Para sincronizar los movimientos ajustados de almacén con los correspondientes movimientos de producto
-En los intervalos adecuados definidos por la política de la empresa, debe registrar los ajustes de ubicaciones de almacén en el diario de productos. Algunas empresas encuentran correcto registrar ajustes en el diario de productos diariamente, mientras que para otras es más conveniente conciliar con frecuencia. 
+En los intervalos adecuados definidos por la política de la empresa, debe registrar los ajustes de ubicaciones de almacén en el diario de productos. Algunas empresas encuentran correcto registrar ajustes en el diario de productos diariamente, mientras que para otras es más conveniente conciliar con frecuencia.
 
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diario productos** y luego elija el enlace relacionado.  
 2.  Rellene los campos de cada línea del diario.  

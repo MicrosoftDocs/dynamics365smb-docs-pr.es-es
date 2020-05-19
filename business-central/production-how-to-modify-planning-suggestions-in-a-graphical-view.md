@@ -1,6 +1,6 @@
 ---
 title: Cómo modificar las sugerencias de planificación en una vista gráfica | Documentos de Microsoft
-description: Una actividad típica de planificación consiste en cambiar o añadir líneas de la hoja de planificación para modificar los pedidos de suministros sugeridos antes de confirmarlos ejecutando la función **Ejecutar mensajes acción**. Una alternativa a hacerlo en la hoja de trabajo de planificación es utilizar una vista gráfica.
+description: Una actividad típica de planificación consiste en cambiar o añadir líneas de la hoja de planificación para modificar los pedidos de suministros sugeridos antes de confirmarlos ejecutando la función Ejecutar mensajes acción. Una alternativa a hacerlo en la hoja de trabajo de planificación es utilizar una vista gráfica.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,92 +8,98 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 05/05/2020
 ms.author: sgroespe
-ms.openlocfilehash: 51c52da767fb9c192fbadbdfe68df8c36b17fb2c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 593fd5544f544b793b14fe14e4faf69f13d21ed6
+ms.sourcegitcommit: 57e31a8b92feeaf8c6c63eba147f36b38eee7679
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190424"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "3339951"
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Modificar las sugerencias de planificación en una vista gráfica
-Una actividad típica de planificación consiste en cambiar o añadir líneas de la hoja de planificación para modificar los pedidos de suministros sugeridos antes de confirmarlos ejecutando la función **Ejecutar mensajes acción**. Una alternativa a hacerlo en la hoja de trabajo de planificación es utilizar una vista gráfica.
 
-En la página **Disponibilidad de producto por escala de tiempo**, puede modificar algunos pedidos de suministro y sugerencias si arrastra los elementos del eje x para cambiar la cantidad o si arrastra los elementos del eje y para cambiar la fecha de vencimiento.  
+Una actividad típica de planificación consiste en cambiar o añadir líneas de la hoja de planificación para modificar los pedidos de suministros sugeridos antes de confirmarlos ejecutando la función **Ejecutar mensajes acción**. Una alternativa a hacerlo en la hoja de trabajo de planificación es utilizar una vista gráfica. Sin embargo, esto no se admite actualmente en [!INCLUDE [prodshort](includes/prodshort.md)].  
 
- En la página **Disponib. prod. por escala de tiempo** y **Hoja planificación** puede realizar los cambios siguientes:  
+<!--On the **Item Availability by Timeline** page, you can modify certain supply orders and suggestions by dragging elements on the x-axis to change quantity or dragging elements on the y-axis to change due date.  
 
--   Modificar un pedido de suministro sugerido que solo existe como una línea de la planificación.  
--   Modificar el pedido de suministro existente que el sistema de planificación sugiere cambiar.  
--   Crear un nuevo pedido de suministro sugerido y modificarlo.  
+When you open the **Item Availability by Timeline** page from the **Planning Worksheet** page, you can make the following changes:  
 
-Para obtener más información acerca de los tipos de línea de planificación que se muestran, consulte el campo Descripción en la ficha desplegable **Cambios de eventos**.  
+- Modify a suggested supply order that only exists as a planning line.  
+- Modify an existing supply order that the planning system suggests to change.  
+- Create a new suggested supply order and modify it.  
 
-Cuando elige **Guardar cambios** en la página **Disponib. prod. por escala de tiempo**, las modificaciones realizadas se copian en la hoja de planificación o demanda. Ahora puede aplicarlos con la función **Ejecutar mensajes acción.-Plan**.  
+For more information about the planning line types that are shown, see the Description field on the **Event Changes** FastTab.  
 
-El siguiente procedimiento muestra cómo modificar las sugerencias de suministro mediante arrastrar y soltar. Como alternativa, puede cambiar los campos **Fecha de vencimiento** y **Cantidad** en la ficha desplegable **Cambios en eventos** y ver inmediatamente los cambios gráficamente en la ficha desplegable **Escala de tiempo** en la página **Hoja planificación**.  
+When you choose **Save Changes** on the **Item Availability by Timeline** page, the modifications that you have made are copied to the planning or requisition worksheet. You can now implement them using the **Carry Out Action Msg.-Plan.** function.  
 
-## <a name="to-modify-suggested-supply-orders-in-the-graphical-view"></a>Para modificar los pedidos de suministros sugeridos en la vista gráfica  
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Disponib. prod. por escala de tiempo** y luego elija el enlace relacionado.  
+The following procedure shows how to modify supply suggestions by drag and drop. As an alternative, you can change the **Due Date** and **Quantity** fields on the **Event Changes** FastTab and immediately see the changes graphically on the **Timeline** FastTab on the **Planning Worksheet** page.  
 
-    La página **Disponib. prod. por escala de tiempo** se abre con el número de producto, almacén y variante del producto en la línea seleccionada de la planificación prellenada en los campos en la ficha desplegable **Opciones**. La ficha desplegable **Escala de tiempo** muestra una representación gráfica del inventario proyectado del producto, incluidas las sugerencias de la planificación.  
+## To modify suggested supply orders in the graphical view
 
-2.  Asegúrese de que el campo **Incluir sugerencias de planificación** se ha seleccionado.  
-3.  Buscar los pedidos de suministro sugeridos que desea modificar. Puede identificar los elementos modificables por el círculo verde y el icono de disco. Para obtener más información acerca de los diferentes símbolos, consulte [Símbolos e iconos en la ficha desplegable](production-how-to-modify-planning-suggestions-in-a-graphical-view.md#symbols-and-icons-on-the-timeline-fasttab).  
-4.  Coloque el puntero sobre el círculo verde hasta que se agrande y el puntero cambie a la forma de movimiento (cuatro flechas).  
-5.  Mantenga pulsado el botón del mouse mientras arrastra el puntero hacia arriba o hacia abajo para modificar la cantidad. Mantenga pulsado el botón del mouse mientras arrastra el puntero hacia la izquierda y hacia la derecha para modificar la fecha de vencimiento.  
-6.  Además de mover los elementos mediante arrastrar y soltar, puede modificar las sugerencias de planificación utilizando varias funciones del menú desplegable. Acceda al menú desplegable para el círculo verde de un producto de suministro sugerido y seleccione una las funciones siguientes  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planning Worksheet**, and then choose the related link.  
 
-    |Función|Descripción|  
+2. Choose the line that you want to see item availability for, choose **Item Availability by**, and then choose **Timeline**.
+
+    The **Item Availability by Timeline** page opens with the item number, location, and variant of the item on the selected planning line prefilled in the **Options** FastTab. The **Timeline** FastTab shows a graphical representation of the item’s projected inventory, including planning suggestions.  
+
+<!--3. Make sure that the **Include Planning Suggestions** field is selected.  
+3. Find the suggested supply order that you want to modify. You can identify modifiable elements by the green circle and the disk icon. For more information about the different symbols, see [Symbols and Icons on the Timeline FastTab](#symbols-and-icons-on-the-timeline-fasttab).  
+4. Place the pointer over the green circle until it enlarges and the pointer changes to Move shape (four arrows).  
+5. Press and hold the mouse button while you drag the pointer up or down to modify the quantity. Press and hold the mouse button while you drag the pointer left or right to modify the due date.  
+6. In addition to moving elements by drag and drop, you can modify planning suggestions by using a number of drop-down menu functions. Access the drop-down menu for the green circle of a suggested supply element and select one the following functions  
+
+    |Function|Description|  
     |--------------|---------------------------------------|  
-    |**Crear nuevo suministro**|Cree un nuevo punto de elemento donde acceda al menú desplegable, que representa un nuevo pedido de suministro sugerido. Se convierte en una nueva línea en la hoja de planificación cuando elige **Guardar cambios**.<br /><br /> **NOTA**: Si los campos **Filtro almacén** o **Filtro variante** de la ficha desplegable **Opciones** está vacía o tiene más de un valor de filtro, el nuevo suministro se crea y guarda posteriormente en la hoja de planificación o demanda con los siguientes códigos:<br /><br /> * Si el campo de filtro está vacío, el nuevo suministro se crea sin un código de almacén o variante.<br /><br /> * Si se define más de un valor de filtro, el nuevo suministro se crea para el primer valor de filtro según el método de ordenación.<br /><br /> Si desea otro código de variante o de almacén, debe modificarlo manualmente en la nueva línea de planificación.|  
-    |**Auto-Ajuste suministro**|Optimiza un nuevo suministro que ha creado en el gráfico para asegurarse de que da como resultado un inventario de cero antes del suministro siguiente.|  
-    |**Eliminar suministro**|Elimina el elemento en la ficha desplegable **Escala de tiempo** y elimina la línea de planificación cuando elige **Guardar cambios**. El icono cambia a un disco que tiene una cruz de color rojo cuando se ha eliminado el suministro.<br /><br /> **NOTA**: Solo puede eliminar un suministro de tipo de mensajes de acción **Nuevo**. Después de elegir **Guardar cambios**, debe eliminar manualmente la línea de planificación en cuestión en la hoja de planificación o demanda.|  
+    |**Create New Supply**|Creates a new element point where you access the drop-down menu, which represents a new suggested supply order. It becomes a new line in the planning worksheet when you choose **Save Changes**.<br /><br /> **NOTE:** If the **Location Filter** or **Variant Filter** fields on the **Options** FastTab are empty or have more than one filter value, then the new supply is created and later saved to the planning or requisition worksheet with the following codes:<br /><br /> * If the filter field is empty, then the new supply is created without a location or variant code.<br /><br /> * If more than one filter value is defined, then the new supply is created for the first filter value according to the sorting method.<br /><br /> If you want another variant or location code, then you must manually change it on the new planning line.|  
+    |**Auto-Adjust Supply**|Optimizes a new supply that you have created in the graph by making sure that it results in zero inventory before the next supply.|  
+    |**Delete Supply**|Deletes the element in the **Timeline** FastTab and deletes the planning line when you choose **Save Changes**. The icon changes to a disk that has a red cross when the supply has been deleted.<br /><br /> **NOTE:** You can only delete a supply of action message type **New**. After you choose **Save Changes**, you must manually delete the planning line in question in the planning or requisition worksheet.|  
 
-7.  Seleccione la acción **Volver a cargar** si desea restablecer todos los cambios realizados después de la última vez que abrió la página **Disponibilidad de producto por escala de tiempo** o seleccionado **Volver a cargar**.  
-8. Cuando se colocan los elementos donde desea en el diagrama, seleccione **Guardar cambios** para copiar la cantidad modificada y la fecha cambiada en las líneas de planificación o demanda que representan los elementos gráficos.  
+7. Choose the **Reload** action if you want to reset all the changes that you have made after you last opened the **Item Availability by Timeline** page or selected **Reload**.  
+8. When the elements are placed where you want them in the diagram, choose **Save Changes** to copy modified quantity and date changes to the planning or requisition lines that represent the graphical elements.  
 
-Para implementar los cambios del plan de suministro, debe seguir los mensajes de acción resultantes de la hoja de planificación o demanda. Para obtener más información, consulte Ejecutar mensajes acción.-Plan..
+To implement the supply plan changes, you must follow the resulting action messages from the planning or requisition worksheet. For more information, see Carry Out Action Msg.-Plan..
 
-## <a name="symbols-and-icons-on-the-timeline-fasttab"></a>Símbolos e iconos en la ficha desplegable Escala de tiempo
- |Símbolo/icono|Descripción|  
+## Symbols and Icons on the Timeline FastTab
+ |Symbol/Icon|Description|  
  |------------------|---------------------------------------|  
- |Cruz negra|Pedidos (aprovisionamiento y demanda).<br /><br /> -   No puede modificar.<br />-   Visible cuando está seleccionado el campo **Mostrar inventario proyectado** (gráfico anaranjado).|  
- |Círculo rojo|Pedidos de suministros existentes que no están incluidos en las sugerencias de la planificación.<br /><br /> -   No puede modificar.<br />-   Visible cuando está seleccionado el campo **Mostrar inventario proyectado** (gráfico anaranjado).|  
- |Asterisco amarillo|Previsión de la demanda.<br /><br /> -   No puede modificar.<br />-   Visible cuando el campo **Nombre de previsión** tiene un valor.<br /><br /> Cuando se seleccionan los campos **Mostrar inventario proyectado** e **Incluir sugerencias de planificación**, cada asterisco amarillo tiene una parte vinculada en el gráfico opuesto. Esto ilustra como un suministro sugerido satisface la demanda prevista.|  
- |Círculo verde con un icono en forma de disco que tiene una cruz de color rojo|Pedido de suministro sugerido con el mensaje de acción *Cancelar*.<br /><br /> -   No puede modificar.<br />-   Visible cuando está seleccionado el campo **Incluir sugerencias de planificación** (gráfico verde).|  
- |Círculo verde con un icono en forma de disco que tiene un asterisco|Pedidos de suministros sugeridos con los mensajes de acción *Nuevo*.<br /><br /> -   Se puede modificar.<br />-   Visible cuando está seleccionado el campo **Incluir sugerencias de planificación** (gráfico verde).|  
- |Círculo verde con un icono en forma de disco que tiene una o dos flechas|Pedidos de suministros sugeridos con el mensaje de acción *Volver a programar*, *Cambiar cdad.* o *Reprog. y Cambiar cdad.*<br /><br /> -   Se puede modificar.<br />-   Visible cuando está seleccionado el campo **Incluir sugerencias de planificación** (gráfico verde).<br /><br /> Las flechas reflejan la dirección de la sugerencia de la planificación. Por ejemplo, una flecha izquierda con una flecha hacia arriba refleja el mensaje de acción *Reprog. y Cambiar cdad.* que consiste en una actualización hacia atrás y un aumento de cantidad.|  
+ |Black cross|Orders (both supply and demand).<br /><br /> -   Cannot be modified.<br />-   Visible when the **Show Projected Inventory** field is selected (orange graph).|  
+ |Red circle|Existing supply orders that are not in planning suggestions.<br /><br /> -   Cannot be modified.<br />-   Visible when the **Show Projected Inventory** field is selected (orange graph).|  
+ |Yellow star|Forecast demand.<br /><br /> -   Cannot be modified.<br />-   Visible when the **Forecast Name** field has a value.<br /><br /> When both the **Show Projected Inventory** and the **Include Planning Suggestions** fields are selected, then each yellow star has a linked counterpart in the opposite graph. This illustrates how a suggested supply fulfills the forecasted demand.|  
+ |Green circle with an icon shaped as a disk that has a red cross|Suggested supply order with action message *Cancel*.<br /><br /> -   Cannot be modified.<br />-   Visible when the **Include Planning Suggestions** field is selected (green graph).|  
+ |Green circle with an icon shaped as a disk that has a star|Suggested supply orders with action message *New*.<br /><br /> -   Can be modified.<br />-   Visible when the **Include Planning Suggestions** field is selected (green graph).|  
+ |Green circle with an icon shaped as a disk that has one or two arrows|Suggested supply orders with action message *Reschedule*, *Change Qty.*, or *Resched. and Chg. Qty.*<br /><br /> -   Can be modified.<br />-   Visible when the **Include Planning Suggestions** field is selected (green graph).<br /><br /> The arrows reflect the direction of the planning suggestion. For example, a left arrow together with an up arrow reflects a *Resched. and Chg. Qty.* action message that consists of a backward rescheduling and a quantity increase.|  
+-->
+<!--When you access the drop-down menu for the **Timeline** FastTab, the following functions appear depending what you choose  
 
-Cuando acceda al menú desplegable para la ficha desplegable **Escala de tiempo**, las funciones siguientes aparecen dependiendo de lo que elija  
-
- |Función|Descripción|  
+ |Function|Description|  
  |--------------|---------------------------------------|  
- |**Crear nuevo suministro**|Crea un nuevo elemento en el punto donde acceda al menú desplegable, que representa un nuevo pedido de suministro sugerido. Se convierte en una nueva línea en la hoja de planificación cuando elige **Guardar cambios** en la pestaña **Procesar**.<br /><br /> Cualquier valor de filtro que esté definido en los campos **Filtro almacén** o **Filtro variante** en la ficha desplegable **Opciones** se aplicará a nuevos pedidos de suministros. **Nota**: Si los campos de filtro están vacíos o tienen más de un valor filtro, nuevos pedidos de suministros se crean utilizando los siguientes códigos: <ul><li>Si el campo de filtro está vacío, el nuevo suministro se crea sin un código de almacén o variante.</li><li>Si se define más de un valor de filtro, el nuevo suministro se crea utilizando el primer valor de filtro según la ordenación.</li></ul> Si desea otro código de variante o de almacén en el nuevo pedido de suministro, debe modificarlo manualmente en la nueva línea de planificación.|  
- |**Auto-Ajuste suministro**|Optimiza un nuevo suministro que ha creado en el gráfico para asegurarse de que crea un inventario de cero antes del suministro siguiente.|  
- |**Eliminar suministro**|Elimina el producto en la ficha desplegable **Escala de tiempo** y elimina la línea de planificación cuando elige **Guardar cambios** en la pestaña **Proceso**. El icono cambia a un disco que tiene una cruz de color rojo cuando se ha eliminado el suministro. **Nota**: Solo puede eliminar un suministro de tipo de mensajes de acción *Nuevo*. Después de elegir **Guardar cambios** en la pestaña **Proceso** debe eliminar manualmente la línea de planificación en cuestión en la hoja de planificación o demanda.|  
- |**Mostrar documento**|Abre el pedido, la línea de planificación o la previsión que el elemento representa.|  
- |**Alejar (Ctrl++)**|Aumenta la escala del eje X, para mostrar menos días. **Nota:** También puede hacerlo pulsando Ctrl + rueda de desplazamiento de raton.|  
- |**Acercar (Ctrl+-)**|Reduce la escala del eje X, para mostrar más días. **Nota:** También puede hacerlo pulsando Ctrl + rueda de desplazamiento de raton.|  
- |**Restablecer zoom (Ctrl+0)**|Revierte la escala del eje X a la que se utilizaba antes de alejar o acercar.|  
+ |**Create New Supply**|Creates a new element on the point where you access the drop-down menu, which represents a new suggested supply order. It becomes a new line in the planning worksheet when you choose **Save Changes** on the **Process** tab.<br /><br /> Any filter values that are defined in the **Location Filter** or **Variant Filter** fields on the **Options** FastTab will be applied to the new supply order. **Note:**  If the filter fields are empty or have more than one filter value, then the new supply order is created by using the following codes: <ul><li>If the filter field is empty, then the new supply is created without a location or variant code.</li><li>If more than one filter value is defined, then the new supply is created by using the first filter value according to the sorting order.</li></ul> If you want another variant or location code in the new supply order, then you must manually change it on the new planning line.|  
+ |**Auto-Adjust Supply**|Optimizes a new supply that you have created in the graph by making sure that it creates zero inventory before the next supply.|  
+ |**Delete Supply**|Deletes the element in the **Timeline** FastTab and deletes the planning line when you choose **Save Changes** on the **Process** tab. The icon changes to a disk that has a red cross when the supply has been deleted. **Note:**  You can only delete a supply of action message type *New*. After you choose **Save Changes** on the **Process** tab, you must manually delete the planning line in question in the planning or requisition worksheet.|  
+ |**Show Document**|Opens the order, planning line, or forecast that the element represents.|  
+ |**Zoom Out (Ctrl++)**|Makes the scale of the x-axis larger, so that fewer days are shown. **Note:**  You can also do this by pressing Ctrl + scroll mouse wheel.|  
+ |**Zoom In (Ctrl+-)**|Makes the scale of the x-axis smaller, so that more days are shown. **Note:**  You can also do this by pressing Ctrl + scroll mouse wheel.|  
+ |**Reset Zoom (Ctrl+0)**|Reverts the scale of the x-axis to what was used before you zoomed.|  
+-->
+<!--In addition to the keyboard actions that were mentioned earlier, you can also use the following keyboard actions in the **TimeLine** FastTab.  
 
-Además de las acciones de teclado se mencionadas antes, también puede utilizar las siguientes acciones de teclado en la ficha desplegable **Escala de tiempo**.  
-
- |Acción de teclado|Descripción|  
+ |Keyboard Action|Description|  
  |---------------------|---------------------------------------|  
- |Ctrl + rueda de mouse de desfase|Cambia la escala del eje X.|  
- |Seleccione un elemento y presione Shift+Flecha|Mueve el elemento en la dirección de la flecha.|  
- |Tabulador|Va al elemento siguiente.|  
- |Mayús+Tabulador|Va al elemento anterior.|  
- |Mientras mueve un elemento, presione Esc.|Cancela el movimiento. **Nota**: No funciona si ha soltado el botón del mouse.|
+ |Ctrl + scroll mouse wheel|Changes the scale of the x-axis.|  
+ |Select an element, then press Shift+Arrow|Moves the element in the direction of the arrow stroke.|  
+ |Tab|Moves to the next element.|  
+ |Shift+Tab|Moves to the previous element.|  
+ |While moving an element, press Esc.|Cancels the move. **Note:**  Does not work if you have released the mouse button.|
+-->
 
-## <a name="see-also"></a>Consulte también  
-[Planificación](production-planning.md)   
+## <a name="see-also"></a>Consulte también
+
+[Planificación](production-planning.md)  
 [Configuración de fabricación](production-configure-production-processes.md)  
-[Fabricación](production-manage-manufacturing.md)    
+[Fabricación](production-manage-manufacturing.md)  
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Compras](purchasing-manage-purchasing.md)  
-[Detalles de diseño: planificación de aprovisionamiento](design-details-supply-planning.md)   
+[Detalles de diseño: Planificación de aprovisionamiento](design-details-supply-planning.md)  
 [Procedimientos recomendados de configuración: planificación de suministros](setup-best-practices-supply-planning.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

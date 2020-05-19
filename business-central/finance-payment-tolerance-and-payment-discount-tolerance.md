@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: a322144f9c55d87ad615122ad321572c476de1ef
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 42f89bc4f62cdcb4b2abcd9c919006a65451330b
+ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183049"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262243"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Trabajar con tolerancias de pago y tolerancias de descuento de pago
-Puede configurar una tolerancia de pago para cerrar una factura cuando el pago no cubre totalmente el importe de la factura. Puede configurar una tolerancia de descuento P.P. para conceder un descuento P.P. después de que haya pasado la fecha de descuento.  
+Puede configurar una tolerancia de pago para cerrar una factura cuando el pago no cubre totalmente el importe de la factura. Por ejemplo, las tolerancias de pago son típicamente para pequeñas cantidades que costarían más corregir que solo aceptar. Puede configurar una tolerancia de descuento P.P. para conceder un descuento P.P. después de que haya pasado la fecha de descuento.  
 
 Puede utilizar las tolerancias de pago para que cada importe pendiente tenga una tolerancia de pago máxima permitida. Si se cumple la tolerancia de pago, el importe de pago se analiza. Si no se ha pagado todo el importe, el importe pendiente se cerrará totalmente con el importe que falta por pagar. Se registra un movimiento detallado para el movimiento de pago para que no exista un importe pendiente en el movimiento de factura liquidado. Si se ha pagado más del importe pendiente, se registra un movimiento detallado para el movimiento de pago para que no exista un importe pendiente en el movimiento de pago.
 
@@ -36,7 +36,10 @@ Puede optar por mostrar una advertencia que se base en las distintas situaciones
 - La primera advertencia es para la tolerancia de descuento. Se le informará que puede aceptar un descuento P.P. vencido. Puede entonces elegir si acepta la tolerancia en la fecha de descuento.  
 - La segunda advertencia es para la tolerancia de pago. Se le informará al usuario que se pueden cerrar todos los movimientos ya que la diferencia está dentro de la suma de la máximo tolerancia de pago para los movimientos liquidados. Puede entonces elegir si acepta la tolerancia en el importe del pago.
 
-Para obtener más información, consulte [Para activar o desactivar la advertencia de tolerancia de pago:](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings).     
+> [!NOTE]
+> Habilitar el mensaje de advertencia permitirá elegir cómo procesar los pagos que se encuentran dentro de la tolerancia. Si no habilita el mensaje y se especifica un nivel de tolerancia, las facturas con importes dentro de la tolerancia se cerrarán automáticamente y no podrá optar por dejar el importe pendiente. 
+
+Para obtener más información, consulte [Para activar o desactivar la advertencia de tolerancia de pago:](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings). 
 
 ## <a name="to-set-up-tolerances"></a>Para configurar las tolerancias  
 La tolerancia en días e importes le permite cerrar una factura aunque el pago no se haya realizado todo el pago del importe de la misma, si esto se debe a que se ha superado la fecha de vencimiento del descuento por pronto pago, a que se han realizado deducciones o a causa de un error sin importancia. Esto también se aplica a reembolsos y abonos.  
@@ -67,7 +70,7 @@ Para configurar la tolerancia tiene que configurar varias cuentas de tolerancia,
 ## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>Para activar o desactivar las advertencias de tolerancia de pago
 La advertencia de tolerancia de pagos aparece cuando registra una liquidación con un saldo dentro de la tolerancia permitida. A continuación, puede elegir cómo desea registrar y documentar el saldo.    
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de contabilidad** y luego elija el enlace relacionado.  
-2. En la página **Configuración contabilidad**, en la ficha desplegable **Liquidación**, active el campo **Advertencia tolerancia pagos** para activar la advertencia. Para desactivar la advertencia, desactive el campo.  
+2. En la página **Configuración de contabilidad**, en la ficha desplegable **Liquidación**, active el campo **Advertencia tolerancia pagos** para activar la advertencia. Para desactivar la advertencia, apague la alternancia.  
 
 > [!NOTE]  
 >  La opción predeterminada para la página **Advertencia tolerancia pagos** es **Dejar el saldo como importe pendiente**. La opción predeterminada para la página **Advertencia tolerancia dto. P.P.** es **No aceptar el descuento por pago vencido**.

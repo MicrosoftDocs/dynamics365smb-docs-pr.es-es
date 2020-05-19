@@ -8,63 +8,101 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 04/03/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9405e285613c95e6c3bfcf19a5fc57e109b3f419
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: f3af601f0de00445a42c88bb47053084b05fc14b
+ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194432"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262147"
 ---
 # <a name="entering-data"></a>Introducción de datos
 
-Hay muchas características generales que le ayudan a introducir datos de forma más fácil, rápida y precisa. Las características generales para la introducción de datos se describen en este artículo.  
+Hay muchas características generales que le ayudan a introducir datos de forma más fácil, rápida y precisa. Los principios básicos y las características avanzadas para la introducción de datos se describen en este artículo.  
 
 Los ejemplos de este producto utilizan los datos de demostración.
 
+## <a name="working-with-editable-fields"></a>Trabajo con campos editables
+Los campos en [!INCLUDE[d365fin](includes/d365fin_md.md)] puede contener diferentes datos editables, como texto o importe de divisas. Los campos editables suelen mostrar un cuadro de entrada donde puede escribir o elegir un valor. Los campos no editables generalmente se muestran con un fondo gris.   
+
+Algunos campos editables proporcionan un selector para ayudarle a especificar un valor.  
+
+<!-- TODO: Add illustrations or images of each picker -->
+|**Encargado de picking**        |**Cómo le ayuda a especificar un valor**|
+|------------------|------------------------------------|
+|Selector de fechas       |Este selector muestra un calendario basado en su configuración regional actual. Le ayuda a elegir una única fecha.|
+|Desplegable          |Los menús desplegables ofrecen una opción de valores fijos o registros de referencia de otra tabla|
+|Conmutador o casilla|Algunos campos ofrecen una elección sencilla de valores *Sí* o *No*. El conmutador se usa para especificar este valor y siempre se muestra como una casilla en listas|
+|Edición de asistencia       |Algunos campos proporcionan selectores personalizados adecuados para buscar y elegir el mejor valor para ese campo, como la ventana emergente.|
+
+
+### <a name="modifying-a-field-value"></a>Modificar un valor de campo
+
+Para modificar el valor de un campo, primero debe establecer el foco en ese campo. El foco se establece mediante las siguientes acciones:
+
+- Usando la tecla **Tab**. La acción selecciona todo el valor.
+- Haciendo clic con el botón izquierdo del ratón o dispositivo de entrada similar. Esta acción solo seleccionará el valor del campo completo si el campo está en una lista.  
+
+Cuando interactúa con campos en la interfaz de usuario, [!INCLUDE[d365fin](includes/d365fin_md.md)] normalmente favorece la selección de todo el valor del campo para que le sea más fácil reemplazar ese valor.
+
+Cuando se selecciona todo el valor del campo:
+- Reemplace el valor simplemente escribiendo para especificar un nuevo valor. Si el campo ofrece un selector, puede activarlo usando el método abreviado de teclado **Alt+flecha abajo**.
+- Utilice la tecla **Supr** o **Retroceso** para borrar el valor.
+
+Presione la tecla **F2** para alternar entre seleccionar todo el valor del campo o colocar el cursor después del valor del campo. Al colocar el cursor al final del valor se facilita la anexión al valor existente.
+
+Cuando el cursor se muestra al final del valor del campo:
+- Agregue al valor escribiendo.
+- Use las teclas **Inicio**, **Fin**, **Flecha izquierda** y **Flecha derecha** para mover el cursor dentro del valor. Si está editando un campo en una lista, presionar la tecla **Flecha izquierda** nuevamente cuando el cursor esté al comienzo del valor establecerá el foco en el campo anterior. Del mismo modo, al presionar la tecla **Flecha derecha** nuevamente cuando el cursor esté al final del valor establecerá el foco en el siguiente campo.
+
+> [!NOTE]
+> Después de especificar un valor, Business Central solo comprobará que sea válido después de hacer clic fuera del campo o establecer el foco en otro elemento, como el siguiente campo.  
+
+
 ## <a name="keyboard-shortcuts"></a>Métodos abreviados de teclado
 
-Hay varios métodos abreviados de teclado que le permiten trabajar "sin ratón" y acelerar la entrada de datos, especialmente con movimientos a gran escala y tareas de escritura repetitivas.
+Existen varios métodos abreviados de teclado que le permiten trabajar "sin ratón" y acelerar la entrada de datos. Estos métodos abreviados de teclado son especialmente útiles con entradas a gran escala y tareas de escritura repetitivas.
 
-Para obtener más información sobre estos métodos abreviados, consulte [Métodos abreviados de teclado](keyboard-shortcuts.md). Algunos de los métodos abreviados se explican en este artículo.
+Para obtener más información sobre estos métodos abreviados, consulte [Métodos abreviados de teclado](keyboard-shortcuts.md). Algunos de los métodos del teclado abreviados se explican en este artículo.
 
 ## <a name="accelerating-data-entry-using-quick-entry"></a><a name="QuickEntry"></a>Acelerar la entrada de datos con la entrada rápida
 
-La entrada rápida es una característica diseñada para la entrada de datos cuando se utiliza el teclado. La entrada rápida funciona en campos (como en las páginas de fichas) y en listas (filas y columnas). Es beneficiosa cuando se realizan tareas de escritura repetitivas que requieren la creación de varios registros en secuencia, como un lote de pedidos de venta o el registro de nuevos productos.
+La entrada rápida es una característica diseñada para la entrada de datos cuando se utiliza el teclado. La entrada rápida funciona en campos (como en las páginas de fichas) y en listas (filas y columnas). Es beneficioso cuando se realizan tareas de mecanografía repetitivas que requieren la creación de múltiples registros en secuencia. Los ejemplos incluyen un lote de pedidos de ventas o el registro de nuevos artículos.
 
-Es posible que ya esté familiarizado con el uso de la tecla Tab para navegar desde un campo de una página al siguiente campo editable. Una desventaja de usar Tab es que siempre va secuencialmente al siguiente campo. <!-- even if the field is non-editable or seldom filled it in.-->La entrada rápida le permite cambiar esta ruta. Con la entrada rápida, puede utilizar la tecla Entrar para navegar solo por los campos que le interesan, omitiendo los campos no editables y los campos que normalmente no rellena. Es posible que ya haya observado este comportamiento en algunas páginas. Esto se debe a que la aplicación ya designa los campos que se deben incluir al pulsar Entrar y los que se deben omitir. Puede personalizar la entrada rápida si personaliza su espacio de trabajo y optimiza la forma en que introduce los datos en cada página.
+Puede usar tecla Tab para navegar desde un campo de una página al siguiente campo editable. Una desventaja de usar Tab es que siempre va secuencialmente al siguiente campo. <!-- even if the field is non-editable or seldom filled it in.-->La entrada rápida le permite cambiar esta ruta. Con la entrada rápida, use la tecla Entrar para navegar solo por los campos en los que está interesado. La entrada rápida omite los campos no editables y los campos que normalmente no completa. Es posible que ya haya observado este comportamiento en algunas páginas. Este comportamiento se debe a que los campos que se deben incluir al presionar Entrar y los que se deben omitir han sido predeterminados. Puede personalizar la entrada rápida si personaliza su espacio de trabajo y optimiza la forma en que introduce los datos en cada página.
 
 ### <a name="how-quick-entry-works"></a>Cómo funciona la entrada rápida
 
-Cada campo puede marcarse como *incluido en la entrada rápida* o como *excluido de la entrada rápida*. Los campos que se incluyen en la entrada rápida se incluirán en la ruta cuando pulse Entrar; los campos que se excluyen de la entrada rápida, no.
+Cada campo puede marcarse como *incluido en la entrada rápida* o como *excluido de la entrada rápida*. Los campos que se incluyen en la Entrada rápida se incluirán en la ruta cuando presione Entrar. Los campos que están excluidos de la Entrada rápida no lo harán.
 
-Cuando haya finalizado de rellenar un campo, pulse Entrar para confirmar los cambios e ir al siguiente campo. Si desea invertir la dirección y pasar al campo anterior, pulse Mayús+Entrar. Para obtener más información sobre estos métodos abreviados, consulte [Métodos abreviados de entrada rápida para campos](keyboard-shortcuts.md#QuickEntry).
+Cuando haya finalizado de rellenar un campo, presione Entrar para confirmar los cambios e ir al siguiente campo. Si desea invertir la dirección y pasar al campo anterior, pulse Mayús+Entrar. Para obtener más información sobre estos métodos abreviados, consulte [Métodos abreviados de entrada rápida para campos](keyboard-shortcuts.md#QuickEntry).
 
 #### <a name="tips-and-tricks"></a>Sugerencias y trucos
-A continuación se ofrece información útil sobre el uso de la entrada rápida.
+
+La lista siguiente ofrece información útil sobre el uso de la entrada rápida.
 
 - Está disponible para cualquier campo editable.
 - También funciona en columnas y filas.
-- No impide el acceso a otros elementos de una página, como las acciones. Se puede seguir accediendo a ellos utilizando Tab y Mayús+Tab.  
-- Las fichas desplegables no tienen que expandir para que funcione la entrada rápida. Si el siguiente campo de entrada rápida se encuentra en una ficha desplegable contraída, esa ficha desplegable se expandirá automáticamente y el enfoque estará en el campo designado.
+- No impide el acceso a otros elementos de una página, como las acciones. Se puede seguir accediendo a estos elementos mediante Tab y Mayús+Tab.  
+- No es necesario que se expandan las fichas desplegables para que funcione la Entrada rápida. Si el siguiente campo de entrada rápida se encuentra en una ficha desplegable contraída, esa ficha desplegable se expandirá automáticamente y el foco estará en el campo elegido. [!INCLUDE[d365fin](includes/d365fin_md.md)] recordará que la ficha desplegable debe ampliarse la próxima vez que visite la página.  
 - La entrada rápida funciona independientemente de si los campos son obligatorios. Por lo tanto, es buena idea asegurarse de que los campos obligatorios se incluyan en la entrada rápida.
 - De forma predeterminada, la mayoría de los campos se incluyen automáticamente en la entrada rápida. Por lo tanto, al principio, lo más probable es que su tarea sea excluir campos de la entrada rápida.
 
 ### <a name="to-change-quick-entry-fields"></a>Para cambiar los campos de entrada rápida
 
-Para cambiar los campos que se incluyen o se excluyen de la entrada rápida de una página, se utiliza la personalización.
+Para configurar la Entrada rápida en campos, utilice la personalización.
 
 1. Comience la personalización seleccionando el icono ![Configuración](media/ui-experience/settings_icon_small.png "Icono de configuración para el área de trabajo") y luego la acción **Personalizar**.
-2. Seleccione un campo que desee modificar o, en las listas, seleccione la cabecera de columna correspondiente y, a continuación, seleccione **Incluir en entrada rápida** o **Excluir de entrada rápida**.
+2. Seleccione el campo que desea cambiar. En listas, seleccione el encabezado de columna correspondiente. Luego, elija **Incluir en Entrada rápida** o **Excluir de Entrada rápida**.
 
 Para obtener más información sobre la personalización, consulte [Personalizar el área de trabajo](ui-personalization-user.md).
 
 ## <a name="mandatory-fields"></a>Campos obligatorios
 
-Cuando se introducen datos en páginas, determinados campos aparecen marcados con un asterisco de color rojo. El asterisco rojo significa que el campo debe rellenarse para completar un determinado proceso que lo utilice, como registrar una transacción que utilice su valor.  
+Cuando se introducen datos en páginas, determinados campos aparecen marcados con un asterisco de color rojo. El asterisco rojo significa que el campo debe completarse para completar un determinado proceso. Un ejemplo es cuando publica una transacción que usa el valor en el campo.  
 
-Aunque el campo contiene un asterisco rojo, no se le obliga a rellenar el campo para ir a otros campos o cerrar la página. El asterisco rojo solo sirve como recordatorio de que se le bloqueará y no podrá terminar un determinado proceso.  
+Aunque el campo es obligatorio, no se le obliga a rellenar el campo para ir a otros campos o cerrar la página. El asterisco rojo solo sirve como recordatorio de que se le bloqueará y no podrá terminar un determinado proceso.  
 
 ## <a name="finding-data-as-you-type"></a>Buscar datos al escribir
 
@@ -78,7 +116,7 @@ Aunque el campo contiene un asterisco rojo, no se le obliga a rellenar el campo 
 
 ## <a name="copying-and-pasting-faq-fields-and-lines"></a>Preguntas frecuentes sobre copiar y pegar campos y líneas
 
-Puede copiar una o más filas de una lista o un solo campo en una página y luego pegar lo que ha copiado en la misma página, otra página o un documento externo (como Microsoft Excel y el correo electrónico de Outlook). En resumen, para copiar, presione CTRL+C (cmd+C en macOS) en su teclado. Para pegar, presione CTRL+V (cmd+V en macOS).
+Puede copiar una o más filas de una lista o un solo campo de una página. Luego pegue lo que copió en la misma página, en otra página o en un documento externo. Podría, por ejemplo, pegarlo en Microsoft Excel o en correo electrónico de Outlook. En resumen, para copiar, presione CTRL+C (cmd+C en macOS) en su teclado. Para pegar, presione CTRL+V o cmd+V en macOS.
 
 En una lista, para copiar el campo en la misma columna de la fila anterior y pegarlo en la fila actual, pulse F8.
 
@@ -88,13 +126,13 @@ Para obtener más información, consulte [Preguntas frecuentes sobre copiar y pe
 
 Para iniciar el filtrado, seleccione ![Icono Panel de filtro](media/open-filter-pane-icon.png "Icono Panel de filtro") en la parte superior de la lista o pulse Mayús+F3 para abrir el panel de filtro. Con el panel de filtros se trabaja como en cualquier otra lista. Para obtener más información, consulte [Filtrado](ui-enter-criteria-filters.md#filtering).
 
-El filtrado es especialmente útil cuando se ven y analizan documentos largos. Por ejemplo, imagine que abre una factura de ventas registrada y filtra los productos de línea para visualizar todos los productos de línea que tienen un descuento individual superior al 5 %, o bien establece un filtro para visualizar solo los accesorios de bicicleta con "pro" en el nombre.
+El filtrado es especialmente útil cuando se ven y analizan documentos más largos. Imagine que abre un histórico de facturas de venta. Luego, filtre los artículos de líneas para mostrar todos los artículos de líneas que tienen un descuento individual superior al 5 %. O bien, filtre para mostrar solo accesorios de bicicleta con 'pro' en el nombre.
 
 ## <a name="focusing-on-line-items"></a><a name="Focus"></a>Enfoque en los productos de línea
 
-Al trabajar en documentos que incluyen una parte de productos de línea, como un pedido de venta o una página de factura, puede cambiar la vista para centrarse solo en los productos de línea. La parte de los productos de línea se expande para que ocupe casi todo el espacio de trabajo, ocultando otras partes de la página, excepto el área de acciones en la parte superior. Esto le proporciona una mejor visión general de los productos de línea y más espacio para trabajar en ellos.
+Al trabajar en documentos que incluyen una parte de artículos de línea, puede cambiar la vista para centrarse solo en los artículos de línea. Los documentos de ejemplo son pedidos de ventas o páginas de facturas. La parte de artículos de línea se amplía para que ocupe casi todo el espacio de trabajo. Oculta otras partes de la página, excepto el área de acciones de la parte superior. Este diseño le proporciona una mejor visión general de los productos de línea y más espacio para trabajar en ellos.
 
-Esto es muy beneficioso cuando se trabaja con grandes listas de productos de línea y cuando se desea una entrada rápida de los datos. Otra ventaja es que también proporciona capacidad de filtrado avanzado, como en otras listas, de modo que la navegación y la búsqueda a través de los productos de línea resulta aún más fácil.
+Se beneficiará especialmente cuando trabaje con grandes listas de artículos de línea y desee escribir datos rápidamente. Esta característica también proporciona capacidad de filtrado avanzado. Al igual que en otras listas, navegar y buscar en las líneas de pedido se vuelve aún más fácil.
 
 ### <a name="switching-the-focus-on-and-off"></a>Activar y desactivar el enfoque
 
@@ -103,18 +141,28 @@ Para el enfoque en los productos de línea, seleccione cualquier lugar de la par
 Para volver a la vista normal, seleccione ![icono Modo de enfoque](media/focus-mode.png "Icono Modo de enfoque") o pulse Ctrl+Mayús+F12 de nuevo.
 
 ## <a name="multitasking-across-multiple-pages"></a>Multitarea en varias páginas
-Cuando trabaje en múltiples tareas a la vez o cuando administre interrupciones en la tarea actual, como atender una llamada entrante, puede abrir una página de ficha o documento en una nueva ventana. Esto le permite mantener una ventana abierta para una tarea en curso mientras inicia o completa otra tarea en una o más ventanas.
+
+Puede abrir una página de ficha o documento en una nueva ventana. Abrir una nueva ventana le permite:
+
+- Trabajar en varias tareas al mismo tiempo
+- Administre interrupciones en la tarea actual, como atender una llamada entrante.
+- Mantener una ventana abierta para una tarea en curso mientras inicia o completa otra tarea en ventanas.
 
 Para abrir la ficha o documento actual en una nueva ventana, elija ![Abrir nueva ventana](media/open-new-window-icon.png "Icono Abrir en una nueva ventana") en la esquina superior derecha o pulse Alt+Mayús+W.
 
+<!--
+When working on multiple tasks at a time or when managing interruptions to the current task, such as taking an incoming call, you can open a card or document page in a new window. This allows you to keep a window open for an ongoing task while you start or complete another task in one or more other windows.
+-->
+Para abrir la ficha o documento actual en una nueva ventana, elija ![Abrir nueva ventana](media/open-new-window-icon.png "Icono Abrir nueva ventana") en la esquina superior derecha o pulse Alt+Mayús+W.
+
 > [!NOTE]
-> Cuando abre otras páginas desde una ficha o documento que está abierto en una nueva ventana, esas páginas se abrirán en una nueva ventana aunque no elija ![Abrir nueva ventana](media/open-new-window-icon.png "Icono Abrir en una nueva ventana").
+> Cuando abre otras páginas desde una ficha o documento que está abierto en una nueva ventana, esas páginas se abrirán en una nueva ventana aunque no elija ![Abrir nueva ventana](media/open-new-window-icon.png "Icono Abrir nueva ventana").
 
 > [!NOTE]
 > Si trabaja en el explorador Safari, un bloqueador de ventanas emergentes puede provocar que no se abra la nueva ventana. Si este es el caso, especifique la URL del producto como un sitio web permitido. Para obtener información, consulte [Cambiar las preferencias en Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
 > Lo mismo puede suceder en otros navegadores, como Firefox. Para obtener más información, vea [Configuración del bloqueador de elementos emergentes en Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400).  
 
-Otra forma de realizar múltiples tareas es abrir [!INCLUDE[d365fin](includes/d365fin_md.md)] en dos o más pestañas del navegador. Cuando haga esto, debe crear una nueva pestaña y luego copiar/pegar la URL de la pestaña original en la nueva pestaña. Esto crea una nueva sesión.   
+Otra forma de realizar múltiples tareas es abrir [!INCLUDE[d365fin](includes/d365fin_md.md)] en dos o más pestañas del navegador. Cuando lo haga de esta forma, debe crear una nueva pestaña y luego copiar/pegar la URL de la pestaña original en la nueva pestaña. De esta forma se crea una nueva sesión.   
 
 > [!NOTE]
 > No use la función **Duplicar** del navegador para crear la nueva pestaña, ya que esto puede hacer que las acciones de una pestaña bloqueen las acciones de otras pestañas porque son parte de la misma sesión.
@@ -148,37 +196,37 @@ Puede especificar números negativos de dos formas. El número -20,5 se puede es
 
 ## <a name="entering-dates-and-times"></a>Introducir fechas y horas
 
-Puede especificar fechas y horas en todos los campos diseñados específicamente para las fechas (campos de fecha). Las fechas pueden escribirse con o sin separadores.
+Puede especificar fechas y horas en todos los campos diseñados para las fechas (campos de fecha). Las fechas pueden escribirse con o sin separadores.
 
 > [!NOTE]  
 > La forma de especificar las fechas y horas depende de los valores **Región**. Para obtener más información, consulte [Cambiar configuración básica](ui-change-basic-settings.md).  
 
 ### <a name="entering-dates"></a>Introducción de fechas
 
-Para los campos de fecha, puede utilizar el selector de datos, que le permite seleccionar una fecha de un calendario o puede introducir fechas manualmente. Esta sección proporciona un breve resumen de cómo introducir fechas. Para obtener más detalles, consulte [Trabajar con fechas y horas del calendario](ui-enter-date-ranges.md).
+Puede utilizar el selector de fechas para seleccionar una fecha de un calendario o puede introducir fechas manualmente. Esta sección proporciona un breve resumen de cómo introducir fechas. Para obtener más información, consulte [Trabajar con fechas y horas del calendario](ui-enter-date-ranges.md).
 
 Para la entrada de fecha manual, puede introducir dos, cuatro, seis u ocho dígitos:  
 
--   Si introduce solo dos dígitos, se interpretarán como el día y se agregarán el mes y el año de la fecha de trabajo.  
+-   Dos dígitos se interpretan como el día. Agregará el mes y el año de la fecha de trabajo.  
 
--   Si introduce cuatro dígitos, se interpretarán como el día y el mes, y agregará el año de la fecha de trabajo.  
+-   Cuatro dígitos se interpretan como el día y el mes. Agregará el año de la fecha de trabajo.  
 
--   Si la fecha que desea introducir está en el rango comprendido entre el 01/01/1930 y el 31/12/2029, puede introducir el año con dos dígitos; en caso contrario, introduzca el año mediante cuatro dígitos.  
+-   Si la fecha que desea está en el rango del 01/01/1930 al 31/12/2029, introduzca el año con dos dígitos. De lo contrario, introduzca el año con cuatro dígitos.  
 
-También es posible introducir una fecha como un día de la semana, seguido de un número de la semana y, opcionalmente, un año (por ejemplo, Lun25 o lun25 significa lunes de la semana 25).  
+También puede introducir una fecha como día de la semana seguido de un número de semana. O bien, puede introducir un año. Por ejemplo, Lun25 o lun25 significa lunes de la semana 25.  
 
 En lugar de introducir una fecha específica, puede introducir uno de estos códigos.  
 
-|Código|Resultado|  
+|Code|Resultado|  
 |--------------|----------------|  
-|h|Esto especifica la fecha de hoy (la fecha de sistema del equipo).|  
-|p|Esto especifica un "período contable, donde p significa el primer período contable, p2 significa el segundo período contable, y así sucesivamente. |
-|t|Esto especifica la fecha de trabajo que está configurada en la aplicación. Para cambiar la fecha de trabajo, vea [Cambiar la configuración básica](ui-change-basic-settings.md). Una fecha de trabajo se puede usar si hay muchas operaciones con una fecha distinta a la activa.|
-|c|Esto especifica que la fecha después de c es una fecha de cierre, por ejemplo, C123101.|  
+|h|Especifica la fecha de hoy (la fecha de sistema del equipo).|  
+|p|Especifica un "período contable, donde p significa el primer período contable, p2 significa el segundo período contable, y así sucesivamente. |
+|t|Especifica la fecha de trabajo que está configurada en la aplicación. Para cambiar la fecha de trabajo, vea [Cambiar la configuración básica](ui-change-basic-settings.md). Una fecha de trabajo se puede usar si hay muchas operaciones con una fecha distinta a la activa.|
+|c|Especifica que la fecha después de c es una fecha de cierre, por ejemplo, C123101.|  
 
 ## <a name="entering-times"></a>Introducción de horas
 
-Cuando introduzca horas, puede insertar cualquier signo separador entre las unidades, aunque no es necesario. No necesita escribir los minutos, los segundo ni AM/PM.  
+Cuando introduzca horas, puede insertar cualquier signo separador entre las unidades, aunque no es necesario. No necesita escribir minutos, segundos ni AM/PM.  
 
 En la tabla siguiente se muestran varias formas de introducir horas y cómo se interpretan.  
 
@@ -192,7 +240,7 @@ En la tabla siguiente se muestran varias formas de introducir horas y cómo se i
 |5:30:5.50|05:30:05,5|  
 |053005050|05:30:05.05|  
 
- Debe introducir dos dígitos para cada unidad de tiempo si no escribe ningún separador.  
+ Introduzca dos dígitos para cada unidad de tiempo si no escribe ningún separador.  
 
 ## <a name="entering-datetimes"></a>Introducción de fechas/horas
 
@@ -224,6 +272,7 @@ En la tabla siguiente se muestran varias formas de introducir fechas y horas y c
 |ma 3:3:3|Martes de la semana actual 03:03:03|  
 
 ## <a name="entering-duration"></a>Introducción de duración
+
 Introduzca un periodo de tiempo como un número seguido de su unidad de medida.  
 
 A continuación se muestran algunos ejemplos.  
@@ -239,7 +288,7 @@ A continuación se muestran algunos ejemplos.
 
  También puede introducir un número y se convertirá automáticamente en un periodo de tiempo. El número que introduzca se convierte según la unidad de medida predeterminada que se ha especificado en el campo Duración.  
 
- Para ver la unidad de medida que se va a usar en un campo Duración, introduzca un número y observe a qué unidad de medida se convierte.  
+ Para ver la unidad de medida usada en el campo Duración, introduzca un número y observe a qué unidad de medida se convierte.  
 
  El número 5 se convierte a 5 hrs, si la unidad de medida es horas.  
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 04/01/2020
+ms.date: 05/11/2020
 ms.author: edupont
-ms.openlocfilehash: 2c99b8bef9bff22edd2d27856e703b41c6ec6441
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: eae48b25446e4c81d1b8eae86fd2d0d7d0126df6
+ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184033"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "3372621"
 ---
 # <a name="accountant-experiences-in-d365fin_long"></a>Experiencias contables en [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Los negocios deben crear sus libros y firmas de contabilidad. Algunas empresas emplean un contable externo, y otras lo tienen en plantilla. Independientemente del tipo de contable que sea, puede utilizar el Área de trabajo **Contable** como su página de inicio en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Desde aquí, puede acceder a todas las páginas que necesita en su trabajo.  
@@ -40,7 +40,7 @@ Hemos facilitado la invitación a su contable externo. Abra simplemente la pági
 > [!IMPORTANT]  
 > La dirección de correo electrónico del contable debe ser una dirección de trabajo basada en Azure Active Directory. Si el contable utiliza otro tipo de correo electrónico, la invitación no se podrá enviar. 
 > 
-> Esta tarea requiere acceso para administrar usuarios y licencias en Azure Active Directory, el usuario que envía esta invitación debe tener asignado el rol **Administrador global** o **Administrador de usuarios** en el centro de administración Office 365 . Para obtener más información, consulte [Acerca de los roles de administrador](/office365/admin/add-users/about-admin-roles) en el contenido de administración de Office 365.  
+> Esta tarea requiere acceso para administrar usuarios y licencias en Azure Active Directory, el usuario que envía esta invitación debe tener asignado el rol **Administrador global** o **Administrador de usuarios** en el centro de administración de Microsoft 365. Para obtener más información, consulte [Acerca de los roles de administrador](/microsoft-365/admin/add-users/about-admin-roles) en el contenido de administración de Microsoft 365.  
 
 ### <a name="adding-your-accountant-to-your-office-365-via-azure-portal"></a>Añadir su contable a su Office 365 a través de Azure Portal
 

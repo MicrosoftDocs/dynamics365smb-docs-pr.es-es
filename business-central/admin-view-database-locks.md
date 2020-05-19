@@ -8,12 +8,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 1153ffc97d0f22c889ff23c5a27a8c0446b17018
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: abee0f31d66f648f4b0be567d8599b31c536a193
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196390"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324107"
 ---
 # <a name="viewing-database-locks"></a>Ver bloqueos de base de datos
 
@@ -29,8 +29,8 @@ Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png
 
 La página **Bloqueos de base de datos** proporciona una instantánea de todos los bloqueos de la base de datos actual.
 
-Para obtener más información sobre el bloqueo de base de datos, vea [Supervisión de bloqueos de base de datos](/dynamics365/business-central/a/dev-itpro/administration/monitor-database-locks) en la ayuda de Business Central Developer e IT Pro.
+Para obtener más información sobre el bloqueo de base de datos, vea [Supervisión de bloqueos de base de datos](/dynamics365/business-central/dev-itpro/administration/monitor-database-locks) en la ayuda de Business Central Developer e IT Pro.
 
 ## <a name="see-also"></a>Consulte también
 
-[Supervisar bloqueos de base de datos](/dynamics365/business-central/a/dev-itpro/administration/monitor-database-locks) 
+[Supervisar bloqueos de base de datos](/dynamics365/business-central/dev-itpro/administration/monitor-database-locks) 

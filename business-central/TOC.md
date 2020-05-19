@@ -70,6 +70,7 @@
 ### [Accesibilidad y métodos abreviados de teclado](ui-accessibility.md)
 ### [Métodos abreviados de teclado](keyboard-shortcuts.md)
 ### [Referencia rápida de teclado: solo PC](keyboard-shortcuts-cheatsheet.md)
+## [Solución de problemas: acceso a la cámara y a la ubicación](ui-troubleshooting-camera-location.md)
 
 # Configuración de Business Central
 ## [Panorama](setup.md)
@@ -82,6 +83,7 @@
 ### [Trabajar con periodos contables y ejercicios](finance-accounting-periods-and-fiscal-years.md)
 ### [Configurar el impuesto sobre el valor añadido (IVA)](finance-setup-vat.md)
 ### [Configurar el IVA no realizado para la contabilidad basada en efectivo](finance-setup-unrealized-vat.md)
+### [Configuración de códigos de origen y códigos de auditoría para pistas de auditoría](finance-setup-trail-codes.md)
 ### [Permitir la liquidación de movimientos de cliente en distintas divisas](finance-how-enable-application-ledger-entries-different-currencies.md)
 ### [Configurar una divisa de informes adicional](finance-how-setup-additional-currencies.md)
 ### [Actualizar tipos cambio divisa](finance-how-update-currencies.md)
@@ -335,7 +337,10 @@
 ## [Administración del cifrado de datos](admin-manage-data-encryption.md)
 ## [Extensión de la versión de prueba](admin-extend-trial.md)
 ## [Inspección de páginas](across-inspect-page.md)
+## [Ver bloqueos de base de datos](admin-view-database-locks.md)
+## [Visualización de información de tabla](admin-view-table-information.md)
 ## [Crear un entorno aislado](across-how-create-sandbox-environment.md)
+## [Habilitación de nuevas características de antemano](admin-feature-management.md)
 ## Personalizar Business Central
 ### [Panorama](ui-customizing-overview.md)
 ### [Personalizar páginas para perfiles](ui-personalization-manage.md)
@@ -525,6 +530,7 @@
 ## [Crear ofertas de ventas](sales-how-make-offers.md)
 ## [Facturar ventas](sales-how-invoice-sales.md)
 ## [Vender productos](sales-how-sell-products.md)
+## [Imprimir la lista de picking](sales-how-print-picking-list.md)
 ## [Registrar ventas](ui-post-sales.md)
 ## [Crear líneas de ventas y de compras periódicas](sales-how-work-standard-lines.md)
 ## [Realizar envíos directos](sales-how-drop-shipment.md)
@@ -642,7 +648,7 @@
 ## [Ejecutar la planificación completa, MPS o MRP](production-how-to-run-mps-and-mrp.md)
 ## [Replanificar o actualizar órdenes de producción directamente](production-how-to-replan-refresh-production-orders.md)
 ## [Realizar un seguimiento de las relaciones entre demanda y suministro](production-how-track-demand-supply.md)
-## [Modificar las sugerencias de planificación en una vista gráfica](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)
+<!--## [Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)-->
 
 # Gestión de ensamblaje
 ## [Panorama](assembly-assemble-items.md)
@@ -816,7 +822,7 @@
 ## Australia
 ### [Panorama](LocalFunctionality/Australia/australia-local-functionality.md)
 ### Tributos
-#### [Tributos](LocalFunctionality/Australia/tax.md)
+#### [Panorama](LocalFunctionality/Australia/tax.md)
 #### [Retención de impuestos](LocalFunctionality/Australia/withholding-tax.md)
 #### [Configurar la retención de impuestos](LocalFunctionality/Australia/how-to-set-up-withholding-tax.md)
 #### [Configurar tipos de ingresos para la retención de impuestos](LocalFunctionality/Australia/how-to-set-up-revenue-types-for-withholding-tax.md)
@@ -874,7 +880,7 @@
 #### [Imprimir informes periódicos de IVA](LocalFunctionality/Belgium/how-to-print-periodic-vat-reports.md)
 #### [Establecer códigos arancelarios belgas](LocalFunctionality/Belgium/how-to-set-up-belgian-tariff-numbers.md)
 #### [Informes de Intrastat de Bélgica](LocalFunctionality/Belgium/belgian-intrastat-reporting.md)
-#### [Configurar números de establecimiento Intrastat](LocalFunctionality/Belgium/how-to-set-up-intrastat-establishment-numbers.md)    
+#### [Configurar números de establecimiento Intrastat](LocalFunctionality/Belgium/how-to-set-up-intrastat-establishment-numbers.md)
 #### [Imprimir el informe del formulario de Intrastat](LocalFunctionality/Belgium/how-to-print-the-intrastat-form-report.md)
 #### [Configurar tipos de declaración](LocalFunctionality/Belgium/how-to-set-up-declaration-types.md)
 #### [Exportar declaraciones de terceros de Intrastat](LocalFunctionality/Belgium/how-to-export-intrastat-third-party-declararations.md)
@@ -1241,7 +1247,7 @@
 #### [Configurar pagos de OCR](LocalFunctionality/Norway/how-to-set-up-ocr-payments.md)
 #### [Importar y registrar pagos de OCR](LocalFunctionality/Norway/how-to-import-and-post-ocr-payments.md)
 #### [Imprimir el informe de prueba de diario de OCR](LocalFunctionality/Norway/how-to-print-the-ocr-journal-test-report.md)  
-### Finanzas básicas    
+### Finanzas básicas
 #### [Liquidar movimientos de contabilidad en períodos cerrados](LocalFunctionality/Norway/how-to-apply-general-ledger-entries-in-closed-periods.md)  
 ### General
 #### [Pedidos periódicos](LocalFunctionality/Norway/recurring-orders.md)  
@@ -1427,7 +1433,7 @@
 ### Existencias
 #### [Administración de inventario de Suiza](LocalFunctionality/Switzerland/swiss-inventory-management.md)
 #### [Imprimir una lista de picking de inventario a partir de un pedido de venta](LocalFunctionality/Switzerland/how-to-print-an-inventory-picking-list-from-a-sales-order.md)
-### General    
+### General
 #### [Importar códigos postales suizos](LocalFunctionality/Switzerland/how-to-import-swiss-post-codes.md)
 #### [Documentos de compra y pedidos de venta de Suiza](LocalFunctionality/Switzerland/swiss-purchase-documents-and-sales-documents.md)
 

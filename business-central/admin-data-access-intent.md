@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 04/30/2020
 ms.author: jswymer
-ms.openlocfilehash: 33b5a3ff604b0ddf7525b89d7a8a82bcfdd7f653
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: b46786b60d7c5799b056c49188785bd595db57ff
+ms.sourcegitcommit: 866f0e6ed9df3397072b9df838e31c3a1f4b626d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196391"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "3333913"
 ---
 # <a name="managing-database-access-intent"></a>Gestionar la intención de acceso a la base de datos 
 
@@ -29,7 +29,7 @@ Cuando se ejecutan los objetos, la intención de acceso a la base de datos deter
 
 La página **Lista de intenciones de acceso a la base de datos** permite anular la intención de acceso a la base de datos predefinida para los objetos cuando se ejecutan.
 
-En términos de base de datos, esta característica se conoce comúnmente como *escalado de lectura*. Para obtener más información sobre el escalado de lectura y la intención de acceso a datos en [!INCLUDE[d365fin](includes/d365fin_md.md)], vea [Utilizar el escalado de lectura para un mejor rendimiento](https://review.docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview?branch=tfs337368-readscaleout) en la ayuda para desarrolladores y profesionales de TI de [!INCLUDE[d365fin](includes/d365fin_md.md)].
+En términos de base de datos, esta característica se conoce comúnmente como *escalado de lectura*. Para obtener más información sobre el escalado de lectura y la intención de acceso a datos en [!INCLUDE[prodshort](includes/prodshort.md)], vea [Utilizar el escalado de lectura para un mejor rendimiento](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) en la ayuda para desarrolladores y administración de [!INCLUDE[prodshort](includes/prodshort.md)].
 
 ## <a name="to-change-the-database-access-intent"></a>Para cambiar la intención de acceso a la base de datos
 

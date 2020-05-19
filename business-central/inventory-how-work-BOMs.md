@@ -8,14 +8,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2020
+ms.date: 04/27/2020
 ms.author: sgroespe
-ms.openlocfilehash: 517d293c172480d9efc875718cc0daf49947d9b3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 1b095b54d5540de34b86f4073cc5d57679cee8ff
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181921"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324227"
 ---
 # <a name="work-with-bills-of-material"></a>Trabajar con listas de materiales
 Utilice listas de materiales (L.M.) para estructurar los productos principales que se deben montar o producir por los recursos o centros de máquinas de componentes. Una L.M. de ensamblado también se puede utilizar para vender un producto principal como un kit formado por sus componentes.
@@ -72,17 +72,21 @@ En la página **L.M. de ensamblado** puede abrir una página independiente que m
 ## <a name="to-replace-the-assembly-item-with-its-components-on-document-lines"></a>Para reponer el elemento del ensamblado por sus componentes en líneas de documento
 Desde cualquier documento de venta y de compra que contenga el elemento de montaje, puede utilizar una función especial para reemplazar la línea del elemento de montaje con nuevas líneas para sus componentes. Esta función es útil, por ejemplo, si desea vender componentes como un kit que representa el elemento del ensamblado.
 
-**Precaución**: Cuando haya utilizado la función **Desplegar L.M.**, no puede deshacerla fácilmente. Debe eliminar las líneas de pedido de venta que representan los componentes y después volver a introducir una línea de pedido de venta para el elemento del ensamblado.
+La función Desplegar L.M. también está disponible en la página **L.M. de ensamblado** como método para ver elementos secundarios en cualquier subensamblado de una L.M. de ensamblado.
+
+> [!CAUTION]  
+>  Cuando haya utilizado la función **Desplegar L.M.**, no puede deshacerla fácilmente. Debe eliminar las líneas de pedido de venta que representan los componentes y después volver a introducir una línea de pedido de venta para el elemento del ensamblado.
 
 El procedimiento siguiente se basa en una factura de ventas. Los mismos pasos se aplican a otros documentos de venta y a todos los documentos de compra.
 
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe**, escriba **Facturas de ventas** y, a continuación, seleccione el vínculo relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Facturas venta** y luego elija el enlace relacionado.
 2. Abra una factura de venta que contenga una línea de elemento de ensamblado.
 3. Seleccione la línea del elemento del ensamblado y, después, la acción de línea **Desplegar L.M.** 
 
 Se vacían todos los campos de la línea de factura de ventas para el elemento de ensamblaje, salvo los campos **Producto** y **Descripción**. Se insertan las líneas completas de la factura de venta para los componentes y recursos posibles que componen el elemento de ensamblado.
 
-**Nota**: La función Desplega L.M. también está disponible en la página **L.M. de ensamblado**.
+> [!NOTE]
+> El informe **Lista de picking por orden** también se cambia para mostrar solo los componentes. Esto significa que un trabajador de almacén que selecciona el artículo principal, el elemento del ensamblado, no lo verá en la lista de picking. Para más información, consulte [Imprimir la lista de selección](sales-how-print-picking-list.md).
 
 ## <a name="to-calculate-the-standard-cost-of-an-assembly-item"></a>Para calcular el coste estándar de un elemento de ensamblado
 Se calcula el coste unitario de un elemento de ensamblado distribuyendo el coste unitario de cada componente y recurso de la L.M. de ensamblado del producto.

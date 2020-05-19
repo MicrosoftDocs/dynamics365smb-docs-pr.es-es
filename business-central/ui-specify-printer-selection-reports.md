@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online printing
-ms.date: 04/01/2020
+ms.date: 04/17/2020
 ms.author: sgroespe
-ms.openlocfilehash: d027999692323960327e8b34ddb2efaea23c59a8
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: dbfdb22447f20b4e4b811dc40cf892d9b971dc77
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189488"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3272091"
 ---
 # <a name="set-up-printers"></a>Configuración de impresoras
 Como [!INCLUDE[prodshort](includes/prodshort.md)] es un servicio en la nube, no puede llegar a las impresoras locales conectadas a las máquinas de los usuarios. Sin embargo, puede conectarse a impresoras habilitadas para la nube. En la versión genérica de [!INCLUDE[prodshort](includes/prodshort.md)], una impresora en la nube llamada **Impresora de correo electrónico** se instala como extensión y está lista para usar después de la configuración inicial.
@@ -27,6 +27,9 @@ Si no se instala y configura una impresora en la nube o si falla una impresora i
 En la página **Administración de impresoras**, puede ver las impresoras que están configuradas. Cuando haya configurado una o más impresoras, puede abrir la página **Selecciones de impresoras** para configurar para su cuenta de usuario qué informes específicos imprimir con qué impresora.
 
 Cuando se configura una impresora y se asigna a informes específicos, para imprimir un informe se selecciona el botón **Imprimir** en la página de solicitud de informe. Para más información, vea [Imprimir un informe](ui-work-report.md#PrintReport).
+
+### <a name="sizing-print-jobs"></a>Cambio de tamaño de los trabajos de impresión
+La impresión en la nube se ha diseñado para documentos de un tamaño razonable. La mayoría de los servicios en la nube, incluidos PrintNode y HP ePrint, tienen un límite de 10 MB por trabajo. Si necesita imprimir informes más grandes, es posible que deba dividirlos en varias copias impresas.
 
 ## <a name="to-set-up-a-printer"></a>Para configurar una impresora
 En la página **Administración de impresoras**, puede ver las impresoras que están configuradas y puede acceder a la página **Configuraciones** para cada impresora para editar una configuración existente o configurar una nueva impresora.

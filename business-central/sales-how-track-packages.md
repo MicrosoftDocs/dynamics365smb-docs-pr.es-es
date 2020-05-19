@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: rfq
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4dfb4a530ebcbfd9bcede5e6280fa33360b952a6
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 41584b676db045bdf7317ced9b519f0784b41453
+ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192632"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262099"
 ---
 # <a name="track-packages"></a>Hacer un seguimiento de los paquetes
 Algunos transportistas ofrecen servicios en Internet que le permiten hacer un seguimiento de los paquetes que les ha entregado. Si utiliza uno o varios de estos transportistas, configure una serie de datos básicos y utilice la función de seguimiento automático desde el histórico de albaranes. Para obtener más información, vea [Configurar transportistas](sales-how-to-set-up-shipping-agents.md).  
@@ -24,8 +24,9 @@ Algunos transportistas ofrecen servicios en Internet que le permiten hacer un se
 ## <a name="to-track-a-package"></a>Para hacer el seguimiento de un paquete
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Histórico albaranes venta** y luego elija el enlace relacionado.
 2. Abra la el envío correspondiente.
-3. En el campo **Nº seguimiento bulto** especifique el número de paquete que le ha dado el transportista.
-4. Elija la acción **Seguimiento paquete**.
+3. Seleccione la acción **Actualizar documento**.
+4. En el campo **Nº seguimiento bulto** especifique el número de paquete que le ha dado el transportista. Actualice **Transportista** si es necesario y cierre la página.
+5. Elija la acción **Seguimiento paquete**.
 
 Su explorador web predeterminado abre la página de seguimiento del transportista.
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 04/01/2020
+ms.date: 04/02/2020
 ms.author: sgroespe
-ms.openlocfilehash: ec17c59ebbc336cf6c4757be447ff7765098c816
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 0b7c1ad6a19869c5d79f7da34e89e25b2b9456aa
+ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190688"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262123"
 ---
 # <a name="collect-outstanding-balances"></a>Cobrar saldos pendientes
 Gestionar cobros incluye comprobar si los importes vencidos se pagan puntualmente. Si los clientes tienen pagos vencidos, puede empezar enviando el informe de Extracto de cliente como recordatorio. También puede emitir recordatorios.
@@ -123,11 +123,12 @@ En la página **Recordatorio**, puede rellenar la ficha desplegable **General** 
 4. Elija la acción **Proponer líneas recordatorio**.
 5. En el proceso **Proponer líneas recordatorio**, rellene los campos para definir cómo y para quién se crean los recordatorios.
 6. Si desea que los recordatorios incluyan movimientos vencidos pendientes en espera, seleccione la casilla **Incluir movimientos en espera**.
+7. Seleccione la casilla **Sólo movs. con importes vencidos** si desea que los recordatorios incluyan solo movimientos vencidos pendientes. Solo se mostrarán las facturas y los pagos, ya que estos son los movimientos para los cuales los pagos de sus clientes pueden haber vencido.
 
     > [!Important]
-    > Los movimientos pendientes que están en espera se insertarán independientemente del valor de la casilla Sólo movs. con importes vencidos.
+    > Los movimientos pendientes que están en espera se insertarán independientemente del valor de la casilla **Sólo movs. con importes vencidos**.
 
-7. Elija el botón **Aceptar**.
+8. Elija el botón **Aceptar**.
 
 ## <a name="to-replace-reminder-texts"></a>Para cambiar los textos de recordatorio  
 Existen varias formas de definir el texto que aparecerá en el recordatorio impreso. In algunos casos, quizás le convenga cambiar los textos de comienzo o fin definidos para el nivel actual por los de otro nivel.

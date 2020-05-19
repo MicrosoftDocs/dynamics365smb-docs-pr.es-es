@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 04/01/2020
+ms.date: 04/14/2020
 ms.author: sgroespe
-ms.openlocfilehash: 61e39b15042a4c3bd21ef1297d90803496305f8f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: d353381c9267e9039d0b4391aa7fdac1c8a3c405
+ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183793"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262171"
 ---
 # <a name="working-with-dimensions"></a>Trabajar con dimensiones
 Para simplificar la realización de análisis en documentos, como pedidos de venta, puede utilizar dimensiones. Las dimensiones son atributos y valores que clasifican los movimientos de modo que pueda realizar el seguimiento y el análisis de ellos. Por ejemplo, las dimensiones pueden indicar de qué proyecto o departamento procede un movimiento.  
@@ -106,7 +106,8 @@ Para evitar registrar movimientos con dimensiones contradictorias o irrelevantes
 Las dimensiones globales y abreviadas se pueden utilizar como un filtro en cualquier parte de [!INCLUDE[d365fin](includes/d365fin_md.md)], incluyendo en informes, procesos y vistas de análisis. Las dimensiones globales y abreviadas están siempre disponibles para ser insertadas directamente sin tener que abrir primero la página **Dimensiones**. En las líneas de diario y de documento, puede seleccionar dimensiones globales y abreviadas en un campo de la línea. Puede configurar dos dimensiones globales y ocho abreviadas. Elija las dimensiones que utiliza con más frecuencia.
 
 > [!Important]  
-> La modificación de una dimensión global o abreviada requiere que se actualicen todos los movimientos registrados con la dimensión. Puede realizar esta tarea con la función **Cambiar dimen. globales**, pero puede llevar mucho tiempo y puede afectar al rendimiento. Por lo tanto, elija cuidadosamente sus dimensiones globales y abreviadas para no tener que cambiarlas más tarde.
+> La modificación de una dimensión global o abreviada requiere que se actualicen todos los movimientos registrados con la dimensión. Puede realizar esta tarea con la función **Cambiar dimen. globales**, pero puede llevar mucho tiempo y puede afectar al rendimiento y a las tablas que pueden estar bloqueadas durante la actualización. Por lo tanto, elija cuidadosamente sus dimensiones globales y abreviadas para no tener que cambiarlas más tarde. <br /><br />
+> Para obtener más información, consulte [Para cambiar dimensiones globales](finance-dimensions.md#to-change-global-dimensions).
 
 > [!Note]
 > Al añadir o cambiar una dimensión global o abreviada, se cierra automáticamente la sesión y se vuelve a iniciar para que el nuevo valor esté preparado para su uso en toda la aplicación.
@@ -115,8 +116,24 @@ Las dimensiones globales y abreviadas se pueden utilizar como un filtro en cualq
 2. En la ficha desplegable **Dimensiones**, rellene los campos. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 #### <a name="to-change-global-dimensions"></a>Para cambiar las dimensiones globales
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Cambiar dimensiones globales** y, a continuación, elija el enlace relacionado.
-2. Pase el cursor por encima de las acciones y campos de la página para aprender a cambiar las dimensiones globales y abreviadas.
+Al cambiar una dimensión global o abreviada, se actualizan todos los movimientos registrados con la dimensión en cuestión. Debido a que este proceso puede llevar mucho tiempo y afectar al rendimiento, se proporcionan dos modos diferentes de adaptar el proceso al tamaño de la base de datos.  
+
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de contabilidad** y luego elija el enlace relacionado.
+2. Elija la acción **Cambiar dimensiones globales**.
+3. En la parte superior de la página, seleccione una de las siguientes opciones para definir en qué modo se ejecuta el trabajo por lotes.
+
+    |Opción|Descripción|
+    |-|-|
+    |**Secuencial**|(Predeterminado) Todo el cambio de dimensión se realiza en una transacción devolviendo todos los movimientos a las dimensiones que tenían antes del cambio.<br /><br />Se recomienda esta opción si la empresa contiene relativamente pocos movimientos registrados donde se tardará el menor tiempo posible en completarse. El proceso bloquea varias tablas y bloquea a otros usuarios hasta que se realice. Tenga en cuenta que en bases de datos grandes, es posible que el proceso no pueda completarse en absoluto en este modo. En ese caso, use la opción **En paralelo**.|
+    |**En paralelo**|(Seleccione la casilla **Procesamiento en paralelo**.) El cambio de dimensión se realiza como varias sesiones en segundo plano y la operación se divide en varias transacciones.<br /><br />Se recomienda esta opción para bases de datos grandes o empresas con muchos movimientos registrados donde se tardará el menor tiempo posible en completarse. Tenga en cuenta que, con este modo, el proceso de actualización no se iniciará si hay más de una sesión de base de datos activa.|  
+
+4. En los campos **Cód. dimensión global 1** o **Cód. dimensión global 2**, escriba las nuevas dimensiones. Las dimensiones actuales se muestran en gris detrás de los campos.
+5. Si ha seleccionado el modo **Secuencial**, elija la acción **Iniciar**.
+6. Si ha seleccionado el modo **En paralelo**, elija la acción **Preparar**.
+
+    La pestaña **Movs. reg.** se rellena con información acerca de las dimensiones que se cambiarán.
+7. Cierre sesión de [!INCLUDE[d365fin](includes/d365fin_md.md)] y luego vuelve a iniciar sesión.
+8. Elija la acción **Iniciar** para iniciar el procesamiento en paralelo de los cambios de dimensión.
 
 ### <a name="example-of-dimension-setup"></a>Ejemplo de configuración de dimensiones
 Supongamos que su empresa desea realizar un seguimiento de las transacciones en función de la estructura organizativa y las ubicaciones geográficas. Para ello, puede configurar dos dimensiones en la página **Dimensiones**:

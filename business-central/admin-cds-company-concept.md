@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: CDS, Common Data Service, integration, sync
 ms.date: 01/17/2020
 ms.author: bholtorf
-ms.openlocfilehash: ccd371711a53c598279fcc981c5581be5ee9bdaf
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: 795656cd5b4ad8d40c48a2edf327cffb56ad6906
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196895"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324059"
 ---
 # <a name="data-ownership-models"></a>Modelos de propiedad de datos
 [!INCLUDE[d365fin](includes/cds_long_md.md)] requiere que especifique un propietario para los datos que almacena. Para más información, vea [Propiedad de la entidad](https://docs.microsoft.com/powerapps/maker/common-data-service/types-of-entities#entity-ownership) en la documentación de Power Apps. Cuando configura la integración entre [!INCLUDE[d365fin](includes/cds_long_md.md)] y [!INCLUDE[d365fin](includes/d365fin_md.md)], debe elegir uno de los dos modelos de propiedad para los registros que están sincronizados:
@@ -34,6 +34,9 @@ Debido a que las unidades de negocio carecen de implicaciones legales y comercia
 * Creamos una unidad de negocio predeterminada que tiene el mismo nombre que la empresa. Por ejemplo, Cronus International Ltd. (93555b1a-af3e-ea11-bb35-000d3a492db1).
 * Creamos un equipo de propietarios aparte con el mismo nombre que la empresa y lo asociamos con la unidad de negocios. El nombre del equipo tiene el prefijo "BCI -". Por ejemplo, BCI - Cronus International Ltd. (93555b1a-af3e-ea11-bb35-000d3a492db1).
 * Los registros que se crean y sincronizan con [!INCLUDE[d365fin](includes/cds_long_md.md)] se asignan al equipo "Propietario de BCI" que está vinculado a la unidad de negocios.
+
+> [!NOTE]
+> Si cambia el nombre de una empresa en [!INCLUDE[d365fin](includes/d365fin_md.md)], no se actualizan los nombres de la empresa, el negocio y el equipo que creamos automáticamente en [!INCLUDE[d365fin](includes/cds_long_md.md)]. Debido a que solo se usa el id. de la empresa para la integración, esto no afecta a la sincronización. Si desea que los nombres coincidan, debe actualizar la empresa, la unidad de negocio y el equipo en [!INCLUDE[d365fin](includes/cds_long_md.md)].
 
 La siguiente imagen muestra un ejemplo de esta configuración de datos en [!INCLUDE[d365fin](includes/cds_long_md.md)].
 
@@ -56,11 +59,17 @@ La sincronización determina qué equipo debe poseer los registros. Esto se cont
 > [!NOTE]
 > Los registros se vuelven de solo lectura después de agregar y guardar una empresa, así que asegúrese de elegir la empresa correcta.
 
-### <a name="choosing-a-different-business-unit"></a>Elegir una unidad de negocio diferente
-Puede modificar la selección de unidad de negocio. Si elige otra unidad, por ejemplo, una que haya creado anteriormente en CDS, mantendrá su nombre original. Es decir, no tendrá el sufijo del id. de empresa. Crearemos un equipo que utilice la convención de nomenclatura.
+## <a name="choosing-a-different-business-unit"></a>Elegir una unidad de negocio diferente
+Puede cambiar la selección de la unidad de negocio si está utilizando el modelo de propiedad de Teams. Si utiliza el modelo de propiedad de Persona, la unidad de negocio predeterminada siempre está seleccionada. 
+
+Si elige otra unidad de negocio, por ejemplo, una que haya creado anteriormente en [!INCLUDE[d365fin](includes/cds_long_md.md)], mantendrá su nombre original. Es decir, no tendrá el sufijo del id. de empresa. Crearemos un equipo que utilice la convención de nomenclatura.
+
+Al cambiar una unidad de negocio, puede elegir solo las unidades de negocio que están un nivel por debajo de la unidad de negocio raíz.
 
 ## <a name="person-ownership"></a>Propiedad de persona
-Si elige el modelo de propiedad de persona, debe especificar cada vendedor que será propietario de los nuevos registros. La unidad de negocio y el equipo se crean como se describe en la sección anterior.  
+Si elige el modelo de propiedad de persona, debe especificar cada vendedor que será propietario de los nuevos registros. La unidad de negocio y el equipo se crean como se describe en la sección [Propiedad de equipo](admin-cds-company-concept.md#team-ownership).
+
+La unidad de negocio predeterminada se utiliza cuando se elige el modelo de propiedad Persona y no puede elegir otra unidad de negocio. El equipo asociado con la unidad de negocio predeterminada será propietario de registros de entidades comunes, como la entidad de Producto, que no están relacionadas con vendedores específicos.
 
 ## <a name="see-also"></a>Consulte también
 [Acerca de [!INCLUDE[d365fin](includes/cds_long_md.md)]](admin-common-data-service.md)

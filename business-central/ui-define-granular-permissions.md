@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 04/01/2020
+ms.date: 04/22/2020
 ms.author: sgroespe
-ms.openlocfilehash: c71b56812b67c4ec51ea8d48d095cabc79c585fb
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: d6fe5cff52d3ed8c2404e12b3e37703c8e8db8bb
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194480"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324035"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Asignar permisos a usuarios y grupos
 El sistema de seguridad de [!INCLUDE[d365fin](includes/d365fin_md.md)] le permite controlar a qué objetos puede acceder un usuario en cada base de datos o entorno. Puede especificar para cada usuario si puede leer, modificar o introducir datos en los objetos de la base de datos seleccionados. Para obtener información detallada, vea [Seguridad de datos](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) en la ayuda para desarrolladores y profesionales de TI para [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -106,6 +106,26 @@ También puede utilizar una función de copia para transferir rápidamente todos
 
 El nuevo conjunto de permisos, que contiene todos los permisos del conjunto de permisos copiado, se agrega como una nueva línea en la página **Conjuntos de permisos**. Ahora puede modificar el permiso en el nuevo conjunto de permisos. Tenga en cuenta que las líneas están ordenadas alfabéticamente dentro de cada tipo.
 
+### <a name="to-export-and-import-a-permission-set"></a>Para exportar e importar un conjunto de permisos
+Para configurar rápidamente permisos, puede importar conjuntos de permisos que haya exportado desde otro suscriptor de [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
+En entornos multiempresa, se importará un conjunto de permisos a un suscriptor específico, es decir, el alcance de la importación es "Suscriptor".
+
+1. En el primer suscriptor, en la página **Conjuntos de permisos**, seleccione la línea o líneas para el conjunto de permisos que se exportará y luego elija la acción **Exportar conjuntos de permisos**.
+
+    Se crea un archivo xml en la carpeta de descargas de su máquina. De manera predeterminada, se denomina "Export Permission Sets.xml".
+
+2. En el segundo suscriptor, en de la página **Conjuntos de permisos**, seleccione la acción **Importar conjuntos de permisos**.
+3. En la página de diálogo **Importar conjuntos de permisos**, piense si desea fusionar los conjuntos de permisos existentes con cualquier nuevo conjunto de permisos en el archivo xml.
+
+    Si selecciona la casilla de verificación **Actualizar permisos existentes**, los conjuntos de permisos existentes con el mismo nombre que los que existen en el archivo xml se fusionarán con los conjuntos de permisos importados.
+
+    Si no selecciona la casilla de verificación **Actualizar permisos existentes**, los conjuntos de permisos con el mismo nombre que los que existen en el archivo xml se omitirán durante la importación. En ese caso, se le notificará sobre los conjuntos de permisos que se omiten.
+
+4. En la página de diálogo **Importar**, busque y seleccione el archivo xml que se va a importar, y luego elija la acción **Abrir**.
+
+Los conjuntos de permisos se importan.
+
 ## <a name="to-create-or-modify-permissions-manually"></a>Para crear o modificar permisos manualmente
 Este procedimiento explica cómo agregar o editar permisos manualmente. Puede tener permisos generados automáticamente a partir de las acciones en la interfaz de usuario. Para obtener más información, consulte [Para crear o modificar permisos registrando las acciones](ui-define-granular-permissions.md#to-create-or-modify-permissions-by-recording-your-actions).
 
@@ -187,6 +207,9 @@ El siguiente procedimiento explica cómo asignar conjuntos de permisos a un grup
 2. En la página **Usuarios**, seleccione el usuario relevante y luego elija la acción **Conjunto de permisos por grupo de usuarios**.
 3. En la página **Conjunto de permisos por grupo de usuarios**, seleccione la casilla de verificación **[nombre de grupo de usuarios]** en una línea del conjunto de permisos relevante para asignarlo al grupo de usuarios.
 4. Seleccione la casilla de verificación **Todos los grupos de usuarios** para asignar el conjunto de permisos a todos los grupos de usuarios.
+
+## <a name="to-remove-obsolete-permissions-from-all-permission-sets"></a>Para eliminar permisos obsoletos de todos los conjuntos de permisos
+1. En la página **conjunto de permisos**, seleccione la acción **Eliminar permisos obsoletos**.
 
 ## <a name="to-set-up-user-time-constraints"></a>Para configurar restricciones de tiempo de usuarios
 Los administradores pueden definir periodos de tiempo durante los que los usuarios especificados pueden registrar, así como especificar si el sistema registra la cantidad de tiempo que los usuarios tienen iniciada la sesión. Los administradores también pueden asignar centros de responsabilidad a los usuarios. Para obtener más información, consulte [Trabajar con centros de responsabilidad](inventory-responsibility-centers.md).
