@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8424d94b25ce56ceae65b04e41071c1a70f520ea
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 60b62845a359cec21b52f42c6692edc417a65123
+ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182617"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3410752"
 ---
 # <a name="finance"></a>Finanzas
 [!INCLUDE[d365fin](includes/d365fin_md.md)] incluye una configuración estándar de muchos procesos financieros, pero puede cambiar la configuración para que se adapte a su empresa. Para obtener más información, consulte [Configurar finanzas](finance-setup-finance.md).
@@ -45,6 +45,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 | Asigne costes adicionales, como flete y manipulación física que se producen durante las operaciones comerciales, a los productos relacionados para que el coste se refleje en la valoración de existencias. |[Usar los cargos de producto a cuenta para los costes comerciales adicionales](payables-how-assign-item-charges.md) |
 |Registre los gastos personales de los empleados por las actividades comerciales y reembólselos mediante el pago a su cuenta bancaria.|[Registro y reembolso de los costes de los empleados](finance-how-record-reimburse-employee-expenses.md)|
 | Reconozca ingresos y gastos en periodos distintos de cuando se registraron las transacciones. |[Fraccionar ingresos y gastos](finance-how-defer-revenue-expenses.md)|
+| Conozca las opciones disponibles para automatizar el envío de facturas de suscripción a sus clientes y registre ingresos recurrentes. |[Ingresos recurrentes (suscripción)](finance-recurring-invoicing.md)|
 |Información sobre utilizar divisas adicionales y actualizar los tipos de cambio automáticamente. |[Actualizar tipos cambio divisa](finance-how-update-currencies.md)|
 | Importe transacciones de salario del proveedor de nóminas en el libro mayor. |[Importar transacciones de nómina](finance-how-import-payroll-transactions.md)|
 |Use las funciones para calcular el impuesto sobre el valor añadido (IVA) en las transacciones de ventas y compras para que pueda informar de los importes a las autoridades fiscales.|[Trabajar con el IVA por ventas y compras](finance-work-with-vat.md)|

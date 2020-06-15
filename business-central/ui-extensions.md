@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 15f88c2ab05914db71820d45c6326af36235a9d2
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 1cf5c08f00565bbaea914405397f340cd281fcef
+ms.sourcegitcommit: 6aa830e3286729bac3cbe5e911d72a2c69d50f73
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193544"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3428352"
 ---
 # <a name="customizing-business-central-using-extensions"></a>Personalizar Business Central con extensiones
 Puede cambiar [!INCLUDE[d365fin](includes/d365fin_md.md)] instalando extensiones que agregan funciones, cambian el comportamiento o proporcionan acceso a nuevos servicios en línea, por ejemplo.
@@ -24,6 +24,9 @@ Puede cambiar [!INCLUDE[d365fin](includes/d365fin_md.md)] instalando extensiones
 > [!NOTE]
 > Para instalar extensiones desde AppSource o añadir extensiones por suscriptor, debe tener los permisos adecuados. Debe ser miembro del grupo de usuarios ADMIN EXTENSIÓN D365 o debe tener el conjunto de permisos de ADMIN EXTENSIÓN D365. Si es administrador, puede asignar grupos de usuarios y permisos a otros usuarios de su empresa.<br /><br />
 Para utilizar la funcionalidad que proporciona una extensión, como abrir páginas, ejecutar informes, seleccionar acciones, etc., se le deben asignar los conjuntos de permisos que se instalan como parte de la extensión.
+
+> [!IMPORTANT]  
+> No se admite la carga de extensiones por inquilino y la instalación de extensiones de AppSource a través de la página **Administración de extensiones** para instalaciones locales.
 
 Cuando inicia [!INCLUDE[d365fin](includes/d365fin_md.md)] por primera vez, ya están instaladas algunas extensiones. Con el tiempo, tendrá disponibles más extensiones y puede elegir si desea usar la extensión o no.
 

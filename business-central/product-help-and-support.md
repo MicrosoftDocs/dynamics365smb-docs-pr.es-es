@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 04/01/2020
-ms.openlocfilehash: b78c728cd92ed8c4bc4e41da189c4ddfd877b1b6
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/04/2020
+ms.openlocfilehash: 787d2ec0d838e89943dc375db8d43c33be193d0b
+ms.sourcegitcommit: 6aa830e3286729bac3cbe5e911d72a2c69d50f73
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190136"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3428376"
 ---
 # <a name="resources-for-help-and-support"></a>Recursos de ayuda y soporte técnico
 
@@ -68,9 +68,11 @@ Asegúrese de buscar en la lista de sugerencias enviadas. Lo más probable es qu
 
 La sección **Solución de problemas** muestra a información técnica que su administrador o socio de [!INCLUDE[prodshort](includes/prodshort.md)] pueden utilizar para desbloquear usuarios. Esto incluye información sobre el último mensaje de error, la versión actual de su [!INCLUDE[prodshort](includes/prodshort.md)] y un vínculo para ir a la página **inspección de la página**. Para obtener más información, consulte [Inspección de páginas en Business Central](across-inspect-page.md).  
 
+Como administrador interno, tiene acceso al centro de administración donde puede continuar con la solución de problemas. Para obtener más información, consulte [Encontrar información técnica](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#finding-technical-information) en el contenido de administración.  
+
 ## <a name="report-a-problem"></a>Informar sobre un problema
 
-Su socio distribuidor de [!INCLUDE[prodshort](includes/prodshort.md)] le ayudará con el soporte técnico. [!INCLUDE[prodshort](includes/prodshort.md)] se vende a través de socios y esta sección le facilita ponerse en contacto con su socio distribuidor si ha enviado sus datos de contacto de soporte. Si su socio de [!INCLUDE[prodshort](includes/prodshort.md)] no puede resolver el problema, generará un vale de soporte técnico con Microsoft.  
+Su socio distribuidor de [!INCLUDE[prodshort](includes/prodshort.md)] le ayudará con el soporte técnico. [!INCLUDE[prodshort](includes/prodshort.md)] se vende a través de socios y esta sección le facilita ponerse en contacto con su socio distribuidor si ha enviado sus datos de contacto de soporte. Si su socio de [!INCLUDE[prodshort](includes/prodshort.md)] no puede resolver el problema, generará un vale de soporte técnico con Microsoft. Para obtener más información, consulte [Escalar problemas de soporte a Microsoft](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) en el contenido de administración.  
 
 > [!NOTE]
 > Esta sección solo está disponible si ha pagado una suscripción a [!INCLUDE [prodshort](includes/prodshort.md)]. Si se ha registrado en una versión de prueba y aún no ha comprado [!INCLUDE[prodshort](includes/prodshort.md)], no tiene un socio de reventa y no puede ponerse en contacto con el equipo de soporte de Microsoft. Puede encontrar un socio de [!INCLUDE[prodshort](includes/prodshort.md)] en la página [Estoy buscando un proveedor de soluciones](https://go.microsoft.com/fwlink/?linkid=2038145). Para obtener más información, vea [¿Cómo encuentro un socio distribuidor?](across-faq.md#findpartner)  

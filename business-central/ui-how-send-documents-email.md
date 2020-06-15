@@ -1,24 +1,22 @@
 ---
 title: Configurar contenido de correo electrónico específico de documento | Documentos de Microsoft
 description: Puede definir el contenido que se insertará en el cuerpo de un mensaje de correo electrónico, por ejemplo, un vínculo de PayPal. También es posible adjuntar documentos a los mensajes de correo electrónico.
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 25b0d2b85d267f6a85afeed662a26daa0d32c5ce
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 05/13/2020
+ms.author: edupont
+ms.openlocfilehash: acc68a2f5fc657e133f32e7945f3b34f8daa2892
+ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195584"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3402511"
 ---
 # <a name="send-documents-by-email"></a>Enviar documentos por correo electrónico
+
 Para comunicar el contenido de documentos empresariales rápidamente a sus socios, por ejemplo la información de pagos en los documentos de venta a los clientes, puede usar la función de Informe personalizado para definir el contenido específico de un documento que se insertará en el cuerpo del correo electrónico automáticamente. Para obtener más información, vea [Administrar diseños de informes y documentos](ui-manage-report-layouts.md).
 
 Para activar los correos electrónicos en [!INCLUDE[d365fin](includes/d365fin_md.md)], inicie la guía de configuración asistida **Configurar correo electrónico** en el área de trabajo.
@@ -32,6 +30,7 @@ Si el campo **Correo electrónico** en la página **Enviar documento a** se esta
 El procedimiento siguiente describe cómo configurar el informe **Ventas - Factura** para usarlo como contenido específico en el cuerpo del correo cuando envíe las facturas de venta registradas.
 
 ## <a name="to-set-up-a-document-specific-email-body-for-sales-invoices"></a>Para configurar un documento específico en el cuerpo de un correo electrónico para las facturas de venta
+
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Selección informes ventas** y luego elija el enlace relacionado.
 2. En la página **Informe selección - ventas**, en el campo **Uso**, seleccione **Facturar**.
 3. En una línea nueva, en el campo **Id. informe**, seleccione, por ejemplo, informe estándar 1306.
@@ -48,6 +47,7 @@ Ahora bien, cuando selecciona, por ejemplo, la acción **Enviar** en la página 
 El procedimiento siguiente describe cómo enviar una factura de ventas registrada como un mensaje de correo electrónico con un documento adjunto en formato PDF y con un contenido específico en el cuerpo del correo.
 
 ## <a name="to-send-documents-by-email"></a>Para enviar documentos por correo electrónico
+
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Histórico facturas venta** y luego elija el enlace relacionado.
 2. Seleccione la factura de ventas registrada relevante y, a continuación, elija la acción **Enviar**. Se abre la página **Enviar documento a**.
 3. en el campo **Correo electrónico** seleccione **Sí (Mensaje para configuración)**. Para obtener más información, vea [Configurar los perfiles de envío de documentos](sales-how-setup-document-send-profiles.md).
@@ -61,9 +61,16 @@ El procedimiento siguiente describe cómo enviar una factura de ventas registrad
 9. Haga clic en el botón **Aceptar** para enviar el correo electrónico.
 
 > [!NOTE]  
->   Si no desea especificar la configuración del correo electrónico cada vez que envíe un documento, puede seleccionar la opción **Sí (Usar configuración predeterminada)** en el campo **Correo electrónico** en la página **Enviar documento a**. En ese caso, la página **Enviar correo electrónico** no se abrirá. Consulte el paso 4. Para obtener más información, vea [Configurar los perfiles de envío de documentos](sales-how-setup-document-send-profiles.md).
+> Si no desea especificar la configuración del correo electrónico cada vez que envíe un documento, puede seleccionar la opción **Sí (Usar configuración predeterminada)** en el campo **Correo electrónico** en la página **Enviar documento a**. En ese caso, la página **Enviar correo electrónico** no se abrirá. Consulte el paso 4. Para obtener más información, vea [Configurar los perfiles de envío de documentos](sales-how-setup-document-send-profiles.md).  
+
+## <a name="documents-marked-as-printed-when-they-are-sent"></a>Documentos marcados como impresos cuando se envían
+
+Algunos documentos de [!INCLUDE [prodshort](includes/prodshort.md)] tienen un campo que especifica cuántas veces se ha impreso ese documento. El campo también se actualiza si no imprime el documento pero lo envía por correo electrónico en su lugar. El campo incluso se actualiza si en realidad no envía el documento, como cuando su organización no ha configurado el correo electrónico o cuando el contacto al que desea enviar el documento no tiene una dirección de correo electrónico en la lista. En todos los escenarios, en lo que respecta a [!INCLUDE [prodshort](includes/prodshort.md)], el documento se imprime porque se genera un archivo PDF.  
+
+Es posible que el usuario no vea este archivo generado, pero esto es porque se actualiza el campo.
 
 ## <a name="see-also"></a>Consulte también
+
 [Administrar diseños de informes y documentos](ui-manage-report-layouts.md)  
 [Configurar correo electrónico](admin-how-setup-email.md)  
 [Facturar ventas](sales-how-invoice-sales.md)  
