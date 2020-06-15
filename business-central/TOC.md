@@ -544,6 +544,7 @@
 ## [Cálculo de fecha de ventas](sales-date-calculation-for-sales.md)
 ## [Crear una previsión](production-how-to-create-a-forecast.md)
 ## [Combinar registros duplicados](sales-how-merge-duplicate-records.md)
+## [Trabajar con ingresos recurrentes](finance-recurring-invoicing.md)
 
 # Compra
 ## [Panorama](purchasing-manage-purchasing.md)
