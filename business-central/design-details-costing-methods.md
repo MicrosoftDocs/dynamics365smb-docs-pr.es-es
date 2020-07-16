@@ -1,7 +1,7 @@
 ---
 title: 'Detalles de diseño: Métodos de coste | Documentos de Microsoft'
-description: La valoración de existencias determina si en el cálculo de costes se capitaliza y utiliza un valor real o uno presupuestado. Junto con la fecha de registro y la secuencia, el método de coste también influye en cómo se registra el flujo de costes.
-author: SorenGP
+description: En este tema se describe cómo afecta la valoración de existencias si los valores reales o presupuestados se capitalizan y utilizan en el cálculo de costes.
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 66ae7f2bb4c8a8cc6705be9c4b0fdd183eecd3e9
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: bholtorf
+ms.openlocfilehash: 8333e3127a009a04d63fceb8ec17530f83de10d0
+ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185593"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "3496680"
 ---
 # <a name="design-details-costing-methods"></a>Detalles de diseño: Métodos de coste
 La valoración de existencias determina si en el cálculo de costes se capitaliza y utiliza un valor real o uno presupuestado. Junto con la fecha de registro y la secuencia, el método de coste también influye en cómo se registra el flujo de costes.

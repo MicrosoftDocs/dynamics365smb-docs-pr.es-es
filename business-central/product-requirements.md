@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: version
 ms.date: 05/06/2020
 ms.author: edupont
-ms.openlocfilehash: 417b7ba9743ec0dabb4c7b311535ed8c22d8896a
-ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
+ms.openlocfilehash: 55af97f27768d4b0c83379dd9eb5174613aabaa9
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "3372597"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528718"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Requisitos mínimos para utilizar Business Central
-Antes de que acceda a [!INCLUDE [prodshort](includes/prodshort.md)] en línea, le recomendamos que verifique que su equipo o dispositivo móvil cumple o supera los requisitos mínimos del sistema para el producto. En este artículo se especifican los requisitos.  
+Antes de que acceda a [!INCLUDE[prodshort](includes/prodshort.md)] en línea, le recomendamos que verifique que su equipo o dispositivo móvil cumple o supera los requisitos mínimos del sistema para el producto. En este artículo se especifican los requisitos.  
 
 ## <a name="browsers"></a>Navegadores
 
@@ -40,7 +40,7 @@ Antes de que acceda a [!INCLUDE [prodshort](includes/prodshort.md)] en línea, l
 **Tamaño de los dispositivos:** [!INCLUDE[d365fin](includes/d365fin_md.md)] es compatible con smartphones con un tamaño de pantalla mínimo de 4" y tabletas con un tamaño de pantalla mínimo de 7".  
 
 ## <a name="outlook"></a>Outlook
-**Aplicaciones de Outlook**: para usar [!INCLUDE[d365fin](includes/d365fin_md.md)] en línea como bandeja de entrada de empresa en Outlook, requerirá Outlook 2016 o posterior, Outlook en un explorador, Outlook para iPhone, Outlook para iPad o Outlook para Android. Su organización también debe utilizar Office 365. No puede utilizar [!INCLUDE [prodshort](includes/prodshort.md)] en línea como su bandeja de entrada empresarial en Outlook si su organización usa Exchange Server local.  
+**Aplicaciones de Outlook**: para usar [!INCLUDE[d365fin](includes/d365fin_md.md)] en línea como bandeja de entrada de empresa en Outlook, requerirá Outlook 2016 o posterior, Outlook en un explorador, Outlook para iPhone, Outlook para iPad o Outlook para Android. Su organización también debe utilizar Office 365. No puede utilizar [!INCLUDE[prodshort](includes/prodshort.md)] en línea como su bandeja de entrada empresarial en Outlook si su organización usa Exchange Server local.  
 **Exploradores:** Al usar [!INCLUDE[d365fin](includes/d365fin_md.md)] como bandeja de entrada de empresa en Outlook en un explorador, el complemento requiere que su equipo ejecute uno de los exploradores compatibles que se han enumerado en este artículo.  
 **Plataformas**: Al usar el complemento de Outlook de [!INCLUDE[d365fin](includes/d365fin_md.md)] para iPhone, Outlook para iPad o Outlook para Android, el complemento requiere que su dispositivo móvil ejecute uno de los dispositivos móviles compatibles especificados para [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 

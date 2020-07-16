@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/25/2020
 ms.author: sgroespe
-ms.openlocfilehash: 1b21d23b081782ad6416613d107bb7cb4e67162c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 1a1e0414bfb276a86eabbb1b3557375cf02271b0
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189800"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528040"
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Tutorial: planificación automática de suministros
 
-**Nota**: Este tutorial debe realizarse en una empresa de demostración con la opción **Evaluación completa - Datos de muestra completos**, que está disponible en el entorno de espacio aislado. Para obtener más información, consulte [Creación de un entorno aislado](across-how-create-sandbox-environment.md).
+[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
 
 Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálculo del programa maestro de producción (MPS) y del plan de necesidades de material (MRP) basándose en la demanda real y prevista.  
 

@@ -11,12 +11,12 @@ ms.reviewer: edupont
 ms.search.keywords: workflow, OData, Power App, SOAP
 ms.date: 04/01/2020
 ms.author: bmeier
-ms.openlocfilehash: 6dbc2fd67b5156c47690661016d4e7d3aae64a09
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c2fbd841332ff48bd4716a082b0c9ef2bb9ac6df
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187945"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528993"
 ---
 # <a name="using-prodshort-in-an-automated-workflow"></a>Usar [!INCLUDE[prodshort](includes/prodshort.md)] en un flujo de trabajo automatizado
 
@@ -55,7 +55,7 @@ Puede utilizar sus datos de [!INCLUDE[prodshort](includes/prodshort.md)] como pa
     > [!NOTE]
     > El conector de [!INCLUDE[prodshort](includes/prodshort.md)] para Power Automate admite múltiples ambientes de producción y aislados. Si no ha creado múltiples ambientes de producción o aislados, **Producción** es la única opción disponible que puede elegir.  
 
-    Ya se ha conectado correctamente con los datos de Business Central[!INCLUDE [prodshort](includes/prodshort.md)] y está preparado para comenzar a crear su flujo.
+    Ya se ha conectado correctamente con los datos de Business Central[!INCLUDE[prodshort](includes/prodshort.md)] y está preparado para comenzar a crear su flujo.
 
 9. Para crear desde una plantilla, seleccione la opción **Iniciar desde plantilla**.
 10. Busque las plantillas de **Microsoft [!INCLUDE[prodlong](includes/prodlong.md)]**.

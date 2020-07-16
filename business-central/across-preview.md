@@ -8,36 +8,36 @@ ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9acd4840c9e7c2f4aa2a8f5087b2f58708ca7cb0
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 805a8be94ccd38ffa696fe19157a08f4772c9ef3
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187753"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3529093"
 ---
 # <a name="d365fin_long-trials-and-subscriptions"></a>Versiones de prueba y suscripciones de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] está disponible en cada vez más países en todo el mundo. Si desea aprender sobre [!INCLUDE [prodshort](includes/prodshort.md)], puede registrarte para obtener una versión de prueba gratuita. Luego, cuando esté listo, puede hablar con un socio distribuidor para obtener una suscripción.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] está disponible en cada vez más países en todo el mundo. Si desea aprender sobre [!INCLUDE[prodshort](includes/prodshort.md)], puede registrarte para obtener una versión de prueba gratuita. Luego, cuando esté listo, puede hablar con un socio distribuidor para obtener una suscripción.  
 
 Si aún no trabaja con un socio, vea [¿Cómo encuentro un socio distribuidor?](across-faq.md#findpartner)  
 
 ## <a name="getting-started-with-a-trial"></a>Introducción a una versión de prueba
 
-Puede registrarse para obtener una versión de prueba [aquí](https://go.microsoft.com/fwlink/?linkid=847861). Le recomendamos que trabaje con [un partner revendedor](across-faq.md#findpartner) para ayudar a su organización a comenzar con [!INCLUDE [prodshort](includes/prodshort.md)].  
+Puede registrarse para obtener una versión de prueba [aquí](https://go.microsoft.com/fwlink/?linkid=847861). Le recomendamos que trabaje con [un partner revendedor](across-faq.md#findpartner) para ayudar a su organización a comenzar con [!INCLUDE[prodshort](includes/prodshort.md)].  
 
 Dependiendo de su país o región, la versión de prueba incluye los idiomas y la funcionalidad que requiere su país o región. Para obtener más información, vea [Cambiar idioma y región](about-locale-language.md).  
 
 En [!INCLUDE[d365fin](includes/d365fin_md.md)], le serán familiares algunos aspectos, pero otros no. Cuando inicia sesión por primera vez en la empresa de demostración, obtiene acceso a una página de introducción con vínculos a vídeos que pueden ayudarlo a comenzar. Para obtener más información, vea [Introducción a [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](product-get-started.md).  
 
-Si encuentra dificultades, la página [Preguntas frecuentes](across-faq.md) puede ayudarlo a responder algunas de sus preguntas. Si no puede registrarse en la versión de prueba, la página [Solución de problemas en el registro de autoservicio](ui-troubleshoot-self-signup.md) puede ayudarlo. También puede contactar con un [partner](across-faq.md#findpartner) y pedirle que cree para usted una prueba gratuita o un tipo diferente de versión preliminar de [!INCLUDE [prodshort](includes/prodshort.md)].  
+Si encuentra dificultades, la página [Preguntas frecuentes](across-faq.md) puede ayudarlo a responder algunas de sus preguntas. Si no puede registrarse en la versión de prueba, la página [Solución de problemas en el registro de autoservicio](ui-troubleshoot-self-signup.md) puede ayudarlo. También puede contactar con un [partner](across-faq.md#findpartner) y pedirle que cree para usted una prueba gratuita o un tipo diferente de versión preliminar de [!INCLUDE[prodshort](includes/prodshort.md)].  
 
 ### <a name="try-out-your-own-company"></a>Probar su propia empresa
 
-Si desea probar [!INCLUDE [prodshort](includes/prodshort.md)] con sus propios datos, puede cambiar a una prueba gratuita de 30 días con una empresa vacía. La **guía de configuración asistida** Configurar mi empresa puede ayudarlo a especificar información básica sobre su negocio. De manera opcional, puede importar datos de su solución de gestión empresarial existente para poder evaluar [!INCLUDE [prodshort](includes/prodshort.md)] con sus propios datos. Sin embargo, le recomendamos que no utilice una versión de prueba gratuita para administrar su negocio. Contacte con [un partner revendedor](across-faq.md#findpartner) para aprender más sobre cómo comenzar con [!INCLUDE [prodshort](includes/prodshort.md)].  
+Si desea probar [!INCLUDE[prodshort](includes/prodshort.md)] con sus propios datos, puede cambiar a una prueba gratuita de 30 días con una empresa vacía. La **guía de configuración asistida** Configurar mi empresa puede ayudarlo a especificar información básica sobre su negocio. De manera opcional, puede importar datos de su solución de gestión empresarial existente para poder evaluar [!INCLUDE[prodshort](includes/prodshort.md)] con sus propios datos. Sin embargo, le recomendamos que no utilice una versión de prueba gratuita para administrar su negocio. Contacte con [un partner revendedor](across-faq.md#findpartner) para aprender más sobre cómo comenzar con [!INCLUDE[prodshort](includes/prodshort.md)].  
 
 Si 30 días no son suficientes para decidirse, puede ampliar la prueba. Para obtener más información, vea [¿Necesita más tiempo para decidir si suscribirse?](admin-extend-trial.md)  
 
-### <a name="setting-up-your-company-in-prodshort"></a>Configurar la empresa en [!INCLUDE [prodshort](includes/prodshort.md)]
+### <a name="setting-up-your-company-in-prodshort"></a>Configurar la empresa en [!INCLUDE[prodshort](includes/prodshort.md)]
 
 Para ayudarlo a configurar su empresa, la página **Configuración asistida** enumera las guías de configuración asistida que pueden ayudarlo. Dependiendo de su rol y país o región, la página muestra diferentes guías de configuración del asistente, como se mustra en la siguiente tabla:
 
@@ -55,7 +55,7 @@ Para ayudarlo a configurar su empresa, la página **Configuración asistida** en
 | Configurar la conexión de Dynamics 365 Sales |Le permite conectar con Dynamics 365 Sales, que le posibilita la sincronización de datos como los contactos y la información de los pedidos. |
 | Configurar previsión de flujo de efectivo |Configura el gráfico Previsión flujos efectivo, por lo que puede ver el movimiento previsto de efectivo dentro y fuera de su empresa. El gráfico está disponible en **Área de trabajo Contable**. |
 | Configurar datos de informes|Configura conjuntos de datos que puede usar para generar informes eficaces utilizando Excel o Power BI, por ejemplo. |
-| Invitar a contable externo |Si utiliza un contable externo para administrar los libros y los informes financieros, puede invitarle a su [!INCLUDE [prodshort](includes/prodshort.md)] para que pueda trabajar con usted en los datos fiscales. |
+| Invitar a contable externo |Si utiliza un contable externo para administrar los libros y los informes financieros, puede invitarle a su [!INCLUDE[prodshort](includes/prodshort.md)] para que pueda trabajar con usted en los datos fiscales. |
 
 La página **Configuración asistida** puede contener otras entradas. Cuando realice una configuración, esta se marcará como **Completada**. Puede configurar áreas adicionales de la empresa mediante la configuración manual. Para obtener más información, consulte [Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
@@ -64,13 +64,13 @@ La página **Configuración asistida** puede contener otras entradas. Cuando rea
 Si ha agregado datos a su versión de prueba de [!INCLUDE[prodshort](includes/prodshort.md)] y quiere volver a empezar con una nueva experiencia, puede crear una nueva empresa de evaluación y, a continuación, eliminar la primera empresa. Abra la página **Empresas** y elija **Nuevo** para iniciar la guía de configuración asistida **Crear nueva empresa**. La guía puede ayudarle a establecer una nueva empresa de evaluación con datos de muestra. También puede crear una copia de su empresa actual, cerrar sesión y luego iniciar sesión en su nueva empresa.  
 
 > [!IMPORTANT]
-> Cuando comparte [!INCLUDE [prodshort](includes/prodshort.md)] con otras personas de su organización, debe asegurarse de que las demás personas no hayan iniciado sesión cuando elimine una empresa.  
+> Cuando comparte [!INCLUDE[prodshort](includes/prodshort.md)] con otras personas de su organización, debe asegurarse de que las demás personas no hayan iniciado sesión cuando elimine una empresa.  
 
 ## <a name="getting-started-with-a-subscription"></a>Introducción a una suscripción
 
-Cada vez que inicie sesión durante el periodo de prueba, una notificación en una barra azul de la parte superior muestra el tiempo restante. Si decide suscribirse, busque un socio de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, vea [¿Cómo encuentro un socio distribuidor?](across-faq.md#findpartner) El socio distribuidor puede ayudarle a configurar [!INCLUDE [prodshort](includes/prodshort.md)] para adaptarlo a su negocio, incluida la importación de los datos del sistema anterior. También puede personalizar [!INCLUDE [prodshort](includes/prodshort.md)] agregando aplicaciones de [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365-business-central).  
+Cada vez que inicie sesión durante el periodo de prueba, una notificación en una barra azul de la parte superior muestra el tiempo restante. Si decide suscribirse, busque un socio de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, vea [¿Cómo encuentro un socio distribuidor?](across-faq.md#findpartner) El socio distribuidor puede ayudarle a configurar [!INCLUDE[prodshort](includes/prodshort.md)] para adaptarlo a su negocio, incluida la importación de los datos del sistema anterior. También puede personalizar [!INCLUDE[prodshort](includes/prodshort.md)] agregando aplicaciones de [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365-business-central).  
 
-[!INCLUDE [prodshort](includes/prodshort.md)] en línea usa Office 365. Si su empresa utiliza un tipo diferente de configuración de correo electrónico, el socio distribuidor puede ayudarlo a decidir cómo migrar, o si debe usar [!INCLUDE [prodshort](includes/prodshort.md)] local.  
+[!INCLUDE[prodshort](includes/prodshort.md)] en línea usa Office 365. Si su empresa utiliza un tipo diferente de configuración de correo electrónico, el socio distribuidor puede ayudarlo a decidir cómo migrar, o si debe usar [!INCLUDE[prodshort](includes/prodshort.md)] local.  
 
 También puede ponerse en contacto con el [equipo de ventas de [!INCLUDE[d365fin](includes/d365fin_md.md)]](https://go.microsoft.com/fwlink/?linkid=828707).  
 
@@ -85,7 +85,7 @@ En este momento, todos los clientes pueden usar un sandbox, incluidas las organi
 > [!NOTE]
 > Los entornos aislados creados de esta forma contienen datos de demostración de la empresa CRONUS ficticia. No se copian ni se transfieren datos del entorno de producción.  
 
-El administrador de su [!INCLUDE [prodshort](includes/prodshort.md)] y su socio distribuidor pueden crear entornos adicionales en el centro de administración. Para obtener más información, consulte [El centro de administración de Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
+El administrador de su [!INCLUDE[prodshort](includes/prodshort.md)] y su socio distribuidor pueden crear entornos adicionales en el centro de administración. Para obtener más información, consulte [El centro de administración de Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
 
 ## <a name="see-also"></a>Consulte también
 

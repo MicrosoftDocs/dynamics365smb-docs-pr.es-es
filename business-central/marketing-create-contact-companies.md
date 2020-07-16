@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 7a6be696756643496954b8ee0940efff7996f352
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 67b11d9c763ef4688af35a3f9cd83ee8c364fcee
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181609"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528442"
 ---
 # <a name="create-contacts"></a>Crear contactos
 Conoce regularmente a personas de otras empresas que pueden convertirse en relaciones de negocio, como una relación de cliente. Cuando se realiza un nuevo contacto, se debe registrar tanta información como sea posible en una ficha de contacto para que la comunicación pueda continuar.
@@ -37,7 +37,7 @@ La funcionalidad es la misma para ambos tipos, excepto las opciones de informaci
 3. En el campo **N.º**, introduzca un número para el contacto.
 
     Por otra parte, si configuró un número de serie para los contactos de la página **Configuración marketing**, puede pulsar Entrar para hacer que el sistema inserte el siguiente número de contacto disponible.  
-5. Rellene los campos restantes según sea necesario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+5. Rellene los campos restantes según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-create-a-contact-from-a-customer-vendor-or-bank-account"></a>Para crear un contacto desde un cliente, proveedor o banco
 Si tiene clientes, proveedores y cuentas bancarias para los que desea crear tarjetas de contacto, puede usar los trabajos por lotes **Crear Contactos desde** para crear contactos tomando como base los datos existentes. Al crear un contacto de esta manera, la información de contacto se sincroniza más tarde con la información del cliente, proveedor o de la cuenta bancaria relacionada. Para obtener más información, consulte [Procedimiento: Sincronizar contactos con clientes, proveedores y cuentas bancarias](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).

@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 04/01/2020
+ms.date: 06/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: 12de08f6163c141a2c2e8669a814616b2b5fc04b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: bf52a225d458f19651d79e82bac2a6b0f593f82c
+ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190232"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "3503803"
 ---
 # <a name="make-check-payments"></a>Realizar pagos por cheque
+
 Puede emitir cheques electrónicos y manuales en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ambos métodos utilizan el diario de pagos para emitir los cheques a proveedores. También puede anular cheques y ver movimientos de cheques.
 
 El siguiente procedimiento muestra cómo pagar a un proveedor con cheques por ordenador, mediante la liquidación del pago a la factura del proveedor relevante, la impresión del cheque y la contabilización del pago como pagado. Esto da como resultado entradas positivas en la contabilidad del proveedor, aplicadas a las entradas negativas y a los cheques físicos para el procesamiento en el banco.
@@ -30,7 +31,8 @@ Puede pagar con dos tipos de cheques. Para ambos tipos, el campo **Tipo contrapa
 > [!NOTE]  
 > Para asegurarse de que su banco solo compensa cheques e importes validados, puede enviarles un archivo que contenga la información de proveedor, cheque y pago. Para obtener más información, vea [Exportar un archivo de Positive Pay](finance-how-positive-pay.md).
 
-Su impresora tiene que haber configurado correctamente los documentos y usted deberá definir qué plantilla de cheques va a usar. Para obtener más información , vea [Seleccionar una plantilla de cheques](finance-how-define-check-layouts.md)
+> [!IMPORTANT]
+> Su impresora tiene que haber configurado correctamente los documentos y usted deberá definir qué plantilla de cheques va a usar. Para obtener más información , vea [Seleccionar una plantilla de cheques](finance-how-define-check-layouts.md). Alternativamente, puede enviar el cheque como un archivo PDF, por ejemplo.  
 
 Puede imprimir hasta 10 facturas en una página para una matriz de cheque. Si un cheque se aplica a más de 10 facturas, cuando imprima el talón anularemos el cheque en la primera página e imprimiremos la palabra ANULADO en el cheque. A continuación, imprimimos el resto de las facturas y el importe total del cheque en la segunda página.
 
@@ -43,7 +45,7 @@ A continuación se describe cómo pagar a un proveedor mediante un cheque. Los p
 4. En el campo **Tipo pago por banco**, seleccione **Cheque automático**.
 5. Seleccione la acción **Imprimir cheque**.
 6. En la página **Cheque**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-7. Seleccione el botón **Enviar a**, seleccione la opción **Documento PDF** y, a continuación, el botón **Aceptar**.
+7. Si su impresora está configurada para imprimir cheques, elija el botón **Imprimir**. De lo contrario, seleccione el botón **Enviar a**, seleccione la opción **Documento PDF** y, a continuación, el botón **Aceptar** y después imprima el documento PDF.
 
     Los cheques físicos ahora se pueden llevar al banco para que los procesen. Proceda a publicar el pago tal como se le aplica al proveedor y, por lo tanto, pagado en el sistema.
 8. Seleccione la acción **Registrar**.

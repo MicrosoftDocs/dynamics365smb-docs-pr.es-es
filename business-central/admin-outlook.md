@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: b088cf18c10dd451c7c5974e98f0c0cbba5bad0b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: cad495da807695b99e6ca052031ccbbc330c1db5
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186908"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3529268"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Usar Business Central como su bandeja de entrada de empresa en Outlook
 
@@ -27,18 +27,18 @@ Es fácil comenzar con el complemento de [!INCLUDE[d365fin](includes/d365fin_md.
 A continuación, cuando abra Outlook, verá un mensaje de correo electrónico del *administrador de Dynamics 365 Business Central*. Los nuevos complementos se agregan a la cinta de Outlook y, en el explorador, puede ver los complementos de [!INCLUDE[prodshort](includes/prodshort.md)] inmediatamente encima o debajo del cuerpo del mensaje de correo electrónico. Los complementos se actualizan periódicamente y recibirá la notificación de que tiene lista una nueva versión en Outlook.  
 
 > [!TIP]
-> Si utiliza el nuevo Outlook en la web, los complementos de [!INCLUDE [prodshort](includes/prodshort.md)] pueden estar ocultos en **Más acciones**. Si usa el complemento con frecuencia, puede anclarlo para que siempre esté visible de inmediato. Para obtener más información, consulte [Usar complementos en Outlook en la web](https://support.office.com/article/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?ns=OLWAO365B&version=16).  
+> Si utiliza el nuevo Outlook en la web, los complementos de [!INCLUDE[prodshort](includes/prodshort.md)] pueden estar ocultos en **Más acciones**. Si usa el complemento con frecuencia, puede anclarlo para que siempre esté visible de inmediato. Para obtener más información, consulte [Usar complementos en Outlook en la web](https://support.office.com/article/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?ns=OLWAO365B&version=16).  
 
-Si trabaja con más de una empresa de [!INCLUDE [prodshort](includes/prodshort.md)], puede cambiar fácilmente entre empresas en Outlook. En la barra de acciones del complemento, elija **Mas acciones** y, a continuación, puede ver la opción para cambiar de una empresa a otra.  
+Si trabaja con más de una empresa de [!INCLUDE[prodshort](includes/prodshort.md)], puede cambiar fácilmente entre empresas en Outlook. En la barra de acciones del complemento, elija **Mas acciones** y, a continuación, puede ver la opción para cambiar de una empresa a otra.  
 
 <!--TEMP-->
 > [!NOTE]
-> El cambio de una empresa a otra requiere la fase de lanzamiento 2 de [!INCLUDE [prodshort](includes/prodshort.md)] 2019 o posterior como se anunció en el [plan de versiones](/dynamics365-release-plan/2019wave2/dynamics365-business-central/switch-between-companies-business-inbox-outlook).
+> El cambio de una empresa a otra requiere la fase de lanzamiento 2 de [!INCLUDE[prodshort](includes/prodshort.md)] 2019 o posterior como se anunció en el [plan de versiones](/dynamics365-release-plan/2019wave2/dynamics365-business-central/switch-between-companies-business-inbox-outlook).
 
 Algunas empresas que usan Office 365 restringen los permisos de los usuarios para implementar complementos. Debe asegurarse de que tiene una suscripción a Office 365 que incluye correo electrónico y permite implementar complementos. Si desea probar el complemento de todos modos, puede [probar Office 365 gratis](https://products.office.com/try).  
 
 ## <a name="using-the-contact-insights-add-in"></a>Usar el complemento Información del contacto
-Supongamos que recibe un correo electrónico de un cliente que desea obtener una oferta de algunos productos. Puede abrir el complemento [!INCLUDE[d365fin](includes/d365fin_md.md)] directamente en Outlook, que reconoce al remitente como cliente y abre la ficha de cliente para su empresa. Desde este panel puede ver la información general del cliente, así como analizar en más detalle documentos específicos. También puede rebuscar en el historial de ventas del cliente. Si es un contacto nuevo, puede crearlo como nuevo en [!INCLUDE[d365fin](includes/d365fin_md.md)] sin salir de Outlook.  
+Supongamos que recibe un correo electrónico de un cliente que desea obtener una oferta de algunos productos. Puede abrir el complemento [!INCLUDE[d365fin](includes/d365fin_md.md)] directamente en Outlook, que reconoce al remitente como cliente y abre la ficha de cliente para esa empresa. Desde este panel puede ver la información general del cliente, así como analizar en más detalle documentos específicos. También puede rebuscar en el historial de ventas del cliente. Si es un contacto nuevo, puede crearlo como nuevo en [!INCLUDE[d365fin](includes/d365fin_md.md)] sin salir de Outlook.  
 
 En el complemento puede crear un presupuesto de ventas y reenviarlo a su cliente sin abandonar la ventana de Outlook. Toda la información que necesita para enviar el presupuesto de ventas está disponible en su bandeja de entrada de empresa de Outlook.  
 Una vez tenga los datos introducidos puede registrar el presupuesto. Puede enviarlo por correo electrónico. [!INCLUDE[d365fin](includes/d365fin_md.md)] genera un archivo .PDF con el presupuesto de ventas y lo adjunta al mensaje que tiene como borrador en el complemento.  
@@ -68,7 +68,7 @@ En ambos casos, si [!INCLUDE[d365fin](includes/d365fin_md.md)] sigue sin estar d
 
 ## <a name="using-other-email-accounts"></a>Uso de otras cuentas de correo electrónico
 
-Los complementos están diseñados para usarse con Office 365. Si utiliza [!INCLUDE [prodshort](includes/prodshort.md)] local, el administrador sabrá si puede utilizar los complementos de [!INCLUDE [prodshort](includes/prodshort.md)] en Outlook. Para obtener más información, consulte [¿Qué dirección de correo electrónico puedo usar en [!INCLUDE[prodshort](includes/prodshort.md)]?](across-faq.md#email) y [Características que requieren circunstancias específicas](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances).  
+Los complementos están diseñados para usarse con Office 365. Si utiliza [!INCLUDE[prodshort](includes/prodshort.md)] local, el administrador sabrá si puede utilizar los complementos de [!INCLUDE[prodshort](includes/prodshort.md)] en Outlook. Para obtener más información, consulte [¿Qué dirección de correo electrónico puedo usar en [!INCLUDE[prodshort](includes/prodshort.md)]?](across-faq.md#email) y [Características que requieren circunstancias específicas](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances).  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 

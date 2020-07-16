@@ -8,12 +8,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
 ms.date: 05/13/2020
 ms.author: edupont
-ms.openlocfilehash: acc68a2f5fc657e133f32e7945f3b34f8daa2892
-ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
+ms.openlocfilehash: d80b76614ad0ddf901a288859d8e6595d908c7ae
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3402511"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527990"
 ---
 # <a name="send-documents-by-email"></a>Enviar documentos por correo electrónico
 
@@ -65,7 +65,7 @@ El procedimiento siguiente describe cómo enviar una factura de ventas registrad
 
 ## <a name="documents-marked-as-printed-when-they-are-sent"></a>Documentos marcados como impresos cuando se envían
 
-Algunos documentos de [!INCLUDE [prodshort](includes/prodshort.md)] tienen un campo que especifica cuántas veces se ha impreso ese documento. El campo también se actualiza si no imprime el documento pero lo envía por correo electrónico en su lugar. El campo incluso se actualiza si en realidad no envía el documento, como cuando su organización no ha configurado el correo electrónico o cuando el contacto al que desea enviar el documento no tiene una dirección de correo electrónico en la lista. En todos los escenarios, en lo que respecta a [!INCLUDE [prodshort](includes/prodshort.md)], el documento se imprime porque se genera un archivo PDF.  
+Algunos documentos de [!INCLUDE[prodshort](includes/prodshort.md)] tienen un campo que especifica cuántas veces se ha impreso ese documento. El campo también se actualiza si no imprime el documento pero lo envía por correo electrónico en su lugar. El campo incluso se actualiza si en realidad no envía el documento, como cuando su organización no ha configurado el correo electrónico o cuando el contacto al que desea enviar el documento no tiene una dirección de correo electrónico en la lista. En todos los escenarios, en lo que respecta a [!INCLUDE[prodshort](includes/prodshort.md)], el documento se imprime porque se genera un archivo PDF.  
 
 Es posible que el usuario no vea este archivo generado, pero esto es porque se actualiza el campo.
 

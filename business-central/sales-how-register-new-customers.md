@@ -1,8 +1,6 @@
 ---
 title: Crear una ficha de cliente para registrar clientes nuevos | Documentos de Microsoft
 description: Describe cómo crear una ficha de cliente para registrar información acerca de cada cliente nuevo o existente a los que venda productos.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,26 +8,32 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
-ms.date: 04/27/2020
+ms.date: 06/24/2020
 ms.author: sgroespe
-ms.openlocfilehash: 3b56b4009e08085bb232b050790aa03acf2aa4cf
-ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
+ms.openlocfilehash: cc48c7c55edac8af9333dd04661a828c528621b8
+ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3324275"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "3503978"
 ---
 # <a name="register-new-customers"></a>Permite registrar nuevos clientes
+
 Los clientes son el origen de los ingresos. Debe registrar cada cliente a quien venda como ficha de cliente. Las fichas de cliente contienen la información necesaria para vender productos al cliente. Para obtener más información, vea [Facturar ventas](sales-how-invoice-sales.md) y [Registrar nuevos productos](inventory-how-register-new-items.md).  
 
 Antes de que pueda registrar nuevos clientes, debe configurar varios códigos de ventas que pueda seleccionar al rellenar fichas de cliente. Para obtener más información, consulte [Configurar ventas](sales-setup-sales.md).
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
+## <a name="adding-new-customers"></a>Agregar nuevos clientes
+
+Para registrar un cliente nueve, debe rellenar una ficha cliente. Puede establecer plantillas para diferentes perfiles de clientes, o puede agregar clientes sin plantillas.  
+
 > [!NOTE]  
 > Si existen plantillas de cliente para distintos tipos de cliente, una página aparece automáticamente cuando se crea una nueva ficha de cliente en la que puede seleccionar una plantilla de cliente correspondiente. Si solo existe una plantilla de cliente, las nuevas fichas de cliente utilizan siempre esa plantilla.  
 
-## <a name="to-create-a-new-customer-card"></a>Para crear una nueva ficha cliente.
+### <a name="to-create-a-new-customer-card"></a>Para crear una nueva ficha cliente.
+
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Clientes** y luego elija el enlace relacionado.  
 2. En la página **Clientes**, seleccione la acción **Nuevo**.
 
@@ -44,12 +48,10 @@ En la ficha desplegable **Precios venta y descuentos línea ventas**, puede obse
 
 El cliente estará registrado y la ficha de cliente está lista para usarse en los documentos de venta.
 
-### <a name="deleting-customer-cards"></a>Eliminar fichas cliente
-Si ha publicado una transacción para un cliente, no puede eliminar la ficha porque los movimientos pueden ser necesarias para la auditoría. Para eliminar fichas cliente con movimientos, póngase en contacto con el socio de Microsoft para hacerlo a través del código.
+Si desea usar esta ficha de cliente como plantilla cuando cree nuevas fichas de cliente, puede guardarla. Para obtener más información, vea la siguiente sección:  
 
-Si desea usar esta ficha de cliente como plantilla cuando cree nuevas fichas de cliente, puede guardarla. Para obtener más información, vea la siguiente sección:
+### <a name="to-save-the-customer-card-as-a-template"></a>Para guardar la ficha de cliente como una plantilla
 
-## <a name="to-save-the-customer-card-as-a-template"></a>Para guardar la ficha de cliente como una plantilla
 1. En la página **Ficha cliente**, seleccione la acción **Guardar como plantilla**. La página **Plantilla cliente** se abre mostrando la ficha de cliente como plantilla.
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Para volver a usar dimensiones en las plantillas, seleccione la acción **Dimensiones**. La página **Plantilla de dimensiones** se abre mostrando los códigos de dimensión configurados para el cliente.
@@ -58,10 +60,15 @@ Si desea usar esta ficha de cliente como plantilla cuando cree nuevas fichas de 
 
 La plantilla de cliente se agrega a la lista de plantillas de cliente, de modo que puede usarla para crear nuevas fichas de cliente.
 
+## <a name="deleting-customer-cards"></a>Eliminar fichas cliente
+
+Si ha publicado una transacción para un cliente, no puede eliminar la ficha porque los movimientos pueden ser necesarias para la auditoría. Para eliminar fichas cliente con movimientos, póngase en contacto con el socio de Microsoft para hacerlo a través del código.  
+
 ## <a name="see-also"></a>Consulte también
+
 [Definir las formas de pago](finance-payment-methods.md)  
 [Combinar registros duplicados](sales-how-merge-duplicate-records.md)  
 [Crear numeración](ui-create-number-series.md)  
-[Ventas](sales-manage-sales.md)    
-[Configuración de ventas](sales-setup-sales.md)    
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Ccial](sales-manage-sales.md)  
+[Configuración de ventas](sales-setup-sales.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -1,33 +1,34 @@
 ---
 title: Métodos abreviados de teclado
 description: La lista completa de combinaciones de método abreviado de teclado para trabajar de manera eficaz con los datos.
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 04/03/2020
-ms.author: sgroespe
-ms.openlocfilehash: 34d620e0c3f84f7ace651b1434290778df2aace9
-ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
+ms.date: 06/26/2020
+ms.author: bholtorf
+ms.openlocfilehash: 84ce43b7e3305380e46d16e5b4e2f8b1a25aaf08
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "3262219"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528493"
 ---
 # <a name="keyboard-shortcuts"></a>Métodos abreviados de teclado
+
 Este producto proporciona un resumen de algunas de las combinaciones de métodos abreviados que se pueden utilizar cuando trabaje con [!INCLUDE[prodshort](includes/prodshort.md)].
 
 Para obtener una descripción general de los métodos abreviados de teclado más populares, vea [Métodos abreviados de teclado (solo PC)](keyboard-shortcuts-cheatsheet.md).
 
 > [!TIP]
-> Para obtener una vista gráfica de los métodos abreviados más utilizados, elija la siguiente imagen y descargue el archivo PDF.
->
-> [ ![](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf)
+> Para obtener una vista gráfica de los métodos abreviados más utilizados, elija la siguiente imagen y descargue el archivo PDF.  
+> [ ![Icono para el archivo PDF](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf "Icono que abre un PDF")
 
 ## <a name="overview"></a>Panorama
+
 Los métodos abreviados de teclado ayudan a la accesibilidad y pueden hacer que sea más fácil y más eficiente navegar por diferentes áreas y elementos en una página. Son compatibles con la mayoría de los exploradores web; sin embargo el comportamiento puede variar ligeramente.
 
 > [!NOTE]
@@ -39,11 +40,12 @@ La mayoría de los accesos directos son los mismos independientemente de que el 
 > Además de los métodos abreviados de teclado globales descritos en este tema, hay disponibles varios métodos específicos de la empresa. Por ejemplo, en la versión genérica de [!INCLUDE[prodshort](includes/prodshort.md)], F9 publica un documento y Ctrl + F7 muestra las entradas financieras de un registro. (Estos pueden ser diferentes en su solución). El método abreviado de teclado se muestra en la información sobre herramientas de la acción en cuestión.
 
 ##  <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a> Métodos abreviados de teclado generales
+
 En la siguiente tabla se describen métodos abreviados de teclado para navegar y acceder a diferentes elementos de una página. Los elementos incluyen cosas como acciones, listas desplegables, búsquedas y más. Para obtener más información sobre los métodos abreviados de teclado para navegar por los registros una vez que ingresa en una lista, consulte la siguiente sección.
 
 |Pulsar estas teclas<br />(en macOS)|Para hacer esto|
-|----------------|-----------|
-|Alt+flecha abajo|Abra una lista desplegable o busque un valor de un campo.|    
+|--------------------------------|----------|
+|Alt+flecha abajo|Abra una lista desplegable o busque un valor de un campo.|
 |Alt+flecha arriba|Mostrar información sobre herramienta de un campo o encabezado de columna de una tabla. Si el campo contiene errores de validación, pulse Alt+flecha arriba para mostrar el error de validación. Pulse Esc o Alt+flecha arriba para cerrar la información sobre herramientas.|
 |F2|Alterne entre seleccionar todo el valor del campo o colocar el cursor al final del valor del campo.|
 |Alt+F2|Mostrar u ocultar el panel de cuadro informativo.|
@@ -79,16 +81,17 @@ En la tabla siguiente se describen los métodos abreviados de teclado que puede 
 ### <a name="general"></a>General
 
 |Pulsar estas teclas<br />(en macOS)|Para hacerlo en una vista de lista|Para hacerlo en una vista de mosaico |
-|-----------------|-------|-------|
+|--------------------------------|-------------------------|--------------------------|
 |Alt+F7 |Ordenar la columna seleccionada en orden ascendente o descendente.|No aplicable.|
 |Alt+N|Insertar una nueva línea en una lista editable, como la página **Presupuestos contables**.|Igual.|
 |Shift+F10 |Abrir un menú de opciones que están disponibles para la fila seleccionada.|Igual.|
 
 ### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Navegación entre filas y columnas
+
 Las cuadrículas con filas y columnas existen en muchos tipos de página en [!INCLUDE[prodshort](includes/prodshort.md)], como páginas de lista y partes de **Líneas** en documentos. Moverse de una celda a otra a través de una cuadrícula está totalmente preparado para el teclado.
 
 |Pulsar estas teclas<br />(en macOS)|Para hacerlo en una vista de lista |Para hacerlo en una vista de mosaico |
-|-----------------|-------|-------|
+|--------------------------------|--------------------------|--------------------------|
 |Ctrl+Inicio<br />(Fn+Ctrl+Flecha izquierda)|Seleccione la primera fila de la lista; el enfoque permanece en la misma columna.|Desplazarse al primer mosaico en la primera fila. |
 |Ctrl+Fin<br />(Fn+Ctrl + Flecha derecha)|Seleccione la última fila de la lista; el enfoque permanece en la misma columna.|Desplazarse al último mosaico de la última fila.|
 |Inicio<br />(Fn+flecha izquierda)|Desplazarse al primer campo en una fila.|Desplazarse al primer mosaico en una fila.|
@@ -104,11 +107,10 @@ Las cuadrículas con filas y columnas existen en muchos tipos de página en [!IN
 |Tab|En una lista editable, desplácese en la misma fila al siguiente campo de la derecha.|No aplicable.||
 |Mayús+Tabulador|En una lista editable, desplácese en la misma fila al anterior campo de la izquierda. | No aplicable. |
 
-
 ### <a name="selecting-copying-and-pasting"></a><a name="CopyRows"></a>Selección, copia y pegado
 
 |Pulsar estas teclas<br />(en macOS)|Para hacerlo en una vista de lista |Para hacerlo en una vista de mosaico |
-|-----------------|-------|-------|
+|--------------------------------|--------------------------|--------------------------|
 |Ctrl+Clic<br />(Cmd+Clic)|Extienda la selección de filas para incluir la fila en la que hace clic.|No aplicable.|
 |Mayús+clic|Extienda la selección de filas para incluir la fila en la que hace clic y en todas las filas que hay en medio.<br /><br />Puede usar esto después de usar Ctrl + Flecha arriba o Ctrl + Arriba/abajo para expandir su selección.|No aplicable.|
 |Ctrl+Flecha arriba<br />(Ctrl+Cmd+Flecha arriba)|Mueva el enfoque de la fila superior y mantenga la fila actual seleccionada.|No aplicable.|
@@ -126,7 +128,7 @@ Las cuadrículas con filas y columnas existen en muchos tipos de página en [!IN
 ### <a name="searching-and-filtering-lists"></a><a name="KeyboardFilter"></a>Búsqueda y filtrado de listas
 
 |Pulsar estas teclas<br />(en macOS)|Para hacer esto|
-|-----------------|-------|
+|--------------------------------|----------|
 |F3|Alterna el cuadro de búsqueda.<ul><li>Se activa el cuadro de búsqueda, por lo que puede empezar a escribir el texto de búsqueda.</li><li>Si el cuadro de búsqueda ya está activado, F3 vuelve a la lista sin borrar el texto de búsqueda.</li><ul>|
 |Shift+F3|Abrir y cerrar el panel de filtros.<ul><li> Si el panel de filtro no está abierto, Mayús+F3 lo abre y se centra en la acción **+ Filtrar** bajo **Filtrar lista por**. Luego puede presionar Entrar para comenzar a agregar un filtro de campo.</li><li>Si el panel de filtro ya está abierto, Mayús+F3 lo cierra pero no borra ningún filtro que haya agregado.</li></ul>|
 |Ctrl+Shift+F3|Abrir y cerrar el panel de filtros.<ul><li> Si el panel de filtro no está abierto, Ctrl+Mayús+F3 lo abre y se centra en la acción **+ Filtrar** bajo **Filtrar total por**. Luego puede presionar Entrar para comenzar a agregar un filtro de totales.</li><li>Si el panel de filtro ya está abierto, Mayús+F3 lo cierra pero no borra ningún filtro que haya agregado.</li></ul>  |
@@ -140,7 +142,7 @@ Las cuadrículas con filas y columnas existen en muchos tipos de página en [!IN
 Los siguientes métodos abreviados están disponibles en las páginas de ficha, como **Ficha cliente**, y en las páginas de documento, como **Pedido de venta**, para visualizar y modificar registros.
 
 |Pulsar estas teclas<br />(en macOS)|Para hacer esto|
-|----------------|-----------|
+|--------------------------------|----------|
 |Alt+F6|Alternar contraer/expandir la ficha desplegable o parte (subpágina) actual.|
 |Alt+N |Abrir una página para crear un nuevo registro; de la misma manera que se elige la acción **Nueva**. |
 |Alt+Mayús+N |Cerrar una página y abrir una nueva para crear un nuevo registro; de la misma manera que se selecciona la acción **Aceptar y nuevo**. |
@@ -159,7 +161,7 @@ Los siguientes métodos abreviados están disponibles en las páginas de ficha, 
 Los siguientes accesos directos pertenecen a la función de entrada rápida en fichas, documentos y páginas de listas. En las listas, los métodos abreviados no se pueden utilizar cuando la lista está en la vista de mosaico. Para obtener más información sobre la entrada rápida, consulte [Aceleración de la entrada de datos mediante la entrada rápida](ui-enter-data.md#QuickEntry).
 
 |Pulsar estas teclas<br />(en macOS)|Para hacer esto|Comentarios|
-|-----------------|-------|-------|
+|--------------------------------|----------|-------|
 |Introduzca|Confirmar el valor en el campo actual y pasar al siguiente campo de entrada rápida.||
 |Mayús+Entrar|Confirmar el valor en el campo actual y pasar al campo de entrada rápida anterior.||
 |Ctrl+Mayús+Entrar|Confirmar el valor en la columna actual y pasar al siguiente campo de entrada rápida fuera de la lista.<br /><br />Este método abreviado se aplica a las listas insertadas en una página, como los productos de lista de un pedido de venta. Le permite salir rápidamente de la lista y continuar introduciendo datos en otros campos de la página.|
@@ -169,7 +171,7 @@ Los siguientes accesos directos pertenecen a la función de entrada rápida en f
 Al configurar un campo de fecha, puede introducir la fecha manualmente o abrir un calendario (selector de fecha) que le permite seleccionar la fecha que desea. En la tabla siguiente se describen los métodos abreviados de teclado del calendario.
 
 |Pulsar estas teclas<br />(en macOS)|Para hacer esto|
-|-----------------|-------|
+|--------------------------------|----------|
 |Ctrl+Inicio|Abrir el calendario si está cerrado. **Nota**: Esto no funciona si el campo de fecha está en una cuadrícula, donde Ctrl+Inicio salta a la primera fila.|
 |Ctrl+Inicio<br />(Cmd+Inicio)|Desplazarse al mes actual, día actual.|
 |Ctrl+Flecha izquierda<br />(Cmd+Flecha izquierda)|Desplazarse al día anterior.|
@@ -184,14 +186,14 @@ Al configurar un campo de fecha, puede introducir la fecha manualmente o abrir u
 
 ## <a name="keyboard-shortcuts-in-date-fields"></a>Métodos abreviados de teclado en campos de fecha
 |Pulsar estas teclas<br />(en macOS)|Para hacer esto|
-|-----------------|-------|
+|--------------------------------|----------|
 |h|Introduzca la fecha actual. "H" significa "hoy".|
 |t|Introduzca la fecha de trabajo. Para obtener más información, consulte [Fecha de trabajo](ui-change-basic-settings.md#work-date).|
 
 ## <a name="keyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"/>Métodos abreviados de teclado en la vista preliminar de informe
 
 |Pulsar estas teclas<br />(en macOS)|Para hacer esto|
-|-----------------|-------|
+|--------------------------------|----------|
 |Flecha abajo|Desplazarse hacia abajo por la página.|  
 |Flecha hacia arriba|Desplazarse hacia arriba por la página.|
 |Ctrl+0 (cero)<br />(Cmd+0)|Ajusta toda la página a la página. |
@@ -203,6 +205,7 @@ Al configurar un campo de fecha, puede introducir la fecha manualmente o abrir u
 |Re. pág.<br />(Fn+flecha arriba)|Ir a la página anterior del informe.|
 
 ## <a name="see-also"></a>Consulte también .
+
 [Referencia rápida de teclado: solo PC](keyboard-shortcuts-cheatsheet.md)  
 [Características de asistencia](ui-accessibility.md)  
 [Introducción](product-get-started.md)  

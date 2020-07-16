@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: multiple currencies
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9802821985550668d460aa3213c9fb64764169c0
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 34d1c9d1f61f2ab89d58d0c3f4a8c512fe6ea0f1
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183553"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528843"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Configurar una divisa de informes adicional
 Las empresas trabajan cada vez en un mayor número de países o regiones, por lo que es muy importante que puedan revisar y crear informes de datos financieros en más de una divisa.
@@ -103,7 +103,7 @@ Debe especificar, para cada cuenta, como se ajustarán los importes de contabili
 5. El trabajo por lotes **Ajustar divisa de informe adicional** se abre.
 
     Este proceso convierte los importes en la divisa local de los movimientos existentes a la divisa adicional. El proceso usa un tipo de cambio predeterminado, copiado del que es válido en la fecha de trabajo de la página **Tipos cambio divisa**. La conversión de la divisa local a la divisa adicional puede producir importes residuales, que se registran en las cuentas de ganancias y pérdidas residuales especificadas en la página **Divisas**. La fecha de registro y el número de documento de estos movimientos son los mismos que los del movimiento de contabilidad original. Después de haber registrado todos los movimientos residuales, el proceso registra un movimiento de redondeo en la fecha de cierre de cada año cerrado en la cuenta de remanentes. Así se garantiza que el saldo final de las cuentas de ingresos de todos los años cerrados es 0, tanto en la divisa local como en la divisa adicional.
-6. Rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]      
+6. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]      
 7. Elija el botón **Aceptar** para iniciar el trabajo por lotes.  
 
 Después de ejecutar el proceso, los importes de los siguientes movimientos existentes se mostrarán en la divisa local y en la divisa adicional:  

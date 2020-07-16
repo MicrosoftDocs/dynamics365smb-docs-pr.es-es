@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: remove, delete
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: f48f5785ffc62b124b26764da5e86838c1e01dfa
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 163c1522fce412e1877aa63dad914ca0a75c661e
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187441"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528417"
 ---
 # <a name="unsubscribe-or-remove-prodshort"></a>Cancelar la suscripción o quitar [!INCLUDE[prodshort](includes/prodshort.md)]
 
@@ -31,7 +31,7 @@ Si se registró en [!INCLUDE[d365fin](includes/d365fin_md.md)] con una cuenta de
 
 ## <a name="unsubscribing-by-removing-d365fin-from-your-office-365-experience"></a>Anular la suscripción quitando [!INCLUDE[d365fin](includes/d365fin_md.md)] de su experiencia Office 365
 
-Si su empresa se suscribe a [!INCLUDE [prodshort](includes/prodshort.md)] pero usted, como usuario, ya no desea el acceso, debe solicitar a su administrador o su socio distribuidor de Dynamics 365 que elimine la licencia de [!INCLUDE[d365fin](includes/d365fin_md.md)] de su cuenta de usuario de Office 365. Si [!INCLUDE[d365fin](includes/d365fin_md.md)] se elimina de la cuenta de usuario, y su empresa continúa la suscripción, sus compañeros de trabajo aún tendrán acceso a los datos compartidos en la empresa de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Si su empresa se suscribe a [!INCLUDE[prodshort](includes/prodshort.md)] pero usted, como usuario, ya no desea el acceso, debe solicitar a su administrador o su socio distribuidor de Dynamics 365 que elimine la licencia de [!INCLUDE[d365fin](includes/d365fin_md.md)] de su cuenta de usuario de Office 365. Si [!INCLUDE[d365fin](includes/d365fin_md.md)] se elimina de la cuenta de usuario, y su empresa continúa la suscripción, sus compañeros de trabajo aún tendrán acceso a los datos compartidos en la empresa de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Si su empresa desea darse de baja de [!INCLUDE[d365fin](includes/d365fin_md.md)], el socio distribuidor de Dynamics 365 puede eliminar la suscripción de pago de la cuenta de la empresa. Para obtener más información, vea [Administración de Business Central en línea](/dynamics365/business-central/dev-itpro/administration/tenant-administration) en el contenido para desarrolladores y profesionales de TI.  
 

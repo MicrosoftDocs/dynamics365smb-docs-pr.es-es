@@ -11,12 +11,12 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.reviewer: edupont
 ms.date: 04/01/2020
 ms.author: bmeier
-ms.openlocfilehash: 0625197f9feb0c12daa45b183973316df52b0672
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 59ea09440624f2311d69b0c1657de4d9fc420826
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186891"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528593"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Habilitar los datos de negocio para Power BI
 
@@ -27,13 +27,13 @@ Debe disponer de una cuenta válida con [!INCLUDE[prodshort](includes/prodshort.
 > [!IMPORTANT]
 > Las aplicaciones de Power BI que se describen en este artículo están diseñados para utilizar Azure Active Directory como mecanismo de autenticación, a menos que se especifique lo contrario. Además, necesita una [licencia de Power BI Pro](/power-bi/service-features-license-type) para compartir su contenido, y las personas con las que lo comparte también, o el contenido debe estar en un espacio de trabajo de [capacidad Premium](/power-bi/service-premium-what-is). Para más información, vea [Formas de compartir el trabajo en Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).
 
-[!INCLUDE [prodlong](includes/prodlong.md)] ha publicado las siguientes aplicaciones para Power BI:
+[!INCLUDE[prodlong](includes/prodlong.md)] ha publicado las siguientes aplicaciones para Power BI:
 
-- [!INCLUDE [prodlong](includes/prodlong.md)] - CRM  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Finance  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Sales  
+- [!INCLUDE[prodlong](includes/prodlong.md)] - CRM  
+- [!INCLUDE[prodlong](includes/prodlong.md)] - Finance  
+- [!INCLUDE[prodlong](includes/prodlong.md)] - Sales  
 
-## <a name="using-the-prodshort-dashboards-in-power-bi"></a>Uso de los paneles de [!INCLUDE [prodshort](includes/prodshort.md)] en Power BI
+## <a name="using-the-prodshort-dashboards-in-power-bi"></a>Uso de los paneles de [!INCLUDE[prodshort](includes/prodshort.md)] en Power BI
 
 Cada aplicación proporciona informes que puede explorar:
 
@@ -42,7 +42,7 @@ Cada aplicación proporciona informes que puede explorar:
 - Ancle esta visualización personalizada al panel para continuar con el seguimiento.  
   Puede actualizar los datos manualmente y puede configurar un calendario de actualización. Para obtener más información, vea [Configuración de actualización programada](/power-bi/refresh-scheduled-refresh).  
 
-Las aplicaciones están diseñadas para trabajar con datos de cualquier empresa que tenga en su [!INCLUDE[prodshort](includes/prodshort.md)]. Cuando instala la aplicación Power BI, especifica uno o más parámetros para conectarse a su [!INCLUDE [prodshort](includes/prodshort.md)].  
+Las aplicaciones están diseñadas para trabajar con datos de cualquier empresa que tenga en su [!INCLUDE[prodshort](includes/prodshort.md)]. Cuando instala la aplicación Power BI, especifica uno o más parámetros para conectarse a su [!INCLUDE[prodshort](includes/prodshort.md)].  
 
 > [!NOTE]
 > También puede crear sus propios informes y paneles en Power BI basándose en sus datos de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, consulte [Conectar los datos empresariales con Power BI](across-how-use-financials-data-source-powerbi.md).  
@@ -54,7 +54,7 @@ Las aplicaciones están diseñadas para trabajar con datos de cualquier empresa 
 
     ![Navegar para obtener datos](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
 
-    También puede empezar desde [!INCLUDE [prodshort](includes/prodshort.md)]. Desde su página Web, vaya a **Selección de informes** en la sección Power BI. Seleccione **Servicio** o **Mi organización** en la cinta. Cuando cualquiera de estas acciones está seleccionada, accederá a la galería de la organización en Power BI o a Microsoft AppSource, que también se filtrarán para mostrar solo las aplicaciones relacionadas con [!INCLUDE[prodshort](includes/prodshort.md)].
+    También puede empezar desde [!INCLUDE[prodshort](includes/prodshort.md)]. Desde su página Web, vaya a **Selección de informes** en la sección Power BI. Seleccione **Servicio** o **Mi organización** en la cinta. Cuando cualquiera de estas acciones está seleccionada, accederá a la galería de la organización en Power BI o a Microsoft AppSource, que también se filtrarán para mostrar solo las aplicaciones relacionadas con [!INCLUDE[prodshort](includes/prodshort.md)].
 
 3. En el cuadro **Servicios**, seleccione **Obtener**. Se abrirá una página que muestra **AppSource** y **Aplicaciones para Power BI**.  
 
@@ -64,7 +64,7 @@ Las aplicaciones están diseñadas para trabajar con datos de cualquier empresa 
 5. Cuando se le solicite, introduzca el nombre del ambiente y de la empresa en su aplicación de [!INCLUDE[prodshort](includes/prodshort.md)] a la que desee conectarse. Si no ha creado varios ambientes, introduzca **Producción**. Para el parámetro de empresa, asegúrese de introducir el nombre y no el nombre para mostrar. Puede encontrar el nombre de la empresa en la página **Empresas** en su instancia de [!INCLUDE[prodshort](includes/prodshort.md)].  
 
     > [!NOTE]
-    > Si se conecta a [!INCLUDE [prodshort](includes/prodshort.md)] local, debe especificar el parámetro *URL de servicio web*. Puede encontrarlo en la página **Servicios web** en [!INCLUDE [prodshort](includes/prodshort.md)]. Su instancia de [!INCLUDE [server](includes/server.md)] debe estar configurada para la autenticación Básica y debe especificar un usuario y la clave de acceso web de ese usuario como su contraseña. En el siguiente ejemplo, reemplace *myserver:7048* por su nombre de [!INCLUDE [server](includes/server.md)] y *CRONUS%20US* por el nombre de su empresa.  
+    > Si se conecta a [!INCLUDE[prodshort](includes/prodshort.md)] local, debe especificar el parámetro *URL de servicio web*. Puede encontrarlo en la página **Servicios web** en [!INCLUDE[prodshort](includes/prodshort.md)]. Su instancia de [!INCLUDE[server](includes/server.md)] debe estar configurada para la autenticación Básica y debe especificar un usuario y la clave de acceso web de ese usuario como su contraseña. En el siguiente ejemplo, reemplace *myserver:7048* por su nombre de [!INCLUDE[server](includes/server.md)] y *CRONUS%20US* por el nombre de su empresa.  
     > ```https://myserver:7048/BC140/ODataV4/Company('CRONUS%20US')/```
 
 6. Una vez conectado, se añaden un panel e informes a su área de trabajo de Power BI. Cuando se haya completado, se muestran los mosaicos con datos de su empresa de [!INCLUDE[prodshort](includes/prodshort.md)].
@@ -78,18 +78,18 @@ Las aplicaciones están diseñadas para trabajar con datos de cualquier empresa 
 - [Seleccione un mosaico](/power-bi/service-dashboard-tiles) para abrir el informe subyacente.  
 - De forma predeterminada, su conjunto de datos no está programado para actualizarse. Puede cambiar la programación de actualización o intentar actualizarlo a petición utilizando **Actualizar ahora**. Para obtener más información, vea [Configuración de actualización programada](/power-bi/refresh-scheduled-refresh).
 
-## <a name="power-bi-in-prodshort"></a>Power BI en [!INCLUDE [prodshort](includes/prodshort.md)]
+## <a name="power-bi-in-prodshort"></a>Power BI en [!INCLUDE[prodshort](includes/prodshort.md)]
 
-Su página Web en [!INCLUDE [prodshort](includes/prodshort.md)] puede incluir un elemento de control de Power BI que se puede configurar para mostrar informes de Power BI en su página Web.
+Su página Web en [!INCLUDE[prodshort](includes/prodshort.md)] puede incluir un elemento de control de Power BI que se puede configurar para mostrar informes de Power BI en su página Web.
 
 > [!IMPORTANT]
-> Debe disponer de una cuenta válida con [!INCLUDE [prodshort](includes/prodshort.md)] y con Power BI. Además, si desea modificar cualquier informe, debe descargar Power BI Desktop. Para obtener más información, consulte [Usar Business Central como origen de datos de Power BI](across-how-use-financials-data-source-powerbi.md).  
+> Debe disponer de una cuenta válida con [!INCLUDE[prodshort](includes/prodshort.md)] y con Power BI. Además, si desea modificar cualquier informe, debe descargar Power BI Desktop. Para obtener más información, consulte [Usar Business Central como origen de datos de Power BI](across-how-use-financials-data-source-powerbi.md).  
 
 ### <a name="on-first-login"></a>En el primer inicio de sesión
 
-Cuando inicie sesión por primera vez en [!INCLUDE [prodshort](includes/prodshort.md)], verá una parte de Power BI vacía en su página Web. Para ver los informes, primero debe conectarse a Power BI seleccionando el vínculo *Introducción a Power BI*.
+Cuando inicie sesión por primera vez en [!INCLUDE[prodshort](includes/prodshort.md)], verá una parte de Power BI vacía en su página Web. Para ver los informes, primero debe conectarse a Power BI seleccionando el vínculo *Introducción a Power BI*.
 
-A continuación, [!INCLUDE [prodshort](includes/prodshort.md)] se comunica con el servicio de Power BI para determinar si tiene una cuenta de Power BI válida. Una vez verificada la licencia, se mostrarán los informes de Power BI predeterminados en su página Web.
+A continuación, [!INCLUDE[prodshort](includes/prodshort.md)] se comunica con el servicio de Power BI para determinar si tiene una cuenta de Power BI válida. Una vez verificada la licencia, se mostrarán los informes de Power BI predeterminados en su página Web.
 
 ### <a name="selecting-power-bi-reports"></a>Selección de informes de Power BI
 
@@ -115,11 +115,11 @@ Regrese al área de trabajo y aparecerá el informe actualizado. Si ha ejecutado
 
 ### <a name="uploading-reports"></a>Carga de informes
 
-Puede cargar nuevos informes de Power BI y compartirlos con todos los usuarios de su [!INCLUDE [prodshort](includes/prodshort.md)]. Los informes se comparten dentro de cada empresa en [!INCLUDE [prodshort](includes/prodshort.md)].  
+Puede cargar nuevos informes de Power BI y compartirlos con todos los usuarios de su [!INCLUDE[prodshort](includes/prodshort.md)]. Los informes se comparten dentro de cada empresa en [!INCLUDE[prodshort](includes/prodshort.md)].  
 
 Para cargar un informe, seleccione la acción **Cargar informe** de la lista desplegable de comandos. A continuación, puede cargar un archivo .pbix que defina los informes que desea compartir. Puede cambiar el nombre predeterminado del archivo.  
 
-Una vez que el informe se ha cargado en su espacio de trabajo de Power BI, se carga automáticamente en los espacios de trabajo de Power BI de los demás usuarios de esa empresa en el siguiente inicio de sesión en [!INCLUDE [prodshort](includes/prodshort.md)].
+Una vez que el informe se ha cargado en su espacio de trabajo de Power BI, se carga automáticamente en los espacios de trabajo de Power BI de los demás usuarios de esa empresa en el siguiente inicio de sesión en [!INCLUDE[prodshort](includes/prodshort.md)].
 
 ## <a name="system-requirements"></a>Requisitos del sistema
 
@@ -145,7 +145,7 @@ Para importar los datos de [!INCLUDE[prodshort](includes/prodshort.md)] en Power
 - Etiquetas de informe del Power BI
 
 > [!NOTE]
-> [!INCLUDE [prodshort](includes/prodshort.md)] local utiliza los mismos puntos finales de servicio web que [!INCLUDE [prodshort](includes/prodshort.md)] en línea.
+> [!INCLUDE[prodshort](includes/prodshort.md)] local utiliza los mismos puntos finales de servicio web que [!INCLUDE[prodshort](includes/prodshort.md)] en línea.
 
 ## <a name="web-services"></a>Servicios Web
 
@@ -163,7 +163,7 @@ No se ha configurado una cuenta de Power BI. Para tener una cuenta de Power BI v
 
 Este mensaje aparecerá si el informe predeterminado no se ha podido implementar en su espacio de trabajo de Power BI o el informe implementado pero no se ha actualizado correctamente. Si esto sucede, navegue hasta el informe en su espacio de trabajo de Power BI, seleccione **Conjunto de datos**, **Configuración** y luego actualice manualmente las credenciales. Una vez que el conjunto de datos se actualice correctamente, vuelva a Business Central y seleccione manualmente el informe desde la página **Seleccionar informes**.
 
-### <a name="you-need-a-power-bi-pro-license-to-install-the-prodshort-app-in-power-bi"></a>Necesita una licencia Power BI Pro para instalar la aplicación de [!INCLUDE [prodshort](includes/prodshort.md)] en Power BI
+### <a name="you-need-a-power-bi-pro-license-to-install-the-prodshort-app-in-power-bi"></a>Necesita una licencia Power BI Pro para instalar la aplicación de [!INCLUDE[prodshort](includes/prodshort.md)] en Power BI
 
 Necesita una [licencia de Power BI Pro](/power-bi/service-features-license-type) para compartir su contenido, y las personas con las que lo comparte también, o el contenido debe estar en un espacio de trabajo de [capacidad Premium](/power-bi/service-premium-what-is). Para más información, vea [Formas de compartir el trabajo en Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).  
 
@@ -171,17 +171,17 @@ Necesita una [licencia de Power BI Pro](/power-bi/service-features-license-type)
 
 Este error indica que uno o varios de los parámetros no son válidos.
 
-- El parámetro de ambiente especificado no coincide con ningún ambiente de producción o aislado de [!INCLUDE [prodshort](includes/prodshort.md)] existente.
-- El parámetro de empresa especificado no coincide con ninguna empresa de [!INCLUDE [prodshort](includes/prodshort.md)] existente. Verifique el nombre de la empresa en la página **Empresas** en [!INCLUDE [prodshort](includes/prodshort.md)].
-- Si se conecta a [!INCLUDE [prodshort](includes/prodshort.md)] local. ha introducido una URL que no es válida. Puede verificar la URL en la página de **Servicios web** en [!INCLUDE [prodshort](includes/prodshort.md)]  
+- El parámetro de ambiente especificado no coincide con ningún ambiente de producción o aislado de [!INCLUDE[prodshort](includes/prodshort.md)] existente.
+- El parámetro de empresa especificado no coincide con ninguna empresa de [!INCLUDE[prodshort](includes/prodshort.md)] existente. Verifique el nombre de la empresa en la página **Empresas** en [!INCLUDE[prodshort](includes/prodshort.md)].
+- Si se conecta a [!INCLUDE[prodshort](includes/prodshort.md)] local. ha introducido una URL que no es válida. Puede verificar la URL en la página de **Servicios web** en [!INCLUDE[prodshort](includes/prodshort.md)]  
 - Un puerto no está abierto para permitir que la petición pase a través de su firewall.
 
 ### <a name="cannot-sign-in"></a>No puede iniciar sesión
 
-Si obtiene un "error de inicio de sesión" después de usar sus credenciales de usuario de [!INCLUDE [prodshort](includes/prodshort.md)] para iniciar sesión, es probable que esté experimentando uno de los siguientes problemas:
+Si obtiene un "error de inicio de sesión" después de usar sus credenciales de usuario de [!INCLUDE[prodshort](includes/prodshort.md)] para iniciar sesión, es probable que esté experimentando uno de los siguientes problemas:
 
-- La cuenta que usa no tiene permisos para recuperar los datos de [!INCLUDE [prodshort](includes/prodshort.md)] de su cuenta. Compruebe que tiene permisos para introducir los datos necesarios en [!INCLUDE [prodshort](includes/prodshort.md)] e inténtelo de nuevo.
-- Ha seleccionado un tipo de autenticación distinto de Básico si se conecta con [!INCLUDE [prodshort](includes/prodshort.md)]local.
+- La cuenta que usa no tiene permisos para recuperar los datos de [!INCLUDE[prodshort](includes/prodshort.md)] de su cuenta. Compruebe que tiene permisos para introducir los datos necesarios en [!INCLUDE[prodshort](includes/prodshort.md)] e inténtelo de nuevo.
+- Ha seleccionado un tipo de autenticación distinto de Básico si se conecta con [!INCLUDE[prodshort](includes/prodshort.md)]local.
 - No ha introducido un nombre de usuario o una contraseña válidos.
 
 ### <a name="incorrect-company-name"></a>Nombre de empresa incorrecto
@@ -198,7 +198,7 @@ Una vez que la aplicación de Power BI está instalada y sus datos aparezcan en 
 
 ### <a name="i-only-see-data-for-a-single-company"></a>Solo veo datos de una sola empresa
 
-La aplicación de Power BI solo mostrará los datos de la empresa de [!INCLUDE [prodshort](includes/prodshort.md)] que se definió cuando se instaló la aplicación de Power BI. Los datos de empresas adicionales se pueden añadir a los informes añadiendo nuevas consultas que utilizan empresas diferentes como origen de datos.  
+La aplicación de Power BI solo mostrará los datos de la empresa de [!INCLUDE[prodshort](includes/prodshort.md)] que se definió cuando se instaló la aplicación de Power BI. Los datos de empresas adicionales se pueden añadir a los informes añadiendo nuevas consultas que utilizan empresas diferentes como origen de datos.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 

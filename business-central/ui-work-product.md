@@ -7,14 +7,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2020
+ms.date: 06/19/2020
 ms.author: sgroespe
-ms.openlocfilehash: 666102d7f75028035b4b4087c2c8de0c693268c8
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 0f8cc20f9f5f9afcd3db5fbeb3dc6d12ad8d6cad
+ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189349"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "3496729"
 ---
 # <a name="working-with-d365fin"></a>Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Al realizar tareas empresariales, el usuario interactúa con los datos de diferentes maneras; por ejemplo, crear registros e introducir datos, ordenar y filtrar datos, escribir notas y exportando datos a otras aplicaciones.
@@ -26,7 +26,7 @@ Por ejemplo, puede ajustar el tamaño y la posición de cualquier página. Para 
 > [!TIP]
 > Para obtener un resumen en versión para imprimir de las funciones más usadas, elija la siguiente imagen y descargue el archivo PDF.
 >
-> [ ![](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf)
+> [ ![Icono para el archivo PDF](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf "Icono que abre un PDF")
 
 ## <a name="links-to-learn-more"></a>Vínculos para obtener más información
 

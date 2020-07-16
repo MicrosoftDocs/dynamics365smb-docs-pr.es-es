@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 06/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1aaf04237261481f21d10d5e7966666132ff1a8e
-ms.sourcegitcommit: c5fcc204a1ba8aaf153ce3ad5d150295b144c0e4
+ms.openlocfilehash: 7f78fbcb4c0f37e9c6230004c70cd9d1625b8768
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3413648"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528115"
 ---
 # <a name="accountant-experiences-in-d365fin_long"></a>Experiencias contables en [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Los negocios deben crear sus libros y firmas de contabilidad. Algunas empresas emplean un contable externo, y otras lo tienen en plantilla. Independientemente del tipo de contable que sea, puede utilizar el Área de trabajo **Contable** como su página de inicio en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Desde aquí, puede acceder a todas las páginas que necesita en su trabajo.  
@@ -54,14 +54,14 @@ Si su administrador o distribuidor no desea utilizar la guía **Invitar a un con
 4. Seleccione **Nuevo usuario invitado**.
 5. Sobre la página **Nuevo Usuario**, seleccione **Invitar usuario** y luego añada información sobre su contable externo.  
 
-   De manera opcional, incluya un mensaje de bienvenida personal al contable para informarle de que los está agregando a su [!INCLUDE [prodshort](includes/prodshort.md)].
+   De manera opcional, incluya un mensaje de bienvenida personal al contable para informarle de que los está agregando a su [!INCLUDE[prodshort](includes/prodshort.md)].
 
 6. Seleccione **Invitación** para enviar automáticamente la invitación. Aparece una notificación en la esquina superior derecha con el mensaje **Usuario invitado exitosamente**. 
 7. Después de enviar la invitación, la cuenta de usuario se añade automáticamente al directorio como invitado.
 
-A continuación, debe asignar al nuevo usuario invitado una licencia para [!INCLUDE [prodshort](includes/prodshort.md)].
+A continuación, debe asignar al nuevo usuario invitado una licencia para [!INCLUDE[prodshort](includes/prodshort.md)].
 
-#### <a name="to-give-your-accountant-access-to-your-prodshort"></a>Para darle acceso a su contable a su [!INCLUDE [prodshort](includes/prodshort.md)]
+#### <a name="to-give-your-accountant-access-to-your-prodshort"></a>Para darle acceso a su contable a su [!INCLUDE[prodshort](includes/prodshort.md)]
 
 1. En Azure Portal, en el usuario recién agregado, elija **Perfil** y luego elija **Editar**
 2. Actualizar el campo **Lugar de uso** al país relevante y luego elija **Guardar**.
@@ -73,26 +73,26 @@ A continuación, debe asignar al nuevo usuario invitado una licencia para [!INCL
 
 Si tiene éxito, la licencia se asigna al usuario invitado y se crea la cuenta de invitado.
 
-### <a name="importing-the-new-user-into-prodshort"></a>Importar al nuevo usuario a [!INCLUDE [prodshort](includes/prodshort.md)]
+### <a name="importing-the-new-user-into-prodshort"></a>Importar al nuevo usuario a [!INCLUDE[prodshort](includes/prodshort.md)]
 
-El contador recibirá un correo electrónico que le notifica que se le ha dado acceso a su Active Directory. A continuación, debe darles acceso a la compañía correcta en [!INCLUDE [prodshort](includes/prodshort.md)].
+El contador recibirá un correo electrónico que le notifica que se le ha dado acceso a su Active Directory. A continuación, debe darles acceso a la compañía correcta en [!INCLUDE[prodshort](includes/prodshort.md)].
 
 #### <a name="to-add-the-accountant-to-the-right-company"></a>Para añadir el contable a la empresa correcta
 
-1. Abra la [!INCLUDE [prodshort](includes/prodshort.md)] empresa a la que desea dar acceso al contable en [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com).
+1. Abra la [!INCLUDE[prodshort](includes/prodshort.md)] empresa a la que desea dar acceso al contable en [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com).
 2. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Usuarios** y luego elija el enlace relacionado.  
 3. Elija la acción **Obtener nuevos usuarios de Office 365**.
 
 Esto importa la cuenta de usuario que creó en Azure Portal a la empresa. Para obtener más información, consulte [Para añadir un usuario en Business Central](ui-how-users-permissions.md#adduser).  
 
-Si desea dar acceso a varias empresas, debe iniciar sesión en cada compañía y repetir este proceso. Alternativamente, puede actualizar los grupos de permisos para el perfil de usuario del contador en [!INCLUDE [prodshort](includes/prodshort.md)], como asignarles el *grupo de usuario* D365 Bus Premium. Para obtener más información, vea [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md).  
+Si desea dar acceso a varias empresas, debe iniciar sesión en cada compañía y repetir este proceso. Alternativamente, puede actualizar los grupos de permisos para el perfil de usuario del contador en [!INCLUDE[prodshort](includes/prodshort.md)], como asignarles el *grupo de usuario* D365 Bus Premium. Para obtener más información, vea [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md).  
 
 <!--## Accountant Hub
 
 If you are an accountant with several clients, you can use [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] for a better overview of your clients. From there, you can access each client's tenant in [!INCLUDE[d365fin](includes/d365fin_md.md)] and use the Accountant Role Center as described above. For more information see [Welcome to [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index).  
 
 > [!NOTE]
-> [!INCLUDE [d365acc_long_md](includes/d365acc_long_md.md)] is currently in public preview in a limited number of markets.-->
+> [!INCLUDE[d365acc_long_md](includes/d365acc_long_md.md)] is currently in public preview in a limited number of markets.-->
 
 ## <a name="see-also"></a>Consulte también
 

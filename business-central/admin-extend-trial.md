@@ -1,7 +1,6 @@
 ---
 title: Extender la versión de prueba | Documentos de Microsoft
 description: Si necesita más tiempo para decidir si desea suscribirse, puede ampliar su versión de prueba.
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/06/2020
+ms.date: 07/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: f65503bf00afbe03c542bb486b32b4c18de7c198
-ms.sourcegitcommit: 57e31a8b92feeaf8c6c63eba147f36b38eee7679
+ms.openlocfilehash: 78993c655ff4912e212588269f897a39e8441924
+ms.sourcegitcommit: f9aec4a72172d9270e14e2938c5550d69508f1aa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "3339903"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "3532624"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>¿Necesita más tiempo para decidir si suscribirse?
+
 Es importante tomar la decisión correcta al elegir una aplicación de negocios y sabemos que puede llevar tiempo explorar todos los rincones de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Si necesita más tiempo para finalizar su evaluación, puede ampliar el período de prueba otros 30 días más. Cuando se acerque la fecha de vencimiento de su período de prueba, cuando inicie sesión le mostraremos una notificación para avisarle. La notificación contendrá un enlace a la guía **Ampliar período de prueba** que puede usar para ampliar su período de prueba. Los 30 días adicionales comienzan en el momento que elija **Ampliar versión de prueba** en la guía.
 
 Sin embargo, por su parte solo puede ampliar el período de prueba una vez. No es posible hacerlo dos veces, al menos no por su parte. Si ya ha ampliado el período de prueba, su socio de Microsoft puede ampliarlo nuevamente para usted. Aunque también es posible hacerlo solamente una vez. Si aún no trabaja con un socio, vea [¿Cómo encuentro un socio distribuidor?](across-faq.md#findpartner)  
@@ -34,15 +34,18 @@ Sin embargo, por su parte solo puede ampliar el período de prueba una vez. No e
 
     Si ha cerrado la notificación, debe cerrar la sesión y volver a iniciarla.
 
+> [!TIP]
+> Si no puede ver la notificación, puede forzar [!INCLUDE [prodshort](includes/prodshort.md)] para ejecutar la guía de configuración asistida de la **Prueba ampliada** agregando el parámetro ```?page=1828``` a la URL, como en el siguiente ejemplo: [https://businesscentral.dynamics.com/?page=1828](https://businesscentral.dynamics.com/?page=1828)
+
 ## <a name="what-happens-if-my-trial-period-is-expired"></a>¿Qué pasa si mi período de prueba ha expirado?
 
 Si su primer período de prueba de 30 días ha caducado, puede ampliarlo usted mismo como se ha descrito y las características seguirán funcionando como de costumbre. Simplemente inicie sesión en la empresa de demostración e inicie la guía **Ampliar período de prueba** desde la notificación.  
 
 Si ha creado su propia empresa, cierre sesión y vuelva a iniciarla con las credenciales de esa empresa.  
 
-Si su organización ha establecido una relación de revendedor con un partner, este puede iniciar sesión en su [!INCLUDE [prodshort](includes/prodshort.md)] como administrador delegado y ejecutar la misma guía **Ampliar período de prueba**. Para más información, vea [Ampliación de versiones de prueba (como administrador)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials).  
+Si su organización ha establecido una relación de revendedor con un partner, este puede iniciar sesión en su [!INCLUDE[prodshort](includes/prodshort.md)] como administrador delegado y ejecutar la misma guía **Ampliar período de prueba**. Para más información, vea [Ampliación de versiones de prueba (como administrador)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials).  
 
-Sin embargo, después de esta segunda extensión que le ha dado a su organización hasta 90 días de prueba, debe suscribirse a [!INCLUDE [prodshort](includes/prodshort.md)] o abandonar [!INCLUDE [prodshort](includes/prodshort.md)]. Si decide no continuar, le recomendamos que exporte los datos en los que se basa su negocio.
+Sin embargo, después de esta segunda extensión que le ha dado a su organización hasta 90 días de prueba, debe suscribirse a [!INCLUDE[prodshort](includes/prodshort.md)] o abandonar [!INCLUDE[prodshort](includes/prodshort.md)]. Si decide no continuar, le recomendamos que exporte los datos en los que se basa su negocio.
 
 Cuando expire su período de prueba ampliado, puede [suscribirse](https://go.microsoft.com/fwlink/?linkid=828659) a [!INCLUDE[prodshort](includes/prodshort.md)] en un plazo de 90 días y continuar trabajando en la empresa que creó. 90 días después de que caduque la versión de prueba extendida, eliminaremos su empresa y sus datos a menos que se suscriba.  
 

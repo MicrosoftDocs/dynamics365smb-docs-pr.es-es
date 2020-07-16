@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/20/2020
 ms.author: bholtorf
-ms.openlocfilehash: 0a6d6e08db723979fa938488bb0df6fb08a5c4d1
-ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
+ms.openlocfilehash: 0b814c18c328ea0647e38b6a837577b277ca4e63
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3271995"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527940"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Asignación de tablas y campos para sincronizar
 La base de la sincronización de datos en [!INCLUDE[d365fin](includes/d365fin_md.md)] con datos en [!INCLUDE[d365fin](includes/cds_long_md.md)] es asignar las tablas y campos que contienen los datos entre sí. La asignación ocurre a través de tablas de integración. 
 
 ## <a name="mapping-integration-tables"></a>Asignación de tablas de integración
-Una tabla de la integración es una tabla [!INCLUDE[d365fin](includes/d365fin_md.md)] de la base de datos que representa una entidad en [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Las tablas de integración incluyen campos correspondientes a los campos en la tabla de la [!INCLUDE[cds_long_md](includes/cds_long_md.md)] entidad. Por ejemplo, la tabla de integración de Cuenta se conecta a la entidad Cuentas en [!INCLUDE[cds_short_md](includes/cds_long_md.md)]. Debe existir una asignación de tabla de integración correspondiente para cada entidad en [!INCLUDE [cds_short_md](includes/cds_short_md.md)] en la que desee sincronizar los datos [!INCLUDE[prodshort](includes/prodshort.md)].
+Una tabla de la integración es una tabla [!INCLUDE[d365fin](includes/d365fin_md.md)] de la base de datos que representa una entidad en [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Las tablas de integración incluyen campos correspondientes a los campos en la tabla de la [!INCLUDE[cds_long_md](includes/cds_long_md.md)] entidad. Por ejemplo, la tabla de integración de Cuenta se conecta a la entidad Cuentas en [!INCLUDE[cds_short_md](includes/cds_long_md.md)]. Debe existir una asignación de tabla de integración correspondiente para cada entidad en [!INCLUDE[cds_short_md](includes/cds_short_md.md)] en la que desee sincronizar los datos [!INCLUDE[prodshort](includes/prodshort.md)].
 
 Cuando cree la conexión entre las aplicaciones, [!INCLUDE[d365fin](includes/d365fin_md.md)] se configuran algunas asignaciones de tabla y campo predeterminadas. Puede modificar la asignación de tablas si lo desea. Para obtener más información, consulte [Asignación de entidad estándar para la sincronización](admin-synchronizing-business-central-and-sales.md#standard-entity-mapping-for-synchronization). Si ha cambiado las asignaciones predeterminadas y desea revertir sus cambios, en la página **Configuración de conexión de [!INCLUDE[d365fin](includes/cds_long_md.md)]** elija **Usar configuración de sincronización predeterminada**.
 

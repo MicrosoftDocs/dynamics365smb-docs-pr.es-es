@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: analysis, history, track
 ms.date: 04/14/2020
 ms.author: sgroespe
-ms.openlocfilehash: d353381c9267e9039d0b4391aa7fdac1c8a3c405
-ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
+ms.openlocfilehash: 2d5285fdfbe8c1a07a766a3fbbe268a4ecbfef0a
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "3262171"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528893"
 ---
 # <a name="working-with-dimensions"></a>Trabajar con dimensiones
 Para simplificar la realización de análisis en documentos, como pedidos de venta, puede utilizar dimensiones. Las dimensiones son atributos y valores que clasifican los movimientos de modo que pueda realizar el seguimiento y el análisis de ellos. Por ejemplo, las dimensiones pueden indicar de qué proyecto o departamento procede un movimiento.  
@@ -113,7 +113,7 @@ Las dimensiones globales y abreviadas se pueden utilizar como un filtro en cualq
 > Al añadir o cambiar una dimensión global o abreviada, se cierra automáticamente la sesión y se vuelve a iniciar para que el nuevo valor esté preparado para su uso en toda la aplicación.
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de contabilidad** y luego elija el enlace relacionado.
-2. En la ficha desplegable **Dimensiones**, rellene los campos. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. En la ficha desplegable **Dimensiones**, rellene los campos. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 #### <a name="to-change-global-dimensions"></a>Para cambiar las dimensiones globales
 Al cambiar una dimensión global o abreviada, se actualizan todos los movimientos registrados con la dimensión en cuestión. Debido a que este proceso puede llevar mucho tiempo y afectar al rendimiento, se proporcionan dos modos diferentes de adaptar el proceso al tamaño de la base de datos.  

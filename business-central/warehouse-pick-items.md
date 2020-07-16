@@ -1,6 +1,6 @@
 ---
 title: Elegir productos | Documentos de Microsoft
-description: La actividad de almacén consistente en realizar el picking de los productos antes de enviarlos o consumirlos se realiza de modo distinto según estén configuradas las funciones de gestión del almacén. La complejidad de la [configuración](../configure-warehouse-processes.md) puede oscilar desde la ausencia total de funciones de almacén, pasando por configuraciones de almacén básicas para la gestión pedido-por-pedido en sólo una o más actividades, hasta configuraciones más avanzadas en las que todas las actividades del almacén se llevan a cabo como parte de un flujo de trabajo dirigido.
+description: La actividad de almacén consistente en realizar el picking de los productos antes de enviarlos o consumirlos se realiza de modo distinto según estén configuradas las funciones de gestión del almacén. La complejidad de la configuración puede oscilar desde la ausencia total de funciones de almacén, pasando por configuraciones de almacén básicas para la gestión pedido-por-pedido en sólo una o más actividades, hasta configuraciones más avanzadas en las que todas las actividades del almacén se llevan a cabo como parte de un flujo de trabajo dirigido.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/30/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4b7f183c36c739f4dcb92b901639de6ebe8af97f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: a19496eafcacb3a2c021d78da5e5b7130300154a
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196068"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3529293"
 ---
 # <a name="pick-items"></a>Elegir productos
+
 La actividad de almacén consistente en realizar el picking de los productos antes de enviarlos o consumirlos se realiza de modo distinto según estén configuradas las funciones de gestión del almacén. La complejidad puede oscilar desde la ausencia total de funciones de almacén, pasando por configuraciones básicas de almacén para la gestión pedido-por-pedido en sólo una o más actividades, hasta configuraciones más avanzadas en las que todas las actividades del almacén se llevan a cabo como parte de un flujo de trabajo dirigido. Para obtener más información, consulte [Configuración de la administración de almacén](warehouse-setup-warehouse.md).
 
 Si decide organizar y registrar su actividad de picking con documentos de almacén, active el campo **Picking requerido** en la ficha de almacén. Esto indica que, cuando tenga que realizar el picking de productos para un documento de origen de salida, desea que el picking de estos productos se controle por el sistema. El documento de origen de salida puede ser un pedido de venta, una devolución de compras, un pedido de transferencia de salida, un pedido de servicio o una orden de producción de cuyos componentes debe realizarse el picking.

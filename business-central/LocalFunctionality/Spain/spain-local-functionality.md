@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/09/2020
 ms.author: sgroespe
-ms.openlocfilehash: ab8358a402c6cca200d0fd9ad0898171b10eefd5
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 22880489aebdf8aa691f0f94ba131ccd296db5cd
+ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189161"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454425"
 ---
 # <a name="spain-local-functionality"></a>Funcionalidad local para España
+
 En los temas siguientes se describe la funcionalidad local que es única para la versión española de [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
 ## <a name="feature-availability"></a>Disponibilidad de la característica  
@@ -73,6 +74,7 @@ En los temas siguientes se describe la funcionalidad local que es única para la
     * [Establecer límites para fechas de vencimiento](how-to-set-limits-for-due-dates.md) **Disponible ahora**
 
 ## <a name="see-also"></a>Consulte también
-[Trabajar con [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)
+[Trabajar con [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
+[Disponibilidad nacional/regional e idiomas admitidos](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 ## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  

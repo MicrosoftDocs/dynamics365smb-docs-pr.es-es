@@ -1,8 +1,6 @@
 ---
 title: Resumen de tareas para administrar los cobros | Documentos de Microsoft
 description: Describe tareas para administrar los cobros y liquidar los pagos en los movimientos de cliente o proveedor.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer payment, debtor, balance due, AR
-ms.date: 04/01/2020
+ms.date: 06/19/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4d9431ba233f1fa304fab589a3dc85e831e53217
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 7775ae9f007733d366566dd5137add30e3f62059
+ms.sourcegitcommit: 0c6f4382fad994fb6aea9dcde3b2dc25382c5968
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191912"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "3484216"
 ---
 # <a name="managing-receivables"></a>Administrar cobros
+
 Un paso normal en el ritmo financiero es conciliar las cuentas bancarias, lo que requiere liquidar pagos entrantes en las movimientos de cliente o propiedad para cerrar las facturas de venta y los abonos de compra como pagados.
 
 Si bien la mayoría de los clientes en entornos B2B pagan después de la entrega y dejan las facturas de ventas publicadas abiertas para que el departamento de Cobros las cierre (aplique) cuando se recibe el pago, algunas facturas de ventas se pueden pagar de inmediato, por ejemplo con PayPal. Dichas facturas se liquidan inmediatamente como pagadas cuando se contabilizan y, por lo tanto, no aparecen como pagos en procesos en AR. Para obtener más información, vea, por ejemplo [Facturar ventas](sales-how-invoice-sales.md).  
@@ -32,7 +31,7 @@ Existen otras páginas donde puede liquidar pagos o conciliar cuentas bancarias:
 * La página **Registro de pagos**, donde puede liquidar manualmente los pagos recibidos como efectivo, cheque o transacción bancaria frente a una lista de documentos de ventas sin pagar. Tenga en cuenta que esta funcionalidad solo está disponible para documentos de ventas. Aquí, no puede liquidar pagos salientes, y no puede conciliar cuentas bancarias.
 * La página **Diario de recibos de efectivo**, donde puede registrar manualmente los albaranes en el libro mayor, cliente u otra cuenta pertinente introduciendo una línea de pago. Puede liquidar el albarán o el reembolso a uno o varios movimientos abiertos antes de registrar el diario de cobros o desde movimientos de cliente. Aquí, no puede conciliar cuentas bancarias.
 
-Las páginas **Diario de conciliación de pagos** y **Conciliación banco** utilizan lógica de coincidencia automática que puede configurar en la página **Reglas de liquidación de pago**. Para obtener más información, consulte [Configurar reglas para la liquidación automática de pagos](receivables-how-set-up-payment-application-rules.md).
+La página **Diario de conciliación de pagos** usa lógica de conciliación automática que puede configurar en la página **Reglas de liquidación de pago**. Para obtener más información, consulte [Configurar reglas para la liquidación automática de pagos](receivables-how-set-up-payment-application-rules.md).  
 
 Otros aspectos de la gestión de los cobros incluyen el cobro de los saldos pendientes, incluidos los gastos financieros y los recordatorios, así como la apertura de cuentas bancarias para permitir que los pagos de los clientes se retiren automáticamente de su cuenta.
 

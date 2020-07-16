@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: print check, customize
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 479281e24bffb824f9fc8499bb34ab6b11311a52
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 8346e8a868f73d3de729a56e86530048c58229aa
+ms.sourcegitcommit: 3945f16d6d9c9853651e6291ce1465a44fd71fc8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183673"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "3458932"
 ---
 # <a name="select-a-check-layout"></a>Seleccionar una plantilla de cheques
 Puede diseñar los cheques conforme a los estándares definidos por las autoridades locales. Las imágenes de los cheques se pueden imprimir en inglés, francés o español.
@@ -54,6 +54,9 @@ A continuación se resumen las especificaciones para las fuentes MICR E-13B que 
 
 ![Especificaciones MICR E-13B](media/font_MICR_E-13B_Specifications.png "Especificaciones MICR E-13B")
 
+### <a name="delimiter-characters"></a>Caracteres delimitadores
+![Caracteres delimitadores](media/font-micr-letters.png "Caracteres delimitadores")
+
 La especificación completa de las fuentes MICR E-13B se puede encontrar en la documentación del proveedor aquí: (https://www.idautomation.com/micr-fonts/e13b/).
 
 ### <a name="micr-cmc-7-specifications"></a>Especificaciones MICR CMC-7
@@ -67,6 +70,9 @@ Las siguientes fuentes CMC-7 están disponibles en línea en [!INCLUDE[d365fin](
 A continuación se resumen las especificaciones para las fuentes MICR CMC-7 que pueden ser útiles al calibrar fuentes para que estén en diseños de cheques con impresoras MICR específicas.
 
 ![Especificaciones MICR CMC-7](media/font_MICR_CMC-7_Specifications.png "Especificaciones MICR CMC-7")
+
+### <a name="delimiter-characters"></a>Caracteres delimitadores
+![Caracteres delimitadores](media/font-cmc7-letters.png "Caracteres delimitadores")
 
 La especificación completa de las fuentes MICR CMC-7 se puede encontrar en la documentación del proveedor aquí: (http://www.idautomation.com/micr-fonts/cmc7/).
 

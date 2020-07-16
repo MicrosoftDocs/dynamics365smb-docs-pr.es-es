@@ -1,8 +1,6 @@
 ---
 title: Registrar y reembolsar gastos empresariales de los empleados | Documentos de Microsoft
 description: Registre los gastos de los empleados con el diario general en la cuenta del empleado y luego registre un pago a la cuenta bancaria del empleado para reembolsar el gasto relacionado con el negocio.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,22 +8,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
-ms.date: 04/01/2020
+ms.date: 06/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: 5f943006997e4735d4ec224957442f23e2af1324
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 9d2ba275d747ced6f4c3adbd642f45d5ed33d8d1
+ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184081"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "3503524"
 ---
 # <a name="record-and-reimburse-employees-expenses"></a>Registro y reembolso de los costes de los empleados
+
 [!INCLUDE[d365fin](includes/d365fin_md.md)] soporta transacciones para empleados de una manera similar a los proveedores. En consecuencia, existen grupos de contabilización de empleados para asegurarse de que las entradas del libro mayor de empleados se registran en las cuentas relevantes del libro mayor.
 
 > [!NOTE]  
 > Las transacciones de empleado se pueden registrar únicamente en la divisa local. Los pagos de reembolso a los empleados no son compatibles con los descuentos y las tolerancias de pago.
 
-Si los empleados gastan su propio dinero durante las actividades comerciales, puede registrar el gasto en la cuenta del empleado. De este modo, puede reembolsar al empleado mediante un pago a su cuenta bancaria, del mismo modo que paga a los proveedores.
+Si los empleados gastan su propio dinero durante las actividades comerciales, puede registrar el gasto en la cuenta del empleado. De este modo, puede reembolsar al empleado mediante un pago a su cuenta bancaria, del mismo modo que paga a los proveedores.  
+
+> [!TIP]
+> En este artículo se explica cómo registrar el gasto en los libros y cómo reembolsar al empleado. Su organización puede tener un portal o aplicación donde los empleados pueden enviar sus informes de gastos.
 
 ## <a name="to-record-an-employees-expense"></a>Registrar el gasto de un empleado
 Puede registrar los costes de los empleados en la página **Diario general**.

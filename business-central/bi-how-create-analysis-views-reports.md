@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: eae3cec231fd7c1da537ebf64c1008c8e114c9eb
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: d975b0e61228f650cea5b9d6d75b27f4334bb88a
+ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186097"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "3496830"
 ---
 #  <a name="create-analysis-reports"></a>Crear informes de análisis
 Los directores de ventas necesitan analizar las facturaciones, los ingresos brutos y otros indicadores clave del rendimiento de las ventas con regularidad. Los compradores están más interesados en la dinámica de los volúmenes de compra, las actuaciones de los proveedores y los precios de compra. A su vez, los directores de inventario/logística necesitan información sobre la rotación de inventarios, sobre los análisis de los movimientos de inventario y sobre las estadísticas de valores de inventario.  
@@ -41,9 +41,9 @@ A continuación, puede configurar las siguientes columnas:
 - Porcentaje de ventas del mes anterior  
 
 ## <a name="setting-up-line-and-column-layouts"></a>Configuración de plantillas de líneas y columnas  
- En la página **Informe de análisis**, puede ver distintas plantillas de líneas y columnas según la configuración definida. Las líneas o las plantillas de línea, se configuran en la página **Plantilla de línea de análisis**. En esta página puede definir el nombre del informe y los objetos que desea mostrar en las líneas del informe. Las columnas se configuran en la página **Plantillas columnas análisis**. En esta página puede definir el nombre de la plantilla de columna y los parámetros de análisis que desea mostrar en el informe como columnas. En la página **Plantillas columnas análisis**, cada línea representa una columna del informe. Observe que las líneas de análisis y las columnas de análisis son independientes las unas de las otras.  
+ En la página **Informe de análisis**, puede ver diferentes diseños de línea y columna de acuerdo con las líneas o plantillas de línea que configuró en la página **Plantillas de línea de análisis**. Puede definir el nombre del informe y los objetos que desea mostrar en las líneas del informe. Las columnas se configuran en la página **Plantillas columnas análisis**. Puede definir el nombre de la plantilla de columna y los parámetros de análisis que desea mostrar en el informe como columnas. En la página **Plantillas columnas análisis**, cada línea representa una columna del informe. Observe que las líneas de análisis y las columnas de análisis son independientes las unas de las otras.  
 
-Basándose en las líneas y columnas definidas, la aplicación agregará el resultado del informe en la página de matriz **Informe de análisis**, como en este ejemplo:  
+Basándose en las líneas y columnas definidas, [!INCLUDE[d365fin](includes/d365fin_md.md)] agregará el resultado del informe en la página **Informe de análisis**, como se muestra en la siguiente tabla.  
 
 | |Ventas del mes actual|Ventas del mes anterior|Porcentaje de ventas del mes anterior|  
 |-|-|-|-|  

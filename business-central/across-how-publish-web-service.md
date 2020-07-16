@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: ''
 ms.date: 05/19/2020
 ms.author: edupont
-ms.openlocfilehash: c9f12f2b15c379ad1f4765f1a20e773150f33b84
-ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
+ms.openlocfilehash: 9650539c44a464aab238914ca5d3d65cb8b5c0b8
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3402458"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528190"
 ---
 # <a name="publish-a-web-service"></a>Publicar un servicio web
 
@@ -39,7 +39,7 @@ Los pasos siguientes explican cómo crear y publicar un servicio web.
 Al publicar el servicio web, en los campos **URL de OData** y **URL de SOAP**, puede ver las direcciones URL que se generan para el servicio web. Puede probar el servicio web inmediatamente eligiendo los vínculos de los campos **URL de OData** y **URL de SOAP**. Opcionalmente, puede copiar el valor del campo y guardarlo para su uso posterior.  
 
 > [!NOTE]
-> Si los objetos que expone como servicios web no deben ser accesibles desde [!INCLUDE [prodshort](includes/prodshort.md)] en línea, debe marcar los métodos expuestos en el código como `[Scope('OnPrem')]`. Para obtener más información, consulte [Ámbito de atributo](/dynamics365/business-central/dev-itpro/developer/methods/devenv-scope-attribute).
+> Si los objetos que expone como servicios web no deben ser accesibles desde [!INCLUDE[prodshort](includes/prodshort.md)] en línea, debe marcar los métodos expuestos en el código como `[Scope('OnPrem')]`. Para obtener más información, consulte [Ámbito de atributo](/dynamics365/business-central/dev-itpro/developer/methods/devenv-scope-attribute).
 
 Una vez publique un servicio Web, está disponible a partes externas. Puede verificar la disponibilidad del servicio web con un explorador o bien, puede elegir el vínculo de los campos **URL de OData** y **URL de SOAP** en la página **Servicios web**. El procedimiento siguiente muestra cómo puede comprobar la disponibilidad del servicio web para uso posterior.  
 

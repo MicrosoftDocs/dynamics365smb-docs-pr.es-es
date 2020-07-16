@@ -7,19 +7,19 @@ ms.topic: get-started-article
 ms.search.keywords: setup wizard
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 62ee42fe2b6e03ad1137a50a38c1cd2ee4bfcd0f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 41281996dccf0c3ee142c063ad56c782dab49230
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190160"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528743"
 ---
 # <a name="getting-started-with-d365fin_long"></a>Introducción a [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] es una solución de administración empresarial para pequeñas y medianas empresas que automatiza y optimiza los procesos empresariales y le ayuda a administrar su empresa. Registrarse es muy fácil y puede migrar los datos de la empresa existentes desde su sistema de herencia.  
 
 Para ayudarle con su suscripción, encuentre un socio de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, vea [¿Cómo encuentro un socio distribuidor?](across-faq.md#findpartner)  
 
-Cuando se registra en [!INCLUDE [prodshort](includes/prodshort.md)], dispone de acceso a una empresa de demostración. La empresa de demostración contiene datos de ejemplo, pero puede crear nuevos documentos de venta, por ejemplo, o configurar una cuenta bancaria. Sin embargo, si desea usar [!INCLUDE [prodshort](includes/prodshort.md)] como ayuda para administrar su negocio, debe ponerse en contacto con un socio distribuidor de [!INCLUDE [prodshort](includes/prodshort.md)] y comprar una suscripción. Para obtener más información sobre pruebas y suscripciones, vea [Versiones de prueba y suscripciones](across-preview.md).  
+Cuando se registra en [!INCLUDE[prodshort](includes/prodshort.md)], dispone de acceso a una empresa de demostración. La empresa de demostración contiene datos de ejemplo, pero puede crear nuevos documentos de venta, por ejemplo, o configurar una cuenta bancaria. Sin embargo, si desea usar [!INCLUDE[prodshort](includes/prodshort.md)] como ayuda para administrar su negocio, debe ponerse en contacto con un socio distribuidor de [!INCLUDE[prodshort](includes/prodshort.md)] y comprar una suscripción. Para obtener más información sobre pruebas y suscripciones, vea [Versiones de prueba y suscripciones](across-preview.md).  
 
 ## <a name="get-to-know-d365fin"></a>Familiarícese con [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
@@ -34,7 +34,7 @@ Para obtener más información, consulte [Trabajar con [!INCLUDE[d365fin](includ
 > [!TIP]  
 > Siempre puede volver al área de trabajo seleccionando el nombre de la empresa en la esquina superior izquierda.
 
-En la empresa de demostración, el administrador de negocio y las áreas de trabajo de contable incluyen el mosaico Introducción y el mosaico Vídeos de productos. Ambos mosaicos abren páginas donde puede elegir entre diferentes vídeos que pueden ayudarle a comenzar con diferentes aspectos de [!INCLUDE [prodshort](includes/prodshort.md)]. Puede encontrar más vídeos en nuestro canal de YouTube. Para obtener más información, vea [Visite nuestra biblioteca de vídeos](across-videos.md). También puede encontrar contenido de eLearning para la versión base de [!INCLUDE [prodshort](includes/prodshort.md)] en [Microsoft Learn](/learn/browse/?products=dynamics-business-central). Si desea más ayuda, contacte a un socio de [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+En la empresa de demostración, el administrador de negocio y las áreas de trabajo de contable incluyen el mosaico Introducción y el mosaico Vídeos de productos. Ambos mosaicos abren páginas donde puede elegir entre diferentes vídeos que pueden ayudarle a comenzar con diferentes aspectos de [!INCLUDE[prodshort](includes/prodshort.md)]. Puede encontrar más vídeos en nuestro canal de YouTube. Para obtener más información, vea [Visite nuestra biblioteca de vídeos](across-videos.md). También puede encontrar contenido de eLearning para la versión base de [!INCLUDE[prodshort](includes/prodshort.md)] en [Microsoft Learn](/learn/browse/?products=dynamics-business-central). Si desea más ayuda, contacte a un socio de [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 
 Cuando esté preparado para empezar a trabajar y desee examinar algunos de los procesos empresariales que admite [!INCLUDE[d365fin](includes/d365fin_md.md)], vea [Funciones empresariales](across-business-functionality.md).
 

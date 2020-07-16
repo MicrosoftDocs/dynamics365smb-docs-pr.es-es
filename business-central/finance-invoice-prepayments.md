@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: d19a45caabbd4eecf4a0d37cb1c7d964683f4698
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 7bb145fc93c6adadf13e41317b0ce1ee79bb32d3
+ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183112"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "3503472"
 ---
 # <a name="invoicing-prepayments"></a>Facturación de prepagos
+
 Los prepagos son pagos que se facturan y registran en un pedido de prepago de ventas o compras antes de la facturación final. Puede requerir un depósito antes de fabricar productos bajo pedido o puede requerir el pago antes de enviar productos a un cliente. La funcionalidad de prepagos le permite facturar y cobrar depósitos requeridos de los clientes o remitir depósitos a proveedores. De este modo, puede asegurar que todos los pagos se registran contra una factura.  
 
  Los requisitos de los prepagos se pueden definir para un cliente o proveedor, para todos los productos o para algunos. Una vez realizada la configuración necesaria, puede generar facturas de prepago a partir de pedidos de compra y venta para el importe calculado del prepago. Puede cambiar los importes en la factura según sea necesario. Por ejemplo, puede especificar un importe total para todo el pedido. También puede enviar facturas de prepago adicionales si, por ejemplo, es necesario añadir nuevos productos al pedido. Puede aumentar las cantidades o añadir nuevas líneas a un pedido después de emitir un prepago y después puede registrar otra factura de prepago. Si desea eliminar una línea para la cual ya se ha facturado un prepago, deberá emitir un abono de prepago para poder eliminar la línea.  
@@ -32,7 +33,8 @@ Los prepagos son pagos que se facturan y registran en un pedido de prepago de ve
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/prepayment-invoices-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Consulte también  
+## <a name="see-also"></a>Consulte también
+
 [Tutorial: Configuración y facturación de prepagos de ventas](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Finanzas](finance.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

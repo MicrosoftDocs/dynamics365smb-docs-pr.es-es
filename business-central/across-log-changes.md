@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: user log, user activity, tracking
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6db170f8cf0b214a4ec85fc835eb8b98f071f203
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 201716238ddd42ac19cd769a8635d726e27e1509
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187722"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528818"
 ---
 # <a name="auditing-changes-in-business-central"></a>Auditar cambios en Business Central
 
@@ -40,7 +40,7 @@ Después de haber configurado el registro de cambios, haberlo activado y alguien
 
 ## <a name="working-with-activity-logs"></a>Trabajar con registros de actividad
 
-Desde algunas páginas en [!INCLUDE [prodshort](includes/prodshort.md)], puede ver un registro de actividad que muestra el estado y los errores de los archivos que exporta o importa [!INCLUDE [prodshort](includes/prodshort.md)].  
+Desde algunas páginas en [!INCLUDE[prodshort](includes/prodshort.md)], puede ver un registro de actividad que muestra el estado y los errores de los archivos que exporta o importa [!INCLUDE[prodshort](includes/prodshort.md)].  
 
 La información se muestra en la ventana **Registro de actividad** según el contexto desde el que se abra. Puede abrir la ventana desde las páginas **Configuración del servicio de intercambio de documentos**, **Documento entrante**, **Histórico facturas venta** e **Histórico de abonos de venta**, por ejemplo. Puede vaciar la lista de entradas de registro o simplemente borrar la lista de entradas anteriores a 7 días.  
 

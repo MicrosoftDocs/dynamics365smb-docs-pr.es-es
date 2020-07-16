@@ -1,7 +1,6 @@
 ---
 title: Configurar el correo electrónico en Business Central | Documentos de Microsoft
 description: Describe cómo usar el servidor SMTP de la empresa para enviar y recibir mensajes de correo electrónico en Business Central, así como el modo de usar la configuración del servidor de correo electrónico creada con la suscripción de Office 365.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -9,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 04/01/2020
+ms.date: 06/15/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9ece89b1d797d31a99c92f1bb292280b7f54ab7b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 36f9c561cd2bde8256e9bbb9694c89cd780b67ad
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187273"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528392"
 ---
 # <a name="set-up-email"></a>Configurar correo electrónico
+
 Para enviar y recibir los correos electrónicos desde [!INCLUDE[d365fin](includes/d365fin_md.md)], debe rellenar los campos de la página **Configuración correo SMTP**.
 
 En lugar de especificar los detalles del servidor SMTP manualmente, puede utilizar la función **Aplicar la configuración del servidor de Office 365** para introducirlos con la información de su suscripción de Office 365.
@@ -26,6 +26,7 @@ En lugar de especificar los detalles del servidor SMTP manualmente, puede utiliz
 Puede configurar el correo electrónico manualmente, tal como se describe a continuación, o puede obtener ayuda mediante la guía de configuración asistida **Configuración correo electrónico**. Para obtener más información, vea [Preparación para hacer negocios](ui-get-ready-business.md).  
 
 ## <a name="to-set-up-email"></a>Para configurar el correo electrónico
+
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de correo electrónico SMTP** y luego elija el enlace relacionado.
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -36,6 +37,7 @@ Puede configurar el correo electrónico manualmente, tal como se describe a cont
 5. Cuando la prueba se realice correctamente, cierre la página.
 
 ## <a name="using-a-substitute-sender-address-on-outbound-email-messages"></a>Uso de una dirección de remitente sustituta en los mensajes de correo electrónico salientes
+
 Todos los mensajes de correo electrónico salientes desde [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizarán la dirección predeterminada de la cuenta que especificó en la página Configuración de correo electrónico SMTP, como se describe más arriba. Sin embargo, puede utilizar las funciones **Enviar como** o **Enviar en nombre de** en su servidor Exchange para cambiar la dirección del remitente en los mensajes salientes. [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizará la cuenta predeterminada para autenticarse en Exchange, pero sustituirá la dirección del remitente por la que especifique o la modificará con "en nombre de".
 
 A continuación se ofrecen ejemplos de cómo se usan Enviar como y Enviar en nombre de en [!INCLUDE[d365fin](includes/d365fin_md.md)]:
@@ -54,6 +56,7 @@ A continuación se ofrecen ejemplos de cómo se usan Enviar como y Enviar en nom
 5. En el **centro de administración de Exchange**, busque el buzón de correo que desea utilizar como dirección sustituta y, a continuación, introduzca la dirección del campo **ID de usuario** en el campo **Enviar como**. Para más información, ver [Use el EAC para asignar permisos a buzones individuales](/Exchange/recipients/mailbox-permissions?view=exchserver-2019#use-the-eac-to-assign-permissions-to-individual-mailboxes).
 
 ### <a name="to-use-the-substitute-address-in-approval-workflows"></a>Para utilizar la dirección sustituta en los flujos de trabajo de aprobación
+
 1. En [!INCLUDE[d365fin](includes/d365fin_md.md)], elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de correo electrónico SMTP** y luego elija el enlace relacionado.
 2. Copie o anote la dirección en el campo **ID de usuario**.
 3. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Config. usuario aprobación** y luego elija el enlace relacionado.
@@ -64,6 +67,13 @@ A continuación se ofrecen ejemplos de cómo se usan Enviar como y Enviar en nom
 > [!Note]
 > [!INCLUDE[d365fin](includes/d365fin_md.md)] determinará qué dirección se mostrará en el siguiente orden: <br><br> 1. La dirección especificada en el campo **Correo electrónico** de la página **Configuración de usuario de aprobación** para los mensajes en un flujo de trabajo. <br> 2. La dirección especificada en el campo **Enviar como** de la página **Configuración de correo electrónico SMTP**. <br> 3. La dirección especificada en el campo **ID de usuario** de la página **Configuración de correo electrónico SMTP**.
 
+## <a name="set-up-public-folders-and-rules-for-email-logging-in-exchange-online"></a>Configurar carpetas públicas y reglas para iniciar sesión por correo electrónico en Exchange Online
+
+Aproveche al máximo las comunicaciones entre los vendedores y sus clientes actuales o potenciales mediante el seguimiento de los intercambios de correos electrónicos y, a continuación, conviértalos en oportunidades procesables. Para obtener más información, vea [Realizar un seguimiento de los intercambios de mensajes de correo electrónico entre vendedores y contactos](marketing-set-up-email-logging.md).  
+
+[!INCLUDE[admin-setup-email-public-folder](includes/admin-setup-email-public-folder.md)]
+
+Luego, te conectas [!INCLUDE[prodshort](includes/prodshort.md)] con Exchange Online. Para obtener más información, vea [Realizar un seguimiento de los intercambios de mensajes de correo electrónico entre vendedores y contactos](marketing-set-up-email-logging.md).  
 
 ## <a name="see-also"></a>Consulte también
 

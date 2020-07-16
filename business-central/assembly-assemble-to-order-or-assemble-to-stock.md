@@ -1,7 +1,7 @@
 ---
 title: Descripción de ensamblar para pedido y ensamblar para stock | Documentos de Microsoft
 description: Los elementos de ensamblado se pueden suministrar ensamblándolos cuando se ordenan o ensamblándolos para que se mantengan en el inventario hasta que sean necesarios en una orden de venta.
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 1f34ee61fa532aa7600baa8883d182cbad545493
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: bholtorf
+ms.openlocfilehash: a8b5ab66b680b6c49226e308e6f2e17a0c2604f9
+ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186817"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "3496805"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Descripción de ensamblar para pedido y ensamblar para stock
 Los artículos de montaje se pueden suministrar en los dos procesos siguientes:  
@@ -66,11 +66,11 @@ Cuando se introduce un artículo de ensamblar para pedido en una línea de venta
 
  Sin embargo, en los escenarios de combinación, el valor completo de **Cdad. a enviar** no se copia al campo **Cantidad a ensamblar** de la cabecera del pedido de ensamblado. Un su lugar, este valor predeterminado se inserta en el campo **Cantidad a ensamblar** calculado a partir de **Cdad. a enviar** según una regla predefinida que garantiza antes el envío de las cantidades ensamblar para pedido.  
 
- Si desea desviarse de este valor predeterminado, por ejemplo porque sólo quiera ensamblar cantidades mayores o menores en el campo **Cdad. a enviar**, puede modificar el campo **Cantidad a ensamblar**, pero sólo dentro de las reglas predefinidas, tal como se muestra abajo.  
+ Si desea desviarse de este valor predeterminado, por ejemplo porque solo quiera ensamblar cantidades mayores o menores en el campo **Cdad. a enviar**, puede modificar el campo **Cantidad a ensamblar**, pero sólo dentro de las reglas predefinidas, tal como se muestra abajo.  
 
  Un ejemplo del motivo por el que querría modificar la cantidad para ensamblar es que desee registrar parcialmente el envío de las cantidades del inventario antes de que la salida de ensamblado se pueda enviar.  
 
- A continuación se explican las reglas que definen los valores mínimo y máximo que se pueden introducir manualmente en **Cantidad a ensamblar** para desviarse del valor predeterminado en un escenario de combinación. La tabla muestra un escenario de combinación cuyo campo **Cdad. a enviar** en la línea vinculada del pedido de venta se cambia del 7 al 4, y **Cdad. a ensamblar** se establece de forma predeterminada en 4.  
+ En la siguiente tabla, se explican las reglas que definen los valores mínimo y máximo que se pueden introducir manualmente en el campo **Cantidad a ensamblar** para desviarse del valor predeterminado en un escenario de combinación. La tabla muestra un escenario de combinación cuyo campo **Cdad. a enviar** en la línea vinculada del pedido de venta se cambia del 7 al 4, y **Cdad. a ensamblar** se establece de forma predeterminada en 4.  
 
 ||Línea de pedido de venta|Cabecera de pedido de ensamblado|  
 |-|----------------------|---------------------------|  

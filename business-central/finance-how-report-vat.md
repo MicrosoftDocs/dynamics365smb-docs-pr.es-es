@@ -8,24 +8,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
-ms.date: 04/01/2020
+ms.date: 06/25/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7365886f09e1e3d1b67dcbea82594f3d3599f25a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: f12d12bf4fb6a12a0abe52101f30a16a182bd1b2
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183889"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528215"
 ---
 # <a name="report-vat-to-tax-authorities"></a>Crear informes de IVA para las autoridades fiscales
-En este tema se describen los informes de [!INCLUDE[d365fin](includes/d365fin_md.md)] que puede utilizar para enviar información sobre importes del IVA (IVA) para ventas y compras a las autoridades fiscales de su región.
+En este tema se describen los informes de [!INCLUDE[d365fin](includes/d365fin_md.md)] que puede utilizar para enviar información sobre importes del IVA (IVA) para ventas y compras a las autoridades fiscales de su región. 
 
 Utilice los siguientes informes:
 
 * El informe **Lista venta CE** (Lista de ventas de la Comunidad Europea (CE)) contiene listas de los importes del IVA que ha recaudado con las ventas a clientes con IVA dentro de los países de la Unión Europea.  
-* El informe **Devolución de IVA** incluye el IVA de las ventas y compras a clientes pertenecientes a todos los países que utilizan el IVA.
+* El informe **Devolución de IVA** incluye el IVA de las ventas y compras a clientes y de proveedores pertenecientes a todos los países que utilizan el IVA.
 
 Si desea ver un historial completo de entradas de IVA, cada publicación que implica IVA crea una entrada en la página **Movs. IVA** . Estos movimientos se utilizan para calcular el importe de liquidación de IVA, como pago o devolución, de un determinado periodo. Para ver los movimientos de IVA, elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Movimientos de IVA** y luego elija el enlace relacionado.
+
+> [!NOTE]
+> Cada entorno [!INCLUDE[d365fin](includes/d365fin_md.md)] está destinado a gestionar la información reglamentaria en un solo país. Por ejemplo, la versión holandesa de [!INCLUDE[d365fin](includes/d365fin_md.md)] gestiona las declaraciones del IVA en los Países Bajos, pero no en otros países. Del mismo modo, la versión de Estados Unidos de [!INCLUDE[d365fin](includes/d365fin_md.md)] gestiona las declaraciones 1099 en los Estados Unidos y no admite la solicitud de declaraciones del IVA en otros países, a menos que sea posible a través de una extensión entregada por nuestro ecosistema de socios o una modificación de código específica del cliente.
 
 ## <a name="about-the-ec-sales-list-report"></a>Acerca del informe de la Lista venta CE
 En el Reino Unido, todas las empresas que venden bienes y servicios a los clientes con IVA, incluidos los de los estados miembros de la UE, deben presentar una versión electrónica de su informe de la lista de ventas de la Comunidad Europea en formato XML a través del sitio web Her Majesty's Revenue and Customs (HMRC). El informe de la lista de ventas de la CE funciona solo para los países de la UE.
@@ -59,7 +62,7 @@ Para informar el IVA a una autoridad fiscal electrónicamente, debe conectar [!I
 2. Rellene los campos requeridos. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]  
-    >   Conviene probar la conexión. Para ello, seleccione la casilla de verificación **Ejecutar en modo de prueba** y, a continuación, prepare y envíe su informe de IVA como se describe en la sección _Preparar y enviar un informe de IVA_. Mientras está en modo de prueba, el servicio comprueba si la autoridad tributaria puede recibir su informe y el estado del informe indicará si el envío de la prueba ha sido satisfactorio. Debe recordar que no es un envío real. Para enviar el informe de válido, debe desactivar la casilla de verificación **Ejecutar en modo de prueba** y, a continuación, repetir el proceso.
+    > Conviene probar la conexión. Para ello, seleccione la casilla de verificación **Ejecutar en modo de prueba** y, a continuación, prepare y envíe su informe de IVA como se describe en la sección _Preparar y enviar un informe de IVA_. Mientras está en modo de prueba, el servicio comprueba si la autoridad tributaria puede recibir su informe y el estado del informe indicará si el envío de la prueba ha sido satisfactorio. Debe recordar que no es un envío real. Para enviar el informe de válido, debe desactivar la casilla de verificación **Ejecutar en modo de prueba** y, a continuación, repetir el proceso.
 
 ## <a name="to-set-up-vat-reports-in-d365fin"></a>Para configurar informes IVA en [!INCLUDE[d365fin](includes/d365fin_md.md)]
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Configuración del informe de IVA** y luego elija el enlace relacionado.  
@@ -76,7 +79,7 @@ Para informar el IVA a una autoridad fiscal electrónicamente, debe conectar [!I
 4. Para validar y preparar el informe para enviar, elija la acción **Enviar** .  
 
     > [!NOTE]  
-    >   [!INCLUDE[d365fin](includes/d365fin_md.md)] valida si el informe está correctamente configurado. Si falla la validación, los errores se muestran en la ventana **Errores y advertencias** para que pueda corregirlos. Normalmente, si el mensaje se trata de una configuración que falta en [!INCLUDE[d365fin](includes/d365fin_md.md)], puede hacer clic en el mensaje para abrir la página que contiene la información para corregir.  
+    > [!INCLUDE[d365fin](includes/d365fin_md.md)] valida si el informe está correctamente configurado. Si falla la validación, los errores se muestran en la ventana **Errores y advertencias** para que pueda corregirlos. Normalmente, si el mensaje se trata de una configuración que falta en [!INCLUDE[d365fin](includes/d365fin_md.md)], puede hacer clic en el mensaje para abrir la página que contiene la información para corregir.  
 5. Para enviar el informe, elija la acción **Enviar** .  
 
 Después de enviar el informe, [!INCLUDE[d365fin](includes/d365fin_md.md)] supervisa el servicio y mantiene un registro de sus comunicaciones. El campo **Estado** indica dónde se encuentra el informe en el proceso. Por ejemplo, cuando las autoridades procesan el informe, el estado del informe cambia a **Tenido éxito**. Si la autoridad tributaria encuentra errores en el informe que envió, el estado del informe aparecerán en **Erróneo**. Puede ver los errores en **Errores y advertencias**, corregirlos y volver a enviar el informe. Para ver una lista de todos sus informes de listas de ventas de CE, vaya a la página **Informes de la lista de ventas de CE**.  

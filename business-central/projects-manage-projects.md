@@ -8,12 +8,12 @@ ms.workload: na
 ms.search.keywords: projects
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1a9aea8ef63874b63bfd608d04b16dd3da4c7c35
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 05a41839035c271b1f3e8c94d76702f1384d5025
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190016"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3529043"
 ---
 # <a name="project-management"></a>Administración de proyectos
 En [!INCLUDE[d365fin](includes/d365fin_md.md)], puede realizar tareas habituales de administración de proyectos, como configurar un proyecto y programar un recurso, así como proporcionar la información necesaria para administrar presupuestos y supervisar el progreso. Puede hacer un seguimiento de las horas de máquina y de empleados del proyecto utilizando las hojas de horas. Como administrador de proyectos, dispone de una buena visión general no solo de proyectos individuales, sino también de la asignación de empleados, maquinaria y otros recursos que se estén usando en todos los proyectos.
@@ -36,7 +36,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 
 ## <a name="get-started-with-projects"></a>Introducción a los proyectos
 
-La administración de proyectos ya es bastante complicada en sí misma, y aprender a crear proyectos y administrar el trabajo en curso en una nueva herramienta puede ser otra complicación. Para ayudarte a empezar con la administración de proyectos en [!INCLUDE [prodshort](includes/prodshort.md)], puede ver [un vídeo sobre la creación de proyectos](https://www.youtube.com/watch?v=VqaPWr7BWmw) en el canal [!INCLUDE [prodshort](includes/prodshort.md)] de YouTube.  
+La administración de proyectos ya es bastante complicada en sí misma, y aprender a crear proyectos y administrar el trabajo en curso en una nueva herramienta puede ser otra complicación. Para ayudarte a empezar con la administración de proyectos en [!INCLUDE[prodshort](includes/prodshort.md)], puede ver [un vídeo sobre la creación de proyectos](https://www.youtube.com/watch?v=VqaPWr7BWmw) en el canal [!INCLUDE[prodshort](includes/prodshort.md)] de YouTube.  
 
 ## <a name="see-also"></a>Consulte también
 

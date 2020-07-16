@@ -12,12 +12,12 @@ ms.search.keywords: ''
 ms.reviewer: edupont
 ms.date: 04/01/2020
 ms.author: soalex
-ms.openlocfilehash: 769764f94ba887552b6b23c62c0ddad3c876fda9
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c64d93769cd2c824cdad54df8ddb3de5e9004f81
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185912"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528340"
 ---
 # <a name="service-compliance"></a>Conformidad de los servicios
 En este contenido se incluye información acerca de la conformidad de los servicios en relación con [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
@@ -30,7 +30,7 @@ Si desea encontrar la lista completa de ofertas de conformidad de Microsoft, con
 
 ## <a name="service-terms"></a>Términos del servicio
 
-[!INCLUDE [prodshort](../includes/prodshort.md)] en línea se rige por la [directiva de ciclo de vida moderno](https://support.microsoft.com/help/30881/modern-lifecycle-policy). Los términos del acuerdo de nivel de servicio se describen en el documento que puede descargar de la sección **Acuerdos de nivel de servicio para Microsoft Online Services** en la página [Términos de licencia](https://www.microsoft.com/licensing/product-licensing/products).  
+[!INCLUDE[prodshort](../includes/prodshort.md)] en línea se rige por la [directiva de ciclo de vida moderno](https://support.microsoft.com/help/30881/modern-lifecycle-policy). Los términos del acuerdo de nivel de servicio se describen en el documento que puede descargar de la sección **Acuerdos de nivel de servicio para Microsoft Online Services** en la página [Términos de licencia](https://www.microsoft.com/licensing/product-licensing/products).  
 
 Además, puede supervisar el estado de salud de su suscriptor y especificar periodos de actualización en el [Centro de administración de suscriptores](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
 

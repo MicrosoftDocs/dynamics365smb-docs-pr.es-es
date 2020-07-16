@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1f150535e8d3441bddd0144b14592592f405b201
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 458576ac91955d4f98036dbc9f1253f199f9ac00
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186025"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528943"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Preparar informes financieros con esquemas de cuentas y categorías de cuentas
 Use esquemas de cuentas para obtener información sobre los datos financieros almacenados en su plan de cuentas. Los esquemas de cuentas analizan cifras en cuentas de contabilidad y comparan los movimientos de contabilidad con los presupuestados. Los resultados se muestran en gráficos en su área de trabajo, como el gráfico de flujo de efectivo, y en informes, como los informes Balance de ingresos y Balance.
@@ -71,7 +71,7 @@ Utilice las plantillas de columnas para determinar qué columnas va a incluir en
 > Una versión impresa, guardada o de vista preliminar de un esquema de cuentas puede mostrar como máximo cinco columnas. Si el esquema de cuentas solo está destinado al análisis en la página **Panorama esq. cta.**, puede crear tantas columnas como desee.
 
 1. En la página **Esquemas de cuentas**, seleccione el esquema de cuentas correspondiente y después seleccione la acción **Editar configuración de disposición de columna**.
-2. En la página **Plantillas de columnas**, cree una fila para cada columna por la que los datos financieros se van a mostrar en el informe financiero. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. En la página **Plantillas de columnas**, cree una fila para cada columna por la que los datos financieros se van a mostrar en el informe financiero. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Elija el botón **Aceptar**.
 4. Abra la página **Panorama esq. cta.** de vez en cuando para verificar que la nueva disposición de columnas funciona del modo previsto.
 

@@ -8,22 +8,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/25/2020
 ms.author: sgroespe
-ms.openlocfilehash: ddd5ae8f701caab38b11072f3eb8bd61cfc9d251
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 6ad45590d0581ea8888918a8306e2dfcfe82439c
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189272"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527813"
 ---
 # <a name="business-process-walkthroughs"></a>Tutoriales de procesos empresariales
+
 En esta selección de tutoriales se proporcionan procesos empresariales completos paso a paso que puede realizar con la empresa de demostración CRONUS España S.A. Los tutoriales constan de procedimientos múltiples, algunos de los que se realizarían normalmente por un usuario, mientras que otros incorporan distintos roles de usuario. Para simular el entorno de trabajo, algunos de los tutoriales contienen los pasos de configuración necesarios para completar los ejercicios como se describe. Estos pasos pueden proporcionar la mejor perspectiva de la clase de información que necesitan los usuarios para compartir con los profesionales de TI de su empresa.  
 
  Los tutoriales son ejemplos completos y deben realizarse desde el principio hasta el final para obtener el máximo beneficio. Muchos están basados en demostraciones de [!INCLUDE[d365fin](includes/d365fin_md.md)] y permiten probar los procedimientos a su ritmo.  
 
 > [!NOTE]
-> Algunos de los tutoriales utilizan datos de demostración que no están disponibles en la empresa CRONUS estándar. Para esos tutoriales, debe realizar los pasos en una empresa creada a partir de la opción **Evaluación completa - Datos de muestra completos**, que está disponible en el entorno de espacio aislado. Para obtener más información, consulte [Creación de un entorno aislado](across-how-create-sandbox-environment.md).
+> Algunos de los tutoriales requieren datos de muestra que no están disponibles en la empresa de demostración predeterminada en [!INCLUDE[prodshort](includes/prodshort.md)]. Para obtener más información, vea [Crear una empresa con datos de muestra completos en un entorno aislado](across-how-create-sandbox-environment.md#to-create-a-company-with-complete-sample-data-in-a-sandbox).
 
 |Para|Vea|  
 |--------|---------|  
@@ -41,6 +42,7 @@ En esta selección de tutoriales se proporcionan procesos empresariales completo
 |Realizar gestión de defectos. **Requiere datos de muestra completos**|[Tutorial: seguimiento de números de serie-lote](walkthrough-tracing-serial-lot-numbers.md)|  
 
 ## <a name="see-also"></a>Consulte también
+
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

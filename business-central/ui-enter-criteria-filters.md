@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 04/01/2020
+ms.date: 06/26/2020
 ms.author: sgroespe
-ms.openlocfilehash: 50fbfe2cfa10885ad126153b0602bf953a105d9f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 786b782bd1cba3d75ce42776fa5df84ae89e624e
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194456"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3529118"
 ---
 # <a name="sorting-searching-and-filtering"></a>Ordenar, buscar y filtrar
 Existen algunos parámetros que puede configurar que le ayudarán a buscar, encontrar y limitar los registros de una lista, un informe o un XMLport Estos incluyen la ordenación, la búsqueda y el filtrado. Puede aplicar solo algunos o todos a la vez para encontrar o analizar rápidamente sus datos.
@@ -68,6 +68,9 @@ En la tabla siguiente se muestran algunos ejemplos de cómo puede utilizar la b�
 
 > [!TIP]
 > Puede presionar **F3** para activar y desactivar el cuadro de búsqueda. Para obtener más información, consulte [Métodos abreviados de teclado](keyboard-shortcuts.md#KeyboardFilter).
+
+> [!NOTE]  
+> La búsqueda no coincidirá con valores en imágenes, campos BLOB, FlowFilters, FlowFields y otros campos que no forman parte de una tabla. 
 
 ## <a name="filtering"></a><a name="filtering"></a>Filtrado
 El filtrado proporciona una forma más avanzada y versátil de controlar qué registros se muestran en una lista o se incluyen en un informe o XMLport Existen dos diferencias principales entre la búsqueda y el filtrado, como se describe en la tabla siguiente.

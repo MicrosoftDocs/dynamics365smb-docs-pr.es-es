@@ -5,16 +5,17 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
-ms.date: 04/01/2020
+ms.date: 06/26/2020
 ms.author: sgroespe
-ms.openlocfilehash: 50a67bf5d64cbf932801738d60b4477a7e3d9fde
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 34e72f5b80f4516dcd7e9061f263a8f08b06b0d7
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186505"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528518"
 ---
 # <a name="manage-profiles"></a>Administración de perfiles
+
 A todos los usuarios de [!INCLUDE[d365fin](includes/d365fin_md.md)] se les asigna un perfil que refleja su rol de negocio, el departamento en el que trabaja u otra clasificación. Los perfiles permiten a los administradores definir y administrar centralmente lo que los diferentes tipos de usuarios pueden ver y hacer en la interfaz de usuario para que puedan realizar sus tareas de negocio de manera eficiente.
 
 > [!NOTE]
@@ -130,9 +131,15 @@ Puede eliminar las personalizaciones que uno o más usuarios han realizado en p�
 
 2. Seleccione la línea de la personalización de página que desea eliminar y, después, seleccione la acción **Eliminar**.
 
-El usuario podrá ver los cambios la próxima vez que inicie sesión.    
+El usuario podrá ver los cambios la próxima vez que inicie sesión.  
 
 También puede eliminar personalizaciones de página individuales para un perfil. Para obtener más información, consulte [Para eliminar la personalización de páginas específicas de un perfil](ui-personalization-manage.md#to-delete-customization-for-specific-pages-for-a-profile).
+
+## <a name="managing-user-sessions"></a>Administrar sesiones de usuario
+
+Como administrador de [!INCLUDE[prodshort](includes/prodshort.md)] online, puede administrar sesiones de usuario en el centro de administración. Para más información, vea [Administrar sesiones](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions) en el contenido de la administración.  
+
+Para [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, puede administrar sesiones usando SQL Server Management Studio, por ejemplo. Para más información, vea [Documentación técnica de SQL Server](/sql/sql-server/?view=sql-server-ver15).  
 
 ## <a name="see-also"></a>Consulte también  
 [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md)  

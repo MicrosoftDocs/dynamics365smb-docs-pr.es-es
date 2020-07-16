@@ -1,25 +1,25 @@
 ---
 title: 'Tutorial: seguimiento de números de serie/lote | Documentos de Microsoft'
-description: Cuando tienen lugar defectos en los productos, los errores deben identificarse y deberá impedirse que los productos afectados salgan de la empresa. Si ya se han enviado productos defectuosos, debe realizar un seguimiento de la persona que los ha recibido y, en caso necesario, retirarlos.
-author: SorenGP
+description: Este tema describe las acciones a tomar para dejar de vender un artículo defectuoso.
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: dc2a67623a55026557855b8247bf0565918e3f3c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/25/2020
+ms.author: bholtorf
+ms.openlocfilehash: e165e5fcdad0909f6ad4def81987d1837dd0c48c
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193352"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528140"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Tutorial: seguimiento de números de serie/lote
 
-**Nota**: Este tutorial debe realizarse en una empresa de demostración con la opción **Evaluación completa - Datos de muestra completos**, que está disponible en el entorno de espacio aislado. Para obtener más información, consulte [Creación de un entorno aislado](across-how-create-sandbox-environment.md).
+[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
 
 Cuando tienen lugar defectos en los productos, los errores deben identificarse y deberá impedirse que los productos afectados salgan de la empresa. Si ya se han enviado productos defectuosos, debe realizar un seguimiento de la persona que los ha recibido y, en caso necesario, retirarlos.  
 
@@ -27,34 +27,38 @@ La primera tarea en la gestión de defectos es investigar de dónde procedían l
 
 La segunda tarea en la gestión de defectos es determinar si los productos supervisados están planificados en documentos pendientes, como pedidos de venta no registrados o en diarios de consumo. Este trabajo se realiza en la página **Navegar**. Puede utilizar la función Navegar para buscar todos los tipos de registros de base de datos.  
 
-## <a name="about-this-walkthrough"></a>Acerca de este tutorial  
+## <a name="about-this-walkthrough"></a>Acerca de este tutorial
+
 En este tutorial se muestra el modo de identificar qué productos son defectuosos, qué proveedor los ha suministrado y si se han usado, para que los pedidos correspondientes se puedan detener o retirar.  
 
 En este tutorial se ilustran las siguientes tareas:  
 
--   Seguimiento desde el uso hasta el origen.  
--   Seguimiento desde el origen hasta el uso.  
--   Búsqueda de todos los registros actuales que contienen el número de serie/lote del que se ha realizado un seguimiento.  
+- Seguimiento desde el uso hasta el origen.  
+- Seguimiento desde el origen hasta el uso.  
+- Búsqueda de todos los registros actuales que contienen el número de serie/lote del que se ha realizado un seguimiento.  
 
-## <a name="roles"></a>Funciones  
+## <a name="roles"></a>Funciones
+
 En este tutorial, se demuestran las tareas realizadas por los siguientes roles de usuario:  
 
--   Controlador de calidad  
--   Responsable de almacén  
--   Procesador de pedidos  
--   Agente de compras  
+- Controlador de calidad  
+- Responsable de almacén  
+- Procesador de pedidos  
+- Agente de compras  
 
-## <a name="prerequisites"></a>Requisitos previos  
+## <a name="prerequisites"></a>Requisitos previos
+
 Para completar este tutorial, necesitará:  
 
--   La empresa de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
--   Crear nuevos productos y varias transacciones empresariales siguiendo los pasos descritos en [Preparar datos de ejemplo](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data).  
+- La empresa de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+- Crear nuevos productos y varias transacciones empresariales siguiendo los pasos descritos en [Preparar datos de ejemplo](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data).  
 
-## <a name="story"></a>Historia  
+## <a name="story"></a>Historia
+
 Ricardo, el controlador de calidad, está trabajando en una devolución de venta del producto 1002, Bicicleta de carreras. El cliente, Sellafrio S.L., se ha quejado de que el cuadro tiene costuras de soldadura agrietadas. Los técnicos de control de calidad han confirmado que el cuadro de la bicicleta devuelta está defectuoso. El controlador de calidad debe determinar ahora:  
 
--   Qué lote de cuadros de bicicletas estaba defectuoso.  
--   En qué pedido de compra se recibió el lote defectuoso.  
+- Qué lote de cuadros de bicicletas estaba defectuoso.  
+- En qué pedido de compra se recibió el lote defectuoso.  
 
 A partir del departamento de ventas, el controlador de calidad averigua que la bicicleta de carreras devuelta, producto 1002, tenía el número de serie NS1. Con esta información básica, debe determinar dónde se utilizó por última vez la bicicleta de carrera terminada y, posteriormente, realizar un seguimiento hasta llegar al origen para establecer de qué número de lote procedía el componente defectuoso (el cuadro de la bicicleta).  
 
@@ -62,31 +66,32 @@ Los resultados de esta primera tarea de seguimiento del productos identifican lo
 
 Las dos primeras tareas de gestión de defectos se realizan en la página **Seguimiento productos**. La última tarea se realiza en la página **Navegar** en integración con la página **Seguimiento productos**.  
 
-## <a name="prepare-sample-data"></a>Preparar datos de ejemplo  
+## <a name="prepare-sample-data"></a>Preparar datos de ejemplo
+
 Debe crear los siguientes productos nuevos:  
 
--   2000, Cuadro de bicicleta: seguimiento específico de lote, componente de 1002  
--   1002, Bicicleta de carreras: seguimiento específico de número de serie  
+- 2000, Cuadro de bicicleta: seguimiento específico de lote, componente de 1002  
+- 1002, Bicicleta de carreras: seguimiento específico de número de serie  
 
 A continuación, deberá crear diversas transacciones de compra, producción y venta con los dos productos.  
 
 ### <a name="to-create-the-items"></a>Para crear los productos  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos** y luego elija el enlace relacionado.  
-2.  Seleccione la acción **Nuevo**.  
-3.  En el campo **N.º**, escriba **2000** y rellene los siguientes campos.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos** y luego elija el enlace relacionado.  
+2. Seleccione la acción **Nuevo**.  
+3. En el campo **N.º**, escriba **2000** y rellene los siguientes campos.  
 
     |Descripción|Unidad medida base|Gen. Grupo registro prod.|Grupo registro IVA prod.|Grupo contable existencias|Cód. seguim. prod.|  
-    |-----------------|--------------------------|------------------------------|-----------------------------|-----------------------------|------------------------|  
+    |-----------|--------------------|------------------------|-----------------------|--------------------|------------------|  
     |Cuadro de bicicleta|UDS|MAT. PRIMA|IVA25|MAT. PRIMA|SEGLOTE|  
 
     > [!NOTE]  
     >  Para especificar la unidad de medida base, haga clic en el botón **Nuevo** y seleccione **UDS** en la página **Unidades medida producto**.  
 
-4.  Todos los demás campos tienen datos predeterminados aceptables o no es necesario rellenarlos.  
-5.  Elija el botón **Aceptar** para crear la primera ficha de producto nueva, 2000.  
-6.  Elija **Nuevo**.  
-7.  En el campo **N.º**, escriba **1002** y rellene los siguientes campos.  
+4. Todos los demás campos tienen datos predeterminados aceptables o no es necesario rellenarlos.  
+5. Elija el botón **Aceptar** para crear la primera ficha de producto nueva, 2000.  
+6. Elija **Nuevo**.  
+7. En el campo **N.º**, escriba **1002** y rellene los siguientes campos.  
 
     |Descripción|Unidad medida base|Gen. Grupo registro prod.|Grupo registro IVA prod.|Grupo contable existencias|Sistema reposición|Cód. seguim. prod.|  
     |-----------------|--------------------------|------------------------------|-----------------------------|-----------------------------|--------------------------|------------------------|  
@@ -97,32 +102,33 @@ A continuación, deberá crear diversas transacciones de compra, producción y v
 
     A continuación, defina la configuración de fabricación del producto.
 
-9. En la ficha **Reposición**, escriba **1000** en el campo **Nº ruta**.  
-10. Elija el campo **L.M. producción Nº** y, a continuación, elija **Avanzado**.  
-11. En la página **Lista L.M. producción**, elija la primera línea, **1000**, y seleccione la acción **Editar**.  
-12. En la página **L.M. producción**, cambie el valor del campo **Estado** a **En desarrollo**.  
-13. Vaya a una línea vacía, escriba **2000** en el campo **Nº** y, a continuación, introduzca **1** en el campo **Cantidad por**.  
-14. Cambie el valor en el campo **Estado** de nuevo a **Certificada**.  
-15. Haga clic en el botón **Aceptar** para insertar la L.M. de producción en la ficha de producto y cerrar la página **L. MAT de producción**.  
+8. En la ficha **Reposición**, escriba **1000** en el campo **Nº ruta**.  
+9. Elija el campo **L.M. producción Nº** y, a continuación, elija **Avanzado**.  
+10. En la página **Lista L.M. producción**, elija la primera línea, **1000**, y seleccione la acción **Editar**.  
+11. En la página **L.M. producción**, cambie el valor del campo **Estado** a **En desarrollo**.  
+12. Vaya a una línea vacía, escriba **2000** en el campo **Nº** y, a continuación, introduzca **1** en el campo **Cantidad por**.  
+13. Cambie el valor en el campo **Estado** de nuevo a **Certificada**.  
+14. Haga clic en el botón **Aceptar** para insertar la L.M. de producción en la ficha de producto y cerrar la página **L. MAT de producción**.  
 
     A continuación, debe comprar cuadros de bicicletas de Custom Metals Incorporated.  
 
-### <a name="to-purchase-components"></a>Para comprar componentes  
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de compra** y luego elija el enlace relacionado.  
-2.  Seleccione la acción **Nuevo**.  
-3.  Cree un pedido de compra para el proveedor, Custom Metals Incorporated, rellenando los campos de línea siguientes.  
+### <a name="to-purchase-components"></a>Para comprar componentes
+
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de compra** y luego elija el enlace relacionado.  
+2. Seleccione la acción **Nuevo**.  
+3. Cree un pedido de compra para el proveedor, Custom Metals Incorporated, rellenando los campos de línea siguientes.  
 
     |Artículo|Cantidad|Nº lote|  
-    |----------|--------------|-------------|  
+    |----|--------|-------|  
     |2000|10|LOT1|  
 
-4.  Para introducir el número de lote, elija la acción **Líns. seguim. prod.**  
-5.  En la página **Líns. seguim. prod.**, rellene los campos **Nº lote** y **Cantidad (base)**, y cierre la página.  
-6.  Rellene el campo **Nº factura proveedor** según corresponda.  
-7.  Seleccione la acción **Registrar**, elija la opción **Recibir y facturar** y seleccione el botón **Aceptar**.  
+4. Para introducir el número de lote, elija la acción **Líns. seguim. prod.**  
+5. En la página **Líns. seguim. prod.**, rellene los campos **Nº lote** y **Cantidad (base)**, y cierre la página.  
+6. Rellene el campo **Nº factura proveedor** según corresponda.  
+7. Seleccione la acción **Registrar**, elija la opción **Recibir y facturar** y seleccione el botón **Aceptar**.  
 
     A continuación, compre cuadros de bicicletas de Coolwood Technologies.  
-8.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de compra** y luego elija el enlace relacionado.  
+8. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de compra** y luego elija el enlace relacionado.  
 9. Seleccione la acción **Nuevo**.
 10. Cree un pedido de compra para el proveedor, Coolwood Technologies, rellenando los siguientes campos de línea.  
 
@@ -137,23 +143,24 @@ A continuación, deberá crear diversas transacciones de compra, producción y v
 
     A continuación, fabrique dos bicicletas de carreras, NS1 y NS2.  
 
-### <a name="to-produce-end-items"></a>Para producir los productos finales  
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **O.P. lanzadas** y luego elija el enlace relacionado.  
-2.  Seleccione el grupo **Nuevo**.  
-3.  Cree una nueva orden de producción lanzada rellenando los campos siguientes.  
+### <a name="to-produce-end-items"></a>Para producir los productos finales
 
-    |-|-|-|  
-    |Nº origen|Cantidad|Nº serie|  
-    |1002|2|SN1|  
-    |1002|2|SN2|  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **O.P. lanzadas** y luego elija el enlace relacionado.  
+2. Seleccione el grupo **Nuevo**.  
+3. Cree una nueva orden de producción lanzada rellenando los campos siguientes.  
 
-4.  Seleccione la acción **Actualizar orden producción** y, a continuación, seleccione el botón **Aceptar** para rellenar la línea.  
-5.  Para introducir los números de serie, elija la acción **Líns. seguim. prod.**  
-6.  En la página **Líns. seguim. prod.**, rellene los campos **N.º serie** y **Cantidad (base)**, y cierre la página.  
+    |Cód. procedencia mov.|Cantidad|Nº serie|  
+    |----------|--------|----------|  
+    |1002|2|NS1|  
+    |1002|2|NS2|  
+
+4. Seleccione la acción **Actualizar orden producción** y, a continuación, seleccione el botón **Aceptar** para rellenar la línea.  
+5. Para introducir los números de serie, elija la acción **Líns. seguim. prod.**  
+6. En la página **Líns. seguim. prod.**, rellene los campos **N.º serie** y **Cantidad (base)**, y cierre la página.  
 
     A continuación, registre el consumo de cuadros de bicicleta de LOT1.  
-7.  En la página **Orden producción lanzada**, seleccione la acción **Diario de producción**.  
-8.  En la página **Diario de producción**, seleccione la línea de consumo para el producto 2000, elija la acción **Líns. seguim. prod.**
+7. En la página **Orden producción lanzada**, seleccione la acción **Diario de producción**.  
+8. En la página **Diario de producción**, seleccione la línea de consumo para el producto 2000, elija la acción **Líns. seguim. prod.**
 9. En la página **Líns. seguim. prod.**, haga clic en la flecha desplegable del campo **Nº lote**, seleccione **LOT1** y, a continuación, haga clic en **Aceptar**.  
 10. Deje los demás valores predeterminados de la página **Diario de producción** y elija la acción **Registrar**.  
 
@@ -240,9 +247,9 @@ A continuación, deberá crear diversas transacciones de compra, producción y v
 
     Puede realizar un seguimiento del historial siguiente de la transacción:  
 
-    -   El primer documento registrado hacia atrás en la cadena de transacciones es el registro de salida de NS1 de la primera orden de producción lanzada.  
-    -   El siguiente documento registrado hacia atrás después de aquél es el registro de consumo desde la primera orden de producción lanzada. Aquí, el controlador de calidad ve que se ha usado un cuadro de bicicleta de LOT1.  
-    -   El último documento registrado en esta cadena es el histórico albaranes de compra en el cual los cuadros de bicicletas con LOT1 entraron en el inventario.  
+    - El primer documento registrado hacia atrás en la cadena de transacciones es el registro de salida de NS1 de la primera orden de producción lanzada.  
+    - El siguiente documento registrado hacia atrás después de aquél es el registro de consumo desde la primera orden de producción lanzada. Aquí, el controlador de calidad ve que se ha usado un cuadro de bicicleta de LOT1.  
+    - El último documento registrado en esta cadena es el histórico albaranes de compra en el cual los cuadros de bicicletas con LOT1 entraron en el inventario.  
 
     El controlador de calidad ya ha establecido qué lote de cuadros de bicicletas estaba defectuoso y puede buscar la última línea de seguimiento para ver qué proveedor los suministró; se trata de Custom Metals Incorporated.  
 
