@@ -1,0 +1,75 @@
+---
+author: edupont04
+ms.service: dynamics365-accountant
+ms.topic: include
+ms.date: 06/25/2020
+ms.author: edupont
+ms.openlocfilehash: 8c5f4205128d52ec88f432cea7ece98e0310546d
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528015"
+---
+<span data-ttu-id="55add-101">Antes de poder configurar el registro de correo electrónico, debe preparar su Exchange Online con [carpetas públicas](/exchange/collaboration/public-folders/public-folders?view=exchserver-2019).</span><span class="sxs-lookup"><span data-stu-id="55add-101">Before you can set up email logging, you must prepare your Exchange Online with [public folders](/exchange/collaboration/public-folders/public-folders?view=exchserver-2019).</span></span> <span data-ttu-id="55add-102">Puede hacer esto en el [Centro de administración de Exchange](/Exchange/architecture/client-access/exchange-admin-center?view=exchserver-2019) o puede usar el [Shell de administración de Exchange](/powershell/exchange/exchange-management-shell?view=exchange-ps).</span><span class="sxs-lookup"><span data-stu-id="55add-102">You can do this in the [Exchange admin center](/Exchange/architecture/client-access/exchange-admin-center?view=exchserver-2019), or you can use the [Exchange Management Shell](/powershell/exchange/exchange-management-shell?view=exchange-ps).</span></span>  
+
+> [!TIP]
+> <span data-ttu-id="55add-103">Si quiere usar el [Shell de administración de Exchange](/powershell/exchange/exchange-management-shell?view=exchange-ps), puede encontrar ideas sobre cómo configurar su script en un script de muestra que publicamos para [el repositorio de BCTech](https://github.com/microsoft/BCTech/tree/master/samples/EmailLogging).</span><span class="sxs-lookup"><span data-stu-id="55add-103">If you want to use the [Exchange Management Shell](/powershell/exchange/exchange-management-shell?view=exchange-ps), you can find inspiration for how to set up your script in a sample script that we published to [the BCTech repo](https://github.com/microsoft/BCTech/tree/master/samples/EmailLogging).</span></span>
+
+<span data-ttu-id="55add-104">La siguiente lista describe los pasos principales con enlaces para obtener más información.</span><span class="sxs-lookup"><span data-stu-id="55add-104">The following list describes the main steps with links to learn more.</span></span>  
+
+- <span data-ttu-id="55add-105">Cree una función de administrador para las carpetas públicas basada en la información de la siguiente tabla:</span><span class="sxs-lookup"><span data-stu-id="55add-105">Create an admin role for public folders based on the information in the following table:</span></span>
+
+  |<span data-ttu-id="55add-106">Propiedad</span><span class="sxs-lookup"><span data-stu-id="55add-106">Property</span></span>        |<span data-ttu-id="55add-107">Valor</span><span class="sxs-lookup"><span data-stu-id="55add-107">Value</span></span>                     |
+  |----------------|--------------------------|
+  |<span data-ttu-id="55add-108">Name</span><span class="sxs-lookup"><span data-stu-id="55add-108">Name</span></span>            |<span data-ttu-id="55add-109">Administración de carpetas públicas</span><span class="sxs-lookup"><span data-stu-id="55add-109">Public Folders Management</span></span> |
+  |<span data-ttu-id="55add-110">Roles seleccionados</span><span class="sxs-lookup"><span data-stu-id="55add-110">Selected roles</span></span>  |<span data-ttu-id="55add-111">Carpetas públicas</span><span class="sxs-lookup"><span data-stu-id="55add-111">Public Folders</span></span>            |
+  |<span data-ttu-id="55add-112">Miembros seleccionados</span><span class="sxs-lookup"><span data-stu-id="55add-112">Selected members</span></span>|<span data-ttu-id="55add-113">El correo electrónico de la cuenta de usuario que Business Central usará para ejecutar el trabajo de registro de correo electrónico</span><span class="sxs-lookup"><span data-stu-id="55add-113">The email of the user account that Business Central will use to run the email logging job</span></span>|
+
+  <span data-ttu-id="55add-114">Para obtener más información, vea [Administrar grupos de roles](/exchange/permissions/role-groups?view=exchserver-2019).</span><span class="sxs-lookup"><span data-stu-id="55add-114">For more information, see [Manage role groups](/exchange/permissions/role-groups?view=exchserver-2019).</span></span>
+
+- <span data-ttu-id="55add-115">Cree un buzón nuevo de carpetas públicas basado en la información de la siguiente tabla:</span><span class="sxs-lookup"><span data-stu-id="55add-115">Create a new public folder mailbox based on the information in the following table:</span></span>
+
+  |<span data-ttu-id="55add-116">Propiedad</span><span class="sxs-lookup"><span data-stu-id="55add-116">Property</span></span>        |<span data-ttu-id="55add-117">Valor</span><span class="sxs-lookup"><span data-stu-id="55add-117">Value</span></span>                     |
+  |----------------|--------------------------|
+  |<span data-ttu-id="55add-118">Name</span><span class="sxs-lookup"><span data-stu-id="55add-118">Name</span></span>            |<span data-ttu-id="55add-119">Buzón público</span><span class="sxs-lookup"><span data-stu-id="55add-119">Public MailBox</span></span>            |
+
+  <span data-ttu-id="55add-120">Para obtener más información, vea [Crear un buzón de carpetas públicas en Exchange Server](/exchange/collaboration/public-folders/create-public-folder-mailboxes).</span><span class="sxs-lookup"><span data-stu-id="55add-120">For more information, see [Create a public folder mailbox in Exchange Server](/exchange/collaboration/public-folders/create-public-folder-mailboxes).</span></span>  
+
+- <span data-ttu-id="55add-121">Crear carpetas públicas nuevas</span><span class="sxs-lookup"><span data-stu-id="55add-121">Create new public folders</span></span>
+
+  - <span data-ttu-id="55add-122">Cree una nueva carpeta pública con el nombre *Registro de correo electrónico* en la raíz para que la ruta completa a la carpeta pase a ser ```\Email Logging\```</span><span class="sxs-lookup"><span data-stu-id="55add-122">Create a new public folder with the name *Email Logging* in the root so that the full path to the folder becomes ```\Email Logging\```</span></span>
+  - <span data-ttu-id="55add-123">Cree dos subcarpetas para que el resultado sea la siguiente ruta completa a las carpetas:</span><span class="sxs-lookup"><span data-stu-id="55add-123">Create two subfolders so that the the result is the following full paths to the folders:</span></span>
+    - ```\Email Logging\Queue\```
+    - ```\Email Logging\Storage\```
+
+  <span data-ttu-id="55add-124">Para obtener más información, vea [Crear una carpeta pública](/exchange/collaboration/public-folders/create-public-folders?view=exchserver-2019).</span><span class="sxs-lookup"><span data-stu-id="55add-124">For more information, see [Create a public folder](/exchange/collaboration/public-folders/create-public-folders?view=exchserver-2019).</span></span>
+
+- <span data-ttu-id="55add-125">Habilitar la carpeta pública *Cola* para el correo electrónico</span><span class="sxs-lookup"><span data-stu-id="55add-125">Mail-enable the *Queue* public folder</span></span>
+
+  <span data-ttu-id="55add-126">Para más información, vea [Habilitar o deshabilitar una carpeta pública para el correo electrónico](/exchange/collaboration/public-folders/mail-enable-or-disable?view=exchserver-2019)</span><span class="sxs-lookup"><span data-stu-id="55add-126">For more information, see [Mail-enable or mail-disable a public folder](/exchange/collaboration/public-folders/mail-enable-or-disable?view=exchserver-2019)</span></span>
+
+- <span data-ttu-id="55add-127">Habilitar el envío de correos electrónicos para la carpeta pública *Cola* con Outlook o el Shell de administración de Exchange</span><span class="sxs-lookup"><span data-stu-id="55add-127">Mail-enable sending emails to the *Queue* public folder using Outlook or the Exchange Management Shell</span></span>
+
+  <span data-ttu-id="55add-128">Para más información, vea [Permitir a los usuarios anónimos enviar correos electrónicos a una carpeta pública habilitada para correo](/exchange/collaboration/public-folders/mail-enable-or-disable?view=exchserver-2019#allow-anonymous-users-to-send-email-to-a-mail-enabled-public-folder)</span><span class="sxs-lookup"><span data-stu-id="55add-128">For more information, see [Allow anonymous users to send email to a mail-enabled public folder](/exchange/collaboration/public-folders/mail-enable-or-disable?view=exchserver-2019#allow-anonymous-users-to-send-email-to-a-mail-enabled-public-folder)</span></span>
+
+- <span data-ttu-id="55add-129">Establezca el usuario de registro de correo electrónico como propietario de ambas carpetas públicas, *Cola* y *Almacenamiento* con Outlook o el Shell de administración de Exchange según la información de la siguiente tabla:</span><span class="sxs-lookup"><span data-stu-id="55add-129">Set the email logging user as an owner of both public folders, *Queue* and *Storage* public folders  using Outlook or the Exchange Management Shell based on the information in the following table:</span></span>
+
+  |<span data-ttu-id="55add-130">Propiedad</span><span class="sxs-lookup"><span data-stu-id="55add-130">Property</span></span>        |<span data-ttu-id="55add-131">Valor</span><span class="sxs-lookup"><span data-stu-id="55add-131">Value</span></span>                     |
+  |----------------|--------------------------|
+  |<span data-ttu-id="55add-132">Usuario</span><span class="sxs-lookup"><span data-stu-id="55add-132">User</span></span>            |<span data-ttu-id="55add-133">El correo electrónico de la cuenta de usuario que Business Central usará para ejecutar el trabajo de registro de correo electrónico</span><span class="sxs-lookup"><span data-stu-id="55add-133">The email of the user account that Business Central will use to run the email logging job</span></span>|
+  |<span data-ttu-id="55add-134">Nivel de permiso</span><span class="sxs-lookup"><span data-stu-id="55add-134">Permission level</span></span>|<span data-ttu-id="55add-135">Propietario</span><span class="sxs-lookup"><span data-stu-id="55add-135">Owner</span></span>                     |
+
+  <span data-ttu-id="55add-136">Para obtener más información, vea [Asignar permisos a la carpeta pública](/exchange/collaboration-exo/public-folders/set-up-public-folders#step-3-assign-permissions-to-the-public-folder).</span><span class="sxs-lookup"><span data-stu-id="55add-136">For more information, see [Assign permissions to the public folder](/exchange/collaboration-exo/public-folders/set-up-public-folders#step-3-assign-permissions-to-the-public-folder).</span></span>
+
+- <span data-ttu-id="55add-137">Crear dos reglas de flujo de correo basadas en la información de la siguiente tabla:</span><span class="sxs-lookup"><span data-stu-id="55add-137">Create two mail flow rules based on the information in the following table</span></span>
+
+  |<span data-ttu-id="55add-138">Propósito</span><span class="sxs-lookup"><span data-stu-id="55add-138">Purpose</span></span>  |<span data-ttu-id="55add-139">Name</span><span class="sxs-lookup"><span data-stu-id="55add-139">Name</span></span> |<span data-ttu-id="55add-140">Condiciones</span><span class="sxs-lookup"><span data-stu-id="55add-140">Conditions</span></span>                        |<span data-ttu-id="55add-141">Acción</span><span class="sxs-lookup"><span data-stu-id="55add-141">Action</span></span>                                       |
+  |---------|-----|----------------------------------|---------------------------------------------|
+  |<span data-ttu-id="55add-142">Una regla para el correo electrónico entrante</span><span class="sxs-lookup"><span data-stu-id="55add-142">A rule for incoming email</span></span> |<span data-ttu-id="55add-143">Registrar el correo electrónico enviado a esta organización</span><span class="sxs-lookup"><span data-stu-id="55add-143">Log Email Sent to This Organization</span></span>|<span data-ttu-id="55add-144">*El remitente* se encuentra *Fuera de la organización* y *el destinatario* se encuentra *Dentro de la organización*</span><span class="sxs-lookup"><span data-stu-id="55add-144">*The sender* is located *Outside the organization*, and *the recipient* is located *Inside the organization*</span></span>|<span data-ttu-id="55add-145">Incluya en CCO la cuenta de correo electrónico que se especifica para la carpeta pública *Cola*</span><span class="sxs-lookup"><span data-stu-id="55add-145">BCC the email account that is specified for the *Queue* public folder</span></span>|
+  |<span data-ttu-id="55add-146">Una regla para el correo electrónico saliente</span><span class="sxs-lookup"><span data-stu-id="55add-146">A rule for outgoing email</span></span> | <span data-ttu-id="55add-147">Registrar el correo electrónico enviado desde esta organización</span><span class="sxs-lookup"><span data-stu-id="55add-147">Log Email Sent from This Organization</span></span> |<span data-ttu-id="55add-148">*El remitente* se encuentra *Dentro de la organización* y *el destinatario* se encuentra *Fuera de la organización*</span><span class="sxs-lookup"><span data-stu-id="55add-148">*The sender* is located *Inside the organization*, and *the recipient* is located *Outside the organization*</span></span>|<span data-ttu-id="55add-149">Incluya en CCO la cuenta de correo electrónico que se especifica para la carpeta pública *Cola*</span><span class="sxs-lookup"><span data-stu-id="55add-149">BCC the email account that is specified for the *Queue* public folder</span></span>|
+  
+  <span data-ttu-id="55add-150">Para más información, vea [Administrar reglas de flujo de correo en Exchange Online](/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules) y [Acciones de regla de flujo de correo en Exchange Online](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-action).</span><span class="sxs-lookup"><span data-stu-id="55add-150">For more information, see [Manage mail flow rules in Exchange Online](/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules) and [Mail flow rule actions in Exchange Online](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-action).</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="55add-151">Si realiza cambios en el Shell de administración de Exchange, los cambios se hacen visibles en el centro de administración de Exchange después de un tiempo.</span><span class="sxs-lookup"><span data-stu-id="55add-151">If you make changes in the Exchange Management Shell, the changes become visible in the Exchange admin center after a delay.</span></span> <span data-ttu-id="55add-152">Además, los cambios realizados en Exchange estarán disponibles en [!INCLUDE[prodshort](prodshort.md)] después de un tiempo.</span><span class="sxs-lookup"><span data-stu-id="55add-152">Also, the changes made in Exchange will be available in [!INCLUDE[prodshort](prodshort.md)] after a delay.</span></span>

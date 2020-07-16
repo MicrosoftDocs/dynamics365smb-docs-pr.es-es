@@ -1,40 +1,46 @@
 ---
-title: Agregar líneas adicionales para definir descripciones ampliadas de producto | Documentos de Microsoft
-description: Puede agregar líneas adicionales para ampliar el texto estándar que describe un producto.
-services: project-madeira
-documentationcenter: ''
+title: Agregar líneas adicionales para definir descripciones ampliadas
+description: Puede agregar líneas adicionales para ampliar el texto estándar que describe un producto, una cuenta y otros datos.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2020
+ms.date: 07/08/2020
 ms.author: sgroespe
-ms.openlocfilehash: 7a8e1d8836f2b554c9af1e69df6359795395e98c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 0b611a4f2bcabec7cda408790ab659c6cf3f8e97
+ms.sourcegitcommit: 8b2f02dd5189c46ecff33c07223ed62b36842d34
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193472"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "3542572"
 ---
-# <a name="add-extended-item-text"></a><span data-ttu-id="5cc3a-103">Añadir textos ampliados del producto</span><span class="sxs-lookup"><span data-stu-id="5cc3a-103">Add Extended Item Text</span></span>
-<span data-ttu-id="5cc3a-104">Puede ampliar un concepto estándar para productos agregando líneas adicionales y puede configurar condiciones para el uso de las líneas adicionales.</span><span class="sxs-lookup"><span data-stu-id="5cc3a-104">You can extend a standard text for items by adding extra lines, and you can set up conditions for use of the extra lines.</span></span> <span data-ttu-id="5cc3a-105">Puede realizar esta tarea en las fichas de productos.</span><span class="sxs-lookup"><span data-stu-id="5cc3a-105">You do this from item cards.</span></span>
+# <a name="add-extended-text"></a><span data-ttu-id="8ab75-103">Agregar textos adicionales</span><span class="sxs-lookup"><span data-stu-id="8ab75-103">Add Extended Text</span></span>
 
-## <a name="to-define-extended-text-for-an-item-description"></a><span data-ttu-id="5cc3a-106">Para definir el texto adicional de una descripción de producto</span><span class="sxs-lookup"><span data-stu-id="5cc3a-106">To define extended text for an item description</span></span>
-1. <span data-ttu-id="5cc3a-107">Abra la ficha de un producto al que desee agregar texto adicional y, a continuación, elija la acción **Textos adicionales**.</span><span class="sxs-lookup"><span data-stu-id="5cc3a-107">Open the card for an item that you want to add extended text to, and then choose the **Extended Text** action.</span></span>
-2. <span data-ttu-id="5cc3a-108">Rellene los campos **Código** y **Descripción**.</span><span class="sxs-lookup"><span data-stu-id="5cc3a-108">Fill in the **Code** and **Description** fields.</span></span>
-3. <span data-ttu-id="5cc3a-109">Seleccione **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="5cc3a-109">Choose the **New**.</span></span>
-4. <span data-ttu-id="5cc3a-110">Rellene el campo **Cód. idioma** o seleccione la casilla **Común a todos los idiomas** si usa códigos de idioma.</span><span class="sxs-lookup"><span data-stu-id="5cc3a-110">Fill in the **Language Code** field or select the **All Language Codes** check box if you use language codes.</span></span>
-5. <span data-ttu-id="5cc3a-111">Rellene los campos **Fecha inicial** y **Fecha final** si desea limitar las fechas en las que se utiliza el texto adicional.</span><span class="sxs-lookup"><span data-stu-id="5cc3a-111">Fill in the **Starting Date** and **Ending Date** fields if you want to limit the dates on which the extended text is used.</span></span>
-6. <span data-ttu-id="5cc3a-112">En el campo **Texto**, escriba el texto adicional.</span><span class="sxs-lookup"><span data-stu-id="5cc3a-112">In the **Text** field, write the extended text.</span></span>
-7. <span data-ttu-id="5cc3a-113">Seleccione las casillas de verificación correspondientes para los tipos de documento donde desee imprimir el texto adicional.</span><span class="sxs-lookup"><span data-stu-id="5cc3a-113">Select relevant check boxes for the document types where you want the extended text printed.</span></span>
-8. <span data-ttu-id="5cc3a-114">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="5cc3a-114">Close the page.</span></span>
+<span data-ttu-id="8ab75-104">Puede ampliar la descripción para productos, unidades de almacenamiento, cuentas de contabilidad y recursos agregando líneas adicionales como texto adicional.</span><span class="sxs-lookup"><span data-stu-id="8ab75-104">You can extend the description for items, stock-keeping units, general ledger accounts, and resources by adding extra lines as extended text.</span></span> <span data-ttu-id="8ab75-105">También puede configurar condiciones para el uso de líneas adicionales.</span><span class="sxs-lookup"><span data-stu-id="8ab75-105">You can also set up conditions for use of the extra lines.</span></span>  
 
-## <a name="to-add-an-extended-item-text-on-a-sales-order-line"></a><span data-ttu-id="5cc3a-115">Para agregar un texto de producto adicional en un pedido de venta línea</span><span class="sxs-lookup"><span data-stu-id="5cc3a-115">To add an extended item text on a sales order line</span></span>
-1. <span data-ttu-id="5cc3a-116">Abra un pedido de venta con la línea de venta para un producto que tenga texto adicional definido.</span><span class="sxs-lookup"><span data-stu-id="5cc3a-116">Open a sales order with a sales line for an item that has extended text defined.</span></span> <span data-ttu-id="5cc3a-117">Para obtener más información, vea [Vender productos](sales-how-sell-products.md).</span><span class="sxs-lookup"><span data-stu-id="5cc3a-117">For more information, see [Sell Products](sales-how-sell-products.md).</span></span>
-2. <span data-ttu-id="5cc3a-118">Seleccione la línea en cuestión y, a continuación, la acción **Insertar textos adicionales**.</span><span class="sxs-lookup"><span data-stu-id="5cc3a-118">Select the line in question, and then choose the **Insert Ext. Text** action.</span></span>
+<span data-ttu-id="8ab75-106">La siguiente sección describe cómo agregar texto adicional a una descripción de un producto.</span><span class="sxs-lookup"><span data-stu-id="8ab75-106">The following section describes how to add extended text to a description of an item.</span></span> <span data-ttu-id="8ab75-107">Pero los mismos pasos se aplican a las unidades de almacenamiento, las cuentas de contabilidad y los recursos.</span><span class="sxs-lookup"><span data-stu-id="8ab75-107">But the same steps apply to stock-keeping units, general ledger accounts, and resources.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="5cc3a-119">Consulte también</span><span class="sxs-lookup"><span data-stu-id="5cc3a-119">See Also</span></span>
-[<span data-ttu-id="5cc3a-120">Configurar inventario</span><span class="sxs-lookup"><span data-stu-id="5cc3a-120">Setting Up Inventory</span></span>](inventory-setup-inventory.md)  
-<span data-ttu-id="5cc3a-121">[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="5cc3a-121">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+## <a name="to-define-extended-text-for-an-description"></a><span data-ttu-id="8ab75-108">Para definir el texto adicional de una descripción</span><span class="sxs-lookup"><span data-stu-id="8ab75-108">To define extended text for an description</span></span>
+
+1. <span data-ttu-id="8ab75-109">Abra la ficha de un producto al que desee agregar texto adicional y, a continuación, elija la acción **Textos adicionales**.</span><span class="sxs-lookup"><span data-stu-id="8ab75-109">Open the card for an item that you want to add extended text to, and then choose the **Extended Text** action.</span></span>
+2. <span data-ttu-id="8ab75-110">Rellene los campos **Código** y **Descripción**.</span><span class="sxs-lookup"><span data-stu-id="8ab75-110">Fill in the **Code** and **Description** fields.</span></span>
+3. <span data-ttu-id="8ab75-111">Seleccione **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="8ab75-111">Choose the **New**.</span></span>
+4. <span data-ttu-id="8ab75-112">Rellene el campo **Cód. idioma** o seleccione la casilla **Común a todos los idiomas** si usa códigos de idioma.</span><span class="sxs-lookup"><span data-stu-id="8ab75-112">Fill in the **Language Code** field or select the **All Language Codes** check box if you use language codes.</span></span>
+5. <span data-ttu-id="8ab75-113">Rellene los campos **Fecha inicial** y **Fecha final** si desea limitar las fechas en las que se utiliza el texto adicional.</span><span class="sxs-lookup"><span data-stu-id="8ab75-113">Fill in the **Starting Date** and **Ending Date** fields if you want to limit the dates on which the extended text is used.</span></span>
+6. <span data-ttu-id="8ab75-114">En el campo **Texto**, escriba el texto adicional.</span><span class="sxs-lookup"><span data-stu-id="8ab75-114">In the **Text** field, write the extended text.</span></span>
+7. <span data-ttu-id="8ab75-115">Seleccione las casillas de verificación correspondientes para los tipos de documento donde desee imprimir el texto adicional.</span><span class="sxs-lookup"><span data-stu-id="8ab75-115">Select relevant check boxes for the document types where you want the extended text printed.</span></span>
+8. <span data-ttu-id="8ab75-116">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="8ab75-116">Close the page.</span></span>
+
+<span data-ttu-id="8ab75-117">Ahora puede agregar este texto adicional a los documentos.</span><span class="sxs-lookup"><span data-stu-id="8ab75-117">You can now add this extended text to documents.</span></span> <span data-ttu-id="8ab75-118">El siguiente procedimiento explica cómo agregar texto adicional a un pedido de ventas, pero los mismos pasos se aplican a cualquier otro documento que haya especificado para el texto adicional.</span><span class="sxs-lookup"><span data-stu-id="8ab75-118">The following procedure explains how to add extended text to a sales order, but the same steps apply to any other document that you specified for the extended text.</span></span>  
+
+## <a name="to-add-an-extended-item-text-on-a-sales-order-line"></a><span data-ttu-id="8ab75-119">Para agregar un texto de producto adicional en un pedido de venta línea</span><span class="sxs-lookup"><span data-stu-id="8ab75-119">To add an extended item text on a sales order line</span></span>
+
+1. <span data-ttu-id="8ab75-120">Abra un pedido de venta con la línea de venta para un producto que tenga texto adicional definido.</span><span class="sxs-lookup"><span data-stu-id="8ab75-120">Open a sales order with a sales line for an item that has extended text defined.</span></span> <span data-ttu-id="8ab75-121">Para obtener más información, vea [Vender productos](sales-how-sell-products.md).</span><span class="sxs-lookup"><span data-stu-id="8ab75-121">For more information, see [Sell Products](sales-how-sell-products.md).</span></span>
+2. <span data-ttu-id="8ab75-122">Seleccione la línea en cuestión y, a continuación, la acción **Insertar textos adicionales**.</span><span class="sxs-lookup"><span data-stu-id="8ab75-122">Select the line in question, and then choose the **Insert Ext. Text** action.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="8ab75-123">Consulte también</span><span class="sxs-lookup"><span data-stu-id="8ab75-123">See Also</span></span>
+
+[<span data-ttu-id="8ab75-124">Configurar inventario</span><span class="sxs-lookup"><span data-stu-id="8ab75-124">Setting Up Inventory</span></span>](inventory-setup-inventory.md)  
+<span data-ttu-id="8ab75-125">[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="8ab75-125">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
