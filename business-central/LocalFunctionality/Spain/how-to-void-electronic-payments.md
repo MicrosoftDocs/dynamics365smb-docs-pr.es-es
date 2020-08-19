@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: 3d715c3acbd1edd8ed749fe5712f0c7618b5f0c3
-ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
+ms.openlocfilehash: 74d68703ca6c925938eb45d28a84b826c8c936e9
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "3503487"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676752"
 ---
 # <a name="void-electronic-payments"></a>Anular pagos electrónicos
 
@@ -23,7 +23,7 @@ En la versión en español de [!INCLUDE[d365fin](../../includes/d365fin_md.md)],
 
 ## <a name="to-void-electronic-payments"></a>Para anular pagos electrónicos  
 
-1. Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Anular pagos electrónicos** y, a continuación, seleccione el vínculo relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Anular pagos electrónicos** y luego elija el vínculo relacionado.  
 2. En la ficha desplegable **Opciones**, rellene los campos tal como se describe en la tabla siguiente.  
 
     |Campo|Description|  
@@ -32,7 +32,7 @@ En la versión en español de [!INCLUDE[d365fin](../../includes/d365fin_md.md)],
 
 ## <a name="to-void-electronic-payments-in-the-cartera-module"></a>Para anular pagos electrónicos en el módulo Cartera  
 
-1. Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Anular Orden pago - Exportar N34.1** y, a continuación, seleccione el vínculo relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Anular Orden pago - Exportar N34.1** y luego elija el vínculo relacionado.  
 2. En la ficha desplegable **Opciones**, rellene los campos tal como se describe en la tabla siguiente.  
 
     |Campo|Description|  

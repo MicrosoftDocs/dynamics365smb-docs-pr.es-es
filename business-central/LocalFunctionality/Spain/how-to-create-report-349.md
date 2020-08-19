@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: e9b661ae2bcbed0cad35146516c9083f43ce1f61
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 915adfabe6c25e77ffd7cc48e1b9f54ac9f460c5
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189188"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676668"
 ---
 # <a name="create-report-349"></a>Crear el informe 349
 Debe presentar un informe periódico de comercio con otros países o regiones de la UE a las autoridades fiscales. Este modelo, el Informe 349, debe enviarse a las autoridades fiscales electrónicamente en la página web de la Agencia Tributaria o en un CD-ROM. Para obtener más información, consulte el sitio web de la [Agencia Tributaria](https://go.microsoft.com/fwlink/?LinkId=238181).  
 
 ## <a name="to-create-report-349"></a>Para crear el informe 349  
 
-1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Modelo 349** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Modelo 349** y luego elija el enlace relacionado.  
 2.  En la ficha desplegable **Opciones**, rellene los campos tal como se describe en la tabla siguiente.  
 
     |Campo|Description|  

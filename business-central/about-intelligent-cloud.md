@@ -9,20 +9,20 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms. search.keywords: cloud, edge
-ms.date: 04/01/2020
+ms.date: 07/13/2020
 ms.author: bmeier
-ms.openlocfilehash: c2c30715c730aec51f31f80ea95fd896cb1b257f
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 8948864c1e3d00f3955b0952fd70048c13f4585c
+ms.sourcegitcommit: 89d0ea903f61ab0628f99329c762d9f1619c49a7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528868"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "3577284"
 ---
 # <a name="intelligent-insights-with-prodshort-online"></a>Información inteligente con [!INCLUDE[prodshort](includes/prodshort.md)] Online
 
 Como usuario de [!INCLUDE[prodshort](includes/prodshort.md)] en línea, tiene acceso completo a escenarios basados en la nube inteligente, como los KPI que están basados en aprendizaje automático, o cuando ve sus datos en Power BI. Sin embargo, si bien [!INCLUDE[prodshort](includes/prodshort.md)] es un servicio primordial en la nube, también pueden hacerlo aquellos clientes que necesitan ejecutar sus cargas de trabajo totalmente de forma local o en la inteligencia perimetral conectada a la nube.  
 
-Si está interesado en [!INCLUDE[prodshort](includes/prodshort.md)], puede inscribirse para una prueba gratuita en línea, o puede elegir trabajar con un asociado para implementar [!INCLUDE[prodshort](includes/prodshort.md)] localmente en su propia elección de hardware. A continuación, puede decidir obtener información inteligente conectándose con un suscriptor en la nube. Como resultado, los datos de [!INCLUDE[prodshort](includes/prodshort.md)] implementado localmente se replicarán en la nube para escenarios de nube inteligente.  
+Si está interesado en [!INCLUDE[prodshort](includes/prodshort.md)], puede inscribirse para una prueba gratuita en línea, o puede elegir trabajar con un asociado para implementar [!INCLUDE[prodshort](includes/prodshort.md)] localmente en su propia elección de hardware. A continuación, puede decidir obtener información inteligente conectándose con un suscriptor en la nube. Como resultado, los datos de la implementación local de [!INCLUDE[prodshort](includes/prodshort.md)] se replican en la nube para escenarios de nube inteligente.  
 
 La conexión a la nube inteligente desde una solución local requiere que su administrador especifique información sobre su base de datos. Las herramientas utilizadas para conectar su implementación local a [!INCLUDE[prodshort](includes/prodshort.md)] en línea son los mismos que también se utilizan para la migración de local a en línea. Para más información, consulte [Migración de datos locales a Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) en el contenido de la administración para [!INCLUDE[prodshort](includes/prodshort.md)].  
 
@@ -48,7 +48,6 @@ Cuando su asociado de reventa de Dynamics 365 ha adquirido la licencia correcta 
 
 ## <a name="see-also"></a>Consulte también
 
-[Este es Business Central](index.md)  
-[Extensión de la nube inteligente de Business Central](ui-extensions-intelligent-cloud.md)  
-[Extensión de replicación de datos](ui-extensions-data-replication.md)  
+[Bienvenido a Business Central](index.md)  
+[Extensiones inteligentes en la nube para la migración a la nube](ui-extensions-data-replication.md)  
 [Migración de datos locales a Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)  

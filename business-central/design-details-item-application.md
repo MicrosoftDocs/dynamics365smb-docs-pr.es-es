@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: bfd2c67c7e7133f13a2e021cb9cf70ba82f6bb21
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 098bb0e946d78f69a848ddeb8405ea43579c4597
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185161"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617632"
 ---
 # <a name="design-details-item-application"></a>Detalles de diseño: Liquidación de productos
+
 Cuando se registra una transacción de inventario, el registro de cantidad se guarda en los movimientos de producto y el registro de valor en los movimientos de valoración. Para obtener más información, consulte [Detalles de diseño: Registro de inventario](design-details-inventory-posting.md).  
 
 Además, se hace una solicitud de producto para conectar al destinatario del coste con el origen del coste y hacer así un desvío de coste al método de coste. Para obtener más información, consulte [Detalles de diseño: Métodos de coste](design-details-costing-methods.md).  
@@ -40,15 +41,15 @@ El hecho que de que se hagan liquidaciones de cantidad o de coste depende de la 
 
 En la tabla siguiente se muestra, según los campos de la aplicación central en las líneas de transacción de inventario, cómo fluyen los costes según la dirección de la transacción. También indica cuándo y por qué la liquidación del producto es de tipo cantidad o coste.  
 
-||Campo Liq. por nº orden producto|Campo Liquid.-de mov. pdto|  
+|-|Campo Liq. por nº orden producto|Campo Liquid.-de mov. pdto|  
 |-|--------------------------------|----------------------------------|  
 |Aplicación de movimiento de salida|El movimiento de salida obtiene el coste del movimiento de entrada abierto.<br /><br /> **Liquidación de cantidad**|No compatible|  
 |Aplicación de movimiento de entrada|El movimiento de entrada envía el coste al movimiento de salida abierto.<br /><br /> El movimiento de entrada es el origen de coste.<br /><br /> **Liquidación de cantidad**|El movimiento de entrada obtiene el coste del movimiento de salida. **Nota:** Al realizar esta liquidación fija, la transacción de entrada se trata como una devolución de venta. Por lo tanto, el movimiento de salida liquidado permanecerá abierto. <br /><br /> El movimiento de entrada NO es el origen de coste.<br /><br /> **Coste liquidación**|  
 
 > [!IMPORTANT]  
->  Una devolución de venta NO se considera un origen de coste cuando se liquida de forma fija.  
->   
->  El movimiento de venta permanece abierto hasta que se registra el origen real.  
+> Una devolución de venta NO se considera un origen de coste cuando se liquida de forma fija.  
+>
+> El movimiento de venta permanece abierto hasta que se registra el origen real.  
 
 Un movimiento de liquidación de producto registra la siguiente información.  
 
@@ -206,7 +207,7 @@ El ejemplo siguiente, en el que se ilustra cómo se liquidan los movimientos de 
 
 En la tabla siguiente se muestra el efecto de la transferencia en los movimientos de valoración del producto.  
 
-|Fecha reg.|Tipo mov. producto|Cód. almacén|Cdad. valorada|Importe coste (real)|N.º de movimiento|  
+|Fecha reg.|Tipo mov. producto|Código de ubicación|Cdad. valorada|Importe coste (real)|N.º de movimiento|  
 |-------------------------------------|-----------------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------------|----------------------------------|  
 |01-01-20|Compra|AZUL|1|10.00|1|  
 |01-01-20|Compra|AZUL|1|20.00|2|  
@@ -221,7 +222,7 @@ El ejemplo siguiente, en el que se ilustra cómo se liquidan los movimientos de 
 
 En la tabla siguiente se muestra el efecto de la transferencia en los movimientos de valoración del producto.  
 
-|Fecha reg.|Tipo mov. producto|Cód. almacén|Cdad. valorada|Importe coste (real)|N.º de movimiento|  
+|Fecha reg.|Tipo mov. producto|Código de ubicación|Cdad. valorada|Importe coste (real)|N.º de movimiento|  
 |-------------------------------------|-----------------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------------|----------------------------------|  
 |01-01-20|Compra|AZUL|1|10.00|1|  
 |01-02-20|Transferencia|AZUL|-1|10.00|2|  

@@ -1,5 +1,5 @@
 ---
-title: Usar la liquidación automática para conciliar pagos | Documentos de Microsoft
+title: Configurar reglas para la liquidación automática de los pagos
 description: En la página Reglas de liquidación de pago, se establecen reglas para determinar el modo en que los pagos/operaciones bancarias deben liquidarse automáticamente en los movimientos pendientes relacionados cuando se utiliza la función Liquidar automáticamente en la página Diario de conciliación de pagos.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,17 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: 64756cdc1a95cc0bb866fa4b7f87ecea0f1282ff
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: b655032a17aa617ccbaba2ac3dfd5413d4ca4326
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191936"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617578"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Configurar reglas para la liquidación automática de los pagos
+
 En la página **Reglas de liquidación de pagos**, se establecen reglas para regular el modo en que el texto de pago (en una operación bancaria) se ajusta automáticamente al texto de los movimientos pendientes en los dos procesos siguientes:
+
 - Liquidar automáticamente los pagos de sus facturas pendientes (no pagadas), abonos u otros movimientos relacionados cuando utilice la función **Liquidar automáticamente** en la página **Diario de conciliación de pagos**. Para obtener más información, vea [Conciliar pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md).
 
 - Conciliar automáticamente las transacciones bancarias con sus movimientos internos de banco relacionados cuando se selecciona la acción **Conciliar automáticamente** en la página **Conciliación banco**. Para obtener más información, consulte [Conciliar bancos](bank-how-reconcile-bank-accounts-separately.md).

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 643a9835ca7c86459e49f97cf368e4d4d57f18a9
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: aa4d92d57921c4e6c39862c10b9975eecb7d5b29
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189186"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676656"
 ---
 # <a name="enter-nace-codes"></a>Introducir códigos NACE
 Los códigos de Nomenclature génerale des Activités économiques dans les Communautés Européennes (CNAE) representan la clasificación estadística de actividades económicas dentro de la Unión Europea (UE).  
@@ -33,7 +33,7 @@ Los códigos CNAE se pueden escribir en la página **Información empresa**. Los
 
 ## <a name="to-enter-nace-codes"></a>Para introducir códigos CNAE  
 
-1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Información de empresa** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Información de empresa** y luego elija el enlace relacionado.  
 2.  Escriba un código NACE en el campo **Código SIC de actividad** de la ficha desplegable **General**.  
 3.  Elija el botón **Aceptar**.  
 

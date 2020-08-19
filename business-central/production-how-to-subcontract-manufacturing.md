@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 08/10/2020
 ms.author: sgroespe
-ms.openlocfilehash: dbe03ccde8111a4d14ce34db5b5b5e73297796be
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c2d0558febd8bd895bbc591f4165a7a8fdda8600
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191456"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677313"
 ---
 # <a name="subcontract-manufacturing"></a>Subcontratación de fabricación
 La subcontratación de operaciones seleccionadas al proveedor es común de muchas empresas de fabricación. La subcontratación puede ser esporádica o puede formar parte integrante de todos los procesos de producción.
@@ -71,13 +71,6 @@ La línea de la hoja de trabajo que se convirtió en pedido de compra se elimina
 
 ## <a name="posting-subcontract-purchase-orders"></a>Registrar pedidos de compra de subcontratación  
 Una vez que se han creado los pedidos de compra del subcontratista, se pueden registrar. La recepción del pedido registra un movimiento de capacidad en la orden de producción y la facturación del pedido registra el coste directo del pedido de compra en la orden de producción.  
-
-Cuando la compra se registra como recibida, se registra automáticamente un movimiento de diario de salida para la orden de producción. Esto se aplica solo si la operación de subcontratación es la última operación en la ruta de la orden de producción.  
-
-> [!CAUTION]  
->  Es posible que no desee realizar el registro de salida automático para una orden de producción en curso cuando se reciben productos subcontratados. Los motivos de esto podrían ser que la cantidad de salida esperada que se registra puede ser diferente de la cantidad real y que la fecha de registro de la salida automática es engañosa.  
->   
->  Para evitar que se registra la salida esperada de una orden de producción cuando se reciban compras de subcontratados, asegúrese de que la operación subcontratada no sea la última. También, inserte una nueva última operación para la cantidad de salida final.
 
 ## <a name="to-post-a-subcontract-purchase-order"></a>Para registrar un pedido de compra de subcontratación  
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Pedidos de compra** y luego elija el enlace relacionado.  

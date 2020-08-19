@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: online printing
 ms.date: 04/17/2020
 ms.author: sgroespe
-ms.openlocfilehash: dbfdb22447f20b4e4b811dc40cf892d9b971dc77
-ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
+ms.openlocfilehash: dc92c499aa201278abc0c8cdc351eeb1406b1cca
+ms.sourcegitcommit: 99cecd005f8ede70e9a3d163a457fcb9aadb6843
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3272091"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "3549872"
 ---
 # <a name="set-up-printers"></a>Configuración de impresoras
 Como [!INCLUDE[prodshort](includes/prodshort.md)] es un servicio en la nube, no puede llegar a las impresoras locales conectadas a las máquinas de los usuarios. Sin embargo, puede conectarse a impresoras habilitadas para la nube. En la versión genérica de [!INCLUDE[prodshort](includes/prodshort.md)], una impresora en la nube llamada **Impresora de correo electrónico** se instala como extensión y está lista para usar después de la configuración inicial.
@@ -55,7 +55,11 @@ Si utiliza la extensión de impresora de correo electrónico, todos o algunos tr
 Debe tomar todas las precauciones de privacidad necesarias, incluida la garantía de que la solución de impresión de correo electrónico haya configurado correctamente los permisos, la configuración de privacidad y las políticas de retención. Es su responsabilidad proporcionar una dirección de correo electrónico correcta, verificada y operativa. Para obtener más información, consulte la [Declaración de privacidad de Microsoft](https://privacy.microsoft.com/en-us/privacystatement).
 
 ## <a name="to-select-which-printers-print-which-reports"></a>Para seleccionar qué impresoras imprimen qué informes
+
 En la página **Selecciones de impresoras**, puede configurar para su cuenta de usuario qué informes se imprimen en qué impresora. Esto es útil si trabaja con diferentes informes que requieren impresoras diferentes debido a su ubicación en la empresa o sus capacidades de salida.
+
+> [!IMPORTANT]
+> Para [!INCLUDE[prodshort](includes/prodshort.md)] local, la página **Selecciones de impresora** solo se puede utilizar para impresoras definidas por extensiones de impresora. No se puede utilizar para impresoras locales.
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Selecciones de impresora** y luego seleccione el enlace relacionado. Alternativamente, desde la página **Administración de impresoras**, seleccione una impresora y luego elija la acción **Selecciones de impresoras**.
 2. Elija la acción **Nuevo** para agregar una selección de impresora para un informe específico.

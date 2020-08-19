@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c5d07288a8bfaffc48c569758f81f65a8cc2f793
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: e8e7fe41e766f35d4b11aacec99659b9d9ea059f
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189189"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676662"
 ---
 # <a name="create-templates-for-telematic-vat-statements-in-xml-file-format"></a>Crear plantillas para las declaraciones telemáticas de IVA en formato XML
 Para mostrar las declaraciones de IVA electrónicamente, debe crear plantillas para generar los archivos necesarios. Puede enviar los archivos en formato de texto y en formato XML. Este procedimiento describe cómo crear plantillas para los archivos XML.  
@@ -26,7 +26,7 @@ Para obtener más información, consulte el sitio web de la [Agencia Tributaria]
 
 ## <a name="to-create-a-template-for-vat-statements-in-xml-file-format"></a>Para crear una plantilla para las declaraciones telemáticas de IVA en formato de archivo XML  
 
-1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Declaración IVA** y, a continuación, seleccione el vínculo apropiado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Declaración IVA** y luego elija el vínculo correcto.  
 2.  Seleccione la declaración de IVA requerida y después seleccione **Diseñar archivo XML**.  
 3.  En la página **Formato transferencia XML**, rellene los campos tal como se describe en la tabla siguiente.  
 

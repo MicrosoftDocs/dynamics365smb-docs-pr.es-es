@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 363ccc4f5686ca13af3fc2ed6d158f9066f5cbea
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 1decfc5adcfbb67bb7032b44798d2e039a42de46
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189174"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676569"
 ---
 # <a name="print-sales-and-purchase-invoice-books"></a>Imprimir libros de facturas emitidas y recibidas
 Los informes **Libro facturas emitidas** y **Libro facturas recibidas** permiten comprobar todos los documentos de compras y ventas creados en un periodo específico.  
@@ -30,7 +30,7 @@ Los informes **Libro facturas emitidas** y **Libro facturas recibidas** se puede
 
 ## <a name="to-print-sales-invoice-book-and-purchase-invoice-book-reports"></a>Para imprimir los informes Libro de facturas emitidas y Libro de facturas recibidas  
 
-1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "Icono Buscar página o informe"), escriba **Libro facturas emitidas** o **Libro facturas recibidas** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Libro facturas emitidas** o **Libro facturas recibidas** y luego elija el enlace relacionado.  
 2.  En la ficha desplegable **Opciones**, rellene los campos tal como se describe en la tabla siguiente.  
 
     |Opción|Description|  

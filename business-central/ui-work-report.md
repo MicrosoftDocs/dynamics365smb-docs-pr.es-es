@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: task, process, report
 ms.date: 06/10/2020
 ms.author: sgroespe
-ms.openlocfilehash: 19811dadb284ee9e629c9dc518df5cb989175fdb
-ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
+ms.openlocfilehash: 11c3fa284a457db1de272a3d92ebc7fc873ad933
+ms.sourcegitcommit: 99cecd005f8ede70e9a3d163a457fcb9aadb6843
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "3454334"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "3549897"
 ---
 # <a name="working-with-reports-batch-jobs-and-xmlports"></a>Trabajar con informes, trabajos por lotes y XMLports
 
@@ -50,7 +50,7 @@ El uso de la configuración guardada es una forma rápida y confiable de generar
 
 ## <a name="previewing-a-report"></a>Vista preliminar de un informe
 
-Elija el botón **Vista previa** para ver el informe. Use la barra de menú en la vista previa del informe para:
+Elija el botón **Vista previa** para ver el informe en la página de solicitud del informe. Use la barra de menú en la vista previa del informe para:
 
 - Desplazarse a través de las páginas
 - Acercar y alejar la imagen
@@ -77,17 +77,32 @@ Cuando programe la ejecución de un informe, puede especificar que debe ejecutar
 Puede elegir guardar el informe procesado en un archivo, como archivo Excel, Word o PDF, imprimirlo en una impresora seleccionada o solo procesarlo. Si elige guardar el informe en un archivo, el informe procesado se envía al área **Bandeja de entrada de informes** en el área de trabajo, donde puede verlo.  
 
 ## <a name="printing-a-report"></a><a name="PrintReport"></a>Imprimir un informe
-Puede imprimir un informe eligiendo el botón **Imprimir** en la página de solicitud de informe o en la barra de menú en la página **Vista previa**.
 
-Como [!INCLUDE[prodshort](includes/prodshort.md)] es un servicio en la nube, no puede llegar a las impresoras locales conectadas a las máquinas de los usuarios. Sin embargo, puede conectarse a impresoras habilitadas para la nube. En la versión genérica de [!INCLUDE[prodshort](includes/prodshort.md)], una impresora en la nube llamada **Impresora de correo electrónico** se instala como extensión y está lista para usar después de la configuración inicial.
+Un informe se imprime eligiendo el botón **Imprimir** en la página de solicitud de informe o en la barra de menú en la página **Vista previa**.
 
-Si no se instala y configura una impresora en la nube o si falla una impresora instalada, la impresión tendrá las opciones de impresión predeterminadas para el navegador. Esto se indica mediante este valor en el campo **Impresora** en la página de solicitud de informe: *(ninguna, controlada por el navegador)*.
+### <a name="printer-selection"></a>Selección de impresora
 
-En la página **Administración de impresoras**, puede ver las impresoras que están configuradas. Para obtener más información, consulte [Configurar impresoras](ui-specify-printer-selection-reports.md).
+El informe se imprime en la impresora que se muestra en el campo **Impresora seleccionada** en la página de solicitud de informe. No puede cambiar la impresora desde esta página.
+
+La impresora seleccionada se configura en la página **Selecciones de impresora** o es la impresora predeterminada configurada en la página **Gestión de impresoras**. Si desea utilizar otra impresora, consulte [Configurar impresoras](ui-specify-printer-selection-reports.md).
+
+Si no se especifica ninguna impresora en la página **Selecciones de impresora** ni se establece como predeterminada en la página **Gestión de impresoras**, se utiliza la función de impresión del navegador. En este caso, **Navegador** aparece en el campo **Impresora seleccionada** en la página de solicitud de informe. 
+
+### <a name="browser-printing"></a>Impresión en el navegador
+
+Como [!INCLUDE[prodshort](includes/prodshort.md)] es un servicio en la nube, no puede llegar a las impresoras locales conectadas al equipo. Sin embargo, puede conectarse a impresoras habilitadas para la nube. En la versión genérica de [!INCLUDE[prodshort](includes/prodshort.md)], una impresora en la nube llamada **Impresora de correo electrónico** se instala como extensión y está lista para usar después de la configuración inicial.
+
+Si no se instala y configura una impresora en la nube o si falla una impresora instalada, la impresión tendrá las opciones de impresión predeterminadas para el navegador.
 
 > [!NOTE]
-> No puede cambiar el campo **Impresora** en la página de solicitud de informe. Para usar otra impresora, debe seleccionarla en la página **Administración de impresoras**.
+> Las opciones de impresión del navegador funcionan independientemente de [!INCLUDE[prodshort](includes/prodshort.md)]. Por lo tanto, cualquier configuración de impresora que pueda haberse configurado desde impresoras en [!INCLUDE[prodshort](includes/prodshort.md)] no se transfieren a las opciones de impresión del navegador.
 
+<!-- 
+On the **Printer Management** page, you can see the printers that are set up. For more information, see [Set Up Printers](ui-specify-printer-selection-reports.md).
+
+> [!NOTE]
+> You can't change the **Printer** field on the report request page. To use another printer, you must select it from the **Printer Management** page.
+-->
 ### <a name="printing-reports-in-thai"></a>Impresión de informes en tailandés
 Específicamente para la versión tailandesa de [!INCLUDE[prodshort](includes/prodshort.md)], el botón **Imprimir** no puede imprimir correctamente los informes debido a las limitaciones del servicio que genera el archivo PDF imprimible. En su lugar, puede abrir el informe en Word y luego guardarlo como un PDF imprimible.  
 

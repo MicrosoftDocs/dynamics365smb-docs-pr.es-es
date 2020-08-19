@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: d975b0e61228f650cea5b9d6d75b27f4334bb88a
-ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
+ms.openlocfilehash: ebdd92cf957df4c21d20c7809ddf10096404ba91
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "3496830"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617684"
 ---
 #  <a name="create-analysis-reports"></a>Crear informes de análisis
 Los directores de ventas necesitan analizar las facturaciones, los ingresos brutos y otros indicadores clave del rendimiento de las ventas con regularidad. Los compradores están más interesados en la dinámica de los volúmenes de compra, las actuaciones de los proveedores y los precios de compra. A su vez, los directores de inventario/logística necesitan información sobre la rotación de inventarios, sobre los análisis de los movimientos de inventario y sobre las estadísticas de valores de inventario.  
@@ -45,7 +45,7 @@ A continuación, puede configurar las siguientes columnas:
 
 Basándose en las líneas y columnas definidas, [!INCLUDE[d365fin](includes/d365fin_md.md)] agregará el resultado del informe en la página **Informe de análisis**, como se muestra en la siguiente tabla.  
 
-| |Ventas del mes actual|Ventas del mes anterior|Porcentaje de ventas del mes anterior|  
+|- |Ventas del mes actual|Ventas del mes anterior|Porcentaje de ventas del mes anterior|  
 |-|-|-|-|  
 |Equipos| | | |  
 |Pantallas| | | |  

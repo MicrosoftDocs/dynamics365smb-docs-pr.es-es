@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: fcde217d5f9fc03572b52db5fe831959e30ab858
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: fc7b6e685f44de192624c5be669ddd743554d961
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189178"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676565"
 ---
 # <a name="set-up-bank-accounts-for-electronic-payments"></a>Configurar cuentas bancarias para realizar pagos electrónicos
 En [!INCLUDE[d365fin](../../includes/d365fin_md.md)], puede configurar cuentas bancarias para realizar pagos electrónicos.  
 
 ## <a name="to-set-up-bank-accounts-for-electronic-payments"></a>Para configurar cuentas bancarias para realizar pagos electrónicos  
 
-1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Ficha banco** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Ficha banco proveedor** y luego elija el enlace relacionado.  
 2.  En la ficha desplegable **Transferencia**, asegúrese de que los campos **CCC Cód. banco**, **CCC Cód. oficina**, **CCC Dígito control** y **CCC Nº cuenta** se rellenan correctamente.  
 3.  En la ficha desplegable **Transferencia**, rellene los campos tal como se describe en la tabla siguiente.  
 
@@ -39,7 +39,7 @@ En [!INCLUDE[d365fin](../../includes/d365fin_md.md)], puede configurar cuentas b
 
 ## <a name="to-set-up-vendor-bank-accounts-for-electronic-payments"></a>Para configurar cuentas bancarias para realizar pagos electrónicos  
 
-1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Ficha banco proveedor** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Ficha banco proveedor** y luego elija el vínculo relacionado.  
 2.  En la ficha desplegable **General**, rellene los campos tal como se describe en la tabla siguiente.  
 
     |Campo|Description|  

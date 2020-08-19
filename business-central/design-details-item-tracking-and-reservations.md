@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: bfa2706b4d6d44a6f565685a66668c336b7a20e3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 5270d0a45b6da568506db8ae9b166be57d391f17
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185113"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617551"
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Detalles de diseño: Seguimiento de productos y reservas
+
 No es habitual el uso simultáneo de la reserva y del seguimiento de producto específico porque ambos crean un acoplamiento entre el suministro y la demanda. Salvo en situaciones en las que un cliente o un planificador de producción solicita un lote específico, casi nunca tiene sentido reservar productos de inventario que ya llevan números de seguimiento de producto para una liquidación específica. Aunque es posible reservar los productos que requieren seguimiento específico, se necesita una funcionalidad especial para evitar conflictos entre los procesadores de pedidos que solicitan los mismos productos a los que se hace un seguimiento.  
   
 El concepto de enlace posterior garantiza que una reserva no específica de un número de serie o de lote permanece acoplado dinámicamente hasta que se registra. En el momento de efectuarse el registro, el programa de reservas puede reorganizar reservas no específicas para garantizar que sea posible aplicar una liquidación fija con respecto al número de serie o de lote que se seleccione. Mientras tanto, el número de serie o de lote está disponible para la reserva específica en otros documentos que solicitan dicho número de serie o de lote.  
@@ -25,7 +26,7 @@ El concepto de enlace posterior garantiza que una reserva no específica de un n
 Una reserva no específica es una en la que al usuario no le importa qué producto específico se selecciona, y una reserva específica es una en la que al usuario le importa.  
   
 > [!NOTE]  
->  La funcionalidad de enlace posterior se relaciona solo con los productos que están configurados con el seguimiento de productos específicos y se aplica únicamente a las reservas sobre el inventario, no sobre los pedidos de suministro entrantes.  
+> La funcionalidad de enlace posterior se relaciona solo con los productos que están configurados con el seguimiento de productos específicos y se aplica únicamente a las reservas sobre el inventario, no sobre los pedidos de suministro entrantes.  
   
 La reserva de números de seguimiento de productos se divide en dos categorías, como se muestra en la tabla siguiente.  
   
@@ -36,11 +37,9 @@ La reserva de números de seguimiento de productos se divide en dos categorías,
   
 La diferencia principal entre reserva específica y no específica se define por la existencia de números de serie o de lote en la demanda, tal como se muestra en la tabla siguiente.  
   
-||||  
-|-|-|-|  
-||**Aprovisionamiento**|**Demanda**|  
-|**Específico**|Número de serie o de lote.|Número de serie o de lote.|  
-|**No específico**|Número de serie o de lote.|Sin número de serie o de lote.|  
+|<!--blank -->|**Suministro**|**Demanda**|  
+|Número de serie o lote |**específico**.|Número de serie o lote.|  
+|Número de serie o lote |**no específico**.|Sin número de serie o lote.|  
   
 Cuando se reservan cantidades de inventario de una línea de documento de salida para un producto que tenga asignados números de seguimiento de producto y se haya configurado para el seguimiento de producto específico, la página **Reservas** le guiará por distintos flujos de trabajo según la necesidad de números de serie o de lote.  
   

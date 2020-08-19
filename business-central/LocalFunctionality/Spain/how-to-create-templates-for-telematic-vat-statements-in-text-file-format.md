@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8cf32e875fd8475bf9ff46a486552f46a12c66c3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: a02113a1809d91aa35b01a510a024e3c19e09bb0
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189190"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676664"
 ---
 # <a name="create-templates-for-telematic-vat-statements-in-text-file-format"></a>Crear plantillas para las declaraciones telemáticas de IVA en formato de archivo de texto
 Para mostrar las declaraciones de IVA electrónicamente, debe crear plantillas para generar los archivos necesarios. Puede enviar los archivos en formato de texto y en formato XML. Este procedimiento describe cómo crear plantillas para los archivos de texto.  
@@ -26,7 +26,7 @@ Para obtener más información, consulte el sitio web de la [Agencia Tributaria]
 
 ## <a name="to-create-a-template-for-vat-statements-in-text-file-format"></a>Para crear una plantilla para las declaraciones telemáticas de IVA en formato de archivo de texto  
 
-1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Declaración IVA** y, a continuación, seleccione el vínculo apropiado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Declaración IVA** y luego elija el vínculo correcto.  
 2.  Seleccione la declaración de IVA requerida y después seleccione **Diseñar archivo TXT**.  
 3.  En la página **Formato transferencia**, rellene los campos tal como se describe en la tabla siguiente.  
 

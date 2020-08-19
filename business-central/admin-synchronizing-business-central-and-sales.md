@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: bholtorf
-ms.openlocfilehash: 0763119e323a8bae6d2b7ce3db0780284befa292
-ms.sourcegitcommit: 0c6f4382fad994fb6aea9dcde3b2dc25382c5968
+ms.openlocfilehash: 2c7b7c4175f4c17e01c114f76d0b14834e0409ae
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "3484114"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617709"
 ---
 # <a name="synchronizing-data-in-business-central-with-common-data-service"></a>Sincronización de datos en Business Central con Common Data Service
+
 Cuando integra [!INCLUDE[d365fin](includes/cds_long_md.md)] con [!INCLUDE[d365fin](includes/d365fin_md.md)], puede decidir si desea sincronizar los datos de campos seleccionados de los registros de [!INCLUDE[d365fin](includes/d365fin_md.md)] (como clientes, contactos y personal de ventas) con registros equivalentes en [!INCLUDE[d365fin](includes/cds_long_md.md)] (como cuentas, contactos y usuarios). Dependiendo del tipo de registro, puede sincronizar datos de [!INCLUDE[d365fin](includes/cds_long_md.md)] a [!INCLUDE[d365fin](includes/d365fin_md.md)], o viceversa. Para obtener más información, vea [Integración con Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
 
 La sincronización utiliza los siguientes elementos:
@@ -42,13 +43,13 @@ Las entidades en [!INCLUDE[d365fin](includes/cds_long_md.md)], como las cuentas,
 
 La siguiente tabla enumera la asignación estándar entre entidades en [!INCLUDE[d365fin](includes/d365fin_md.md)] y [!INCLUDE[d365fin](includes/cds_long_md.md)] que proporciona [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-|[!INCLUDE[d365fin](includes/d365fin_md.md)]|[!INCLUDE[d365fin](includes/cds_long_md.md)]|Dirección de la sincronización|Filtro predeterminado|
-|-------------------------------------------|-----|-------------------------|--------------|
-|Vendedor/Comprador|Usuario|[!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Filtro de contacto de [!INCLUDE[d365fin](includes/cds_long_md.md)]: **Estado** es **No**, **Usuario con licencia** es **Sí**, Modo de integración de usuario es **No**|
-|Cliente|Cuenta|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] y [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Filtro de cuenta de [!INCLUDE[d365fin](includes/cds_long_md.md)]: el **Tipo de relación** es **Cliente** y el **Estado** es **Activo**. Filtro de [!INCLUDE[d365fin](includes/d365fin_md.md)]: **Bloqueado** está vacío (Cliente no está bloqueado).|
-|Proveedor|Cuenta|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] y [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Filtro de cuenta de [!INCLUDE[d365fin](includes/cds_long_md.md)]: el **Tipo de relación** es **Proveedor** y el **Estado** es **Activo**. Filtro de [!INCLUDE[d365fin](includes/d365fin_md.md)]: **Bloqueado** está vacío (Proveedor no está bloqueado).|
-|Contacto|Contacto|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] y [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Filtro de contacto de [!INCLUDE[d365fin](includes/d365fin_md.md)]: el **tipo** es **Persona** y el contacto se asigna una empresa. Filtro de contacto de [!INCLUDE[d365fin](includes/cds_long_md.md)]: el contacto se asigna a una empresa y el tipo de cliente principal es **Cuenta**|
-|Divisa|Divisa de la transacción|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)]| |
+| [!INCLUDE[d365fin](includes/d365fin_md.md)] | [!INCLUDE[d365fin](includes/cds_long_md.md)] | Dirección de la sincronización | Filtro predeterminado |
+|---------------------------------------------|----------------------------------------------|---------------------------|----------------|
+| Vendedor/Comprador | Usuario | [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | Filtro de contacto de [!INCLUDE[d365fin](includes/cds_long_md.md)]: **Estado** es **No**, **Usuario con licencia** es **Sí**, Modo de integración de usuario es **No** |
+| Cliente | Cuenta | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] y [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | Filtro de cuenta de [!INCLUDE[d365fin](includes/cds_long_md.md)]: el **Tipo de relación** es **Cliente** y el **Estado** es **Activo**. Filtro de [!INCLUDE[d365fin](includes/d365fin_md.md)]: **Bloqueado** está vacío (Cliente no está bloqueado). |
+| Proveedor | Cuenta | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] y [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | Filtro de cuenta de [!INCLUDE[d365fin](includes/cds_long_md.md)]: el **Tipo de relación** es **Proveedor** y el **Estado** es **Activo**. Filtro de [!INCLUDE[d365fin](includes/d365fin_md.md)]: **Bloqueado** está vacío (Proveedor no está bloqueado). |
+| Contacto | Contacto | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] y [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | Filtro de contacto de [!INCLUDE[d365fin](includes/d365fin_md.md)]: el **tipo** es **Persona** y el contacto se asigna una empresa. Filtro de contacto de [!INCLUDE[d365fin](includes/cds_long_md.md)]: el contacto se asigna a una empresa y el tipo de cliente principal es **Cuenta** |
+| Divisa | Divisa de la transacción | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] |  |
 
 
 ### <a name="tip-for-admins-viewing-entity-mappings"></a>Consejo para administradores: visualización de asignaciones de entidad

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
-ms.date: 06/19/2020
+ms.date: 07/23/2020
 ms.author: bholtorf
-ms.openlocfilehash: d94fd19194eb47b421e99c81ac8bd588543510e5
-ms.sourcegitcommit: ec3034640ed10e0fd028568ec45f21c84498d3de
+ms.openlocfilehash: d52b04f000617ac037ccc37bcf02061609e680c6
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "3486376"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617841"
 ---
 # <a name="the-c5-data-migration-extension"></a>Extensión de migración de datos de C5
 
@@ -146,8 +146,8 @@ Después de corregir uno o más errores, puede elegir **Migrar** para migrar sol
 
 Un modo de comprobar que los datos se han migrado correctamente es mirar las páginas siguientes en la C5 y [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-|Microsoft Dynamics C5 2012 | [!INCLUDE[d365fin](includes/d365fin_md.md)]| Trabajo por lotes para utilizar |
-|---------------------------|--------------------------------------------|------------------|
+|Microsoft Dynamics C5 2012 | Dynamics 365 Business Central| Trabajo por lotes para utilizar |
+|---------------------------|------------------------------|------------------|
 |Movimientos de cliente| Diarios generales| CUSTMIGR |
 |Movimientos de proveedor| Diarios generales| VENDMIGR|
 |Movs. prods.| Diarios de productos| ITEMMIGR |

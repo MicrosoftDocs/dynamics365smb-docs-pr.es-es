@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 65dbc4b58227830a2111b29ae70c9d2893800ffb
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: dff51fcc11f078f56182e053e6b0b66f43a9ba02
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189171"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676564"
 ---
 # <a name="set-up-and-close-income-statement-balances"></a>Configuración y asiento de la regularización
 Puede utilizar cuentas de regularización para saldar y realizar el seguimiento de varias cuentas al mismo tiempo. El proceso **Asiento regularización** transfiere las cuentas de regularización a una cuenta del balance y las cierra. Cuando se ejecuta el proceso **Asiento regularización**, los movimientos se registran automáticamente.  
@@ -27,7 +27,7 @@ Puede utilizar cuentas de regularización para saldar y realizar el seguimiento 
 
 ## <a name="to-set-up-the-income-statement-balance-account"></a>Para configurar la cuenta de regularización  
 
-1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Plan de cuentas** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Plan de cuentas** y luego elija el enlace relacionado.  
 2.  Seleccione una cuenta de contabilidad existente y después seleccione **Editar** para abrir la página **Ficha cuenta**.  
 3.  Amplíe la ficha desplegable **General**.  
 4.  En el campo **Cta. regularización**, seleccione la cuenta de ajuste para la cuenta comercial auxiliar.  
@@ -39,7 +39,7 @@ Puede utilizar cuentas de regularización para saldar y realizar el seguimiento 
 
 ## <a name="to-close-income-statement-balances"></a>Para el asiento de la regularización  
 
-1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Cerrar asiento de regularización** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Asiento regularización** y luego elija el enlace relacionado.  
 2.  En la ficha desplegable **Opciones**, rellene los campos tal como se describe en la tabla siguiente.  
 
     |Campo|Description|  

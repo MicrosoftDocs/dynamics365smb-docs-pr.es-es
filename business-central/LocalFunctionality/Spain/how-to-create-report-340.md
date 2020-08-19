@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 59e84787d884aaa49b48c7d4d13c9bd0b7ca704e
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 32b4afbd3782040ef569e7e00b9bf9457bb78b28
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189192"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676672"
 ---
 # <a name="create-report-340"></a>Crear el informe 340
 El Informe 340 incluye todas las facturas de compras y ventas que registra una empresa durante un periodo determinado. El informe también incluye los códigos de operación con impuestos y pagos en efectivo relacionados.  
@@ -24,7 +24,7 @@ Este informe se genera en un formato que ha aprobado la administración fiscal. 
 
 ## <a name="to-create-report-340"></a>Para crear el informe 340  
 
-1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Modelo 340** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Modelo 340** y luego elija el enlace relacionado.  
 2.  En la ficha desplegable **Opciones** de la página **Modelo 340**, rellene los campos tal y como se describe en la tabla siguiente.  
 
     |Campo|Description|  

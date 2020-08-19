@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8bbd9b07976dc4d54f8bee9f5eb8c23270c5a10c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c133a678d3628fa8274399d22e7f53b73740e3d8
+ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187177"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3666852"
 ---
 # <a name="create-custom-company-configuration-packages"></a>Crear paquetes de configuración de empresa personalizados
 A medida que crece su empresa, probablemente confiará en un conjunto de tipos de empresa que utiliza con la mayor parte de los clientes. Puede simplificar el proceso de implementación al convertir estos tipos habituales en paquetes de configuración de empresa disponibles para volver a usarlas.  
@@ -38,6 +38,11 @@ Otro método sería crear un paquete que incluya las tablas que definen la confi
 -   Config. registro inventario  
 
 Para ver una lista completa de tablas de configuración, elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración manual** y luego elija el enlace relacionado.  
+
+> [!IMPORTANT]
+> Tenga cuidado si elige tablas o campos que tienen el mismo nombre temporal pero que se diferencian por caracteres especiales, como %, &, <, >, ( y ). Por ejemplo, la tabla "XYZ" puede contener los campos "Campo 1" y "Campo 1%".
+>
+> El procesador XML acepta solo algunos caracteres especiales y eliminará los que no. Si al eliminar un carácter especial, como el signo % en el "Campo 1%", se obtienen dos o más tablas o campos con el mismo nombre, se producirá un error al exportar o importar un paquete de configuración.
 
 ## <a name="to-create-a-custom-company-configuration-package"></a>Crear un paquete de configuración de empresa personalizado  
 1.  Cree una nueva empresa. Para obtener más información, consulte [Crear nuevas empresas en Business Central](about-new-company.md).  

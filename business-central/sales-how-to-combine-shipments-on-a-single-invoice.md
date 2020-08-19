@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 52312113328aadb82a1149ecf03b3e870ae3c288
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: f6ce4c0c304fc8255789ec91fb3a00ba78170d6d
+ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194864"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3666927"
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a>Agrupar envíos en una factura única
 Si desea facturar varios envíos a la vez, utilice la función de agrupación de envíos.  
 
- Para crear una agrupación de envíos, primero debe registrar más de un envío de venta para el mismo cliente en la misma divisa. Dicho de otro modo, debe haber rellenado dos o más pedidos de venta y haberlos registrado como enviados pero no facturados. Para agrupar envíos deberá activar la casilla de verificación **Fact. automática** de la ficha desplegable **Envíos** de la ficha del **Cliente**.  
+Para crear una agrupación de envíos, primero debe registrar más de un envío de venta para el mismo cliente en la misma divisa. Dicho de otro modo, debe haber creado dos o más pedidos de venta y haberlos registrado como enviados pero no facturados. 
 
 ## <a name="to-manually-combine-shipments-on-a-single-invoice"></a>Para agrupar envíos de forma manual en una factura única  
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Facturas venta** y luego elija el enlace relacionado.  
@@ -36,10 +36,12 @@ Si desea facturar varios envíos a la vez, utilice la función de agrupación de
 7. Para registrar la factura, elija la acción **Registrar**.  
 
 ## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Para agrupar envíos de forma automática en una factura única  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] seleccionará solo pedidos de venta donde se elija **Combinar envíos**. 
+
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Fact. automática** y luego elija el enlace relacionado. Se abre la página de solicitud de trabajo por lotes.  
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Seleccione la casilla de verificación **Registrar facturas**.  
-4.  Elija el botón **Aceptar**.  
+3. Elija la casilla de verificación **Registrar facturas**.  
+4. Elija el botón **Aceptar**.  
 
 > [!NOTE]  
 >  Deberá registrar las facturas manualmente si no se ha activado la casilla de verificación **Registrar facturas** en el trabajo por lotes.  

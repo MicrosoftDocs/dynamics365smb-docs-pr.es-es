@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8b332e50d722ff56625fce45a9617ea67ec2201a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: bf893e2f8ea7eaeee9867566da92461eef7a9578
+ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184201"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3666802"
 ---
 # <a name="fixed-assets"></a>Activos fijos
 La funcionalidad Activos fijos de [!INCLUDE[d365fin](includes/d365fin_md.md)] proporciona un resumen de sus activos y asegura una correcta amortización periódica. También le permite realizar un seguimiento de los costes de mantenimiento, gestionar las pólizas de seguros, registrar transacciones de activos y generar diversos informes y estadísticas.
@@ -47,6 +47,11 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 | Registrar y calcular la amortización y analizarla en informes de activos fijos. |[Depreciar o amortizar activos fijos](fa-how-depreciate-amortize.md) |
 | Registrar transacciones de venta/baja, ver movimientos de venta/baja y registrar ventas/bajas parciales. |[Cancelar o retirar activos fijos](fa-how-dispose-retire.md) |
 | Gestionar presupuestos de activos fijos, costes, ventas/bajas y amortización. |[Gestionar presupuestos de los activos fijos](fa-how-manage-budgets.md) |
+
+## <a name="video-overview"></a>Resumen en vídeo
+El siguiente video cubre los conceptos básicos de los activos fijos.
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS]
 
 ## <a name="see-also"></a>Consulte también
 [Configurar activos fijos](fa-setup.md)  

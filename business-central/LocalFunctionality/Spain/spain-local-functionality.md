@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/09/2020
+ms.date: 07/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: 22880489aebdf8aa691f0f94ba131ccd296db5cd
-ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
+ms.openlocfilehash: 38be6ea00db45b1bbaafcd291755c07cc5c1233f
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "3454425"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617956"
 ---
 # <a name="spain-local-functionality"></a>Funcionalidad local para España
 
@@ -40,7 +40,6 @@ En los temas siguientes se describe la funcionalidad local que es única para la
     * [Recargos de equivalencia](equivalence-charges-ec-.md) **Disponible ahora**
 
 * Banca y pagos  
-    * [Pagos electrónicos AEB N34.1](electronic-payments-aeb-n34.1.md) **Disponible ahora**
     * [Pagos electrónicos - AEB N34.1](electronic-payments-aeb-n341.md) **Disponible ahora**
     * [Configurar cuentas bancarias para realizar pagos electrónicos](how-to-set-up-bank-accounts-for-electronic-payments.md) **Disponible ahora**
     * [Pagar a los proveedores mediante pagos electrónicos](how-to-pay-vendors-by-using-electronic-payments.md) **Disponible ahora**

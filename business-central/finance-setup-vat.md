@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 04/01/2020
+ms.date: 07/21/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7ca1937b34b157a4b76314b5ad38f7918ac7dded
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: bbaf458e39ec45dcbcb34bd50e38feb70fd8426b
+ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182785"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "3611672"
 ---
 # <a name="set-up-value-added-tax"></a>Configurar el impuesto sobre el valor añadido
+
 Los consumidores y las empresas pagan el impuesto sobre el valor añadido (IVA) cuando compran mercancías o servicios. El importe de IVA a pagar puede variar, dependiendo de varios factores. En [!INCLUDE[d365fin](includes/d365fin_md.md)], puede configurar el IVA para especificar las tasas que se usarán para calcular los importes de impuesto a partir de lo siguiente:
 
 * A quién vende  
@@ -28,22 +29,26 @@ Los consumidores y las empresas pagan el impuesto sobre el valor añadido (IVA) 
 Puede configurar los cálculos de IVA de forma manual, pero puede ser difícil y largo. Para que sea fácil, proporcionamos una guía de configuración asistida denominada **Configuración de IVA** que le ayudará con los pasos. Es recomendable que use la guía de configuración asistida para configurar el IVA.
 
 > [!NOTE]  
->   Puede usar la guía únicamente si ha creado una mi empresa, y no haya registrado transacciones que incluyen IVA. De lo contrario, sería muy sencillo usar tasas de IVA distintas por error, y crear informes relacionados con IVA inexactos.  
+> Puede usar la guía únicamente si ha creado una mi empresa, y no haya registrado transacciones que incluyen IVA. De lo contrario, sería muy sencillo usar tasas de IVA distintas por error, y crear informes relacionados con IVA inexactos.  
 
 Si desea configurar cálculos del IVA, o solo desea obtener información acerca de cada paso, este tema contiene descripciones de cada paso.
 
 ## <a name="to-use-the-vat-setup-assisted-setup-guide-to-set-up-vat-recommended"></a>Usar la guía de configuración asistida de configuración del IVA para configurar el IVA (recomendado)
+
 Es recomendable que use la guía de configuración asistida Configuración de IVA para configurar el IVA en [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 Para iniciar la guía de configuración asistida, realice los pasos siguientes:
+
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración asistida**.  
 2. Escoger **Configurar IVA** y completa los pasos.
-3. Cuando haya completado la configuración asistida, visite la página **Configuración de registro de IVA** y verifique si debe completar campos adicionales de acuerdo con la versión de su país local. Para obtener más información, consulte [Funciones locales en Business Central](about-localization.md)  
+3. Cuando haya completado la configuración asistida, visite la página **Configuración de registro de IVA** y verifique si debe completar campos adicionales de acuerdo con los requisitos locales de su versión de [!INCLUDE [prodshort](includes/prodshort.md)]. Para obtener más información, consulte [Funciones locales en Business Central](about-localization.md)  
 
 ## <a name="to-set-up-vat-registration-numbers-for-your-country-or-region"></a>Para configurar números CIF/NIF para su país o región
+
 Para ayudar a garantizar que las personas introduzcan números CIF/NIF válidos, puede definir formatos que se usan en los países o regiones con los que mantiene relaciones comerciales. [!INCLUDE[d365fin](includes/d365fin_md.md)] mostrará un mensaje de error cuando alguien cometa un error o utilice un formato que sea incorrecto para el país o región.
 
 Para configurar números CIF/NIF, realice los pasos siguientes:
+
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Países y regiones**.
 2. Elija el país o región y después elija la acción **Formatos CIF/NIF**.
 3. En el campo **Formatos**, puede definir el formato introduciendo uno o varios de los siguientes caracteres:  
@@ -161,7 +166,7 @@ Para configurar los códigos del IVA de importación, realice los pasos siguient
 Algunas empresas deben usar el IVA de reversión al realizar transacciones comerciales con otras empresas. Por ejemplo, esta norma se aplica a compras de países o regiones de la UE y a ventas a países o regiones de la UE.  
 
 > [!NOTE]  
-> Esta norma se aplica al realizar transacciones comerciales con empresas cuyo registro del IVA está en otro país o región de la UE. Si realiza transacciones comerciales directamente con consumidores de otros países o regiones de la UE, debe ponerse en contacto con las autoridades fiscales de su país para obtener información sobre la normativa de IVA vigente.  
+> Esta norma se aplica al realizar transacciones comerciales con empresas cuyo registro del IVA está en otro país o región de la UE. Si realiza transacciones comerciales directamente con consumidores de otros países o regiones de la UE, debe ponerse en contacto con las autoridades fiscales de su país o región para obtener información sobre la normativa de IVA vigente.  
 
 > [!TIP]  
 > Puede comprobar que una empresa está sujeta a IVA en otro país de la UE utilizando el servicio de validación de CIF/NIF de la UE. El servicio está disponible gratis en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, vea la sección _Comprobar CIF/NIF_ en este tema.

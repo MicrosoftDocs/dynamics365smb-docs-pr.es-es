@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c0fe93df0022f66aa5cc3964c2717e2e6ca76147
-ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
+ms.openlocfilehash: dfc7b91c50297c130a4a6d50401c7adb53bd608b
+ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "3262195"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3666952"
 ---
 # <a name="personalize-your-workspace"></a>Personalice su área de trabajo
 Puede personalizar su área de trabajo para que se adapte a su trabajo y preferencias cambiando las páginas de modo que muestren únicamente la información que necesite y donde la necesite. Los cambios de personalización que realice solo afectarán a su visualización y no a la de otros usuarios.
@@ -27,6 +27,11 @@ Dependiendo del tipo de página y qué incluye, puede realizar varios cambios, c
 > [!NOTE]
 > Los administradores pueden realizar los mismos cambios de diseño que los usuarios al personalizar el espacio de trabajo para un perfil que se asigna a múltiples usuarios. Para obtener más información, consulte [Personalizar las páginas para los roles](ui-personalization-manage.md).<br /><br />
 Los administradores también pueden anular o deshabilitar la personalización de los usuarios y pueden definir qué características están incluso disponibles para que los usuarios las vean en todas las empresas o en empresas específicas. Para obtener más información, consulte [Personalizar Business Central](ui-customizing-overview.md).
+
+## <a name="video-overview"></a>Resumen en vídeo
+El siguiente video muestra algunas de las formas en que puede personalizar su área de trabajo.
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB]
 
 ## <a name="to-change-the-width-of-a-column"></a>Para cambiar el ancho de una columna
 Puede cambiar fácilmente el tamaño de las columnas en cualquier lista arrastrando el límite entre dos columnas hacia la izquierda o hacia la derecha.

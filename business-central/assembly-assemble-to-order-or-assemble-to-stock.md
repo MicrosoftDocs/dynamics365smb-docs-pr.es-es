@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: bholtorf
-ms.openlocfilehash: a8b5ab66b680b6c49226e308e6f2e17a0c2604f9
-ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
+ms.openlocfilehash: a5fc9b13e28b51d776fad6d02feae4624b756c4c
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "3496805"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617941"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Descripción de ensamblar para pedido y ensamblar para stock
 Los artículos de montaje se pueden suministrar en los dos procesos siguientes:  
@@ -72,7 +72,7 @@ Cuando se introduce un artículo de ensamblar para pedido en una línea de venta
 
  En la siguiente tabla, se explican las reglas que definen los valores mínimo y máximo que se pueden introducir manualmente en el campo **Cantidad a ensamblar** para desviarse del valor predeterminado en un escenario de combinación. La tabla muestra un escenario de combinación cuyo campo **Cdad. a enviar** en la línea vinculada del pedido de venta se cambia del 7 al 4, y **Cdad. a ensamblar** se establece de forma predeterminada en 4.  
 
-||Línea de pedido de venta|Cabecera de pedido de ensamblado|  
+|-|Línea de pedido de venta|Cabecera de pedido de ensamblado|  
 |-|----------------------|---------------------------|  
 ||**Cantidad**|**Cdad. a enviar**|**Cdad. en ensamblar para pedido**|**Cantidad enviada**|**Cantidad**|**Cantidad a ensamblar**|**Cantidad ensamblada**|**Cantidad pendiente**|  
 |Inicial|10|7|7|0|7|7|0|7|  

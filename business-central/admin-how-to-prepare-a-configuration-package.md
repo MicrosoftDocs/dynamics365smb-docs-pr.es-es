@@ -1,7 +1,7 @@
 ---
 title: Preparar un paquete de configuración | Documentos de Microsoft
 description: Aprenda ahora a configurar un paquete de configuración RapidStart que puede ayudarlo a establecer nuevas empresas basadas en datos existentes.
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/06/2020
-ms.author: sgroespe
-ms.openlocfilehash: f2550f9df9e2eda87e2f5b3de9f6be00d4758b7a
-ms.sourcegitcommit: 7d05fc049d81cae9b2b711101cdaea037b7ba61f
+ms.author: bholtorf
+ms.openlocfilehash: 026a76fac8ce50c5eab68c40c9f7b4300f1493b8
+ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "3535977"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3667002"
 ---
 # <a name="prepare-a-configuration-package"></a>Preparar un paquete de configuración
 
@@ -30,6 +30,12 @@ Hay algunas cosas a tener en cuenta antes de crear un paquete de configuración 
 ### <a name="tables-that-contain-posted-entries"></a>Tablas que contienen movimientos registrados
 
 No puede importar datos a tablas que contengan movimientos registrados, como las tablas para clientes, proveedores y movimiento de productos, por lo que no debe incluir estos datos en su paquete de configuración. Puede añadir movimientos a estas tablas después de importar el paquete de configuración mediante el uso de diarios para registrar los movimientos. Para más información, consulte [Registrar documentos y diarios](ui-post-documents-journals.md).
+
+### <a name="table-names-that-contain-special-characters"></a>Nombres de tablas que contienen caracteres especiales
+
+Tenga cuidado si tiene tablas o campos que tienen el mismo nombre temporal pero que se diferencian por caracteres especiales, como %, &, <, >, ( y ). Por ejemplo, la tabla "XYZ" puede contener los campos "Campo 1" y "Campo 1%".
+
+El procesador XML acepta solo algunos caracteres especiales y eliminará los que no. Si al eliminar un carácter especial, como el signo % en el "Campo 1%", se obtienen dos o más tablas o campos con el mismo nombre, se producirá un error al exportar o importar un paquete de configuración. 
 
 ### <a name="licensing"></a>Licencias
 

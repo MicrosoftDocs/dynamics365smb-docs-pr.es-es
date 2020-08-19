@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c653518f782cb6378af835841fe1a4bfc1920d84
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: d6486a8af21827c04072d539cb8c59cf6bac74b0
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189176"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676582"
 ---
 # <a name="print-account-book-reports"></a>Imprimir informes de libro diario
 Los informes de libro diario muestran todos los movimientos de contabilidad creados en un periodo específico. Los dos informes de libro diario son:  
@@ -29,7 +29,7 @@ Al enviar estos informes a la administración o a los auditores, se pueden inclu
 
 ## <a name="to-print-an-official-account-book-report"></a>Para imprimir un informe de libro diario oficial  
 
-1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Cuenta - Libro diario oficial** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Cuenta - Libro diario oficial** y luego elija el vínculo relacionado.  
 2.  En la ficha desplegable **Opciones**, rellene los campos tal como se describe en la tabla siguiente.  
 
     |Campo|Description|  
@@ -44,7 +44,7 @@ Al enviar estos informes a la administración o a los auditores, se pueden inclu
 
 ## <a name="to-print-an-official-account-summarized-book-report"></a>Para imprimir un libro diario oficial resumido  
 
-1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Libro diario oficial resumido** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Libro diario oficial resumido** y luego elija el vínculo relacionado.  
 2.  En la ficha desplegable **Opciones**, rellene los campos tal como se describe en la tabla siguiente.  
 
     |Campo|Description|  

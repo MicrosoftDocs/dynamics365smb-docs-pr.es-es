@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 3eb9f5930362244dc4f4931c2fde309264d165cd
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 27c7b3a7da54022df426447d4977e858ed7a1bd9
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189180"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676567"
 ---
 # <a name="indent-and-validate-chart-of-accounts"></a>Efectuar el test y la validación del plan de cuentas
 En la página **Ficha cuenta**, se puede efectuar el test y la validación del plan de cuentas. Puede escribir 20 números como máximo. Las cuentas se ordenan según la cadena, como se muestran en el siguiente ejemplo.  
@@ -31,7 +31,7 @@ En la página **Ficha cuenta**, se puede efectuar el test y la validación del p
 
 ## <a name="to-indent-and-validate-the-chart-of-accounts"></a>Para efectuar el test y la validación del plan de cuentas  
 
-1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Plan de cuentas** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Plan de cuentas** y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Nuevo**.  
 3.  En la ficha desplegable **General**, en el campo **Nº** escriba el número de la cuenta de contabilidad que está configurando.  
 4.  En el campo **Tipo mov.**, seleccione **Registro** o **Mayor**. **Registro** implica que se pueden registrar movimientos en la cuenta. **Mayor** implica que no se pueden registrar movimientos en la cuenta.  

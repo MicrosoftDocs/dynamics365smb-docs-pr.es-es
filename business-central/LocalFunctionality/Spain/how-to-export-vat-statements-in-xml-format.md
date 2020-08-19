@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: ac3504c685bd3690b9faf13a523f8037e89373ab
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c42710a90a7e65bc718a3088840ccbc731f575ab
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189184"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676650"
 ---
 # <a name="export-vat-statements-in-xml-format"></a>Exportar declaraciones de IVA en formato XML
 Puede exportar una declaración de IVA en formato XML y después enviarla electrónicamente a las autoridades fiscales.  
@@ -26,7 +26,7 @@ Para obtener más información, consulte el sitio web de la [Agencia Tributaria]
 
 ## <a name="to-export-a-vat-statement-in-xml-format"></a>Para exportar declaraciones de IVA en formato XML  
 
-1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Declaración IVA** y, a continuación, seleccione el vínculo apropiado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Declaración IVA** y luego elija el vínculo correcto.  
 2.  Seleccione la declaración de IVA requerida y después seleccione **Generar archivo XML**.  
 
     > [!IMPORTANT]  

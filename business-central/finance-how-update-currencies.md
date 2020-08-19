@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: multiple currencies, adjust exchange rates
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 252636417dab633b8b95a15f206d1be82fc78a32
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: b0ec8e5a23b387c52998369e440462613b7cc1fe
+ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183193"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3666902"
 ---
 # <a name="update-currency-exchange-rates"></a>Actualizar tipos cambio divisa
 Las empresas trabajan cada vez en un mayor número de países o regiones, por lo que es muy importante que puedan comercializar y crear informes financieros en más de una divisa. Debe configurar un código por cada una de las divisas usadas en caso de que las operaciones de compra y venta se realicen en una divisa que no sea la divisa local (DL), tenga cobros y pagos en otras divisas o registre las transacciones de contabilidad en diferentes divisas.
@@ -56,6 +56,9 @@ Puede utilizar un servicio externo para mantener actualizados los tipos de cambi
 2. Seleccione la acción **Nuevo**.
 3. En la página **Servicio de tipo de cambio de divisas**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Seleccione la casilla de verificación **Activado** para activar el servicio.
+<br><br>  
+  
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4A1jy]
 
 ## <a name="to-update-currency-exchange-rates-through-a-service"></a>Para actualizar los tipos de cambio de divisa mediante un servicio
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Divisas** y luego elija el enlace relacionado.

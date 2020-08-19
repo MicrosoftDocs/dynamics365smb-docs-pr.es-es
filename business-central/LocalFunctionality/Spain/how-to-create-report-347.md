@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 39bef81f8f3e411d0ef4e75be3d16c7c9681bb9b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: f78400fcbc32cdb6b063f608a0071a0c1aec3b9a
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189191"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676666"
 ---
 # <a name="create-report-347"></a>Crear el informe 347
 Todas las empresas deben presentar una declaración anual, el **Informe 347**, a la administración fiscal que proporcione las transacciones de ventas y compras del periodo fiscal anterior.  
@@ -23,13 +23,13 @@ Antes de crear el modelo del informe 347, puede ejecutar un informe para identif
 
 ## <a name="to-identify-unapplied-payments-in-cash"></a>Para identificar pagos en efectivo no liquidados  
 
-1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **347** y, a continuación, seleccione el vínculo para el área **Modelo 347**.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **347** y luego elija el enlace relacionado para el **Modelo 347**.  
 2.  Seleccione la acción **Pagos en efectivo no liquidados**.  
 3.  Rellene los campos de la ficha desplegable **Opciones**.  
 
 ## <a name="to-create-a-report-347-declaration"></a>Para crear un modelo del informe 347  
 
-1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Modelo 347** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Modelo 347** y luego elija el enlace relacionado.  
 2.  Rellene los campos de la ficha desplegable **Opciones**. Para obtener más información, consulte Crear Modelo 347.  
 3.  Elija el botón **Aceptar**.  
 
@@ -37,7 +37,7 @@ Cuando registre el modelo del informe 347, debe incluir etiquetas del modelo 347
 
 ## <a name="to-create-347-declaration-labels"></a>Para crear etiquetas del modelo 347  
 
-1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Etiquetas modelo 347** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Etiquetas modelo 347** y luego elija el enlace relacionado.  
 2.  Rellene los campos de la ficha desplegable **Opciones**. Para obtener más información, consulte Etiquetas modelo.  
 
 ## <a name="see-also"></a>Consulte también  

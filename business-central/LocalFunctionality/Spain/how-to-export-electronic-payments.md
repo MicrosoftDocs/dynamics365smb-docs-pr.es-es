@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: a3b102bbc965a2f6f3d9642e1169b52da1cecd6a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: bdee7a73f07ddec8236d3c6ea7341969a07882f7
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189182"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676654"
 ---
 # <a name="export-electronic-payments"></a>Exportar pagos electrónicos
 En [!INCLUDE[d365fin](../../includes/d365fin_md.md)], puede exportar movimientos del diario de pagos a un formato de archivo de acuerdo con cuatro estándares de pago diferentes. Utilice las siguientes páginas para exportar según los distintos estándares de pago.  
@@ -32,7 +32,7 @@ En [!INCLUDE[d365fin](../../includes/d365fin_md.md)], puede exportar movimientos
 
 ## <a name="to-export-electronic-payments-using-the-payment-orders-page"></a>Para exportar pagos electrónicos mediante la página Órdenes de pago  
 
-1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Órdenes de pagos** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de pago** y luego elija el enlace relacionado.  
 2.  Seleccione los documentos que desea pagar.  
 3.  Seleccione la acción **Exportar a archivo**.  
 
@@ -62,7 +62,7 @@ En [!INCLUDE[d365fin](../../includes/d365fin_md.md)], puede exportar movimientos
 
 ## <a name="to-export-electronic-payments-using-the-payment-journal-page"></a>Para exportar pagos electrónicos mediante la página Diario de pagos  
 
-1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Diarios de pagos** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diarios de pagos** y luego elija el enlace relacionado.  
 2.  Seleccione los documentos que desea pagar.  
 3.  En la pestaña **Navegar**, elija **Pagos electrónicos** y después seleccione **Exportar**.  
 
@@ -95,7 +95,7 @@ En [!INCLUDE[d365fin](../../includes/d365fin_md.md)], puede exportar movimientos
 
 ## <a name="to-export-electronic-payments-from-the-cartera-module"></a>Para exportar los pagos electrónicos del módulo Cartera  
 
-1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Orden pago - Exportar N34.1** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Orden pago - Exportar N34.1** y luego elija el vínculo relacionado.  
 2.  Rellene los campos tal como se describe en la tabla siguiente.  
 
     |Campo|Description|  

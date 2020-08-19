@@ -5,22 +5,22 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 06/25/2020
+ms.date: 07/21/2020
 ms.author: edupont
-ms.openlocfilehash: 865a7511a086d38ae1edeabb008557a7101498ff
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 70bf35dccb071c379738c8e8054ed8490c262beb
+ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528090"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "3611589"
 ---
 # <a name="frequently-asked-questions"></a>Preguntas más frecuentes
 
 Esta sección contiene las respuestas de las preguntas más frecuentes sobre el inicio de sesión en una versión de prueba, la adquisición de una suscripción y el uso de [!INCLUDE[d365fin](includes/d365fin_md.md)]. También puede obtener información sobre cómo obtener asistencia técnica.  
 
-## <a name="is-d365fin-available-in-my-country"></a>¿Está [!INCLUDE[d365fin](includes/d365fin_md.md)] disponible en mi país?
+## <a name="is-d365fin-available-in-my-countryregion"></a>¿Está [!INCLUDE[d365fin](includes/d365fin_md.md)] disponible en mi país o región?
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] está disponible en un número reducido de mercados, pero se añaden nuevos países mediante la localización dirigida por Microsoft o mediante la localización dirigida por socios trimestralmente. Para obtener más información, consulte [Disponibilidad nacional/regional y traducciones admitidas](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) (disponible solo en inglés).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] está disponible en un número reducido de mercados, pero se añaden nuevos países o regiones mediante la localización dirigida por Microsoft o mediante la localización dirigida por socios trimestralmente. Para obtener más información, consulte [Disponibilidad nacional/regional y traducciones admitidas](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) (disponible solo en inglés).  
 
 ## <a name="how-do-i-get-prodshort"></a>¿Cómo obtengo [!INCLUDE[prodshort](includes/prodshort.md)]?
 
@@ -108,6 +108,10 @@ Cuando esté preparado para adquirir [!INCLUDE[prodshort](includes/prodshort.md)
 Si desea orientación de Microsoft, póngase en contacto con el [Equipo de ventas de Microsoft](https://go.microsoft.com/fwlink/?linkid=828707).  
 
 Su socio distribuidor también se ocupará del soporte técnico. Para obtener más información, vea [Recursos para ayuda y soporte técnico](product-help-and-support.md).  
+
+## <a name="where-do-i-find-that-line-number"></a>¿Dónde encuentro ese número de línea?
+
+Los documentos, como los pedidos de venta o las facturas de compra, constan de encabezados y líneas. Cada línea tiene un número que [!INCLUDE [prodshort](includes/prodshort.md)] utiliza para identificar esta línea en particular. Como resultado, es posible que vea una advertencia o un mensaje de error de que algo anda mal en la línea número 1000, por ejemplo. En la versión predeterminada de [!INCLUDE [prodshort](includes/prodshort.md)], los números de línea están ocultos. Si desea ver los números de línea, debe personalizar la página actual y agregar el **número de línea**. . Para obtener más información, consulte [Personalizar el área de trabajo](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).  
 
 ## <a name="why-is-new-information-not-available-in-my-language"></a>¿Por qué no hay nueva información disponible en mi idioma?
 

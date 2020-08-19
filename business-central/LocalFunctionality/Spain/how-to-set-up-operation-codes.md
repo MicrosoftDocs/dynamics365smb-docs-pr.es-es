@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: dbfbbb0864aa7b7eaa5729133da3788bb5ef9ca9
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 79db3c31583c8b409ef1265ffb155fbe77fc0dbb
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189170"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676765"
 ---
 # <a name="set-up-operation-codes"></a>Configurar códigos de operación
 Puede añadir tantos códigos de operación como desee a la tabla. Sin embargo, los códigos C, D e I ya existe en [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. Por ejemplo, los abonos siempre tienen el código de operación D. No puede configurar estos valores en la tabla porque son códigos creados por el sistema. Si intenta agregarlos, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] devolverá un error.  
 
 ## <a name="to-set-up-operation-codes"></a>Para configurar códigos de operación  
 
-1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Códigos operación** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Códigos de operación** y luego elija el enlace relacionado.  
 2.  En la página **Códigos de operación**, rellene los campos tal como se describe en la tabla siguiente  
 
     |Campo|Description|  
@@ -32,7 +32,7 @@ Puede añadir tantos códigos de operación como desee a la tabla. Sin embargo, 
 
 ## <a name="to-link-operation-codes-to-general-product-posting-groups"></a>Para vincular códigos de operación a grupos de publicación de productos en general  
 
-1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Grupos contables** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Grupos registro** y luego elija el enlace relacionado.  
 2.  Elija la acción **Grupos contables de producto general**.  
 3.  En la página **Grupos de publicación de productos generales**, vincule cada código de operación a un grupo de publicación de productos general.  
 

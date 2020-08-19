@@ -8,25 +8,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/05/2020
+ms.date: 07/14/2020
 ms.author: sgroespe
-ms.openlocfilehash: f2389dad61a943520cf7e09a5d8e0118b61db5c8
-ms.sourcegitcommit: 57e31a8b92feeaf8c6c63eba147f36b38eee7679
+ms.openlocfilehash: fc311badfb682bdedb37139bba5618ab60c1d988
+ms.sourcegitcommit: 89d0ea903f61ab0628f99329c762d9f1619c49a7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "3339975"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "3577156"
 ---
 # <a name="planning"></a>Planificación
+
 Las operaciones de producción necesarias para transformar entradas en productos terminados se deben planificar a diario o semanalmente, en función del volumen y la naturaleza de los productos. [!INCLUDE[d365fin](includes/d365fin_md.md)] ofrece funciones para cubrir la demanda anticipada y real de las ventas, montaje y la producción, así como funciones de planificación de la distribución mediante unidades de almacenamiento y transferencias de ubicación.
 
 > [!NOTE]
-> En este tema se describe principalmente la planificación de empresas implicadas en la fabricación o gestión de ensamblaje donde los pedidos de suministro que se crean pueden ser tanto de producción, como de ensamblaje, transferencia o pedidos de compra. La interfaz principal de este trabajo de planificación es la página **Hoja planificación**.<br /><br />
+> En este tema se describe principalmente la planificación de empresas implicadas en la fabricación o gestión de ensamblaje donde los pedidos de suministro que se crean pueden ser tanto de producción, como de ensamblaje, transferencia o pedidos de compra. La interfaz principal de este trabajo de planificación es la página **Hoja planificación**.
+>
 > [!INCLUDE[d365fin](includes/d365fin_md.md)] también admite la planificación de suministro de las compañías mayoristas, en las que los pedidos de suministro que se creen solo pueden ser de transferencia y pedidos de compra. La interfaz principal de este trabajo de planificación es la página **Hoja de demanda**, que se describe indirectamente en este tema, pues la mayoría de las funciones de planificación se aplica a ambas hojas de trabajo.
 
 La planificación puede considerarse como la preparación de los pedidos de suministro necesarios en los departamentos de compra, ensamblaje o de fabricación para cubrir la demanda de ventas o productos finales. Si desea obtener más información, consulte [Compras](purchasing-manage-purchasing.md), [Administración de ensamblados](assembly-assemble-items.md) y [Fabricación](production-manage-manufacturing.md).
 
-En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.   
+En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.  
 
 |**Para**|**Vea**|  
 |------------|-------------|  
@@ -38,7 +40,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Crear una orden de producción de proyecto directamente desde un pedido de ventas multilínea que represente un proyecto de producción.|[Planificar órdenes de proyecto](production-how-to-plan-project-orders.md)|
 |Utilizar la página **Programación de pedidos** para planificar manualmente para la demanda de ventas o producción un nivel L.MAT. de producción a la vez.|[Planear la nueva demanda de pedido por pedido](production-how-to-plan-for-new-demand.md)|
 |Utilice la página **Hoja de planificación** para ejecutar las opciones de MPS y MRP para crear automáticamente alto nivel o planificación detallada en todos los niveles de producto.|[Ejecutar la planificación completa, MPS o MRP](production-how-to-run-mps-and-mrp.md)|
-|Ejecutar la hoja de demanda para crear automáticamente un plan de suministro detallado que cubra la demanda de artículos que sólo se reponen por compra o transferencia.|Página de **Hoja de demanda**|  
+|Use la página **Hoja de demanda** para crear automáticamente un plan de suministro detallado que cubra la demanda de artículos que sólo se reponen por compra o transferencia.|[Hoja de demanda](production-about-planning-functionality.md#requisition-worksheet)|  
 |Iniciar o actualizar una orden de producción como operaciones programadas a grosso modo en el programa de producción maestro.|[Replanificar o actualizar órdenes de producción directamente](production-how-to-replan-refresh-production-orders.md)|
 |Recalcular los calendarios de centro de trabajo o de máquina debido a cambios de planificación.|[Para calcular un calendario de centro de trabajo](production-how-to-create-work-center-calendars.md#to-calculate-a-work-center-calendar)|
 |Efectuar el seguimiento de la demanda de pedido (cantidad seguida), previsión, pedido de ventas abierto o parámetro de planificación (cantidad no seguida) que ha dado lugar a la línea de planificación en cuestión.|[Realizar un seguimiento de las relaciones entre demanda y suministro](production-how-track-demand-supply.md)|

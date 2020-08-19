@@ -1,8 +1,6 @@
 ---
 title: Trabajar con documentos entrantes| Documentos de Microsoft
 description: Puede administrar documentos empresariales externos entrantes, como recibos de pago o PDF, administrar tareas de OCR y convertir archivos a documentos y registros electrónicos.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,19 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 04/01/2020
+ms.date: 08/10/2020
 ms.author: sgroespe
-ms.openlocfilehash: 352ebe98ee15547a16365901134b6dd198dc74c2
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 0c0c71de9b560f94427c26ffed944a8155639028
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187801"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676874"
 ---
 # <a name="incoming-documents"></a>Documentos entrantes
+
 Algunas transacciones empresariales no se registran en [!INCLUDE[d365fin](includes/d365fin_md.md)] desde el principio. En su lugar, un documento empresarial externo llega a la empresa como datos adjuntos de correo electrónico o una copia en papel que se digitaliza para archivarla. Esto es habitual en las compras, donde dichos archivos de documentos entrantes representan los recibos de pago de gastos o pequeñas compras.
 
-Desde los archivos PDF o de imagen que representan a los documentos entrantes podrá hacer que un servicio externo del OCR (reconocimiento óptico de caracteres) genere documentos electrónicos que se podrán convertir a registros de documento en [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Desde los archivos PDF o de imagen que representan a los documentos entrantes podrá hacer que un servicio externo del OCR (reconocimiento óptico de caracteres) genere documentos electrónicos que se podrán convertir a registros de documento en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Elija un paquete de servicios que sea apropiado para su organización y o el país o la región. Alternativamente, puede crear entradas manualmente para representar los documentos externos.  
 
 En la página **Documentos entrantes**, puede usar distintas funciones para revisar recibos de gastos, gestionar tareas de OCR y convertir archivos de documentos entrantes, manual o automáticamente en los documentos pertinentes o en líneas de diario. Los archivos externos se pueden adjuntar en cualquier etapa del proceso, incluidos los documentos registrados y los movimientos de proveedor, cliente y de contabilidad resultantes.
 
@@ -47,5 +46,6 @@ El proceso de documento entrante puede constar de las principales actividades si
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/incoming-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Consulte también
+
 [Compras](purchasing-manage-purchasing.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
