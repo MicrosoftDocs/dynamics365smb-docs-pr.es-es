@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: UOM
 ms.date: 07/06/2020
-ms.author: SorenGP
-ms.openlocfilehash: 7251be2de0cd8b368f0510596b0c695a93acc4b6
-ms.sourcegitcommit: 7d05fc049d81cae9b2b711101cdaea037b7ba61f
+ms.author: edupont
+ms.openlocfilehash: 52d1846ce71a651dabfd099ced203648c0242082
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "3535952"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3777796"
 ---
 # <a name="set-up-units-of-measure"></a>Configurar unidades de medida
 
@@ -33,7 +33,7 @@ Si un producto se almacena en una unidad de medida pero se fabrica en otra, se c
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Unidades de medida** y luego elija el enlace relacionado.  
 2. Seleccione la acción **Nuevo**. Se insertará una nueva línea vacía.  
 3. Rellene los campos. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
-4. Si sabe que su organización va a vender productos con esta unidad de medida a clientes en otros países, puede agregar traducciones.  
+4. Si sabe que su organización va a vender productos con esta unidad de medida a clientes en otros países o regiones, puede agregar traducciones.  
     1. Seleccione el código para el que desea configurar las traducciones y, a continuación, elija la acción **Traducciones**.
     2. En el campo **Cód. idioma**, seleccione la flecha desplegable para ver una lista de los códigos de idioma disponibles. Seleccione el código de idioma para el que desea especificar una traducción y, a continuación, elija el botón Aceptar para copiarlo en el campo.
     3. En el campo **Descripción**, escriba el texto correspondiente.

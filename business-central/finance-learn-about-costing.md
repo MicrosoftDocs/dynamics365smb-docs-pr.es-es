@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 477c5f004f2d62fcc9c3b2a065f9d00e382fff09
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 18d1a44fc3ed69793dffc70fe579749623a2dc56
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183102"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778041"
 ---
 # <a name="about-inventory-costing"></a>Acerca del contabilidad de valoración
 Administrar inventario y valoración se refiere al registro y la creación de informes sobre los costes de explotación de la empresa. Incluye la creación de informes de los costes de stock y fabricación, es decir, el valor de los productos.  

@@ -6,18 +6,18 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 04/01/2020
+ms.date: 08/12/2020
 ms.author: edupont
-ms.openlocfilehash: 805a8be94ccd38ffa696fe19157a08f4772c9ef3
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 342ffb57090aa78e10b8448b6316c610f6485040
+ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3529093"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3693104"
 ---
 # <a name="d365fin_long-trials-and-subscriptions"></a>Versiones de prueba y suscripciones de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] está disponible en cada vez más países en todo el mundo. Si desea aprender sobre [!INCLUDE[prodshort](includes/prodshort.md)], puede registrarte para obtener una versión de prueba gratuita. Luego, cuando esté listo, puede hablar con un socio distribuidor para obtener una suscripción.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] está disponible en cada vez más países y regiones en todo el mundo. Si desea aprender sobre [!INCLUDE[prodshort](includes/prodshort.md)], puede registrarte para obtener una versión de prueba gratuita. Luego, cuando esté listo, puede hablar con un socio distribuidor para obtener una suscripción.  
 
 Si aún no trabaja con un socio, vea [¿Cómo encuentro un socio distribuidor?](across-faq.md#findpartner)  
 
@@ -68,7 +68,7 @@ Si ha agregado datos a su versión de prueba de [!INCLUDE[prodshort](includes/pr
 
 ## <a name="getting-started-with-a-subscription"></a>Introducción a una suscripción
 
-Cada vez que inicie sesión durante el periodo de prueba, una notificación en una barra azul de la parte superior muestra el tiempo restante. Si decide suscribirse, busque un socio de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, vea [¿Cómo encuentro un socio distribuidor?](across-faq.md#findpartner) El socio distribuidor puede ayudarle a configurar [!INCLUDE[prodshort](includes/prodshort.md)] para adaptarlo a su negocio, incluida la importación de los datos del sistema anterior. También puede personalizar [!INCLUDE[prodshort](includes/prodshort.md)] agregando aplicaciones de [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365-business-central).  
+Cada vez que inicie sesión durante el periodo de prueba, una notificación en una barra azul de la parte superior muestra el tiempo restante. Si decide suscribirse, busque un socio de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, vea [¿Cómo encuentro un socio distribuidor?](across-faq.md#findpartner) El socio distribuidor puede ayudarle a configurar [!INCLUDE[prodshort](includes/prodshort.md)] para adaptarlo a su negocio, incluida la importación de los datos del sistema anterior. También puede personalizar [!INCLUDE[prodshort](includes/prodshort.md)] agregando aplicaciones de [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
 [!INCLUDE[prodshort](includes/prodshort.md)] en línea usa Office 365. Si su empresa utiliza un tipo diferente de configuración de correo electrónico, el socio distribuidor puede ayudarlo a decidir cómo migrar, o si debe usar [!INCLUDE[prodshort](includes/prodshort.md)] local.  
 

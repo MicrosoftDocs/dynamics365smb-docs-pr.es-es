@@ -227,9 +227,17 @@
 ### [Sincronizar con Contactos en Microsoft Outlook](admin-synchronize-outlook-contacts.md)
 ### [Usar Business Central sin Outlook](admin-no-outlook.md)
 ## Usar Power BI con Business Central
-### [Habilitar los datos de negocio para Power BI](admin-powerbi.md)
-### [Ver datos de listas en informes de Power BI en Business Central](across-how-use-powerbi-reports-factbox.md)
-### [Usar Business Central como fuente de datos de Power BI](across-how-use-financials-data-source-powerbi.md)
+### [Introducción](admin-powerbi.md)
+### Administrador
+#### [Información general sobre integración](admin-powerbi-overview.md)
+#### [Habilitar la integración de Power BI](admin-powerbi-setup.md)
+### Diseñadora
+#### [Introducción a la creación de informes](across-how-use-financials-data-source-powerbi.md)
+#### [Crear informes para mostrar datos de lista](across-how-use-powerbi-reports-factbox.md)
+### Consumidor
+#### [Trabajar con informes de Power BI en Business Central](across-working-with-powerbi.md)
+#### [Trabajar con datos de Business Central en Power BI](across-working-with-business-central-in-powerbi.md)
+#### [Uso de aplicaciones de Business Central en Power BI](across-powerbi-business-central-apps.md)
 ## Usar Power Automate con Business Central
 ### [Usar Business Central en un flujo de trabajo automatizado](across-how-use-financials-data-source-flow.md)
 ## Usar Power Apps con Business Central
@@ -424,8 +432,6 @@
 #### [Revisar o liquidar pagos manualmente después de una liquidación automática](receivables-how-review-apply-payments-auto-application.md)
 #### [Conciliar pagos que no se pueden liquidar automáticamente](receivables-how-reconcile-payments-cannot-apply-auto.md)
 #### [Asignar texto en pagos periódicos a cuentas para conciliación automática](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
-### [Conciliar pagos de cliente desde una lista de documentos de venta sin abonar](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
-### [Concilie los pagos de clientes con el diario de recibos de efectivo o de los movimientos de cliente.](receivables-how-apply-sales-transactions-manually.md)
 ### [Conciliar pagos a proveedores con el diario de pagos o desde los movimientos de proveedor](payables-how-apply-purchase-transactions-manually.md)
 ### [Cobrar saldos pendientes](receivables-collect-outstanding-balances.md)
 ### [Cobrar pagos mediante adeudo directo SEPA](finance-collect-payments-with-sepa-direct-debit.md)
@@ -1170,7 +1176,6 @@
 #### [Crear y exportar el historial de pagos](LocalFunctionality/Netherlands/how-to-create-and-export-payment-history.md)
 #### [Importar y conciliar extractos bancarios](LocalFunctionality\Netherlands\how-to-import-and-reconcile-bank-statements.md)
 ### Finanzas básicas
-#### [Contabilidad](LocalFunctionality/Netherlands/general-ledger.md)
 #### [Liquidar y desliquidar movimientos de contabilidad](LocalFunctionality/Netherlands/how-to-apply-and-unapply-general-ledger-entries.md)
 #### [Descripciones obligatorias en las movimientos de contabilidad](LocalFunctionality/Netherlands/required-descriptions-in-g-l-entry.md)
 ### Compra

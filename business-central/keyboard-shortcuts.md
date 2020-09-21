@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 06/26/2020
+ms.date: 09/02/2020
 ms.author: bholtorf
-ms.openlocfilehash: 84ce43b7e3305380e46d16e5b4e2f8b1a25aaf08
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 7d2a891f55ff41e1e236c57ca76eb5d1444b7160
+ms.sourcegitcommit: 43284728c34b72ad1984a516273dc80e4cdc99ab
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528493"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "3765951"
 ---
 # <a name="keyboard-shortcuts"></a>Métodos abreviados de teclado
 
@@ -166,7 +166,7 @@ Los siguientes accesos directos pertenecen a la función de entrada rápida en f
 |Mayús+Entrar|Confirmar el valor en el campo actual y pasar al campo de entrada rápida anterior.||
 |Ctrl+Mayús+Entrar|Confirmar el valor en la columna actual y pasar al siguiente campo de entrada rápida fuera de la lista.<br /><br />Este método abreviado se aplica a las listas insertadas en una página, como los productos de lista de un pedido de venta. Le permite salir rápidamente de la lista y continuar introduciendo datos en otros campos de la página.|
 
-## <a name="keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"/> Métodos abreviados de teclado en el Calendario (selector de fecha)
+## <a name="keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"></a> Métodos abreviados de teclado en el Calendario (selector de fecha)
 
 Al configurar un campo de fecha, puede introducir la fecha manualmente o abrir un calendario (selector de fecha) que le permite seleccionar la fecha que desea. En la tabla siguiente se describen los métodos abreviados de teclado del calendario.
 
@@ -185,12 +185,13 @@ Al configurar un campo de fecha, puede introducir la fecha manualmente o abrir u
 |Re. pág.|Desplazarse al mes anterior.|  
 
 ## <a name="keyboard-shortcuts-in-date-fields"></a>Métodos abreviados de teclado en campos de fecha
+
 |Pulsar estas teclas<br />(en macOS)|Para hacer esto|
 |--------------------------------|----------|
 |h|Introduzca la fecha actual. "H" significa "hoy".|
 |t|Introduzca la fecha de trabajo. Para obtener más información, consulte [Fecha de trabajo](ui-change-basic-settings.md#work-date).|
 
-## <a name="keyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"/>Métodos abreviados de teclado en la vista preliminar de informe
+## <a name="keyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"></a>Métodos abreviados de teclado en la vista preliminar de informe
 
 |Pulsar estas teclas<br />(en macOS)|Para hacer esto|
 |--------------------------------|----------|

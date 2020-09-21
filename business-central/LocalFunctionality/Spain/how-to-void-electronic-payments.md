@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2020
-ms.author: sgroespe
-ms.openlocfilehash: 74d68703ca6c925938eb45d28a84b826c8c936e9
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: edupont
+ms.openlocfilehash: e2957fbd5cb60c831abf49123c3085206b377d63
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3676752"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778118"
 ---
 # <a name="void-electronic-payments"></a>Anular pagos electrónicos
 

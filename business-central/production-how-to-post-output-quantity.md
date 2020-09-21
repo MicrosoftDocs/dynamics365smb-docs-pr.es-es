@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: a37f79ca10c7c45212d2c0ccf858b3bc7e3bff66
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: cb0f01c84cb82765c346e45273bff82fbd1a53af
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190400"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778489"
 ---
 # <a name="batch-post-output-and-run-times"></a>Registrar por lotes el resultado y los tiempos de ejecución
 La cantidad de salida representa el trabajo en curso en términos de cantidad terminada.  

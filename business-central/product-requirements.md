@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 05/06/2020
+ms.date: 08/25/2020
 ms.author: edupont
-ms.openlocfilehash: 55af97f27768d4b0c83379dd9eb5174613aabaa9
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 65d8295c6beb4fe918ad11434bc9813c34e81a93
+ms.sourcegitcommit: 3e2eab6920e96596cb4b3c61e590a8c577e8b630
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528718"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "3731223"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Requisitos mínimos para utilizar Business Central
 Antes de que acceda a [!INCLUDE[prodshort](includes/prodshort.md)] en línea, le recomendamos que verifique que su equipo o dispositivo móvil cumple o supera los requisitos mínimos del sistema para el producto. En este artículo se especifican los requisitos.  
@@ -25,13 +25,16 @@ Antes de que acceda a [!INCLUDE[prodshort](includes/prodshort.md)] en línea, le
 ### <a name="recommended-browsers"></a>Navegadores recomendados
 
 **Microsoft Edge**: [!INCLUDE[d365fin](includes/d365fin_md.md)] está diseñado para que funcione con la versión actual del nuevo Microsoft Edge.  
-**Chrome y Firefox para Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] está diseñado para que funcione con la versión actual de estos exploradores.  
+**Chrome y Firefox para Windows**: [!INCLUDE[d365fin](includes/d365fin_md.md)] está diseñado para que funcione con la versión actual de estos exploradores.  
 **Safari**: [!INCLUDE[d365fin](includes/d365fin_md.md)] está diseñado para que funcione con la versión actual de Safari en macOS.  
 
 ### <a name="other-supported-browsers"></a>Otros navegadores compatibles
 
 **Microsoft Edge (versión heredada)**: [!INCLUDE[d365fin](includes/d365fin_md.md)] se ha diseñado para que funcione con la versión heredada de Microsoft Edge.  
-**Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] está diseñado para que funcione con Internet Explorer 11 (compilación 11.0.9600.17239) para Windows 10 (versiones de 32 y 64 bits). Le recomendamos que actualice Internet Explorer a la última versión compatible con su versión de Windows. También puede ejecutar el nuevo Edge y aún acceder a otros sitios web que requieren Internet Explorer. Para obtener más información, consulte la [documentación de Microsoft Edge](/deployedge/edge-ie-mode).
+**Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] está diseñado para que funcione con Internet Explorer 11 (compilación 11.0.9600.17239) para Windows 10 (versiones de 32 y 64 bits). Le recomendamos que actualice Internet Explorer a la última versión compatible con su versión de Windows. También puede ejecutar el nuevo Microsoft Edge y aún acceder a otros sitios web que requieren Internet Explorer. Para obtener más información, consulte la [documentación de Microsoft Edge](/deployedge/edge-ie-mode).
+
+> [!IMPORTANT]
+> A partir de abril de 2021, Internet Explorer 11 y Microsoft Edge Legacy ya no serán compatibles. Le recomendamos que cambie a uno de los navegadores modernos recomendados lo antes posible.
 
 ## <a name="mobile-devices"></a>Dispositivos móviles
 **Windows**: [!INCLUDE[d365fin](includes/d365fin_md.md)] para Windows se puede instalar en dispositivos con un mínimo de 1 GB de RAM y Windows 10 Home, Pro, Enterprise o Education (ediciones de 32 y 64 bits).  

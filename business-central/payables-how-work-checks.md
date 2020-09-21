@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 06/23/2020
-ms.author: sgroespe
-ms.openlocfilehash: bf52a225d458f19651d79e82bac2a6b0f593f82c
-ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
+ms.date: 08/18/2020
+ms.author: edupont
+ms.openlocfilehash: 787f6eecef82abf7b76bf7273b49deb13b18554a
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "3503803"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3777991"
 ---
 # <a name="make-check-payments"></a>Realizar pagos por cheque
 
@@ -47,7 +47,7 @@ A continuación se describe cómo pagar a un proveedor mediante un cheque. Los p
 6. En la página **Cheque**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. Si su impresora está configurada para imprimir cheques, elija el botón **Imprimir**. De lo contrario, seleccione el botón **Enviar a**, seleccione la opción **Documento PDF** y, a continuación, el botón **Aceptar** y después imprima el documento PDF.
 
-    Los cheques físicos ahora se pueden llevar al banco para que los procesen. Proceda a publicar el pago tal como se le aplica al proveedor y, por lo tanto, pagado en el sistema.
+    Los cheques físicos ahora se pueden enviar a los proveedores para que los procesen. Proceda a publicar el pago tal como se le aplica al proveedor y, por lo tanto, pagado en el sistema.
 8. Seleccione la acción **Registrar**.
 
 Se crean los movimientos de contabilidad de proveedores y de cuenta bancaria totalmente aplicados.
@@ -61,7 +61,11 @@ Puede anular los cheques no registrados después de que hayan sido imprimidos us
 1. En la página **Diario de pagos**, seleccione **Anular cheque** y, a continuación, seleccione qué cheques desea cancelar.
 
 ## <a name="to-void-checks"></a>Para anular cheques
+
 Cuando se ha registrado el pago del cheque, solo puede cancelar (anular) cheques en los movimientos resultantes del banco.
+
+> [!IMPORTANT]
+> Si el cheque se aplica a una factura, anule la aplicación del cheque primero para que la factura se pueda pagar y luego anule el cheque. Si el cheque se imprimió y no pagó una factura, elija **Solo cheque nulo** como se describe en esta sección.
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Bancos** y luego elija el enlace relacionado.
 2. Seleccione la cuenta bancaria correspondiente, seleccione la acción **Editar** y, a continuación, seleccione la acción **Movs. cheques**.

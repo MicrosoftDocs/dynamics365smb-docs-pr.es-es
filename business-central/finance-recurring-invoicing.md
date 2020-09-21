@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: recurring, invoicing, subscription, billing
 ms.reviewer: edupont
-ms.date: 05/27/2020
+ms.date: 08/12/2020
 ms.author: andreipa
-ms.openlocfilehash: a0439557ce69b3c53406bd43b3b76cdf9ae73a10
-ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
+ms.openlocfilehash: fbc512242a335a938b6280e749f5278947e0db5e
+ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410792"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3693154"
 ---
 # <a name="work-with-recurring-revenue-in-d365fin"></a>Trabajar con ingresos recurrentes en [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
@@ -39,7 +39,7 @@ Para obtener más información, consulte [Trabajar con diarios periódicos](ui-w
 
 El diario periódico de proyecto es una alternativa más avanzada al diario general. Define Artículos, Recursos y Cuentas, que deben repetirse para cada trabajo, y especifica la frecuencia de periodicidad.  
 
-Después de registrar un diario periódico de proyecto, puede crear varias facturas con la tarea **Crear factura de venta de proyecto***. Puede revisar y registrar facturas creadas en la página **Facturas de venta**.
+Después de registrar un diario periódico de proyecto, puede crear varias facturas con la tarea **Crear factura de venta de proyecto**. Puede revisar y registrar facturas creadas en la página **Facturas de venta**.
 
 ### <a name="why-use-this-option"></a>Por qué usar esta opción
 
@@ -107,7 +107,7 @@ Para obtener más información, consulte [Pedidos periódicos (Noruega)](/localf
 
 ### <a name="recurring-revenue-and-subscription-billing-by-other-providers"></a>Ingresos periódicos y facturación de suscripción por otros proveedores
 
-En [AppSource.microsoft.com](https://appsource.microsoft.com/), puede obtener extensiones para Business Central. Algunas de las extensiones las proporciona Microsoft y otras las proporcionan otras empresas. La lista de las extensiones de otras empresas aumenta cada mes. Esté atento a [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1) y consiga aplicaciones que le ayudarán en su trabajo en Business Central.  
+En [AppSource.microsoft.com](https://appsource.microsoft.com/), puede obtener extensiones para Business Central. Algunas de las extensiones las proporciona Microsoft y otras las proporcionan otras empresas. La lista de las extensiones de otras empresas aumenta cada mes. Esté atento a [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646) y consiga aplicaciones que le ayudarán en su trabajo en Business Central.  
 
 ## <a name="see-also"></a>Consulte también .
 

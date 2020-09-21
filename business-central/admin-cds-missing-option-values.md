@@ -8,12 +8,12 @@ ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: 42ad388e6c07ca259d4ef6095b9f8c908b509407
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: 5f914904aaa1ec568b396a830ebc18a0fe4e40c1
+ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196894"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3693029"
 ---
 # <a name="handling-missing-option-values"></a>Administración de valores de opciones que faltan
 [!INCLUDE[d365fin](includes/cds_long_md.md)] contiene solo tres campos de conjunto de opciones que contienen valores de opciones que puede asignar a campos [!INCLUDE[d365fin](includes/d365fin_md.md)] de tipo de opción<!-- Option type, not enum? @Onat can you vertify this? --> para sincronización automática. Durante la sincronización, las opciones no asignadas se ignoran y las opciones que faltan se anexan a la tabla [!INCLUDE[d365fin](includes/d365fin_md.md)] relacionada y se agregan la tabla de sistema **Asignación de opciones de CDS** para su administración manual más tarde. Por ejemplo, agregando las opciones que faltan en cualquiera de los productos y luego actualizando la asignación. Esta sección describe cómo funciona.
@@ -99,6 +99,9 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 
 > [!IMPORTANT]  
 > Debe usar los mismos valores de id. de opción de [!INCLUDE[d365fin](includes/cds_long_md.md)] cuando extiende la enumeración [!INCLUDE[d365fin](includes/d365fin_md.md)]. De lo contrario, se producirá un error de sincronización.
+
+> [!IMPORTANT]  
+> No utilice el carácter "," en los valores y títulos de Enum. Actualmente, esto no es compatible con el tiempo de ejecución [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 > [!NOTE]
 > Los primeros diez caracteres de los nuevos nombres de valores de opciones y títulos deben ser únicos. Por ejemplo, dos opciones llamadas "Transferir 20 días hábiles" y "Transferir 20 días naturales" causarán un error porque ambos tienen los mismos 10 primeros caracteres, "Transferir 2". Nómbrelos, por ejemplo, "TRF20 DH" y "TRF20 DN".

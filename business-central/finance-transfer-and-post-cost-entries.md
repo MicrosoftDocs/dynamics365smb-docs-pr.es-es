@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: d9b0ff89cd7ab17be842e8543cb0b87540b0f68a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 31e9435f9473cc22bd402ad988e3efb9dfedd55e
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182665"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3777746"
 ---
 # <a name="transferring-and-posting-cost-entries"></a>Transferencia y registro de movimientos de coste
 Antes de definir asignaciones de coste, debe entender cómo provienen los movimientos de coste de los orígenes siguientes:  
