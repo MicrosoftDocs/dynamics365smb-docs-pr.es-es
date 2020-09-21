@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, AMC Banking 365 Fundamentals extension, funds transfer
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: e222e133313147cecd94c8cb7f2644776ee1034a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: ffd2837365ec6cfb93528aa422603a68bc5d6788
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186265"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3779791"
 ---
 # <a name="set-up-the-amc-banking-365-fundamentals-extension"></a>Configurar la extensión AMC Banking 365 Fundamentals
 Ya está configurado y listo para habilitar un proveedor global de servicios de conversión de información de pagos a cualquier formato de datos que requiera el banco en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Esto se menciona en [!INCLUDE[d365fin](includes/d365fin_md.md)] como la extensión AMC Banking 365 Fundamentals.

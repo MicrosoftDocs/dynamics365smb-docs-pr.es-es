@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 3f739e64a8ff2405254b1bf7811cbf506e6ba823
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: c35b44eb016604a74cd8fd22fed655b6b5363eaa
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181417"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781615"
 ---
 # <a name="managing-interactions"></a>Gestionar interacciones
 En [!INCLUDE[d365fin](includes/d365fin_md.md)], las interacciones son todos los tipos de comunicaciones entre su empresa y sus contactos. Por ejemplo, pueden ser por correo electrónico, carta, teléfono, reuniones, etc.

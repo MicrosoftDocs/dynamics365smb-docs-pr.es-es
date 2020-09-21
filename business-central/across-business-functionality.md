@@ -1,5 +1,5 @@
 ---
-title: Funciones empresariales que admite Business Central | Documentos de Microsoft
+title: Funciones empresariales que admite Business Central
 description: Proporciona una visión general de las funciones y los departamentos empresariales que son compatibles con las áreas de aplicación, como finanzas, inventario y administración de proyectos.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 5bdc19028a6859d1bee795de766416ada535b474
-ms.sourcegitcommit: 1ab077a024fa71d97ac70e4b36cc218b7ca66509
+ms.date: 08/27/2020
+ms.author: edupont
+ms.openlocfilehash: 7c78106eaf843435ea41e06c0388cd54e1e3dde4
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "3499521"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3780766"
 ---
 # <a name="business-functionality"></a>Funciones empresariales
 [!INCLUDE[d365fin](includes/d365fin_md.md)] proporciona funciones para procesos empresariales comunes de las pequeñas y medianas empresas, principalmente de los servicios mayoristas y profesionales. Sin embargo, también se admiten procesos más complejos, por ejemplo, montaje, fabricación, servicio, y administración dirigida de almacén.

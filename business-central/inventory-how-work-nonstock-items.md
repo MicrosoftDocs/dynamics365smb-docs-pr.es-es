@@ -10,19 +10,19 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: non-inventoriable
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: a13eec5bd1df674da6255f732b5f68c8a7fcbaf6
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: e4db83e4d2e3efffc1523fe3eadb65a14b431027
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181849"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781040"
 ---
 # <a name="work-with-catalog-items"></a>Trabajar con productos del catálogo
 Puede ofrecer varios productos a sus clientes para su comodidad que no desea gestionar en su sistema hasta que empiece a venderlos. Cuando desee empezar a gestionar esos productos en su sistema, puede convertirlos en fichas de productos normales de dos formas.
 
 * Desde una ficha de producto del catálogo, cree una nueva ficha de producto basada en una plantilla.
-* Desde una línea de pedido de ventas del tipo **Producto** con un campo ***N.º** vacío, seleccione un producto del catálogo. A continuación, se crea automáticamente una ficha de producto para el producto del catálogo.
+* Desde una línea de pedido de ventas del tipo **Producto** con un campo **N.º** vacío, seleccione un producto del catálogo. A continuación, se crea automáticamente una ficha de producto para el producto del catálogo.
 
 > [!NOTE]  
 > No puede seleccionar un producto del catálogo de la página **Facturas venta**.<br /><br />

@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 6b6e4a723b99f2eaa8d112725a1ef4dbccab42f1
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 10795ffc60861766f3fcc4aebcb086ab55a0094f
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190568"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3779940"
 ---
 # <a name="create-production-boms"></a>Crear LM de producción
 Una lista de materiales (L.M.) de producción contiene datos maestros que describen los componentes y los subconjuntos utilizados en la fabricación de un producto principal. Una vez creada la orden de producción para el producto principal, la L.M. de producción controlará el cálculo de las necesidades de material tal como se representan en la página **Componentes orden producción**.
@@ -82,7 +82,7 @@ La relación entre los componentes individuales se define en la fórmula de cál
 
 -  **Vacía**: No se tienen en cuenta las dimensiones. (Cantidad = Cantidad por.)  
 -  **Largo**: Cantidad = Cantidad por *Largo  
--  **Largo x Ancho**: Cantidad = cantidad por Largo x Ancho  
+-  **Largo x Ancho**: Cantidad = cantidad por * Largo x Ancho  
 -  **Largo x Ancho x Profundidad**: Cantidad = Cantidad por Largo x Ancho x Profundidad  
 -  **Peso**: Cantidad = Cantidad por x Peso  
 

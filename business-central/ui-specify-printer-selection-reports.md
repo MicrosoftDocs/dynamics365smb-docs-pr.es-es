@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online printing
 ms.date: 04/17/2020
-ms.author: sgroespe
-ms.openlocfilehash: dc92c499aa201278abc0c8cdc351eeb1406b1cca
-ms.sourcegitcommit: 99cecd005f8ede70e9a3d163a457fcb9aadb6843
+ms.author: edupont
+ms.openlocfilehash: 4bf794dd423a2049887eb1a4fe725a091fdbd190
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "3549872"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781190"
 ---
 # <a name="set-up-printers"></a>Configuración de impresoras
 Como [!INCLUDE[prodshort](includes/prodshort.md)] es un servicio en la nube, no puede llegar a las impresoras locales conectadas a las máquinas de los usuarios. Sin embargo, puede conectarse a impresoras habilitadas para la nube. En la versión genérica de [!INCLUDE[prodshort](includes/prodshort.md)], una impresora en la nube llamada **Impresora de correo electrónico** se instala como extensión y está lista para usar después de la configuración inicial.
