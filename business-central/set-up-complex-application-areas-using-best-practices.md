@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: a09a438a7683cafb8f68eb793bdde2b93fa64409
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 37638e84bb7ffd86ebc89f8da482c71429513003
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192344"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3789230"
 ---
 # <a name="set-up-complex-application-areas-using-best-practices"></a>Configurar áreas de aplicación complejas mediante procedimientos recomendados
 Es importante introducir los valores de configuración correctos desde el principio para el éxito de cualquier nuevo software de negocio.  

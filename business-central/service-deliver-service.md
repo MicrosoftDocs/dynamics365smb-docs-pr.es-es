@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service items, respond, response
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: c6c73fa918e72f9f8f086c6e139d00b6d3067cc8
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: d2c3536f87fedb4703cdf91f1bd32885229274bd
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195221"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3788780"
 ---
 # <a name="delivering-service"></a>Prestación del servicio
 [!INCLUDE[d365fin](includes/d365fin_md.md)] proporciona funciones que le ayudarán a prestar servicio según los contratos que haya creado y los pedidos de servicio que se haya comprometido a cumplir. Sus técnicos de servicio o distribuidor encontrarán con facilidad los pedidos de servicio pendientes utilizando el **Panel despacho**. De un vistazo, el **Panel despacho** muestra qué pedidos están en curso y cuáles han finalizado.  

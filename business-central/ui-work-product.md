@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/19/2020
-ms.author: sgroespe
-ms.openlocfilehash: 0f8cc20f9f5f9afcd3db5fbeb3dc6d12ad8d6cad
-ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
+ms.author: edupont
+ms.openlocfilehash: f948451001c2e280ea52f92d5d3b58eca6222687
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "3496729"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3789305"
 ---
 # <a name="working-with-d365fin"></a>Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Al realizar tareas empresariales, el usuario interactúa con los datos de diferentes maneras; por ejemplo, crear registros e introducir datos, ordenar y filtrar datos, escribir notas y exportando datos a otras aplicaciones.
@@ -65,7 +65,7 @@ A continuación se muestra un vídeo corto acerca de cómo desplazarse en [!INCL
 
 - Siempre que sea posible, evite navegadores antiguos como Internet Explorer y cambie a uno de nuestros navegadores modernos recomendados, como el [nuevo Microsoft Edge](https://www.microsoft.com/edge/).  
 
-    Internet Explorer todavía es compatible, pero, dado que el nuevo navegador Edge está disponible para Windows Server ahora, vemos una tasa de uso decreciente para Internet Explorer. También puede obtener [un piloto de Edge en modo IE](https://www.microsoft.com/edge/business). Para obtener más información, consulte la [documentación de Microsoft Edge](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
+    Internet Explorer todavía es compatible, pero, dado que el nuevo navegador Microsoft Edge está disponible para Windows Server ahora, vemos una tasa de uso decreciente para Internet Explorer. También puede obtener [un piloto de Microsoft Edge en modo IE](https://www.microsoft.com/edge/business). Para obtener más información, consulte la [documentación de Microsoft Edge](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
 - Mantenga su navegador siempre actualizado a la última versión.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/paths/work-pro-data-dynamics-365-business-central/)
