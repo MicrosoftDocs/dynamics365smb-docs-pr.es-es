@@ -9,29 +9,29 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/14/2020
-ms.author: sgroespe
-ms.openlocfilehash: 48d8e3baf3adfbd4836cadb638949e54555a39c9
-ms.sourcegitcommit: 89d0ea903f61ab0628f99329c762d9f1619c49a7
+ms.author: edupont
+ms.openlocfilehash: ee77fe46999d6b586d7c524232ba4883f9c18340
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "3577383"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781990"
 ---
-# <a name="track-document-lines"></a><span data-ttu-id="37b75-105">Seguimiento de líneas de documentos</span><span class="sxs-lookup"><span data-stu-id="37b75-105">Track Document Lines</span></span>
-<span data-ttu-id="37b75-106">Puede ver documentos relacionados con líneas de orden de venta y líneas de orden de compra, incluso desde líneas de pedido archivadas.</span><span class="sxs-lookup"><span data-stu-id="37b75-106">You can view documents that are related to sales order lines and purchase order lines, including from archived order lines.</span></span> <span data-ttu-id="37b75-107">Los documentos relacionados que puede rastrear incluyen presupuestos, envíos, recibos y pedidos abiertos.</span><span class="sxs-lookup"><span data-stu-id="37b75-107">Related documents that you can track include quotes, shipments, receipts, and blanket orders.</span></span> <span data-ttu-id="37b75-108">Esto le permite identificar los documentos que se usan para procesar pedidos.</span><span class="sxs-lookup"><span data-stu-id="37b75-108">This helps you to identify documents used to process orders.</span></span>  
+# <a name="track-document-lines"></a><span data-ttu-id="a4ce9-105">Seguimiento de líneas de documentos</span><span class="sxs-lookup"><span data-stu-id="a4ce9-105">Track Document Lines</span></span>
+<span data-ttu-id="a4ce9-106">Puede ver documentos relacionados con líneas de orden de venta y líneas de orden de compra, incluso desde líneas de pedido archivadas.</span><span class="sxs-lookup"><span data-stu-id="a4ce9-106">You can view documents that are related to sales order lines and purchase order lines, including from archived order lines.</span></span> <span data-ttu-id="a4ce9-107">Los documentos relacionados que puede rastrear incluyen presupuestos, envíos, recibos y pedidos abiertos.</span><span class="sxs-lookup"><span data-stu-id="a4ce9-107">Related documents that you can track include quotes, shipments, receipts, and blanket orders.</span></span> <span data-ttu-id="a4ce9-108">Esto le permite identificar los documentos que se usan para procesar pedidos.</span><span class="sxs-lookup"><span data-stu-id="a4ce9-108">This helps you to identify documents used to process orders.</span></span>  
 
-## <a name="to-track-documents-related-to-a-sales-order-line"></a><span data-ttu-id="37b75-109">Para realizar un seguimiento de los documentos relacionados con una línea de pedido de venta</span><span class="sxs-lookup"><span data-stu-id="37b75-109">To track documents related to a sales order line</span></span>
-<span data-ttu-id="37b75-110">El siguiente procedimiento describe cómo rastrear desde una línea de orden de venta.</span><span class="sxs-lookup"><span data-stu-id="37b75-110">The following procedure describes how to track from a sales order line.</span></span> <span data-ttu-id="37b75-111">Los pasos son similares para las líneas de orden de compra y los pedidos abiertos.</span><span class="sxs-lookup"><span data-stu-id="37b75-111">The steps are similar for purchase order and blanket order lines.</span></span>
+## <a name="to-track-documents-related-to-a-sales-order-line"></a><span data-ttu-id="a4ce9-109">Para realizar un seguimiento de los documentos relacionados con una línea de pedido de venta</span><span class="sxs-lookup"><span data-stu-id="a4ce9-109">To track documents related to a sales order line</span></span>
+<span data-ttu-id="a4ce9-110">El siguiente procedimiento describe cómo rastrear desde una línea de orden de venta.</span><span class="sxs-lookup"><span data-stu-id="a4ce9-110">The following procedure describes how to track from a sales order line.</span></span> <span data-ttu-id="a4ce9-111">Los pasos son similares para las líneas de orden de compra y los pedidos abiertos.</span><span class="sxs-lookup"><span data-stu-id="a4ce9-111">The steps are similar for purchase order and blanket order lines.</span></span>
 
-1.  <span data-ttu-id="37b75-112">Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.</span><span class="sxs-lookup"><span data-stu-id="37b75-112">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="37b75-113">Abra un pedido de venta del que desee realizar un seguimiento.</span><span class="sxs-lookup"><span data-stu-id="37b75-113">Open a sales order that you want to track from.</span></span>  
-3.  <span data-ttu-id="37b75-114">Seleccione una línea y, a continuación, seleccione la acción **Seguimiento de línea de documento**.</span><span class="sxs-lookup"><span data-stu-id="37b75-114">Select a line, and then choose the **Document Line Tracking** action.</span></span>
-4. <span data-ttu-id="37b75-115">En la página **Seguimiento de líneas de documento**, seleccione el documento que desea ver y después seleccione la acción **Muestra** para ver la línea relacionada.</span><span class="sxs-lookup"><span data-stu-id="37b75-115">On the **Document Lines Tracking** page, select the document that you want to view, and then choose the **Show** action to see the related line.</span></span>
-5. <span data-ttu-id="37b75-116">Para ver el documento completo para la línea de documento seleccionada, elija la acción **Mostrar documento**.</span><span class="sxs-lookup"><span data-stu-id="37b75-116">To view the entire document for the selected document line, choose the **Show Document** action.</span></span>
+1.  <span data-ttu-id="a4ce9-112">Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.</span><span class="sxs-lookup"><span data-stu-id="a4ce9-112">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="a4ce9-113">Abra un pedido de venta del que desee realizar un seguimiento.</span><span class="sxs-lookup"><span data-stu-id="a4ce9-113">Open a sales order that you want to track from.</span></span>  
+3.  <span data-ttu-id="a4ce9-114">Seleccione una línea y, a continuación, seleccione la acción **Seguimiento de línea de documento**.</span><span class="sxs-lookup"><span data-stu-id="a4ce9-114">Select a line, and then choose the **Document Line Tracking** action.</span></span>
+4. <span data-ttu-id="a4ce9-115">En la página **Seguimiento de líneas de documento**, seleccione el documento que desea ver y después seleccione la acción **Muestra** para ver la línea relacionada.</span><span class="sxs-lookup"><span data-stu-id="a4ce9-115">On the **Document Lines Tracking** page, select the document that you want to view, and then choose the **Show** action to see the related line.</span></span>
+5. <span data-ttu-id="a4ce9-116">Para ver el documento completo para la línea de documento seleccionada, elija la acción **Mostrar documento**.</span><span class="sxs-lookup"><span data-stu-id="a4ce9-116">To view the entire document for the selected document line, choose the **Show Document** action.</span></span>
 
 [!INCLUDE [line-no-info](includes/line-no-info.md)]
 
-## <a name="see-also"></a><span data-ttu-id="37b75-117">Consulte también</span><span class="sxs-lookup"><span data-stu-id="37b75-117">See Also</span></span>
-[<span data-ttu-id="37b75-118">Ccial</span><span class="sxs-lookup"><span data-stu-id="37b75-118">Sales</span></span>](sales-manage-sales.md)  
-[<span data-ttu-id="37b75-119">Funciones empresariales generales</span><span class="sxs-lookup"><span data-stu-id="37b75-119">General Business Functionality</span></span>](ui-across-business-areas.md)  
-<span data-ttu-id="37b75-120">[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="37b75-120">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="a4ce9-117">Consulte también</span><span class="sxs-lookup"><span data-stu-id="a4ce9-117">See Also</span></span>
+[<span data-ttu-id="a4ce9-118">Ccial</span><span class="sxs-lookup"><span data-stu-id="a4ce9-118">Sales</span></span>](sales-manage-sales.md)  
+[<span data-ttu-id="a4ce9-119">Funciones empresariales generales</span><span class="sxs-lookup"><span data-stu-id="a4ce9-119">General Business Functionality</span></span>](ui-across-business-areas.md)  
+<span data-ttu-id="a4ce9-120">[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="a4ce9-120">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
