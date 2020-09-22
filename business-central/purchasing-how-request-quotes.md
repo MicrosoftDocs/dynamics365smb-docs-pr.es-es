@@ -10,13 +10,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: bae0ddeb2a3b22d4f29c04628a54754f4d608ec9
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: bc7bb92185d979871298a3312019e3116fecdab5
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191024"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3782931"
 ---
 # <a name="request-quotes"></a>Solicitar presupuestos
 Las ofertas de compra pueden utilizarse como borradores de pedidos de compra, que luego se pueden convertir en facturas de compra o en pedidos.

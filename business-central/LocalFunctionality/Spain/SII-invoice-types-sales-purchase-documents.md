@@ -1,5 +1,5 @@
 ---
-title: Resumen de los tipos de facturas SII en los documentos de compra y venta
+title: Tipos de facturas SII en los documentos de compra y venta
 description: Muestra el resultado de los diversos tipos que se utilizan para las facturas y los abonos en relación con SII y cómo se implementan.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,17 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: f0eaffd7a5408963a8bcf34449ddb5b4eb4d5ede
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 08/27/2020
+ms.author: edupont
+ms.openlocfilehash: 7d2ec49c133c8475db5cdc2a29f665a23d6c10b9
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189200"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3782667"
 ---
 # <a name="sii---invoice-and-credit-memo-types-in-sales-and-purchase-documents"></a>SII - Tipos de factura y abonos en documentos de compra y venta
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] admite los requisitos del SII españoles para la declaración del IVA (suministro de información inmediato). Para obtener más información, consulte [Guía de instalación y uso de la información electrónica sobre el IVA en SII en la versión española de Dynamics NAV](https://aka.ms/SIISetup).
+
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)] admite los requisitos del SII españoles para la declaración del IVA (suministro de información inmediato).  
 
 En la tabla siguiente se muestra el resultado de los diversos tipos que se utilizan para las facturas y los abonos en relación con SII y cómo se implementan en [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
 
@@ -46,12 +47,12 @@ En la tabla siguiente se muestra el resultado de los diversos tipos que se utili
 |R2|Factura corregida (artículo 80.3)|Igual que un abono normal|
 |R3|Factura corregida (artículo 80.4)|Igual que un abono normal|
 |R4|Factura corregida (otro)|Igual que un abono normal|
-|R5|Factura corregida en facturas simplificadas|Igual que un abono normal, excepto que el bloqueo se llama "|
+|R5|Factura corregida en facturas simplificadas|Igual que un abono normal, excepto que el bloqueo se llama "Contraparte".|
 
 ## <a name="purchase-invoices"></a>Facturas compra
-|Tipo|Description|Implementación|
+|Escriba|Descripción|Implementación|
 |--|--|--|
-|F1|Facturar|Factura normal|
+|F1|Factura|Factura normal|
 |F2|Factura simplificada (tique)|Implementado para F1, exceptuando que un bloque no existente se llama "Contraparte" y los nodos adicionales se llaman "ImporteTotal" y "Macrodato".|
 |F3|Factura emitida para reemplazar facturas simplificadas emitidas y archivadas|Igual que la factura normal|
 |F4|Entrada de resumen de factura|Posible, pero el archivo XML es el mismo que para F1 porque [!INCLUDE[d365fin](../../includes/d365fin_md.md)] no admite facturas de resumen. <br /><br />Los envíos darán como resultado un error conocido: Falta el elemento "NumSerieFacturaEmisorResumenFin".|
@@ -78,5 +79,7 @@ En la tabla siguiente se muestra el resultado de los diversos tipos que se utili
 |R4|Factura corregida (otro)|Igual que un abono normal|
 |R5|Factura corregida en facturas simplificadas|Igual que un abono normal, excepto que el bloqueo se llama "Contraparte"|
 
-## <a name="see-also"></a>Consulte también  
+## <a name="see-also"></a>Consulte también
+
 [Funcionalidad local para España](spain-local-functionality.md)
+[Guía de instalación y uso de la información electrónica sobre el IVA en SII en la versión española de Dynamics NAV](https://aka.ms/SIISetup)  

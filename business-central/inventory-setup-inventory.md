@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 04/01/2020
-ms.author: SorenGP
-ms.openlocfilehash: 14d98f971bcb075a94396ed59b560e5420100413
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 6d0ef9453c9193dd65dc841fc731932fe781bcc9
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181777"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3783329"
 ---
 # <a name="setting-up-inventory"></a>Configurar inventario
 Para poder administrar la actividad de un almacén y los costes de inventario, debe configurar las reglas y valores que definen las políticas de inventario de la empresa.

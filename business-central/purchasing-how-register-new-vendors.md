@@ -1,8 +1,6 @@
 ---
 title: Crear una ficha de proveedor para registrar un proveedor nuevo | Documentos de Microsoft
 description: Obtenga información sobre cómo crear una ficha de proveedor para registrar un nuevo proveedor.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier
-ms.date: 04/27/2020
-ms.author: sgroespe
-ms.openlocfilehash: ce41715830545c89651bac7d117b6c356650b7c3
-ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
+ms.date: 08/18/2020
+ms.author: edupont
+ms.openlocfilehash: 88107b3f42be23a723ccded0729098de74b15de2
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3324179"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3782979"
 ---
 # <a name="register-new-vendors"></a>Permite registrar nuevos proveedores
+
 Los proveedores proporcionan los productos que vende. Cada proveedor del que compra debe estar registrado como ficha de proveedor.
 
 Antes de que pueda registrar nuevos proveedores, debe configurar varios códigos de compra que pueda seleccionar al rellenar fichas de proveedores. Una vez creados todos los datos maestros necesarios, se puede efectuar una configuración adicional del proveedor, como priorizar el proveedor para fines de pago y crear una lista de productos que este y otros proveedores pueden suministrar. Otro grupo de tareas de configuración para proveedores es registrar los acuerdos relativos a descuentos, precios y métodos de pago. Para obtener más información, consulte [Configurar compras](purchasing-setup-purchasing.md).
@@ -27,12 +26,13 @@ Antes de que pueda registrar nuevos proveedores, debe configurar varios códigos
 Las fichas de proveedor contienen la información necesaria para comprar productos del proveedor. Para obtener más información, vea [Registrar compras](purchasing-how-record-purchases.md) y [Registrar nuevos productos](inventory-how-register-new-items.md).
 
 > [!NOTE]  
->   Si existen plantillas de proveedor para distintos tipos de proveedor, una página aparece cuando se crea una nueva ficha de proveedor en la que puede seleccionar una plantilla adecuada. Si solo existe una plantilla de proveedor, las nuevas fichas de proveedor utilizan siempre esa plantilla.
+> Si existen plantillas de proveedor para distintos tipos de proveedor, una página aparece cuando se crea una nueva ficha de proveedor en la que puede seleccionar una plantilla adecuada. Si solo existe una plantilla de proveedor, las nuevas fichas de proveedor utilizan siempre esa plantilla.
 <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd?rel=0]
 
 ## <a name="to-create-a-new-vendor-card"></a>Para crear una nueva ficha de proveedor
+
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Proveedores** y luego elija el enlace relacionado.  
 2. En la página **Proveedores**, elija **Nuevo**.
 
@@ -42,7 +42,7 @@ Las fichas de proveedor contienen la información necesaria para comprar product
 5. Empiece a rellenar o cambiar campos en la ficha de proveedor, según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
->   Si no conoce de antemano la dirección de facturación que se utilizará para todas las facturas de un proveedor, no rellene el campo **Pago a-Nº proveedor** de la ficha de proveedor. En su lugar, elija el número del pago-a proveedor cuando haya configurado una oferta, pedido o encabezado de compra.
+> Si no conoce de antemano la dirección de facturación que se utilizará para todas las facturas de un proveedor, no rellene el campo **Nº proveedor** de la ficha de proveedor. En su lugar, elija el número del pago-a proveedor cuando haya configurado una oferta, pedido o encabezado de compra.
 
 El proveedor estará registrado y la ficha de proveedor está lista para usarse en los documentos de compra.
 

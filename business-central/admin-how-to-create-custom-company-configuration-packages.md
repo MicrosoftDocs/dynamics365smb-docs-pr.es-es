@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: c133a678d3628fa8274399d22e7f53b73740e3d8
-ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
+ms.author: edupont
+ms.openlocfilehash: 511281b5f4d8c7437324ed123a5a5a62bd4cc51d
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "3666852"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3783661"
 ---
 # <a name="create-custom-company-configuration-packages"></a>Crear paquetes de configuración de empresa personalizados
 A medida que crece su empresa, probablemente confiará en un conjunto de tipos de empresa que utiliza con la mayor parte de los clientes. Puede simplificar el proceso de implementación al convertir estos tipos habituales en paquetes de configuración de empresa disponibles para volver a usarlas.  

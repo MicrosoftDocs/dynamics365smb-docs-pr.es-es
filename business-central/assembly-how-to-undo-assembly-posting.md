@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 450a52ee07579d7bf8f5b7456f44a2acb5af8920
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: d431995907f18e8439f415e1f724d4bbf9f77a31
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187297"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3782173"
 ---
 # <a name="undo-assembly-posting"></a>Deshacer registro de ensamblado.
 Puede que, a veces, tenga que deshacer un pedido de ensamblado registrado, por ejemplo cuando se haya registrado con errores que deban corregirse, o porque no deban haberse registrado en el primer lugar y deban revertirse.

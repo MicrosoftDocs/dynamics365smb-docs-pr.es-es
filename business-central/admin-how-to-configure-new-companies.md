@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 15275c25745b8c8b3e332efc9addf441140bc04b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: d8951de4a6d44675e92dae9c04c9709caac11c38
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187249"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3783731"
 ---
 # <a name="configure-new-companies"></a>Configurar nuevas empresas
 Para configurar una nueva empresa en la implementación de su solución, generalmente sigue tres fases. En la primera fase, importará el paquete de configuración, un archivo .rapidstart con la información de configuración. En la segunda fase, modificará la información de configuración y luego la aplicará a la nueva empresa. En la fase final, revisará y corregirá todos los errores.  

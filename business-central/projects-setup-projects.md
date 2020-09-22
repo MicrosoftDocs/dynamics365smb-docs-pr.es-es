@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: e4f941dae0ee057bc109cc315f52f4504495a96f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 0b30bfbca7ff3ed56e6736dab0184f8400a245b9
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191072"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3783204"
 ---
 # <a name="setting-up-project-management"></a>Configurar la administración de proyectos
 Antes de poder usar [!INCLUDE[d365fin](includes/d365fin_md.md)] para administrar proyectos, debe configurar los recursos, las hojas de horas y los proyectos.

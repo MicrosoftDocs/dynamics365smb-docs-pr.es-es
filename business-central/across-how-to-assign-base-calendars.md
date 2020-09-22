@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 52bbf5f1092ad449be003021642c30651f38e780
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: cc4ae1263aa6ce12607563f15e9376f9a1d0aa98
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188425"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3783229"
 ---
 # <a name="set-up-base-calendars"></a>Configurar calendarios base
 Puede asignar un calendario base a la empresa y a los socios comerciales, como clientes, proveedores o almacenes. Se calculan las fechas de entrega y de recepción de futuros pedidos de venta, pedidos de compra, pedidos de transferencia y líneas de órdenes de producción según los días laborables especificados en el calendario. La tarea principal en la configuración de un calendario base nuevo es especificar y definir los días no laborables que desea aplicar.  

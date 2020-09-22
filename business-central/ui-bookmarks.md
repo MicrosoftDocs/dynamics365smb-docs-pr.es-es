@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 5d70097cb570217cd4a7be0538474252c31ef46e
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: bb6c3762d9b6ec587cea6915cf292a6bb57e25fd
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194648"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3782498"
 ---
 # <a name="bookmark-a-page-or-report-on-your-role-center"></a>Marque una página o informe en su Área de trabajo
 Con el nuevo icono de marcador, puede agregar una acción que abre una página o informe desde el menú de navegación de su Área de trabajo. Esto le permite alcanzar rápidamente su contenido favorito o tareas comerciales. Agrega el marcador desde la página o informe de destino, lo que significa la pantalla que quiera vincular en el Área de trabajo para abrir.

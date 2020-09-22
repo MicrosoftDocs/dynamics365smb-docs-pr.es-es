@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 08/10/2020
-ms.author: sgroespe
-ms.openlocfilehash: c2d0558febd8bd895bbc591f4165a7a8fdda8600
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: edupont
+ms.openlocfilehash: fea86618e064267537eb72c1be0473ad7c3431ab
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3677313"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3784112"
 ---
 # <a name="subcontract-manufacturing"></a>Subcontratación de fabricación
 La subcontratación de operaciones seleccionadas al proveedor es común de muchas empresas de fabricación. La subcontratación puede ser esporádica o puede formar parte integrante de todos los procesos de producción.

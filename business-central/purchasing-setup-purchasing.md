@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 34d3dc87da0c8f20558a6e32b9c979f84f9a0018
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: bda110a8d97376b283461bb0c2c6a6b7f334ba4d
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190904"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3783281"
 ---
 # <a name="setting-up-purchasing"></a>Configurar compras
 Para poder administrar procesos de compra, debe configurar las reglas y valores que definen las políticas de compra de la empresa.

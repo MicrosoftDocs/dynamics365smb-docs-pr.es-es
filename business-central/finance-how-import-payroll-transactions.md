@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Ceridian, Quickbooks, salary
 ms.date: 04/01/2020
-ms.author: SorenGP
-ms.openlocfilehash: a99cbfec41bc4bf1e2cd5971d4cf5806bf42ab2b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 3e8260d747f692a44b09a537aa17cdbf0de83fff
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183636"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3782648"
 ---
 # <a name="import-payroll-transactions"></a>Importar transacciones de nómina
 Para contabilizar los pagos de salario y transacciones relacionadas, deberá importar y registrar las transacciones financieras de salario creadas para el proveedor de nóminas al libro mayor. Para hacer esto, primero importe un archivo que recibirá del proveedor de nóminas en la página **Diario general**. A continuación asigne las cuentas externas del archivo de nóminas a las cuentas correspondientes. Por último, registre operaciones de nóminas según la asignación de cuentas.

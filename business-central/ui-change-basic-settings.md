@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: cd3d7a821c088b6e9f457e3bf3dc05d0c53525c4
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: fa091993d64aeba6982a871aeb794c97be3e81d9
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194600"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3782448"
 ---
 # <a name="change-basic-settings"></a>Cambiar la configuración básica
 
@@ -67,10 +67,11 @@ La fecha de trabajo más utilizada es la fecha actual. Es posible que tenga que 
 ### <a name="work-date-indication"></a>Indicación de la fecha de trabajo
 Siempre que la fecha de trabajo no esté establecida en la fecha de hoy, aparecerán dos tipos de indicadores en las páginas que se pueden editar y donde la fecha de trabajo es fundamental:
 
-- Aparece un recordatorio en la parte superior de la página que le indica cuál es la fecha de trabajo establecida. El recordatorio proporciona un vínculo directo a la configuración de la fecha de trabajo en la página **Mi configuración** para que pueda cambiar la fecha si lo desea. Desde el recordatorio, también puede elegir descartarlo para el resto de la sesión. A menos que cambie la fecha de trabajo a "hoy", el recordatorio aparecerá la próxima vez que inicie sesión.
+* Aparece un recordatorio en la parte superior de la página que le indica cuál es la fecha de trabajo establecida. El recordatorio proporciona un vínculo directo a la configuración de la fecha de trabajo en la página **Mi configuración** para que pueda cambiar la fecha si lo desea. Desde el recordatorio, también puede elegir descartarlo para el resto de la sesión. A menos que cambie la fecha de trabajo a "hoy", el recordatorio aparecerá la próxima vez que inicie sesión.
 
-- Si descarta el recordatorio, la fecha de trabajo aparecerá en el título de la página.  
---> Si la fecha de trabajo no está establecida en el día actual (hoy), la fecha de trabajo actual se muestra en la esquina superior izquierda de todas las páginas donde puede editar datos.
+* Si descarta el recordatorio, la fecha de trabajo aparecerá en el título de la página.  
+
+Si la fecha de trabajo no está establecida en el día actual (hoy), la fecha de trabajo actual se muestra en la esquina superior izquierda de todas las páginas donde puede editar datos.
 
 ## <a name="region"></a><a name="region"></a> Región
 

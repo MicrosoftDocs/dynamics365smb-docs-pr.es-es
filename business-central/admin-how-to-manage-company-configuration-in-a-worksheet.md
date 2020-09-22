@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: ab8b53ec5f913e07b80cc04a44805d77b10ffe86
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: f44e84342e9cf13d3f41130644f8bddd3809fb2f
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187129"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3783581"
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Gestionar la configuración de la empresa en una hoja de trabajo
 La hoja de trabajo de configuración es la ubicación central en la que puede planificar, controlar y realizar el trabajo de configuración. Puede crear una hoja de trabajo para cada empresa con la que trabaja o crear una hoja de trabajo de configuración estándar que se puede usar para configurar varias empresas idénticas.  

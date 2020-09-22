@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 67b11d9c763ef4688af35a3f9cd83ee8c364fcee
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.author: edupont
+ms.openlocfilehash: 463b14d5c20818691bcc130281e7cc4247da2c4c
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528442"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3784162"
 ---
 # <a name="create-contacts"></a>Crear contactos
 Conoce regularmente a personas de otras empresas que pueden convertirse en relaciones de negocio, como una relación de cliente. Cuando se realiza un nuevo contacto, se debe registrar tanta información como sea posible en una ficha de contacto para que la comunicación pueda continuar.
