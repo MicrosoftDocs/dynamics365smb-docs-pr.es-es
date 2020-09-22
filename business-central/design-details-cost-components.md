@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 7bcc5eaafdde8412c5e6bebfa3d24d7f033ef193
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 639a982c81b29a2a51f24551d9c0814f7a3ac1c5
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185617"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3788051"
 ---
 # <a name="design-details-cost-components"></a>Detalles de diseño: Componentes de coste
 Los componentes del coste son distintos tipos de costes que conforman el valor de una entrada o una salida de existencias.  

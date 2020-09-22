@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, supply, planning, reordering, replenishment
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 8b364aef69ab7b9e036caebe2f60387982cd9221
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 51fbc5e8e99cedd16f50d471a3cc36958549ecec
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184671"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3787126"
 ---
 # <a name="design-details-supply-planning"></a>Detalles de diseño: Planificación de aprovisionamiento
 En esta documentación se proporciona información técnica detallada de los conceptos y los principios que se usan en las características de planificación de suministros en [!INCLUDE[d365fin](includes/d365fin_md.md)].  
