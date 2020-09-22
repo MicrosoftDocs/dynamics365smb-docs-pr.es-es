@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 125f8062db7404c0b873c6774c11906a0bfeef55
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: ddd7300786c3f028a71abe5f70bf63a23c542f6a
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187321"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3784714"
 ---
 # <a name="gather-customer-setup-values"></a>Recopilación de valores de configuración de cliente
 Utilice el cuestionario de configuración para ayudar a reducir su carga de trabajo de implementación agilizando la tarea de configurar la empresa nueva. Puede generar el cuestionario de configuración en [!INCLUDE[d365fin](includes/d365fin_md.md)] y después proporcionárselo al cliente como un archivo de Excel o XML.  

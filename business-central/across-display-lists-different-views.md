@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalization
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 4d97afb002ddce4306ffa7238a4fb362f9e26158
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: cb9c29f6123edc4cad2b5e34381db574fab3685a
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188779"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3784262"
 ---
 # <a name="displaying-lists-in-different-ways"></a>Mostrar listas en diferentes vistas
 En la esquina derecha de cualquier lista de [!INCLUDE[d365fin](includes/d365fin_md.md)] encontrará iconos que permiten elegir cómo se muestra la lista de registros. Una lista se puede mostrar como filas detalladas, lo cual es ideal cuando necesita trabajar con muchos campos o editar campos en la lista. Pero también puede cambiar para mostrar registros como mosaicos, que es más compacto y muestra menos campos en el registro específico. Esto es muy útil para obtener un resumen de varios movimientos y, sobre todo, en dispositivos pequeños, porque es compacto y es más fácil de puntear.

@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service item, troubleshoot, repairs, maintenance
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 2e962552bf091e095a968f6f312e852e02aad8d6
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: f9b92b0a884588e6cbf068d9d6e3a8d6d2ea87fc
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195022"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3784489"
 ---
 # <a name="setting-up-troubleshooting-for-service-items"></a>Configuración de la solución de problemas de los productos de servicio
 Puede configurar pautas de solución de problemas que ayuden a los técnicos a resolver problemas al proporcionar servicio. Por ejemplo, las directrices pueden ser una lista de pasos para realizar una reparación, o una serie de preguntas sobre los productos. Después de configurar las directrices de solución de problemas, puede asignarlas a grupos de productos de servicio, productos de servicio y productos. Hay una jerarquía de herencia para las directrices. Si las asigna a un grupo de productos de servicio, los productos incluidos en el grupo heredarán las directrices, a menos que las especifique previamente. Del mismo modo, los productos de servicio heredarán las directrices de los productos.  

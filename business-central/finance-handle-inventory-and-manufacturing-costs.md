@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: e61174dd162111f6e7580026c5e91454b2ffa918
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: be0dc308f7d941fe3c41ecbaaf879eacc5405d12
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183745"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3785176"
 ---
 # <a name="handling-inventory-and-manufacturing-costs"></a>Administración de existencias y costes de fabricación
 Aunque la mayoría de las funciones de contabilidad de costes se llevan a cabo mediante procesos subyacentes que no requieren la interacción del usuario, tales como la liquidación de movimientos y el ajuste automático de costes, existen varios campos, páginas e informes destinados a los usuarios que administran directa o indirectamente el coste de los productos o las operaciones.  

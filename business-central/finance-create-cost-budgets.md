@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 72baaa4304ac3bc64f66b02360a0d8ae2a00b174
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 5e1871083613b2e280cf2fbf2d610c996eccd542
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183841"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3786426"
 ---
 # <a name="creating-cost-budgets"></a>Crear presupuesto coste
 El presupuesto en contabilidad de costes se parece al presupuesto de la contabilidad. Un presupuesto de costes se crea a partir de los tipos de coste del mismo modo como un presupuesto para la contabilidad se crea a partir de las cuentas de contabilidad.  

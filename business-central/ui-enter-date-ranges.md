@@ -10,13 +10,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: ff34a7a8a1086b41d2df2a75955017fc82866fb6
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 122c1e602f9f7d1c50115ba1e6ba515694fc84a1
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194408"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3785426"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Trabajar con fechas y horas del calendario
 
@@ -323,11 +323,11 @@ En la tabla siguiente se enumeran algunos ejemplos de combinaciones de fecha/hor
 
 |**Entrada**      |**Interpretación**      |
 |---------------|------------------------|
-|08-01-2016 05:48:12 PM|08/01/2016 17:48:12|
-|131202 132455|13/12/2002 13:24:55|
-|1-12-02 10|01/12/2002 10:00:00|
-|1.12.02 5|01/12/2002 05:00:00|
-|1.12.02|01/12/2002 00:00:00|
+|08-01-2016 05:48:12 PM|08\-01\-2016 17:48:12|
+|131202 132455|13\-12\-2002 13:24:55|
+|1-12-02 10|01\-12\-2002 10:00:00|
+|1.12.02 5|01\-12\-2002 05:00:00|
+|1.12.02|01\-12\-2002 00:00:00|
 |11 12|11/mes de la fecha de trabajo/año de la fecha de trabajo 12:00:00|
 |1112 12|11/12/año de la fecha de trabajo 12:00:00|
 |h u hoy|fecha de hoy 00:00:00|

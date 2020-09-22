@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/03/2020
-ms.author: sgroespe
-ms.openlocfilehash: f3af601f0de00445a42c88bb47053084b05fc14b
-ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
+ms.author: edupont
+ms.openlocfilehash: 1ad2eb6d2e9a423aa1891eb52f71e815f4b89eff
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "3262147"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3785451"
 ---
 # <a name="entering-data"></a>Introducción de datos
 
@@ -160,7 +160,7 @@ Para abrir la ficha o documento actual en una nueva ventana, elija ![Abrir nueva
 
 > [!NOTE]
 > Si trabaja en el explorador Safari, un bloqueador de ventanas emergentes puede provocar que no se abra la nueva ventana. Si este es el caso, especifique la URL del producto como un sitio web permitido. Para obtener información, consulte [Cambiar las preferencias en Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
-> Lo mismo puede suceder en otros navegadores, como Firefox. Para obtener más información, vea [Configuración del bloqueador de elementos emergentes en Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400).  
+> Lo mismo puede suceder en otros navegadores, como Firefox. Para obtener más información, consulte [Configuración del bloqueador de elementos emergentes en Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400).  
 
 Otra forma de realizar múltiples tareas es abrir [!INCLUDE[d365fin](includes/d365fin_md.md)] en dos o más pestañas del navegador. Cuando lo haga de esta forma, debe crear una nueva pestaña y luego copiar/pegar la URL de la pestaña original en la nueva pestaña. De esta forma se crea una nueva sesión.   
 

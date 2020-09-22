@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: da0cedaeddcdb36bdbbbd2c49565128c7f7c1516
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 99f60e9811827869dda6f6b79440a36d680fde60
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191624"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3785976"
 ---
 # <a name="plan-project-orders"></a>Planificar órdenes de proyecto
 Esta tarea de planificación se inicia desde un pedido de venta y para realizarla se utiliza la página **Planificación pedido venta**. Una vez creada la orden de producción de un proyecto, puede seguir planificándola en la página **Planificación de pedidos**.  
