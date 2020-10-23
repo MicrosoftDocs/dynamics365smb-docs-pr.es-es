@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, consumption
-ms.date: 06/26/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 324de3ce7b5cbffff59c78f1e5374daf6fa8fd1d
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: b5bbf87d8241d57c40c028a06d7af6269c5af6d6
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784843"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910610"
 ---
 # <a name="record-usage-for-jobs"></a>Registro del uso para proyectos
 

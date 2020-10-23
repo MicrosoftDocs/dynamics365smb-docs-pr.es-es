@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/19/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c3f588a92d424d4ad8b1dfeda28b23981eca6c42
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 20dd616b52c1d6752d8aeeeb7c95e9d4f814b9a3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788076"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920952"
 ---
 # <a name="design-details-cost-adjustment"></a>Detalles de diseño: Ajuste de coste
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: tasks, work
-ms.date: 07/14/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e1e6520aeb39a77ecfcbf652b8c328d1595d6f6f
-ms.sourcegitcommit: 89d0ea903f61ab0628f99329c762d9f1619c49a7
+ms.openlocfilehash: c76751726f5cd680fafc0887fc57a1464d0ac3ca
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "3577206"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922622"
 ---
 # <a name="define-user-tasks"></a>Definir tareas de usuario
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dimension
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b9b69b539228e92776e1a7ee4c2fb491b20c1a15
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 98916c0843d84c76529e7b6f475ba207b2590a08
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788001"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911185"
 ---
 # <a name="dimension-set-entries-overview"></a>Información general de los movimientos del grupo dimensiones
 Este tema describe cómo se almacenan y se registran los movimientos de grupo de dimensiones en [!INCLUDE[d365fin](includes/d365fin_md.md)].  

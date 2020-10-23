@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 07/03/2020
+ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: d85ec46d5514c91e9a6b1403b5f90a7094d9deba
-ms.sourcegitcommit: ca5bf1d934997ef8c0bc9f8ab0e5568f0ed42fa4
+ms.openlocfilehash: 5482460acb6ce0e92b1d6dbe876b1b64267974ae
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "3535439"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919693"
 ---
 # <a name="creating-a-sandbox-environment-in-prodshort"></a>Crear un entorno aislado en [!INCLUDE[prodshort](includes/prodshort.md)]
 

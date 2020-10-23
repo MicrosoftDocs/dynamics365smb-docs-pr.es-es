@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 6506398391871621e994c74ba5499ebc6715f7b0
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 2cca707134ec4072aa1e87206c8f78619164d450
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189608"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912184"
 ---
 # <a name="the-worldpay-payments-standard-extension"></a>Extensión WorldPay Payments Standard
 La extensión WorldPay Payments Standard le permite proporcionar a los clientes una alternativa cómoda para realizar pagos a través de transferencias bancarias o tarjetas de crédito. No solo eso, además, los pagos realizados a través de los servicios de pago normalmente llegan a su cuenta bancaria más rápidamente.

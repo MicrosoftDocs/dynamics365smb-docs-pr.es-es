@@ -1,6 +1,6 @@
 ---
-title: Habilitar la integración de Power BI con Business Central | Documentos de Microsoft
-description: Obtener información, inteligencia empresarial y KPI de los datos de Business Central resulta muy sencillo con las aplicaciones de Business Central para Power BI.
+title: Habilitar la integración de Power BI con Business Central
+description: Aprenda a configurar la conexión a Power BI para que pueda obtener información, inteligencia empresarial y KPI de sus datos de Business Central con las aplicaciones de Business Central para Power BI.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 92b3bb1d04c58332db20c978928fe1b04ed2ab37
-ms.sourcegitcommit: aeaa0dc64e54432a70c4b0e1faf325cd17d01389
+ms.openlocfilehash: ce4b45dbe80ab1972c92cde144b457eeeaff3402
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3697790"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3927077"
 ---
 # <a name="enabling-power-bi-integration-with-prodshort"></a>Habilitar la integración de Power BI con [!INCLUDE[prodshort](includes/prodshort.md)]
 
@@ -27,8 +27,8 @@ Con [!INCLUDE[prodshort](includes/prodshort.md)], los usuarios obtienen una lice
 
 |Licencia Power|Ver informes|Crear informes|Compartir informes|Actualizar informes| Aplicaciones de [!INCLUDE[prodshort](includes/prodshort.md)]|
 |-------------|--------||
-|Power BI gratis|![comprobar](media/check.png)|![comprobar](media/check.png)|(limitado)|(limitado)||
-|Power BI Pro|![comprobar](media/check.png)|![comprobar](media/check.png)|![comprobar](media/check.png)|(extensivo)|![comprobar](media/check.png)|
+|Power BI gratis|![una marca de verificación](media/check.png)|![otra marca de verificación](media/check.png)|(limitado)|(limitado)||
+|Power BI Pro|![otra marca de verificación más](media/check.png)|![es una marca de verificación](media/check.png)|![otra nueva marca de verificación](media/check.png)|(extensivo)|![última marca de verificación](media/check.png)|
 
 Para más información, ver [Licenciar el servicio de Power BI para los usuarios de su organización](/power-bi/admin/service-admin-licensing-organization) o [Registrarse para el servicio de Power BI como individuo](/power-bi/fundamentals/service-self-service-signup-for-power-bi).
 

@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.reviewer: edupont
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 07/21/2020
+ms.date: 10/01/2020
 ms.author: andregu
-ms.openlocfilehash: 9624a51f040ae6231d9d0354cb0c571287ccd3e8
-ms.sourcegitcommit: e22666f90262c7d2084ca6c74ca7d66652fc6df6
+ms.openlocfilehash: 130449368e5b96e3c9e6cb6274dcd6e06f568114
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3617293"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916981"
 ---
 # <a name="validate-a-vat-registration-number"></a>Validar un CIF/NIF
 

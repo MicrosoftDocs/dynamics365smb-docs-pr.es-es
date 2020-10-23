@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 20cca6b2c91c58573d5bef1c8330ca4c691fdfb8
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d39d30891d822c25b0ce4aaec84bbbbc714ae311
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780440"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910760"
 ---
 # <a name="setting-up-cost-accounting"></a>Configuración de contabilidad de costes
 Antes de empezar a trabajar con la contabilidad de costes, debe realizar tareas de configuración.

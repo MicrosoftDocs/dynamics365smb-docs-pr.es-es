@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 05/12/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: eac9b5268cda8671a7189a429dedd9eb3cbfbc53
-ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
+ms.openlocfilehash: e39de1d4656b272c5c6cf5c01f54d5d6ebeca05b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "3372692"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914219"
 ---
 # <a name="setting-up-source-codes-and-reason-codes-for-audit-trails"></a>Configuración de códigos de origen y códigos de auditoría para pistas de auditoría
 

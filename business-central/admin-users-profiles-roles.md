@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
-ms.date: 06/26/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0d44ccf98ac02e24d1cd136bf1a0fe31b5bf0437
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 16be03cec9799817646bcc04f842b2f5d3519caa
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786101"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922297"
 ---
 # <a name="manage-profiles"></a>Administración de perfiles
 
@@ -67,7 +67,7 @@ Sobre la página **Mi configuración**, los usuarios pueden definir el comportam
 Como administrador, puede definir esta configuración para un perfil y, por lo tanto, aplicar la configuración a todos los usuarios del rol relacionado.
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Perfiles (roles)** y luego elija el enlace relacionado.
-2. Seleccione la línea del perfil cuya configuración de usuario desea cambiar, elija la acción **Navegar** y luego elija la acción **Personalizaciones del usuario**.
+2. Seleccione la línea del perfil cuya configuración de usuario desea cambiar y elija la acción **Enumerar personalizaciones de usuario**.
 3. En la página **Personalizaciones del usuario**, abra la tarjeta para el usuario cuya configuración desea cambiar.
 4. En la página **Tarjeta personalización usuario**, edite los campos según sea necesario.
 
@@ -139,7 +139,7 @@ También puede eliminar personalizaciones de página individuales para un perfil
 
 Como administrador de [!INCLUDE[prodshort](includes/prodshort.md)] online, puede administrar sesiones de usuario en el centro de administración. Para más información, vea [Administrar sesiones](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions) en el contenido de la administración.  
 
-Para [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, puede administrar sesiones usando SQL Server Management Studio, por ejemplo. Para más información, vea [Documentación técnica de SQL Server](/sql/sql-server/?view=sql-server-ver15).  
+Para [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, puede administrar sesiones usando SQL Server Management Studio, por ejemplo. Para más información, consulte [Documentación técnica de SQL Server](/sql/sql-server).  
 
 ## <a name="see-also"></a>Consulte también  
 [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
-ms.date: 04/20/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 0b814c18c328ea0647e38b6a837577b277ca4e63
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 382328e88c828afbf4316eb1f9bab73f6a2b7f95
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3527940"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911385"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Asignación de tablas y campos para sincronizar
 La base de la sincronización de datos en [!INCLUDE[d365fin](includes/d365fin_md.md)] con datos en [!INCLUDE[d365fin](includes/cds_long_md.md)] es asignar las tablas y campos que contienen los datos entre sí. La asignación ocurre a través de tablas de integración. 
@@ -30,6 +30,17 @@ Cuando cree la conexión entre las aplicaciones, [!INCLUDE[d365fin](includes/d36
 
 ### <a name="synchronization-rules"></a>Reglas de sincronización
 Una asignación de tabla de integración también incluye reglas que controlan cómo los trabajos de sincronización de integración sincronizan registros en una [!INCLUDE[d365fin](includes/d365fin_md.md)] tabla y una entidad en [!INCLUDE[d365fin](includes/cds_long_md.md)]. <!--For examples of rules for an integration with Sales, see [Synchronization Rules](admin-synchronizing-business-central-and-sales.md#synchronization-rules). need to verify link -->
+
+### <a name="strategies-for-auto-resolving-conflicts"></a>Estrategias para la resolución automática de conflictos
+Los conflictos de datos pueden ocurrir fácilmente cuando las aplicaciones comerciales intercambian datos de forma continua. Por ejemplo, alguien puede eliminar o cambiar un registro en una de las aplicaciones, o ambas cosas. Para reducir el número de conflictos que tendrá que resolver manualmente, puede especificar estrategias de resolución y [!INCLUDE[d365fin](includes/d365fin_md.md)] resolverá automáticamente los conflictos de acuerdo con las reglas de las estrategias.
+
+Las asignaciones de tablas de integración incluyen reglas que controlan cómo los trabajos de sincronización sincronizan los registros. En la página **Mapeo de la tabla de integración**, en las columnas **Resolver conflictos de eliminación** y **Resolver conflictos de actualización**, puede especificar cómo [!INCLUDE[d365fin](includes/d365fin_md.md)] resolverá los conflictos que ocurren porque los registros se eliminaron en tablas en una u otra aplicación comercial, o se actualizaron en ambas. 
+
+En la columna **Resolver conflictos de eliminación**, puede elegir que [!INCLUDE[d365fin](includes/d365fin_md.md)] restaure automáticamente los registros eliminados, eliminar el acoplamiento entre los registros o no hacer nada. Si no hace nada, debe resolver los conflictos manualmente. 
+
+En la columna **Resolver conflictos de actualizaciones**, puede elegir que [!INCLUDE[d365fin](includes/d365fin_md.md)] envíe automáticamente una actualización de datos a la tabla de integración al enviar datos a [!INCLUDE[d365fin](includes/cds_long_md.md)], u obtenga una actualización de datos de la tabla de integración al obtener datos de [!INCLUDE[d365fin](includes/cds_long_md.md)], o no hacer nada. Si no hace nada, debe resolver los conflictos manualmente.
+
+Después de especificar la estrategia, en la página **Errores de sincronización de datos acoplados**, puede elegir la acción **Reintentar todo** para resolver automáticamente los conflictos. 
 
 ## <a name="mapping-integration-fields"></a>Asignaciones de campo de integración
 La asignación de tablas es solo el primer paso. También debe asignar los campos en las tablas. Las asignaciones de campos de integración vinculan campos en [!INCLUDE[d365fin](includes/d365fin_md.md)] tablas con campos correspondientes en [!INCLUDE[d365fin](includes/cds_long_md.md)]y determinan si se sincronizarán los datos en cada tabla. La asignación de tabla estándar que [!INCLUDE[d365fin](includes/d365fin_md.md)] proporciona incluye asignaciones de campo, pero puede cambiarlas si lo desea. Para obtener más información, consulte [Ver asignaciones de entidad](admin-synchronizing-business-central-and-sales.md#tip-for-admins-viewing-entity-mappings).

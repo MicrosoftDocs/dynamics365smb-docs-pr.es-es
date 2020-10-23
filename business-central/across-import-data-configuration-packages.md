@@ -1,5 +1,5 @@
 ---
-title: Usar Excel para importar datos en Business Central | Documentos de Microsoft
+title: Usar Excel para importar datos en Business Central
 description: Utilice el paquete de configuración predeterminado para agregar datos de cliente en Excel e importar los datos en Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: migration, Excel
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e5f8ed744e6596e59789b1fa1857e124026ab63b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 143d40c1005b3ce6b54f9a2f5abc865b3d76b361
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187825"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924683"
 ---
 # <a name="importing-business-data-from-other-finance-systems"></a>Importar datos de empresa de otros sistemas financieros
+
 Cuando se registra en [!INCLUDE[d365fin](includes/d365fin_md.md)], puede elegir crear una empresa vacía, de este modo podrá cargar sus datos y probar su nueva empresa de [!INCLUDE[d365fin](includes/d365fin_md.md)]. En función de la solución de finanzas que use su empresa actualmente, puede transferir información sobre clientes, proveedores, inventario y cuentas bancarias.  
 
 Desde el área de trabajo, puede iniciar una guía de configuración asistida que le ayudará a transferir los datos de la empresa de un archivo Excel o de otros formatos. El tipo de archivos que puede cargar depende de las extensiones disponibles. Por ejemplo, puede migrar los datos de QuickBooks, ya que [!INCLUDE[d365fin](includes/d365fin_md.md)] incluye una extensión que gestiona la conversión desde QuickBooks. Si desea migrar los datos de otras soluciones de finanzas, debe comprobar si hay una extensión disponible para esa solución o importarlos desde Excel.  
@@ -27,7 +28,7 @@ Desde el área de trabajo, puede iniciar una guía de configuración asistida qu
 Puede importar datos maestros y algunos datos transaccionales de otros sistemas de financieros mediante el paquete de configuración predeterminado en [!INCLUDE[d365fin](includes/d365fin_md.md)]. En la página **Paquetes de configuración** puede trabajar con el paquete para importar y validar los datos antes de aplicar el paquete.  
 
 > [!TIP]  
-> Opcionalmente, utilice asistentes de migración para importar datos de QuickBooks GP o Dynamics GP. Para obtener más información, consulte [Migración de datos de QuickBooks](ui-extensions-quickbooks-data-migration.md) o [Migración de datos de Dynamics GP](ui-extensions-dynamicsgp-data-migration.md).
+> Se recomienda utilizar asistentes de migración para importar datos de Dynamics GP, Dynamics NAV o QuickBooks. Para más información, consulte [Migración de datos locales a Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) en el contenido de la administración, o [Migración de datos de QuickBooks](ui-extensions-quickbooks-data-migration.md).
 
 > [!NOTE]  
 > Para un trabajo de implementación más amplio, puede utilizar RapidStart Services para [!INCLUDE[d365fin](includes/d365fin_md.md)], que es un conjunto de herramientas extenso para configurar nuevas soluciones basadas en los requisitos comerciales de los clientes y los datos de configuración. RapidStart Services también ofrece la funcionalidad de importar los datos empresariales. Para obtener más información, consulte [Configuración de una empresa con RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
@@ -81,8 +82,8 @@ El paquete de configuración predeterminado admite las tablas siguientes:
 
 ## <a name="see-also"></a>Consulte también
 [Configurar una empresa con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
+[Migración de datos locales a Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 [Migración de datos de QuickBooks](ui-extensions-quickbooks-data-migration.md)  
-[Migración de datos de Dynamics GP](ui-extensions-dynamicsgp-data-migration.md)  
 [Importar varias imágenes de producto](inventory-how-import-item-pictures.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

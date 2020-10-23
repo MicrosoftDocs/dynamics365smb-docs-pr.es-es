@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: invoicing, bookings
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0048d0e78084c939c9e2a707975598a171108cdc
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 6b69d64e67428cc4f1e7dc75e6267b2749e182c1
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183937"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913451"
 ---
 # <a name="bulk-invoicing-for-microsoft-bookings-in-d365fin"></a>Facturación masiva para Microsoft Bookings en [!INCLUDE[d365fin](includes/d365fin_md.md)]
-Si su empresa utiliza la aplicación Bookings en Office 365, puede hacer la facturación masiva para citas. La página **Bookings sin facturar** de [!INCLUDE[d365fin](includes/d365fin_md.md)] ofrece una lista de las reservas completadas de la empresa. En esta página puede seleccionar rápidamente citas que desea facturar y para crear borradores de factura de los servicios prestados.  
+Si su empresa utiliza la aplicación Bookings en Microsoft 365, puede realizar facturación masiva para citas. La página **Bookings sin facturar** de [!INCLUDE[d365fin](includes/d365fin_md.md)] ofrece una lista de las reservas completadas de la empresa. En esta página puede seleccionar rápidamente citas que desea facturar y para crear borradores de factura de los servicios prestados.  
 
 ## <a name="connect-to-bookings"></a>Conectarse a Bookings
 Para conectarse [!INCLUDE[d365fin](includes/d365fin_md.md)] con Bookings, debe especificar su empresa de Bookings, lo que desea sincronizar con Bookings, la frecuencia con que se realizará la sincronización y las plantillas que se usarán. Puede configurar esta información en la página **Configuración de sincronización de Bookings**, que puede iniciar desde la página **Configuración de la sincronización de Exchange**, que puede encontrar mediante [Buscar](ui-search.md).  

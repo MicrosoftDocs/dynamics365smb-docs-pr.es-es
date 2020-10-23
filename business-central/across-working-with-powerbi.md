@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 07/10/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 7f28e763cd2a72bda79c088c3a1268e3443f86dc
-ms.sourcegitcommit: aeaa0dc64e54432a70c4b0e1faf325cd17d01389
+ms.openlocfilehash: 28e332137346aae320b73c326bb3a41d3b7e7097
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3697788"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3927202"
 ---
 # <a name="working-with-power-bi-reports-in-prodshort"></a>Trabajar con informes de Power BI en [!INCLUDE [prodshort](includes/prodshort.md)]
 

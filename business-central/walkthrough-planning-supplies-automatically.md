@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 219b7aa5bdeff1ba0a7a527ba35ff23b846920ed
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 6f0d7b5c90777e46a3cfca2ceb4603aa9173aec0
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786801"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912101"
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Tutorial: planificación automática de suministros
 

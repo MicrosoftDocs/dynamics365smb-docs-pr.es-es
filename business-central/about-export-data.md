@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
-ms.date: 05/04/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: eb11098292f9d83fcd0a4b23bde9c1813f4c6c8e
-ms.sourcegitcommit: 866f0e6ed9df3397072b9df838e31c3a1f4b626d
+ms.openlocfilehash: e8b62e04b3b1d44ba53572559c66acc1c05da8c0
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "3333889"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914619"
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Exportar los datos de negocio a Excel
 Si desea trabajar con sus datos de [!INCLUDE[d365fin](includes/d365fin_md.md)] en Excel, puede abrir todas las listas en Excel y trabajar con ellos. De igual forma, si desea cancelar la suscripción de [!INCLUDE[d365fin](includes/d365fin_md.md)], puede exportar los datos a Excel de forma que pueda llevárselos.

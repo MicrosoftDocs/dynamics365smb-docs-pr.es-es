@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
-ms.date: 06/22/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 371f9c8629d699d7c07f2d72c99b8b64fac3b4b9
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 68271b7f6f90f88af74cee848af82d28abbf339f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780340"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921372"
 ---
 # <a name="use-time-sheets-for-jobs"></a>Uso de hojas de horas para proyectos
 
@@ -113,6 +113,27 @@ Una vez aprobada o rechazada una hoja de horas, no se podrá modificar hasta que
     >   Puede volver a abrir sólo las líneas con el estado **Aprobado**. No puede volver a abrir solo las líneas con el estado **Impagado**. No puede volver a abrir una hoja de horas si ya se ha registrado.  
 3. En la página **Hoja de horas**, elija la acción **Volver a abrir** y, a continuación, **Todas las líneas enviadas** para volver a abrir todas las líneas o la acción **Solo líneas seleccionadas** para volver a abrir únicamente las líneas que están seleccionadas en la página **Hoja de horas**.
 4. Elija el botón **Aceptar**. El estado de las líneas de la hoja de horas cambia a **Enviado**.  
+
+## <a name="to-view-and-approve-time-sheets-by-job"></a>Para ver y aprobar partes de horas por tarea
+
+En una tarea, puede especificar una persona que sea responsable del proyecto. Dicha información está vinculada a las líneas del parte de horas y puede utilizarse para proporcionar una lista de partes de horas que un director del proyecto deberá revisar y aprobar. Por ejemplo, el director del proyecto del equipo puede ser responsable de determinados trabajos de la empresa. En ese caso, el director debe designarse como **Persona responsable** en la tarjeta de trabajo. En esta vista de información del parte de horas, puede ver las tareas del trabajo asociadas a un trabajo y la cantidad de horas empleadas.
+
+> [!NOTE]
+> Para poder aprobar los partes de horas en la ventana **Hoja de horas del administrador por trabajo**, primero debe seleccionar una opción **Parte de horas por aprobación de trabajoo** en la página **Configuración de recursos**. Para obtener más información, consulte [Configurar recursos](projects-how-setup-resources.md).
+
+### <a name="to-approve-or-reject-a-time-sheet-by-job"></a>Para aprobar o rechazar un parte de horas por trabajo
+
+1. En el cuadro **Buscar**, escriba **Hoja de horas del administrador por trabajo** y, a continuación, elija el vínculo relacionado. Microsoft Dynamics NAV muestra una lista de líneas de parte de horas asociadas con los trabajos de los que es responsable.
+2. En la pestaña **Inicio**, elija **Aprobar**. Elija **Todo** para aprobar todas las líneas. Elija **Seleccionadas** para aprobar solo las líneas seleccionadas.
+
+    > [!NOTE]
+    > Solo puede aprobar los partes de horas que tengan el estado **Enviado**.
+
+3. Para proporcionar información adicional acerca de la aprobación o el rechazo, seleccione una línea del parte de horas y, en la pestaña **Navegar**, seleccione **Comentarios**. En el campo **Fecha**, introduzca una fecha y, a continuación, un comentario en el campo **Comentario**.
+4. Elija el botón **Aceptar**.
+
+> [!NOTE]
+> Una vez aprobada o rechazada una línea del parte de horas por trabajo, no se podrá volver a abrir ni modificar en la ventana **Parte de horas**.
 
 ## <a name="to-post-time-sheet-lines-in-a-resource-journal"></a>Para registrar las líneas de hoja de horas en un diario de recursos
 Una vez aprobados los movimientos de la hoja de horas de un recurso, puede registrarlas en el diario de recursos correspondiente.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 07/21/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 867fddce799fb7e005a5a34a4c22975336375801
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: eedfa2a0c0f519f5ea22eb51a779f6f2a090d9bf
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780740"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914344"
 ---
 # <a name="edit-posted-documents"></a>Editar documentos registrados
 

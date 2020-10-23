@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/08/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 22afb13b526e77783810ac2c45c283eac6b4f951
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 6df2078128cbcf9c4e5f59b7815f777d130543e5
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779890"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922699"
 ---
 # <a name="create-routings"></a>Creación de rutas
 

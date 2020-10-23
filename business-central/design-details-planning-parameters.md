@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 04/20/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5d7c419158134c78993c00d6644bb828dd3be1a9
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d7eddf4c988c6edc3ae1a0dbfd045fa7b4f5b4b4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787376"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921997"
 ---
 # <a name="design-details-planning-parameters"></a>Detalles de diseño: Parámetros de la planificación
 En este tema se describen los distintos parámetros de planificación que puede usar en [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -26,7 +26,7 @@ La forma en que el sistema de planificación controla el suministro de productos
 |-------------|---------------|  
 |Definir si se va a planificar el producto|Directiva reaprov. = En blanco|  
 |Definir cuándo reaprovisionar|Ciclo<br /><br /> Punto pedido<br /><br /> Plazo de seguridad|  
-|Definir qué cantidad reaprovisionar|Stock de seguridad<br /><br /> Directiva reaprov.:<br /><br /> -   Cdad. fija reaprov. frente a Cantidad a solicitar<br />-   Cantidad máxima más stock máximo<br />-   Sentido<br />-   Lote a lote|  
+|Definir qué cantidad reaprovisionar|Stock de seguridad<br /><br /> Directiva reaprov.:<br /><br /> -   Cdad. fija reaprov. frente a Cantidad a solicitar<br />-   Cantidad máxima más stock máximo<br />-   Pedido<br />-   Lote a lote|  
 |Optimizar cuando se produzca el reaprovisionamiento y según la cantidad de reaprovisionamiento|Periodo de reprogramación<br /><br /> Periodo de acumulación de lotes<br /><br /> Periodo amortiguador|  
 |Modificar los pedidos de suministro|Cantidad mínima pedido<br /><br /> Cantidad máxima pedido<br /><br /> Múltiplos de pedido|  
 |Delimitación del producto planificado|Directiva fabricación:<br /><br /> -   Fab-contra-stock<br />-   Fab-contra-pedido|  

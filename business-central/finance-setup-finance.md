@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8b277c8363ec831a803081898ca6bea591140bac
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 45f32a9f5bbdc13148483b689b5793038c675649
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779216"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923015"
 ---
 # <a name="setting-up-finance"></a>Configurar las finanzas
 Antes de que pueda comenzar a administrar su negocio, debe especificar reglas y valores predeterminados sobre cómo desea administrar los procesos financieros para esa empresa. En primer lugar, deberá configurar el elemento básico de los registros de contabilidad de la empresa - el plan de cuentas. A continuación, deberá configurar los grupos contables, que permiten que la asignación de cuentas contables predeterminadas a los clientes, proveedores y productos sea más eficaz.
@@ -48,6 +48,9 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 | Configurar los informes Intrastat y, enviar el informe a una autoridad | [Configuración y creación de informes Intrastat](finance-how-setup-report-intrastat.md)|
 |Asegúrese de que un movimiento de un diario general esté asignado a varias cuentas diferentes al registrar el diario, ya sea cantidad, porcentaje o importe.|[Utilizar claves de asignación en diarios generales](ui-how-use-allocation-keys-general-journals.md)|
 |Configurar códigos de origen y códigos de auditoría que puede usar para realizar un seguimiento de pistas de auditoría|[Configuración de códigos de origen y códigos de auditoría para pistas de auditoría](finance-setup-trail-codes.md)|
+
+> [!TIP]
+> Según su ubicación geográfica, algunas páginas pueden contener campos que no se describen en los productos que se enumeran aquí, porque se aplican a funciones o personalizaciones locales. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/)
 

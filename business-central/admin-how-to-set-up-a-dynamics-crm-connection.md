@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/24/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 10a257b60aedfb22066148fd48145779cd6d4a62
-ms.sourcegitcommit: ac492bff0c87bf2a23fa93113e7571da9d5094c7
+ms.openlocfilehash: 51f04f690483fd5b0c3f093ac5f8e2694ca3fdd9
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "3701997"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924633"
 ---
 # <a name="connect-to-common-data-service"></a>Conectar a Common Data Service
 
@@ -34,7 +34,7 @@ Hay algunos datos que debe tener listos para crear la conexión:
 
 ## <a name="set-up-a-connection-to-cds_long_md"></a>Configurar una conexión a [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
-En todos los tipos de autenticación distintos de la autenticación de Office 365, configure la conexión a [!INCLUDE[cds_long_md](includes/cds_long_md.md)] en la página **Configuración de la conexión de CDS**. Para la autenticación de Office 365, es recomendable que use la guía de configuración asistida **Configuración de conexión de Common Data Service**. La guía simplifica la configuración de la conexión y permite especificar características avanzadas, como el modelo de propiedad y la sincronización inicial.  
+En todos los tipos de autenticación distintos de la autenticación de Microsoft 365, configure la conexión a [!INCLUDE[cds_long_md](includes/cds_long_md.md)] en la página **Configuración de la conexión de CDS**. Para la autenticación de Microsoft 365, es recomendable que use la guía de configuración asistida **Configuración de conexión de Common Data Service**. La guía simplifica la configuración de la conexión y permite especificar características avanzadas, como el modelo de propiedad y la sincronización inicial.  
 
 > [!IMPORTANT]
 > Durante la configuración de la conexión a [!INCLUDE[cds_long_md](includes/cds_long_md.md)], se pedirá al administrador que otorgue los siguientes permisos a la aplicación de Azure registrada denominada Integración de [!INCLUDE[d365fin](includes/d365fin_md.md)] para [!INCLUDE[cds_long_md](includes/cds_long_md.md)]:
@@ -70,7 +70,7 @@ El procedimiento siguiente describe cómo configurar la conexión manualmente en
 
     |Campo|Descripción|
     |-----|-----|
-    |**Los usuarios de [!INCLUDE[d365fin](includes/d365fin_md.md)] deben asignar a usuarios de CDS**|Si está utilizando el modelo de propiedad de la persona, especifique si las cuentas de usuario de [!INCLUDE[d365fin](includes/d365fin_md.md)] deben tener cuentas de usuario coincidentes en [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. La **dirección de correo electrónico de autenticación de Office 365** del usuario de [!INCLUDE[d365fin](includes/d365fin_md.md)] debe coincidir con el **correo electrónico principal** del usuario de [!INCLUDE[crm_md](includes/crm_md.md)].<br /><br /> Si establece el valor en **Sí**, los usuarios de [!INCLUDE[d365fin](includes/d365fin_md.md)] que no tienen una cuenta de usuario de [!INCLUDE[crm_md](includes/crm_md.md)] correspondiente no tendrán capacidades de integración de [!INCLUDE[d365fin](includes/d365fin_md.md)] en la interfaz de usuario. El acceso a los datos de [!INCLUDE[crm_md](includes/crm_md.md)] directamente desde [!INCLUDE[d365fin](includes/d365fin_md.md)] se realiza en nombre de la cuenta de usuario de [!INCLUDE[crm_md](includes/crm_md.md)].<br /><br /> Si establece el valor en **No**, todos los usuarios de [!INCLUDE[d365fin](includes/d365fin_md.md)] tendrán capacidades de integración de [!INCLUDE[crm_md](includes/crm_md.md)] en la interfaz de usuario. El acceso a los datos de [!INCLUDE[crm_md](includes/crm_md.md)] directamente se realiza en nombre de la cuenta de usuario de conexión (integración) de [!INCLUDE[crm_md](includes/crm_md.md)].|
+    |**Los usuarios de [!INCLUDE[d365fin](includes/d365fin_md.md)] deben asignar a usuarios de CDS**|Si está utilizando el modelo de propiedad de la persona, especifique si las cuentas de usuario de [!INCLUDE[d365fin](includes/d365fin_md.md)] deben tener cuentas de usuario coincidentes en [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. El **correo electrónico de autenticación de Microsoft 365** del usuario de [!INCLUDE[d365fin](includes/d365fin_md.md)] debe coincidir con el **correo electrónico principal** del usuario de [!INCLUDE[crm_md](includes/crm_md.md)].<br /><br /> Si establece el valor en **Sí**, los usuarios de [!INCLUDE[d365fin](includes/d365fin_md.md)] que no tienen una cuenta de usuario de [!INCLUDE[crm_md](includes/crm_md.md)] correspondiente no tendrán capacidades de integración de [!INCLUDE[d365fin](includes/d365fin_md.md)] en la interfaz de usuario. El acceso a los datos de [!INCLUDE[crm_md](includes/crm_md.md)] directamente desde [!INCLUDE[d365fin](includes/d365fin_md.md)] se realiza en nombre de la cuenta de usuario de [!INCLUDE[crm_md](includes/crm_md.md)].<br /><br /> Si establece el valor en **No**, todos los usuarios de [!INCLUDE[d365fin](includes/d365fin_md.md)] tendrán capacidades de integración de [!INCLUDE[crm_md](includes/crm_md.md)] en la interfaz de usuario. El acceso a los datos de [!INCLUDE[crm_md](includes/crm_md.md)] directamente se realiza en nombre de la cuenta de usuario de conexión (integración) de [!INCLUDE[crm_md](includes/crm_md.md)].|
     |**El vendedor de Business Central actual está asignado a un usuario**|Indica si la cuenta de usuario está asignada a una cuenta en [!INCLUDE[crm_md](includes/crm_md.md)] <!--double check the name of this field-->|
 
 4. Para probar la configuración de conexión, elija **Conexión** y luego **Probar conexión**.  

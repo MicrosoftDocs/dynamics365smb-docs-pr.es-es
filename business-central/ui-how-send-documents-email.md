@@ -5,15 +5,15 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
-ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
-ms.date: 05/13/2020
+ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d80b76614ad0ddf901a288859d8e6595d908c7ae
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 72ed1cba131e76eba2020e4cca9c900b9b2ed45c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3527990"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923425"
 ---
 # <a name="send-documents-by-email"></a>Enviar documentos por correo electrónico
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/20/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 66a32f8ecdc0ddd07794be9354edc75adf96df42
-ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
+ms.openlocfilehash: 4cdc60905f03b5fab6ae43b8a5a99cda352e03c1
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3402530"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925842"
 ---
 # <a name="create-service-invoices-or-credit-memos"></a>Crear facturas o abonos de servicios
 La facilidad de facturar sus pedidos de servicio es una función esencial de [!INCLUDE[prodshort](includes/prodshort.md)]. Puede configurar [!INCLUDE[prodshort](includes/prodshort.md)] de modo que un técnico de servicio de campo pueda crear una factura para un servicio que no esté vinculado con un contrato o pedido. Como alternativa, configure [!INCLUDE[prodshort](includes/prodshort.md)] para facturar contratos de servicio periódicamente. El periodo de factura de cada contrato define la frecuencia con que se factura.

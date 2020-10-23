@@ -2,15 +2,15 @@
 title: Catálogo de aprendizaje para preventa para socios
 description: Encuentra todo el aprendizaje disponible para Business Central.
 author: loreleishannonmsft
-ms.date: 08/10/2020
+ms.date: 10/01/2020
 ms.topic: article
 ms.author: margoc
-ms.openlocfilehash: 59653a67bd300a8359a82648e3bac6b919d2b233
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 740a40ba53d85f13d694a80ad3fc5e63edfe9587
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779171"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926677"
 ---
 # <a name="partner-pre-sales-learning-catalog"></a>Catálogo de aprendizaje para preventa para socios
 
@@ -64,7 +64,7 @@ El siguiente catálogo está organizado desde el conocimiento básico hasta domi
 | [Demostración: El Contador - Verano 2019](https://youtu.be/EGY-DtMcfK8) | Únase a Craig mientras le muestra cómo funciona y se comporta el rol Contador en Business Central. | Vídeo de YouTube | 10 minutos 17 segundos |
 | [Demostración: Conciliar banco - Verano 2019](https://youtu.be/BKtiLmgiuyA) | Únase a Craig mientras le muestra cómo conciliar las cuentas bancarias. | Vídeo de YouTube | 4 minutos 15 segundos |
 | [Demostración: Cotización en efectivo a través de Sales and Business Central - Verano 2019](https://youtu.be/WsL9OOkVG_Y)  |Únase a Craig mientras le muestra cómo cotizar en efectivo trabajos mediante Sales and Business Central. | Vídeo de YouTube |5 minutos 59 segundos |
-| [Demostración: Cotización en efectivo a través de Outlook - Verano 2019](https://youtu.be/U6y6Pneriu8) |Únase a Craig mientras le muestra cómo funciona "Cotizar a efectivo" desde Microsoft Outlook.| YouTube | Vídeo de |    6 minutos 28 segundos |
+| [Demostración: Cotización en efectivo a través de Outlook - Verano 2019](https://youtu.be/U6y6Pneriu8) |Únase a Craig mientras le muestra cómo funciona "Cotizar a efectivo" desde Microsoft Outlook.| YouTube | Vídeo de|    6 minutos 28 segundos |
 | [Demostración: Producir orden de producción - Verano 2019](https://youtu.be/ML_Zx_lqAHQ) | Únase a Craig mientras le muestra cómo utilizar las órdenes de producción en Business Central. | Vídeo de YouTube | 6 minutos 24 segundos |
 | [Demostración: Aprovisionamiento para pago - Verano 2019](https://youtu.be/KOKW-EeEe4w) | Únase a Craig mientras le muestra cómo funciona el proceso de Aprovisionamiento para pago en Business Central. | Vídeo de YouTube | 5 minutos 26 segundos |
 | [Demostración: Pedido en efectivo - Verano 2019](https://youtu.be/K1SgJnXAyQU) |Únase a Craig mientras le muestra un proceso comercial muy común llamado "pedido en efectivo".  |Vídeo de YouTube  |4 minutos 44 segundos |

@@ -2,15 +2,15 @@
 title: Catálogo de aprendizaje de responsables de decisiones empresariales
 description: Catálogo de aprendizaje de responsables de decisiones empresariales
 author: loreleishannonmsft
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.topic: article
 ms.author: margoc
-ms.openlocfilehash: 291880649b33727e7aec05f698939f1683b1af09
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: f91616aca75ca423651a9062588d1df5e7fbca84
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778795"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918786"
 ---
 # <a name="business-decision-makers-learning-catalog"></a>Catálogo de aprendizaje de responsables de decisiones empresariales
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/23/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 85a5bbd3c1920aaac3e0560737f921c7518d1d32
-ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
+ms.openlocfilehash: 57284dc738ba35c9865bd25f9c180827d4c59c94
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "3503599"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913376"
 ---
 # <a name="create-prepayment-invoices"></a>Crear facturas de prepagos
 

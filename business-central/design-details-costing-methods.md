@@ -8,22 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: e3ec3ad00d73fcb74d41ff46cc2d2c0e34e78489
-ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
+ms.openlocfilehash: 55af47a23a36630f373b314690d0e09afe2d1c90
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3617916"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3927027"
 ---
 # <a name="design-details-costing-methods"></a>Detalles de diseño: Métodos de coste
 
 La valoración de existencias determina si en el cálculo de costes se capitaliza y utiliza un valor real o uno presupuestado. Junto con la fecha de registro y la secuencia, el método de coste también influye en cómo se registra el flujo de costes.
 
 > [!NOTE]
-> No puede modificar la valoración de existencias de un producto si existen movimientos de productos para el producto.<br /><br />
-> Próximamente se publicará aquí información sobre las soluciones para cambiar una valoración de existencias en situaciones especiales.
+> No puede modificar la valoración de existencias de un producto si existen movimientos de productos para el producto. Para más información, consulte [Detalles de diseño: cambiar la valoración de exisncias para productos](design-details-changing-costing-methods.md).
 
 En [!INCLUDE[d365fin](includes/d365fin_md.md)] se admiten las siguientes valoraciones:  
 
@@ -41,7 +40,7 @@ En [!INCLUDE[d365fin](includes/d365fin_md.md)] se admiten las siguientes valorac
 
  Los métodos de coste varían en cuanto a la forma en que el inventario disminuye y si se utiliza el coste real o el coste estándar como base de valoración. En la tabla siguiente se explican las diferentes características. (Se excluye el método LIFO por ser muy parecido al método FIFO).  
 
-|<!--blank -->|FIFO|Promedio|Estándar|Específico|  
+|Categoría|FIFO|Promedio|Estándar|Específico|  
 |-|----------|-------------|--------------|--------------|  
 |Característica general|Fácil de comprender|Basándose en opciones de periodo: **Día**/**Semana**/**Mes**/**Trimestre**/**Periodo contable**.<br /><br /> Se puede calcular por producto o por producto, almacén y variante.|Fácil de usar pero requiere mantenimiento cualificado.|Requiere el seguimiento de producto en la transacción de entrada y de salida.<br /><br /> Normalmente se usa para productos serializados.|  
 |Aplicación/ajuste|La aplicación hace un seguimiento de **la cantidad pendiente**.<br /><br /> El ajuste desvía los costes según la liquidación de la cantidad.|La aplicación hace un seguimiento de la **cantidad pendiente**.<br /><br /> Los costes se calculan y se envían por la **fecha de valoración**.|La aplicación hace un seguimiento de la **cantidad pendiente**.<br /><br /> La aplicación se basa en el método FIFO.|Toda las liquidaciones son fijas.|  

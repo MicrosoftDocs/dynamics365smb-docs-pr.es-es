@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 60b62845a359cec21b52f42c6692edc417a65123
-ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
+ms.openlocfilehash: cffe1bf3cc73660a75e6cca5d2d0e1e640c32423
+ms.sourcegitcommit: aea079b66e35c447bf31a11ffc2069cfdaf2ef38
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410752"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3970469"
 ---
 # <a name="finance"></a>Finanzas
 [!INCLUDE[d365fin](includes/d365fin_md.md)] incluye una configuración estándar de muchos procesos financieros, pero puede cambiar la configuración para que se adapte a su empresa. Para obtener más información, consulte [Configurar finanzas](finance-setup-finance.md).
@@ -54,7 +54,12 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 | Supervise el flujo de efectivo de entrada y salida de su empresa. |[Analizar los flujos de efectivo de la empresa](finance-analyze-cash-flow.md) |
 |Siga el procedimiento de extremo a extremo sobre el uso de los esquemas de cuentas para hacer pronósticos de flujo de efectivo.|[Tutorial: elaboración de previsiones del flujo de efectivo con esquemas de cuentas](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)|
 | Trabajar con balances financieros y resúmenes en Excel. |[Análisis de estados financieros en Excel](finance-analyze-excel.md) |
-|Aprender a usar el Área de trabajo Contable, invitar a un contable externo y utilizar Accountant Hub para administrar las cuentas de varios clientes.|[Experiencias contables en Business Central](finance-accounting.md)|  
+|Aprenda a usar el Área de trabajo contable, invitar a un contable externo y utilizar el hub de empresas para administrar las cuentas de varios clientes.|[Experiencias contables en Business Central](finance-accounting.md)|  
+
+## <a name="take-a-video-tour"></a>Realizar una visita guiada en vídeo
+El siguiente video presenta algunas de las capacidades clave para administrar las finanzas. <br><br>  
+
+> [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
 ## <a name="see-also"></a>Consulte también
 [Configurar las finanzas](finance-setup-finance.md)  

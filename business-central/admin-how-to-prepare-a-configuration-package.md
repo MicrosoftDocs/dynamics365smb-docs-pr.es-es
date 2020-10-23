@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/06/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 026a76fac8ce50c5eab68c40c9f7b4300f1493b8
-ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
+ms.openlocfilehash: cfb7c0186f7ed81687ad3f4d667b3f71d77af424
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "3667002"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922522"
 ---
 # <a name="prepare-a-configuration-package"></a>Preparar un paquete de configuración
 

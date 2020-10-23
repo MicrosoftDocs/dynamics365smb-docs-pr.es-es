@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: d52b04f000617ac037ccc37bcf02061609e680c6
-ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
+ms.openlocfilehash: fb71224df8730c68fb5c56c255353a05a7846eed
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3617841"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912364"
 ---
 # <a name="the-c5-data-migration-extension"></a>Extensión de migración de datos de C5
 

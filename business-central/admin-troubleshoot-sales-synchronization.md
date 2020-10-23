@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 82b5f3ec52be27c4fbe60a6a63a0cfc5f6f1bd7c
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: db8b05aa74583d8ba74fcfeb8fae1d3c28893fac
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196548"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922397"
 ---
 # <a name="troubleshooting-synchronization-errors"></a>Solución de problemas de errores de sincronización
 Hay muchos factores involucrados en la integración de [!INCLUDE[d365fin](includes/d365fin_md.md)] con Common Data Service, y a veces las cosas salen mal. Este tema señala algunos de los errores típicos que se producen y ofrece algunos consejos para corregirlos.
@@ -50,6 +50,9 @@ El mensaje de error de conflicto "No se puede actualizar el registro del cliente
 El conflicto ocurre porque el registro de destino también se modificó: la marca de tiempo del registro es más reciente que la marca de tiempo del registro de integración de ventas. La verificación de destino se realiza solo para tablas bidireccionales. 
 
 Estos registros ahora se mueven a la página "Registros sinc. omitidos", que se abre desde la página Configuración de conexión de Microsoft Dynamics en Business Central. Allí puede especificar los cambios que desea conservar y luego sincronizar nuevamente los registros.
+
+## <a name="remove-couplings-between-records"></a>Eliminar acoplamientos entre registros
+Cuando algo sale mal en su integración y necesita desacoplar registros para dejar de sincronizarlos, puede hacerlo para uno o más registros a la vez. En la página **Asignaciones de tablas de integración**, puede elegir **Desacoplamiento** y luego **Eliminar acoplamiento**. Alternativamente, en la página **Errores de sincronización de datos acoplados**, puede elegir los errores y luego elegir **Quitar acoplamientos**. 
 
 ## <a name="see-also"></a>Consulte también
 [Integración con Common Data Service](admin-prepare-dynamics-365-for-sales-for-integration.md)  

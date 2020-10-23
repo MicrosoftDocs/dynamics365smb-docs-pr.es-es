@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 10a510f48dbe84da175a5b95248f02fa822e659f
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 167f99d7a7a0df7727e8c50df376b847e5dfefcb
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788526"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917212"
 ---
 # <a name="about-calculating-standard-cost"></a>Acerca del cálculo de coste estándar
 Muchas empresas de fabricación eligen una base de valoración de coste estándar. Esto también se aplica a las empresas que llevan a cabo la fabricación ligera, como ensamblado y kitting. Un sistema de costes estándar determina el coste unitario del inventario en función de ciertos costes históricos o esperados razonables. Los estudios sobre costes anteriores y sobre costes futuros previstos pueden ofrecer una base para calcular costes estándar. Dichos costes quedan fijos hasta que se tome la decisión de cambiarlos. El coste real para fabricar un producto puede ser diferente de los costes estándar calculados. Para controlar la gestión, el coste real se compara con el coste estándar de un producto en particular, y se identifican y analizan las diferencias o *variaciones*.  

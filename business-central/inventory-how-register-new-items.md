@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 07/06/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 296e150eec01e3aee4ec8ccc32b4bf5299b86d3e
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 74eb66c4303acb452972f9ac3c7dda008e3c6502
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782073"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923825"
 ---
 # <a name="register-new-items"></a>Registro de productos nuevos
 
@@ -92,12 +92,19 @@ Los proveedores aparecerán después en la página **Tarifas de compra productos
 
 ## <a name="deleting-item-cards"></a>Eliminar fichas de producto
 
-Si ha publicado una transacción para un artículo, no puede eliminar la ficha porque los movimientos pueden ser necesarias para la valoración de inventario o auditoría. Para eliminar fichas de producto con movimientos, póngase en contacto con el socio de Microsoft para hacerlo a través del código.
+Si ha publicado una transacción para un artículo, no puede eliminar la ficha porque los movimientos pueden ser necesarias para la valoración de inventario o auditoría. Para eliminar fichas de producto con movimientos, póngase en contacto con el socio de Microsoft para hacerlo a través del código.  
+
+## <a name="manage-inventory-in-warehouses"></a>Administrar el inventario en almacenes
+
+Cuando registre un nuevo producto, verá campos relacionados con la gestión del almacén, especialmente en la Ficha desplegable **Almacén**. Si su organización no utiliza las capacidades de gestión de almacenes de [!INCLUDE [prodshort](includes/prodshort.md)], entonces puede ignorar esos campos.  
+
+Si su organización configura posteriormente la gestión del almacén, en la mayoría de los casos, debe volver a cada producto existente para asegurarse de que tenga la información correcta en los distintos campos, de modo que los procesos del almacén se puedan ejecutar como se esperaba. Esta información puede incluir campos como **Código de clase de almacén** o **Código de plantilla de ubicación**. Para obtener más información, consulte [Detalles de diseño: Configuración almacén](design-details-warehouse-setup.md).  
 
 ## <a name="see-also"></a>Consulte también
 
 [Inventario](inventory-manage-inventory.md)  
 [Configurar unidades de medida](inventory-how-setup-units-of-measure.md)  
+[Códigos arancelarios](finance-how-setup-report-intrastat.md#tariff-numbers)  
 [Conciliar costes de inventario con la contabilidad general](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
 [Crear numeración](ui-create-number-series.md)  
 [Configurar los grupos contables](finance-posting-groups.md)  

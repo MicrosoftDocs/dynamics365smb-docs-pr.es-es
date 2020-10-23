@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f061445c2b3e883bdc776bd0526d487aff592a26
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 94c793441d413820f3dd752179c0268147fc2f8f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785526"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920225"
 ---
 # <a name="setting-up-warehouse-management"></a>Configuración de la gestión del almacén
 La estrategia de distribución de una empresa se refleja en la configuración de sus procesos de almacén. Esto incluye definir el tratamiento de los distintos productos en ubicaciones distintas del almacén, como el nivel de control de ubicación y el alcance del flujo de trabajo necesario entre las actividades de almacén.  

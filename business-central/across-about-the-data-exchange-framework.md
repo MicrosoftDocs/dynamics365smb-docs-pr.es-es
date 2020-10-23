@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/21/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4de0dcb271578cf61c8e61c7cffe81cd0dea980a
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 08bffeba15c2f8ab3251030795c845d36a131d16
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783781"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914469"
 ---
 # <a name="about-the-data-exchange-framework"></a>Acerca del marco de intercambio de datos
 

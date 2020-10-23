@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 05a41839035c271b1f3e8c94d76702f1384d5025
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 0e3f5f489822cef693242c46a47d84f429af0706
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3529043"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926952"
 ---
 # <a name="project-management"></a>Administración de proyectos
 En [!INCLUDE[d365fin](includes/d365fin_md.md)], puede realizar tareas habituales de administración de proyectos, como configurar un proyecto y programar un recurso, así como proporcionar la información necesaria para administrar presupuestos y supervisar el progreso. Puede hacer un seguimiento de las horas de máquina y de empleados del proyecto utilizando las hojas de horas. Como administrador de proyectos, dispone de una buena visión general no solo de proyectos individuales, sino también de la asignación de empleados, maquinaria y otros recursos que se estén usando en todos los proyectos.

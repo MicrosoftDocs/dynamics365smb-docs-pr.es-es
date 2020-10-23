@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 663d1c846e957be1b3d85a95a56a6f7f6cc940e8
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 7e2c8aeda1d71c7f01e7999dd540ce9194806dc5
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787326"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917306"
 ---
 # <a name="design-details-production-order-posting"></a>Detalles de diseño: Registro de órdenes de producción
 Al igual que el registro de pedido de ensamblado, se convierten los componentes consumidos y el tiempo de máquina usado, y se envían como el producto fabricado cuando finaliza la orden de producción. Para obtener más información, consulte [Detalles de diseño: Registro de pedidos de ensamblado](design-details-assembly-order-posting.md). No obstante, el flujo del coste para los pedidos de ensamblado es menos complejo, especialmente porque el registro de coste de ensamblado solo se produce una vez, y por tanto que no genera un inventario de trabajo en curso.
@@ -44,10 +44,10 @@ Dependiendo del tipo de inventario, los aumentos y las disminuciones se represen
 
 ||Aumentos|Disminuciones|  
 |-|---------------|---------------|  
-|**Inventario de materias primas**|-   Compras netas de material<br />-   Salida de productos semiterminados<br />-   Consumo negativo|Consumo de material|  
-|**Inventario WIP**|-   Consumo de material<br />-   Consumo de capacidad<br />-   Cost. gen. fabricación|Salida de productos finales (coste de los productos fabricados)|  
+|**Inventario de materias primas**|-   Compras netas de material<br />-   Salida de subensamblados<br />-   Consumo negativo|Consumo de material|  
+|**Inventario WIP**|-   Consumo de material<br />-   Consumo de capacidad<br />-   Gastos generales de fabricación|Salida de productos finales (coste de los productos fabricados)|  
 |**Inventario de productos terminados**|Salida de productos finales (coste de los productos fabricados)|-   Ventas (coste de productos vendidos)<br />-   Salida negativa|  
-|**Inventario de materias primas**|-   Compras netas de material<br />-   Salida de productos semiterminados<br />-   Consumo negativo|Consumo de material|  
+|**Inventario de materias primas**|-   Compras netas de material<br />-   Salida de subensamblados<br />-   Consumo negativo|Consumo de material|  
 
 Los valores de entradas y salidas de existencias se registran en los distintos tipos de inventario fabricado de la misma forma que para el inventario comprado. Cada vez que se produzca una entrada o una salida de existencias se crea un movimiento de producto y un movimiento de contabilidad correspondiente para el importe. Para obtener más información, consulte [Detalles de diseño: Registro de inventario](design-details-inventory-posting.md).  
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/03/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 36dfeee0f4180a6fd427c3d9c4caa65ad07883f5
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 3dd124807d3d6ce3a775d18dcd88a8251b0feb30
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783429"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924183"
 ---
 # <a name="correct-prepayments"></a>Corregir prepagos
 

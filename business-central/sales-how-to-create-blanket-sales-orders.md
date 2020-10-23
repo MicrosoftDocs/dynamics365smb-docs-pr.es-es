@@ -1,6 +1,6 @@
 ---
-title: Cómo crear pedidos de venta abiertos | Documentos de Microsoft
-description: Utilice los pedidos abiertos cuando un cliente ha acordado comprar grandes cantidades que se van a entregar en varios envíos más pequeños durante un periodo de tiempo determinado.
+title: Trabajar con pedidos abiertos de venta o pedidos de compra
+description: Utilice los pedidos abiertos cuando un cliente ha acordado comprar grandes cantidades que se van a entregar en varios envíos más pequeños durante un periodo de tiempo determinado. Lo mismo se aplica a las compras.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,17 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f2e5ed9ad2d85e011162eaf8706c41a0935a73e6
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d3202f380da6b58ba30fa301c7ea6a24efb91cf5
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788980"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925927"
 ---
-# <a name="work-with-blanket-sales-orders"></a>Trabajar con pedidos de venta abiertos
-Los pedidos abiertos de venta constituyen un marco de trabajo para establecer un acuerdo a largo plazo con un cliente.
+# <a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a>Trabajar con pedidos abiertos de venta o pedidos abiertos de compra
+
+Los pedidos abiertos de venta constituyen un marco de trabajo para establecer un acuerdo a largo plazo con un cliente. De manera similar, utilice pedidos abiertos de compra para administrar contratos a largo plazo entre usted y su proveedor.
 
 Normalmente, un pedido abierto se utiliza cuando un cliente se ha comprometido a comprar grandes cantidades que se van a entregar en varios envíos más pequeños durante un periodo de tiempo determinado. A menudo, los pedidos abiertos sólo incluyen un producto con fechas de entrega predeterminadas. El motivo principal para utilizar un pedido abierto en lugar de un pedido de venta es que las cantidades especificadas en un pedido abierto no afectan a la disponibilidad de los productos y, así, se puede utilizar como hoja de trabajo con fines de supervisión, previsión y planificación.
 
@@ -94,7 +95,8 @@ El vínculo entre el pedido abierto de venta y el pedido de venta de origen, y c
 5. En la página **Líneas de venta**, seleccione la acción **Mostrar documento** para ver la entrada.
 
 ## <a name="see-also"></a>Consulte también
-[Ventas](sales-manage-sales.md)
+
+[Ccial](sales-manage-sales.md)  
 [Crear pedidos abiertos ensamblados](assembly-how-to-create-blanket-assembly-orders.md)  
 [Configuración de ventas](sales-setup-sales.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

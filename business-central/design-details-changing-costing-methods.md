@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: costing methods, costing, item cost
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 0560e2bf900af4b49d0ce299dfa751a5c41ea54e
-ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
+ms.openlocfilehash: 344aa53f965f832d8e7fb2abd3431a1853105c8c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3617736"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917531"
 ---
 # <a name="design-details-change-the-costing-method-for-items"></a>Detalles de diseño: Cambiar la valoración de existencias para productos
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture, region, regional settings
-ms.date: 06/17/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: da2ea0e51ef65eb432cc67f36db230bfea178c03
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: d47214392e3c0e48f436475a79407a752a95583d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528668"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914569"
 ---
 # <a name="changing-language-and-region"></a>Cambiar idioma y región
 
@@ -26,7 +26,7 @@ Por ejemplo, si utiliza la versión canadiense de [!INCLUDE[d365fin](includes/d3
 Para cambiar el idioma de la interfaz de usuario, vaya a la página **Mi configuración**. Para obtener más información, consulte [Cambiar configuración básica](ui-change-basic-settings.md#language). 
 
 > [!NOTE]  
-> La elección de idiomas se restablecerá a su configuración en su perfil de Office 365 si su administrador sincroniza usuarios de Office 365 a [!INCLUDE[d365fin](includes/d365fin_md.md)].
+> La elección de idiomas se restablecerá a su configuración en su perfil de Microsoft 365 si su administrador sincroniza usuarios de Microsoft 365 a [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 Cambiar los textos que se almacenan como datos de la aplicación no forma parte de la capacidad multi-idioma. Es una cuestión de diseño de la aplicación. Algunos ejemplos de textos son los nombres de los productos de las existencias o los comentarios para un cliente. Es decir, estos tipos de texto no se traducen.  
 
@@ -36,7 +36,7 @@ Cambiar los textos que se almacenan como datos de la aplicación no forma parte 
 ## <a name="changing-the-region"></a>Cambiar de configuración regional
 La configuración regional es distinta del idioma y los requisitos legales en mercados local. La región determina cómo la información se muestra en términos de separador de comas, alineación a la izquierda o a la derecha, y algunos otros valores. La región también determinará algunos de los productos del sistema en el explorador, como la acción para crear un producto nuevo en una lista, por ejemplo.  
 
-Puede cambiar configuración regional de la pestaña del explorador que utiliza para trabajar [!INCLUDE[d365fin](includes/d365fin_md.md)]. el cambio sólo se aplica a usted y no a los demás usuarios en la empresa.  Tenga en cuenta que la elección de la región se restablecerá a su configuración en su perfil de Office si su administrador sincroniza usuarios de Office 365 a [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Puede cambiar configuración regional de la pestaña del explorador que utiliza para trabajar [!INCLUDE[d365fin](includes/d365fin_md.md)]. el cambio sólo se aplica a usted y no a los demás usuarios en la empresa.  Tenga en cuenta que la elección de la región se restablecerá a su configuración en su perfil de Office si su administrador sincroniza usuarios de Microsoft 365 a [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 > [!IMPORTANT]  
 >  Cuando modifica la configuración regional, aparecerá una lista de larga idiomas de y regiones. Sin embargo, el idioma no está influenciado por la elección de la región.  

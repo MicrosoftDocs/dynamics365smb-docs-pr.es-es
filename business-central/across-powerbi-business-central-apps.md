@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: b4430118eb8075ceded16bdc375479e61a132f96
-ms.sourcegitcommit: aeaa0dc64e54432a70c4b0e1faf325cd17d01389
+ms.openlocfilehash: 292f78f16b77940fa16a6ffc25bd79dbca0684e3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3697789"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915865"
 ---
 # <a name="using-the-prodshort-apps-in-power-bi"></a>Uso de aplicaciones de [!INCLUDE [prodshort](includes/prodshort.md)] en Power BI
 

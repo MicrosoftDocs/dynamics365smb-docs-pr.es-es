@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 07/24/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7e08a4487c9ae6782555530adc0c0cf4cfc5458e
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 5c67ea33937ded164626e4c403522a7dc1f3dca0
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786901"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912576"
 ---
 # <a name="sorting-searching-and-filtering"></a>Ordenar, buscar y filtrar
 

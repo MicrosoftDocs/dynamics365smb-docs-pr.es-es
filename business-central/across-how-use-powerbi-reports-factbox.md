@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 5d3acaf05952a61845eb8bb72b2556f2e54f8208
-ms.sourcegitcommit: aeaa0dc64e54432a70c4b0e1faf325cd17d01389
+ms.openlocfilehash: 04c0c5d203e78c2ae0be48609a5ee90f45b83c6f
+ms.sourcegitcommit: 0fb6952376d853a878ed33257e73aadc03b95572
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3697703"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "3968390"
 ---
 # <a name="creating-power-bi-reports-for-displaying-list-data-in-prodshort"></a>Crear informes de Power BI para mostrar datos de lista en [!INCLUDE[prodshort](includes/prodshort.md)]
 
@@ -36,15 +36,15 @@ Especifique la fuente de datos que contiene los datos relacionados con la lista.
 
 Para hacer que los datos se actualicen en el registro seleccionado en la lista, agregue un filtro al informe. El filtro debe incluir un campo de la fuente de datos que se utiliza como *Clave primaria*. En la mayoría de los casos, la clave primaria de una lista es **Nº** .
 
-Para definir un filtro para el informe, seleccione la clave primaria en la lista de campos disponibles y, a continuación, arrastre y suelte el campo en la sección **Filtro de informe**. El filtro debe ser un filtro de informe básico. No puede ser un filtro de página, visual o avanzado. 
+Para definir un filtro para el informe, seleccione la clave primaria en la lista de campos disponibles y, a continuación, arrastre y suelte el campo en la sección **Filtro de informe**. El filtro debe ser un filtro de informe básico definido para todas las páginas. No puede ser un filtro de página, visual o avanzado.
 
-![Configurar el filtro para el informe Actividad de facturas de venta](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-filter.png)
+![Configurar el filtro para el informe Actividad de facturas de venta](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-filter-v3.png)
 
 ## <a name="setting-the-report-size-and-color"></a>Configurar el tamaño y el color del informe
 
 El tamaño del informe se debe configurar en 325 píxeles por 310 píxeles. Este tamaño proporciona el escalado correcto del informe en el espacio disponible del control del cuadro informativo de Power BI en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para definir el tamaño del informe, coloque el enfoque fuera del área de diseño de informe y, a continuación, elija el icono de rodillo de pintura.
 
-![Configurar la anchura y la altura para el informe Actividad de facturas de venta](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-sizing.png)
+![Configurar la anchura y la altura para el informe Actividad de facturas de venta](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-sizing-v3.png)
 
 Puede cambiar el ancho y el alto del informe eligiendo **Personalizado** en el campo **Tipo**.
 

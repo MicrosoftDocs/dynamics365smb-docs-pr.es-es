@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/30/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: b46786b60d7c5799b056c49188785bd595db57ff
-ms.sourcegitcommit: 866f0e6ed9df3397072b9df838e31c3a1f4b626d
+ms.openlocfilehash: 98105cb3e3634169b31a850f20a65a3854b006b4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "3333913"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911560"
 ---
 # <a name="managing-database-access-intent"></a>Gestionar la intención de acceso a la base de datos 
 

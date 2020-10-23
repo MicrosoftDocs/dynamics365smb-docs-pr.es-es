@@ -7,13 +7,13 @@ ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.date: 02/03/2020
-ms.openlocfilehash: 5f914904aaa1ec568b396a830ebc18a0fe4e40c1
-ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
+ms.date: 10/01/2020
+ms.openlocfilehash: 9148217400da88506e41b460157fe00be596a7c5
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "3693029"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911679"
 ---
 # <a name="handling-missing-option-values"></a>Administración de valores de opciones que faltan
 [!INCLUDE[d365fin](includes/cds_long_md.md)] contiene solo tres campos de conjunto de opciones que contienen valores de opciones que puede asignar a campos [!INCLUDE[d365fin](includes/d365fin_md.md)] de tipo de opción<!-- Option type, not enum? @Onat can you vertify this? --> para sincronización automática. Durante la sincronización, las opciones no asignadas se ignoran y las opciones que faltan se anexan a la tabla [!INCLUDE[d365fin](includes/d365fin_md.md)] relacionada y se agregan la tabla de sistema **Asignación de opciones de CDS** para su administración manual más tarde. Por ejemplo, agregando las opciones que faltan en cualquiera de los productos y luego actualizando la asignación. Esta sección describe cómo funciona.

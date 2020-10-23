@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: scrap
-ms.date: 06/04/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 29293e957617fea91c9a8e8b8c1f988b06104494
-ms.sourcegitcommit: ccae3ff6aaeaa52db9d6456042acdede19fb9f7b
+ms.openlocfilehash: 9a155c5b2f616963da34c4d512bcc0f52623f58b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "3435212"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920727"
 ---
 # <a name="dispose-of-or-retire-fixed-assets"></a>Cancelar o retirar activos fijos
 
@@ -45,8 +45,8 @@ En el momento de vender o dar de baja un activo, el valor de venta o baja se reg
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Activos fijos** y luego elija el enlace relacionado.  
 2. Seleccione el activo en el que desea ver los movimientos y, a continuación, elija la acción **Libros amortización**.  
 3. Seleccione el libro de amortización en el que desea ver los movimientos y, a continuación, elija la acción **Movimientos**.  
-4. Seleccione una línea con **Venta/baja** en el campo **A/F Categoría registro**, y a continuación seleccione la acción **Navegar**.  
-5. En la página **Navegar**, seleccione la línea del movimiento de contabilidad y, a continuación, seleccione la acción **Mostrar**.  
+4. Seleccione una línea con **Venta/baja** en el campo **A/F Categoría registro**, y a continuación elija la acción **Buscar entradas**.  
+5. En la página **Buscar movimientos**, seleccione la línea del movimiento de contabilidad y, a continuación, seleccione la acción **Mostrar movimientos relacionados**.  
 
 La página **Movs. contabilidad** se abre y puede ver los movimientos que se produjeron al registrar la venta/baja.  
 
@@ -57,4 +57,5 @@ La página **Movs. contabilidad** se abre y puede ver los movimientos que se pro
 [Para configurar los grupos contables de activos fijos](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).  
 [Finanzas](finance.md)  
 [Introducción](product-get-started.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Buscar movimientos](ui-find-entries.md)  

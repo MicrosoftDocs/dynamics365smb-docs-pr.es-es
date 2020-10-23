@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: rfq
-ms.date: 05/28/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a655768234c262ff98a753b28dfbbd53d1bc1749
-ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
+ms.openlocfilehash: 6b0cf72609a180d271604dd276f840efbc6b1aa6
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410697"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910660"
 ---
 # <a name="track-packages"></a>Hacer un seguimiento de los paquetes
 

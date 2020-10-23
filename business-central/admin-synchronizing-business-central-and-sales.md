@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 2c7b7c4175f4c17e01c114f76d0b14834e0409ae
-ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
+ms.openlocfilehash: 9d3f4e86a0da5c26a84ca79b1712f2f240e347a2
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3617709"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922447"
 ---
 # <a name="synchronizing-data-in-business-central-with-common-data-service"></a>Sincronización de datos en Business Central con Common Data Service
 
@@ -42,6 +42,9 @@ Cuando la sincronización está configurada, puede emparejar registros de [!INCL
 Las entidades en [!INCLUDE[d365fin](includes/cds_long_md.md)], como las cuentas, se integran con tipos equivalentes de entidades en [!INCLUDE[d365fin](includes/d365fin_md.md)], como los clientes. Para trabajar con datos de [!INCLUDE[d365fin](includes/cds_long_md.md)] se establecen vínculos, llamados emparejamientos, entre entidades en [!INCLUDE[d365fin](includes/d365fin_md.md)] y [!INCLUDE[d365fin](includes/cds_long_md.md)].
 
 La siguiente tabla enumera la asignación estándar entre entidades en [!INCLUDE[d365fin](includes/d365fin_md.md)] y [!INCLUDE[d365fin](includes/cds_long_md.md)] que proporciona [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
+> [!TIP]
+> Puede restablecer los cambios de configuración realizados en la tabla de integración y las asignaciones de campo a su configuración predeterminada, seleccionando las asignaciones y luego eligiendo **Usar la configuración de sincronización predeterminada**.
 
 | [!INCLUDE[d365fin](includes/d365fin_md.md)] | [!INCLUDE[d365fin](includes/cds_long_md.md)] | Dirección de la sincronización | Filtro predeterminado |
 |---------------------------------------------|----------------------------------------------|---------------------------|----------------|

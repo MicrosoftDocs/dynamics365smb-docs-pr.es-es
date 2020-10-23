@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 07/24/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7e24351bb7382d01a060326ec8e592af555870a7
-ms.sourcegitcommit: edad0d0b129e916c2cfdfa9c4f8d9d83513f4fd1
+ms.openlocfilehash: 2f1b79cdf04075159b5e464e384bace89d9f933c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2020
-ms.locfileid: "3619389"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917806"
 ---
 # <a name="scheduling-a-synchronization-between-business-central-and-common-data-service"></a>Programación de una sincronización entre Business Central y Common Data Service
 

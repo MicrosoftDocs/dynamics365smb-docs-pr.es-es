@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 185e35e9b9f44e8cc18b10adf0dc359c3dce1ef0
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: b04f9edd37c96efb9ee6b215d85335c743de6214
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784237"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916323"
 ---
 # <a name="enable-workflows"></a>Activar flujos de trabajo
 Una vez que haya creado un flujo de trabajo y esté seguro de que está preparado para empezar, debe activar el flujo de trabajo.  

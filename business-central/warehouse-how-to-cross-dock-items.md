@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3be6378a803a422b420b0a0dd348dedc85ee4161
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: c67f55e1de336e7a191b1d10affe0134110a70b5
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779666"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923252"
 ---
 # <a name="cross-dock-items"></a>Productos de tránsito directo
 La funcionalidad de tránsito directo está disponible si ha configurado el almacén para requerir el proceso de recepción y ubicación.  

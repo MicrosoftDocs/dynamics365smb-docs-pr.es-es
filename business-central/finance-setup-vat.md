@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 07/21/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: bbaf458e39ec45dcbcb34bd50e38feb70fd8426b
-ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
+ms.openlocfilehash: fe12cf42dd2f7b763c5a2940e70f6db4617e1005
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "3611672"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919529"
 ---
 # <a name="set-up-value-added-tax"></a>Configurar el impuesto sobre el valor añadido
 

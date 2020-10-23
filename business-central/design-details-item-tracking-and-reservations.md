@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b0f671fc4c3a8b08d1bf9b21cef79ae35defb636
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: cb79b0538f4f55b2841815c23c4446d7c6278fb1
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787626"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922097"
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Detalles de diseño: Seguimiento de productos y reservas
 
@@ -36,10 +36,11 @@ La reserva de números de seguimiento de productos se divide en dos categorías,
 |No específico|No seleccione un determinado número de serie o de lote cuando reserve el producto de inventario de una demanda, como, por ejemplo, un pedido de venta.<br /><br /> Es un estado que se impone en un movimiento de reserva para los números de serie o de lote que no se han seleccionado específicamente. **Nota**: La demanda no incluye números de serie o de lote. <br /><br /> Por ejemplo, desea reservar una lata de pintura azul de cualquier lote para su pedido de venta. Se envía al cliente una lata de pintura azul de un número de serie o de lote aleatorio.|  
   
 La diferencia principal entre reserva específica y no específica se define por la existencia de números de serie o de lote en la demanda, tal como se muestra en la tabla siguiente.  
-  
-|<!--blank -->|**Suministro**|**Demanda**|  
-|Número de serie o lote |**específico**.|Número de serie o lote.|  
-|Número de serie o lote |**no específico**.|Sin número de serie o lote.|  
+
+| Escriba            | Aprovisionamiento                | Demanda                   |
+|-----------------|-----------------------|--------------------------|
+| **Específico**    | Número de serie o de lote. | Número de serie o de lote.    |
+| **No específico** | Número de serie o de lote. | Sin número de serie o de lote. |
   
 Cuando se reservan cantidades de inventario de una línea de documento de salida para un producto que tenga asignados números de seguimiento de producto y se haya configurado para el seguimiento de producto específico, la página **Reservas** le guiará por distintos flujos de trabajo según la necesidad de números de serie o de lote.  
   

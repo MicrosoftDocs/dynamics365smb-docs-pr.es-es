@@ -1,16 +1,16 @@
 ---
 title: Catálogo de aprendizaje de ventas y marketing para socios
-description: Encuentra todo el aprendizaje disponible para Business Central.
+description: Busque toda la formación disponible para los roles de marketing y ventas de socios en Business Central.
 author: loreleishannonmsft
-ms.date: 04/30/2020
+ms.date: 10/01/2020
 ms.topic: article
 ms.author: margoc
-ms.openlocfilehash: 4b6fd743dd65cacb3d3e9ffa91b46cb9cc69cbd1
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d0ab1b4894c9e8c586692e17210e8254eadb57eb
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781490"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926652"
 ---
 # <a name="partner-sales-and-marketing-learning-catalog"></a>Catálogo de aprendizaje de ventas y marketing para socios
 
@@ -22,7 +22,7 @@ El siguiente catálogo está organizado desde el conocimiento básico hasta domi
 
 | Contenido     | Descripción    | Formato                                | Longitud              |
 |-------------|----------------|---------------------------------------|---------------------|
-| [Dynamics 365 Business Central (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101760)                              | (Solo socios) Esta sesión describirá el valor de Business Central. Business Central ofrece un valor excelente porque se integra con otros servicios en la nube de Microsoft, incluido Office 365, y puede personalizarse o ampliarse para necesidades sectoriales específicas con Power Apps, Power Automate y Power BI. | Vídeo                                 | 8 minutos 5 segundos |
+| [Dynamics 365 Business Central (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101760)                              | (Solo socios) Esta sesión describirá el valor de Business Central. Business Central ofrece un valor excelente porque se integra con otros servicios en la nube de Microsoft, incluido Microsoft 365 y puede personalizarse o ampliarse para necesidades sectoriales específicas con Power Apps, Power Automate y Power BI. | Vídeo                                 | 8 minutos 5 segundos |
 | [Explorar las capacidades de Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/capabilities/) | Explorar las capacidades de Dynamics 365 Business Central    | Sitio web    |                     |
 | [Dynamics 365 Business Central](https://docs.microsoft.com/learn/modules/dynamics-365-business-central/)            | Este módulo muestra características de aplicación, beneficios y ejemplos de Dynamics 365 Business Central en acción.    | Ruta de aprendizaje en línea gratuito y a su propio ritmo | 24 minutos          |
 
@@ -43,7 +43,6 @@ El siguiente catálogo está organizado desde el conocimiento básico hasta domi
 | [Buscar historias de clientes](https://customers.microsoft.com/search?sq=%22Dynamics%20365%20Business%20Central%20%22&ff=&p=0&so=story_publish_date%20desc)  | Encuentre historias de referencia de clientes para Dynamics 365 Business Central en [https://customer.microsoft.com](https://customer.microsoft.com).  | Sitio web |                       |
 | [Programa Proveedor de soluciones en la nube](https://partner.microsoft.com/membership/cloud-solution-provider)    | (Solo socios) Acerca del programa Proveedor de soluciones en la nube     | Sitio web |                       |
 | [Marketing en un mundo en la nube](https://mbspartner.microsoft.com/OSS/Topic/19) | (Solo socios) El tratamiento de cómo optimizar sus prácticas de marketing y reajustar sus principios de marketing para un mundo en la nube será un factor primordial para determinar el éxito o el fracaso de su organización en el futuro. Esta serie de vídeos y recursos proporcionan las mejores prácticas de marketing, orientación para la creación de contenido, consejos pragmáticos y herramientas útiles para aplicar principios de marketing en la nube para impulsar la demanda de sus soluciones. | Página de tema | 35 minutos |
-| [Business Central](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4)        | (Solo socios) El tratamiento de cómo optimizar sus prácticas de marketing y reajustar sus principios de marketing para un mundo en la nube será un factor primordial para determinar el éxito o el fracaso de su organización en el futuro. Esta serie de vídeos y recursos proporcionan las mejores prácticas de marketing, orientación para la creación de contenido, consejos pragmáticos y herramientas útiles para aplicar principios de marketing en la nube para impulsar la demanda de sus soluciones.   | Página de tema    | 35 minutos            |
 | [Programa Proveedor de soluciones en la nube: venta de soluciones en la nube bajo demanda](https://docs.microsoft.com/partner-center/csp-overview)  | El programa Proveedor de soluciones en la nube (CSP) lo ayuda a ir más allá de la reventa de licencias para involucrarse más en el negocio de su cliente.   | Sitio web      |                       |
 | [Programa Proveedor de soluciones en la nube: comparación de los programas de asistencia a socios](https://partner.microsoft.com/support/partnersupport) | Vea este vídeo para saber cómo elegir el plan de asistencia a socios adecuado para su empresa. Después vea una comparación en paralelo a continuación.    | Sitio web                               |                       |
 | [Venta acelerada de SureStep en la nube](https://mbspartner.microsoft.com/OSS/Topic/20)  | (Solo socios) El proceso de venta acelerada de SureStep en la nube se basa en las necesidades del comprador moderno y se esfuerza por activar un punto de inflexión estratégico emocional y basado en la experiencia al inicio del proceso de venta. Esta serie de vídeos y recursos explica un proceso de venta prescriptivo que está específicamente diseñado para contrarrestar el enfoque tradicional de ventas de soluciones intensivas en recursos, "orientadas a la demostración" que generalmente lleva a demostraciones de productos muy personalizadas, ciclos de ventas complejos y proyectos de implementación largos. La biblioteca de recursos incluye una serie de plantillas personalizables para que pueda crear su propio conjunto de activos de ventas para respaldar las ventas aceleradas. | Sitio web     |                       |

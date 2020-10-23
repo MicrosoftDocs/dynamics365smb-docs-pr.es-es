@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item tracking, posting, inventory
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d7b5041ecca410616035fcd98df121ad924d405e
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 697b83fd7e6e2b220b2851d5a1770ed9f74a9bdd
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787501"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917381"
 ---
 # <a name="design-details-item-tracking-posting-structure"></a>Detalles de diseño: Estructura de registro de seguimiento de productos
 Para establecer la correspondencia con la funcionalidad de valoración de existencias y obtener una solución más simple y robusta, se usan los movimientos de producto como el soporte principal de los números de seguimiento de producto.  

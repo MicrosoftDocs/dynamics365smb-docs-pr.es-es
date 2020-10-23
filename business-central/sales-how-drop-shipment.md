@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: direct shipment
-ms.date: 08/17/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0c93b138762f5a01fc06e3577e7597facf7abb5c
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: add7cf9f2f274f50d0e187362b2e0c1bcc2fe8e0
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781765"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926277"
 ---
 # <a name="make-drop-shipments"></a>Realizar envíos directos
 

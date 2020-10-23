@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 07/22/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 783e93fd4b9c33a249556b75bc880daff0afd24b
-ms.sourcegitcommit: e22666f90262c7d2084ca6c74ca7d66652fc6df6
+ms.openlocfilehash: 23a90d6529da231194b80f75e570e106d66a99c6
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3617343"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922197"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Preparar informes financieros con esquemas de cuentas y categorías de cuentas
 

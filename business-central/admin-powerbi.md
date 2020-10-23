@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.reviewer: edupont
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: a1e2e8ceee41c2c6ed517d000fc7c3a4a6aa274c
-ms.sourcegitcommit: aeaa0dc64e54432a70c4b0e1faf325cd17d01389
+ms.openlocfilehash: e339033e8529f59f548e8bf71fd683f9a2a17eba
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3697677"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917881"
 ---
 # <a name="prodshort-and-power-bi"></a>[!INCLUDE[prodshort](includes/prodshort.md)] y Power BI
 
@@ -31,10 +31,10 @@ Hay varias funciones para trabajar con [!INCLUDE[prodshort](includes/prodshort.m
 
 |Característica|Descripción|Online|Local|Más información|
 |-------|-----------|--------------|-----------|----------------|
-|Ver datos de [!INCLUDE[prodshort](includes/prodshort.md)] en Power BI|Puede ver sus datos desde [!INCLUDE[prodshort](includes/prodshort.md)] en informes en Power BI. [!INCLUDE[prodshort](includes/prodshort.md)] online incluye algunos informes de Power BI predefinidos. O su organización puede haber puesto a su disposición algunos informes personalizados.|![comprobar](media/check.png)|![comprobar](media/check.png)|[Vea...](across-working-with-powerbi.md)|
-|Ver informes de Power BI en el cliente de [!INCLUDE[prodshort](includes/prodshort.md)].| Los informes de Power BI que muestran datos de [!INCLUDE[prodshort](includes/prodshort.md)] se pueden incrustar directamente en las páginas de partes de [!INCLUDE[prodshort](includes/prodshort.md)]. Puede cambiar la parte para mostrar cualquier informe que esté disponible para usted. |![comprobar](media/check.png)|![comprobar](media/check.png)<sup>[*](#onprem)</sup>|[Vea...](across-working-with-business-central-in-powerbi.md).|
-|Cree informes y paneles en Power BI que muestren datos de [!INCLUDE[prodshort](includes/prodshort.md)].|Utilice Power BI Desktop para crear sus propios informes y paneles. Puede publicar los informes en su propio servicio de Power BI o compartirlos con otros en su organización.|![comprobar](media/check.png)|![comprobar](media/check.png)|[Vea...](across-how-use-financials-data-source-powerbi.md)
-|Aplicaciones de [!INCLUDE[prodshort](includes/prodshort.md)] en Power BI| [!INCLUDE[prodshort](includes/prodshort.md)] publica tres aplicaciones para Power BI en Microsoft AppSource. Estas aplicaciones crean informes y paneles detallados en su servicio de Power BI para ver datos de [!INCLUDE[prodshort](includes/prodshort.md)]. Las aplicaciones disponibles incluyen: <ul><li>[!INCLUDE [prodlong](includes/prodlong.md)] - CRM </li><li>[!INCLUDE [prodlong](includes/prodlong.md)] - Finance </li><li>[!INCLUDE [prodlong](includes/prodlong.md)] - Sales </li></ul>  |![comprobar](media/check.png)||[Vea...](across-powerbi-business-central-apps.md)
+|Ver datos de [!INCLUDE[prodshort](includes/prodshort.md)] en Power BI|Puede ver sus datos desde [!INCLUDE[prodshort](includes/prodshort.md)] en informes en Power BI. [!INCLUDE[prodshort](includes/prodshort.md)] online incluye algunos informes de Power BI predefinidos. O su organización puede haber puesto a su disposición algunos informes personalizados.|![Trabaja en línea](media/check.png)|![Trabaja localmente](media/check.png)|[Vea...](across-working-with-powerbi.md)|
+|Ver informes de Power BI en el cliente de [!INCLUDE[prodshort](includes/prodshort.md)].| Los informes de Power BI que muestran datos de [!INCLUDE[prodshort](includes/prodshort.md)] se pueden incrustar directamente en las páginas de partes de [!INCLUDE[prodshort](includes/prodshort.md)]. Puede cambiar la parte para mostrar cualquier informe que esté disponible para usted. |![trabaja en línea](media/check.png)|![Trabaja localmente](media/check.png)<sup>[*](#onprem)</sup>|[Vea...](across-working-with-business-central-in-powerbi.md).|
+|Cree informes y paneles en Power BI que muestren datos de [!INCLUDE[prodshort](includes/prodshort.md)].|Utilice Power BI Desktop para crear sus propios informes y paneles. Puede publicar los informes en su propio servicio de Power BI o compartirlos con otros en su organización.|![Trabaja en línea](media/check.png)|![trabaja localmente](media/check.png)|[Vea...](across-how-use-financials-data-source-powerbi.md)
+|Aplicaciones de [!INCLUDE[prodshort](includes/prodshort.md)] en Power BI| [!INCLUDE[prodshort](includes/prodshort.md)] publica tres aplicaciones para Power BI en Microsoft AppSource. Estas aplicaciones crean informes y paneles detallados en su servicio de Power BI para ver datos de [!INCLUDE[prodshort](includes/prodshort.md)]. Las aplicaciones disponibles incluyen: <ul><li>[!INCLUDE [prodlong](includes/prodlong.md)] - CRM </li><li>[!INCLUDE [prodlong](includes/prodlong.md)] - Finance </li><li>[!INCLUDE [prodlong](includes/prodlong.md)] - Sales </li></ul>  |![Trabaja en línea](media/check.png)||[Vea...](across-powerbi-business-central-apps.md)
 
 <a name="onprem"><sup>*</sup></a> Esta función requiere una aplicación registrada para Business Central en Microsoft Azure. Para más información, ver [Registro de Business Central en las instalaciones en Azure AD para la integración con otros servicios](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
 

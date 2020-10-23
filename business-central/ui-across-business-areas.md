@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 774c45d50ac56cb0e950ea8687ee86d24cfb9b0a
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 2382fa440c67881411fe67e596a62aaf5d431426
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782598"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912751"
 ---
 # <a name="general-business-functionality"></a>Funciones empresariales generales
 [!INCLUDE[d365fin](includes/d365fin_md.md)] proporciona funciones dedicadas para las áreas habituales comerciales, como finanzas y ventas. Para obtener más información, consulte [Funciones empresariales](across-business-functionality.md).

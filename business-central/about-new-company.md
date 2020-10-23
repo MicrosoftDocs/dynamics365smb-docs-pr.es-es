@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: company, setup wizard
-ms.date: 07/03/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4247b6c34fd086d22291408d1058cf8718841888
-ms.sourcegitcommit: ca5bf1d934997ef8c0bc9f8ab0e5568f0ed42fa4
+ms.openlocfilehash: 891718f35c2d2edfe4e4956a2de4124d77749b2b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "3535289"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914535"
 ---
 # <a name="creating-new-companies-in-d365fin"></a>Crear nuevas en empresas en [!INCLUDE[d365fin](includes/d365fin_md.md)]
 

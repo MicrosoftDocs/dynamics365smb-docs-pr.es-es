@@ -1,21 +1,21 @@
 ---
 title: Compartir contactos entre Business Central y Outlook | Microsoft Docs
-description: Este servicio tiene una integración profunda con Office 365 para que pueda compartir contactos entre Outlook y Business Central.
+description: Este servicio tiene una integración profunda con Microsoft 365 para que pueda compartir contactos entre Outlook y Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: contacts, Office 365
-ms.date: 04/01/2020
+ms.search.keywords: contacts, Microsoft 365
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f7cf42a003e68d68bf29a3623e9573f6e33eed4b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c475f837d81f7b035e06ff29eef334fd974726cd
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186625"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922497"
 ---
 # <a name="synchronize-contacts-in-business-central-with-contacts-in-microsoft-outlook"></a>Sincronizar los contactos de Business Central con los de Microsoft Outlook
 Puede ver los mismos contactos en [!INCLUDE[d365fin](includes/d365fin_md.md)] que en Outlook si configura la sincronización de contactos. Por ejemplo, si es un vendedor, puede hacer parte de su trabajo en Outlook y parte de su trabajo en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Si los contactos son los mismos en ambos lugares, su trabajo es más sencillo.  
@@ -23,7 +23,7 @@ Puede ver los mismos contactos en [!INCLUDE[d365fin](includes/d365fin_md.md)] qu
 Una carpeta dedicada en Outlook hace que los contactos sean fáciles de encontrar, y puede establecer un filtro para sincronizar solo los contactos de [!INCLUDE[d365fin](includes/d365fin_md.md)] que desea ver en Outlook. Una vez que se establece la sincronización de contactos, puede iniciarla manualmente o configurarla para que sea automática y mantenga los contactos sincronizados de forma programada.  
 
 ## <a name="set-up-synchronization"></a>Configurar sincronización
-Configure cómo quiere sincronizar los contactos con Outlook en la página **Configuración de la sincronización de Exchange** en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Como requisito previo, su perfil de usuario en [!INCLUDE[d365fin](includes/d365fin_md.md)] debe especificar su cuenta de correo electrónico de Office 365. Puede verificarlo en la sección **Autenticación de Office 365** de su perfil de usuario en la lista **Usuarios**.  
+Configure cómo quiere sincronizar los contactos con Outlook en la página **Configuración de la sincronización de Exchange** en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Como requisito previo, su perfil de usuario en [!INCLUDE[d365fin](includes/d365fin_md.md)] debe especificar su cuenta de correo electrónico de Microsoft 365. Puede verificarlo en la sección **Autenticación de Microsoft 365** de su perfil de usuario en la lista **Usuarios**.  
 
 Luego, en la página **Configuración de la sincronización de Exchange**, puede validar que la conexión a Exchange está funcionando y luego configurar la sincronización de contactos. Abra la página **Configuración de sincronización de contactos** e inicie la sincronización. Opcionalmente, establezca un filtro para los contactos que desea sincronizar entre [!INCLUDE[d365fin](includes/d365fin_md.md)] y Outlook. Por ejemplo, puede establecer un filtro en nombre, tipo, compañía o similar. También puede cambiar el nombre predeterminado de la carpeta en la que se sincronizarán los contactos en Outlook. El nombre predeterminado es *Business Central*.  
 
@@ -38,13 +38,13 @@ En la lista **Contactos**, puede sincronizar contactos de dos maneras:
 
 * **Sincronizar con Office 365**
 
-  Esta acción sincronizará todos los cambios de [!INCLUDE[d365fin](includes/d365fin_md.md)] a Office 365 desde la sincronización anterior, en función de la última fecha de modificación. Todos los contactos nuevos de Office 365 se sincronizarán nuevamente a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Esto típicamente es más rápido que hacer una sincronización completa.  
+  Esta acción sincronizará todos los cambios de [!INCLUDE[d365fin](includes/d365fin_md.md)] a Microsoft 365 desde la sincronización anterior, en función de la última fecha de modificación. Todos los contactos nuevos de Microsoft 365 también de vuelta a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Esto típicamente es más rápido que hacer una sincronización completa.  
 
 * **Sincronización completa con Office 365**
 
   Esta acción sincroniza todos los contactos en ambas direcciones, independientemente de la fecha de la última sincronización y la fecha de última modificación.  
 
-En ambos casos, los contactos solo se sincronizan desde Outlook si tienen rellenos los campos obligatorios. Los campos obligatorios para sincronizar a Office 365 son **Nombre**, **Dirección de correo electrónico** y deben ser de tipo Persona. [!INCLUDE[d365fin](includes/d365fin_md.md)] es el maestro de la información de contacto, por lo que la información de contacto de [!INCLUDE[d365fin](includes/d365fin_md.md)] se guardará en caso de duplicados.  
+En ambos casos, los contactos solo se sincronizan desde Outlook si tienen rellenos los campos obligatorios. Los campos obligatorios a sincronizar con Microsoft 365 son **Nombre** y **Dirección de correo electrónico**, y deben ser de tipo Persona. [!INCLUDE[d365fin](includes/d365fin_md.md)] es el maestro de la información de contacto, por lo que la información de contacto de [!INCLUDE[d365fin](includes/d365fin_md.md)] se guardará en caso de duplicados.  
 
 En Outlook, los contactos de [!INCLUDE[d365fin](includes/d365fin_md.md)] se muestran en una carpeta en **Otros contactos** en la vista **Personas**. Si no está familiarizado con la vista Personas en Outlook, puede acceder a ella desde las opciones de navegación en la esquina inferior izquierda de Outlook.  
 

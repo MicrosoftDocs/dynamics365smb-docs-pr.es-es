@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5b44648e169d9692e0124c79d170eab1fa9087a1
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 03ad2bea6ed87b5f27bea9210a03c8760c87ffcf
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784464"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910160"
 ---
 # <a name="set-up-work-hours-and-service-hours"></a>Configurar horas de trabajo y de servicio
 Normalmente, un sistema de gestión de servicios realiza un seguimiento de horas de recursos y del estado del pedido de servicio para prever cargas de trabajo y necesidades de servicio. [!INCLUDE[d365fin](includes/d365fin_md.md)] incorpora herramientas que puede personalizar para registrar este tipo de información.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0a7dadf797d190dff2c63bf406820304acc4bad0
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 513518f7e76fcdbb43563d225c683a8bd97e5e4e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788101"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917456"
 ---
 # <a name="codeunit-12-changes-mapping-global-variables-for-general-journal-post-line"></a>Cambios en codeunit 12 cambios: asociación de variables globales para línea de registro en diario general
 En esta versión de [!INCLUDE[d365fin](includes/d365fin_md.md)] se han implementado los siguientes cambios.  

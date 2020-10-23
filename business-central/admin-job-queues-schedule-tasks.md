@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 09/09/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6816ba11203e697ff833b9ea96aa85139fbcffe9
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 5e8c611ed5d542436f470781c92d17095ecd1f5d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783606"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924583"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Uso de colas de proyectos para programar tareas
 

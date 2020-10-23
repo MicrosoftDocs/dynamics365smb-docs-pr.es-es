@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/21/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 69f07994b6aab5444dfeb2d0adb23945a72f2524
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 236325c45ccfb8f824341778c2ac06646a3957d3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785351"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921152"
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Configurar el envío y la recepción de documentos electrónicos
 

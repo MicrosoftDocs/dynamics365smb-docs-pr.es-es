@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5037168780e14d7774843223726bb6092ff2d306
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 93d1fffed38ce57e76b6451be071700c1ce07b2c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778265"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925510"
 ---
 # <a name="save-and-personalize-list-views"></a>Guardar y personalizar vistas de lista
 Cuando haya establecido un filtro en una lista y desee conservar el filtro para más adelante, puede guardarlo como una vista. Para obtener más información sobre el filtrado de listas, consulte [Configuración de filtros en listas](ui-enter-criteria-filters.md#setting-filters-on-lists).

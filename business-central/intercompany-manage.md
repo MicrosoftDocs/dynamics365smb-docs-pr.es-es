@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0499ad80020293e73879061a7bc5f8dfdb3c043c
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 070ffe0a25791f8fee51e0e4279a3886a3f18135
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780115"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924033"
 ---
 # <a name="managing-intercompany-transactions"></a>Gestión de transacciones entre empresas vinculadas
 Su organización puede estar formada por varias empresas, pero puede no tener un número equivalente de departamentos de contabilidad y administrativos. La funcionalidad de empresas vinculadas le permite hacer transacciones con las subsidiarias y con otras organizaciones asociadas de la misma forma que con sus clientes y proveedores. La información sobre las transacciones entre empresas vinculadas sólo se introduce una vez en los documentos correspondientes. Puede usar las funciones que ya conoce, por ejemplo la gestión de cobros y pagos. Las opciones de asignación del plan de cuentas y las dimensiones contribuyen a garantizar que la información se muestra en los lugares correctos.  

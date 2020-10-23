@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: API, extension, Cognitive Services, image, computer vision, attribute, tag, recognition
-ms.date: 07/21/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: e2099599edcf5217b0130e75bbb171fddd39839e
-ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
+ms.openlocfilehash: 4946eb43dd854f8f04b0c267a9ba1bc328cc62bb
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "3611464"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915140"
 ---
 # <a name="the-image-analyzer-extension"></a>Extensión del analizador de imágenes
 

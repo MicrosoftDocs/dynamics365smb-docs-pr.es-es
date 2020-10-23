@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream
-ms.date: 06/16/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a8c055dcca0c529ff62e32efa00bff359466aaba
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: bf310ff190682b22ffe81d0ad3072b3bdc8803b7
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779816"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921077"
 ---
 # <a name="set-up-bank-accounts"></a>Configurar bancos
 Las cuentas bancarias se utilizan en [!INCLUDE[d365fin](includes/d365fin_md.md)] para hacer un seguimiento de las transacciones bancarias. Los bancos pueden expresarse en la divisa local (DL) o en una extranjera. Cuando haya configurado todos los bancos, puede utilizar también la opción de impresión de cheques.<br><br>  
@@ -46,7 +46,7 @@ Los campos de la ficha desplegable **Transferencia** en la página **Ficha banco
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Proveedores** y luego elija el enlace relacionado.
 2. Abra la ficha de un proveedor a cuya cuenta bancaria exportará los archivos bancarios de pagos.
-3. Elija **Navegar** y luego elija la acción **Cuentas bancarias**.
+3. Elija la acción **Cuentas bancarias**.
 4. Desde la **Lista de cuentas bancarias de proveedores**, elija la cuenta bancaria relevante o agregue una nueva cuenta bancaria.  
 5. En la página **Ficha banco proveedor** de la ventana **Transferencia**, complete los campos como sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 

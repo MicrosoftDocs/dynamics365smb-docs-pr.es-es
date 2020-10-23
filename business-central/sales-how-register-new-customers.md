@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
-ms.date: 06/24/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3e25756cff974e0db835f5e3ed3247dff6d7624a
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 67bae862e702bb2c0ca4798d9d3699b8419f823f
+ms.sourcegitcommit: 0fb6952376d853a878ed33257e73aadc03b95572
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780889"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "3968442"
 ---
 # <a name="register-new-customers"></a>Permite registrar nuevos clientes
 
@@ -62,7 +62,7 @@ La plantilla de cliente se agrega a la lista de plantillas de cliente, de modo q
 
 ## <a name="deleting-customer-cards"></a>Eliminar fichas cliente
 
-Si ha publicado una transacción para un cliente, no puede eliminar la ficha porque los movimientos pueden ser necesarias para la auditoría. Para eliminar fichas cliente con movimientos, póngase en contacto con el socio de Microsoft para hacerlo a través del código.  
+Si ha publicado una transacción para un cliente, no puede eliminar la ficha porque los movimientos pueden ser necesarias para la auditoría. Para eliminar fichas de cliente con movimientos, póngase en contacto con su socio de Microsoft para hacerlo mediante código.  
 
 ## <a name="see-also"></a>Consulte también
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
-ms.date: 06/25/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: f12d12bf4fb6a12a0abe52101f30a16a182bd1b2
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 65331f8c60c57bd87e3a459012a9a5678d033790
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528215"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920580"
 ---
 # <a name="report-vat-to-tax-authorities"></a>Crear informes de IVA para las autoridades fiscales
 En este tema se describen los informes de [!INCLUDE[d365fin](includes/d365fin_md.md)] que puede utilizar para enviar información sobre importes del IVA (IVA) para ventas y compras a las autoridades fiscales de su región. 

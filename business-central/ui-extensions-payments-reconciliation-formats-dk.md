@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, bank, formats
-ms.date: 06/19/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7e8a56492c1c848f4f3b371e1411c11f159c3cf3
-ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
+ms.openlocfilehash: 1afd60dc4c9c86b476c3c2c80974ce805b19a4ca
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "3496755"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912326"
 ---
 # <a name="the-payments-and-reconciliations-dk-extension"></a>Extensión de pagos y conciliaciones (DK)
 

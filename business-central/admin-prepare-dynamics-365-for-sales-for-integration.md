@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7132a32a37844078b696af5e8d19bf951460a2e2
-ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
+ms.openlocfilehash: e93d36c2767bc43444b5b23471b6d0aaa0c84adf
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3617659"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917831"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Integración con Dynamics 365 Sales
 

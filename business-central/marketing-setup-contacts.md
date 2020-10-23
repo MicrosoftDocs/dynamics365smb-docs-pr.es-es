@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 82b5ec1e1be1cf39b2b1f0c55cefbedc259a0d41
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 3096bdcdf7ed6570e28d0e636b7dc8f1b28113c4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781540"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916073"
 ---
 # <a name="set-up-contacts"></a>Configuración de contactos
 Al crear contactos, puede especificar información como, por ejemplo, la industria a la que pertenecen y sus relaciones de negocio con los contactos.
@@ -149,7 +149,7 @@ La herencia de campos sobrescribe los valores predeterminados en la configuraci�
 ## <a name="synchronizing-contacts-with-customers-vendors-and-bank-accounts"></a>Sincronizar contactos con clientes, proveedores y cuentas bancarias
 Para sincronizar la ficha de contacto con un cliente, proveedor o tarjeta de cuenta bancaria vinculados, debe completar el campo correspondiente en la sección **Cód. relac. negoc. para** de la pestaña desplegable **Interacciones** en la página de **Configuración de marketing**.  
 
-Para obtener más información, consulte [Sincronizar contactos con clientes, proveedores y cuentas bancarias](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).
+Para obtener más información, consulte [Sincronizar contactos con clientes, proveedores y cuentas bancarias](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).
 
 ## <a name="searching-for-duplicate-contacts"></a>Búsqueda de contactos duplicados
 Puede elegir que la aplicación busque duplicados de forma automática cada vez que cree un contacto o buscarlos de forma manual después de crearlos. También puede hacer que la aplicación actualice las cadenas de búsqueda de forma automática cada vez que se crea un contacto o se modifica su información. Puede elegir el porcentaje de acierto búsqueda, es decir, el porcentaje de cadenas idénticas que dos contactos deben tener para que la aplicación los considere duplicados. Configúrelo en la pestaña desplegable **Duplicados** de la página **Configuración de marketing**.

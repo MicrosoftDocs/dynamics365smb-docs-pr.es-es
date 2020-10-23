@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 916cbe3413f550fb63b940dc65e42096bf179985
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 0b759aef09fc2a19ac06a829a64a9ed0ea9b1efa
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782854"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926510"
 ---
 # <a name="reconcile-payments-using-automatic-application"></a>Conciliar los pagos con liquidación automática
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 09/02/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7d2a891f55ff41e1e236c57ca76eb5d1444b7160
-ms.sourcegitcommit: 43284728c34b72ad1984a516273dc80e4cdc99ab
+ms.openlocfilehash: 73b0044dae3035c7156812b1f4ff4b8722df57c9
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "3765951"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922874"
 ---
 # <a name="keyboard-shortcuts"></a>Métodos abreviados de teclado
 
@@ -41,7 +41,7 @@ La mayoría de los accesos directos son los mismos independientemente de que el 
 
 ##  <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a> Métodos abreviados de teclado generales
 
-En la siguiente tabla se describen métodos abreviados de teclado para navegar y acceder a diferentes elementos de una página. Los elementos incluyen cosas como acciones, listas desplegables, búsquedas y más. Para obtener más información sobre los métodos abreviados de teclado para navegar por los registros una vez que ingresa en una lista, consulte la siguiente sección.
+En la siguiente tabla se describen métodos abreviados de teclado para navegar y acceder a diferentes elementos de una página. Los elementos incluyen cosas como acciones, listas desplegables, búsquedas y más. Para obtener más información sobre los métodos abreviados de teclado para navegar por los registros una vez que entra en una lista, consulte la siguiente sección.
 
 |Pulsar estas teclas<br />(en macOS)|Para hacer esto|
 |--------------------------------|----------|
@@ -144,6 +144,7 @@ Los siguientes métodos abreviados están disponibles en las páginas de ficha, 
 |Pulsar estas teclas<br />(en macOS)|Para hacer esto|
 |--------------------------------|----------|
 |Alt+F6|Alternar contraer/expandir la ficha desplegable o parte (subpágina) actual.|
+|Alt + G|Abra la página **Buscar entradas** para buscar entradas relacionadas con el documento registrado. Funciona también en listas.|
 |Alt+N |Abrir una página para crear un nuevo registro; de la misma manera que se elige la acción **Nueva**. |
 |Alt+Mayús+N |Cerrar una página y abrir una nueva para crear un nuevo registro; de la misma manera que se selecciona la acción **Aceptar y nuevo**. |
 |Alt+Mayús+W |Abra la ficha o documento actual en una nueva ventana. Para obtener más información, consulte [Multitarea en varias páginas](ui-enter-data.md#multitasking-across-multiple-pages).|
@@ -212,3 +213,4 @@ Al configurar un campo de fecha, puede introducir la fecha manualmente o abrir u
 [Introducción](product-get-started.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Preguntas más frecuentes](across-faq.md)  
+[Buscar movimientos](ui-find-entries.md)  

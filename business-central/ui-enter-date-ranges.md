@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 122c1e602f9f7d1c50115ba1e6ba515694fc84a1
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: f658764eafa6f9aa35e33cf8098ca77799fb1e0c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785426"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912476"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Trabajar con fechas y horas del calendario
 

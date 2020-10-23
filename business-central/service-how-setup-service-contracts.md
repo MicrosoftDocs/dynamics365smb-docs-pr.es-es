@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, cost, service order
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 49860fff57d4fb1ea79ca77d5401aaf1b3ecf8b7
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 50b2a25ca18773340e10b52529ba484843cad7f1
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784564"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910310"
 ---
 # <a name="set-up-service-contracts"></a>Configurar contratos de servicio
 Antes de que pueda trabajar con contratos, debe configurar las opciones siguientes: 

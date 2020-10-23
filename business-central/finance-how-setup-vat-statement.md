@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 00b7958c9402ff47e1daf8ddd9b55b7623f7fe6a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 9e750f5c68361d0582ce59784bab41337d331152
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183505"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913643"
 ---
 # <a name="set-up-a-vat-statement"></a>Configurar una nueva declaración de IVA
 

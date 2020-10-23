@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
-ms.date: 09/04/2020
+ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: da6e53a314438ef7ce5063febf8ece1d18c69f7b
-ms.sourcegitcommit: 43284728c34b72ad1984a516273dc80e4cdc99ab
+ms.openlocfilehash: a0e62b60f9624cad44efa7fd42c5840a2ecd07b5
+ms.sourcegitcommit: aea079b66e35c447bf31a11ffc2069cfdaf2ef38
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "3766096"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3970365"
 ---
 # <a name="installing-and-uninstalling-extensions-in-business-central"></a>Instalar y desinstalar extensiones en Business Central
 
@@ -44,33 +44,33 @@ Otras extensiones simplemente agregan campos a una página existente o agregan u
 
 Si desinstala una extensión y cambia de idea, puede volver a instalarla. Al desinstalar una extensión que ha estado usando, los datos se guardan para que se vuelve a instalar la extensión estén disponibles. Hay algunas extensiones que son obligatorias. No puede desinstalarlas de la página **Administración de extensiones**. Si lo intenta, aparece un mensaje de error.
 
-Algunas de las extensiones las proporciona Microsoft y otras las proporcionan [otras empresas](ui-extensions-other.md). Se prueban todas las extensiones antes de que estén disponibles, pero le recomendamos que acceda a los vínculos que se proporcionan con cada extensión para obtener más información sobre la extensión antes de optar por instalarla.
+Algunas de las extensiones las proporciona Microsoft y otras las proporcionan [otras empresas](ui-extensions-other.md). Se prueban todas las extensiones antes de que estén disponibles, pero se recomienda acceder a los vínculos que se proporcionan con cada extensión para obtener más información sobre la extensión antes de optar por instalarla.
 
 Microsoft proporciona las extensiones siguientes:
 
-* [Portal para contables de Business Central](ui-extensions-accountant-portal.md)  
-* [Nóminas de Ceridian](ui-extensions-ceridian-payroll.md) 
-* [Migración de datos de Dynamics GP](ui-extensions-dynamicsgp-data-migration.md)  
-* [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md) 
-* [Información de la empresa esencial](ui-extensions-essential-business-insights.md)   
-* [Analizador de imágenes](ui-extensions-image-analyzer.md) 
-* [Nube inteligente](ui-extensions-data-replication.md)    
+* [Extensión AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)
+* [Nóminas de Ceridian](ui-extensions-ceridian-payroll.md)
+* [Hub de empresas](ui-extensions-company-hub.md)  
+* [Migración de datos de Dynamics GP](ui-extensions-dynamicsgp-data-migration.md)
+* [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)
+* [Información de la empresa esencial](ui-extensions-essential-business-insights.md)
+* [Analizador de imágenes](ui-extensions-image-analyzer.md)
+* [Nube inteligente](ui-extensions-data-replication.md)
 * [Base de nube inteligente](ui-extensions-intelligent-cloud.md)  
-* [Predicciones de pago atrasado](ui-extensions-late-payment-prediction.md)  
-* [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)  
-* [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md) 
-* [Migración de datos de QuickBooks](ui-extensions-quickbooks-data-migration.md)   
-* [Migración de datos de QuickBooks Online](ui-extensions-quickbooks-online-data-migration.md) 
-* [Importación del archivo de nómina de QuickBooks](ui-extensions-quickbooks-payroll.md) 
-* [Previsión de ventas e inventario](ui-extensions-sales-forecast.md)   
-* [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md) 
-* [Extensión AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)    
-* [DK - Migración de datos C5](ui-extensions-c5-data-migration.md)  
-* [DK - Pagos y conciliaciones de pagos](ui-extensions-payments-reconciliation-formats-dk.md)  
-* [DK - Formatos de archivo de impuestos](ui-extensions-tax-file-formats-dk.md) 
-* [UK - Códigos postales de Reino Unido de GetAddress.io](ui-extensions-getaddressio.md)  
-* [US/CA/UK/AU/NZ/ZA - Enviar aviso de pago](ui-extensions-send-remittance-advice.md) 
-* [Extensiones de Business Central de otros proveedores](ui-extensions-other.md)
+* [Predicciones de pago atrasado](ui-extensions-late-payment-prediction.md)
+* [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)
+* [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)
+* [Migración de datos de QuickBooks](ui-extensions-quickbooks-data-migration.md)
+* [Migración de datos de QuickBooks Online](ui-extensions-quickbooks-online-data-migration.md)
+* [Importación del archivo de nómina de QuickBooks](ui-extensions-quickbooks-payroll.md)
+* [Previsión de ventas e inventario](ui-extensions-sales-forecast.md)
+* [Grupo de IVA](ui-extensions-vat-group.md)
+* [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
+* [DK: migración de datos de C5](ui-extensions-c5-data-migration.md)
+* [DK: pagos y conciliaciones de pagos](ui-extensions-payments-reconciliation-formats-dk.md)
+* [DK: formatos de archivo de impuestos](ui-extensions-tax-file-formats-dk.md)
+* [UK: códigos postales de Reino Unido de GetAddress.io](ui-extensions-getaddressio.md)
+* [US/CA/UK/AU/NZ/ZA: enviar aviso de remesa](ui-extensions-send-remittance-advice.md)
 
 ## <a name="uninstalling-an-extension"></a>Desinstalar una extensión
 
@@ -80,8 +80,8 @@ Desinstala una extensión usando la página **Gestión de extensiones**. Si desi
 > Si habilita la casilla **Eliminar datos de extensión**, obtendrá un cuadro de diálogo de confirmación y debe elegir **Aceptar**. Con la casilla **Eliminar datos de extensión** habilitada, ahora puede desinstalar la extensión y se le pedirá que vuelva a confirmar que desea desinstalar la extensión y eliminar los datos. La acción no se puede deshacer.
 Se requieren algunas extensiones. No puede desinstalarlas de la página **Administración de extensiones**. Si lo intenta, aparece un mensaje de error.  
 
-
 ## <a name="see-also"></a>Consulte también
+
 [Ampliación de Dynamics 365 Business Central](about-develop-extensions.md)  
 [Extensiones de Business Central de otros proveedores](ui-extensions-other.md)  
 [Configurar el servicio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)  

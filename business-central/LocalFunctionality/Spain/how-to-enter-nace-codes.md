@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c2d2068009007a88c57f56d5b99631767d1c4378
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 9894ef1ba2f87c2a42e88d463b29c449fac52770
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778339"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919749"
 ---
 # <a name="enter-nace-codes"></a>Introducir códigos NACE
 Los códigos de Nomenclature génerale des Activités économiques dans les Communautés Européennes (CNAE) representan la clasificación estadística de actividades económicas dentro de la Unión Europea (UE).  

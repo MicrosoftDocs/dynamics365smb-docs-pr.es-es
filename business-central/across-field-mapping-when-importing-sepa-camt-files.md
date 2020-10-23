@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 32e9ea2c4902a579a36134d1ac69ca4b1c06de8f
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 5bed47fc3109d622f4078e36e29aa04678bd22f9
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780640"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918056"
 ---
 # <a name="field-mapping-when-importing-sepa-camt-files"></a>Asignación de campos al importar archivos CAMT de SEPA
 [!INCLUDE[d365fin](includes/d365fin_md.md)] admite los estándares de SEPA (zona única de pagos en euros) regional para importar los extractos de cuenta de SEPA (formato CAMT). Para obtener más información, vea [Usar la extensión AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
@@ -57,7 +57,11 @@ ms.locfileid: "3780640"
 |Stmt/Ntry/NtryDtls/TxDtls/RmtInf/Ustrd|No estructurado|Texto|Información suministrada para activar el emparejamiento o la conciliación de un movimiento con los productos que el pago pretende liquidar, como facturas comerciales en un sistema de cuentas de cobro no estructuradas.||6|Descripción|  
 |Stmt/Ntry/AddtlNtryInf|AdditionalEntryInformation|Texto|Información adicional acerca del movimiento.||16|Información de la transacción|  
 
- Los elementos en el nodo **Ntry** que se importan en [!INCLUDE[d365fin](includes/d365fin_md.md)] pero que no están asignados a ningún campo se almacenan en la tabla **Def. columna intercambio registro**. Los usuarios pueden ver estos elementos desde las páginas **Diario de conciliación de pagos**, **Liquidación de pago** y **Conciliación banco** si eligen la acción **Detalles de línea de extracto bancario**. Para obtener más información, vea [Conciliar pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md).  
+ Los elementos en el nodo **Ntry** que se importan en [!INCLUDE[d365fin](includes/d365fin_md.md)] pero que no están asignados a ningún campo se almacenan en la tabla **Def. columna intercambio registro**. Los usuarios pueden ver estos elementos desde las páginas **Diario de conciliación de pagos**, **Liquidación de pago** y **Conciliación banco** si eligen la acción **Detalles de línea de extracto bancario**. Para obtener más información, vea [Conciliar pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md).
+
+> [!IMPORTANT]
+> En una importación de extractos de cuenta CAMT, [!INCLUDE[d365fin](includes/d365fin_md.md)] espera que cada transacción sea única, lo que significa que el campo **Id. de transacción** que viene de la etiqueta *Stmt/Ntry/NtryDtls/TxDtls/Refs/EndToEndId* del archivo CAMT, debe ser única dentro de la conciliación de banco abierta. Si la información no está presente, [!INCLUDE[d365fin](includes/d365fin_md.md)] ignora el pago. Si se registró una conciliación de banco anterior en el mismo banco con el mismo Id. de transacción que en la importación actual, la transacción actual no se conciliará automáticamente, pero se podrá importar.
+
 ## <a name="see-also"></a>Consulte también  
 [Configuración del intercambio de datos](across-set-up-data-exchange.md)  
 [Intercambio de datos electrónicamente](across-data-exchange.md)  

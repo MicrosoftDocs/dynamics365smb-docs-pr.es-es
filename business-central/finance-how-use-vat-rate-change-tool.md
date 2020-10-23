@@ -7,14 +7,14 @@ ms.topic: article
 ms.reviewer: edupont
 ms.workload: na
 ms.search.keywords: VAT, VAT rate, posting, tax, value-added tax
-ms.date: 06/19/2020
+ms.date: 10/01/2020
 ms.author: andregu
-ms.openlocfilehash: 1672c163237e23510e2d8f3a5a99760018d023d9
-ms.sourcegitcommit: ec3034640ed10e0fd028568ec45f21c84498d3de
+ms.openlocfilehash: 7d75cb42b064f8541a1142ef149c9641baa6f69a
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "3486326"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923925"
 ---
 # <a name="managing-vat-rate-changes"></a>Administración de cambios del tipo de IVA
 

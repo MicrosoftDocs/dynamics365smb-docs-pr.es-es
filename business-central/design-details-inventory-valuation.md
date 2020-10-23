@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d37ef45bc1232bf0811a14123a814f1bf57ee7c2
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 15ad8d52508148449fcb82c8c4b3b5b3c42b8443
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787701"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913693"
 ---
 # <a name="design-details-inventory-valuation"></a>Detalles de diseño: Valoración de inventario
 La valoración del inventario "Valoración de inventario" es la determinación del coste que se asigna a un producto de inventario, tal como expresa la ecuación siguiente.  

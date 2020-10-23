@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 23759b874f7a92bf9ff91cd0822ac8f9bb716ab1
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: f0c10948aef6db58474de5c627e1ce82f0a13102
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183529"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920527"
 ---
 # <a name="set-up-and-report-intrastat"></a>Configuración y creación de informes Intrastat
 Todas las empresas de la Unión Europea deben emitir informes sobre sus transacciones comerciales con otros países o regiones de la UE. Debe notificar el movimiento de mercancías al organismo de estadística de su país o región todos los meses, y el informe se debe remitir a las autoridades fiscales. Esto se denomina Informes de Intrastat. Para realizar los informes de Intrastat periódicos se usa la página **Diario Intrastat**.  
@@ -42,13 +42,13 @@ Los trabajos por lotes de Intrastat incluyen solo entradas de elementos y no mov
 
 Puede exportar los movimientos a un archivo que puede enviar a las autoridades de Intrastat. También puede imprimir un informe, introducir manualmente la información en formularios de dichas autoridades, y enviar la información.
 
->  [!Note]
+> [!Note]
 > Es aconsejable crear una sección de diario de Intrastat para cada mes.  
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Plantillas de diario Intrastat** y luego elija el enlace relacionado.  
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Cree una plantilla para cada formulario Intrastat que utilice.  
 3. Para crear secciones, elija la acción **Secciones**.  
-4. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Cree una plantilla para cada formulario Intrastat que utilice.  
+4. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Cree una plantilla para cada formulario Intrastat que utilice. 
 
 > [!Note]
 > En el campo **Periodo estadístico**, introduzca el periodo en forma de número de cuatro dígitos, donde los dos primeros dígitos representan el año y los dos siguientes el mes. Por ejemplo, escriba 1706 para junio de 2017.
@@ -120,6 +120,12 @@ Dado que debe presentar un informe Intrastat cada mes y crear una nueva sección
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Diarios Intrastat** y luego elija el enlace relacionado.  
 2. Para ver las opciones, seleccione el campo **Nombre sección**.  
 3. Elija las secciones del diario que desea eliminar y, a continuación, seleccione el botón **Eliminar**.  
+
+## <a name="tariff-numbers"></a>Códigos arancelarios
+
+En muchos paises, las autoridades aduaneras y fiscales han establecido códigos de 8 dígitos para los distintos productos. Para que los movimientos de productos contengan la información necesaria cuando el programa los importe a la línea del diario Intrastat, debe haber introducido la información de códigos arancelarios en la página **Códigos arancelarios**. Averigüe los códigos correspondientes a los productos que oferta su empresa e introdúzcalos en la ventana **Códigos arancelarios**.
+
+En la página **Códigos arancelarios**, aguregue todos los códigos que utilice. Introduzca los códigos en la tarjeta del producto antes de empezar a contabilizar. Una vez configurados los códigos, introdúzcalos en el campo **Código arancelario.** de la tarjeta de proveedor. Rellene también el campo **Peso neto** de la ficha de artículo.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index)
 

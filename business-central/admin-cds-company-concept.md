@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: CDS, Common Data Service, integration, sync
-ms.date: 01/17/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 795656cd5b4ad8d40c48a2edf327cffb56ad6906
-ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
+ms.openlocfilehash: 4f8e5959098e01cd08134a37ae706aa852d88729
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3324059"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911665"
 ---
 # <a name="data-ownership-models"></a>Modelos de propiedad de datos
 [!INCLUDE[d365fin](includes/cds_long_md.md)] requiere que especifique un propietario para los datos que almacena. Para más información, vea [Propiedad de la entidad](https://docs.microsoft.com/powerapps/maker/common-data-service/types-of-entities#entity-ownership) en la documentación de Power Apps. Cuando configura la integración entre [!INCLUDE[d365fin](includes/cds_long_md.md)] y [!INCLUDE[d365fin](includes/d365fin_md.md)], debe elegir uno de los dos modelos de propiedad para los registros que están sincronizados:
@@ -70,6 +70,8 @@ Al cambiar una unidad de negocio, puede elegir solo las unidades de negocio que 
 Si elige el modelo de propiedad de persona, debe especificar cada vendedor que será propietario de los nuevos registros. La unidad de negocio y el equipo se crean como se describe en la sección [Propiedad de equipo](admin-cds-company-concept.md#team-ownership).
 
 La unidad de negocio predeterminada se utiliza cuando se elige el modelo de propiedad Persona y no puede elegir otra unidad de negocio. El equipo asociado con la unidad de negocio predeterminada será propietario de registros de entidades comunes, como la entidad de Producto, que no están relacionadas con vendedores específicos.
+
+Cuando empareja a vendedores de [!INCLUDE[d365fin](includes/d365fin_md.md)] con usuarios de [!INCLUDE[d365fin](includes/cds_long_md.md)], [!INCLUDE[d365fin](includes/d365fin_md.md)] agregará el usuario al equipo predeterminado en [!INCLUDE[d365fin](includes/cds_long_md.md)]. Puede verificar que los usuarios se agregan mirando la columna **Miembro del equipo predeterminado** de la página **Usuarios - Common Data Service**. Si no se agrega el usuario, puede agregarlo manualmente utilizando la acción **Agregar usuarios acoplados al equipo**. Para obtener más información, consulte [Sincronizar datos de Business Central con Common Data Service](admin-synchronizing-business-central-and-sales.md).
 
 ## <a name="see-also"></a>Consulte también
 [Acerca de [!INCLUDE[d365fin](includes/cds_long_md.md)]](admin-common-data-service.md)

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: category, search, attribute, facet
-ms.date: 06/22/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9d474f4e4b8381795405e11b1c3513cbf8a7ed90
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: a5698746fe52ff7ff6ca38e1207f09ded0742c96
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3777596"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914113"
 ---
 # <a name="categorize-items"></a>Clasificar productos
 
@@ -37,6 +37,8 @@ Para buscar productos por características, puede asignar los atributos de produ
 
 > [!NOTE]  
 > Los atributos de producto que asigna a una categoría se aplicarán automáticamente al producto al que se le ha asignado la categoría.
+
+Si cambia de opinión sobre una categoría de artículo, puede eliminarla. Sin embargo, si ya se ha asignado a un elemento, debe eliminar esa asignación para poder eliminar la categoría del artículo.
 
 ## <a name="to-assign-an-item-category-to-an-item"></a>Para asignar una categoría de producto a un producto
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/23/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e2957fbd5cb60c831abf49123c3085206b377d63
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 590f1ee116a3459d9bc4ef6a0614d0f98ee5f77c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778118"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913584"
 ---
 # <a name="void-electronic-payments"></a>Anular pagos electrónicos
 

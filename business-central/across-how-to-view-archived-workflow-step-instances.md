@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1fd402c3c081fcd4056254ffc6632f0b4f3164e5
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 06cc9aa2eb962e8556cb2f026c9be405deb89bef
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781940"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924933"
 ---
 # <a name="view-archived-workflow-step-instances"></a>Ver instancias de paso de flujo de trabajo archivadas
 Todas las instancias de paso de flujo de trabajo completada se guardan en la página **Instancias de paso de flujo de trabajo archivadas**.  

@@ -1,28 +1,31 @@
 ---
 title: Uso de referencias cruzadas de productos | Documentos de Microsoft
-description: Si configura una referencia cruzada entre la descripción del producto que usa para un producto y la descripción que utiliza el proveedor de ese producto, la descripción del producto del proveedor se inserta automáticamente en los documentos de compra del proveedor cuando complete el campo **Nº referencia cruzada**. .
+description: Configure referencias entre las descripciones que usted y su proveedor usan para un producto para que pueda insertar la descripción del artículo del proveedor en los documentos de compra.
 services: project-madeira
 documentationcenter: ''
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.search.keywords: item reference, cross reference, inventory
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2c676af23e5a6e988ab5d89d07118b9ff1cce86b
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 056897c799dd12755432637690446a0797c9f18c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3777966"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919443"
 ---
 # <a name="use-item-cross-references"></a>Usar referencias cruzadas de producto
 Si configura una referencia cruzada entre la descripción del producto que usa para un producto y la descripción que utiliza el proveedor de ese producto, la descripción del producto del proveedor se inserta automáticamente en los documentos de compra del proveedor cuando complete el campo **Nº referencia cruzada**. . Se aplica la misma funcionalidad para los números de producto del cliente en los documentos de venta.
 
 Los procedimientos siguientes describen cómo utilizar referencias cruzadas de producto en la compra. Los pasos son parecidos para la venta.
+
+> [!NOTE]
+> Es cada vez más común que los identificadores de productos, como GTIN o GUID, contengan 30 o más caracteres, que es más de lo que la función actual para referencias cruzadas de productos puede manejar. Si necesita utilizar referencias que contengan más de 30 caracteres, su administrador puede activar la característica **Escribir referencias de productos más largas** en la página [Gestión de funciones](https://businesscentral.dynamics.com/?page=xzy) (el vínculo requiere que tenga un suscriptor [!INCLUDE[d365fin](includes/d365fin_md.md)]). La forma en que usa las referencias no cambia, pero los nombres de cosas como páginas y botones sí. Por ejemplo, la página **Entradas de referencias cruzadas de productos** se convertirá en la página **Entradas de referencia de artículo**.
 
 ## <a name="to-set-up-an-item-cross-reference-to-a-vendors-item-description"></a>Para configurar una referencia cruzada de producto en la descripción del producto de un proveedor
 
@@ -30,7 +33,7 @@ Los procedimientos siguientes describen cómo utilizar referencias cruzadas de p
 2. Abra la ficha de un producto para el que desea crear una referencia cruzada a la descripción del producto que el proveedor utiliza para dicho producto.
 3. Seleccione la acción **Referencias cruzadas**.
 
-     Si no puede encontrar la acción **Referencias cruzadas**, elija ver más opciones y luego búsquela en **Navegar**, **Producto**.
+     Si no puede encontrar la acción **Referencias cruzadas**, elija ver más opciones y luego búsquela en **Relacionado** > **Producto**.
   
 4. En una línea nueva en la página **Movimientos de referencia cruzada de producto**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 

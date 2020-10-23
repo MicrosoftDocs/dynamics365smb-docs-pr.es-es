@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: b9926ced6827354c438445f0618db5a525b080d2
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: 37e94bcc276ee8526a336e13eabe81c694130196
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196740"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923700"
 ---
 # <a name="using-dynamics-365-sales-from-business-central"></a>Uso de Dynamics 365 Sales desde Business Central
 Si utiliza Dynamics 365 Sales para la interacción con el cliente, puede disfrutar de una integración perfecta en el proceso de clientes potenciales a efectivo mediante el uso de [!INCLUDE[d365fin](includes/d365fin_md.md)] para las actividades de backend como el procesamiento de pedidos, la gestión de inventario y la gestión de sus finanzas.
@@ -69,14 +69,17 @@ Los pedidos de venta que los usuarios envían en [!INCLUDE[crm_md](includes/crm_
 Como alternativa, puede convertir manualmente los pedidos de venta presentados desde [!INCLUDE[crm_md](includes/crm_md.md)] utilizando la acción **Crear en [!INCLUDE[d365fin](includes/d365fin_md.md)]** disponible en la página **Pedidos de venta - Dynamics 365 for Sales**.
 En dichos pedidos de venta, el campo **Nombre** del pedido original se transfiere y se asigna al campo **Número de documento externo** del pedido de venta en [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Esto también puede funcionar si el pedido de cliente original contiene productos fuera de catálogo, es decir, elementos o recursos que no están registrados en ninguna de las aplicaciones. En ese caso, debe rellenar los campos **Tipo producto fuera de catálogo** y **N.º producto fuera de catálogo** en la página **Conf. ventas y cobros**, para asignar estas ventas de productos no registrados a un número del producto especificado o recurso para el análisis financiero.
+Esto también puede funcionar si el pedido de cliente original contiene productos fuera de catálogo, es decir, elementos o recursos que no están registrados en ninguna de las aplicaciones. En ese caso, debe rellenar los campos **Tipo producto fuera de catálogo** y **N.º producto fuera de catálogo** en la página **Configuración de ventas y cobros**, para que las ventas de productos no registrados se asignen a un producto o recurso especificado.
+
+> [!NOTE]
+> No puede asignar una inserción a un producto o recurso en [!INCLUDE[d365fin](includes/d365fin_md.md)] que se combina con un producto en [!INCLUDE[crm_md](includes/crm_md.md)]. Para permitir las inserciones, le recomendamos que cree un producto o recurso específicamente para ese propósito y no lo combine con un producto en [!INCLUDE[crm_md](includes/crm_md.md)]. 
 
 Si la descripción del artículo en el pedido de venta original es larga, se crea una línea de orden de venta adicional del tipo **Comentario** para mantener el texto completo en el pedido de cliente en [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Las actualizaciones de los campos de las cabeceras de los pedidos de venta, como los campos Fecha de último envío o Fecha entrega requerida, que se asignan en **Asignación de tablas de integración** de PEDIDODEVENTA-PEDIDO se sincronizan periódicamente con [!INCLUDE[crm_md](includes/crm_md.md)]. Procesos como la liberación de un pedido de venta y el envío o facturación de un pedido de venta se registran contabilizan en la escala de tiempo del pedido de venta en [!INCLUDE[crm_md](includes/crm_md.md)]. Para obtener más información, consulte [Introducción a las fuentes de actividades](/dynamics365/sales-enterprise/developer/introduction-activity-feeds). <!--The link is broken. Should this actually point to https://docs.microsoft.com/en-us/dynamics365/sales-enterprise/manage-activities-->
+Las actualizaciones de los campos de las cabeceras de los pedidos de venta, como los campos Fecha de último envío o Fecha entrega requerida, que se asignan en la asignación de tabla de integración **PEDIDO DE VENTAS-PEDIDO** se sincronizan periódicamente con [!INCLUDE[crm_md](includes/crm_md.md)]. Procesos como la liberación de un pedido de venta y el envío o facturación de un pedido de venta se registran contabilizan en la escala de tiempo del pedido de venta en [!INCLUDE[crm_md](includes/crm_md.md)]. Para obtener más información, consulte [Introducción a las fuentes de actividades](/dynamics365/sales-enterprise/manage-activities). <!--The /dynamics365/sales-enterprise/developer/introduction-activity-feeds link was broken. Should this actually point to /dynamics365/sales-enterprise/manage-activities-->
 
 > [!NOTE]  
-> La sincronización periódica basada en la **asignación de tablas de integración** de PEDIDODEVENTA-PEDIDO solo funcionará cuando la integración de pedidos de venta esté activada. Para más información, vea [Configuración de la conexión en la página Configuración de la conexión de Sales](admin-prepare-dynamics-365-for-sales-for-integration.md). Solo se sincronizan los pedidos de venta creados a partir de los pedidos de venta enviados en [!INCLUDE[crm_md](includes/crm_md.md)]. Para obtener más información, consulte [Activar la integración de procesamiento de pedidos de venta](/dynamics365/sales-enterprise/developer/enable-sales-order-processing-integration).
+> La sincronización periódica basada en la asignación de tablas de integración **PEDIDO DE VENTAS-PEDIDO** solo funcionará cuando la integración de pedidos de venta esté activada. Para más información, vea [Configuración de la conexión en la página Configuración de la conexión de Sales](admin-prepare-dynamics-365-for-sales-for-integration.md). Solo se sincronizan los pedidos de venta creados a partir de los pedidos de venta enviados en [!INCLUDE[crm_md](includes/crm_md.md)]. Para obtener más información, consulte [Activar la integración de procesamiento de pedidos de venta](/dynamics365/sales-enterprise/developer/enable-sales-order-processing-integration).
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098170]
 
@@ -86,6 +89,8 @@ Como alternativa, puede convertir manualmente las ofertas de venta activadas des
 En dichas ofertas de venta, el campo **Nombre** de la oferta original se transfiere y se asigna al campo **Número de documento externo** del pedido de venta en [!INCLUDE[d365fin](includes/d365fin_md.md)]. También se transfiere el campo **En vigor hasta** de la oferta y se asigna al campo **Oferta válida hasta** en la oferta de venta en [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Las ofertas de venta pasan por muchas revisiones mientras se están finalizando. El procesamiento manual y automático de las ofertas de venta en [!INCLUDE[d365fin](includes/d365fin_md.md)] garantiza que las versiones anteriores de las ofertas de venta se archiven antes de procesar nuevas revisiones de ofertas de venta desde [!INCLUDE[crm_md](includes/crm_md.md)].
+
+Cuando elige **Proceso** en [!INCLUDE[d365fin](includes/d365fin_md.md)] para una oferta que está en estado **Ganada**, se crea un pedido de ventas en [!INCLUDE[d365fin](includes/d365fin_md.md)] solo si se envía un pedido de venta correspondiente en [!INCLUDE[crm_md](includes/crm_md.md)]. De lo contrario, la oferta solo se publica en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Si se envía un pedido de venta en [!INCLUDE[crm_md](includes/crm_md.md)] más tarde y se crea un pedido de venta a partir de ahí, el **N.º de oferta** se actualiza en el pedido de venta y se archiva la oferta.
 
 ## <a name="handling-posted-sales-invoices-customer-payments-and-statistics"></a>Gestión de histórico de facturas de venta, pagos de cliente y estadísticas
 Después de completar un pedido de venta, se crearán las facturas correspondientes. Cuando factura un pedido de venta, puede transferir el histórico de facturas de venta a [!INCLUDE[crm_md](includes/crm_md.md)] si selecciona la casilla **Crear factura en [!INCLUDE[crm_md](includes/crm_md.md)]** en la página **Histórico facturas venta**. Las facturas registradas se transfieren a [!INCLUDE[crm_md](includes/crm_md.md)] con el estado **Facturado**.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2983a1e87b0cc2ef11ca545de0c485a8348e3aa1
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 7ae55ba1c1aa0d2f10d1529dbf82b47022d3d9d5
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785226"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916298"
 ---
 # <a name="specify-when-and-how-to-receive-notifications"></a>Especificar cómo y cuándo recibir notificaciones
 Al configurar usuarios en los flujos de trabajo de aprobación, especifique en las páginas **Configuración de notificación** y **Programación de notificación** cómo y cuándo cada usuario recibe las notificaciones sobre los pasos de flujo de aprobación. Los usuarios individuales pueden cambiar también su configuración de notificación eligiendo el botón **Cambiar configuración de notificación** en cualquier notificación.  

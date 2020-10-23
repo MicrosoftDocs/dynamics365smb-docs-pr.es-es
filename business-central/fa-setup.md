@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e1bbdf84a85470aa3d34d34a06efc8efbacd3909
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 4d92b4fc380dfaaf5b4fe2705367dff359eae6e5
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788576"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926977"
 ---
 # <a name="setting-up-fixed-assets"></a>Configurar activos fijos
 Antes de trabajar con activos fijos, debe definir algunos parámetros:  

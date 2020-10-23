@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
-ms.date: 06/30/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 976d2ec94ba895894323b3021d51811abff88cef
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 7d1b9a1af6edde26e9c966bb25bc6d237a510d00
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781515"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921697"
 ---
 # <a name="setting-up-relationship-management"></a>Configurar la gestión de relaciones
 
@@ -47,7 +47,7 @@ Para obtener más información, vea [Registro automático de interacciones con c
 ## <a name="synchronizing-contacts-with-customers-and-more"></a>Sincronizar contactos con clientes, etc.
 Para poder sincronizar la ficha del contacto con la del cliente, proveedor y banco, debe seleccionar un código de relación de negocio para clientes, proveedores y bancos. Por ejemplo, solo se puede enlazar un contacto con un cliente existente si seleccionó un código de relación de negocio para los clientes en la página **Configuración de marketing**.
 
-Para obtener más información, consulte [Procedimiento: Sincronizar contactos con clientes, proveedores y cuentas bancarias](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).  
+Para obtener más información, consulte [Procedimiento: Sincronizar contactos con clientes, proveedores y cuentas bancarias](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).  
 
 ## <a name="assigning-a-number-series-to-contacts-and-opportunities"></a>Asignar una serie numérica a contactos y oportunidades
 Puede configurar números de serie para contactos y oportunidades. Si ha configurado una serie numérica para contactos, cuando cree un contacto, pulse Entrar en el campo N.º de la ficha de contacto y la aplicación introduce automáticamente el siguiente número de contacto disponible.

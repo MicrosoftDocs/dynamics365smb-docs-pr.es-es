@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cd710f96d3f3b9a7a2457bb66e26a798fb71c870
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 4f63134a5016a3b5dae0de9338799abb93920f54
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778335"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919747"
 ---
 # <a name="export-electronic-payments"></a>Exportar pagos electrónicos
 En [!INCLUDE[d365fin](../../includes/d365fin_md.md)], puede exportar movimientos del diario de pagos a un formato de archivo de acuerdo con cuatro estándares de pago diferentes. Utilice las siguientes páginas para exportar según los distintos estándares de pago.  
@@ -64,7 +64,7 @@ En [!INCLUDE[d365fin](../../includes/d365fin_md.md)], puede exportar movimientos
 
 1.  Elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diarios de pagos** y luego elija el enlace relacionado.  
 2.  Seleccione los documentos que desea pagar.  
-3.  En la pestaña **Navegar**, elija **Pagos electrónicos** y después seleccione **Exportar**.  
+3.  Elija **Relacionado** > **Pagos** > **Pagos electrónicos** > **Exportar**.  
 
     Los pagos de tipo SEPA se exportarán a un archivo inmediatamente.  
 

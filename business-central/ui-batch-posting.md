@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 08/18/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2c04dac37b043995a9b78e2f662f9411c3cf9ae1
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 1fd25f8b07a359414f62ef4757162f8a73889c27
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782523"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912726"
 ---
 # <a name="post-multiple-documents-at-the-same-time"></a>Registrar varios documentos al mismo tiempo
 

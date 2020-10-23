@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 08/12/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 342ffb57090aa78e10b8448b6316c610f6485040
-ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
+ms.openlocfilehash: d20b1814e6b5a21efee145223b42c703d65a6c2e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "3693104"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924658"
 ---
 # <a name="d365fin_long-trials-and-subscriptions"></a>Versiones de prueba y suscripciones de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 
@@ -70,7 +70,7 @@ Si ha agregado datos a su versión de prueba de [!INCLUDE[prodshort](includes/pr
 
 Cada vez que inicie sesión durante el periodo de prueba, una notificación en una barra azul de la parte superior muestra el tiempo restante. Si decide suscribirse, busque un socio de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, vea [¿Cómo encuentro un socio distribuidor?](across-faq.md#findpartner) El socio distribuidor puede ayudarle a configurar [!INCLUDE[prodshort](includes/prodshort.md)] para adaptarlo a su negocio, incluida la importación de los datos del sistema anterior. También puede personalizar [!INCLUDE[prodshort](includes/prodshort.md)] agregando aplicaciones de [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
-[!INCLUDE[prodshort](includes/prodshort.md)] en línea usa Office 365. Si su empresa utiliza un tipo diferente de configuración de correo electrónico, el socio distribuidor puede ayudarlo a decidir cómo migrar, o si debe usar [!INCLUDE[prodshort](includes/prodshort.md)] local.  
+[!INCLUDE[prodshort](includes/prodshort.md)] en línea utiliza Microsoft 365. Si su empresa utiliza un tipo diferente de configuración de correo electrónico, el socio distribuidor puede ayudarlo a decidir cómo migrar, o si debe usar [!INCLUDE[prodshort](includes/prodshort.md)] local.  
 
 También puede ponerse en contacto con el [equipo de ventas de [!INCLUDE[d365fin](includes/d365fin_md.md)]](https://go.microsoft.com/fwlink/?linkid=828707).  
 

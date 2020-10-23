@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0d0b490937381b1845219c0d06ada7201fe34e8d
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 8c8cca84e7ace9eb25f3e1366a5beefa954edbc4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785026"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911901"
 ---
 # <a name="assign-default-bins-to-items"></a>Asignar las ubicaciones predefinidas a los productos
 Si utiliza ubicaciones en un almacén, la asignación de ubicaciones genéricas a sus productos puede facilitar el proceso de envío, recepción y movimiento de sus productos. Cuando se asigna una ubicación genérica a un producto, se sugiere esta ubicación cada vez que se inicia una transacción de este producto. Las ubicaciones genéricas se definen en la página **Contenido ubicación**.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ef4127f7bfe8a135f07b5fa1aa7db4b953489282
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 1dccea4f700f8cf141e05058b54fd20d62665b7b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787101"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910985"
 ---
 # <a name="design-details-table-structure"></a>Detalles de diseño: Estructura de tablas
 Para entender cómo se almacenan y registran los movimientos de dimensión, es importante comprender la estructura de tabla.  

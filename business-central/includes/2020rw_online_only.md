@@ -1,0 +1,1 @@
+> **SE APLICA A:** Business Central Online (lanzamiento de versiones 2 de 2020 y posteriores)

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bda110a8d97376b283461bb0c2c6a6b7f334ba4d
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 72c947263ccf736d9432c52b6256868ad346ad09
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783281"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918742"
 ---
 # <a name="setting-up-purchasing"></a>Configurar compras
 Para poder administrar procesos de compra, debe configurar las reglas y valores que definen las políticas de compra de la empresa.
@@ -32,6 +32,9 @@ La configuración de compra relacionada con las finanzas, como las formas de pag
 | Introduzca los diferentes descuentos y precios especiales que los proveedores le ofrecen en función del producto, la cantidad y/o la fecha. |[Registrar acuerdos de pago, descuentos y precios de venta](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
 | De prioridad a los proveedores |[De prioridad a los proveedores](purchasing-how-prioritize-vendors.md) |
 | Configure los compradores |[Configurar compradores](purchasing-how-setup-purchasers.md) |
+
+> [!TIP]
+> Según su ubicación geográfica, algunas páginas pueden contener campos que no se describen en los productos que se enumeran aquí, porque se aplican a funciones o personalizaciones locales. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
 

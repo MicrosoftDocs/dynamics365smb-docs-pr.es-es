@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 08/27/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7d2ec49c133c8475db5cdc2a29f665a23d6c10b9
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 4b7696a3a07b889aff48f7de1cbf9002c921c839
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782667"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923972"
 ---
 # <a name="sii---invoice-and-credit-memo-types-in-sales-and-purchase-documents"></a>SII - Tipos de factura y abonos en documentos de compra y venta
 

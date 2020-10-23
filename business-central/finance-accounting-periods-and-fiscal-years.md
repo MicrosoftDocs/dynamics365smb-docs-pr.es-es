@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 09/09/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 0cbfbf6730a62b1c0f0e743362075a2085cf3813
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 6d62db7673a37cd115caedc778b3fea1cf5b3ce8
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788451"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916248"
 ---
 # <a name="working-with-accounting-periods-and-fiscal-years"></a>Trabajar con periodos contables y ejercicios
 

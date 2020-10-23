@@ -1,43 +1,40 @@
 ---
 title: Configurar el correo electrónico en Business Central | Documentos de Microsoft
-description: Describe cómo usar el servidor SMTP de la empresa para enviar y recibir mensajes de correo electrónico en Business Central, así como el modo de usar la configuración del servidor de correo electrónico creada con la suscripción de Office 365.
+description: Describe cómo usar el servidor SMTP de la empresa para enviar y recibir mensajes de correo electrónico en Business Central, así como el modo de usar la configuración del servidor de correo electrónico creada con la suscripción de Microsoft 365.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: SMTP, mail, Office 365
-ms.date: 06/15/2020
+ms.search.keywords: SMTP, mail, Microsoft 365
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2d42c637e769322bdaf7dcfa875953f38fe7e686
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 8c69de24198d8682b2e106e3bf559803c2fed72c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783294"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922556"
 ---
 # <a name="set-up-email"></a>Configurar correo electrónico
-
 Para enviar y recibir los correos electrónicos desde [!INCLUDE[d365fin](includes/d365fin_md.md)], debe rellenar los campos de la página **Configuración correo SMTP**.
 
-En lugar de especificar los detalles del servidor SMTP manualmente, puede utilizar la función **Aplicar la configuración del servidor de Office 365** para introducirlos con la información de su suscripción de Office 365.
+En lugar de especificar los detalles del servidor SMTP manualmente, puede utilizar la función **Aplicar la configuración del servidor de Microsoft 365** para introducirlos con la información de su suscripción de Microsoft 365.
 
 Puede configurar el correo electrónico manualmente, tal como se describe a continuación, o puede obtener ayuda mediante la guía de configuración asistida **Configuración correo electrónico**. Para obtener más información, vea [Preparación para hacer negocios](ui-get-ready-business.md).  
 
 ## <a name="to-set-up-email"></a>Para configurar el correo electrónico
-
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de correo electrónico SMTP** y luego elija el enlace relacionado.
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]
-    > Si está utilizando una cuenta que requiere autenticación de dos factores, la contraseña que introduzca en el campo **Contraseña** debe ser la misma que la que utiliza para su suscripción de Office 365 y debe ser de tipo **Contraseña de aplicación**. Para obtener más información, consulte [Administrar las contraseñas de aplicación para la verificación en dos pasos](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords).
-3. Opcionalmente, elija la acción **Aplicar la configuración del servidor de Office 365** para insertar información que ya esté definida para su suscripción de Office 365.
+    > Si está utilizando una cuenta que requiere autenticación de dos factores, la contraseña que introduzca en el campo **Contraseña** debe ser la misma que la que utiliza para su suscripción de Microsoft 365 y debe ser de tipo **Contraseña de aplicación**. Para obtener más información, consulte [Administrar las contraseñas de aplicación para la verificación en dos pasos](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords).
+3. Opcionalmente, elija la acción **Aplicar la configuración del servidor de Microsoft 365** para insertar cualquier información que ya esté definida para su de suscripción de Microsoft 365.
 4. Una vez rellenados correctamente todos los campos, elija la acción **Configuración de correo elect. de prueba**.
 5. Cuando la prueba se realice correctamente, cierre la página.
 
 ## <a name="using-a-substitute-sender-address-on-outbound-email-messages"></a>Uso de una dirección de remitente sustituta en los mensajes de correo electrónico salientes
-
 Todos los mensajes de correo electrónico salientes desde [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizarán la dirección predeterminada de la cuenta que especificó en la página Configuración de correo electrónico SMTP, como se describe más arriba. Sin embargo, puede utilizar las funciones **Enviar como** o **Enviar en nombre de** en su servidor Exchange para cambiar la dirección del remitente en los mensajes salientes. [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizará la cuenta predeterminada para autenticarse en Exchange, pero sustituirá la dirección del remitente por la que especifique o la modificará con "en nombre de".
 
 A continuación se ofrecen ejemplos de cómo se usan Enviar como y Enviar en nombre de en [!INCLUDE[d365fin](includes/d365fin_md.md)]:
@@ -49,14 +46,13 @@ A continuación se ofrecen ejemplos de cómo se usan Enviar como y Enviar en nom
 > Solo puede utilizar una cuenta para sustituir las direcciones de remitente. Es decir, no puede tener una dirección sustituta para los procesos de compra y otra para los procesos de venta.
 
 ### <a name="to-set-up-the-substitute-sender-address-for-all-outbound-email-messages"></a>Para configurar la dirección de remitente sustituta para todos los mensajes de correo electrónico salientes
-1. En el **centro de administración de Exchange** de su cuenta de Office 365, busque el buzón de correo para utilizarlo como dirección sustituta y, a continuación, copie o anote la dirección. Si necesita una nueva dirección, vaya a su centro de administración de Microsoft 365 para crear un nuevo usuario y configurar su buzón de correo.
+1. En el **centro de administración de Exchange** de su cuenta de Microsoft 365, busque el buzón de correo para utilizarlo como dirección sustitutoria y, a continuación, copie o anote la dirección. Si necesita una nueva dirección, vaya a su centro de administración de Microsoft 365 para crear un nuevo usuario y configurar su buzón de correo.
 2. En [!INCLUDE[d365fin](includes/d365fin_md.md)], elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de correo electrónico SMTP** y luego elija el enlace relacionado.
 3. En el campo **Enviar como**, introduzca la dirección sustituta.
 4. Copie o anote la dirección en el campo **ID de usuario**.
 5. En el **centro de administración de Exchange**, busque el buzón de correo que desea utilizar como dirección sustituta y, a continuación, introduzca la dirección del campo **ID de usuario** en el campo **Enviar como**. Para más información, ver [Use el EAC para asignar permisos a buzones individuales](/Exchange/recipients/mailbox-permissions?view=exchserver-2019#use-the-eac-to-assign-permissions-to-individual-mailboxes).
 
 ### <a name="to-use-the-substitute-address-in-approval-workflows"></a>Para utilizar la dirección sustituta en los flujos de trabajo de aprobación
-
 1. En [!INCLUDE[d365fin](includes/d365fin_md.md)], elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de correo electrónico SMTP** y luego elija el enlace relacionado.
 2. Copie o anote la dirección en el campo **ID de usuario**.
 3. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Config. usuario aprobación** y luego elija el enlace relacionado.
@@ -68,7 +64,6 @@ A continuación se ofrecen ejemplos de cómo se usan Enviar como y Enviar en nom
 > [!INCLUDE[d365fin](includes/d365fin_md.md)] determinará qué dirección se mostrará en el siguiente orden: <br><br> 1. La dirección especificada en el campo **Correo electrónico** de la página **Configuración de usuario de aprobación** para los mensajes en un flujo de trabajo. <br> 2. La dirección especificada en el campo **Enviar como** de la página **Configuración de correo electrónico SMTP**. <br> 3. La dirección especificada en el campo **ID de usuario** de la página **Configuración de correo electrónico SMTP**.
 
 ## <a name="set-up-public-folders-and-rules-for-email-logging-in-exchange-online"></a>Configurar carpetas públicas y reglas para iniciar sesión por correo electrónico en Exchange Online
-
 Aproveche al máximo las comunicaciones entre los vendedores y sus clientes actuales o potenciales mediante el seguimiento de los intercambios de correos electrónicos y, a continuación, conviértalos en oportunidades procesables. Para obtener más información, vea [Realizar un seguimiento de los intercambios de mensajes de correo electrónico entre vendedores y contactos](marketing-set-up-email-logging.md).  
 
 [!INCLUDE[admin-setup-email-public-folder](includes/admin-setup-email-public-folder.md)]
@@ -76,7 +71,6 @@ Aproveche al máximo las comunicaciones entre los vendedores y sus clientes actu
 Luego, te conectas [!INCLUDE[prodshort](includes/prodshort.md)] con Exchange Online. Para obtener más información, vea [Realizar un seguimiento de los intercambios de mensajes de correo electrónico entre vendedores y contactos](marketing-set-up-email-logging.md).  
 
 ## <a name="see-also"></a>Consulte también
-
 [Buzones compartidos en Exchange Online](/exchange/collaboration-exo/shared-mailboxes)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  

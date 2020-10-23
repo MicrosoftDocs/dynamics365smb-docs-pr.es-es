@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms.search.keywords: workflow, OData, Power App, SOAP
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bmeier
-ms.openlocfilehash: c2fbd841332ff48bd4716a082b0c9ef2bb9ac6df
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 8f4da5b51b4e0df5cdf6f41f7a78c0a51cf0f083
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528993"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924858"
 ---
 # <a name="using-prodshort-in-an-automated-workflow"></a>Usar [!INCLUDE[prodshort](includes/prodshort.md)] en un flujo de trabajo automatizado
 

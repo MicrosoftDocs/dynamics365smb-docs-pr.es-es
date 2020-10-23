@@ -3,19 +3,19 @@ title: 'Solución de problemas: acceso a la cámara y a la ubicación'
 description: Este artículo describe cómo solucionar problemas de acceso a la información de la cámara y la ubicación en Business Central.
 author: blrobl
 ms.author: t-blrobl
-ms.date: 04/22/2020
+ms.date: 10/01/2020
 ms.custom: na
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.service: dynamics365-business-central
-ms.openlocfilehash: 10338040ddcfb64dd91e9e55f607280e99720403
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: b44044b9ec2c71ad3b99f25b4a941a3ab473ca4f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781140"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912026"
 ---
 # <a name="troubleshooting-accessing-camera-and-location"></a>Solución de problemas: acceso a la cámara y a la ubicación
 

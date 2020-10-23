@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: multiple currencies, adjust exchange rates
-ms.date: 08/18/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 35d478faf6d9eddb7240c2c346d6a7deedc583f0
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 9027fe7cb01efe2e06ef52154f30f2fa8fb41b83
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778068"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924133"
 ---
 # <a name="update-currency-exchange-rates"></a>Actualizar tipos cambio divisa
 

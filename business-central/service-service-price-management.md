@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: cc5593c1ff9f0de1cfabe5deaa903f6b99dc0e64
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 269c184928417d3e7dbd25e9f4fc94d66ae2547a
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192416"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913101"
 ---
 # <a name="service-price-management"></a>Gestión de precios de servicios
 La funcionalidad de gestión de precios de servicio le permite aplicar el mejor precio a los pedidos de servicio, configurar los acuerdos de precios de servicio personalizados, mejorar la eficacia de los empelados de servicio y acelerar el proceso de facturación.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
-ms.date: 08/27/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7c78106eaf843435ea41e06c0388cd54e1e3dde4
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d1988bd3bbd9424f48431927dd6416eab636adf1
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780766"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914419"
 ---
 # <a name="business-functionality"></a>Funciones empresariales
 [!INCLUDE[d365fin](includes/d365fin_md.md)] proporciona funciones para procesos empresariales comunes de las pequeñas y medianas empresas, principalmente de los servicios mayoristas y profesionales. Sin embargo, también se admiten procesos más complejos, por ejemplo, montaje, fabricación, servicio, y administración dirigida de almacén.

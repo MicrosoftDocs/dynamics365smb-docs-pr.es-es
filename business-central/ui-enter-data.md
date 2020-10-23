@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/03/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1ad2eb6d2e9a423aa1891eb52f71e815f4b89eff
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 31432399981befb3b844c5d951b5b752e1152458
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785451"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912501"
 ---
 # <a name="entering-data"></a>Introducción de datos
 
