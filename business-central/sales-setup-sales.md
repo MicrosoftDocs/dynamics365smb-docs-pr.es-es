@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: trade, sell, configure
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b7eb82e5fc3dc20449f3fc8352fbda4e80372a20
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 83b27cbc0b1ddfe3114995218bc29c282d3508ca
+ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910435"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "5024367"
 ---
 # <a name="setting-up-sales"></a>Configuración de ventas
 Para poder administrar procesos de venta, debe configurar las reglas y valores que definen las políticas de venta de la empresa.
@@ -37,9 +37,10 @@ La configuración de ventas relacionada con las finanzas, como las formas de pag
 |Utilice un servicio Web de la UE para comprobar el número de CIF/NIF de un cliente.|[Comprobar CIF/NIF](finance-setup-vat.md)|
 |Defina los diferentes incoterms que ofrece a los clientes o que sus proveedores le ofrecen.|[Configuración de métodos de envío](sales-how-set-up-shipment-methods.md)|
 |Introducir información acerca de los distintos proveedores de transporte empleados, incluyendo un vínculo a su servicio de seguimiento del envío.|[Configurar transportistas](sales-how-to-set-up-shipping-agents.md)|
+|Especifique informes predeterminados que se utilizarán para diferentes tipos de documentos.|[Selección de informes en Business Central](across-report-selections.md)|
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Consulte también
 [Ccial](sales-manage-sales.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

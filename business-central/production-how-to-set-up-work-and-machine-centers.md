@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1e162dadd88fd7db781e884d0cde395bcff6250c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a230560b897f92cb871e72edb3ccfa2f74884bd3
+ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910710"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "4817286"
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Configuración de centros de trabajo y centros de máquinas
 
@@ -68,11 +68,14 @@ A continuación se describe principalmente cómo configurar un centro de trabajo
     > [!NOTE]  
     > Si decide utilizar Días, recuerde que 1 día = 24 horas, y no 8 (jornada laboral).
 
-13. En el campo **Capacidad**, puede definir si en el centro de trabajo hay más de una máquina o persona trabajando a la vez. Si la instalación de [!INCLUDE[d365fin](includes/d365fin_md.md)] no tiene la funcionalidad del centro de máquina, el valor de este campo debe ser **1**.  
+13. En el campo **Capacidad**, puede definir si en el centro de trabajo hay más de una máquina o persona trabajando a la vez. Si la instalación de [!INCLUDE[prod_short](includes/prod_short.md)] no tiene la funcionalidad del centro de máquina, el valor de este campo debe ser **1**.  
 14. En el campo **Eficiencia**, especifique el porcentaje de la salida estándar esperada que este centro de trabajo produce realmente. Si especifica **100**, estará indicando que el centro de trabajo tiene una salida real igual que la salida estándar.  
 15. Seleccione la casilla verificación **Calendario consolidado** si también utiliza centros de máquina. Esto asegura que los movimientos de calendario se traspasan desde los calendarios de centro de máquina.  
 16. En el campo **Cód. calen. planta**, seleccione un calendario de planta. Para obtener más información, consulte [Crear calendarios de planta](production-how-to-create-work-center-calendars.md).  
-17. En el campo **Tiempo cola**, puede especificar el intervalo de tiempo fijo que debe transcurrir antes de que se inicie el trabajo asignado en este centro de trabajo. Tenga en cuenta que el tiempo de cola se agrega a otros elementos de tiempo no productivos, como el tiempo de espera y el tiempo de movimiento, que haya definido en las líneas de ruta que utilizan este centro de trabajo.  
+17. En el campo **Tiempo cola**, puede especificar el intervalo de tiempo fijo que debe transcurrir antes de que se inicie el trabajo asignado en este centro de trabajo. 
+
+> [!NOTE]
+> Utilice tiempos de cola para proporcionar un búfer entre el momento en que un componente llega a una máquina o centro de trabajo y cuando la operación comienza realmente. Por ejemplo, una pieza se entrega a un centro de máquinas a las 10:00, pero se tarda una hora en montarla en la máquina, por lo que la operación no comienza hasta las 11:00. Para tener en cuenta esa hora, el tiempo de espera sería una hora. El valor del campo **Tiempo cola** de la ficha de centro de trabajo o centro de máquina y la suma de los valores de los campos **Tiempo preparación**, **Tiempo ejecución**, **Tiempo espera** y **Tiempo movimiento** de la línea de la línea de ruta se combinan para proporcionar el plazo de producción del producto. Esto ayuda a proporcionar tiempos de producción generales precisos.  
 
 ## <a name="example---different-machine-centers-assigned-to-a-work-center"></a>Ejemplo: distintos centros de máquina asignados a un centro de trabajo.
 
@@ -88,7 +91,7 @@ Si las capacidades de los centros de trabajo no van a contribuir a la capacidad 
 
 Debe configurar los recursos de producción que considera críticos y señalarlos para aceptar una carga finita en lugar de la carga infinita predeterminada que aceptan otros recursos de producción. Un recurso de capacidad restringida puede ser un centro de trabajo o de máquina que ha identificado como cuello de botella y para el que le gustaría establecer una carga limitada y finita.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] no admite el control detallado de la planta. Planea una utilización factible de los recursos al proporcionar una programación preliminar, pero no crea ni mantiene automáticamente las programaciones detalladas basadas en prioridades o reglas de optimización.
+[!INCLUDE[prod_short](includes/prod_short.md)] no admite el control detallado de la planta. Planea una utilización factible de los recursos al proporcionar una programación preliminar, pero no crea ni mantiene automáticamente las programaciones detalladas basadas en prioridades o reglas de optimización.
 
 En la página **Recursos de capacidad limitada**, puede establecer una configuración que evite la sobrecarga de los recursos específicos y garantizar que no se deje ninguna capacidad sin asignar si pudiera aumentar el plazo de producción de una orden de producción. En el campo **Amortiguador (% capdad. total)**, puede agregar tiempo de amortiguación a recursos para minimizar la división de operaciones. De este modo, el sistema puede programar la carga en el último día posible superando el porcentaje de carga crítica ligeramente si esto puede reducir el número de operaciones divididas.
 
@@ -111,4 +114,4 @@ Al planificar con recursos de capacidad limitada, el sistema se asegura de que n
 [Planificación](production-planning.md)  
 [Inventario](inventory-manage-inventory.md)  
 [Compras](purchasing-manage-purchasing.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

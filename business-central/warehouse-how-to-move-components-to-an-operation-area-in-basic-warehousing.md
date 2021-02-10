@@ -1,6 +1,6 @@
 ---
-title: 'Procedimiento: mueva componentes a un área de operaciones en configuraciones básicas de almacén | Documentos de Microsoft'
-description: Si el artículo que procesa las operaciones tiene lugar en su ubicación de almacén, puede tener que mover los artículos entre las ubicaciones internas para responder a los documentos de origen interno, como producción, ensamblado o pedidos de servicio en la ubicación.
+title: Mover componentes a un área de operaciones en configuraciones básicas de almacén
+description: Si el artículo que procesa las operaciones tiene lugar en su ubicación de almacén, puede tener que mover los artículos entre las ubicaciones internas para responder a los documentos de origen interno.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f628ceefb6894f8ca2f05e6345ac4f3b19f3235e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7812bc0675563b30805f345331423d800645b3ea
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923269"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5014105"
 ---
 # <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Mover componentes a un área de operaciones en configuraciones básicas de almacén
 Si el artículo que procesa las operaciones tiene lugar en su ubicación de almacén, puede tener que mover los artículos entre las ubicaciones internas para responder a los documentos de origen interno, como producción, ensamblado o pedidos de servicio en la ubicación.  
@@ -76,4 +76,4 @@ Este procedimiento muestra cómo crear un movimiento de inventario de la página
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

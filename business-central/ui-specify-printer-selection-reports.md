@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: online printing
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5bc01e711be7d05205362536f4b44a5dbfc4aa2c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e088d13ead96111023df7781f0d6d1c1dcd58cfc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915998"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760297"
 ---
 # <a name="set-up-printers"></a>Configuración de impresoras
-Como [!INCLUDE[prodshort](includes/prodshort.md)] es un servicio en la nube, no puede llegar a las impresoras locales conectadas a las máquinas de los usuarios. Sin embargo, puede conectarse a impresoras habilitadas para la nube. En la versión genérica de [!INCLUDE[prodshort](includes/prodshort.md)], una impresora en la nube llamada **Impresora de correo electrónico** se instala como extensión y está lista para usar después de la configuración inicial.
+Como [!INCLUDE[prod_short](includes/prod_short.md)] es un servicio en la nube, no puede llegar a las impresoras locales conectadas a las máquinas de los usuarios. Sin embargo, puede conectarse a impresoras habilitadas para la nube. En la versión genérica de [!INCLUDE[prod_short](includes/prod_short.md)], una impresora en la nube llamada **Impresora de correo electrónico** se instala como extensión y está lista para usar después de la configuración inicial.
 
 Si no se instala y configura una impresora en la nube o si falla una impresora instalada, la impresión tendrá las opciones de impresión predeterminadas para el navegador. Esto se indica mediante este valor en el campo **Impresora** en la página de solicitud de informe: *(ninguna, controlada por el navegador)*.
 
@@ -59,7 +59,7 @@ Debe tomar todas las precauciones de privacidad necesarias, incluida la garantí
 En la página **Selecciones de impresoras**, puede configurar para su cuenta de usuario qué informes se imprimen en qué impresora. Esto es útil si trabaja con diferentes informes que requieren impresoras diferentes debido a su ubicación en la empresa o sus capacidades de salida.
 
 > [!IMPORTANT]
-> Para [!INCLUDE[prodshort](includes/prodshort.md)] local, la página **Selecciones de impresora** solo se puede utilizar para impresoras definidas por extensiones de impresora. No se puede utilizar para impresoras locales.
+> Para [!INCLUDE[prod_short](includes/prod_short.md)] local, la página **Selecciones de impresora** solo se puede utilizar para impresoras definidas por extensiones de impresora. No se puede utilizar para impresoras locales.
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Selecciones de impresora** y luego seleccione el enlace relacionado. Alternativamente, desde la página **Administración de impresoras**, seleccione una impresora y luego elija la acción **Selecciones de impresoras**.
 2. Elija la acción **Nuevo** para agregar una selección de impresora para un informe específico.
@@ -88,6 +88,6 @@ Usted o el administrador también pueden usar la página **Selecciones de impres
 
 ## <a name="see-also"></a>Consulte también
 [Imprimir un informe](ui-work-report.md#PrintReport)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ejecutar procesos](ui-how-run-batch-jobs.md)  
 [Enviar documentos por correo electrónico](ui-how-send-documents-email.md)  

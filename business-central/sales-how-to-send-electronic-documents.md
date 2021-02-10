@@ -1,5 +1,5 @@
 ---
-title: Enviar documentos electrónicos | Documentos de Microsoft
+title: Enviar documentos electrónicos
 description: Aprenda a enviar facturas electrónicamente.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,52 +10,55 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8875cdcc7ad13f72c9cf131061b301dac1dcff2b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 43f61682a1068a8e1652fd28421f83d5291c8fe8
+ms.sourcegitcommit: fe6943d410f5dca4e8b2986f95501009ae982d98
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910585"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "4827073"
 ---
 # <a name="send-electronic-documents"></a>Enviar documentos electrónicos
-La versión genérica de [!INCLUDE[d365fin](includes/d365fin_md.md)] admite el envío de facturas electrónicas y abonos en formato PEPPOL, admitido por los proveedores de servicios de intercambio de documentos más importantes. El proveedor de servicios de intercambio de documentos entrega documentos electrónicos de un socio comercial a otro. Para proporcionar compatibilidad con otros formatos de documento electrónico, utilice el marco de intercambio de datos.  
 
- En la versión genérica de [!INCLUDE[d365fin](includes/d365fin_md.md)], hay preconfigurado un servicio de intercambio de documentos listo para ser configurado según su empresa. Para obtener más información, vea [Configurar un servicio de intercambio de documentos](across-how-to-set-up-a-document-exchange-service.md).  
+La versión genérica de [!INCLUDE[prod_short](includes/prod_short.md)] admite el envío de facturas electrónicas y abonos en formato PEPPOL, un formato admitido por los proveedores de servicios de intercambio de documentos más importantes. El proveedor de servicios de intercambio de documentos entrega documentos electrónicos de un socio comercial a otro. Para proporcionar compatibilidad con otros formatos de documento electrónico, utilice el marco de intercambio de datos.  
 
- Para enviar una factura de venta como un documento electrónico PEPPOL, seleccione la opción **Documento electrónico** en el cuadro de diálogo **Registrar y enviar** donde también puede configurarlo como el perfil de envío de documentos predeterminado del cliente. En primer lugar, debe configurar los distintos datos maestros, como la información de la empresa, los clientes, los productos y las unidades de medida. Se utilizan para identificar a los socios comerciales y los productos al convertir los datos de los campos de [Configurar el envío y la recepción de documentos electrónicos](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
+ En la versión genérica de [!INCLUDE[prod_short](includes/prod_short.md)], hay preconfigurado un servicio de intercambio de documentos listo para ser configurado según su empresa. Para obtener más información, vea [Configurar un servicio de intercambio de documentos](across-how-to-set-up-a-document-exchange-service.md). Sin embargo, en algunos casos, debe instalar una aplicación. Para más información, vea [Preguntas frecuentes sobre facturación electrónica](faq-electronic-invoicing.yml).  
 
-### <a name="to-send-an-electronic-sales-invoice"></a>Para enviar una factura de venta electrónica  
+ Para enviar una factura de venta como documento electrónico de PEPPOL, seleccione la opción **Documento electrónico** en el cuadro de diálogo **Registrar y enviar**. Puede configurar también perfil de envío de documentos predeterminado del cliente desde ese cuadro de diálogo. En primer lugar, debe configurar los distintos datos maestros, como la información de la empresa, los clientes, los productos y las unidades de medida. Se utilizan para identificar a los socios comerciales y los productos al convertir los datos de los campos de [Configurar el envío y la recepción de documentos electrónicos](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Facturas venta** y luego elija el enlace relacionado.  
+### <a name="to-send-an-electronic-sales-invoice"></a>Para enviar una factura de venta electrónica
 
-2.  Cree una nueva factura de venta.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Facturas venta** y luego elija el enlace relacionado.  
 
-3.  Cuando la factura de venta esté lista para facturarse, seleccione la acción **Registrar y enviar**.  
+2. Cree una nueva factura de venta.  
 
-     Si el perfil de envío predeterminado del cliente es **Documento electrónico**, se mostrará en el cuadro de diálogo **Registrar y enviar la confirmación** y solo tiene que elegir el botón **Sí** para registrar y enviar la factura electrónicamente en el formato seleccionado.  
+3. Cuando la factura de venta esté lista para facturarse, seleccione la acción **Registrar y enviar**.  
 
-4.  En el cuadro de diálogo **Registrar y enviar la confirmación**, seleccione el botón AssistEdit situado a la derecha del campo **Enviar documento a**.  
+     Si el perfil de envío predeterminado del cliente es **Documento electrónico**, entonces se mostrará en el cuadro de diálogo **Publicar y enviar confirmación**. De esta forma, solo tiene que elegir el botón **Sí** para contabilizar y enviar la factura de forma electrónica en el formato seleccionado.  
 
-5.  En el cuadro de diálogo **Enviar documento a**, en el campo **Documento electrónico**, seleccione **A través del servicio de intercambio de documentos**.  
+4. En el cuadro de diálogo **Registrar y enviar la confirmación**, seleccione el botón AssistEdit situado a la derecha del campo **Enviar documento a**.  
 
-6.  En el campo **Formato**, seleccione **PEPPOL**.  
+5. En el cuadro de diálogo **Enviar documento a**, en el campo **Documento electrónico**, seleccione **A través del servicio de intercambio de documentos**.  
 
-7.  Elija el botón **Aceptar**. Aparece el cuadro de diálogo **Registrar y enviar la confirmación**. **Documento electrónico (PEPPOL)** se agrega al campo **Enviar documento a**.  
+6. En el campo **Formato**, seleccione **PEPPOL**.  
 
-8.  Elija el botón **Sí**.  
+7. Elija el botón **Aceptar**. Aparece el cuadro de diálogo **Registrar y enviar la confirmación**. **Documento electrónico (PEPPOL)** se agrega al campo **Enviar documento a**.  
 
-     Se registra la factura de venta y se envía al cliente como un documento electrónico en el formato PEPPOL.  
+8. Elija el botón **Sí**.  
+
+     Se registra la factura de venta y se envía al cliente en el formato PEPPOL.  
 
     > [!NOTE]  
-    >  También puede enviar una factura de venta registrada como documento electrónico. El procedimiento es el mismo que el descrito en este tema para documentos de venta no registrada. En la página **Factura venta reg.**, elija la acción **Registro de actividades** para ver el estado del documento electrónico. Para obtener más información, vea **Registro de actividades**.  
+    >  También puede enviar una factura de venta registrada como documento electrónico. El procedimiento es el mismo que el descrito en este tema para documentos de venta no registrada. En la página **Factura venta reg.**, elija la acción **Registro de actividades** para ver el estado del documento electrónico.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Consulte también  
+## <a name="see-also"></a>Consulte también
+
 [Facturar ventas](sales-how-invoice-sales.md)  
 [Configurar perfiles de envío de documentos](sales-how-setup-document-send-profiles.md)  
 [Configurar el envío y la recepción de documentos electrónicos](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
 [Configurar un servicio de intercambio de documentos](across-how-to-set-up-a-document-exchange-service.md)  
 [Configurar definiciones de intercambio de datos](across-how-to-set-up-data-exchange-definitions.md)  
 [Intercambio de datos electrónicamente](across-data-exchange.md)  
+[P+F sobre facturación electrónica](faq-electronic-invoicing.yml)  
 [Funciones empresariales generales](ui-across-business-areas.md)  

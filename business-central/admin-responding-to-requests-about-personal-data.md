@@ -8,15 +8,15 @@ ms.custom: na
 ms.date: 10/01/2020
 ms.reviewer: na
 ms.topic: article
-ms.openlocfilehash: 5661396629572530b3c639f1e7dcbcbf832abb28
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 52e453f8a2d63fbfd8c7e3fa292a8d0a98fcaa3c
+ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917856"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "4817159"
 ---
 # <a name="responding-to-requests-about-personal-data"></a>Respuesta a las solicitudes de datos personales  
-Los asuntos de datos pueden solicitar varios tipos de acciones relacionadas con sus datos personales. Por ejemplo, según el Reglamento general de protección de datos (GDPR), los residentes de la UE tienen derecho a solicitar la exportación, eliminación y modificación de sus datos personales. Esto se conoce como *Solicitud de asunto de datos*. Si ha clasificado la confidencialidad de sus datos y está seguro de que son correctos, un administrador puede responder a las solicitudes utilizando las opciones de la pestaña **Privacidad de datos** en el área de trabajo **Director de TI**. Para obtener más información sobre la clasificación de datos y la clasificación de la confidencialidad de datos en [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], consulte [Clasificar datos](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) y [Clasificar confidencialidad de datos](admin-classifying-data-sensitivity.md).  
+Los asuntos de datos pueden solicitar varios tipos de acciones relacionadas con sus datos personales. Por ejemplo, según el Reglamento general de protección de datos (GDPR), los residentes de la UE tienen derecho a solicitar la exportación, eliminación y modificación de sus datos personales. Esto se conoce como *Solicitud de asunto de datos*. Si ha clasificado la confidencialidad de sus datos y está seguro de que son correctos, un administrador puede responder a las solicitudes utilizando las opciones de la pestaña **Privacidad de datos** en el área de trabajo **Director de TI**. Para obtener más información sobre la clasificación de datos y la clasificación de la confidencialidad de datos en [!INCLUDE[prod_long](includes/prod_long.md)], consulte [Clasificar datos](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) y [Clasificar confidencialidad de datos](admin-classifying-data-sensitivity.md).  
 
 ## <a name="types-of-requests"></a>Tipos de solicitudes
 
@@ -35,13 +35,13 @@ La siguiente tabla proporciona ejemplos de los tipos de solicitudes a las que pu
 Un asunto de datos puede solicitarle que detenga temporalmente el procesamiento de sus datos personales. Para cumplir con dichas solicitudes, puede marcar su registro como bloqueado debido a la privacidad para detener el procesamiento de sus datos. Cuando un registro está marcado como bloqueado, no puede crear nuevas transacciones que usen ese registro. Por ejemplo, no puede crear una nueva factura para un cliente cuando el cliente o el vendedor están bloqueados. Para marcar a un asunto de datos como bloqueado, abra la tarjeta para el sujeto de datos, por ejemplo, el Cliente, Proveedor o Tarjetas de contacto, y elija la casilla de verificación **Privacidad bloqueada**. Tiene que elegir **Mostrar más** para mostrar el campo.  
 
 ## <a name="handling-data-subject-requests-while-in-trial"></a>Gestionar solicitudes de sujetos de datos durante la versión de prueba
-Ciertos tipos de datos personales forman parte de su cuenta de Microsoft 365 y requieren acceso administrativo para exportarlos, si recibe una solicitud de un usuario sobre este tipo de datos personales en virtud del Reglamento general de protección de datos (GDPR). El proceso para gestionar las solicitudes de los sujetos de datos es diferente según el tipo de inquilino de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Ciertos tipos de datos personales forman parte de su cuenta de Microsoft 365 y requieren acceso administrativo para exportarlos, si recibe una solicitud de un usuario sobre este tipo de datos personales en virtud del Reglamento general de protección de datos (GDPR). El proceso para gestionar las solicitudes de los sujetos de datos es diferente según el tipo de inquilino de [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-Si tiene una suscripción de pago para [!INCLUDE[d365fin](includes/d365fin_md.md)], debe ponerse en contacto con el administrador de inquilinos de su organización para solicitar el asunto de datos. El administrador tiene los derechos administrativos y herramientas a completar la solicitud.  
+Si tiene una suscripción de pago para [!INCLUDE[prod_short](includes/prod_short.md)], debe ponerse en contacto con el administrador de inquilinos de su organización para solicitar el asunto de datos. El administrador tiene los derechos administrativos y herramientas a completar la solicitud.  
 
-Si ha iniciado sesión en [!INCLUDE[d365fin](includes/d365fin_md.md)] en la página [Períodos de prueba](https://trials.dynamics.com/) y no se ha cambiado de esta experiencia de prueba a través de una suscripción de pago del administrador de inquilinos de su organización, puede completar su propia solicitud de datos en la [Página de privacidad de trabajo y escuela en Azure Portal](https://portal.azure.com#blade/Microsoft_AAD_IAM/GDPRViralBlade). Aquí, puede exportar y descargar sus datos personales.
+Si ha iniciado sesión en [!INCLUDE[prod_short](includes/prod_short.md)] en la página [Períodos de prueba](https://trials.dynamics.com/) y no se ha cambiado de esta experiencia de prueba a través de una suscripción de pago del administrador de inquilinos de su organización, puede completar su propia solicitud de datos en la [Página de privacidad de trabajo y escuela en Azure Portal](https://portal.azure.com#blade/Microsoft_AAD_IAM/GDPRViralBlade). Aquí, puede exportar y descargar sus datos personales.
 
-En la página de Privacidad del trabajo y la escuela, también puede cerrar su cuenta. Sin embargo, le recomendamos que se asegure de haber exportado y eliminado todos los datos primero, ya que eliminar su cuenta significa perder el acceso a [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+En la página de Privacidad del trabajo y la escuela, también puede cerrar su cuenta. Sin embargo, le recomendamos que se asegure de haber exportado y eliminado todos los datos primero, ya que eliminar su cuenta significa perder el acceso a [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Todavía puede marcar personas como bloqueadas debido a la privacidad y exportar, editar o eliminar transacciones como se explica en otra sección de este artículo.  
 

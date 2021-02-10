@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ee4d805ce0fc51e96e4d6956a2bcf1537830730f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5a8267813a37af08dd057e4c67a04237cd350b54
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914965"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760547"
 ---
 # <a name="create-and-modify-custom-report-layouts"></a>Crear y modificar diseños de informe personalizados
 
 De forma predeterminada, un informe tendrá un diseño de informe integrado, bien de RDLC o de Word, o ambos. No puede modificar diseños integrados. No obstante, puede crear sus propios diseños personalizados que le permitan modificar el aspecto del informe cuando se vea, se imprima o se guarde. Puede crear varios diseños de informe personalizados para el mismo informe y, a continuación, cambiar al diseño utilizado por un informe según sea necesario.
 
 > [!NOTE]  
-> En [!INCLUDE[d365fin](includes/d365fin_md.md)], el término “informe” también afecta a documentos externos, como facturas de venta y las confirmaciones de pedido que envía a los clientes como archivos PDF.
+> En [!INCLUDE[prod_short](includes/prod_short.md)], el término “informe” también afecta a documentos externos, como facturas de venta y las confirmaciones de pedido que envía a los clientes como archivos PDF.
 
 Para crear un diseño personalizado, puede hacer una copia de un diseño personalizado existente o agregar un nuevo diseño personalizado, que en la mayoría de los casos se basa en un diseño integrado. Cuando se agrega un nuevo diseño personalizado, puede elegir agregar un tipo de diseño de informe de RDLC, uno de Word, o ambos. El nuevo diseño personalizado se basará automáticamente en el diseño integrado del informe si hay uno disponible. Si no hay ningún diseño integrado para el tipo, se crea un nuevo diseño en blanco que tendrá que modificar y diseñar desde cero. Para obtener más información acerca de los diseños de informe de RDLC y de Word, diseños personalizados e integrados y otros temas, consulte [Gestionar diseños de informe](ui-manage-report-layouts.md).  
 
@@ -118,4 +118,4 @@ La adición de campos de datos de un conjunto de datos de informe es una operaci
 [Trabajar con informes, trabajos por lotes y XMLports](ui-work-report.md)  
 [Preparar informes financieros con esquemas de cuentas y categorías de cuentas](bi-how-work-account-schedule.md) 
 [Inteligencia empresarial](bi.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

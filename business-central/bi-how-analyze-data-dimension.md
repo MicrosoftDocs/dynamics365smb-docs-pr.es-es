@@ -3,7 +3,7 @@ title: Analizar datos por dimensiones | Documentos de Microsoft
 description: Describe cómo analizar varios datos empresariales por dimensiones.
 services: project-madeira
 documentationcenter: ''
-author: SorenGP
+author: edupont
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f408330e7306a364a5272bc3568858f4765df711
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4086da516f9a1ecccf5a3a0c2f86d0f42877b637
+ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917631"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "4817084"
 ---
 #  <a name="analyze-data-by-dimensions"></a>Analizar datos por dimensiones
 En análisis financiero, una dimensión son datos que puede agregar a un movimiento como una especie de marcador. Estos datos se utilizan para agrupar movimientos de características similares, como clientes, regiones, productos y vendedor, y así poder recuperar con facilidad estos grupos para su análisis. Las dimensiones se pueden utilizar en movimientos de diarios, documentos y presupuestos. El término dimensión describe cómo tiene lugar el análisis. Un análisis de dos dimensiones, por ejemplo, sería ventas por área. Sin embargo, mediante el uso de más de dos dimensiones al crear un movimiento, puede efectuar un análisis más complejo, como ventas por campaña de ventas, grupo de clientes y área. Para obtener más información, consulte [Trabajar con dimensiones](finance-dimensions.md).
@@ -82,4 +82,4 @@ El siguiente procedimiento permite actualizar una vista de análisis desde la p�
 [Configurar las finanzas](finance-setup-finance.md)  
 [Libro mayor y plan de cuentas](finance-general-ledger.md)  
 [Trabajar con dimensiones](finance-dimensions.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

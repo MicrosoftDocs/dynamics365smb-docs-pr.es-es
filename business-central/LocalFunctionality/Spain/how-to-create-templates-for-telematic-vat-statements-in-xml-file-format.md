@@ -1,8 +1,6 @@
 ---
-title: Crear plantillas para las declaraciones telemáticas de IVA en formato XML
-description: Para mostrar las declaraciones de IVA electrónicamente, debe crear plantillas para generar los archivos necesarios. Puede enviar los archivos en formato de texto y en formato XML. Este procedimiento describe cómo crear plantillas para los archivos XML.
-services: project-madeira
-documentationcenter: ''
+title: Crear plantillas para las declaraciones telemáticas de IVA en formato XML (ES)
+description: Para enviar declaraciones de IVA electrónicamente en formato XML en la versión en español de Business Central, cree plantillas para administrar los formatos.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 243bc065cb6232b8eed7973eba30ebc67b009d9a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7b82e25d7f6f077f24c238c2e105091883931608
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923960"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5013837"
 ---
 # <a name="create-templates-for-telematic-vat-statements-in-xml-file-format"></a>Crear plantillas para las declaraciones telemáticas de IVA en formato XML
 Para mostrar las declaraciones de IVA electrónicamente, debe crear plantillas para generar los archivos necesarios. Puede enviar los archivos en formato de texto y en formato XML. Este procedimiento describe cómo crear plantillas para los archivos XML.  

@@ -1,5 +1,5 @@
 ---
-title: Usar la característica Transferir diferencia a cuenta para conciliar pagos | Documentos de Microsoft
+title: Usar la característica Transferir diferencia a cuenta para conciliar pagos
 description: Describe cómo procesar los pagos que no se pueden aplicar a un documento, por ejemplo, cuando un tipo de cambio provoca que los importes sean distintos.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: payment process, cash receipts
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2b4acded234f4cb6aa0ef85c663866032ce49121
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: aa43e57adc60f7ec01bd7bf4c3bcdd20cdd476fd
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926452"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5013822"
 ---
 # <a name="reconcile-payments-that-cannot-be-applied-automatically"></a>Conciliar pagos que no se pueden liquidar automáticamente
-En ocasiones es posible que tenga que gestionar los pagos en su cuenta bancaria que no se pueden liquidar con un cliente, proveedor o movimiento de cuenta bancario abierto relacionado. Los motivos pueden ser que no haya ningún documento en [!INCLUDE[d365fin](includes/d365fin_md.md)] con el que se pueda liquidar el pago o el documento relacionado en [!INCLUDE[d365fin](includes/d365fin_md.md)] tiene un importe diferente al de la transacción, por ejemplo, debido al tipo de cambio de divisa. En la página **Diario de conciliación de pagos**, todos los importes de transacciones de pagos que aún no se hayan liquidado aparecen en el campo **Diferencia**, incluidos los importes que no se pueden liquidar debido a los motivos que aparecen anteriormente.
+En ocasiones es posible que tenga que gestionar los pagos en su cuenta bancaria que no se pueden liquidar con un cliente, proveedor o movimiento de cuenta bancario abierto relacionado. Los motivos pueden ser que no haya ningún documento en [!INCLUDE[prod_short](includes/prod_short.md)] con el que se pueda liquidar el pago o el documento relacionado en [!INCLUDE[prod_short](includes/prod_short.md)] tiene un importe diferente al de la transacción, por ejemplo, debido al tipo de cambio de divisa. En la página **Diario de conciliación de pagos**, todos los importes de transacciones de pagos que aún no se hayan liquidado aparecen en el campo **Diferencia**, incluidos los importes que no se pueden liquidar debido a los motivos que aparecen anteriormente.
 
 Los pagos que no se pueden liquidar pueden aparecer en líneas de diario de conciliación de las distintas formas siguientes:
 
@@ -46,4 +46,4 @@ Si el valor del campo **Diferencia** era inferior al valor del campo **Importe d
 ## <a name="see-also"></a>Consulte también
 [Administrar cobros](receivables-manage-receivables.md)  
 [Ccial](sales-manage-sales.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

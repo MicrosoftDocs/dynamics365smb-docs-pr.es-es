@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 59830cc2e9b90f9ee6c6fd61cb9715ce60208ad1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 30f29078c4ca32f934427d8b07715077a8175e6b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923200"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759697"
 ---
 # <a name="put-away-production-or-assembly-output"></a>Ubicar la salida de producción o la salida de ensamblado
 La forma de ubicar la salida de su producción depende de cómo esté configurado el almacén. Para obtener más información, consulte [Configuración de la administración de almacén](warehouse-setup-warehouse.md).  
@@ -77,4 +77,4 @@ Si solo necesita registrar el tiempo de preparación y ejecución de la última 
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -10,16 +10,16 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.service: dynamics365-business-central
-ms.openlocfilehash: b44044b9ec2c71ad3b99f25b4a941a3ab473ca4f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a29b2ea19d812d60d2824c131e311c34d74612af
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912026"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760221"
 ---
 # <a name="troubleshooting-accessing-camera-and-location"></a>Solución de problemas: acceso a la cámara y a la ubicación
 
-Puede encontrar algunos problemas al intentar acceder a la cámara y a la información de ubicación de un dispositivo desde [!INCLUDE[prodshort](includes/prodshort.md)]. Puede encontrar las causas posibles de estos problemas y cómo solucionarlos a continuación.
+Puede encontrar algunos problemas al intentar acceder a la cámara y a la información de ubicación de un dispositivo desde [!INCLUDE[prod_short](includes/prod_short.md)]. Puede encontrar las causas posibles de estos problemas y cómo solucionarlos a continuación.
 
 ## <a name="device-must-have-camera-and-location-capabilities"></a>El dispositivo debe tener capacidades de cámara y ubicación
 
@@ -29,11 +29,11 @@ Si su dispositivo tiene capacidades de cámara y ubicación, pero sigue teniendo
 
 ## <a name="access-permissions-not-enabled"></a>Permisos de acceso no habilitados
 
-Debe habilitar el acceso general a la cámara y la ubicación desde la configuración de privacidad de su dispositivo y otorgar permiso explícitamente para [!INCLUDE[prodshort](includes/prodshort.md)] para acceder a ellos. Por ejemplo, para ver o cambiar los permisos de un dispositivo ejecutando Windows, vaya a **Configuración**, elija **Privacidad** y, a continuación, **Permisos de la aplicación**. 
+Debe habilitar el acceso general a la cámara y la ubicación desde la configuración de privacidad de su dispositivo y otorgar permiso explícitamente para [!INCLUDE[prod_short](includes/prod_short.md)] para acceder a ellos. Por ejemplo, para ver o cambiar los permisos de un dispositivo ejecutando Windows, vaya a **Configuración**, elija **Privacidad** y, a continuación, **Permisos de la aplicación**. 
 
-Para dispositivos móviles, debe dar permisos de acceso a la cámara y a la ubicación para la Aplicación móvil de [!INCLUDE[prodshort](includes/prodshort.md)]. Para hacerlo en un dispositivo iOS, vaya a **Configuración**, elija **Privacidad**, y después a **Cámara** o **Localización**. Para los dispositivos Android, vaya a **Configuración**, elija **Aplicaciones y notificaciones**, **Avanzado**, **Administrador de permisos** y después, **Cámara** o **Ubicación**.
+Para dispositivos móviles, debe dar permisos de acceso a la cámara y a la ubicación para la Aplicación móvil de [!INCLUDE[prod_short](includes/prod_short.md)]. Para hacerlo en un dispositivo iOS, vaya a **Configuración**, elija **Privacidad**, y después a **Cámara** o **Localización**. Para los dispositivos Android, vaya a **Configuración**, elija **Aplicaciones y notificaciones**, **Avanzado**, **Administrador de permisos** y después, **Cámara** o **Ubicación**.
 
-Además, si está utilizando [!INCLUDE[prodshort](includes/prodshort.md)] en un navegador, también debe dar permiso al sitio de [!INCLUDE[prodshort](includes/prodshort.md)] para acceder a la información de la cámara o ubicación. Para ver o cambiar los permisos de un sitio en el navegador de Microsoft Edge, vaya a **Configuración**, elija **Permisos del sitio** y después, **Cámara** o **Ubicación**. Tenga en cuenta que esto puede ser diferente para otros navegadores.
+Además, si está utilizando [!INCLUDE[prod_short](includes/prod_short.md)] en un navegador, también debe dar permiso al sitio de [!INCLUDE[prod_short](includes/prod_short.md)] para acceder a la información de la cámara o ubicación. Para ver o cambiar los permisos de un sitio en el navegador de Microsoft Edge, vaya a **Configuración**, elija **Permisos del sitio** y después, **Cámara** o **Ubicación**. Tenga en cuenta que esto puede ser diferente para otros navegadores.
 
 De manera predeterminada, el dispositivo o navegador mostrará una solicitud para acceder a estas características cuando el usuario las active por primera vez.
 
@@ -49,7 +49,7 @@ La única excepción es conectarse a `http://localhost`, utilizado para fines de
 
 ## <a name="working-with-virtualization-technologies"></a>Trabajo con tecnologías de virtualización
 
-Cuando se conecte a [!INCLUDE[prodshort](includes/prodshort.md)] mediante el Escritorio remoto u otra virtualización, es posible que el acceso a la cámara o la ubicación no esté disponible. Si este es el caso, use el sistema físico en su lugar.
+Cuando se conecte a [!INCLUDE[prod_short](includes/prod_short.md)] mediante el Escritorio remoto u otra virtualización, es posible que el acceso a la cámara o la ubicación no esté disponible. Si este es el caso, use el sistema físico en su lugar.
 
 ## <a name="antivirus-software"></a>Software antivirus
 Algunos software antivirus bloquean el acceso a la cámara y la ubicación de forma predeterminada. Recuerde comprobar la configuración de su software antivirus.

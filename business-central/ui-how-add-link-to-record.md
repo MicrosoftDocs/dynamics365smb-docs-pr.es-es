@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 447012a66e75e1acf03f2aff1ba6b6922164312f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0d13ffa03e4a123158e2f350ff9eab5e274741b5
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918568"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760572"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Administrar archivos adjuntos, vínculos y notas en fichas y documentos
 
@@ -29,7 +29,7 @@ Los archivos adjuntos, vínculos y notas permanecen adjuntos a medida que la fic
 > Cuando envía y factura parcialmente un pedido de venta o un pedido de compra, el archivo adjunto solo se adjuntará a la factura final de ese pedido. Del mismo modo, cuando factura con la función Fraccionamientos, el archivo adjunto solo se adjunta a los movimientos contables del documento, pero no para los movimientos de aplazamiento.
 
 ## <a name="to-attach-a-file-to-a-purchase-invoice"></a>Para adjuntar un archivo a una factura de compra
-Puede adjuntar cualquier tipo de archivo, que contenga texto, imagen o vídeo, a una ficha o documento. Esto es útil, por ejemplo, cuando desea almacenar la factura de un proveedor como un archivo PDF en la factura de compra relacionada en [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Puede adjuntar cualquier tipo de archivo, que contenga texto, imagen o vídeo, a una ficha o documento. Esto es útil, por ejemplo, cuando desea almacenar la factura de un proveedor como un archivo PDF en la factura de compra relacionada en [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!NOTE]
 > Los archivos adjuntos con la función Documentos entrantes no se incluyen en la pestaña **Anexos**. Para obtener más información, consulte [Documentos entrantes](across-income-documents.md).
@@ -95,6 +95,6 @@ El procedimiento siguiente se basa en un pedido de venta. Los pasos son parecido
 La nota ahora está adjuntada al pedido de venta.
 
 ## <a name="see-also"></a>Consulte también  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Documentos entrantes](across-income-documents.md)  
 [Configurar notificaciones de flujo de trabajo](across-setting-up-workflow-notifications.md)  

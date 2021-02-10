@@ -1,5 +1,5 @@
 ---
-title: Como crear una previsión de la demanda | Documentos de Microsoft
+title: Cómo crear una previsión de la demanda
 description: Es posible crear previsiones de ventas y producción desde la página **Previsión de la demanda**.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 01/12/2021
 ms.author: edupont
-ms.openlocfilehash: 63009574c6d569cfc0ac20a6f474a11e2f8d5cb9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c009a4d21cac95645edd7b94f22659f155fe6a34
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913276"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5013697"
 ---
 # <a name="create-a-demand-forecast"></a>Crear una previsión de la demanda
 Es posible crear previsiones de ventas y producción desde la página **Previsión de la demanda**.  
@@ -47,7 +47,41 @@ Dado que la previsión de componentes está diseñada para definir las opciones 
  El periodo de previsión es válido desde la fecha de inicio hasta la fecha de inicio de la siguiente previsión. La página de intervalo de tiempo proporciona muchas opciones para insertar la demanda en una fecha concreta del periodo. Por ello, es aconsejable no cambiar el periodo de previsión salvo que se desee llevar todos los movimientos a la fecha de inicio de este periodo.  
 
 ## <a name="forecast-by-locations"></a>Previsión por ubicación  
-Puede establecerse en la configuración de fabricación si desea filtrar el pronóstico según la ubicación al calcular un plan. Con todo, debe tener en cuenta que si las previsiones en función de las ubicaciones se observan por separado, la previsión global podría no ser representativa.
+
+Puede indicarse en la página **Configuración de fabricación** cómo desea tratar con las ubicaciones que se definen en las previsiones cuando calcula un plan. 
+
+### <a name="use-forecast-by-locations"></a>User previsiones por almacenes
+
+Si elige el campo **Usar pronóstico por ubicación**, entonces [!INCLUDE[prod_short](includes/prod_short.md)] respetará los códigos de ubicación especificados para cada entrada de Previsión de demanda y calculará la previsión restante para cada ubicación.  
+
+Considere este ejemplo: su empresa compra y vende artículos en dos ubicaciones: EAST y WEST. Para ambas ubicaciones, ha configurado una política de reordenación de lote a lote. Crea una previsión para las dos ubicaciones:
+
+- 10 piezas para ubicación EAST
+- 4 piezas para ubicación WEST
+
+Luego, crea un pedido de cliente con una cantidad de 12 en la ubicación WEST. El sistema de planificación le sugerirá que haga lo siguiente:
+
+- Reponga 10 piezas para la ubicación EAST, según los datos del pronóstico.  
+- Reponga 12 piezas para la ubicación WEST, según la orden de venta. Las 4 piezas que se especificaron en el pronóstico son consumidas por completo por la demanda real de la orden de venta. Para obtener más información, consulte la sección sobre la [reducción de la demanda de previsión por parte de pedidos de venta](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders). 
+
+> [!NOTE]  
+>  Si las previsiones en función de las ubicaciones se observan por separado, la previsión global podría no ser representativa.
+
+### <a name="do-not-use-forecast-by-locations"></a>No use previsiones por almacenes
+Si deshabilita **Usar pronóstico por ubicación**, entonces [!INCLUDE[prod_short](includes/prod_short.md)] ignorará los códigos de ubicación especificados para cada entrada de Previsión de demanda y agregará las previsiones en una previsión para ubicaciones vacías.  
+
+Considere este ejemplo: su empresa compra y vende artículos en dos ubicaciones: EAST y WEST. Para ambas ubicaciones, ha configurado una política de reordenación de lote a lote. Crea una previsión para las dos ubicaciones:
+
+- 10 piezas para ubicación EAST
+- 4 piezas para ubicación WEST
+
+Luego, crea un pedido de cliente con una cantidad de 12 en la ubicación WEST. El sistema de planificación le sugerirá que haga lo siguiente:
+
+- Reponga 12 piezas para la ubicación WEST, según la orden de venta. 
+- Reponga 2 piezas para la ubicación vacía. Las 10 y 4 piezas que se especificaron en el pronóstico son consumidas parcialmente por la demanda real de la orden de venta. [!INCLUDE[prod_short](includes/prod_short.md)] ignoró los códigos de ubicación que fueron especificados por el usuario y en su lugar utiliza una ubicación en blanco.
+
+> [!NOTE]  
+>  Puede establecer un filtro por ubicaciones, pero es posible que los resultados basados en la ubicación no coincidan con los resultados de la planificación sin filtros.
 
 ## <a name="to-create-a-demand-forecast"></a>Para crear una previsión de la demanda
 
@@ -74,4 +108,4 @@ Puede establecerse en la configuración de fabricación si desea filtrar el pron
 [Compras](purchasing-manage-purchasing.md)  
 [Detalles de diseño: planificación de aprovisionamiento](design-details-supply-planning.md)   
 [Procedimientos recomendados de configuración: planificación de suministros](setup-best-practices-supply-planning.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

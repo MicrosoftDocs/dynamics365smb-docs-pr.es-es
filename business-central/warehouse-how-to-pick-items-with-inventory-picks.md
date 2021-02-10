@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7f9887c398833fcf817a6c8707b18b0b77da1ff2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7b3dafdf2341567d2bf294065cf7508295e60aa3
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918318"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759772"
 ---
 # <a name="pick-items-with-inventory-picks"></a>Realizar el picking de productos con picking inventario
 
@@ -99,7 +99,7 @@ La página **Picking de inventario** también se utiliza para realizar el pickin
 
 Los productos que se van a enviar no están presentes físicamente en una ubicación hasta que se ensamblan y se registran como salida en una ubicación de la zona de ensamblado. Esto significa que realizar el picking de productos ensamblar para pedido para el envío sigue un flujo especial. De una ubicación, los empleados del almacén toman los productos de ensamblado al muelle de envío y después registran el picking de inventario. El picking de inventario registrado registra a continuación la salida de ensamblado, el consumo de componentes y el albarán de venta.
 
-Puede configurar [!INCLUDE[d365fin](includes/d365fin_md.md)] para que cree automáticamente un movimiento de inventario cuando el picking de inventario para el producto del ensamblado se crea. Para habilitarlo, debe seleccionar el campo **Crear movimientos automáticamente** en la página **Conf. ensamblado**. Para obtener más información, consulte [Mover componentes a un área de operaciones en el almacenamiento básico](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
+Puede configurar [!INCLUDE[prod_short](includes/prod_short.md)] para que cree automáticamente un movimiento de inventario cuando el picking de inventario para el producto del ensamblado se crea. Para habilitarlo, debe seleccionar el campo **Crear movimientos automáticamente** en la página **Conf. ensamblado**. Para obtener más información, consulte [Mover componentes a un área de operaciones en el almacenamiento básico](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
 
 Las líneas de picking de existencias se crean de diferentes modos en función de que no se ensamble ninguna, alguna o toda la cantidad de línea de venta para pedido.
 
@@ -121,4 +121,4 @@ En escenarios de combinación, donde parte de la cantidad debe ensamblarse prime
 [Gestión de ensamblaje](assembly-assemble-items.md)  
 [Tutorial: picking y envío en la configuración del almacenamiento básico](walkthrough-picking-and-shipping-in-basic-warehousing.md)  
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

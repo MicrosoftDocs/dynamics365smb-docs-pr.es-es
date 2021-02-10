@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a434de3479f4b100317230b93b06b922fa04692b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 68844bd869e2e0437ae53ad507e8d2c752c5496f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916606"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759422"
 ---
 # <a name="set-up-standard-routing-lines"></a>Configurar de líneas de ruta estándar
 
@@ -45,4 +45,4 @@ Cuando imprime la hoja de ruta, puede optar por incluir los elementos de la tare
 [Planificación](production-planning.md)  
 [Inventario](inventory-manage-inventory.md)  
 [Compras](purchasing-manage-purchasing.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

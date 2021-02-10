@@ -10,48 +10,50 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 44cbc7d42827b92f8983aa47b94d76760ddda8d2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 32c3fedfbeea37a1be315d737ac9fe41b5c7c20a
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924266"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035436"
 ---
 # <a name="design-details-warehouse-setup"></a>Detalles de diseño: Configuración de almacén
 
-La funcionalidad de almacén en [!INCLUDE[d365fin](includes/d365fin_md.md)] contiene distintos niveles de complejidad, tal como se define mediante los permisos de licencia en los módulos ofrecidos. El nivel de complejidad de una solución de almacén se define en gran medida con la configuración de ubicación en las fichas de ubicación, que, a su vez, se controla mediante licencia, por lo que el acceso a los campos de configuración de ubicación está definido por la licencia. Además, los objetos de la aplicación en la licencia rigen qué documento de la IU que se deberá usar para las actividades de almacén permitidas.  
+La funcionalidad de almacén en [!INCLUDE[prod_short](includes/prod_short.md)] contiene distintos niveles de complejidad, tal como se define mediante los permisos de licencia en los módulos ofrecidos. El nivel de complejidad de una solución de almacén se define en gran medida con la configuración de ubicación en las fichas de ubicación, que, a su vez, se controla mediante licencia, por lo que el acceso a los campos de configuración de ubicación está definido por la licencia. Además, los objetos de la aplicación en la licencia rigen qué documento de la IU que se deberá usar para las actividades de almacén permitidas.  
+<!--
+The following warehouse-related granules exist:  
 
-Existen los siguientes módulos relacionados con el almacén:  
+- Basic Inventory (4010)  
+- Bin (4170)  
+- Put Away (4180)  
+- Warehouse Receipt (4190)  
+- Pick (4200)  
+- Warehouse Shipment (4210)  
+- Warehouse Management Systems (4620)  
+- Internal Picks and Put-aways (4630)  
+- Automated Data Capture System (4640)
+- Bin Setup (4660)  
 
-- Inventario básico (4010)  
-- Ubicación (4170)  
-- Ubicación (4180)  
-- Recep. almacén (4190)  
-- Picking (4200)  
-- Envío almacén (4210)  
-- Sistema de gestión de almacenes (4620)  
-- Almacenes y selecciones internos (4630)  
-- Sistema de captura de datos automatizado (4640)
-- Configuración de ubicación (4660)  
+For more information about each granule, see [[!INCLUDE[prod_short](includes/prod_short.md)] Price Sheets](https://go.microsoft.com/fwlink/?LinkId=238341) (requires PartnerSource account). -->
 
-Para obtener más información sobre cada módulo, consulte [Hojas de precios de [!INCLUDE[d365fin](includes/d365fin_md.md)]](https://go.microsoft.com/fwlink/?LinkId=238341) (requiere una cuenta de PartnerSource).  
+En la tabla siguiente se muestran los módulos que se requieren para definir los distintos niveles de complejidad de almacenamiento, que documentos de IU admite cada nivel y qué códigos de ubicación reflejan estos niveles en la base de datos de demostración de [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-En la tabla siguiente se muestran los módulos que se requieren para definir los distintos niveles de complejidad de almacenamiento, que documentos de IU admite cada nivel y qué códigos de ubicación reflejan estos niveles en la base de datos de demostración de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+[!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
-|Nivel de complejidad|Description|Documento de IU|Almacén de CRONUS|Requisito mínimo del módulo|  
+|Nivel de complejidad|Descripción|Documento de IU|Ubicación de ejemplo|Requisito mínimo del módulo|  
 |----------------|-----------|-----------|---------------|---------------------------|  
 |1|No hay ninguna actividad de almacén dedicada.<br /><br /> Registro de recepción/envío de pedidos.|Pedido|AZUL|Inventario básico|  
 |2|No hay ninguna actividad de almacén dedicada.<br /><br /> Registro de recepción/envío de pedidos.<br /><br /> Se requiere el código de ubicación.|Pedido, con código de ubicación|PLATA|Inventario básico/Ubicación|  
 |3 <br /><br /> **NOTA**: A pesar de que las configuraciones se denominan **Picking requerido** y **Ubicación requerida**, todavía puede registrar recibos y envíos directamente desde los documentos empresariales de origen en las ubicaciones donde se selecciona estas casillas de verificación.|Actividad de almacén básica, pedido por pedido.<br /><br /> Registro de recepción/envío de documentos de ubicación/picking de inventario. <br /><br /> Se requiere el código de ubicación.|Ubicación inventario/Movimiento de inventario/Picking inventario, con código de ubicación|(PLATA + Requerir ubicación o Requerir ubicación)|Inventario básico/Ubicación/Almacén/Selección|  
 |4|Actividad del almacén avanzada, para varios pedidos.<br /><br /> Registro de recepción o envío consolidado según registros de ubicación o selección de almacén.|Recepción de almacén/Ubicación de almacén/Picking de almacén/Envío de almacén/Hoja de trabajo de picking|VERDE|Inventario básico/Recepción en almacén/Almacén/Selección/Envío de almacén|  
 |5|Actividad del almacén avanzada, para varios pedidos.<br /><br /> Registro de recepción o envío consolidado según registros de ubicación o selección de almacén.<br /><br /> Se requiere el código de ubicación.|Recepción de almacén/Ubicación de almacén/Picking de almacén/Envío de almacén/Hoja de trabajo de picking/Hoja de trabajo de ubicación, con código de ubicación|(VERDE + ubicación obligatorio)|Inventario básico/Ubicación/Recepción en almacén/Almacén/Selección/Envío de almacén|  
-|6 <br /><br /> **Nota**: Este nivel se conoce como “SGA”, ya que requiere el módulo más avanzado: Sistemas de gestión de almacenes.|Actividad del almacén avanzada, para varios pedidos<br /><br /> Registro de recepción o envío consolidado según registros de ubicación o selección de almacén<br /><br /> Se requiere el código de ubicación.<br /><br /> El código de zona o clase es opcional.<br /><br /> Empleados de almacén dirigidos por flujo de trabajo<br /><br /> Planificación de reposición de ubicación<br /><br /> Ranking ubicación<br /><br /> Configuración de ubicación por capacidad<br /><br /> Inserción  <!-- Hand-held device integration -->|Recepción de almacén/Ubicación de almacén/Picking de almacén/Envío de almacén/Movimiento de almacén/Hoja de trabajo de picking/Hoja de trabajo de ubicación/Picking almacén interno /Ubicación de almacén interno con código de ubicación/clase/zona<br /><br /> Varias hojas de trabajo para la administración de ubicaciones<br /><br /> Pantallas de ADCS|BLANCO|Inventario básico/Ubicación/Almacén/Recepción en almacén/Selección/Envío de almacén/Sistemas de gestión de almacenes/Almacenes y selecciones internos/Configuración de almacén/<!-- Automated Data Capture System/ -->Configuración de ubicación|  
+|6 <br /><br /> **Nota**: Este nivel se conoce como "SGA", ya que requiere el módulo más avanzado: Sistemas de gestión de almacenes.|Actividad del almacén avanzada, para varios pedidos<br /><br /> Registro de recepción o envío consolidado según registros de ubicación o selección de almacén<br /><br /> Se requiere el código de ubicación.<br /><br /> El código de zona o clase es opcional.<br /><br /> Empleados de almacén dirigidos por flujo de trabajo<br /><br /> Planificación de reposición de ubicación<br /><br /> Ranking ubicación<br /><br /> Configuración de ubicación por capacidad<br /><br /> Inserción  <!-- Hand-held device integration -->|Recepción de almacén/Ubicación de almacén/Picking de almacén/Envío de almacén/Movimiento de almacén/Hoja de trabajo de picking/Hoja de trabajo de ubicación/Picking almacén interno /Ubicación de almacén interno con código de ubicación/clase/zona<br /><br /> Varias hojas de trabajo para la administración de ubicaciones<br /><br /> Pantallas de ADCS|BLANCO|Inventario básico/Ubicación/Almacén/Recepción en almacén/Selección/Envío de almacén/Sistemas de gestión de almacenes/Almacenes y selecciones internos/Configuración de almacén/<!-- Automated Data Capture System/ -->Configuración de ubicación|  
 
 Para ver ejemplos de cómo se usan los documentos de la IU por nivel de complejidad de almacén, consulte [Detalles de diseño: Flujo de entrada en almacén](design-details-inbound-warehouse-flow.md).  
 
 ## <a name="bin-and-bin-content"></a>Ubicación y contenido de ubicación
 
-Una ubicación es un dispositivo de almacenamiento diseñado para contener partes diferenciadas. Es la unidad de contenedor de menos tamaño en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Las cantidades de producto en las ubicaciones se denominan contenido de ubicación. Una búsqueda desde campo de **Producto** o el campo **Cód. ubicación** en cualquier línea de documento relacionada con el almacén muestra la disponibilidad calculada del producto en la ubicación.  
+Una ubicación es un dispositivo de almacenamiento diseñado para contener partes diferenciadas. Es la unidad de contenedor de menos tamaño en [!INCLUDE[prod_short](includes/prod_short.md)]. Las cantidades de producto en las ubicaciones se denominan contenido de ubicación. Una búsqueda desde campo de **Producto** o el campo **Cód. ubicación** en cualquier línea de documento relacionada con el almacén muestra la disponibilidad calculada del producto en la ubicación.  
 
 Un contenido de ubicación puede tener una propiedad de Fija, Dedicada, o Predeterminada para definir cómo el contenido de la ubicación puede utilizarse. Las ubicaciones con ninguna de estas propiedades se conocen como ubicaciones aleatorias.  
 

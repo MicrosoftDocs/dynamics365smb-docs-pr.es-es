@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 056ed7dd978d4c9cc5c3745997912bd32c40bed8
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8909e4428aa97190ea6ccb5b83997657f29ea96f
+ms.sourcegitcommit: fe6943d410f5dca4e8b2986f95501009ae982d98
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922924"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "4827098"
 ---
 # <a name="count-adjust-and-reclassify-inventory-using-journals"></a>Recuento, ajuste y reclasificación de inventario con diarios
 Como mínimo una vez cada año fiscal, debe realizar un inventario físico (es decir, contar todos los productos del inventario) para ver si la cantidad registrada en la base de datos es la misma que la cantidad física real en los almacenes. Una vez se sepa la cantidad física, debe registrarse en la contabilidad como parte de la evaluación del inventario de final de periodo.
@@ -57,36 +57,6 @@ Puede realizar el inventario físico en cualquiera de las siguientes formas en f
 > [!NOTE]  
 >   Se procesan los movimientos de producto según los datos especificados y se crean las líneas en el diario de inventario físico. Tenga en cuenta que el campo **Cdad. (stock físico)** se rellena automáticamente con la misma cantidad que figura en el campo **Stock calculado**. Con esta función, no hace falta que especifique el recuento de existencias disponibles para productos cuya cantidad coincida con el stock calculado. Sin embargo, si la cantidad contada difiere de lo que se especifica en el campo **Stock calculado**, debe sobregrabarlo con la cantidad contada realmente.
 
-### <a name="to-calculate-the-expected-inventory-in-advanced-warehouse-configurations"></a>Para calcular el inventario esperado en las configuraciones avanzadas del almacén
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diario de productos** y elija el enlace relacionado.  
-2.  Seleccione la acción **Calcular ajuste almacén**.  
-3.  Rellene la página del trabajo por lotes con los números de productos que desea contar y con el almacén.
-4. Elija el botón **Aceptar** y registre los ajustes, si los hay.
-
-    Si no hace esto antes de realizar el inventario físico de almacén, el resultado de registrar el diario del inventario físico y del diario de productos de la segunda parte del proceso será el resultado del inventario físico combinado con otros ajustes de almacén para los productos que se han contado.  
-5.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Diario inv. físico alm.** y elija el enlace relacionado.  
-6. Elija la acción **Calcular inventario**. Se abrirá la página de solicitud del trabajo por lotes **Calcular existencias alm.**  
-7.  Defina los filtros para limitar los productos que se contarán en el diario y, a continuación, seleccione **Aceptar**.
-
-    La aplicación crea una línea para cada ubicación que cumpla los requisitos del filtro. En este momento puede eliminar algunas líneas, pero si desea registrar el resultado como un inventario físico, debe contar el producto en todas las ubicaciones.  
-
-     Si sólo tiene tiempo para contar las existencias del producto en algunas ubicaciones, pero no en todas, puede encontrar diferencias y registrarlas posteriormente en el diario de productos con la función **Calcular ajuste almacén**.  
-8.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Lista invent. fís. alm.** y elija el enlace relacionado.  
-9.  Abra la página de solicitud de informes e imprima las listas en las que desea que los empleados registren la cantidad de productos que han contado en cada ubicación.  
-10. Una vez realizado el recuento, introduzca las cantidades contadas en el campo **Cdad. (stock físico)** en el diario de inventario físico de almacén.  
-
-    > [!NOTE]  
-    >  En el diario de inventario físico de almacén, el campo de **Cdad. (Calculado)** se rellena automáticamente a partir de los registros de la ubicación de almacén y copia estas cantidades al campo **Cdad. (física)** en cada línea. Si la cantidad contada por el empleado de almacén se diferencia de lo que la aplicación ha introducido en el campo Cdad. (física), debe introducir la cantidad contada realmente.  
-
-11. Cuando haya introducido todas las cantidades contadas, elija la acción **Registrar**.  
-
-    Al registrar el diario, la aplicación crea dos movimientos de almacén en el registro por cada línea que se ha contado y registrado:  
-
-    -   Si la cantidad calculada y la cantidad física son distintas, se registra una cantidad negativa o positiva en la ubicación y se registra una cantidad de contrapartida en la ubicación de ajuste del almacén.  
-    -   Si la cantidad calculada es igual que la cantidad física, la aplicación registra un movimiento de 0 en la ubicación y en la ubicación de ajuste. Los movimientos se registran en la fecha en que se ha realizado el inventario físico de almacén y no existen diferencias en las existencias del producto.  
-
-Al registrar el inventario físico de almacén, no se registra el diario de productos, el diario de inventario físico o el movimiento de valoración, si no que los registros se colocan ahí para una conciliación inmediata cuando sea necesario. No obstante, si desea mantener registros exactos de lo que sucede en el almacén y ha contado todas las ubicaciones donde estaban registrados los productos, debe registrar inmediatamente el resultado del almacén como un inventario físico en existencias. Para obtener más información, consulte [Para introducir y registrar el inventario contado real en configuraciones avanzadas de almacén](inventory-how-count-adjust-reclassify.md#to-enter-and-post-the-actual-counted-inventory-in-advanced-warehouse-configurations).
-
 ### <a name="to-print-the-report-to-be-used-when-counting"></a>Para imprimir el informe que va utilizar para el recuento
 1. En la página **Diario inventario físico** que contiene el inventario previsto calculado, elija la acción **Imprimir**.
 2. En la página **Lista inventario físico**, especifique si el informe debe mostrar el stock calculado y si el informe debe indicar los productos de inventario por números de serie o lote.
@@ -113,17 +83,39 @@ Los empleados pueden ahora proceder a contar el inventario y registrar las discr
 3. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos** y luego elija el enlace relacionado.
 4. Para verificar el recuento del inventario, abra la ficha del producto en cuestión y, a continuación, elija la acción **Movimientos del inventario físico**.
 
+### <a name="to-calculate-the-expected-inventory-in-advanced-warehouse-configurations"></a>Para calcular el inventario esperado en las configuraciones avanzadas del almacén
+Sincronice el diario de productos el almacén antes de realizar el inventario físico de almacén, de lo contrario, el resultado de registrar el diario del inventario físico y del diario de productos de la parte final del proceso será el resultado del inventario físico combinado con otros ajustes de almacén para los productos que se han contado. Para más información, ver [sincronizar cantidades en el libro mayor de artículos y el almacén](inventory-how-count-adjust-reclassify.md#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries)
+
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Diario inv. físico alm.** y elija el enlace relacionado.  
+2. Elija la acción **Calcular inventario**. Se abrirá la página de solicitud del trabajo por lotes **Calcular existencias alm.**  
+3. Defina los filtros para limitar los productos que se contarán en el diario y, a continuación, seleccione **Aceptar**.
+
+    La aplicación crea una línea para cada ubicación que cumpla los requisitos del filtro. En este momento puede eliminar algunas líneas, pero si desea registrar el resultado como un inventario físico, debe contar el producto en todas las ubicaciones.  
+
+     Si sólo tiene tiempo para contar las existencias del producto en algunas ubicaciones, pero no en todas, puede encontrar diferencias y registrarlas posteriormente en el diario de productos con la función **Calcular ajuste almacén**.  
+
+
+### <a name="to-print-the-report-to-be-used-when-counting"></a>Para imprimir el informe que va utilizar para el recuento
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Lista de inventario físico de almacén** y luego elija el enlace relacionado.  
+2. Abra la página de solicitud de informes e imprima las listas en las que desea que los empleados registren la cantidad de productos que han contado en cada ubicación.  
+
+Los empleados pueden ahora proceder a contar el inventario y registrar las discrepancias en el informe impreso.
+
 ### <a name="to-enter-and-post-the-actual-counted-inventory-in-advanced-warehouse-configurations"></a>Para introducir y registrar el inventario contado real en configuraciones avanzadas de almacén
+1. Una vez realizado el recuento, introduzca las cantidades contadas en el campo **Cdad. (stock físico)** en el diario de inventario físico de almacén.  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diario de productos** y elija el enlace relacionado.  
-2.  Seleccione la acción **Calcular ajuste almacén**.  
-3.  Seleccione los mismos artículos que ha contado en el inventario físico de recuento cíclico que acaba de realizar, y los demás artículos que requieran ajuste y, a continuación, seleccione el botón **Aceptar**.  
+    > [!NOTE]  
+    >  En el diario de inventario físico de almacén, el campo de **Cdad. (Calculado)** se rellena automáticamente a partir de los registros de la ubicación de almacén y copia estas cantidades al campo **Cdad. (física)** en cada línea. Si la cantidad contada por el empleado de almacén se diferencia de lo que la aplicación ha introducido en el campo Cdad. (física), debe introducir la cantidad contada realmente.  
 
-     Se abrirá la página **Diario inventario** y las líneas creadas para estos artículos. Tenga en cuenta que las cantidades neta que acaba de contar y registrar ubicación por ubicación están ahora listas para consolidarlas y para sincronizarlas como movimientos de producto.  
+2. Cuando haya introducido todas las cantidades contadas, elija la acción **Registrar**.  
 
-4.  Registre el diario sin cambiar las cantidades.  
+    Al registrar el diario, la aplicación crea dos movimientos de almacén en el registro por cada línea que se ha contado y registrado:  
 
-Las cantidades del diario de productos (movimientos de producto) y las cantidades del almacén (movimientos de almacén) son de nuevo las mismas para estos productos y la aplicación ha actualizado la última fecha de recuento del producto o unidad de almacenamiento.  
+    -   Si la cantidad calculada y la cantidad física son distintas, se registra una cantidad negativa o positiva en la ubicación y se registra una cantidad de contrapartida en la ubicación de ajuste del almacén.  
+    -   Si la cantidad calculada es igual que la cantidad física, la aplicación registra un movimiento de 0 en la ubicación y en la ubicación de ajuste. Los movimientos se registran en la fecha en que se ha realizado el inventario físico de almacén y no existen diferencias en las existencias del producto.  
+
+Al registrar el inventario físico de almacén, no se registra el diario de productos, el diario de inventario físico o el movimiento de valoración, si no que los registros se colocan ahí para una conciliación inmediata cuando sea necesario. No obstante, si desea mantener registros exactos de lo que sucede en el almacén y ha contado todas las ubicaciones donde estaban registrados los productos, debe registrar inmediatamente el resultado del almacén como un inventario físico en existencias. Para más información, ver [sincronizar cantidades en el libro mayor de artículos y el almacén](inventory-how-count-adjust-reclassify.md#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries).
+
 
 ## <a name="to-perform-cycle-counting"></a>Realizar el recuento cíclico
 Aunque cuente todos los productos del inventario una vez al año, puede que haya decidido contar algunos productos con mayor frecuencia, quizás porque son más valiosos o porque se fluctúan muy rápido y forman una gran parte del negocio. Con este fin, puede asignar períodos de recuento especiales a esos elementos.
@@ -172,7 +164,7 @@ Una vez realizado un recuento físico de un productos en el área de inventario,
 3. En el campo **Nuevo inventario**, escriba la cantidad de inventario que desea registrar para el producto.
 4. Elija el botón **Aceptar**.
 
-El inventario de producto ahora está ajustado. La nueva cantidad se muestra en el campo **Inventario actual** en la página **Ajustar inventario** y en el campo **Inventario** de la página **Ficha de producto**.
+El inventario de producto ahora está ajustado. La nueva cantidad se muestra en el campo **Cantidad disponible** en la página **Tarjeta de artículo**.
 
 También puede usar la función **Ajustar inventario** como una manera sencilla de incluir los productos comprados en el inventario si no usa facturas o pedidos de compra para registrar las compras. Para obtener más información, consulte [Registrar compras](purchasing-how-record-purchases.md).
 
@@ -187,9 +179,6 @@ Si utiliza con frecuencia el diario de productos para registrar líneas de diari
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diarios de productos** y luego elija el enlace relacionado.
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Seleccione la acción **Registrar** para realizar ajustes de inventario.
-
-> [!NOTE]  
->   Una vez que haya ajustado el inventario, debe actualizarlo con el valor calculado actual. Para obtener más información, vea [Revaluación de inventario](inventory-how-revalue-inventory.md).
 
 ### <a name="to-adjust-bin-quantities-in-advanced-warehouse-configurations"></a>Para ajustar las cantidades de la ubicación de configuraciones avanzadas de almacén  
 Si su almacén utiliza ubicación y picking directo, utilice el **Diario producto almacén** para registrar, fuera del contexto del inventario físico, todos los ajustes positivos y negativos en la cantidad de productos que sabe que son entradas reales, tales como productos registrados anteriormente como que faltaban que han aparecido inesperadamente, o salidas reales, como la rotura de productos frágiles.  
@@ -234,4 +223,4 @@ Para obtener información sobre la transferencia de productos con el control tot
 [Gestión almacenes](warehouse-manage-warehouse.md)    
 [Ccial](sales-manage-sales.md)  
 [Compras](purchasing-manage-purchasing.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

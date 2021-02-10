@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 12cb799668430fe8eaaa47ebb2d93549539bb4eb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3ee126fae6e658700a6f83a37b4c4b77daa98a6e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916706"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759572"
 ---
 # <a name="make-check-payments"></a>Realizar pagos por cheque
 
-Puede emitir cheques electrónicos y manuales en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ambos métodos utilizan el diario de pagos para emitir los cheques a proveedores. También puede anular cheques y ver movimientos de cheques.
+Puede emitir cheques electrónicos y manuales en [!INCLUDE[prod_short](includes/prod_short.md)]. Ambos métodos utilizan el diario de pagos para emitir los cheques a proveedores. También puede anular cheques y ver movimientos de cheques.
 
 El siguiente procedimiento muestra cómo pagar a un proveedor con cheques por ordenador, mediante la liquidación del pago a la factura del proveedor relevante, la impresión del cheque y la contabilización del pago como pagado. Esto da como resultado entradas positivas en la contabilidad del proveedor, aplicadas a las entradas negativas y a los cheques físicos para el procesamiento en el banco.
 
@@ -83,4 +83,4 @@ Si desea revisar los cheques registrados, por ejemplo, para verificar los cheque
 [Administrar pagos](payables-manage-payables.md)  
 [Configurar banca](bank-setup-banking.md)  
 [Exportar un archivo de Positive Pay](finance-how-positive-pay.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

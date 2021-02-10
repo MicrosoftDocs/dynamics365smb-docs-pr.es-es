@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 12d168b24ad28c3895ee7800b0ab5fed99861ec4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 05f45c0c7041771a63dc7b7c7a6b61512d67af2a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923300"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760072"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Tutorial: administración de programas con proyectos
 
@@ -68,7 +68,7 @@ Este tutorial le presenta a las funciones de administración de programas en los
 -   Cree datos de ejemplo como indican los pasos de la siguiente sección.  
 
 ## <a name="story"></a>Historia  
-Este tutorial se centra en la empresa CRONUS España S.A., una empresa de diseño y consultoría que diseña y ajusta nuevas infraestructuras, (como salas de conferencias y oficinas) con mobiliario, accesorios y unidades de almacenamiento. La mayor parte de su trabajo está orientado a los proyectos. Prakash es director de proyectos en CRONUS. Utiliza proyectos para darle un panorama de cada proyecto en curso que CRONUS ha iniciado, además de los proyectos finalizados. Normalmente es uno de los que trata con los clientes e introduce el núcleo del proyecto, que son líneas de tareas y de planificación, además de los precios, en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Observa que crear, mantener y revisar la información es directo. Prakash también considera positiva la forma en que [!INCLUDE[d365fin](includes/d365fin_md.md)] activa copiar los trabajos y el pago por plazos.
+Este tutorial se centra en la empresa CRONUS España S.A., una empresa de diseño y consultoría que diseña y ajusta nuevas infraestructuras, (como salas de conferencias y oficinas) con mobiliario, accesorios y unidades de almacenamiento. La mayor parte de su trabajo está orientado a los proyectos. Prakash es director de proyectos en CRONUS. Utiliza proyectos para darle un panorama de cada proyecto en curso que CRONUS ha iniciado, además de los proyectos finalizados. Normalmente es uno de los que trata con los clientes e introduce el núcleo del proyecto, que son líneas de tareas y de planificación, además de los precios, en [!INCLUDE[prod_short](includes/prod_short.md)]. Observa que crear, mantener y revisar la información es directo. Prakash también considera positiva la forma en que [!INCLUDE[prod_short](includes/prod_short.md)] activa copiar los trabajos y el pago por plazos.
 
  Tricia, miembro del equipo del proyecto que depende de Prakash, es la responsable de supervisar el día a día del proyecto. Ella introduce su propio trabajo además del trabajo realizado por técnicos en cada tarea. Ella registra los productos que han utilizado y los costes en los que han incurrido.  
 
@@ -446,7 +446,7 @@ Comparando los precios, las líneas de tareas de proyectos y las líneas de plan
 
      Cierre la página.  
 
-7.  En la página **Líneas tarea proyecto**, seleccione **tarea 2000**y abra sus **Líneas de planificación de proyecto**.  
+7.  En la página **Líneas tarea proyecto**, seleccione **tarea 2000** y abra sus **Líneas de planificación de proyecto**.  
 
      La siguiente tabla describe las líneas de planificación que creará.  
 
@@ -480,7 +480,7 @@ Comparando los precios, las líneas de tareas de proyectos y las líneas de plan
 3.  Elija la acción **Crear factura/abono de venta**. En la factura de venta, puede ver que sólo se incluye en la factura el pago de entrada. Ahora puede enviarlo al cliente como acordaron.  
 
 ## <a name="next-steps"></a>Pasos siguientes  
- Este tutorial le ha llevado por algunos de los pasos básicos de trabajo con los proyectos en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ha aprendido acerca de cómo crear un trabajo nuevo, cómo copiar un trabajo y cómo administrar los pagos. Además, ha visto una demostración de cómo seguir las horas y crear las facturas.  
+ Este tutorial le ha llevado por algunos de los pasos básicos de trabajo con los proyectos en [!INCLUDE[prod_short](includes/prod_short.md)]. Ha aprendido acerca de cómo crear un trabajo nuevo, cómo copiar un trabajo y cómo administrar los pagos. Además, ha visto una demostración de cómo seguir las horas y crear las facturas.  
 
 ## <a name="see-also"></a>Consulte también  
  [Tutoriales de procesos empresariales](walkthrough-business-process-walkthroughs.md)   
@@ -488,4 +488,4 @@ Comparando los precios, las líneas de tareas de proyectos y las líneas de plan
  [Usar recursos](projects-how-use-resources.md)   
  [Supervisar el progreso y el rendimiento](projects-how-monitor-progress-performance.md)   
  [Facturar proyectos](projects-how-invoice-jobs.md)  
- [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

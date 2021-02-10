@@ -1,5 +1,5 @@
 ---
-title: Como crear una L.M. de producción | Documentos de Microsoft
+title: Creación de L.M. de producción
 description: Una L.M. de producción contiene datos maestros que describen los componentes y los productos semiterminados utilizados en la fabricación de un producto principal. Una vez creada la orden de producción para el producto principal, la L.M. de producción controlará el cálculo de las necesidades de material tal como se representan en la página **Componentes orden producción**.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,19 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 01/05/2020
 ms.author: edupont
-ms.openlocfilehash: 1d053c65b94efdb3b033c617f1b6b2db316c1ec2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5c9f2fa03f5f20e533237e60762dc60fc679d0d0
+ms.sourcegitcommit: cdba82235c0c07497bd04b9bd5134ef245d92c09
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919293"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "4838487"
 ---
 # <a name="create-production-boms"></a>Crear LM de producción
+
 Una lista de materiales (L.M.) de producción contiene datos maestros que describen los componentes y los subconjuntos utilizados en la fabricación de un producto principal. Una vez creada la orden de producción para el producto principal, la L.M. de producción controlará el cálculo de las necesidades de material tal como se representan en la página **Componentes orden producción**.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] también admite L.M. de ensamblado. Utilice los pedidos de ensamblado para crear productos finales de los componentes en un proceso sencillo que se pueda realizar por uno o varios recursos básicos, que no sean máquinas o centros de trabajo, o sin ningún recurso. Por ejemplo, un proceso de ensamblado podría ser el picking de dos botellas de vino y un saco de café y, después, empaquetarlo todo como artículo de regalo. Para obtener más información, consulte [L.M. de ensamblado o L.M. de producción](inventory-how-work-boms.md#assembly-boms-or-production-boms).  
+[!INCLUDE[prod_short](includes/prod_short.md)] también admite L.M. de ensamblado. Utilice los pedidos de ensamblado para crear productos finales de los componentes en un proceso sencillo que se pueda realizar por uno o varios recursos básicos, que no sean máquinas o centros de trabajo, o sin ningún recurso. Por ejemplo, un proceso de ensamblado podría ser el picking de dos botellas de vino y un saco de café y, después, empaquetarlo todo como artículo de regalo. Para obtener más información, consulte [L.M. de ensamblado o L.M. de producción](inventory-how-work-boms.md#assembly-boms-or-production-boms).  
 
 Para poder configurar una ruta, lo siguiente debe existir:  
 
@@ -48,7 +49,7 @@ Para poder configurar una ruta, lo siguiente debe existir:
 12.  Ahora puede asociar la L.M. de producción nueva a la ficha del producto principal en cuestión. Para obtener más información, vea [Registrar nuevos productos](inventory-how-register-new-items.md).  
 
 > [!NOTE]  
->  Para volver a calcular el coste estándar del producto desde la ficha del producto, seleccione la acción **Fabricación** y, a continuación, seleccione la ación **Calcular coste estándar**.  
+> [!INCLUDE [bom-standard-cost](includes/bom-standard-cost.md)] Para volver a calcular el coste estándar del producto desde la ficha del producto, seleccione la acción **Fabricación** y, a continuación, seleccione la ación **Calcular coste estándar**.  
 
 ## <a name="to-create-a-new-versions-of-a-production-bom"></a>Para crear una versión nueva de una L.M. de producción
 Se utilizan las nuevas versiones de la L.M. de producción cuando, por ejemplo, un producto se sustituye por otro, o cuando un cliente solicita una versión especial de un producto. El principio de versión permite administrar varias versiones de una L.M. de producción. La estructura de la versión de la L.M. de producción se corresponde con la de la L.M. de producción. La diferencia básica es la validez en el tiempo de las versiones. La validez se define mediante la fecha inicial.  
@@ -96,4 +97,4 @@ En una L.M. de producción, se necesitan setenta componentes de metal con las di
 [Planificación](production-planning.md)   
 [Inventario](inventory-manage-inventory.md)  
 [Compras](purchasing-manage-purchasing.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

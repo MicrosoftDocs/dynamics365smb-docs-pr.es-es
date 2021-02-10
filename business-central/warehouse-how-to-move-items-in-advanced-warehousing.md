@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6251b995d81f9452188fb40e9ac7e9ec6ba234d5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 976ea1b26ec9a765bf38d38eadf77429d1ade61e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911826"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759822"
 ---
 # <a name="move-items-in-advanced-warehouse-configurations"></a>Mover productos en configuraciones avanzadas de almacén
 En configuraciones de almacén avanzadas, es decir, en ubicaciones con ubicación y picking directos, los movimientos de almacén entre ubicaciones los realiza un empleado con experiencia que los prepara en la hoja de trabajo de movimientos y, a continuación, crea dichos movimientos para que los realicen los empleados de almacén.  
@@ -53,4 +53,4 @@ Si utiliza ubicación y picking directos y necesita mover productos a otros ubic
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

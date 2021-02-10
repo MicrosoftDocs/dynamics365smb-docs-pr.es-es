@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5c957005251b65e1b6c37bb42946146c6a013cfd
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8b6837c9acec83654c7d85e98e93c00e30e50eb1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925427"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759747"
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Planificar ubicaciones en hojas de trabajo
 Si el almacén requiere los procesos de ubicación y recepción, y desea planificar instrucciones de ubicación para varios albaranes, en vez de hacer que los empleados sigan las instrucciones que crea la aplicación para albaranes registrados independientes, puede utilizar la hoja de trabajo de ubicación.  
@@ -68,4 +68,4 @@ Si no selecciona este campo, la aplicación creará automáticamente instruccion
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

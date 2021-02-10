@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6b517c9b34d7046e8a4aae49f0392edf28cf4341
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ed8b60c5b49502251f6ab6e61d22fd860af0915f
+ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912551"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "5024543"
 ---
 # <a name="define-document-layouts-for-customers-and-vendors"></a>Definir diseños de documentos para clientes y proveedores
-Cuando se definen diseños de informes personalizados, puede seleccionarlos de las tarjetas de clientes y proveedores para especificar qué diseños se utilizarán para los diferentes tipos de documentos que cree para el cliente o el proveedor en cuestión. El valor en el campo **Uso** define para qué proceso se utilizará el diseño del documento, como **Recordatorio**, **Envío**y **Confirmación**.
+Cuando se definen diseños de informes personalizados, puede seleccionarlos de las tarjetas de clientes y proveedores para especificar qué diseños se utilizarán para los diferentes tipos de documentos que cree para el cliente o el proveedor en cuestión. El valor en el campo **Uso** define para qué proceso se utilizará el diseño del documento, como **Recordatorio**, **Envío** y **Confirmación**.
 
 Además de configurar qué diseños se usarán para cada documento, puede ahorrar tiempo al enviar documentos a diferentes contactos de clientes o proveedores configurando las direcciones de correo electrónico de contactos específicos para usar con documentos específicos. Por ejemplo, los estados de cuenta de los clientes se enviarán a los contactos de contable, los pedidos de venta a los compradores de sus clientes y los pedidos de compra a los vendedores o administradores de cuentas de los proveedores.
 

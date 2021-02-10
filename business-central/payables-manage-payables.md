@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9d7da8009b1bb7522bba0b6d59fa2bf3629abc28
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 9257259fd6de8e118dd48057809cba79576469a5
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916656"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759547"
 ---
 # <a name="managing-payables"></a>Administración de pagos
 
@@ -42,6 +42,6 @@ En la tabla siguiente se muestra una secuencia de tareas de cuentas por pagar, c
 [Administrar cobros](receivables-manage-receivables.md)  
 [Usar los cargos de producto a cuenta para los costes comerciales adicionales](payables-how-assign-item-charges.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

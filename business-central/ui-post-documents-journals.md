@@ -11,17 +11,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2ffba43c94a02a8bf31a09f4705b0f24312e3c17
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 1a378d4b5a93d1397512739cce898fe7566707c8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912051"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760397"
 ---
 # <a name="posting-documents-and-journals"></a>Registrar documentos y diarios
 Registrar representa la acción contable de registrar transacciones empresariales en extractos de varias empresas.
 
-Prácticamente cada documento y diario de [!INCLUDE[d365fin](includes/d365fin_md.md)] ofrece un grupo **Registro** del que puede elegir entre diferentes acciones de registro, como **Registrar**, **Vista previa de registro**, **Registrar y enviar** y **Registrar y enviar por correo electrónico**.
+Prácticamente cada documento y diario de [!INCLUDE[prod_short](includes/prod_short.md)] ofrece un grupo **Registro** del que puede elegir entre diferentes acciones de registro, como **Registrar**, **Vista previa de registro**, **Registrar y enviar** y **Registrar y enviar por correo electrónico**.
 
 En la tabla siguiente se describen tareas relacionadas con vínculos a los temas que las describen.
 
@@ -37,4 +37,4 @@ En la tabla siguiente se describen tareas relacionadas con vínculos a los temas
 ## <a name="see-also"></a>Consulte también
 [Editar documentos registrados](across-edit-posted-document.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

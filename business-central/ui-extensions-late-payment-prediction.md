@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 6456d982629571d4d39622a910df4bfd7039d7a8
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6fc4f700f7469c280474e4a1f606ade24ef1266b
+ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915065"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "4817059"
 ---
 # <a name="the-late-payment-prediction-extension"></a>Extensión de Predicción de pagos atrasados  
 La gestión efectiva de los cobres es importante para el estado financiero general de una empresa. La extensión de Predicción de pagos atrasados puede ayudarle a reducir los cobros pendientes y afinar su estrategia de cobros puesto que predice si las facturas de ventas se pagarán a tiempo. Por ejemplo, si se predice que un pago se retrasará, puede decidir ajustar los términos de pago o el método de pago para el cliente.
@@ -30,7 +30,7 @@ Para activar la extensión manualmente, siga estos pasos:
 2. Rellene los campos según sea necesario.
 
 > [!Note]
-> Si decide habilitar la extensión manualmente, tenga en cuenta que [!INCLUDE[d365fin](includes/d365fin_md.md)] no le permitirá hacerlo si la calidad del modelo es baja. La calidad del modelo indica la precisión de las predicciones. Varios factores pueden afectar la calidad de un modelo. Por ejemplo, podría no haber suficientes datos o que los datos no contuviesen suficiente variación. Puede ver la calidad del modelo que utiliza actualmente en la página **Configuración de predicción de pago atrasado**. También puede especificar un umbral mínimo de calidad para el modelo.   
+> Si decide habilitar la extensión manualmente, tenga en cuenta que [!INCLUDE[prod_short](includes/prod_short.md)] no le permitirá hacerlo si la calidad del modelo es baja. La calidad del modelo indica la precisión de las predicciones. Varios factores pueden afectar la calidad de un modelo. Por ejemplo, podría no haber suficientes datos o que los datos no contuviesen suficiente variación. Puede ver la calidad del modelo que utiliza actualmente en la página **Configuración de predicción de pago atrasado**. También puede especificar un umbral mínimo de calidad para el modelo.   
 
 ## <a name="viewing-all-payment-predictions"></a>Ver todas las predicciones de pago
 Si habilita la extensión, estará disponible un mosaico de **Pagos previstos como atrasados** el Área de trabajo del **administrador de negocio**. El mosaico muestra la cantidad de pagos que se prevé que se atrasarán y le permite abrir la página **Movs. clientes** en la que puede profundizar en las facturas publicadas. Hay tres columnas a las que se les debe prestar atención:  
@@ -49,7 +49,7 @@ También puede predecir pagos atrasados por adelantado. En las páginas **Oferta
 On the **Late Payment Prediction Setup** page you can schedule updates to payment predictions for a time that is convenient for you. -->
 
 ## <a name="design-details"></a>Detalles de diseño
-Microsoft implementa y opera varios servicios web predictivos en todas las regiones donde [!INCLUDE[d365fin](includes/d365fin_md.md)] está disponible. El acceso a estos servicios web está incluido en su suscripción a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, consulte la Guía de licencias de Microsoft Dynamics 365 Business Central. La guía está disponible para descargar en el sitio web de [Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/).
+Microsoft implementa y opera varios servicios web predictivos en todas las regiones donde [!INCLUDE[prod_short](includes/prod_short.md)] está disponible. El acceso a estos servicios web está incluido en su suscripción a [!INCLUDE[prod_short](includes/prod_short.md)]. Para obtener más información, consulte la Guía de licencias de Microsoft Dynamics 365 Business Central. La guía está disponible para descargar en el sitio web de [Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/).
 
 Los servicios web funcionan en tres modos:
 - Modelo de entreno. El servicio web entrena el modelo en función del conjunto de datos proporcionado.
@@ -82,13 +82,13 @@ Además, el registro se enriquece con datos agregados de otras facturas relacion
 > La información sobre el cliente no se incluye en el conjunto de datos.
 
 ### <a name="standard-model-and-my-model"></a>Modelo estándar y mi modelo
-La extensión de Predicción de pagos atrasados contiene un modelo predictivo que se entrena utilizando datos que son representativos de varias pequeñas y medianas empresas. Cuando comience a contabilizar facturas y recibir pagos, [!INCLUDE[d365fin](includes/d365fin_md.md)] evaluará si el modelo estándar se ajusta a su flujo comercial. 
+La extensión de Predicción de pagos atrasados contiene un modelo predictivo que se entrena utilizando datos que son representativos de varias pequeñas y medianas empresas. Cuando comience a contabilizar facturas y recibir pagos, [!INCLUDE[prod_short](includes/prod_short.md)] evaluará si el modelo estándar se ajusta a su flujo comercial. 
 
-Si parece que sus procesos no coinciden con el modelo estándar, aún puede usar la extensión, pero necesitará obtener más datos. Solo siga usando [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Si parece que sus procesos no coinciden con el modelo estándar, aún puede usar la extensión, pero necesitará obtener más datos. Solo siga usando [!INCLUDE[prod_short](includes/prod_short.md)].
 > [!Note]
 > Usamos algo de su tiempo de cálculo cada semana cuando evaluamos y reentrenamos el modelo. 
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] ejecuta el entrenamiento y la evaluación automáticamente cuando hay suficientes facturas pagadas y atrasadas disponibles, sin embargo, puede hacerlo manualmente cuando lo desee.
+[!INCLUDE[prod_short](includes/prod_short.md)] ejecuta el entrenamiento y la evaluación automáticamente cuando hay suficientes facturas pagadas y atrasadas disponibles, sin embargo, puede hacerlo manualmente cuando lo desee.
 
 #### <a name="to-train-and-use-your-model"></a>Para entrenar y usar el modelo
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de predicción de pago atrasado** y luego elija el enlace relacionado.  
@@ -110,4 +110,4 @@ También puede crear su propio servicio web predictivo basado en un modelo públ
 ## <a name="see-also"></a>Consulte también  
 [Documentación de Azure Machine Learning Studio](https://go.microsoft.com/fwlink/?linkid=861765)  
 [Personalizar Business Central con extensiones](ui-extensions.md)  
-[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[[!INCLUDE[prod_long](includes/prod_long.md)]](index.md)  

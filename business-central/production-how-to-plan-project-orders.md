@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 09fea87bb1d8606390fe8c0ed5b2e3780dbc4978
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 87f113e1fedc759fc90443fb3d0a4eb0c1aa9233
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919193"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759222"
 ---
 # <a name="plan-project-orders"></a>Planificar órdenes de proyecto
 Esta tarea de planificación se inicia desde un pedido de venta y para realizarla se utiliza la página **Planificación pedido venta**. Una vez creada la orden de producción de un proyecto, puede seguir planificándola en la página **Planificación de pedidos**.  
@@ -47,4 +47,4 @@ Se mostrará la línea de cabecera de la orden del proyecto con todas las línea
 [Compras](purchasing-manage-purchasing.md)  
 [Detalles de diseño: planificación de aprovisionamiento](design-details-supply-planning.md)   
 [Procedimientos recomendados de configuración: planificación de suministros](setup-best-practices-supply-planning.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

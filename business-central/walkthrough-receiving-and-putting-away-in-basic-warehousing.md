@@ -1,6 +1,6 @@
 ---
-title: 'Tutorial: recepción y ubicación en la configuración básica de almacén | Documentos de Microsoft'
-description: En Business Central, los procesos de entrada para la recepción y la ubicación se pueden realizar de cuatro maneras utilizando distintas funciones según el nivel de complejidad del almacén.
+title: 'Tutorial: recepción y ubicación en la configuración del almacenamiento básico'
+description: En Business Central, los procesos de entrada para la recepción y la ubicación se pueden realizar de cuatro maneras, en función del nivel de complejidad del almacén.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b119883babf1f44ff78482c4849faff72c1ec257
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 674b095c515c6c8be5dde41861ab2cfdc943855f
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918443"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035561"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Tutorial: recepción y ubicación en la configuración del almacenamiento básico
 
 [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
 
-En [!INCLUDE[d365fin](includes/d365fin_md.md)], los procesos de entrada para la recepción y la ubicación se pueden realizar de cuatro maneras utilizando distintas funciones según el nivel de complejidad del almacén.  
+En [!INCLUDE[prod_short](includes/prod_short.md)], los procesos de entrada para la recepción y la ubicación se pueden realizar de cuatro maneras utilizando distintas funciones según el nivel de complejidad del almacén.  
 
 |Método|Proceso de salida|Ubicaciones|Recepciones|Ubicaciones|Nivel de complejidad (consulte [Detalles de diseño: Configuración de almacén](design-details-warehouse-setup.md))|  
 |------------|---------------------|----------|--------------|----------------|--------------------------------------------------------------------------------------------------------------------|  
@@ -51,6 +51,9 @@ En este tutorial, se demuestran las siguientes tareas.
 -   Crear una ubicación de inventario basada en un documento de origen lanzado.  
 -   Compruebe que las ubicaciones se heredan del pedido de compra.  
 -   Registrar el movimiento de almacén en el almacén y, al mismo tiempo, registrar el albarán de compra para el pedido de compra de origen.  
+
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
 ## <a name="roles"></a>Funciones  
 En este tutorial, se demuestran las tareas realizadas por los siguientes roles de usuario:  
@@ -144,4 +147,4 @@ En la página **Ubicación existencias**, puede administrar todas las actividade
  [Mover productos ad hoc en configuraciones básicas de almacén](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)   
  [Detalles de diseño: Flujo de entrada en almacén](design-details-inbound-warehouse-flow.md)   
  [Tutoriales de procesos empresariales](walkthrough-business-process-walkthroughs.md)  
- [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

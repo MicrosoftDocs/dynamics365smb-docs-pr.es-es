@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d2b0d6219215d734a77e0ebcd821ef9aaa2ae3f2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d00650a3490cd4995e4c531aca5346c8c0256179
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919218"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759272"
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Modificar las sugerencias de planificación en una vista gráfica
 
-Una actividad típica de planificación consiste en cambiar o añadir líneas de la hoja de planificación para modificar los pedidos de suministros sugeridos antes de confirmarlos ejecutando la función **Ejecutar mensajes acción**. Una alternativa a hacerlo en la hoja de trabajo de planificación es utilizar una vista gráfica. Sin embargo, esto no se admite actualmente en [!INCLUDE[prodshort](includes/prodshort.md)].  
+Una actividad típica de planificación consiste en cambiar o añadir líneas de la hoja de planificación para modificar los pedidos de suministros sugeridos antes de confirmarlos ejecutando la función **Ejecutar mensajes acción**. Una alternativa a hacerlo en la hoja de trabajo de planificación es utilizar una vista gráfica. Sin embargo, esto no se admite actualmente en [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 <!--On the **Item Availability by Timeline** page, you can modify certain supply orders and suggestions by dragging elements on the x-axis to change quantity or dragging elements on the y-axis to change due date.  
 
@@ -102,4 +102,4 @@ To implement the supply plan changes, you must follow the resulting action messa
 [Compras](purchasing-manage-purchasing.md)  
 [Detalles de diseño: Planificación de aprovisionamiento](design-details-supply-planning.md)  
 [Procedimientos recomendados de configuración: planificación de suministros](setup-best-practices-supply-planning.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

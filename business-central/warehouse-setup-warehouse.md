@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 94c793441d413820f3dd752179c0268147fc2f8f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c96691ada97f0ee91b53d9cde303c2413e99025e
+ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920225"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "5024392"
 ---
 # <a name="setting-up-warehouse-management"></a>Configuración de la gestión del almacén
 La estrategia de distribución de una empresa se refleja en la configuración de sus procesos de almacén. Esto incluye definir el tratamiento de los distintos productos en ubicaciones distintas del almacén, como el nivel de control de ubicación y el alcance del flujo de trabajo necesario entre las actividades de almacén.  
@@ -40,10 +40,11 @@ La estrategia de distribución de una empresa se refleja en la configuración de
 |Configurar el almacén para que proponga automáticamente los productos susceptibles de picking que caducan primero.|[Habilitar el picking por FEFO](warehouse-picking-by-fefo.md)|
 |Obtener información sobre el modo de reorganizar ubicaciones o zonas para lograr mayor eficiencia en las actividades del almacén.|[Reestructurar almacenes](warehouse-how-to-restructure-warehouses.md)|
 |Integrar los lectores de códigos de barras a su solución de gestión de almacenes. Solo para la implementación local.|[Utilice el sistema de captura de datos automatizado (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)|
+|Especifique informes predeterminados que se utilizarán para diferentes tipos de documentos.|[Selección de informes en Business Central](across-report-selections.md)|
 
 ## <a name="see-also"></a>Consulte también  
 [Gestión de almacenes](warehouse-manage-warehouse.md)  
-[Grupos contables inventario](inventory-manage-inventory.md)  
+[Inventario](inventory-manage-inventory.md)  
 [Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

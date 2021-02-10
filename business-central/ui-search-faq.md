@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: f7534d1e3365dd02b6f9f1afde03b5de76640e1a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7b880ef5cb49a02dcbb3973f87bc64eae48b2b3a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914890"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760247"
 ---
 # <a name="tell-me-faq"></a>FAQ acerca de la función Dígame
 Este tema responde las preguntas que nuestros usuarios avanzados suelen hacer sobre la función Dígame.
@@ -32,7 +32,7 @@ La función Dígame recoge las acciones, páginas e informes que se originan a p
 ### <a name="what-makes-this-different-from-what-was-previously-known-as-page-search"></a>¿Qué diferencia hay con lo que antes se conocía como búsqueda de página?
 La Búsqueda de páginas se ha convertido en la función Dígame para ayudarle a realizar el trabajo rápidamente. La búsqueda de páginas solo puede ayudarle a desplazarse por páginas o informes. A nivel técnico, la función Dígame ya no se basa en el concepto heredado de MenuSuite.
 
-### <a name="i-use-on-premises-d365fin-does-that-include-tell-me"></a>Utilizo [!INCLUDE[d365fin](includes/d365fin_md.md)] local. ¿Incluye la función Dígame?
+### <a name="i-use-on-premises-prod_short-does-that-include-tell-me"></a>Utilizo [!INCLUDE[prod_short](includes/prod_short.md)] local. ¿Incluye la función Dígame?
 Puede usar la función Dígame en el cliente web local para buscar acciones, páginas e informes, pero no documentación, o aplicaciones y servicios de consultoría en AppSource.
 
 ### <a name="is-tell-me-available-for-all-form-factors"></a>¿Está disponible para todos los factores de forma?

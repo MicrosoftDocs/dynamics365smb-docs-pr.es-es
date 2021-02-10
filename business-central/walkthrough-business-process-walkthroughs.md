@@ -10,21 +10,21 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 114124fa73c0de1ec45efedd913ea7ffe3439a57
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 89ee34bac855e40bc44f1e32764968cfd36324a9
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923325"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760135"
 ---
 # <a name="business-process-walkthroughs"></a>Tutoriales de procesos empresariales
 
 En esta selección de tutoriales se proporcionan procesos empresariales completos paso a paso que puede realizar con la empresa de demostración CRONUS España S.A. Los tutoriales constan de procedimientos múltiples, algunos de los que se realizarían normalmente por un usuario, mientras que otros incorporan distintos roles de usuario. Para simular el entorno de trabajo, algunos de los tutoriales contienen los pasos de configuración necesarios para completar los ejercicios como se describe. Estos pasos pueden proporcionar la mejor perspectiva de la clase de información que necesitan los usuarios para compartir con los profesionales de TI de su empresa.  
 
- Los tutoriales son ejemplos completos y deben realizarse desde el principio hasta el final para obtener el máximo beneficio. Muchos están basados en demostraciones de [!INCLUDE[d365fin](includes/d365fin_md.md)] y permiten probar los procedimientos a su ritmo.  
+ Los tutoriales son ejemplos completos y deben realizarse desde el principio hasta el final para obtener el máximo beneficio. Muchos están basados en demostraciones de [!INCLUDE[prod_short](includes/prod_short.md)] y permiten probar los procedimientos a su ritmo.  
 
 > [!NOTE]
-> Algunos de los tutoriales requieren datos de muestra que no están disponibles en la empresa de demostración predeterminada en [!INCLUDE[prodshort](includes/prodshort.md)]. Para obtener más información, vea [Crear una empresa con datos de muestra completos en un entorno aislado](across-how-create-sandbox-environment.md#to-create-a-company-with-complete-sample-data-in-a-sandbox).
+> Algunos de los tutoriales requieren datos de muestra que no están disponibles en la empresa de demostración predeterminada en [!INCLUDE[prod_short](includes/prod_short.md)]. Para obtener más información, vea [Crear una empresa con datos de muestra completos en un entorno aislado](across-how-create-sandbox-environment.md#to-create-a-company-with-complete-sample-data-in-a-sandbox).
 
 |Para|Vea|  
 |--------|---------|  
@@ -44,6 +44,6 @@ En esta selección de tutoriales se proporcionan procesos empresariales completo
 
 ## <a name="see-also"></a>Consulte también
 
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

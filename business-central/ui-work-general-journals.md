@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: journals, recurring, accrual
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d0fba2dc1359da074ddf8fd21823803d49ba1234
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 18c36bf409b2bb5d4e67eeccfdf16193ec4dac62
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920702"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760105"
 ---
 # <a name="working-with-general-journals"></a>Trabajar con diarios generales
 
-La mayoría de las transacciones financieras se registran en la contabilidad a través de documentos empresariales dedicados, como facturas de compra y pedidos de ventas. Pero también puede procesar actividades comerciales como comprar, pagar, usar diarios periódicos para contabilizar acumulaciones o reembolsar los gastos de los empleados contabilizando líneas de diario en los diferentes diarios en [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+La mayoría de las transacciones financieras se registran en la contabilidad a través de documentos empresariales dedicados, como facturas de compra y pedidos de ventas. Pero también puede procesar actividades comerciales como comprar, pagar, usar diarios periódicos para contabilizar acumulaciones o reembolsar los gastos de los empleados contabilizando líneas de diario en los diferentes diarios en [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 La mayoría de los diarios se basan en el *Diario general* y puede procesar todas las transacciones en la página **Diario general**. Para obtener más información, consulte [Registrar transacciones directamente en la contabilidad](finance-how-post-transactions-directly.md).  
 
@@ -41,15 +41,15 @@ Existen varias plantillas de diario general. Cada plantilla de diario se represe
 Para cada plantilla de diario, puede configurar su propio diario personal como una sección de diario. Por ejemplo, puede definir su propia sección de diario del diario de pagos que tiene su diseño y configuración personal. La sugerencia siguiente es un ejemplo de cómo personalizar un diario.
 
 > [!TIP]  
-> Si marca la casilla **Proponer importe de compensación** en la línea de su sección en la página **Secciones diario general**, a continuación, el campo **Importe**, por ejemplo, las líneas de diario general del mismo número de documento se rellena automáticamente con el valor necesario para incluir el saldo del documento. Para obtener más información, consulte [Permitir que [!INCLUDE[d365fin](includes/d365fin_md.md)] proponga valores](ui-let-system-suggest-values.md).
+> Si marca la casilla **Proponer importe de compensación** en la línea de su sección en la página **Secciones diario general**, a continuación, el campo **Importe**, por ejemplo, las líneas de diario general del mismo número de documento se rellena automáticamente con el valor necesario para incluir el saldo del documento. Para obtener más información, consulte [Permitir que [!INCLUDE[prod_short](includes/prod_short.md)] proponga valores](ui-let-system-suggest-values.md).
 
 > [!TIP]
 > Para agregar o eliminar campos en revistas, use en el banner **Personalizando**. Para obtener más información, consulte [Personalizar el área de trabajo](ui-personalization-user.md).
 
 ### <a name="validating-general-journal-batches"></a>Validación de lotes de diario general
-Para ayudar a evitar retrasos al contabilizar, puede activar una comprobación de antecedentes que le notificará cuando haya un error en el diario financiero en el que está trabajando que le impedirá contabilizar el diario. En la página **Lote de diario general** puede elegir **Comprobación de errores de fondo** para hacer que [!INCLUDE[d365fin](includes/d365fin_md.md)] valide los diarios de finanzas, como los diarios generales o de pagos, mientras trabaja en ellos. 
+Para ayudar a evitar retrasos al contabilizar, puede activar una comprobación de antecedentes que le notificará cuando haya un error en el diario financiero en el que está trabajando que le impedirá contabilizar el diario. En la página **Lote de diario general** puede elegir **Comprobación de errores de fondo** para hacer que [!INCLUDE[prod_short](includes/prod_short.md)] valide los diarios de finanzas, como los diarios generales o de pagos, mientras trabaja en ellos. 
 
-Cuando habilita la validación, el Cuadro informativo **Comprobación de diario** se muestra junto a las líneas del diario y mostrará los problemas en la línea actual y en todo el lote. La validación ocurre cuando carga una sección de diario de finanzas y cuando elige otra línea de diario. La ventana **Total de problemas** del Cuadro informativo muestra el número total de problemas que [!INCLUDE[d365fin](includes/d365fin_md.md)] ha encontrado y puede elegirla para abrirla y ver una descripción general de los problemas. 
+Cuando habilita la validación, el Cuadro informativo **Comprobación de diario** se muestra junto a las líneas del diario y mostrará los problemas en la línea actual y en todo el lote. La validación ocurre cuando carga una sección de diario de finanzas y cuando elige otra línea de diario. La ventana **Total de problemas** del Cuadro informativo muestra el número total de problemas que [!INCLUDE[prod_short](includes/prod_short.md)] ha encontrado y puede elegirla para abrirla y ver una descripción general de los problemas. 
 
 Puede usar las acciones **Mostrar líneas con problemas** y **Mostrar todas las líneas** para alternar entre líneas del diario que tienen o no tienen problemas. El nuevo Cuadro informativo **Detalles de línea del diario** proporciona una descripción general rápida y acceso a los datos desde las líneas del diario, como la cuenta, el cliente o el proveedor, así como la configuración de contabilización para cuentas específicas.     
 
@@ -203,7 +203,7 @@ Cuando sea necesario, los valores del campo **Nº documento** se cambian para qu
 [Revertir los registros de diario y deshacer los recibos/envíos](finance-how-reverse-journal-posting.md)  
 [Asignar costes e ingresos](year-allocate-costs-income.md)  
 [Finanzas](finance.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Cerrar los movimientos de producto abiertos que se crean por una liquidación fija en el diario de productos](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
 [Revalorizar inventario en el diario de revalorización](inventory-how-revalue-inventory.md)  
 [Recuento, ajuste y reclasificación de inventario con diarios](inventory-how-count-adjust-reclassify.md)  

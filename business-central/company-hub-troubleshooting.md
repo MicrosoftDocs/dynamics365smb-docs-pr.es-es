@@ -1,6 +1,6 @@
 ---
 title: Solución de problemas del hub de empresas
-description: Obtenga información sobre cómo solucionar problemas en el hub de empresas de Dynamics 365 Business Central.
+description: Aprenda a solucionar cualquier problema cuando la empresa se concentre en Dynamics 365 Business Central para gestionar el trabajo en varias empresas.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, troubleshoot
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3f348de3e8116efd789f85f1b011ecc7013bf2b1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 94bd2c0270263a1382094e559b4e70753f9bb91f
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927728"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5013587"
 ---
 # <a name="troubleshooting-your-company-hub"></a>Solución de problemas del hub de empresas
 
@@ -37,11 +37,11 @@ Puede haber un par de razones por las que no puede conectarse a una empresa, inc
   En el escritorio, seleccione el elemento de menú **Herramientas** y, a continuación, elija **Comprobar errores**. De esta manera se abrirá una lista con detalles técnicos, por lo que es posible que desee ponerse en contacto con su administrador si encuentra errores. Por ejemplo, el mensaje de error "*El servidor ha rechazado las credenciales del cliente*" sugiere que no tiene acceso.  
 - No tiene acceso a todas las empresas del entorno a las que intenta conectarse
 
-  En [!INCLUDE [prodshort](includes/prodshort.md)], una organización puede tener varias unidades denominadas empresas y es posible que no tenga acceso a todas las empresas. Trabaje con su administrador o cliente para asegurarse de que tiene acceso a las empresas en las que quiere trabajar.  
+  En [!INCLUDE [prod_short](includes/prod_short.md)], una organización puede tener varias unidades denominadas empresas y es posible que no tenga acceso a todas las empresas. Trabaje con su administrador o cliente para asegurarse de que tiene acceso a las empresas en las que quiere trabajar.  
 
 ## <a name="data-does-not-refresh"></a>Los datos no se actualizan
 
-Cuando agrega una empresa o solicita una actualización de los datos, [!INCLUDE [prodshort](includes/prodshort.md)] busca los datos. Pero debe actualizar la página por sí mismo, como mediante la acción **Recargar todas las empresas**, actualice la página del navegador, salga del panel de control y luego vuelva allí, o alguna acción similar.  
+Cuando agrega una empresa o solicita una actualización de los datos, [!INCLUDE [prod_short](includes/prod_short.md)] busca los datos. Pero debe actualizar la página por sí mismo, como mediante la acción **Recargar todas las empresas**, actualice la página del navegador, salga del panel de control y luego vuelva allí, o alguna acción similar.  
 
 Si ha agregado una empresa, pero no se muestra en la lista, también puede usar la acción **Recargar todas las empresas** para actualizar la lista.
 

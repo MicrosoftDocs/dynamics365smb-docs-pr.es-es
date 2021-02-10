@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 343f608e9f8a451b67422a3c198ba4306256c0ad
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 127ae5af7533c4a6b8b77f2ed88fe90e4453966e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921671"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759322"
 ---
 # <a name="set-up-shop-calendars"></a>Configurar calendarios de planta
 Un calendario del centro de trabajo o de máquina especifica los días y las horas laborables, las vacaciones y las ausencias que determinan la capacidad disponible bruta del centro de trabajo, medida en tiempo, de acuerdo con los valores de eficiencia y capacidad definidos.
@@ -110,4 +110,4 @@ El tiempo de ausencia registrado se reduce de la capacidad del día seleccionado
 [Configuración de centros de trabajo y centros de máquinas](production-how-to-set-up-work-and-machine-centers.md)  
 [Configuración de fabricación](production-configure-production-processes.md)  
 [Fabricación](production-manage-manufacturing.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: faad42bcd32080d43495020105bc8654af3f95bc
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 9d74bdc6d2c712742374993141cdd4d557caf80d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918343"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759671"
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Configurar almacenes básicos con áreas de operaciones
 Si las áreas de operaciones internas, como producción o ensamblado, existen en configuraciones de almacén básico donde las ubicaciones utilizan el campo de instalación de **Ubicac. obligatoria** y los campos de configuración **Picking requerido** y **Ubicación requerida**, puede utilizar los documentos de almacén básico siguientes para registrar sus actividades de almacén para las áreas de operaciones internas:  
@@ -139,4 +139,4 @@ La fabricación de una ubicación dedicada proporciona una funcionalidad similar
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

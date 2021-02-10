@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6138bc80b96e55c559067abad2957044d2e7c87f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: babd447411d1ea6000fc67379eda132b3d3e94f3
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914840"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760114"
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Tutorial: realización de una campaña de ventas
-Una campaña es un tipo de actividad que implica varios contactos. Una importante parte de la configuración de una campaña implica la selección del público objetivo para la misma. Con este fin, en [!INCLUDE[d365fin](includes/d365fin_md.md)], creará un segmento o grupo de contactos con filtros.  
+Una campaña es un tipo de actividad que implica varios contactos. Una importante parte de la configuración de una campaña implica la selección del público objetivo para la misma. Con este fin, en [!INCLUDE[prod_short](includes/prod_short.md)], creará un segmento o grupo de contactos con filtros.  
 
  Utilice estas funciones en Ventas y Marketing para planificar cuidadosamente las actividades de marketing y para administrar las interacciones con contactos y clientes. Puede crear campañas y configurar segmentos de sus contactos para envíos postales y otros tipos de interacciones con sus clientes y probables clientes.  
 
@@ -42,7 +42,7 @@ Una campaña es un tipo de actividad que implica varios contactos. Una important
 -   Empleado de marketing  
 
 ## <a name="prerequisites"></a>Requisitos previos  
- Para poder realizar las tareas del tutorial, deberá instalar [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
+ Para poder realizar las tareas del tutorial, deberá instalar [!INCLUDE[prod_short](includes/prod_short.md)]:  
 
 ## <a name="story"></a>Historia  
  El Director de marketing del Departamento de ventas de CRONUS es responsable de la planificación de campañas y de su ejecución. También toma decisiones sobre en qué ferias de muestras participar y evalúa el progreso de la campaña.  
@@ -198,4 +198,4 @@ Una campaña es un tipo de actividad que implica varios contactos. Una important
 ## <a name="see-also"></a>Consulte también  
 [Gestión de relaciones](marketing-relationship-management.md)  
  [Tutoriales de procesos empresariales](walkthrough-business-process-walkthroughs.md)  
- [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

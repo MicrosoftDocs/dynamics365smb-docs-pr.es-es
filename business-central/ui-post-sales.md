@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 10/01/2020
+ms.date: 12/03/2020
 ms.author: edupont
-ms.openlocfilehash: 5ca69a35aac0ba61591dfdfd71d739726e2fb62f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fa2830aeb62fe6acea5f8e3879c678e9d8407fb4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910135"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760322"
 ---
 # <a name="posting-sales"></a>Registrar ventas
 
@@ -25,9 +25,10 @@ En el menú **Registro** en un documento de venta, puede elegir entre las funcio
 * **Registrar y nuevo**
 * **Registrar y enviar**
 * **Vista previa de registro**
-* **Borrador de factura**
-* **Factura proforma**
+* **Registrar por lotes**
 * **Informe de prueba**
+
+> [¡NOTA!] Para pedidos de cliente, también puede ver opciones relacionadas con la funcionalidad de prepagos. Para obtener más información, consulte [Facturar prepagos](finance-invoice-prepayments.md). 
 
 Una vez completadas todas las líneas e introducida toda la información en el pedido de venta, puede registrarlo. Esto crea un envío y una factura.
 
@@ -62,4 +63,4 @@ Puede editar determinados campos en documentos de compra registrados, como **Nº
 [Enviar documentos por correo electrónico](ui-how-send-documents-email.md)  
 [Corregir o cancelar facturas de venta sin abonar](sales-how-correct-cancel-sales-invoice.md)  
 [Búsqueda de páginas e información con Dígame](ui-search.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

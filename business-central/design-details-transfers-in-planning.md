@@ -10,17 +10,20 @@ ms.workload: na
 ms.search.keywords: design, transfer, sku, locations, warehouse
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 43237bcec983870cb7a9655126b5c912e0286657
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 829594fa196758502c67f52c4a7277d3b63aa41f
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920902"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035586"
 ---
 # <a name="design-details-transfers-in-planning"></a>Detalles de diseño: Transferencias en planificación
 Los pedidos de transferencia también son un origen de suministro al trabajar en el nivel de UA. Al usar varias ubicaciones (almacenes), el sistema de reposición de UA se puede configurar en Transferencia, lo que implica que se realiza la reposición de la ubicación mediante la transferencia de mercancías desde otra ubicación. En una situación con varios almacenes, las empresas pueden tener una cadena de transferencias donde el aprovisionamiento al almacén VERDE se transfiere de AMARILLO, y el aprovisionamiento a AMARILLO se transfiere desde ROJO, etc. En el principio de la cadena hay un sistema de reposición de Ord. prod. o Compra.  
 
 ![Ejemplo de flujo de transferencia](media/nav_app_supply_planning_7_transfers1.png "Ejemplo de flujo de transferencia")  
+
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
 Al comparar la situación en que un pedido de suministro atiende directamente un pedido de demanda para una situación en que el pedido de venta se suministra a través de una cadena de transferencias de UA, es evidente que la tarea de planificación en esta última situación puede llegar a ser muy compleja. Si la demanda cambia, puede causar un efecto de ondulación a través de la cadena, ya que tendrán que manipularse todos los pedidos de transferencia más el pedido de compra o la orden de producción en el extremo opuesto de la cadena para volver a establecer el saldo entre la demanda y el aprovisionamiento.  
 

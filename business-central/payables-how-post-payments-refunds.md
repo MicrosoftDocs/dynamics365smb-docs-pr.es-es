@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, customer refund, creditor, debt, balance due, AP
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 353b2074edf80ddba705004e62a86e47943a4366
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b45b4c109d33773ead4e920d5692a615faa7a366
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916781"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759597"
 ---
 # <a name="record-payments-and-refunds-in-the-payment-journal"></a>Registrar pagos y reembolsos en el diario de pagos
 
 En la página **Diario de pagos**, registre los pagos que realiza a los proveedores y los reembolsos que realiza a los clientes. Cuando publica una línea de diario de pagos, el importe pagado se registra en la cuenta bancaria del sistema especificada. A continuación, debe tomar medidas para realizar la transferencia de dinero real desde la cuenta bancaria relacionada.  
 
-El diario de pagos es un diario general que se optimiza para crear pagos. Puede agregar líneas rápidamente de forma manual, puede permitir que [!INCLUDE[d365fin](includes/d365fin_md.md)] sugiera pagos a proveedores y puede aplicar el pago a los documentos publicados. A pesar de que está haciendo pagos, debe introducir una cantidad positiva en el campo **Importe del documento**. Dependiendo del tipo de documento para la línea de diario, este importe se convierte a un importe negativo en las transacciones subyacentes. De esta manera, es más rápido agregar líneas de diario manualmente. Si prefiere introducir importes negativos, puede personalizar el diario de pagos para que muestre el campo **Importe** en su lugar.  
+El diario de pagos es un diario general que se optimiza para crear pagos. Puede agregar líneas rápidamente de forma manual, puede permitir que [!INCLUDE[prod_short](includes/prod_short.md)] sugiera pagos a proveedores y puede aplicar el pago a los documentos publicados. A pesar de que está haciendo pagos, debe introducir una cantidad positiva en el campo **Importe del documento**. Dependiendo del tipo de documento para la línea de diario, este importe se convierte a un importe negativo en las transacciones subyacentes. De esta manera, es más rápido agregar líneas de diario manualmente. Si prefiere introducir importes negativos, puede personalizar el diario de pagos para que muestre el campo **Importe** en su lugar.  
 
 - Aplicación de pagos a facturas o abonos
 
@@ -56,4 +56,4 @@ El diario de pagos es un diario general que se optimiza para crear pagos. Puede 
 [Exportar un archivo de Positive Pay](finance-how-positive-pay.md)  
 [Trabajar con diarios generales](ui-work-general-journals.md)  
 [Personalizar el área de trabajo](ui-personalization-user.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

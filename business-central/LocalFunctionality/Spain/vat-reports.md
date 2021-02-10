@@ -12,14 +12,14 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6ff9d396802db9965ff80cd1690ff216ca10f335
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8a4a1bce418950967e4c2d8e204596d87efc6af5
+ms.sourcegitcommit: 5d5451ee618f122c926e3189290f3765052f7077
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925232"
+ms.lasthandoff: 01/11/2021
+ms.locfileid: "4846308"
 ---
-# <a name="vat-reports"></a>Informes IVA
+# <a name="vat-reports-in-the-spanish-version"></a>Informes de IVA en la versión en español
 El IVA se aplica a las transacciones que involucran bienes y servicios en España o bienes importados a España. La siguiente información proporciona más detalles sobre la funcionalidad de IVA.  
 
 ## <a name="equivalence-charge"></a>Recargo de equivalencia  

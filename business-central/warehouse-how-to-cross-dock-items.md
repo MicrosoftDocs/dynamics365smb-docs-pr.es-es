@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c67f55e1de336e7a191b1d10affe0134110a70b5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 558b93677d4045f68bdc6fea0b68936658816b92
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923252"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759847"
 ---
 # <a name="cross-dock-items"></a>Productos de tránsito directo
 La funcionalidad de tránsito directo está disponible si ha configurado el almacén para requerir el proceso de recepción y ubicación.  
@@ -60,7 +60,7 @@ La aplicación no mantiene registros independientes de los productos de los que 
 2.  Cree las recepciones de un almacén para un artículo que ha llegado y pueda probablemente tener tránsito directo. Para obtener más información, consulte [Recibir productos](warehouse-how-receive-items.md).  
 3.  Rellene el campo **Cdad. para recibir** y, a continuación, elija la acción **Calcular tránsito directo**.  
 
-    Se identifican los documentos de origen de salida que solicitan los productos que están programados para salir del almacén en el periodo de tiempo de la fórmula de fecha.  [!INCLUDE[d365fin](includes/d365fin_md.md)] calcula las cantidades para que pueda realizar el tránsito directo en cuanto sea posible y evitar tener que ubicar los productos sin que se amontonen demasiados en el área de tránsito directo. El valor del campo **Cdad. a tránsito directo** fes la suma de todas las líneas de salida que solicitan el producto en el periodo anticipado menos la cantidad de productos que ya se han colocado en el área de tránsito directo, o es el valor del campo **Cantidad a recibir** de la línea de la recepción, que siempre es menor. No puede realizar el tránsito directo de más productos de los que ha recibido.  
+    Se identifican los documentos de origen de salida que solicitan los productos que están programados para salir del almacén en el periodo de tiempo de la fórmula de fecha.  [!INCLUDE[prod_short](includes/prod_short.md)] calcula las cantidades para que pueda realizar el tránsito directo en cuanto sea posible y evitar tener que ubicar los productos sin que se amontonen demasiados en el área de tránsito directo. El valor del campo **Cdad. a tránsito directo** fes la suma de todas las líneas de salida que solicitan el producto en el periodo anticipado menos la cantidad de productos que ya se han colocado en el área de tránsito directo, o es el valor del campo **Cantidad a recibir** de la línea de la recepción, que siempre es menor. No puede realizar el tránsito directo de más productos de los que ha recibido.  
 
 4.  Si desea hacer el tránsito directo de la cantidad sugerida registre la recepción. También es posible que decida cambiar la cantidad de la que se va a hacer el tránsito directo y, a continuación, registrar la recepción.  
 
@@ -104,4 +104,4 @@ Si no utiliza ubicaciones, recuerde comprobar el área de tránsito directo de v
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

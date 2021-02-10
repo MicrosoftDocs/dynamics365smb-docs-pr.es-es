@@ -1,5 +1,5 @@
 ---
-title: Crear una factura o un pedido de venta | Documentos de Microsoft
+title: Crear una factura o un pedido de venta
 description: Describe cómo crear un recibo, o una factura o un pedido de venta, para registrar el acuerdo con un cliente para vender productos con condiciones específicas.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 10/01/2020
+ms.date: 01/21/2021
 ms.author: edupont
-ms.openlocfilehash: 2613a328ad1274a690d3d394fef054527e5a75de
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b417ed7a4ef520ab652a66ac6f961c7c2f1a970e
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926227"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035411"
 ---
 # <a name="invoice-sales"></a>Facturar ventas
 
@@ -94,6 +94,10 @@ El cuadro de diálogo **Registrar y enviar confirmación** muestra el método pr
 
 El producto relacionado y los movimientos de cliente se han creado ahora en su sistema y la factura de venta se genera como un documento PDF. La factura de venta se elimina de la lista de facturas de venta y se reemplaza con un nuevo documento de la lista de facturas de venta registradas.  
 
+### <a name="calculating-invoice-discounts-on-sales"></a>Calcular descuentos en factura para ventas
+
+[!INCLUDE [sales-invoice-discounts](includes/sales-invoice-discounts.md)]
+
 ## <a name="registering-payments"></a>Registro de pagos
 
 En función de sus necesidades comerciales, puede recibir el pago y registrarlo de diferentes maneras: de forma manual, automática y mediante servicios de pago.  
@@ -106,13 +110,18 @@ En los entornos comerciales en los que el cliente paga de forma inmediata, por e
 
 Incluso puede crear facturas pagadas directamente para clientes no registrados configurando primero una tarjeta de "cliente de efectivo" que señale en la factura de venta. Para obtener más información, consulte [Configurar clientes de efectivo](finance-how-to-set-up-cash-customers.md).  
 
+> [!TIP]
+> Si desea enviar a sus clientes recordatorios de pagos vencidos, debe configurar niveles y términos de recordatorio. Para más información, ver [Configurar términos y niveles de recordatorio](finance-setup-reminders.md).  
+
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/invoicing-customers-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Consulte también
+
 [Ccial](sales-manage-sales.md)  
 [Configuración de ventas](sales-setup-sales.md)  
 [Imprimir la lista de picking](sales-how-print-picking-list.md)  
 [Inventario](inventory-manage-inventory.md)  
 [Enviar documentos por correo electrónico](ui-how-send-documents-email.md)  
+[Cobrar saldos pendientes](receivables-collect-outstanding-balances.md)  
 [Facturación masiva desde Microsoft Bookings en Business Central ](finance-bookings.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

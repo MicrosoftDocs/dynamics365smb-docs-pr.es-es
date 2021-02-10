@@ -1,21 +1,20 @@
 ---
-title: Trabajar con listas de materiales para administrar componentes | Documentos de Microsoft
+title: Trabajar con listas de materiales para administrar componentes
 description: Se crea una L.M. de ensamblado o una L.M. de producción para especificar los componentes o recursos necesarios para elaborar el producto al que representa la L.M.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2020
+ms.date: 01/05/2021
 ms.author: edupont
-ms.openlocfilehash: 4aa769c8a2b044f434a9643209eecb97f7f51f13
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c5d372c72d70c72f9c809fe6b3a05ed5b5528a8f
+ms.sourcegitcommit: cdba82235c0c07497bd04b9bd5134ef245d92c09
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919393"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "4838462"
 ---
 # <a name="work-with-bills-of-material"></a>Trabajar con listas de materiales
 Utilice listas de materiales (L.M.) para estructurar los productos principales que se deben montar o producir por los recursos o centros de máquinas de componentes. Una L.M. de ensamblado también se puede utilizar para vender un producto principal como un kit formado por sus componentes.
@@ -89,11 +88,15 @@ Se vacían todos los campos de la línea de factura de ventas para el elemento d
 > El informe **Lista de picking por orden** también se cambia para mostrar solo los componentes. Esto significa que un trabajador de almacén que selecciona el artículo principal, el elemento del ensamblado, no lo verá en la lista de picking. Para más información, consulte [Imprimir la lista de selección](sales-how-print-picking-list.md).
 
 ## <a name="to-calculate-the-standard-cost-of-an-assembly-item"></a>Para calcular el coste estándar de un elemento de ensamblado
+
 Se calcula el coste unitario de un elemento de ensamblado distribuyendo el coste unitario de cada componente y recurso de la L.M. de ensamblado del producto.
 
 También puede calcular y actualizar el coste estándar de uno o varios productos en la página **Hoja trab. coste estándar**. Para obtener más información, consulte [Actualizar costes estándar](finance-how-to-update-standard-costs.md).  
 
-El coste unitario de una L.M. de ensamblado equivale siempre al total de los costes unitarios de sus componentes, incluidas las L.M. de otros ensamblados y cualquier recurso.
+El coste unitario de una L.M. de ensamblado equivale siempre al total de los costes unitarios de sus componentes, incluidas las L.M. de otros ensamblados y cualquier recurso.  
+
+> [!NOTE]
+> [!INCLUDE [bom-standard-cost](includes/bom-standard-cost.md)]
 
 1. En la esquina superior derecha, seleccione el icono **Buscar página o informe**, escriba **Productos** y, a continuación, seleccione el enlace relacionado.
 2. Abra la ficha de un elemento del ensamblado. (El campo **L.M. de ensamblado** de la página **Productos** contiene **Sí**).
@@ -114,4 +117,4 @@ Los costes de los productos que conforman la L.M. de ensamblado se copian de las
 [Registro de productos nuevos](inventory-how-register-new-items.md)  
 [Consultar la disponibilidad de los productos](inventory-how-availability-overview.md)     
 [Inventario](inventory-manage-inventory.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

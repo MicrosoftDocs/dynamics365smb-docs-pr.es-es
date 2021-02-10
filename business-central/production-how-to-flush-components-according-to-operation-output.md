@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 366c450924367ba70eece30809035895c42a0838
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f7f6c0c4be56c5f7e25f44063923cfe02e03e4c8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921622"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759297"
 ---
 # <a name="flush-components-according-to-operation-output"></a>Bajar componentes según la salida de la operación
 Para los productos que se configuran con el método de baja hacia atrás, el comportamiento predeterminado es calcular y registrar el consumo de componentes cuando cambie el estado de una orden de producción lanzada a **Terminada**.  
@@ -55,4 +55,4 @@ El siguiente procedimiento muestra cómo combinar códigos de vínculo de ruta y
 [Planificación](production-planning.md)   
 [Inventario](inventory-manage-inventory.md)  
 [Compras](purchasing-manage-purchasing.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

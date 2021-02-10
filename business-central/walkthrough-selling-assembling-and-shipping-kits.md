@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 097a1853b671afe582e40446c43cd628d807dfc0
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 09819006540b6d88ecbc71c9db52a61da195a399
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918418"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035511"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Tutorial: vender, ensamblar y enviar kits
 
@@ -37,7 +37,7 @@ Los elementos del ensamblado se caracterizan según su sistema de reposición y 
 -   Creación de una L.M. de ensamblado que enumera los componentes del ensamblado y el recurso que forman parte del elemento del ensamblado.  
 
 ### <a name="selling-customized-assembly-items"></a>Vender elementos del ensamblado personalizados  
-[!INCLUDE[d365fin](includes/d365fin_md.md)] proporciona la flexibilidad para introducir una cantidad de inventario y una cantidad de ensamblar para pedido en una línea de pedido de venta. En esta sección se describen las tareas siguientes:  
+[!INCLUDE[prod_short](includes/prod_short.md)] proporciona la flexibilidad para introducir una cantidad de inventario y una cantidad de ensamblar para pedido en una línea de pedido de venta. En esta sección se describen las tareas siguientes:  
 
 -   Crear una línea de pedido de venta puramente ATO donde la cantidad completa no está disponible y debe ensamblarse antes del envío.  
 -   Personalizar los productos ATO.  
@@ -79,13 +79,16 @@ En este tutorial, se demuestran las tareas realizadas por los siguientes roles d
 ## <a name="prerequisites"></a>Requisitos previos  
 Para poder realizar las tareas del tutorial, deberá hacer lo siguiente:  
 
--   Instalar [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+-   Instalar [!INCLUDE[prod_short](includes/prod_short.md)].  
 -   Conviértase en un empleado de almacén en el almacén BLANCO. Para ello, realice los pasos siguientes:  
 
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Empleados de almacén** y luego elija el enlace relacionado.  
 2.  Elija el campo **Id. de usuario** y seleccione su propia cuenta de usuario en la página **Usuarios**.  
 3.  En el campo **Cód. almacén**, especifique BLANCO.  
 4.  Seleccione el campo de **Predeterminado**.  
+
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
 Realice los pasos siguientes para preparar el almacén BLANCO para el procesamiento de ensamblado:  
 
@@ -286,7 +289,7 @@ Cuando el pedido de venta se registra posteriormente como facturado en su totali
     > [!NOTE]  
     >  En esta sección, la persona responsable de enviar se encarga de registrar el trabajo de ensamblado ATO completado en la línea de envío de almacén. Este flujo de trabajo puede realizarse en entornos donde el trabajo de ensamblado lo realiza la persona responsable de enviar o los trabajadores de ensamblado en el área de envío.  
     >   
-    >  En esta sección, las acciones del pedido de ensamblado se realizan indirectamente desde la línea de envío de almacén. Para obtener más información sobre cómo procesar un pedido de ensamblado directamente, consulte la sección sobre cómo ensamblar productos para stock en este tutorial.  
+    >  En esta sección, las acciones del pedido de ensamblado se realizan indirectamente desde la línea de envío de almacén. Para obtener más información sobre cómo procesar un pedido de ensamblado directamente, consulte la sección sobre cómo "ensamblar productos para stock" en este tutorial.  
 
 2.  Abra el envío de almacén más reciente que se ha creado en el almacén BLANCO.  
 
@@ -329,7 +332,7 @@ Cuando el pedido de venta se registra posteriormente como facturado en su totali
 
     Lea el mensaje de error que explica la razón por la cual este campo solo se puede rellenar a través del campo **Cdad. a enviar** en el envío relacionado.  
 
-    El campo **Cantidad a ensamblar** se puede editar para las situaciones en las que desea enviar parcialmente una cantidad de inventario en lugar de ensamblar más unidades en el pedido. Para obtener más información, consulte la sección "Escenarios de combinación" en [Comprender Ensamblar para pedido y Ensamblar para stock](assembly-assemble-to-order-or-assemble-to-stock.md).  
+    El campo **Cantidad a ensamblar** se puede editar para las situaciones en las que desea enviar parcialmente una cantidad de inventario en lugar de ensamblar más unidades en el pedido. Para obtener más información, consulte la sección "Escenarios de combinación" en [Conocer Ensamblar para pedido y Ensamblar para stock](assembly-assemble-to-order-or-assemble-to-stock.md).  
 
 12. Cierre la página **Pedido de ensamblado** para volver a la página **Envío almacén**.  
 13. En la línea de envío para tres unidades del kit B, en el campo **Ctdad. a enviar**, especifique **3**.  

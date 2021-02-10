@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6888c3cd599b9c85f67615e7f090d72e8cf5fa23
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 29bb70d54c4e5bb1dbc366a8f566e8247f4117ef
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915415"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759447"
 ---
 # <a name="setting-up-manufacturing"></a>Configuración de fabricación
 Para convertir material en artículos producidos finales, se deben configurar recursos de producción, como listas de materiales, ruta, operadores de máquina y maquinaria, en el sistema.
@@ -46,4 +46,4 @@ Cuando haya configurado la fabricación, puede planificar y ejecutar las órdene
 [Planificación](production-planning.md)   
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Compras](purchasing-manage-purchasing.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 31432399981befb3b844c5d951b5b752e1152458
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5890fa0200a2661a68f6eae32246d562970e3c14
+ms.sourcegitcommit: d80cf8aa0723f9aa2b7e0b3689edf8e2682f49fc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912501"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4840258"
 ---
 # <a name="entering-data"></a>Introducción de datos
 
@@ -24,7 +24,7 @@ Hay muchas características generales que le ayudan a introducir datos de forma 
 Los ejemplos de este producto utilizan los datos de demostración.
 
 ## <a name="working-with-editable-fields"></a>Trabajo con campos editables
-Los campos en [!INCLUDE[d365fin](includes/d365fin_md.md)] puede contener diferentes datos editables, como texto o importe de divisas. Los campos editables suelen mostrar un cuadro de entrada donde puede escribir o elegir un valor. Los campos no editables generalmente se muestran con un fondo gris.   
+Los campos en [!INCLUDE[prod_short](includes/prod_short.md)] puede contener diferentes datos editables, como texto o importe de divisas. Los campos editables suelen mostrar un cuadro de entrada donde puede escribir o elegir un valor. Los campos no editables generalmente se muestran con un fondo gris.   
 
 Algunos campos editables proporcionan un selector para ayudarle a especificar un valor.  
 
@@ -44,7 +44,7 @@ Para modificar el valor de un campo, primero debe establecer el foco en ese camp
 - Usando la tecla **Tab**. La acción selecciona todo el valor.
 - Haciendo clic con el botón izquierdo del ratón o dispositivo de entrada similar. Esta acción solo seleccionará el valor del campo completo si el campo está en una lista.  
 
-Cuando interactúa con campos en la interfaz de usuario, [!INCLUDE[d365fin](includes/d365fin_md.md)] normalmente favorece la selección de todo el valor del campo para que le sea más fácil reemplazar ese valor.
+Cuando interactúa con campos en la interfaz de usuario, [!INCLUDE[prod_short](includes/prod_short.md)] normalmente favorece la selección de todo el valor del campo para que le sea más fácil reemplazar ese valor.
 
 Cuando se selecciona todo el valor del campo:
 - Reemplace el valor simplemente escribiendo para especificar un nuevo valor. Si el campo ofrece un selector, puede activarlo usando el método abreviado de teclado **Alt+flecha abajo**.
@@ -85,7 +85,7 @@ La lista siguiente ofrece información útil sobre el uso de la entrada rápida.
 - Está disponible para cualquier campo editable.
 - También funciona en columnas y filas.
 - No impide el acceso a otros elementos de una página, como las acciones. Se puede seguir accediendo a estos elementos mediante Tab y Mayús+Tab.  
-- No es necesario que se expandan las fichas desplegables para que funcione la Entrada rápida. Si el siguiente campo de entrada rápida se encuentra en una ficha desplegable contraída, esa ficha desplegable se expandirá automáticamente y el foco estará en el campo elegido. [!INCLUDE[d365fin](includes/d365fin_md.md)] recordará que la ficha desplegable debe ampliarse la próxima vez que visite la página.  
+- No es necesario que se expandan las fichas desplegables para que funcione la Entrada rápida. Si el siguiente campo de entrada rápida se encuentra en una ficha desplegable contraída, esa ficha desplegable se expandirá automáticamente y el foco estará en el campo elegido. [!INCLUDE[prod_short](includes/prod_short.md)] recordará que la ficha desplegable debe ampliarse la próxima vez que visite la página.  
 - La entrada rápida funciona independientemente de si los campos son obligatorios. Por lo tanto, es buena idea asegurarse de que los campos obligatorios se incluyan en la entrada rápida.
 - De forma predeterminada, la mayoría de los campos se incluyen automáticamente en la entrada rápida. Por lo tanto, al principio, lo más probable es que su tarea sea excluir campos de la entrada rápida.
 
@@ -120,7 +120,7 @@ Puede copiar una o más filas de una lista o un solo campo de una página. Luego
 
 En una lista, para copiar el campo en la misma columna de la fila anterior y pegarlo en la fila actual, pulse F8.
 
-Para obtener más información, consulte [Preguntas frecuentes sobre copiar y pegar](ui-copy-paste.md).
+Para obtener más información, consulte [Preguntas frecuentes sobre copiar y pegar](faq-copy-paste.yml).
 
 ## <a name="filtering-line-items"></a>Filtrado de los productos de línea
 
@@ -162,7 +162,7 @@ Para abrir la ficha o documento actual en una nueva ventana, elija ![Abrir nueva
 > Si trabaja en el explorador Safari, un bloqueador de ventanas emergentes puede provocar que no se abra la nueva ventana. Si este es el caso, especifique la URL del producto como un sitio web permitido. Para obtener información, consulte [Cambiar las preferencias en Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
 > Lo mismo puede suceder en otros navegadores, como Firefox. Para obtener más información, consulte [Configuración del bloqueador de elementos emergentes en Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400).  
 
-Otra forma de realizar múltiples tareas es abrir [!INCLUDE[d365fin](includes/d365fin_md.md)] en dos o más pestañas del navegador. Cuando lo haga de esta forma, debe crear una nueva pestaña y luego copiar/pegar la URL de la pestaña original en la nueva pestaña. De esta forma se crea una nueva sesión.   
+Otra forma de realizar múltiples tareas es abrir [!INCLUDE[prod_short](includes/prod_short.md)] en dos o más pestañas del navegador. Cuando lo haga de esta forma, debe crear una nueva pestaña y luego copiar/pegar la URL de la pestaña original en la nueva pestaña. De esta forma se crea una nueva sesión.   
 
 > [!NOTE]
 > No use la función **Duplicar** del navegador para crear la nueva pestaña, ya que esto puede hacer que las acciones de una pestaña bloqueen las acciones de otras pestañas porque son parte de la misma sesión.
@@ -294,4 +294,4 @@ A continuación se muestran algunos ejemplos.
 
 ## <a name="see-also"></a>Consulte también  
  [Ordenar, buscar y filtrar listas](ui-enter-criteria-filters.md)  
- [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

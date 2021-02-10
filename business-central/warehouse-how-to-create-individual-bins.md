@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: fe5261a2253659480aabe36a6fff1586bd4478c5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 11113ceaa153ea7e3c9a4ea36b8eddba8235f28f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911801"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759872"
 ---
 # <a name="create-bins"></a>Crear ubicaciones
 La forma más eficaz de crear las ubicaciones del almacén es generar grupos de ubicaciones similares en la hoja de trabajo de creación de ubicación, pero también puede crear las ubicaciones individualmente desde la ficha de almacén. También puede utilizar una función en la página **Hoja trab. creación ubicación** para crear las ubicaciones automáticamente.  
@@ -76,4 +76,4 @@ Repita el proceso para otro grupo de ubicaciones hasta que haya creado todas las
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

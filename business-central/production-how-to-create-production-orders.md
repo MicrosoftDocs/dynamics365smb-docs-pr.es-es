@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f03bb162bc73d45068579a20bcdd90f632ede9de
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 76d4b69de41343815175a7acd4329bb47b889f5a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922749"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759373"
 ---
 # <a name="create-production-order-headers"></a>Crear cabeceras de orden de producción
 Puede crear una orden de producción manualmente y el primer paso es crear la cabecera.
@@ -42,4 +42,4 @@ Cuando cambian las necesidades de producción, como componentes u operaciones, p
 [Planificación](production-planning.md)      
 [Inventario](inventory-manage-inventory.md)  
 [Compras](purchasing-manage-purchasing.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

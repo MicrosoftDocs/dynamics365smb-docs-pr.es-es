@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bb9caf6fa4dbca9d51d66e329321fdecc6478ec0
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cf7f261f945828b78db55cde0dda70d12b158127
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912076"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760347"
 ---
 # <a name="customize-pages-for-profiles"></a>Personalizar páginas para perfiles
 Los usuarios pueden personalizar las páginas que componen su área de trabajo para que se adapte a sus preferencias. Para obtener más información, consulte [Personalizar el área de trabajo](ui-personalization-user.md).
@@ -29,7 +29,7 @@ La personalización de la página comienza en la página **Perfiles (roles)**, e
 2. Seleccione la línea del perfil para el que desea personalizar páginas y, después, seleccione la acción **Editar**.
 3. Elija la acción **Personalizar páginas**.
 
-    [!INCLUDE[d365fin](includes/d365fin_md.md)] se abre en una nueva pestaña del explorador para el perfil seleccionado con el banner **Personalización** activado. El banner **Personalización** ofrece la misma funcionalidad que el banner **Personalización** que está disponible para los usuarios.
+    [!INCLUDE[prod_short](includes/prod_short.md)] se abre en una nueva pestaña del explorador para el perfil seleccionado con el banner **Personalización** activado. El banner **Personalización** ofrece la misma funcionalidad que el banner **Personalización** que está disponible para los usuarios.
 
 4. Personalice las páginas de acuerdo con las necesidades del rol o departamento en cuestión de la misma manera que lo haría un usuario al efectuar la personalización. Para obtener más información, consulte [Personalizar el área de trabajo](ui-personalization-user.md).
 
@@ -70,4 +70,4 @@ El diseño en las páginas seleccionadas se ajusta a los cambios que ha hecho.
 [Administración de perfiles](admin-users-profiles-roles.md)  
 [Cambiar la configuración básica](ui-change-basic-settings.md)  
 [Cambiar las funciones que se muestran](ui-experiences.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -1,8 +1,6 @@
 ---
-title: Uso de referencias cruzadas de productos | Documentos de Microsoft
+title: Usar referencias cruzadas de producto
 description: Configure referencias entre las descripciones que usted y su proveedor usan para un producto para que pueda insertar la descripción del artículo del proveedor en los documentos de compra.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item reference, cross reference, inventory
-ms.date: 10/01/2020
+ms.date: 01/12/2021
 ms.author: edupont
-ms.openlocfilehash: 056897c799dd12755432637690446a0797c9f18c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7d670f6553a1bd70dcc3d97f90436f36c6627c56
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919443"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5013797"
 ---
 # <a name="use-item-cross-references"></a>Usar referencias cruzadas de producto
 Si configura una referencia cruzada entre la descripción del producto que usa para un producto y la descripción que utiliza el proveedor de ese producto, la descripción del producto del proveedor se inserta automáticamente en los documentos de compra del proveedor cuando complete el campo **Nº referencia cruzada**. . Se aplica la misma funcionalidad para los números de producto del cliente en los documentos de venta.
@@ -25,7 +23,7 @@ Si configura una referencia cruzada entre la descripción del producto que usa p
 Los procedimientos siguientes describen cómo utilizar referencias cruzadas de producto en la compra. Los pasos son parecidos para la venta.
 
 > [!NOTE]
-> Es cada vez más común que los identificadores de productos, como GTIN o GUID, contengan 30 o más caracteres, que es más de lo que la función actual para referencias cruzadas de productos puede manejar. Si necesita utilizar referencias que contengan más de 30 caracteres, su administrador puede activar la característica **Escribir referencias de productos más largas** en la página [Gestión de funciones](https://businesscentral.dynamics.com/?page=xzy) (el vínculo requiere que tenga un suscriptor [!INCLUDE[d365fin](includes/d365fin_md.md)]). La forma en que usa las referencias no cambia, pero los nombres de cosas como páginas y botones sí. Por ejemplo, la página **Entradas de referencias cruzadas de productos** se convertirá en la página **Entradas de referencia de artículo**.
+> Es cada vez más común que los identificadores de productos, como GTIN o GUID, contengan 30 o más caracteres, que es más de lo que la función actual para referencias cruzadas de productos puede manejar. Si necesita utilizar referencias que contengan más de 30 caracteres, su administrador puede activar la característica **Escribir referencias de productos más largas** en la página [Gestión de funciones](https://businesscentral.dynamics.com/?page=2610) (el vínculo requiere que tenga un suscriptor [!INCLUDE[prod_short](includes/prod_short.md)]). La forma en que usa las referencias no cambia, pero los nombres de cosas como páginas y botones sí. Por ejemplo, la página **Entradas de referencias cruzadas de productos** se convertirá en la página **Entradas de referencia de artículo**.
 
 ## <a name="to-set-up-an-item-cross-reference-to-a-vendors-item-description"></a>Para configurar una referencia cruzada de producto en la descripción del producto de un proveedor
 
@@ -49,4 +47,4 @@ El campo **Descripción** de la línea se sobrescribe con la descripción del pr
 ## <a name="see-also"></a>Consulte también
 [Registro de productos nuevos](inventory-how-register-new-items.md)  
 [Inventario](inventory-manage-inventory.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

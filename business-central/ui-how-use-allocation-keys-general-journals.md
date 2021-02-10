@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: cost accounting
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: af18a94f5cf6b24b0da24821499e3866487207be
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 84ea436a7e7edc6851b97b718b66195edddd2da2
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918543"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760497"
 ---
 # <a name="use-allocation-keys-in-general-journals"></a>Utilizar claves de asignación en diarios generales
 Puede asignar un movimiento en un diario general a varias cuentas diferentes al registrar el diario. La distribución puede realizarse por cantidad, porcentaje o importe.
@@ -46,4 +46,4 @@ Puede asignar un movimiento en un diario general a varias cuentas diferentes al 
 ## <a name="see-also"></a>Consulte también
 [Trabajar con diarios generales](ui-work-general-journals.md)  
 [Registrar documentos y diarios](ui-post-documents-journals.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

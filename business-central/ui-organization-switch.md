@@ -7,23 +7,23 @@ ms.topic: article
 ms.search.keywords: environments, companies, tenants, organization
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 24ea6b353a22ae00ca98901c080c031870f66168
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fea55295867e42f450dc7e3826224d7e1698666a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925602"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760422"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Cambiar a otra empresa o entorno
 
-[!INCLUDE [company_environment](includes/company_environment.md)] Para obtener más información, consulte [Crear nuevas empresas en [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md).  
+[!INCLUDE [company_environment](includes/company_environment.md)] Para obtener más información, consulte [Crear nuevas empresas en [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md).  
 
 > [!TIP]
 > Si a menudo cambia de compañía, puede ser fácil perder la noción de dónde se encuentra. Para ayudarlo a realizar un seguimiento, puede agregar un distintivo que mostrará el nombre de la empresa, para que pueda verificar rápidamente que está en el lugar correcto. Para obtener más información, vea [Para mostrar un distintivo de empresa para acceder rápidamente a la información de la empresa](ui-change-basic-settings.md#to-display-a-company-badge-for-quick-access-to-company-information).
 
 ## <a name="switch-to-another-environment"></a>Cambiar a otro entorno
 
-Cuando inicias sesión en [!INCLUDE[d365fin](includes/d365fin_md.md)], los entornos a los que puede acceder están disponibles en la página de inicio de Dynamics 365. Puede abrir la página eligiendo el icono **Lanzador de aplicaciones** ![Lanzador de aplicaciones](media/app-launcher-icon.png "El lanzador de aplicaciones proporciona acceso a más funciones") y **Dynamics 365**. Para ir a su empresa predeterminada en ese entorno, elija el mosaico. Habrá un mosaico para cada tipo de entorno. Si tiene más de un entorno de cierto tipo, cuando elige el mosaico puede elegir el entorno para acceder.
+Cuando inicias sesión en [!INCLUDE[prod_short](includes/prod_short.md)], los entornos a los que puede acceder están disponibles en la página de inicio de Dynamics 365. Puede abrir la página eligiendo el icono **Lanzador de aplicaciones** ![Lanzador de aplicaciones](media/app-launcher-icon.png "El lanzador de aplicaciones proporciona acceso a más funciones") y **Dynamics 365**. Para ir a su empresa predeterminada en ese entorno, elija el mosaico. Habrá un mosaico para cada tipo de entorno. Si tiene más de un entorno de cierto tipo, cuando elige el mosaico puede elegir el entorno para acceder.
 
 La siguiente imagen muestra mosaicos para acceder a entornos de producción y de espacio aislado en la página Web de Dynamics 365.
 
@@ -31,7 +31,7 @@ La siguiente imagen muestra mosaicos para acceder a entornos de producción y de
 
 ## <a name="switch-to-another-company"></a>Cambiar a otra empresa
 
-Cuando inicia sesión en [!INCLUDE[d365fin](includes/d365fin_md.md)], puede cambiar rápidamente a otra empresa. Después de hacer el cambio, la empresa que elija se convierte en su empresa predeterminada y se mostrará la próxima vez que inicie sesión.
+Cuando inicia sesión en [!INCLUDE[prod_short](includes/prod_short.md)], puede cambiar rápidamente a otra empresa. Después de hacer el cambio, la empresa que elija se convierte en su empresa predeterminada y se mostrará la próxima vez que inicie sesión.
 
 1. En la esquina superior derecha, elija el icono **Configuración** ![Configuración](media/ui-experience/settings_icon_small.png "Icono de configuración para el área de trabajo") y, a continuación, elija la acción **Mi configuración**.
 

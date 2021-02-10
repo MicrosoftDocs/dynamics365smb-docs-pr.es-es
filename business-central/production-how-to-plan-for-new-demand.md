@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 43e93d44a1fb4e3fe840313ebff9171cebddf4f9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 62f5254da05749c2da4690e7d49488af852ac67a
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919168"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5013849"
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Planear la nueva demanda de pedido por pedido
 Esta tarea de planificación se puede realizar en la página **Programación de pedidos**, en la que se muestra toda la demanda nueva junto con información sobre disponibilidad y sugerencias de aprovisionamiento. Esta ventana proporciona la información y las herramientas necesarias para planificar de forma eficaz la demanda de las líneas de venta y las líneas de componentes y crear después directamente diferentes tipos de pedidos de suministros.  
@@ -109,11 +109,12 @@ Cuando termine el trabajo de planificación en la página **Programación de ped
 >  Los pedidos de suministro que cree pueden producir nueva demanda dependiente, por ejemplo, para órdenes de producción subyacentes y, por tanto, deberá seleccionar **Calcular plan** de nuevo para localizarlo y resolverlo antes de continuar.  
 
 ## <a name="see-also"></a>Consulte también  
+[Tutorial: planificación manual de suministros](walkthrough-planning-supplies-manually.md)  
 [Planificación](production-planning.md)  
 [Configuración de fabricación](production-configure-production-processes.md)  
 [Fabricación](production-manage-manufacturing.md)    
-[Grupos contables inventario](inventory-manage-inventory.md)  
+[Inventario](inventory-manage-inventory.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Detalles de diseño: planificación de aprovisionamiento](design-details-supply-planning.md)   
 [Procedimientos recomendados de configuración: planificación de suministros](setup-best-practices-supply-planning.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

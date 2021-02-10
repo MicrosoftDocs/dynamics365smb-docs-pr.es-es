@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0ff9dd0851b220b9e3e4888e43ffa070397b8943
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8e5a9c93315c1bc199dbcbfe9076c01828524e96
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911926"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759947"
 ---
 # <a name="ship-items"></a>Enviar productos
 
@@ -38,7 +38,7 @@ A continuación se describe cómo enviar productos de un pedido de venta. Los pa
 4. Seleccione la acción **Registrar**.
 
 > [!NOTE]
-> Si su organización no utiliza pedidos de ventas, cuando contabilice la factura de ventas, [!INCLUDE [prodshort](includes/prodshort.md)] asume que ha enviado la cantidad completa. Si esto contradice el funcionamiento de su organización, le recomendamos que utilice pedidos de ventas y registre envíos como se explica en este artículo.
+> Si su organización no utiliza pedidos de ventas, cuando contabilice la factura de ventas, [!INCLUDE [prod_short](includes/prod_short.md)] asume que ha enviado la cantidad completa. Si esto contradice el funcionamiento de su organización, le recomendamos que utilice pedidos de ventas y registre envíos como se explica en este artículo.
 
 ## <a name="to-ship-items-with-a-warehouse-shipment"></a>Para enviar productos con envío de almacén
 
@@ -46,7 +46,7 @@ Primero cree un documento de envío de un documento de origen de negocio. A cont
 
 ### <a name="to-create-a-warehouse-shipment"></a>Para crear un envío de almacén
 
-Normalmente, el empleado que responsable de los envíos crea un envío de almacén. El siguiente procedimiento describe cómo crear el envío manualmente en la versión predeterminada de [!INCLUDE[prodshort](includes/prodshort.md)], pero su organización podría haber automatizado parte del proceso, como el uso de escáneres portátiles o montados que son compatibles con proveedores externos.  
+Normalmente, el empleado que responsable de los envíos crea un envío de almacén. El siguiente procedimiento describe cómo crear el envío manualmente en la versión predeterminada de [!INCLUDE[prod_short](includes/prod_short.md)], pero su organización podría haber automatizado parte del proceso, como el uso de escáneres portátiles o montados que son compatibles con proveedores externos.  
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Envíos de almacén** y luego elija el enlace relacionado.  
 2. Seleccione la acción **Nuevo**.  
@@ -105,7 +105,7 @@ Para obtener más información acerca de la selección para envíos de almacén,
 También puede utilizar la hoja de trabajo de picking para crear varias instrucciones de picking en una sola instrucción (para varios envíos) y, por tanto, mejorar la eficacia del picking en el almacén. Para obtener más información, consulte [Planificar pickings en hojas de trabajo](warehouse-how-to-plan-picks-in-worksheets.md).
 
 > [!NOTE]
-> Si espera que se reciban documentos de origen productos en el almacén y utiliza la funcionalidad de tránsito directo, [!INCLUDE[d365fin](includes/d365fin_md.md)] calcula, en cada línea de la hoja de trabajo de picking o envío, la cantidad de producto que está en la ubicación de tránsito directo. Este campo se actualiza cada vez que abandona y abre el documento de envío o la hoja de trabajo. Para obtener más información, consulte [Productos de tránsito directo](warehouse-how-to-cross-dock-items.md).
+> Si espera que se reciban documentos de origen productos en el almacén y utiliza la funcionalidad de tránsito directo, [!INCLUDE[prod_short](includes/prod_short.md)] calcula, en cada línea de la hoja de trabajo de picking o envío, la cantidad de producto que está en la ubicación de tránsito directo. Este campo se actualiza cada vez que abandona y abre el documento de envío o la hoja de trabajo. Para obtener más información, consulte [Productos de tránsito directo](warehouse-how-to-cross-dock-items.md).
 
 ## <a name="see-also"></a>Consulte también
 
@@ -114,4 +114,4 @@ También puede utilizar la hoja de trabajo de picking para crear varias instrucc
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)  
 [Gestión de ensamblaje](assembly-assemble-items.md)  
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

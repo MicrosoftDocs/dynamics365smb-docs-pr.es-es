@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6a8298caadec82b191d345e6b7c75b95187b2fe5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f5b4e07f128551e978dffb2dedeb3e0257eea1ea
+ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921747"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "5024567"
 ---
 # <a name="setting-up-inventory"></a>Configurar inventario
 Para poder administrar la actividad de un almacén y los costes de inventario, debe configurar las reglas y valores que definen las políticas de inventario de la empresa.
@@ -38,12 +38,14 @@ Cuando haya configurado su inventario, puede gestionar varios procesos relaciona
 |Como suplemento de las fichas de producto, registre la información sobre los productos en un determinado almacén o de un código de variante en particular.|[Configurar unidades de almacenamiento](inventory-how-to-set-up-stockkeeping-units.md)|
 | Asigne productos a categorías y asígneles atributos como ayuda, tanto para usted como para los clientes, para buscar productos. |[Clasificar productos](inventory-how-categorize-items.md) |
 |Importe varias imágenes de producto de una sola vez desde un archivo zip en el que los archivos se denominan según los números de los elementos.|[Importar varias imágenes de producto](inventory-how-import-item-pictures.md)|
+|Especifique informes predeterminados que se utilizarán para diferentes tipos de documentos.|[Selección de informes en Business Central](across-report-selections.md)|
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Consulte también
+
 [Administrar inventario](inventory-manage-inventory.md)  
 [Administrar compras](purchasing-manage-purchasing.md)  
 [Administrar ventas](sales-manage-sales.md)    
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)

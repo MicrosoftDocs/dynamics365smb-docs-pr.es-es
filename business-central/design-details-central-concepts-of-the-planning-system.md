@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 76a25b3810c41d413c662d77bdcc72678bf8c59f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e916192ad9aa14ebcb254a140614b84091ddc922
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917506"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5013634"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Detalles de diseño: Conceptos centrales del sistema de planificación
 Las funciones de planificación se incluyen en un proceso que primero selecciona los productos correspondientes y el periodo que se planificará. A continuación, según el código de nivel inferior de cada producto (posición de la L.M.), el proceso llama a una codeunit que calcula un plan de suministro equilibrando los conjuntos de suministro y demanda, y sugiriendo acciones posibles que puede realizar el usuario. Las acciones sugeridas aparecen como líneas en la hoja de planificación o la hoja de demanda.  
@@ -49,7 +49,7 @@ Es decir, se asume que el plan para el pasado se ejecuta según el plan proporci
 Para obtener más información, consulte [Gestión de pedidos antes de la fecha de inicio de planificación](design-details-balancing-demand-and-supply.md#dealing-with-orders-before-the-planning-starting-date).  
 
 ## <a name="dynamic-order-tracking-pegging"></a>Seguimiento dinámico de pedidos (fijación)  
-El seguimiento dinámico de pedidos, con creación simultánea de mensajes de acción en la hoja de trabajo de planificación, no forma parte del sistema de planificación de suministro en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Esta característica vincula, en tiempo real, la demanda y las cantidades que podrían cubrirla, siempre que se crea o se cambia una nueva demanda o suministro.  
+El seguimiento dinámico de pedidos, con creación simultánea de mensajes de acción en la hoja de trabajo de planificación, no forma parte del sistema de planificación de suministro en [!INCLUDE[prod_short](includes/prod_short.md)]. Esta característica vincula, en tiempo real, la demanda y las cantidades que podrían cubrirla, siempre que se crea o se cambia una nueva demanda o suministro.  
 
 Por ejemplo, si el usuario introduce o modifica un pedido de venta, el sistema de seguimiento dinámico de pedidos buscará inmediatamente un aprovisionamiento adecuado para cubrir la demanda. Podría ser del inventario o de un pedido de suministro previsto (como un pedido de compra o una orden de producción). Cuando se encuentra un origen de suministro, el programa crea un vínculo entre la demanda y el suministro, y lo muestra en las páginas de solo visualización a las que se tiene acceso desde las líneas de documento correspondientes. Si no se encuentra un suministro adecuado, el sistema de seguimiento de pedidos dinámico crea mensajes de acción en la hoja de planificación con sugerencias de plan de suministro que refleje el equilibrio dinámico. Por consiguiente, el sistema de seguimiento dinámico de pedidos ofrece un sistema de planificación muy básico que puede ser de ayuda para el planificador y otras funciones en la cadena de aprovisionamiento interna.  
 
@@ -76,12 +76,12 @@ En cambio, el sistema de planificación trata con toda la demanda y el aprovisio
 
 Después la ejecución de la planificación, no quedan mensajes de acción en la tabla Mov. mensaje acción, ya que han sido reemplazados por las acciones sugeridas en la hoja de trabajo de planificación.  
 
-Para obtener más información, consulte Conexiones de seguimiento de pedidos durante la planificación en [Equilibrio de aprovisionamiento con demanda](design-details-balancing-demand-and-supply.md#balancing-supply-with-demand).  
+Para obtener más información, consulte [Conexiones de seguimiento de pedidos durante la planificación](design-details-balancing-demand-and-supply.md#seriallot-numbers-are-loaded-by-specification-level).  
 
 ## <a name="sequence-and-priority-in-planning"></a>Secuencia y prioridad en la planificación  
 Al establecer un plan, es importante la secuencia de los cálculos para que el trabajo se realice en un intervalo de tiempo razonable. Además, la priorización de los requisitos y los recursos desempeña una importante función a la hora de obtener los mejores resultados.  
 
-El sistema de planificación en [!INCLUDE[d365fin](includes/d365fin_md.md)] se basa en la demanda. Los productos de primer nivel se deben planificar antes que los productos de nivel inferior, ya que el plan para productos de primer nivel puede generar una demanda adicional para los productos de nivel inferior. Esto significa, por ejemplo, que las ubicaciones minoristas deben planificarse antes de que se planifiquen los centros de distribución, porque el plan de una ubicación minorista puede incluir demanda adicional del centro de distribución. En un nivel de contrapartida detallado, también significa que un pedido de venta no debe desencadenar un nuevo pedido de suministro si un pedido de suministro ya lanzado puede cubrir el pedido de venta. Del mismo modo, no se debe asignar un suministro que incluya un número de lote específico para cubrir una demanda genérica si otra demanda requiere este lote concreto.  
+El sistema de planificación en [!INCLUDE[prod_short](includes/prod_short.md)] se basa en la demanda. Los productos de primer nivel se deben planificar antes que los productos de nivel inferior, ya que el plan para productos de primer nivel puede generar una demanda adicional para los productos de nivel inferior. Esto significa, por ejemplo, que las ubicaciones minoristas deben planificarse antes de que se planifiquen los centros de distribución, porque el plan de una ubicación minorista puede incluir demanda adicional del centro de distribución. En un nivel de contrapartida detallado, también significa que un pedido de venta no debe desencadenar un nuevo pedido de suministro si un pedido de suministro ya lanzado puede cubrir el pedido de venta. Del mismo modo, no se debe asignar un suministro que incluya un número de lote específico para cubrir una demanda genérica si otra demanda requiere este lote concreto.  
 
 ### <a name="item-priority--low-level-code"></a>Prioridad de producto / Cód. nivel más bajo  
 En un entorno de fabricación, la demanda para un producto terminado y sellable dará como resultado una demanda derivada para los componentes que forman parte del producto terminado. La estructura de lista de materiales controla la estructura de componentes y puede abarcar varios niveles de productos semiterminados. La planificación de un producto en un nivel provocará demanda derivada para los componentes en el siguiente nivel, y así sucesivamente. Finalmente, esto dará como resultado una demanda derivada de los productos comprados. Por tanto, el sistema de planificación planifica productos en orden de clasificación en la jerarquía de la L.M. total, empezando por los productos vendibles terminados del nivel superior y siguiendo hacia abajo por la estructura de productos hasta los productos de nivel inferior (según el código más bajo).  
@@ -93,12 +93,12 @@ En la figura se ilustra la secuencia en el que el sistema realiza las sugerencia
 Para obtener más información acerca de las consideraciones de fabricación, consulte [Carga de los perfiles de inventario](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
 
 #### <a name="optimizing-performance-for-low-level-calculations"></a>Optimización del rendimiento para cálculos de bajo nivel
-Los cálculos de código de bajo nivel pueden afectar el rendimiento del sistema. Para mitigar el impacto, puede desactivar **Cálculo dinámico de códigos de bajo nivel** en la página **Configuración fabricación**. Cuando lo haga, [!INCLUDE[d365fin](includes/d365fin_md.md)] le sugerirá que cree una entrada de cola de trabajos recurrente que actualizará diariamente los códigos de bajo nivel. Puede asegurarse de que el trabajo se ejecutará fuera del horario laboral especificando una hora de inicio en el campo **Primera fecha/hora de inicio**.
+Los cálculos de código de bajo nivel pueden afectar el rendimiento del sistema. Para mitigar el impacto, puede desactivar **Cálculo dinámico de códigos de bajo nivel** en la página **Configuración fabricación**. Cuando lo haga, [!INCLUDE[prod_short](includes/prod_short.md)] le sugerirá que cree una entrada de cola de trabajos recurrente que actualizará diariamente los códigos de bajo nivel. Puede asegurarse de que el trabajo se ejecutará fuera del horario laboral especificando una hora de inicio en el campo **Primera fecha/hora de inicio**.
 
 También puede habilitar la lógica que acelera los cálculos de códigos de bajo nivel seleccionando **Optimizar el cálculo de códigos de bajo nivel** en la página **Configuración fabricación**. 
 
 > [!IMPORTANT]
-> Si elige optimizar el rendimiento, [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizará nuevos métodos de cálculo para determinar los códigos de bajo nivel. Si tiene una extensión que se basa en los eventos utilizados por los cálculos anteriores, es posible que la extensión deje de funcionar.   
+> Si elige optimizar el rendimiento, [!INCLUDE[prod_short](includes/prod_short.md)] utilizará nuevos métodos de cálculo para determinar los códigos de bajo nivel. Si tiene una extensión que se basa en los eventos utilizados por los cálculos anteriores, es posible que la extensión deje de funcionar.   
 
 ### <a name="locations--transfer-level-priority"></a>Prioridad de ubicaciones o de nivel de transferencia  
 Las empresas que trabajan con más de un almacén pueden tener que planificar para cada almacén por individual. Por ejemplo, el nivel de existencias de seguridad de un producto y su directiva de reaprovisionamiento pueden diferir de un almacén a otro. En este caso, los parámetros de planificación deben especificarse por producto y también por almacén.  
@@ -121,7 +121,7 @@ Las previsiones y los pedidos abiertos representan ambos la demanda prevista. El
 
 ![Planificación con previsiones](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "Planificación con previsiones")  
 
-Para obtener más información, consulte la sección “Los pedidos de ventas reducen la demanda de previsión” en [Carga de los perfiles de inventario](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
+Para obtener más información, consulte la sección sobre la [reducción de la demanda de previsión por parte de pedidos de venta](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders).  
 
 ## <a name="planning-assignment"></a>Asignar planificación  
 Todos los productos se deben planificar; no obstante, no hay razón para calcular un plan para un producto a menos que haya habido un cambio en el patrón de demanda o de aprovisionamiento desde la última vez que se calculó un plan.  
@@ -136,12 +136,12 @@ El motivo para seleccionar productos para la planificación es cuestión de rend
 
 La lista completa de los motivos para asignar un producto para planificación se proporciona en [Detalles de diseño: Tabla de asignación de planificación](design-details-planning-assignment-table.md).  
 
-Las opciones de planificación en [!INCLUDE[d365fin](includes/d365fin_md.md)] son:  
+Las opciones de planificación en [!INCLUDE[prod_short](includes/prod_short.md)] son:  
 
 -   Calc. planif. regenerativa: calcula todos los productos seleccionados, tanto si es necesario como si no.  
 -   Calc. plan. saldo periodo: calcula únicamente aquellos productos seleccionados que tengan algún cambio en su modelo de demanda y aprovisionamiento y, por tanto, se hayan asignado para planificarse.  
 
-Algunos usuarios creen que la planificación de cambio neto se debe realizar de forma dinámica, por ejemplo, cuando se registran los pedidos de venta. No obstante, esto podría resultar confuso, ya que los mensajes de las acciones y el seguimiento de pedidos dinámico también se calculan sobre la marcha. Además, [!INCLUDE[d365fin](includes/d365fin_md.md)] ofrece control en tiempo real neto no comprometido, el cual emite advertencias emergentes cuando se introducen pedidos de venta si la demanda no se puede satisfacer bajo el plan actual de suministro.  
+Algunos usuarios creen que la planificación de cambio neto se debe realizar de forma dinámica, por ejemplo, cuando se registran los pedidos de venta. No obstante, esto podría resultar confuso, ya que los mensajes de las acciones y el seguimiento de pedidos dinámico también se calculan sobre la marcha. Además, [!INCLUDE[prod_short](includes/prod_short.md)] ofrece control en tiempo real neto no comprometido, el cual emite advertencias emergentes cuando se introducen pedidos de venta si la demanda no se puede satisfacer bajo el plan actual de suministro.  
 
 Además de estas consideraciones, el sistema de planificación planifica solo aquellos productos que el usuario ha preparado con los parámetros apropiados de planificación. De lo contrario, se supone que el usuario planeará los productos de un modo manual o semiautomático con la característica Planificación de pedidos.  
 
@@ -179,7 +179,7 @@ Los productos con número de serie o de lote sin una configuración específica 
 
 La demanda y el aprovisionamiento con números de serie y de lote, específicos o no, se consideran prioritarios y están por tanto exentos de la zona congelada, lo que significa que formarán parte de la planificación incluso si vencen antes de la fecha de inicio de la planificación.  
 
-Para obtener más información, consulte la sección sobre la carga de números de serie y de lote por nivel de especificación” en [Carga de los perfiles de inventario](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
+Para obtener más información, consulte la sección sobre la [carga de números de serie y de lote por nivel de especificación](design-details-balancing-demand-and-supply.md#seriallot-numbers-are-loaded-by-specification-level).
 
 Para obtener más información sobre cómo el sistema de planificación equilibra los atributos, consulte [Exención de números de serie y de lote y de vínculos de pedido a pedido de la zona congelada](design-details-balancing-demand-and-supply.md#seriallot-numbers-and-order-to-order-links-are-exempt-from-the-frozen-zone).  
 
@@ -270,13 +270,13 @@ El usuario puede configurar manualmente el campo, pero, en algunos casos el sist
 Para obtener más información acerca de cómo se utiliza este campo, consulte [Detalles de diseño: Transferencias en planificación](design-details-transfers-in-planning.md).  
 
 ## <a name="order-planning"></a>Planificación de pedidos  
-La herramienta de planificación de suministro básica representada por la página **Planificación de pedidos** se ha diseñado para la toma de decisiones manual. No tiene en cuenta ningún parámetro de planificación, por lo que no se contempla más adelante en este documento. Para obtener más información acerca de la función de planificación de pedidos, consulte la Ayuda de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+La herramienta de planificación de suministro básica representada por la página **Planificación de pedidos** se ha diseñado para la toma de decisiones manual. No tiene en cuenta ningún parámetro de planificación, por lo que no se contempla más adelante en este documento. Para más información, vea [Planificación de nuevos pedidos a pedido por pedido](production-how-to-plan-for-new-demand.md).  
 
 > [!NOTE]  
 >  No es recomendable utilizar la planificación de pedidos si la empresa ya utiliza las hojas de trabajo de planificación o solicitud. Los pedidos de aprovisionamientos creados a través de la página **Programación de pedidos** se pueden modificar o eliminar durante las ejecuciones de planificaciones automatizadas. Esto se debe a que los procesos de planificación automatizados utilizan parámetros de planificación que es posible que el usuario que realiza el plan manual en la página Programación de pedidos no tenga en cuenta.  
 
 ##  <a name="finite-loading"></a>Carga limitada  
-[!INCLUDE[d365fin](includes/d365fin_md.md)] es un sistema ERP estándar, no un sistema de control de envíos o de planta. Planea una utilización factible de los recursos al proporcionar una programación preliminar, pero no crea ni mantiene automáticamente las programaciones detalladas basadas en prioridades o reglas de optimización.  
+[!INCLUDE[prod_short](includes/prod_short.md)] es un sistema ERP estándar, no un sistema de control de envíos o de planta. Planea una utilización factible de los recursos al proporcionar una programación preliminar, pero no crea ni mantiene automáticamente las programaciones detalladas basadas en prioridades o reglas de optimización.  
 
 El uso previsto de la característica Recurso capacidad limitada es 1) evitar la sobrecarga de los recursos específicos y 2) garantizar que no se deje ninguna capacidad sin asignar si pudiera aumentar el plazo de producción de una orden de producción. La característica no incluye ninguna función u opción para priorizar u optimizar las operaciones como sería de prever en un sistema de distribución. No obstante, puede proporcionar información aproximada sobre la capacidad útil para identificar cuellos de botella y evitar sobrecargar los recursos.  
 
@@ -287,7 +287,7 @@ Al planificar con recursos de capacidad limitada, el sistema se asegura de que n
 
 El tiempo de amortiguación puede agregarse a recursos para minimizar la división de operaciones. De este modo, el sistema puede programar la carga en el último día posible superando el porcentaje de carga crítica ligeramente si esto puede reducir el número de operaciones divididas.  
 
-Esto completa el resumen de los conceptos básicos relacionados con la planificación del suministro en [!INCLUDE[d365fin](includes/d365fin_md.md)]. En las secciones siguientes se investigan estos conceptos con más profundidad y se presentan en el contexto de los procedimientos de planificación básicos, el equilibrado de la demanda y el suministro, así como el uso de las directivas de reaprovisionamiento.  
+Esto completa el resumen de los conceptos básicos relacionados con la planificación del suministro en [!INCLUDE[prod_short](includes/prod_short.md)]. En las secciones siguientes se investigan estos conceptos con más profundidad y se presentan en el contexto de los procedimientos de planificación básicos, el equilibrado de la demanda y el suministro, así como el uso de las directivas de reaprovisionamiento.  
 
 ## <a name="see-also"></a>Consulte también  
 [Detalles de diseño: Transferencias en planificación](design-details-transfers-in-planning.md)   

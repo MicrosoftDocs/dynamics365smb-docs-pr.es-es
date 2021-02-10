@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3bf97a81c41823b9b4d839af4d53045f0bdaa74e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cb82642f5526db849ad5344d1f7347513d80c57a
+ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913051"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "4817009"
 ---
 # <a name="service-management"></a>Gestión de servicios
 > [!NOTE]
 > La funcionalidad descrita en este tema y los subtemas solo están visibles en la interfaz de usuario si tiene la experiencia **Premium**. Para obtener más información, consulte [Cambiar las funciones que se muestran](ui-experiences.md).
 
-Proporcionar un servicio continuado a los clientes es una parte importante de cualquier empresa y puede ser el origen de la satisfacción y fidelidad de los clientes, así como de ingresos. Sin embargo, la gestión y supervisión del servicio no resulta siempre sencilla, y [!INCLUDE[d365fin](includes/d365fin_md.md)] ofrece un conjunto de herramientas para ayudarle. Estas herramientas se han diseñado para admitir operaciones de taller de reparaciones y especialidades de servicios, y pueden usarse en supuestos empresariales como sistemas complejos de distribución de servicios al cliente, entornos de servicios industriales con listas de materiales y despacho de alto volumen de técnicos de servicio con requisitos para gestión de piezas de repuesto.  
+Proporcionar un servicio continuado a los clientes es una parte importante de cualquier empresa y puede ser el origen de la satisfacción y fidelidad de los clientes, así como de ingresos. Sin embargo, la gestión y supervisión del servicio no resulta siempre sencilla, y [!INCLUDE[prod_short](includes/prod_short.md)] ofrece un conjunto de herramientas para ayudarle. Estas herramientas se han diseñado para admitir operaciones de taller de reparaciones y especialidades de servicios, y pueden usarse en supuestos empresariales como sistemas complejos de distribución de servicios al cliente, entornos de servicios industriales con listas de materiales y despacho de alto volumen de técnicos de servicio con requisitos para gestión de piezas de repuesto.  
 
  Con estas herramientas puede llevar a cabo lo siguiente:  
 
@@ -46,6 +46,6 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 ## <a name="see-also"></a>Consulte también  
 [Administrar cobros](receivables-manage-receivables.md)   
 [Proyectos](projects-how-create-jobs.md)   
-[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)
+[[!INCLUDE[prod_long](includes/prod_long.md)]](index.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
