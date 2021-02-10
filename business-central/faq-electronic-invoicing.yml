@@ -1,0 +1,59 @@
+### YamlMime:FAQ
+metadata:
+  title: P+F sobre facturación electrónica
+  description: Obtenga respuestas sobre el servicio de intercambio de documentos y las versiones compatibles de PEPPOL.
+  author: sorenfriisalexandersen
+  ms.topic: article
+  ms.service: dynamics365-business-central
+  ms.search.keywords: e-invoicing, PEPPOL, NemHandel
+  ms.date: 01/05/2021
+  ms.author: edupont
+  ms.openlocfilehash: 5fd42d8165e4f10e0c09d7efcfc021eb42a74ea8
+  ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+  ms.translationtype: HT
+  ms.contentlocale: es-ES
+  ms.lasthandoff: 01/15/2021
+  ms.locfileid: "5013772"
+title: P+F sobre facturación electrónica
+summary: "El servicio de intercambio de documentos integrado envía facturas electrónicas a TradeShift, un proveedor de servicios que transmite facturas electrónicas a los destinatarios de PEPPOL o NemHandel. Pero el servicio admite un número limitado de versiones.   \n\nEstas preguntas frecuentes responden a algunas de las preguntas clave sobre la facturación electrónica.  \n"
+sections:
+- name: General
+  questions:
+  - question: ¿Cuál es el problema?
+    answer: El soporte integrado de PEPPOL utiliza una API proporcionada por TradeShift. Pero esa API no admite versiones más recientes de PEPPOL.
+  - question: ¿Cuál es la última versión de PEPPOL compatible con la API TradeShift?
+    answer: La última versión de PEPPOL compatible con la API TradeShift es **PEPPOL BIS 2.1**.
+  - question: ¿Cuál es la última versión de PEPPOL compatible con Business Central?
+    answer: La última versión de PEPPOL compatible con la versión predeterminada de Business Central es **PEPPOL BIS 3.0**. Mantendremos el servicio de intercambio de documentos existente basado en TradeShift en funcionamiento siempre que TradeShift admita la API actual. Además, seguimos admitiendo los formatos de facturación electrónica actualmente admitidos.
+- name: 'Aplicaciones de '
+  questions:
+  - question: ¿Existen aplicaciones que nos puedan ayudar con la facturación electrónica?
+    answer: >
+      Sí. La siguiente lista proporciona ejemplos de aplicaciones existentes para Business Central que admiten la facturación electrónica en los formatos más recientes. Tenga en cuenta que no es una lista completa:
+
+      - [Pagero - Aplicación de facturación electrónica (Dinamarca, Alemania, Finlandia, Francia, Noruega, España, Suecia, Reino Unido)](https://appsource.microsoft.com/product/dynamics-365-business-central/pubid.pagero-4798327%7Caid.pagero%7Cpappid.92b90d1d-ecde-4d26-a95b-1d57720e79c6)
+
+      - [Soluciones Oseberg - Factura electrónica PEPPOL Bis (Noruega)](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.oseberg_solutions%7CAID.oseberg_peppol%7CPAPPID.49206e10-c889-400d-8465-bde6555e00fc)
+
+      - [BCS Itera - Facturación electrónica para Finlandia](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.bcsitera%7CAID.e-invoicing-finland%7CPAPPID.d88e27d5-57ce-4504-ab72-f73bb6702b59?tab=Overview)
+
+      - [Facturación electrónica alternativa para Italia](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.alterna%7CAID.e26cf7bb-ade2-43aa-8ad4-54b93c5861c0%7CPAPPID.e26cf7bb-ade2-43aa-8ad4-54b93c5861c0?tab=Overview)
+
+      - [NAVlab - FTE LITE CLOUD (Italia)](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.navlab-1990684%7CAID.felight%7CPAPPID.a239eef8-4446-4379-a0af-e0f8f1e7f260?tab=Overview)
+
+      - [AppVision - Factura electrónica para Hungría](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.appvision-5226274%7CAID.hungarian_electronic_invoice%7CPAPPID.f5891011-91e3-416e-92c7-db21f1f3a939?tab=Overview) 
+
+      - [Socios de Estonian Dynamics - Telema EDI (Estonia)](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.estonian_dynamics_partners%7CAID.telema-edi%7CPAPPID.0f6cfaa0-c4d6-49af-a644-4194e69420be)
+
+      - [Estonian Dynamics Partners: localización de facturación electrónica para Estonia](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.estonian_dynamics_partners%7CAID.einvoicingest%7CPAPPID.d2552bde-4704-4c58-99fa-040fbdea8489?tab=Overview)
+
+      - [Soluciones MNG - PEPPOL BIS3.0 SG (Singapur)](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.mngsolutions1595995772564%7CAID.mng_singapore_e-invoice%7CPAPPID.e7a92932-a086-42bf-b389-4e111183d2e7?tab=Overview)
+
+      - [Localización de CyanSYS Singapur para GST y PEPPOL (Singapur)](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.cyansyspteltd1583839297658%7CAID.cyansys-singapore-localisation-for-bc%7CPAPPID.e5de1cdc-5674-477f-8796-e1bd210af4aa?tab=Overview)
+
+      - [Deex: localización de IVA y facturación electrónica para Corea](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.deexkorea%7CAID.deex_korean_vat_localization%7CPAPPID.b6696d1f-9913-4006-97bc-86ae58f38ec1?tab=Overview)
+- name: Requisito B2G en Alemania
+  questions:
+  - question: ¿Qué pasa con el requisito de B2G en Alemania?
+    answer: Para los usuarios de Business Central que tienen clientes en el gobierno alemán y necesitan facturación B2G, a partir del 27 de noviembre de 2020, deben enviar facturas en formatos locales, como *XRechnung* o *ZUGFeRD*.  Esto será compatible con aplicaciones como [Belware XRechnung](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.belwaregmbh2%7CAID.connector_365_xrechnung%7CPAPPID.0e71f27e-d331-4045-a643-c2777a797cc4?tab=Overview) o [Facturación electrónica de Pagero](https://appsource.microsoft.com/product/dynamics-365-business-central/pubid.pagero-4798327%7Caid.pagero%7Cpappid.92b90d1d-ecde-4d26-a95b-1d57720e79c6). 
+additionalContent: "## <a name=\"next-steps\"></a>Pasos siguientes\nEncuentre información relacionada aquí: \n  - [Enviar documentos electrónicos](sales-how-to-send-electronic-documents.md)"

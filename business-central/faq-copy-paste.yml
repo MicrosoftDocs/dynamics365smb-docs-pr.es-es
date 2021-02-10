@@ -1,0 +1,81 @@
+### YamlMime:FAQ
+metadata:
+  title: P+F sobre copiar y pegar datos
+  description: Obtenga respuestas a las preguntas frecuentes sobre cómo copiar y pegar datos de campos y filas de las páginas de Business Central.
+  author: SorenGP
+  ms.topic: article
+  ms.service: dynamics365-business-central
+  ms.search.keywords: accessibility, shortcuts, keyboarding
+  ms.date: 01/08/2021
+  ms.author: edupont
+  ms.openlocfilehash: 93b9f28fec418fef9968fb729ee03b3b0df3918a
+  ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+  ms.translationtype: HT
+  ms.contentlocale: es-ES
+  ms.lasthandoff: 01/15/2021
+  ms.locfileid: "5013926"
+title: Preguntas frecuentes sobre copiar y pegar
+summary: "Puede copiar una o más filas (registros) de una lista o un solo campo en una página y luego pegar lo que ha copiado en la misma página, otra página o un documento externo (como Microsoft Excel y el correo electrónico de Outlook).  \n\nEn resumen, para copiar, presione CTRL+C (cmd+C en macOS) en su teclado. Para pegar, presione CTRL+V (cmd+V en macOS). Hay otros métodos abreviados de teclado para copiar y pegar que le ayudan a ahorrar tiempo al introducir datos. Para obtener más información, consulte [Métodos abreviados de teclado](keyboard-shortcuts.md#CopyRows). Este artículo responde a preguntas comunes que puede tener acerca de las acciones copiar y pegar.  \n"
+sections:
+- name: General
+  questions:
+  - question: ¿Qué puedo copiar y pegar?
+    answer: >
+      Puede copiar y pegar este tipo de datos:
+
+      - Copie una o más filas en [!INCLUDE[prod_short](includes/prod_short.md)] a la misma lista o en cualquier lista con columnas idénticas.
+
+      - Copie una o más filas en [!INCLUDE[prod_short](includes/prod_short.md)] y péguelas en Excel u otras aplicaciones.
+
+      - Copie una o más filas en Excel y péguelas en una lista de [!INCLUDE[prod_short](includes/prod_short.md)].
+
+      - Copie el valor de un campo individual en [!INCLUDE[prod_short](includes/prod_short.md)] y péguelo en cualquier lugar.
+  - question: ¿Copiar y pegar funciona con mosaicos?
+    answer: >
+      Sí, pero solo para un único mosaico seleccionado.
+  - question: ¿Cómo copio una fila?
+    answer: >
+      Para copiar una sola fila, selecciónela y, a continuación, presione Ctrl+C.
+
+
+      Si desea copiar más filas, puede:
+
+      - Presionar Ctrl+Clic en otra fila o Mayús+Clic para seleccionar la fila y todas las filas intermedias. Consulte [Métodos abreviados de teclado](keyboard-shortcuts.md#CopyRows) para obtener más combinaciones de mouse y teclado para seleccionar filas.
+
+      - Seleccione ![Mostrar más opciones](media/show-more-options-icon.png "Icono Mostrar más opciones") en la primera columna, elija **Seleccionar más**, seleccione la casilla junto a cada fila que desea copiar y luego presione Ctrl+C.
+  - question: ¿Cómo pego las filas?
+    answer: >
+      Seleccione una fila vacía, con el enfoque en cualquier celda y luego presione Crtl+V.
+
+
+      Si desea reemplazar las filas existentes, seleccione las filas y luego presione Crtl+V. En este caso, solo puede pegar el mismo número de filas que seleccionó.
+
+
+      > [!NOTE]
+
+      > La lista en la que va a pegar se debe poder editar.
+
+
+      <!-- Rows are pasted directly where your cursor is located. If you paste into an empty line, any existing subsequent lines will be moved after the pasted lines. If you paste into an existing line or lines, this will be overwritten.-->
+  - question: ¿Puedo pegar filas en un correo electrónico de Outlook?
+    answer: >
+      Sí. Se pega como una tabla bien formateada que conserva la sangría, la alineación numérica y el color, tal como se vería en [!INCLUDE[prod_short](includes/prod_short.md)].
+  - question: ¿En qué listas puedo copiar y pegar filas?
+    answer: >
+      Puede copiar filas en cualquier tipo de lista, incluidas hojas de trabajo, cuadros informativos o listas que están incrustadas en una página (como líneas de un pedido de ventas). Sin embargo, para pegar filas, la lista debe ser editable.
+
+
+      En algunas páginas, el diseño de la aplicación puede evitar que pegue filas. Póngase en contacto con su administrador o desarrollador de aplicaciones para cambiar la [propiedad editable](/dynamics365/business-central/dev-itpro/developer/properties/devenv-editable-property) de la página o la [propiedad PasteIsValid](/dynamics365/business-central/dev-itpro/developer/properties/devenv-pasteisvalid-property) de la tabla de origen.
+  - question: ¿En qué clientes está disponible la acción de copiar y pegar?
+    answer: >
+      Copiar y pegar está disponible en el navegador o en la aplicación [!INCLUDE[prod_short](includes/prod_short.md)] para Windows 10.
+  - question: ¿Cuál es el número máximo de filas que se pueden copiar?
+    answer: >
+      Puede copiar tantas filas como desee. Por ejemplo, para copiar las 1000 filas de una página, primero debe desplazarse a la parte inferior de la página y esperar a que aparezcan las filas antes de copiarlas. El número máximo de filas que puede copiar solo está limitado por la memoria de su dispositivo.
+  - question: ¿Debo tener el mismo número exacto de columnas al pegar las filas?
+    answer: >
+      Sí. Tanto si está copiando desde [!INCLUDE[prod_short](includes/prod_short.md)], desde Excel o desde algún otro origen de tabla, las filas que pegue en [!INCLUDE[prod_short](includes/prod_short.md)] deben tener las columnas coincidentes exactas, ni más ni menos.
+  - question: ¿Por qué me aparecen errores al pegar filas?
+    answer: >
+      Al pegar en [!INCLUDE[prod_short](includes/prod_short.md)], se comprueba cada fila para asegurarse de que los valores de cada columna son válidos. Si una columna contiene un valor que no es válido, se detiene el pegado y se muestra un mensaje de error. Para evitar esto, asegúrese de que las columnas tengan valores válidos antes de pegarlos.
+additionalContent: "## <a name=\"next-steps\"></a>Pasos siguientes\nEncuentre información relacionada aquí: \n  - [Características de asistencia](ui-accessibility.md)  \n  - [Introducción](product-get-started.md)  \n  - [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  \n  - [Preguntas más frecuentes](across-faq.md)"
