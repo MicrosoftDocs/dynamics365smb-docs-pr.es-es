@@ -7,18 +7,18 @@ ms.topic: article
 ms.search.keywords: ''
 ms.date: 10/08/2020
 ms.author: edupont
-ms.openlocfilehash: 658816cfb65580404bc8ef10472a5b62c6815c9e
-ms.sourcegitcommit: 4bca699d2a5ce182eb5572d72fac4fb478c4f293
+ms.openlocfilehash: 2220b5227cfe0e99a53071829096a67b6aeb0521
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "3989493"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754922"
 ---
 # <a name="publish-a-web-service"></a>Publicar un servicio web
 
-Los servicios web son una forma ligera para hacer que la funcionalidad de la aplicación esté disponible en distintas clases de sistemas externos y usuarios. Por defecto, [!INCLUDE[d365fin](includes/d365fin_md.md)] expone una serie de objetos, como servicios web, para una mejor integración con otros servicios de Microsoft. Puede agregar otros servicios web según lo requiera su empresa.  
+Los servicios web son una forma ligera para hacer que la funcionalidad de la aplicación esté disponible en distintas clases de sistemas externos y usuarios. Por defecto, [!INCLUDE[prod_short](includes/prod_short.md)] expone una serie de objetos, como servicios web, para una mejor integración con otros servicios de Microsoft. Puede agregar otros servicios web según lo requiera su empresa.  
 
-Configure un servicio web en [!INCLUDE[d365fin](includes/d365fin_md.md)] y luego publique el servicio web para que esté disponible para los usuarios autenticados. Todo los usuarios autorizados pueden tener acceso a los metadatos de los servicios Web, pero solo los usuarios con permisos suficientes pueden tener acceso a los datos reales.  
+Configure un servicio web en [!INCLUDE[prod_short](includes/prod_short.md)] y luego publique el servicio web para que esté disponible para los usuarios autenticados. Todo los usuarios autorizados pueden tener acceso a los metadatos de los servicios Web, pero solo los usuarios con permisos suficientes pueden tener acceso a los datos reales.  
 
 ## <a name="creating-and-publishing-a-web-service"></a>Crear y publicar un servicio web
 
@@ -40,7 +40,7 @@ Cuando publica el servicio web, los campos **URL de OData** y **URL de SOAP** mu
 Puede probar el servicio web inmediatamente eligiendo los vínculos de los campos **URL de OData** y **URL de SOAP**. Opcionalmente, copie el valor del campo y guárdelo para su uso posterior. Para probar las unidades de código que se exponen como acciones independientes de OData v4, siga las instrucciones de la sección [Verificación de la disponibilidad del servicio web](/dynamics365/business-central/dev-itpro/developer/devenv-creating-and-interacting-with-odatav4-unbound-action#verifying-web-service-availability) del contenido del desarrollador.
 
 > [!NOTE]
-> Si los objetos que expone como servicios web no deben ser accesibles desde [!INCLUDE[prodshort](includes/prodshort.md)] en línea, debe marcar los métodos expuestos en el código como `[Scope('OnPrem')]`. Para obtener más información, consulte [Ámbito de atributo](/dynamics365/business-central/dev-itpro/developer/methods/devenv-scope-attribute).
+> Si los objetos que expone como servicios web no deben ser accesibles desde [!INCLUDE[prod_short](includes/prod_short.md)] en línea, debe marcar los métodos expuestos en el código como `[Scope('OnPrem')]`. Para obtener más información, consulte [Ámbito de atributo](/dynamics365/business-central/dev-itpro/developer/methods/devenv-scope-attribute).
 
 Una vez publique un servicio Web, está disponible a partes externas. Puede verificar la disponibilidad del servicio web con un explorador o bien, puede elegir el vínculo de los campos **URL de OData** y **URL de SOAP** en la página **Servicios web**. El procedimiento siguiente muestra cómo puede comprobar la disponibilidad del servicio web para uso posterior.  
 
@@ -56,7 +56,7 @@ Una vez publique un servicio Web, está disponible a partes externas. Puede veri
 
 2. Revise la información que se muestra en el explorador. Compruebe que puede ver el nombre del servicio web que ha creado.  
 
-Cuando obtiene acceso a un servicio web, y desea escribir datos de nuevo en [!INCLUDE[d365fin](includes/d365fin_md.md)], debe especificar el nombre de la empresa. Puede especificar la empresa como parte del URI como se muestra en los ejemplos o bien; alternativamente, puede especificar la empresa como parte de los parámetros de consulta. Por ejemplo, los URI siguientes señalan al mismo servicio web de OData y ambos son URI válidos.  
+Cuando obtiene acceso a un servicio web, y desea escribir datos de nuevo en [!INCLUDE[prod_short](includes/prod_short.md)], debe especificar el nombre de la empresa. Puede especificar la empresa como parte del URI como se muestra en los ejemplos o bien; alternativamente, puede especificar la empresa como parte de los parámetros de consulta. Por ejemplo, los URI siguientes señalan al mismo servicio web de OData y ambos son URI válidos.  
 
 ```
 https://api.businesscentral.dynamics.com/v1.0/OData/Company('CRONUS International Ltd.')/Customer  

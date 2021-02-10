@@ -10,29 +10,29 @@ ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e8b62e04b3b1d44ba53572559c66acc1c05da8c0
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0058fd8aa684fd12392e641dda3bbb0ee6862134
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914619"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753697"
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Exportar los datos de negocio a Excel
-Si desea trabajar con sus datos de [!INCLUDE[d365fin](includes/d365fin_md.md)] en Excel, puede abrir todas las listas en Excel y trabajar con ellos. De igual forma, si desea cancelar la suscripción de [!INCLUDE[d365fin](includes/d365fin_md.md)], puede exportar los datos a Excel de forma que pueda llevárselos.
+Si desea trabajar con sus datos de [!INCLUDE[prod_short](includes/prod_short.md)] en Excel, puede abrir todas las listas en Excel y trabajar con ellos. De igual forma, si desea cancelar la suscripción de [!INCLUDE[prod_short](includes/prod_short.md)], puede exportar los datos a Excel de forma que pueda llevárselos.
 
 ## <a name="opening-lists-in-excel"></a>Abrir listas en Excel
 Puede abrir los datos en Excel desde cualquier diario, lista u hoja de trabajo. Abra solo la página que desee y, a continuación, elija **Abrir en Excel**. Por ejemplo, abra la lista de clientes (busque **Clientes**) y elija **Abrir en Excel**. El explorador le indicaŕa que abra o guardar el libro de Excel generado.  
 
 > [!NOTE]
-> Use esta opción cuando no desee realizar cambios y publicar esos cambios de nuevo en [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+> Use esta opción cuando no desee realizar cambios y publicar esos cambios de nuevo en [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Cada lista incluye varias columnas y la exportación a Excel incluirá algunas columnas que están en la vista actual. Si desea agregar o eliminar columnas antes de abrir la lista en Excel, abra el menú contextual de cualquier columna y después especifique qué columnas que desea ver. Esta lista de columnas es distinta de la mayoría de listas y refleja la estructura de la base de datos donde se almacenan los datos. Si no está seguro del tipo de datos que contiene una determinada columna, puede agregarla a la vista y decidir si desea quitarla de nuevo.  
 
 ### <a name="edit-data-in-excel"></a>Editar datos en Excel
-Su experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)] incluye un complemento para Excel para que pueda editar datos en Excel. Para obtener más información, consulte [Análisis de estados financieros en Microsoft Excel](finance-analyze-excel.md).  
+Su experiencia de [!INCLUDE[prod_short](includes/prod_short.md)] incluye un complemento para Excel para que pueda editar datos en Excel. Para obtener más información, consulte [Análisis de estados financieros en Microsoft Excel](finance-analyze-excel.md).  
 
 ## <a name="exporting-data-to-other-finance-systems"></a>Exportar datos a otros sistemas financieros
-Si decida cancelar la suscripción de [!INCLUDE[d365fin](includes/d365fin_md.md)], puede exportar los datos a Excel y llevárselos a su próximo sistema financiero.  
+Si decida cancelar la suscripción de [!INCLUDE[prod_short](includes/prod_short.md)], puede exportar los datos a Excel y llevárselos a su próximo sistema financiero.  
 
 Por supuesto, puede exportar todas las páginas, pero puede que sea más de lo que necesita realmente. Por lo tanto, considere la posibilidad de exportar las páginas esenciales siguientes y recuerde agregar todas las columnas como se ha descrito anteriormente:  
 
@@ -64,7 +64,7 @@ Le recomendamos que también considere la posibilidad de exportar los datos de l
 * Vendedores  
 
 > [!NOTE]  
-> Si ha configurado varias empresas en [!INCLUDE[prodshort](includes/prodshort.md)], debe exportar los datos correspondientes de cada empresa.
+> Si ha configurado varias empresas en [!INCLUDE[prod_short](includes/prod_short.md)], debe exportar los datos correspondientes de cada empresa.
 
 > [!NOTE]
 > Debe tener al menos uno de los siguientes permisos para abrir o editar datos en Excel:
@@ -76,9 +76,9 @@ Para obtener más información, consulte [Para obtener un resumen de los permiso
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Consulte también
-[Cancelar la suscripción de [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-cancel.md)  
+[Cancelar la suscripción de [!INCLUDE[prod_short](includes/prod_short.md)]](admin-cancel.md)  
 [Importar datos de empresa de otros sistemas financieros](across-import-data-configuration-packages.md)  
 [Análisis de estados financieros en Microsoft Excel](finance-analyze-excel.md)  
 [Finanzas](finance.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

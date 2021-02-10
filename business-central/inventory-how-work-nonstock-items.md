@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: non-inventoriable
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7d9950d550f614ba7cc0e422d919d9f8e8bf8390
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cf6016b2d2f2774807b120ab3d3521af9eaf5f7f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921802"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749910"
 ---
 # <a name="work-with-catalog-items"></a>Trabajar con productos del catálogo
 Puede ofrecer varios productos a sus clientes para su comodidad que no desea gestionar en su sistema hasta que empiece a venderlos. Cuando desee empezar a gestionar esos productos en su sistema, puede convertirlos en fichas de productos normales de dos formas.
@@ -72,4 +72,4 @@ Si es necesario, podrá rellenar o editar los campos en la nueva ficha de produc
 [Registro de productos nuevos](inventory-how-register-new-items.md)  
 [Crear pedidos especiales](sales-how-to-create-special-orders.md)|  
 [Inventario](inventory-manage-inventory.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

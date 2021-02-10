@@ -11,17 +11,17 @@ ms.search.keywords: recurring, invoicing, subscription, billing
 ms.reviewer: edupont
 ms.date: 10/01/2020
 ms.author: andreipa
-ms.openlocfilehash: 25cf2c75ac6beca4f187b329c610914452d7dfcb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 311af347fede15b3d246e66d66b47a5fd09c90db
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910810"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750485"
 ---
-# <a name="work-with-recurring-revenue-in-d365fin"></a>Trabajar con ingresos recurrentes en [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="work-with-recurring-revenue-in-prod_short"></a>Trabajar con ingresos recurrentes en [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Muchas empresas están pasando de un modelo de ingresos de negocio en el que los ingresos se obtienen de la compra única de un cliente a un modelo de suscripción en el que los ingresos se realizan de forma periódica a cambio de un acceso constante a la entrega de un bien o servicio.
-[!INCLUDE[d365fin](includes/d365fin_md.md)] tiene las siguientes opciones para automatizar la manera en que envía las facturas de suscripción a sus clientes y registra ingresos recurrentes. 
+[!INCLUDE[prod_short](includes/prod_short.md)] tiene las siguientes opciones para automatizar la manera en que envía las facturas de suscripción a sus clientes y registra ingresos recurrentes. 
 
 ## <a name="register-revenue-with-a-recurring-general-journal"></a>Registrar ingresos con un diario general periódico
 
@@ -31,7 +31,7 @@ Un diario periódico es un diario general con campos específicos para administr
 
 Con esta opción, se definen períodos de facturación flexibles con [Fórmulas de fecha](ui-enter-date-ranges.md#using-date-formulas).
 
-Sin embargo, con esta opción, no puede imprimir ni enviar facturas en la versión predeterminada de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Sin embargo, con esta opción, no puede imprimir ni enviar facturas en la versión predeterminada de [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Para obtener más información, consulte [Trabajar con diarios periódicos](ui-work-general-journals.md#working-with-recurring-journals).  
 
@@ -57,7 +57,7 @@ Si suele necesitar crear líneas de ventas y de compras con información similar
 
 Con esta opción, puede asignar las mismas líneas recurrentes a varios clientes. Puede definir el período de validez de las líneas de venta periódicas para un cliente específico. Puede asignar varias líneas periódicas al mismo cliente y todas se incluirán en la factura.
 
-Sin embargo, no hay forma de establecer precios fijos para los artículos porque [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizará los precios reales y el descuento válido en la fecha del documento, tratando de encontrar la mejor combinación que ofrezca el precio más bajo.  
+Sin embargo, no hay forma de establecer precios fijos para los artículos porque [!INCLUDE[prod_short](includes/prod_short.md)] utilizará los precios reales y el descuento válido en la fecha del documento, tratando de encontrar la mejor combinación que ofrezca el precio más bajo.  
 
 Para obtener más información, vea [Crear líneas de ventas y de compras periódicas](sales-how-work-standard-lines.md).
 
@@ -77,7 +77,7 @@ Sin embargo, esta opción requiere la licencia Premium. Es posible que la config
 Para obtener más información, consulte [Trabajar con contratos de servicio y ofertas de contrato de servicio](service-how-to-create-service-contracts-and-service-contract-quotes.md) y [Facturar varios contratos de servicio](service-how-create-invoices.md#to-invoice-several-service-contracts).
 
 ## <a name="related-features"></a>Características relacionadas
-Hay varias capacidades relacionadas en [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Hay varias capacidades relacionadas en [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ### <a name="blanket-sales-orders"></a>Pedidos abiertos de venta
 
@@ -103,7 +103,7 @@ Con esta opción, puede elegir entre precios fijos y "mejores".
 
 Sin embargo, solo está disponible en Noruega. El período de validez se puede definir en el nivel de grupo periódico.
 
-Para obtener más información, consulte [Pedidos periódicos (Noruega)](/localfunctionality/norway/recurring-orders.md).
+Para obtener más información, consulte [Pedidos periódicos](LocalFunctionality/Norway/recurring-orders.md).
 
 ### <a name="recurring-revenue-and-subscription-billing-by-other-providers"></a>Ingresos periódicos y facturación de suscripción por otros proveedores
 
@@ -120,4 +120,4 @@ En [AppSource.microsoft.com](https://appsource.microsoft.com/), puede obtener ex
 [Facturar varios contratos de servicio](service-how-create-invoices.md#to-invoice-several-service-contracts)  
 [Previsiones de demanda y pedidos abiertos](design-details-central-concepts-of-the-planning-system.md#demand-forecasts-and-blanket-orders)  
 [Trabajar con pedidos de venta abiertos](sales-how-to-create-blanket-sales-orders.md)  
-[Pedidos periódicos (Noruega)](/localfunctionality/norway/recurring-orders.md)  
+[Pedidos periódicos (Noruega)](LocalFunctionality/Norway/recurring-orders.md)  

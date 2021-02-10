@@ -10,22 +10,22 @@ ms.workload: na
 ms.search.keywords: payment process, reconcile payment, expenses, cash receipts
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 386947106aedd8d0a264d04bd28c064a0f43655f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: bcb3ffbf7bab30b71cea7c2f1005124415ab2ae4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926427"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748523"
 ---
 # <a name="review-or-apply-payments-manually-after-automatic-application"></a>Revisar o liquidar pagos manualmente después de una liquidación automática
 Para cada línea de diario que representa un pago en la página **Diario de conciliación de pagos** podrá abrir la página **Liquidación de pago** para ver todos los candidatos con movimientos pendientes de pago y podrá ver información detallada para cada movimiento sobre la correspondencia de datos en la que se basa la liquidación de un pago. Aquí puede liquidar manualmente pagos o volver a liquidar pagos que se aplicaron automáticamente en un movimiento incorrecto. Para obtener más información acerca de la liquidación automática, vea [Conciliar pagos usando la liquidación automática](receivables-how-reconcile-payments-auto-application.md).
 
 > [!IMPORTANT]  
->   Cuando la cuenta bancaria para la que se están conciliando pagos está configurada para la divisa local, la página **Liquidación de pago** mostrará todos los movimientos pendientes en la divisa local, incluidos los movimientos pendientes para documentos facturados originalmente en divisas extranjeras. Los pagos liquidados en movimientos con divisas convertidas se pueden por tanto registrar con importes distintos al del documento original, ya que puede que el banco y [!INCLUDE[d365fin](includes/d365fin_md.md)] usen tipos de cambio potencialmente distintos.
+>   Cuando la cuenta bancaria para la que se están conciliando pagos está configurada para la divisa local, la página **Liquidación de pago** mostrará todos los movimientos pendientes en la divisa local, incluidos los movimientos pendientes para documentos facturados originalmente en divisas extranjeras. Los pagos liquidados en movimientos con divisas convertidas se pueden por tanto registrar con importes distintos al del documento original, ya que puede que el banco y [!INCLUDE[prod_short](includes/prod_short.md)] usen tipos de cambio potencialmente distintos.
 
 Por tanto, es recomendable buscar los códigos de divisas extranjeras en el campo **Código de divisa** de la página **Liquidación de pago** para comprobar si las liquidaciones se basan en divisas convertidas. Para revisar el importe del documento original en la divisa extranjera y ver el tipo de cambio utilizado, elija el campo **Liq. por nº mov.** y, a continuación, en el menú contextual, seleccione el botón desplegable para abrir la ventana **Movimientos de clientes** o la página **Movimientos de proveedores**.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] no gestiona automáticamente los ajustes de ganancia y pérdida necesarios debido a conversiones de divisa.
+[!INCLUDE[prod_short](includes/prod_short.md)] no gestiona automáticamente los ajustes de ganancia y pérdida necesarios debido a conversiones de divisa.
 
 > [!NOTE]  
 >   No puede liquidar movimientos con signo diferente al signo en el pago. Por ejemplo, para cerrar un abono negativo y su factura positiva, primero deberá liquidar el abono para la factura y, a continuación, liquidar el pago para la factura con el importe pendiente reducido.
@@ -52,4 +52,4 @@ Se cierra la página **Liquidación de pagos** y, en la página **Diario de conc
 ## <a name="see-also"></a>Consulte también
 [Administrar cobros](receivables-manage-receivables.md)  
 [Ccial](sales-manage-sales.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: service, work hours, configure, price, pricing
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 0e6218a313c2cb9031da8ee1c66a90cfe9dd0207
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: bf19cc5b0ae606ce7f235e707057516dba4ca5e0
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915265"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757847"
 ---
 # <a name="planning-services"></a>Servicio de planificación
-Con [!INCLUDE[d365fin](includes/d365fin_md.md)], puede configurar las tareas estándar que necesite para satisfacer las necesidades de servicio de su cliente. Para realizarlo, debe determinar qué ofertas de productos de servicio admite su organización de servicios y a qué precio.   
+Con [!INCLUDE[prod_short](includes/prod_short.md)], puede configurar las tareas estándar que necesite para satisfacer las necesidades de servicio de su cliente. Para realizarlo, debe determinar qué ofertas de productos de servicio admite su organización de servicios y a qué precio.   
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] también proporciona algunas herramientas de estadísticas que puede utilizar para determinar como de bien van las cosas e identificar las áreas donde podría mejorar.
+[!INCLUDE[prod_short](includes/prod_short.md)] también proporciona algunas herramientas de estadísticas que puede utilizar para determinar como de bien van las cosas e identificar las áreas donde podría mejorar.
   
 En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.   
   

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 211f4cda3bd7d47c6268b0dfc041d25b100d2d14
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5092cc24ee86bc7f87b2b96653f473448062aaa4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919268"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755422"
 ---
 # <a name="create-segments"></a>Crear segmentos
 Puede crear segmentos para poder seleccionar un grupo de contactos, por ejemplo, si desea crear una interacción que implique a varios contactos, como en un envío de correo directo.
@@ -35,4 +35,4 @@ Ahora puede agregar contactos al segmento. Para obtener más información, vea [
 ## <a name="see-also"></a>Consulte también
 [Administrar segmentos](marketing-segments.md)  
 [Administrar oportunidades de venta](marketing-manage-sales-opportunities.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -9,20 +9,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 10/01/2020
+ms.date: 12/04/2020
 ms.author: edupont
-ms.openlocfilehash: 2f16af0f87cae376fd1ed96b02cad3a64adc94cc
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c68596af28753cb9825d930e55beff4e3f72c2c6
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915090"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757197"
 ---
 # <a name="intelligent-cloud-base-extension"></a>Extensión de base de nube inteligente
 
-Esta extensión lo llevará a través del proceso para configurar y administrar su entorno de nube inteligente.Una vez que su entorno de nube inteligente esté configurado, podrá administrar las replicaciones de datos de su solución local de [!INCLUDE[prodshort](includes/prodshort.md)] a su suscriptor de la nube. Esta extensión funcionará junto con una extensión de replicación de datos disponible para su solución local específica. Para obtener más información, consulte [Información inteligente](about-intelligent-cloud.md).  
+Esta extensión lo guiará a través del proceso para configurar una conexión entre su solución local y su entorno de [!INCLUDE [prod_short](includes/prod_short.md)] en línea, ya sea porque está migrando a la nube o porque se está conectando a la nube inteligente desde su solución local.  
+
+Una vez configurada la conexión, puede migrar datos o administrar replicaciones de datos desde su solución local a su inquilino de nube [!INCLUDE[prod_short](includes/prod_short.md)]. Esta extensión funcionará junto con una extensión de replicación de datos disponible para su solución local específica. Para más información, vea [Ejecución de la herramienta de migración a la nube](/dynamics365/business-central/dev-itpro/administration/migration-tool).  
 
 ## <a name="see-also"></a>Consulte también
 
 [Información inteligente](about-intelligent-cloud.md)  
-[Extensión de replicación de datos](ui-extensions-data-replication.md)  
+[Ejecución de la herramienta de migración a la nube](/dynamics365/business-central/dev-itpro/administration/migration-tool)  
+[Extensiones inteligentes en la nube para la migración a la nube](ui-extensions-data-replication.md)  

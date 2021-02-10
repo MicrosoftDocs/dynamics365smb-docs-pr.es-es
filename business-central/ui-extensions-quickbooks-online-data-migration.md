@@ -10,20 +10,20 @@ ms.workload: na
 ms. search.keywords: extension, migrate, data, QuickBooks, import
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 1c4e33593cd7d0084d3c41a22a865160411ef01f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 064f7fd7f0737263234b7324c298e513ef91e9c8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923500"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757472"
 ---
 # <a name="the-quickbooks-online-data-migration-extension"></a>Extensión de migración de datos de QuickBooks Online
 
-Esta extensión se incluye en la guía de configuración asistida **Migración de datos** para ayudarle a migrar datos comerciales importantes de QuickBooks Online a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Por ejemplo, esto es útil cuando su negocio está creciendo y ha decidido actualizar su aplicación de administración de negocios con [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Esta extensión se incluye en la guía de configuración asistida **Migración de datos** para ayudarle a migrar datos comerciales importantes de QuickBooks Online a [!INCLUDE[prod_short](includes/prod_short.md)]. Por ejemplo, esto es útil cuando su negocio está creciendo y ha decidido actualizar su aplicación de administración de negocios con [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## <a name="what-data-can-i-import-from-quickbooks-online"></a>¿Qué datos puedo importar desde QuickBooks Online?
 
-Puede importar los datos siguientes de QuickBooks Online a [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
+Puede importar los datos siguientes de QuickBooks Online a [!INCLUDE[prod_short](includes/prod_short.md)]:  
 
 * Clientes
 * Proveedores
@@ -46,9 +46,9 @@ Una parte importante del proceso de migración es especificar las cuentas a las 
 * La compra de productos o servicios a proveedores.  
 * Ajustes en el libro mayor.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] requiere que las cuentas del libro mayor tengan números de cuenta asignados. Asegúrese de que los números de cuenta están asignados a las cuentas de QuickBooks Online.
+[!INCLUDE[prod_short](includes/prod_short.md)] requiere que las cuentas del libro mayor tengan números de cuenta asignados. Asegúrese de que los números de cuenta están asignados a las cuentas de QuickBooks Online.
 
-Si las transacciones en QuickBooks Online tienen impuestos, debe configurar una cuenta de impuestos para sus jurisdicciones fiscales en [!INCLUDE[d365fin](includes/d365fin_md.md)] antes de poder registrar las transacciones.
+Si las transacciones en QuickBooks Online tienen impuestos, debe configurar una cuenta de impuestos para sus jurisdicciones fiscales en [!INCLUDE[prod_short](includes/prod_short.md)] antes de poder registrar las transacciones.
 
 ## <a name="how-do-i-start-using-the-extension"></a>¿Cómo empiezo a usar la extensión?
 
@@ -63,11 +63,11 @@ Una vez haya migrado los datos, las transacciones muestran el estado **No regist
 
 Hay algunos pasos que es recomendable que haga:
 
-* Si las transacciones de QuickBooks Online tuvieran importes de descuento o de bonificación, deberá agregar manualmente los importes a las transacciones relacionadas en [!INCLUDE[d365fin](includes/d365fin_md.md)] antes de registrarlas.
+* Si las transacciones de QuickBooks Online tuvieran importes de descuento o de bonificación, deberá agregar manualmente los importes a las transacciones relacionadas en [!INCLUDE[prod_short](includes/prod_short.md)] antes de registrarlas.
 * Si está utilizando el impuesto sobre el valor añadido (IVA), es posible que tenga que agregar un grupo de contable de negocio y un grupo contable de productos a la configuración de grupos contables para poder contabilizar importes de IVA.
 * Verifique los saldos iniciales de las cuentas en el libro mayor. QuickBooks Online no almacena el saldo actual de todas las cuentas, por lo que es posible que tenga que corregir los saldos iniciales.
 
 ## <a name="see-also"></a>Consulte también
 
 [Importar datos de empresa de otros sistemas financieros](across-import-data-configuration-packages.md)  
-[Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones](ui-extensions.md)  
+[Personalizar [!INCLUDE[prod_short](includes/prod_short.md)] con extensiones](ui-extensions.md)  

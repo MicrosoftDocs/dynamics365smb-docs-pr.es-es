@@ -6,20 +6,23 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 05e5078253d63fac61039d26cc0d700e96c7d21a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f0d713f57345c312ddbfe6b5462f2623b1088dfc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911285"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753872"
 ---
 # <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Administrar el almacenamiento eliminando documentos o comprimiendo datos
 
 Un rol central, como el administrador de aplicaciones, debe eliminar o comprimir periódicamente los documentos históricos para gestionar su acumulación.  
 
+> [!TIP]
+> Para obtener información sobre otras formas de reducir la cantidad de datos almacenados en una base de datos, consulte [Reducción de datos almacenados en bases de datos de Business Central](/dynamics365/business-central/dev-itpro/administration/database-reduce-data) en la ayuda para desarrolladores y profesionales de TI.
+
 ## <a name="delete-documents"></a>Eliminar documentos
 
-En algunos casos, es posible que necesite eliminar pedidos de compra facturados que no se hayan eliminado. [!INCLUDE[d365fin](includes/d365fin_md.md)] comprueba que se hayan facturado totalmente los pedidos de compra eliminados. No puede eliminar pedidos que no haya facturado y recibido en su totalidad.  
+En algunos casos, es posible que necesite eliminar pedidos de compra facturados que no se hayan eliminado. [!INCLUDE[prod_short](includes/prod_short.md)] comprueba que se hayan facturado totalmente los pedidos de compra eliminados. No puede eliminar pedidos que no haya facturado y recibido en su totalidad.  
 
 Los pedidos de devolución generalmente se eliminan después de facturados. Cuando registra una factura, ésta se transfiere a la página **Histórico abono compra**. Si ha activado la casilla **Envío dev. en abono** en la página **Conf. compras y pagos**, la factura se transfiere a la página **Histórico envío devolución**. Puede eliminar los documentos a partir de un trabajo por lotes **Borrar ped. dev. compras fact.**. Antes de eliminar, el trabajo por lotes comprueba si los pedidos devueltos de compra han sido enviados y facturados totalmente.  
 
@@ -31,13 +34,13 @@ Sin embargo, los pedidos de servicio no se eliminarán de forma automática si l
 
 ## <a name="compress-data-with-date-compression"></a>Comprimir datos con compresión de datos
 
-Puede comprimir datos en [!INCLUDE [prodshort](includes/prodshort.md)] para ahorrar espacio en la base de datos, lo que en [!INCLUDE [prodshort](includes/prodshort.md)] en línea también puede ahorrarle dinero. La compresión se basa en fechas y trabajos, fusionando diversos movimientos antiguos en uno solo. Solo podrá comprimir los movimientos de los ejercicios que ya estén cerrados y solo movimientos de proveedores en los que el campo **Abrir** esté establecido en *No*.  
+Puede comprimir datos en [!INCLUDE [prod_short](includes/prod_short.md)] para ahorrar espacio en la base de datos, lo que en [!INCLUDE [prod_short](includes/prod_short.md)] en línea también puede ahorrarle dinero. La compresión se basa en fechas y trabajos, fusionando diversos movimientos antiguos en uno solo. Solo podrá comprimir los movimientos de los ejercicios que ya estén cerrados y solo movimientos de proveedores en los que el campo **Abrir** esté establecido en *No*.  
 
 Por ejemplo, los movimientos de proveedores de ejercicios anteriores se pueden comprimir, de forma que sólo haya una entrada al haber y otra al debe cada mes. El importe del nuevo movimiento es la suma de todos los movimientos comprimidos. La fecha asignada es la inicial del periodo que se ha comprimido, como el primer día del mes (si los movimientos están comprimidos por meses). Después de la compresión, aún podrá ver el saldo del periodo de cada cuenta del ejercicio anterior.
 
 El número de movimientos resultante de una compresión de datos dependerá del número de filtros aplicados, de los campos que se combinen y de la longitud del periodo seleccionado. Siempre habrá, al menos, un movimiento. Cuando termine el trabajo por lotes, podrá ver el resultado en la página **Registros de compresión por fechas**.
 
-Puede comprimir los siguientes tipos de datos en [!INCLUDE [prodshort](includes/prodshort.md)] usando trabajos por lotes:
+Puede comprimir los siguientes tipos de datos en [!INCLUDE [prod_short](includes/prod_short.md)] usando trabajos por lotes:
 
 * Movimientos del mayor de bancos
 
@@ -47,6 +50,9 @@ Puede comprimir los siguientes tipos de datos en [!INCLUDE [prodshort](includes/
   Después de la compresión, siempre se retiene el contenido de los siguientes campos: **Fecha de registro**, **N.º proveedor**, **Tipo de documento**, **Código de divisa**, **Grupo contable**, **Importe**, **Importe pendiente**, **Importe inicial (DL)**, **Importe pendiente (DL)**, **Importe (DL)**, **Beneficio (DL)**, **Dto. factura (DL)**, **Dto. P.P (DL)** y **Posible descuento P.P.**.
 
   Mediante la utilidad **Guardar contenido campo** también podrá conservar el contenido de los siguientes campos adicionales: **N.º documento**, **Comprar a N.º proveedor**, **Código de comprador**, **Código de dimensión global 1** y **Código de dimensión global 2**.
+
+> [!NOTE]
+> Después de ejecutar la compresión de fechas, todas las cuentas del libro mayor se bloquean. Por ejemplo, no puede anular la aplicación de los asientos del libro mayor de proveedores o bancos para ninguna cuenta durante el período para el que se comprimen las fechas.
 
 <!--* General ledger entries
 * Customer ledger entries-->

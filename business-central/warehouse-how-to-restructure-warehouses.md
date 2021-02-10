@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 280915af533d27efd5067518cd5492815662371d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 71f6109c7e4fc2a66896cd14352c19e2e08b51c4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910085"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756072"
 ---
 # <a name="restructure-warehouses"></a>Reestructurar almacenes
 Es posible que desee volver a estructurar el almacén con nuevos códigos y características de ubicación. No realizará este tipo de actividad con mucha frecuencia, pero pueden producirse algunos casos en los que sea necesaria una reclasificación para conseguir o mantener una operatividad más eficaz. Por ejemplo:  
@@ -87,4 +87,4 @@ Si desea cambiar el nombre de una ubicación para que también cambie el nombre 
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

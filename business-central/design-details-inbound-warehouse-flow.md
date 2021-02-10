@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 42a8fd05fe74276c5b570253b67be20189201071
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6b86bf4be6a925913e3e2a0a70cf2066e8956681
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922147"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751560"
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Detalles de diseño: Flujo de entrada en almacén
 El flujo de entrada de un almacén comienza cuando los productos llegan al almacén de la ubicación de empresa, recibidos de orígenes externos o de otra ubicación de empresa. Un empleado registra los productos normalmente mediante el escaneo de un código de barras. Desde la dársena de recepción, las actividades de almacén se llevan a cabo en distintos niveles de complejidad para introducir los productos en el área de almacén.  
@@ -35,7 +35,7 @@ Los dos últimos representan los flujos de entrada al almacén desde las áreas 
 
 Los procesos y los documentos de interfaz de usuario en los flujos de almacén de entrada varían según el la configuración básica y avanzada de almacén. La diferencia principal es que las actividades se realizan pedido a pedido en la configuración básica de almacén y se consolidan para varios pedidos en la configuración avanzada. Para obtener más información acerca de los diferentes niveles de complejidad de almacenes, consulte [Detalles de diseño: Resumen de almacén](design-details-warehouse-setup.md).  
 
-En [!INCLUDE[d365fin](includes/d365fin_md.md)], los procesos de entrada para recepción y ubicación se pueden realizar de cuatro maneras utilizando distintas funciones según el nivel de complejidad del almacén.  
+En [!INCLUDE[prod_short](includes/prod_short.md)], los procesos de entrada para recepción y ubicación se pueden realizar de cuatro maneras utilizando distintas funciones según el nivel de complejidad del almacén.  
 
 |Método|Proceso de salida|Ubicaciones|Recepciones|Ubicaciones|Nivel de complejidad (consulte [Detalles de diseño: configuración de almacén](design-details-warehouse-setup.md))|  
 |------------|---------------------|----------|--------------|----------------|--------------------------------------------------------------------------------------------------------------------|  

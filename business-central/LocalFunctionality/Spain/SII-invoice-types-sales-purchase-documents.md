@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4b7696a3a07b889aff48f7de1cbf9002c921c839
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 21fc91aca79619298aa9c1c2cc11edad2cd26bc9
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923972"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753211"
 ---
 # <a name="sii---invoice-and-credit-memo-types-in-sales-and-purchase-documents"></a>SII - Tipos de factura y abonos en documentos de compra y venta
 
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] admite los requisitos del SII españoles para la declaración del IVA (suministro de información inmediato).  
+[!INCLUDE[prod_short](../../includes/prod_short.md)] admite los requisitos del SII españoles para la declaración del IVA (suministro de información inmediato).  
 
-En la tabla siguiente se muestra el resultado de los diversos tipos que se utilizan para las facturas y los abonos en relación con SII y cómo se implementan en [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
+En la tabla siguiente se muestra el resultado de los diversos tipos que se utilizan para las facturas y los abonos en relación con SII y cómo se implementan en [!INCLUDE[prod_short](../../includes/prod_short.md)].
 
 ## <a name="sales-invoices"></a>Facturas venta
 |Tipo|Description|Implementación|
@@ -29,7 +29,7 @@ En la tabla siguiente se muestra el resultado de los diversos tipos que se utili
 |F1|Facturar|Factura normal|
 |F2|Factura simplificada (tique)|Implementado para F1, exceptuando que un bloque no existente se llama "Contraparte" y los nodos adicionales se llaman "ImporteTotal" y "Macrodato".|
 |F3|Factura emitida para reemplazar facturas simplificadas emitidas y archivadas|Igual que la factura normal|
-|F4|Entrada de resumen de factura|Posible, pero el archivo XML es el mismo que para F1 porque [!INCLUDE[d365fin](../../includes/d365fin_md.md)] no admite facturas de resumen. <br /><br />Los envíos darán como resultado un error conocido: Falta el elemento "NumSerieFacturaEmisorResumenFin".|
+|F4|Entrada de resumen de factura|Posible, pero el archivo XML es el mismo que para F1 porque [!INCLUDE[prod_short](../../includes/prod_short.md)] no admite facturas de resumen. <br /><br />Los envíos darán como resultado un error conocido: Falta el elemento "NumSerieFacturaEmisorResumenFin".|
 |R1|Factura corregida (error basado en los artículos 80.1, 80.2 y 80.6 LIVA)|No compatible. Se utiliza solo para abonos.|
 |R2|Factura corregida (artículo 80.3)|No compatible. Se utiliza solo para abonos|
 |R3|Factura corregida (artículo 80.4)|No compatible. Se utiliza solo para abonos|
@@ -55,7 +55,7 @@ En la tabla siguiente se muestra el resultado de los diversos tipos que se utili
 |F1|Factura|Factura normal|
 |F2|Factura simplificada (tique)|Implementado para F1, exceptuando que un bloque no existente se llama "Contraparte" y los nodos adicionales se llaman "ImporteTotal" y "Macrodato".|
 |F3|Factura emitida para reemplazar facturas simplificadas emitidas y archivadas|Igual que la factura normal|
-|F4|Entrada de resumen de factura|Posible, pero el archivo XML es el mismo que para F1 porque [!INCLUDE[d365fin](../../includes/d365fin_md.md)] no admite facturas de resumen. <br /><br />Los envíos darán como resultado un error conocido: Falta el elemento "NumSerieFacturaEmisorResumenFin".|
+|F4|Entrada de resumen de factura|Posible, pero el archivo XML es el mismo que para F1 porque [!INCLUDE[prod_short](../../includes/prod_short.md)] no admite facturas de resumen. <br /><br />Los envíos darán como resultado un error conocido: Falta el elemento "NumSerieFacturaEmisorResumenFin".|
 |F5|Importaciones (DUA)|Igual que la factura normal|
 |F6|Material contable de soporte|Igual que la factura normal|
 |R1|Factura corregida (error basado en los artículos 80.1, 80.2 y 80.6 LIVA)|No compatible. Se utiliza solo para abonos|

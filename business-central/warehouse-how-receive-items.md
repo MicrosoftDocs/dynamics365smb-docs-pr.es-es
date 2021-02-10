@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f78a4e0220ac3c933a6b00300dee4b389c5ea4cc
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 9b58caa880dce813439a2ce4ab2b9da8dccddae5
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911951"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756347"
 ---
 # <a name="receive-items"></a>Recibir productos
 
@@ -123,7 +123,7 @@ Cuando administra una recepción en exceso, puede aumentar el valor del campo **
 2. Publique la recepción como lo haría con cualquier otra.
 
 > [!NOTE]
-> [!INCLUDE[d365fin](includes/d365fin_md.md)] no incluye funcionalidad para iniciar automáticamente la administración financiera de las recepciones en exceso. Debe administrar manualmente esto de acuerdo con el proveedor, por ejemplo, enviando una factura nueva o actualizada.
+> [!INCLUDE[prod_short](includes/prod_short.md)] no incluye funcionalidad para iniciar automáticamente la administración financiera de las recepciones en exceso. Debe administrar manualmente esto de acuerdo con el proveedor, por ejemplo, enviando una factura nueva o actualizada.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/receive-invoice-dynamics-d365-business-central/index)
 
@@ -134,4 +134,4 @@ Cuando administra una recepción en exceso, puede aumentar el valor del campo **
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)  
 [Gestión de ensamblaje](assembly-assemble-items.md)  
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

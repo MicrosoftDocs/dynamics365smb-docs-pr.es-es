@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: resources, allocation, status, repairs
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: ba066e9d40959b48901792d7ceff8589525c6d7a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 2a206386039e277eddd13801da23bb32c2845227
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910410"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757947"
 ---
 # <a name="allocation-status-and-repair-status-of-service-items"></a>Estado de asignación y estado de reparación de productos de servicio
 El estado de reparación y el estado de asignación de los movimientos de asignación de los productos de servicio están relacionados en Gestión de servicios. El estado de asignación cambia cuando se modifica el estado de reparación del producto de servicio a **Terminado** o **Parcialmente servido**, y cuando se convierte una oferta de servicio en un pedido de servicio. El estado de reparación del producto de servicio cambia cuando se cancela la asignación de producto de servicio o se reasigna el producto de servicio a otro recurso. Puede ver el estado de reparación de productos de servicio en la página **Tareas servicio** y actualizar el estado de reparación en el campo **Cód. estado reparación** en la página **Hoja trabajo prod. serv.** Puede ver el estado de asignación en el campo **Estado** de la página **Asignaciones recurso**.  
@@ -38,7 +38,7 @@ Cuando se convierte una oferta de servicio en un pedido de servicio, el pedido d
 * Se realiza una búsqueda de movimientos de asignación para todos los productos de servicio del pedido de servicio cuyo estado sea **Activo**. Si se encuentran los movimientos de asignación, el estado de asignación cambia de **Activo** a **Reasignación necesaria**.  
   
 ## <a name="canceling-allocations"></a>anular asignaciones  
-Cuando se cancela una asignación de un producto de servicio, [!INCLUDE[d365fin](includes/d365fin_md.md)] actualiza el estado de asignación del movimiento de asignación correspondiente de **Activo** a **Necesidad de reasignación**.
+Cuando se cancela una asignación de un producto de servicio, [!INCLUDE[prod_short](includes/prod_short.md)] actualiza el estado de asignación del movimiento de asignación correspondiente de **Activo** a **Necesidad de reasignación**.
 
 El estado de reparación del producto de servicio del movimiento de asignación se actualiza de la siguiente forma:  
   

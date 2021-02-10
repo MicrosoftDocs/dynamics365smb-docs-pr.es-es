@@ -10,20 +10,20 @@ ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0961fb9cda09596e0c40ecd7f6478340d40f2e4d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6a2100a1f945153d9c89d3cd86fb5d16860c4930
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913401"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747096"
 ---
 # <a name="consolidating-financial-data-from-multiple-companies"></a>Consolidar los datos financieros de varias empresas
 
-Algunas organizaciones utilizan [!INCLUDE [prodshort](includes/prodshort.md)] en múltiples empresas o entidades legales. Otros usan [!INCLUDE [prodshort](includes/prodshort.md)] en subsidiarias que deben reportar a organizaciones matrices. En ambos casos, los contables utilizan herramientas integradas para ayudar a consolidar los datos financieros.  
+Algunas organizaciones utilizan [!INCLUDE [prod_short](includes/prod_short.md)] en múltiples empresas o entidades legales. Otros usan [!INCLUDE [prod_short](includes/prod_short.md)] en subsidiarias que deben reportar a organizaciones matrices. En ambos casos, los contables utilizan herramientas integradas para ayudar a consolidar los datos financieros.  
 
 Puede consolidar los movimientos de contabilidad de dos o más empresas independientes (subsidiarias) en una sola empresa consolidada. Cada empresa individual implicada en una consolidación se denomina empresa. La empresa combinada se denomina empresa consolidada.  
 
-Puede importar datos en la empresa consolidada desde otras empresas del mismo suscriptor de [!INCLUDE [prodshort](includes/prodshort.md)], desde suscriptores o desde archivos.  
+Puede importar datos en la empresa consolidada desde otras empresas del mismo suscriptor de [!INCLUDE [prod_short](includes/prod_short.md)], desde suscriptores o desde archivos.  
 
 Si los resultados financieros de una empresa se encuentran en una divisa diferente de los de la empresa consolidada, debe configurar tipos de cambio para la consolidación.  
 
@@ -42,7 +42,7 @@ Configure la empresa consolidada de la misma forma que se configuran las demás 
 
 ## <a name="trial-balance"></a>Balance de comprobación
 
-Si tiene más de una empresa en [!INCLUDE[d365fin](includes/d365fin_md.md)], el informe **Balance de comprobación consolidado** puede darle un resumen del estado financiero del todo su negocio.  
+Si tiene más de una empresa en [!INCLUDE[prod_short](includes/prod_short.md)], el informe **Balance de comprobación consolidado** puede darle un resumen del estado financiero del todo su negocio.  
 
 El informe combina movimientos del libro mayor de sus empresas en una empresa nueva creada por usted para contener los datos consolidados. Esta empresa valor se denomina generalmente "empresa consolidada". La empresa consolidada es sólo un contenedor para los datos consolidados, y no tiene ningún dato vivo de sus empresas. Las empresas que incluya en la empresa que se convierten en **Unidades de negocio** en el informe. Para obtener más información, consulte [Establecer la consolidación de empresas](finance-consolidated-company-reporting-setup.md).  
 
@@ -52,7 +52,7 @@ El proceso de transferir las cifras de las unidades de negocio a la empresa cons
 
 ### <a name="to-test-the-data-before-you-consolidate"></a>Para probar los datos antes de la consolidación:
 
-Puede probar los datos antes de transferirlos a la empresa consolidada. [!INCLUDE[d365fin](includes/d365fin_md.md)] busca las diferencias entre la información encontrada de las unidades de negocio y la empresa consolidada. Por ejemplo, si los números de cuenta o códigos de dimensión son diferentes. Deberá corregir los errores antes de ejecutar el informe. Puede probar la base de datos o, si va a importar datos desde un archivo XML, puede probar el archivo.  
+Puede probar los datos antes de transferirlos a la empresa consolidada. [!INCLUDE[prod_short](includes/prod_short.md)] busca las diferencias entre la información encontrada de las unidades de negocio y la empresa consolidada. Por ejemplo, si los números de cuenta o códigos de dimensión son diferentes. Deberá corregir los errores antes de ejecutar el informe. Puede probar la base de datos o, si va a importar datos desde un archivo XML, puede probar el archivo.  
 
 1. Abra la empresa consolidada.  
 2. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Unidades de negocio** y luego elija el enlace relacionado.  
@@ -91,7 +91,7 @@ Cada cuenta aparece en una línea aparte, según la estructura del plan de cuent
 
 * Número cuenta
 * Nombre de cuenta.
-* Si ha seleccionado uno o más códigos de empresa en el campo **Cód. unidad de negocio**de la página de solicitud, aparecerá un total de la empresa consolidada, excluyendo las empresas seleccionadas y las eliminaciones. Si no ha rellenado el campo **Cód. empresa**, aparecerá un total de la empresa consolidada, excluyendo las eliminaciones.
+* Si ha seleccionado uno o más códigos de empresa en el campo **Cód. unidad de negocio** de la página de solicitud, aparecerá un total de la empresa consolidada, excluyendo las empresas seleccionadas y las eliminaciones. Si no ha rellenado el campo **Cód. empresa**, aparecerá un total de la empresa consolidada, excluyendo las eliminaciones.
 * Si ha seleccionado un código de empresa en el campo **Cód. empresa** de la página de solicitud, aparecerá un total de los movimientos importados desde la empresa. Si no ha rellenado el campo **Cód. empresa**, aparecerá un total de las eliminaciones registradas en la empresa consolidada.
 * El total de la empresa consolidada, con todas las empresas y las eliminaciones registradas.
 * Las eliminaciones a realizar en la empresa consolidada, es decir, los movimientos del diario general seleccionado en la página de solicitud.
@@ -118,5 +118,5 @@ Los movimientos exportados tienen los siguientes campos: **Nº cuenta**, **Fecha
 
 [Configuración de la consolidación de empresas](finance-consolidated-company-reporting-setup.md)  
 [Gestión de transacciones entre empresas vinculadas](intercompany-manage.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Exportar los datos de negocio a Excel](about-export-data.md)

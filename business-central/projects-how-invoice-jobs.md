@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: project invoice
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: effed84c3f0d4c625192ac4d41dc2d9edf97c663
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 368b0b1edf1105045a365d8d5ac523c88955ad8a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921447"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758747"
 ---
 # <a name="invoice-jobs"></a>Facturar proyectos
 Durante el proyecto, pueden acumularse los costes del proyecto por el uso de recursos, materiales y compras relacionadas con el proyecto. Según progresa el proyecto, estas transacciones se registran en el diario del proyecto. Es importante que se registren todos los costes en el diario del proyecto antes de facturar al cliente.
@@ -82,4 +82,4 @@ Cuando haya terminado todas las actividades de un proyecto, incluidos los regist
 [Finanzas](finance.md)  
 [Compras](purchasing-manage-purchasing.md)         
 [Ventas](sales-manage-sales.md)      
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

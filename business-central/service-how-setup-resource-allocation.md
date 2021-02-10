@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: resource, skill, service, zones
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: cac2d270fec47d35749d3ccf1ce1e3a3f130d097
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 48d0f9f9e51a0da3f82abdb43e8c4bb6044a5f29
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910335"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757997"
 ---
 # <a name="set-up-resource-allocation"></a>Configurar asignación de recursos
-Para garantizar que una tarea de servicio esté bien efectuada, es importante encontrar un recurso que esté cualificado para hacer el trabajo. Puede configurar [!INCLUDE[d365fin](includes/d365fin_md.md)] de forma que resulte fácil asignar a quien tiene las habilidades correctas para el trabajo. En [!INCLUDE[d365fin](includes/d365fin_md.md)], llamamos a esto _asignación de recursos_. Puede asignar recursos basándose en las habilidades, disponibilidad o si se encuentran en la misma zona que el cliente. 
+Para garantizar que una tarea de servicio esté bien efectuada, es importante encontrar un recurso que esté cualificado para hacer el trabajo. Puede configurar [!INCLUDE[prod_short](includes/prod_short.md)] de forma que resulte fácil asignar a quien tiene las habilidades correctas para el trabajo. En [!INCLUDE[prod_short](includes/prod_short.md)], llamamos a esto _asignación de recursos_. Puede asignar recursos basándose en las habilidades, disponibilidad o si se encuentran en la misma zona que el cliente. 
 
 Para usar la asignación de recursos, debe configurar:  
   
@@ -49,7 +49,7 @@ Para usar la asignación de recursos, debe configurar:
     * Para los recursos, elija la acción de **Zonas servicio**.  
 
 ## <a name="to-specify-what-to-show-when-a-resource-is-chosen"></a>Para especificar qué mostrar cuando seleccione un recurso
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración del servicio** y luego elija el enlace relacionado. 
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de gestión de servicios** y luego elija el enlace relacionado. 
 2. En el campo **Opción cualificaciones recurso**, seleccione una de las opciones descritas en la tabla siguiente.  
   
     |**Opción**|**Descripción**|  

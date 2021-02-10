@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 006df06509175a19ee63317ee89526192a924808
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: aa4cfa543fc7c5cf1ea527468a50bc80afcaeade
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924333"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752135"
 ---
 # <a name="business-intelligence"></a>Inteligencia empresarial
-Las empresas capturan una ingente cantidad de información con su actividad diaria. Esta información, que refleja aspectos como las cifras de ventas, las compras, los gastos operativos, los salarios de los empleados o los presupuestos de la organización, y que se conoce como inteligencia empresarial, resulta muy valiosa para los responsables de la toma de decisiones. [!INCLUDE[d365fin](includes/d365fin_md.md)] contiene numerosas funciones que le ayudan a recopilar, analizar y compartir la información de su empresa.
+Las empresas capturan una ingente cantidad de información con su actividad diaria. Esta información, que refleja aspectos como las cifras de ventas, las compras, los gastos operativos, los salarios de los empleados o los presupuestos de la organización, y que se conoce como inteligencia empresarial, resulta muy valiosa para los responsables de la toma de decisiones. [!INCLUDE[prod_short](includes/prod_short.md)] contiene numerosas funciones que le ayudan a recopilar, analizar y compartir la información de su empresa.
 
 La funcionalidad Dimensiones desempeña una función importante en la inteligencia empresarial. Una dimensión son datos que puede agregar a un movimiento como una especie de marcador. Estos datos se utilizan para agrupar movimientos de características similares, como clientes, regiones, productos y vendedor, y así poder recuperar con facilidad estos grupos para su análisis. Entre otros usos, utilice las dimensiones al definir las vistas de análisis y al crear esquemas de cuentas para la elaboración de informes. Para obtener más información, consulte [Trabajar con dimensiones](finance-dimensions.md).
 
@@ -44,6 +44,6 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 [Usar Business Central como fuente de datos de Power BI](across-how-use-financials-data-source-powerbi.md)  
 [Cerrar periodos fiscales](year-close-years-periods.md)  
 [Importar datos de otros sistemas financieros](across-import-data-configuration-packages.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

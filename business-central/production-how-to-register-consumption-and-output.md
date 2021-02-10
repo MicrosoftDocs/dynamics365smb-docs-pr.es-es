@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 504cc43ee29afd55deb5f51ca85d93eb7908d7d7
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 298fd165e03709d6ea6a34291efe5d04ecb74aba
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919093"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759097"
 ---
 # <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Registrar el consumo y la salida de una línea de orden de producción lanzada
 Esta tarea de ejecución se realiza en la página **Diario de producción**. El diario combina las funciones del diario de consumo y de los diarios de salida en un único diario, al que se tiene acceso directamente desde una orden de producción lanzada. La finalidad principal de este diario es registrar manualmente el consumo de componentes, la cantidad de los productos finales fabricados y el tiempo empleado en las operaciones. Su finalidad principal es registrar manualmente el consumo de componentes, la cantidad de productos finales fabricados y el tiempo dedicado a las operaciones. Los valores se registran en los movimientos de contabilidad bajo la orden de producción lanzada. Las cantidades de consumo se registran como movimientos de producto negativos, las cantidades de salida se registran como movimientos positivos y los tiempos invertidos se registran como movimientos de capacidad. Estos valores registrados se pueden consultar también en la parte inferior del diario como cantidades reales.  
@@ -70,4 +70,4 @@ Si quedan valores para registrar, el diario contendrá dichos valores la próxim
 [Planificación](production-planning.md)      
 [Inventario](inventory-manage-inventory.md)  
 [Compras](purchasing-manage-purchasing.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

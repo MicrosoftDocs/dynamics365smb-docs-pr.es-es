@@ -11,16 +11,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: e0ef9e91d303191cc98afb7dc56f4585d443e5c2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cc95787d17affb1291ad963b5e69b303a579f1e7
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917606"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752010"
 ---
 # <a name="application-compliance"></a>Conformidad de las aplicaciones
 
-En este contenido se incluye información acerca de la conformidad de las aplicaciones en relación con [!INCLUDE[d365fin](../includes/d365fin_md.md)], como las Normas Internacionales de Información Financiera, la funcionalidad local, el RGPD y más. La confianza en una solución de gestión empresarial es clave para dirigir un negocio eficiente. Con Business Central, las empresas están facultadas para agilizar los procesos de negocios a la vez que cumplen de manera consistente y rentable con el aumento de los requisitos de regulación e informes.
+En este contenido se incluye información acerca de la conformidad de las aplicaciones en relación con [!INCLUDE[prod_short](../includes/prod_short.md)], como las Normas Internacionales de Información Financiera, la funcionalidad local, el RGPD y más. La confianza en una solución de gestión empresarial es clave para dirigir un negocio eficiente. Con Business Central, las empresas están facultadas para agilizar los procesos de negocios a la vez que cumplen de manera consistente y rentable con el aumento de los requisitos de regulación e informes.
 
 ## <a name="data-privacy"></a>Privacidad de datos
 
@@ -108,5 +108,5 @@ Microsoft crea versiones localizadas de Business Central para un número limitad
 [Conformidad de los servicios](compliance-service-compliance.md)  
 [Certificaciones](compliance-certifications.md)  
 
- ## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
+ ## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
  

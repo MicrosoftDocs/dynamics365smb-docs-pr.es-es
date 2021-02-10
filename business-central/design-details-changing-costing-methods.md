@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: costing methods, costing, item cost
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 344aa53f965f832d8e7fb2abd3431a1853105c8c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e71ccc7961efdff4dcfc26660f48bafb3d5fd88f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917531"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751736"
 ---
 # <a name="design-details-change-the-costing-method-for-items"></a>Detalles de diseño: Cambiar la valoración de existencias para productos
 
-En [!INCLUDE[d365fin](includes/d365fin_md.md)], no puede cambiar una valoración de existencias para un producto después de haber incluido el producto en una transacción. Por ejemplo, después de haber comprado o vendido el producto. Si se asignó una valoración de existencias incorrecta al producto o productos, es posible que no identifique el problema hasta que haga su informe financiero.
+En [!INCLUDE[prod_short](includes/prod_short.md)], no puede cambiar una valoración de existencias para un producto después de haber incluido el producto en una transacción. Por ejemplo, después de haber comprado o vendido el producto. Si se asignó una valoración de existencias incorrecta al producto o productos, es posible que no identifique el problema hasta que haga su informe financiero.
 
 Este tema describe cómo resolver esta situación. El enfoque recomendado es reemplazar el producto que tiene una valoración de existencias incorrecta con un producto nuevo, y usar un pedido de ensamblado para transferir el inventario del producto antiguo al nuevo.
 
@@ -35,7 +35,7 @@ Los métodos de valoración de existencias controlan los cálculos de costes cua
 
 *beneficio bruto* = *ingresos - CV*
 
-Cuando configura productos de inventario, debe asignar una valoración de existencias. La valoración puede variar de una empresa a otra y de un producto a otro, por lo que es importante elegir la correcta. [!INCLUDE[d365fin](includes/d365fin_md.md)] admite las siguientes valoraciones de existencias:
+Cuando configura productos de inventario, debe asignar una valoración de existencias. La valoración puede variar de una empresa a otra y de un producto a otro, por lo que es importante elegir la correcta. [!INCLUDE[prod_short](includes/prod_short.md)] admite las siguientes valoraciones de existencias:
 
 * Promedio
 * FIFO
@@ -60,7 +60,7 @@ Esta sección describe los siguientes pasos para cambiar la valoración de exist
 
 ### <a name="define-a-default-costing-method"></a>Definir una valoración de existencias predeterminada
 
-Para ayudar a evitar futuros errores, puede especificar una valoración de existencias predeterminada para nuevos artículos. Cada vez que alguien crea un nuevo producto, [!INCLUDE[d365fin](includes/d365fin_md.md)] sugerirá la valoración de existencias predeterminada. Usted especifica el método de valoración predeterminado en el campo **Valoración de existencias predeterminada** en la página **Config. Existencias**. 
+Para ayudar a evitar futuros errores, puede especificar una valoración de existencias predeterminada para nuevos artículos. Cada vez que alguien crea un nuevo producto, [!INCLUDE[prod_short](includes/prod_short.md)] sugerirá la valoración de existencias predeterminada. Usted especifica el método de valoración predeterminado en el campo **Valoración de existencias predeterminada** en la página **Config. Existencias**. 
 
 ### <a name="identify-the-items-to-change-the-costing-method-for-and-renumber-them"></a>Identificar los productos para los que cambiar la valoración de existencias y vuelva a numerarlos
 
@@ -84,7 +84,7 @@ Para que los nuevos productos sean completamente útiles, debe copiar manualment
 |     |Diarios estándar         |Compruebe si los diarios estándar hacen referencia al producto original y transfiera esos datos al nuevo producto cuando sea necesario. Esta información se encuentra en los diarios estándar, que están disponibles en el diario de productos.          |
 |Ccial     |Porcentajes prepago ventas         | Compruebe si los porcentajes de prepago de ventas están definidos para el producto original y transfiera esos datos al nuevo producto. Para ver los porcentajes de prepago, en la página **Ficha de producto**, elija **Ventas** y después, **Porcentajes de prepago**.        |
 |Compra     |Porcentajes prepago compra         |Compruebe si los porcentajes de prepago de compras están definidos para el producto original y transfiera esos datos al nuevo producto. Para ver los porcentajes de prepago, en la página **Ficha de producto**, elija **Compras** y después, **Porcentajes de prepago**.                 |
-|Almacén     |Contenidos ubicación         |Revise el contenido de ubicación definido para el producto original. Si se han especificado de forma individual columnas como Cant. mín, Cant. máx., Predeterminado y Dedicado, debe crear manualmente el contenido del contenido de ubicación para el nuevo producto. Si no es así, no se requiere ninguna acción. [!INCLUDE[d365fin](includes/d365fin_md.md)] mantendrá los registros cuando registre documentos de almacén y diarios.|
+|Almacén     |Contenidos ubicación         |Revise el contenido de ubicación definido para el producto original. Si se han especificado de forma individual columnas como Cant. mín, Cant. máx., Predeterminado y Dedicado, debe crear manualmente el contenido del contenido de ubicación para el nuevo producto. Si no es así, no se requiere ninguna acción. [!INCLUDE[prod_short](includes/prod_short.md)] mantendrá los registros cuando registre documentos de almacén y diarios.|
 |Proyecto     |Precios del proyecto         |Compruebe si los precios del proyecto están definidos para el producto original y transfiera esos datos al nuevo producto. Esta información está disponible en la página **Ficha de producto** en a parte **Detalles proyecto - N.º precios** en el panel **Cuadro informativo**.         |
 |Servicio     |Capacidad de recursos de servicio         |Compruebe si las capacidades de recursos de servicio están definidas para el producto original y transfiera esos datos al nuevo producto. Para ver las capacidades de recursos del servicio, use la acción **Capacidades de recursos** en la página **Ficha de producto**.          |
 |     |Componentes del producto de servicio         |Compruebe si los componentes están definidos para el producto de servicio original y transfiera esos datos al nuevo producto. Para ver los componentes del producto de servicio, en la página **Ficha de producto**, use la acción **Producto de servicio** para abrir la lista de productos de servicio relacionados y luego elija al acción **Componentes**.          |
@@ -169,7 +169,7 @@ Cuando el inventario del producto original es cero, puede bloquear el producto p
 
 ## <a name="summary"></a>Resumen
 
-Cambiar el método valoración de existencias en productos que se han utilizado en transacciones es un proceso y no una acción estándar en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Puede utilizar los pasos descritos en este tema como plantilla para el proceso.
+Cambiar el método valoración de existencias en productos que se han utilizado en transacciones es un proceso y no una acción estándar en [!INCLUDE[prod_short](includes/prod_short.md)]. Puede utilizar los pasos descritos en este tema como plantilla para el proceso.
 
 El proceso puede llevar mucho tiempo porque hay varios pasos manuales. Sin embargo, si se toma su tiempo para completarlo, minimizará el impacto de los errores en su contabilidad.
 

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: purchase fixed asset
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 953be4038a65917e10bca1921d9ff4f80f584b28
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d92b4d5ad8b473f517af9fba5e1097e2452d1446
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920777"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749473"
 ---
 # <a name="acquire-fixed-assets"></a>Activos fijos adquiridos
 Deberá configurar una ficha con la información de cada activo. Puede configurar los edificios o los bienes de producción como activos principales con una lista de componentes y puede agruparlos de diferentes maneras como, por ejemplo, por clase, departamento o ubicación. Un libro de amortización debe estar configurado y asignado a cada activo fijo antes de que pueda adquirirlo.
@@ -48,7 +48,7 @@ Cuando elige **Finalizar**, se rellena el campo **Valor libro** de la página **
 ## <a name="to-set-up-a-component-list-for-a-main-asset"></a>Para configurar una lista de componentes para un activo principal
 Puede agrupar sus activos en principales y sus componentes. Por ejemplo, puede tener un equipo de producción que consista en muchas partes, las cuales desea agrupar de esta manera.  
 
-Tanto el activo principal como todos sus componentes deben configurarse como fichas individuales de activos. Después de configurar una lista de componentes, [!INCLUDE[d365fin](includes/d365fin_md.md)] rellena automáticamente los campos **Principal/Componente** y **Componentes de activo principal** de las fichas de activos fijos.
+Tanto el activo principal como todos sus componentes deben configurarse como fichas individuales de activos. Después de configurar una lista de componentes, [!INCLUDE[prod_short](includes/prod_short.md)] rellena automáticamente los campos **Principal/Componente** y **Componentes de activo principal** de las fichas de activos fijos.
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Activos fijos** y luego elija el enlace relacionado.
 2. Seleccione el activo principal y, a continuación, elija la acción **Componentes activo ppal**.
@@ -70,7 +70,7 @@ El procedimiento siguiente describe cómo adquirir un activo manualmente creando
 4. Seleccione la acción **Registrar**.  
 
 > [!TIP]  
->   Si rellena el campo **Nº seguro** del diario general de activos fijos en el momento de registrar un coste, [!INCLUDE[d365fin](includes/d365fin_md.md)] también registrará el coste del activo en los movimientos de seguros. Para obtener más información, vea [Asegurar activos fijos](fa-how-insure.md).
+>   Si rellena el campo **Nº seguro** del diario general de activos fijos en el momento de registrar un coste, [!INCLUDE[prod_short](includes/prod_short.md)] también registrará el coste del activo en los movimientos de seguros. Para obtener más información, vea [Asegurar activos fijos](fa-how-insure.md).
 
 ## <a name="to-cancel-an-acquisition-cost-posting-for-one-fixed-asset"></a>Para anular un coste del registro de un activo
 Si se equivoca al registrar un coste, puede eliminar el movimiento mediante el proceso **Cancelar movs. A/F** y registrar seguidamente el movimiento de adquisición correcto. Los movimientos incorrectos se transfieren a la página **A/F Movs. anulados**.
@@ -103,4 +103,4 @@ Puede registrar el valor residual junto con el coste a partir del diario de acti
 [Configurar activos fijos](fa-setup.md)  
 [Finanzas](finance.md)  
 [Introducción](product-get-started.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

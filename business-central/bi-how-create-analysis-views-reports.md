@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3c4e5b5211b9e56193698e2f86b587e5f8951f79
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 41c10e142d2a64a7e86a0bf3604af649978bef83
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913818"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752210"
 ---
 #  <a name="create-analysis-reports"></a>Crear informes de análisis
 Los directores de ventas necesitan analizar las facturaciones, los ingresos brutos y otros indicadores clave del rendimiento de las ventas con regularidad. Los compradores están más interesados en la dinámica de los volúmenes de compra, las actuaciones de los proveedores y los precios de compra. A su vez, los directores de inventario/logística necesitan información sobre la rotación de inventarios, sobre los análisis de los movimientos de inventario y sobre las estadísticas de valores de inventario.  
@@ -43,7 +43,7 @@ A continuación, puede configurar las siguientes columnas:
 ## <a name="setting-up-line-and-column-layouts"></a>Configuración de plantillas de líneas y columnas  
  En la página **Informe de análisis**, puede ver diferentes diseños de línea y columna de acuerdo con las líneas o plantillas de línea que configuró en la página **Plantillas de línea de análisis**. Puede definir el nombre del informe y los objetos que desea mostrar en las líneas del informe. Las columnas se configuran en la página **Plantillas columnas análisis**. Puede definir el nombre de la plantilla de columna y los parámetros de análisis que desea mostrar en el informe como columnas. En la página **Plantillas columnas análisis**, cada línea representa una columna del informe. Observe que las líneas de análisis y las columnas de análisis son independientes las unas de las otras.  
 
-Basándose en las líneas y columnas definidas, [!INCLUDE[d365fin](includes/d365fin_md.md)] agregará el resultado del informe en la página **Informe de análisis**, como se muestra en la siguiente tabla.  
+Basándose en las líneas y columnas definidas, [!INCLUDE[prod_short](includes/prod_short.md)] agregará el resultado del informe en la página **Informe de análisis**, como se muestra en la siguiente tabla.  
 
 |- |Ventas del mes actual|Ventas del mes anterior|Porcentaje de ventas del mes anterior|  
 |-|-|-|-|  
@@ -105,4 +105,4 @@ Utilice los informes de análisis para analizar la dinámica de sus ventas segú
 [Finanzas](finance.md)  
 [Configurar las finanzas](finance-setup-finance.md)  
 [Libro mayor y plan de cuentas](finance-general-ledger.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

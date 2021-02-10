@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5a062f9a18b6c0e965a06a7d4b18ff1e983f05db
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f2c6c8a8515192640625fff5cda58f62d19d4d37
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916048"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756947"
 ---
 # <a name="change-the-current-report-layout"></a>Cambiar el diseño de informe actual
 Un informe se puede configurar con varios diseños de informe, entre los que puede cambiar según sea necesario.
@@ -59,4 +59,4 @@ Ahora puede ir a sus fichas de cliente y proveedor para especificar cuál de los
 
 ## <a name="see-also"></a>Consulte también
 [Gestión de diseños de informe](ui-manage-report-layouts.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

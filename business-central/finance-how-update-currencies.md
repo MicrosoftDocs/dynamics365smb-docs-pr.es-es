@@ -7,18 +7,18 @@ ms.topic: article
 ms.search.keywords: multiple currencies, adjust exchange rates
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9027fe7cb01efe2e06ef52154f30f2fa8fb41b83
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 568f50a80d430580a22f8e68552fe6e492cfd153
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924133"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750635"
 ---
 # <a name="update-currency-exchange-rates"></a>Actualizar tipos cambio divisa
 
 Las empresas trabajan cada vez en un mayor número de países o regiones, por lo que es muy importante que puedan comercializar y crear informes financieros en más de una divisa. Debe configurar un código por cada una de las divisas usadas en caso de que las operaciones de compra y venta se realicen en una divisa que no sea la divisa local (DL), tenga cobros y pagos en otras divisas o registre las transacciones de contabilidad en diferentes divisas.
 
-La contabilidad se configura con la divisa local (DL), pero también se puede configurar para usarla en otra divisa a la que se asigna un tipo de cambio. Mediante la designación de una segunda divisa como la denominada divisa de informes adicional, [!INCLUDE[d365fin](includes/d365fin_md.md)] registrará automáticamente los importes tanto en la divisa local como en la divisa adicional en todos los movimientos de contabilidad y en otros movimientos, por ejemplo los del IVA. Para obtener más información, vea [Configurar una divisa de informes adicional](finance-how-setup-additional-currencies.md).
+La contabilidad se configura con la divisa local (DL), pero también se puede configurar para usarla en otra divisa a la que se asigna un tipo de cambio. Mediante la designación de una segunda divisa como la denominada divisa de informes adicional, [!INCLUDE[prod_short](includes/prod_short.md)] registrará automáticamente los importes tanto en la divisa local como en la divisa adicional en todos los movimientos de contabilidad y en otros movimientos, por ejemplo los del IVA. Para obtener más información, vea [Configurar una divisa de informes adicional](finance-how-setup-additional-currencies.md).
 
 ## <a name="adjusting-exchange-rates"></a>Ajustar los tipos de cambio
 
@@ -77,4 +77,4 @@ El valor del campo **Tipo cambio** en la página **Divisas** se actualiza con el
 ## <a name="see-also"></a>Consulte también
 [Configurar una divisa de informes adicional](finance-how-setup-additional-currencies.md)  
 [Cerrar años y periodos](year-close-years-periods.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

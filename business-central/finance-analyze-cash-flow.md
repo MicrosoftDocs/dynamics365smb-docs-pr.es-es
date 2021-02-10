@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 26df3104e99d9e6f647331c48b5a03f8f87c81a3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f3f7e9c33e5dab3de6461fcda5732168f0e6e89b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913501"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751035"
 ---
 # <a name="analyzing-cash-flow-in-your-company"></a>Analizar el flujo de efectivo de la empresa
 Los gráficos del Área de trabajo Contable proporcionan información que le puede ayudar a tomar decisiones sólidas sobre qué debe hacer con el efectivo.  
@@ -53,5 +53,5 @@ Si desea examinar la previsión, además de los movimientos de previsión, tambi
 
 ## <a name="see-also"></a>Consulte también
 [Configurar las finanzas](finance-setup-finance.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Configuración del análisis de flujo de efectivo](finance-setup-cash-flow-analyses.md)  

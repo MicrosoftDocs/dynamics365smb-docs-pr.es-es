@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0be6c730664d5162bd2359e029f9a387eae0d5d8
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3a43c32d90a7c27af56ed55a4625b3dc3faf498b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915915"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754897"
 ---
 # <a name="set-up-incoming-documents"></a>Configurar documentos entrantes
 
@@ -23,7 +23,7 @@ Si crea líneas de diario general desde registros de documentos entrantes, debe 
 
 Si no desea que los usuarios creen facturas o líneas de diario general de los registros de documentos entrantes a menos que los documentos se aprueben primero, debe configurar aprobadores de flujo de trabajo.
 
-Para convertir archivos PDF y de imágenes en documentos electrónicos que pueda convertir, por ejemplo, facturas de compra de [!INCLUDE[d365fin](includes/d365fin_md.md)], primero debe configurar la función OCR y habilitar el servicio. Elija un paquete de servicios que sea apropiado para su organización y o el país o la región. Alternativamente, puede crear entradas manualmente para representar los documentos externos.  
+Para convertir archivos PDF y de imágenes en documentos electrónicos que pueda convertir, por ejemplo, facturas de compra de [!INCLUDE[prod_short](includes/prod_short.md)], primero debe configurar la función OCR y habilitar el servicio. Elija un paquete de servicios que sea apropiado para su organización y o el país o la región. Alternativamente, puede crear entradas manualmente para representar los documentos externos.  
 
 Al configurar la función Documentos entrantes, puede usar distintas funciones para revisar recibos de gastos, gestionar tareas de OCR y convertir archivos de documentos entrantes, manual o automáticamente en los documentos pertinentes o en líneas de diario. Los archivos externos se pueden adjuntar en cualquier etapa del proceso, incluidos los documentos registrados y los movimientos de proveedor, cliente y de contabilidad resultantes. Para obtener más información, vea [Procesar documentos entrantes](across-process-income-documents.md).
 
@@ -57,4 +57,4 @@ Para obtener más información, vea [Usar el servicio OCR para convertir archivo
 [Procesar documentos entrantes](across-process-income-documents.md)  
 [Documentos entrantes](across-income-documents.md)  
 [Compras](purchasing-manage-purchasing.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

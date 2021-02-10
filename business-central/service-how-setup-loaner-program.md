@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: d167d55196f651ea3b6286ba969829042fabefaf
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f09db27d711e7fa2cd8c2d6679ce5cd21ab11b94
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925877"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747948"
 ---
 # <a name="set-up-a-loaner-program"></a>Configurar un programa de productos prestados
-En ocasiones, debe entregar al cliente un producto prestado para que lo utilice mientras el equipo de servicio al cliente realiza la reparación. En [!INCLUDE[d365fin](includes/d365fin_md.md)], puede establecer un programa de productos prestados, prestar artículos a sus clientes y llevar un seguimiento de la recepción de los artículos cuando los clientes los devuelven. Además, puede agregar comentarios acerca de los productos prestados de una de las siguientes formas:  
+En ocasiones, debe entregar al cliente un producto prestado para que lo utilice mientras el equipo de servicio al cliente realiza la reparación. En [!INCLUDE[prod_short](includes/prod_short.md)], puede establecer un programa de productos prestados, prestar artículos a sus clientes y llevar un seguimiento de la recepción de los artículos cuando los clientes los devuelven. Además, puede agregar comentarios acerca de los productos prestados de una de las siguientes formas:  
   
 * Escribir una nota o comentario acerca del propio producto prestado.  
 * Escribir una nota en un producto de servicio acerca de la necesidad de un producto prestado.  

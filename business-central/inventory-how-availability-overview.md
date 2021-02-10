@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: stock
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d34b34d5629779d7b87016fb9e83bf1d3f25fd82
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 40c5b81ec3cb4022e45358020b816cb9d368bb82
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914144"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746347"
 ---
 # <a name="view-the-availability-of-items"></a>Consultar la disponibilidad de los productos
 En el contexto de una tarea de negocio, puede obtener la información avanzada acerca de cuándo y dónde está disponible un producto, por ejemplo, al hablar con un cliente sobre una fecha de entrega.
@@ -28,10 +28,10 @@ Puede consultar la disponibilidad de todos los productos por ubicación y puede 
 
 Si utiliza la funcionalidad de almacén, la disponibilidad varía en función de las asignaciones en el nivel de ubicación cuando tienen lugar actividades de almacén, como selección y movimientos, y cuando el programa de reservas de inventario impone restricciones. Un algoritmo bastante complejo comprueba que todas las condiciones se cumplan antes de asignar cantidades a selecciones para los flujos de salida. Para obtener más información, consulte [Detalles de diseño: Disponibilidad en el almacén](design-details-availability-in-the-warehouse.md).
 
-En [!INCLUDE[d365fin](includes/d365fin_md.md)], las cifras de disponibilidad normalmente se muestran en dos campos diferentes, cada uno con una definición distinta:
+En [!INCLUDE[prod_short](includes/prod_short.md)], las cifras de disponibilidad normalmente se muestran en dos campos diferentes, cada uno con una definición distinta:
 
 * El campo **Cantidad disponible**, en algunas parte se denomina **Inventario**, muestra la cantidad real hoy de acuerdo con los movimientos de producto registrados.
-* El campo **Saldo disponible estimado** calcula y muestra el stock disponible más las recepciones programadas menos las necesidades brutas. (En [!INCLUDE[d365fin](includes/d365fin_md.md)], las recepciones programadas incluyen cantidades en los pedidos de compra y pedidos de transferencia de entrada. Las necesidades brutas incluyen cantidades de los pedidos de venta y los pedidos de transferencia de salida).
+* El campo **Saldo disponible estimado** calcula y muestra el stock disponible más las recepciones programadas menos las necesidades brutas. (En [!INCLUDE[prod_short](includes/prod_short.md)], las recepciones programadas incluyen cantidades en los pedidos de compra y pedidos de transferencia de entrada. Las necesidades brutas incluyen cantidades de los pedidos de venta y los pedidos de transferencia de salida).
 
 > [!TIP]  
 >   El saldo disponible estimado es muy relevante consultarlo en las páginas **Existencias producto** y **Disponibilidad prod. por evento** porque contienen la dimensión de fecha.  

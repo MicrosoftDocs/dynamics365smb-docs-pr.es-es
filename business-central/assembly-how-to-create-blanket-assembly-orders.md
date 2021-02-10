@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 84232aadd133527d06ff0bf2b65490d5dfe8d651
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 93ff6228855c2dccd3d032523c3f0bd38a54a6d2
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917706"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755272"
 ---
 # <a name="create-blanket-assembly-orders"></a>Crear pedidos abiertos ensamblados
 Puede utilizar la administración de ensamblados para personalizar un artículo del ensamblado a la solicitud de un cliente durante el proceso de venta. Para obtener más información, consulte [Venta de artículos ensamblados para pedido](assembly-how-to-sell-items-assembled-to-order.md).  
@@ -46,4 +46,4 @@ El pedido de ensamblado abierto vinculado y las personalizaciones se vinculan a 
 [Trabajar con listas de materiales](inventory-how-work-BOMs.md)  
 [Inventario](inventory-manage-inventory.md)  
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

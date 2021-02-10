@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 02874b3fb2009d2bb4e054269225d1b0db15a206
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 595ad78424b24c3582ee18cee7629c935aa809a4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919743"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753199"
 ---
 # <a name="export-vat-statements-in-xml-format"></a>Exportar declaraciones de IVA en formato XML
 Puede exportar una declaración de IVA en formato XML y después enviarla electrónicamente a las autoridades fiscales.  
@@ -32,7 +32,7 @@ Para obtener más información, consulte el sitio web de la [Agencia Tributaria]
     > [!IMPORTANT]  
     >  El nombre de la declaración de IVA debe ser de tipo de plantilla **Informe 1 columna**.  
     >   
-    >  En la versión estándar de [!INCLUDE[d365fin](../../includes/d365fin_md.md)], el nombre de la declaración del IVA para la declaración telemática 392 es del tipo **Informe 1 columna**.  
+    >  En la versión estándar de [!INCLUDE[prod_short](../../includes/prod_short.md)], el nombre de la declaración del IVA para la declaración telemática 392 es del tipo **Informe 1 columna**.  
 
 3.  En la ficha desplegable **Declaración IVA en XML** de la página **Opciones**, rellene los campos tal y como se describe en la tabla siguiente.  
   

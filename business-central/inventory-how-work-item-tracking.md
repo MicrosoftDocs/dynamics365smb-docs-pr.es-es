@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 510958f185f748f1c8d122d2f199e164b7e45fba
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f0136c253e38f4950837bc0fdafae5f5c35cab28
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921872"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746096"
 ---
 # <a name="work-with-serial-and-lot-numbers"></a>Trabajar con números de lote y de serie
 Puede asignar números de serie y de lote a cualquier documento de salida o de entrada, los movimientos de seguimiento de producto registrados se muestran en los correspondientes movimientos de producto. Realice el trabajo en la página **Líns. seguim. prod.**, que puede abrir desde un documento de entrada o salida.
@@ -36,7 +36,7 @@ En los procesos simples, los productos de inventario ya contienen los números d
 En las situaciones especiales de inventario de números de serie o de lote, los números específicos se definen en el documento de origen, como un pedido de venta, que el trabajador de almacén debe respetar durante el control del almacén de salida. Esto puede ser porque el cliente ha solicitado un lote interno específico durante el proceso del pedido. Cuando se crea el picking de existencias o documento de picking de almacén a partir de un documento de origen de salida en donde ya están definidos los números de serie o de lote, todos los campos de la página **Líns. seguim. prod.** en el picking de existencias están bloqueados para escritura, excepto el **Cdad. a manipular**. En ese caso, Las líneas de picking de inventario especifican los números de seguimiento de producto en las líneas de colocar y recoger individuales. La cantidad ya está dividida en combinaciones de números de serie o lote exclusivos porque el pedido de venta especifica los números de seguimiento de producto que se van a enviar.  
 
 ## <a name="item-tracking-availability"></a>Disponibilidad de seguimiento de producto
-Cuando trabaja con números de lote o de serie, [!INCLUDE[d365fin](includes/d365fin_md.md)] obtiene información acerca de la disponibilidad de estos números, y la muestra en las diferentes páginas de seguimiento de productos. Esto le permite comprobar qué parte de un número de lote o de serie se utiliza actualmente en otros documentos. Esto reduce los errores y las incertidumbres provocados por asignaciones duplicadas.
+Cuando trabaja con números de lote o de serie, [!INCLUDE[prod_short](includes/prod_short.md)] obtiene información acerca de la disponibilidad de estos números, y la muestra en las diferentes páginas de seguimiento de productos. Esto le permite comprobar qué parte de un número de lote o de serie se utiliza actualmente en otros documentos. Esto reduce los errores y las incertidumbres provocados por asignaciones duplicadas.
 
 En la página **Líns. seguim. prod.**, se muestra un icono de advertencia en el campo **Disponibilidad, Nº lote** o **Disponibilidad, Nº serie** en caso de que algunas o todas las cantidades que ha seleccionado ya estén en uso en otros documentos, o si el número de lote o de serie no estuviera disponible.
 
@@ -88,28 +88,6 @@ Con algunos productos es posible que le interese configurar garantías específi
     |---------------------------------|---------------------------------------|  
     |**Fórmula fecha garantía**|Especifica el último día de garantía para el producto.|  
     |**Fecha garantía manual requerida**|Especifica que debe introducir manualmente una fecha de garantía en la línea de seguimiento del producto.|  
-
-## <a name="to-record-serial-or-lot-number-information"></a>Para registrar información de números de serie o lote  
-Si necesita vincular información especial a un número de seguimiento de producto específico, por ejemplo, para controles de calidad, puede hacerlo en una ficha de información de número de serie o lote.
-
-1. Abra un documento que tenga número de serie y de lote asignados.
-2. Abra la página **Líns. seguim. prod.** para el documento.
-3. Elija, por ejemplo, la acción **Ficha información nº serie**.  
-
-    Los campos **Nº serie** y **Nº lote** se prellenan desde la línea de seguimiento del producto.  
-4. Introduzca un texto informativo breve en el campo **Descripción**, por ejemplo, sobre la condición del artículo.  
-5. Seleccione la acción **Comentario** para crear un registro de comentarios separado.  
-6. Seleccione la casilla de verificación **Bloqueado** para excluir el número de serie o de lote de cualquier transacción.  
-
-## <a name="to-modify-existing-serial-or-lot-number-information"></a>Para modificar la información relativa al número de serie o de lote actuales  
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos** y luego elija el enlace relacionado.  
-2. Seleccione un producto que tenga un código de seguimiento de producto e información de número de serie o lote.
-3. En la página **Ficha producto**, seleccione la acción **Movimientos** y, después, **Movimientos**.
-4. Elija los campos **Nº lote** o **Nº serie**. Si hay información referente al número de seguimiento del producto, se abre la página **Lista información nº lote** o **Lista información nº serie**.  
-5. Seleccione una ficha y después la acción **Ficha información nºlote/Ficha información nº serie** .  
-6. Edite el texto de la breve descripción, el registro de comentario o el campo **Bloqueado**.  
-
-No puede modificar los números de serie o lote ni las cantidades. Para ello, deberá reclasificar el movimiento de producto en cuestión. Si desea obtener más información, consulte [Para reclasificar de números de lote o de serie](inventory-how-work-item-tracking.md#to-reclassify-serial-or-lot-numbers).
 
 ## <a name="to-assign-serial-or-lot-numbers-during-an-inbound-transaction"></a>Para asignar números de serie o lote en una transacción de entrada  
 Es posible que las empresas deseen realizar un seguimiento de productos desde el momento en que éstos entran en la empresa. En esta situación, el pedido de compra normalmente es el documento principal, aunque el seguimiento de productos puede controlarse desde cualquier documento de entrada y sus movimientos registrados que se muestran en los movimientos de productos correspondientes.  
@@ -236,6 +214,34 @@ En estas situaciones, las líneas de seguimiento de productos existentes se copi
 
 El contenido de los campos **Nº serie** y **Nº lote** no se puede editar. No obstante, puede eliminar líneas completas o cambiar las cantidades para que coincidan con los cambios que se han hecho en la línea de origen.  
 
+## <a name="to-record-serial-or-lot-number-information"></a>Para registrar información de números de serie o lote  
+Si necesita vincular información especial a un número de seguimiento de producto específico, por ejemplo, para controles de calidad, puede hacerlo en una ficha de información de número de serie o lote.
+
+1. Abra un documento que tenga número de serie y de lote asignados.
+2. Abra la página **Líns. seguim. prod.** para el documento.
+3. Elija, por ejemplo, la acción **Ficha información nº serie**.  
+
+    Los campos **Nº serie** y **Nº lote** se prellenan desde la línea de seguimiento del producto.  
+4. Introduzca un texto informativo breve en el campo **Descripción**, por ejemplo, sobre la condición del artículo.  
+5. Seleccione la acción **Comentario** para crear un registro de comentarios separado.  
+6. Seleccione la casilla de verificación **Bloqueado** para excluir el número de serie o de lote de cualquier transacción.  
+
+Si crea números de serie de forma masiva utilizando las acciones **Crear SN personalizado** o **Asignar número de serie**, puede habilitar **Crear información de SN** y se creará una tarjeta de información para cada línea de seguimiento.
+
+Alternativamente, puede crear una tarjeta de información cuando publique diarios o documentos, en la página **Código de seguimiento del artículo**, active los controles de alternancia **Crear información de SN. al publicar** o **Crear información de SN. al publicar**. 
+
+Puede modificar las tarjetas de información de lote o de serie creadas más tarde.
+
+## <a name="to-modify-existing-serial-or-lot-number-information"></a>Para modificar la información relativa al número de serie o de lote actuales  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos** y luego elija el enlace relacionado.  
+2. Seleccione un producto que tenga un código de seguimiento de producto e información de número de serie o lote.
+3. En la página **Ficha producto**, seleccione la acción **Movimientos** y, después, **Movimientos**.
+4. Elija los campos **Nº lote** o **Nº serie**. Si hay información referente al número de seguimiento del producto, se abre la página **Lista información nº lote** o **Lista información nº serie**.  
+5. Seleccione una ficha y después la acción **Ficha información nºlote/Ficha información nº serie** .  
+6. Edite el texto de la breve descripción, el registro de comentario o el campo **Bloqueado**.  
+
+No puede modificar los números de serie o lote ni las cantidades. Para ello, deberá reclasificar el movimiento de producto en cuestión. Si desea obtener más información, consulte [Para reclasificar de números de lote o de serie](inventory-how-work-item-tracking.md#to-reclassify-serial-or-lot-numbers).
+
 ## <a name="to-reclassify-serial-or-lot-numbers"></a>Para reclasificar números de lote o de serie  
 El proceso de reclasificar el seguimiento para un producto significa convertir un número de lote o de serie en un nuevo número de lote o de serie, o bien convertir la fecha de caducidad en una nueva. Si está trabajando con lotes, también puede combinar varios lotes en uno. Para llevar a cabo este proceso, deberá utilizar el diario de reclasificación de productos.
 
@@ -268,4 +274,4 @@ El proceso de reclasificar el seguimiento para un producto significa convertir u
 [Detalles de diseño: seguimiento de productos](design-details-item-tracking.md)
 [Detalles de diseño. Seguimiento y reservas de productos](design-details-item-tracking-and-reservations.md)  
 [Reservar artículos](inventory-how-to-reserve-items.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

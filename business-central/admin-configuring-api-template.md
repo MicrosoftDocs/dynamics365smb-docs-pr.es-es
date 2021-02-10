@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: API templates, configuring templates
 ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: e87809d33fb7fd511912cf6d384db0e488a8ff2d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e90fe0282af79f36fde145e22ae28818c4575bce
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911610"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754072"
 ---
 # <a name="configuring-api-templates"></a>Configuración de plantillas API
-La biblioteca API para [!INCLUDE[d365fin_md](includes/d365fin_md.md)] proporciona una representación simplificada de las entidades subyacentes. Todas las propiedades de la aplicación no están expuestas a través de la API asociada. La página **Configuración de API** le permite definir plantillas que se utilizan para llenar propiedades vacías en una entidad cuando crea una acción POST a través de la API. 
+La biblioteca API para [!INCLUDE[prod_short_md](includes/prod_short.md)] proporciona una representación simplificada de las entidades subyacentes. Todas las propiedades de la aplicación no están expuestas a través de la API asociada. La página **Configuración de API** le permite definir plantillas que se utilizan para llenar propiedades vacías en una entidad cuando crea una acción POST a través de la API. 
 
 Por ejemplo, si se define una plantilla de configuración para la entidad del elemento, cuando se crea un nuevo registro del elemento a través de la API de elementos, las propiedades del nuevo elemento que no están definidas en la API se rellenarán a partir de la plantilla seleccionada. Si, por ejemplo, no se define ningún valor para el campo **Grupo contable producto** a través de la API, pero se define un valor en la plantilla seleccionada, el valor del grupo definido en la plantilla se aplicará al nuevo elemento. 
 
@@ -44,7 +44,7 @@ La plantilla definida se aplica a un nuevo registro creado a través de la API s
 
 ## <a name="see-also"></a>Consulte también
 [Documentación de la API](/dynamics-nav/fin-graph)  
-[Desarrollo de aplicaciones de conexión para [!INCLUDE[d365fin_md](includes/d365fin_md.md)]](/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps)  
+[Desarrollo de aplicaciones de conexión para [!INCLUDE[prod_short_md](includes/prod_short.md)]](/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps)  
 [Activar las API](/dynamics-nav/enabling-apis-for-dynamics-nav)  
 [Extremos para las API](/dynamics-nav/endpoints-apis-for-dynamics)  
 [Configurar una empresa con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  

@@ -1,6 +1,6 @@
 ---
-title: 'Detalles de diseño: Cambios en codeunit 12 en la asociación de variables globales para línea de registro en diario general | Documentos de Microsoft'
-description: En esta versión de Business Central se han implementado los siguientes cambios.
+title: Cambios en la asignación de variables globales para la contabilización en la codeunit 12
+description: En versiones anteriores, se cambió la codeunit 12 para ayudar a mejorar el rendimiento en la publicación del diario general. Obtenga información sobre los cambios en las variables globales.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,17 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 10/28/2020
 ms.author: edupont
-ms.openlocfilehash: 513518f7e76fcdbb43563d225c683a8bd97e5e4e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0fc79ba982e17b9295f0f611ca34b4eb615001f3
+ms.sourcegitcommit: a95681db16e81af109b34f8e5d88028c1552c6a2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917456"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4367764"
 ---
-# <a name="codeunit-12-changes-mapping-global-variables-for-general-journal-post-line"></a>Cambios en codeunit 12 cambios: asociación de variables globales para línea de registro en diario general
-En esta versión de [!INCLUDE[d365fin](includes/d365fin_md.md)] se han implementado los siguientes cambios.  
+# <a name="historical-changes-to-codeunit-12-mapping-global-variables-for-general-journal-post-line"></a>Cambios históricos en la codeunit 12: Asociación de variables globales para línea de registro en diario general
+
+En las versiones de [!INCLUDE [navnow_md](includes/navnow_md.md)] se han implementado los siguientes cambios.  
 
 |**Microsoft Dynamics NAV 2009 R2**|**Microsoft Dynamics NAV 2013 R2**|**Comentario**|  
 |----------------------------------------|----------------------------------------|-----------------|  

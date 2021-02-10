@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: API, extension, Cognitive Services, image, computer vision, attribute, tag, recognition
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 4946eb43dd854f8f04b0c267a9ba1bc328cc62bb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3957936f7a95ce493443ed86c791ebceee6b56b9
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915140"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757247"
 ---
 # <a name="the-image-analyzer-extension"></a>Extensión del analizador de imágenes
 
@@ -23,13 +23,13 @@ La extensión del analizador de imagen utiliza análisis de imagen muy potentes 
 
 El analizador sugiere atributos basados en etiquetas que encuentra la API de Computer Vision y un nivel de confianza. De forma predeterminada, sugiere atributos solo si está seguro en al menos un 80 % que el atributo es correcto. Si es necesario, puede establecer otro nivel de confianza. Para obtener más información acerca de cómo se determinan las etiquetas y el nivel de confianza, consulte el [API de Computer Vision](https://go.microsoft.com/fwlink/?linkid=851476).  
 
-El analizador está disponible en [!INCLUDE[d365fin](includes/d365fin_md.md)], pero hay un límite en el número de elementos que puede analizar durante un cierto período de tiempo. De forma predeterminada, puede analizar 100 imágenes por mes.
+El analizador está disponible en [!INCLUDE[prod_short](includes/prod_short.md)], pero hay un límite en el número de elementos que puede analizar durante un cierto período de tiempo. De forma predeterminada, puede analizar 100 imágenes por mes.
 
 Después de habilitar la extensión, el analizador se ejecuta cada vez que importa una imagen a un elemento o persona de contacto. Verá los atributos, el nivel de confianza y los detalles de inmediato y podrá decidir qué hacer con cada atributo. Si ha importado imágenes antes de activar la extensión del analizador de imágenes, debe ir al elemento o a las tarjetas de contacto y seleccionar la acción **Analizar imagen**.  
 
 ## <a name="privacy-notice"></a>Aviso de privacidad
 
-Esta extensión utiliza la API de Computer Vision de Microsoft Cognitive Services, que puede tener diferentes niveles de compromisos de cumplimiento que [!INCLUDE[d365fin](includes/d365fin_md.md)]. Cuando habilita la extensión del analizador de imágenes, los datos del cliente, como una imagen de contacto o una imagen de un producto, se enviarán a la API de Computer Vision. Al instalar esta extensión, acepta que este conjunto limitado de datos se envíe a la API de Computer Vision. Tenga en cuenta que puede desactivar, así como desinstalar, la extensión del analizador de imágenes en cualquier momento para interrumpir el uso de esta funcionalidad. Para obtener más información, consulte [Centro de confianza de Microsoft](https://go.microsoft.com/fwlink/?linkid=851463).
+Esta extensión utiliza la API de Computer Vision de Microsoft Cognitive Services, que puede tener diferentes niveles de compromisos de cumplimiento que [!INCLUDE[prod_short](includes/prod_short.md)]. Cuando habilita la extensión del analizador de imágenes, los datos del cliente, como una imagen de contacto o una imagen de un producto, se enviarán a la API de Computer Vision. Al instalar esta extensión, acepta que este conjunto limitado de datos se envíe a la API de Computer Vision. Tenga en cuenta que puede desactivar, así como desinstalar, la extensión del analizador de imágenes en cualquier momento para interrumpir el uso de esta funcionalidad. Para obtener más información, consulte [Centro de confianza de Microsoft](https://go.microsoft.com/fwlink/?linkid=851463).
 
 ## <a name="requirements"></a>Requisitos
 
@@ -41,15 +41,15 @@ Hay algunos requisitos para las imágenes:
 
 ## <a name="to-enable-image-analyzer"></a>Activar el analizador de imágenes
 
-La extensión del analizador de imágenes viene incorporada en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Solo necesita activarla.
+La extensión del analizador de imágenes viene incorporada en [!INCLUDE[prod_short](includes/prod_short.md)]. Solo necesita activarla.
 
 > [!NOTE]  
 > Para activar la extensión del analizador de imágenes, debe ser administrador. Asegúrese de que se le ha asignado el conjunto de permisos de usuario **SUPER**.
 
 1. Para activar la extensión del analizador de imágenes, elija una de estas acciones:
 
-* Abrir un elemento o tarjeta de contacto. En la barra de notificación, elija **Analizar imágenes**y, a continuación, siga los pasos de la guía de configuración asistida.  
-* Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Conexiones de servicio** y luego elija **Configuración del análisis de imagen**. Seleccione la casilla **Activar analizador de imágenes**y, a continuación, complete los pasos de la guía de configuración asistida.  
+* Abrir un elemento o tarjeta de contacto. En la barra de notificación, elija **Analizar imágenes** y, a continuación, siga los pasos de la guía de configuración asistida.  
+* Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Conexiones de servicio** y luego elija **Configuración del análisis de imagen**. Seleccione la casilla **Activar analizador de imágenes** y, a continuación, complete los pasos de la guía de configuración asistida.  
 
     > [!TIP]  
     > La página **Configuración del análisis de imágenes** también permite cambiar el grado de confianza de las sugerencias de atributos. Por ejemplo, si desea exigir un mayor grado de confianza, puede introducir un porcentaje más alto.
@@ -102,5 +102,5 @@ Puede ver el número de análisis que ha realizado y cuántos pueden hacerse en 
 ## <a name="see-also"></a>Consulte también
 
 [Trabajar con atributos de producto](inventory-how-work-item-attributes.md)  
-[Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones](ui-extensions.md)  
+[Personalizar [!INCLUDE[prod_short](includes/prod_short.md)] con extensiones](ui-extensions.md)  
 [Introducción](product-get-started.md)  

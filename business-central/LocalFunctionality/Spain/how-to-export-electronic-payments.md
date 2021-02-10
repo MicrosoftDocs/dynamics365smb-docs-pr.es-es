@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4f63134a5016a3b5dae0de9338799abb93920f54
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 01e71d514c3ecbf6e9aa00bb7d246d4de1255a67
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919747"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753201"
 ---
 # <a name="export-electronic-payments"></a>Exportar pagos electrónicos
-En [!INCLUDE[d365fin](../../includes/d365fin_md.md)], puede exportar movimientos del diario de pagos a un formato de archivo de acuerdo con cuatro estándares de pago diferentes. Utilice las siguientes páginas para exportar según los distintos estándares de pago.  
+En [!INCLUDE[prod_short](../../includes/prod_short.md)], puede exportar movimientos del diario de pagos a un formato de archivo de acuerdo con cuatro estándares de pago diferentes. Utilice las siguientes páginas para exportar según los distintos estándares de pago.  
 
 |Estándar de pago|Página desde la que exportar|  
 |----------------------|---------------------------|  
@@ -91,7 +91,7 @@ En [!INCLUDE[d365fin](../../includes/d365fin_md.md)], puede exportar movimientos
     >  Solo puede registrar la orden de pago una vez que haya exportado correctamente los pagos electrónicos.  
 
     > [!NOTE]  
-    >  En la versión genérica de [!INCLUDE[d365fin](../../includes/d365fin_md.md)], la página **Diario de pagos** se utiliza de forma similar para exportar pagos electrónicos en el formato de transferencia de crédito SEPA. Para obtener más información, consulte [Hacer pagos con la extensión AMC Banking 365 Fundamentals o Transferencia de crédito SEPA](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
+    >  En la versión genérica de [!INCLUDE[prod_short](../../includes/prod_short.md)], la página **Diario de pagos** se utiliza de forma similar para exportar pagos electrónicos en el formato de transferencia de crédito SEPA. Para obtener más información, consulte [Hacer pagos con la extensión AMC Banking 365 Fundamentals o Transferencia de crédito SEPA](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
 
 ## <a name="to-export-electronic-payments-from-the-cartera-module"></a>Para exportar los pagos electrónicos del módulo Cartera  
 

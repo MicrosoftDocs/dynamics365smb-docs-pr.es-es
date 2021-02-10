@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5858ce15a9b8ff1c5042df21dd8572a2ddff3139
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 722e69389413dc06db4f2b7fd2f8447d9033d030
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919720"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753297"
 ---
 # <a name="create-incoming-document-records"></a>Crear registros de documento entrantes
 En la página **Documentos entrantes**, puede usar distintas funciones para revisar recibos de gastos, gestionar tareas de OCR y convertir archivos de documentos entrantes, manual o automáticamente en los documentos pertinentes o en líneas de diario. Los archivos externos se pueden adjuntar en cualquier etapa del proceso, incluidos los documentos registrados y los movimientos de proveedor, cliente y de contabilidad resultantes.
 
-Para registrar un documento externo en [!INCLUDE[d365fin](includes/d365fin_md.md)], debe crear o completar un registro de documento entrante. Puede hacerlo manualmente o tomar una foto del documento externo y crear el registro de documento entrante con el archivo de imagen adjunto.
+Para registrar un documento externo en [!INCLUDE[prod_short](includes/prod_short.md)], debe crear o completar un registro de documento entrante. Puede hacerlo manualmente o tomar una foto del documento externo y crear el registro de documento entrante con el archivo de imagen adjunto.
 
 Para poder usar la función Documentos entrantes, debe realizar la configuración necesaria. Para obtener más información, vea [Configurar documentos entrantes](across-how-setup-income-documents.md).
 
@@ -36,7 +36,7 @@ Si aprueba el registro de documento entrante, se marca la casilla **Lanzado** de
 
 ## <a name="to-create-an-incoming-document-record-by-taking-a-photo"></a>Para crear un registro de documento entrante tomando una foto
 > [!NOTE]  
->   El procedimiento siguiente solo se aplica a los clientes de teléfonos y tabletas de [!INCLUDE[d365fin](includes/d365fin_md.md)].
+>   El procedimiento siguiente solo se aplica a los clientes de teléfonos y tabletas de [!INCLUDE[prod_short](includes/prod_short.md)].
 
 1. En la barra de aplicaciones, seleccione el mosaico **Crear documento entrante desde la cámara** y, a continuación, vaya al paso 4.
 2. O bien, en la barra de aplicaciones, seleccione el botón de opciones, elija **Documentos entrantes** y, a continuación, elija **Todo**.
@@ -47,7 +47,7 @@ Si aprueba el registro de documento entrante, se marca la casilla **Lanzado** de
 
 ## <a name="to-attach-an-image-to-an-incoming-document-record-by-taking-a-photo"></a>Para adjuntar una imagen en un registro de documento entrante
 > [!NOTE]  
->   El procedimiento siguiente solo se aplica a los clientes de teléfonos y tabletas de [!INCLUDE[d365fin](includes/d365fin_md.md)].
+>   El procedimiento siguiente solo se aplica a los clientes de teléfonos y tabletas de [!INCLUDE[prod_short](includes/prod_short.md)].
 
 1. En la barra de aplicaciones, elija el botón opciones, seleccione **Documentos entrantes** y, a continuación, elija **Todo**.
 2. Abra la ficha de un registro entrante de documento entrante existente.
@@ -69,4 +69,4 @@ Si aprueba el registro de documento entrante, se marca la casilla **Lanzado** de
 [Procesar documentos entrantes](across-process-income-documents.md)  
 [Documentos entrantes](across-income-documents.md)  
 [Compras](purchasing-manage-purchasing.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

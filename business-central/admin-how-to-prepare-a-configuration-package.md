@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: cfb7c0186f7ed81687ad3f4d667b3f71d77af424
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 659478fb593f16c4c0a8dd746ccdd61211bc7ecb
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922522"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752730"
 ---
 # <a name="prepare-a-configuration-package"></a>Preparar un paquete de configuración
 
@@ -63,7 +63,7 @@ Puede importar un paquete de configuración que se ha exportado desde una base d
 5. Seleccione la acción **Obtener tablas**. Se abre la página de proceso **Traer tablas de paquete**.  
 6. Elija el campo **Seleccionar tablas**. Se abre la página **Selección config**.  
 7. Elija la acción **Seleccionar todo** para agregar todas las tablas al paquete, o bien active la casilla **Seleccionado** para cada tabla de la lista que desee agregar.
-8. Elija el botón **Aceptar**. El número de tablas seleccionado se indica en el campo **Seleccionar tablas**. Especifique las opciones adicionales y, a continuación, seleccione el botón **Aceptar**. Las tablas de [!INCLUDE[d365fin](includes/d365fin_md.md)] se agregan a las líneas de la página **Config. paquete**.  
+8. Elija el botón **Aceptar**. El número de tablas seleccionado se indica en el campo **Seleccionar tablas**. Especifique las opciones adicionales y, a continuación, seleccione el botón **Aceptar**. Las tablas de [!INCLUDE[prod_short](includes/prod_short.md)] se agregan a las líneas de la página **Config. paquete**.  
 
     > [!NOTE]  
     >  También puede hacer esta operación en la hoja de trabajo de configuración. Seleccione las tablas que desea incluir en el paquete y seleccione la acción **Asignar paquete**.
@@ -151,7 +151,7 @@ A medida que crea un paquete de configuración para una solución, puede ver y p
 2. En la hoja de trabajo de configuración, indique las tablas cuyos datos desee ver o personalizar.  
 
     > [!NOTE]  
-    >  Asegúrese de que cada tabla tenga asignado un identificador de página. Para las tablas de [!INCLUDE[d365fin](includes/d365fin_md.md)] estándar, este valor se rellena automáticamente. Para las tablas personalizadas, debe proporcionar el identificador.
+    >  Asegúrese de que cada tabla tenga asignado un identificador de página. Para las tablas de [!INCLUDE[prod_short](includes/prod_short.md)] estándar, este valor se rellena automáticamente. Para las tablas personalizadas, debe proporcionar el identificador.
 
 3. Seleccione la acción **Datos de base de datos**. Se abre la página relacionada para la página.
 4. Revise la información disponible. Modifíquela según sea necesario. Para ello, elimine los registros que no son pertinentes o agregue registros nuevos.  
@@ -174,3 +174,4 @@ Una vez que haya revisado y probado toda la información de configuración, pued
 [Establecer la configuración de una empresa](admin-set-up-company-configuration.md)  
 [Configurar una empresa con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administración](admin-setup-and-administration.md)  
+[Análisis de la telemetría de seguimiento del paquete de configuración](/dynamics365smb-devitpro/dev-itpro/administration/telemetry-configuration-package-trace)  

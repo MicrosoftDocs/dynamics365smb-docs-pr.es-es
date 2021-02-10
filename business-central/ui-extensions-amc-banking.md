@@ -10,21 +10,21 @@ ms.workload: na
 ms. search.keywords: bank, format, data
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 8eb45d8c65a09ac56617f84a41543c38a4518fa9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a2147240aac15b805a6f64473b5eb2febb38deac
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912401"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757572"
 ---
 # <a name="using-the-amc-banking-365-fundamentals-extension"></a>Uso de la extensión AMC Banking 365 Fundamentals
-La extensión AMC Banking 365 Fundamentals hace que sea más fácil y más preciso enviar datos a sus bancos. La extensión conecta [!INCLUDE[d365fin](includes/d365fin_md.md)] con el servicio AMC Banking 365 Fundamentals para Microsoft Dynamics 365 Business Central, que puede convertir datos bancarios de [!INCLUDE[d365fin](includes/d365fin_md.md)] a formatos que necesitan más de 600 bancos de todo el mundo. Por ejemplo, esto facilita la transferencia de pagos y créditos a proveedores al introducir los pagos en [!INCLUDE[d365fin](includes/d365fin_md.md)] y luego cargarlos en su banco. Los formatos también pueden agilizar los procesos de conciliación de banco. Para obtener más información, consulte [AMC Banking para Microsoft Dynamics 365 Business Central](https://amcbanking.com/landing365bc/help).
+La extensión AMC Banking 365 Fundamentals hace que sea más fácil y más preciso enviar datos a sus bancos. La extensión conecta [!INCLUDE[prod_short](includes/prod_short.md)] con el servicio AMC Banking 365 Fundamentals para Microsoft Dynamics 365 Business Central, que puede convertir datos bancarios de [!INCLUDE[prod_short](includes/prod_short.md)] a formatos que necesitan más de 600 bancos de todo el mundo. Por ejemplo, esto facilita la transferencia de pagos y créditos a proveedores al introducir los pagos en [!INCLUDE[prod_short](includes/prod_short.md)] y luego cargarlos en su banco. Los formatos también pueden agilizar los procesos de conciliación de banco. Para obtener más información, consulte [AMC Banking para Microsoft Dynamics 365 Business Central](https://amcbanking.com/landing365bc/help).
 
 > [!Note]
-> AMC Banking ha creado extensiones adicionales que funcionan con [!INCLUDE[d365fin](includes/d365fin_md.md)]. Este tema describe solo la extensión Fundamental.
+> AMC Banking ha creado extensiones adicionales que funcionan con [!INCLUDE[prod_short](includes/prod_short.md)]. Este tema describe solo la extensión Fundamental.
 
 ## <a name="using-our-demonstration-account"></a>Mediante nuestra cuenta de demostración
-[!INCLUDE[d365fin](includes/d365fin_md.md)] incluye una cuenta de demostración que le permite probar la extensión AMC Banking 365 Fundamentals. Proporcionamos configuraciones predeterminadas para conectarse a AMC Banking, especificando los bancos para obtener datos de [!INCLUDE[d365fin](includes/d365fin_md.md)], más algunas definiciones de intercambio de datos. Puede ver la configuración de conexión en la página **Configuración de AMC Banking**. Para los bancos, la extensión aplica valores en los campos **Nombre del banco**, **N.º mensaje transf. créd.**, **Formato de importación de extractos bancarios** y **Formato de exportación de pagos** en las fichas de banco.
+[!INCLUDE[prod_short](includes/prod_short.md)] incluye una cuenta de demostración que le permite probar la extensión AMC Banking 365 Fundamentals. Proporcionamos configuraciones predeterminadas para conectarse a AMC Banking, especificando los bancos para obtener datos de [!INCLUDE[prod_short](includes/prod_short.md)], más algunas definiciones de intercambio de datos. Puede ver la configuración de conexión en la página **Configuración de AMC Banking**. Para los bancos, la extensión aplica valores en los campos **Nombre del banco**, **N.º mensaje transf. créd.**, **Formato de importación de extractos bancarios** y **Formato de exportación de pagos** en las fichas de banco.
 
 Proporcionamos la configuración, pero para probar la extensión, debe ejecutar la guía de configuración asistida para aplicarla. Para ejecutar la guía, en la página **Configuración de AMC Banking**, elija la acción **Configuración asistida**.
 
@@ -48,7 +48,7 @@ Para cada nuevo conjunto de permisos, conceda solo el permiso **Leer** para la *
 
 ### <a name="to-connect-the-extension-to-amc-banking"></a>Para conectar la extensión a AMC Banking
 1. Obtenga un módulo y un plan de servicio para AMC Banking. Para ello, visite la página [Licencia de AMC](https://license.amcbanking.com/register).
-2. En [!INCLUDE[d365fin](includes/d365fin_md.md)], elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de AMC Banking** y luego elija el enlace relacionado.  
+2. En [!INCLUDE[prod_short](includes/prod_short.md)], elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de AMC Banking** y luego elija el enlace relacionado.  
 3. En la página **Configuración de AMC Banking**, elija la acción **Configuración asistida**.
 4. Complete los pasos de la guía de configuración asistida.
 
@@ -82,8 +82,8 @@ Para usar esta extensión es solo cuestión de exportar datos en la página **Di
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diario de conciliación de pagos** y luego elija el enlace relacionado.
 2. Elija la acción **Importar transacción bancaria** y luego elija el archivo convertido.  
 
-   [!INCLUDE[d365fin](includes/d365fin_md.md)] creará un nuevo diario de conciliación de pagos que contiene los datos del archivo. Para obtener más información, vea [Liquidación de pagos automáticamente y conciliación de cuentas bancarias](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+   [!INCLUDE[prod_short](includes/prod_short.md)] creará un nuevo diario de conciliación de pagos que contiene los datos del archivo. Para obtener más información, vea [Liquidación de pagos automáticamente y conciliación de cuentas bancarias](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 ## <a name="see-also"></a>Consulte también
-[Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones](ui-extensions.md)  
+[Personalizar [!INCLUDE[prod_short](includes/prod_short.md)] con extensiones](ui-extensions.md)  
 [Introducción](product-get-started.md)

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: repair, service
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 79f893007ab2c81140744a042fed24d1b932a4da
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 60080b0a8982420ff2f3a6654d496395733bc425
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917222"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749223"
 ---
 # <a name="set-up-fixed-asset-maintenance"></a>Configure el mantenimiento de los activos fijos
 Para gestionar el mantenimiento de los activos fijos, primero debe configurar la información de mantenimiento en una cuenta de registro para los costes de mantenimiento y los códigos de mantenimiento para los tipos de trabajo, como por ejemplo Servicio rutinario o Reparación.
@@ -49,4 +49,4 @@ Para registrar los costes de mantenimiento, primero debe introducir un número d
 [Activos fijos](fa-manage.md)  
 [Finanzas](finance.md)  
 [Introducción](product-get-started.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8c11553dc3a48a2fdf0df65258914d36f9c2efbd
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d6ca289f723af83758c96537e3d4b5a1c0117cc7
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914371"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753497"
 ---
 # <a name="exchanging-data-electronically"></a>Intercambio de datos electrónicamente
 Puede usar Marco de intercambio de datos para gestionar documentos empresariales, archivos bancarios, tipos de cambio de divisa y cualquier otro archivo de datos con sus socios comerciales.
 
-En la versión estándar de [!INCLUDE[d365fin](includes/d365fin_md.md)], el Marco de intercambio de datos se utiliza en funciones, como Documentos electrónicos, Importación / exportación de archivos bancarios y Actualización de tasas de cambio de moneda. Para más información, ver [Acerca del marco de intercambio de datos](across-about-the-data-exchange-framework.md).
+En la versión estándar de [!INCLUDE[prod_short](includes/prod_short.md)], el Marco de intercambio de datos se utiliza en funciones, como Documentos electrónicos, Importación / exportación de archivos bancarios y Actualización de tasas de cambio de moneda. Para más información, ver [Acerca del marco de intercambio de datos](across-about-the-data-exchange-framework.md).
 
 Como administrador o socio de Microsoft, puede usar el marco en nuevas funciones de integración configurando qué datos intercambiar y cómo. Para obtener más información, vea [Configurar las definiciones de intercambio de datos](across-how-to-set-up-data-exchange-definitions.md).
 

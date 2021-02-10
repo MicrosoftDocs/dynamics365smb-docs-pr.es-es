@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 590f1ee116a3459d9bc4ef6a0614d0f98ee5f77c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 65d2beab8a6f2ecbb25a78e49dc9c39dd12898b7
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913584"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753191"
 ---
 # <a name="void-electronic-payments"></a>Anular pagos electrónicos
 
-En la versión en español de [!INCLUDE[d365fin](../../includes/d365fin_md.md)], puede anular el archivo de pago exportado. Al anular el archivo, se eliminará todo el diario de pagos desde el que se creó el archivo.  
+En la versión en español de [!INCLUDE[prod_short](../../includes/prod_short.md)], puede anular el archivo de pago exportado. Al anular el archivo, se eliminará todo el diario de pagos desde el que se creó el archivo.  
 
 ## <a name="to-void-electronic-payments"></a>Para anular pagos electrónicos  
 

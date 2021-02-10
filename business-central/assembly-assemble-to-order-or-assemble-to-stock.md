@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 746aa6c0146205cbc3f3ed1796b084825bbfdbdf
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 89a2e2390950bbba0f5d0e93db5ed72359fd637f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915715"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747421"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Descripción de ensamblar para pedido y ensamblar para stock
 Los artículos de montaje se pueden suministrar en los dos procesos siguientes:  
@@ -88,4 +88,4 @@ Cuando se introduce un artículo de ensamblar para pedido en una línea de venta
 [Trabajar con listas de materiales](inventory-how-work-BOMs.md)  
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

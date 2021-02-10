@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: de32dea618259d8a7ecde20e47f6f258f12f525a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 21f4dc7f2f0fa6602f02720fc441d1007d0f6bfe
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913201"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747998"
 ---
 # <a name="work-on-service-tasks"></a>Trabajar en tareas de servicio
 Una vez que haya creado un pedido u oferta de servicio, registrado líneas de producto de servicio y asignado recursos a los productos de servicio del pedido u oferta, podrá empezar a reparar y mantener los productos de servicio.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] dispone de la página **Tareas de servicio**, que proporciona una visión general de todos los productos de servicio que requieren atención. Puede considerarlo como su tablero de mandos de servicio, en el que puede ver los pedidos pendientes, buscar y registrar piezas de repuesto y mantener actualizado el inventario.  
+[!INCLUDE[prod_short](includes/prod_short.md)] dispone de la página **Tareas de servicio**, que proporciona una visión general de todos los productos de servicio que requieren atención. Puede considerarlo como su tablero de mandos de servicio, en el que puede ver los pedidos pendientes, buscar y registrar piezas de repuesto y mantener actualizado el inventario.  
 
-Para realizar un seguimiento de los cambios y obtener una visión gráfica de sus negocios de servicios, utilice las herramientas estadísticas de [!INCLUDE[d365fin](includes/d365fin_md.md)] para obtener gráficos y análisis rápidos que se generan automáticamente.  
+Para realizar un seguimiento de los cambios y obtener una visión gráfica de sus negocios de servicios, utilice las herramientas estadísticas de [!INCLUDE[prod_short](includes/prod_short.md)] para obtener gráficos y análisis rápidos que se generan automáticamente.  
 
 ## <a name="to-work-on-a-service-task"></a>Para trabajar en una tarea de servicio  
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Tareas de servicio** y luego elija el enlace relacionado.

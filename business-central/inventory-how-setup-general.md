@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 73fbf09cff59556c04b43383c507a01883bbb071
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e3ecf8d206e50244c19a820bdb67d2992cbefe36
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923750"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746371"
 ---
 # <a name="set-up-general-inventory-information"></a>Configurar información de inventario general
 
@@ -31,12 +31,12 @@ Para obtener información detallada sobre los campos de costes, **Contabilizaci�
 Si desea que el sistema incluya un tiempo de manipulación en almacén de entrada en el cálculo del compromiso de entrega del pedido en la línea de compra, configúrelo como un valor predeterminado para las existencias, en la página **Configuración inventario** y para su almacén. Para obtener más información, consulte [Calcular las fechas de compromiso de entrega de pedido](sales-how-to-calculate-order-promising-dates.md).  
 
 > [!NOTE]
-> El conmutador de alternancia **Ajuste automático de costes** está activado de forma predeterminada para garantizar que los valores de inventario sean siempre correctos en contabilidad, lo que a su vez mantiene actualizadas sus estadísticas de ventas y ganancias. Los cambios de costes de los movimientos de entrada, como pueden ser aquellos relacionados con las compras o con la salida de producción, se asignan a los movimientos de salida relacionados, como son las ventas o las transferencias. Esto es útil para nuevos clientes y pequeñas empresas de [!INCLUDE[d365fin](includes/d365fin_md.md)] con niveles de transacciones de inventario relativamente bajos. Sin embargo, a medida que crece una empresa y aumentan los niveles de inventario, esto puede ralentizar el rendimiento del sistema. Para minimizar el rendimiento reducido durante la publicación, seleccione una opción de tiempo para definir con cuanta antelación desde la fecha de trabajo puede ocurrir una transacción entrante para desencadenar potencialmente el ajuste de las entradas de valor saliente relacionadas. Alternativamente, puede ajustar manualmente los costes a intervalos regulares con el trabajo por lotes Ajustar costo - Entradas de productos.
+> El conmutador de alternancia **Ajuste automático de costes** está activado de forma predeterminada para garantizar que los valores de inventario sean siempre correctos en contabilidad, lo que a su vez mantiene actualizadas sus estadísticas de ventas y ganancias. Los cambios de costes de los movimientos de entrada, como pueden ser aquellos relacionados con las compras o con la salida de producción, se asignan a los movimientos de salida relacionados, como son las ventas o las transferencias. Esto es útil para nuevos clientes y pequeñas empresas de [!INCLUDE[prod_short](includes/prod_short.md)] con niveles de transacciones de inventario relativamente bajos. Sin embargo, a medida que crece una empresa y aumentan los niveles de inventario, esto puede ralentizar el rendimiento del sistema. Para minimizar el rendimiento reducido durante la publicación, seleccione una opción de tiempo para definir con cuanta antelación desde la fecha de trabajo puede ocurrir una transacción entrante para desencadenar potencialmente el ajuste de las entradas de valor saliente relacionadas. Alternativamente, puede ajustar manualmente los costes a intervalos regulares con el trabajo por lotes Ajustar costo - Entradas de productos.
 
 ## <a name="see-also"></a>Consulte también
 [Configuración de inventario](inventory-setup-inventory.md)  
 [Detalles de diseño: Métodos de coste](design-details-costing-methods.md)    
 [Gestionar inventario](inventory-manage-inventory.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Cambiar las funciones que se muestran](ui-experiences.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)

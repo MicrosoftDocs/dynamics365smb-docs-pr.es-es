@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5194d1a24b987f0b7ef88d9b535eb00d3203a9b9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 51e16908aff4e4877d93a2828d2400185c3213ca
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915690"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751810"
 ---
 # <a name="design-details-assembly-order-posting"></a>Detalles de diseño: Registro de pedidos de ensamblado
 El registro de pedidos de ensamblado se basa en los mismos principios que al registrar las actividades similares de los pedidos de venta y el consumo o la salida de producción. No obstante, los principios que se agrupan en los pedidos de ensamblado tienen su propia IU de registro, como para los pedidos de venta, mientras que el registro real de movimientos se produce en segundo plano como registro de productos directos y registro de diario de recursos, como con el de consumo, la salida y la capacidad de producción.  
@@ -115,4 +115,4 @@ El registro de las líneas de pedido de venta donde una parte es cantidad de inv
  [Detalles de diseño: Métodos de coste](design-details-costing-methods.md)  
  [Gestión de costes de inventario](finance-manage-inventory-costs.md)  
  [Finanzas](finance.md)  
- [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+ [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3f98cd6423b67fd9bbcc6081d06eca4cb21e81c7
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: df3807f3d5d2baa7f50df4091a0d1f2622d09ff8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912676"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757647"
 ---
 # <a name="change-basic-settings"></a>Cambiar la configuración básica
 
-En la página **Mi configuración**, puede ver y cambiar la configuración básica de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Los cambios que realice sólo afectan a su área de trabajo; no a las áreas de trabajo de otros usuarios.  
+En la página **Mi configuración**, puede ver y cambiar la configuración básica de [!INCLUDE[prod_short](includes/prod_short.md)]. Los cambios que realice sólo afectan a su área de trabajo; no a las áreas de trabajo de otros usuarios.  
 
 ## <a name="role-center"></a><a name="role-center"></a> Área de trabajo
 El área de trabajo representa la página Inicio, una pantalla de inicio que está designada para las necesidades específicas del trabajo en una empresa. Dependiendo de su función, el Área de trabajo le brinda una descripción general del negocio, su departamento o sus tareas personales. También le ayuda a navegar por sus tareas diarias y encontrar el trabajo que le asignaron.
@@ -35,7 +35,7 @@ El rol pedido es **Administrador de negocio**, pero puede seleccionar otro rol p
 3. Elija el botón **Aceptar**.
 
 ## <a name="company"></a><a name="company"></a>Compañía
-Una empresa funciona como un contenedor de datos en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Puede haber múltiples empresas en una base de datos, pero solo se puede seleccionar una a la vez.
+Una empresa funciona como un contenedor de datos en [!INCLUDE[prod_short](includes/prod_short.md)]. Puede haber múltiples empresas en una base de datos, pero solo se puede seleccionar una a la vez.
 
 La empresa predeterminada se llama CRONUS y solo contiene datos de demostración. Puede crear una nueva empresa con datos personalizados. Para obtener más información, consulte [Crear nuevas empresas](about-new-company.md).
 
@@ -59,7 +59,7 @@ Puede agregar un distintivo personalizado en la esquina superior derecha, que pu
 La fecha de trabajo más utilizada es la fecha actual. Es posible que tenga que cambiar temporalmente la fecha de trabajo para realizar tareas como la finalización de las transacciones de una fecha que no sea la fecha de hoy.
 
 > [!TIP]  
-> En todos los campos de fecha, escriba **h**para introducir rápidamente la fecha de hoy y escriba **t** para introducir rápidamente la fecha de trabajo, que es el valor en el campo **Fecha de trabajo** en la página **Mi configuración**.
+> En todos los campos de fecha, escriba **h** para introducir rápidamente la fecha de hoy y escriba **t** para introducir rápidamente la fecha de trabajo, que es el valor en el campo **Fecha de trabajo** en la página **Mi configuración**.
 
 > [!IMPORTANT]  
 >  Después de modificar la fecha de trabajo, si cierra la sesión o cambia a otra empresa, los datos de trabajo vuelven a la fecha de trabajo predeterminada. Por lo tanto, la próxima vez que inicie sesión o vuelva a cambiar a la empresa original, es posible que tenga que volver a establecer la fecha de trabajo.
@@ -80,9 +80,9 @@ El valor **Región** determina cómo se muestran o se forman las fechas, los tie
 ## <a name="language"></a><a name="language"></a> Idioma
 Cambia el idioma de la pantalla. Este campo aparece sólo cuando hay más de un idioma a elegir.
 
-El idioma inicial lo determina el administrador o la configuración de su navegador cuando inicia sesión en [!INCLUDE[d365fin](includes/d365fin_md.md)]. El idioma que establezca se usará en todos los dispositivos desde los que inicie sesión, como un teléfono o una tableta.
+El idioma inicial lo determina el administrador o la configuración de su navegador cuando inicia sesión en [!INCLUDE[prod_short](includes/prod_short.md)]. El idioma que establezca se usará en todos los dispositivos desde los que inicie sesión, como un teléfono o una tableta.
 
-Los idiomas adicionales para [!INCLUDE[prodshort](includes/prodshort.md)] se pueden instalar desde AppSource. Si bien todos los idiomas de visualización compatibles se muestran en la lista, el administrador debe instalar la aplicación de idioma pertinente para el suscriptor antes de que los usuarios puedan cambiar al nuevo idioma en [!INCLUDE[prodshort](includes/prodshort.md)].  
+Los idiomas adicionales para [!INCLUDE[prod_short](includes/prod_short.md)] se pueden instalar desde AppSource. Si bien todos los idiomas de visualización compatibles se muestran en la lista, el administrador debe instalar la aplicación de idioma pertinente para el suscriptor antes de que los usuarios puedan cambiar al nuevo idioma en [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## <a name="changing-when-i-receive-notifications"></a>Cambio al recibir notificaciones
 Seleccione este vínculo para ver o cambiar las notificaciones que recibe sobre determinados eventos o cambios de estado, cuando va a facturar a un cliente que tiene un saldo vencido o cuando el inventario disponible es inferior a la cantidad que va a vender, por ejemplo. Para obtener más información, consulte [Administrar notificaciones](ui-smart-notifications.md).
@@ -91,5 +91,5 @@ Seleccione este vínculo para ver o cambiar las notificaciones que recibe sobre 
 
 ## <a name="see-also"></a>Consulte también
 [Crear nuevas en empresas](about-new-company.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Cambiar las funciones que se muestran](ui-experiences.md)  

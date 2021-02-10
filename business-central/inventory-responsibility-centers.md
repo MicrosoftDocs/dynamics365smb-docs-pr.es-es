@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/06/2020
+ms.date: 11/03/2020
 ms.author: edupont
-ms.openlocfilehash: 97904add0f97be5a93bec5e53b45179fadfddffb
-ms.sourcegitcommit: 0fb6952376d853a878ed33257e73aadc03b95572
+ms.openlocfilehash: cb9586e207f3eda516d11dd4f184351ff66ca4b2
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "3968338"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749960"
 ---
 # <a name="work-with-responsibility-centers"></a>Trabajar con centros de responsabilidad
 
@@ -53,7 +53,7 @@ Para configurarlo, debe asignar centros de responsabilidad a los usuarios en tre
 5. En el campo **Filtro centro responsabilidad de servicio**, introduzca el centro de responsabilidad donde el usuario asumirá tareas relacionadas con gestión de servicios.  
 
 > [!NOTE]  
-> Los usuarios podrán ver todos los documentos y movimientos de contabilidad registrados y no únicamente los relacionados con su propio centro de responsabilidad.
+> Los usuarios pueden ver solo los documentos publicados relacionados con su propio centro de responsabilidad. Sin embargo, pueden ver todas las entradas del libro mayor y navegar a otros documentos registrados desde las entradas del libro mayor.
 
 ## <a name="see-also"></a>Consulte también
 
@@ -62,4 +62,4 @@ Para configurarlo, debe asignar centros de responsabilidad a los usuarios en tre
 [Inventario](inventory-manage-inventory.md)[Gestión de almacén](warehouse-manage-warehouse.md)  
 [Gestión de almacenes](warehouse-manage-warehouse.md)  
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

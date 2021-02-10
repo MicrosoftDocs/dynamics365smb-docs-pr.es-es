@@ -11,48 +11,48 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.reviewer: edupont
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: e339033e8529f59f548e8bf71fd683f9a2a17eba
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 51c9e2cd05deba5fd8ace46382ebeb4eb41d13ba
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917881"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753747"
 ---
-# <a name="prodshort-and-power-bi"></a>[!INCLUDE[prodshort](includes/prodshort.md)] y Power BI
+# <a name="prod_short-and-power-bi"></a>[!INCLUDE[prod_short](includes/prod_short.md)] y Power BI
 
-Obtener información sobre los datos de [!INCLUDE[prodshort](includes/prodshort.md)] es fácil con [Power BI](https://powerbi.microsoft.com), un sistema de visualización de datos de Microsoft. Power BI recupera datos de [!INCLUDE[prodshort](includes/prodshort.md)] que le permiten crear paneles e informes basados en esos datos. Power BI proporciona una alternativa flexible a los informes integrados en [!INCLUDE[prodshort](includes/prodshort.md)], lo que le permite desglosar y personalizar la visualización, e incluso fusionar datos de diferentes empresas en [!INCLUDE[prodshort](includes/prodshort.md)]. Algunos informes de Power BI también pueden integrarse en Business Central y visualizarse sin salir del sistema. Los paneles de control más complejos se experimentan mejor desde el sitio web de Power BI.
+Obtener información sobre los datos de [!INCLUDE[prod_short](includes/prod_short.md)] es fácil con [Power BI](https://powerbi.microsoft.com), un sistema de visualización de datos de Microsoft. Power BI recupera datos de [!INCLUDE[prod_short](includes/prod_short.md)] que le permiten crear paneles e informes basados en esos datos. Power BI proporciona una alternativa flexible a los informes integrados en [!INCLUDE[prod_short](includes/prod_short.md)], lo que le permite desglosar y personalizar la visualización, e incluso fusionar datos de diferentes empresas en [!INCLUDE[prod_short](includes/prod_short.md)]. Algunos informes de Power BI también pueden integrarse en Business Central y visualizarse sin salir del sistema. Los paneles de control más complejos se experimentan mejor desde el sitio web de Power BI.
 
 ![Power BI y Business Central](media/power-bi-intro.png)
 
 
-## <a name="what-you-can-do-with-power-bi-and-prodshort"></a>¿Qué puede hacer con Power BI y [!INCLUDE[prodshort](includes/prodshort.md)]?
+## <a name="what-you-can-do-with-power-bi-and-prod_short"></a>¿Qué puede hacer con Power BI y [!INCLUDE[prod_short](includes/prod_short.md)]?
 
-Hay varias funciones para trabajar con [!INCLUDE[prodshort](includes/prodshort.md)] y Power BI. Algunas cosas se pueden hacer desde Power BI, mientras que otras cosas se hacen desde [!INCLUDE[prodshort](includes/prodshort.md)]. Además, algunas funciones solo están disponibles con [!INCLUDE[prodshort](includes/prodshort.md)] online, no local. La siguiente tabla le ofrece una descripción general.
+Hay varias funciones para trabajar con [!INCLUDE[prod_short](includes/prod_short.md)] y Power BI. Algunas cosas se pueden hacer desde Power BI, mientras que otras cosas se hacen desde [!INCLUDE[prod_short](includes/prod_short.md)]. Además, algunas funciones solo están disponibles con [!INCLUDE[prod_short](includes/prod_short.md)] online, no local. La siguiente tabla le ofrece una descripción general.
 
 |Característica|Descripción|Online|Local|Más información|
 |-------|-----------|--------------|-----------|----------------|
-|Ver datos de [!INCLUDE[prodshort](includes/prodshort.md)] en Power BI|Puede ver sus datos desde [!INCLUDE[prodshort](includes/prodshort.md)] en informes en Power BI. [!INCLUDE[prodshort](includes/prodshort.md)] online incluye algunos informes de Power BI predefinidos. O su organización puede haber puesto a su disposición algunos informes personalizados.|![Trabaja en línea](media/check.png)|![Trabaja localmente](media/check.png)|[Vea...](across-working-with-powerbi.md)|
-|Ver informes de Power BI en el cliente de [!INCLUDE[prodshort](includes/prodshort.md)].| Los informes de Power BI que muestran datos de [!INCLUDE[prodshort](includes/prodshort.md)] se pueden incrustar directamente en las páginas de partes de [!INCLUDE[prodshort](includes/prodshort.md)]. Puede cambiar la parte para mostrar cualquier informe que esté disponible para usted. |![trabaja en línea](media/check.png)|![Trabaja localmente](media/check.png)<sup>[*](#onprem)</sup>|[Vea...](across-working-with-business-central-in-powerbi.md).|
-|Cree informes y paneles en Power BI que muestren datos de [!INCLUDE[prodshort](includes/prodshort.md)].|Utilice Power BI Desktop para crear sus propios informes y paneles. Puede publicar los informes en su propio servicio de Power BI o compartirlos con otros en su organización.|![Trabaja en línea](media/check.png)|![trabaja localmente](media/check.png)|[Vea...](across-how-use-financials-data-source-powerbi.md)
-|Aplicaciones de [!INCLUDE[prodshort](includes/prodshort.md)] en Power BI| [!INCLUDE[prodshort](includes/prodshort.md)] publica tres aplicaciones para Power BI en Microsoft AppSource. Estas aplicaciones crean informes y paneles detallados en su servicio de Power BI para ver datos de [!INCLUDE[prodshort](includes/prodshort.md)]. Las aplicaciones disponibles incluyen: <ul><li>[!INCLUDE [prodlong](includes/prodlong.md)] - CRM </li><li>[!INCLUDE [prodlong](includes/prodlong.md)] - Finance </li><li>[!INCLUDE [prodlong](includes/prodlong.md)] - Sales </li></ul>  |![Trabaja en línea](media/check.png)||[Vea...](across-powerbi-business-central-apps.md)
+|Ver datos de [!INCLUDE[prod_short](includes/prod_short.md)] en Power BI|Puede ver sus datos desde [!INCLUDE[prod_short](includes/prod_short.md)] en informes en Power BI. [!INCLUDE[prod_short](includes/prod_short.md)] online incluye algunos informes de Power BI predefinidos. O su organización puede haber puesto a su disposición algunos informes personalizados.|![Trabaja en línea](media/check.png)|![Trabaja localmente](media/check.png)|[Vea...](across-working-with-powerbi.md)|
+|Ver informes de Power BI en el cliente de [!INCLUDE[prod_short](includes/prod_short.md)].| Los informes de Power BI que muestran datos de [!INCLUDE[prod_short](includes/prod_short.md)] se pueden incrustar directamente en las páginas de partes de [!INCLUDE[prod_short](includes/prod_short.md)]. Puede cambiar la parte para mostrar cualquier informe que esté disponible para usted. |![trabaja en línea](media/check.png)|![Trabaja localmente](media/check.png)<sup>[*](#onprem)</sup>|[Vea...](across-working-with-business-central-in-powerbi.md).|
+|Cree informes y paneles en Power BI que muestren datos de [!INCLUDE[prod_short](includes/prod_short.md)].|Utilice Power BI Desktop para crear sus propios informes y paneles. Puede publicar los informes en su propio servicio de Power BI o compartirlos con otros en su organización.|![Trabaja en línea](media/check.png)|![trabaja localmente](media/check.png)|[Vea...](across-how-use-financials-data-source-powerbi.md)
+|Aplicaciones de [!INCLUDE[prod_short](includes/prod_short.md)] en Power BI| [!INCLUDE[prod_short](includes/prod_short.md)] publica tres aplicaciones para Power BI en Microsoft AppSource. Estas aplicaciones crean informes y paneles detallados en su servicio de Power BI para ver datos de [!INCLUDE[prod_short](includes/prod_short.md)]. Las aplicaciones disponibles incluyen: <ul><li>[!INCLUDE [prod_long](includes/prod_long.md)] - CRM </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] - Finance </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] - Sales </li></ul>  |![Trabaja en línea](media/check.png)||[Vea...](across-powerbi-business-central-apps.md)
 
 <a name="onprem"><sup>*</sup></a> Esta función requiere una aplicación registrada para Business Central en Microsoft Azure. Para más información, ver [Registro de Business Central en las instalaciones en Azure AD para la integración con otros servicios](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
 
 ## <a name="getting-ready-to-use-power-bi"></a>Preparándose para usar Power BI
 
-Hay algunas tareas que deben realizarse antes de que pueda comenzar a usar Power BI con [!INCLUDE[prodshort](includes/prodshort.md)]. Algunas de las tareas generalmente solo las realizan administradores o superusuarios.
+Hay algunas tareas que deben realizarse antes de que pueda comenzar a usar Power BI con [!INCLUDE[prod_short](includes/prod_short.md)]. Algunas de las tareas generalmente solo las realizan administradores o superusuarios.
 
-1. Si estas usando [!INCLUDE[prodshort](includes/prodshort.md)] en las instalaciones, asegúrese de que su implementación cumpla con los requisitos descritos en [Preparar[!INCLUDE[prodshort](includes/prodshort.md)] local para la integración de Power BI](admin-powerbi-setup.md#setup). Esta tarea normalmente es administrativa.
+1. Si estas usando [!INCLUDE[prod_short](includes/prod_short.md)] en las instalaciones, asegúrese de que su implementación cumpla con los requisitos descritos en [Preparar[!INCLUDE[prod_short](includes/prod_short.md)] local para la integración de Power BI](admin-powerbi-setup.md#setup). Esta tarea normalmente es administrativa.
 
 2. Publicar datos como servicios web.
 
-    Las unidades de código, páginas y consultas que desea utilizar como fuente de datos en informes de Power BI deben publicarse como servicios web. Hay muchos servicios web publicados de forma predeterminada. Un modo de fácil de encontrar los servicios web es buscar *servicios web* en [!INCLUDE[prodshort](includes/prodshort.md)].
+    Las unidades de código, páginas y consultas que desea utilizar como fuente de datos en informes de Power BI deben publicarse como servicios web. Hay muchos servicios web publicados de forma predeterminada. Un modo de fácil de encontrar los servicios web es buscar *servicios web* en [!INCLUDE[prod_short](includes/prod_short.md)].
     
     Para obtener más información sobre la publicación de servicios web, consulte [Publicar un servicio web](across-how-publish-web-service.md).
 
 3. Obtener una cuenta de Power BI.
 
-    Para hacer cualquier cosa con Power BI y [!INCLUDE[prodshort](includes/prodshort.md)], ya sea administrador o simplemente consumidor, necesitará una cuenta de servicio de Power BI. Para obtener una cuenta, vaya a [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Para registrarse para una cuenta, use su dirección de correo electrónico y contraseña del trabajo. El registro requiere que tenga una licencia, pero en la mayoría de los casos ya debería tener una licencia gratuita. Para obtener más información, consulte [Licencias de Power BI](admin-powerbi-setup.md#license).
+    Para hacer cualquier cosa con Power BI y [!INCLUDE[prod_short](includes/prod_short.md)], ya sea administrador o simplemente consumidor, necesitará una cuenta de servicio de Power BI. Para obtener una cuenta, vaya a [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Para registrarse para una cuenta, use su dirección de correo electrónico y contraseña del trabajo. El registro requiere que tenga una licencia, pero en la mayoría de los casos ya debería tener una licencia gratuita. Para obtener más información, consulte [Licencias de Power BI](admin-powerbi-setup.md#license).
 
 4. Si quiere crear sus propios informes de Power BI, obtenga Power BI Desktop.
 
@@ -69,9 +69,9 @@ Hay algunas tareas que deben realizarse antes de que pueda comenzar a usar Power
 [Inteligencia empresarial](bi.md)  
 [Introducción](product-get-started.md)  
 [Importar datos de empresa de otros sistemas financieros](across-import-data-configuration-packages.md)  
-[Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
-[Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] como origen de datos de Power BI](across-how-use-financials-data-source-powerbi.md)  
-[Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] como origen de datos de Power Apps](across-how-use-financials-data-source-powerapps.md)  
-[Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] en Power Automate](across-how-use-financials-data-source-flow.md)  
+[Configurar [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
+[Usar [!INCLUDE[prod_short](includes/prod_short.md)] como origen de datos de Power BI](across-how-use-financials-data-source-powerbi.md)  
+[Usar [!INCLUDE[prod_short](includes/prod_short.md)] como origen de datos de Power Apps](across-how-use-financials-data-source-powerapps.md)  
+[Usar [!INCLUDE[prod_short](includes/prod_short.md)] en Power Automate](across-how-use-financials-data-source-flow.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

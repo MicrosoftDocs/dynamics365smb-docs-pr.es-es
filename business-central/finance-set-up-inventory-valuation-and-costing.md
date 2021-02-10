@@ -7,19 +7,19 @@ ms.topic: article
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 524ed44ed305fc219ea15afc061994dbe3050503
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: edcaaaedde3bb42c0c0d69c3e71dd659f5475712
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910735"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750460"
 ---
 # <a name="setting-up-inventory-valuation-and-costing"></a>Configuración de valoración de existencias
 
 Para asegurarse de que los costes de inventario se registran correctamente, debe configurar varios campos y páginas antes de comenzar a realizar transacciones de elementos. Por lo general, las empresas eligen una valoración de existencias específica y la aplican a los productos del inventario, por ejemplo, para ayudarles a seguir el valor de los productos en stock.  
 
 > [!TIP]
-> Para una introducción al cálculo de costos en [!INCLUDE [prodshort](includes/prodshort.md)], consulte [Acerca de la variación de existencias](finance-learn-about-costing.md).
+> Para una introducción al cálculo de costos en [!INCLUDE [prod_short](includes/prod_short.md)], consulte [Acerca de la variación de existencias](finance-learn-about-costing.md).
 
 En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.
 

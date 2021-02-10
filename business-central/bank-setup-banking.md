@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 80f89a2e4438b6d6f7f329d0ea6563ad8eb41d03
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 1d312045c8ac5f7e349880123cb4d3fecdb345a3
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924383"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752310"
 ---
 # <a name="setting-up-banking"></a>Configurar banca
 Mediante el uso de fichas de bancos, puede realizar un seguimiento de todos sus bancos, en cualquier divisa. Cuando haya configurado los bancos, puede utilizar también la opción de impresión de cheques.
@@ -34,4 +34,4 @@ Para usar servicios de banca electrónica para importar extractos bancarios y ex
 [Conciliar bancos](bank-manage-bank-accounts.md)  
 [Administrar cobros](receivables-manage-receivables.md)  
 [Administrar pagos](payables-manage-payables.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

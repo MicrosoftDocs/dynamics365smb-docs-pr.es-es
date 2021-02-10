@@ -5,12 +5,12 @@ author: loreleishannonmsft
 ms.date: 10/01/2020
 ms.topic: article
 ms.author: margoc
-ms.openlocfilehash: d0ab1b4894c9e8c586692e17210e8254eadb57eb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c4a12f7a79840790a98c2a3a19a845fdd1bb91c2
+ms.sourcegitcommit: a95681db16e81af109b34f8e5d88028c1552c6a2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926652"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4367964"
 ---
 # <a name="partner-sales-and-marketing-learning-catalog"></a>Catálogo de aprendizaje de ventas y marketing para socios
 
@@ -39,11 +39,10 @@ El siguiente catálogo está organizado desde el conocimiento básico hasta domi
 
 | Contenido   | Descripción        | Formato                                | Longitud                |
 |-----------|--------------------|---------------------------------------|-----------------------|
-| [Dynamics 365 Business Central: Conversaciones convincentes con clientes potenciales (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101761)    | (Solo socios) Únase a Errol Schoenfish, Director de Marketing de Producto, mientras explica cómo tener conversaciones convincentes con clientes potenciales en Microsoft Dynamics 365 Business Central.   | Vídeo    | 11 minutos 15 segundos |
-| [Buscar historias de clientes](https://customers.microsoft.com/search?sq=%22Dynamics%20365%20Business%20Central%20%22&ff=&p=0&so=story_publish_date%20desc)  | Encuentre historias de referencia de clientes para Dynamics 365 Business Central en [https://customer.microsoft.com](https://customer.microsoft.com).  | Sitio web |                       |
+| [Dynamics 365 Business Central: Conversaciones convincentes con clientes potenciales (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101761)    | (Solo socios) Únase a Errol Schoenfish, por entonces Director de Marketing de Producto, mientras explica cómo tener conversaciones convincentes con clientes potenciales en Microsoft Dynamics 365 Business Central.   | Vídeo    | 11 minutos 15 segundos |
 | [Programa Proveedor de soluciones en la nube](https://partner.microsoft.com/membership/cloud-solution-provider)    | (Solo socios) Acerca del programa Proveedor de soluciones en la nube     | Sitio web |                       |
 | [Marketing en un mundo en la nube](https://mbspartner.microsoft.com/OSS/Topic/19) | (Solo socios) El tratamiento de cómo optimizar sus prácticas de marketing y reajustar sus principios de marketing para un mundo en la nube será un factor primordial para determinar el éxito o el fracaso de su organización en el futuro. Esta serie de vídeos y recursos proporcionan las mejores prácticas de marketing, orientación para la creación de contenido, consejos pragmáticos y herramientas útiles para aplicar principios de marketing en la nube para impulsar la demanda de sus soluciones. | Página de tema | 35 minutos |
 | [Programa Proveedor de soluciones en la nube: venta de soluciones en la nube bajo demanda](https://docs.microsoft.com/partner-center/csp-overview)  | El programa Proveedor de soluciones en la nube (CSP) lo ayuda a ir más allá de la reventa de licencias para involucrarse más en el negocio de su cliente.   | Sitio web      |                       |
 | [Programa Proveedor de soluciones en la nube: comparación de los programas de asistencia a socios](https://partner.microsoft.com/support/partnersupport) | Vea este vídeo para saber cómo elegir el plan de asistencia a socios adecuado para su empresa. Después vea una comparación en paralelo a continuación.    | Sitio web                               |                       |
 | [Venta acelerada de SureStep en la nube](https://mbspartner.microsoft.com/OSS/Topic/20)  | (Solo socios) El proceso de venta acelerada de SureStep en la nube se basa en las necesidades del comprador moderno y se esfuerza por activar un punto de inflexión estratégico emocional y basado en la experiencia al inicio del proceso de venta. Esta serie de vídeos y recursos explica un proceso de venta prescriptivo que está específicamente diseñado para contrarrestar el enfoque tradicional de ventas de soluciones intensivas en recursos, "orientadas a la demostración" que generalmente lleva a demostraciones de productos muy personalizadas, ciclos de ventas complejos y proyectos de implementación largos. La biblioteca de recursos incluye una serie de plantillas personalizables para que pueda crear su propio conjunto de activos de ventas para respaldar las ventas aceleradas. | Sitio web     |                       |
-| [Suplemento del Manual de estrategias para socios de transición (julio de 2019)](https://assetsprod.microsoft.com/d365-business-central-supplement-to-transition-partner-playbook.pptx) | Este suplemento del manual de estrategias de Transition Partner proporciona orientación nueva y actualizada a los socios para proteger su base de clientes existente de la competencia y los nuevos participantes de SaaS.  | Presentación de diapositivas de PowerPoint | 15 diapositivas |
+| [Suplemento del Manual de estrategias para socios de transición (julio de 2019)](https://assetsprod.microsoft.com/d365-business-central-supplement-to-transition-partner-playbook.pptx) | Este suplemento del manual de estrategias de Transition Partner proporciona orientación nueva y actualizada a los socios para proteger su base de clientes existente de la competencia y los nuevos participantes de SaaS.  | Presentación de diapositivas de PowerPoint | 15 diapositivas |

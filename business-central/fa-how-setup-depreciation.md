@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a08c4dbdb54343f1ec2a66064508496517617555
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c9eea613db52d327caa1c3d5449864900fc867d1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921917"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749274"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Configurar la amortización de los activos fijos
  Puede utilizar varios métodos de amortización para preparar extractos financieros y devoluciones de impuestos. Muchas grandes empresas utilizan amortizaciones en línea en sus extractos financieros porque les suele permitir obtener ganancias mayores. Sin embargo, en casos de devolución de impuestos, muchas empresas utilizan un método de amortización acelerado, como la amortización regresiva. Usted define el método de depreciación de un activo con el campo **Método de amortización** en la página **Tarjeta de activo fijo**. Para obtener más información sobre lo que hacen los diferentes métodos, vea [Métodos de amortización](fa-depreciation-methods.md).
@@ -60,7 +60,7 @@ Si desea asignar un libro de amortización a varios activos fijos, puede utiliza
 7. Elija el botón **Aceptar**.
 
 ## <a name="to-set-up-depreciation-posting-types"></a>Para configurar los tipos de registro de amortización
-Para cada libro de amortización, debe configurar el modo en que desea que [!INCLUDE[d365fin](includes/d365fin_md.md)] administre los distintos tipos de registro. Por ejemplo, si el registro debe ser débito o abono, y si el tipo de registro se debe incluir en la base de amortización.  
+Para cada libro de amortización, debe configurar el modo en que desea que [!INCLUDE[prod_short](includes/prod_short.md)] administre los distintos tipos de registro. Por ejemplo, si el registro debe ser débito o abono, y si el tipo de registro se debe incluir en la base de amortización.  
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Libros de amortización** y luego elija el enlace relacionado.  
 2. Seleccione el libro de amortización que desea configurar y, a continuación, elija la acción **A/F Config. tipo registro**.
@@ -84,4 +84,4 @@ Puede definir para cada libro de amortización una configuración predeterminada
 [Activos fijos](fa-manage.md)  
 [Finanzas](finance.md)  
 [Introducción](product-get-started.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -12,18 +12,18 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, budget
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6a9db4249cdf5814bc04653a1987d17f8f94ecb2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e21b0fbf497ebc67654be4bceae560fc3c2fdbc9
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918618"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757447"
 ---
 # <a name="the-sales-and-inventory-forecast-extension"></a>Extensión de previsión de ventas e inventario
 La gestión del inventario es un equilibrio entre el servicio al cliente y gestionar el coste. Por un lado, un inventario bajo requiere menos capital de trabajo, pero, por otro lado, la falta de stock puede llevar potencialmente la pérdida de ventas. La extensión de la previsión de inventario y ventas predice ventas potenciales con datos históricos y ofrece una visión general clara de la falta de stock prevista. Según la previsión, la extensión ayuda a crear solicitudes de reposición a los proveedores y le ahorra tiempo.  
 
 ## <a name="setting-up-forecasting"></a>Configurar la previsión
-En [!INCLUDE[d365fin](includes/d365fin_md.md)], la conexión a [Azure AI](https://azure.microsoft.com/overview/ai-platform/) ya está configurada automáticamente. Pero puede configurar la previsión para que utilice diferentes tipos de periodo de información como, por ejemplo, cambiar la previsión mensual por la trimestral. También puede elegir el número de periodos para calcular la previsión según como desea que sea. Sugerimos que utilice la previsión mensual y con un horizonte de 12 meses. 
+En [!INCLUDE[prod_short](includes/prod_short.md)], la conexión a [Azure AI](https://azure.microsoft.com/overview/ai-platform/) ya está configurada automáticamente. Pero puede configurar la previsión para que utilice diferentes tipos de periodo de información como, por ejemplo, cambiar la previsión mensual por la trimestral. También puede elegir el número de periodos para calcular la previsión según como desea que sea. Sugerimos que utilice la previsión mensual y con un horizonte de 12 meses. 
 
 > [!TIP]  
 >   Considere la duración de los periodos que el servicio usará en los cálculos. Cuantos más datos proporcione, más precisas serán las predicciones. Asimismo, controle las variaciones grandes en los periodos. También afectarán a las predicciones. Si Azure AI no encuentra suficientes datos, o los datos varían mucho, el servicio no creará ninguna predicción.
@@ -34,7 +34,7 @@ La extensión usa Azure AI para pronosticar las ventas futuras en función del h
 También puede utilizar la extensión para sugerir cuándo desea almacenar el inventario. Por ejemplo, si crea un pedido de compra para Fabrikam porque desea comprar su nueva silla de escritorio, la extensión de Previsión de inventario y ventas sugerirá que también reaprovisione la silla giratoria LONDON que normalmente le compra a ese proveedor. Eso se debe a que la extensión prevé que se le agotará el stock de la silla giratoria LONDON durante los próximos dos meses, de modo que es posible que desee pedir más sillas ahora.  
 
 ## <a name="design-details"></a>Detalles de diseño
-Las suscripciones para [!INCLUDE[d365fin](includes/d365fin_md.md)] vienen con acceso a varios servicios web predictivos en todas las regiones donde [!INCLUDE[d365fin](includes/d365fin_md.md)] está disponible. Para obtener más información, consulte la Guía de licencias de Microsoft Dynamics 365 Business Central. La guía está disponible para descargar en el sitio web de [Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/). 
+Las suscripciones para [!INCLUDE[prod_short](includes/prod_short.md)] vienen con acceso a varios servicios web predictivos en todas las regiones donde [!INCLUDE[prod_short](includes/prod_short.md)] está disponible. Para obtener más información, consulte la Guía de licencias de Microsoft Dynamics 365 Business Central. La guía está disponible para descargar en el sitio web de [Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/). 
 
 Estos servicios web no tienen estado, lo que significa que usan datos solo para calcular predicciones bajo demanda. No almacenan datos.
 
@@ -46,7 +46,7 @@ Para hacer predicciones sobre ventas futuras, el servicio web requiere datos cua
 -    El tipo de movimiento es "Venta".
 - La fecha de registro es entre la fecha que se calcula en función de los valores en los campos **Periodos históricos** y **Tipo de periodo** en la página **Configuración de previsión de ventas e inventario** y la fecha de trabajo.
 
-Antes de usar el servicio web [!INCLUDE[d365fin](includes/d365fin_md.md)] comprime las transacciones por **Nº producto** y **Fecha de registro** según el valor del campo **Tipo de periodo** en la página **Configuración de previsión de ventas e inventario**.
+Antes de usar el servicio web [!INCLUDE[prod_short](includes/prod_short.md)] comprime las transacciones por **Nº producto** y **Fecha de registro** según el valor del campo **Tipo de periodo** en la página **Configuración de previsión de ventas e inventario**.
 
 ## <a name="create-and-use-your-own-predictive-web-service-for-sales-and-inventory-forecasts"></a><a name="AnchorText"> </a>Crear y usar su propio servicio web predictivo para ventas y previsiones de inventario
 También puede crear su propio servicio web predictivo basado en un modelo público denominado **Modelo de previsión para Microsoft Business Central**. Este modelo predictivo está disponible en línea en la galería de Azure AI. Para usar el modelo, siga estos pasos:  
@@ -63,4 +63,4 @@ También puede crear su propio servicio web predictivo basado en un modelo públ
 ## <a name="see-also"></a>Consulte también
 [Ccial](sales-manage-sales.md)  
 [Inventario](inventory-manage-inventory.md)  
-[Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones](ui-extensions.md)  
+[Personalizar [!INCLUDE[prod_short](includes/prod_short.md)] con extensiones](ui-extensions.md)  

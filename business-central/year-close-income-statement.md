@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: a07e490b51d882e3699e0c37f23aadda8a38ca8a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d221e0960eb49ba018ae34f73f2360a502465d61
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914690"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755597"
 ---
 # <a name="close-income-statement-accounts"></a>Cerrar cuentas de regularización
 Cuando finaliza un ejercicio, debe cerrar los periodos que lo forman. Para ello, puede ejecutar el proceso **Cerrar asiento de regularización**. Esta tarea transfiere el resultado anual a una cuenta en la hoja de balance y cierra las cuentas del balance de ingresos. Se realiza creando líneas en un diario, que después puede registrar.
@@ -39,4 +39,4 @@ El proceso **Cerrar asiento de regularización** se puede usar varias veces. Pue
 [Cierre de libros](year-close-books.md)  
 [Registrar el movimiento de cierre del ejercicio](year-how-post-year-end-close-entry.md)  
 [Trabajar con periodos contables y ejercicios](finance-accounting-periods-and-fiscal-years.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

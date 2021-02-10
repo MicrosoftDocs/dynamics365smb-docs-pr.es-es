@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: bank account transfer, multiple currencies
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 746c5be8f77f7afd7a65de17c9893ce1a16fccb2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 934124d419e19c1dc8180f11fcae748cd2afd15d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924408"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752360"
 ---
 # <a name="transfer-bank-funds"></a>Transferir fondos bancarios
-En ocasiones es necesario transferir un importe desde un banco en [!INCLUDE[d365fin](includes/d365fin_md.md)] a otro. Para hacerlo, debe registrar una transacción en la página **Diario general**. La tarea varía en función de si los bancos usan la misma divisa o distintas divisas.
+En ocasiones es necesario transferir un importe desde un banco en [!INCLUDE[prod_short](includes/prod_short.md)] a otro. Para hacerlo, debe registrar una transacción en la página **Diario general**. La tarea varía en función de si los bancos usan la misma divisa o distintas divisas.
 
 ## <a name="to-post-a-transfer-between-bank-accounts-with-the-same-currency-code"></a>Para registrar transferencias entre bancos con el mismo código de divisa
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Diario general** y luego elija el enlace relacionado.
@@ -57,4 +57,4 @@ Para transferir fondos entre cuentas bancarias que usan distintas divisas, debe 
 [Conciliar bancos](bank-manage-bank-accounts.md)  
 [Configurar banca](bank-setup-banking.md)  
 [Trabajar con diarios generales](ui-work-general-journals.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

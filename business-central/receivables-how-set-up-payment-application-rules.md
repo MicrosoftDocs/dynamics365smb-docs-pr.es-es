@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 37b999dd9000ac9833798f827f85bfd945878638
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6ffd2a12d399f0a05517d9e1031df3227aa7248a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926402"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758347"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Configurar reglas para la liquidación automática de los pagos
 
@@ -51,10 +51,10 @@ Además de los criterios de correspondencia, lo siguiente se aplica en relación
 |**N.º doc./N.º doc. ext. conciliado**|Especifica si el texto de la línea del diario de conciliación de pagos debe coincidir con el valor de los campos **N.º documento** o **N.º documento externo** que consta en el movimiento pendiente, antes de que la regla de liquidación se use automáticamente para liquidar el pago en el movimiento pendiente.|
 |**Tolerancia importe incl. conciliada**|Especifica cuántos movimientos para un cliente o un proveedor deben coincidir con el importe incluida la tolerancia de pago antes de que la regla de liquidación se use para liquidar automáticamente un pago en el movimiento pendiente.|
 
-La tabla siguiente muestra las reglas de liquidación configuradas en la versión genérica de [!INCLUDE[d365fin](includes/d365fin_md.md)].
+La tabla siguiente muestra las reglas de liquidación configuradas en la versión genérica de [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!Important]
-> Las reglas de liquidación de pagos pueden ser distintas en su implementación de [!INCLUDE[d365fin](includes/d365fin_md.md)].
+> Las reglas de liquidación de pagos pueden ser distintas en su implementación de [!INCLUDE[prod_short](includes/prod_short.md)].
 
 | Confianza de la correspondencia | Prioridad | Parte relacionada conciliada | N.º doc./N.º doc. ext. conciliado | Tolerancia importe incl. conciliada |
 |------------------|----------|-----------------------|--------------------------------|--------------------------------|
@@ -89,4 +89,4 @@ La tabla siguiente muestra las reglas de liquidación configuradas en la versió
 [Conciliar los pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md)  
 [Administrar cobros](receivables-manage-receivables.md)  
 [Ccial](sales-manage-sales.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

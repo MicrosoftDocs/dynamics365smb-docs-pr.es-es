@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: postpone
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d87d2e635bbe0872fac0c98d93481b71e16d15f4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b9d936cffabaea38571fe755ca43ed0cd9a961b4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917056"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750885"
 ---
 # <a name="defer-revenues-and-expenses"></a>Fraccionar ingresos y gastos
 Para reconocer un ingreso o un gasto en un periodo distinto del periodo en el que se registró la transacción, puede usar la funcionalidad para fraccionar automáticamente ingresos y gastos según una previsión especificada.
@@ -93,4 +93,4 @@ Los movimientos de contabilidad que se van a registrar en la cuenta de fracciona
 [Finanzas](finance.md)  
 [Configurar las finanzas](finance-setup-finance.md)  
 [Trabajar con diarios generales](ui-work-general-journals.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

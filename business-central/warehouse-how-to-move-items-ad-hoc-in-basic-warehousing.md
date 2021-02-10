@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: df67abf85f02b26b1ccaa29735cb9dab28a1d076
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 926d7076ba8b9ae78f718afcab434d012d885233
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915973"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756222"
 ---
 # <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Mover productos ad hoc en configuraciones básicas de almacén
 Puede que necesite de vez en cuando mover los artículos entre las ubicaciones internas, no recibir o enviar ubicaciones, sin una demanda determinada desde un documento de origen. Puede realizar estos movimientos ad hoc, por ejemplo, para reorganizar el almacén, para llevar los artículos a un área de inspección o para mover más artículos a o desde un área de producción sin una relación de sistema con el documento de origen de la orden de producción.  
@@ -75,4 +75,4 @@ En lugar de utilizar documentos de movimiento de almacén, puede registrar el mo
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

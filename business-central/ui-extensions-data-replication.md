@@ -10,25 +10,25 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.reviewer: edupont
 ms.date: 10/01/2020
-ms.author: jenolson
-ms.openlocfilehash: dde6797139f383948d72c52ca1d05298a280087b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.author: edupont
+ms.openlocfilehash: f2d8d556ca4628a66c10f323f47137cd35732a68
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915215"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757297"
 ---
 # <a name="intelligent-cloud-extensions-for-cloud-migration"></a>Extensiones inteligentes en la nube para la migración a la nube
 
-Dependiendo de su solución local, debe usar diferentes extensiones para conectar sus datos con [!INCLUDE[prodshort](includes/prodshort.md)] Online para migrar su solución a la nube.  
+Dependiendo de su solución local, debe usar diferentes extensiones para conectar sus datos con [!INCLUDE[prod_short](includes/prod_short.md)] Online para migrar su solución a la nube.  
 
-Si utiliza uno de los productos locales admitidos, puede configurar su entorno de nube basándose en una extensión específica del producto. Una vez que su entorno de nube inteligente esté configurado, podrá migrar los datos de su solución local a [!INCLUDE[prodshort](includes/prodshort.md)]. Esto le permitirá aprovechar al máximo lo que la nube tiene para ofrecerle a su empresa, como por ejemplo, información mejorada de su negocio, inteligencia artificial, acceso a múltiples dispositivos y acceso en cualquier momento y desde cualquier lugar.  
+Si utiliza uno de los productos locales admitidos, puede configurar su entorno de nube basándose en una extensión específica del producto. Una vez que su entorno de nube inteligente esté configurado, podrá migrar los datos de su solución local a [!INCLUDE[prod_short](includes/prod_short.md)]. Esto le permitirá aprovechar al máximo lo que la nube tiene para ofrecerle a su empresa, como por ejemplo, información mejorada de su negocio, inteligencia artificial, acceso a múltiples dispositivos y acceso en cualquier momento y desde cualquier lugar.  
 
-Para más información, consulte [Migración de datos locales a Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) en el contenido de la administración para [!INCLUDE[prodshort](includes/prodshort.md)].  
+Para más información, consulte [Migración de datos locales a Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) en el contenido de la administración para [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## <a name="business-central-on-premises"></a>Business Central local
 
-Si utiliza una implementación local de [!INCLUDE[prodshort](includes/prodshort.md)], obtenga las extensiones **Base de nube inteligente** y **Nube inteligente de Business Central**, y luego ejecute la guía de configuración asistida **Configuración de migración a la nube**.  
+Si utiliza una implementación local de [!INCLUDE[prod_short](includes/prod_short.md)], obtenga las extensiones **Base de nube inteligente** y **Nube inteligente de Business Central**, y luego ejecute la guía de configuración asistida **Configuración de migración a la nube**.  
 
 ## <a name="dynamics-gp"></a>Dynamics GP
 

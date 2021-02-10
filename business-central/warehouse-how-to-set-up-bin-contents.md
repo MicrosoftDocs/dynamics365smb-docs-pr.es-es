@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9cd37ecbadda34238d9fb7e74ef26f1bb218073a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cc805db942ce9ebf178b49468129a83bb20a325e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923150"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756047"
 ---
 # <a name="create-bin-contents"></a>Crear contenido de ubicación
 
@@ -33,7 +33,7 @@ Seleccione el campo **Fijo** si es necesario. Si la ubicación se va a utilizar 
 
 Si utiliza ubicación y picking directos y ha introducido la información de dimensiones correcta en la ficha de producto acerca de la unidad de medida de cada producto, la cantidad máxima que haya introducido en la página **Contenidos de ubicación** se contrastará con las capacidades físicas de la ubicación. Se utilizarán las cantidades máxima y mínima al calcular las reposiciones de cada ubicación y se sugerirán ubicaciones.  
 
-Si selecciona el campo **Fijo**, define la ubicación fija del producto, lo que significa que [!INCLUDE[d365fin](includes/d365fin_md.md)] intentará colocar este producto en la ubicación si tiene espacio para el mismo y mantendrá el registro fijo del producto incluso cuando la cantidad en la ubicación sea 0. Se pueden colocar otros productos en la ubicación, aunque se haya fijado un producto determinado a la ubicación.  
+Si selecciona el campo **Fijo**, define la ubicación fija del producto, lo que significa que [!INCLUDE[prod_short](includes/prod_short.md)] intentará colocar este producto en la ubicación si tiene espacio para el mismo y mantendrá el registro fijo del producto incluso cuando la cantidad en la ubicación sea 0. Se pueden colocar otros productos en la ubicación, aunque se haya fijado un producto determinado a la ubicación.  
 
 > [!NOTE]  
 > Puede configurar varios contenidos de ubicación simultáneamente en la página **Hoja trab. creac. cont. ubic.**  
@@ -65,4 +65,4 @@ En esta hoja puede trabajar con varias líneas de contenido de ubicación para v
 [Gestión de ensamblaje](assembly-assemble-items.md)  
 [Detalles de diseño: gestión de almacén](design-details-warehouse-management.md)  
 [Detalles de diseño: Configuración de almacén](design-details-warehouse-setup.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

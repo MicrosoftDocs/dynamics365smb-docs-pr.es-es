@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4c75ec6637999e11d9741974ed844222401e4298
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 9dabf51c3961690b9faa19ee58a809013427ad47
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920652"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749249"
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Configurar información general de activos fijos
 Para poder gestionar activos fijos, debe configurar las cuentas predeterminadas, las claves de asignación, las plantillas y las secciones del diario que se utilizan para registrar y reclasificar los activos fijos, y clasificar los activos fijos en clases como, por ejemplo, Tangible e Intangible.
@@ -51,7 +51,7 @@ Las claves de asignación se aplican a las clases de activos, no a los activos i
 ## <a name="to-set-up-fixed-asset-journal-templates"></a>Para configurar las plantillas del diario de activos
 Un libro es un diseño predeterminado de un diario. El libro contiene información de los códigos de seguimiento, informes y números de serie. Para obtener más información, consulte [Trabajar con diarios generales](ui-work-general-journals.md).
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] crea automáticamente una plantilla de diario de activos la primera vez que abre la página **Diario de activos**, pero puede configurar plantillas de diario adicionales.  
+[!INCLUDE[prod_short](includes/prod_short.md)] crea automáticamente una plantilla de diario de activos la primera vez que abre la página **Diario de activos**, pero puede configurar plantillas de diario adicionales.  
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Libros diarios activos** y luego elija el enlace relacionado.  
 2. Rellene los campos según sea necesario.
@@ -64,7 +64,7 @@ Puede configurar múltiples secciones de diario, que son diarios individuales pa
 3. En la página **A/F Secciones diario**, rellene los campos según sea necesario.
 
 ## <a name="to-set-up-fixed-asset-reclassification-journal-templates"></a>Para configurar las plantillas del diario de reclasificación de activos
-Use los diarios de reclasificación dedicados cuando deba transferir, dividir o combinar activos fijos. [!INCLUDE[d365fin](includes/d365fin_md.md)] crea automáticamente una plantilla del diario de reclasificación de activos la primera vez que se abre la página **A/F Diario reclasif.**, pero puede configurar plantillas de diarios de reclasificación adicionales. Para obtener más información, consulte [Trabajar con diarios generales](ui-work-general-journals.md).  
+Use los diarios de reclasificación dedicados cuando deba transferir, dividir o combinar activos fijos. [!INCLUDE[prod_short](includes/prod_short.md)] crea automáticamente una plantilla del diario de reclasificación de activos la primera vez que se abre la página **A/F Diario reclasif.**, pero puede configurar plantillas de diarios de reclasificación adicionales. Para obtener más información, consulte [Trabajar con diarios generales](ui-work-general-journals.md).  
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **A/F Libros diarios reclasif.** y luego elija el enlace relacionado.  
 2. Rellene los campos según sea necesario.
@@ -95,7 +95,7 @@ Puede usar el códigos de almacén A/F para registrar la ubicación del activo, 
 2. Especifique los códigos y nombres que desea crear para las ubicaciones de activos.
 
 ## <a name="to-register-opening-entries"></a>Para registrar movimientos pendientes
-Si es la primera vez que utiliza los activos fijos en [!INCLUDE[d365fin](includes/d365fin_md.md)], deberá configurar antes el área de aplicación Contabilidad antes de configurar los activos fijos. La forma de hacerlo depende de si los activos fijos están integrados con la contabilidad.  
+Si es la primera vez que utiliza los activos fijos en [!INCLUDE[prod_short](includes/prod_short.md)], deberá configurar antes el área de aplicación Contabilidad antes de configurar los activos fijos. La forma de hacerlo depende de si los activos fijos están integrados con la contabilidad.  
 
  El siguiente procedimiento se utiliza si se van a registrar las transacciones de activos en la contabilidad.  
 
@@ -110,7 +110,7 @@ Si es la primera vez que utiliza los activos fijos en [!INCLUDE[d365fin](include
 7. En el diario de activos fijos, introduzca las siguientes líneas por activo:
    * Línea con el coste.
    * Una línea con la amortización acumulada hasta el final del año fiscal anterior.
-   * Una línea con la amortización acumulada desde el inicio del año fiscal en curso hasta la fecha en que [!INCLUDE[d365fin](includes/d365fin_md.md)] está establecido para comenzar a calcular la amortización.
+   * Una línea con la amortización acumulada desde el inicio del año fiscal en curso hasta la fecha en que [!INCLUDE[prod_short](includes/prod_short.md)] está establecido para comenzar a calcular la amortización.
 
     Si tiene otros saldos pendientes, también puede especificarlos ahora, como depreciación o apreciación.  
 8. Una vez que haya especificado y registrado las líneas del diario para cada activo, active la integración de la contabilidad general en los libros de amortización.
@@ -122,4 +122,4 @@ Si los activos fijos no se integran en la contabilidad, omita los pasos 6 y 8.
 [Activos fijos](fa-manage.md)  
 [Finanzas](finance.md)  
 [Introducción](product-get-started.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f2d7aa7fa2a871dbc13fad5f2649213212409dd8
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 519ef244f83937407c17311c7fb7e6bb103431de
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916272"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754747"
 ---
 # <a name="restrict-and-allow-usage-of-a-record"></a>Restringir y permitir el uso de un registro
-Si desea restringir un registro para que no se use en ciertas actividades, por ejemplo, hasta que se haya aprobado el registro, puede introducir dos respuestas de flujo de trabajo en un flujo de trabajo que controle el uso del registro. Una respuesta del flujo de trabajo restringirá la utilización del registro definida por el evento y las condiciones del flujo de trabajo. Otra respuesta del flujo de trabajo permitirá la utilización del registro definida por el evento y las condiciones del flujo de trabajo. Hay dos respuestas existentes en la versión genérica de [!INCLUDE[d365fin](includes/d365fin_md.md)] con este fin: **Restringir el uso de un registro** y **Permitir el uso de un registro**.
+Si desea restringir un registro para que no se use en ciertas actividades, por ejemplo, hasta que se haya aprobado el registro, puede introducir dos respuestas de flujo de trabajo en un flujo de trabajo que controle el uso del registro. Una respuesta del flujo de trabajo restringirá la utilización del registro definida por el evento y las condiciones del flujo de trabajo. Otra respuesta del flujo de trabajo permitirá la utilización del registro definida por el evento y las condiciones del flujo de trabajo. Hay dos respuestas existentes en la versión genérica de [!INCLUDE[prod_short](includes/prod_short.md)] con este fin: **Restringir el uso de un registro** y **Permitir el uso de un registro**.
 
 > [!NOTE]  
->  La versión genérica de [!INCLUDE[d365fin](includes/d365fin_md.md)] permite restringir el registro de un registro, que se exporte como pago o que se imprima como cheque. Para utilizar otras restricciones, un socio de Microsoft debe personalizar el código de aplicación.  
+>  La versión genérica de [!INCLUDE[prod_short](includes/prod_short.md)] permite restringir el registro de un registro, que se exporte como pago o que se imprima como cheque. Para utilizar otras restricciones, un socio de Microsoft debe personalizar el código de aplicación.  
 
 > [!NOTE]  
 >  La funcionalidad de flujo de trabajo para restringir y para permitir usar registros no está relacionada con la funcionalidad para bloquear el registro de registros de producto, cliente y proveedor.

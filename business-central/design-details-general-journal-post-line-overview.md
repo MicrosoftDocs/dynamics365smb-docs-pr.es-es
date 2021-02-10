@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: design, general ledger, post
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d778b29a5789d015b26b504ea8699ac64a92286c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 54f72fdfdea362cee6f3e3833f9d0e46cb9ac22a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911110"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751610"
 ---
 # <a name="general-journal-post-line-overview"></a>Descripción de la línea de registro en diario general
 La codeunit 12, **Diario general-lín. reg.**, es el objeto principal de aplicación para el registro en contabilidad y es el único lugar donde insertar movimientos de contabilidad, de IVA, de clientes y de proveedores. Esta codeunit se usa también para todas las operaciones de Liquidar, Desliquidar y Revertir.  
   
-Mientras que la codeunit se ha mejorado en cada versión durante los diez últimos años, su arquitectura seguía permaneciendo fundamentalmente invariable. La codeunit llegó a ser muy grande, con aproximadamente 7600 líneas de código. Con esta versión de [!INCLUDE[d365fin](includes/d365fin_md.md)], se ha cambiado la arquitectura y la codeunit se ha hecho más sencillo y más fácil de mantener. Esta documentación introduce los cambios y proporciona información que necesitará para actualizar.  
+Mientras que la codeunit se ha mejorado en cada versión durante los diez últimos años, su arquitectura seguía permaneciendo fundamentalmente invariable. La codeunit llegó a ser muy grande, con aproximadamente 7600 líneas de código. Con esta versión de [!INCLUDE[prod_short](includes/prod_short.md)], se ha cambiado la arquitectura y la codeunit se ha hecho más sencillo y más fácil de mantener. Esta documentación introduce los cambios y proporciona información que necesitará para actualizar.  
   
 ## <a name="old-architecture"></a>Arquitectura antigua  
 La arquitectura antigua tenía las características siguientes:  
@@ -34,7 +34,7 @@ La arquitectura antigua tenía las características siguientes:
 * Las funciones de Registro, Liquidar, Desliquidar, Revertir, Descuento de pago y Tolerancia y Ajuste tipo cambio se incluían todas en la codeunit 12 con una larga lista de variables globales.  
   
 ### <a name="new-architecture"></a>Nueva arquitectura  
-En [!INCLUDE[d365fin](includes/d365fin_md.md)], la codeunit 12 incluye las mejoras siguientes:  
+En [!INCLUDE[prod_short](includes/prod_short.md)], la codeunit 12 incluye las mejoras siguientes:  
   
 * La codeunit 12 se ha refactorizado en procedimientos más pequeños (todos con menos de 100 líneas de código).  
 * Se han implementado patrones estandardizados para la búsqueda de cuentas de contabilidad mediante funciones de ayudante desde las tablas Grupo contable.  

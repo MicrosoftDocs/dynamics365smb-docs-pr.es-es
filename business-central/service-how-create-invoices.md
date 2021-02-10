@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 4cdc60905f03b5fab6ae43b8a5a99cda352e03c1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 201138673bdc085d6097117b947359802ec17921
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925842"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748085"
 ---
 # <a name="create-service-invoices-or-credit-memos"></a>Crear facturas o abonos de servicios
-La facilidad de facturar sus pedidos de servicio es una función esencial de [!INCLUDE[prodshort](includes/prodshort.md)]. Puede configurar [!INCLUDE[prodshort](includes/prodshort.md)] de modo que un técnico de servicio de campo pueda crear una factura para un servicio que no esté vinculado con un contrato o pedido. Como alternativa, configure [!INCLUDE[prodshort](includes/prodshort.md)] para facturar contratos de servicio periódicamente. El periodo de factura de cada contrato define la frecuencia con que se factura.
+La facilidad de facturar sus pedidos de servicio es una función esencial de [!INCLUDE[prod_short](includes/prod_short.md)]. Puede configurar [!INCLUDE[prod_short](includes/prod_short.md)] de modo que un técnico de servicio de campo pueda crear una factura para un servicio que no esté vinculado con un contrato o pedido. Como alternativa, configure [!INCLUDE[prod_short](includes/prod_short.md)] para facturar contratos de servicio periódicamente. El periodo de factura de cada contrato define la frecuencia con que se factura.
 
 ## <a name="to-invoice-several-service-contracts"></a>Para facturar varios contratos de servicio
 

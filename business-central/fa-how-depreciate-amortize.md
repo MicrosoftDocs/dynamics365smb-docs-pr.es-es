@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8686b0d7f739b292f733239b7348428dbed56be3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3eb4cffd4e67c4cd375619ec8b36e17e6ee527b4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920752"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749448"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Depreciar o amortizar activos fijos
 La amortización se utiliza para distribuir el coste de activos, como maquinaria y equipos, a lo largo de su vida amortizable. Debe definir la amortización de cada activo.  
@@ -25,7 +25,7 @@ La amortización se utiliza para distribuir el coste de activos, como maquinaria
 * Automática, ejecutando el proceso **Calcular amortización** .  
 * Manualmente, con el diario de activos.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] puede calcular la amortización diaria, lo que le permitirá calcular la amortización de cualquier periodo. Podrá analizar los resultados actuales de la operación de forma mensual, trimestral o anual. El cálculo utiliza un año de 360 días y un mes de 30 días estándar. Para obtener más información, consulte [Métodos de amortización](fa-depreciation-methods.md).  
+[!INCLUDE[prod_short](includes/prod_short.md)] puede calcular la amortización diaria, lo que le permitirá calcular la amortización de cualquier periodo. Podrá analizar los resultados actuales de la operación de forma mensual, trimestral o anual. El cálculo utiliza un año de 360 días y un mes de 30 días estándar. Para obtener más información, consulte [Métodos de amortización](fa-depreciation-methods.md).  
 
 Si varios departamentos usan un activo fijo, la amortización periódica se puede distribuir automáticamente en esos departamentos según una tabla de distribución definida por usuario.  
 
@@ -111,4 +111,4 @@ Las líneas copiadas se crean en el diario general de activos o en el de activos
 [Activos fijos](fa-manage.md)  
 [Configurar activos fijos](fa-setup.md)  
 [Finanzas](finance.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

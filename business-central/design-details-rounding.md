@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f1cf5b1a865ea468e96f5b8e174ffeccfeb61022
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 16f8a37a22540caca2faa84005db16a9da59e098
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910941"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751185"
 ---
 # <a name="design-details-rounding"></a>Detalles de diseño: Redondeo
 Los redondeos residuales se pueden producir cuando se valora el coste de una salida de existencias que se mide en una cantidad distinta a la de la entrada de existencias correspondiente. Cuando se ejecuta el proceso **Valorar stock - movs. producto**, se calculan los redondeos residuales para todas las valoraciones de existencias.  
@@ -64,4 +64,4 @@ Los redondeos residuales se pueden producir cuando se valora el coste de una sal
  [Detalles de diseño: Ajuste de coste](design-details-cost-adjustment.md)   
  [Detalles de diseño: métodos de coste](design-details-costing-methods.md) [Gestión de costes de inventario](finance-manage-inventory-costs.md)  
  [Finanzas](finance.md)  
- [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

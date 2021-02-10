@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: multiple currencies, payment, reconcile
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c11939306e56299347a5f80d9ccfbc35c22fe5aa
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 564ac8edfb21573e310a3be3eaa22060d84bef22
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917031"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750910"
 ---
 # <a name="enable-application-of-ledger-entries-in-different-currencies"></a>Permitir la liquidación de movimientos de cliente en distintas divisas
 Si se realiza una compra a un proveedor en una divisa y se emite el pago en otra divisa, es posible liquidar la compra con el pago.
@@ -50,4 +50,4 @@ Si liquida movimientos en varias divisas distintas, debe configurar las cuentas 
 ## <a name="see-also"></a>Consulte también
 [Administrar pagos](payables-manage-payables.md)  
 [Administrar cobros](receivables-manage-receivables.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

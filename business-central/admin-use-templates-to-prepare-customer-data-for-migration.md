@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8f4bd2978652366ecd18109377f4ebeeebfbb4a3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8b45c9095674b6bb633717f3985557ef7e6a681b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922347"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4745921"
 ---
 # <a name="prepare-to-migrate-customer-data-with-templates"></a>Prepararse para migrar datos del cliente con plantillas
 
@@ -28,7 +28,7 @@ Normalmente, se crean plantillas de datos para las siguientes tablas de datos ma
 - **Producto**  
 - **Proveedor**  
 
-Sin embargo, puede crear una estructura de plantilla y aplicarla en cualquier tabla en [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Sin embargo, puede crear una estructura de plantilla y aplicarla en cualquier tabla en [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 > [!TIP]  
 > También puede usar plantillas de datos para operaciones diarias a fin de crear registros nuevos basados en plantillas. Estas plantillas de datos funcionan sólo para las tablas de datos maestros compatibles. Para obtener más información, consulte, por ejemplo, [Registrar nuevos productos](inventory-how-register-new-items.md).  
@@ -87,7 +87,7 @@ El identificador de tabla, el nombre de tabla y las líneas de la plantilla de d
 3. En el campo **Valor predeterminado**, introduzca el valor correspondiente. En algunos casos, es posible que desee usar un valor que no sea un valor disponible en la base de datos. En dicho caso, puede activar la casilla **Omitir comprobación de relación** para permitir la aplicación de datos sin errores.
 
     > [!TIP]  
-    > Puesto que el campo **Valor predeterminado** no contempla las opciones correspondientes del campo [!INCLUDE[d365fin](includes/d365fin_md.md)], copie y pegue el valor que desea de la página relacionada en la plantilla.
+    > Puesto que el campo **Valor predeterminado** no contempla las opciones correspondientes del campo [!INCLUDE[prod_short](includes/prod_short.md)], copie y pegue el valor que desea de la página relacionada en la plantilla.
 
 4. Active la casilla **Obligatorio** si los usuarios deben rellenar el campo en cuestión.
 
@@ -98,7 +98,7 @@ El identificador de tabla, el nombre de tabla y las líneas de la plantilla de d
 
 ## <a name="to-export-to-a-template-in-excel"></a>Para exportar a una plantilla en Excel
 
-Puede crear rápidamente un libro de Excel para que sirva como plantilla basada en la estructura de una tabla de base de datos existente. A continuación, puede usar la plantilla para recopilar todos los datos de cliente en un formato coherente para su importación posterior en [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Puede crear rápidamente un libro de Excel para que sirva como plantilla basada en la estructura de una tabla de base de datos existente. A continuación, puede usar la plantilla para recopilar todos los datos de cliente en un formato coherente para su importación posterior en [!INCLUDE[prod_short](includes/prod_short.md)].
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja de configuración** y luego elija el enlace relacionado.
 2. Agregue una tabla a la lista o seleccione una tabla existente. Para obtener más información, vea [Gestionar la configuración de la empresa en una hoja de trabajo](admin-how-to-manage-company-configuration-in-a-worksheet.md).
@@ -122,7 +122,7 @@ Cuando aplique los datos de una plantilla en Excel a una tabla que también teng
 Los registros cuyos datos se apliquen de esta forma se habrán completado, ya que se compone de los datos que introdujo un usuario en Excel, más los valores predeterminados que se especifican en la plantilla de configuración.
 
 > [!NOTE]
-> Si los datos en las tablas del paquete de configuración contienen fechas, por ejemplo, fechas de registro en facturas, las fechas se consideran en la zona horaria especificada en [!INCLUDE[d365fin](includes/d365fin_md.md)]. 
+> Si los datos en las tablas del paquete de configuración contienen fechas, por ejemplo, fechas de registro en facturas, las fechas se consideran en la zona horaria especificada en [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
 ## <a name="to-create-a-record-from-a-configuration-template"></a>Para crear un registro desde una plantilla de configuración
 
@@ -140,7 +140,7 @@ Los pasos siguientes ilustran cómo crear una ficha de producto de una plantilla
 
 ## <a name="to-use-a-configuration-template-on-a-record"></a>Procedimiento para usar una plantilla de configuración en un registro
 
-Se puede aplicar una plantilla de datos a cualquier registro que está en [!INCLUDE[d365fin](includes/d365fin_md.md)] y usar esta técnica para cambiar o modificar un registro. Sin embargo, al hacerlo, se sobrescriben los valores existentes en el registro con los de la plantilla. Por lo tanto, debe tener cuidado cuando aplica una plantilla a registros existentes.
+Se puede aplicar una plantilla de datos a cualquier registro que está en [!INCLUDE[prod_short](includes/prod_short.md)] y usar esta técnica para cambiar o modificar un registro. Sin embargo, al hacerlo, se sobrescriben los valores existentes en el registro con los de la plantilla. Por lo tanto, debe tener cuidado cuando aplica una plantilla a registros existentes.
 
 > [!WARNING]  
 > La función **Aplicar plantilla** sobrescribe los datos existentes en un registro. Si esta función se utiliza en la migración de datos maestros, sobrescribirá los datos importados al crear los registros.

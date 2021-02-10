@@ -10,25 +10,25 @@ ms.workload: na
 ms.search.keywords: design, item, tracking, tracing
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a9cdea97b9753adbbe8128b674dc4161178bc6f8
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 87c85de9f501e093679512b709841d0027fe17bf
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917431"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751335"
 ---
 # <a name="design-details-item-tracking-design"></a>Detalles de diseño: Diseño de seguimiento de productos
-En la primera versión de seguimiento de productos de [!INCLUDE[d365fin](includes/d365fin_md.md)] 2.60, los números de serie o de lote se registraban directamente en los movimientos de producto. Este diseño proporcionó información de disponibilidad completa y un seguimiento sencillo del historial de movimientos, pero carecía de flexibilidad y funcionalidad.  
+En la primera versión de seguimiento de productos de [!INCLUDE[prod_short](includes/prod_short.md)] 2.60, los números de serie o de lote se registraban directamente en los movimientos de producto. Este diseño proporcionó información de disponibilidad completa y un seguimiento sencillo del historial de movimientos, pero carecía de flexibilidad y funcionalidad.  
 
-A partir de [!INCLUDE[d365fin](includes/d365fin_md.md)] 3.00, la funcionalidad de seguimiento de productos pasa a ser una estructura de objetos independiente con vínculos complejos a documentos registrados y movimientos de producto. Este diseño era flexible y con muchas funcionalidades, pero los movimientos de seguimiento de producto no intervenían completamente en los cálculos de disponibilidad.  
+A partir de [!INCLUDE[prod_short](includes/prod_short.md)] 3.00, la funcionalidad de seguimiento de productos pasa a ser una estructura de objetos independiente con vínculos complejos a documentos registrados y movimientos de producto. Este diseño era flexible y con muchas funcionalidades, pero los movimientos de seguimiento de producto no intervenían completamente en los cálculos de disponibilidad.  
 
-Desde [!INCLUDE[d365fin](includes/d365fin_md.md)] 3,60, la funcionalidad del seguimiento de productos está integrada con el sistema de reservas, que controla la reserva, el seguimiento de pedidos y los mensajes de acciones. Para obtener más información, consulte "Detalles de diseño: Reserva, seguimiento de pedidos y mensajes de acciones” en “Detalles de diseño: Planificación de aprovisionamiento”.  
+Desde [!INCLUDE[prod_short](includes/prod_short.md)] 3,60, la funcionalidad del seguimiento de productos está integrada con el sistema de reservas, que controla la reserva, el seguimiento de pedidos y los mensajes de acciones. Para obtener más información, consulte "Detalles de diseño: Reserva, seguimiento de pedidos y mensajes de acciones” en “Detalles de diseño: Planificación de aprovisionamiento”.  
 
-Este último diseño incorporar los movimientos de seguimiento de producto en los cálculos de disponibilidad total en todo el sistema, incluida la planificación, la fabricación y el almacenamiento. El antiguo concepto de transferir los números de serie y de lote a los movimientos de productos se vuelve a introducir para garantizar un acceso sencillo al historial de datos para realizar el seguimiento de productos. En relación con las mejoras del seguimiento de productos en [!INCLUDE[d365fin](includes/d365fin_md.md)] 3.60, el programa de reservas se ha ampliado a entidades de la red que no son pedidos, como diarios, facturas y abonos.  
+Este último diseño incorporar los movimientos de seguimiento de producto en los cálculos de disponibilidad total en todo el sistema, incluida la planificación, la fabricación y el almacenamiento. El antiguo concepto de transferir los números de serie y de lote a los movimientos de productos se vuelve a introducir para garantizar un acceso sencillo al historial de datos para realizar el seguimiento de productos. En relación con las mejoras del seguimiento de productos en [!INCLUDE[prod_short](includes/prod_short.md)] 3.60, el programa de reservas se ha ampliado a entidades de la red que no son pedidos, como diarios, facturas y abonos.  
 
 Con la adición de los números de serie o de lote, el sistema de reservas controla los atributos de producto permanentes, a la vez que también controla los vínculos intermitentes entre el suministro y la demanda en forma de movimientos de seguimiento de pedidos y movimientos de reserva. Otra característica distinta de los números de serie o de lote comparados con los datos convencionales de reserva es el hecho de que se pueden registrar, tanto parcial como totalmente. Por lo tanto, la tabla **Mov. reserva** (T337) ahora funciona con una tabla relacionada, la tabla **Especificación seguimiento** (T336), que controla y muestra la suma de las cantidades de seguimiento de producto activas y registradas. Para obtener más información, consulte [Detalles de diseño: registros de seguimiento de productos históricos frente a activos](design-details-active-versus-historic-item-tracking-entries.md).  
 
-En el diagrama siguiente se describe el diseño de la funcionalidad de seguimiento de productos en [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+En el diagrama siguiente se describe el diseño de la funcionalidad de seguimiento de productos en [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ![Ejemplo de flujo de seguimiento de artículos](media/design_details_item_tracking_design.png "Ejemplo de flujo de seguimiento de artículos")  
 

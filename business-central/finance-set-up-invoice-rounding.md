@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 233785c6d118ef9c23fef56ec113e008226c1a17
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 302552a32e2c6322c156a22095c926dee40b4cf7
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916123"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746596"
 ---
 # <a name="set-up-invoice-rounding"></a>Configurar redondeo de factura
 Si necesita redondear importes de facturas cuando se crean, puede utilizar la función de redondeo automático. Cuando se redondea una factura, se añade una línea adicional en el importe redondeado y se registra con las demás líneas de la factura.
@@ -37,7 +37,7 @@ Para utilizar la utilidad de redondeo de factura automático, debe configurar la
 
 ### <a name="to-set-up-general-ledger-accounts-for-invoice-rounding-differences"></a>Para configurar cuentas para diferencias de redondeo de facturas  
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Plan de cuentas** y luego elija el enlace relacionado.  
-2. En la página **Plan de cuentas**, configure la cuenta y denomínela **Redondeo factura** o algo parecido. [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizará el nombre de la cuenta como texto en las facturas que se redondean.  
+2. En la página **Plan de cuentas**, configure la cuenta y denomínela **Redondeo factura** o algo parecido. [!INCLUDE[prod_short](includes/prod_short.md)] utilizará el nombre de la cuenta como texto en las facturas que se redondean.  
 3. Dependiendo de si utiliza el IVA o impuesto sobre las ventas, en los campos **Grupo registro impuesto prod.** o **Grupo reg. IVA producto**, seleccione un grupo de registro para los importes redondeados. Puede que desee configurar un nuevo código de grupo para usarlo para el redondeo de factura.
 4. Deje en blanco los campos **Tipo IVA** y **Grupo registro impuesto neg.** o **Grupo registro IVA neg**. <!-- Why do we say to leave these blank, when there are a lot of other fields we also leave blank but don't mention? -->  
 

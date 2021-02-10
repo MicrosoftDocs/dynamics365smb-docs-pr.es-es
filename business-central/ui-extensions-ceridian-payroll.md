@@ -1,8 +1,6 @@
 ---
-title: Importar datos de nómina o de salario con la extensión de nóminas de Ceridian | Documentos de Microsoft
+title: Importar datos de nómina o de salario con la extensión de nóminas de Ceridian
 description: Utilice esta extensión para importar transacciones de nóminas de los servicios Ceridian HR/Payroll (EE. UU.) y Ceridian PowerPay (Canadá).
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,14 +10,15 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, salary, wage
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 29dfaaa1cefe2bdc55fd68b1efd752be2c11cbc8
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 717c8937ea4c057b51acb3c346d950d6b7c0a43e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912359"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757322"
 ---
 # <a name="the-ceridian-payroll-extension"></a>La extensión de nóminas de Ceridian
+
 Para contabilizar los pagos de salario y transacciones relacionadas, deberá importar y registrar las transacciones financieras de salario creadas para el proveedor de nóminas al libro mayor.
 
 Para hacer esto, primero importe un archivo que recibirá del proveedor de nóminas en la página **Diario general**. A continuación asigne las cuentas externas del archivo de nóminas a las cuentas correspondientes. Por último, registre operaciones de nóminas según la asignación de cuentas. Para obtener más información, vea [Importar transacciones de nómina](finance-how-import-payroll-transactions.md).
@@ -27,6 +26,7 @@ Para hacer esto, primero importe un archivo que recibirá del proveedor de nómi
 La extensión de nóminas de Ceridian le permite importar transacciones de nóminas de los servicios Ceridian HR/Payroll (EE. UU.) y Ceridian PowerPay (Canadá).
 
 ## <a name="see-also"></a>Consulte también
-[Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones ](ui-extensions.md)    
-[Finanzas](finance.md)    
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+
+[Personalizar [!INCLUDE[prod_short](includes/prod_short.md)] con extensiones](ui-extensions.md)  
+[Finanzas](finance.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

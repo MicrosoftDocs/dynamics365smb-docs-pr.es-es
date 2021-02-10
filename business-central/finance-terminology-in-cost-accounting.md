@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b82b5dce54d9427fbd653bd8dd185d4c086d0459
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ad6c208383aa5a92b3d4abf9132b4f2eb4654195
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923900"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746504"
 ---
 # <a name="terminology-in-cost-accounting"></a>Terminología en contabilidad de costes
 Este tema define los términos clave que se utilizan en contabilidad de costes.  
@@ -50,4 +50,4 @@ Este tema define los términos clave que se utilizan en contabilidad de costes.
 ## <a name="see-also"></a>Consulte también  
  [Acerca de la contabilidad de costes](finance-about-cost-accounting.md)   
  [Contabilidad para costes](finance-manage-cost-accounting.md)  
- [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

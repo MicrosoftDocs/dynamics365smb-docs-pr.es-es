@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 43a62271bab9401bfea21663c72b6363884c2ef4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5ece03828aad360b03a4c2cc4e0b47a6f603e8dc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911010"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751210"
 ---
 # <a name="design-details-revaluation"></a>Detalles de diseño: Revalorización
 Puede revalorizar el inventario según la base de valoración que refleja de forma más precisa el valor de inventario. También puede especificar una fecha retroactiva para una revalorización, de modo que el coste total de las mercancías vendidas se actualice correctamente para los productos que ya se han vendido. Los productos que usan la valoración de existencias Estándar que no se han facturado por completo también se pueden volver a valorar.  
 
-En [!INCLUDE[d365fin](includes/d365fin_md.md)], dispone de la flexibilidad siguiente en cuanto a revalorización:  
+En [!INCLUDE[prod_short](includes/prod_short.md)], dispone de la flexibilidad siguiente en cuanto a revalorización:  
 
 -   La cantidad revalorizable se puede calcular para cualquier fecha, también en el pasado.  
 -   En el caso de productos con método de coste Estándar, los movimientos de coste previstos se incluyen en la revalorización.  
@@ -82,13 +82,13 @@ La fecha de valoración se establece en la fecha del registro de consumo (01-02-
 |------------------|----------------|--------------------|----------------------------|---------------------------|---------------|  
 |15-01-20|Coste directo|01-01-20|150,00|2|2|  
 |01-02-20|Coste directo|01-02-20|-150,00|2|2|  
-|15-02-20|Coste directo|15-02-20|150.00|3|3|  
+|15-02-20|Coste directo|15-02-20|150,00|3|3|  
 
 ## <a name="expected-cost-in-revaluation"></a>Coste previsto en revalorización  
-La cantidad revalorizable XE "Cantidad revalorizable" XE "Cantidad;Revalorizable" se calcula como la suma de la cantidad XE "cantidad" de movimientos de producto totalmente facturados XE "Factura" X· "Movimiento producto" con una fecha de registro igual o anterior a la fecha de revalorización XE "Revalorización". Esto significa que, cuando se reciben o envían productos pero no se facturan, su valor de inventario no se puede calcular XE "Valor de inventario". Los productos que usan la valoración de existencias Estándar no están limitados en este sentido. XE "Valor"  
+La cantidad revalorizable se calcula como la suma de la cantidad de movimientos de producto totalmente facturados con una fecha de registro igual o anterior a la fecha de revalorización. Esto significa que, cuando se reciben o envían productos pero no se facturan, su valor de inventario no se puede calcular. Los productos que usan la valoración de existencias Estándar no están limitados en este sentido.  
 
 > [!NOTE]  
->  Otro tipo de coste esperado que puede ser revalorizado es el inventario WIP, con determinadas reglas. Para obtener más información, consulte la sección "Revalorización de inventario WIP" en este tema.  
+>  Otro tipo de coste esperado que puede ser revalorizado es el inventario WIP, con determinadas reglas. Para obtener más información, vea [Revaluación de inventario WIP](design-details-revaluation.md#wip-inventory-revaluation).  
 
 Al calcular la cantidad revalorizable de los productos mediante la valoración de existencias Estándar, los movimientos de producto que no se han facturado por completo se incluyen en el cálculo. A continuación, estos movimientos se revalorizan al registrar la revalorización. Cuando se factura la entrada revalorizada, se crean los siguientes movimientos de valoración:  
 
@@ -116,7 +116,7 @@ En la tabla siguiente se muestran los movimientos de valoración resultantes.
 |3.b.|15-01-20|Revaluación|20-01-20|-150,00|0.00|1|4|  
 |3.c.|15-01-20|Desviación|15-01-20|0.00|450,00|1|5|  
 
-## <a name="determining-if-an-inventory-decrease-is-affected-by-revaluation"></a>Determinación de si una salida de existencias se ve afectada por la revalorización  
+## <a name="determining-whether-an-inventory-decrease-is-affected-by-revaluation"></a>Determinación de si una salida de existencias se ve afectada por la revalorización  
 La fecha del registro o de la revalorización se usa para determinar si una salida de existencias está afectada por una revalorización.  
 
 En la tabla siguiente se muestran los criterios que se usan para un producto que no usa la valoración de existencias Media.  
@@ -163,13 +163,13 @@ En la tabla siguiente se muestran los movimientos de valoración resultantes.
 ## <a name="wip-inventory-revaluation"></a>Revalorización de inventario WIP  
 La revalorización del inventario de trabajo en curso implica la revalorización de los componentes que están registrados como parte del inventario de trabajo en curso en el momento de la revalorización.  
 
-Teniendo en cuenta esto, es importante establecer convenciones, por ejemplo, cuándo se considera que un producto forma parte del inventario de trabajo en curso desde un punto de vista financiero. En [!INCLUDE[d365fin](includes/d365fin_md.md)] existen las convenciones siguientes:  
+Teniendo en cuenta esto, es importante establecer convenciones, por ejemplo, cuándo se considera que un producto forma parte del inventario de trabajo en curso desde un punto de vista financiero. En [!INCLUDE[prod_short](includes/prod_short.md)] existen las convenciones siguientes:  
 
 -   Un componente comprado pasa a formar parte del inventario de materias primas desde el momento de registrar una compra como facturada.  
--   Un componente comprado o haga subensamblado pasa a formar parte del inventario WIP desde el momento de registrar su consumo en relación a una orden de producción.  
+-   Un componente comprado o subensamblado pasa a formar parte del inventario WIP desde el momento de registrar su consumo en relación a una orden de producción.  
 -   Un componente comprado/subensamblado sigue siendo parte del inventario WIP hasta el momento en el que se factura una orden de producción (producto fabricado).  
 
-La forma en que se configura la fecha de valoración del movimiento de valoración sigue las mismas reglas que en el caso del inventario que no es del trabajo en curso. Para obtener más información, consulte “Determinación de si una salida de existencias se ve afectada por la revalorización” en este tema.  
+La forma en que se configura la fecha de valoración del movimiento de valoración sigue las mismas reglas que en el caso del inventario que no es del trabajo en curso. Para obtener más información, consulte [Determinación de si una salida de existencias se ve afectada por la revalorización](design-details-revaluation.md#determining-whether-an-inventory-decrease-is-affected-by-revaluation).  
 
 El inventario de trabajo en curso se puede revalorizar siempre y cuando la fecha de revalorización no sea posterior a la de registro de los movimientos de producto correspondientes del tipo Consumo y siempre y cuando la orden de producción correspondiente no se haya facturado todavía.  
 
@@ -181,4 +181,4 @@ El inventario de trabajo en curso se puede revalorizar siempre y cuando la fecha
  [Detalles de diseño: Métodos de coste](design-details-costing-methods.md)   
  [Detalles de diseño: valoración de inventario](design-details-inventory-valuation.md) [Gestión de costes de inventario](finance-manage-inventory-costs.md)  
  [Finanzas](finance.md)  
- [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

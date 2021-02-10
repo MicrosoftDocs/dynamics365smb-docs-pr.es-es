@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dcd103e2d3356d895ee430154d4ddf2daa3874cd
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6bc7397028551579c1ffd170e40fa8f5a2d4d028
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923963"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753205"
 ---
 # <a name="electronic-payments--aeb-n341"></a>Pagos electrónicos – AEB N34.1
 Con la funcionalidad de pagos electrónicos, puede pagar a los proveedores mediante pagos electrónicos en lugar de tener que emitir cheques en papel. Los pagos electrónicos se exportan a un formato de archivo AEB N34.1 estándar, utilizado por casi todos los bancos en España. Posteriormente, este archivo se transmite al banco.  
@@ -31,7 +31,7 @@ Podrá crear pagos electrónicos desde los diarios de pagos o desde la funcional
 > [!NOTE]  
 >  Los socios pueden tener que modificar este informe para satisfacer los requisitos concretos del banco de su cliente.  
 
-Para poder hacer transferencias de pago electrónicas a un proveedor, tendrá que configurar una cuenta de banco para el proveedor. También tendrá que configurar los vínculos de pagos electrónicos con el banco y la ficha de cuenta de banco en [!INCLUDE[d365fin](../../includes/d365fin_md.md)] para que su propio banco controle los pagos electrónicos. El banco debe proporcionar el programa de transmisión.  
+Para poder hacer transferencias de pago electrónicas a un proveedor, tendrá que configurar una cuenta de banco para el proveedor. También tendrá que configurar los vínculos de pagos electrónicos con el banco y la ficha de cuenta de banco en [!INCLUDE[prod_short](../../includes/prod_short.md)] para que su propio banco controle los pagos electrónicos. El banco debe proporcionar el programa de transmisión.  
 
 ## <a name="see-also"></a>Consulte también  
  [Configurar cuentas bancarias para realizar pagos electrónicos](how-to-set-up-bank-accounts-for-electronic-payments.md)   

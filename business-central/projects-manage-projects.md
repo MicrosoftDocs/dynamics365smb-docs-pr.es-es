@@ -8,17 +8,17 @@ ms.workload: na
 ms.search.keywords: projects
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0e3f5f489822cef693242c46a47d84f429af0706
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4fe5f22774ca670353b0079140f35137f427c5b3
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926952"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748848"
 ---
 # <a name="project-management"></a>Administración de proyectos
-En [!INCLUDE[d365fin](includes/d365fin_md.md)], puede realizar tareas habituales de administración de proyectos, como configurar un proyecto y programar un recurso, así como proporcionar la información necesaria para administrar presupuestos y supervisar el progreso. Puede hacer un seguimiento de las horas de máquina y de empleados del proyecto utilizando las hojas de horas. Como administrador de proyectos, dispone de una buena visión general no solo de proyectos individuales, sino también de la asignación de empleados, maquinaria y otros recursos que se estén usando en todos los proyectos.
+En [!INCLUDE[prod_short](includes/prod_short.md)], puede realizar tareas habituales de administración de proyectos, como configurar un proyecto y programar un recurso, así como proporcionar la información necesaria para administrar presupuestos y supervisar el progreso. Puede hacer un seguimiento de las horas de máquina y de empleados del proyecto utilizando las hojas de horas. Como administrador de proyectos, dispone de una buena visión general no solo de proyectos individuales, sino también de la asignación de empleados, maquinaria y otros recursos que se estén usando en todos los proyectos.
 
-Antes de poder usar [!INCLUDE[d365fin](includes/d365fin_md.md)] para administrar proyectos, debe configurar los recursos, las hojas de horas y los proyectos. Para obtener más información, consulte [Configuración de la administración de proyectos](projects-setup-projects.md).  
+Antes de poder usar [!INCLUDE[prod_short](includes/prod_short.md)] para administrar proyectos, debe configurar los recursos, las hojas de horas y los proyectos. Para obtener más información, consulte [Configuración de la administración de proyectos](projects-setup-projects.md).  
 
 En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.
 
@@ -36,7 +36,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 
 ## <a name="get-started-with-projects"></a>Introducción a los proyectos
 
-La administración de proyectos ya es bastante complicada en sí misma, y aprender a crear proyectos y administrar el trabajo en curso en una nueva herramienta puede ser otra complicación. Para ayudarte a empezar con la administración de proyectos en [!INCLUDE[prodshort](includes/prodshort.md)], puede ver [un vídeo sobre la creación de proyectos](https://www.youtube.com/watch?v=VqaPWr7BWmw) en el canal [!INCLUDE[prodshort](includes/prodshort.md)] de YouTube.  
+La administración de proyectos ya es bastante complicada en sí misma, y aprender a crear proyectos y administrar el trabajo en curso en una nueva herramienta puede ser otra complicación. Para ayudarte a empezar con la administración de proyectos en [!INCLUDE[prod_short](includes/prod_short.md)], puede ver [un vídeo sobre la creación de proyectos](https://www.youtube.com/watch?v=VqaPWr7BWmw) en el canal [!INCLUDE[prod_short](includes/prod_short.md)] de YouTube.  
 
 ## <a name="see-also"></a>Consulte también
 
@@ -46,6 +46,6 @@ La administración de proyectos ya es bastante complicada en sí misma, y aprend
 [Compras](purchasing-manage-purchasing.md)  
 [Ccial](sales-manage-sales.md)  
 [Finanzas](finance.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

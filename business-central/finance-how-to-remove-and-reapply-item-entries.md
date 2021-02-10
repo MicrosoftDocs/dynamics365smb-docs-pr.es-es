@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f90f17fa962bc8a18ea3ba1c30b01af52463ede4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 006681473227ccf371c66708e5855da1bf868ddc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915590"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750685"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Eliminar y liquidar de nuevo los movimientos contables de producto
 En la página **Hoja liquidación**, puede ver y modificar manualmente determinados movimientos de liquidación del producto que se crean automáticamente durante las transacciones del inventario.  
@@ -36,7 +36,7 @@ Si no puede usar un documento para volver a liquidar, por ejemplo cuando tiene q
 > A continuación se muestran algunos aspectos importantes que es necesario tener en cuenta a la hora de trabajar con la hoja de liquidación:
     - No debe dejar movimientos de liquidación sin liquidar durante largos periodos porque otros usuarios no pueden procesar los productos hasta que vuelve a liquidar los movimientos de liquidación o cierra la página **Hoja liquidación**. Los usuarios que intentan realizar acciones relacionadas con un movimiento de liquidación manualmente no liquidado recibirán el mensaje de error siguiente: “No se puede realizar esta acción porque los movimientos para el producto XXX no están liquidados en la Hoja de liquidación del usuario XXX”.
     - Es recomendable llevar a cabo el proceso de repetición de la liquidación sólo fuera del horario laboral para evitar conflictos con otros usuarios que estén registrando transacciones relacionadas con los mismos productos.
-    - Cuando cierre la hoja de liquidación, [!INCLUDE[d365fin](includes/d365fin_md.md)] llevará a cabo una comprobación para asegurarse de que se han liquidado todos los productos. Por ejemplo, si elimina una liquidación de cantidad pero no crea una nueva liquidación y, a continuación, cierra la hoja de liquidación, se creará una nueva liquidación. Esto permite garantizar que los costes se mantengan intactos. No obstante, si elimina una liquidación fija, no se creará automáticamente una liquidación fija nueva cuando cierre la hoja de liquidación. Deberá hacerlo manualmente creando una nueva liquidación desde la hoja de liquidación.
+    - Cuando cierre la hoja de liquidación, [!INCLUDE[prod_short](includes/prod_short.md)] llevará a cabo una comprobación para asegurarse de que se han liquidado todos los productos. Por ejemplo, si elimina una liquidación de cantidad pero no crea una nueva liquidación y, a continuación, cierra la hoja de liquidación, se creará una nueva liquidación. Esto permite garantizar que los costes se mantengan intactos. No obstante, si elimina una liquidación fija, no se creará automáticamente una liquidación fija nueva cuando cierre la hoja de liquidación. Deberá hacerlo manualmente creando una nueva liquidación desde la hoja de liquidación.
     - Es posible eliminar liquidaciones de más de un movimiento a la vez desde la hoja de liquidación. Sin embargo, dado que la liquidación de movimientos afecta al conjunto de movimientos disponibles para ser liquidados, no es posible crear una liquidación para más de un movimiento a la vez.
     - La hoja de liquidación no puede realizar una liquidación si se da el caso siguiente: si no hay suficiente cantidad que liquidar en el stock, la hoja de liquidación no puede llevar a cabo el proceso si intente liquidar un movimiento de salida de existencias que no incluya información de seguimiento del producto con un movimiento de salida de existencias que sí incluya información de seguimiento.
 
@@ -77,4 +77,4 @@ Si no puede usar un documento para volver a liquidar, por ejemplo cuando tiene q
  [Procesamiento de devoluciones de compra o cancelaciones](purchasing-how-process-purchase-returns-cancellations.md)  
  [Gestión de costes de inventario](finance-manage-inventory-costs.md)   
  [Detalles de diseño: Liquidación de productos](design-details-item-application.md)  
- [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

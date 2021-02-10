@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f294fdce544de36992c3b6793ee397dfc271a319
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 66f74554ee2619935b2b27ace6b4812602747139
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917906"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752705"
 ---
 # <a name="configure-new-companies"></a>Configurar nuevas empresas
 Para configurar una nueva empresa en la implementación de su solución, generalmente sigue tres fases. En la primera fase, importará el paquete de configuración, un archivo .rapidstart con la información de configuración. En la segunda fase, modificará la información de configuración y luego la aplicará a la nueva empresa. En la fase final, revisará y corregirá todos los errores.  
@@ -31,7 +31,7 @@ Antes de importar un paquete de configuración, es buena idea verificar que las 
 * El usuario que importa el paquete de configuración tiene permisos efectivos de Insertar y Modificar para todas las tablas que el paquete actualizará. Para obtener más información, consulte [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md) 
 
 ## <a name="to-import-a-configuration-package"></a>Procedimiento para importar un paquete de configuración  
-1. Abra la nueva empresa en la base de datos de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+1. Abra la nueva empresa en la base de datos de [!INCLUDE[prod_short](includes/prod_short.md)].  
 2. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Paquetes de configuración** y luego seleccione el enlace relacionado.  
 3. Elija la acción **Importar paquete**.  
 4. Vaya a la ubicación donde guardó el archivo del paquete de configuración .rapidstart y luego elija el botón **Abrir**.  

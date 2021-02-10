@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: UOM
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e6a9465f13e272d653ec9a0544618b243928af03
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5b10d8e8c8dd6142a4b9ed2c9604fd4e9c7e9c74
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923725"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746271"
 ---
 # <a name="set-up-units-of-measure"></a>Configurar unidades de medida
 
-Como parte de la configuración de su [!INCLUDE [prodshort](includes/prodshort.md)], configura unidades de medida generales en la página **Unidades de medida**. Luego, cuando registra nuevos artículos, especifica la unidad de medida base en la **Ficha de producto**. Pero también puede agregar unidades de medida más adelante.  
+Como parte de la configuración de su [!INCLUDE [prod_short](includes/prod_short.md)], configura unidades de medida generales en la página **Unidades de medida**. Luego, cuando registra nuevos artículos, especifica la unidad de medida base en la **Ficha de producto**. Pero también puede agregar unidades de medida más adelante.  
 
 Puede configurar varias unidades de medida para un producto de forma que pueda asignar las unidades de medida al producto para los fines siguientes:
 
@@ -50,9 +50,9 @@ Cuando registre un nuevo elemento, puede elegir la unidad medida base de la list
 5. Seleccione la acción **Nuevo**. Se insertará una nueva línea vacía.
 6. En el campo de **Código**, escriba el nombre de la unidad de medida. También, elija el campo para seleccionar de los códigos de la unidad de medida que figuren en la base de datos.
 7. En el campo **Cdad. por unidad medida**, especifique cuántas unidades de la unidad de medida base contiene la nueva unidad de medida.
-8. Opcionalmente, en los campos **Alto**, **Ancho**, **Longitud**y **Peso**, puede especificar información exacta acerca del tamaño de una unidad de medida para que [!INCLUDE [prodshort](includes/prodshort.md)] pueda calcular cuántas unidades de cada producto pueden colocarse en una ubicación determinada. El campo **Cubicaje** se calcula automáticamente en función de **Altura**, **Ancho** y **Longitud**.
+8. Opcionalmente, en los campos **Alto**, **Ancho**, **Longitud** y **Peso**, puede especificar información exacta acerca del tamaño de una unidad de medida para que [!INCLUDE [prod_short](includes/prod_short.md)] pueda calcular cuántas unidades de cada producto pueden colocarse en una ubicación determinada. El campo **Cubicaje** se calcula automáticamente en función de **Altura**, **Ancho** y **Longitud**.
 
-    Si alguno de estos campos contiene un valor distinto de 0, esa medida se utiliza durante todos los procesos que implican colocar productos en una ubicación: almacenamiento, movimientos, recibos, envíos, picking y ajustes. [!INCLUDE [prodshort](includes/prodshort.md)] comprueba la suma del cubicaje de cada medida física de los productos que se van a ubicar y los productos que ya están en una ubicación con el tamaño máximo u otra medida que puede contener una ubicación, según la política de capacidad de ubicación que ha seleccionado en la ficha de almacén para este producto. En otras palabras, debe usar la misma unidad de medida para cada dimensión en todas las unidades de medida producto: use kilogramos o libras para el peso, por ejemplo, pero sea consistente.
+    Si alguno de estos campos contiene un valor distinto de 0, esa medida se utiliza durante todos los procesos que implican colocar productos en una ubicación: almacenamiento, movimientos, recibos, envíos, picking y ajustes. [!INCLUDE [prod_short](includes/prod_short.md)] comprueba la suma del cubicaje de cada medida física de los productos que se van a ubicar y los productos que ya están en una ubicación con el tamaño máximo u otra medida que puede contener una ubicación, según la política de capacidad de ubicación que ha seleccionado en la ficha de almacén para este producto. En otras palabras, debe usar la misma unidad de medida para cada dimensión en todas las unidades de medida producto: use kilogramos o libras para el peso, por ejemplo, pero sea consistente.
 9. Repita los pasos 5 a 7 para configurar todas las unidades de medida alternas que desea utilizar en distintos procesos para este producto.
 
     En el campo **Unidad medida base** en la parte inferior de la ventana, puede ver o modificar la unidad de medida base del producto. También puede modificar la unidad de medida base en el campo **Unidad medida base** de la ficha de producto. En la página **Unidades medida producto**, la unidad medida base debe tener el valor **1** en el campo **Cant. por unidad de medida**.
@@ -86,4 +86,4 @@ Si suele comprar o vender en unidades que no sean la unidad de medida base, espe
 [Administrar inventario](inventory-manage-inventory.md)  
 [Administrar compras](purchasing-manage-purchasing.md)  
 [Administrar ventas](sales-manage-sales.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

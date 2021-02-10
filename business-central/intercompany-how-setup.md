@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 10/01/2020
+ms.date: 12/15/2020
 ms.author: edupont
-ms.openlocfilehash: 2f85488cd3e3a764d1fd0c60e4d314d4729f03d2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 81e19144e309e98c7887f264ac914202690977cc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915490"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750135"
 ---
 # <a name="set-up-intercompany"></a>Configurar empresa vinculada
+
 Para que una transacción (por ejemplo, una línea del diario de ventas) se envíe de una empresa y se cree automáticamente la transacción correspondiente (por ejemplo, una línea del diario de compras) en la empresa asociada, ambas empresas tiene que acordar el plan de cuentas común y definir las dimensiones que utilizarán en las transacciones entre ambas. El plan de cuentas de empresas vinculadas puede ser, por ejemplo, una versión simplificada del plan de cuentas de la empresa matriz. Cada empresa asigna su plan de cuentas al plan de cuentas de empresas vinculadas compartido y asigna sus dimensiones a las dimensiones de empresas vinculadas.  
 
 También debe configurar un código de socio de empresas vinculadas para cada empresa asociada, que se acuerda entre todas las empresas y, a continuación, asignarlo a las tarjetas de cliente y de proveedor, respectivamente, rellenando el campo **Código de socio de empresas vinculadas**.  
@@ -36,7 +37,7 @@ Si va a realizar transacciones de ventas entre empresas vinculadas que incluyan 
 3. En la página **Socios de empresas vinculadas**, rellene los campos según sea necesario.
 
 > [!NOTE]
-> En [!INCLUDE[d365fin](includes/d365fin_md.md)] online, no puede utilizar ubicaciones de archivos para transferir transacciones a sus socios porque [!INCLUDE[d365fin](includes/d365fin_md.md)] no tiene acceso a su red local. Por tanto, si elige **Ubicación del archivo** en el campo **Tipo de transferencia**, el campo **Ruta de la carpeta** no está disponible. En su lugar, el archivo se descargará a la carpeta Descargas de su computadora. Luego envía el archivo a alguien de la empresa asociada, por ejemplo, por correo electrónico. Para un proceso más directo, le recomendamos que elija **Email** en lugar.
+> En [!INCLUDE[prod_short](includes/prod_short.md)] online, no puede utilizar ubicaciones de archivos para transferir transacciones a sus socios porque [!INCLUDE[prod_short](includes/prod_short.md)] no tiene acceso a su red local. Por tanto, si elige **Ubicación del archivo** en el campo **Tipo de transferencia**, el campo **Ruta de la carpeta** no está disponible. En su lugar, el archivo se descargará a la carpeta Descargas de su computadora. Luego envía el archivo a alguien de la empresa asociada, por ejemplo, por correo electrónico. Para un proceso más directo, le recomendamos que elija **Email** en lugar.
 
 ## <a name="to-set-up-intercompany-vendors-and-intercompany-customers"></a>Para configurar proveedores y clientes de empresas vinculadas
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Proveedores** y luego elija el enlace relacionado.
@@ -90,7 +91,11 @@ Ahora, cuando introduzca una cuenta contable en el campo **Cta. contrapartida** 
 3. Repita el paso 2 para cada cuenta que introduzca a menudo en el campo **Cta. contrapartida** en un diario o documento de empresas vinculadas.
 
 ## <a name="to-set-up-intercompany-dimensions"></a>Para configurar registros entre empresas vinculadas
+
 Si usted y las empresas vinculadas asociadas desean intercambiar transacciones que estén relacionadas con dimensiones, debe estar de acuerdo en las dimensiones que todos usarán. Por ejemplo, la empresa matriz del grupo puede crear una versión simplificada de su propio grupo de dimensiones, exportar estas dimensiones de empresas vinculadas a un archivo XML y distribuirlas al resto de empresas del grupo. Cada una de las subsidiarias importará el archivo XML en la página **Dimensiones de empresas vinculadas** y asignará las dimensiones de las empresas vinculadas a las de su propia página **dimensiones**.  
+
+> [!NOTE]
+> Cada empresa en [!INCLUDE [prod_short](includes/prod_short.md)] debe asignar dimensiones a dimensiones de empresas vinculadas para documentos salientes y asignar dimensiones de empresas vinculadas a sus propias dimensiones para documentos entrantes. Este mapeo ayuda a garantizar la coherencia entre las empresas. Para obtener más información, consulte la sección [Para mapear dimensiones de empresas vinculadas a las dimensiones de su empresa](#to-map-intercompany-dimensions-to-your-companys-dimensions).
 
 Si su empresa es la empresa asociada y se encarga de definir el conjunto de dimensiones de las empresas vinculadas que utilizará el grupo como referencia común, siga el procedimiento [Definir las dimensiones de empresas vinculadas](intercompany-how-setup.md#to-define-the-intercompany-dimensions).
 
@@ -113,9 +118,11 @@ Cuando existe un archivo para las dimensiones de empresas vinculadas definido, l
 Se han importado las líneas de las páginas **Dimensiones de empresas vinculadas** y **Valores de dimensión de empresas vinculadas**.  
 
 ### <a name="to-map-intercompany-dimensions-to-your-companys-dimensions"></a>Para asignar dimensiones de empresas vinculadas a las dimensiones de su empresa
-Cuando haya definido o importado las dimensiones que su empresa y las empresas vinculadas asociadas han acordado utilizar, debe asociar cada una de las dimensiones de empresas vinculadas a una de las dimensiones de su empresa, y a la inversa. En la página **Dimensiones de empresas vinculadas**, puede especificar cómo se transformarán las dimensiones de las empresas vinculadas en transacciones entrantes, en dimensiones de la lista de dimensiones de su propia empresa. En la página **Dimensiones**, puede especificar cómo se transformarán sus dimensiones en dimensiones de empresas vinculadas, en transacciones salientes.
+Cuando haya definido o importado las dimensiones que su empresa y las empresas vinculadas asociadas han acordado utilizar, debe asociar cada una de las dimensiones de empresas vinculadas a una de las dimensiones de su empresa, y a la inversa. En la página **Dimensiones de empresas vinculadas**, puede especificar cómo se transformarán las dimensiones de las empresas vinculadas en *transacciones entrantes*, en dimensiones de la lista de dimensiones de su propia empresa. En la página **Dimensiones**, puede especificar cómo se transformarán sus dimensiones en dimensiones de empresas vinculadas, en *transacciones salientes*.
 
-Si alguna de las dimensiones de empresas vinculadas tiene el mismo código que las dimensiones correspondientes de la lista de dimensiones de su empresa, puede dejar que la aplicación realice automáticamente las asignaciones y, a continuación, puede asignar las cuentas automáticamente.
+Si alguna de las dimensiones de empresas vinculadas tiene el mismo código que las dimensiones correspondientes de la lista de dimensiones de su empresa, puede dejar que la aplicación realice automáticamente las asignaciones y, a continuación, puede asignar las cuentas automáticamente.  
+
+En los siguientes pasos, primero asigna dimensiones de empresas vinculadas a dimensiones para documentos entrantes en la página **Dimensiones de empresas vinculadas**. Luego, asigna dimensiones a dimensiones de empresas vinculadas para documentos salientes en la página **Dimensiones**.
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Dimensiones de empresas vinculadas** y luego elija el enlace relacionado.
 2. Abra la página **Dimensiones de empresas vinculadas**, seleccione las líneas que desea asignar automáticamente y elija la acción **Asignar a dim. con igual código**.
@@ -133,8 +140,9 @@ Si alguna de las dimensiones de empresas vinculadas tiene el mismo código que l
 10. En la página **Valores de dimensiones**, rellene el campo **Código valor dimens. IC asig.**
 
 ## <a name="see-also"></a>Consulte también
+
 [Gestión de transacciones entre empresas vinculadas](intercompany-manage.md)  
 [Finanzas](finance.md)  
 [Configurar las finanzas](finance-setup-finance.md)  
 [Trabajar con diarios generales](ui-work-general-journals.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

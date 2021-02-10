@@ -10,37 +10,37 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f4927fb91195e88e71a73a6fce774d9dfb0ff685
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7c5954bfd8b8186638c3a696d355fdeb4b7c9d59
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924433"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752385"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Configurar el servicio Envestnet Yodlee Bank Feeds
 
 Puede importar extractos electrónicos de su banco para rellenar rápidamente la página **Diario de conciliación de pagos** para que pueda liquidar pagos y conciliar la cuenta bancaria. Para obtener más información, vea [Liquidación de pagos automáticamente y conciliación de cuentas bancarias](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 > [!IMPORTANT]
-> Debido a la directiva sobre servicios de pago en Europa (PSD2), después del 14 de septiembre de 2019 ya no podrá importar automáticamente extractos de cuenta de bancos del Reino Unido a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Estamos analizando la posibilidad de ofrecer esta función nuevamente en el futuro.
+> Debido a la directiva sobre servicios de pago en Europa (PSD2), después del 14 de septiembre de 2019 ya no podrá importar automáticamente extractos de cuenta de bancos del Reino Unido a [!INCLUDE[prod_short](includes/prod_short.md)]. Estamos analizando la posibilidad de ofrecer esta función nuevamente en el futuro.
 
 > [!NOTE]
 > El servicio Envestnet Yodlee Bank Feeds solo se admite en la versión en línea de Business Central. Para usar esta funcionalidad localmente, debe obtener una cuenta de marca compartida de Envestnet y agregar código para integrarse con la API de Yodlee.
 >
 > El servicio Envestnet Yodlee Bank Feeds solo se admite en Estados Unidos y Canadá.
-> Solo se admiten los bancos que residan en estos países, aunque los bancos de otros países puedan aparecer en la ventana de selección de banco de Envestnet Yodlee Bank Feeds en [!INCLUDE[d365fin](includes/d365fin_md.md)].
+> Solo se admiten los bancos que residan en estos países, aunque los bancos de otros países puedan aparecer en la ventana de selección de banco de Envestnet Yodlee Bank Feeds en [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!IMPORTANT]
 > Para obtener asistencia técnica con la funcionalidad Envestnet Yodlee, póngase en contacto con el soporte técnico de Microsoft. No se ponga en contacto con Envestnet Yodlee. Para obtener más información, consulte [Configuración de soporte técnico para Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/technical-support).
 
-El servicio Envestnet Yodlee Bank Feeds está instalado como una extensión de [!INCLUDE[d365fin](includes/d365fin_md.md)] en línea y está listo para ser activado en los países admitidos. Para obtener más información, consulte [Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] mediante extensiones](ui-extensions.md).
+El servicio Envestnet Yodlee Bank Feeds está instalado como una extensión de [!INCLUDE[prod_short](includes/prod_short.md)] en línea y está listo para ser activado en los países admitidos. Para obtener más información, consulte [Personalizar [!INCLUDE[prod_short](includes/prod_short.md)] mediante extensiones](ui-extensions.md).
 
 Después de habilitar el servicio de fuentes de banco, debe vincular una cuenta bancaria a la cuenta bancaria de la que proviene la fuente. Vincula las cuentas a cuentas en línea en los siguientes ejemplos:
 
-* No existe una cuenta en [!INCLUDE[d365fin](includes/d365fin_md.md)] para su cuenta bancaria en línea. Por tanto, cree la cuenta vinculando de la cuenta bancaria en línea.
-* Existe una cuenta en [!INCLUDE[d365fin](includes/d365fin_md.md)] que desea vincular a una cuenta bancaria en línea.
+* No existe una cuenta en [!INCLUDE[prod_short](includes/prod_short.md)] para su cuenta bancaria en línea. Por tanto, cree la cuenta vinculando de la cuenta bancaria en línea.
+* Existe una cuenta en [!INCLUDE[prod_short](includes/prod_short.md)] que desea vincular a una cuenta bancaria en línea.
 * Una cuenta vinculada debe ser desvinculada porque desea dejar de usar el servicio de fuente de banco de la cuenta.
-* Las cuentas en línea se han modificado y desea actualizar la información en las cuentas en [!INCLUDE[d365fin](includes/d365fin_md.md)].
+* Las cuentas en línea se han modificado y desea actualizar la información en las cuentas en [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Cuando se ha habilitado el servicio de fuente de banco, puede definir una cuenta bancaria que importe automáticamente nuevos extractos de cuenta en la página **Diario de conciliación de pagos** cada dos horas. Las transacciones para los pagos que ya se hayan registrado como liquidados o conciliados en la página **Diario de conciliación de pagos** no se importarán. Para obtener más información, vea la sección “Para habilitar la importación automática de los extractos bancarios”.
 
@@ -66,22 +66,22 @@ El servicio de fuente de banco se activará cuando vincule una cuenta a la cuent
 3. En la página **Vinculación de banco en línea**, en el panel **Vínculo de cuenta** use la función Buscar para buscar el banco en el que tiene una o varias cuentas bancarias en línea.
 4. Seleccione el nombre del banco. Se abre el panel **Iniciar sesión**.
 5. Introduzca el nombre de usuario y la contraseña que usa para conectarse al banco en línea y, a continuación, seleccione el botón **Siguiente**.  
-6. El servicio de fuente de banco se prepara para vincular la primera cuenta bancaria en línea en el banco especificado a una nueva cuenta en [!INCLUDE[d365fin](includes/d365fin_md.md)].
+6. El servicio de fuente de banco se prepara para vincular la primera cuenta bancaria en línea en el banco especificado a una nueva cuenta en [!INCLUDE[prod_short](includes/prod_short.md)].
 
     > [!NOTE]  
-    > Si ha configurado más de una cuenta en línea en el banco deberá crear las cuentas adicionales en [!INCLUDE[d365fin](includes/d365fin_md.md)] para ellas. Consulte los pasos 8 a 10.  
+    > Si ha configurado más de una cuenta en línea en el banco deberá crear las cuentas adicionales en [!INCLUDE[prod_short](includes/prod_short.md)] para ellas. Consulte los pasos 8 a 10.  
 
     Después de que se haya completado el proceso, el nombre del banco aparecerá en el panel **Mis cuentas** en la pestaña **Vinculado**. El valor entre corchetes indica la cantidad de cuentas bancarias en línea que están vinculadas.  
 7. Elija el botón **Aceptar**.
 
     Si solo vincula una cuenta bancaria en línea, se abre la página **Ficha banco** y se muestra el nombre de la cuenta bancaria en línea. En este caso, la vinculación de la cuenta bancaria se ha completado. Lo único que tiene que hacer es configurar la cuenta bancaria. Para obtener más información, consulte [Configurar cuentas bancarias](bank-how-setup-bank-accounts.md).
 
-    Si va a vincular más de una cuenta bancaria en línea, la página **Vinculación de banco** abre una ventana y enumera las cuentas bancarias en línea adicionales que todavía no se han vinculado en [!INCLUDE[d365fin](includes/d365fin_md.md)]. En ese caso, siga el paso siguiente.  
+    Si va a vincular más de una cuenta bancaria en línea, la página **Vinculación de banco** abre una ventana y enumera las cuentas bancarias en línea adicionales que todavía no se han vinculado en [!INCLUDE[prod_short](includes/prod_short.md)]. En ese caso, siga el paso siguiente.  
 8. En la página **Vinculación de banco**, seleccione la línea para una cuenta bancaria en línea y, a continuación, seleccione la acción **Vincular a nuevo banco**.  
 
     La página **Ficha banco** se abre para crear una nueva y muestra el nombre de la cuenta bancaria en línea.
 
-    Si ya existe una cuenta bancaria en [!INCLUDE[d365fin](includes/d365fin_md.md)] al que desea vincular la cuenta bancaria en línea adicional, siga el siguiente paso.  
+    Si ya existe una cuenta bancaria en [!INCLUDE[prod_short](includes/prod_short.md)] al que desea vincular la cuenta bancaria en línea adicional, siga el siguiente paso.  
 9. En la página **Vinculación de banco**, seleccione la línea para una cuenta bancaria en línea y, a continuación, seleccione la acción **Vincular a banco existente**.
 10. En la página **Lista de bancos**, seleccione la cuenta bancaria que desee vincular y, a continuación, haga clic en **Aceptar**.
 
@@ -91,7 +91,7 @@ El servicio de fuente de banco se activará cuando vincule una cuenta a la cuent
 3. Seleccione el nombre del banco. Se abre el panel **Iniciar sesión**.
 4. Introduzca el nombre de usuario y la contraseña que usa para conectarse al banco en línea y, a continuación, seleccione el botón **Siguiente**.  
 
-    El servicio de fuentes de banco se prepara para vincular su cuenta bancaria en [!INCLUDE[d365fin](includes/d365fin_md.md)] a la cuenta bancaria en línea relacionada.  
+    El servicio de fuentes de banco se prepara para vincular su cuenta bancaria en [!INCLUDE[prod_short](includes/prod_short.md)] a la cuenta bancaria en línea relacionada.  
 
     Cuando el proceso ha finalizado correctamente, el nombre del banco aparecerá en el panel **Mis cuentas** en la pestaña **Vinculado**. Si el banco tiene más de una cuenta bancaria, solo se vincula la cuenta bancaria seleccionada en el paso 2.  
 5. Elija el botón **Aceptar**.
@@ -129,5 +129,5 @@ Cada hora, la página **Diario de conciliación de pagos** mostrará cualquier n
 [Configurar banca](bank-setup-banking.md)  
 [Conciliar bancos](bank-manage-bank-accounts.md)  
 [Liquidación de pagos automáticamente y conciliación de bancos](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
-[Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones](ui-extensions.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Personalizar [!INCLUDE[prod_short](includes/prod_short.md)] con extensiones](ui-extensions.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

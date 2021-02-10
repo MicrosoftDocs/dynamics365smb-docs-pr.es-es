@@ -10,23 +10,23 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 04c0c5d203e78c2ae0be48609a5ee90f45b83c6f
-ms.sourcegitcommit: 0fb6952376d853a878ed33257e73aadc03b95572
+ms.openlocfilehash: 069efcef517cd442539f13fad5e5a2c89e1533ff
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "3968390"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754472"
 ---
-# <a name="creating-power-bi-reports-for-displaying-list-data-in-prodshort"></a>Crear informes de Power BI para mostrar datos de lista en [!INCLUDE[prodshort](includes/prodshort.md)]
+# <a name="creating-power-bi-reports-for-displaying-list-data-in-prod_short"></a>Crear informes de Power BI para mostrar datos de lista en [!INCLUDE[prod_short](includes/prod_short.md)]
 
-[!INCLUDE[prodlong](includes/prodlong.md)] incluye un elemento de control de cuadro informativo de varias páginas de lista de claves que proporciona información de los datos de la lista. A medida que se desplaza por las filas de la lista, el informe se actualiza y se filtra para la entrada seleccionada. Puede crear informes personalizados para mostrar en este control. Sin embargo, hay algunas reglas a seguir para garantizar que los informes funcionen como se espera.  
+[!INCLUDE[prod_long](includes/prod_long.md)] incluye un elemento de control de cuadro informativo de varias páginas de lista de claves que proporciona información de los datos de la lista. A medida que se desplaza por las filas de la lista, el informe se actualiza y se filtra para la entrada seleccionada. Puede crear informes personalizados para mostrar en este control. Sin embargo, hay algunas reglas a seguir para garantizar que los informes funcionen como se espera.  
 
 ## <a name="prerequisites"></a>Requisitos previos
 
 - Una cuenta de Power BI.
 - Power BI Desktop.
 
-Para obtener más información sobre cómo empezar, consulte [Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] como origen de datos de Power BI](across-how-use-financials-data-source-powerbi.md).
+Para obtener más información sobre cómo empezar, consulte [Usar [!INCLUDE[prod_short](includes/prod_short.md)] como origen de datos de Power BI](across-how-use-financials-data-source-powerbi.md).
 
 ## <a name="defining-the-report-data-set"></a>Definición del conjunto de datos del informe
 
@@ -42,7 +42,7 @@ Para definir un filtro para el informe, seleccione la clave primaria en la lista
 
 ## <a name="setting-the-report-size-and-color"></a>Configurar el tamaño y el color del informe
 
-El tamaño del informe se debe configurar en 325 píxeles por 310 píxeles. Este tamaño proporciona el escalado correcto del informe en el espacio disponible del control del cuadro informativo de Power BI en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para definir el tamaño del informe, coloque el enfoque fuera del área de diseño de informe y, a continuación, elija el icono de rodillo de pintura.
+El tamaño del informe se debe configurar en 325 píxeles por 310 píxeles. Este tamaño proporciona el escalado correcto del informe en el espacio disponible del control del cuadro informativo de Power BI en [!INCLUDE[prod_short](includes/prod_short.md)]. Para definir el tamaño del informe, coloque el enfoque fuera del área de diseño de informe y, a continuación, elija el icono de rodillo de pintura.
 
 ![Configurar la anchura y la altura para el informe Actividad de facturas de venta](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-sizing-v3.png)
 
@@ -58,7 +58,7 @@ Con Power BI, puede crear un solo informe con varias páginas. Sin embargo, para
 
 Asigne al informe un nombre que contenga el nombre de la página de lista asociada con el informe. Por ejemplo, si el informe es para la página de lista **Vendedor**, incluya la palabra *vendedor* en algún lugar del nombre.  
 
-Esta convención de nomenclatura no es un requisito. Sin embargo, hace que la selección de informes en [!INCLUDE[d365fin](includes/d365fin_md.md)] sea más rápida. Cuando la página de selección de informes se abre desde una página de lista, se filtra automáticamente según el nombre de la página. Este filtrado se realiza para limitar los informes que se muestran. Los usuarios pueden borrar el filtro para obtener una lista completa de los informes disponibles en Power BI.  
+Esta convención de nomenclatura no es un requisito. Sin embargo, hace que la selección de informes en [!INCLUDE[prod_short](includes/prod_short.md)] sea más rápida. Cuando la página de selección de informes se abre desde una página de lista, se filtra automáticamente según el nombre de la página. Este filtrado se realiza para limitar los informes que se muestran. Los usuarios pueden borrar el filtro para obtener una lista completa de los informes disponibles en Power BI.  
 
 ## <a name="fixing-problems"></a>Solucionar problemas
 
@@ -85,7 +85,7 @@ Compruebe que el tamaño del informe se ha configurado en 325 píxeles x 310 pí
 ## <a name="see-also"></a>Consulte también
 
 [Habilitar los datos de negocio para Power BI](admin-powerbi.md)  
-[Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] como origen de datos de Power BI](across-how-use-financials-data-source-powerbi.md)  
+[Usar [!INCLUDE[prod_short](includes/prod_short.md)] como origen de datos de Power BI](across-how-use-financials-data-source-powerbi.md)  
 [Introducción](product-get-started.md)  
-[Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
+[Configurar [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Finanzas](finance.md)  

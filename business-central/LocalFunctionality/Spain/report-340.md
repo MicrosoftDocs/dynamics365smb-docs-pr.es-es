@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 264b55f1b782906f95c0d74de9f4ff599f9c8b6b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ee931d04d52453cefb4ffd1281c53588515806fc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916427"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753189"
 ---
 # <a name="report-340"></a>Informe 340
 El **Informe 340** contiene información sobre facturas e impuestos emitidos o recibidos por su empresa en un período determinado. El informe se genera en un formato que ha aprobado la administración fiscal. Este informe debe enviarse en el período de liquidación mensual o trimestral de la empresa, según el tamaño de la empresa. Este archivo puede cargarse en el sitio web de la Agencia Tributaria o enviarse en CD-ROM. Para obtener más información, consulte el sitio web de la [Agencia Tributaria](https://www.aeat.es). Si el número de operaciones es mayor a 1 000 000 el informe se puede enviar electrónicamente.  
@@ -25,9 +25,9 @@ Los requisitos de presentación de informes para empresarios y pequeñas empresa
 
 Una empresa puede utilizar el método de contabilidad de efectivo si las ventas del negocio no exceden los 2 millones de euros al año. Hay una excepción a esta regla para una empresa cuyos recibos en efectivo de un único cliente exceden la suma de 100 000 euros.  
 
-En [!INCLUDE[d365fin](../../includes/d365fin_md.md)], puede configurar grupos de contabilización para la contabilización del IVA en efectivo para compras y ventas.  
+En [!INCLUDE[prod_short](../../includes/prod_short.md)], puede configurar grupos de contabilización para la contabilización del IVA en efectivo para compras y ventas.  
 
- Si se archiva un informe de este régimen, se aplica la etiqueta siguiente a algunos informes de [!INCLUDE[d365fin](../../includes/d365fin_md.md)]: **Régimen especial del criterio de caja**. Los informes modificados son:  
+ Si se archiva un informe de este régimen, se aplica la etiqueta siguiente a algunos informes de [!INCLUDE[prod_short](../../includes/prod_short.md)]: **Régimen especial del criterio de caja**. Los informes modificados son:  
 
 |Informe|Description|  
 |------------|---------------------------------------|  

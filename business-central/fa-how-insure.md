@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: policy, coverage
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 38e983f1491d4836db6a2d3f294d29e1b03c53d9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 2ffddd60158a328916b891f0730c1f25684b04a1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920677"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749398"
 ---
 # <a name="insure-fixed-assets"></a>Aseguramiento de activos fijos
 Una póliza de seguro para un activo fijo se representa con una ficha de seguro. Puede asignar uno o varios activos fijos a una póliza de seguro.
@@ -70,7 +70,7 @@ Puede utilizar el proceso **Ajustar valores seguros** para actualizar el valor d
 5. Abra el diario de seguros pertinente, revise los valores creados y, a continuación, regístrelos en los movimientos de seguros.  
 
 ## <a name="to-monitor-insurance-coverage"></a>Para controlar la cobertura de seguros
-[!INCLUDE[d365fin](includes/d365fin_md.md)] proporciona informes dedicados y páginas de estadísticas para usarlos en el análisis de las pólizas de seguro y saber si sus activos fijos tienen un exceso o una falta de seguro.  
+[!INCLUDE[prod_short](includes/prod_short.md)] proporciona informes dedicados y páginas de estadísticas para usarlos en el análisis de las pólizas de seguro y saber si sus activos fijos tienen un exceso o una falta de seguro.  
 
 ### <a name="overview-of-insurance-policies"></a>Resumen de pólizas de seguro
 Para obtener una visión general de las pólizas de seguros, obtenga una vista previa del informe **Seguro - Lista** o imprímalo. El informe muestra todas las pólizas y los campos más importantes de las fichas de seguro.  
@@ -118,4 +118,4 @@ El activo se desvinculará de la póliza de seguros incorrecta, en la segunda l�
 [Activos fijos](fa-manage.md)  
 [Configurar activos fijos](fa-setup.md)  
 [Finanzas](finance.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

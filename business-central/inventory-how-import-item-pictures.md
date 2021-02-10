@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: product, image
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4da0f30f47827515f8591802ce2ca49c245009ab
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e4391293396ff380bc3f96cd799f0932856ba11f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922899"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746196"
 ---
 # <a name="import-multiple-item-pictures"></a>Importar varias imágenes de producto
 Puede importar varias imágenes de productos de una sola vez. Simplemente asigne a sus archivos de imagen nombres que correspondan a sus números de producto, comprímalos en un archivo ZIP y, a continuación, utilice la página **Importar imágenes de producto** para administrar las imágenes de artículo que desea importar.
@@ -54,4 +54,4 @@ El campo **Estado de importación** se actualiza para mostrar si la importación
 [Inventario](inventory-manage-inventory.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Ccial](sales-manage-sales.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

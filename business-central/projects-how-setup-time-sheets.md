@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 16b167ae9412449e29a002b9d588109ddc75da28
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 25db2730cebefe224494561e6f5179cc3bfed56e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919018"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758672"
 ---
 # <a name="set-up-time-sheets"></a>Configuración de hojas de horas
-Las hojas de horas de [!INCLUDE[d365fin](includes/d365fin_md.md)] administran el registro de horas en incrementos semanales de siete días. Se usan para realizar el seguimiento del tiempo empleado en proyectos y puede usarlas para efectuar el registro de tiempo simple. Antes de poder usar las hojas de horas, debe especificar cómo desea que se configuren.
+Las hojas de horas de [!INCLUDE[prod_short](includes/prod_short.md)] administran el registro de horas en incrementos semanales de siete días. Se usan para realizar el seguimiento del tiempo empleado en proyectos y puede usarlas para efectuar el registro de tiempo simple. Antes de poder usar las hojas de horas, debe especificar cómo desea que se configuren.
 
 Después de haber configurado cómo usará su organización las hojas de horas, puede especificar si se aprueban las hojas de horas y cómo se aprueban. En función de las necesidades de su organización, puede designar:
 
@@ -63,4 +63,4 @@ Cuando haya configurado las hojas de horas, puede crear hojas de horas para recu
 [Finanzas](finance.md)  
 [Compras](purchasing-manage-purchasing.md)         
 [Ventas](sales-manage-sales.md)      
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e3b0b01eb85cc6b24cc665e340da1d479517924a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 650f45093688825565eb664ebca7daaa3e972140
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914865"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756523"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Tutorial: cálculo del trabajo en curso para un proyecto
 
@@ -38,7 +38,7 @@ Con proyectos, puede programar el uso de los recursos de su empresa y realizar u
  En este tutorial se utiliza al miembro del equipo del proyecto (Tricia) como personaje.  
 
 ## <a name="prerequisites"></a>Requisitos previos  
- Para poder realizar las tareas del tutorial, [!INCLUDE[d365fin](includes/d365fin_md.md)] debe estar instalado en su ordenador:  
+ Para poder realizar las tareas del tutorial, [!INCLUDE[prod_short](includes/prod_short.md)] debe estar instalado en su ordenador:  
 
 ## <a name="story"></a>Historia  
  Este tutorial se centra en la empresa CRONUS España S.A., una empresa de diseño y consultoría que diseña y ajusta nuevas infraestructuras, (como salas de conferencias y oficinas) con mobiliario, accesorios y unidades de almacenamiento. La mayor parte del trabajo en CRONUS está orientado al proyecto y Tricia, un miembro del equipo de proyecto, utiliza los trabajos para tener una visión general de cada trabajo en curso que CRONUS ha iniciado y también los trabajos que se han completado. Algunos de los trabajos pueden ser muy largos y pueden durar varios meses. Tricia puede usar un Cuenta WIP para registrar el trabajo en curso y realizar el seguimiento de los costes del proyecto.  
@@ -156,11 +156,11 @@ Con proyectos, puede programar el uso de los recursos de su empresa y realizar u
     >  Suponga el WIP calculado y registrado de Tricia para un proyecto con fechas incorrectas. Después del método que se ha discutido anteriormente, puede revertir los registros incorrectos, corregir las fechas y volver a la contabilidad general.  
 
 ## <a name="next-steps"></a>Pasos siguientes  
- Este tutorial le ha enseñado a calcular el trabajo en curso en [!INCLUDE[d365fin](includes/d365fin_md.md)]. En proyectos más grandes, puede resultar útil transferir los costes a una cuenta WIP periódicamente mientras se completa el proyecto. Este tutorial le ha mostrado cómo excluir líneas de tarea de un cálculo. También le muestra cuándo tiene que calcular de nuevo. Y finalmente, este tutorial demuestra la forma de registrar el WIP en la contabilidad general. También se incluye un ejemplo de cómo revertir un WIP que registra la contabilidad general.  
+ Este tutorial le ha enseñado a calcular el trabajo en curso en [!INCLUDE[prod_short](includes/prod_short.md)]. En proyectos más grandes, puede resultar útil transferir los costes a una cuenta WIP periódicamente mientras se completa el proyecto. Este tutorial le ha mostrado cómo excluir líneas de tarea de un cálculo. También le muestra cuándo tiene que calcular de nuevo. Y finalmente, este tutorial demuestra la forma de registrar el WIP en la contabilidad general. También se incluye un ejemplo de cómo revertir un WIP que registra la contabilidad general.  
 
 ## <a name="see-also"></a>Consulte también  
  [Tutoriales de procesos empresariales](walkthrough-business-process-walkthroughs.md)  
  [Tutorial: administración de programas con proyectos](walkthrough-managing-projects-with-jobs.md)   
  [Comprensión de los métodos WIP](projects-understanding-wip.md)   
  [Controlar el progreso y el rendimiento](projects-how-monitor-progress-performance.md)  
- [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

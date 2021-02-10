@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c71184f1894fb5503211b87595744e52c361862d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b3656ff58273999a1059392795914b5926835c57
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920327"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756272"
 ---
 # <a name="find-your-warehouse-assignments"></a>Buscar las asignaciones de almacén
 Para buscar las asignaciones de almacén, abra la página de la ficha de un artículo seleccionado. Si se han creado las instrucciones del almacén, las líneas de tipo Traer y colocar son visibles y puede empezar a trabajar en una asignación. En algunos almacenes, el administrador puede haber asignado instrucciones específicas a cada empleado. Para obtener más información, vea [Configurar los empleados de almacén](warehouse-how-to-set-up-warehouse-employees.md).
@@ -36,4 +36,4 @@ Puede utilizar el campo **Id. usuario asignado** de la cabecera para traer sus a
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md) 
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md) 

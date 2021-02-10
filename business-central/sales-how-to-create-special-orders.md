@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 85e27db78481e3e3cd9f8e8ef34eb26eee8b08f0
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c4549492e118d1b4367e89f2b0169f43ba7f8393
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925902"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748248"
 ---
 # <a name="create-special-orders"></a>Crear pedidos especiales
 Se puede crear un pedido especial para un determinado producto del catálogo que se vaya a enviar a un cliente en particular. El proveedor envía el producto al almacén de su empresa y de allí se envía a su cliente sólo o con otros productos de otro pedido.  
@@ -48,4 +48,4 @@ El sistema de planificación respeta un pedido de compra que se crea como un ped
 [Ventas](sales-manage-sales.md)  
 [Realizar envíos directos](sales-how-drop-shipment.md)   
 [Detalles de diseño: Directivas de reaprovisionamiento](design-details-reservation-order-tracking-and-action-messaging.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

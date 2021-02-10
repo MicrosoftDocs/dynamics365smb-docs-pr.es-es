@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b022f149e2dd6092650f24288e92b19a3d59857a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 67be2e12df815c5d8d3768bbb174436050326f9f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923970"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753209"
 ---
 # <a name="calculating-due-dates"></a>Cálculo de fechas de vencimiento
 En España, hay un límite legal para el número de días que un pago se puede retrasar. Debe presentar un informe anual de compras y ventas de los pagos que se crearon antes o después de la fecha de vencimiento. Los requisitos legales dependen de si el cliente es una empresa privada o una gestión pública. Para obtener más información, consulte la declaración oficial [BOE-A-2010-10708](https://go.microsoft.com/fwlink/?LinkId=224630) en la página web del Boletín Oficial del Estado.  
@@ -31,7 +31,7 @@ Para ayudarle a cumplir los requisitos legales, puede configurar términos de pa
 |**Cálculo de fecha de vencimiento**|**1M**|**1M**|  
 |**Nº máx. días hasta fecha vencimiento**|**30**|**60**|  
 
- Para cada cliente y proveedor, debe seleccionar el código de términos de pago adecuado. A continuación, cuando cree un documento para el cliente o proveedor, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] calculará una fecha de vencimiento que no exceda el número límite para el término correspondiente de pagos.  
+ Para cada cliente y proveedor, debe seleccionar el código de términos de pago adecuado. A continuación, cuando cree un documento para el cliente o proveedor, [!INCLUDE[prod_short](../../includes/prod_short.md)] calculará una fecha de vencimiento que no exceda el número límite para el término correspondiente de pagos.  
 
 > [!IMPORTANT]  
 >  No puede registrar un documento que crea una remesa donde uno o varios plazos tienen una fecha de vencimiento posterior al límite que se especifica en el campo **Nº máx. días hasta fecha vencimiento**.  
@@ -41,7 +41,7 @@ Para ayudarle a cumplir los requisitos legales, puede configurar términos de pa
  Puede cambiar la fecha de vencimiento calculada manualmente, pero no puede establecer una fecha posterior al límite que ha especificado para el término de pago. Por ejemplo, la fecha de vencimiento puede calcularse para que sea muy tarde debido a conflictos con los períodos de falta de pago. En ese caso, puede decidir crear la fecha de vencimiento anterior al periodo de impagos.  
 
 ## <a name="overdue-payments"></a>Pagos vencidos  
- Debe incluir información acerca de pagos vencidos en los informes anuales para el gobierno. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] incluye dos informes para ayudarle a identificar pagos vencidos de clientes y pagos retrasados.  
+ Debe incluir información acerca de pagos vencidos en los informes anuales para el gobierno. [!INCLUDE[prod_short](../../includes/prod_short.md)] incluye dos informes para ayudarle a identificar pagos vencidos de clientes y pagos retrasados.  
 
  Los informes **Cliente - Pagos vencidos** y **Proveedor - Pagos vencidos** incluyen una sección para cada cliente o proveedor que muestra los pagos con la siguiente información:  
 

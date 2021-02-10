@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: reimbursement
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e88cc5ad2eaf449d22dd0c9840a4fc33ae0f56f7
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4d19fceae0fd5c9b72910880d0f87b21206e8f47
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916173"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750835"
 ---
 # <a name="record-and-reimburse-employees-expenses"></a>Registro y reembolso de los costes de los empleados
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] soporta transacciones para empleados de una manera similar a los proveedores. En consecuencia, existen grupos de contabilización de empleados para asegurarse de que las entradas del libro mayor de empleados se registran en las cuentas relevantes del libro mayor.
+[!INCLUDE[prod_short](includes/prod_short.md)] soporta transacciones para empleados de una manera similar a los proveedores. En consecuencia, existen grupos de contabilización de empleados para asegurarse de que las entradas del libro mayor de empleados se registran en las cuentas relevantes del libro mayor.
 
 > [!NOTE]  
 > Las transacciones de empleado se pueden registrar únicamente en la divisa local. Los pagos de reembolso a los empleados no son compatibles con los descuentos y las tolerancias de pago.
@@ -59,4 +59,4 @@ Aplique los pagos de los empleados a las entradas del libro mayor relacionadas, 
 [Trabajar con diarios generales](ui-work-general-journals.md)  
 [Revertir los registros de diario y deshacer los recibos/envíos](finance-how-reverse-journal-posting.md)  
 [Finanzas](finance.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

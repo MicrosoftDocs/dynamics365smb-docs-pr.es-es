@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 823403fc34ad57cb170fc39bd9533b53c4008950
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 50e37e54d840c82cbcbfc92ab8f5fc009642a6b4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910885"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750535"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Trabajar con tolerancias de pago y tolerancias de descuento de pago
 Puede configurar una tolerancia de pago para cerrar una factura cuando el pago no cubre totalmente el importe de la factura. Por ejemplo, las tolerancias de pago son típicamente para pequeñas cantidades que costarían más corregir que solo aceptar. Puede configurar una tolerancia de descuento P.P. para conceder un descuento P.P. después de que haya pasado la fecha de descuento.  
@@ -58,14 +58,14 @@ Para configurar la tolerancia tiene que configurar varias cuentas de tolerancia,
 11. En la página **Cambiar tolerancia pagos**, rellene los campos **% Tolerancia pago** y **Máx. importe tolerancia pago** y, a continuación, seleccione **Aceptar**.
 
 > [!IMPORTANT]  
->  Sólo ha configurado la tolerancia para las divisa local. Si desea que [!INCLUDE[d365fin](includes/d365fin_md.md)] controle la tolerancia de pagos, abonos y reembolsos en una divisa extranjera, debe ejecutar el proceso **Cambiar tolerancia pagos** con un valor en el campo **Código divisa**.  
+>  Sólo ha configurado la tolerancia para las divisa local. Si desea que [!INCLUDE[prod_short](includes/prod_short.md)] controle la tolerancia de pagos, abonos y reembolsos en una divisa extranjera, debe ejecutar el proceso **Cambiar tolerancia pagos** con un valor en el campo **Código divisa**.  
 
 > [!NOTE]  
 >  Si desea recibir una advertencia de tolerancia de pagos cada vez que registre una liquidación dentro de la tolerancia, debe activar la advertencia de tolerancia de pagos. Para obtener más información, consulte [Para activar o desactivar la advertencia de tolerancia de pago:](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings).  
 >   
 >  Para desactivar la tolerancia de un cliente o proveedor, debe bloquear las tolerancias en la ficha del cliente o proveedor correspondiente. Para obtener más información, consulte [Bloquear la tolerancia de pagos de clientes](finance-payment-tolerance-and-payment-discount-tolerance.md#to-block-payment-tolerance-for-customers).  
 >   
->  Al configurar la tolerancia, [!INCLUDE[d365fin](includes/d365fin_md.md)] comprueba si existen movimientos pendientes y también calcula la tolerancia de estos movimientos.
+>  Al configurar la tolerancia, [!INCLUDE[prod_short](includes/prod_short.md)] comprueba si existen movimientos pendientes y también calcula la tolerancia de estos movimientos.
 
 ## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>Para activar o desactivar las advertencias de tolerancia de pago
 La advertencia de tolerancia de pagos aparece cuando registra una liquidación con un saldo dentro de la tolerancia permitida. A continuación, puede elegir cómo desea registrar y documentar el saldo.    
@@ -208,7 +208,7 @@ Importe pendiente por
 
 Reglas de liquidación normales  
 
-![Reglas de tolerancia de pago múltiple 1](media/multiplePmtTolRules(Pre1503).gif "Reglas de tolerancia de pago múltiple 1")  
+:::image type="content" source="media/multiplePmtTolRules(Pre1503).gif" alt-text="Reglas de tolerancia de pago múltiple 1a":::
 
 (1) si el pago no se produce en estos intervalos, todos los movimientos de liquidación se cierran con o sin tolerancia.  
 
@@ -219,7 +219,7 @@ Importe pendiente por
 
 Reglas de liquidación normales  
 
-![Reglas de tolerancia de pago múltiple 2](media/multiplePmtTolRules(GracePeriodInv1-2).gif "Reglas de tolerancia de pago múltiple 2")  
+:::image type="content" source="media/multiplePmtTolRules(GracePeriodInv1-2).gif" alt-text="Reglas de tolerancia de pago múltiple 2":::
 
 (1) si el pago no se produce en estos intervalos, todos los movimientos de liquidación se cierran con o sin tolerancia.  
 
@@ -230,7 +230,7 @@ Importe pendiente por
 
 Reglas de liquidación normales  
 
-![Reglas de tolerancia de pago múltiple 3](media/multiplePmtTolRules(GracePeriodInv1).gif "Reglas de tolerancia de pago múltiple 3")  
+:::image type="content" source="media/multiplePmtTolRules(GracePeriodInv1).gif" alt-text="Reglas de tolerancia de pago múltiple 3":::
 
 (1) si el pago no se produce en estos intervalos, todos los movimientos de liquidación se cierran con o sin tolerancia.  
 
@@ -241,7 +241,7 @@ Importe pendiente por
 
 Reglas de liquidación normales  
 
-![Reglas de tolerancia de pago múltiple 4](media/multiplePmtTolRules(GracePeriodInv2).gif "Reglas de tolerancia de pago múltiple 4")  
+:::image type="content" source="media/multiplePmtTolRules(GracePeriodInv2).gif" alt-text="Reglas de tolerancia de pago múltiple 4":::
 
 (1) si el pago no se produce en estos intervalos, todos los movimientos de liquidación se cierran con o sin tolerancia.  
 
@@ -252,7 +252,7 @@ Importe pendiente por
 
 Reglas de liquidación normales  
 
-![Reglas de tolerancia de pago múltiple 5](media/multiplePmtTolRules(Post0122).gif "Reglas de tolerancia de pago múltiple 5")  
+:::image type="content" source="media/multiplePmtTolRules(Post0122).gif" alt-text="Reglas de tolerancia de pago múltiple 5":::
 
 (1) si el pago no se produce en estos intervalos, todos los movimientos de liquidación se cierran con o sin tolerancia.  
 
@@ -262,4 +262,4 @@ Reglas de liquidación normales
 [Finanzas](finance.md)  
 [Configurar las finanzas](finance-setup-finance.md)  
 [Administrar cobros](receivables-manage-receivables.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

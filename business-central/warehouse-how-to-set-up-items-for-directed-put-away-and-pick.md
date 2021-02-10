@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cb31975e076a923d1e1f371fa27ccbf4f1c01661
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0829b941abdff610ea2597dac1451ebc28ab2086
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918218"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755997"
 ---
 # <a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a>Configurar productos y almacenes para ubicaciones y picking directos
 Cuando un almacén está configurado para ubicación y picking directos, tiene disponible nueva funcionalidad que le ayuda a ejecutar los procesos de almacén de la forma más eficaz posible. Para utilizar toda esta funcionalidad, tiene que proporcionar información adicional sobre los productos, que, a su vez, ayuda a que se realicen los cálculos necesarios para sugerir las formas más efectivas y eficaces de dirigir las actividades de almacén. Para obtener más información, consulte [Detalles de diseño: Configuración almacén](design-details-warehouse-setup.md).
@@ -68,4 +68,4 @@ Además, deberá crear plantillas de ubicación y periodos de cuenta. Para obten
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -8,16 +8,16 @@ ms.workload: na
 ms.search.keywords: project management
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0309ea14145758b4ae07ee034679fa4a0ef497db
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6fe583e93261b58d13802eadef5f3d807045fa20
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915340"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758647"
 ---
 # <a name="set-up-jobs"></a>Configurar proyectos
 
-Como director de proyectos, puede configurar proyectos que definan cada uno de los proyectos que administra en [!INCLUDE[prodshort](includes/prodshort.md)]. En la página **Configuración de proyectos**, debe especificar cómo desea utilizar determinadas características del proyecto.
+Como director de proyectos, puede configurar proyectos que definan cada uno de los proyectos que administra en [!INCLUDE[prod_short](includes/prod_short.md)]. En la página **Configuración de proyectos**, debe especificar cómo desea utilizar determinadas características del proyecto.
 
 Para cada proyecto, especifique fichas de proyecto individuales con información sobre los precios de los productos del proyecto, los recursos del proyecto y las cuentas de proyecto, y debe configurar los grupos contables de proyectos.
 
@@ -42,7 +42,7 @@ Cuando se selecciona la casilla **Aplicar vínculo uso de forma pred.**, y el ti
 > [!IMPORTANT]
 > Si el seguimiento de uso del proyecto está activado, en la página **Config. proyectos** o en el proyecto individual, y el campo **Tipo de línea** está en blanco, se crearán las nuevas líneas de planificación de proyecto del tipo de línea **Presupuesto** al registrar las líneas de diario de proyecto.  
 >  
-> Si el seguimiento de uso del proyecto *no*está activado, en la página **Config. proyectos** o en el proyecto individual, y el campo **Tipo de línea** está en blanco, no se crearán líneas de planificación de proyecto al registrar las líneas de diario de proyecto. Para obtener más información, consulte [Registro del uso para proyectos](projects-how-record-job-usage.md).
+> Si el seguimiento de uso del proyecto *no* está activado, en la página **Config. proyectos** o en el proyecto individual, y el campo **Tipo de línea** está en blanco, no se crearán líneas de planificación de proyecto al registrar las líneas de diario de proyecto. Para obtener más información, consulte [Registro del uso para proyectos](projects-how-record-job-usage.md).
 
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Configuración de proyectos** y, a continuación, seleccione el vínculo relacionado.
 2. Seleccione la casilla **Aplicar vínculo uso de forma pred.**
@@ -121,4 +121,4 @@ Un aspecto de los proyectos de planificación es decidir qué cuentas de registr
 [Finanzas](finance.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Ccial](sales-manage-sales.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

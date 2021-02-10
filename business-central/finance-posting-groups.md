@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: posting setup, initialize
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 9e04dcccfde480ca72d09c65608c309eba09aa6e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c36b365b0828a19fa82ef28f8d901915937995c2
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910835"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746671"
 ---
 # <a name="setting-up-posting-groups"></a>Configurar los grupos contables
 Los grupos contables asignan entidades como clientes, proveedores, productos, recursos y documentos de venta y compra a cuentas contables. Ahorran tiempo y ayudan a evitar errores al registrar las transacciones. Los valores de transacción se envían a las cuentas especificadas en el grupo contable de dicha entidad. El único requisito es que tenga un plan de cuentas. Para obtener más información, vea [Configuración del plan de cuentas](finance-setup-chart-accounts.md).  
@@ -78,4 +78,4 @@ Cuantos más grupos contables de producto y de negocio tenga, más líneas habr�
 ## <a name="see-also"></a>Consulte también .
 [Libro mayor y plan de cuentas](finance-general-ledger.md)  
 [Configurar las finanzas](finance-setup-finance.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

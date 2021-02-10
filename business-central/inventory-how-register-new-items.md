@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 74eb66c4303acb452972f9ac3c7dda008e3c6502
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6e4bf13885ccd7888e1750f4351741150df7b7df
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923825"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746221"
 ---
 # <a name="register-new-items"></a>Registro de productos nuevos
 
@@ -25,7 +25,7 @@ Las fichas de producto contienen la información necesaria para comprar, almacen
 
 La ficha de producto puede ser del tipo **Inventario**, **Servicio** o **No inventario** para especificar si el producto representa una unidad de inventario físico, una unidad de tiempo de mano de obra o una unidad física sin seguimiento en el inventario. Para obtener más información, consulte [unidad física sin seguimiento en el inventario](inventory-about-item-types.md).
 
-Un producto se puede estructurar como un producto principal con productos secundarios subyacentes en una lista de materiales (L.M.). En [!INCLUDE[d365fin](includes/d365fin_md.md)], una lista de materiales puede ser una L.M. de ensamblado o una L.M. de producción, en función de su uso. Para obtener más información, consulte [Trabajar con listas de materiales](inventory-how-work-BOMs.md).
+Un producto se puede estructurar como un producto principal con productos secundarios subyacentes en una lista de materiales (L.M.). En [!INCLUDE[prod_short](includes/prod_short.md)], una lista de materiales puede ser una L.M. de ensamblado o una L.M. de producción, en función de su uso. Para obtener más información, consulte [Trabajar con listas de materiales](inventory-how-work-BOMs.md).
 
 Si le compra el mismo producto a varios proveedores, puede conectarlos a la ficha de producto. Los proveedores aparecerán después en la página **Tarifas de compra productos** , para poder fácilmente seleccionar un proveedor alternativo.
 
@@ -96,7 +96,7 @@ Si ha publicado una transacción para un artículo, no puede eliminar la ficha p
 
 ## <a name="manage-inventory-in-warehouses"></a>Administrar el inventario en almacenes
 
-Cuando registre un nuevo producto, verá campos relacionados con la gestión del almacén, especialmente en la Ficha desplegable **Almacén**. Si su organización no utiliza las capacidades de gestión de almacenes de [!INCLUDE [prodshort](includes/prodshort.md)], entonces puede ignorar esos campos.  
+Cuando registre un nuevo producto, verá campos relacionados con la gestión del almacén, especialmente en la Ficha desplegable **Almacén**. Si su organización no utiliza las capacidades de gestión de almacenes de [!INCLUDE [prod_short](includes/prod_short.md)], entonces puede ignorar esos campos.  
 
 Si su organización configura posteriormente la gestión del almacén, en la mayoría de los casos, debe volver a cada producto existente para asegurarse de que tenga la información correcta en los distintos campos, de modo que los procesos del almacén se puedan ejecutar como se esperaba. Esta información puede incluir campos como **Código de clase de almacén** o **Código de plantilla de ubicación**. Para obtener más información, consulte [Detalles de diseño: Configuración almacén](design-details-warehouse-setup.md).  
 
@@ -110,4 +110,4 @@ Si su organización configura posteriormente la gestión del almacén, en la may
 [Configurar los grupos contables](finance-posting-groups.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Ccial](sales-manage-sales.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

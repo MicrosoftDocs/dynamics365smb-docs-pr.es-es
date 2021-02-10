@@ -10,36 +10,36 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c2b663208a1bed8522ea532efdb2dee0d519b646
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 94fe9b960b61e4607bf285cd1e9ee8f1af1be916
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912526"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747797"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Asignar permisos a usuarios y grupos
 
-El sistema de seguridad de [!INCLUDE[d365fin](includes/d365fin_md.md)] le permite controlar a qué objetos puede acceder un usuario en cada base de datos o entorno. Puede especificar para cada usuario si puede leer, modificar o introducir datos en los objetos de la base de datos seleccionados. Para obtener información detallada, vea [Seguridad de datos](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) en la ayuda para desarrolladores y profesionales de TI para [!INCLUDE[d365fin](includes/d365fin_md.md)].
+El sistema de seguridad de [!INCLUDE[prod_short](includes/prod_short.md)] le permite controlar a qué objetos puede acceder un usuario en cada base de datos o entorno. Puede especificar para cada usuario si puede leer, modificar o introducir datos en los objetos de la base de datos seleccionados. Para obtener información detallada, vea [Seguridad de datos](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) en la ayuda para desarrolladores y profesionales de TI para [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Antes de asignar permisos a usuarios y grupos de usuarios, debe definir quién puede iniciar sesión creando usuarios de acuerdo con la licencia tal como se define en el Centro de administración de Microsoft 365. Para obtener más información, vea [Crear usuarios de acuerdo con las licencias](ui-how-users-permissions.md).
 
-En [!INCLUDE[d365fin](includes/d365fin_md.md)], hay dos niveles de permisos para los objetos de la base de datos:
+En [!INCLUDE[prod_short](includes/prod_short.md)], hay dos niveles de permisos para los objetos de la base de datos:
 
 - Permisos generales de acuerdo con la licencia, también se denominan derecho.
-- Permisos más detallados según lo asignado desde [!INCLUDE[d365fin](includes/d365fin_md.md)].
+- Permisos más detallados según lo asignado desde [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Para facilitar la administración de permisos para varios usuarios, puede organizarlos en grupos de usuarios y así asignar o cambiar un conjunto de permisos para muchos usuarios en una sola acción. Para obtener más información, vea [Para administrar permisos mediante grupos de usuarios](ui-define-granular-permissions.md#to-manage-permissions-through-user-groups).
 
 > [!NOTE]
 > Un método adicional para definir a qué características tiene acceso un usuario consiste en establecer el campo **Experiencia** en la página **Información de la empresa**. Para obtener más información, consulte [Cambiar las funciones que se muestran](ui-experiences.md).
 >
-> También puede definir lo que ven los usuarios en la interfaz de usuario y cómo interactúan con su funcionalidad permitida a través de las páginas. Esta acción se hace a través de los perfiles que asigna a diferentes tipos de usuarios según su función de trabajo o departamento. Para obtener más información, [Administración de perfiles](admin-users-profiles-roles.md) y [Personalización de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md).
+> También puede definir lo que ven los usuarios en la interfaz de usuario y cómo interactúan con su funcionalidad permitida a través de las páginas. Esta acción se hace a través de los perfiles que asigna a diferentes tipos de usuarios según su función de trabajo o departamento. Para obtener más información, [Administración de perfiles](admin-users-profiles-roles.md) y [Personalización de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md).
 
 ## <a name="to-assign-permission-sets-to-users"></a>Para asignar conjuntos de permisos a los usuarios
 
-Un conjunto de permisos es una colección de permisos para objetos de base de datos específicos. A todos los usuarios se les debe asignar uno o varios conjuntos de permisos antes de que pueden acceder a [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Un conjunto de permisos es una colección de permisos para objetos de base de datos específicos. A todos los usuarios se les debe asignar uno o varios conjuntos de permisos antes de que pueden acceder a [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Una solución de [!INCLUDE[d365fin](includes/d365fin_md.md)] contiene una serie de conjuntos de permisos predefinidos que Microsoft o su proveedor de soluciones agregan. También puede agregar nuevos conjuntos de permisos personalizados para satisfacer las necesidades de su organización. Para obtener más información, consulte [Para crear o editar un conjunto de permisos](ui-define-granular-permissions.md#to-create-or-modify-a-permission-set).
+Una solución de [!INCLUDE[prod_short](includes/prod_short.md)] contiene una serie de conjuntos de permisos predefinidos que Microsoft o su proveedor de soluciones agregan. También puede agregar nuevos conjuntos de permisos personalizados para satisfacer las necesidades de su organización. Para obtener más información, consulte [Para crear o editar un conjunto de permisos](ui-define-granular-permissions.md#to-create-or-modify-a-permission-set).
 
 > [!NOTE]
 > Si no desea restringir el acceso de un usuario más allá de lo definido por la licencia, puede asignar un conjunto de permisos especial llamado SUPER al usuario. Este conjunto de permisos garantiza que el usuario pueda acceder a todos los objetos especificados en la licencia.
@@ -97,7 +97,7 @@ Los conjuntos de permisos ya asignados al usuario se muestran en el cuadro infor
 Los conjuntos de permisos funcionan como contenedores de permisos, de modo que puede administrar fácilmente múltiples permisos en un registro.
 
 > [!NOTE]  
-> Una solución de [!INCLUDE[d365fin](includes/d365fin_md.md)] generalmente contiene una serie de conjuntos de permisos predefinidos que Microsoft o su proveedor de software agregan. Estos conjuntos de permisos son de tipo **Sistema** o **Extensión**. No puede crear o editar estos tipos de conjuntos de permisos ni los permisos que estos contienen. Sin embargo, puede copiarlos para definir sus propios permisos y conjuntos de permisos.
+> Una solución de [!INCLUDE[prod_short](includes/prod_short.md)] generalmente contiene una serie de conjuntos de permisos predefinidos que Microsoft o su proveedor de software agregan. Estos conjuntos de permisos son de tipo **Sistema** o **Extensión**. No puede crear o editar estos tipos de conjuntos de permisos ni los permisos que estos contienen. Sin embargo, puede copiarlos para definir sus propios permisos y conjuntos de permisos.
 >
 > Los conjuntos de permisos que los usuarios crean, de nuevo o como copias, son del tipo **Definido por el usuario** y se pueden editar.
 
@@ -122,7 +122,7 @@ El nuevo conjunto de permisos, que contiene todos los permisos del conjunto de p
 
 ### <a name="to-export-and-import-a-permission-set"></a>Para exportar e importar un conjunto de permisos
 
-Para configurar rápidamente permisos, puede importar conjuntos de permisos que haya exportado desde otro suscriptor de [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Para configurar rápidamente permisos, puede importar conjuntos de permisos que haya exportado desde otro suscriptor de [!INCLUDE[prod_short](includes/prod_short.md)].
 
 En entornos multiempresa, se importará un conjunto de permisos a un suscriptor específico, es decir, el alcance de la importación es "Suscriptor".
 
@@ -162,7 +162,7 @@ En cada uno de los cinco campos de tipo de acceso, **Permiso de lectura**, **Per
 ### <a name="example---indirect-permission"></a>Ejemplo: permiso indirecto
 
 Puede asignar un permiso indirecto para usar un objeto solo a través de otro objeto.
-Por ejemplo, un usuario puede tener permiso para ejecutar la codeunit 80, Venta-Registrar. La codeunit Venta-Registrar realiza muchas tareas, incluida la modificación de la tabla 37, Línea de venta. Cuando el usuario registra un documento de venta, la codeunit Venta-Registrar, [!INCLUDE[d365fin](includes/d365fin_md.md)] comprueba si el usuario tiene permiso para modificar la tabla Línea de venta. Si no es así, la codeunit no puede completar sus tareas y el usuario recibe un mensaje de error. Si es así, la codeunit se ejecuta correctamente.
+Por ejemplo, un usuario puede tener permiso para ejecutar la codeunit 80, Venta-Registrar. La codeunit Venta-Registrar realiza muchas tareas, incluida la modificación de la tabla 37, Línea de venta. Cuando el usuario registra un documento de venta, la codeunit Venta-Registrar, [!INCLUDE[prod_short](includes/prod_short.md)] comprueba si el usuario tiene permiso para modificar la tabla Línea de venta. Si no es así, la codeunit no puede completar sus tareas y el usuario recibe un mensaje de error. Si es así, la codeunit se ejecuta correctamente.
 
 Sin embargo, el usuario no necesita tener acceso total a la tabla Línea de venta para ejecutar la codeunit. Si el usuario tiene permiso indirecto para la tabla Línea de venta, la codeunit Venta-Registrar se ejecuta correctamente. Cuando un usuario tiene permiso indirecto, solo puede modificar la tabla Línea de venta al ejecutar la codeunit Venta-Registrar u otro objeto que tenga permiso para modificar la tabla Línea de venta. El usuario sólo puede modificar la tabla Línea de venta en las áreas compatibles de la aplicación. El usuario no puede ejecutar la característica de forma inadvertida o malintencionada mediante otros métodos.
 
@@ -176,14 +176,14 @@ Sin embargo, el usuario no necesita tener acceso total a la tabla Línea de vent
 6. En la página **Permisos**, seleccione la acción **Registrar permisos** y, a continuación elija la acción **Iniciar**.
 
     Se inicia un proceso de registro que captura todas las acciones en la interfaz de usuario.
-7. Vaya a las diferentes páginas y actividades en [!INCLUDE[d365fin](includes/d365fin_md.md)] a las que desea que accedan los usuarios con este conjunto de permisos. Debe realizar las tareas para las que desea registrar permisos.
+7. Vaya a las diferentes páginas y actividades en [!INCLUDE[prod_short](includes/prod_short.md)] a las que desea que accedan los usuarios con este conjunto de permisos. Debe realizar las tareas para las que desea registrar permisos.
 8. Cuando desea finalizar el registro, vuelva a la página **Permisos** y, a continuación elija la acción **Paro**.
 9. Seleccione el botón **Sí** para agregar los permisos registrados al nuevo conjunto de permisos.
 10. Para cada objeto de la lista registrada especifique si los usuarios pueden insertar, modificar o eliminar los registros de las tablas registradas.
 
 ## <a name="security-filters---to-limit-a-users-access-to-specific-records-in-a-table"></a>Filtros de seguridad: para restringir el acceso de un usuario a registros específicos en una tabla
 
-Para seguridad de nivel registro en [!INCLUDE[d365fin](includes/d365fin_md.md)], utilice los filtros de seguridad para restringir el acceso a un usuario a los datos de una tabla. Cree los filtros de seguridad en los datos de la tabla. Un filtro de seguridad describe un conjunto de registros de una tabla a la que un usuario tiene permisos para acceder. Puede especificar, por ejemplo, que el usuario puede leer solo los registros que contienen información acerca de un determinado cliente. Esto significa que el usuario no puede acceder a los registros que contienen información sobre otros clientes. Para obtener más información, consulte [Usar filtros de seguridad](/dynamics365/business-central/dev-itpro/security/security-filters) en la Ayuda para desarrolladores y profesionales de TI.
+Para seguridad de nivel registro en [!INCLUDE[prod_short](includes/prod_short.md)], utilice los filtros de seguridad para restringir el acceso a un usuario a los datos de una tabla. Cree los filtros de seguridad en los datos de la tabla. Un filtro de seguridad describe un conjunto de registros de una tabla a la que un usuario tiene permisos para acceder. Puede especificar, por ejemplo, que el usuario puede leer solo los registros que contienen información acerca de un determinado cliente. Esto significa que el usuario no puede acceder a los registros que contienen información sobre otros clientes. Para obtener más información, consulte [Usar filtros de seguridad](/dynamics365/business-central/dev-itpro/security/security-filters) en la Ayuda para desarrolladores y profesionales de TI.
 
 ## <a name="to-manage-permissions-through-user-groups"></a>Para administrar permisos a través de grupos de usuarios
 
@@ -245,12 +245,20 @@ Los administradores pueden definir periodos de tiempo durante los que los usuari
 3. En el campo **Id. usuario**, escriba el identificador de un usuario o elija el campo para ver todos los usuarios de Windows actuales en el sistema.
 4. Rellene los campos según sea necesario.
 
+
+## <a name="viewing-permission-changes-telemetry"></a>Ver los cambios de permisos de telemetría 
+
+Puede configurar [!INCLUDE[prod_short](includes/prod_short.md)] para enviar cambios realizados en el permiso a un recurso de Application Insights en Microsoft Azure. Luego, con Azure Monitor, crea informes y configura alertas sobre los datos recopilados. Para obtener más información, consulte los siguientes artículos en la ayuda para desarrolladores y profesionales de TI de [!INCLUDE[prod_short](includes/prod_short.md)]:
+
+- [Supervisión y análisis de telemetría: habilitación de Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-overview#enable)
+- [Análisis de la telemetría de monitoreo de campo](/dynamics365/business-central/dev-itpro/administration/telemetry-permission-changes-trace)
+
 ## <a name="see-also"></a>Consulte también
 
 [Crear usuarios de acuerdo con las licencias](ui-how-users-permissions.md)  
 [Administración de perfiles](admin-users-profiles-roles.md)  
 [Cambiar las funciones que se muestran](ui-experiences.md)  
-[Personalización de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)  
+[Personalización de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md)  
 [Preparación para hacer negocios](ui-get-ready-business.md)  
 [Administración](admin-setup-and-administration.md)  
 [Agregar usuarios a Microsoft 365 para empresas](https://aka.ms/CreateOffice365Users)  

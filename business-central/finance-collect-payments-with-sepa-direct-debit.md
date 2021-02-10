@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e7af0cc7e84ea94c12b6e7aa4988c081f135f52c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 08b28c30ba6ef1bf80d4562f198eeeb4aa07394c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913426"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747121"
 ---
 # <a name="collect-payments-with-sepa-direct-debit"></a>Cobrar pagos mediante adeudo directo SEPA
 Con el consentimiento de sus clientes, puede cobrar los pagos directamente al banco del cliente según el formato SEPA.  
@@ -35,9 +35,9 @@ Con el consentimiento de sus clientes, puede cobrar los pagos directamente al ba
 Desde la página **Cobros por adeudo directo** puede exportar instrucciones al banco electrónico para realizar recaudar un adeudo directo desde el banco del cliente a su cuenta bancaria, según el formato de débito directo de SEPA.
 
 > [!NOTE]
-> La versión global de [!INCLUDE[d365fin](includes/d365fin_md.md)] solo admite el formato de débito directo de SEPA. La versión de su país o región puede admitir otros formatos para pago electrónico. Consulte **Funcionalidad local** en el contenido.  
+> La versión global de [!INCLUDE[prod_short](includes/prod_short.md)] solo admite el formato de débito directo de SEPA. La versión de su país o región puede admitir otros formatos para pago electrónico. Consulte **Funcionalidad local** en el contenido.  
 
-Para habilitar la exportación de formatos de archivos bancarios no compatibles originales en [!INCLUDE[d365fin](includes/d365fin_md.md)], puede configurar una definición de intercambio de datos mediante el marco de intercambio de datos. Para obtener más información, vea [Configurar las definiciones de intercambio de datos](across-how-to-set-up-data-exchange-definitions.md).  
+Para habilitar la exportación de formatos de archivos bancarios no compatibles originales en [!INCLUDE[prod_short](includes/prod_short.md)], puede configurar una definición de intercambio de datos mediante el marco de intercambio de datos. Para obtener más información, vea [Configurar las definiciones de intercambio de datos](across-how-to-set-up-data-exchange-definitions.md).  
 
 Para poder procesar pagos de clientes electrónicamente exportando instrucciones de adeudo directo en formato de adeudo directo SEPA, debe realizar los pasos de configuración siguientes:  
 

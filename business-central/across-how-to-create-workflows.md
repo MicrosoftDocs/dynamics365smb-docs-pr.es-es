@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3dafae41b015df7b3b87657014a901128d34b7c9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0db0e2e6705a7d2fd1907227996d8c258dcbc554
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915890"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754797"
 ---
 # <a name="create-workflows"></a>Crear flujos de trabajo
 Puede crear flujos de trabajo que vinculen tareas de procesos empresariales realizadas por distintos usuarios. Las tareas de sistema, como registros automáticos, se pueden incluir como pasos en los flujos de trabajo, antes o después de las tareas de usuario. Solicitar y conceder aprobaciones para crear registros nuevos son pasos habituales de un flujo de trabajo.  
 
 En la página **Flujo de trabajo** puede crear un flujo de trabajo haciendo una lista de los pasos utilizados en las líneas. Cada paso consta de un evento del flujo de trabajo moderado por condiciones de evento y una respuesta de flujo de trabajo con opciones de respuesta. Los pasos del flujo de trabajo se definen rellenando los campos de las líneas de flujo de trabajo en listas fijas de valores de evento y respuesta que representan los escenarios de flujo de trabajo que admite el código de aplicación.  
 
-Al crear flujos de trabajo, puede copiar los pasos de flujos de trabajo existentes o de plantillas de flujo de trabajo. Las plantillas de flujo de trabajo representan flujos de trabajo no editables que existen en la versión genérica de [!INCLUDE[d365fin](includes/d365fin_md.md)]. El código de las plantillas de flujo de trabajo agregados por Microsoft se prefija con “MS-“, como “MS-PIW”. Para obtener más información, consulte [Crear flujos de trabajo a partir de plantillas de flujo de trabajo](across-how-to-create-workflows-from-workflow-templates.md).  
+Al crear flujos de trabajo, puede copiar los pasos de flujos de trabajo existentes o de plantillas de flujo de trabajo. Las plantillas de flujo de trabajo representan flujos de trabajo no editables que existen en la versión genérica de [!INCLUDE[prod_short](includes/prod_short.md)]. El código de las plantillas de flujo de trabajo agregados por Microsoft se prefija con “MS-“, como “MS-PIW”. Para obtener más información, consulte [Crear flujos de trabajo a partir de plantillas de flujo de trabajo](across-how-to-create-workflows-from-workflow-templates.md).  
 
 Si su escenario empresarial necesita eventos de flujo de trabajo o respuestas que no se admiten, un asociado de Microsoft debe implementarlos personalizando el código de aplicación.  
 
@@ -59,8 +59,8 @@ Si su escenario empresarial necesita eventos de flujo de trabajo o respuestas qu
         |**Notificar remitente**|Especifique si se notifica al solicitante de aprobación en lugar de al destinatario de la solicitud de aprobación. Si selecciona la casilla, el campo **Id. de usuario destinatario** está deshabilitado porque se notificará al solicitante de la aprobación, el remitente. El nombre de la respuesta del flujo de trabajo cambia en consecuencia, a **Crear notificación para &lt;remitente&gt;**. Si la casilla no está seleccionada, el nombre de la respuesta del flujo de trabajo es **Crear notificación para &lt;usuario&gt;**.
         |**Id. de usuario destinatario**|Especifique el usuario al que se debe enviar la notificación. Nota: Esta opción solo está disponible para respuestas de flujo de trabajo con un marcador para un usuario específico. Para las respuestas de flujo de trabajo sin marcadores para usuarios, el usuario de aprobación define normalmente la configuración del destinatario de la notificación.|  
         |**Tipo de movimiento de notificación**|Especifica si la notificación de flujo de trabajo se desencadena por un cambio de registro, una solicitud de aprobación o una fecha de vencimiento pasada.|
-        |**Página de destino de vínculo**|Especifique otra página en [!INCLUDE[d365fin](includes/d365fin_md.md)] que el vínculo de la notificación abrirá en lugar de la página predeterminada.<br /><br />Tenga en cuenta que la página debe tener la misma tabla de origen que el registro involucrado.|  
-        |**Personalizar vínculo**|Especifique la dirección URL de un vínculo que se agrega a la notificación además del vínculo a la página en [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
+        |**Página de destino de vínculo**|Especifique otra página en [!INCLUDE[prod_short](includes/prod_short.md)] que el vínculo de la notificación abrirá en lugar de la página predeterminada.<br /><br />Tenga en cuenta que la página debe tener la misma tabla de origen que el registro involucrado.|  
+        |**Personalizar vínculo**|Especifique la dirección URL de un vínculo que se agrega a la notificación además del vínculo a la página en [!INCLUDE[prod_short](includes/prod_short.md)].|  
     2.  Para especificar opciones para una respuesta de flujo de trabajo que implica crear una solicitud de aprobación, rellene los campos tal como se describe en la tabla siguiente.  
 
         |Campo|Description|  

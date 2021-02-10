@@ -12,18 +12,18 @@ ms.workload: na
 ms.search.keywords: policy, coverage
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e7396b4acfbed7199e1364287cfb7e8dcbe57c19
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c5c9af3a076647380e2f6bed8ef7d0a55c3d8efe
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924233"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749298"
 ---
 # <a name="set-up-fixed-asset-insurance"></a>Configure el seguro de los activos fijos
 Para gestionar la cobertura del seguro de los activos fijos, debe configurar la información general de los seguros y una ficha de seguro por cada póliza.
 
 ## <a name="to-set-up-general-insurance-information"></a>Para configurar la información general de seguros
-Para poder utilizar las características de seguro en [!INCLUDE[d365fin](includes/d365fin_md.md)], debe configurar antes alguna información general de seguro.  
+Para poder utilizar las características de seguro en [!INCLUDE[prod_short](includes/prod_short.md)], debe configurar antes alguna información general de seguro.  
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración A/F** y luego elija el enlace relacionado.  
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -42,7 +42,7 @@ Puede acumular información acerca de cada póliza de seguros en la ficha de seg
 3. Rellene los campos según sea necesario.
 
 ## <a name="to-set-up-insurance-journal-templates"></a>Para configurar libros diarios de seguros
-[!INCLUDE[d365fin](includes/d365fin_md.md)] crea automáticamente un libro de diario de seguros la primera vez que abra la página **Diario seguros**, pero puede configurar libros de diario adicionales. Para obtener más información, consulte [Trabajar con diarios generales](ui-work-general-journals.md).  
+[!INCLUDE[prod_short](includes/prod_short.md)] crea automáticamente un libro de diario de seguros la primera vez que abra la página **Diario seguros**, pero puede configurar libros de diario adicionales. Para obtener más información, consulte [Trabajar con diarios generales](ui-work-general-journals.md).  
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Libros diario seguros** y luego elija el enlace relacionado.  
 2. Rellene los campos según sea necesario.
@@ -62,4 +62,4 @@ En un libro del diario de seguros puede configurar secciones. Los valores de la 
 [Activos fijos](fa-manage.md)  
 [Finanzas](finance.md)  
 [Introducción](product-get-started.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

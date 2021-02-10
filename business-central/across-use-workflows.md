@@ -1,6 +1,6 @@
 ---
-title: Utilizar flujos de trabajo | Documentos de Microsoft
-description: Puede configurar y utilizar flujos de trabajo que vinculen tareas de procesos empresariales realizadas por distintos usuarios. Las tareas de sistema, como registros automáticos, se pueden incluir como pasos en los flujos de trabajo, antes o después de las tareas de usuario. Solicitar y conceder aprobaciones para crear registros nuevos son pasos habituales de un flujo de trabajo.
+title: Uso de flujos de trabajo
+description: Puede configurar y utilizar flujos de trabajo que vinculen tareas de procesos empresariales realizadas por distintos usuarios. Conozca los diferentes pasos que debe seguir para comenzar a usar los flujos de trabajo.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d608841bf5d5586bd0ef84ef554055517def0eb8
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 375d53975bca97d16b3857056d44b9eada5cca97
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917956"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753005"
 ---
 # <a name="using-workflows"></a>Uso de flujos de trabajo
 Puede configurar y utilizar flujos de trabajo que vinculen tareas de procesos empresariales realizadas por distintos usuarios. Las tareas de sistema, como registros automáticos, se pueden incluir como pasos en los flujos de trabajo, antes o después de las tareas de usuario. Solicitar y conceder aprobaciones para crear registros nuevos son pasos habituales de un flujo de trabajo.  
@@ -38,4 +38,4 @@ Puede configurar y utilizar flujos de trabajo que vinculen tareas de procesos em
 ## <a name="see-also"></a>Consulte también  
 [Configuración de flujos de trabajo](across-set-up-workflows.md)   
 [Flujo de trabajo](across-workflow.md)   
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

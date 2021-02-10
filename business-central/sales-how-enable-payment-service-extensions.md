@@ -10,21 +10,21 @@ ms.workload: na
 ms.search.keywords: online payment
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6d905c6155b305a5788ca48a1364dbd619c084ef
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3bcfac75d1d161a4163fda466e320b0efd408655
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926252"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758272"
 ---
 # <a name="enable-customer-payments-through-payment-services"></a>Permitir los pagos de clientes mediante servicios de pago
 Como alternativa a recopilar pagos a través de transferencia bancaria o tarjetas de crédito, los clientes pueden pagarle a través de su cuenta en servicios de pago, como Microsoft Pay, PayPal o WorldPay.  
 
-Al habilitar un servicio de pago en [!INCLUDE[d365fin](includes/d365fin_md.md)], hay disponible un vínculo al servicio en los documentos de venta que envíe por correo electrónico a los clientes. Los clientes pueden utilizar el vínculo para ir al servicio de pago y pagar la factura, directamente desde el documento de venta. Si no desea incluir el vínculo, por ejemplo, si un cliente paga en efectivo, puede quitar el servicio de pago de la factura antes de registrarla.  
+Al habilitar un servicio de pago en [!INCLUDE[prod_short](includes/prod_short.md)], hay disponible un vínculo al servicio en los documentos de venta que envíe por correo electrónico a los clientes. Los clientes pueden utilizar el vínculo para ir al servicio de pago y pagar la factura, directamente desde el documento de venta. Si no desea incluir el vínculo, por ejemplo, si un cliente paga en efectivo, puede quitar el servicio de pago de la factura antes de registrarla.  
 
-Las extensiones Microsoft Pay, PayPal Payments Standard y WorldPay Payments Standard están instaladas en [!INCLUDE[d365fin](includes/d365fin_md.md)] y están preparadas para que las active.  
+Las extensiones Microsoft Pay, PayPal Payments Standard y WorldPay Payments Standard están instaladas en [!INCLUDE[prod_short](includes/prod_short.md)] y están preparadas para que las active.  
 
-## <a name="to-enable-a-payment-service-in-d365fin"></a>Para activar un servicio de pago en [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="to-enable-a-payment-service-in-prod_short"></a>Para activar un servicio de pago en [!INCLUDE[prod_short](includes/prod_short.md)]
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Servicios de pagos** y luego elija el enlace relacionado.  
 2. En la página **Servicios de pago**, seleccione la acción **Nuevo**.  
 3. Seleccione el servicio de pago y luego cierre la página.  
@@ -43,5 +43,5 @@ Las extensiones Microsoft Pay, PayPal Payments Standard y WorldPay Payments Stan
 ## <a name="see-also"></a>Consulte también  
 [Configuración de ventas](sales-setup-sales.md)  
 [Ccial](sales-manage-sales.md)  
-[Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones](ui-extensions.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Personalizar [!INCLUDE[prod_short](includes/prod_short.md)] con extensiones](ui-extensions.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

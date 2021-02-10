@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2ad867ebf705a4be3b544e017fe67f17d63e47b7
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6a716b25f3dfb25d2011fd12ed388fed5e1e98f9
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917581"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751835"
 ---
 # <a name="design-details-average-cost"></a>Detalles de diseño: Coste medio
-El coste medio de un producto se calcula con una media ponderada periódica, en función del periodo de coste medio que esté configurado en [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+El coste medio de un producto se calcula con una media ponderada periódica, en función del periodo de coste medio que esté configurado en [!INCLUDE[prod_short](includes/prod_short.md)].  
 
  La fecha de valoración se establece automáticamente.  
 
@@ -211,4 +211,4 @@ El coste medio de un producto se calcula con una media ponderada periódica, en 
  [Detalles de diseño: Liquidación de productos](design-details-item-application.md)  
  [Gestión de costes de inventario](finance-manage-inventory-costs.md)  
  [Finanzas](finance.md)  
- [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+ [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -8,15 +8,15 @@ ms.reviewer: edupont
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: d284531b61d6d60be633a52cf42c25a715bea8c3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 22a1aeb32354b9e14b10d0e2248d25794cfb1ada
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913598"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753207"
 ---
 # <a name="using-the-same-external-document-numbers-accross-fiscal-years"></a>Uso de los mismos números de documento externo en todos los ejercicios
-En general, [!INCLUDE[prodshort](../../includes/prodshort.md)] no permite registrar documentos con el mismo valor en **N.º documento externo**, ni siquiera en ejercicios anteriores, debido a la legislación. En España, sin embargo, esto está aceptado, y [!INCLUDE[prodshort](../../includes/prodshort.md)] ahora incluye una opción para permitir este comportamiento. 
+En general, [!INCLUDE[prod_short](../../includes/prod_short.md)] no permite registrar documentos con el mismo valor en **N.º documento externo**, ni siquiera en ejercicios anteriores, debido a la legislación. En España, sin embargo, esto está aceptado, y [!INCLUDE[prod_short](../../includes/prod_short.md)] ahora incluye una opción para permitir este comportamiento. 
 
 ## <a name="to-allow-posting-of-the-same-external-document-no-accross-fiscal-years"></a>Para permitir el registro del mismo **número de documento externo** en todos los ejercicios
 

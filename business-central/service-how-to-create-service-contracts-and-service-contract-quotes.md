@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 4a4f4cf4c27ff995be3d0caac25c6ab849a13eec
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 60cbb65da2de80ad19bb30e3023a4b3a801244ab
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925702"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747973"
 ---
 # <a name="work-with-service-contracts-and-service-contract-quotes"></a>Trabajar con contratos de servicio y ofertas de contrato de servicio
 Puede crear un contrato de servicio de forma manual o desde una oferta de contrato de servicio. Puede utilizar una oferta de contrato de servicio como precursora de un contrato de servicio, en ésta su empresa realiza una oferta al cliente para obtener así su aprobación para poder convertirla en un contrato de servicio. Los procedimientos para crear un contrato de servicio o una oferta de contrato de servicio son similares.  
@@ -194,7 +194,7 @@ Es posible que tenga que cancelar un contrato de servicio cuando el contrato hay
 6. Si hay facturas, abonos o movimientos de prepago abiertos registrados para el contrato, aparecerá un mensaje de confirmación. En el cuadro de mensaje, elija **No** para volver a contrato y registrar los documentos o **Sí** para continuar el proceso de cancelación.  
 
 ## <a name="filing-a-service-contract-or-contract-quote"></a>Archivado de un contrato de servicio u oferta de contrato  
-Puede archivar contratos de servicio y ofertas de contrato en cualquier momento para registrar una copia del contrato o una oferta de contrato. [!INCLUDE[d365fin](includes/d365fin_md.md)] archiva contratos de servicio automáticamente cuando se convierten ofertas de contrato en contratos de servicio o se cancelan contratos de servicio. Puede archivar un contrato u oferta mediante la acción **Archivar contrato** en las páginas **Contratos de servicio** u **Ofertas contrato servicio**. Si desea ver los contratos de ofertas archivados busque **Contratos archivados**.
+Puede archivar contratos de servicio y ofertas de contrato en cualquier momento para registrar una copia del contrato o una oferta de contrato. [!INCLUDE[prod_short](includes/prod_short.md)] archiva contratos de servicio automáticamente cuando se convierten ofertas de contrato en contratos de servicio o se cancelan contratos de servicio. Puede archivar un contrato u oferta mediante la acción **Archivar contrato** en las páginas **Contratos de servicio** u **Ofertas contrato servicio**. Si desea ver los contratos de ofertas archivados busque **Contratos archivados**.
 
 ## <a name="see-also"></a>Consulte también  
 [Configurar contratos de servicio](service-how-setup-service-contracts.md)  

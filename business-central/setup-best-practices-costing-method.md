@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bf342b4cfcc59f51c2aae8ca6e36f25d7f3f5e35
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 1b08ebbdd24e821f5ed528d9956f2753c84fbc05
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912960"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747848"
 ---
 # <a name="setup-best-practices-costing-method"></a>Procedimientos recomendados de configuración: valoración de existencias
 
@@ -37,4 +37,4 @@ La **valoración de existencias** en la ficha de producto define cómo se regist
  [Detalles de diseño: Métodos de coste](design-details-costing-methods.md)   
  [Detalles de diseño: Coste de inventario](design-details-inventory-costing.md)   
  [Configurar áreas de aplicación complejas mediante procedimientos recomendados](set-up-complex-application-areas-using-best-practices.md)  
- [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

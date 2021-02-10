@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: service, cost, service order
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 50b2a25ca18773340e10b52529ba484843cad7f1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f978047720f6e67c58c7c845a15f957258aaca3c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910310"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757922"
 ---
 # <a name="set-up-service-contracts"></a>Configurar contratos de servicio
 Antes de que pueda trabajar con contratos, debe configurar las opciones siguientes: 
@@ -23,7 +23,7 @@ Antes de que pueda trabajar con contratos, debe configurar las opciones siguient
 * **Grupos contrato servicio**, que reúne contratos de servicio relacionados.
 * Los **grupos de cuentas de contratos de servicio**, que se utilizan para agrupar las cuentas de contratos de servicio que se utilizan para agrupar las cuentas de contratos de servicio con las facturas de servicio creadas para los contratos de servicio. Asigne estos grupos a los contratos de servicio.  
 * **Plantillas de contratos** que definen las disposiciones del contrato de contratos que incluyen los detalles del contrato de servicio más utilizados. Puede utilizar plantillas cuando cree ofertas de contrato de servicio. Al crear una oferta de contrato, los campos contienen automáticamente el contenido de los campos de la plantilla.
-* Las **Plantillas de clientes** que le permiten crear ofertas para contactos o clientes potenciales que no están registrados como clientes en [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+* Las **Plantillas de clientes** que le permiten crear ofertas para contactos o clientes potenciales que no están registrados como clientes en [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## <a name="to-set-up-a-service-contract-group"></a>Para configurar un grupo de contratos de servicio  
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Grupos contrato servicio** y luego elija el enlace relacionado.  

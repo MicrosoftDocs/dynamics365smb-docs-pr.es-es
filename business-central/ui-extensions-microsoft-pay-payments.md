@@ -11,19 +11,19 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5885674316e082323462cbad9fce3f20590f06d5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 748316c411c4b04947685c6053e9c53aa9102c35
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915040"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747573"
 ---
 # <a name="the-microsoft-pay-extension"></a>Extensión Microsoft Pay
 
 > [!IMPORTANT]
-> A partir del 8 de febrero de 2020, los cambios en el servicio Microsoft Pay afectarán a la extensión Microsoft Pay en Microsoft [!INCLUDE[d365fin](includes/d365fin_long_md.md)]. Debido a los cambios, después del 8 de febrero, los vínculos de pago **Pagar ahora** que la extensión Microsoft Pay genera para las facturas en [!INCLUDE[d365fin](includes/d365fin_md.md)] no abrirán Microsoft Pay. Los clientes que usan la extensión deben cambiar la configuración de los Servicios de pago para comenzar a usar la extensión PayPal en su lugar.<br /></br>
+> A partir del 8 de febrero de 2020, los cambios en el servicio Microsoft Pay afectarán a la extensión Microsoft Pay en Microsoft [!INCLUDE[prod_short](includes/prod_long.md)]. Debido a los cambios, después del 8 de febrero, los vínculos de pago **Pagar ahora** que la extensión Microsoft Pay genera para las facturas en [!INCLUDE[prod_short](includes/prod_short.md)] no abrirán Microsoft Pay. Los clientes que usan la extensión deben cambiar la configuración de los Servicios de pago para comenzar a usar la extensión PayPal en su lugar.<br /></br>
 >
-> A partir del 8 de enero, mostraremos una notificación en [!INCLUDE[d365fin](includes/d365fin_md.md)]. La notificación contendrá un vínculo a la configuración que necesita cambiar y a más información. Después del 8 de febrero, la extensión Microsoft Pay ya no estará disponible en [!INCLUDE[d365fin](includes/d365fin_md.md)].<br /></br>
+> A partir del 8 de enero, mostraremos una notificación en [!INCLUDE[prod_short](includes/prod_short.md)]. La notificación contendrá un vínculo a la configuración que necesita cambiar y a más información. Después del 8 de febrero, la extensión Microsoft Pay ya no estará disponible en [!INCLUDE[prod_short](includes/prod_short.md)].<br /></br>
 >
 > Las modificaciones afectan a las siguientes versiones de Business Central:
 > - Microsoft Dynamics 365 Business Central de octubre de 2018
@@ -42,9 +42,9 @@ La extensión de Microsoft Pay proporciona las siguientes ventajas:
 - El vínculo de Microsoft Pay se puede incrustar automáticamente en cada documento de la factura o por el usuario.
 - Como esta funcionalidad está diseñada como extensión, tiene un control total para activarla cuando y si sus procesos empresariales lo requieren.
 
-La activación de extensiones de servicio de pago es gratuita en [!INCLUDE[d365fin](includes/d365fin_md.md)], pero deberá ponerse en contacto con el servicio de pago para obtener una cuenta. Para obtener más información, consulte [Permitir pagos de cliente a través de servicios de pago](sales-how-enable-payment-service-extensions.md).
+La activación de extensiones de servicio de pago es gratuita en [!INCLUDE[prod_short](includes/prod_short.md)], pero deberá ponerse en contacto con el servicio de pago para obtener una cuenta. Para obtener más información, consulte [Permitir pagos de cliente a través de servicios de pago](sales-how-enable-payment-service-extensions.md).
 
 ## <a name="see-also"></a>Consulte también
-[Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones](ui-extensions.md)  
+[Personalizar [!INCLUDE[prod_short](includes/prod_short.md)] con extensiones](ui-extensions.md)  
 [Configuración de ventas](sales-setup-sales.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

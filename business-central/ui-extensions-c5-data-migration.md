@@ -10,19 +10,19 @@ ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: fb71224df8730c68fb5c56c255353a05a7846eed
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0f257b81f1e36e86e40e67ca8ba07169ec22d938
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912364"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747598"
 ---
 # <a name="the-c5-data-migration-extension"></a>Extensión de migración de datos de C5
 
-Esta extensión facilita la migración de clientes, proveedores, productos y las cuentas de contabilidad de Microsoft Dynamics C5 2012 a [!INCLUDE[d365fin](includes/d365fin_md.md)]. También puede migrar los movimientos históricos para cuentas de contabilidad.
+Esta extensión facilita la migración de clientes, proveedores, productos y las cuentas de contabilidad de Microsoft Dynamics C5 2012 a [!INCLUDE[prod_short](includes/prod_short.md)]. También puede migrar los movimientos históricos para cuentas de contabilidad.
 
 > [!Note]
-> La empresa en [!INCLUDE[d365fin](includes/d365fin_md.md)] no debe contener ningún dato. Además, después de iniciar una migración, no debe crear clientes, proveedores, artículos ni cuentas hasta que la finalice.
+> La empresa en [!INCLUDE[prod_short](includes/prod_short.md)] no debe contener ningún dato. Además, después de iniciar una migración, no debe crear clientes, proveedores, artículos ni cuentas hasta que la finalice.
 
 ## <a name="what-data-is-migrated"></a>¿Qué datos se migran?
 Se migran los datos siguientes para cada entidad:
@@ -100,14 +100,14 @@ Si migra cuentas, los datos siguientes también se migrarán:
 
 ## <a name="file-size-requirements"></a>Requisitos de tamaño del archivo
 
-El tamaño máximo del archivo que puede descargar en [!INCLUDE[d365fin](includes/d365fin_md.md)] es de 150 MB. Si el archivo que se exporta de C5 es más grande, tenga en cuenta migrar datos en varios archivos. Por ejemplo, exporte uno o dos tipos de entidades de C5, como clientes y proveedores, a un archivo y luego exporte los elementos a otro archivo, y así sucesivamente. Puede importar archivos individualmente en [!INCLUDE[d365fin](includes/d365fin_md.md)].
+El tamaño máximo del archivo que puede descargar en [!INCLUDE[prod_short](includes/prod_short.md)] es de 150 MB. Si el archivo que se exporta de C5 es más grande, tenga en cuenta migrar datos en varios archivos. Por ejemplo, exporte uno o dos tipos de entidades de C5, como clientes y proveedores, a un archivo y luego exporte los elementos a otro archivo, y así sucesivamente. Puede importar archivos individualmente en [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## <a name="to-migrate-data"></a>Para migrar datos
 
-Deben realizarse algunos para exportar datos de la C5 e importarlos a [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
+Deben realizarse algunos para exportar datos de la C5 e importarlos a [!INCLUDE[prod_short](includes/prod_short.md)]:  
 
 1. En la C5, utilice la función **Base de datos de exportación** para exportar los datos. Envíe la carpeta de exportación a una carpeta comprimida.  
-2. En [!INCLUDE[d365fin](includes/d365fin_md.md)], elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Migración de datos** y luego elija **Migración de datos**.  
+2. En [!INCLUDE[prod_short](includes/prod_short.md)], elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Migración de datos** y luego elija **Migración de datos**.  
 3. Complete los pasos de la guía de configuración asistida. Asegúrese de elegir **Importar de Microsoft Dynamcis C5 2012** como origen de datos.  
 
 ## <a name="viewing-the-status-of-the-migration"></a>Ver el estado de la migración
@@ -144,7 +144,7 @@ Después de corregir uno o más errores, puede elegir **Migrar** para migrar sol
 
 ## <a name="verifying-data-after-migrating"></a>Comprobar datos después de migrar
 
-Un modo de comprobar que los datos se han migrado correctamente es mirar las páginas siguientes en la C5 y [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Un modo de comprobar que los datos se han migrado correctamente es mirar las páginas siguientes en la C5 y [!INCLUDE[prod_short](includes/prod_short.md)].
 
 |Microsoft Dynamics C5 2012 | Dynamics 365 Business Central| Trabajo por lotes para utilizar |
 |---------------------------|------------------------------|------------------|
@@ -159,5 +159,5 @@ Puede detener la migración de datos con la opción **Detener todas las migracio
 
 ## <a name="see-also"></a>Consulte también
 
-[Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones](ui-extensions.md)  
+[Personalizar [!INCLUDE[prod_short](includes/prod_short.md)] con extensiones](ui-extensions.md)  
 [Introducción](product-get-started.md)  

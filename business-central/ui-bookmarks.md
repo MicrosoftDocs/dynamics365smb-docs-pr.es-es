@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1078b9839920684c4be54e1753db5c87e1694912
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 1bcbd23658ff2a74ae0ab88b6020e1d859f37355
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912701"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747723"
 ---
 # <a name="bookmark-a-page-or-report-on-your-role-center"></a>Marque una página o informe en su Área de trabajo
 Con el nuevo icono de marcador, puede agregar una acción que abre una página o informe desde el menú de navegación de su Área de trabajo. Esto le permite alcanzar rápidamente su contenido favorito o tareas comerciales. Agrega el marcador desde la página o informe de destino, lo que significa la pantalla que quiera vincular en el Área de trabajo para abrir.
@@ -81,6 +81,6 @@ Cuando se agrega una acción nueva, cualquier texto traducido que estaba disponi
 
 ## <a name="see-also"></a>Consulte también
 [Personalizar el área de trabajo](ui-personalization-user.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Cambiar la configuración básica](ui-change-basic-settings.md)  
 [Cambiar las funciones que se muestran](ui-experiences.md)  

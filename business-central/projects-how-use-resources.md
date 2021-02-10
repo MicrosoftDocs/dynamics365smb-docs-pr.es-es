@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: project management, capacity, staff
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: fef4421cafa8d0f7fd18d24ab7a78a814702513e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c753e38566971c044da3337f0f35f1609bd489c8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918993"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748873"
 ---
 # <a name="use-resources-for-jobs"></a>Uso de recursos para proyectos
 El consumo de los recursos en el diario de proyectos se registra para hacer un seguimiento de costes, precios y tipos de trabajo que están vinculados a proyectos. Para obtener más información, consulte [Registro del uso para proyectos](projects-how-record-job-usage.md).
@@ -73,4 +73,4 @@ Si ya ha configurado precios de venta alternativos para algunos recursos, puede 
 [Finanzas](finance.md)  
 [Compras](purchasing-manage-purchasing.md)         
 [Ventas](sales-manage-sales.md)     
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

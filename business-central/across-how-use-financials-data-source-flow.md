@@ -10,33 +10,33 @@ ms.workload: na
 ms.reviewer: edupont
 ms.search.keywords: workflow, OData, Power App, SOAP
 ms.date: 10/01/2020
-ms.author: bmeier
-ms.openlocfilehash: 8f4da5b51b4e0df5cdf6f41f7a78c0a51cf0f083
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.author: edupont
+ms.openlocfilehash: f44b727a353208d1b2b8f5d918400de1687acc52
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924858"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754547"
 ---
-# <a name="using-prodshort-in-an-automated-workflow"></a>Usar [!INCLUDE[prodshort](includes/prodshort.md)] en un flujo de trabajo automatizado
+# <a name="using-prod_short-in-an-automated-workflow"></a>Usar [!INCLUDE[prod_short](includes/prod_short.md)] en un flujo de trabajo automatizado
 
-Puede utilizar sus datos de [!INCLUDE[prodshort](includes/prodshort.md)] como parte de un flujo de trabajo de Microsoft Power Automate.
+Puede utilizar sus datos de [!INCLUDE[prod_short](includes/prod_short.md)] como parte de un flujo de trabajo de Microsoft Power Automate.
 
 > [!NOTE]
-> Además de Power Automate, puede utilizar la funcionalidad de flujo de trabajo en [!INCLUDE[prodshort](includes/prodshort.md)]. Tenga en cuenta que, aunque son dos sistemas de flujo de trabajo independientes, cualquier plantilla de flujo de trabajo que cree con Power Automate se agrega a la lista de flujos de trabajo en [!INCLUDE[prodshort](includes/prodshort.md)]. Para obtener más información, consulte [Flujo de trabajo](across-workflow.md).  
+> Además de Power Automate, puede utilizar la funcionalidad de flujo de trabajo en [!INCLUDE[prod_short](includes/prod_short.md)]. Tenga en cuenta que, aunque son dos sistemas de flujo de trabajo independientes, cualquier plantilla de flujo de trabajo que cree con Power Automate se agrega a la lista de flujos de trabajo en [!INCLUDE[prod_short](includes/prod_short.md)]. Para obtener más información, consulte [Flujo de trabajo](across-workflow.md).  
 
 > [!NOTE]  
-> Debe disponer de una cuenta válida con [!INCLUDE[prodshort](includes/prodshort.md)] y con Power Automate.  
+> Debe disponer de una cuenta válida con [!INCLUDE[prod_short](includes/prod_short.md)] y con Power Automate.  
 
-## <a name="to-add-prodshort-as-a-data-source-in-power-automate"></a>Para agregar [!INCLUDE[prodshort](includes/prodshort.md)] como origen de datos de Power Automate
+## <a name="to-add-prod_short-as-a-data-source-in-power-automate"></a>Para agregar [!INCLUDE[prod_short](includes/prod_short.md)] como origen de datos de Power Automate
 
 1. En el explorador, vaya a [flow.microsoft.com](https://flow.microsoft.com) y, a continuación, inicie sesión.
 2. Seleccione **Mis flujos** en la cinta en la parte superior de la página.
 3. Hay tres formas de crear un flujo: **Iniciar desde plantilla**, **Iniciar desde cero** e **Iniciar desde un conector**. Una plantilla es un flujo predefinido que se ha creado de forma automática. Para utilizar una plantilla, selecciónela y cree una conexión para cada servicio que la plantilla usa. Con las opciones **Iniciar desde cero** e **Iniciar desde un conector** puede crear un flujo nuevo completamente desde cero.
 4. Para crear desde cero, en la página **Mis flujos**, elija las opciones **Iniciar desde cero** y **Flujo automatizado**.
-5. Busque el conector de **Microsoft [!INCLUDE[prodlong](includes/prodlong.md)]**.
+5. Busque el conector de **Microsoft [!INCLUDE[prod_long](includes/prod_long.md)]**.
 6. Defina un nombre y elija el activador que desea usar para su flujo.
-7. En la lista de disparadores disponibles, seleccione uno de los de [!INCLUDE[prodshort](includes/prodshort.md)] disponibles:  
+7. En la lista de disparadores disponibles, seleccione uno de los de [!INCLUDE[prod_short](includes/prod_short.md)] disponibles:  
 
     *Cuando se solicite la aprobación de un proveedor*,  
     *Cuando se solicite la aprobación de una línea de diario general*,  
@@ -50,31 +50,31 @@ Puede utilizar sus datos de [!INCLUDE[prodshort](includes/prodshort.md)] como pa
     *Cuando se solicite la aprobación de un documento de compra* o  
     *Cuando se solicite la aprobación de un documento de ventas*.
 
-8. Power Automate le solicitará que seleccione un ambiente y una empresa en su suscriptor de [!INCLUDE[prodshort](includes/prodshort.md)], así como las condiciones de los datos que desee escuchar.
+8. Power Automate le solicitará que seleccione un ambiente y una empresa en su suscriptor de [!INCLUDE[prod_short](includes/prod_short.md)], así como las condiciones de los datos que desee escuchar.
 
     > [!NOTE]
-    > El conector de [!INCLUDE[prodshort](includes/prodshort.md)] para Power Automate admite múltiples ambientes de producción y aislados. Si no ha creado múltiples ambientes de producción o aislados, **Producción** es la única opción disponible que puede elegir.  
+    > El conector de [!INCLUDE[prod_short](includes/prod_short.md)] para Power Automate admite múltiples ambientes de producción y aislados. Si no ha creado múltiples ambientes de producción o aislados, **Producción** es la única opción disponible que puede elegir.  
 
-    Ya se ha conectado correctamente con los datos de Business Central[!INCLUDE[prodshort](includes/prodshort.md)] y está preparado para comenzar a crear su flujo.
+    Ya se ha conectado correctamente con los datos de Business Central[!INCLUDE[prod_short](includes/prod_short.md)] y está preparado para comenzar a crear su flujo.
 
 9. Para crear desde una plantilla, seleccione la opción **Iniciar desde plantilla**.
-10. Busque las plantillas de **Microsoft [!INCLUDE[prodlong](includes/prodlong.md)]**.
+10. Busque las plantillas de **Microsoft [!INCLUDE[prod_long](includes/prod_long.md)]**.
 11. En la lista de plantillas disponibles, seleccione una de las plantillas y, a continuación, elija **Crear**.  
 
-    *Solicitar aprobación para pedido de [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]*,  
-    *Solicitar aprobación para oferta de venta de [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]*,  
-    *Solicitar aprobación para factura de venta de [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]*,  
-    *Solicitar aprobación para abono de venta de [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]*,  
-    *Solicitar aprobación para cliente de [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]*,  
-    *Solicitar aprobación para pedido de compra de [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]*,  
-    *Solicitar aprobación para factura de compra de [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]*,  
-    *Solicitar aprobación para abono de compra de [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]*,  
-    *Solicitar aprobación para producto de [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]*,  
-    *Solicitar aprobación para proveedor de [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]*,  
-    *Solicitar aprobación para lote de diario general de Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]* o    
-    *Solicitar aprobación para líneas de diario general de Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]*.  
+    *Solicitar aprobación para pedido de [!INCLUDE[prod_long](includes/prod_long.md)]*,  
+    *Solicitar aprobación para oferta de venta de [!INCLUDE[prod_long](includes/prod_long.md)]*,  
+    *Solicitar aprobación para factura de venta de [!INCLUDE[prod_long](includes/prod_long.md)]*,  
+    *Solicitar aprobación para abono de venta de [!INCLUDE[prod_long](includes/prod_long.md)]*,  
+    *Solicitar aprobación para cliente de [!INCLUDE[prod_long](includes/prod_long.md)]*,  
+    *Solicitar aprobación para pedido de compra de [!INCLUDE[prod_long](includes/prod_long.md)]*,  
+    *Solicitar aprobación para factura de compra de [!INCLUDE[prod_long](includes/prod_long.md)]*,  
+    *Solicitar aprobación para abono de compra de [!INCLUDE[prod_long](includes/prod_long.md)]*,  
+    *Solicitar aprobación para producto de [!INCLUDE[prod_long](includes/prod_long.md)]*,  
+    *Solicitar aprobación para proveedor de [!INCLUDE[prod_long](includes/prod_long.md)]*,  
+    *Solicitar aprobación para lote de diario general de Microsoft [!INCLUDE[prod_long](includes/prod_long.md)]* o    
+    *Solicitar aprobación para líneas de diario general de Microsoft [!INCLUDE[prod_long](includes/prod_long.md)]*.  
 12. Power Automate mostrará una lista de servicios utilizados en la plantilla de flujo e intentará conectarse automáticamente a esos servicios. Si no se ha conectado previamente a un servicio, se le pedirá que inicie sesión en cada uno de los servicios a los que necesita conectarse. Aparecerá una marca de verificación verde al lado de cada servicio una vez que se haya realizado una conexión correctamente. Seleccione **Continuar**.
-13. Power Automate le solicitará que seleccione un ambiente y una empresa en el suscriptor de [!INCLUDE[prodshort](includes/prodshort.md)]. Debido a que cada paso del flujo es independiente del siguiente, es posible que deba definir el ambiente y la empresa varias veces al usar una plantilla de Power Automate de [!INCLUDE[prodshort](includes/prodshort.md)].
+13. Power Automate le solicitará que seleccione un ambiente y una empresa en el suscriptor de [!INCLUDE[prod_short](includes/prod_short.md)]. Debido a que cada paso del flujo es independiente del siguiente, es posible que deba definir el ambiente y la empresa varias veces al usar una plantilla de Power Automate de [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Para obtener más información, consulte [Documentación de Power Automate](/power-automate/getting-started).
 
@@ -84,7 +84,7 @@ Para obtener más información, consulte [Documentación de Power Automate](/pow
 [Flujo de trabajo](across-workflow.md)  
 [Importar datos de empresa de otros sistemas financieros](across-import-data-configuration-packages.md)  
 [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md)  
-[Administrar flujos de trabajo de [!INCLUDE[prodlong](includes/prodlong.md)]](across-use-workflows.md)  
+[Administrar flujos de trabajo de [!INCLUDE[prod_long](includes/prod_long.md)]](across-use-workflows.md)  
 [Config. usuario aprobación](across-how-to-set-up-approval-users.md)  
-[Configurar [!INCLUDE[prodshort](includes/prodshort.md)]](setup.md)  
+[Configurar [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Finanzas](finance.md)  

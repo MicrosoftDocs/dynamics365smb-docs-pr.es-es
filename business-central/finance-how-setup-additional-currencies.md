@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: multiple currencies
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b0442a935442890d0edaec4fa803e887da47477f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8b548d6d8426fefa01bb45d3d1fdedaeb98966ce
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920552"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746896"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Configurar una divisa de informes adicional
 Las empresas trabajan cada vez en un mayor número de países o regiones, por lo que es muy importante que puedan revisar y crear informes de datos financieros en más de una divisa.
 
-La contabilidad se configura con la divisa local (DL), pero también se puede configurar para usarla en otra divisa a la que se asigna un tipo de cambio. Mediante la designación de una segunda divisa como la denominada divisa de informes adicional, [!INCLUDE[d365fin](includes/d365fin_md.md)] registrará automáticamente los importes tanto en la divisa local como en la divisa adicional en todos los movimientos de contabilidad y en otros movimientos, por ejemplo los del IVA.
+La contabilidad se configura con la divisa local (DL), pero también se puede configurar para usarla en otra divisa a la que se asigna un tipo de cambio. Mediante la designación de una segunda divisa como la denominada divisa de informes adicional, [!INCLUDE[prod_short](includes/prod_short.md)] registrará automáticamente los importes tanto en la divisa local como en la divisa adicional en todos los movimientos de contabilidad y en otros movimientos, por ejemplo los del IVA.
 
 > [!Warning]
 > La funcionalidad de divisa adicional no se debe usar como base de las traducciones de resultados financieros. No es una herramienta que pueda realizar traducciones de resultados financieros de las subsidiarias extranjeras como parte de la consolidación de una empresa. La divisa de informes adicional solo se puede utilizar para preparar los informes en otra divisa, como si dicha divisa fuera la divisa local de la empresa.
@@ -59,7 +59,7 @@ Para configurar una divisa adicional para informes, debe seguir estos pasos:
 |**Cta. aj. residual neg.**|La cuenta en que se registrarán los importes residuales negativos que sean pérdidas si se realizan registros en el área de contabilidad de la aplicación en la divisa local y la divisa adicional.|
 
 > [!NOTE]  
->  Se pueden producir importes residuales cuando [!INCLUDE[d365fin](includes/d365fin_md.md)] redondea importes del debe y el haber que se han convertido de la divisa local a una divisa adicional.  
+>  Se pueden producir importes residuales cuando [!INCLUDE[prod_short](includes/prod_short.md)] redondea importes del debe y el haber que se han convertido de la divisa local a una divisa adicional.  
 
 Debe especificar, para cada cuenta, como se ajustarán los importes de contabilidad de la cuenta en función de las fluctuaciones del tipo de cambio entre la divisa local y la divisa adicional.  
 
@@ -98,7 +98,7 @@ Debe especificar, para cada cuenta, como se ajustarán los importes de contabili
 ### <a name="to-activate-the-additional-reporting-currency"></a>Activar la divisa adicional  
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Configuración de contabilidad** y luego elija el enlace relacionado.  
 2. En la página **Configuración de contabilidad**, elija el campo **Divisa de informes adicional** para seleccionar la divisa adicional en la que desea informar.  
-3. Al salir del campo, [!INCLUDE[d365fin](includes/d365fin_md.md)] mostrará un mensaje de confirmación con una descripción de los efectos de seleccionar (y activar) la divisa adicional.  
+3. Al salir del campo, [!INCLUDE[prod_short](includes/prod_short.md)] mostrará un mensaje de confirmación con una descripción de los efectos de seleccionar (y activar) la divisa adicional.  
 4. Elija el botón **Sí** para confirmar que desea activar la divisa.  
 5. El trabajo por lotes **Ajustar divisa de informe adicional** se abre.
 
@@ -126,4 +126,4 @@ Además, los importes de todos los movimientos posteriores del mismo tipo se reg
 ## <a name="see-also"></a>Consulte también
 [Actualizar tipos de cambio de divisa](finance-how-update-currencies.md)  
 [Cerrar años y periodos](year-close-years-periods.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

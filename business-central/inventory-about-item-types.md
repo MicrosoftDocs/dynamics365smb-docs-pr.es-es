@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 095daa34ee8a956da8245f4e02c3bd438ba277fb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b3c9b79701296cd21492752e94b2a0ec7848658b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924008"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746321"
 ---
 # <a name="about-item-types"></a>Acerca de los tipos de productos
 En el campo **Tipo** en la página **Ficha de producto**, puede seleccionar para qué se usa el producto en su negocio y, por lo tanto, cómo se administra en el sistema. Existen tres opciones:
@@ -57,4 +57,4 @@ Los productos de los clientes con los que realiza el servicio, como una impresor
 [Configurar inventario](inventory-setup-inventory.md)  
 [Gestión de costes de inventario](finance-manage-inventory-costs.md)  
 [Grupos contables inventario](inventory-manage-inventory.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

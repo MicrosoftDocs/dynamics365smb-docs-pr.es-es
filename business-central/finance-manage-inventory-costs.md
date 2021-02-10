@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0f356ec93a678b3cb370c5bc42a91d8440344f7f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 9f59fc20fc6baeeb2932e52d7656e09db7250718
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916881"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746696"
 ---
 # <a name="managing-inventory-costs"></a>Gestión de costes de inventario
 La gestión de costes, también conocida como "valoración de existencias", se refiere al registro y la creación de informes sobre los costes operativos de la empresa. Incluye la creación de informes de los costes de stock y fabricación, es decir, el valor de los productos.   
@@ -26,7 +26,8 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 
 |**Para**|**Vea**|  
 |------------|-------------|  
-|Leer información conceptual para conocer los principios y definiciones que rigen la función de contabilidad de valoración de existencias en [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Acerca del contabilidad de valoración](finance-learn-about-costing.md)|  
+|Leer información conceptual para conocer los principios y definiciones que rigen la función de contabilidad de valoración de existencias en [!INCLUDE[prod_short](includes/prod_short.md)].|[Acerca del contabilidad de valoración](finance-learn-about-costing.md)|  
+|Asegúrese de que conoce el coste de los productos enviados mediante la asignación de costes de producto, tales como fletes, manipulación física, seguros y transporte en los que incurra después de la venta.|[Usar los cargos de producto a cuenta para los costes comerciales adicionales](payables-how-assign-item-charges.md)|
 |Información sobre todos los mecanismos en el sistema de costes.|[Detalles de diseño: Coste de inventario](design-details-inventory-costing.md)|
 |Leer cómo los periodos de inventario ayudan a las empresas a controlar el valor de las existencias con el tiempo definiendo periodos más cortos que se pueden cerrar para registrar según avanza el año fiscal.|[Trabajar con periodos de inventario](finance-how-to-work-with-inventory-periods.md)|
 |Leer por qué los costes estándar los suelen utilizar las empresas de fabricación como base de valoración para los componentes y productos finales.|[Acerca del cálculo de coste estándar](finance-about-calculating-standard-cost.md)|
@@ -36,11 +37,11 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Utilice funciones especiales de cálculo de costes para las transacciones de artículos diarios en las operaciones del elemento.|[Administración de existencias y costes de fabricación](finance-handle-inventory-and-manufacturing-costs.md)|  
 |Actualice periódicamente los costes estándar de los componentes, en ensamblados o L.M. de producción, y distribuya los nuevos costes al producto principal.|[Actualizar costes estándar](finance-how-to-update-standard-costs.md)|
 |Consulte y modifique manualmente determinados movimientos de liquidación del producto que se crean automáticamente durante las transacciones del inventario.|[Eliminar y liquidar de nuevo los movimientos contables de producto](finance-how-to-remove-and-reapply-item-entries.md)|
-|Realizar tareas de control e informes de final de periodo, como calcular el valor de existencias y registrar costes en la contabilidad.|[Creación de informes de costes y conciliación con la contabilidad](finance-report-costs-and-reconcile-with-the-general-ledger.md)|
+|Realizar tareas de control e informes de final de periodo, como calcular el valor de existencias y registrar costes en la contabilidad.|[Conciliar costes de inventario con la contabilidad general](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|
 
 ## <a name="see-also"></a>Consulte también  
  [Finanzas](finance.md)  
  [Grupos contables inventario](inventory-manage-inventory.md)   
- [Ventas](sales-manage-sales.md)   
+ [Ccial](sales-manage-sales.md)   
  [Compras](purchasing-manage-purchasing.md)  
- [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

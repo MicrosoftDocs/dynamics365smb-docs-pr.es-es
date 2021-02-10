@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b36790ec5fa53c30d72583d268a365a5746c24ff
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a6c44fb4c6feca0191086db21f578b33da6213da
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919745"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753203"
 ---
 # <a name="export-vat-statements-in-text-format"></a>Exportar declaraciones de IVA en formato de texto
 Puede exportar una declaración de IVA en formato de texto y después enviarla electrónicamente a las autoridades fiscales.  
@@ -32,7 +32,7 @@ Para obtener más información, consulte el sitio web de la [Agencia Tributaria]
     > [!IMPORTANT]  
     >  El nombre de la declaración de IVA debe ser de tipo de plantilla **Informe 1 columna**.  
     >   
-    >  En la versión estándar de [!INCLUDE[d365fin](../../includes/d365fin_md.md)], el nombre de la declaración del IVA para la declaración telemática 320 es del tipo **Informe 1 columna**.  
+    >  En la versión estándar de [!INCLUDE[prod_short](../../includes/prod_short.md)], el nombre de la declaración del IVA para la declaración telemática 320 es del tipo **Informe 1 columna**.  
 
 4.  En la ficha desplegable **Opciones** de la página **Declaración telemática IVA**, rellene los campos tal y como se describe en la tabla siguiente.  
 

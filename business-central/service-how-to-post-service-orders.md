@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2e8dcdaa2cf275ff439257bc7146f90ab753f32f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 36a4bdea7967544ad19cb562077a8bdf498dc655
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915315"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757872"
 ---
 # <a name="post-service-orders-and-credit-memos"></a>Registrar abonos y órdenes de servicio
 Una vez que haya creado un pedido de servicio, rellenado toda la información y realizado los cambios necesarios, podrá registrarlo. El pedido debe contener como mínimo una línea de producto de servicio y una línea de servicio para poder registrarlo. Si el pedido contiene más de una línea de servicio, se registrarán todas las líneas de una sola vez.  
@@ -85,7 +85,7 @@ En el siguiente procedimiento se describe cómo registrar los productos, los cos
 El servicio se registrará como consumido parcial o totalmente, dependiendo del valor del campo **Cantidad a consumir**, y se crearán los movimientos contables relevantes. Asimismo, los documentos de envío de servicio registrados previamente se actualizarán por orden cronológico con las cantidades consumidas. Las cantidades correspondientes se actualizarán en las líneas de servicio del pedido.  
 
 ## <a name="to-post-shipments-from-service-orders"></a>Para registrar envíos de pedidos de servicio  
-Tras especificar los detalles de un servicio, puede actualizar y registrar las cantidades de productos utilizadas, el tiempo invertido y los costes adquiridos. Como resultado, [!INCLUDE[d365fin](includes/d365fin_md.md)] realiza los cambios necesarios para reflejar el nuevo estado del inventario y el estado actual del procesamiento del pedido específico.  
+Tras especificar los detalles de un servicio, puede actualizar y registrar las cantidades de productos utilizadas, el tiempo invertido y los costes adquiridos. Como resultado, [!INCLUDE[prod_short](includes/prod_short.md)] realiza los cambios necesarios para reflejar el nuevo estado del inventario y el estado actual del procesamiento del pedido específico.  
 
 El siguiente procedimiento muestra cómo registrar el envío de artículos de línea de servicio en ubicaciones en las que no se requiera control de almacén.  
 
@@ -97,7 +97,7 @@ El siguiente procedimiento muestra cómo registrar el envío de artículos de l�
 
 4. Seleccione la acción **Registrar**. en la página que aparece, elija el botón **Envío**.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] crea los movimientos (de garantía, de producto, de servicio o de cuenta), genera el documento de envío de servicio registrado y actualiza los campos pertinentes en las líneas de servicio del pedido de servicio.  
+[!INCLUDE[prod_short](includes/prod_short.md)] crea los movimientos (de garantía, de producto, de servicio o de cuenta), genera el documento de envío de servicio registrado y actualiza los campos pertinentes en las líneas de servicio del pedido de servicio.  
 
 Si el almacén está configurado para requerir el control de almacén, el envío y el movimiento de los productos de línea de servicio funcionan de la misma forma que para otros documentos de origen. La única diferencia es que los productos de línea de servicio pueden consumirse externa o internamente y por lo tanto requieren dos funciones diferentes de lanzamiento.  
 

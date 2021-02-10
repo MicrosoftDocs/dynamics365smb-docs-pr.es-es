@@ -7,22 +7,22 @@ ms.topic: article
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 53221cbacb35e7e82077295a6f7098f07c2b02e6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 58c1d9bba8942dbd400a3ed0837ef7a39fd2bb13
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913476"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747146"
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a>Análisis de estados financieros en Microsoft Excel
 
-En [!INCLUDE [prodshort](includes/prodshort.md)], puede ver los KPI y obtener resúmenes del estado financiero de la empresa. También puede abrir las listas en Excel y analizar los datos. Además, también puede exportar estados financieros pesados como el balance o la cuenta de resultados a Excel, analizar los datos e imprimir los informes.  
+En [!INCLUDE [prod_short](includes/prod_short.md)], puede ver los KPI y obtener resúmenes del estado financiero de la empresa. También puede abrir las listas en Excel y analizar los datos. Además, también puede exportar estados financieros pesados como el balance o la cuenta de resultados a Excel, analizar los datos e imprimir los informes.  
 
-Desde las Áreas de trabajo Administrador de negocio y Contable, puede elegir qué estados financieros desea ver en Excel desde un menú desplegable en la sección Informes de la cinta de opciones. Cuando elige una declaración, se abrirá en Excel o Excel en línea. Un complemento conecta los datos a [!INCLUDE [prodshort](includes/prodshort.md)]. Sin embargo, tiene que iniciar sesión con la misma cuenta que utilice en [!INCLUDE [prodshort](includes/prodshort.md)].  
+Desde las Áreas de trabajo Administrador de negocio y Contable, puede elegir qué estados financieros desea ver en Excel desde un menú desplegable en la sección Informes de la cinta de opciones. Cuando elige una declaración, se abrirá en Excel o Excel en línea. Un complemento conecta los datos a [!INCLUDE [prod_short](includes/prod_short.md)]. Sin embargo, tiene que iniciar sesión con la misma cuenta que utilice en [!INCLUDE [prod_short](includes/prod_short.md)].  
 
 ## <a name="getting-the-overview-and-the-details-in-excel"></a>Obtención de panorama y detalles en Excel
 
-En la cinta de opciones, seleccione el informe correspondiente de Excel y deje que se abra para que pueda obtener la visión general que estaba buscando. En esta versión de [!INCLUDE [prodshort](includes/prodshort.md)], proporcionamos los siguientes informes de Excel:
+En la cinta de opciones, seleccione el informe correspondiente de Excel y deje que se abra para que pueda obtener la visión general que estaba buscando. En esta versión de [!INCLUDE [prod_short](includes/prod_short.md)], proporcionamos los siguientes informes de Excel:
 
 - Balance  
 - Balance de ingresos  
@@ -33,19 +33,19 @@ En la cinta de opciones, seleccione el informe correspondiente de Excel y deje q
 
 Digamos que desea profundizar en su flujo de efectivo. Desde el Área de trabajo Administrador de negocio o Contable, puede abrir el informe de **Estado de flujo de efectivo** en Excel, pero lo que realmente sucede es que exportamos los datos relevantes y creamos un libro de Excel basado en una plantilla predefinida. Dependiendo de su navegador, se le pedirá que abra o guarde el libro.  
 
-En Excel, ve una pestaña donde los datos se establecen en la primera hoja de cálculo. Todos los datos que se exportaron también están presentes en otras hojas de trabajo en caso de que lo necesite. Puede imprimir el informe de inmediato o puede modificarlo hasta que tenga el panorama y los detalles que desee. Utilice el complemento [!INCLUDE [prodshort](includes/prodshort.md)] de Excel para filtrar y analizar datos.  
+En Excel, ve una pestaña donde los datos se establecen en la primera hoja de cálculo. Todos los datos que se exportaron también están presentes en otras hojas de trabajo en caso de que lo necesite. Puede imprimir el informe de inmediato o puede modificarlo hasta que tenga el panorama y los detalles que desee. Utilice el complemento [!INCLUDE [prod_short](includes/prod_short.md)] de Excel para filtrar y analizar datos.  
 
 ### <a name="understanding-the-excel-templates"></a>Conocer las plantillas de Excel
 
 Los informes de Excel predefinidos se basan en los datos de la empresa actual. Por ejemplo, la empresa de demostración ha configurado el plan de cuentas para enumerar tres cuentas de efectivo en *Activos circulantes*: 10100 **Cuenta de cheques**, 10200 **Cuenta de ahorro** y 10300 **inero para gastos menores**. Las cuentas tienen el campo **Subcategoría de cuenta** establecido en *Efectivo* y es su cantidad combinada la que aparece como *Efectivo* en el informe de Excel **Balance**.  
 
-Las hojas adicionales del libro de Excel muestran los datos que hay detrás del informe. Pero para descubrir qué se esconde detrás de las agrupaciones en los informes de Excel, es posible que deba volver a [!INCLUDE [prodshort](includes/prodshort.md)] y aplicar filtros a las listas, por ejemplo.  
+Las hojas adicionales del libro de Excel muestran los datos que hay detrás del informe. Pero para descubrir qué se esconde detrás de las agrupaciones en los informes de Excel, es posible que deba volver a [!INCLUDE [prod_short](includes/prod_short.md)] y aplicar filtros a las listas, por ejemplo.  
 
-## <a name="the-prodshort-excel-add-in"></a>Complemento [!INCLUDE [prodshort](includes/prodshort.md)] de Excel
+## <a name="the-prod_short-excel-add-in"></a>Complemento [!INCLUDE [prod_short](includes/prod_short.md)] de Excel
 
-Su experiencia con [!INCLUDE [prodshort](includes/prodshort.md)] incluye un complemento de Excel. Dependiendo de su suscripción, se iniciará sesión automáticamente o deberá especificar los mismos datos de inicio de sesión que utiliza para [!INCLUDE [prodshort](includes/prodshort.md)]. Para obtener más información, consulte [Ver y editar en Excel desde Business Central](across-work-with-excel.md).  
+Su experiencia con [!INCLUDE [prod_short](includes/prod_short.md)] incluye un complemento de Excel. Dependiendo de su suscripción, se iniciará sesión automáticamente o deberá especificar los mismos datos de inicio de sesión que utiliza para [!INCLUDE [prod_short](includes/prod_short.md)]. Para obtener más información, consulte [Ver y editar en Excel desde Business Central](across-work-with-excel.md).  
 
-Con el complemento, puede conseguir nuevos datos de [!INCLUDE [prodshort](includes/prodshort.md)] y puede insertar cambios a [!INCLUDE [prodshort](includes/prodshort.md)]. Sin embargo, la capacidad de insertar datos en la base de datos está desactivada para los informes financieros de Excel a la lista anterior.  
+Con el complemento, puede conseguir nuevos datos de [!INCLUDE [prod_short](includes/prod_short.md)] y puede insertar cambios a [!INCLUDE [prod_short](includes/prod_short.md)]. Sin embargo, la capacidad de insertar datos en la base de datos está desactivada para los informes financieros de Excel a la lista anterior.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 

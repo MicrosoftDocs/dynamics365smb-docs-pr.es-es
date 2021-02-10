@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: trade
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 30976629fbee935ccefb15fafa11e38527eb922c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f6d913681967bbe609a03d7d6a2736e9c86b4ce0
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910635"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758172"
 ---
 # <a name="sell-products"></a>Vender productos
 
 Puede crear un pedido o una factura de venta para registrar el contrato con un cliente para vender determinados productos según los términos de entrega y pago establecidos.
 
 > [!NOTE]  
-> Use pedidos de venta si el proceso de venta requiere que pueda enviar parte de una cantidad del pedido, por ejemplo, porque la cantidad total no está disponible a la vez. Si usa facturas de ventas, [!INCLUDE [prodshort](includes/prodshort.md)] supone que envía la cantidad completa cuando contabiliza la factura. Si vende productos que se entregan directamente desde el proveedor al cliente, como envío directo, deberá usar también pedidos de ventas. Para obtener más información, vea [Realizar envíos directos](sales-how-drop-shipment.md). En todos los demás aspectos, los pedidos de venta funcionan de la misma forma que las facturas de venta. Para obtener más información, vea [Facturar ventas](sales-how-invoice-sales.md).
+> Use pedidos de venta si el proceso de venta requiere que pueda enviar parte de una cantidad del pedido, por ejemplo, porque la cantidad total no está disponible a la vez. Si usa facturas de ventas, [!INCLUDE [prod_short](includes/prod_short.md)] supone que envía la cantidad completa cuando contabiliza la factura. Si vende productos que se entregan directamente desde el proveedor al cliente, como envío directo, deberá usar también pedidos de ventas. Para obtener más información, vea [Realizar envíos directos](sales-how-drop-shipment.md). En todos los demás aspectos, los pedidos de venta funcionan de la misma forma que las facturas de venta. Para obtener más información, vea [Facturar ventas](sales-how-invoice-sales.md).
 
 Puede negociar con el cliente creando primero una oferta que podrá convertir en un pedido cuando acuerde la venta. Para obtener más información, consulte [Crear ofertas de ventas](sales-how-make-offers.md).
 
@@ -132,4 +132,4 @@ El producto relacionado y los movimientos de cliente se han creado ahora en su s
 [Imprimir la lista de picking](sales-how-print-picking-list.md)  
 [Inventario](inventory-manage-inventory.md)  
 [Enviar documentos por correo electrónico](ui-how-send-documents-email.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

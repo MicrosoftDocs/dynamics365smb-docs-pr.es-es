@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: supplier
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e77238b4e0578307a90f80bddfdec64002e7ac27
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8efd74c3ae6962a383e5b127056d744dd7c1892f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926777"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748798"
 ---
 # <a name="register-new-vendors"></a>Permite registrar nuevos proveedores
 
@@ -64,4 +64,4 @@ Si ha publicado una transacción para un proveedor, no puede eliminar la ficha p
 [Crear numeración](ui-create-number-series.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Registrar compras](purchasing-how-record-purchases.md)   
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

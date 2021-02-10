@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: fa57a5ecce6553ce9315e4cd205f3367d9664bda
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 06e498444879a9b77b1418c44f4dd39395c8a4b5
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910185"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756897"
 ---
 # <a name="preview-posting-results"></a>Vista previa de los resultados del registro
 En cada documento y diario que se pueda registrar, puede elegir el botón **Vista previa de registro** para revisar los diferentes tipos de entradas que se crearán cuando registre el documento o diario.
@@ -30,5 +30,5 @@ En cada documento y diario que se pueda registrar, puede elegir el botón **Vist
 
 ## <a name="see-also"></a>Consulte también
 [Registrar documentos y diarios](ui-post-documents-journals.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)

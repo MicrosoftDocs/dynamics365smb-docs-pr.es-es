@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: delete, data, retention, policy, policies
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 279a76751b6652221d83ee453cc171bf357c0328
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4393053f9f158b04323453b7508cc19c10b04102
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927721"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754047"
 ---
 # <a name="define-retention-policies"></a>Definir directivas de retención
-Los administradores pueden definir directivas de retención para especificar con qué frecuencia desean que [!INCLUDE[prodshort](includes/prodshort.md)] elimine datos desactualizados en tablas que contienen entradas de registro y registros archivados. Por ejemplo, limpiar las entradas de registro puede facilitar el trabajo con los datos que son realmente relevantes. Las directivas pueden incluir todos los datos de las tablas que superan la fecha de vencimiento, o puede agregar criterios de filtro que incluirán solo ciertos datos vencidos en la directiva. 
+Los administradores pueden definir directivas de retención para especificar con qué frecuencia desean que [!INCLUDE[prod_short](includes/prod_short.md)] elimine datos desactualizados en tablas que contienen entradas de registro y registros archivados. Por ejemplo, limpiar las entradas de registro puede facilitar el trabajo con los datos que son realmente relevantes. Las directivas pueden incluir todos los datos de las tablas que superan la fecha de vencimiento, o puede agregar criterios de filtro que incluirán solo ciertos datos vencidos en la directiva. 
 
 ## <a name="required-setups-and-permissions"></a>Configuraciones y permisos necesarios
 Antes de que pueda crear directivas de retención, debe configurar lo siguiente.
@@ -31,7 +31,7 @@ Antes de que pueda crear directivas de retención, debe configurar lo siguiente.
 Además, debe tener los permisos de usuario SUPER o el permiso de configuración de la directiva de retención establecida. Los usuarios a los que se les concede el conjunto de permisos Configuración de directivas de retención pueden definir directivas de retención para las tablas, incluso si no tienen permisos de lectura y eliminación para esas tablas. La entrada de la cola de trabajos debe ejecutarse como un usuario con permisos para leer y eliminar los datos. Se recomienda que no otorgue el conjunto de permisos de Configuración de la directiva de retención a los usuarios a los que no se les debería permitir eliminar datos.
 
 > [!NOTE]
-> Si esta usando [!INCLUDE[prodshort](includes/prodshort.md)] local, y desea probar las directivas de retención en la base de datos de demostración Cronus, hay algunas cosas que debe hacer. La empresa de demostración no contiene tablas que pueda usar con directivas de retención, por lo que debe agregarlas. Para ello, cree una nueva empresa en blanco en la base de datos de demostración. En la nueva empresa, importe el paquete de configuración RapidStart para su país que corresponda al paquete estándar NAV17.0.W1.ENU.STANDARD.rapidstart. Los datos de configuración de las directivas de retención estarán disponibles en la nueva empresa.
+> Si esta usando [!INCLUDE[prod_short](includes/prod_short.md)] local, y desea probar las directivas de retención en la base de datos de demostración Cronus, hay algunas cosas que debe hacer. La empresa de demostración no contiene tablas que pueda usar con directivas de retención, por lo que debe agregarlas. Para ello, cree una nueva empresa en blanco en la base de datos de demostración. En la nueva empresa, importe el paquete de configuración RapidStart para su país que corresponda al paquete estándar NAV17.0.W1.ENU.STANDARD.rapidstart. Los datos de configuración de las directivas de retención estarán disponibles en la nueva empresa.
 
 ### <a name="to-create-retention-periods"></a>Para crear períodos de retención
 Los períodos de retención pueden ser tan largos o cortos como desee. Para crear períodos de retención, en la página **Políticas de retención**, utilice la acción **Periodo de retención**. Los períodos que defina estarán disponibles para todas las pólizas.
@@ -59,7 +59,7 @@ Puede aplicar manualmente una directiva mediante la acción **Aplicar manualment
 Puede ver la actividad relacionada con las directivas de retención en la página **Registro de directivas de retención**. Por ejemplo, las entradas se crean cuando se aplica una directiva o si ocurrieron errores cuando sucedió. 
 
 ## <a name="including-your-extension-in-a-retention-policy-requires-help-from-a-developer"></a>Incluir su extensión en una directiva de retención (requiere ayuda de un desarrollador)
-De forma predeterminada, las directivas de retención cubren solo las tablas que están incluidas en la lista de tablas [!INCLUDE[prodshort](includes/prodshort.md)] que proporcionamos. Puede eliminar tablas predeterminadas de la lista y puede agregar tablas de su propiedad. Es decir, no puede agregar una tabla que no haya creado usted mismo. Por ejemplo, no puede agregar otras tablas desde [!INCLUDE[prodshort](includes/prodshort.md)] o desde una extensión que haya comprado.
+De forma predeterminada, las directivas de retención cubren solo las tablas que están incluidas en la lista de tablas [!INCLUDE[prod_short](includes/prod_short.md)] que proporcionamos. Puede eliminar tablas predeterminadas de la lista y puede agregar tablas de su propiedad. Es decir, no puede agregar una tabla que no haya creado usted mismo. Por ejemplo, no puede agregar otras tablas desde [!INCLUDE[prod_short](includes/prod_short.md)] o desde una extensión que haya comprado.
 
 Para agregar sus tablas a la lista de tablas permitidas, un desarrollador debe agregar algún código, por ejemplo, a la codeunit del instalador para la extensión (una codeunit con el subtipo *instalar*). 
 
@@ -104,4 +104,4 @@ Una vez que un desarrollador ha agregado tablas a la lista, un administrador pue
 [Auditar cambios en Business Central](across-log-changes.md)  
 [Filtrado](ui-enter-criteria-filters.md#filtering)  
 [Uso de colas de proyectos para programar tareas](admin-job-queues-schedule-tasks.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

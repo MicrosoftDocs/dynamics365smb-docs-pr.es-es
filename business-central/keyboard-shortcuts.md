@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 10/01/2020
+ms.date: 11/26/2020
 ms.author: bholtorf
-ms.openlocfilehash: 73b0044dae3035c7156812b1f4ff4b8722df57c9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f3c36a1b5d3477d6564c66ede9c1a6bff51281df
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922874"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746121"
 ---
 # <a name="keyboard-shortcuts"></a>Métodos abreviados de teclado
 
-Este producto proporciona un resumen de algunas de las combinaciones de métodos abreviados que se pueden utilizar cuando trabaje con [!INCLUDE[prodshort](includes/prodshort.md)].
+Este producto proporciona un resumen de algunas de las combinaciones de métodos abreviados que se pueden utilizar cuando trabaje con [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Para obtener una descripción general de los métodos abreviados de teclado más populares, vea [Métodos abreviados de teclado (solo PC)](keyboard-shortcuts-cheatsheet.md).
 
@@ -37,7 +37,7 @@ Los métodos abreviados de teclado ayudan a la accesibilidad y pueden hacer que 
 La mayoría de los accesos directos son los mismos independientemente de que el sistema operativo sea Windows o macOS. Sin embargo, algunos accesos directos son distintos para macOS. Estos métodos abreviados de teclado se indican entre paréntesis en las siguientes secciones.
 
 > [!NOTE]
-> Además de los métodos abreviados de teclado globales descritos en este tema, hay disponibles varios métodos específicos de la empresa. Por ejemplo, en la versión genérica de [!INCLUDE[prodshort](includes/prodshort.md)], F9 publica un documento y Ctrl + F7 muestra las entradas financieras de un registro. (Estos pueden ser diferentes en su solución). El método abreviado de teclado se muestra en la información sobre herramientas de la acción en cuestión.
+> Además de los métodos abreviados de teclado globales descritos en este tema, hay disponibles varios métodos específicos de la empresa. Por ejemplo, en la versión genérica de [!INCLUDE[prod_short](includes/prod_short.md)], F9 publica un documento y Ctrl + F7 muestra las entradas contables de un registro al abrirlo en una tarjeta. (Estos pueden ser diferentes en su solución). El método abreviado de teclado se muestra en la información sobre herramientas de la acción en cuestión.
 
 ##  <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a> Métodos abreviados de teclado generales
 
@@ -63,7 +63,7 @@ En la siguiente tabla se describen métodos abreviados de teclado para navegar y
 |Ctrl+F1|Abrir la ayuda de Business Central correspondiente a la página.|
 |Ctrl+F12|Cambiar entre vista de diseño amplia y estrecha.|
 |Ctrl+Clic|Navegar durante la personalización cuando la acción está resaltada con una punta de flecha. Para obtener más información, consulte [Personalizar el área de trabajo](ui-personalization-user.md).|  
-|Ctrl+F5|Volver a cargar la aplicación [!INCLUDE[prodshort](includes/prodshort.md)]. (Similar a seleccionar actualizar/recargar en el explorador).|
+|Ctrl+F5|Volver a cargar la aplicación [!INCLUDE[prod_short](includes/prod_short.md)]. (Similar a seleccionar actualizar/recargar en el explorador).|
 |F5|Actualizar los datos en la página actual.<br /><br />Utilice esta tecla para asegurarse de que los datos de la página estén actualizados con cualquier cambio que otros hayan hecho mientras usted trabaja.|
 |Introduzca|Habilite o acceda al elemento o control que tiene el enfoque.|
 |Esc|Cerrar la página o lista desplegable actual.|
@@ -88,7 +88,7 @@ En la tabla siguiente se describen los métodos abreviados de teclado que puede 
 
 ### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Navegación entre filas y columnas
 
-Las cuadrículas con filas y columnas existen en muchos tipos de página en [!INCLUDE[prodshort](includes/prodshort.md)], como páginas de lista y partes de **Líneas** en documentos. Moverse de una celda a otra a través de una cuadrícula está totalmente preparado para el teclado.
+Las cuadrículas con filas y columnas existen en muchos tipos de página en [!INCLUDE[prod_short](includes/prod_short.md)], como páginas de lista y partes de **Líneas** en documentos. Moverse de una celda a otra a través de una cuadrícula está totalmente preparado para el teclado.
 
 |Pulsar estas teclas<br />(en macOS)|Para hacerlo en una vista de lista |Para hacerlo en una vista de mosaico |
 |--------------------------------|--------------------------|--------------------------|
@@ -206,11 +206,19 @@ Al configurar un campo de fecha, puede introducir la fecha manualmente o abrir u
 |Av. Pág.<br />(Fn+flecha abajo)|Ir a la página siguiente del informe.|
 |Re. pág.<br />(Fn+flecha arriba)|Ir a la página anterior del informe.|
 
+## <a name="keyboard-shortcuts-for-zooming-in-and-out"></a><a name="zoomshortcuts"></a>Atajos de teclado para acercar y alejar
+
+|Pulsar estas teclas|Para hacer esto|
+|--------------------------------|----------|
+|Ctrl++|Ampliar la página actual.|  
+|Ctrl+-|Alejar la página actual.|  
+|Ctrl+0|Acercar o alejar al 100 % la página actual.|  
+
 ## <a name="see-also"></a>Consulte también .
 
 [Referencia rápida de teclado: solo PC](keyboard-shortcuts-cheatsheet.md)  
 [Características de asistencia](ui-accessibility.md)  
 [Introducción](product-get-started.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Preguntas más frecuentes](across-faq.md)  
 [Buscar movimientos](ui-find-entries.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: fbb343b77db3fed933d0c243d36b4707f979fe8f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 81f43ef3f021ef0d348eb14abdffdfda2b3d85fc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926601"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758398"
 ---
 # <a name="collect-outstanding-balances"></a>Cobrar saldos pendientes
 
@@ -38,7 +38,7 @@ Desde la tarjeta del cliente, puede crear un extracto con las transacciones de e
 
 ## <a name="reminders"></a>Recordatorios
 
-Para poder crear recordatorios, debe configurar términos de recordatorio y asignarlos a sus clientes. Cada recordatorio tiene niveles de recordatorio predefinidos. Cada nivel de recordatorio incluye reglas acerca de cuándo se debe emitir el recordatorio, por ejemplo, los días transcurridos desde la fecha de vencimiento de la factura o la fecha del recordatorio anterior. El contenido de la página **Términos interés** determina si el interés se calcula en el recordatorio.  
+Para poder crear recordatorios, debe configurar términos de recordatorio y asignarlos a sus clientes. Para más información, ver [Configurar términos y niveles de recordatorio](finance-setup-reminders.md). [!INCLUDE [reminder-terms](includes/reminder-terms.md)] El contenido de la página **Términos interés** determina si el interés se calcula en el recordatorio.  
 
 Puede ejecutar de manera periódica el proceso **Crear recordatorios** para crear recordatorios para todos los clientes con saldos vencidos o bien crear manualmente un recordatorio para un determinado cliente y hacer que las líneas se calculen y rellenen automáticamente.  
 
@@ -47,58 +47,6 @@ Después de crear los recordatorios, puede modificarlos. El texto que aparece al
 Un movimiento de cliente que tenga el campo **En espera** relleno no solicitará la creación de un recordatorio. Sin embargo, si se crea un recordatorio basándose en otro movimiento, también se incluirá en el recordatorio un movimiento vencido marcado como en espera. El interés no se calcula en líneas con estos movimientos.
 
 Una vez creados recordatorios y realizadas las modificaciones necesarias, puede imprimir informes de test o enviar los recordatorios, normalmente por correo electrónico.
-
-### <a name="to-set-up-reminder-terms"></a>Para configurar los recordatorios
-
-Si los clientes tienen pagos vencidos, deberá decidir cómo y cuándo les enviará un recordatorio. Además, puede cargar en sus cuentas intereses o comisiones. Puede configurar un número ilimitado de recordatorios. Para cada código de términos de recordatorio, puede definir un número ilimitado de niveles de recordatorio.
-
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Términos recordatorio** y luego elija el enlace relacionado.  
-2. Rellene los campos según sea necesario.  
-3. Para utilizar más de una combinación de recordatorios, configure un código para cada uno.
-
-### <a name="to-set-up-reminder-levels"></a>Para configurar los niveles de recordatorio
-
-La primera vez que se crear un recordatorio para un cliente, se utiliza la configuración del nivel 1. Cuando se emite el recordatorio, el número de nivel se registra en los movimientos de recordatorio creados y vinculados a los movimientos del cliente individuales. Si es necesario volver a recordar al cliente, se comprueban todos los movimientos de recordatorio vinculados a movimientos de cliente abiertos para localizar el número de nivel más alto. Para el nuevo recordatorio se utilizarán las condiciones del siguiente número de nivel.
-
-Si crea más recordatorios de aquellos para los que tenga niveles definidos, se utilizarán las condiciones para el nivel más alto. Puede crear tantos recordatorios como permita el campo **Nº máx. recordatorios** en los términos de recordatorio.
-
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Términos recordatorio** y luego elija el enlace relacionado.  
-2. En la página **Términos recordatorio**, seleccione la línea que incluya los términos para los que desea configurar niveles y, a continuación, elija la acción **Niveles**.  
-3. Rellene los campos según sea necesario.  
-
-    Para cada nivel de recordatorio, puede especificar condiciones individuales, que pueden incluir comisiones adicionales tanto en la divisa local como en la divisa extranjera. Puede definir muchos recargos adicionales en divisas extranjeras para cada código de la página **Niveles recordatorio**.
-4. Seleccione la acción **Divisas**.
-5. En la página **Divisas por nivel recordatorio**, defina para cada código de nivel de recordatorio y su correspondiente número de nivel de recordatorio un código de divisa y un recargo adicional.
-
-    > [!NOTE]  
-    > Cuando crea recordatorios en una divisa extranjera, se utilizarán las condiciones de la divisa extranjera configuradas en esta tabla para crear recordatorios. Si no se han configurado recordatorios en divisa extranjera, se utilizarán los recordatorios de DL configurados en la página **Niveles recordatorio** y se convertirán en la divisa pertinente.
-
-    Para cada nivel de recordatorio, puede especificar el texto que se va a imprimir antes (**Comienzo texto**) o después (**Fin texto**) en las entradas del recordatorio.
-
-6. Elija las acciones **Comienzo texto** o **Fin texto** respectivamente, y rellene la página **Texto recordatorio**.
-7. Para insertar automáticamente valores relacionados en el texto de recordatorio resultante, escriba los siguientes marcadores de posición en el campo **Texto**.  
-
-|Marcador de posición|Valor|  
-|-----------------|-----------|  
-|%1|Contenido del campo **Fecha emisión documento** en la cabecera del recordatorio|  
-|%2|Contenido del campo **Fecha de vencimiento** en la cabecera del recordatorio|  
-|%3|Contenido del campo **Tipo interés** en las condiciones relacionadas con las cargas financieras|  
-|%4|Contenido del campo **Importe pendiente** en la cabecera del recordatorio|  
-|%5|Contenido del campo **Importe interés** en la cabecera del recordatorio|  
-|%6|Contenido del campo **Tarifa adicional** en la cabecera del recordatorio|  
-|%7|Importe total del recordatorio.|  
-|%8|Contenido del campo **Nivel recordatorio** en la cabecera del recordatorio|  
-|%9|Contenido del campo **Código divisa** en la cabecera del recordatorio|  
-|%10|Contenido del campo **Fecha registro** en la cabecera del recordatorio|  
-|%11|El nombre de la empresa|  
-|%12|Contenido del campo **Recargo adicional por línea** en la cabecera del recordatorio|  
-
-Por ejemplo, si escribe **Tiene una deuda de %9 %7 vencida desde el %2.**, el recordatorio resultante contendrá el siguiente texto: **Tiene una deuda de 1.200,50 USD vencida desde el 02-02-2014**.
-
-> [!NOTE]
-> La fecha de vencimiento se calcula según la fórmula de fecha que introduzca. Para obtener más información, vea [Uso de fórmulas de fecha](ui-enter-date-ranges.md#using-date-formulas).
-
-Una vez configurados los términos de recordatorio, con niveles y texto adicionales, escriba uno de los códigos en cada una de las fichas de cliente. Para obtener más información, vea [Registrar nuevos clientes](sales-how-register-new-customers.md).
 
 ### <a name="to-create-a-reminder-automatically"></a>Para crear un recordatorio automáticamente
 
@@ -174,58 +122,16 @@ Si un cliente no paga en la fecha de vencimiento, puede calcular automáticament
 > [!NOTE]  
 > Los documentos de interés se utilizan para calcular intereses y para informar a los clientes que tienen intereses sin recordarles que tienen pagos vencidos. De manera alternativa, puede calcular el interés sobre pagos vencidos al crear recordatorios.  
 
+Antes de crear documentos de interés, debe configurar los términos. Para más información, ver [Configurar términos de interés](finance-setup-finance-charges.md).  
+
 Puede crear manualmente un documento de interés para un cliente individual y rellenar las líneas automáticamente. También puede usar la función **Crear documentos interés** para crear documentos de interés para todos o algunos de los clientes con saldos pendientes.  
 
 Después de crear los documentos de interés, puede modificarlos. El texto que aparece al principio y al final del documento de interés viene determinado por los términos de interés y se puede ver en la columna **Descripción** de las líneas. Si se ha insertado automáticamente un importe calculado en el texto de comienzo o de fin, el texto no se ajustará si elimina líneas. A continuación, deberá usar la función **Actualizar texto interés**.  
 
 Después de crear documentos de interés y de realizar las modificaciones necesarias, puede imprimir informes de test o emitir los documentos de interés, normalmente por correo electrónico.
 
-### <a name="to-set-up-finance-charge-terms"></a>Configurar términos interés
+### <a name="to-create-a-finance-charge-memo-manually"></a>Para crear un documento de interés manualmente
 
-Debe definir un código para cada cálculo de interés. Después puede introducir este código en el campo **Cód. interés** de las fichas de cliente o proveedor.
-
-Puede calcular los intereses utilizando el cálculo por días crédito o bien el cálculo por saldo vencido.
-
-* El método del Saldo vencido
-
-    El interés es tan solo una parte porcentual de éste:  
-    *Método del Saldo vencido* - *intereses* = *Saldo vencido* x *(Tipo interés / 100)*
-
-*   El método del Saldo medio día
-
-    Se tiene en cuenta el número de días de vencimiento del pago:  
-    *Método del Saldo medio día* - *intereses* = *Saldo vencido* x *(Días vencidos/Periodo de interés)* x *(Tipo interés/100)*
-
-Además, cada código de la tabla Términos interés está vinculado a la subtabla Texto interés. Por cada grupo de términos de interés, puede definir un texto inicial y/o final que se incluirán en el documento de interés.
-
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Términos interés** y luego elija el enlace relacionado.  
-2. Rellene los campos según sea necesario.
-3. Para utilizar más de una combinación de términos interés, configure un código para cada uno.
-
-    Para cada término de interés, puede especificar condiciones individuales, que pueden incluir comisiones adicionales tanto en la divisa local como en la divisa extranjera. Puede definir muchos recargos adicionales en divisas extranjeras para cada código de la página **Términos interés**.
-4. Seleccione la acción **Divisas**.
-5. En la página **Divisas por térms. interés**, defina para cada término un código de divisa y un recargo adicional.
-
-    > [!NOTE]  
-    > Cuando crea intereses en una divisa extranjera, las condiciones de la divisa extranjera que ha configurado se utilizarán para crear documentos de interés. Si no se han configurado condiciones de interés en divisa extranjera, las condiciones de interés de DL configuradas en la página **Términos interés** se utilizarán y convertirán en la divisa pertinente.
-
-    Para cada interés puede especificar un texto que se imprima antes (**comienzo texto**) o después (**fin texto**) de los movimientos del documento de interés.  
-6. Elija las acciones **Comienzo texto** o **Fin texto** respectivamente, y rellene la página **Texto interés**.
-7. Para insertar automáticamente valores relacionados en el texto de interés resultante, escriba los siguientes marcadores de posición en el campo **Texto**.
-
-|Marcador de posición|Valor|  
-|-----------------|-----------|  
-|%1|Contenido del campo **Fecha emisión documento** en la cabecera del documento de interés|  
-|%2|Contenido del campo **Fecha de vencimiento** en la cabecera del documento de interés|  
-|%3|Contenido del campo **Tipo interés** en las condiciones relacionadas con las cargas financieras|  
-|%4|Contenido del campo **Importe pendiente** en la cabecera del documento de interés|  
-|%5|Contenido del campo **Importe interés** en la cabecera del documento de interés|  
-|%6|Contenido del campo **Recargo adicional** en la cabecera del documento de interés|  
-|%7|Importe total del recordatorio.|  
-|%8|Contenido del campo **Código divisa** en la cabecera del documento de interés|  
-|%9|Contenido del campo **Fecha registro** en la cabecera del documento de interés|  
-
-### <a name="to-create-a-finance-charge-memo-manually"></a>Para crear un documento de interés manualmente  
 Los documentos de interés son parecidos a las facturas. Puede rellenar la cabecera manualmente y que el sistema rellene las líneas, o bien crear los documentos de interés para todos los clientes de forma automática.
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Documentos de interés** y luego elija el enlace relacionado.  
@@ -286,6 +192,8 @@ Cuando configura los términos de interés y los términos de recordatorio, para
 
 ## <a name="see-also"></a>Consulte también
 
+[Configurar términos y niveles de recordatorios.](finance-setup-reminders.md)  
+[Configurar términos interés](finance-setup-finance-charges.md)  
 [Administrar cobros](receivables-manage-receivables.md)  
 [Ccial](sales-manage-sales.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

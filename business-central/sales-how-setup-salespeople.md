@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales rep
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1b0c74145034d71445bde5ae9374029eb9895107
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 37b684c1f8bda394f777e43904b77b5f7747ce36
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925977"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748348"
 ---
 # <a name="set-up-salespeople"></a>Configurar vendedores
 Muchas empresas quieren realizar un seguimiento del rendimiento personal de sus empleados como base para calcular la comisión o prima por ventas. Vea, por ejemplo, el informe de **Comisiones del vendedor**. Ciertas empresas puede preferir asignar un vendedor a cada uno de sus contactos.
@@ -33,4 +33,4 @@ Puede utilizar vendedores en diferentes tareas de gestión de relaciones y de ma
 ## <a name="see-also"></a>Consulte también
 [Configuración de ventas](sales-setup-sales.md)  
 [Ccial](sales-manage-sales.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

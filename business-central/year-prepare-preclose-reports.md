@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: b270a7b1f9ffda71d68fa981885aacbe31f55eab
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7f9421ec564c9117da41674bb22fb3fc58c6a2a4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923125"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755522"
 ---
 # <a name="using-pre-closing-reports"></a>Usar los informes previos al cierre
 Existen numerosos informes estándar que puede usar para verificar la exactitud de las cuentas antes de cerrar los libros al final de un año o periodo. Por ejemplo, puede usar el informe **Cliente - Balance sumas y saldos** para verificar si el saldo para un grupo contable de cliente es igual al saldo en la cuenta de contabilidad correspondiente en una determinada fecha.
@@ -39,5 +39,5 @@ Para ver informe, elija el icono ![Bombilla que abre la función Dígame](media/
 
 ## <a name="see-also"></a>Consulte también
 [Cerrar años y periodos](year-close-years-periods.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

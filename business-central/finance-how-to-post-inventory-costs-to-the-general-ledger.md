@@ -1,6 +1,6 @@
 ---
 title: 'Procedimiento: Registrar costes de inventario en la contabilidad general | Documentos de Microsoft'
-description: Describe cómo administrar los productos físicos que comercializa, por ejemplo, manipulación de las existencias en el almacén.
+description: Al finalizar el periodo contable, mensual, anual o del tipo que sea, se llevan a cabo una serie de tareas de control y auditoría de costes con el fin de generar informes correctos y compensados del valor de las existencias y remitirlo al departamento de finanzas. Aparte de las tareas de contabilidad que transfieren los movimientos de valor de productos individuales a cuentas de contabilidad exclusivas, se encuentran disponibles múltiples funciones de informes y seguimiento y una herramienta de conciliación especial para los auditores e ingenieros de control de costes responsables de este trabajo de importancia crítica para la empresa.
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4e760818349cf59a9c85d0a0d22b72baefd99af6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ad6c8d2084c2bffb38f1c98855e837b9ba13e8fe
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919493"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746821"
 ---
 # <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Conciliar costes de inventario con la contabilidad general
 Cuando registra transacciones del inventario, como los envíos de ventas, los albaranes de compra o los ajustes de inventario, los costes de producto cambiados se registran en movimientos de valor de productos. Para reflejar este cambio de valor de inventario en sus libros de finanzas, los costes de inventario se registran automáticamente en las cuentas de inventario relacionadas del libro mayor. Para cada una de las transacciones de inventario que registre, los valores apropiados se contabilizan en la cuenta de inventario, en la cuenta de ajuste y en la cuenta de CV en el módulo de contabilidad.
@@ -69,9 +69,21 @@ Las columnas siguientes muestran los totales para los mismos tipos de cuenta que
 
 Elija el importe que se encuentra en cualquiera de los campos de totalización para ver los movimientos de informe del inventario que se utilizaron para calcular los totales. Para los totales del inventario, los movimientos de informe del inventario se corresponden con las sumas de los movimientos de valoración para los productos. En el caso de los totales de contabilidad, los movimientos de informe del inventario se corresponden con las sumas de los movimientos.
 
+## <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Creación de informes de costes y conciliación con la contabilidad
+Otros informes, funciones de seguimiento y una herramienta de conciliación especial están disponibles para el auditor o controlador responsable de informar un valor de inventario correcto y equilibrado al departamento de finanzas.
+
+La siguiente tabla los describe.    
+
+|**Para**|**Vea**|  
+|------------|-------------|  
+|Ver el valor en inventario de los productos seleccionados, incluida información acerca de las cantidades y valores de aumentos y disminuciones en inventario a lo largo de un periodo seleccionado.|Informe **Valorización de inventario**|  
+|Ver el valor en inventario de órdenes de producción en el inventario WIP (productos semiterminados), como cantidades y valores de consumo, uso de capacidad y salida en órdenes de producción en curso.|Informe **Valorización de inventario - WIP**|  
+|Ver el valor en inventario de los productos seleccionados, incluido su coste real y esperado en la fecha especificada.|Informe **Valorac. exist.-especif. coste**|  
+|Usar un informe para analizar los motivos de las evoluciones de los costes o conocer las partes de costes de los productos vendidos (CV).|Informe **Análisis partes costes**|  
+
 ## <a name="see-also"></a>Consulte también  
 [Gestión de costes de inventario](finance-manage-inventory-costs.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Ventas](sales-manage-sales.md)    
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)

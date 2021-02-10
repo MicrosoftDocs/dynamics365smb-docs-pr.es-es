@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: e49f067eb0410e3d2f6f84241ae83be041bce918
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6acdc86afc195185f66836bf723c83d4a1647927
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925377"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755672"
 ---
 # <a name="close-accounting-periods"></a>Cerrar periodos contables
 Cuando finaliza un ejercicio, debe cerrar los periodos que lo forman.
@@ -41,4 +41,4 @@ Después de cerrar un ejercicio, debe regularizar las cuentas de explotación y 
 [Cierre de libros](year-close-books.md)  
 [Registrar el movimiento de cierre del ejercicio](year-how-post-year-end-close-entry.md)  
 [Trabajar con periodos contables y ejercicios](finance-accounting-periods-and-fiscal-years.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

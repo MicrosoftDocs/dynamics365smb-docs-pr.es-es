@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: feature overview
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d1988bd3bbd9424f48431927dd6416eab636adf1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 622e9833af12db9cecdb09f4358d5c7716bbb994
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914419"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753522"
 ---
 # <a name="business-functionality"></a>Funciones empresariales
-[!INCLUDE[d365fin](includes/d365fin_md.md)] proporciona funciones para procesos empresariales comunes de las pequeñas y medianas empresas, principalmente de los servicios mayoristas y profesionales. Sin embargo, también se admiten procesos más complejos, por ejemplo, montaje, fabricación, servicio, y administración dirigida de almacén.
+[!INCLUDE[prod_short](includes/prod_short.md)] proporciona funciones para procesos empresariales comunes de las pequeñas y medianas empresas, principalmente de los servicios mayoristas y profesionales. Sin embargo, también se admiten procesos más complejos, por ejemplo, montaje, fabricación, servicio, y administración dirigida de almacén.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] incluye configuraciones estándar de muchos procesos empresariales, pero puede cambiar la configuración para que se adapte a las necesidades de su empresa. Desde el área de trabajo, puede acceder a guías de configuración asistida que le ayudarán a configurar varios escenarios y añadir funciones a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Varias áreas de las funciones empresariales se deben configurar manualmente. Para obtener más información, consulte [Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] incluye configuraciones estándar de muchos procesos empresariales, pero puede cambiar la configuración para que se adapte a las necesidades de su empresa. Desde el área de trabajo, puede acceder a guías de configuración asistida que le ayudarán a configurar varios escenarios y añadir funciones a [!INCLUDE[prod_short](includes/prod_short.md)]. Varias áreas de las funciones empresariales se deben configurar manualmente. Para obtener más información, consulte [Configurar [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
 
 | Para | Vea |
 | --- | --- |
@@ -40,12 +40,12 @@ ms.locfileid: "3914419"
 |Programar llamadas de servicio, establecer pedidos de servicio de instalación y realizar un seguimiento de piezas y suministros de reparación.|[Gestión de servicios](service-service.md)|
 |Configurar y utilizar los flujos de trabajo que vinculan tareas que realizan los distintos usuarios o el sistema, como registro automático. Solicitar y conceder aprobaciones para crear o registrar documentos son pasos habituales de un flujo de trabajo.|[Flujo de trabajo](across-workflow.md)|
 |Permitir a los usuarios intercambiar datos con orígenes externos durante las tareas diarias, como envío/recepción de documentos electrónicos, importación y exportación de archivos bancarios y actualización de tipos de cambio de divisa.|[Intercambio de datos electrónicamente](across-data-exchange.md)|
-|Registrar documentos externos en [!INCLUDE[d365fin](includes/d365fin_md.md)], incluidos los anexos de archivo y, a continuación, crear manualmente documentos relacionados o convertir automáticamente los archivos a documentos electrónicos.|[Documentos entrantes](across-income-documents.md)|
+|Registrar documentos externos en [!INCLUDE[prod_short](includes/prod_short.md)], incluidos los anexos de archivo y, a continuación, crear manualmente documentos relacionados o convertir automáticamente los archivos a documentos electrónicos.|[Documentos entrantes](across-income-documents.md)|
 
 ## <a name="see-also"></a>Consulte también
 
 [Explorar las capacidades de Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/capabilities/)  
 [Administración](admin-setup-and-administration.md)  
-[Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
+[Configurar [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Introducción](product-get-started.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

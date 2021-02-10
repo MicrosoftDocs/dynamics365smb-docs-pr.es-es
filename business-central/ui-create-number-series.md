@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: numbers, numbering
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 75a841fd2d6bf8321f15bb0a6fe88d41bf152308
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b61f4fb5cdcee284b183a08c70224348c99530cd
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912651"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757622"
 ---
 # <a name="create-number-series"></a>Crear numeración
 Para cada empresa configurada, se necesitan asignar códigos de identificación exclusivos a elementos como cuentas de contabilidad, cuentas de proveedores y clientes, facturas y otros documentos. La numeración es importante no sólo para la identificación. Un sistema de numeración bien diseñado también permite facilitar la gestión y el análisis de la empresa, y puede reducir el número de errores que se producen en la introducción de datos.
@@ -26,7 +26,7 @@ Para cada empresa configurada, se necesitan asignar códigos de identificación 
 Si desea permitir huecos en ciertas series numéricas, primero consulte a su auditor o director de contabilidad para asegurarse de que cumple los requisitos legales de su país o región. Para obtener más información, vea [Espacios en serie numérica](ui-create-number-series.md#gaps-in-number-series).
 
 > [!NOTE]  
->   Le recomendamos que use los mismos códigos de serie numérica que aparecen en la página **Lista nº serie** de la empresa de demostración CRONUS. Es posible que los códigos como *C-FAC+* no tengan un sentido inmediato, pero [!INCLUDE[d365fin](includes/d365fin_md.md)] tiene una serie de opciones de configuración predeterminadas que dependen de estos códigos de serie numérica.
+>   Le recomendamos que use los mismos códigos de serie numérica que aparecen en la página **Lista nº serie** de la empresa de demostración CRONUS. Es posible que los códigos como *C-FAC+* no tengan un sentido inmediato, pero [!INCLUDE[prod_short](includes/prod_short.md)] tiene una serie de opciones de configuración predeterminadas que dependen de estos códigos de serie numérica.
 
 Para crear un sistema numérico, establezca uno o varios códigos para cada tipo de datos maestros o documento. Por ejemplo, puede establecer un código para la numeración de clientes, otro para la numeración de facturas de venta y aún otro para la numeración de documentos en los diarios generales. Tras establecer un código, debe establecer al menos una línea de serie numérica. Ésta contiene información tal como el primer y último número de la serie y la fecha de inicio. Puede establecer más de una línea de serie numérica por código, con una fecha de inicio diferente para cada una. La serie se usará de manera consecutiva, a partir de la serie de cada fecha de inicio correspondiente.
 
@@ -35,7 +35,7 @@ Las series numéricas normalmente se configuran para insertar automáticamente e
 Si desea usar más de un código de serie numérica para un tipo de datos maestros, por ejemplo, usar una serie numérica diferente para categorías de productos, puede establecer relaciones de series numéricas.
 
 ## <a name="gaps-in-number-series"></a>Espacios en serie numérica
-No todos los registros que crea en [!INCLUDE[d365fin](includes/d365fin_md.md)] son transacciones financieras que deben usar una numeración secuencial. Las fichas de cliente, las ofertas de venta y las actividades de almacén son ejemplos de registros a los que se les asigna un número de una serie numérica, pero no están sujetos a auditoría financiera o pueden eliminarse. Para estas series numéricas, puede seleccionar la casilla **Permitir espacios en números** en la página **Líneas nº serie**. Esta configuración también se puede cambiar después de crear la serie numérica. Para obtener más información, consulte [Para crear una nueva serie numérica](ui-create-number-series.md#to-create-a-new-number-series).
+No todos los registros que crea en [!INCLUDE[prod_short](includes/prod_short.md)] son transacciones financieras que deben usar una numeración secuencial. Las fichas de cliente, las ofertas de venta y las actividades de almacén son ejemplos de registros a los que se les asigna un número de una serie numérica, pero no están sujetos a auditoría financiera o pueden eliminarse. Para estas series numéricas, puede seleccionar la casilla **Permitir espacios en números** en la página **Líneas nº serie**. Esta configuración también se puede cambiar después de crear la serie numérica. Para obtener más información, consulte [Para crear una nueva serie numérica](ui-create-number-series.md#to-create-a-new-number-series).
 
 ## <a name="behavior-of-the-no-field-on-documents-and-cards"></a>Comportamiento del campo de número en documentos y fichas
 En documentos venta, compra y transferencia y en todas las fichas, el campo **N.º** se puede rellenar automáticamente a partir de una serie de números o manualmente, y puede configurarse para ser invisible.
@@ -85,5 +85,5 @@ En lo sucesivo, cuando configure algo que requiera un número, podrá utilizar l
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/number-series-trail-codes-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Consulte también
-[Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Configurar [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

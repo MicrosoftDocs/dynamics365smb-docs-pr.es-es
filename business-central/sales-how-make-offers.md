@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: rfq
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5c4423dba57993c10276de8f20bb74f5ee45169a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cd674e3c5f64889cb77e000fb823bf63a800bdb2
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926202"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758247"
 ---
 # <a name="make-sales-quotes"></a>Crear ofertas de ventas
 Puede crear una oferta de venta para registrar la oferta a un cliente para vender determinados productos según términos de entrega y pago determinados. Puede enviar la oferta de venta al cliente para comunicar la oferta. Puede enviar por correo electrónico el documento como un documento PDF anexo. También puede rellenar previamente el cuerpo del correo electrónico con un resumen de la oferta. Para obtener más información, vea [Enviar documentos por correo electrónico](ui-how-send-documents-email.md).
@@ -81,4 +81,4 @@ La oferta de venta se quita de la base de datos. Una factura de venta o un pedid
 [Ccial](sales-manage-sales.md)  
 [Configuración de ventas](sales-setup-sales.md)  
 [Enviar documentos por correo electrónico](ui-how-send-documents-email.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

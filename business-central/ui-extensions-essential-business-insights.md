@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: BI, add-in, insight, headline, data
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 88aba42c6d30cb28020386f265150a0a8f201179
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 2be073fbb2216e9a87c54b7c4d9fd3fa86e02aee
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915165"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757222"
 ---
 # <a name="the-essential-business-insights-extension"></a>La extensión Información de la empresa esencial
 La extensión Información de la empresa esencial encuentra hechos comerciales interesantes en los datos de su empresa y los muestra como titulares de periódico en las áreas de trabajo. En función de lo que encuentre la extensión en los datos, la información será de la última semana, mes o tres meses desde la fecha actual. La información se actualiza cada 10 minutos.  
@@ -37,4 +37,4 @@ En la tabla siguiente se describe la información que esta extensión proporcion
 |Administrador| Mostrará un saludo y el vínculo a la información del producto.|
 
 ## <a name="see-also"></a>Consulte también
-[Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones](ui-extensions.md)
+[Personalizar [!INCLUDE[prod_short](includes/prod_short.md)] con extensiones](ui-extensions.md)

@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d2e600f3b2da20540e224cb1405a50adc4a31f25
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 78aa941b8b886ed37dbed0d83a35d13b0e427421
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924958"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754622"
 ---
 # <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Uso de esquemas XML para preparar definiciones de intercambio de datos
 
-Para habilitar la importación y exportación de datos en archivos XML mediante el marco de intercambio de datos en [!INCLUDE[d365fin](includes/d365fin_md.md)], puede usar esquemas XML de los archivos para definir los elementos de datos que desea intercambiar con [!INCLUDE[d365fin](includes/d365fin_md.md)]. Este trabajo se realiza en la página **Visor de esquema XML** mediante la carga del archivo de esquema XML, la selección de los elementos de datos pertinentes y la inicialización de una definición de intercambio de datos.  
+Para habilitar la importación y exportación de datos en archivos XML mediante el marco de intercambio de datos en [!INCLUDE[prod_short](includes/prod_short.md)], puede usar esquemas XML de los archivos para definir los elementos de datos que desea intercambiar con [!INCLUDE[prod_short](includes/prod_short.md)]. Este trabajo se realiza en la página **Visor de esquema XML** mediante la carga del archivo de esquema XML, la selección de los elementos de datos pertinentes y la inicialización de una definición de intercambio de datos.  
 
- Cuando ha definido qué elementos de datos se van a incluir en función del esquema XML, puede utilizar la acción **Generar definición de intercambio de datos** para inicializar una definición de intercambio de datos en los datos seleccionados, que después podrá completar en el marco de intercambio de datos. Esto crea un registro en la página **Definiciones de intercambio de registro**, donde se continúa con la definición de qué elementos del archivo se asignan a qué campos de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, vea [Configurar las definiciones de intercambio de datos](across-how-to-set-up-data-exchange-definitions.md).  
+ Cuando ha definido qué elementos de datos se van a incluir en función del esquema XML, puede utilizar la acción **Generar definición de intercambio de datos** para inicializar una definición de intercambio de datos en los datos seleccionados, que después podrá completar en el marco de intercambio de datos. Esto crea un registro en la página **Definiciones de intercambio de registro**, donde se continúa con la definición de qué elementos del archivo se asignan a qué campos de [!INCLUDE[prod_short](includes/prod_short.md)]. Para obtener más información, vea [Configurar las definiciones de intercambio de datos](across-how-to-set-up-data-exchange-definitions.md).  
 
  Este tema incluye los siguientes procedimientos:  
 
@@ -103,7 +103,7 @@ Para habilitar la importación y exportación de datos en archivos XML mediante 
 
 4. En la página **Visor de esquemas XML**, elija la acción **Generar definición de intercambio de datos**.  
 
- Se crea una definición de intercambio de datos en la página **Definiciones de intercambio de registro**, que se puede completar especificando qué elementos del archivo de banco SEPA se corresponden con los campos de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, vea [Configurar las definiciones de intercambio de datos](across-how-to-set-up-data-exchange-definitions.md).  
+ Se crea una definición de intercambio de datos en la página **Definiciones de intercambio de registro**, que se puede completar especificando qué elementos del archivo de banco SEPA se corresponden con los campos de [!INCLUDE[prod_short](includes/prod_short.md)]. Para obtener más información, vea [Configurar las definiciones de intercambio de datos](across-how-to-set-up-data-exchange-definitions.md).  
 
 > [!NOTE]  
 > También puede utilizar la función **Obtener estructura de archivo** desde la página **Definiciones de intercambio de registro**, la cual utiliza la funcionalidad de la página **Visor esquemas XML** para prellenar la ficha desplegable **Definiciones de columna**.  

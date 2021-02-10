@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 5b24fe2373e8f6fd71008a5d155e985d2aaa460f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: bce25a87849a65d0307e6475716891396167697c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924083"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746621"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Trabajar con el IVA por ventas y compras
-Si su país o región requiere que calcule el impuesto al valor añadido (IVA) en las transacciones de compra y venta para que pueda informar de los importes a una autoridad fiscal, puede configurar [!INCLUDE[d365fin](includes/d365fin_md.md)] para calcular el IVA automáticamente en documentos de ventas y compras. Para obtener más información, vea [Configurar los cálculos y los métodos de registro del impuesto sobre el valor añadido](finance-setup-vat.md).
+Si su país o región requiere que calcule el impuesto al valor añadido (IVA) en las transacciones de compra y venta para que pueda informar de los importes a una autoridad fiscal, puede configurar [!INCLUDE[prod_short](includes/prod_short.md)] para calcular el IVA automáticamente en documentos de ventas y compras. Para obtener más información, vea [Configurar los cálculos y los métodos de registro del impuesto sobre el valor añadido](finance-setup-vat.md).
 
 Sin embargo, hay algunas tareas relacionadas con el IVA que puede realizar manualmente. Por ejemplo, puede que tenga que corregir un importe registrado si descubre que un proveedor utiliza un método de redondeo diferente.
 
@@ -26,7 +26,7 @@ Sin embargo, hay algunas tareas relacionadas con el IVA que puede realizar manua
 Los importes del IVA de los documentos de ventas y compras se pueden calcular y mostrar de distintas maneras, según el tipo de cliente o proveedor de que se trate. También se puede anular el importe del IVA calculado de forma que coincida con el calculado por el proveedor en una transacción concreta.  
 
 ### <a name="unit-price-and-line-amount-includingexcluding-vat-on-sales-documents"></a>Precio de venta e importe de línea incluido/excluido el IVA en documentos de ventas  
-Cuando elija un número de producto en el campo **Nº** de un documento de venta, [!INCLUDE[d365fin](includes/d365fin_md.md)] rellenará el campo **Precio de venta**. El precio de venta proviene de la ficha **Producto** o de los precios del producto admitidos para el producto y el cliente. [!INCLUDE[d365fin](includes/d365fin_md.md)] solo calcula el **Importe de línea** si introduce una cantidad en la línea.  
+Cuando elija un número de producto en el campo **Nº** de un documento de venta, [!INCLUDE[prod_short](includes/prod_short.md)] rellenará el campo **Precio de venta**. El precio de venta proviene de la ficha **Producto** o de los precios del producto admitidos para el producto y el cliente. [!INCLUDE[prod_short](includes/prod_short.md)] solo calcula el **Importe de línea** si introduce una cantidad en la línea.  
 
 Si está vendiendo a consumidores minoristas, es posible que desee que los precios de los documentos de ventas incluyan el IVA. Para ello, seleccione la casilla de verificación **Precios IVA incluido** del documento.  
 
@@ -69,7 +69,7 @@ A continuación se describe cómo habilitar las modificaciones de IVA manuales e
 > El importe total del IVA de la factura, agrupado por identificador de IVA, se muestra en las líneas. Puede ajustar manualmente el importe del campo **Importe IVA** de las líneas de cada identificador de IVA. Si modifica el campo **Importe IVA**, la aplicación comprueba que no lo modifica en un importe mayor que el especificado como diferencia máxima permitida. Si el importe es mayor que la **Máx. diferencia IVA permitida**, se muestra una advertencia en la que se indica cuál es la mayor diferencia permitida. No podrá continuar hasta que ajuste el importe con un valor admitido. Haga clic en **Aceptar** y escriba otro **Importe IVA** que sea admitido. Si la diferencia del IVA es igual a o menor que el máximo permitido, el IVA se dividirá proporcionalmente entre las líneas del documento que tengan el mismo identificador de IVA.  
 
 ## <a name="calculating-vat-manually-using-journals"></a>Cálculo manual del IVA mediante los diarios  
-También puede ajustar los importes de IVA en general, ventas y diarios de compras. Por ejemplo, podría ser necesario si introduce una factura de proveedor en el diario y hay una diferencia entre el importe del IVA calculado por [!INCLUDE[d365fin](includes/d365fin_md.md)] y el de la factura del proveedor.  
+También puede ajustar los importes de IVA en general, ventas y diarios de compras. Por ejemplo, podría ser necesario si introduce una factura de proveedor en el diario y hay una diferencia entre el importe del IVA calculado por [!INCLUDE[prod_short](includes/prod_short.md)] y el de la factura del proveedor.  
 
 ### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-general-journals"></a>Para configurar el sistema para el movimiento de IVA manual en un diario general
 Debe realizar los pasos siguientes antes de introducir manualmente el IVA en un diario general.  
@@ -82,10 +82,10 @@ Debe realizar los pasos siguientes antes de introducir manualmente el IVA en un 
 
 1. En la página **Conf. compras y pagos**, seleccione la casilla **Permitir diferen. IVA**.  
 2. Repita el paso 1 para la página **Configuración de ventas y cobros**.
-3. Cuando haya completado las acciones descritas, puede ajustar el campo **Importe IVA** de la línea del diario general, o el campo **Importe IVA contrap.** de la línea del diario de ventas o compras. [!INCLUDE[d365fin](includes/d365fin_md.md)] comprobará que la diferencia no sea mayor que el máximo especificado.  
+3. Cuando haya completado las acciones descritas, puede ajustar el campo **Importe IVA** de la línea del diario general, o el campo **Importe IVA contrap.** de la línea del diario de ventas o compras. [!INCLUDE[prod_short](includes/prod_short.md)] comprobará que la diferencia no sea mayor que el máximo especificado.  
 
     > [!NOTE]  
-    > Si la diferencia es mayor, se muestra una advertencia en la que se indica cuál es la mayor diferencia permitida. Para continuar, debe ajustar el importe. Elija **Aceptar** e introduzca un importe admitido. Si la diferencia de IVA es igual o menor que el máximo permitido, [!INCLUDE[d365fin](includes/d365fin_md.md)] mostrará la diferencia en el campo **Diferencia IVA**.  
+    > Si la diferencia es mayor, se muestra una advertencia en la que se indica cuál es la mayor diferencia permitida. Para continuar, debe ajustar el importe. Elija **Aceptar** e introduzca un importe admitido. Si la diferencia de IVA es igual o menor que el máximo permitido, [!INCLUDE[prod_short](includes/prod_short.md)] mostrará la diferencia en el campo **Diferencia IVA**.  
 
 ## <a name="posting-import-vat-with-purchase-invoices"></a>Registro del IVA de importación con facturas de compra
 En lugar de utilizar diarios para registrar las facturas de IVA de importación, puede utilizar facturas de compra.  
@@ -95,7 +95,7 @@ En lugar de utilizar diarios para registrar las facturas de IVA de importación,
 2. Cree un **Gr. contable producto** para el IVA de importación y configure un **Grupo registro IVA producto** predeterminado del IVA de importación para el **Gr. contable producto** relacionado.  
 3. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Plan de cuentas** y luego elija el enlace relacionado.  
 4. Seleccione la cuenta contable de IVA de importación y, a continuación, seleccione la acción **Editar**.  
-5. En la ficha desplegable **Registro**, seleccione la configuración **Grupo contable producto** para el IVA de importación. [!INCLUDE[d365fin](includes/d365fin_md.md)] debería rellenar automáticamente el campo **Grupo registro IVA prod.**  
+5. En la ficha desplegable **Registro**, seleccione la configuración **Grupo contable producto** para el IVA de importación. [!INCLUDE[prod_short](includes/prod_short.md)] debería rellenar automáticamente el campo **Grupo registro IVA prod.**  
 6. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración grupos contables** y luego elija el enlace relacionado.  
 7. Cree una combinación **Grupo contable negocio** para la autoridad de IVA y **Grupo contable producto** para el IVA de importación. Para esta combinación nueva, en el campo **Cuenta de compras**, elija la cuenta contable de IVA de importación.  
 
@@ -139,7 +139,7 @@ Cuando se venden productos a un cliente en otro país o región de la UE, debe e
     >  También puede imprimir un certificado desde la página **Certificado de suministro**.  
 
 4. Para incluir la información de las líneas en el documento de envío en el certificado, seleccione la casilla **Imprimir detalles de línea**.  
-5. Elija la casilla **Crear certificados de suministro si no se han creado** para que [!INCLUDE[d365fin](includes/d365fin_md.md)] cree certificados para envíos registrados que no tengan ninguno en el momento de ejecutarse. Cuando elije la casilla, se crearán los nuevos certificados para todos los envíos registrados que no tengan certificados dentro del rango seleccionado.  
+5. Elija la casilla **Crear certificados de suministro si no se han creado** para que [!INCLUDE[prod_short](includes/prod_short.md)] cree certificados para envíos registrados que no tengan ninguno en el momento de ejecutarse. Cuando elije la casilla, se crearán los nuevos certificados para todos los envíos registrados que no tengan certificados dentro del rango seleccionado.  
 6. De forma predeterminada, la configuración de filtro corresponde al documento de envío seleccionado. Rellene la información de filtro para seleccionar un certificado de suministro específico que desee imprimir.  
 7. En la página **Certificado de suministro**, elija la acción **Imprimir** para imprimir el informe o elija la acción **Vista preliminar** para verlo en la pantalla.  
 
@@ -155,7 +155,7 @@ Cuando se venden productos a un cliente en otro país o región de la UE, debe e
 
    Si el cliente ha devuelto el certificado de suministro firmado, elija **Recibido**. El campo **Fecha recepción** se actualiza. De forma predeterminada, la fecha de recepción se establece en la fecha de trabajo actual.  
 
-   Puede modificar la fecha para reflejar la fecha en la que se recibió el certificado de suministro firmado por el cliente. También puede agregar un vínculo al certificado firmado con el sistema estándar de vinculación de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+   Puede modificar la fecha para reflejar la fecha en la que se recibió el certificado de suministro firmado por el cliente. También puede agregar un vínculo al certificado firmado con el sistema estándar de vinculación de [!INCLUDE[prod_short](includes/prod_short.md)].  
 
    Si el cliente no devuelve el certificado de suministro firmado, elija **No recibido**. Deberá entonces enviar al cliente una nueva factura que lleve IVA incluido, porque la autoridad fiscal no aceptará la factura original.  
 
@@ -169,7 +169,7 @@ Para ver un grupo de certificados, desde la página **Certificados de suministro
 
    Si el cliente ha devuelto el certificado de suministro firmado, elija **Recibido**. El campo **Fecha recepción** se actualiza. De forma predeterminada, la fecha de recepción se establece en la fecha de trabajo actual.  
 
-   Puede modificar la fecha para reflejar la fecha en la que se recibió el certificado de suministro firmado. También puede agregar un vínculo al certificado firmado con el sistema estándar de vinculación de documentos [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+   Puede modificar la fecha para reflejar la fecha en la que se recibió el certificado de suministro firmado. También puede agregar un vínculo al certificado firmado con el sistema estándar de vinculación de documentos [!INCLUDE[prod_short](includes/prod_short.md)].  
 
     > [!NOTE]  
     >  No puede crear un certificado de suministro nuevo en la página **Certificado de suministro** mientras se navega a él con este procedimiento. Para crear certificados para envíos no configurados para requerirlos, abra el albarán de venta y siga cualquiera de los dos procedimientos descritos antes:  

@@ -12,22 +12,22 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, salary, wage
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: a63e2139ee4a3ac42e30724d8b7015cc0d968cd9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: eae93ea8cf81a2fad6af2c3810f94d5292eef93f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923475"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757097"
 ---
 # <a name="the-quickbooks-payroll-file-import-extension"></a>Extensión de importación del archivo de nóminas de QuickBooks
-Use la extensión de Importación del archivo de nómina de QuickBooks para importar transacciones de nómina de QuickBooks a cuentas de contabilidad en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Por ejemplo, esto es útil cuando está haciendo la transición de QuickBooks a [!INCLUDE[d365fin](includes/d365fin_md.md)], o si subcontrata su nómina pero también desea realizar un seguimiento de ella en [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Use la extensión de Importación del archivo de nómina de QuickBooks para importar transacciones de nómina de QuickBooks a cuentas de contabilidad en [!INCLUDE[prod_short](includes/prod_short.md)]. Por ejemplo, esto es útil cuando está haciendo la transición de QuickBooks a [!INCLUDE[prod_short](includes/prod_short.md)], o si subcontrata su nómina pero también desea realizar un seguimiento de ella en [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## <a name="steps-to-import-payroll-data"></a>Pasos para importar datos de nómina
-El primer paso es que usted, o su contable, utilice las funciones de exportación en QuickBooks para exportar los datos de la nómina a un archivo .IIF. El segundo paso es abrir la página **Diarios generales** en [!INCLUDE[d365fin](includes/d365fin_md.md)] y usar la acción **Importar transacciones de nómina** para importar el archivo. Durante el proceso de importación debe asignar las cuentas de contabilidad de QuickBooks a las cuentas correspondientes en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Por último, registre operaciones de nóminas en [!INCLUDE[d365fin](includes/d365fin_md.md)] según la asignación de cuentas. 
+El primer paso es que usted, o su contable, utilice las funciones de exportación en QuickBooks para exportar los datos de la nómina a un archivo .IIF. El segundo paso es abrir la página **Diarios generales** en [!INCLUDE[prod_short](includes/prod_short.md)] y usar la acción **Importar transacciones de nómina** para importar el archivo. Durante el proceso de importación debe asignar las cuentas de contabilidad de QuickBooks a las cuentas correspondientes en [!INCLUDE[prod_short](includes/prod_short.md)]. Por último, registre operaciones de nóminas en [!INCLUDE[prod_short](includes/prod_short.md)] según la asignación de cuentas. 
 
 Para obtener más información, vea [Importar transacciones de nómina](finance-how-import-payroll-transactions.md).
 
 ## <a name="see-also"></a>Consulte también
-[Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones ](ui-extensions.md)    
+[Personalizar [!INCLUDE[prod_short](includes/prod_short.md)] con extensiones ](ui-extensions.md)    
 [Finanzas](finance.md)    
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

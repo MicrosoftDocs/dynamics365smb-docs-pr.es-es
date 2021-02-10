@@ -1,8 +1,6 @@
 ---
-title: Conciliación de pagos con la extensión Envestnet Yodlee Bank Feeds | Documentos de Microsoft
+title: Conciliación de pagos con la extensión Envestnet Yodlee Bank Feeds
 description: Describe la extensión Envestnet Yodlee Bank Feeds, que se vincula a las cuentas bancarias para que pueda conciliar pagos rápidamente.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,14 +10,15 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, stream, bank account link
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3107c42fd584a58fc13ad2bfeacea0ed14e28de7
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d8a04218e44c4a40d96f5e84677434c51f6ef5f3
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918593"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757397"
 ---
 # <a name="the-envestnet-yodlee-bank-feeds-extension"></a>Extensión Envestnet Yodlee Bank Feeds
+
 Para conciliar pagos realizados en sus bancos rápidamente, el servicio Envestnet Yodlee Bank Feeds permite vincular su cuenta bancaria del sistema a su cuenta bancaria en línea. Esto significa que el último extracto bancario se introduce manual o automáticamente en el diario de conciliación de pagos, lo que garantiza que siempre procesará sus últimos pagos con el mínimo de errores.
 
 El servicio Envestnet Yodlee Bank Feeds solo se admite en Estados Unidos y Canadá.
@@ -27,17 +26,17 @@ El servicio Envestnet Yodlee Bank Feeds solo se admite en Estados Unidos y Canad
 > [!NOTE]
 > El servicio Envestnet Yodlee Bank Feeds solo se admite en la versión en línea de Business Central. Para utilizar esta funcionalidad local, debe obtener una cuenta de cobrand de Envestnet Yodlee.<br /><br />
 > El servicio Envestnet Yodlee Bank Feeds solo se admite en Estados Unidos y Canadá.
-> Solo se admiten los bancos que residan en estos países o regiones, aunque los bancos de otros países o regiones puedan aparecer en la ventana de selección de banco de Envestnet Yodlee Bank Feeds en [!INCLUDE[d365fin](includes/d365fin_md.md)].
+> Solo se admiten los bancos que residan en estos países o regiones, aunque los bancos de otros países o regiones puedan aparecer en la ventana de selección de banco de Envestnet Yodlee Bank Feeds en [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!IMPORTANT]
-> Debido a la nueva directiva sobre servicios de pago en Europa (PSD2), después del 14 de septiembre de 2019 ya no podrá importar automáticamente extractos de cuenta de bancos del Reino Unido a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Estamos analizando la posibilidad de ofrecer esta función nuevamente en el futuro.
+> Debido a la nueva directiva sobre servicios de pago en Europa (PSD2), después del 14 de septiembre de 2019 ya no podrá importar automáticamente extractos de cuenta de bancos del Reino Unido a [!INCLUDE[prod_short](includes/prod_short.md)]. Estamos analizando la posibilidad de ofrecer esta función nuevamente en el futuro.
 
 El servicio Envestnet Yodlee Bank Feeds proporciona las siguientes ventajas:
 
 * Elimina la necesidad de la entrada manual.
 * Actualiza la eficacia y la precisión al realizar la conciliación de pagos.
 * Admite un gran número de bancos.
-* Permite información actualizada sobre transacciones bancarias en [!INCLUDE[d365fin](includes/d365fin_md.md)].
+* Permite información actualizada sobre transacciones bancarias en [!INCLUDE[prod_short](includes/prod_short.md)].
 * Admite fuentes de banco manuales o automáticas.
 * Habilita la externalización de la conciliación de pagos a un contable proporcionando acceso a los extractos bancarios.
 
@@ -47,6 +46,6 @@ Puede comprobar si un banco es compatible configurando y conectándose al servic
 Para obtener más información, vea [Configurar el servicio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
 ## <a name="see-also"></a>Consulte también
-[Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones ](ui-extensions.md)    
+[Personalizar [!INCLUDE[prod_short](includes/prod_short.md)] con extensiones ](ui-extensions.md)    
 [Liquidación de pagos automáticamente y conciliación de cuentas bancarias](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

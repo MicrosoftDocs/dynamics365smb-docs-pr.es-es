@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a2c2dc42ad600d4e3d05f4f3bdc1e5cbe2947812
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8ffb5b8b90d0fdd4f3e1bd90271db8568c05d41e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915767"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753972"
 ---
 # <a name="create-journal-opening-balances"></a>Crear saldos iniciales del diario
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] incluye varios trabajos por lotes que se proporcionen para ayudar en la transferencia de saldos de cuenta heredados a una empresa recién configurada. Puede transferir fácilmente estos datos con el diario del cliente, el diario del proveedor, el diario de productos o el diario de contabilidad.
+[!INCLUDE[prod_short](includes/prod_short.md)] incluye varios trabajos por lotes que se proporcionen para ayudar en la transferencia de saldos de cuenta heredados a una empresa recién configurada. Puede transferir fácilmente estos datos con el diario del cliente, el diario del proveedor, el diario de productos o el diario de contabilidad.
 
 El primer paso es crear un paquete de configuración que incluya las tablas de configuración para aquellos diarios. En el procedimiento siguiente se supone que este paso ya se completó. Para obtener más información, consulte [Establecer la configuración de una empresa](admin-set-up-company-configuration.md). Este procedimiento se describen los pasos subsiguientes, que incluyen la aplicación del paquete que proporciona un socio.  
 
@@ -44,7 +44,7 @@ Antes de comenzar, asegúrese de estar en la página Área de trabajo de la admi
 10. Repita los pasos para importar y registrar todos los saldos abiertos.  
 
 > [!TIP]
-> Puede usar los mismos trabajos por lotes para agregar saldos iniciales siempre que registre un nuevo cliente o proveedor con el que haya hecho negocios antes pero que no se haya registrado en [!INCLUDE [prodshort](includes/prodshort.md)]. Simplemente busque la tarea pertinente y luego elija el enlace correspondiente.
+> Puede usar los mismos trabajos por lotes para agregar saldos iniciales siempre que registre un nuevo cliente o proveedor con el que haya hecho negocios antes pero que no se haya registrado en [!INCLUDE [prod_short](includes/prod_short.md)]. Simplemente busque la tarea pertinente y luego elija el enlace correspondiente.
 
 ## <a name="see-also"></a>Consulte también
 

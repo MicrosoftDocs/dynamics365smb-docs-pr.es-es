@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2886548e1af66e0f28eadc16c80f64263f3e1917
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e863f3140301fe31c029ecbf207a3b255d90c5d8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920627"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747246"
 ---
 # <a name="fixed-assets"></a>Activos fijos
-La funcionalidad Activos fijos de [!INCLUDE[d365fin](includes/d365fin_md.md)] proporciona un resumen de sus activos y asegura una correcta amortización periódica. También le permite realizar un seguimiento de los costes de mantenimiento, gestionar las pólizas de seguros, registrar transacciones de activos y generar diversos informes y estadísticas.
+La funcionalidad Activos fijos de [!INCLUDE[prod_short](includes/prod_short.md)] proporciona un resumen de sus activos y asegura una correcta amortización periódica. También le permite realizar un seguimiento de los costes de mantenimiento, gestionar las pólizas de seguros, registrar transacciones de activos y generar diversos informes y estadísticas.
 
 Deberá configurar una ficha con la información de cada activo. Puede configurar los edificios o los bienes de producción como activos principales con una lista de componentes y puede agruparlos de diferentes maneras como, por ejemplo, por clase, departamento o ubicación. Ahora puede empezar a adquirir, mantener y vender los activos fijos. También puede configurar activos presupuestados. Esto permite incluir cualquier adquisición y venta anticipada en los informes.
 
-Para realizar un seguimiento de las amortizaciones de activos, así como otras transacciones financieras relacionadas con los activos, configure uno o varios libros de amortización para cada activo en su empresa. La amortización se calcula con la ejecución de un informe que calcula las amortizaciones periódicas y rellena un diario con los movimientos resultantes, listos para registrarse. [!INCLUDE[d365fin](includes/d365fin_md.md)] admite varios métodos de amortización. Para obtener más información, consulte [Métodos de amortización](fa-depreciation-methods.md). Puede configurar varios libros de amortización de activos para propósitos distintos, por ejemplo, uno para la notificación de impuestos y otro para la elaboración de informes internos.
+Para realizar un seguimiento de las amortizaciones de activos, así como otras transacciones financieras relacionadas con los activos, configure uno o varios libros de amortización para cada activo en su empresa. La amortización se calcula con la ejecución de un informe que calcula las amortizaciones periódicas y rellena un diario con los movimientos resultantes, listos para registrarse. [!INCLUDE[prod_short](includes/prod_short.md)] admite varios métodos de amortización. Para obtener más información, consulte [Métodos de amortización](fa-depreciation-methods.md). Puede configurar varios libros de amortización de activos para propósitos distintos, por ejemplo, uno para la notificación de impuestos y otro para la elaboración de informes internos.
 
 Puede registrar los costes de mantenimiento y la fecha del siguiente servicio de cada activo. Realizar un seguimiento de los gastos de mantenimiento puede ser importante de cara al presupuesto y para decidir el reemplazo de un activo.
 
@@ -58,7 +58,7 @@ El siguiente video cubre los conceptos básicos de los activos fijos.
 [Cambiar las funciones que se muestran](ui-experiences.md)  
 [Finanzas](finance.md)  
 [Introducción](product-get-started.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
  

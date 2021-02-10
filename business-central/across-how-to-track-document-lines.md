@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 056cb7d0aec55ae939c09adb47477343908c2e6c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 169e1947cb3e2ca962dc0937c5901c8c92ca936a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924983"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754647"
 ---
 # <a name="track-document-lines"></a>Seguimiento de líneas de documentos
 Puede ver documentos relacionados con líneas de orden de venta y líneas de orden de compra, incluso desde líneas de pedido archivadas. Los documentos relacionados que puede rastrear incluyen presupuestos, envíos, recibos y pedidos abiertos. Esto le permite identificar los documentos que se usan para procesar pedidos.  
@@ -34,4 +34,4 @@ El siguiente procedimiento describe cómo rastrear desde una línea de orden de 
 ## <a name="see-also"></a>Consulte también
 [Ccial](sales-manage-sales.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

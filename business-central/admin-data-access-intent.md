@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 98105cb3e3634169b31a850f20a65a3854b006b4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6d79f5b2851df85ea9f19faeeb941eccfd1b397b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911560"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752830"
 ---
 # <a name="managing-database-access-intent"></a>Gestionar la intención de acceso a la base de datos 
 
@@ -23,13 +23,13 @@ Como superusuario o administrador, puede cambiar la intención de acceso a la ba
 
 ## <a name="overview"></a>Panorama
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] se puede configurar para usar réplicas de solo lectura de la base de datos primaria (lectura-escritura). El uso de la réplica de la base de datos reduce la carga en la base de datos primaria. En algunos casos, también mejorará el rendimiento al visualizar datos en el cliente. Las réplicas son beneficiosas para los objetos, como informes, consultas y páginas API, que se usan para ver solo datos, no para modificar datos.
+[!INCLUDE[prod_short](includes/prod_short.md)] se puede configurar para usar réplicas de solo lectura de la base de datos primaria (lectura-escritura). El uso de la réplica de la base de datos reduce la carga en la base de datos primaria. En algunos casos, también mejorará el rendimiento al visualizar datos en el cliente. Las réplicas son beneficiosas para los objetos, como informes, consultas y páginas API, que se usan para ver solo datos, no para modificar datos.
 
 Cuando se ejecutan los objetos, la intención de acceso a la base de datos determina si se usa una réplica de solo lectura, si hay una disponible, o la base de datos primaria. Los informes, las páginas API y las consultas se desarrollan con una intención de acceso a la base de datos predefinida (consulte [Propiedad DatabaseAccessIntent](/dynamics365/business-central/dev-itpro/developer/properties/devenv-dataaccessintent-property)).
 
 La página **Lista de intenciones de acceso a la base de datos** permite anular la intención de acceso a la base de datos predefinida para los objetos cuando se ejecutan.
 
-En términos de base de datos, esta característica se conoce comúnmente como *escalado de lectura*. Para obtener más información sobre el escalado de lectura y la intención de acceso a datos en [!INCLUDE[prodshort](includes/prodshort.md)], vea [Utilizar el escalado de lectura para un mejor rendimiento](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) en la ayuda para desarrolladores y administración de [!INCLUDE[prodshort](includes/prodshort.md)].
+En términos de base de datos, esta característica se conoce comúnmente como *escalado de lectura*. Para obtener más información sobre el escalado de lectura y la intención de acceso a datos en [!INCLUDE[prod_short](includes/prod_short.md)], vea [Utilizar el escalado de lectura para un mejor rendimiento](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) en la ayuda para desarrolladores y administración de [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## <a name="to-change-the-database-access-intent"></a>Para cambiar la intención de acceso a la base de datos
 
@@ -55,7 +55,7 @@ En términos de base de datos, esta característica se conoce comúnmente como *
 ## <a name="see-also"></a>Consulte también
 [Funciones empresariales](across-business-functionality.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Introducción](product-get-started.md)    
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

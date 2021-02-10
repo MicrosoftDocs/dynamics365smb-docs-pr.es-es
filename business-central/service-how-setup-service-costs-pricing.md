@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: service, cost, service order
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5c993027b54c624ea393c6bfc96554d02c0882ed
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fac8f33b973135cc9aceff649a9046153bd45253
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925802"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748109"
 ---
 # <a name="set-up-pricing-and-additional-costs-for-services"></a>Configurar precios y costes adicionales de servicios
-Puede utilizar las funciones de precios de [!INCLUDE[d365fin](includes/d365fin_md.md)] para configurar y personalizar su aplicación de modo que aplique y ajuste precios sobre productos de servicio, reparaciones y pedidos. Estas decisiones de precios se transmiten con facilidad al proceso de facturación.  
+Puede utilizar las funciones de precios de [!INCLUDE[prod_short](includes/prod_short.md)] para configurar y personalizar su aplicación de modo que aplique y ajuste precios sobre productos de servicio, reparaciones y pedidos. Estas decisiones de precios se transmiten con facilidad al proceso de facturación.  
   
 Según requiera su implementación, puede configurar grupos de precios y asignarlos a periodos de tiempo, clientes o divisa específicos. Puede configurar precios fijos, mínimos o máximos, en función de los contratos de servicio que tenga con los clientes. Finalmente, al ajustar los precios, puede ver y aprobar los cambios antes de asignarlos en la contabilidad.  
 

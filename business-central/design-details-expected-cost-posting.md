@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d2bd63f38e434d15ba0592126a11c5f92f8611aa
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 22e01f8b22c7f222674ff43090a27f5466dd8387
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911135"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751635"
 ---
 # <a name="design-details-expected-cost-posting"></a>Detalles de diseño: Registro de coste previsto
 Los costes previstos representan la estimación, por ejemplo, del coste de un producto comprado registrado antes de recibir la factura de este producto.  
@@ -88,4 +88,4 @@ Los costes previstos representan la estimación, por ejemplo, del coste de un pr
  [Detalles de diseño: Desviación](design-details-variance.md)  
  [Gestión de costes de inventario](finance-manage-inventory-costs.md)  
  [Finanzas](finance.md)  
- [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

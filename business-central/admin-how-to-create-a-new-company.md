@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 095d939d247a419d2adba16f9d3f61c8afb70e4d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7583837e515a4fd5fb415fe1b482512e7edf6b5a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911360"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754008"
 ---
 # <a name="create-a-new-company"></a>Cree una nueva empresa
-Para usar RapidStart Services para [!INCLUDE[d365fin](includes/d365fin_md.md)], primero debe crear una nueva empresa para la que desee realizar una implementación de cliente. Al crear una empresa nueva, se crean las tablas y páginas estándar de [!INCLUDE[d365fin](includes/d365fin_md.md)], pero no existen datos en ellas.
+Para usar RapidStart Services para [!INCLUDE[prod_short](includes/prod_short.md)], primero debe crear una nueva empresa para la que desee realizar una implementación de cliente. Al crear una empresa nueva, se crean las tablas y páginas estándar de [!INCLUDE[prod_short](includes/prod_short.md)], pero no existen datos en ellas.
 
 Además, puede aplicar datos específicos de configuración a la empresa después de inicializarla. La información se proporciona en un paquete de configuración, un archivo .rapidstart, que entrega contenido en formato comprimido.  
 
@@ -32,13 +32,13 @@ La empresa de demostración CRONUS incluye paquetes de configuración de ejemplo
 Utilice el procedimiento siguiente para crear una nueva empresa y utilizar el paquete BASICCONFIG como parte del proceso.  
 
 ## <a name="to-create-a-new-company"></a>Para crear una nueva empresa  
-1. Cree una nueva empresa. Para obtener más información, consulte [Crear nuevas empresas en [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md).
+1. Cree una nueva empresa. Para obtener más información, consulte [Crear nuevas empresas en [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md).
 2. Desde el área de trabajo del implementador de RapidStart Services, ahora puede importar el paquete de configuración que exportó de la empresa CRONUS España S.A.
 
-Después de crear una empresa nueva, algunas tablas se rellenan automáticamente, incluso si no se aplica ningún plantilla de empresa. Por ejemplo, puede revisar los códigos estándar para registrar y tratar las transacciones por lotes en la página **Código origen**. Si proporciona una versión local de [!INCLUDE[d365fin](includes/d365fin_md.md)], debe revisar esta tabla y tener en cuenta cualquier problema de idioma local.
+Después de crear una empresa nueva, algunas tablas se rellenan automáticamente, incluso si no se aplica ningún plantilla de empresa. Por ejemplo, puede revisar los códigos estándar para registrar y tratar las transacciones por lotes en la página **Código origen**. Si proporciona una versión local de [!INCLUDE[prod_short](includes/prod_short.md)], debe revisar esta tabla y tener en cuenta cualquier problema de idioma local.
 
 ## <a name="about-data-tables"></a>Acerca de las tablas de datos
-Las tablas de datos de [!INCLUDE[d365fin](includes/d365fin_md.md)] se proporcionan en dos tipos básicos: principal y configuración. Cuando está estableciendo la configuración de una empresa, puede usar estos tipos para centrar la estrategia de configuración.  
+Las tablas de datos de [!INCLUDE[prod_short](includes/prod_short.md)] se proporcionan en dos tipos básicos: principal y configuración. Cuando está estableciendo la configuración de una empresa, puede usar estos tipos para centrar la estrategia de configuración.  
 
 ### <a name="master-data-tables"></a>Tablas de datos maestros  
 En la tabla siguiente se enumeran todas las tablas de datos maestros. Cuando se inicializa una nueva empresa, estas tablas están vacías.  
@@ -61,7 +61,7 @@ En la tabla siguiente se enumeran algunas tablas de datos de configuración, en 
 |312|Configuración de compras y pagos|  
 |313|Configuración de inventario|  
 
-Además de las tablas de datos de configuración, [!INCLUDE[d365fin](includes/d365fin_md.md)] también incluye tablas de datos de tipo de configuración que especifican información básica acerca de la empresa y sus procesos empresariales. En la tabla siguiente aparecen algunos.  
+Además de las tablas de datos de configuración, [!INCLUDE[prod_short](includes/prod_short.md)] también incluye tablas de datos de tipo de configuración que especifican información básica acerca de la empresa y sus procesos empresariales. En la tabla siguiente aparecen algunos.  
 
 |Tabla nº|Nombre de tabla|  
 |-------------------|--------------------|  

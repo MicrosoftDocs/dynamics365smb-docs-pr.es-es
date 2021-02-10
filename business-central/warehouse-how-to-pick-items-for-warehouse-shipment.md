@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8da226a21e795228efa253f994d817f60ac5616b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: dedd89dfceeb17994ccc18b359d2b02eb086cc60
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910060"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756183"
 ---
 # <a name="pick-items-for-warehouse-shipment"></a>Realizar un picking de los artículos para el envío de almacén
 Cuando el almacén está configurado para requerir los procesos de picking y envío, utilice documentos de picking de almacén para crear y procesar la información de picking anterior al registro del envío de almacén.  
@@ -79,4 +79,4 @@ Una vez registrado el envío de almacén, los distintos campos de la línea de p
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

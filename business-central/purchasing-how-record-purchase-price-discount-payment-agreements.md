@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8027465189507ce9ad78ebadea9dcc086e512ea4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4fbc36a1dbe9970932718336d21b7ea7c4dc2a71
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926827"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748774"
 ---
 # <a name="record-special-purchase-prices-and-discounts"></a>Registrar precios y descuentos de compra especiales
 Los diferentes acuerdos de precio y descuentos que se aplican cuando compra a distintos proveedores se deben definir para que las reglas y valores acordados se apliquen a los documentos de compra que se crean para los proveedores.
 
-Cuando haya registrado precios especiales y los descuentos de línea para ventas y compras, [!INCLUDE[d365fin](includes/d365fin_md.md)] garantiza que el beneficio en operaciones comerciales de producto siempre son óptimos calculando automáticamente el mejor precio en los documentos de ventas y compras, y en líneas del diario de proyectos y recursos. Para obtener más información, vea [Cálculo del mejor precio](purchasing-how-record-purchase-price-discount-payment-agreements.md#best-price-calculation).
+Cuando haya registrado precios especiales y los descuentos de línea para ventas y compras, [!INCLUDE[prod_short](includes/prod_short.md)] garantiza que el beneficio en operaciones comerciales de producto siempre son óptimos calculando automáticamente el mejor precio en los documentos de ventas y compras, y en líneas del diario de proyectos y recursos. Para obtener más información, vea [Cálculo del mejor precio](purchasing-how-record-purchase-price-discount-payment-agreements.md#best-price-calculation).
 
 Respecto a los precios, puede tener una precio especial de compra insertado en las líneas de compra si existe una cierta combinación de proveedor, producto, cantidad mínima, unidad de medida o fecha de inicio o de fin.
 
@@ -94,30 +94,30 @@ Si aplica términos fijos para los descuentos en factura a algunos proveedores, 
 
  Puede definir los términos de los descuentos en factura en DL para los proveedores nacionales y en otras divisas para los proveedores de otros países.  
 
- Puede optar por que [!INCLUDE[d365fin](includes/d365fin_md.md)] calcule automáticamente los descuentos en factura de ofertas, pedidos abiertos, pedidos, facturas o abonos.  
+ Puede optar por que [!INCLUDE[prod_short](includes/prod_short.md)] calcule automáticamente los descuentos en factura de ofertas, pedidos abiertos, pedidos, facturas o abonos.  
 
 > [!TIP]  
 >  Antes de introducir esta información, se recomienda preparar un esquema de la estructura de descuentos que desea utilizar. De este modo, podrá ver fácilmente los proveedores que se pueden vincular a la misma página de descuentos en factura. Cuantas menos páginas tenga que configurar, más rápido podrá introducir la información básica.
 
 ## <a name="best-price-calculation"></a>Cálculo del mejor precio
-Cuando haya registrado precios especiales y los descuentos de línea para ventas y compras, [!INCLUDE[d365fin](includes/d365fin_md.md)] garantiza que el beneficio en operaciones comerciales de producto siempre son óptimos calculando automáticamente el mejor precio en los documentos de ventas y compras, y en líneas del diario de proyectos y recursos.
+Cuando haya registrado precios especiales y los descuentos de línea para ventas y compras, [!INCLUDE[prod_short](includes/prod_short.md)] garantiza que el beneficio en operaciones comerciales de producto siempre son óptimos calculando automáticamente el mejor precio en los documentos de ventas y compras, y en líneas del diario de proyectos y recursos.
 
-El mejor precio es el precio más bajo permisible con el mayor descuento de línea permisible en una fecha indicada. [!INCLUDE[d365fin](includes/d365fin_md.md)] lo calcula automáticamente al insertar el precio por unidad y el porcentaje de descuento de línea de los productos en las nuevas líneas de documento y diario.
+El mejor precio es el precio más bajo permisible con el mayor descuento de línea permisible en una fecha indicada. [!INCLUDE[prod_short](includes/prod_short.md)] lo calcula automáticamente al insertar el precio por unidad y el porcentaje de descuento de línea de los productos en las nuevas líneas de documento y diario.
 
 > [!NOTE]  
 >   A continuación se describe cómo se calcula el mejor precio para las ventas. El cálculo es igual para las compras.
 
-1. [!INCLUDE[d365fin](includes/d365fin_md.md)] comprueba la combinación de la factura a cliente y el producto, y calcula el precio por unidad y el porcentaje de descuento de línea aplicables utilizando los siguientes criterios:
+1. [!INCLUDE[prod_short](includes/prod_short.md)] comprueba la combinación de la factura a cliente y el producto, y calcula el precio por unidad y el porcentaje de descuento de línea aplicables utilizando los siguientes criterios:
 
     - ¿El cliente tiene un acuerdo de precios o descuentos, o el cliente pertenece a un grupo que lo tiene?
     - ¿Está incluido el producto o el grupo de descuento del producto de la línea en alguno de estos acuerdos de precios o descuentos?
     - ¿La fecha de pedido (o la fecha de registro de la factura y abono) está comprendida entre la fecha inicial y la fecha final del acuerdo de precios o descuentos?
-    - ¿Se ha especificado un código de unidad de medida? Si es así, [!INCLUDE[d365fin](includes/d365fin_md.md)] comprueba los precios o descuentos con el mismo código de unidad de medida y los precios o descuentos sin un código de unidad de medida.
+    - ¿Se ha especificado un código de unidad de medida? Si es así, [!INCLUDE[prod_short](includes/prod_short.md)] comprueba los precios o descuentos con el mismo código de unidad de medida y los precios o descuentos sin un código de unidad de medida.
 
-2. [!INCLUDE[d365fin](includes/d365fin_md.md)] comprueba si se aplican acuerdos de precios o de descuentos a la información de la línea de documento o de diario y, a continuación, inserta el precio unitario y porcentaje de descuento de línea, utilizando el siguiente criterio:
+2. [!INCLUDE[prod_short](includes/prod_short.md)] comprueba si se aplican acuerdos de precios o de descuentos a la información de la línea de documento o de diario y, a continuación, inserta el precio unitario y porcentaje de descuento de línea, utilizando el siguiente criterio:
 
     - ¿Hay un requisito de cantidad mínima en el acuerdo de precios o descuentos que se debe cumplir?
-    - ¿Hay un requisito de divisa en el acuerdo de precios o descuentos que se debe cumplir? Si es así, se insertan el precio más bajo y el descuento de línea más alto para esa divisa, incluso si la DL proporciona un precio mejor. Si no existen acuerdos de precios o descuentos para el código de divisa especificado, [!INCLUDE[d365fin](includes/d365fin_md.md)] inserta el menor precio y el mayor descuento de línea en la DL.
+    - ¿Hay un requisito de divisa en el acuerdo de precios o descuentos que se debe cumplir? Si es así, se insertan el precio más bajo y el descuento de línea más alto para esa divisa, incluso si la DL proporciona un precio mejor. Si no existen acuerdos de precios o descuentos para el código de divisa especificado, [!INCLUDE[prod_short](includes/prod_short.md)] inserta el menor precio y el mayor descuento de línea en la DL.
 
 Si no se puede calcular ningún precio especial para el producto de la línea, se inserta el último coste directo o el precio unitario de la ficha de producto.
 
@@ -126,4 +126,4 @@ Si no se puede calcular ningún precio especial para el producto de la línea, s
 ## <a name="see-also"></a>Consulte también
 [Configurar compras](purchasing-setup-purchasing.md)  
 [Compras](purchasing-manage-purchasing.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e94bef3f127d52ca7ee5c7e31f0f126e57b44210
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f3a02f54863bf7d0bf6e6e2db03e16e8bedd53c6
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914815"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756422"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Tutorial: Configuración y facturación de prepagos de ventas
 
 [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
 
-Los prepagos son pagos que se facturan y registran en un pedido de prepago de ventas o compras antes de la facturación final. Es posible que solicite un depósito antes de fabricar productos del pedido, o que solicite un pago antes de enviar productos al cliente. La funcionalidad de prepagos en [!INCLUDE[d365fin](includes/d365fin_md.md)] se utiliza para facturar y cobrar depósitos de los clientes o remitir depósitos a los proveedores. De este modo, puede asegurar que todos los pagos estén registrados contra una factura.  
+Los prepagos son pagos que se facturan y registran en un pedido de prepago de ventas o compras antes de la facturación final. Es posible que solicite un depósito antes de fabricar productos del pedido, o que solicite un pago antes de enviar productos al cliente. La funcionalidad de prepagos en [!INCLUDE[prod_short](includes/prod_short.md)] se utiliza para facturar y cobrar depósitos de los clientes o remitir depósitos a los proveedores. De este modo, puede asegurar que todos los pagos estén registrados contra una factura.  
 
  Los requisitos de los prepagos se pueden definir para un cliente o proveedor, para todos los productos o para algunos. Una vez realizada la configuración necesaria, puede generar facturas de prepago a partir de pedidos de compra y venta para el importe calculado del prepago. Puede cambiar los importes predeterminados en la factura según sea necesario. Por ejemplo, puede enviar facturas de prepago adicionales si es necesario añadir nuevos productos al pedido.  
 
@@ -43,7 +43,7 @@ Los prepagos son pagos que se facturan y registran en un pedido de prepago de ve
 -   Administrador Cobros (Andrés)  
 
 ## <a name="story"></a>Historia  
- Felisa es administradora de contabilidad. Ella decisiones sobre qué clientes deben abonar un depósito antes de que se fabriquen o envíen los productos. Felisa configura [!INCLUDE[d365fin](includes/d365fin_md.md)] para calcular automáticamente los prepagos.  
+ Felisa es administradora de contabilidad. Ella decisiones sobre qué clientes deben abonar un depósito antes de que se fabriquen o envíen los productos. Felisa configura [!INCLUDE[prod_short](includes/prod_short.md)] para calcular automáticamente los prepagos.  
 
  Susana es procesadora de pedidos de ventas. Cuando un cliente llama para realizar un pedido, ella lo introduce en el sistema mientras el cliente está en el teléfono. Así, puede verificar los precios y las condiciones de pago con el cliente en el momento, y puede realizar ajustes en el pedido mientras negocia con el cliente.  
 
@@ -208,14 +208,14 @@ Andrés puede ver el historial para verificar que la factura de venta fue creada
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Histórico facturas venta** y luego elija el enlace relacionado.  
 
 ## <a name="next-steps"></a>Pasos siguientes  
-En este tutorial, ha visto los pasos necesarios para configurar [!INCLUDE[d365fin](includes/d365fin_md.md)] para gestionar prepagos. Ha configurado los porcentajes de prepago predeterminados en clientes y productos, y también ha utilizado distintos métodos para calcular los prepagos de un pedido. Ha tratado de asignar un importe de prepago total al pedido y ha calculado el importe de prepago como un porcentaje del pedido completo.  
+En este tutorial, ha visto los pasos necesarios para configurar [!INCLUDE[prod_short](includes/prod_short.md)] para gestionar prepagos. Ha configurado los porcentajes de prepago predeterminados en clientes y productos, y también ha utilizado distintos métodos para calcular los prepagos de un pedido. Ha tratado de asignar un importe de prepago total al pedido y ha calculado el importe de prepago como un porcentaje del pedido completo.  
 
 También ha registrado una factura de prepago, creado una segunda factura de prepago cuando se modificó el pedido y registrado la factura final por el importe restante.  
 
-La función de prepagos en [!INCLUDE[d365fin](includes/d365fin_md.md)] facilita la configuración y la imposición de reglas de prepago para clientes y productos; además, permite registrar cada pago contra una factura.  
+La función de prepagos en [!INCLUDE[prod_short](includes/prod_short.md)] facilita la configuración y la imposición de reglas de prepago para clientes y productos; además, permite registrar cada pago contra una factura.  
 
 ## <a name="see-also"></a>Consulte también  
 [Facturación de prepagos](finance-invoice-prepayments.md)  
 [Finanzas](finance.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Tutoriales de procesos empresariales](walkthrough-business-process-walkthroughs.md)

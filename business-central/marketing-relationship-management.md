@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: contact, prospect, client
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 00ffaf4cefa87ad530a94495386998d65be4fdc5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6c1539b19274c4e31fa66b31af17be5429c719f5
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923525"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4745971"
 ---
 # <a name="managing-relationships"></a>Gestionar las relaciones
-Las funciones de gestión de relaciones de [!INCLUDE[d365fin](includes/d365fin_md.md)] le ayudan a gestionar y proporcionar soporte a sus esfuerzos de ventas. Con estas funciones, tiene acceso a información completa y precisa, de modo que las interacciones se pueden centrar en los segmentos de cliente o contacto preferidos.
+Las funciones de gestión de relaciones de [!INCLUDE[prod_short](includes/prod_short.md)] le ayudan a gestionar y proporcionar soporte a sus esfuerzos de ventas. Con estas funciones, tiene acceso a información completa y precisa, de modo que las interacciones se pueden centrar en los segmentos de cliente o contacto preferidos.
 
-Las buenas prácticas de ventas y marketing consisten en tomar las mejores decisiones en los momentos adecuados. [!INCLUDE[d365fin](includes/d365fin_md.md)] proporciona un resumen preciso y puntual sobre la información de contacto para que pueda servir a sus clientes potenciales con más eficacia y aumentar la satisfacción de sus clientes.
+Las buenas prácticas de ventas y marketing consisten en tomar las mejores decisiones en los momentos adecuados. [!INCLUDE[prod_short](includes/prod_short.md)] proporciona un resumen preciso y puntual sobre la información de contacto para que pueda servir a sus clientes potenciales con más eficacia y aumentar la satisfacción de sus clientes.
 
 En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.  
 

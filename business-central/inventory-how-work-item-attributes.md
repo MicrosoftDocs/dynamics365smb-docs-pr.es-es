@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: categories, search words, facets
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cc93d954e55a4bcae1057d7a0b72b67c20606842
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 80f1418e71396ababc4d85bb7f231fb9985654c8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919368"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749935"
 ---
 # <a name="work-with-item-attributes"></a>Trabajar con atributos de producto
 Cuando los clientes hacen consultas sobre un producto, ya sea por correspondencia o en una tienda en línea integrada, pueden preguntar por las características como la altura y el año del modelo. Para proporcionar este servicio al cliente, puede asignar valores de atributo de producto de diferentes tipos a sus productos, que podrán usarse posteriormente en la búsqueda de productos.
@@ -79,4 +79,4 @@ Los productos de la página **Productos** se filtran por los valores de atributo
 [Clasificar productos](inventory-how-categorize-items.md)    
 [Registro de productos nuevos](inventory-how-register-new-items.md)  
 [Inventario](inventory-manage-inventory.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

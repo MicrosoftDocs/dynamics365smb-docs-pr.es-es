@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: project management, capacity, staff
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: fbcd6f6e0f1a73316c20f14f143a044c68a5c539
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b6c10cc9a31dcf41d843d2bebc19ef81433cb4ee
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919043"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748898"
 ---
 # <a name="set-up-resources"></a>Configurar recursos
 Para administrar correctamente las actividades de recursos, debe configurar los recursos, y los costes y los precios relacionados. Las reglas de precios, descuentos y factores de coste relacionadas con el proyecto se configuran en la tarjeta respectiva. Puede especificar los costes y los precios de recursos individuales, de grupos de recursos o de todos los recursos disponibles de la empresa.
@@ -80,4 +80,4 @@ Además del precio especificado en la tarjeta de recurso, puede configurar preci
 [Finanzas](finance.md)  
 [Compras](purchasing-manage-purchasing.md)         
 [Ventas](sales-manage-sales.md)      
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

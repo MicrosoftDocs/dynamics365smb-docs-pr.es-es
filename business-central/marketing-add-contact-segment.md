@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect, contact, client, customer
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 68a62afd8ca154f8a5270899fe458a6841407000
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 14fcd5059bf270a3845cf9f96762c424c372323c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922849"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749885"
 ---
 # <a name="add-contacts-to-segments"></a>Añadir contactos a segmentos
 Después de crear un segmento y especificar su información básica, puede que quiera añadir contactos al segmento. Puede hacerlo si rellena manualmente las líneas de la página **Segmento**, pero es más sencillo y rápido usar la acción **Agregar contactos**.
@@ -57,4 +57,4 @@ Puede reducir un segmento tantas veces como desee. Si ha reducido el segmento po
 [Crear un segmento](marketing-how-create-segment.md)   
 [Administrar segmentos](marketing-segments.md)  
 [Administrar oportunidades de venta](marketing-manage-sales-opportunities.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: client
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 67bae862e702bb2c0ca4798d9d3699b8419f823f
-ms.sourcegitcommit: 0fb6952376d853a878ed33257e73aadc03b95572
+ms.openlocfilehash: 86527387653d198bc8cf6f7817058b5ff551e1d0
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "3968442"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748324"
 ---
 # <a name="register-new-customers"></a>Permite registrar nuevos clientes
 
@@ -71,4 +71,4 @@ Si ha publicado una transacción para un cliente, no puede eliminar la ficha por
 [Crear numeración](ui-create-number-series.md)  
 [Ccial](sales-manage-sales.md)  
 [Configuración de ventas](sales-setup-sales.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

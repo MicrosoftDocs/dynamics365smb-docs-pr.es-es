@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: projects
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bb76950dcf84a49ed2644a7db19827999579d24b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6189968a44a4001d76f44bf1331594f73ea58e05
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918968"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758571"
 ---
 # <a name="setting-up-project-management"></a>Configurar la administración de proyectos
-Antes de poder usar [!INCLUDE[d365fin](includes/d365fin_md.md)] para administrar proyectos, debe configurar los recursos, las hojas de horas y los proyectos.
+Antes de poder usar [!INCLUDE[prod_short](includes/prod_short.md)] para administrar proyectos, debe configurar los recursos, las hojas de horas y los proyectos.
 
 A continuación, puede crear proyectos y programar recursos para los proyectos, así como administrar presupuestos y realizar el seguimiento de las horas de máquinas y de empleados con las hojas de horas. Para obtener más información, vea [Administración de proyectos](projects-manage-projects.md).  
 
@@ -38,4 +38,4 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 [Finanzas](finance.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Ccial](sales-manage-sales.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

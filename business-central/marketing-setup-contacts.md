@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3096bdcdf7ed6570e28d0e636b7dc8f1b28113c4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 868b8afe7fb9b36b9fc55930fa702bd181e395f2
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916073"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746021"
 ---
 # <a name="set-up-contacts"></a>Configuración de contactos
 Al crear contactos, puede especificar información como, por ejemplo, la industria a la que pertenecen y sus relaciones de negocio con los contactos.
@@ -160,4 +160,4 @@ Cuando haya encontrado un contacto duplicado, puede usar la página **Combinar d
 [Gestionar contactos](marketing-contacts.md)  
 [Crear contactos](marketing-create-contact-companies.md)  
 [Administrar oportunidades de venta](marketing-manage-sales-opportunities.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

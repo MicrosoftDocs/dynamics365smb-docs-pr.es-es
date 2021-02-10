@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: fd26f288ee6128539c9a8dd415d98126d693c3fe
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 2eb3b42c5b76487d579065b9a60ae614bbb71dda
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926627"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748623"
 ---
 # <a name="applying-payments-automatically-and-reconciling-bank-accounts"></a>Liquidación de pagos automáticamente y conciliación de cuentas bancarias
-Debe conciliar con frecuencia los bancos y las cuentas de cobros y de pagos liquidando pagos registrados en el banco en sus facturas abiertas (sin abonar) relacionadas, abonos y otros movimientos pendientes en [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Debe conciliar con frecuencia los bancos y las cuentas de cobros y de pagos liquidando pagos registrados en el banco en sus facturas abiertas (sin abonar) relacionadas, abonos y otros movimientos pendientes en [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Puede realizar esta tarea en la página **Diario de conciliación de pagos**, por ejemplo, importando una fuente o archivo de extracto bancario para registrar rápidamente los pagos. Los pagos se liquidan en los movimientos de cliente o proveedor abiertos en función de las coincidencias entre el texto de pago y la información de movimiento. Puede revisar y cambiar las liquidaciones automáticas entes de registrar el diario. Puede elegir cerrar los movimientos de cuentas bancarias abiertos relacionados con los movimientos liquidados cuando registra el diario. La cuenta bancaria se concilia automáticamente cuando se liquidan todos los pagos.
 
@@ -30,7 +30,7 @@ También puede conciliar cuentas bancarias sin liquidar pagos simultáneamente. 
 
 Para importar extractos bancarios como fuente de banco, primero debe configurar y habilitar el servicio Envestnet Yodlee Bank Feeds y, a continuación, vincular sus cuentas bancarias a las cuentas bancarias en línea relacionadas. Para obtener más información, vea [Configurar el servicio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).  
 
-De forma alternativa, puede usar la extensión AMC Banking 365 Fundamentals para convertir un archivo de extracto de cuenta, en cualquier formato, a una secuencia de datos que pueda importar en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, vea [Usar la extensión AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
+De forma alternativa, puede usar la extensión AMC Banking 365 Fundamentals para convertir un archivo de extracto de cuenta, en cualquier formato, a una secuencia de datos que pueda importar en [!INCLUDE[prod_short](includes/prod_short.md)]. Para obtener más información, vea [Usar la extensión AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
 
 En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.  
 
@@ -48,4 +48,4 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 [Conciliar cuentas bancarias](bank-how-reconcile-bank-accounts-separately.md)  
 [Administrar cobros](receivables-manage-receivables.md)  
 [Ccial](sales-manage-sales.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

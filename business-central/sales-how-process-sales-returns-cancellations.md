@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: undo, credit memo, return
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cab1663aa1e584780f7544f0bd9b61c9038b5922
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 701743c385d3afe7e0d514fede60185ecdc7a558
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926122"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748397"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Procesamiento de devoluciones de ventas o cancelaciones
 Si un cliente desea devolver u obtener un reembolso de algún producto o servicio que usted ha vendido y que le han pagado, debe crear y registrar una abono de ventas que especifique el cambio requerido. Para incluir la información correcta de la factura de ventas, puede crear la nota de crédito de ventas directamente de la factura de venta contabilizada o puede crear una nueva nota de crédito de ventas con información de factura copiada.
@@ -227,4 +227,4 @@ También puede eliminar los pedidos de devolución de venta individuales manualm
 [Administrar pagos](payables-manage-payables.md)  
 [Enviar documentos por correo electrónico](ui-how-send-documents-email.md)  
 [Procesamiento de devoluciones de compra o cancelaciones](purchasing-how-process-purchase-returns-cancellations.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 42bd650cd3452be8c209e2ff12d1f5c06d6c4f21
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b9371127ca692ae636f93e44b202608684acaedb
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913618"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746538"
 ---
 # <a name="manage-employee-absence"></a>Gestionar ausencia empleados
 Para administrar la ausencia de un empleado, se debe registrar en la página **Registro de ausencias**. Puede posteriormente hacer un seguimiento de distintas maneras para fines de análisis y creación de informes.
@@ -71,5 +71,5 @@ Puede registrar las ausencias de empleados diariamente o a algún otro intervalo
 ## <a name="see-also"></a>Consulte también
 [Administrar recursos humanos](hr-manage-human-resources.md)  
 [Finanzas](finance.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Cambiar las funciones que se muestran](ui-experiences.md)

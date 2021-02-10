@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: posting, interface, design
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 231148c304c5f2dabba5c69c442dfd0cfdc6397d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e306b0caeb58bfe7bd04f93ac64d8b593f70f695
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921947"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751260"
 ---
 # <a name="design-details-posting-interface-structure"></a>Detalles de diseño: estructura de interfaz de registro
-En la estructura de interfaz de registro de [!INCLUDE[d365fin](includes/d365fin_md.md)] existen varios procedimientos globales que utilizan la misma estructura:  
+En la estructura de interfaz de registro de [!INCLUDE[prod_short](includes/prod_short.md)] existen varios procedimientos globales que utilizan la misma estructura:  
   
 * RunWithCheck y RunWithoutCheck llaman al código de procedimiento - interfaz de registro genérica para la línea de diario general.  
 * CustPostApplyCustLedgEntry: registrar aplicación de cliente, llamada desde la codeunit 226 Mov. cliente-Liquidar movimientos registrados.  

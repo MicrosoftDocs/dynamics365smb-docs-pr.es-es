@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 83bb0691baada420d8360736b613d1fbb33690e4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a9a44faea1f92159930124992c9c070880d0c9eb
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922072"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751310"
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Detalles de diseño: Flujo de salida del almacén
 
@@ -37,7 +37,7 @@ Además, existen los siguientes documentos de origen internos que funcionan como
 
  Los procesos y los documentos de interfaz de usuario en los flujos de almacén de salida varían según el la configuración básica y avanzada de almacén. La diferencia principal es que las actividades se realizan pedido a pedido en la configuración básica de almacén y se consolidan para varios pedidos en la configuración avanzada. Para obtener más información acerca de los diferentes niveles de complejidad de almacenes, consulte [Detalles de diseño: Resumen de almacén](design-details-warehouse-setup.md).  
 
- En [!INCLUDE[d365fin](includes/d365fin_md.md)], los procesos de salida para la selección y el envío se pueden realizar de cuatro maneras utilizando distintas funciones según el nivel de complejidad del almacén.  
+ En [!INCLUDE[prod_short](includes/prod_short.md)], los procesos de salida para la selección y el envío se pueden realizar de cuatro maneras utilizando distintas funciones según el nivel de complejidad del almacén.  
 
 |Método|Proceso de salida|Ubicaciones|Picking|Envíos|Nivel de complejidad (consulte [Detalles de diseño: configuración de almacén](design-details-warehouse-setup.md))|  
 |------|----------------|----|-----|---------|-------------------------------------------------------------------------------------|  

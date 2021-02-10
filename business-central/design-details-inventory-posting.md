@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d9c4574f913355961d5bee6baa51bc88f0bdc64d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 383025059d14bf10abcb812f4a5f17f8f3379d06
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913718"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751460"
 ---
 # <a name="design-details-inventory-posting"></a>Detalles de diseño: Registro de inventario
 
@@ -134,4 +134,4 @@ Para obtener más información, consulte [Detalles de diseño: Registro de pedid
  [Detalles de diseño: cuentas de contabilidad](design-details-accounts-in-the-general-ledger.md)  
  [Detalles de diseño: Componentes de coste](design-details-cost-components.md) [Gestión de costes de inventario](finance-manage-inventory-costs.md)  
  [Finanzas](finance.md)  
- [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+ [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

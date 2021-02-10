@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 20dd616b52c1d6752d8aeeeb7c95e9d4f814b9a3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 51f60e938ddb8ffd53b37b5664cf6e1ba8ba396f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920952"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751785"
 ---
 # <a name="design-details-cost-adjustment"></a>Detalles de diseño: Ajuste de coste
 
@@ -38,7 +38,7 @@ Los costes de inventario deben ajustarse antes de que los movimientos de valores
 
 La tarea de detectar si se debe producir un ajuste del coste la lleva a cabo principalmente la rutina Diario de productos - Línea de registro, mientras que la tarea de calcular y generar los movimientos de ajuste de coste la realiza el proceso **Valorar stock - movs. producto**.  
 
-Para poder desviar costes, el mecanismo de detección determina qué orígenes han cambiado en los costes y a qué destino se deben desviar dichos costes. Las tres funciones de detección siguientes existen en [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
+Para poder desviar costes, el mecanismo de detección determina qué orígenes han cambiado en los costes y a qué destino se deben desviar dichos costes. Las tres funciones de detección siguientes existen en [!INCLUDE[prod_short](includes/prod_short.md)]:  
 
 * Liq. mov. producto  
 * Punto de movimiento de ajuste de coste medio  
@@ -82,7 +82,7 @@ Es buena práctica ejecutar el ajuste del coste automáticamente cuando se regis
 
 Dado que es importante mantener el coste unitario de un producto actualizado, se recomienda ejecutar el trabajo por lotes **Valorar stock - movs. producto** tan a menudo como sea posible, durante horas no laborables. También puede utilizar un ajuste automático del coste. De este modo se garantiza que el coste unitario se actualiza diariamente para los productos.  
 
-Independientemente de si ejecuta el ajuste de costes manual o automáticamente, el proceso de ajuste y sus consecuencias son los mismos. [!INCLUDE[d365fin](includes/d365fin_md.md)] calcula el valor de la transacción de entrada y desvía ese coste a cualquier transacción de salida, como ventas o consumos, que se hayan aplicado a la transacción de entrada. El ajuste de coste crea movimientos de valoración que contienen importes de ajuste e importes que compensan el redondeo.  
+Independientemente de si ejecuta el ajuste de costes manual o automáticamente, el proceso de ajuste y sus consecuencias son los mismos. [!INCLUDE[prod_short](includes/prod_short.md)] calcula el valor de la transacción de entrada y desvía ese coste a cualquier transacción de salida, como ventas o consumos, que se hayan aplicado a la transacción de entrada. El ajuste de coste crea movimientos de valoración que contienen importes de ajuste e importes que compensan el redondeo.  
 
 Los movimientos de nuevo ajuste y de valor de redondeo tienen la fecha de registro de la factura relacionada. Las excepciones son si los movimientos de valor entran en un periodo contable o un periodo de inventario cerrado o si la fecha de registro es anterior a la del campo **Permitir registro desde** en la página **Configuración de contabilidad**. Cuando esto se produce, el trabajo por lotes asigna la fecha de registro como la primera fecha del periodo abierto siguiente.  
 
@@ -188,4 +188,4 @@ Si ha configurado aplicar el ajuste automático del coste en los registros que s
 [Detalles de diseño: Registro de órdenes de producción](design-details-production-order-posting.md)  
 [Gestión de costes de inventario](finance-manage-inventory-costs.md)  
 [Finanzas](finance.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

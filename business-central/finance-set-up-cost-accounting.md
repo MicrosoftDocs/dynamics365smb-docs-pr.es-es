@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d39d30891d822c25b0ce4aaec84bbbbc714ae311
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 194e9acb40233e23470aee6e61f6cabc503cea72
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910760"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746646"
 ---
 # <a name="setting-up-cost-accounting"></a>Configuración de contabilidad de costes
 Antes de empezar a trabajar con la contabilidad de costes, debe realizar tareas de configuración.
@@ -87,8 +87,8 @@ Existe una relación n:1 entre las cuentas de contabilidad y los tipos de coste 
 Un tipo de coste puede no tener una relación con las cuentas contables si una de las siguientes condiciones es verdadera:  
 
 * Las cuentas para la contabilidad operativa, como Calc. intereses y amortización, sólo toman costes de la contabilidad operativa.  
-* Los tipos de coste de ayuda, como los tipos de coste 9901, 9902 y 9903, en la base de datos de [!INCLUDE[d365fin](includes/d365fin_md.md)], se utilizan como cuentas de crédito y débito para asignaciones.  
-* La cuenta de ayuda, 9920 en la base de datos de [!INCLUDE[d365fin](includes/d365fin_md.md)], contiene las acumulaciones reales que muestran la diferencia entre los costes y el gasto de contabilidad.
+* Los tipos de coste de ayuda, como los tipos de coste 9901, 9902 y 9903, en la base de datos de [!INCLUDE[prod_short](includes/prod_short.md)], se utilizan como cuentas de crédito y débito para asignaciones.  
+* La cuenta de ayuda, 9920 en la base de datos de [!INCLUDE[prod_short](includes/prod_short.md)], contiene las acumulaciones reales que muestran la diferencia entre los costes y el gasto de contabilidad.
 
 ## <a name="setting-up-cost-centers"></a>Configuración de centros de coste
 Los centros de coste son departamentos que son responsables de los costes y de los ingresos. El plan de centros de coste es similar a la información de dimensión de contabilidad. Puede configurar el plan de centros de coste de la siguiente forma:  
@@ -157,7 +157,7 @@ Puede configurar y mantener objetos de coste en la ficha **Plan objeto de coste*
 >  Si ha introducido definiciones en los campos **Total desde/a** para los objetos de coste de **Total final** antes de ejecutar la función Aplicar sangría, deberá volver a introducirlas. La función sobrescribe los valores de todos los campos de **Total final**.
 
 ## <a name="defining-cost-centers-and-cost-objects-for-chart-of-accounts"></a>Definición de centros de coste y de objetos de coste para el plan de cuentas
-Puede transferir automáticamente los movimientos de gastos y de ingresos de la contabilidad a la contabilidad de costes para cada registro de contabilidad o con un trabajo por lotes. Cuando lleva a cabo la transferencia, [!INCLUDE[d365fin](includes/d365fin_md.md)] transfiere sólo los movimientos ya vinculados a un centro o un objeto de coste. Para establecer una transferencia significativa, debe asegurarse de que los centros de coste y los objetos de coste están definidos correctamente.  
+Puede transferir automáticamente los movimientos de gastos y de ingresos de la contabilidad a la contabilidad de costes para cada registro de contabilidad o con un trabajo por lotes. Cuando lleva a cabo la transferencia, [!INCLUDE[prod_short](includes/prod_short.md)] transfiere sólo los movimientos ya vinculados a un centro o un objeto de coste. Para establecer una transferencia significativa, debe asegurarse de que los centros de coste y los objetos de coste están definidos correctamente.  
 
 ### <a name="defining-default-dimension-values-for-general-ledger-accounts"></a>Definición de los valores de dimensión predeterminados para cuentas de contabilidad  
 Para cada cuenta de contabilidad, puede definir valores de dimensión predeterminados de la tabla **Dimensión predeterminada**. El siguiente ejemplo muestra cómo definir que siempre debe haber un centro de coste de DEPARTAMENTO, pero nunca un objeto de coste de PROYECTO al registrar en una cuenta de contabilidad.  
@@ -182,4 +182,4 @@ Para cada cuenta de contabilidad, puede definir valores de dimensión predetermi
 [Contabilidad para costes](finance-manage-cost-accounting.md)  
 [Transferencia y registro de movimientos de coste](finance-transfer-and-post-cost-entries.md)   
 [Definición y asignación de costes](finance-define-and-allocate-costs.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

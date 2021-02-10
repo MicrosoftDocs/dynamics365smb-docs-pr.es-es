@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 587e41ebb4e700b376e555e761a4aa221b49b6c0
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0a2a8ba7de175ae717dae42da44b719a9c920a15
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917656"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752260"
 ---
 # <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Analizar importes reales frente a importes presupuestados
 Como parte de la recopilación, el análisis y el uso compartido de los datos de la empresa, puede ver importes reales comparados con los importes presupuestados para todas las cuentas y durante varios periodos.
@@ -41,7 +41,7 @@ En un presupuesto con dimensiones, puede filtrar los movimientos y, por lo tanto
 >   Si tiene que modificar el presupuesto, puede editar sus movimientos. Elija un importe para ver los movimientos de contabilidad subyacentes.
 
 ## <a name="to-view-actual-and-budgeted-amounts-for-all-accounts"></a>Para ver los importes reales y presupuestados de todas las cuentas  
-Puede ver presupuestos y compararlos con las cifras reales de varias áreas de [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Puede ver presupuestos y compararlos con las cifras reales de varias áreas de [!INCLUDE[prod_short](includes/prod_short.md)].
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Plan de cuentas** y luego elija el enlace relacionado.  
 2. En la página **Plan de cuentas**, seleccione la acción **Saldo/Ppto. cuenta**.
@@ -72,4 +72,4 @@ En lugar de ver los importes reales y presupuestados de todas las cuentas en un 
 [Finanzas](finance.md)  
 [Configurar las finanzas](finance-setup-finance.md)  
 [Libro mayor y plan de cuentas](finance-general-ledger.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

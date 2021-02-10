@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 03ad2bea6ed87b5f27bea9210a03c8760c87ffcf
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 043d745b0676a6fe939a6d236fefe4dad01ca742
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910160"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748023"
 ---
 # <a name="set-up-work-hours-and-service-hours"></a>Configurar horas de trabajo y de servicio
-Normalmente, un sistema de gestión de servicios realiza un seguimiento de horas de recursos y del estado del pedido de servicio para prever cargas de trabajo y necesidades de servicio. [!INCLUDE[d365fin](includes/d365fin_md.md)] incorpora herramientas que puede personalizar para registrar este tipo de información.  
+Normalmente, un sistema de gestión de servicios realiza un seguimiento de horas de recursos y del estado del pedido de servicio para prever cargas de trabajo y necesidades de servicio. [!INCLUDE[prod_short](includes/prod_short.md)] incorpora herramientas que puede personalizar para registrar este tipo de información.  
   
 Una vez configuradas las horas de servicio predeterminadas de su empresa, puede calcular tiempos de respuesta para pedidos de servicio o enviar advertencias o alertas cuando entran llamadas de servicio. La función de alerta se implementa de manera conjunta con el planificador de tareas.   
   

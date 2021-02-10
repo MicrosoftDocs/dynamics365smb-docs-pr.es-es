@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4842c8215ecc9c256108c7434d779a9f54650bf3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e3339e5e08f8dc67dfcee469b89604c9c229e478
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921900"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746471"
 ---
 # <a name="manage-human-resources"></a>Administrar recursos humanos
-En [!INCLUDE[d365fin](includes/d365fin_md.md)], puede llevar un registro detallado de los empleados. Se puede registrar y actualizar información de los empleados, como contratos de empleo, información confidencial, cualificaciones y contactos del empleado.
+En [!INCLUDE[prod_short](includes/prod_short.md)], puede llevar un registro detallado de los empleados. Se puede registrar y actualizar información de los empleados, como contratos de empleo, información confidencial, cualificaciones y contactos del empleado.
 
 También puede registrar ausencias de empleados, lo que permite analizar las ausencias registradas, según las necesidades.
 
@@ -35,5 +35,5 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 
 ## <a name="see-also"></a>Consulte también
 [Finanzas](finance.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Cambiar las funciones que se muestran](ui-experiences.md)        

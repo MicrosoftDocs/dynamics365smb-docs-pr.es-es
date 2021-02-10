@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6e620772e5e83777d0ef48cc2b86bfbdc372daf8
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 802706f3b501b7c0bdc7959573d5a7c830a7bf90
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913326"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747071"
 ---
 # <a name="defining-and-allocating-costs"></a>Definición y asignación de costes
 Las asignaciones de costes mueven los costes e ingresos entre tipos de coste, centros de coste y objetos de coste. Puede definir tantas asignaciones como necesite. Cada asignación consta de:  
@@ -78,7 +78,7 @@ El método de asignaciones estáticas se basa en un valor definido, por ejemplo 
 Este tema describe cómo definir tres nuevos objetos de coste de destino de asignación para el centro de coste PROD del origen de asignación mediante la proporción 5:2:4 de asignación establecida. Los tres objetos de coste de destino son ACCESORIOS, PINTURA y COLOCACIONES.  
 
 > [!NOTE]  
->  El ejemplo utiliza los datos de demostración en [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+>  El ejemplo utiliza los datos de demostración en [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ### <a name="to-define-the-allocation-source-prod-cost-center-on-the-general-fasttab"></a>Para definir el centro de coste PROD de origen de asignación en la ficha desplegable General  
 
@@ -109,13 +109,13 @@ Este tema describe cómo definir tres nuevos objetos de coste de destino de asig
 15. En la tercera línea, en el campo **Compartir**, especifique la proporción de asignación **4**.  
 
 > [!IMPORTANT]  
->  [!INCLUDE[d365fin](includes/d365fin_md.md)] calcula automáticamente el campo **Porcentaje** con un porcentaje que depende de las tres relaciones de asignación que se han introducido en el campo **Compartir** para las tres líneas.
+>  [!INCLUDE[prod_short](includes/prod_short.md)] calcula automáticamente el campo **Porcentaje** con un porcentaje que depende de las tres relaciones de asignación que se han introducido en el campo **Compartir** para las tres líneas.
 
 ## <a name="scenario-2-defining-dynamic-allocations-based-on-items-sold"></a>Ejemplo 2: definición de asignaciones dinámicas basándose en productos vendidos
 Este tema muestra un ejemplo de cómo definir asignaciones mediante el método de asignación dinámica. En el ejemplo, se cambia la asignación dinámica de los costes del centro de coste VENTAS para admitir el nuevo EQUIPO TI del objeto de coste. Los paquetes de EQUIPO TI tienen números de producto en el rango de 8904-W a 8924-W. Utiliza las cifras de ventas del año anterior para calcular el reparto. La asignación se registra al tipo de coste de ayuda 9903.  
 
 > [!NOTE]  
->  El ejemplo utiliza los datos de demostración en [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+>  El ejemplo utiliza los datos de demostración en [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ### <a name="to-define-dynamic-allocations-based-on-items-sold-in-the-previous-year"></a>Para definir las asignaciones dinámicas basándose en los productos vendidos el año anterior  
 
@@ -135,7 +135,7 @@ Este tema muestra un ejemplo de cómo definir asignaciones mediante el método d
 14. Elija la acción **Calcular clave de asignación** para calcular el reparto.  
 
 > [!IMPORTANT]  
->  [!INCLUDE[d365fin](includes/d365fin_md.md)] utiliza las cifras de ventas de ejercicios anteriores para calcular un reparto de 1596,50 DL con el 100 por ciento para los paquetes de EQUIPO TI. Esto significa que todos los productos vendidos el año anterior se asignarán al EQUIPO TI del objeto de coste.
+>  [!INCLUDE[prod_short](includes/prod_short.md)] utiliza las cifras de ventas de ejercicios anteriores para calcular un reparto de 1596,50 DL con el 100 por ciento para los paquetes de EQUIPO TI. Esto significa que todos los productos vendidos el año anterior se asignarán al EQUIPO TI del objeto de coste.
 
 ## <a name="see-also"></a>Consulte también  
  [Configuración de contabilidad de costes](finance-set-up-cost-accounting.md)   

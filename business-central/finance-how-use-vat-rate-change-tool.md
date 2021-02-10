@@ -9,16 +9,16 @@ ms.workload: na
 ms.search.keywords: VAT, VAT rate, posting, tax, value-added tax
 ms.date: 10/01/2020
 ms.author: andregu
-ms.openlocfilehash: 7d75cb42b064f8541a1142ef149c9641baa6f69a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 9d01d332457d85c0450cdf98c79778b18eba304e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923925"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746796"
 ---
 # <a name="managing-vat-rate-changes"></a>Administración de cambios del tipo de IVA
 
-Los tipos de IVA pueden cambiar según la legislación local. Cualquier cambio en el IVA afecta a sus datos en [!INCLUDE[d365fin](includes/d365fin_md.md)] si el tipo de IVA baja, aumenta o se elimina. El IVA está conectado a muchas entidades en [!INCLUDE[d365fin](includes/d365fin_md.md)], como clientes, proveedores, productos, recursos, cargos de producto y cuentas de contabilidad. Los cambios en los tipos de IVA generalmente ocurren en una fecha específica, a partir de la cual deberá haber cambiado la configuración del IVA, los grupos contables, etc. para asegurarse de que se creen nuevos pedidos de ventas y de compras con el nuevo tipo de IVA.
+Los tipos de IVA pueden cambiar según la legislación local. Cualquier cambio en el IVA afecta a sus datos en [!INCLUDE[prod_short](includes/prod_short.md)] si el tipo de IVA baja, aumenta o se elimina. El IVA está conectado a muchas entidades en [!INCLUDE[prod_short](includes/prod_short.md)], como clientes, proveedores, productos, recursos, cargos de producto y cuentas de contabilidad. Los cambios en los tipos de IVA generalmente ocurren en una fecha específica, a partir de la cual deberá haber cambiado la configuración del IVA, los grupos contables, etc. para asegurarse de que se creen nuevos pedidos de ventas y de compras con el nuevo tipo de IVA.
 
 ## <a name="changing-vat-rates"></a>Cambio de los tipos de IVA
 

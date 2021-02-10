@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dff5ad97f8fa4b8fecf2906806d74283b46fd95d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: dc96e0f21a85e98bc871cf90972d397f70e1eb44
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914915"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756698"
 ---
 # <a name="finding-pages-with-the-role-explorer"></a>Búsqueda de páginas con el explorador de roles
 Puede obtener una descripción general de todas las funciones empresariales que están disponibles para su rol y para otros roles si va un paso más allá. En la siguiente documentación, esta descripción general de funciones se denomina *explorador de roles*.
 
-Cada elemento del explorador de roles es una acción que abre una página. En consecuencia, también puede usar el explorador de roles como un medio para navegar en [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Cada elemento del explorador de roles es una acción que abre una página. En consecuencia, también puede usar el explorador de roles como un medio para navegar en [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Puede abrir el explorador de roles desde el área de trabajo y todas las páginas de la lista y desde la ventana **Dígame**.
 
@@ -44,4 +44,4 @@ Las acciones que abren las páginas están organizadas en nodos con el nombre de
 ## <a name="see-also"></a>Consulte también
 [Búsqueda de páginas e información con Dígame](ui-search.md)  
 [Administración de perfiles](admin-users-profiles-roles.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

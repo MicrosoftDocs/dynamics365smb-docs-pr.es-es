@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: check, clearing
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1e75a5541654a6577417a37c0cef23302b37b649
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8856ee09ae728d685d3f57786abc29d9aca93778
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916956"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750860"
 ---
 # <a name="export-a-positive-pay-file"></a>Exportar un archivo de Positive Pay
 Para asegurarse de que su banco solo compense los cheques e importes validados, puede exportar un archivo de Positive Pay que contenga la información de proveedor, el número de cheque y el importe de pago, que puede enviar al banco como referencia cuando se procesen pagos.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] se ha preconfigurado para admitir archivos de Positive Pay para Bank of America y City Bank.
+[!INCLUDE[prod_short](includes/prod_short.md)] se ha preconfigurado para admitir archivos de Positive Pay para Bank of America y City Bank.
 
 ## <a name="to-set-up-a-bank-account-for-positive-pay"></a>Para configurar una cuenta bancaria para Positive Pay
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Bancos** y luego elija el enlace relacionado.
@@ -64,4 +64,4 @@ Para reexportar archivos de Positive Pay
 [Finanzas](finance.md)  
 [Configurar las finanzas](finance-setup-finance.md)  
 [Trabajar con diarios generales](ui-work-general-journals.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

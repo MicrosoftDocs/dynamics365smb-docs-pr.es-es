@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 29c97a2fbb8fab50d9d433f4c73d840846e32b95
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 1b790743feb2c32bec1cdb45f69ac30c529e02ac
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925777"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757971"
 ---
 # <a name="allocate-resources"></a>Asignar recursos
-El principal elemento de la gestión del servicio son las personas que lo prestan. Puede configurar [!INCLUDE[d365fin](includes/d365fin_md.md)] para asignar el personal adecuado a los proyectos correspondientes. Las asignaciones se pueden basar en zonas de servicio donde se encuentran las personas o donde tiene lugar el servicio. Además, puede agrupar los recursos al responder a solicitudes de servicio. Para obtener más información, vea [Asignación de recursos](service-how-setup-resource-allocation.md).
+El principal elemento de la gestión del servicio son las personas que lo prestan. Puede configurar [!INCLUDE[prod_short](includes/prod_short.md)] para asignar el personal adecuado a los proyectos correspondientes. Las asignaciones se pueden basar en zonas de servicio donde se encuentran las personas o donde tiene lugar el servicio. Además, puede agrupar los recursos al responder a solicitudes de servicio. Para obtener más información, vea [Asignación de recursos](service-how-setup-resource-allocation.md).
 
 Puede asignar recursos, por ejemplo, para técnicos, mediante **Panel despacho**, o desde una orden de servicio. Puede utilizar la disponibilidad de recursos y asignarlos para ejecutar las tareas de servicio de las órdenes u ofertas.
 

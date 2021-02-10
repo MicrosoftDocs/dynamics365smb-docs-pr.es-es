@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: design, general journal, posting, codeunit 12
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: aaffac8fe7e10d0155649c960803f65a8136c46d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 56cf606151f687cf48138b3e14758d7febc47db6
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911085"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751584"
 ---
 # <a name="design-details-general-journal-post-line"></a>Detalles de diseño: línea de registro en diario general
-En esta documentación se proporciona información técnica detallada de los conceptos y los principios que se usan para rediseñar la función de línea de registro en el diario general en [!INCLUDE[d365fin](includes/d365fin_md.md)]. El nuevo diseño hace la codeunit 12 más sencillo y más fácil de mantener. La documentación comienza con la descripción de la información general conceptual del rediseño. A continuación, explica la arquitectura técnica para mostrar los cambios resultantes del nuevo diseño.  
+En esta documentación se proporciona información técnica detallada de los conceptos y los principios que se usan para rediseñar la función de línea de registro en el diario general en [!INCLUDE[prod_short](includes/prod_short.md)]. El nuevo diseño hace la codeunit 12 más sencillo y más fácil de mantener. La documentación comienza con la descripción de la información general conceptual del rediseño. A continuación, explica la arquitectura técnica para mostrar los cambios resultantes del nuevo diseño.  
 
 ## <a name="in-this-section"></a>En esta sección  
 [Descripción de la línea de registro en diario general](design-details-general-journal-post-line-overview.md)  

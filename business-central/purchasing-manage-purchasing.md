@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 171c8877ca305d77250b7b8846004673616cd1e6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 040bbc430d0f052bfafaac2ecdca6d4a6aa75669
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918772"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758372"
 ---
 # <a name="purchasing"></a>Compra
 Cree una factura o un pedido de compra para registrar el coste de las compras y para realizar el seguimiento de los pagos. Si necesita controlar un inventario, las facturas de compra también se utilizan para actualizar dinámicamente los niveles de inventario para que pueda minimizar sus costes de inventario y proporcionar un mejor servicio al cliente. Los costes de compra, incluidos los gastos del servicio, y los valores de inventario resultantes del registro de las facturas de compra contribuyen a las cifras de ganancias y otros KPI financieros en el área de trabajo.
@@ -42,7 +42,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 | Cree un abono de compra para revertir una factura de compra registrada específica para reflejar qué productos se están devolviendo al proveedor y qué importe de pago se cobrará. |[Procesamiento de devoluciones de compra o cancelaciones](purchasing-how-register-new-vendors.md) |
 |Prepárese a facturar varios albaranes del mismo proveedor una vez combinándolos en una factura.|[Agrupar albaranes en una factura única](purchasing-how-to-combine-receipts.md)|
 |Convertir, por ejemplo, facturas electrónicas de sus proveedores a facturas de compra en Business Central.|[Recibir y convertir documentos electrónicos](purchasing-how-to-receive-and-convert-electronic-documents.md)|
-| Aprenda cómo [!INCLUDE[d365fin](includes/d365fin_md.md)] calcula cuando se debe solicitar un producto para recibirlo en una fecha determinada.|[Cálculo de la fecha de compras](purchasing-date-calculation-for-purchases.md)|
+| Aprenda cómo [!INCLUDE[prod_short](includes/prod_short.md)] calcula cuando se debe solicitar un producto para recibirlo en una fecha determinada.|[Cálculo de la fecha de compras](purchasing-date-calculation-for-purchases.md)|
 |Resolver la confusión cuando existen dos o más registros para el mismo proveedor.|[Combinar registros duplicados](sales-how-merge-duplicate-records.md)|
 |Administrar el compromiso a un proveedor para comprar grandes cantidades entregadas en varios envíos a lo largo del tiempo.|[Trabajar con pedidos abiertos de compra](sales-how-to-create-blanket-sales-orders.md)|
 
@@ -53,7 +53,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 [Permite registrar nuevos proveedores](purchasing-how-register-new-vendors.md)  
 [Administrar pagos](payables-manage-payables.md)  
 [Administrar proyectos](projects-manage-projects.md)    
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

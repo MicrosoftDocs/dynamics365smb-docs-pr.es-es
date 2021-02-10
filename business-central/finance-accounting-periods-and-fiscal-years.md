@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 6d62db7673a37cd115caedc778b3fea1cf5b3ce8
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ae13b3c24e73f9b73335291b2911f16d6acf29d0
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916248"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751110"
 ---
 # <a name="working-with-accounting-periods-and-fiscal-years"></a>Trabajar con periodos contables y ejercicios
 
@@ -23,7 +23,7 @@ Los períodos contables, también conocidos como períodos de información, son 
 
 Para muchas empresas, el año fiscal no se corresponde con el año natural. Por ejemplo, el ejercicio podría terminar el 30 de junio en lugar del 31 de diciembre. En el caso de las empresas de nueva creación, el período fiscal puede ser superior a 12 meses.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] solo requiere períodos contables si se desea cerrar un balance de ingresos o ejecutar tareas de compresión de datos. 
+[!INCLUDE[prod_short](includes/prod_short.md)] solo requiere períodos contables si se desea cerrar un balance de ingresos o ejecutar tareas de compresión de datos. 
 
 Puede utilizar periodos contables en el informe. Por ejemplo, al revisar los movimientos registrados en la página **Saldo/Presupuesto**, donde se puede especificar el intervalo de informes. Una de las opciones que puede especificar para crear informes por período contable. También puede crear un esquema de cuentas que compare los resultados de diferentes períodos contables.
 
@@ -48,7 +48,7 @@ Si los períodos contables de su ejercicio tienen duraciones diferentes, como el
   
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Periodos contables** y, a continuación, seleccione el vínculo relacionado.  
 2. En el campo **Fecha inicial**, introduzca la fecha en la que comienza el ejercicio. El campo **Nombre** mostrará el nombre del mes.  
-3. Seleccione la casilla de verificación **Principio ejercicio** para indicar que es el primer periodo del ejercicio. [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizará este periodo para determinar los periodos para cerrar al final del año.
+3. Seleccione la casilla de verificación **Principio ejercicio** para indicar que es el primer periodo del ejercicio. [!INCLUDE[prod_short](includes/prod_short.md)] utilizará este periodo para determinar los periodos para cerrar al final del año.
 4. Repita los pasos 2 y 3 con cada periodo restante.  
 
 ## <a name="closing-a-fiscal-year"></a>Cierre de un ejercicio

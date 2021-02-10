@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0b8c0acb51467d8320a6ebe91ee6dbf6827f8e85
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 404255e33d0fc689ee463b6fa0305bcd5cec0785
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915390"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758972"
 ---
 # <a name="subcontract-manufacturing"></a>Subcontratación de fabricación
 La subcontratación de operaciones seleccionadas al proveedor es común de muchas empresas de fabricación. La subcontratación puede ser esporádica o puede formar parte integrante de todos los procesos de producción.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] ofrece varias herramientas para gestionar el trabajo subcontratado:  
+[!INCLUDE[prod_short](includes/prod_short.md)] ofrece varias herramientas para gestionar el trabajo subcontratado:  
 
 - Centros de trabajo con proveedor asignado: esta característica le permite configurar un centro de trabajo asociado a un proveedor (subcontratista). Se denomina centro de trabajo subcontratado. Puede especificar un centro de trabajo subcontratado en una operación de ruta, con lo que le resultará muy sencillo procesar la actividad subcontratada. Además, el coste de la operación se puede indicar en el nivel de la ruta o del centro de trabajo.  
 - Coste del centro de trabajo basado en unidades o tiempo: esta característica le permite especificar si los costes asociados al centro de trabajo se basan en el tiempo de producción o en una tarifa plana por unidad. Si bien los subcontratistas suelen usar una tarifa plana por unidad en sus servicios, la aplicación puede manejar las dos opciones (tiempo de producción y tarifa plana por unidad).  
@@ -95,4 +95,4 @@ Cuando se registra el pedido de compra como facturado, el coste directo de dicho
 [Planificación](production-planning.md)      
 [Inventario](inventory-manage-inventory.md)  
 [Compras](purchasing-manage-purchasing.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

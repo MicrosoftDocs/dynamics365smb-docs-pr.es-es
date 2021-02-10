@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: d9263f2dda3a944b49ee449ef5f71bb56eb201f2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 9ed05b047732a171970219c9a24f5fdd6f96f0b1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925137"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755397"
 ---
 # <a name="set-up-opportunity-sales-cycles-and-cycle-stages"></a>Configurar ciclos de ventas de oportunidad y etapas de ciclo
 Para poder usar oportunidades de ventas, debe configurar ciclos de ventas y etapas del ciclo de ventas. Un ciclo de ventas se compone de una serie de etapas que van desde el contacto inicial hasta el cierre de una venta. Cada etapa puede tener determinados requisitos que se deben cumplir, por ejemplo, requerir una oferta de venta, antes de que la oportunidad pueda pasar a la siguiente etapa. También puede especificar si se puede omitir una etapa. Puede configurar tantos ciclos de ventas como necesite y tantas etapas del ciclo de ventas como sean necesarias para el ciclo de ventas.
@@ -65,4 +65,4 @@ Cuando haya configurado una tarea, puede asignarla a una oportunidad de ventas y
 ## <a name="see-also"></a>Consulte también
 [Procesar oportunidades de ventas](marketing-processing-sales-opportunities.md)  
 [Ccial](sales-manage-sales.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

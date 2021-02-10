@@ -10,12 +10,12 @@ ms.service: dynamics365-business-central
 author: jswymer
 ms.author: jswymer
 ms.date: 10/01/2020
-ms.openlocfilehash: f56dbf4546f5f1b466b23c3bd2794d3c4ffe02c3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d80baed51b646b389f9dd86540cc993c212be09b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924708"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754397"
 ---
 # <a name="inspecting-pages-in-business-central"></a>Inspección de páginas en Business Central
 
@@ -45,4 +45,4 @@ Los usuarios a los que no se les conceden permisos sobre el **objeto de sistema 
 
 ## <a name="see-also"></a>Consulte también
 
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

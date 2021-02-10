@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1d1eb5a29a1e83b3dad454426327f03786b8f644
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3fa97eb12cc7343c1cfb659736ed6ad6b43d0633
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921772"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755472"
 ---
 # <a name="inventory"></a>Grupos contables inventario
 Por cada producto físico que se comercialice, debe crear una ficha de producto del tipo **Inventario**. Los productos que ofrece a los clientes pero que no mantiene en el inventario, puede registrarlos como productos del catálogo, y puede convertirlos a productos de inventario cuando sea necesario. Puede aumentar o reducir la cantidad de un producto en el inventario registrándolo directamente desde los movimientos de producto, por ejemplo, después de un recuento físico o si no registra compras.
@@ -33,7 +33,11 @@ La planificación de artículos para satisfacer la demanda está cubierta como p
 ## <a name="inventory-reconciliation"></a>Conciliación de inventario
 Cuando registra transacciones del inventario, como los envíos de ventas, los albaranes de compra o los ajustes de inventario, los costes de producto cambiados se registran en movimientos de valor de productos. Para reflejar este cambio de valor de inventario en sus libros de finanzas, los costes de inventario se registran automáticamente en las cuentas de inventario relacionadas del libro mayor. Para cada una de las transacciones de inventario que registre, los valores apropiados se contabilizan en la cuenta de inventario, en la cuenta de ajuste y en la cuenta de CV en el módulo de contabilidad. Para obtener más información, consulte [Conciliar costes de inventario en el libro mayor](finance-how-to-post-inventory-costs-to-the-general-ledger.md).
 
-Aunque se hayan registrado los costes de inventario automáticamente en el libro mayor, seguirá siendo necesario asegurarse de que los costes de los bienes se dirigen a las transacciones de venta de salida relacionadas, especialmente en situaciones donde la venta de bienes se factura antes de la compra de estos bienes. Esto se denomina ajuste de costes. Los costes de los productos se ajustan automáticamente cada vez que registra transacciones de producto, pero también puede ajustar los costes de producto manualmente. Para obtener más información, consulte [Modificar precios de productos](inventory-how-adjust-item-costs.md).
+Aunque se hayan registrado los costes de inventario automáticamente en el libro mayor, seguirá siendo necesario asegurarse de que los costes de los bienes se dirigen a las transacciones de venta de salida relacionadas, especialmente en situaciones donde la venta de bienes se factura antes de la compra de estos bienes. Esto se denomina ajuste de costes. Los costes de los productos se ajustan automáticamente cada vez que registra transacciones de producto, pero también puede ajustar los costes de producto manualmente. Para obtener más información, consulte [Modificar precios de productos](inventory-how-adjust-item-costs.md).  
+
+## <a name="related-tasks"></a>Tareas relacionadas
+
+La siguiente tabla describe las tareas relacionadas.
 
 |Para |Vea |
 |---|----|
@@ -53,14 +57,14 @@ Aunque se hayan registrado los costes de inventario automáticamente en el libro
 |Encuentre donde se usó un número de serie o de lote en su cadena de suministro, por ejemplo, en situaciones de recuperación.|[Realizar seguimiento de productos seguidos](inventory-how-to-trace-item-tracked-items.md)|
 |Bloquear que un producto entre en líneas de compras y ventas, o que no se registre en ninguna transacción.|[Bloquear productos](inventory-how-block-items.md)|
 |Administre las operaciones comerciales en las oficinas de ventas, en los departamentos de compras o en las oficinas de planificación de plantas en múltiples ubicaciones.|[Trabajar con centros de responsabilidad](inventory-responsibility-centers.md)|
+|Utilice recursos con habilidades específicas para diversos servicios y elementos de servicio.|[Configurar asignación de recursos](service-how-setup-resource-allocation.md)|
 
+## <a name="see-also"></a>Consulte también
 
-
-## <a name="see-also"></a>Consulte también  
 [Gestión de almacenes](warehouse-manage-warehouse.md)  
 [Compras](purchasing-manage-purchasing.md)  
-[Ventas](sales-manage-sales.md)    
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Funciones empresariales generales](ui-across-business-areas.md)
+[Ccial](sales-manage-sales.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Funciones empresariales generales](ui-across-business-areas.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

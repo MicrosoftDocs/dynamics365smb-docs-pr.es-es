@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7a5ad9eeb2dc42f1cb6fe7640bda721a6f511a75
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d733b8000d5ea476d32a96bcccdceebc32e0f43c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927724"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750985"
 ---
 # <a name="set-up-company-consolidation"></a>Configuración de la consolidación de empresas
 
@@ -33,7 +33,7 @@ En función de la complejidad de sus negocios, hay dos formas de configurar la c
 Si su consolidación es directa, por ejemplo porque es propietario de la totalidad de las empresas a consolidar, la guía de configuración asistida **Consolidación de la empresa** le ayudará con los pasos siguientes:
 
 * Indique si crear una nueva empresa consolidada, o si consolidar los datos en una empresa que ya haya creado para la consolidación. La empresa no debe contener transacciones.
-* Previsualizar los resultados. [!INCLUDE[d365fin](includes/d365fin_md.md)] comprueba que los datos y las transacciones maestros se pueden transferir correctamente a la empresa consolidada.
+* Previsualizar los resultados. [!INCLUDE[prod_short](includes/prod_short.md)] comprueba que los datos y las transacciones maestros se pueden transferir correctamente a la empresa consolidada.
 
 Para usar la guía de configuración asistida, realice los pasos siguientes:
 
@@ -70,7 +70,7 @@ La siguiente lista ilustra los aspectos clave de la empresa consolidada.
 
 ### <a name="add-business-units"></a><a name="busunit"></a>Agregar empresas
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] le permite configurar una lista de empresas a consolidar, comprobar los datos contables antes de proceder a la consolidación, importar archivos y generar informes de consolidación.  
+[!INCLUDE[prod_short](includes/prod_short.md)] le permite configurar una lista de empresas a consolidar, comprobar los datos contables antes de proceder a la consolidación, importar archivos y generar informes de consolidación.  
 
 1. Inicie sesión en la empresa consolidada.
 2. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Unidades de negocio** y luego elija el enlace relacionado.  
@@ -88,7 +88,7 @@ El plan de cuentas de una empresa a consolidar debe especificar las cuentas para
 
 Si el plan de cuentas de la unidad de negocio difiere de la empresa consolidada, debe preparar los libros contables para la consolidación. Puede especificar las cuentas para apuntar debe y haber y el método a utilizar para traducir las divisas en la empresa consolidada. Por ejemplo, esto es útil en caso de ejecutar con frecuencia el informe.
 
-1. En cada empresa de [!INCLUDE [prodshort](includes/prodshort.md)], elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Plan de cuentas** y luego elija el vínculo relacionado.  
+1. En cada empresa de [!INCLUDE [prod_short](includes/prod_short.md)], elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Plan de cuentas** y luego elija el vínculo relacionado.  
 2. Abra la ficha de la cuenta, y rellene los campos de la ficha desplegable **Consolidación**. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="specify-exchange-rates-for-consolidations"></a><a name="exchrates"></a>Especificar los tipos de cambio para consolidaciones
@@ -136,5 +136,5 @@ Si posee únicamente parte de una empresa, puede incluir un porcentaje de cada t
 
 [Consolidar los datos financieros de varias empresas](finance-consolidated-company-reporting.md)  
 [Gestión de transacciones entre empresas vinculadas](intercompany-manage.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Exportar los datos de negocio a Excel](about-export-data.md)

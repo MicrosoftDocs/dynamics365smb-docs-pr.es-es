@@ -1,8 +1,6 @@
 ---
-title: Administración financiera | Documentos de Microsoft
-description: Obtenga información sobre las tareas para configurar las finanzas en su empresa para adaptarse a todas sus necesidades de contabilidad o auditoría.
-services: project-madeira
-documentationcenter: ''
+title: Gestión financiera
+description: Obtenga información sobre cómo Business Central satisface sus necesidades de gestión financiera, contabilidad, auditoría o teneduría de libros.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,15 +10,16 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cffe1bf3cc73660a75e6cca5d2d0e1e640c32423
-ms.sourcegitcommit: aea079b66e35c447bf31a11ffc2069cfdaf2ef38
+ms.openlocfilehash: 27ced3ad13d0469fd06825aa981a7f5969e04fbd
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "3970469"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750285"
 ---
 # <a name="finance"></a>Finanzas
-[!INCLUDE[d365fin](includes/d365fin_md.md)] incluye una configuración estándar de muchos procesos financieros, pero puede cambiar la configuración para que se adapte a su empresa. Para obtener más información, consulte [Configurar finanzas](finance-setup-finance.md).
+
+[!INCLUDE[prod_short](includes/prod_short.md)] incluye una configuración estándar de muchos procesos financieros, pero puede cambiar la configuración para que se adapte a su empresa. Para obtener más información, consulte [Configurar finanzas](finance-setup-finance.md).
 
 La configuración predeterminada incluye un plan de cuentas y grupos de registro estándar que hacen que el proceso de asignar cuentas de registro de movimientos predeterminadas a clientes, proveedores y productos sea más eficaz.  
 
@@ -57,18 +56,20 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Aprenda a usar el Área de trabajo contable, invitar a un contable externo y utilizar el hub de empresas para administrar las cuentas de varios clientes.|[Experiencias contables en Business Central](finance-accounting.md)|  
 
 ## <a name="take-a-video-tour"></a>Realizar una visita guiada en vídeo
+
 El siguiente video presenta algunas de las capacidades clave para administrar las finanzas. <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
 ## <a name="see-also"></a>Consulte también
+
 [Configurar las finanzas](finance-setup-finance.md)  
 [Ccial](sales-manage-sales.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Cerrar periodos fiscales](year-close-years-periods.md)  
-[Administrar proyectos](projects-manage-projects.md)    
+[Administrar proyectos](projects-manage-projects.md)  
 [Importar datos de otros sistemas financieros](across-import-data-configuration-packages.md)  
 [Trabajar con diarios generales](ui-work-general-journals.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: barcode
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5fe40d26a9128b9f689c5ec4502af929d0af04c2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4d35c0774fc777fd5b45983f03e6204daed0a3af
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925352"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755722"
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>Utilice el sistema de captura de datos automatizado (ADCS)
 
 > [!NOTE]
-> La solución del Sistema Automatizado de Captura de Datos (ADCS) proporciona una forma para que [!INCLUDE[d365fin](includes/d365fin_md.md)] pueda comunicarse con dispositivos de mano a través de servicios web. Debe trabajar con un socio de Microsoft que pueda proporcionar el enlace entre el servicio web y el dispositivo portátil específico. 
+> La solución del Sistema Automatizado de Captura de Datos (ADCS) proporciona una forma para que [!INCLUDE[prod_short](includes/prod_short.md)] pueda comunicarse con dispositivos de mano a través de servicios web. Debe trabajar con un socio de Microsoft que pueda proporcionar el enlace entre el servicio web y el dispositivo portátil específico. 
 
 Puede utilizar su sistema de captura automática de datos (ADCS) para registrar el movimiento de productos en el almacén y para registrar algunas actividades del diario, como los ajustes de cantidad en el diario de productos de almacén y los inventarios físicos. ADCS generalmente implica el escaneo un código de barras.
 
@@ -28,7 +28,7 @@ Para utilizar un ADCS, deberá asignar un identificador de producto para cada pr
 
 Basándose en las necesidades de su almacén, se define la cantidad de información que se muestra en la configuración del miniformulario para el dispositivo portátil determinado. Los siguientes son ejemplos de la información que puede mostrar:  
 
-- Datos de las tablas dentro de [!INCLUDE[d365fin](includes/d365fin_md.md)], como una lista de documentos de picking de los que el usuario puede seleccionar.  
+- Datos de las tablas dentro de [!INCLUDE[prod_short](includes/prod_short.md)], como una lista de documentos de picking de los que el usuario puede seleccionar.  
 - Información de texto.  
 - Los mensajes para mostrar las confirmaciones o los errores sobre las actividades preformadas y registradas por el usuario del dispositivo portátil.
 
@@ -121,4 +121,4 @@ Cuando haya creado un miniformulario, los pasos siguientes son crear las funcion
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

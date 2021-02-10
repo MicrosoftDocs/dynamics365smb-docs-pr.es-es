@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 84d985bb329f76c9c4954e56a01f9d6c7f8bc09c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 92a1b6118f0617dfd219ab38be5ff8d029a68275
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916198"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754722"
 ---
 # <a name="set-up-a-document-exchange-service"></a>Configurar un servicio de intercambio de documentos
 Para intercambiar documentos electrónicos con socios comerciales se usa un proveedor de servicios externo. Para obtener más información, vea [Intercambio de datos electrónicamente](across-data-exchange.md).  
@@ -28,7 +28,7 @@ Para intercambiar documentos electrónicos con socios comerciales se usa un prov
     |---------------------------------|---------------------------------------|  
     |**Agente de usuario**|Escriba cualquier texto que pueda usarse para identificar a la empresa en los procesos de intercambio de documentos.|  
     |**Id. suscriptor intercambio documentos**|Introduzca el inquilino en el servicio de intercambio de documentos que representa a la empresa. Esto lo proporciona el proveedor de servicios de intercambio de documentos.|  
-    |**Habilitado**|Especifique si el servicio está habilitado. **Nota**: En cuanto se active el servicio, se crean al menos dos movimientos de cola de proyectos para procesar el tráfico de los documentos electrónicos dentro y fuera de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Cuando se deshabilita el servicio, se eliminan los movimientos de la cola de proyectos.|  
+    |**Habilitado**|Especifique si el servicio está habilitado. **Nota**: En cuanto se active el servicio, se crean al menos dos movimientos de cola de proyectos para procesar el tráfico de los documentos electrónicos dentro y fuera de [!INCLUDE[prod_short](includes/prod_short.md)]. Cuando se deshabilita el servicio, se eliminan los movimientos de la cola de proyectos.|  
     |**URL de registro**|Especifique la página web donde se inscribe para el servicio de intercambio de documentos.|  
     |**URL de servicio**|Especifique la dirección del servicio de intercambio de documentos, al que se llamará cuando se envíen y se reciban documentos electrónicos.|  
     |**Conexión URL**|Especifique la página de inicio de sesión del servicio de intercambio de documentos, que es donde se introduce el nombre de usuario de su empresa y la contraseña para iniciar sesión en el servicio.|  

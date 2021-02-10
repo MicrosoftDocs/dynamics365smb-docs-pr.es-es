@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: prepayment
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7f8d0109b42eb75f022bac580c2bef006f311157
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 34e5d1e0f424097de259d01e438158f6a92390ae
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914244"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750435"
 ---
 # <a name="set-up-prepayments"></a>Configurar prepagos
 Si desea que sus clientes realicen el pago antes de enviarles un pedido o su proveedor le requiere que efectúe el pago antes de enviarle un pedido, puede utilizar la funcionalidad Prepago. La funcionalidad le permite facturar y cobrar depósitos requeridos de los clientes o remitir depósitos a proveedores y asegurarse de que todos los pagos parciales se contabilicen con una factura. Para obtener más información, consulte [Crear una factura de prepago](finance-how-to-create-prepayment-invoices.md).
@@ -93,4 +93,4 @@ Dicho de otro modo, el porcentaje de prepago de la ficha del cliente sólo se ap
 [Calcular el impuesto sobre bienes y servicios sobre los prepagos en Nueva Zelanda](LocalFunctionality/NewZealand/how-to-calculate-goods-and-services-tax-on-prepayments.md)  
 [Descripción de contabilidad y plan de cuentas](finance-general-ledger.md)  
 [Finanzas](finance.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

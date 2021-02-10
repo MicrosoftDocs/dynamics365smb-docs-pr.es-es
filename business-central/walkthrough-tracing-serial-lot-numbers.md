@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 90327ababa08d28baadcec26353f67c8736c62ee
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8fc5da8ca5dc69f93dfa81d4f581a7323ad01811
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925452"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756372"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Tutorial: seguimiento de números de serie/lote
 
@@ -50,7 +50,7 @@ En este tutorial, se demuestran las tareas realizadas por los siguientes roles d
 
 Para completar este tutorial, necesitará:  
 
-- La empresa de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+- La empresa de [!INCLUDE[prod_short](includes/prod_short.md)].  
 - Crear nuevos productos y varias transacciones empresariales siguiendo los pasos descritos en [Preparar datos de ejemplo](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data).  
 
 ## <a name="story"></a>Historia

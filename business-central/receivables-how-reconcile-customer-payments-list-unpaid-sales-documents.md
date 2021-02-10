@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment process, cash receipts, customer payment
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 44d2031c41a8077e072255be60dd71ff98cd9e78
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 17468db82be1ad816bd77d12693e8720860d6df6
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926515"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758421"
 ---
 # <a name="reconcile-customer-payments-from-a-list-of-unpaid-sales-documents"></a>Conciliar pagos de cliente desde una lista de documentos de venta sin abonar
 Cuando sus clientes han realizado pagos a su cuenta de banco electrónico, debe liquidar cada importe pagado al documento de venta relacionado y después registrar el pago para actualizar los movimientos de cliente, contabilidad y banco. En función de sus necesidades comerciales, puede recibir el pago y registrarlo de diferentes maneras: de forma manual, automática y mediante servicios de pago.  
@@ -77,7 +77,7 @@ Los movimientos de pago se registran en la cuenta contable, la cuenta de banco y
 
 Si un pago en el banco no se representa mediante la línea en la página **Registro de pago**, puede ser porque el documento relacionado aún no se ha registrado. En ese caso, puede usar una función de búsqueda para buscar rápidamente el documento y registrarlo para procesar el pago. Para obtener más información, consulte [Buscar un documento determinado de ventas que no esté totalmente facturado](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-find-a-specific-sales-document-that-is-not-fully-invoiced).  
 
-Si un pago en el banco no se representa mediante ningún documento en [!INCLUDE[d365fin](includes/d365fin_md.md)], puede abrir un diario general previamente rellenado en la página **Registro de pago** para registrar el pago directamente en la cuenta de saldo sin liquidar el pago a un documento. Alternativamente, puede que desee registrar el pago en el diario hasta que el origen del pago se haya resuelto. Para obtener más información, consulte [Registrar pagos sin documento relacionado](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-record-or-post-a-payment-without-a-related-document).  
+Si un pago en el banco no se representa mediante ningún documento en [!INCLUDE[prod_short](includes/prod_short.md)], puede abrir un diario general previamente rellenado en la página **Registro de pago** para registrar el pago directamente en la cuenta de saldo sin liquidar el pago a un documento. Alternativamente, puede que desee registrar el pago en el diario hasta que el origen del pago se haya resuelto. Para obtener más información, consulte [Registrar pagos sin documento relacionado](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-record-or-post-a-payment-without-a-related-document).  
 
 ## <a name="to-process-customer-payments-with-discounts-manually"></a>Para procesar pagos de cliente con descuentos manualmente
 Si ha acordado un descuento por pronto pago con el cliente, los importes de pago pueden ser inferiores a los importes de factura si el pago se produce antes de la fecha de descuento acordada.  
@@ -166,10 +166,10 @@ La función de búsqueda busca entre los documentos que no se han facturado tota
 
 Si hay documentos que coinciden con los criterios de búsqueda, la página **Resultado de la búsqueda de documentos** se abrirá en las líneas de presentación que representan dichos documentos. Cada línea contiene un número de documento, una descripción y un importe para que pueda buscar fácilmente un documento determinado, por ejemplo según la información sobre el extracto de banco.  
 
-Si un pago en el banco no se representa mediante ningún documento en [!INCLUDE[d365fin](includes/d365fin_md.md)], puede abrir un diario general previamente rellenado en la página **Registro de pago** para registrar el pago directamente en la cuenta de saldo sin liquidar el pago a un documento. Alternativamente, puede que desee registrar el pago en el diario hasta que el origen del pago se haya resuelto.  
+Si un pago en el banco no se representa mediante ningún documento en [!INCLUDE[prod_short](includes/prod_short.md)], puede abrir un diario general previamente rellenado en la página **Registro de pago** para registrar el pago directamente en la cuenta de saldo sin liquidar el pago a un documento. Alternativamente, puede que desee registrar el pago en el diario hasta que el origen del pago se haya resuelto.  
 
 ## <a name="to-record-or-post-a-payment-without-a-related-document"></a>Registrar pagos sin documento relacionado
-Si un pago en el banco no se representa mediante ningún documento en [!INCLUDE[d365fin](includes/d365fin_md.md)], puede abrir una línea de diario general previamente rellenada en la página **Registro de pago** para registrar el pago directamente en la cuenta de saldo sin liquidar el pago a un documento. Alternativamente, puede que desee registrar el pago en el diario hasta que el origen del pago se haya aclarado.  
+Si un pago en el banco no se representa mediante ningún documento en [!INCLUDE[prod_short](includes/prod_short.md)], puede abrir una línea de diario general previamente rellenada en la página **Registro de pago** para registrar el pago directamente en la cuenta de saldo sin liquidar el pago a un documento. Alternativamente, puede que desee registrar el pago en el diario hasta que el origen del pago se haya aclarado.  
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Registro de pago** y luego elija el enlace relacionado.  
 
@@ -186,4 +186,4 @@ Si deja la línea del diario sin registrar, agregará al valor del campo **Saldo
 ## <a name="see-also"></a>Consulte también
 [Administrar cobros](receivables-manage-receivables.md)  
 [Ccial](sales-manage-sales.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

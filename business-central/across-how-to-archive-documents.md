@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0479efcd967c7188e38fff2fb1da76e461a1bda6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c7f7da76bdea02f640bdb0ffaf5f1b8da16494cf
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919593"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754872"
 ---
 # <a name="archive-documents"></a>Archivar documentos
 Puede archivar pedidos de compra y venta, ofertas, pedidos de devolución y pedidos abiertos, por ejemplo, porque desea guardar una copia de un documento para reutilizarla más tarde. Puede archivar un documento de ventas o compras varias veces y guardar una versión archivada diferente cada vez.
@@ -65,4 +65,4 @@ El siguiente procedimiento describe cómo eliminar pedidos de venta archivados. 
 [Seguimiento de líneas de documentos](across-how-to-track-document-lines.md)  
 [Ccial](sales-manage-sales.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

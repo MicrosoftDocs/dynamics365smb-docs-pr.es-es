@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bf310ff190682b22ffe81d0ad3072b3bdc8803b7
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 1684f12858a33234f51d7847b50ea15aa1d7b230
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921077"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755297"
 ---
 # <a name="set-up-bank-accounts"></a>Configurar bancos
-Las cuentas bancarias se utilizan en [!INCLUDE[d365fin](includes/d365fin_md.md)] para hacer un seguimiento de las transacciones bancarias. Los bancos pueden expresarse en la divisa local (DL) o en una extranjera. Cuando haya configurado todos los bancos, puede utilizar también la opción de impresión de cheques.<br><br>  
+Las cuentas bancarias se utilizan en [!INCLUDE[prod_short](includes/prod_short.md)] para hacer un seguimiento de las transacciones bancarias. Los bancos pueden expresarse en la divisa local (DL) o en una extranjera. Cuando haya configurado todos los bancos, puede utilizar también la opción de impresión de cheques.<br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3Vhpl?rel=0]
 
@@ -55,4 +55,4 @@ Los campos de la ficha desplegable **Transferencia** en la página **Ficha banco
 [Configurar banca](bank-setup-banking.md)  
 [Configurar los grupos contables](finance-posting-groups.md)  
 [Conciliar bancos](bank-manage-bank-accounts.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

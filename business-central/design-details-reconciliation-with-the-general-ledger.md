@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, reconciliation, general ledger, inventory
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1d65156d46749e7d06bb746899cee4aa439a1e93
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3f3a90142081ad0bc3096bdde1830924c2998d68
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917281"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751235"
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Detalles de diseño: Conciliación con contabilidad
 Cuando registra transacciones del inventario, como envíos de ventas, salida de producción o ajustes negativos, se registran los cambios realizados en la cantidad y en los valores del inventario en los movimientos de contabilidad y en los movimientos de valores, respectivamente. El siguiente paso en el proceso será registrar los valores del inventario en las cuentas del inventario del módulo de contabilidad.  
@@ -123,4 +123,4 @@ Para obtener más información acerca de la relación entre los tipos de cuenta 
 [Detalles de diseño: Ajuste de coste](design-details-cost-adjustment.md)
 [Gestión de costes de inventario](finance-manage-inventory-costs.md)  
 [Finanzas](finance.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

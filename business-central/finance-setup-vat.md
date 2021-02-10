@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: fe12cf42dd2f7b763c5a2940e70f6db4617e1005
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e0ce2d6c5a2d524cf150bc6e3b50f243fe42b4d9
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919529"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750335"
 ---
 # <a name="set-up-value-added-tax"></a>Configurar el impuesto sobre el valor añadido
 
-Los consumidores y las empresas pagan el impuesto sobre el valor añadido (IVA) cuando compran mercancías o servicios. El importe de IVA a pagar puede variar, dependiendo de varios factores. En [!INCLUDE[d365fin](includes/d365fin_md.md)], puede configurar el IVA para especificar las tasas que se usarán para calcular los importes de impuesto a partir de lo siguiente:
+Los consumidores y las empresas pagan el impuesto sobre el valor añadido (IVA) cuando compran mercancías o servicios. El importe de IVA a pagar puede variar, dependiendo de varios factores. En [!INCLUDE[prod_short](includes/prod_short.md)], puede configurar el IVA para especificar las tasas que se usarán para calcular los importes de impuesto a partir de lo siguiente:
 
 * A quién vende  
 * A quién compra  
@@ -35,17 +35,17 @@ Si desea configurar cálculos del IVA, o solo desea obtener información acerca 
 
 ## <a name="to-use-the-vat-setup-assisted-setup-guide-to-set-up-vat-recommended"></a>Usar la guía de configuración asistida de configuración del IVA para configurar el IVA (recomendado)
 
-Es recomendable que use la guía de configuración asistida Configuración de IVA para configurar el IVA en [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Es recomendable que use la guía de configuración asistida Configuración de IVA para configurar el IVA en [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Para iniciar la guía de configuración asistida, realice los pasos siguientes:
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración asistida**.  
 2. Escoger **Configurar IVA** y completa los pasos.
-3. Cuando haya completado la configuración asistida, visite la página **Configuración de registro de IVA** y verifique si debe completar campos adicionales de acuerdo con los requisitos locales de su versión de [!INCLUDE [prodshort](includes/prodshort.md)]. Para obtener más información, consulte [Funciones locales en Business Central](about-localization.md)  
+3. Cuando haya completado la configuración asistida, visite la página **Configuración de registro de IVA** y verifique si debe completar campos adicionales de acuerdo con los requisitos locales de su versión de [!INCLUDE [prod_short](includes/prod_short.md)]. Para obtener más información, consulte [Funciones locales en Business Central](about-localization.md)  
 
 ## <a name="to-set-up-vat-registration-numbers-for-your-country-or-region"></a>Para configurar números CIF/NIF para su país o región
 
-Para ayudar a garantizar que las personas introduzcan números CIF/NIF válidos, puede definir formatos que se usan en los países o regiones con los que mantiene relaciones comerciales. [!INCLUDE[d365fin](includes/d365fin_md.md)] mostrará un mensaje de error cuando alguien cometa un error o utilice un formato que sea incorrecto para el país o región.
+Para ayudar a garantizar que las personas introduzcan números CIF/NIF válidos, puede definir formatos que se usan en los países o regiones con los que mantiene relaciones comerciales. [!INCLUDE[prod_short](includes/prod_short.md)] mostrará un mensaje de error cuando alguien cometa un error o utilice un formato que sea incorrecto para el país o región.
 
 Para configurar números CIF/NIF, realice los pasos siguientes:
 
@@ -70,7 +70,7 @@ Para configurar un grupo de registro de IVA de negocio, realice los pasos siguie
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Grupo de registro de IVA de negocio** y luego elija el enlace relacionado.  
 2. Rellene los campos según sea necesario.
 
-Para configurar grupos de registro de IVA de negocio predeterminados deberá vincularlos a grupos contables de negocio. [!INCLUDE[d365fin](includes/d365fin_md.md)]asigna automáticamente el grupo de registro de IVA de negocio cuando asigne el grupo de registro de negocio relevante a un cliente, proveedor o cuenta contable.
+Para configurar grupos de registro de IVA de negocio predeterminados deberá vincularlos a grupos contables de negocio. [!INCLUDE[prod_short](includes/prod_short.md)]asigna automáticamente el grupo de registro de IVA de negocio cuando asigne el grupo de registro de negocio relevante a un cliente, proveedor o cuenta contable.
 
 ## <a name="to-set-up-vat-product-posting-groups"></a>Para configurar grupos de registro de IVA de producto
 Los grupos de registro de IVA de producto representan los productos y los recursos que compra o vende, y determinan cómo se calcula y se registra el IVA en función del tipo de producto o que se adquiera o se venda.  
@@ -82,7 +82,7 @@ Para configurar un grupo de registro de IVA de negocio, realice los pasos siguie
 2. Rellene los campos según sea necesario.
 
 ## <a name="to-combine-vat-posting-groups-in-vat-posting-setups"></a>Combinar grupos de registro de IVA en configuraciones de registro de IVA
-[!INCLUDE[d365fin](includes/d365fin_md.md)] calcula los importes de IVA de ventas y compras en función de las configuraciones de registro de IVA, que son combinaciones de grupos de registro de IVA de negocio y de producto. En cada combinación puede especificar el porcentaje de IVA, el tipo de cálculo del IVA y las cuentas de contabilidad para el registro del IVA de ventas, compras y los cargos invertidos. También puede especificar si el IVA se vuelve a calcular cuando se aplica o se recibe un descuento.  
+[!INCLUDE[prod_short](includes/prod_short.md)] calcula los importes de IVA de ventas y compras en función de las configuraciones de registro de IVA, que son combinaciones de grupos de registro de IVA de negocio y de producto. En cada combinación puede especificar el porcentaje de IVA, el tipo de cálculo del IVA y las cuentas de contabilidad para el registro del IVA de ventas, compras y los cargos invertidos. También puede especificar si el IVA se vuelve a calcular cuando se aplica o se recibe un descuento.  
 
 Configure tambas combinaciones como necesite. Si desea agrupar las combinaciones de configuración de registro de IVA con atributos parecidos, puede definir un **identificador de IVA** para cada grupo y asignarlo a los miembros del grupo.
 
@@ -92,7 +92,7 @@ Para combinar las configuraciones de registro de IVA, realice los pasos siguient
 2. Rellene los campos según sea necesario.
 
 ## <a name="to-assign-vat-posting-groups-by-default-to-multiple-entities"></a>Asignar los grupos de registro de IVA de forma predeterminada a varias entidades
-Si desea aplicar los mismos grupos de registro de IVA a varias entidades, puede configurar [!INCLUDE[d365fin](includes/d365fin_md.md)] para que lo haga de forma predeterminada. Existen un par de formas de hacer esto:
+Si desea aplicar los mismos grupos de registro de IVA a varias entidades, puede configurar [!INCLUDE[prod_short](includes/prod_short.md)] para que lo haga de forma predeterminada. Existen un par de formas de hacer esto:
 
 * Puede asignar los grupos de registro de IVA de negocio a los grupos de registro de negocio generales, o plantillas de cliente o proveedor
 * Puede asignar los grupos de registro de IVA de negocio a grupos de registro de producto generales  
@@ -128,7 +128,7 @@ Si es necesario, también puede especificar cómo traducir las cláusulas de IVA
 
 Cuando se usan tipos de IVA no estándar en diferentes tipos de documentos, como facturas o abonos, a las empresas generalmente se les exige que incluyan un texto de exención (cláusula de IVA) que indique por qué se ha calculado un tipo de IVA reducido o cero. Puede definir diferentes cláusulas de IVA que se incluirán en los documentos comerciales por tipo de documento, como factura o abono. Haces esto en la página **Cláusulas de IVA por tipo de documento**.
 
-Puede modificar o eliminar una cláusula de IVA, y las modificaciones se reflejarán en un informe generado. Sin embargo, [!INCLUDE[d365fin](includes/d365fin_md.md)] no mantiene un historial de cambios. En el informe, la descripciones de cláusula de IVA se imprimen y se muestran para todas las líneas del informe junto al importe de IVA y el importe base de IVA. Si una cláusula de IVA no se ha definido para ninguna línea en el documento de venta, se omite toda la sección cuando se imprima el informe.
+Puede modificar o eliminar una cláusula de IVA, y las modificaciones se reflejarán en un informe generado. Sin embargo, [!INCLUDE[prod_short](includes/prod_short.md)] no mantiene un historial de cambios. En el informe, la descripciones de cláusula de IVA se imprimen y se muestran para todas las líneas del informe junto al importe de IVA y el importe base de IVA. Si una cláusula de IVA no se ha definido para ninguna línea en el documento de venta, se omite toda la sección cuando se imprima el informe.
 
 ### <a name="to-set-up-vat-clauses"></a>Para configurar las cláusulas de IVA
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Cláusulas de IVA** y luego elija el enlace relacionado.  
@@ -169,7 +169,7 @@ Algunas empresas deben usar el IVA de reversión al realizar transacciones comer
 > Esta norma se aplica al realizar transacciones comerciales con empresas cuyo registro del IVA está en otro país o región de la UE. Si realiza transacciones comerciales directamente con consumidores de otros países o regiones de la UE, debe ponerse en contacto con las autoridades fiscales de su país o región para obtener información sobre la normativa de IVA vigente.  
 
 > [!TIP]  
-> Puede comprobar que una empresa está sujeta a IVA en otro país de la UE utilizando el servicio de validación de CIF/NIF de la UE. El servicio está disponible gratis en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, vea la sección _Comprobar CIF/NIF_ en este tema.
+> Puede comprobar que una empresa está sujeta a IVA en otro país de la UE utilizando el servicio de validación de CIF/NIF de la UE. El servicio está disponible gratis en [!INCLUDE[prod_short](includes/prod_short.md)]. Para obtener más información, vea la sección _Comprobar CIF/NIF_ en este tema.
 
 ### <a name="sales-to-eu-countries-or-regions"></a>Ventas a países o regiones de la UE
 El IVA no se calcula para las ventas a empresas sujetas al IVA de otros países o regiones de la UE. Debe declarar el valor de estas ventas por separado en la declaración del IVA.  

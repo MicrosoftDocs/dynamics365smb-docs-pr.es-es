@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7d1b9a1af6edde26e9c966bb25bc6d237a510d00
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 1fc20ebadc9d516d45c74d963be7b26cfd2b8d4d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921697"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749760"
 ---
 # <a name="setting-up-relationship-management"></a>Configurar la gestión de relaciones
 
@@ -40,7 +40,7 @@ La herencia de campos sobrescribe los valores predeterminados en la configuraci�
 <!--You can also setup a default salutation that application automatically assigns to your contacts. You can use these salutations in your interaction template attachments (for example, Microsoft Word documents). When setting up a default salutation, you can enter a salutation text and a salutation format. For example, if the salutation text is Dear, and the salutation format is Salutation Text + Title + Name, application will automatically enter Dear Mr. John Smith as a salutation for a contact called John Smith.-->
 
 ## <a name="automatically-recording-interactions"></a>Interacciones registradas automáticamente
-[!INCLUDE[d365fin](includes/d365fin_md.md)] puede registrar automáticamente los documentos de compras y ventas como interacciones (por ejemplo, los pedidos, facturas, recibos, etc.), así como los correos electrónicos, las llamadas telefónicas y las hojas de portada.
+[!INCLUDE[prod_short](includes/prod_short.md)] puede registrar automáticamente los documentos de compras y ventas como interacciones (por ejemplo, los pedidos, facturas, recibos, etc.), así como los correos electrónicos, las llamadas telefónicas y las hojas de portada.
 
 Para obtener más información, vea [Registro automático de interacciones con contactos](marketing-auto-record-interactions.md)
 
@@ -59,4 +59,4 @@ Puede elegir que la aplicación busque duplicados de forma automática cada vez 
 
 ## <a name="see-also"></a>Consulte también
 [Gestionar contactos](marketing-contacts.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

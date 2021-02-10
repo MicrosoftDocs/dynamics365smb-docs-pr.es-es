@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 046c829955b38f6f5ea416e0a80c1fe058476942
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 22153df1e56d274256b53d426e2dff30cad3e4bc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918900"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758597"
 ---
 # <a name="date-calculation-for-purchases"></a>Cálculo de la fecha de compras
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] calcula automáticamente la fecha en la que se debe solicitar un producto para tenerlo en el inventario en una fecha determinada. Esta es la fecha en la que puede contar con que los productos solicitados en una fecha determinada estén disponibles para picking.  
+[!INCLUDE[prod_short](includes/prod_short.md)] calcula automáticamente la fecha en la que se debe solicitar un producto para tenerlo en el inventario en una fecha determinada. Esta es la fecha en la que puede contar con que los productos solicitados en una fecha determinada estén disponibles para picking.  
 
 Si especifica una fecha de recepción solicitada en la cabecera de un pedido de compra, la fecha de pedido calculada será aquella en la que se debe realizar el pedido para recibir los artículos en la fecha solicitada. A continuación, la fecha en que los artículos estarán disponibles para picking se calcula y se especifica en el campo **Fecha recepción esperada**.  
 
@@ -50,7 +50,7 @@ Si modifica la fecha de pedido de la cabecera, se copia en el campo **Fecha pedi
 
 ## <a name="default-values-for-lead-time-calculation"></a>Valores predeterminados para el cálculo del tiempo de entrega
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] usa el valor del campo **Cálculo del plazo de entrega** en la línea del pedido de compra para calcular el pedido y las fechas de recepción esperadas.  
+[!INCLUDE[prod_short](includes/prod_short.md)] usa el valor del campo **Cálculo del plazo de entrega** en la línea del pedido de compra para calcular el pedido y las fechas de recepción esperadas.  
 
 Puede especificar manualmente el valor en la línea o dejar que el programa utilice valores definidos en la tarjeta de proveedor, la tarjeta de artículo, la tarjeta de la unidad de almacenamiento o el catálogo de proveedores de artículos.
 Sin embargo, el valor del tiempo de entrega en la tarjeta de proveedor se usa solo si no se especifica un tiempo de entrega en la tarjeta del artículo, la tarjeta de la unidad de almacenamiento o el catálogo del proveedor del artículo. Este es también el orden de prioridad creciente de estos valores. Si se proporcionan todos, el tiempo de entrega de la tarjeta de proveedor tiene la prioridad más baja y el tiempo de entrega del catálogo de proveedores de artículos tiene la prioridad más alta.  
@@ -59,4 +59,4 @@ Sin embargo, el valor del tiempo de entrega en la tarjeta de proveedor se usa so
 
 [Cálculo de fecha de ventas](sales-date-calculation-for-sales.md)   
 [Calcular fechas de compromiso de entrega de pedido](sales-how-to-calculate-order-promising-dates.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

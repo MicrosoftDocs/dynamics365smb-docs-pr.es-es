@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: print check, customize
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 31a3df66b3b82e7901a494c7ef552c27b317ba99
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4a402e9cdcaa7eea55b693f697db3b47138cdd02
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917081"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746996"
 ---
 # <a name="select-a-check-layout"></a>Seleccionar una plantilla de cheques
 Puede diseñar los cheques conforme a los estándares definidos por las autoridades locales. Las imágenes de los cheques se pueden imprimir en inglés, francés o español.
@@ -39,15 +39,15 @@ Cuando haya configurado los diseños de cheques, puede imprimir cheques desde la
 Para cambiar una de estas plantillas de cheques predeterminadas, utilice la integración de Word o RDLC. Para obtener más información, vea [Crear y modificar diseños de informe personalizados](ui-how-create-custom-report-layout.md).
 
 ## <a name="using-micr-and-security-fonts"></a>Usando MICR y fuentes de seguridad
-La versión en línea de [!INCLUDE[d365fin](includes/d365fin_md.md)] contiene fuentes preinstaladas en los servidores que se pueden usar al definir diseños de verificación. A continuación se describen qué fuentes están disponibles y tiene enlaces a información detallada por parte de proveedores externos de las fuentes.
+La versión en línea de [!INCLUDE[prod_short](includes/prod_short.md)] contiene fuentes preinstaladas en los servidores que se pueden usar al definir diseños de verificación. A continuación se describen qué fuentes están disponibles y tiene enlaces a información detallada por parte de proveedores externos de las fuentes.
 
 > [!Important]
-> MICR y verifique las fuentes de seguridad en Microsoft Dynamics [!INCLUDE[d365fin](includes/d365fin_md.md)] tienen licencia en un paquete de fuentes de IDAutomation.com, Inc. Estos productos solo pueden usarse como parte de y en conexión con Microsoft Dynamics [!INCLUDE[d365fin](includes/d365fin_md.md)].
+> MICR y verifique las fuentes de seguridad en Microsoft Dynamics [!INCLUDE[prod_short](includes/prod_short.md)] tienen licencia en un paquete de fuentes de IDAutomation.com, Inc. Estos productos solo pueden usarse como parte de y en conexión con Microsoft Dynamics [!INCLUDE[prod_short](includes/prod_short.md)].
 
 En la actualización 15.3 y posteriores, las fuentes de reconocimiento de caracteres de tinta magnética (MICR) están instaladas y disponibles para su uso. Ambos estándares E-13B y CMC-7 son admitidos. Además de las fuentes MICR, hay fuentes de seguridad especiales disponibles para generar texto, nombres, cantidades y los símbolos de moneda Dólar, Euro, Libra y Yen, que son difíciles de manipular una vez que se ha impreso un cheque.
 
 > [!NOTE]
-> Por razones legales y de seguridad, no puede cargar fuentes personalizadas en el ambiente [!INCLUDE[d365fin](includes/d365fin_md.md)].
+> Por razones legales y de seguridad, no puede cargar fuentes personalizadas en el ambiente [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ### <a name="micr-e-13b-specifications"></a>Especificaciones MICR E-13B
 A continuación se resumen las especificaciones para las fuentes MICR E-13B que pueden ser útiles al calibrar fuentes para que estén en diseños de cheques con impresoras MICR específicas.
@@ -60,7 +60,7 @@ A continuación se resumen las especificaciones para las fuentes MICR E-13B que 
 La especificación completa de las fuentes MICR E-13B se puede encontrar en la documentación del proveedor aquí: (https://www.idautomation.com/micr-fonts/e13b/).
 
 ### <a name="micr-cmc-7-specifications"></a>Especificaciones MICR CMC-7
-Las siguientes fuentes CMC-7 están disponibles en línea en [!INCLUDE[d365fin](includes/d365fin_md.md)]:
+Las siguientes fuentes CMC-7 están disponibles en línea en [!INCLUDE[prod_short](includes/prod_short.md)]:
 
 - IDAutomationCMC7
 - IDAutomationCMC7n10
@@ -83,7 +83,7 @@ A continuación se resumen las especificaciones para las fuentes de comprobació
 
 La especificación completa de las fuentes de comprobación de seguridad se puede encontrar en la documentación del proveedor aquí: (https://www.idautomation.com/security-fonts/).
 
-Las fuentes para otros fines también están disponibles en [!INCLUDE[prodshort](includes/prodshort.md)]. Para más información, consulte [Fuentes Disponibles](ui-fonts.md)
+Las fuentes para otros fines también están disponibles en [!INCLUDE[prod_short](includes/prod_short.md)]. Para más información, consulte [Fuentes Disponibles](ui-fonts.md)
 
 ## <a name="see-also"></a>Consulte también
 [Crear y modificar diseños de informe personalizados](ui-how-create-custom-report-layout.md)  
@@ -91,5 +91,5 @@ Las fuentes para otros fines también están disponibles en [!INCLUDE[prodshort]
 [Administrar pagos](payables-manage-payables.md)  
 [Conciliar bancos](bank-manage-bank-accounts.md)   
 [Completar procesos de fin de periodo](year-how-complete-period-end-processes.md)  
-[Trabajar con [!INCLUDE[prodshort](includes/prodshort.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)

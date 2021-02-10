@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4f2f9602cb050639651a17ea6728eb40762f1ea6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f99a41a60b446f0f225d6112e07f37ded0dd2a78
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918693"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748048"
 ---
 # <a name="create-service-orders"></a>Crear pedidos de servicio
 Puede utilizar la página **Pedido servicio** para crear documentos en los que se introduce información acerca de un servicio, como reparación y mantenimiento, de productos de servicio a solicitud del cliente.  
@@ -52,7 +52,7 @@ Puede basarse en contratos de servicio para crear automáticamente ofertas de se
 ## <a name="to-convert-a-service-quote-to-a-service-order"></a>Para convertir una oferta de servicio en un pedido de servicio
 Una vez que el cliente ha aceptado la oferta de servicio, puede convertirla en un pedido de servicio. La oferta se elimina y se configura un nuevo pedido de servicio con la misma descripción que la oferta de servicio. Se vuelven a calcular la fecha y el tiempo de respuesta del pedido de servicio y el estado se establece como **Pendiente**. El estado de reparación de los productos de servicio del pedido se cambian a **Inicial**.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] busca movimientos de asignación para todos los productos de servicio de la oferta de servicio cuyo estado sea **Activo**. Si encuentra los movimientos de asignación, se actualiza su estado de asignación a **Reasignación necesaria**. Cuando se reasignan los productos de servicio del pedido de servicio, se actualiza el estado de los movimientos de asignación registrados para la oferta a **Terminado**.   
+[!INCLUDE[prod_short](includes/prod_short.md)] busca movimientos de asignación para todos los productos de servicio de la oferta de servicio cuyo estado sea **Activo**. Si encuentra los movimientos de asignación, se actualiza su estado de asignación a **Reasignación necesaria**. Cuando se reasignan los productos de servicio del pedido de servicio, se actualiza el estado de los movimientos de asignación registrados para la oferta a **Terminado**.   
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Ofertas contrato servicio** y luego elija el enlace relacionado.  
 2. Elija la oferta de servicio relevante que desee convertir en pedido de servicio.  

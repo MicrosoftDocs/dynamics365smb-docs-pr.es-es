@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: feature overview, functionality
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2382fa440c67881411fe67e596a62aaf5d431426
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f73178cc55840ffa1756c45a83f01f1bdf8bc359
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912751"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747699"
 ---
 # <a name="general-business-functionality"></a>Funciones empresariales generales
-[!INCLUDE[d365fin](includes/d365fin_md.md)] proporciona funciones dedicadas para las áreas habituales comerciales, como finanzas y ventas. Para obtener más información, consulte [Funciones empresariales](across-business-functionality.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] proporciona funciones dedicadas para las áreas habituales comerciales, como finanzas y ventas. Para obtener más información, consulte [Funciones empresariales](across-business-functionality.md).
 
 Para apoyar esas tareas específicas del área de negocios, puede utilizar una variedad de funciones generales como definir texto ampliado para las líneas del documento y organizar tareas comerciales conectadas en flujos de trabajo.
 
@@ -50,7 +50,7 @@ En la tabla siguiente se indican las áreas de negocio generales, con vínculos 
 | Configure definiciones de intercambio de datos para que pueda enviar y recibir documentos electrónicos. |[Intercambio de datos electrónicamente](across-data-exchange.md) |
 
 ## <a name="see-also"></a>Consulte también
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Administración](admin-setup-and-administration.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 070ffe0a25791f8fee51e0e4279a3886a3f18135
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 44f6fa0f4f5b957a3164fb8cda68c0397f639bc1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924033"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750110"
 ---
 # <a name="managing-intercompany-transactions"></a>Gestión de transacciones entre empresas vinculadas
 Su organización puede estar formada por varias empresas, pero puede no tener un número equivalente de departamentos de contabilidad y administrativos. La funcionalidad de empresas vinculadas le permite hacer transacciones con las subsidiarias y con otras organizaciones asociadas de la misma forma que con sus clientes y proveedores. La información sobre las transacciones entre empresas vinculadas sólo se introduce una vez en los documentos correspondientes. Puede usar las funciones que ya conoce, por ejemplo la gestión de cobros y pagos. Las opciones de asignación del plan de cuentas y las dimensiones contribuyen a garantizar que la información se muestra en los lugares correctos.  
@@ -39,16 +39,17 @@ La consolidación de los datos financieros puede ser especialmente relevante en 
 
 En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.
 
- |Para |Vea|
- |---|---|
- |Cree sus proveedores y clientes de empresas vinculadas, como los llamados socios de empresas vinculadas, y configure un plan de cuentas de empresas vinculadas.|[Configurar empresa vinculada](intercompany-how-setup.md)|
- |Utilice documentos o diarios de empresas vinculadas para registrar transacciones con empresas vinculadas asociadas.|[Usar documentos y diarios de empresas vinculadas](intercompany-how-work-documents-journals.md)|
- |Organice y procese las transacciones entrantes y salientes que intercambia con sus socios de empresas vinculadas.|[Administrar la bandeja de entrada y la bandeja de salida de empresas vinculadas](intercompany-how-manage-intercompany-inbox.md)|
+|Para |Vea|
+|---|---|
+|Cree sus proveedores y clientes de empresas vinculadas, como los llamados socios de empresas vinculadas, y configure un plan de cuentas de empresas vinculadas.|[Configurar empresa vinculada](intercompany-how-setup.md)|
+|Utilice documentos o diarios de empresas vinculadas para registrar transacciones con empresas vinculadas asociadas.|[Usar documentos y diarios de empresas vinculadas](intercompany-how-work-documents-journals.md)|
+|Organice y procese las transacciones entrantes y salientes que intercambia con sus socios de empresas vinculadas.|[Administrar la bandeja de entrada y la bandeja de salida de empresas vinculadas](intercompany-how-manage-intercompany-inbox.md)|
+|Utilice las contabilizaciones de empresas vinculadas para distribuir costes entre empresas asociadas.|[Asignar costos a socios entre empresas](intercompany-allocate-costs.md)|
 
 ## <a name="see-also"></a>Consulte también
 [Finanzas](finance.md)  
 [Configurar las finanzas](finance-setup-finance.md)  
 [Trabajar con diarios generales](ui-work-general-journals.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

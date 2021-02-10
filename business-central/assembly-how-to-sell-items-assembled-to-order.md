@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4e7d6380465eed64a7086b9348e1a2261555a024
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 99111bce195e4436aac597cc4eb2e5f8f3ef77cd
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913893"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747296"
 ---
 # <a name="sell-items-assembled-to-order"></a>Venta de artículos ensamblados para pedido
 Si el campo **Directiva de ensamblado** de la ficha de producto de un elemento del ensamblado es **Ensamblar para pedido**, no se espera que el producto se encuentre en el inventario y el campo debe ensamblarse específicamente para un pedido de venta. Cuando especifique el producto en una línea de pedido de venta, automáticamente se creará un pedido de ensamblado y se vinculará al pedido de venta.  
@@ -62,4 +62,4 @@ En este procedimiento, procesa la venta de un producto que se ensamblará según
 [Trabajar con listas de materiales](inventory-how-work-BOMs.md)  
 [Inventario](inventory-manage-inventory.md)  
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
