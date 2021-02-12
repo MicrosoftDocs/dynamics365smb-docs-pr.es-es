@@ -5,7 +5,7 @@
 <!--### [Getting Ready for Doing Business](ui-get-ready-business.md)-->
 ## Obtener información
 ### [Catálogo de aprendizaje de Business Central](readiness/readiness-learning-catalog.md)
-### [Business Central en Microsoft Learn](/learn/browse/?products=dynamics-business-central&roles=business-user%2Cfunctional-consultant&resource_type=learning%20path)
+### [Business Central en Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### Tutoriales de procesos empresariales
 #### [Tutoriales disponibles](walkthrough-business-process-walkthroughs.md)
 #### [Tutorial: realización de una campaña de ventas](walkthrough-conducting-a-sales-campaign.md)
@@ -101,13 +101,17 @@
 ### [Configuración de Business Central](setup.md)
 ### Configurar las finanzas
 #### [Configurar las finanzas](finance-setup-finance.md)
-#### [Definir las formas de pago](finance-payment-methods.md)
+#### [Configure formas de pago](finance-payment-methods.md)
+#### [Configurar términos de pago](finance-payment-terms.md)
 #### [Configurar los grupos contables](finance-posting-groups.md)
 #### [Preparar informes financieros con esquemas de cuentas y categorías de cuentas](bi-how-work-account-schedule.md)
 #### [Trabajar con tolerancias de pago y tolerancias de descuento de pago](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Trabajar con periodos contables y ejercicios](finance-accounting-periods-and-fiscal-years.md)
+#### [Configurar términos y niveles de recordatorios.](finance-setup-reminders.md)
+#### [Configurar términos interés](finance-setup-finance-charges.md)
 #### [Configurar el impuesto sobre el valor añadido (IVA)](finance-setup-vat.md)
 #### [Configurar el IVA no realizado para la contabilidad basada en efectivo](finance-setup-unrealized-vat.md)
+#### [Validar un CIF/NIF](finance-how-validate-vat-registration-number.md)
 #### [Configuración de códigos de origen y códigos de auditoría para pistas de auditoría](finance-setup-trail-codes.md)
 #### [Permitir la liquidación de movimientos de cliente en distintas divisas](finance-how-enable-application-ledger-entries-different-currencies.md)
 #### [Configurar una divisa de informes adicional](finance-how-setup-additional-currencies.md)
@@ -190,6 +194,7 @@
 #### [Crear LM de producción](production-how-to-create-production-boms.md)
 #### [Habilitar la bajada de componentes según la salida de la operación](production-how-to-flush-components-according-to-operation-output.md)
 #### [Trabajar con la unidad de medida de lote de fabricación](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)
+#### [Manejo de tamaños de lote en producción](production-handling-lot-sizes.md)
 #### [Trabajar con familias de producción](production-how-work-family.md)
 #### [Configurar de líneas de ruta estándar](production-how-set-up-standard-routing-lines.md)
 #### [Subcontratación de fabricación](production-how-to-subcontract-manufacturing.md)
@@ -238,11 +243,13 @@
 #### [Usar Business Central como su bandeja de entrada de empresa en Outlook](admin-outlook.md)
 #### [Sincronizar con Contactos en Microsoft Outlook](admin-synchronize-outlook-contacts.md)
 #### [Usar Business Central sin Outlook](admin-no-outlook.md)
-### Integración de Microsoft Teams
+### Usar Microsoft Teams con Business Central
 #### [Panorama](across-teams-overview.md)
 #### [Gestión de la integración de Teams](admin-teams-integration.md)
 #### [Instalación de la aplicación Business Central para Teams](across-install-app-for-teams.md)
 #### [Trabajar con datos de Business Central en Teams](across-working-with-teams.md)
+#### [P+F de Teams](teams-faq.md)
+#### [Solución de problemas](admin-teams-troubleshooting.md)
 ### Usar Power BI con Business Central
 #### [Introducción](admin-powerbi.md)
 #### Administrador
@@ -266,14 +273,18 @@
 ### [Importar datos de empresa de otros sistemas financieros](across-import-data-configuration-packages.md)
 ### [Configurar correo electrónico](admin-how-setup-email.md)
 ### [Crear numeración](ui-create-number-series.md)
+### [Selección de informe](across-report-selections.md)
 ### [Configurar calendarios base](across-how-to-assign-base-calendars.md)
-<!--### [Get SmartList Designer](bi-smartlist-designer-setup.md)-->
 
 ## Preguntas más frecuentes
-### [Preguntas frecuentes](across-faq.md)
+### [Preguntas más frecuentes](across-faq.md)
 ### [FAQ acerca de la función Dígame](ui-search-faq.md)
 ### [Preguntas frecuentes sobre buscar y filtrar](ui-search-filter-faq.md)
 ### [Preguntas frecuentes sobre vistas de lista](ui-views-faq.md)
+### [Preguntas frecuentes sobre copiar y pegar](faq-copy-paste.yml)
+### [P+F sobre aplicaciones móviles](ui-mobile-faq.md)
+### [P+F de Teams](teams-faq.md)
+### [P+F sobre facturación electrónica](faq-electronic-invoicing.yml)
 ### [Requisitos mínimos](product-requirements.md)
 
 ## Ayuda y soporte técnico
@@ -282,7 +293,7 @@
 ### [Visite nuestra biblioteca de vídeos](across-videos.md)
 ### [Soporte técnico](/dynamics365/business-central/dev-itpro/technical-support?toc=/dynamics365/business-central/toc.json)
 <!--## Learn
-### [Dynamics 365 Business Central on Microsoft Learn](/learn/browse/?products=dynamics-business-central)
+### [Dynamics 365 Business Central on Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)
 ### [Business Functionality Learning Paths](/learn/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
 ### Resources for a Business Decision Maker
@@ -304,7 +315,7 @@
 ## [Ordenar, buscar y filtrar](ui-enter-criteria-filters.md)
 ## [Preguntas frecuentes sobre buscar y filtrar](ui-search-filter-faq.md)
 ## [Introducción de fechas](ui-enter-data.md)
-## [Preguntas frecuentes sobre copiar y pegar](ui-copy-paste.md)
+## [Preguntas frecuentes sobre copiar y pegar](faq-copy-paste.yml)
 ## [Trabajar con fechas y horas del calendario](ui-enter-date-ranges.md)
 ## [Detección de campos obligatorios](ui-mandatory-fields.md)
 ## [Cambiar idioma y región](about-locale-language.md)
@@ -381,7 +392,7 @@
 ##### [Configurar flujos de trabajo](across-set-up-workflows.md)
 ##### [Configurar usuarios de flujo de trabajo](across-how-to-set-up-workflow-users.md)
 ##### [Configurar usuarios de aprobación](across-how-to-set-up-approval-users.md)
-##### [Configurar notificaciones de flujo de trabajo](across-setting-up-workflow-notifications.md)
+##### [Notificaciones de flujo de trabajo](across-setting-up-workflow-notifications.md)
 ##### [Especificar cómo y cuándo recibir notificaciones](across-how-to-specify-when-and-how-to-receive-notifications.md)
 ##### [Crear y modificar diseños de informe personalizados](ui-how-create-custom-report-layout.md)
 ##### [Configurar correo electrónico](admin-how-setup-email.md)
@@ -389,7 +400,6 @@
 ##### [Crear flujos de trabajo a partir de plantillas de flujo de trabajo](across-how-to-create-workflows-from-workflow-templates.md)
 ##### [Importar y exportar flujos de trabajo](across-how-to-export-and-import-workflows.md)
 ##### [Tutorial: Configuración y uso de un flujo de trabajo de aprobación de compra](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
-##### [Tutorial: Implementación de nuevos eventos y respuestas de flujo de trabajo](/dynamics-nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses)
 #### Uso de flujos de trabajo
 ##### [Usar flujos de trabajo](across-use-workflows.md)
 ##### [Activar flujos de trabajo](across-how-to-enable-workflows.md)
@@ -441,14 +451,13 @@
 #### [Cobrar saldos pendientes](receivables-collect-outstanding-balances.md)
 #### [Cobrar pagos mediante adeudo directo SEPA](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Bloquear clientes](receivables-how-block-customers.md)
-#### [Usar los cargos de producto a cuenta para los costes comerciales adicionales](payables-how-assign-item-charges.md)
 #### [Trabajar con tolerancias de pago y tolerancias de descuento de pago](finance-payment-tolerance-and-payment-discount-tolerance.md)
-#### [Extensión de Predicción de pagos atrasados](ui-extensions-late-payment-prediction.md)
+#### [Extensión de predicción de pagos atrasados](ui-extensions-late-payment-prediction.md)
 
 ### Administración de pagos
 #### [Información general de proveedores](payables-manage-payables.md)
 #### Creación de pagos
-#### [Resumen de pagos](payables-make-payments.md)
+##### [Creación de pagos](payables-make-payments.md)
 ##### [Trabajar con diarios generales](ui-work-general-journals.md)
 ##### [Registre pagos y reembolsos](payables-how-post-payments-refunds.md)
 ##### [Proponer pagos a proveedores](payables-how-suggest-vendor-payments.md)
@@ -486,6 +495,7 @@
 #### [Configurar empresa vinculada](intercompany-how-setup.md)
 #### [Usar documentos y diarios de empresas vinculadas](intercompany-how-work-documents-journals.md)
 #### [Administrar la bandeja de entrada y la bandeja de salida de empresas vinculadas](intercompany-how-manage-intercompany-inbox.md)
+#### [Asignar costos a socios entre empresas](intercompany-allocate-costs.md)
 
 ### Contabilidad para costes
 #### [Resumen de contabilidad de costes](finance-manage-cost-accounting.md)
@@ -500,6 +510,7 @@
 ### Gestión de costes de inventario
 #### [Información general de coste de inventario](finance-manage-inventory-costs.md)
 #### [Acerca del contabilidad de valoración](finance-learn-about-costing.md)
+#### [Usar los cargos de producto a cuenta para los costes comerciales adicionales](payables-how-assign-item-charges.md)
 #### [Acerca del cálculo de coste estándar](finance-about-calculating-standard-cost.md)
 #### [Detalles de diseño: Coste de inventario](design-details-inventory-costing.md)
 #### [Trabajar con periodos de inventario](finance-how-to-work-with-inventory-periods.md)
@@ -510,10 +521,7 @@
 #### [Actualizar costes estándar](finance-how-to-update-standard-costs.md)
 #### [Eliminar y liquidar de nuevo los movimientos contables de producto](finance-how-to-remove-and-reapply-item-entries.md)
 #### [Cerrar los movimientos de producto abiertos que se crean por una liquidación fija en el diario de productos](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
-#### Creación de informes de costes y conciliación con la contabilidad
-##### [Informes de costes](finance-report-costs-and-reconcile-with-the-general-ledger.md)
-##### [Conciliar costes de inventario con la contabilidad general](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
-##### [Supervisar el progreso y el rendimiento del trabajo](projects-how-monitor-progress-performance.md)
+#### [Conciliar costes de inventario con la contabilidad general](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
 
 ### Cerrar años y periodos
 #### [Resumen de cierre de año](year-close-years-periods.md)
@@ -538,7 +546,6 @@
 ### [Registrar transacciones directamente en la contabilidad](finance-how-post-transactions-directly.md)
 ### [Revertir los registros de diario y deshacer los recibos/envíos](finance-how-reverse-journal-posting.md)
 ### [Asignar costes e ingresos](year-allocate-costs-income.md)
-### [Usar los cargos de producto a cuenta para los costes comerciales adicionales](payables-how-assign-item-charges.md)
 ### [Registro y reembolso de los costes de los empleados](finance-how-record-reimburse-employee-expenses.md)
 ### [Fraccionar ingresos y gastos](finance-how-defer-revenue-expenses.md)
 ### [Actualizar tipos cambio divisa](finance-how-update-currencies.md)
@@ -562,7 +569,6 @@
 ### [Crear informes de análisis](bi-how-create-analysis-views-reports.md)
 ### [Crear informes con XBRL](bi-create-reports-with-xbrl.md)
 ### [Gestionar la intención de acceso a la base de datos](admin-data-access-intent.md)
-<!--### [Create Custom Queries using SmartLists](bi-smartlists.md)-->
 
 ## Ccial
 ### [Información general de ventas](sales-manage-sales.md)
@@ -577,14 +583,13 @@
 ### [Crear líneas de ventas y de compras periódicas](sales-how-work-standard-lines.md)
 ### [Realizar envíos directos](sales-how-drop-shipment.md)
 ### [Crear pedidos especiales](sales-how-to-create-special-orders.md)
-### [Corregir o cancelar facturas de venta sin abonar](sales-how-correct-cancel-sales-invoice.md)
 ### [Procesamiento de devoluciones de ventas o cancelaciones](sales-how-process-sales-returns-cancellations.md)
+### [Corregir o cancelar facturas de venta sin abonar](sales-how-correct-cancel-sales-invoice.md)
 ### [Trabajar con pedidos de venta abiertos](sales-how-to-create-blanket-sales-orders.md)
 ### [Agrupar envíos en una factura única](sales-how-to-combine-shipments-on-a-single-invoice.md)
 ### [Calcular fechas de compromiso de entrega de pedido](sales-how-to-calculate-order-promising-dates.md)
 ### [Hacer un seguimiento de los paquetes](sales-how-track-packages.md)
 ### [Cálculo de fecha de ventas](sales-date-calculation-for-sales.md)
-### [Crear una previsión](production-how-to-create-a-forecast.md)
 ### [Combinar registros duplicados](sales-how-merge-duplicate-records.md)
 ### [Trabajar con ingresos recurrentes](finance-recurring-invoicing.md)
 
@@ -624,7 +629,7 @@
 ## Administración de proyectos
 ### [Información general de administración de proyectos](projects-manage-projects.md)
 ### [Crear proyectos](projects-how-create-jobs.md)
-## [Uso de recursos para proyectos](projects-how-use-resources.md)
+### [Uso de recursos para proyectos](projects-how-use-resources.md)
 ### [Uso de hojas de horas para proyectos](projects-how-use-time-sheets.md)
 ### [Gestionar presupuestos de proyecto](projects-how-manage-budgets.md)
 ### [Registro del uso para proyectos](projects-how-record-job-usage.md)
@@ -923,16 +928,19 @@
 #### Banca y pagos
 ##### [Función de banco](LocalFunctionality/Czech/bank-feature.md)
 ##### [Gestión de caja](LocalFunctionality/Czech/cash-desk-management.md)
+##### [Localización de caja para checo (extensión)](LocalFunctionality/Czech/ui-extensions-cash-desk-localization-cz.md)
 ##### [Registro de ventas (EET)](LocalFunctionality/Czech/eet.md)
 ##### [Anticipos](LocalFunctionality/Czech/advances.md)
 #### Pagos y cobros
 ##### [Pagos y cobros](LocalFunctionality/Czech/receivables-payables.md)
 ##### [Intrastat](LocalFunctionality/Czech/intrastat.md)
+##### [Localización de compensaciones para checo (extensión)](LocalFunctionality/Czech/ui-extensions-compensations-localization-cz.md)
 #### Inventario
 ##### [Inventario](LocalFunctionality/Czech/inventory.md)
 #### General
 ##### [Control de usuario extendido](LocalFunctionality/Czech/general.md)
 ##### [Prácticas recomendadas](LocalFunctionality/Czech/best-practices.md)
+##### [Paquete de localización básico para checo (extensión)](LocalFunctionality/Czech/ui-extensions-core-localization-pack-cz.md)
 
 ### Dinamarca
 #### [Funcionalidad local en la versión danesa](LocalFunctionality/Denmark/denmark-local-functionality.md)
@@ -1114,7 +1122,7 @@
 ###### [Conciliación de IVA](LocalFunctionality/India/GST-Reconciliation.md)
 ###### [Factura electrónica de IVA](LocalFunctionality/India/GST-E-Way-Bill.md)
 ###### [IVA de ajuste de crédito de entrada](LocalFunctionality/India/GST-Input-Tax-Credit-Adjustment.md)
-###### [Liquidación de IVA](LocalFunctionality/India/GST-Settelement.md)
+###### [Liquidación de GST](LocalFunctionality/India/GST-Settelement.md)
 #### TDS
 ##### [Información general de TDS](LocalFunctionality/India/TDS-Overview.md)
 ##### [Transacciones de TDS](LocalFunctionality/India/TDS-Transactions.md)
@@ -1592,12 +1600,12 @@
 #### [Extensiones de Business Central de otros proveedores](ui-extensions-other.md)
 ## Integración con Dynamics 365 Sales
 ### [Integración con Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
-## Integración con Common Data Service
-### [Integrar con Common Data Service](admin-common-data-service.md)
+## Integración con Microsoft Dataverse
+### [Integrar con Microsoft Dataverse](admin-common-data-service.md)
 ### [Modelos de propiedad de datos](admin-cds-company-concept.md)
-### [Configuración de cuentas de usuario para la integración con Common Data Service](admin-setting-up-integration-with-dynamics-sales.md)
-### [Conectar a Common Data Service](admin-how-to-set-up-a-dynamics-crm-connection.md)
-### [Sincronización de Business Central y Common Data Service](admin-synchronizing-business-central-and-sales.md)
+### [Configuración de cuentas de usuario para la integración con Microsoft Dataverse](admin-setting-up-integration-with-dynamics-sales.md)
+### [Conectar a Microsoft Dataverse](admin-how-to-set-up-a-dynamics-crm-connection.md)
+### [Sincronización de Business Central y Microsoft Dataverse](admin-synchronizing-business-central-and-sales.md)
 ### [Asignación de tablas y campos para sincronizar](admin-how-to-modify-table-mappings-for-synchronization.md)
 ### [Sincronizar manualmente las asignaciones de tablas](admin-manual-synchronization-of-table-mappings.md)
 ### [Programar una sincronización](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
