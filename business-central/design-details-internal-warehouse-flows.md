@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dd07d7d25bea1e49ffa4927a717088663c5d48da
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d6b59df9677216cfcc3fd7e60ec92b1a17890763
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911035"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035736"
 ---
 # <a name="design-details-internal-warehouse-flows"></a>Detalles de diseño: Flujos de almacén internos
 El flujo de productos entre las ubicaciones en una ubicación de empresa se centra en el picking de los componentes y en la ubicación de productos para los pedidos de ensamblado u órdenes de producción, y en los movimientos ad hoc, como reposiciones de ubicación, sin una relación con los documentos de origen. El ámbito y la naturaleza de las actividades implicadas varía entre almacenamiento básico y avanzado.  
@@ -35,7 +35,7 @@ El flujo de productos entre las ubicaciones en una ubicación de empresa se cent
 
  Los campos **Cód. ubic. para producción**, **Cód. ubic. desde producción** y **Abre ubic. aprovision. manual** de la ficha de ubicación o de las fichas de máquina/centro de trabajo definen los flujos predeterminados a las áreas de producción y desde ellas.  
 
- Para obtener más información acerca del procedimiento de bajada del consumo desde las ubicaciones para producción o de aprovisionamiento manual, consulte la sección Consumo de componentes de producción en el almacén en este tema.  
+ Para obtener más información acerca del procedimiento de bajada del consumo desde las ubicaciones para producción o de aprovisionamiento manual, consulte la sección "Consumo de componentes de producción en el almacén" en este tema.  
 
 ### <a name="flows-to-and-from-assembly"></a>Flujos a o desde el ensamblado  
  La integración principal entre los pedidos de ensamblado y las actividades de almacén básico se representa por la capacidad de mover a los componentes del ensamblado al área de ensamblado.  
@@ -72,7 +72,7 @@ El flujo de productos entre las ubicaciones en una ubicación de empresa se cent
 
  Los campos **Cód. ubic. para producción**, **Cód. ubic. desde producción** y **Abre ubic. aprovision. manual** de la ficha de ubicación o de las fichas de máquina/centro de trabajo definen los flujos predeterminados a las áreas de producción y desde ellas.  
 
- Para obtener más información acerca del procedimiento de bajada del consumo desde las ubicaciones para producción o de aprovisionamiento manual, consulte la sección Consumo de componentes de producción en el almacén en este tema.  
+ Para obtener más información acerca del procedimiento de bajada del consumo desde las ubicaciones para producción o de aprovisionamiento manual, consulte la sección "Consumo de componentes de producción en el almacén" en este tema.  
 
 ### <a name="flows-to-and-from-assembly"></a>Flujos a o desde el ensamblado  
  La integración principal entre los pedidos de ensamblado y las actividades de almacén avanzadas se representa por la capacidad de realizar el picking de los componentes del ensamblado, tanto en la página **Picking almacén** como en la página **Hoja trabajo picking**. Esta funcionalidad opera igual que al realizar el picking de componentes para las órdenes de producción.  
@@ -90,7 +90,7 @@ El flujo de productos entre las ubicaciones en una ubicación de empresa se cent
 ## <a name="flushing-production-components-in-the-warehouse"></a>Consumo de componentes de producción en el almacén  
  Si se han configurado en la ficha del producto, los componentes seleccionados mediante de almacén se registran como consumidos por la orden de producción cuando se registra la selección de almacén. Con los métodos de baja **Seleccionar + Adelante** y **Seleccionar + Atrás**, el registro de selección activa el registro de consumo relacionado cuando la primera operación comienza o cuando la última operación acaba, respectivamente.  
 
- Tenga en cuenta el ejemplo siguiente basado en la base de datos de demostración de [!INCLUDE[d365fin](includes/d365fin_md.md)], almacén BLANCO.  
+ Tenga en cuenta el ejemplo siguiente basado en la base de datos de demostración de [!INCLUDE[prod_short](includes/prod_short.md)].  
 
  Existe una orden de producción para 15 UDS del producto LS-100. Algunos de los productos de la lista de componentes deben darse de baja manualmente en un diario de consumo, y en los demás productos de la lista se puede llevar a cabo el picking y la baja automáticamente mediante el método de baja **Pick + Atrás**.  
 

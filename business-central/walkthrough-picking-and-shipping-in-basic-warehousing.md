@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c05456ca45b4508be0ba44acedf81997a92b56bb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f3815e0e928041ca9fcef09b1c7410e45ebb57a1
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918493"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035761"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Tutorial: picking y envío en la configuración del almacenamiento básico
 
 [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]
 
-En [!INCLUDE[d365fin](includes/d365fin_md.md)], los procesos de salida para el picking y el envío se pueden realizar de cuatro maneras utilizando distintas funciones según el nivel de complejidad del almacén.  
+En [!INCLUDE[prod_short](includes/prod_short.md)], los procesos de salida para el picking y el envío se pueden realizar de cuatro maneras utilizando distintas funciones según el nivel de complejidad del almacén.  
 
 |Método|Proceso de salida|Ubicaciones|Picking|Envíos|Nivel de complejidad (consulte [Detalles de diseño: configuración de almacén](design-details-warehouse-setup.md))|  
 |------------|---------------------|----------|-----------|---------------|--------------------------------------------------------------------------------------------------------------------|  
@@ -33,6 +33,9 @@ En [!INCLUDE[d365fin](includes/d365fin_md.md)], los procesos de salida para el p
 Para obtener más información, consulte [Detalles de diseño: Flujo de salida del almacén](design-details-outbound-warehouse-flow.md).  
 
 En el siguiente tutorial se demuestra el método B de la tabla anterior.  
+
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
 ## <a name="about-this-walkthrough"></a>Acerca de este tutorial
 
@@ -46,6 +49,9 @@ En este tutorial, se demuestran las siguientes tareas:
 - Crear un picking de existencias basado en un documento de origen lanzado.  
 - Registrar el movimiento de almacén desde el almacén y, al mismo tiempo, registrar el albarán de venta para el pedido de venta de origen.  
 
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
+
 ## <a name="roles"></a>Funciones
 
 En este tutorial, se demuestran las tareas realizadas por los siguientes roles de usuario:  
@@ -58,7 +64,7 @@ En este tutorial, se demuestran las tareas realizadas por los siguientes roles d
 
 Para completar este tutorial, necesitará:  
 
-- Para [!INCLUDE[prodshort](includes/prodshort.md)] online, una empresa basada en la opción **Evaluación avanzada: completar datos de muestra** en un entorno de espacio aislado. Para [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, CRONUS International Ltd. instalada.  
+- Para [!INCLUDE[prod_short](includes/prod_short.md)] online, una empresa basada en la opción **Evaluación avanzada: completar datos de muestra** en un entorno de espacio aislado. Para [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, CRONUS International Ltd. instalada.  
 - Para convertirse en un empleado de almacén en la ubicación PLATA, realice los pasos siguientes:  
 
   1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Empleados de almacén** y luego elija el enlace relacionado.  
@@ -143,4 +149,4 @@ En la página **Picking inventario**, puede administrar todas las actividades de
 [Mover productos ad hoc en configuraciones básicas de almacén](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)  
 [Detalles de diseño: Flujo de salida del almacén](design-details-outbound-warehouse-flow.md)  
 [Tutoriales de procesos empresariales](walkthrough-business-process-walkthroughs.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

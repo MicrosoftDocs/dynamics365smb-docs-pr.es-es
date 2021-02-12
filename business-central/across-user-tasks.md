@@ -1,6 +1,6 @@
 ---
-title: Asignar y administrar tareas | Documentos de Microsoft
-description: Obtener información sobre cómo asignar tareas a los usuarios, incluido su contable, en Business Central
+title: Asignar y gestionar tareas
+description: Aprenda a asignar tareas a los usuarios, incluido su contador, en Business Central, y cómo seleccionar y completar las tareas.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,20 +10,20 @@ ms.workload: na
 ms.search.keywords: tasks, work
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c76751726f5cd680fafc0887fc57a1464d0ac3ca
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: dd8b774f8dea2762df177ae141730cce8285480e
+ms.sourcegitcommit: 1c9eec7554305603d688bf85ce3986d0b1f72ede
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922622"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "5068387"
 ---
 # <a name="define-user-tasks"></a>Definir tareas de usuario
 
-En [!INCLUDE[d365fin](includes/d365fin_md.md)], puede crear tareas para recordarle que debe realizar el proyecto. Puede crear tareas para usted, pero también puede asignar tareas a otras personas o a otra persona en su organización  
+En [!INCLUDE[prod_short](includes/prod_short.md)], puede crear tareas para recordarle que debe realizar el proyecto. Puede crear tareas para usted, pero también puede asignar tareas a otras personas o a otra persona en su organización  
 
 ## <a name="managing-user-tasks"></a>Gestionar tareas de usuario
 
-La página **Tareas del usuario** muestra todas las tareas, y podrá crear y asignar fácilmente tareas nuevas. Cuando crea una tarea, puede especificar la fecha de inicio y la fecha de vencimiento, y puede agregar un enlace a la página o al informe en [!INCLUDE[d365fin](includes/d365fin_md.md)], donde el usuario debe realizar el trabajo.  
+La página **Tareas del usuario** muestra todas las tareas, y podrá crear y asignar fácilmente tareas nuevas. Cuando crea una tarea, puede especificar la fecha de inicio y la fecha de vencimiento, y puede agregar un enlace a la página o al informe en [!INCLUDE[prod_short](includes/prod_short.md)], donde el usuario debe realizar el trabajo.  
 
 Por ejemplo, puede crear una tarea para usted o un compañero de trabajo para ver todas las facturas de ventas publicadas. En ese caso, vincule la tarea a la página 143, **Histórico facturas venta**. En la siguiente captura de pantalla, alguien está creando una tarea para que MeganB revise las facturas de ventas registradas.  
 
@@ -47,4 +47,4 @@ Si desea eliminar de forma masiva todas o algunas tareas del usuario, puede usar
 ## <a name="see-also"></a>Consulte también
 
 [Buscar una página o informe](ui-search.md)  
-[Experiencias contables en [!INCLUDE[d365fin](includes/d365fin_md.md)]](finance-accounting.md)  
+[Experiencias contables en [!INCLUDE[prod_short](includes/prod_short.md)]](finance-accounting.md)  

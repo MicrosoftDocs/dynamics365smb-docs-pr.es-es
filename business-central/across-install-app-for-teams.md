@@ -10,20 +10,22 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 10/08/2020
 ms.author: jswymer
-ms.openlocfilehash: 38c95baa74d94246c38f1ff985b1457506a03f22
-ms.sourcegitcommit: 4bca699d2a5ce182eb5572d72fac4fb478c4f293
+ms.openlocfilehash: 723437b0e5acb5b5c4dca8374667ea1279243a80
+ms.sourcegitcommit: 36a32c997b201ff32ed8c1cff8179b36e2468c47
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "3989467"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5046433"
 ---
-# <a name="install-the-prodshort-app-for-microsoft-teams"></a>Instale la aplicación [!INCLUDE [prodshort](includes/prodshort.md)] para Microsoft Teams
+# <a name="install-the-prod_short-app-for-microsoft-teams"></a>Instale la aplicación [!INCLUDE [prod_short](includes/prod_short.md)] para Microsoft Teams
 
-[!INCLUDE [teams_preview.md](includes/teams_preview.md)]
+[!INCLUDE [online_only](includes/online_only.md)]
 
-En este artículo, aprenderá a instalar la aplicación [!INCLUDE [prodshort](includes/prodshort.md)] para [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams). La aplicación está disponible en el mercado de Teams y puede usarla con la aplicación web, de escritorio o móvil de Teams.
+En este artículo, aprenderá a instalar la aplicación [!INCLUDE [prod_short](includes/prod_short.md)] para [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams). La aplicación está disponible en el mercado de Teams y puede usarla con la aplicación web, de escritorio o móvil de Teams.
 
 ## <a name="prerequisites"></a>Requisitos previos
+
+- Acceso a la alicación de escritorio de Teams o Teams en el navegador. No puede instalar [!INCLUDE [prod_short](includes/prod_short.md)] mediante la aplicación móvil de Teams.
 
 - Las directivas de su organización deben permitirle instalar aplicaciones en Microsoft Teams.
 
@@ -58,7 +60,8 @@ Ahora está listo para usar la aplicación en Teams para compartir datos de Busi
 ## <a name="see-also"></a>Consulte también
 
 [Descripción general de la integración de Business Central y Microsoft Teams](across-teams-overview.md)  
+[P+F de Teams](teams-faq.md)  
+[Consejos para la solución de problemas de Teams](admin-teams-troubleshooting.md)  
 [Desarrollo para la integración de Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
-[Introducción](product-get-started.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
