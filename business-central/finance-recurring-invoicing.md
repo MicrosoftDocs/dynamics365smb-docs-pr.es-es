@@ -121,3 +121,6 @@ En [AppSource.microsoft.com](https://appsource.microsoft.com/), puede obtener ex
 [Previsiones de demanda y pedidos abiertos](design-details-central-concepts-of-the-planning-system.md#demand-forecasts-and-blanket-orders)  
 [Trabajar con pedidos de venta abiertos](sales-how-to-create-blanket-sales-orders.md)  
 [Pedidos periódicos (Noruega)](LocalFunctionality/Norway/recurring-orders.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

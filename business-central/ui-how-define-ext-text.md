@@ -44,3 +44,6 @@ Ahora puede agregar este texto adicional a los documentos. El siguiente procedim
 
 [Configurar inventario](inventory-setup-inventory.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

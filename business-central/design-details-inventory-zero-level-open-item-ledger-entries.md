@@ -151,3 +151,6 @@ El diagrama siguiente muestra cómo se crean las liquidaciones de coste.
 ## <a name="see-also"></a>Consulte también  
 [Detalles de diseño: Liquidación de productos](design-details-item-application.md)   
 [Detalles de diseño: Coste de inventario](design-details-inventory-costing.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -35,3 +35,6 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Procese los clientes potenciales entrantes con la creación de oportunidades y asócielos a vendedores para poder hacer un seguimiento de las ventas potenciales.|[Administrar oportunidades de venta](marketing-manage-sales-opportunities.md)|
 |Cree los planes de marketing para identificar, atraer y conservar a los clientes.|[Administrar campañas de marketing](marketing-campaigns.md)|
 |Utilice Dynamics 365 Sales para la interacción con el cliente y disfrute de una integración perfecta en el proceso de clientes potenciales a efectivo mediante el uso de Business Central para las actividades de backend como el procesamiento de pedidos, la gestión de inventario y la gestión de sus finanzas.|[Integración con Dynamics 365 Sales](marketing-integrate-dynamicscrm.md)|
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

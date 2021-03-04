@@ -88,3 +88,6 @@ Para obtener más información, consulte [Documentación de Power Automate](/pow
 [Config. usuario aprobación](across-how-to-set-up-approval-users.md)  
 [Configurar [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Finanzas](finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Opcionalmente, agregue condiciones de pago a su método de pago. Para obtener m�
 [Configurar términos de pago](finance-payment-terms.md)  
 [Finanzas](finance.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Ahora puede enviar la declaración del IVA a las autoridades fiscales.
  [Informes IVA](vat-reports.md)   
  [Crear plantillas para las declaraciones telemáticas de IVA en formato de archivo de texto](how-to-create-templates-for-telematic-vat-statements-in-text-file-format.md)   
  [Exportar declaraciones de IVA en formato XML](how-to-export-vat-statements-in-xml-format.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

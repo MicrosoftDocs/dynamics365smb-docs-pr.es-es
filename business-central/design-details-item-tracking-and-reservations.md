@@ -92,3 +92,5 @@ Este escenario empresarial está respaldado por la funcionalidad de enlace poste
   
 ## <a name="see-also"></a>Consulte también  
 [Detalles de diseño: Seguimiento de productos](design-details-item-tracking.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

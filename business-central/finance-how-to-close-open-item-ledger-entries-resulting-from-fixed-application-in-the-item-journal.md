@@ -46,3 +46,6 @@ El siguiente procedimiento muestra cómo cerrar los movimientos realizando dos r
 [Configuración de valoración de existencias](finance-set-up-inventory-valuation-and-costing.md)  
 [Gestión de costes de inventario](finance-manage-inventory-costs.md)  
 [Detalles de diseño: Métodos de coste](design-details-costing-methods.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

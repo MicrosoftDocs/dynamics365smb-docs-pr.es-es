@@ -35,3 +35,6 @@ El siguiente procedimiento describe cómo rastrear desde una línea de orden de 
 [Ccial](sales-manage-sales.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

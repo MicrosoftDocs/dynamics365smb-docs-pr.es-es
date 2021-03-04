@@ -40,3 +40,6 @@ La siguiente tabla describe la información proporcionada para cada tabla:
 
 [Inspección de páginas](across-inspect-page.md)  
 [Artículos de rendimiento para desarrolladores](/dynamics365/business-central/dev-itpro/performance/performance-developer)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

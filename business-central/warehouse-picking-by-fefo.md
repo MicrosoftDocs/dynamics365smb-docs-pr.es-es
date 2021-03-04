@@ -49,3 +49,6 @@ Si se selecciona el campo **Registro caducidad requerido**, sólo los productos 
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

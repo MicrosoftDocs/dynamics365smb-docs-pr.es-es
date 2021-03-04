@@ -36,3 +36,6 @@ El módulo Cartera contiene los módulos Docs. cartera a cobrar y Docs. cartera 
  [Módulo Docs. cartera a cobrar](receivables-cartera-module.md)   
  [Módulo Docs. cartera a pagar](payments-cartera-module.md)   
  [Funcionalidad local para España](spain-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

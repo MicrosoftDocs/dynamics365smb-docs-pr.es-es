@@ -186,3 +186,6 @@ El campo 480 existe en las siguientes tablas de búfer.
  [Información general de los movimientos del grupo dimensiones](design-details-dimension-set-entries-overview.md)   
  [Detalles de diseño: Búsqueda de combinaciones de dimensiones](design-details-searching-for-dimension-combinations.md)   
  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

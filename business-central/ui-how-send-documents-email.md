@@ -68,3 +68,6 @@ La **Bandeja de salida de correo electrónico** es donde encontrará los correos
 [Configurar correo electrónico](admin-how-setup-email.md)  
 [Facturar ventas](sales-how-invoice-sales.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

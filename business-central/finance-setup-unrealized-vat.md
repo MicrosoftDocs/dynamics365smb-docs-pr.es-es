@@ -50,3 +50,6 @@ Para utilizar cuentas para IVA no realizado, realice los pasos siguientes:
 
 ## <a name="see-also"></a>Consulte también
 [Configuración del impuesto sobre el valor añadido](finance-setup-vat.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

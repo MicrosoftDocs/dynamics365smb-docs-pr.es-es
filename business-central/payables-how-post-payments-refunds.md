@@ -57,3 +57,6 @@ El diario de pagos es un diario general que se optimiza para crear pagos. Puede 
 [Trabajar con diarios generales](ui-work-general-journals.md)  
 [Personalizar el área de trabajo](ui-personalization-user.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

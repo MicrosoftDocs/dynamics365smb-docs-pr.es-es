@@ -110,3 +110,6 @@ Dado que los datos de la tarjeta en Teams son una copia de los datos en [!INCLUD
 [Desarrollo para la integración de Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

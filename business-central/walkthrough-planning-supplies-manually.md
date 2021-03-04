@@ -232,3 +232,6 @@ A la página **Planificación de pedidos** se puede acceder desde varias ubicaci
 ## <a name="see-also"></a>Consulte también  
  [Tutoriales de procesos empresariales](walkthrough-business-process-walkthroughs.md)   
  [Tutorial: planificación automática de suministros](walkthrough-planning-supplies-automatically.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

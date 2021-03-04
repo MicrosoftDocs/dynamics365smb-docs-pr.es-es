@@ -132,3 +132,6 @@ El procedimiento siguiente describe el registro del envío directamente de un pe
 ## <a name="see-also"></a>Consulte también  
 [Registro en la gestión de servicios](service-service-posting.md)  
 [Crear un pedido de servicio](service-how-to-create-service-orders.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -73,3 +73,6 @@ La mayoría de los informes y las estadística se basan en los movimientos de co
  [Finanzas](finance.md)   
  [Terminología en contabilidad de costes](finance-terminology-in-cost-accounting.md)  
  [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

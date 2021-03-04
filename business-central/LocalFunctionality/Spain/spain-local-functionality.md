@@ -77,3 +77,6 @@ En los temas siguientes se describe la funcionalidad local que es única para la
 [Disponibilidad nacional/regional e idiomas admitidos](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 ## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

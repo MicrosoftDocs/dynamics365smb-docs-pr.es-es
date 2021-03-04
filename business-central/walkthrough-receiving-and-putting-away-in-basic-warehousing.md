@@ -148,3 +148,6 @@ En la página **Ubicación existencias**, puede administrar todas las actividade
  [Detalles de diseño: Flujo de entrada en almacén](design-details-inbound-warehouse-flow.md)   
  [Tutoriales de procesos empresariales](walkthrough-business-process-walkthroughs.md)  
  [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

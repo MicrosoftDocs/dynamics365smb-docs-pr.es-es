@@ -49,3 +49,6 @@ Hay un par de cosas a recordar sobre el servicio de validación de IVA VIES:
 [Crear informes de IVA para la autoridad fiscal](finance-how-report-vat.md)  
 [Trabajar con el IVA por ventas y compras](finance-work-with-vat.md)  
 [Funcionalidad local en Business Central](about-localization.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

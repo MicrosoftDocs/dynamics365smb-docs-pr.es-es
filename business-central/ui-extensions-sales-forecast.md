@@ -64,3 +64,6 @@ También puede crear su propio servicio web predictivo basado en un modelo públ
 [Ccial](sales-manage-sales.md)  
 [Inventario](inventory-manage-inventory.md)  
 [Personalizar [!INCLUDE[prod_short](includes/prod_short.md)] con extensiones](ui-extensions.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

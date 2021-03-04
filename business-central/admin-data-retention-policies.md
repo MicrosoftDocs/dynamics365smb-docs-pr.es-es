@@ -105,3 +105,5 @@ Una vez que un desarrollador ha agregado tablas a la lista, un administrador pue
 [Filtrado](ui-enter-criteria-filters.md#filtering)  
 [Uso de colas de proyectos para programar tareas](admin-job-queues-schedule-tasks.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

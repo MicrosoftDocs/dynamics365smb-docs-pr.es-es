@@ -51,3 +51,6 @@ Las campañas las realizan vendedores y debe crear actividades para representar 
 [Administrar segmentos](marketing-segments.md)  
 [Administrar oportunidades de venta](marketing-manage-sales-opportunities.md)  
 [Trabajar con Business Central](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

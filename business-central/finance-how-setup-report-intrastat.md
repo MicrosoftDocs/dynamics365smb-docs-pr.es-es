@@ -131,3 +131,6 @@ En la página **Códigos arancelarios**, aguregue todos los códigos que utilice
 
 ## <a name="see-also"></a>Consulte también
 [Gestión financiera](finance.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

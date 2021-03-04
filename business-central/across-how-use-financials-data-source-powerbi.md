@@ -138,3 +138,6 @@ Hay dos formas de enviar informes a sus compañeros de trabajo y a otras persona
 [Configurar [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Finanzas](finance.md)  
 [Inicio rápido: Conectarse a los datos de Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

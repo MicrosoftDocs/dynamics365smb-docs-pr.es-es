@@ -40,3 +40,6 @@ Para supervisar el valor en la contabilidad, puede calcular WIP y registrar el v
 [Compras](purchasing-manage-purchasing.md)         
 [Ventas](sales-manage-sales.md)      
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -69,3 +69,6 @@ Después de haber cerrado el periodo de inventario, ya no podrá eliminarlo. No 
 [Finanzas](finance.md)  
 [Inventario](inventory-manage-inventory.md)  
 [Trabajar con Financials](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

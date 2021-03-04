@@ -123,3 +123,6 @@ La tabla siguiente proporciona un resumen simplificado del XML de un elemento XM
   
 ## <a name="see-also"></a>Consulte también  
  [Crear y modificar un diseño de informe personalizado](ui-how-create-custom-report-layout.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -121,3 +121,6 @@ En la tabla siguiente se describen las codeunits que debe crear para el informe.
 [Trabajar con el IVA por ventas y compras](finance-work-with-vat.md)  
 [Configuración de ventas](sales-setup-sales.md)  
 [Facturar ventas](sales-how-invoice-sales.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

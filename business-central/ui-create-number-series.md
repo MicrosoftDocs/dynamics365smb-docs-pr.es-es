@@ -87,3 +87,6 @@ En lo sucesivo, cuando configure algo que requiera un número, podrá utilizar l
 ## <a name="see-also"></a>Consulte también
 [Configurar [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

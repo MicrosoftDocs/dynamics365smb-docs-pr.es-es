@@ -145,3 +145,6 @@ Para [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, puede administr
 [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md)  
 [Personalizar páginas para perfiles](ui-personalization-manage.md)  
 [Personalizar el área de trabajo](ui-personalization-user.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

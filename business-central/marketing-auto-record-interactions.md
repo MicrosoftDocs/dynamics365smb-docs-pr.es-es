@@ -34,3 +34,6 @@ Para abrir la página **Configuración de plantilla de interacción**, elija el 
 ## <a name="see-also"></a>Consulte también
 [Registrar interacciones con contactos](marketing-interactions.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

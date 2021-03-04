@@ -41,3 +41,6 @@ La valoración de inventario, también conocida como "gestión de costes", se re
 [Detalles de diseño: cuentas de contabilidad](design-details-accounts-in-the-general-ledger.md)  
 [Detalles de diseño: Valoración de inventario](design-details-inventory-valuation.md)  
 [Detalles de diseño: Revalorización](design-details-revaluation.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

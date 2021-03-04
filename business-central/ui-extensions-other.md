@@ -27,3 +27,6 @@ La lista de las extensiones de otras empresas aumenta cada mes. Esté atento a [
 
 [Personalizar [!INCLUDE[prod_short](includes/prod_short.md)] con extensiones](ui-extensions.md)  
 [Introducción](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

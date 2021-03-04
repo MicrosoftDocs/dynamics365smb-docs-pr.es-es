@@ -33,3 +33,6 @@ Algunas cuentas de contabilidad no aceptan descuentos de pago o de factura. Para
 
 ## <a name="see-also"></a>Consulte también  
  [Funcionalidad local para España](spain-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -125,3 +125,6 @@ Incluso puede crear facturas pagadas directamente para clientes no registrados c
 [Cobrar saldos pendientes](receivables-collect-outstanding-balances.md)  
 [Facturación masiva desde Microsoft Bookings en Business Central ](finance-bookings.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

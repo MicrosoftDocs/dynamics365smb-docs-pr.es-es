@@ -58,3 +58,6 @@ Los productos de los clientes con los que realiza el servicio, como una impresor
 [Gestión de costes de inventario](finance-manage-inventory-costs.md)  
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

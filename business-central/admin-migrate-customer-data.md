@@ -197,3 +197,6 @@ Ya está configurada la base de datos de la empresa del cliente y se han importa
 ## <a name="see-also"></a>Consulte también  
 [Configurar una empresa con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administración](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

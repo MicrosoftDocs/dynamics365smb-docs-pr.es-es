@@ -101,3 +101,6 @@ En la tabla **Registro de costes**, [!INCLUDE[prod_short](includes/prod_short.md
  [Configuración de contabilidad de costes](finance-set-up-cost-accounting.md)   
  [Definición y asignación de costes](finance-define-and-allocate-costs.md)   
  [Contabilidad para costes](finance-manage-cost-accounting.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

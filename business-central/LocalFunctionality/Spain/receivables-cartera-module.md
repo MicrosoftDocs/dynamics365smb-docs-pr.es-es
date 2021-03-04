@@ -59,3 +59,6 @@ Se pueden utilizar remesas para:
 ## <a name="see-also"></a>Consulte también  
  [Módulo Cartera](cartera-module.md)   
  [Módulo Docs. cartera a pagar](payments-cartera-module.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

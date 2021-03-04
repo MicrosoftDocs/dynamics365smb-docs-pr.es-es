@@ -67,3 +67,6 @@ Durante la configuración de la conexión, se crean asignaciones de tablas de in
 
 
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

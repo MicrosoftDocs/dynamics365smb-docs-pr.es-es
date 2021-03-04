@@ -43,3 +43,6 @@ Cuando elige la acción **Registrar y enviar** en un documento de venta, el cuad
 [Configuración de ventas](sales-setup-sales.md)  
 [Ccial](sales-manage-sales.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

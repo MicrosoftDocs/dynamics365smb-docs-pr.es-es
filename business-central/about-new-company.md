@@ -77,3 +77,6 @@ Una vez que se ha creado una empresa, no puede cambiar su nombre. Pero puedes ca
 [Importar datos de empresa de otros sistemas financieros](across-import-data-configuration-packages.md)  
 [Cambiar la configuración básica](ui-change-basic-settings.md)  
 [Introducción](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

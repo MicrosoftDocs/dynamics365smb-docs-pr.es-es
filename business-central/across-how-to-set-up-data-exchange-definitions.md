@@ -200,3 +200,6 @@ Cuando haya creado la definición de intercambio de datos para un archivo de dat
 [Realizar pagos con la extensión AMC Banking 365 Fundamentals o transferencia de crédito SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
 [Documentos entrantes](across-income-documents.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

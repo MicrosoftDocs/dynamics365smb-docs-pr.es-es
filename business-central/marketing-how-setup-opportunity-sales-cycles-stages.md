@@ -66,3 +66,6 @@ Cuando haya configurado una tarea, puede asignarla a una oportunidad de ventas y
 [Procesar oportunidades de ventas](marketing-processing-sales-opportunities.md)  
 [Ccial](sales-manage-sales.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

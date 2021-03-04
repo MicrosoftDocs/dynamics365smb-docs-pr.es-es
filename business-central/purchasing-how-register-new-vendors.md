@@ -65,3 +65,6 @@ Si ha publicado una transacción para un proveedor, no puede eliminar la ficha p
 [Compras](purchasing-manage-purchasing.md)  
 [Registrar compras](purchasing-how-record-purchases.md)   
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

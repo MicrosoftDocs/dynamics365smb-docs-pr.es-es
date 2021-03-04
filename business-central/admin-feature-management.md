@@ -25,3 +25,6 @@ Más información acerca de la [Administración de características](/dynamics36
 ## <a name="see-also"></a>Consulte también .
 
 [Características nuevas y planificadas](https://aka.ms/Dynamics365ReleasePlan)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

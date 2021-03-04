@@ -263,3 +263,6 @@ Puede configurar [!INCLUDE[prod_short](includes/prod_short.md)] para enviar camb
 [Administración](admin-setup-and-administration.md)  
 [Agregar usuarios a Microsoft 365 para empresas](https://aka.ms/CreateOffice365Users)  
 [Seguridad y protección en Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection) en Ayuda para desarrolladores y profesionales de TI
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

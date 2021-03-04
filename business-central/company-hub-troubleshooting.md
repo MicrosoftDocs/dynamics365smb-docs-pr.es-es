@@ -50,3 +50,6 @@ Si ha agregado una empresa, pero no se muestra en la lista, también puede usar 
 [Administrar el trabajo de varias empresas en el hub de empresas](company-hub.md)  
 [Agregar empresas al hub de empresas](company-hub-add-company.md)  
 [Experiencias contables en Business Central](finance-accounting.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

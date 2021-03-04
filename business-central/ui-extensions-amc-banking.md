@@ -87,3 +87,6 @@ Para usar esta extensión es solo cuestión de exportar datos en la página **Di
 ## <a name="see-also"></a>Consulte también
 [Personalizar [!INCLUDE[prod_short](includes/prod_short.md)] con extensiones](ui-extensions.md)  
 [Introducción](product-get-started.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

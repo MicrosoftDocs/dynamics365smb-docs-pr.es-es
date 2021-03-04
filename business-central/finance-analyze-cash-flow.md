@@ -55,3 +55,6 @@ Si desea examinar la previsión, además de los movimientos de previsión, tambi
 [Configurar las finanzas](finance-setup-finance.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Configuración del análisis de flujo de efectivo](finance-setup-cash-flow-analyses.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

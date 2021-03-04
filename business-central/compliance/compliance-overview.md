@@ -35,3 +35,6 @@ En esta sección puede obtener más información sobre nuestro enfoque sobre la 
 |Información sobre los términos del acuerdo de nivel de servicio y otros términos del servicio|[Términos del servicio](compliance-service-compliance.md#service-terms)|  
 
 ## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

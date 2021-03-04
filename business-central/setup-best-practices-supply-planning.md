@@ -35,3 +35,6 @@ La planificación de suministros es un área comercial crítica. Cuando se confi
  [Detalles de diseño: Parámetros de la planificación](design-details-planning-parameters.md)   
  [Configurar áreas de aplicación complejas mediante procedimientos recomendados](set-up-complex-application-areas-using-best-practices.md)  
  [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

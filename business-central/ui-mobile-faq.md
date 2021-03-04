@@ -67,3 +67,6 @@ Sí que puede. Es una forma ligeramente diferente de iniciar sesión, eso es tod
 
 [Obtener Business Central en el dispositivo móvil](install-mobile-app.md)  
 [Instalar la aplicación Business Central para Microsoft Teams](across-install-app-for-teams.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -31,3 +31,6 @@ Explica cómo funciona el sistema de planificación y cómo ajustar los algoritm
 [Detalles de diseño: Tabla de asignación de planificación](design-details-planning-assignment-table.md)  
 [Detalles de diseño: Demanda en almacén vacío](design-details-demand-at-blank-location.md)  
 [Detalles de diseño: Transferencias en planificación](design-details-transfers-in-planning.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

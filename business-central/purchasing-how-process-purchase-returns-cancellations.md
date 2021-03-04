@@ -195,3 +195,6 @@ Cuando se combinan envíos devueltos en un abono y se registran, se crea un abon
 [Corregir o cancelar facturas de compra sin abonar](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Procesamiento de devoluciones de ventas o cancelaciones](sales-how-process-sales-returns-cancellations.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Puede importar y exportar un diseño de informe personalizado existente como arc
  [Crear y modificar un diseño de informe personalizado](ui-how-create-custom-report-layout.md)   
  [Administrar diseños de informes y documentos](ui-manage-report-layouts.md)  
  [Trabajar con informes, trabajos por lotes y XMLports](ui-work-report.md)    
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

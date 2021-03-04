@@ -129,3 +129,6 @@ Si uno o más componentes del ensamblado no están disponibles, se reflejará en
 [Vender productos](sales-how-sell-products.md)      
 [Trabajar con Business Central](ui-work-product.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

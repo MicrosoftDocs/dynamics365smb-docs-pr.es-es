@@ -92,3 +92,6 @@ Se requieren algunas extensiones. No puede desinstalarlas de la página **Admini
 [Introducción](product-get-started.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

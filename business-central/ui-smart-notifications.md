@@ -40,3 +40,6 @@ La activación o la desactivación de las notificaciones, y la especificación d
 ## <a name="see-also"></a>Consulte también
 
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

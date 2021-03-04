@@ -68,3 +68,6 @@ El procedimiento siguiente describe cómo crear un nuevo abono con el trabajo po
 [Finanzas](finance.md)  
 [Crear informes de IVA para las autoridades fiscales](finance-how-report-vat.md)  
 [Trabajar con el IVA por ventas y compras](finance-work-with-vat.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -119,3 +119,6 @@ La adición de campos de datos de un conjunto de datos de informe es una operaci
 [Preparar informes financieros con esquemas de cuentas y categorías de cuentas](bi-how-work-account-schedule.md) 
 [Inteligencia empresarial](bi.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

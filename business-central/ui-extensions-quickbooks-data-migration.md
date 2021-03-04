@@ -70,3 +70,6 @@ Verifique los saldos iniciales de las cuentas en el libro mayor. QuickBooks no a
 
 [Importar datos de empresa de otros sistemas financieros](across-import-data-configuration-packages.md)  
 [Personalizar [!INCLUDE[prod_short](includes/prod_short.md)] con extensiones](ui-extensions.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

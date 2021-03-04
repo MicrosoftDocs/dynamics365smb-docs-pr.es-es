@@ -49,3 +49,6 @@ Para obtener una descripción general de los mercados que se admiten actualmente
 [Funcionalidad local](about-localization.md)  
 [Disponibilidad nacional/regional y traducciones admitidas](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 [Disponibilidad internacional de Microsoft Dynamics 365](/dynamics365/get-started/availability)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

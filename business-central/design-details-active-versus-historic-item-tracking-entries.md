@@ -62,3 +62,6 @@ Cuando se registran partes de una cantidad de línea de documento, solo dicha ca
 ## <a name="see-also"></a>Consulte también  
  [Detalles de diseño: Seguimiento de productos](design-details-item-tracking.md)   
  [Detalles de diseño: página Líns. seguim. prod.](design-details-item-tracking-lines-window.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

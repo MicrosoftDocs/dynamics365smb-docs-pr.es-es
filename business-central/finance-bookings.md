@@ -43,3 +43,6 @@ La compatibilidad para facturar citas desde Bookings es más simple que el flujo
 [Facturar ventas](sales-how-invoice-sales.md)  
 [Configuración de ventas](sales-setup-sales.md)  
 [Microsoft Bookings](https://products.office.com/business/scheduling-and-booking-app)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

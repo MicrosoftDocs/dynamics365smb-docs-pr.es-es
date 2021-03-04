@@ -183,3 +183,6 @@ Para cada cuenta de contabilidad, puede definir valores de dimensión predetermi
 [Transferencia y registro de movimientos de coste](finance-transfer-and-post-cost-entries.md)   
 [Definición y asignación de costes](finance-define-and-allocate-costs.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

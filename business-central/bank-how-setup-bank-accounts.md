@@ -56,3 +56,6 @@ Los campos de la ficha desplegable **Transferencia** en la página **Ficha banco
 [Configurar los grupos contables](finance-posting-groups.md)  
 [Conciliar bancos](bank-manage-bank-accounts.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

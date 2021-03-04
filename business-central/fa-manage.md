@@ -62,3 +62,6 @@ El siguiente video cubre los conceptos básicos de los activos fijos.
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

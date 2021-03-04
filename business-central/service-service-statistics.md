@@ -112,3 +112,6 @@ Puede utilizar la página **Estadísticas abonos servicios** para obtener un res
 [Crear pedidos de servicio ](service-how-to-create-service-orders.md)   
 [Crear productos de servicio](service-how-to-create-service-items.md)   
 [Servicio de planificación](service-plan-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

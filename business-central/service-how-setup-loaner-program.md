@@ -35,3 +35,6 @@ En ocasiones, debe entregar al cliente un producto prestado para que lo utilice 
 [Configurar la gestión de servicios](service-setup-service.md)  
 [Prestación del servicio](service-deliver-service.md)  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

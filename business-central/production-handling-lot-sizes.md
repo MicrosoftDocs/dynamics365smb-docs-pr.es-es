@@ -52,3 +52,6 @@ Para la planificación de suministros, la configuración del tamaño de lote de 
 [Trabajar con unidades de medida de lote de fabricación](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)
 [Crear enrutamientos](production-how-to-create-routings.md)  
 [Gestión de costes de inventario](finance-manage-inventory-costs.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

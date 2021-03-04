@@ -55,3 +55,6 @@ Cuando registra una factura de venta, [!INCLUDE[prod_short](../../includes/prod_
 
 ## <a name="see-also"></a>Consulte también  
  [Crear el informe 349](how-to-create-report-349.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

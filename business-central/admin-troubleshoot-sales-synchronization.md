@@ -62,3 +62,6 @@ Cuando algo sale mal en su integración y necesita desacoplar registros para dej
 [Configurar una conexión a Microsoft Dataverse](admin-how-to-set-up-a-dynamics-crm-connection.md)  
 [Emparejar y sincronizar registros manualmente](admin-how-to-couple-and-synchronize-records-manually.md)  
 [Ver el estado de una sincronización](admin-how-to-view-synchronization-status.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

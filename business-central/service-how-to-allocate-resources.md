@@ -143,3 +143,6 @@ Puede cancelar las asignaciones de recursos para las tareas de servicio sin reas
 ## <a name="see-also"></a>Consulte también
 [Configurar asignación de recursos](service-how-setup-resource-allocation.md)  
 [Estado de asignación y estado de reparación](service-allocation-status-and-repair-status.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

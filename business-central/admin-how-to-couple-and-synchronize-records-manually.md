@@ -59,3 +59,6 @@ Puede desacoplar uno o más registros de las páginas de lista o la página **Er
 
 ## <a name="see-also"></a>Consulte también  
 [Uso de Dynamics 365 Sales desde Business Central](marketing-integrate-dynamicscrm.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

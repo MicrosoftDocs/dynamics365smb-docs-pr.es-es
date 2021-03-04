@@ -50,3 +50,6 @@ Por ejemplo, la hoja de trabajo Clasificación de datos le permite hacer cosas c
 ## <a name="see-also"></a>Consulte también
 
 [Clasificar datos](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

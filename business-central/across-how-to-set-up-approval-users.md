@@ -63,3 +63,6 @@ Antes de que puedas crear flujos de trabajo que impliquen pasos de aprobación, 
 [Configuración de flujos de trabajo](across-set-up-workflows.md)   
 [Tutorial: Configuración y uso de un flujo de trabajo de aprobación de compra](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
 [Flujo de trabajo](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

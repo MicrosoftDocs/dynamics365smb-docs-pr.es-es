@@ -182,3 +182,6 @@ Se recomienda lo siguiente:
 
 [Detalles de diseño: Métodos de coste](design-details-costing-methods.md)  
 [Panorama](design-details-inventory-costing.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

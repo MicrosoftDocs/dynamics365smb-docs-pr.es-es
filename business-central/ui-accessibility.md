@@ -81,3 +81,6 @@ Puede encontrar información adicional acerca de la accesibilidad con los produc
 [Introducción](product-get-started.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Preguntas más frecuentes](across-faq.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

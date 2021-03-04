@@ -149,3 +149,6 @@ El tema incluye los siguientes procedimientos:
 [Intercambio de datos electrónicamente](across-data-exchange.md)   
 [Facturar ventas](sales-how-invoice-sales.md)   
 [Registrar compras](purchasing-how-record-purchases.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

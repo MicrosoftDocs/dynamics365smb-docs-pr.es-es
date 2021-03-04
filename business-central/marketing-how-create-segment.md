@@ -36,3 +36,6 @@ Ahora puede agregar contactos al segmento. Para obtener más información, vea [
 [Administrar segmentos](marketing-segments.md)  
 [Administrar oportunidades de venta](marketing-manage-sales-opportunities.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

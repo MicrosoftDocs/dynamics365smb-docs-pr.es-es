@@ -150,3 +150,6 @@ Finalmente, las líneas del contrato tendrán los siguientes datos:
 ## <a name="see-also"></a>Consulte también  
 [Creación de contratos de servicio y ofertas de contrato de servicio](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Configurar la gestión de servicios](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -37,3 +37,6 @@ Si está preparado para empezar ahora, elija el icono ![Bombilla que abre la fun
 ## <a name="see-also"></a>Consulte también
 [Importar datos de empresa de otros sistemas financieros](across-import-data-configuration-packages.md)  
 [Personalizar Business Central con extensiones](ui-extensions.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

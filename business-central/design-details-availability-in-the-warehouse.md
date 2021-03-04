@@ -77,3 +77,6 @@ Si no se cumplen una o más condiciones, se pueden mostrar diferentes mensajes d
 ## <a name="see-also"></a>Consulte también  
  [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
  [Consultar la disponibilidad de los productos](inventory-how-availability-overview.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

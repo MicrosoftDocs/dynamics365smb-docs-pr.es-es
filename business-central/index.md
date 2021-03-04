@@ -98,3 +98,6 @@ Las siguientes secciones apuntan a artículos clave que pueden ayudarlo a famili
 [Presentamos docs.microsoft.com (publicación de blog original)](https://docs.microsoft.com/teamblog/introducing-docs-microsoft-com)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

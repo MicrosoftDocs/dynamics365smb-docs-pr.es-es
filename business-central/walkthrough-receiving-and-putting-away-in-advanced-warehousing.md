@@ -161,3 +161,6 @@ En la página **Ubicar almacén**, puede administrar ubicaciones para un documen
  [Detalles de diseño: Flujo de entrada en almacén](design-details-inbound-warehouse-flow.md)   
  [Tutorial: recepción y ubicación en la configuración del almacenamiento básico](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)   
  [Tutoriales de procesos empresariales](walkthrough-business-process-walkthroughs.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

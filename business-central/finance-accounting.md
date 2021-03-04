@@ -109,3 +109,6 @@ Si desea dar acceso a varias empresas, debe iniciar sesión en cada compañía y
 [Administrar el trabajo de varias empresas en el hub de empresas](company-hub.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Configuración del análisis de flujo de efectivo](finance-setup-cash-flow-analyses.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

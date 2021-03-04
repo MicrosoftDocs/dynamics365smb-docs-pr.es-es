@@ -199,3 +199,6 @@ Después de registrar su aplicación en Azure Portal, en [!INCLUDE[prod_short](i
 [Personalizar [!INCLUDE[prod_short](includes/prod_short.md)] con extensiones](ui-extensions.md)  
 [Usar [!INCLUDE[prod_short](includes/prod_short.md)] como su bandeja de entrada de empresa en Outlook](admin-outlook.md)  
 [Obtener [!INCLUDE[prod_short](includes/prod_short.md)] en el dispositivo móvil](install-mobile-app.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

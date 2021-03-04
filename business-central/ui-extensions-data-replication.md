@@ -45,3 +45,6 @@ Si utiliza Dynamics SL, obtenga las extensiones **Base de nube inteligente**, **
 
 [Información inteligente](about-intelligent-cloud.md)  
 [Extensión de base de nube inteligente](ui-extensions-intelligent-cloud.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

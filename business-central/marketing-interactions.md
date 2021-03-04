@@ -56,3 +56,6 @@ Puede eliminar los movimientos de registro de interacción que han sido cancelad
 [Gestionar contactos](marketing-contacts.md)  
 [Administrar oportunidades de venta](marketing-manage-sales-opportunities.md)  
 [Trabajar con Business Central](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

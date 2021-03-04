@@ -164,3 +164,6 @@ Con proyectos, puede programar el uso de los recursos de su empresa y realizar u
  [Comprensión de los métodos WIP](projects-understanding-wip.md)   
  [Controlar el progreso y el rendimiento](projects-how-monitor-progress-performance.md)  
  [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

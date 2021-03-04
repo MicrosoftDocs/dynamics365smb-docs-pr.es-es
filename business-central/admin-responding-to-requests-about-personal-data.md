@@ -62,3 +62,6 @@ Si la edad de una persona de contacto es inferior a la edad de consentimiento le
 [Exportar los datos de negocio a Excel](about-export-data.md)  
 [Registrar cambios](across-log-changes.md)  
 [Solicitudes de sujetos de datos del GDPR](/microsoft-365/compliance/gdpr-data-subject-requests)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

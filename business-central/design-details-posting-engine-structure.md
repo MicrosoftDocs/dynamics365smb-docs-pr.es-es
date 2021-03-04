@@ -39,3 +39,5 @@ La interfaz de registro y otras funciones en la codeunit 12 utilizan funciones d
   
 ## <a name="see-also"></a>Consulte también  
  [Detalles de diseño: estructura de interfaz de registro](design-details-posting-interface-structure.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

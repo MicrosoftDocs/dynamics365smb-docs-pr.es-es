@@ -48,3 +48,6 @@ A diferencia de los movimientos que se registran en documentos, que requieren un
 [Revertir los registros de diario y deshacer los recibos/envíos](finance-how-reverse-journal-posting.md)  
 [Finanzas](finance.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -158,3 +158,6 @@ Los valores predeterminados de la plantilla de cliente seleccionada se introduce
 [Configurar una empresa con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administración](admin-setup-and-administration.md)  
 [Permite registrar nuevos clientes](sales-how-register-new-customers.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

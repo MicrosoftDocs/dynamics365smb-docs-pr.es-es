@@ -51,3 +51,5 @@ Lleve consigo sus datos de Dynamics C5. Después de que su socio de Microsoft in
 
 ## <a name="see-also"></a>Consulte también
 [Extensión de migración de datos de C5](ui-extensions-c5-data-migration.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

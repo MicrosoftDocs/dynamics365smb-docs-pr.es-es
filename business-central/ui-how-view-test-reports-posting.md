@@ -34,3 +34,6 @@ Todas las partes de la factura de compra se prueban y el resultado se presenta e
 ## <a name="see-also"></a>Consulte también
 [Registrar documentos y diarios](ui-post-documents-journals.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

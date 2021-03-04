@@ -39,3 +39,6 @@ Puede configurar y utilizar flujos de trabajo que vinculen tareas de procesos em
 [Configuración de flujos de trabajo](across-set-up-workflows.md)   
 [Flujo de trabajo](across-workflow.md)   
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

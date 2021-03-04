@@ -99,3 +99,6 @@ Un documento de abono de servicio se utiliza normalmente cuando un cliente devue
 [Registrar facturas de servicio](service-how-to-post-service-orders.md)  
 [Configurar la gestión de servicios](service-setup-service.md)  
 [Registro de servicio](service-service-posting.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

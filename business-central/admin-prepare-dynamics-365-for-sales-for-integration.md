@@ -201,3 +201,6 @@ Debe tener una suscripción a Microsoft Azure. Una cuenta de prueba funcionará 
 [Configurar una conexión a [!INCLUDE[crm_md](includes/crm_md.md)]](admin-how-to-set-up-a-dynamics-crm-connection.md)  
 [Sincronización de Business Central y [!INCLUDE[crm_md](includes/crm_md.md)]](admin-synchronizing-business-central-and-sales.md)  
 [Preparación de Dynamics 365 Sales para la integración local](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

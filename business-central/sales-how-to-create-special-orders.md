@@ -49,3 +49,6 @@ El sistema de planificación respeta un pedido de compra que se crea como un ped
 [Realizar envíos directos](sales-how-drop-shipment.md)   
 [Detalles de diseño: Directivas de reaprovisionamiento](design-details-reservation-order-tracking-and-action-messaging.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

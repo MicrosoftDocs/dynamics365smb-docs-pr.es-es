@@ -79,3 +79,6 @@ Para establecer la correspondencia con los conceptos financieros de compras y ve
 
 ## <a name="see-also"></a>Consulte también  
  [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

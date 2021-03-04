@@ -194,3 +194,6 @@ En la página **Pedido de inventario físico**, el campo **Cantidad neg. (base)*
 [Ccial](sales-manage-sales.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

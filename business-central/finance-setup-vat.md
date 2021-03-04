@@ -197,3 +197,6 @@ Los importes de los documentos que todavía no se han registrado se redondean y 
 [Funcionalidad local en Business Central](about-localization.md)  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -107,3 +107,6 @@ Después de reparar un producto de servicio, puede registrar tanto el código de
 [Configurar informes de defectos](service-how-setup-fault-reporting.md)
 [Estado de asignación y estado de reparación](service-allocation-status-and-repair-status.md)  
 [Registro de servicio](service-service-posting.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

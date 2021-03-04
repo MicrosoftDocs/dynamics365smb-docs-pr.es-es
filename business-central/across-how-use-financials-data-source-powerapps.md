@@ -56,3 +56,6 @@ Cuando haya diseñado y creado la aplicación, puede compartirla con sus compañ
 [Importar datos de empresa de otros sistemas financieros](across-import-data-configuration-packages.md)  
 [Configurar [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Introducción al desarrollo de aplicaciones de Connect para Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

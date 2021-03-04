@@ -116,3 +116,6 @@ El registro de las líneas de pedido de venta donde una parte es cantidad de inv
  [Gestión de costes de inventario](finance-manage-inventory-costs.md)  
  [Finanzas](finance.md)  
  [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

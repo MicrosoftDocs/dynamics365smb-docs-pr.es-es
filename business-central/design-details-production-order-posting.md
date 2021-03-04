@@ -110,3 +110,6 @@ En entornos de coste estándar, el coste de una orden de producción se basa en 
  [Detalles de diseño: Registro de pedidos de ensamblado](design-details-assembly-order-posting.md)  
  [Gestión de costes de inventario](finance-manage-inventory-costs.md) [Finanzas](finance.md)  
  [Trabajar con Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

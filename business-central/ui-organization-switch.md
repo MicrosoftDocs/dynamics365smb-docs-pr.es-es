@@ -48,3 +48,6 @@ Cuando inicia sesión en [!INCLUDE[prod_short](includes/prod_short.md)], puede c
 
 [El centro de administración de Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center)  
 [Cambiar la configuración básica](ui-change-basic-settings.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

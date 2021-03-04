@@ -110,3 +110,6 @@ En las versiones de [!INCLUDE [navnow_md](includes/navnow_md.md)] se han impleme
 
 ## <a name="see-also"></a>Consulte también  
  [Detalles de diseño: Cambios en la codeunit 12: Cambios en los procedimientos de registro en el diario general](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

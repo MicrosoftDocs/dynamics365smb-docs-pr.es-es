@@ -40,3 +40,6 @@ Si está seguro que un flujo de trabajo ya no se utiliza más, puede eliminarlo.
  [Configuración de flujos de trabajo](across-set-up-workflows.md)   
  [Uso de flujos de trabajo](across-use-workflows.md)   
  [Flujo de trabajo](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

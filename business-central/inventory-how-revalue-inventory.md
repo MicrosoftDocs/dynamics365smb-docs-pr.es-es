@@ -40,3 +40,6 @@ Las nuevas entradas de valor ahora se crean de modo que reflejan las revalorizac
 [Ccial](sales-manage-sales.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

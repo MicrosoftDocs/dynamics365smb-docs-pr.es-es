@@ -36,3 +36,6 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 [Ccial](sales-manage-sales.md)  
 [Creación y administración de contactos](marketing-contacts.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

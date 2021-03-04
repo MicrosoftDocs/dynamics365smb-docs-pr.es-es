@@ -182,3 +182,6 @@ El inventario de trabajo en curso se puede revalorizar siempre y cuando la fecha
  [Detalles de diseño: valoración de inventario](design-details-inventory-valuation.md) [Gestión de costes de inventario](finance-manage-inventory-costs.md)  
  [Finanzas](finance.md)  
  [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

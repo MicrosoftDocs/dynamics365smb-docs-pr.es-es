@@ -94,3 +94,6 @@ Dicho de otro modo, el porcentaje de prepago de la ficha del cliente sólo se ap
 [Descripción de contabilidad y plan de cuentas](finance-general-ledger.md)  
 [Finanzas](finance.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

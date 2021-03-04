@@ -63,3 +63,6 @@ Puede ver la asignación entre las tablas en [!INCLUDE[prod_short](includes/cds_
 [Emparejar y sincronizar registros manualmente](admin-how-to-couple-and-synchronize-records-manually.md)   
 [Programar una sincronización](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)   
 [Integración con Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

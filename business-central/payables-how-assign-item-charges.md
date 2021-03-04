@@ -86,3 +86,6 @@ El cargo de producto de la factura de compra independiente se asigna al producto
 [Registrar compras](purchasing-how-record-purchases.md)  
 [Facturar ventas](sales-how-invoice-sales.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

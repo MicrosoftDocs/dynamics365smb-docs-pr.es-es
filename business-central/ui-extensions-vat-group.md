@@ -115,3 +115,6 @@ Cuando la declaración de IVA del representante del grupo de IVA se haya present
 ## <a name="see-also"></a>Consulte también
 [Trabajar con el IVA por ventas y compras](finance-work-with-vat.md)  
 [Configurar el impuesto sobre el valor añadido](finance-setup-vat.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

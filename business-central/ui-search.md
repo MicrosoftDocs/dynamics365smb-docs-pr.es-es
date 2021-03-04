@@ -68,3 +68,6 @@ Hemos mostrado la opción Dígame a varias partes interesadas, anotamos las preg
 ## <a name="see-also"></a>Consulte también
 [Trabajar con Business Central](ui-work-product.md)  
 [Agregar una acción de página al área de trabajo](ui-bookmarks.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

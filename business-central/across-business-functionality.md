@@ -49,3 +49,6 @@ ms.locfileid: "4753522"
 [Configurar [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Introducción](product-get-started.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

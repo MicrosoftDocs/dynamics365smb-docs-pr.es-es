@@ -44,3 +44,6 @@ La configuración de ventas relacionada con las finanzas, como las formas de pag
 ## <a name="see-also"></a>Consulte también
 [Ccial](sales-manage-sales.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

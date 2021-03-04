@@ -51,3 +51,6 @@ Si liquida movimientos en varias divisas distintas, debe configurar las cuentas 
 [Administrar pagos](payables-manage-payables.md)  
 [Administrar cobros](receivables-manage-receivables.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -47,3 +47,6 @@ Para transferir flujos de trabajo a otras bases de datos de [!INCLUDE[prod_short
  [Configuración de flujos de trabajo](across-set-up-workflows.md)   
  [Uso de flujos de trabajo](across-use-workflows.md)   
  [Flujo de trabajo](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

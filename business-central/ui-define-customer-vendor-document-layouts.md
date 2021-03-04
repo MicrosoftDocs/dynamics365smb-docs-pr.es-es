@@ -62,3 +62,6 @@ La dirección de correo electrónico del contacto se inserta ahora en la línea 
 [Gestión de diseños de informe](ui-manage-report-layouts.md)  
 [Trabajar con informes, trabajos por lotes y XMLports](ui-work-report.md)  
 [Trabajar con informes, trabajos por lotes y XMLports](ui-work-report.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

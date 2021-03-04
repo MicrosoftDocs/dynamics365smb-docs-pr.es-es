@@ -70,3 +70,6 @@ Cada sección tiene una sección de resumen que contiene la siguiente informaci�
 [Administrar pagos](../../payables-manage-payables.md)  
 [Administrar cobros](../../receivables-manage-receivables.md)  
  [Definir las formas de pago](../../finance-payment-methods.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

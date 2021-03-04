@@ -122,3 +122,6 @@ Si no seleccionó la casilla **A/F Amort. hasta fecha reg.**, el activo perderí
 [Finanzas](finance.md)  
 [Introducción](product-get-started.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

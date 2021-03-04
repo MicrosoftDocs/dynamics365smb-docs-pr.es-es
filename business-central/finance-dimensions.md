@@ -234,3 +234,6 @@ Cuando se registran documentos o líneas de diario que contienen dimensiones, pu
 [Finanzas](finance.md)  
 [Analizar datos por dimensiones](bi-how-analyze-data-dimension.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

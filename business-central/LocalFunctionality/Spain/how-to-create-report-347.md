@@ -43,3 +43,6 @@ Cuando registre el modelo del informe 347, debe incluir etiquetas del modelo 347
 ## <a name="see-also"></a>Consulte también  
  [Funcionalidad local para España](spain-local-functionality.md)   
  [Informe 347](report-347.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

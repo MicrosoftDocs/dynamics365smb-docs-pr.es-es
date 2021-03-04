@@ -126,3 +126,6 @@ A medida que crea un paquete de configuración para una solución, puede ver y p
 [Establecer la configuración de una empresa](admin-set-up-company-configuration.md)  
 [Configurar una empresa con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administración](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

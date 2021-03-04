@@ -93,3 +93,5 @@ Cuando usa un documento para distribuir costos a socios de empresas vinculadas, 
 [Configurar las finanzas](finance-setup-finance.md)  
 [Trabajar con diarios generales](ui-work-general-journals.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

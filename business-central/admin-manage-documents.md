@@ -93,3 +93,6 @@ La siguiente tabla enumera los campos de la Ficha desplegable **Opciones** que e
 ## <a name="see-also"></a>Consulte también
 
 [Administración](admin-setup-and-administration.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

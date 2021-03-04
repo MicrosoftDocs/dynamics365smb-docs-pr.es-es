@@ -52,3 +52,6 @@ Para obtener más información , vea [Seleccionar una plantilla de cheques](fina
 [Gestión de diseños de informe](ui-manage-report-layouts.md)  
 [Seleccionar una plantilla de cheques](finance-how-define-check-layouts.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

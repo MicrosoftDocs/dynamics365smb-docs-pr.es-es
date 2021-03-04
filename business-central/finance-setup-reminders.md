@@ -103,3 +103,6 @@ Una vez configurados los términos de recordatorio, con niveles y texto adiciona
 [Cobrar saldos pendientes](receivables-collect-outstanding-balances.md)  
 [Configurar términos interés](finance-setup-finance-charges.md)  
 [Configurar las finanzas](finance-setup-finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

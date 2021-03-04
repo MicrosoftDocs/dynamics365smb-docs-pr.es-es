@@ -50,3 +50,6 @@ Al almacenar grupos de dimensiones una vez en la base de datos, se preserva el e
 [Detalles de diseño: Búsqueda de combinaciones de dimensiones](design-details-searching-for-dimension-combinations.md)   
 [Detalles de diseño: Estructura de tablas](design-details-table-structure.md)   
 [Detalles de diseño: Movimientos de grupo de dimensiones](design-details-dimension-set-entries.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -56,3 +56,5 @@ Antes de que pueda trabajar con contratos, debe configurar las opciones siguient
 
 ## <a name="see-also"></a>Consulte también
 [Configurar la gestión de servicios](service-setup-service.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

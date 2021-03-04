@@ -78,3 +78,6 @@ El valor del campo **Tipo cambio** en la página **Divisas** se actualiza con el
 [Configurar una divisa de informes adicional](finance-how-setup-additional-currencies.md)  
 [Cerrar años y periodos](year-close-years-periods.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

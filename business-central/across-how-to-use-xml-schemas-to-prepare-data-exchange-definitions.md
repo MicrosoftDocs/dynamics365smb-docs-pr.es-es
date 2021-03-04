@@ -117,3 +117,6 @@ Para habilitar la importación y exportación de datos en archivos XML mediante 
 [Exportar pagos a un archivo bancario](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  
 [Cobrar pagos mediante adeudo directo SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
 [Acerca del marco de intercambio de datos](across-about-the-data-exchange-framework.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

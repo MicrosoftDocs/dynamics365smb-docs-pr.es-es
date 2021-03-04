@@ -59,3 +59,6 @@ Se configuran distintos aspectos de las notificaciones de flujo de trabajo en lo
 [Configurar correo electrónico](admin-how-setup-email.md)  
 [Tutorial: Configuración y uso de un flujo de trabajo de aprobación de compra](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
 [Flujo de trabajo](across-workflow.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

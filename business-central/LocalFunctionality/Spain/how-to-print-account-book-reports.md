@@ -60,3 +60,6 @@ Al enviar estos informes a la administración o a los auditores, se pueden inclu
 
 ## <a name="see-also"></a>Consulte también  
  [Funcionalidad local para España](spain-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

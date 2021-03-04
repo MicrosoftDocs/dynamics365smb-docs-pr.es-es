@@ -82,3 +82,6 @@ Los complementos están diseñados para usarse con Microsoft 365. Si utiliza [!I
 [Compras](purchasing-manage-purchasing.md)  
 [Requisitos mínimos para Outlook](product-requirements.md#outlook)  
 [Usar complementos en Outlook en la web](https://support.office.com/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

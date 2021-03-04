@@ -40,3 +40,5 @@ Puede utilizar una oferta de servicio como borrador de un pedido de servicio y, 
 [Trabajar en tareas de servicio](service-how-to-work-on-service-tasks.md)  
 
  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

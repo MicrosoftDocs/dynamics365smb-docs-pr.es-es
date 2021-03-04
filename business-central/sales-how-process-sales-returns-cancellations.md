@@ -228,3 +228,6 @@ También puede eliminar los pedidos de devolución de venta individuales manualm
 [Enviar documentos por correo electrónico](ui-how-send-documents-email.md)  
 [Procesamiento de devoluciones de compra o cancelaciones](purchasing-how-process-purchase-returns-cancellations.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -79,3 +79,6 @@ Si desea implementar Business Central localmente, debe comprobar los requisitos 
 
 [Introducción](product-get-started.md)  
 [Requisitos del sistema para Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central-v17)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

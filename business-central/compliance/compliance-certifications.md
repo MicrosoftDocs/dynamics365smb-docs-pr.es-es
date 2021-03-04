@@ -46,3 +46,6 @@ Business Central como servicio en la nube también ha logrado certificaciones, c
 [Conformidad de los servicios](compliance-service-compliance.md)  
 
 ## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

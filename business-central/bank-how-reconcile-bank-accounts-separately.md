@@ -159,3 +159,6 @@ Si la próxima conciliación bancaria que realice es para agosto, considere camb
 [Configurar banca](bank-setup-banking.md)  
 [Configurar reglas para la liquidación automática de los pagos](receivables-how-set-up-payment-application-rules.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

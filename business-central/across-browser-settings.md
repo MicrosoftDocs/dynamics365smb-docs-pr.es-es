@@ -85,3 +85,5 @@ Try again
 ## <a name="see-also"></a>Consulte también
 
 [Consejos para la solución de problemas de Teams](admin-teams-troubleshooting.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

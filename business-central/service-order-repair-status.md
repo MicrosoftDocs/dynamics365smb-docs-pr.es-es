@@ -52,3 +52,6 @@ Repita estos pasos para cada una de las opciones de estado de reparación que de
 
 [Estado de pedido de servicio y estado de reparación](service-service-order-status-and-repair-status.md)  
 [Configurar la gestión de servicios](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

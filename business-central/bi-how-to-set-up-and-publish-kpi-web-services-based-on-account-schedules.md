@@ -55,3 +55,6 @@ En la página **Configuración de servicio Web KPI de esquema de cuentas**, se c
 [Configurar las finanzas](finance-setup-finance.md)  
 [Libro mayor y plan de cuentas](finance-general-ledger.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

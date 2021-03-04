@@ -81,3 +81,6 @@ Después de que el proveedor envíe los productos, puede establecer los pedidos 
 [Ccial](sales-manage-sales.md)  
 [Inventario](inventory-manage-inventory.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

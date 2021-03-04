@@ -134,3 +134,6 @@ Además, existen los siguientes documentos de origen internos que funcionan como
 ## <a name="see-also"></a>Consulte también
 
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

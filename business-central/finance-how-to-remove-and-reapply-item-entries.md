@@ -78,3 +78,6 @@ Si no puede usar un documento para volver a liquidar, por ejemplo cuando tiene q
  [Gestión de costes de inventario](finance-manage-inventory-costs.md)   
  [Detalles de diseño: Liquidación de productos](design-details-item-application.md)  
  [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -53,3 +53,6 @@ Repita las tareas 1 a 3 para cualquier otro documento asignado, como pedidos abi
 [Compras](purchasing-manage-purchasing.md)  
 [Corregir o cancelar facturas de compra sin abonar](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

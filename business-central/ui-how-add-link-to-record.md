@@ -98,3 +98,6 @@ La nota ahora está adjuntada al pedido de venta.
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Documentos entrantes](across-income-documents.md)  
 [Configurar notificaciones de flujo de trabajo](across-setting-up-workflow-notifications.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

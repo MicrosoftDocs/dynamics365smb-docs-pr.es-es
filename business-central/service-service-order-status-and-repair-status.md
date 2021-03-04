@@ -94,3 +94,6 @@ Por ejemplo, si un producto de servicio tiene el estado de reparación **Inicial
 
 [Configuración de estados para órdenes y reparaciones de servicio](service-order-repair-status.md)  
 [Configurar la gestión de servicios](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

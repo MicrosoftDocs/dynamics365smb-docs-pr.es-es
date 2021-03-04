@@ -66,3 +66,6 @@ Para transferir productos, se deben configurar las ubicaciones y las rutas de tr
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Cambiar las funciones que se muestran](ui-experiences.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

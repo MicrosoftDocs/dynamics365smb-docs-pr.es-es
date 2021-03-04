@@ -27,3 +27,6 @@ Para obtener más información, consulte [Cifrado de datos en Dynamics 365 Busin
 
 ## <a name="see-also"></a>Consulte también  
 [Administración](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

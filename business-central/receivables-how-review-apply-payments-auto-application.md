@@ -53,3 +53,6 @@ Se cierra la página **Liquidación de pagos** y, en la página **Diario de conc
 [Administrar cobros](receivables-manage-receivables.md)  
 [Ccial](sales-manage-sales.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -80,3 +80,6 @@ Los productos de la página **Productos** se filtran por los valores de atributo
 [Registro de productos nuevos](inventory-how-register-new-items.md)  
 [Inventario](inventory-manage-inventory.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

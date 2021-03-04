@@ -38,3 +38,6 @@ Para contabilizar los pagos de salario y transacciones relacionadas, deberá imp
 [Finanzas](finance.md)  
 [Personalizar [!INCLUDE[prod_short](includes/prod_short.md)] con extensiones](ui-extensions.md)  
 [Trabajar con diarios generales](ui-work-general-journals.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

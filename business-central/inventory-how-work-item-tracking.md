@@ -275,3 +275,6 @@ El proceso de reclasificar el seguimiento para un producto significa convertir u
 [Detalles de diseño. Seguimiento y reservas de productos](design-details-item-tracking-and-reservations.md)  
 [Reservar artículos](inventory-how-to-reserve-items.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

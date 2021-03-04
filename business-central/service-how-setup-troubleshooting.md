@@ -30,3 +30,5 @@ Puede configurar pautas de solución de problemas que ayuden a los técnicos a r
 
 ## <a name="see-also"></a>Consulte también
 [Gestión de servicios](service-service.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -39,3 +39,6 @@ Los códigos CNAE se pueden escribir en la página **Información empresa**. Los
 
 ## <a name="see-also"></a>Consulte también  
  [Funcionalidad local para España](spain-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

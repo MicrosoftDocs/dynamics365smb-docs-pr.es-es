@@ -175,3 +175,6 @@ Una vez que haya revisado y probado toda la información de configuración, pued
 [Configurar una empresa con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administración](admin-setup-and-administration.md)  
 [Análisis de la telemetría de seguimiento del paquete de configuración](/dynamics365smb-devitpro/dev-itpro/administration/telemetry-configuration-package-trace)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

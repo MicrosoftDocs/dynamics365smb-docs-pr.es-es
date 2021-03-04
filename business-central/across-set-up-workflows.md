@@ -53,3 +53,6 @@ Este video muestra cómo configurar un flujo de trabajo que requerirá que algui
  [Flujo de trabajo](across-workflow.md)   
  [Tutorial: Configuración y uso de un flujo de trabajo de aprobación de compra](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
  [Trabajar con Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

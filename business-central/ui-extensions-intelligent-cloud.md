@@ -29,3 +29,6 @@ Una vez configurada la conexión, puede migrar datos o administrar replicaciones
 [Información inteligente](about-intelligent-cloud.md)  
 [Ejecución de la herramienta de migración a la nube](/dynamics365/business-central/dev-itpro/administration/migration-tool)  
 [Extensiones inteligentes en la nube para la migración a la nube](ui-extensions-data-replication.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

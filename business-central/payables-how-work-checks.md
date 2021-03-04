@@ -84,3 +84,6 @@ Si desea revisar los cheques registrados, por ejemplo, para verificar los cheque
 [Configurar banca](bank-setup-banking.md)  
 [Exportar un archivo de Positive Pay](finance-how-positive-pay.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

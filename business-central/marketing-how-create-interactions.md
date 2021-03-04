@@ -54,3 +54,6 @@ Si activó la casilla **Crear segmento seguimiento**, se creará un nuevo segmen
 [Gestionar contactos](marketing-contacts.md)  
 [Administrar oportunidades de venta](marketing-manage-sales-opportunities.md)  
 [Trabajar con Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

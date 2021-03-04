@@ -78,3 +78,6 @@ EXIT(DimSet.ID);
  [Información general de los movimientos del grupo dimensiones](design-details-dimension-set-entries-overview.md)   
  [Detalles de diseño: Estructura de tablas](design-details-table-structure.md)   
  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

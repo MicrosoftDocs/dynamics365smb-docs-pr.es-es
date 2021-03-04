@@ -85,3 +85,6 @@ Puede utilizar la página **Lista de asignaciones de tablas de integración** pa
 ## <a name="see-also"></a>Consulte también  
 [Sincronización de Business Central y Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)   
 [Configuración de cuentas de usuario para la integración con Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

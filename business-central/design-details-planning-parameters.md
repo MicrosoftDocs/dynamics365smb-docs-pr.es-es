@@ -120,3 +120,6 @@ Si utiliza la opción **Fab-contra-pedido**, el sistema de planificación analiz
 [Detalles de diseño: Gestión de directivas de reaprovisionamiento](design-details-handling-reordering-policies.md)   
 [Detalles de diseño: Equilibrio de aprovisionamiento y demanda](design-details-balancing-demand-and-supply.md)   
 [Detalles de diseño: Conceptos centrales del sistema de planificación](design-details-central-concepts-of-the-planning-system.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

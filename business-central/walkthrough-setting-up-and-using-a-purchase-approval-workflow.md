@@ -130,3 +130,6 @@ Si una situación de negocio requiere un evento de flujo de trabajo o respuesta 
 [Usar flujos de trabajo de aprobación del producto](across-how-use-approval-workflows.md)  
 [Flujo de trabajo](across-workflow.md)  
 [Usar Business Central en un flujo de trabajo automatizado](across-how-use-financials-data-source-flow.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

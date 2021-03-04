@@ -59,3 +59,6 @@ La página **Movs. contabilidad** se abre y puede ver los movimientos que se pro
 [Introducción](product-get-started.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Buscar movimientos](ui-find-entries.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

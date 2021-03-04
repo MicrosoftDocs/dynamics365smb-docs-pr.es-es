@@ -150,3 +150,6 @@ En la página **Picking inventario**, puede administrar todas las actividades de
 [Detalles de diseño: Flujo de salida del almacén](design-details-outbound-warehouse-flow.md)  
 [Tutoriales de procesos empresariales](walkthrough-business-process-walkthroughs.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

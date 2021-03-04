@@ -39,3 +39,6 @@ También puede guardar la lista de picking como un documento, por ejemplo, para 
 [Inventario](inventory-manage-inventory.md)  
 [Elegir productos](warehouse-pick-items.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

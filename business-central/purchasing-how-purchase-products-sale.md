@@ -70,3 +70,6 @@ Para crear una sola factura de compra para una o varias líneas de un documento 
 [Facturar ventas](sales-how-invoice-sales.md)  
 [Permite registrar nuevos proveedores](purchasing-how-register-new-vendors.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

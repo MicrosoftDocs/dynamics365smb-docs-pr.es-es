@@ -141,3 +141,6 @@ La plantilla de ubicación se puede asignar a un producto y a una ubicación. La
 
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)   
 [Detalles de diseño: Disponibilidad en el almacén](design-details-availability-in-the-warehouse.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Puede utilizar los componentes siguientes para agilizar la configuración de su 
 [Administración](admin-setup-and-administration.md)  
 [Configurar [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Configurar áreas de aplicación complejas mediante procedimientos recomendados](set-up-complex-application-areas-using-best-practices.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

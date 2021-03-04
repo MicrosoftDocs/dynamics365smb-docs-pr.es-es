@@ -60,3 +60,6 @@ Aplique los pagos de los empleados a las entradas del libro mayor relacionadas, 
 [Revertir los registros de diario y deshacer los recibos/envíos](finance-how-reverse-journal-posting.md)  
 [Finanzas](finance.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

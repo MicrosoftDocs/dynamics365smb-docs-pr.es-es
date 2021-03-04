@@ -489,3 +489,6 @@ Comparando los precios, las líneas de tareas de proyectos y las líneas de plan
  [Supervisar el progreso y el rendimiento](projects-how-monitor-progress-performance.md)   
  [Facturar proyectos](projects-how-invoice-jobs.md)  
  [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

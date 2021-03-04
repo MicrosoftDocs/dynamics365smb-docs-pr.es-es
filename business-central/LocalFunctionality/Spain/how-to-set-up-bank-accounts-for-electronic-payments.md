@@ -50,3 +50,6 @@ En [!INCLUDE[prod_short](../../includes/prod_short.md)], puede configurar cuenta
 
 ## <a name="see-also"></a>Consulte también  
  [Pagos electrónicos – AEB N34.1](electronic-payments-aeb-n341.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -38,3 +38,6 @@ En la tabla siguiente se describe la información que esta extensión proporcion
 
 ## <a name="see-also"></a>Consulte también
 [Personalizar [!INCLUDE[prod_short](includes/prod_short.md)] con extensiones](ui-extensions.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

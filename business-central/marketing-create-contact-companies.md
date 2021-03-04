@@ -116,3 +116,6 @@ Hay tres maneras de habilitar la sincronización de datos entre contactos y clie
 [Gestionar contactos](marketing-contacts.md)  
 [Configurar contactos](marketing-setup-contacts.md)  
 [Trabajar con Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

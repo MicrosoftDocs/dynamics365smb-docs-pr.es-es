@@ -42,3 +42,6 @@ Para poder enviar y recibir documentos electrónicos o importar y exportar archi
 [Intercambio de datos electrónicamente](across-data-exchange.md)  
 [Documentos entrantes](across-income-documents.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

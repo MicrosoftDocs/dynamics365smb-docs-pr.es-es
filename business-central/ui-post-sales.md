@@ -64,3 +64,6 @@ Puede editar determinados campos en documentos de compra registrados, como **Nº
 [Corregir o cancelar facturas de venta sin abonar](sales-how-correct-cancel-sales-invoice.md)  
 [Búsqueda de páginas e información con Dígame](ui-search.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

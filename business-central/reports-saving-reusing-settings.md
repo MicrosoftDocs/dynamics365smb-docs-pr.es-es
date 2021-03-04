@@ -56,3 +56,6 @@ Desde la página **Configuración del informe**, puede:
 
 ## <a name="see-also"></a>Consulte también
 [Trabajar con informes, trabajos por lotes y XMLports](ui-work-report.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

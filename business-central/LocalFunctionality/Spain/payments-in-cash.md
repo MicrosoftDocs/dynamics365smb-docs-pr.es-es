@@ -43,3 +43,6 @@ Utilice el proceso **Modelo 340** para informar realizar pagos 340 en la declara
 ## <a name="see-also"></a>Consulte también  
 [Administrar cobros](../../receivables-manage-receivables.md)     
  [Informe 340](report-340.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

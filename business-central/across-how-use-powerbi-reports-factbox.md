@@ -89,3 +89,6 @@ Compruebe que el tamaño del informe se ha configurado en 325 píxeles x 310 pí
 [Introducción](product-get-started.md)  
 [Configurar [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Finanzas](finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Si realiza cambios en el complemento, debe volver a cargarlo para actualizar la 
 [Análisis de estados financieros en Microsoft Excel](finance-analyze-excel.md)  
 [Trabajar con Business Central](ui-work-product.md)  
 [Mejoras en la integración de Excel en el segundo lanzamiento de versiones 2 de 2019](/dynamics365-release-plan/2019wave2/dynamics365-business-central/enhancements-excel-integration)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

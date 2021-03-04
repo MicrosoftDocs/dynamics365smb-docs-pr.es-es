@@ -99,3 +99,6 @@ El procedimiento siguiente se basa en un pedido de venta.
 [Detalles de diseño: Seguimiento de productos y reservas](design-details-item-tracking-and-reservations.md)  
 [Trabajar con números de lote y de serie](inventory-how-work-item-tracking.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

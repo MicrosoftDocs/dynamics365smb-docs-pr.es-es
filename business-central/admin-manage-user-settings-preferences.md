@@ -71,3 +71,6 @@ Los administradores tienen la opción de establecer o cambiar esta configuració
 [Introducción](product-get-started.md)  
 [Disponibilidad nacional/regional e idiomas admitidos](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 [Cambiar idioma y región](about-locale-language.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

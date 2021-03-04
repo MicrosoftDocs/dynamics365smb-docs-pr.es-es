@@ -37,3 +37,6 @@ Los datos del esquema de cuentas se pueden exportar a un formato de archivo digi
   
 ## <a name="see-also"></a>Consulte también  
  [Funcionalidad local para España](spain-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

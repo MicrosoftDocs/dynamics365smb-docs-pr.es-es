@@ -26,3 +26,6 @@ El campo **% RE** es un campo independiente en las tablas **Lín. compra**, **L�
 
 ## <a name="see-also"></a>Consulte también  
 [Funcionalidad local para España](spain-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

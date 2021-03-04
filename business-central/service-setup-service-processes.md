@@ -37,3 +37,6 @@ A continuación se muestran algunos ejemplos de la configuración que puede apli
 [Configurar costes adicionales de servicios](service-how-setup-service-costs-pricing.md)  
 [Configurar detección errores](service-how-setup-troubleshooting.md)  
 [Gestión de servicios](service-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

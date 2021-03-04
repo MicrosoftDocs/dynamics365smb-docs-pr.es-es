@@ -93,3 +93,6 @@ En un entorno aislado, encontrará el **Diseñador** habilitado Puede activar el
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Versiones de prueba y suscripciones de [!INCLUDE[prod_long](includes/prod_long.md)]](across-preview.md)  
 [Administración de entornos en el centro de administración de Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

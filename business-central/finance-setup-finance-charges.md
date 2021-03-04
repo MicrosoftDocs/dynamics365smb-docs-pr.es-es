@@ -73,3 +73,6 @@ Además, cada término de la tabla Términos interés está vinculado a la subta
 [Cobrar saldos pendientes](receivables-collect-outstanding-balances.md)  
 [Configurar términos y niveles de recordatorios.](finance-setup-reminders.md)  
 [Configurar las finanzas](finance-setup-finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

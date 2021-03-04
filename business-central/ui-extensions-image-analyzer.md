@@ -104,3 +104,6 @@ Puede ver el número de análisis que ha realizado y cuántos pueden hacerse en 
 [Trabajar con atributos de producto](inventory-how-work-item-attributes.md)  
 [Personalizar [!INCLUDE[prod_short](includes/prod_short.md)] con extensiones](ui-extensions.md)  
 [Introducción](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

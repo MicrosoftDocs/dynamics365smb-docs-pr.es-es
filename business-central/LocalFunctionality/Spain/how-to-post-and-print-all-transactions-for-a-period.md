@@ -51,3 +51,6 @@ Las empresas deben enviar los movimientos de transacciones de su negocio, agrupa
 
 ## <a name="see-also"></a>Consulte también  
  [Números de transacción](transaction-numbers.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

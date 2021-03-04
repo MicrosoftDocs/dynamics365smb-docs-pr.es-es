@@ -91,3 +91,6 @@ Microsoft proporciona las extensiones siguientes:
 [Introducción](product-get-started.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

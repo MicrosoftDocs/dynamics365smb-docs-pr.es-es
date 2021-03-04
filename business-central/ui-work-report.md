@@ -163,3 +163,6 @@ Los campos de **Avanzado** establecen limitaciones en el informe generado para c
 [Trabajar con fechas y horas del calendario](ui-enter-date-ranges.md)  
 [Administrar diseños de informes y documentos](ui-manage-report-layouts.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -58,3 +58,6 @@ Si no configura horas de servicio específicas para un contrato de servicio, se 
 [Descripción del estado de asignación y estado de reparación](service-allocation-status-and-repair-status.md)  
 [Configurar la gestión de servicios](service-setup-service.md)  
 [Descripción del estado de pedido de servicio y de reparación](service-order-repair-status.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

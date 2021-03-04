@@ -55,3 +55,6 @@ Esta acción crea la plantilla. Ahora puede crear un archivo que luego puede env
 ## <a name="see-also"></a>Consulte también  
  [Exportar declaraciones de IVA en formato XML](how-to-export-vat-statements-in-xml-format.md)   
  [Crear plantillas para las declaraciones telemáticas de IVA en formato de archivo de texto](how-to-create-templates-for-telematic-vat-statements-in-text-file-format.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

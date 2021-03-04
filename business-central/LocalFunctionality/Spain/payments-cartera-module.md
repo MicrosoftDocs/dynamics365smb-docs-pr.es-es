@@ -42,3 +42,6 @@ La confirmación del pago es un servicio que proporciona una entidad de crédito
 ## <a name="see-also"></a>Consulte también  
  [Módulo Cartera](cartera-module.md)   
  [Módulo Docs. cartera a cobrar](receivables-cartera-module.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

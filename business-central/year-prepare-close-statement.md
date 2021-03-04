@@ -38,3 +38,6 @@ Para ver informe, elija el icono ![Bombilla que abre la función Dígame](media/
 [Cerrar años y periodos](year-close-years-periods.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Inteligencia empresarial](bi.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

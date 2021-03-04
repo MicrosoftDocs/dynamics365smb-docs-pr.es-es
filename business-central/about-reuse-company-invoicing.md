@@ -51,3 +51,6 @@ Si utiliza Invoicing y [!INCLUDE[prod_short](includes/prod_short.md)], los datos
 ## <a name="see-also"></a>Consulte también
 [Preguntas más frecuentes](across-faq.md)  
 [Administración](admin-setup-and-administration.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

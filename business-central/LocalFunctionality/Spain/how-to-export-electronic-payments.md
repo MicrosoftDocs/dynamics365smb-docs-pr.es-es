@@ -114,3 +114,6 @@ En [!INCLUDE[prod_short](../../includes/prod_short.md)], puede exportar movimien
 [Pagos electrónicos – AEB N34.1](electronic-payments-aeb-n341.md)  
 [Configurar cuentas bancarias para realizar pagos electrónicos](how-to-set-up-bank-accounts-for-electronic-payments.md)  
 [Realizar pagos con la extensión AMC Banking 365 Fundamentals o transferencia de crédito SEPA](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

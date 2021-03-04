@@ -53,3 +53,6 @@ Puede abrir o guardar el archivo XML generado. Ahora puede enviar la declaració
 ## <a name="see-also"></a>Consulte también  
  [Crear plantillas para las declaraciones telemáticas de IVA en formato XML](how-to-create-templates-for-telematic-vat-statements-in-xml-file-format.md)   
  [Exportar declaraciones de IVA en formato de texto](how-to-export-vat-statements-in-text-format.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -100,3 +100,6 @@ El vínculo entre el pedido abierto de venta y el pedido de venta de origen, y c
 [Crear pedidos abiertos ensamblados](assembly-how-to-create-blanket-assembly-orders.md)  
 [Configuración de ventas](sales-setup-sales.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

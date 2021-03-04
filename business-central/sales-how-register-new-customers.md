@@ -72,3 +72,6 @@ Si ha publicado una transacción para un cliente, no puede eliminar la ficha por
 [Ccial](sales-manage-sales.md)  
 [Configuración de ventas](sales-setup-sales.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

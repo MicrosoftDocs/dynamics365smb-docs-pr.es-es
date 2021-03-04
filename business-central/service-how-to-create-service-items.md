@@ -62,3 +62,6 @@ El siguiente procedimiento muestra cómo crear productos de servicio al enviar p
 [Configurar componentes de servicio y de productos](service-how-setup-service-items.md)  
 [Configurar la gestión de servicios](service-setup-service.md)  
 [Gestión de servicios](service-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

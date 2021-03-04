@@ -45,3 +45,6 @@ Las acciones que abren las páginas están organizadas en nodos con el nombre de
 [Búsqueda de páginas e información con Dígame](ui-search.md)  
 [Administración de perfiles](admin-users-profiles-roles.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

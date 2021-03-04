@@ -71,3 +71,6 @@ La próxima vez que genere los esquemas de cuentas, su extracto de saldo mostrar
 [Finanzas](finance.md)  
 [Configurar o cambiar el plan de cuentas](finance-setup-chart-accounts.md)  
 [Inteligencia empresarial](bi.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

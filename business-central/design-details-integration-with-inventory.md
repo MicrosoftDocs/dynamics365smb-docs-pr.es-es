@@ -48,3 +48,5 @@ Las áreas de aplicación de Gestión de almacén e Inventario interactúan entr
 ## <a name="see-also"></a>Consulte también  
  [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)   
  [Detalles de diseño: Disponibilidad en el almacén](design-details-availability-in-the-warehouse.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

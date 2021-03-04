@@ -74,3 +74,6 @@ Según sus datos migrados, ahora puede empezar a crear nuevos documentos de comp
 [Recursos de ayuda y soporte técnico](product-help-and-support.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

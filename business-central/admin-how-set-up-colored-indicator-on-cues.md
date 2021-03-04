@@ -64,3 +64,6 @@ Para configurar el indicador, especifique hasta dos valores de umbral que defina
     |**Subordinado**|Gris|  
 
 ## <a name="see-also"></a>Consulte también
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

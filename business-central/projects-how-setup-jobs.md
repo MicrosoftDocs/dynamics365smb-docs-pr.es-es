@@ -122,3 +122,6 @@ Un aspecto de los proyectos de planificación es decidir qué cuentas de registr
 [Compras](purchasing-manage-purchasing.md)  
 [Ccial](sales-manage-sales.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

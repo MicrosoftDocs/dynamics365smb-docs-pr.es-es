@@ -210,3 +210,6 @@ Cuando sea necesario, los valores del campo **Nº documento** se cambian para qu
 [Concilie los pagos de clientes con el diario de recibos de efectivo o de los movimientos de cliente.](receivables-how-apply-sales-transactions-manually.md)  
 [Conciliar pagos a proveedores con el diario de pagos o desde los movimientos de proveedor](payables-how-apply-purchase-transactions-manually.md)  
 [Usar documentos y diarios de empresas vinculadas](intercompany-how-work-documents-journals.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

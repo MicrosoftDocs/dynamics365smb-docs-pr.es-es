@@ -132,3 +132,6 @@ También puede crear su propio servicio web predictivo basado en un modelo públ
 [Analizar el flujo de efectivo de la empresa](finance-analyze-cash-flow.md)  
 [Configurar las finanzas](finance-setup-finance.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

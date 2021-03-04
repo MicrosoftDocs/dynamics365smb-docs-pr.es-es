@@ -191,3 +191,6 @@ En las versiones de [!INCLUDE [navnow_md](includes/navnow_md.md)] se han impleme
 
 ## <a name="see-also"></a>Consulte también  
  [Detalles de diseño: Cambios en codeunit 12: Asociación de variables globales para línea de registro en diario general](design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -87,3 +87,6 @@ La siguiente tabla los describe.
 [Ventas](sales-manage-sales.md)    
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

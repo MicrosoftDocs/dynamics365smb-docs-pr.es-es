@@ -66,3 +66,6 @@ En esta hoja puede trabajar con varias líneas de contenido de ubicación para v
 [Detalles de diseño: gestión de almacén](design-details-warehouse-management.md)  
 [Detalles de diseño: Configuración de almacén](design-details-warehouse-setup.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

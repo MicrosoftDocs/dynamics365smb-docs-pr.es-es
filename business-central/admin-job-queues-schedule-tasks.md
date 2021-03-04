@@ -93,3 +93,6 @@ Para obtener más información, consulte [Para configurar el registro de fondo c
 [Configuración de Business Central](setup.md)  
 [Cambiar la configuración básica](ui-change-basic-settings.md)  
 [Análisis de la telemetría de seguimiento del ciclo de vida de la cola de trabajos](/dynamics365smb-devitpro\dev-itpro\administration\telemetry-job-queue-lifecycle-trace)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

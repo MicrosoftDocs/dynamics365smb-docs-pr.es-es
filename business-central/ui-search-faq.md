@@ -50,3 +50,6 @@ El icono de marcador no se muestra en la ventana Dígame cuando la personalizaci
 [Búsqueda de páginas e información con Dígame](ui-search.md)  
 [Búsqueda de páginas con el explorador de roles](ui-role-explorer.md)  
 [Marque una página o informe en su Área de trabajo](ui-bookmarks.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

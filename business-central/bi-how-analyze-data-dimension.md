@@ -83,3 +83,6 @@ El siguiente procedimiento permite actualizar una vista de an√°lisis desde la p√
 [Libro mayor y plan de cuentas](finance-general-ledger.md)  
 [Trabajar con dimensiones](finance-dimensions.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

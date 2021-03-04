@@ -182,3 +182,6 @@ Para ver un grupo de certificados, desde la página **Certificados de suministro
 ## <a name="see-also"></a>Consulte también  
 [Configurar los cálculos y los métodos de registro del impuesto sobre el valor añadido](finance-setup-vat.md)   
 [Crear informes de IVA para la autoridad fiscal](finance-how-report-vat.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

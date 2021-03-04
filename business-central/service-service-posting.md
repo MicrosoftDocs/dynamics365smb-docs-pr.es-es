@@ -58,3 +58,6 @@ El procedimiento siguiente utiliza una factura de servicio registrada como ejemp
 ## <a name="see-also"></a>Consulte también  
 [Registrar pedidos de servicio](service-how-to-post-service-orders.md)   
 [Crear pedidos de servicio](service-how-to-create-service-orders.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -52,3 +52,6 @@ En la página **Segmentos archivados**, puede decidir crear un segmento de segui
 [Administrar oportunidades de venta](marketing-manage-sales-opportunities.md)  
 [Creación y administración de contactos](marketing-contacts.md)  
 [Trabajar con Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

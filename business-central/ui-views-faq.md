@@ -115,3 +115,6 @@ Las expresiones que solo usan símbolos, como `|` o `..` se consideran seguras p
 [Guardar y personalizar vistas de lista](ui-views.md)  
 [Encontrar características e información](ui-search.md)  
 [Ordenar, buscar y filtrar](ui-enter-criteria-filters.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

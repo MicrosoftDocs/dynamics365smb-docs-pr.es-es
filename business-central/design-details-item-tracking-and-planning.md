@@ -56,3 +56,6 @@ Para obtener información detallada, consulte [Detalles de diseño: Equilibrado 
 [Detalles de diseño: Equilibrio de aprovisionamiento y demanda](design-details-balancing-demand-and-supply.md)  
 [Detalles de diseño: Reserva, seguimiento de pedidos y mensajes de acciones](design-details-reservation-order-tracking-and-action-messaging.md)   
 [Detalles de diseño: Planificación de aprovisionamiento](design-details-supply-planning.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

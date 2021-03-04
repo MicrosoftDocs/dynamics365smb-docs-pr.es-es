@@ -365,3 +365,6 @@ El proceso **Valorar stock - movs. producto** determina si la fecha inicial de r
 ## <a name="see-also"></a>Consulte también  
 [Detalles de diseño: Coste de inventario](design-details-inventory-costing.md)  
 [Detalles de diseño: Liquidación de productos](design-details-item-application.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

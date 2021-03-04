@@ -31,3 +31,6 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 | Configure el sistema para registrar interacciones. |[Configuración de contactos](marketing-setup-contacts.md) |
 |Cree interacciones para registrar todas las interacciones y comunicaciones que mantenga con sus contactos y segmentos, como el correo electrónico.|[Crear interacciones en contactos y segmentos](marketing-how-create-interactions.md)|
 |Configure el sistema automáticamente para registrar interacciones para ventas, compras, y documentos de servicio, como cuando se crea, se registra o se imprime un documento.|[Registrar interacciones automáticamente con contactos](marketing-auto-record-interactions.md)|
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

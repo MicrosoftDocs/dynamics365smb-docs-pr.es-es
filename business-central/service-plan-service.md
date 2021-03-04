@@ -41,3 +41,6 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 [Configurar componentes de servicio y de productos](service-how-setup-service-items.md)  
 [Configuración de estados para órdenes y reparaciones de servicio](service-order-repair-status.md)  
 [Configurar la gestión de servicios](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

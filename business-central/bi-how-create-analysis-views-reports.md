@@ -106,3 +106,6 @@ Utilice los informes de análisis para analizar la dinámica de sus ventas segú
 [Configurar las finanzas](finance-setup-finance.md)  
 [Libro mayor y plan de cuentas](finance-general-ledger.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

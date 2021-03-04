@@ -108,3 +108,6 @@ La siguiente tabla muestra las combinaciones de formas de pago FIK y GIRO que [!
 [Personalizar Business Central for [!INCLUDE[prod_short](includes/prod_short.md)] con extensiones](ui-extensions.md)  
 [Cobrar pagos mediante adeudo directo SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
 [Trabajar con diarios generales](ui-work-general-journals.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

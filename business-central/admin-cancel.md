@@ -46,3 +46,6 @@ Si desea ocultar [!INCLUDE[prod_short](includes/prod_short.md)] de su lanzador d
 [Exportar los datos de negocio a Excel](about-export-data.md)  
 [Centro de administración de Microsoft 365](https://admin.microsoft.com/)  
 [¿Cuánto dura el periodo de prueba y cómo lo cancelo?](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

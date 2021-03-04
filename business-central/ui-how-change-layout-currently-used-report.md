@@ -60,3 +60,6 @@ Ahora puede ir a sus fichas de cliente y proveedor para especificar cuál de los
 ## <a name="see-also"></a>Consulte también
 [Gestión de diseños de informe](ui-manage-report-layouts.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

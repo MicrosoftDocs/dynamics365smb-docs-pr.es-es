@@ -60,3 +60,6 @@ Sin embargo, el valor del tiempo de entrega en la tarjeta de proveedor se usa so
 [Cálculo de fecha de ventas](sales-date-calculation-for-sales.md)   
 [Calcular fechas de compromiso de entrega de pedido](sales-how-to-calculate-order-promising-dates.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

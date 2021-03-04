@@ -46,3 +46,6 @@ Si no especifica una fecha de entrega requerida en la línea de pedido de venta,
  [Cálculo de la fecha de compras](purchasing-date-calculation-for-purchases.md)   
  [Calcular fechas de compromiso de entrega de pedido](sales-how-to-calculate-order-promising-dates.md)  
  [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

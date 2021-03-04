@@ -35,3 +35,6 @@ Este proceso es parecido al de los cheques automáticos.
 
 ## <a name="see-also"></a>Consulte también  
 [Configurar cuentas bancarias para realizar pagos electrónicos](how-to-set-up-bank-accounts-for-electronic-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -36,3 +36,6 @@ Puede programar cuándo se ejecuta un trabajo por lotes. Para obtener más infor
 [Ordenar, buscar y filtrar listas](ui-enter-criteria-filters.md)  
 [Uso de colas de proyectos para programar tareas](admin-job-queues-schedule-tasks.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

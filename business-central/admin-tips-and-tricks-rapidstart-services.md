@@ -50,3 +50,6 @@ Cuando utilice paquetes de configuración para migrar datos, separe los datos en
 
 [Configurar una empresa con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administración](admin-setup-and-administration.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

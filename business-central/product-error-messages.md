@@ -42,3 +42,6 @@ Si es administrador o superusuario, puede ayudar a otros buscando mensajes de er
 [Preguntas frecuentes sobre copiar y pegar](faq-copy-paste.yml)  
 [Cambiar la configuración básica](ui-change-basic-settings.md)  
 [Introducción](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

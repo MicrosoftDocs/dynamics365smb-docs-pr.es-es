@@ -111,3 +111,6 @@ También puede crear su propio servicio web predictivo basado en un modelo públ
 [Documentación de Azure Machine Learning Studio](https://go.microsoft.com/fwlink/?linkid=861765)  
 [Personalizar Business Central con extensiones](ui-extensions.md)  
 [[!INCLUDE[prod_long](includes/prod_long.md)]](index.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

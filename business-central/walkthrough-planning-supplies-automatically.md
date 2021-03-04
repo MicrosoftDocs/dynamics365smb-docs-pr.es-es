@@ -267,3 +267,6 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
  [Tutoriales de procesos empresariales](walkthrough-business-process-walkthroughs.md)   
  [Tutorial: planificación manual de suministros](walkthrough-planning-supplies-manually.md)   
  [Detalles de diseño: Planificación de aprovisionamiento](design-details-supply-planning.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

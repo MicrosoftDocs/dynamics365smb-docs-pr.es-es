@@ -100,3 +100,6 @@ Por ejemplo, de forma predeterminada, el movimiento de cola de trabajo DIVISA, q
 [Sincronizar manualmente las asignaciones de tablas](admin-manual-synchronization-of-table-mappings.md)  
 [Programación de una sincronización entre Business Central y [!INCLUDE[cds_long_md](includes/cds_long_md.md)]](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)  
 [Acerca de la integración de Dynamics 365 Business Central con [!INCLUDE[cds_long_md](includes/cds_long_md.md)]](admin-prepare-dynamics-365-for-sales-for-integration.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

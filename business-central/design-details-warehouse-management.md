@@ -30,3 +30,6 @@ Para distinguir los distintos niveles de complejidad del almacenamiento, esta do
 [Detalles de diseño: Disponibilidad en el almacén](design-details-availability-in-the-warehouse.md)  
 [Detalles de diseño: Flujo de salida del almacén](design-details-outbound-warehouse-flow.md)  
 [Detalles de diseño: Integración con inventario](design-details-integration-with-inventory.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

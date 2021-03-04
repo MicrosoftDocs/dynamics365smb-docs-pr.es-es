@@ -161,3 +161,6 @@ Puede detener la migración de datos con la opción **Detener todas las migracio
 
 [Personalizar [!INCLUDE[prod_short](includes/prod_short.md)] con extensiones](ui-extensions.md)  
 [Introducción](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -34,3 +34,6 @@ Al instalar la extensión en su [!INCLUDE [prod_short](includes/prod_short.md)],
 [Administrar el trabajo de varias empresas en el hub de empresas](company-hub.md)  
 [Experiencias contables en Business Central](finance-accounting.md)  
 [Finanzas](finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

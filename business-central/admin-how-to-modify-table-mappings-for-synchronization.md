@@ -106,3 +106,6 @@ Si instala la configuración de sincronización predeterminada, la mayoría de l
 [Acerca de la integración de Dynamics 365 Business Central con [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-prepare-dynamics-365-for-sales-for-integration.md )   
 [Sincronización de Business Central y [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-synchronizing-business-central-and-sales.md)   
 [Programar una sincronización](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

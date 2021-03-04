@@ -94,3 +94,6 @@ Los administradores pueden usar la misma guía de configuración asistida para a
 [Experiencias contables en Business Central](finance-accounting.md)  
 [Hub de empresas para extensión de Business Central](ui-extensions-company-hub.md)  
 [Cambiar la configuración básica](ui-change-basic-settings.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

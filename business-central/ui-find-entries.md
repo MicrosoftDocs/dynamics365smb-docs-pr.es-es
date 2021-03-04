@@ -76,3 +76,6 @@ Después de hacer una selección, introduzca la información de búsqueda releva
 [Trabajar con Business Central](ui-work-product.md)  
 [Agregar una acción de página al área de trabajo](ui-bookmarks.md)  
 [Realizar seguimiento de productos seguidos](inventory-how-to-trace-item-tracked-items.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

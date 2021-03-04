@@ -175,3 +175,6 @@ Después de registrar las hojas de horas, puede archivarlas para referencia futu
 [Compras](purchasing-manage-purchasing.md)         
 [Ventas](sales-manage-sales.md)     
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

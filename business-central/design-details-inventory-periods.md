@@ -33,3 +33,6 @@ Las transacciones o los ajustes de coste a los que se aplica fecha retroactiva a
 ## <a name="see-also"></a>Consulte también  
  [Detalles de diseño: Coste de inventario](design-details-inventory-costing.md) [Gestión de costes de inventario](finance-manage-inventory-costs.md) [Finanzas](finance.md)  
  [Trabajar con Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

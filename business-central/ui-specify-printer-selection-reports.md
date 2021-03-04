@@ -91,3 +91,6 @@ Usted o el administrador también pueden usar la página **Selecciones de impres
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ejecutar procesos](ui-how-run-batch-jobs.md)  
 [Enviar documentos por correo electrónico](ui-how-send-documents-email.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

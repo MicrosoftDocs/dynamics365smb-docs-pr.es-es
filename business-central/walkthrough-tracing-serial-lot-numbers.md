@@ -305,3 +305,6 @@ A continuación, deberá crear diversas transacciones de compra, producción y v
 [Buscar movimientos](ui-find-entries.md)  
 [Tutoriales de procesos empresariales](walkthrough-business-process-walkthroughs.md)  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

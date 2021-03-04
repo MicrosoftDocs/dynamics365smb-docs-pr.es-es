@@ -49,3 +49,5 @@ La plantilla definida se aplica a un nuevo registro creado a través de la API s
 [Extremos para las API](/dynamics-nav/endpoints-apis-for-dynamics)  
 [Configurar una empresa con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administración](admin-setup-and-administration.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

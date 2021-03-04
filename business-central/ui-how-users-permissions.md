@@ -157,3 +157,6 @@ Para las implementaciones locales, el administrador crea, edita y elimina usuari
 [Administración](admin-setup-and-administration.md)  
 [Agregar usuarios a Microsoft 365 para empresas](https://aka.ms/CreateOffice365Users)  
 [Seguridad y protección en Business Central (contenido de administración)](/dynamics365/business-central/dev-itpro/security/security-and-protection)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

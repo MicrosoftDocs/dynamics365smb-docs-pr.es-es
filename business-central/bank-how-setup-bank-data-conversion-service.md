@@ -64,3 +64,6 @@ Ya se ha inscrito para la extensión AMC Banking 365 Fundamentals. Refleje la in
 [Configurar banca](bank-setup-banking.md)  
 [Conciliar bancos](bank-manage-bank-accounts.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

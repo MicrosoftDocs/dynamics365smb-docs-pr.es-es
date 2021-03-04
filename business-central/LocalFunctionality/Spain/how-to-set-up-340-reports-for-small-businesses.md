@@ -37,3 +37,6 @@ Después de que la contabilización del IVA esté configurada para manejar el IV
 
 ## <a name="see-also"></a>Consulte también  
 [Crear informes de IVA para las autoridades fiscales](../../finance-how-report-vat.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

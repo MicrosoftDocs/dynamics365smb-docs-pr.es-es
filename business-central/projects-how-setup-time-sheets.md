@@ -64,3 +64,6 @@ Cuando haya configurado las hojas de horas, puede crear hojas de horas para recu
 [Compras](purchasing-manage-purchasing.md)         
 [Ventas](sales-manage-sales.md)      
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

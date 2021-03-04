@@ -63,3 +63,6 @@ Puede configurar estanterías de servicio que identifiquen dónde almacena los a
 ## <a name="see-also"></a>Consulte también
 [Configurar códigos para servicios estándar](service-how-setup-service-coding.md)   
 [Configurar detección errores](service-how-setup-troubleshooting.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

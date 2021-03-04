@@ -31,3 +31,6 @@ Puede copiar los valores de uso general de una empresa existente a otra nueva, s
 [Aplicar la configuración a nuevas empresas](admin-apply-configuration-to-new-companies.md)  
 [Configurar una empresa con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administración](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

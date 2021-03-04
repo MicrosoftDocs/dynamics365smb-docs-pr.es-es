@@ -47,3 +47,6 @@ Después de definir los términos de pago, asígnelos a clientes y proveedores. 
 [Permite registrar nuevos proveedores](purchasing-how-register-new-vendors.md)  
 [Ccial](sales-manage-sales.md)  
 [Compras](purchasing-manage-purchasing.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -52,3 +52,6 @@ Los usuarios del flujo de trabajo que funcionan como usuarios de aprobación, ta
 [Uso de flujos de trabajo](across-use-workflows.md)  
 [Tutorial: Configuración y uso de un flujo de trabajo de aprobación de compra](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
 [Flujo de trabajo](across-workflow.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

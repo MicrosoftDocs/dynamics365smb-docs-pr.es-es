@@ -56,3 +56,6 @@ Cuando expire su período de prueba ampliado, puede [suscribirse](https://go.mic
 [¿Cómo encuentro un socio distribuidor?](across-faq.md#findpartner)  
 [Ampliación de versiones de prueba (como administrador)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials)  
 [Empezar como revendedor de Business Central Online](/dynamics365/business-central/dev-itpro/administration/get-started-online)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

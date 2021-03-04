@@ -46,3 +46,6 @@ En [!INCLUDE[prod_short](includes/prod_short.md)], la codeunit 12 incluye las me
 ## <a name="see-also"></a>Consulte también  
 [Detalles de diseño: estructura de interfaz de registro](design-details-posting-interface-structure.md)   
 [Detalles de diseño: estructura de motor de registro](design-details-posting-engine-structure.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

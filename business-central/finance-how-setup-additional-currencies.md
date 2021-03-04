@@ -127,3 +127,6 @@ Además, los importes de todos los movimientos posteriores del mismo tipo se reg
 [Actualizar tipos de cambio de divisa](finance-how-update-currencies.md)  
 [Cerrar años y periodos](year-close-years-periods.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -85,3 +85,6 @@ A continuación se describe cómo deshacer un envío de devolución de artículo
 [Trabajar con diarios generales](ui-work-general-journals.md)  
 [Finanzas](finance.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -42,3 +42,6 @@ Cualquier plantilla de flujo de trabajo que cree con Power Automate se agrega a 
 [Compras](purchasing-manage-purchasing.md)  
 [Administrar proyectos](projects-manage-projects.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

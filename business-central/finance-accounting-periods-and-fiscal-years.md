@@ -70,3 +70,6 @@ Aunque un ejercicio esté cerrado, todavía podrá registrar en él movimientos 
 [Cerrar los libros](year-close-books.md)  
 [Cerrar años y periodos](year-close-years-periods.md)  
 [Trabajar con esquemas de cuentas](bi-how-work-account-schedule.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -67,3 +67,6 @@ Después de modificar el diseño, pruebe a actualizar el diseño de nuevo.
 ## <a name="see-also"></a>Consulte también  
  [Gestión de diseños de informe](ui-manage-report-layouts.md)  
  [Trabajar con informes, trabajos por lotes y XMLports](ui-work-report.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

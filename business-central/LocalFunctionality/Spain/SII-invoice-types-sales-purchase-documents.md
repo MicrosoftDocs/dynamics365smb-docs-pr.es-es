@@ -83,3 +83,6 @@ En la tabla siguiente se muestra el resultado de los diversos tipos que se utili
 
 [Funcionalidad local para España](spain-local-functionality.md)
 [Guía de instalación y uso de la información electrónica sobre el IVA en SII en la versión española de Dynamics NAV](https://aka.ms/SIISetup)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

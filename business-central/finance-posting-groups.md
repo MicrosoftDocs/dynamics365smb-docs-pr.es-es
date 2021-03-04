@@ -79,3 +79,6 @@ Cuantos más grupos contables de producto y de negocio tenga, más líneas habr�
 [Libro mayor y plan de cuentas](finance-general-ledger.md)  
 [Configurar las finanzas](finance-setup-finance.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

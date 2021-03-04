@@ -40,3 +40,6 @@ La siguiente tabla describe las distintas opciones de bloqueo de clientes.
 [Permite registrar nuevos clientes](sales-how-register-new-customers.md)  
 [Cobrar saldos pendientes](receivables-collect-outstanding-balances.md)  
 [Administrar cobros](receivables-manage-receivables.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

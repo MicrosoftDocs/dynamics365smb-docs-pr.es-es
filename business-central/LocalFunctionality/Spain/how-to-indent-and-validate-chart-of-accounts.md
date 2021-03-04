@@ -53,3 +53,6 @@ En la página **Ficha cuenta**, se puede efectuar el test y la validación del p
 
 ## <a name="see-also"></a>Consulte también  
 [Funcionalidad local para España](spain-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -104,3 +104,6 @@ Puede registrar el valor residual junto con el coste a partir del diario de acti
 [Finanzas](finance.md)  
 [Introducción](product-get-started.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

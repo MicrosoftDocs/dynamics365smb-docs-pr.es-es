@@ -38,3 +38,6 @@ Utilice las siguientes páginas para crear y analizar presupuestos de coste. Eli
 [Terminología en contabilidad de costes](finance-terminology-in-cost-accounting.md)   
 [Definición y asignación de costes](finance-define-and-allocate-costs.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

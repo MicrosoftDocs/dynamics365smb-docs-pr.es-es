@@ -444,3 +444,6 @@ Cuando el pedido de venta se registra posteriormente como facturado en su totali
  [Detalles de diseño: Flujos de almacén internos](design-details-internal-warehouse-flows.md)   
  [Detalles de diseño: Flujo de salida del almacén](design-details-outbound-warehouse-flow.md)   
  [Tutorial: planificación automática de suministros](walkthrough-planning-supplies-automatically.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

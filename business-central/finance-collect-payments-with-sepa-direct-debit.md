@@ -162,3 +162,6 @@ Se agrega un cobro por domiciliación a la página **Cobros por adeudo directo**
 ## <a name="see-also"></a>Consulte también  
 [Administrar cobros](receivables-manage-receivables.md)  
 [Gestión de servicios](service-service.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

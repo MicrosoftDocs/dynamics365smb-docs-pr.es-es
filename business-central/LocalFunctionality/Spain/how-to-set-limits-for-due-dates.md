@@ -36,3 +36,6 @@ A continuación, debe asegurarse de especificar los términos de pago adecuados 
 
 ## <a name="see-also"></a>Consulte también  
  [Cálculo de fechas de vencimiento](calculating-due-dates.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

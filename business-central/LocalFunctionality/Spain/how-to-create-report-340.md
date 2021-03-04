@@ -60,3 +60,6 @@ Si imprime el documento registrado, por ejemplo, una factura de venta registrada
  [Informe 340](report-340.md)   
  [Pagos en efectivo](payments-in-cash.md)   
  [Agencia Tributaria](https://www.agenciatributaria.es/AEAT.internet/en_gb/Inicio.shtml)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ Puede utilizar cuentas de regularización para saldar y realizar el seguimiento 
 
 ## <a name="see-also"></a>Consulte también  
  [Funcionalidad local para España](spain-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -110,3 +110,6 @@ Sin embargo, los pedidos de servicio no se eliminarán de forma automática si l
 [Configurar la gestión de servicios](service-setup-service.md)  
 [Trabajar en tareas de servicio](service-how-to-work-on-service-tasks.md)  
 [Asignar recursos](service-how-to-allocate-resources.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

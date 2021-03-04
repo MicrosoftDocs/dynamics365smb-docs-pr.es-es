@@ -68,3 +68,6 @@ Por ejemplo, en las páginas **Selección de informes: ventas** y **Selección d
 [Administrar diseños de informes y documentos](ui-manage-report-layouts.md)  
 [Definir diseños de documentos para clientes y proveedores](ui-define-customer-vendor-document-layouts.md)  
 [Configuración de impresoras](ui-specify-printer-selection-reports.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -46,3 +46,6 @@ La ficha desplegable **Planificación** de la ficha de producto es el centro de 
  [Configurar áreas de aplicación complejas mediante procedimientos recomendados](set-up-complex-application-areas-using-best-practices.md)  
  [Detalles de diseño: Demanda en almacén vacío](design-details-demand-at-blank-location.md)  
  [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

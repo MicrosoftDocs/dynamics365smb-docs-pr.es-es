@@ -66,3 +66,6 @@ Si está usando [!INCLUDE[prod_short](includes/prod_short.md)] en las instalacio
 [P+F sobre aplicaciones móviles](ui-mobile-faq.md)  
 [Introducción](product-get-started.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

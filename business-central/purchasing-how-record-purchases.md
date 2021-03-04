@@ -100,3 +100,6 @@ La compra ahora se refleja en el inventario, en los movimientos de recursos y en
 [Permite registrar nuevos proveedores](purchasing-how-register-new-vendors.md)  
 [Preparar envíos directos](sales-how-drop-shipment.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

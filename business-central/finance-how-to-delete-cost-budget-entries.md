@@ -38,3 +38,6 @@ Para evitar cualquier discontinuidad en movimientos de presupuesto de costes y m
 [Contabilidad para costes](finance-manage-cost-accounting.md)
 [Crear presupuesto coste](finance-create-cost-budgets.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

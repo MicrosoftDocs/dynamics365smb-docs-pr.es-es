@@ -37,3 +37,6 @@ La factura correctiva debe cumplir los requisitos siguientes:
 
 ## <a name="see-also"></a>Consulte también  
  [Funcionalidad local para España](spain-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

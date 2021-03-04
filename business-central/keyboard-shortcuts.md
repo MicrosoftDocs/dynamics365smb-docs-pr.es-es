@@ -222,3 +222,6 @@ Al configurar un campo de fecha, puede introducir la fecha manualmente o abrir u
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Preguntas más frecuentes](across-faq.md)  
 [Buscar movimientos](ui-find-entries.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

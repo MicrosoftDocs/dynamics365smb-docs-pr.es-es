@@ -40,3 +40,6 @@ Si desea que el sistema incluya un tiempo de manipulación en almacén de entrad
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Cambiar las funciones que se muestran](ui-experiences.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

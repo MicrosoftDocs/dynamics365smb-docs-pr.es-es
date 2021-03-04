@@ -88,3 +88,5 @@ Puede crear directivas de retención para eliminar los datos innecesarios de los
 [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md)    
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Definir directivas de retención](admin-data-retention-policies.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Si desea eliminar de forma masiva todas o algunas tareas del usuario, puede usar
 
 [Buscar una página o informe](ui-search.md)  
 [Experiencias contables en [!INCLUDE[prod_short](includes/prod_short.md)]](finance-accounting.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -31,3 +31,6 @@ El sistema de seguimiento de productos debe proveer a una empresa una fácil ges
 [Detalles de diseño: Seguimiento de productos y planificación](design-details-item-tracking-and-planning.md)  
 [Detalles de diseño: Seguimiento de productos y reservas](design-details-item-tracking-and-reservations.md)  
 [Detalles de diseño: Seguimiento de productos en el almacén](design-details-item-tracking-in-the-warehouse.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -38,3 +38,6 @@ Si modifica la estructura del código CCC, el campo **Nº CCC** se actualiza aut
 
 ## <a name="see-also"></a>Consulte también  
 [Funcionalidad local para España](spain-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

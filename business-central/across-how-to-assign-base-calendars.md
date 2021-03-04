@@ -117,3 +117,6 @@ Los calendarios base se asignan a su propia empresa, clientes, proveedores, alma
 [Fabricación](production-manage-manufacturing.md)    
 [Inventario](inventory-manage-inventory.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

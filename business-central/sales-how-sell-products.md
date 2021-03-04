@@ -133,3 +133,6 @@ El producto relacionado y los movimientos de cliente se han creado ahora en su s
 [Inventario](inventory-manage-inventory.md)  
 [Enviar documentos por correo electrónico](ui-how-send-documents-email.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

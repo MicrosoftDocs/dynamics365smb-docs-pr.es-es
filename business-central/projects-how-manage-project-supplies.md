@@ -56,3 +56,6 @@ Si tiene costes de proyecto extraordinarios o únicos, puede utilizar la página
 [Compras](purchasing-manage-purchasing.md)         
 [Ventas](sales-manage-sales.md)      
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

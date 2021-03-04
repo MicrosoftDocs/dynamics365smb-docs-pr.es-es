@@ -87,3 +87,6 @@ Si suele comprar o vender en unidades que no sean la unidad de medida base, espe
 [Administrar compras](purchasing-manage-purchasing.md)  
 [Administrar ventas](sales-manage-sales.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

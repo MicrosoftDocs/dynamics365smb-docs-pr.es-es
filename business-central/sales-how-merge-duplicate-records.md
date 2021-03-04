@@ -68,3 +68,6 @@ El procedimiento siguiente se basa en una ficha de cliente. Los pasos son pareci
 [Ccial](sales-manage-sales.md)  
 [Configuración de contactos](marketing-setup-contacts.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

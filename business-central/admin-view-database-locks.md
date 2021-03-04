@@ -33,3 +33,6 @@ Para obtener más información sobre el bloqueo de base de datos, vea [Supervisi
 ## <a name="see-also"></a>Consulte también
 
 [Supervisar bloqueos de base de datos](/dynamics365/business-central/dev-itpro/administration/monitor-database-locks) 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

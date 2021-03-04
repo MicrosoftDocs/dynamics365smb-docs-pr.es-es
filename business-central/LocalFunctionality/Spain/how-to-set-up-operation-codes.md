@@ -47,3 +47,6 @@ Cuando agrega un código de operación al grupo de publicación de producto gene
 
 ## <a name="see-also"></a>Consulte también  
  [Crear el informe 340](how-to-create-report-340.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -74,3 +74,6 @@ Si ya ha configurado precios de venta alternativos para algunos recursos, puede 
 [Compras](purchasing-manage-purchasing.md)         
 [Ventas](sales-manage-sales.md)     
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

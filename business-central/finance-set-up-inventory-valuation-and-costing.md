@@ -47,3 +47,6 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 [Detalles de diseño: Cambiar la valoración de existencias para artículos](design-details-changing-costing-methods.md)  
 [Trabajar con Business Central](ui-work-product.md)  
 [Finanzas](finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

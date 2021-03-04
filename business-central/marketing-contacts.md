@@ -37,3 +37,6 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 [Administrar oportunidades de venta](marketing-manage-sales-opportunities.md)  
 [Ordenar, buscar y filtrar](ui-enter-criteria-filters.md)  
 [Trabajar con Business Central](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

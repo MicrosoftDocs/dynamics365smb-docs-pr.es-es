@@ -40,3 +40,6 @@ Antes de crear el **Informe 347**, debe tener en cuenta las siguientes restricci
 ## <a name="see-also"></a>Consulte también  
  [Funcionalidad local para España](spain-local-functionality.md)   
  [Crear el informe 347](how-to-create-report-347.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -75,3 +75,6 @@ Hay algunas tareas que deben realizarse antes de que pueda comenzar a usar Power
 [Usar [!INCLUDE[prod_short](includes/prod_short.md)] en Power Automate](across-how-use-financials-data-source-flow.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

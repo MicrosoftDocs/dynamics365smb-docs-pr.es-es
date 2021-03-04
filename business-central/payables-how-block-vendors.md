@@ -37,3 +37,6 @@ La siguiente tabla describe las distintas opciones de bloqueo de proveedores.
 [Permite registrar nuevos proveedores](purchasing-how-register-new-vendors.md)  
 [Creación de pagos](payables-make-payments.md)  
 [Administrar pagos](payables-manage-payables.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

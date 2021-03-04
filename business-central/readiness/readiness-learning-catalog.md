@@ -77,3 +77,6 @@ Encuentre la formación en línea adecuada, talleres presenciales y eventos para
     :::column-end:::
 
 :::row-end:::
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

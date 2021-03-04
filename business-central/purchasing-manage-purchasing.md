@@ -57,3 +57,6 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 [Funciones empresariales generales](ui-across-business-areas.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

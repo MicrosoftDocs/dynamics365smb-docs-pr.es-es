@@ -224,3 +224,6 @@ Para obtener información sobre la transferencia de productos con el control tot
 [Ccial](sales-manage-sales.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

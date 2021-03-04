@@ -63,3 +63,6 @@ Para asegurarse de que se redondeen automáticamente las facturas de venta y com
 ## <a name="see-also"></a>Consulte también  
 [Facturar ventas](sales-how-invoice-sales.md)  
 [Registrar compras](purchasing-how-record-purchases.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

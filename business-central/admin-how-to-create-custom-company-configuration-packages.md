@@ -57,3 +57,6 @@ Para ver una lista completa de tablas de configuración, elija el icono ![Bombil
 ## <a name="see-also"></a>Consulte también  
 [Configurar una empresa con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administración](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -233,3 +233,6 @@ En la página **Configuración fabricación**, el campo **Componentes en alm.** 
 ## <a name="see-also"></a>Consulte también  
 [Detalles de diseño: Conceptos centrales del sistema de planificación](design-details-central-concepts-of-the-planning-system.md)   
 [Detalles de diseño: Planificación de aprovisionamiento](design-details-supply-planning.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -69,3 +69,6 @@ Para facturas de compras y ventas, se tienen en cuenta los días de pago y los p
 
 ## <a name="see-also"></a>Consulte también  
  [Funcionalidad local para España](spain-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

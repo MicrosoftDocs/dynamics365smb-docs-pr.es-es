@@ -65,3 +65,6 @@ Los redondeos residuales se pueden producir cuando se valora el coste de una sal
  [Detalles de diseño: métodos de coste](design-details-costing-methods.md) [Gestión de costes de inventario](finance-manage-inventory-costs.md)  
  [Finanzas](finance.md)  
  [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

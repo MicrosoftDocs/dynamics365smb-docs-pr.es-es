@@ -29,3 +29,6 @@ Tener un único número de transacción secuencial ordenado por fecha permite id
 ## <a name="see-also"></a>Consulte también  
  [Registrar e imprimir todas las transacciones de un periodo](how-to-post-and-print-all-transactions-for-a-period.md)   
  [Funcionalidad local para España](spain-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

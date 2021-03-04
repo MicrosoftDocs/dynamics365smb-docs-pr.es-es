@@ -61,3 +61,6 @@ Es simple, desplácese al final de la página del explorador y elija el símbolo
 [Recursos de ayuda y soporte técnico](product-help-and-support.md)  
 [Cambiar la configuración básica](ui-change-basic-settings.md)  
 [Introducción](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

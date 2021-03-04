@@ -42,3 +42,6 @@ Los informes **Libro facturas emitidas** y **Libro facturas recibidas** se puede
 
 ## <a name="see-also"></a>Consulte también  
  [Funcionalidad local para España](spain-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

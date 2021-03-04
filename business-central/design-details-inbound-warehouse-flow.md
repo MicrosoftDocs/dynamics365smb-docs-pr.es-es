@@ -110,3 +110,6 @@ Se crean movimientos de almacén y se eliminan las líneas de ubicación de alma
 
 ## <a name="see-also"></a>Consulte también  
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -112,3 +112,6 @@ Las líneas copiadas se crean en el diario general de activos o en el de activos
 [Configurar activos fijos](fa-setup.md)  
 [Finanzas](finance.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

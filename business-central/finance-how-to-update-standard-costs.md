@@ -47,3 +47,6 @@ Para obtener más información, consulte [Acerca de Calcular el coste estándar]
  [Gestión de costes de inventario](finance-manage-inventory-costs.md)   
  [Detalles de diseño: Métodos de coste](design-details-costing-methods.md) [Finanzas](finance.md)  
  [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

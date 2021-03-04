@@ -29,3 +29,6 @@ Puede enviar documentos como facturas por correo electrónico con la dirección 
 [Usar Business Central como su bandeja de entrada de empresa en Outlook](admin-outlook.md)  
 [Obtener Business Central en mi dispositivo móvil](install-mobile-app.md)  
 [Enviar documentos por correo electrónico](ui-how-send-documents-email.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

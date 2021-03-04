@@ -82,3 +82,6 @@ El siguiente diagrama ilustra el flujo de trabajo básico para los usuarios al c
 [Usar [!INCLUDE[prod_short](includes/prod_short.md)] en Power Automate](across-how-use-financials-data-source-flow.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

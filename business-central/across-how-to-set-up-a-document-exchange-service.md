@@ -43,3 +43,6 @@ Para intercambiar documentos electrónicos con socios comerciales se usa un prov
 ## <a name="see-also"></a>Consulte también  
 [Configuración del intercambio de datos](across-set-up-data-exchange.md)  
 [Intercambio de datos electrónicamente](across-data-exchange.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

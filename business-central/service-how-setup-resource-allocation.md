@@ -83,3 +83,6 @@ Si desea cambiar los códigos de habilidades asignados a elementos, por ejemplo 
 [Configurar códigos para servicios estándar](service-how-setup-service-coding.md)  
  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

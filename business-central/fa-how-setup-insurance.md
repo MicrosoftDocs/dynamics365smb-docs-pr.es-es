@@ -63,3 +63,6 @@ En un libro del diario de seguros puede configurar secciones. Los valores de la 
 [Finanzas](finance.md)  
 [Introducción](product-get-started.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

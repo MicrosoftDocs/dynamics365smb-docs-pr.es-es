@@ -46,3 +46,6 @@ Puede utilizar la página **Comentarios generales**para registrar comentarios ac
   
 ## <a name="see-also"></a>Consulte también  
 [Configurar un programa de productos prestados](service-how-setup-loaner-program.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

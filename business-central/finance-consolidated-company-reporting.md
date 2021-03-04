@@ -120,3 +120,6 @@ Los movimientos exportados tienen los siguientes campos: **Nº cuenta**, **Fecha
 [Gestión de transacciones entre empresas vinculadas](intercompany-manage.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Exportar los datos de negocio a Excel](about-export-data.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

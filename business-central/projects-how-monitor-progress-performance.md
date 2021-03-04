@@ -98,3 +98,6 @@ En la p√°gina **Movimientos de proyecto** puede revisar los movimientos que est√
 [Compras](purchasing-manage-purchasing.md)         
 [Ventas](sales-manage-sales.md)      
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

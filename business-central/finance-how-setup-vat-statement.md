@@ -51,3 +51,6 @@ Después de definir una declaración de IVA, puede obtener una vista previa de e
 [Crear informes de IVA para la autoridad fiscal](finance-how-report-vat.md)  
 [Trabajar con el IVA por ventas y compras](finance-work-with-vat.md)  
 [Funcionalidad local en Business Central](about-localization.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

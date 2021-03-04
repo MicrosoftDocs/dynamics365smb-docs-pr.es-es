@@ -87,3 +87,6 @@ Si una oportunidad sigue un ciclo de ventas, podrá moverlo hacia adelante o hac
 [Ccial](sales-manage-sales.md)  
 [Creación y administración de contactos](marketing-contacts.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

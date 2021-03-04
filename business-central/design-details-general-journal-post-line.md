@@ -29,3 +29,6 @@ En esta documentación se proporciona información técnica detallada de los con
 
 ## <a name="see-also"></a>Consulte también  
 [Trabajar con diarios generales](ui-work-general-journals.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Puede editar determinados campos en documentos de compra registrados, como el ca
 [Corregir o cancelar facturas de compra sin abonar](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Búsqueda de páginas e información con Dígame](ui-search.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

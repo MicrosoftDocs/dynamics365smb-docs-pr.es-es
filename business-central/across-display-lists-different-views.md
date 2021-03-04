@@ -30,3 +30,6 @@ Puede importar imágenes de producto, una por una o para varios productos de una
 ## <a name="see-also"></a>Consulte también
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Registro de productos nuevos](inventory-how-register-new-items.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

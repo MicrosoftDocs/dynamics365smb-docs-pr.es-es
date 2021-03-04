@@ -118,3 +118,6 @@ Los costes de los productos que conforman la L.M. de ensamblado se copian de las
 [Consultar la disponibilidad de los productos](inventory-how-availability-overview.md)     
 [Inventario](inventory-manage-inventory.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

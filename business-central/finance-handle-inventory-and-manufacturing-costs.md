@@ -38,3 +38,6 @@ Aunque la mayoría de las funciones de contabilidad de costes se llevan a cabo m
 ## <a name="see-also"></a>Consulte también  
 [Gestión de costes de inventario](finance-manage-inventory-costs.md)
 [Detalles de diseño: Coste de inventario](design-details-inventory-costing.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -146,3 +146,6 @@ Para ayudarle a comprender mejor la personalización, le presentamos algunos con
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Cambiar la configuración básica](ui-change-basic-settings.md)  
 [Cambiar las funciones que se muestran](ui-experiences.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

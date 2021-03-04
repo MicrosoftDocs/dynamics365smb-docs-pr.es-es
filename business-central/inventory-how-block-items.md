@@ -48,3 +48,6 @@ Cuando usa la función **Copiar de documento** para crear nuevos documentos basa
 ## <a name="see-also"></a>Consulte también  
 [Registro de productos nuevos](inventory-how-register-new-items.md)  
 [Inventario](inventory-manage-inventory.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

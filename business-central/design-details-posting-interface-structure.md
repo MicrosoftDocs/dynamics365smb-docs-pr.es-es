@@ -28,3 +28,5 @@ En la estructura de interfaz de registro de [!INCLUDE[prod_short](includes/prod_
   
 ## <a name="see-also"></a>Consulte también  
 [Detalles de diseño: estructura de motor de registro](design-details-posting-engine-structure.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -35,3 +35,6 @@ Una vez que haya creado un flujo de trabajo y esté seguro de que está preparad
  [Uso de flujos de trabajo](across-use-workflows.md)   
  [Tutorial: Configuración y uso de un flujo de trabajo de aprobación de compra](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
  [Flujo de trabajo](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

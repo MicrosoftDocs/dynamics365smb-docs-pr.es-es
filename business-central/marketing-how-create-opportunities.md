@@ -46,3 +46,6 @@ Antes de crear oportunidad, debe configurar los ciclos ventas oportunidad. Para 
 [Ventas](sales-manage-sales.md)  
 [Creación y administración de contactos](marketing-contacts.md)  
 [Trabajar con Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

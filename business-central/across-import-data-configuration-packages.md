@@ -87,3 +87,6 @@ El paquete de configuración predeterminado admite las tablas siguientes:
 [Importar varias imágenes de producto](inventory-how-import-item-pictures.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

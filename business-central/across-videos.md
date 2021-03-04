@@ -32,3 +32,6 @@ También puede ver nuestros "tutoriales", además de muchos otros contenidos, en
 
 [Introducción](product-get-started.md)  
 [Canal de Dynamics 365 en YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

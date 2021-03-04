@@ -54,3 +54,6 @@ Se actualiza el histórico de albaranes de venta.
 [Compras](purchasing-manage-purchasing.md)  
 [Registrar documentos y diarios](ui-post-documents-journals.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

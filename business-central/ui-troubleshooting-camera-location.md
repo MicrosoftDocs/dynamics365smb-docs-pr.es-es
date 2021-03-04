@@ -57,3 +57,6 @@ Algunos software antivirus bloquean el acceso a la cámara y la ubicación de fo
 ## <a name="see-also"></a>Consulte también
 [Implementación de la cámara en AL](/dynamics365/business-central/dev-itpro/developer/devenv-implement-camera-al)  
 [Implementación de la ubicación en AL](/dynamics365/business-central/dev-itpro/developer/devenv-implement-location-al)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

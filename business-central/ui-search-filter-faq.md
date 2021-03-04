@@ -60,3 +60,6 @@ En Microsoft, escuchamos constantemente los comentarios de nuestra comunidad div
 [Búsqueda de páginas e información con Dígame](ui-search.md)  
 [Búsqueda de páginas con el explorador de roles](ui-role-explorer.md)  
 [Introducción](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

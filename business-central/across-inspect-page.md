@@ -46,3 +46,6 @@ Los usuarios a los que no se les conceden permisos sobre el **objeto de sistema 
 ## <a name="see-also"></a>Consulte también
 
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

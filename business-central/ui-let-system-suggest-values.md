@@ -44,3 +44,6 @@ Sus principales acciones en la página son rellenar la casilla **Pago realizado*
 ## <a name="see-also"></a>Consulte también
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Finanzas](finance.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -62,3 +62,6 @@ La versión genérica de [!INCLUDE[prod_short](includes/prod_short.md)] admite e
 [Intercambio de datos electrónicamente](across-data-exchange.md)  
 [P+F sobre facturación electrónica](faq-electronic-invoicing.yml)  
 [Funciones empresariales generales](ui-across-business-areas.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

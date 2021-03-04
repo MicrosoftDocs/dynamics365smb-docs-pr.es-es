@@ -158,3 +158,6 @@ Al asignar el cuestionario perfil que contiene esta pregunta a un contacto, la a
 
 ## <a name="see-also"></a>Consulte también
 [Crear contactos](marketing-create-contact-companies.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -39,3 +39,6 @@ Al añadir un nuevo producto, para ahorrar tiempo, puede utilizar la función **
 
 [Registro de productos nuevos](inventory-how-register-new-items.md)  
 [Configurar inventario](inventory-setup-inventory.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

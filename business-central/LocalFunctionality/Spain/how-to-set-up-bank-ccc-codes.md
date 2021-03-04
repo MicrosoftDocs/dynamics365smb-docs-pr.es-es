@@ -57,3 +57,6 @@ El siguiente procedimiento describe cómo configurar códigos bancarios CCC para
 
 ## <a name="see-also"></a>Consulte también  
 [Configurar bancos](../../bank-how-setup-bank-accounts.md) 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

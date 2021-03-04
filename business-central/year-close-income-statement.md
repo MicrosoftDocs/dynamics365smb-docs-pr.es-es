@@ -40,3 +40,6 @@ El proceso **Cerrar asiento de regularización** se puede usar varias veces. Pue
 [Registrar el movimiento de cierre del ejercicio](year-how-post-year-end-close-entry.md)  
 [Trabajar con periodos contables y ejercicios](finance-accounting-periods-and-fiscal-years.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

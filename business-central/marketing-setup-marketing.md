@@ -60,3 +60,6 @@ Puede elegir que la aplicación busque duplicados de forma automática cada vez 
 ## <a name="see-also"></a>Consulte también
 [Gestionar contactos](marketing-contacts.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

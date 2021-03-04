@@ -41,3 +41,6 @@ El procedimiento siguiente describe cómo restringir el registro de pedidos de c
 ## <a name="see-also"></a>Consulte también  
 [Crear flujos de trabajo](across-how-to-create-workflows.md)   
 [Flujo de trabajo](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

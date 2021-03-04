@@ -68,3 +68,6 @@ Para obtener información acerca de cómo cambiar el diseño que desea usar, con
 [Enviar documentos por correo electrónico](ui-how-send-documents-email.md)  
 [Trabajar con informes, trabajos por lotes y XMLports](ui-work-report.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

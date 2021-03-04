@@ -40,3 +40,6 @@ Se abre la página **Instancias de paso de flujo de trabajo archivadas** para mo
  [Configuración de flujos de trabajo](across-set-up-workflows.md)   
  [Uso de flujos de trabajo](across-use-workflows.md)   
  [Flujo de trabajo](across-workflow.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

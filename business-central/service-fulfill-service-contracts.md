@@ -37,3 +37,6 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 [Prestación del servicio](service-deliver-service.md)  
 [Configurar la gestión de servicios](service-setup-service.md)  
 [Creación de contratos de servicio y ofertas de contrato de servicio](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

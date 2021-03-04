@@ -72,3 +72,6 @@ Estas funciones pueden ser especialmente útiles en controles de calidad en los 
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 [Tutorial: seguimiento de números de serie/lote](walkthrough-tracing-serial-lot-numbers.md)  
 [Buscar movimientos](ui-find-entries.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -90,3 +90,6 @@ En el informe **Mnto. - Detalles**, puede ver o imprimir los movimientos de mant
 [Finanzas](finance.md)  
 [Introducción](product-get-started.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

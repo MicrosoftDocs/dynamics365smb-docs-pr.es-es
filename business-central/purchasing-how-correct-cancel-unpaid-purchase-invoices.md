@@ -58,3 +58,6 @@ Si la cancelación está relacionada con un registro parcial de la factura, la l
 [Compras](purchasing-manage-purchasing.md)  
 [Registrar compras](purchasing-how-record-purchases.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

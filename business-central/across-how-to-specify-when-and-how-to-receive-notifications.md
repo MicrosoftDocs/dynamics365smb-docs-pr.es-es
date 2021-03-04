@@ -66,3 +66,6 @@ Al configurar usuarios en los flujos de trabajo de aprobación, especifique en l
  [Configurar notificaciones de flujo de trabajo](across-setting-up-workflow-notifications.md)   
  [Configuración de flujos de trabajo](across-set-up-workflows.md)   
  [Uso de flujos de trabajo](across-use-workflows.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

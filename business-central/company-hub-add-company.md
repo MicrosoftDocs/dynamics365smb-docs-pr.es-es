@@ -47,3 +47,6 @@ Cuando haya agregado sus entornos, sus empresas aparecerán automáticamente. Si
 
 [Administrar el trabajo de varias empresas en el hub de empresas](company-hub.md)  
 [Recursos de ayuda y soporte técnico](product-help-and-support.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

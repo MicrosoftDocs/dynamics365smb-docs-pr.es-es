@@ -39,3 +39,5 @@ Cuando se realiza un servicio habitual, a menudo es necesario crear documentos d
 ## <a name="see-also"></a>Consulte también
 
 [Gestión de servicios](service-service.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -36,3 +36,6 @@ Cuando emite una nota de cargo financiero, la nota muestra los cargos financiero
 ## <a name="see-also"></a>Consulte también  
 [Cobrar saldos pendientes](receivables-collect-outstanding-balances.md)  
 [Configurar las finanzas](finance-setup-finance.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

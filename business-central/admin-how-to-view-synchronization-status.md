@@ -55,3 +55,6 @@ Utilice la página **Errores de sincronización de datos emparejados** para ver 
 ## <a name="see-also"></a>Consulte también  
 [Configuración de cuentas de usuario para la integración con Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)  
 [Uso de Dynamics 365 Sales desde Business Central](marketing-integrate-dynamicscrm.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

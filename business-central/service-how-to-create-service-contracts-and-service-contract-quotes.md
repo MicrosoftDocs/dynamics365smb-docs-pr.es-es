@@ -200,3 +200,6 @@ Puede archivar contratos de servicio y ofertas de contrato en cualquier momento 
 [Configurar contratos de servicio](service-how-setup-service-contracts.md)  
 [Gestión de servicios](service-service.md)  
 [Convertir contratos de servicio que incluyen importes de IVA](service-how-to-convert-service-contracts.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

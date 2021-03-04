@@ -295,3 +295,6 @@ Esto completa el resumen de los conceptos básicos relacionados con la planifica
 [Detalles de diseño: Tabla de asignación de planificación](design-details-planning-assignment-table.md)   
 [Detalles de diseño: Gestión de directivas de reaprovisionamiento](design-details-handling-reordering-policies.md)   
 [Detalles de diseño: Equilibrio de aprovisionamiento y demanda](design-details-balancing-demand-and-supply.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

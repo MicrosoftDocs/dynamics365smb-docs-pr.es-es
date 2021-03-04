@@ -307,3 +307,6 @@ Use `%myvendors` en el campo de proveedor **No** para mostrar todos los registro
 [Preguntas frecuentes sobre buscar y filtrar](ui-search-filter-faq.md)  
 [Guardar y personalizar vistas de lista](ui-views.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

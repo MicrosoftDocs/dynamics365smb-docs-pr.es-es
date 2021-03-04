@@ -73,3 +73,6 @@ Puede registrar las ausencias de empleados diariamente o a algún otro intervalo
 [Finanzas](finance.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Cambiar las funciones que se muestran](ui-experiences.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

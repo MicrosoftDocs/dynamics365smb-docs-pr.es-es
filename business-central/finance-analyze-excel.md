@@ -56,3 +56,6 @@ Con el complemento, puede conseguir nuevos datos de [!INCLUDE [prod_short](inclu
 [Configurar las finanzas](finance-setup-finance.md)  
 [Libro mayor y plan de cuentas](finance-general-ledger.md)  
 [Trabajar con Business Central](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

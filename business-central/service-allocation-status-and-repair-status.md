@@ -70,3 +70,6 @@ Se creará una nueva entrada de asignación con el nuevo recurso y con el estado
 [Configurar asignaciones de recursos](service-how-setup-resource-allocation.md)  
 [Asignar recursos](service-how-to-allocate-resources.md)  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

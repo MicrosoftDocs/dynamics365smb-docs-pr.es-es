@@ -92,3 +92,6 @@ Antes de crear el informe **Informe 340**, debe tener en cuenta las siguientes r
  [Crear el informe 340](how-to-create-report-340.md)   
  [Pagos en efectivo](payments-in-cash.md)   
  [Funcionalidad local para España](spain-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

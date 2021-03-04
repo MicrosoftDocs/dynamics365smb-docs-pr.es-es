@@ -71,3 +71,6 @@ Hay algunos pasos que es recomendable que haga:
 
 [Importar datos de empresa de otros sistemas financieros](across-import-data-configuration-packages.md)  
 [Personalizar [!INCLUDE[prod_short](includes/prod_short.md)] con extensiones](ui-extensions.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

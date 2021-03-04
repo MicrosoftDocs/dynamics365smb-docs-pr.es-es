@@ -36,3 +36,6 @@ Después de usar el proceso **Asiento regularización** para generar los movimie
 [Cierre de libros](year-close-books.md)  
 [Asiento regularización](year-close-income-statement.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

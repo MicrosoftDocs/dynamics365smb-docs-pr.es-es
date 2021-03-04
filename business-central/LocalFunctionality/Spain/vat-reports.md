@@ -51,3 +51,6 @@ Mediante IVA - declaración VIES se puede ejecutar un archivo por lotes para gen
  [Funcionalidad local para España](spain-local-functionality.md)   
  [Informe 340](report-340.md)   
  [Informe 347](report-347.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -145,3 +145,6 @@ Para que un producto se pueda incluir en el cálculo del compromiso de entrega, 
 [Ccial](sales-manage-sales.md)  
 [Cálculo de la fecha de compras](purchasing-date-calculation-for-purchases.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -38,3 +38,6 @@ En la tabla siguiente se muestra una secuencia de tareas con vínculos a los tem
 ## <a name="see-also"></a>Consulte también  
 [Configurar una empresa con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administración](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

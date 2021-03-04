@@ -158,3 +158,6 @@ Cuando el banco procese correctamente el pago electrónico, registre los pagos. 
 [Administrar pagos](payables-manage-payables.md)  
 [Trabajar con diarios generales](ui-work-general-journals.md)  
 [Cobrar pagos mediante adeudo directo SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

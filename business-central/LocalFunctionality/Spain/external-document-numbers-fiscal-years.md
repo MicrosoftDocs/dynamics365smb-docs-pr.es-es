@@ -25,3 +25,6 @@ En general, [!INCLUDE[prod_short](../../includes/prod_short.md)] no permite regi
 
 ## <a name="see-also"></a>Consulte también  
  [Funcionalidad local para España](spain-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

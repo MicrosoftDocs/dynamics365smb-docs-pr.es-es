@@ -39,3 +39,6 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 [Intercambio de datos](across-exchange-data.md)  
 [Documentos entrantes](across-income-documents.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

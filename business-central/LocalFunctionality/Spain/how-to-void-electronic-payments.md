@@ -43,3 +43,6 @@ En la versión en español de [!INCLUDE[prod_short](../../includes/prod_short.md
 
 [Configurar cuentas bancarias para realizar pagos electrónicos](how-to-set-up-bank-accounts-for-electronic-payments.md)  
 [Pagar a los proveedores mediante pagos electrónicos](how-to-pay-vendors-by-using-electronic-payments.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

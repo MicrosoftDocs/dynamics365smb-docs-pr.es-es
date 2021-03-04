@@ -48,3 +48,5 @@ La codeunit 22 examina los números de seguimiento de producto y divide el regis
 ## <a name="see-also"></a>Consulte también  
 [Detalles de diseño: Seguimiento de productos](design-details-item-tracking.md)   
 [Detalles de diseño: Diseño de seguimiento de productos](design-details-item-tracking-design.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

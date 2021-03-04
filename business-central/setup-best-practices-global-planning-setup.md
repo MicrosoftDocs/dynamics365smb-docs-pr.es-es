@@ -35,3 +35,6 @@ La ficha desplegable **Planificación** de la página **Configuración fabricaci
  [Detalles de diseño: planificación de aprovisionamiento](design-details-supply-planning.md)   
  [Configurar áreas de aplicación complejas mediante procedimientos recomendados](set-up-complex-application-areas-using-best-practices.md)  
  [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
