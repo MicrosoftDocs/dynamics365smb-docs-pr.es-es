@@ -3,19 +3,19 @@ title: Configurar contabilidad de costes | Documentos de Microsoft
 description: Antes de empezar a trabajar con la contabilidad de costes, debe realizar tareas de configuración.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 194e9acb40233e23470aee6e61f6cabc503cea72
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: eb56ba857c040b9e13ce68e9fb3dd0e5e2c85985
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746646"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390504"
 ---
 # <a name="setting-up-cost-accounting"></a>Configuración de contabilidad de costes
 Antes de empezar a trabajar con la contabilidad de costes, debe realizar tareas de configuración.

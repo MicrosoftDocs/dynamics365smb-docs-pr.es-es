@@ -3,19 +3,19 @@ title: 'Procedimiento: Crear saldos iniciales del diario | Documentos de Microso
 description: Business Central incluye varios trabajos por lotes que se proporcionen para ayudar en la transferencia de saldos de cuenta heredados a una empresa recién configurada. Puede transferir fácilmente estos datos con registros en los diarios.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8ffb5b8b90d0fdd4f3e1bd90271db8568c05d41e
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 9e1d936901f1a42991895c9e4b797a3238a24710
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753972"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5378278"
 ---
 # <a name="create-journal-opening-balances"></a>Crear saldos iniciales del diario
 

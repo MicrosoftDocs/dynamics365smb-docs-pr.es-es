@@ -3,19 +3,19 @@ title: 'Detalles de diseño: Advertencia registro coste esperado | Documentos de
 description: Los costes previstos representan la estimación, por ejemplo, del coste de un producto comprado registrado antes de recibir la factura de este producto.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 22e01f8b22c7f222674ff43090a27f5466dd8387
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 7f270804826291de186ddb2edd32a3fe40388500
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4751635"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5386929"
 ---
 # <a name="design-details-expected-cost-posting"></a>Detalles de diseño: Registro de coste previsto
 Los costes previstos representan la estimación, por ejemplo, del coste de un producto comprado registrado antes de recibir la factura de este producto.  

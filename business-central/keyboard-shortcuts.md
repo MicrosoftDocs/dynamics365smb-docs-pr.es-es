@@ -3,19 +3,19 @@ title: Métodos abreviados de teclado
 description: La lista completa de combinaciones de método abreviado de teclado para trabajar de manera eficaz con los datos.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 11/26/2020
 ms.author: bholtorf
-ms.openlocfilehash: f3c36a1b5d3477d6564c66ede9c1a6bff51281df
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 23ab336997bdc89e6de617676e2c2f5e2bd689e5
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746121"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470492"
 ---
 # <a name="keyboard-shortcuts"></a>Métodos abreviados de teclado
 
@@ -56,7 +56,6 @@ En la siguiente tabla se describen métodos abreviados de teclado para navegar y
 |Alt+Mayús+N |Cerrar una página recién creada y abrir una nueva para crear un nuevo registro. Del mismo modo, Alt+F9 registra un documento y crea uno nuevo.|
 |Alt+T|Abrir la página **Mi configuración**.|
 |Alt + Flecha hacia la derecha|Buscar información adicional o valores subyacentes para un campo que contiene el botón ![AssistEdit](media/assist-edit-icon.png "Botón AssistEdit"). Se usa cuando el botón desplegable habitual (Alt+flecha abajo) en el mismo campo se usa para otro propósito.|
-|Shift+F12|Abrir el explorador de roles, una descripción general de la función. Para obtener más información, vea [Búsqueda de páginas con el explorador de roles](ui-role-explorer.md).|
 |Ctrl+Alt+Mayús+C|Mostrar información en el distintivo de la empresa.|
 |Ctrl+Alt+F1|Abrir y cerrar el panel de inspección de la página. El panel de inspección de la página muestra información sobre la página, como su tabla de orígenes, campos, filtros, extensiones y más.<br /><br />Para obtener más información, vea [Inspección de páginas](across-inspect-page.md).|
 |Ctrl+C |Copiar el valor del campo. Si el campo tiene el enfoque y no ha seleccionado ningún texto en el campo, se copiará todo el valor. Si ha seleccionado texto en el campo, solo copiará el texto seleccionado.|
@@ -213,6 +212,18 @@ Al configurar un campo de fecha, puede introducir la fecha manualmente o abrir u
 |Ctrl++|Ampliar la página actual.|  
 |Ctrl+-|Alejar la página actual.|  
 |Ctrl+0|Acercar o alejar al 100 % la página actual.|  
+
+## <a name="keyboard-shortcuts-for-role-explorer"></a><a name="roleexplorer"></a>Atajos de teclado para el Explorador de roles
+
+El Explorador de roles le brinda una descripción general y acceso rápido a todas las características comerciales que están disponibles para su rol. Para obtener más información, vea [Búsqueda de páginas con el explorador de roles](ui-role-explorer.md).
+
+|Pulsar estas teclas<br />(en macOS)|Para hacer esto|
+|--------------------------------|----------|
+|Shift+F12|Abra el explorador de roles.|
+|F3|Abra el cuadro **Buscar** en el explorador de roles para encontrar características basadas en una palabra o término de búsqueda determinado.|
+|F3 o Ctrl+Flecha abajo|Mueve el foco a la siguiente característica encontrada en el explorador de roles. F3 moverá el foco a cuadro **Buscar** después de la última característica encontrada.|
+|Mayús F3 o Ctrl+Flecha arriba|Mueve el foco a la anterior característica encontrada en el explorador de roles.|
+|Ctrl+Mayús|Expanda o contraiga todos los subnodos, además de los nodos de nivel superior, cuando elija la acción **Expandir** o **Contraer**.|
 
 ## <a name="see-also"></a>Consulte también .
 

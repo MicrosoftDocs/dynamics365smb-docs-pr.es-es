@@ -3,19 +3,19 @@ title: 'Tutorial: seguimiento de números de serie/lote | Documentos de Microsof
 description: Este tema describe las acciones a tomar para dejar de vender un artículo defectuoso.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 8fc5da8ca5dc69f93dfa81d4f581a7323ad01811
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 51486dac343ed6047988acedc97122136ab61b3b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756372"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385729"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Tutorial: seguimiento de números de serie/lote
 
@@ -25,7 +25,7 @@ Cuando tienen lugar defectos en los productos, los errores deben identificarse y
 
 La primera tarea en la gestión de defectos es investigar de dónde procedían los productos defectuosos y dónde se han usado. Esta investigación se basa en datos históricos y se facilita mediante la búsqueda en las entradas de seguimiento de productos utilizando la página **Seguimiento productos**.  
 
-La segunda tarea en la gestión de defectos es determinar si los productos supervisados están planificados en documentos pendientes, como pedidos de venta no registrados o en diarios de consumo. Este trabajo se realiza en la página ****. Puede utilizar la función Buscar entradas para buscar todos los tipos de registros de base de datos.  
+La segunda tarea en la gestión de defectos es determinar si los productos supervisados están planificados en documentos pendientes, como pedidos de venta no registrados o en diarios de consumo. Este trabajo se realiza en la página **Buscar movimientos**. Puede utilizar la función Buscar movimientos para buscar todos los tipos de registros de base de datos.  
 
 ## <a name="about-this-walkthrough"></a>Acerca de este tutorial
 
@@ -64,7 +64,7 @@ A partir del departamento de ventas, el controlador de calidad averigua que la b
 
 Los resultados de esta primera tarea de seguimiento del productos identifican los cuadros de bicicletas que estaban defectuosos y el proveedor que los suministró. Después, pero dentro del mismo proceso de seguimiento global, el controlador de calidad debe encontrar todas las bicicletas de carreras vendidas que contengan cuadros de bicicletas del lote defectuoso, para poder detener o retirar dichos pedidos. Por último, el controlador de calidad debe encontrar los documentos pendientes en los que se usa el lote defectuoso, para no realizar más transacciones.  
 
-Las dos primeras tareas de gestión de defectos se realizan en la página **Seguimiento productos**. La última tarea se realiza en la página **buscar entradas**, en integración con la página **Seguimiento de productos**.  
+Las dos primeras tareas de gestión de defectos se realizan en la página **Seguimiento productos**. La última tarea se realiza en la página **Buscar movimientos**, en integración con la página **Seguimiento de productos**.  
 
 ## <a name="prepare-sample-data"></a>Preparar datos de ejemplo
 
@@ -227,7 +227,7 @@ A continuación, deberá crear diversas transacciones de compra, producción y v
     > [!NOTE]  
     >  No registre el último pedido de ventas de cinco cuadros.  
 
-    Así finaliza la preparación de datos para demostrar las características Seguimiento de productos y Buscar entradas.  
+    Así finaliza la preparación de datos para demostrar las características Seguimiento de productos y Buscar movimientos.  
 
 ## <a name="tracing-from-usage-to-origin"></a>Seguimiento desde el uso hasta el origen  
  En el departamento de ventas, el controlador de calidad averigua que la bicicleta de carrera devuelta, producto 1002, tiene el número de serie NS1. Con esta información básica, puede determinar dónde se utilizó por última vez la bicicleta de carreras terminada, en este caso, en el albarán de venta a Selangorian Ltd. A continuación, el controlador de calidad debe realizar un seguimiento hasta llegar al origen para establecer de qué número de lote procedía el cuadro de carreras defectuoso y qué proveedor lo suministró.  
@@ -279,25 +279,25 @@ A continuación, deberá crear diversas transacciones de compra, producción y v
 
     Al mismo tiempo, puede ver a partir de las tres últimas líneas de seguimiento que otros dos productos, SN3 y SN4, se han producido basándose en cuadros de bicicletas de LOT1. Toma medidas para bloquear los productos finales en existencias.  
 
-    De este modo finaliza la segunda tarea de gestión de defectos mediante la página **Seguimiento productos**. Dado que la página **Seguimiento de productos** se basa únicamente en los movimientos registrados, el controlador de calidad debe continuar hasta la página **Buscar entradas** para asegurarse de que LOT1 no se utiliza en documentos no registrados.  
+    De este modo finaliza la segunda tarea de gestión de defectos mediante la página **Seguimiento productos**. Dado que la página **Seguimiento de productos** se basa únicamente en los movimientos registrados, el controlador de calidad debe continuar hasta la página **Buscar movimientos** para asegurarse de que LOT1 no se utiliza en documentos no registrados.  
 
 ## <a name="finding-all-records-of-a-seriallot-number"></a>Búsqueda de un número de serie/lote en todos los registros  
- Con la página **Seguimiento productos**, el controlador de calidad ha averiguado que LOT1 contenía los cuadros de bicicletas defectuosos, qué proveedor los suministró y en qué transacción registrada se han usado. Ahora debe determinar si existe LOT1 en algún documento pendiente mediante la integración del resultado del seguimiento en la página **Buscar entradas**, donde puede realizar una búsqueda en todos los registros de la base de datos.  
+ Con la página **Seguimiento productos**, el controlador de calidad ha averiguado que LOT1 contenía los cuadros de bicicletas defectuosos, qué proveedor los suministró y en qué transacción registrada se han usado. Ahora debe determinar si existe LOT1 en algún documento abierto mediante la integración del resultado del seguimiento en la página **Buscar movimientos**, donde puede realizar una búsqueda en todos los registros de la base de datos.  
 
 ### <a name="to-find-all-occurrences-of-lot1-in-non-posted-records-such-as-open-orders"></a>Para buscar todas las incidencias de LOT1 en registros no registrados, como pedidos pendientes  
 
 1.  En la página **Seguimiento productos**, seleccione en la primera línea de seguimiento, el albarán de compras de LOT1.  
-2.  Seleccione la acción **Buscar entradas**.  
+2.  Seleccione la acción **Buscar movimientos**.  
 
-    La página **Buscar entradas** está predefinida con filtros de búsqueda basados en el resultado del seguimiento para LOT1. El controlador de calidad reconoce la mayoría de los registros como pertenecientes a documentos ya identificados en la página **Seguimiento productos**. Por ejemplo, la última línea de Buscar entradas del tipo Orden de producción hace referencia a las dos órdenes de producción emitidas consumieron cuadros de bicicletas de LOT1.  
+    La página **Buscar movimientos** está predefinida con filtros de búsqueda basados en el resultado del seguimiento para LOT1. El controlador de calidad reconoce la mayoría de los registros como pertenecientes a documentos ya identificados en la página **Seguimiento productos**. Por ejemplo, la última línea de Buscar movimientos del tipo Orden de producción hace referencia a las dos órdenes de producción emitidas consumieron cuadros de bicicletas de LOT1.  
 
-    Sin embargo, la segunda línea Buscar entradas del tipo **Línea de venta** es una línea de documento sin registrar, por lo que el controlador de calidad continúa investigando.  
+    Sin embargo, la segunda línea Buscar movimientos del tipo **Línea de venta** es una línea de documento sin registrar, por lo que el controlador de calidad continúa investigando.  
 
-3.  Para abrir el registro de la línea de ventas, seleccione la segunda línea Buscar entradas y elija la acción **Mostrar**. De manera alternativa, elija el valor en el campo **Nº registros**.  
+3.  Para abrir el registro de la línea de ventas, seleccione la segunda línea Buscar movimientos y elija la acción **Mostrar**. De manera alternativa, elija el valor en el campo **Nº registros**.  
 
     Aquí, el controlador de calidad ve una línea de ventas pendiente para los cuadros de bicicletas defectuosos. Sugiere inmediatamente al departamento de ventas que se cancele este pedido y que se inicie una nueva orden de producción basada en cuadros de bicicleta en buenas condiciones.  
 
- De este modo finaliza el tutorial sobre cómo usar la página **Buscar entradas** para la gestión de defectos en la integración con la página **Seguimiento de productos**.  
+ De este modo finaliza el tutorial sobre cómo usar la página **Buscar movimientos** para la gestión de defectos en la integración con la página **Seguimiento de productos**.  
 
 ## <a name="see-also"></a>Consulte también
 [Trabajar con números de lote y de serie](inventory-how-work-item-tracking.md)  

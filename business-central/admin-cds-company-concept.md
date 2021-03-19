@@ -3,19 +3,19 @@ title: Asignación de empresas y unidades de negocio | Microsoft Docs
 description: Las empresas son construcciones legales y comerciales, y se utilizan para proteger y visualizar datos comerciales.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: CDS, , integration, sync
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 22411c8392cf81b25b1f11f221bbd98942f653f4
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: f218b50e40f6bb0e8e9ab3be8fcd00d23b1adbe2
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754097"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5378728"
 ---
 # <a name="data-ownership-models"></a>Modelos de propiedad de datos
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]

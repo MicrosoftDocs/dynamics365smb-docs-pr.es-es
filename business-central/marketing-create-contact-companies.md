@@ -3,19 +3,19 @@ title: Crear contactos comerciales
 description: Describe las tareas para crear contactos y definir sus relaciones de negocio.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 01/05/2021
 ms.author: edupont
-ms.openlocfilehash: 42645a038c3937644fe90ce895ee454e1d1b5d5c
-ms.sourcegitcommit: fe6943d410f5dca4e8b2986f95501009ae982d98
+ms.openlocfilehash: f07bc493a88f7ce46d3845a97774d0971c0fe5ba
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "4827048"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388904"
 ---
 # <a name="create-contacts"></a>Crear contactos
 Cuando desarrolle una relación comercial con alguien de otra empresa, agréguelo como contacto en [!INCLUDE[prod_short](includes/prod_short.md)]. Luego, agregue cualquier información sobre ellos o su empresa que pueda ser útil para futuras comunicaciones. En la página **Tarjeta de contacto**, puede crear los siguientes tipos de contactos:

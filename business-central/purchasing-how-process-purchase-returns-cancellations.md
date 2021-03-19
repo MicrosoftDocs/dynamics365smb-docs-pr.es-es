@@ -3,19 +3,19 @@ title: Proceso de devoluciones o cancelaciones | Documentos de Microsoft
 description: Explica cómo crear y registrar un abono de compra cuando se desean devolver productos a un proveedor o cancelar servicios comprados.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cancel, undo, correct
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0f8cc23b4108b460f4a9c6d890dcfd962b23f9e1
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 674d178fca457e7b8b1f73d526245d64fbd6d35a
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748748"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5383130"
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Procesamiento de devoluciones de compra o cancelaciones
 

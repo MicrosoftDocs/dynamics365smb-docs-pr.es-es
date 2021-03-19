@@ -3,19 +3,19 @@ title: 'Detalles de diseño: Aprovisionamiento y demanda | Documentos de Microso
 description: Este tema introduce el concepto de demanda, que es el término común usado para todo tipo de demanda bruta, como un pedido de venta o una necesidad de componente de una orden de producción.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, demand, supply, inventory, planning
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4661104e32e648cc134b3ba0c3d44b5a8c6daca6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cbafba8d012244b10c142912b357188a1f7eece4
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911210"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5386954"
 ---
 # <a name="design-details-demand-at-blank-location"></a>Detalles de diseño: Demanda en almacén vacío
 Cuando un usuario crea un evento de demanda, como una línea de pedido de venta, unas veces el programa permite que especifique un código de almacén y otras no, es decir, usa un almacén en blanco.

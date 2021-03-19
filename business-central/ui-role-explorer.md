@@ -3,19 +3,19 @@ title: Exploración y navegación de páginas por rol | Documentos de Microsoft
 description: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dc96e0f21a85e98bc871cf90972d397f70e1eb44
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: ef447ca9d0341983b43c0c90c96698ccc0eab77a
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756698"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470317"
 ---
 # <a name="finding-pages-with-the-role-explorer"></a>Búsqueda de páginas con el explorador de roles
 Puede obtener una descripción general de todas las funciones empresariales que están disponibles para su rol y para otros roles si va un paso más allá. En la siguiente documentación, esta descripción general de funciones se denomina *explorador de roles*.
@@ -39,7 +39,9 @@ Las acciones que abren las páginas están organizadas en nodos con el nombre de
 
 - Para expandir/contraer un nodo, elija el nodo. Esto se aplica a los nodos de nivel superior y los subnodos.
 - Para expandir/contraer todos los nodos de nivel superior de la página, elija la acción **Expandir** o **Contraer** en la esquina superior derecha.
-- Para expandir/contraer un nodo de nivel superior y todos los subnodos debajo de él, pulse las teclas Ctrl+Mayús mientras elige la acción **Expandir** o **Contraer** en la esquina superior derecha.
+- Para expandir o contraer todos los nodos de nivel superior y todos los subnodos dependientes, realice uno de los siguientes pasos:
+    - Presione las teclas Ctrl+Mayús mientras elige la acción **Expandir** o **Contraer** en la esquina superior derecha.
+    - Elija **...** en la esquina superior derecha y luego elija la acción **Expandir todo** o **Contraer todo**.
 
 ## <a name="see-also"></a>Consulte también
 [Búsqueda de páginas e información con Dígame](ui-search.md)  

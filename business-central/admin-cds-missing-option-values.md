@@ -6,21 +6,23 @@ ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.date: 10/01/2020
-ms.openlocfilehash: 65911039894d1f0eb81aeb1160a6b2aafc2fae0c
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 2b6d27ed04eb7f09bc884930105867c25b2b4a5f
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752880"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5492967"
 ---
 # <a name="handling-missing-option-values"></a>Administración de valores de opciones que faltan
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
-[!INCLUDE[prod_short](includes/cds_long_md.md)] contiene solo tres campos de conjunto de opciones que contienen valores de opciones que puede asignar a campos [!INCLUDE[prod_short](includes/prod_short.md)] de tipo de opción<!-- Option type, not enum? @Onat can you vertify this? --> para sincronización automática. Durante la sincronización, las opciones no asignadas se ignoran y las opciones que faltan se anexan a la tabla [!INCLUDE[prod_short](includes/prod_short.md)] relacionada y se agregan la tabla de sistema **Asignación de opciones de CDS** para su administración manual más tarde. Por ejemplo, agregando las opciones que faltan en cualquiera de los productos y luego actualizando la asignación. Esta sección describe cómo funciona.
+Este tema está destinado a una audiencia técnica. Los procesos que describe requieren la ayuda de un desarrollador.
 
-La página **Asignación de tablas de integración** contiene tres mapas de campos con uno o más valores de opciones asignados. Después de una sincronización completa, la página **Asignación de opciones de CDS** contiene las opciones no asignadas en los tres campos respectivamente.
+[!INCLUDE[prod_short](includes/cds_long_md.md)] contiene tres campos de conjunto de opciones que contienen valores que puede asignar a campos [!INCLUDE[prod_short](includes/prod_short.md)] de tipo Opción para la sincronización automática. Durante la sincronización, las opciones no asignadas se ignoran y las opciones que faltan se anexan a la tabla [!INCLUDE[prod_short](includes/prod_short.md)] relacionada y se agregan a la tabla del sistema **Asignación de opciones de Dataverse** para su administración manual más tarde. Por ejemplo, agregando las opciones que faltan en cualquiera de los productos y luego actualizando la asignación.
+
+La página **Asignación de tablas de integración** contiene tres campos con uno o más valores de opciones asignados. Después de una sincronización completa, la página **Asignación de opciones de Dataverse** contiene las opciones no asignadas en los tres campos.
 
 |         Registro             | Valor de opción | Título del valor de opción |
 |----------------------------|--------------|----------------------|
@@ -38,7 +40,7 @@ La página **Asignación de tablas de integración** contiene tres mapas de camp
 | Transportista: FULLLOAD   | 6            | Carga completa            |
 | Transportista: WILLCALL   | 7            | Recogida a cargo del cliente            |
 
-El contenido de la página **Asignación de opciones de CDS** se basa en los valores de enumeración de la tabla **Cuenta de CDS**. En [!INCLUDE[prod_short](includes/cds_long_md.md)], los siguientes campos en la tabla de cuenta se asignan a campos en los registros de clientes y proveedores:
+El contenido de la página **Asignación de opciones de Dataverse** se basa en los valores de enumeración de la tabla **Cuenta de CRM**. En [!INCLUDE[prod_short](includes/cds_long_md.md)], los siguientes campos en la tabla de cuenta se asignan a campos en los registros de clientes y proveedores:
 
 - **Dirección 1: Términos de flete** del tipo de datos Enum, donde los valores se definen de la siguiente manera:
 
@@ -55,7 +57,6 @@ enum 5335 "CDS Shipment Method Code"
 - **Dirección 1: Método de envío** del tipo de datos Enum, donde los valores se definen de la siguiente manera:
 
 ```
-enum 5336 "CDS Shipping Agent Code"
 enum 5336 "CDS Shipping Agent Code"
 {
     Extensible = true;
@@ -111,7 +112,7 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 ### <a name="update-prod_short-option-mapping"></a>Actualizar la asignación de opciones [!INCLUDE[prod_short](includes/cds_long_md.md)]
 Ahora puede recrear la asignación entre las opciones [!INCLUDE[prod_short](includes/cds_long_md.md)] y los registros [!INCLUDE[prod_short](includes/prod_short.md)].
 
-En la página **Asignación de tablas de integración**, elija la línea para la asignación **Condiciones de pago** y luego elija la acción **Sincronizar registros modificados**. La página **Asignación de opciones de CDS** se actualiza con los registros adicionales siguientes.
+En la página **Asignación de tablas de integración**, elija la línea para la asignación **Condiciones de pago** y luego elija la acción **Sincronizar registros modificados**. La página **Asignación de opciones de Dataverse** se actualiza con los registros adicionales siguientes.
 
 |         Registro                 | Valor de opción   | Título del valor de opción |
 |--------------------------------|----------------|----------------------|
@@ -122,7 +123,7 @@ En la página **Asignación de tablas de integración**, elija la línea para la
 | **Condiciones de pago: CASH PAYME**  | **779800001**  | **Pago efectivo**     |
 | **Condiciones de pago: TRANSFER**    | **779800002**  | **Transferencia**         |
 
-La tabla **Condiciones de pago** de [!INCLUDE[prod_short](includes/prod_short.md)] tendrá nuevos registros para las opciones [!INCLUDE[prod_short](includes/cds_long_md.md)]. En la siguiente tabla, las nuevas opciones están en negrita. Las filas en cursiva representan todas las opciones que ahora se pueden sincronizar. Las filas restantes representan opciones que no están en uso y se ignorarán durante la sincronización. Puede eliminarlas o ampliar las opciones de CDS con los mismos nombres.
+La tabla **Condiciones de pago** de [!INCLUDE[prod_short](includes/prod_short.md)] tendrá nuevos registros para las opciones [!INCLUDE[prod_short](includes/cds_long_md.md)]. En la siguiente tabla, las nuevas opciones están en negrita. Las filas en cursiva representan todas las opciones que ahora se pueden sincronizar. Las filas restantes representan opciones que no están en uso y se ignorarán durante la sincronización. Puede eliminarlas o ampliar las opciones de Dataverse con los mismos nombres.
 
 | Code       | Cálculo de fecha de vencimiento | Fecha cálculo dto. P.P. | % descuento | Calc. dto. P.P. en abonos | Descripción       |
 |------------|----------------------|---------------------------|------------|-------------------------------|-------------------|
@@ -136,10 +137,10 @@ La tabla **Condiciones de pago** de [!INCLUDE[prod_short](includes/prod_short.md
 | 30 DÍAS    | 30D                  |                           | 0.         | FALSE                         | Neto 30 días       |
 | 60 DÍAS    | 60D                  |                           | 0.         | FALSE                         | Neto 60 días       |
 | 7 DÍAS     | 7D                   |                           | 0.         | FALSE                         | Neto 7 días        |
-| ***CASH PAYME** _ |                      |                           | 0.         | FALSE                         |                   |
+| ***CASH PAYME*** |                      |                           | 0.         | FALSE                         |                   |
 | PM         | PM                   |                           | 0.         | FALSE                         | Mes actual     |
 | COD        | 0D                   |                           | 0.         | FALSE                         | Contado  |
-| _NET30*      |                      |                           | 0.         | FALSE                         |                   |
+| *NET30*      |                      |                           | 0.         | FALSE                         |                   |
 | *NET45*      |                      |                           | 0.         | FALSE                         |                   |
 | *NET60*      |                      |                           | 0.         | FALSE                         |                   |
 | ***TRANSFER*** |                      |                           | 0.         | FALSE                         |                   |

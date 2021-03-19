@@ -3,19 +3,19 @@ title: Estadísticas de servicio | Documentos de Microsoft
 description: Obtenga una visión general del contenido de los documentos de servicio, como pedidos, ofertas, facturas o abonos, los detalles sobre las líneas de servicio específicas y los productos de servicio.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 55c534d1f8a836775548d118f68383622ca25dec
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0529242e3c19fa09d7cf8f5acd125f557e5c3b60
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913076"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5391229"
 ---
 # <a name="viewing-service-statistics"></a>Visualización de estadísticas de servicio
 Puede utilizar estadísticas para analizar los documentos de servicio y determinar el cómo de bien está gestionando sus procesos de servicio. Puede analizar los contratos de servicio, los productos, ofertas, pedidos, facturas y abonos eligiendo la acción **Estadísticas**. Para los productos y contratos de servicios, también puede usar **Trendscape porducto de servicio** o **Trendscape contrato** para ver un resumen de los movimientos de servicio para un producto de servicio determinado.   

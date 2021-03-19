@@ -3,19 +3,19 @@ title: Cambios en los procedimientos de registro en el diario general en la code
 description: En versiones anteriores, se cambió la codeunit 12 para ayudar a mejorar el rendimiento en la publicación del diario general. Obtenga información sobre los cambios en los procedimientos de publicación en este artículo.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/28/2020
 ms.author: edupont
-ms.openlocfilehash: c1ec373b6c7226d6b2548f2b29f326dcd9c6a459
-ms.sourcegitcommit: a95681db16e81af109b34f8e5d88028c1552c6a2
+ms.openlocfilehash: 43232e1c38176bc947d33b5e3f55b7535afbcad4
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4367914"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390554"
 ---
 # <a name="historical-changes-to-codeunit-12-changes-in-general-journal-post-procedures"></a>Cambios históricos en la codeunit 12: cambios en los procedimientos de registro en el diario general
 

@@ -3,19 +3,19 @@ title: Creación de L.M. de producción
 description: Una L.M. de producción contiene datos maestros que describen los componentes y los productos semiterminados utilizados en la fabricación de un producto principal. Una vez creada la orden de producción para el producto principal, la L.M. de producción controlará el cálculo de las necesidades de material tal como se representan en la página **Componentes orden producción**.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 01/05/2020
 ms.author: edupont
-ms.openlocfilehash: 5c9f2fa03f5f20e533237e60762dc60fc679d0d0
-ms.sourcegitcommit: cdba82235c0c07497bd04b9bd5134ef245d92c09
+ms.openlocfilehash: 5861d4bc576a0afe52292661138de0898297a33f
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "4838487"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5379907"
 ---
 # <a name="create-production-boms"></a>Crear LM de producción
 

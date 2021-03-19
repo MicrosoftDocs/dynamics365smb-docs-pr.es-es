@@ -3,19 +3,19 @@ title: Acerca de la contabilidad de costes | Documentos de Microsoft
 description: La contabilidad de costes puede ayudarle a conocer los costes de la dirección de una empresa.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1e65f73e0c876cd19750d88144e93c1157268e28
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: eb86ebbb8b60f2b9744f619b27bff86ab0b69c30
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4751060"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5379678"
 ---
 # <a name="about-cost-accounting"></a>Acerca de la contabilidad de costes
 La contabilidad de costes puede ayudarle a conocer los costes de la dirección de una empresa. La información de contabilidad de costes se ha diseñado para analizar:  

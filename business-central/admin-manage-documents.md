@@ -3,15 +3,15 @@ title: Administre el almacenamiento eliminando documentos o comprimiendo datos
 description: Descubra cómo puede mantener sus datos históricos comprimiendo las entradas del libro mayor, o elimínelas.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f0d713f57345c312ddbfe6b5462f2623b1088dfc
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: b17e4df039ef713bf5c0048d258aefd175157ba4
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753872"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493052"
 ---
 # <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Administrar el almacenamiento eliminando documentos o comprimiendo datos
 
@@ -47,7 +47,13 @@ Puede comprimir los siguientes tipos de datos en [!INCLUDE [prod_short](includes
   Después de la compresión, con la utilidad **Guardar contenido campo**, podrá conservar el contenido de los campos **N.º documento, Nuestro contacto**, **Código de dimensión global 1** y **Código de dimensión global 2**.
 * Movimientos de proveedores
 
-  Después de la compresión, siempre se retiene el contenido de los siguientes campos: **Fecha de registro**, **N.º proveedor**, **Tipo de documento**, **Código de divisa**, **Grupo contable**, **Importe**, **Importe pendiente**, **Importe inicial (DL)**, **Importe pendiente (DL)**, **Importe (DL)**, **Beneficio (DL)**, **Dto. factura (DL)**, **Dto. P.P (DL)** y **Posible descuento P.P.**.
+> [!NOTE]
+> Las entradas comprimidas para clientes, proveedores, bancos y libros auxiliares FA se contabilizan de forma ligeramente diferente a la contabilización estándar. Esto es para reducir el número de nuevos movimientos de contabilidad creados por la compresión de fechas, y es especialmente importante cuando mantiene información como dimensiones y números de documentos. La compresión de fechas crea nuevas entradas de la siguiente manera:
+>* En la página **Movimientos de contabilidad**, se crean nuevas entradas con nuevos números de entrada para las entradas comprimidas. El campo **Descripción** contiene **Comprimido por fechas** para que las entradas comprimidas sean fáciles de identificar. 
+>* En las páginas del libro mayor, como la página **Movimientos de contabilidad**, se crean uno o más movimientos con nuevos números de movimientos. 
+> El proceso de contabilización crea espacios en la serie de números para las entradas de la página **Movimientos de contabilidad**. Esos números se asignan solo a las entradas en las páginas del libro mayor. El rango de números que se asignó a los movimientos está disponible en la **Página de registro de P/G**, en los campos **Desde el número de movimiento** y **Hasta el número de movimiento**. 
+
+Después de la compresión, siempre se retiene el contenido de los siguientes campos: **Fecha de registro**, **N.º proveedor**, **Tipo de documento**, **Código de divisa**, **Grupo contable**, **Importe**, **Importe pendiente**, **Importe inicial (DL)**, **Importe pendiente (DL)**, **Importe (DL)**, **Beneficio (DL)**, **Dto. factura (DL)**, **Dto. P.P (DL)** y **Posible descuento P.P.**.
 
   Mediante la utilidad **Guardar contenido campo** también podrá conservar el contenido de los siguientes campos adicionales: **N.º documento**, **Comprar a N.º proveedor**, **Código de comprador**, **Código de dimensión global 1** y **Código de dimensión global 2**.
 

@@ -3,19 +3,19 @@ title: Configuración de registro de transacciones entre empresas | Documentos d
 description: Cree sus proveedores y clientes de empresas vinculadas, como los llamados socios de empresas vinculadas, y configure un plan de cuentas de empresas vinculadas.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 12/15/2020
 ms.author: edupont
-ms.openlocfilehash: 81e19144e309e98c7887f264ac914202690977cc
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: ca8cfec87e0e315562dceca0a48e29b2f1fa577c
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4750135"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5389029"
 ---
 # <a name="set-up-intercompany"></a>Configurar empresa vinculada
 

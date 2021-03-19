@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process
 ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: 04ae13561f44d544d38b04e3a881a0e707b441b4
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 14fd7402e1aec552de47cff07078d767d795e9a7
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4760522"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388179"
 ---
 # <a name="run-batch-jobs-and-xmlports"></a>Ejecutar trabajos por lotes y XMLports
 Un proceso es una rutina que procesa datos por lotes, por ejemplo, el proceso **Ajustar tipo cambio**. Hay procesos que realizan actividades contables periódicas como, por ejemplo, el asiento de regularización al final de un ejercicio. Muchos procesos realizan cálculos, como el cálculo de intereses, el ajuste tipo cambio y el cálculo de precios de venta.

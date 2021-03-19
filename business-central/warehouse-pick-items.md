@@ -3,19 +3,19 @@ title: Elegir productos | Documentos de Microsoft
 description: La actividad de almacén consistente en realizar el picking de los productos antes de enviarlos o consumirlos se realiza de modo distinto según estén configuradas las funciones de gestión del almacén. La complejidad de la configuración puede oscilar desde la ausencia total de funciones de almacén, pasando por configuraciones de almacén básicas para la gestión pedido-por-pedido en sólo una o más actividades, hasta configuraciones más avanzadas en las que todas las actividades del almacén se llevan a cabo como parte de un flujo de trabajo dirigido.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b9e4bf86ec68ad06a22c0a9dcca37eecffb0316b
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 45bc4c666abe150b2269f16ca6e433393b2ac2df
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4755797"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5382259"
 ---
 # <a name="pick-items"></a>Elegir productos
 

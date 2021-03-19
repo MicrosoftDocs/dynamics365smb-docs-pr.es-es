@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 4c83569cf8aaa53e733754f05704d8b258d8dc50
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 0ebed6a95212fdcf00b54af823684ae139e29638
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4750210"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388479"
 ---
 # <a name="allocate-costs-to-intercompany-partners"></a>Asignar costos a socios entre empresas
 Cuando utiliza contabilizaciones de empresas vinculadas para transferir documentos entre empresas asociadas, las parametrizaciones relacionadas con el IVA (principalmente el grupo de contabilización comercial de IVA) asignadas a las cuentas de cliente o proveedor (asociadas con el socio de empresas vinculadas) controlan si y cómo se calcula y registra el IVA. También puede realizar distribuciones de costos directamente desde una orden de compra a empresas asociadas. Por ejemplo, si registra una factura de compra de un proveedor externo y desea distribuir algunos o todos los costos a uno o más socios de empresas vinculadas.

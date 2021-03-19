@@ -3,19 +3,19 @@ title: 'Detalles de diseño: Flujos internos de almacén | Documentos de Microso
 description: El flujo de productos entre las ubicaciones en una ubicación de empresa se centra en el picking de los componentes y en la ubicación de productos para los pedidos de ensamblado u órdenes de producción, y en los movimientos ad hoc, como reposiciones de ubicación, sin una relación con los documentos de origen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d6b59df9677216cfcc3fd7e60ec92b1a17890763
-ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
+ms.openlocfilehash: 62764eed0792a20fbc303599a0cfa2baabb638cc
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "5035736"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5389979"
 ---
 # <a name="design-details-internal-warehouse-flows"></a>Detalles de diseño: Flujos de almacén internos
 El flujo de productos entre las ubicaciones en una ubicación de empresa se centra en el picking de los componentes y en la ubicación de productos para los pedidos de ensamblado u órdenes de producción, y en los movimientos ad hoc, como reposiciones de ubicación, sin una relación con los documentos de origen. El ámbito y la naturaleza de las actividades implicadas varía entre almacenamiento básico y avanzado.  

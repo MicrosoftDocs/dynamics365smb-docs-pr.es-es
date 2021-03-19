@@ -3,18 +3,18 @@ title: Ver bloqueos de base de datos
 description: Descubra cómo puede ver información sobre cualquier bloqueo de base de datos directamente desde la interfaz del cliente en Business Central.
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 6880ffa9a2ab42c1af7c22f9cace64697c9f905b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 640608b810f3ad9812decc493ad4e35bcc316f98
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922322"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388154"
 ---
 # <a name="viewing-database-locks"></a>Ver bloqueos de base de datos
 

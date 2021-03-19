@@ -3,19 +3,19 @@ title: 'Procedimiento: Configurar un servicio de intercambio de documentos | Doc
 description: Para intercambiar documentos electrónicos con socios comerciales se usa un proveedor de servicios externo.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 92a1b6118f0617dfd219ab38be5ff8d029a68275
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 0217f077c9c38603b9e3ff945fd47394c5b943bb
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754722"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5384379"
 ---
 # <a name="set-up-a-document-exchange-service"></a>Configurar un servicio de intercambio de documentos
 Para intercambiar documentos electrónicos con socios comerciales se usa un proveedor de servicios externo. Para obtener más información, vea [Intercambio de datos electrónicamente](across-data-exchange.md).  

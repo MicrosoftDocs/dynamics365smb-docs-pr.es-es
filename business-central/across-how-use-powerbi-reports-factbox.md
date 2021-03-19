@@ -3,19 +3,19 @@ title: Mostrar informes de Power BI personalizados para datos de Business Centra
 description: Puede usar los informes de Power BI para obtener información adicional sobre los datos en las listas.
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 069efcef517cd442539f13fad5e5a2c89e1533ff
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 6c818940357ed21a994e7553517989a0c16accec
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754472"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5379278"
 ---
 # <a name="creating-power-bi-reports-for-displaying-list-data-in-prod_short"></a>Crear informes de Power BI para mostrar datos de lista en [!INCLUDE[prod_short](includes/prod_short.md)]
 

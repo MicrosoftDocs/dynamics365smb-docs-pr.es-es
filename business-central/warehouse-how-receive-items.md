@@ -3,19 +3,19 @@ title: Cómo recibir productos | Documentos de Microsoft
 description: Cuando los productos llegan al almacén, se recuperan las líneas del documento de origen que ha activado su recepción. 
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9b58caa880dce813439a2ce4ab2b9da8dccddae5
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 4ec09a0b265672aae22746a9b0e233e028d50bde
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756347"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393504"
 ---
 # <a name="receive-items"></a>Recibir productos
 

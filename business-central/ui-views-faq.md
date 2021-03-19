@@ -3,19 +3,19 @@ title: Preguntas frecuentes sobre las vistas de lista
 description: Información detallada sobre cómo guardar filtros como vistas de lista.
 author: mikebcMSFT
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: list, filter, pane, views
 ms.date: 10/01/2020
 ms.author: mikebc
-ms.openlocfilehash: f39e20a9b4dae7e84c491d6d28308133f4691c05
-ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
+ms.openlocfilehash: 17d7c909865bc077097ba4299e07ed2dd9cedb22
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5024519"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392479"
 ---
 # <a name="list-views-faq"></a>Preguntas frecuentes sobre vistas de lista
 Este artículo responde preguntas que nuestros usuarios avanzados hacen a menudo sobre cómo trabajar con vistas de lista y guardar filtros.  

@@ -3,17 +3,17 @@ title: Números de documento externo y ejercicios
 description: Opción de configuración para decidir si debería ser posible reutilizar números de documento externo en los ejercicios.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.reviewer: edupont
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: 22a1aeb32354b9e14b10d0e2248d25794cfb1ada
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 8c1cd77d27259ea40dee3a600b6cc4c9314774eb
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753207"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5382065"
 ---
 # <a name="using-the-same-external-document-numbers-accross-fiscal-years"></a>Uso de los mismos números de documento externo en todos los ejercicios
 En general, [!INCLUDE[prod_short](../../includes/prod_short.md)] no permite registrar documentos con el mismo valor en **N.º documento externo**, ni siquiera en ejercicios anteriores, debido a la legislación. En España, sin embargo, esto está aceptado, y [!INCLUDE[prod_short](../../includes/prod_short.md)] ahora incluye una opción para permitir este comportamiento. 

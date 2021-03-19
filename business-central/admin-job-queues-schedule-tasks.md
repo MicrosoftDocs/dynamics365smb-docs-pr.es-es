@@ -3,19 +3,19 @@ title: Programar proyectos para que se ejecuten automáticamente
 description: Las tareas programadas son administradas por la cola de proyecto. Estos proyectos ejecutan informes y codeunits. Puede configurar proyectos para que se ejecuten una vez o de manera periódica.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 01/12/2021
 ms.author: edupont
-ms.openlocfilehash: 29b5b3f633b0fd9fcac648f0bf7149b87ae0b20d
-ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+ms.openlocfilehash: 074a110a4aac42d9b6058e377c45de0c23409bb2
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5013951"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470267"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Uso de colas de proyectos para programar tareas
 
@@ -57,7 +57,7 @@ La siguiente tabla describe los valores del campo **Estado**.
 2. En la página **Movs. cola proyectos**, seleccione un movimiento de la cola de proyectos y luego elija la acción **Registrar movs**.  
 
 > [!TIP]
-> Con [!INCLUDE [prod_short](includes/prod_short.md)] en línea, también puede ver el estado de las entradas de la cola de trabajos utilizando Application Insights en Microsoft Azure. Para más información, ver [Análisis de la telemetría de seguimiento del ciclo de vida de la cola de trabajos](/dynamics365smb-devitpro\dev-itpro\administration\telemetry-job-queue-lifecycle-trace) en la Ayuda para desarrolladores y profesionales de TI de [!INCLUDE [prod_short](includes/prod_short.md)].
+> Con [!INCLUDE [prod_short](includes/prod_short.md)] en línea, también puede ver el estado de las entradas de la cola de trabajos utilizando Application Insights en Microsoft Azure. Para más información, consulte [Análisis de la telemetría de seguimiento del ciclo de vida de la cola de trabajos](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace) en el contenido de desarrolladores y administración de [!INCLUDE [prod_short](includes/prod_short.md)].
 
 ## <a name="the-my-job-queue-part"></a>El apartado de Mi cola proyecto
 El apartado **Mi cola proyecto** del Área de trabajo muestra los movimientos de colas de proyectos que se han iniciado, pero que aún no han finalizado. Por defecto, el apartado no puede verse, por lo que tiene que agregarlo en el área de trabajo. Para obtener más información, consulte [Personalizar el área de trabajo](ui-personalization-user.md).  
@@ -92,7 +92,7 @@ Para obtener más información, consulte [Para configurar el registro de fondo c
 [Administración](admin-setup-and-administration.md)  
 [Configuración de Business Central](setup.md)  
 [Cambiar la configuración básica](ui-change-basic-settings.md)  
-[Análisis de la telemetría de seguimiento del ciclo de vida de la cola de trabajos](/dynamics365smb-devitpro\dev-itpro\administration\telemetry-job-queue-lifecycle-trace)  
+[Análisis de la telemetría de seguimiento del ciclo de vida de la cola de trabajos](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

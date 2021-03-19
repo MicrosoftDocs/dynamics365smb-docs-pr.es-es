@@ -3,19 +3,19 @@ title: Usar los datos para crear una aplicación | Documentos de Microsoft
 description: Puede hacer que los datos de Business Central estén disponibles como un origen de datos y especificar una URL de OData de sus servicios web para crear una aplicación empresarial con Power Apps.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: OData, Power App, SOAP
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5d2e6b75978d9aced7636b41623365f3d98ed3aa
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 0bfa7a36a7655b4b26dfbfd11688fe42eeb19cfe
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754497"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5379328"
 ---
 # <a name="connecting-to-your-business-central-data-to-build-a-business-app-using-power-apps"></a>Cómo conectarse a sus datos de Business Central para crear una aplicación empresarial con Power Apps
 

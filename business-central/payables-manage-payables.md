@@ -3,19 +3,19 @@ title: Resumen de tareas para administrar las cuentas por pagar | Documentos de 
 description: Describe las tareas para administrar los pagos, por ejemplo, los pagos a acreedores o la liquidación de pagos salientes en movimientos para cerrar facturas o abonos.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9257259fd6de8e118dd48057809cba79576469a5
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: d51c409f03634258898e290bc22588d8f6386e68
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4759547"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5387204"
 ---
 # <a name="managing-payables"></a>Administración de pagos
 

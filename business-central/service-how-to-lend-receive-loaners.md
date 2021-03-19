@@ -3,19 +3,19 @@ title: Cómo prestar productos de servicio como sustitución | Documentos de Mic
 description: Puede ofrecer a los clientes productos de préstamo para reemplazar temporalmente productos de servicio recibidos para servicio.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: fd5fc6ad6dabcd3c7bc47caa1af4810474d9a6da
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7e7aa8f1b29a81011d0451a98f3d7551cd4a1f6a
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918668"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390304"
 ---
 # <a name="lend-and-receive-loaners"></a>Prestar y recibir productos prestados
 Puede prestar productos a los clientes para reemplazar temporalmente productos de servicio recibidos para servicio.  
@@ -36,7 +36,7 @@ Cuando reciba un producto prestado de un cliente, deberá registrar el albarán.
 4. Elija **Acciones**, seleccione **Funciones** y , a continuación, elija **Recibir prod. prestado**.  
 
 ## <a name="to-register-loaner-comments"></a>Para registrar comentarios de productos prestados  
-Puede utilizar la página **Comentarios generales**para registrar comentarios acerca de productos prestados registrados.  
+Puede utilizar la página **Comentarios generales** para registrar comentarios acerca de productos prestados registrados.  
   
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos prestados** y luego elija el enlace relacionado.  
 2. Abra la ficha de producto prestado correspondiente.  

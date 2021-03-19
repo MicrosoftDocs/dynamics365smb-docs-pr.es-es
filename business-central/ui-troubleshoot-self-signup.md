@@ -3,18 +3,18 @@ title: Solución de problemas con el registro de autoservicio | Documentos de Mi
 description: Obtenga información sobre los motivos más habituales por los que es posible que no pueda realizar el registro a Business Central y formas de solucionarlos.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bbfd647bd2a121d3851ff07bf11e5c3d7f689588
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 52cdc0f2c2f25f35944b3437369c0e5b7eaf0e96
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756672"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388754"
 ---
 # <a name="troubleshooting-self-service-sign-up"></a>Solución de problemas en el registro de autoservicio
 Registrarse en [!INCLUDE[prod_short](includes/prod_short.md)] es muy fácil y se puede realizar muy rápidamente. Puede crear una cuenta gratuita incluso si es una organización existente. Este recurso aborda los problemas que pueda tener durante el registro.

@@ -3,17 +3,17 @@ title: Enviar alertas normativas | Documentos de Microsoft
 description: Si tiene información sobre la nueva legislación y cree que requiere soporte de características en Business Central, puede seguir esta guía para enviar una alerta normativa al equipo del producto.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.reviewer: edupont
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: 4176f79aabba652208f7c0aacb6a000924009451
-ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
+ms.openlocfilehash: f2659bcebc046153948ca2a90f97d8437e86a610
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/29/2020
-ms.locfileid: "4817261"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380361"
 ---
 # <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Enviar alertas sobre las características normativas específicas del país/región
 
@@ -52,7 +52,7 @@ Le invitamos a utilizar Microsoft Dynamics Lifecycle Services (LCS) para enviar 
         |Description  | Introduzca un breve resumen de la ley. La descripción debe centrarse en los problemas que son relevantes para la planificación de recursos empresariales (ERP), de modo que los usuarios puedan comprender los requisitos en su totalidad sin tener que leer la legislación primero.|
         |País  | Especifique el país o región al que se aplica la legislación.|
         |Industria| Especifique la industria, si el requisito se aplica solo a industrias específicas. Por ejemplo, elija **Sector público**, **Mercadería** o **Fabricación**.|
-        |Referencia de la característica  | Esto no es relevante para Dynamics 365 Business Central pero, si conoce alguna, puede introducir una referencia de características. La lista de características para el país específico se puede encontrar en el [Portal de localización](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC) en el sitio de CustomerSource. |
+        |Referencia de la característica  | Esto no es relevante para Dynamics 365 Business Central pero, si conoce alguna, puede introducir una referencia de características. La lista de características para el país específico se puede encontrar en el [Portal de localización](https://docs.microsoft.com/dynamics/s-e/) en el sitio de CustomerSource. |
         |Fecha de la aplicación de la ley  | Especifique la fecha en que los clientes afectados deben comenzar a cumplir con la ley.|
         |Fecha de anuncio de las administraciones públicas  | Especifique la fecha en la que la autoridad anunció el cambio.|
         |Última fecha de presentación  | Seleccione la fecha límite para el primer envío del informe nuevo o modificado.|

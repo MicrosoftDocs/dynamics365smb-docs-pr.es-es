@@ -3,16 +3,16 @@ title: Actualizar tipos cambio divisa
 description: Realice un seguimiento de los importes en diferentes divisas utilizando códigos de divisa y deje que Business Central le ayude a ajustar los tipos de cambio de los movimientos registrados con un servicio externo.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: multiple currencies, adjust exchange rates
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 568f50a80d430580a22f8e68552fe6e492cfd153
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 888e648dd3687c7541d3fb39d8aedce3276d65a9
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4750635"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5381345"
 ---
 # <a name="update-currency-exchange-rates"></a>Actualizar tipos cambio divisa
 

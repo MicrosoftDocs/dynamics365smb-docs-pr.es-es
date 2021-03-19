@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contract, agreement, configure
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 27bdbb3fffab0e946dabdbdfe5fd2172895ac4ad
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 16226b3c8cc7661ee44bcac0e6934d175ea460b5
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910360"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377428"
 ---
 # <a name="fulfilling-service-contracts"></a>Cumplimiento de contratos de servicio 
 Un modo de configurar una empresa de gestión de servicios es tener acuerdos contractuales entre usted y sus clientes, que describan el nivel de servicio y las expectativas del servicio. Puede crear plantillas de contratos que incluyan información necesaria, como cliente, fecha de inicio del contrato y periodo de facturación.  

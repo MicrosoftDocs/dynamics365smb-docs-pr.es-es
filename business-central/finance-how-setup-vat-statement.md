@@ -3,19 +3,19 @@ title: Configurar una declaración de IVA | Documentos de Microsoft
 description: Configurar una nueva declaración de IVA
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 9e750f5c68361d0582ce59784bab41337d331152
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 05c186b87935efa4a0adbafb6f3096f0dd26abae
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913643"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5389054"
 ---
 # <a name="set-up-a-vat-statement"></a>Configurar una nueva declaración de IVA
 

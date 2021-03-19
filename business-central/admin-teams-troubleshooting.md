@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
 ms.date: 01/20/2021
 ms.author: jswymer
-ms.openlocfilehash: 10612a3e5e257969b2daf0839ea0826316a956ee
-ms.sourcegitcommit: 36a32c997b201ff32ed8c1cff8179b36e2468c47
+ms.openlocfilehash: 7a98b53a34ddf403cf6507da7740b97924d4c81c
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "5046537"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385204"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Solución de problemas de integración de Microsoft Teams con [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -103,7 +103,7 @@ La aplicación [!INCLUDE [prod_short](includes/prod_short.md)] no admite la ubic
 
 Algunos navegadores, como el nuevo Microsoft Edge, le permite elegir qué cámara del dispositivo usar cuando su dispositivo admite varias cámaras. 
 
-## <a name="teams-displays-mixed-languages-for-my-cards-and-card-details"></a>Teams muestra varios idiomas para mis tarjetas y detalles de tarjetas 
+## <a name="teams-displays-mixed-languages-for-my-cards-and-card-details"></a>Teams muestra varios idiomas para mis tarjetas y detalles de tarjetas
 
 Para que las tarjetas y los detalles de las tarjetas se muestren de manera coherente en el mismo idioma en Teams, el idioma de su cliente de Teams y el idioma que usa en el cliente web de [!INCLUDE [prod_short](includes/prod_short.md)] deben coincidir.
 
@@ -116,6 +116,21 @@ Para obtener más información sobre cómo funcionan los idiomas entre Teams y [
 ## <a name="i-edited-a-field-in-the-details-window-but-my-change-wasnt-saved"></a>Edité un campo en la ventana de detalles, pero mi cambio no se guardó
 
 Los cambios que realice en un campo en las ventanas de detalles se guardan automáticamente cuando abandona el campo. Antes de cerrar la ventana después de cambiar un campo, asegúrese de presionar la tecla Tab o hacer clic / tocar fuera del campo.
+
+## <a name="a-new-tile-appeared-in-the-app-launcher-how-do-i-remove-it"></a>Apareció un nuevo mosaico en el Iniciador de aplicaciones. ¿Cómo puedo eliminarlo?
+
+Cuando ve sus aplicaciones en la página Web de Office 365 (https://home.office.com) o en el iniciador de aplicaciones, aparecerá un nuevo mosaico llamado "Conector del servicio de integración de equipos de Business Central" después de instalar la aplicación [!INCLUDE [prod_short](includes/prod_short.md)] para Teams. Este mosaico no proporciona ningún valor en sí mismo y se puede ocultar de forma segura.
+
+Como administrador, quién tiene permisos de administrador de Azure Active Directory, puede ocultar el mosaico siguiendo estos pasos:
+
+1. Inicie sesión en el [centro de administración de Azure Active Directory](https://aad.portal.azure.com/).
+2. Seleccione **Aplicaciones empresariales**, luego seleccione **Conector del servicio de integración de equipos de Business Central Teams**.
+3. Seleccione **Propiedades** y luego configure el conmutador **Visible para los usuarios** en **No**.
+4. Seleccione **Guardar**.
+
+> [!NOTE]
+> Pasará un tiempo antes de que este cambio entre en vigor.
+
 
 ## <a name="see-also"></a>Consulte también
 

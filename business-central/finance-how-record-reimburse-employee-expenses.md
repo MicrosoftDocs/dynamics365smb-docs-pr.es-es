@@ -3,19 +3,19 @@ title: Registrar y reembolsar gastos empresariales de los empleados | Documentos
 description: Registre los gastos de los empleados con el diario general en la cuenta del empleado y luego registre un pago a la cuenta bancaria del empleado para reembolsar el gasto relacionado con el negocio.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4d19fceae0fd5c9b72910880d0f87b21206e8f47
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 82fc662bee4fd288dda3a5e546fa408b2bef1ce4
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4750835"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5391504"
 ---
 # <a name="record-and-reimburse-employees-expenses"></a>Registro y reembolso de los costes de los empleados
 

@@ -3,19 +3,19 @@ title: Asignar números de serie y de lote a productos para realizar un seguimie
 description: Puede agregar números de serie y números de lote a cualquier documento de salida o de entrada, los movimientos de seguimiento de producto registrados se muestran en los correspondientes movimientos de producto.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f0136c253e38f4950837bc0fdafae5f5c35cab28
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 1ffb80f4571e96dcaa8acfbcb106f7fb582b4783
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746096"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377578"
 ---
 # <a name="work-with-serial-and-lot-numbers"></a>Trabajar con números de lote y de serie
 Puede asignar números de serie y de lote a cualquier documento de salida o de entrada, los movimientos de seguimiento de producto registrados se muestran en los correspondientes movimientos de producto. Realice el trabajo en la página **Líns. seguim. prod.**, que puede abrir desde un documento de entrada o salida.
@@ -226,9 +226,9 @@ Si necesita vincular información especial a un número de seguimiento de produc
 5. Seleccione la acción **Comentario** para crear un registro de comentarios separado.  
 6. Seleccione la casilla de verificación **Bloqueado** para excluir el número de serie o de lote de cualquier transacción.  
 
-Si crea números de serie de forma masiva utilizando las acciones **Crear SN personalizado** o **Asignar número de serie**, puede habilitar **Crear información de SN** y se creará una tarjeta de información para cada línea de seguimiento.
+<!--If you create serial numbers in bulk by using the **Create Customized SN** or **Assign Serial No.** actions, you can enable **Create SN Information** and an information card will be created for each tracking line.
 
-Alternativamente, puede crear una tarjeta de información cuando publique diarios o documentos, en la página **Código de seguimiento del artículo**, active los controles de alternancia **Crear información de SN. al publicar** o **Crear información de SN. al publicar**. 
+Alternatively, you can create an information card when you post journals or documents. On the **Item Tracking Code** page, turn on the **Create SN Info. on posting** or **Create SN Info. on posting** toggles. -->
 
 Puede modificar las tarjetas de información de lote o de serie creadas más tarde.
 

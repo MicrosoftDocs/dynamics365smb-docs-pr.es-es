@@ -3,19 +3,19 @@ title: 'Detalles de diseño: Gestión del almacén | Documentos de Microsoft'
 description: En este tema se ofrece un resumen de los diseños, conceptos y principios que están detrás de las características de gestión de almacén en Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ea9974a8fb63d4e119cdc8b78930fd94777e6a38
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 36e8d8dadc52ab10492fb5ab1cbfe158b069cd9b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749573"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5381472"
 ---
 # <a name="design-details-warehouse-management"></a>Detalles de diseño: Gestión de almacén
 En esta documentación se ofrece un resumen de los conceptos y los principios que se usan en las características de gestión de almacén en [!INCLUDE[prod_short](includes/prod_short.md)]. Explica el diseño de las funciones de almacén central y cómo se integra el almacén con otras funciones de la cadena de aprovisionamiento.  

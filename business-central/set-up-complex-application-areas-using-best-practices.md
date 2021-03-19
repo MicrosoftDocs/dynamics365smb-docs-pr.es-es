@@ -3,19 +3,19 @@ title: Configurar áreas de aplicación complejas mediante procedimientos recome
 description: Es importante introducir los valores de configuración correctos desde el principio para el éxito de cualquier nuevo software de negocio.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 89e7117e7dbc8d0b2865edbd318858e59f6a76f6
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: cf4be8ff97adef98ad05e48fe2d52261b6ea98cf
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757822"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5391354"
 ---
 # <a name="set-up-complex-application-areas-using-best-practices"></a>Configurar áreas de aplicación complejas mediante procedimientos recomendados
 Es importante introducir los valores de configuración correctos desde el principio para el éxito de cualquier nuevo software de negocio.  

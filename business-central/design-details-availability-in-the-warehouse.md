@@ -3,19 +3,19 @@ title: 'Detalles de diseño: Disponibilidad en el almacén | Documentos de Micro
 description: El sistema debe mantener un control constante de la disponibilidad de productos el almacén, para que los pedidos de salida puedan fluir de un modo eficaz y proporcionar las entregas óptimas.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8381f2f41fedb4f41fd0515124b74254fc74517e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7fecbb14cda87289e0c3ce9d89df2ed346569e45
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915665"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390204"
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Detalles de diseño: Disponibilidad en el almacén
 El sistema debe mantener un control constante de la disponibilidad de productos el almacén, para que los pedidos de salida puedan fluir de un modo eficaz y proporcionar las entregas óptimas.  
@@ -61,7 +61,7 @@ Si no se cumplen una o más condiciones, se pueden mostrar diferentes mensajes d
 -   Cantidad en ubicaciones para ensamblado  
 -   Cantidad en ubicaciones de ajuste  
 
- El resultado se muestra en el campo**Cantidad total disponible** en la página **Reservas**.  
+ El resultado se muestra en el campo **Cantidad total disponible** en la página **Reservas**.  
 
  En una línea de reserva, la cantidad que no se puede reservar, porque está asignada en el almacén, se muestra en el campo **Cant. asignada en Almacén** de la página **Reservas**.  
 

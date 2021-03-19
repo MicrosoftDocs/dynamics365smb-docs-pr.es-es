@@ -3,19 +3,19 @@ title: Crear presupuestos coste | Documentos de Microsoft
 description: Este tema proporciona una panorámica de dónde crear y analizar presupuestos de costes.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2a8b8e88e296f36b8f4eb9bb41b05d5fc529b23b
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 64f5b4ced195c44b3caeb4127d89624df23a84e1
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4750960"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5391329"
 ---
 # <a name="creating-cost-budgets"></a>Crear presupuesto coste
 El presupuesto en contabilidad de costes se parece al presupuesto de la contabilidad. Un presupuesto de costes se crea a partir de los tipos de coste del mismo modo como un presupuesto para la contabilidad se crea a partir de las cuentas de contabilidad.  

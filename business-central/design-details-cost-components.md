@@ -3,19 +3,19 @@ title: 'Detalles de diseño: Componentes de coste | Documentos de Microsoft'
 description: Los componentes del coste son distintos tipos de costes que conforman el valor de una entrada o una salida de existencias.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d8e2d00e82f2ed5342e3c06dfaf54d8d6a88e941
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: bf47da0a1ef2b4c8469f0311c04e14ef85e568a0
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4751759"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5386979"
 ---
 # <a name="design-details-cost-components"></a>Detalles de diseño: Componentes de coste
 Los componentes del coste son distintos tipos de costes que conforman el valor de una entrada o una salida de existencias.  

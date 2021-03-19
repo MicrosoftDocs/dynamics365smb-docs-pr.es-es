@@ -3,19 +3,19 @@ title: Configurar códigos para servicios estándar | Documentos de Microsoft
 description: Aprenda a configurar códigos para las actividades de servicio que realiza a menudo.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service item, service order, repairs, maintenance
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2db9480789e90b15e0a9d4e737817d3b8ff3b3c9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d1d017d74eff9a4bd017cb9417913c0bd37ec500
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925835"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388829"
 ---
 # <a name="set-up-standard-service-codes"></a>Configurar códigos de servicio estándar
 

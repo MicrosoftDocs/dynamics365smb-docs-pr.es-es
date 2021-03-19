@@ -3,19 +3,19 @@ title: Configurar términos interés
 description: Obtenga información sobre cómo configurar Business Central para poder informar a los clientes de los cargos adicionales mediante el envío de notas de cargos financieros.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge
 ms.date: 12/03/2020
 ms.author: edupont
-ms.openlocfilehash: aba5ca8eb9425c11c7f8a55a08a153ee18821632
-ms.sourcegitcommit: 06bfb3aa59de50d983175e68e681b9d206423242
+ms.openlocfilehash: dad02adfb6cc0a0ebb6d950b67f2e092b3313c59
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4672003"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377092"
 ---
 # <a name="set-up-finance-charge-terms"></a>Configurar términos interés
 

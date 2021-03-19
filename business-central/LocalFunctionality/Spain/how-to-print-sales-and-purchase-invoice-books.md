@@ -3,19 +3,19 @@ title: Impresión de libros de facturas emitidas y recibidas
 description: Los informes Libro facturas emitidas y Libro facturas recibidas permiten comprobar todos los documentos de compras y ventas creados en un periodo específico.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3e7a952bb16d527a744e2dcfd04f5e1953708d3e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3bb7c4ec2fee1d677748539c29b6ae83682370da
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913592"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5382043"
 ---
 # <a name="print-sales-and-purchase-invoice-books"></a>Imprimir libros de facturas emitidas y recibidas
 Los informes **Libro facturas emitidas** y **Libro facturas recibidas** permiten comprobar todos los documentos de compras y ventas creados en un periodo específico.  

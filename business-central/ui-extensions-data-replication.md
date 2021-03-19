@@ -3,7 +3,7 @@ title: Extensiones de nube inteligente de Business Central para la migración a 
 description: Use las extensiones de migración a la nube para migrar sus datos locales a Business Central en línea. Estas extensiones mueven sus datos locales a la nube para que pueda usar Business Central en línea con sus datos existentes.
 author: jenolson
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -11,12 +11,12 @@ ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.reviewer: edupont
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f2d8d556ca4628a66c10f323f47137cd35732a68
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 5d6110744f14cb959494e2fd5c9b970bd339a77f
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757297"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377353"
 ---
 # <a name="intelligent-cloud-extensions-for-cloud-migration"></a>Extensiones inteligentes en la nube para la migración a la nube
 

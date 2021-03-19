@@ -3,19 +3,19 @@ title: Asignación de campos al importar archivos CAMT de SEPA | Documentos de M
 description: En los mercados europeos, puede importar los archivos de extractos bancarios en las normas regionales SEPA (zona única de pagos en euros).
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 57488adb784736eaf404cf57f1563f08c517ed6c
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 9afa2f29124a62a51da6a1de96765d6bb67c4bd6
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753347"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5384779"
 ---
 # <a name="field-mapping-when-importing-sepa-camt-files"></a>Asignación de campos al importar archivos CAMT de SEPA
 [!INCLUDE[prod_short](includes/prod_short.md)] admite los estándares de SEPA (zona única de pagos en euros) regional para importar los extractos de cuenta de SEPA (formato CAMT). Para obtener más información, vea [Usar la extensión AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  

@@ -3,18 +3,18 @@ title: Trabajar con la funcionalidad general en Business Central | Documentos de
 description: Describe la funcionalidad general que se utiliza para interactuar con los datos en Business Central, como introducir valores, ordenar datos y cambiar de vista.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e035ba04795cf2afb71ae196c9409bb00a955370
-ms.sourcegitcommit: d80cf8aa0723f9aa2b7e0b3689edf8e2682f49fc
+ms.openlocfilehash: 98838737ec9c20cfe5cedc7372af028fd5b1c636
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4840183"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393579"
 ---
 # <a name="working-with-prod_short"></a>Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]
 Al realizar tareas empresariales, el usuario interactúa con los datos de diferentes maneras; por ejemplo, crear registros e introducir datos, ordenar y filtrar datos, escribir notas y exportando datos a otras aplicaciones.

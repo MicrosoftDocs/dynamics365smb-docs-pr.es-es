@@ -3,14 +3,14 @@ title: Catálogo de aprendizaje para desarrolladores
 description: Encuentra todo el aprendizaje disponible para desarrolladores de Business Central.
 author: loreleishannonmsft
 ms.date: 10/01/2020
-ms.topic: article
+ms.topic: conceptual
 ms.author: margoc
-ms.openlocfilehash: c224227632fa0a7097efc32c322550b8463c2633
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7e77fa4602992aa77f938675cb6c4e95201ef075
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926727"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5394154"
 ---
 # <a name="developers-learning-catalog"></a>Catálogo de aprendizaje para desarrolladores
 

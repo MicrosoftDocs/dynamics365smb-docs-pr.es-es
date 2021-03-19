@@ -3,19 +3,19 @@ title: Importar y exportar un diseño de informe y de documento | Documentos de 
 description: Puede importar y exportar un diseño de informe personalizado existente como archivo a o desde una ubicación de su equipo y red.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: eed31b7eebaace7ada63470bf15a2e4efe741325
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d718553661c7fcfa44c010b7b9dbc4d0d2716d14
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918517"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385803"
 ---
 # <a name="import-and-export-custom-report-layouts"></a>Importar y exportar diseños de informe personalizados
 Puede importar y exportar un diseño de informe personalizado existente como archivo a o desde una ubicación de su equipo y red. Por ejemplo, puede exportar un diseño de informe y, a continuación, enviar el archivo a otra persona para que lo modifique. Esa persona podrá entonces hacer las modificaciones en el diseño y devolverle el archivo para que pueda importarlo de nuevo.  

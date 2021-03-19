@@ -3,16 +3,16 @@ title: Ayuda y soporte técnico
 description: Encuentre ayuda, orientación, consejos para la resolución de problemas y asistencia sobre el producto, y aprenda cómo obtener soporte técnico para Business Central.
 author: edupont04
 ms.reviewer: na
-ms.topic: article
+ms.topic: conceptual
 ms.service: dynamics365-business-central
 ms.author: edupont
 ms.date: 10/01/2020
-ms.openlocfilehash: c9933f8cc76c4a5fa4853b522acded97daf46ac6
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: e750221d18c2c4164fb87b575f8f4412392db250
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749148"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388504"
 ---
 # <a name="resources-for-help-and-support"></a>Recursos de ayuda y soporte técnico
 

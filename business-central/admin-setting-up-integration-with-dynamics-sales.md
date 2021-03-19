@@ -3,19 +3,19 @@ title: Configuración de cuentas de usuario para la integración con Microsoft D
 description: Obtenga información sobre cómo configurar las cuentas de usuario que las aplicaciones usan para intercambiar datos y que los usuarios usan para acceder y sincronizar datos en las aplicaciones.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: b341b476c33e39dfda7fbb69bf643264f6c50672
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 1699d10a0d01d2143f26fe59313d6ba073272eef
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4755147"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385254"
 ---
 # <a name="setting-up-user-accounts-for-integrating-with-microsoft-dataverse"></a>Configuración de cuentas de usuario para la integración con Microsoft Dataverse
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]

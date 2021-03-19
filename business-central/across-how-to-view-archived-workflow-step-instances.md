@@ -3,19 +3,19 @@ title: Ver las instancias de paso de flujo de trabajo archivadas | Documentos de
 description: Todas las instancias de paso de flujo de trabajo completada se guardan en la página **Instancias de paso de flujo de trabajo archivadas**.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 06cc9aa2eb962e8556cb2f026c9be405deb89bef
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d17f7effca056c665c7c489575701ca10884a38e
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924933"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5379403"
 ---
 # <a name="view-archived-workflow-step-instances"></a>Ver instancias de paso de flujo de trabajo archivadas
 Todas las instancias de paso de flujo de trabajo completada se guardan en la página **Instancias de paso de flujo de trabajo archivadas**.  

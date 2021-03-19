@@ -3,24 +3,27 @@ title: Trabajar con el IVA por ventas y compras | Documentos de Microsoft
 description: En este tema se describe cómo realizar tareas como la corrección del IVA registrado. En países y regiones de la UE, cada transacción de compra y venta está sujeta a cálculos de IVA. En este tema se describe cómo.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: bce25a87849a65d0307e6475716891396167697c
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: f66d061f383236cd7fbe96ebebaf1a790202b758
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746621"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493097"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Trabajar con el IVA por ventas y compras
 Si su país o región requiere que calcule el impuesto al valor añadido (IVA) en las transacciones de compra y venta para que pueda informar de los importes a una autoridad fiscal, puede configurar [!INCLUDE[prod_short](includes/prod_short.md)] para calcular el IVA automáticamente en documentos de ventas y compras. Para obtener más información, vea [Configurar los cálculos y los métodos de registro del impuesto sobre el valor añadido](finance-setup-vat.md).
 
-Sin embargo, hay algunas tareas relacionadas con el IVA que puede realizar manualmente. Por ejemplo, puede que tenga que corregir un importe registrado si descubre que un proveedor utiliza un método de redondeo diferente.
+Sin embargo, hay algunas tareas relacionadas con el IVA que puede realizar manualmente. Por ejemplo, puede que tenga que corregir un importe registrado si descubre que un proveedor utiliza un método de redondeo diferente.  
+
+> [!TIP]
+> Puede dejar que [!INCLUDE[prod_short](includes/prod_short.md)] valide los CIF/NIF y otra información de la empresa al crear o actualizar documentos. Para más información, consulte [Validar CIF/NIF](finance-how-validate-vat-registration-number.md).
 
 ## <a name="calculating-and-displaying-vat-amounts-in-sales-and-purchase-documents"></a>Calcular y mostrar los importes del IVA en documentos de ventas y compras  
 Los importes del IVA de los documentos de ventas y compras se pueden calcular y mostrar de distintas maneras, según el tipo de cliente o proveedor de que se trate. También se puede anular el importe del IVA calculado de forma que coincida con el calculado por el proveedor en una transacción concreta.  
@@ -173,15 +176,16 @@ Para ver un grupo de certificados, desde la página **Certificados de suministro
 
     > [!NOTE]  
     >  No puede crear un certificado de suministro nuevo en la página **Certificado de suministro** mientras se navega a él con este procedimiento. Para crear certificados para envíos no configurados para requerirlos, abra el albarán de venta y siga cualquiera de los dos procedimientos descritos antes:  
-    >   
+    >
     > * Para crear manualmente un certificado de suministro  
     > * Para imprimir certificado de suministro.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Consulte también  
-[Configurar los cálculos y los métodos de registro del impuesto sobre el valor añadido](finance-setup-vat.md)   
-[Crear informes de IVA para la autoridad fiscal](finance-how-report-vat.md)   
+## <a name="see-also"></a>Consulte también
 
+[Configurar los cálculos y los métodos de registro del impuesto sobre el valor añadido](finance-setup-vat.md)  
+[Crear informes de IVA para la autoridad fiscal](finance-how-report-vat.md)  
+[Validar un CIF/NIF](finance-how-validate-vat-registration-number.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -3,7 +3,7 @@ title: Añadir información a sus registros para usted mismo | Documentos de Mic
 description: Adjunte una nota a cualquier registro de la aplicación. Por ejemplo, si tiene información adicional sobre un pedido de venta que no se ajusta a ninguno de los campos del pedido de venta, puede escribir una nota.
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -11,12 +11,12 @@ ms.search.keywords: ''
 ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 3fa0ed8b91d4bdae845fe4a7f20a500665856a7d
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 5a8e71aacee92b77e5da3ebdfab720723c9f6326
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756572"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392379"
 ---
 # <a name="add-and-view-notes-on-records"></a>Añadir y visualizar notas de registros
  Puede <!--OnPrem and your colleagues -->puede agregar notas a los registros de la aplicación. Muchas páginas, particularmente las que muestran una lista de registros, como la página **Pedidos de ventas**, incluyen la acción **Notas** o el cuadro de información de **Notas**. <!--OnPrem Notes is where you can write notes about a record to yourself or others, and where you can view notes to you from others. For example, a note could be a general comment or processing instruction to your colleague, who can then respond to your note using their own **Notes**. Or, your colleague can add a note that gives you extra information about a sales order that is not covered by the information on the sales order. These notes and correspondences will follow the record as it is processed in the company.-->

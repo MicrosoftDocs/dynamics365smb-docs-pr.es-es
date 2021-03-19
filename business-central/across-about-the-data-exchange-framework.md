@@ -3,19 +3,19 @@ title: Acerca del marco de intercambio de datos | Documentos de Microsoft
 description: El formato de archivos para intercambio de datos en archivos bancarios, documentos electrónicos, tipos de cambio de divisa y otros con los sistemas ERP varía en función del proveedor del archivo de datos o de secuencia y el país o la región.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ebb1ae7fb775bc215933b81374309dbf4a047621
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: fc01b4a0d04cf21ae2ede3a3a98aa928446fa4d1
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753547"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385004"
 ---
 # <a name="about-the-data-exchange-framework"></a>Acerca del marco de intercambio de datos
 

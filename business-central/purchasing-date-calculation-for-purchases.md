@@ -3,19 +3,19 @@ title: Cálculo de la fecha de compra | Documentos de Microsoft
 description: La aplicación calcula automáticamente la fecha en la que se debe solicitar un producto para tenerlo en el inventario en una fecha determinada. Esta es la fecha en la que puede contar con que los productos solicitados en una fecha determinada estén disponibles para picking.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 22153df1e56d274256b53d426e2dff30cad3e4bc
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 03cdb942a088b27be5c89843da4a958d0e13f843
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4758597"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388279"
 ---
 # <a name="date-calculation-for-purchases"></a>Cálculo de la fecha de compras
 

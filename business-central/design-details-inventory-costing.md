@@ -3,19 +3,19 @@ title: 'Detalles de diseño: Inventario y valoración | Documentos de Microsoft'
 description: En esta documentación se proporciona información técnica detallada de los conceptos y los principios que se usan en las características de valoración de inventario en Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, inventory, costing
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 97aa9dc23397403b74fc8f1c65d302733ab3301c
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: a14c2a81a6aa36ce57384decb9342660297f9a84
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4751485"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5389929"
 ---
 # <a name="design-details-inventory-costing"></a>Detalles de diseño: Coste de inventario
 En esta documentación se proporciona información técnica detallada de los conceptos y los principios que se usan en las características de valoración de inventario en [!INCLUDE[prod_short](includes/prod_short.md)].  

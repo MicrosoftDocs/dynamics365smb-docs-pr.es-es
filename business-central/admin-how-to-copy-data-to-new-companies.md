@@ -3,19 +3,19 @@ title: Copiar datos a una nueva empresa | Documentos de Microsoft
 description: Puede copiar los valores de uso general de una empresa existente a otra nueva, siempre y cuando ambas empresas estén en la misma base de datos. Por ejemplo, si tiene una lista estándar de códigos de síntoma comunes a todas las implementaciones de gestión de servicios, puede copiarlos con facilidad de una empresa a otra.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d43d41541607985f9e4e9d94788099fd5e438a17
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6776fcd85ce353dd63cc222a59b6ceef28bcd751
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911435"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5378378"
 ---
 # <a name="copy-data-to-new-companies"></a>Copiar datos a una nueva empresa
 Puede copiar los valores de uso general de una empresa existente a otra nueva, siempre y cuando ambas empresas estén en la misma base de datos. Por ejemplo, si tiene una lista estándar de códigos de síntoma comunes a todas las implementaciones de gestión de servicios, puede copiarlos con facilidad de una empresa a otra.  

@@ -3,19 +3,19 @@ title: 'Detalles de diseño: Diseño del seguimiento de productos | Documentos d
 description: En este tema se describe el diseño subyacente al seguimiento de productos de Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item, tracking, tracing
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 87c85de9f501e093679512b709841d0027fe17bf
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: a0c60381634543f367e85a465c4ee74c3396d5ad
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4751335"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5391003"
 ---
 # <a name="design-details-item-tracking-design"></a>Detalles de diseño: Diseño de seguimiento de productos
 En la primera versión de seguimiento de productos de [!INCLUDE[prod_short](includes/prod_short.md)] 2.60, los números de serie o de lote se registraban directamente en los movimientos de producto. Este diseño proporcionó información de disponibilidad completa y un seguimiento sencillo del historial de movimientos, pero carecía de flexibilidad y funcionalidad.  

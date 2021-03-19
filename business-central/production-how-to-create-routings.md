@@ -3,19 +3,19 @@ title: Crear Rutas | Documentos de Microsoft
 description: Una ruta contiene los datos maestros que capturan los requisitos del proceso de un producto fabricado específico. Una vez creada la orden de producción para ese producto principal, la ruta controlará la programación de operaciones tal como se representan en la página Ruta orden producción bajo la orden de producción.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6cdd00ab5f7372e79d2ab1ced6b77e9ed8343b95
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 3f1fd0b3ff6b300586c3932901a900c500172ba8
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4759347"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5384104"
 ---
 # <a name="create-routings"></a>Creación de rutas
 

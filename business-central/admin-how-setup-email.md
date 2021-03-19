@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.date: 06/15/2020
 ms.author: bholtorf
-ms.openlocfilehash: 44fb1f467b0b44c41456a64c8de3f5ae9dc85786
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: b683a8567afbbec812a229e8e8ee0fda81d55bfb
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752755"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470442"
 ---
 # <a name="set-up-email"></a>Configurar correo electrónico
 Las personas en las empresas envían información y documentos, como órdenes de compra y venta y facturas, por correo electrónico todos los días. Los administradores pueden facilitarlo conectando una o más cuentas de correo electrónico a [!INCLUDE[prod_short](includes/prod_short.md)], para que pueda enviar documentos sin tener que abrir una aplicación de correo electrónico. Puede redactar cada mensaje individualmente con herramientas de formato básicas, como fuentes, estilos, colores, etc., y agregar archivos adjuntos de hasta 100 MB. Los administradores también pueden configurar diseños de informes que incluyan solo la información clave de los documentos. Para obtener más información, vea [Enviar documentos por correo electrónico](ui-how-send-documents-email.md).
@@ -37,7 +37,7 @@ La siguiente tabla describe las extensiones de correo electrónico que están di
 
 |Extensión  |Descripción  |Ejemplos de cuando usar  |
 |---------|---------|---------|
-|**Microsoft 365**|Todos envían correos electrónicos desde un buzón compartido en Exchange Online.|Cuando todos los mensajes provienen del mismo departamento, por ejemplo, su organización de ventas envía mensajes desde una cuenta sales@cronus.com. Esto requiere que configure un buzón compartido en el centro de administración de Office 365. Para más información, vea [Buzones de correo compartidos](/Exchange/collaboration/shared-mailboxes/shared-mailboxes.md).|
+|**Microsoft 365**|Todos envían correos electrónicos desde un buzón compartido en Exchange Online.|Cuando todos los mensajes provienen del mismo departamento, por ejemplo, su organización de ventas envía mensajes desde una cuenta sales@cronus.com. Esto requiere que configure un buzón compartido en el centro de administración de Office 365. Para más información, vea [Buzones de correo compartidos](/Exchange/collaboration/shared-mailboxes/shared-mailboxes).|
 |**Usuario actual**|Todos envían correos electrónicos desde la cuenta que usaron para iniciar sesión en [!INCLUDE[prod_short](includes/prod_short.md)].|Permitir comunicaciones de cuentas individuales.|
 |**Otro (SMTP)**|Usar el protocolo SMTP para enviar mensajes de correo electrónico.|Permita las comunicaciones a través de su servidor de correo SMTP. |
 
@@ -47,7 +47,7 @@ La siguiente tabla describe las extensiones de correo electrónico que están di
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4JsUk]
 
 ## <a name="legacy-smtp-settings-and-the-email---smtp-connector-extension"></a>Configuración de SMTP heredada y correo electrónico: extensión del conector SMTP
-Si ya está usando [!INCLUDE[prod_short](includes/prod_short.md)] y ha configurado el correo electrónico a través de la configuración SMTP heredada, puede continuar usando su configuración en paralelo con la extensión Correo electrónico - Conector SMTP. Cuando actualizamos su [!INCLUDE[prod_short](includes/prod_short.md)] a la próxima versión de lanzamiento, copiaremos su configuración SMTP heredada en la extensión Correo electrónico - Conector SMTP. Cuando esté listo, su administrador puede activar las capacidades mejoradas de correo electrónico y comenzará a usar la extensión Correo electrónico - Conector SMTP. Para obtener más información, consulte [Acerca de la gestión de características](/dynamics365/business-central/dev-itpro/administration/feature-management.md#about-feature-management). Sin embargo, no hay sincronización entre la extensión del conector SMTP y la configuración heredada. Si cambia la configuración de SMTP en la extensión, debe realizar los mismos cambios en la configuración de SMTP heredada, o viceversa.
+Si ya está usando [!INCLUDE[prod_short](includes/prod_short.md)] y ha configurado el correo electrónico a través de la configuración SMTP heredada, puede continuar usando su configuración en paralelo con la extensión Correo electrónico - Conector SMTP. Cuando actualizamos su [!INCLUDE[prod_short](includes/prod_short.md)] a la próxima versión de lanzamiento, copiaremos su configuración SMTP heredada en la extensión Correo electrónico - Conector SMTP. Cuando esté listo, su administrador puede activar las capacidades mejoradas de correo electrónico y comenzará a usar la extensión Correo electrónico - Conector SMTP. Para obtener más información, consulte [Acerca de la gestión de características](/dynamics365/business-central/dev-itpro/administration/feature-management#about-feature-management). Sin embargo, no hay sincronización entre la extensión del conector SMTP y la configuración heredada. Si cambia la configuración de SMTP en la extensión, debe realizar los mismos cambios en la configuración de SMTP heredada, o viceversa.
 
 > [!NOTE]
 > Si tiene personalizaciones que se basan en la configuración de correo electrónico SMTP heredada, existe la posibilidad de que algo salga mal con sus personalizaciones si comienza a usar extensiones de correo electrónico. Le recomendamos que configure y pruebe las extensiones antes de activar el interruptor de función para mejorar las capacidades de correo electrónico.
@@ -157,7 +157,7 @@ Los pasos para registrar [!INCLUDE[prod_short](includes/prod_short.md)] en Azure
 > * Redirigir URI (opcional)
 > * Secreto del cliente
 
-Para obtener directrices generales sobre cómo registrar una aplicación, vea [Inicio rápido: Registrar una aplicación con la plataforma de identidad de Microsoft.](/azure/active-directory/develop/quickstart-register-app.md). 
+Para obtener directrices generales sobre cómo registrar una aplicación, vea [Inicio rápido: Registrar una aplicación con la plataforma de identidad de Microsoft.](/azure/active-directory/develop/quickstart-register-app). 
 
 ### <a name="connect-prod_short-to-your-app-registration"></a>Conectar [!INCLUDE[prod_short](includes/prod_short.md)] al registro de la aplicación
 Después de registrar su aplicación en Azure Portal, en [!INCLUDE[prod_short](includes/prod_short.md)], utilice la guía de configuración asistida **Registro de AAD para aplicaciones de correo electrónico** para conectar [!INCLUDE[prod_short](includes/prod_short.md)].

@@ -3,14 +3,14 @@ title: Catálogo de aprendizaje para preventa para socios
 description: Encuentra todo el aprendizaje disponible para consultores preventa de Business Central.
 author: loreleishannonmsft
 ms.date: 10/01/2020
-ms.topic: article
+ms.topic: conceptual
 ms.author: margoc
-ms.openlocfilehash: 44ecc04fa02d8c7cee78984b2f5542742efd91fe
-ms.sourcegitcommit: a95681db16e81af109b34f8e5d88028c1552c6a2
+ms.openlocfilehash: d899d8bc2e002f70aa90aff5d8d4de93b084c0c9
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4367589"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5387154"
 ---
 # <a name="partner-pre-sales-learning-catalog"></a>Catálogo de aprendizaje para preventa para socios
 

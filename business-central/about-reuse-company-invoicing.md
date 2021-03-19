@@ -3,19 +3,19 @@ title: Uso de Invoicing y Business Central | Documentos de Microsoft
 description: Solución para tener acceso a Microsoft Invoicing cuando se ha registrado en Dynamics 365 Business Central.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Invoicing, Microsoft 365
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 4267dfb550fb4e8ccf2181762b2b5edcbd0fc188
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 0c6b739faf2d531505bde4ad2dc7eb85c39ed223
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753572"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385029"
 ---
 # <a name="using-the-same-microsoft-365-account-in-prod_short-and-microsoft-invoicing"></a>Uso de la misma cuenta de Microsoft 365 en [!INCLUDE[prod_short](includes/prod_long.md)] y Microsoft Invoicing
 Cuando se registra en una prueba en [!INCLUDE[prod_short](includes/prod_short.md)], puede cambiar a una fase de evaluación de 30 días, puede empezar una suscripción o bien puede dejar de usar [!INCLUDE[prod_short](includes/prod_short.md)]. En todos los casos, es posible que en algún momento haya visto algo denominado **Microsoft Invoicing** y haya hecho clic en él. Esta era una aplicación que formaba parte de lo que ahora es Microsoft 365 Business Standard y anteriormente se conocía como la suscripción de Microsoft 365 Business Premium, por lo que no todos habrán visto ese icono en su experiencia de Microsoft 365.  

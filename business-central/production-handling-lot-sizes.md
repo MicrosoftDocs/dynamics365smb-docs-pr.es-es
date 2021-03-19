@@ -3,19 +3,19 @@ title: Manejo de tamaños de lote | Documentos de Microsoft
 description: Este tema describe diferentes formas de manejar los tamaños de lote.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 6f07828e969d5a8394657bc1e05d44156ada5411
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 4d119b5ea35ba41d658226f108f9bd14014ef644
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749023"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5376742"
 ---
 # <a name="handling-lot-sizes-in-production"></a>Manejo de tamaños de lote en producción
 En términos de cantidad, la cantidad de artículos que produce en una operación de producción puede no correlacionarse con cómo venderlos. Por ejemplo, puede producir cientos de artículos en un solo lote, pero vender cada artículo individualmente. Cuando configura sus rutas de producción y listas de materiales (LDM), hay algunos matices que debe considerar con respecto a los tamaños de lote. Este tema describe cómo el tamaño de los lotes afecta los cálculos de costos y la planificación de recursos.

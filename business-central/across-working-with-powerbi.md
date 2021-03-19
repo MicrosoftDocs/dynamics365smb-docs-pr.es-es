@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: a747a0bdb67187597cc33185b418844247b2e2b2
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 8cf8946d8b9792c7fb557969257380d0b48d0d83
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752980"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5492949"
 ---
 # <a name="working-with-power-bi-reports-in-prod_short"></a>Trabajar con informes de Power BI en [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -40,11 +40,11 @@ Si está usando [!INCLUDE[prod_short](includes/prod_short.md)] local, debe estar
 
 Regístrese para el servicio de Power BI. Si aún no se ha registrado, vaya a [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Cuando se registre, use su dirección de correo electrónico y contraseña del trabajo.
 
-## <a name="connect-to-power-bi---one-time-only"></a>Conectar a Power BI - solo una vez
+## <a name="connect-to-power-bi---one-time-only"></a><a name="connect"></a>Conectar a Power BI, solo una vez
 
 Cuando inicia sesión por primera vez en [!INCLUDE [prod_short](includes/prod_short.md)], es posible que vea una parte de Power BI vacía en alguna página, como se muestra en la figura anterior. Lo primero que debe hacer es conectarse a su cuenta de Power BI. Una vez conectado, puede ver los informes. Solo tiene que hacer este paso una vez.
 
-Para conectarse a Power BI, seleccione el vínculo **Empezar con Power BI** en la parte **Informes de Power BI**.
+Para conectarse a Power BI, seleccione el vínculo **Empezar con Power BI** en la parte **Informes de Power BI**. 
 
 Durante el proceso de conexión, [!INCLUDE [prod_short](includes/prod_short.md)] se comunica con el servicio de Power BI para determinar si tiene una cuenta y licencia de Power BI. Una vez verificada la licencia, se mostrarán el informe de Power BI predeterminado en la página. Si no se muestra un informe, puede seleccionar un informe de la parte.
 
@@ -53,7 +53,7 @@ Durante el proceso de conexión, [!INCLUDE [prod_short](includes/prod_short.md)]
 
 ##### <a name="from-prod_short-on-premises"></a>Desde [!INCLUDE [prod_short](includes/prod_short.md)] local
 
-Conectarse a Power BI desde [!INCLUDE [prod_short](includes/prod_short.md)] es similar a Online. Sin embargo, se le pedirá en la página **PERMISOS DE SERVICIO AZURE ACTIVE DIRECTORY** que otorgue acceso a servicios de Power BI. Para otorgar acceso, seleccione **Autorizar servicios de Azure** y entonces **Aceptar**.
+Conectarse a Power BI desde [!INCLUDE [prod_short](includes/prod_short.md)] es similar a Online. Sin embargo, se le pedirá en la página **PERMISOS DE SERVICIOS DE AZURE ACTIVE DIRECTORY** que otorgue acceso a servicios de Power BI. Para otorgar acceso, seleccione **Autorizar servicios de Azure** y entonces **Aceptar**.
 
 Una vez conectado, puede seleccionar un informe de la parte de Power BI en las páginas.
 

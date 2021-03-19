@@ -3,19 +3,19 @@ title: Registrar gastos o ingresos directamente en contabilidad | Documentos de 
 description: Para las actividades empresariales que no está representadas por un documento, como los gastos o recibos de efectivo más pequeños, puede crear las transacciones relacionadas registrando líneas de diario en la página Diario general.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: direct posting, general ledger
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 72e2851ee60d6cb79f722d12e16ddcb30e95fdbe
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 04fb69cb471596065df0a05deefe51080bd2fdbd
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746946"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5386429"
 ---
 # <a name="post-transactions-directly-to-the-general-ledger"></a>Registrar transacciones directamente en la contabilidad
 

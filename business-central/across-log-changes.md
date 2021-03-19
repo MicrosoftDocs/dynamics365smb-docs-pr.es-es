@@ -10,18 +10,23 @@ ms.workload: na
 ms.search.keywords: user log, user activity, tracking
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bce5c61afd2a1119c25e37ece65081ef0519694e
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: c4891cb047cb16f4051b6f468115e2b6bad9f24c
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754347"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470367"
 ---
 # <a name="auditing-changes-in-business-central"></a>Auditar cambios en Business Central
 Un desafío común en muchas aplicaciones de gestión empresarial es evitar cambios no deseados en los datos. Podría ser cualquier cosa, desde un número de teléfono incorrecto de un cliente hasta un registro incorrecto en la contabilidad. Este tema describe las capacidades para averiguar qué cambió, quién lo cambió y cuándo se realizó el cambio.
 
 ## <a name="about-the-change-log"></a>Sobre el Registro de cambios 
 El registro de cambios permite realizar un seguimiento de todas las modificaciones directas que realiza un usuario a los datos de la base de datos. Debe especificar para cada tabla y campo lo que desea que el sistema registre y, a continuación, debe activar el registro de cambios.  
+
+El seguimiento de cambios puede afectar al rendimiento, lo que puede costarle tiempo, además de aumentar el tamaño de la base de datos, lo que podría costarle dinero. Para reducir esos costes, considere lo siguiente:
+- Tenga cuidado al elegir las tablas y las operaciones.
+- No agregue asientos contables ni documentos registrados. En su lugar, priorice los campos del sistema como Creado por y Fecha de creación.
+- No utilice el tipo de seguimiento Todos los campos. En su lugar, elija Algunos campos y realice un seguimiento solo de los campos más importantes.
 
 El registro de cambios se basa en los cambios realizados en los datos en las tablas que se siguen. En la página **Cambiar entradas del registro**, las entradas se ordenan cronológicamente y se muestran todos los cambios realizados en los valores de los campos, de las tablas que especifique.
 

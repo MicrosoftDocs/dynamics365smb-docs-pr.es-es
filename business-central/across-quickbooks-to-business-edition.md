@@ -4,19 +4,19 @@ description: Puede migrar datos como clientes, proveedores, productos de inventa
 documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, import, migrate, data, transfer, QuickBooks, customize
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 8d680d80dca8fae08ef4ecf5d88c97f983b47167
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: d6f75b5ee339606e4131e0e8acfe7be6457d9a22
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754272"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5379053"
 ---
 # <a name="changing-from-a-quickbooks-app-to-dynamics-365-business-central"></a>Cambiar de una aplicación de QuickBooks a Dynamics 365 Business Central
 Cada vez más empresas en crecimiento están cambiando de aplicaciones de finanzas como QuickBooks Desktop y QuickBooks Online, que están diseñadas para empresas emergentes y otras pequeñas empresas, a [!INCLUDE[prod_short](includes/prod_short.md)], que también admite organizaciones más grandes y complejas. 
