@@ -2,18 +2,12 @@
 metadata:
   title: P+F sobre copiar y pegar datos
   description: Obtenga respuestas a las preguntas frecuentes sobre cómo copiar y pegar datos de campos y filas de las páginas de Business Central.
-  author: SorenGP
-  ms.topic: article
-  ms.service: dynamics365-business-central
-  ms.search.keywords: accessibility, shortcuts, keyboarding
-  ms.date: 01/08/2021
-  ms.author: edupont
-  ms.openlocfilehash: 93b9f28fec418fef9968fb729ee03b3b0df3918a
-  ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+  ms.openlocfilehash: 7d3d0e29bb6751913297974f611aa9695677ed66
+  ms.sourcegitcommit: 5f403a0567dcfa77493178d116ac64e531c269ad
   ms.translationtype: HT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 01/15/2021
-  ms.locfileid: "5013926"
+  ms.lasthandoff: 02/15/2021
+  ms.locfileid: "5181834"
 title: Preguntas frecuentes sobre copiar y pegar
 summary: "Puede copiar una o más filas (registros) de una lista o un solo campo en una página y luego pegar lo que ha copiado en la misma página, otra página o un documento externo (como Microsoft Excel y el correo electrónico de Outlook).  \n\nEn resumen, para copiar, presione CTRL+C (cmd+C en macOS) en su teclado. Para pegar, presione CTRL+V (cmd+V en macOS). Hay otros métodos abreviados de teclado para copiar y pegar que le ayudan a ahorrar tiempo al introducir datos. Para obtener más información, consulte [Métodos abreviados de teclado](keyboard-shortcuts.md#CopyRows). Este artículo responde a preguntas comunes que puede tener acerca de las acciones copiar y pegar.  \n"
 sections:
