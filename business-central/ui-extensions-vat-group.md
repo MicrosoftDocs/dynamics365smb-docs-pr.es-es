@@ -4,19 +4,19 @@ description: Puede interactuar con otras empresas para formar un grupo de IVA y 
 author: bholtorf
 manager: annbe
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: VAT, value added tax, report
 ms.date: 10/06/2020
 ms.author: bholtorf
-ms.openlocfilehash: ebe3c8748da04a2552f8f3d10967303459ba23c4
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: f3fb73580eebc9468b0c66408adf758257b3a658
+ms.sourcegitcommit: 026484766988b8727649c02fc8990b0646999bf1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757047"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5498592"
 ---
 # <a name="the-vat-group-management-extension"></a>Extensión Gestión de grupo de IVA
 
@@ -111,6 +111,9 @@ Cuando la declaración de IVA del representante del grupo de IVA se haya present
 
 > [!NOTE]
 > Los miembros del grupo de IVA pueden corregir las declaraciones de IVA enviadas siempre que el representante del grupo no haya emitido la declaración de IVA del grupo. Para realizar una corrección, el miembro del grupo de IVA debe crear una nueva declaración de IVA para el período de devolución de IVA y enviarla al representante del grupo de IVA. En el lado del representante del grupo de IVA, la última declaración de IVA se incluirá en la página **Declaraciones de IVA**. 
+
+> [!IMPORTANT]
+> La funcionalidad del grupo de IVA solo se admite en aquellos mercados en los que [!INCLUDE[prod_short](includes/prod_short.md)] utiliza un marco de IVA que consta de declaraciones de IVA y períodos de devolución de IVA. No puede utilizar grupos de IVA en otros mercados que tengan otras implementaciones de informes de IVA locales, como Austria, Alemania, Italia, España y Suiza. 
 
 ## <a name="see-also"></a>Consulte también
 [Trabajar con el IVA por ventas y compras](finance-work-with-vat.md)  

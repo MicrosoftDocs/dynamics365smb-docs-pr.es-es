@@ -1,30 +1,29 @@
 ---
-title: Configurar la amortización de activos fijos | Documentos de Microsoft
+title: Configurar Amortización A/F
 description: Puede especificar en un libro de amortización cómo desea que los activos fijos que se amorticen o deprecien.
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
 ms.search.keywords: write down
-ms.date: 10/01/2020
+ms.date: 02/22/2021
 ms.author: edupont
-ms.openlocfilehash: c9eea613db52d327caa1c3d5449864900fc867d1
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: e5d000b1ff7d1b83188449c80a9a9eefe79e8676
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749274"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493233"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Configurar la amortización de los activos fijos
- Puede utilizar varios métodos de amortización para preparar extractos financieros y devoluciones de impuestos. Muchas grandes empresas utilizan amortizaciones en línea en sus extractos financieros porque les suele permitir obtener ganancias mayores. Sin embargo, en casos de devolución de impuestos, muchas empresas utilizan un método de amortización acelerado, como la amortización regresiva. Usted define el método de depreciación de un activo con el campo **Método de amortización** en la página **Tarjeta de activo fijo**. Para obtener más información sobre lo que hacen los diferentes métodos, vea [Métodos de amortización](fa-depreciation-methods.md).
 
- En los libros de amortización, usted define las diferentes formas en que se debe calcular la amortización para sus diferentes activos fijos. En cada libro, puede especificar términos de amortización individuales. Por ejemplo, se puede especificar que un activo debe amortizarse en un periodo de tres años en un libro, y en un periodo de cinco años en otro libro.
+Puede utilizar varios métodos de amortización para preparar extractos financieros y devoluciones de impuestos. Muchas grandes empresas utilizan amortizaciones en línea en sus extractos financieros porque les suele permitir obtener ganancias mayores. Sin embargo, en casos de devolución de impuestos, muchas empresas utilizan un método de amortización acelerado, como la amortización regresiva. Usted define el método de depreciación de un activo con el campo **Método de amortización** en la página **Tarjeta de activo fijo**. Para obtener más información sobre lo que hacen los diferentes métodos, vea [Métodos de amortización](fa-depreciation-methods.md).
 
- Cuando cree los libros de amortización pertinentes, debe asignar uno o más a cada activo. Un libro de amortización que se asigna a un activo se le conoce como un libro de amortización de activo. Puede establecer un número ilimitado de libros de amortización para un activo. 
+Puede configurar libros de amortización, en los que usted define las diferentes formas en que se debe calcular la amortización para sus diferentes activos fijos. Cada libro de amortización especifica términos de amortización individuales. Por ejemplo, se puede especificar que un activo debe amortizarse en un periodo de tres años en un libro, y en un periodo de cinco años en otro libro.
+
+Cuando cree los libros de amortización pertinentes, debe asignar uno o más a cada activo. Un libro de amortización que se asigna a un activo se le conoce como un libro de amortización de activo. Puede establecer un número ilimitado de libros de amortización para un activo.  
 
 ## <a name="to-create-a-depreciation-book"></a>Para crear un libro de amortización
+
 En un libro de amortización de activos puede especificar la forma en que se amortizarán los activos. Para aplicar distintos métodos de amortización, puede configurar varios libros de amortización.  
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Libros de amortización** y luego elija el enlace relacionado.
@@ -32,9 +31,14 @@ En un libro de amortización de activos puede especificar la forma en que se amo
 3. En la página **Ficha libro amortización**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
-    >   Puede registrar transacciones de activos en las páginas **A/F Diario general** o **Diario activos fijos**, dependiendo de si las transacciones son para la información financiera o la gestión interna. Vaya al siguiente paso para indicar qué tipo de diario se utiliza para las distintas actividades de activo de forma predeterminada.
+    > Puede registrar transacciones de activos en las páginas **A/F Diario general** o **Diario activos fijos**, dependiendo de si las transacciones son para la información financiera o la gestión interna. Vaya al siguiente paso para indicar qué tipo de diario se utiliza para las distintas actividades de activo de forma predeterminada.
 4. En la ficha desplegable **Integración**, seleccione la casilla de las transacciones de cada actividad de activo que desee registrar en la página **A/F Diario general**.
 5. Repita los pasos del 2 al 4 para cada método de amortización o de registro que desee asignar a los activos fijos en un libro de amortización.
+
+> [!IMPORTANT]
+> Elija el campo **Utilizar el redondeo en amortización periódica** para redondear los importes de depreciación periódica calculados a números enteros. Por ejemplo, si su empresa también utiliza el redondeo de facturas a números enteros en la págin **Configuración de contabilidad**, redondear también los importes de depreciación a números enteros puede ayudar a proporcionar transparencia.
+
+Por ejemplo, si se deshace de un activo fijo donde el libro de amortización no especifica el redondeo, pero la configuración de contabilidad de la empresa requiere redondeo, entonces, cuando se deshaga del activo fijo, verá un mensaje de error que indica que se debe redondear una cantidad en un movimiento.  
 
 ## <a name="to-assign-a-depreciation-book-to-a-fixed-asset"></a>Para asignar un libro de amortización a un activo fijo
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Activos fijos** y luego elija el enlace relacionado.

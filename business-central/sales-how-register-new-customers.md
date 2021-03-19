@@ -1,21 +1,21 @@
 ---
-title: Crear una ficha de cliente para registrar clientes nuevos | Documentos de Microsoft
+title: Registrar a nuevos clientes creando una ficha cliente
 description: Describe cómo crear una ficha de cliente para registrar información acerca de cada cliente nuevo o existente a los que venda productos.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: client
-ms.date: 10/01/2020
+ms.search.keywords: client, customer, credit
+ms.date: 03/09/2021
 ms.author: edupont
-ms.openlocfilehash: 86527387653d198bc8cf6f7817058b5ff551e1d0
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: d873c1546cebfccc6d2549b1de2b9d111589c553
+ms.sourcegitcommit: 35f7e24c301926b39094aa64fe608afd04fdb8e1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748324"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5573431"
 ---
 # <a name="register-new-customers"></a>Permite registrar nuevos clientes
 
@@ -64,6 +64,29 @@ La plantilla de cliente se agrega a la lista de plantillas de cliente, de modo q
 
 Si ha publicado una transacción para un cliente, no puede eliminar la ficha porque los movimientos pueden ser necesarias para la auditoría. Para eliminar fichas de cliente con movimientos, póngase en contacto con su socio de Microsoft para hacerlo mediante código.  
 
+## <a name="managing-credit-limits"></a>Administrar los límites de crédito
+
+Los límites de crédito, los importes del saldo y las condiciones de pago permiten que [!INCLUDE [prod_short](includes/prod_short.md)] emita advertencias de crédito y deuda vencida al introducir un pedido de venta.  Además, las instalaciones de términos de recordatorio y de intereses le permiten facturar intereses y/o recargos adicionales.  
+
+El campo **Límite de crédito** de una ficha cliente especifica el importe máximo que le permite al cliente exceder el saldo de pago antes de que se emitan las advertencias. Luego, cuando introduce información en diarios, ofertas, pedidos y facturas, [!INCLUDE [prod_short](includes/prod_short.md)] prueba la cabecera de ventas y las líneas de ventas individuales para ver si se ha excedido el límite de crédito.
+
+Puede registrar, aunque se haya rebasado el límite de crédito. Si este campo se deja en blanco, este cliente no tendrá límite de crédito.  
+
+Puede optar por no recibir advertencias que le indiquen que se excedió el límite de crédito del cliente y puede especificar qué tipos de advertencias desea ver.
+
+### <a name="to-specify-credit-limit-warnings"></a>Para especificar advertencias de límites de crédito
+
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de ventas y cobros** y luego elija el enlace relacionado.
+
+2. En la ficha desplegable **General**, en el campo **Advertencias de crédito**, elija la opción relevante como se describe en la siguiente tabla:
+
+    |Opción| Descripción|
+    |------|------------|
+    |**Ambos**| El programa comprueba los campos **Límite de crédito** y **Saldo vencido** de la ficha cliente y le avisa si el cliente ha superado el límite de crédito o si tiene una deuda vencida.|
+    |**Límite de crédito**|El valor del campo **Límite de crédito** de la ficha de cliente se compara con el saldo del cliente y se muestra un aviso si dicho saldo supera este importe.|
+    |**Deuda vencida**|Se comprueba el campo **Saldo vencido** de la ficha cliente y aparece una advertencia si el cliente tiene una deuda vencida.|
+    |**Ninguno**|No se muestra ninguna advertencia acerca del estado del cliente.|
+
 ## <a name="see-also"></a>Consulte también
 
 [Definir las formas de pago](finance-payment-methods.md)  
@@ -72,6 +95,5 @@ Si ha publicado una transacción para un cliente, no puede eliminar la ficha por
 [Ccial](sales-manage-sales.md)  
 [Configuración de ventas](sales-setup-sales.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -3,16 +3,16 @@ title: P+F sobre el uso de Business Central
 description: Responde a preguntas comunes sobre cómo registrarse o comprar Business Central, extender una prueba, cancelar una suscripción y encontrar formación y otro tipo de asistencia.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e674aed9dd6f2e3fade52675f77113ac4ee42a0b
-ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+ms.openlocfilehash: 2e446b3e5415299954098abb92088277b7da2bbc
+ms.sourcegitcommit: 026484766988b8727649c02fc8990b0646999bf1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5014030"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5498567"
 ---
 # <a name="frequently-asked-questions-about-using-business-central"></a>Preguntas frecuentes sobre el uso de Business Central
 
@@ -40,7 +40,9 @@ Por último, puede ponerse en contacto con su distribuidor de [!INCLUDE[prod_sho
 ## <a name="why-cant-i-find-that-capability-in-my-prod_short"></a>¿Por qué no puedo encontrar esa capacidad en mi [!INCLUDE[prod_short](includes/prod_short.md)]?
 ¿Ha leído recientemente acerca de una nueva capacidad en el plan de la versión o en nuestro blog? En ese caso, el [!INCLUDE[prod_short](includes/prod_short.md)] puede que todavía no se haya actualizado a la última versión. Puede comprobar en qué versión se basa su [!INCLUDE[prod_short](includes/prod_short.md)] en la página [Ayuda y soporte técnico](product-help-and-support.md).  
 
-Además, si la capacidad se publica como una extensión en AppSource, habrá un retraso entre el anuncio y su disponibilidad en AppSource.  
+Esto se aplica a [!INCLUDE [prod_short](includes/prod_short.md)] en línea y local.  
+
+Además, si la capacidad se publica como una extensión en AppSource, habrá un retraso entre el anuncio y su disponibilidad en AppSource. Esto se aplica a [!INCLUDE [prod_short](includes/prod_short.md)] solo en línea.  
 
 ## <a name="are-there-any-differences-between-an-on-premises-deployment-and-the-cloud-version-of-business-central"></a>¿Existen diferencias entre una implementación local y la versión en la nube de Business Central?
 Sí. Algunas funciones basadas en la nube pueden funcionar localmente en algunos casos y otras no son compatibles en absoluto. Para obtener más información, consulte [Características no implementadas en implantaciones locales de Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises).
@@ -65,8 +67,9 @@ Si la configuración de Experiencia en la página **Información de la empresa**
 
 No hay ningún botón *Guardar* en las páginas como en otros programas con los que pueda estar familiarizado. En [!INCLUDE[prod_short](includes/prod_short.md)], los cambios realizados en un campo se guardan automáticamente en cuanto se traslada al siguiente campo o cierra la página, mientras no haya errores. Al realizar cambios en un campo y pasar a otro, verá el texto **Guardando** en la esquina superior derecha de la página, que cambiará rápidamente a **Guardado** si no se produce ningún error. Si se produce un error, el texto cambiará **No guardado**.
 
-## <a name="what-email-address-can-i-use-with-prod_short"></a><a name="email"></a>¿Qué dirección de correo electrónico puedo usar en [!INCLUDE[prod_short](includes/prod_short.md)]?
-Para iniciar sesión, [!INCLUDE[prod_short](includes/prod_short.md)] requiere una dirección de correo electrónico del trabajo o la escuela. [!INCLUDE[prod_short](includes/prod_short.md)] no admite direcciones de correo electrónico proporcionadas por servicios de correo electrónico del consumidor ni por proveedores de la telecomunicación. Esto incluye outlook.com, hotmail.com, gmail.com y otros.  
+## <a name="what-email-address-can-i-use-with-prod_short-online"></a><a name="email"></a>¿Qué dirección de correo electrónico puedo usar con [!INCLUDE[prod_short](includes/prod_short.md)] en línea?
+
+[!INCLUDE[prod_short](includes/prod_short.md)] en línea requiere una dirección de correo electrónico del trabajo o la escuela. [!INCLUDE[prod_short](includes/prod_short.md)] en línea no admite direcciones de correo electrónico proporcionadas por servicios de correo electrónico del consumidor ni por proveedores de telecomunicación. Esto incluye outlook.com, hotmail.com, gmail.com y otros.  
 
 Si intenta iniciar sesión con una dirección de correo personal, recibirá un mensaje indicando que use una dirección del trabajo o la escuela. Para obtener más información, vea [Solución de problemas del registro de autoservicio](ui-troubleshoot-self-signup.md).  
 
@@ -147,6 +150,5 @@ Las primeras versiones de [!INCLUDE[prod_short](includes/prod_short.md)] local i
 [Preguntas frecuentes sobre experiencias de desarrolladores y profesionales de TI](/dynamics365/business-central/dev-itpro/faq)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

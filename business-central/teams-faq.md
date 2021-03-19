@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
-ms.date: 01/26/2021
+ms.date: 03/04/2021
 ms.author: jswymer
-ms.openlocfilehash: 79b6069ffb4c73d783b2c05d3a44a55763805a52
-ms.sourcegitcommit: 1c9eec7554305603d688bf85ce3986d0b1f72ede
+ms.openlocfilehash: d95e97a232cfb7fda8f40f68875b747723abbd4b
+ms.sourcegitcommit: 35f7e24c301926b39094aa64fe608afd04fdb8e1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "5068439"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5573381"
 ---
 # <a name="teams-faq"></a>P+F de Teams
 
@@ -50,7 +50,6 @@ La aplicación [!INCLUDE [prod_short.md](includes/prod_short.md)] para Teams no 
 Sí. La aplicación está diseñada para funcionar con cualquier localización de [!INCLUDE [prod_short.md](includes/prod_short.md)], ya sea que la localización se ofrezca directamente desde Microsoft oa través de un socio. Para más información, vea [Disponibilidad nacional y regional e idiomas compatibles](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).
 
 ### <a name="which-languages-does-the-prod_shortmd-app-support"></a><a name="language"></a>¿Qué idiomas admite la aplicación [!INCLUDE [prod_short.md](includes/prod_short.md)]?
-<!--TODO Run by Mike -->
 
 Dos cosas determinan el idioma que se usa para las tarjetas y los detalles de las tarjetas en Teams:
 
@@ -66,15 +65,19 @@ La siguiente tabla explica en qué se diferencia la experiencia de los autores y
 
 Para ver la lista de idiomas admitidos para [!INCLUDE [prod_short.md](includes/prod_short.md)], vea [Idiomas admitidos](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json#supported-languages).
 
+### <a name="does-the-business-central-app-work-with-industry-solutions"></a>¿La aplicación Business Central funciona con soluciones del sector?
+
+Sí. La aplicación funciona con enlaces basados en el patrón **\*.bc.dynamics.com** que se usa típicamente con [Insertar aplicaciones](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview).
+
 ### <a name="where-can-i-find-teams-integration-inside-the-prod_shortmd-web-client"></a>¿Dónde puedo encontrar la integración de Teams dentro del cliente web de [!INCLUDE [prod_short.md](includes/prod_short.md)]? 
 
-Actualmente no hay incrustación de controles de Teams o presencia de características de Teams dentro del cliente web de [!INCLUDE [prod_short.md](includes/prod_short.md)] u otros clientes.  
+Actualmente no hay incrustación de controles de Teams o presencia de características de Teams dentro del cliente web de [!INCLUDE [prod_short.md](includes/prod_short.md)] u otros clientes.
 
 ### <a name="does-prod_shortmd-work-with-the-teams-mobile-app"></a>¿Funciona [!INCLUDE [prod_short.md](includes/prod_short.md)] con la aplicación móvil de Teams?
 
 Sí. La aplicación [!INCLUDE [prod_short.md](includes/prod_short.md)] se puede instalar desde la aplicación de escritorio o el navegador de Teams, o por un administrador para todos los usuarios. Una vez instalada, la aplicación [!INCLUDE [prod_short.md](includes/prod_short.md)] está disponible automáticamente en Teams para iOS y Android. En dispositivos móviles, puede ver tarjetas enviadas por otros, acceder a detalles o mostrar la tarjeta para obtener la experiencia completa en la aplicación móvil [!INCLUDE [prod_short.md](includes/prod_short.md)]. Sin embargo, no puede pegar enlaces que se expanden en tarjetas al redactar mensajes. Para conocer los requisitos mínimos para dispositivos móviles, consulte [Requisitos mínimos para utilizar Business Central](product-requirements.md).
 
-### <a name="is-the-prod_shortmd-app-for-teams-the-same-as-the-prod_shortmd-app-for-ios-and-android"></a>¿Es la aplicación [!INCLUDE [prod_short.md](includes/prod_short.md)] para Teams igual que la aplicación [!INCLUDE [prod_short.md](includes/prod_short.md)] para iOS y Android? 
+### <a name="is-the-prod_shortmd-app-for-teams-the-same-as-the-prod_shortmd-app-for-ios-and-android"></a>¿Es la aplicación [!INCLUDE [prod_short.md](includes/prod_short.md)] para Teams igual que la aplicación [!INCLUDE [prod_short.md](includes/prod_short.md)] para iOS y Android?
 
 Nº La aplicación para Teams es un complemento de Microsoft Teams y diseñado exclusivamente para experiencias colaborativas que se iluminan dentro de Teams. Por otro lado, la aplicación móvil [!INCLUDE [prod_short.md](includes/prod_short.md)] ofrece una rica experiencia con la que trabajar con datos de [!INCLUDE [prod_short.md](includes/prod_short.md)] en sus dispositivos móviles.
 
@@ -108,13 +111,26 @@ La aplicación [!INCLUDE [prod_short.md](includes/prod_short.md)] para Teams pue
 
 Los campos que se muestran en una tarjeta en Teams también pueden verse afectados por las personalizaciones de [!INCLUDE [prod_short.md](includes/prod_short.md)] instaladas para su organización. Las tarjetas no tienen en cuenta las personalizaciones específicas de la función o la personalización del usuario. Sin embargo, la ventana de detalles de la tarjeta muestra los detalles del registro como los vería en [!INCLUDE [prod_short.md](includes/prod_short.md)], incluidas las extensiones, personalizaciones de funciones y personalización de usuarios.
 
+### <a name="how-do-the-permissions-required-by-the-app-affect-my-privacy"></a>¿Cómo afectan a mi privacidad los permisos requeridos por la aplicación?
+
+Antes de instalar la aplicación [!INCLUDE [prod_short.md](includes/prod_short.md)] para Teams, puede revisar los permisos mínimos requeridos para que la aplicación funcione. Al instalar la aplicación, acepta que la aplicación tiene permiso para recibir mensajes y datos que usted le proporciona, y Teams tiene permiso para almacenar y procesar esos mensajes.
+
+Además, algunas características de [!INCLUDE [prod_short.md](includes/prod_short.md)] requieren la apertura de enlaces externos o el acceso a su cámara o ubicación geográfica. Por ejemplo, suponga que desea capturar una foto de una factura de compra para procesarla. La aplicación [!INCLUDE [prod_short.md](includes/prod_short.md)] no usa estas capacidades sin su consentimiento y solo las usan funciones específicas en la ventana **Detalles**. Cuando use una de estas características por primera vez, Teams mostrará un cuadro de diálogo que le pedirá que otorgue acceso a las capacidades requeridas del dispositivo.
+
+- En el escritorio de Teams, revise y ajuste los permisos de la aplicación desde la ventana **Ajustes**. Seleccione su foto de perfil en la parte superior de la aplicación, seleccione **Configuración** > **Permisos**, y luego seleccione la aplicación [!INCLUDE [prod_short.md](includes/prod_short.md)].
+
+- Para Teams en el navegador y Teams para iOS o Android, puede revisar o ajustar los permisos desde la configuración de su navegador o dispositivo.
+
+> [!NOTE]
+> Exactamente qué características de [!INCLUDE [prod_short.md](includes/prod_short.md)] le solicitan permisos depende de las aplicaciones complementarias y las personalizaciones aplicadas al ambiente [!INCLUDE [prod_short.md](includes/prod_short.md)] al que se conecta.
+
 ### <a name="where-can-i-learn-about-my-privacy"></a>¿Dónde puedo obtener información sobre mi privacidad? 
 
 Puede obtener información sobre cómo Microsoft maneja sus datos en la [Declaración de privacidad de Microsoft](https://go.microsoft.com/fwlink/?linkid=2030602). 
 
-Comuníquese con su administrador para conocer cómo su organización maneja la privacidad de sus datos. 
+Comuníquese con su administrador para conocer cómo su organización maneja la privacidad de sus datos.
 
-### <a name="how-do-i-uninstall-the-prod_shortmd-app-for-teams"></a>¿Cómo desinstalo la aplicación [!INCLUDE [prod_short.md](includes/prod_short.md)] para Teams? 
+### <a name="how-do-i-uninstall-the-prod_shortmd-app-for-teams"></a>¿Cómo desinstalo la aplicación [!INCLUDE [prod_short.md](includes/prod_short.md)] para Teams?
 
 Para eliminar la aplicación que instaló usted mismo, vaya a cualquier cuadro de redacción de chat, busque el icono [!INCLUDE [prod_short.md](includes/prod_short.md)] debajo, haga clic con el botón derecho en el icono y seleccione Desinstalar.  
 
@@ -153,29 +169,33 @@ Nº Los valores de campo de una tarjeta en Teams, incluidas las imágenes, se ba
 
 Cuando redacta y envía un mensaje al chat que incluye una tarjeta, todos los usuarios verán la tarjeta, incluso si no han instalado la aplicación [!INCLUDE [prod_short.md](includes/prod_short.md)] para Teams.
 
+### <a name="how-do-i-find-out-which-company-a-card-in-teams-belongs-to"></a>¿Cómo puedo saber a qué empresa pertenece una tarjeta en Teams?
+
+Si trabaja en empresas de [!INCLUDE [prod_short.md](includes/prod_short.md)], hable con su administrador sobre la habilitación de un distintivo de empresa para cada empresa. Cuando está habilitada, esta sugerencia llamativa aparece en cualquier ventana de detalles en Teams y muestra la empresa y el ambiente al que pertenece el registro. Para saber cómo configurar el distintivo de la empresa, consulte [Para mostrar un distintivo de la empresa para acceder rápidamente a la información de la empresa](ui-change-basic-settings.md#badge).
+
 ## <a name="working-with-card-details"></a>[Trabajar con detalles de tarjetas](#tab/carddetails)
 
-### <a name="where-is-the-save-button-in-the-details-window-in-teams"></a>¿Dónde está el botón guardar en la ventana de detalles en Teams? 
+### <a name="where-is-the-save-button-in-the-details-window-in-teams"></a>¿Dónde está el botón guardar en la ventana de detalles en Teams?
 
 [!INCLUDE [prod_short.md](includes/prod_short.md)] guarda automáticamente los cambios que realiza en cualquier campo tan pronto como abandona el campo. Para salir de un campo, haga clic / toque en cualquier lugar fuera del campo o use la tecla Tab para pasar al siguiente campo. Cuando aparecen datos en un cuadro de diálogo dentro de la ventana de detalles, es posible que deba elegir el botón **Aceptar** para que [!INCLUDE [prod_short.md](includes/prod_short.md)] guarde sus cambios.
 
-### <a name="if-i-choose-to-view-details-for-a-card-will-other-users-see-my-details-window"></a>Si elijo ver los detalles de una tarjeta, ¿otros usuarios verán mi ventana de detalles? 
+### <a name="if-i-choose-to-view-details-for-a-card-will-other-users-see-my-details-window"></a>Si elijo ver los detalles de una tarjeta, ¿otros usuarios verán mi ventana de detalles?
 
 Nº Si bien todos en el chat pueden ver la tarjeta en sí, la ventana de detalles solo aparece para usted en su dispositivo cuando elige **Detalles**. Otros usuarios deben elegir **Detalles** si desean ver la ventana de detalles en su dispositivo.
 
-### <a name="can-i-start-a-teams-call-from-the-details-window-in-teams"></a>¿Puedo iniciar una llamada de Teams desde la ventana de detalles en Teams? 
+### <a name="can-i-start-a-teams-call-from-the-details-window-in-teams"></a>¿Puedo iniciar una llamada de Teams desde la ventana de detalles en Teams?
 
 Sí. Puede iniciar una llamada eligiendo el número de marcación vinculado en un campo de número de teléfono, como el campo **Número de teléfono móvil** en la tarjeta de **Contacto**. Teams debe ser su aplicación de marcación designada.
 
 Para llamar a teléfonos fijos y móviles locales o internacionales desde Teams, debe tener una licencia de Teams para llamadas empresariales. Además, debe configurar Teams como su solución de llamadas. Para obtener más información, consulte [Planificar la solución de voz de Teams](/microsoftteams/cloud-voice-landing-page) en la documentación de Teams.
 
-### <a name="can-i-print-documents-from-the-details-window-in-teams"></a>¿Puedo imprimir documentos desde la ventana de detalles en Teams? 
+### <a name="can-i-print-documents-from-the-details-window-in-teams"></a>¿Puedo imprimir documentos desde la ventana de detalles en Teams?
 
 Sí. Imprime informes y otros documentos utilizando la funcionalidad de impresión de [!INCLUDE [prod_short.md](includes/prod_short.md)] y cualquier impresora habilitada para la nube configurada en la página **Gestión de impresoras** en [!INCLUDE [prod_short.md](includes/prod_short.md)]. No puede imprimir desde Teams en impresoras locales conocidas por su dispositivo cliente, como impresoras en las que normalmente imprime desde su navegador. Por esta razón, no puede imprimir desde la ventana de vista previa del informe, sino solo desde la página principal de solicitud de informe, directamente en sus impresoras en la nube.
 
 Para obtener más información sobre cómo configurar impresoras en la nube, consulte [Configurar impresoras](ui-specify-printer-selection-reports.md).
 
-### <a name="can-i-access-the-camera-from-the-details-window-in-teams"></a>¿Puedo acceder a la cámara desde la ventana de detalles en Teams? 
+### <a name="can-i-access-the-camera-from-the-details-window-in-teams"></a>¿Puedo acceder a la cámara desde la ventana de detalles en Teams?
 
 Sí. Las funciones de [!INCLUDE [prod_short.md](includes/prod_short.md)] de la ventana de detalles que usan la cámara están disponibles en todos los clientes de Teams.
 
@@ -185,7 +205,7 @@ Si está utilizando la funcionalidad en [!INCLUDE [prod_short.md](includes/prod_
 
 ## <a name="collaborating-with-guests"></a>[Colaborando con invitados ](#tab/collaborating)
 
-### <a name="can-i-share-cards-with-users-outside-my-organization"></a>¿Puedo compartir tarjetas con usuarios fuera de mi organización? 
+### <a name="can-i-share-cards-with-users-outside-my-organization"></a>¿Puedo compartir tarjetas con usuarios fuera de mi organización?
 
 Sí. Cuando redacta y envía un mensaje que incluye una tarjeta, todos los destinatarios del chat verán la tarjeta&mdash;incluso si son invitados o externos a su organización. Los invitados también pueden abrir la ventana de detalles si se les ha otorgado permisos para acceder a esos datos en [!INCLUDE [prod_short.md](includes/prod_short.md)].
 
