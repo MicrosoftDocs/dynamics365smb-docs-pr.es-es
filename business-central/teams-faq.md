@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
-ms.date: 03/04/2021
+ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: d95e97a232cfb7fda8f40f68875b747723abbd4b
-ms.sourcegitcommit: 35f7e24c301926b39094aa64fe608afd04fdb8e1
+ms.openlocfilehash: 86e540a34efba3fccbc0615cac692fd6c405bee0
+ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5573381"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5882235"
 ---
 # <a name="teams-faq"></a>P+F de Teams
 
@@ -25,13 +25,13 @@ Este artículo responde algunas de las preguntas que pueda tener sobre cómo tra
 
 ## <a name="general"></a>[General](#tab/general)
 
-### <a name="how-do-i-sign-in-to-the-prod_shortmd-app-in-teams"></a>¿Cómo inicio sesión en la aplicación [!INCLUDE [prod_short.md](includes/prod_short.md)] en Teams? 
+### <a name="how-do-i-sign-in-to-the-prod_shortmd-app-in-teams"></a>¿Cómo inicio sesión en la aplicación [!INCLUDE [prod_short.md](includes/prod_short.md)] en Teams?
 
-Después de instalar la aplicación, se le pedirá que inicie sesión la primera vez que pegue un vínculo a [!INCLUDE [prod_short.md](includes/prod_short.md)] en el chat de Teams o cuando elija la acción **Detalles** en una tarjeta en Teams. Dependiendo de su cliente de Teams, es posible que deba ingresar las credenciales que usa para acceder a [!INCLUDE [prod_short.md](includes/prod_short.md)]. 
+Después de instalar la aplicación, se le pedirá que inicie sesión la primera vez que use la aplicación, cuando pegue un vínculo de [!INCLUDE [prod_short.md](includes/prod_short.md)] en el chat de Teams o cuando elija la acción **Detalles** en una tarjeta en Teams. Dependiendo de su cliente de Teams, es posible que deba ingresar las credenciales que usa para acceder a [!INCLUDE [prod_short.md](includes/prod_short.md)].
 
-### <a name="how-do-i-sign-out-of-the-prod_shortmd-app-in-teams"></a>¿Cómo inicio sesión fuera de la aplicación [!INCLUDE [prod_short.md](includes/prod_short.md)] en Teams? 
+### <a name="how-do-i-sign-out-of-the-prod_shortmd-app-in-teams"></a>¿Cómo inicio sesión fuera de la aplicación [!INCLUDE [prod_short.md](includes/prod_short.md)] en Teams?
 
-Para cerrar sesión en su identidad de usuario actual en Teams usada para conectar con [!INCLUDE [prod_short.md](includes/prod_short.md)], vaya a cualquier cuadro de redacción de chat y elija el icono [!INCLUDE [prod_short.md](includes/prod_short.md)] debajo. Cuando aparezca la ventana, verifique su identidad actualmente conectada y luego elija **Desconectar**. Si usa Teams en el navegador, también cerrará sesión en cualquier cliente web [!INCLUDE [prod_short.md](includes/prod_short.md)] en la misma ventana del navegador.
+Para cerrar sesión en su identidad de usuario actual en Teams usada para conectar con [!INCLUDE [prod_short.md](includes/prod_short.md)], vaya a cualquier cuadro de redacción de chat, haga clic con el botón derecho en el icono [!INCLUDE [prod_short.md](includes/prod_short.md)] debajo y, a continuación, elija **Configuración**. Cuando aparezca la ventana, verifique su identidad actualmente conectada y luego elija **Cerrar sesión**.
 
 ### <a name="does-the-app-for-teams-connect-to-prod_shortmd-on-premises"></a>¿Se conecta la aplicación para Teams a [!INCLUDE [prod_short.md](includes/prod_short.md)] en las instalaciones? 
 
@@ -39,7 +39,7 @@ Nº La aplicación [!INCLUDE [prod_short.md](includes/prod_short.md)] para Teams
 
 ### <a name="does-the-app-work-with-multiple-companies-and-environments"></a>¿La aplicación funciona con múltiples empresas y entornos? 
 
-Sí. Cuando la aplicación [!INCLUDE [prod_short.md](includes/prod_short.md)] expande un enlace en una tarjeta, el enlace debe contener el entorno y los nombres de la empresa para que la aplicación coincida con el registro de la empresa correcta. Puede pegar enlaces a cualquier empresa y entorno al que tenga acceso dentro de su organización y desde la cuenta de [!INCLUDE [prod_short.md](includes/prod_short.md)] que utilizó para iniciar sesión. Los participantes en el chat verán la tarjeta. Pero no pueden ver los detalles de la tarjeta a menos que tengan permisos para la empresa o el entorno donde se almacena ese registro.
+Sí. Para buscar contactos en una empresa diferente, vaya a [Configuración](across-teams-settings.md). Cuando la aplicación [!INCLUDE [prod_short.md](includes/prod_short.md)] expande un enlace en una tarjeta, el enlace debe contener el entorno y los nombres de la empresa para que la aplicación coincida con el registro de la empresa correcta. Puede pegar enlaces a cualquier empresa y entorno al que tenga acceso dentro de su organización y desde la cuenta de [!INCLUDE [prod_short.md](includes/prod_short.md)] que utilizó para iniciar sesión. Los participantes en el chat verán la tarjeta. Pero no pueden ver los detalles de la tarjeta a menos que tengan permisos para la empresa o el entorno donde se almacena ese registro.
 
 ### <a name="in-which-countries-or-regions-is-the-prod_shortmd-app-available"></a>¿En qué países o regiones está la aplicación [!INCLUDE [prod_short.md](includes/prod_short.md)] disponible? 
 
@@ -65,9 +65,12 @@ La siguiente tabla explica en qué se diferencia la experiencia de los autores y
 
 Para ver la lista de idiomas admitidos para [!INCLUDE [prod_short.md](includes/prod_short.md)], vea [Idiomas admitidos](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json#supported-languages).
 
-### <a name="does-the-business-central-app-work-with-industry-solutions"></a>¿La aplicación Business Central funciona con soluciones del sector?
+### <a name="does-the-prod_shortmd-app-work-with-industry-solutions"></a>¿La aplicación [!INCLUDE [prod_short.md](includes/prod_short.md)] funciona con soluciones del sector?
 
-Sí. La aplicación funciona con enlaces basados en el patrón **\*.bc.dynamics.com** que se usa típicamente con [Insertar aplicaciones](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview).
+Sí. Pero solo algunas características de la aplicación funcionan con [Insertar aplicaciones](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview):
+
+- La aplicación funciona con vínculos basados en el patrón **\*.bc.dynamics.com** que se usa normalmente con Insertar aplicaciones.
+- La búsqueda de contactos no está disponible para Insertar aplicaciones que reemplazan la aplicación base de Microsoft.
 
 ### <a name="where-can-i-find-teams-integration-inside-the-prod_shortmd-web-client"></a>¿Dónde puedo encontrar la integración de Teams dentro del cliente web de [!INCLUDE [prod_short.md](includes/prod_short.md)]? 
 
@@ -75,7 +78,7 @@ Actualmente no hay incrustación de controles de Teams o presencia de caracterí
 
 ### <a name="does-prod_shortmd-work-with-the-teams-mobile-app"></a>¿Funciona [!INCLUDE [prod_short.md](includes/prod_short.md)] con la aplicación móvil de Teams?
 
-Sí. La aplicación [!INCLUDE [prod_short.md](includes/prod_short.md)] se puede instalar desde la aplicación de escritorio o el navegador de Teams, o por un administrador para todos los usuarios. Una vez instalada, la aplicación [!INCLUDE [prod_short.md](includes/prod_short.md)] está disponible automáticamente en Teams para iOS y Android. En dispositivos móviles, puede ver tarjetas enviadas por otros, acceder a detalles o mostrar la tarjeta para obtener la experiencia completa en la aplicación móvil [!INCLUDE [prod_short.md](includes/prod_short.md)]. Sin embargo, no puede pegar enlaces que se expanden en tarjetas al redactar mensajes. Para conocer los requisitos mínimos para dispositivos móviles, consulte [Requisitos mínimos para utilizar Business Central](product-requirements.md).
+Sí. La aplicación [!INCLUDE [prod_short.md](includes/prod_short.md)] se puede instalar desde la aplicación de escritorio o el navegador de Teams, o por un administrador para todos los usuarios. Una vez instalada, la aplicación [!INCLUDE [prod_short.md](includes/prod_short.md)] está disponible automáticamente en Teams para iOS y Android. En dispositivos móviles, solo puede ver tarjetas enviadas por otros, acceder a detalles o mostrar la tarjeta para obtener la experiencia completa en la aplicación móvil [!INCLUDE [prod_short.md](includes/prod_short.md)]. No puede pegar vínculos que se expanden en tarjetas al redactar mensajes o buscar contactos. Para conocer los requisitos mínimos para dispositivos móviles, consulte [Requisitos mínimos para utilizar Business Central](product-requirements.md).
 
 ### <a name="is-the-prod_shortmd-app-for-teams-the-same-as-the-prod_shortmd-app-for-ios-and-android"></a>¿Es la aplicación [!INCLUDE [prod_short.md](includes/prod_short.md)] para Teams igual que la aplicación [!INCLUDE [prod_short.md](includes/prod_short.md)] para iOS y Android?
 
@@ -98,7 +101,8 @@ Para obtener información sobre la elección de los clientes de Teams y cómo in
 
 Solo hay pequeñas diferencias y limitaciones entre los clientes de Teams que pueden afectar su experiencia con la aplicación [!INCLUDE [prod_short.md](includes/prod_short.md)] para Teams. Al elegir un cliente de Teams, tenga en cuenta:
 
-- No se puede acceder a la cámara y la ubicación desde la ventana de detalles en la aplicación de escritorio de Teams 
+- No se puede acceder a la cámara y la ubicación desde la ventana de detalles en la aplicación de escritorio de Teams.
+- Los números de teléfono no se pueden activar desde la ventana de detalles en Teams para iOS, Teams para Android o Teams en el navegador.
 - Utilizando Microsoft Edge con Teams en el navegador le permite trabajar fácilmente con múltiples identidades y cuentas al iniciar sesión en Teams desde diferentes perfiles. Para aprender a usar perfiles en Microsoft Edge, vea [Iniciar sesión y crear múltiples perfiles en Microsoft Edge](https://support.microsoft.com/office/sign-in-and-create-multiple-profiles-in-microsoft-edge-df94e622-2061-49ae-ad1d-6f0e43ce6435) en Soporte de Microsoft.
 
 ### <a name="what-is-the-best-way-for-me-to-demonstrate-prod_shortmd-and-microsoft-teams-to-prospective-customers"></a>¿Cuál es la mejor manera para mí de demostrar [!INCLUDE [prod_short.md](includes/prod_short.md)] y Microsoft Teams a los posibles clientes?
@@ -110,6 +114,8 @@ Si es un socio revendedor, es posible que desee tener un entorno que pueda mostr
 La aplicación [!INCLUDE [prod_short.md](includes/prod_short.md)] para Teams puede mostrar tarjetas para enlaces a páginas y tablas de clientes en [!INCLUDE [prod_short.md](includes/prod_short.md)], como las páginas y tablas que se originan en sus propias extensiones personalizadas o en AppSource.
 
 Los campos que se muestran en una tarjeta en Teams también pueden verse afectados por las personalizaciones de [!INCLUDE [prod_short.md](includes/prod_short.md)] instaladas para su organización. Las tarjetas no tienen en cuenta las personalizaciones específicas de la función o la personalización del usuario. Sin embargo, la ventana de detalles de la tarjeta muestra los detalles del registro como los vería en [!INCLUDE [prod_short.md](includes/prod_short.md)], incluidas las extensiones, personalizaciones de funciones y personalización de usuarios.
+
+Cuando busca contactos, los campos que coinciden en la tabla **Contactos** y los campos que se muestran en los resultados de búsqueda no se ven afectados por ninguna personalización.
 
 ### <a name="how-do-the-permissions-required-by-the-app-affect-my-privacy"></a>¿Cómo afectan a mi privacidad los permisos requeridos por la aplicación?
 
@@ -132,13 +138,105 @@ Comuníquese con su administrador para conocer cómo su organización maneja la 
 
 ### <a name="how-do-i-uninstall-the-prod_shortmd-app-for-teams"></a>¿Cómo desinstalo la aplicación [!INCLUDE [prod_short.md](includes/prod_short.md)] para Teams?
 
-Para eliminar la aplicación que instaló usted mismo, vaya a cualquier cuadro de redacción de chat, busque el icono [!INCLUDE [prod_short.md](includes/prod_short.md)] debajo, haga clic con el botón derecho en el icono y seleccione Desinstalar.  
+Para eliminar la aplicación que instaló usted mismo, vaya a cualquier cuadro de redacción de chat, busque el icono [!INCLUDE [prod_short.md](includes/prod_short.md)] debajo, haga clic con el botón derecho en el icono y seleccione **Desinstalar**.  
 
 ### <a name="will-microsoft-continue-to-improve-the-prod_shortmd-app-for-teams"></a>¿Seguirá Microsoft mejorando la aplicación [!INCLUDE [prod_short.md](includes/prod_short.md)] para Teams?
 
-En Microsoft, escuchamos constantemente los comentarios de nuestra diversa comunidad de usuarios y actuamos siguiendo las mejores sugerencias. Para conocer lo que sigue para la aplicación [!INCLUDE [prod_short.md](includes/prod_short.md)] para Teams, consulte [Plan de lanzamiento de Dynamics 365](https://aka.ms/dynamics365releaseplan).
+En Microsoft, escuchamos constantemente los comentarios de nuestra diversa comunidad de usuarios y actuamos siguiendo las mejores sugerencias. Para conocer lo que sigue para la aplicación [!INCLUDE [prod_short.md](includes/prod_short.md)] para Teams, consulte [Plan de lanzamiento de Dynamics 365](/dynamics365-release-plan/2021wave1/).
 
-Si desea participar en la mejora de la aplicación para Teams, o tiene una gran idea que ayudaría a simplificar su trabajo o experiencias colaborativas en Teams, agregue una idea o vote por ideas existentes en [https://aka.ms/BusinessCentralIdeas](https://aka.ms/BusinessCentralIdeas).
+Si desea participar en la mejora de la aplicación para Teams, o tiene una idea que ayudaría a simplificar su trabajo o experiencias colaborativas en Teams, agregue una idea o vote por ideas existentes en [https://aka.ms/BusinessCentralIdeas](https://aka.ms/BusinessCentralIdeas).
+
+## <a name="searching-for-contacts"></a>[Buscar contactos](#tab/contacts)
+
+### <a name="which-tables-does-the-app-search-in"></a>¿En qué tablas busca la aplicación?
+
+Al buscar contactos desde la aplicación de [!INCLUDE [prod_short.md](includes/prod_short.md)] para Teams, los términos de búsqueda se comparan con los registros en la tabla **Contactos** en [!INCLUDE [prod_short.md](includes/prod_short.md)]. 
+
+### <a name="which-fields-in-the-contacts-table-can-i-search"></a>¿Qué campos de la tabla de contactos puedo buscar?
+
+A medida que escribe los términos de búsqueda en el cuadro de búsqueda, los términos se comparan con la mayoría de los campos de la tabla **Contactos**. Los campos incluyen, por ejemplo, los campos **Nº**, **Nombre**, **Dirección**, **Nº teléfono** o **Nº teléfono móvil** y **Correo electrónico**.  
+
+### <a name="do-search-results-include-companies-and-persons"></a>¿Los resultados de búsqueda incluyen empresas y personas?
+
+Sí. En [!INCLUDE [prod_short.md](includes/prod_short.md)], los contactos pueden ser de tipo **Empresa** o escriba **Persona**, donde una o varias personas pueden estar asociadas a una empresa. En los resultados de búsqueda, las empresas y las personas tienen diferentes iconos.
+
+### <a name="do-contacts-of-any-business-relationship-appear-in-the-results"></a>¿Los resultados contactos de cualquier relación de negocio aparecerán en los resultados?
+
+Sí. Algunos contactos pueden representar clientes o proveedores, o ambos. Otros contactos sin relación de negocio definida suelen representar clientes potenciales. Los contactos con otras relaciones de negocio, incluidas las relaciones personalizadas que haya configurado en [!INCLUDE [prod_short.md](includes/prod_short.md)], también se mostrarán en los resultados de la búsqueda.
+
+### <a name="can-i-look-up-contact-details-during-meetings"></a>¿Puedo buscar datos de contacto durante las reuniones?
+
+Sí. Puede buscar información de contacto, historial de interacción y documentos relacionados para su cliente o proveedor durante una reunión o llamada de Teams mientras se lleva a cabo la reunión, sin salir de Teams.
+
+De hecho, puede buscar detalles de contacto desde cualquier lugar de Teams mediante el cuadro de comando. Por ejemplo, puede buscar detalles de contacto en el calendario de Teams para ayudarle a configurar reuniones.
+
+### <a name="how-do-i-view-my-last-interactions-with-a-contact"></a>¿Cómo puede ver mis últimas interacciones con un contacto?
+
+La ventana de detalles de un contacto muestra los movimientos del registro de interacción. Los movimientos del registro de interacción proporcionan el historial de interacciones que su organización ha tenido con el contacto específico. Las interacciones pueden incluir correos electrónicos que haya intercambiado, llamadas que haya recibido o documentos que haya enviado.
+
+Para que se muestren las interacciones, [!INCLUDE [prod_short.md](includes/prod_short.md)] debe configurarse para realizar un seguimiento de las interacciones. Para obtener más información sobre las interacciones del registro, consulte [Registrar interacciones con contactos](marketing-interactions.md).
+
+### <a name="how-do-i-register-a-teams-call-or-meeting-as-an-interaction"></a>¿Cómo puedo registrar una llamada o reunión de Teams como una interacción?
+
+En la ventana de detalles de un contacto, busque la acción **Crear interacción** y elija entre las llamadas entrantes o salientes como plantillas de interacción. También puede crear sus propias plantillas de interacción personalizadas específicamente para usar con las conversaciones de Teams.
+
+### <a name="can-i-call-a-contact-from-the-prod_shortmd-app-for-teams"></a>¿Puedo llamar a un contacto desde la aplicación de [!INCLUDE [prod_short.md](includes/prod_short.md)] para Teams?
+
+[!INCLUDE [prod_short.md](includes/prod_short.md)] tiene una integración limitada con las capacidades de llamada de Teams. No es posible iniciar instantáneamente una llamada VOIP desde la ficha de contacto o la ventana de detalles de contacto. Sin embargo, cuando ve los detalles de contacto en la aplicación de escritorio de Teams, puede seleccionar el campo de número de teléfono para marcar ese número si Teams está configurado como su aplicación de marcación predeterminada en su dispositivo. Para marcar números de teléfonos fijos o móviles mediante PSTN, el sistema telefónico tradicional, Teams requiere que tenga la aplicación Microsoft 365 Business Voice. Para obtener más información, consulte [¿Qué es Microsoft 365 Business Voice?](/MicrosoftTeams/business-voice/whats-business-voice).
+
+### <a name="how-do-i-view-recent-documents-for-a-customer-or-vendor"></a>¿Cómo veo los documentos recientes de un cliente o proveedor?
+
+[!INCLUDE [prod_short.md](includes/prod_short.md)] normalmente relaciona un contacto con un registro de cliente o proveedor que, a su vez, está relacionado con registros de transacciones comerciales, como ofertas de ventas o facturas de compra. Para ver documentos relacionados para un contacto, vaya a la ventana de detalles del contacto, elija el valor de campo **Relación de negocio** o use las acciones para navegar hasta el cliente o proveedor asociado. En la página del cliente o proveedor, expanda el panel del cuadro informativo para revelar estadísticas de varios documentos en los que puede profundizar. Su experiencia puede diferir según sus personalizaciones.
+
+### <a name="how-do-i-search-for-contacts-using-special-characters"></a>¿Cómo puedo buscar contactos usando caracteres especiales?
+
+Puede introducir criterios de búsqueda usando casi cualquier carácter Unicode. Sin embargo, [!INCLUDE [prod_short.md](includes/prod_short.md)] se reserva los siguientes símbolos para otros usos: **=**, **.**, **\**_ y _*@**. Es posible que el uso de estos símbolos en los términos de búsqueda no arroje los resultados esperados. Si no ve los resultados esperados, incluya los símbolos en sus términos de búsqueda entre comillas simples, por ejemplo, **Contoso'='2**.
+
+### <a name="how-can-i-search-contacts-stored-in-a-different-company"></a>¿Cómo puedo buscar contactos almacenados en una empresa diferente?
+
+La aplicación [!INCLUDE [prod_short.md](includes/prod_short.md)] para Teams puede buscar clientes, proveedores y otros contactos en una empresa a la vez.  
+Para buscar contactos almacenados en una empresa de [!INCLUDE [prod_short.md](includes/prod_short.md)], abra [Configuración](across-teams-settings.md) y, a continuación, cambie el entorno y la empresa desde ahí.
+
+### <a name="are-prod_shortmd-contacts-different-than-the-ones-in-the-teams-contacts-screen"></a>¿Los contactos de [!INCLUDE [prod_short.md](includes/prod_short.md)] son diferentes de los de la pantalla de contactos de Teams?
+
+Sí. Los contactos almacenados en [!INCLUDE [prod_short.md](includes/prod_short.md)] representan los contactos profesionales disponibles para su organización. Son contactos con los que tiene una relación de negocio establecida y bien definida, o contactos que representan a clientes potenciales. Estos contactos suelen ser contactos externos. En comparación, los contactos que se muestran en la lista de contactos de llamada de Teams son sus propios contactos. Estos contactos no se comparten necesariamente con otros miembros de su organización y, por lo general, representan contactos internos de su organización.
+
+### <a name="does-prod_shortmd-synchronize-contacts-with-teams"></a>¿[!INCLUDE [prod_short.md](includes/prod_short.md)] sincroniza los contactos con Teams?
+
+Nº Los contactos almacenados en [!INCLUDE [prod_short.md](includes/prod_short.md)] se mantienen separados de sus contactos almacenados en Teams.
+Actualmente no hay planes para sincronizar las dos listas juntas.
+
+### <a name="what-is-the-minimum-version-of-prod_shortmd-for-contact-search"></a>¿Cuál es la versión mínima de [!INCLUDE [prod_short.md](includes/prod_short.md)] para la búsqueda de contactos?
+
+La búsqueda de contactos requiere que haya instalado la aplicación [!INCLUDE [prod_short.md](includes/prod_short.md)] para Teams versión 1.0.4 o superior y se conecte a entornos de [!INCLUDE [prod_short.md](includes/prod_short.md)] de la versión 18 o superior.
+
+### <a name="can-i-search-from-my-mobile-device"></a>¿Puedo buscar desde mi dispositivo móvil?
+
+En este momento, la búsqueda de contactos no está disponible en Teams para iOS y Teams para Android.
+
+### <a name="which-permissions-do-i-need-for-contact-search"></a>¿Qué permisos necesito para buscar contactos?
+
+Para buscar contactos, necesita permiso de nivel de objeto para la tabla **Contactos** dentro de la empresa de [!INCLUDE [prod_short.md](includes/prod_short.md)] que está buscando. Para ver la ventana de detalles de un contacto, necesita al menos permiso de lectura para la página **Contacto** dentro de la empresa de [!INCLUDE [prod_short.md](includes/prod_short.md)] y cualquier otro objeto relacionado.
+
+### <a name="can-i-use-contact-search-if-im-a-delegated-admin"></a>¿Puedo usar la búsqueda de contactos si soy administrador delegado?
+
+Sí. También puede buscar contactos y detalles de contacto si tiene un rol de administrador delegado en una organización.
+
+### <a name="is-contact-search-affected-by-api-limits"></a>¿La búsqueda de contactos se ve afectada por los límites de la API?
+
+Sí. La búsqueda de contactos de Teams se basa en las API de [!INCLUDE [prod_short.md](includes/prod_short.md)] v2.0 y está sujeta a los límites de la API que administran el uso. Puede obtener más información sobre los límites en [Límites de la API actuales](/dynamics-nav/api-reference/v2.0/dynamics-current-limits).
+
+### <a name="why-does-it-sometimes-ask-me-to-set-up-the-app"></a>¿Por qué a veces me pide que configure la aplicación?
+
+Después de iniciar sesión por primera vez en la aplicación [!INCLUDE [prod_short.md](includes/prod_short.md)] para Teams, la aplicación intentará determinar su empresa preferida en [!INCLUDE [prod_short.md](includes/prod_short.md)]. Si la aplicación no puede determinar la empresa, es posible que tenga que ir a la **Configuración** y elegir la empresa en la que desea buscar. Esta situación se produce, por ejemplo, si tiene acceso a varias empresas en distintos entornos de su organización. En este caso, tendrá que elegir una empresa antes de poder empezar a buscar.  
+
+La aplicación también puede pedirle que visite la **Configuración** si no parece tener una suscripción de [!INCLUDE [prod_short.md](includes/prod_short.md)], no entornos de [!INCLUDE [prod_short.md](includes/prod_short.md)], o su cuenta no tiene una licencia de [!INCLUDE [prod_short.md](includes/prod_short.md)].
+
+### <a name="id-like-to-search-for-items-or-records-from-other-tables-can-i-do-this-from-teams"></a>Me gustaría buscar productos o registros de otras tablas. ¿Puedo hacer esto desde Teams?
+
+En este momento no es posible buscar en otras tablas. La aplicación [!INCLUDE [prod_short.md](includes/prod_short.md)] para Teams solo busca en la lista de contactos de [!INCLUDE [prod_short.md](includes/prod_short.md)], que puede incluir proveedores, clientes y otros contactos.
+
+Si desea que las funcionalidades de búsqueda evolucionen para incluir otras tablas, animamos a nuestra comunidad a que agregue una idea o vote por ideas existentes en https://aka.ms/BusinessCentralIdeas.
 
 ## <a name="working-with-cards"></a>[Trabajando con tarjetas](#tab/cards)
 
@@ -153,7 +251,7 @@ La aplicación [!INCLUDE [prod_short.md](includes/prod_short.md)] para Teams rea
 
 Al pegar un enlace a la URL del cliente web raíz, como https://businesscentral.dynamics.com, la tarjeta muestra información para ayudar a los nuevos usuarios a comenzar a acceder a [!INCLUDE [prod_short.md](includes/prod_short.md)].
 
-### <a name="how-do-i-delete-a-card-i-sent-to-a-chat"></a>¿Cómo elimino una tarjeta que envié a un chat? 
+### <a name="how-do-i-delete-a-card-i-sent-to-a-chat"></a>¿Cómo elimino una tarjeta que envié a un chat?
 
 No puede eliminar una tarjeta que ya envió al chat. Pero puede eliminar todo el mensaje del que forma parte la tarjeta.
 
@@ -181,13 +279,13 @@ Si trabaja en empresas de [!INCLUDE [prod_short.md](includes/prod_short.md)], ha
 
 ### <a name="if-i-choose-to-view-details-for-a-card-will-other-users-see-my-details-window"></a>Si elijo ver los detalles de una tarjeta, ¿otros usuarios verán mi ventana de detalles?
 
-Nº Si bien todos en el chat pueden ver la tarjeta en sí, la ventana de detalles solo aparece para usted en su dispositivo cuando elige **Detalles**. Otros usuarios deben elegir **Detalles** si desean ver la ventana de detalles en su dispositivo.
+Nº Si bien todos en el chat o la reunión pueden ver la tarjeta en sí, la ventana de detalles solo aparece para usted en su dispositivo cuando elige **Detalles**. Otros usuarios deben elegir **Detalles** si desean ver la ventana de detalles en su dispositivo.
 
 ### <a name="can-i-start-a-teams-call-from-the-details-window-in-teams"></a>¿Puedo iniciar una llamada de Teams desde la ventana de detalles en Teams?
 
-Sí. Puede iniciar una llamada eligiendo el número de marcación vinculado en un campo de número de teléfono, como el campo **Número de teléfono móvil** en la tarjeta de **Contacto**. Teams debe ser su aplicación de marcación designada.
+Sí. Si usa la aplicación de escritorio de Teams, inicie una llamada eligiendo el número vinculado en un campo de número de teléfono, como el campo **Nº teléfono móvil** en la tarjeta de **Contacto**. Teams debe ser su aplicación de marcación designada.
 
-Para llamar a teléfonos fijos y móviles locales o internacionales desde Teams, debe tener una licencia de Teams para llamadas empresariales. Además, debe configurar Teams como su solución de llamadas. Para obtener más información, consulte [Planificar la solución de voz de Teams](/microsoftteams/cloud-voice-landing-page) en la documentación de Teams.
+Para llamar a teléfonos fijos y móviles locales o internacionales, Teams requiere que tenga una licencia de Business Voice para llamadas empresariales. Además, debe configurar Teams como su solución de llamadas. Para obtener más información, consulte [Planificar la solución de voz de Teams](/microsoftteams/cloud-voice-landing-page) en la documentación de Teams.
 
 ### <a name="can-i-print-documents-from-the-details-window-in-teams"></a>¿Puedo imprimir documentos desde la ventana de detalles en Teams?
 
@@ -219,7 +317,6 @@ Para conocer otras similitudes y diferencias entre los invitados y los miembros 
 
 Los invitados no tienen acceso al mercado de aplicaciones para instalarlas ellos mismos. Sin embargo, la aplicación se puede instalar automáticamente en función de las políticas de su organización. Otra forma de que un usuario invitado instale la aplicación [!INCLUDE [prod_short.md](includes/prod_short.md)] es al recibir un mensaje de chat que incluye una tarjeta de [!INCLUDE [prod_short.md](includes/prod_short.md)]. En este caso, el usuario elige el botón **Detalles** o el menú de la tarjeta, luego instala la aplicación [!INCLUDE [prod_short.md](includes/prod_short.md)] para usar con su organización. Después de instalar la aplicación, un usuario no recibe automáticamente ningún permiso para acceder a los datos de su [!INCLUDE [prod_short.md](includes/prod_short.md)].
 
-<!--TODO - check with Mike on this -->
 ---
 
 ## <a name="see-also"></a>Consulte también

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 2d1d04b5273329186c362866493303f5f4ad7450
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 4948dac105a62501ee3006cce0683be819db7ce8
+ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385329"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889210"
 ---
 # <a name="scheduling-a-synchronization-between-business-central-and-dataverse"></a>Programación de una sincronización entre Business Central y Dataverse
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -72,7 +72,7 @@ Algunos movimientos de cola de proyecto, como los que programan la sincronizaci�
 
 Cuando el valor en este campo no es cero y la cola de proyecto no ha encontrado ningún cambio durante la última ejecución, [!INCLUDE[prod_short](includes/prod_short.md)] pone el movimiento de cola de proyecto en espera. Cuando eso sucede, el campo **Estado de la cola de proyecto** mostrará **En espera debido a la inactividad** y [!INCLUDE[prod_short](includes/prod_short.md)] esperará el período de tiempo especificado en el campo **Tiempo de inactividad** antes de que vuelva a ejecutar el movimiento de la cola de proyecto.  
 
-Por ejemplo, de forma predeterminada, el movimiento de cola de trabajo DIVISA, que sincroniza las divisas en [!INCLUDE[cds_long_md](includes/cds_long_md.md)] con los tipos de cambio en [!INCLUDE[prod_short](includes/prod_short.md)], buscará cambios en los tipos de cambio cada 30 minutos. Si no se encuentran cambios, [!INCLUDE[prod_short](includes/prod_short.md)] pone el movimiento de cola de proyecto DIVISA en espera durante 720 minutos (seis horas). Si se cambia un tipo de cambio en [!INCLUDE[prod_short](includes/prod_short.md)] mientras el movimiento de cola de proyecto está en espera, [!INCLUDE[prod_short](includes/prod_short.md)] reactivará automáticamente el movimiento de cola de proyecto y reiniciará la cola de proyecto. 
+Por ejemplo, de forma predeterminada, el movimiento de cola de trabajo DIVISA, que sincroniza las divisas en [!INCLUDE[cds_long_md](includes/cds_long_md.md)] con los tipos de cambio en [!INCLUDE[prod_short](includes/prod_short.md)], buscará cambios en los tipos de cambio cada 30 minutos. Si no se encuentran cambios, [!INCLUDE[prod_short](includes/prod_short.md)] pone el movimiento de cola de proyecto DIVISA en espera durante 720 minutos (doce horas). Si se cambia un tipo de cambio en [!INCLUDE[prod_short](includes/prod_short.md)] mientras el movimiento de cola de proyecto está en espera, [!INCLUDE[prod_short](includes/prod_short.md)] reactivará automáticamente el movimiento de cola de proyecto y reiniciará la cola de proyecto. 
 
 > [!Note]
 > [!INCLUDE[prod_short](includes/prod_short.md)] activará automáticamente los movimientos de cola de proyecto que están en espera solo cuando se producen cambios en [!INCLUDE[prod_short](includes/prod_short.md)]. Los cambios en [!INCLUDE[cds_long_md](includes/cds_long_md.md)] no activarán los movimientos de cola de proyecto.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
-ms.date: 01/20/2021
+ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 5fc5957695145ad3bbc4225c7c7e18dd7ca0c728
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: ecb3f88bf14c74f026f10fd49efe28f189036589
+ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5386304"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5882210"
 ---
 # <a name="managing-microsoft-teams-integration-with-prod_short"></a>Gestionar la integración de Microsoft Teams con [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -35,6 +35,7 @@ Esta sección describe los requisitos mínimos para que la características de l
 
     |Qué|Licencia de Teams|Licencia de [!INCLUDE [prod_short](includes/prod_short.md)]|
     |----|---|---|
+    |Buscar contactos de [!INCLUDE [prod_short](includes/prod_short.md)].|![marca de verificación](media/check.png "comprobar")|![marca de verificación](media/check.png "comprobar")|
     |Pegue un vínculo a un registro de [!INCLUDE [prod_short](includes/prod_short.md)] en una conversación y envíelo como una tarjeta.|![marca de verificación](media/check.png "comprobar")|![marca de verificación](media/check.png "comprobar")|
     |Vea una tarjeta de un registro de [!INCLUDE [prod_short](includes/prod_short.md)] en una conversación.|![marca de verificación](media/check.png "comprobar")||
     |Vea más detalles de la tarjeta de un registro de [!INCLUDE [prod_short](includes/prod_short.md)] en una conversación.|![marca de verificación](media/check.png "comprobar")|![marca de verificación](media/check.png "comprobar")|
@@ -49,8 +50,8 @@ Como administrador de Teams, puede administrar todas las aplicaciones de su orga
 
 Para obtener más información, consulte los siguientes productos de la documentación en Microsoft Teams:
 
-- [Administre sus aplicaciones en el centro de administración de Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/manage-apps)
-- [Administrar las directivas de configuración de la aplicación en Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-app-setup-policies)
+- [Administre sus aplicaciones en el centro de administración de Microsoft Teams](/MicrosoftTeams/manage-apps)
+- [Administrar las directivas de configuración de la aplicación en Microsoft Teams](/microsoftteams/teams-app-setup-policies)
 
 ## <a name="in-prod_short"></a>En [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -58,7 +59,7 @@ Para obtener más información, consulte los siguientes productos de la document
 
 - Versión de [!INCLUDE [prod_short](includes/prod_short.md)]:
 
-    Lanzamiento de versiones 2 (actualización 17.3) de 2020 de [!INCLUDE [prod_short](includes/prod_short.md)], o posterior. La integración de Teams solo es compatible con [!INCLUDE [prod_short](includes/prod_short.md)] en línea; no en las instalaciones.
+    Lanzamiento de versiones 1 de 2021 de [!INCLUDE [prod_short](includes/prod_short.md)] o posterior. La integración de Teams solo es compatible con [!INCLUDE [prod_short](includes/prod_short.md)] en línea; no en las instalaciones.
 
 - Codeunit **Proveedor de resumen de página 2718** se publica como servicio web:
 
@@ -66,8 +67,9 @@ Para obtener más información, consulte los siguientes productos de la document
 
 - <a name="permissions"></a>Permisos de usuario:
 
-    En su mayor parte, las páginas y los datos que los usuarios pueden ver y editar en una conversación de Teams están controlados por sus permisos en [!INCLUDE [prod_short](includes/prod_short.md)].
+    En su mayor parte, la búsqueda de contactos, las páginas y los datos que los usuarios pueden ver y editar en una conversación de Teams están controlados por sus permisos en [!INCLUDE [prod_short](includes/prod_short.md)].
     
+    - Para buscar contactos, los usuarios deben tener al menos permiso de lectura para la tabla **Contactos**. 
     - Para pegar un vínculo [!INCLUDE [prod_short](includes/prod_short.md)] en una conversación de Teams y hacer que se expanda en una tarjeta, los usuarios deben tener al menos permiso de lectura en la página y sus datos.
     - Una vez que se envía una tarjeta a una conversación, cualquier usuario de esa conversación puede ver esa tarjeta sin permiso de [!INCLUDE [prod_short](includes/prod_short.md)].
     - Para ver más detalles de una tarjeta o abrir el registro en [!INCLUDE [prod_short](includes/prod_short.md)], los usuarios deben tener permiso de lectura en la página y sus datos.
@@ -92,13 +94,13 @@ Evita que usuarios o grupos específicos envíen tarjetas a chats o canales conf
 
 También puede utilizar barreras de información para evitar que las personas o los grupos se comuniquen entre sí. Para obtener más información, consulte [Barreras de información en Microsoft Teams](/microsoftteams/information-barriers-in-teams).
 
-Las características de prevención de pérdida de datos del Centro de cumplimiento y seguridad de Microsoft 365 no se pueden aplicar específicamente a las tarjetas. Pero se pueden aplicar a los mensajes de chat que contienen las tarjetas. Para realizar un seguimiento de las próximas funciones avanzadas que incluyen la habilitación de DLP para tarjetas, consulte [https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093](https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093).
+Las características de prevención de pérdida de datos del Centro de cumplimiento y seguridad de Microsoft 365 no se pueden aplicar específicamente a las tarjetas. Pero se pueden aplicar a los mensajes de chat que contienen las tarjetas. <!-- To track upcoming advanced features that include enabling DLP for cards, see [https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093](https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093).-->
 
 ### <a name="responding-to-data-requests"></a>Responder a solicitudes de datos
 
 Permite que los miembros del equipo y los propietarios del equipo eliminen mensajes que contienen tarjetas confidenciales configurando políticas de mensajería, como: **Los propietarios pueden eliminar los mensajes enviados** y **Los usuarios pueden eliminar los mensajes enviados**. Para obtener más información, consulte [Administrar directivas de mensajería en Teams](/microsoftteams/messaging-policies-in-teams).
 
-Las características de búsqueda de contenido y cumplimiento de eDiscovery del Centro de cumplimiento y seguridad de Microsoft 365 no se pueden aplicar específicamente a las tarjetas. Pero se pueden aplicar a los mensajes de chat que contienen las tarjetas. Para realizar un seguimiento de las próximas funciones de cumplimiento de las tarjetas, consulte [https://www.microsoft.com/microsoft-365/roadmap?featureid=68875](https://www.microsoft.com/microsoft-365/roadmap?featureid=68875).
+Las características de búsqueda de contenido y cumplimiento de eDiscovery del Centro de cumplimiento y seguridad de Microsoft 365 no se pueden aplicar también a las tarjetas.
 
 Dado que los datos de la tarjeta en Teams son una copia de los datos en [!INCLUDE [prod_short](includes/prod_short.md)], también puede usar las características de [!INCLUDE [prod_short](includes/prod_short.md)] para exportar los datos de un cliente si se solicita. Para obtener más información sobre la privacidad en [!INCLUDE [prod_short](includes/prod_short.md)], vea [Preguntas frecuentes sobre privacidad para clientes de Business Central](/dynamics365/business-central/dev-itpro/security/privacyfaq).
 

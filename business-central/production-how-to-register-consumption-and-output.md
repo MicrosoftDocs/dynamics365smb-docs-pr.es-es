@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 60c264bec6719acac574f60980a7a3fdb903b775
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 3b73c2cde88292a38c43e9fcc3bd63b031cd6591
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377478"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5787832"
 ---
 # <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Registrar el consumo y la salida de una línea de orden de producción lanzada
 Esta tarea de ejecución se realiza en la página **Diario de producción**. El diario combina las funciones del diario de consumo y de los diarios de salida en un único diario, al que se tiene acceso directamente desde una orden de producción lanzada. La finalidad principal de este diario es registrar manualmente el consumo de componentes, la cantidad de los productos finales fabricados y el tiempo empleado en las operaciones. Su finalidad principal es registrar manualmente el consumo de componentes, la cantidad de productos finales fabricados y el tiempo dedicado a las operaciones. Los valores se registran en los movimientos de contabilidad bajo la orden de producción lanzada. Las cantidades de consumo se registran como movimientos de producto negativos, las cantidades de salida se registran como movimientos positivos y los tiempos invertidos se registran como movimientos de capacidad. Estos valores registrados se pueden consultar también en la parte inferior del diario como cantidades reales.  
@@ -37,15 +37,15 @@ Esta tarea de ejecución se realiza en la página **Diario de producción**. El 
     > [!NOTE]  
     >  Las fechas de registro especificadas en líneas individuales reemplazarán a la fecha de este campo.  
 
-4.  En el campo **Filtrar por método de baja** situado en la parte superior del diario, puede elegir ver el consumo y la salida registrados automáticamente de acuerdo con los métodos de baja definidos para el producto y el recurso, respectivamente.  
+4.  En el campo **Filtrar por método de baja** situado en la parte superior del diario, puede elegir ver el consumo y la salida registrados automáticamente de acuerdo con los métodos de baja definidos para el producto y el recurso, respectivamente. Para obtener más información, consulte [Procedimiento: Habilitar el vaciado de componentes según la producción de la operación](production-how-to-flush-components-according-to-operation-output.md).   
 
+5.  Empiece a especificar las cantidades pertinentes de consumo y salida en los campos editables.  
+  
     En cada tipo de línea del diario, solo se muestran los campos correspondientes. Los demás están en blanco y protegidos contra escritura.  
 
     Al abrir el diario, éste se predefine con las cantidades que se van a registrar. Si hasta el momento no se ha registrado nada, todos los campos de cantidad mostrarán de forma predeterminada las cantidades esperadas procedentes de la orden de producción. Si se han realizado registros parciales, los campos de cantidad de las líneas mostrarán las cantidades restantes. Las cantidades y los tiempos ya registrados para la orden se muestran en la parte inferior del diario como movimientos reales.  
 
     En cuanto a las cantidades del campo **Cantidad salida**, puede configurar los valores que aparecerán predefinidos al abrir por primera vez el diario. Esta operación se realiza en la página **Configuración fabricación**, ficha desplegable **General**, en el campo **Cantidad de salida predefinida**.
-
-5.  Empiece a especificar las cantidades pertinentes de consumo y salida en los campos editables.  
 
     > [!NOTE]  
     >  Al registrar el diario, sólo la cantidad de salida de la última línea del diario con tipo de movimiento **Salida** ajustará el nivel de inventario. Por lo tanto, no registre el diario con la cantidad de salida esperada predefinida en la última línea de salida hasta que se hayan fabricado realmente todos los productos finales.  

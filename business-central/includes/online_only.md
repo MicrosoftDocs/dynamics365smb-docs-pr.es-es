@@ -1,1 +1,1 @@
-> **SE APLICA A:** Business Central online
+**SE APLICA A:** Business Central online

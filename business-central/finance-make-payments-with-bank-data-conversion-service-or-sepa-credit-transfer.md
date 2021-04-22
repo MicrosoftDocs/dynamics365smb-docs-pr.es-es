@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/13/2021
 ms.author: bholtorf
-ms.openlocfilehash: 210dbfd3450d4cc703f73fc2cd078b0155c599da
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: d48172569ba8e93410dfb20a22eed785574f3989
+ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5391854"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889236"
 ---
 # <a name="make-payments-with-the-amc-banking-365-fundamentals-extension-or-sepa-credit-transfer"></a>Efectúe pagos con la extensión AMC Banking 365 Fundamentals o transferencia de crédito SEPA
 
@@ -46,6 +46,9 @@ Para poder procesar el pago electrónicamente exportando los archivos de pago en
 * Configure la sección de diario general relacionada para habilitar la exportación de pagos desde la página **Diario de pagos**.  
 * Conecte la definición de intercambio de datos para uno o varios tipos de pago con la forma de pago correspondiente  
 
+> [!TIP]
+> Este artículo se aplica a la versión genérica de [!INCLUDE [prod_short](includes/prod_short.md)]. En su país o región, es posible que se hayan agregado campos obligatorios adicionales a las distintas páginas. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
+
 ### <a name="to-set-up-a-bank-account-for-sepa-credit-transfer"></a>Para configurar un banco para la transferencia de crédito de SEPA
 
 1. En el cuadro **Buscar**, escriba **Cuentas bancarias** y, a continuación, elija el vínculo relacionado.  
@@ -64,15 +67,14 @@ Para poder procesar el pago electrónicamente exportando los archivos de pago en
 3. En ficha desplegable **Pago**, en el campo **Código método pago**, seleccione **BANCO**.  
 4. En el campo **Cuenta bancaria preferida**, seleccione el banco al que se transferirá el dinero cuando se procese por banco electrónico.  
 
-     El valor del campo **Cuenta bancaria preferida** se copia en el campo **Cta. bancaria destinatario** en la página **Diario de pagos**.  
+     Si aún no ha creado un banco para este proveedor, puede hacerlo ahora. Para obtener más información, consulte [Para configurar cuentas bancarias de proveedor para exportar archivos bancarios](bank-how-setup-bank-accounts.md#to-set-up-vendor-bank-accounts-for-export-of-bank-files). El valor del campo **Cuenta bancaria preferida** se copia en el campo **Cta. bancaria destinatario** en la página **Diario de pagos**.  
 
 ### <a name="to-set-the-payment-journal-up-to-export-payment-files"></a>Para configurar el diario de pagos para exportar archivos de pagos
 
 1. En el cuadro **Buscar**, escriba **Diarios de pagos** y, a continuación, elija el vínculo relacionado.  
-2. Abra el diario de pagos que usa para procesar los pagos mediante la exportación de archivos en el formato de transferencia de crédito de SEPA.  
-3. En el campo **Nombre sección**, elija el botón de lista desplegable.  
-4. En la página **Secciones diario general**, elija la acción **Editar lista**.  
-5. En la línea del diario de pagos que usará para exportar los pagos, seleccione la casilla **Permitir exportación de pagos**.  
+2. En el campo **Nombre sección**, elija el botón de lista desplegable.  
+3. En la página **Secciones diario general**, elija la acción **Editar lista**.  
+4. En la línea del diario de pagos que usará para exportar los pagos, seleccione la casilla **Permitir exportación de pagos**.  
 
 ### <a name="to-connect-the-data-exchange-definition-for-one-or-more-payment-types-with-the-relevant-payment-method-or-methods"></a>Para conectar la definición de intercambio de datos para uno o varios tipos de pago con la forma de pago correspondiente
 

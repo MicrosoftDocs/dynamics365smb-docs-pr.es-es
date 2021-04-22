@@ -8,20 +8,43 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
-ms.date: 01/20/2021
+ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 7a98b53a34ddf403cf6507da7740b97924d4c81c
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 9783d5d25c31bd830931cf3f363359880a6e19bf
+ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385204"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5882178"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Solución de problemas de integración de Microsoft Teams con [!INCLUDE [prod_short](includes/prod_short.md)]
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
 Este artículo proporciona información sobre cómo identificar y solucionar problemas que puede experimentar al usar Microsoft Teams con [!INCLUDE [prod_short](includes/prod_short.md)], como un usuario o administrador típico.
+
+## <a name="the-sign-in-link-doesnt-work"></a>El vínculo de inicio de sesión no funciona
+
+Si intenta iniciar sesión en la aplicación [!INCLUDE [prod_short.md](includes/prod_short.md)] para Teams justo después de instalar la aplicación, y el vínculo de inicio de sesión no reacciona, puede deberse a que la aplicación no haya completado por completo la instalación. Para intentar solucionar el problema, cierre sesión en su cliente de Teams y vuelva a iniciar sesión.
+
+## <a name="the-settings-page-is-empty"></a>La página Configuración está vacía
+
+Primero debe iniciar sesión para acceder a su configuración. Para iniciar sesión en la aplicación, pegue un vínculo en un registro de [!INCLUDE [prod_short.md](includes/prod_short.md)] o intente buscar contactos. Ambas acciones le guiarán a través de una experiencia de registro, después de la cual podrá usar la página **Configuración**.
+
+## <a name="i-changed-company-but-it-didnt-seem-to-work"></a>Cambié de empresa, pero no pareció funcionar
+
+Después de cambiar de empresa en la página **Configuración**, es posible que observe que el menú desplegable del cuadro de comando indica que todavía sigue buscando en la empresa anterior. Este problema se produce al abrir la página **Configuración** directamente desde el cuadro de comando. En este caso, la empresa se cambió correctamente y, de hecho, buscará la empresa a la que se ha cambiado. El problema es que el menú desplegable del cuadro de comando aún no se ha actualizado. Para que el menú desplegable refleje con precisión la empresa en la que buscará, cierre o desancle [!INCLUDE [prod_short.md](includes/prod_short.md)] desde el cuadro de comando y, a continuación, abra de nuevo la aplicación.
+
+
+<!--When you change company from the **Settings** page that you reach from the command box, returning to the command box drop-down continues to show the previous company even though the company was successfully changed. For the drop-down accurately reflect the company you'll search in, you must close or unpin [!INCLUDE [prod_short.md](includes/prod_short.md)] from the command box and then find it again.-->
+
+## <a name="something-went-wrong-error-when-searching-for-contacts"></a>Error "Algo salió mal" al buscar contactos
+
+Puede experimentar este error cuando busca en una empresa que no se ha inicializado o que no responde. Por ejemplo, no puede buscar en una nueva empresa de prueba que aún no haya aceptado los términos de uso. Para resolver este problema, intente iniciar sesión en el cliente web de [!INCLUDE [prod_short.md](includes/prod_short.md)] y actúe en cuadro de diálogo inicial que aparezca o descártelo.
+
+## <a name="the-contacts-api-was-not-found-error-when-searching-for-contacts"></a>Error "No se encontró la API de contactos" al buscar contactos
+
+Este problema puede deberse a personalizaciones o soluciones del sector que afectan, modifican o no proporcionan una API de contacto en [!INCLUDE [prod_short.md](includes/prod_short.md)]. Si el problema continúa, póngase en contacto con su administrador o socio de soporte.
 
 ## <a name="none-of-my-links-expand-into-a-card"></a>Ninguno de mis enlaces se expande en una tarjeta 
 
@@ -36,7 +59,7 @@ Si tiene este problema, aquí hay algunas cosas que puede probar:
 
 2. A continuación, verifique que haya iniciado sesión con la identidad correcta.
 
-    En Teams, vaya a cualquier chat y, en el cuadro de redacción del mensaje, elija el icono [!INCLUDE [prod_short](includes/prod_short.md)]. Cuando aparezca la ventana, verifique si el usuario al que dice que está conectado coincide con lo que usa para conectarse a [!INCLUDE [prod_short](includes/prod_short.md)].
+    En Teams, vaya a cualquier chat y, en el cuadro de redacción del mensaje, haga clic con el botón derecho en el icono [!INCLUDE [prod_short](includes/prod_short.md)] y, a continuación, elija **Configuración**. Cuando aparezca la ventana, verifique si el usuario al que dice que está conectado coincide con lo que usa para conectarse a [!INCLUDE [prod_short](includes/prod_short.md)].
 
 3. Asegúrese de que la codeunit **Proveedor de resumen de página 2718** se publica como servicio web.
 
@@ -48,9 +71,8 @@ Si tiene este problema, aquí hay algunas cosas que puede probar:
 
 Un enlace no se expandirá a una tarjeta en las siguientes situaciones:
 
-- El enlace apunta a una página de un tipo que no representa un registro. Por ejemplo, podría ser un enlace al área de trabajo de [!INCLUDE [prod_short](includes/prod_short.md)]. Puede verificar el tipo de página usando el panel de inspección de página en el cliente web en [!INCLUDE [prod_short](includes/prod_short.md)]. Para obtener más información sobre la inspección de páginas, consulte [Inspección de páginas](across-inspect-page.md).
-- El enlace apunta a una página que (a nivel técnico) no está conectada a una tabla de origen en formato [!INCLUDE [prod_short](includes/prod_short.md)]. Puede verificar si una página tiene una tabla de origen usando el panel de inspección de página en el cliente web en [!INCLUDE [prod_short](includes/prod_short.md)]. Para obtener más información sobre la inspección de páginas, consulte [Inspección de páginas](across-inspect-page.md). 
-- Teams no admite vistas previas de vínculos en algunas características. Por ejemplo, cuando aparece un chat, está en una reunión o es un invitado de otra organización.
+- El enlace apunta a una página que (a nivel técnico) no está conectada a una tabla de origen en formato [!INCLUDE [prod_short](includes/prod_short.md)]. Puede verificar si una página tiene una tabla de origen usando el panel de inspección de página en el cliente web en [!INCLUDE [prod_short](includes/prod_short.md)]. Para obtener más información sobre la inspección de páginas, consulte [Inspección de páginas](across-inspect-page.md).
+- Teams no admite vistas previas de vínculos en algunas de sus características. Por ejemplo, cuando aparece un chat o es un invitado de otra organización.
 - Teams abandona silenciosamente el intento de mostrar la tarjeta después de 15 segundos, por ejemplo, debido a problemas de red.
 - Es posible que Teams no expanda el enlace si ya pegó un enlace en el mismo cuadro de redacción de mensajes y eliminó la tarjeta.
 
@@ -66,10 +88,6 @@ Por ejemplo:
 `https://businesscentral.dynamics.com/?environmentname=Production&company=CRONUS%20USA%2C%20Inc.&page=21&dc=0&bookmark=21%3bEgAAAAJ7BTEAMAAwADAAMA%3d%3d`
 
 Para obtener detalles técnicos sobre las URL de [!INCLUDE [prod_short](includes/prod_short.md)], consulte [URL del cliente web](/dynamics365/business-central/dev-itpro/developer/devenv-web-client-urls) en la ayuda de [!INCLUDE [prod_short](includes/prod_short.md)] para desarrolladores y profesionales de TI.
-
-## <a name="the-card-is-displayed-in-the-message-compose-box-but-selecting-the-details-button-does-nothing"></a>La tarjeta se muestra en el cuadro de redacción del mensaje, pero seleccionar el botón Detalles no hace nada 
-
-Después de que un enlace se expande en una tarjeta en el cuadro de redacción del mensaje, debe enviar el mensaje al chat antes de poder usar el botón **Detalles**.
 
 ## <a name="the-details-window-opens-but-shows-an-error-before-details-are-shown"></a>Se abre la ventana de detalles, pero muestra un error antes de que se muestren los detalles
 
@@ -89,7 +107,7 @@ Este problema puede deberse a un par de cosas: falta de permisos en [!INCLUDE [p
 
     Para obtener más información sobre los requisitos mínimos del navegador, consulte [Requisitos mínimos de uso de [!INCLUDE [prod_short](includes/prod_short.md)]](product-requirements.md#browsers) 
 
-## <a name="im-having-problems-with-the-camera-or-location-in-teams"></a>Tengo problemas con la cámara o la ubicación en Teams 
+## <a name="im-having-problems-with-the-camera-or-location-in-teams"></a>Tengo problemas con la cámara o la ubicación en Teams
 
 Cuando usa características de [!INCLUDE [prod_short](includes/prod_short.md)] en la ventana de detalles que requieren acceso a su ubicación o cámara del dispositivo, primero debe dar su consentimiento para que Teams acceda a estas capacidades del dispositivo.  
 

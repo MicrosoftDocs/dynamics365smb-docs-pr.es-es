@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a866fdabb83783adf4700caba5c1ee22e27e3b39
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 0871cbd022c3e602e92d58650244991c22645abe
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5382703"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5788222"
 ---
 # <a name="cartera-module"></a>Módulo Cartera
 El módulo Cartera permite utilizar documentos específicos, como letras de cambio y pagarés, para administrar pagos de clientes y proveedores.  

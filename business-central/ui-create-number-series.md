@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: db90c35bde2a08d6131e4a7102f9cdda1f36dfe8
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 75bcb6763c9253bba72ca7f1ff980222263b4e9c
+ms.sourcegitcommit: 8b44a7bcba45ae852cc6dd07b90b9a383c1be488
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385954"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "5870003"
 ---
 # <a name="create-number-series"></a>Crear numeración
 Para cada empresa configurada, se necesitan asignar códigos de identificación exclusivos a elementos como cuentas de contabilidad, cuentas de proveedores y clientes, facturas y otros documentos. La numeración es importante no sólo para la identificación. Un sistema de numeración bien diseñado también permite facilitar la gestión y el análisis de la empresa, y puede reducir el número de errores que se producen en la introducción de datos.
@@ -29,6 +29,9 @@ Si desea permitir huecos en ciertas series numéricas, primero consulte a su aud
 >   Le recomendamos que use los mismos códigos de serie numérica que aparecen en la página **Lista nº serie** de la empresa de demostración CRONUS. Es posible que los códigos como *C-FAC+* no tengan un sentido inmediato, pero [!INCLUDE[prod_short](includes/prod_short.md)] tiene una serie de opciones de configuración predeterminadas que dependen de estos códigos de serie numérica.
 
 Para crear un sistema numérico, establezca uno o varios códigos para cada tipo de datos maestros o documento. Por ejemplo, puede establecer un código para la numeración de clientes, otro para la numeración de facturas de venta y aún otro para la numeración de documentos en los diarios generales. Tras establecer un código, debe establecer al menos una línea de serie numérica. Ésta contiene información tal como el primer y último número de la serie y la fecha de inicio. Puede establecer más de una línea de serie numérica por código, con una fecha de inicio diferente para cada una. La serie se usará de manera consecutiva, a partir de la serie de cada fecha de inicio correspondiente.
+
+> [!NOTE]
+> La longitud máxima de un número en una serie de números es de 20 caracteres. Hay algunas situaciones en las que [!INCLUDE[prod_short](includes/prod_short.md)] agregará un número con un id. generado por el sistema. Por ejemplo, cuando se usan documentos como facturas para aplicar transacciones, como pagos, [!INCLUDE[prod_short](includes/prod_short.md)] genera identificadores para las transacciones aplicadas. El identificador se compone de un número de una serie de números y un id. asignado por el sistema de seis caracteres, como -12345. Si espera procesar más de 9999 documentos en diarios bancarios o de giros postales, o diarios de recibos de efectivo, configure series de números para esos tipos de documentos para que incluyan menos de 14 caracteres.
 
 Las series numéricas normalmente se configuran para insertar automáticamente el siguiente número consecutivo en las nuevas fichas o documentos que cree. No obstante, también puede configurar una serie numérica que le permita introducir manualmente el nuevo número. Esta información se especifica con las casillas **Numeración manual**.
 
