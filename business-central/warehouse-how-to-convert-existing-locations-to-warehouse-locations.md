@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 95198789cd0fa4f00999c57ae9b6431dae8c9243
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f0732e373c95896ba3a242564b1bc5bac6ff825a
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5386779"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771859"
 ---
 # <a name="convert-existing-locations-to-warehouse-locations"></a>Convertir los almacenes existentes en ubicaciones de almacén
 Puede activar una ubicación de inventario existente para utilizar zonas y ubicaciones, y para operar como ubicación de almacén.  

@@ -5,14 +5,14 @@ author: mikebcMSFT
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: administration, admin, key, optional, feature management, early access, preview
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: mikebc
-ms.openlocfilehash: eb4eafe98f0d31e34229edb46282066a37080318
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 01bfa8829b1699d4f1c2a8da4e9e57d016fe12ca
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378578"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774185"
 ---
 # <a name="enabling-upcoming-features-ahead-of-time"></a>Habilitar las próximas funciones de antemano
 
@@ -24,7 +24,7 @@ Más información acerca de la [Administración de características](/dynamics36
 
 ## <a name="see-also"></a>Consulte también .
 
-[Características nuevas y planificadas](https://aka.ms/Dynamics365ReleasePlan)  
+[Características nuevas y planificadas](/dynamics365-release-plan/2021wave1/)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

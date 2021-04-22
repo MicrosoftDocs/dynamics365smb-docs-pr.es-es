@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 71169aeb06f8181d7a75ef98175e9d67f9a17bb9
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 857f2f913ab2a2026df5997ac16bd59593a3d925
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381170"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784990"
 ---
 # <a name="using-pre-closing-reports"></a>Usar los informes previos al cierre
 Existen numerosos informes estándar que puede usar para verificar la exactitud de las cuentas antes de cerrar los libros al final de un año o periodo. Por ejemplo, puede usar el informe **Cliente - Balance sumas y saldos** para verificar si el saldo para un grupo contable de cliente es igual al saldo en la cuenta de contabilidad correspondiente en una determinada fecha.

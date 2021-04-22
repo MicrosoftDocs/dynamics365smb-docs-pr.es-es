@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e665eaa03f52083b8e68424ec64468194a10f2cf
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: e554b3118dbbef0f1235b27da5707b2d0bbd092f
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5384479"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5775802"
 ---
 # <a name="delete-workflows"></a>Eliminar flujos de trabajo
 Si está seguro que un flujo de trabajo ya no se utiliza más, puede eliminarlo. Todas las instancias de paso de flujo de trabajo definidas en el flujo de trabajo deben tener el estado **Completado**.  

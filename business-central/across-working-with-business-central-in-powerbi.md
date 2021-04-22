@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 6c53fa5aeb615db809887ae96d51101789c312e3
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: ed744d6aba6394f567c9b297943c0061cb0c0751
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5384154"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786912"
 ---
 # <a name="working-with-prod_short-data-in-power-bi"></a>Trabajar con datos de [!INCLUDE [prod_short](includes/prod_short.md)] en Power BI
 
-En este artículo, aprenderá algunos de los conceptos básicos sobre cómo trabajar con informes y paneles en Power BI que usan [!INCLUDE [prod_short](includes/prod_short.md)] como fuente de datos. El artículo analiza algunos aspectos que lo ayudarán a comenzar como usuario de [!INCLUDE[prod_short](includes/prod_short.md)]. Para obtener pautas generales e instrucciones sobre el uso de Power BI, ver [Documentación de Power BI para consumidores ](https://review.docs.microsoft.com/en-us/power-bi/consumer).
+En este artículo, aprenderá algunos de los conceptos básicos sobre cómo trabajar con informes y paneles en Power BI que usan [!INCLUDE [prod_short](includes/prod_short.md)] como fuente de datos. El artículo analiza algunos aspectos que lo ayudarán a comenzar como usuario de [!INCLUDE[prod_short](includes/prod_short.md)]. Para obtener pautas generales e instrucciones sobre el uso de Power BI, ver [Documentación de Power BI para consumidores](/power-bi/consumer).
 
 ## <a name="get-ready"></a>Prepararse
 
@@ -89,7 +89,7 @@ Para compartir un informe, en una lista de informes o en un informe abierto, sel
 [Inicio rápido: Conectarse a los datos de Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
 [Documentación de Power BI](/power-bi/)  
 [Inteligencia empresarial](bi.md)  
-[Introducción](product-get-started.md)  
+[Preparación para hacer negocios](ui-get-ready-business.md)  
 [Importar datos de empresa de otros sistemas financieros](across-import-data-configuration-packages.md)  
 [Configurar [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Usar [!INCLUDE[prod_short](includes/prod_short.md)] como origen de datos de Power BI](across-how-use-financials-data-source-powerbi.md)  

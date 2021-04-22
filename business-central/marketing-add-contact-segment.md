@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect, contact, client, customer
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 13059ffb8701428e8a4c72b49e57fb3c87257cac
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 7cf4c0f1241155f464fde5196125b0a1bed2aeee
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5392929"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784547"
 ---
 # <a name="add-contacts-to-segments"></a>Añadir contactos a segmentos
 Después de crear un segmento y especificar su información básica, puede que quiera añadir contactos al segmento. Puede hacerlo si rellena manualmente las líneas de la página **Segmento**, pero es más sencillo y rápido usar la acción **Agregar contactos**.

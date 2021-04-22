@@ -2,14 +2,14 @@
 author: edupont04
 ms.service: dynamics365-accountant
 ms.topic: include
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: dcfc54d36b212b296747d28945324ac46c38cada
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: fa7e5a51696c149e66da0d76cf1042c5e8f7e7e3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753622"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776401"
 ---
 Las personas a veces admiten a más de una empresa y necesitan pasar fácilmente de trabajar en una empresa a otra en [!INCLUDE [prod_short](prod_short.md)]. Por ejemplo, una empresa puede tener oficinas de ventas en ciudades y múltiples países, por lo que ha creado una unidad de negocios separada para cada oficina. Las oficinas que se encuentran en el mismo país se configuran como empresas separadas en un entorno compartido. Otras oficinas se crean como empresas en entornos separados porque tienen su base geográfica en otros países.<br><br>  
 

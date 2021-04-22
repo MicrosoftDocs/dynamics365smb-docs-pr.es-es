@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, inventory, costing
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a14c2a81a6aa36ce57384decb9342660297f9a84
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 22d53eac0957321c16d3e35cbf4d8f75d57c1cc5
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5389929"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786762"
 ---
 # <a name="design-details-inventory-costing"></a>Detalles de diseño: Coste de inventario
 En esta documentación se proporciona información técnica detallada de los conceptos y los principios que se usan en las características de valoración de inventario en [!INCLUDE[prod_short](includes/prod_short.md)].  

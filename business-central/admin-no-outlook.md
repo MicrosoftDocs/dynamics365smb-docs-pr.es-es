@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e3bc85af3aacf1865ea4d426178795de5b6eb8b2
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 4597b59c846ef7016bff26b1c14901ac17a2fb5d
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377978"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777471"
 ---
 # <a name="using-business-central-without-outlook"></a>Usar Business Central sin Outlook
 [!INCLUDE[prod_short](includes/prod_short.md)] tiene una integración profunda con Microsoft 365 y puede usar [!INCLUDE[prod_short](includes/prod_short.md)] como su bandeja de entrada de empresa en Outlook. Pero si no tiene Outlook, puede trabajar con [!INCLUDE[prod_short](includes/prod_short.md)] en el navegador o en su dispositivo móvil.  
@@ -25,7 +25,7 @@ Puede enviar documentos como facturas por correo electrónico con la dirección 
 
 
 ## <a name="see-also"></a>Consulte también
-[Introducción](product-get-started.md)  
+[Preparación para hacer negocios](ui-get-ready-business.md)  
 [Usar Business Central como su bandeja de entrada de empresa en Outlook](admin-outlook.md)  
 [Obtener Business Central en mi dispositivo móvil](install-mobile-app.md)  
 [Enviar documentos por correo electrónico](ui-how-send-documents-email.md)

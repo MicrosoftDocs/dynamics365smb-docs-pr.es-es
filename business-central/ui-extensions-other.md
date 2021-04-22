@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 271bd1d6c1694045e72fdeb10be521c00a29c8c0
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: d2b48b910d1ef4b72ffb5c24406573316300c7a2
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5383730"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5785115"
 ---
 # <a name="business-central-extensions-by-other-providers"></a>Extensiones de Business Central de otros proveedores
 
@@ -26,7 +26,7 @@ La lista de las extensiones de otras empresas aumenta cada mes. Esté atento a [
 ## <a name="see-also"></a>Consulte también
 
 [Personalizar [!INCLUDE[prod_short](includes/prod_short.md)] con extensiones](ui-extensions.md)  
-[Introducción](product-get-started.md)  
+[Preparación para hacer negocios](ui-get-ready-business.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

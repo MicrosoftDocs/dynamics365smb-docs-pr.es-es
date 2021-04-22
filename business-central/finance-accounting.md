@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 11/05/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5fbe696c8f85327ad775ad3bcf071b3e7ec16dd6
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 9e6dd99b1ea8da7099932185a7da18b0419a244e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5391254"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780940"
 ---
 # <a name="accountant-experiences-in-prod_long"></a>Experiencias contables en [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -92,7 +92,7 @@ El contador recibirá un correo electrónico que le notifica que se le ha dado a
 
 1. Abra la [!INCLUDE[prod_short](includes/prod_short.md)] empresa a la que desea dar acceso al contable en [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com).
 2. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Usuarios** y luego elija el enlace relacionado.  
-3. Elija la acción **Obtener nuevos usuarios de Office 365**.
+3. Elija la acción **Obtener nuevos usuarios de Microsoft 365**.
 
 Esto importa la cuenta de usuario que creó en Azure Portal a la empresa. Para obtener más información, consulte [Para añadir un usuario en Business Central](ui-how-users-permissions.md#adduser).  
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c5a72fd3026f0dd78a547809e0ad6afe9de2d420
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 6e5f20d2f450f3f544cc2f7023160e4e9babdf33
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5390879"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772809"
 ---
 # <a name="design-details-item-tracking"></a>Detalles de diseño: Seguimiento de productos
 A medida que el flujo de productos en la cadena de suministro actual se hace cada vez más complejo, la posibilidad de hacer un seguimiento de los productos cobra mayor importancia para las empresas implicadas. La supervisión del flujo de transacciones de un producto es un requisito legal en el suministro de productos médicos y químicos, pero en otros sectores se pueden supervisar los productos con garantías o fechas de vencimiento por motivos de servicio al cliente.  
@@ -32,5 +32,8 @@ El sistema de seguimiento de productos debe proveer a una empresa una fácil ges
 [Detalles de diseño: Seguimiento de productos y reservas](design-details-item-tracking-and-reservations.md)  
 [Detalles de diseño: Seguimiento de productos en el almacén](design-details-item-tracking-in-the-warehouse.md)
 
+## <a name="see-also"></a>Consulte también
+
+[Trabajar con números de serie, de lote y de paquete](inventory-how-work-item-tracking.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

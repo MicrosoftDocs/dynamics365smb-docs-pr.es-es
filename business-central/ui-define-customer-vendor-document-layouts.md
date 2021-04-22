@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 493a801b381ef21a2f8265e3a59615fa21618fc1
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 086491f30ef0a223e5bf8a559af26b848e54d344
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385904"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773560"
 ---
 # <a name="define-document-layouts-for-customers-and-vendors"></a>Definir diseños de documentos para clientes y proveedores
 Cuando se definen diseños de informes personalizados, puede seleccionarlos de las tarjetas de clientes y proveedores para especificar qué diseños se utilizarán para los diferentes tipos de documentos que cree para el cliente o el proveedor en cuestión. El valor en el campo **Uso** define para qué proceso se utilizará el diseño del documento, como **Recordatorio**, **Envío** y **Confirmación**.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 991c244d9e9233067903cfe21fbabcb732293490
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 86617934ecdb0ac2f14f6cf717f8091ba96caf95
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5387704"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772584"
 ---
 # <a name="combine-receipts-on-a-single-invoice"></a>Agrupar albaranes en una factura única
 

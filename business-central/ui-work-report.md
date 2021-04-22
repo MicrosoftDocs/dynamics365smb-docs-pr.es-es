@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 7fe5d0870cfc18ab103dc57044fd0ba84b151662
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 81df1625531b3b4c5bf1a55a9e09d37af8b6f7fe
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5392453"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5782989"
 ---
 # <a name="working-with-reports-batch-jobs-and-xmlports"></a>Trabajar con informes, trabajos por lotes y XMLports
 
@@ -42,14 +42,7 @@ El campo **Usar valores predeterminados de** proporciona una manera rápida y co
 
 >[!NOTE]
 > La configuración predefinida normalmente la configura y gestiona un administrador. Si desea obtener más información, consulte [Administrar la configuración guardada para informes y trabajos por lotes](reports-saving-reusing-settings.md).
-<!--
-Depending on the report, the request page might include the **Use default values from** field. This field lets you select a predefined set of can include the **Saved Settings** section that contains one or more entries in the **Use default value from** box. A saved setting is basically a predefined group of options and filters that you can apply to the report before previewing or sending the report to a file. The saved settings entry called **Last used options and filters** is always available. This entry sets the report to use options and filters that were used the last time you used the report.
 
-Using saved settings is a fast and reliable way to consistently generate reports that contain the correct data. After you set the **Use default value from** box to a saved settings entry, you can change any of the options and filters before previewing or saving the report. The changes that you make will not be saved to the saved settings entry you selected, but they will be saved to the **Last used options and filters** entry.
-
->[!NOTE]
->If you are an administrator, you can create and manage the saved settings for reports for all users. For more information, see [Manage Saved Settings for Reports and Batch Jobs](reports-saving-reusing-settings.md).
--->
 ## <a name="specifying-the-data-to-include-in-reports"></a>Especificación de los datos a incluir en los informes
 
 Utilice los campos de **Opciones** y **Filtros** para cambiar el límite de la información que desea en el informe. Los filtros se establecen en un informe de la misma manera que en las listas. Para obtener más información, consulte [Filtrado](ui-enter-criteria-filters.md#filtering).
@@ -63,7 +56,7 @@ Utilice los campos de **Opciones** y **Filtros** para cambiar el límite de la i
 
 ## <a name="previewing-a-report"></a>Vista preliminar de un informe
 
-La vista previa de un informe le permite ver cómo quedará el informe antes de imprimirlo. La vista previa presentará el informe basado en la [impresora](#Printer) que se muestra en el campo **Impresora** de la página de solicitud. Después de obtener una vista previa, puede volver a la página de solicitud y realizar cambios en las opciones y filtros según sea necesario.
+La vista previa de un informe le permite ver cómo quedará el informe antes de imprimirlo. La vista previa no se basa en el campo **Impresora** seleccionada en la página de solicitud. Está controlado por el navegador. Después de obtener una vista previa, puede volver a la página de solicitud y realizar cambios en las opciones y filtros según sea necesario.
 
 Para obtener una vista previa de un informe, elija el botón **Vista previa** o **Vista previa y cierre** en la página de solicitud de informe. El botón que se muestra depende del informe, por lo que algunos informes tienen el botón **Vista previa**, mientras que otros tienen un botón **Vista previa y cierre**. Ambos botones abrirán una vista previa del informe. La diferencia es que **Vista previa** mantiene abierta la página de solicitud, para que pueda volver a ella, realizar cambios, obtener otra vez una vista previa o imprimir. Con **Vista previa y cierre**, la página de solicitud se cierra, por lo que tendrá que volver a abrir el informe para realizar cambios o imprimirlo.
 
@@ -103,37 +96,16 @@ Puede elegir guardar el informe en un archivo, como un archivo Excel, Word o PDF
 
 Para imprimir un informe, elija el botón **Imprimir** en la página de solicitud o en la barra de menú de la página **Vista previa**.
 
-<!--
-### Printer selection
-
-The report prints to the printer shown in the **Selected printer** field on the report request page. You can't change the printer from this page.
-
-The selected printer is either set on the **Printer Selections** page or it's the default printer set up on the **Printer Management** page. If you want to use another printer, see  [Set Up Printers](ui-specify-printer-selection-reports.md).
-
-If no printer is specified on the **Printer Selections** page or set as default on the **Printer Management** page, the browser printing feature is used. In this case, **Browser** appears in the **Selected printer** field on the report request page.
--->
 ### <a name="printer"></a><a name="Printer"></a>Impresora
 
-El campo **Impresora** de la página de solicitud muestra el nombre de la impresora a la que se enviará el informe. **(Manejado por el navegador)** indica que no hay una impresora designada para el informe. En este caso, el navegador manejará la impresión y mostrará una experiencia estándar, donde puede elegir una impresora local conectada a su dispositivo.
-
-No puede cambiar la impresora mediante el campo **Impresora**. Para cambiar la impresora, tendrás que ir a las páginas **Selecciones de impresora** o **Gestión de impresoras**. La configuración de la impresora suele ser una tarea del administrador. Si desea obtener más información, consulte [Configurar impresoras](ui-specify-printer-selection-reports.md).
-
-<!--
-### Browser printing
-
-Because [!INCLUDE[prod_short](includes/prod_short.md)] is a cloud service, it can't reach local printers connected to your computer. However, it can connect to cloud-enabled printers. In the generic version of [!INCLUDE[prod_short](includes/prod_short.md)], a cloud printer named **Email Printer** is installed as an extension and is ready to use after initial setup.
-
-If a cloud printer is not installed and set up, or if an installed printer fails, then printing will default to the printing options for the browser.
+El campo **Impresora** de la página de solicitud muestra el nombre de la impresora a la que se enviará el informe. Para cambiar una impresora, simplemente seleccione la impresora de la lista.
 
 > [!NOTE]
-> The browser printing options work independently of [!INCLUDE[prod_short](includes/prod_short.md)]. So any printer settings that might have been set up from printers in [!INCLUDE[prod_short](includes/prod_short.md)] aren't carried over to the browser print options.
+> **(Manejado por el navegador)** indica que no hay una impresora designada para el informe. En este caso, el navegador manejará la impresión y mostrará una experiencia estándar, donde puede elegir una impresora local conectada a su dispositivo. **(Manejado por el navegador)** no está disponible en la aplicación móvil de [!INCLUDE[prod_short](includes/prod_short.md)] o la aplicación para Microsoft Teams.
 
-<!-- 
-On the **Printer Management** page, you can see the printers that are set up. For more information, see [Set Up Printers](ui-specify-printer-selection-reports.md).
+> [!TIP]
+> La impresora que se ha seleccionado para usted de forma predeterminada está configurada en la página **Selecciones de impresora**. Para obtener información sobre cómo cambiar la impresora predeterminada, consulte [Para seleccionar qué impresoras imprimen qué informes](ui-specify-printer-selection-reports.md#default).
 
-> [!NOTE]
-> You can't change the **Printer** field on the report request page. To use another printer, you must select it from the **Printer Management** page.
--->
 ### <a name="printing-reports-in-thai"></a>Impresión de informes en tailandés
 
 Específicamente para la versión tailandesa de [!INCLUDE[prod_short](includes/prod_short.md)], el botón **Imprimir** no puede imprimir correctamente los informes como sonsecuencia de las limitaciones del servicio que genera el archivo PDF imprimible. En su lugar, puede abrir el informe en Word y luego guardarlo como un PDF imprimible.  

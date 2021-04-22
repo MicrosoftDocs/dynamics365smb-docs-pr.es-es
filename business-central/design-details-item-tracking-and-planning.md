@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5cb0e5616bb2b04fba3c8819f58f8da2f396601d
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 333e79076fc8d991cc33129c1786fd6dee83f63a
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5390980"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774944"
 ---
 # <a name="design-details-item-tracking-and-planning"></a>Detalles de diseño: Seguimiento de productos y planificación
 Dado que se almacenan en el programa de reservas, los números de seguimiento de producto se coordinan completamente con los registros de seguimiento de pedidos. Esto significa que a los productos con registros de seguimiento de pedido se les pueden asignar números de seguimiento de producto. Por el contrario, los productos que tienen número de seguimiento de producto pueden convertirse en registros de seguimiento de pedido. Para obtener más información, consulte [Detalles de diseño: Diseño de seguimiento de producto](design-details-item-tracking-design.md).

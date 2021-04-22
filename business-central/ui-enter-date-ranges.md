@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3a48863231c06742e5cc1b2f13d554e65cb8ae91
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 404c39cba663cebc4d9ab30126de97bd20cf7e8e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381220"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773535"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Trabajar con fechas y horas del calendario
 
@@ -76,7 +76,7 @@ Introduzca la palabra para hoy, en el idioma establecido por la configuración d
 
 ### <a name="period"></a>Periodo
 
-Para filtrar un período contable específico, en un campo de fecha introduzca la letra p, o la palabra periodo, seguida de un número que identifique el período contable, como p2 o periodo4. El período contable es relativo al ejercicio de la fecha de trabajo actual que la establecida en su área de trabajo. Por ejemplo, si la fecha de trabajo es **21/03/20**, con p1, o solo p, se filtra el primer periodo contable del ejercicio 2020 (por ejemplo, 01/01/20..31/01/20). p15 filtra el decimoquinto periodo contable desde el inicio del ejercicio 2020 (por ejemplo, 01/03/21..31/03/21).
+Para filtrar un período contable específico, en un campo de fecha introduzca la letra p, o la palabra periodo, seguida de un número que identifique el período contable, como p2 o periodo4. El período contable es relativo al ejercicio de la fecha de trabajo actual que la establecida en su área de trabajo. Por ejemplo, si la fecha de trabajo es **21/03/22**, con p1, o solo p, se filtra el primer periodo contable del ejercicio 2022 (por ejemplo, 01/01/22..31/01/22). p15 filtra el decimoquinto periodo contable desde el inicio del ejercicio 2022 (por ejemplo, 01/03/23..31/03/23).
 
 Los periodos contables se definen en la página **Periodos contables**. Para ver o cambiar los períodos contables, abra la página [aquí](https://businesscentral.dynamics.com/?page=100).
 
@@ -102,12 +102,12 @@ La siguiente tabla contiene ejemplos de fechas en todos los formatos. Se supone 
 
 |**Entrada**      |**Interpretación**      |
 |---------------|------------------------|
-|2018.12.31.|31/12/2018.|
-|181231|31/12/2018.|
-|18.12.31.|31/12/2018.|
-|18.12.31.|31/12/2018.|
-|31122018|31/12/2018.|
-|18/12,31|31/12/2018.|
+|2022.12.31.|2022.12.31.|
+|221231|2022.12.31.|
+|22.12.31.|2022.12.31.|
+|22.12.31.|2022.12.31.|
+|20221231|2022.12.31.|
+|22/12,31|2022.12.31.|
 |11|11/mes de la fecha de trabajo/año de la fecha de trabajo.|
 |1112|12/11/año de la fecha de trabajo.|
 |h u hoy|fecha de hoy|
@@ -194,7 +194,7 @@ El ejemplo siguiente muestra cómo utilizar un signo menos para indicar una fech
 |-1A|Hace un año desde hoy|
 
 > [!IMPORTANT]
->  Si el almacén utiliza un calendario base, la fórmula de fecha que escriba en este campo, por ejemplo el campo **Tiempo envío**, se interpreta según los días laborables del calendario. Por ejemplo, 1S significa siete días laborables.
+> Si el almacén utiliza un calendario base, la fórmula de fecha que escriba en este campo, por ejemplo el campo **Tiempo envío**, se interpreta según los días laborables del calendario. Por ejemplo, 1S significa siete días laborables.
 <!--
 # Entering Date Ranges
 You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges. Let's take the **Customer Top 10** as an example:
@@ -315,35 +315,8 @@ No puede utilizar 24:00 para referirse a la medianoche, ni usar un valor superio
 La palabra para "hora" en el idioma utilizado por [!INCLUDE[prod_short](includes/prod_long.md)] se evaluará hasta la hora actual de su ordenador o dispositivo móvil. Puede introducir cualquier parte de la palabra, comenzando desde el principio, como h u HOR.
 
 ## <a name="entering-combined-dates-and-times"></a>Introducir fechas y horas combinadas
-Cuando introduce fechas y horas, que son una fecha y una hora combinadas en un campo, debe introducir un espacio entre la fecha y la hora. La parte de la fecha solo puede contener espacios en la forma del separador de fecha oficial de la configuración de su región. El tiempo puede contener espacios alrededor del indicador AM/PM.
 
-También es posible introducir solo una fecha en un campo de fecha y hora, pero no es posible introducir solo una hora.
-
-En la tabla siguiente se enumeran algunos ejemplos de combinaciones de fecha/hora. La configuración regional en los ejemplos muestra las fechas en el formato día\-mes\-año, utilizando los designadores de AM/PM, el idioma inglés y el domingo como el inicio de la semana.
-
-|**Entrada**      |**Interpretación**      |
-|---------------|------------------------|
-|08-01-2016 05:48:12 PM|08\-01\-2016 17:48:12|
-|131202 132455|13\-12\-2002 13:24:55|
-|1-12-02 10|01\-12\-2002 10:00:00|
-|1.12.02 5|01\-12\-2002 05:00:00|
-|1.12.02|01\-12\-2002 00:00:00|
-|11 12|11/mes de la fecha de trabajo/año de la fecha de trabajo 12:00:00|
-|1112 12|11/12/año de la fecha de trabajo 12:00:00|
-|h u hoy|fecha de hoy 00:00:00|
-|h 10:30|fecha de hoy 10:30:00|
-|h 3:3:3|fecha de hoy 03:03:03|
-|l o fecha de trabajo|la fecha de trabajo 00:00:00|
-|l o lunes|Lunes de la semana de la fecha de trabajo 00:00:00|
-|ma o martes|Martes de la semana de la fecha de trabajo 00:00:00|
-|sá o sábado|Sábado de la semana de la fecha de trabajo 00:00:00|
-|d o domingo|Domingo de la semana de la fecha de trabajo 00:00:00|
-|ma 10:30|Martes de la semana de la fecha de trabajo 10:30:00|
-|ma 3:3:3|Martes de la semana de la fecha de trabajo 03:03:03|
-|m23 h|Martes de la semana 23 del año de la fecha de trabajo, hora del día actual|
-|m23|Martes de la semana 23 del año de la fecha de trabajo|
-|m 23|Hoy 23:00:00|
-|m-1|Martes de la semana 1 del año de la fecha de trabajo|
+[!INCLUDE [datetimes](includes/datetimes.md)]
 
 ## <a name="entering-duration"></a>Introducción de duración
 Algunos campos de la aplicación representan una duración o cantidad de tiempo transcurrido, en lugar de una fecha u hora específicas. Introduzca un periodo de tiempo como un número seguido de su unidad de medida.

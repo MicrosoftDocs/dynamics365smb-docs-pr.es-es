@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4ab1b8a7dce90f2bb2122f1f77c04da2ff795aa8
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 67c93eddcb84c3cf87edb6f407cea7af5aecda59
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5390029"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5770546"
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Detalles de diseño: Flujo de entrada en almacén
 El flujo de entrada de un almacén comienza cuando los productos llegan al almacén de la ubicación de empresa, recibidos de orígenes externos o de otra ubicación de empresa. Un empleado registra los productos normalmente mediante el escaneo de un código de barras. Desde la dársena de recepción, las actividades de almacén se llevan a cabo en distintos niveles de complejidad para introducir los productos en el área de almacén.  

@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8e22efc92cba6d9a59cc06c66422387d5b35f227
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 978989e12fc8c5ac236bb1dda1a8a5d1c2687de2
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5389629"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772284"
 ---
 # <a name="send-documents-and-emails"></a>Enviar documentos y correo electrónico
 Puede compartir fácilmente información y documentos, como órdenes de compra y venta y facturas, por correo electrónico directamente desde [!INCLUDE[prod_short](includes/prod_short.md)]], sin tener que abrir una aplicación de correo electrónico. 

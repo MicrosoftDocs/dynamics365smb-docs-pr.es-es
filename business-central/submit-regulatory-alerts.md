@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: soalex
-ms.openlocfilehash: f2659bcebc046153948ca2a90f97d8437e86a610
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f75e75cbc220e673fe0e841f8a1f1f04b247bb88
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5380361"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784845"
 ---
 # <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Enviar alertas sobre las características normativas específicas del país/región
 
@@ -52,7 +52,7 @@ Le invitamos a utilizar Microsoft Dynamics Lifecycle Services (LCS) para enviar 
         |Description  | Introduzca un breve resumen de la ley. La descripción debe centrarse en los problemas que son relevantes para la planificación de recursos empresariales (ERP), de modo que los usuarios puedan comprender los requisitos en su totalidad sin tener que leer la legislación primero.|
         |País  | Especifique el país o región al que se aplica la legislación.|
         |Industria| Especifique la industria, si el requisito se aplica solo a industrias específicas. Por ejemplo, elija **Sector público**, **Mercadería** o **Fabricación**.|
-        |Referencia de la característica  | Esto no es relevante para Dynamics 365 Business Central pero, si conoce alguna, puede introducir una referencia de características. La lista de características para el país específico se puede encontrar en el [Portal de localización](https://docs.microsoft.com/dynamics/s-e/) en el sitio de CustomerSource. |
+        |Referencia de la característica  | Esto no es relevante para Dynamics 365 Business Central pero, si conoce alguna, puede introducir una referencia de características. La lista de características para el país específico se puede encontrar en el [Portal de localización](/dynamics/s-e/) en el sitio de CustomerSource. |
         |Fecha de la aplicación de la ley  | Especifique la fecha en que los clientes afectados deben comenzar a cumplir con la ley.|
         |Fecha de anuncio de las administraciones públicas  | Especifique la fecha en la que la autoridad anunció el cambio.|
         |Última fecha de presentación  | Seleccione la fecha límite para el primer envío del informe nuevo o modificado.|
@@ -76,7 +76,7 @@ Le invitamos a utilizar Microsoft Dynamics Lifecycle Services (LCS) para enviar 
 
 [Funcionalidad local en [!INCLUDE[prod_long](includes/prod_long.md)]](about-localization.md)  
 [Cambiar idioma y región](about-locale-language.md)  
-[Introducción](product-get-started.md)  
+[Preparación para hacer negocios](ui-get-ready-business.md)  
 [Bienvenido a Business Central](index.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

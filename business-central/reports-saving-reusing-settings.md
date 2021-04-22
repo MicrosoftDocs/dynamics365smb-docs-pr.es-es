@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customization, personalization
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 70b3f391c141aa53dcef258a131d6395782a4488
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 4437d723834a8189a7155d59812c8e2e1f16b933
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5392554"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5778927"
 ---
 # <a name="manage-saved-settings-for-reports-and-batch-jobs"></a>Administrar configuraciones guardadas para informes y trabajos por lotes
 Cuando se ejecutan informes, a los usuarios normalmente se les presenta una página que les permite seleccionar opciones y establecer filtros para cambiar los datos que se incluyen en el informe generado. Esta página se llama página de solicitud. Un informe puede incluir una o varias *opciones de configuración guardadas* que los usuarios pueden aplicar al informe de la página de solicitud. La *configuración guardada* son básicamente opciones y filtros predeterminados. El uso de la configuración guardada es una forma rápida y confiable de generar de forma coherente informes que contienen los datos correctos. Para obtener más información, consulte [Uso de la configuración guardada](ui-work-report.md#SavedSettings).

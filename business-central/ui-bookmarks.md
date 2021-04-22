@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5e85c6200f9fafa800e2e44978a5efb10ececefb
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 7f93d54984106cb0fce2d886f6826ba22b1d8185
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5376692"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5787482"
 ---
 # <a name="bookmark-a-page-or-report-on-your-role-center"></a>Marque una página o informe en su Área de trabajo
 Con el nuevo icono de marcador, puede agregar una acción que abre una página o informe desde el menú de navegación de su Área de trabajo. Esto le permite alcanzar rápidamente su contenido favorito o tareas comerciales. Agrega el marcador desde la página o informe de destino, lo que significa la pantalla que quiera vincular en el Área de trabajo para abrir.
@@ -60,7 +60,7 @@ La capacidad de marcar una página o un informe es una de las muchas funciones d
 - **¿Por qué no puedo marcar ciertas páginas o informes?**  
 No todas las páginas e informes se pueden agregar a favoritos. Cuando se ejecuta una página o un informe dentro de un contexto especial regido por la aplicación empresarial, no se muestra el icono de marcador. Por ejemplo, páginas que no se pueden encontrar en la ventana **Más información** pero se inician desde otro lugar no mostrará un icono de marcador. Del mismo modo, las páginas de solicitud de informes que solo se utilizan para recopilar filtros sin ejecutar el informe no mostrarán un icono de marcador.
 
-Ver detalles técnicos sobre [RunRequestPage](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/report/reportinstance-runrequestpage-method) y [FilterPageBuilder](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/filterpagebuilder/filterpagebuilder-data-type).
+Ver detalles técnicos sobre [RunRequestPage](/dynamics365/business-central/dev-itpro/developer/methods-auto/report/reportinstance-runrequestpage-method) y [FilterPageBuilder](/dynamics365/business-central/dev-itpro/developer/methods-auto/filterpagebuilder/filterpagebuilder-data-type).
 
 - **Al borrar mi personalización, ¿también se borrarán mis marcadores?**  
 Sí. Los marcadores residen en el menú de navegación. Si borra los cambios en el menú de navegación desde cualquier página, o borra toda la personalización en el Área de trabajo, todas sus nuevas acciones se eliminarán permanentemente.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 139ef613a1931d551fea9b7454c7d1f8c141e1e0
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 72fbc9b893a87107937aa27018e4f8640f6e6ecf
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5383280"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5787657"
 ---
 # <a name="view-load-on-work-and-machine-centers"></a>Configurar la vista de carga en centros de trabajo y de máquina
 En las páginas **Ficha de centro de trabajo** y **Ficha de centro de máquina**, puede ver las cargas de las plantas de suelo como resultado de órdenes de producción planificadas y lanzadas.    

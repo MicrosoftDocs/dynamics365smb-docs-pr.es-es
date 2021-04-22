@@ -1,17 +1,17 @@
 ---
-title: Advertencias y mensajes de error | Microsoft Docs
+title: Advertencias y mensajes de error
 description: Descubra cómo puede solucionar problemas y encontrar soluciones a los mensajes de error cuando trabaja en Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d57ffe82cefb3e15d9b175c3ac17631e75a3edb3
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: fa01f29859b8076ffd9b7786a619ef932903b8d9
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5387178"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5779487"
 ---
 # <a name="warnings-and-error-messages-in-dynamics-365-business-central"></a>Advertencias y mensajes de error en Dynamics 365 Business Central
 
@@ -19,7 +19,7 @@ Durante un día de trabajo, es posible que vea notificaciones en [!INCLUDE [prod
 
 ## <a name="in-product-user-assistance"></a>Asistencia al usuario en el producto
 
-La versión predeterminada de [!INCLUDE [prod_short](includes/prod_short.md)] incluye descripciones para la mayoría de los campos, columnas y acciones a las que se puede acceder cuando se elige el nombre. En combinación con leyendas descriptivas y texto instructivo, estas descripciones emergentes o leyendas son nuestra implementación actual de la *asistencia al usuario integrada*, que es un principio importante en el mundo actual del diseño de software.  
+La versión predeterminada de [!INCLUDE [prod_short](includes/prod_short.md)] incluye descripciones para la mayoría de los campos, columnas y acciones a las que se puede acceder cuando se elige el nombre. En combinación con consejos didácticos para páginas importantes, estas descripciones emergentes o leyendas son nuestra implementación actual de la *asistencia al usuario integrada*, que es un principio importante en el mundo actual del diseño de software.  
 
 Si tiene una pregunta sobre un campo u otro elemento de la interfaz de usuario, elija el nombre y aparecerá una breve descripción. Elija el vínculo *Más información* si eso no es suficiente.  
 
@@ -41,7 +41,7 @@ Si es administrador o superusuario, puede ayudar a otros buscando mensajes de er
 [Preguntas frecuentes sobre buscar y filtrar](ui-search-filter-faq.md)  
 [Preguntas frecuentes sobre copiar y pegar](faq-copy-paste.yml)  
 [Cambiar la configuración básica](ui-change-basic-settings.md)  
-[Introducción](product-get-started.md)  
+[Preparación para hacer negocios](ui-get-ready-business.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

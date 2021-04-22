@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c89f605849d60f25a1ee46f9382d4275ff9ab088
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 58e98a2fa3e7a0d61ad6dc49ac2291a21105ddcb
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5384329"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774691"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Configurar definiciones de intercambio de datos
 Puede configurar [!INCLUDE[prod_short](includes/prod_short.md)] para intercambiar datos de tablas específicas con datos de archivos externos, por ejemplo para enviar y recibir documentos electrónicos, importar o exportar datos de banco u otros datos, como nóminas, tipos de cambio de divisa y catálogos de productos. Para obtener más información, vea [Intercambio de datos electrónicamente](across-data-exchange.md).  
@@ -95,8 +95,8 @@ Esto se describe en los procedimientos siguientes:
     |**Nº columna**|Especifique el número que refleja la posición de la columna en relación con la línea en el archivo.<br /><br /> En el caso de archivos XML, especifique el número que refleja el tipo de elemento en el archivo que contiene los datos.|  
     |**Nombre**|Especifique el nombre de la columna.<br /><br /> En el caso de archivos XML, especifique el marcado de los datos que se intercambiarán.|  
     |**Tipo de datos**|Indique si los datos que se van a intercambiar son de tipo **Texto**, **Fecha** o **Decimal**.|  
-    |**Formato de datos**|Especifique el formato de los datos, si lo hay. Por ejemplo, **dd-mm-aaaa** si el tipo de datos es **Fecha**. **Nota:** Para exportar, especifique el formato de datos según [!INCLUDE[prod_short](includes/prod_short.md)]. Para importar, especifique el formato de datos según .Net Framework. Para obtener más información, consulte [Cadenas de tiempo y fecha estándar](https://go.microsoft.com/fwlink/?LinkID=323466).|  
-    |**Referencia cultural de formato de datos**|Especifique la referencia cultural del formato de datos, si la hay. Por ejemplo, **en-US** si el tipo de datos es **Decimal** para garantizar que la coma se utiliza como el separador de .000 según el formato de EE.UU. Para obtener más información, consulte [Cadenas de tiempo y fecha estándar](https://go.microsoft.com/fwlink/?LinkID=323466). **Nota:** Este campo solo es pertinente para la importación.|  
+    |**Formato de datos**|Especifique el formato de los datos, si lo hay. Por ejemplo, **dd-mm-aaaa** si el tipo de datos es **Fecha**. **Nota:** Para exportar, especifique el formato de datos según [!INCLUDE[prod_short](includes/prod_short.md)]. Para importar, especifique el formato de datos según .Net Framework. Para obtener más información, consulte [Cadenas de tiempo y fecha estándar](/dotnet/standard/base-types/standard-date-and-time-format-strings).|  
+    |**Referencia cultural de formato de datos**|Especifique la referencia cultural del formato de datos, si la hay. Por ejemplo, **en-US** si el tipo de datos es **Decimal** para garantizar que la coma se utiliza como el separador de .000 según el formato de EE.UU. Para obtener más información, consulte [Cadenas de tiempo y fecha estándar](/dotnet/standard/base-types/standard-date-and-time-format-strings). **Nota:** Este campo solo es pertinente para la importación.|  
     |**Longitud**|Especifique la longitud de la línea de ancho fijo que contiene la columna si el archivo de datos es de tipo **Fixed Text**.|  
     |**Descripción**|Escriba una descripción de la columna para fines informativos.|  
     |**Ruta acceso**|Especifique la posición del elemento en el esquema XML relacionado.|  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 354d090b567ebdd63280ecc71248a616bc22342d
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: b8f21ea01cd3676320dee3cf6949fdde01b09877
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393929"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771215"
 ---
 # <a name="getting-ready-for-doing-business"></a>Preparación para hacer negocios
 
@@ -23,7 +23,14 @@ Enhorabuena, acaba de iniciar su primera empresa en [!INCLUDE[prod_short](includ
 
 Para ayudarle a empezar a hacer negocios, puede visitar la página **Configuración asistida** donde puede iniciar guías de configuración asistida, vídeos o temas de ayuda para determinadas tareas de configuración. Para acceder a la página, simplemente elija el icono ![Icono de rueda dentada para abrir el menú Configuración](media/ui-experience/settings_icon_small.png) y luego la acción **Configuración asistida**.
 
-Como alternativa, para abrir la lista de guías de configuración asistida para cualquier rol, elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración asistida** y luego elija el enlace relacionado.
+Como alternativa, para abrir la lista de guías de configuración asistida para cualquier rol, elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración asistida** y luego elija el enlace relacionado.  
+
+> [!TIP]
+> [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
+
+## <a name="get-started"></a>Introducción
+
+A partir del lanzamiento de versiones 1 de 2021, cuando inicia sesión por primera vez o lanza una nueva empresa, la lista de comprobación **Introducción** le lleva por los pasos para prepararse para el negocio. Los pasos varían según su país y cualquier funcionalidad específica del sector que haya agregado a su [!INCLUDE [prod_short](includes/prod_short.md)].  
 
 Una vez haya migrado los datos, como los proveedores, clientes o productos de su sistema financiero existente, está listo para empezar. Pero en función de sus necesidades, considere si las otras guías de configuración asistida pueden ayudarle.
 
@@ -34,18 +41,26 @@ Si un área no está cubierta por una configuración asistida, elija el icono ![
 >
 > La primera vez que inicie sesión, use la experiencia **Esencial**. Para obtener más información, consulte [Cambiar las funciones que se muestran](ui-experiences.md).
 
-Cuando ha ejecutado una guía de configuración asistida, se marca como **Completado**. Para ejecutar la guía de configuración asistida, seleccione los tres puntos y, a continuación, elija la acción **Iniciar configuración**.
+Cuando ha ejecutado una guía de configuración asistida, se marca como **Completado**. <!--VERIFY-->  
 
-## <a name="role-center"></a>Área de trabajo
+## <a name="teaching-tips-and-tours"></a>Consejos didácticos y recorridos
 
-En Área de trabajo tiene información general de su negocio. En la parte superior, puede ver una barra de navegación que le da un acceso sencillo a los clientes, proveedores, productos, etc. En el centro se encuentra el mosaico **Actividades**. **Actividades** muestra los datos actuales y se puede hacer clic o pinchar sobre él para conseguir un acceso fácil al documento seleccionado.
+[!INCLUDE [2021_releasewave1](includes/2021_releasewave1.md)]
 
-Los **Indicadores de rendimiento clave** pueden configurarse para mostrar un gráfico seleccionado para una representación visual de, por ejemplo, el flujo de efectivo o ingresos y gastos. También puede crear una lista de **Clientes favoritos** en el área de trabajo para las cuentas con las que hace negocios a menudo o a las que necesita prestar especial atención.
+[!INCLUDE [prod_short](includes/prod_short.md)] incluye recorridos a los productos y consejos didácticos que pueden ayudarle a comenzar. En la versión actual, hay recorridos por los pasos de la lista **Introducción** y algunas de las páginas más utilizadas en la empresa de demostración, como la página de la ficha **Factura de venta**.  
 
-Use las flechas para contraer una parte de la página y haga más espacio para mostrar datos específicos. En la parte superior del área de trabajo encontrará todas las acciones que se pueden realizar con el contenido actual. Todo esto también se puede contraer y solo necesita hacer clic o pinchar en el área contraída para volverlo a ver.
+Los consejos didácticos son mensajes cortos que informan, recuerdan o enseñan sobre funcionalidades nuevas e importantes que se inician automáticamente cuando abre una página. Por ejemplo, para ver el consejo didáctico para la ficha **Factura de venta**, elija el vínculo en la esquina superior izquierda de la página donde dice *Factura de venta*. Esto lanza una leyenda con una breve descripción de la página y de lo que puede hacer ahí. Si existe un recorrido para la página, un vínculo le invita a realizar el recorrido. El vínculo *Más información* le lleva a la Ayuda del producto para la página.
+
+## <a name="role-specific-home-pages"></a>Páginas de inicio específicas de rol
+
+En función de su rol, la página de inicio proporciona una vista general del negocio. En la parte superior, puede ver una barra de navegación que le da un acceso sencillo a los clientes, proveedores, productos, etc. En el centro se encuentra el mosaico **Actividades**. **Actividades** muestra los datos actuales y se puede hacer clic o pinchar sobre él para conseguir un acceso fácil al documento seleccionado.
+
+Los **Indicadores de rendimiento clave** pueden configurarse para mostrar un gráfico seleccionado para una representación visual de, por ejemplo, el flujo de efectivo o ingresos y gastos. También puede crear una lista de **Clientes favoritos** en la página de inicio para las cuentas con las que hace negocios a menudo o a las que necesita prestar especial atención.
+
+Use las flechas para contraer una parte de la página y haga más espacio para mostrar datos específicos. En la parte superior de la página Inicio encontrará todas las acciones que se pueden realizar con el contenido actual. Todo esto también se puede contraer y solo necesita hacer clic o pinchar en el área contraída para volverlo a ver.
 
 > [!TIP]  
-> Puede volver al área de trabajo seleccionando el nombre de la empresa en la esquina superior izquierda.
+> Puede volver a la página de inicio seleccionando el nombre de la empresa en la esquina superior izquierda.
 
 ## <a name="company-information"></a>Información de empresa
 
@@ -55,25 +70,24 @@ En **Configuración de la empresa** puede ver y editar información de configura
 
 Si necesita agregar más usuarios, se realiza de centro de administración de Microsoft 365. Para obtener más información, vea [Crear usuarios de acuerdo con las licencias](ui-how-users-permissions.md).
 
-Cuando los usuarios se crean en Microsoft 365, se pueden importar en la página **Usuarios** mediante la acción **Obtener actualizaciones desde Office 365**. Después podrá continuar con la asignación de permisos a usuarios y la organización en grupos de usuarios. Para obtener más información, vea [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md).  
+Cuando los usuarios se crean en Microsoft 365, se pueden importar en la página **Usuarios** mediante la acción **Obtener actualizaciones desde Office 365**. Después podrá continuar con la asignación de permisos a usuarios y la organización en grupos de usuarios. Para obtener más información, consulte [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md).  
 
-## <a name="getting-help"></a>Obtener ayuda
+## <a name="product-help"></a>Ayuda de productos
 
-En [!INCLUDE[prod_short](includes/prod_short.md)] encontrará las herramientas de información que pueden guiarle a través de varios procesos empresariales. Para cada información sobre herramienta, elija el vínculo **Más información** para abrir la Ayuda de la página en cuestión. En todas las páginas, use Ctrl + F1 en su teclado para abrir la Ayuda de la página en cuestión. El signo de interrogación en la esquina superior derecha abre la página **Ayuda y soporte técnico** y desde allí también puede acceder a la Ayuda del producto.
+[!INCLUDE [ua-get-help](includes/ua-get-help.md)] Para obtener más información, consulte [Recursos para ayuda y soporte técnico](product-help-and-support.md).  
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Según sus datos migrados, ahora puede empezar a crear nuevos documentos de compra o venta. Use la sección **Acciones** de su área de trabajo para crear rápidamente una nueva oferta de venta, factura de venta, pedido de venta, factura de compra o registro de venta.
+Según sus datos migrados, ahora puede empezar a crear nuevos documentos de compra o venta. Use la sección **Acciones** de su página de inicio para crear rápidamente una nueva oferta de venta, factura de venta, pedido de venta, factura de compra o registro de venta.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Consulte también .
 
-[Introducción](product-get-started.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md)  
 [Versiones de prueba y suscripciones de [!INCLUDE[prod_long](includes/prod_long.md)]](across-preview.md)  
 [Recursos de ayuda y soporte técnico](product-help-and-support.md)  
+[Sitio de Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

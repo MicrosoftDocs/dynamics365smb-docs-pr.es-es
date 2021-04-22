@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 01/05/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f07bc493a88f7ce46d3845a97774d0971c0fe5ba
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 305d1460b93c1294335b5a8afcf42593c465ebe4
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5388904"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780803"
 ---
 # <a name="create-contacts"></a>Crear contactos
 Cuando desarrolle una relación comercial con alguien de otra empresa, agréguelo como contacto en [!INCLUDE[prod_short](includes/prod_short.md)]. Luego, agregue cualquier información sobre ellos o su empresa que pueda ser útil para futuras comunicaciones. En la página **Tarjeta de contacto**, puede crear los siguientes tipos de contactos:

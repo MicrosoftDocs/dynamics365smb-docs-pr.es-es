@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client, customer, credit
-ms.date: 03/09/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d873c1546cebfccc6d2549b1de2b9d111589c553
-ms.sourcegitcommit: 35f7e24c301926b39094aa64fe608afd04fdb8e1
+ms.openlocfilehash: 178bc8374d50bac5b7f7a6793c596c5109943fa6
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5573431"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5778602"
 ---
 # <a name="register-new-customers"></a>Permite registrar nuevos clientes
 
@@ -27,7 +27,7 @@ Antes de que pueda registrar nuevos clientes, debe configurar varios códigos de
 
 ## <a name="adding-new-customers"></a>Agregar nuevos clientes
 
-Para registrar un cliente nueve, debe rellenar una ficha cliente. Puede establecer plantillas para diferentes perfiles de clientes, o puede agregar clientes sin plantillas.  
+Para registrar un cliente nueve, debe rellenar una ficha cliente. Puede establecer plantillas para diferentes perfiles de clientes, o puede agregar clientes sin plantillas. También puede crear un cliente a partir de un contacto. Para obtener más información, consulte [Para crear un contacto como proveedor, empleado o banco de un contacto](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
 
 > [!NOTE]  
 > Si existen plantillas de cliente para distintos tipos de cliente, una página aparece automáticamente cuando se crea una nueva ficha de cliente en la que puede seleccionar una plantilla de cliente correspondiente. Si solo existe una plantilla de cliente, las nuevas fichas de cliente utilizan siempre esa plantilla.  

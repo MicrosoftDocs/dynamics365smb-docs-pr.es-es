@@ -1,5 +1,5 @@
 ---
-title: Registro de documentos de ventas | Documentos de Microsoft
+title: Registro de documentos de ventas
 description: Obtenga información sobre las diferentes funciones de registro para registrar documentos de ventas y cómo puede actualizar los documentos registrados.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 12/03/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e0d1bd7770eb3bb44a2e9b3203ffa158a246cfa9
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: e59c48c31e897d235c7920f4231313a2332fdf06
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5392054"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5783264"
 ---
 # <a name="posting-sales"></a>Registrar ventas
 
@@ -28,7 +28,8 @@ En el menú **Registro** en un documento de venta, puede elegir entre las funcio
 * **Registrar por lotes**
 * **Informe de prueba**
 
-> [¡NOTA!] Para pedidos de cliente, también puede ver opciones relacionadas con la funcionalidad de prepagos. Para obtener más información, consulte [Facturar prepagos](finance-invoice-prepayments.md). 
+> [!NOTE]
+> Para pedidos de cliente, también puede ver opciones relacionadas con la funcionalidad de prepagos. Para obtener más información, consulte [Facturar prepagos](finance-invoice-prepayments.md).
 
 Una vez completadas todas las líneas e introducida toda la información en el pedido de venta, puede registrarlo. Esto crea un envío y una factura.
 
@@ -65,5 +66,4 @@ Puede editar determinados campos en documentos de compra registrados, como **Nº
 [Búsqueda de páginas e información con Dígame](ui-search.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[!INCLUDE[footer-include](includes/footer-banner.md)]  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0423314fa123c931e98db37bcc6939b6fbbddf25
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: e118b27d1bafc4de1ffc8d2db4597317942b6f65
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381522"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777703"
 ---
 # <a name="design-details-table-structure"></a>Detalles de diseño: Estructura de tablas
 Para entender cómo se almacenan y registran los movimientos de dimensión, es importante comprender la estructura de tabla.  
@@ -181,11 +181,7 @@ El campo 480 existe en las siguientes tablas de búfer.
 |5637|**A/F Mem. int. reg. C/G**|  
 |7136|**Búfer del presupuesto de productos**|  
 
-## <a name="see-also"></a>Consulte también  
- [Detalles de diseño: Movimientos de grupo de dimensiones](design-details-dimension-set-entries.md)   
- [Información general de los movimientos del grupo dimensiones](design-details-dimension-set-entries-overview.md)   
- [Detalles de diseño: Búsqueda de combinaciones de dimensiones](design-details-searching-for-dimension-combinations.md)   
- 
+## <a name="see-also"></a>Consulte también
 
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Información general de los movimientos del grupo dimensiones](design-details-dimension-set-entries-overview.md)  
+[Detalles de diseño: Búsqueda de combinaciones de dimensiones](design-details-searching-for-dimension-combinations.md)   

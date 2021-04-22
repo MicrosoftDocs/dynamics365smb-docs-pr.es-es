@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account transfer, multiple currencies
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1a0ab7c2a96c278740c07ff243ad785be1d72dd4
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: dea39ba380eee574205d57ba198f15213c341ea0
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5388104"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5779737"
 ---
 # <a name="transfer-bank-funds"></a>Transferir fondos bancarios
 En ocasiones es necesario transferir un importe desde un banco en [!INCLUDE[prod_short](includes/prod_short.md)] a otro. Para hacerlo, debe registrar una transacción en la página **Diario general**. La tarea varía en función de si los bancos usan la misma divisa o distintas divisas.

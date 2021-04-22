@@ -7,14 +7,14 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 62eeab6d03f0fde0b1f55f414d48c2d3cd3f573c
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 877891affde9b1719c30bc265cd0c08bf14824b0
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5380207"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5770521"
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Configurar información general de activos fijos
 Para poder gestionar activos fijos, debe configurar las cuentas predeterminadas, las claves de asignación, las plantillas y las secciones del diario que se utilizan para registrar y reclasificar los activos fijos, y clasificar los activos fijos en clases como, por ejemplo, Tangible e Intangible.
@@ -121,7 +121,7 @@ Si los activos fijos no se integran en la contabilidad, omita los pasos 6 y 8.
 [Configurar activos fijos](fa-setup.md)  
 [Activos fijos](fa-manage.md)  
 [Finanzas](finance.md)  
-[Introducción](product-get-started.md)  
+[Preparación para hacer negocios](ui-get-ready-business.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

@@ -1,31 +1,32 @@
 ---
-title: Contar inventario con la función basada en documento
-description: Describe cómo realizar el inventario físico de recuento utilizando las páginas Inventario de pedido físico y Registro de inventario físico.
+title: Recuento y ajuste de inventario
+description: Describe cómo realizar el recuento de inventario físico mediante las páginas Pedidos de inventario físico y Registro de inventario físico y realizar ajustes negativos o positivos con los documentos de inventario.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: adjustment, status, negative, positive, increase, decrease
-ms.date: 10/20/2020
+ms.search.keywords: adjustment, status, negative, positive, increase, decrease, inventory
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: be22209240f3bff70619a31f60cb0acac7e51228
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 8804f64dd2cee60514d18785feee4f8fd6cf67aa
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393179"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5785953"
 ---
-# <a name="count-inventory-using-documents"></a>Contar inventario mediante documentos
+# <a name="count-and-adjust-inventory-using-documents"></a>Recuento y ajuste de inventario mediante documentos
 
-Puede realizar un inventario físico de los productos utilizando los documentos de pedido de inventario físico y registro de inventario físico. La página **Orden de inventario físico** se usa para organizar el proyecto de recuento de inventario completo, por ejemplo una por almacén. La página **Registro de inventario físico** se utiliza para comunicar y para capturar el recuento real de productos. Puede crear varias grabaciones para un pedido, por ejemplo, para distribuir grupos de productos a diferentes empleados.
+Puede realizar un inventario físico de los productos utilizando los documentos de pedido de inventario físico y registro de inventario físico. La página **Orden de inventario físico** se usa para organizar el proyecto de recuento de inventario completo, por ejemplo una por almacén. La página **Registro de inventario físico** se usa para comunicar y para capturar el recuento real de productos. Puede crear varias grabaciones para un pedido, por ejemplo, para distribuir grupos de productos a diferentes empleados.
 
 El informe **Registro de inventario físico** se puede imprimir desde cada registro y contiene los campos de cantidad vacíos para introducir el inventario contado. Cuando un usuario termina el recuento, y las cantidades se han introducido en la página **Registro de inventario físico**, elija la acción **Terminar**. Esto transfiere las cantidades a las líneas asociadas en la página **Pedido de inventario físico**. La funcionalidad garantiza que el recuento de productos no se pueda registrar dos veces.  
 
 > [!NOTE]
-> Este artículo describe cómo realizar un inventario físico con documentos, un método que proporciona más control y admite la distribución del recuento a varios empleados. También puede realizar la tarea con los diarios, como **Diarios de inventario** y las páginas **Diarios de inventario de almacén**. Para obtener más información, consulte [Recuento, ajuste y reclasificación de inventario mediante diarios](inventory-how-count-adjust-reclassify.md).<br /><br />
-> Observe que si utiliza la funcionalidad de zonas, no puede utilizar pedidos de inventario físico. En su lugar, utilice **Diario de inventario físico de almacén** para contar las entradas del almacén antes de sincronizarlas con las entradas del libro mayor de productos.
+> El uso de documentos para realizar un inventario físico proporciona más control y admite la distribución del recuento a varios empleados. También puede realizar la tarea con los diarios, como **Diarios de inventario** y las páginas **Diarios de inventario de almacén**. Para obtener más información, consulte [Recuento, ajuste y reclasificación de inventario mediante diarios](inventory-how-count-adjust-reclassify.md). En este artículo se describe cómo realizar un inventario físico con documentos.
+>
+> Si usa zonas, no puede usar pedidos de inventario físico. En su lugar, use la página **Diario de inventario físico de almacén** para contar las entradas del almacén antes de sincronizarlas con los movimientos de producto.
 
 El recuento de inventario con documentos consta de los pasos generales siguientes:
 
@@ -77,7 +78,6 @@ En caso de recuento manual, puede imprimir una lista, el informe **Registro inv.
 9. Seleccione la acción **Imprimir** para preparar el documento físico que los empleados utilizarán para anotar las cantidades contadas.
 
 ## <a name="to-finish-a-physical-inventory-recording"></a>Para finalizar un registro de inventario físico
-
 Cuando los empleados hayan contado las cantidades de inventario, debe prepararse para registrarlas en el sistema.
 
 1. En la página **Lista de registros invent. fís.** , seleccione el registro de inventario físico que desea terminar y, a continuación, seleccione la acción **Edición**.
@@ -185,8 +185,52 @@ Un producto con seguimiento de lote está almacenado en inventario con la serie 
 
 En la página **Pedido de inventario físico**, el campo **Cantidad neg. (base)** contendrá *8*. Para la línea de pedido en cuestión, la página **Lista seguim. prod. inv. fís.** contendrá las cantidades positivas o negativas de los números de lote individuales.
 
-## <a name="see-also"></a>Consulte también
+## <a name="inventory-documents"></a>Documentos de inventario
+Los siguientes tipos de documentos son útiles para administrar su almacén:
 
+- Use **Recepciones de inventario** para registrar ajustes positivos de productos basados en la calidad, la cantidad y el coste.
+- Use **Envíos de inventario** para cancelar bienes perdidos o dañados.
+
+Puede imprimir estos documentos en cualquier etapa, liberarlos y volverlos a abrir, y asignar valores comunes, incluidas dimensiones, en el encabezado. Si desea volver a imprimir los documentos después de que se hayan registrado, puede hacerlo en las páginas **Histórico recepción de inventario** y **Histórico envío inventario**.
+
+> [!NOTE]
+> Antes de poder usar estos documentos, debe especificar una serie de números para crear sus identificadores. Para obtener más información, consulte la sección siguiente.
+
+### <a name="to-set-up-numbering-for-inventory-documents"></a>Para configurar la numeración de los documentos de inventario
+El siguiente procedimiento muestra cómo configurar la numeración de los documentos de inventario.
+
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Config. existencias** y luego elija el enlace relacionado.
+2. En la ficha desplegable **Numeración**, especifique en los siguientes campos la serie de números de documentos:
+   - **Números recep. inventario**  
+   - **Números histórico recepciones de inventario**  
+   - **Números envío inventario**  
+   - **Números histórico envío inventario**  
+
+### <a name="to-create-and-post-an-inventory-document"></a>Para crear y registrar un documento de inventario
+En el siguiente procedimiento se muestra cómo crear, imprimir y registrar una recepción de inventario. Los pasos son parecidos para los envíos de inventario.
+
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Recepciones de inventario** y luego elija el enlace relacionado.  
+2. En el encabezado de la página **Recepción de inventario**, elija la ubicación en el **Código de almacén** y luego rellene los campos restantes según sea necesario.
+3. En la ficha desplegable **Líneas**, en el campo **Producto**, elija el producto de inventario. En el campo **Cantidad**, escriba el número de productos que se van a agregar. 
+4. Para imprimir un informe **Recepción de inventario** de la página **Recepción de inventario**, elija la acción **Imprimir**.
+
+Las siguientes funciones están disponibles en la página **Recepción de inventario**:
+
+- Elegir las acciones **Lanzar** o **Volver a abrir** para establecer el estado de la siguiente etapa de procesamiento  
+- Elegir la acción **Registrar** para registrar la recepción de inventario o elegir **Registrar e imprimir** para registrar la recepción e imprimir el informe de prueba  
+
+## <a name="printing-inventory-documents"></a>Impresión de documentos de inventario
+Puede especificar los informes que deben imprimirse en diferentes etapas eligiendo una de las siguientes opciones en el campo **Uso** de la página **Selección de informes - Inventario**:
+
+- Recepción inventario
+- Envío inventario
+- Histórico recepción de inventario
+- Histórico envío inventario
+
+> [!NOTE]
+> Los informes disponibles pueden variar según la localización de su país. La aplicación base no incluye ningún diseño.
+
+## <a name="see-also"></a>Consulte también
 [Recuento, ajuste y reclasificación de inventario con diarios](inventory-how-count-adjust-reclassify.md)  
 [Trabajar con números de lote y de serie](inventory-how-work-item-tracking.md)  
 [Inventario](inventory-manage-inventory.md)  

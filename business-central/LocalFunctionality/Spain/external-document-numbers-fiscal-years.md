@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: soalex
-ms.openlocfilehash: 8c1cd77d27259ea40dee3a600b6cc4c9314774eb
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: e6e153e75039542a7bcd08f360eabd37de5110aa
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5382065"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774229"
 ---
 # <a name="using-the-same-external-document-numbers-accross-fiscal-years"></a>Uso de los mismos números de documento externo en todos los ejercicios
 En general, [!INCLUDE[prod_short](../../includes/prod_short.md)] no permite registrar documentos con el mismo valor en **N.º documento externo**, ni siquiera en ejercicios anteriores, debido a la legislación. En España, sin embargo, esto está aceptado, y [!INCLUDE[prod_short](../../includes/prod_short.md)] ahora incluye una opción para permitir este comportamiento. 

@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3f8d8b2744fb5179183e223c8741669f7af9754b
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: c3f807a7e02a9791fb8ea465bc399e3e3345a0f3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379103"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777496"
 ---
 # <a name="prod_long-trials-and-subscriptions"></a>Versiones de prueba y suscripciones de [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -27,7 +27,7 @@ Puede registrarse para obtener una versión de prueba [aquí](https://go.microso
 
 Dependiendo de su país o región, la versión de prueba incluye los idiomas y la funcionalidad que requiere su país o región. Para obtener más información, vea [Cambiar idioma y región](about-locale-language.md).  
 
-En [!INCLUDE[prod_short](includes/prod_short.md)], le serán familiares algunos aspectos, pero otros no. Cuando inicia sesión por primera vez en la empresa de demostración, obtiene acceso a una página de introducción con vínculos a vídeos que pueden ayudarlo a comenzar. Para obtener más información, vea [Introducción a [!INCLUDE[prod_long](includes/prod_long.md)]](product-get-started.md).  
+En [!INCLUDE[prod_short](includes/prod_short.md)], le serán familiares algunos aspectos, pero otros no. Cuando inicia sesión por primera vez en la empresa de demostración, obtiene acceso a una página de introducción con vínculos a guías de configuración asistida que pueden ayudarle a comenzar. Para obtener más información, vea [Preparación para hacer negocios](ui-get-ready-business.md).  
 
 Si encuentra dificultades, la página [Preguntas frecuentes](across-faq.md) puede ayudarlo a responder algunas de sus preguntas. Si no puede registrarse en la versión de prueba, la página [Solución de problemas en el registro de autoservicio](ui-troubleshoot-self-signup.md) puede ayudarlo. También puede contactar con un [partner](across-faq.md#findpartner) y pedirle que cree para usted una prueba gratuita o un tipo diferente de versión preliminar de [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -89,7 +89,7 @@ El administrador de su [!INCLUDE[prod_short](includes/prod_short.md)] y su socio
 
 ## <a name="see-also"></a>Consulte también
 
-[Introducción](product-get-started.md)  
+[Preparación para hacer negocios](ui-get-ready-business.md)  
 [Extensión de la versión de prueba](admin-extend-trial.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Preguntas más frecuentes](across-faq.md)  

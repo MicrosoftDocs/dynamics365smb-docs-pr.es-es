@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1cf1a782a0c36e3f87935c8b2b965deb4ad04e9a
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 7d22ba919883fd45ff0b04410a0a19ee77aa3326
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5383657"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771684"
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Planificar ubicaciones en hojas de trabajo
 Si el almacén requiere los procesos de ubicación y recepción, y desea planificar instrucciones de ubicación para varios albaranes, en vez de hacer que los empleados sigan las instrucciones que crea la aplicación para albaranes registrados independientes, puede utilizar la hoja de trabajo de ubicación.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 48547fbe3cb2bb7cf509c1b0720cb6ccfc58cd97
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 52a3963267a7f476943f5a6d67f1d51c395ca927
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385879"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776722"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Asignar permisos a usuarios y grupos
 
@@ -261,7 +261,7 @@ Puede configurar [!INCLUDE[prod_short](includes/prod_short.md)] para enviar camb
 [Personalización de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md)  
 [Preparación para hacer negocios](ui-get-ready-business.md)  
 [Administración](admin-setup-and-administration.md)  
-[Agregar usuarios a Microsoft 365 para empresas](https://aka.ms/CreateOffice365Users)  
+[Agregar usuarios a Microsoft 365 para empresas](/microsoft-365/admin/add-users/add-users)  
 [Seguridad y protección en Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection) en Ayuda para desarrolladores y profesionales de TI
 
 

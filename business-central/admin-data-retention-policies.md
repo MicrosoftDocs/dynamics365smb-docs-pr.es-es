@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delete, data, retention, policy, policies
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 52f99b262dbfa5568650b72356ec43442fc75284
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: e9d8f9fc9b74df561aab3109b631fc10c7f46108
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378529"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780062"
 ---
 # <a name="define-retention-policies"></a>Definir directivas de retención
 Los administradores pueden definir directivas de retención para especificar con qué frecuencia desean que [!INCLUDE[prod_short](includes/prod_short.md)] elimine datos desactualizados en tablas que contienen entradas de registro y registros archivados. Por ejemplo, limpiar las entradas de registro puede facilitar el trabajo con los datos que son realmente relevantes. Las directivas pueden incluir todos los datos de las tablas que superan la fecha de vencimiento, o puede agregar criterios de filtro que incluirán solo ciertos datos vencidos en la directiva. 

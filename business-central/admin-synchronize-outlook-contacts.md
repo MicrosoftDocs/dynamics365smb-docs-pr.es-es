@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contacts, Microsoft 365
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7c9d267df2fb58da3b4a7aa1505030c9510bdf4f
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 1ccada415d506193e52ac37981252a47e6088971
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5386104"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777171"
 ---
 # <a name="synchronize-contacts-in-business-central-with-contacts-in-microsoft-outlook"></a>Sincronizar los contactos de Business Central con los de Microsoft Outlook
 Puede ver los mismos contactos en [!INCLUDE[prod_short](includes/prod_short.md)] que en Outlook si configura la sincronización de contactos. Por ejemplo, si es un vendedor, puede hacer parte de su trabajo en Outlook y parte de su trabajo en [!INCLUDE[prod_short](includes/prod_short.md)]. Si los contactos son los mismos en ambos lugares, su trabajo es más sencillo.  
@@ -32,15 +32,15 @@ Una vez configurada esta sincronización, cualquier cambio que realice en el con
 Cada uno de sus compañeros de trabajo también puede configurar su propia sincronización de Exchange y establecer su propio filtro sobre qué contactos sincronizar.  
 
 ## <a name="synchronize-contacts"></a>Sincronizar contactos
-Si está acostumbrado a trabajar con contactos en [!INCLUDE[prod_short](includes/prod_short.md)], le resultará fácil iniciar la sincronización manualmente siempre que le convenga desde la lista **Contactos**. Simplemente elija la acción **Sincronizar con Office 365** y luego decida si desea cambiar el filtro que ha configurado. Cuando elige el botón Aceptar, la sincronización se inicia de inmediato y los últimos cambios se aplican a sus contactos en Outlook.  
+Si está acostumbrado a trabajar con contactos en [!INCLUDE[prod_short](includes/prod_short.md)], le resultará fácil iniciar la sincronización manualmente siempre que le convenga desde la lista **Contactos**. Simplemente elija la acción **Sincronizar con Microsoft 365** y luego decida si desea cambiar el filtro que ha configurado. Cuando elige el botón Aceptar, la sincronización se inicia de inmediato y los últimos cambios se aplican a sus contactos en Outlook.  
 
 En la lista **Contactos**, puede sincronizar contactos de dos maneras:
 
-* **Sincronizar con Office 365**
+* **Sincronizar con Microsoft 365**
 
   Esta acción sincronizará todos los cambios de [!INCLUDE[prod_short](includes/prod_short.md)] a Microsoft 365 desde la sincronización anterior, en función de la última fecha de modificación. Todos los contactos nuevos de Microsoft 365 también de vuelta a [!INCLUDE[prod_short](includes/prod_short.md)]. Esto típicamente es más rápido que hacer una sincronización completa.  
 
-* **Sincronización completa con Office 365**
+* **Sincronización completa con Microsoft 365**
 
   Esta acción sincroniza todos los contactos en ambas direcciones, independientemente de la fecha de la última sincronización y la fecha de última modificación.  
 
@@ -49,9 +49,9 @@ En ambos casos, los contactos solo se sincronizan desde Outlook si tienen rellen
 En Outlook, los contactos de [!INCLUDE[prod_short](includes/prod_short.md)] se muestran en una carpeta en **Otros contactos** en la vista **Personas**. Si no está familiarizado con la vista Personas en Outlook, puede acceder a ella desde las opciones de navegación en la esquina inferior izquierda de Outlook.  
 
 ## <a name="see-also"></a>Consulte también
-[Introducción](product-get-started.md)  
+[Preparación para hacer negocios](ui-get-ready-business.md)  
 [Finanzas](finance.md)  
-[Ventas](sales-manage-sales.md)  
+[Ccial](sales-manage-sales.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Usar contactos (personas) en Outlook en la web](https://support.office.com/article/Using-contacts-People-in-Outlook-on-the-web-1e3438c7-26b2-420c-87de-3cea9d31b5cb?appver=OWB150)  
 

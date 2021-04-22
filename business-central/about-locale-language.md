@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture, region, regional settings
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b7dad6212361eaebc4e08cc2c638a84c41850e9d
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: c565b3df229c9fe844c08274e813bc24ba70a8dc
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385079"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776452"
 ---
 # <a name="changing-language-and-region"></a>Cambiar idioma y región
 
@@ -36,10 +36,10 @@ Cambiar los textos que se almacenan como datos de la aplicación no forma parte 
 ## <a name="changing-the-region"></a>Cambiar de configuración regional
 La configuración regional es distinta del idioma y los requisitos legales en mercados local. La región determina cómo la información se muestra en términos de separador de comas, alineación a la izquierda o a la derecha, y algunos otros valores. La región también determinará algunos de los productos del sistema en el explorador, como la acción para crear un producto nuevo en una lista, por ejemplo.  
 
-Puede cambiar configuración regional de la pestaña del explorador que utiliza para trabajar [!INCLUDE[prod_short](includes/prod_short.md)]. el cambio sólo se aplica a usted y no a los demás usuarios en la empresa.  Tenga en cuenta que la elección de la región se restablecerá a su configuración en su perfil de Microsoft 365 si su administrador sincroniza usuarios de Microsoft 365 a [!INCLUDE[prod_short](includes/prod_short.md)].
+Puede cambiar configuración regional de la pestaña del explorador que utiliza para trabajar [!INCLUDE[prod_short](includes/prod_short.md)]. El cambio solo se aplica a usted y no a los demás usuarios en la empresa.  La elección de la región se restablecerá a su configuración en su perfil de Microsoft 365 si su administrador sincroniza usuarios de Microsoft 365 a [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!IMPORTANT]  
->  Cuando modifica la configuración regional, aparecerá una lista de larga idiomas de y regiones. Sin embargo, el idioma no está influenciado por la elección de la región.  
+> Cuando modifica la configuración regional, aparecerá una lista de larga idiomas de y regiones. Sin embargo, el idioma no está influenciado por la elección de la región.  
 
 Para cambiar configuración regional, vaya a la página **Mi configuración**. Para obtener más información, consulte [Cambiar configuración básica](ui-change-basic-settings.md).  
 
@@ -48,19 +48,21 @@ Para cambiar configuración regional, vaya a la página **Mi configuración**. P
 En la página **Ayuda y soporte técnico** puede ver la versión de que [!INCLUDE[prod_short](includes/prod_short.md)] en la que se basa su empresa. Si desea basar una empresa en una versión diferente, su administrador puede crear un nuevo entorno de producción. Para obtener más información, vea [Crear un nuevo entorno de producción](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-production-environment) en el contenido para desarrolladores y profesionales de TI.  
 
 ## <a name="languages-of-the-prod_short-help"></a>Idiomas de la Ayuda de [!INCLUDE[prod_short](includes/prod_short.md)]
+
 El contenido de la Ayuda de la funcionalidad principal de [!INCLUDE[prod_short](includes/prod_short.md)] se publica en el sitio de Documentos de Microsoft y está disponible en varios idiomas. Si tiene acceso a documentos desde [!INCLUDE[prod_short](includes/prod_short.md)], el contenido se mostrará en su idioma. Si una página en particular aún no está disponible en su idioma, se mostrarán en inglés.
 
-### <a name="how-do-i-change-the-language"></a>¿Cómo cambio el idioma?
+### <a name="how-do-i-change-the-language-of-the-microsoft-docs-site"></a>¿Cómo cambio el idioma del sitio de Microsoft Docs?
+
 Es simple, desplácese al final de la página del explorador y elija el símbolo del mundo en la esquina inferior izquierda.
 
 > [!NOTE]  
-> La lista muestra todos los idiomas admitidos en el sitio de Documentos de Microsoft. [!INCLUDE[prod_short](includes/prod_short.md)] está disponible en un número limitado de países/regiones, pero el contenido de Ayuda está disponible en varios idiomas. Sin embargo, el contenido de Ayuda no está disponible en todos los idiomas que el sitio de Documentos de Microsoft admite.
+> La lista muestra todos los idiomas admitidos en el sitio de Documentos de Microsoft. [!INCLUDE[prod_short](includes/prod_short.md)] está disponible en un número limitado de países o regiones, y el contenido de Ayuda de [!INCLUDE [prod_short](includes/prod_short.md)] no está disponible en todos los idiomas que admite el sitio de Microsoft Docs.
 
 ## <a name="see-also"></a>Consulte también
 
 [Recursos de ayuda y soporte técnico](product-help-and-support.md)  
 [Cambiar la configuración básica](ui-change-basic-settings.md)  
-[Introducción](product-get-started.md)  
+[Preparación para hacer negocios](ui-get-ready-business.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

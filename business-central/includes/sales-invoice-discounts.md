@@ -2,16 +2,16 @@
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: include
-ms.date: 01/25/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 539ee2eb2c9e4a71eacfb78d95320870128fb1d9
-ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
+ms.openlocfilehash: 95121642b62f33ea1fc160c103ee845816706530
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5470292"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5778652"
 ---
-Una vez que se hayan especificado todos los productos en las líneas de venta, podrá calcular el descuento en factura para todo el documento eligiendo la acción **Calcular descuento en factura**.
+Una vez que se hayan especificado todos los productos como líneas, podrá calcular el descuento en factura para todo el documento de ventas eligiendo la acción **Calcular descuento en factura**.
 
 El descuento se calcula basándose en todas las líneas del documento de venta para productos en los que el campo **Permitir descuento en factura** de la línea de pedido de venta contiene **Sí**. Este es el valor predeterminado para los productos. Las líneas con cargos de producto, por ejemplo, no se incluyen en el cálculo del descuento de factura. Si desea aplicar un descuento a dichas líneas, debe establecer el campo **% de descuento de línea** en las líneas relevantes.  
 

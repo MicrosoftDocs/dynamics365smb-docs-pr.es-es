@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 05d6a4c4c63c2ff7fb750b8288643427b17b3004
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 70672fcab8c2614de58bd152288ba3543fe6955a
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379028"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5787087"
 ---
 # <a name="setting-up-data-exchange"></a>Configuración del intercambio de datos
 Para poder enviar y recibir documentos electrónicos o importar y exportar archivos de banco, debe configurar el marco de intercambio de datos para procesar los archivos correspondientes. Además, debe configurar áreas relacionadas, como los clientes a los que envía facturas electrónicas o la extensión AMC Banking 365 Fundamentals si usa el proveedor de servicios externos para convertir los archivos bancarios. Para obtener más información, vea [Intercambio de datos electrónicamente](across-data-exchange.md).  

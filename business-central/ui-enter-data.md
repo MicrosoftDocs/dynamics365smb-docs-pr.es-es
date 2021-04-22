@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6ad3faedc77b1293fa9e42d65e59db4c2d00b529
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: d27633b6ae86c62a6ba95de51fe359094825e64d
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393304"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784820"
 ---
 # <a name="entering-data"></a>Introducción de datos
 
@@ -242,34 +242,9 @@ En la tabla siguiente se muestran varias formas de introducir horas y cómo se i
 
  Introduzca dos dígitos para cada unidad de tiempo si no escribe ningún separador.  
 
-## <a name="entering-datetimes"></a>Introducción de fechas/horas
+## <a name="entering-combined-datetimes"></a>Introducir fechas/horas combinadas
 
-Cuando introduzca fechas y horas, debe introducir un espacio en blanco entre la fecha y la hora.  
-
-En la tabla siguiente se muestran varias formas de introducir fechas y horas y cómo se interpretan.  
-
-|Movimiento|Interpretación|  
-|---------------|------------------------|  
-|`131202` 132455|13/12/02 13:24:55|  
-|02-12-01 10|01/12/02 10:00:00|  
-|1.12.02 5|01/12/02 05:00:00|  
-|12.1.02|01/12/02 00:00:00|  
-|11 12|11/mes actual/año actual 12:00:00|  
-|1112 12|11/12/año actual 12:00:00|  
-|h u hoy|fecha de hoy 00:00:00|  
-|h hora|fecha de hoy hora real|  
-|h 10:30|fecha de hoy 10:30:00|  
-|h 3:3:3|fecha de hoy 03:03:03|  
-|l o fecha de trabajo|la fecha de trabajo 00:00:00|  
-|l o lunes|Lunes de la semana actual 00:00:00|  
-|ma o martes|Martes de la semana actual 00:00:00|  
-|mi o miércoles|Miércoles de la semana actual 00:00:00|  
-|ju o jueves|Jueves de la semana actual 00:00:00|  
-|v o viernes|Viernes de la semana actual 00:00:00|  
-|s o sábado|Sábado de la semana actual 00:00:00|  
-|do o domingo|Domingo de la semana actual 00:00:00|  
-|ma 10:30|Martes de la semana actual 10:30:00|  
-|ma 3:3:3|Martes de la semana actual 03:03:03|  
+[!INCLUDE [datetimes](includes/datetimes.md)]
 
 ## <a name="entering-duration"></a>Introducción de duración
 

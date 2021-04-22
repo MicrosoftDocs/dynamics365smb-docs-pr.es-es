@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 14fd7402e1aec552de47cff07078d767d795e9a7
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 05b65f5b001259fff25d0f59dfc6267d9ee00c7f
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5388179"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5782258"
 ---
 # <a name="run-batch-jobs-and-xmlports"></a>Ejecutar trabajos por lotes y XMLports
 Un proceso es una rutina que procesa datos por lotes, por ejemplo, el proceso **Ajustar tipo cambio**. Hay procesos que realizan actividades contables periódicas como, por ejemplo, el asiento de regularización al final de un ejercicio. Muchos procesos realizan cálculos, como el cálculo de intereses, el ajuste tipo cambio y el cálculo de precios de venta.

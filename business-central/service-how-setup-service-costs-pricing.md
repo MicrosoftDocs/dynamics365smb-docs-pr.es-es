@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, cost, service order
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 12e116740d16b0638c086790d15fe4dd86fd05ef
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 44f6064d33d132f4a7d80bc8adc9dbff55d3a516
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5380853"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773710"
 ---
 # <a name="set-up-pricing-and-additional-costs-for-services"></a>Configurar precios y costes adicionales de servicios
 Puede utilizar las funciones de precios de [!INCLUDE[prod_short](includes/prod_short.md)] para configurar y personalizar su aplicación de modo que aplique y ajuste precios sobre productos de servicio, reparaciones y pedidos. Estas decisiones de precios se transmiten con facilidad al proceso de facturación.  

@@ -7,14 +7,14 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 52cdc0f2c2f25f35944b3437369c0e5b7eaf0e96
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 2c049e340cc5c573a9822e1976e3b5e2a1cb9142
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5388754"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5783114"
 ---
 # <a name="troubleshooting-self-service-sign-up"></a>Solución de problemas en el registro de autoservicio
 Registrarse en [!INCLUDE[prod_short](includes/prod_short.md)] es muy fácil y se puede realizar muy rápidamente. Puede crear una cuenta gratuita incluso si es una organización existente. Este recurso aborda los problemas que pueda tener durante el registro.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 11/26/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 23ab336997bdc89e6de617676e2c2f5e2bd689e5
-ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
+ms.openlocfilehash: ce26aa8923ffd706e0331a7641b443fdf99e25f3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5470492"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774769"
 ---
 # <a name="keyboard-shortcuts"></a>Métodos abreviados de teclado
 
@@ -229,7 +229,7 @@ El Explorador de roles le brinda una descripción general y acceso rápido a tod
 
 [Referencia rápida de teclado: solo PC](keyboard-shortcuts-cheatsheet.md)  
 [Características de asistencia](ui-accessibility.md)  
-[Introducción](product-get-started.md)  
+[Preparación para hacer negocios](ui-get-ready-business.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Preguntas más frecuentes](across-faq.md)  
 [Buscar movimientos](ui-find-entries.md)  

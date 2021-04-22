@@ -5,15 +5,15 @@ author: bholtorf
 ms.service: dynamics365-business-central
 ms.author: bholtorf
 ms.custom: na
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.reviewer: na
 ms.topic: conceptual
-ms.openlocfilehash: cdab3e07d2f522be01a6bd1096ae724d824b52bf
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: b7762f9da2a6e3acfbd57a4b5af4806ead710c9d
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385354"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777386"
 ---
 # <a name="responding-to-requests-about-personal-data"></a>Respuesta a las solicitudes de datos personales  
 Los asuntos de datos pueden solicitar varios tipos de acciones relacionadas con sus datos personales. Por ejemplo, según el Reglamento general de protección de datos (GDPR), los residentes de la UE tienen derecho a solicitar la exportación, eliminación y modificación de sus datos personales. Esto se conoce como *Solicitud de asunto de datos*. Si ha clasificado la confidencialidad de sus datos y está seguro de que son correctos, un administrador puede responder a las solicitudes utilizando las opciones de la pestaña **Privacidad de datos** en el área de trabajo **Director de TI**. Para obtener más información sobre la clasificación de datos y la clasificación de la confidencialidad de datos en [!INCLUDE[prod_long](includes/prod_long.md)], consulte [Clasificar datos](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) y [Clasificar confidencialidad de datos](admin-classifying-data-sensitivity.md).  

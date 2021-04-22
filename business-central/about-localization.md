@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: availability, localization
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 73b4dcdbf5e2300fe579e263a2b19f533b0f0be4
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 8a6d4bfbf4d61df0a42f9f866243c44f8809894b
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385104"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776427"
 ---
 # <a name="local-functionality-in-prod_long"></a>Funcionalidad local en [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -59,7 +59,7 @@ Para conocer la funcionalidad local de cada país o región, elija el vínculo r
 
 ## <a name="see-also"></a>Consulte también
 
-[Introducción](product-get-started.md)  
+[Preparación para hacer negocios](ui-get-ready-business.md)  
 [Conformidad](compliance/compliance-overview.md)  
 [Disponibilidad nacional/regional y traducciones admitidas](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 [Disponibilidad internacional de Microsoft Dynamics 365](/dynamics365/get-started/availability)  

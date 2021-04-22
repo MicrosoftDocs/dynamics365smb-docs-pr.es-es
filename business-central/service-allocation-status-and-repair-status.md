@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: resources, allocation, status, repairs
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 9aa7850f53c8fd4f5098feb4ebdba14282568b34
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 9cf3349d654a4e007079075c64e9e56654619810
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5386004"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772409"
 ---
 # <a name="allocation-status-and-repair-status-of-service-items"></a>Estado de asignación y estado de reparación de productos de servicio
 El estado de reparación y el estado de asignación de los movimientos de asignación de los productos de servicio están relacionados en Gestión de servicios. El estado de asignación cambia cuando se modifica el estado de reparación del producto de servicio a **Terminado** o **Parcialmente servido**, y cuando se convierte una oferta de servicio en un pedido de servicio. El estado de reparación del producto de servicio cambia cuando se cancela la asignación de producto de servicio o se reasigna el producto de servicio a otro recurso. Puede ver el estado de reparación de productos de servicio en la página **Tareas servicio** y actualizar el estado de reparación en el campo **Cód. estado reparación** en la página **Hoja trabajo prod. serv.** Puede ver el estado de asignación en el campo **Estado** de la página **Asignaciones recurso**.  

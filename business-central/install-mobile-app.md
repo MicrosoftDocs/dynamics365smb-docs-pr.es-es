@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: phone, tablet
-ms.date: 10/15/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cd6b60a284b060fd44339d6f9e10ac7acbb5d159
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: a751254ae127e3bcde2a5313ca6d5bcfe3ec1117
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5387229"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786228"
 ---
 # <a name="getting-business-central-on-your-mobile-device"></a>Obtener Business Central en el dispositivo móvil
 
-Acceda a los datos de [!INCLUDE[prod_short](includes/prod_short.md)] desde su dispositivo móvil. Puede navegar a través de sus datos empresariales, usar funciones como enviar a Excel u Office 365, ver gráficos y KPI actualizados, enviar por correo electrónico facturas y ofertas de ventas y hacer y adjuntar fotos con su cámara. Siga los pasos siguientes para descargar la aplicación y empezar.
+Acceda a los datos de [!INCLUDE[prod_short](includes/prod_short.md)] desde su dispositivo móvil. Puede navegar a través de sus datos empresariales, usar funciones como enviarlos a Excel o Microsoft 365, ver gráficos y KPI actualizados, enviar por correo electrónico facturas y ofertas de ventas y tomar y adjuntar fotos con su cámara. Siga los pasos siguientes para descargar la aplicación y empezar.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4Arje?rel=0]
 
@@ -64,7 +64,7 @@ Si está usando [!INCLUDE[prod_short](includes/prod_short.md)] en las instalacio
 ## <a name="see-also"></a>Consulte también
 
 [P+F sobre aplicaciones móviles](ui-mobile-faq.md)  
-[Introducción](product-get-started.md)  
+[Preparación para hacer negocios](ui-get-ready-business.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

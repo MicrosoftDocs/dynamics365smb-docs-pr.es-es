@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6ba2036d3a07e703c9949e1db1af0782d55ca84f
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f5b64de36e78de8c32a7881932abec539ab607da
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5384037"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5785221"
 ---
 # <a name="spain-local-functionality"></a>Funcionalidad local para España
 

@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 03/02/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d92fbe7c21da74c7818be4f249cdb373ed73539f
-ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
+ms.openlocfilehash: 805350a7b1213ec0e0d0550e5c5b63c557ee470a
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5493283"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771344"
 ---
 # <a name="customizing-business-central-online-using-extensions"></a>Personalizar Business Central Online con extensiones
 
@@ -79,6 +79,27 @@ Microsoft proporciona las extensiones siguientes:
 > [!NOTE]  
 > Puede estar atento a las nuevas extensiones de Microsoft y otros proveedores en [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
 
+
+## <a name="extensions-and-data-transfer"></a>Extensiones y transferencia de datos
+
+Puesto que las siguientes extensiones se comunican con otros servicios, pueden transferir datos fuera de la geografía del entorno de [!INCLUDE[prod_short](includes/prod_short.md)]:
+
+* Extensión de AMC Banking 365 Fundamentals
+* Analizador de imágenes
+* Predicción de pago atrasado
+* PayPal Payments Standard
+* Previsión de ventas e inventario
+* WorldPay Payments Standard
+
+Esto también se aplica a algunas funcionalidades de la aplicación base, como las siguientes funciones:
+
+* Previsión de flujo de efectivo
+* Servicio de intercambio de documentos
+* Conexiones de Dataverse
+* Servicio OCR
+* Online Map
+* CIF/NIF de la UE Servicio
+
 ## <a name="see-also"></a>Consulte también
 
 [Personalizar Business Central](ui-customizing-overview.md)  
@@ -88,7 +109,7 @@ Microsoft proporciona las extensiones siguientes:
 [Migrar datos de empresa de otros sistemas financieros](across-import-data-configuration-packages.md)  
 [Configurar la extensión Códigos postales de Reino Unido de GetAddress.io](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] Extensiones de otros proveedores](ui-extensions-other.md)  
-[Introducción](product-get-started.md)  
+[Preparación para hacer negocios](ui-get-ready-business.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

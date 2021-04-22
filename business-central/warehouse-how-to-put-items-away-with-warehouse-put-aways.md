@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2c5ba64769a98b5adfa3e71cc8c06b50a5ef1968
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: ed7374fb2d718417639a2f1f74c69bff61847d2e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5391929"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5782514"
 ---
 # <a name="put-items-away-with-warehouse-put-aways"></a>Ubicar productos con ubic. exist. almacén
 Si el almacén está configurado para requerir los procesos de ubicación y recepción de almacén, utilice la función de documentos de ubicación de almacén para controlar la ubicación de los productos.  

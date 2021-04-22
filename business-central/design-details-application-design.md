@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8a09aa00b23abab7849c4a5099132c9729d7592e
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f669944766894e57a772e229a436953953f3892c
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5389478"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5785194"
 ---
 # <a name="design-details"></a>Detalles de diseño
 En este contenido se incluye información técnica detallada acerca de las características de la aplicación complejas en [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -30,16 +30,14 @@ En este contenido se incluye información técnica detallada acerca de las carac
 |Conocer los principios básicos sobre las características de almacén avanzadas y básicas, y cómo se integran con otras características de la cadena de suministro.|[Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)|  
 |Conocer el diseño histórico y actual de la funcionalidad del seguimiento de productos y cómo se integra con el programa de reservas para incluir números de serie y de lote en los cálculos de disponibilidad.|[Detalles de diseño: Seguimiento de productos](design-details-item-tracking.md)|  
 |Conozca la función de la línea de registro en el diario general, incluidas simplificaciones recientes del diseño de la codeunit 12.|[Detalles de diseño: línea de registro en diario general](design-details-general-journal-post-line.md)|
-|Conozca el diseño para almacenar y registrar dimensiones, incluidos ejemplos de código sobre cómo migrar y actualizar el código de dimensión.|[Detalles de diseño: Movimientos de grupo de dimensiones](design-details-dimension-set-entries.md)| 
+|Conozca el diseño para almacenar y registrar dimensiones, incluidos ejemplos de código sobre cómo migrar y actualizar el código de dimensión.|[Detalles de diseño: Movimientos de grupo de dimensiones](design-details-dimension-set-entries-overview.md)|
 
-## <a name="see-also"></a>Consulte también  
- [Planificación](production-planning.md)   
- [Gestión de costes de inventario](finance-manage-inventory-costs.md)   
- [Gestión almacén](warehouse-manage-warehouse.md)   
- [Configuración de áreas de aplicación complejas mediante procedimientos recomendados](set-up-complex-application-areas-using-best-practices.md)  
- [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## <a name="see-also"></a>Consulte también
 
- ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+[Planificación](production-planning.md)  
+[Gestión de costes de inventario](finance-manage-inventory-costs.md)  
+[Gestión de almacenes](warehouse-manage-warehouse.md)  
+[Configuración de áreas de aplicación complejas mediante procedimientos recomendados](set-up-complex-application-areas-using-best-practices.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

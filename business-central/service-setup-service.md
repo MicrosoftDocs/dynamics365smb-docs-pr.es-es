@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service items, repairs, maintenance, fix
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fdb540fa5fbbf91da2b59f71b3523fd5c702c3bd
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 8bd4d28dd5d77c998cf2404594da115e9c95077f
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5391379"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5778103"
 ---
 # <a name="setting-up-service-management"></a>Configurar la gestión de servicios
 Para poder utilizar las funciones de la gestión de servicios en [!INCLUDE[prod_short](includes/prod_short.md)], hay algunos parámetros que debe configurar. Por ejemplo, puede establecer códigos para servicios estándar, síntomas y códigos de defectos, y los productos de servicio y tipos de productos de servicio que requieran las necesidades de servicio al cliente de su empresa.  
@@ -43,7 +43,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 
 ## <a name="see-also"></a>Consulte también .
 [Gestión de servicios](service-service.md)  
-[Introducción](product-get-started.md)  
+[Preparación para hacer negocios](ui-get-ready-business.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

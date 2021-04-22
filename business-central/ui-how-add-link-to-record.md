@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6aa7018a43db8c663c209894e118518c3de2f7cf
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 3acc0113cb14170b84363ab40a803da8b7551c75
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393893"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771140"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Administrar archivos adjuntos, vínculos y notas en fichas y documentos
 
@@ -26,7 +26,9 @@ Para ver o cambiar cualquiera de estos tipos de información adjunta, primero de
 Los archivos adjuntos, vínculos y notas permanecen adjuntos a medida que la ficha o el documento se procesan en otros estados, por ejemplo, desde un pedido de ventas en curso hasta una factura de ventas registrada. Sin embargo, ninguno de los tipos de archivos adjuntos se envían del sistema, por ejemplo, al imprimir o al guardar en un archivo.
 
 > [!NOTE]
-> Cuando envía y factura parcialmente un pedido de venta o un pedido de compra, el archivo adjunto solo se adjuntará a la factura final de ese pedido. Del mismo modo, cuando factura con la función Fraccionamientos, el archivo adjunto solo se adjunta a los movimientos contables del documento, pero no para los movimientos de aplazamiento.
+> Cuando envía y factura parcialmente un pedido de venta o de compra, el archivo adjunto solo se adjuntará a la factura final del pedido. Del mismo modo, cuando factura con la característica Fraccionamientos, el archivo adjunto se adjunta a los movimientos contables del documento, pero no para los movimientos de aplazamiento.
+>
+> Si elimina un pedido antes de que se facture, el archivo adjunto también se elimina. Cuando factura pedidos de compra mediante la acción Traer albaranes de una factura de compra, el archivo adjunto de los pedidos de compra no se agrega a la factura de compra.
 
 ## <a name="to-attach-a-file-to-a-purchase-invoice"></a>Para adjuntar un archivo a una factura de compra
 Puede adjuntar cualquier tipo de archivo, que contenga texto, imagen o vídeo, a una ficha o documento. Esto es útil, por ejemplo, cuando desea almacenar la factura de un proveedor como un archivo PDF en la factura de compra relacionada en [!INCLUDE[prod_short](includes/prod_short.md)].

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5f51e65930303cf3600edf54c2056b2bd938e718
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: e18566a05a9580c53329d95f52a6e197807e30b3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381043"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786253"
 ---
 # <a name="set-up-company-consolidation"></a>Configuración de la consolidación de empresas
 
@@ -30,6 +30,7 @@ En función de la complejidad de sus negocios, hay dos formas de configurar la c
 
 ## <a name="simple-consolidation-setup"></a>Configuración de consolidación sencilla
 
+[!INCLUDE [2021_releasewave1](includes/2021_releasewave1.md)]
 Si su consolidación es directa, por ejemplo porque es propietario de la totalidad de las empresas a consolidar, la guía de configuración asistida **Consolidación de la empresa** le ayudará con los pasos siguientes:
 
 * Indique si crear una nueva empresa consolidada, o si consolidar los datos en una empresa que ya haya creado para la consolidación. La empresa no debe contener transacciones.

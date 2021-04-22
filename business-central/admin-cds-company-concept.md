@@ -8,24 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: CDS, , integration, sync
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f218b50e40f6bb0e8e9ab3be8fcd00d23b1adbe2
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: abeab28a87c395328accfd850a0753649515f8dc
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378728"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773341"
 ---
 # <a name="data-ownership-models"></a>Modelos de propiedad de datos
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
-[!INCLUDE[prod_short](includes/cds_long_md.md)] requiere que especifique un propietario para los datos que almacena. Para más información, vea [Propiedad de la entidad](https://docs.microsoft.com/powerapps/maker/common-data-service/types-of-tables#table-ownership) en la documentación de Power Apps. Cuando configura la integración entre [!INCLUDE[prod_short](includes/cds_long_md.md)] y [!INCLUDE[prod_short](includes/prod_short.md)], debe elegir uno de los dos modelos de propiedad para los registros que están sincronizados:
-
-* Equipo 
-* Persona (usuario)
-
-Las acciones que se pueden realizar en estos registros se pueden controlar a nivel de usuario. Para más información, vea [Tablas de usuario y equipo](https://docs.microsoft.com/powerapps/developer/common-data-service/user-team-tables). Recomendamos el modelo de propiedad Equipo porque facilita la administración de la propiedad de varias personas.
+[!INCLUDE[prod_short](includes/cds_long_md.md)] requiere que especifique un propietario para los datos que almacena. Para más información, consulte [Tipos de tablas](/powerapps/maker/data-platform/types-of-entities) en la documentación de Power Apps. Cuando configura la integración entre [!INCLUDE[prod_short](includes/cds_long_md.md)] y [!INCLUDE[prod_short](includes/prod_short.md)], debe elegir la propiedad **Usuario o equipo** para los registros que están sincronizados. Las acciones que se pueden realizar en estos registros se pueden controlar a nivel de usuario. <!--We recommend the Team ownership model because it makes it easier to manage ownership for multiple people.NO LONGER TRUE IN DATAVERSE-->
 
 ## <a name="team-ownership"></a>Propiedad de equipo
 En [!INCLUDE[prod_short](includes/prod_short.md)], una empresa es una tabla legal y comercial que ofrece formas de proteger y visualizar datos comerciales. Los usuarios siempre trabajan en el contexto de una empresa. Lo más cerca que [!INCLUDE[prod_short](includes/cds_long_md.md)] llega a este concepto es la tabla de unidad de negocio, que no tiene implicaciones legales o comerciales.

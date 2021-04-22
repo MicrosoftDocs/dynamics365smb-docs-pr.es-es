@@ -1,5 +1,5 @@
 ---
-title: Crear una factura o un pedido de venta
+title: Facturar ventas
 description: Describe cómo crear un recibo, o una factura o un pedido de venta, para registrar el acuerdo con un cliente para vender productos con condiciones específicas.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 01/25/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 625259457528ed79b863604e65a55ff63a879ec3
-ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
+ms.openlocfilehash: c43d72e3e87c5a9a9c8512c687a480f3bcd37a43
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5470417"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5778802"
 ---
 # <a name="invoice-sales"></a>Facturar ventas
 
@@ -31,23 +31,20 @@ En todos los demás aspectos, los pedidos de venta y las facturas de venta funci
 
 Puede negocias con el cliente creando primero creando una oferta de venta, que puede convertir en una factura de venta cuando acuerde la venta. Para obtener más información, consulte [Crear ofertas de ventas](sales-how-make-offers.md).
 
+## <a name="create-sales-invoices"></a>Crear factura de venta
+
 Si el cliente decide comprar, registre la factura de venta para crear los movimientos de cantidad y valor relacionados. Cuando registre la factura de venta, también puede enviar por correo electrónico el documento como un PDF anexo. Puede tener el cuerpo de correo electrónico rellenado con un resumen de la factura y la información de pagos, como un vínculo a PayPal. Para obtener más información, vea [Enviar documentos por correo electrónico](ui-how-send-documents-email.md). Cuando el cliente paga la factura, puede registrar ese pago de diferentes maneras, según el tamaño y los flujos de trabajo preferidos de su organización. Para obtener más información, vea la sección [Registrar pagos](#registering-payments).  
 
-
-Puede corregir o cancelar fácilmente una factura de venta registrada antes de que se pague. Por ejemplo, esto es útil si se desea corregir un error de escritura o si el cliente solicita un cambio temprano en el proceso de pedido. Para obtener más información, vea [Corregir o cancelar las facturas de venta sin abonar](sales-how-correct-cancel-sales-invoice.md) Si la factura de venta registrada se ha pagado, deberá crear un abono de venta para revertir la venta. Para obtener más información, vea [Procesar devoluciones de ventas o cancelaciones](sales-how-process-sales-returns-cancellations.md).
-
-La ficha de producto puede ser del tipo **Inventario**, **Servicio** y **No inventario** para especificar si el producto representa una unidad de inventario físico, una unidad de tiempo de mano de obra o una unidad física no guardada en el inventario. Para obtener más información, vea [Registrar nuevos productos](inventory-how-register-new-items.md). El proceso de la factura de venta es el mismo para los tres tipos de producto.
+Las fichas de productos pueden ser del tipo **Inventario**, **Servicio** y **No inventario** para especificar si el producto representa una unidad de inventario físico, una unidad de tiempo de mano de obra o una unidad física no guardada en el inventario. Para obtener más información, vea [Registrar nuevos productos](inventory-how-register-new-items.md). El proceso de la factura de venta es el mismo para los tres tipos de producto.
 
 Puede rellenar los campos de clientes en la factura de venta de dos formas en función de si el cliente ya está registrado. Consulte el paso 2 del siguiente procedimiento.
 
-## <a name="to-create-a-sales-invoice"></a>Para crear una factura de venta
+### <a name="to-create-a-sales-invoice"></a>Para crear una factura de venta
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Facturas venta** y luego elija el enlace relacionado.  
 2. En el campo **Cliente**, escriba el nombre de un cliente existente.
 
-    Otros campos de la página **Factura venta** contienen información estándar sobre el cliente seleccionado.  
-
-    Si el cliente no está registrado, realice los pasos siguientes:
+   Otros campos de la página **Factura venta** contienen información estándar sobre el cliente seleccionado. Si el cliente no está registrado, realice los pasos siguientes:
 
     1. En el campo **Cliente**, escriba el nombre del cliente nuevo.
     2. En el cuadro de diálogo de registro de nuevos clientes, haga clic en el botón **Sí**.
@@ -80,18 +77,16 @@ Puede rellenar los campos de clientes en la factura de venta de dos formas en fu
     El valor del campo **Importe línea** se calculará como *Precio venta* x *Cantidad*.  
 
     El precio y el importe de las líneas tienen IVA o no, dependiendo de qué seleccione en el campo **Precios incluyendo IVA** en la ficha del cliente.  
-7. Si desea ofrecer un descuento, en la línea de ventas, introduzca un porcentaje en el campo **% de descuento de línea**. El valor del campo **Importe de línea** se actualiza según corresponde.  
+7. Si desea ofrecer un descuento, introduzca un porcentaje en el campo **% Descuento línea**. El valor del campo **Importe de línea** se actualiza según corresponde.  
 
-    Si hay configurados precios de producto especiales en la ficha de cliente o de producto, el precio y el importe de la línea de venta se actualizan automáticamente si se cumplen los criterios acordados para el precio. Para más información, vea [Registrar acuerdos de pago, descuentos y precios de venta](sales-how-record-sales-price-discount-payment-agreements.md).  
+    Si hay configurados precios de producto especiales en la ficha desplegable **Precios venta y descuentos línea ventas** en la ficha del producto o en la del cliente, el precio y el importe de la línea de venta se actualizan automáticamente si se cumplen los criterios acordados para el precio. Para más información, vea [Registrar acuerdos de pago, descuentos y precios de venta](sales-how-record-sales-price-discount-payment-agreements.md).  
 8. Repita los pasos 9 a 12 para cada producto o cargo que desee facturar al cliente.  
 
     Los campos de totales debajo de las líneas se actualizan automáticamente a medida que se crean o modifican líneas para visualizar los importes que se registrarán en los extractos.
 
     > [!NOTE]
-    > En casos muy raros, los importes registrados pueden desviarse de lo que se muestra en los campos de totales. Esto se debe normalmente a los cálculos de redondeo en relación con el IVA o el impuesto de venta.
-    >
-    > Para verificar los importes que se registrarán realmente, puede utilizar la página **Estadísticas**, que tiene en cuenta los cálculos de redondeo. Además, si selecciona la acción **Liberar**, los campos de totales se actualizarán para incluir los cálculos de redondeo.
-9. Opcionalmente, en el campo **Importe de descuento en factura**, especifique un importe que se debe descontar del valor que aparece en el campo **Total impuestos incluidos**.
+    > En casos muy raros, los importes registrados pueden desviarse de lo que se muestra en los campos de totales. Esto se debe normalmente a los cálculos de redondeo en relación con el IVA o el impuesto de venta.<br /><br />Para verificar los importes que se registrarán realmente, puede utilizar la página **Estadísticas**, que tiene en cuenta los cálculos de redondeo. Además, si selecciona la acción **Liberar**, los campos de totales se actualizarán para incluir los cálculos de redondeo.
+9. En el campo **Importe descuento factura**, especifique un importe que se debe descontar del valor que aparece en el campo **Total impuesto incl.** en la parte inferior de la factura.
 
     Si ha configurado descuentos en factura para el cliente, el valor porcentual especificado se inserta automáticamente en el campo **% descuento en factura** si se cumplen los criterios, y el importe relacionado se inserta en el campo **Descuento en factura excluyendo impuesto** . Para más información, vea [Registrar acuerdos de pago, descuentos y precios de venta](sales-how-record-sales-price-discount-payment-agreements.md).  
 10. Cuando las líneas de la factura de venta ya estén completas, seleccione la acción **Registrar y enviar**.  
@@ -103,6 +98,14 @@ El producto relacionado y los movimientos de cliente se han creado ahora en su s
 ### <a name="calculating-invoice-discounts-on-sales"></a>Calcular descuentos en factura para ventas
 
 [!INCLUDE [sales-invoice-discounts](includes/sales-invoice-discounts.md)]
+
+## <a name="posted-invoices"></a>Facturas registradas
+
+[!INCLUDE [posted-invoices](includes/posted-invoices.md)]
+
+Puede corregir o cancelar fácilmente una factura de venta registrada antes de que se pague. Por ejemplo, esto es útil si se desea corregir un error de escritura o si el cliente solicita un cambio temprano en el proceso de pedido. Para obtener más información, vea [Corregir o cancelar las facturas de venta sin abonar](sales-how-correct-cancel-sales-invoice.md) Si la factura de venta registrada se ha pagado, deberá crear un abono de venta para revertir la venta. Para obtener más información, vea [Procesar devoluciones de ventas o cancelaciones](sales-how-process-sales-returns-cancellations.md).  
+
+[Abra la lista **Histórico facturas venta**](https://businesscentral.dynamics.com/?page=143) en [!INCLUDE [prod_short](includes/prod_short.md)].
 
 ## <a name="registering-payments"></a>Registro de pagos
 

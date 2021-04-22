@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 08b7f6c092267b965af491cd80144950db138c3d
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 1049043da0fd4cd5db2dc76f41a3c3df0402bbfc
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5388704"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786812"
 ---
 # <a name="reconcile-bank-accounts"></a>Conciliar cuentas bancarias
 
@@ -40,11 +40,11 @@ Cuando el valor en el campo **Saldo total** en el panel **Líneas de extracto de
 
 Cualquier línea que no pueda coincidir, indicada por un valor en el campo **Diferencia**, permanecerá en la página **Conciliación banco** después de registrar. Representan algún tipo de discrepancia que debe resolver antes de completar la conciliación de banco. Situaciones comerciales típicas que pueden causar diferencias:
 
-|Diferencia|Motivo|Resolución|
-|-|-|
-|Una transacción en el banco interno no figura en el extracto de cuenta.|La transacción bancaria no se realizó aunque se realizó un registro en [!INCLUDE[prod_short](includes/prod_short.md)].|Realice la transacción de dinero que falta (o solicite a un deudor que la haga) y luego vuelva a importar el archivo de extracto de cuenta o introduzca la transacción manualmente.|
-|Una transacción en el extracto de cuenta no existe como documento o línea de diario en [!INCLUDE[prod_short](includes/prod_short.md)].|Se realizó una transacción bancaria sin un registro correspondiente en [!INCLUDE[prod_short](includes/prod_short.md)], por ejemplo, un registro de línea de diario para un gasto.|Crea y registra el movimiento que falta. Para obtener información sobre una forma rápida de iniciar esto, consulte [Para crear movimientos faltantes para que coincidan con las transacciones bancarias con](bank-how-reconcile-bank-accounts-separately.md#to-create-missing-ledger-entries-to-match-bank-statement-lines-with).|
-|Una transacción en el banco interno corresponde a una transacción bancaria, pero cierta información es demasiado diferente para dar una coincidencia.|La información, como el importe o el nombre del cliente, se ingresó de manera diferente en relación con la transacción bancaria o el registro interno.|Revise la información y luego haga coincidir manualmente las dos. De manera opcional, corrija la falta de coincidencia de información.||
+| Diferencia | Motivo | Resolución |
+|------------|--------|------------|
+| Una transacción en el banco interno no figura en el extracto de cuenta. | La transacción bancaria no se realizó aunque se realizó un registro en [!INCLUDE[prod_short](includes/prod_short.md)]. | Realice la transacción de dinero que falta (o solicite a un deudor que la haga) y luego vuelva a importar el archivo de extracto de cuenta o introduzca la transacción manualmente. |
+| Una transacción en el extracto de cuenta no existe como documento o línea de diario en [!INCLUDE[prod_short](includes/prod_short.md)]. | Se realizó una transacción bancaria sin un registro correspondiente en [!INCLUDE[prod_short](includes/prod_short.md)], por ejemplo, un registro de línea de diario para un gasto. | Crea y registra el movimiento que falta. Para obtener información sobre una forma rápida de iniciar esto, consulte [Para crear movimientos faltantes para que coincidan con las transacciones bancarias con](bank-how-reconcile-bank-accounts-separately.md#to-create-missing-ledger-entries-to-match-bank-statement-lines-with). |
+| Una transacción en el banco interno corresponde a una transacción bancaria, pero cierta información es demasiado diferente para dar una coincidencia. | La información, como el importe o el nombre del cliente, se ingresó de manera diferente en relación con la transacción bancaria o el registro interno. | Revise la información y luego haga coincidir manualmente las dos. De manera opcional, corrija la falta de coincidencia de información. |
 
 Debe resolver las diferencias, por ejemplo, creando movimientos que faltan y corrigiendo información que no coincide, o haciendo transacciones de dinero que faltan, hasta que se complete y se registre la conciliación de banco.
 
@@ -57,7 +57,10 @@ Puede rellenar el panel **Líneas de extracto bancario** en la página **Concili
 
 El panel de las **Líneas del extracto de cuenta** completará con las transacciones bancarias de acuerdo con un archivo o secuencia importados proporcionados por el banco.
 
-Para habilitar tanto la importación de extractos bancarios como la fuente de banco, primero debe configurar y habilitar el servicio Envestnet Yodlee Bank Feeds y, a continuación, vincular sus cuentas bancarias a las cuentas bancarias en línea relacionadas. Para obtener más información, vea [Configurar el servicio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
+Para habilitar tanto la importación de extractos bancarios como la fuente de banco, primero debe configurar y habilitar el servicio Envestnet Yodlee Bank Feeds y, a continuación, vincular sus cuentas bancarias a las cuentas bancarias en línea relacionadas. Para obtener más información, vea [Configurar el servicio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).  
+
+> [!TIP]
+> También puede importar archivos de extractos de cuenta en formato delimitado por coma o punto y coma (.CSV). Use la configuración asistida **Configurar un formato de archivo de extracto de cuenta** para definir formatos de importación de extractos de cuenta y adjuntar el formato a una cuenta bancaria. A continuación, puede usar estos formatos cuando importe extractos de cuenta en la página **Conciliación de cuentas bancarias**.
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Conciliación banco** y luego elija el enlace relacionado.
 2. Seleccione la acción **Nuevo**.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 8dc64aeb028fdbc964bb7124f578014d3e6f0cde
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 52cfb4ba4ca0ba645ecca48e08d63722c2c5c5b4
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393886"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771115"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Agregar campos a un diseño de informe de Word
 Un conjunto de datos de informe puede constar de campos que muestran etiquetas, datos e imágenes. Este tema describe el procedimiento para agregar campos de un conjunto de datos de informe a un diseño de informe de Word para un informe. Agregue campos al informe mediante el elemento XML personalizado de Word y mediante la adición de controles de contenido que asignen los campos al conjunto de datos del informe. La adición de campos requiere tener conocimientos del conjunto de datos del informe, de forma que pueda identificar los campos que desea agregar al diseño.  
@@ -31,7 +31,7 @@ Un conjunto de datos de informe puede constar de campos que muestran etiquetas, 
   
 2.  Mostrar la ficha **Desarrollador** en la cinta de Microsoft Word.  
   
-     De forma predeterminada, la pestaña **Desarrollador** no se muestra en la cinta de opciones. Para obtener más información, vea [Mostrar la pestaña de desarrollador en la cinta de opciones](https://go.microsoft.com/fwlink/?LinkID=389631).  
+     De forma predeterminada, la pestaña **Desarrollador** no se muestra en la cinta de opciones. Para obtener más información, consulte [Mostrar la pestaña de desarrollador en la cinta de opciones](/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon).  
   
 3.  En la pestaña **Desarrollador**, elija **Panel de asignación XML**.  
   
@@ -105,7 +105,7 @@ La tabla siguiente proporciona un resumen simplificado del XML de un elemento XM
 |`..</DataItem1>`<br /><br /> `</WordReportXmlPart>`|Elemento de cierre.|  
   
 ### <a name="custom-xml-part-in-word"></a>Elemento XML personalizado en Word  
- En Word, se abre el elemento XML personalizado en el panel **Asignación XML** y, a continuación, se usa el panel para asignar elementos a los controles de contenido en el documento de Word. El panel **Asignación XML** está disponible desde la pestaña **Desarrollador** (para obtener más información, consulte [Visualizar la pestaña Desarrollador en la cinta de opciones](https://go.microsoft.com/fwlink/?LinkID=389631)).  
+ En Word, se abre el elemento XML personalizado en el panel **Asignación XML** y, a continuación, se usa el panel para asignar elementos a los controles de contenido en el documento de Word. El panel **Asignación XML** está disponible desde la pestaña **Desarrollador** (para obtener más información, consulte [Visualizar la pestaña Desarrollador en la cinta de opciones](/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon)).  
   
  Los elementos del panel **Asignación XML** aparecen en una estructura similar a la del origen XML. Los campos de etiqueta están agrupados en un elemento **Etiquetas** y de datos común, y las columnas están organizadas en una estructura jerárquica que corresponde al origen XML, con las columnas enumeradas en orden alfabético. Los elementos se identifican por su nombre tal como se define mediante la propiedad Nombre del Diseñador del conjunto de datos de informes en ADD INCLUDE<!--[!INCLUDE[nav_dev_short](../../includes/nav_dev_short_md.md)]-->.  
   

@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: db43728efb4c57a60f23a62c03246f1059373a54
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 6d568ac9bebb99818f9a47119a177d9d704d3e74
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379378"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774516"
 ---
 # <a name="use-approval-workflows"></a>Usar flujos de trabajo de aprobación del producto
 Cuando un registro, como un documento de compra o una ficha de cliente, necesita ser aprobado por alguien de su organización, enviará una solicitud de aprobación como parte de un flujo de trabajo. En función de la configuración del flujo de trabajo, el aprobador adecuado recibirá notificación sobre que el registro requiere su aprobación.
@@ -25,7 +25,7 @@ Los flujos de trabajo de aprobación se crean en la página **Flujo de trabajo**
 
 Además de los flujos de trabajo de aprobación descritos en este tema, puede realizar otras tareas de flujo de trabajo. Para obtener más información, [Uso de flujos de trabajo](across-use-workflows.md).
 
-Los flujos de trabajo de aprobación más importantes para los documentos de compras y ventas, los diarios de pago y las fichas de clientes y productos están listos para iniciar como guías. Para obtener más información, vea [Introducción](product-get-started.md).
+Los flujos de trabajo de aprobación más importantes para los documentos de compras y ventas, los diarios de pago y las fichas de clientes y productos están listos para iniciar como guías. Para obtener más información, vea [Preparación para hacer negocios](ui-get-ready-business.md).
 
 ## <a name="to-request-approval-of-a-record"></a>Para solicitar la aprobación de un registro
 La siguiente tarea se realizado por un usuario de aprobación.

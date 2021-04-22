@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont04
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
-ms.date: 11/16/2020
+ms.date: 04/01/2021
 ms.author: mikebc
-ms.openlocfilehash: debbf621795564344f11609236b2faac397c6762
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 7ed2b43a1269e97e22de78ff3c6a9a1e0666eb3a
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5386804"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772234"
 ---
 # <a name="searching-and-filtering-faq"></a>Búsqueda y filtrado de preguntas frecuentes
 Este artículo responde a preguntas comunes que puede tener acerca de las acciones buscar y filtrar.
@@ -59,7 +59,7 @@ En Microsoft, escuchamos constantemente los comentarios de nuestra comunidad div
 [Ordenar, buscar y filtrar](ui-enter-criteria-filters.md)  
 [Búsqueda de páginas e información con Dígame](ui-search.md)  
 [Búsqueda de páginas con el explorador de roles](ui-role-explorer.md)  
-[Introducción](product-get-started.md)  
+[Preparación para hacer negocios](ui-get-ready-business.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

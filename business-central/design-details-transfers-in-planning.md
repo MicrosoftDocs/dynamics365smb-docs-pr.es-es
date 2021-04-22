@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, transfer, sku, locations, warehouse
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 72755bb2b83a3560c79cd004987003d3d7585f6b
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 64e3a85a4a57a229d23070d7453729b46979d97e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381572"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5785165"
 ---
 # <a name="design-details-transfers-in-planning"></a>Detalles de diseño: Transferencias en planificación
 Los pedidos de transferencia también son un origen de suministro al trabajar en el nivel de UA. Al usar varias ubicaciones (almacenes), el sistema de reposición de UA se puede configurar en Transferencia, lo que implica que se realiza la reposición de la ubicación mediante la transferencia de mercancías desde otra ubicación. En una situación con varios almacenes, las empresas pueden tener una cadena de transferencias donde el aprovisionamiento al almacén VERDE se transfiere de AMARILLO, y el aprovisionamiento a AMARILLO se transfiere desde ROJO, etc. En el principio de la cadena hay un sistema de reposición de Ord. prod. o Compra.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: eadfc0d2e2dc89f1445a4def8f1ceb33cf7fae55
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 20035f02f2a103123a1f0f8ced0c8f1cc8b587fd
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5391604"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771784"
 ---
 # <a name="find-your-warehouse-assignments"></a>Buscar las asignaciones de almacén
 Para buscar las asignaciones de almacén, abra la página de la ficha de un artículo seleccionado. Si se han creado las instrucciones del almacén, las líneas de tipo Traer y colocar son visibles y puede empezar a trabajar en una asignación. En algunos almacenes, el administrador puede haber asignado instrucciones específicas a cada empleado. Para obtener más información, vea [Configurar los empleados de almacén](warehouse-how-to-set-up-warehouse-employees.md).

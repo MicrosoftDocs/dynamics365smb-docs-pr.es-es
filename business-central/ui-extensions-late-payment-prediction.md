@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 32532dfb1d78f27dc2dac8b61cfc8d0c47e6b6b4
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 93889510c01a2feecface046440de19dcb1e83eb
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5386854"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5787357"
 ---
 # <a name="the-late-payment-prediction-extension"></a>Extensión de Predicción de pagos atrasados  
 La gestión efectiva de los cobres es importante para el estado financiero general de una empresa. La extensión de Predicción de pagos atrasados puede ayudarle a reducir los cobros pendientes y afinar su estrategia de cobros puesto que predice si las facturas de ventas se pagarán a tiempo. Por ejemplo, si se predice que un pago se retrasará, puede decidir ajustar los términos de pago o el método de pago para el cliente.
@@ -108,7 +108,7 @@ También puede crear su propio servicio web predictivo basado en un modelo públ
 8. En la ficha desplegable **Credenciales de mi modelo**, introduzca la URL y la clave de API para su modelo.  .  
 
 ## <a name="see-also"></a>Consulte también  
-[Documentación de Azure Machine Learning Studio](https://go.microsoft.com/fwlink/?linkid=861765)  
+[Documentación de Azure Machine Learning Studio](/azure/machine-learning/classic/)  
 [Personalizar Business Central con extensiones](ui-extensions.md)  
 [[!INCLUDE[prod_long](includes/prod_long.md)]](index.md)  
 

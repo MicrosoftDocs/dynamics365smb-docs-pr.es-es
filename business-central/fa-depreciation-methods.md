@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 02/22/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 59bf311e24f11e062a243026ec35ca4c7b779952
-ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
+ms.openlocfilehash: 9e531a4f304829b0549fbe21e8d671708373ab22
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5493333"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774160"
 ---
 # <a name="depreciation-methods-for-fixed-assets"></a>Métodos de amortización de activos fijos
 
@@ -154,16 +154,16 @@ Método de cálculo:
 
 La fórmula para calcular los importes de amortización es:  
 
-*DA* = *BV* x (1 – (1 – P)<sup>D<sup>) 
+*IA* = *VN* x (1 – (1 – P)<sup>D</sup>)
 
 Los valores de amortización son:  
 
 | Fecha | Cálculo |
 | --- | --- |
-| 30/06/20 |IA = 100.000,00 x (1 - (1 - 0,25)<sup>0,5<sup>) = 13.397,46 |
-| 31/12/20 |IA = 86.602,54 x (1 - (1 - 0,25)<sup>0,5<sup>) = 11.602,54 |
-| 30/06/21 |IA = 75.000,00 x (1 - (1 - 0,25)<sup>0,5<sup>) = 10.048,09 |
-| 31/12/21 |IA = 64.951,91 x (1 - (1 - 0,25)<sup>0,5<sup>) = 8.701,91 |
+| 30/06/20 |IA = 100 000,00 x (1 - (1 - 0,25)<sup>0,5</sup>) = 13 397,46 |
+| 31/12/20 |IA = 86 602,54 x (1 - (1 - 0,25)<sup>0,5</sup>) = 11 602,54 |
+| 30/06/21 |IA = 75 000,00 x (1 - (1 - 0,25)<sup>0,5</sup>) = 10 048,09 |
+| 31/12/21 |IA = 64 951,91 x (1 - (1 - 0,25)<sup>0,5</sup>) = 8701,91 |
 
 ## <a name="db1sl-depreciation"></a>Amortización Rs1/L
 
@@ -205,7 +205,7 @@ Los movimientos contables de activos fijos son los siguientes:
 
 Método de cálculo:  
 
-* Año 1:  
+* Año 1 (2020):  
 
     *Importe regresivo: 25% de 100.000 = 25.000=12.500+12.500*  
 
@@ -373,7 +373,7 @@ Cuando introduzca un movimiento en B1 del diario general de activos fijos y acti
 [Activos fijos](fa-manage.md)  
 [Configurar activos fijos](fa-setup.md)  
 [Finanzas](finance.md)  
-[Introducción](product-get-started.md)  
+[Preparación para hacer negocios](ui-get-ready-business.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

@@ -8,22 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 01/18/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4c46aa4f920924c4b1d11f3d6ef636ce96feb22f
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 01354575a7d96017684fe885411be364058b57e4
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385554"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781461"
 ---
-# <a name="setting-up-prod_short"></a>Configurar [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="overview-of-tasks-to-set-up-prod_short"></a>Resumen de tareas para configurar [!INCLUDE[prod_short](includes/prod_short.md)]
 
-[!INCLUDE[prod_short](includes/prod_short.md)] incluye configuraciones estándar de la mayoría de procesos empresariales, pero puede cambiar la configuración para que se adapte a las necesidades de su organización.
+[!INCLUDE[prod_short](includes/prod_short.md)] incluye configuraciones estándar de la mayoría de procesos empresariales, pero puede cambiar la configuración para que se adapte a las necesidades de su organización.  
 
 Por ejemplo, para que su plan de cuentas se rellene previamente con varias cuentas de registro listas para usar. Por supuesto, puede cambiar el plan de cuentas para satisfacer sus necesidades. Para obtener más información, consulte [Finanzas](finance.md).
 
-Desde el ![icono de rueda dentada para abrir el menú Configuración](media/ui-experience/settings_icon_small.png), puede acceder a guías de configuración asistida que ayudan a configurar ciertos escenarios y agregar funciones a [!INCLUDE[prod_short](includes/prod_short.md)]. Para obtener información acerca de cómo acceder a todas las páginas de configuración manual y asistida, consulte [Preparación para hacer negocios](ui-get-ready-business.md).
+Desde el ![icono de rueda dentada para abrir el menú Configuración](media/ui-experience/settings_icon_small.png), puede acceder a guías de configuración asistida que ayudan a configurar ciertos escenarios y agregar funciones a [!INCLUDE[prod_short](includes/prod_short.md)]. Para obtener información acerca de cómo acceder a todas las páginas de configuración manual y asistida, consulte [Preparación para hacer negocios](ui-get-ready-business.md).  
+
+> [!NOTE]
+> [!INCLUDE [ua-checklist](includes/ua-checklist.md)]
 
 Alguna funcionalidad, general o de procesos empresariales específicos, se puede configurar manualmente además de la guía de configuración asistida. A continuación se enumera parte de la funcionalidad que puede configurar manualmente.
 
@@ -73,7 +76,7 @@ Algunas regiones requieren que sea el administrador en su suscripción [!INCLUDE
 [Gestión de almacenes](warehouse-manage-warehouse.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Crear nuevas en empresas en [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md)  
-[Introducción](product-get-started.md)  
+[Preparación para hacer negocios](ui-get-ready-business.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

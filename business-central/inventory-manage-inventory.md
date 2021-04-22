@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ce17373d3355c795c8a3c8d4c70aea904432b80e
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f72ef570151babaa9bf32150c214e82374ddd0ec
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5389354"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780762"
 ---
 # <a name="inventory"></a>Grupos contables inventario
 Por cada producto físico que se comercialice, debe crear una ficha de producto del tipo **Inventario**. Los productos que ofrece a los clientes pero que no mantiene en el inventario, puede registrarlos como productos del catálogo, y puede convertirlos a productos de inventario cuando sea necesario. Puede aumentar o reducir la cantidad de un producto en el inventario registrándolo directamente desde los movimientos de producto, por ejemplo, después de un recuento físico o si no registra compras.
@@ -51,7 +51,6 @@ La siguiente tabla describe las tareas relacionadas.
 |Ver la disponibilidad de productos por almacén, por periodo, por evento de venta o de compra, o por su uso en las L.M. de ensamblado o producción.|[Consultar la disponibilidad de los productos](inventory-how-availability-overview.md)|
 |Transferir productos de inventario entre almacenes con pedidos de transferencia, para administrar las actividades de almacén o con el diario de reclasificación de productos.|[Transferir el inventario entre almacenes](inventory-how-transfer-between-locations.md)|
 |Reserve productos de inventario o entrantes para pedidos de venta, pedidos de servicio, pedidos de ensamblado u órdenes de producción.|[Reservar artículos](inventory-how-to-reserve-items.md)|
-|Configure la propia descripción de un proveedor o cliente para un producto, de modo que pueda insertar fácilmente su descripción de producto en los documentos comerciales.|[Usar referencias cruzadas de producto](inventory-how-use-item-cross-refs.md)|
 |Asigne números de serie o números de lote a cualquier documento o línea de diario saliente o entrante, por ejemplo, para el seguimiento de productos en caso de recuperaciones.|[Trabajar con números de lote y de serie](inventory-how-work-item-tracking.md)|
 |Configure la descripción del producto del vendedor o del cliente en su ficha de artículo para que pueda insertar rápidamente la descripción del producto en los documentos comerciales.|[Usar referencias cruzadas de producto](inventory-how-use-item-cross-refs.md)|
 |Encuentre donde se usó un número de serie o de lote en su cadena de suministro, por ejemplo, en situaciones de recuperación.|[Realizar seguimiento de productos seguidos](inventory-how-to-trace-item-tracked-items.md)|

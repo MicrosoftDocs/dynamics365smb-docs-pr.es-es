@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 11d5971c2ba090e095d70d54afcc9e6221cd7cdd
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: e5b658d733ab61db2f5e78a1cdcde0dcb99b2054
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5382059"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5775214"
 ---
 # <a name="export-account-schedules-to-asc-format"></a>Exportar esquemas de cuentas a formato ASC
 Los datos del esquema de cuentas se pueden exportar a un formato de archivo digital que ha aprobado la administración fiscal local para los siguientes informes anuales:  

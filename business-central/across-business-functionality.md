@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3d073a17f900b3f1691c6b108af021aec6b93fd3
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: c24e6142780fa5935576320a0d5edf683caf0a9f
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5384954"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776277"
 ---
 # <a name="business-functionality"></a>Funciones empresariales
 [!INCLUDE[prod_short](includes/prod_short.md)] proporciona funciones para procesos empresariales comunes de las pequeñas y medianas empresas, principalmente de los servicios mayoristas y profesionales. Sin embargo, también se admiten procesos más complejos, por ejemplo, montaje, fabricación, servicio, y administración dirigida de almacén.
@@ -47,7 +47,7 @@ ms.locfileid: "5384954"
 [Explorar las capacidades de Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/capabilities/)  
 [Administración](admin-setup-and-administration.md)  
 [Configurar [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Introducción](product-get-started.md)  
+[Preparación para hacer negocios](ui-get-ready-business.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

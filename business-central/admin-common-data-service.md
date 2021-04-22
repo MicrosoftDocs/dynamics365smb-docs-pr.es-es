@@ -7,18 +7,18 @@ ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.date: 10/01/2020
-ms.openlocfilehash: 1cc9f712994c1b612b7e390a0281b823889a8bf9
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.date: 04/01/2021
+ms.openlocfilehash: 8ddf4413b6ecb35bcca9873ef4bb99db75642563
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378653"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773134"
 ---
 # <a name="integrating-with-microsoft-dataverse"></a>Integración con Microsoft Dataverse
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
-Las aplicaciones empresariales a menudo usan datos de más de un origen. [!INCLUDE[prod_short](includes/cds_long_md.md)] combina datos en un solo conjunto de lógica que facilita la conexión de otras aplicaciones de Dynamics 365, como [!INCLUDE[crm_md](includes/crm_md.md)] o su propia aplicación construida sobre [!INCLUDE[prod_short](includes/cds_long_md.md)], a [!INCLUDE[prod_short_md](includes/prod_short.md)]. Para obtener más información sobre [!INCLUDE[prod_short](includes/cds_long_md.md)], consulte [Qué es Dataverse](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro).
+Las aplicaciones empresariales a menudo usan datos de más de un origen. [!INCLUDE[prod_short](includes/cds_long_md.md)] combina datos en un solo conjunto de lógica que facilita la conexión de otras aplicaciones de Dynamics 365, como [!INCLUDE[crm_md](includes/crm_md.md)] o su propia aplicación construida sobre [!INCLUDE[prod_short](includes/cds_long_md.md)], a [!INCLUDE[prod_short_md](includes/prod_short.md)]. Para obtener más información sobre [!INCLUDE[prod_short](includes/cds_long_md.md)], consulte [Qué es Dataverse](/powerapps/maker/common-data-service/data-platform-intro).
 
 Los pasos siguientes proporcionan una visión general de los pasos de la integración de [!INCLUDE[prod_short](includes/cds_long_md.md)] con [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -32,7 +32,7 @@ Los pasos siguientes proporcionan una visión general de los pasos de la integra
 3. Sincronice los datos entre las aplicaciones. Para obtener más información, consulte [Sincronización de Business Central y Dataverse](admin-synchronizing-business-central-and-sales.md). 
 
 ## <a name="getting-started-with-prod_short"></a>Introducción a [!INCLUDE[prod_short](includes/cds_long_md.md)]
-Para comenzar con [!INCLUDE[prod_short](includes/cds_long_md.md)] necesitará una cuenta de Microsoft Power Apps. Si aún no tiene una cuenta de Power Apps, puede obtener una gratis visitando [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) y eligiendo el vínculo **Comenzar gratis**. Para obtener más información sobre cómo comenzar con [!INCLUDE[prod_short](includes/cds_long_md.md)], vea el módulo [Empezar con Dataverse](https://docs.microsoft.com/learn/modules/get-started-with-powerapps-common-data-service/) de Microsoft Learn.
+Para comenzar con [!INCLUDE[prod_short](includes/cds_long_md.md)] necesitará una cuenta de Microsoft Power Apps. Si aún no tiene una cuenta de Power Apps, puede obtener una gratis visitando [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) y eligiendo el vínculo **Comenzar gratis**. Para obtener más información sobre cómo comenzar con [!INCLUDE[prod_short](includes/cds_long_md.md)], consulte el módulo [Empezar con Dataverse](/learn/modules/get-started-with-powerapps-common-data-service/) de Microsoft Learn.
 
 ## <a name="bi-directional-or-uni-directional-data-synchronization"></a>Sincronización de datos bidireccional o unidireccional
 Dependiendo de las necesidades de su negocio, puede configurar la integración para sincronizar datos, hasta o desde una aplicación comercial de Dynamics 365 hasta otra o en ambas direcciones casi en tiempo real a través de [!INCLUDE[prod_short](includes/cds_long_md.md)]. Por ejemplo, si integra [!INCLUDE[prod_short](includes/prod_short.md)] con [!INCLUDE[crm_md](includes/crm_md.md)] mediante [!INCLUDE[prod_short](includes/cds_long_md.md)], un vendedor puede crear un pedido de ventas en [!INCLUDE[crm_md](includes/crm_md.md)] y el pedido se sincronizará con [!INCLUDE[prod_short](includes/prod_short.md)]. Por el contrario, desde [!INCLUDE[crm_md](includes/crm_md.md)], el vendedor puede ver información de [!INCLUDE[prod_short](includes/prod_short.md)] sobre la disponibilidad del artículo en el pedido. 

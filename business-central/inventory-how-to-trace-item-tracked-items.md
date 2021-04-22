@@ -1,6 +1,6 @@
 ---
-title: Cómo realizar un seguimiento de productos marcados para seguimiento | Documentos de Microsoft
-description: Puede ver donde se ha utilizado un producto marcado para seguimiento, incluso cómo y dónde se recibió o se produjo, transfirió, vendió, consumió o devolvió. También puede encontrar todas las instancias actuales de un número de serie o de lote específico en la base de datos. Puede hacerlo con las funciones Seguimiento de producto y Navegar.
+title: Realizar seguimiento de productos seguidos
+description: Puede ver donde se ha utilizado un producto marcado para seguimiento, incluso cómo y dónde se recibió o se produjo, transfirió, vendió, consumió o devolvió. También puede encontrar todas las instancias actuales de un número de serie o de lote específico en la base de datos. Puede hacerlo con las características Seguimiento de producto y Buscar movimientos.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 50de593aa3ff2416461aa4468f8c063c22f7b085
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: a425b974bf37b440de27f2b469694f9e8eac07de
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377678"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5785704"
 ---
 # <a name="trace-item-tracked-items"></a>Realizar seguimiento de productos seguidos
 Puede ver donde se ha utilizado un producto marcado para seguimiento, incluso cómo y dónde se recibió o se produjo, transfirió, vendió, consumió o devolvió. También puede encontrar todas las instancias actuales de un número de serie o de lote específico en la base de datos. Puede hacerlo con las características Seguimiento de producto y [Buscar movimientos](ui-find-entries.md).  
@@ -64,13 +64,15 @@ Estas funciones pueden ser especialmente útiles en controles de calidad en los 
 3. En la ficha desplegable **N.º de serie** y **N.º de lote**, introduzca los números de seguimiento de productos de los que desea realizar un seguimiento.  
 4. Elija la acción **Buscar** para buscar todos los casos números de serie o de lote en la base de datos.  
 
-## <a name="see-also"></a>Consulte también  
-[Grupos contables inventario](inventory-manage-inventory.md)  
-[Detalles de diseño: seguimiento de productos](design-details-item-tracking.md)
-[Detalles de diseño. Seguimiento y reservas de productos](design-details-item-tracking-and-reservations.md)  
+## <a name="see-also"></a>Consulte también
+
+[Inventario](inventory-manage-inventory.md)  
+[Trabajar con números de serie, de lote y de paquete](inventory-how-work-item-tracking.md)  
+[Detalles de diseño: Seguimiento de productos](design-details-item-tracking.md)  
+[Detalles de diseño: Seguimiento de productos y reservas](design-details-item-tracking-and-reservations.md)  
 [Reservar artículos](inventory-how-to-reserve-items.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-[Tutorial: seguimiento de números de serie/lote](walkthrough-tracing-serial-lot-numbers.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Tutorial: seguimiento de números de serie-lote](walkthrough-tracing-serial-lot-numbers.md)  
 [Buscar movimientos](ui-find-entries.md)  
 
 
