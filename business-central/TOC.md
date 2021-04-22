@@ -82,14 +82,13 @@
 ##### [Detalles de diseño: Cambios en codeunit 12: Asociación de variables globales para línea de registro en diario general](design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)  
 ##### [Detalles de diseño: Cambios en la codeunit 12: Cambios en los procedimientos de registro en el diario general](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)
 #### Detalles de diseño: Movimientos de grupo de dimensiones
-##### [Información general de los movimientos del grupo dimensiones](design-details-dimension-set-entries.md)
 ##### [Detalles de diseño: Resumen de Movimientos de grupo de dimensiones](design-details-dimension-set-entries-overview.md)  
 ##### [Detalles de diseño: Búsqueda de combinaciones de dimensiones](design-details-searching-for-dimension-combinations.md)  
 ##### [Detalles de diseño: Estructura de tablas](design-details-table-structure.md)  
 
 ## Intentarlo
 ### [Versiones de prueba y suscripciones](across-preview.md)
-### [Comenzar con Business Central](product-get-started.md)
+### [Preparación para hacer negocios](ui-get-ready-business.md)
 ### [Solución de problemas en el registro de autoservicio](ui-troubleshoot-self-signup.md)
 ### [Extensión de la versión de prueba](admin-extend-trial.md)
 ### [Cancelar la suscripción o quitar Business Central](admin-cancel.md)
@@ -98,7 +97,7 @@
 
 <!--setup-->
 ## Configuración de Business Central
-### [Configuración de Business Central](setup.md)
+### [Resumen de tareas](setup.md)
 ### Configurar las finanzas
 #### [Configurar las finanzas](finance-setup-finance.md)
 #### [Configure formas de pago](finance-payment-methods.md)
@@ -240,42 +239,51 @@
 #### [Migrar datos del cliente](admin-migrate-customer-data.md)
 #### [Crear paquetes de configuración de empresa personalizados](admin-how-to-create-custom-company-configuration-packages.md)
 #### [Sugerencias y trucos: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
-### Usar Outlook con Business Central
-#### [Usar Business Central como su bandeja de entrada de empresa en Outlook](admin-outlook.md)
-#### [Sincronizar con Contactos en Microsoft Outlook](admin-synchronize-outlook-contacts.md)
-#### [Usar Business Central sin Outlook](admin-no-outlook.md)
-### Usar Microsoft Teams con Business Central
-#### [Panorama](across-teams-overview.md)
-#### [Gestión de la integración de Teams](admin-teams-integration.md)
-#### [Instalación de la aplicación Business Central para Teams](across-install-app-for-teams.md)
-#### [Trabajar con datos de Business Central en Teams](across-working-with-teams.md)
-#### [P+F de Teams](teams-faq.md)
-#### [Solución de problemas](admin-teams-troubleshooting.md)
-### Usar Power BI con Business Central
-#### [Introducción](admin-powerbi.md)
-#### Administrador
-##### [Información general sobre integración](admin-powerbi-overview.md)
-##### [Habilitar la integración de Power BI](admin-powerbi-setup.md)
-#### Diseñadora
-##### [Introducción a la creación de informes](across-how-use-financials-data-source-powerbi.md)
-##### [Crear informes para mostrar datos de lista](across-how-use-powerbi-reports-factbox.md)
-#### Consumidor
-##### [Trabajar con informes de Power BI en Business Central](across-working-with-powerbi.md)
-##### [Trabajar con datos de Business Central en Power BI](across-working-with-business-central-in-powerbi.md)
-##### [Uso de aplicaciones de Business Central en Power BI](across-powerbi-business-central-apps.md)
-### Usar Power Automate con Business Central
-#### [Usar Business Central en un flujo de trabajo automatizado](across-how-use-financials-data-source-flow.md)
-### Usar Power Apps con Business Central
-#### [Cómo conectarse a sus datos de Business Central para crear una aplicación empresarial con Power Apps](across-how-use-financials-data-source-powerapps.md)
-### [Cambiar de una aplicación de QuickBooks a Business Central](across-quickbooks-to-business-edition.md)
-### [Obtener Business Central en el dispositivo móvil](install-mobile-app.md)
-### [Facturación masiva para Microsoft Bookings](finance-bookings.md)
-### [Uso de la misma cuenta de Microsoft 365 en Business Central y Microsoft Invoicing](about-reuse-company-invoicing.md)
-### [Importar datos de empresa de otros sistemas financieros](across-import-data-configuration-packages.md)
-### [Configurar correo electrónico](admin-how-setup-email.md)
+### Configuración del correo electrónico
+#### [Configurar correo electrónico](admin-how-setup-email.md)
+#### Configurar su bandeja de entrada de empresa en Outlook 
+##### [Usar Business Central como su bandeja de entrada de empresa en Outlook](admin-outlook.md)
+##### [Sincronizar con Contactos en Microsoft Outlook](admin-synchronize-outlook-contacts.md)
+##### [Usar Business Central sin Outlook](admin-no-outlook.md)
+### Configuración de informes
+#### [Selección de informe](across-report-selections.md)
+### Configuración de conexiones
+#### Usar Business Central como su bandeja de entrada de empresa en Outlook 
+##### [Resumen](admin-outlook.md)
+##### [Sincronizar con Contactos en Microsoft Outlook](admin-synchronize-outlook-contacts.md)
+##### [Usar Business Central sin Outlook](admin-no-outlook.md)
+#### Usar Microsoft Teams con Business Central
+##### [Panorama](across-teams-overview.md)
+##### [Gestión de la integración de Teams](admin-teams-integration.md)
+##### [Instalación de la aplicación Business Central para Teams](across-install-app-for-teams.md)
+##### [Búsqueda de clientes, proveedores y contactos](across-search-contacts-teams.md)
+##### [Trabajar con datos de Business Central en Teams](across-working-with-teams.md)
+##### [Cambiar la empresa y otras configuraciones](across-teams-settings.md)
+##### [P+F de Teams](teams-faq.md)
+##### [Solución de problemas](admin-teams-troubleshooting.md)
+#### Usar Power BI con Business Central
+##### [Introducción](admin-powerbi.md)
+##### Administrador
+###### [Información general sobre integración](admin-powerbi-overview.md)
+###### [Habilitar la integración de Power BI](admin-powerbi-setup.md)
+##### Diseñadora
+###### [Introducción a la creación de informes](across-how-use-financials-data-source-powerbi.md)
+###### [Crear informes para mostrar datos de lista](across-how-use-powerbi-reports-factbox.md)
+##### Consumidor
+###### [Trabajar con informes de Power BI en Business Central](across-working-with-powerbi.md)
+###### [Trabajar con datos de Business Central en Power BI](across-working-with-business-central-in-powerbi.md)
+###### [Uso de aplicaciones de Business Central en Power BI](across-powerbi-business-central-apps.md)
+#### Usar Power Automate con Business Central
+##### [Usar Business Central en un flujo de trabajo automatizado](across-how-use-financials-data-source-flow.md)
+#### Usar Power Apps con Business Central
+##### [Cómo conectarse a sus datos de Business Central para crear una aplicación empresarial con Power Apps](across-how-use-financials-data-source-powerapps.md)
+#### [Cambiar de una aplicación de QuickBooks a Business Central](across-quickbooks-to-business-edition.md)
+#### [Facturación masiva para Microsoft Bookings](finance-bookings.md)
+#### [Importar datos de empresa de otros sistemas financieros](across-import-data-configuration-packages.md)
 ### [Crear numeración](ui-create-number-series.md)
-### [Selección de informe](across-report-selections.md)
 ### [Configurar calendarios base](across-how-to-assign-base-calendars.md)
+### [Configuración de impresoras](ui-specify-printer-selection-reports.md)
+### [Obtener Business Central en el dispositivo móvil](install-mobile-app.md)
 
 ## Preguntas más frecuentes
 ### [Preguntas más frecuentes](across-faq.md)
@@ -290,7 +298,6 @@
 
 ## Ayuda y soporte técnico
 ### [Recursos de ayuda y soporte técnico](product-help-and-support.md)
-### [Sistema de ayuda](/dynamics365/business-central/dev-itpro/user-assistance?toc=/dynamics365/business-central/toc.json)
 ### [Visite nuestra biblioteca de vídeos](across-videos.md)
 ### [Soporte técnico](/dynamics365/business-central/dev-itpro/technical-support?toc=/dynamics365/business-central/toc.json)
 <!--## Learn
@@ -299,10 +306,10 @@
 ### [Business Functionality Learning Paths](/learn/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
 ### Resources for a Business Decision Maker
 #### [Learning catalog](readiness/readiness-learning-bus-decision-makers.md)
-#### [Documentation](product-get-started.md)
+#### [Getting Ready for Doing Business](ui-get-ready-business.md)
 ### Resources for a Business User
 #### [Learning catalog](readiness/readiness-learning-bus-users.md)
-#### [Documentation](product-get-started.md)
+#### [Getting Ready for Doing Business](ui-get-ready-business.md)
 ### Resources for a Developer
 #### [Learning catalog](readiness/readiness-learning-developers.md)
 #### [Documentation](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview?toc=/dynamics365/business-central/toc.json)-->
@@ -354,8 +361,7 @@
 ### [Métodos abreviados de teclado](keyboard-shortcuts.md)
 ### [Referencia rápida de teclado: solo PC](keyboard-shortcuts-cheatsheet.md)
 ## [Solución de problemas: acceso a la cámara y a la ubicación](ui-troubleshooting-camera-location.md)
-## [Acceda a la nube inteligente con Business Central](about-intelligent-cloud.md)
-## [Tutorial: seguimiento de números de serie/lote](walkthrough-tracing-serial-lot-numbers.md)
+## [Información inteligente (solo en línea)](about-intelligent-cloud.md)
 # Funciones empresariales
 ## [Resumen de las funciones empresariales](across-business-functionality.md)
 <!--general-->
@@ -618,12 +624,12 @@
 ### [Clasificar productos](inventory-how-categorize-items.md)
 ### [Trabajar con atributos de producto](inventory-how-work-item-attributes.md)
 ### [Trabajar con productos del catálogo](inventory-how-work-nonstock-items.md)
-### [Contar inventario mediante documentos](inventory-how-count-inventory-with-documents.md)
+### [Recuento y ajuste de inventario mediante documentos](inventory-how-count-inventory-with-documents.md)
 ### [Recuento, ajuste y reclasificación de inventario con diarios](inventory-how-count-adjust-reclassify.md)
 ### [Consultar la disponibilidad de los productos](inventory-how-availability-overview.md)
 ### [Transferir el inventario entre almacenes](inventory-how-transfer-between-locations.md)
 ### [Reservar artículos](inventory-how-to-reserve-items.md)
-### [Trabajar con números de lote y de serie](inventory-how-work-item-tracking.md)
+### [Seguimiento de productos con números de serie, de lote y de paquete](inventory-how-work-item-tracking.md)
 ### [Usar referencias cruzadas de producto](inventory-how-use-item-cross-refs.md)
 ### [Realizar seguimiento de productos seguidos](inventory-how-to-trace-item-tracked-items.md)
 ### [Bloquear productos](inventory-how-block-items.md)
@@ -865,34 +871,27 @@
 ##### [Configurar tipos de declaración](LocalFunctionality/Belgium/how-to-set-up-declaration-types.md)
 ##### [Exportar declaraciones de terceros de Intrastat](LocalFunctionality/Belgium/how-to-export-intrastat-third-party-declararations.md)
 #### Banca y pagos
-##### [Configurar cuentas bancarias para CODA](LocalFunctionality/Belgium/how-to-set-up-bank-accounts-for-coda.md)
-##### [Liquidar declaraciones de CODA](LocalFunctionality/Belgium/how-to-apply-coda-statements.md)
-##### [Transferir y registrar automáticamente declaraciones de CODA](LocalFunctionality/Belgium/how-to-automatically-transfer-and-post-coda-statements.md)
-##### [Extractos bancarios CODA](LocalFunctionality/Belgium/coda-bank-statements.md)
-##### [Banca electrónica belga](LocalFunctionality/Belgium/belgian-electronic-banking.md)
-##### [Configurar banca electrónica](LocalFunctionality/Belgium/how-to-set-up-electronic-banking.md)
+##### [Banca electrónica (BE)](LocalFunctionality/Belgium/belgian-electronic-banking.md)
+##### [Pagos electrónicos (BE)](LocalFunctionality/Belgium/belgian-electronic-payments.md)
 ##### [Configurar protocolos de exportación](LocalFunctionality/Belgium/how-to-set-up-export-protocols.md)
-##### [Pagos electrónicos de Bélgica](LocalFunctionality/Belgium/belgian-electronic-payments.md)
-##### [Configurar códigos de transacción de IBLC-BLWI](LocalFunctionality/Belgium/how-to-set-up-iblc-blwi-transaction-codes.md)
+##### [Resumen de líneas de pago y líneas de diario generales](LocalFunctionality/Belgium/summarizing-payment-lines-and-general-journal-lines.md)
 ##### [Configurar los proveedores para sugerencias de pago automático](LocalFunctionality/Belgium/how-to-set-up-vendors-for-automatic-payment-suggestions.md)
 ##### [Crear libros y secciones del diario de pagos](LocalFunctionality/Belgium/how-to-create-payment-journal-templates-and-batches.md)
 ##### [Probar pagos electrónicos](LocalFunctionality/Belgium/how-to-test-electronic-payments.md)
-##### [Generar sugerencias de pago](LocalFunctionality/Belgium/how-to-generate-payment-suggestions.md)
-##### [Importar declaraciones de CODA](LocalFunctionality/Belgium/how-to-import-coda-statements.md)
-##### [Administrar líneas de pago electrónico](LocalFunctionality/Belgium/how-to-manage-electronic-payment-lines.md)
-##### [Transferir y registrar manualmente declaraciones de CODA](LocalFunctionality/Belgium/how-to-manually-transfer-and-post-coda-statements.md)
 ##### [Imprimir archivos de pago](LocalFunctionality/Belgium/how-to-print-payment-files.md)
-##### [Pagos SEPA](LocalFunctionality/Belgium/sepa-payments.md)
 ##### [Activar pagos SEPA](LocalFunctionality/Belgium/how-to-activate-sepa-payments.md)
 ##### [Archivar pagos SEPA no euro](LocalFunctionality/Belgium/how-to-file-non-euro-sepa-payments.md)
-##### [Archivar pagos SEPA](LocalFunctionality/Belgium/how-to-file-sepa-payments.md)
 ##### [Adeudo directo mediante domiciliación](LocalFunctionality/Belgium/direct-debit-using-domiciliation.md)
 ##### [Configurar domiciliaciones](LocalFunctionality/Belgium/how-to-set-up-domiciliations.md)
 ##### [Editar y eliminar líneas de domiciliación](LocalFunctionality/Belgium/how-to-edit-and-delete-domiciliation-lines.md)
 ##### [Probar domiciliaciones](LocalFunctionality/Belgium/how-to-test-domiciliations.md)
 ##### [Exportar y registrar domiciliaciones](LocalFunctionality/Belgium/how-to-export-and-post-domiciliations.md)
 ##### [Generar sugerencias de domiciliación](LocalFunctionality/Belgium/how-to-generate-domiciliation-suggestions.md)
-##### [Resumen de líneas de pago y líneas de diario generales](LocalFunctionality/Belgium/summarizing-payment-lines-and-general-journal-lines.md)
+##### [Extractos bancarios CODA](LocalFunctionality/Belgium/coda-bank-statements.md)
+##### [Liquidar declaraciones de CODA](LocalFunctionality/Belgium/how-to-apply-coda-statements.md)
+##### [Transferir y registrar automáticamente declaraciones de CODA](LocalFunctionality/Belgium/how-to-automatically-transfer-and-post-coda-statements.md)
+##### [Transferir y registrar manualmente declaraciones de CODA](LocalFunctionality/Belgium/how-to-manually-transfer-and-post-coda-statements.md)
+##### [Importar declaraciones de CODA](LocalFunctionality/Belgium/how-to-import-coda-statements.md)
 #### Finanzas básicas
 ##### [Liquidar y desliquidar movimientos de contabilidad](LocalFunctionality/Belgium/how-to-apply-and-unapply-general-ledger-entries.md)
 ##### [Crear diarios financieros](LocalFunctionality/Belgium/how-to-create-financial-journals.md)
@@ -918,6 +917,8 @@
 
 ### República Checa
 #### [Funcionalidad local en la versión checa](LocalFunctionality/Czech/czech-local-functionality.md)
+#### [Paquete de localización básico para checo (extensión)](LocalFunctionality/Czech/ui-extensions-core-localization-pack-cz.md)
+#### [Paquete de localización avanzado para checo (extensión)](LocalFunctionality/Czech/ui-extensions-advanced-localization-pack-cz.md)
 #### Finanzas básicas  
 ##### [Finanzas](LocalFunctionality/Czech/finance.md)
 ##### [Operaciones de cierre de ejercicio](LocalFunctionality/Czech/year-close-operations.md)
@@ -928,6 +929,7 @@
 ##### [Informe de control de IVA](LocalFunctionality/Czech/vat-control-report.md)
 #### Activos fijos
 ##### [Activos fijos](LocalFunctionality/Czech/fixed-assets.md)
+##### [Localización de activos fijos para checo (extensión)](LocalFunctionality/Czech/ui-extensions-fixed-asset-localization-cz.md)
 #### Banca y pagos
 ##### [Función de banco](LocalFunctionality/Czech/bank-feature.md)
 ##### [Gestión de caja](LocalFunctionality/Czech/cash-desk-management.md)
@@ -943,7 +945,6 @@
 #### General
 ##### [Control de usuario extendido](LocalFunctionality/Czech/general.md)
 ##### [Prácticas recomendadas](LocalFunctionality/Czech/best-practices.md)
-##### [Paquete de localización básico para checo (extensión)](LocalFunctionality/Czech/ui-extensions-core-localization-pack-cz.md)
 
 ### Dinamarca
 #### [Funcionalidad local en la versión danesa](LocalFunctionality/Denmark/denmark-local-functionality.md)
@@ -1126,6 +1127,16 @@
 ###### [Factura electrónica de IVA](LocalFunctionality/India/GST-E-Way-Bill.md)
 ###### [IVA de ajuste de crédito de entrada](LocalFunctionality/India/GST-Input-Tax-Credit-Adjustment.md)
 ###### [Liquidación de GST](LocalFunctionality/India/GST-Settelement.md)
+###### [Factura electrónica con IVA](LocalFunctionality/India/GST-E-Invoice.md)
+##### Impuesto sobre el IVA
+###### [Configuración básica del impuesto sobre el IVA](LocalFunctionality/India/GST-Cess-Basic-Setup.md)
+###### [Cálculo del impuesto sobre el IVA](LocalFunctionality/India/GST-Cess-Calculations.md)
+##### IVA en la gestión de servicios
+###### [IVA en la gestión de servicios](LocalFunctionality/India/GST-Service-Management.md)
+##### IVA de distribución del servicio de entrada
+###### [Resumen de IVA de distribución del servicio de entrada](LocalFunctionality/India/GST-Input-Service-Distribution-Overview.md)
+###### [IVA de proceso de distribución del servicio de entrada](LocalFunctionality/India/GST-Input-Service-Distribution-Process.md)
+###### [IVA de transacción de distribución del servicio de entrada](LocalFunctionality/India/GST-Input-Service-Distribution-Transaction.md)
 #### TDS
 ##### [Información general de TDS](LocalFunctionality/India/TDS-Overview.md)
 ##### [Transacciones de TDS](LocalFunctionality/India/TDS-Transactions.md)
@@ -1143,9 +1154,23 @@
 ##### [Umbral de TCS](LocalFunctionality/India/TCS-Threshold.md)
 ##### [TCS de entrada de ajuste](LocalFunctionality/India/TCS-Adjustment-Entries.md)
 ##### [TCS de pago a la autoridad](LocalFunctionality/India/TCS-Payment-to-Authority.md)
+##### [Información general de 206C-1H](LocalFunctionality/India/TCS-206C-1H-Overview.md)
+##### [Transacción de 206C-1H](LocalFunctionality/India/TCS-206C-1H-Transactions.md)
 #### Interfaz de justificante
 ##### [Descripción general de la interfaz de justificante](LocalFunctionality/India/Vouche-Interface-Overview.md)
 ##### [Transacción de interfaz de justificante](LocalFunctionality/India/Voucher-Interface-Transactions.md)
+#### Activo fijo
+##### [Información general de activos fijos](LocalFunctionality/India/FA_Overview.md)
+##### [Depreciación de activo fijo](LocalFunctionality/India/FA_Depreciation.md)
+#### Gate Entry
+##### [Información general de Gate Entry](LocalFunctionality/India/Gate-Entry-001-Basic-Setup.md)
+##### [Transacción interna de Gate Entry](LocalFunctionality/India/Gate-Entry-Inward_Transactions.md)
+##### [Transacción externa de Gate Entry](LocalFunctionality/India/Gate-Entry-Outward_Transactions.md)
+#### Subcontratación
+##### [Información general de la subcontratación](LocalFunctionality/India/Subcontracting-001-Basic-Setup.md)
+##### [Transacciones de subcontratación](LocalFunctionality/India/Subcontracting-Transactions.md)
+##### [Crear responsabilidad de IVA](LocalFunctionality/India/Subcontracting-Create-GST-Liability.md)
+##### [Informe de subcontratación](LocalFunctionality/India/Subcontracting-Reports.md)
 
 ### Italia
 #### [Funcionalidad local en la versión italiana](LocalFunctionality/Italy/italy-local-functionality.md)
@@ -1585,8 +1610,8 @@
 #### [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)
 #### [Información de la empresa esencial](ui-extensions-essential-business-insights.md)
 #### [Analizador de imágenes](ui-extensions-image-analyzer.md)
-#### [Nube inteligente](ui-extensions-data-replication.md)
-#### [Base de nube inteligente](ui-extensions-intelligent-cloud.md)
+#### [Extensiones de migración a la nube](ui-extensions-data-replication.md)
+#### [Base de migración a la nube](ui-extensions-intelligent-cloud.md)
 #### [Predicciones de pago atrasado](ui-extensions-late-payment-prediction.md)
 #### [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)
 #### [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)
@@ -1622,7 +1647,7 @@
 ### [Migración desde Business Central local](/dynamics365/business-central/dev-itpro/administration/migrate-business-central-on-premises?toc=/dynamics365/business-central/toc.json)
 ### [Migrción desde Dynamics GP](/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp?toc=/dynamics365/business-central/toc.json)
 ### [Migración desde Dynamics NAV](/dynamics365/business-central/dev-itpro/upgrade/Upgrade-Considerations#online?toc=/dynamics365/business-central/toc.json)
-### [Preguntas frecuentes sobre conexión a la nube inteligente](/dynamics365/business-central/dev-itpro/administration/faq-intelligent-cloud?toc=/dynamics365/business-central/toc.json)
+### [Preguntas frecuentes sobre la migración a la nube](/dynamics365/business-central/dev-itpro/administration/faq-intelligent-cloud?toc=/dynamics365/business-central/toc.json)
 ## [Administración en Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration?toc=/dynamics365/business-central/toc.json)
 ## [Desarrollo](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview?toc=/dynamics365/business-central/toc.json)
 ## [Seguridad y protección](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)

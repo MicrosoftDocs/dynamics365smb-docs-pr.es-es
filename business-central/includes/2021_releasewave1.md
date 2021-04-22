@@ -1,0 +1,1 @@
+<span data-ttu-id="482bb-101"><Token> **SE APLICA A:** Business Central (lanzamiento de versiones 1 de 2021 y posteriores)</Token></span><span class="sxs-lookup"><span data-stu-id="482bb-101"><Token> **APPLIES TO:** Business Central 2021 release wave 1 and later</Token></span></span>
