@@ -273,6 +273,7 @@
 ###### [Trabajar con informes de Power BI en Business Central](across-working-with-powerbi.md)
 ###### [Trabajar con datos de Business Central en Power BI](across-working-with-business-central-in-powerbi.md)
 ###### [Uso de aplicaciones de Business Central en Power BI](across-powerbi-business-central-apps.md)
+##### [Preguntas más frecuentes](power-bi-faq.md)
 #### Usar Power Automate con Business Central
 ##### [Usar Business Central en un flujo de trabajo automatizado](across-how-use-financials-data-source-flow.md)
 #### Usar Power Apps con Business Central
@@ -288,8 +289,8 @@
 ## Preguntas más frecuentes
 ### [Preguntas más frecuentes](across-faq.md)
 ### [FAQ acerca de la función Dígame](ui-search-faq.md)
-### [Preguntas frecuentes sobre buscar y filtrar](ui-search-filter-faq.md)
-### [Preguntas frecuentes sobre vistas de lista](ui-views-faq.md)
+### [Preguntas frecuentes sobre búsqueda y filtrado](ui-search-filter-faq.yml)
+### [Preguntas frecuentes sobre vistas de lista](ui-views-faq.yml)
 ### [Preguntas frecuentes sobre copiar y pegar](faq-copy-paste.yml)
 ### [P+F sobre aplicaciones móviles](ui-mobile-faq.md)
 ### [P+F de Teams](teams-faq.md)
@@ -321,7 +322,7 @@
 ## [Búsqueda de páginas con el explorador de roles](ui-role-explorer.md)
 ## [FAQ acerca de la función Dígame](ui-search-faq.md)
 ## [Ordenar, buscar y filtrar](ui-enter-criteria-filters.md)
-## [Preguntas frecuentes sobre buscar y filtrar](ui-search-filter-faq.md)
+## [Preguntas frecuentes sobre búsqueda y filtrado](ui-search-filter-faq.yml)
 ## [Introducción de fechas](ui-enter-data.md)
 ## [Preguntas frecuentes sobre copiar y pegar](faq-copy-paste.yml)
 ## [Trabajar con fechas y horas del calendario](ui-enter-date-ranges.md)
@@ -356,10 +357,11 @@
 ### [Definir diseños de documentos para clientes y proveedores](ui-define-customer-vendor-document-layouts.md)
 ### [Agregar campos a un diseño de informe de Word](ui-how-add-fields-word-report-layout.md)
 ### [Fuentes Disponibles](ui-fonts.md)
-## Usar métodos abreviados de teclado
-### [Accesibilidad y métodos abreviados de teclado](ui-accessibility.md)
+## Accesibilidad, métodos abreviados de teclado y gestos táctiles
+### [Accesibilidad](ui-accessibility.md)
 ### [Métodos abreviados de teclado](keyboard-shortcuts.md)
 ### [Referencia rápida de teclado: solo PC](keyboard-shortcuts-cheatsheet.md)
+### [Gestos táctiles y con lápiz](touch-gestures.md)
 ## [Solución de problemas: acceso a la cámara y a la ubicación](ui-troubleshooting-camera-location.md)
 ## [Información inteligente (solo en línea)](about-intelligent-cloud.md)
 # Funciones empresariales
@@ -429,9 +431,10 @@
 ##### [Configurar el servicio de declaración bancaria](bank-how-setup-bank-statement-service.md)
 ##### [Configurar bancos](bank-how-setup-bank-accounts.md)
 ##### [Uso de esquemas XML para preparar definiciones de intercambio de datos](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)
-##### [Configurar definiciones de intercambio de datos](across-how-to-set-up-data-exchange-definitions.md)
+
 #### Intercambio de datos
 ##### [Intercambio de datos](across-exchange-data.md)
+##### [Configurar definiciones de intercambio de datos](across-how-to-set-up-data-exchange-definitions.md)
 ##### [Enviar documentos electrónicos](sales-how-to-send-electronic-documents.md)
 ##### [Utilizar el servicio OCR para convertir archivos PDF y de imagen en documentos electrónicos](across-how-use-ocr-pdf-images-files.md)
 ##### [Recibir y convertir documentos electrónicos](purchasing-how-to-receive-and-convert-electronic-documents.md)
@@ -550,6 +553,7 @@
 #### [Configuración de la consolidación de empresas](finance-consolidated-company-reporting-setup.md)
 ### [Descripción de contabilidad y plan de cuentas](finance-general-ledger.md)
 ### [Trabajar con dimensiones](finance-dimensions.md)
+### [Resolución de problemas y corrección de dimensiones](finance-troubleshooting-correcting-dimensions.md)
 ### [Crear presupuestos contables](finance-how-create-budgets.md)
 ### [Registrar transacciones directamente en la contabilidad](finance-how-post-transactions-directly.md)
 ### [Revertir los registros de diario y deshacer los recibos/envíos](finance-how-reverse-journal-posting.md)
@@ -567,6 +571,7 @@
 ### [Análisis de estados financieros en Excel](finance-analyze-excel.md)
 ### [Transferir fondos bancarios](bank-how-transfer-bank-funds.md)
 ### [Experiencias contables en Business Central](finance-accounting.md)
+### [Organizaciones internacionales y de múltiples sitios](finance-multi-site-organizations.md)
 
 ## Inteligencia empresarial y Financial Reporting
 ### [Descripción general de Inteligencia empresarial y Financial Reporting](bi.md)
@@ -705,6 +710,8 @@
 ### [Ejecutar la planificación completa, MPS o MRP](production-how-to-run-mps-and-mrp.md)
 ### [Replanificar o actualizar órdenes de producción directamente](production-how-to-replan-refresh-production-orders.md)
 ### [Realizar un seguimiento de las relaciones entre demanda y suministro](production-how-track-demand-supply.md)
+### [Tutorial: planificación manual de suministros](walkthrough-planning-supplies-manually.md)
+### [Tutorial: planificación automática de suministros](walkthrough-planning-supplies-automatically.md)
 <!--## [Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)-->
 
 ## Gestión de ensamblaje
@@ -745,8 +752,6 @@
 #### [Ubicar la salida de producción o la salida de ensamblado](warehouse-how-to-put-away-production-output.md)
 #### [Planificar ubicaciones en hojas de trabajo](warehouse-how-to-plan-put-aways-in-worksheets.md)
 #### [Realizar el picking y la ubicación sin un documento de origen](warehouse-how-to-create-put-aways-from-internal-put-aways.md)
-#### [Tutorial: recepción y ubicación en la configuración del almacenamiento básico](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)
-#### [Tutorial: recepción y ubicación en la configuración del almacenamiento avanzado](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
 ### Mover artículos
 #### [Desplazar productos](warehouse-move-items.md)
 #### [Mover productos ad hoc en configuraciones básicas de almacén](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)
@@ -770,8 +775,6 @@
 ### [Utilice el sistema de captura de datos automatizado (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)
 ### [Tutorial: recepción y ubicación en la configuración del almacenamiento básico](walkthrough-picking-and-shipping-in-basic-warehousing.md)
 ### [Tutorial: recepción y ubicación en la configuración del almacenamiento avanzado](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
-### [Tutorial: planificación manual de suministros](walkthrough-planning-supplies-manually.md)
-### [Tutorial: planificación automática de suministros](walkthrough-planning-supplies-automatically.md)
 
 ## Gestión de servicios
 ### [Gestión de servicios](service-service.md)
