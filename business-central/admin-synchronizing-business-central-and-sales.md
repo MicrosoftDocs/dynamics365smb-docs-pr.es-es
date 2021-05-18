@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Dataverse, integration, sync, synchronize, mapping
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 9a912596a71e77a09a7491fe20032056d1a9b808
-ms.sourcegitcommit: 8b44a7bcba45ae852cc6dd07b90b9a383c1be488
+ms.openlocfilehash: d568b9b40f2ed8db264db9736cf8e87f4165ea2c
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "5870028"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935091"
 ---
 # <a name="synchronizing-data-in-business-central-with-microsoft-dataverse"></a>Sincronización de datos en Business Central con Microsoft Dataverse
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -55,6 +55,8 @@ La siguiente tabla enumera la asignación estándar entre tablas en [!INCLUDE[pr
 | Contacto | Contacto | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] y [!INCLUDE[prod_short](includes/cds_long_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | Filtro de contacto de [!INCLUDE[prod_short](includes/prod_short.md)]: el **tipo** es **Persona** y el contacto se asigna una empresa. Filtro de contacto de [!INCLUDE[prod_short](includes/cds_long_md.md)]: el contacto se asigna a una empresa y el tipo de cliente principal es **Cuenta** |
 | Divisa | Divisa de la transacción | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] |  |
 
+> [!NOTE]
+> Las acciones de **Dataverse** no estarán disponibles en páginas, por ejemplo, la página Ficha de cliente, para registros que no respetan el filtro de tabla en la asignación de la tabla de integración.
 
 ### <a name="tip-for-admins-viewing-table-mappings"></a>Consejo para administradores: visualización de asignaciones de tabla
 Puede ver la asignación entre las tablas en [!INCLUDE[prod_short](includes/cds_long_md.md)] y [!INCLUDE[prod_short](includes/prod_short.md)] en la página **Lista de asignaciones de tablas de integración**, donde también puede aplicar filtros. La asignación entre los campos de las tablas de [!INCLUDE[prod_short](includes/prod_short.md)] y las columnas de las tablas de [!INCLUDE[prod_short](includes/cds_long_md.md)] se define en la página **Lista de asignaciones de campos de integración**, donde se puede añadir lógica de asignación adicional. Por ejemplo, esto puede ser útil si necesita solucionar problemas de sincronización.

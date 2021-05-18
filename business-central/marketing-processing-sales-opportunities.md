@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: bde08ec0b6f970dc65023cfcc7ab3e4021d4d29f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bcdbfe7077b2038879d38a962272c532f97500b1
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784447"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017254"
 ---
 # <a name="process-sales-opportunities"></a>Procesar oportunidades de ventas
 Después de crear una oportunidad, existen numerosas funciones para gestionarla y avanzar hasta completarla.
@@ -44,7 +44,8 @@ Puede cerrar oportunidades cuando terminen las negociaciones. Al cerrar una opor
    En el campo **Cód. cierre oportunidad**, puede seleccionar entre uno de los códigos cierre oportunidad existentes o agregar uno nuevo. Para agregar un nuevo código, seleccione **Seleccionar de la lista completa** de la lista desplegable y, a continuación, seleccione **Nuevo**. En la nueva línea en blanco, rellene los campos **Código**, **Tipo** y **Descripción** y, a continuación, haga clic en **Aceptar**.
 
 ## <a name="to-create-quotes-for-opportunities"></a>Para crear ofertas para oportunidades
-Puede crear ofertas de venta para los contactos que no están registrados como clientes.
+> [!NOTE]
+> Solo puede crear ofertas de venta a partir de oportunidades en las que el tipo de contacto sea Empresa.
 
 1. En la página **Lista oportunidad**, seleccione la oportunidad y, a continuación, seleccione la acción **Asignar oferta ventas**. Se abre la página **Oferta de ventas**.
 2. Rellene los campos pertinentes.

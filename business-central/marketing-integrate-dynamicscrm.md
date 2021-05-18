@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 9bbc7b27426befcea6d5e9c0f8b797c4652e03f6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f7e4e4c98a334fcd38d488f721eb99e6edcd77c1
+ms.sourcegitcommit: 08ca5798cf3f04fc3ea38fff40c1860196a70adf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780662"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "5985367"
 ---
 # <a name="using-dynamics-365-sales-from-business-central"></a>Uso de Dynamics 365 Sales desde Business Central
 Si utiliza Dynamics 365 Sales para la interacción con el cliente, puede disfrutar de una integración perfecta en el proceso de clientes potenciales a efectivo mediante el uso de [!INCLUDE[prod_short](includes/prod_short.md)] para las actividades de backend como el procesamiento de pedidos, la gestión de inventario y la gestión de sus finanzas.
@@ -95,7 +95,46 @@ Cuando elige **Proceso** en [!INCLUDE[prod_short](includes/prod_short.md)] para 
 ## <a name="handling-posted-sales-invoices-customer-payments-and-statistics"></a>Gestión de histórico de facturas de venta, pagos de cliente y estadísticas
 Después de completar un pedido de venta, se crearán las facturas correspondientes. Cuando factura un pedido de venta, puede transferir el histórico de facturas de venta a [!INCLUDE[crm_md](includes/crm_md.md)] si selecciona la casilla **Crear factura en [!INCLUDE[crm_md](includes/crm_md.md)]** en la página **Histórico facturas venta**. Las facturas registradas se transfieren a [!INCLUDE[crm_md](includes/crm_md.md)] con el estado **Facturado**.
 
-Cuando se recibe el pago del cliente para la factura de venta en [!INCLUDE[prod_short](includes/prod_short.md)], el estado de la factura de venta cambiará a **Pagado** con el campo **Motivo de estado** establecido en **Parcial**, si se ha pagado parcialmente, o **Completo**, si se ha pagado completamente, cuando elija la acción **Actualizar estadísticas de cuentas** en la página del cliente en [!INCLUDE[prod_short](includes/prod_short.md)]. La función **Actualizar estadísticas de cuentas** también actualizará valores como los campos **Saldo** y **Total ventas** en el cuadro informativo **Estadísticas de cuentas de [!INCLUDE[prod_short](includes/prod_short.md)]** en [!INCLUDE[crm_md](includes/crm_md.md)]. Alternativamente, puede hacer que los trabajos programados, Estadísticas de clientes y POSTEDSALESINV-INV, ejecuten automáticamente estos dos procesos en segundo plano.
+Cuando se recibe el pago del cliente para la factura de venta en [!INCLUDE[prod_short](includes/prod_short.md)], el estado de la factura de venta cambiará a **Pagado** con el campo **Motivo de estado** establecido en **Parcial**, si se ha pagado parcialmente, o **Completo**, si se ha pagado completamente, cuando elija la acción **Actualizar estadísticas de cuentas** en la página del cliente en [!INCLUDE[prod_short](includes/prod_short.md)]. La función **Actualizar estadísticas de cuentas** también actualizará valores como los campos **Saldo** y **Total ventas** en el cuadro informativo **Estadísticas de cuentas de [!INCLUDE[prod_short](includes/prod_short.md)]** en [!INCLUDE[crm_md](includes/crm_md.md)]. Alternativamente, puede hacer que los trabajos programados, Estadísticas de clientes y POSTEDSALESINV-INV, ejecuten automáticamente estos dos procesos en segundo plano. 
+
+## <a name="handling-sales-prices"></a>Manejo de precios de venta
+> [!NOTE]
+> En el segundo lanzamiento de versiones de 2020, lanzamos procesos optimizados para configurar y administrar precios y descuentos. Si es un cliente nuevo que usa esa versión, está usando la nueva experiencia. Si es un cliente existente, si está utilizando o no la nueva experiencia depende de si su administrador ha habilitado la actualización de funciones **Nueva experiencia de precios de venta** en **Administración de características**. Para más información, consulte [Habilitación de las próximas funciones antes de tiempo](/dynamics365/business-central/dev-itpro/administration/feature-management).
+
+Los pasos para completar este proceso difieren, dependiendo de si su administrador ha activado la nueva experiencia de precios. 
+
+> [!NOTE]
+> Si la sincronización de precios estándar no funciona para usted, le recomendamos que utilice las capacidades de personalización de integración. Para obtener más información, vea [Peronalización de una integración con Microsoft Dataverse](/dynamics365/business-central/dev-itpro/administration/administration-custom-cds-integration).
+
+#### <a name="current-experience"></a>[Experiencia actual](#tab/current-experience/)
+En la experiencia de precios actual, [!INCLUDE[prod_short](includes/prod_short.md)] sincroniza los precios de venta que: 
+
+* Se aplican a todos los clientes. Las listas de precios de venta predeterminadas se crean en función del campo **Precio unitario** en la página **Tarjeta de artículo** de los artículos.
+* Aplique a un grupo de precio de cliente específico. Por ejemplo, precios de venta para sus clientes minoristas o mayoristas. Para sincronizar precios basados en un grupo de precios de cliente, haga lo siguiente:
+
+    1. Acople los artículos para los que el grupo de precios del cliente establece los precios.
+    2. En la página **Grupos de precios para clientes**, combine el grupo de precios de clientes seleccionando **Relacionados**, luego **Dynamics 365 Sales**, **Emparejamiento** y finalmente **Configurar emparejamiento**. El emparejamiento creará una lista de precios activa en [!INCLUDE[prod_short](includes/prod_short.md)] con el mismo nombre que el grupo de precios del cliente en [!INCLUDE[crm_md](includes/crm_md.md)] y sincronizará automáticamente todos los artículos para los que el grupo de precios del cliente define el precio.
+
+:::image type="content" source="media/customer-price-group.png" alt-text="Página de grupo de precios de clientes":::
+
+#### <a name="new-experience"></a>[Nueva experiencia](#tab/new-experience/)  
+
+La nueva experiencia de precios sincroniza las listas de precios que cumplen con los siguientes criterios:
+
+* **Permitir actualizar valores predeterminados** está desactivado.
+* El tipo de precio es Venta.
+* El tipo de importe es Precio.
+* El tipo de producto en las líneas debe ser Artículo o Recurso. 
+* No se especifica una cantidad mínima.
+
+[!INCLUDE[prod_short](includes/prod_short.md)] sincroniza los precios de venta que se aplican a todos los clientes. Las listas de precios de venta predeterminadas se crean en función del campo **Precio unitario** en la página **Tarjeta de artículo** de los artículos.
+
+Para sincronizar listas de precios, en la página **Lista de precios de venta**, elija **Relacionados**, **Dynamics 365 Sales**, **Emparejamiento** y luego **Configurar acoplamiento**. 
+
+:::image type="content" source="media/sales-price-list.png" alt-text="Página de lista de precios de venta":::
+
+---
+
 
 ## <a name="see-also"></a>Consulte también
 [Integración con Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: a3d42fccebafdfa80346f04b43a0e3dd29f467d8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a27556350851de61bd31504d0c29ef60df6d890a
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770643"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017179"
 ---
 # <a name="sorting-searching-and-filtering"></a>Ordenar, buscar y filtrar
 
@@ -259,7 +259,7 @@ Puede haber casos en los que los valores de campo contengan uno de los siguiente
 - =
 - &#124;
 
-Si desea filtrar por cualquiera de estos símbolos, coloque la expresión de filtro entre comillas (''). Por ejemplo, si desease filtrar en los registros que comienzan por el texto *J & V*, la expresión de filtro sería `'J & V*'`.
+Si desea filtrar por cualquiera de estos símbolos, coloque la expresión de filtro entre comillas sencillas (`'<expression with symbol>'`). Por ejemplo, si desease filtrar en los registros que comienzan por el texto *J & V*, la expresión de filtro sería `'J & V*'`.
 
 Este requisito no es necesario para otros símbolos.
 
@@ -304,7 +304,7 @@ Use `%myvendors` en el campo de proveedor **No** para mostrar todos los registro
 
 ## <a name="see-also"></a>Consulte también
 
-[Preguntas frecuentes sobre buscar y filtrar](ui-search-filter-faq.md)  
+[Preguntas frecuentes sobre búsqueda y filtrado](ui-search-filter-faq.yml)  
 [Guardar y personalizar vistas de lista](ui-views.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

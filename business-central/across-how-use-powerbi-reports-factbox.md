@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 04/01/2021
+ms.date: 04/26/2021
 ms.author: jswymer
-ms.openlocfilehash: a600b24e16172134d4f8e78cf47efa4e262cac09
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c74593a429c520730efbd503a1884065ca6cd7e4
+ms.sourcegitcommit: 57e8ab70d70849752567eecf29529efe2dcdf3af
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777521"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5941618"
 ---
 # <a name="creating-power-bi-reports-for-displaying-list-data-in-prod_short"></a>Crear informes de Power BI para mostrar datos de lista en [!INCLUDE[prod_short](includes/prod_short.md)]
 
-[!INCLUDE[prod_long](includes/prod_long.md)] incluye un elemento de control de cuadro informativo de Power BI en muchas páginas de lista clave. El objetivo de este cuadro informativo es mostrar informes de Power BI relacionados con los registros de las listas, lo que ofrece más información sobre los datos. La idea es que a medida que se desplaza por las filas de la lista, el informe se actualice y se filtre para la entrada seleccionada.
+[!INCLUDE[prod_long](includes/prod_long.md)] incluye un elemento de control de cuadro informativo de Power BI en muchas páginas de lista clave. El objetivo de este cuadro informativo es mostrar informes de Power BI relacionados con los registros de las listas, lo que ofrece más información sobre los datos. La idea es que a, medida que se desplaza por las filas de la lista, el informe se actualice para la entrada seleccionada.
 
 [!INCLUDE[prod_long](includes/prod_long.md)] viene listo con algunos de estos informes. También puede crear sus propios informes personalizados que se muestran en este cuadro informativo. La creación de estos informes es similar a otros informes. Pero hay algunas reglas de diseño que deberá seguir para asegurarse de que los informes se muestren como se espera. En este artículo se explica estas reglas.
 
@@ -39,7 +39,7 @@ For more information about getting started, see [Using [!INCLUDE[prod_short](inc
 1. Inicie Power BI Desktop.
 2. Seleccione **Obtener datos** y comience a elegir el origen de datos para el informe.
 
-    En este paso, especifica las páginas de lista de Business Central que contienen los datos que desea en el informe. Por ejemplo, para crear un informe para la lista Ventas, asegúrese de que el conjunto de datos contenga información relacionada con ventas.
+    Especifique las páginas de lista de Business Central que contienen los datos que desea en el informe. Por ejemplo, para crear un informe para la lista **Facturas de venta**, incluya páginas relacionadas con las ventas.
 
     Para obtener más información, siga las instrucciones [Agregar [!INCLUDE[prod_short](includes/prod_short.md)] como origen de datos en Power BI Desktop](across-how-use-financials-data-source-powerbi.md#getdata).
 
@@ -62,9 +62,9 @@ For more information about getting started, see [Using [!INCLUDE[prod_short](inc
 
 6. Guarde y asigne un nombre al informe.
 
-    Es importante asignar al informe un nombre que contenga el nombre de la página de lista asociada con el informe. Por ejemplo, si el informe es para la página de lista **Productos**, incluya la palabra *productos* en algún lugar del nombre.  
+    Dele al informe un nombre que contenga el nombre de la página de lista asociada con el informe, como esté en el cliente. Sin embargo, el nombre no distingue entre mayúsculas y minúsculas. Suponga que el informe es para la página de lista **Facturas de venta**. En este caso, incluya las palabras **facturas de venta** en algún lugar del nombre, como **mis facturas de venta.pbix** o **mi_lista_facturas_de_venta.pbix**.
 
-    Esta convención de nomenclatura no es un requisito. Sin embargo, hace que la selección de informes en [!INCLUDE[prod_short](includes/prod_short.md)] sea más rápida. Cuando la página de selección de informes se abre desde una página de lista, se filtra automáticamente según el nombre de la página. Este filtrado se realiza para limitar los informes que se muestran. Los usuarios pueden borrar el filtro para obtener una lista completa de los informes disponibles en Power BI.
+    Esta convención de nomenclatura no es un requisito. Sin embargo, hace que la selección de informes en [!INCLUDE[prod_short](includes/prod_short.md)] sea más rápida. Cuando la página de selección de informes se abre desde una página de lista, se aplica automáticamente un filtro según el nombre de la página. El filtro tiene la sintaxis: `@*<caption>*`, como `@*Sales Invoices*`. Este filtrado se realiza para limitar los informes que se muestran. Los usuarios pueden borrar el filtro para obtener una lista completa de los informes disponibles en Power BI.
 
 7. Cuando haya terminado, publique el informe como de costumbre.
 
@@ -72,7 +72,7 @@ For more information about getting started, see [Using [!INCLUDE[prod_short](inc
 
 8. Pruebe el informe.
 
-    Una vez que los informes se hayan publicado en su área de trabajo, deberían estar disponibles en el cuadro informativo de Power BI en la página de lista en [!INCLUDE[prod_short](includes/prod_short.md)].
+    Una vez que el informe se haya publicado en su área de trabajo, debería estar disponible en el cuadro informativo de Power BI en la página de lista en [!INCLUDE[prod_short](includes/prod_short.md)].
 
     Para probarlo, siga los siguientes pasos.
 
@@ -101,7 +101,7 @@ Con Power BI, puede crear un solo informe con varias páginas. Sin embargo, para
 
 ## <a name="fixing-problems"></a>Solucionar problemas
 
-En esta sección se proporcionan instrucciones sobre cómo solucionar los problemas que puede encontrar al intentar ver un informe de Power BI para una página de lista en [!INCLUDE[prod_short](includes/prod_short.md)].  
+En esta sección se explica cómo solucionar los problemas que puede encontrar al intentar ver un informe de Power BI para una página de lista en [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ### <a name="you-cant-see-the-power-bi-factbox-on-a-list-page"></a>No puede ver el cuadro informativo de Power BI en una página de lista
 
@@ -109,11 +109,11 @@ De forma predeterminada, el cuadro informativo de Power BI está oculto a la vis
 
 ### <a name="you-cant-see-the-report-in-the-select-report-pane"></a>No puede ver el informe en el panel Seleccionar informe
 
-Probablemente se deba a que el nombre del informe no contiene el nombre de la página de la lista que se muestra. Borre el filtro para obtener una lista completa de los informes de Power BI disponibles.  
+El nombre del informe no contiene el nombre de la página de la lista que se muestra. Borre el filtro para obtener una lista completa de los informes de Power BI disponibles.  
 
 ### <a name="report-is-loaded-but-blank-not-filtered-or-filtered-incorrectly"></a>El informe está cargado pero en blanco, no filtrado o filtrado incorrectamente
 
-Verifique que el filtro de informe contenga la clave primaria correcta. En la mayoría de los casos, este campo es **Nº**, pero en la tabla **Mov. contabilidad**, por ejemplo, debe usar el campo **Nº mov.**.
+Verifique que el filtro de informes contenga la clave principal correcta. En la mayoría de los casos, este campo es **Nº**, pero en la tabla **Mov. contabilidad**, por ejemplo, debe usar el campo **Nº mov.**.
 
 ### <a name="report-is-loaded-but-it-shows-a-page-you-didnt-expect"></a>El informe está cargado, pero muestra una página que no esperaba
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 86e540a34efba3fccbc0615cac692fd6c405bee0
-ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
+ms.openlocfilehash: 6980e56f8bda750f9afae9bed6577bb1ab1fec49
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5882235"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935216"
 ---
 # <a name="teams-faq"></a>P+F de Teams
 
@@ -230,7 +230,7 @@ Sí. La búsqueda de contactos de Teams se basa en las API de [!INCLUDE [prod_sh
 
 Después de iniciar sesión por primera vez en la aplicación [!INCLUDE [prod_short.md](includes/prod_short.md)] para Teams, la aplicación intentará determinar su empresa preferida en [!INCLUDE [prod_short.md](includes/prod_short.md)]. Si la aplicación no puede determinar la empresa, es posible que tenga que ir a la **Configuración** y elegir la empresa en la que desea buscar. Esta situación se produce, por ejemplo, si tiene acceso a varias empresas en distintos entornos de su organización. En este caso, tendrá que elegir una empresa antes de poder empezar a buscar.  
 
-La aplicación también puede pedirle que visite la **Configuración** si no parece tener una suscripción de [!INCLUDE [prod_short.md](includes/prod_short.md)], no entornos de [!INCLUDE [prod_short.md](includes/prod_short.md)], o su cuenta no tiene una licencia de [!INCLUDE [prod_short.md](includes/prod_short.md)].
+La aplicación también puede pedirle que visite la **Configuración** si no tiene una suscripción de [!INCLUDE [prod_short.md](includes/prod_short.md)], no existen entornos de [!INCLUDE [prod_short.md](includes/prod_short.md)], o su cuenta no tiene una licencia de [!INCLUDE [prod_short.md](includes/prod_short.md)].
 
 ### <a name="id-like-to-search-for-items-or-records-from-other-tables-can-i-do-this-from-teams"></a>Me gustaría buscar productos o registros de otras tablas. ¿Puedo hacer esto desde Teams?
 

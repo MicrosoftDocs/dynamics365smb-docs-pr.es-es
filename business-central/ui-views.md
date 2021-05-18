@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b66b9f0e158e7947ebaa3f8835d5ca0ca4531113
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a36d513e0285e197f9ca651bab55f745b448773d
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772177"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017079"
 ---
 # <a name="save-and-personalize-list-views"></a>Guardar y personalizar vistas de lista
 Cuando haya establecido un filtro en una lista y desee conservar el filtro para más adelante, puede guardarlo como una vista. Para obtener más información sobre el filtrado de listas, consulte [Configuración de filtros en listas](ui-enter-criteria-filters.md#setting-filters-on-lists).
@@ -35,7 +35,7 @@ Si existen vistas, el grupo **Vistas** aparece en la parte superior del panel de
 Si no le asigna un nombre, se llamará **Todos (copia)**.
 
 > [!TIP]
-> ¿No ve el icono ![Guardar vista](media/save_view_icon.png "Guardar vista")? Para más información, vea [¿Por qué no tengo un icono de Guardar?](ui-views-faq.md#save).
+> ¿No ve el icono ![Guardar vista](media/save_view_icon.png "Guardar vista")? Para más información, vea [Por qué no tengo un icono de Guardar](/dynamics365/business-central/ui-views-faq#save).
 
 ## <a name="to-rename-or-remove-a-view"></a>Para cambiar el nombre de una vista o eliminarla
 1. Para la vista que actualmente muestra la lista, elija el icono ![Mostrar más opciones](media/show-more-options-icon.png "Mostrar más opciones") para ver qué opciones están disponibles.
@@ -45,7 +45,7 @@ Si no le asigna un nombre, se llamará **Todos (copia)**.
 A medida que aumenta el número de vistas en una página, es posible que necesite más control sobre cómo se presentan las vistas en el panel de filtro. Con el banner **Personalización**, puede ocultar vistas no deseadas o reordenar las vistas para obtener la secuencia perfecta. Para obtener más información, consulte [Personalizar el área de trabajo](ui-personalization-user.md).
 
 ## <a name="see-also"></a>Consulte también
-[Preguntas frecuentes sobre vistas de lista](ui-views-faq.md)  
+[Preguntas frecuentes sobre vistas de lista](ui-views-faq.yml)  
 [Personalizar el área de trabajo](ui-personalization-user.md)    
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 [Cambiar la configuración básica](ui-change-basic-settings.md)  

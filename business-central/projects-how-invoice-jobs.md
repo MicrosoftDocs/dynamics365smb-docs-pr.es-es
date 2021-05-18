@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: project invoice
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f9290bda4437ea43edcaa19d7759f2fdee24e8c4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 873135d2fa6053b7101a999981fb3117ee8689ab
+ms.sourcegitcommit: 93c8681054b059cec38cb29b86de20be37980676
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775070"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5938151"
 ---
 # <a name="invoice-jobs"></a>Facturar proyectos
 Durante el proyecto, pueden acumularse los costes del proyecto por el uso de recursos, materiales y compras relacionadas con el proyecto. Según progresa el proyecto, estas transacciones se registran en el diario del proyecto. Es importante que se registren todos los costes en el diario del proyecto antes de facturar al cliente.
@@ -61,21 +61,6 @@ Puede crear una factura a partir de las líneas de planificación de proyecto e 
 > [!NOTE]  
 >   El procedimiento anterior es similar para crear, revisar y registrar un abono de venta relacionado con el proyecto.
 
-## <a name="to-calculate-and-post-job-completion-entries"></a>Para calcular y registrar los movimientos de finalización de proyecto
-Cuando haya terminado todas las actividades de un proyecto, incluidos los registros de consumo y la facturación, tiene que actualizarlo para que su **Estado** sea **Completado**. Después, debe revertir cualquier WIP que haya registrado en contabilidad.
-
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Proyectos** y luego elija el enlace relacionado.  
-2. Seleccione un proyecto pendiente y, a continuación, elija la acción **Editar**.
-3. En el campo **Estado**, seleccione **Completado**.
-4. Siga los pasos de la ayuda para calcular y registrar WIP. También puede seguir los pasos 5 y 6 para hacerlo manualmente.  
-5. Elija la acción **Calcular WIP**.
-6. En la página **Calcular WIP proyecto**, rellene los campos según sea necesario.  
-
-     Los movimientos de trabajo en curso del proyecto creados al ejecutar el proceso tendrán marcada la casilla **Proyecto completado** para indicar que se trata de movimientos de finalización.  
-7. Elija la acción **Registrar WIP en C/G proyecto**.
-8. En la página **Registrar WIP en C/G proyecto**, rellene los campos según sea necesario.  
-
-     Los movimientos de contabilidad del trabajo en curso del proyecto creados al ejecutar el trabajo por lotes tendrán marcada la casilla de verificación **Proyecto completado** para indicar que se trata de movimientos de finalización.
 
 ## <a name="see-also"></a>Consulte también
 [Administrar proyectos](projects-manage-projects.md)  

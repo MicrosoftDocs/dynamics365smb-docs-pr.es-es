@@ -1,5 +1,5 @@
 ---
-title: Configurar precios de proyectos y grupos contables de proyectos | Documentos de Microsoft
+title: Configurar proyectos, precios y grupos contables de proyectos
 description: Describe cómo configurar la configuración general de los proyectos y configurar los precios de los productos de proyecto, los recursos, las cuentas contables y los grupos contables de proyectos.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.workload: na
 ms.search.keywords: project management
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 597d0ceb94e72305675b446af0031d97e0bc6478
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fc936a6839bbed7fee061b62a851441caddb5a4f
+ms.sourcegitcommit: 93c8681054b059cec38cb29b86de20be37980676
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780462"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5938076"
 ---
-# <a name="set-up-jobs"></a>Configurar proyectos
+# <a name="set-up-jobs-prices-and-job-posting-groups"></a>Configurar proyectos, precios y grupos contables de proyectos
 
 Como director de proyectos, puede configurar proyectos que definan cada uno de los proyectos que administra en [!INCLUDE[prod_short](includes/prod_short.md)]. En la página **Configuración de proyectos**, debe especificar cómo desea utilizar determinadas características del proyecto.
 
@@ -26,26 +26,27 @@ Para cada proyecto, especifique fichas de proyecto individuales con información
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
-> El impacto del campo **Aplicar vínculo uso de forma pred.** es bastante complejo y, por tanto, se explica en la sección siguiente.
+> El campo **Aplicar enlace de uso de forma predeterminada** indica si las entradas del libro mayor de proyectos están vinculadas a las líneas de planificación de proyecto de forma predeterminada. Elija el campo si desea aplicar esta configuración a todos los nuevos proyectos que cree. Puede habilitar o deshabilitar el seguimiento del uso del proyecto para un proyecto específico cambiando el valor del campo **Aplicar enlace de uso** en la tarjeta de trabajo individual. Las consecuencias se explican en la siguiente sección.
 
 ### <a name="to-set-up-job-usage-tracking"></a>Para configurar el seguimiento de uso de proyecto
 
-Cuando se está ejecutando un proyecto, es posible que desee saber cómo va la utilización en comparación con el plan. A hacerlo fácilmente, cree un vínculo entre las líneas de planificación de proyecto y la utilización real. Esto le permite seguir los costes y ver fácilmente cuánto trabajo queda por realizar. De forma predeterminada, el tipo de línea de planificación de proyecto es **Presupuesto**, pero utilizar el tipo de línea **Presupuesto y facturable** tiene efectos similares.
+Cuando está trbajando en un proyecto, es posible que desee saber cómo va el seguimiento en comparación con el plan. A hacerlo fácilmente, cree un vínculo entre las líneas de planificación de proyecto y la utilización real. Esto le permite seguir los costes y ver fácilmente cuánto trabajo queda por realizar. De forma predeterminada, el tipo de línea de planificación de proyecto es *Presupuesto*, pero utilizar el tipo de línea **Presupuesto y facturable** tiene efectos similares.
 
-Si selecciona el campo **Aplicar vínculo uso de forma pred.**, puede revisar la información de la línea de planificación de proyecto. Puede definir a la cantidad del recurso, el producto o la cuenta de contabilidad general, y después indicar qué cantidad desea transferir al diario de proyectos. El campo **Cantidad pendiente** de la línea de planificación de proyecto puede indicar qué queda por transferir y registrar en el diario de proyectos.
+Después de haber establecido el seguimiento de uso escogiendo **Aplicar vínculo de uso**, puede revisar la información de la línea de planificación de proyecto. Puede definir a la cantidad del recurso, el producto o la cuenta de contabilidad general, y después indicar qué cantidad desea transferir al diario de proyectos. El campo **Cantidad pendiente** de la línea de planificación de proyecto puede indicar qué queda por transferir y registrar en el diario de proyectos.
 
-> [!TIP]  
-> Puede activar o desactivar el seguimiento del uso del proyecto para un proyecto determinado. El valor del campo **Aplicar vínculo uso** de la ficha de proyecto individual omitirá el valor de la página **Config. proyectos**.  
-
-Cuando se selecciona la casilla **Aplicar vínculo uso de forma pred.**, y el tipo de la línea de planificación de proyecto es **Facturable**, se crea una línea de planificación de proyecto del tipo **Presupuesto** después de registrar una línea del diario de proyecto.
+>[!NOTE]
+> Si se elige **Aplicar vínculo de uso** en el proyecto individual y el campo **Tipo de línea** de la línea de diario de proyectos o la línea de pedido es *Facturable*, se crearán las nuevas líneas de planificación de proyecto del tipo de línea *Presupuesto* al registrar el diario de proyectos o el documento de compra.  
+> Para más información, vea [Registro de uso para proyectos](projects-how-record-job-usage.md) y [Administrar suministros de proyectos](projects-how-manage-project-supplies.md)
 
 > [!IMPORTANT]
-> Si el seguimiento de uso del proyecto está activado, en la página **Config. proyectos** o en el proyecto individual, y el campo **Tipo de línea** está en blanco, se crearán las nuevas líneas de planificación de proyecto del tipo de línea **Presupuesto** al registrar las líneas de diario de proyecto.  
->  
-> Si el seguimiento de uso del proyecto *no* está activado, en la página **Config. proyectos** o en el proyecto individual, y el campo **Tipo de línea** está en blanco, no se crearán líneas de planificación de proyecto al registrar las líneas de diario de proyecto. Para obtener más información, consulte [Registro del uso para proyectos](projects-how-record-job-usage.md).
+> Si el campo **Tipo de línea** de la línea del diario de proyecto o la línea de compra están en blanco, entonces no se crean líneas de planificación de proyecto cuando se registra el diario de trabajo o el documento de compra.
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Configuración de proyectos** y, a continuación, seleccione el vínculo relacionado.
-2. Seleccione la casilla **Aplicar vínculo uso de forma pred.**
+<!--
+>[!Important]
+If job usage tracking is enabled on the individual job and the **Line Type** field on the job journal or purchase line line is blank, then new job planning lines of line type *Budget* are created when you post job journal or purchase document.
+If job usage tracking is not enabled and the **Line Type** field on the job journal line or purchase line is blank, then no job planning lines are created when you post job journal or purchase document.
+-->
+
 
 ## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-jobs"></a>Para establecer los precios de recursos, productos y cuentas de contabilidad para trabajos
 > [!NOTE]
@@ -79,7 +80,7 @@ Un aspecto de los proyectos de planificación es decidir qué cuentas de registr
 > [!NOTE]  
 >   Se deben configurar las cuentas necesarias en el plan de cuentas antes de configurar los grupos contables. Para obtener más información, vea [Configuración o cambio del plan de cuentas](finance-setup-chart-accounts.md).  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Grupos contables proyecto** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Grupos contables de proyecto** y luego elija el enlace relacionado.  
 2. Elija la acción **Nuevo** y, a continuación, rellene los campos de cuenta tal como se describe en la tabla siguiente.  
 
 | Campo Cuenta | Descripción |

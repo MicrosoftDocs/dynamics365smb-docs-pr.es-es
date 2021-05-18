@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0267d4af029410da2107fbb4bbbde2e27c364e31
-ms.sourcegitcommit: 8b44a7bcba45ae852cc6dd07b90b9a383c1be488
+ms.openlocfilehash: d94ecf2314e28dafbcf73a816446d6e3b929aedc
+ms.sourcegitcommit: cbd00f24fb471381bbfd64670237eda176bd78e5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "5869978"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947368"
 ---
 # <a name="available-fonts"></a>Fuentes Disponibles
 
@@ -58,7 +58,7 @@ Se admiten las siguientes simbologías de códigos de barras:
 * MSI
 * Intercalado 2 de 5
 
-Para obtener más información, consulte [Fuentes para códigos de barras con Business Central Online](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts.md)
+Para obtener más información, consulte [Fuentes para códigos de barras con Business Central Online](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts).
 
 ## <a name="see-also"></a>Consulte también
 

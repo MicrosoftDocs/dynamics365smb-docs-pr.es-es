@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a36e40796978ddd20df818c3bccb1e148d50a4e1
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: dd4ae64c008c45fb6876387d98dac27440f17141
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783777"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935291"
 ---
 # <a name="financial-reports-in-business-central"></a>Informes financieros en Business Central
 
@@ -24,7 +24,6 @@ La siguiente tabla describe algunos de los informes clave en los informes financ
 
 |Informe |Descripción  |
 |---------|---------|
-|**Ajustar coeste: movimientos de producto** | Ajusta los valores del inventario en movimientos de valores, de forma que utilice el coste correctamente ajustado a la hora de actualizar la contabilidad y que las estadísticas relativas a ventas y a beneficios estén actualizadas. El ajuste de costes transfiere cualquier cambio en los costes desde los movimientos de entrada, como pueden ser aquellos relacionados con las compras o con la salida de producción, a los movimientos de salida relacionados, como son las ventas o las transferencias.  |
 |**Balance sumas y saldos**| Muestra el plan de cuentas con los saldos y los saldos de periodos. Puede optar por ver un balance de comprobación de las dimensiones seleccionadas. Puede usar el informe al cierre de un periodo contable o ejercicio. |
 |**Bal. comprobación/periodo**  | Muestra el saldo inicial de cada cuenta de contabilidad, los movimientos producidos durante el periodo seleccionado de mes, trimestre o año, y el saldo de cierre resultante.         |
 |**Balance sumas y saldos/Ppto.** | Muestra un balance de comprobación en comparación con un presupuesto. Puede optar por ver un balance de comprobación de las dimensiones seleccionadas. Puede usar el informe al cierre de un periodo contable o ejercicio.        |

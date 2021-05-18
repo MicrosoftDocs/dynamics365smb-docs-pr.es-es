@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: afd64672bac5af39bd5377db417a36ec0ea39fe0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: af13192ed4b5ca94d4a01ec913d3c94fd85e5fbc
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776152"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017154"
 ---
 # <a name="frequently-asked-questions-about-using-business-central"></a>Preguntas frecuentes sobre el uso de Business Central
 
@@ -136,8 +136,8 @@ Las primeras versiones de [!INCLUDE[prod_short](includes/prod_short.md)] local i
 
 [Preparación para hacer negocios](ui-get-ready-business.md)  
 [FAQ acerca de la función Dígame](ui-search-faq.md)  
-[Preguntas frecuentes sobre buscar y filtrar](ui-search-filter-faq.md)  
-[Preguntas frecuentes sobre vistas de lista](ui-views-faq.md)  
+[Preguntas frecuentes sobre búsqueda y filtrado](ui-search-filter-faq.yml)  
+[Preguntas frecuentes sobre vistas de lista](ui-views-faq.yml)  
 [Cambiar idioma y región](about-locale-language.md)  
 [Usar [!INCLUDE[prod_short](includes/prod_short.md)] como su bandeja de entrada de empresa en Outlook](admin-outlook.md)  
 [Usar [!INCLUDE[prod_short](includes/prod_short.md)] sin Outlook](admin-no-outlook.md)  

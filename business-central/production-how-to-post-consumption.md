@@ -1,6 +1,6 @@
 ---
 title: Registrar consumibles por lotes
-description: Si el método de baja es **Manual**, debe registrar los componentes manualmente con un diario de consumo.
+description: Si el método de baja es Manual, debe registrar los componentes manualmente con un diario de consumo.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,44 +10,41 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 66a19b624c74ec844806c27c490c300746b46704
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0b3ee6ca54e21605b4e9cf340b04656694c9801e
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787907"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935191"
 ---
 # <a name="batch-post-production-consumption"></a>Registrar consumibles de producción por lotes
 
 Si el método de baja es **Manual**, debe registrar los componentes manualmente con un diario de consumo.  
 
 >[!NOTE]
-> Si ha activado el campo **Picking requerido** en la ficha de almacén para indicar que el almacén requiere proceso de picking de existencias, no necesita usar este trabajo por lotes. [!INCLUDE[prod_short](includes/prod_short.md)] manejará el consumo cuando registro el picking de existencias. Para obtener más información, consulte [Picking para producción o ensamblado](warehouse-how-to-pick-for-production.md#to-pick-components-in-basic-warehouse-configurations). 
+> Si ha activado el campo **Picking requerido** en la ficha de almacén para indicar que el almacén requiere proceso de picking de existencias, no necesita usar este trabajo por lotes. [!INCLUDE[prod_short](includes/prod_short.md)] manejará el consumo cuando registro el picking de existencias. Para obtener más información, consulte [Recoger para producción en configuraciones básicas de almacén](warehouse-how-to-pick-for-production.md#pick-for-production-in-basic-warehouse-configurations).  
 
 También puede configurar [!INCLUDE[prod_short](includes/prod_short.md)] para que registre (*vaciar*) automáticamente los componentes cuando inicia o finaliza órdenes de producción. Para obtener más información, consulte [Procedimiento: Habilitar el vaciado de componentes según la producción de la operación](production-how-to-flush-components-according-to-operation-output.md).
 
 ## <a name="to-post-consumption-for-one-or-more-production-order-lines"></a>Para registrar el consumo en una o varias líneas de la orden de producción
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diario de consumo** y luego elija el enlace relacionado.  
-2.  Rellene los campos con los datos de las órdenes de producción y del consumo. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diario de consumo** y luego elija el enlace relacionado.  
+2. Rellene los campos con los datos de las órdenes de producción y del consumo. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     Use la acción **Calcular consumo** para generar líneas del diario de las órdenes de producción basadas en la salida real (la cantidad de productos terminados sobre la que se ha informado) o en la salida esperada (la cantidad de productos terminados que espera producir).
 
     > [!NOTE]
     > Si configuró la ficha de almacén para requerir el proceso de picking y envío, en el campo **Cantidad** de la página **Diario de consumo** solo se pueden introducir cantidades que ya se han seleccionado a través de un actividad de almacén , no una cantidad calculada. Para obtener más información, consulte [Realizar picking para ensamblado o producción en una configuración avanzada de almacén](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)
 
-3.  Para registrar el consumo, elija la acción **Registrar**. Los inventarios relacionados se reducen.
-
-
+3. Para registrar el consumo, elija la acción **Registrar**. Los inventarios relacionados se reducen.
 
 ## <a name="see-also"></a>Consulte también
 
-[Fabricación](production-manage-manufacturing.md)    
+[Fabricación](production-manage-manufacturing.md)  
 [Configuración de fabricación](production-configure-production-processes.md)  
-[Planificación](production-planning.md)      
+[Planificación](production-planning.md)  
 [Inventario](inventory-manage-inventory.md)  
 [Compras](purchasing-manage-purchasing.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

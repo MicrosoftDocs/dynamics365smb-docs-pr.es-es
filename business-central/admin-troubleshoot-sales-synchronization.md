@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: bb3c0684d476fbba2a23a73dd821384d32afbbab
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 91c64ecbd32ec8fe6a528c87d2e102e1a1322816
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777046"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017229"
 ---
 # <a name="troubleshooting-synchronization-errors"></a>Solución de problemas de errores de sincronización
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -27,7 +27,7 @@ Hay muchos factores involucrados en la integración de [!INCLUDE[prod_short](inc
 A menudo se producen errores, ya sea por algo que un usuario ha hecho a los registros emparejados o por algo que no funciona en la configuración de la integración. En el caso de los errores relacionados con los registros emparejados, los usuarios pueden resolverlos por sí mismos. Estos errores se deben a acciones tales como eliminar datos en una aplicación empresarial, pero no en las dos, y después realizar la sincronización. Para obtener más información, consulte [Ver el estado de una sincronización](admin-how-to-view-synchronization-status.md).
 
 ## <a name="example"></a>Ejemplo:
-Este vídeo muestra un ejemplo de cómo solucionar errores que ocurrieron al sincronizar con Sales. El proceso será el mismo para todas las integraciones. 
+Este vídeo muestra un ejemplo de cómo solucionar errores que ocurrieron al sincronizar con [!INCLUDE[prod_short](includes/cds_long_md.md)]. El proceso será el mismo para todas las integraciones. 
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2097304]
 
@@ -45,16 +45,18 @@ Debe resolver manualmente los errores, pero hay algunas maneras en las que la p�
 
 A veces, las marcas de tiempo en los registros pueden causar conflictos. La tabla "Registro de integración CDS" mantiene las marcas de tiempo "Fecha de última modificación de sincronización" y "Fecha de última modificación de sincronización de CDS" para la última integración realizada en ambas direcciones para una fila. Estas marcas de tiempo se comparan con las marcas de tiempo en Business Central y los registros de ventas. En Business Central, la marca de tiempo está en la tabla Registro de integración.
 
-Puede filtrar los registros que se van a sincronizar comparando las marcas de tiempo de la fila en los campos "Filtro de fecha modificación de sinc." y "Filtro de fecha modif. tabla integ. de sinc.".
+Puede filtrar los registros que se van a sincronizar comparando las marcas de tiempo de la fila en los campos "Asignación de tabla de integración", "Filtro de fecha modificación de sincronización" y "Sincronizar tabla ent. modif. tabla integ. de sinc.".
 
-El mensaje de error de conflicto "No se puede actualizar el registro del cliente porque tiene una fecha de modificación posterior al registro de la cuenta" o "No se puede actualizar el registro de la cuenta porque tiene una fecha de modificación posterior al registro del cliente" puede aparecer si una fila tiene una marca de tiempo que es más grande que IntegrationTableMapping."Filtro de fecha modificación de sinc." pero no es más reciente que la marca de tiempo en el registro de integración de ventas. Significa que la fila de origen se sincronizó manualmente, no por el movimiento de la cola de proyectos. 
+El mensaje de error de conflicto "No se puede actualizar el registro del cliente porque tiene una fecha de modificación posterior al registro de la cuenta" o "No se puede actualizar el registro de la cuenta porque tiene una fecha de modificación posterior al registro del cliente" puede aparecer si una fila tiene una marca de tiempo que es más grande que IntegrationTableMapping."Filtro de fecha modificación de sinc." pero no es más reciente que la marca de tiempo en el registro de integración de ventas. Significa que la fila de origen se sincronizó manualmente, y no por el movimiento de la cola de proyectos. 
 
-El conflicto ocurre porque la fila de destino también se modificó: la marca de tiempo de la fila es más reciente que la marca de tiempo del registro de integración de ventas. La verificación de destino se realiza solo para tablas bidireccionales. 
+El conflicto ocurre porque la fila de destino también se modificó: la marca de tiempo de la fila es más reciente que la marca de tiempo del registro de integración de ventas. La comprobación de destino se realiza solo para tablas bidireccionales. 
 
 Estos registros ahora se mueven a la página "Registros sinc. omitidos", que se abre desde la página Configuración de conexión de Microsoft Dynamics en Business Central. Allí puede especificar los cambios que desea conservar y luego sincronizar nuevamente los registros.
 
 ## <a name="remove-couplings-between-records"></a>Eliminar acoplamientos entre registros
 Cuando algo sale mal en su integración y necesita desacoplar registros para dejar de sincronizarlos, puede hacerlo para uno o más registros a la vez. Puede desacoplar uno o más registros de las páginas de lista o la página **Errores de sincronización de datos acoplados** eligiendo una o más líneas y eligiendo **Eliminar acoplamiento**. También puede eliminar todos los acoplamientos para una o más asignaciones de tabla en la página **Asignaciones de tablas de integración**. 
+
+Si una entidad con un emparejamiento unidireccional se elimina en [!INCLUDE[prod_short](includes/prod_short.md)], debe eliminar manualmente el emparejamiento roto. Para hacer eso, en la página **Errores de sincronización de datos acoplados**, elija la acción **Buscar eliminado** y, a continuación, elimine los acoplamientos.
 
 ## <a name="see-also"></a>Consulte también
 [Integración con Microsoft Dataverse](admin-prepare-dynamics-365-for-sales-for-integration.md)  

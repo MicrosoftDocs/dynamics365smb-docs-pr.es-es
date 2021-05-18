@@ -1,6 +1,6 @@
 ---
-title: Conectar a Microsoft Dataverse | Documentos de Microsoft
-description: Puede integrar otras aplicaciones con Business Central a través de Microsoft Dataverse.
+title: Conectar a Microsoft Dataverse
+description: Puede integrar otras aplicaciones con Business Central a través de Microsoft Dataverse. Este artículo proporciona consejos y trucos para configurar las conexiones.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 04/26/2021
 ms.author: bholtorf
-ms.openlocfilehash: 96ba755a1a32a23197b2bb839e50ebe6a0a1e63b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 00034e8f1be2f88074fb33b53a1c048f81f69ede
+ms.sourcegitcommit: 57e8ab70d70849752567eecf29529efe2dcdf3af
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779787"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5941668"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Conectar a Microsoft Dataverse
+
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
 Este tema describe cómo configurar una conexión entre [!INCLUDE[prod_short](includes/prod_short.md)] y [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Por lo general, las empresas crean la conexión para integrar y sincronizar datos con otra aplicación empresarial de Dynamics 365, como [!INCLUDE[crm_md](includes/crm_md.md)].  
@@ -29,6 +30,7 @@ Hay algunos datos que debe tener listos para crear la conexión:
 * La dirección URL del entorno de [!INCLUDE[cds_long_md](includes/cds_long_md.md)] al que desea conectarse. Si usa la guía de configuración asistida **Configuración de conexión de Dataverse** para crear la conexión descubriremos los entornos, pero también puede introducir la URL de otro entorno en su suscriptor.  
 * El nombre de usuario y la contraseña de una cuenta que tenga permisos de administrador en [!INCLUDE[prod_short](includes/prod_short.md)] y [!INCLUDE[cds_long_md](includes/cds_long_md.md)].  
 * Si tiene [!INCLUDE[prod_short](includes/prod_short.md)], lanzamiento de versiones 1 de 2020, local, versión 16.5, lea el artículo [Algunos problemas conocidos](/dynamics365/business-central/dev-itpro/upgrade/known-issues#wrong-net-assemblies-for-external-connected-services). Deberá completar la solución alternativa descrita antes de poder crear su conexión a [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
+* La divisa local de la empresa en [!INCLUDE[prod_short](includes/prod_short.md)] debe ser la misma que la divisa base de la transacción en [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Después de que se establece una transacción base en [!INCLUDE[cds_long_md](includes/cds_long_md.md)], no se puede cambiar. Para más información, vea [Entidad de divisa de transacción (divisa)](/powerapps/developer/data-platform/transaction-currency-currency-entity). Esto significa que todas las empresas [!INCLUDE[prod_short](includes/prod_short.md)] que conecta a una organización [!INCLUDE[cds_long_md](includes/cds_long_md.md)] deben utilizar la misma divisa.
 
 > [!IMPORTANT]
 > Su ambiente [!INCLUDE[cds_long_md](includes/cds_long_md.md)] no debe estar en modo de administración. El modo de administración hará que la conexión falle porque la cuenta de usuario de integración para la conexión no tiene permisos de administrador. Para obtener más información, consulte [Modo de administración](/power-platform/admin/admin-mode).
@@ -86,17 +88,16 @@ El procedimiento siguiente describe cómo configurar la conexión manualmente en
     <!--Need to verify the details in this table, are these specific to Sales maybe?  IK: No they are not and no longer relevant 
     Enter the following advanced settings.-->
 
-   <!-- |Field|Description|
+    <!-- |Field|Description|
     |-----|-----|
     |**[!INCLUDE[prod_short](includes/prod_short.md)] Users Must Map to CDS Users**|If you are using the Person ownership model, specify whether [!INCLUDE[prod_short](includes/prod_short.md)] user accounts must have a matching user accounts in [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. The **Microsoft 365 Authentication Email** of the [!INCLUDE[prod_short](includes/prod_short.md)] user must be the same as the **Primary Email** of the [!INCLUDE[crm_md](includes/crm_md.md)] user.<br /><br /> If you set the value to **Yes**, [!INCLUDE[prod_short](includes/prod_short.md)] users who do not have a matching [!INCLUDE[crm_md](includes/crm_md.md)] user account will not have [!INCLUDE[prod_short](includes/prod_short.md)] integration capabilities in the user interface. Access to [!INCLUDE[crm_md](includes/crm_md.md)] data directly from [!INCLUDE[prod_short](includes/prod_short.md)] is done on behalf of the [!INCLUDE[crm_md](includes/crm_md.md)] user account.<br /><br /> If you set the value to **No**, all [!INCLUDE[prod_short](includes/prod_short.md)] users will have [!INCLUDE[crm_md](includes/crm_md.md)] integration capabilities in the user interface. Access to [!INCLUDE[crm_md](includes/crm_md.md)] data is done on behalf of the [!INCLUDE[crm_md](includes/crm_md.md)] connection (integration) user.|
     |**Current Business Central Salesperson is Mapped to a User**|Indicates whether your user account is mapped to an account in [!INCLUDE[crm_md](includes/crm_md.md)] double check the name of this field-->|
-
 4. Para probar la configuración de conexión, elija **Conexión** y luego **Probar conexión**.  
 
     > [!NOTE]  
     > Si el cifrado de datos no se ha habilitado en [!INCLUDE[prod_short](includes/prod_short.md)], se le preguntará si desea habilitarlo. Si desea habilitar el cifrado de datos, seleccione **Sí** y proporcione la información necesaria. Si no, elija **No**. Puede habilitar el cifrado de datos más adelante. Para obtener más información, consulte [Cifrado de datos en Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-encrypting-data) en la ayuda para desarrolladores y administradores.  
-
 5. Si aún no está configurada la sincronización de [!INCLUDE[cds_long_md](includes/cds_long_md.md)], se le preguntará si desea utilizar la configuración de sincronización predeterminada. Dependiendo de si desea mantener los registros alineados en [!INCLUDE[cds_long_md](includes/cds_long_md.md)] y [!INCLUDE[prod_short](includes/prod_short.md)], elija **Sí** o **No**.
+
 <!--
 ## Show Me the Process
 
@@ -116,12 +117,12 @@ Si quiere conectarte usando una cuenta de Azure Active Directory (Azure AD), deb
 
 Dataverse debe usar uno de los siguientes tipos de autenticación:
 
-- Office365 (heredado)
+* Office365 (heredado)
 
   > [!IMPORTANT]
   > A partir de abril de 2022, Office365 (heredado) ya no será compatible. Para obtener más información, consulte [Próximos cambios importantes (ceses de uso) en Power Apps, Power Automate y aplicaciones de interacción con el cliente](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse).
-- Office365 (moderno, basado en secreto de cliente OAuth2)
-- OAuth
+* Office365 (moderno, basado en secreto de cliente OAuth2)
+* OAuth
 
 ### <a name="to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-dataverse"></a>Para registrar una solicitud en Azure AD para conectarse desde Business Central a Dataverse
 
@@ -148,7 +149,7 @@ Se parte de la base que para los siguientes pasos está usando Azure AD para ges
 
 #### <a name="using-another-identity-and-access-management-service"></a>Usar otro servicio de administración de identidades y accesos
 
-Si no estas usando Azure Active Directory para administrar las identidades y el acceso, necesitará ayuda de un desarrollador. Si prefiere almacenar el identificador y el secreto de la aplicación en una ubicación diferente, puede dejar en blanco los campos Id . del cliente y Secreto del cliente y escribir una extensión para obtener el identificador y el secreto de la ubicación. Puede proporcionar el secreto en tiempo de ejecución suscribiéndose a los eventos OnGetCDSConnectionClientId y OnGetCDSConnectionClientSecret en codeunit 7201 "Impl. de CDS Integration".
+Si no estas usando Azure Active Directory para administrar las identidades y el acceso, necesitará ayuda de un desarrollador. Si prefiere almacenar el identificador y el secreto de la aplicación en una ubicación diferente, puede dejar en blanco los campos Id . del cliente y Secreto del cliente y escribir una extensión para obtener el identificador y el secreto de la ubicación. Puede proporcionar el secreto en tiempo de ejecución suscribiéndose a los eventos `OnGetCDSConnectionClientId` y `OnGetCDSConnectionClientSecret` de codeunit 7201 `CDS Integration Impl.`.
 
 ### <a name="to-disconnect-from-cds_long_md"></a>Para desconectar de [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
@@ -158,6 +159,5 @@ Si no estas usando Azure Active Directory para administrar las identidades y el 
 ## <a name="see-also"></a>Consulte también
 
 [Ver el estado de una sincronización](admin-how-to-view-synchronization-status.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

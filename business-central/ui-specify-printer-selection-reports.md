@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 67e6c0fe9a9653d243b7fd221ed004a1f1495ddf
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 69c5ab889ae1fe98d50c04e31f47ecc28cc0e1b0
+ms.sourcegitcommit: 08ca5798cf3f04fc3ea38fff40c1860196a70adf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783139"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "5985417"
 ---
 # <a name="set-up-printers"></a>Configuración de impresoras
 
@@ -36,11 +36,13 @@ Para satisfacer sus necesidades de impresión, [!INCLUDE[prod_short](includes/pr
 
 Impresión universal es un servicio basado en suscripción de Microsoft 365 que se ejecuta completamente en Microsoft Azure. Le brinda una administración centralizada de la impresora a través del portal de Impresión universal. [!INCLUDE[prod_short](includes/prod_short.md)] hace que las impresoras configuradas en Impresión universal estén disponibles para los usuarios cliente a través de la extensión **Integración de Impresión universal**.
 
+![Configuración de impresión universal](media/Universal-Print-arch.png)
+
 La configuración completa requiere que trabaje en Microsoft Azure, usando [Azure Portal](https://posrtal.azure.com), y en [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ### <a name="supported-printers"></a>Impresoras compatibles
 
-[!INCLUDE[prod_short](includes/prod_short.md)] admite las mismas impresoras que Impresión universal, que pueden ser impresoras compatibles con Impresión universal o no compatibles. Las impresoras no compatibles no pueden comunicarse directamente con Impresión universal, por lo que requieren un software de conector adicional, que es proporcionado por Impresión universal. Es posible que algunas impresoras más antiguas no sean compatibles.
+[!INCLUDE[prod_short](includes/prod_short.md)] admite las mismas impresoras que Impresión universal, que pueden ser impresoras compatibles con Impresión universal o no compatibles. Las impresoras no compatibles no pueden comunicarse directamente con Impresión universal, por lo que requieren un software de conector adicional, que es proporcionado por Impresión universal. Es posible que algunas impresoras más antiguas no sean compatibles. 
 
 <!-- TODO If not installed, go to AppSource -->
 

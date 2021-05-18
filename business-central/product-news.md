@@ -7,12 +7,12 @@ ms.topic: get-started-article
 ms.search.keywords: news, release plan, roadmap, whats new
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 563c7bba28fec8d8bf7c212410227c1fb32c8b59
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4bfa57850f86c243ddb3c7394f59296aceb90437
+ms.sourcegitcommit: 57e8ab70d70849752567eecf29529efe2dcdf3af
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788057"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5941643"
 ---
 # <a name="new-and-planned-for-dynamics-365-business-central"></a>Novedades y planificación de Dynamics 365 Business Central
 
@@ -27,6 +27,8 @@ La siguiente lista proporciona información sobre las últimas versiones de [!IN
 * [Lanzamiento de versiones 1 de 2020](/dynamics365-release-plan/2020wave1/dynamics365-business-central/planned-features)  
 
 También puede explorar el sitio [Capacidades de Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/capabilities/) y el sitio [Hoja de ruta de Dynamics 365 Business Central](https://dynamics.microsoft.com/roadmap/business-central/).  
+
+<!--comment out for 3 days[![RSS Subscription](/dynamics365-release-plan/media/feed-icon.png "RSS Subscription")](https://go.microsoft.com/fwlink/?linkid=2161350) Updates to Dynamics 365 Business Central documentation-->
 
 ## <a name="see-also"></a>Consulte también
 

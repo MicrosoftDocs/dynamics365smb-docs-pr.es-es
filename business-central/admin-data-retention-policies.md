@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delete, data, retention, policy, policies
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: e9d8f9fc9b74df561aab3109b631fc10c7f46108
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5b962ed463a37e578371df193bca887774232ba5
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780062"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935341"
 ---
 # <a name="define-retention-policies"></a>Definir directivas de retención
 Los administradores pueden definir directivas de retención para especificar con qué frecuencia desean que [!INCLUDE[prod_short](includes/prod_short.md)] elimine datos desactualizados en tablas que contienen entradas de registro y registros archivados. Por ejemplo, limpiar las entradas de registro puede facilitar el trabajo con los datos que son realmente relevantes. Las directivas pueden incluir todos los datos de las tablas que superan la fecha de vencimiento, o puede agregar criterios de filtro que incluirán solo ciertos datos vencidos en la directiva. 
@@ -67,7 +67,7 @@ Cuando un desarrollador agrega una tabla, puede especificar filtros obligatorios
 
 Los siguientes son ejemplos de cómo agregar una tabla a la lista de tablas permitidas con y sin filtros obligatorios o predeterminados. Para obtener un ejemplo más complejo, consulte codeunit 3999 "Reten. Pol. Instalar - BaseApp". 
 
-```
+```al
  trigger OnInstallAppPerCompany()
     var
         RetenPolAllowedTables: Codeunit "Reten. Pol. Allowed Tables";
@@ -78,7 +78,7 @@ Los siguientes son ejemplos de cómo agregar una tabla a la lista de tablas perm
 
 El siguiente ejemplo incluye un filtro obligatorio.
 
-```
+```al
  trigger OnInstallAppPerCompany()
     var
         ChangeLogEntry: Record "Change Log Entry";
@@ -98,9 +98,12 @@ El siguiente ejemplo incluye un filtro obligatorio.
         RetenPolAllowedTables.AddAllowedTable(Database::"Change Log Entry", ChangeLogEntry.FieldNo(SystemCreatedAt), TableFilters);
     end;
 ```
+
 Una vez que un desarrollador ha agregado tablas a la lista, un administrador puede incluirlas en una directiva de retención. 
 
 ## <a name="see-also"></a>Consulte también
+
+[Análisis de la telemetría de seguimiento de la política de retención](/dynamics365/business-central/dev-itpro/administration/telemetry-retention-policy-trace)  
 [Auditar cambios en Business Central](across-log-changes.md)  
 [Filtrado](ui-enter-criteria-filters.md#filtering)  
 [Uso de colas de proyectos para programar tareas](admin-job-queues-schedule-tasks.md)  
