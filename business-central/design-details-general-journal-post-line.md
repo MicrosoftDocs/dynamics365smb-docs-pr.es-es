@@ -8,27 +8,31 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, general journal, posting, codeunit 12
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 3ea2ea8a4ef5bbdff70346022ee226fd5e26748d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8492c83437be4cd850bafdaaa5dc70d00a075674
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777828"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215233"
 ---
 # <a name="design-details-general-journal-post-line"></a>Detalles de diseño: línea de registro en diario general
-En esta documentación se proporciona información técnica detallada de los conceptos y los principios que se usan para rediseñar la función de línea de registro en el diario general en [!INCLUDE[prod_short](includes/prod_short.md)]. El nuevo diseño hace la codeunit 12 más sencillo y más fácil de mantener. La documentación comienza con la descripción de la información general conceptual del rediseño. A continuación, explica la arquitectura técnica para mostrar los cambios resultantes del nuevo diseño.  
 
-## <a name="in-this-section"></a>En esta sección  
+En esta documentación se proporciona información técnica detallada de los conceptos y los principios que se usaron para rediseñar la función de línea de registro en el diario general en [!INCLUDE[prod_short](includes/prod_short.md)]. El nuevo diseño hizo que codeunit 12 fuera más sencillo y más fácil de mantener. La documentación comienza con la descripción de la información general conceptual del rediseño. A continuación, explica la arquitectura técnica para mostrar los cambios resultantes del nuevo diseño.  
+
+> [!IMPORTANT]
+> La información de esta sección se aplica al rediseño en una versión anterior del producto, Microsoft Dynamics NAV 2013 R2.
+
+## <a name="in-this-section"></a>En esta sección
+
 [Descripción de la línea de registro en diario general](design-details-general-journal-post-line-overview.md)  
 [Detalles de diseño: estructura de interfaz de registro](design-details-posting-interface-structure.md)  
 [Detalles de diseño: estructura de motor de registro](design-details-posting-engine-structure.md)  
-[Cambios en codeunit 12: asociación de variables globales para línea de registro en diario general](design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)  
-[Cambios en la codeunit 12: cambios en los procedimientos de registro en el diario general](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)  
 
-## <a name="see-also"></a>Consulte también  
+## <a name="see-also"></a>Consulte también
+
 [Trabajar con diarios generales](ui-work-general-journals.md)
-
+[Detalles de diseño: Línea de registro en el diario general (Dynamics NAV)](/dynamics-nav-app/design-details-general-journal-post-line)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

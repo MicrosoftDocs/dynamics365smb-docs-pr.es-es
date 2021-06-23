@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: procurement
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 767bbf0160f35b68eebe48c0bcf4fbc4311d3ce0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 3822566d239d6fda0cc314a3c9f20ac909943886
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772677"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115845"
 ---
 # <a name="record-purchases-with-purchase-invoices"></a>Registrar compras con facturas de compra
 
@@ -100,6 +100,10 @@ La compra ahora se refleja en el inventario, en los movimientos de recursos y en
 Puede corregir o cancelar fácilmente una factura de compra registrada antes de pagar al proveedor. Esto es útil si se desea corregir un error de escritura o si desea cambiar la compra de forma anticipada en el proceso de pedido. Para obtener más información, vea [Corregir o cancelar las facturas de compra sin abonar](purchasing-how-correct-cancel-unpaid-purchase-invoices.md) Si ya ha pagado productos o servicios en la factura de compra registrada, deberá crear un abono de compra para revertir la compra. Para obtener más información, vea [Procesar devoluciones de compra o cancelaciones](purchasing-how-process-purchase-returns-cancellations.md).
 
 [Abra la lista **Histórico facturas compra**](https://businesscentral.dynamics.com/?page=146) en [!INCLUDE [prod_short](includes/prod_short.md)].
+
+## <a name="external-document-number"></a>Número de documento externo
+
+[!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/processing-invoices-dynamics-365-business-central/index)
 

@@ -8,12 +8,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 978989e12fc8c5ac236bb1dda1a8a5d1c2687de2
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a4304b80e453296a3012d9e68ecc416371ee0ad3
+ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772284"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6063407"
 ---
 # <a name="send-documents-and-emails"></a>Enviar documentos y correo electrónico
 Puede compartir fácilmente información y documentos, como órdenes de compra y venta y facturas, por correo electrónico directamente desde [!INCLUDE[prod_short](includes/prod_short.md)]], sin tener que abrir una aplicación de correo electrónico. 
@@ -56,7 +56,7 @@ Este procedimiento describe cómo adjuntar una factura de venta registrada a un 
 Algunos documentos de [!INCLUDE[prod_short](includes/prod_short.md)] tienen un campo que especifica cuántas veces se ha impreso el documento. El número en ese campo <!--"that field?" need a name...--> también se actualiza si envía el documento por correo electrónico porque se genera un archivo PDF para él. El número se actualiza incluso si no envía el correo electrónico. <!--guessing this is because emails are technically reports, so the counter bumps up whenever someone creates an email. Need to verify.-->
 
 ## <a name="sent-emails-and-your-email-outbox"></a>Correos electrónicos enviados y su bandeja de salida de correo electrónico
-[!INCLUDE[prod_short](includes/prod_short.md)]] almacena los correos electrónicos que envía en la página **Elementos enviados**. Eso le permite reenviar correos electrónicos o reenviarlos a otra persona. Si no puede encontrar un correo electrónico en sus artículos enviados, búsquelo en la página **Bandeja de salida de correo electrónico**. 
+[!INCLUDE[prod_short](includes/prod_short.md)] almacena los correos electrónicos que envía en la página **Elementos enviados**. Eso le permite reenviar correos electrónicos o reenviarlos a otra persona. Si no puede encontrar un correo electrónico en sus artículos enviados, búsquelo en la página **Bandeja de salida de correo electrónico**. 
 
 > [!NOTE]
 > Dependiendo de la extensión que su empresa utilice para el correo electrónico, los administradores pueden ver una lista de mensajes que todos han enviado, pero no el contenido de los mensajes.

@@ -1,5 +1,5 @@
 ---
-title: Plan de suministro | Documentos de Microsoft
+title: Planificación de suministros
 description: Preparar un plan ejecutable detallado y el programa de montaje final de producción para venta y la demanda de producción.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 81befcda5dc4ae9e46ff02e98701fcb9c7a074dc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 63e20afbfeda9450c4b636a660549c822cc0e5da
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785403"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115495"
 ---
 # <a name="planning"></a>Planificación
 
@@ -36,8 +36,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Entienda cómo funcionan todos los aspectos del sistema de planificación y cómo ajustar los algoritmos para cumplir con los requisitos de planificación en distintos entornos.|[Detalles de diseño: Planificación de aprovisionamiento](design-details-supply-planning.md)|
 |Aprender cómo la lógica de planificación diferencia entre la demanda en ubicaciones según la configuración UA y la demanda sin códigos de ubicación.|[Planificación con o sin almacenes](production-planning-with-without-locations.md)|
 |Previsión de la demanda presentada por ventas previstas y componentes de producción.|[Crear una previsión de la demanda](production-how-to-create-a-forecast.md)|  
-|Crear órdenes de producción una a una automáticamente a partir del pedido de ventas, para cubrir la demanda exacta de la línea de pedido de ventas.|[Crear órdenes de producción desde pedidos de venta](production-how-to-create-production-orders-from-sales-orders.md)|
-|Crear una orden de producción de proyecto directamente desde un pedido de ventas multilínea que represente un proyecto de producción.|[Planificar órdenes de proyecto](production-how-to-plan-project-orders.md)|
+|Crear órdenes de producción o proyecto una a una automáticamente a partir del pedido de ventas, para cubrir la demanda exacta de la línea de pedido de ventas.|[Crear órdenes de producción desde pedidos de venta](production-how-to-create-production-orders-from-sales-orders.md)|
 |Utilizar la página **Programación de pedidos** para planificar manualmente para la demanda de ventas o producción un nivel L.MAT. de producción a la vez.|[Planear la nueva demanda de pedido por pedido](production-how-to-plan-for-new-demand.md)|
 |Utilice la página **Hoja de planificación** para ejecutar las opciones de MPS y MRP para crear automáticamente alto nivel o planificación detallada en todos los niveles de producto.|[Ejecutar la planificación completa, MPS o MRP](production-how-to-run-mps-and-mrp.md)|
 |Use la página **Hoja de demanda** para crear automáticamente un plan de suministro detallado que cubra la demanda de artículos que sólo se reponen por compra o transferencia.|[Hoja de demanda](production-about-planning-functionality.md#requisition-worksheet)|  

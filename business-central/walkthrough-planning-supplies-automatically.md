@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e7d15b47124248e27698136fab362e867e81ba47
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4e790c33cb10e9e71d8ec6f9482615c41562e379
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782889"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6214708"
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Tutorial: planificación automática de suministros
 
-[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálculo del programa maestro de producción (MPS) y del plan de necesidades de material (MRP) basándose en la demanda real y prevista.  
 
@@ -265,7 +265,7 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
 
 ## <a name="see-also"></a>Consulte también  
  [Tutoriales de procesos empresariales](walkthrough-business-process-walkthroughs.md)   
- [Tutorial: planificación manual de suministros](walkthrough-planning-supplies-manually.md)   
+<!--  [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)    -->
  [Detalles de diseño: Planificación de aprovisionamiento](design-details-supply-planning.md)
 
 

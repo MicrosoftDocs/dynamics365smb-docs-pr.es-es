@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a425b974bf37b440de27f2b469694f9e8eac07de
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bbfe0237beb58f22d3be7bc388d7b2726f05d4ba
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785704"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6214758"
 ---
 # <a name="trace-item-tracked-items"></a>Realizar seguimiento de productos seguidos
 Puede ver donde se ha utilizado un producto marcado para seguimiento, incluso cómo y dónde se recibió o se produjo, transfirió, vendió, consumió o devolvió. También puede encontrar todas las instancias actuales de un número de serie o de lote específico en la base de datos. Puede hacerlo con las características Seguimiento de producto y [Buscar movimientos](ui-find-entries.md).  
@@ -26,7 +26,7 @@ Estas funciones pueden ser especialmente útiles en controles de calidad en los 
 
  En la página **Buscar movimientos**, no puede ver la secuencia de transacciones, pero puede ver todos los registros del número de serie o de lote, tanto las entradas registradas como los registros abiertos.  
 
- Las dos características se pueden utilizar en combinación mediante la transferencia de un número de serie o de lote rastreado a la página **Buscar movimientos** para terminar un escenario del seguimiento completo. Si desea obtener más información, consulte [Tutorial: seguimiento de números de serie-lote](walkthrough-tracing-serial-lot-numbers.md).  
+ Las dos características se pueden utilizar en combinación mediante la transferencia de un número de serie o de lote rastreado a la página **Buscar movimientos** para terminar un escenario del seguimiento completo. <!-- For more information, see [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md).   -->
 
 ## <a name="to-trace-item-tracked-items"></a>Para controlar productos seguidos  
 
@@ -72,7 +72,7 @@ Estas funciones pueden ser especialmente útiles en controles de calidad en los 
 [Detalles de diseño: Seguimiento de productos y reservas](design-details-item-tracking-and-reservations.md)  
 [Reservar artículos](inventory-how-to-reserve-items.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Tutorial: seguimiento de números de serie-lote](walkthrough-tracing-serial-lot-numbers.md)  
+<!-- [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md)   -->
 [Buscar movimientos](ui-find-entries.md)  
 
 

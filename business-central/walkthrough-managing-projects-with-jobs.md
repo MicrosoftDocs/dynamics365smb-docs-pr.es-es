@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8129028749f0f0bb6a809d66dbba8d623034769f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0d65485275ce4e7516a0b19aafa609429b8d7616
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782912"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6214733"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Tutorial: administración de programas con proyectos
 
-[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 Este tutorial le presenta a las funciones de administración de programas en los trabajos. Los proyectos le permiten programar el uso de los recursos de su empresa y realizar un seguimiento de los diversos costes asociados con los recursos de un proyecto específico. Los proyectos implican el consumo de horas de mano de obra, horas de maquinaria, productos de inventario y otros tipos de consumo que es posible que desee controlar a medida que avance un proyecto.  
 
@@ -64,11 +64,11 @@ Este tutorial le presenta a las funciones de administración de programas en los
 ## <a name="prerequisites"></a>Requisitos previos  
  Para poder realizar las tareas del tutorial, deberá hacer lo siguiente:  
 
-- Instale la base de datos de demostración CRONUS España S.A.
+- Instale la base de datos de demostración CRONUS.
 - Cree datos de ejemplo como indican los pasos de la siguiente sección.  
 
 ## <a name="story"></a>Historia  
-Este tutorial se centra en la empresa CRONUS España S.A., una empresa de diseño y consultoría que diseña y ajusta nuevas infraestructuras, (como salas de conferencias y oficinas) con mobiliario, accesorios y unidades de almacenamiento. La mayor parte de su trabajo está orientado a los proyectos. Prakash es director de proyectos en CRONUS. Utiliza proyectos para darle un panorama de cada proyecto en curso que CRONUS ha iniciado, además de los proyectos finalizados. Normalmente es uno de los que trata con los clientes e introduce el núcleo del proyecto, que son líneas de tareas y de planificación, además de los precios, en [!INCLUDE[prod_short](includes/prod_short.md)]. Observa que crear, mantener y revisar la información es directo. Prakash también considera positiva la forma en que [!INCLUDE[prod_short](includes/prod_short.md)] activa copiar los trabajos y el pago por plazos.
+Este tutorial se centra en CRONUS, una empresa de diseño y consultoría, que diseña y equipa nuevas infraestructuras, como salas de conferencias y oficinas, con mobiliario, accesorios y unidades de almacenamiento. La mayor parte de su trabajo está orientado a los proyectos. Prakash es director de proyectos en CRONUS. Utiliza proyectos para darle un panorama de cada proyecto en curso que CRONUS ha iniciado, además de los proyectos finalizados. Normalmente es uno de los que trata con los clientes e introduce el núcleo del proyecto, que son líneas de tareas y de planificación, además de los precios, en [!INCLUDE[prod_short](includes/prod_short.md)]. Observa que crear, mantener y revisar la información es directo. Prakash también considera positiva la forma en que [!INCLUDE[prod_short](includes/prod_short.md)] activa copiar los trabajos y el pago por plazos.
 
  Tricia, miembro del equipo del proyecto que depende de Prakash, es la responsable de supervisar el día a día del proyecto. Ella introduce su propio trabajo además del trabajo realizado por técnicos en cada tarea. Ella registra los productos que han utilizado y los costes en los que han incurrido.  
 

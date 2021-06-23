@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 136a96c880c7abf9b082d7f8859e484be54da4e1
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6683d8b3a01693d23366f95292eb92f0aabcd268
+ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777341"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6184504"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Integración con Dynamics 365 Sales
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -44,7 +44,6 @@ Cuando instala la solución de integración, se configuran los permisos para la 
 * Usuario de disponibilidad de producto de Dynamics 365 Business Central
 
 ### <a name="connection-settings-in-the-setup-guide"></a>Configuración de conexión en la Guía de configuración
-
 Puede usar una guía de configuración asistida para configurar rápidamente la conexión y especificar si se activarán características avanzadas, como el emparejamiento entre los registros.
 
 1. Seleccione **Configuración y extensiones** y después seleccione **Configuración asistida**.
@@ -56,11 +55,10 @@ Puede usar una guía de configuración asistida para configurar rápidamente la 
 |--|--|
 | **Importar la solución de Dynamics 365 Sales** | Active esta opción para instalar y configurar para la detección de integración en [!INCLUDE[crm_md](includes/crm_md.md)]. <!--For more information, see [About the Base CDS Integration Solution](admin-common-data-service.md#about-the-business-central-integration-solution). Need to add a new topic--> |
 | **Publicar servicio web de disponibilidad de artículo** | Permitir que las personas que utilizan [!INCLUDE[crm_md](includes/crm_md.md)] consulten la disponibilidad de los artículos (productos) en inventario en [!INCLUDE[prod_short](includes/prod_short.md)]. Para ello es necesario que una cuenta de usuario de [!INCLUDE[prod_short](includes/prod_short.md)] tenga una clave de acceso de los servicios web. La asignación de la clave es un proceso de dos etapas. En la cuenta de usuario en [!INCLUDE[prod_short](includes/prod_short.md)] debe elegir la acción **Cambiar clave de servicio Web** . En la guía asistida Configurar la conexión de Dynamics 365 Sales debe especificar ka URL de servicio web OData de Dynamics 365 Business Central y proporcionar las credenciales de usuario de [!INCLUDE[prod_short](includes/prod_short.md)] para acceder al servicio. Para obtener más información, consulte [Servicios web OData](/dynamics365/business-central/dev-itpro/webservices/odata-web-services). |
-| **URL de servicios web OData de Business Central** | Si habilita el servicio web para ver la disponibilidad de producto, la URL del servicio web OData se proporciona automáticamente. |
-| **Nombre de usuario del servicio web OData de Business Central** | El nombre de la cuenta de usuario de [!INCLUDE[prod_short](includes/prod_short.md)] que [!INCLUDE[crm_md](includes/crm_md.md)] usa para recuperar información sobre disponibilidad de productos en [!INCLUDE[prod_short](includes/prod_short.md)] a través del servicio web OData. |
+|**Nombre de usuario del servicio web OData de Business Central** | El nombre de la cuenta de usuario de [!INCLUDE[prod_short](includes/prod_short.md)] que [!INCLUDE[crm_md](includes/crm_md.md)] usa para recuperar información sobre disponibilidad de productos en [!INCLUDE[prod_short](includes/prod_short.md)] a través del servicio web OData. |
 | **Clave de acceso del servicio web OData de Business Central** | La clave de acceso de la cuenta de usuario que [!INCLUDE[crm_md](includes/crm_md.md)] usa para obtener información sobre disponibilidad de productos en [!INCLUDE[prod_short](includes/prod_short.md)] a través del servicio web OData. La clave se asigna al usuario seleccionado en el campo **Nombre de usuario de servicio web OData de Business Central**. Para obtener la clave, seleccione el botón **Valor de búsqueda** para el nombre de usuario, elija el usuario, elija **Administrar** y, a continuación **Editar**. En la ficha de usuario, elija **Acciones**, **Autenticación** y después seleccione **Cambiar clave de servicio Web**. |
 | **Habilitar integración de pedido de venta** | Cuando los usuarios crean pedidos de venta en [!INCLUDE[crm_md](includes/crm_md.md)] y completan pedidos [!INCLUDE[prod_short](includes/prod_short.md)], se integra el proceso en [!INCLUDE[crm_md](includes/crm_md.md)]. Para obtener más información, consulte [Activar la integración de procesamiento de pedidos de venta](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). Para ello es necesario que proporcione las credenciales de una cuenta de usuario de administrador en [!INCLUDE[crm_md](includes/crm_md.md)]. Para obtener más información, consulte [Manejo de datos de pedidos de ventas especiales](marketing-integrate-dynamicscrm.md#handling-sales-order-data). |
-| **Habilitar la conexión de CDS** | Habilitar la conexión a [!INCLUDE[prod_short](includes/cds_long_md.md)]. |
+|**Habilitar la conexión de Dynamics 365 Sales** | Habilitar la conexión a [!INCLUDE[crm_md](includes/crm_md.md)]. |
 | **Versión de Dynamics 365 SDK** | Solo es relevante si va a realizar la integración con una versión local de [!INCLUDE[crm_md](includes/crm_md.md)]. Se trata del kit de desarrollo de software de Dynamics 365 (también designado Xrm) que se utiliza para conectar [!INCLUDE[prod_short](includes/prod_short.md)] a [!INCLUDE[crm_md](includes/crm_md.md)]. La versión debe ser compatible con la versión de SDK que utiliza [!INCLUDE[crm_md](includes/crm_md.md)] e igual o más nueva que la versión que utiliza [!INCLUDE[crm_md](includes/crm_md.md)]. |
 
 ### <a name="connection-settings-on-the-microsoft-dynamics-365-connection-setup-page"></a>Configuración de conexión en la página de configuración de conexión de Microsoft Dynamics 365

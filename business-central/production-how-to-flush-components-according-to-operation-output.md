@@ -10,17 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d1448b9105426103d70abfb820bd38b6adb41db8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 82d5148bd99870b623a0b37693e105bcf8b862b2
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779258"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115870"
 ---
 # <a name="flush-components-according-to-operation-output"></a>Bajar componentes según la salida de la operación
 Puede definir diferentes estrategias de baja para automatizar el registro de consumo de componentes. 
-
-Por ejemplo, si una orden de producción para producir 800 metros requiere 8 kg de un componente, cuando se registran 200 metros como salida, se registran automáticamente 2 kg de consumo. 
 
 Esta funcionalidad se útil por los motivos siguientes:  
 
@@ -34,7 +32,62 @@ Esta funcionalidad se útil por los motivos siguientes:
 
     Con la posibilidad de personalizar los productos para las solicitudes de cliente, puede minimizar la pérdida de tiempo de asegurarse de que solo se produzcan cambios de trabajo y del sistema si es necesario.  
 
-Puede lograrlo combinando códigos de vínculo de ruta y baja hacia atrás de modo que la cantidad que se baja para cada operación es proporcional a la salida real de la operación terminada. Para los productos que se configuran con el método de baja hacia atrás, el comportamiento predeterminado es calcular y registrar el consumo de componentes cuando cambie el estado de una orden de producción lanzada a **Terminada**. Si también define los códigos de vínculo de ruta, el cálculo y el registro se producen cuando termina cada operación, y se registra la cantidad realmente consumida en la operación. Para obtener más información, consulte [Crear rutas](production-how-to-create-routings.md).  
+- **Reducir la introducción de datos**
+
+    Con la posibilidad de realizar el consumo automático de una operación, se puede automatizar el proceso completo del registro del consumo y la salida. El inconveniente es que podría no registrar con exactitud, o ni siquiera advertir la existencia de rechazo.
+
+## <a name="automatic-consumption-posting-flushing-methods"></a>Métodos de registro automático del consumo (consumo automático)  
+
+- Baja hacia adelante de toda la orden  
+- Baja hacia adelante por operación  
+- Baja hacia atrás por operación  
+- Baja hacia atrás de toda la orden  
+
+### <a name="automatic-reporting---forward-flush-the-entire-order"></a>Registro automático - Baja hacia adelante de toda la orden  
+Si realiza la baja hacia adelante de la orden de producción al comienzo del proyecto, el comportamiento de la aplicación es muy parecido al del consumo manual. La diferencia principal es que el consumo tiene lugar automáticamente.  
+
+- Todo el contenido de la lista de materiales de producción se consume y deduce de las existencias en el momento en que se actualiza la orden de producción lanzada.  
+- La cantidad de consumo es la cantidad por montaje indicada en la lista de materiales de producción, multiplicada por el número de productos principales que se esté produciendo.  
+- No es necesario registrar ninguna información en el diario de consumo si se va a llevar a cabo la baja de todos los productos.  
+- Al consumir los productos desde las existencias, no importa en qué momento se realizan los movimientos del diario de salida, ya que este diario no tiene efecto alguno en esto modo de registro del consumo.  
+- No se pueden definir códigos de conexión de ruta.  
+
+La baja hacia adelante de toda la orden está indicada en entornos de producción con:  
+
+-   Un número reducido de defectos  
+-   Un número reducido de operaciones  
+-   Un alto consumo de componentes en las operaciones iniciales  
+
+### <a name="automatic-reporting---forward-flushing-by-operation"></a>Registro automático - Baja hacia adelante por operación  
+El consumo por operación le permite realizar deducciones en las existencias durante una operación concreta de la ruta del producto principal. El material se enlaza a la ruta mediante códigos de conexión de ruta, que se corresponden con los códigos de conexión de ruta aplicados a los componentes en la lista de materiales de producción.  
+
+El consumo tiene lugar cuando se inicia la operación con el mismo código de conexión de ruta. Se entiende que se ha iniciado cuando se registra alguna actividad en el diario de salida relativa a la operación. La actividad podría ser simplemente la introducción de un tiempo de preparación.  
+
+La cantidad de consumo es la cantidad por montaje indicada en la lista de materiales de producción, multiplicada por el número de productos principales que se esté produciendo (cantidad prevista).  
+
+Esta técnica está indicada en casos en que haya un gran número de operaciones y algunos componentes no se necesitan hasta más adelante en la secuencia de montaje. De hecho, en una configuración Just-in-Time (JIT), los productos podrían no estar listos cuando se empieza la orden de producción lanzada.  
+
+El material se puede consumir durante las operaciones mediante el uso de códigos de conexión de ruta. Algunos componentes no se pueden usar hasta las operaciones finales de montaje y no se deben retirar de las existencias hasta ese momento.  
+
+### <a name="automatic-reporting---back-flushing-by-operation"></a>Registro automático - Baja hacia atrás por operación  
+La baja hacia atrás por operación registra el consumo una vez que se ha registrado la operación en el diario de salida.  
+
+La ventaja de este método es que se conoce el número de piezas principales acabadas de la operación.  
+
+El material de la lista de materiales de producción se enlaza a los registros de la ruta mediante códigos de conexión de ruta. La baja hacia atrás se produce cuando se registra con una cantidad acabada una operación con un código de conexión de ruta concreto.  
+
+La cantidad de baja es la cantidad por montaje indicada en la lista de materiales de producción multiplicada por el número de productos principales registrados como cantidad de salida en la operación. Puede no ser la cantidad prevista.  
+
+### <a name="automatic-reporting---back-flushing-the-entire-order"></a>Registro automático - Baja hacia atrás de toda la orden  
+En este método no se tienen en cuenta los códigos de conexión de ruta.  
+
+No se selecciona ningún componente hasta que el estado de la orden de producción lanzada se cambia a *Terminada*. La cantidad de consumo es la cantidad por montaje indicada en la lista de materiales de producción, multiplicada por el número de productos principales que se han terminado y agregado a las existencias.  
+
+Efectuar la baja retroactiva de toda la orden de producción requiere la misma configuración que la baja hacia adelante: el método de creación de informes se debe establecer en hacia atrás en la tarjeta de producto para todos los productos de la lista de materiales principal. Además, todos los códigos de conexión de ruta se deben eliminar de la lista de materiales de producción. 
+
+
+
+Por ejemplo, si una orden de producción para producir 800 metros requiere 8 kg de un componente, cuando se registran 200 metros como salida, se registran automáticamente 2 kg de consumo. Puede lograrlo combinando códigos de vínculo de ruta y baja hacia atrás de modo que la cantidad que se baja para cada operación es proporcional a la salida real de la operación terminada. Para los productos que se configuran con el método de baja hacia atrás, el comportamiento predeterminado es calcular y registrar el consumo de componentes cuando cambie el estado de una orden de producción lanzada a **Terminada**. Si también define los códigos de vínculo de ruta, el cálculo y el registro se producen cuando termina cada operación, y se registra la cantidad realmente consumida en la operación. Para obtener más información, consulte [Crear rutas](production-how-to-create-routings.md).  
 
 ## <a name="to-flush-components-according-to-operation-output"></a>Para bajar componentes según la salida de la operación
 

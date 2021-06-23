@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: bc4e39727abcb0bfabb9580ad79e47e9c0b4495b
-ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
+ms.openlocfilehash: 15a6f009095c2e20cf65d38503a7c737e64e7bb8
+ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5882160"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6074692"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Descripción general de Business Central y Microsoft Teams
 
@@ -49,7 +49,7 @@ Copie un vínculo a cualquier registro de Business Central y péguelo en una con
 
 Una vez en la conversación, usted y sus compañeros de trabajo pueden ver más detalles sobre el registro, editar datos y tomar medidas, sin salir de Teams.
 
-Para obtener más información, consulte [Trabajar con datos de Business Central en Microsoft Teams](across-working-with-teams.md).
+Para obtener más información, consulte [Compartir registros en Microsoft Teams](across-working-with-teams.md).
 
 ## <a name="get-started"></a>Introducción
 
@@ -62,7 +62,7 @@ Para obtener más información, consulte [Trabajar con datos de Business Central
 
 2. Como administrador, consulte [Administrar la integración de Microsoft Teams con Business Central](admin-teams-integration.md) para obtener información sobre cómo configurar los usuarios para trabajar con [!INCLUDE [prod_short](includes/prod_short.md)] y Teams.
 3. Instalar una aplicación de [!INCLUDE [prod_short](includes/prod_short.md)] en Teams. Consulte [Instalar la aplicación [!INCLUDE [prod_short](includes/prod_short.md)] para Microsoft Teams](across-install-app-for-teams.md).
-4. Una vez que la aplicación esté instalada, estará listo para comenzar. Consulte [Trabajar con datos de Business Central en Teams](across-working-with-teams.md). 
+4. Una vez que la aplicación esté instalada, estará listo para comenzar. Vea [Búsqueda de clientes, proveedores y otros contactos de Microsoft Teams](across-search-contacts-teams.md) y [Compartir registros en Microsoft Teams](across-working-with-teams.md). 
 
 ## <a name="see-also"></a>Consulte también
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/26/2021
 ms.author: bholtorf
-ms.openlocfilehash: 00034e8f1be2f88074fb33b53a1c048f81f69ede
-ms.sourcegitcommit: 57e8ab70d70849752567eecf29529efe2dcdf3af
+ms.openlocfilehash: ebe708efacbaa03d5f10deb7b21b090222f28818
+ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5941668"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6063482"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Conectar a Microsoft Dataverse
 
@@ -126,7 +126,7 @@ Dataverse debe usar uno de los siguientes tipos de autenticación:
 
 ### <a name="to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-dataverse"></a>Para registrar una solicitud en Azure AD para conectarse desde Business Central a Dataverse
 
-Se parte de la base que para los siguientes pasos está usando Azure AD para gestionar identidades y accesos. Para obtener más información sobre cómo registrar una aplicación en Azure AD, vea [Inicio rápido: Registrar una aplicación con la plataforma de identidad de Microsoft](/azure/active-directory/develop/quickstart-register-app). Si no usa Azure AD, vea [Usar otro servicio de administración de identidades y accesos](admin-how-to-set-up-a-dynamics-crm-connection.md#using-another-identity-and-access-management-service).  
+Se parte de la base que para los siguientes pasos está usando Azure AD para gestionar identidades y accesos. Para obtener más información sobre cómo registrar una aplicación en Azure AD, vea [Inicio rápido: Registrar una aplicación con la plataforma de identidad de Microsoft](/azure/active-directory/develop/quickstart-register-app). 
 
 1. En el Portal de Azure, en **Administrar** en el oanel de navegación, elija **Autenticación**.  
 2. En **Redirigir URL**, agregue la URL de redireccionamiento que se sugiere en la página **Configuración de la conexión de Dataverse** en [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -146,10 +146,6 @@ Se parte de la base que para los siguientes pasos está usando Azure AD para ges
 
    > [!NOTE]
    > Si no se le solicita que inicie sesión con su cuenta de administrador, probablemente se deba a que las ventanas emergentes están bloqueadas. Para iniciar sesión, permita las ventanas emergentes de `https://login.microsoftonline.com`.
-
-#### <a name="using-another-identity-and-access-management-service"></a>Usar otro servicio de administración de identidades y accesos
-
-Si no estas usando Azure Active Directory para administrar las identidades y el acceso, necesitará ayuda de un desarrollador. Si prefiere almacenar el identificador y el secreto de la aplicación en una ubicación diferente, puede dejar en blanco los campos Id . del cliente y Secreto del cliente y escribir una extensión para obtener el identificador y el secreto de la ubicación. Puede proporcionar el secreto en tiempo de ejecución suscribiéndose a los eventos `OnGetCDSConnectionClientId` y `OnGetCDSConnectionClientSecret` de codeunit 7201 `CDS Integration Impl.`.
 
 ### <a name="to-disconnect-from-cds_long_md"></a>Para desconectar de [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 

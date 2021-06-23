@@ -1,5 +1,5 @@
 ---
-title: 'Procedimiento: Cálculo de las fechas de compromiso de entrega de pedido | Documentos de Microsoft'
+title: Calcular fechas de compromiso de entrega de pedido
 description: La función de compromiso de entrega de pedidos es una herramienta para el cálculo de la fecha más temprana posible en la que un producto se encuentra disponible para su envío. También crea líneas de demanda para aquellas fechas que se aceptan.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0fda3e2cdbbb04d025d0142b94add8c75eb98c5a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f9550d81eb193cb76cd846d98e1259226fd77895
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778477"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115595"
 ---
 # <a name="calculate-order-promising-dates"></a>Calcular fechas de compromiso de entrega de pedido
-Una empresa debe poder informar a los clientes de las fechas de entrega del pedido. La página **Líneas compromiso entrega pedido** permite realizar esta operación desde una línea de pedido de venta.  
+Una empresa debe poder informar a los clientes de las fechas de entrega del pedido. La página **Líneas compromiso entrega pedido** permite realizar esta operación desde un pedido de venta.  
 
 Basándose en las fechas sabidas y planificadas de disponibilidad de un producto, [!INCLUDE[prod_short](includes/prod_short.md)] inmediatamente calcula las fechas de envío y de entrega, que se podrán acordar con el cliente.  
 
@@ -35,7 +35,7 @@ Si no especifica una fecha de entrega requerida en una línea del pedido de vent
 - Fecha envío planeada + Hora envío = Fecha entrega planeada  
 
 ## <a name="about-order-promising"></a>Acerca del compromiso de entrega
-La función compromiso de pedido le permite establecer un compromiso para enviar el pedido en una fecha determinada. Se calcula la fecha en la que un producto está disponible para su compromiso, y se crean las líneas del pedido para las fechas que haya aceptado. La función calcula la fecha más temprana posible en la que un producto se encuentra disponible para su envío. También crea líneas de demanda, en caso de que los artículos deban ser primero compras, para la fechas que usted acepta.
+La función compromiso de pedido le permite establecer un compromiso para enviar el pedido en una fecha determinada. Se calcula la fecha en la que un producto está disponible para su compromiso, y se crean las líneas del pedido para las fechas que haya aceptado. La función calcula la fecha más temprana posible en la que un producto se encuentra disponible para su envío. También crea líneas de demanda, en caso de que los productos deban comprarse o producirse primero, para la fechas que usted acepta.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] utiliza dos conceptos fundamentales:  
 

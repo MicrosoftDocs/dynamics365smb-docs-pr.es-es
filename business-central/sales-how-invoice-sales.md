@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c43d72e3e87c5a9a9c8512c687a480f3bcd37a43
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d0a48037123dee4a7c9282432cc2b357b335e794
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778802"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115570"
 ---
 # <a name="invoice-sales"></a>Facturar ventas
 
@@ -121,6 +121,10 @@ Incluso puede crear facturas pagadas directamente para clientes no registrados c
 
 > [!TIP]
 > Si desea enviar a sus clientes recordatorios de pagos vencidos, debe configurar niveles y términos de recordatorio. Para más información, ver [Configurar términos y niveles de recordatorio](finance-setup-reminders.md).  
+
+## <a name="external-document-numbers"></a>Números de documento externo
+
+[!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/invoicing-customers-dynamics-365-business-central/index)
 

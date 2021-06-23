@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: version
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5273539fa1dfa3916443bc3e0bf21efb19a4571b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1dafd874523be75e00e224fd5b1d3f3d33a7e712
+ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779462"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6063507"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Requisitos mínimos para utilizar Business Central
 
@@ -47,7 +47,10 @@ Antes de que acceda a [!INCLUDE[prod_short](includes/prod_short.md)] en línea, 
 ## <a name="outlook"></a>Outlook
 
 **Aplicaciones de Outlook:** para usar [!INCLUDE[prod_short](includes/prod_short.md)] en línea como bandeja de entrada de empresa en Outlook, requerirá Outlook 2019 o posterior, Outlook para iOS u Outlook para Android. Su organización también debe utilizar Microsoft 365. No puede utilizar [!INCLUDE[prod_short](includes/prod_short.md)] en línea como su bandeja de entrada empresarial en Outlook si su organización usa Exchange Server local. 
- 
+
+> [!IMPORTANT]
+> Desde el segundo lanzamiento de versiones de Business Central 2021, ya no se puede iniciar sesión en el complemento Business Central desde versiones de Outlook anteriores a 2012.
+  
 **Exploradores:** Al usar [!INCLUDE[prod_short](includes/prod_short.md)] como bandeja de entrada de empresa en Outlook en un explorador, el complemento requiere que su equipo ejecute uno de los exploradores compatibles que se han enumerado en este artículo. 
  
 **Plataformas:** al usar el complemento de Outlook de [!INCLUDE[prod_short](includes/prod_short.md)] en Outlook para iOS o en Outlook para Android, el complemento requiere que su dispositivo móvil ejecute uno de los dispositivos móviles compatibles especificados para [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -63,6 +66,9 @@ Antes de que acceda a [!INCLUDE[prod_short](includes/prod_short.md)] en línea, 
 ## <a name="excel"></a>Excel
 
 **Editar en Excel:** Para usar el complemento de Excel para realizar cambios en Excel y volver a insertar los cambios en [!INCLUDE[prod_short](includes/prod_short.md)], necesita Excel 2019 o posterior. Para obtener más información, consulte [Análisis de estados financieros en Microsoft Excel](finance-analyze-excel.md).  
+
+> [!IMPORTANT]
+> Desde el segundo lanzamiento de versiones de Business Central 2021, la función de complemento de Excel solo admitirá la versión 2012 o posterior de Excel.
 
 ## <a name="using-the-business-central-administration-center"></a><a name="TAC"></a> Uso del centro de administración de Business Central
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
-ms.date: 04/12/2021
+ms.date: 05/19/2021
 ms.author: jswymer
-ms.openlocfilehash: 6980e56f8bda750f9afae9bed6577bb1ab1fec49
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: f3c9626fa73247b2109e5f179aef405e80b44b07
+ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935216"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6074645"
 ---
 # <a name="teams-faq"></a>P+F de Teams
 
@@ -154,7 +154,9 @@ Al buscar contactos desde la aplicación de [!INCLUDE [prod_short.md](includes/p
 
 ### <a name="which-fields-in-the-contacts-table-can-i-search"></a>¿Qué campos de la tabla de contactos puedo buscar?
 
-A medida que escribe los términos de búsqueda en el cuadro de búsqueda, los términos se comparan con la mayoría de los campos de la tabla **Contactos**. Los campos incluyen, por ejemplo, los campos **Nº**, **Nombre**, **Dirección**, **Nº teléfono** o **Nº teléfono móvil** y **Correo electrónico**.  
+A medida que escribe los términos de búsqueda en el cuadro de búsqueda, los términos se comparan con la mayoría de los campos de la tabla **Contactos**. Los campos incluyen, por ejemplo, los campos **Nº**, **Nombre**, **Dirección**, **Nº teléfono** o **Nº teléfono móvil** y **Correo electrónico**. 
+
+Los términos de búsqueda no se comparan con ningún campo personalizado agregado a la tabla **Contactos** por aplicaciones y extensiones.
 
 ### <a name="do-search-results-include-companies-and-persons"></a>¿Los resultados de búsqueda incluyen empresas y personas?
 

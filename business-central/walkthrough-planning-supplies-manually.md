@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c993a8ad5a856ae45bd5ce7d258592b60ed2ccd3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c1ab3c48ae09b75ab9e54e0c9fe9afd49b833f09
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772059"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6214683"
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Tutorial: planificación manual de suministros
 
-[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 En este tutorial, se demuestra el proceso de planificar pedidos de suministro para cubrir la nueva demanda. Puede iniciar la planificación de suministros a intervalos fijos, por ejemplo, todas las mañanas o todos los lunes, o bien cuando le notifiquen desde ventas o producción, en función del tipo de demanda. En este tutorial, utilizará la página **Planificación de pedidos**, una sencilla herramienta de planificación de suministros basada en la toma manual de decisiones en lugar de en una planificación automática basada en parámetros.  
 
@@ -231,7 +231,7 @@ A la página **Planificación de pedidos** se puede acceder desde varias ubicaci
 
 ## <a name="see-also"></a>Consulte también  
  [Tutoriales de procesos empresariales](walkthrough-business-process-walkthroughs.md)   
- [Tutorial: planificación automática de suministros](walkthrough-planning-supplies-automatically.md)
+<!--  [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

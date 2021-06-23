@@ -8,19 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, general ledger, post
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 6866e852899df3de3de2c4560c26ad981e46fda5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1f6060eb7672b332fb570eb13fe027a3b58e6594
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777853"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215258"
 ---
 # <a name="general-journal-post-line-overview"></a>Descripción de la línea de registro en diario general
+
 La codeunit 12, **Diario general-lín. reg.**, es el objeto principal de aplicación para el registro en contabilidad y es el único lugar donde insertar movimientos de contabilidad, de IVA, de clientes y de proveedores. Esta codeunit se usa también para todas las operaciones de Liquidar, Desliquidar y Revertir.  
   
-Mientras que la codeunit se ha mejorado en cada versión durante los diez últimos años, su arquitectura seguía permaneciendo fundamentalmente invariable. La codeunit llegó a ser muy grande, con aproximadamente 7600 líneas de código. Con esta versión de [!INCLUDE[prod_short](includes/prod_short.md)], se ha cambiado la arquitectura y la codeunit se ha hecho más sencillo y más fácil de mantener. Esta documentación introduce los cambios y proporciona información que necesitará para actualizar.  
+En Microsoft Dynamics NAV 2013 R2, la codeunit se rediseñó porque se había vuelto muy grande, con aproximadamente 7600 líneas de código. La arquitectura había cambiado y la codeunit hizo más sencilla y más fácil de mantener. Esta documentación describe los cambios y proporciona información que necesitará para actualizar.  
   
 ## <a name="old-architecture"></a>Arquitectura antigua  
 La arquitectura antigua tenía las características siguientes:  
@@ -43,9 +44,11 @@ En [!INCLUDE[prod_short](includes/prod_short.md)], la codeunit 12 incluye las me
 * Muchas funciones de ayuda se han transferido a las tablas correspondientes de movimientos de cliente y de proveedor.  
 * El uso de variables globales se ha minimizado, de modo que cada procedimiento utiliza parámetros y encapsula su propia lógica de aplicación.  
   
-## <a name="see-also"></a>Consulte también  
-[Detalles de diseño: estructura de interfaz de registro](design-details-posting-interface-structure.md)   
-[Detalles de diseño: estructura de motor de registro](design-details-posting-engine-structure.md)
+## <a name="see-also"></a>Consulte también
+
+[Detalles de diseño: estructura de interfaz de registro](design-details-posting-interface-structure.md)  
+[Detalles de diseño: estructura de motor de registro](design-details-posting-engine-structure.md)  
+[Detalles de diseño: línea de registro en diario general (Dynamics NAV)](/dynamics-nav-app/design-details-general-journal-post-line)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

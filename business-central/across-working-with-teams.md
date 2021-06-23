@@ -1,5 +1,5 @@
 ---
-title: Trabajar con datos de Business Central en Microsoft Teams | Microsoft Docs
+title: Compartir registros de Business Central en Microsoft Teams
 description: Aprenda a usar la aplicación Business Central para Microsoft Teams.
 author: jswymer
 ms.service: dynamics365-business-central
@@ -7,21 +7,21 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
-ms.date: 04/01/2021
+ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records
+ms.date: 05/19/2021
 ms.author: jswymer
-ms.openlocfilehash: e20208d50eb65f1a92e6661396bf53007ab88eb8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8add662badbc0d791d6a37d0feb4e3a756519f00
+ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786887"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6074592"
 ---
-# <a name="working-with-business-central-data-in-microsoft-teams"></a>Trabajar con datos de Business Central en Microsoft Teams
+# <a name="sharing-business-central-records-in-microsoft-teams"></a>Compartir registros de Business Central en Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
-[!INCLUDE [prod_short](includes/prod_short.md)] ofrece una aplicación que conecta Microsoft Teams a sus datos comerciales de [!INCLUDE [prod_short](includes/prod_short.md)], para que pueda compartir detalles rápidamente entre los miembros del equipo y responder más rápidamente a las consultas. En este artículo, aprenderá a usar la aplicación para compartir datos de [!INCLUDE [prod_short](includes/prod_short.md)] con compañeros de trabajo en una conversación de Teams.
+[!INCLUDE [prod_short](includes/prod_short.md)] ofrece una aplicación que conecta Microsoft Teams a sus datos comerciales de [!INCLUDE [prod_short](includes/prod_short.md)], para que pueda compartir detalles rápidamente entre los miembros del equipo y responder más rápidamente a las consultas. En este artículo, aprenderá a usar la aplicación para compartir registros de [!INCLUDE [prod_short](includes/prod_short.md)], como clientes, pedidos de ventas facturas, con compañeros de trabajo en una conversación de Teams.
 
 ## <a name="overview"></a>Panorama
 

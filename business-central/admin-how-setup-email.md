@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1ac53955d897e8c69da5136c6326353999460625
-ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
+ms.openlocfilehash: e38882e31a14c7918348d0db584a870fe9ceeb73
+ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5889157"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6063432"
 ---
 # <a name="set-up-email"></a>Configurar correo electrónico
 Las personas en las empresas envían información y documentos, como órdenes de compra y venta y facturas, por correo electrónico todos los días. Los administradores pueden facilitarlo conectando una o más cuentas de correo electrónico a [!INCLUDE[prod_short](includes/prod_short.md)], para que pueda enviar documentos sin tener que abrir una aplicación de correo electrónico. Puede redactar cada mensaje individualmente con herramientas de formato básicas, como fuentes, estilos, colores, etc., y agregar archivos adjuntos de hasta 100 MB. Los administradores también pueden configurar diseños de informes que incluyan solo la información clave de los documentos. Para obtener más información, vea [Enviar documentos por correo electrónico](ui-how-send-documents-email.md).
@@ -53,7 +53,7 @@ Si ya está usando [!INCLUDE[prod_short](includes/prod_short.md)] y ha configura
 > Si tiene personalizaciones que se basan en la configuración de correo electrónico SMTP heredada, existe la posibilidad de que algo salga mal con sus personalizaciones si comienza a usar extensiones de correo electrónico. Le recomendamos que configure y pruebe las extensiones antes de activar el interruptor de función para mejorar las capacidades de correo electrónico.
 
 > [!IMPORTANT]
-> Si esta usando [!INCLUDE[prod_short](includes/prod_short.md)] en línea, no puede usar el método de autenticación OAuth 2.0.<br> Si esta usando [!INCLUDE[prod_short](includes/prod_short.md)] local, puede usar OAuth 2.0 para la autenticación, pero debe crear un registro de aplicación en Azure Portal y luego ejecutar la guía de configuración asistida **Configurar Azure Active Directory** en [!INCLUDE[prod_short](includes/prod_short.md)] para conectarse a Azure AD. Para obtener más información, consulte [Crear un registro de aplicación para Business Central en Azure Portal](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
+> Si esta usando [!INCLUDE[prod_short](includes/prod_short.md)] local, puede usar OAuth 2.0 para la autenticación, pero debe crear un registro de aplicación en Azure Portal y luego ejecutar la guía de configuración asistida **Configurar Azure Active Directory** en [!INCLUDE[prod_short](includes/prod_short.md)] para conectarse a Azure AD. Para obtener más información, consulte [Crear un registro de aplicación para Business Central en Azure Portal](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
 
 ## <a name="add-email-accounts"></a>Agregar cuentas de correo electrónico
 La guía de configuración asistida para **Configurar correo electrónico** puede ayudarlo a comenzar rápidamente con los correos electrónicos.

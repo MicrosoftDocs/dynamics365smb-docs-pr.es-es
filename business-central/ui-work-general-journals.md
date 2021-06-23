@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: journals, recurring, accrual
+ms.search.keywords: journals, recurring, accrual, renumber, bulk-post
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ba7ed8bba5510e4e17cc645c5dd8f935f50a7fac
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d452720f5fff046a994ff5df0b2ea7bb5a209236
+ms.sourcegitcommit: 652e4b0e1a09bff265014d9f8eb3b038ab0db79e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783039"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "6087724"
 ---
 # <a name="working-with-general-journals"></a>Trabajar con diarios generales
 
@@ -71,7 +71,7 @@ Para permitir que los diarios se copien en revistas generales publicadas, en la 
 Si ha configurado cuentas de contrapartida predeterminadas para las secciones del diario en la página **Diarios generales**, la cuenta de contrapartida se rellenará automáticamente cuando rellene el campo **Nº cuenta**. En caso contrario, deberá rellenar manualmente tanto el campo **Nº cuenta** como el campo **Cta. contrapartida**. Un importe positivo en el campo **Importe** se adeuda en la cuenta principal y se carga en la cuenta de contrapartida. Un importe negativo se carga en la cuenta principal y se adeuda en la cuenta de contrapartida.
 
 > [!NOTE]  
->   El IVA se calcula de manera independiente para la cuenta principal y la cuenta de contrapartida, para que puedan utilizar diferentes tipos porcentuales de IVA.
+> El IVA se calcula de manera independiente para la cuenta principal y la cuenta de contrapartida, para que puedan utilizar diferentes tipos porcentuales de IVA.
 
 ## <a name="working-with-recurring-journals"></a>Trabajar con diarios periódicos
 Un diario periódico es un diario general con campos específicos para administrar las transacciones que registre frecuentemente con pocos cambios o con ninguno, como el alquiler, las suscripciones, la electricidad y la calefacción. Al usar estos campos para las transacciones periódicas, puede registrar importes tanto fijos como variables. También puede especificar movimientos de reversión automática para el día posterior a la fecha de registro. También puede usar claves de asignación para dividir los movimientos periódicos entre varias cuentas. Para obtener más información, consulte [Asignación de importes de diario periódicos a varias cuentas](#allocating-recurring-journal-amounts-to-several-accounts).
@@ -167,6 +167,7 @@ Cuando haya creado líneas de diario que probablemente vaya a volver a crear má
 Cuando haya terminado de guardar el diario de productos estándar, se muestra la página Diario productos para que pueda registrarlo, sabiendo que puede volver a crearlo fácilmente la siguiente vez que deba registrar líneas iguales o parecidas.
 
 ### <a name="to-reuse-a-standard-journal"></a>Para reutilizar un diario estándar
+
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diarios de productos** y luego elija el enlace relacionado.
 2. Seleccione la acción **Obtener diarios estándar**.
 
@@ -181,23 +182,26 @@ Cuando haya terminado de guardar el diario de productos estándar, se muestra la
     Si no marcó el campo **Guardar importe unitario** cuando utilizó el trabajo de función **Guardar como Diario de productos estándar**, el campo **Precio unitario** de las líneas que se insertan del diario estándar se rellena automáticamente con el valor actual del producto, copiado del campo **Coste unitario** de la ficha de producto.
 
     > [!NOTE]  
-    >   Si seleccionó el campo **Guardar precio unitario** o **Guardar cantidad**, ahora debe asegurarse de que los valores insertados sean correctos para este ajuste de inventario concreto antes de registrar el diario de producto.
+    > Si seleccionó el campo **Guardar precio unitario** o **Guardar cantidad**, ahora debe asegurarse de que los valores insertados sean correctos para este ajuste de inventario concreto antes de registrar el diario de producto.
 
     Si las líneas de diario de productos insertadas contienen precios unitarios guardados que no desea registrar, puede ajustarlos rápidamente al valor actual del producto del siguiente modo.
 
-6. Seleccione las líneas del diario de productos que desea ajustar y, a continuación, elija la acción **Volver a calcular precio unitario**. Así se actualizará el campo Precio unitario con el coste unitario actual del producto.
-7. Seleccione la acción **Registrar**.
+5. Seleccione las líneas del diario de productos que desea ajustar y, a continuación, elija la acción **Volver a calcular precio unitario**. Así se actualizará el campo Precio unitario con el coste unitario actual del producto.
+6. Seleccione la acción **Registrar**.
 
 ## <a name="to-renumber-document-numbers-in-journals"></a>Para renumerar números de documento en diarios
+
 Para asegurarse de no recibir errores de registro debido al orden de número de documento, puede utilizar la función **Renumerar los números de documento** antes de registrar un diario.
 
 En todos los diarios que se basan en el diario general, el campo **Nº documento** es modificable para que pueda especificar distintos números de documento para distintas líneas de diario o el mismo número de documento para líneas de diario diferentes.
 
-Si el campo **Nº series** de la sección de diario está rellenado, la función de registro en los diarios generales requiere que el número de documento en las líneas de diario individuales o agrupadas estén en orden secuencial. Para asegurarse de no recibir errores de registro debido al orden de número de documento, puede utilizar la función **Renumerar los números de documento** antes de registrar el diario. Si las líneas de diario relacionadas se agruparon por número de documento antes de utilizar la función, permanecerán agrupadas pero es posible que se asignen a un número de documento diferente.
+Si el campo **Nº series** de la sección de diario está rellenado, la función de registro en los diarios generales requiere que el número de documento en las líneas de diario individuales o agrupadas estén en orden secuencial. Basta con elegir la opción **Renumerar los números de documento** y los campos relevantes de **N.º documento** se actualizarán posteriormente. Si las líneas de diario relacionadas se agruparon por número de documento antes de utilizar la función, permanecerán agrupadas pero es posible que se asignen a un número de documento diferente.  
 
 Esta función también funciona en las vistas filtradas.
 
 Cualquier nueva numeración de los números de documento respetará las aplicaciones relacionadas, como una solicitud de pago se ha realizado desde el documento en la línea del diario a una cuenta de proveedor. Por consiguiente, los campos **Liq. por id.** y **Liq. por nº documento** para los movimientos de contabilidad asignados pueden ser actualizados.
+
+### <a name="to-renumber-documents-in-journals"></a>Para renumerar los documentos en diarios
 
 El procedimiento siguiente se basa en la página **Diario general**, pero se aplica a todos los demás diarios que se basan en el diario general, como la ventana **Diario de pagos**.
 

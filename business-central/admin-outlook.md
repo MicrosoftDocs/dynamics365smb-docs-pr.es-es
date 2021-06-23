@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ee9587b323fe1b104a85319eba03bfdcfce8c13e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2c8746098081a8f0b961f6ab2efd11c491104acc
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777446"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115391"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Usar Business Central como su bandeja de entrada de empresa en Outlook
 
@@ -68,7 +68,7 @@ En ambos casos, si [!INCLUDE[prod_short](includes/prod_short.md)] sigue sin esta
 
 ## <a name="using-other-email-accounts"></a>Uso de otras cuentas de correo electrónico
 
-Los complementos están diseñados para usarse con Microsoft 365. Si utiliza [!INCLUDE[prod_short](includes/prod_short.md)] local, el administrador sabrá si puede utilizar los complementos de [!INCLUDE[prod_short](includes/prod_short.md)] en Outlook. Para más información, consulte [¿Qué dirección de correo electrónico puedo usar con [!INCLUDE[prod_short](includes/prod_short.md)] ?](across-faq.md#email), el artículo [Características que requieren circunstancias específicas](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances?toc=/dynamics365/business-central/toc.json) y la sección [¿Por qué el complemento de Outlook no funciona para mis usuarios?](/dynamics365/business-central/dev-itpro/faq#why-doesnt-the-outlook-add-in-work-for-my-users?toc=/dynamics365/business-central/toc.json) en las preguntas frecuentes generales del contenido de administración.  
+Los complementos están diseñados para usarse con Microsoft 365. Si utiliza [!INCLUDE[prod_short](includes/prod_short.md)] local, el administrador sabrá si puede utilizar los complementos de [!INCLUDE[prod_short](includes/prod_short.md)] en Outlook. Para más información, consulte [¿Qué dirección de correo electrónico puedo usar con [!INCLUDE[prod_short](includes/prod_short.md)]?](/dynamics365/business-central/across-faq#email), el artículo [Características que requieren circunstancias específicas](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances?toc=/dynamics365/business-central/toc.json) y la sección [¿Por qué el complemento de Outlook no funciona para mis usuarios?](/dynamics365/business-central/dev-itpro/faq#why-doesnt-the-outlook-add-in-work-for-my-users?toc=/dynamics365/business-central/toc.json) en las preguntas frecuentes generales del contenido de administración.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 

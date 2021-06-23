@@ -1,5 +1,5 @@
 ---
-title: Registrar y reembolsar gastos empresariales de los empleados | Documentos de Microsoft
+title: Registrar y reembolsar gastos empresariales de los empleados
 description: Registre los gastos de los empleados con el diario general en la cuenta del empleado y luego registre un pago a la cuenta bancaria del empleado para reembolsar el gasto relacionado con el negocio.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: reimbursement
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: edef774738233890af240b20622cc40585d79116
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: dd4ce755e3414f19ae501c1d437f3e1d78d565a1
+ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783827"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6184404"
 ---
 # <a name="record-and-reimburse-employees-expenses"></a>Registro y reembolso de los costes de los empleados
 
@@ -29,11 +29,15 @@ Si los empleados gastan su propio dinero durante las actividades comerciales, pu
 > [!TIP]
 > En este artículo se explica cómo registrar el gasto en los libros y cómo reembolsar al empleado. Su organización puede tener un portal o aplicación donde los empleados pueden enviar sus informes de gastos.
 
+[!INCLUDE [prod_short](includes/prod_short.md)] es lo suficientemente flexible como para adaptarse a muchas prácticas diferentes. Los números de cuenta exactos que se utilizarán dependen de la configuración y los procesos de su organización.  
+
 ## <a name="to-record-an-employees-expense"></a>Registrar el gasto de un empleado
+
 Puede registrar los costes de los empleados en la página **Diario general**.
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Diarios generales** y luego elija el enlace relacionado.
+
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Diarios generales** y luego elija el enlace relacionado.  
 2. Abra la sección del diario general correspondiente. Para obtener más información, consulte [Trabajar con diarios generales](ui-work-general-journals.md).
-3. En una línea nueva de diario, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]    
+3. En una línea nueva de diario, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]
     > [!INCLUDE[journal-showhide-columns-inline-tip](includes/journal-showhide-columns-inline-tip.md)]
@@ -44,7 +48,9 @@ Puede registrar los costes de los empleados en la página **Diario general**.
 5. Seleccione la acción **Registrar** para registrar gastos de la cuenta del empleado.
 
 ## <a name="to-reimburse-an-employee"></a>Reembolsar al empleado
-Reembolse a los empleados mediante pagos a su cuenta bancaria en la página **Diario de pagos**.
+
+Reembolse a los empleados mediante pagos a su cuenta bancaria en la página **Diario de pagos**.  
+
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diarios de pagos** y luego elija el enlace relacionado.
 2. Abra la sección del diario de pagos correspondiente. Para obtener más información, consulte [Trabajar con diarios generales](ui-work-general-journals.md).
 3. Rellene los campos según sea necesario. Para obtener más información, consulte [Creación de pagos](payables-make-payments.md).
@@ -52,9 +58,11 @@ Reembolse a los empleados mediante pagos a su cuenta bancaria en la página **Di
 5. Seleccione la acción **Registrar** para registrar el reembolso.  
 
 ## <a name="to-reconcile-reimbursements-with-employee-ledger-entries"></a>Conciliar reembolsos con movimientos de empleado
+
 Aplique los pagos de los empleados a las entradas del libro mayor relacionadas, de la misma manera que lo hace para los pagos a proveedores, por ejemplo, en la página **Diario de conciliación de pagos**, en función de las entradas del extracto bancario relacionadas. Para obtener más información, vea [Liquidación de pagos automáticamente y conciliación de cuentas bancarias](receivables-apply-payments-auto-reconcile-bank-accounts.md). Opcionalmente, puede liquidar manualmente en la página **Movimientos de los empleados**. Para obtener más información, consulte la sección [Conciliar pagos a proveedores con el diario de pagos o desde los movimientos de proveedor](payables-how-apply-purchase-transactions-manually.md) relacionada.  
 
 ## <a name="see-also"></a>Consulte también
+
 [Registrar transacciones directamente en la contabilidad](finance-how-post-transactions-directly.md)  
 [Trabajar con diarios generales](ui-work-general-journals.md)  
 [Revertir los registros de diario y deshacer los recibos/envíos](finance-how-reverse-journal-posting.md)  

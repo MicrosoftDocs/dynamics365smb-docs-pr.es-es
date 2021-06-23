@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: dynamics365-business-central
 ms.author: edupont
 ms.date: 04/09/2021
-ms.openlocfilehash: 0487bd06f6a28313e90d6353aecf123a7fc3a708
-ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
+ms.openlocfilehash: 8f3a5d39cfd9e28233055d902852151581e53e5e
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5882260"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115416"
 ---
 # <a name="resources-for-help-and-support"></a>Recursos de ayuda y soporte técnico
 
@@ -78,7 +78,7 @@ Como administrador interno, tiene acceso al centro de administración donde pued
 Su socio distribuidor de [!INCLUDE[prod_short](includes/prod_short.md)] le ayudará con el soporte técnico. Esta sección le facilita ponerse en contacto con su socio distribuidor si ha enviado sus datos de contacto de soporte. Si su socio de [!INCLUDE[prod_short](includes/prod_short.md)] no puede resolver el problema, generará un vale de soporte técnico con Microsoft. Para obtener más información, consulte [Escalar problemas de soporte a Microsoft](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) en el contenido de administración.  
 
 > [!NOTE]
-> Esta sección solo está disponible si ha pagado una suscripción a [!INCLUDE[prod_short](includes/prod_short.md)]. Si se ha registrado en una versión de prueba y aún no ha comprado [!INCLUDE[prod_short](includes/prod_short.md)], no tiene un socio de reventa y no puede ponerse en contacto con el equipo de soporte de Microsoft. Puede encontrar un socio de [!INCLUDE[prod_short](includes/prod_short.md)] en la página [Estoy buscando un proveedor de soluciones](https://go.microsoft.com/fwlink/?linkid=2038145). Para obtener más información, vea [¿Cómo encuentro un socio distribuidor?](across-faq.md#findpartner)  
+> Esta sección solo está disponible si ha pagado una suscripción a [!INCLUDE[prod_short](includes/prod_short.md)]. Si se ha registrado en una versión de prueba y aún no ha comprado [!INCLUDE[prod_short](includes/prod_short.md)], no tiene un socio de reventa y no puede ponerse en contacto con el equipo de soporte de Microsoft. Puede encontrar un socio de [!INCLUDE[prod_short](includes/prod_short.md)] en la página [Estoy buscando un proveedor de soluciones](https://go.microsoft.com/fwlink/?linkid=2038145). Para obtener más información, consulte [¿Cómo encuentro un socio distribuidor?](/dynamics365/business-central/across-faq#findpartner)  
 
 ### <a name="support-contacts"></a>Contactos de soporte
 
@@ -163,7 +163,7 @@ Lo mismo se aplica si usa [!INCLUDE [prod_short](includes/prod_short.md)] local.
 ## <a name="see-also"></a>Consulte también
 
 [Catálogo de aprendizaje de Business Central](readiness/readiness-learning-catalog.md)  
-[¿Cómo encuentro un socio distribuidor?](across-faq.md#findpartner)  
+[¿Cómo encuentro un socio distribuidor?](/dynamics365/business-central/across-faq#findpartner)  
 [Sistema de ayuda (disponible solo en inglés)](/dynamics365/business-central/dev-itpro/user-assistance?toc=/dynamics365/business-central/toc.json)  
 [Entrada de blog: Encuentre los recursos adecuados y proporcione comentarios](https://community.dynamics.com/business/b/financials/posts/find-the-right-resources-and-provide-feedback)  
 [Documentos para desarrolladores y administradores de Business Central](/dynamics365/business-central/dev-itpro/)  
