@@ -1,6 +1,6 @@
 ---
-title: Crear un entorno aislado | Documentos de Microsoft
-description: Crear un entorno para explorar, aprender, demostrar, desarrollar y probar.
+title: Crear un entorno aislado
+description: Crear un entorno para explorar, aprender, demostrar, desarrollar y probar desde Business Central.
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,23 +8,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: solsen
-ms.openlocfilehash: 3419272afd092d2ddb1374940e556d42709c1534
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a76ae33815b8e9368f45b72fd8703bfc47cbd079
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776027"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215633"
 ---
 # <a name="creating-a-sandbox-environment-in-prod_short"></a>Crear un entorno aislado en [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Con [!INCLUDE[prod_short](includes/prod_short.md)], puede crear fácilmente un entorno seguro donde puede probar, formar o solucionar problemas sin alterar los procesos de trabajo o los datos de negocio de su empresa. Tal entorno de no producción se llama *entorno aislado*. Aislado de la producción, un entorno aislado es el lugar para explorar, aprender, demostrar, desarrollar y probar el servicio de forma segura sin el riesgo de afectar los datos y la configuración de su entorno de producción.  
 
-Su administrador puede crear entornos aislados en el [centro de administración](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments?toc=/dynamics365/business-central/toc.json), pero si desea probar algo rápidamente, puede crear un entorno aislado desde dentro de [!INCLUDE[prod_short](includes/prod_short.md)].  
+Su administrador administra entornos aislados en el [centro de administración](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments?toc=/dynamics365/business-central/toc.json), pero si desea probar algo rápidamente, puede crear un entorno aislado desde dentro de [!INCLUDE[prod_short](includes/prod_short.md)]. Una vez que haya terminado, puede eliminar el entorno aislado, utilizando el centro de administración.  
 
 > [!NOTE]
-> Técnicamente, los entornos aislados son muy diferentes de los entornos de producción, incluso si su administrador crea un entorno aislado que incluye datos de producción. No puede usar un entorno aislado para un banco de pruebas y no puede solicitar una exportación de base de datos, por ejemplo. Si desea crear un entorno aislado para banco de pruebas, su administrador puede crear un entorno de producción dedicado en el centro de administración. Para obtener más información, consulte [Tipos de entornos](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#types-of-environments).
+> Técnicamente, los entornos aislados son muy diferentes de los entornos de producción, incluso si su administrador crea un entorno aislado que incluye datos de producción. No puede usar un entorno aislado para un banco de pruebas y no puede solicitar una exportación de base de datos, por ejemplo. Si desea crear un entorno aislado para banco de pruebas, su administrador puede crear un entorno dedicado en el centro de administración. Para obtener más información, consulte [Entornos de producción y aislados](/dynamics365/business-central/dev-itpro/administration/environment-types).
 
 ## <a name="to-create-a-sandbox-environment-in-your-prod_short"></a>Para crear un entorno aislado en su [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -48,8 +48,9 @@ En la parte superior del Área de trabajo, aparece una notificación para inform
     <!-- ![Sandbox RoleCenter Notification](./media/across-sandbox/sandbox-rolecenter-notification.png) -->
 
 > [!NOTE]
-> Un entorno aislado creado de esta manera solo contiene los datos de demostración predeterminados para la empresa de CRONUS. No se copian ni se transfieren datos del entorno de producción.<br /><br />
-> También puede crear un entorno aislado que contenga los datos de producción. Debe hacerlo a través del centro de administración. Para obtener más información, consulte [Administración de entornos](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments) en la Ayuda para desarrolladores y profesionales de TI.  
+> Un entorno aislado creado de esta manera solo contiene los datos de demostración predeterminados para la empresa de CRONUS. No se copian ni se transfieren datos del entorno de producción.
+>
+> Opcionalmente, cree un entorno de espacio aislado basado en datos de producción. Debe hacerlo a través del centro de administración. Para obtener más información, consulte [Administración de entornos](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments) en el contenido para desarrolladores y administradores.  
 
 <!--To switch between your production and sandbox environments, you can use the Business Central app launcher.
     ![Sandbox Dynamics365 Menu](./media/across-sandbox/sandbox-dynamics365-menu.png) -->
@@ -60,17 +61,22 @@ Un administrador puede limitar o incluso bloquear el acceso de algunos usuarios 
 
 ## <a name="advanced-functionality-in-the-sandbox-environment"></a>Funcionalidad avanzada del entorno aislado
 
-El entorno aislado no es menos útil porque incluye un par de características útiles.
+El entorno aislado no es menos útil porque incluye un par de características útiles:
 
-### <a name="to-enable-the-advanced-user-experience"></a>Para activar la experiencia del usuario avanzado
+* [Experiencia de usuario avanzada](#advanced-user-experience)  
+* [Datos de muestra completos](#complete-sample-data)  
+* [Diseñador](#designer)  
+
+### <a name="advanced-user-experience"></a>Experiencia de usuario avanzada
 
 Es posible activar y probar la función avanzada (completa) de la versión estándar de [!INCLUDE[prod_short](includes/prod_short.md)] de un suscriptor aislado configurando el campo **Experiencia** en la página **Información de la empresa** a *Premium*. Busque la página **Información de la empresa** en el menú con el :::image type="content" source="media/ui-experience/settings_icon_small.png" alt-text="icono de Configuración":::.  
 
-Después de habilitar la experiencia de usuario *Premium*, obtendrá acceso a todos los perfiles estándar (roles) y áreas de trabajo en la versión estándar. También puede crear una empresa de evaluación que esté completamente configurada, incluyendo datos de demostración y acceso a las áreas avanzadas del producto. Alternativamente, póngase en contacto con un distribuidor para una demostración de las capacidades. Para obtener más información, vea [¿Cómo encuentro un socio distribuidor?](across-faq.md#findpartner)  
+Después de habilitar la experiencia de usuario *Premium*, obtendrá acceso a todos los perfiles estándar (roles) y áreas de trabajo en la versión estándar. También puede crear una empresa de evaluación que esté completamente configurada, incluyendo datos de demostración y acceso a las áreas avanzadas del producto. Alternativamente, póngase en contacto con un distribuidor para una demostración de las capacidades. Para obtener más información, consulte [¿Cómo encuentro un socio distribuidor?](/dynamics365/business-central/across-faq.yml#findpartner)  
 
-### <a name="to-enable-complete-sample-data"></a>Para habilitar datos de muestra completos
+### <a name="complete-sample-data"></a>Datos de muestra completos
 
-En el entorno de espacio aislado, también puede crear una nueva empresa con la opción **Evaluación avanzada: completar datos de muestra** para que pueda seguir la formación o realizar tutoriales que requieren datos de muestra adicionales, como [Tutorial: Recepción y ubicación en configuraciones básicas de almacén](walkthrough-receiving-and-putting-away-in-basic-warehousing.md).  
+Para situaciones en las que necesite datos de muestra adicionales, póngase en contacto con su socio distribuidor.
+<!-- In the sandbox environment, you can also create a new company with the **Advanced Evaluation - Complete Sample Data** option so that you can take training or step through walkthroughs that require additional sample data, such as [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md).   -->
 
 #### <a name="to-create-a-company-with-complete-sample-data-in-a-sandbox"></a>Para crear una empresa con datos de muestra completos en un entorno aislado
 
@@ -84,7 +90,9 @@ Cuando se completa la guía de configuración asistida, puede comenzar a explora
 
 ### <a name="designer"></a>Diseñadora
 
-En un entorno aislado, encontrará el **Diseñador** habilitado Puede activar el Diseñador seleccionando el icono de diseño ![Diseñador](./media/across-sandbox/sandbox-inclient-design-icon.png) en una página o eligiendo el elemento de menú **Diseño** en el menú ![Configuración](media/ui-experience/settings_icon_small.png) Configuración.
+En un entorno aislado, encontrará el **Diseñador** habilitado Puede activar el Diseñador seleccionando el icono de diseño ![Diseñador](./media/across-sandbox/sandbox-inclient-design-icon.png) en una página o eligiendo el elemento de menú **Diseño** en el menú ![Configuración](media/ui-experience/settings_icon_small.png) Configuración.  
+
+Para más información, vea [Uso de diseñador](/dynamics365/business-central/dev-itpro/developer/devenv-inclient-designer) en el contenido para desarrolladores y administradores (solo en inglés).  
 
 <!-- ![In-client Designer](./media/across-sandbox/sandbox-inclient-designer.png) -->
 

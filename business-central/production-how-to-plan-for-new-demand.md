@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ab3929a410a280494d806e7aeea5c54ce966769e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bed73380344c0900a00d6d704ee2d853a1bf165d
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787982"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216235"
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Planear la nueva demanda de pedido por pedido
 Esta tarea de planificación se puede realizar en la página **Programación de pedidos**, en la que se muestra toda la demanda nueva junto con información sobre disponibilidad y sugerencias de aprovisionamiento. Esta ventana proporciona la información y las herramientas necesarias para planificar de forma eficaz la demanda de las líneas de venta y las líneas de componentes y crear después directamente diferentes tipos de pedidos de suministros.  
@@ -109,11 +109,11 @@ Cuando termine el trabajo de planificación en la página **Programación de ped
 >  Los pedidos de suministro que cree pueden producir nueva demanda dependiente, por ejemplo, para órdenes de producción subyacentes y, por tanto, deberá seleccionar **Calcular plan** de nuevo para localizarlo y resolverlo antes de continuar.  
 
 ## <a name="see-also"></a>Consulte también  
-[Tutorial: planificación manual de suministros](walkthrough-planning-supplies-manually.md)  
+<!-- [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)   -->
 [Planificación](production-planning.md)  
 [Configuración de fabricación](production-configure-production-processes.md)  
 [Fabricación](production-manage-manufacturing.md)    
-[Inventario](inventory-manage-inventory.md)  
+[Grupos contables inventario](inventory-manage-inventory.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Detalles de diseño: planificación de aprovisionamiento](design-details-supply-planning.md)   
 [Procedimientos recomendados de configuración: planificación de suministros](setup-best-practices-supply-planning.md)  

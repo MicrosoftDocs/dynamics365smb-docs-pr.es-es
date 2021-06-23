@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6c5b7f3d4ac36bb2d4a3213217a521e5286f74bb
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bb93853d878ec1aa9b8b0095eb89589c35610f1a
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778677"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216158"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Registrar precios y descuentos de ventas especiales
 > [!NOTE]
@@ -127,7 +127,7 @@ Estos pasos difieren, dependiendo de si su administrador ha activado la actualia
     > Los códigos de descuento en factura se representan por las fichas existentes del cliente. Lo que permite asignar rápidamente las condiciones de descuento en factura a clientes realizando el picking del nombre de otros clientes con los mismos términos. Para configurar términos de descuento de factura específicos del cliente, configure el campo **Código des. factura** con el código de cliente y luego continúe con el siguiente paso.
 
 8. En la página **Ficha de cliente**, seleccione la acción **Descuento factura**. Aparecerá la página **Dtos. factura cliente**.
-9. En el campo **Código divisa**, introduzca el código de una divisa que se aplique a los términos de descuento en factura en la línea. Deje el campo en blanco para establecer condiciones de descuento de factura en la divisa local.
+9. En el campo **Código divisa**, introduzca el código de una divisa que se aplique a los términos de descuento en factura en la línea. Deje el campo en blanco para establecer condiciones de descuento en su divisa local.
 10. Opcionalmente, en el campo **Importe mínimo**, escriba el importe mínimo que deba tener una factura para optar al descuento.
 11. En el campo **% descuento**, introduzca el descuento en la factura como un porcentaje del importe de la factura.
 12. Repita los pasos del 5 al 7 para cada divisa que el cliente reciba un descuento diferente de factura.
@@ -149,7 +149,7 @@ Una vez que haya determinado los clientes que pueden obtener descuentos en factu
 Configure de nuevo los términos de descuento en factura de ventas.
 
 1. En la página **Clientes**, seleccione la acción **Descuentos en factura**. Aparecerá la página **Descuentos en factura al cliente**.
-2. En el campo **Código divisa**, introduzca el código de una divisa que se aplique a los términos de descuento en factura en la línea. Deje el campo en blanco para establecer condiciones de descuento de factura en la divisa local.
+2. En el campo **Código divisa**, introduzca el código de una divisa que se aplique a los términos de descuento en factura en la línea. Deje el campo en blanco para establecer condiciones de descuento en su divisa local.
 3. En el campo **Importe mínimo**, escriba el importe mínimo que deba tener una factura para optar al descuento.
 4. En el campo **% descuento**, introduzca el descuento en la factura como un porcentaje del importe de la factura.
 5. Repita los pasos del 5 al 7 para cada divisa que el cliente reciba un descuento diferente de factura.

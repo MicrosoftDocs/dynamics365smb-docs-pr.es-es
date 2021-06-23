@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 14505ea500375fac1cd52c125e28a13a4928523c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 111f78578f298c662cc5a923a0b05c487f68b4c7
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773059"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215608"
 ---
 # <a name="assembly-management"></a>Gestión de ensamblaje
 Para apoyar a las empresas que suministran los productos a sus clientes agrupando los componentes en procesos sencillos sin necesidad de la funcionalidad de fabricación, [!INCLUDE[prod_short](includes/prod_short.md)] incluye las características para ensamblar artículos que se integran con las existentes, como son planificación, reservas y almacén.  
@@ -52,10 +52,10 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 
 [Trabajar con listas de materiales](inventory-how-work-BOMs.md)  
 [Inventario](inventory-manage-inventory.md)  
-[Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
+[Detalles de diseño: gestión de almacén](design-details-warehouse-management.md)  
 [Detalles de diseño: Planificación de aprovisionamiento](design-details-supply-planning.md)  
-[Tutorial: planificación manual de suministros](walkthrough-planning-supplies-manually.md)  
-[Tutorial: vender, ensamblar y enviar kits](walkthrough-selling-assembling-and-shipping-kits.md)  
+<!-- [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)   -->
+<!-- [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md)   -->
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

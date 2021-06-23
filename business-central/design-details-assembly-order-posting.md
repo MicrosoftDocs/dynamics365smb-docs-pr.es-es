@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 0786aeafd1c796b33885f72b2e73a744f80a651b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e855a7c1392b84a45c588c8a7dbe01de389a3377
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775655"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216008"
 ---
 # <a name="design-details-assembly-order-posting"></a>Detalles de diseño: Registro de pedidos de ensamblado
 El registro de pedidos de ensamblado se basa en los mismos principios que al registrar las actividades similares de los pedidos de venta y el consumo o la salida de producción. No obstante, los principios que se agrupan en los pedidos de ensamblado tienen su propia IU de registro, como para los pedidos de venta, mientras que el registro real de movimientos se produce en segundo plano como registro de productos directos y registro de diario de recursos, como con el de consumo, la salida y la capacidad de producción.  

@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ab6625213bdca813bb2ace08b0b07c828ef99678
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 98fe9a8e3600156f158cdfc1ce37ad3349cafa1b
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782864"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216310"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Tutorial: vender, ensamblar y enviar kits
 
-[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 Para usar el inventario puntual y la capacidad de personalizar los productos según las solicitudes del cliente, los pedidos de ensamblado pueden crearse y vincularse automáticamente tan pronto como se cree la línea del pedido de venta. El vínculo entre la demanda de venta y suministro de ensamblado permite a los procesadores de pedidos de venta personalizar el elemento del ensamblado y comprometerse con fechas de entrega según la disponibilidad de los componentes. Además, el consumo y la salida del ensamblado se registran automáticamente con el envío del pedido de venta vinculado.  
 
@@ -107,7 +107,7 @@ Realice los pasos siguientes para quitar el plazo de entrega predeterminada para
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración fabricación** y luego elija el enlace relacionado.  
 2.  En la página **Configuración fabricación**, en la ficha desplegable **Planificación**, elimine el valor del campo **Plazo seguridad genérico**.  
 
-Cree el inventario para los componentes del ensamblado. Para ello, siga [Preparar datos de ejemplo](walkthrough-selling-assembling-and-shipping-kits.md#prepare-sample-data).  
+<!-- Create inventory for assembly components by following [Prepare Sample Data](walkthrough-selling-assembling-and-shipping-kits.md#prepare-sample-data).   -->
 
 ## <a name="story"></a>Historia  
 El 23 de enero, Susana, la responsable del procesamiento de pedidos de venta recibe un pedido de La Tienda Aparatos de tres unidades del kit B, que es un producto ATO. Las tres unidades se personalizan y deben incluir la tarjeta gráfica de gran potencia y un bloque de RAM adicional. Las unidades de disco se actualizan a DWD porque las unidades de CD no están disponibles. Susana sabe que las unidades se pueden ensamblar inmediatamente, por lo que deja la fecha de envío sugerida del 23 de enero.  
@@ -443,7 +443,7 @@ Cuando el pedido de venta se registra posteriormente como facturado en su totali
  [Detalles de diseño: Registro de pedidos de ensamblado](design-details-assembly-order-posting.md)   
  [Detalles de diseño: Flujos de almacén internos](design-details-internal-warehouse-flows.md)   
  [Detalles de diseño: Flujo de salida del almacén](design-details-outbound-warehouse-flow.md)   
- [Tutorial: planificación automática de suministros](walkthrough-planning-supplies-automatically.md)
+<!--  [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

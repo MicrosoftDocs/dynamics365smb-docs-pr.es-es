@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 5f8ddd7176e69c9d1eb3b8d8ff98c93695d50993
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a29cea15cba15da1bc68816e07f76de59f43958b
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771166"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216133"
 ---
 # <a name="finding-related-entries-for-posted-documents"></a>Búsqueda de entradas relacionadas para documentos registrados 
 
@@ -67,7 +67,7 @@ Puede buscar entradas basándose en información sobre el documento, el contacto
 Después de hacer una selección, introduzca la información de búsqueda relevante en los campos de la parte superior. Utilice la información de los campos como ayuda. Cuando haya terminado, elija **Buscar** para iniciar la búsqueda. Si cambia cualquiera de los filtros, deberá volver a elegir **Buscar**.
 
 > [!TIP]
-> Para ver un par de ejemplos sobre el uso de **Buscar entradas**, consulte [Seguimiento de productos con seguimiento de productos](inventory-how-to-trace-item-tracked-items.md) y [Tutorial: seguimiento de números de lote de serie](walkthrough-tracing-serial-lot-numbers.md).
+> Para ver un par de ejemplos sobre cómo usar **Buscar entradas**, consulte [Realizar seguimiento de productos seguidos](inventory-how-to-trace-item-tracked-items.md) <!--and [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md). -->
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
 

@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4fc4bf753788156143e482a89699e53a10fb52b4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0e26df80ecfc0c7921e4f06b3094ae81ae7c29e4
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772209"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216083"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Tutorial: cálculo del trabajo en curso para un proyecto
 
-[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 Con proyectos, puede programar el uso de los recursos de su empresa y realizar un seguimiento de los diversos costes asociados con el uso de recursos en un proyecto específico. Los proyectos implican el consumo de horas de mano de obra, horas de maquinaria, productos de inventario y otros tipos de consumo que se deben controlar a medida que avanza un proyecto. Si un proyecto se extiende durante un periodo prolongado, es posible que desee transferir estos costes a una cuenta de Trabajo en curso (WIP) en el balance mientras se realiza el proyecto. De este modo, podrá identificar los costes y ventas en las cuentas de regularización cuando lo desee.  
 

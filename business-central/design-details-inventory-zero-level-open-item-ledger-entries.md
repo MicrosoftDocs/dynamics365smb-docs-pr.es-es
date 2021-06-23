@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: eae170b356c6bb6c41757aca88f9160df1657901
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: febd7b4ff379d064f392eb55b7868697a59aacf5
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786712"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215933"
 ---
 # <a name="design-details-known-item-application-issue"></a>Detalles de diseño: Problema de liquidación de producto conocido
 Este artículo aborda un problema donde el nivel de inventario es cero aunque existen movimientos de producto pendientes en [!INCLUDE[prod_short](includes/prod_short.md)].  
