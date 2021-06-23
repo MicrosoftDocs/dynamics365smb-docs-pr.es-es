@@ -2,12 +2,12 @@
 metadata:
   title: P+F sobre copiar y pegar datos
   description: Obtenga respuestas a las preguntas frecuentes sobre cómo copiar y pegar datos de campos y filas de las páginas de Business Central.
-  ms.openlocfilehash: 41f92191cf00ff7cbf0a3be2d0902bb9386efc56
-  ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+  ms.openlocfilehash: e52c60da284ba8144975c88b138ca4e7218fa2ab
+  ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
   ms.translationtype: HT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 03/31/2021
-  ms.locfileid: "5775580"
+  ms.lasthandoff: 05/28/2021
+  ms.locfileid: "6115748"
 title: Preguntas frecuentes sobre copiar y pegar
 summary: "Puede copiar una o más filas (registros) de una lista o un solo campo en una página y luego pegar lo que ha copiado en la misma página, otra página o un documento externo (como Microsoft Excel y el correo electrónico de Outlook).  \n\nEn resumen, para copiar, presione CTRL+C (cmd+C en macOS) en su teclado. Para pegar, presione CTRL+V (cmd+V en macOS). Hay otros métodos abreviados de teclado para copiar y pegar que le ayudan a ahorrar tiempo al introducir datos. Para obtener más información, consulte [Métodos abreviados de teclado](keyboard-shortcuts.md#CopyRows). Este artículo responde a preguntas comunes que puede tener acerca de las acciones copiar y pegar.  \n"
 sections:
@@ -72,4 +72,4 @@ sections:
   - question: ¿Por qué me aparecen errores al pegar filas?
     answer: >
       Al pegar en [!INCLUDE[prod_short](includes/prod_short.md)], se comprueba cada fila para asegurarse de que los valores de cada columna son válidos. Si una columna contiene un valor que no es válido, se detiene el pegado y se muestra un mensaje de error. Para evitar esto, asegúrese de que las columnas tengan valores válidos antes de pegarlos.
-additionalContent: "## <a name=\"next-steps\"></a>Pasos siguientes\nEncuentre información relacionada aquí: \n  - [Características de asistencia](ui-accessibility.md)  \n  - [Preparación para hacer negocios](ui-get-ready-business.md)  \n  - [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  \n  - [Preguntas más frecuentes](across-faq.md)"
+additionalContent: "## <a name=\"next-steps\"></a>Pasos siguientes\nEncuentre información relacionada aquí: \n  - [Características de asistencia](ui-accessibility.md)  \n  - [Preparación para hacer negocios](ui-get-ready-business.md)  \n  - [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  \n  - [Preguntas más frecuentes](across-faq.yml)"
