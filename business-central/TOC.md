@@ -11,15 +11,15 @@
 #### [Tutorial: realización de una campaña de ventas](walkthrough-conducting-a-sales-campaign.md)
 #### [Tutorial: Configuración y facturación de prepagos de ventas](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
 #### [Tutorial: Configuración y uso de un flujo de trabajo de aprobación de compra](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
-#### [Tutorial: recepción y ubicación en la configuración del almacenamiento básico](walkthrough-picking-and-shipping-in-basic-warehousing.md)
-#### [Tutorial: recepción y ubicación en la configuración del almacenamiento avanzado](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
-#### [Tutorial: planificación manual de suministros](walkthrough-planning-supplies-manually.md)
-#### [Tutorial: planificación automática de suministros](walkthrough-planning-supplies-automatically.md)
-#### [Tutorial: vender, ensamblar y enviar kits](walkthrough-selling-assembling-and-shipping-kits.md)
+<!-- #### [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md) -->
+<!-- #### [Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md) -->
+<!-- #### [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md) -->
+<!-- #### [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
+<!-- #### [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md) -->
 #### [Tutorial: administración de programas con proyectos](walkthrough-managing-projects-with-jobs.md)
 #### [Tutorial: cálculo del trabajo en curso para un proyecto](walkthrough-calculating-work-in-process-for-a-job.md)
 #### [Tutorial: picking y envío en la configuración del almacenamiento básico](walkthrough-picking-and-shipping-in-basic-warehousing.md)
-#### [Tutorial: seguimiento de números de serie/lote](walkthrough-tracing-serial-lot-numbers.md)
+<!-- #### [Walkthrough: Tracing Serial/Lot Numbers](walkthrough-tracing-serial-lot-numbers.md) -->
 #### [Tutorial: elaboración de previsiones del flujo de efectivo con esquemas de cuentas](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 
 ### Detalles de diseño
@@ -79,8 +79,6 @@
 ##### [Descripción de la línea de registro en diario general](design-details-general-journal-post-line-overview.md)  
 ##### [Detalles de diseño: estructura de interfaz de registro](design-details-posting-interface-structure.md)  
 ##### [Detalles de diseño: estructura de motor de registro](design-details-posting-engine-structure.md)  
-##### [Detalles de diseño: Cambios en codeunit 12: Asociación de variables globales para línea de registro en diario general](design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)  
-##### [Detalles de diseño: Cambios en la codeunit 12: Cambios en los procedimientos de registro en el diario general](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)
 #### Detalles de diseño: Movimientos de grupo de dimensiones
 ##### [Detalles de diseño: Resumen de Movimientos de grupo de dimensiones](design-details-dimension-set-entries-overview.md)  
 ##### [Detalles de diseño: Búsqueda de combinaciones de dimensiones](design-details-searching-for-dimension-combinations.md)  
@@ -241,9 +239,10 @@
 #### [Sugerencias y trucos: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
 ### Configuración del correo electrónico
 #### [Configurar correo electrónico](admin-how-setup-email.md)
-#### Configurar su bandeja de entrada de empresa en Outlook 
+#### Configurar su bandeja de entrada en Microsoft Outlook 
 ##### [Usar Business Central como su bandeja de entrada de empresa en Outlook](admin-outlook.md)
-##### [Sincronizar con Contactos en Microsoft Outlook](admin-synchronize-outlook-contacts.md)
+##### [Sincronizar con Contactos en Outlook](admin-synchronize-outlook-contacts.md)
+##### [Optimizar Outlook](admin-outlook-optimize.md)
 ##### [Usar Business Central sin Outlook](admin-no-outlook.md)
 ### Configuración de informes
 #### [Selección de informe](across-report-selections.md)
@@ -257,7 +256,7 @@
 ##### [Gestión de la integración de Teams](admin-teams-integration.md)
 ##### [Instalación de la aplicación Business Central para Teams](across-install-app-for-teams.md)
 ##### [Búsqueda de clientes, proveedores y contactos](across-search-contacts-teams.md)
-##### [Trabajar con datos de Business Central en Teams](across-working-with-teams.md)
+##### [Compartir registros en Teams](across-working-with-teams.md)
 ##### [Cambiar la empresa y otras configuraciones](across-teams-settings.md)
 ##### [P+F de Teams](teams-faq.md)
 ##### [Solución de problemas](admin-teams-troubleshooting.md)
@@ -287,12 +286,12 @@
 ### [Obtener Business Central en el dispositivo móvil](install-mobile-app.md)
 
 ## Preguntas más frecuentes
-### [Preguntas más frecuentes](across-faq.md)
+### [Preguntas más frecuentes](across-faq.yml)
 ### [FAQ acerca de la función Dígame](ui-search-faq.md)
 ### [Preguntas frecuentes sobre búsqueda y filtrado](ui-search-filter-faq.yml)
 ### [Preguntas frecuentes sobre vistas de lista](ui-views-faq.yml)
 ### [Preguntas frecuentes sobre copiar y pegar](faq-copy-paste.yml)
-### [P+F sobre aplicaciones móviles](ui-mobile-faq.md)
+### [P+F sobre aplicaciones móviles](ui-mobile-faq.yml)
 ### [P+F de Teams](teams-faq.md)
 ### [P+F sobre facturación electrónica](faq-electronic-invoicing.yml)
 ### [Requisitos mínimos](product-requirements.md)
@@ -534,6 +533,10 @@
 #### [Cerrar los movimientos de producto abiertos que se crean por una liquidación fija en el diario de productos](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
 #### [Conciliar costes de inventario con la contabilidad general](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
 
+### Gestión del flujo de efectivo
+#### [Descripción del flujo de efectivo](finance-cash-flow-overview.md)
+#### [Analizar los flujos de efectivo de la empresa](finance-analyze-cash-flow.md)
+
 ### Cerrar años y periodos
 #### [Resumen de cierre de año](year-close-years-periods.md)
 #### [Trabajar con periodos contables y ejercicios](finance-accounting-periods-and-fiscal-years.md)
@@ -566,7 +569,6 @@
 ### [Crear informes de IVA para las autoridades fiscales](finance-how-report-vat.md)
 ### [Convertir contratos de servicio que incluyen importes de IVA](service-how-to-convert-service-contracts.md)
 ### [Administración de cambios del tipo de IVA](finance-how-use-vat-rate-change-tool.md)
-### [Analizar los flujos de efectivo de la empresa](finance-analyze-cash-flow.md)
 ### [Tutorial: elaboración de previsiones del flujo de efectivo con esquemas de cuentas](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 ### [Análisis de estados financieros en Excel](finance-analyze-excel.md)
 ### [Transferir fondos bancarios](bank-how-transfer-bank-funds.md)
@@ -586,6 +588,7 @@
 
 ## Ccial
 ### [Información general de ventas](sales-manage-sales.md)
+### [Informes de ventas](sales-reports.md)
 ### [Tutorial: realización de una campaña de ventas](walkthrough-conducting-a-sales-campaign.md)
 ### [Tutorial: configuración y facturación de prepagos de ventas](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
 ### [Permite registrar nuevos clientes](sales-how-register-new-customers.md)
@@ -606,9 +609,11 @@
 ### [Cálculo de fecha de ventas](sales-date-calculation-for-sales.md)
 ### [Combinar registros duplicados](sales-how-merge-duplicate-records.md)
 ### [Trabajar con ingresos recurrentes](finance-recurring-invoicing.md)
+### [Introducir números de documento externo](across-enter-external-document-numbers.md)
 
 ## Compra
 ### [Resumen de compras](purchasing-manage-purchasing.md)
+### [Informes de compras](purchase-reports.md)
 ### [Tutorial: Configuración y uso de un flujo de trabajo de aprobación de compra](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 ### [Registrar compras](purchasing-how-record-purchases.md)
 ### [Solicitar presupuestos](purchasing-how-request-quotes.md)
@@ -621,9 +626,13 @@
 ### [Cálculo de la fecha de compras](purchasing-date-calculation-for-purchases.md)
 ### [Combinar registros duplicados](sales-how-merge-duplicate-records.md)
 ### [Trabajar con pedidos abiertos de compra](sales-how-to-create-blanket-sales-orders.md)
+### [Números de documento externo en documentos de compra](purchasing-ext-doc-no.md)
+### [Introducir números de documento externo](across-enter-external-document-numbers.md)
+
 
 ## Inventario
 ### [Resumen de inventario](inventory-manage-inventory.md)
+### [Informes de inventario y almacén](inventory-WMS-reports.md)
 ### [Registro de productos nuevos](inventory-how-register-new-items.md)
 ### [Trabajar con listas de materiales](inventory-how-work-BOMs.md)
 ### [Clasificar productos](inventory-how-categorize-items.md)
@@ -642,6 +651,7 @@
 
 ## Administración de proyectos
 ### [Información general de administración de proyectos](projects-manage-projects.md)
+### [Informes de proyectos](project-reports.md)
 ### [Crear proyectos](projects-how-create-jobs.md)
 ### [Uso de recursos para proyectos](projects-how-use-resources.md)
 ### [Uso de hojas de horas para proyectos](projects-how-use-time-sheets.md)
@@ -701,21 +711,20 @@
 ## Planificación
 ### [Planificación de la producción](production-planning.md)
 ### [Sobre la funcionalidad de la planificación](production-about-planning-functionality.md)
-### [Subcontratación de fabricación](production-how-to-subcontract-manufacturing.md)
 ### [Planificación con o sin almacenes](production-planning-with-without-locations.md)
 ### [Crear una previsión](production-how-to-create-a-forecast.md)
 ### [Crear órdenes de producción desde pedidos de venta](production-how-to-create-production-orders-from-sales-orders.md)
-### [Planificar órdenes de proyecto](production-how-to-plan-project-orders.md)
 ### [Planear la nueva demanda de pedido por pedido](production-how-to-plan-for-new-demand.md)
 ### [Ejecutar la planificación completa, MPS o MRP](production-how-to-run-mps-and-mrp.md)
 ### [Replanificar o actualizar órdenes de producción directamente](production-how-to-replan-refresh-production-orders.md)
 ### [Realizar un seguimiento de las relaciones entre demanda y suministro](production-how-track-demand-supply.md)
-### [Tutorial: planificación manual de suministros](walkthrough-planning-supplies-manually.md)
-### [Tutorial: planificación automática de suministros](walkthrough-planning-supplies-automatically.md)
+<!-- ### [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md) -->
+<!-- ### [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
 <!--## [Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)-->
 
 ## Gestión de ensamblaje
 ### [Ensamblar artículos](assembly-assemble-items.md)
+### [Informes de ensamblado](assembly-reports.md)
 ### [Descripción de ensamblar para pedido y ensamblar para stock](assembly-assemble-to-order-or-assemble-to-stock.md)
 ### [Oferta de una venta de ensamblar para pedido](assembly-how-to-quote-an-assemble-to-order-sale.md)
 ### [Ensamblar artículos](assembly-how-to-assemble-items.md)
@@ -729,6 +738,7 @@
 
 ## Fabricación
 ### [Información general de fabricación](production-manage-manufacturing.md)
+### [Informes de producción](production-reports.md)
 ### [Sobre los pedidos de producción](production-about-production-orders.md)
 ### [Crear ordenes de producción](production-how-to-create-production-orders.md)
 ### [Subcontratación de fabricación](production-how-to-subcontract-manufacturing.md)
@@ -743,6 +753,7 @@
 
 ## Gestión almacén
 ### [Gestión de almacenes](warehouse-manage-warehouse.md)
+### [Informes de inventario y almacén](inventory-WMS-reports.md)
 ### [Recibir productos](warehouse-how-receive-items.md)
 ### [Productos de tránsito directo](warehouse-how-to-cross-dock-items.md)
 ### Configurando los artículos componentes
@@ -773,8 +784,8 @@
 ### [Enviar productos](warehouse-how-ship-items.md)
 ### [Buscar las asignaciones de almacén](warehouse-how-to-find-your-warehouse-assignments.md)
 ### [Utilice el sistema de captura de datos automatizado (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)
-### [Tutorial: recepción y ubicación en la configuración del almacenamiento básico](walkthrough-picking-and-shipping-in-basic-warehousing.md)
-### [Tutorial: recepción y ubicación en la configuración del almacenamiento avanzado](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
+<!-- ### [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md) -->
+<!-- ### [Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md) -->
 
 ## Gestión de servicios
 ### [Gestión de servicios](service-service.md)
@@ -840,6 +851,7 @@
 ##### [Determinar el precio de venta por coste más porcentaje](LocalFunctionality/Australia/how-to-determine-sales-price-by-cost-plus-percentage.md)
 ##### [Números y notas de Ajuste de empresas australianas](LocalFunctionality/Australia/australian-business-numbers-and-adjustment-notes.md)
 ##### [Introducir números de empresas australianas](LocalFunctionality/Australia/how-to-enter-australian-business-numbers.md)
+##### [Informe de horas de pago](LocalFunctionality/Australia/payment-times-reporting.md)
 
 ### Austria
 #### [Funcionalidad local en la versión austriaca](LocalFunctionality/Austria/austria-local-functionality.md)
@@ -1544,7 +1556,6 @@
 ##### [Introducir la información estatutaria](LocalFunctionality/UnitedKingdom/how-to-enter-statutory-information.md)
 ##### [La extensión Códigos postales de Reino Unido de GetAddress.io](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
 ##### [Configurar la extensión Códigos postales de Reino Unido de GetAddress.io](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)
-##### [Introducir números de documento externos](LocalFunctionality/UnitedKingdom/how-to-enter-external-document-numbers.md)
 
 ### Estados Unidos
 #### [Funcionalidad local en la versión de EE. UU.](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
@@ -1599,6 +1610,7 @@
 ### [Visualización de información de tabla](admin-view-table-information.md)
 ### [Crear un entorno aislado](across-how-create-sandbox-environment.md)
 ### [Habilitación de nuevas características de antemano](admin-feature-management.md)
+### [Incorporación de usuarios con listas de comprobación](admin-checklist.md)
 ## Personalizar Business Central
 ### [Resumen de personalización](ui-customizing-overview.md)
 ### [Personalizar páginas para perfiles](ui-personalization-manage.md)
