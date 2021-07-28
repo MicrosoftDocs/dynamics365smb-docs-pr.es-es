@@ -1,5 +1,5 @@
 ---
-title: Funcionalidad local para España
+title: Funcionalidad local para España [ES]
 description: En los temas siguientes se describe la funcionalidad local de la versión española de Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: f5b64de36e78de8c32a7881932abec539ab607da
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: dac1a81dee881c93554147b0564ff68db9c45e89
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785221"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321742"
 ---
-# <a name="spain-local-functionality"></a>Funcionalidad local para España
+# <a name="spain-local-functionality-in-the-spanish-version"></a>Funcionalidad local en la versión española
 
 En los temas siguientes se describe la funcionalidad local que es única para la versión española de [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 

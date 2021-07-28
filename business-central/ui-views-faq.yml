@@ -1,7 +1,7 @@
 ### YamlMime:FAQ
 metadata:
   title: Preguntas frecuentes sobre las vistas de lista
-  description: Información detallada sobre cómo guardar filtros como vistas de lista.
+  description: Este artículo responde a las preguntas frecuentes sobre las vistas de lista y ofrece información detallada sobre cómo guardar y trabajar con filtros como vistas de lista.
   author: mikebcMSFT
   ms.service: dynamics365-business-central
   ms.topic: conceptual
@@ -9,14 +9,14 @@ metadata:
   ms.tgt_pltfrm: na
   ms.workload: na
   ms.search.keywords: list, filter, pane, views
-  ms.date: 04/01/2021
+  ms.date: 06/24/2021
   ms.author: mikebc
-  ms.openlocfilehash: 4406c6a87826dcbc4626bc48db86d1f9d3635ccf
-  ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
+  ms.openlocfilehash: 8c046697ce13b6079c54fa6d569cb4a40e1a4cc0
+  ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
   ms.translationtype: HT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 05/11/2021
-  ms.locfileid: "6017316"
+  ms.lasthandoff: 06/30/2021
+  ms.locfileid: "6322227"
 title: Preguntas frecuentes sobre vistas de lista
 summary: Este artículo responde preguntas que nuestros usuarios avanzados hacen a menudo sobre cómo trabajar con vistas de lista y guardar filtros.
 sections:

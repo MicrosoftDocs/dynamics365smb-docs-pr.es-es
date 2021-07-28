@@ -1,6 +1,6 @@
 ---
-title: WorldPay Payments Standard| Documentos de Microsoft
-description: Proporciona información acerca de la extensión WorldPay Payments Standard
+title: WorldPay Payments Standard
+description: La extensión WorldPay Payments Standard le permite proporcionar a los clientes una alternativa cómoda para realizar pagos a través de transferencias bancarias o tarjetas de crédito.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: a5e9d7d5c03ddb71283f82e5096cebc7f9da9690
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 7a5d492ec273bfccd016e8216510f3301234d931
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771265"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6322649"
 ---
 # <a name="the-worldpay-payments-standard-extension"></a>Extensión WorldPay Payments Standard
 La extensión WorldPay Payments Standard le permite proporcionar a los clientes una alternativa cómoda para realizar pagos a través de transferencias bancarias o tarjetas de crédito. No solo eso, además, los pagos realizados a través de los servicios de pago normalmente llegan a su cuenta bancaria más rápidamente.

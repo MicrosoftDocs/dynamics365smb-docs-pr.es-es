@@ -1,19 +1,19 @@
 ---
-title: Tareas de trabajo usando recursos y hojas de horas | Documentos de Microsoft
-description: Describe cómo usar recursos, hojas de horas y trabajos para administrar proyectos.
+title: Tareas de proyecto usando recursos y hojas de horas
+description: Este tema describe cómo usar recursos, hojas de horas y proyectos para administrar proyectos y sus presupuestos.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 2dbe4a82f6cc2e9f28fbd06a3f235d9630a75cca
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bbb0fbf1500daa284ac99e03d01e8c9a64e417bf
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780337"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321094"
 ---
 # <a name="project-management"></a>Administración de proyectos
 En [!INCLUDE[prod_short](includes/prod_short.md)], puede realizar tareas habituales de administración de proyectos, como configurar un proyecto y programar un recurso, así como proporcionar la información necesaria para administrar presupuestos y supervisar el progreso. Puede hacer un seguimiento de las horas de máquina y de empleados del proyecto utilizando las hojas de horas. Como administrador de proyectos, dispone de una buena visión general no solo de proyectos individuales, sino también de la asignación de empleados, maquinaria y otros recursos que se estén usando en todos los proyectos.

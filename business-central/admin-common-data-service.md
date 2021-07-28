@@ -1,19 +1,19 @@
 ---
 title: Uso de Microsoft Dataverse
-description: Introducción a Microsoft Dataverse y sus componentes.
+description: Introducción a cómo integrar y utilizar Microsoft Dataverse y sus componentes para conectarse a otras aplicaciones de Dynamics 365.
 author: bholtorf
 ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.date: 04/01/2021
-ms.openlocfilehash: 8ddf4413b6ecb35bcca9873ef4bb99db75642563
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.date: 06/14/2021
+ms.openlocfilehash: 34e274b32fbf8cf04a40cf4db884c156e2115416
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773134"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320968"
 ---
 # <a name="integrating-with-microsoft-dataverse"></a>Integración con Microsoft Dataverse
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]

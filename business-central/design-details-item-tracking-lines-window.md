@@ -1,6 +1,6 @@
 ---
-title: 'Detalles de diseño: página Líns. seguim. prod. | Documentos de Microsoft'
-description: Lea información acerca de cómo gestionar el flujo de números de serie y números de lote en el inventario.
+title: 'Detalles de diseño: página Líns. seguim. prod.'
+description: Lea información acerca de cómo gestionar el flujo de números de serie y números de lote en el inventario utilizando la página Líns. seguim. prod. almacén.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, inventory, item, tracking, serial number, lot number
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 24454de31ff2424481c574f79098472719c84c82
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 50888b8d00696645841f37aa24b5cb3bc031fed2
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214939"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320319"
 ---
 # <a name="design-details-item-tracking-lines-page"></a>Detalles de diseño: página Líns. seguim. prod.
 Los registros de seguimiento de producto y los registros de reserva se crean en el sistema de reservas, y su disponibilidad se calcula dinámicamente. Los datos introducidos en la página **Líns. seguim. prod.** se administran en una versión temporal de la tabla **Especificación seguimiento.** Cuando la página está cerrada, los datos activos se transfieren a la tabla **Mov. reserva** y los datos históricos se transfieren a la tabla **Especificación seguimiento**. Para obtener más información, consulte [Detalles de diseño: registros de seguimiento de productos históricos frente a activos](design-details-active-versus-historic-item-tracking-entries.md).  

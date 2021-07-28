@@ -1,6 +1,6 @@
 ---
-title: 'Procedimientos recomendados de configuración: parámetros de planificación | Documentos de Microsoft'
-description: La ficha desplegable Planificación de la ficha de producto es el centro de la cadena de suministro de una empresa. La configuración de los parámetros correctos de planificación es muy importante para un control de inventario rentable y un servicio al cliente superior.
+title: 'Procedimientos recomendados de configuración: parámetros de la planificación'
+description: Este tema describe las mejores prácticas sobre cómo configurar campos de parámetros de planificación seleccionados con la ficha desplegable Planificación en la ficha del artículo.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: cba27162e4bbc702eb6451e73b809a59c2d3ec1d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 72d6f07ca98fad0bed123c648025665add723c23
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784372"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320061"
 ---
 # <a name="setup-best-practices-planning-parameters"></a>Procedimientos recomendados de configuración: parámetros de la planificación
 La ficha desplegable **Planificación** de la ficha de producto es el centro de la cadena de suministro de una empresa. La configuración de los parámetros correctos de planificación es muy importante para un control de inventario rentable y un servicio al cliente superior.  

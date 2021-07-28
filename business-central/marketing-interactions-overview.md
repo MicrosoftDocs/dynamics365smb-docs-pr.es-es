@@ -1,6 +1,6 @@
 ---
-title: Crear y administrar interacciones con los contactos | Documentos de Microsoft
-description: En Business Central, las interacciones son todos los tipos de comunicaciones entre su empresa y sus contactos. Por ejemplo, pueden ser por correo electrónico, carta, teléfono, reuniones, etc.
+title: Crear y administrar interacciones con los contactos
+description: En Business Central, las interacciones son todos los tipos de comunicaciones entre su empresa y sus contactos. Lea sobre las formas de crear y administrar sus contactos.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: a7e8a009b4d1702689ac61b2874d8970c9c629d2
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e1876b5f94aa99d032f12c25f81d371af5f44a7c
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780637"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321867"
 ---
-# <a name="managing-interactions"></a>Gestionar interacciones
+# <a name="managing-interactions-with-your-contacts"></a>Administración de las interacciones con los contactos
 En [!INCLUDE[prod_short](includes/prod_short.md)], las interacciones son todos los tipos de comunicaciones entre su empresa y sus contactos. Por ejemplo, pueden ser por correo electrónico, carta, teléfono, reuniones, etc.
 
 Puede registrar todas las interacciones que tenga con sus contactos para poder hacer un seguimiento de las ventas y los esfuerzos comerciales dirigidos a éstos y mejorar las interacciones de negocio futuras.

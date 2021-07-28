@@ -1,6 +1,6 @@
 ---
-title: Administración de servicio | Documentos de Microsoft
-description: Aprenda a utilizar las funciones diseñadas para soportar las operaciones del taller de reparaciones y del servicio de campo.
+title: Gestión de servicios
+description: Aprenda a utilizar las funciones de Business Central diseñadas para administrar y realizar un seguimiento de los servicios para respaldar las operaciones del taller de reparaciones y del servicio de campo.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 44167244c872ae5235d0f8443df826a45aafd253
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4e3f85ae3bc5f8672f148ad04388e5810cefb45f
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776697"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320086"
 ---
 # <a name="service-management"></a>Gestión de servicios
 > [!NOTE]

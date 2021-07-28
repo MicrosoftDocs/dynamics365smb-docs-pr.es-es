@@ -1,6 +1,6 @@
 ---
-title: Mostrar información útil en las áreas de trabajo | Documentos de Microsoft
-description: La extensión Información de la empresa esencial rota una serie de ideas comerciales en las áreas de trabajo.
+title: Mostrar información útil en las áreas de trabajo
+description: Conozca cómo la extensión Información de la empresa esencial rota una serie de ideas comerciales en las áreas de trabajo.
 documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: BI, add-in, insight, headline, data
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5358f85e3b467fc930d99a652c91bd266d7fd9be
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 458e7826979b75c370cb0a90d90c2d64c9ab599e
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772333"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6322674"
 ---
 # <a name="the-essential-business-insights-extension"></a>La extensión Información de la empresa esencial
 La extensión Información de la empresa esencial encuentra hechos comerciales interesantes en los datos de su empresa y los muestra como titulares de periódico en las áreas de trabajo. En función de lo que encuentre la extensión en los datos, la información será de la última semana, mes o tres meses desde la fecha actual. La información se actualiza cada 10 minutos.  

@@ -1,6 +1,6 @@
 ---
-title: Procesos de servicio de planificación | Documentos de Microsoft
-description: Describe las tareas para configurar reglas y valores para definir las directivas y los procesos de servicios.
+title: Procesos de servicio de planificación
+description: Este tema resumen las distintas tareas para configurar reglas y valores para definir las directivas y los procesos de servicios.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, work hours, configure, price, pricing
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: eaf6f55e807ef9630d9e8f50c71676e86c296b8d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 93dfc313521d392b3585eac4aacab3c152a43c78
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778177"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323007"
 ---
 # <a name="planning-services"></a>Servicio de planificación
 Con [!INCLUDE[prod_short](includes/prod_short.md)], puede configurar las tareas estándar que necesite para satisfacer las necesidades de servicio de su cliente. Para realizarlo, debe determinar qué ofertas de productos de servicio admite su organización de servicios y a qué precio.   

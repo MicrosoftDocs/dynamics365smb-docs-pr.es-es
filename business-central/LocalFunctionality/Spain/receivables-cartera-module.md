@@ -1,6 +1,6 @@
 ---
-title: Módulo Docs. cartera a cobrar
-description: El módulo Docs. cartera a cobrar permite administrar las facturas generadas a partir de facturas de ventas.
+title: Módulo Docs. cartera a cobrar [ES]
+description: El módulo Docs. cartera a cobrar permite administrar las facturas generadas a partir de facturas de ventas utilizando el Diario Cartera.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: cc5fe5fc36953631e402f79fa2bd9fd51e8453ea
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8b539fb8f412e23137654c458cf07afea9722ac2
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774714"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6319326"
 ---
-# <a name="receivables-cartera-module"></a>Módulo Docs. cartera a cobrar
+# <a name="receivables-cartera-module-in-the-spanish-version"></a>Módulo Docs. cartera a cobrar en la versión en español
 El módulo Docs. cartera a cobrar permite administrar las facturas generadas a partir de facturas de ventas. Los documentos se pueden administrar por:  
 
 - Fecha de vencimiento  

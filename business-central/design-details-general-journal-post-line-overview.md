@@ -1,6 +1,6 @@
 ---
-title: Descripción de la línea de registro en diario general | Documentos de Microsoft
-description: Este tema introduce cambios en la codeunit 12, **Diario general-línea de registro**, que es el objeto principal de aplicación para el registro en contabilidad y es el único lugar donde insertar movimientos de contabilidad, de IVA, de clientes y de proveedores.
+title: Descripción de la línea de registro en diario general
+description: Este tema presenta cambios en Codeunit 12, Diario general-lín. reg., y es el único lugar para insertar movimientos en el libro mayor, IVA y en el libro mayor de clientes y proveedores.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, general ledger, post
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 1f6060eb7672b332fb570eb13fe027a3b58e6594
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 9642c33d9d5994c6982029e4ae96897a7648b8c8
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215258"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6322477"
 ---
 # <a name="general-journal-post-line-overview"></a>Descripción de la línea de registro en diario general
 

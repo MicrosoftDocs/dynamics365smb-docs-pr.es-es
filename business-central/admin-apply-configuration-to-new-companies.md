@@ -1,6 +1,6 @@
 ---
-title: Aplicar la configuración a nuevas empresas | Documentos de Microsoft
-description: Una vez que haya creado un paquete de configuración, el siguiente paso es implementar el paquete en el cliente para su implementación. Use la configuración con una nueva empresa vacía.
+title: Aplicar configuración a nuevas empresas
+description: Una vez que haya creado un paquete de configuración, implemente el paquete en el cliente para su implementación. Use la configuración con una nueva empresa vacía.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 22b4c770f182aa9e5df72ff3d625dc32c5a6f827
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8eaffa61361a9cbcc01af3585090dc0939eaa4d8
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773366"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6324105"
 ---
 # <a name="apply-configurations-to-new-companies"></a>Aplicar la configuración a nuevas empresas
 Una vez que haya creado un paquete de configuración, el siguiente paso es implementar el paquete en el cliente para su implementación. Trabaje con el paquete de configuración dentro de una nueva empresa vacía.  

@@ -1,6 +1,6 @@
 ---
 title: Estado de pedido de servicio y estado de reparación
-description: El campo Estado de la página Pedido servicio y el estado de reparación del producto de servicio, que se representa en el campo Código estado reparación de la página Pedido servicio están relacionados en Gestión servicios. El estado de pedido de servicio indica el estado de reparación de todos los productos de servicio del pedido de servicio.
+description: El estado de pedido de servicio indica el estado de reparación de todos los productos de servicio del pedido de servicio.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 08fba6795f288e21c0de457a70ff7fa32e7c2822
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 88596c87cf255a52dcb49cdd0295822152b22928
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770668"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6322957"
 ---
 # <a name="service-order-status-and-repair-status"></a>Estado de pedido de servicio y estado de reparación
 

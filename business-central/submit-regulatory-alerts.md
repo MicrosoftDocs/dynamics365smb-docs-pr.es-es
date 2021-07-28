@@ -1,19 +1,19 @@
 ---
-title: Enviar alertas normativas | Documentos de Microsoft
-description: Si tiene información sobre la nueva legislación y cree que requiere soporte de características en Business Central, puede seguir esta guía para enviar una alerta normativa al equipo del producto.
+title: Enviar alertas reglamentarias
+description: Si tiene información sobre la nueva legislación que requiere soporte de características en Business Central, puede seguir esta guía para enviar una alerta normativa al equipo del producto.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: soalex
-ms.openlocfilehash: f75e75cbc220e673fe0e841f8a1f1f04b247bb88
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: dc993a446219c5dcb28cd9a90756c0355ba30a16
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784845"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6319986"
 ---
 # <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Enviar alertas sobre las características normativas específicas del país/región
 

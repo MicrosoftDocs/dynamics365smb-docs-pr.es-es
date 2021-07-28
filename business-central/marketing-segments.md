@@ -1,6 +1,6 @@
 ---
-title: Administrar segmentos y seleccionar los contactos para incluirlos | Documentos de Microsoft
-description: Describe las tareas para crear un segmento para seleccionar un grupo de contactos según criterios específicos, por ejemplo, contactos de un determinado sector al que desee dirigirse.
+title: Administrar segmentos y seleccionar los contactos
+description: Este tema describe cómo crear un segmento seleccionando un grupo de contactos de acuerdo con criterios específicos para luego apuntar a ese segmento con una campaña.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: jswymer
-ms.openlocfilehash: 04034f51379874f9d8755b229ef4b251af0be37e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6a058433fdd95e4fc78502dd54fbc948fa11a183
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784422"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323598"
 ---
 # <a name="managing-segments"></a>Administrar segmentos
 Puede crear segmentos para seleccionar un grupo de contactos en función de criterios específicos. Por ejemplo, un segmento puede ser el sector al que pertenecen los contactos o su relación de negocio con los contactos. Puede crear un segmento para seleccionar los contactos a los que se va a dirigir la campaña.

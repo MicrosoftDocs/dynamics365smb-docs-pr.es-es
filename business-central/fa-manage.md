@@ -1,6 +1,6 @@
 ---
-title: Administrar activos fijos | Documentos de Microsoft
-description: Obtenga información sobre la funcionalidad de activos fijos y obtenga un resumen de cómo trabajar con activos fijos.
+title: Administración de activos fijos
+description: Obtenga información sobre la funcionalidad de activos fijos y obtenga un resumen de cómo trabajar y administrar activos fijos.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: feb3d677c2c55166b71f825315ee1805b28b3a5e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6d6cf9a0efeca2c484d0fd2e1ce06db63f2ac91f
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770496"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323232"
 ---
-# <a name="fixed-assets"></a>Activos fijos
+# <a name="managing-fixed-assets"></a>Administrar activos fijos
 La funcionalidad Activos fijos de [!INCLUDE[prod_short](includes/prod_short.md)] proporciona un resumen de sus activos y asegura una correcta amortización periódica. También le permite realizar un seguimiento de los costes de mantenimiento, gestionar las pólizas de seguros, registrar transacciones de activos y generar diversos informes y estadísticas.
 
 Deberá configurar una ficha con la información de cada activo. Puede configurar los edificios o los bienes de producción como activos principales con una lista de componentes y puede agruparlos de diferentes maneras como, por ejemplo, por clase, departamento o ubicación. Ahora puede empezar a adquirir, mantener y vender los activos fijos. También puede configurar activos presupuestados. Esto permite incluir cualquier adquisición y venta anticipada en los informes.

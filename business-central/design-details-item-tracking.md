@@ -1,6 +1,6 @@
 ---
-title: 'Detalles de diseño: Seguimiento de productos | Documentos de Microsoft'
-description: Este tema proporciona un resumen de los detalles de diseño del seguimiento de producto.
+title: 'Detalles de diseño: Seguimiento de productos'
+description: El sistema de seguimiento de artículos proporciona un fácil manejo de los números de serie y de lote, que pueden ser necesarios para cumplir los requisitos legales o ayudar en la gestión de la garantía.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 6e5f20d2f450f3f544cc2f7023160e4e9babdf33
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 788d003324ccf7314d316f201cc561e0a2877933
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772809"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320294"
 ---
 # <a name="design-details-item-tracking"></a>Detalles de diseño: Seguimiento de productos
 A medida que el flujo de productos en la cadena de suministro actual se hace cada vez más complejo, la posibilidad de hacer un seguimiento de los productos cobra mayor importancia para las empresas implicadas. La supervisión del flujo de transacciones de un producto es un requisito legal en el suministro de productos médicos y químicos, pero en otros sectores se pueden supervisar los productos con garantías o fechas de vencimiento por motivos de servicio al cliente.  

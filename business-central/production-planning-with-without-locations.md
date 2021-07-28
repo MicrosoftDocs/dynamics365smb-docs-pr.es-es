@@ -1,6 +1,6 @@
 ---
-title: Planificación con o sin almacenes | Documentos de Microsoft
-description: Es importante entender la planificación con o sin códigos de almacén en líneas de demanda.
+title: Planificación con o sin almacenes
+description: En este tema, obtenga información sobre producción y fabricación, incluida la planificación de suministros, en Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: b182a66984ea0345e7f33e1292839d1ecfad4bfd
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4f67eab27c95e4786b8f1d5949d678105ea21999
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787557"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6319154"
 ---
 # <a name="planning-with-or-without-locations"></a>Planificación con o sin almacenes
 En cuanto a la planificación con o sin códigos de almacén en las líneas de demanda, el programa de planificación funciona directamente cuando:  

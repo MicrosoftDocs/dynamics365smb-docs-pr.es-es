@@ -1,6 +1,6 @@
 ---
-title: Conformidad | Documentos de Microsoft
-description: En este contenido se incluye información acerca de la conformidad en relación con Business Central.
+title: Información general sobre cumplimiento
+description: La información general sobre la funcionalidad de Business Central se basa en una plataforma que facilita que los clientes cumplan con la legislación normativa y de conformidad.
 author: sorenfriisalexandersen
 documentationcenter: ''
 ms.service: dynamics365-business-central
@@ -10,16 +10,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.reviewer: edupont
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: soalex
-ms.openlocfilehash: 527a63fb9aff0484be2561673ab815090d039fbd
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 10585896eadc9cbd9eec6f451d734b98b37b0133
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788413"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6318917"
 ---
-# <a name="compliance"></a>Conformidad
+# <a name="compliance-overview"></a>Información general sobre cumplimiento
 
 En este contenido se incluye información acerca de la conformidad en relación con [!INCLUDE[prod_short](../includes/prod_short.md)].  
 

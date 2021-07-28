@@ -1,19 +1,19 @@
 ---
 title: Administración de valores de opciones que faltan
-description: Aprenda a evitar que falle la sincronización completa porque las opciones difieren en los campos asignados.
+description: Aprenda a evitar que falle la sincronización completa porque las opciones difieren en los campos asignados. Estos procesos requieren la ayuda de un desarrollador.
 author: bholtorf
 ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.date: 04/01/2021
-ms.openlocfilehash: cd2ed879c6ef6022431e273fa9953110ce482567
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.date: 06/14/2021
+ms.openlocfilehash: 894414ca22ec960c228f9519cb54d9044790a87b
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773209"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6324080"
 ---
 # <a name="handling-missing-option-values"></a>Administración de valores de opciones que faltan
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
