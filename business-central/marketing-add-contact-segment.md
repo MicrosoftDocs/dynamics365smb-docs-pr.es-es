@@ -12,18 +12,18 @@ ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect, contact, client, customer
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 7cf4c0f1241155f464fde5196125b0a1bed2aeee
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4095cfd39ad37037f7fad2a5bded7c5c71241f6a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784547"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438882"
 ---
 # <a name="add-contacts-to-segments"></a>Añadir contactos a segmentos
 Después de crear un segmento y especificar su información básica, puede que quiera añadir contactos al segmento. Puede hacerlo si rellena manualmente las líneas de la página **Segmento**, pero es más sencillo y rápido usar la acción **Agregar contactos**.
 
 ## <a name="to-add-a-contact-to-a-segment"></a>Procedimiento para agregar un contacto a un segmento
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Segmentos** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Segmentos** y luego elija el enlace relacionado.  
 2. Seleccione el segmento y, a continuación, seleccione la acción **Agregar contactos**. Se abre la página de proceso **Agregar contactos**.
 3. En la sección **Contacto**, establezca los filtros para especificar la información que desea usar para seleccionar contactos.
 

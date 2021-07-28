@@ -11,12 +11,12 @@ ms.reviewer: edupont
 ms.search.keywords: user settings, preferences, language, region, time zone, regional settings
 ms.date: 04/01/2021
 ms.author: soalex
-ms.openlocfilehash: 36850a2d0d8f85a0436b5d268c3cd2653b2f785f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fff79b56d6846547230788b6caa831e7bf3a11d7
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779762"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438957"
 ---
 # <a name="manage-user-settings-and-preferences"></a>Administrar configuraciones y preferencias de usuario
 
@@ -74,7 +74,7 @@ Como administrador, puede obtener una resumen de los cambios individuales en [!I
 
 ## <a name="to-review-or-delete-user-personalizations"></a>Para revisar o eliminar personalizaciones de usuarios
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), vaya a **Páginas personalizadas** y, a continuación, seleccione el vínculo relacionado.
+1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe") , escriba **Páginas personalizadas** y luego elija el enlace relacionado.
 2. Esto muestra la lista de usuarios y sus páginas personalizadas. Para borrar la personalización de un usuario, haga clic en la fila correspondiente o elija **Administrar** y luego **Eliminar**.
 
 Esto elimina la personalización y la experiencia del usuario de la página correspondiente vuelve al estado predeterminado.

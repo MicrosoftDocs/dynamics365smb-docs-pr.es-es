@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0b3ee6ca54e21605b4e9cf340b04656694c9801e
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: 2f31c7f48e88a44eb3f437827b6b24f255180d9a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935191"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440433"
 ---
 # <a name="batch-post-production-consumption"></a>Registrar consumibles de producción por lotes
 
@@ -28,7 +28,7 @@ También puede configurar [!INCLUDE[prod_short](includes/prod_short.md)] para qu
 
 ## <a name="to-post-consumption-for-one-or-more-production-order-lines"></a>Para registrar el consumo en una o varias líneas de la orden de producción
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diario de consumo** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diario de consumo** y, a continuación, elija el vínculo relacionado.  
 2. Rellene los campos con los datos de las órdenes de producción y del consumo. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     Use la acción **Calcular consumo** para generar líneas del diario de las órdenes de producción basadas en la salida real (la cantidad de productos terminados sobre la que se ha informado) o en la salida esperada (la cantidad de productos terminados que espera producir).

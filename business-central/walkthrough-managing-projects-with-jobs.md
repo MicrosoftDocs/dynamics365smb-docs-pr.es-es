@@ -1,6 +1,6 @@
 ---
-title: 'Tutorial: administración de programas con proyectos | Documentos de Microsoft'
-description: Este tutorial le presenta a las funciones de administración de programas en los trabajos. Los proyectos le permiten programar el uso de los recursos de su empresa y realizar un seguimiento de los diversos costes asociados con los recursos de un proyecto específico. Los proyectos implican el consumo de horas de mano de obra, horas de maquinaria, productos de inventario y otros tipos de consumo que es posible que desee controlar a medida que avance un proyecto.
+title: 'Tutorial: administración de programas con proyectos'
+description: Este tutorial le presenta las funciones de gestión de programas en trabajos que le permiten programar el uso de los recursos de su empresa y más.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 0d65485275ce4e7516a0b19aafa609429b8d7616
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 4b4be8dfa382424258100973af0d0e647b21b0f6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214733"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439048"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Tutorial: administración de programas con proyectos
 
@@ -77,7 +77,7 @@ Este tutorial se centra en CRONUS, una empresa de diseño y consultoría, que di
 
 ### <a name="to-prepare-the-sample-data"></a>Para preparar los datos de ejemplo  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Recursos** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Recursos** y luego elija el enlace relacionado.  
 2.  Selecione la acción **Nuevo** para crear una nueva ficha de recursos.  
 3.  En la ficha desplegable **General**, introduzca la siguiente información:  
 
@@ -100,7 +100,7 @@ En el siguiente procedimiento, cree una sección diario proyecto para Tricia par
 
 ### <a name="to-create-a-job-journal-batch"></a>Para crear una sección de diario de proyecto  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diarios de proyectos** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de proyectos**, y luego elija el enlace relacionado.  
 2.  En la página **Diario proyecto**, seleccione el campo **Nombre sección**. Aparecerá la página **Secciones diario proyectos**.  
 3.  Seleccione la acción **Nuevo**, para crear una línea con la siguiente información:  
 
@@ -115,7 +115,7 @@ En el siguiente procedimiento, cree una sección diario proyecto para Tricia par
 
 ### <a name="to-set-up-a-job"></a>Para configurar un proyecto  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Proyectos** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proyectos** y luego elija el enlace relacionado.  
 2.  Selecione la acción **Nuevo** para crear una nueva ficha.  
 3.  En la ficha desplegable **General**, introduzca la siguiente información:  
 
@@ -208,7 +208,7 @@ En el siguiente procedimiento, cree una sección diario proyecto para Tricia par
 
 ### <a name="to-calculate-remaining-usage"></a>Para calcular el uso restante  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diarios de proyectos** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de proyectos**, y luego elija el enlace relacionado.  
 2.  En la página **Diario proyectos**, en el campo **Nombre sección**, abra la lista **Secciones diario proyecto**. Seleccione la sección de diario de proyecto de **Tricia**.  
 3.  Seleccione la acción **Cálcular uso restante**.  
 4.  En la página **Calc. uso restante proyecto**, en la ficha desplegable **Tarea proyecto**, elija el campo de **Nº proyecto** y seleccione el número de proyecto correspondiente, normalmente trabajo J00010.  
@@ -225,7 +225,7 @@ Ya se han registrado las líneas.
 
 ### <a name="to-create-a-job-sales-invoice"></a>Para crear una factura de ventas del proyecto  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Proyectos** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proyectos** y luego elija el enlace relacionado.  
 2.  Seleccione el proyecto que ha creado antes y, después, seleccione la acción **Crear factura de venta de proyecto**.  
 3.  En la ficha desplegable **Tarea proyecto**, desactive cualquier filtro en **Nº tarea proyecto** para facturar el trabajo. En el campo **Nº proyecto**, seleccione el proyecto correspondiente.  
 4.  En la ficha desplegable **Opciones**, introduzca la fecha de registro y defina si desea crear una factura por tarea o una sola factura para todas las tareas.  
@@ -235,7 +235,7 @@ Ya se han registrado las líneas.
 
 ### <a name="to-post-a-new-sales-invoice"></a>Para registrar una nueva factura de ventas  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Facturas venta** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Facturas venta** y luego elija el enlace relacionado.  
 2.  Abra la factura para el nº de cliente 01445544. Puede ver que se ha escrito la información para las líneas de planificación.  
 3.  Seleccione la acción **Registrar**. Elija **Sí** para confirmar el registro.  
 
@@ -249,7 +249,7 @@ Ya se han registrado las líneas.
 
 ### <a name="to-open-the-statistics-page"></a>Para abrir la página Estadísticas  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Proyectos** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proyectos** y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Estadísticas**. Puede revisar información detallada acerca de los precios, costes y beneficio bruto del trabajo en las divisas local y extranjera.  
 3.  Elija el botón de **Cerrar** para cerrar la página **Estadísticas proyecto**.  
 
@@ -258,7 +258,7 @@ Ya se han registrado las líneas.
 
 ### <a name="to-manage-fixed-pricing-in-jobs"></a>Para gestionar precios fijos en proyectos  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Proyectos** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proyectos** y luego elija el enlace relacionado.  
 2. Seleccione el número de proyecto **Deco** y, después, seleccione la acción **Líneas de tarea de proyecto**.  
 3. Seleccione la línea 1120 y, en el campo **Presupuesto (coste total)**, haga clic con el botón secundario en el importe y seleccione **Análisis**.  
 
@@ -278,7 +278,7 @@ Una vez agregada Tricia a la previsión para esta línea de tarea, trabaja 25 ho
 
 ### <a name="to-enter-hours-in-the-job-journal"></a>Para especificar horas en el Diario proyectos  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diarios de proyectos** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de proyectos**, y luego elija el enlace relacionado.  
 2. En una línea nueva, escriba la siguiente información:  
 
     - **Tipo línea**: **(en blanco)**  
@@ -339,7 +339,7 @@ En la página **Copiar proyecto**, puede seleccionar las líneas de proyecto y t
 
 ### <a name="to-copy-a-job"></a>Para copiar un proyecto  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Proyectos** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proyectos** y luego elija el enlace relacionado.  
 2. Selecione la acción **Nuevo** para crear un nuevo proyecto. Escriba la siguiente información:  
 
     - **Descripción**: **Equipamiento de 10 salas de conferencias**  
@@ -365,7 +365,7 @@ CRONUS acaba de iniciar un proyecto grande de un año de duración. Dado que req
 
 ### <a name="to-set-up-a-new-account"></a>Para configurar una cuenta nueva  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Plan de cuentas** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Plan de cuentas** y luego elija el enlace relacionado.  
 2. En la página **Plan de cuentas**, seleccione la acción **Nuevo** para crear una ficha nueva.  
 3. En la ficha **Cuenta nueva**, escriba la siguiente información:  
 

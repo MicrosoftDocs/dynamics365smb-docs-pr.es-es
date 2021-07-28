@@ -1,6 +1,6 @@
 ---
-title: Trabajar con el IVA por ventas y compras | Documentos de Microsoft
-description: En este tema se describe cómo realizar tareas como la corrección del IVA registrado. En países y regiones de la UE, cada transacción de compra y venta está sujeta a cálculos de IVA. En este tema se describe cómo.
+title: Trabajar con el IVA por ventas y compras
+description: Este tema describe las diversas formas de trabajar con IVA tanto manualmente como con la configuración automática, para ayudarle a cumplir las regulaciones específicas del país.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: ec880df940816b68a9b6f8a82098985471720984
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5c4efb0be09769770fdaf8ec0e503018119ce081
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781561"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439440"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Trabajar con el IVA por ventas y compras
 Si su país o región requiere que calcule el impuesto al valor añadido (IVA) en las transacciones de compra y venta para que pueda informar de los importes a una autoridad fiscal, puede configurar [!INCLUDE[prod_short](includes/prod_short.md)] para calcular el IVA automáticamente en documentos de ventas y compras. Para obtener más información, vea [Configurar los cálculos y los métodos de registro del impuesto sobre el valor añadido](finance-setup-vat.md).
@@ -96,14 +96,14 @@ En lugar de utilizar diarios para registrar las facturas de IVA de importación,
 ### <a name="to-set-up-purchasing-for-posting-import-vat-invoices"></a>Procedimiento para configurar la compra para registrar facturas de IVA de importación  
 1. Configure una ficha de proveedor para la autoridad de importación que envía la factura de IVA de importación. Los campos **Grupo contable negocio** y **Grupo registro IVA neg.** deben configurarse de la misma forma que la contabilidad para el IVA de importación.  
 2. Cree un **Gr. contable producto** para el IVA de importación y configure un **Grupo registro IVA producto** predeterminado del IVA de importación para el **Gr. contable producto** relacionado.  
-3. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Plan de cuentas** y luego elija el enlace relacionado.  
+3. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Plan de cuentas** y luego elija el enlace relacionado.  
 4. Seleccione la cuenta contable de IVA de importación y, a continuación, seleccione la acción **Editar**.  
 5. En la ficha desplegable **Registro**, seleccione la configuración **Grupo contable producto** para el IVA de importación. [!INCLUDE[prod_short](includes/prod_short.md)] debería rellenar automáticamente el campo **Grupo registro IVA prod.**  
-6. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración grupos contables** y luego elija el enlace relacionado.  
+6. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración grupos contables** y luego elija el enlace relacionado.  
 7. Cree una combinación **Grupo contable negocio** para la autoridad de IVA y **Grupo contable producto** para el IVA de importación. Para esta combinación nueva, en el campo **Cuenta de compras**, elija la cuenta contable de IVA de importación.  
 
 ### <a name="to-create-a-new-invoice-for-the-import-authority-vendor-once-you-have-completed-the-setup"></a>Para crear una factura nueva para la autoridad de importación una vez haya finalizado la configuración  
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Facturas de compra** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Facturas compra** y luego elija el enlace relacionado.  
 2. Cree una nueva factura de compra.  
 3. En el campo **Compra a-Nº proveedor**, elija la autoridad de importación y elija el botón **Aceptar**.  
 4. En la primera línea de compra, en el campo **Tipo**, elija **Cuenta** y en el campo **Nº** elija la cuenta contable de IVA de importación.  
@@ -115,7 +115,7 @@ En lugar de utilizar diarios para registrar las facturas de IVA de importación,
 Cuando se venden productos a un cliente en otro país o región de la UE, debe enviar al cliente un certificado de suministro que el cliente debe firmar y devolverle. Los procedimientos siguientes son para procesar certificados de suministro para los albaranes de venta, pero se siguen los mismos pasos para envíos de servicio de productos y envíos de devolución a proveedores.  
 
 ### <a name="to-view-certificate-of-supply-details"></a>Para ver detalles de un certificado de suministro  
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Histórico albaranes venta** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Histórico albaranes venta** y, a continuación, elija el vínculo relacionado.  
 2. Elija el albarán de venta correspondiente a un cliente de otro país o región de la UE.  
 3. Elija **Detalles del certificado de suministro**.  
 4. De forma predeterminada, la casilla **Certificado de suministro obligatorio** está seleccionada por la configuración de grupo de registro de IVA correspondiente al cliente, el campo **Estado** se configura en **Obligatorio**. Puede actualizar el campo para indicar si el cliente ha devuelto el certificado.  
@@ -134,7 +134,7 @@ Cuando se venden productos a un cliente en otro país o región de la UE, debe e
     >  Puede ver o imprimir el documento. Cuando elige **Imprimir certificado de suministro** e imprime el documento, la casilla **Impreso** se selecciona automáticamente. Además, si no se ha especificado, el estado del certificado se actualiza a **Obligatorio**. Si es necesario, el certificado impreso se incluye con el envío.  
 
 ### <a name="to-print-a-certificate-of-supply"></a>Para imprimir certificado de suministro  
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Histórico albaranes venta** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Histórico albaranes venta** y, a continuación, elija el vínculo relacionado.  
 2. Elija el albarán de venta correspondiente a un cliente de otro país o región de la UE.  
 3. Elija la acción **Imprimir certificado de suministro**.  
 
@@ -152,7 +152,7 @@ Cuando se venden productos a un cliente en otro país o región de la UE, debe e
 8. Envíe el certificado de suministro impreso al cliente para su firma.  
 
 ### <a name="to-update-the-status-of-a-certificate-of-supply-for-a-shipment"></a>Para actualizar el estado de un certificado de suministro para un envío  
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Histórico albaranes venta** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Histórico albaranes venta** y, a continuación, elija el vínculo relacionado.  
 2. Elija el albarán de venta correspondiente a un cliente de otro país o región de la UE.  
 3. En el campo **Estado**, seleccione la opción correspondiente.  
 
@@ -165,7 +165,7 @@ Cuando se venden productos a un cliente en otro país o región de la UE, debe e
 Para ver un grupo de certificados, desde la página **Certificados de suministro** actualice la información sobre el estado de los certificados pendientes a medida que los reciba de sus clientes. Esto puede ser útil para buscar todos los certificados con un determinado estado, por ejemplo, **Requerido**, cuyo estado desee actualizar a **No recibido**.  
 
 ### <a name="to-update-the-status-of-a-group-of-certificates-of-supply"></a>Para actualizar el estado de un grupo de certificados de suministro  
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Certificados de suministro** y elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Certificados de suministro** y, a continuación, elija el vínculo relacionado.  
 2. Filtre el campo **Estado** por el valor que desee para crear la lista de certificados que desee manipular.  
 3. Para actualizar la información de estado, elija **Editar lista**.  
 4. En el campo **Estado**, seleccione la opción correspondiente.  

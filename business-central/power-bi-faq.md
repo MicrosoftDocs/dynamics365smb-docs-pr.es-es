@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Power BI, reports, faq, errors
 ms.date: 04/22/2021
 ms.author: jswymer
-ms.openlocfilehash: 939b280e631113d3196f6fbbc90d9bf19b9fc408
-ms.sourcegitcommit: a76475f124e79440a5bba20577b335c4d50a2d83
+ms.openlocfilehash: ef63963c7c37f36db34e3e8292e73d64c1b67538
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025838"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438757"
 ---
 # <a name="power-bi--faq"></a>Preguntas más frecuentes de Power BI
 
@@ -65,8 +65,20 @@ No tenemos control sobre este requisito. Este requisito lo establece Power BI. P
 <!-- 7 -->
 ### <a name="does-the-connector-work-with-api-pages"></a>¿El conector funciona con páginas API?
 
-Aún no. Pero, a partir de junio de 2021, el nuevo conector de Power BI admitirá tanto los servicios web de Business Central como las páginas API. Para más información, vea [Permitir que el conector de Power BI trabaje con las API de Business Central, en lugar de solo con servicios web](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/enable-power-bi-connector-work-business-central-apis-instead-web-services-only).
+Sí. A partir de junio de 2021, el nuevo conector de Power BI admite tanto los servicios web de Business Central como las páginas API. Para más información, vea [Permitir que el conector de Power BI trabaje con las API de Business Central, en lugar de solo con servicios web](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/enable-power-bi-connector-work-business-central-apis-instead-web-services-only).
 
+### <a name="can-i-build-a-power-bi-report-using-the-sales-invoice-lines-or-journal-lines-apis"></a>¿Puedo crear un informe de Power BI utilizando las API Líneas factura de venta o Líneas de diario?
+
+Los registros de línea más utilizados están disponibles en las [API de Business Central v2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)). Para que pueda utilizarlos para crear informes en Power BI seleccionándolos en el conector de **Dynamics 365 Business Central**. Sin embargo, las API **Líneas** están diseñadas para usarse solo con algunos filtros muy específicos y es posible que no funcionen en su escenario. Es posible que obtenga un error similar a "Debe especificar una identificación o una identificación de documento para obtener las líneas". Para solucionar este problema, siga los siguientes pasos cuando obtenga datos de Business Central para el informe en Power BI Desktop:
+
+1. En lugar de incluir la fuente de datos para la entidad de líneas, agregue la fuente de datos principal. Por ejemplo, agregue **Factura venta** en lugar de **Líneas factura de venta**.
+2. Seleccione **Transformar datos** en la barra de acciones de Power BI Desktop.
+3. Seleccione la consulta que acaba de agregar, por ejemplo **Facturas venta**.
+4. Aplique cualquier filtrado necesario en los registros para reducir la cantidad de registros cargados en su informe.
+5. Desplácese hacia la derecha hasta encontrar una columna con el mismo nombre que las líneas, por ejemplo **SalesInvoiceLines**.
+6. Seleccione el botón expandir en el encabezado de la columna, junto al nombre de la columna.
+
+   :::image type="content" source="media/saleinvoicelines.png" alt-text="Muestra la columna SalesInvoiceLines en Power BI Desktop .":::
 <!-- 11 --> 
 ### <a name="is-it-possible-to-choose-which-business-central-environment-to-get-data-from-for-power-bi-for-example-like-a-sandbox-or-production-environment"></a>¿Es posible elegir el entorno de Business Central obtener datos para Power BI, por ejemplo, como una espacio aislado o un entorno de producción? 
 
@@ -137,14 +149,23 @@ Cuando se trata de servicios web, las consultas publicadas suelen ser más rápi
 Cuando el nuevo conector esté disponible en junio de 2021, le recomendamos que utilice páginas de API en lugar de consultas publicadas como servicios web.
 
 <!-- 13 --> 
-### <a name="is-there-a-way-for-an-end-user-to-create-a-web-service-with-a-column-thats-in-a-business-central-table-but-not-a-page-or-will-developer-have-to-create-a-custom-query"></a>¿Existe alguna forma de que un usuario final cree un servicio web con una columna que esté en una tabla de Business Central, pero no una página? ¿O el desarrollador tendrá que crear una consulta personalizada? 
+### <a name="is-there-a-way-for-an-end-user-to-create-a-web-service-with-a-column-thats-in-a-business-central-table-but-not-a-page-or-will-the-developer-have-to-create-a-custom-query"></a>¿Existe alguna forma de que un usuario final cree un servicio web con una columna que esté en una tabla de Business Central, pero no una página? ¿O el desarrollador tendrá que crear una consulta personalizada? 
 
-Aún no. Pero cuando el nuevo conector esté disponible en junio de 2021, un desarrollador puede crear una nueva página de API para cumplir con este requisito. 
+Sí. Con el lanzamiento del nuevo conector en junio de 2021, un desarrollador puede crear una nueva página de API para cumplir con este requisito. 
 
 <!-- 28 --> 
 ### <a name="can-i-connect-power-bi-to-a-read-only-database-server-of-business-central-online"></a>¿Puedo conectar Power BI a un servidor de base de datos de solo lectura de Business Central Online? 
 
 Nº Pero tenemos esta característica en nuestra hoja de ruta a largo plazo. 
+
+### <a name="how-do-i-change-or-clear-the-user-account-im-currently-using-to-connect-to-business-central-from-power-bi-desktop"></a><a name="perms"></a>¿Cómo cambio o borro la cuenta de usuario que estoy usando actualmente para conectarme a Business Central desde Power BI Desktop?
+
+En Power BI Desktop, realice uno de los siguientes pasos:
+
+1. En el menú Archivo, seleccione **Opciones y configuraciones** > **Configuración de la fuente de datos**.
+2. Seleccione **Dynamics Business Central** de la lista, luego seleccione **Borrar permisos** > **Eliminar**.
+
+La próxima vez que se conecte a Business Central para obtener datos, se le pedirá que inicie sesión.
 
 ## <a name="performance"></a>[Rendimiento](#tab/performance)
 

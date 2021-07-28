@@ -1,6 +1,6 @@
 ---
 title: Creación de L.M. de producción
-description: Una L.M. de producción contiene datos maestros que describen los componentes y los productos semiterminados utilizados en la fabricación de un producto principal. Una vez creada la orden de producción para el producto principal, la L.M. de producción controlará el cálculo de las necesidades de material tal como se representan en la página **Componentes orden producción**.
+description: Obtenga información sobre cómo crear una lista de materiales (L.M.) de producción, nuevas versiones de una lista de materiales de producción y cómo utilizar la fórmula de cálculo de cantidades.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 122a907e7b61c9fe19853226de8549a073f0cddd
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ffd57ed4f69870e04e8081d0ef6189788dc01ce6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781993"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438707"
 ---
 # <a name="create-production-boms"></a>Crear LM de producción
 
@@ -29,7 +29,7 @@ Para poder configurar una ruta, lo siguiente debe existir:
 - Se han configurado recursos de producción. Para obtener más información, consulte [Configurar centros de trabajo y centros de máquina](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-production-bom"></a>Crear una L.M. de producción.  
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **L.M. de producción** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **L. MAT de producción** y, a continuación, elija el vínculo relacionado.  
 2. Seleccione la acción **Nuevo**.  
 3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Para editar la L.M., establezca el campo **Estado** en **Nueva** o **En desarrollo**. Para activarla, establezca el campo **Estado** en **Certificada**.  
@@ -56,7 +56,7 @@ Se utilizan las nuevas versiones de la L.M. de producción cuando, por ejemplo, 
 
 La fecha inicial indica el comienzo del periodo en el que la versión es válida. Para lo demás, la fecha inicial es un criterio de filtro para cálculos y evaluaciones. La versión de L.M. es válida hasta que la siguiente versión se convierta en la válida debido a su fecha inicial.  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **L.M. de producción** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **L. MAT de producción** y, a continuación, elija el vínculo relacionado.  
 2.  Seleccione la L.M. de producción a copiar y después seleccione la acción **Versiones**.  
 3.  Seleccione la acción **Nuevo**.  
 4. Rellene los campos según sea necesario.

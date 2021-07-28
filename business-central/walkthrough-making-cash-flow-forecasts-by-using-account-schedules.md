@@ -1,6 +1,6 @@
 ---
-title: 'Tutorial: elaboración de previsiones del flujo de efectivo con esquemas de cuentas'
-description: Aprenda a utilizar los esquemas de cuentas para elaborar previsiones del flujo de efectivo.
+title: Previsiones de flujo de efectivo con esquemas de cuentas
+description: Este tutorial describe cómo puede utilizar los esquemas de cuentas para elaborar previsiones del flujo de efectivo en Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 48a176c4c363c4a33ae336d754be71c9f7dd0aeb
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e0da9a5cab5c36bd5403bca3731ce46bb67316c3
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772109"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438507"
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Tutorial: elaboración de previsiones del flujo de efectivo con esquemas de cuentas
 
@@ -54,7 +54,7 @@ Un esquema de cuentas consta de un nombre de esquema de cuenta del flujo de efec
 
 ### <a name="to-set-up-a-new-account-schedule-name"></a>Configuración de un nuevo nombre de esquema de cuenta  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Esquemas de cuentas** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Esquemas de cuentas** y luego elija el enlace relacionado.  
 2. En la página **Nombres de esquema de cuenta**, elija **Nuevo** para crear un nuevo nombre de cuenta de flujo de efectivo.  
 3. En el campo **Nombre**, especifique **Previsiones**.  
 4. En el campo **Descripción**, introduzca **Previsión de flujo de efectivo**.  

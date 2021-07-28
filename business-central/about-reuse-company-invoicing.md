@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Invoicing, Microsoft 365
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 763b4ae19bc83a1fd4a3abc9d6dfd5ee0c386eb1
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: ea59fa49889cd6bfc53f727123f259448242c79b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115695"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439152"
 ---
 # <a name="using-the-same-microsoft-365-account-in-prod_short-and-microsoft-invoicing"></a>Uso de la misma cuenta de Microsoft 365 en [!INCLUDE[prod_short](includes/prod_long.md)] y Microsoft Invoicing
 Cuando se registra en una prueba en [!INCLUDE[prod_short](includes/prod_short.md)], puede cambiar a una fase de evaluación de 30 días, puede empezar una suscripción o bien puede dejar de usar [!INCLUDE[prod_short](includes/prod_short.md)]. En todos los casos, es posible que en algún momento haya visto algo denominado **Microsoft Invoicing** y haya hecho clic en él. Esta era una aplicación que formaba parte de lo que ahora es Microsoft 365 Business Standard y anteriormente se conocía como la suscripción de Microsoft 365 Business Premium, por lo que no todos habrán visto ese icono en su experiencia de Microsoft 365.  
@@ -31,9 +31,9 @@ Por lo tanto, tendrá que iniciar sesión en [!INCLUDE[prod_short](includes/prod
 
 ### <a name="to-rename-your-company"></a>Para cambiar el nombre de su empresa
 1. Inicie sesión en [!INCLUDE[prod_short](includes/prod_short.md)].
-2. En la esquina superior derecha, elija el icono **Configuración** ![Configuración](media/ui-experience/settings_icon_small.png "Icono de configuración para el área de trabajo") y, a continuación, elija **Mi configuración**.
+2. En la esquina superior derecha, elija el icono **Configuración** ![Configuración.](media/ui-experience/settings_icon_small.png "Icono de configuración para el área de trabajo") y, a continuación, elija **Mi configuración**.
 3. En el campo **Empresa**, seleccione una empresa diferente.
-4. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Empresas** y luego elija el enlace relacionado.  
+4. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Empresas** y luego elija el enlace relacionado.  
 5. En la página **Empresas**, seleccione **Editar lista**.  
 6. Cambiar el nombre de la entrada *Mi empresa* por otro distinto.  
 

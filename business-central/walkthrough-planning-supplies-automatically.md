@@ -1,6 +1,6 @@
 ---
-title: 'Tutorial: planificación automática de suministros | Documentos de Microsoft'
-description: Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálculo del programa maestro de producción (MPS) y del plan de necesidades de material (MRP) basándose en la demanda real y prevista.
+title: 'Tutorial: planificación automática de suministros'
+description: En este tutorial, se demuestra el modo de utilizar el sistema de planificación del suministro para planificar automáticamente los pedidos de compra y órdenes de producción en diferentes pedidos de venta.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 4e790c33cb10e9e71d8ec6f9482615c41562e379
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 86cc905a5bc3226a0bdd779b29570cbbd17ae5d4
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214708"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439365"
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Tutorial: planificación automática de suministros
 
@@ -74,7 +74,7 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
 
 ### <a name="to-change-selected-planning-parameters"></a>Para cambiar los parámetros de planificación seleccionados  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Unidades de almacenamiento** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Unidades de almacenamiento**, y luego elija el enlace relacionado.  
 2.  Abra la ficha de unidad de almacenamiento EAST para el producto 1100, rueda delantera.  
 3.  En la ficha desplegable **Planificación**, rellene los campos tal como se describe en la tabla siguiente.  
 
@@ -91,7 +91,7 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
 
 ### <a name="to-create-the-sales-order"></a>Para crear el pedido de venta  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de venta** y, a continuación, elija el vínculo relacionado.  
 2.  Seleccione la acción **Nuevo**.  
 3.  En la página **Pedido de venta**, rellene los campos tal como se describe en la tabla siguiente.  
 
@@ -103,7 +103,7 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
 
 ### <a name="to-create-a-regenerative-plan-to-fulfill-demand-at-location-east"></a>Crear un plan regenerativo para satisfacer la demanda en el almacén EAST.  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja de planificación** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Hoja planificación** y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Calcular planificación regenerativa**.  
 3.  En la página **Calcular plan - Hoja planif.** rellene los campos tal como se describe en la tabla siguiente.  
 
@@ -126,7 +126,7 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
 
 ### <a name="to-calculate-mrp-to-include-underlying-component-needs"></a>Para calcular MRP para incluir las necesidades subyacentes del componente  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja de planificación** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Hoja planificación** y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Calcular planificación regenerativa**.  
 3.  En la página **Calcular plan - Hoja planif.** rellene los campos tal como se describe en la tabla siguiente.  
 
@@ -220,7 +220,7 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
 
 3.  Acepte el aviso de disponibilidad y elija el botón **Sí** para registrar la cantidad de demanda.  
 4.  Replanifique para ajustar el plan de suministro actual.  
-5.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja de planificación** y luego elija el enlace relacionado.  
+5.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Hoja planificación** y luego elija el enlace relacionado.  
 6.  Seleccione la acción **Calcular planificación de saldo neto**.  
 7.  En la página **Calcular plan - Hoja planif.** rellene los campos tal como se describe en la tabla siguiente.  
 

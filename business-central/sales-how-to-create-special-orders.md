@@ -1,6 +1,6 @@
 ---
-title: Cómo crear pedidos de venta especiales | Documentos de Microsoft
-description: Se puede crear un pedido especial para un determinado producto del catálogo que se vaya a enviar a un cliente en particular. El proveedor envía el producto al almacén de su empresa y de allí se envía a su cliente sólo o con otros productos de otro pedido.
+title: Cómo crear pedidos especiales
+description: Aprenda a crear un pedido especial para un determinado producto del catálogo que se vaya a enviar a un cliente en particular.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: f04ac444f807a778cbda03b7062a5c4e23ea8386
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 80c26420a4a8e90a2a2b076169f6af505343ad76
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778427"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440258"
 ---
 # <a name="create-special-orders"></a>Crear pedidos especiales
 Se puede crear un pedido especial para un determinado producto del catálogo que se vaya a enviar a un cliente en particular. El proveedor envía el producto al almacén de su empresa y de allí se envía a su cliente sólo o con otros productos de otro pedido.  
@@ -25,12 +25,12 @@ Los pedidos especiales implican que el pedido de compra y el pedido de venta est
 Para utilizar esta función, primero debe tener configuradas las fichas de cliente, de proveedor y de producto necesarias para el pedido.  
 
 ## <a name="to-create-a-special-order"></a>Para crear un pedido especial  
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedido de venta** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedido venta** y, a continuación, elija el vínculo relacionado.  
 2. Seleccione la acción **Nuevo**. Cree un  pedido de venta del producto y rellénelo. Para obtener más información, vea [Vender productos](sales-how-sell-products.md).
 3.  En la ficha desplegable **Líneas**, rellene la línea de venta. En el campo **Cód. compra**, seleccione un código de compra que tenga el campo **Pedido especial** seleccionado.
 
     A continuación, cree un pedido de compra desde una hoja de demanda.  
-4. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja de demanda** y luego elija el enlace relacionado.  
+4. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Hoja de demanda** y luego elija el enlace relacionado.  
 5. Elija la acción **Pedido especial** y, a continuación, **Traer pedidoS venta**.  
 6.  En la página **Traer pedidos venta**, se muestran resultados en los que **Nº documento** hace referencia al número del pedido de venta. Elija el botón **Aceptar**. Se crea una línea en la hoja de demanda para el producto.  
 7.  En el campo **Mensaje acción** de la línea de la hoja de demanda, seleccione **Nuevo**.  

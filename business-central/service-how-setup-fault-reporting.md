@@ -1,6 +1,6 @@
 ---
-title: Configurar información de defectos en la gestión de servicios | Documentos de Microsoft
-description: Más información sobre la configuración de los procesos de creación de informes de defecto.
+title: Configurar informes de defectos en gestión de servicios
+description: El informe de defectos le permite configurar estándares para registrar información de defectos de productos de servicio con códigos de defectos y más.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,22 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: cc4f646e8bd01425be99944ad4b013dfbd570787
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: b3563d840976b6a3c586e5a75a2f76379e8c5526
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773735"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440133"
 ---
 # <a name="set-up-fault-reporting"></a>Crear informes de defecto
 El informe de defectos le permite configurar estándares para registrar información de defectos de productos de servicio. Por ejemplo, puede especificar de qué problema se trata, los síntomas que detecta, el motivo del problema y cómo resolverlo.  
 
 Los códigos de defecto describen los típicos defectos de producto de servicio o las acciones realizadas sobre productos de servicio. Dependiendo del nivel de información de defecto de la empresa, puede que necesite configurar códigos de área de defecto y códigos de síntoma para poder registrar códigos de defecto. Las áreas de defecto describen las áreas de los defectos de productos de servicio. Los códigos de razón de defecto describen la causa de los defectos de producto de servicio y, si es necesario, si se excluyen los descuentos de garantía y de contrato. Por ejemplo, puede que desee excluir el descuento de garantía y de contrato si el cliente es el responsable del defecto en el producto de servicio. Asigne códigos de razón de defecto a pedidos de servicio. Para obtener más información, consulte [Trabajar con tareas de servicio](service-how-to-work-on-service-tasks.md).  
 
-## <a name="to-specify-the-overall-level-of-fault-reporting-to-use"></a>Para especificar el nivel total de información de defecto que se utilizará
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración del servicio** y luego elija el enlace relacionado.
+## <a name="to-specify-the-overall-level-of-fault-reporting"></a>Para especificar el nivel total de información de defecto
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de servicio** y luego elija el enlace relacionado.
 2. En el campo **Nivel inform. defecto**, seleccione una de las opciones descritas en la tabla siguiente.  
 
     |**Nivel defecto**|**Descripción**|  
@@ -39,7 +39,7 @@ Para finalizar la configuración del informe de defectos, también puede especif
 <!--this needs to go in a working with topic-->
  Para poder ver los métodos más habituales de reparación de determinados defectos de producto durante el servicio de los productos, deberá crear información acerca de las relaciones de códigos de defecto/resolución. Utilice el trabajo por lotes **Insertar relac. cód. def./res.** para buscar todas las combinaciones de códigos de defecto y resolución en los pedidos de servicio registrados y, a continuación, registrarlos en la página **Relac. códs. defecto/resol.**
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Insertar relac. cód. def./res.** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Insertar relac. cód. def.res.** y, a continuación, elija el vínculo relacionado.  
 2. Introduzca las fechas para definir el periodo que desea incluir en el proceso.  
 3. Para agrupar las relaciones por grupos de producto de servicio, elija la casilla **Relación basada en grupo prod. serv.**.  
 4. Para retener los registros que insertó manualmente en la página **Relaciones códigos defecto/resolución**, elija la casilla **Retiene registro insertado manualmente**.  

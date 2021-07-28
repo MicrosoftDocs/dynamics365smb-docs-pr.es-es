@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c59ce4576f4c7916ef6b587d4bc6b21cb1047acb
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f2c12e89ced755a220cabf2d4b5712741deab7aa
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781768"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439415"
 ---
 # <a name="collect-outstanding-balances"></a>Cobrar saldos pendientes
 
@@ -29,7 +29,7 @@ Desde la tarjeta del cliente, puede crear un extracto con las transacciones de e
 
 ### <a name="to-send-the-customer-statement-report"></a>Enviar el informe de extracto del cliente
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Extracto de cliente** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Extracto del cliente** y luego elija el enlace relacionado.
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. En **Opciones de salida**, seleccione cómo enviar el informe al cliente.
 
@@ -52,7 +52,7 @@ Una vez creados recordatorios y realizadas las modificaciones necesarias, puede 
 
 Los recordatorios son parecidos a las facturas. Cuando crea un recordatorio, debe rellenar una cabecera de recordatorio y una o varias líneas de recordatorio. Puede utilizar una función para crear recordatorios para todos los clientes de forma automática.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Recordatorios** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Recordatorios** y luego elija el enlace relacionado.
 2. En la página **Recordatorio**, elija la acción **Crear recordatorios**.
 3. En la página **Crear recordatorios**, rellene los campos para definir cómo y para quién se crean los recordatorios.
 4. Elija el botón **Aceptar**.
@@ -61,7 +61,7 @@ Los recordatorios son parecidos a las facturas. Cuando crea un recordatorio, deb
 
 En la página **Recordatorio**, puede rellenar la ficha desplegable **General** manualmente y rellenar las líneas automáticamente.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Recordatorios** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Recordatorios** y luego elija el enlace relacionado.
 2. Seleccione la acción **Nuevo**.
 3. En la ficha desplegable **General**, rellene los campos como sea necesario.
 4. Elija la acción **Proponer líneas recordatorio**.
@@ -78,7 +78,7 @@ En la página **Recordatorio**, puede rellenar la ficha desplegable **General** 
 
 Existen varias formas de definir el texto que aparecerá en el recordatorio impreso. In algunos casos, quizás le convenga cambiar los textos de comienzo o fin definidos para el nivel actual por los de otro nivel.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Recordatorios** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Recordatorios** y luego elija el enlace relacionado.
 2. Abra el recordatorio correspondiente y haga clic en la acción **Actualizar texto recordatorio** .
 3. En la página **Actualizar texto recordatorio**, escriba el nivel deseado en el campo **Nivel recordatorio**.
 4. Elija el botón **Aceptar** para actualizar los textos de comienzo y fin.
@@ -101,7 +101,7 @@ Si las casillas **Registrar interés** o **Registrar recargo fijo** de la págin
 
 Por otra parte, la emisión del recordatorio puede afectar a los movimientos de IVA.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Recordatorios** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Recordatorios** y luego elija el enlace relacionado.
 2. Seleccione el recordatorio correspondiente y, a continuación, elija la acción **Emitir**.
 3. En la página **Emitir recordatorios**, rellene los campos según sea necesario.
 4. Elija el botón **Aceptar**.
@@ -134,7 +134,7 @@ Después de crear documentos de interés y de realizar las modificaciones necesa
 
 Los documentos de interés son parecidos a las facturas. Puede rellenar la cabecera manualmente y que el sistema rellene las líneas, o bien crear los documentos de interés para todos los clientes de forma automática.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Documentos de interés** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Emitir docs. interés**, y luego elija el enlace relacionado.  
 2. Elija la acción **Nuevo** y, a continuación, rellene los campos según sea necesario.  
 3. Elija la acción **Proponer líneas doc. interés**.
 4. En la página **Sugerir documentos financieros de interés**, establezca un filtro en la ficha desplegable **Movimientos contables de cliente** Si desea crear documentos financieros de interés sólo para determinados movimientos.
@@ -146,7 +146,7 @@ Los documentos de interés son parecidos a las facturas. Puede rellenar la cabec
 ### <a name="to-update-finance-charge-memo-texts"></a>Para actualizar los textos en documentos de interés  
 En algunos casos, quizás le interese modificar el texto de comienzo y fin configurado para los recordatorios de interés. Si no hace esto en el momento de crear los documentos de interés aún sin emitir, puede actualizar los documentos con el texto modificado.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Documento de interés** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Documento interés**, y luego elija el enlace relacionado.  
 2. abra el documento de interés para el cual desea modificar el texto, y elija la acción **Actualizar texto interés** .
 3. En la página **Actualizar texto interés**, puede definir un filtro si desea actualizar varios documentos de interés.
 4. Elija el botón **Aceptar** para actualizar los textos de comienzo y fin.  
@@ -166,7 +166,7 @@ Si las casillas **Registrar interés** o **Registrar recargo fijo** de la págin
 
 Por otra parte, la emisión del documento de interés puede afectar a los movimientos de IVA.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Documentos de interés** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Emitir docs. interés**, y luego elija el enlace relacionado.
 2. Seleccione el documento correspondiente y, a continuación, elija la acción **Emitir**.
 3. En la página **Emitir docs. interés**, rellene los campos según sea necesario.
 4. Elija el botón **Aceptar**.
@@ -180,7 +180,7 @@ Si se han emitido documentos de interés por error, puede cancelarlos antes de e
 
 ### <a name="to-view-reminder-and-finance-charge-entries"></a>Para ver los movimientos de recordatorio y de interés  
 Cuando se emite un recordatorio, se crea un movimiento de recordatorio en la página **Movs. recordatorio/interés** para cada línea de recordatorio que contenga un movimiento de cliente. Se puede obtener un resumen de los movimientos de recordatorio creados para un cliente específico.    
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Clientes** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Clientes** y luego elija el enlace relacionado.  
 2. Abra la ficha de cliente correspondiente y, a continuación, elija la acción **Movimientos**.
 3. En la página **Movs. cliente**, seleccione la línea que contenga el movimiento cuyos movimientos de recordatorio desea ver y, a continuación, elija la acción **Movs. recordatorio/interés.**
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 04d5679ccb2d335fd308343724c09a9f827cd059
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c1fd69db741a932bd4088362e58f2963b9cbf134
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778252"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440108"
 ---
 # <a name="set-up-a-loaner-program"></a>Configurar un programa de productos prestados
 En ocasiones, debe entregar al cliente un producto prestado para que lo utilice mientras el equipo de servicio al cliente realiza la reparación. En [!INCLUDE[prod_short](includes/prod_short.md)], puede establecer un programa de productos prestados, prestar artículos a sus clientes y llevar un seguimiento de la recepción de los artículos cuando los clientes los devuelven. Además, puede agregar comentarios acerca de los productos prestados de una de las siguientes formas:  
@@ -24,7 +24,7 @@ En ocasiones, debe entregar al cliente un producto prestado para que lo utilice 
 * Escribir una nota en un producto de servicio acerca de la necesidad de un producto prestado.  
 
 ## <a name="to-set-up-a-loaner"></a>Para configurar un producto prestado  
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos prestados** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos prestados** y luego elija el enlace relacionado.  
 2. Cree una ficha de producto prestado nueva. 
 3. En el campo **N.º**, introduzca un número para el producto prestado. Si ha configurado una serie numérica para productos prestados en la página **Config. gestión servicios**, también puede presionar la tecla Enter para seleccionar el siguiente número de producto prestado disponible.  
 4. Rellene los campos **Descripción**, **Descripción 2** y **Nº serie**.  

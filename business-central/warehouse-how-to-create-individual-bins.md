@@ -1,6 +1,6 @@
 ---
-title: Crear ubicaciones | Documentos de Microsoft
-description: La forma más eficaz de crear las ubicaciones del almacén es generar grupos de ubicaciones similares en la hoja de trabajo de creación de ubicación, pero también puede crear las ubicaciones individualmente.
+title: Cómo crear ubicaciones
+description: Genere grupos de ubicaciones similares en la hoja de trabajo de creación de ubicaciones, cree ubicaciones individualmente en la ficha de ubicación o automáticamente en la Hoja de trabajo de creación de ubicación.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 0c426fa5a617a8457a562333d96cc7924ddc6669
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 89b1c6b6252cc91fb10c2698b0a8b4869dc39853
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782714"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440083"
 ---
 # <a name="create-bins"></a>Crear ubicaciones
 La forma más eficaz de crear las ubicaciones del almacén es generar grupos de ubicaciones similares en la hoja de trabajo de creación de ubicación, pero también puede crear las ubicaciones individualmente desde la ficha de almacén. También puede utilizar una función en la página **Hoja trab. creación ubicación** para crear las ubicaciones automáticamente.  
 
 ## <a name="to-create-a-bin-from-the-location-card"></a>Para crear una ubicación desde la ficha de almacén  
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Almacenes** y elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ubicaciones** y elija el enlace relacionado.  
 2.  Seleccione la ubicación para la que desee crear una ubicación y elija la acción **Ubicaciones**.  
 3. Seleccione la acción **Nuevo**.
 4. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -37,7 +37,7 @@ La fabricación de una ubicación dedicada proporciona una funcionalidad similar
 > Los productos de las ubicaciones dedicadas no se protegen cuando se les ha realizado el picking y se los consume como componentes de producción o ensamblado con la página **Picking de inventario**. Para obtener más información, consulte [Realizar picking para ensamblado o producción en una configuración básica de almacén](warehouse-how-to-pick-for-production.md).
 
 ## <a name="to-create-bins-individually-in-the-bin-creation-worksheet"></a>Para crear las ubicaciones individualmente en la hoja de trabajo de creación de ubicación  
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja trab. creación ubicación** y elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , especifique **Hoja trab. creación ubicación** y, a continuación, elija el vínculo relacionado.  
 2.  Rellene en cada línea los campos necesarios para dar el nombre y caracterizar las ubicaciones que va a crear.  
 3.  Elija la acción **Crear ubicaciones**.  
 
@@ -49,7 +49,7 @@ Antes de empezar a crear ubicaciones automáticamente, debe determinar el tipo d
 
 Para trabajar con la página **Hoja trab. creación ubicación**, debe estar configurado como empleado de almacén en el almacén donde estén las ubicaciones. Para obtener más información, vea [Configurar los empleados de almacén](warehouse-how-to-set-up-warehouse-employees.md).    
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja trab. creación ubicación** y, a continuación, elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , especifique **Hoja trab. creación ubicación** y, a continuación, elija el vínculo relacionado.  
 2.  Elija la acción **Calcular ubicaciones**.
 3. En la página **Calcular ubicaciones**, en el campo **Cód. plantilla ubicación**, seleccione la plantilla de ubicación que desea utilizar como modelo para las ubicaciones que va a crear.
 4.  Rellene una descripción para las ubicaciones que está creando.  

@@ -1,6 +1,6 @@
 ---
 title: Picking y envío en la configuración del almacenamiento básico
-description: En Business Central, los procesos de salida para el picking y el envío se pueden realizar de cuatro maneras utilizando distintas funciones según el nivel de complejidad del almacén.
+description: En Business Central, los procesos de salida para el picking y el envío se pueden realizar de las cuatro maneras siguientes según el nivel de complejidad del almacén.
 author: jill-kotel-andersson
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/27/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: e1763e6288c8b8218955049ba7ef4c461ee5164e
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 3eefe17d0ebe89d006c5904cb73a75975b6c38f2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214658"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439073"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Tutorial: picking y envío en la configuración del almacenamiento básico
 
@@ -81,7 +81,7 @@ Para utilizar esta funcionalidad, debe agregarse al almacén como trabajador del
 
 #### <a name="to-make-yourself-a-warehouse-employee"></a>Para convertirte en un empleado de almacén
 
-  1. Elija el icono ![Bombilla que abre la función Dígame, primero](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Empleados de almacén** y luego elija el enlace relacionado.  
+  1. Elija el icono ![Bombilla que abre la función Dígame primero.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Empleados de almacén** y luego elija el enlace relacionado.  
   2. Elija el campo **Id. de usuario** y seleccione su propia cuenta de usuario en la página **Empleados de almacén**.
   3. En el campo **Cód. almacén**, elija SUR.  
   4. Seleccione el campo **Predeterminado** y, a continuación, seleccione el botón **Sí**.  
@@ -90,7 +90,7 @@ Para utilizar esta funcionalidad, debe agregarse al almacén como trabajador del
 
 Para que el producto 1928-S esté disponible en el almacén SUR siga estos pasos:  
 
-  1. Elija el icono ![Bombilla que abre la función Dígame, segundo](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diarios reclasif. producto** y luego elija el enlace relacionado.  
+  1. Elija el icono ![Bombilla que abre la función Dígame segundo.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de productos**, y luego elija el enlace relacionado.  
   2. Abra el diario predeterminado y después cree dos líneas del diario del producto con la siguiente información en la fecha de trabajo (23 de enero).  
 
         |Tipo mov.|Número de producto|Código de ubicación|Cód. ubicación|Cantidad|  
@@ -109,7 +109,7 @@ Los pedidos de venta son el tipo más común de documento de origen de salida.
 
 ### <a name="to-create-the-sales-order"></a>Para crear el pedido de venta
 
-1. Elija el icono ![Bombilla que abre la función Dígame, tercero](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame tercero.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de venta** y, a continuación, elija el vínculo relacionado.  
 2. Seleccione la acción **Nuevo**.  
 3. Crea un pedido de venta para el cliente 10000 en la fecha de trabajo (23 de enero) con la línea de pedido de venta siguiente.  
 
@@ -129,7 +129,7 @@ En la página **Picking inventario**, puede administrar todas las actividades de
 
 ### <a name="to-pick-and-ship-items"></a>Realizar el picking y el envío de productos
 
-1. Elija el icono ![Bombilla que abre la función Dígame, cuarto](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Picking de existencias** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame cuarto.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Picking inventario** y luego elija el enlace relacionado.  
 2. Seleccione la acción **Nuevo**.  
 
     Asegúrese de que el campo **N.º** en desplegable **General** se haya rellenado.

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 90d04a6f951c3312f88f536bfab680bcd071de63
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6b13be85c47cc2a280b2cf2e7cf3bf4866633343
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781943"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438607"
 ---
 # <a name="create-production-order-headers"></a>Crear cabeceras de orden de producción
 Puede crear una orden de producción manualmente y el primer paso es crear la cabecera.
@@ -25,7 +25,7 @@ Las órdenes de producción normalmente se crean automáticamente por algunas ta
 En el siguiente procedimiento, se crea una orden de producción planificada en firme. Puede también crear órdenes de producción con estados distintos.  
 
 ## <a name="to-create-a-production-order-header"></a>Para crear la cabecera de una orden de producción  
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **O.P. Planificadas en firme** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **O.P. Planificadas en firme** y, a continuación, elija el vínculo relacionado.  
 2.  Seleccione la acción **Nuevo**.  
 3.  En el campo **N.º**, inserte el número siguiente de la serie.  
 4.  En el campo **Tipo procedencia mov.**, seleccione la procedencia del movimiento de la orden de producción.

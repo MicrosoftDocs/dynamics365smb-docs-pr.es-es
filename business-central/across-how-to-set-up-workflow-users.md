@@ -1,6 +1,6 @@
 ---
-title: Configurar usuarios de flujo de trabajo | Documentos de Microsoft
-description: Para poder crear flujos de trabajo, debe configurar los usuarios que participan en flujos de trabajo. Esto es necesario para especificar, por ejemplo, quién debe recibir una notificación para actuar sobre un paso del flujo de trabajo.
+title: Configurar usuarios de flujo de trabajo
+description: Para poder crear flujos de trabajo debe configurar los usuarios que participan en ellos en la página Grupo de usuarios de flujo de trabajo.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 9c0b7d79f59d2d59d2d382e3dc602769f41ac1f0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2a6ee1b7fd7a65dba36bae95c8981657b6307bfb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774641"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439925"
 ---
 # <a name="set-up-workflow-users"></a>Configurar usuarios de flujo de trabajo
 
@@ -32,7 +32,7 @@ Los usuarios del flujo de trabajo que funcionan como usuarios de aprobación, ta
 
 ## <a name="to-set-up-a-workflow-user"></a>Para configurar usuarios de flujo de trabajo
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Grupos de usuarios de flujo de trabajo** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Grupos de usuarios de flujo de trabajo** y luego elija el enlace relacionado.  
 2. Seleccione la acción **Nuevo**. Se abre la página **Grupo de usuarios de flujo de trabajo**.  
 3. En el campo **Código**, introduzca un máximo de 20 caracteres para identificar el flujo de trabajo.  
 4. En el campo **Descripción**, describa el flujo de trabajo.  

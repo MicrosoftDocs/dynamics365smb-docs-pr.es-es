@@ -1,6 +1,6 @@
 ---
 title: Cómo crear una previsión de la demanda
-description: Es posible crear previsiones de ventas y producción desde la página **Previsión de la demanda**.
+description: Obtenga información sobre la función de previsión en Business Central y sobre cómo puede crear previsiones de ventas y producción.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 08b2a24eeb4e50cb6f7a1c9e02c861ec51668438
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 19b168e60fab61f12a631d8e449b7e05753640eb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779333"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438692"
 ---
 # <a name="create-a-demand-forecast"></a>Crear una previsión de la demanda
 Es posible crear previsiones de ventas y producción desde la página **Previsión de la demanda**.  
@@ -62,7 +62,7 @@ Considere este ejemplo: su empresa compra y vende artículos en dos ubicaciones:
 Luego, crea un pedido de cliente con una cantidad de 12 en la ubicación WEST. El sistema de planificación le sugerirá que haga lo siguiente:
 
 - Reponga 10 piezas para la ubicación EAST, según los datos del pronóstico.  
-- Reponga 12 piezas para la ubicación WEST, según la orden de venta. Las 4 piezas que se especificaron en el pronóstico son consumidas por completo por la demanda real de la orden de venta. Para obtener más información, consulte la sección sobre la [reducción de la demanda de previsión por parte de pedidos de venta](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders). 
+- Reponga 12 piezas para la ubicación WEST, según la orden de venta. Las cuatro piezas que se especificaron en el pronóstico son consumidas por completo por la demanda real de la orden de venta. Para obtener más información, consulte la sección sobre la [reducción de la demanda de previsión por parte de pedidos de venta](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders). 
 
 > [!NOTE]  
 >  Si las previsiones en función de las ubicaciones se observan por separado, la previsión global podría no ser representativa.
@@ -85,7 +85,7 @@ Luego, crea un pedido de cliente con una cantidad de 12 en la ubicación WEST. E
 
 ## <a name="to-create-a-demand-forecast"></a>Para crear una previsión de la demanda
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Previsión de la demanda** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Previsión de demanda**, y luego elija el enlace relacionado.  
 2. Seleccione una previsión en el campo **Nombre previsión demanda** de la ficha desplegable  **General**. Puede haber varias previsiones, que se distinguen por el nombre y el tipo de previsión.  
 3. Seleccione el almacén del campo **Filtro almacén** al que se va a aplicar esta previsión.
 4. En el campo **Ver por** para cambiar el periodo que se muestra en cada columna. Se pueden seleccionar los siguientes intervalos: **Día**, **Semana**, **Mes**, **Trimestre**, **Año** o el **Periodo contable** configurado en su área financiera.    

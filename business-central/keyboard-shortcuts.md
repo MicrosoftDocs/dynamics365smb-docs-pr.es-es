@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4e0e225df3d3d212165a8a94eaab964b079ca868
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: 6ec88aa72ba5498a72ffe8c7ae30983657677005
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115645"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438932"
 ---
 # <a name="keyboard-shortcuts"></a>Métodos abreviados de teclado
 
@@ -25,7 +25,7 @@ Para obtener una descripción general de los métodos abreviados de teclado más
 
 > [!TIP]
 > Para obtener una vista gráfica de los métodos abreviados más utilizados, elija la siguiente imagen y descargue el archivo PDF.  
-> [ ![Icono para el archivo PDF](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf "Icono que abre un PDF")
+> [ ![Icono para el archivo PDF.](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf "Icono que abre un PDF")
 
 ## <a name="overview"></a>Panorama
 
@@ -55,7 +55,7 @@ En la siguiente tabla se describen métodos abreviados de teclado para navegar y
 |Alt+N |Abrir una página para crear un nuevo registro. (Similar a elegir las acciones **Nuevo** y **+**).|
 |Alt+Mayús+N |Cerrar una página recién creada y abrir una nueva para crear un nuevo registro. Del mismo modo, Alt+F9 registra un documento y crea uno nuevo.|
 |Alt+T|Abrir la página **Mi configuración**.|
-|Alt + Flecha hacia la derecha|Buscar información adicional o valores subyacentes para un campo que contiene el botón ![AssistEdit](media/assist-edit-icon.png "Botón AssistEdit"). Se usa cuando el botón desplegable habitual (Alt+flecha abajo) en el mismo campo se usa para otro propósito.|
+|Alt + Flecha hacia la derecha|Buscar información adicional o valores subyacentes para un campo que contiene el botón ![AssistEdit.](media/assist-edit-icon.png "Botón AssistEdit") . Se usa cuando el botón desplegable habitual (Alt+flecha abajo) en el mismo campo se usa para otro propósito.|
 |Ctrl+Alt+Mayús+C|Mostrar información en el distintivo de la empresa.|
 |Ctrl+Alt+F1|Abrir y cerrar el panel de inspección de la página. El panel de inspección de la página muestra información sobre la página, como su tabla de orígenes, campos, filtros, extensiones y más.<br /><br />Para obtener más información, vea [Inspección de páginas](across-inspect-page.md).|
 |Ctrl+C |Copiar el valor del campo. Si el campo tiene el enfoque y no ha seleccionado ningún texto en el campo, se copiará todo el valor. Si ha seleccionado texto en el campo, solo copiará el texto seleccionado.|

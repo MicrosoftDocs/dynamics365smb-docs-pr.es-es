@@ -1,18 +1,18 @@
 ---
-title: Cómo realizar un seguimiento de los paquetes | Documentos de Microsoft
-description: Utilice el servicio de seguimiento de los transportistas para ver el progreso de una entrega.
+title: Cómo hacer el seguimiento de los paquetes
+description: Utilice el servicio de rastreo de transportistas en Internet para rastrear paquetes y seguir el progreso de una entrega.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: rfq
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: fea12afc4c9c1273fe8ba6da563240781fb1bc9d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c4272e26021cecd04d6bd81ec66957032def6a8e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778352"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440208"
 ---
 # <a name="track-packages"></a>Hacer un seguimiento de los paquetes
 
@@ -22,7 +22,7 @@ El siguiente procedimiento muestra cómo rastrear un paquete desde un histórico
 
 ## <a name="to-track-a-package"></a>Para hacer el seguimiento de un paquete
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Histórico albaranes venta** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Histórico albaranes venta** y luego elija el enlace relacionado.
 2. Abra la el envío correspondiente.
 3. Seleccione la acción **Actualizar documento**.
 4. En el campo **Nº seguimiento bulto** especifique el número de paquete que le ha dado el transportista. Actualice **Transportista** si es necesario y cierre la página.

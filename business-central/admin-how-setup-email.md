@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: e38882e31a14c7918348d0db584a870fe9ceeb73
-ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
+ms.openlocfilehash: 389832ad5997dd4b02cbeb7dfb90dd5b1ade40c1
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6063432"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439715"
 ---
 # <a name="set-up-email"></a>Configurar correo electrónico
 Las personas en las empresas envían información y documentos, como órdenes de compra y venta y facturas, por correo electrónico todos los días. Los administradores pueden facilitarlo conectando una o más cuentas de correo electrónico a [!INCLUDE[prod_short](includes/prod_short.md)], para que pueda enviar documentos sin tener que abrir una aplicación de correo electrónico. Puede redactar cada mensaje individualmente con herramientas de formato básicas, como fuentes, estilos, colores, etc., y agregar archivos adjuntos de hasta 100 MB. Los administradores también pueden configurar diseños de informes que incluyan solo la información clave de los documentos. Para obtener más información, vea [Enviar documentos por correo electrónico](ui-how-send-documents-email.md).
@@ -23,6 +23,8 @@ Las personas en las empresas envían información y documentos, como órdenes de
 Las capacidades de correo electrónico en [!INCLUDE[prod_short](includes/prod_short.md)] son solo para mensajes salientes. No puede recibir respuestas, es decir, no hay una página de bandeja de entrada en [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!NOTE]
+> Puede utilizar las capacidades de correo electrónico de [!INCLUDE[prod_short](includes/prod_short.md)] en línea solo con Exchange Online. No admitimos escenarios híbridos, como la conexión de [!INCLUDE[prod_short](includes/prod_short.md)] en línea a una versión local de Exchange.
+> 
 > Si está usando [!INCLUDE[prod_short](includes/prod_short.md)] local, antes de poder configurar el correo electrónico, debe crear un registro de aplicación para [!INCLUDE[prod_short](includes/prod_short.md)] en Azure Portal. El registro de la aplicación permitirá [!INCLUDE[prod_short](includes/prod_short.md)] para autorizar y autenticarse con su proveedor de correo electrónico. Para obtener más información, consulte [Configurar correo electrónico para Business Central local](admin-how-setup-email.md#setting-up-email-for-business-central-on-premises). En [!INCLUDE[prod_short](includes/prod_short.md)] en línea, nos encargamos de esto por usted.
 
 ## <a name="required-permissions"></a>Permisos requeridos
@@ -37,7 +39,7 @@ La siguiente tabla describe las extensiones de correo electrónico que están di
 
 |Extensión  |Descripción  |Ejemplos de cuando usar  |
 |---------|---------|---------|
-|**Microsoft 365**|Todos envían correos electrónicos desde un buzón compartido en Exchange Online.|Cuando todos los mensajes provienen del mismo departamento, por ejemplo, su organización de ventas envía mensajes desde una cuenta sales@cronus.com. Esto requiere que configure un buzón compartido en el centro de administración de Microsoft 365. Para más información, vea [Buzones de correo compartidos](/Exchange/collaboration/shared-mailboxes/shared-mailboxes.md).|
+|**Microsoft 365**|Todos envían correos electrónicos desde un buzón compartido en Exchange Online.|Cuando todos los mensajes provienen del mismo departamento, por ejemplo, su organización de ventas envía mensajes desde una cuenta sales@cronus.com. Esto requiere que configure un buzón compartido en el centro de administración de Microsoft 365. Para más información, vea [Buzones de correo compartidos](/Exchange/collaboration/shared-mailboxes/shared-mailboxes).|
 |**Usuario actual**|Todos envían correos electrónicos desde la cuenta que usaron para iniciar sesión en [!INCLUDE[prod_short](includes/prod_short.md)].|Permitir comunicaciones de cuentas individuales.|
 |**Otro (SMTP)**|Usar el protocolo SMTP para enviar mensajes de correo electrónico.|Permita las comunicaciones a través de su servidor de correo SMTP. |
 
@@ -61,7 +63,7 @@ La guía de configuración asistida para **Configurar correo electrónico** pued
 > [!NOTE]
 > Debe tener una cuenta de correo electrónico predeterminada, incluso si agrega solo una cuenta. La cuenta predeterminada se utilizará para todos los escenarios de correo electrónico que no estén asignados a una cuenta. Para más información, vea [Asignar escenarios de correo electrónico a cuentas de correo electrónico](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts).
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configurar cuentas de correo electrónico** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configurar cuentas de correo electrónico** y luego elija el enlace relacionado.
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 
 
@@ -75,7 +77,7 @@ Los escenarios de correo electrónico son procesos que implican el envío de un 
  
 <!--
 ## To set up email
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SMTP Email Setup**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SMTP Email Setup**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]
@@ -89,7 +91,7 @@ Los escenarios de correo electrónico son procesos que implican el envío de un 
 ## <a name="set-up-reusable-email-texts-and-layouts-for-sales-and-purchase-documents"></a>Configurar textos y diseños de correo electrónico reutilizables para documentos de compra y venta
 Puede utilizar informes para incluir información clave de documentos de compra y venta en textos para correos electrónicos. Este procedimiento describe cómo configurar el informe **Factura de venta** para facturas de ventas registradas, pero el proceso es similar para otros informes.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Selección informes ventas** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Selección informes ventas** y luego elija el enlace relacionado.
 2. En la página **Informe selección - ventas**, en el campo **Uso**, seleccione **Facturar**.
 3. En una línea nueva, en el campo **Id. informe**, seleccione, por ejemplo, informe estándar 1306.
 4. Seleccione la casilla **Usar para el cuerpo del correo electrónico**.
@@ -115,17 +117,17 @@ A continuación se ofrecen ejemplos de cómo se usan Enviar como y Enviar en nom
 
 ### <a name="to-set-up-the-substitute-sender-address-for-all-outbound-email-messages"></a>Para configurar la dirección de remitente sustituta para todos los mensajes de correo electrónico salientes
 1. En el **centro de administración de Exchange** de su cuenta de Microsoft 365, busque el buzón de correo para utilizarlo como dirección sustitutoria y, a continuación, copie o anote la dirección. Si necesita una nueva dirección, vaya a su centro de administración de Microsoft 365 para crear un nuevo usuario y configurar su buzón de correo.
-2. En [!INCLUDE[prod_short](includes/prod_short.md)], elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de correo electrónico SMTP** y luego elija el enlace relacionado.
+2. En [!INCLUDE[prod_short](includes/prod_short.md)], elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de correo electrónico SMTP** y luego elija el enlace relacionado.
 3. En el campo **Enviar como**, introduzca la dirección sustituta.
 4. Copie o anote la dirección en el campo **ID de usuario**.
-5. En el **centro de administración de Exchange**, busque el buzón de correo que desea utilizar como dirección sustituta y, a continuación, introduzca la dirección del campo **ID de usuario** en el campo **Enviar como**. Para más información, ver [Use el EAC para asignar permisos a buzones individuales](/Exchange/recipients/mailbox-permissions?view=exchserver-2019#use-the-eac-to-assign-permissions-to-individual-mailboxes).
+5. En el **centro de administración de Exchange**, busque el buzón de correo que desea utilizar como dirección sustituta y, a continuación, introduzca la dirección del campo **ID de usuario** en el campo **Enviar como**. Para más información, vea [Usar el EAC para asignar permisos a buzones individuales](/Exchange/recipients/mailbox-permissions?view=exchserver-2019&preserve-view=true#use-the-eac-to-assign-permissions-to-individual-mailboxes).
 
 ### <a name="to-use-the-substitute-address-in-approval-workflows"></a>Para utilizar la dirección sustituta en los flujos de trabajo de aprobación
-1. En [!INCLUDE[prod_short](includes/prod_short.md)], elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de correo electrónico SMTP** y luego elija el enlace relacionado.
+1. En [!INCLUDE[prod_short](includes/prod_short.md)], elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de correo electrónico SMTP** y luego elija el enlace relacionado.
 2. Copie o anote la dirección en el campo **ID de usuario**.
-3. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Config. usuario aprobación** y luego elija el enlace relacionado.
-4. En el **centro de administración de Exchange**, busque los buzones de correo de cada usuario que aparece en la página **Configuración de usuario de aprobación** y, en el campo **Enviar como**, introduzca la dirección del campo **ID de usuario** de la página **Configuración de correo electrónico SMTP** en [!INCLUDE[prod_short](includes/prod_short.md)]. Para obtener más información, vea [Administrar permisos para destinatarios](/Exchange/recipients/mailbox-permissions?view=exchserver-2019).
-5. En [!INCLUDE[prod_short](includes/prod_short.md)], elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de correo electrónico SMTP** y luego elija el enlace relacionado.
+3. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Config. usuario aprobación** y luego elija el enlace relacionado.
+4. En el **centro de administración de Exchange**, busque los buzones de correo de cada usuario que aparece en la página **Configuración de usuario de aprobación** y, en el campo **Enviar como**, introduzca la dirección del campo **ID de usuario** de la página **Configuración de correo electrónico SMTP** en [!INCLUDE[prod_short](includes/prod_short.md)]. Para obtener más información, vea [Administrar permisos para destinatarios](/Exchange/recipients/mailbox-permissions?view=exchserver-2019&preserve-view=true).
+5. En [!INCLUDE[prod_short](includes/prod_short.md)], elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de correo electrónico SMTP** y luego elija el enlace relacionado.
 6. Para habilitar la sustitución, active **Permitir sustitución del remitente**.
 
 > [!Note]
@@ -178,7 +180,7 @@ Si tiene problemas para usar la configuración SMTP heredada para enviar correos
 ### <a name="connect-prod_short-to-your-app-registration"></a>Conectar [!INCLUDE[prod_short](includes/prod_short.md)] al registro de la aplicación
 Después de registrar su aplicación en Azure Portal, en [!INCLUDE[prod_short](includes/prod_short.md)], utilice la guía de configuración asistida **Registro de AAD para aplicaciones de correo electrónico** para conectar [!INCLUDE[prod_short](includes/prod_short.md)].
 
-1. En [!INCLUDE[prod_short](includes/prod_short.md)], elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Registro de AAD para aplicaciones de correo electrónico** y luego elija el enlace relacionado.
+1. En [!INCLUDE[prod_short](includes/prod_short.md)], elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Registro de AAD para aplicaciones de correo electrónico** y luego elija el enlace relacionado.
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!TIP]
@@ -207,7 +209,10 @@ Después de registrar su aplicación en Azure Portal, en [!INCLUDE[prod_short](i
 
 -->
 
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/set-up-email/)
+
 ## <a name="see-also"></a>Consulte también
+
 [Buzones compartidos en Exchange Online](/exchange/collaboration-exo/shared-mailboxes)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Configurar [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  

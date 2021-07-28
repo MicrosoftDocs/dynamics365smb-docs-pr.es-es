@@ -1,6 +1,6 @@
 ---
-title: Crear una factura de venta para facturar un proyecto | Documentos de Microsoft
-description: Describe cómo facturar a clientes por los costes del proyecto a medida que progresa un proyecto.
+title: Crear una factura de ventas de proyecto para facturar un proyecto
+description: Describe cómo facturar a clientes por los costes del proyecto a medida que progresa un proyecto y se acumulan los costes.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project invoice
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 873135d2fa6053b7101a999981fb3117ee8689ab
-ms.sourcegitcommit: 93c8681054b059cec38cb29b86de20be37980676
+ms.openlocfilehash: 4c4bfd0293ddfa626dda75518219e597b6c4e721
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938151"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439181"
 ---
 # <a name="invoice-jobs"></a>Facturar proyectos
 Durante el proyecto, pueden acumularse los costes del proyecto por el uso de recursos, materiales y compras relacionadas con el proyecto. Según progresa el proyecto, estas transacciones se registran en el diario del proyecto. Es importante que se registren todos los costes en el diario del proyecto antes de facturar al cliente.
@@ -33,7 +33,7 @@ Puede crear la factura de un proyecto o de una o varias tareas del proyecto para
 
 El siguiente procedimiento muestra cómo utilizar un proceso para facturar varios proyectos.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Crear factura venta proyecto** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Crear factura venta proyecto** y, a continuación, elija el vínculo relacionado.  
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Seleccione filtros si desea limitar los proyectos que el proceso va a procesar.
 4. Elija el botón **Aceptar** para crear las facturas.  
@@ -46,7 +46,7 @@ Puede revisar y registrar facturas creadas en la ventana **Facturas de venta**.
 ## <a name="to-create-and-post-job-sales-invoice-from-job-planning-lines"></a>Para crear y registrar facturas de venta de proyecto desde líneas de planificación de proyecto
 Puede crear una factura a partir de las líneas de planificación de proyecto e indicar en ese momento la cantidad del producto, recurso o cuenta que desea facturar.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Proyectos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proyectos** y luego elija el enlace relacionado.
 2. Abra un proyecto relevante.
 3. Seleccione una tarea de proyecto cuyos campo **Tipo tarea proyecto** contenga **Registrar** y seleccione la acción **Líneas planificación proyecto**.  
 4. En una línea de planificación de proyecto, en el campo **Cdad. para transferir a factura**, introduzca la cantidad del producto, recurso y el tipo de la cuenta de contabilidad que desee facturar.  

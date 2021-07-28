@@ -1,6 +1,6 @@
 ---
-title: Cómo replanificar o actualizar órdenes de producción directamente | Documentos de Microsoft
-description: Las líneas de la orden de producción contienen los productos que se van a fabricar en la orden de producción.
+title: Replanificar o actualizar órdenes de producción directamente
+description: Este tema describe los procedimientos sobre cómo replanificar órdenes de producción y actualizar órdenes de producción directamente.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: e3e1fa5535637f204c942aa8d3589dfff0392333
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5e8543d64c1ecfea1f554f13f753743684d1f463
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787807"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440383"
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Replanificar o actualizar órdenes de producción directamente
 Se utiliza normalmente la función **Replanificar** después de haber agregado o cambiado componentes que conforman órdenes de producción subyacentes. La función de planificación calcula los cambios realizados en las líneas de componentes y rutas e incluye a los productos de los niveles de L.M. de producción inferiores, para los que puede crear nuevas órdenes de producción.  
@@ -35,7 +35,7 @@ Puede insertar las líneas de la orden de producción manualmente o utilizar la 
 > Si utiliza la función Actualizar para recalcular las líneas de orden de producción, se eliminan las líneas antiguas y se calculan las nuevas.  
 
 ## <a name="to-replan-a-production-order"></a>Para replanificar una orden de producción  
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **O.P. Planificadas en firme** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **O.P. Planificadas en firme** y, a continuación, elija el vínculo relacionado.  
 2.  Abra la orden de producción que desea replanificar.  
 3.  En la ficha desplegable **Líneas**, elija la acció **Líneas** y, a continuación **Componentes**.  
 4.  Agregue un componente que sea un producto fabricado o un producto semiterminado.  
@@ -65,12 +65,12 @@ Puede insertar las líneas de la orden de producción manualmente o utilizar la 
 ## <a name="to-refresh-a-production-order"></a>Para actualizar una orden de producción  
 Si ha modificado líneas de orden de producción, componentes o líneas de ruta, debe también actualizar la información en la orden de producción. En siguiente procedimiento, se calculan los componentes para una orden de producción planificada en firme. Los pasos son parecidos para las líneas de ruta.
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Orden produc. planif. en firme** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Orden produc. planif. en firme** y, a continuación, elija el vínculo relacionado.  
 2.  Seleccione la acción **Nuevo**. Para obtener más información, consulte [Crear órdenes de producción](production-how-to-create-production-orders.md).  
 3.  Seleccione la acción **Actualizar**.
 4. En la página **Actualizar orden de producción**, seleccione una de las siguientes opciones:
 
-    |Opción|Description|  
+    |Opción||Description|  
     |----------------------------------|---------------|---------------------------------------|  
     |**Dirección programación**|**Anticipada**|La programación empieza en la fecha inicial y avanza hasta la fecha final. Debe rellenar la fecha inicial para utilizar esta opción.|  
     ||**Atrás**|La programación empieza en la fecha final y retrocede hasta la fecha inicial.|  

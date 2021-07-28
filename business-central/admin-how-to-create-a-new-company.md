@@ -1,6 +1,6 @@
 ---
 title: Como crear una empresa nueva | Documentos de Microsoft
-description: Para usar las tablas y páginas de RapidStart Services creadas que no tienen datos.
+description: Use tablas y páginas de RapidStart Services para crear una nueva empresa para la que desee realizar una implementación de cliente.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: c21d86c67c6020d1a32da4816246bc7aaf96c2ca
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bb2e3e8d431160c94f7944fe8986ea9cc115ffe7
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779887"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439640"
 ---
 # <a name="create-a-new-company"></a>Cree una nueva empresa
 Para usar RapidStart Services para [!INCLUDE[prod_short](includes/prod_short.md)], primero debe crear una nueva empresa para la que desee realizar una implementación de cliente. Al crear una empresa nueva, se crean las tablas y páginas estándar de [!INCLUDE[prod_short](includes/prod_short.md)], pero no existen datos en ellas.
@@ -26,7 +26,7 @@ La empresa de demostración CRONUS incluye paquetes de configuración de ejemplo
 
 ## <a name="to-use-the-sample-basicconfig-configuration-package"></a>Utilizar el paquete de configuración BASICCONFIG de ejemplo  
 1. Abra la empresa CRONUS España S.A. Para obtener más información, consulte [Cambiar configuración básica](ui-change-basic-settings.md).
-2. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Paquetes de configuración** y luego elija el enlace relacionado.  
+2. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Paquete de configuración** y luego elija el vínculo relacionado.  
 3. Elija el paquete BASICCONFIG de la lista y, a continuación, seleccione la acción **Exportar paquete**.  
 
 Utilice el procedimiento siguiente para crear una nueva empresa y utilizar el paquete BASICCONFIG como parte del proceso.  

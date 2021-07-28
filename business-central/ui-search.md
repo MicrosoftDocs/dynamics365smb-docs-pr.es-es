@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: d5af514baf18d1d5fbfd3de900d0ef964ff40bc9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2df1a204ef2ab3063293274748e5e777d03be4d1
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783189"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440007"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Búsqueda de páginas e información con Dígame  
 Este tema describe cómo la función Dígame puede ayudarle a ir rápidamente a cosas como acciones, páginas o informes, encontrar información sobre cómo completar una tarea concreta y descubrir aplicaciones y servicios de consultoría adicionales para [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -23,7 +23,7 @@ Este tema describe cómo la función Dígame puede ayudarle a ir rápidamente a 
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2086048]
 
-Cuando necesite ayuda para encontrar algo, utilice el icono ![Dígame qué desea hacer](media/ui-search/search.png "Buscar página o informe") **Dígame qué desea hacer** para buscarlo. También puede usar ALT+Q para comenzar a usar la opción Dígame.
+Cuando necesite ayuda para encontrar algo, utilice el icono ![Dígame qué desea hacer.](media/ui-search/search.png "Buscar página o informe") **Dígame qué desea hacer** para buscarlo. También puede usar ALT+Q para comenzar a usar la opción Dígame.
 
 Cuando comienza a escribir caracteres, [!INCLUDE[prod_short](includes/prod_short.md)] muestra inmediatamente las coincidencias. Los resultados de la lista cambian a medida que escribe más caracteres. Si observa que al introducir la palabra "producto" y los resultados incluyen **artículos**, esto se debe a que la función Dígame utiliza sinónimos y términos de búsqueda alternativos para facilitar la búsqueda de acciones, páginas e informes.
 

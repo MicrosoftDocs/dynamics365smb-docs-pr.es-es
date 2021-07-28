@@ -1,21 +1,21 @@
 ---
-title: Acerca del marco de intercambio de datos | Documentos de Microsoft
-description: El formato de archivos para intercambio de datos en archivos bancarios, documentos electrónicos, tipos de cambio de divisa y otros con los sistemas ERP varía en función del proveedor del archivo de datos o de secuencia y el país o la región.
+title: Acerca del marco de intercambio de datos
+description: Este tema explica cómo usar el Marco de intercambio de datos para administrar el intercambio de datos en documentos comerciales como facturas con sus socios comerciales.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.search.keywords: Data exchange framework, data files, data exchange, electronic document, invoice, Business Central, business document, standard-compliant file, OCR
+ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: 6ae76aa8f8522b7d93dd442d6d8cc748f1d2dac4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 53c0bcbf03f989175783ebb93228815712c25552
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776327"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439123"
 ---
 # <a name="about-the-data-exchange-framework"></a>Acerca del marco de intercambio de datos
 
@@ -25,9 +25,9 @@ Como administrador o socio de Microsoft, puede usar el marco en nuevas funciones
 
  En los diagramas siguientes se muestra la arquitectura del marco de intercambio de datos.  
 
- ![&#45; Importación de marco de intercambio de datos](media/across-data-exchange/dataexchangeframework_import.png)  
+ ![Marco de intercambio de datos &#45; Importar.](media/across-data-exchange/dataexchangeframework_import.png)  
 
- ![&#45; Exportación de marco de intercambio de datos](media/across-data-exchange/dataexchangeframework_export.png)  
+ ![Marco de intercambio de dato &#45; Exportar.](media/across-data-exchange/dataexchangeframework_export.png)  
 
 ## <a name="electronic-documents"></a>Documentos electrónicos
 

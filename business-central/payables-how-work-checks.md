@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6d2f204daefe5ed9473d64592d67e3c4cf026bce
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c3f0a848e1a7011b163a92fbf5a58f4cd761ef95
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775095"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438782"
 ---
 # <a name="make-check-payments"></a>Realizar pagos por cheque
 
@@ -39,7 +39,7 @@ Puede imprimir hasta 10 facturas en una página para una matriz de cheque. Si un
 ## <a name="to-pay-a-vendor-invoice-with-a-computer-check"></a>Para pagar una factura de proveedor con un cheque automático
 A continuación se describe cómo pagar a un proveedor mediante un cheque. Los pasos son similares al reembolso de un cheque.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diarios de pagos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de pagos** y luego elija el enlace relacionado.
 2. Rellene las líneas del diario de pagos. Para obtener más información, vea [Registre pagos y reembolsos](payables-how-post-payments-refunds.md).
 3. En el campo **Cód. forma pago**, seleccione **Cheque**.
 4. En el campo **Tipo pago por banco**, seleccione **Cheque automático**.
@@ -67,7 +67,7 @@ Cuando se ha registrado el pago del cheque, solo puede cancelar (anular) cheques
 > [!IMPORTANT]
 > Si el cheque se aplica a una factura, anule la aplicación del cheque primero para que la factura se pueda pagar y luego anule el cheque. Si el cheque se imprimió y no pagó una factura, elija **Solo cheque nulo** como se describe en esta sección.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Bancos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cuentas bancarias** y luego elija el enlace relacionado.
 2. Seleccione la cuenta bancaria correspondiente, seleccione la acción **Editar** y, a continuación, seleccione la acción **Movs. cheques**.
 3. En la página **Movs. cheques**, seleccione la acción **Anular cheque**.
 4. Seleccione la casilla **Anular cheque solo**.
@@ -75,7 +75,7 @@ Cuando se ha registrado el pago del cheque, solo puede cancelar (anular) cheques
 
 ## <a name="to-view-a-summary-of-posted-checks"></a>Para ver un resumen de los cheques registrados
 Si desea revisar los cheques registrados, por ejemplo, para verificar los cheques múltiples pagados a un proveedor, puede usar el informe **Bancos - Desglose cheques**.
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Banco - Desglose cheques** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Banco - Desglose cheques** y luego elija el enlace relacionado.
 2. Establezca los filtros como relevantes y luego elija el botón **Vista previa**.
 
 ## <a name="see-also"></a>Consulte también

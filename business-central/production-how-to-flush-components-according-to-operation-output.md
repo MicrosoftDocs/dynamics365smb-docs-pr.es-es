@@ -1,6 +1,6 @@
 ---
 title: Bajar componentes según la salida de la operación
-description: Para los productos que se configuran con el método de baja hacia atrás, el comportamiento predeterminado es calcular y registrar el consumo de componentes cuando cambie el estado de una orden de producción lanzada a Terminada.
+description: Este tema describe cómo bajar componentes de acuerdo con el resultado de la operación, así como otros métodos de baja involucrados.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 82d5148bd99870b623a0b37693e105bcf8b862b2
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: f774c3e626ae7db282d87797a59f0f0aaf89d599
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115870"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439098"
 ---
 # <a name="flush-components-according-to-operation-output"></a>Bajar componentes según la salida de la operación
 Puede definir diferentes estrategias de baja para automatizar el registro de consumo de componentes. 
@@ -91,18 +91,18 @@ Por ejemplo, si una orden de producción para producir 800 metros requiere 8 kg 
 
 ## <a name="to-flush-components-according-to-operation-output"></a>Para bajar componentes según la salida de la operación
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos**, y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Editar**.  
 3.  En la ficha desplegable **Reposición**, en el campo **Método de baja**, seleccione **Atrás**.  
 
     > [!NOTE]  
     >  Seleccione **Pick+ Atrás** si el componente se utiliza en un almacén que está configurado para la ubicación y picking directos.  
 
-4.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Rutas** y luego elija el enlace relacionado.  
+4.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Rutas** y luego elija el enlace relacionado.  
 5.  Defina los códigos de vínculo de ruta para cada operación que consume el componente. Para obtener más información, consulte [Crear rutas](production-how-to-create-routings.md).  
     > [!IMPORTANT]  
     > No use la misma conexión de ruta para diferentes operaciones en la ruta, ya que provocará el registro del consumo de componente para cada operación vinculada.  
-6.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **L.M. de producción** y luego elija el enlace relacionado.  
+6.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **L. MAT de producción** y, a continuación, elija el vínculo relacionado.  
 7.  Defina los códigos de vínculo de ruta desde cada instancia del componente hasta la operación donde se consume.
 
 El consumo se registrará automáticamente cuando registre la salida. Para obtener más información, consulte [Registro de salida y tiempos de ejecución por lotes](production-how-to-post-output-quantity.md)

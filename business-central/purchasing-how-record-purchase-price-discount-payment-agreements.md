@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 36fcb415c6d6dbe125570be932f223d4300d518a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 580a2b248b43ccac272b95656207439a8e02cc85
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772709"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438557"
 ---
 # <a name="record-special-purchase-prices-and-discounts"></a>Registrar precios y descuentos de compra especiales
 > [!NOTE]
@@ -40,13 +40,13 @@ Puesto que los descuentos de línea y los precios de compra se basan en una comb
 
 #### <a name="current-experience"></a>[Experiencia actual](#tab/current-experience)  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Proveedores** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proveedores** y luego elija el enlace relacionado.
 2. Abra la ficha de proveedor correspondiente y, a continuación, elija la acción **Precios**.
 3. Rellene los campos de la línea como sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Rellene una línea para cada combinación por la que el proveedor le garantiza un descuento de compra.
 
 #### <a name="new-experience"></a>[Nueva experiencia](#tab/new-experience)  
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Proveedores** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proveedores** y luego elija el enlace relacionado.
 2. Elija el proveedor y, a continuación, elija la acción **Listas de precios de venta**. 
 3. Para crear una nueva lista de precios de compra, elija **Nueva**.
 4. En las fichas desplegables **General** e **Impuesto**, rellene los campos como sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -59,7 +59,7 @@ Puesto que los descuentos de línea y los precios de compra se basan en una comb
 ---
 
 ## <a name="to-set-up-a-line-discount-for-a-vendor"></a>Para configurar un descuento de línea para un proveedor
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Proveedores** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proveedores** y luego elija el enlace relacionado.
 2. Abra la ficha de proveedor correspondiente y, a continuación, elija la acción **Dto. línea**.
 
     El campo **Tipo de compras** se rellena previamente con el campo **Proveedor** y el campo **Código de compre** se rellena con el número del proveedor.
@@ -69,7 +69,7 @@ Puesto que los descuentos de línea y los precios de compra se basan en una comb
 ## <a name="to-set-up-an-invoice-discount-for-a-vendor"></a>Para configurar términos de descuento en factura para un proveedor:
 Una vez su proveedor le haya informado de que descuentos en factura garantizan, introduzca el código de descuento en las fichas de cliente y especifique los términos de cada código.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Proveedores** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proveedores** y luego elija el enlace relacionado.
 2. Abra la ficha de un proveedor que pueda obtener descuentos en factura.
 3. En el campo **Código descuento factura**, seleccione un código para los términos relevantes de la factura con descuentos que usará para calcular los descuentos en facturas para el proveedor.
 
@@ -90,7 +90,7 @@ Cuando se registra una factura de compra que incluye uno o varios descuentos, pu
 
 Antes de que pueda hacerlo, deberá haber configurado las cuentas necesarias para registrar importes de descuento en el plan de cuentas. También debe comprobar que haya escrito los números de cuenta correctos en la configuración de grupos contables de los campos **Cta. dto. línea compras** y **Cta. dto. factura compras**.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de compras y pagos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de compras y pagos** y luego elija el enlace relacionado.
 2. En el campo **Registro dto.**, seleccione uno de los siguientes principios de registro de descuentos.
 
 |**Principio de registro de descuento**|**Descuento en factura**|**Descuento en línea**|  
