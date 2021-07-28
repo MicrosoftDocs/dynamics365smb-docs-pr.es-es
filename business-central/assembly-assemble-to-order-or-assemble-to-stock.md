@@ -1,5 +1,5 @@
 ---
-title: Descripción de ensamblar para pedido y ensamblar para stock | Documentos de Microsoft
+title: Descripción de ensamblar para pedido y ensamblar para stock
 description: Los elementos de ensamblado se pueden suministrar ensamblándolos cuando se ordenan o ensamblándolos para que se mantengan en el inventario hasta que sean necesarios en una orden de venta.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: bholtorf
-ms.openlocfilehash: 80164400380a600674061349b873e5d1159d2cb3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: deaefbebf1520bc936c078ff7f74b18c34de4d89
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773034"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6326343"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Descripción de ensamblar para pedido y ensamblar para stock
 Los artículos de montaje se pueden suministrar en los dos procesos siguientes:  

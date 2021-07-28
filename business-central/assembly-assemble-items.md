@@ -1,6 +1,6 @@
 ---
-title: Gestión de ensamblado | Documentos de Microsoft
-description: Apoyar a las empresas que suministran los productos a sus clientes agrupando los componentes en procesos sencillos sin necesidad de la funcionalidad de fabricación pero con características para ensamblar artículos que se integran con las existentes, como son planificación, reservas y almacén.
+title: Gestión de ensamblaje
+description: Apoyar a las empresas que suministran productos a sus clientes mediante la combinación de componentes en procesos simples sin necesidad de funcionalidad de fabricación.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 111f78578f298c662cc5a923a0b05c487f68b4c7
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: d149ed0da02124a442668bb67a659c0dde36dad3
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215608"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6326368"
 ---
 # <a name="assembly-management"></a>Gestión de ensamblaje
 Para apoyar a las empresas que suministran los productos a sus clientes agrupando los componentes en procesos sencillos sin necesidad de la funcionalidad de fabricación, [!INCLUDE[prod_short](includes/prod_short.md)] incluye las características para ensamblar artículos que se integran con las existentes, como son planificación, reservas y almacén.  

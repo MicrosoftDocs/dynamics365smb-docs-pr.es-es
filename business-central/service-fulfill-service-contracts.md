@@ -1,6 +1,6 @@
 ---
-title: Resumen de tareas para el cumplimiento de contratos de servicio | Documentos de Microsoft
-description: Describe las tareas para administrar los contratos de servicio con los clientes.
+title: Resumen de tareas para el cumplimiento de contratos de servicio
+description: Describe las tareas involucradas en el cumplimiento de los contratos de servicio con sus clientes, como establecer acuerdos contractuales estándar con plantillas personalizables y más.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contract, agreement, configure
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 271e9ef14937ebd1b2bb7a8932f2f561d7a6f2ff
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 343308cb004ada356eaad14e620f29fb9cf043ee
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778302"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6326818"
 ---
 # <a name="fulfilling-service-contracts"></a>Cumplimiento de contratos de servicio 
 Un modo de configurar una empresa de gestión de servicios es tener acuerdos contractuales entre usted y sus clientes, que describan el nivel de servicio y las expectativas del servicio. Puede crear plantillas de contratos que incluyan información necesaria, como cliente, fecha de inicio del contrato y periodo de facturación.  

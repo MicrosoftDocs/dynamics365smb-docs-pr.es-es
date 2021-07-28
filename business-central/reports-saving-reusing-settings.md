@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customization, personalization
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4437d723834a8189a7155d59812c8e2e1f16b933
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6d83597057975757354da06668a7e71e94e5273f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778927"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435768"
 ---
 # <a name="manage-saved-settings-for-reports-and-batch-jobs"></a>Administrar configuraciones guardadas para informes y trabajos por lotes
 Cuando se ejecutan informes, a los usuarios normalmente se les presenta una página que les permite seleccionar opciones y establecer filtros para cambiar los datos que se incluyen en el informe generado. Esta página se llama página de solicitud. Un informe puede incluir una o varias *opciones de configuración guardadas* que los usuarios pueden aplicar al informe de la página de solicitud. La *configuración guardada* son básicamente opciones y filtros predeterminados. El uso de la configuración guardada es una forma rápida y confiable de generar de forma coherente informes que contienen los datos correctos. Para obtener más información, consulte [Uso de la configuración guardada](ui-work-report.md#SavedSettings).
@@ -38,7 +38,7 @@ Si tiene los permisos adecuados, puede ver, crear y modificar la configuración 
 
 ## <a name="to-create-and-modify-saved-settings-for-all-users"></a>Para crear y modificar la configuración guardada para todos los usuarios
 La configuración guardada se administra en la página **Configuración de informes**. Hay dos maneras de abrir esta página:
--   Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración del informe** y luego elija el enlace relacionado.
+-   Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración del informe** y luego elija el enlace relacionado.
 -   Abra un informe, seleccione la búsqueda en el campo **Utilizar valores predeterminado desde** y, a continuación, elija la acción **Seleccionar de la lista completa**.
 
 La página muestra todas las entradas de configuración guardada de almacenamiento existentes para todos los usuarios. Si hay un nombre de usuario en el campo **Asignado a**, solo ese usuario puede utilizar los parámetros guardados para el informe asociado. Si hay una marca de verificación en el campo **Compartir con todos los usuarios**, todos los usuarios pueden utilizar las opciones guardadas para el informe.

@@ -1,6 +1,6 @@
 ---
-title: Predecir pago atrasado para documentos de venta | Documentos de Microsoft
-description: Utilice nuestro modelo predictivo para predecir si una factura se pagará a tiempo.
+title: Predecir pago atrasado para documentos de venta
+description: Este tema explica cómo utilizar nuestro modelo predictivo para predecir si una factura se pagará a tiempo.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 93889510c01a2feecface046440de19dcb1e83eb
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: be2916e266e404ae1975eb4b721a8b83f1d02791
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787357"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6434913"
 ---
 # <a name="the-late-payment-prediction-extension"></a>Extensión de Predicción de pagos atrasados  
 La gestión efectiva de los cobres es importante para el estado financiero general de una empresa. La extensión de Predicción de pagos atrasados puede ayudarle a reducir los cobros pendientes y afinar su estrategia de cobros puesto que predice si las facturas de ventas se pagarán a tiempo. Por ejemplo, si se predice que un pago se retrasará, puede decidir ajustar los términos de pago o el método de pago para el cliente.
@@ -26,7 +26,7 @@ Cuando abra un documento de ventas registrado, se mostrará una notificación a 
 
 Para activar la extensión manualmente, siga estos pasos:
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de predicción de pago atrasado** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de predicción de pago atrasado** y luego elija el enlace relacionado.  
 2. Rellene los campos según sea necesario.
 
 > [!Note]
@@ -91,7 +91,7 @@ Si parece que sus procesos no coinciden con el modelo estándar, aún puede usar
 [!INCLUDE[prod_short](includes/prod_short.md)] ejecuta el entrenamiento y la evaluación automáticamente cuando hay suficientes facturas pagadas y atrasadas disponibles, sin embargo, puede hacerlo manualmente cuando lo desee.
 
 #### <a name="to-train-and-use-your-model"></a>Para entrenar y usar el modelo
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de predicción de pago atrasado** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de predicción de pago atrasado** y luego elija el enlace relacionado.  
 2. En el campo **Modelo seleccionado**, elija **Mi modelo**.
 3. Elija la acción **Crear mi modelo** para entrenar el modelo con sus datos.  
 
@@ -103,7 +103,7 @@ También puede crear su propio servicio web predictivo basado en un modelo públ
 3. Use su cuenta de Microsoft para iniciar sesión en un espacio de trabajo y, a continuación, copie el modelo.  
 4. Ejecute el modelo y como publíquelo como un servicio web.  
 5. Anote la URL de API y la clave de API. Usará estas credenciales para una configuración de flujo de caja.  
-6. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de predicción de pago atrasado** y luego elija el enlace relacionado.  
+6. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de predicción de pago atrasado** y luego elija el enlace relacionado.  
 7. Seleccione la casilla de verificación **Usar Mi suscripción a Azure**.
 8. En la ficha desplegable **Credenciales de mi modelo**, introduzca la URL y la clave de API para su modelo.  .  
 

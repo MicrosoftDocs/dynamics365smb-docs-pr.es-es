@@ -1,6 +1,6 @@
 ---
-title: Configurar reglas para la liquidación automática de los pagos
-description: En la página Reglas de liquidación de pago, se establecen reglas para determinar el modo en que los pagos/operaciones bancarias deben liquidarse automáticamente en los movimientos pendientes relacionados cuando se utiliza la función Liquidar automáticamente en la página Diario de conciliación de pagos.
+title: Reglas para la liquidación automática de los pagos
+description: Lea sobre cómo configurar reglas para la liquidación automática de pagos en la página Reglas de liquidación de pagos.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 57f9fa038c8631db87d03d9054dcf8a17a874345
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5205f5ed9e8f668a6705d2edfe0e07d328869b16
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778977"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435064"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Configurar reglas para la liquidación automática de los pagos
 
@@ -40,7 +40,7 @@ Además de los criterios de correspondencia, lo siguiente se aplica en relación
 - Para importes positivos, la correspondencia se realiza primero contra movimientos pendientes que representan las facturas de proveedor y luego contra los abonos de cliente.
 
 ## <a name="to-set-up-a-payment-application-rule"></a>Para configurar una regla de liquidación de pago
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Reglas de liquidación de pago** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Reglas de liquidación de pagos** y luego elija el enlace relacionado.
 2. Defina una regla de liquidación de pago nueva o modificada; para ello, rellene los campos en una línea, tal como se describe en la tabla siguiente.
 
 |Campo|Descripción|

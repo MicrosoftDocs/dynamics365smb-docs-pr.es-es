@@ -7,15 +7,15 @@ ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.date: 04/01/2021
-ms.openlocfilehash: 9c015d60d0f34b35b12e0a39ca8d2b99c6e09848
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.date: 06/14/2021
+ms.openlocfilehash: b5df66798db4a77504176d03bd46156d5d99fc56
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773184"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6326543"
 ---
-# <a name="classifying-data-sensitivity"></a>Clasificar confidencialidad de datos
+# <a name="classifying-data-sensitivity-fields"></a>Clasificar campos de confidencialidad de datos
 Para clasificar los campos que contienen datos confidenciales o personales, un socio de Microsoft puede establecer la propiedad ```DataClassification``` en los campos. Esto requiere acceso a las tablas de la base de datos, ya sea a través del entorno de desarrollo o ejecutando un script de Windows PowerShell. Para obtener más información, consulte [Clasificar datos](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).  
 
 Como cliente, puede agregar un segundo nivel de clasificación especificando los niveles de confidencialidad para los datos que almacena en campos estándar y personalizados. La clasificación de la confidencialidad de los datos ayuda a garantizar que sepa dónde guarda los datos personales en su sistema y facilita la respuesta a las solicitudes de los interesados. Por ejemplo, si un contacto o cliente le pide que exporte sus datos personales. Para obtener más información, vea [Respuesta a las solicitudes de datos personales](admin-responding-to-requests-about-personal-data.md).

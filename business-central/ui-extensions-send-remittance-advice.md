@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms. search.keywords: app, add-in, manifest, customize, stream, remittance, advice
-ms.date: 04/01/2021
+ms.search.keywords: app, add-in, manifest, customize, stream, remittance, advice
+ms.date: 07/06/2021
 ms.author: edupont
-ms.openlocfilehash: 7560131ec60d9cf494bdd87884f169e00ec89382
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a5b1245a47975f2db9465c5dc101ee13eea74248
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784720"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6434864"
 ---
 # <a name="send-remittance-advice"></a>Enviar aviso de pago
 
@@ -35,6 +35,13 @@ Puede enviar el aviso de pago de dos maneras diferentes:
 [Personalizar [!INCLUDE[prod_short](includes/prod_short.md)] con extensiones](ui-extensions.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Enviar documentos por correo electrónico](ui-how-send-documents-email.md)  
-
+[Transferencia electrónica de fondos (EFT) en la versión australiana](localfunctionality/australia/electronic-funds-transfer-eft-.md)  
+[Realizar pagos electrónicos (CA)](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  
+[Transferencia electrónica de fondos (EFT) en la versión neozelandesa](localfunctionality/newzealand/electronic-funds-transfer-eft-.md)  
+[Funcionalidad local para Nueva Zelanda](localfunctionality/newzealand/new-zealand-local-functionality.md)  
+[Funcionalidad local del Reino Unido en la versión británica](localfunctionality/unitedkingdom/united-kingdom-local-functionality.md)  
+[Imprimir aviso de pago en la versión británica](localfunctionality/unitedkingdom/how-to-print-remittance-advice.md)  
+[Realizar pagos electrónicos (EE.UU.)](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  
+  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

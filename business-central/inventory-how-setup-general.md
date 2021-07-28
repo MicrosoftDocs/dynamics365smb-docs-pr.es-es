@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1430123f433cfc101e0ae94ce0598d9c0cdd58b2
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a99de8575891e15712e221f28bbf3f4a46f2f771
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785828"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435627"
 ---
 # <a name="set-up-general-inventory-information"></a>Configurar información de inventario general
 
@@ -23,7 +23,7 @@ Especifique la configuración del inventario en la página **Configuración de i
 
 ## <a name="to-set-up-general-inventory-information"></a>Para configurar la información de inventario general
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Config. existencias** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Config. existencias** y luego elija el enlace relacionado.
 2. En la página **Configuración de inventario**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Para obtener información detallada sobre los campos de costes, **Contabilización automática de costes**, **Registro de coste previsto en P/G** y **Valoración de existencias predeterminada**, consulte [Conciliar costes de inventario con la contabilidad general](finance-how-to-post-inventory-costs-to-the-general-ledger.md), [Detalles de diseño: variación de existencias](design-details-inventory-costing.md) y [Detalles de diseño: registro de coste previsto](design-details-expected-cost-posting.md). Para obtener más información sobre el cálculo de costos en general, consulte [Gestión de variación de existencias](finance-manage-inventory-costs.md).  

@@ -1,6 +1,6 @@
 ---
-title: Informe 349
-description: Debe presentar un informe periódico de comercio con otros países o regiones de la UE a las autoridades fiscales. En España, este informe 349 es parte del sistema intracomunitario de intercambio de información sobre el IVA (VIES).
+title: Informe 349 [ES]
+description: Utilice Business Central para enviar una declaración del Informe 349, el informe periódico del comercio con otros países / regiones de la UE a las autoridades fiscales.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: f681d32009946c6c06b75d8c00b7b6535928d43a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 876e524a630cdfb04652df03c96cd19a2c559941
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777622"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325117"
 ---
-# <a name="report-349"></a>Informe 349
+# <a name="report-349-in-the-spanish-version"></a>Informe 349 en la versión en español
 Debe presentar un informe periódico de comercio con otros países o regiones de la UE a las autoridades fiscales. En España, este informe 349 es parte del sistema intracomunitario de intercambio de información sobre el IVA (VIES).  
 
 En [!INCLUDE[prod_short](../../includes/prod_short.md)], el modelo de Informe 349 se basa en los movimientos de IVA filtrados por los códigos de país o región. Debe crear un modelo 349 y enviar el archivo a la web de la [Agencia Tributaria](https://go.microsoft.com/fwlink/?LinkId=238181) o con un CD-ROM.  

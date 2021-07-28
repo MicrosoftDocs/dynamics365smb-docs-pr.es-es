@@ -1,5 +1,5 @@
 ---
-title: Extensión de migración de QuickBooks | Microsoft Docs
+title: Extensión de la migración de datos de QuickBooks
 description: Describe cómo utilizar la extensión para importar clientes, proveedores, elementos y cuentas de QuickBooks Desktop a Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: d6b44ccfc11438930450dd86cab53736f00995c5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a7f6a3ac5fdbaf34cf4280be3b8520dde55c7c71
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785040"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6434966"
 ---
 # <a name="the-quickbooks-data-migration-extension"></a>Extensión de la migración de datos de QuickBooks
 
@@ -57,7 +57,7 @@ Para extraer sus datos de la aplicación QuickBooks Desktop necesitará descarga
 
 ## <a name="finding-the-quickbooks-data-migration-extension"></a>Buscar la extensión de la migración de datos de QuickBooks
 
-La extensión de la migración de datos de QuickBooks está instalada y lista como parte integrada de la guía de configuración asistida de la migración de datos. Si está preparado para empezar ahora y ha exportado sus datos de QuickBooks, elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Configuración asistida** y, a continuación, haga clic el vínculo relacionado. Seleccione **Migrar los datos empresariales** y, a continuación, siga los pasos en la guía.  
+La extensión de la migración de datos de QuickBooks está instalada y lista como parte integrada de la guía de configuración asistida de la migración de datos. Si está listo para comenzar ahora y ha exportado sus datos desde QuickBooks, elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración asistida** y luego elija el enlace relacionado. Seleccione **Migrar los datos empresariales** y, a continuación, siga los pasos en la guía.  
 
 ## <a name="what-do-i-do-after-i-migrate-data"></a>¿Qué hago después de la migración de datos?
 

@@ -1,6 +1,6 @@
 ---
-title: Crear fichas de producto para bienes o servicios | Documentos de Microsoft
-description: Puede crear fichas de producto para servicios que venda como horas y para productos físicos, como productos de ensamblaje, productos terminados, componentes o materias primas, que venda del inventario.
+title: Crear fichas de producto para bienes o servicios
+description: Puede crear fichas de producto para servicios que venda como horas y para productos físicos, como productos de ensamblaje, productos terminados, que venda del inventario.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 8948024ea1dc0bbbdbd6f2a2262e2616b35671e5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2195940a65ffa6cfe904e09028846991f68dfb6f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785878"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435648"
 ---
 # <a name="register-new-items"></a>Registro de productos nuevos
 
@@ -40,7 +40,7 @@ En el siguiente procedimiento se explica cómo crear una ficha de producto desde
 
 ## <a name="to-create-a-new-item-card"></a>Para crear una nueva ficha de producto.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos**, y luego elija el enlace relacionado.  
 2. En la página **Productos**, seleccione la acción **Nuevo**.
 
     Si solo existe una plantilla de producto, se abre una nueva ficha de producto con algunos de los campos rellenados con la información de la plantilla.
@@ -77,7 +77,7 @@ Si desea registrar productos que luego se utilicen en órdenes de producción, e
 
 Si compra el mismo producto a varios proveedores, deberá introducir información acerca de cada proveedor del producto, como precios, plazo de entrega (días), descuentos, etc.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos**, y luego elija el enlace relacionado.  
 2. Seleccione el elemento correspondiente y, a continuación, elija la acción **Editar**.  
 3. Seleccione la acción **Proveedores**.  
 4. Elija el campo **Nº proveedor** y, a continuación, seleccione el proveedor que desea configurar para el producto.  
@@ -100,6 +100,12 @@ Cuando registre un nuevo producto, verá campos relacionados con la gestión del
 
 Si su organización configura posteriormente la gestión del almacén, en la mayoría de los casos, debe volver a cada producto existente para asegurarse de que tenga la información correcta en los distintos campos, de modo que los procesos del almacén se puedan ejecutar como se esperaba. Esta información puede incluir campos como **Código de clase de almacén** o **Código de plantilla de ubicación**. Para obtener más información, consulte [Detalles de diseño: Configuración almacén](design-details-warehouse-setup.md).  
 
+## <a name="planning"></a>Planificación
+
+Cuando su empresa utiliza los procesos de planificación de suministro en [!INCLUDE [prod_short](includes/prod_short.md)], debe completar los campos correspondientes en la ficha desplegable **Planificación**. Para obtener una introducción sobre el área de planificación, consulte [Detalles de diseño: conceptos centrales del sistema de planificación](design-details-central-concepts-of-the-planning-system.md).  
+
+Para ver ejemplos de cómo puede utilizar los campos en la ficha desplegable **Planificación**, consulte [Prácticas recomendadas de configuración: parámetros de planificación](setup-best-practices-planning-parameters.md).  
+
 ## <a name="see-also"></a>Consulte también
 
 [Inventario](inventory-manage-inventory.md)  
@@ -110,6 +116,12 @@ Si su organización configura posteriormente la gestión del almacén, en la may
 [Configurar los grupos contables](finance-posting-groups.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Ccial](sales-manage-sales.md)  
+[Sobre la funcionalidad de la planificación](production-about-planning-functionality.md)  
+[Procedimientos recomendados de configuración: parámetros de la planificación](setup-best-practices-planning-parameters.md)  
+[Procedimientos recomendados de configuración: planificación de suministros](setup-best-practices-supply-planning.md)  
+[Detalles de diseño: Conceptos centrales del sistema de planificación](design-details-central-concepts-of-the-planning-system.md)  
+[Detalles de diseño: Equilibrio de aprovisionamiento y demanda](design-details-balancing-demand-and-supply.md)  
+[Detalles de diseño: Parámetros de la planificación](design-details-planning-parameters.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

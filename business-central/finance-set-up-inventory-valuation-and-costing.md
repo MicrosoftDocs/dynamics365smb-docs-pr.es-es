@@ -1,18 +1,18 @@
 ---
-title: Configuración de valoración de existencias | Documentos de Microsoft
-description: En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.
+title: Configuración de valoración de existencias
+description: Para asegurarse de que los costes de inventario se registran correctamente, debe configurar varios campos y páginas antes de comenzar a realizar transacciones de elementos.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 2194a29247b6ec3c2ee87dfbfe6631f433d0514e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fa04fa90e749434d6ccf19e10e1a7daa1a4eaba8
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783727"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6327143"
 ---
 # <a name="setting-up-inventory-valuation-and-costing"></a>Configuración de valoración de existencias
 

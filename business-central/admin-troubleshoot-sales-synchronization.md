@@ -1,6 +1,6 @@
 ---
 title: Solución de problemas de errores de sincronización | Documentos de Microsoft
-description: Proporciona orientación para identificar y resolver los errores de sincronización.
+description: Este tema proporciona orientación para identificar, solucionar problemas y resolver errores de sincronización.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 91c64ecbd32ec8fe6a528c87d2e102e1a1322816
-ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
+ms.openlocfilehash: 3ed35bc7d0d9db1cd609078372d98535703f6583
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017229"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6326518"
 ---
 # <a name="troubleshooting-synchronization-errors"></a>Solución de problemas de errores de sincronización
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]

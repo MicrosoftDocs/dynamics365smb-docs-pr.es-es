@@ -1,6 +1,6 @@
 ---
-title: Integración con Dynamics 365 Sales | Documentos de Microsoft
-description: Obtenga información sobre cómo preparar Dynamics 365 Business Central para integrarse con Dynamics 365 Sales.
+title: Integración con Dynamics 365 Sales
+description: Aprenda a preparar Dynamics 365 Business Central para integrarse con Dynamics 365 Sales para ver qué está sucediendo en el backend.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6683d8b3a01693d23366f95292eb92f0aabcd268
-ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
+ms.openlocfilehash: 437287401003cc008e3a998e7d28fb7862415abc
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6184504"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325473"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Integración con Dynamics 365 Sales
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -67,7 +67,6 @@ Escriba la siguiente información para la conexión de [!INCLUDE[crm_md](include
 
 | Campo | Descripción |
 |--|--|
-| **URL de Dynamics 365 Sales** | La URL de su instancia de [!INCLUDE[crm_md](includes/crm_md.md)]. Esto permite a los usuarios abrir los registros correspondientes en [!INCLUDE[prod_short](includes/prod_short.md)] desde los registros de [!INCLUDE[crm_md](includes/crm_md.md)], como una cuenta o un producto. Los registros de [!INCLUDE[prod_short](includes/prod_short.md)] abiertos en [!INCLUDE[prod_short](includes/prod_short.md)]. |
 |**URL de Dynamics 365 Sales**|La URL de su instancia de [!INCLUDE[crm_md](includes/crm_md.md)]. Esto permite a los usuarios abrir los registros correspondientes en [!INCLUDE[prod_short](includes/prod_short.md)] desde los registros de [!INCLUDE[crm_md](includes/crm_md.md)], como una cuenta o un producto. Los registros de [!INCLUDE[prod_short](includes/prod_short.md)] abiertos en [!INCLUDE[prod_short](includes/prod_short.md)].|
 |**Servicio web de disponibilidad de artículo activado**|Permitir que las personas que utilizan [!INCLUDE[crm_md](includes/crm_md.md)] consulten la disponibilidad de los artículos (productos) en inventario en [!INCLUDE[prod_short](includes/prod_short.md)]. Si habilita esta opción, también debe proporcionar un nombre de usuario y una clave de acceso que use [!INCLUDE[crm_md](includes/crm_md.md)] para consultar en el servicio web OData la disponibilidad de los artículos (productos). Para obtener más información, consulte [Servicios web OData](/dynamics365/business-central/dev-itpro/webservices/odata-web-services).|
 |**URL de servicio web OData de Dynamics 365 Business Central**|Si habilita el servicio web de disponibilidad de producto, la URL del servicio web OData se proporciona automáticamente. Establezca este campo en la URL de la instancia de [!INCLUDE[prod_short](includes/prod_short.md)] que desea utilizar.<br /><br /> Para restablecer el campo a la URL predeterminada para [!INCLUDE[prod_short](includes/prod_short.md)], elija la acción **Restablecer URL de cliente web**.<br /><br /> Este campo es relevante solo si la solución de integración de [!INCLUDE[prod_short](includes/prod_short.md)] está instalada en [!INCLUDE[crm_md](includes/crm_md.md)].|
@@ -149,8 +148,11 @@ La tabla siguiente describe los proyectos de sincronización predeterminados par
 |Proyecto de sincronización de POSTEDSALESINV-INV - Dynamics 365 Sales|Sincroniza las facturas de [!INCLUDE[crm_md](includes/crm_md.md)] con facturas de ventas registradas de [!INCLUDE[prod_short](includes/prod_short.md)].|De [!INCLUDE[prod_short](includes/prod_short.md)] a [!INCLUDE[crm_md](includes/crm_md.md)]|FACTURAS-FACTURAS DE VENTAS REGISTRADAS|30|1440<br> (24 h)|
 |Sincronización de Estadísticas de clientes - Dynamics 365 Sales|Actualiza las cuentas de [!INCLUDE[crm_md](includes/crm_md.md)] con los últimos datos de los clientes de [!INCLUDE[prod_short](includes/prod_short.md)]. En [!INCLUDE[crm_md](includes/crm_md.md)], la información se muestra en el formulario de vista rápida **Estadísticas de la cuenta de Business Central** de cuentas que están emparejadas con los clientes de [!INCLUDE[prod_short](includes/prod_short.md)].<br /><br /> Estos datos también pueden actualizarse manualmente desde cada registro de cliente. Para obtener más información, consulte [Emparejar y sincronizar registros manualmente](admin-how-to-couple-and-synchronize-records-manually.md). </BR></BR>**Nota:** este movimiento de la cola de proyectos es relevante solo si la solución de integración de [!INCLUDE[prod_short](includes/prod_short.md)] está instalada en [!INCLUDE[crm_md](includes/crm_md.md)]. |No aplicable|No aplicable|30|No aplicable| 
 
-## <a name="connecting-business-central-on-premises-versions-earlier-than-version-16"></a>Conexión de versiones de Business Central en las instalaciones anteriores a la versión 16
-El equipo de Microsoft Power Platform ha [anunciado](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse) que está desaprobando el tipo de autenticación de Office365. Si esta usando [!INCLUDE[prod_short](includes/prod_short.md)] local anterior a la versión 16, debe usar el tipo de autenticación OAuth para conectarse a [!INCLUDE[crm_md](includes/crm_md.md)] en línea. Los pasos de esta sección describen cómo realizar la conexión.
+## <a name="connecting-to-on-premises-versions-of-business-central-2019-release-wave-1-and-microsoft-dynamics-nav-2018"></a>Conexión con las versiones locales de Business Central 2019, lanzamientos de versiones 1 y Microsoft Dynamics NAV 2018
+El equipo de Microsoft Power Platform ha [anunciado](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse) que está desaprobando el tipo de autenticación de Office365. Si esta usando [!INCLUDE[prod_short](includes/prod_short.md)] local anterior a Business Central 2019, lanzamiento de versiones 1, debe usar el tipo de autenticación OAuth para conectarse a [!INCLUDE[crm_md](includes/crm_md.md)] online. Los pasos de esta sección describen cómo conectar las siguientes versiones del producto:
+
+* Business Central 2019 lanzamiento de versiones 1
+* Microsoft Dynamics NAV 2018
 
 ### <a name="prerequisites"></a>Requisitos previos
 
@@ -164,9 +166,13 @@ El equipo de Microsoft Power Platform ha [anunciado](/power-platform/important-c
 
    - OAuth
 
-### <a name="to-connect-a-version-of-business-central-earlier-than-version-16"></a>Para conectarse a una versión de Business Central anterior a la versión 16
+### <a name="to-connect-business-central-2019-release-wave-1-and-dynamics-nav-2018"></a>Para conectar Business Central 2019 lanzamiento de versiones 1 y Dynamics NAV 2018
 
-1. Importe la Solución de integración de Microsoft Dynamics 365 Business Central en su entorno de [!INCLUDE[crm_md](includes/crm_md.md)]. La solución de integración está disponible en la carpeta CrmCustomization del DVD de instalación de Business Central. Hay varias versiones de la solución, como DynamicsNAVIntegrationSolution_v8 o DynamicsNAVIntegrationSolution_v9 o DynamicsNAVIntegrationSolution_v91. La solución que debe importar depende de la versión de [!INCLUDE[crm_md](includes/crm_md.md)] a la que se esté conectando. [!INCLUDE[crm_md](includes/crm_md.md)] online requiere la solución de integración DynamicsNAVIntegrationSolution_v91.
+1. Importe la Solución de integración de Microsoft Dynamics 365 Business Central en su entorno de [!INCLUDE[crm_md](includes/crm_md.md)]. La solución de integración está disponible en la carpeta CrmCustomization del DVD de instalación de [!INCLUDE[prod_short](includes/prod_short.md)] o Dynamics NAV 2018. Dependiendo de la versión de su producto, importe uno de los siguientes:
+
+   * Para [!INCLUDE[prod_short](includes/prod_short.md)], la carpeta contiene las soluciones DynamicsNAVIntegrationSolution_v9 y DynamicsNAVIntegrationSolution_v91. . La solución que debe importar depende de la versión de [!INCLUDE[crm_md](includes/crm_md.md)] a la que se esté conectando. [!INCLUDE[crm_md](includes/crm_md.md)] online requiere la solución de integración DynamicsNAVIntegrationSolution_v91.
+   * Para  Dynamics NAV 2018, instale la solución DynamicsNAVIntegrationSolution.
+
 2. Cree un usuario de integración no interactivo en su entorno de [!INCLUDE[crm_md](includes/crm_md.md)] y asigne al usuario los siguientes roles de seguridad. Para obtener más información, consulte [Crear una cuenta de usuario no interactiva](/power-platform/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account).
 
    * Administrador de integración de Dynamics 365 Business Central
@@ -175,17 +181,29 @@ El equipo de Microsoft Power Platform ha [anunciado](/power-platform/important-c
    > [!Important]
    > Este usuario no debe tener la función de seguridad de administrador del sistema. Además, no puede utilizar la cuenta de administrador del sistema como usuario de integración.
 
-3.  En Azure Portal, cree un registro de aplicación para [!INCLUDE[prod_short](includes/prod_short.md)]. Para conocer los pasos, consulte [Registrar una aplicación en Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory). Los ajustes que son específicos para conectarse a [!INCLUDE[crm_md](includes/crm_md.md)] son los permisos delegados. La siguiente tabla enumera y describe los permisos.
+3.  En Azure Portal, cree un registro de aplicación para [!INCLUDE[prod_short](includes/prod_short.md)]. Para obtener más información, consulte [Registrar una aplicación en Azure Active Directory](/powerapps/developer/data-platform/walkthrough-register-app-azure-active-directory). 
+  
+   > [!NOTE]
+   > Le recomendamos que registre la aplicación en el mismo inquilino que su entorno de Dataverse para que no tenga que dar su consentimiento para permitir que la aplicación acceda al entorno. Si registra la aplicación en otro entorno, debe iniciar sesión en Azure AD usando la cuenta de administrador para su entorno de Dataverse y dar su consentimiento.
+   >
+   > Además, la aplicación que registre no debe tener un secreto. La conexión de una aplicación con un secreto con Dataverse solo está disponible en Business Central 2020 lanzamiento de versiones 1 y versiones posteriores.
+  
+4. Dependiendo de la versión de su producto, realice una de las siguientes operaciones:
 
-   |API / Nombre de permiso |Escriba  |Descripción  |
-   |---------|---------|---------|
-   |Financials.ReadWrite.All     |Delegado|Requerido para [!INCLUDE[prod_short](includes/prod_short.md)].    |
-   |user_impersonation     |Delegado|Requerido para [!INCLUDE[crm_md](includes/crm_md.md)].|
-   
-4. En [!INCLUDE[prod_short](includes/prod_short.md)], busque **Configuración de la conexión de Microsoft Dynamics 365** y luego elija el enlace relacionado. 
-5. En la página **Configuración de la conexión de Microsoft Dynamics 365**, en el campo **tipo de autenticación**, elija la opción para OAuth. 
+    * En [!INCLUDE[prod_short](includes/prod_short.md)], busque **Configuración de la conexión de Microsoft Dynamics 365** y luego elija el enlace relacionado. 
+    * En Dynamics NAV 2018, busque **Configuración de la conexión de Microsoft Dynamics 365 for Sales** y luego elija el enlace relacionado.
+
+5. En el campo **Tipo de autenticación**, elija la opción para OAuth. 
 6. Elija la versión de CRM SDK que coincida con la versión de la solución que importó en el paso 1.
-7. En el campo **Dirección del servidor**, ingrese la URL de su entorno de [!INCLUDE[crm_md](includes/crm_md.md)] y, a continuación, introduzca el nombre de usuario y la contraseña del usuario de integración.
+
+   > [!NOTE]
+   > Este paso solo es relevante para [!INCLUDE[prod_short](includes/prod_short.md)].
+
+7. Escriba la dirección URL de su entorno de [!INCLUDE[crm_md](includes/crm_md.md)] y, a continuación, introduzca el nombre de usuario y la contraseña del usuario de integración. 
+
+   * En [!INCLUDE[prod_short](includes/prod_short.md)], utilice el campo **Dirección del servidor**.
+   * En Dynamics NAV 2018, use el campo **URL de Dynamics 365 Sales**.
+
 8. En el campo **Cadena de conexión**, especifique el ID del registro de la aplicación. Este campo tiene dos tokens en los que se debe especificar el ID de su aplicación.
 
    |Token           |Descripción  |

@@ -1,5 +1,5 @@
 ---
-title: Preguntas más frecuentes acerca de la opción Dígame | Documentos de Microsoft
+title: Preguntas frecuentes sobre Dígame
 description: Este artículo proporciona respuestas a las preguntas que nuestros socios y clientes suelen hacer sobre la función Dígame.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: 85b1f4f0b677baa5ca8a522acb1b383689f72e9e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 20493ffc3dd20da07d5f27602f4c766a0ebfbd87
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783214"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325868"
 ---
 # <a name="tell-me-faq"></a>FAQ acerca de la función Dígame
 Este tema responde las preguntas que nuestros usuarios avanzados suelen hacer sobre la función Dígame.

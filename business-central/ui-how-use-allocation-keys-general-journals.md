@@ -1,6 +1,6 @@
 ---
-title: Usar claves de asignación en diarios generales | Documentos de Microsoft
-description: Obtenga infraestructura sobre cómo puede usar las claves de asignación en diarios.
+title: Utilizar claves de asignación en diarios generales
+description: Puede asignar un movimiento en un diario general a varias cuentas diferentes al registrar el diario.
 services: project-madeira
 documentationcenter: ''
 author: edupont04
@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost accounting
-ms.date: 04/01/2021
+ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: 2760b53bfa1e277d4c4763810d580f5b66a223dc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 98316cbaf22546a9a2d01329fa1e242e219a1460
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772259"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435221"
 ---
 # <a name="use-allocation-keys-in-general-journals"></a>Utilizar claves de asignación en diarios generales
 Puede asignar un movimiento en un diario general a varias cuentas diferentes al registrar el diario. La distribución puede realizarse por cantidad, porcentaje o importe.
 
 ## <a name="to-set-up-allocation-keys"></a>Para configurar claves de asignación
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Diario general periódico** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diario general periódico** y luego elija el enlace relacionado.
 2. Seleccione el campo **Nombre de sección** para abrir la página **Secciones diario general**.
 3. Puede modificar las asignaciones en una sección existente de la lista o crear une nueva sección con asignaciones.
    * Para crear un lote nuevo, seleccione la acción **Nuevo** y vaya al paso siguiente.
@@ -38,7 +38,7 @@ Puede asignar un movimiento en un diario general a varias cuentas diferentes al 
 11. Registre el diario.
 
 ## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>Para modificar una clave de asignación que ya haya sido configurada
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Diario general periódico** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diario general periódico** y luego elija el enlace relacionado.
 2. En la página **Diario general periódico** (Diarios generales periódicos), seleccione el diario con la distribución.
 3. Seleccione la línea con la asignación y, a continuación, seleccione la acción **Asignaciones**.
 4. Cambie los campos relevantes y, a continuación, elija el botón **Aceptar**.

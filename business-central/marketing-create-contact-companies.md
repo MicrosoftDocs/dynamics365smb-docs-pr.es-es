@@ -1,6 +1,6 @@
 ---
 title: Crear contactos comerciales
-description: Describe las tareas para crear contactos y definir sus relaciones de negocio.
+description: Describe las tareas involucradas en la creación de contactos y la definición de sus relaciones comerciales en la Ficha de contacto.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2021
+ms.date: 07/08/2021
 ms.author: edupont
-ms.openlocfilehash: 305d1460b93c1294335b5a8afcf42593c465ebe4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4ab9b6051f93daa9f1b342ed8a5fbaa7bbd9c4b2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780803"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435324"
 ---
 # <a name="create-contacts"></a>Crear contactos
+
 Cuando desarrolle una relación comercial con alguien de otra empresa, agréguelo como contacto en [!INCLUDE[prod_short](includes/prod_short.md)]. Luego, agregue cualquier información sobre ellos o su empresa que pueda ser útil para futuras comunicaciones. En la página **Tarjeta de contacto**, puede crear los siguientes tipos de contactos:
 
 * **Persona**: Normalmente, esto sucede cuando ha tenido contacto directo con alguien y tiene sus datos de contacto.
@@ -29,8 +30,13 @@ También puede modificar el valor del campo **Tipo** más tarde. Alternativament
 
 Cuando un contacto se convierte en cliente, por ejemplo, la persona de contacto o la empresa de contacto pasa a ser el nombre del cliente. El registro del contacto se mantiene y puede vincular el contacto y el cliente para que sus datos se sincronicen en el futuro.
 
+> [!NOTE]
+> Si activa la [actualización de características para plantillas de conversión](/dynamics365-release-plan/2020wave2/smb/dynamics365-business-central/use-conversion-templates-convert-contacts-vendors-employees), también puede crear proveedores o empleados a partir de contactos comerciales.
+>
+> Sin embargo, si ya está utilizando la funcionalidad incorporada para crear clientes o artículos automáticamente, esta actualización de características no admite campos personalizados y los clientes o artículos recién creados no incluirán dichos datos.
+
 ## <a name="to-create-a-contact-manually"></a>Para crear un contacto manualmente
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Contactos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Contactos** y luego elija el enlace relacionado.
 2. Seleccione la acción **Nuevo**.
 3. En el campo **N.º**, introduzca un número para el contacto.
 
@@ -43,7 +49,7 @@ Si tiene clientes, proveedores y cuentas bancarias para los que desea crear tarj
 > [!NOTE]  
 > Antes de que pueda crear contactos basados en datos existentes, debe especificar un código de relación de negocio para clientes, proveedores o cuentas bancarias en la pestaña desplegable **Interacciones** en la página **Configuración de marketing**. Para obtener más información, consulte [Configurar contactos](marketing-setup-contacts.md).
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), especifique una de las siguientes opciones, dependiendo desde dónde desee crear contactos y, a continuación, elija el vínculo relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , especifique una de las siguientes opciones, según la ubicación desde la cual desee crear contactos y, a continuación, elija el vínculo relacionado.
    * **Crear contactos desde clientes**
    * **Crear contactos desde proveedores**
    * **Crear contactos desde bancos**
@@ -61,7 +67,7 @@ Si tiene un cliente, proveedor, empleado o banco para la empresa para la que des
 > [!NOTE]  
 > Para poder crear clientes, proveedores, empleados o bancos a partir de contactos, debe especificar un código de relación de negocio en la página **Configuración de marketing** de la Ficha desplegable **Interacciones**. Para obtener más información, consulte [Configurar contactos](marketing-setup-contacts.md).
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Contactos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Contactos** y luego elija el enlace relacionado.
 2. Seleccione el contacto que desea crear como cliente, proveedor, empleado o banco.
 3. Elija la acción **Crear como** y, a continuación, elija **Cliente**, **Proveedor**, **Banco** o **Empleado**.
 4. Elija el botón **Aceptar**.
@@ -109,7 +115,7 @@ Hay tres maneras de habilitar la sincronización de datos entre contactos y clie
 * Cuando se vinculan los contactos con clientes existentes, proveedores, empleados o bancos desde la tarjeta de contacto. Consulte [Para vincular un contacto con un cliente, proveedor o cuenta bancaria existente](marketing-create-contact-companies.md#to-link-a-contact-to-an-existing-customer-vendor-employee-or-bank-account).
 
 ## <a name="to-view-which-customer-vendor-employee-or-bank-account-a-contact-is-related-to"></a>Para ver con qué cliente, proveedor, empleado o banco está relacionado un contacto
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Contactos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Contactos** y luego elija el enlace relacionado.
 2. Seleccione la línea de un contacto, elija la acción **Información relacionada** y, a continuación, la acción **Cliente/Proveedor/Empleado/Banco**.
 
 ## <a name="see-also"></a>Consulte también

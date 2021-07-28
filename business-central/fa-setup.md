@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a35bd9a83ec05a25bc087722fb2009ca27bbfa2f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 54ade14f58d9be5957c77a768096b5f475db5798
+ms.sourcegitcommit: a8a01561f46c0a60f8bfd7985be0dcd3e28441fa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770421"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343554"
 ---
 # <a name="setting-up-fixed-assets"></a>Configurar activos fijos
 Antes de trabajar con activos fijos, debe definir algunos parámetros:  
@@ -40,6 +40,8 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 | Activar el seguro de activos fijos, configurar la información del seguro, una ficha de seguro por póliza y preparar los diarios para registrar los costes del seguro. |[Configure el seguro de los activos fijos](fa-how-setup-insurance.md) |
 | Activar el mantenimiento de activos fijos, configurar la información general de mantenimiento, configurar el mantenimiento de las cuentas de registro y definir los tipos de trabajo de mantenimiento. |[Configure el mantenimiento de los activos fijos](fa-how-setup-maintenance.md) |
 | Conocer varios métodos de amortización de activos fijos. |[Métodos de depreciación](fa-depreciation-methods.md) |
+| Obtenga información sobre cómo aplicar métodos de amortización definidos por el usuario. |[Configurar métodos de amortización definidos por usuario](fa-how-setup-user-defined-depreciation-method.md) |
+
 
 ## <a name="see-also"></a>Consulte también
 [Activos fijos](fa-manage.md)  

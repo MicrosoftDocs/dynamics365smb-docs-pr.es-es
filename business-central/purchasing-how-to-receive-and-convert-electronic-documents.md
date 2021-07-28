@@ -1,6 +1,6 @@
 ---
-title: 'Procedimiento: recibir y convertir documentos electrónicos | Documentos de Microsoft'
-description: Puede recibir documentos electrónicos directamente desde sus socios colaboradores o desde un servicio de OCR.
+title: Recibir y convertir documentos electrónicos
+description: Este tema explica cómo recibir documentos electrónicos directamente desde sus socios colaboradores o desde un servicio de OCR.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 17a03f58ad9cca702423efe6e8810cffe25a7e81
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bba45239906820f4c56b948d80a46c8ca427a342
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772559"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435089"
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Recibir y convertir documentos electrónicos
 La versión genérica de [!INCLUDE[prod_short](includes/prod_short.md)] admite la recepción de facturas electrónicas y abonos en formato PEPPOL, admitido por los proveedores de servicios de intercambio de documentos más importantes. Para recibir una factura de un proveedor como un documento electrónico PEPPOL, debe procesarse el documento en la página Documentos entrantes para luego convertirlo en una factura de compra o en una línea de diario general en [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -41,7 +41,7 @@ La versión genérica de [!INCLUDE[prod_short](includes/prod_short.md)] admite l
 
 ### <a name="to-receive-and-convert-an-electronic-invoice-to-a-purchase-invoice"></a>Para recibir y convertir una factura electrónica en una factura de compra  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Documentos entrantes** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Documentos entrantes** y luego elija el enlace relacionado.  
 
 2.  Seleccione la línea del registro del documento entrante que representa una factura electrónica entrante nueva y, a continuación, elija la acción **Editar**.  
 

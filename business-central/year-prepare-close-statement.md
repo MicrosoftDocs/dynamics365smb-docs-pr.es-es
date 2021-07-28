@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: f58ee0ab43e8d43ae2d08e67cec52a9dd63ac202
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: dadfa25189aa44c032dd03aee053be39d87bc4d2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776646"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435914"
 ---
 # <a name="preparing-closing-statements"></a>Preparación de extractos de cierre
 Existen numerosos informes estándar que puede utilizar para recopilar la información necesaria para preparar las declaraciones de cierre de su empresa.
@@ -32,7 +32,7 @@ La tabla siguiente describe diversos informes que pueden ayudar en este proceso.
 | Imprimir un esquema de cuentas para analizar cifras en cuentas de contabilidad o comparar los movimientos de contabilidad reales con los presupuestados. |**Esquema cuentas** |
 | Comprobar si los movimientos de clientes y proveedores cuadran con los movimientos correspondientes de la contabilidad. |**Reconc. ctas. client./prov.** |
 
-Para ver informe, elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba el nombre como aparece en la tabla y, a continuación, elija el vínculo relacionado.
+Para ver un informe, elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba el nombre tal como aparece en la tabla y luego elija el enlace relacionado.
 
 ## <a name="see-also"></a>Consulte también
 [Cerrar años y periodos](year-close-years-periods.md)  

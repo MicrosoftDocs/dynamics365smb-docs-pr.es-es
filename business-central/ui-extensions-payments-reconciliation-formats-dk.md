@@ -1,5 +1,5 @@
 ---
-title: Utilizar la extensión de pagos y conciliaciones (DK) | Documentos de Microsoft
+title: Extensión de pagos y conciliaciones (DK)
 description: Esta extensión facilita la exportación de archivos con formato predefinido para cumplir con los requisitos del banco para envíos electrónicos.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, bank, formats
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: fdd8fced06d8efd5ab6959267bfc0171c4decdd2
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ef87f41ec58dbc37caff647ad577f1cfcc205dfc
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785090"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6434930"
 ---
 # <a name="the-payments-and-reconciliations-dk-extension"></a>Extensión de pagos y conciliaciones (DK)
 
@@ -55,7 +55,7 @@ Además, debe asignar a los proveedores a un **Grupo contable negocio** y un **G
 
 ### <a name="to-allow-prod_short-to-export-payment-data"></a>Para permitir que [!INCLUDE[prod_short](includes/prod_short.md)] realice exportaciones de datos de pagos
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diarios de pagos** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diario de pagos** y luego elija el enlace relacionado.  
 2. En la página **Editar diario de pagos**, seleccione el proceso **Banco**.  
 3. Seleccione la casilla de verificación **Permitir exportación de pagos**.  
 
@@ -69,19 +69,19 @@ La siguiente tabla muestra las combinaciones de formas de pago FIK y GIRO que [!
 |¿Se permiten los mensajes al destinatario? | Sí |No |No | Sí |
 |¿Contiene el número de referencia de pago? | N.º | Sí, 16 dígitos. | Sí, 15 dígitos. | No|
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Proveedores** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proveedores** y luego elija el enlace relacionado.  
 2. Abra la ficha, amplíe la pestaña **Pagos**, en el campo **Forma pago** seleccione la forma de pago.  
 3. Según de la opción que seleccione, debe rellenar otros campos. Consulte la tabla anterior para obtener una descripción de las combinaciones.  
 
 ### <a name="to-specify-the-format-to-use-for-a-bank-account"></a>Para especificar el formato que debe utilizar en un banco
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Bancos** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cuentas bancarias** y luego elija el enlace relacionado.  
 2. Abra la ficha del banco.  
 3. En el campo **Formato de exportación de pagos**, seleccione el formato del archivo de exportación.  
 
 ## <a name="choosing-the-fik-or-giro-payment-information-for-vendor-invoices"></a>Elección de la información de pago de FIK o Giro para facturas de proveedores
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Facturas de compra** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Facturas compra** y luego elija el enlace relacionado.
 2. Seleccione el proveedor. Recuerde, debe ser un proveedor danés con una dirección en Dinamarca.
 3. Cree una factura. Los campos **Forma pago** y **Número de proveedor** se rellenan según los valores de la ficha de proveedor. Puede cambiarlo si lo desea.
 4. En el campo **Referencia de pago**, introduzca el número de 15 dígitos de la factura del proveedor.  
@@ -93,7 +93,7 @@ La siguiente tabla muestra las combinaciones de formas de pago FIK y GIRO que [!
 
 ## <a name="to-use-the-extension-to-export-payment-data"></a>Para utilizar la extensión para exportar datos de pago
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diarios de pagos** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de pagos** y luego elija el enlace relacionado.  
 2. Seleccione la acción **Proponer diarios de pagos a proveedores**.  
 
     > [!Tip]

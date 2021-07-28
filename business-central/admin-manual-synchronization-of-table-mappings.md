@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 45a120bd56ea53bf0ba885f04f9bdcedbeba4c5d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ca44ce5f2f83e61080ddfff5dbe1771ffc586653
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781176"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435527"
 ---
 # <a name="manually-synchronize-table-mappings"></a>Sincronizar manualmente las asignaciones de tablas
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -43,7 +43,7 @@ Si se crea una fila, y dónde se crea, depende de la dirección de sincronizaci�
 >  Normalmente, solo se utiliza la sincronización completa cuando se configura inicialmente la integración entre [!INCLUDE[prod_short](includes/prod_short.md)] y [!INCLUDE[prod_short](includes/cds_long_md.md)], y solo una de las soluciones contiene datos, que se desea copiar en la otra solución. Una sincronización completa puede ser útil en un entorno de demostración. Debido a que la sincronización completa crea y asocia registros automáticamente entre las soluciones, es más rápido empezar a trabajar con la sincronización de datos entre registros. Por otro lado, solo debe ejecutar una sincronización completa si desea que se incluya una fila de [!INCLUDE[prod_short](includes/prod_short.md)] para cada fila de [!INCLUDE[prod_short](includes/cds_long_md.md)] para las asignaciones de tabla indicadas. De lo contrario, puede tener registros no deseados o duplicados en [!INCLUDE[prod_short](includes/prod_short.md)] o [!INCLUDE[prod_short](includes/cds_long_md.md)].  
 
 ### <a name="to-run-a-full-synchronization"></a>Para ejecutar una sincronización completa  
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de la conexión de Dataverse** y luego elija el enlace relacionado.
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de conexión de Dataverse** y luego elija el enlace relacionado.
 
     > [!NOTE]
     > Si desea ejecutar una sincronización completa para tablas a través de Dynamics 365 Sales, use la página **Configuración de la conexión de Microsoft Dynamics 365 Sales** en su lugar.
@@ -72,14 +72,14 @@ Puede ver los resultados de la sincronización en la página **Trabajos de sincr
 >  Al modificar previamente la asignación de tabla de integración, puede crear filtros para controlar qué datos se sincronizan o configurar asignaciones para crear nuevos datos en la solución de destino para registros o filas desemparejados en el origen. Para obtener más información, consulte [Modificar asignaciones de tablas para la sincronización](admin-how-to-modify-table-mappings-for-synchronization.md).
 
 ### <a name="to-synchronize-data-for-all-tables"></a>Para sincronizar los datos para todas las tablas  
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de la conexión de Microsoft Dynamics 365 Sales** y luego elija el enlace relacionado.
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de conexión de Microsoft Dynamics 365 Sales** y luego elija el enlace relacionado.
 2.  Elija la acción **Sincronizar registros modificados** y, a continuación, seleccione **Si**.  
 
 ## <a name="synchronize-individual-table-mappings"></a>Sincronizar las asignaciones de tablas individuales
 Puede utilizar la página **Lista de asignaciones de tablas de integración** para ejecutar un trabajo de sincronización para asignaciones de tabla. Esto sincronizará los datos de todos los registros y filas emparejados en las tablas de [!INCLUDE[prod_short](includes/prod_short.md)] y [!INCLUDE[prod_short](includes/cds_long_md.md)] definidas mediante las asignaciones de tablas. De forma predeterminada, solo se sincronizarán los datos que se hayan modificado desde la última sincronización.  
 
 ### <a name="to-synchronize-records-of-an-integration-table-mapping"></a>Para sincronizar los registros de asignación de tabla de integración  
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Asignaciones de tablas de integración** y luego elija el enlace relacionado.
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Asignaciones de tabla de integración** y luego elija el enlace relacionado.
 2.  Elija la acción **Sincronizar registros modificados** y, a continuación, seleccione **Si**.  
 
 ## <a name="see-also"></a>Consulte también  

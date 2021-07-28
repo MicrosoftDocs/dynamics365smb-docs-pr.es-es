@@ -1,6 +1,6 @@
 ---
 title: Métodos de amortización de activos fijos
-description: Conozca los diferentes métodos integrados para depreciar o amortizar activos fijos en la versión predeterminada de Business Central.
+description: Conozca los diferentes métodos integrados para depreciar o amortizar activos fijos en la versión predeterminada de Business Central que incluye ocho métodos.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 04/01/2021
+ms.date: 07/05/2021
 ms.author: edupont
-ms.openlocfilehash: 9e531a4f304829b0549fbe21e8d671708373ab22
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 649a60f815da072a1a2794492c4e957ca74d8e08
+ms.sourcegitcommit: a8a01561f46c0a60f8bfd7985be0dcd3e28441fa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774160"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343379"
 ---
 # <a name="depreciation-methods-for-fixed-assets"></a>Métodos de amortización de activos fijos
 
@@ -29,7 +29,7 @@ Hay ocho métodos de amortiación disponibles en la versión predeterminada de [
 * Definido por el usuario  
 
   > [!NOTE]  
-  > Especifique su propio método de amortización definiendo tablas de amortización.
+  > Especifique su propio método de amortización definiendo tablas de amortización. Para obtener información sobre cómo aplicar un método de amortización definido por el usuario, consulte [Configurar método de amortización definido por el usuario](fa-how-setup-user-defined-depreciation-method.md).
 * Manual  
 
   > [!NOTE]  
@@ -220,74 +220,6 @@ Método de cálculo:
     *Importe lineal = 23.730,46/3 = 7.910,15=3.995,07+3.995,08*  
 
     Se utiliza el importe lineal, ya que es el importe mayor.  
-
-## <a name="user-defined-depreciation"></a>Amortización definida por el usuario
-
-La aplicación dispone de una utilidad que permite configurar los métodos de amortización definidos por el usuario.  
-
-Con un método definido por el usuario, se utiliza la página **Tablas amortización**, donde debe introducir un porcentaje de amortización para cada periodo (mes, trimestre, año o periodo contable). Luego, cuando asigna un libro de amortización con un método definido por el usuario para un activo fijo, debe establecer los campos **Fecha de primera amortización definida por el usuario** y **Fecha inicio amortización** en la página **Libros amortización activos** para el activo fijo específico.  
-
-La fórmula para calcular los importes de amortización es:  
-
-*Importe amortización = (% Amortización x Nº días amortización x Base amortizable) / (100 x 360)*  
-
-### <a name="depreciation-based-on-number-of-units"></a>Amortización según el número de unidades
-
-Este método definido por el usuario también se puede utilizar para amortizar según el número de unidades, por ejemplo, en el caso de máquinas de producción con una capacidad de vida establecida. En la página **Tablas amortización**, puede introducir el número de unidades que pueden producirse en cada periodo (mes, trimestre, año o periodo contable).  
-
-### <a name="to-set-up-user-defined-depreciation-methods"></a>Para configurar métodos de amortización definidos por usuario
-
-En la página **Tabla amortización**, puede configurar métodos de amortización definidos por el usuario. Por ejemplo, puede configurar la amortización según el número de unidades.  
-
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Tablas de amortización** y luego elija el enlace relacionado.  
-2. En la página **Lista tablas amortización**, elija la acción **Nuevo**.  
-3. En la página **Ficha tablas amortización**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-
-> [!TIP]
-> Utilice la función **Crear suma de tabla de dígitos** para definir una tabla de depreciación basada en el método *Suma de dígitos*.
-
-Con el mátodo *Suma de dígitos*, si un activo fijo se deprecia durante 4 años, entonces la depreciación para cada año se calcula de la siguiente manera:
-
-Suma de dígitos = 1 + 2 + 3 + 4 = 10 de amortización:
-
-* Año 1 = 4/10  
-* Año 2 = 3/10  
-* Año 3 = 2/10  
-* Año 4 = 1/10  
-
-### <a name="example---user-defined-depreciation"></a>Ejemplo: amortización definida por el usuario
-
-Por motivos de impuestos puede utilizar un método amortización que le permita amortizar activos de forma acelerada.  
-
-Por tanto, podría utilizar los siguientes tipos de amortización de un activo con una duración de tres años:  
-
-* Año 1: 25 %  
-* Año 2: 38 %  
-* Año 3: 37 %  
-
-El coste es de 100.000 DL y el periodo de amortización es de cinco años. La amortización se calcula anualmente.  
-
-| Fecha | A/F Tipo registro | Días | Importe | Valor contable |
-| --- | --- | --- | --- | --- |
-| 01/01/20 |Coste |(Fecha inicio amortización) |100,000.00 |100,000.00 |
-| 31/12/20 |Amortización |360 |-25.000,00 |75,000.00 |
-| 31/12/21 |Amortización |360 |-38.000,00 |37,000.00 |
-| 31/12/22 |Amortización |360 |-37.000,00 |0 |
-| 31/12/23 |Amortización |Ninguno |Ninguno |0 |
-| 31/12/24 |Amortización |Ninguno |Ninguno |0 |
-
-Si utiliza un método definido por el usuario, los campos **Primera fecha de amortización definida por el usuario** y **Fecha de inicio de amortización** deben rellenarse en la página **Libros amortización activos** para el activo fijo especificado. El campo **1ª fecha amort. def.-usuario** y el contenido del campo **Longitud periodo** en la página **Tablas amortización** se utilizan para determinar los intervalos de tiempo a utilizar en los cálculos de amortización. Así se garantiza que la aplicación comenzará a utilizar el porcentaje especificado para todos los activos en el mismo día. El campo **Fecha inicio amortización** se utiliza para calcular el número de días de amortización.  
-
-En el ejemplo anterior, ambos campos **Primera fecha de amortización definida por el usuario** y **Fecha de inicio de la depreciación** se establecerían en 01/01/20 en la página **Libros amortización activos** para el activo fijo específico. Si, no obstante, el campo **1ª fecha amort. def.-usuario** tuviera 01/01/20 y el campo **Fecha inicio amortización** tuviera 01/04/20, el resultado podría ser:  
-
-| Fecha | A/F Tipo registro | Días | Importe | Valor contable |
-| --- | --- | --- | --- | --- |
-| 01/01/20 |Coste |(Fecha inicio amortización) |100,000.00 |100,000.00 |
-| 31/12/20 |Amortización |270 |-18.750,00 |81,250.00 |
-| 31/12/21 |Amortización |360 |-38.000,00 |42,250.00 |
-| 31/12/22 |Amortización |360 |-37.000,00 |6,250.00 |
-| 31/12/23 |Amortización |90 |-6.250,00 |0 |
-| 31/12/24 |Amortización |Ninguno |Ninguno |0 |
 
 ## <a name="half-year-convention-depreciation"></a>Amortización de convenio de medio año
 
